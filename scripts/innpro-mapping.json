@@ -1,0 +1,32 @@
+{
+  "categoryExclusionsByPath": [
+    "*Kategoria tymczasowa"
+  ],
+  "categoryRenamesByPath": {
+    "Audio": "TV, audio a video > Audio technika",
+    "Foto a video": "TV, audio a video > Foto a optika",
+    "IT príslušenstvo": "TV, audio a video > Počítače a príslušenstvo",
+    "Hry": "TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo",
+    "Príslušenstvo GSM": "TV, audio a video > Mobily a tablety",
+    "Smartfóny a tablety": "TV, audio a video > Mobily a tablety",
+    "Smart hodinky": "TV, audio a video > Mobily a tablety > Smart hodinky",
+    "Spotrebná elektronika": "TV, audio a video > Televízory",
+    "Drony": "Dróny a RC modely",
+    "RC modely": "Dróny a RC modely",
+    "Kreatívne technológie": "Kreatívne technológie",
+    "Roboty": "Kreatívne technológie > Roboty",
+    "Inteligentná domácnosť": "Bezpečnosť a smart domácnosť",
+    "Malé domáce spotrebiče": "Domáce spotrebiče > Malé spotrebiče",
+    "Náradie": "Náradie a dielňa",
+    "Kancelária": "Náradie a dielňa > Kancelária a škola",
+    "Príslušenstvo pre automobily": "Auto-moto",
+    "Záhrada": "Záhrada",
+    "Energia": "Fotovoltaika a energie",
+    "Zdravie a krása": "Zdravie a starostlivosť",
+    "Zvieratá": "Zdravie a starostlivosť > Chovateľské potreby",
+    "Matka a dieťa": "Zdravie a starostlivosť > Matka a dieťa",
+    "šport": "Šport, hračky a voľný čas",
+    "Outdoor": "Šport, hračky a voľný čas > Outdoor",
+    "Hračky": "Šport, hračky a voľný čas > Hračky"
+  }
+}

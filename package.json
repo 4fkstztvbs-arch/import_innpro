@@ -1,0 +1,15 @@
+{
+  "name": "innpro-shoptet-sync",
+  "version": "1.0.0",
+  "description": "Automaticky import InnPro feedu (full.xml + light.xml) do Shoptet-kompatibilneho XML",
+  "main": "scripts/transform-innpro.js",
+  "scripts": {
+    "sync": "node scripts/transform-innpro.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "fast-xml-parser": "^5.10.1",
+    "sax": "^1.6.1"
+  }
+}
