@@ -1,10 +1,10 @@
 {
-  "name": "innpro-shoptet-sync",
+  "name": "atos-shoptet-sync",
   "version": "1.0.0",
-  "description": "Automaticky import InnPro feedu (full.xml + light.xml) do Shoptet-kompatibilneho XML",
-  "main": "scripts/transform-innpro.js",
+  "description": "Automaticky import ATOS feedu do Shoptet-kompatibilneho XML",
+  "main": "scripts/transform-atos.js",
   "scripts": {
-    "sync": "node scripts/transform-innpro.js"
+    "sync": "node scripts/transform-atos.js"
   },
   "license": "UNLICENSED",
   "private": true,
