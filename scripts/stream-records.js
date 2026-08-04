@@ -10,17 +10,24 @@ function fetchStream(url, auth) {
   return new Promise((resolve, reject) => {
     const lib = url.startsWith('https') ? https : http;
     const headers = { 'User-Agent': 'premiumstore-sk-import/1.0' };
+    const options = { headers };
     if (auth && auth.username) {
-      const b64 = Buffer.from(`${auth.username}:${auth.password}`).toString('base64');
-      headers['Authorization'] = `Basic ${b64}`;
+      // ATOS's i6ws endpoint expects credentials embedded directly in the URL
+      // (https://user:pass@host/path), not a standard Authorization header — Node's http/https
+      // client supports this natively via the `auth` request option.
+      options.auth = `${auth.username}:${auth.password}`;
     }
-    const req = lib.get(url, { headers }, (res) => {
+    const req = lib.get(url, options, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         resolve(fetchStream(res.headers.location, auth));
         return;
       }
       if (res.statusCode !== 200) {
-        reject(new Error(`HTTP ${res.statusCode} fetching ${url}`));
+        let body = '';
+        res.on('data', (chunk) => { if (body.length < 2000) body += chunk; });
+        res.on('end', () => {
+          reject(new Error(`HTTP ${res.statusCode} fetching ${url}\nResponse body (first 2000 chars): ${body.slice(0, 2000)}`));
+        });
         return;
       }
       resolve(res);
