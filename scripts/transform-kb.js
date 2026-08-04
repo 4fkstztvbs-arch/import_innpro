@@ -52,7 +52,10 @@ const AVAILABILITY_MAP = {
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
-function xmlNum(n) { return (Math.round(n * 100) / 100).toFixed(2); }
+function xmlNum(n) {
+  if (n === undefined || n === null || isNaN(n)) return '0.00';
+  return (Math.round(n * 100) / 100).toFixed(2);
+}
 function stripTags(html) { return String(html || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim(); }
 function truncateAtWord(s, maxLen) {
   if (!s || s.length <= maxLen) return s || '';
@@ -325,6 +328,11 @@ async function main() {
     if (cenaNakupna > 0) {
       const floor = cenaNakupna * (1 + MIN_MARGIN_PCT / 100) * (1 + parseFloat(vat) / 100);
       if (price < floor) { price = floor; stats.marginFloorApplied++; }
+    }
+
+    if (isNaN(price) || isNaN(cenaNakupna)) {
+      stats.invalidPrice = (stats.invalidPrice || 0) + 1;
+      return;
     }
 
     const catId = prodCategoryId[pid];
