@@ -30,6 +30,15 @@ const EXCLUDE_UNAVAILABLE = process.env.KB_EXCLUDE_UNAVAILABLE === '1';
 const INCLUDE_NO_CATEGORY = process.env.KB_INCLUDE_NO_CATEGORY !== '0'; // default true, matches browser tool default
 const OUT_PATH = process.env.KB_OUT || path.join(__dirname, '..', 'output', 'kb.xml');
 const STORE_NAME = process.env.KB_STORE_NAME || 'premiumstore.sk';
+const CHECK_ENERGY_LABELS = process.env.KB_CHECK_ENERGY_LABELS === '1';
+const ENERGY_LABEL_BASE = 'https://img.b2b.k-b.cz/fotocache/mid/images/orig/_LEGISLATIVA/ENERGETICKE_STITKY/';
+// Only these two category branches ever get an energy label — matches the browser tool's
+// catBig/catBuiltin settings ("Velké spotřebiče" / "Vestavné spotřebiče"), expressed here as
+// the already-mapped SK target paths since that's what defaultCategory ends up holding.
+const ENERGY_ELIGIBLE_PREFIXES = ['Domáce spotrebiče > Veľké spotrebiče', 'Domáce spotrebiče > Vstavané spotrebiče'];
+function isEnergyEligible(defaultCategory) {
+  return ENERGY_ELIGIBLE_PREFIXES.some((p) => defaultCategory === p || defaultCategory.startsWith(p + ' > '));
+}
 
 const MAPPING_PATH = path.join(__dirname, 'kb-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
@@ -61,6 +70,35 @@ async function loadAllRecords(url) {
   return records;
 }
 
+// Checks whether a URL actually resolves (used only for the small "energy label exists?"
+// candidate set — not run for the whole catalog). Runs with limited concurrency so we don't
+// hammer K-B's CDN with thousands of simultaneous requests.
+function urlExists(url) {
+  return new Promise((resolve) => {
+    const https = require('https');
+    const req = https.request(url, { method: 'HEAD', timeout: 15000 }, (res) => {
+      resolve(res.statusCode >= 200 && res.statusCode < 300);
+      res.resume();
+    });
+    req.on('timeout', () => { req.destroy(); resolve(false); });
+    req.on('error', () => resolve(false));
+    req.end();
+  });
+}
+async function checkUrlsWithConcurrency(items, concurrency, onResult) {
+  let idx = 0;
+  async function worker() {
+    while (idx < items.length) {
+      const i = idx++;
+      const exists = await urlExists(items[i].url);
+      onResult(items[i], exists);
+    }
+  }
+  const workers = [];
+  for (let w = 0; w < concurrency; w++) workers.push(worker());
+  await Promise.all(workers);
+}
+
 function isPathOverride(rename) { return !!rename && rename.includes(' > '); }
 
 function buildShopitemXml(p) {
@@ -81,7 +119,12 @@ function buildShopitemXml(p) {
     allCats.forEach((c) => parts.push(`  <CATEGORY>${xmlCdata(c)}</CATEGORY>`));
     parts.push('</CATEGORIES>');
   }
-  if (p.image) parts.push(`<IMAGES>\n  <IMAGE>${xmlEscape(p.image)}</IMAGE>\n</IMAGES>`);
+  if (p.image || p.energyLabelUrl) {
+    parts.push('<IMAGES>');
+    if (p.image) parts.push(`  <IMAGE>${xmlEscape(p.image)}</IMAGE>`);
+    if (p.energyLabelUrl) parts.push(`  <IMAGE>${xmlEscape(p.energyLabelUrl)}</IMAGE>`);
+    parts.push('</IMAGES>');
+  }
 
   parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
   parts.push('<VISIBLE>1</VISIBLE>');
@@ -231,16 +274,13 @@ async function main() {
   }
   console.log(`  -> ${Object.keys(prodAvail).length} availability entries`);
 
-  console.log('Streaming main product feed and building Shoptet XML...');
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
-  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
-
+  console.log('Streaming main product feed...');
   const stats = {
     total: 0, written: 0, skippedByCategoryFilter: 0, skippedUnavailable: 0,
     noPriceInfo: 0, skippedCheap: 0, usedRecommendedPrice: 0, usedMarkupPrice: 0,
-    marginFloorApplied: 0, recyclingFeeCount: 0,
+    marginFloorApplied: 0, recyclingFeeCount: 0, energyLabelCandidates: 0, energyLabelsFound: 0,
   };
+  const products = [];
 
   await streamRecords(ZBOZI_URL, 'zaznam', (rawXml) => {
     stats.total++;
@@ -314,16 +354,37 @@ async function main() {
       155
     );
 
-    const shopitem = buildShopitemXml({
+    products.push({
       code, name, description, shortDescription, manufacturer, ean, warranty,
       defaultCategory, extraCategories, image, availability, price,
       purchasePrice: cenaNakupna, vat, recyclingFeeCategory, recyclingFeePrice,
       seoTitle, metaDescription,
     });
-    out.write(shopitem + '\n');
     stats.written++;
   });
 
+  if (CHECK_ENERGY_LABELS) {
+    const candidates = [];
+    for (const p of products) {
+      if (isEnergyEligible(p.defaultCategory)) {
+        stats.energyLabelCandidates++;
+        candidates.push({ product: p, url: encodeURI(ENERGY_LABEL_BASE + p.code + '.jpg') });
+      }
+    }
+    console.log(`Checking ${candidates.length} possible energy labels (Veľké/Vstavané spotrebiče only)...`);
+    await checkUrlsWithConcurrency(candidates, 12, (item, exists) => {
+      if (exists) {
+        item.product.energyLabelUrl = item.url;
+        stats.energyLabelsFound++;
+      }
+    });
+  }
+
+  console.log('Writing Shoptet XML...');
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
+  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
+  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
+  for (const p of products) out.write(buildShopitemXml(p) + '\n');
   out.write('</SHOP>\n');
   out.end();
   await new Promise((resolve) => out.on('finish', resolve));
