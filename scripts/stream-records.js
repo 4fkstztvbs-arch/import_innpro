@@ -6,17 +6,27 @@ const sax = require('sax');
 const https = require('https');
 const http = require('http');
 
-function fetchStream(url, auth) {
+function fetchStream(url, auth, attempt = 1) {
+  const MAX_ATTEMPTS = 4;
   return new Promise((resolve, reject) => {
     const lib = url.startsWith('https') ? https : http;
     const headers = { 'User-Agent': 'premiumstore-sk-import/1.0' };
-    const options = { headers };
+    const options = { headers, timeout: 60000 }; // 60s to establish + get headers
     if (auth && auth.username) {
       // ATOS's i6ws endpoint expects credentials embedded directly in the URL
-      // (https://user:pass@host/path), not a standard Authorization header â Node's http/https
+      // (https://user:pass@host/path), not a standard Authorization header — Node's http/https
       // client supports this natively via the `auth` request option.
       options.auth = `${auth.username}:${auth.password}`;
     }
+
+    const retry = async (err) => {
+      if (attempt >= MAX_ATTEMPTS) { reject(err); return; }
+      const waitMs = attempt * 15000; // 15s, 30s, 45s backoff
+      console.log(`  fetch attempt ${attempt} failed (${err.message}), retrying in ${waitMs / 1000}s...`);
+      await new Promise((r) => setTimeout(r, waitMs));
+      fetchStream(url, auth, attempt + 1).then(resolve, reject);
+    };
+
     const req = lib.get(url, options, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         resolve(fetchStream(res.headers.location, auth));
@@ -32,7 +42,8 @@ function fetchStream(url, auth) {
       }
       resolve(res);
     });
-    req.on('error', reject);
+    req.on('timeout', () => { req.destroy(); retry(new Error('connection timeout')); });
+    req.on('error', retry);
   });
 }
 
