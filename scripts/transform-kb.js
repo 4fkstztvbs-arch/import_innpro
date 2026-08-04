@@ -53,7 +53,7 @@ const AVAILABILITY_MAP = {
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
 function xmlNum(n) {
-  if (n === undefined || n === null || isNaN(n)) return '0.00';
+  if (n === undefined || n === null || isNaN(n) || n < 0) return '0.00';
   return (Math.round(n * 100) / 100).toFixed(2);
 }
 function stripTags(html) { return String(html || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim(); }
@@ -330,7 +330,7 @@ async function main() {
       if (price < floor) { price = floor; stats.marginFloorApplied++; }
     }
 
-    if (isNaN(price) || isNaN(cenaNakupna)) {
+    if (isNaN(price) || isNaN(cenaNakupna) || price < 0 || cenaNakupna < 0) {
       stats.invalidPrice = (stats.invalidPrice || 0) + 1;
       return;
     }
