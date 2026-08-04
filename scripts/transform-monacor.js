@@ -61,7 +61,6 @@ function buildShopitemXml(p) {
   parts.push(`<LOGISTIC><WEIGHT>${xmlNum(p.weightKg || 0)}</WEIGHT></LOGISTIC>`);
   parts.push('<CURRENCY>EUR</CURRENCY>');
   parts.push(`<PRICE_VAT>${xmlNum(p.price)}</PRICE_VAT>`);
-  if (p.relatedVideo) parts.push(`<RELATED_VIDEOS><RELATED_VIDEO><URL>${xmlEscape(p.relatedVideo)}</URL></RELATED_VIDEO></RELATED_VIDEOS>`);
   if (p.seoTitle) parts.push(`<SEO_TITLE>${xmlCdata(p.seoTitle)}</SEO_TITLE>`);
   if (p.metaDescription) parts.push(`<META_DESCRIPTION>${xmlCdata(p.metaDescription)}</META_DESCRIPTION>`);
   parts.push('</SHOPITEM>');
@@ -118,9 +117,12 @@ async function main() {
     p.software.forEach((url, i) => {
       description += `<p><a href="${xmlEscape(url)}" target="_blank" rel="noopener">Stiahnuť softvér${p.software.length > 1 ? ' ' + (i + 1) : ''}</a></p>`;
     });
+    if (p.movies.length) {
+      p.movies.forEach((url, i) => {
+        description += `<p><a href="${xmlEscape(url)}" target="_blank" rel="noopener">Zobraziť video${p.movies.length > 1 ? ' ' + (i + 1) : ''}</a></p>`;
+      });
+    }
     const shortDescription = truncateAtWord(stripTags(p.description), 200);
-
-    const relatedVideo = p.movies.length ? p.movies[0] : '';
 
     const seoCore = [p.baseName, p.manufacturer, p.number].filter(Boolean).join(' ').trim() || name;
     const seoTitle = truncateAtWord(`${seoCore} | ${STORE_NAME}`, 70);
@@ -129,7 +131,7 @@ async function main() {
     const shopitem = buildShopitemXml({
       code, name, description, shortDescription, manufacturer: p.manufacturer, ean: p.ean,
       defaultCategory, extraCategories, images: p.images, availability, weightKg: p.weightKg,
-      price, relatedVideo, seoTitle, metaDescription,
+      price, seoTitle, metaDescription,
     });
     out.write(shopitem + '\n');
     stats.written++;
