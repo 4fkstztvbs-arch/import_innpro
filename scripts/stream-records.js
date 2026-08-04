@@ -8,13 +8,18 @@ const http = require('http');
 
 function fetchStream(url, auth, attempt = 1) {
   const MAX_ATTEMPTS = 4;
+  url = String(url).trim();
   return new Promise((resolve, reject) => {
     const lib = url.startsWith('https') ? https : http;
-    const headers = { 'User-Agent': 'premiumstore-sk-import/1.0' };
+    const headers = {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      'Accept': 'application/xml,text/xml,*/*',
+      'Accept-Language': 'sk,en;q=0.9',
+    };
     const options = { headers, timeout: 60000 }; // 60s to establish + get headers
     if (auth && auth.username) {
       // ATOS's i6ws endpoint expects credentials embedded directly in the URL
-      // (https://user:pass@host/path), not a standard Authorization header — Node's http/https
+      // (https://user:pass@host/path), not a standard Authorization header â Node's http/https
       // client supports this natively via the `auth` request option.
       options.auth = `${auth.username}:${auth.password}`;
     }
