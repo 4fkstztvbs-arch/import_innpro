@@ -30,6 +30,7 @@ jobs:
           KB_DOSTUPNOSTI_URL: ${{ secrets.KB_DOSTUPNOSTI_URL }}
           KB_MARKUP: '10'
           KB_MIN_MARGIN: '10'
+          KB_EXCLUDE_UNAVAILABLE: '1'
           KB_OUT: output/kb.xml
         run: node scripts/transform-kb.js
 
