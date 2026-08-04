@@ -13,7 +13,7 @@ function fetchStream(url, auth) {
     const options = { headers };
     if (auth && auth.username) {
       // ATOS's i6ws endpoint expects credentials embedded directly in the URL
-      // (https://user:pass@host/path), not a standard Authorization header — Node's http/https
+      // (https://user:pass@host/path), not a standard Authorization header â Node's http/https
       // client supports this natively via the `auth` request option.
       options.auth = `${auth.username}:${auth.password}`;
     }
@@ -51,3 +51,58 @@ async function streamRecords(source, recordTag, onRecord, auth) {
   let count = 0;
 
   return new Promise((resolve, reject) => {
+    parser.on('error', (e) => { reject(e); });
+
+    parser.on('opentag', (node) => {
+      depth++;
+      if (node.name === recordTag && recordDepthStart === null) {
+        recordDepthStart = depth;
+        buffer = '<' + node.name + attrsToString(node.attributes) + '>';
+        return;
+      }
+      if (recordDepthStart !== null) {
+        buffer += '<' + node.name + attrsToString(node.attributes) + '>';
+      }
+    });
+
+    parser.on('text', (text) => {
+      if (recordDepthStart !== null && text) buffer += escapeXmlText(text);
+    });
+
+    parser.on('cdata', (text) => {
+      if (recordDepthStart !== null) buffer += '<![CDATA[' + text + ']]>';
+    });
+
+    parser.on('closetag', (name) => {
+      if (recordDepthStart !== null) buffer += '</' + name + '>';
+      if (name === recordTag && depth === recordDepthStart) {
+        count++;
+        onRecord(buffer);
+        buffer = '';
+        recordDepthStart = null;
+      }
+      depth--;
+    });
+
+    parser.on('end', () => resolve(count));
+
+    stream.on('error', reject);
+    stream.pipe(parser);
+  });
+}
+
+function attrsToString(attributes) {
+  let s = '';
+  for (const [k, v] of Object.entries(attributes || {})) {
+    s += ` ${k}="${escapeXmlAttr(String(v))}"`;
+  }
+  return s;
+}
+function escapeXmlAttr(s) {
+  return s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+}
+function escapeXmlText(s) {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+module.exports = { streamRecords, fetchStream };
