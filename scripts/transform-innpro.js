@@ -145,7 +145,11 @@ function buildShopitemXml(p) {
   parts.push(`<LOGISTIC><WEIGHT>${xmlNum(p.weightKg || 0)}</WEIGHT></LOGISTIC>`);
   parts.push('<CURRENCY>EUR</CURRENCY>');
   parts.push(`<PRICE_VAT>${xmlNum(p.price)}</PRICE_VAT>`);
-  if (p.purchasePrice) parts.push(`<PURCHASE_PRICE>${xmlNum(p.purchasePrice)}</PURCHASE_PRICE>`);
+  if (p.purchasePrice) {
+    parts.push(`<PURCHASE_PRICE>${xmlNum(p.purchasePrice)}</PURCHASE_PRICE>`);
+    parts.push(`<PURCHASE_VAT>${xmlEscape(p.vat || '23')}</PURCHASE_VAT>`);
+    parts.push('<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>');
+  }
   if (p.seoTitle) parts.push(`<SEO_TITLE>${xmlCdata(p.seoTitle)}</SEO_TITLE>`);
   if (p.metaDescription) parts.push(`<META_DESCRIPTION>${xmlCdata(p.metaDescription)}</META_DESCRIPTION>`);
   parts.push('</SHOPITEM>');
@@ -228,6 +232,7 @@ async function main() {
       weightKg: p.weightKg,
       price,
       purchasePrice: cost,
+      vat: p.vat,
       seoTitle,
       metaDescription,
     });
