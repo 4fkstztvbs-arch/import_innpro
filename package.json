@@ -1,15 +1,16 @@
 {
-  "name": "atos-shoptet-sync",
+  "name": "monacor-shoptet-sync",
   "version": "1.0.0",
-  "description": "Automaticky import ATOS feedu do Shoptet-kompatibilneho XML",
-  "main": "scripts/transform-atos.js",
+  "description": "Automaticky import MONACOR feedu do Shoptet-kompatibilneho XML",
+  "main": "scripts/transform-monacor.js",
   "scripts": {
-    "sync": "node scripts/transform-atos.js"
+    "sync": "node scripts/transform-monacor.js"
   },
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
     "fast-xml-parser": "^5.10.1",
-    "sax": "^1.6.1"
+    "sax": "^1.6.1",
+    "he": "^1.2.0"
   }
 }
