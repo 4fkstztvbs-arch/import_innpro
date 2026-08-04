@@ -61,7 +61,7 @@ function buildShopitemXml(p) {
   parts.push(`<LOGISTIC><WEIGHT>${xmlNum(p.weightKg || 0)}</WEIGHT></LOGISTIC>`);
   parts.push('<CURRENCY>EUR</CURRENCY>');
   parts.push(`<PRICE_VAT>${xmlNum(p.price)}</PRICE_VAT>`);
-  if (p.relatedVideo) parts.push(`<RELATED_VIDEOS><URL>${xmlEscape(p.relatedVideo)}</URL></RELATED_VIDEOS>`);
+  if (p.relatedVideo) parts.push(`<RELATED_VIDEOS><RELATED_VIDEO><URL>${xmlEscape(p.relatedVideo)}</URL></RELATED_VIDEO></RELATED_VIDEOS>`);
   if (p.seoTitle) parts.push(`<SEO_TITLE>${xmlCdata(p.seoTitle)}</SEO_TITLE>`);
   if (p.metaDescription) parts.push(`<META_DESCRIPTION>${xmlCdata(p.metaDescription)}</META_DESCRIPTION>`);
   parts.push('</SHOPITEM>');
