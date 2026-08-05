@@ -11,6 +11,7 @@ const fs = require('fs');
 const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseAtosItem } = require('./parse-atos');
+const { roundPrice } = require('./round-price');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -176,7 +177,7 @@ async function main() {
     if (MIN_COST > 0 && purchaseEUR < MIN_COST) { stats.skippedCheap++; return; }
 
     const vat = '23'; // sell in Slovakia — ATOS's own VAT field (21) reflects Czech VAT, not ours
-    const price = purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100);
+    const price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
 
     const { defaultCategory, extraCategories } = resolveAtosCategories(p.categoryTexts);
     if (!defaultCategory) { stats.skippedCategory++; return; }

@@ -11,6 +11,7 @@ const fs = require('fs');
 const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseMonacorProduct } = require('./parse-monacor');
+const { roundPrice } = require('./round-price');
 
 const URL = process.env.MONACOR_URL;
 const MARKUP_PCT = parseFloat(process.env.MONACOR_MARKUP || '0');
@@ -90,7 +91,7 @@ async function main() {
     if (seenCodes.has(code)) code = code + '-' + p.id;
     seenCodes.add(code);
 
-    const price = p.basePrice * (1 + MARKUP_PCT / 100);
+    const price = roundPrice(p.basePrice * (1 + MARKUP_PCT / 100));
 
     // shop naming convention: "Značka Model popis"
     const name = [p.manufacturer, p.number, p.baseName].filter(Boolean).join(' ').trim() || p.baseName;

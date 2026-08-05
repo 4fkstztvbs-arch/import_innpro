@@ -16,6 +16,7 @@ const fs = require('fs');
 const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-kb');
+const { roundPrice, roundPriceUp } = require('./round-price');
 
 const ZBOZI_URL = process.env.KB_ZBOZI_URL;
 const KATEGORIE_URL = process.env.KB_KATEGORIE_URL;
@@ -323,11 +324,11 @@ async function main() {
     }
     let price;
     if (recommended > 0) { price = recommended; stats.usedRecommendedPrice++; }
-    else { price = cenaNakupna * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100); stats.usedMarkupPrice++; }
+    else { price = roundPrice(cenaNakupna * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100)); stats.usedMarkupPrice++; }
 
     if (cenaNakupna > 0) {
       const floor = cenaNakupna * (1 + MIN_MARGIN_PCT / 100) * (1 + parseFloat(vat) / 100);
-      if (price < floor) { price = floor; stats.marginFloorApplied++; }
+      if (price < floor) { price = roundPriceUp(floor); stats.marginFloorApplied++; }
     }
 
     if (isNaN(price) || isNaN(cenaNakupna) || price < 0 || cenaNakupna < 0) {
