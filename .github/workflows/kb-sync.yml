@@ -35,6 +35,13 @@ jobs:
           KB_OUT: output/kb.xml
         run: node scripts/transform-kb.js
 
+      - name: Enrich with Icecat data (weight, extra images, energy labels, specs)
+        env:
+          KB_XML_IN: output/kb.xml
+          ICECAT_CSV: data/icecat-domace-spotrebice.csv
+          KB_XML_OUT: output/kb.xml
+        run: node scripts/enrich-kb-icecat.js
+
       - name: Commit updated output
         run: |
           git config user.name "kb-sync-bot"
