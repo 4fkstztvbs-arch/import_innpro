@@ -1,0 +1,220 @@
+// Automated equivalent of the "Solight" tab in the browser tool. Fetches the Solight product
+// feed (cenik.xml) and writes a Shoptet-native XML ready for Automatické importy. Uses
+// Solight's own eshop price directly (it's the real price Solight itself sells at), fixes the
+// known broken image URL path, and strips stray whitespace characters some filenames have.
+//
+// Usage: node transform-solight.js
+// Required env vars: SOLIGHT_URL
+// Optional: SOLIGHT_MARKUP (0), SOLIGHT_MIN_COST (0), SOLIGHT_VAT (23),
+//           SOLIGHT_MAX_IMAGES (5), SOLIGHT_OUT
+
+const fs = require('fs');
+const path = require('path');
+const { streamRecords } = require('./stream-records');
+const { parseSolightProduct } = require('./parse-solight');
+const { roundPrice } = require('./round-price');
+
+const URL = process.env.SOLIGHT_URL;
+const MARKUP_PCT = parseFloat(process.env.SOLIGHT_MARKUP || '0');
+const MIN_COST = parseFloat(process.env.SOLIGHT_MIN_COST || '0');
+const VAT = process.env.SOLIGHT_VAT || '23';
+const MAX_IMAGES = Math.max(1, parseInt(process.env.SOLIGHT_MAX_IMAGES || '5', 10));
+const OUT_PATH = process.env.SOLIGHT_OUT || path.join(__dirname, '..', 'output', 'solight.xml');
+const STORE_NAME = process.env.SOLIGHT_STORE_NAME || 'premiumstore.sk';
+const OUT_OF_STOCK_TEXT = process.env.SOLIGHT_OUT_OF_STOCK_TEXT || 'Na objednávku';
+const EXCLUDE_UNAVAILABLE = process.env.SOLIGHT_EXCLUDE_UNAVAILABLE === '1';
+
+const MAPPING_PATH = path.join(__dirname, 'solight-mapping.json');
+const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
+const RENAMES = mapping.categoryRenamesByPath || {};
+const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
+
+function isPathOverride(rename) { return !!rename && rename.includes(' > '); }
+
+// Identical logic to the browser tool's solDisplayPath()/extraCategories.
+function resolveCategory(rawCategoryName) {
+  if (!rawCategoryName) return { category: '', extraCategories: [], excluded: false };
+  const parts = rawCategoryName.split('/').map((s) => s.trim()).filter(Boolean);
+  const keys = [];
+  let cur = '';
+  for (const p of parts) {
+    cur = cur ? cur + ' > ' + p : p;
+    keys.push({ key: cur, name: p });
+  }
+  if (!keys.length) return { category: '', extraCategories: [], excluded: false };
+  if (EXCLUSIONS.has(keys[keys.length - 1].key)) return { category: '', extraCategories: [], excluded: true };
+
+  const partsResult = [];
+  for (let i = keys.length - 1; i >= 0; i--) {
+    const rename = RENAMES[keys[i].key];
+    if (isPathOverride(rename)) { partsResult.unshift(rename); break; }
+    partsResult.unshift(rename || keys[i].name);
+  }
+  const category = partsResult.join(' > ');
+  const segs = category.split(' > ');
+  const extraCategories = [];
+  for (let i = 1; i < segs.length; i++) extraCategories.push(segs.slice(0, i).join(' > '));
+  return { category, extraCategories, excluded: false };
+}
+
+function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
+function xmlNum(n) {
+  if (n === undefined || n === null || isNaN(n) || n < 0) return '0.00';
+  return (Math.round(n * 100) / 100).toFixed(2);
+}
+function stripTags(html) { return String(html || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim(); }
+function truncateAtWord(s, maxLen) {
+  if (!s || s.length <= maxLen) return s || '';
+  const cut = s.slice(0, maxLen);
+  const lastSpace = cut.lastIndexOf(' ');
+  return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
+}
+
+function fixImageUrl(rawUrl) {
+  const cleaned = rawUrl.replace(/\s+/g, '');
+  return cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
+}
+
+function buildShopitemXml(p) {
+  const parts = ['<SHOPITEM>'];
+  parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
+  if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
+  parts.push(`<DESCRIPTION>${xmlCdata(p.description)}</DESCRIPTION>`);
+  if (p.manufacturer) parts.push(`<MANUFACTURER>${xmlCdata(p.manufacturer)}</MANUFACTURER>`);
+  if (p.warranty) parts.push(`<WARRANTY>${xmlEscape(p.warranty)}</WARRANTY>`);
+  parts.push('<ITEM_TYPE>product</ITEM_TYPE>');
+  parts.push('<UNIT>ks</UNIT>');
+  parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
+  if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
+
+  const allCats = [p.defaultCategory].concat(p.extraCategories || []).filter(Boolean);
+  if (allCats.length) {
+    parts.push('<CATEGORIES>');
+    allCats.forEach((c) => parts.push(`  <CATEGORY>${xmlCdata(c)}</CATEGORY>`));
+    parts.push('</CATEGORIES>');
+  }
+  if (p.images.length) {
+    parts.push('<IMAGES>');
+    p.images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));
+    parts.push('</IMAGES>');
+  }
+  if (p.params.length) {
+    parts.push('<TEXT_PROPERTIES>');
+    p.params.forEach((pv) => {
+      const idx = pv.indexOf(';');
+      if (idx > 0) {
+        parts.push('  <TEXT_PROPERTY>');
+        parts.push(`    <NAME>${xmlCdata(pv.slice(0, idx))}</NAME>`);
+        parts.push(`    <VALUE>${xmlCdata(pv.slice(idx + 1))}</VALUE>`);
+        parts.push('  </TEXT_PROPERTY>');
+      }
+    });
+    parts.push('</TEXT_PROPERTIES>');
+  }
+  parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
+  parts.push('<VISIBLE>1</VISIBLE>');
+  parts.push('<VISIBILITY>visible</VISIBILITY>');
+  parts.push(`<LOGISTIC><WEIGHT>${xmlNum(p.weightKg || 0)}</WEIGHT></LOGISTIC>`);
+  parts.push('<CURRENCY>EUR</CURRENCY>');
+  parts.push(`<PRICE_VAT>${xmlNum(p.price)}</PRICE_VAT>`);
+  if (p.purchasePrice) {
+    parts.push(`<PURCHASE_PRICE>${xmlNum(p.purchasePrice)}</PURCHASE_PRICE>`);
+    parts.push(`<PURCHASE_VAT>${xmlEscape(VAT)}</PURCHASE_VAT>`);
+    parts.push('<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>');
+  }
+  if (p.relatedVideo) parts.push(`<RELATED_VIDEOS><RELATED_VIDEO><URL>${xmlEscape(p.relatedVideo)}</URL></RELATED_VIDEO></RELATED_VIDEOS>`);
+  if (p.seoTitle) parts.push(`<SEO_TITLE>${xmlCdata(p.seoTitle)}</SEO_TITLE>`);
+  if (p.metaDescription) parts.push(`<META_DESCRIPTION>${xmlCdata(p.metaDescription)}</META_DESCRIPTION>`);
+  parts.push('</SHOPITEM>');
+  return parts.join('\n');
+}
+
+async function main() {
+  if (!URL) { console.error('Missing SOLIGHT_URL environment variable.'); process.exit(1); }
+
+  console.log('Streaming Solight feed and building Shoptet XML...');
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
+  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
+  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
+
+  const stats = {
+    total: 0, written: 0, skippedCheap: 0, skippedUnavailable: 0, skippedByCategory: 0,
+    noPrice: 0, withDocs: 0, withVideo: 0, invalidPrice: 0,
+  };
+  const seenCodes = new Set();
+
+  await streamRecords(URL, 'product', (rawXml) => {
+    stats.total++;
+    let p;
+    try { p = parseSolightProduct(rawXml); } catch (e) { return; }
+    if (!p) return;
+    if (p.costEUR <= 0) { stats.noPrice++; return; }
+    if (MIN_COST > 0 && p.costEUR < MIN_COST) { stats.skippedCheap++; return; }
+
+    let code = p.code || ('SOL' + stats.total);
+    if (seenCodes.has(code)) code = code + '-2';
+    seenCodes.add(code);
+
+    const basePrice = p.eshopPriceEUR > 0 ? p.eshopPriceEUR : p.costEUR;
+    const price = roundPrice(basePrice * (1 + MARKUP_PCT / 100));
+    if (isNaN(price) || price < 0) { stats.invalidPrice++; return; }
+
+    const { category, extraCategories, excluded } = resolveCategory(p.categoryRaw);
+    if (excluded) { stats.skippedByCategory++; return; }
+
+    let availability, isAvailable;
+    if (p.stockQty > 0) {
+      availability = 'Skladom';
+      isAvailable = true;
+    } else if (p.deliveryDate && p.deliveryDate !== 'neznámé') {
+      availability = `Dostupné od ${p.deliveryDate}`;
+      isAvailable = true;
+    } else {
+      availability = OUT_OF_STOCK_TEXT;
+      isAvailable = false;
+    }
+    if (EXCLUDE_UNAVAILABLE && !isAvailable) { stats.skippedUnavailable++; return; }
+
+    let description = p.description;
+    if (p.docs.length) {
+      stats.withDocs++;
+      p.docs.forEach((url, i) => {
+        description += `<p><a href="${encodeURI(url)}" target="_blank" rel="noopener">Stiahnuť dokument${p.docs.length > 1 ? ' ' + (i + 1) : ''}</a></p>`;
+      });
+    }
+    const shortDescription = truncateAtWord(stripTags(description), 200) || p.shortDescFallback;
+
+    let relatedVideo = '';
+    if (p.videoLink) { relatedVideo = p.videoLink; stats.withVideo++; }
+
+    const nameHasManufacturer = p.manufacturer && p.name.toLowerCase().includes(p.manufacturer.toLowerCase());
+    const titleCore = (p.manufacturer && !nameHasManufacturer) ? `${p.name} – ${p.manufacturer}` : p.name;
+    const seoTitle = truncateAtWord(`${titleCore} | ${STORE_NAME}`, 70);
+    const metaDescription = truncateAtWord(
+      `${p.name}${p.manufacturer && !nameHasManufacturer ? ' od ' + p.manufacturer : ''} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`,
+      155
+    );
+
+    const images = p.images.slice(0, MAX_IMAGES).map(fixImageUrl);
+
+    const shopitem = buildShopitemXml({
+      code, name: p.name, description, shortDescription, manufacturer: p.manufacturer,
+      warranty: p.warranty, ean: p.ean, defaultCategory: category, extraCategories,
+      images, params: p.params, availability, weightKg: p.weightKg, price,
+      purchasePrice: p.costEUR, relatedVideo, seoTitle, metaDescription,
+    });
+    out.write(shopitem + '\n');
+    stats.written++;
+  });
+
+  out.write('</SHOP>\n');
+  out.end();
+  await new Promise((resolve) => out.on('finish', resolve));
+
+  console.log('Done.');
+  console.log(JSON.stringify(stats, null, 2));
+  console.log('Output written to', OUT_PATH);
+}
+
+main().catch((e) => { console.error('FATAL:', e); process.exit(1); });
