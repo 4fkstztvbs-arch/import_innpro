@@ -33,11 +33,19 @@ jobs:
           ATOS_OUT: output/atos.xml
         run: node scripts/transform-atos.js
 
+      - name: Enrich with Icecat data (weight/images where ATOS's own feed is missing them)
+        run: |
+          if [ -f data/icecat-atos-full.csv ]; then
+            XML_IN=output/atos.xml ICECAT_CSV=data/icecat-atos-full.csv XML_OUT=output/atos.xml node scripts/enrich-shoptet-icecat.js
+          else
+            echo "data/icecat-atos-full.csv not found yet — skipping enrichment step"
+          fi
+
       - name: Commit updated output
         run: |
           git config user.name "atos-sync-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add output/atos.xml
+          git add -A
           git diff --staged --quiet && echo "No changes" || git commit -m "Automatický ATOS sync $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin main
           git push
