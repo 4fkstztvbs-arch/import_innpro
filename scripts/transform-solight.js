@@ -123,7 +123,6 @@ function buildShopitemXml(p) {
     parts.push(`<PURCHASE_VAT>${xmlEscape(VAT)}</PURCHASE_VAT>`);
     parts.push('<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>');
   }
-  if (p.relatedVideo) parts.push(`<RELATED_VIDEOS><RELATED_VIDEO><URL>${xmlEscape(p.relatedVideo)}</URL></RELATED_VIDEO></RELATED_VIDEOS>`);
   if (p.seoTitle) parts.push(`<SEO_TITLE>${xmlCdata(p.seoTitle)}</SEO_TITLE>`);
   if (p.metaDescription) parts.push(`<META_DESCRIPTION>${xmlCdata(p.metaDescription)}</META_DESCRIPTION>`);
   parts.push('</SHOPITEM>');
@@ -183,10 +182,11 @@ async function main() {
         description += `<p><a href="${encodeURI(url)}" target="_blank" rel="noopener">Stiahnuť dokument${p.docs.length > 1 ? ' ' + (i + 1) : ''}</a></p>`;
       });
     }
+    if (p.videoLink) {
+      description += `<p><a href="${encodeURI(p.videoLink)}" target="_blank" rel="noopener">Zobraziť video</a></p>`;
+      stats.withVideo++;
+    }
     const shortDescription = truncateAtWord(stripTags(description), 200) || p.shortDescFallback;
-
-    let relatedVideo = '';
-    if (p.videoLink) { relatedVideo = p.videoLink; stats.withVideo++; }
 
     const nameHasManufacturer = p.manufacturer && p.name.toLowerCase().includes(p.manufacturer.toLowerCase());
     const titleCore = (p.manufacturer && !nameHasManufacturer) ? `${p.name} – ${p.manufacturer}` : p.name;
@@ -202,7 +202,7 @@ async function main() {
       code, name: p.name, description, shortDescription, manufacturer: p.manufacturer,
       warranty: p.warranty, ean: p.ean, defaultCategory: category, extraCategories,
       images, params: p.params, availability, weightKg: p.weightKg, price,
-      purchasePrice: p.costEUR, relatedVideo, seoTitle, metaDescription,
+      purchasePrice: p.costEUR, seoTitle, metaDescription,
     });
     out.write(shopitem + '\n');
     stats.written++;
