@@ -2,7 +2,7 @@ name: K-B sync
 
 on:
   schedule:
-    - cron: '0 2 * * *' # 2:00 UTC daily — inside Shoptet's 00:00–07:00 "úplný import" window
+    - cron: '0 1 * * *' # 2:00 UTC daily — inside Shoptet's 00:00–07:00 "úplný import" window
   workflow_dispatch: {}
 
 permissions:
