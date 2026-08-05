@@ -44,8 +44,10 @@ function loadIcecatData(csvPath) {
     for (const g of gallery) if (g && !images.includes(g)) images.push(g);
 
     const energyLabelUrl = (r['EU Energy Label'] || '').trim();
+    const shortDescription = (r.ShortSummaryDescription || '').trim();
+    const longDescription = (r.LongSummaryDescription || '').trim();
 
-    map.set(ean, { weightKg, images, energyLabelUrl, specs });
+    map.set(ean, { weightKg, images, energyLabelUrl, specs, shortDescription, longDescription });
   }
   return map;
 }

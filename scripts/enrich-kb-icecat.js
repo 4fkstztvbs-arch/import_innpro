@@ -92,6 +92,21 @@ async function main() {
       stats.specsAdded++;
     }
 
+    // 5) description replacement — Icecat's manufacturer-sourced text replaces K-B's own
+    //    description/short description when available (per your choice — K-B's own text has
+    //    shown real errors, e.g. duplicated airflow figures on the Electrolux LFV619K).
+    if (data.longDescription) {
+      item = item.replace(/<DESCRIPTION>[\s\S]*?<\/DESCRIPTION>/, `<DESCRIPTION>${xmlCdata(data.longDescription)}</DESCRIPTION>`);
+      stats.descriptionReplaced = (stats.descriptionReplaced || 0) + 1;
+    }
+    if (data.shortDescription) {
+      if (item.includes('<SHORT_DESCRIPTION>')) {
+        item = item.replace(/<SHORT_DESCRIPTION>[\s\S]*?<\/SHORT_DESCRIPTION>/, `<SHORT_DESCRIPTION>${xmlCdata(data.shortDescription)}</SHORT_DESCRIPTION>`);
+      } else {
+        item = item.replace('<DESCRIPTION>', `<SHORT_DESCRIPTION>${xmlCdata(data.shortDescription)}</SHORT_DESCRIPTION>\n<DESCRIPTION>`);
+      }
+    }
+
     outParts.push(item);
   });
 
