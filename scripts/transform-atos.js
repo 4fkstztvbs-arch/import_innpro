@@ -12,6 +12,7 @@ const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseAtosItem } = require('./parse-atos');
 const { roundPrice } = require('./round-price');
+const { translateCategoryName } = require('./translate-cz-sk');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -27,7 +28,7 @@ const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
 const TREE_ROOT = 'Druhy';
 
-function isPathOverride(rename) { return !!rename && rename.includes(' > '); }
+function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
 
 function atosDisplayPath(pathKey) {
   const segs = pathKey.split(' > ');
@@ -35,8 +36,8 @@ function atosDisplayPath(pathKey) {
   for (let i = segs.length - 1; i >= 0; i--) {
     const cumKey = segs.slice(0, i + 1).join(' > ');
     const rename = RENAMES[cumKey];
-    if (isPathOverride(rename)) { partsResult.unshift(rename); break; }
-    partsResult.unshift(rename || segs[i]);
+    if (isPathOverride(cumKey, rename)) { partsResult.unshift(rename); break; }
+    partsResult.unshift(rename || translateCategoryName(segs[i]));
   }
   return partsResult.join(' > ');
 }
@@ -46,7 +47,7 @@ function atosAncestorPaths(pathKey) {
   for (let i = segs.length - 2; i >= 0; i--) {
     const key = segs.slice(0, i + 1).join(' > ');
     chain.push(key);
-    if (isPathOverride(RENAMES[key])) break;
+    if (isPathOverride(key, RENAMES[key])) break;
   }
   return chain;
 }

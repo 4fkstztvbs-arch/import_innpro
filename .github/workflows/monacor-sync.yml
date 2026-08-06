@@ -25,6 +25,7 @@ jobs:
         env:
           MONACOR_URL: ${{ secrets.MONACOR_URL }}
           MONACOR_MARKUP: '0'
+          MONACOR_EXCLUDE_UNAVAILABLE: '1'
           MONACOR_OUT: output/monacor.xml
         run: node scripts/transform-monacor.js
 

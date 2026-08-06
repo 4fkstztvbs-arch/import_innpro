@@ -103,8 +103,6 @@ async function checkUrlsWithConcurrency(items, concurrency, onResult) {
   await Promise.all(workers);
 }
 
-function isPathOverride(rename) { return !!rename && rename.includes(' > '); }
-
 function buildShopitemXml(p) {
   const parts = ['<SHOPITEM>'];
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
@@ -195,9 +193,11 @@ async function main() {
   // Stage 2: overlay the agreed category mapping (redirects/compound overrides) on top, matched
   // by the ORIGINAL (untranslated) path — exactly like importing settings in the browser tool.
   const excluded = new Set();
+  const explicitOverrideIds = new Set();
+  function isPathOverride(cid, rename) { return !!rename && explicitOverrideIds.has(cid); }
   Object.keys(MAPPING_RENAMES).forEach((p) => {
     const id = pathToId[p];
-    if (id) renames[id] = MAPPING_RENAMES[p];
+    if (id) { renames[id] = MAPPING_RENAMES[p]; explicitOverrideIds.add(id); }
   });
   MAPPING_EXCLUSIONS.forEach((p) => {
     const id = pathToId[p];
@@ -213,7 +213,7 @@ async function main() {
     while (cur && categories[cur] && !seen.has(cur)) {
       seen.add(cur);
       const rename = renames[cur];
-      if (isPathOverride(rename)) { parts.push(rename); break; }
+      if (isPathOverride(cur, rename)) { parts.push(rename); break; }
       parts.push(rename || categories[cur].name);
       cur = categories[cur].parent;
     }
@@ -237,12 +237,12 @@ async function main() {
     return chain;
   }
   function ancestorPathsOf(cid) {
-    if (isPathOverride(renames[cid])) return [];
+    if (isPathOverride(cid, renames[cid])) return [];
     const chain = ancestorsOf(cid).slice(1);
     const paths = [];
     for (const id of chain) {
       const rename = renames[id];
-      if (isPathOverride(rename)) {
+      if (isPathOverride(id, rename)) {
         const segments = rename.split(' > ');
         for (let i = 1; i <= segments.length; i++) paths.push(segments.slice(0, i).join(' > '));
         return paths;

@@ -29,7 +29,7 @@ const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
 
-function isPathOverride(rename) { return !!rename && rename.includes(' > '); }
+function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
 
 // Identical logic to the browser tool's solDisplayPath()/extraCategories.
 function resolveCategory(rawCategoryName) {
@@ -47,7 +47,7 @@ function resolveCategory(rawCategoryName) {
   const partsResult = [];
   for (let i = keys.length - 1; i >= 0; i--) {
     const rename = RENAMES[keys[i].key];
-    if (isPathOverride(rename)) { partsResult.unshift(rename); break; }
+    if (isPathOverride(keys[i].key, rename)) { partsResult.unshift(rename); break; }
     partsResult.unshift(rename || keys[i].name);
   }
   const category = partsResult.join(' > ');
