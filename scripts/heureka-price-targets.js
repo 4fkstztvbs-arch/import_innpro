@@ -10,6 +10,12 @@
 //
 // If there's no targets file yet (no report processed) or no entry for a given EAN, the
 // product's own transform-*.js price is used unchanged - this module never invents a price.
+//
+// KILL SWITCH: this whole mechanism is built and wired in, but deliberately held INACTIVE until
+// someone explicitly turns it on with HEUREKA_PRICE_OVERRIDE=1 (e.g. as a step env var in the
+// supplier sync workflows, or a repo-level Actions variable). Until then every call is a no-op
+// and returns the price unchanged, regardless of what's in price-targets.json. See
+// reports/prehlad-importov.md section 4.4.
 
 const fs = require('fs');
 const path = require('path');
@@ -17,6 +23,7 @@ const { roundPrice, roundPriceUp } = require('./round-price');
 
 const TARGETS_PATH = path.join(__dirname, '..', 'data', 'heureka-reports', 'price-targets.json');
 const DEFAULT_MIN_MARGIN_PCT = 5;
+const OVERRIDE_ENABLED = process.env.HEUREKA_PRICE_OVERRIDE === '1';
 
 let cache;
 function loadTargets() {
@@ -46,6 +53,7 @@ function loadTargets() {
 //   ZNÍŽIŤ: never go above what today's own formula already computed (only lowers).
 // Both directions still respect today's floor.
 function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct = DEFAULT_MIN_MARGIN_PCT) {
+  if (!OVERRIDE_ENABLED) return computedPriceInclVat;
   if (!ean || !purchasePriceExclVat) return computedPriceInclVat;
   const target = loadTargets()[ean];
   if (!target || !Number.isFinite(target.targetPriceInclVat)) return computedPriceInclVat;
@@ -59,4 +67,4 @@ function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat
   return computedPriceInclVat;
 }
 
-module.exports = { applyHeurekaPriceTarget, loadTargets, TARGETS_PATH };
+module.exports = { applyHeurekaPriceTarget, loadTargets, TARGETS_PATH, OVERRIDE_ENABLED };
