@@ -75,10 +75,15 @@ Každý produkt môže do XML dostať `<HEUREKA_CATEGORY_ID>` — pole, ktoré S
 
 Nástroj na porovnanie našich aktuálnych cien (z `output/*.xml`) s konkurenciou pomocou Heureka "sortiment reportu" (Heureka admin → export produktov obchodu, CSV — obsahuje `Vaša cena`, `Najnižšia cena`, celý cenový rebríček `PriceMin2..10`/`PriceMax10..2`, počet predajcov a pod.).
 
-- **Použitie:** `node scripts/compare-heureka-prices.js <heureka-report.csv> [--out=path.csv] [--xml=dir]` (alebo `npm run heureka-price-compare -- <csv>`).
+- **Použitie:** `node scripts/compare-heureka-prices.js <heureka-report.csv> [--out=path.csv] [--xml=dir] [--min-margin=5]` (alebo `npm run heureka-price-compare -- <csv>`).
 - **Párovací kľúč: EAN, nie "Item ID".** Stĺpec `Item ID` v Heureka reporte je Shoptetom pridelené interné ID produktu z konkrétneho obchodu (z URL `...#66040`) — po prestavbe/novom importe sa nezachová a nedá sa spárovať s ničím u nás. EAN naopak identifikuje fyzický produkt a prežije akúkoľvek zmenu obchodu — je to jediný spoľahlivý párovací kľúč.
-- **Výstup:** CSV zoradené od najväčšieho rozdielu (kde sme najviac drahší) — EAN, názov, kategória, dodávateľ, naša cena, Heureka najnižšia/najvyššia cena, odhadovaná pozícia, rozdiel v € aj %, Heureka URL.
-- **Otestované 2026-08-07** na reálnom exporte (5965 riadkov zo starého obchodu) — mechanika funguje (1912 produktov spárovaných cez EAN), ale keďže report bol z pôvodného e-shopu, číselné výsledky vtedy neboli použité na žiadne rozhodnutie. Treba spustiť znova s aktuálnym reportom, keď bude e-shop v ostrej prevádzke a Heureka bude mať naindexovaný aktuálny sortiment.
+- **Automatický návrh novej ceny** (stĺpce `Akcia`/`OdporucanaCenaEUR`/`Poznamka`), pravidlo:
+  - **Sme najlacnejší/na rovnakej cene** → `ZVÝŠIŤ` na úroveň 2. najlacnejšieho konkurenta (`PriceMin2`) — necháme si maximálnu konkurencieschopnosť, ale prestaneme rozdávať maržu zbytočne.
+  - **Nie sme najlacnejší** → `ZNÍŽIŤ` tesne pod aktuálne najlacnejšieho (o 1 zaokrúľovací krok), stávame sa novým najlacnejším.
+  - **Poistka:** cena nikdy neklesne pod `floor = nákupná cena bez DPH × (1 + min. marža) × (1 + DPH)` (`--min-margin`, default **5 %**) — nákupná cena je vždy bez DPH (`PURCHASE_PRICE_INCL_VAT=0`, pozri sekciu 3), floor sa preto počíta korektne z ceny bez DPH s DPH pridaným až na konci. Ak by zrovnanie s konkurenciou floor porušilo, cena sa upraví len po floor (nie až na úroveň konkurencie) a riadok je označený v `Poznamka`.
+  - Riadky bez známej nákupnej ceny (typicky MONACOR — nemá nákupnú cenu k dispozícii, pozri sekciu 3) sa neupravujú, len sa spočítajú v súhrne.
+- **Výstup:** CSV zoradené od najväčšieho rozdielu (kde sme najviac drahší) — EAN, názov, kategória, dodávateľ, naša cena, nákupná cena bez DPH, floor cena, Heureka najnižšia/2. najnižšia/najvyššia cena, odhadovaná pozícia, rozdiel v € aj %, navrhovaná akcia a cena, poznámka, Heureka URL.
+- **Otestované 2026-08-07** na reálnom exporte (5965 riadkov zo starého obchodu) — mechanika aj cenový návrh fungujú (1912 produktov spárovaných cez EAN, z toho 1088 malo dosť dát na návrh ceny), ale keďže report bol z pôvodného e-shopu, číselné výsledky vtedy neboli použité na žiadne rozhodnutie. Treba spustiť znova s aktuálnym reportom, keď bude e-shop v ostrej prevádzke a Heureka bude mať naindexovaný aktuálny sortiment. **Výstup je len návrh (CSV) — nič sa automaticky nezapisuje do cien v `transform-*.js`.**
 
 ## 5. Obrázky
 
