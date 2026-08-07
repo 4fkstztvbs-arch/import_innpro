@@ -82,7 +82,6 @@ Mechanizmus (INNpro aj ATOS): z raw cesty kategórie sa postupne od najhlbšej �
 1. **ATOS feed je dostupný len v noci.** Skutočný platný `resultType` je **`StoItemShoptet_El`** (nie holé `StoItemShoptet`, ktoré vôbec neexistuje — potvrdené priamym testom, HTTP 500 "Unknown resultType"). Mimo nočného okna vracia HTTP 500 "Unsupported Hour". README aj `ATOS_URL` secret by mali používať `_El` variant. Aktuálny cron (`30 22 * * *` = 22:30 UTC) je v okne a necháva ~1h35min rezervu pred importom o 2:05.
 2. **`output/atos.xml` čaká na regeneráciu** — kategorizačné opravy (Kávovary, "Druhy" fix) aj ATOS→Icecat obrázky sú v kóde na `main`, ale posledný commitnutý `atos.xml` (05:10 7.8.) ich ešte neobsahuje, keďže ATOS beží len v noci. `output/innpro.xml` je už čerstvý a opravy potvrdené priamo vo výstupe (beh 07:00 7.8.).
 3. **Prihlasovacie údaje k ATOS v `README.md` sú v plaintexte** (`ATOS_USERNAME`/`ATOS_PASSWORD`) — vedomé rozhodnutie, ide o testovací prístup, finálna verzia bude mať iné heslá.
-4. **`scripts/.github/workflows/innpro-sync.yml`** — overené: je to zastaraná kópia (chýba retry logika pri súbežnom pushi, staršia verzia bez komentárov) na nesprávnej ceste. GitHub číta workflows len z koreňového `.github/workflows/`, takže tento súbor sa **nikdy nespúšťa** — je to mŕtvy, no matúci pozostatok. Stojí za zváženie zmazať.
 
 ## 8. Kde čo nájdeš
 

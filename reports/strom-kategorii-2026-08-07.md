@@ -1,0 +1,2902 @@
+# Strom kategórií po importe (všetci dodávatelia) — 2026-08-07
+
+Vygenerované z aktuálnych `output/*.xml` (posledné commitnuté súbory, pozri `reports/prehlad-importov.md` sekcia 7 — `atos.xml` ešte čaká na najbližší nočný beh, takže ATOS vetva nižšie odráža stav pred kategorizačnými opravami z tohto týždňa).
+
+**Ako čítať:** odrážky = uzly cieľového stromu kategórií tak, ako vznikne v Shoptete po importe všetkých 5 feedov. Pri listových kategóriách je v zátvorke počet priradených produktov a rozpis podľa dodávateľa (koľko produktov do danej kategórie spadlo). Uzly bez čísla sú čisto štrukturálne (nemajú priamo priradený žiadny produkt, len podkategórie).
+
+**Súhrn:** 26 872 produktov s priradenou kategóriou, 2 279 listových kategórií (s aspoň 1 produktom), spolu 2 885 uzlov v strome (vrátane priebežných/štrukturálnych).
+
+**Na čo sa pri kontrole pozrieť:** stromy jednotlivých dodávateľov sú z veľkej časti zlúčené do spoločných vetiev (napr. `Auto-moto`, domáce spotrebiče a pod.), ale keďže ide o automatizované zlučovanie podľa `scripts/*-mapping.json`, môžu sa v strome vyskytovať:
+- **takmer-duplicitné vetvy** (napr. rovnaký typ tovaru pod mierne odlišným názvom kategórie od rôznych dodávateľov — pozri napr. `Auto-moto > Autorádiá` vs `Auto-moto > Audio, Hi-Fi > Autorádiá`),
+- **nepreložené/cudzojazyčné zvyšky** (napr. `Bezprzewodowe adaptery CarPlay` popri `Bezdrôtové adaptéry CarPlay` — poľský názov kategórie, ktorý unikol minulotýždňovému čisteniu poľských kategórií u InnPro),
+- **príliš plytké/hlboké vetvenie** oproti zvyšku stromu.
+
+Tieto nálezy nie sú automaticky opravené — toto je podklad na ručnú kontrolu.
+
+---
+
+- Auto-moto
+  - Audio, Hi-Fi
+    - Autorádiá  _(produkty: 11 — ATOS: 11)_
+    - Displeje do autá
+    - FM transmittery  _(produkty: 1 — ATOS: 1)_
+    - Reproduktory do autá  _(produkty: 4 — ATOS: 4)_
+  - Autokozmetika, Chémia
+    - Aditiva  _(produkty: 10 — ATOS: 10)_
+    - Exterier  _(produkty: 31 — ATOS: 31)_
+    - Interier  _(produkty: 28 — ATOS: 28)_
+    - Nanotechnologie  _(produkty: 10 — ATOS: 10)_
+    - Oleje, mazivá  _(produkty: 2 — ATOS: 2)_
+    - Renovace  _(produkty: 6 — ATOS: 6)_
+    - Rozmrazovače  _(produkty: 4 — ATOS: 4)_
+    - Umývacie a čistiace pomôcky  _(produkty: 20 — ATOS: 20)_
+  - Autopríslušenstvo  _(produkty: 1 — Solight: 1)_
+    - Alkohol testery  _(produkty: 10 — Solight: 10)_
+    - Měniče napätia  _(produkty: 2 — Solight: 2)_
+  - Autorádiá
+    - Autorádiá s CD  _(produkty: 4 — K+B: 4)_
+    - Autorádiá s DVD  _(produkty: 1 — K+B: 1)_
+    - Autorádiá s USB  _(produkty: 17 — K+B: 17)_
+    - Príslušenstvo do autá  _(produkty: 1 — K+B: 1)_
+    - Reproduktory do autá  _(produkty: 8 — K+B: 8)_
+    - Subwoofery do autá  _(produkty: 1 — K+B: 1)_
+  - Bezdrôtové adaptéry CarPlay
+    - Android Auto  _(produkty: 33 — InnPro: 33)_
+  - Bezpečnosť
+    - Autosedačky  _(produkty: 13 — ATOS: 13)_
+    - Kamery do autá  _(produkty: 1 — ATOS: 1)_
+    - Parkovací senzory  _(produkty: 2 — ATOS: 2)_
+    - Tažná lana  _(produkty: 15 — ATOS: 15)_
+    - Testery alkoholu  _(produkty: 4 — ATOS: 4)_
+    - Upínacie gumy a pásy  _(produkty: 15 — ATOS: 15)_
+    - Zimní doplnky  _(produkty: 26 — ATOS: 26)_
+  - Bezprzewodowe adaptery CarPlay
+    - Android Auto  _(produkty: 4 — InnPro: 4)_
+  - Diagnostické nástroje  _(produkty: 40 — InnPro: 40)_
+  - Držiaky telefónov  _(produkty: 14 — InnPro: 14)_
+  - Elektromobilita
+    - AC nabíjacie stanice Wallbox  _(produkty: 6 — ATOS: 6)_
+    - Nabíjacie káble pre elektromobily  _(produkty: 20 — ATOS: 20)_
+    - Prenosné nabíjačky a redukcie  _(produkty: 13 — ATOS: 13)_
+    - Tesla  _(produkty: 7 — ATOS: 7)_
+  - Elektrovozidlá
+    - Elektrokolobežky  _(produkty: 4 — K+B: 4)_
+  - Garáž, Dielňa, Servis
+    - Autodiagnostika  _(produkty: 52 — ATOS: 52)_
+    - Autonářadí, doplnky  _(produkty: 43 — ATOS: 43)_
+    - Autoplachty  _(produkty: 34 — ATOS: 34)_
+    - Elektroinštalačný materiál
+      - Izolačné pásky
+      - Káblová oká  _(produkty: 3 — ATOS: 3)_
+      - Odpojovače batérií  _(produkty: 4 — ATOS: 4)_
+      - Poistky  _(produkty: 9 — ATOS: 9)_
+      - Propojovače batérií  _(produkty: 1 — ATOS: 1)_
+      - Redukcie, predlžovacie káble pre připojení přívěsu  _(produkty: 25 — ATOS: 25)_
+      - Silové káble  _(produkty: 17 — ATOS: 17)_
+      - Smršťovací bužírky  _(produkty: 7 — ATOS: 7)_
+    - Hasicí prístroje
+    - Heváky  _(produkty: 6 — ATOS: 6)_
+    - Kanystry  _(produkty: 5 — ATOS: 5)_
+    - Kompresory, hustilky  _(produkty: 14 — ATOS: 14)_
+    - Parkovací zábrany
+    - Sťahováky
+    - Čerpadlá  _(produkty: 1 — ATOS: 1)_
+    - Špeciálne náradie a prípravky
+      - Brzdy
+        - Ostatné prípravky na brzdy  _(produkty: 1 — ATOS: 1)_
+        - Stlačováky brzdových pístů  _(produkty: 11 — ATOS: 11)_
+        - Výměna brzdové kvapaliny  _(produkty: 1 — ATOS: 1)_
+      - Exteriér
+        - Oprava karoserie  _(produkty: 5 — ATOS: 5)_
+      - Interiér  _(produkty: 21 — ATOS: 21)_
+      - Motor
+        - Aretace  _(produkty: 12 — ATOS: 12)_
+          - Alfa Romeo  _(produkty: 5 — ATOS: 5)_
+          - Audi  _(produkty: 8 — ATOS: 8)_
+          - BMW  _(produkty: 13 — ATOS: 13)_
+          - Chevrolet  _(produkty: 1 — ATOS: 1)_
+          - Chrysler  _(produkty: 2 — ATOS: 2)_
+          - Citroën  _(produkty: 5 — ATOS: 5)_
+          - Fiat  _(produkty: 5 — ATOS: 5)_
+          - Ford  _(produkty: 5 — ATOS: 5)_
+          - Lancia  _(produkty: 2 — ATOS: 2)_
+          - Land Rover  _(produkty: 2 — ATOS: 2)_
+          - Nissan  _(produkty: 1 — ATOS: 1)_
+          - Opel  _(produkty: 8 — ATOS: 8)_
+          - Renault  _(produkty: 2 — ATOS: 2)_
+          - Seat
+          - Volkswagen  _(produkty: 4 — ATOS: 4)_
+          - Volvo  _(produkty: 3 — ATOS: 3)_
+          - Škoda  _(produkty: 1 — ATOS: 1)_
+        - Kľúče a prípravky  _(produkty: 33 — ATOS: 33)_
+        - Olej  _(produkty: 1 — ATOS: 1)_
+          - Misky, nádoby a lieviky  _(produkty: 11 — ATOS: 11)_
+          - Olejničky a maznice  _(produkty: 2 — ATOS: 2)_
+          - Olejové vany  _(produkty: 2 — ATOS: 2)_
+        - Prípravky  _(produkty: 6 — ATOS: 6)_
+        - Testery  _(produkty: 17 — ATOS: 17)_
+      - Navijaky a zdviháky
+        - Navijaky  _(produkty: 1 — ATOS: 1)_
+        - Zdviháky a heváky  _(produkty: 1 — ATOS: 1)_
+      - Ostatné prípravky  _(produkty: 25 — ATOS: 25)_
+      - Podvozek
+        - Heváky a zdviháky  _(produkty: 33 — ATOS: 33)_
+          - Náhradné diely k heverům  _(produkty: 6 — ATOS: 6)_
+          - Príslušenstvo k heverům  _(produkty: 20 — ATOS: 20)_
+        - Ostatné  _(produkty: 3 — ATOS: 3)_
+        - Podstavce  _(produkty: 6 — ATOS: 6)_
+          - Príslušenstvo k podstavcům  _(produkty: 5 — ATOS: 5)_
+        - Sťahováky  _(produkty: 19 — ATOS: 19)_
+      - Testery  _(produkty: 1 — ATOS: 1)_
+  - GPS navigácie  _(produkty: 7 — K+B: 7)_
+  - Karavany a obytná autá
+    - Autochladničky  _(produkty: 11 — ATOS: 11)_
+    - Batérie do karavanu
+    - Grily a variče  _(produkty: 4 — ATOS: 4)_
+    - Kempingový nábytok
+    - Lapače hmyzu
+    - Meniče napätie  _(produkty: 24 — ATOS: 24)_
+    - Mobilné TV a SAT antény
+      - Antény pre DVB-T2 príjem  _(produkty: 7 — ATOS: 7)_
+    - Nabíjačky batérií
+      - Autonabíjačky  _(produkty: 29 — ATOS: 29)_
+    - Ostatné doplnky  _(produkty: 2 — ATOS: 2)_
+    - Parkovací asistenti  _(produkty: 8 — ATOS: 8)_
+    - Redukcie a adaptéry  _(produkty: 2 — ATOS: 2)_
+    - Televízory na 12V
+  - Kolesá
+    - Kolové skrutky a matice  _(produkty: 3 — ATOS: 3)_
+    - Měřiče tlaku  _(produkty: 4 — ATOS: 4)_
+    - Oprava pneumatik  _(produkty: 2 — ATOS: 2)_
+    - Pokrievky na kolesá  _(produkty: 13 — ATOS: 13)_
+    - Snehové reťaze  _(produkty: 15 — ATOS: 15)_
+  - Káble a nabíjačky pre elektromobily  _(produkty: 11 — InnPro: 11)_
+  - Mini kompresory  _(produkty: 8 — InnPro: 8)_
+  - Monitory automobilov  _(produkty: 3 — InnPro: 3)_
+  - Nabíjanie
+    - Autobatérie
+    - Nabíjačky a štartovacie boxy  _(produkty: 7 — ATOS: 7)_
+    - Svorky na autobatérie  _(produkty: 5 — ATOS: 5)_
+    - Testery autobaterií  _(produkty: 13 — ATOS: 13)_
+    - Štartovacie káble  _(produkty: 14 — ATOS: 14)_
+  - Nabíjačky do auta  _(produkty: 5 — InnPro: 5)_
+  - Nosiče kol
+    - Nosiče na tažné zariadenie  _(produkty: 6 — ATOS: 6)_
+    - Príslušenstvo  _(produkty: 29 — ATOS: 29)_
+    - Příčné nosníky  _(produkty: 15 — ATOS: 15)_
+    - Střešní nosiče  _(produkty: 3 — ATOS: 3)_
+  - Ostatné  _(produkty: 3 — InnPro: 3)_
+  - Prenosné lednice  _(produkty: 1 — ATOS: 1)_
+  - Umývanie a čistenie
+    - Vysávače do auta  _(produkty: 4 — InnPro: 4)_
+  - Videorekordéry
+    - Príslušenstvo  _(produkty: 2 — InnPro: 2)_
+    - Videorekordéry  _(produkty: 2 — InnPro: 2)_
+  - Vybavenie autá
+    - Adaptéry napájení  _(produkty: 28 — ATOS: 28)_
+    - Autokoberce  _(produkty: 7 — ATOS: 7)_
+      - Auto koberce Audi
+        - Audi Q2  _(produkty: 1 — ATOS: 1)_
+        - Audi Q3  _(produkty: 1 — ATOS: 1)_
+        - Audi Q8  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce BMW
+        - X1, X3, X4, X5, X6  _(produkty: 5 — ATOS: 5)_
+      - Auto koberce Citroën
+        - Jumper  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Dacia
+        - Dokker  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Ford
+        - Explorer  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Hyundai
+        - Santa Fe  _(produkty: 1 — ATOS: 1)_
+        - Sonata  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Jeep
+        - Cherokee  _(produkty: 2 — ATOS: 2)_
+        - Liberty  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Kia
+        - Cerato  _(produkty: 1 — ATOS: 1)_
+        - Optima  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Mercedes-Benz
+        - Sprinter  _(produkty: 3 — ATOS: 3)_
+        - Třída A  _(produkty: 1 — ATOS: 1)_
+        - Třída C  _(produkty: 2 — ATOS: 2)_
+        - Třída G  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Nissan
+        - Pathfinder  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Opel
+        - Zafira  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Peugeot
+        - 408  _(produkty: 1 — ATOS: 1)_
+        - Boxer  _(produkty: 2 — ATOS: 2)_
+      - Auto koberce Renault
+        - Duster  _(produkty: 5 — ATOS: 5)_
+        - Symbol  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce SsangYong  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Toyota
+        - Camry  _(produkty: 1 — ATOS: 1)_
+        - Land Cruiser  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Volkswagen
+        - Amarok  _(produkty: 1 — ATOS: 1)_
+        - Crafter  _(produkty: 2 — ATOS: 2)_
+        - Polo  _(produkty: 1 — ATOS: 1)_
+        - Transporter  _(produkty: 1 — ATOS: 1)_
+      - Auto koberce Volvo
+        - S60  _(produkty: 1 — ATOS: 1)_
+    - Autopotahy  _(produkty: 30 — ATOS: 30)_
+      - Ochrany sedadel  _(produkty: 19 — ATOS: 19)_
+      - Opěrky hlavy  _(produkty: 1 — ATOS: 1)_
+      - Univerzálne autopotahy
+      - Univerzálne autopotahy - dodávky
+        - Autopotahy PRACTICAL dodávka  _(produkty: 1 — ATOS: 1)_
+      - Univerzálne autopotahy - dvě sedadla
+        - Autotrička BAVLNA  _(produkty: 1 — ATOS: 1)_
+      - Vyhřívané autopotahy  _(produkty: 15 — ATOS: 15)_
+    - Autožiarovky  _(produkty: 8 — ATOS: 8)_
+      - 12V  _(produkty: 27 — ATOS: 27)_
+      - 12V Excelite  _(produkty: 3 — ATOS: 3)_
+      - 12V halogenové  _(produkty: 24 — ATOS: 24)_
+      - 12V White Laser  _(produkty: 8 — ATOS: 8)_
+      - 24V  _(produkty: 6 — ATOS: 6)_
+      - CSP LED žiarovky  _(produkty: 2 — ATOS: 2)_
+      - LED žiarovky  _(produkty: 18 — ATOS: 18)_
+      - Sady žárovek  _(produkty: 13 — ATOS: 13)_
+      - SMD LED žiarovky  _(produkty: 45 — ATOS: 45)_
+    - Cestovné doplnky  _(produkty: 86 — ATOS: 86)_
+    - Clony a roletky  _(produkty: 24 — ATOS: 24)_
+    - Držiaky na mobily  _(produkty: 18 — ATOS: 18)_
+    - Meniče napätie
+    - Odpojovač batérie
+    - Organizéry do kufru  _(produkty: 12 — ATOS: 12)_
+    - Osviežovače vzduchu
+      - Různé  _(produkty: 5 — ATOS: 5)_
+      - Vône AROMA CAR  _(produkty: 7 — ATOS: 7)_
+      - Vône CAR CITY  _(produkty: 5 — ATOS: 5)_
+      - Vône CITY  _(produkty: 4 — ATOS: 4)_
+      - Vône FRESH BAG  _(produkty: 10 — ATOS: 10)_
+      - Vône FRESH POINT  _(produkty: 5 — ATOS: 5)_
+      - Vône INTENSO  _(produkty: 1 — ATOS: 1)_
+      - Vône LUCKY TOP  _(produkty: 5 — ATOS: 5)_
+      - Vône Mr&Mrs CESARE  _(produkty: 7 — ATOS: 7)_
+      - Vône SPEED  _(produkty: 8 — ATOS: 8)_
+    - Podložky SPZ  _(produkty: 21 — ATOS: 21)_
+    - Poistky
+    - Povinná výbava  _(produkty: 12 — ATOS: 12)_
+    - Stierače
+      - Gumičky stieračov  _(produkty: 10 — ATOS: 10)_
+      - HELLA Cleantech  _(produkty: 13 — ATOS: 13)_
+      - Klasické kovové  _(produkty: 30 — ATOS: 30)_
+      - Ploché FLAT Flexi  _(produkty: 15 — ATOS: 15)_
+      - Ploché FLAT Multi  _(produkty: 16 — ATOS: 16)_
+      - Sady stieračov FLAT DOUBLE  _(produkty: 7 — ATOS: 7)_
+      - Sady stieračov FLAT SET  _(produkty: 155 — ATOS: 155)_
+      - Stierače BULK  _(produkty: 76 — ATOS: 76)_
+      - Stierače HYBRID  _(produkty: 7 — ATOS: 7)_
+      - Stierače zadního okna  _(produkty: 9 — ATOS: 9)_
+    - Svetlá  _(produkty: 11 — ATOS: 11)_
+    - Ventilátory  _(produkty: 1 — ATOS: 1)_
+  - Štartovacie káble  _(produkty: 38 — InnPro: 38)_
+- Bezpečnosť a smart domácnosť
+  - IP kamery  _(produkty: 36 — InnPro: 36)_
+  - Kamerové systémy
+    - Akční kamery  _(produkty: 2 — ATOS: 2)_
+    - Atrapy kamer  _(produkty: 5 — ATOS: 5)_
+    - Domové videotelefony
+      - Analogové  _(produkty: 3 — ATOS: 3)_
+      - IP videotelefony  _(produkty: 3 — ATOS: 3)_
+    - HDCVI a 5v1 videorekordéry
+      - 16 kanálů  _(produkty: 2 — ATOS: 2)_
+      - 4 kanály  _(produkty: 3 — ATOS: 3)_
+      - 8 kanálů  _(produkty: 2 — ATOS: 2)_
+    - HDCVI, HDTVI, AHD kamery  _(produkty: 2 — ATOS: 2)_
+      - 2.0 Mpix (Full HD)  _(produkty: 1 — ATOS: 1)_
+      - Otočné  _(produkty: 1 — ATOS: 1)_
+    - Inspekční kamery, endoskopy  _(produkty: 17 — ATOS: 17)_
+    - IP sieťové kamery  _(produkty: 10 — ATOS: 10)_
+      - 1.0 Mpix. (HD) / 1.3 Mpix.  _(produkty: 2 — ATOS: 2)_
+      - 2.0 Mpix. (Full HD) / 2.4 Mpix  _(produkty: 17 — ATOS: 17)_
+      - 3.0 Mpix.  _(produkty: 1 — ATOS: 1)_
+      - 4.0 Mpix.  _(produkty: 14 — ATOS: 14)_
+      - 5.0 Mpix.  _(produkty: 7 — ATOS: 7)_
+      - 6.0 Mpix.  _(produkty: 2 — ATOS: 2)_
+      - 8.0 Mpix. (4K)  _(produkty: 4 — ATOS: 4)_
+    - IP sieťové videorekordéry (NVR)
+      - 16 kanálů  _(produkty: 3 — ATOS: 3)_
+      - 4 kanály  _(produkty: 2 — ATOS: 2)_
+      - 64 kanálů  _(produkty: 1 — ATOS: 1)_
+      - 8 kanálů  _(produkty: 5 — ATOS: 5)_
+    - IP SMART kamery  _(produkty: 2 — ATOS: 2)_
+    - Kamerové sety  _(produkty: 3 — ATOS: 3)_
+    - KAMERY 4v1
+      - 2.0 Mpix. / 2.4 Mpix.  _(produkty: 10 — ATOS: 10)_
+      - 4.0 Mpix.  _(produkty: 2 — ATOS: 2)_
+      - 5.0 Mpix.  _(produkty: 5 — ATOS: 5)_
+      - 8.0 Mpix. (4K)  _(produkty: 1 — ATOS: 1)_
+    - PRÍSLUŠENSTVO
+      - Držiaky  _(produkty: 35 — ATOS: 35)_
+      - Interné pevné disky
+      - Konektory  _(produkty: 9 — ATOS: 9)_
+      - Káble  _(produkty: 20 — ATOS: 20)_
+      - Montážne skrine a racky  _(produkty: 23 — ATOS: 23)_
+      - Napájacie zdroje  _(produkty: 37 — ATOS: 37)_
+      - Nálepky, knihy  _(produkty: 2 — ATOS: 2)_
+      - Ostatné  _(produkty: 1 — ATOS: 1)_
+      - Pamäťové karty  _(produkty: 2 — ATOS: 2)_
+      - PoE switche  _(produkty: 12 — ATOS: 12)_
+      - Prevodníky
+  - Osvetlenie
+    - Dekoratívne osvetlenie  _(produkty: 3 — InnPro: 3)_
+    - Iné  _(produkty: 1 — InnPro: 1)_
+    - LED pásy  _(produkty: 17 — InnPro: 17)_
+    - LED žiarovky  _(produkty: 12 — InnPro: 12)_
+    - Nábytkové svietidlá  _(produkty: 13 — InnPro: 13)_
+    - Stojacie lampy  _(produkty: 3 — InnPro: 3)_
+    - Stolové a nočné lampy  _(produkty: 21 — InnPro: 21)_
+    - Stropné svietidlá  _(produkty: 27 — InnPro: 27)_
+    - Svietidlá  _(produkty: 4 — InnPro: 4)_
+  - Prvky výkonu
+    - Senzory  _(produkty: 93 — InnPro: 93)_
+    - Smart kúrenie
+      - Ovládače klimatizácie
+        - tepelného čerpadla  _(produkty: 2 — InnPro: 2)_
+      - Termostatické hlavice  _(produkty: 9 — InnPro: 9)_
+      - Termostaty  _(produkty: 22 — InnPro: 22)_
+    - Smart zámky  _(produkty: 27 — InnPro: 27)_
+    - Smart zástrčky
+      - Napájacie lišty  _(produkty: 2 — InnPro: 2)_
+      - Zásuvky  _(produkty: 41 — InnPro: 41)_
+  - Príslušenstvo  _(produkty: 39 — InnPro: 39)_
+  - Riadiace jednotky
+    - Ovládacie panely  _(produkty: 7 — InnPro: 7)_
+    - Prepínače  _(produkty: 73 — InnPro: 73)_
+    - Smart centrály  _(produkty: 16 — InnPro: 16)_
+    - Smart ovládače  _(produkty: 98 — InnPro: 98)_
+  - Smart domácnosť  _(produkty: 8 — Solight: 7, K+B: 1)_
+    - Detektory a alarmy  _(produkty: 18 — ATOS: 18)_
+    - IP kamery  _(produkty: 18 — ATOS: 18)_
+    - Klávesnice  _(produkty: 2 — ATOS: 2)_
+    - Meteostanice
+    - Ostatné smart elektronika  _(produkty: 11 — ATOS: 11)_
+    - Osvetlenie  _(produkty: 16 — ATOS: 16)_
+    - Prenosné lednice, chladiace boxy  _(produkty: 4 — ATOS: 4)_
+    - Príslušenstvo  _(produkty: 5 — ATOS: 5)_
+    - Robotické vysávače
+    - Rádiá
+    - Smart potreby do domácnosti  _(produkty: 1 — K+B: 1)_
+    - Smart zabezpečenie
+      - Detektor pohybu  _(produkty: 1 — K+B: 1)_
+      - Kamery  _(produkty: 1 — K+B: 1)_
+      - Smart senzory  _(produkty: 1 — K+B: 1)_
+    - Smart zásuvky  _(produkty: 1 — K+B: 1)_
+    - Smart žiarovky  _(produkty: 3 — K+B: 3)_
+    - Televízory
+    - Vykurovanie
+    - Vypínače  _(produkty: 2 — ATOS: 2)_
+    - Zvončeky  _(produkty: 7 — ATOS: 7)_
+    - Zásuvky  _(produkty: 6 — ATOS: 6)_
+    - Čističky vzduchu
+  - Smart záhrada  _(produkty: 9 — InnPro: 9)_
+  - Zabezpečenie  _(produkty: 11 — Solight: 11)_
+    - Detektory CO, CO2, plynu a vody  _(produkty: 22 — ATOS: 22)_
+    - Domové alarmy  _(produkty: 8 — ATOS: 8)_
+    - Hasící prístroje  _(produkty: 2 — ATOS: 2)_
+    - Kamery  _(produkty: 7 — Solight: 7)_
+    - Laserové senzory pohybu  _(produkty: 9 — ATOS: 9)_
+    - Ostatné  _(produkty: 1 — ATOS: 1)_
+    - PIR čidlá  _(produkty: 39 — ATOS: 39)_
+    - Požarní hlásiče  _(produkty: 6 — ATOS: 6)_
+- Domáce spotrebiče
+  - Malé spotrebiče  _(produkty: 11 — InnPro: 11)_
+    - Bývanie a doplnky  _(produkty: 1 — K+B: 1)_
+      - Domové alarmy a zvončeky
+        - Bezpečnostní kamery  _(produkty: 1 — K+B: 1)_
+      - Hodiny a budíky  _(produkty: 4 — K+B: 4)_
+      - Sušiaky na bielizeň  _(produkty: 39 — K+B: 39)_
+      - Žehliace dosky  _(produkty: 14 — K+B: 14)_
+    - Dezinfekčné lampy
+      - Bezozónové  _(produkty: 3 — Solight: 3)_
+      - Ozónové  _(produkty: 2 — Solight: 2)_
+      - Príslušenstvo, náhradné diely  _(produkty: 5 — Solight: 5)_
+    - Elektrické kanvice  _(produkty: 1 — InnPro: 1)_
+    - Fritézy  _(produkty: 4 — InnPro: 4)_
+    - Fritézy a hrnce
+      - Elektrické panvice  _(produkty: 10 — K+B: 10)_
+      - Fritézy  _(produkty: 57 — K+B: 57)_
+      - Multifunkčné hrnce  _(produkty: 33 — K+B: 33)_
+      - Parné hrnce  _(produkty: 6 — K+B: 6)_
+      - Polievkovary  _(produkty: 4 — K+B: 4)_
+      - Pomalé hrnce  _(produkty: 14 — K+B: 14)_
+      - Ryžovary  _(produkty: 6 — K+B: 6)_
+      - Sous-Vide  _(produkty: 3 — K+B: 3)_
+      - Variče vajec  _(produkty: 3 — K+B: 3)_
+      - Zaváracie hrnce  _(produkty: 4 — K+B: 4)_
+    - Grily, pekárne, variče
+      - Domáce pekárne  _(produkty: 5 — K+B: 5)_
+      - Elektrické grily  _(produkty: 23 — K+B: 23)_
+      - Elektrické variče  _(produkty: 19 — K+B: 19)_
+      - Lávové a raclettové grily  _(produkty: 2 — K+B: 2)_
+      - Pece na pizzu  _(produkty: 15 — K+B: 15)_
+    - Kuchynské potreby
+      - Brousky na nože  _(produkty: 1 — K+B: 1)_
+      - Cedníky, Lieviky, Sitá  _(produkty: 2 — K+B: 2)_
+      - Chlebníky, Košíky, Košíky (ošatky)  _(produkty: 1 — K+B: 1)_
+      - Doštičky, Podložky, Krájacie dosky  _(produkty: 7 — K+B: 7)_
+      - Handry, Houby, Kefy  _(produkty: 1 — K+B: 1)_
+      - Kuchynské minútky  _(produkty: 2 — K+B: 2)_
+      - Kuchynské nože a nožnice  _(produkty: 12 — K+B: 12)_
+      - Kuchynské teplomery  _(produkty: 2 — K+B: 2)_
+      - Kuchynské váhy  _(produkty: 24 — K+B: 24)_
+      - Lisy na potraviny  _(produkty: 3 — K+B: 3)_
+      - Mlynčeky na korenie  _(produkty: 5 — K+B: 5)_
+      - Obrusy a prestieranie  _(produkty: 1 — K+B: 1)_
+      - Odkôstkovače  _(produkty: 1 — K+B: 1)_
+      - Ostatné kuchynské potreby  _(produkty: 16 — K+B: 16)_
+      - Otvárače na konzervy  _(produkty: 1 — K+B: 1)_
+      - Valčeky na cesto  _(produkty: 1 — K+B: 1)_
+      - Varešky, Naberačky, Obracačky, Kliešte  _(produkty: 12 — K+B: 12)_
+      - Vývrtky a otvárače  _(produkty: 2 — K+B: 2)_
+      - Škrabky a strúhadlá  _(produkty: 1 — K+B: 1)_
+    - Kuchynské príslušenstvo
+      - Na varenie  _(produkty: 26 — InnPro: 26)_
+      - Ostatné  _(produkty: 12 — InnPro: 12)_
+    - Kuchynské roboty a krájače
+      - Krájače potravín  _(produkty: 16 — K+B: 16)_
+      - Kuchynské roboty  _(produkty: 21 — K+B: 21)_
+      - Mixéry a šľahače
+        - Elektrické sekáčiky  _(produkty: 11 — K+B: 11)_
+        - Mixéry
+          - Stolové mixéry  _(produkty: 47 — K+B: 47)_
+          - Tyčové mixéry  _(produkty: 19 — K+B: 19)_
+        - Zmrzlinovače a jogurtovače  _(produkty: 14 — K+B: 14)_
+        - Šľahače  _(produkty: 19 — K+B: 19)_
+      - Mlynčeky na mäso  _(produkty: 7 — K+B: 7)_
+    - Kávovary a espressá  _(produkty: 24 — InnPro: 24)_
+      - Automatická espressá  _(produkty: 16 — K+B: 16)_
+      - Káva  _(produkty: 42 — K+B: 42)_
+      - Kávovary na kapsle  _(produkty: 16 — K+B: 16)_
+      - Kávové kapsle  _(produkty: 68 — K+B: 68)_
+      - Mlynčeky na kávu  _(produkty: 6 — K+B: 6)_
+      - Moka kanvice a frenchpressy  _(produkty: 19 — K+B: 19)_
+      - Napěňovače mlieka  _(produkty: 7 — K+B: 7)_
+      - Prekvapkávače  _(produkty: 11 — K+B: 11)_
+      - Pákové kávovary  _(produkty: 13 — K+B: 13)_
+    - Meteostanice  _(produkty: 32 — Solight: 32)_
+      - Bezdrátová čidlá  _(produkty: 22 — ATOS: 22)_
+      - Dataloggery  _(produkty: 2 — ATOS: 2)_
+      - Meteorologické stanice  _(produkty: 46 — ATOS: 46)_
+      - Náhradné diely  _(produkty: 2 — ATOS: 2)_
+      - Stanice s připojením k počítači  _(produkty: 17 — ATOS: 17)_
+      - Teplomery digitálne  _(produkty: 13 — ATOS: 13)_
+    - Mini chladničky  _(produkty: 3 — InnPro: 3)_
+    - Mixéry  _(produkty: 3 — InnPro: 3)_
+    - Na párty a oslavy  _(produkty: 7 — K+B: 7)_
+    - Naparovače odevov  _(produkty: 1 — InnPro: 1)_
+    - Nádobie
+      - Dózy na potraviny  _(produkty: 7 — K+B: 7)_
+      - Hrnce  _(produkty: 31 — K+B: 31)_
+      - Hrnčeky a šálky  _(produkty: 3 — K+B: 3)_
+      - Misy a misky  _(produkty: 2 — K+B: 2)_
+      - Panvice  _(produkty: 30 — K+B: 30)_
+      - Pekáče a zapekacie misy  _(produkty: 3 — K+B: 3)_
+      - Pečúce formy  _(produkty: 16 — K+B: 16)_
+      - Poháre a fľaše  _(produkty: 14 — K+B: 14)_
+      - Pokrievky  _(produkty: 1 — K+B: 1)_
+      - Termosky a termohrnčeky  _(produkty: 1 — K+B: 1)_
+    - Ostatné  _(produkty: 8 — InnPro: 8)_
+    - Ostatné domáce spotrebiče  _(produkty: 8 — K+B: 8)_
+    - Ostatné spotrebiče
+      - Drobné kuchynské spotrebiče
+      - Elektrické hrnce  _(produkty: 1 — ATOS: 1)_
+      - Elektrické panvice  _(produkty: 2 — ATOS: 2)_
+      - Fritézy  _(produkty: 8 — ATOS: 8)_
+      - Grily  _(produkty: 4 — ATOS: 4)_
+      - Hriankovače  _(produkty: 1 — ATOS: 1)_
+      - Kuchynské roboty  _(produkty: 8 — ATOS: 8)_
+      - Kávovary  _(produkty: 6 — ATOS: 6)_
+      - Mixéry  _(produkty: 4 — ATOS: 4)_
+      - Palacinkovače  _(produkty: 1 — ATOS: 1)_
+      - Pece na pizzu  _(produkty: 7 — ATOS: 7)_
+      - Rúry
+      - Rýchlovarné kanvice  _(produkty: 2 — ATOS: 2)_
+      - Sendvičovače  _(produkty: 4 — ATOS: 4)_
+      - Sušičky potravín  _(produkty: 3 — ATOS: 3)_
+      - Vaflovače  _(produkty: 4 — ATOS: 4)_
+      - Variče  _(produkty: 3 — ATOS: 3)_
+      - Vysávače
+        - Podlahové vysávače  _(produkty: 1 — ATOS: 1)_
+        - Robotické vysávače  _(produkty: 3 — ATOS: 3)_
+        - Ručné vysávače  _(produkty: 3 — ATOS: 3)_
+        - Tyčové vysávače  _(produkty: 1 — ATOS: 1)_
+      - Výrobníky ľadu  _(produkty: 2 — ATOS: 2)_
+      - Zváračky folií  _(produkty: 7 — ATOS: 7)_
+    - Palacinkovače  _(produkty: 7 — K+B: 7)_
+    - Potreby pre domácnosť
+      - Aroma difuzéry  _(produkty: 33 — ATOS: 33)_
+      - Doplnky do domácnosti
+        - Koše na bielizeň  _(produkty: 1 — ATOS: 1)_
+        - Koše na tříděný odpad  _(produkty: 10 — ATOS: 10)_
+        - Ostatné doplnky do domácnosti  _(produkty: 14 — ATOS: 14)_
+        - Sušiaky na bielizeň  _(produkty: 3 — ATOS: 3)_
+      - Efekty a dekorácie
+        - Do bytu  _(produkty: 1 — ATOS: 1)_
+        - Na párty  _(produkty: 1 — ATOS: 1)_
+      - Elektrické nože  _(produkty: 2 — K+B: 2)_
+      - Filtračné kanvice  _(produkty: 4 — ATOS: 4)_
+      - Formy na pečení  _(produkty: 2 — ATOS: 2)_
+      - Hodiny a budíky
+        - Budíky  _(produkty: 42 — ATOS: 42)_
+        - Hodiny  _(produkty: 28 — ATOS: 28)_
+        - Časovače, minútky  _(produkty: 2 — ATOS: 2)_
+      - Kanvice na čaj  _(produkty: 1 — ATOS: 1)_
+      - Kuchynské pomôcky
+        - Lúskačky  _(produkty: 1 — ATOS: 1)_
+        - Ostatné kuchynské pomôcky  _(produkty: 2 — ATOS: 2)_
+        - Teplomery  _(produkty: 2 — ATOS: 2)_
+        - Varešky a obracačky  _(produkty: 1 — ATOS: 1)_
+      - Kuchynské riad
+        - Panvice  _(produkty: 1 — ATOS: 1)_
+      - Kuchynské váhy  _(produkty: 10 — ATOS: 10)_
+      - Meteostanice, teplomery, vlhkomery  _(produkty: 1 — K+B: 1)_
+        - Meteostanice  _(produkty: 1 — K+B: 1)_
+      - Nože a příbory
+        - Brousky na nože
+      - Osobné váhy  _(produkty: 5 — ATOS: 5)_
+      - Starostlivosť o telo
+        - Kulmy a sušiče vlasů  _(produkty: 1 — ATOS: 1)_
+      - Sušičky ovocie a potravín  _(produkty: 19 — K+B: 19)_
+      - Termosky, termohrnčeky  _(produkty: 3 — ATOS: 3)_
+      - Testery alkoholu  _(produkty: 3 — ATOS: 3)_
+      - Těsnění do okien a dveří  _(produkty: 5 — ATOS: 5)_
+      - Upratovanie  _(produkty: 1 — ATOS: 1)_
+        - Handry, houbičky a utěrky na upratovanie  _(produkty: 3 — ATOS: 3)_
+        - Metly a mopy na upratovanie  _(produkty: 2 — ATOS: 2)_
+      - Vonné oleje  _(produkty: 8 — ATOS: 8)_
+      - Vákuovačky a zváračky fólií  _(produkty: 11 — K+B: 11)_
+        - Príslušenstvo pre vákuovačky a zváračky  _(produkty: 17 — K+B: 17)_
+        - Vákuovačky a zváračky  _(produkty: 17 — K+B: 17)_
+    - Pre dieťa  _(produkty: 1 — InnPro: 1)_
+    - Príprava nápojov
+      - Filtračné kanvice  _(produkty: 35 — K+B: 35)_
+      - Lisy na citrusy  _(produkty: 11 — K+B: 11)_
+      - Odšťavovače  _(produkty: 10 — K+B: 10)_
+      - Príslušenstvo pre filtračné kanvice  _(produkty: 24 — K+B: 24)_
+      - Rýchlovarné kanvice  _(produkty: 90 — K+B: 90)_
+      - Sirupy a fľaše pre výrobníky sódy  _(produkty: 2 — K+B: 2)_
+      - Výrobníky sódy  _(produkty: 7 — K+B: 7)_
+      - Výrobníky ľadu  _(produkty: 9 — K+B: 9)_
+      - Čajová sitká  _(produkty: 2 — K+B: 2)_
+    - Príslušenstvo k malým spotrebičom  _(produkty: 22 — K+B: 22)_
+      - Filtre do vysávačov  _(produkty: 25 — K+B: 25)_
+      - Príslušenstvo k vysávačom  _(produkty: 45 — K+B: 45)_
+      - Príslušenstvo k žehlenie  _(produkty: 14 — K+B: 14)_
+      - Príslušenstvo ku grilom  _(produkty: 2 — K+B: 2)_
+      - Príslušenstvo ku kuchynským robotom  _(produkty: 10 — K+B: 10)_
+      - Príslušenstvo ku kávovarom  _(produkty: 27 — K+B: 27)_
+      - Príslušenstvo ku vzduchotechnike  _(produkty: 2 — K+B: 2)_
+      - Vrecká do vysávačov  _(produkty: 89 — K+B: 89)_
+      - Vône do vysávače  _(produkty: 3 — K+B: 3)_
+    - Sendvičovače, hriankovače, vaflovače
+      - Hriankovače  _(produkty: 32 — K+B: 32)_
+      - Sendvičovače  _(produkty: 21 — K+B: 21)_
+      - Vaflovače  _(produkty: 12 — K+B: 12)_
+    - Teplomery  _(produkty: 10 — InnPro: 10)_
+    - Upratovacie pomôcky
+      - Košťata a metly  _(produkty: 4 — K+B: 4)_
+      - Mopy a upratovacie súpravy  _(produkty: 81 — K+B: 81)_
+      - Čistiace prostriedky  _(produkty: 7 — K+B: 7)_
+      - Čističe okien  _(produkty: 16 — K+B: 16)_
+    - Varné platne  _(produkty: 12 — InnPro: 12)_
+    - Ventilátory  _(produkty: 5 — InnPro: 5)_
+    - Vybavenie domácnosti  _(produkty: 12 — Solight: 12)_
+    - Vykurovanie a klimatizácia  _(produkty: 3 — InnPro: 3)_
+    - Vysávače
+      - Aku vysávače  _(produkty: 10 — K+B: 10)_
+      - Náhradné diely  _(produkty: 80 — InnPro: 80)_
+      - Ostatné  _(produkty: 1 — InnPro: 1)_
+      - Parné mopy a čističe  _(produkty: 10 — K+B: 10)_
+      - Podlahové vysávače  _(produkty: 22 — K+B: 22)_
+      - Príslušenstvo
+        - Neoriginálne príslušenstvo
+          - Pre produkty starostlivosti o vlasy  _(produkty: 12 — Solight: 12)_
+          - Pre vysávače  _(produkty: 15 — Solight: 15)_
+      - Robotické vysávače  _(produkty: 97 — K+B: 60, InnPro: 37)_
+      - Tyčové vysávače  _(produkty: 60 — K+B: 45, InnPro: 15)_
+      - Viacúčelové vysávače  _(produkty: 7 — K+B: 7)_
+    - Vzduchotechnika  _(produkty: 27 — Solight: 27)_
+      - Aroma difuzéry  _(produkty: 7 — K+B: 7)_
+      - Klimatizácia  _(produkty: 13 — ATOS: 13)_
+      - Odvlhčovače vzduchu  _(produkty: 13 — ATOS: 8, K+B: 5)_
+      - Príslušenstvo  _(produkty: 7 — ATOS: 7)_
+      - Ventilátory  _(produkty: 1 — ATOS: 1)_
+      - Vykurovacie telesá  _(produkty: 1 — K+B: 1)_
+        - Elektrická krbová kachle  _(produkty: 1 — K+B: 1)_
+        - Vykurovacie telesá, radiátory
+          - Konvektory  _(produkty: 6 — K+B: 6)_
+          - Olejové radiátory  _(produkty: 3 — K+B: 3)_
+          - Teplovzdušné ventilátory  _(produkty: 7 — K+B: 7)_
+      - Vykurovanie  _(produkty: 31 — ATOS: 31)_
+      - Zvlhčovače  _(produkty: 1 — ATOS: 1)_
+      - Zvlhčovače vzduchu  _(produkty: 2 — K+B: 2)_
+      - Čističky vzduchu  _(produkty: 15 — K+B: 12, ATOS: 3)_
+    - Zvlhčovače vzduchu
+      - Náhradné diely  _(produkty: 1 — InnPro: 1)_
+      - Zvlhčovače vzduchu  _(produkty: 3 — InnPro: 3)_
+    - Čistenie  _(produkty: 7 — InnPro: 7)_
+    - Čističky vzduchu  _(produkty: 10 — InnPro: 10)_
+    - Žehličky
+      - Cestovné žehličky  _(produkty: 2 — K+B: 2)_
+      - Naparovacie žehličky  _(produkty: 33 — K+B: 33)_
+      - Naparovače odevov  _(produkty: 15 — K+B: 15)_
+      - Parné generátory  _(produkty: 6 — K+B: 6)_
+      - Šijacie stroje a príslušenstvo
+        - Šijacie stroje  _(produkty: 1 — K+B: 1)_
+      - Žehličky na suché žehlenie  _(produkty: 2 — K+B: 2)_
+  - Veľké spotrebiče
+    - Chladničky
+      - Americké chladničky  _(produkty: 5 — K+B: 5)_
+      - Chladiace tašky a boxy  _(produkty: 13 — K+B: 13)_
+      - Chladničky s mraziace priehradkou  _(produkty: 7 — K+B: 7)_
+      - Kombinované chladničky
+        - Chladničky s mrazákom dole  _(produkty: 43 — K+B: 43)_
+        - Chladničky s mrazákom nahoře  _(produkty: 9 — K+B: 9)_
+      - Monoklimatické chladničky  _(produkty: 19 — K+B: 19)_
+      - Príslušenstvo k chladničkám  _(produkty: 4 — K+B: 4)_
+    - Mikrovlnné rúry  _(produkty: 14 — K+B: 14)_
+    - Mrazničky
+      - Pultové mrazničky  _(produkty: 13 — K+B: 13)_
+      - Zásuvkové mrazničky  _(produkty: 6 — K+B: 6)_
+    - Práčky
+      - Práčky s vrchným plnením  _(produkty: 13 — K+B: 13)_
+      - Práčky zepředu plnené  _(produkty: 50 — K+B: 50)_
+      - Príslušenstvo k práčkam a sušičkám  _(produkty: 27 — K+B: 27)_
+    - Sporáky a rúry
+      - Elektrické sporáky  _(produkty: 7 — K+B: 7)_
+      - Kombinované sporáky  _(produkty: 3 — K+B: 3)_
+      - Príslušenstvo ku sporákom a rúram  _(produkty: 5 — K+B: 5)_
+      - Stolové rúry  _(produkty: 11 — K+B: 11)_
+    - Sušičky  _(produkty: 29 — K+B: 29)_
+    - Umývačky riadu
+      - Príslušenstvo k umývačke  _(produkty: 1 — K+B: 1)_
+      - Stolové umývačky riad  _(produkty: 1 — K+B: 1)_
+      - Umývačky riad 45 cm  _(produkty: 5 — K+B: 5)_
+      - Umývačky riad 60 cm  _(produkty: 11 — K+B: 11)_
+    - Vinotéky a vitríny  _(produkty: 19 — K+B: 19)_
+    - Vykurovanie a ohrev vody
+      - Ohrievače vody  _(produkty: 12 — K+B: 12)_
+  - Vstavané spotrebiče
+    - Digestory
+      - Filtre do digestorov  _(produkty: 2 — K+B: 2)_
+      - Komínové digestory  _(produkty: 11 — K+B: 11)_
+      - Ostrovčekové digestory  _(produkty: 1 — K+B: 1)_
+      - Príslušenstvo k digestorom  _(produkty: 1 — K+B: 1)_
+      - Výsuvné, výklopné digestory  _(produkty: 14 — K+B: 14)_
+      - Závesné digestory  _(produkty: 5 — K+B: 5)_
+    - Varné dosky
+      - Elektrické varné dosky  _(produkty: 1 — K+B: 1)_
+      - Indukčné varné dosky  _(produkty: 27 — K+B: 27)_
+      - Plynové varné dosky  _(produkty: 13 — K+B: 13)_
+      - Sklokeramické varné dosky  _(produkty: 6 — K+B: 6)_
+    - Vstavané chladenie  _(produkty: 1 — K+B: 1)_
+      - Vstavané kombinované chladničky  _(produkty: 4 — K+B: 4)_
+    - Vstavané mikrovlnné rúry  _(produkty: 15 — K+B: 15)_
+    - Vstavané rúry  _(produkty: 1 — K+B: 1)_
+      - Vstavané pečúce rúry  _(produkty: 33 — K+B: 33)_
+    - Vstavané umývačky riadu
+      - Vstavané umývačky 45 cm  _(produkty: 11 — K+B: 11)_
+      - Vstavané umývačky 60 cm  _(produkty: 24 — K+B: 24)_
+- Dróny a RC modely
+  - Batérie
+    - Lítiové a NiMH  _(produkty: 69 — InnPro: 69)_
+  - Načítanie
+    - Nabíjačky  _(produkty: 17 — InnPro: 17)_
+    - Napájacie zdroje  _(produkty: 1 — InnPro: 1)_
+    - Príslušenstvo  _(produkty: 2 — InnPro: 2)_
+  - Náhradné diely  _(produkty: 2 — InnPro: 2)_
+  - Nástroje a meradlá  _(produkty: 1 — InnPro: 1)_
+  - Podvodné drony  _(produkty: 3 — InnPro: 3)_
+  - Príslušenstvo pre drony
+    - DJI  _(produkty: 108 — InnPro: 108)_
+    - Filtre pre drony  _(produkty: 111 — InnPro: 111)_
+    - Pristátie  _(produkty: 8 — InnPro: 8)_
+    - Tašky a kufre  _(produkty: 48 — InnPro: 48)_
+- Elektroinštalačný materiál
+  - Cestovné adaptéry  _(produkty: 13 — Solight: 13)_
+  - Elektromery  _(produkty: 2 — Solight: 2)_
+  - Elektromery a spínacie technika
+    - Elektromery na DIN lištu
+      - 1-fázové elektromery  _(produkty: 23 — ATOS: 23)_
+      - 3-fázové elektromery  _(produkty: 40 — ATOS: 40)_
+    - Hladinvé spínače
+    - Impulzní spínače  _(produkty: 4 — ATOS: 4)_
+    - Laserové senzory pohybu
+    - Pohybová čidlá  _(produkty: 2 — ATOS: 2)_
+    - Počítadla provozních hodin
+      - Počítadla provozních hodin do panelu  _(produkty: 6 — ATOS: 6)_
+      - Počítadla provozních hodin na DIN lištu  _(produkty: 6 — ATOS: 6)_
+    - Schodišťové automaty  _(produkty: 1 — ATOS: 1)_
+    - SMART elektromery
+    - Soumrakové spínače  _(produkty: 9 — ATOS: 9)_
+    - Spínacie hodiny
+      - Analogové spínacie hodiny  _(produkty: 13 — ATOS: 13)_
+      - Digitálne spínacie hodiny  _(produkty: 11 — ATOS: 11)_
+      - Časové spínače na DIN  _(produkty: 22 — ATOS: 22)_
+    - Termostaty
+      - Bezdrátové  _(produkty: 13 — ATOS: 13)_
+      - Drátové  _(produkty: 17 — ATOS: 17)_
+      - Příložné  _(produkty: 6 — ATOS: 6)_
+      - Termostatické hlavice  _(produkty: 2 — ATOS: 2)_
+      - Zásuvkové  _(produkty: 9 — ATOS: 9)_
+    - Zásuvkové elektromery  _(produkty: 3 — ATOS: 3)_
+    - Časové spínače
+  - Inštalačné náradie a ostatné materiál
+    - Chémia
+    - Elektrické zámky  _(produkty: 7 — ATOS: 7)_
+    - Kľúče na F konektory
+    - Lisovací kliešte  _(produkty: 5 — ATOS: 5)_
+    - Náradie pre fotovoltaiku  _(produkty: 6 — ATOS: 6)_
+    - Organizéry  _(produkty: 3 — ATOS: 3)_
+    - Ostatné
+    - Ořezávače káblov
+    - Rozběhové kondenzátory  _(produkty: 13 — ATOS: 13)_
+  - Inštalačné príslušenstvo
+    - Hmoždinky a skrutky  _(produkty: 19 — ATOS: 19)_
+    - Izolačné pásky  _(produkty: 2 — ATOS: 2)_
+    - Káblová oká
+    - Káblové příchytky a držiaky
+      - Káblové příchytky  _(produkty: 1 — ATOS: 1)_
+      - Páskové hmoždinky  _(produkty: 2 — ATOS: 2)_
+      - Sběrné káblové držiaky  _(produkty: 9 — ATOS: 9)_
+    - Káblové spojky
+      - Káblové gelové spojky
+        - Dvousložkové zalévací gély  _(produkty: 9 — ATOS: 9)_
+        - Jednosložkové vyplňovací gély  _(produkty: 3 — ATOS: 3)_
+        - Káblové gelové spojky EVO IP68  _(produkty: 9 — ATOS: 9)_
+        - Káblové gelové spojky LEDJOY IP68  _(produkty: 1 — ATOS: 1)_
+        - Káblové gelové spojky PAGURO IP68  _(produkty: 7 — ATOS: 7)_
+        - Káblové gelové spojky SHARK  _(produkty: 12 — ATOS: 12)_
+        - Káblové spojky SHARK IP68  _(produkty: 5 — ATOS: 5)_
+        - Ochranné gelové krabičky  _(produkty: 7 — ATOS: 7)_
+        - Protahovací gély na káble  _(produkty: 1 — ATOS: 1)_
+        - Príslušenstvo pre káblové gelové spojky  _(produkty: 3 — ATOS: 3)_
+      - Ostatné káblové spojky  _(produkty: 20 — ATOS: 20)_
+    - Organizéry káblov  _(produkty: 4 — ATOS: 4)_
+    - Rúrky a chráničky
+      - Chráničky (husí krk)  _(produkty: 26 — ATOS: 26)_
+      - Plastové rúrky  _(produkty: 2 — ATOS: 2)_
+    - Smršťovací bužírky
+    - Sťahovacie pásky
+      - Kovové sťahovacie pásky  _(produkty: 15 — ATOS: 15)_
+      - Plastové sťahovacie pásky  _(produkty: 3 — ATOS: 3)_
+  - Ističe a chrániče
+    - Ističe AC  _(produkty: 40 — ATOS: 40)_
+    - Ističe DC
+    - Motorové ističe  _(produkty: 2 — ATOS: 2)_
+    - Odpojovače batérií
+    - Odpínače/odpojovače  _(produkty: 9 — ATOS: 9)_
+    - Poistky  _(produkty: 9 — ATOS: 9)_
+    - Pojistková puzdrá  _(produkty: 1 — ATOS: 1)_
+    - Pojistné odpojovače  _(produkty: 1 — ATOS: 1)_
+    - Prepäťové ochrany AC  _(produkty: 21 — ATOS: 21)_
+    - Prepäťové ochrany DC
+    - Prepínače napájení  _(produkty: 22 — ATOS: 22)_
+    - Proudové chrániče  _(produkty: 28 — ATOS: 28)_
+    - Stykače  _(produkty: 22 — ATOS: 22)_
+  - Kompenzátory jalového výkonu  _(produkty: 8 — ATOS: 8)_
+  - Komponenty pre svietidlá
+    - LED světelné zdroje  _(produkty: 3 — ATOS: 3)_
+    - Objímky
+      - Plastové objímky E14  _(produkty: 4 — ATOS: 4)_
+      - Príslušenstvo k objímkám  _(produkty: 4 — ATOS: 4)_
+    - Svorky pre průmyslová svietidlá
+      - Svorky - SLK 3
+        - 2-pólové svorky - SLK 3/2  _(produkty: 2 — ATOS: 2)_
+        - 3-pólové svorky - SLK 3/3  _(produkty: 3 — ATOS: 3)_
+        - 4-pólové svorky - SLK 3/4  _(produkty: 2 — ATOS: 2)_
+        - 5-pólové svorky - SLK 3/5  _(produkty: 1 — ATOS: 1)_
+      - Svorky - SLK 5  _(produkty: 1 — ATOS: 1)_
+    - Svítidlové spínače (kolébkové)
+      - Spínače šňůrové - nožní  _(produkty: 3 — ATOS: 3)_
+      - Spínače šňůrové - průchozí  _(produkty: 3 — ATOS: 3)_
+      - Spínače šňůrové - s flexi kabelem  _(produkty: 3 — ATOS: 3)_
+    - Tlumivky, předřadníky, zapalovače
+      - Magnetické předřadníky - tlumivky  _(produkty: 3 — ATOS: 3)_
+  - Káble a vodiče
+    - Auto káble
+    - Dvojlinky  _(produkty: 22 — ATOS: 22)_
+    - Fotovoltaické káble
+    - Koaxiálne káble
+      - Boxy a stojany  _(produkty: 1 — ATOS: 1)_
+      - Koaxiálne průchodky  _(produkty: 3 — ATOS: 3)_
+      - Metráž  _(produkty: 5 — ATOS: 5)_
+      - Měděné  _(produkty: 28 — ATOS: 28)_
+      - Vonkajšie
+      - Vícenásobné káble
+      - Včetně konektorů  _(produkty: 12 — ATOS: 12)_
+      - Železné  _(produkty: 3 — ATOS: 3)_
+    - Mikrofonní káble  _(produkty: 1 — ATOS: 1)_
+    - Patch káble  _(produkty: 1 — ATOS: 1)_
+    - Silové káble  _(produkty: 25 — ATOS: 25)_
+    - UTP a FTP káble  _(produkty: 1 — ATOS: 1)_
+  - Montážne skrine a rozvádzače
+    - Kovové skrine  _(produkty: 14 — ATOS: 14)_
+    - Plastové skrine  _(produkty: 17 — ATOS: 17)_
+    - Revízne dvierka
+      - Kovová revízne dvierka  _(produkty: 18 — ATOS: 18)_
+      - Plastová revízne dvierka  _(produkty: 11 — ATOS: 11)_
+    - Rozvádzače osadené
+      - AC rozvádzače  _(produkty: 12 — ATOS: 12)_
+      - DC rozvádzače  _(produkty: 18 — ATOS: 18)_
+    - Rozvádzače samostatné
+      - Gumové skrine RubberBOX IP65  _(produkty: 2 — ATOS: 2)_
+      - Ostatné skrine a rozvodnice  _(produkty: 2 — ATOS: 2)_
+      - Rozvodnice Acqua IP65  _(produkty: 13 — ATOS: 13)_
+      - Rozvodnice AcquaPLUS IP65  _(produkty: 4 — ATOS: 4)_
+      - Rozvodnice ELEKTRO-PLAST  _(produkty: 19 — ATOS: 19)_
+      - Rozvodnice FlatBOX IP65  _(produkty: 10 — ATOS: 10)_
+      - Rozvodnice NEPTUN IP65  _(produkty: 4 — ATOS: 4)_
+      - Rozvodnice NUOVA IP40 (bytové)  _(produkty: 22 — ATOS: 22)_
+      - Rozvodnice TSM  _(produkty: 12 — ATOS: 12)_
+      - Skrine AcquaCOMBI IP65  _(produkty: 14 — ATOS: 14)_
+      - Skrine AcquaCOMBI IP65 s otvory  _(produkty: 10 — ATOS: 10)_
+      - Skrine MAGNA IP65  _(produkty: 30 — ATOS: 30)_
+      - Skrine STONE IP55 - IP66  _(produkty: 28 — ATOS: 28)_
+    - Skrine pre kamerové systémy
+    - Zásuvkové skrine  _(produkty: 82 — ATOS: 82)_
+  - Ostatné
+    - 230V
+      - Držiaky zásuviek  _(produkty: 5 — Solight: 5)_
+      - Flexo šnúry  _(produkty: 33 — Solight: 33)_
+      - Koncovky  _(produkty: 27 — Solight: 27)_
+      - Rozbočky  _(produkty: 46 — Solight: 46)_
+      - Viacnásobné zásuvky  _(produkty: 8 — Solight: 8)_
+      - Vypínače a zásuvky
+        - Do vlhka  _(produkty: 5 — Solight: 5)_
+        - Slim  _(produkty: 6 — Solight: 6)_
+    - 400V  _(produkty: 3 — Solight: 3)_
+    - Izolačný materiál
+      - Izolačné PVC pásky  _(produkty: 10 — Solight: 10)_
+      - Káblové príchytky  _(produkty: 2 — Solight: 2)_
+      - Viazacie pásky  _(produkty: 11 — Solight: 11)_
+    - Káble
+      - Koaxiálne  _(produkty: 3 — Solight: 3)_
+  - Osvetlenie
+    - Cestovné adaptéry  _(produkty: 1 — K+B: 1)_
+    - Infra žiarovky  _(produkty: 3 — ATOS: 3)_
+    - Lampy a lampičky  _(produkty: 2 — K+B: 2)_
+    - LED osvetlenie
+      - Interiérové osvetlenie  _(produkty: 57 — Solight: 57)_
+      - Kuchynské osvetlenie  _(produkty: 10 — Solight: 10)_
+      - Kúpeľňové osvetlenie  _(produkty: 4 — Solight: 4)_
+      - Nočné a dekoratívne svetielka  _(produkty: 10 — Solight: 10)_
+      - Núdzové osvetlenie  _(produkty: 2 — Solight: 2)_
+      - Technické osvetlenie  _(produkty: 15 — Solight: 15)_
+      - Vonkajšie osvetlenie  _(produkty: 1 — Solight: 1)_
+        - Fasádne a záhradné osvetlenie  _(produkty: 10 — Solight: 10)_
+        - Prisadené osvetlenie  _(produkty: 22 — Solight: 22)_
+        - Solárne osvetlenie  _(produkty: 10 — Solight: 10)_
+    - LED panely a podhľadová svetla
+      - LED podhľadové panely a svetlá  _(produkty: 38 — Solight: 38)_
+      - Příslušenstvo  _(produkty: 6 — Solight: 6)_
+    - LED pásky  _(produkty: 13 — ATOS: 13)_
+      - LED pásiky  _(produkty: 38 — Solight: 38)_
+      - Napájacie zdroje 12V  _(produkty: 14 — Solight: 14)_
+      - Príslušenstvo  _(produkty: 23 — Solight: 23)_
+    - LED reflektory
+      - Bílé svetlo  _(produkty: 54 — ATOS: 54)_
+      - Prenosné  _(produkty: 7 — ATOS: 7)_
+      - Reflektory bez senzora  _(produkty: 13 — Solight: 13)_
+      - Reflektory so senzorom  _(produkty: 6 — Solight: 6)_
+      - Reflektory so stojanom  _(produkty: 12 — Solight: 12)_
+    - LED stolové lampy  _(produkty: 28 — Solight: 28)_
+    - LED svietidlá  _(produkty: 157 — ATOS: 157)_
+    - LED sviečky  _(produkty: 4 — ATOS: 4)_
+    - LED trubicové žiarivky  _(produkty: 10 — Solight: 10)_
+    - LED žiarovky
+      - E14  _(produkty: 19 — Solight: 19)_
+      - E14 závit  _(produkty: 60 — ATOS: 60)_
+      - E27  _(produkty: 31 — Solight: 31)_
+      - E27 závit  _(produkty: 103 — ATOS: 103)_
+      - G4 patice  _(produkty: 2 — ATOS: 2)_
+      - G9 patice  _(produkty: 5 — ATOS: 5)_
+      - G9&G4  _(produkty: 5 — Solight: 5)_
+      - GU10  _(produkty: 8 — Solight: 8)_
+      - GU10 patice  _(produkty: 24 — ATOS: 24)_
+      - MR16 patice  _(produkty: 2 — ATOS: 2)_
+      - Ostatné svetelné zdroje  _(produkty: 3 — Solight: 3)_
+    - LED Žiarovky  _(produkty: 48 — K+B: 48)_
+    - Ostatné žiarovky a žiarivky  _(produkty: 8 — K+B: 8)_
+    - Patice, Redukcie  _(produkty: 4 — ATOS: 4)_
+    - Priemyselné LED osvetlenie
+      - High Bay  _(produkty: 8 — Solight: 8)_
+      - LED lineárne osvetlenie  _(produkty: 3 — Solight: 3)_
+    - Senzory a konektory  _(produkty: 10 — Solight: 10)_
+    - Stojace lampy
+    - Stolové lampy  _(produkty: 35 — ATOS: 35)_
+    - SVIETIDLÁ
+      - Kempingové  _(produkty: 3 — ATOS: 3)_
+      - Nabíjacie  _(produkty: 34 — ATOS: 34)_
+      - Ručné  _(produkty: 34 — ATOS: 34)_
+      - Čelovky  _(produkty: 53 — ATOS: 53)_
+    - Svietidlá  _(produkty: 1 — K+B: 1)_
+      - Lampáše  _(produkty: 6 — Solight: 6)_
+      - Montážne a nabíjacie svetla  _(produkty: 2 — Solight: 2)_
+      - Nabíjacie  _(produkty: 23 — Solight: 23)_
+      - Nenabíjacie  _(produkty: 6 — Solight: 6)_
+      - Vnútorné osvetlenie  _(produkty: 1 — K+B: 1)_
+        - Dekoratívne osvetlenie  _(produkty: 1 — K+B: 1)_
+        - Ostatné svietidlá  _(produkty: 1 — K+B: 1)_
+        - SMART osvetlenie  _(produkty: 2 — K+B: 2)_
+        - Stojace a stolové lampy  _(produkty: 1 — K+B: 1)_
+        - Stropné a nástenná svietidlá  _(produkty: 3 — K+B: 3)_
+      - Čelové  _(produkty: 11 — Solight: 11)_
+    - Vianocne osvetlenie
+      - Vianočné LED dekorácie  _(produkty: 58 — Solight: 58)_
+      - Vianočné reťaze
+        - Batériové  _(produkty: 30 — Solight: 30)_
+        - Sieťové 230V  _(produkty: 26 — Solight: 26)_
+    - Vianočné dekorácie  _(produkty: 89 — ATOS: 89)_
+    - Záhradné svietidlá  _(produkty: 4 — ATOS: 4)_
+    - Zásuvky  _(produkty: 2 — K+B: 2)_
+    - Žiarovky  _(produkty: 11 — ATOS: 11)_
+  - Predlžovacie káble a zásuvky
+    - Jednozásuvkové
+      - Jednozásuvkové  400V  _(produkty: 4 — Solight: 4)_
+      - Jednozásuvkové 230V  _(produkty: 29 — Solight: 29)_
+    - Navíjacie bubny  _(produkty: 24 — Solight: 24)_
+    - Prepäťové ochrany  _(produkty: 13 — Solight: 13)_
+    - Viaczásuvkové
+      - Klasické  _(produkty: 45 — Solight: 45)_
+      - Ostatné  _(produkty: 22 — Solight: 22)_
+    - Výsuvné a vstavané zásuvky  _(produkty: 28 — Solight: 28)_
+    - Záhradné stĺpiky  _(produkty: 11 — Solight: 11)_
+  - Predlžovačky, zásuvky, vidlica
+    - Adaptéry a redukcie
+      - Cestovné adaptéry  _(produkty: 7 — ATOS: 7)_
+      - Redukcie a adaptéry  _(produkty: 8 — ATOS: 8)_
+      - Rozbočovacie zásuvky  _(produkty: 17 — ATOS: 17)_
+    - Flexo šnúry  _(produkty: 2 — ATOS: 2)_
+    - Napájacie káble  _(produkty: 10 — ATOS: 10)_
+    - Predlžovacie prívody
+      - Dĺžka 1,4m  _(produkty: 3 — ATOS: 3)_
+      - Dĺžka 1,5m  _(produkty: 28 — ATOS: 28)_
+      - Dĺžka 10m  _(produkty: 26 — ATOS: 26)_
+      - Dĺžka 15m  _(produkty: 6 — ATOS: 6)_
+      - Dĺžka 20m  _(produkty: 12 — ATOS: 12)_
+      - Dĺžka 25m  _(produkty: 21 — ATOS: 21)_
+      - Dĺžka 2m  _(produkty: 28 — ATOS: 28)_
+      - Dĺžka 30m  _(produkty: 7 — ATOS: 7)_
+      - Dĺžka 3m  _(produkty: 37 — ATOS: 37)_
+      - Dĺžka 40m  _(produkty: 5 — ATOS: 5)_
+      - Dĺžka 50m  _(produkty: 11 — ATOS: 11)_
+      - Dĺžka 5m  _(produkty: 33 — ATOS: 33)_
+      - Dĺžka 7m  _(produkty: 14 — ATOS: 14)_
+    - Predlžovačky 3 fázové  _(produkty: 7 — ATOS: 7)_
+    - Priemyselné vidlica a zásuvky
+      - Priemyselné přívodky  _(produkty: 29 — ATOS: 29)_
+      - Priemyselné spojky  _(produkty: 16 — ATOS: 16)_
+      - Priemyselné vidlica  _(produkty: 20 — ATOS: 20)_
+      - Priemyselné zásuvky
+        - Nástenné priemyselné zásuvky  _(produkty: 20 — ATOS: 20)_
+        - Vstavané priemyselné zásuvky  _(produkty: 51 — ATOS: 51)_
+    - Spínacie zásuvky
+      - Do zásuvky  _(produkty: 6 — ATOS: 6)_
+      - Dálkově ovládané  _(produkty: 10 — ATOS: 10)_
+      - Na DIN lištu  _(produkty: 5 — ATOS: 5)_
+      - Smart zásuvky
+    - Vidlica a zásuvky  _(produkty: 49 — ATOS: 49)_
+  - Prepäťové ochrany
+    - Koaxiálne ochrany
+    - Predlžovačky 230V s ochranou  _(produkty: 10 — ATOS: 10)_
+    - Zásuvkové ochrany 230V  _(produkty: 3 — ATOS: 3)_
+  - Rozvádzačové prvky
+    - Bloky pre rozdělení fází
+      - Typ PDB 160 - 490 A  _(produkty: 6 — ATOS: 6)_
+      - Typ PVB ("hranaté") 160 - 500 A  _(produkty: 7 — ATOS: 7)_
+      - Typ PVBS  _(produkty: 1 — ATOS: 1)_
+      - Typ UVB 100 A  _(produkty: 10 — ATOS: 10)_
+      - Typ UVB 200 A  _(produkty: 10 — ATOS: 10)_
+    - DIN lišty, průchodky a príslušenstvo  _(produkty: 14 — ATOS: 14)_
+    - Distribuční bloky  _(produkty: 4 — ATOS: 4)_
+    - Modulární komponenty  _(produkty: 22 — ATOS: 22)_
+    - Můstky na nosnou lištu
+      - Bezšroubové kryté můstky (IP20)  _(produkty: 6 — ATOS: 6)_
+      - Kryté můstky (IP20)  _(produkty: 12 — ATOS: 12)_
+      - Nekryté můstky (IP00)  _(produkty: 4 — ATOS: 4)_
+    - Podpěrné a distanční izolátory  _(produkty: 17 — ATOS: 17)_
+    - Prepojovacie a rozbočovacie svorky
+      - Přístrojové prepojovacie svorky  _(produkty: 4 — ATOS: 4)_
+        - Tvar konektoru "jazýček/kolík"  _(produkty: 18 — ATOS: 18)_
+        - Tvar konektoru "vidlička"  _(produkty: 7 — ATOS: 7)_
+      - Rozbočovacie svorky
+        - Typová rad HLAK typ - C  _(produkty: 24 — ATOS: 24)_
+        - Typová rad HLAK typ - M2  _(produkty: 52 — ATOS: 52)_
+      - Stoupací svorky  _(produkty: 1 — ATOS: 1)_
+        - Stoupací svorky (stupačkové) kryté  _(produkty: 10 — ATOS: 10)_
+        - Stoupací svorky (stupačkové) nekryté  _(produkty: 11 — ATOS: 11)_
+      - Třmenové svorky  _(produkty: 20 — ATOS: 20)_
+      - Univerzálne svorky
+        - Typová rad RKA  _(produkty: 57 — ATOS: 57)_
+        - Typová rad UK  _(produkty: 54 — ATOS: 54)_
+    - Prepojovacie lišty  _(produkty: 1 — ATOS: 1)_
+      - Prepojovacie lišty tvar kontaktu "kolík/jazýček"  _(produkty: 28 — ATOS: 28)_
+      - Prepojovacie lišty tvar kontaktu "vidlička"  _(produkty: 32 — ATOS: 32)_
+      - Príslušenstvo pre prepojovacie lišty  _(produkty: 10 — ATOS: 10)_
+    - Zdroje a zásuvky na DIN lištu  _(produkty: 32 — ATOS: 32)_
+  - Ventilačné technika
+    - Domové ventilátory
+      - Ventilátory do koupelny/WC - do potrubie
+        - Pre průměr potrubie 100 mm  _(produkty: 2 — ATOS: 2)_
+        - Pre průměr potrubie 125 mm  _(produkty: 1 — ATOS: 1)_
+        - Pre průměr potrubie 150 mm  _(produkty: 1 — ATOS: 1)_
+      - Ventilátory do koupelny/WC - s doběhem (časovač)
+        - Pre průměr potrubie 100 mm  _(produkty: 8 — ATOS: 8)_
+        - Pre průměr potrubie 125 mm  _(produkty: 2 — ATOS: 2)_
+        - Pre průměr potrubie 150 mm  _(produkty: 2 — ATOS: 2)_
+      - Ventilátory do koupelny/WC - základní
+        - Pre průměr potrubie 100 mm  _(produkty: 12 — ATOS: 12)_
+        - Pre průměr potrubie 125 mm  _(produkty: 1 — ATOS: 1)_
+        - Pre průměr potrubie 150 mm  _(produkty: 1 — ATOS: 1)_
+      - Ventilátory podľa typové rady DOSPEL
+        - Ventilátory - typ EURO  _(produkty: 1 — ATOS: 1)_
+        - Ventilátory - typ POLO  _(produkty: 8 — ATOS: 8)_
+        - Ventilátory - typ RICO  _(produkty: 1 — ATOS: 1)_
+        - Ventilátory - typ STYL  _(produkty: 4 — ATOS: 4)_
+      - Ventilátory podľa typové rady VENTS
+        - Ventilátory - typ CF  _(produkty: 4 — ATOS: 4)_
+        - Ventilátory - typ LD  _(produkty: 23 — ATOS: 23)_
+        - Ventilátory - typ M  _(produkty: 10 — ATOS: 10)_
+        - Ventilátory - typ MA  _(produkty: 36 — ATOS: 36)_
+        - Ventilátory - typ MAO1  _(produkty: 2 — ATOS: 2)_
+        - Ventilátory - typ PF  _(produkty: 1 — ATOS: 1)_
+        - Ventilátory - typ QUIET  _(produkty: 7 — ATOS: 7)_
+        - Ventilátory - typ QUIETLINE  _(produkty: 4 — ATOS: 4)_
+        - Ventilátory - typ S  _(produkty: 26 — ATOS: 26)_
+        - Ventilátory - typ VKO  _(produkty: 6 — ATOS: 6)_
+        - Ventilátory - typ VKO1  _(produkty: 11 — ATOS: 11)_
+        - Ventilátory - typ VKOk  _(produkty: 1 — ATOS: 1)_
+        - Ventilátory - typ VN  _(produkty: 2 — ATOS: 2)_
+        - Ventilátory - typ VVR  _(produkty: 2 — ATOS: 2)_
+    - Gravitační žaluzie a klapky
+      - Gravitační klapky bez kruhového nadstavce  _(produkty: 1 — ATOS: 1)_
+      - Gravitační klapky s kruhovým nástavcem  _(produkty: 2 — ATOS: 2)_
+      - Gravitační žaluzie bez nadstavce (na omítku)  _(produkty: 14 — ATOS: 14)_
+      - Gravitační žaluzie s nástavcem (na omítku)  _(produkty: 4 — ATOS: 4)_
+      - Kovová gravitační žaluzie s nástavcem z hliníku  _(produkty: 2 — ATOS: 2)_
+    - Krbové ventilátory
+      - Ventilátory KAM  _(produkty: 1 — ATOS: 1)_
+    - Mřížky
+      - Kovové mřížky  _(produkty: 8 — ATOS: 8)_
+      - Mřížka kruhová s nástavcem  _(produkty: 5 — ATOS: 5)_
+      - Mřížka kruhová s regulovatelným nástavcem  _(produkty: 2 — ATOS: 2)_
+      - Mřížka sa síťkou bez nadstavce  _(produkty: 4 — ATOS: 4)_
+      - Mřížka sa síťkou bez nadstavce s regulací  _(produkty: 1 — ATOS: 1)_
+      - Mřížka sa síťkou s nástavcem  _(produkty: 4 — ATOS: 4)_
+      - Mřížka sa síťkou s nástavcem a s regulací  _(produkty: 2 — ATOS: 2)_
+      - Plastové mřížky do dveří  _(produkty: 1 — ATOS: 1)_
+    - Osoušeče rukou  _(produkty: 1 — ATOS: 1)_
+    - Pokojové rekuperační jednotky  _(produkty: 4 — ATOS: 4)_
+    - Pre rackové skrine
+    - Priemyselné ventilátory
+      - Ventilátory podľa typové rady DOSPEL
+        - Ventilátory - typ TURBO  _(produkty: 1 — ATOS: 1)_
+      - Ventilátory podľa typové rady VENTS
+        - Ventilátory - typ OV  _(produkty: 6 — ATOS: 6)_
+        - Ventilátory - typ OV1  _(produkty: 1 — ATOS: 1)_
+        - Ventilátory - typ OVK  _(produkty: 2 — ATOS: 2)_
+        - Ventilátory - typ OVK1  _(produkty: 2 — ATOS: 2)_
+        - Ventilátory - typ TT  _(produkty: 7 — ATOS: 7)_
+        - Ventilátory - typ TT pre  _(produkty: 9 — ATOS: 9)_
+        - Ventilátory - typ VCN  _(produkty: 1 — ATOS: 1)_
+        - Ventilátory - typ VK  _(produkty: 4 — ATOS: 4)_
+        - Ventilátory - typ VK EC  _(produkty: 1 — ATOS: 1)_
+        - Ventilátory - typ VKMz  _(produkty: 2 — ATOS: 2)_
+        - Ventilátory - typ VKOMz  _(produkty: 2 — ATOS: 2)_
+    - Príslušenstvo k ventilátorům  _(produkty: 1 — ATOS: 1)_
+      - Regulátory otáček, termostaty  _(produkty: 10 — ATOS: 10)_
+      - Zpětné klapky, filtračné boxy  _(produkty: 5 — ATOS: 5)_
+      - Časová, doběhová relé  _(produkty: 1 — ATOS: 1)_
+    - Revízne dvierka
+      - Kovová revízne dvierka
+      - Plastová revízne dvierka  _(produkty: 11 — ATOS: 11)_
+    - Talířové ventily a difuzéry
+      - Kovové talířové ventily  _(produkty: 2 — ATOS: 2)_
+      - Plastové talířové difuzéry  _(produkty: 2 — ATOS: 2)_
+      - Plastové talířové ventily  _(produkty: 2 — ATOS: 2)_
+    - Vzduchovody  _(produkty: 3 — ATOS: 3)_
+      - Flexipotrubí kruhové  _(produkty: 3 — ATOS: 3)_
+      - Flexipotrubí ploché  _(produkty: 2 — ATOS: 2)_
+      - Kovové potrubie  _(produkty: 5 — ATOS: 5)_
+      - Ohebné potrubie - ALU  _(produkty: 8 — ATOS: 8)_
+        - Príslušenstvo pre ohebné potrubie - ALU  _(produkty: 1 — ATOS: 1)_
+      - Ohebné potrubie - POLYVENT  _(produkty: 1 — ATOS: 1)_
+      - Pevné kruhové potrubie - PVC  _(produkty: 9 — ATOS: 9)_
+        - Príslušenstvo pre pevné kruhové potrubie - PVC  _(produkty: 39 — ATOS: 39)_
+      - Pevné ploché potrubie - PVC  _(produkty: 5 — ATOS: 5)_
+        - Príslušenstvo pre pevné ploché potrubie - PVC  _(produkty: 18 — ATOS: 18)_
+      - Príslušenstvo pre vzduchovody  _(produkty: 9 — ATOS: 9)_
+  - Vypínače, zásuvky, krabice
+    - Elektroinštalačný krabice  _(produkty: 5 — ATOS: 5)_
+      - Krabice do SDK (sádrokartonu)  _(produkty: 4 — ATOS: 4)_
+      - Krabice do zateplených fasád  _(produkty: 1 — ATOS: 1)_
+      - Krabice na povrch  _(produkty: 22 — ATOS: 22)_
+      - Krabice zapuštěné (pod omítku)  _(produkty: 11 — ATOS: 11)_
+    - Rámečky
+    - Svorky a svorkovnice  _(produkty: 9 — ATOS: 9)_
+      - WAGO svorky  _(produkty: 6 — ATOS: 6)_
+    - TV SAT zásuvky
+      - Koncové  _(produkty: 5 — ATOS: 5)_
+      - Průběžné  _(produkty: 6 — ATOS: 6)_
+    - Vypínače  _(produkty: 11 — ATOS: 11)_
+    - Vypínače a zásuvky ATLAS IP55  _(produkty: 15 — ATOS: 15)_
+    - Vypínače a zásuvky ATLAS IP65  _(produkty: 14 — ATOS: 14)_
+    - Vypínače a zásuvky GALATEA IP44  _(produkty: 60 — ATOS: 60)_
+    - Zásuvkové bloky a lišty  _(produkty: 69 — ATOS: 69)_
+      - Vymeniteľné moduly ORNO  _(produkty: 10 — ATOS: 10)_
+    - Zásuvky 230V  _(produkty: 16 — ATOS: 16)_
+  - Zvončeky  _(produkty: 50 — Solight: 50)_
+  - Časové spínače  _(produkty: 9 — Solight: 9)_
+- Fotovoltaika a energie
+  - Akumulátory a batérie
+    - 9V  _(produkty: 4 — ATOS: 4)_
+    - AA ceruzkové  _(produkty: 6 — ATOS: 6)_
+    - AAA mikrotužkové  _(produkty: 7 — ATOS: 7)_
+    - Autobatérie
+    - Batérie do AKU náradie
+    - C malé monočlánky  _(produkty: 2 — ATOS: 2)_
+    - D veľké monočlánky  _(produkty: 2 — ATOS: 2)_
+    - Gombíkové  _(produkty: 32 — ATOS: 32)_
+    - Li-Ion nabíjacie akumulátory  _(produkty: 7 — ATOS: 7)_
+    - LiFePO4 akumulátory  _(produkty: 26 — ATOS: 26)_
+    - NiMh nabíjacie akumulátory
+      - AA ceruzkové  _(produkty: 9 — ATOS: 9)_
+      - AAA mikrotužkové  _(produkty: 4 — ATOS: 4)_
+      - Sub-C  _(produkty: 1 — ATOS: 1)_
+    - Olovené akumulátory
+      - 12V  _(produkty: 77 — ATOS: 77)_
+      - 36V  _(produkty: 1 — ATOS: 1)_
+      - 48V  _(produkty: 1 — ATOS: 1)_
+      - 4V  _(produkty: 1 — ATOS: 1)_
+      - 6V  _(produkty: 14 — ATOS: 14)_
+    - Príslušenstvo
+      - Boxy a obaly na akumulátory  _(produkty: 2 — ATOS: 2)_
+      - Očká, fastóny, dutinky, spojky
+        - Fastóny  _(produkty: 50 — ATOS: 50)_
+        - Kolíky  _(produkty: 2 — ATOS: 2)_
+        - Káblová očká  _(produkty: 119 — ATOS: 119)_
+        - Káblové dutinky  _(produkty: 48 — ATOS: 48)_
+        - Káblové spojky  _(produkty: 30 — ATOS: 30)_
+        - Káblové vidličky  _(produkty: 36 — ATOS: 36)_
+        - Sady fastonů  _(produkty: 6 — ATOS: 6)_
+        - Sady konektorů  _(produkty: 1 — ATOS: 1)_
+        - Svorky  _(produkty: 20 — ATOS: 20)_
+      - Prepojovacie káble  _(produkty: 3 — ATOS: 3)_
+    - Solárne batérie
+    - Špeciálne  _(produkty: 13 — ATOS: 13)_
+  - Elektrické stanice
+    - Elektrické stanice  _(produkty: 7 — InnPro: 7)_
+    - Príslušenstvo  _(produkty: 17 — InnPro: 17)_
+  - Fotovoltaické panely
+    - Balkónové systémy  _(produkty: 1 — InnPro: 1)_
+    - Fotovoltaické panely  _(produkty: 5 — InnPro: 5)_
+    - Príslušenstvo  _(produkty: 1 — InnPro: 1)_
+  - Fotovoltaika
+    - Batérie a príslušenstvo  _(produkty: 1 — Solight: 1)_
+    - Elektromery
+      - 1 fázové elektromery  _(produkty: 3 — ATOS: 3)_
+      - 3 fázové elektromery
+    - Fotovoltaické príslušenstvo  _(produkty: 6 — ATOS: 6)_
+    - Konektory pre fotovoltaiku
+      - Dutinky na kabel
+      - Konektory MC4  _(produkty: 15 — ATOS: 15)_
+      - Káblová očká
+    - Konštrukcia pre solárne panely
+      - Doplnky a príslušenstvo  _(produkty: 14 — ATOS: 14)_
+      - Na rovnou střechu  _(produkty: 15 — ATOS: 15)_
+      - Na šikmou střechu  _(produkty: 27 — ATOS: 27)_
+      - Profily a lišty  _(produkty: 16 — ATOS: 16)_
+      - Spojovacie materiál  _(produkty: 31 — ATOS: 31)_
+    - Káble pre fotovoltaiku
+      - Chráničky
+      - Fotovoltaické káble  _(produkty: 54 — ATOS: 54)_
+      - Silové káble  _(produkty: 28 — ATOS: 28)_
+    - Meniče  _(produkty: 1 — Solight: 1)_
+    - Nabíjacie stanice  _(produkty: 1 — ATOS: 1)_
+    - Náradie pre fotovoltaiku
+    - Ochrana FV instalací
+      - Ističe  _(produkty: 7 — ATOS: 7)_
+      - Poistky  _(produkty: 7 — ATOS: 7)_
+      - Pojistné odpínače/odpojovače  _(produkty: 11 — ATOS: 11)_
+      - Prepäťové ochrany  _(produkty: 20 — ATOS: 20)_
+      - Uzemňovací prvky
+    - Rozvádzače
+      - Osadené AC rozvádzače  _(produkty: 2 — ATOS: 2)_
+      - Osadené DC rozvádzače  _(produkty: 16 — ATOS: 16)_
+      - Samostatné rozvádzače  _(produkty: 1 — ATOS: 1)_
+      - Výhodné sety rozvaděč + komponenty  _(produkty: 4 — ATOS: 4)_
+    - Solárne batérie
+    - Solárne meniče napätie  _(produkty: 5 — ATOS: 5)_
+    - Solárne nabíjačky
+    - Solárne panely
+      - Flexibilní solárne panely  _(produkty: 2 — ATOS: 2)_
+      - Monokrystalické s rámem  _(produkty: 5 — ATOS: 5)_
+      - Prenosné a skládací  _(produkty: 7 — ATOS: 7)_
+    - Solárne regulátory
+      - Solárne regulátory MPPT  _(produkty: 29 — ATOS: 29)_
+      - Solárne regulátory pre ohrev vody  _(produkty: 13 — ATOS: 13)_
+      - Solárne regulátory PWM  _(produkty: 11 — ATOS: 11)_
+    - Solárne zostavy
+      - Zostavy pre ostrovní systémy (OFF-GRID)  _(produkty: 5 — ATOS: 5)_
+      - Zostavy pre solárne ohrev vody  _(produkty: 9 — ATOS: 9)_
+  - Meniče napätia  _(produkty: 1 — ATOS: 1)_
+  - Nabíjačky
+    - Nabíjačky autobaterií  _(produkty: 1 — ATOS: 1)_
+    - Nabíjačky DC-DC  _(produkty: 5 — ATOS: 5)_
+    - Nabíjačky LiFePO4  _(produkty: 8 — ATOS: 8)_
+    - Nabíjačky NiCd, NiMh, NiZn  _(produkty: 5 — ATOS: 5)_
+    - Nabíjačky pre olovené akumulátory  _(produkty: 2 — ATOS: 2)_
+    - Ochrana batérií  _(produkty: 3 — ATOS: 3)_
+    - Powerbanky  _(produkty: 17 — K+B: 17)_
+    - Solárne nabíjačky  _(produkty: 4 — ATOS: 4)_
+    - Stanice pre elektrokola  _(produkty: 5 — ATOS: 5)_
+  - Napájacie zdroje  _(produkty: 3 — ATOS: 3)_
+    - Adaptéry pre notebooky  _(produkty: 2 — ATOS: 2)_
+    - Adaptéry pulzní  _(produkty: 15 — ATOS: 15)_
+    - Adaptéry USB
+    - Nabíjačky batérií  _(produkty: 2 — Solight: 2)_
+    - Nabíjačky notebookov  _(produkty: 6 — Solight: 6)_
+    - Powerbanky  _(produkty: 1 — Solight: 1)_
+    - Pre mobily a tablety  _(produkty: 3 — Solight: 3)_
+    - Priemyselné zdroje  _(produkty: 16 — ATOS: 16)_
+    - Sieťové adaptéry  _(produkty: 5 — Solight: 5)_
+    - USB adaptéry  _(produkty: 17 — Solight: 17)_
+    - Zdroje pre LED pásky  _(produkty: 8 — ATOS: 8)_
+  - Powerbanky  _(produkty: 12 — InnPro: 12)_
+  - Záložné zdroje a UPS
+    - Hybridní zdroje energia  _(produkty: 2 — ATOS: 2)_
+    - Powerbanky  _(produkty: 24 — ATOS: 24)_
+    - Stabilizátory napätie  _(produkty: 13 — ATOS: 13)_
+    - UPS  _(produkty: 1 — ATOS: 1)_
+    - Záložné zdroje pre oběhová čerpadlá  _(produkty: 62 — ATOS: 62)_
+- Kreatívne technológie
+  - 3D skenery  _(produkty: 31 — InnPro: 31)_
+  - 3D SLAM ručné skenery  _(produkty: 9 — InnPro: 9)_
+  - 3D tlač
+    - 3D tlačiarne  _(produkty: 61 — InnPro: 61)_
+    - Diely  _(produkty: 6 — InnPro: 6)_
+    - Príslušenstvo pre 3D tlačiarne  _(produkty: 93 — InnPro: 93)_
+    - Vlákna  _(produkty: 270 — InnPro: 270)_
+    - Živice  _(produkty: 9 — InnPro: 9)_
+  - CNC stroje  _(produkty: 11 — InnPro: 11)_
+  - Laserové gravírovacie a rezacie stroje
+    - Príslušenstvo  _(produkty: 20 — InnPro: 20)_
+    - Zariadenie  _(produkty: 34 — InnPro: 34)_
+  - Metalurgia  _(produkty: 1 — InnPro: 1)_
+  - Potlač textilu  _(produkty: 1 — InnPro: 1)_
+  - Roboty
+    - Roboty Humanoidalne
+      - Seria R1  _(produkty: 6 — InnPro: 6)_
+- Náradie a dielňa
+  - Brúsky  _(produkty: 1 — InnPro: 1)_
+  - Chémia
+    - Chémia pre pájení
+    - Lepidlá  _(produkty: 15 — ATOS: 15)_
+    - Mazivá  _(produkty: 4 — ATOS: 4)_
+    - Ostatné chemické prípravky  _(produkty: 3 — ATOS: 3)_
+  - Dielenské vybavenie
+    - Kufre a organizéry na náradie
+      - Kapsáře na náradie  _(produkty: 2 — ATOS: 2)_
+      - Kufre na náradie  _(produkty: 4 — ATOS: 4)_
+      - Organizéry na náradie  _(produkty: 1 — ATOS: 1)_
+    - Pytle na odpad  _(produkty: 2 — ATOS: 2)_
+    - Přeprava a skladování
+      - Magnetické pořadače a lišty  _(produkty: 1 — ATOS: 1)_
+      - Organizéry  _(produkty: 1 — ATOS: 1)_
+    - Přísavky manipulační
+    - Regály, police  _(produkty: 10 — ATOS: 10)_
+    - Svářecí stroje  _(produkty: 3 — ATOS: 3)_
+    - Ultrazvukové čističe  _(produkty: 23 — ATOS: 23)_
+  - Drobné náradie a príslušenstvo
+    - Podložky a krúžky  _(produkty: 3 — ATOS: 3)_
+    - Pásky a odvíječe  _(produkty: 9 — ATOS: 9)_
+    - Razidlá  _(produkty: 1 — ATOS: 1)_
+    - Sťahovacie pásky a spony  _(produkty: 3 — ATOS: 3)_
+    - Zámky  _(produkty: 1 — ATOS: 1)_
+  - Elektrické a AKU náradie
+    - Batérie k AKU náradie  _(produkty: 4 — ATOS: 4)_
+    - Brúsky  _(produkty: 1 — ATOS: 1)_
+    - Nabíjačky k AKU náradie
+    - Nožnice AKU  _(produkty: 4 — ATOS: 4)_
+    - Pištole lepící a horúcovzdušné
+      - Horúcovzdušné pištole  _(produkty: 2 — ATOS: 2)_
+      - Lepící pištole  _(produkty: 1 — ATOS: 1)_
+      - Príslušenstvo pre tavné pištole  _(produkty: 8 — ATOS: 8)_
+    - Príslušenstvo k vrtačkám
+      - Sklíčidla  _(produkty: 1 — ATOS: 1)_
+    - Píly
+      - Píly priamočiare  _(produkty: 1 — ATOS: 1)_
+      - Píly reťazové  _(produkty: 1 — ATOS: 1)_
+    - Rázové uťahováky  _(produkty: 1 — ATOS: 1)_
+    - Vŕtačky, akušroubováky  _(produkty: 2 — ATOS: 2)_
+  - Elektronické súčiastky
+    - Arduino a moduly  _(produkty: 2 — ATOS: 2)_
+      - Programovatelné moduly Arduino  _(produkty: 23 — ATOS: 23)_
+      - Príslušenstvo Arduino  _(produkty: 86 — ATOS: 86)_
+      - Sety Arduino  _(produkty: 7 — ATOS: 7)_
+      - Snímače a prevodníky Arduino  _(produkty: 41 — ATOS: 41)_
+      - Stavebnice Arduino  _(produkty: 4 — ATOS: 4)_
+      - Výstupní jednotky Arduino  _(produkty: 19 — ATOS: 19)_
+    - Konektory  _(produkty: 4 — ATOS: 4)_
+    - Poistky, pojistkové držiaky
+      - Autopojistky  _(produkty: 30 — ATOS: 30)_
+      - Poistky 5x20mm pomalé (T)  _(produkty: 16 — ATOS: 16)_
+      - Poistky 5x20mm rychlé (F)  _(produkty: 25 — ATOS: 25)_
+      - Poistky 6x30mm  _(produkty: 11 — ATOS: 11)_
+      - Pojistková puzdrá a držiaky  _(produkty: 8 — ATOS: 8)_
+    - Priemyselné zdroje
+      - 12v  _(produkty: 7 — ATOS: 7)_
+      - 24v  _(produkty: 1 — ATOS: 1)_
+  - Kancelária a škola
+    - Fototlačiarne  _(produkty: 20 — InnPro: 20)_
+    - Obalový materiál  _(produkty: 1 — ATOS: 1)_
+    - Pokladny  _(produkty: 1 — ATOS: 1)_
+    - Skartovače  _(produkty: 2 — ATOS: 2)_
+    - Tlačiarne štítkov
+      - Tlačiarne štítkov  _(produkty: 16 — InnPro: 16)_
+      - Štítky  _(produkty: 33 — InnPro: 33)_
+    - Trezory  _(produkty: 3 — ATOS: 3)_
+    - Školské potreby
+      - Malování a kreslení  _(produkty: 10 — ATOS: 10)_
+      - Peračníky  _(produkty: 1 — ATOS: 1)_
+      - Školské batohy, aktovky
+        - Školské aktovky  _(produkty: 1 — ATOS: 1)_
+  - Mechanické náradie
+    - Gola sady náradie  _(produkty: 8 — ATOS: 8)_
+    - Kefy  _(produkty: 4 — ATOS: 4)_
+    - Kladivá, dláta, sekery
+      - Dláta  _(produkty: 1 — ATOS: 1)_
+      - Kladivá  _(produkty: 3 — ATOS: 3)_
+      - Paličky  _(produkty: 6 — ATOS: 6)_
+      - Sekáče SDS  _(produkty: 1 — ATOS: 1)_
+    - Kliešte
+      - Kliešte kombinované  _(produkty: 5 — ATOS: 5)_
+      - Kliešte konektorové  _(produkty: 4 — ATOS: 4)_
+      - Kliešte lisovací  _(produkty: 1 — ATOS: 1)_
+      - Kliešte montážne  _(produkty: 11 — ATOS: 11)_
+      - Kliešte odizolovacie  _(produkty: 11 — ATOS: 11)_
+      - Kliešte ploché  _(produkty: 2 — ATOS: 2)_
+      - Kliešte seeger
+      - Kliešte SIKO  _(produkty: 3 — ATOS: 3)_
+      - Kliešte špeciálne  _(produkty: 2 — ATOS: 2)_
+      - Kliešte štiepacie
+        - Kliešte štiepacie boční  _(produkty: 4 — ATOS: 4)_
+        - Kliešte štiepacie čelné  _(produkty: 3 — ATOS: 3)_
+      - Nožnice na plech  _(produkty: 1 — ATOS: 1)_
+    - Kľúče
+      - HEX, IMBUS, TORX  _(produkty: 7 — ATOS: 7)_
+      - Momentové kľúče  _(produkty: 2 — ATOS: 2)_
+      - Nadstavce  _(produkty: 3 — ATOS: 3)_
+      - Nastaviteľné kľúče  _(produkty: 2 — ATOS: 2)_
+      - Očkoploché kľúče  _(produkty: 12 — ATOS: 12)_
+      - Očkové kľúče  _(produkty: 10 — ATOS: 10)_
+      - Ploché kľúče  _(produkty: 8 — ATOS: 8)_
+      - Rúrkové kľúče  _(produkty: 2 — ATOS: 2)_
+    - Nože a nožnice
+      - Náhradné břity  _(produkty: 4 — ATOS: 4)_
+      - Ostatné nože  _(produkty: 2 — ATOS: 2)_
+      - Ulamovací a zasouvací nože  _(produkty: 3 — ATOS: 3)_
+    - Náradie pre elektrikáře
+    - Náradie pre ženy
+    - Nýtování
+      - Nitovacie kliešte  _(produkty: 1 — ATOS: 1)_
+      - Nitovacie matice  _(produkty: 5 — ATOS: 5)_
+      - Nity  _(produkty: 8 — ATOS: 8)_
+    - Príslušenstvo ku gola sadám
+      - Adaptéry a príslušenstvo  _(produkty: 3 — ATOS: 3)_
+      - Nástrčné hlavice
+        - 1/2" nadstavce  _(produkty: 39 — ATOS: 39)_
+        - 1/4" nadstavce  _(produkty: 3 — ATOS: 3)_
+        - 3/8" bity  _(produkty: 1 — ATOS: 1)_
+      - Rázové hlavice  _(produkty: 1 — ATOS: 1)_
+      - Sady bitů  _(produkty: 3 — ATOS: 3)_
+    - Sady náradie  _(produkty: 21 — ATOS: 21)_
+    - Sešívání  _(produkty: 3 — ATOS: 3)_
+    - Skrutkovače, bity, imbusy  _(produkty: 3 — ATOS: 3)_
+      - L-klíče  _(produkty: 2 — ATOS: 2)_
+      - Sady skrutkovačov  _(produkty: 10 — ATOS: 10)_
+      - Skrutkovače křížové  _(produkty: 2 — ATOS: 2)_
+      - Skrutkovače pre jemnou mechaniku
+      - Skrutkovače úderové
+    - Svěrky, zveráky  _(produkty: 3 — ATOS: 3)_
+    - Sťahováky  _(produkty: 12 — ATOS: 12)_
+    - Vodo-topo
+      - Horáky  _(produkty: 1 — ATOS: 1)_
+      - Rezačky  _(produkty: 1 — ATOS: 1)_
+  - Meracia technika
+    - Laserové merače vzdialenosti  _(produkty: 2 — Solight: 2)_
+    - Laserové vodováhy  _(produkty: 3 — Solight: 3)_
+    - Multimetre a zkúšačky  _(produkty: 15 — Solight: 15)_
+    - Teplomery  _(produkty: 1 — Solight: 1)_
+  - Meracie nástroje  _(produkty: 315 — InnPro: 315)_
+  - MERACIE TECHNIKA
+    - Ampérmetre a voltmetre  _(produkty: 137 — ATOS: 137)_
+    - Detektory  _(produkty: 37 — ATOS: 37)_
+    - DVB-S/S2/T/T2/C  _(produkty: 11 — ATOS: 11)_
+    - Infrateploměry a termokamery  _(produkty: 25 — ATOS: 25)_
+    - Inspekční kamery, endoskopy
+    - Laboratorní zdroje  _(produkty: 5 — ATOS: 5)_
+    - Meracie lasery  _(produkty: 27 — ATOS: 27)_
+    - Meranie neelektrických veličin  _(produkty: 68 — ATOS: 68)_
+    - Meranie vody, plynu, vykurovanie, elektřiny  _(produkty: 7 — ATOS: 7)_
+    - Měřidla  _(produkty: 24 — ATOS: 24)_
+    - Nivelačné prístroje  _(produkty: 18 — ATOS: 18)_
+    - Osciloskopy a Generátory  _(produkty: 8 — ATOS: 8)_
+    - Príslušenstvo k meracie technice  _(produkty: 18 — ATOS: 18)_
+    - Testery  _(produkty: 27 — ATOS: 27)_
+  - Náradie
+    - Aku náradie
+      - AKU Svetlá a svietidlá  _(produkty: 4 — K+B: 4)_
+    - Elektrické náradie
+      - Autonabíjačky a štartovacie zdroje  _(produkty: 1 — K+B: 1)_
+      - Bourací a vŕtacie kladivá  _(produkty: 1 — K+B: 1)_
+      - Brúsky
+        - Kotúčové  _(produkty: 1 — K+B: 1)_
+        - Oscilačné  _(produkty: 1 — K+B: 1)_
+        - Vibračné  _(produkty: 1 — K+B: 1)_
+      - Frézy a frézky
+        - Príslušenstvo  _(produkty: 1 — K+B: 1)_
+      - Spájky  _(produkty: 2 — K+B: 2)_
+      - Tavné a horúcovzdušné pištole  _(produkty: 2 — K+B: 2)_
+      - Vŕtačky  _(produkty: 1 — K+B: 1)_
+    - Pneumatické a hydraulické náradie
+      - Vzduchové hadice, Regulátory a spojk  _(produkty: 1 — K+B: 1)_
+    - Príslušenstvo pre stroje a náradie  _(produkty: 3 — K+B: 3)_
+      - Kufre, tašky a montážne boxy  _(produkty: 1 — K+B: 1)_
+      - Príslušenstvo AKU a Elektrické náradie
+        - AKU batérie a nabíjačky  _(produkty: 1 — K+B: 1)_
+        - Príslušenstvo pre Brúsky
+          - 02 Brúsne a rezacie kotúče  _(produkty: 5 — K+B: 5)_
+        - Príslušenstvo pre hoblíky a sústruhy  _(produkty: 1 — K+B: 1)_
+        - Príslušenstvo pre Píly
+          - 03 Pílové listy a pásy  _(produkty: 1 — K+B: 1)_
+        - Príslušenstvo pre Rezačky obkladov  _(produkty: 1 — K+B: 1)_
+        - Príslušenstvo pre Sponkovačky, nastreľovačky  _(produkty: 2 — K+B: 2)_
+        - Príslušenstvo pre Čerpadlá a Miešadlá  _(produkty: 1 — K+B: 1)_
+        - Príslušenstvo Vŕtačky, skrutkovače, uťahováky
+          - 005 Vykružovače a vŕtacie korunky  _(produkty: 1 — K+B: 1)_
+    - Ručné náradie  _(produkty: 1 — K+B: 1)_
+      - Bity + sety sa skrutkovačom alebo račňou  _(produkty: 2 — K+B: 2)_
+      - Gola sady, račne a hlavice  _(produkty: 2 — K+B: 2)_
+      - Kľúče
+        - Stranové a očká  _(produkty: 1 — K+B: 1)_
+      - Nože, nožnice, skalpely, rezačky  _(produkty: 1 — K+B: 1)_
+      - Rudle  _(produkty: 1 — K+B: 1)_
+      - Sady náradie  _(produkty: 2 — K+B: 2)_
+      - Vŕtačky, kolovrátky a nebozezy  _(produkty: 1 — K+B: 1)_
+      - Zveráky a svorky  _(produkty: 1 — K+B: 1)_
+    - Stavebné materiál, chémia a technika  _(produkty: 2 — K+B: 2)_
+      - Elektroinštalačný materiál
+        - Ističe, inštalačné krabice, rozvádzače  _(produkty: 1 — K+B: 1)_
+        - Predlžovacie káble  _(produkty: 2 — K+B: 2)_
+        - Svorkovnice a Wago svorky  _(produkty: 2 — K+B: 2)_
+    - Svietidlá  _(produkty: 2 — K+B: 2)_
+    - Upratovanie, čistenie a umývanie
+      - Čističe  _(produkty: 1 — K+B: 1)_
+  - Náradie pre brúsenie, vŕtanie, rezanie a pilovanie
+    - Brusivo
+      - Brúsne kotúče  _(produkty: 7 — ATOS: 7)_
+      - Brúsne papiere  _(produkty: 2 — ATOS: 2)_
+      - Brúsne výseky delta  _(produkty: 2 — ATOS: 2)_
+      - Príslušenstvo  _(produkty: 1 — ATOS: 1)_
+    - Drátěné kefy  _(produkty: 1 — ATOS: 1)_
+    - Kotúče rezacie, pílové, brúsne
+      - Kotúče brúsne  _(produkty: 5 — ATOS: 5)_
+      - Kotúče brúsne diamantové  _(produkty: 1 — ATOS: 1)_
+      - Kotúče lamelové  _(produkty: 11 — ATOS: 11)_
+      - Kotúče lamelové na stopce  _(produkty: 3 — ATOS: 3)_
+      - Kotúče rezacie diamantové  _(produkty: 8 — ATOS: 8)_
+      - Kotúče rezacie na kov  _(produkty: 17 — ATOS: 17)_
+    - Nožnice
+      - Nožnice na plech  _(produkty: 1 — ATOS: 1)_
+    - Ostatné  _(produkty: 13 — ATOS: 13)_
+    - Pilníky  _(produkty: 4 — ATOS: 4)_
+    - Píly
+      - Pílové kotúče na dřevo  _(produkty: 3 — ATOS: 3)_
+      - Píly na dřevo  _(produkty: 2 — ATOS: 2)_
+      - Píly na kov
+    - Rotačné kefy  _(produkty: 2 — ATOS: 2)_
+    - Vrtáky
+      - Sady vrtáků  _(produkty: 9 — ATOS: 9)_
+      - Vrtáky do betonu  _(produkty: 2 — ATOS: 2)_
+      - Vrtáky do dreva  _(produkty: 4 — ATOS: 4)_
+      - Vrtáky do sklá  _(produkty: 3 — ATOS: 3)_
+      - Vrtáky na kov  _(produkty: 3 — ATOS: 3)_
+      - Vykružovací vrtáky  _(produkty: 1 — ATOS: 1)_
+      - Vŕtacie korunky  _(produkty: 5 — ATOS: 5)_
+    - Závitníky, príslušenstvo  _(produkty: 2 — ATOS: 2)_
+  - Ochranné pomôcky a odevy
+    - Chrániče sluchu  _(produkty: 1 — ATOS: 1)_
+    - Kukly a štíty  _(produkty: 6 — ATOS: 6)_
+    - Okuliare  _(produkty: 4 — ATOS: 4)_
+    - Pracovné rukavice  _(produkty: 1 — ATOS: 1)_
+    - Reflexní doplnky  _(produkty: 35 — ATOS: 35)_
+  - Ostatné  _(produkty: 20 — InnPro: 19, ATOS: 1)_
+  - Pneumatické náradie
+    - Pištole
+      - Foukací pištole  _(produkty: 2 — ATOS: 2)_
+    - Príslušenstvo k pneu náradie
+      - Hadice  _(produkty: 4 — ATOS: 4)_
+      - Rýchlospojky  _(produkty: 3 — ATOS: 3)_
+    - Rázové uťahováky  _(produkty: 1 — ATOS: 1)_
+  - Rezacie nástroje  _(produkty: 5 — InnPro: 5)_
+  - Ručné AKU náradie
+    - Nožnice  _(produkty: 1 — Solight: 1)_
+    - Pily  _(produkty: 2 — Solight: 2)_
+    - Príslušenstvo  _(produkty: 12 — Solight: 12)_
+  - Skrutkovače  _(produkty: 5 — InnPro: 5)_
+  - Spájkovacia technika  _(produkty: 3 — Solight: 3)_
+  - SPÁJKOVACIE TECHNIKA
+    - Chémia pre pájení  _(produkty: 7 — ATOS: 7)_
+    - Lupy  _(produkty: 29 — ATOS: 29)_
+    - Odsávačky cínu  _(produkty: 3 — ATOS: 3)_
+    - Plynové spájkovačky  _(produkty: 4 — ATOS: 4)_
+    - Príslušenstvo pre spájkovačky  _(produkty: 59 — ATOS: 59)_
+    - Ručné spájkovačky, trafopájky  _(produkty: 37 — ATOS: 37)_
+    - Servisní stanice  _(produkty: 11 — ATOS: 11)_
+    - Stolové mikropájky  _(produkty: 11 — ATOS: 11)_
+    - Tavné a horúcovzdušné pištole
+    - Zveráky  _(produkty: 9 — ATOS: 9)_
+  - Spájkovačky  _(produkty: 9 — InnPro: 9)_
+  - Stavebné a maliarske náradie
+    - Malířství a natěračství
+      - Kefy  _(produkty: 1 — ATOS: 1)_
+      - Ochranné fólie  _(produkty: 4 — ATOS: 4)_
+      - Valčeky  _(produkty: 6 — ATOS: 6)_
+      - Vedrá  _(produkty: 1 — ATOS: 1)_
+      - Škrabky  _(produkty: 2 — ATOS: 2)_
+      - Štětky  _(produkty: 8 — ATOS: 8)_
+    - Murárske práce
+      - Hladidlá a stierky  _(produkty: 3 — ATOS: 3)_
+      - Pištole na kartuše  _(produkty: 4 — ATOS: 4)_
+      - Pištole na mont. pěnu  _(produkty: 2 — ATOS: 2)_
+      - Vedrá  _(produkty: 1 — ATOS: 1)_
+      - Špachtle, stierky  _(produkty: 3 — ATOS: 3)_
+    - Nástroje
+      - Dláta, sekáče  _(produkty: 1 — ATOS: 1)_
+      - Lana a murárske křídy  _(produkty: 3 — ATOS: 3)_
+      - Lepící pásky  _(produkty: 7 — ATOS: 7)_
+      - Páčidlá  _(produkty: 1 — ATOS: 1)_
+    - Obkladačské práce
+      - Kříže a klinky  _(produkty: 1 — ATOS: 1)_
+      - Pomôcky  _(produkty: 1 — ATOS: 1)_
+      - Spárování  _(produkty: 1 — ATOS: 1)_
+      - Vrtáky
+    - Pokrývačské práce
+      - Spájky, horáky  _(produkty: 2 — ATOS: 2)_
+    - Potrubie
+      - Kefy  _(produkty: 1 — ATOS: 1)_
+      - Odhrotování  _(produkty: 2 — ATOS: 2)_
+      - Spájky na rúrky  _(produkty: 1 — ATOS: 1)_
+      - Těsnění  _(produkty: 2 — ATOS: 2)_
+      - Řezáky  _(produkty: 2 — ATOS: 2)_
+    - Přeprava
+      - Madla na sklo  _(produkty: 2 — ATOS: 2)_
+    - Rudle a kolieska  _(produkty: 1 — ATOS: 1)_
+    - Sadrokartón
+      - Hoblíky  _(produkty: 1 — ATOS: 1)_
+    - Sponkovačky a nastreľovačky
+      - Spony  _(produkty: 1 — ATOS: 1)_
+    - Sťahováky
+    - Truhlářské práce
+      - Svěrky  _(produkty: 3 — ATOS: 3)_
+    - Upínacie prostriedky
+      - Háčiky  _(produkty: 1 — ATOS: 1)_
+  - Stavebné náradie  _(produkty: 1 — InnPro: 1)_
+  - Tašky a boxy na náradie  _(produkty: 2 — InnPro: 2)_
+  - Vrtáky a skrutkovače  _(produkty: 2 — InnPro: 2)_
+  - Výtlačné a kartušové pištole  _(produkty: 1 — InnPro: 1)_
+- Profesionálna audio technika
+  - BZBGEAR
+    - HDMI spracovanie a distribúcia  _(produkty: 1 — MONACOR: 1)_
+  - Car audio
+    - Káble
+      - signálové  _(produkty: 4 — MONACOR: 4)_
+    - Poistky, púzdra, distribútory  _(produkty: 1 — MONACOR: 1)_
+    - Príslušenstvo Car audio  _(produkty: 11 — MONACOR: 11)_
+    - Reproduktory
+      - výškové  _(produkty: 1 — MONACOR: 1)_
+  - JTS  _(produkty: 4 — MONACOR: 4)_
+    - Inštalácie
+      - Bezdrôtový systém pre kamery
+      - Inštalačné mikrofóny  _(produkty: 6 — MONACOR: 6)_
+      - Konferenčné systémy  _(produkty: 11 — MONACOR: 11)_
+      - Príslušenstvo
+      - Systémy pre sprievodcov  _(produkty: 1 — MONACOR: 1)_
+      - Tlmočnicke systémy  _(produkty: 2 — MONACOR: 2)_
+    - Inštrumentálne mikrofóny
+    - Mikrofóny a bezdrôtové systémy
+      - Bezdrôtové systémy  _(produkty: 10 — MONACOR: 10)_
+      - In-ear monitorovacie systémy  _(produkty: 5 — MONACOR: 5)_
+      - Káblové mikrofóny
+      - Náhlavové a klopové mikrofóny  _(produkty: 1 — MONACOR: 1)_
+      - Príslušenstvo  _(produkty: 9 — MONACOR: 9)_
+    - Slúchadlá
+      - In-ear slúchadlá  _(produkty: 1 — MONACOR: 1)_
+      - Slúchadlá  _(produkty: 1 — MONACOR: 1)_
+  - Káble, konektory a redukcie
+    - Konektory a redukcie
+      - 3.5/2.5mm  _(produkty: 3 — MONACOR: 3)_
+      - 6.3mm  _(produkty: 33 — MONACOR: 33)_
+      - BNC  _(produkty: 3 — MONACOR: 3)_
+      - iné  _(produkty: 9 — MONACOR: 9)_
+      - RCA  _(produkty: 17 — MONACOR: 17)_
+      - Speakon/Powercon  _(produkty: 5 — MONACOR: 5)_
+      - XLR  _(produkty: 28 — MONACOR: 28)_
+    - Káble  _(produkty: 3 — MONACOR: 3)_
+      - 3.5/2.5mm  _(produkty: 3 — MONACOR: 3)_
+      - 6,3mm  _(produkty: 8 — MONACOR: 8)_
+      - adaptéry  _(produkty: 5 — MONACOR: 5)_
+      - BNC  _(produkty: 1 — MONACOR: 1)_
+      - HDMI, DVI-D, SVHS  _(produkty: 2 — MONACOR: 2)_
+      - iné  _(produkty: 8 — MONACOR: 8)_
+      - mikrofónové / audio na kotúči  _(produkty: 11 — MONACOR: 11)_
+      - napájacie  _(produkty: 10 — MONACOR: 10)_
+      - RCA  _(produkty: 7 — MONACOR: 7)_
+      - reproduktorové  _(produkty: 18 — MONACOR: 18)_
+      - reproduktorové na kotúči  _(produkty: 27 — MONACOR: 27)_
+      - Sieťové  _(produkty: 2 — MONACOR: 2)_
+      - USB  _(produkty: 1 — MONACOR: 1)_
+      - video na kotúči  _(produkty: 1 — MONACOR: 1)_
+      - XLR  _(produkty: 19 — MONACOR: 19)_
+    - Napájanie  _(produkty: 7 — MONACOR: 7)_
+    - Neutrik
+      - Jack
+      - Ostatné  _(produkty: 2 — MONACOR: 2)_
+      - RCA
+      - Speakon
+      - XLR
+  - Multi-room  _(produkty: 4 — MONACOR: 4)_
+  - Nové produkty  _(produkty: 10 — MONACOR: 10)_
+  - Náradia, Do It Yourself, napájanie, meracia technika
+    - Akumulátory, batérie a nabíjačky  _(produkty: 14 — MONACOR: 14)_
+    - Chémia  _(produkty: 2 — MONACOR: 2)_
+    - Meracie prístroje
+      - Meracie káble a konektory  _(produkty: 1 — MONACOR: 1)_
+      - Merače iné, detektory a testery  _(produkty: 4 — MONACOR: 4)_
+      - Merače panelové  _(produkty: 7 — MONACOR: 7)_
+      - Merače úrovne zvuku  _(produkty: 1 — MONACOR: 1)_
+      - Multimetre  _(produkty: 2 — MONACOR: 2)_
+    - Napájanie  _(produkty: 10 — MONACOR: 10)_
+    - Náradie  _(produkty: 3 — MONACOR: 3)_
+    - Potenciometre, prepínače a gombíky  _(produkty: 11 — MONACOR: 11)_
+    - Príslušenstvo a iné  _(produkty: 7 — MONACOR: 7)_
+    - Skrinky Do It Yourself  _(produkty: 13 — MONACOR: 13)_
+    - Spájkovacie stanice
+      - príslušenstvo  _(produkty: 1 — MONACOR: 1)_
+      - Spajkovacie stanice  _(produkty: 3 — MONACOR: 3)_
+    - Vysielačky  _(produkty: 2 — MONACOR: 2)_
+  - Plošné ozvučenie (100V rozhlasové ozvučenie)
+    - Bezdrôtové ozvučenie  _(produkty: 8 — MONACOR: 8)_
+    - Bezdrôtové zosilňovacie systémy (Loop)  _(produkty: 2 — MONACOR: 2)_
+    - Bezdrôtový prenos zvuku  _(produkty: 6 — MONACOR: 6)_
+    - Iné 100V zariadenia  _(produkty: 1 — MONACOR: 1)_
+      - eliminátor spätnej väzby  _(produkty: 1 — MONACOR: 1)_
+      - monitorujúce zariadenia  _(produkty: 2 — MONACOR: 2)_
+      - núdzové napájanie  _(produkty: 1 — MONACOR: 1)_
+    - IP ozvučenie  _(produkty: 22 — MONACOR: 22)_
+    - Matrix/mixy audio  _(produkty: 14 — MONACOR: 14)_
+    - Megafóny  _(produkty: 4 — MONACOR: 4)_
+    - Mikrofóny
+      - PTT  _(produkty: 8 — MONACOR: 8)_
+      - zónové  _(produkty: 7 — MONACOR: 7)_
+    - Prenosné ozvučovacie systémy  _(produkty: 17 — MONACOR: 17)_
+    - Regulátory hlasitosti  _(produkty: 23 — MONACOR: 23)_
+    - Reproduktory  _(produkty: 4 — MONACOR: 4)_
+      - nástenné  _(produkty: 23 — MONACOR: 23)_
+      - nástenné 100V  _(produkty: 14 — MONACOR: 14)_
+      - podhľadové  _(produkty: 19 — MONACOR: 19)_
+      - podhľadové 100V  _(produkty: 28 — MONACOR: 28)_
+      - projektory zvuku 100V  _(produkty: 6 — MONACOR: 6)_
+      - príslušenstvo  _(produkty: 13 — MONACOR: 13)_
+      - reproduktorové stĺpiky 100V  _(produkty: 17 — MONACOR: 17)_
+      - tlakové  _(produkty: 14 — MONACOR: 14)_
+      - tlakové 100V  _(produkty: 15 — MONACOR: 15)_
+      - záhradné  _(produkty: 1 — MONACOR: 1)_
+      - závesné  _(produkty: 7 — MONACOR: 7)_
+    - Systémy požiarneho a evakuačného rozhlasu  _(produkty: 1 — MONACOR: 1)_
+      - EN54  _(produkty: 12 — MONACOR: 12)_
+      - Mikrofóny  _(produkty: 1 — MONACOR: 1)_
+      - systémové kontroléry  _(produkty: 1 — MONACOR: 1)_
+    - Transformátory 100V  _(produkty: 7 — MONACOR: 7)_
+    - Zdroje zvuku  _(produkty: 6 — MONACOR: 6)_
+    - Zosilňovače
+      - koncové  _(produkty: 14 — MONACOR: 14)_
+      - mixážne  _(produkty: 14 — MONACOR: 14)_
+      - príslušenstvo  _(produkty: 10 — MONACOR: 10)_
+      - s malým výkonom  _(produkty: 7 — MONACOR: 7)_
+      - zónové  _(produkty: 20 — MONACOR: 20)_
+    - Zosilňovače hlasu  _(produkty: 3 — MONACOR: 3)_
+  - Pódium, diskotéka, DJ
+    - Audio procesory  _(produkty: 7 — MONACOR: 7)_
+    - Audio rekordéry  _(produkty: 1 — MONACOR: 1)_
+    - Chrániče sluchu  _(produkty: 1 — MONACOR: 1)_
+    - DI boxy a transformátory  _(produkty: 8 — MONACOR: 8)_
+    - Distribútory  _(produkty: 9 — MONACOR: 9)_
+    - Gramofóny  _(produkty: 3 — MONACOR: 3)_
+    - Káble a príslušenstvo  _(produkty: 9 — MONACOR: 9)_
+    - mikrofóny
+      - bezdrôtové
+        - frekvencie povolené v SR  _(produkty: 12 — MONACOR: 12)_
+        - frekvencie vyžadujúce povolenie na prevádzku v SR  _(produkty: 31 — MONACOR: 31)_
+        - Príslušenstvo k bezdrôtovým mikrofónom  _(produkty: 13 — MONACOR: 13)_
+      - dynamické  _(produkty: 27 — MONACOR: 27)_
+      - elektretové/veľkomembránové  _(produkty: 19 — MONACOR: 19)_
+      - husí krk  _(produkty: 19 — MONACOR: 19)_
+      - kravatové  _(produkty: 1 — MONACOR: 1)_
+      - na stôl  _(produkty: 3 — MONACOR: 3)_
+      - náhlavové  _(produkty: 22 — MONACOR: 22)_
+      - pre hudobné nástroje  _(produkty: 11 — MONACOR: 11)_
+      - príslušenstvo  _(produkty: 37 — MONACOR: 37)_
+    - mixy a powermixy  _(produkty: 1 — MONACOR: 1)_
+      - audio (MMX-)  _(produkty: 24 — MONACOR: 24)_
+      - dj (MPX-)  _(produkty: 3 — MONACOR: 3)_
+      - Zónové mixy  _(produkty: 4 — MONACOR: 4)_
+    - ozvučovacie systémy  _(produkty: 17 — MONACOR: 17)_
+    - Predzosilňovače audio  _(produkty: 7 — MONACOR: 7)_
+    - Prehrávače CD a MP3  _(produkty: 1 — MONACOR: 1)_
+    - Príslušenstvo k reproduktorom  _(produkty: 1 — MONACOR: 1)_
+      - Iné  _(produkty: 1 — MONACOR: 1)_
+    - Pódiové, DJ príslušenstvo  _(produkty: 17 — MONACOR: 17)_
+    - reproduktorové systémy
+      - aktívne  _(produkty: 28 — MONACOR: 28)_
+      - pasívne  _(produkty: 21 — MONACOR: 21)_
+      - príslušenstvo  _(produkty: 34 — MONACOR: 34)_
+      - subwoofery  _(produkty: 14 — MONACOR: 14)_
+      - štúdiové
+    - Slúchadlá  _(produkty: 1 — MONACOR: 1)_
+      - do ucha  _(produkty: 3 — MONACOR: 3)_
+      - na ucho  _(produkty: 6 — MONACOR: 6)_
+      - náhlavové  _(produkty: 10 — MONACOR: 10)_
+      - s mikrofónom  _(produkty: 2 — MONACOR: 2)_
+      - špeciálne
+    - Statívy/držiaky  _(produkty: 7 — MONACOR: 7)_
+      - hudobných nástrojov a nôt  _(produkty: 10 — MONACOR: 10)_
+      - mikrofónové husí krk  _(produkty: 4 — MONACOR: 4)_
+      - mikrofónové podlahové  _(produkty: 12 — MONACOR: 12)_
+      - mikrofónové stolové  _(produkty: 10 — MONACOR: 10)_
+      - príslušenstvo  _(produkty: 19 — MONACOR: 19)_
+      - reproduktorov  _(produkty: 34 — MONACOR: 34)_
+    - transportné kufre a racky  _(produkty: 2 — MONACOR: 2)_
+      - príslušenstvo  _(produkty: 5 — MONACOR: 5)_
+        - Kolieska  _(produkty: 2 — MONACOR: 2)_
+        - ostatné  _(produkty: 25 — MONACOR: 25)_
+        - rohy a profily  _(produkty: 1 — MONACOR: 1)_
+      - rackové skrine  _(produkty: 9 — MONACOR: 9)_
+      - tašky  _(produkty: 1 — MONACOR: 1)_
+      - transportné skrine  _(produkty: 2 — MONACOR: 2)_
+    - zosilňovače
+      - stereo  _(produkty: 29 — MONACOR: 29)_
+      - viackanálové  _(produkty: 4 — MONACOR: 4)_
+  - Reproduktory
+    - basové/subwoofery  _(produkty: 11 — MONACOR: 11)_
+    - drivery  _(produkty: 3 — MONACOR: 3)_
+    - náhradné cievky  _(produkty: 1 — MONACOR: 1)_
+    - Príslušenstvo k reproduktorom
+      - bassreflexy  _(produkty: 6 — MONACOR: 6)_
+      - cievky  _(produkty: 12 — MONACOR: 12)_
+      - iné  _(produkty: 6 — MONACOR: 6)_
+      - kondenzátory  _(produkty: 14 — MONACOR: 14)_
+      - konektory  _(produkty: 3 — MONACOR: 3)_
+      - nožičky a hroty  _(produkty: 8 — MONACOR: 8)_
+      - ochranné grily  _(produkty: 2 — MONACOR: 2)_
+      - rezistory  _(produkty: 10 — MONACOR: 10)_
+      - terminály  _(produkty: 13 — MONACOR: 13)_
+      - tlmiaci materiál a  pásky  _(produkty: 2 — MONACOR: 2)_
+      - transformátory  _(produkty: 2 — MONACOR: 2)_
+      - výhybky  _(produkty: 3 — MONACOR: 3)_
+      - zosilňovacie moduly  _(produkty: 5 — MONACOR: 5)_
+      - zvukovody  _(produkty: 4 — MONACOR: 4)_
+    - Reproduktorové stavebnice  _(produkty: 2 — MONACOR: 2)_
+    - stredo-basové  _(produkty: 27 — MONACOR: 27)_
+    - stredové  _(produkty: 5 — MONACOR: 5)_
+    - univerzálne  _(produkty: 11 — MONACOR: 11)_
+    - výškové  _(produkty: 25 — MONACOR: 25)_
+    - širokopásmové  _(produkty: 13 — MONACOR: 13)_
+  - Svetlá  _(produkty: 1 — MONACOR: 1)_
+    - Architektonické osvetlenie  _(produkty: 17 — MONACOR: 17)_
+    - Divadelné a profesionálne osvetlenie  _(produkty: 4 — MONACOR: 4)_
+    - Kufre a tašky k svetlám  _(produkty: 2 — MONACOR: 2)_
+    - Lasery
+      - Blue Laser  _(produkty: 1 — MONACOR: 1)_
+      - Green Laser  _(produkty: 2 — MONACOR: 2)_
+      - Multicolor Laser  _(produkty: 9 — MONACOR: 9)_
+      - Multipoint Laser a Gobo  _(produkty: 2 — MONACOR: 2)_
+      - Red Laser  _(produkty: 1 — MONACOR: 1)_
+    - Otočné hlavy a skenery  _(produkty: 1 — MONACOR: 1)_
+      - Moving Heads Beam  _(produkty: 13 — MONACOR: 13)_
+      - Moving Heads Spot  _(produkty: 12 — MONACOR: 12)_
+      - Moving Heads Wash  _(produkty: 11 — MONACOR: 11)_
+      - Skenery  _(produkty: 1 — MONACOR: 1)_
+    - Ovládače a kontroléry  _(produkty: 4 — MONACOR: 4)_
+    - Reflektory PAR
+      - LED reflektory  _(produkty: 10 — MONACOR: 10)_
+      - LED reflektory exteriérové  _(produkty: 1 — MONACOR: 1)_
+      - príslušenstvo  _(produkty: 1 — MONACOR: 1)_
+    - Statívy a príslušenstvo  _(produkty: 13 — MONACOR: 13)_
+    - Svetelné efekty  _(produkty: 22 — MONACOR: 22)_
+    - UV svetlá a stroboskopy  _(produkty: 3 — MONACOR: 3)_
+    - Špeciálne efekty a náplne
+      - Ohňostroje  _(produkty: 4 — MONACOR: 4)_
+      - Príslušenstvo k špeciálnym efektom  _(produkty: 25 — MONACOR: 25)_
+      - Výrobníky dymu  _(produkty: 15 — MONACOR: 15)_
+      - Výrobníky hmly  _(produkty: 6 — MONACOR: 6)_
+      - Výrobníky snehu  _(produkty: 3 — MONACOR: 3)_
+      - Výrobníky ťažkého dymu  _(produkty: 8 — MONACOR: 8)_
+    - Žiarovky  _(produkty: 1 — MONACOR: 1)_
+  - Tlmočnícke, sprievodcovské a konferenčné systémy
+    - Bezdrôtový, sprievodcovský systém  _(produkty: 9 — MONACOR: 9)_
+      - nabíjačky a príslušenstvo  _(produkty: 9 — MONACOR: 9)_
+      - prijímače  _(produkty: 5 — MONACOR: 5)_
+      - vysielače  _(produkty: 11 — MONACOR: 11)_
+    - Konferenčný systém  _(produkty: 6 — MONACOR: 6)_
+    - Rečnícke pulty
+    - Sprievodcovský systém
+    - Tlmočnícky systém
+  - Výpredaj  _(produkty: 4 — MONACOR: 4)_
+  - ZZIPP  _(produkty: 1 — MONACOR: 1)_
+  - Špeciálna ponuka + Akciové sety  _(produkty: 2 — MONACOR: 2)_
+- TV, audio a video
+  - Antény a satelity
+    - Aktívne a pasívne prvky  _(produkty: 2 — Solight: 2)_
+    - Anténne držiaky  _(produkty: 2 — Solight: 2)_
+    - Anténne zdroje  _(produkty: 2 — Solight: 2)_
+    - Anténne zásuvky  _(produkty: 1 — Solight: 1)_
+    - Antény
+      - Antény izbové  _(produkty: 3 — Solight: 3)_
+      - Antény vonkajšie  _(produkty: 7 — Solight: 7)_
+    - ANTÉNY
+      - Antény pre obytná autá a lode
+      - Antény VKV - FM - DAB+  _(produkty: 6 — ATOS: 6)_
+      - Symetrizační členy  _(produkty: 1 — ATOS: 1)_
+      - TV antény pokojové  _(produkty: 9 — ATOS: 9)_
+      - TV antény vonkajšie  _(produkty: 32 — ATOS: 32)_
+    - CAM dekodéry a karty
+      - CA moduly  _(produkty: 5 — ATOS: 5)_
+      - Dekódovací karty  _(produkty: 1 — ATOS: 1)_
+    - Koaxiálne káble
+      - Kabel s F konektory  _(produkty: 1 — ATOS: 1)_
+      - Koaxiálne průchodky
+      - Metráž
+      - TV účastnické šnúry
+      - Vnútorné  _(produkty: 7 — ATOS: 7)_
+      - Vonkajšie  _(produkty: 2 — ATOS: 2)_
+    - Konektory
+      - F konektory  _(produkty: 21 — ATOS: 21)_
+      - F spojky  _(produkty: 7 — ATOS: 7)_
+      - IEC konektory  _(produkty: 12 — ATOS: 12)_
+      - Kompresní a krimpovací  _(produkty: 13 — ATOS: 13)_
+      - LAN konektory
+      - Montážne náradie  _(produkty: 12 — ATOS: 12)_
+      - Redukcie  _(produkty: 12 — ATOS: 12)_
+    - Konzoly, stožiare, uzemnenie
+      - Držiaky stožárů
+        - Na komín bez vŕtanie  _(produkty: 2 — ATOS: 2)_
+        - Na krovy  _(produkty: 6 — ATOS: 6)_
+        - Na stěnu pevné  _(produkty: 19 — ATOS: 19)_
+        - Na stěnu stavitelné  _(produkty: 27 — ATOS: 27)_
+        - Patky  _(produkty: 7 — ATOS: 7)_
+        - Vlnky a objímky  _(produkty: 5 — ATOS: 5)_
+      - Konzoly na plastové okno
+      - Konzoly na stěnu
+        - Držiaky k oknu  _(produkty: 3 — ATOS: 3)_
+        - Držiaky na bok lodžie  _(produkty: 4 — ATOS: 4)_
+        - Držiaky na okenní rám  _(produkty: 7 — ATOS: 7)_
+        - Držiaky na střechu  _(produkty: 5 — ATOS: 5)_
+        - S T základnou  _(produkty: 10 — ATOS: 10)_
+        - Sa čtvercovou základnou  _(produkty: 6 — ATOS: 6)_
+      - Konzoly na tepelná čerpadlá a klimatizácia
+      - Konzoly sa třmenem
+        - Anténní ráhna  _(produkty: 3 — ATOS: 3)_
+        - Na balkón (horizontální)  _(produkty: 9 — ATOS: 9)_
+        - Na stožár (vertikální)  _(produkty: 11 — ATOS: 11)_
+        - Univerzálne
+      - Príslušenstvo ku stožárům
+        - Kolena a průchodky  _(produkty: 1 — ATOS: 1)_
+        - Krytky stožárů  _(produkty: 5 — ATOS: 5)_
+        - Manžety  _(produkty: 4 — ATOS: 4)_
+        - Tašky s průchodem pre stožár  _(produkty: 2 — ATOS: 2)_
+      - Spojovacie a kotevní materiál, chémia
+        - Chémia  _(produkty: 8 — ATOS: 8)_
+        - Izolačné pásky  _(produkty: 19 — ATOS: 19)_
+        - Káblové příchytky  _(produkty: 10 — ATOS: 10)_
+        - Sťahovacie pásky  _(produkty: 12 — ATOS: 12)_
+        - Vruty, hmoždinky  _(produkty: 18 — ATOS: 18)_
+      - Stožiare a trojnožky
+        - Jednodílné stožiare  _(produkty: 6 — ATOS: 6)_
+        - Nadstavce na stožiare  _(produkty: 7 — ATOS: 7)_
+        - Trojnožky na rovné střechy  _(produkty: 3 — ATOS: 3)_
+      - Třmeny a spojky  _(produkty: 10 — ATOS: 10)_
+      - Uzemnenie, hromosvody
+        - Ekvipotenciální svorkovnice  _(produkty: 6 — ATOS: 6)_
+        - Zemnící drát  _(produkty: 1 — ATOS: 1)_
+        - Zemnící pásky  _(produkty: 6 — ATOS: 6)_
+        - Zemnící svorky  _(produkty: 13 — ATOS: 13)_
+        - Zemnící tyče  _(produkty: 3 — ATOS: 3)_
+    - LNB konvertory
+      - Monoblok 1 TV  _(produkty: 3 — ATOS: 3)_
+      - MonoQuad 4 TV  _(produkty: 2 — ATOS: 2)_
+      - MonoTwin 2 TV  _(produkty: 4 — ATOS: 4)_
+      - Octoblok 8 TV  _(produkty: 2 — ATOS: 2)_
+      - Quad 4 TV  _(produkty: 8 — ATOS: 8)_
+      - Quattro (H/V)  _(produkty: 7 — ATOS: 7)_
+      - Singl 1 TV  _(produkty: 9 — ATOS: 9)_
+      - Twin 2 TV  _(produkty: 7 — ATOS: 7)_
+      - Špeciálne  _(produkty: 1 — ATOS: 1)_
+    - Meracie prístroje  _(produkty: 1 — ATOS: 1)_
+    - PASIVNÍ PRVKY
+      - Anténní bleskojistky  _(produkty: 4 — ATOS: 4)_
+      - LTE filtre  _(produkty: 4 — ATOS: 4)_
+      - Odbočovače  _(produkty: 8 — ATOS: 8)_
+      - Rozbočovače
+        - Satelitné  _(produkty: 8 — ATOS: 8)_
+        - Televízne  _(produkty: 15 — ATOS: 15)_
+        - Televízne aktivní  _(produkty: 4 — ATOS: 4)_
+      - Slučovače TV  _(produkty: 6 — ATOS: 6)_
+      - Útlumové články  _(produkty: 7 — ATOS: 7)_
+    - Satelitné antény
+      - Paraboly  _(produkty: 9 — ATOS: 9)_
+      - Príslušenstvo  _(produkty: 1 — ATOS: 1)_
+    - SATELITNÉ PRIJÍMAČE
+      - COMBO SAT/DVBT
+      - Dotované boxy pre Skylink  _(produkty: 1 — ATOS: 1)_
+      - Prijímače pre freeSAT  _(produkty: 3 — ATOS: 3)_
+      - Prijímače s OS Linux  _(produkty: 10 — ATOS: 10)_
+      - Prijímače s UNI čtečkou  _(produkty: 6 — ATOS: 6)_
+      - Prijímače ULTRA HD 4K  _(produkty: 1 — ATOS: 1)_
+      - Skylink ready prijímače  _(produkty: 4 — ATOS: 4)_
+      - Wi-Fi adaptéry  _(produkty: 7 — ATOS: 7)_
+    - Satelitné príslušenstvo
+      - DiSEqC prepínače
+        - Pre 2 LNB  _(produkty: 1 — ATOS: 1)_
+      - Motory  _(produkty: 9 — ATOS: 9)_
+      - Multifeed LNB držiaky  _(produkty: 9 — ATOS: 9)_
+      - Multipřepínače
+        - 1 družice  _(produkty: 8 — ATOS: 8)_
+        - 2 družice  _(produkty: 9 — ATOS: 9)_
+        - 3 družice  _(produkty: 8 — ATOS: 8)_
+        - 4 družice  _(produkty: 7 — ATOS: 7)_
+        - Ostatné  _(produkty: 1 — ATOS: 1)_
+      - Ochranné kryty pre LNB
+      - Rozbočovače satelitné
+      - Slučovače SAT+TV  _(produkty: 2 — ATOS: 2)_
+      - Zosilňovače satelitné  _(produkty: 1 — ATOS: 1)_
+    - Servis
+      - Aktualizace softvér  _(produkty: 4 — ATOS: 4)_
+      - Náhradné diely  _(produkty: 8 — ATOS: 8)_
+    - SET-TOP-BOXY
+      - COMBO DVB-T2 H.265 HEVC/SAT  _(produkty: 5 — ATOS: 5)_
+      - DVB-T2 H.265 HEVC  _(produkty: 24 — ATOS: 24)_
+      - DVB-T2 s podporou hybridní televízory HbbTV  _(produkty: 1 — ATOS: 1)_
+    - TV modulátory  _(produkty: 1 — ATOS: 1)_
+    - Zdroje a výhybky  _(produkty: 1 — ATOS: 1)_
+      - Napájacie zdroje k zesilovači  _(produkty: 7 — ATOS: 7)_
+      - Výhybky  _(produkty: 2 — ATOS: 2)_
+    - ZOSILŇOVAČE
+      - Aktivní TV rozbočovače
+      - Domové  _(produkty: 26 — ATOS: 26)_
+      - HLAVNÍ STANICE
+        - ALCAD
+          - Zdroje  _(produkty: 4 — ATOS: 4)_
+      - K anténě  _(produkty: 21 — ATOS: 21)_
+      - Kanálové
+      - Linkové  _(produkty: 4 — ATOS: 4)_
+      - Programovatelné  _(produkty: 18 — ATOS: 18)_
+    - Účastnické zásuvky
+      - Koncové  _(produkty: 1 — ATOS: 1)_
+      - Průběžné
+      - Víčka, krabice  _(produkty: 9 — ATOS: 9)_
+  - Audio - video káble
+    - HDMI káble  _(produkty: 5 — K+B: 5)_
+    - Redukcie  _(produkty: 2 — K+B: 2)_
+  - Audio technika
+    - Audio káble  _(produkty: 5 — InnPro: 5)_
+    - Doplnky  _(produkty: 18 — InnPro: 18)_
+    - Gramofóny  _(produkty: 3 — ATOS: 3)_
+    - Hi-Fi systémy
+    - HiFi komponenty  _(produkty: 1 — K+B: 1)_
+      - AV receivery  _(produkty: 13 — K+B: 13)_
+      - CD prehrávače  _(produkty: 4 — K+B: 4)_
+      - Gramofóny  _(produkty: 12 — K+B: 12)_
+      - Príslušenstvo k HiFi  _(produkty: 1 — K+B: 1)_
+      - Zosilňovače  _(produkty: 9 — K+B: 9)_
+    - HiFi systémy
+      - Mikrosystémy  _(produkty: 5 — K+B: 5)_
+      - Minisystémy  _(produkty: 2 — K+B: 2)_
+    - Hlasové záznamníky  _(produkty: 2 — InnPro: 2)_
+    - Interkomy  _(produkty: 20 — InnPro: 20)_
+    - Mikrofóny  _(produkty: 5 — K+B: 5)_
+      - Hry  _(produkty: 2 — InnPro: 2)_
+      - Klopové mikrofóny  _(produkty: 13 — InnPro: 13)_
+      - Ostatné  _(produkty: 3 — InnPro: 3)_
+      - Štúdiové mikrofóny  _(produkty: 1 — InnPro: 1)_
+    - Ostatné  _(produkty: 5 — InnPro: 5)_
+    - Radiomagnetofóny  _(produkty: 2 — K+B: 2)_
+      - Radiomagnetofóny s CD  _(produkty: 1 — K+B: 1)_
+    - Reproduktory  _(produkty: 14 — ATOS: 14)_
+      - Aktívne reproduktory  _(produkty: 16 — InnPro: 16)_
+      - Počítačové reproduktory  _(produkty: 36 — InnPro: 36)_
+      - Prenosné Bluetooth reproduktory  _(produkty: 22 — InnPro: 22)_
+      - Sady reproduktorov  _(produkty: 11 — InnPro: 11)_
+      - Soundbary  _(produkty: 23 — InnPro: 23)_
+      - Subwoofery  _(produkty: 4 — InnPro: 4)_
+    - Rádiobudíky  _(produkty: 13 — K+B: 13)_
+    - Rádioprijímače  _(produkty: 23 — K+B: 23)_
+    - Rádiá  _(produkty: 47 — ATOS: 47)_
+    - Slúchadlá
+      - Bezdrôtové slúchadlá
+        - Náhlavné slúchadlá  _(produkty: 65 — InnPro: 65)_
+        - TWS slúchadlá  _(produkty: 95 — InnPro: 95)_
+        - Šport  _(produkty: 13 — InnPro: 13)_
+      - Drôtové slúchadlá  _(produkty: 39 — InnPro: 39)_
+      - Príslušenstvo  _(produkty: 28 — InnPro: 28)_
+      - Slúchadlá  _(produkty: 2 — ATOS: 2)_
+      - Slúchadlá Bluetooth  _(produkty: 1 — ATOS: 1)_
+      - Slúchadlá herné  _(produkty: 2 — ATOS: 2)_
+      - Slúchadlá televízne  _(produkty: 2 — ATOS: 2)_
+    - Soundbary  _(produkty: 30 — K+B: 26, ATOS: 4)_
+    - Stojany  _(produkty: 5 — InnPro: 5)_
+    - Vysielačky  _(produkty: 6 — K+B: 6)_
+    - Zosilňovače  _(produkty: 2 — InnPro: 2)_
+    - Řečnické systémy
+  - AV káble
+    - Anténa
+      - Anténne káble
+        - COAX  _(produkty: 6 — Solight: 6)_
+      - Konektory a redukcie
+        - COAX  _(produkty: 4 — Solight: 4)_
+        - F-konektor  _(produkty: 2 — Solight: 2)_
+    - AV káble  _(produkty: 24 — ATOS: 24)_
+    - Computer
+      - USB  _(produkty: 23 — Solight: 23)_
+      - UTP  _(produkty: 5 — Solight: 5)_
+    - Dvojlinky  _(produkty: 7 — ATOS: 7)_
+    - HDMI káble  _(produkty: 11 — ATOS: 11)_
+    - HDMI spojky a redukcie  _(produkty: 2 — ATOS: 2)_
+    - Napájanie  _(produkty: 1 — Solight: 1)_
+    - Oddělovací členy
+    - Optické káble  _(produkty: 7 — ATOS: 7)_
+    - TV účastnické šnúry
+    - Video
+      - HDMI  _(produkty: 9 — Solight: 9)_
+      - SCART
+        - Káble  _(produkty: 1 — Solight: 1)_
+  - Diaľkové ovládače
+    - AUDIO (AUX)
+      - AIWA  _(produkty: 2 — ATOS: 2)_
+      - Panasonic  _(produkty: 1 — ATOS: 1)_
+      - Philips  _(produkty: 1 — ATOS: 1)_
+      - TechniSat  _(produkty: 1 — ATOS: 1)_
+    - DVD
+      - Denon  _(produkty: 2 — ATOS: 2)_
+      - LG  _(produkty: 4 — ATOS: 4)_
+      - Philips  _(produkty: 7 — ATOS: 7)_
+      - Samsung  _(produkty: 5 — ATOS: 5)_
+      - Sharp  _(produkty: 1 — ATOS: 1)_
+      - Sony  _(produkty: 2 — ATOS: 2)_
+      - Technics  _(produkty: 1 — ATOS: 1)_
+    - Hotelové a senior ovládače  _(produkty: 1 — ATOS: 1)_
+    - KLIMATIZÁCIA  _(produkty: 2 — ATOS: 2)_
+    - Ostatné  _(produkty: 6 — ATOS: 6)_
+    - Ovládače k DVB-T2
+      - AB  _(produkty: 1 — ATOS: 1)_
+      - Alma  _(produkty: 15 — ATOS: 15)_
+      - Amiko  _(produkty: 5 — ATOS: 5)_
+      - Cabletech  _(produkty: 2 — ATOS: 2)_
+      - DIWAY  _(produkty: 7 — ATOS: 7)_
+      - Dreambox  _(produkty: 2 — ATOS: 2)_
+      - Edision  _(produkty: 2 — ATOS: 2)_
+      - Emos  _(produkty: 7 — ATOS: 7)_
+      - Evolve  _(produkty: 4 — ATOS: 4)_
+      - Ferguson  _(produkty: 4 — ATOS: 4)_
+      - Fte  _(produkty: 2 — ATOS: 2)_
+      - Fuba  _(produkty: 2 — ATOS: 2)_
+      - GoGEN  _(produkty: 8 — ATOS: 8)_
+      - Golden Media  _(produkty: 4 — ATOS: 4)_
+      - GoSAT  _(produkty: 6 — ATOS: 6)_
+      - Humax  _(produkty: 2 — ATOS: 2)_
+      - Hyundai  _(produkty: 6 — ATOS: 6)_
+      - Mascom  _(produkty: 11 — ATOS: 11)_
+      - Maxxo  _(produkty: 2 — ATOS: 2)_
+      - Medialink  _(produkty: 2 — ATOS: 2)_
+      - New Digital  _(produkty: 2 — ATOS: 2)_
+      - Optex  _(produkty: 4 — ATOS: 4)_
+      - Opticum  _(produkty: 7 — ATOS: 7)_
+      - Philips  _(produkty: 2 — ATOS: 2)_
+      - Sencor  _(produkty: 8 — ATOS: 8)_
+      - Skyworth  _(produkty: 2 — ATOS: 2)_
+      - Solight  _(produkty: 2 — ATOS: 2)_
+      - Strong  _(produkty: 12 — ATOS: 12)_
+      - Technisat  _(produkty: 6 — ATOS: 6)_
+      - Telesystem  _(produkty: 14 — ATOS: 14)_
+      - Tesla  _(produkty: 20 — ATOS: 20)_
+      - Thomson  _(produkty: 6 — ATOS: 6)_
+      - Wiwa  _(produkty: 9 — ATOS: 9)_
+      - Zircon  _(produkty: 6 — ATOS: 6)_
+    - Ovládače k multimediálnímu boxu  _(produkty: 7 — ATOS: 7)_
+    - Satelitné ovládače
+      - AB  _(produkty: 18 — ATOS: 18)_
+      - Allbox  _(produkty: 1 — ATOS: 1)_
+      - Alma  _(produkty: 1 — ATOS: 1)_
+      - Amiko  _(produkty: 35 — ATOS: 35)_
+      - Apebox  _(produkty: 1 — ATOS: 1)_
+      - ATlink  _(produkty: 6 — ATOS: 6)_
+      - AZBox  _(produkty: 1 — ATOS: 1)_
+      - Bensat  _(produkty: 5 — ATOS: 5)_
+      - DIWAY  _(produkty: 2 — ATOS: 2)_
+      - Dizipia  _(produkty: 1 — ATOS: 1)_
+      - Dreambox  _(produkty: 7 — ATOS: 7)_
+      - Dreamsky  _(produkty: 1 — ATOS: 1)_
+      - Edision  _(produkty: 1 — ATOS: 1)_
+      - Evolve  _(produkty: 1 — ATOS: 1)_
+      - Ferguson  _(produkty: 9 — ATOS: 9)_
+      - Formuler  _(produkty: 6 — ATOS: 6)_
+      - Globo  _(produkty: 9 — ATOS: 9)_
+      - Golden Interstar  _(produkty: 4 — ATOS: 4)_
+      - GoSat  _(produkty: 14 — ATOS: 14)_
+      - HD-BOX  _(produkty: 8 — ATOS: 8)_
+      - Homecast  _(produkty: 6 — ATOS: 6)_
+      - Humax  _(produkty: 6 — ATOS: 6)_
+      - Ineos  _(produkty: 4 — ATOS: 4)_
+      - Inetbox  _(produkty: 1 — ATOS: 1)_
+      - Kaon  _(produkty: 6 — ATOS: 6)_
+      - LinkBox  _(produkty: 3 — ATOS: 3)_
+      - Mascom  _(produkty: 5 — ATOS: 5)_
+      - Medialink  _(produkty: 2 — ATOS: 2)_
+      - Multibox  _(produkty: 1 — ATOS: 1)_
+      - Octagon  _(produkty: 11 — ATOS: 11)_
+      - Openbox  _(produkty: 4 — ATOS: 4)_
+      - Opensat  _(produkty: 9 — ATOS: 9)_
+      - Optibox  _(produkty: 12 — ATOS: 12)_
+      - Opticum  _(produkty: 1 — ATOS: 1)_
+      - Ostatné  _(produkty: 2 — ATOS: 2)_
+      - Polygon  _(produkty: 3 — ATOS: 3)_
+      - Samsung  _(produkty: 1 — ATOS: 1)_
+      - SatElita  _(produkty: 1 — ATOS: 1)_
+      - Showbox  _(produkty: 4 — ATOS: 4)_
+      - Skytec  _(produkty: 1 — ATOS: 1)_
+      - Smart  _(produkty: 1 — ATOS: 1)_
+      - Strong  _(produkty: 13 — ATOS: 13)_
+      - Synaps  _(produkty: 2 — ATOS: 2)_
+      - Technisat  _(produkty: 4 — ATOS: 4)_
+      - Tesla  _(produkty: 4 — ATOS: 4)_
+      - Thomson  _(produkty: 3 — ATOS: 3)_
+      - Topfield  _(produkty: 14 — ATOS: 14)_
+      - Vantage  _(produkty: 2 — ATOS: 2)_
+      - Vu+  _(produkty: 3 — ATOS: 3)_
+      - Zgemma  _(produkty: 6 — ATOS: 6)_
+      - Zircon  _(produkty: 10 — ATOS: 10)_
+    - Televízne ovládače
+      - BEKO  _(produkty: 4 — ATOS: 4)_
+      - Changhong  _(produkty: 16 — ATOS: 16)_
+      - CHiQ
+      - Daewoo  _(produkty: 1 — ATOS: 1)_
+      - ECG  _(produkty: 8 — ATOS: 8)_
+      - Finlux  _(produkty: 9 — ATOS: 9)_
+      - Gogen  _(produkty: 16 — ATOS: 16)_
+      - GoSat  _(produkty: 4 — ATOS: 4)_
+      - Grundig  _(produkty: 7 — ATOS: 7)_
+      - Hisense  _(produkty: 6 — ATOS: 6)_
+      - Hitachi  _(produkty: 8 — ATOS: 8)_
+      - Hyundai  _(produkty: 10 — ATOS: 10)_
+      - JVC  _(produkty: 7 — ATOS: 7)_
+      - Kruger & Matz  _(produkty: 2 — ATOS: 2)_
+      - LG  _(produkty: 101 — ATOS: 101)_
+      - Luxtronic  _(produkty: 2 — ATOS: 2)_
+      - Orava  _(produkty: 5 — ATOS: 5)_
+      - Ostatné značky
+      - OVP  _(produkty: 6 — ATOS: 6)_
+      - Panasonic  _(produkty: 57 — ATOS: 57)_
+      - Philips  _(produkty: 14 — ATOS: 14)_
+      - Samsung  _(produkty: 64 — ATOS: 64)_
+      - Sencor  _(produkty: 33 — ATOS: 33)_
+      - Sharp  _(produkty: 13 — ATOS: 13)_
+      - Sony  _(produkty: 29 — ATOS: 29)_
+      - TCL  _(produkty: 4 — ATOS: 4)_
+      - Technika  _(produkty: 5 — ATOS: 5)_
+      - Telefunken  _(produkty: 6 — ATOS: 6)_
+      - Thomson  _(produkty: 3 — ATOS: 3)_
+      - Toshiba  _(produkty: 9 — ATOS: 9)_
+      - Vestel  _(produkty: 1 — ATOS: 1)_
+    - Univerzálne ovládače
+      - LG  _(produkty: 1 — ATOS: 1)_
+      - Panasonic  _(produkty: 1 — ATOS: 1)_
+      - PHILIPS  _(produkty: 1 — ATOS: 1)_
+      - Programovatelné  _(produkty: 10 — ATOS: 10)_
+      - Samsung  _(produkty: 2 — ATOS: 2)_
+      - Sharp  _(produkty: 1 — ATOS: 1)_
+      - SONY  _(produkty: 1 — ATOS: 1)_
+      - Toshiba  _(produkty: 1 — ATOS: 1)_
+    - VIDEO (VCR)
+  - Digitálny príjem
+    - DVB-T antény  _(produkty: 12 — K+B: 12)_
+    - DVB-T prijímače  _(produkty: 7 — K+B: 7)_
+    - DVB-T, satelity - príslušenstvo  _(produkty: 2 — K+B: 2)_
+    - Satelitné prijímače  _(produkty: 3 — K+B: 3)_
+  - Discmany  _(produkty: 1 — K+B: 1)_
+  - Drony  _(produkty: 1 — K+B: 1)_
+  - Foto a optika
+    - Batohy
+      - fototašky
+        - Futerały i etui  _(produkty: 2 — InnPro: 2)_
+        - Plecaki  _(produkty: 2 — InnPro: 2)_
+        - Torby  _(produkty: 2 — InnPro: 2)_
+    - Digitálne kompakty  _(produkty: 8 — K+B: 8)_
+    - Filtre
+      - Pre smartfóny  _(produkty: 9 — InnPro: 9)_
+      - Pre zrkadlovky  _(produkty: 18 — InnPro: 18)_
+      - Pre športové kamery  _(produkty: 67 — InnPro: 67)_
+    - Fotoateliér
+      - Fotografické pozadia  _(produkty: 7 — InnPro: 7)_
+      - Kruhové svetlá  _(produkty: 8 — InnPro: 8)_
+      - Podšálky  _(produkty: 7 — InnPro: 7)_
+      - Softboxy  _(produkty: 9 — InnPro: 9)_
+      - Stany bez tieňa  _(produkty: 15 — InnPro: 15)_
+      - Svietidlá  _(produkty: 69 — InnPro: 69)_
+    - Fotopasce  _(produkty: 14 — K+B: 14)_
+    - Gimbály a stabilizátory  _(produkty: 51 — InnPro: 51)_
+    - Kamery
+      - Akaso  _(produkty: 2 — InnPro: 2)_
+      - Insta  _(produkty: 9 — InnPro: 9)_
+    - Príslušenstvo
+      - Batérie k fotoaparátom
+        - Batérie pre fotoaparáty Nikon  _(produkty: 1 — K+B: 1)_
+      - Objektívy DJI  _(produkty: 1 — InnPro: 1)_
+      - Ostatné  _(produkty: 31 — InnPro: 31)_
+      - Ostatné príslušenstvo k fotoaparátom  _(produkty: 2 — K+B: 2)_
+      - Pre fotoaparáty a videokamery  _(produkty: 70 — InnPro: 70)_
+      - Pre stabilizátory  _(produkty: 25 — InnPro: 25)_
+      - Pre športové kamery  _(produkty: 226 — InnPro: 226)_
+    - Selfie tyče
+      - statívy
+        - držiaky
+          - Adaptéry  _(produkty: 14 — InnPro: 14)_
+          - Kruhové svetlá  _(produkty: 3 — InnPro: 3)_
+          - Postroje, upevňovacie prvky a držiaky  _(produkty: 96 — InnPro: 96)_
+          - Selfie tyče a držiaky  _(produkty: 44 — InnPro: 44)_
+          - Statívy  _(produkty: 47 — InnPro: 47)_
+    - Skladovanie a preprava
+      - Batohy  _(produkty: 6 — InnPro: 6)_
+      - Puzdrá a obaly  _(produkty: 36 — InnPro: 36)_
+      - Tašky  _(produkty: 12 — InnPro: 12)_
+    - Súpravy  _(produkty: 13 — InnPro: 13)_
+    - Ďalekohľad  _(produkty: 3 — InnPro: 3)_
+  - Mobily a tablety
+    - Adaptéry Bluetooth  _(produkty: 2 — InnPro: 2)_
+    - Bluetooth slúchadlá  _(produkty: 1 — InnPro: 1)_
+    - Domáce telefóny
+      - Drátové telefóny  _(produkty: 1 — K+B: 1)_
+    - Držiaky telefónov  _(produkty: 1 — InnPro: 1)_
+    - GSM antény  _(produkty: 2 — ATOS: 2)_
+    - GSM nabíjačky  _(produkty: 27 — ATOS: 27)_
+    - Herné ovládače  _(produkty: 15 — InnPro: 15)_
+    - Kable USB I
+      - 3v1 Micro
+        - USB-C
+          - Lightning  _(produkty: 13 — InnPro: 13)_
+      - USB na Lightning  _(produkty: 22 — InnPro: 22)_
+      - USB na Micro USB  _(produkty: 4 — InnPro: 4)_
+      - USB na USB-C  _(produkty: 10 — InnPro: 10)_
+      - USB-C na Lightning  _(produkty: 6 — InnPro: 6)_
+      - USB-C na USB-C  _(produkty: 3 — InnPro: 3)_
+    - Mobilné telefóny  _(produkty: 4 — ATOS: 4)_
+    - Nabíjačky
+      - Bezdrôtové nabíjačky  _(produkty: 5 — InnPro: 5)_
+      - Nabíjačky do auta  _(produkty: 9 — InnPro: 9)_
+      - sieťové nabíjačky  _(produkty: 28 — InnPro: 28)_
+    - Nositeľná elektronika
+      - Lokátory  _(produkty: 4 — K+B: 4)_
+      - Smart hodinky  _(produkty: 49 — K+B: 49)_
+      - Smart prstene  _(produkty: 10 — K+B: 10)_
+    - Obaly na telefóny
+      - Ochranné puzdrá pre smartfóny  _(produkty: 220 — InnPro: 220)_
+      - Ochranné puzdrá pre tablety  _(produkty: 5 — InnPro: 5)_
+      - Vodotesné puzdro  _(produkty: 8 — InnPro: 8)_
+    - Objektívy pre telefóny  _(produkty: 7 — InnPro: 7)_
+    - Organizátory káblov  _(produkty: 3 — InnPro: 3)_
+    - Ostatné  _(produkty: 9 — InnPro: 9)_
+    - Pamäťové karty  _(produkty: 25 — InnPro: 25)_
+    - Powerbanky  _(produkty: 13 — InnPro: 13)_
+    - Prstencové držiaky  _(produkty: 2 — InnPro: 2)_
+    - Príslušenstvo  _(produkty: 6 — Solight: 6)_
+      - Držiaky na mobily  _(produkty: 27 — K+B: 27)_
+      - HandsFree  _(produkty: 2 — K+B: 2)_
+      - Káble pre mobily  _(produkty: 22 — K+B: 22)_
+      - Nabíjačky pre mobily  _(produkty: 54 — K+B: 54)_
+      - Ochranné fólie pre mobilné telefóny  _(produkty: 4 — K+B: 4)_
+      - Ostatné príslušenstvo pre mobily  _(produkty: 7 — K+B: 7)_
+      - Príslušenstvo pre smart hodinky  _(produkty: 14 — K+B: 14)_
+      - Puzdrá na mobilné telefóny  _(produkty: 310 — K+B: 310)_
+      - Sim karty a kupóny  _(produkty: 3 — K+B: 3)_
+      - Tvrdené sklá pre mobilné telefóny  _(produkty: 135 — K+B: 135)_
+    - Selfie tyče
+      - statívy
+        - stojany
+          - Adaptéry  _(produkty: 1 — InnPro: 1)_
+          - Iné  _(produkty: 15 — InnPro: 15)_
+          - Podložky a stojany  _(produkty: 7 — InnPro: 7)_
+          - Selfie stojany  _(produkty: 8 — InnPro: 8)_
+    - Smart hodinky
+      - Smart hodinky  _(produkty: 78 — InnPro: 78)_
+      - Smart prstene  _(produkty: 82 — InnPro: 82)_
+    - Smart telefóny  _(produkty: 177 — K+B: 177)_
+    - Smartfóny  _(produkty: 18 — InnPro: 18)_
+    - Stylusy pre tablety  _(produkty: 6 — InnPro: 6)_
+    - Tablety
+      - Grafické tablety  _(produkty: 39 — InnPro: 39)_
+      - Iné  _(produkty: 1 — InnPro: 1)_
+    - Tlačidlové telefóny  _(produkty: 10 — K+B: 10)_
+    - Tvrdené sklo a fólie
+      - Pre smartfóny  _(produkty: 34 — InnPro: 34)_
+      - Pre tablety  _(produkty: 6 — InnPro: 6)_
+    - USB káble
+      - Lightning  _(produkty: 3 — ATOS: 3)_
+      - Micro USB káble  _(produkty: 3 — ATOS: 3)_
+      - Univerzálne  _(produkty: 1 — ATOS: 1)_
+      - USB A  _(produkty: 2 — ATOS: 2)_
+      - USB-C káble  _(produkty: 26 — ATOS: 26)_
+    - Vysielače do auta  _(produkty: 1 — InnPro: 1)_
+    - Zvukové adaptéry  _(produkty: 4 — InnPro: 4)_
+  - Počítače a príslušenstvo
+    - Adaptéry a meniče  _(produkty: 11 — InnPro: 11)_
+    - Akumulátory, batérie
+      - Batérie  _(produkty: 5 — InnPro: 5)_
+    - Disky a pamäťové karty
+      - HDD  _(produkty: 12 — ATOS: 12)_
+      - Pamäťové karty  _(produkty: 1 — ATOS: 1)_
+      - USB flash disky  _(produkty: 1 — ATOS: 1)_
+    - Dokovacie stanice  _(produkty: 10 — InnPro: 10)_
+    - Dokovací stanice  _(produkty: 1 — ATOS: 1)_
+    - Držiaky na TV  _(produkty: 18 — InnPro: 18)_
+    - Externé zvukové karty  _(produkty: 5 — InnPro: 5)_
+    - Foto a kamery  _(produkty: 2 — ATOS: 2)_
+    - Herné kreslá  _(produkty: 11 — ATOS: 11)_
+    - Herné príslušenstvo
+      - Chladenie počítača
+        - Aktívne chladenie  _(produkty: 5 — InnPro: 5)_
+        - Chladenie vodou  _(produkty: 23 — InnPro: 23)_
+        - Ventilátory  _(produkty: 19 — InnPro: 19)_
+      - Herné podložky
+        - Podložky  _(produkty: 29 — InnPro: 29)_
+        - Príslušenstvo  _(produkty: 5 — InnPro: 5)_
+      - Herné príslušenstvo - docky, stojany  _(produkty: 1 — InnPro: 1)_
+      - Klávesnice
+        - Bezdrôtový  _(produkty: 3 — InnPro: 3)_
+        - Káblové  _(produkty: 3 — InnPro: 3)_
+      - Mikrofóny  _(produkty: 25 — InnPro: 25)_
+      - Myši
+        - Bezdrôtový  _(produkty: 6 — InnPro: 6)_
+        - Káblové  _(produkty: 4 — InnPro: 4)_
+      - Okuliare pre rozšírenú realitu  _(produkty: 50 — InnPro: 50)_
+      - Ostatné  _(produkty: 1 — InnPro: 1)_
+      - Osvetlenie  _(produkty: 8 — InnPro: 8)_
+      - Podložky pod myš  _(produkty: 2 — InnPro: 2)_
+      - Počítačové zdroje  _(produkty: 8 — InnPro: 8)_
+      - Príslušenstvo pre PlayStation  _(produkty: 1 — InnPro: 1)_
+      - Príslušenstvo VR  _(produkty: 31 — InnPro: 31)_
+      - Reproduktory  _(produkty: 10 — InnPro: 10)_
+      - Simulátory
+        - Simulácia letu  _(produkty: 21 — InnPro: 21)_
+        - Simulácia pretekov  _(produkty: 84 — InnPro: 84)_
+      - Skrine
+        - Bez ventilátora  _(produkty: 53 — InnPro: 53)_
+        - S ventilátorom  _(produkty: 63 — InnPro: 63)_
+      - Stojany na slúchadlá  _(produkty: 3 — InnPro: 3)_
+      - Zostavy a sety  _(produkty: 2 — InnPro: 2)_
+    - Herné zariadenia
+      - Herné konzoly
+        - Nintendo - konzoly  _(produkty: 2 — K+B: 2)_
+        - PlayStation 5 - konzoly  _(produkty: 5 — K+B: 5)_
+      - Herné ovládače  _(produkty: 6 — K+B: 6)_
+        - Gamepady  _(produkty: 16 — K+B: 16)_
+        - Volanty  _(produkty: 2 — K+B: 2)_
+      - Herné príslušenstvo  _(produkty: 4 — K+B: 4)_
+      - Konzolové hry
+        - Nintendo DS, 2DS, 3DS - hry  _(produkty: 8 — K+B: 8)_
+        - Nintendo Switch - hry  _(produkty: 22 — K+B: 22)_
+        - PS5 - hry  _(produkty: 2 — K+B: 2)_
+        - Xbox One - hry  _(produkty: 1 — K+B: 1)_
+      - Príslušenstvo ku konzolám
+        - Nintendo DS, 2DS, 3DS - príslušenstvo  _(produkty: 2 — K+B: 2)_
+        - Nintendo Switch - príslušenstvo  _(produkty: 2 — K+B: 2)_
+        - PS5 - príslušenstvo  _(produkty: 5 — K+B: 5)_
+        - Xbox One - príslušenstvo  _(produkty: 1 — K+B: 1)_
+    - Kalkulačky  _(produkty: 5 — K+B: 5)_
+    - Klávesnice
+      - K televizi  _(produkty: 1 — ATOS: 1)_
+    - Káble
+      - Ostatné  _(produkty: 2 — InnPro: 2)_
+      - Sieťové káble  _(produkty: 2 — InnPro: 2)_
+      - USB káble  _(produkty: 6 — InnPro: 6)_
+      - Video káble  _(produkty: 1 — InnPro: 1)_
+    - Káble pre IT
+      - Napájacie káble  _(produkty: 1 — K+B: 1)_
+      - USB káble  _(produkty: 1 — K+B: 1)_
+    - Mini PC  _(produkty: 76 — InnPro: 76)_
+    - Monitor stands  _(produkty: 6 — InnPro: 6)_
+    - Monitory
+      - LCD monitory  _(produkty: 11 — K+B: 11)_
+      - Plátna a projektory
+        - Projektory  _(produkty: 6 — K+B: 6)_
+    - Myši, klávesnica  _(produkty: 13 — InnPro: 13)_
+    - Notebooky  _(produkty: 49 — K+B: 49)_
+    - Ostatné  _(produkty: 8 — InnPro: 7, ATOS: 1)_
+    - Osvetlenie  _(produkty: 10 — InnPro: 10)_
+    - Pamäte RAM  _(produkty: 1 — K+B: 1)_
+    - Pamäťové médiá
+      - Externé disky  _(produkty: 22 — K+B: 22)_
+      - Pamäťové karty  _(produkty: 14 — K+B: 14)_
+      - USB flash disky  _(produkty: 11 — K+B: 11)_
+    - PC periférie
+      - Klávesnice  _(produkty: 13 — K+B: 13)_
+      - Myši  _(produkty: 18 — K+B: 18)_
+      - Podložky pod myš  _(produkty: 4 — K+B: 4)_
+      - USB huby  _(produkty: 3 — K+B: 3)_
+      - Vypaľovačky a externé mechaniky  _(produkty: 2 — K+B: 2)_
+      - Webkamery  _(produkty: 3 — K+B: 3)_
+    - Pendrive  _(produkty: 6 — InnPro: 6)_
+    - Podložky  _(produkty: 2 — ATOS: 2)_
+    - Predlžovacie káble  _(produkty: 3 — InnPro: 3)_
+    - Prenosné monitory  _(produkty: 73 — InnPro: 73)_
+    - Projektory
+    - Projektory a plátna
+      - Plátna pre projektory  _(produkty: 2 — InnPro: 2)_
+      - Projektory  _(produkty: 62 — InnPro: 62)_
+    - Príslušenstvo k notebookom
+      - Ostatné príslušenstvo k notebookom  _(produkty: 5 — K+B: 5)_
+      - Tašky k notebookom  _(produkty: 6 — K+B: 6)_
+    - Príslušenstvo k tabletom  _(produkty: 1 — K+B: 1)_
+      - Ostatné k tabletu  _(produkty: 4 — K+B: 4)_
+      - Puzdrá pre tablety  _(produkty: 4 — K+B: 4)_
+    - Rackové skrine a príslušenstvo
+      - Príslušenstvo
+        - Chladenie  _(produkty: 5 — ATOS: 5)_
+        - Napájacie lišty  _(produkty: 10 — ATOS: 10)_
+        - Patch Panely  _(produkty: 1 — ATOS: 1)_
+    - Reproduktory  _(produkty: 1 — ATOS: 1)_
+    - Routery  _(produkty: 11 — InnPro: 11)_
+    - Rozbočovače  _(produkty: 6 — InnPro: 6)_
+    - Rámčeky pre disky  _(produkty: 9 — InnPro: 9)_
+    - Sieťové prvky
+      - 3G/LTE modemy  _(produkty: 5 — K+B: 5)_
+      - Extendery  _(produkty: 3 — K+B: 3)_
+      - IP kamery  _(produkty: 6 — K+B: 6)_
+      - Konektory, zásuvky  _(produkty: 6 — ATOS: 6)_
+      - Napájacie adaptéry a POE  _(produkty: 1 — ATOS: 1)_
+      - Patch káble  _(produkty: 9 — ATOS: 9)_
+      - Powerline  _(produkty: 2 — K+B: 2)_
+      - Routery  _(produkty: 1 — ATOS: 1)_
+      - Sieťové karty  _(produkty: 20 — K+B: 20)_
+      - Switche  _(produkty: 18 — K+B: 18)_
+      - WI-FI extendéry  _(produkty: 2 — ATOS: 2)_
+      - WiFi routery  _(produkty: 65 — K+B: 65)_
+    - Sieťové zariadenia  _(produkty: 16 — InnPro: 16)_
+    - Skartovačky a laminovačky  _(produkty: 3 — K+B: 3)_
+    - Smartphones  _(produkty: 2 — InnPro: 2)_
+    - SSD disky  _(produkty: 10 — InnPro: 10)_
+    - Stolové počítače  _(produkty: 2 — K+B: 2)_
+    - Tablety  _(produkty: 64 — K+B: 64)_
+      - Grafické tablety  _(produkty: 2 — InnPro: 2)_
+      - Tablety  _(produkty: 15 — InnPro: 15)_
+    - Tašky, obaly, batohy  _(produkty: 1 — InnPro: 1)_
+    - Tlačiarne a skenery
+      - Atramentové tlačiarne  _(produkty: 11 — K+B: 11)_
+      - Atramenty  _(produkty: 140 — K+B: 140)_
+      - Fototlačiarne  _(produkty: 5 — K+B: 5)_
+      - Laserové tlačiarne  _(produkty: 6 — K+B: 6)_
+      - Multifunkčné tlačiarne
+        - Atramentové multifunkčné tlačiarne  _(produkty: 48 — K+B: 48)_
+        - Laserové multifunkčné tlačiarne  _(produkty: 10 — K+B: 10)_
+      - Pokladničné tlačiarne  _(produkty: 1 — K+B: 1)_
+      - Príslušenstvo - tlačiarne  _(produkty: 1 — K+B: 1)_
+        - Papiere do tlačiarní  _(produkty: 6 — K+B: 6)_
+      - Tonery  _(produkty: 17 — K+B: 17)_
+    - USB huby  _(produkty: 2 — ATOS: 2)_
+    - Webkamery  _(produkty: 44 — InnPro: 44)_
+    - Čítačky kariet  _(produkty: 8 — InnPro: 8)_
+  - Príslušenstvo
+    - AUDIO prevodníky  _(produkty: 2 — ATOS: 2)_
+    - Bezdrátové přenosy signálu
+      - AUDIO přenosy  _(produkty: 1 — ATOS: 1)_
+      - Bluetooth  _(produkty: 1 — ATOS: 1)_
+    - HDMI prevodníky  _(produkty: 2 — ATOS: 2)_
+    - HDMI rozbočovače  _(produkty: 3 — ATOS: 3)_
+  - Príslušenstvo k TV, audio, video  _(produkty: 19 — K+B: 19)_
+    - Batérie a nabíjačky
+      - Ceruzkové AA  _(produkty: 3 — K+B: 3)_
+    - Diaľkové ovládače  _(produkty: 11 — K+B: 11)_
+    - TV držiaky  _(produkty: 3 — K+B: 3)_
+  - Reproduktory
+    - Bezdrátové reproduktory  _(produkty: 80 — K+B: 80)_
+    - Drátové reproduktory  _(produkty: 6 — K+B: 6)_
+    - Párty reproduktory  _(produkty: 13 — K+B: 13)_
+    - Reprosoustavy  _(produkty: 3 — K+B: 3)_
+    - Subwoofery  _(produkty: 4 — K+B: 4)_
+  - Slúchadlá
+    - Bezdrátová  _(produkty: 134 — K+B: 134)_
+    - Drátová  _(produkty: 48 — K+B: 48)_
+    - Príslušenstvo pre slúchadlá  _(produkty: 4 — K+B: 4)_
+    - True Bezdrôtové  _(produkty: 57 — K+B: 57)_
+  - Televízory
+    - 32" (80 - 82 cm)  _(produkty: 7 — ATOS: 7)_
+    - 43" (108 - 109 cm)  _(produkty: 1 — ATOS: 1)_
+    - do 30" (76 cm)  _(produkty: 4 — ATOS: 4)_
+    - LED projektory  _(produkty: 5 — ATOS: 5)_
+    - LED televízory  _(produkty: 23 — K+B: 23)_
+    - nad 48" (120 - 165 cm)  _(produkty: 3 — ATOS: 3)_
+    - OLED televízory  _(produkty: 7 — K+B: 7)_
+    - Príslušenstvo pre televízory  _(produkty: 1 — ATOS: 1)_
+    - QLED, NeoQLED televízory  _(produkty: 86 — K+B: 86)_
+    - Soundbary k TV
+    - Televízory  _(produkty: 2 — InnPro: 2)_
+    - Televízory na 12V  _(produkty: 3 — ATOS: 3)_
+    - Televízory Ultra HD (4K)
+    - UHD(4K) televízory  _(produkty: 19 — K+B: 19)_
+  - TV stolíky a držiaky
+    - Držiaky monitorů  _(produkty: 5 — ATOS: 5)_
+    - Držiaky projektorů
+    - Držiaky reproduktorů  _(produkty: 1 — ATOS: 1)_
+    - Fixné držiaky  _(produkty: 2 — Solight: 2)_
+    - Konzolové držiaky  _(produkty: 6 — Solight: 6)_
+    - Naklápacie držiaky  _(produkty: 3 — Solight: 3)_
+    - Pevné  _(produkty: 2 — ATOS: 2)_
+    - Pojízdné
+    - Pre prohnuté televízory  _(produkty: 2 — ATOS: 2)_
+    - S náklonem  _(produkty: 13 — ATOS: 13)_
+    - S odsazením a náklonem  _(produkty: 20 — ATOS: 20)_
+    - Stojany  _(produkty: 1 — ATOS: 1)_
+  - Video technika
+    - Kamery do autá  _(produkty: 20 — K+B: 20)_
+    - Multimediálne centra  _(produkty: 16 — K+B: 16)_
+    - Multimediálne centrá  _(produkty: 15 — ATOS: 15)_
+    - Outdoor kamery  _(produkty: 5 — K+B: 5)_
+    - Prehrávače, rekordéry  _(produkty: 1 — K+B: 1)_
+      - DVD prehrávače
+        - Stolové DVD prehrávače  _(produkty: 1 — K+B: 1)_
+- Zdravie a starostlivosť
+  - Chovateľské potreby
+    - Dávkovače krmiva
+      - misky  _(produkty: 58 — InnPro: 58)_
+    - Fontány
+      - napájačky  _(produkty: 32 — InnPro: 32)_
+    - Hračky  _(produkty: 10 — InnPro: 10)_
+    - Inteligentné toalety pre zvieratá  _(produkty: 20 — InnPro: 20)_
+    - Ostatné príslušenstvo  _(produkty: 35 — InnPro: 35)_
+    - Pohlcovače zápachu  _(produkty: 10 — InnPro: 10)_
+    - Pre mačky  _(produkty: 8 — ATOS: 8)_
+    - Pre psov  _(produkty: 8 — ATOS: 7, K+B: 1)_
+    - Príslušenstvo pre mačacie toalety  _(produkty: 31 — InnPro: 31)_
+    - Starostlivosť o zvieratá  _(produkty: 33 — InnPro: 33)_
+    - Venčenie a transport  _(produkty: 29 — InnPro: 29)_
+  - Elektrické deky  _(produkty: 6 — K+B: 6)_
+  - Elektrické manikúry a pedikúry  _(produkty: 1 — K+B: 1)_
+  - Erotika
+    - Vibrátory  _(produkty: 2 — InnPro: 2)_
+  - Holiace strojčeky
+    - Dámske holiace strojčeky a depilátory  _(produkty: 3 — K+B: 3)_
+    - Epilátory  _(produkty: 19 — K+B: 19)_
+    - Príslušenstvo k holiacim strojčekom  _(produkty: 12 — K+B: 12)_
+    - Pánske holiace strojčeky  _(produkty: 8 — K+B: 8)_
+  - Holiace strojčeky a zastrihávače
+    - Holiace strojčeky  _(produkty: 1 — InnPro: 1)_
+    - Zastrihávače  _(produkty: 2 — InnPro: 2)_
+  - Masážne prístroje  _(produkty: 5 — InnPro: 5)_
+    - Masážne podložky  _(produkty: 1 — K+B: 1)_
+    - Masážne prístroje na celé telo  _(produkty: 1 — K+B: 1)_
+    - Masážne prístroje na chrbát a šiji  _(produkty: 2 — K+B: 2)_
+  - Matka a dieťa
+    - Detská izba
+      - Hodinky a budíky  _(produkty: 1 — InnPro: 1)_
+    - Elektronické príslušenstvo
+      - Slúchadlá a reproduktory  _(produkty: 5 — InnPro: 5)_
+    - Kŕmenie dieťaťa  _(produkty: 7 — InnPro: 7)_
+    - Odsávačky mlieka a masážne prístroje
+      - Odsávačky mlieka  _(produkty: 3 — InnPro: 3)_
+  - Osobná starostlivosť  _(produkty: 3 — InnPro: 3)_
+  - Osobné váhy  _(produkty: 30 — K+B: 30)_
+  - Otoskopy  _(produkty: 12 — InnPro: 12)_
+  - Parfumy a kozmetika
+    - Pánske parfumy
+      - Pánske balzámy po holenie  _(produkty: 1 — K+B: 1)_
+    - Vlasová kozmetika
+      - Balzámy a kondicionéry  _(produkty: 1 — K+B: 1)_
+  - Predlžovanie rias  _(produkty: 3 — InnPro: 3)_
+  - Prístroje na tvár
+    - Iné  _(produkty: 3 — InnPro: 3)_
+    - Kavitačné peelingy  _(produkty: 3 — InnPro: 3)_
+    - Masážne prístroje  _(produkty: 12 — InnPro: 12)_
+  - Sonické zubné kefky
+    - Príslušenstvo  _(produkty: 4 — InnPro: 4)_
+    - Sonické zubné kefky  _(produkty: 9 — InnPro: 9)_
+  - Starostlivosť o dieťa
+    - Detské opatrovateľky (chůvičky)  _(produkty: 3 — K+B: 3)_
+    - Ostatné detské tovar  _(produkty: 4 — K+B: 4)_
+  - Starostlivosť o pleť  _(produkty: 10 — InnPro: 10)_
+  - Starostlivosť o vlasy
+    - Fény  _(produkty: 14 — InnPro: 14)_
+    - Fény na vlasy  _(produkty: 71 — K+B: 71)_
+    - Hrebene na vlasy  _(produkty: 2 — K+B: 2)_
+    - Kulmy na vlasy  _(produkty: 57 — K+B: 57)_
+    - Príslušenstvo k starostlivosť o vlasy  _(produkty: 3 — K+B: 3)_
+    - Zastrihávače  _(produkty: 41 — K+B: 41)_
+    - Žehličky na vlasy a kulmy  _(produkty: 3 — InnPro: 3)_
+    - Žehličky na vlasy, krepovací kliešte  _(produkty: 36 — K+B: 36)_
+  - Starostlivosť o zdravie
+    - Inhalátory  _(produkty: 1 — K+B: 1)_
+    - Ostatné starostlivosť o zdravie  _(produkty: 3 — K+B: 3)_
+    - Teplomery  _(produkty: 2 — K+B: 2)_
+    - Tlakomery, tonometre  _(produkty: 1 — K+B: 1)_
+    - Vložky do bot  _(produkty: 3 — K+B: 3)_
+  - Starostlivosť o zuby
+    - Elektrické zubné kefky  _(produkty: 43 — K+B: 43)_
+    - Príslušenstvo k zubným kefkám  _(produkty: 68 — K+B: 68)_
+    - Zubné kefky  _(produkty: 9 — K+B: 9)_
+    - Ústne sprchy  _(produkty: 9 — K+B: 9)_
+  - Stop koronavírusu  _(produkty: 1 — K+B: 1)_
+  - Váhy  _(produkty: 1 — InnPro: 1)_
+  - Ústne sprchy
+    - Ústne sprchy  _(produkty: 1 — InnPro: 1)_
+  - Čistenie pleti  _(produkty: 3 — K+B: 3)_
+- Záhrada
+  - Brány a zvončeky
+    - Bezdrátové zvončeky  _(produkty: 59 — ATOS: 59)_
+    - Parkovací zábrany  _(produkty: 12 — ATOS: 12)_
+    - Pohony křídlová vrata  _(produkty: 6 — ATOS: 6)_
+    - Pohony posuvné vrata  _(produkty: 5 — ATOS: 5)_
+    - Pohony pre garážová vrata  _(produkty: 3 — ATOS: 3)_
+    - Poštovní schránky  _(produkty: 2 — ATOS: 2)_
+    - Príslušenstvo pre pohony vrat  _(produkty: 18 — ATOS: 18)_
+    - Schránky na kľúče  _(produkty: 2 — ATOS: 2)_
+  - Odpudzovače a lapače hmyzu  _(produkty: 4 — ATOS: 4)_
+    - Odpudzovače a lapače hmyzu  _(produkty: 37 — ATOS: 37)_
+    - Odpudzovače a lapače slimáků  _(produkty: 4 — ATOS: 4)_
+    - Odpudzovače kun a hlodavců  _(produkty: 21 — ATOS: 21)_
+    - Odpudzovače psů, mačiek a zvěře  _(produkty: 2 — ATOS: 2)_
+    - Odpudzovače ptáků  _(produkty: 6 — ATOS: 6)_
+  - Sanitárna technika
+    - Batérie  _(produkty: 9 — ATOS: 9)_
+    - Dávkovače mydlá  _(produkty: 3 — ATOS: 3)_
+    - Ostatné  _(produkty: 9 — ATOS: 9)_
+    - Sprchové hadice  _(produkty: 1 — ATOS: 1)_
+    - Sprchové hlavice  _(produkty: 7 — ATOS: 7)_
+  - Zariadenia na čistenie bazénov  _(produkty: 29 — InnPro: 29)_
+  - Zavlažovacie systémy  _(produkty: 46 — InnPro: 46)_
+  - Záhradné doplnky
+    - Bazény a doplnky
+      - Bazénová chémia  _(produkty: 39 — ATOS: 39)_
+      - Teplomery do bazénů  _(produkty: 1 — ATOS: 1)_
+      - Záhradné bazény  _(produkty: 2 — ATOS: 2)_
+    - Doplnky na záhradu  _(produkty: 6 — ATOS: 6)_
+    - Grily  _(produkty: 5 — ATOS: 5)_
+    - Pestovanie  _(produkty: 1 — ATOS: 1)_
+      - Fungicidy proti houbám a plísním  _(produkty: 30 — ATOS: 30)_
+      - Herbicidy proti plevelům  _(produkty: 37 — ATOS: 37)_
+      - Insekticidy proti škůdcům  _(produkty: 36 — ATOS: 36)_
+      - Prípravky proti mravencům  _(produkty: 20 — ATOS: 20)_
+      - Pěstební lampy  _(produkty: 5 — ATOS: 5)_
+      - Travní směsi  _(produkty: 3 — ATOS: 3)_
+      - Záhradné hnojivá
+        - Granulovaná hnojivá na záhradu  _(produkty: 22 — ATOS: 22)_
+        - Krystalická hnojivá  _(produkty: 8 — ATOS: 8)_
+        - Organická hnojivá  _(produkty: 21 — ATOS: 21)_
+        - Organominerální hnojivá  _(produkty: 11 — ATOS: 11)_
+        - Tekuté hnojivá  _(produkty: 38 — ATOS: 38)_
+    - Plachty a textilie  _(produkty: 26 — ATOS: 26)_
+    - Přenosná ohniště
+    - Sluneční clony  _(produkty: 7 — ATOS: 7)_
+    - Zavlažovanie
+      - Hadice  _(produkty: 1 — ATOS: 1)_
+      - Postrekovače  _(produkty: 2 — ATOS: 2)_
+      - Príslušenstvo  _(produkty: 6 — ATOS: 6)_
+      - Rozprašovače  _(produkty: 4 — ATOS: 4)_
+      - Zavlažovače  _(produkty: 3 — ATOS: 3)_
+    - Záhradné nábytok  _(produkty: 1 — ATOS: 1)_
+    - Záhradné rukavice  _(produkty: 17 — ATOS: 17)_
+    - Záhradné sloupky  _(produkty: 6 — ATOS: 6)_
+    - Záhradné svietidlá  _(produkty: 9 — ATOS: 9)_
+    - Čerpadlá  _(produkty: 6 — ATOS: 6)_
+  - Záhradné náradie
+    - Hrable  _(produkty: 2 — ATOS: 2)_
+    - Lopaty  _(produkty: 5 — ATOS: 5)_
+    - Ostatné  _(produkty: 4 — ATOS: 4)_
+    - Sady záhradného náradie  _(produkty: 5 — ATOS: 5)_
+    - Záhradné nožnice
+      - Pákové nožnice  _(produkty: 6 — ATOS: 6)_
+      - Záhradné nožnice  _(produkty: 5 — ATOS: 5)_
+  - Záhradné potreby
+    - Lapače, odpudzovače hmyzu a škodcov  _(produkty: 2 — K+B: 2)_
+    - Zavlažovanie
+      - Čerpadlá  _(produkty: 1 — K+B: 1)_
+    - Záhradné náradie
+      - Krompáče, motyky, kultivátory  _(produkty: 1 — K+B: 1)_
+      - Rýle a rycie vidle  _(produkty: 1 — K+B: 1)_
+      - Záhradné nožnice  _(produkty: 1 — K+B: 1)_
+  - Záhradné stroje
+    - Krovinorezy  _(produkty: 1 — ATOS: 1)_
+    - Náhradné diely pre krovinorezy  _(produkty: 26 — ATOS: 26)_
+    - Postrekovače  _(produkty: 1 — ATOS: 1)_
+    - Príslušenstvo
+    - Píly
+      - Lišty, reťaze, pilníky
+        - Lišty  _(produkty: 2 — ATOS: 2)_
+      - Reťazové píly  _(produkty: 1 — ATOS: 1)_
+    - Struny a kotúče  _(produkty: 4 — ATOS: 4)_
+    - Vysokotlakové umývačky  _(produkty: 2 — ATOS: 2)_
+    - Vysávače lístie  _(produkty: 1 — ATOS: 1)_
+    - Záhradné nožnice  _(produkty: 1 — ATOS: 1)_
+    - Čerpadlá
+      - Palivová a olejová čerpadlá  _(produkty: 4 — ATOS: 4)_
+- Šport, hračky a voľný čas
+  - Bojové športy
+    - Boxerské rukavice  _(produkty: 122 — ATOS: 122)_
+    - Boxovací pytle - plné  _(produkty: 23 — ATOS: 23)_
+    - Boxovací pytle - prázdné  _(produkty: 12 — ATOS: 12)_
+    - Chrániče  _(produkty: 51 — ATOS: 51)_
+    - Chrániče holenie  _(produkty: 39 — ATOS: 39)_
+    - Hrušky a speedbagy  _(produkty: 11 — ATOS: 11)_
+    - Lapy a bloky  _(produkty: 26 — ATOS: 26)_
+    - MMA rukavice  _(produkty: 48 — ATOS: 48)_
+    - Montážne prvky  _(produkty: 8 — ATOS: 8)_
+    - Príslušenstvo  _(produkty: 17 — ATOS: 17)_
+    - Pytlovky  _(produkty: 5 — ATOS: 5)_
+    - Rukavice na karate  _(produkty: 12 — ATOS: 12)_
+    - Tréninková lana  _(produkty: 6 — ATOS: 6)_
+    - Zátěžové vesty  _(produkty: 13 — ATOS: 13)_
+  - Cyklistika
+    - Cyklodržáky  _(produkty: 2 — ATOS: 2)_
+    - Cyklotašky  _(produkty: 21 — ATOS: 21)_
+    - Elektrokola
+    - Ostatné cyklo doplnky  _(produkty: 5 — ATOS: 5)_
+    - Pumpy na kolo  _(produkty: 6 — ATOS: 6)_
+    - Reflexní prvky  _(produkty: 4 — ATOS: 4)_
+    - Stojany a držiaky na kolesá  _(produkty: 2 — ATOS: 2)_
+    - Svietidlá na kolo  _(produkty: 11 — ATOS: 11)_
+    - Zámky na kolo  _(produkty: 1 — ATOS: 1)_
+  - Elektrické bežecké pásy  _(produkty: 35 — InnPro: 35)_
+  - Elektrické bicykle  _(produkty: 15 — InnPro: 15)_
+  - Elektrické kolobežky  _(produkty: 2 — ATOS: 2)_
+  - Elektrické surfy  _(produkty: 4 — InnPro: 4)_
+  - Fitness Vybavenie  _(produkty: 38 — InnPro: 38)_
+  - Golf  _(produkty: 1 — InnPro: 1)_
+  - Hračky  _(produkty: 2 — K+B: 2)_
+    - Autodráhy  _(produkty: 22 — K+B: 22)_
+    - Autá, bagry, traktory pre deti  _(produkty: 4 — ATOS: 4)_
+    - Autá, letadla, lode  _(produkty: 3 — K+B: 3)_
+    - Detské hudební nástroje
+      - Sady  _(produkty: 1 — ATOS: 1)_
+    - Edukatívne
+      - Programovateľní roboti  _(produkty: 2 — InnPro: 2)_
+    - Elektronické hračky  _(produkty: 4 — K+B: 4)_
+    - Hračky pre kluky
+      - Detské zbrane  _(produkty: 4 — K+B: 4)_
+    - Kreativní hračky  _(produkty: 5 — ATOS: 5)_
+    - Plyšové hračky
+      - Plyšáky ostatné  _(produkty: 1 — ATOS: 1)_
+    - Pre kojencov  _(produkty: 1 — InnPro: 1)_
+    - Puzzle
+      - Puzzle klasické drevené  _(produkty: 3 — ATOS: 3)_
+    - Stavebnice
+      - Ostatné stavebnice  _(produkty: 6 — K+B: 6)_
+    - Vonkajšie hračky
+      - Detská ihrisko a doplnky  _(produkty: 1 — ATOS: 1)_
+    - Vybavenie pokojíčků a školek
+      - Hracie funkční nábytok  _(produkty: 10 — ATOS: 10)_
+    - Vzdelávacie a interaktívne  _(produkty: 7 — InnPro: 7)_
+    - Výtvarné hračky a tvoření
+      - Detská razítka  _(produkty: 1 — ATOS: 1)_
+      - Kreativní sady  _(produkty: 1 — ATOS: 1)_
+      - Malování, barvy, šablony  _(produkty: 2 — ATOS: 2)_
+    - Zvieratká, farmy  _(produkty: 1 — ATOS: 1)_
+      - Zvieratká
+    - Školské pomôcky, tabule
+      - Výtvarné potreby
+  - Hudební nástroje
+    - Digitálne piana  _(produkty: 1 — ATOS: 1)_
+  - Mikroskopy
+    - Digitálne fotoaparáty  _(produkty: 2 — ATOS: 2)_
+    - LCD displej / PC monitor  _(produkty: 1 — ATOS: 1)_
+    - Monokulární  _(produkty: 1 — ATOS: 1)_
+    - Príslušenstvo
+  - Oblečenie a obuv
+    - Boty  _(produkty: 1 — K+B: 1)_
+  - Outdoor
+    - Batohy
+      - tašky  _(produkty: 3 — InnPro: 3)_
+    - Elektrické skútre  _(produkty: 8 — InnPro: 8)_
+    - Kempovanie  _(produkty: 41 — InnPro: 41)_
+    - Ostatné  _(produkty: 5 — InnPro: 5)_
+    - Osvetlenie
+      - Kempingové svetlá  _(produkty: 12 — InnPro: 12)_
+      - Vonkajšie svetlá  _(produkty: 9 — InnPro: 9)_
+    - Príslušenstvo na kľuky  _(produkty: 3 — InnPro: 3)_
+    - Rybárčenie
+      - Návnada lode  _(produkty: 27 — InnPro: 27)_
+      - Ostatné  _(produkty: 3 — InnPro: 3)_
+    - Svietidlá
+      - Ostatné  _(produkty: 33 — InnPro: 33)_
+      - Pracovné svetlá  _(produkty: 9 — InnPro: 9)_
+      - Svetlá na bicykel  _(produkty: 1 — InnPro: 1)_
+      - UV svietidlá  _(produkty: 4 — InnPro: 4)_
+      - Čelovky  _(produkty: 24 — InnPro: 24)_
+  - Podvodné skútre  _(produkty: 57 — InnPro: 57)_
+  - Posilňovanie a fitness  _(produkty: 7 — K+B: 7)_
+    - Podložky  _(produkty: 9 — ATOS: 9)_
+    - Pomôcky na cvičenie
+      - Gumy a pásy na cvičenie  _(produkty: 20 — ATOS: 20)_
+      - Lopty na cvičenie  _(produkty: 21 — ATOS: 21)_
+      - Pomôcky na cvičenie břicha  _(produkty: 3 — ATOS: 3)_
+      - Pomôcky na cvičenie doma  _(produkty: 29 — ATOS: 29)_
+      - Pomôcky na jógu  _(produkty: 10 — ATOS: 10)_
+      - Pomôcky na pilates  _(produkty: 6 — ATOS: 6)_
+      - Valce, kolieska a masážne lopty
+      - Závažia na kotníky a zápěstí  _(produkty: 4 — ATOS: 4)_
+      - Švihadlá
+    - Posilňovacie lavice  _(produkty: 1 — ATOS: 1)_
+    - Posilňovacie stroje  _(produkty: 5 — ATOS: 5)_
+    - Príslušenstvo pre posilňovanie  _(produkty: 7 — ATOS: 7)_
+    - Stepy a steppery  _(produkty: 7 — ATOS: 7)_
+    - Trenažéry
+      - Běžecké pásy  _(produkty: 6 — ATOS: 6)_
+      - Rotopedy  _(produkty: 9 — ATOS: 9)_
+      - Spinningová kolesá  _(produkty: 4 — ATOS: 4)_
+    - Činky a príslušenstvo
+      - Kettlebell  _(produkty: 8 — ATOS: 8)_
+      - Závažia  _(produkty: 2 — ATOS: 2)_
+      - Činky jednoruční  _(produkty: 24 — ATOS: 24)_
+      - Činky nastaviteľné
+      - Činky obouruční, osy  _(produkty: 1 — ATOS: 1)_
+  - Príslušenstvo pre bicykle
+    - Cyklopočítače  _(produkty: 4 — InnPro: 4)_
+    - Cyklotašky  _(produkty: 1 — InnPro: 1)_
+    - Lampy  _(produkty: 14 — InnPro: 14)_
+    - Náhradné diely a nástroje  _(produkty: 2 — InnPro: 2)_
+    - Oblečenie  _(produkty: 1 — InnPro: 1)_
+    - Pumpy  _(produkty: 24 — InnPro: 24)_
+    - Rukoväte  _(produkty: 6 — InnPro: 6)_
+    - Senzory  _(produkty: 4 — InnPro: 4)_
+  - Sportovní vybavenie
+    - Bazény a vířivky  _(produkty: 1 — ATOS: 1)_
+    - Hoverboardy  _(produkty: 1 — ATOS: 1)_
+    - Kolobežky  _(produkty: 5 — ATOS: 5)_
+    - Ostatné športy  _(produkty: 11 — ATOS: 11)_
+    - Paddleboardy  _(produkty: 32 — ATOS: 32)_
+    - Raketové športy
+      - Badminton  _(produkty: 6 — ATOS: 6)_
+      - Stolové tenis  _(produkty: 9 — ATOS: 9)_
+    - Sportovní okuliare  _(produkty: 7 — ATOS: 7)_
+    - Vodné športy, hračky do vody  _(produkty: 5 — ATOS: 5)_
+  - Stacionárne Bicykle  _(produkty: 7 — InnPro: 7)_
+  - SUP dosky  _(produkty: 19 — InnPro: 19)_
+  - Turistika
+    - Cestování a outdoor  _(produkty: 12 — ATOS: 12)_
+    - Chladiace tašky a boxy  _(produkty: 11 — ATOS: 11)_
+    - Hojdacie siete  _(produkty: 2 — ATOS: 2)_
+    - Impregnace  _(produkty: 11 — ATOS: 11)_
+    - Karimatky, matrace, vankúše  _(produkty: 4 — ATOS: 4)_
+    - Kempingové stoly, stoličky, ležadlá  _(produkty: 4 — ATOS: 4)_
+    - Stany  _(produkty: 3 — ATOS: 3)_
+    - Turistické vybavenie  _(produkty: 24 — ATOS: 24)_
+    - Vysielačky  _(produkty: 1 — ATOS: 1)_
+    - Čelové svietidlá
+  - Turizmus  _(produkty: 10 — InnPro: 10)_
+  - Zdravotní potreby
+    - Detské opatrovateľky (chůvičky)
+    - Masážne nástroje  _(produkty: 7 — ATOS: 7)_
+    - Rehabilitační rotopedy
+    - Zátěžové deky
+  - Ďalekohľady
+    - Binokulární  _(produkty: 25 — ATOS: 25)_
+    - Digitálne fotoaparáty  _(produkty: 4 — ATOS: 4)_
+    - Hvězdářské  _(produkty: 14 — ATOS: 14)_
+    - Monokulární  _(produkty: 9 — ATOS: 9)_
+    - Pozorovací  _(produkty: 10 — ATOS: 10)_
+    - Pre noční vidění  _(produkty: 15 — ATOS: 15)_
+    - Príslušenstvo  _(produkty: 9 — ATOS: 9)_
+    - S termovizí  _(produkty: 1 — ATOS: 1)_
