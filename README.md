@@ -24,11 +24,11 @@ Rovnako ako predtým — cez "Add file → Create new file" (nie drag-and-drop u
 ### 2. Pridaj tri nové Secrets
 **Settings → Secrets and variables → Actions → New repository secret**
 
-- `ATOS_URL` = `https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet`
+- `ATOS_URL` = `https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet_El`
 - `ATOS_USERNAME` = `nexymne64`
 - `ATOS_PASSWORD` = `wn0296`
 
-(Over si názvy **znak po znaku** — presne toto nám minule spôsobilo problém pri InnPro.)
+(Over si názvy **znak po znaku** — presne toto nám minule spôsobilo problém pri InnPro. Pozor aj na `resultType` v `ATOS_URL`: holé `StoItemShoptet` bez prípony neexistuje — server naň vráti `HTTP 500: Unknown resultType`. Platný je len `StoItemShoptet_El`, a aj ten je dostupný len v noci, cez deň vráti `HTTP 500: Unsupported Hour`.)
 
 ### 3. Over funkčnosť
 - **Actions** → v ľavom menu teraz uvidíš aj **"ATOS sync"** (popri "InnPro sync")
