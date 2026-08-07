@@ -168,11 +168,18 @@ Skript na hľadanie zhodných listových názvov našiel ~270 skupín, väčšin
 
 ---
 
-## 5. Ďalší postup
+## 5. Stav implementácie (2026-08-07, druhé kolo)
 
-Toto je návrh na schválenie. Po tvojom OK viem:
-1. Premietnuť sekciu 1 (poľské zvyšky) a sekciu 2 (Malé spotrebiče) do `scripts/innpro-mapping.json`, `scripts/atos-mapping.json`, `scripts/kb-mapping.json`, `scripts/solight-mapping.json` ako `categoryRenamesByPath` pravidlá,
-2. Prípadne aj sekciu 3 (Auto-moto),
-3. Znova vygenerovať `reports/strom-kategorii-*.md`, aby si videl výsledok pred ďalším nočným behom.
+Sekcie 1, 2 aj 3 sú **implementované** v `scripts/innpro-mapping.json`, `scripts/atos-mapping.json`, `scripts/kb-mapping.json`, `scripts/solight-mapping.json` ako nové `categoryRenamesByPath` pravidlá. Naviac na tvoju žiadosť „nech je strom čo najmenší":
 
-Pokojne mi over/oprav konkrétne cieľové názvy (napr. či `Ostatné` naozaj chceš zlúčiť s `Ostatné domáce spotrebiče`, alebo či `Vákuovačky a zváračky fólií` a `Sušičky potravín` chceš ako nové top-level uzly alebo radšej nechať vnorené) — je to návrh, nie hotová vec.
+- `Bývanie a doplnky` sa úplne ruší — jediná zvyšná položka (`Sušiaky na bielizeň`) sa presunula priamo pod `Žehličky` (spolu so `Žehliace dosky` a `Naparovače odevov`, ktoré tam už smerovali).
+- `Ostatné` (InnPro) sa zlúčilo s `Ostatné domáce spotrebiče` (K+B).
+- `Efekty a dekorácie` (ATOS) sa zlúčilo do `Na párty a oslavy`.
+- `Vonné oleje` (ATOS) sa zlúčilo do `Vzduchotechnika > Aroma difuzéry`.
+- Menšie 1-kusové položky (`Náhradné diely` k zvlhčovačom, `Kanvica na čaj`, drobné "Ostatné kuchynské pomôcky/potreby") sa sploštili priamo do najbližšieho vecného rodiča namiesto vlastných samostatných uzlov.
+
+**Ako to bolo overené:** Logiku každého nového pravidla som prehnal cez skutočný `resolveCategory`/`buildPath` mechanizmus z príslušného `transform-*.js` (mimo živého behu, simulačným skriptom) — potvrdené, že každé pravidlo produkuje presne zamýšľanú cieľovú cestu bez syntaktických chýb alebo kolízií.
+
+**Zostávajúce riziko — presnosť raw kľúčov u ATOS a K+B:** Obe tieto feedy majú kategórie v češtine a `transform-atos.js`/`transform-kb.js` ich prekladajú cez `scripts/cz-sk-dict.json` (case/diakritika-insenzitívne pre ATOS). Keďže nemám prístup k živému feedu (ATOS beží len v noci, K+B potrebuje aktuálne URL), presné znenie surových českých kategórií pre **nové** pravidlá (napr. `"Elektrické pánve"`, `"Rychlovarné konvice"`, `"Vysavače > Podlahové vysavače"`, `"Sušičky ovoce a potravin"`...) som rekonštruoval spätným prekladom cez ten istý slovník — u InnPro a Solight (poľština/slovenčina bez prekladového slovníka, raw text = presne to, čo bolo vidieť vo výstupe) je istota vysoká; u ATOS/K+B je to najlepší odhad, nie 100% istota.
+
+**Overiť po ďalšom behu:** Po najbližšom nočnom ATOS behu a K+B behu spusti znova strom kategórií (`reports/strom-kategorii-*.md`) a skontroluj, či sa duplicitné vetvy (najmä `Ostatné spotrebiče`, `Potreby pre domácnosť`) skutočne vyprázdnili. Ak niektoré pravidlo nesedí (produkty zostanú na starom mieste), pošli mi nový strom a doladím konkrétny kľúč — je to jednoduchá oprava jedného reťazca, nie prerábka.
