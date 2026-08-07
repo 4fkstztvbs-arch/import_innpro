@@ -101,7 +101,7 @@ Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports
 - **Mechanizmus (`applyHeurekaPriceTarget()`):** volá sa tesne po tom, čo si dodávateľský skript sám vypočíta cenu podľa svojho vlastného vzorca (markup/odporúčaná cena K+B/atď.) — Heureka override sa aplikuje AŽ NA VRCH tohto, nie namiesto neho.
 - **Cieľová cena z reportu je "surová"** (`SurovyCielEUR` — 2. najlacnejší konkurent pri zvyšovaní, alebo cena tesne pod najlacnejším pri znižovaní), **floor sa prepočítava vždy nanovo z DNEŠNEJ nákupnej ceny produktu**, nie z tej, ktorá platila v čase generovania reportu — ak dodávateľ medzičasom zdvihol nákupnú cenu, floor sa zvýši a nedovolí override, ktorý by pod ním predal.
 - **Pohyb len správnym smerom:** `ZVÝŠIŤ` cenu nikdy nezníži pod to, čo by dnes vypočítal normálny vzorec (len ju môže zdvihnúť); `ZNÍŽIŤ` ju nikdy nezvýši nad to, čo by vypočítal normálny vzorec (len ju môže znížiť). Override teda nemôže "vrátiť späť" prirodzený pohyb ceny spôsobený zmenou nákupnej ceny od dodávateľa.
-- **K+B** používa na floor svoju vlastnú `KB_MIN_MARGIN` (default 10 %), nie všeobecný 5 % default — override rešpektuje prísnejšiu existujúcu politiku.
+- **K+B**: `KB_MIN_MARGIN` (default 10 %) je floor len pre bežný cenový vzorec (nákup+markup, keď nie je k dispozícii K+B odporúčaná cena — tú má len časť produktov). Heureka override smie túto 10 % maržu podliezť, floor pre override je všeobecných 5 % (rovnako ako ostatní dodávatelia), nie prísnejších 10 %.
 - **MONACOR nie je zapojený** — nemá k dispozícii nákupnú cenu vôbec (pozri sekciu 3), floor sa teda nedá bezpečne overiť, takže by naň mechanizmus nikdy stejne nezasiahol.
 - Produkt bez zhody EAN v `price-targets.json` = žiadna zmena, presne ako doteraz.
 

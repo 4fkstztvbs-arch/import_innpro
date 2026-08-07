@@ -333,7 +333,11 @@ async function main() {
     if (cenaNakupna > 0) {
       const floor = cenaNakupna * (1 + MIN_MARGIN_PCT / 100) * (1 + parseFloat(vat) / 100);
       if (price < floor) { price = roundPriceUp(floor); stats.marginFloorApplied++; }
-      price = applyHeurekaPriceTarget(ean, price, cenaNakupna, parseFloat(vat), MIN_MARGIN_PCT);
+      // KB_MIN_MARGIN (10%) is only the floor for the regular cost+markup formula above - a
+      // Heureka price-match is allowed to undercut that down to the general 5% safety floor
+      // (not KB_MIN_MARGIN), so don't pass it here and let applyHeurekaPriceTarget use its own
+      // default. See reports/prehlad-importov.md section 4.4.
+      price = applyHeurekaPriceTarget(ean, price, cenaNakupna, parseFloat(vat));
     }
 
     if (isNaN(price) || isNaN(cenaNakupna) || price < 0 || cenaNakupna < 0) {
