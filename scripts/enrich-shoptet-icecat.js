@@ -5,7 +5,8 @@
 //
 // Usage: node enrich-shoptet-icecat.js
 // Required env vars: XML_IN, ICECAT_CSV, XML_OUT
-// Optional: MAX_EXTRA_IMAGES (5), MAX_SPECS (40), REPLACE_DESCRIPTION (0/1, default 0)
+// Optional: MAX_EXTRA_IMAGES (5), MAX_SPECS (40), REPLACE_DESCRIPTION (0/1, default 0),
+//           REPLACE_IMAGES (0/1, default 0) — see note below.
 
 const fs = require('fs');
 const { streamRecords } = require('./stream-records');
@@ -17,6 +18,11 @@ const XML_OUT = process.env.XML_OUT || XML_IN;
 const MAX_EXTRA_IMAGES = parseInt(process.env.MAX_EXTRA_IMAGES || '5', 10);
 const MAX_SPECS = parseInt(process.env.MAX_SPECS || '40', 10);
 const REPLACE_DESCRIPTION = process.env.REPLACE_DESCRIPTION === '1';
+// ATOS's own image URLs (img.asp?attid=...) don't reliably download into Shoptet's automatic
+// import — REPLACE_IMAGES=1 makes Icecat's gallery the product's IMAGES block instead of just
+// appending to the supplier's own (broken) ones. Products with no Icecat image match keep
+// whatever the supplier's feed provided, so nothing loses its images outright.
+const REPLACE_IMAGES = process.env.REPLACE_IMAGES === '1';
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
@@ -35,7 +41,8 @@ async function main() {
   console.log('Streaming existing XML and enriching by EAN...');
   const stats = {
     total: 0, matched: 0, weightAdded: 0, weightSkippedAlreadyHad: 0,
-    imagesAdded: 0, energyLabelAdded: 0, specsAdded: 0, specsSkippedAlreadyHad: 0, descriptionReplaced: 0,
+    imagesAdded: 0, imagesReplaced: 0, imagesKeptOriginal: 0,
+    energyLabelAdded: 0, specsAdded: 0, specsSkippedAlreadyHad: 0, descriptionReplaced: 0,
   };
   const outParts = ['<?xml version="1.0" encoding="utf-8"?>', '<SHOP>'];
 
@@ -71,17 +78,29 @@ async function main() {
       }
     }
 
-    // 2) extra gallery images — always appended (more images never hurts), inside the existing
-    //    <IMAGES> block if present, otherwise a new one right before <AVAILABILITY>.
+    // 2) gallery images — either appended to the supplier's own (default), or made the sole
+    //    source when REPLACE_IMAGES=1 (see note above). Products without a matched Icecat
+    //    image keep the supplier's original images either way.
     const extraImages = data.images.slice(0, MAX_EXTRA_IMAGES);
     if (extraImages.length) {
       const imageTags = extraImages.map((u) => `  <IMAGE>${xmlEscape(u)}</IMAGE>`).join('\n');
-      if (item.includes('</IMAGES>')) {
-        item = item.replace('</IMAGES>', `${imageTags}\n</IMAGES>`);
+      if (REPLACE_IMAGES) {
+        if (item.includes('<IMAGES>')) {
+          item = item.replace(/<IMAGES>[\s\S]*?<\/IMAGES>/, `<IMAGES>\n${imageTags}\n</IMAGES>`);
+        } else {
+          item = item.replace('<AVAILABILITY>', `<IMAGES>\n${imageTags}\n</IMAGES>\n<AVAILABILITY>`);
+        }
+        stats.imagesReplaced++;
       } else {
-        item = item.replace('<AVAILABILITY>', `<IMAGES>\n${imageTags}\n</IMAGES>\n<AVAILABILITY>`);
+        if (item.includes('</IMAGES>')) {
+          item = item.replace('</IMAGES>', `${imageTags}\n</IMAGES>`);
+        } else {
+          item = item.replace('<AVAILABILITY>', `<IMAGES>\n${imageTags}\n</IMAGES>\n<AVAILABILITY>`);
+        }
+        stats.imagesAdded++;
       }
-      stats.imagesAdded++;
+    } else if (REPLACE_IMAGES) {
+      stats.imagesKeptOriginal++;
     }
 
     // 3) EU energy label — add as one more image.

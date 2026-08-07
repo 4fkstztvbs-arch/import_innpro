@@ -1,7 +1,10 @@
 // Automated equivalent of the "ATOS" tab in the browser tool. Fetches the ATOS Shoptet feed
 // (HTTP Basic Auth required), applies the agreed category mapping, converts CZK->EUR at the
 // live ECB rate, and writes a Shoptet-native XML ready for Automatické importy.
-// Images are used exactly as ATOS provides them (raw img.asp URLs) — no CDN rewriting.
+// Images here are still ATOS's own raw img.asp URLs — the atos-sync workflow's separate
+// enrich-shoptet-icecat.js step (REPLACE_IMAGES=1) swaps them for Icecat's gallery afterwards
+// for any product with a matched EAN, since ATOS's own URLs don't reliably download into
+// Shoptet's automatic import. Products with no Icecat match keep these ATOS URLs as a fallback.
 //
 // Usage: node transform-atos.js
 // Required env vars: ATOS_URL, ATOS_USERNAME, ATOS_PASSWORD
@@ -28,6 +31,20 @@ const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
 const TREE_ROOT = 'Druhy';
 
+// atos-mapping.json keys are hand-written and don't always match the live feed's
+// CategoryText byte-for-byte (case, diacritics, double spaces). Matching case/diacritics
+// -insensitively here means a hand-written key still matches even when it isn't a perfect
+// copy of the feed text, instead of silently falling through to the untranslated "Druhy > ..."
+// path. Ambiguous normalized collisions (two distinct raw keys folding to the same normalized
+// form) are not expected given the mapping's size, so the last one wins.
+function normalizeKey(s) {
+  return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+}
+const RENAMES_BY_NORM = new Map(Object.entries(RENAMES).map(([k, v]) => [normalizeKey(k), v]));
+const EXCLUSIONS_NORM = new Set(Array.from(EXCLUSIONS, normalizeKey));
+function lookupRename(key) { return RENAMES_BY_NORM.get(normalizeKey(key)); }
+function isExcluded(key) { return EXCLUSIONS_NORM.has(normalizeKey(key)); }
+
 function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
 
 function atosDisplayPath(pathKey) {
@@ -35,7 +52,7 @@ function atosDisplayPath(pathKey) {
   const partsResult = [];
   for (let i = segs.length - 1; i >= 0; i--) {
     const cumKey = segs.slice(0, i + 1).join(' > ');
-    const rename = RENAMES[cumKey];
+    const rename = lookupRename(cumKey);
     if (isPathOverride(cumKey, rename)) { partsResult.unshift(rename); break; }
     partsResult.unshift(rename || translateCategoryName(segs[i]));
   }
@@ -47,7 +64,7 @@ function atosAncestorPaths(pathKey) {
   for (let i = segs.length - 2; i >= 0; i--) {
     const key = segs.slice(0, i + 1).join(' > ');
     chain.push(key);
-    if (isPathOverride(key, RENAMES[key])) break;
+    if (isPathOverride(key, lookupRename(key))) break;
   }
   return chain;
 }
@@ -55,11 +72,11 @@ function resolveAtosCategories(categoryTexts) {
   const givenPaths = categoryTexts.filter((p) => p.startsWith(TREE_ROOT));
   const allPaths = new Set();
   for (const p of givenPaths) {
-    if (EXCLUSIONS.has(p)) continue;
+    if (isExcluded(p)) continue;
     if (p !== TREE_ROOT) allPaths.add(p);
-    if (RENAMES[p]) continue;
+    if (lookupRename(p)) continue;
     for (const a of atosAncestorPaths(p)) {
-      if (!EXCLUSIONS.has(a) && a !== TREE_ROOT) allPaths.add(a);
+      if (!isExcluded(a) && a !== TREE_ROOT) allPaths.add(a);
     }
   }
   const sortedPaths = Array.from(allPaths).sort((a, b) => b.split('>').length - a.split('>').length);

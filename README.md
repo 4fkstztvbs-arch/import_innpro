@@ -1,6 +1,6 @@
 # ATOS → Shoptet automatický import
 
-Odporúčam pridať toto do **toho istého repozitára**, čo už máš pre InnPro (`import_innpro`) — ušetríš si opakovanie nastavenia GitHub Pages. Package.json závislosti (`sax`, `fast-xml-parser`) sú rovnaké, netreba nič duplicitne inštalovať.
+Odporúčam toto do **toho istého repozitára**, čo už máš pre InnPro (`import_innpro`) — ušetríš si opakovanie nastavenia GitHub Pages. Package.json závislosti (`sax`, `fast-xml-parser`) sú rovnaké, netreba nič duplicitne inštalovať.
 
 ## Čo pridať do existujúceho repozitára
 
@@ -24,11 +24,11 @@ Rovnako ako predtým — cez "Add file → Create new file" (nie drag-and-drop u
 ### 2. Pridaj tri nové Secrets
 **Settings → Secrets and variables → Actions → New repository secret**
 
-- `ATOS_URL` = `https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet`
+- `ATOS_URL` = `https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet_El`
 - `ATOS_USERNAME` = `nexymne64`
 - `ATOS_PASSWORD` = `wn0296`
 
-(Over si názvy **znak po znaku** — presne toto nám minule spôsobilo problém pri InnPro.)
+(Over si názvy **znak po znaku** — presne toto nám minule spôsobilo problém pri InnPro. Pozor aj na `resultType` v `ATOS_URL`: holé `StoItemShoptet` bez prípony neexistuje — server naň vráti `HTTP 500: Unknown resultType`. Platný je len `StoItemShoptet_El`, a aj ten je dostupný len v noci, cez deň vráti `HTTP 500: Unsupported Hour`.)
 
 ### 3. Over funkčnosť
 - **Actions** → v ľavom menu teraz uvidíš aj **"ATOS sync"** (popri "InnPro sync")
@@ -44,7 +44,7 @@ https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
 
 ## Dôležité — obrázky
 
-Na tvoju žiadosť som ponechal **pôvodné, nespracované obrázkové adresy** priamo z ATOS feedu (`img.asp?attid=...`), **nie** tú upravenú `img3.atoselektro.cz` variantu, čo sme skúšali predtým. Uvidíme, či cez tento spôsob automatizácie (iný spôsob sťahovania než Shoptetov vlastný import) budú fungovať spoľahlivejšie. Ak nie, viem to kedykoľvek prepnúť späť — daj vedieť, ako to dopadlo po prvom reálnom nočnom behu.
+Pôvodné, nespracované obrázkové adresy priamo z ATOS feedu (`img.asp?attid=...`) sa cez automatizovaný import nedali spoľahlivo stiahnuť do Shoptetu, preto sme prešli na Icecat: `scripts/transform-atos.js` naďalej píše ATOS URL ako prvotné (fallback), no následný krok `Enrich with Icecat data` v `atos-sync.yml` (s `REPLACE_IMAGES=1`) ich pre každý produkt s nájdenou zhodou EAN v `data/icecat-atos-full.csv` **nahradí** obrázkami z Icecatu. Produkty bez zhody EAN si ponechajú pôvodné ATOS URL (lepšie ako žiadny obrázok).
 
 ## Čo sa importuje
 
