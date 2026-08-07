@@ -93,6 +93,7 @@ Heureka sortiment report **nemá žiadne API** (potvrdené priamo z Heureka doku
 - **`scripts/process-heureka-report.js`** beží raz denne: nájde najnovší CSV v priečinku (podľa dátumu/času v názve súboru, nie podľa času nahratia), porovná ho s `.last-processed.json` (posledný spracovaný), a ak je novší, spustí `compare-heureka-prices.js` a vygeneruje `reports/heureka-cenovy-navrh-<dátum>.md`. Ak nie je nič nové, neurobí nič (idempotentné, bezpečné spúšťať opakovane).
 - **V repozitári zostáva:** surový nahraný CSV, finálny `.md` report a `data/heureka-reports/price-targets.json` — medzikrokový CSV s riadkovými dátami sa generuje do `/tmp` a nezostáva v gite.
 - **Ručné spustenie:** `npm run heureka-price-daily` (alebo `node scripts/process-heureka-report.js [--min-margin=5] [--force]`).
+- **Plánovaný beh: `.github/workflows/heureka-price-report.yml`** (rovnaký vzor ako dodávateľské sync workflow — checkout, `npm install`, spustiť skript, commitnúť len ak je zmena, push s retry logikou pri súbežnom pushi). Beží **denne o 21:00 UTC** — po večernom nahratí CSV, pred najskorším nočným importom (ATOS, 22:30 UTC). Nezávislé od akéhokoľvek Claude/Routines mechanizmu — čisto GitHub Actions cron, rovnako spoľahlivé ako ostatné importy. Dá sa spustiť aj ručne (`workflow_dispatch`).
 
 ### 4.4 Živá aplikácia cien (`scripts/heureka-price-targets.js`, od 2026-08-07)
 
@@ -138,4 +139,9 @@ scripts/enrich-*-icecat.js           Icecat obohatenie (K+B má vlastné, ATOS z
 .github/workflows/<dodavatel>-sync.yml   plán behu, env premenné, secrets
 output/<dodavatel>.xml               finálny Shoptet XML (servuje sa cez GitHub Pages)
 reports/category-audit-2026-08-07.md  detailný audit kategórií a migračný plán
+data/heureka-reports/                sem sa nahráva Heureka sortiment report (viď 4.3/4.4)
+scripts/compare-heureka-prices.js    porovnanie cien + návrh (jednorazovo, ľubovoľný CSV)
+scripts/process-heureka-report.js    denný beh — nájde nový report, vygeneruje .md + price-targets.json
+scripts/heureka-price-targets.js     zdieľaný lookup, ktorý transform-*.js skripty použijú na override ceny
+.github/workflows/heureka-price-report.yml   plán denného behu (21:00 UTC)
 ```

@@ -1,0 +1,49 @@
+name: Heureka price report
+
+on:
+  schedule:
+    - cron: '0 21 * * *' # 21:00 UTC daily — after the evening manual CSV upload, before the earliest night import (ATOS, 22:30 UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Process Heureka report if a newer one was uploaded
+        run: node scripts/process-heureka-report.js
+
+      - name: Commit price targets + report (only if something new was processed)
+        run: |
+          git config user.name "heureka-price-report-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/heureka-reports/.last-processed.json data/heureka-reports/price-targets.json reports/heureka-cenovy-navrh-*.md
+          if git diff --staged --quiet; then
+            echo "No changes (nothing new to process)"
+            exit 0
+          fi
+          git commit -m "Automatický Heureka cenový report $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            echo "Push failed (attempt $i) — another workflow likely pushed at the same time. Retrying in $((i*8))s..."
+            sleep $((i*8))
+            if [ "$i" = "5" ]; then
+              echo "::error::Push failed after 5 attempts"
+              exit 1
+            fi
+          done
