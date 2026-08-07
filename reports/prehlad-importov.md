@@ -44,6 +44,8 @@ Všetky ceny na výstupe sú v **EUR s DPH** (`<PRICE_VAT>`), plus `<PURCHASE_PR
 
 Filtre spoločné väčšine: `*_MIN_COST` (vylúčiť príliš lacné položky, default 0 = vypnuté), niektorí majú aj `*_EXCLUDE_UNAVAILABLE` (K+B, MONACOR, Solight — nezahŕňať nedostupné položky do importu).
 
+**ATOS: vylúčenie značky Solight** — ATOS vo svojom feede predáva aj tovar značky Solight, ktorý máme priamo od Solightu s lepšou nákupnou cenou. `atos-mapping.json` má nové pole `excludedManufacturers: ["Solight"]`, ktoré `transform-atos.js` používa na preskočenie (case-insensitive porovnanie `MANUFACTURER` poľa) — takéto produkty sa do `output/atos.xml` vôbec nedostanú (počítané v `stats.skippedManufacturer` vo výstupe skriptu).
+
 ## 4. Kategorizácia
 
 Každý dodávateľ má vlastný `scripts/<dodavatel>-mapping.json` s `categoryRenamesByPath` (premenovanie/zlúčenie cesty kategórie na cieľovú) a `categoryExclusionsByPath` (úplné vylúčenie produktu z importu — používať opatrne, produkt sa tým z feedu úplne stratí).

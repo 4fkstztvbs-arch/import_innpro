@@ -29,6 +29,9 @@ const MAPPING_PATH = path.join(__dirname, 'atos-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
+// Solight is also a direct supplier with better purchase prices — don't re-sell their own
+// products relabelled under ATOS.
+const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
 const TREE_ROOT = 'Druhy';
 
 // atos-mapping.json keys are hand-written and don't always match the live feed's
@@ -181,7 +184,7 @@ async function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, action: 0, new: 0, tip: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0 };
   const auth = { username: USERNAME, password: PASSWORD };
 
   await streamRecords(URL, 'SHOPITEM', (rawXml) => {
@@ -189,6 +192,7 @@ async function main() {
     let p;
     try { p = parseAtosItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
+    if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
     if (p.purchasePriceCZK <= 0) { stats.skippedNoPrice++; return; }
 
     const purchaseEUR = p.purchasePriceCZK * rate;

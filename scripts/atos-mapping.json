@@ -2,6 +2,9 @@
   "categoryExclusionsByPath": [
     "Druhy > ENERGIE"
   ],
+  "excludedManufacturers": [
+    "Solight"
+  ],
   "categoryRenamesByPath": {
     "Druhy > ANTÉNY  SATELITY": "TV, audio a video > Antény a satelity",
     "Druhy > KONZOLY  STOŽÁRY  UZEMNĚNÍ": "TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie",
