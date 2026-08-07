@@ -1,0 +1,15 @@
+{
+ "file": "premiumstore-sk_2026-08-07_12-53.csv",
+ "ts": "202608071253",
+ "processedAt": "2026-08-07T12:47:41.335Z",
+ "reportPath": "reports/heureka-cenovy-navrh-2026-08-07.md",
+ "targetsPath": "data/heureka-reports/price-targets.json",
+ "priceTargetsCount": 1040,
+ "stats": {
+  "total": 1912,
+  "zvysit": 68,
+  "znizit": 974,
+  "bezZmeny": 870,
+  "floorLimited": 569
+ }
+}

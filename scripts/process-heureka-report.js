@@ -20,12 +20,14 @@ const { execFileSync } = require('child_process');
 const REPO_ROOT = path.join(__dirname, '..');
 
 function extractTimestamp(filename) {
-  // Heureka export filenames look like premiumstoresk_20260807_1253.csv - grab the first
-  // YYYYMMDD_HHMM-shaped run of digits anywhere in the name.
-  const m = filename.match(/(\d{8})_(\d{4})/);
+  // Heureka/upload filenames vary in separator style depending on how they were downloaded/
+  // renamed - seen so far: "premiumstoresk_20260807_1253.csv" and
+  // "premiumstore-sk_2026-08-07_12-53.csv". Match YYYY-MM-DD and HH-MM with optional dashes
+  // (each digit group matched separately) rather than assuming one exact separator style.
+  const m = filename.match(/(\d{4})-?(\d{2})-?(\d{2})[_-](\d{2})-?(\d{2})/);
   if (!m) return null;
-  const [, ymd, hm] = m;
-  return `${ymd}${hm}`; // sortable string, e.g. "202608071253"
+  const [, yyyy, mm, dd, hh, min] = m;
+  return `${yyyy}${mm}${dd}${hh}${min}`; // sortable string, e.g. "202608071253"
 }
 
 function findLatestReport(dir) {

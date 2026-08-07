@@ -1,6 +1,6 @@
 # Návrh na úpravu cien podľa Heureka porovnania — 2026-08-07
 
-Vstup: `premiumstoresk_20260807_1253.csv` (automaticky spracované denným behom).
+Vstup: `premiumstore-sk_2026-08-07_12-53.csv` (automaticky spracované denným behom).
 
 **Pravidlo:** sme najlacnejší → zvýšiť na 2. najlacnejšieho konkurenta. Nie sme najlacnejší → znížiť tesne pod aktuálne najlacnejšieho. Cena nikdy neklesne pod floor = nákupná cena bez DPH × (1 + 5 % marža) × (1 + DPH). Marža = prirážka nad nákupnú cenu bez DPH (rovnaká definícia ako `KB_MIN_MARGIN` v `transform-kb.js`), nie klasická obchodná marža z predajnej ceny.
 
