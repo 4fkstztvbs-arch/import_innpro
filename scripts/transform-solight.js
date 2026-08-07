@@ -14,6 +14,7 @@ const { streamRecords } = require('./stream-records');
 const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
+const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 
 const URL = process.env.SOLIGHT_URL;
 const MARKUP_PCT = parseFloat(process.env.SOLIGHT_MARKUP || '0');
@@ -159,7 +160,8 @@ async function main() {
     seenCodes.add(code);
 
     const basePrice = p.eshopPriceEUR > 0 ? p.eshopPriceEUR : p.costEUR;
-    const price = roundPrice(basePrice * (1 + MARKUP_PCT / 100));
+    let price = roundPrice(basePrice * (1 + MARKUP_PCT / 100));
+    price = applyHeurekaPriceTarget(p.ean, price, p.costEUR, parseFloat(VAT));
     if (isNaN(price) || price < 0) { stats.invalidPrice++; return; }
 
     const { category, extraCategories, excluded } = resolveCategory(p.categoryRaw);

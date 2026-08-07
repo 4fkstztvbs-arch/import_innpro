@@ -47,35 +47,60 @@ function fnum(s) { const v = parseFloat(s); return Number.isFinite(v) ? v : null
 function fmtEur(v) { return v !== null && v !== undefined && v !== '' ? `${fnum(v).toFixed(2)} €` : '—'; }
 function fmtPct(v) { return v !== null && v !== undefined && v !== '' ? `${fnum(v).toFixed(1)} %` : '—'; }
 
-function csvToMarkdownReport(csvPath, mdPath, sourceCsvName, minMarginPct) {
+// The CSV writer quotes only Nazov/Kategoria/Poznamka fields, so a plain split(',') would break
+// on any comma inside those - use a small proper parser instead.
+function parseCsvLine(line) {
+  const out = [];
+  let cur = '';
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const c = line[i];
+    if (inQuotes) {
+      if (c === '"' && line[i + 1] === '"') { cur += '"'; i++; }
+      else if (c === '"') { inQuotes = false; }
+      else cur += c;
+    } else if (c === '"') { inQuotes = true; }
+    else if (c === ',') { out.push(cur); cur = ''; }
+    else cur += c;
+  }
+  out.push(cur);
+  return out;
+}
+
+function readCsvRows(csvPath) {
   const raw = fs.readFileSync(csvPath, 'utf-8').trim().split('\n');
   const header = raw[0].split(',');
-  // The CSV writer quotes only Nazov/Kategoria/Poznamka fields, so a plain split(',') would
-  // break on any comma inside those - use a small proper parser instead.
-  function parseCsvLine(line) {
-    const out = [];
-    let cur = '';
-    let inQuotes = false;
-    for (let i = 0; i < line.length; i++) {
-      const c = line[i];
-      if (inQuotes) {
-        if (c === '"' && line[i + 1] === '"') { cur += '"'; i++; }
-        else if (c === '"') { inQuotes = false; }
-        else cur += c;
-      } else if (c === '"') { inQuotes = true; }
-      else if (c === ',') { out.push(cur); cur = ''; }
-      else cur += c;
-    }
-    out.push(cur);
-    return out;
-  }
-  const rows = raw.slice(1).map((line) => {
+  return raw.slice(1).map((line) => {
     const cols = parseCsvLine(line);
     const rec = {};
     header.forEach((h, i) => { rec[h] = cols[i]; });
     return rec;
   });
+}
 
+// Builds the EAN -> target map consumed live by every transform-*.js via
+// heureka-price-targets.js. Only actionable rows (ZVÝŠIŤ/ZNÍŠIŤ) with a raw competitor-derived
+// target carry a price - "BEZ ZMENY" rows and rows with no purchase price contribute nothing.
+function buildPriceTargets(rows, sourceCsvName) {
+  const targets = {};
+  const generatedAt = new Date().toISOString();
+  for (const r of rows) {
+    if (r.Akcia !== 'ZVÝŠIŤ' && r.Akcia !== 'ZNÍŽIŤ') continue;
+    const rawTarget = fnum(r.SurovyCielEUR);
+    if (rawTarget === null || !r.EAN) continue;
+    targets[r.EAN] = {
+      action: r.Akcia,
+      targetPriceInclVat: rawTarget,
+      heurekaNajnizsia: fnum(r.HeurekaNajnizsiaEUR),
+      heurekaUrl: r.HeurekaURL || '',
+      generatedAt,
+      sourceReport: sourceCsvName,
+    };
+  }
+  return targets;
+}
+
+function csvToMarkdownReport(rows, mdPath, sourceCsvName, minMarginPct) {
   const total = rows.length;
   const zvysit = rows.filter((r) => r.Akcia === 'ZVÝŠIŤ');
   const znizit = rows.filter((r) => r.Akcia === 'ZNÍŽIŤ');
@@ -169,10 +194,20 @@ function main() {
     `--min-margin=${minMarginPct}`,
   ], { stdio: 'inherit', cwd: REPO_ROOT });
 
-  const stats = csvToMarkdownReport(outCsvPath, mdPath, latest.file, minMarginPct);
+  const rows = readCsvRows(outCsvPath);
+  const stats = csvToMarkdownReport(rows, mdPath, latest.file, minMarginPct);
+
+  // price-targets.json is what every transform-*.js reads at its own next run to override
+  // prices for products it recognizes by EAN - see scripts/heureka-price-targets.js.
+  const targetsPath = path.join(reportsDir, 'price-targets.json');
+  const targets = buildPriceTargets(rows, latest.file);
+  fs.writeFileSync(targetsPath, JSON.stringify(targets, null, 1), 'utf-8');
+  console.log(`Cieľové ceny pre živé importy: ${Object.keys(targets).length} produktov -> ${targetsPath}`);
 
   fs.writeFileSync(statePath, JSON.stringify({
-    file: latest.file, ts: latest.ts, processedAt: new Date().toISOString(), reportPath: path.relative(REPO_ROOT, mdPath), stats,
+    file: latest.file, ts: latest.ts, processedAt: new Date().toISOString(),
+    reportPath: path.relative(REPO_ROOT, mdPath), targetsPath: path.relative(REPO_ROOT, targetsPath),
+    priceTargetsCount: Object.keys(targets).length, stats,
   }, null, 1), 'utf-8');
 
   console.log(`PROCESSED:${mdPath}`);

@@ -135,6 +135,10 @@ function main() {
     let action = 'BEZ ZMENY';
     let suggestedPrice = ours.price;
     let note = '';
+    // rawTarget is the pure competitor-derived price, BEFORE clamping to today's floor - kept
+    // separate so a later, live re-application (see heureka-price-targets.js) can re-derive the
+    // floor from that day's actual purchase price instead of trusting this snapshot's floor.
+    let rawTarget = null;
 
     if (heurekaMin === null) {
       note = 'žiadna konkurencia v rebríčku';
@@ -143,6 +147,7 @@ function main() {
     } else if (ours.price <= heurekaMin) {
       // We're the cheapest (or tied) - raise toward the 2nd-cheapest competitor.
       if (heurekaMin2 !== null && heurekaMin2 > ours.price) {
+        rawTarget = heurekaMin2;
         suggestedPrice = roundPrice(Math.max(floorPrice, heurekaMin2));
         if (suggestedPrice > ours.price) {
           action = 'ZVÝŠIŤ';
@@ -156,6 +161,7 @@ function main() {
     } else {
       // We're not the cheapest - undercut the current cheapest, floor permitting.
       const undercut = roundPriceDown(heurekaMin - 0.01);
+      rawTarget = undercut;
       suggestedPrice = roundPrice(Math.max(floorPrice, undercut));
       if (suggestedPrice < ours.price) {
         action = 'ZNÍŽIŤ';
@@ -196,6 +202,7 @@ function main() {
       rozdielPct: diffPct,
       akcia: action,
       odporucanaCena: suggestedPrice,
+      surovyCiel: rawTarget,
       poznamka: note,
       heurekaUrl: row['Heureka URL'] || '',
     });
@@ -205,7 +212,7 @@ function main() {
 
   const header = ['EAN', 'Nazov', 'Kategoria', 'Dodavatel', 'NasaCenaEUR', 'NakupnaCenaBezDphEUR', 'FloorCenaEUR',
     'MarzaTerazPct', 'MarzaPoUpravePct', 'HeurekaNajnizsiaEUR', 'HeurekaDruhaNajnizsiaEUR', 'HeurekaNajvyssiaEUR',
-    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'Poznamka', 'HeurekaURL'];
+    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'SurovyCielEUR', 'Poznamka', 'HeurekaURL'];
   const lines = [header.join(',')];
   for (const m of matched) {
     lines.push([
@@ -213,7 +220,7 @@ function main() {
       m.nasaCena, m.nakupnaCenaBezDph ?? '', m.floorCena ?? '',
       m.marzaTerazPct ?? '', m.marzaPoUpravePct ?? '',
       m.heurekaNajnizsia ?? '', m.heurekaDruhaNajnizsia ?? '', m.heurekaNajvyssia ?? '', m.pocetPredajcov ?? '',
-      m.odhadovanaPozicia ?? '', m.rozdielEur ?? '', m.rozdielPct ?? '', m.akcia, m.odporucanaCena ?? '',
+      m.odhadovanaPozicia ?? '', m.rozdielEur ?? '', m.rozdielPct ?? '', m.akcia, m.odporucanaCena ?? '', m.surovyCiel ?? '',
       `"${m.poznamka.replace(/"/g, '""')}"`, m.heurekaUrl,
     ].join(','));
   }

@@ -18,6 +18,7 @@ const { streamRecords } = require('./stream-records');
 const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-kb');
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
+const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 
 const ZBOZI_URL = process.env.KB_ZBOZI_URL;
 const KATEGORIE_URL = process.env.KB_KATEGORIE_URL;
@@ -332,6 +333,7 @@ async function main() {
     if (cenaNakupna > 0) {
       const floor = cenaNakupna * (1 + MIN_MARGIN_PCT / 100) * (1 + parseFloat(vat) / 100);
       if (price < floor) { price = roundPriceUp(floor); stats.marginFloorApplied++; }
+      price = applyHeurekaPriceTarget(ean, price, cenaNakupna, parseFloat(vat), MIN_MARGIN_PCT);
     }
 
     if (isNaN(price) || isNaN(cenaNakupna) || price < 0 || cenaNakupna < 0) {

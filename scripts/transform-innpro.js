@@ -13,6 +13,7 @@ const { streamProducts } = require('./stream-products');
 const { parseProduct } = require('./parse-product');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
+const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 
 const FULL_URL = process.env.INNPRO_FULL_URL;
 const LIGHT_URL = process.env.INNPRO_LIGHT_URL;
@@ -190,7 +191,8 @@ async function main() {
     if (cost <= 0) { stats.skippedNoPrice++; return; }
     if (MIN_COST > 0 && cost < MIN_COST) { stats.skippedCheap++; return; }
 
-    const price = roundPrice(cost * (1 + MARKUP_PCT / 100) * (1 + parseFloat(p.vat) / 100));
+    let price = roundPrice(cost * (1 + MARKUP_PCT / 100) * (1 + parseFloat(p.vat) / 100));
+    price = applyHeurekaPriceTarget(p.ean, price, cost, parseFloat(p.vat));
 
     const { category, extraCategories, excluded } = resolveCategory(p.category);
     if (excluded) { stats.skippedCategory++; return; }

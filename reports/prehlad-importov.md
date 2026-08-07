@@ -91,8 +91,19 @@ Heureka sortiment report **nemá žiadne API** (potvrdené priamo z Heureka doku
 
 - **Postup:** report sa stiahne ručne z Heureka administrácie a nahrá do `data/heureka-reports/` (v pôvodnom Heureka názve, napr. `premiumstoresk_20260807_1253.csv`) — **ideálne večer pred nočnými importmi**, aby denný beh mal k dispozícii aj čerstvý report, aj čerstvo naimportované produkty.
 - **`scripts/process-heureka-report.js`** beží raz denne: nájde najnovší CSV v priečinku (podľa dátumu/času v názve súboru, nie podľa času nahratia), porovná ho s `.last-processed.json` (posledný spracovaný), a ak je novší, spustí `compare-heureka-prices.js` a vygeneruje `reports/heureka-cenovy-navrh-<dátum>.md`. Ak nie je nič nové, neurobí nič (idempotentné, bezpečné spúšťať opakovane).
-- **V repozitári zostáva:** len surový nahraný CSV a finálny `.md` report — medzikrokový CSV s riadkovými dátami sa generuje do `/tmp` a nezostáva v gite.
+- **V repozitári zostáva:** surový nahraný CSV, finálny `.md` report a `data/heureka-reports/price-targets.json` — medzikrokový CSV s riadkovými dátami sa generuje do `/tmp` a nezostáva v gite.
 - **Ručné spustenie:** `npm run heureka-price-daily` (alebo `node scripts/process-heureka-report.js [--min-margin=5] [--force]`).
+
+### 4.4 Živá aplikácia cien (`scripts/heureka-price-targets.js`, od 2026-08-07)
+
+Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports/price-targets.json`** (EAN → cieľová cena podľa Heureky) — to isté dáta ako report, ale strojovo čitateľné. Každý `transform-*.js` (okrem MONACOR, pozri nižšie) si ho pri svojom nasledujúcom behu **sám načíta a použije** — takže po nočnom behu K+B/ATOS/InnPro/Solight sa dotknuté ceny premietnu automaticky, bez ručného zásahu.
+
+- **Mechanizmus (`applyHeurekaPriceTarget()`):** volá sa tesne po tom, čo si dodávateľský skript sám vypočíta cenu podľa svojho vlastného vzorca (markup/odporúčaná cena K+B/atď.) — Heureka override sa aplikuje AŽ NA VRCH tohto, nie namiesto neho.
+- **Cieľová cena z reportu je "surová"** (`SurovyCielEUR` — 2. najlacnejší konkurent pri zvyšovaní, alebo cena tesne pod najlacnejším pri znižovaní), **floor sa prepočítava vždy nanovo z DNEŠNEJ nákupnej ceny produktu**, nie z tej, ktorá platila v čase generovania reportu — ak dodávateľ medzičasom zdvihol nákupnú cenu, floor sa zvýši a nedovolí override, ktorý by pod ním predal.
+- **Pohyb len správnym smerom:** `ZVÝŠIŤ` cenu nikdy nezníži pod to, čo by dnes vypočítal normálny vzorec (len ju môže zdvihnúť); `ZNÍŽIŤ` ju nikdy nezvýši nad to, čo by vypočítal normálny vzorec (len ju môže znížiť). Override teda nemôže "vrátiť späť" prirodzený pohyb ceny spôsobený zmenou nákupnej ceny od dodávateľa.
+- **K+B** používa na floor svoju vlastnú `KB_MIN_MARGIN` (default 10 %), nie všeobecný 5 % default — override rešpektuje prísnejšiu existujúcu politiku.
+- **MONACOR nie je zapojený** — nemá k dispozícii nákupnú cenu vôbec (pozri sekciu 3), floor sa teda nedá bezpečne overiť, takže by naň mechanizmus nikdy stejne nezasiahol.
+- Produkt bez zhody EAN v `price-targets.json` = žiadna zmena, presne ako doteraz.
 
 ## 5. Obrázky
 
