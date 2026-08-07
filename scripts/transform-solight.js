@@ -13,6 +13,8 @@ const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
+const { heurekaCategoryIdFor } = require('./heureka-category');
+const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 
 const URL = process.env.SOLIGHT_URL;
 const MARKUP_PCT = parseFloat(process.env.SOLIGHT_MARKUP || '0');
@@ -94,6 +96,8 @@ function buildShopitemXml(p) {
     allCats.forEach((c) => parts.push(`  <CATEGORY>${xmlCdata(c)}</CATEGORY>`));
     parts.push('</CATEGORIES>');
   }
+  const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
+  if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));
@@ -156,7 +160,8 @@ async function main() {
     seenCodes.add(code);
 
     const basePrice = p.eshopPriceEUR > 0 ? p.eshopPriceEUR : p.costEUR;
-    const price = roundPrice(basePrice * (1 + MARKUP_PCT / 100));
+    let price = roundPrice(basePrice * (1 + MARKUP_PCT / 100));
+    price = applyHeurekaPriceTarget(p.ean, price, p.costEUR, parseFloat(VAT));
     if (isNaN(price) || price < 0) { stats.invalidPrice++; return; }
 
     const { category, extraCategories, excluded } = resolveCategory(p.categoryRaw);

@@ -44,6 +44,8 @@ Všetky ceny na výstupe sú v **EUR s DPH** (`<PRICE_VAT>`), plus `<PURCHASE_PR
 
 Filtre spoločné väčšine: `*_MIN_COST` (vylúčiť príliš lacné položky, default 0 = vypnuté), niektorí majú aj `*_EXCLUDE_UNAVAILABLE` (K+B, MONACOR, Solight — nezahŕňať nedostupné položky do importu).
 
+**ATOS: vylúčenie značky Solight** — ATOS vo svojom feede predáva aj tovar značky Solight, ktorý máme priamo od Solightu s lepšou nákupnou cenou. `atos-mapping.json` má nové pole `excludedManufacturers: ["Solight"]`, ktoré `transform-atos.js` používa na preskočenie (case-insensitive porovnanie `MANUFACTURER` poľa) — takéto produkty sa do `output/atos.xml` vôbec nedostanú (počítané v `stats.skippedManufacturer` vo výstupe skriptu).
+
 ## 4. Kategorizácia
 
 Každý dodávateľ má vlastný `scripts/<dodavatel>-mapping.json` s `categoryRenamesByPath` (premenovanie/zlúčenie cesty kategórie na cieľovú) a `categoryExclusionsByPath` (úplné vylúčenie produktu z importu — používať opatrne, produkt sa tým z feedu úplne stratí).
@@ -59,6 +61,49 @@ Mechanizmus (INNpro aj ATOS): z raw cesty kategórie sa postupne od najhlbšej �
 - **InnPro poľské kategórie** — 8 kategórií (60 produktov) preložených a zlúčených s existujúcimi SK vetvami (fontány, dávkovače krmiva, inteligentné toalety, selfie tyče/držiaky, masážne prístroje, kavitačné peelingy); 3 kategórie bez spoľahlivého ekvivalentu (21 produktov: `AGD małe`, `Pozostałe`, `Szczoteczki do czyszczenia twarzy`) presunuté do **nadradenej** kategórie (produkt ostáva v importe, len bez vlastnej podkategórie — použitý rename na parenta, nie exclusion).
 
 **Stav overenia:** `output/innpro.xml` sa už prebehol (InnPro sync 07:00 7.8.) a opravy sú v ňom reálne vidieť — `Kávovary` zlúčené s `Kávovary a espressá`, poľské zvyšky (`Wysięgniki`, `AGD małe`, `Pozostałe`, `Fontanny`, `Dozowniki karmy`, `Masażery`) v exporte už nie sú. `output/atos.xml` ešte čaká na nočný beh (ATOS beží len v noci, pozri sekciu 7).
+
+### 4.1 Heureka kategórie (`HEUREKA_CATEGORY_ID`, od 2026-08-07)
+
+Každý produkt môže do XML dostať `<HEUREKA_CATEGORY_ID>` — pole, ktoré Shoptet číta priamo z úplného importu a použije ako override pre zaradenie produktu do Heureka porovnávača (namiesto/popri ručnom párovaní kategórií v Shoptet administrácii `Prepojenie → Heureka → Kategórie`).
+
+- **Mechanizmus:** `scripts/heureka-category.js` (zdieľané naprieč všetkými 5 `transform-*.js`) načíta `scripts/heureka-mapping.json` — mapu `naša finálna kategória (presne text z <CATEGORIES>) → Heureka CATEGORY_ID`. Ak produktova finálna kategória v mape nie je, `<HEUREKA_CATEGORY_ID>` sa jednoducho vynechá (žiadna chyba, žiadny fallback na nesprávnu hodnotu).
+- **Ako mapa vznikla:** automatické párovanie kľúčových slov medzi naším stromom (2 279 listových kategórií) a živým Heureka stromom (`https://www.heureka.sk/direct/xml-export/shops/heureka-sekce.xml`, 3 551 listových kategórií) — viď `reports/heureka-mapovanie-navrh-2026-08-07.xlsx` pre kompletný návrh a históriu ladenia algoritmu.
+- **Nasadený rozsah (2026-08-07):** **1 281 kategórií** (~56 % nášho stromu, ~57 % produktov) — celá "zelená" skupina (skóre istoty ≥30, namátkovo overená na ~90-95 % presnosť) + horná polovica "žltej" skupiny (skóre 15-30, po oprave algoritmu namátkovo ~50 % presnosť). Zvyšných ~44 % kategórií (nižšia žltá + celá červená skupina, skóre <18,84) **zámerne nenasadené** — presnosť tam bola pri kontrole nespoľahlivá (časté zámeny kvôli synonymám medzi našimi a Heureka názvami, napr. "Smart telefóny" vs "Mobilné telefóny").
+- **K doriešeniu po spustení do ostrej prevádzky:** pokryť zvyšných ~44 % kategórií — buď doladením algoritmu (slovník synoným), alebo ručným dohľadaním pri kategóriách s najviac produktmi. Kompletný zoznam vrátane nenasadených kategórií (s navrhovaným ID a skóre) je v `reports/heureka-mapovanie-navrh-2026-08-07.xlsx`.
+
+### 4.2 Porovnanie cien s Heurekou (`scripts/compare-heureka-prices.js`, od 2026-08-07)
+
+Nástroj na porovnanie našich aktuálnych cien (z `output/*.xml`) s konkurenciou pomocou Heureka "sortiment reportu" (Heureka admin → export produktov obchodu, CSV — obsahuje `Vaša cena`, `Najnižšia cena`, celý cenový rebríček `PriceMin2..10`/`PriceMax10..2`, počet predajcov a pod.).
+
+- **Použitie:** `node scripts/compare-heureka-prices.js <heureka-report.csv> [--out=path.csv] [--xml=dir] [--min-margin=5]` (alebo `npm run heureka-price-compare -- <csv>`).
+- **Párovací kľúč: EAN, nie "Item ID".** Stĺpec `Item ID` v Heureka reporte je Shoptetom pridelené interné ID produktu z konkrétneho obchodu (z URL `...#66040`) — po prestavbe/novom importe sa nezachová a nedá sa spárovať s ničím u nás. EAN naopak identifikuje fyzický produkt a prežije akúkoľvek zmenu obchodu — je to jediný spoľahlivý párovací kľúč.
+- **Automatický návrh novej ceny** (stĺpce `Akcia`/`OdporucanaCenaEUR`/`Poznamka`), pravidlo:
+  - **Sme najlacnejší/na rovnakej cene** → `ZVÝŠIŤ` na úroveň 2. najlacnejšieho konkurenta (`PriceMin2`) — necháme si maximálnu konkurencieschopnosť, ale prestaneme rozdávať maržu zbytočne.
+  - **Nie sme najlacnejší** → `ZNÍŽIŤ` tesne pod aktuálne najlacnejšieho (o 1 zaokrúľovací krok), stávame sa novým najlacnejším.
+  - **Poistka:** cena nikdy neklesne pod `floor = nákupná cena bez DPH × (1 + min. marža) × (1 + DPH)` (`--min-margin`, default **5 %**) — nákupná cena je vždy bez DPH (`PURCHASE_PRICE_INCL_VAT=0`, pozri sekciu 3), floor sa preto počíta korektne z ceny bez DPH s DPH pridaným až na konci. Ak by zrovnanie s konkurenciou floor porušilo, cena sa upraví len po floor (nie až na úroveň konkurencie) a riadok je označený v `Poznamka`.
+  - Riadky bez známej nákupnej ceny (typicky MONACOR — nemá nákupnú cenu k dispozícii, pozri sekciu 3) sa neupravujú, len sa spočítajú v súhrne.
+- **Výstup:** CSV zoradené od najväčšieho rozdielu (kde sme najviac drahší) — EAN, názov, kategória, dodávateľ, naša cena, nákupná cena bez DPH, floor cena, Heureka najnižšia/2. najnižšia/najvyššia cena, odhadovaná pozícia, rozdiel v € aj %, navrhovaná akcia a cena, poznámka, Heureka URL.
+- **Otestované 2026-08-07** na reálnom exporte (5965 riadkov zo starého obchodu) — mechanika aj cenový návrh fungujú (1912 produktov spárovaných cez EAN, z toho 1088 malo dosť dát na návrh ceny), ale keďže report bol z pôvodného e-shopu, číselné výsledky vtedy neboli použité na žiadne rozhodnutie. Treba spustiť znova s aktuálnym reportom, keď bude e-shop v ostrej prevádzke a Heureka bude mať naindexovaný aktuálny sortiment. **Výstup je len návrh (CSV) — nič sa automaticky nezapisuje do cien v `transform-*.js`.**
+
+### 4.3 Denný automatický beh (`scripts/process-heureka-report.js`, od 2026-08-07)
+
+Heureka sortiment report **nemá žiadne API** (potvrdené priamo z Heureka dokumentácie — len ručné generovanie v administrácii, max. raz za hodinu, vyžaduje prihlásenú session). Riešenie: ručné nahrávanie + automatické spracovanie.
+
+- **Postup:** report sa stiahne ručne z Heureka administrácie a nahrá do `data/heureka-reports/` (v pôvodnom Heureka názve, napr. `premiumstoresk_20260807_1253.csv`) — **ideálne večer pred nočnými importmi**, aby denný beh mal k dispozícii aj čerstvý report, aj čerstvo naimportované produkty.
+- **`scripts/process-heureka-report.js`** beží raz denne: nájde najnovší CSV v priečinku (podľa dátumu/času v názve súboru, nie podľa času nahratia), porovná ho s `.last-processed.json` (posledný spracovaný), a ak je novší, spustí `compare-heureka-prices.js` a vygeneruje `reports/heureka-cenovy-navrh-<dátum>.md`. Ak nie je nič nové, neurobí nič (idempotentné, bezpečné spúšťať opakovane).
+- **V repozitári zostáva:** surový nahraný CSV, finálny `.md` report a `data/heureka-reports/price-targets.json` — medzikrokový CSV s riadkovými dátami sa generuje do `/tmp` a nezostáva v gite.
+- **Ručné spustenie:** `npm run heureka-price-daily` (alebo `node scripts/process-heureka-report.js [--min-margin=5] [--force]`).
+
+### 4.4 Živá aplikácia cien (`scripts/heureka-price-targets.js`, od 2026-08-07)
+
+Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports/price-targets.json`** (EAN → cieľová cena podľa Heureky) — to isté dáta ako report, ale strojovo čitateľné. Každý `transform-*.js` (okrem MONACOR, pozri nižšie) si ho pri svojom nasledujúcom behu **sám načíta a použije** — takže po nočnom behu K+B/ATOS/InnPro/Solight sa dotknuté ceny premietnu automaticky, bez ručného zásahu.
+
+- **Mechanizmus (`applyHeurekaPriceTarget()`):** volá sa tesne po tom, čo si dodávateľský skript sám vypočíta cenu podľa svojho vlastného vzorca (markup/odporúčaná cena K+B/atď.) — Heureka override sa aplikuje AŽ NA VRCH tohto, nie namiesto neho.
+- **Cieľová cena z reportu je "surová"** (`SurovyCielEUR` — 2. najlacnejší konkurent pri zvyšovaní, alebo cena tesne pod najlacnejším pri znižovaní), **floor sa prepočítava vždy nanovo z DNEŠNEJ nákupnej ceny produktu**, nie z tej, ktorá platila v čase generovania reportu — ak dodávateľ medzičasom zdvihol nákupnú cenu, floor sa zvýši a nedovolí override, ktorý by pod ním predal.
+- **Pohyb len správnym smerom:** `ZVÝŠIŤ` cenu nikdy nezníži pod to, čo by dnes vypočítal normálny vzorec (len ju môže zdvihnúť); `ZNÍŽIŤ` ju nikdy nezvýši nad to, čo by vypočítal normálny vzorec (len ju môže znížiť). Override teda nemôže "vrátiť späť" prirodzený pohyb ceny spôsobený zmenou nákupnej ceny od dodávateľa.
+- **K+B**: `KB_MIN_MARGIN` (default 10 %) je floor len pre bežný cenový vzorec (nákup+markup, keď nie je k dispozícii K+B odporúčaná cena — tú má len časť produktov). Heureka override smie túto 10 % maržu podliezť, floor pre override je všeobecných 5 % (rovnako ako ostatní dodávatelia), nie prísnejších 10 %.
+- **MONACOR nie je zapojený** — nemá k dispozícii nákupnú cenu vôbec (pozri sekciu 3), floor sa teda nedá bezpečne overiť, takže by naň mechanizmus nikdy stejne nezasiahol.
+- Produkt bez zhody EAN v `price-targets.json` = žiadna zmena, presne ako doteraz.
 
 ## 5. Obrázky
 

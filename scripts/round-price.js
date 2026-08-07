@@ -37,4 +37,20 @@ function roundPriceUp(price) {
   return Math.round((euros + 1.0) * 100) / 100;
 }
 
-module.exports = { roundPrice, roundPriceUp };
+// Like roundPrice, but only ever rounds DOWN to the previous valid ending — used when a price
+// must stay strictly below some ceiling (e.g. undercutting a competitor's price) where rounding
+// up could push it back over. Applies the same sub-€10 exception as roundPrice.
+function roundPriceDown(price) {
+  if (!price || price <= 0) return price;
+  if (price < 10) {
+    return Math.round((Math.floor(price * 10 + 1e-9) / 10) * 100) / 100;
+  }
+  const euros = Math.floor(price + 1e-9);
+  const candidates = [euros + 1.0, euros + 0.9, euros + 0.5, euros];
+  for (const c of candidates) {
+    if (c <= price + 1e-9) return Math.round(c * 100) / 100;
+  }
+  return Math.round(euros * 100) / 100;
+}
+
+module.exports = { roundPrice, roundPriceUp, roundPriceDown };

@@ -16,6 +16,8 @@ const { streamRecords } = require('./stream-records');
 const { parseAtosItem } = require('./parse-atos');
 const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
+const { heurekaCategoryIdFor } = require('./heureka-category');
+const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -29,6 +31,9 @@ const MAPPING_PATH = path.join(__dirname, 'atos-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
+// Solight is also a direct supplier with better purchase prices — don't re-sell their own
+// products relabelled under ATOS.
+const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
 const TREE_ROOT = 'Druhy';
 
 // atos-mapping.json keys are hand-written and don't always match the live feed's
@@ -122,6 +127,8 @@ function buildShopitemXml(p) {
     allCats.forEach((c) => parts.push(`  <CATEGORY>${xmlCdata(c)}</CATEGORY>`));
     parts.push('</CATEGORIES>');
   }
+  const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
+  if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));
@@ -181,7 +188,7 @@ async function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, action: 0, new: 0, tip: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0 };
   const auth = { username: USERNAME, password: PASSWORD };
 
   await streamRecords(URL, 'SHOPITEM', (rawXml) => {
@@ -189,13 +196,15 @@ async function main() {
     let p;
     try { p = parseAtosItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
+    if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
     if (p.purchasePriceCZK <= 0) { stats.skippedNoPrice++; return; }
 
     const purchaseEUR = p.purchasePriceCZK * rate;
     if (MIN_COST > 0 && purchaseEUR < MIN_COST) { stats.skippedCheap++; return; }
 
     const vat = '23'; // sell in Slovakia — ATOS's own VAT field (21) reflects Czech VAT, not ours
-    const price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
+    let price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
+    price = applyHeurekaPriceTarget(p.ean, price, purchaseEUR, parseFloat(vat));
 
     const { defaultCategory, extraCategories } = resolveAtosCategories(p.categoryTexts);
     if (!defaultCategory) { stats.skippedCategory++; return; }
