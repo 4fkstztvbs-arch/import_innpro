@@ -71,6 +71,15 @@ Každý produkt môže do XML dostať `<HEUREKA_CATEGORY_ID>` — pole, ktoré S
 - **Nasadený rozsah (2026-08-07):** **1 281 kategórií** (~56 % nášho stromu, ~57 % produktov) — celá "zelená" skupina (skóre istoty ≥30, namátkovo overená na ~90-95 % presnosť) + horná polovica "žltej" skupiny (skóre 15-30, po oprave algoritmu namátkovo ~50 % presnosť). Zvyšných ~44 % kategórií (nižšia žltá + celá červená skupina, skóre <18,84) **zámerne nenasadené** — presnosť tam bola pri kontrole nespoľahlivá (časté zámeny kvôli synonymám medzi našimi a Heureka názvami, napr. "Smart telefóny" vs "Mobilné telefóny").
 - **K doriešeniu po spustení do ostrej prevádzky:** pokryť zvyšných ~44 % kategórií — buď doladením algoritmu (slovník synoným), alebo ručným dohľadaním pri kategóriách s najviac produktmi. Kompletný zoznam vrátane nenasadených kategórií (s navrhovaným ID a skóre) je v `reports/heureka-mapovanie-navrh-2026-08-07.xlsx`.
 
+### 4.2 Porovnanie cien s Heurekou (`scripts/compare-heureka-prices.js`, od 2026-08-07)
+
+Nástroj na porovnanie našich aktuálnych cien (z `output/*.xml`) s konkurenciou pomocou Heureka "sortiment reportu" (Heureka admin → export produktov obchodu, CSV — obsahuje `Vaša cena`, `Najnižšia cena`, celý cenový rebríček `PriceMin2..10`/`PriceMax10..2`, počet predajcov a pod.).
+
+- **Použitie:** `node scripts/compare-heureka-prices.js <heureka-report.csv> [--out=path.csv] [--xml=dir]` (alebo `npm run heureka-price-compare -- <csv>`).
+- **Párovací kľúč: EAN, nie "Item ID".** Stĺpec `Item ID` v Heureka reporte je Shoptetom pridelené interné ID produktu z konkrétneho obchodu (z URL `...#66040`) — po prestavbe/novom importe sa nezachová a nedá sa spárovať s ničím u nás. EAN naopak identifikuje fyzický produkt a prežije akúkoľvek zmenu obchodu — je to jediný spoľahlivý párovací kľúč.
+- **Výstup:** CSV zoradené od najväčšieho rozdielu (kde sme najviac drahší) — EAN, názov, kategória, dodávateľ, naša cena, Heureka najnižšia/najvyššia cena, odhadovaná pozícia, rozdiel v € aj %, Heureka URL.
+- **Otestované 2026-08-07** na reálnom exporte (5965 riadkov zo starého obchodu) — mechanika funguje (1912 produktov spárovaných cez EAN), ale keďže report bol z pôvodného e-shopu, číselné výsledky vtedy neboli použité na žiadne rozhodnutie. Treba spustiť znova s aktuálnym reportom, keď bude e-shop v ostrej prevádzke a Heureka bude mať naindexovaný aktuálny sortiment.
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |

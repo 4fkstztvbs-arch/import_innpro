@@ -4,7 +4,8 @@
   "description": "Automaticky import MONACOR feedu do Shoptet-kompatibilneho XML",
   "main": "scripts/transform-monacor.js",
   "scripts": {
-    "sync": "node scripts/transform-monacor.js"
+    "sync": "node scripts/transform-monacor.js",
+    "heureka-price-compare": "node scripts/compare-heureka-prices.js"
   },
   "license": "UNLICENSED",
   "private": true,
