@@ -13,6 +13,7 @@ const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
+const { heurekaCategoryIdFor } = require('./heureka-category');
 
 const URL = process.env.SOLIGHT_URL;
 const MARKUP_PCT = parseFloat(process.env.SOLIGHT_MARKUP || '0');
@@ -94,6 +95,8 @@ function buildShopitemXml(p) {
     allCats.forEach((c) => parts.push(`  <CATEGORY>${xmlCdata(c)}</CATEGORY>`));
     parts.push('</CATEGORIES>');
   }
+  const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
+  if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));

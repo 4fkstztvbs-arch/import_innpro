@@ -16,6 +16,7 @@ const { streamRecords } = require('./stream-records');
 const { parseAtosItem } = require('./parse-atos');
 const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
+const { heurekaCategoryIdFor } = require('./heureka-category');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -125,6 +126,8 @@ function buildShopitemXml(p) {
     allCats.forEach((c) => parts.push(`  <CATEGORY>${xmlCdata(c)}</CATEGORY>`));
     parts.push('</CATEGORIES>');
   }
+  const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
+  if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));

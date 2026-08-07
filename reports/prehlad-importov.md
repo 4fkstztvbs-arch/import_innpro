@@ -62,6 +62,15 @@ Mechanizmus (INNpro aj ATOS): z raw cesty kategórie sa postupne od najhlbšej �
 
 **Stav overenia:** `output/innpro.xml` sa už prebehol (InnPro sync 07:00 7.8.) a opravy sú v ňom reálne vidieť — `Kávovary` zlúčené s `Kávovary a espressá`, poľské zvyšky (`Wysięgniki`, `AGD małe`, `Pozostałe`, `Fontanny`, `Dozowniki karmy`, `Masażery`) v exporte už nie sú. `output/atos.xml` ešte čaká na nočný beh (ATOS beží len v noci, pozri sekciu 7).
 
+### 4.1 Heureka kategórie (`HEUREKA_CATEGORY_ID`, od 2026-08-07)
+
+Každý produkt môže do XML dostať `<HEUREKA_CATEGORY_ID>` — pole, ktoré Shoptet číta priamo z úplného importu a použije ako override pre zaradenie produktu do Heureka porovnávača (namiesto/popri ručnom párovaní kategórií v Shoptet administrácii `Prepojenie → Heureka → Kategórie`).
+
+- **Mechanizmus:** `scripts/heureka-category.js` (zdieľané naprieč všetkými 5 `transform-*.js`) načíta `scripts/heureka-mapping.json` — mapu `naša finálna kategória (presne text z <CATEGORIES>) → Heureka CATEGORY_ID`. Ak produktova finálna kategória v mape nie je, `<HEUREKA_CATEGORY_ID>` sa jednoducho vynechá (žiadna chyba, žiadny fallback na nesprávnu hodnotu).
+- **Ako mapa vznikla:** automatické párovanie kľúčových slov medzi naším stromom (2 279 listových kategórií) a živým Heureka stromom (`https://www.heureka.sk/direct/xml-export/shops/heureka-sekce.xml`, 3 551 listových kategórií) — viď `reports/heureka-mapovanie-navrh-2026-08-07.xlsx` pre kompletný návrh a históriu ladenia algoritmu.
+- **Nasadený rozsah (2026-08-07):** **1 281 kategórií** (~56 % nášho stromu, ~57 % produktov) — celá "zelená" skupina (skóre istoty ≥30, namátkovo overená na ~90-95 % presnosť) + horná polovica "žltej" skupiny (skóre 15-30, po oprave algoritmu namátkovo ~50 % presnosť). Zvyšných ~44 % kategórií (nižšia žltá + celá červená skupina, skóre <18,84) **zámerne nenasadené** — presnosť tam bola pri kontrole nespoľahlivá (časté zámeny kvôli synonymám medzi našimi a Heureka názvami, napr. "Smart telefóny" vs "Mobilné telefóny").
+- **K doriešeniu po spustení do ostrej prevádzky:** pokryť zvyšných ~44 % kategórií — buď doladením algoritmu (slovník synoným), alebo ručným dohľadaním pri kategóriách s najviac produktmi. Kompletný zoznam vrátane nenasadených kategórií (s navrhovaným ID a skóre) je v `reports/heureka-mapovanie-navrh-2026-08-07.xlsx`.
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |

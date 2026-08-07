@@ -12,6 +12,7 @@ const path = require('path');
 const { streamProducts } = require('./stream-products');
 const { parseProduct } = require('./parse-product');
 const { roundPrice } = require('./round-price');
+const { heurekaCategoryIdFor } = require('./heureka-category');
 
 const FULL_URL = process.env.INNPRO_FULL_URL;
 const LIGHT_URL = process.env.INNPRO_LIGHT_URL;
@@ -122,6 +123,8 @@ function buildShopitemXml(p) {
     allCats.forEach((c) => parts.push(`  <CATEGORY>${xmlCdata(c)}</CATEGORY>`));
     parts.push('</CATEGORIES>');
   }
+  const heurekaCategoryId = heurekaCategoryIdFor(p.category);
+  if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));
