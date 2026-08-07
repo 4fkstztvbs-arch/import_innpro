@@ -165,6 +165,18 @@ function main() {
       }
     }
 
+    // Margin (our "marža" convention throughout this codebase, see transform-kb.js's
+    // MIN_MARGIN floor): markup over purchase price excl. VAT, i.e.
+    // margin% = priceExclVat / purchaseExclVat - 1, NOT (price-cost)/price.
+    let currentMarginPct = null;
+    let newMarginPct = null;
+    if (ours.purchasePrice) {
+      const priceExclVat = ours.price / (1 + ours.purchaseVat / 100);
+      currentMarginPct = +((priceExclVat / ours.purchasePrice - 1) * 100).toFixed(1);
+      const suggestedExclVat = suggestedPrice / (1 + ours.purchaseVat / 100);
+      newMarginPct = +((suggestedExclVat / ours.purchasePrice - 1) * 100).toFixed(1);
+    }
+
     matched.push({
       ean,
       nazov: ours.name,
@@ -173,6 +185,8 @@ function main() {
       nasaCena: ours.price,
       nakupnaCenaBezDph: ours.purchasePrice,
       floorCena: floorPrice,
+      marzaTerazPct: currentMarginPct,
+      marzaPoUpravePct: newMarginPct,
       heurekaNajnizsia: heurekaMin,
       heurekaDruhaNajnizsia: heurekaMin2,
       heurekaNajvyssia: num(row['Najvyššia cena']),
@@ -190,13 +204,14 @@ function main() {
   matched.sort((a, b) => (b.rozdielEur || -Infinity) - (a.rozdielEur || -Infinity));
 
   const header = ['EAN', 'Nazov', 'Kategoria', 'Dodavatel', 'NasaCenaEUR', 'NakupnaCenaBezDphEUR', 'FloorCenaEUR',
-    'HeurekaNajnizsiaEUR', 'HeurekaDruhaNajnizsiaEUR', 'HeurekaNajvyssiaEUR', 'PocetPredajcov', 'OdhadovanaPozicia',
-    'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'Poznamka', 'HeurekaURL'];
+    'MarzaTerazPct', 'MarzaPoUpravePct', 'HeurekaNajnizsiaEUR', 'HeurekaDruhaNajnizsiaEUR', 'HeurekaNajvyssiaEUR',
+    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'Poznamka', 'HeurekaURL'];
   const lines = [header.join(',')];
   for (const m of matched) {
     lines.push([
       m.ean, `"${m.nazov.replace(/"/g, '""')}"`, `"${m.kategoria.replace(/"/g, '""')}"`, m.dodavatel,
       m.nasaCena, m.nakupnaCenaBezDph ?? '', m.floorCena ?? '',
+      m.marzaTerazPct ?? '', m.marzaPoUpravePct ?? '',
       m.heurekaNajnizsia ?? '', m.heurekaDruhaNajnizsia ?? '', m.heurekaNajvyssia ?? '', m.pocetPredajcov ?? '',
       m.odhadovanaPozicia ?? '', m.rozdielEur ?? '', m.rozdielPct ?? '', m.akcia, m.odporucanaCena ?? '',
       `"${m.poznamka.replace(/"/g, '""')}"`, m.heurekaUrl,
