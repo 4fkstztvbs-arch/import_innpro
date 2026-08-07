@@ -33,10 +33,10 @@ jobs:
           ATOS_OUT: output/atos.xml
         run: node scripts/transform-atos.js
 
-      - name: Enrich with Icecat data (weight/specs; images replace ATOS's own — see README)
+      - name: Enrich with Icecat data (weight/specs; ATOS's own images stay primary — see README)
         run: |
           if [ -f data/icecat-atos-full.csv ]; then
-            XML_IN=output/atos.xml ICECAT_CSV=data/icecat-atos-full.csv XML_OUT=output/atos.xml REPLACE_IMAGES=1 node scripts/enrich-shoptet-icecat.js
+            XML_IN=output/atos.xml ICECAT_CSV=data/icecat-atos-full.csv XML_OUT=output/atos.xml REPLACE_IMAGES=0 node scripts/enrich-shoptet-icecat.js
           else
             echo "data/icecat-atos-full.csv not found yet — skipping enrichment step"
           fi

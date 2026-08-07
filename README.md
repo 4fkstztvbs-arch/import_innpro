@@ -44,7 +44,9 @@ https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
 
 ## Dôležité — obrázky
 
-Pôvodné, nespracované obrázkové adresy priamo z ATOS feedu (`img.asp?attid=...`) sa cez automatizovaný import nedali spoľahlivo stiahnuť do Shoptetu, preto sme prešli na Icecat: `scripts/transform-atos.js` naďalej píše ATOS URL ako prvotné (fallback), no následný krok `Enrich with Icecat data` v `atos-sync.yml` (s `REPLACE_IMAGES=1`) ich pre každý produkt s nájdenou zhodou EAN v `data/icecat-atos-full.csv` **nahradí** obrázkami z Icecatu. Produkty bez zhody EAN si ponechajú pôvodné ATOS URL (lepšie ako žiadny obrázok).
+Pôvodne sme skúšali nahradiť ATOS-ové obrázkové adresy (`img.asp?attid=...`) Icecat obrázkami cez `Enrich with Icecat data` krok (`REPLACE_IMAGES=1`), pretože sme mali podozrenie, že sa nedajú spoľahlivo stiahnuť do Shoptetu. Ukázalo sa ale, že `data/icecat-atos-full.csv` je z bezplatného "Open Icecat" účtu — ten vráti reálne dáta len pre malý zlomok produktov (pri poslednom behu 14 z 1101 vyžiadaných EAN, zvyšok len chybu "not allowed to access a Full Icecat repository"), takže Icecat prakticky nič neriešil.
+
+**Stav (2026-08-07): vrátené na ATOS vlastné obrázky** (`REPLACE_IMAGES=0` v `atos-sync.yml`) — vyskúšame, či sa priamo z ATOS feedu do Shoptetu reálne stiahnu. Icecat enrichment (váha, špecifikácie, prípadné doplnkové obrázky pri zhode EAN) stále beží, len už nič nemaže/nenahradzuje.
 
 ## Heureka — automatická úprava cien (zatiaľ VYPNUTÁ)
 
