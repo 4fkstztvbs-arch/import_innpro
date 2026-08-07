@@ -85,6 +85,15 @@ Nástroj na porovnanie našich aktuálnych cien (z `output/*.xml`) s konkurencio
 - **Výstup:** CSV zoradené od najväčšieho rozdielu (kde sme najviac drahší) — EAN, názov, kategória, dodávateľ, naša cena, nákupná cena bez DPH, floor cena, Heureka najnižšia/2. najnižšia/najvyššia cena, odhadovaná pozícia, rozdiel v € aj %, navrhovaná akcia a cena, poznámka, Heureka URL.
 - **Otestované 2026-08-07** na reálnom exporte (5965 riadkov zo starého obchodu) — mechanika aj cenový návrh fungujú (1912 produktov spárovaných cez EAN, z toho 1088 malo dosť dát na návrh ceny), ale keďže report bol z pôvodného e-shopu, číselné výsledky vtedy neboli použité na žiadne rozhodnutie. Treba spustiť znova s aktuálnym reportom, keď bude e-shop v ostrej prevádzke a Heureka bude mať naindexovaný aktuálny sortiment. **Výstup je len návrh (CSV) — nič sa automaticky nezapisuje do cien v `transform-*.js`.**
 
+### 4.3 Denný automatický beh (`scripts/process-heureka-report.js`, od 2026-08-07)
+
+Heureka sortiment report **nemá žiadne API** (potvrdené priamo z Heureka dokumentácie — len ručné generovanie v administrácii, max. raz za hodinu, vyžaduje prihlásenú session). Riešenie: ručné nahrávanie + automatické spracovanie.
+
+- **Postup:** report sa stiahne ručne z Heureka administrácie a nahrá do `data/heureka-reports/` (v pôvodnom Heureka názve, napr. `premiumstoresk_20260807_1253.csv`) — **ideálne večer pred nočnými importmi**, aby denný beh mal k dispozícii aj čerstvý report, aj čerstvo naimportované produkty.
+- **`scripts/process-heureka-report.js`** beží raz denne: nájde najnovší CSV v priečinku (podľa dátumu/času v názve súboru, nie podľa času nahratia), porovná ho s `.last-processed.json` (posledný spracovaný), a ak je novší, spustí `compare-heureka-prices.js` a vygeneruje `reports/heureka-cenovy-navrh-<dátum>.md`. Ak nie je nič nové, neurobí nič (idempotentné, bezpečné spúšťať opakovane).
+- **V repozitári zostáva:** len surový nahraný CSV a finálny `.md` report — medzikrokový CSV s riadkovými dátami sa generuje do `/tmp` a nezostáva v gite.
+- **Ručné spustenie:** `npm run heureka-price-daily` (alebo `node scripts/process-heureka-report.js [--min-margin=5] [--force]`).
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |

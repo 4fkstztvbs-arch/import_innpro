@@ -1,6 +1,6 @@
 # Návrh na úpravu cien podľa Heureka porovnania — 2026-08-07
 
-Vstup: `premiumstoresk_20260807_1253.csv` (Heureka sortiment report, 5965 riadkov, **starý obchod** — číslami sa teraz nič nerozhoduje, toto je len ukážka výstupu nástroja `scripts/compare-heureka-prices.js`. Po spustení do ostrej prevádzky treba spustiť znova s čerstvým reportom.)
+Vstup: `premiumstoresk_20260807_1253.csv` (automaticky spracované denným behom).
 
 **Pravidlo:** sme najlacnejší → zvýšiť na 2. najlacnejšieho konkurenta. Nie sme najlacnejší → znížiť tesne pod aktuálne najlacnejšieho. Cena nikdy neklesne pod floor = nákupná cena bez DPH × (1 + 5 % marža) × (1 + DPH). Marža = prirážka nad nákupnú cenu bez DPH (rovnaká definícia ako `KB_MIN_MARGIN` v `transform-kb.js`), nie klasická obchodná marža z predajnej ceny.
 
