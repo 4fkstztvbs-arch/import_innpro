@@ -44,7 +44,7 @@ https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
 
 ## Dôležité — obrázky
 
-Na tvoju žiadosť som ponechal **pôvodné, nespracované obrázkové adresy** priamo z ATOS feedu (`img.asp?attid=...`), **nie** tú upravenú `img3.atoselektro.cz` variantu, čo sme skúšali predtým. Uvidíme, či cez tento spôsob automatizácie (iný spôsob sťahovania než Shoptetov vlastný import) budú fungovať spoľahlivejšie. Ak nie, viem to kedykoľvek prepnúť späť — daj vedieť, ako to dopadlo po prvom reálnom nočnom behu.
+Pôvodné, nespracované obrázkové adresy priamo z ATOS feedu (`img.asp?attid=...`) sa cez automatizovaný import nedali spoľahlivo stiahnuť do Shoptetu, preto sme prešli na Icecat: `scripts/transform-atos.js` naďalej píše ATOS URL ako prvotné (fallback), no následný krok `Enrich with Icecat data` v `atos-sync.yml` (s `REPLACE_IMAGES=1`) ich pre každý produkt s nájdenou zhodou EAN v `data/icecat-atos-full.csv` **nahradí** obrázkami z Icecatu. Produkty bez zhody EAN si ponechajú pôvodné ATOS URL (lepšie ako žiadny obrázok).
 
 ## Čo sa importuje
 

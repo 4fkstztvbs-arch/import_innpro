@@ -1,7 +1,10 @@
 // Automated equivalent of the "ATOS" tab in the browser tool. Fetches the ATOS Shoptet feed
 // (HTTP Basic Auth required), applies the agreed category mapping, converts CZK->EUR at the
 // live ECB rate, and writes a Shoptet-native XML ready for Automatické importy.
-// Images are used exactly as ATOS provides them (raw img.asp URLs) — no CDN rewriting.
+// Images here are still ATOS's own raw img.asp URLs — the atos-sync workflow's separate
+// enrich-shoptet-icecat.js step (REPLACE_IMAGES=1) swaps them for Icecat's gallery afterwards
+// for any product with a matched EAN, since ATOS's own URLs don't reliably download into
+// Shoptet's automatic import. Products with no Icecat match keep these ATOS URLs as a fallback.
 //
 // Usage: node transform-atos.js
 // Required env vars: ATOS_URL, ATOS_USERNAME, ATOS_PASSWORD
