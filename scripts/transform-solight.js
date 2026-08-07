@@ -59,6 +59,35 @@ function resolveCategory(rawCategoryName) {
   return { category, extraCategories, excluded: false };
 }
 
+const DOC_LANG_LABELS = { cz: 'CZ', sk: 'SK', en: 'EN', de: 'DE' };
+// Solight's document filenames follow "{kod-produktu}_{nazov dokumentu}.pdf" (e.g.
+// "wo8017_sk návod.pdf", "xa05_produktový list.pdf") — derive a human label from the
+// filename itself since the feed's <ProductDocument> node carries no separate title.
+function humanizeDocLabel(url) {
+  try {
+    const rawName = decodeURIComponent((url.split('/').pop() || '').split('?')[0]);
+    let base = rawName.replace(/\.[a-z0-9]+$/i, '');
+    if (base.includes('_')) base = base.slice(base.indexOf('_') + 1);
+    base = base.replace(/_/g, ' ').trim();
+    if (!base) return null;
+
+    const tokens = base.split(/\s+/);
+    const langs = [];
+    while (tokens.length > 1 && DOC_LANG_LABELS[tokens[0].toLowerCase()]) {
+      langs.push(DOC_LANG_LABELS[tokens.shift().toLowerCase()]);
+    }
+    while (tokens.length > 1 && DOC_LANG_LABELS[tokens[tokens.length - 1].toLowerCase()]) {
+      langs.push(DOC_LANG_LABELS[tokens.pop().toLowerCase()]);
+    }
+    let label = tokens.join(' ').trim();
+    if (!label) return null;
+    label = label.charAt(0).toUpperCase() + label.slice(1);
+    return langs.length ? `${label} (${[...new Set(langs)].join('/')})` : label;
+  } catch {
+    return null;
+  }
+}
+
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
 function xmlNum(n) {
@@ -184,7 +213,8 @@ async function main() {
     if (p.docs.length) {
       stats.withDocs++;
       p.docs.forEach((url, i) => {
-        description += `<p><a href="${encodeURI(url)}" target="_blank" rel="noopener">Stiahnuť dokument${p.docs.length > 1 ? ' ' + (i + 1) : ''}</a></p>`;
+        const label = humanizeDocLabel(url) || `Dokument${p.docs.length > 1 ? ' ' + (i + 1) : ''}`;
+        description += `<p><a href="${encodeURI(url)}" target="_blank" rel="noopener">Stiahnuť: ${label}</a></p>`;
       });
     }
     if (p.videoLink) {
