@@ -46,6 +46,15 @@ https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
 
 Pôvodné, nespracované obrázkové adresy priamo z ATOS feedu (`img.asp?attid=...`) sa cez automatizovaný import nedali spoľahlivo stiahnuť do Shoptetu, preto sme prešli na Icecat: `scripts/transform-atos.js` naďalej píše ATOS URL ako prvotné (fallback), no následný krok `Enrich with Icecat data` v `atos-sync.yml` (s `REPLACE_IMAGES=1`) ich pre každý produkt s nájdenou zhodou EAN v `data/icecat-atos-full.csv` **nahradí** obrázkami z Icecatu. Produkty bez zhody EAN si ponechajú pôvodné ATOS URL (lepšie ako žiadny obrázok).
 
+## Heureka — automatická úprava cien (zatiaľ VYPNUTÁ)
+
+Denne (21:00 UTC, `.github/workflows/heureka-price-report.yml`) sa spracuje Heureka sortiment report nahraný do `data/heureka-reports/` a pripraví sa `price-targets.json` (návrh, o koľko zvýšiť/znížiť cenu podľa konkurencie — pozri `reports/heureka-cenovy-navrh-*.md`). Tento návrh **sa zatiaľ live nepremieta do cien** — je za centrálnym vypínačom.
+
+- **Stav:** vypnuté (vedomé rozhodnutie, 2026-08-07). Príprava dát beží, nič sa reálne nemení.
+- **Zapnutie:** pridaj `HEUREKA_PRICE_OVERRIDE: '1'` do `env:` sekcie `.github/workflows/<dodavatel>-sync.yml` pre dodávateľa, kde to chceš aktívne (dá sa zapínať po jednom).
+- **Vypnutie:** odstráň tú istú premennú (alebo ju daj na hociakú inú hodnotu než `'1'`).
+- Detaily mechanizmu (floor 5 % marže, K+B výnimka, smer pohybu ceny) sú v `reports/prehlad-importov.md` sekcia 4.4.
+
 ## Čo sa importuje
 
 Rovnaká logika ako v prehliadačovom nástroji:
