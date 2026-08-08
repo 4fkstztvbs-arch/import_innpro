@@ -9,8 +9,12 @@
 //   - the SEO slug in the path is cosmetic; only the trailing _ien<id>/_ies<id>.jpg suffix
 //     is used for routing (any slug text, or none, resolves to the same file)
 //   - img0/img1/img2/img3 are interchangeable mirrors of the exact same file
-//   - https://img{N}.atoselektro.cz/x_ien<StoItem.Id>.jpg -> main product photo
-//     (this is the StoItem's "enlargement"-quality image, not the smaller default one)
+//   - https://img{N}.atoselektro.cz/x_ien<StoItem.Id>.jpg -> main product photo, enlargement
+//     quality (only exists when <EnlargementIs>1</EnlargementIs>) — confirmed 404 on ~2% of
+//     products in a live spot-check that had <ImgIs>1</ImgIs> but no <EnlargementIs>
+//   - https://img{N}.atoselektro.cz/x_i<StoItem.Id>.jpg   -> main product photo, regular/
+//     default quality (exists whenever <ImgIs>1</ImgIs>, smaller size than the "en" variant) —
+//     use this as the fallback for the ~2% of products without an enlargement image
 //   - https://img{N}.atoselektro.cz/x_ies<ImgGal.Id>.jpg  -> one large gallery photo,
 //     for each <ImgGal> entry whose <Tag> is "sys-gal-enl" (the "-thu" thumbnail variants
 //     are skipped — we already have the same photo at full/enlargement quality)
@@ -68,8 +72,10 @@ async function main() {
     // Main image lives directly on StoItem, not inside an ImgGal block, so it's safe to
     // read <Id> here as long as we do it before scanning ImgGal sub-blocks below.
     const imgIs = firstTag(rawXml, 'ImgIs') === '1';
+    const enlargementIs = firstTag(rawXml, 'EnlargementIs') === '1';
     const stiId = firstTag(rawXml, 'Id');
-    if (imgIs && stiId) urls.push(`https://${nextCdnHost()}/x_ien${stiId}.jpg`);
+    if (stiId && enlargementIs) urls.push(`https://${nextCdnHost()}/x_ien${stiId}.jpg`);
+    else if (stiId && imgIs) urls.push(`https://${nextCdnHost()}/x_i${stiId}.jpg`);
 
     const galBlocks = rawXml.match(/<ImgGal>[\s\S]*?<\/ImgGal>/g) || [];
     for (const block of galBlocks) {
