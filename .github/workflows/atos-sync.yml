@@ -24,6 +24,12 @@ jobs:
       - name: Install dependencies
         run: npm install --omit=dev
 
+      - name: Fetch ATOS image URLs (static CDN, StoItemBase_El)
+        env:
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+        run: node scripts/fetch-atos-images.js
+
       - name: Run ATOS transform
         env:
           ATOS_URL: ${{ secrets.ATOS_URL }}

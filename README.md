@@ -44,9 +44,16 @@ https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
 
 ## Dôležité — obrázky
 
-Pôvodne sme skúšali nahradiť ATOS-ové obrázkové adresy (`img.asp?attid=...`) Icecat obrázkami cez `Enrich with Icecat data` krok (`REPLACE_IMAGES=1`), pretože sme mali podozrenie, že sa nedajú spoľahlivo stiahnuť do Shoptetu. Ukázalo sa ale, že `data/icecat-atos-full.csv` je z bezplatného "Open Icecat" účtu — ten vráti reálne dáta len pre malý zlomok produktov (pri poslednom behu 14 z 1101 vyžiadaných EAN, zvyšok len chybu "not allowed to access a Full Icecat repository"), takže Icecat prakticky nič neriešil.
+**História:** ATOS-ov vlastný feed (`StoItemShoptet_El`) posiela obrázky ako `img.asp?attid=...` — dynamický skript, ktorý Shoptetov automatický import spoľahlivo neustál (potvrdené priamo v Shoptet import logu: `Status code '403'` aj `Host connection timeout` pre `shop.atoselektro.cz`, opakovane 6.8. aj 8.8.2026). Skúšali sme nahradiť Icecat obrázkami (`enrich-shoptet-icecat.js`, `REPLACE_IMAGES=1`), no `data/icecat-atos-full.csv` je z bezplatného "Open Icecat" účtu, ktorý vráti reálne dáta len pre malý zlomok produktov (14 z 1101 vyžiadaných EAN) — takže to prakticky nič neriešilo.
 
-**Stav (2026-08-07): vrátené na ATOS vlastné obrázky** (`REPLACE_IMAGES=0` v `atos-sync.yml`) — vyskúšame, či sa priamo z ATOS feedu do Shoptetu reálne stiahnu. Icecat enrichment (váha, špecifikácie, prípadné doplnkové obrázky pri zhode EAN) stále beží, len už nič nemaže/nenahradzuje.
+**Stav (2026-08-08): statické CDN URL namiesto `img.asp`.** ATOS-ov verejný e-shop (`shop.atoselektro.cz`) servíruje obrázky produktov cez `img0`–`img3.atoselektro.cz` — štyri vzájomne zameniteľné statické CDN zrkadlá, úplne mimo `img.asp`. Cesta k obrázku sa dá zostaviť priamo z dát, bez nutnosti sťahovať jednotlivé produktové stránky:
+
+- `https://img0.atoselektro.cz/x_ien<StoItem.Id>.jpg` — hlavný obrázok produktu (v kvalite "enlargement", nie zmenšenina)
+- `https://img0.atoselektro.cz/x_ies<ImgGal.Id>.jpg` — každá ďalšia galériová fotka (len záznamy s `Tag=sys-gal-enl`, thumbnail varianty sa preskakujú)
+
+(SEO časť v ceste pred `_ien.../ _ies...` je kozmetická — server smeruje výhradne podľa koncového ID, overené priamo na živých URL.)
+
+`scripts/fetch-atos-images.js` stiahne tieto `Id`/`ImgGal` dáta z `resultType=StoItemBase_El` (dostupné len v noci, rovnaké okno ako `StoItemShoptet_El`) a uloží mapu `kód produktu → zoznam CDN URL` do `data/atos-image-urls.json`. `transform-atos.js` ju použije namiesto pôvodných `img.asp` URL — pre produkty bez záznamu v mape (skript ešte nebežal, alebo produkt v `StoItemBase_El` chýba) ostáva pôvodné ATOS URL ako fallback. Icecat enrichment (`REPLACE_IMAGES=0`) beží ďalej len pre váhu/špecifikácie, obrázky už nemení.
 
 ## Heureka — automatická úprava cien (zatiaľ VYPNUTÁ)
 

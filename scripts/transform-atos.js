@@ -1,10 +1,12 @@
 // Automated equivalent of the "ATOS" tab in the browser tool. Fetches the ATOS Shoptet feed
 // (HTTP Basic Auth required), applies the agreed category mapping, converts CZK->EUR at the
 // live ECB rate, and writes a Shoptet-native XML ready for Automatické importy.
-// Images here are still ATOS's own raw img.asp URLs — the atos-sync workflow's separate
-// enrich-shoptet-icecat.js step (REPLACE_IMAGES=1) swaps them for Icecat's gallery afterwards
-// for any product with a matched EAN, since ATOS's own URLs don't reliably download into
-// Shoptet's automatic import. Products with no Icecat match keep these ATOS URLs as a fallback.
+// Images: uses data/atos-image-urls.json (built by fetch-atos-images.js, run before this
+// script in atos-sync.yml) — static img{0-3}.atoselektro.cz CDN URLs, per product code.
+// Falls back to the feed's own img.asp URLs for any code missing from that map. The feed's
+// own img.asp URLs alone are not reliable — Shoptet's automatic import gets HTTP 429/403/
+// timeout from shop.atoselektro.cz trying to bulk-download them (confirmed in Shoptet's own
+// import log, 6.8. and 8.8.2026).
 //
 // Usage: node transform-atos.js
 // Required env vars: ATOS_URL, ATOS_USERNAME, ATOS_PASSWORD
@@ -31,6 +33,14 @@ const MAPPING_PATH = path.join(__dirname, 'atos-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
+
+// Static img{0-3}.atoselektro.cz CDN URLs per product code, built by fetch-atos-images.js
+// (StoItemBase_El) — used instead of the feed's own img.asp URLs, which Shoptet's automatic
+// import can't reliably download (HTTP 429/403/timeout, confirmed in Shoptet's import log).
+// Falls back to the feed's own images for any code missing from this map (e.g. if
+// fetch-atos-images.js hasn't run yet, or ATOS added a product it doesn't cover).
+const IMAGES_PATH = path.join(__dirname, '..', 'data', 'atos-image-urls.json');
+const CDN_IMAGES = fs.existsSync(IMAGES_PATH) ? JSON.parse(fs.readFileSync(IMAGES_PATH, 'utf-8')) : {};
 // Solight is also a direct supplier with better purchase prices — don't re-sell their own
 // products relabelled under ATOS.
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
@@ -129,9 +139,10 @@ function buildShopitemXml(p) {
   }
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
-  if (p.images.length) {
+  const images = (CDN_IMAGES[p.code] && CDN_IMAGES[p.code].length) ? CDN_IMAGES[p.code] : p.images;
+  if (images.length) {
     parts.push('<IMAGES>');
-    p.images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));
+    images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));
     parts.push('</IMAGES>');
   }
   if (p.params.length) {
