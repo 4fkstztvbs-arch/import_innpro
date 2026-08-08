@@ -31,7 +31,16 @@ const { streamRecords } = require('./stream-records');
 const USERNAME = process.env.ATOS_USERNAME;
 const PASSWORD = process.env.ATOS_PASSWORD;
 const OUT_PATH = process.env.ATOS_IMAGES_OUT || path.join(__dirname, '..', 'data', 'atos-image-urls.json');
-const CDN_HOST = 'img0.atoselektro.cz'; // any of img0-img3 works, all are mirrors
+// img0-img3 are interchangeable static mirrors (verified: identical file size/content on all
+// four for the same id). Round-robin across them instead of hammering just one hostname, in
+// case whatever rate-limited img.asp also applies per-hostname here.
+const CDN_HOSTS = ['img0.atoselektro.cz', 'img1.atoselektro.cz', 'img2.atoselektro.cz', 'img3.atoselektro.cz'];
+let cdnIndex = 0;
+function nextCdnHost() {
+  const host = CDN_HOSTS[cdnIndex % CDN_HOSTS.length];
+  cdnIndex++;
+  return host;
+}
 
 const HOST_URL = 'https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resultType=StoItemBase_El';
 
@@ -60,13 +69,13 @@ async function main() {
     // read <Id> here as long as we do it before scanning ImgGal sub-blocks below.
     const imgIs = firstTag(rawXml, 'ImgIs') === '1';
     const stiId = firstTag(rawXml, 'Id');
-    if (imgIs && stiId) urls.push(`https://${CDN_HOST}/x_ien${stiId}.jpg`);
+    if (imgIs && stiId) urls.push(`https://${nextCdnHost()}/x_ien${stiId}.jpg`);
 
     const galBlocks = rawXml.match(/<ImgGal>[\s\S]*?<\/ImgGal>/g) || [];
     for (const block of galBlocks) {
       const tag = firstTag(block, 'Tag');
       const galId = firstTag(block, 'Id');
-      if (galId && tag === 'sys-gal-enl') urls.push(`https://${CDN_HOST}/x_ies${galId}.jpg`);
+      if (galId && tag === 'sys-gal-enl') urls.push(`https://${nextCdnHost()}/x_ies${galId}.jpg`);
     }
 
     if (urls.length) {
