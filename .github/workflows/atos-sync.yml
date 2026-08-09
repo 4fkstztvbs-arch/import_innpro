@@ -28,6 +28,7 @@ jobs:
         env:
           ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
           ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+          ATOS_IMAGE_PROXY_BASE: ${{ secrets.ATOS_IMAGE_PROXY_BASE }}
         run: node scripts/fetch-atos-images.js
 
       - name: Run ATOS transform

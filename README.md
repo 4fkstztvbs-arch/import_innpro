@@ -55,6 +55,27 @@ https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
 
 `scripts/fetch-atos-images.js` stiahne tieto `Id`/`ImgGal` dáta z `resultType=StoItemBase_El` (dostupné len v noci, rovnaké okno ako `StoItemShoptet_El`) a uloží mapu `kód produktu → zoznam CDN URL` do `data/atos-image-urls.json`. `transform-atos.js` ju použije namiesto pôvodných `img.asp` URL — pre produkty bez záznamu v mape (skript ešte nebežal, alebo produkt v `StoItemBase_El` chýba) ostáva pôvodné ATOS URL ako fallback. Icecat enrichment (`REPLACE_IMAGES=0`) beží ďalej len pre váhu/špecifikácie, obrázky už nemení.
 
+**Stav (2026-08-09): zistené, že aj `img0`–`img3.atoselektro.cz` je pre Shoptet blokovaný.** Shoptet import log ukázal `Status code '403'` aj `Host connection timeout` opakovane aj na nových CDN URL — teda nie je zablokovaný konkrétny endpoint (`img.asp`), ale **Shoptetova odchádzajúca IP adresa má blokovaný/rate-limitovaný celý `atoselektro.cz`** (potvrdené aj nepriamo: na starej platforme SHOPTEC ten istý ATOS feed funguje bez problémov — teda problém je špecificky na strane Shoptetovej IP, nie u ATOS-u všeobecne).
+
+### Riešenie: Cloudflare Worker ako caching proxy (`cloudflare-worker/`)
+
+Namiesto priameho sťahovania z `atoselektro.cz` bude Shoptet sťahovať obrázky z vlastnej domény (Cloudflare Worker), ktorá funguje ako medzičlánok — stiahne obrázok z ATOS-u (z Cloudflare edge IP, nie z blokovanej Shoptetovej) a servíruje ho ďalej s 30-dňovou cache. Kód: `cloudflare-worker/worker.js`, nasadzuje sa automaticky cez `.github/workflows/deploy-atos-image-proxy.yml` pri každej zmene v `cloudflare-worker/`.
+
+**Čo treba nastaviť (raz, na strane Cloudflare — zadarmo, netreba platobnú kartu):**
+
+1. Založ si účet na [cloudflare.com](https://cloudflare.com) (ak ešte nemáš).
+2. V dashboarde otvor **Workers & Pages** — pri prvom vstupe ti Cloudflare pridelí vlastnú subdoménu v tvare `tvoje-meno.workers.dev` (zapamätaj si ju, budeš ju potrebovať nižšie).
+3. Vytvor API token: **My Profile → API Tokens → Create Token** → šablóna **"Edit Cloudflare Workers"** (alebo vlastný token s právom `Workers Scripts:Edit`).
+4. Nájdi svoje **Account ID** — je vidno v dashboarde na stránke Workers & Pages (pravý bočný panel) alebo na Overview stránke účtu.
+5. Pridaj do GitHub repozitára **3 nové Secrets** (Settings → Secrets and variables → Actions):
+   - `CLOUDFLARE_API_TOKEN` = token z kroku 3
+   - `CLOUDFLARE_ACCOUNT_ID` = ID z kroku 4
+   - `ATOS_IMAGE_PROXY_BASE` = `https://atos-image-proxy.tvoje-meno.workers.dev` (názov Workera `atos-image-proxy` je pevne daný v `cloudflare-worker/wrangler.toml`, len doplň svoju `workers.dev` subdoménu z kroku 2)
+6. Spusti workflow **"Deploy ATOS image proxy"** ručne (Actions → vyber workflow → Run workflow) — nasadí Worker na Cloudflare.
+7. Ďalší beh **ATOS sync** (ručne alebo nočný) už automaticky vygeneruje obrázkové URL cez proxy namiesto priamo cez `atoselektro.cz`.
+
+Kým `ATOS_IMAGE_PROXY_BASE` nie je nastavený, `fetch-atos-images.js` sa správa presne ako doteraz (priame CDN URL) — nič sa nepokazí, kým sa to nedokončí.
+
 ## Heureka — automatická úprava cien (zatiaľ VYPNUTÁ)
 
 Denne (21:00 UTC, `.github/workflows/heureka-price-report.yml`) sa spracuje Heureka sortiment report nahraný do `data/heureka-reports/` a pripraví sa `price-targets.json` (návrh, o koľko zvýšiť/znížiť cenu podľa konkurencie — pozri `reports/heureka-cenovy-navrh-*.md`). Tento návrh **sa zatiaľ live nepremieta do cien** — je za centrálnym vypínačom.

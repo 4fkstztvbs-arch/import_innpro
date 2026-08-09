@@ -27,6 +27,13 @@
 // Required env vars: ATOS_URL_BASE (e.g. https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult),
 //                     ATOS_USERNAME, ATOS_PASSWORD
 // Optional: ATOS_IMAGES_OUT (./data/atos-image-urls.json)
+//           ATOS_IMAGE_PROXY_BASE — base URL of the Cloudflare Worker proxy (cloudflare-worker/),
+//           e.g. https://atos-image-proxy.<your-subdomain>.workers.dev. When set, generated
+//           image URLs point there instead of directly at atoselektro.cz — Shoptet's own IP is
+//           blocked/rate-limited by ATOS's server (confirmed in Shoptet's import log even on the
+//           img0-3 CDN, not just the old img.asp), so it needs to fetch through a relay that
+//           isn't. Falls back to the direct CDN when unset (works fine from any non-blocked
+//           source, just not from Shoptet).
 
 const fs = require('fs');
 const path = require('path');
@@ -35,15 +42,22 @@ const { streamRecords } = require('./stream-records');
 const USERNAME = process.env.ATOS_USERNAME;
 const PASSWORD = process.env.ATOS_PASSWORD;
 const OUT_PATH = process.env.ATOS_IMAGES_OUT || path.join(__dirname, '..', 'data', 'atos-image-urls.json');
+const PROXY_BASE = (process.env.ATOS_IMAGE_PROXY_BASE || '').replace(/\/+$/, '');
 // img0-img3 are interchangeable static mirrors (verified: identical file size/content on all
 // four for the same id). Round-robin across them instead of hammering just one hostname, in
-// case whatever rate-limited img.asp also applies per-hostname here.
+// case whatever rate-limited img.asp also applies per-hostname here. Only used as a direct
+// fallback when ATOS_IMAGE_PROXY_BASE isn't set — the proxy itself always fetches from a single
+// fixed origin (img0) internally, so round-robin doesn't apply once requests go through it.
 const CDN_HOSTS = ['img0.atoselektro.cz', 'img1.atoselektro.cz', 'img2.atoselektro.cz', 'img3.atoselektro.cz'];
 let cdnIndex = 0;
 function nextCdnHost() {
   const host = CDN_HOSTS[cdnIndex % CDN_HOSTS.length];
   cdnIndex++;
   return host;
+}
+function buildImageUrl(filename) {
+  if (PROXY_BASE) return `${PROXY_BASE}/${filename}`;
+  return `https://${nextCdnHost()}/${filename}`;
 }
 
 const HOST_URL = 'https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resultType=StoItemBase_El';
@@ -74,14 +88,14 @@ async function main() {
     const imgIs = firstTag(rawXml, 'ImgIs') === '1';
     const enlargementIs = firstTag(rawXml, 'EnlargementIs') === '1';
     const stiId = firstTag(rawXml, 'Id');
-    if (stiId && enlargementIs) urls.push(`https://${nextCdnHost()}/x_ien${stiId}.jpg`);
-    else if (stiId && imgIs) urls.push(`https://${nextCdnHost()}/x_i${stiId}.jpg`);
+    if (stiId && enlargementIs) urls.push(buildImageUrl(`x_ien${stiId}.jpg`));
+    else if (stiId && imgIs) urls.push(buildImageUrl(`x_i${stiId}.jpg`));
 
     const galBlocks = rawXml.match(/<ImgGal>[\s\S]*?<\/ImgGal>/g) || [];
     for (const block of galBlocks) {
       const tag = firstTag(block, 'Tag');
       const galId = firstTag(block, 'Id');
-      if (galId && tag === 'sys-gal-enl') urls.push(`https://${nextCdnHost()}/x_ies${galId}.jpg`);
+      if (galId && tag === 'sys-gal-enl') urls.push(buildImageUrl(`x_ies${galId}.jpg`));
     }
 
     if (urls.length) {
