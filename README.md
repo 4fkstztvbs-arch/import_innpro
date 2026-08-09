@@ -79,12 +79,12 @@ Kým `ATOS_IMAGE_PROXY_BASE` nie je nastavený, `fetch-atos-images.js` sa správ
 
 ## ATOS — filter podľa kompatibilného modelu (diaľkové ovládače)
 
-ATOS píše zoznam kompatibilných zariadení (TV, DVB-T/satelitné prijímače, Blu-ray prehrávače) len ako text v popise produktu ("Ovladač je kompatibilní s těmito modely televizorů: MODEL1, MODEL2, ..."), nie ako skutočný parameter feedu. `scripts/extract-compatible-models.js` tieto zoznamy z popisu vyparsuje a `transform-atos.js` ich pridá ako viachodnotové parametre (`<TEXT_PROPERTY>`) — napr. **"Kompatibilný model TV"** so samostatnou hodnotou pre každý model (LT24VH42, LT24VH52, ...). Rovnako aj pre prijímače (DVB-T, DVB-T2, satelitné) a Blu-ray prehrávače.
+ATOS píše zoznam kompatibilných zariadení (TV, DVB-T/satelitné prijímače, Blu-ray prehrávače) len ako text v popise produktu ("Ovladač je kompatibilní s těmito modely televizorů: MODEL1, MODEL2, ..."), nie ako skutočný parameter feedu. `scripts/extract-compatible-models.js` tieto zoznamy z popisu vyparsuje a `transform-atos.js` ich pridá ako **`<INFORMATION_PARAMETERS>`** — Shoptetom natívne podporovaný element pre viachodnotový parameter (jeden `<NAME>` + viac `<VALUE>` v jednom bloku, presne na tento účel, potvrdené priamo v oficiálnej RELAX NG schéme `products-supplier-v10.rng` aj testom cez `xmllint`). Vznikne napr. parameter **"Kompatibilný model TV"** s hodnotou pre každý model (LT24VH42, LT24VH52, ...). Rovnako aj pre prijímače (DVB-T, DVB-T2, satelitné) a Blu-ray prehrávače.
 
 **Aby sa to prejavilo ako filter v kategórii "Diaľkové ovládače" (ako na `/televizne-ovladace/`), treba v Shoptet administrácii:**
-1. **Katalóg → Parametre** — nájdi parameter **"Kompatibilný model TV"** (vznikne automaticky po prvom importe s touto zmenou)
-2. Označ ho ako **filtrovací parameter**
-3. Priraď ho ku kategórii (kategóriám) s diaľkovými ovládačmi — filter s checkboxami pre jednotlivé modely sa potom zobrazí v bočnom paneli kategórie
+1. **Nastavenia → Produkty → Parametrické filtre** — nájdi parameter **"Kompatibilný model TV"** (vznikne automaticky po prvom importe s touto zmenou)
+2. Vytvor z neho filter (vyber parameter v roletovom menu)
+3. Priraď ho ku kategórii (kategóriám) s diaľkovými ovládačmi — ak má kategória podkategórie (napr. podľa značky), zaškrtni aj tie, kde má byť filter viditeľný
 
 Momentálne pokrýva **254 produktov / 1136 unikátnych TV modelov** (plus prijímače/Blu-ray). Pri satelitných prijímačoch je občas v zdrojovom texte značka uvedená len raz pred viacerými číslami modelov oddelenými čiarkou (napr. "AB Cryptobox 600, 650, 652 HD") — rozdelí sa to na 3 samostatné hodnoty, z ktorých druhá a tretia stratia predponu značky. Pri TV zozname (hlavný prípad) sa tento problém nevyskytuje — každý kód je samostatný a jednoznačný.
 

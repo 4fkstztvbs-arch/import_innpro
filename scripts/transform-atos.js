@@ -159,6 +159,16 @@ function buildShopitemXml(p) {
     });
     parts.push('</TEXT_PROPERTIES>');
   }
+  if (p.compatibleModels && p.compatibleModels.size) {
+    parts.push('<INFORMATION_PARAMETERS>');
+    for (const [name, values] of p.compatibleModels) {
+      parts.push('  <INFORMATION_PARAMETER>');
+      parts.push(`    <NAME>${xmlCdata(name)}</NAME>`);
+      values.forEach((v) => parts.push(`    <VALUE>${xmlCdata(v)}</VALUE>`));
+      parts.push('  </INFORMATION_PARAMETER>');
+    }
+    parts.push('</INFORMATION_PARAMETERS>');
+  }
   if (p.alternatives.length) {
     parts.push('<ALTERNATIVE_PRODUCTS>');
     p.alternatives.forEach((c) => parts.push(`  <CODE>${xmlEscape(c)}</CODE>`));
@@ -243,13 +253,22 @@ async function main() {
     // Turn those into filterable Shoptet parameters (e.g. "Kompatibilný model TV") so a category
     // filter by exact model becomes possible — mark the parameter as filtrovací in Shoptet admin.
     const compatibleModelParams = extractCompatibleModels(p.description);
-    if (compatibleModelParams.length) stats.withCompatibleModels++;
-    const params = compatibleModelParams.length ? p.params.concat(compatibleModelParams) : p.params;
+    let compatibleModels = null;
+    if (compatibleModelParams.length) {
+      stats.withCompatibleModels++;
+      compatibleModels = new Map();
+      for (const pv of compatibleModelParams) {
+        const idx = pv.indexOf(';');
+        const name = pv.slice(0, idx), value = pv.slice(idx + 1);
+        if (!compatibleModels.has(name)) compatibleModels.set(name, []);
+        compatibleModels.get(name).push(value);
+      }
+    }
 
     const shopitem = buildShopitemXml({
       code: p.code, name: p.name, description: p.description, shortDescription,
       manufacturer: p.manufacturer, warranty: p.warranty, ean: p.ean,
-      defaultCategory, extraCategories, images: p.images, params,
+      defaultCategory, extraCategories, images: p.images, params: p.params, compatibleModels,
       alternatives: p.alternatives, actionFlag: p.actionFlag, newFlag: p.newFlag, tipFlag: p.tipFlag,
       availability, weightKg: p.weightKg, price, purchasePrice: purchaseEUR, vat,
       recyclingFeePrice, seoTitle, metaDescription,
