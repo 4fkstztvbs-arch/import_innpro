@@ -1,6 +1,6 @@
 # Prehľad importov — premiumstore.sk (repo `import_innpro`)
 
-Stav k **2026-08-07**. Tento dokument je živý prehľad, aktualizuj ho pri väčších zmenách v mapovaní/cenotvorbe/architektúre.
+Stav k **2026-08-09**. Tento dokument je živý prehľad, aktualizuj ho pri väčších zmenách v mapovaní/cenotvorbe/architektúre.
 
 ## 1. Ako to celé funguje (spoločná architektúra)
 
@@ -113,10 +113,26 @@ Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports
 | Dodávateľ | Zdroj obrázkov |
 |---|---|
 | InnPro | vlastné URL z feedu (`b2b.innpro.sk/...`), max `INNPRO_MAX_IMAGES` (default 5) |
-| ATOS | **od 2026-08-07 zmenené na Icecat**: `transform-atos.js` píše pôvodné ATOS `img.asp?attid=...` URL, no následný enrichment krok (`enrich-shoptet-icecat.js`, `REPLACE_IMAGES=1`) ich pre produkty s nájdenou zhodou EAN v `data/icecat-atos-full.csv` **nahradí** Icecat galériou — pôvodné ATOS URL sa totiž nedali spoľahlivo stiahnuť cez Shoptetov automatický import. Produkty bez zhody EAN si ponechajú ATOS URL ako fallback. |
+| ATOS | **od 2026-08-09: Cloudflare Worker proxy** (`cloudflare-worker/`) pred `atoselektro.cz` — pozri "5.1 ATOS obrázky" nižšie pre celý príbeh a technické detaily |
 | K+B | vlastné URL + Icecat dopĺňanie (`enrich-kb-icecat.js`, `data/icecat-full.csv`) — hmotnosť, extra fotky, energetické štítky, špecifikácie (dopĺňa len chýbajúce, neprepisuje) |
 | Solight | vlastné URL (opravená známa chyba v ceste), max `SOLIGHT_MAX_IMAGES` |
 | MONACOR | vlastné URL z feedu |
+
+### 5.1 ATOS obrázky — diagnostika a riešenie (2026-08-06 → 2026-08-09)
+
+**Problém:** ATOS-ov vlastný feed (`StoItemShoptet_El`) posiela obrázky ako `img.asp?attid=...` — dynamický skript na `shop.atoselektro.cz`. Shoptetov automatický import ho spoľahlivo neustál: opakovane `Status code '403'` aj `Host connection timeout` priamo v Shoptet import logu (6.8. aj 8.8.2026).
+
+**Postupne vylúčené príčiny:**
+1. *Icecat náhrada* (`REPLACE_IMAGES=1` v `enrich-shoptet-icecat.js`) — `data/icecat-atos-full.csv` je z bezplatného "Open Icecat" účtu, ktorý vráti reálne dáta len pre 14 z 1101 vyžiadaných EAN. Prakticky nič neriešilo.
+2. *Statické CDN namiesto `img.asp`* — verejný e-shop (`shop.atoselektro.cz`) servíruje tie isté fotky aj cez štyri zameniteľné statické mirrory `img0`–`img3.atoselektro.cz` (`https://img{N}.atoselektro.cz/x_ien<StoItem.Id>.jpg` pre hlavný obrázok v kvalite enlargement, `x_i<Id>.jpg` keď enlargement neexistuje, `x_ies<ImgGal.Id>.jpg` pre galériu). Tieto URL sa dajú zostaviť priamo z `resultType=StoItemBase_El` (nočné okno 21:00–07:00, rovnaké ako `StoItemShoptet_El`) bez nutnosti sťahovať jednotlivé produktové stránky — implementované v `scripts/fetch-atos-images.js`. **Ukázalo sa ale, že aj tieto CDN mirrory sú pre Shoptet blokované rovnako ako `img.asp`** — teda nešlo o problém konkrétneho endpointu.
+3. Nepriamy dôkaz smerujúci na IP: na starej platforme **SHOPTEC** ten istý ATOS feed funguje bez problémov (aj po kompletnom zmazaní a znovunaimportovaní katalógu) → problém je špecificky **Shoptetova odchádzajúca IP adresa**, ktorú má `atoselektro.cz` (celá doména, nielen `img.asp`) zablokovanú/rate-limitovanú.
+
+**Riešenie (funkčné, nasadené 2026-08-09): Cloudflare Worker ako caching proxy.**
+- `cloudflare-worker/worker.js` — beží na `https://atos-image-proxy.dt7vy7byn2.workers.dev`. Shoptet žiada obrázok od tejto domény (nie priamo od ATOS-u); Worker si ho stiahne z `img0.atoselektro.cz` cez Cloudflare edge (iná IP než Shoptetova, nie je blokovaná) a servíruje ho ďalej s 30-dňovou cache. Prijíma len presne definované filename patterny (`x_ien/x_i/x_ies<číslo>.jpg`) — nie je to všeobecný proxy, nedá sa zneužiť na sťahovanie ľubovoľných URL.
+- `.github/workflows/deploy-atos-image-proxy.yml` — automatický deploy cez `wrangler` pri zmene v `cloudflare-worker/` (vyžaduje secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, oba nastavené a overené funkčné).
+- `fetch-atos-images.js` prepína generovanie URL na proxy cez `ATOS_IMAGE_PROXY_BASE` secret (nastavený na `https://atos-image-proxy.dt7vy7byn2.workers.dev`); bez neho by fallbackoval na priame CDN.
+- **Overené naostro v Shoptete 2026-08-09 — obrázky sa reálne importujú.**
+- Dôležité rozlíšenie: Worker rieši len *sťahovanie samotných obrázkových súborov* (funguje kedykoľvek, deň aj noc, vďaka cache). *Generovanie/aktualizácia feedu* (`fetch-atos-images.js` + `transform-atos.js`) stále vyžaduje nočné okno ATOS-u (21:00–07:00), keďže oba použité `resultType` (`StoItemBase_El`, `StoItemShoptet_El`) sú na strane ATOS-u časovo obmedzené nezávisle od Cloudflare.
 
 ## 6. Ďalšie špecifiká podľa dodávateľa
 
@@ -127,8 +143,8 @@ Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports
 
 ## 7. Známe obmedzenia / otvorené veci
 
-1. **ATOS feed je dostupný len v noci.** Skutočný platný `resultType` je **`StoItemShoptet_El`** (nie holé `StoItemShoptet`, ktoré vôbec neexistuje — potvrdené priamym testom, HTTP 500 "Unknown resultType"). Mimo nočného okna vracia HTTP 500 "Unsupported Hour". README aj `ATOS_URL` secret by mali používať `_El` variant. Aktuálny cron (`30 22 * * *` = 22:30 UTC) je v okne a necháva ~1h35min rezervu pred importom o 2:05.
-2. **`output/atos.xml` čaká na regeneráciu** — kategorizačné opravy (Kávovary, "Druhy" fix) aj ATOS→Icecat obrázky sú v kóde na `main`, ale posledný commitnutý `atos.xml` (05:10 7.8.) ich ešte neobsahuje, keďže ATOS beží len v noci. `output/innpro.xml` je už čerstvý a opravy potvrdené priamo vo výstupe (beh 07:00 7.8.).
+1. **ATOS feed je dostupný len v noci.** Skutočný platný `resultType` je **`StoItemShoptet_El`** (nie holé `StoItemShoptet`, ktoré vôbec neexistuje — potvrdené priamym testom, HTTP 500 "Unknown resultType"). Mimo nočného okna vracia HTTP 500 "Unsupported Hour". Rovnaké obmedzenie platí aj pre `StoItemBase_El` (obrázky, pozri 5.1). README aj `ATOS_URL` secret by mali používať `_El` variant. Aktuálny cron (`30 22 * * *` = 22:30 UTC) je v okne a necháva ~1h35min rezervu pred importom o 2:05.
+2. **Solight — obrázky sa dobiehajú postupne, nie chyba.** Po kompletnom zmazaní a znovunaimportovaní katalógu (8.8.2026) Shoptet nestihol stiahnuť obrázky pre všetky produkty naraz — `solight.sk` vracia `Status code '429'` (rate limit) pri hromadnom sťahovaní. Pokrytie rastie s každým ďalším nočným behom (8.8.: 103/1297 = 7,9 %; 9.8.: 209/1297 = 16,1 %, +106, žiadny predtým naimportovaný obrázok sa nestratil) — sledovacie kontrolné body v `data/solight-image-checks/`.
 3. **Prihlasovacie údaje k ATOS v `README.md` sú v plaintexte** (`ATOS_USERNAME`/`ATOS_PASSWORD`) — vedomé rozhodnutie, ide o testovací prístup, finálna verzia bude mať iné heslá.
 
 ## 8. Kde čo nájdeš
@@ -145,5 +161,9 @@ data/heureka-reports/                sem sa nahráva Heureka sortiment report (v
 scripts/compare-heureka-prices.js    porovnanie cien + návrh (jednorazovo, ľubovoľný CSV)
 scripts/process-heureka-report.js    denný beh — nájde nový report, vygeneruje .md + price-targets.json
 scripts/heureka-price-targets.js     zdieľaný lookup, ktorý transform-*.js skripty použijú na override ceny
+scripts/fetch-atos-images.js         ATOS obrázkové URL zo StoItemBase_El (priamy CDN alebo cez proxy, pozri 5.1)
+cloudflare-worker/                   Cloudflare Worker (caching proxy pred atoselektro.cz) + deploy config
+.github/workflows/deploy-atos-image-proxy.yml   automatický deploy Workera pri zmene v cloudflare-worker/
+data/solight-image-checks/           kontrolné body postupného dobiehania Solight obrázkov v Shoptete (sekcia 7, bod 2)
 .github/workflows/heureka-price-report.yml   plán denného behu (21:00 UTC)
 ```
