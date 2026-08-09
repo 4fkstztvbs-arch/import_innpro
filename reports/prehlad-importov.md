@@ -118,6 +118,8 @@ Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports
 | Solight | vlastné URL (opravená známa chyba v ceste), max `SOLIGHT_MAX_IMAGES` |
 | MONACOR | vlastné URL z feedu |
 
+**Alt text (od 2026-08-09):** všetky `<IMAGE>` majú teraz `description="Názov produktu"` (pri viacerých fotkách "Názov produktu - obrázok N"). Predtým chýbal, Shoptet si alt text odvodzoval z filename — pri ATOS-e cez Cloudflare proxy to reálne vyzeralo ako `alt="x ien245647"` (potvrdené priamo v živom HTML `/televizne-ovladace/`), zle pre prístupnosť aj Google Obrázky.
+
 ### 5.1 ATOS obrázky — diagnostika a riešenie (2026-08-06 → 2026-08-09)
 
 **Problém:** ATOS-ov vlastný feed (`StoItemShoptet_El`) posiela obrázky ako `img.asp?attid=...` — dynamický skript na `shop.atoselektro.cz`. Shoptetov automatický import ho spoľahlivo neustál: opakovane `Status code '403'` aj `Host connection timeout` priamo v Shoptet import logu (6.8. aj 8.8.2026).
