@@ -2,10 +2,11 @@ name: ATOS sync
 
 on:
   schedule:
-    # ATOS's StoItemShoptet_El export is only available from ~21:00 CET/CEST onward (per ATOS's
-    # own ResultTypeInfo table). 20:00 UTC = 21:00/22:00 CET/CEST depending on DST — inside that
-    # window, and still well before Shoptet's own 00:00–07:00 "úplný import" window.
-    - cron: '30 22 * * *'
+    # 22:00 UTC = polnoc SK času (CEST, letný čas). ATOS's StoItemShoptet_El export je dostupný
+    # už od ~20:00 UTC (21:00/22:00 CET/CEST podľa DST podľa ATOS ResultTypeInfo tabuľky), takže
+    # 22:00 UTC je bezpečne v tomto okne a stále pred Shoptetovým 00:00–07:00 "úplný import" oknom.
+    # Pozor: keďže cron beží v UTC bez DST, mimo letného času (CET, UTC+1) toto bude 23:00 miestneho.
+    - cron: '0 22 * * *'
   workflow_dispatch: {}
 
 permissions:
