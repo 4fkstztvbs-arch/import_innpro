@@ -61,18 +61,17 @@ https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
 
 Namiesto priameho sťahovania z `atoselektro.cz` bude Shoptet sťahovať obrázky z vlastnej domény (Cloudflare Worker), ktorá funguje ako medzičlánok — stiahne obrázok z ATOS-u (z Cloudflare edge IP, nie z blokovanej Shoptetovej) a servíruje ho ďalej s 30-dňovou cache. Kód: `cloudflare-worker/worker.js`, nasadzuje sa automaticky cez `.github/workflows/deploy-atos-image-proxy.yml` pri každej zmene v `cloudflare-worker/`.
 
-**Čo treba nastaviť (raz, na strane Cloudflare — zadarmo, netreba platobnú kartu):**
+**Stav (2026-08-09): Worker nasadený a funkčný.** Beží na `https://atos-image-proxy.dt7vy7byn2.workers.dev` (nasadené priamo cez `wrangler deploy`, overené end-to-end — hlavný obrázok aj galéria sa cez proxy sťahujú spoľahlivo).
 
-1. Založ si účet na [cloudflare.com](https://cloudflare.com) (ak ešte nemáš).
-2. V dashboarde otvor **Workers & Pages** — pri prvom vstupe ti Cloudflare pridelí vlastnú subdoménu v tvare `tvoje-meno.workers.dev` (zapamätaj si ju, budeš ju potrebovať nižšie).
-3. Vytvor API token: **My Profile → API Tokens → Create Token** → šablóna **"Edit Cloudflare Workers"** (alebo vlastný token s právom `Workers Scripts:Edit`).
-4. Nájdi svoje **Account ID** — je vidno v dashboarde na stránke Workers & Pages (pravý bočný panel) alebo na Overview stránke účtu.
-5. Pridaj do GitHub repozitára **3 nové Secrets** (Settings → Secrets and variables → Actions):
-   - `CLOUDFLARE_API_TOKEN` = token z kroku 3
-   - `CLOUDFLARE_ACCOUNT_ID` = ID z kroku 4
-   - `ATOS_IMAGE_PROXY_BASE` = `https://atos-image-proxy.tvoje-meno.workers.dev` (názov Workera `atos-image-proxy` je pevne daný v `cloudflare-worker/wrangler.toml`, len doplň svoju `workers.dev` subdoménu z kroku 2)
-6. Spusti workflow **"Deploy ATOS image proxy"** ručne (Actions → vyber workflow → Run workflow) — nasadí Worker na Cloudflare.
-7. Ďalší beh **ATOS sync** (ručne alebo nočný) už automaticky vygeneruje obrázkové URL cez proxy namiesto priamo cez `atoselektro.cz`.
+**Ostáva doplniť do GitHub repozitára (Settings → Secrets and variables → Actions → New repository secret), nech to funguje aj v automatizovanom nočnom behu:**
+
+| Secret | Hodnota |
+|---|---|
+| `CLOUDFLARE_API_TOKEN` | (vygenerovaný token, scope "Edit Cloudflare Workers") |
+| `CLOUDFLARE_ACCOUNT_ID` | `4f6870f3c65e2005a1a565d02d91db1e` |
+| `ATOS_IMAGE_PROXY_BASE` | `https://atos-image-proxy.dt7vy7byn2.workers.dev` |
+
+Po pridaní secrets bude aj `.github/workflows/deploy-atos-image-proxy.yml` vedieť Worker nasadzovať automaticky pri zmene kódu (`cloudflare-worker/`), a `atos-sync.yml` bude automaticky generovať obrázkové URL cez proxy pri každom nočnom behu.
 
 Kým `ATOS_IMAGE_PROXY_BASE` nie je nastavený, `fetch-atos-images.js` sa správa presne ako doteraz (priame CDN URL) — nič sa nepokazí, kým sa to nedokončí.
 
