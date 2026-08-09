@@ -20,6 +20,7 @@ const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
 const { heurekaCategoryIdFor } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { extractCompatibleModels } = require('./extract-compatible-models');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -199,7 +200,7 @@ async function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0, withCompatibleModels: 0 };
   const auth = { username: USERNAME, password: PASSWORD };
 
   await streamRecords(URL, 'SHOPITEM', (rawXml) => {
@@ -237,10 +238,18 @@ async function main() {
     if (p.newFlag === '1') stats.new++;
     if (p.tipFlag === '1') stats.tip++;
 
+    // Diaľkové ovládače: ATOS lists compatible device models inside the description text
+    // ("Ovladač je kompatibilní s těmito modely televizorů: ..."), not as real feed parameters.
+    // Turn those into filterable Shoptet parameters (e.g. "Kompatibilný model TV") so a category
+    // filter by exact model becomes possible — mark the parameter as filtrovací in Shoptet admin.
+    const compatibleModelParams = extractCompatibleModels(p.description);
+    if (compatibleModelParams.length) stats.withCompatibleModels++;
+    const params = compatibleModelParams.length ? p.params.concat(compatibleModelParams) : p.params;
+
     const shopitem = buildShopitemXml({
       code: p.code, name: p.name, description: p.description, shortDescription,
       manufacturer: p.manufacturer, warranty: p.warranty, ean: p.ean,
-      defaultCategory, extraCategories, images: p.images, params: p.params,
+      defaultCategory, extraCategories, images: p.images, params,
       alternatives: p.alternatives, actionFlag: p.actionFlag, newFlag: p.newFlag, tipFlag: p.tipFlag,
       availability, weightKg: p.weightKg, price, purchasePrice: purchaseEUR, vat,
       recyclingFeePrice, seoTitle, metaDescription,
