@@ -21,6 +21,12 @@ const MARKUP_PCT = parseFloat(process.env.SOLIGHT_MARKUP || '0');
 const MIN_COST = parseFloat(process.env.SOLIGHT_MIN_COST || '0');
 const VAT = process.env.SOLIGHT_VAT || '23';
 const MAX_IMAGES = Math.max(1, parseInt(process.env.SOLIGHT_MAX_IMAGES || '5', 10));
+// Optional caching proxy (cloudflare-worker-solight/) in front of solight.sk's own image CDN —
+// Shoptet's bulk import can trip solight.sk's rate limit (HTTP 429) when a lot of new products
+// land at once; routing through Cloudflare's network instead of Shoptet's single IP avoids that,
+// and repeat imports hit the proxy's cache instead of solight.sk at all. Falls back to solight.sk
+// directly (today's behaviour) when unset.
+const IMAGE_PROXY_BASE = (process.env.SOLIGHT_IMAGE_PROXY_BASE || '').replace(/\/+$/, '');
 const OUT_PATH = process.env.SOLIGHT_OUT || path.join(__dirname, '..', 'output', 'solight.xml');
 const STORE_NAME = process.env.SOLIGHT_STORE_NAME || 'premiumstore.sk';
 const OUT_OF_STOCK_TEXT = process.env.SOLIGHT_OUT_OF_STOCK_TEXT || 'Na objednávku';
@@ -104,7 +110,9 @@ function truncateAtWord(s, maxLen) {
 
 function fixImageUrl(rawUrl) {
   const cleaned = rawUrl.replace(/\s+/g, '');
-  return cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
+  const fixed = cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
+  if (IMAGE_PROXY_BASE) return fixed.replace(/^https?:\/\/[^/]+/, IMAGE_PROXY_BASE);
+  return fixed;
 }
 
 function buildShopitemXml(p) {

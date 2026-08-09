@@ -26,6 +26,7 @@ jobs:
           SOLIGHT_URL: ${{ secrets.SOLIGHT_URL }}
           SOLIGHT_MARKUP: '0'
           SOLIGHT_OUT: output/solight.xml
+          SOLIGHT_IMAGE_PROXY_BASE: ${{ secrets.SOLIGHT_IMAGE_PROXY_BASE }}
         run: node scripts/transform-solight.js
 
       - name: Commit updated output

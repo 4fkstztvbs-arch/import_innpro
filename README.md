@@ -61,17 +61,19 @@ https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
 
 Namiesto priameho sťahovania z `atoselektro.cz` bude Shoptet sťahovať obrázky z vlastnej domény (Cloudflare Worker), ktorá funguje ako medzičlánok — stiahne obrázok z ATOS-u (z Cloudflare edge IP, nie z blokovanej Shoptetovej) a servíruje ho ďalej s 30-dňovou cache. Kód: `cloudflare-worker/worker.js`, nasadzuje sa automaticky cez `.github/workflows/deploy-atos-image-proxy.yml` pri každej zmene v `cloudflare-worker/`.
 
-**Stav (2026-08-09): Worker nasadený a funkčný.** Beží na `https://atos-image-proxy.dt7vy7byn2.workers.dev` (nasadené priamo cez `wrangler deploy`, overené end-to-end — hlavný obrázok aj galéria sa cez proxy sťahujú spoľahlivo).
+**Stav (2026-08-09): Worker nasadený, funkčný a otestovaný naostro v Shoptete.** Beží na `https://atos-image-proxy.dt7vy7byn2.workers.dev`. GitHub Secrets (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ATOS_IMAGE_PROXY_BASE`) sú doplnené a overené — `.github/workflows/deploy-atos-image-proxy.yml` nasadzuje Worker automaticky pri zmene kódu, `atos-sync.yml` automaticky generuje obrázkové URL cez proxy pri každom nočnom behu.
 
-**Ostáva doplniť do GitHub repozitára (Settings → Secrets and variables → Actions → New repository secret), nech to funguje aj v automatizovanom nočnom behu:**
+## Solight — obrázky cez rovnaký princíp (Cloudflare Worker)
+
+Podobný problém ako pri ATOS-e, iná príčina: keď sa celý Solight katalóg vytvorí odznova naraz (napr. po zmazaní všetkých produktov), Shoptet musí stiahnuť veľa obrázkov v krátkom čase a `solight.sk` odpovie `Status code '429'` (rate limit), potvrdené priamo v Shoptet import logu. Riešenie je rovnaký princíp ako pri ATOS-e — Cloudflare Worker ako caching proxy (`cloudflare-worker-solight/`), ktorý žiada obrázky z Cloudflare siete namiesto Shoptetovej jedinej IP a cachuje ich na 30 dní (opakované importy sa už vôbec nepýtajú `solight.sk`).
+
+**Stav (2026-08-09): Worker nasadený a funkčný**, beží na `https://solight-image-proxy.dt7vy7byn2.workers.dev` (rovnaký Cloudflare účet ako ATOS, netreba nič nové zakladať). Doplň ešte jeden GitHub Secret:
 
 | Secret | Hodnota |
 |---|---|
-| `CLOUDFLARE_API_TOKEN` | (vygenerovaný token, scope "Edit Cloudflare Workers") |
-| `CLOUDFLARE_ACCOUNT_ID` | `4f6870f3c65e2005a1a565d02d91db1e` |
-| `ATOS_IMAGE_PROXY_BASE` | `https://atos-image-proxy.dt7vy7byn2.workers.dev` |
+| `SOLIGHT_IMAGE_PROXY_BASE` | `https://solight-image-proxy.dt7vy7byn2.workers.dev` |
 
-Po pridaní secrets bude aj `.github/workflows/deploy-atos-image-proxy.yml` vedieť Worker nasadzovať automaticky pri zmene kódu (`cloudflare-worker/`), a `atos-sync.yml` bude automaticky generovať obrázkové URL cez proxy pri každom nočnom behu.
+Bez tohto secretu `transform-solight.js` funguje ako doteraz (priame URL zo `solight.sk`) — nič sa nepokazí, kým ho nepridáš.
 
 Kým `ATOS_IMAGE_PROXY_BASE` nie je nastavený, `fetch-atos-images.js` sa správa presne ako doteraz (priame CDN URL) — nič sa nepokazí, kým sa to nedokončí.
 
