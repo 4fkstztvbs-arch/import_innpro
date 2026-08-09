@@ -54,6 +54,7 @@ const AVAILABILITY_MAP = {
 };
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function xmlAttr(s) { return xmlEscape(s).replace(/"/g, '&quot;'); }
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
 function xmlNum(n) {
   if (n === undefined || n === null || isNaN(n) || n < 0) return '0.00';
@@ -127,8 +128,8 @@ function buildShopitemXml(p) {
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (p.image || p.energyLabelUrl) {
     parts.push('<IMAGES>');
-    if (p.image) parts.push(`  <IMAGE>${xmlEscape(p.image)}</IMAGE>`);
-    if (p.energyLabelUrl) parts.push(`  <IMAGE>${xmlEscape(p.energyLabelUrl)}</IMAGE>`);
+    if (p.image) parts.push(`  <IMAGE description="${xmlAttr(p.name)}">${xmlEscape(p.image)}</IMAGE>`);
+    if (p.energyLabelUrl) parts.push(`  <IMAGE description="${xmlAttr(p.name + ' - energetický štítok')}">${xmlEscape(p.energyLabelUrl)}</IMAGE>`);
     parts.push('</IMAGES>');
   }
 

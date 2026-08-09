@@ -95,6 +95,10 @@ function humanizeDocLabel(url) {
 }
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function xmlAttr(s) { return xmlEscape(s).replace(/"/g, '&quot;'); }
+function imageAltFor(name, index, total) {
+  return total > 1 ? `${name} - obrázok ${index + 1}` : name;
+}
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
 function xmlNum(n) {
   if (n === undefined || n === null || isNaN(n) || n < 0) return '0.00';
@@ -137,7 +141,7 @@ function buildShopitemXml(p) {
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (p.images.length) {
     parts.push('<IMAGES>');
-    p.images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));
+    p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));
     parts.push('</IMAGES>');
   }
   if (p.params.length) {

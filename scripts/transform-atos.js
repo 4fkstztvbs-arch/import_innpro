@@ -102,6 +102,13 @@ function resolveAtosCategories(categoryTexts) {
 }
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function xmlAttr(s) { return xmlEscape(s).replace(/"/g, '&quot;'); }
+// Shoptet falls back to the image filename for alt text when <IMAGE> has no description attribute
+// — without this, product photos get alt="x ien245647" (our proxy filename) instead of the
+// product name, which hurts accessibility and image-search SEO.
+function imageAltFor(name, index, total) {
+  return total > 1 ? `${name} - obrázok ${index + 1}` : name;
+}
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
 function xmlNum(n) { return (Math.round(n * 100) / 100).toFixed(2); }
 function stripTags(html) { return String(html || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim(); }
@@ -143,7 +150,7 @@ function buildShopitemXml(p) {
   const images = (CDN_IMAGES[p.code] && CDN_IMAGES[p.code].length) ? CDN_IMAGES[p.code] : p.images;
   if (images.length) {
     parts.push('<IMAGES>');
-    images.forEach((img) => parts.push(`  <IMAGE>${xmlEscape(img)}</IMAGE>`));
+    images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, images.length))}">${xmlEscape(img)}</IMAGE>`));
     parts.push('</IMAGES>');
   }
   if (p.params.length) {
