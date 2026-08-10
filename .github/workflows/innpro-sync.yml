@@ -29,6 +29,7 @@ jobs:
           INNPRO_LIGHT_URL: ${{ secrets.INNPRO_LIGHT_URL }}
           INNPRO_MARKUP: '15'
           INNPRO_OUT: output/innpro.xml
+          HEUREKA_PRICE_OVERRIDE: '1'
         run: node scripts/transform-innpro.js
 
       - name: Commit updated output

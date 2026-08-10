@@ -33,6 +33,7 @@ jobs:
           KB_EXCLUDE_UNAVAILABLE: '1'
           KB_CHECK_ENERGY_LABELS: '1'
           KB_OUT: output/kb.xml
+          HEUREKA_PRICE_OVERRIDE: '1'
         run: node scripts/transform-kb.js
 
       - name: Enrich with Icecat data (weight, extra images, energy labels, specs, description)

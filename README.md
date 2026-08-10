@@ -115,13 +115,12 @@ ATOS píše zoznam kompatibilných zariadení (TV, DVB-T/satelitné prijímače,
 
 Momentálne pokrýva **254 produktov / 1136 unikátnych TV modelov** (plus prijímače/Blu-ray). Pri satelitných prijímačoch je občas v zdrojovom texte značka uvedená len raz pred viacerými číslami modelov oddelenými čiarkou (napr. "AB Cryptobox 600, 650, 652 HD") — rozdelí sa to na 3 samostatné hodnoty, z ktorých druhá a tretia stratia predponu značky. Pri TV zozname (hlavný prípad) sa tento problém nevyskytuje — každý kód je samostatný a jednoznačný.
 
-## Heureka — automatická úprava cien (zatiaľ VYPNUTÁ)
+## Heureka — automatická úprava cien (ZAPNUTÁ od 2026-08-10)
 
-Denne (21:00 UTC, `.github/workflows/heureka-price-report.yml`) sa spracuje Heureka sortiment report nahraný do `data/heureka-reports/` a pripraví sa `price-targets.json` (návrh, o koľko zvýšiť/znížiť cenu podľa konkurencie — pozri `reports/heureka-cenovy-navrh-*.md`). Tento návrh **sa zatiaľ live nepremieta do cien** — je za centrálnym vypínačom.
+Denne (21:00 UTC, `.github/workflows/heureka-price-report.yml`) sa spracuje Heureka sortiment report nahraný do `data/heureka-reports/` a pripraví sa `price-targets.json` (návrh, o koľko zvýšiť/znížiť cenu podľa konkurencie — pozri `reports/heureka-cenovy-navrh-*.md`). Tento návrh sa premieta do cien pri najbližšom nočnom behu dodávateľa (ATOS/InnPro/K+B/Solight).
 
-- **Stav:** vypnuté (vedomé rozhodnutie, 2026-08-07). Príprava dát beží, nič sa reálne nemení.
-- **Zapnutie:** pridaj `HEUREKA_PRICE_OVERRIDE: '1'` do `env:` sekcie `.github/workflows/<dodavatel>-sync.yml` pre dodávateľa, kde to chceš aktívne (dá sa zapínať po jednom).
-- **Vypnutie:** odstráň tú istú premennú (alebo ju daj na hociakú inú hodnotu než `'1'`).
+- **Stav:** zapnuté (2026-08-10) pre ATOS, InnPro, K+B, Solight. MONACOR zámerne nepoužíva (nemá heureka-price-targets prepojenie).
+- **Zapnutie/vypnutie:** riadi sa premennou `HEUREKA_PRICE_OVERRIDE: '1'` v `env:` sekcii kroku "Run ... transform" v `.github/workflows/<dodavatel>-sync.yml`. Vypneš odstránením tej premennej (alebo zmenou hodnoty na čokoľvek iné než `'1'`).
 - Detaily mechanizmu (floor 5 % marže, K+B výnimka, smer pohybu ceny) sú v `reports/prehlad-importov.md` sekcia 4.4.
 
 ## Čo sa importuje
