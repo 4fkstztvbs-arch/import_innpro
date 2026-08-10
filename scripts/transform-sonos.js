@@ -30,6 +30,13 @@ const STORE_NAME = process.env.SONOS_STORE_NAME || 'premiumstore.sk';
 
 const CATEGORY_MAP = JSON.parse(fs.readFileSync(path.join(__dirname, 'sonos-mapping.json'), 'utf-8'));
 const PARAM_LABELS = JSON.parse(fs.readFileSync(path.join(__dirname, 'sonos-param-labels.json'), 'utf-8'));
+// Hand-picked from sonos.com (official manufacturer site — no proxy needed, unlike the WiiM/
+// audio.sk situation) for SKUs the DisplayME catalog export has no photos for at all. Only
+// covers the newer/less common color variants that were worth the manual lookup (Roam 2
+// Sunset/Wave/Olive, Move 2 Olive) — see the conversation that produced this file for what was
+// checked and not found (Era 100 Pro Pair, Surface Mount Pair, Era 300 Stand, ERA power cable —
+// look like Sonos's trade/install line, not on the consumer site).
+const OFFICIAL_IMAGES = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'sonos-official-images.json'), 'utf-8'));
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlAttr(s) { return xmlEscape(s).replace(/"/g, '&quot;'); }
@@ -154,8 +161,11 @@ async function main() {
     const live = stock.get(rec.sku);
     if (live) stats.matchedLiveStock++;
 
+    const images = rec.images.length ? rec.images : (OFFICIAL_IMAGES[rec.sku] || []);
+    if (images !== rec.images && images.length) stats.officialImagesUsed = (stats.officialImagesUsed || 0) + 1;
+
     const hasAnyPrice = (live && live.incVatPriceEur > 0) || rec.priceEur > 0;
-    if (!hasAnyPrice && !rec.images.length) { stats.skippedPosOrNoPrice++; return; }
+    if (!hasAnyPrice && !images.length) { stats.skippedPosOrNoPrice++; return; }
 
     const price = roundPrice(live && live.incVatPriceEur > 0 ? live.incVatPriceEur : rec.priceEur);
     if (!price) { stats.skippedPosOrNoPrice++; return; }
@@ -175,7 +185,7 @@ async function main() {
     const shopitem = buildShopitemXml({
       code: rec.sku, ean: rec.ean, name: rec.name, category,
       description: buildDescription(rec), shortDescription,
-      images: rec.images, textProperties: textPropertyTags(rec),
+      images, textProperties: textPropertyTags(rec),
       availability, weightKg: rec.weightBruttoKg, price, seoTitle, metaDescription,
     });
     out.write(shopitem + '\n');

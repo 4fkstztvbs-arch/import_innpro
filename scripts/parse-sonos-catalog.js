@@ -9,8 +9,16 @@
 //    is whichever has more of: a real (multi-segment) category, a price, and at least one image.
 //  - "category" with only one segment (e.g. bare "Audio") isn't enough to place in the shop's
 //    tree, so it's treated the same as no category at all.
+//  - A few SKUs are junk rows, not real distinct variants — kept out entirely rather than scored
+//    against a sibling entry, since there's no other row to lose to:
+//     "NA-ACEG1R21" ("Sonos Ace", no color) — no EAN, no images, a price that doesn't match
+//     either real colored variant (499 vs. 449 for ACEG1R21/ACEG1R21BLK), and a description that
+//     describes a smart speaker, not headphones. "Sonos Ace Black"/"Sonos Ace White" already
+//     cover this product properly.
 
 const { XMLParser } = require('fast-xml-parser');
+
+const JUNK_SKUS = new Set(['NA-ACEG1R21']);
 
 const parser = new XMLParser({
   ignoreAttributes: true,
@@ -41,7 +49,7 @@ function parseSonosCatalog(xmlText) {
   const bySku = new Map();
   rawItems.forEach((raw) => {
     const sku = text(raw.sku);
-    if (!sku) return;
+    if (!sku || JUNK_SKUS.has(sku)) return;
 
     const params = {};
     // param-audio is the only populated param-* block for this brand (param-gril and
