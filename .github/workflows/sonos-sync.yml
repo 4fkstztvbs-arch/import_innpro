@@ -1,0 +1,49 @@
+name: Sonos sync
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # 4:00 UTC daily — inside Shoptet's 00:00–07:00 "úplný import" window
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Run Sonos transform
+        env:
+          SONOS_CATALOG_XML: data/sonos-displayme-catalog.xml
+          SONOS_STOCK_URL: ${{ secrets.SONOS_STOCK_URL }}
+          SONOS_OUT: output/sonos.xml
+        run: node scripts/transform-sonos.js
+
+      - name: Commit updated output
+        run: |
+          git config user.name "sonos-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && echo "No changes" || git commit -m "Automatický Sonos sync $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            echo "Push failed (attempt $i) — another workflow likely pushed at the same time. Retrying in $((i*8))s..."
+            sleep $((i*8))
+            if [ "$i" = "5" ]; then
+              echo "::error::Push failed after 5 attempts"
+              exit 1
+            fi
+          done

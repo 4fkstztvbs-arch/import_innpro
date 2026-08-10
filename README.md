@@ -41,6 +41,8 @@ Na rozdiel od WiiM/KEF má DisplayME **dva zdroje**, kombinované v `scripts/tra
 
 **Ostatné:** `MANUFACTURER` napevno "Sonos" (feed ho nikdy nevypĺňa). Kategórie namapované do existujúceho stromu cez `scripts/sonos-mapping.json` (rovnaký princíp ako `wiim-mapping.json`). Technické parametre (`param-audio`, 86 rôznych kľúčov naprieč katalógom) aj logistické údaje (rozmery/hmotnosť produktu, balenia, kartónu, ks/kartón/paleta, krajina pôvodu, HS kód) idú ako `TEXT_PROPERTY` — Shoptet nemá natívne pole na rozmery, `TEXT_PROPERTY` je overený mechanizmus z ostatných dodávateľov. `AVAILABILITY` = "Skladom" pri live sklade &gt;0, inak "Na objednávku" (aj pre produkty, ktoré live feed vôbec nemá).
 
+**Nočný beh (`.github/workflows/sonos-sync.yml`):** ťahá len live cenník/dostupnosť (katalóg ostáva ten istý, kým ho niekto ručne nenahradí) — takže na rozdiel od WiiM/KEF beží aj na crone (4:00 UTC denne), nie len na `workflow_dispatch`. Vyžaduje repozitárový Secret `SONOS_STOCK_URL` (Settings → Secrets and variables → Actions) s hodnotou live URL feedu. Bez tohto secretu beh zlyhá s chybou "Missing SONOS_STOCK_URL".
+
 ---
 
 Odporúčam toto do **toho istého repozitára**, čo už máš pre InnPro (`import_innpro`) — ušetríš si opakovanie nastavenia GitHub Pages. Package.json závislosti (`sax`, `fast-xml-parser`) sú rovnaké, netreba nič duplicitne inštalovať.
