@@ -27,6 +27,22 @@ Zvyšných 13 produktov (príslušenstvo, Vibelink, Sound Lite Twin Pack, pár f
 
 ---
 
+## Sonos (DisplayME)
+
+Na rozdiel od WiiM/KEF má DisplayME **dva zdroje**, kombinované v `scripts/transform-sonos.js`:
+- `data/sonos-displayme-catalog.xml` — jednorazový/periodický katalógový export (názov, popis, obrázky priamo funkčné z `display-me.boost.space` bez proxy, kategória, technické parametre, logistické údaje). Bez známeho live URL, rovnaký režim ako WiiM PDF — po novom exporte treba súbor nahradiť a skript spustiť znova.
+- **Live cenník/dostupnosť** (`SONOS_STOCK_URL = https://feed.cloudone.cz/displayme/?action=DPMGetData&BPAuth=DM&Feed=WhsMocCzkEur`) — spoločný feed DisplayME pre všetky značky, filtrovaný na Sonos podľa mena. Toto **je** live URL, dá sa ťahať na crone aj bez nového katalógového exportu — ceny/dostupnosť v ňom sú vždy aktuálne. Cena vo feede je **bez DPH**, prepočet na DPH vrátane je overený krížovou kontrolou oproti katalógovej `rrp-retail-price-eur` (zhoda do centu na všetkých prekrývajúcich sa SKU).
+
+**Čistenie dát z katalógu** (`scripts/parse-sonos-catalog.js`):
+- **Duplicity zlúčené** podľa SKU — z dvoch záznamov sa berie ten úplnejší (kategória + cena + obrázky).
+- **Produkty bez použiteľnej kategórie vynechané** (4 ks) — vrátane prípadov, keď je kategória len jednoslovná ("Audio" bez podkategórie).
+- **POS/predajné doplnky vynechané** (5 ks) — položky bez ceny aj bez obrázkov v oboch zdrojoch (napr. "OSL Shelftop", "Shelf Topper" — merchandising vybavenie do predajne, nie tovar na predaj).
+- Výsledok: **109 produktov** z pôvodných 120.
+
+**Ostatné:** `MANUFACTURER` napevno "Sonos" (feed ho nikdy nevypĺňa). Kategórie namapované do existujúceho stromu cez `scripts/sonos-mapping.json` (rovnaký princíp ako `wiim-mapping.json`). Technické parametre (`param-audio`, 86 rôznych kľúčov naprieč katalógom) aj logistické údaje (rozmery/hmotnosť produktu, balenia, kartónu, ks/kartón/paleta, krajina pôvodu, HS kód) idú ako `TEXT_PROPERTY` — Shoptet nemá natívne pole na rozmery, `TEXT_PROPERTY` je overený mechanizmus z ostatných dodávateľov. `AVAILABILITY` = "Skladom" pri live sklade &gt;0, inak "Na objednávku" (aj pre produkty, ktoré live feed vôbec nemá).
+
+---
+
 Odporúčam toto do **toho istého repozitára**, čo už máš pre InnPro (`import_innpro`) — ušetríš si opakovanie nastavenia GitHub Pages. Package.json závislosti (`sax`, `fast-xml-parser`) sú rovnaké, netreba nič duplicitne inštalovať.
 
 ## Čo pridať do existujúceho repozitára
