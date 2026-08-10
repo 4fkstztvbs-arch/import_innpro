@@ -17,6 +17,16 @@ Po zmene DNS treba v Shoptet administrácii (Nastavenia → Prepojenie → Presu
 
 ---
 
+## WiiM — cenník (PDF) + obrázky/popisy z audio.sk
+
+WiiM (distribútor Perfect Sound Group) posiela len ručne rozposielaný PDF cenník (`data/wiim-pricelist.pdf`), bez obrázkov, bez skladovej dostupnosti — `scripts/transform-wiim.js` z neho postaví `output/wiim.xml` (29 produktov, kategórie namapované do existujúceho stromu cez `scripts/wiim-mapping.json`, dostupnosť napevno "Na objednávku"). Keďže nejde o live feed, spúšťa sa ručne (`workflow_dispatch`), nie na crone — po novej verzii PDF stačí nahradiť súbor a znova spustiť skript.
+
+**Obrázky a popisy (2026-08-10):** doplnené pre 16 z 29 produktov (tie, čo audio.sk skutočne predáva) ručným zoškrabaním z ich produktových stránok (`scripts/enrich-wiim-audiosk.js` + `data/wiim-audiosk-enrichment.json`) — vedomé rozhodnutie napriek tomu, že **audio.sk je priamy konkurenčný e-shop**, nie výrobca/distribútor, takže ide o použitie cudzieho (možno chráneného) obsahu. Obrázky sa neťahajú priamo — prechádzajú cez vlastný Cloudflare Worker (`cloudflare-worker-wiim-audiosk/`, rovnaký princíp ako ATOS/Solight proxy, len s explicitným whitelistom presných ciest namiesto vzoru podľa mena súboru, keďže `cdn.myshoptet.com` je zdieľaná infraštruktúra naprieč všetkými Shoptet shopmi). `WIIM_AUDIOSK_PROXY_BASE` treba nastaviť na URL nasadeného Workera pred spustením `enrich-wiim-audiosk.js`, inak skript len upozorní a linkuje rovno na audio.sk.
+
+Zvyšných 13 produktov (príslušenstvo, Vibelink, Sound Lite Twin Pack, pár farebných variant) audio.sk nepredáva — tie ostávajú bez obrázkov a s pôvodným (českým) popisom z cenníka.
+
+---
+
 Odporúčam toto do **toho istého repozitára**, čo už máš pre InnPro (`import_innpro`) — ušetríš si opakovanie nastavenia GitHub Pages. Package.json závislosti (`sax`, `fast-xml-parser`) sú rovnaké, netreba nič duplicitne inštalovať.
 
 ## Čo pridať do existujúceho repozitára
