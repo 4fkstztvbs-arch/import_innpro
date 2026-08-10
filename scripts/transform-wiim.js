@@ -13,10 +13,20 @@
 // per instruction, availability is hardcoded to "Na objednávku" for every product, and images
 // are left for manual follow-up.
 //
+// Categories are mapped into the shop's EXISTING category tree (scripts/wiim-mapping.json,
+// keyed by product family name — e.g. "WiiM Bar" — since the PDF's own section headings don't
+// line up 1:1 with Shoptet categories: its "Reproduktory" section alone mixes active speakers,
+// a subwoofer and a soundbar, which belong in three different existing leaves). Paths were
+// picked by matching against reports/strom-kategorii-2026-08-07.md and cross-checked against
+// scripts/heureka-mapping.json (which already carries Heureka category IDs for most of them,
+// confirming they're real, already-used branches — not new ones). A product family missing
+// from the map falls back to a generic bucket and logs a warning so it doesn't silently vanish
+// from categories when a future price list adds a new product line.
+//
 // Usage: node transform-wiim.js
 // Requires poppler-utils' `pdftotext` on PATH.
 // Optional env vars: WIIM_PDF (data/wiim-pricelist.pdf), WIIM_OUT (output/wiim.xml),
-//                     WIIM_MARKUP (0), WIIM_ROOT_CATEGORY (WiiM), WIIM_STORE_NAME (premiumstore.sk)
+//                     WIIM_MARKUP (0), WIIM_STORE_NAME (premiumstore.sk)
 
 const fs = require('fs');
 const path = require('path');
@@ -28,9 +38,10 @@ const { heurekaCategoryIdFor } = require('./heureka-category');
 const PDF_PATH = process.env.WIIM_PDF || path.join(__dirname, '..', 'data', 'wiim-pricelist.pdf');
 const OUT_PATH = process.env.WIIM_OUT || path.join(__dirname, '..', 'output', 'wiim.xml');
 const MARKUP_PCT = parseFloat(process.env.WIIM_MARKUP || '0');
-const ROOT_CATEGORY = process.env.WIIM_ROOT_CATEGORY || 'WiiM';
 const STORE_NAME = process.env.WIIM_STORE_NAME || 'premiumstore.sk';
 const AVAILABILITY = 'Na objednávku';
+const FALLBACK_CATEGORY = 'TV, audio a video > Audio technika > HiFi komponenty';
+const CATEGORY_MAP = JSON.parse(fs.readFileSync(path.join(__dirname, 'wiim-mapping.json'), 'utf-8'));
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
@@ -101,6 +112,7 @@ function main() {
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   const seenCodes = new Set();
+  const unmappedProducts = new Set();
   const stats = { total: 0, written: 0, skippedDuplicateCode: 0, skippedNoPrice: 0, tbaSkuFallback: 0 };
 
   records.forEach((r) => {
@@ -116,7 +128,11 @@ function main() {
     seenCodes.add(code);
 
     const name = `${r.productName} ${r.color}`.trim();
-    const category = `${ROOT_CATEGORY} > ${r.category}`;
+    let category = CATEGORY_MAP[r.productName];
+    if (!category) {
+      category = FALLBACK_CATEGORY;
+      unmappedProducts.add(r.productName);
+    }
     const price = roundPrice(r.priceEur * (1 + MARKUP_PCT / 100));
 
     const seoTitle = truncateAtWord(`${name} | ${STORE_NAME}`, 70);
@@ -135,6 +151,11 @@ function main() {
   out.end();
 
   console.log(JSON.stringify(stats, null, 2));
+  if (unmappedProducts.size) {
+    console.warn('WARNING: no category mapping for these product families (used fallback ' +
+      `"${FALLBACK_CATEGORY}") — add them to scripts/wiim-mapping.json:`);
+    unmappedProducts.forEach((n) => console.warn('  -', n));
+  }
   console.log('Output written to', OUT_PATH);
 }
 
