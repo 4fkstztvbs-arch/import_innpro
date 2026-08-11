@@ -1,0 +1,11 @@
+{
+  "_comment": "Vylúčenie z rozšíreného Heureka CPC feedu (HEUREKA_HIDDEN=1). 'categories': top-level kategórie s najnižším ziskom na kus podľa reports/heureka-kategorie-marza.md — porovnáva sa proti prvému segmentu p.defaultCategory (napr. 'Auto-moto > Autorádiá' -> 'Auto-moto'). 'priceBelow': produkty s PRICE_VAT pod túto hranicu (v EUR) sa vylúčia bez ohľadu na kategóriu — lacný tovar sa na Heureke neoplatí (CPC klik zožerie neprimeranú časť zisku, aj keď produkty pod 0,66 € sú aj tak zadarmo). 0 = vypnuté.",
+  "priceBelow": 10,
+  "categories": [
+    "Auto-moto",
+    "Elektroinštalačný materiál",
+    "Náradie a dielňa",
+    "Zdravie a starostlivosť",
+    "Záhrada"
+  ]
+}

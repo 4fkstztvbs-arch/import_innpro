@@ -17,7 +17,7 @@ const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-kb');
 const { roundPrice, roundPriceUp } = require('./round-price');
-const { heurekaCategoryIdFor } = require('./heureka-category');
+const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 
 const ZBOZI_URL = process.env.KB_ZBOZI_URL;
@@ -126,6 +126,7 @@ function buildShopitemXml(p) {
   }
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
+  if (isHeurekaHidden(p.defaultCategory, p.price)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
   if (p.image || p.energyLabelUrl) {
     parts.push('<IMAGES>');
     if (p.image) parts.push(`  <IMAGE description="${xmlAttr(p.name)}">${xmlEscape(p.image)}</IMAGE>`);

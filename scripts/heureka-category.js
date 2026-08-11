@@ -17,4 +17,20 @@ function heurekaCategoryIdFor(categoryPath) {
   return MAPPING[categoryPath] || null;
 }
 
-module.exports = { heurekaCategoryIdFor };
+// HEUREKA_HIDDEN — vylúčenie z rozšíreného Heureka CPC feedu podľa top-level kategórie a/alebo
+// nízkej ceny. Oboje sú obchodné rozhodnutia (návrh v reports/heureka-kategorie-marza.md pre
+// kategórie; cenový strop pridaný na žiadosť 2026-08-11 — lacné produkty sa na Heureke neoplatia
+// propagovať), nie automaticky odvodené — uprav scripts/heureka-hidden-categories.json.
+const HIDDEN_PATH = path.join(__dirname, 'heureka-hidden-categories.json');
+const HIDDEN_CONFIG = JSON.parse(fs.readFileSync(HIDDEN_PATH, 'utf-8'));
+const HIDDEN_TOP_CATEGORIES = new Set((HIDDEN_CONFIG.categories || []).map((c) => c.trim()));
+const HIDDEN_PRICE_BELOW = Number.isFinite(HIDDEN_CONFIG.priceBelow) ? HIDDEN_CONFIG.priceBelow : 0;
+
+function isHeurekaHidden(categoryPath, priceInclVat) {
+  if (Number.isFinite(priceInclVat) && HIDDEN_PRICE_BELOW > 0 && priceInclVat < HIDDEN_PRICE_BELOW) return true;
+  if (!categoryPath) return false;
+  const top = categoryPath.split('>')[0].trim();
+  return HIDDEN_TOP_CATEGORIES.has(top);
+}
+
+module.exports = { heurekaCategoryIdFor, isHeurekaHidden };

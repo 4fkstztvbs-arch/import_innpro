@@ -33,7 +33,7 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const { parseWiimPricelist } = require('./parse-wiim-pricelist');
 const { roundPrice } = require('./round-price');
-const { heurekaCategoryIdFor } = require('./heureka-category');
+const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 
 const PDF_PATH = process.env.WIIM_PDF || path.join(__dirname, '..', 'data', 'wiim-pricelist.pdf');
 const OUT_PATH = process.env.WIIM_OUT || path.join(__dirname, '..', 'output', 'wiim.xml');
@@ -83,6 +83,7 @@ function buildShopitemXml(p) {
     parts.push('</CATEGORIES>');
     const heurekaCategoryId = heurekaCategoryIdFor(p.category);
     if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
+  if (isHeurekaHidden(p.defaultCategory, p.price)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
   }
   // No <IMAGES> — none available from the price list; to be added manually.
   parts.push(`<AVAILABILITY>${xmlCdata(AVAILABILITY)}</AVAILABILITY>`);
