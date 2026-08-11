@@ -97,9 +97,13 @@ function loadFeedEnrichment() {
     const imgM = block.match(/<IMGURL>([\s\S]*?)<\/IMGURL>/);
     const imgAltM = block.match(/<IMGURL_ALTERNATIVE>([\s\S]*?)<\/IMGURL_ALTERNATIVE>/);
     const descM = block.match(/<DESCRIPTION>([\s\S]*?)<\/DESCRIPTION>/);
+    const deliveryM = block.match(/<DELIVERY_DATE>([\s\S]*?)<\/DELIVERY_DATE>/);
     const images = [imgM && imgM[1].trim(), imgAltM && imgAltM[1].trim()].filter(Boolean);
     const description = descM ? he.decode(he.decode(descM[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim())) : '';
-    map.set(norm(idM[1]), { images, description });
+    // BASYS's own DELIVERY_DATE: "0" = ships immediately (in stock), any other number = days
+    // until it can ship (on order from their supplier) — the only stock signal this feed has.
+    const deliveryDate = deliveryM ? deliveryM[1].trim() : null;
+    map.set(norm(idM[1]), { images, description, deliveryDate });
   }
   return map;
 }
@@ -125,7 +129,7 @@ function buildShopitemXml(p) {
     parts.push('</IMAGES>');
   }
   if (p.onPromo) parts.push('<FLAGS><ACTION>1</ACTION><NEW>0</NEW><TIP>0</TIP></FLAGS>');
-  parts.push(`<AVAILABILITY>${xmlCdata('Na objednávku')}</AVAILABILITY>`);
+  parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
   parts.push('<VISIBLE>1</VISIBLE>');
   parts.push('<VISIBILITY>visible</VISIBILITY>');
   parts.push('<CURRENCY>EUR</CURRENCY>');
@@ -175,6 +179,11 @@ function main() {
       ? enrich.description
       : `<p>${xmlEscape(item.name)}${item.color ? ' – farba: ' + xmlEscape(item.color) : ''}</p>`;
     const images = hasEnrichment ? enrich.images : [];
+    // "0" = BASYS ships it immediately (in stock); any other number of days, or no match at all
+    // in the feed (17 products), falls back to "Na objednávku" — the only honest default when we
+    // have no real stock signal for a product.
+    const availability = hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
+    if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
 
     const defaultCategory = PRICE_LIST_CATEGORY_MAP[item.category] || 'TV, audio a video > Audio technika';
 
@@ -187,10 +196,10 @@ function main() {
 
     const shortDescription = truncateAtWord(stripTags(description), 200);
     const seoTitle = truncateAtWord(`${name} | ${STORE_NAME}`, 70);
-    const metaDescription = truncateAtWord(`${name} – na objednávku. Kúpte na ${STORE_NAME}.`, 155);
+    const metaDescription = truncateAtWord(`${name} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
     const shopitem = buildShopitemXml({
-      code: 'BASYS-' + item.objKod, ean: item.ean, name, description, shortDescription,
+      code: 'BASYS-' + item.objKod, ean: item.ean, name, description, shortDescription, availability,
       defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
     });
     out.write(shopitem + '\n');
