@@ -1,0 +1,31 @@
+{
+  "_comment": "CATEGORYTEXT z BASYS feedu -> naša cesta kategórie. Nespoľahlivé/marketingové štítky (Špeciálna ponuka, Pre ženy, inActionProductsHU...) idú na fallback podľa výrobcu (Bose = spotrebiteľské, Bose Pro = profesionálne) v transform-basys.js.",
+  "categoryMap": {
+    "Slúchadlá": "TV, audio a video > Audio technika > Slúchadlá",
+    "Slúchadlá do uší": "TV, audio a video > Audio technika > Slúchadlá",
+    "Slúchadlá na uši": "TV, audio a video > Audio technika > Slúchadlá",
+    "Slúchadlá pre slúchadlá": "TV, audio a video > Audio technika > Slúchadlá > Príslušenstvo",
+    "Slúchadlá pre ženy": "TV, audio a video > Audio technika > Slúchadlá",
+    "Náhlavné súpravy": "TV, audio a video > Audio technika > Slúchadlá",
+    "Reprosústavy a reproduktory": "TV, audio a video > Audio technika > Reproduktory",
+    "Subwoofery": "TV, audio a video > Audio technika > Reproduktory",
+    "Soundbary": "TV, audio a video > Audio technika",
+    "Domáce kiná": "TV, audio a video > Audio technika",
+    "AV prijímače": "TV, audio a video > Audio technika",
+    "Audio doplnky a príslušenstvo": "TV, audio a video > Príslušenstvo k TV, audio, video",
+    "Stojany a držiaky na reproduktory": "TV, audio a video > TV stolíky a držiaky",
+    "Inštalovaný zvuk": "Profesionálna audio technika",
+    "Aparatúry pre univerzálne použitie": "Profesionálna audio technika",
+    "PA reproduktor": "Profesionálna audio technika",
+    "Zosilňovače": "Profesionálna audio technika",
+    "Mixážne pulty": "Profesionálna audio technika",
+    "Mikrofóny": "Profesionálna audio technika",
+    "Konferenčná technika": "Profesionálna audio technika",
+    "DJ príslušenstvo": "Profesionálna audio technika",
+    "Musical rehearsal room sets": "Profesionálna audio technika"
+  },
+  "fallbackByManufacturer": {
+    "Bose": "TV, audio a video > Audio technika",
+    "Bose Pro": "Profesionálna audio technika"
+  }
+}
