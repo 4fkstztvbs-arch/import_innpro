@@ -112,11 +112,19 @@ function truncateAtWord(s, maxLen) {
   return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
 }
 
+// Cache-bust query param: Shoptet appears to skip re-downloading an image whose URL string is
+// unchanged from a previous (possibly failed) import attempt — a large batch of proxy URLs that
+// failed while the Cloudflare Worker was still cold/unstable right after deploy (2026-08-09)
+// stayed permanently imageless even after the worker became reliable, because the URL never
+// changed. Bumping this forces Shoptet to treat every URL as new and retry the download.
+// Increment only if another such stuck-batch is ever suspected again.
+const IMAGE_CACHE_BUST = 'v2';
+
 function fixImageUrl(rawUrl) {
   const cleaned = rawUrl.replace(/\s+/g, '');
   const fixed = cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
-  if (IMAGE_PROXY_BASE) return fixed.replace(/^https?:\/\/[^/]+/, IMAGE_PROXY_BASE);
-  return fixed;
+  const proxied = IMAGE_PROXY_BASE ? fixed.replace(/^https?:\/\/[^/]+/, IMAGE_PROXY_BASE) : fixed;
+  return IMAGE_PROXY_BASE ? `${proxied}?${IMAGE_CACHE_BUST}` : proxied;
 }
 
 function buildShopitemXml(p) {
