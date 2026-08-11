@@ -4380,7 +4380,7 @@ LED pásik je osadený 30 x SMD 5050 LED na 1 meter, čo zaručuje rovnomerné a
     <VALUE><![CDATA[Vonkajšie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 15.9.2026]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 15.8.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.30</WEIGHT></LOGISTIC>
@@ -4390,7 +4390,7 @@ LED pásik je osadený 30 x SMD 5050 LED na 1 meter, čo zaručuje rovnomerné a
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight diaľkovo ovládané vonkajšie zásuvky set 2 + 1, 2 zásuvky, 1…]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight diaľkovo ovládané vonkajšie zásuvky set 2 + 1, 2 zásuvky, 1 ovládač, learning code – dostupné od 15.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight diaľkovo ovládané vonkajšie zásuvky set 2 + 1, 2 zásuvky, 1 ovládač, learning code – dostupné od 15.8.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight prepäťová ochrana, 8z, USB A+C, 2m, biela]]></NAME>
@@ -7251,8 +7251,8 @@ Kábel je vybavený USB-C konektorom na oboch stranách, čo zaisťuje širokú 
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>4.40</PRICE_VAT>
-<PURCHASE_PRICE>2.30</PURCHASE_PRICE>
+<PRICE_VAT>6.50</PRICE_VAT>
+<PURCHASE_PRICE>3.40</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight USB-C 240W kábel s integrovaným stojanom | premiumstore.sk]]></SEO_TITLE>
@@ -9401,27 +9401,43 @@ Stĺpik je vybavený dvoma zásuvkami s krytkami, ktoré chránia pred vlhkosťo
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet zásuviek]]></NAME>
-    <VALUE><![CDATA[2]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
     <NAME><![CDATA[Napätie (V)]]></NAME>
     <VALUE><![CDATA[230 V]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
-    <VALUE><![CDATA[Záhradný stĺpik]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Bezdrôtové nabíjanie]]></NAME>
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
+    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
+    <VALUE><![CDATA[IP44]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
+    <VALUE><![CDATA[Záhradný stĺpik]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet zásuviek]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[Čierna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
     <NAME><![CDATA[Uzemnený]]></NAME>
     <VALUE><![CDATA[Áno]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
+    <NAME><![CDATA[USB nabíjanie]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
     <NAME><![CDATA[Dĺžka (m)]]></NAME>
+    <VALUE><![CDATA[1.5]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Prierez (mm2)]]></NAME>
     <VALUE><![CDATA[1.5]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
@@ -9431,22 +9447,6 @@ Stĺpik je vybavený dvoma zásuvkami s krytkami, ktoré chránia pred vlhkosťo
   <TEXT_PROPERTY>
     <NAME><![CDATA[Maximálna záťaž (W)]]></NAME>
     <VALUE><![CDATA[3680]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
-    <VALUE><![CDATA[IP44]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[Čierna]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Prierez (mm2)]]></NAME>
-    <VALUE><![CDATA[1.5]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[USB nabíjanie]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
@@ -14519,7 +14519,7 @@ Tradičné biele prevedenie s klasickým vzhľadom sa hodí do každej domácnos
     <VALUE><![CDATA[120]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 25.10.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
@@ -14529,7 +14529,7 @@ Tradičné biele prevedenie s klasickým vzhľadom sa hodí do každej domácnos
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 120m, biely | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 120m, biely – na objednávku. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 120m, biely – dostupné od 25.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED svetielko s diaľkovým ovládaním, 5 LED, 3x AA batérie]]></NAME>
@@ -19654,32 +19654,35 @@ LED pásik SMD3528 je navrhnutý s dôrazom na dlhú životnosť až 50 000 hod�
 <SHOPITEM>
 <NAME><![CDATA[Solight LED lineárne osvetlenie prepojiteľné, 24W, 2280lm, 4000K, 60cm]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[LED lineárne osvetlenie pre flexibilné inštalácie Moderné prepojiteľné LED lineárne osvetlenie je ideálnou voľbou pre osvetlenie interiérov, kde je kladený dôraz na variabilitu a efektivitu. Vďaka…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilné inštalácie</b><br>
+<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilné inštalácie</b><br />
 Moderné prepojiteľné LED lineárne osvetlenie je ideálnou voľbou pre osvetlenie interiérov, kde je kladený dôraz na variabilitu a efektivitu. Vďaka možnosti zavesenia, prisadenia k stene či stropu alebo zabudovania do podhľadu sa ľahko prispôsobí rôznym priestorovým požiadavkám. Osvetlenie je možné vzájomne prepojiť a napájať až do celkového príkonu 1000 W, čo umožňuje vytvoriť súvislé svetelné línie presne podľa potrieb vášho projektu. Zabudované výklopné konektory v uhle 90–270° zabezpečujú jednoduché a rýchle prepojenie jednotlivých svietidiel bez nutnosti zložitej inštalácie.</p>
-<p><b>Výkonné a úsporné svietenie s dlhou životnosťou</b><br>
-Svietidlo s príkonom 24 W poskytuje svetelný tok 2280 lm v neutrálnej bielej farbe (4000 K), čo zaručuje príjemné a rovnomerné osvetlenie s uhlom svietenia 60 °. Vysoká životnosť LED až 30 000 hodín a kvalitné podanie farieb (CRI > 80) prispievajú k dlhodobej spoľahlivosti a komfortu. Hliníkové telo v elegantnej čiernej farbe a krytie IP 20 podčiarkujú moderný vzhľad aj odolnosť svietidla. Súčasťou balenia je príslušenstvo pre prisadenú montáž, ďalšie varianty je možné dokúpiť. Osvetlenie je dodávané v krabici a spĺňa energetickú triedu F.</p>
-<UL>
-<LI>prepojiteľné LED lineárne osvetlenie</LI>
-<LI>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</LI>
-<LI>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</LI>
-<LI>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</LI>
-<LI>príkon: 24W</LI>
-<LI>svetelný tok: 2280lm</LI>
-<LI>teplota svetla/chromatickosti: 4000K (neutrálna biela)</LI>
-<LI>životnosť LED: 30.000 hodín</LI>
-<LI>uhol svietenia: 60°</LI>
-<LI>vykreslenie farieb: CRi>80</LI>
-<LI>krytie: IP20</LI>
-<LI>vstupné napätie : AC170-265V</LI>
-<LI>prevádzková teplota: -20 °C až 45 °C</LI>
-<LI>rozmery: 600 x 55 x 55mm</LI>
-<LI>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</LI>
-<LI>jednotlivé LED zdroje nemožno meniť</LI>
-<LI>materiál: hliník + PC</LI>
-<LI>farba: čierna</LI>
-<LI>balenie: krabica</LI>
-<LI>energetická trieda: F</LI>
-</UL><p><a href="https://www.solight.sk/documents/wo2001_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2001_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2001_fotometrick%C3%A1%20data.ldt" target="_blank" rel="noopener">Stiahnuť: Fotometrická data</a></p><p><a href="https://www.solight.sk/documents/wo2001_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2001_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2001_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p><p><a href="https://youtu.be/3L-rdFeaXSg" target="_blank" rel="noopener">Zobraziť video</a></p>]]></DESCRIPTION>
+
+<p><b>Výkonné a úsporné svietenie s dlhou životnosťou</b><br />
+Svietidlo s príkonom 24 W poskytuje svetelný tok 2280 lm v neutrálnej bielej farbe (4000 K), čo zaručuje príjemné a rovnomerné osvetlenie s uhlom svietenia 60 °. Vysoká životnosť LED až 30 000 hodín a kvalitné podanie farieb (CRI &gt; 80) prispievajú k dlhodobej spoľahlivosti a komfortu. Hliníkové telo v elegantnej čiernej farbe a krytie IP 20 podčiarkujú moderný vzhľad aj odolnosť svietidla. Súčasťou balenia je príslušenstvo pre prisadenú montáž, ďalšie varianty je možné dokúpiť. Osvetlenie je dodávané v krabici a spĺňa energetickú triedu F.</p>
+
+<ul>
+	<li>prepojiteľné LED lineárne osvetlenie</li>
+	<li>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</li>
+	<li>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</li>
+	<li>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</li>
+	<li>príkon: 24W</li>
+	<li>svetelný tok: 2280lm</li>
+	<li>teplota svetla/chromatickosti: 4000K (neutrálna biela)</li>
+	<li>životnosť LED: 30.000 hodín</li>
+	<li>uhol svietenia: 60°</li>
+	<li>vykreslenie farieb: CRi&gt;80</li>
+	<li>krytie: IP20</li>
+	<li>vstupné napätie : AC170-265 V&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+	<li>prevádzková teplota: -20 °C až 45 °C</li>
+	<li>rozmery: 600 x 55 x 55mm</li>
+	<li>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</li>
+	<li>jednotlivé LED zdroje nemožno meniť</li>
+	<li>materiál: hliník + PC</li>
+	<li>farba: čierna</li>
+	<li>balenie: krabica</li>
+	<li>energetická trieda: F</li>
+	<li>*&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+</ul><p><a href="https://www.solight.sk/documents/wo2001_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2001_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2001_fotometrick%C3%A1%20data.ldt" target="_blank" rel="noopener">Stiahnuť: Fotometrická data</a></p><p><a href="https://www.solight.sk/documents/wo2001_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2001_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2001_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p><p><a href="https://youtu.be/3L-rdFeaXSg" target="_blank" rel="noopener">Zobraziť video</a></p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -24664,6 +24667,13 @@ S dĺžkou 15 cm ponúka tento konektor dostatočnú flexibilitu pri zapojení, 
   <CATEGORY><![CDATA[Elektroinštalačný materiál > Osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektroinštalačný materiál > Osvetlenie > LED pásky]]></CATEGORY>
 </CATEGORIES>
+<IMAGES>
+  <IMAGE description="Solight napájací konektor pre 8mm LED pásky, 3pinový s 15cm vodičom - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm96.jpg</IMAGE>
+  <IMAGE description="Solight napájací konektor pre 8mm LED pásky, 3pinový s 15cm vodičom - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm96_1.jpg</IMAGE>
+  <IMAGE description="Solight napájací konektor pre 8mm LED pásky, 3pinový s 15cm vodičom - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm96_2.jpg</IMAGE>
+  <IMAGE description="Solight napájací konektor pre 8mm LED pásky, 3pinový s 15cm vodičom - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm96_3.jpg</IMAGE>
+  <IMAGE description="Solight napájací konektor pre 8mm LED pásky, 3pinový s 15cm vodičom - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm96_4.jpg</IMAGE>
+</IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
@@ -27812,7 +27822,7 @@ Maximálne zaťaženie 3680 W (16 A pri 230 V~) zabezpečuje bezpečnú prevádz
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 25.11.2026]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 25.8.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>2.10</WEIGHT></LOGISTIC>
@@ -27822,7 +27832,7 @@ Maximálne zaťaženie 3680 W (16 A pri 230 V~) zabezpečuje bezpečnú prevádz
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight predlžovací prívod na bubne, 4 zásuvky, 15m, oranžový kábel,…]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod na bubne, 4 zásuvky, 15m, oranžový kábel, 3x 1,5mm2 – dostupné od 25.11.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod na bubne, 4 zásuvky, 15m, oranžový kábel, 3x 1,5mm2 – dostupné od 25.8.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight HDMI kábel s Ethernetom, HDMI 1.4 A konektor - HDMI 1.4 A konektor, blister, 2m]]></NAME>
@@ -28992,32 +29002,35 @@ LED pásik je možné jednoducho skrátiť podľa potreby a zvyšné časti ďal
 <SHOPITEM>
 <NAME><![CDATA[Solight LED lineárne osvetlenie prepojiteľné, 36W, 3420lm, 4000K, 90cm]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[LED lineárne osvetlenie pre flexibilné inštalácie Prepojiteľné LED lineárne osvetlenie je ideálnou voľbou pre moderné interiéry, kde je kladený dôraz na variabilitu a efektivitu osvetlenia. Vďaka…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilné inštalácie</b><br>
+<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilné inštalácie</b><br />
 Prepojiteľné LED lineárne osvetlenie je ideálnou voľbou pre moderné interiéry, kde je kladený dôraz na variabilitu a efektivitu osvetlenia. Vďaka možnosti zavesenia, prisadenia k stene či stropu alebo zabudovania do podhľadu sa ľahko prispôsobí rôznym priestorovým požiadavkám. Osvetlenie je možné vzájomne prepojiť a napájať až do celkového príkonu 1000 W, čo umožňuje vytvoriť súvislé svetelné línie presne podľa potrieb vášho projektu. Využitie zabudovaných výklopných konektorov v uhle 90–270° zabezpečuje jednoduchú a rýchlu inštaláciu bez nutnosti zložitého zapájania.</p>
-<p><b>Moderný dizajn a vysoká účinnosť</b><br>
-Toto LED osvetlenie ponúka príkon 36 W, svetelný tok 3420 lm a neutrálne biele svetlo s teplotou 4000 K, ktoré je vhodné pre pracovné aj obytné priestory. Uhol svietenia 60° a vysoké podanie farieb (CRI > 80) zaručujú príjemné a prirodzené osvetlenie. Životnosť LED dosahuje až 30 000 hodín, čo minimalizuje potrebu údržby. Svietidlo je vyrobené z kvalitného hliníka a PC v elegantnej čiernej farbe, má rozmery 900 x 55 x 55 mm a je dodávané v krabici. Súčasťou balenia je príslušenstvo pre prisadenú montáž, ďalšie varianty je možné dokúpiť. Osvetlenie spĺňa krytie IP20 a je zaradené do energetickej triedy F.</p>
-<UL>
-<LI>prepojiteľné LED lineárne osvetlenie</LI>
-<LI>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</LI>
-<LI>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</LI>
-<LI>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</LI>
-<LI>príkon: 36W</LI>
-<LI>svetelný tok: 3420lm</LI>
-<LI>teplota svetla/chromatickosti: 4000K (neutrálna biela)</LI>
-<LI>životnosť LED: 30.000 hodín</LI>
-<LI>uhol svietenia: 60°</LI>
-<LI>vykreslenie farieb: CRi>80</LI>
-<LI>krytie: IP20</LI>
-<LI>vstupné napätie : AC170-265V</LI>
-<LI>prevádzková teplota: -20 °C až 45 °C</LI>
-<LI>rozmery: 900 x 55 x 55mm</LI>
-<LI>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</LI>
-<LI>jednotlivé LED zdroje nemožno meniť</LI>
-<LI>materiál: hliník + PC</LI>
-<LI>farba: čierna</LI>
-<LI>balenie: krabica</LI>
-<LI>energetická trieda: F</LI>
-</UL><p><a href="https://www.solight.sk/documents/wo2002_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2002_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2002_fotometrick%C3%A1%20data.ldt" target="_blank" rel="noopener">Stiahnuť: Fotometrická data</a></p><p><a href="https://www.solight.sk/documents/wo2002_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2002_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2002_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p><p><a href="https://youtu.be/3L-rdFeaXSg" target="_blank" rel="noopener">Zobraziť video</a></p>]]></DESCRIPTION>
+
+<p><b>Moderný dizajn a vysoká účinnosť</b><br />
+Toto LED osvetlenie ponúka príkon 36 W, svetelný tok 3420 lm a neutrálne biele svetlo s teplotou 4000 K, ktoré je vhodné pre pracovné aj obytné priestory. Uhol svietenia 60° a vysoké podanie farieb (CRI &gt; 80) zaručujú príjemné a prirodzené osvetlenie. Životnosť LED dosahuje až 30 000 hodín, čo minimalizuje potrebu údržby. Svietidlo je vyrobené z kvalitného hliníka a PC v elegantnej čiernej farbe, má rozmery 900 x 55 x 55 mm a je dodávané v krabici. Súčasťou balenia je príslušenstvo pre prisadenú montáž, ďalšie varianty je možné dokúpiť. Osvetlenie spĺňa krytie IP20 a je zaradené do energetickej triedy F.</p>
+
+<ul>
+	<li>prepojiteľné LED lineárne osvetlenie</li>
+	<li>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</li>
+	<li>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</li>
+	<li>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</li>
+	<li>príkon: 36W</li>
+	<li>svetelný tok: 3420lm</li>
+	<li>teplota svetla/chromatickosti: 4000K (neutrálna biela)</li>
+	<li>životnosť LED: 30.000 hodín</li>
+	<li>uhol svietenia: 60°</li>
+	<li>vykreslenie farieb: CRi&gt;80</li>
+	<li>krytie: IP20</li>
+	<li>vstupné napätie : AC170-265V&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+	<li>prevádzková teplota: -20 °C až 45 °C</li>
+	<li>rozmery: 900 x 55 x 55mm</li>
+	<li>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</li>
+	<li>jednotlivé LED zdroje nemožno meniť</li>
+	<li>materiál: hliník + PC</li>
+	<li>farba: čierna</li>
+	<li>balenie: krabica</li>
+	<li>energetická trieda: F</li>
+	<li>*&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+</ul><p><a href="https://www.solight.sk/documents/wo2002_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2002_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2002_fotometrick%C3%A1%20data.ldt" target="_blank" rel="noopener">Stiahnuť: Fotometrická data</a></p><p><a href="https://www.solight.sk/documents/wo2002_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2002_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2002_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p><p><a href="https://youtu.be/3L-rdFeaXSg" target="_blank" rel="noopener">Zobraziť video</a></p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -32277,6 +32290,13 @@ Konektor je dodávaný v praktickom balení po jednom kuse v sáčku, čo umož�
   <CATEGORY><![CDATA[Elektroinštalačný materiál > Osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektroinštalačný materiál > Osvetlenie > LED pásky]]></CATEGORY>
 </CATEGORIES>
+<IMAGES>
+  <IMAGE description="Solight krátky pevný konektor pre 8mm LED pásky, 3pinový - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm97.jpg</IMAGE>
+  <IMAGE description="Solight krátky pevný konektor pre 8mm LED pásky, 3pinový - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm97_1.jpg</IMAGE>
+  <IMAGE description="Solight krátky pevný konektor pre 8mm LED pásky, 3pinový - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm97_2.jpg</IMAGE>
+  <IMAGE description="Solight krátky pevný konektor pre 8mm LED pásky, 3pinový - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm97_3.jpg</IMAGE>
+  <IMAGE description="Solight krátky pevný konektor pre 8mm LED pásky, 3pinový - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm97_4.jpg</IMAGE>
+</IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
@@ -34273,32 +34293,35 @@ LED pásik SMD3528 ponúka životnosť až 50 000 hodín a svetelný uhol 120°,
 <SHOPITEM>
 <NAME><![CDATA[Solight LED lineárne osvetlenie prepojiteľné, 50W, 4750lm, 4000K, 120cm]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[LED lineárne osvetlenie pre flexibilné inštalácie Toto prepojiteľné LED lineárne osvetlenie je ideálnou voľbou pre moderné interiéry, kde je kladený dôraz na variabilitu a efektivitu osvetlenia.…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilné inštalácie</b><br>
+<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilné inštalácie</b><br />
 Toto prepojiteľné LED lineárne osvetlenie je ideálnou voľbou pre moderné interiéry, kde je kladený dôraz na variabilitu a efektivitu osvetlenia. Vďaka možnosti zavesenia, prisadenia k stene či stropu alebo zabudovania do podhľadu sa ľahko prispôsobí rôznym typom priestorov. Výklopné konektory umožňujú prepojenie svietidiel v uhle 90–270°, čo zabezpečuje jednoduchú inštaláciu a možnosť napájania viacerých svetiel až do celkového príkonu 1000 W. V balení nájdete príslušenstvo pre prisadenú montáž, pre ostatné typy inštalácií je možné dokúpiť ďalšie komponenty.</p>
-<p><b>Výkonné a úsporné svietenie v elegantnom prevedení</b><br>
-Svietidlo s príkonom 50 W poskytuje svetelný tok 4750 lm v neutrálnej bielej farbe (4000 K), čo zaručuje príjemné a rovnomerné osvetlenie s uhlom svietenia 60°. Vďaka vysokému indexu podania farieb CRI > 80 vyniknú farby v priestore prirodzene a verne. Životnosť LED dosahuje až 30 000 hodín, čo minimalizuje potrebu údržby. Osvetlenie je vyrobené z kombinácie hliníka a PC v elegantnej čiernej farbe, má rozmery 1200 x 55 x 55 mm a je určené pre vnútorné použitie (IP 20). Energetická trieda F a prevádzková teplota -20 °C až 45 °C podčiarkujú jeho univerzálnosť a spoľahlivosť.</p>
-<UL>
-<LI>prepojiteľné LED lineárne osvetlenie</LI>
-<LI>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</LI>
-<LI>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</LI>
-<LI>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</LI>
-<LI>príkon: 50W</LI>
-<LI>svetelný tok: 4750lm</LI>
-<LI>teplota svetla/chromatickosti: 4000K (neutrálna biela)</LI>
-<LI>životnosť LED: 30.000 hodín</LI>
-<LI>uhol svietenia: 60°</LI>
-<LI>vykreslenie farieb: CRi>80</LI>
-<LI>krytie: IP20</LI>
-<LI>vstupné napätie : AC170-265V</LI>
-<LI>prevádzková teplota: -20 °C až 45 °C</LI>
-<LI>rozmery: 1200 x 55 x 55mm</LI>
-<LI>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</LI>
-<LI>jednotlivé LED zdroje nemožno meniť</LI>
-<LI>materiál: hliník + PC</LI>
-<LI>farba: čierna</LI>
-<LI>balenie: krabica</LI>
-<LI>energetická trieda: F</LI>
-</UL><p><a href="https://www.solight.sk/documents/wo2003_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2003_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2003_fotometrick%C3%A1%20data.ldt" target="_blank" rel="noopener">Stiahnuť: Fotometrická data</a></p><p><a href="https://www.solight.sk/documents/wo2003_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2003_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2003_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p><p><a href="https://youtu.be/3L-rdFeaXSg" target="_blank" rel="noopener">Zobraziť video</a></p>]]></DESCRIPTION>
+
+<p><b>Výkonné a úsporné svietenie v elegantnom prevedení</b><br />
+Svietidlo s príkonom 50 W poskytuje svetelný tok 4750 lm v neutrálnej bielej farbe (4000 K), čo zaručuje príjemné a rovnomerné osvetlenie s uhlom svietenia 60°. Vďaka vysokému indexu podania farieb CRI &gt; 80 vyniknú farby v priestore prirodzene a verne. Životnosť LED dosahuje až 30 000 hodín, čo minimalizuje potrebu údržby. Osvetlenie je vyrobené z kombinácie hliníka a PC v elegantnej čiernej farbe, má rozmery 1200 x 55 x 55 mm a je určené pre vnútorné použitie (IP 20). Energetická trieda F a prevádzková teplota -20 °C až 45 °C podčiarkujú jeho univerzálnosť a spoľahlivosť.</p>
+
+<ul>
+	<li>prepojiteľné LED lineárne osvetlenie</li>
+	<li>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</li>
+	<li>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</li>
+	<li>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</li>
+	<li>príkon: 50W</li>
+	<li>svetelný tok: 4750lm</li>
+	<li>teplota svetla/chromatickosti: 4000K (neutrálna biela)</li>
+	<li>životnosť LED: 30.000 hodín</li>
+	<li>uhol svietenia: 60°</li>
+	<li>vykreslenie farieb: CRi&gt;80</li>
+	<li>krytie: IP20</li>
+	<li>vstupné napätie : AC170-265V&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+	<li>prevádzková teplota: -20 °C až 45 °C</li>
+	<li>rozmery: 1200 x 55 x 55mm</li>
+	<li>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</li>
+	<li>jednotlivé LED zdroje nemožno meniť</li>
+	<li>materiál: hliník + PC</li>
+	<li>farba: čierna</li>
+	<li>balenie: krabica</li>
+	<li>energetická trieda: F</li>
+	<li>*&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+</ul><p><a href="https://www.solight.sk/documents/wo2003_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2003_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2003_fotometrick%C3%A1%20data.ldt" target="_blank" rel="noopener">Stiahnuť: Fotometrická data</a></p><p><a href="https://www.solight.sk/documents/wo2003_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2003_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2003_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p><p><a href="https://youtu.be/3L-rdFeaXSg" target="_blank" rel="noopener">Zobraziť video</a></p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -37541,6 +37564,13 @@ Konektor je dodávaný v praktickom balení po jednom kuse v sáčku, čo zaisť
   <CATEGORY><![CDATA[Elektroinštalačný materiál > Osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektroinštalačný materiál > Osvetlenie > LED pásky]]></CATEGORY>
 </CATEGORIES>
+<IMAGES>
+  <IMAGE description="Solight dlhý flexibilný konektor pre 8mm LED pásky, 3pinový, 10cm - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm98.jpg</IMAGE>
+  <IMAGE description="Solight dlhý flexibilný konektor pre 8mm LED pásky, 3pinový, 10cm - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm98_1.jpg</IMAGE>
+  <IMAGE description="Solight dlhý flexibilný konektor pre 8mm LED pásky, 3pinový, 10cm - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm98_2.jpg</IMAGE>
+  <IMAGE description="Solight dlhý flexibilný konektor pre 8mm LED pásky, 3pinový, 10cm - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm98_3.jpg</IMAGE>
+  <IMAGE description="Solight dlhý flexibilný konektor pre 8mm LED pásky, 3pinový, 10cm - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm98_4.jpg</IMAGE>
+</IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
@@ -38456,7 +38486,7 @@ Vďaka maximálnemu napätiu 450 V AC a prúdu až 24 A poskytuje krabička dost
   <IMAGE description="Solight vodeodolná prepojovací krabička IP68, 4-11mm, max 2,5mm2 - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ww003_2.jpg</IMAGE>
   <IMAGE description="Solight vodeodolná prepojovací krabička IP68, 4-11mm, max 2,5mm2 - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ww003_3.jpg</IMAGE>
 </IMAGES>
-<AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 29.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.09</WEIGHT></LOGISTIC>
@@ -38466,7 +38496,7 @@ Vďaka maximálnemu napätiu 450 V AC a prúdu až 24 A poskytuje krabička dost
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight vodeodolná prepojovací krabička IP68, 4-11mm, max 2,5mm2 |…]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight vodeodolná prepojovací krabička IP68, 4-11mm, max 2,5mm2 – na objednávku. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight vodeodolná prepojovací krabička IP68, 4-11mm, max 2,5mm2 – dostupné od 29.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight sieťový adaptér pre LED pásiky, 230V - 12V, 1A, 12W, biela farba]]></NAME>
@@ -38968,32 +38998,35 @@ Osvetlenie ponúka 8 rôznych svetelných módov, medzi ktorými nájdete naprí
 <SHOPITEM>
 <NAME><![CDATA[Solight LED lineárne osvetlenie prepojiteľné, 60W, 5700lm, 4000K, 150cm]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[LED lineárne osvetlenie pre flexibilné inštalácie Prepojiteľné LED lineárne osvetlenie je ideálnou voľbou pre moderné interiéry, kde je kladený dôraz na variabilitu a efektivitu osvetlenia. Vďaka…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilné inštalácie</b><br>
+<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilné inštalácie</b><br />
 Prepojiteľné LED lineárne osvetlenie je ideálnou voľbou pre moderné interiéry, kde je kladený dôraz na variabilitu a efektivitu osvetlenia. Vďaka možnosti zavesenia, prisadenia k stene či stropu alebo zabudovania do podhľadu sa ľahko prispôsobí akémukoľvek priestoru. Svietidlá je možné medzi sebou jednoducho prepojiť pomocou vstavaných výklopných konektorov v rozsahu 90-270°, čo umožňuje vytvoriť súvislé svetelné línie s celkovým príkonom až 1000 W. Neutrálne biele svetlo s teplotou 4000 K a vysoký svetelný tok 5700 lm zabezpečí dostatočné osvetlenie aj väčších miestností, zatiaľ čo uhol svietenia 60° poskytuje optimálny rozptyl svetla.</p>
-<p><b>Odolnosť, dlhá životnosť a jednoduchá montáž</b><br>
+
+<p><b>Odolnosť, dlhá životnosť a jednoduchá montáž</b><br />
 Toto LED osvetlenie je navrhnuté s dôrazom na dlhú životnosť až 30 000 hodín a spoľahlivú prevádzku v teplotnom rozmedzí -20 °C až 45 °C. Hliníkové telo v elegantnej čiernej farbe v kombinácii s PC difúzorom zabezpečuje nielen moderný vzhľad, ale aj odolnosť. Svietidlo má krytie IP20 a energetickú triedu F. V balení nájdete príslušenstvo pre prisadenú montáž, ďalšie varianty uchytenia je možné dokúpiť podľa potreby. Vďaka rozmerom 1500 x 55 x 55 mm je vhodné pre široké spektrum použitia v kanceláriách, chodbách aj komerčných priestoroch.</p>
-<UL>
-<LI>prepojiteľné LED lineárne osvetlenie</LI>
-<LI>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</LI>
-<LI>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</LI>
-<LI>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</LI>
-<LI>príkon: 60W</LI>
-<LI>svetelný tok: 5700lm</LI>
-<LI>teplota svetla/chromatickosti: 4000K (neutrálna biela)</LI>
-<LI>životnosť LED: 30.000 hodín</LI>
-<LI>uhol svietenia: 60°</LI>
-<LI>vykreslenie farieb: CRi>80</LI>
-<LI>krytie: IP20</LI>
-<LI>vstupné napätie : AC170-265V</LI>
-<LI>prevádzková teplota: -20 °C až 45 °C</LI>
-<LI>rozmery: 1500 x 55 x 55mm</LI>
-<LI>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</LI>
-<LI>jednotlivé LED zdroje nemožno meniť</LI>
-<LI>materiál: hliník + PC</LI>
-<LI>farba: čierna</LI>
-<LI>balenie: krabica</LI>
-<LI>energetická trieda: F</LI>
-</UL><p><a href="https://www.solight.sk/documents/wo2004_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2004_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2004_fotometrick%C3%A1%20data.ldt" target="_blank" rel="noopener">Stiahnuť: Fotometrická data</a></p><p><a href="https://www.solight.sk/documents/wo2004_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2004_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2004_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p><p><a href="https://youtu.be/3L-rdFeaXSg" target="_blank" rel="noopener">Zobraziť video</a></p>]]></DESCRIPTION>
+
+<ul>
+	<li>prepojiteľné LED lineárne osvetlenie</li>
+	<li>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</li>
+	<li>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</li>
+	<li>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</li>
+	<li>príkon: 60W</li>
+	<li>svetelný tok: 5700lm</li>
+	<li>teplota svetla/chromatickosti: 4000K (neutrálna biela)</li>
+	<li>životnosť LED: 30.000 hodín</li>
+	<li>uhol svietenia: 60°</li>
+	<li>vykreslenie farieb: CRi&gt;80</li>
+	<li>krytie: IP20</li>
+	<li>vstupné napätie : AC170-265V&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+	<li>prevádzková teplota: -20 °C až 45 °C</li>
+	<li>rozmery: 1500 x 55 x 55mm</li>
+	<li>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</li>
+	<li>jednotlivé LED zdroje nemožno meniť</li>
+	<li>materiál: hliník + PC</li>
+	<li>farba: čierna</li>
+	<li>balenie: krabica</li>
+	<li>energetická trieda: F</li>
+	<li>*&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+</ul><p><a href="https://www.solight.sk/documents/wo2004_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2004_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2004_fotometrick%C3%A1%20data.ldt" target="_blank" rel="noopener">Stiahnuť: Fotometrická data</a></p><p><a href="https://www.solight.sk/documents/wo2004_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2004_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2004_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p><p><a href="https://youtu.be/3L-rdFeaXSg" target="_blank" rel="noopener">Zobraziť video</a></p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -49055,7 +49088,7 @@ Zvonček ponúka výber z 36 melódií a možnosť nastavenia 4 úrovní hlasito
     <VALUE><![CDATA[1L67T]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 12.8.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
@@ -49065,7 +49098,7 @@ Zvonček ponúka výber z 36 melódií a možnosť nastavenia 4 úrovní hlasito
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 200m, čierny, learning code |…]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 200m, čierny, learning code – na objednávku. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 200m, čierny, learning code – dostupné od 12.8.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight detektor dymu a oxidu uhoľnatého, LCD displej, 2x AA batérie]]></NAME>
@@ -53905,33 +53938,36 @@ Osvetlený kábel s dĺžkou 15 m s rozostupmi žiaroviek 60 cm ponúka dostatok
 <SHOPITEM>
 <NAME><![CDATA[Solight LED lineárne osvetlenie prepojiteľné, 50W, 4750lm, 3CCT, 120cm]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[LED lineárne osvetlenie pre flexibilnú inštaláciu a prepojenie Moderné LED lineárne osvetlenie je ideálnou voľbou pre osvetlenie kancelárií, obchodných priestorov aj domácností, kde je kladený dôraz…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilnú inštaláciu a prepojenie</b><br>
+<DESCRIPTION><![CDATA[<p><b>LED lineárne osvetlenie pre flexibilnú inštaláciu a prepojenie</b><br />
 Moderné LED lineárne osvetlenie je ideálnou voľbou pre osvetlenie kancelárií, obchodných priestorov aj domácností, kde je kladený dôraz na variabilitu a efektivitu. Vďaka možnosti zavesenia, prisadenia k stene či stropu alebo zabudovania do podhľadu sa ľahko prispôsobí akémukoľvek interiéru. Prepojiteľnosť pomocou výklopných konektorov v uhle 90–270° umožňuje jednoduché spojenie viacerých svietidiel do jedného celku a napájanie až do celkového príkonu 1000 W. Súčasťou balenia je príslušenstvo pre prisadenú montáž, pre ostatné typy inštalácie je možné dokúpiť ďalšie komponenty.</p>
-<p><b>Nastaviteľná teplota svetla a vysoký svetelný výkon</b><br>
-Osvetlenie je vybavené vstavaným prepínačom (DIP switch), ktorým je možné jednoducho nastaviť teplotu svetla od teplej (3000 K), cez neutrálnu (4000 K) až po studenú bielu (6000 K), čo umožňuje prispôsobiť atmosféru priestoru aktuálnym potrebám. S príkonom 50 W a svetelným tokom 4750 lm poskytuje dostatok svetla aj pre väčšie miestnosti. Uhol svietenia 60°, vysoké podanie farieb (CRI > 80) a dlhá životnosť LED až 30 000 hodín zaručujú spoľahlivú prevádzku. Elegantné čierne prevedenie z hliníka a PC materiálu podčiarkuje moderný vzhľad svietidla.</p>
-<UL>
-<LI>prepojiteľné LED lineárne osvetlenie s nastaviteľnou teplotou svetla</LI>
-<LI>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</LI>
-<LI>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</LI>
-<LI>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</LI>
-<LI>v budovaným prepínačom (DIP switch) je možné nastaviť teplotu svetla od teplej, cez neutrálnu až po studenú bielu</LI>
-<LI>príkon: 50W</LI>
-<LI>svetelný tok: 4750lm</LI>
-<LI>teplota svetla/chromatickosti: 3000/4000/6000K (teplá/neutrálna/studená biela)</LI>
-<LI>životnosť LED: 30.000 hodín</LI>
-<LI>uhol svietenia: 60°</LI>
-<LI>vykreslenie farieb: CRi>80</LI>
-<LI>krytie: IP20</LI>
-<LI>vstupné napätie : AC170-265V</LI>
-<LI>prevádzková teplota: -20 °C až 45 °C</LI>
-<LI>rozmery: 1200 x 55 x 55mm</LI>
-<LI>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</LI>
-<LI>jednotlivé LED zdroje nemožno meniť</LI>
-<LI>materiál: hliník + PC</LI>
-<LI>farba: čierna</LI>
-<LI>balenie: krabica</LI>
-<LI>energetická trieda: F</LI>
-</UL><p><a href="https://www.solight.sk/documents/wo2003-1_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2003-1_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2003-1_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/WO2003-1_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2003-1_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2003-1_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>]]></DESCRIPTION>
+
+<p><b>Nastaviteľná teplota svetla a vysoký svetelný výkon</b><br />
+Osvetlenie je vybavené vstavaným prepínačom (DIP switch), ktorým je možné jednoducho nastaviť teplotu svetla od teplej (3000 K), cez neutrálnu (4000 K) až po studenú bielu (6000 K), čo umožňuje prispôsobiť atmosféru priestoru aktuálnym potrebám. S príkonom 50 W a svetelným tokom 4750 lm poskytuje dostatok svetla aj pre väčšie miestnosti. Uhol svietenia 60°, vysoké podanie farieb (CRI &gt; 80) a dlhá životnosť LED až 30 000 hodín zaručujú spoľahlivú prevádzku. Elegantné čierne prevedenie z hliníka a PC materiálu podčiarkuje moderný vzhľad svietidla.</p>
+
+<ul>
+	<li>prepojiteľné LED lineárne osvetlenie s nastaviteľnou teplotou svetla</li>
+	<li>osvetlenie je možné zavesiť, prisadiť k stene a stropu, alebo vbudovať do podhľadu</li>
+	<li>vzájomne je možné prepojiť a napájať svetlá až do príkonu 1000W</li>
+	<li>prepojiteľné pomocou vbudovaných výklopných konektorov v uhle 90-270 °</li>
+	<li>v budovaným prepínačom (DIP switch) je možné nastaviť teplotu svetla od teplej, cez neutrálnu až po studenú bielu</li>
+	<li>príkon: 50W</li>
+	<li>svetelný tok: 4750lm</li>
+	<li>teplota svetla/chromatickosti: 3000/4000/6000K (teplá/neutrálna/studená biela)</li>
+	<li>životnosť LED: 30.000 hodín</li>
+	<li>uhol svietenia: 60°</li>
+	<li>vykreslenie farieb: CRi&gt;80</li>
+	<li>krytie: IP20</li>
+	<li>vstupné napätie : AC170-265V&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+	<li>prevádzková teplota: -20 °C až 45 °C</li>
+	<li>rozmery: 1200 x 55 x 55mm</li>
+	<li>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</li>
+	<li>jednotlivé LED zdroje nemožno meniť</li>
+	<li>materiál: hliník + PC</li>
+	<li>farba: čierna</li>
+	<li>balenie: krabica</li>
+	<li>energetická trieda: F</li>
+	<li>*&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+</ul><p><a href="https://www.solight.sk/documents/wo2003-1_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2003-1_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2003-1_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/WO2003-1_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2003-1_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2003-1_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -56371,7 +56407,7 @@ Osvetlenie je vybavené zabudovaným prepínačom (DIP switch), ktorým je možn
 	<li>uhol svietenia: 60°</li>
 	<li>vykreslenie farieb: CRi&gt;80</li>
 	<li>krytie: IP20</li>
-	<li>vstupné napätie : AC170-265V</li>
+	<li>vstupné napätie : AC170-265V&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
 	<li>prevádzková teplota: -20 °C až 45 °C</li>
 	<li>rozmery: 1500 x 55 x 55mm</li>
 	<li>príslušenstvo pre prisadenú montáž súčasťou balenia (pre iné typy montáží je možné príslušenstvo dokúpiť)</li>
@@ -56380,6 +56416,7 @@ Osvetlenie je vybavené zabudovaným prepínačom (DIP switch), ktorým je možn
 	<li>farba: čierna</li>
 	<li>balenie: krabica</li>
 	<li>energetická trieda: F</li>
+	<li>*&nbsp;(napájací kábel je potrebné zakúpiť samostatne pod kódom WO2000-ND3 alebo WO2000-ND4) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
 </ul><p><a href="https://www.solight.sk/documents/wo2004-1_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo2004-1_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO2004-1_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/WO2004-1_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo2004-1_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/wo2004-1_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
@@ -63619,7 +63656,7 @@ Reflektor je vybavený vodeodolným konektorom pre rýchle a bezpečné prepojen
     <VALUE><![CDATA[20]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 20.8.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.50</WEIGHT></LOGISTIC>
@@ -63629,7 +63666,7 @@ Reflektor je vybavený vodeodolným konektorom pre rýchle a bezpečné prepojen
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED reflektor TOP, 20W, max. 2600lm, 3CCT, voliteľný výkon…]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED reflektor TOP, 20W, max. 2600lm, 3CCT, voliteľný výkon 100/50%, IP65, rýchlokonektor – na objednávku. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED reflektor TOP, 20W, max. 2600lm, 3CCT, voliteľný výkon 100/50%, IP65, rýchlokonektor – dostupné od 20.8.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED solárne stĺpikové osvetlenie Palermo, 5W, 400lm, 3000K]]></NAME>
@@ -63716,7 +63753,7 @@ Osvetlenie ponúka dva automaticky prednastavené režimy svietenia, ktoré je m
     <VALUE><![CDATA[IP54]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 5.10.2026]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 29.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.31</WEIGHT></LOGISTIC>
@@ -63726,7 +63763,7 @@ Osvetlenie ponúka dva automaticky prednastavené režimy svietenia, ktoré je m
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED solárne stĺpikové osvetlenie Palermo, 5W, 400lm, 3000K |…]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED solárne stĺpikové osvetlenie Palermo, 5W, 400lm, 3000K – dostupné od 5.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED solárne stĺpikové osvetlenie Palermo, 5W, 400lm, 3000K – dostupné od 29.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED COB pásik, 50m, teplá biela, 10W/m, 1000lm/m, 8mm]]></NAME>
@@ -73268,29 +73305,31 @@ Súčasťou balenia je diaľkový ovládač, ktorým možno svetlo plynulo stmie
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED osvetlenie Woody, 25W, 1350lm, 29cm, 3CCT]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[LED stropné osvetlenie Woody pre moderné interiéry LED stropné osvetlenie Woody v dekore prírodného masívneho duba a čierneho kovu je ideálnou voľbou pre tých, ktorí hľadajú štýlové a funkčné…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>LED stropné osvetlenie Woody pre moderné interiéry</b><br>
-LED stropné osvetlenie Woody v dekore prírodného masívneho duba a čierneho kovu je ideálnou voľbou pre tých, ktorí hľadajú štýlové a funkčné riešenie do svojho domova či kancelárie. Vďaka svojmu elegantnému dizajnu v kombinácii dreva a kovu sa ľahko začlení do rôznych typov interiérov, kde vytvorí príjemnú atmosféru. Osvetlenie je určené na inštaláciu na steny aj stropy, čo zaručuje jeho univerzálne využitie v rôznych miestnostiach. S maximálnou spotrebou 25 W a užitočným svetelným tokom až 1350 lm poskytuje dostatok svetla pre každodenné činnosti, pričom uhol svietenia 120° zabezpečí rovnomerné rozptýlenie svetla po celej miestnosti.</p>
-<p><b>Možnosť nastavenia teploty svetla a dlhá životnosť</b><br>
-Woody je vybavený špeciálnym prepínačom, ktorý umožňuje jednoduché nastavenie teploty svetla podľa aktuálnej potreby – od teplej (3000 K), cez neutrálnu (4000 K) až po studenú bielu (6500 K). Vďaka tomu si môžete vytvoriť ideálne svetelné podmienky na relax, prácu alebo stretnutie s priateľmi. LED technológia zaručuje dlhú životnosť až 20 000 hodín a vysoký index podania farieb Ra >80, čo znamená verné zobrazenie farieb v interiéri. Osvetlenie je vyrobené z kvalitných materiálov (Fe, PMMA, drevo), má krytie IP20 a je určené na prevádzkové teploty od -20 °C do 50 °C. Rozmery 290 x 65 mm a prírodná farba dreva podčiarkujú jeho moderný vzhľad.</p>
-<UL>
-<LI>LED stropné osvetlenie Woody v dekore prírodného masívneho duba a čierneho kovu</LI>
-<LI>disponuje špeciálnym prepínačom, ktorý umožňuje nastavenie teploty svetla (chromatičnosti) od teplej, cez neutrálnu až po studenú bielu (3000 K, 4000 K alebo 6500 K).</LI>
-<LI>na inštaláciu na steny a stropy</LI>
-<LI>spotreba: max. 25 W</LI>
-<LI>teplota chromatičnosti: možnosť voľby medzi 3000 K, 4000 K alebo 6500 K (teplá, neutrálna alebo studená biela)</LI>
-<LI>životnosť LED: 20 000 hodín</LI>
-<LI>uhol svietenia: 120°</LI>
-<LI>užitočný svetelný tok v uhle 120°: max. 1350 lm</LI>
-<LI>index podania farieb Ra: >80</LI>
-<LI>materiál: Fe + PMMA + drevo</LI>
-<LI>krytie: IP20</LI>
-<LI>napätie: 220–240 V AC</LI>
-<LI>prevádzková teplota: -20 °C až 50 °C</LI>
-<LI>rozmery: 290 x 65 mm</LI>
-<LI>farba: prírodné drevo</LI>
-<LI>energetická trieda: G</LI>
-</UL><p><a href="https://www.solight.sk/documents/wo8007-30_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo8007-30_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO8007-30_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/WO8007-30_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo8007-30_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[LED stropné osvetlenie Woody pre moderné interiéry LED stropné osvetlenie Woody v dekore prírodného masívneho duba je ideálnou voľbou pre tých, ktorí hľadajú štýlové a funkčné riešenie do svojho…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<p><b>LED stropné osvetlenie Woody pre moderné interiéry</b><br />
+LED stropné osvetlenie Woody v dekore prírodného masívneho duba je ideálnou voľbou pre tých, ktorí hľadajú štýlové a funkčné riešenie do svojho domova či kancelárie. Vďaka svojmu elegantnému dizajnu v kombinácii dreva a kovu sa ľahko začlení do rôznych typov interiérov, kde vytvorí príjemnú atmosféru. Osvetlenie je určené na inštaláciu na steny aj stropy, čo zaručuje jeho univerzálne využitie v rôznych miestnostiach. S maximálnou spotrebou 25 W a užitočným svetelným tokom až 1350 lm poskytuje dostatok svetla pre každodenné činnosti, pričom uhol svietenia 120° zabezpečí rovnomerné rozptýlenie svetla po celej miestnosti.</p>
+
+<p><b>Možnosť nastavenia teploty svetla a dlhá životnosť</b><br />
+Woody je vybavený špeciálnym prepínačom, ktorý umožňuje jednoduché nastavenie teploty svetla podľa aktuálnej potreby – od teplej (3000 K), cez neutrálnu (4000 K) až po studenú bielu (6500 K). Vďaka tomu si môžete vytvoriť ideálne svetelné podmienky na relax, prácu alebo stretnutie s priateľmi. LED technológia zaručuje dlhú životnosť až 20 000 hodín a vysoký index podania farieb Ra &gt;80, čo znamená verné zobrazenie farieb v interiéri. Osvetlenie je vyrobené z kvalitných materiálov (Fe, PMMA, drevo), má krytie IP20 a je určené na prevádzkové teploty od -20 °C do 50 °C. Rozmery 290 x 65 mm a prírodná farba dreva podčiarkujú jeho moderný vzhľad.</p>
+
+<ul>
+	<li>LED stropné osvetlenie Woody v dekore prírodného masívneho duba</li>
+	<li>disponuje špeciálnym prepínačom, ktorý umožňuje nastavenie teploty svetla (chromatičnosti) od teplej, cez neutrálnu až po studenú bielu (3000 K, 4000 K alebo 6500 K).</li>
+	<li>na inštaláciu na steny a stropy</li>
+	<li>spotreba: max. 25 W</li>
+	<li>teplota chromatičnosti: možnosť voľby medzi 3000 K, 4000 K alebo 6500 K (teplá, neutrálna alebo studená biela)</li>
+	<li>životnosť LED: 20 000 hodín</li>
+	<li>uhol svietenia: 120°</li>
+	<li>užitočný svetelný tok v uhle 120°: max. 1350 lm</li>
+	<li>index podania farieb Ra: &gt;80</li>
+	<li>materiál: Fe + PMMA + drevo</li>
+	<li>krytie: IP20</li>
+	<li>napätie: 220–240 V AC</li>
+	<li>prevádzková teplota: -20 °C až 50 °C</li>
+	<li>rozmery: 290 x 65 mm</li>
+	<li>farba: prírodné drevo</li>
+	<li>energetická trieda: G</li>
+</ul><p><a href="https://www.solight.sk/documents/wo8007-30_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/wo8007-30_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/WO8007-30_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/WO8007-30_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/wo8007-30_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -83423,7 +83462,7 @@ Ideálny na rýchle nabíjanie a stabilný prenos dát.<br>
     <VALUE><![CDATA[1]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 1.10.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -83433,7 +83472,7 @@ Ideálny na rýchle nabíjanie a stabilný prenos dát.<br>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight USB-C 3.1 kábel, USB-C konektor - USB-C konektor, silikón, 1m…]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight USB-C 3.1 kábel, USB-C konektor - USB-C konektor, silikón, 1m – na objednávku. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight USB-C 3.1 kábel, USB-C konektor - USB-C konektor, silikón, 1m – dostupné od 1.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight 1z pohyblivý prívod - spojka, 20m, 2 x 1,5mm2, oranžová]]></NAME>
