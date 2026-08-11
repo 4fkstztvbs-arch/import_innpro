@@ -16,8 +16,9 @@
 // file present is loaded automatically; a product's promo price applies only while today falls
 // inside that file's [validFrom, validUntil] window, so an expired promo silently stops applying
 // on its own without needing anyone to remember to revert it — just leave the JSON file in place.
-// When a promo is active: PRICE_VAT becomes the promo price, STANDARD_PRICE keeps the original
-// MOC (shown crossed out by Shoptet), and FLAGS>ACTION is set so it's marked as an "akcia".
+// When a promo is active: PRICE_VAT stays the real regular price (MOC), ACTION_PRICE carries the
+// promo price (Shoptet shows this instead of PRICE_VAT while it's present), and FLAGS>ACTION is
+// set so it's also marked as an "akcia".
 //
 // Usage: node transform-basys.js
 // Optional: BASYS_URL (feed URL) or BASYS_LOCAL_FILE (local path) for the enrichment source;
@@ -128,8 +129,12 @@ function buildShopitemXml(p) {
   parts.push('<VISIBLE>1</VISIBLE>');
   parts.push('<VISIBILITY>visible</VISIBILITY>');
   parts.push('<CURRENCY>EUR</CURRENCY>');
-  if (p.onPromo) parts.push(`<STANDARD_PRICE>${xmlNum(p.standardPrice)}</STANDARD_PRICE>`);
   parts.push(`<PRICE_VAT>${xmlNum(p.price)}</PRICE_VAT>`);
+  // ACTION_PRICE — shown instead of PRICE_VAT while present. Only emitted while our own promo
+  // JSON's [validFrom, validUntil] window is active (see loadActivePromos()) — PRICE_VAT itself
+  // always stays the real regular price, never swapped, so nothing needs to be "reverted" once
+  // the promo ends: the element just stops being written.
+  if (p.onPromo) parts.push(`<ACTION_PRICE>${xmlNum(p.actionPrice)}</ACTION_PRICE>`);
   parts.push(`<PURCHASE_PRICE>${xmlNum(p.purchasePrice)}</PURCHASE_PRICE>`);
   parts.push(`<PURCHASE_VAT>${VAT}</PURCHASE_VAT>`);
   parts.push('<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>');
@@ -173,10 +178,10 @@ function main() {
 
     const defaultCategory = PRICE_LIST_CATEGORY_MAP[item.category] || 'TV, audio a video > Audio technika';
 
-    const standardPrice = roundPrice(item.mocInclVat);
+    const price = roundPrice(item.mocInclVat);
     const promoPrice = activePromos.get(norm(item.objKod));
     const onPromo = promoPrice !== undefined;
-    const price = onPromo ? roundPrice(promoPrice) : standardPrice;
+    const actionPrice = onPromo ? roundPrice(promoPrice) : null;
     if (onPromo) stats.onPromo++;
     const purchasePrice = item.purchasePriceExclVat;
 
@@ -186,7 +191,7 @@ function main() {
 
     const shopitem = buildShopitemXml({
       code: 'BASYS-' + item.objKod, ean: item.ean, name, description, shortDescription,
-      defaultCategory, images, price, standardPrice, onPromo, purchasePrice, seoTitle, metaDescription,
+      defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
     });
     out.write(shopitem + '\n');
     stats.written++;
