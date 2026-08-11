@@ -5,10 +5,19 @@
 // get imported, their EAN, and both prices (MOC = official retail incl. VAT, VOC bez DPH = real
 // purchase price excl. VAT) — no estimation needed, unlike the earlier Heureka-feed-only attempt.
 //
-// The BASYS Heureka feed (data/basys-heureka-feed-sample.xml, or BASYS_LOCAL_FILE/BASYS_URL) is
-// used only as a secondary enrichment source for images + description, matched by order code
-// (obj.kod == ITEM_ID, normalized). Coverage is partial (~59/76 at the time this was built) —
-// products with no match in the feed still get imported, just without images/description.
+// Images/description come from two enrichment sources, in priority order:
+//   1. data/basys-bose-cloud-images.json — a curated match against BASYS's own official product
+//      photo library (two Nextcloud shares BASYS sent directly, ~8700 files total) built by
+//      scripts/match-basys-cloud-images.js. Token-overlap matching weighted by word rarity, with
+//      an explicit reject when a rare/distinctive word in the product name (e.g. "omnijewell")
+//      doesn't appear in any folder at all — safer to show no image than the wrong product/colour.
+//      Covers 49/76 products; also picks the colour-correct photos within a folder when the
+//      product is plain black/white (see the BLACK_HINTS/WHITE_HINTS sort in that script).
+//   2. The BASYS Heureka feed (data/basys-heureka-feed-sample.xml, or BASYS_LOCAL_FILE/BASYS_URL)
+//      — the original per-product IMGURL/IMGURL_ALTERNATIVE + DESCRIPTION, matched by order code
+//      (obj.kod == ITEM_ID, normalized). Used for products the cloud match didn't cover, and
+//      always used for description text (the cloud library is photos only, no copy).
+// A product with no match in either source still gets imported, just without images/description.
 //
 // BASYS also sends periodic promo price lists (a few times a year) — each one extracted into its
 // own data/basys-bose-promo-*.json (validFrom/validUntil/items, see
@@ -31,6 +40,7 @@ const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
+const CLOUD_IMAGES_PATH = process.env.BASYS_CLOUD_IMAGES || path.join(__dirname, '..', 'data', 'basys-bose-cloud-images.json');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const URL = process.env.BASYS_URL;
 const LOCAL_FILE = process.env.BASYS_LOCAL_FILE || path.join(__dirname, '..', 'data', 'basys-heureka-feed-sample.xml');
@@ -159,6 +169,11 @@ function main() {
   const enrichment = loadFeedEnrichment();
   console.log(`Loaded enrichment data for ${enrichment.size} products from BASYS feed.`);
 
+  const cloudImages = fs.existsSync(CLOUD_IMAGES_PATH)
+    ? JSON.parse(fs.readFileSync(CLOUD_IMAGES_PATH, 'utf-8'))
+    : {};
+  console.log(`Loaded curated cloud-library images for ${Object.keys(cloudImages).length} products.`);
+
   console.log('Checking for active promo price lists...');
   const activePromos = loadActivePromos();
   console.log(`  -> ${activePromos.size} produktov má dnes aktívnu akciovú cenu.`);
@@ -167,7 +182,7 @@ function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: priceList.length, written: 0, enriched: 0, noEnrichment: 0, onPromo: 0 };
+  const stats = { total: priceList.length, written: 0, enriched: 0, noEnrichment: 0, onPromo: 0, cloudImages: 0, feedImages: 0, noImages: 0 };
 
   for (const item of priceList) {
     const enrich = enrichment.get(norm(item.objKod));
@@ -178,7 +193,11 @@ function main() {
     const description = hasEnrichment && enrich.description
       ? enrich.description
       : `<p>${xmlEscape(item.name)}${item.color ? ' – farba: ' + xmlEscape(item.color) : ''}</p>`;
-    const images = hasEnrichment ? enrich.images : [];
+    const cloudImgs = cloudImages[item.objKod];
+    const images = (cloudImgs && cloudImgs.length) ? cloudImgs : (hasEnrichment ? enrich.images : []);
+    if (cloudImgs && cloudImgs.length) stats.cloudImages++;
+    else if (images.length) stats.feedImages++;
+    else stats.noImages++;
     // "0" = BASYS ships it immediately (in stock); any other number of days, or no match at all
     // in the feed (17 products), falls back to "Na objednávku" — the only honest default when we
     // have no real stock signal for a product.
