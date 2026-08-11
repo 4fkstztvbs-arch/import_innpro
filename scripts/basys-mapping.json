@@ -27,5 +27,14 @@
   "fallbackByManufacturer": {
     "Bose": "TV, audio a video > Audio technika",
     "Bose Pro": "Profesionálna audio technika"
+  },
+  "priceListCategoryMap": {
+    "SOUNDBAR": "TV, audio a video > Audio technika",
+    "STREAMING SPEAKER": "TV, audio a video > Audio technika > Reproduktory",
+    "STEREO SPEAKERS": "TV, audio a video > Audio technika > Reproduktory",
+    "BT SPEAKERS": "TV, audio a video > Audio technika > Reproduktory",
+    "HEADPHONES": "TV, audio a video > Audio technika > Slúchadlá",
+    "HOME ACCESSORIES": "TV, audio a video > TV stolíky a držiaky",
+    "HEADPHONESS ACCESSORIES": "TV, audio a video > Audio technika > Slúchadlá > Príslušenstvo"
   }
 }
