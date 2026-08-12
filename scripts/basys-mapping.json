@@ -36,5 +36,9 @@
     "HEADPHONES": "TV, audio a video > Audio technika > Slúchadlá",
     "HOME ACCESSORIES": "TV, audio a video > TV stolíky a držiaky",
     "HEADPHONESS ACCESSORIES": "TV, audio a video > Audio technika > Slúchadlá > Príslušenstvo"
+  },
+  "manualPriceOverridesByCode": {
+    "_comment": "Rucne zadana konkurencna cena (napr. dorovnanie Heureka najlacnejsieho), zapisana ako ACTION_PRICE. Aplikuje sa AZ po kontrole minimalnej marze (BASYS_MIN_PROMO_MARGIN) - ak by neprešla, padne spat na regularnu MOC cenu rovnako ako pri promo cenach z BASYS cennika.",
+    "B 896637-0010": 258.99
   }
 }
