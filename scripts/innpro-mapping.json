@@ -2,6 +2,10 @@
   "categoryExclusionsByPath": [
     "*Kategoria tymczasowa"
   ],
+  "categoryOverridesByCode": {
+    "_comment": "Per-produkt oprava kategórie, keď je INNPRO produkt vo vlastnom feede nesprávne zaradený (napr. teleprompter pod Tablety) - path-based renames by tu zasiahli aj správne zaradené produkty v tej istej kategórii.",
+    "083768": "TV, audio a video > Foto a optika > Príslušenstvo > Pre fotoaparáty a videokamery"
+  },
   "categoryRenamesByPath": {
     "Audio": "TV, audio a video > Audio technika",
     "Foto a video": "TV, audio a video > Foto a optika",
