@@ -17,6 +17,26 @@ const XML_OUT = process.env.KB_XML_OUT || XML_IN;
 const MAX_EXTRA_IMAGES = parseInt(process.env.KB_MAX_EXTRA_IMAGES || '5', 10);
 const MAX_SPECS = parseInt(process.env.KB_MAX_SPECS || '40', 10);
 
+// Fallback weight (kg) for categories where the carrier's own weight tier tops out at 15kg —
+// products here are reliably heavy (large/built-in appliances), so defaulting just above that
+// threshold is far safer for shipping-cost matching than leaving them unweighted (which would
+// otherwise fall into a lighter, cheaper tier than what the carrier will actually charge for).
+const DEFAULT_WEIGHT_KG = parseFloat(process.env.KB_DEFAULT_WEIGHT_KG || '16');
+const DEFAULT_WEIGHT_CATEGORIES = ['Veľké spotrebiče', 'Vstavané spotrebiče'];
+// Small accessory/spare-part sub-branches under those two categories (hoses, filters, anti-
+// vibration pads...) are excluded — they weigh grams, not kilos, and a blanket 16kg would badly
+// overcharge shipping on them.
+const ACCESSORY_BRANCH_WORDS = ['príslušenstvo', 'filtre', 'chladiace tašky a boxy'];
+
+function needsDefaultWeight(item) {
+  if (item.includes('<LOGISTIC>')) return false;
+  const categoryLines = [...item.matchAll(/<CATEGORY><!\[CDATA\[([^\]]*)\]\]><\/CATEGORY>/g)].map((m) => m[1]);
+  const relevant = categoryLines.filter((c) => DEFAULT_WEIGHT_CATEGORIES.some((cat) => c.includes(`> ${cat} >`) || c.endsWith(`> ${cat}`)));
+  if (relevant.length === 0) return false;
+  const isAccessory = categoryLines.some((c) => ACCESSORY_BRANCH_WORDS.some((w) => c.toLowerCase().includes(w)));
+  return !isAccessory;
+}
+
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
 function xmlNum(n) { return (Math.round(n * 100) / 100).toFixed(2); }
@@ -32,7 +52,7 @@ async function main() {
   console.log(`  -> ${icecat.size} products with usable Icecat data (matched, free tier)`);
 
   console.log('Streaming existing kb.xml and enriching by EAN...');
-  const stats = { total: 0, matched: 0, weightAdded: 0, imagesAdded: 0, energyLabelAdded: 0, specsAdded: 0 };
+  const stats = { total: 0, matched: 0, weightAdded: 0, imagesAdded: 0, energyLabelAdded: 0, specsAdded: 0, defaultWeightApplied: 0 };
   const outParts = ['<?xml version="1.0" encoding="utf-8"?>', '<SHOP>'];
 
   await streamRecords(XML_IN, 'SHOPITEM', (rawXml) => {
@@ -42,7 +62,12 @@ async function main() {
     const data = ean ? icecat.get(ean) : null;
 
     if (!data) {
-      outParts.push(rawXml);
+      let item = rawXml;
+      if (needsDefaultWeight(item)) {
+        item = item.replace('<CURRENCY>', `<LOGISTIC><WEIGHT>${xmlNum(DEFAULT_WEIGHT_KG)}</WEIGHT></LOGISTIC>\n<CURRENCY>`);
+        stats.defaultWeightApplied++;
+      }
+      outParts.push(item);
       return;
     }
     stats.matched++;
@@ -53,6 +78,9 @@ async function main() {
     if (data.weightKg > 0) {
       item = item.replace('<CURRENCY>', `<LOGISTIC><WEIGHT>${xmlNum(data.weightKg)}</WEIGHT></LOGISTIC>\n<CURRENCY>`);
       stats.weightAdded++;
+    } else if (needsDefaultWeight(item)) {
+      item = item.replace('<CURRENCY>', `<LOGISTIC><WEIGHT>${xmlNum(DEFAULT_WEIGHT_KG)}</WEIGHT></LOGISTIC>\n<CURRENCY>`);
+      stats.defaultWeightApplied++;
     }
 
     // 2) extra gallery images — append inside the existing <IMAGES> block if present,
