@@ -36,7 +36,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { roundPrice } = require('./round-price');
+const { roundPrice, roundPriceDown } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
@@ -45,11 +45,17 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const URL = process.env.BASYS_URL;
 const LOCAL_FILE = process.env.BASYS_LOCAL_FILE || path.join(__dirname, '..', 'data', 'basys-heureka-feed-sample.xml');
 const VAT = process.env.BASYS_VAT || '23';
+// Safety floor for promo prices BASYS sends us: their promo pricelist is set independently of
+// our cost, and has been seen to dip below our purchase price (e.g. Ultra Open Earbuds at
+// 280€ promo vs 229.80€ ex-VAT cost — a straight loss). Never publish a promo price that
+// doesn't clear this minimum margin; fall back to the regular MOC price instead.
+const MIN_PROMO_MARGIN_PCT = parseFloat(process.env.BASYS_MIN_PROMO_MARGIN || '10');
 const OUT_PATH = process.env.BASYS_OUT || path.join(__dirname, '..', 'output', 'basys.xml');
 const STORE_NAME = process.env.BASYS_STORE_NAME || 'premiumstore.sk';
 
 const mapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'basys-mapping.json'), 'utf-8'));
 const PRICE_LIST_CATEGORY_MAP = mapping.priceListCategoryMap || {};
+const MANUAL_PRICE_OVERRIDES = mapping.manualPriceOverridesByCode || {};
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlAttr(s) { return xmlEscape(s).replace(/"/g, '&quot;'); }
@@ -80,7 +86,7 @@ function loadActivePromos() {
     console.log(`  promo ${file}: ${promo.validFrom} – ${promo.validUntil} (${active ? 'AKTÍVNA' : 'neaktívna'}), ${promo.items.length} produktov`);
     if (!active) continue;
     for (const item of promo.items) {
-      map.set(norm(item.objKod), item.promoMocInclVat);
+      map.set(norm(item.objKod), { promoMocInclVat: item.promoMocInclVat, supportExclVat: item.supportExclVat || 0 });
     }
   }
   return map;
@@ -207,11 +213,48 @@ function main() {
     const defaultCategory = PRICE_LIST_CATEGORY_MAP[item.category] || 'TV, audio a video > Audio technika';
 
     const price = roundPrice(item.mocInclVat);
-    const promoPrice = activePromos.get(norm(item.objKod));
-    const onPromo = promoPrice !== undefined;
-    const actionPrice = onPromo ? roundPrice(promoPrice) : null;
-    if (onPromo) stats.onPromo++;
     const purchasePrice = item.purchasePriceExclVat;
+    const promoEntry = activePromos.get(norm(item.objKod));
+    const supportExclVat = promoEntry ? promoEntry.supportExclVat : 0;
+    // BASYS pays back "Podpora bez DPH/ks" (a per-unit subsidy) for every unit sold during the
+    // promo window, on top of what the customer pays — so the real margin during a promo isn't
+    // just (promo price - cost), it's (promo price + subsidy - cost). Missing this the first time
+    // made a genuinely fine promo (Ultra Open Earbuds: 280€ + 48€ subsidy = 16.6% margin) look
+    // like a straight loss.
+    function marginPctWithSupport(grossPriceInclVat) {
+      const exVat = grossPriceInclVat / (1 + parseFloat(VAT) / 100);
+      const effectiveRevenue = exVat + supportExclVat;
+      return (effectiveRevenue - purchasePrice) / effectiveRevenue * 100;
+    }
+    let onPromo = false;
+    let actionPrice = null;
+    if (promoEntry !== undefined) {
+      const promoMarginPct = marginPctWithSupport(promoEntry.promoMocInclVat);
+      if (promoMarginPct >= MIN_PROMO_MARGIN_PCT) {
+        onPromo = true;
+        actionPrice = roundPrice(promoEntry.promoMocInclVat);
+      } else {
+        stats.promoBelowFloor = (stats.promoBelowFloor || 0) + 1;
+        console.log(`  Preskakujem promo cenu pre ${item.objKod} (${item.name}): ${promoEntry.promoMocInclVat}€ (+ ${supportExclVat}€ podpora) by dalo len ${promoMarginPct.toFixed(1)}% marže (min ${MIN_PROMO_MARGIN_PCT}%). Ostáva regulárna cena ${price}€.`);
+      }
+    }
+    // Manual overrides are a deliberate, already-reviewed decision (e.g. matching a specific
+    // Heureka competitor) — only block an outright loss, not the same 10% floor as an unreviewed
+    // BASYS promo price. Still counts any active per-unit subsidy for the same SKU.
+    const manualOverride = MANUAL_PRICE_OVERRIDES[item.objKod];
+    if (manualOverride !== undefined) {
+      const overrideMarginPct = marginPctWithSupport(manualOverride);
+      if (overrideMarginPct >= 0) {
+        onPromo = true;
+        // roundPriceDown, not roundPrice: this is meant to undercut a specific competitor price
+        // (e.g. "258.99 to beat their 259.00") — rounding to nearest could snap back up to a tie.
+        actionPrice = roundPriceDown(manualOverride);
+      } else {
+        stats.manualOverrideBelowFloor = (stats.manualOverrideBelowFloor || 0) + 1;
+        console.log(`  Preskakujem manuálnu cenu pre ${item.objKod} (${item.name}): ${manualOverride}€ (+ ${supportExclVat}€ podpora) by bolo pod nákladovou cenou (${overrideMarginPct.toFixed(1)}% marža).`);
+      }
+    }
+    if (onPromo) stats.onPromo++;
 
     const shortDescription = truncateAtWord(stripTags(description), 200);
     const seoTitle = truncateAtWord(`${name} | ${STORE_NAME}`, 70);
