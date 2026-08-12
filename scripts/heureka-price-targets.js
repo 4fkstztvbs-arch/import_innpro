@@ -49,9 +49,17 @@ function loadTargets() {
 // for ZNÍŽIŤ) and never past the target - it must NOT blindly clamp to the target regardless of
 // today's computed price, because that price can have moved since the report was generated (a
 // purchase-price change shifts the formula price and therefore the floor). Concretely:
-//   ZVÝŠIŤ: never go below what today's own formula already computed (only raises).
+//   ZVÝŠIŤ: raises toward the target, but caps at CEILING_OVER_TARGET_PCT above it — a supplier's
+//     own "recommended price" field (K-B's nCenaInternetSK/nDoporucenaCena, used verbatim as
+//     computedPriceInclVat when present) can be stale or wrong and spike far above what's
+//     actually competitive; Math.max alone would let that spike straight through untouched
+//     (e.g. Gorenje NRK6192AXL4: target 399€, K-B's own field said 559€ — a real incident, not
+//     hypothetical). Capping keeps the override doing its job (nudge toward competitive) without
+//     blindly trusting an upstream number that was never itself checked against Heureka reality.
 //   ZNÍŽIŤ: never go above what today's own formula already computed (only lowers).
 // Both directions still respect today's floor.
+const CEILING_OVER_TARGET_PCT = 15;
+
 function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct = DEFAULT_MIN_MARGIN_PCT) {
   if (!OVERRIDE_ENABLED) return computedPriceInclVat;
   if (!ean || !purchasePriceExclVat) return computedPriceInclVat;
@@ -59,7 +67,9 @@ function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat
   if (!target || !Number.isFinite(target.targetPriceInclVat)) return computedPriceInclVat;
   const floor = roundPriceUp(purchasePriceExclVat * (1 + minMarginPct / 100) * (1 + vatPct / 100));
   if (target.action === 'ZVÝŠIŤ') {
-    return roundPrice(Math.max(computedPriceInclVat, floor, target.targetPriceInclVat));
+    const lowerBound = Math.max(floor, target.targetPriceInclVat);
+    const ceiling = Math.max(lowerBound, roundPrice(target.targetPriceInclVat * (1 + CEILING_OVER_TARGET_PCT / 100)));
+    return roundPrice(Math.min(Math.max(computedPriceInclVat, lowerBound), ceiling));
   }
   if (target.action === 'ZNÍŽIŤ') {
     return roundPrice(Math.max(floor, Math.min(computedPriceInclVat, target.targetPriceInclVat)));
