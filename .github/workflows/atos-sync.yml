@@ -49,6 +49,12 @@ jobs:
             echo "data/icecat-atos-full.csv not found yet — skipping enrichment step"
           fi
 
+      - name: Pull latest before cross-supplier dedupe
+        run: git pull --rebase origin main
+
+      - name: Cross-supplier dedupe
+        run: node scripts/dedupe-cross-supplier.js
+
       - name: Commit updated output
         run: |
           git config user.name "atos-sync-bot"
