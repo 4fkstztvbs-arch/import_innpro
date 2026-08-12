@@ -1,1 +1,6 @@
 scripts/cz-sk-dict.json
+
+# Regenerated fresh by every dedupe-cross-supplier.js run; nothing downstream reads it. Tracking
+# it in git caused rebase conflicts when multiple supplier-sync workflows run close together
+# (each rewrites the whole file, so concurrent runs collide on the same lines).
+reports/cross-supplier-dedupe.csv
