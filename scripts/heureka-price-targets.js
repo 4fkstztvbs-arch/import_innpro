@@ -45,21 +45,19 @@ function loadTargets() {
 // Returns computedPriceInclVat unchanged if there's no target for this EAN or no purchase price
 // to safely derive a floor from.
 //
-// The override only ever moves price in the direction the report intended (up for ZVÝŠIŤ, down
-// for ZNÍŽIŤ) and never past the target - it must NOT blindly clamp to the target regardless of
-// today's computed price, because that price can have moved since the report was generated (a
-// purchase-price change shifts the formula price and therefore the floor). Concretely:
-//   ZVÝŠIŤ: raises toward the target, but caps at CEILING_OVER_TARGET_PCT above it — a supplier's
-//     own "recommended price" field (K-B's nCenaInternetSK/nDoporucenaCena, used verbatim as
-//     computedPriceInclVat when present) can be stale or wrong and spike far above what's
-//     actually competitive; Math.max alone would let that spike straight through untouched
-//     (e.g. Gorenje NRK6192AXL4: target 399€, K-B's own field said 559€ — a real incident, not
-//     hypothetical). Capping keeps the override doing its job (nudge toward competitive) without
-//     blindly trusting an upstream number that was never itself checked against Heureka reality.
-//   ZNÍŽIŤ: never go above what today's own formula already computed (only lowers).
-// Both directions still respect today's floor.
-const CEILING_OVER_TARGET_PCT = 15;
-
+// Business rule: minimum margin is the MIN_MARGIN_PCT floor, full stop. Above that, being
+// competitive (ideally cheapest) matters more than squeezing extra margin.
+//   ZVÝŠIŤ (we're currently cheapest): the target price is the one that keeps us #1 - just under
+//     the 2nd-cheapest competitor - so we use it directly, clamped only by the floor. We do NOT
+//     blend in computedPriceInclVat here: a supplier's own "recommended price" field (K-B's
+//     nCenaInternetSK/nDoporucenaCena, used verbatim as computedPriceInclVat when present) can be
+//     stale or wrong and spike far above what's competitive - e.g. Gorenje NRK6192AXL4: target
+//     399€ (keeps position #1), but K-B's own field said 559€, a real incident, not hypothetical.
+//     Trusting that number over the Heureka-derived target would both overprice the product AND
+//     lose position #1, the opposite of the point of this whole mechanism.
+//   ZNÍŽIŤ (we're not cheapest): undercut toward the target, but never below the floor - if
+//     reaching the target would break the floor, land on the floor instead and accept not being
+//     #1 rather than sell under margin.
 function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct = DEFAULT_MIN_MARGIN_PCT) {
   if (!OVERRIDE_ENABLED) return computedPriceInclVat;
   if (!ean || !purchasePriceExclVat) return computedPriceInclVat;
@@ -67,9 +65,7 @@ function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat
   if (!target || !Number.isFinite(target.targetPriceInclVat)) return computedPriceInclVat;
   const floor = roundPriceUp(purchasePriceExclVat * (1 + minMarginPct / 100) * (1 + vatPct / 100));
   if (target.action === 'ZVÝŠIŤ') {
-    const lowerBound = Math.max(floor, target.targetPriceInclVat);
-    const ceiling = Math.max(lowerBound, roundPrice(target.targetPriceInclVat * (1 + CEILING_OVER_TARGET_PCT / 100)));
-    return roundPrice(Math.min(Math.max(computedPriceInclVat, lowerBound), ceiling));
+    return roundPrice(Math.max(floor, target.targetPriceInclVat));
   }
   if (target.action === 'ZNÍŽIŤ') {
     return roundPrice(Math.max(floor, Math.min(computedPriceInclVat, target.targetPriceInclVat)));
