@@ -28,6 +28,14 @@ const MAPPING_PATH = path.join(__dirname, 'innpro-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
+const CATEGORY_OVERRIDES_BY_CODE = mapping.categoryOverridesByCode || {};
+
+function pathToExtraCategories(category) {
+  const segs = category.split(' > ');
+  const extraCategories = [];
+  for (let i = 1; i < segs.length; i++) extraCategories.push(segs.slice(0, i).join(' > '));
+  return extraCategories;
+}
 
 function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
 
@@ -201,8 +209,13 @@ async function main() {
     let price = roundPrice(cost * (1 + MARKUP_PCT / 100) * (1 + parseFloat(p.vat) / 100));
     price = applyHeurekaPriceTarget(p.ean, price, cost, parseFloat(p.vat));
 
-    const { category, extraCategories, excluded } = resolveCategory(p.category);
+    let { category, extraCategories, excluded } = resolveCategory(p.category);
     if (excluded) { stats.skippedCategory++; return; }
+    const productCode = p.codeOnCard || p.id;
+    if (CATEGORY_OVERRIDES_BY_CODE[productCode]) {
+      category = CATEGORY_OVERRIDES_BY_CODE[productCode];
+      extraCategories = pathToExtraCategories(category);
+    }
 
     let stockQty = 0, stockInfinite = false;
     if (lightEntry) { stockQty = lightEntry.stock; stockInfinite = lightEntry.infinite; }
