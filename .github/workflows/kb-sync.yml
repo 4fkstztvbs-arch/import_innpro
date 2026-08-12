@@ -21,11 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm install --omit=dev
 
-      - name: DIAGNOSTIC — list K-B feed field names (temporary, remove after use)
-        env:
-          KB_ZBOZI_URL: ${{ secrets.KB_ZBOZI_URL }}
-        run: node scripts/inspect-kb-feed-fields.js
-
       - name: Run K-B transform
         env:
           KB_ZBOZI_URL: ${{ secrets.KB_ZBOZI_URL }}
@@ -49,7 +44,10 @@ jobs:
         run: node scripts/enrich-kb-icecat.js
 
       - name: Pull latest before cross-supplier dedupe
-        run: git pull --rebase origin main
+        run: |
+          git stash -u
+          git pull --rebase origin main
+          git stash pop
 
       - name: Cross-supplier dedupe
         run: node scripts/dedupe-cross-supplier.js
