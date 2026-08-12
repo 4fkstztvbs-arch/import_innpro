@@ -1,239 +1,268 @@
 {
-  "validFrom": "2026-07-01",
-  "validUntil": "2026-08-31",
-  "source": "BOSE_CE__FY27_Promo_June1.7._31.8..xlsx",
-  "items": [
-    {
-      "objKod": "B 895098-0100",
-      "ean": "17817859226",
-      "name": "BOSE Soundlink Micro 2nd Gen",
-      "color": "čierna",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 105.0
-    },
-    {
-      "objKod": "B 895098-0200",
-      "ean": "17817859219",
-      "name": "BOSE Soundlink Micro 2nd Gen",
-      "color": "Dusk Blue",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 105.0
-    },
-    {
-      "objKod": "B 895098-0300",
-      "ean": "17817859936",
-      "name": "BOSE Soundlink Micro 2nd Gen",
-      "color": "Sandstone",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 105.0
-    },
-    {
-      "objKod": "B 887612-0100",
-      "ean": "17817852470",
-      "name": "BOSE SoundLink Flex II",
-      "color": "Black",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 145.0
-    },
-    {
-      "objKod": "B 887612-0200",
-      "ean": "17817852487",
-      "name": "BOSE SoundLink Flex II",
-      "color": "Blue Dusk",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 145.0
-    },
-    {
-      "objKod": "B 887612-0300",
-      "ean": "17817852616",
-      "name": "BOSE SoundLink Flex II",
-      "color": "Sandstone",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 145.0
-    },
-    {
-      "objKod": "B 887612-0400",
-      "ean": "17817852494",
-      "name": "BOSE SoundLink Flex II",
-      "color": "Alpine Sage",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 145.0
-    },
-    {
-      "objKod": "B 887612-0500",
-      "ean": "17817859974",
-      "name": "BOSE SoundLink Flex II",
-      "color": "twilight blue",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 145.0
-    },
-    {
-      "objKod": "B 894040-0100",
-      "ean": "17817857932",
-      "name": "BOSE SoundLink Plus",
-      "color": "čierna",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 240.0
-    },
-    {
-      "objKod": "B 894040-0200",
-      "ean": "17817858373",
-      "name": "BOSE SoundLink Plus",
-      "color": "modrá - dusk blue",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 240.0
-    },
-    {
-      "objKod": "B 883848-0010",
-      "ean": "17817848848",
-      "name": "BOSE Soundlink Max",
-      "color": "čierna",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 330.0
-    },
-    {
-      "objKod": "B 883848-0020",
-      "ean": "17817848831",
-      "name": "BOSE Soundlink Max",
-      "color": "modrá - dusk blue",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 330.0
-    },
-    {
-      "objKod": "B 892399-0010",
-      "ean": "17817856560",
-      "name": "Bose SoundLink Home Bluetooth speaker",
-      "color": "light silver",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 199.99
-    },
-    {
-      "objKod": "B 892399-0020",
-      "ean": "17817856553",
-      "name": "Bose SoundLink Home Bluetooth speaker",
-      "color": "cool grey",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 199.99
-    },
-    {
-      "objKod": "B 892399-0030",
-      "ean": "17817857550",
-      "name": "Bose SoundLink Home Bluetooth speaker",
-      "color": "warm wood",
-      "category": "BT SPEAKERS",
-      "promoMocInclVat": 199.99
-    },
-    {
-      "objKod": "B 890101-0100",
-      "ean": "17817859585",
-      "name": "BOSE QC Ultra Headphones 2nd Gen",
-      "color": "Black",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 390.0
-    },
-    {
-      "objKod": "B 890101-0200",
-      "ean": "17817859561",
-      "name": "BOSE QC Ultra Headphones 2nd Gen",
-      "color": "White",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 390.0
-    },
-    {
-      "objKod": "B 884367-0100",
-      "ean": "17817848961",
-      "name": "BOSE QuietComfort headphones",
-      "color": "čierna",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 250.0
-    },
-    {
-      "objKod": "B 884367-0200",
-      "ean": "17817848985",
-      "name": "BOSE QuietComfort headphones",
-      "color": "biela",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 250.0
-    },
-    {
-      "objKod": "B 896637-0010",
-      "ean": "17817861120",
-      "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
-      "color": "čierna",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 260.0
-    },
-    {
-      "objKod": "B 896637-0020",
-      "ean": "17817861076",
-      "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
-      "color": "biela - white smoke",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 260.0
-    },
-    {
-      "objKod": "B 896637-0030",
-      "ean": "17817861151",
-      "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
-      "color": "deep plum",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 260.0
-    },
-    {
-      "objKod": "B 881046-0010",
-      "ean": "17817846929",
-      "name": "BOSE Ultra Open Earbuds",
-      "color": "čierna",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 280.0
-    },
-    {
-      "objKod": "B 881046-0020",
-      "ean": "17817846912",
-      "name": "BOSE Ultra Open Earbuds",
-      "color": "biela",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 280.0
-    },
-    {
-      "objKod": "B 888507-0100",
-      "ean": "17817853460",
-      "name": "BOSE QuietComfort Earbuds",
-      "color": "čierna",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 165.0
-    },
-    {
-      "objKod": "B 888507-0200",
-      "ean": "17817853439",
-      "name": "BOSE QuietComfort Earbuds",
-      "color": "biela",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 165.0
-    },
-    {
-      "objKod": "B 888507-0300",
-      "ean": "17817853200",
-      "name": "BOSE QuietComfort Earbuds",
-      "color": "Chilled Lilac",
-      "category": "HEADPHONES",
-      "promoMocInclVat": 165.0
-    },
-    {
-      "objKod": "B 892079-2100",
-      "ean": "17817856164",
-      "name": "BOSE Smart Soundbar - Black",
-      "color": "čierna",
-      "category": "SOUNDBAR",
-      "promoMocInclVat": 449.0
-    },
-    {
-      "objKod": "B 838309-2100",
-      "ean": "17817808651",
-      "name": "BOSE TV Speaker",
-      "color": "čierna",
-      "category": "SOUNDBAR",
-      "promoMocInclVat": 249.0
-    }
-  ]
+ "validFrom": "2026-07-01",
+ "validUntil": "2026-08-31",
+ "source": "BOSE_CE__FY27_Promo_June1.7._31.8..xlsx",
+ "items": [
+  {
+   "objKod": "B 895098-0100",
+   "ean": "17817859226",
+   "name": "BOSE Soundlink Micro 2nd Gen",
+   "color": "čierna",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 105.0,
+   "supportExclVat": 10.0
+  },
+  {
+   "objKod": "B 895098-0200",
+   "ean": "17817859219",
+   "name": "BOSE Soundlink Micro 2nd Gen",
+   "color": "Dusk Blue",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 105.0,
+   "supportExclVat": 10.0
+  },
+  {
+   "objKod": "B 895098-0300",
+   "ean": "17817859936",
+   "name": "BOSE Soundlink Micro 2nd Gen",
+   "color": "Sandstone",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 105.0,
+   "supportExclVat": 10.0
+  },
+  {
+   "objKod": "B 887612-0100",
+   "ean": "17817852470",
+   "name": "BOSE SoundLink Flex II",
+   "color": "Black",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 145.0,
+   "supportExclVat": 21.0
+  },
+  {
+   "objKod": "B 887612-0200",
+   "ean": "17817852487",
+   "name": "BOSE SoundLink Flex II",
+   "color": "Blue Dusk",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 145.0,
+   "supportExclVat": 21.0
+  },
+  {
+   "objKod": "B 887612-0300",
+   "ean": "17817852616",
+   "name": "BOSE SoundLink Flex II",
+   "color": "Sandstone",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 145.0,
+   "supportExclVat": 21.0
+  },
+  {
+   "objKod": "B 887612-0400",
+   "ean": "17817852494",
+   "name": "BOSE SoundLink Flex II",
+   "color": "Alpine Sage",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 145.0,
+   "supportExclVat": 21.0
+  },
+  {
+   "objKod": "B 887612-0500",
+   "ean": "17817859974",
+   "name": "BOSE SoundLink Flex II",
+   "color": "twilight blue",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 145.0,
+   "supportExclVat": 21.0
+  },
+  {
+   "objKod": "B 894040-0100",
+   "ean": "17817857932",
+   "name": "BOSE SoundLink Plus",
+   "color": "čierna",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 240.0,
+   "supportExclVat": 28.0
+  },
+  {
+   "objKod": "B 894040-0200",
+   "ean": "17817858373",
+   "name": "BOSE SoundLink Plus",
+   "color": "modrá - dusk blue",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 240.0,
+   "supportExclVat": 28.0
+  },
+  {
+   "objKod": "B 883848-0010",
+   "ean": "17817848848",
+   "name": "BOSE Soundlink Max",
+   "color": "čierna",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 330.0,
+   "supportExclVat": 35.0
+  },
+  {
+   "objKod": "B  883848-0020",
+   "ean": "17817848831",
+   "name": "BOSE Soundlink Max",
+   "color": "modrá - dusk blue",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 330.0,
+   "supportExclVat": 35.0
+  },
+  {
+   "objKod": "B 892399-0010",
+   "ean": "17817856560",
+   "name": "Bose SoundLink Home Bluetooth speaker",
+   "color": "light silver",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 199.99,
+   "supportExclVat": 10.0
+  },
+  {
+   "objKod": "B 892399-0020",
+   "ean": "17817856553",
+   "name": "Bose SoundLink Home Bluetooth speaker",
+   "color": "cool grey",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 199.99,
+   "supportExclVat": 10.0
+  },
+  {
+   "objKod": "B 892399-0030",
+   "ean": "17817857550",
+   "name": "Bose SoundLink Home Bluetooth speaker",
+   "color": "warm wood",
+   "category": "BT SPEAKERS",
+   "promoMocInclVat": 199.99,
+   "supportExclVat": 10.0
+  },
+  {
+   "objKod": "B 890101-0100",
+   "ean": "17817859585",
+   "name": "BOSE QC Ultra Headphones 2nd Gen",
+   "color": "Black",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 390.0,
+   "supportExclVat": 20.0
+  },
+  {
+   "objKod": "B 890101-0200",
+   "ean": "17817859561",
+   "name": "BOSE QC Ultra Headphones 2nd Gen",
+   "color": "White",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 390.0,
+   "supportExclVat": 20.0
+  },
+  {
+   "objKod": "B 884367-0100",
+   "ean": "17817848961",
+   "name": "BOSE QuietComfort headphones",
+   "color": "čierna",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 250.0,
+   "supportExclVat": 29.0
+  },
+  {
+   "objKod": "B 884367-0200",
+   "ean": "17817848985",
+   "name": "BOSE QuietComfort headphones",
+   "color": "biela",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 250.0,
+   "supportExclVat": 29.0
+  },
+  {
+   "objKod": "B 896637-0010",
+   "ean": "17817861120",
+   "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
+   "color": "čierna",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 260.0,
+   "supportExclVat": 22.0
+  },
+  {
+   "objKod": "B 896637-0020",
+   "ean": "17817861076",
+   "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
+   "color": "biela - white smoke",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 260.0,
+   "supportExclVat": 22.0
+  },
+  {
+   "objKod": "B 896637-0030",
+   "ean": "17817861151",
+   "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
+   "color": "deep plum",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 260.0,
+   "supportExclVat": 22.0
+  },
+  {
+   "objKod": "B 881046-0010",
+   "ean": "17817846929",
+   "name": "BOSE Ultra Open Earbuds",
+   "color": "čierna",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 280.0,
+   "supportExclVat": 48.0
+  },
+  {
+   "objKod": "B 881046-0020",
+   "ean": "17817846912",
+   "name": "BOSE Ultra Open Earbuds",
+   "color": "biela",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 280.0,
+   "supportExclVat": 48.0
+  },
+  {
+   "objKod": "B 888507-0100",
+   "ean": "17817853460",
+   "name": "BOSE QuietComfort Earbuds",
+   "color": "čierna",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 165.0,
+   "supportExclVat": 24.0
+  },
+  {
+   "objKod": "B  888507-0200",
+   "ean": "17817853439",
+   "name": "BOSE QuietComfort Earbuds",
+   "color": "biela",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 165.0,
+   "supportExclVat": 24.0
+  },
+  {
+   "objKod": "B 888507-0300",
+   "ean": "17817853200",
+   "name": "BOSE QuietComfort Earbuds",
+   "color": "Chilled Lilac",
+   "category": "HEADPHONES",
+   "promoMocInclVat": 165.0,
+   "supportExclVat": 24.0
+  },
+  {
+   "objKod": "B 892079-2100",
+   "ean": "17817856164",
+   "name": "BOSE Smart Soundbar - Black",
+   "color": "čierna",
+   "category": "SOUNDBAR",
+   "promoMocInclVat": 449.0,
+   "supportExclVat": 30.0
+  },
+  {
+   "objKod": "B 838309-2100",
+   "ean": "17817808651",
+   "name": "BOSE TV Speaker",
+   "color": "čierna",
+   "category": "SOUNDBAR",
+   "promoMocInclVat": 249.0,
+   "supportExclVat": 20.0
+  }
+ ]
 }
