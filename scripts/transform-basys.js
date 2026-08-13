@@ -230,7 +230,13 @@ function main() {
     let actionPrice = null;
     if (promoEntry !== undefined) {
       const promoMarginPct = marginPctWithSupport(promoEntry.promoMocInclVat);
-      if (promoMarginPct >= MIN_PROMO_MARGIN_PCT) {
+      if (promoEntry.promoMocInclVat >= price) {
+        // A regular-price cut since the promo list was built can leave the old promo price at or
+        // above the new MOC — e.g. QuietComfort headphones: MOC dropped 299→239€ but the promo
+        // file still says 250€, which would show as a "discount" that's actually more expensive.
+        stats.promoAboveRegular = (stats.promoAboveRegular || 0) + 1;
+        console.log(`  Preskakujem promo cenu pre ${item.objKod} (${item.name}): ${promoEntry.promoMocInclVat}€ nie je lacnejšia než aktuálna regulárna cena ${price}€ (MOC medzičasom klesla).`);
+      } else if (promoMarginPct >= MIN_PROMO_MARGIN_PCT) {
         onPromo = true;
         actionPrice = roundPrice(promoEntry.promoMocInclVat);
       } else {
@@ -244,7 +250,10 @@ function main() {
     const manualOverride = MANUAL_PRICE_OVERRIDES[item.objKod];
     if (manualOverride !== undefined) {
       const overrideMarginPct = marginPctWithSupport(manualOverride);
-      if (overrideMarginPct >= 0) {
+      if (manualOverride >= price) {
+        stats.manualOverrideAboveRegular = (stats.manualOverrideAboveRegular || 0) + 1;
+        console.log(`  Preskakujem manuálnu cenu pre ${item.objKod} (${item.name}): ${manualOverride}€ nie je lacnejšia než aktuálna regulárna cena ${price}€.`);
+      } else if (overrideMarginPct >= 0) {
         onPromo = true;
         // roundPriceDown, not roundPrice: this is meant to undercut a specific competitor price
         // (e.g. "258.99 to beat their 259.00") — rounding to nearest could snap back up to a tie.
