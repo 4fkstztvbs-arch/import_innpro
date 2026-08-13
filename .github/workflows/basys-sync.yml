@@ -1,0 +1,48 @@
+name: BASYS sync
+
+on:
+  schedule:
+    - cron: '0 23 * * *' # 23:00 UTC daily — after the rest of the night batch (Heureka report 22:00, ATOS 22:10, InnPro 22:20, K-B 22:30, MONACOR 22:40, Solight 22:50)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Run BASYS transform
+        env:
+          BASYS_URL: ${{ secrets.BASYS_URL }}
+          BASYS_OUT: output/basys.xml
+        run: node scripts/transform-basys.js
+
+      - name: Commit updated output
+        run: |
+          git config user.name "basys-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet && echo "No changes" || git commit -m "Automatický BASYS sync $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            echo "Push failed (attempt $i) — another workflow likely pushed at the same time. Retrying in $((i*8))s..."
+            sleep $((i*8))
+            if [ "$i" = "5" ]; then
+              echo "::error::Push failed after 5 attempts"
+              exit 1
+            fi
+          done

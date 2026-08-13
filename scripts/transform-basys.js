@@ -38,6 +38,7 @@ const fs = require('fs');
 const path = require('path');
 const { roundPrice, roundPriceDown } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
+const { streamRecords } = require('./stream-records');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
 const CLOUD_IMAGES_PATH = process.env.BASYS_CLOUD_IMAGES || path.join(__dirname, '..', 'data', 'basys-bose-cloud-images.json');
@@ -92,35 +93,40 @@ function loadActivePromos() {
   return map;
 }
 
-// Builds ITEM_ID -> {images, description} from the BASYS Heureka feed, for enrichment lookup.
-function loadFeedEnrichment() {
-  const map = new Map();
-  let xml;
-  if (LOCAL_FILE && fs.existsSync(LOCAL_FILE)) {
-    xml = fs.readFileSync(LOCAL_FILE, 'utf-8');
-  } else if (URL) {
-    console.warn('Live BASYS_URL fetch not implemented yet for enrichment — skipping image/description enrichment.');
-    return map;
-  } else {
-    console.warn(`No BASYS feed found at ${LOCAL_FILE} — proceeding without image/description enrichment.`);
-    return map;
-  }
-  const blocks = xml.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g) || [];
+// Parses one <SHOPITEM> block from the BASYS Heureka feed into the enrichment shape and stores
+// it in map, keyed by normalized ITEM_ID. Shared by both the live-URL and local-file code paths.
+function addEnrichmentRecord(map, block) {
+  const idM = block.match(/<ITEM_ID>([\s\S]*?)<\/ITEM_ID>/);
+  if (!idM) return;
+  const imgM = block.match(/<IMGURL>([\s\S]*?)<\/IMGURL>/);
+  const imgAltM = block.match(/<IMGURL_ALTERNATIVE>([\s\S]*?)<\/IMGURL_ALTERNATIVE>/);
+  const descM = block.match(/<DESCRIPTION>([\s\S]*?)<\/DESCRIPTION>/);
+  const deliveryM = block.match(/<DELIVERY_DATE>([\s\S]*?)<\/DELIVERY_DATE>/);
+  const images = [imgM && imgM[1].trim(), imgAltM && imgAltM[1].trim()].filter(Boolean);
   const he = require('he');
-  for (const block of blocks) {
-    const idM = block.match(/<ITEM_ID>([\s\S]*?)<\/ITEM_ID>/);
-    if (!idM) continue;
-    const imgM = block.match(/<IMGURL>([\s\S]*?)<\/IMGURL>/);
-    const imgAltM = block.match(/<IMGURL_ALTERNATIVE>([\s\S]*?)<\/IMGURL_ALTERNATIVE>/);
-    const descM = block.match(/<DESCRIPTION>([\s\S]*?)<\/DESCRIPTION>/);
-    const deliveryM = block.match(/<DELIVERY_DATE>([\s\S]*?)<\/DELIVERY_DATE>/);
-    const images = [imgM && imgM[1].trim(), imgAltM && imgAltM[1].trim()].filter(Boolean);
-    const description = descM ? he.decode(he.decode(descM[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim())) : '';
-    // BASYS's own DELIVERY_DATE: "0" = ships immediately (in stock), any other number = days
-    // until it can ship (on order from their supplier) — the only stock signal this feed has.
-    const deliveryDate = deliveryM ? deliveryM[1].trim() : null;
-    map.set(norm(idM[1]), { images, description, deliveryDate });
+  const description = descM ? he.decode(he.decode(descM[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim())) : '';
+  // BASYS's own DELIVERY_DATE: "0" = ships immediately (in stock), any other number = days
+  // until it can ship (on order from their supplier) — the only stock signal this feed has.
+  const deliveryDate = deliveryM ? deliveryM[1].trim() : null;
+  map.set(norm(idM[1]), { images, description, deliveryDate });
+}
+
+// Builds ITEM_ID -> {images, description, deliveryDate} from the BASYS Heureka feed, for
+// enrichment lookup. Prefers a live BASYS_URL fetch (the production path); falls back to a local
+// file (BASYS_LOCAL_FILE, or the checked-in sample) when no URL is configured.
+async function loadFeedEnrichment() {
+  const map = new Map();
+  if (URL) {
+    await streamRecords(URL, 'SHOPITEM', (block) => addEnrichmentRecord(map, block));
+    return map;
   }
+  if (LOCAL_FILE && fs.existsSync(LOCAL_FILE)) {
+    const xml = fs.readFileSync(LOCAL_FILE, 'utf-8');
+    const blocks = xml.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g) || [];
+    for (const block of blocks) addEnrichmentRecord(map, block);
+    return map;
+  }
+  console.warn(`No BASYS feed found at ${LOCAL_FILE} and no BASYS_URL set — proceeding without image/description enrichment.`);
   return map;
 }
 
@@ -164,7 +170,7 @@ function buildShopitemXml(p) {
   return parts.join('\n');
 }
 
-function main() {
+async function main() {
   if (!fs.existsSync(PRICELIST_PATH)) {
     console.error(`Missing price list: ${PRICELIST_PATH}`);
     process.exit(1);
@@ -172,7 +178,7 @@ function main() {
   const priceList = JSON.parse(fs.readFileSync(PRICELIST_PATH, 'utf-8'));
   console.log(`Loaded ${priceList.length} products from official BASYS/Bose price list.`);
 
-  const enrichment = loadFeedEnrichment();
+  const enrichment = await loadFeedEnrichment();
   console.log(`Loaded enrichment data for ${enrichment.size} products from BASYS feed.`);
 
   const cloudImages = fs.existsSync(CLOUD_IMAGES_PATH)
@@ -285,4 +291,4 @@ function main() {
   console.log('Output written to', OUT_PATH);
 }
 
-main();
+main().catch((e) => { console.error('FATAL:', e); process.exit(1); });
