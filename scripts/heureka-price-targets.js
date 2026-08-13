@@ -73,4 +73,14 @@ function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat
   return computedPriceInclVat;
 }
 
-module.exports = { applyHeurekaPriceTarget, loadTargets, TARGETS_PATH, OVERRIDE_ENABLED };
+// True when the last processed Heureka report found that, even priced at our margin floor, this
+// EAN still doesn't undercut the cheapest competitor - we cannot win on price here. Independent
+// of the OVERRIDE_ENABLED kill switch (that one gates whether we let live prices move; this is
+// about feed *visibility*, a separate decision the user made explicitly).
+function cannotCompeteOnPrice(ean) {
+  if (!ean) return false;
+  const target = loadTargets()[ean];
+  return !!(target && target.cantCompete);
+}
+
+module.exports = { applyHeurekaPriceTarget, cannotCompeteOnPrice, loadTargets, TARGETS_PATH, OVERRIDE_ENABLED };
