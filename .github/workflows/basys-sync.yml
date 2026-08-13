@@ -25,6 +25,7 @@ jobs:
         env:
           BASYS_URL: ${{ secrets.BASYS_URL }}
           BASYS_OUT: output/basys.xml
+          HEUREKA_PRICE_OVERRIDE: '1'
         run: node scripts/transform-basys.js
 
       - name: Commit updated output

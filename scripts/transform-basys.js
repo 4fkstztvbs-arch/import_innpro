@@ -39,6 +39,7 @@ const path = require('path');
 const { roundPrice, roundPriceDown } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { streamRecords } = require('./stream-records');
+const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
 const CLOUD_IMAGES_PATH = process.env.BASYS_CLOUD_IMAGES || path.join(__dirname, '..', 'data', 'basys-bose-cloud-images.json');
@@ -144,7 +145,7 @@ function buildShopitemXml(p) {
   parts.push(`<CATEGORIES><CATEGORY>${xmlCdata(p.defaultCategory)}</CATEGORY></CATEGORIES>`);
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
-  if (isHeurekaHidden(p.defaultCategory, p.price)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  if (isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));
@@ -218,8 +219,15 @@ async function main() {
 
     const defaultCategory = PRICE_LIST_CATEGORY_MAP[item.category] || 'TV, audio a video > Audio technika';
 
-    const price = roundPrice(item.mocInclVat);
     const purchasePrice = item.purchasePriceExclVat;
+    // Official MOC is the starting point, but a live Heureka price-target (from the last
+    // processed sortiment report) can nudge it up (if we're the cheapest, toward the 2nd-cheapest
+    // competitor) or down (if we're not, toward undercutting the cheapest) — same mechanism as
+    // ATOS/InnPro/K-B/Solight, gated by HEUREKA_PRICE_OVERRIDE and always bounded by the margin
+    // floor derived from purchasePriceExclVat (the real cost from the official price list, never
+    // estimated). Note this can in principle push the price above Bose's own MOC if we're
+    // currently the cheapest seller by a wide margin.
+    const price = applyHeurekaPriceTarget(item.ean, roundPrice(item.mocInclVat), purchasePrice, parseFloat(VAT));
     const promoEntry = activePromos.get(norm(item.objKod));
     const supportExclVat = promoEntry ? promoEntry.supportExclVat : 0;
     // BASYS pays back "Podpora bez DPH/ks" (a per-unit subsidy) for every unit sold during the
