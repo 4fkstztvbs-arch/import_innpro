@@ -1,9 +1,19 @@
-// Automated import for BASYS (basys.sk) — BOSE products, sourced from the official Bose
-// distributor price list (data/basys-bose-pricelist.json, extracted from the "BOSE VOC FY27_ALL"
-// sheet of a manually-supplied xlsx — see reports/prehlad-importov.md for how to refresh it when
-// BASYS sends an updated one). This is the primary and only source of truth for which products
-// get imported, their EAN, and both prices (MOC = official retail incl. VAT, VOC bez DPH = real
-// purchase price excl. VAT) — no estimation needed, unlike the earlier Heureka-feed-only attempt.
+// Automated import for BASYS (basys.sk) — the FULL BASYS product feed (all manufacturers:
+// Bose, Bose Pro, Behringer, Pioneer, Energy Sistem, Beyerdynamic, TC Electronic, Meze, Klark
+// Teknik, Lab Gruppen, Tannoy, SPL, TC Helicon, Midas, Aston Microphones — ~1376 products).
+//
+// Pricing has two tiers, per product (matched by objKod/ITEM_ID):
+//   1. Official price list (data/basys-bose-pricelist.json, extracted from the "BOSE VOC FY27_ALL"
+//      sheet of a manually-supplied xlsx — see reports/prehlad-importov.md) — real EAN and both
+//      prices (MOC = official retail incl. VAT, VOC bez DPH = real purchase price excl. VAT) for
+//      76 curated Bose/Bose Pro SKUs. Always wins when a feed item matches one of these.
+//   2. Everything else (the remaining ~1300 products, including non-price-listed Bose/Bose Pro
+//      accessories) — no EAN and no purchase-price field exists anywhere in the BASYS feed, so
+//      the purchase price is ESTIMATED: we take the feed's own PRICE_VAT as our sell price, and
+//      back out an assumed cost at ~15% markup (purchaseExclVat = priceExclVat / 1.15) — the same
+//      estimation basis used for the original pre-official-pricelist Bose attempt. This is a
+//      rough placeholder for margin-floor/profitability purposes until real supplier price lists
+//      are obtained (requested from BASYS for the other brands too — see reports/prehlad-importov.md).
 //
 // Images/description come from two enrichment sources, in priority order:
 //   1. data/basys-bose-cloud-images.json — a curated match against BASYS's own official product
@@ -57,7 +67,13 @@ const STORE_NAME = process.env.BASYS_STORE_NAME || 'premiumstore.sk';
 
 const mapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'basys-mapping.json'), 'utf-8'));
 const PRICE_LIST_CATEGORY_MAP = mapping.priceListCategoryMap || {};
+const CATEGORY_MAP = mapping.categoryMap || {};
+const FALLBACK_BY_MANUFACTURER = mapping.fallbackByManufacturer || {};
 const MANUAL_PRICE_OVERRIDES = mapping.manualPriceOverridesByCode || {};
+// Assumed markup used to back out an estimated purchase price from the feed's own PRICE_VAT for
+// every product that has no entry in the official price list (see file header, tier 2). Same
+// basis as the original pre-official-pricelist Bose estimate.
+const ESTIMATED_MARKUP_MULTIPLIER = 1.15;
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlAttr(s) { return xmlEscape(s).replace(/"/g, '&quot;'); }
@@ -94,40 +110,50 @@ function loadActivePromos() {
   return map;
 }
 
-// Parses one <SHOPITEM> block from the BASYS Heureka feed into the enrichment shape and stores
-// it in map, keyed by normalized ITEM_ID. Shared by both the live-URL and local-file code paths.
-function addEnrichmentRecord(map, block) {
+// Parses one <SHOPITEM> block from the BASYS Heureka feed into a full record and stores it in
+// map, keyed by normalized ITEM_ID. Shared by both the live-URL and local-file code paths. Used
+// both as enrichment (images/description/stock) for official-price-list products, and as the
+// full source (name/manufacturer/category/price) for every product NOT in the price list.
+function addFeedRecord(map, block) {
   const idM = block.match(/<ITEM_ID>([\s\S]*?)<\/ITEM_ID>/);
   if (!idM) return;
+  const he = require('he');
+  const nameM = block.match(/<PRODUCTNAME>([\s\S]*?)<\/PRODUCTNAME>/);
+  const manufacturerM = block.match(/<MANUFACTURER>([\s\S]*?)<\/MANUFACTURER>/);
+  const categoryM = block.match(/<CATEGORYTEXT>([\s\S]*?)<\/CATEGORYTEXT>/);
+  const priceM = block.match(/<PRICE_VAT>([\s\S]*?)<\/PRICE_VAT>/);
   const imgM = block.match(/<IMGURL>([\s\S]*?)<\/IMGURL>/);
   const imgAltM = block.match(/<IMGURL_ALTERNATIVE>([\s\S]*?)<\/IMGURL_ALTERNATIVE>/);
   const descM = block.match(/<DESCRIPTION>([\s\S]*?)<\/DESCRIPTION>/);
   const deliveryM = block.match(/<DELIVERY_DATE>([\s\S]*?)<\/DELIVERY_DATE>/);
   const images = [imgM && imgM[1].trim(), imgAltM && imgAltM[1].trim()].filter(Boolean);
-  const he = require('he');
+  const productName = nameM ? he.decode(nameM[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim()) : '';
+  const manufacturer = manufacturerM ? manufacturerM[1].trim() : '';
+  const categoryText = categoryM ? he.decode(categoryM[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim()) : '';
+  const priceVat = priceM ? parseFloat(priceM[1]) : NaN;
   const description = descM ? he.decode(he.decode(descM[1].replace(/<!\[CDATA\[|\]\]>/g, '').trim())) : '';
   // BASYS's own DELIVERY_DATE: "0" = ships immediately (in stock), any other number = days
   // until it can ship (on order from their supplier) — the only stock signal this feed has.
   const deliveryDate = deliveryM ? deliveryM[1].trim() : null;
-  map.set(norm(idM[1]), { images, description, deliveryDate });
+  map.set(norm(idM[1]), { itemId: idM[1].trim(), productName, manufacturer, categoryText, priceVat, images, description, deliveryDate });
 }
 
-// Builds ITEM_ID -> {images, description, deliveryDate} from the BASYS Heureka feed, for
-// enrichment lookup. Prefers a live BASYS_URL fetch (the production path); falls back to a local
-// file (BASYS_LOCAL_FILE, or the checked-in sample) when no URL is configured.
-async function loadFeedEnrichment() {
+// Builds ITEM_ID -> full feed record from the BASYS Heureka feed. Prefers a live BASYS_URL fetch
+// (the production path); falls back to a local file (BASYS_LOCAL_FILE, or the checked-in sample)
+// when no URL is configured.
+async function loadFeed() {
   const map = new Map();
   if (URL) {
-    await streamRecords(URL, 'SHOPITEM', (block) => addEnrichmentRecord(map, block));
+    await streamRecords(URL, 'SHOPITEM', (block) => addFeedRecord(map, block));
     return map;
   }
   if (LOCAL_FILE && fs.existsSync(LOCAL_FILE)) {
     const xml = fs.readFileSync(LOCAL_FILE, 'utf-8');
     const blocks = xml.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g) || [];
-    for (const block of blocks) addEnrichmentRecord(map, block);
+    for (const block of blocks) addFeedRecord(map, block);
     return map;
   }
-  console.warn(`No BASYS feed found at ${LOCAL_FILE} and no BASYS_URL set — proceeding without image/description enrichment.`);
+  console.warn(`No BASYS feed found at ${LOCAL_FILE} and no BASYS_URL set — proceeding without image/description enrichment, and without any products beyond the official price list.`);
   return map;
 }
 
@@ -136,11 +162,11 @@ function buildShopitemXml(p) {
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
   if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
   parts.push(`<DESCRIPTION>${xmlCdata(p.description)}</DESCRIPTION>`);
-  parts.push(`<MANUFACTURER>${xmlCdata('Bose')}</MANUFACTURER>`);
+  parts.push(`<MANUFACTURER>${xmlCdata(p.manufacturer)}</MANUFACTURER>`);
   parts.push('<ITEM_TYPE>product</ITEM_TYPE>');
   parts.push('<UNIT>ks</UNIT>');
   parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
-  parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
+  if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
 
   parts.push(`<CATEGORIES><CATEGORY>${xmlCdata(p.defaultCategory)}</CATEGORY></CATEGORIES>`);
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
@@ -179,8 +205,8 @@ async function main() {
   const priceList = JSON.parse(fs.readFileSync(PRICELIST_PATH, 'utf-8'));
   console.log(`Loaded ${priceList.length} products from official BASYS/Bose price list.`);
 
-  const enrichment = await loadFeedEnrichment();
-  console.log(`Loaded enrichment data for ${enrichment.size} products from BASYS feed.`);
+  const feedMap = await loadFeed();
+  console.log(`Loaded ${feedMap.size} products from the BASYS feed.`);
 
   const cloudImages = fs.existsSync(CLOUD_IMAGES_PATH)
     ? JSON.parse(fs.readFileSync(CLOUD_IMAGES_PATH, 'utf-8'))
@@ -191,33 +217,74 @@ async function main() {
   const activePromos = loadActivePromos();
   console.log(`  -> ${activePromos.size} produktov má dnes aktívnu akciovú cenu.`);
 
+  // Build one unified list of products to import: every price-list product first (its official
+  // price/EAN always wins), then every remaining feed product not covered by the price list, with
+  // an estimated purchase price (see file header, tier 2). Both flow through the same pricing/
+  // promo/category logic below so nothing diverges between the two tiers except how mocInclVat/
+  // purchasePriceExclVat/ean/category were derived.
+  const pricelistCodes = new Set(priceList.map((item) => norm(item.objKod)));
+  const resolvedItems = [];
+  for (const item of priceList) {
+    const mappedCategory = PRICE_LIST_CATEGORY_MAP[item.category];
+    resolvedItems.push({
+      objKod: item.objKod, ean: item.ean, isFromPriceList: true,
+      name: [item.name, item.color].filter(Boolean).join(' - ').replace(/\s+/g, ' ').trim(),
+      manufacturer: 'Bose',
+      defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER.Bose || 'TV, audio a video > Audio technika',
+      categoryWasMapped: !!mappedCategory,
+      mocInclVat: item.mocInclVat, purchasePriceExclVat: item.purchasePriceExclVat,
+    });
+  }
+  let skippedNoPrice = 0;
+  for (const [key, f] of feedMap) {
+    if (pricelistCodes.has(key)) continue;
+    if (!Number.isFinite(f.priceVat) || f.priceVat <= 0) { skippedNoPrice++; continue; }
+    const priceExclVat = f.priceVat / (1 + parseFloat(VAT) / 100);
+    const mappedCategory = CATEGORY_MAP[f.categoryText];
+    resolvedItems.push({
+      objKod: f.itemId, ean: '', isFromPriceList: false,
+      name: f.productName,
+      manufacturer: f.manufacturer,
+      defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER[f.manufacturer] || 'TV, audio a video > Audio technika > Doplnky',
+      categoryWasMapped: !!mappedCategory,
+      mocInclVat: f.priceVat, purchasePriceExclVat: priceExclVat / ESTIMATED_MARKUP_MULTIPLIER,
+    });
+  }
+  console.log(`Skipped ${skippedNoPrice} feed products with no usable price.`);
+  console.log(`Total products to import: ${resolvedItems.length} (${priceList.length} z oficiálneho cenníka, ${resolvedItems.length - priceList.length} s odhadovanou nákupnou cenou z feedu).`);
+
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: priceList.length, written: 0, enriched: 0, noEnrichment: 0, onPromo: 0, cloudImages: 0, feedImages: 0, noImages: 0 };
+  const stats = {
+    total: resolvedItems.length, fromPriceList: priceList.length, estimated: resolvedItems.length - priceList.length,
+    written: 0, enriched: 0, noEnrichment: 0, onPromo: 0, cloudImages: 0, feedImages: 0, noImages: 0,
+    categoryMapped: 0, categoryFallback: 0,
+  };
 
-  for (const item of priceList) {
-    const enrich = enrichment.get(norm(item.objKod));
+  for (const item of resolvedItems) {
+    const enrich = feedMap.get(norm(item.objKod));
     const hasEnrichment = !!enrich;
     if (hasEnrichment) stats.enriched++; else stats.noEnrichment++;
 
-    const name = [item.name, item.color].filter(Boolean).join(' - ').replace(/\s+/g, ' ').trim();
+    const name = item.name;
     const description = hasEnrichment && enrich.description
       ? enrich.description
-      : `<p>${xmlEscape(item.name)}${item.color ? ' – farba: ' + xmlEscape(item.color) : ''}</p>`;
+      : `<p>${xmlEscape(name)}</p>`;
     const cloudImgs = cloudImages[item.objKod];
     const images = (cloudImgs && cloudImgs.length) ? cloudImgs : (hasEnrichment ? enrich.images : []);
     if (cloudImgs && cloudImgs.length) stats.cloudImages++;
     else if (images.length) stats.feedImages++;
     else stats.noImages++;
     // "0" = BASYS ships it immediately (in stock); any other number of days, or no match at all
-    // in the feed (17 products), falls back to "Na objednávku" — the only honest default when we
-    // have no real stock signal for a product.
+    // in the feed, falls back to "Na objednávku" — the only honest default when we have no real
+    // stock signal for a product.
     const availability = hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
     if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
 
-    const defaultCategory = PRICE_LIST_CATEGORY_MAP[item.category] || 'TV, audio a video > Audio technika';
+    const defaultCategory = item.defaultCategory;
+    if (item.categoryWasMapped) stats.categoryMapped++; else stats.categoryFallback++;
 
     const purchasePrice = item.purchasePriceExclVat;
     // Official MOC is the starting point, but a live Heureka price-target (from the last
@@ -284,7 +351,7 @@ async function main() {
     const metaDescription = truncateAtWord(`${name} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
     const shopitem = buildShopitemXml({
-      code: 'BASYS-' + item.objKod, ean: item.ean, name, description, shortDescription, availability,
+      code: 'BASYS-' + item.objKod, ean: item.ean, name, manufacturer: item.manufacturer, description, shortDescription, availability,
       defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
     });
     out.write(shopitem + '\n');

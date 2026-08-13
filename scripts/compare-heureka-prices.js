@@ -33,8 +33,10 @@ function xmlUnescape(s) {
 }
 
 function loadOurProducts(xmlPaths) {
-  // EAN -> { name, price, category, code, source, purchasePrice, purchaseVat }
+  // EAN -> { name, price, category, code, source, purchasePrice, purchaseVat, ean }
   const byEan = new Map();
+  // CODE -> same shape, BASYS-only (see byCode fallback-matching comment near the join loop).
+  const byCode = new Map();
   let dupes = 0;
   for (const xmlPath of xmlPaths) {
     const data = fs.readFileSync(xmlPath, 'utf-8');
@@ -54,10 +56,12 @@ function loadOurProducts(xmlPaths) {
       const purchaseVatRaw = (it.match(/<PURCHASE_VAT>(.*?)<\/PURCHASE_VAT>/) || [])[1];
       const purchaseVat = purchaseVatRaw ? parseFloat(purchaseVatRaw) : 23;
       if (byEan.has(ean)) { dupes++; continue; }
-      byEan.set(ean, { name, price, category, code, source: path.basename(xmlPath), purchasePrice, purchaseVat });
+      const entry = { name, price, category, code, source: path.basename(xmlPath), purchasePrice, purchaseVat, ean };
+      byEan.set(ean, entry);
+      if (code.startsWith('BASYS-')) byCode.set(code.replace(/\s+/g, ' ').trim(), entry);
     }
   }
-  return { byEan, dupes };
+  return { byEan, byCode, dupes };
 }
 
 function num(s) {
@@ -83,7 +87,7 @@ function main() {
     .map((f) => path.join(outputDir, f));
 
   console.log(`Loading our products from: ${xmlPaths.join(', ')}`);
-  const { byEan, dupes } = loadOurProducts(xmlPaths);
+  const { byEan, byCode, dupes } = loadOurProducts(xmlPaths);
   console.log(`  -> ${byEan.size} of our products have an EAN${dupes ? ` (${dupes} duplicate EANs skipped)` : ''}`);
   console.log(`Minimum margin safety floor: ${MIN_MARGIN_PCT}%`);
 
@@ -105,10 +109,24 @@ function main() {
   let noPurchasePrice = 0;
 
   for (const row of rows) {
-    const ean = String(row.EAN || '').trim();
-    if (!ean) { noEan++; continue; }
-    const ours = byEan.get(ean);
-    if (!ours) { noMatch++; continue; }
+    const reportEan = String(row.EAN || '').trim();
+    let ours = reportEan ? byEan.get(reportEan) : undefined;
+    if (!ours) {
+      // Heureka doesn't send EAN at all for some niche/small-brand listings (seen consistently
+      // for every Bose product via BASYS - the EAN column is blank). The report's "Item ID" is
+      // normally an opaque per-store Shoptet ID we can't rely on (see file header) - but for
+      // BASYS specifically it's derived directly from our own CODE (we prefix it "BASYS-..."
+      // ourselves), so normalizing it and matching against byCode is a safe, exact fallback -
+      // verified 12/12 Bose report rows resolve correctly, no fuzzy/name matching involved.
+      const itemId = String(row['Item ID'] || '').trim();
+      if (itemId.startsWith('BASYS-')) {
+        ours = byCode.get(itemId.replace(/_/g, ' ').replace(/\s+/g, ' ').trim());
+      }
+    }
+    if (!ours) { if (!reportEan) noEan++; else noMatch++; continue; }
+    // Always key by OUR OWN real EAN (from the product's own data), never the report's - it may
+    // be blank when we only matched via the Item ID fallback above.
+    const ean = ours.ean;
 
     const ladderAll = PRICE_LADDER_COLS.map((c) => num(row[c])).filter((v) => v !== null);
     const ladderSorted = [...ladderAll].sort((a, b) => a - b);
