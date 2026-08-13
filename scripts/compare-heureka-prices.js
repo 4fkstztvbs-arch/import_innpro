@@ -139,6 +139,12 @@ function main() {
     // separate so a later, live re-application (see heureka-price-targets.js) can re-derive the
     // floor from that day's actual purchase price instead of trusting this snapshot's floor.
     let rawTarget = null;
+    // True only for ZNÍŽIŤ cases where even the floor-clamped price still doesn't undercut the
+    // cheapest competitor — i.e. we mathematically cannot win on price here without breaking the
+    // margin floor. Used downstream to pull these out of the Heureka CPC feed entirely (see
+    // process-heureka-report.js / HEUREKA_HIDDEN wiring) - paying for clicks we can never convert
+    // on price is wasted spend.
+    let cantCompete = false;
 
     if (heurekaMin === null) {
       note = 'žiadna konkurencia v rebríčku';
@@ -165,7 +171,8 @@ function main() {
       suggestedPrice = roundPrice(Math.max(floorPrice, undercut));
       if (suggestedPrice < ours.price) {
         action = 'ZNÍŽIŤ';
-        note = suggestedPrice >= heurekaMin
+        cantCompete = suggestedPrice >= heurekaMin;
+        note = cantCompete
           ? `floor (min. marža ${MIN_MARGIN_PCT}%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší`
           : 'stávame sa najlacnejší';
       }
@@ -204,6 +211,7 @@ function main() {
       odporucanaCena: suggestedPrice,
       surovyCiel: rawTarget,
       poznamka: note,
+      nemozemeVyhrat: cantCompete,
       heurekaUrl: row['Heureka URL'] || '',
     });
   }
@@ -212,7 +220,7 @@ function main() {
 
   const header = ['EAN', 'Nazov', 'Kategoria', 'Dodavatel', 'NasaCenaEUR', 'NakupnaCenaBezDphEUR', 'FloorCenaEUR',
     'MarzaTerazPct', 'MarzaPoUpravePct', 'HeurekaNajnizsiaEUR', 'HeurekaDruhaNajnizsiaEUR', 'HeurekaNajvyssiaEUR',
-    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'SurovyCielEUR', 'Poznamka', 'HeurekaURL'];
+    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'SurovyCielEUR', 'Poznamka', 'NemozemeVyhrat', 'HeurekaURL'];
   const lines = [header.join(',')];
   for (const m of matched) {
     lines.push([
@@ -221,7 +229,7 @@ function main() {
       m.marzaTerazPct ?? '', m.marzaPoUpravePct ?? '',
       m.heurekaNajnizsia ?? '', m.heurekaDruhaNajnizsia ?? '', m.heurekaNajvyssia ?? '', m.pocetPredajcov ?? '',
       m.odhadovanaPozicia ?? '', m.rozdielEur ?? '', m.rozdielPct ?? '', m.akcia, m.odporucanaCena ?? '', m.surovyCiel ?? '',
-      `"${m.poznamka.replace(/"/g, '""')}"`, m.heurekaUrl,
+      `"${m.poznamka.replace(/"/g, '""')}"`, m.nemozemeVyhrat ? '1' : '0', m.heurekaUrl,
     ].join(','));
   }
   fs.mkdirSync(path.dirname(outPath), { recursive: true });

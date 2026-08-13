@@ -97,6 +97,11 @@ function buildPriceTargets(rows, sourceCsvName) {
       heurekaUrl: r.HeurekaURL || '',
       generatedAt,
       sourceReport: sourceCsvName,
+      // Even after landing on the margin floor we still can't undercut the cheapest competitor -
+      // paying for Heureka CPC clicks on this product is wasted spend, so it gets excluded from
+      // the extended Heureka feed entirely (see cannotCompeteOnPrice() in heureka-price-targets.js
+      // and its use in each transform-*.js's HEUREKA_HIDDEN line).
+      cantCompete: r.NemozemeVyhrat === '1',
     };
   }
   return targets;
