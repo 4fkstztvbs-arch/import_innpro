@@ -2,7 +2,7 @@ name: Heureka price report
 
 on:
   schedule:
-    - cron: '0 21 * * *' # 21:00 UTC daily — after the evening manual CSV upload, before the earliest night import (ATOS, 22:30 UTC)
+    - cron: '0 22 * * *' # 22:00 UTC (00:00 SK) daily — first in the tight night batch, before ATOS at 22:10 UTC
   workflow_dispatch: {}
 
 permissions:

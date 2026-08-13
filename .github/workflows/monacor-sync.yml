@@ -2,7 +2,7 @@ name: MONACOR sync
 
 on:
   schedule:
-    - cron: '0 3 * * *' # 3:00 UTC daily — inside Shoptet's 00:00–07:00 "úplný import" window
+    - cron: '40 22 * * *' # 22:40 UTC (00:40 SK) daily — inside Shoptet's 00:00–07:00 "úplný import" window
   workflow_dispatch: {}
 
 permissions:

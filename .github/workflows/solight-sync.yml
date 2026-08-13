@@ -2,7 +2,7 @@ name: Solight sync
 
 on:
   schedule:
-    - cron: '0 3 * * *' # 3:00 UTC daily — inside Shoptet's 00:00–07:00 "úplný import" window
+    - cron: '50 22 * * *' # 22:50 UTC (00:50 SK) daily — inside Shoptet's 00:00–07:00 "úplný import" window
   workflow_dispatch: {}
 
 permissions:

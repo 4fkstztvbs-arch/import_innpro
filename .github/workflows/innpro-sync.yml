@@ -2,9 +2,11 @@ name: InnPro sync
 
 on:
   schedule:
-    # 03:00 UTC daily = 04:00/05:00 SK time depending on DST — well inside the 00:00–07:00
-    # window Shoptet's own "úplný import" uses, and after InnPro's full.xml regenerates at 00:00.
-    - cron: '0 3 * * *'
+    # 22:20 UTC daily = 00:20/01:20 SK time depending on DST — inside the 00:00–07:00
+    # window Shoptet's own "úplný import" uses. NOTE: this leaves only ~20 min after InnPro's
+    # full.xml regenerates at 00:00 SK, vs. the previous 4-5h buffer — if InnPro's feed isn't
+    # ready yet at that point, move this cron later.
+    - cron: '20 22 * * *'
   workflow_dispatch: {} # lets you trigger it manually from the Actions tab any time
 
 permissions:
