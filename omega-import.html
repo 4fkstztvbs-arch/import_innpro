@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shoptet → Omega — prevod faktúr</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #1a1d23;
+    --muted: #666c76;
+    --border: #dde1e6;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --warn-bg: #fff8e1;
+    --warn-border: #f0c14b;
+    --ok-bg: #eaf7ee;
+    --ok-border: #34a853;
+    --err-bg: #fdecea;
+    --err-border: #d93025;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --card: #1d2025;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --border: #33373d;
+      --accent: #6ea8fe;
+      --accent-hover: #8fbcff;
+      --warn-bg: #2c2510;
+      --warn-border: #7a5c00;
+      --ok-bg: #10261a;
+      --ok-border: #2e8b57;
+      --err-bg: #2b1414;
+      --err-border: #a33;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  .sub { color: var(--muted); margin-top: 0; margin-bottom: 28px; font-size: 0.95rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .drop {
+    border: 2px dashed var(--border);
+    border-radius: 10px;
+    padding: 32px 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color .15s, background .15s;
+  }
+  .drop:hover, .drop.drag { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 6%, transparent); }
+  .drop input { display: none; }
+  .drop .icon { font-size: 2rem; margin-bottom: 8px; }
+  .drop .fname { margin-top: 10px; font-weight: 600; word-break: break-all; }
+  button.primary {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 11px 22px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+  }
+  button.primary:hover { background: var(--accent-hover); }
+  button.primary:disabled { opacity: .5; cursor: not-allowed; }
+  .result { display: none; }
+  .box { border-radius: 10px; padding: 16px 18px; margin-bottom: 14px; border: 1px solid; }
+  .box.ok { background: var(--ok-bg); border-color: var(--ok-border); }
+  .box.warn { background: var(--warn-bg); border-color: var(--warn-border); }
+  .box.err { background: var(--err-bg); border-color: var(--err-border); }
+  .box ul { margin: 8px 0 0; padding-left: 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 10px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
+  a.download {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    padding: 11px 22px;
+    background: var(--ok-border);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a.download:hover { opacity: .92; }
+  details { margin-top: 18px; color: var(--muted); font-size: 0.88rem; }
+  summary { cursor: pointer; font-weight: 600; }
+  code { background: color-mix(in srgb, var(--text) 8%, transparent); padding: 1px 5px; border-radius: 4px; font-size: 0.85em; }
+  footer { color: var(--muted); font-size: 0.82rem; text-align: center; margin-top: 30px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Shoptet → Omega</h1>
+  <p class="sub">Prevod exportu vystavených faktúr (Stormware Pohoda XML) na textový import pre KROS Omega. Celý prevod beží priamo v tomto prehliadači — súbor s faktúrami sa nikam neposiela.</p>
+
+  <div class="card">
+    <label class="drop" id="drop">
+      <input type="file" id="file" accept=".xml">
+      <div class="icon">📄</div>
+      <div>Klikni sem alebo sem presuň Pohoda XML export faktúr zo Shoptetu</div>
+      <div class="fname" id="fname"></div>
+    </label>
+    <button class="primary" id="convertBtn" disabled>Prekonvertovať</button>
+  </div>
+
+  <div class="result" id="result">
+    <div class="card">
+      <div id="boxes"></div>
+      <div id="tableWrap"></div>
+      <a class="download" id="downloadLink" download>⬇ Stiahnuť omega-import.txt</a>
+    </div>
+  </div>
+
+  <details>
+    <summary>Ako to použiť</summary>
+    <ol>
+      <li>V Shoptete: <code>Nastavenia → Export → Faktúry</code>, formát Pohoda XML.</li>
+      <li>Tu nahraj stiahnutý XML súbor a klikni <b>Prekonvertovať</b>.</li>
+      <li>Stiahni <code>omega-import.txt</code>.</li>
+      <li>V Omege: <code>Firma → Import → Import z textového súboru</code>, vyber stiahnutý súbor.</li>
+    </ol>
+    <p>Spoľahlivo je podporená DPH sadzba 23 %. Číslo dokladu v rade sa necháva prázdne (Omega ho dopĺňa sama). Pri prvom použití odporúčame otestovať import v skúšobnej firme v Omege.</p>
+  </details>
+
+  <footer>Prevod beží lokálne vo vašom prehliadači (JavaScript), žiadne dáta sa nikam needposielajú.</footer>
+</div>
+
+<script>
+"use strict";
+
+// ---------- Windows-1250 kodovanie (pre vystup, Omega vyzaduje cp1250) ----------
+const CP1250_MAP = {"160":160,"164":164,"166":166,"167":167,"168":168,"169":169,"171":171,"172":172,"173":173,"174":174,"176":176,"177":177,"180":180,"181":181,"182":182,"183":183,"184":184,"187":187,"193":193,"194":194,"196":196,"199":199,"201":201,"203":203,"205":205,"206":206,"211":211,"212":212,"214":214,"215":215,"218":218,"220":220,"221":221,"223":223,"225":225,"226":226,"228":228,"231":231,"233":233,"235":235,"237":237,"238":238,"243":243,"244":244,"246":246,"247":247,"250":250,"252":252,"253":253,"258":195,"259":227,"260":165,"261":185,"262":198,"263":230,"268":200,"269":232,"270":207,"271":239,"272":208,"273":240,"280":202,"281":234,"282":204,"283":236,"313":197,"314":229,"317":188,"318":190,"321":163,"322":179,"323":209,"324":241,"327":210,"328":242,"336":213,"337":245,"340":192,"341":224,"344":216,"345":248,"346":140,"347":156,"350":170,"351":186,"352":138,"353":154,"354":222,"355":254,"356":141,"357":157,"366":217,"367":249,"368":219,"369":251,"377":143,"378":159,"379":175,"380":191,"381":142,"382":158,"711":161,"728":162,"729":255,"731":178,"733":189,"8211":150,"8212":151,"8216":145,"8217":146,"8218":130,"8220":147,"8221":148,"8222":132,"8224":134,"8225":135,"8226":149,"8230":133,"8240":137,"8249":139,"8250":155,"8364":128,"8482":153};
+
+function encodeWin1250(str) {
+  const bytes = new Uint8Array(str.length);
+  const unmapped = new Set();
+  for (let i = 0; i < str.length; i++) {
+    const cp = str.codePointAt(i);
+    if (cp < 128) { bytes[i] = cp; continue; }
+    const b = CP1250_MAP[cp];
+    if (b !== undefined) { bytes[i] = b; }
+    else { bytes[i] = 63; unmapped.add(str[i]); } // '?'
+  }
+  return { bytes, unmapped: Array.from(unmapped) };
+}
+
+// ---------- XML helpery (namespace-agnostic) ----------
+function child(parent, name) {
+  if (!parent) return null;
+  for (const el of parent.children) if (el.localName === name) return el;
+  return null;
+}
+function children(parent, name) {
+  if (!parent) return [];
+  return Array.from(parent.children).filter((el) => el.localName === name);
+}
+function text(parent, name) {
+  const el = child(parent, name);
+  return el ? el.textContent.trim() : "";
+}
+
+// ---------- pomocne funkcie ----------
+function toFloat(s) {
+  if (!s) return 0;
+  const v = parseFloat(String(s).replace(",", "."));
+  return Number.isNaN(v) ? 0 : v;
+}
+function round2(n) { return Math.round((n + Number.EPSILON) * 100) / 100; }
+function nat(n) {
+  let s = round2(n).toFixed(2);
+  s = s.replace(/0+$/, "").replace(/\.$/, "");
+  return s === "" || s === "-" ? "0" : s;
+}
+function natComma(n) { return nat(n).replace(".", ","); }
+function dateToOmega(iso) {
+  if (!iso) return "";
+  const [y, m, d] = iso.split("-");
+  if (!y || !m || !d) return "";
+  return `${d}.${m}.${y}`;
+}
+function nowTime() {
+  const d = new Date();
+  const p = (n) => String(n).padStart(2, "0");
+  return `${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
+}
+
+// ---------- konstanty predavajuceho ----------
+const SELLER = {
+  name: "Trokšiar .",
+  bankAccount: "2943138960/1100",
+  bankName: "Tatrabanka as",
+  bankCity: "Banská Bystrica",
+  bic: "TATRSKBX",
+  iban: "SK6711000000002943138960",
+  dic: "2121848729",
+  country: "SLOVENSKO",
+  radKod: "0008",
+};
+const PAYMENT_TYPE_MAP = {
+  cash: "Hotovosť", cod: "Dobierka", creditcard: "Platba kartou",
+  banktransfer: "Prevodný príkaz", advance: "Zálohová platba", postal: "Poštová poukážka",
+};
+const VAT_RATE_MAP = { high: 0.23, low: 0.19, third: 0.05, none: 0 };
+
+function mapPaymentType(code, warnings) {
+  const mapped = PAYMENT_TYPE_MAP[code];
+  if (!mapped) { warnings.push(`Neznámy spôsob platby "${code}" — použitá surová hodnota, over v Omege.`); return code || ""; }
+  return mapped;
+}
+function vatRateFraction(code, warnings) {
+  if (!(code in VAT_RATE_MAP)) { warnings.push(`Neznáma sadzba DPH "${code}" — použitých 23 %, over v Omege.`); return 0.23; }
+  return VAT_RATE_MAP[code];
+}
+
+// ---------- extrakcia faktur z Pohoda XML ----------
+function extractInvoices(xmlText) {
+  const doc = new DOMParser().parseFromString(xmlText, "application/xml");
+  const parseErr = doc.querySelector("parsererror");
+  if (parseErr) throw new Error("Súbor sa nepodarilo prečítať ako XML: " + parseErr.textContent.slice(0, 200));
+  const root = doc.documentElement;
+  if (!root || root.localName !== "dataPack") throw new Error("Neplatný XML súbor: chýba <dat:dataPack> — over, že ide o Pohoda export faktúr zo Shoptetu.");
+  const items = children(root, "dataPackItem");
+  const invoices = [];
+  for (const it of items) {
+    const inv = child(it, "invoice");
+    if (inv) invoices.push(inv);
+  }
+  return invoices;
+}
+
+function buildItemRow(item, warnings) {
+  const t = text(item, "text");
+  const quantity = toFloat(text(item, "quantity")) || 1;
+  const unit = text(item, "unit");
+  const rateCode = text(item, "rateVAT") || "high";
+  const rate = vatRateFraction(rateCode, warnings);
+  const home = child(item, "homeCurrency");
+  const unitPriceNet = toFloat(text(home, "unitPrice"));
+  const code = text(item, "code");
+  const stockItemEl = child(item, "stockItem");
+  const stockIds = stockItemEl ? text(child(stockItemEl, "stockItem"), "ids") : "";
+
+  let typ;
+  if (stockIds) typ = "K";
+  else if (/^(SHIPPING|BILLING)/i.test(code)) typ = "S";
+  else typ = "V";
+
+  const unitPriceGross = round2(unitPriceNet * (1 + rate));
+  const strediskoKod = typ === "V" ? "" : typ === "S" ? "602" : "604";
+
+  const cols = new Array(58).fill("");
+  cols[0] = "R02";
+  cols[1] = t;
+  cols[2] = String(quantity);
+  cols[3] = unit;
+  cols[4] = nat(unitPriceNet);
+  cols[5] = "V";
+  cols[6] = "0";
+  cols[7] = nat(unitPriceNet);
+  cols[8] = "0";
+  cols[9] = typ;
+  cols[10] = typ === "K" ? t : "";
+  cols[11] = "";
+  cols[12] = "0";
+  cols[13] = strediskoKod;
+  cols[14] = typ === "V" ? "" : "001";
+  cols[15] = "";
+  cols[16] = "";
+  cols[17] = typ === "V" ? "" : (stockIds || code);
+  cols[18] = "";
+  cols[19] = "";
+  cols[20] = "X"; cols[21] = "(Nedefinované)";
+  cols[22] = "X"; cols[23] = "(Nedefinované)";
+  cols[24] = "X"; cols[25] = "(Nedefinované)";
+  cols[26] = "X"; cols[27] = "(Nedefinované)";
+  cols[28] = "";
+  cols[29] = "03";
+  cols[30] = "0"; cols[31] = "0"; cols[32] = "0"; cols[33] = "0";
+  cols[34] = "0"; cols[35] = "0"; cols[36] = "0";
+  cols[37] = unit;
+  cols[38] = String(quantity);
+  cols[39] = ""; cols[40] = ""; cols[41] = ""; cols[42] = ""; cols[43] = "";
+  cols[44] = "-2";
+  cols[45] = "3";
+  cols[46] = typ === "S" ? "2" : "0";
+  cols[47] = "";
+  cols[48] = natComma(unitPriceGross);
+  cols[49] = typ === "V" ? "0" : "-1";
+  cols[50] = natComma(unitPriceGross);
+  cols[51] = "0";
+  cols[52] = "0";
+  cols[53] = "D2";
+  cols[54] = ""; cols[55] = ""; cols[56] = "";
+  cols[57] = "0,0000";
+  return { cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode };
+}
+
+function buildHeaderRow(invoice, itemRows, totals, warnings) {
+  const header = child(invoice, "invoiceHeader");
+  const partnerIdentity = child(header, "partnerIdentity");
+  const address = child(partnerIdentity, "address");
+  const company = text(address, "company");
+  const personName = text(address, "name");
+  const partnerName = company || personName;
+  const ico = text(address, "ico");
+  const icDph = text(address, "icDph");
+  const street = text(address, "street");
+  const zip = text(address, "zip");
+  const city = text(address, "city");
+  const isCompany = !!ico;
+
+  const numberEl = child(header, "number");
+  const invoiceNumber = text(numberEl, "numberRequested");
+  const orderNumber = text(header, "numberOrder") || text(header, "symVar");
+  const paymentTypeEl = child(header, "paymentType");
+  const paymentType = mapPaymentType(text(paymentTypeEl, "paymentType"), warnings);
+  const carrierEl = child(header, "carrier");
+  const carrier = carrierEl ? text(carrierEl, "ids") : "";
+  const dateIssue = dateToOmega(text(header, "date"));
+  const dateTax = dateToOmega(text(header, "dateTax") || text(header, "date"));
+  const dateDue = dateToOmega(text(header, "dateDue"));
+
+  if (totals.low || totals.third || totals.none) {
+    warnings.push(`Faktúra ${invoiceNumber}: obsahuje položky mimo sadzby 23 % — skontroluj ručne v Omege.`);
+  }
+  const totalNet = round2(totals.high + totals.low + totals.third + totals.none);
+  const totalVat = round2(totals.highVat + totals.lowVat + totals.thirdVat);
+  const totalGross = round2(totalNet + totalVat);
+
+  const analytika = isCompany ? "A1" : "D2";
+  itemRows.forEach((r) => { r.cols[53] = analytika; });
+
+  const cols = new Array(97).fill("");
+  cols[0] = "R01";
+  cols[1] = invoiceNumber;
+  cols[2] = partnerName;
+  cols[3] = ico;
+  cols[4] = dateIssue;
+  cols[5] = dateDue;
+  cols[6] = dateTax;
+  cols[7] = "0.0000";
+  cols[8] = nat(totalNet);
+  cols[9] = "0.0000";
+  cols[10] = "0.0000";
+  cols[11] = "19";
+  cols[12] = "23";
+  cols[13] = "0.0000";
+  cols[14] = nat(totalVat);
+  cols[15] = "0";
+  cols[16] = nat(totalGross);
+  cols[17] = "0";
+  cols[18] = "OF";
+  cols[19] = "OF";
+  cols[20] = "";
+  cols[21] = ""; cols[22] = ""; cols[23] = "";
+  cols[24] = street;
+  cols[25] = zip;
+  cols[26] = city;
+  cols[27] = icDph;
+  cols[28] = nowTime();
+  cols[29] = ""; cols[30] = ""; cols[31] = ""; cols[32] = "";
+  cols[33] = orderNumber;
+  cols[34] = SELLER.name;
+  cols[35] = SELLER.radKod;
+  cols[36] = "";
+  cols[37] = paymentType;
+  cols[38] = carrier;
+  cols[39] = "EUR";
+  cols[40] = "1";
+  cols[41] = "1";
+  cols[42] = nat(totalGross);
+  cols[43] = "";
+  cols[44] = "";
+  cols[45] = "e shop";
+  cols[46] = SELLER.country;
+  cols[47] = icDph ? "SK" : "";
+  cols[48] = icDph;
+  cols[49] = SELLER.bankAccount;
+  cols[50] = SELLER.bankName;
+  cols[51] = SELLER.bankCity;
+  cols[52] = SELLER.country;
+  cols[53] = "01";
+  cols[54] = partnerName.slice(0, 15);
+  cols[55] = SELLER.bic;
+  cols[56] = SELLER.iban;
+  cols[57] = "SK";
+  cols[58] = SELLER.dic;
+  cols[59] = SELLER.country;
+  cols[60] = "-2";
+  cols[61] = "3";
+  cols[62] = "";
+  cols[63] = "999";
+  cols[64] = "";
+  cols[65] = "0.0000";
+  cols[66] = "1";
+  cols[67] = "0";
+  cols[68] = "";
+  cols[69] = "0";
+  cols[70] = invoiceNumber;
+  cols[71] = "";
+  cols[72] = partnerName;
+  cols[73] = ""; cols[74] = "";
+  cols[75] = street;
+  cols[76] = zip;
+  cols[77] = city;
+  cols[78] = ""; cols[79] = ""; cols[80] = ""; cols[81] = ""; cols[82] = ""; cols[83] = "";
+  cols[84] = "0";
+  cols[85] = "0";
+  cols[86] = ""; cols[87] = "";
+  cols[88] = "0";
+  cols[89] = ""; cols[90] = ""; cols[91] = "";
+  cols[92] = "0";
+  cols[93] = "0";
+  cols[94] = "5";
+  cols[95] = "0.0000";
+  cols[96] = "0.0000";
+
+  return { cols, invoiceNumber, partnerName, totalGross };
+}
+
+function convertInvoice(invoice, warnings) {
+  const detail = child(invoice, "invoiceDetail");
+  const rawItems = children(detail, "invoiceItem");
+
+  const itemRows = [];
+  const totals = { high: 0, highVat: 0, low: 0, lowVat: 0, third: 0, thirdVat: 0, none: 0 };
+  for (const item of rawItems) {
+    const built = buildItemRow(item, warnings);
+    itemRows.push(built);
+    const home = child(item, "homeCurrency");
+    const lineNet = toFloat(text(home, "price")) || built.lineNetTotal;
+    const lineVat = toFloat(text(home, "priceVAT"));
+    if (built.rateCode === "high") { totals.high += lineNet; totals.highVat += lineVat; }
+    else if (built.rateCode === "low") { totals.low += lineNet; totals.lowVat += lineVat; }
+    else if (built.rateCode === "third") { totals.third += lineNet; totals.thirdVat += lineVat; }
+    else { totals.none += lineNet; }
+  }
+
+  const headerInfo = buildHeaderRow(invoice, itemRows, totals, warnings);
+  const lines = [headerInfo.cols.join("\t")];
+  for (const r of itemRows) lines.push(r.cols.join("\t"));
+  return { lines, invoiceNumber: headerInfo.invoiceNumber, partnerName: headerInfo.partnerName, totalGross: headerInfo.totalGross };
+}
+
+function convertXml(xmlText) {
+  const warnings = [];
+  const invoices = extractInvoices(xmlText);
+  if (invoices.length === 0) throw new Error("V súbore sa nenašla žiadna faktúra.");
+
+  const lines = ["R00\tT01"];
+  const summary = [];
+  for (const invoice of invoices) {
+    const res = convertInvoice(invoice, warnings);
+    lines.push(...res.lines);
+    summary.push({ number: res.invoiceNumber, partner: res.partnerName, total: res.totalGross });
+  }
+  const outText = lines.join("\r\n") + "\r\n";
+  const { bytes, unmapped } = encodeWin1250(outText);
+  if (unmapped.length) warnings.push("Znaky bez cp1250 náhrady, nahradené '?': " + unmapped.join(" "));
+  return { bytes, summary, warnings };
+}
+
+// ---------- UI ----------
+const fileInput = document.getElementById("file");
+const drop = document.getElementById("drop");
+const fname = document.getElementById("fname");
+const convertBtn = document.getElementById("convertBtn");
+const resultBox = document.getElementById("result");
+const boxes = document.getElementById("boxes");
+const tableWrap = document.getElementById("tableWrap");
+const downloadLink = document.getElementById("downloadLink");
+
+let selectedFile = null;
+
+fileInput.addEventListener("change", () => {
+  selectedFile = fileInput.files[0] || null;
+  fname.textContent = selectedFile ? selectedFile.name : "";
+  convertBtn.disabled = !selectedFile;
+  resultBox.style.display = "none";
+});
+["dragover", "dragenter"].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add("drag"); }));
+["dragleave", "drop"].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove("drag"); }));
+drop.addEventListener("drop", (e) => {
+  const f = e.dataTransfer.files[0];
+  if (f) { fileInput.files = e.dataTransfer.files; selectedFile = f; fname.textContent = f.name; convertBtn.disabled = false; resultBox.style.display = "none"; }
+});
+
+convertBtn.addEventListener("click", async () => {
+  if (!selectedFile) return;
+  boxes.innerHTML = "";
+  tableWrap.innerHTML = "";
+  resultBox.style.display = "none";
+  try {
+    const xmlText = await selectedFile.text();
+    const { bytes, summary, warnings } = convertXml(xmlText);
+
+    const okBox = document.createElement("div");
+    okBox.className = "box ok";
+    okBox.textContent = `Hotovo — spracovaných faktúr: ${summary.length}.`;
+    boxes.appendChild(okBox);
+
+    if (warnings.length) {
+      const wBox = document.createElement("div");
+      wBox.className = "box warn";
+      wBox.innerHTML = "<b>Upozornenia — skontroluj ručne v Omege:</b><ul>" + warnings.map((w) => `<li>${w}</li>`).join("") + "</ul>";
+      boxes.appendChild(wBox);
+    }
+
+    const tbl = document.createElement("table");
+    tbl.innerHTML = "<thead><tr><th>Faktúra</th><th>Partner</th><th>Suma s DPH</th></tr></thead><tbody>" +
+      summary.map((s) => `<tr><td>${s.number}</td><td>${s.partner}</td><td>${s.total.toFixed(2)} €</td></tr>`).join("") +
+      "</tbody>";
+    tableWrap.appendChild(tbl);
+
+    const blob = new Blob([bytes], { type: "text/plain;charset=windows-1250" });
+    const url = URL.createObjectURL(blob);
+    const today = new Date().toISOString().slice(0, 10);
+    downloadLink.href = url;
+    downloadLink.download = `omega-import-${today}.txt`;
+    downloadLink.textContent = `⬇ Stiahnuť omega-import-${today}.txt`;
+
+    resultBox.style.display = "block";
+  } catch (err) {
+    const eBox = document.createElement("div");
+    eBox.className = "box err";
+    eBox.textContent = "Chyba: " + err.message;
+    boxes.appendChild(eBox);
+    resultBox.style.display = "block";
+  }
+});
+</script>
+</body>
+</html>

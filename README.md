@@ -123,6 +123,25 @@ Denne (21:00 UTC, `.github/workflows/heureka-price-report.yml`) sa spracuje Heur
 - **Zapnutie/vypnutie:** riadi sa premennou `HEUREKA_PRICE_OVERRIDE: '1'` v `env:` sekcii kroku "Run ... transform" v `.github/workflows/<dodavatel>-sync.yml`. Vypneš odstránením tej premennej (alebo zmenou hodnoty na čokoľvek iné než `'1'`).
 - Detaily mechanizmu (floor 5 % marže, K+B výnimka, smer pohybu ceny) sú v `reports/prehlad-importov.md` sekcia 4.4.
 
+## Shoptet → Omega — prevod odoslaných faktúr (`scripts/transform-omega-invoices.js`)
+
+Shoptet vie exportovať vystavené faktúry vo formáte Stormware Pohoda XML (`Nastavenia → Export → Faktúry`), no účtovníctvo firmy beží v **KROS Omega**, ktorá takýto XML priamo neprijíma — vie importovať len vlastný **tabulátorom oddelený .TXT formát** (`Firma → Import → Import z textového súboru`, riadky `R00`/`R01`/`R02`, T01 = Fakturácia).
+
+**Použitie cez príkazový riadok (ručne, 1× denne):**
+1. V Shoptete vyexportuj faktúry do Pohoda XML, ulož ako `data/stormware_invoices.xml`.
+2. `node scripts/transform-omega-invoices.js` (predvolené cesty: `data/stormware_invoices.xml` → `output/omega-invoices.txt`).
+3. V Omege: `Firma → Import → Import z textového súboru` → vyber `output/omega-invoices.txt`.
+
+**Webový formulár (`omega-import.html`):** rovnaký prevod bez príkazového riadku — statická stránka (dostupná cez GitHub Pages tohto repozitára, napr. `https://<pouzivatel>.github.io/import_innpro/omega-import.html`), celý prevod beží priamo v prehliadači cez JavaScript (rovnaká logika ako v `transform-omega-invoices.js`, výstup je bajt-presne identický — overené testom). Súbor s faktúrami sa nikam neposiela. Postup: nahraj Pohoda XML export → "Prekonvertovať" → stiahni `.txt` → naimportuj v Omege.
+
+**Ako vznikla táto mapovanie stĺpcov:** Omega nemá verejne zdokumentovanú XML schému pre faktúry (na rozdiel od Pohody) — jej formát je 97-stĺpcový (`R01`) / 58-stĺpcový (`R02`) TXT bez oficiálne zverejnenej špecifikácie všetkých stĺpcov (KROS zmieňuje sprievodný Excel s "až 166 stĺpcami", ktorý nie je verejne dostupný). Mapovanie bolo odvodené porovnaním reálneho exportu z Omegy (6 faktúr, súkromné osoby aj firmy, dobierka/karta/prevod).
+
+**Známe obmedzenia / neoverené predpoklady** (over pri prvom ostrom teste, ideálne v skúšobnej firme v Omege):
+- Podporená je spoľahlivo len sadzba DPH **23 %** — ak faktúra obsahuje položky v 19 %/5 %/0 %, skript vypíše varovanie (stĺpce pre tieto sadzby vo vzorke boli vždy `0.0000`, ich presný formát pri reálnom použití nie je overený).
+- Číslo dokladu v rade (`R01` stĺpec 20) sa necháva **prázdne** — predpoklad je, že Omega ho pri importe doplní automaticky podľa nastaveného radu `0008`; ak import zlyhá/duplikuje čísla, treba to doriešiť ručne v Omege.
+- EAN a nákupná cena položiek nie sú v Pohoda exporte zo Shoptetu k dispozícii — ostávajú prázdne/0.
+- Bankové údaje predávajúceho (`SELLER` na začiatku skriptu) sú natvrdo zakódované z reálnej vzorky — pri zmene účtu/banky treba upraviť priamo v skripte.
+
 ## Čo sa importuje
 
 Rovnaká logika ako v prehliadačovom nástroji:
