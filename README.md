@@ -127,10 +127,12 @@ Denne (21:00 UTC, `.github/workflows/heureka-price-report.yml`) sa spracuje Heur
 
 Shoptet vie exportovať vystavené faktúry vo formáte Stormware Pohoda XML (`Nastavenia → Export → Faktúry`), no účtovníctvo firmy beží v **KROS Omega**, ktorá takýto XML priamo neprijíma — vie importovať len vlastný **tabulátorom oddelený .TXT formát** (`Firma → Import → Import z textového súboru`, riadky `R00`/`R01`/`R02`, T01 = Fakturácia).
 
-**Použitie (ručne, 1× denne):**
+**Použitie cez príkazový riadok (ručne, 1× denne):**
 1. V Shoptete vyexportuj faktúry do Pohoda XML, ulož ako `data/stormware_invoices.xml`.
 2. `node scripts/transform-omega-invoices.js` (predvolené cesty: `data/stormware_invoices.xml` → `output/omega-invoices.txt`).
 3. V Omege: `Firma → Import → Import z textového súboru` → vyber `output/omega-invoices.txt`.
+
+**Webový formulár (`omega-import.html`):** rovnaký prevod bez príkazového riadku — statická stránka (dostupná cez GitHub Pages tohto repozitára, napr. `https://<pouzivatel>.github.io/import_innpro/omega-import.html`), celý prevod beží priamo v prehliadači cez JavaScript (rovnaká logika ako v `transform-omega-invoices.js`, výstup je bajt-presne identický — overené testom). Súbor s faktúrami sa nikam neposiela. Postup: nahraj Pohoda XML export → "Prekonvertovať" → stiahni `.txt` → naimportuj v Omege.
 
 **Ako vznikla táto mapovanie stĺpcov:** Omega nemá verejne zdokumentovanú XML schému pre faktúry (na rozdiel od Pohody) — jej formát je 97-stĺpcový (`R01`) / 58-stĺpcový (`R02`) TXT bez oficiálne zverejnenej špecifikácie všetkých stĺpcov (KROS zmieňuje sprievodný Excel s "až 166 stĺpcami", ktorý nie je verejne dostupný). Mapovanie bolo odvodené porovnaním reálneho exportu z Omegy (6 faktúr, súkromné osoby aj firmy, dobierka/karta/prevod).
 
