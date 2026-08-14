@@ -64,6 +64,7 @@ const VAT = process.env.BASYS_VAT || '23';
 const MIN_PROMO_MARGIN_PCT = parseFloat(process.env.BASYS_MIN_PROMO_MARGIN || '10');
 const OUT_PATH = process.env.BASYS_OUT || path.join(__dirname, '..', 'output', 'basys.xml');
 const STORE_NAME = process.env.BASYS_STORE_NAME || 'premiumstore.sk';
+const EXCLUDE_UNAVAILABLE = process.env.BASYS_EXCLUDE_UNAVAILABLE === '1';
 
 const mapping = JSON.parse(fs.readFileSync(path.join(__dirname, 'basys-mapping.json'), 'utf-8'));
 const PRICE_LIST_CATEGORY_MAP = mapping.priceListCategoryMap || {};
@@ -282,6 +283,7 @@ async function main() {
     // stock signal for a product.
     const availability = hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
     if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
+    if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; continue; }
 
     const defaultCategory = item.defaultCategory;
     if (item.categoryWasMapped) stats.categoryMapped++; else stats.categoryFallback++;
