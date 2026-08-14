@@ -5,7 +5,10 @@
 // Usage: node transform-innpro.js
 // Required env vars: INNPRO_FULL_URL, INNPRO_LIGHT_URL
 // Optional env vars: INNPRO_MARKUP (default 15), INNPRO_MIN_COST (default 0),
-//                     INNPRO_MAX_IMAGES (default 5), INNPRO_OUT (default ./output/innpro.xml)
+//                     INNPRO_MAX_IMAGES (default 5), INNPRO_OUT (default ./output/innpro.xml),
+//                     INNPRO_EXCLUDE_UNAVAILABLE (default off) — set to '1' to skip every product
+//                     that isn't actually in stock ('Skladom') instead of importing it as
+//                     "Na objednávku" / "Dostupné od ..."
 
 const fs = require('fs');
 const path = require('path');
@@ -23,6 +26,10 @@ const MAX_IMAGES = parseInt(process.env.INNPRO_MAX_IMAGES || '5', 10);
 const OUT_PATH = process.env.INNPRO_OUT || path.join(__dirname, '..', 'output', 'innpro.xml');
 const STORE_NAME = process.env.INNPRO_STORE_NAME || 'premiumstore.sk';
 const OUT_OF_STOCK_TEXT = process.env.INNPRO_OUT_OF_STOCK_TEXT || 'Na objednávku';
+// When set, only products that are actually in stock right now (availability === 'Skladom')
+// are exported — "Na objednávku" and "Dostupné od ..." products are skipped entirely, not just
+// hidden/greyed out. Same convention as KB_EXCLUDE_UNAVAILABLE in transform-kb.js.
+const EXCLUDE_UNAVAILABLE = process.env.INNPRO_EXCLUDE_UNAVAILABLE === '1';
 
 const MAPPING_PATH = path.join(__dirname, 'innpro-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
@@ -191,7 +198,7 @@ async function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, fromLight: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnavailable: 0, fromLight: 0 };
 
   await streamProducts(FULL_URL, (rawXml) => {
     stats.total++;
@@ -225,6 +232,8 @@ async function main() {
     if (stockInfinite || stockQty > 0) availability = 'Skladom';
     else if (p.nextDeliveryDate) availability = `Dostupné od ${p.nextDeliveryDate}`;
     else availability = OUT_OF_STOCK_TEXT;
+
+    if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable++; return; }
 
     let description = p.longDesc;
     if (p.docs.length) {
