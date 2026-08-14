@@ -6,15 +6,36 @@
 // an IP-level block/rate-limit against Shoptet's server, not a URL problem). Cloudflare's edge
 // network fetches the origin instead — Shoptet then only ever talks to this Worker's own domain.
 //
-// Only accepts the exact filename patterns fetch-atos-images.js generates (x_ien<id>.jpg,
-// x_i<id>.jpg, x_ies<id>.jpg) — deliberately not a general-purpose proxy, so this can't be
-// abused to fetch arbitrary URLs through our Cloudflare account.
+// Two routes, both deliberately narrow (not a general-purpose proxy) so this can't be abused to
+// fetch arbitrary URLs through our Cloudflare account:
+//   - /x_ien<id>.jpg, /x_i<id>.jpg, /x_ies<id>.jpg -> the static img0-3.atoselektro.cz CDN
+//     (fetch-atos-images.js's primary image source).
+//   - /imgasp?attid=<id> or /imgasp?stiid=<id> -> shop.atoselektro.cz/img.asp, the feed's own
+//     fallback URL for the ~0.4% of products with no static-CDN image at all. Confirmed by hand
+//     (2026-08-14) that img.asp itself works fine from a non-Shoptet IP — it's the same
+//     IP-level block as the CDN, not a broken URL — so proxying it the same way recovers those
+//     images instead of dropping them.
 //
 // Caches aggressively (30 days) since these are static product photos that rarely change.
 
-const ORIGIN_HOST = 'img0.atoselektro.cz'; // any of img0-3 are interchangeable mirrors
+const CDN_HOST = 'img0.atoselektro.cz'; // any of img0-3 are interchangeable mirrors
+const ASP_HOST = 'shop.atoselektro.cz';
 const FILENAME_PATTERN = /^x_(?:ien|ies|i)\d+\.jpg$/;
 const CACHE_SECONDS = 60 * 60 * 24 * 30; // 30 days
+
+function resolveOriginUrl(url) {
+  const filename = url.pathname.slice(1);
+  if (FILENAME_PATTERN.test(filename)) {
+    return `https://${CDN_HOST}/${filename}`;
+  }
+  if (url.pathname === '/imgasp') {
+    const attid = url.searchParams.get('attid');
+    const stiid = url.searchParams.get('stiid');
+    if (attid && /^\d+$/.test(attid)) return `https://${ASP_HOST}/img.asp?attid=${attid}`;
+    if (stiid && /^\d+$/.test(stiid)) return `https://${ASP_HOST}/img.asp?stiid=${stiid}`;
+  }
+  return null;
+}
 
 export default {
   async fetch(request, env, ctx) {
@@ -23,8 +44,8 @@ export default {
     }
 
     const url = new URL(request.url);
-    const filename = url.pathname.slice(1);
-    if (!FILENAME_PATTERN.test(filename)) {
+    const originUrl = resolveOriginUrl(url);
+    if (!originUrl) {
       return new Response('Not found', { status: 404 });
     }
 
@@ -33,7 +54,6 @@ export default {
     let response = await cache.match(cacheKey);
     if (response) return response;
 
-    const originUrl = `https://${ORIGIN_HOST}/${filename}`;
     const originResponse = await fetch(originUrl, {
       cf: { cacheTtl: CACHE_SECONDS, cacheEverything: true },
     });

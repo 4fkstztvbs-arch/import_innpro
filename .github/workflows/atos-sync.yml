@@ -41,6 +41,7 @@ jobs:
           ATOS_OUT: output/atos.xml
           HEUREKA_PRICE_OVERRIDE: '1'
           ATOS_EXCLUDE_UNAVAILABLE: '1'
+          ATOS_IMAGE_PROXY_BASE: ${{ secrets.ATOS_IMAGE_PROXY_BASE }}
         run: node scripts/transform-atos.js
 
       - name: Enrich with Icecat data (weight/specs; ATOS's own images stay primary — see README)

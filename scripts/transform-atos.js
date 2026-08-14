@@ -3,14 +3,18 @@
 // live ECB rate, and writes a Shoptet-native XML ready for Automatické importy.
 // Images: uses data/atos-image-urls.json (built by fetch-atos-images.js, run before this
 // script in atos-sync.yml) — static img{0-3}.atoselektro.cz CDN URLs, per product code.
-// Falls back to the feed's own img.asp URLs for any code missing from that map. The feed's
-// own img.asp URLs alone are not reliable — Shoptet's automatic import gets HTTP 429/403/
-// timeout from shop.atoselektro.cz trying to bulk-download them (confirmed in Shoptet's own
-// import log, 6.8. and 8.8.2026).
+// Falls back to the feed's own img.asp URLs for any code missing from that map, rewritten to go
+// through the same Cloudflare Worker proxy (ATOS_IMAGE_PROXY_BASE) as the CDN images — Shoptet's
+// automatic import gets HTTP 429/403/timeout hitting shop.atoselektro.cz directly (confirmed in
+// Shoptet's own import log, 6.8./8.8./14.8.2026), but img.asp itself works fine from any other
+// IP (confirmed by hand 14.8.2026), so proxying it the same way recovers these images instead of
+// serving a URL known to fail. Falls back to the raw (unproxied) img.asp URL only when
+// ATOS_IMAGE_PROXY_BASE isn't set.
 //
 // Usage: node transform-atos.js
 // Required env vars: ATOS_URL, ATOS_USERNAME, ATOS_PASSWORD
-// Optional: ATOS_MARKUP (15), ATOS_MIN_COST (0), ATOS_OUT (./output/atos.xml)
+// Optional: ATOS_MARKUP (15), ATOS_MIN_COST (0), ATOS_OUT (./output/atos.xml),
+//           ATOS_IMAGE_PROXY_BASE (same Cloudflare Worker as fetch-atos-images.js)
 
 const fs = require('fs');
 const path = require('path');
@@ -43,6 +47,16 @@ const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
 // fetch-atos-images.js hasn't run yet, or ATOS added a product it doesn't cover).
 const IMAGES_PATH = path.join(__dirname, '..', 'data', 'atos-image-urls.json');
 const CDN_IMAGES = fs.existsSync(IMAGES_PATH) ? JSON.parse(fs.readFileSync(IMAGES_PATH, 'utf-8')) : {};
+const IMAGE_PROXY_BASE = (process.env.ATOS_IMAGE_PROXY_BASE || '').replace(/\/+$/, '');
+// Rewrites a raw feed img.asp URL (https://shop.atoselektro.cz/img.asp?attid=NNN or ?stiid=NNN)
+// to go through the Worker proxy's /imgasp route instead — see worker.js. Leaves any other URL
+// shape (or anything when no proxy is configured) unchanged.
+function proxyImgAspUrl(rawUrl) {
+  if (!IMAGE_PROXY_BASE) return rawUrl;
+  const m = /img\.asp\?(attid|stiid)=(\d+)/.exec(rawUrl);
+  if (!m) return rawUrl;
+  return `${IMAGE_PROXY_BASE}/imgasp?${m[1]}=${m[2]}`;
+}
 // Solight is also a direct supplier with better purchase prices — don't re-sell their own
 // products relabelled under ATOS.
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
@@ -149,7 +163,7 @@ function buildShopitemXml(p) {
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
-  const images = (CDN_IMAGES[p.code] && CDN_IMAGES[p.code].length) ? CDN_IMAGES[p.code] : p.images;
+  const images = (CDN_IMAGES[p.code] && CDN_IMAGES[p.code].length) ? CDN_IMAGES[p.code] : p.images.map(proxyImgAspUrl);
   if (images.length) {
     parts.push('<IMAGES>');
     images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, images.length))}">${xmlEscape(img)}</IMAGE>`));

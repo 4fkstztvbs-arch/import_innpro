@@ -2,6 +2,9 @@
 // feed (cenik.xml) and writes a Shoptet-native XML ready for Automatické importy. Uses
 // Solight's own eshop price directly (it's the real price Solight itself sells at), fixes the
 // known broken image URL path, and strips stray whitespace characters some filenames have.
+// Also skips any image whose URL is on data/solight-broken-images.json — Solight's own feed
+// sometimes lists gallery images that don't exist on their server at all (confirmed by hand
+// 2026-08-14); see check-solight-images.js for how that list gets built/refreshed.
 //
 // Usage: node transform-solight.js
 // Required env vars: SOLIGHT_URL
@@ -27,6 +30,14 @@ const MAX_IMAGES = Math.max(1, parseInt(process.env.SOLIGHT_MAX_IMAGES || '5', 1
 // and repeat imports hit the proxy's cache instead of solight.sk at all. Falls back to solight.sk
 // directly (today's behaviour) when unset.
 const IMAGE_PROXY_BASE = (process.env.SOLIGHT_IMAGE_PROXY_BASE || '').replace(/\/+$/, '');
+// Path suffixes (not full URLs — survives proxy-base/cache-bust changes) that check-solight-images.js
+// found to 404 both through the proxy and directly against solight.sk — i.e. genuinely missing on
+// Solight's own server, not a problem on our end. Refreshed periodically (see
+// check-solight-images.yml), consumed here so we don't keep shipping URLs already known to fail.
+const BROKEN_IMAGES_PATH = path.join(__dirname, '..', 'data', 'solight-broken-images.json');
+const BROKEN_IMAGE_SUFFIXES = new Set(
+  fs.existsSync(BROKEN_IMAGES_PATH) ? JSON.parse(fs.readFileSync(BROKEN_IMAGES_PATH, 'utf-8')) : []
+);
 const OUT_PATH = process.env.SOLIGHT_OUT || path.join(__dirname, '..', 'output', 'solight.xml');
 const STORE_NAME = process.env.SOLIGHT_STORE_NAME || 'premiumstore.sk';
 const OUT_OF_STOCK_TEXT = process.env.SOLIGHT_OUT_OF_STOCK_TEXT || 'Na objednávku';
@@ -125,6 +136,17 @@ function fixImageUrl(rawUrl) {
   const fixed = cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
   const proxied = IMAGE_PROXY_BASE ? fixed.replace(/^https?:\/\/[^/]+/, IMAGE_PROXY_BASE) : fixed;
   return IMAGE_PROXY_BASE ? `${proxied}?${IMAGE_CACHE_BUST}` : proxied;
+}
+
+// The blocklist is keyed by the raw (pre-proxy) path, i.e. the same
+// /userdata/cache/images/storecards/... suffix fixImageUrl() would produce — check before
+// proxying/cache-busting so the comparison doesn't depend on either.
+function isKnownBrokenImage(rawUrl) {
+  const cleaned = rawUrl.replace(/\s+/g, '');
+  const fixed = cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
+  let suffix;
+  try { suffix = new URL(fixed).pathname; } catch (e) { suffix = fixed; }
+  return BROKEN_IMAGE_SUFFIXES.has(suffix);
 }
 
 function buildShopitemXml(p) {
@@ -257,7 +279,7 @@ async function main() {
       155
     );
 
-    const images = p.images.slice(0, MAX_IMAGES).map(fixImageUrl);
+    const images = p.images.filter((u) => !isKnownBrokenImage(u)).slice(0, MAX_IMAGES).map(fixImageUrl);
 
     const shopitem = buildShopitemXml({
       code, name: p.name, description, shortDescription, manufacturer: p.manufacturer,
