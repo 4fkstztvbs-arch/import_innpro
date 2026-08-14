@@ -28,6 +28,7 @@ jobs:
           SOLIGHT_OUT: output/solight.xml
           SOLIGHT_IMAGE_PROXY_BASE: ${{ secrets.SOLIGHT_IMAGE_PROXY_BASE }}
           HEUREKA_PRICE_OVERRIDE: '1'
+          SOLIGHT_EXCLUDE_UNAVAILABLE: '1'
         run: node scripts/transform-solight.js
 
       - name: Pull latest before cross-supplier dedupe
