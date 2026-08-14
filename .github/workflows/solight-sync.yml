@@ -27,6 +27,7 @@ jobs:
           SOLIGHT_MARKUP: '0'
           SOLIGHT_OUT: output/solight.xml
           SOLIGHT_IMAGE_PROXY_BASE: ${{ secrets.SOLIGHT_IMAGE_PROXY_BASE }}
+          SOLIGHT_EXCLUDE_UNAVAILABLE: '1'
           HEUREKA_PRICE_OVERRIDE: '1'
           SOLIGHT_EXCLUDE_UNAVAILABLE: '1'
         run: node scripts/transform-solight.js
