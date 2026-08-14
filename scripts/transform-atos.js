@@ -27,6 +27,7 @@ const USERNAME = process.env.ATOS_USERNAME;
 const PASSWORD = process.env.ATOS_PASSWORD;
 const MARKUP_PCT = parseFloat(process.env.ATOS_MARKUP || '15');
 const MIN_COST = parseFloat(process.env.ATOS_MIN_COST || '0');
+const EXCLUDE_UNAVAILABLE = process.env.ATOS_EXCLUDE_UNAVAILABLE === '1';
 const OUT_PATH = process.env.ATOS_OUT || path.join(__dirname, '..', 'output', 'atos.xml');
 const STORE_NAME = process.env.ATOS_STORE_NAME || 'premiumstore.sk';
 
@@ -240,6 +241,7 @@ async function main() {
     if (!defaultCategory) { stats.skippedCategory++; return; }
 
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
+    if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; return; }
 
     const shortDescription = p.shortDescription || truncateAtWord(stripTags(p.description), 200);
     const nameHasManufacturer = p.manufacturer && p.name.toLowerCase().includes(p.manufacturer.toLowerCase());
