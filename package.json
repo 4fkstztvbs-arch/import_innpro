@@ -11,9 +11,10 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "csv-parse": "^7.0.2",
     "fast-xml-parser": "^5.10.1",
-    "sax": "^1.6.1",
     "he": "^1.2.0",
-    "csv-parse": "^7.0.2"
+    "iconv-lite": "^0.7.3",
+    "sax": "^1.6.1"
   }
 }
