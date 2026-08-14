@@ -1,0 +1,42 @@
+name: Check Solight images
+
+on:
+  schedule:
+    - cron: '0 6 * * 0' # weekly, Sunday 6:00 UTC — well outside the nightly sync batch
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check Solight image URLs
+        run: node scripts/check-solight-images.js output/solight.xml
+
+      - name: Commit updated blocklist
+        run: |
+          git config user.name "solight-image-check-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/solight-broken-images.json
+          git diff --staged --quiet && echo "No changes" || git commit -m "Solight: aktualizovat zoznam rozbitych obrazkov"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            echo "Push failed (attempt $i) — another workflow likely pushed at the same time. Retrying in $((i*8))s..."
+            sleep $((i*8))
+            if [ "$i" = "5" ]; then
+              echo "::error::Push failed after 5 attempts"
+              exit 1
+            fi
+          done
