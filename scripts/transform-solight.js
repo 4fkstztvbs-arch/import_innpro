@@ -279,6 +279,11 @@ async function main() {
       155
     );
 
+    for (const u of p.images) {
+      if (/wd140_1|wd146_1|wo763_1/.test(u)) {
+        console.error(`DEBUG raw=${JSON.stringify(u)} broken=${isKnownBrokenImage(u)}`);
+      }
+    }
     const images = p.images.filter((u) => !isKnownBrokenImage(u)).slice(0, MAX_IMAGES).map(fixImageUrl);
 
     const shopitem = buildShopitemXml({
