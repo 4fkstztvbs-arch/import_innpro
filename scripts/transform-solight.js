@@ -141,11 +141,20 @@ function fixImageUrl(rawUrl) {
 // The blocklist is keyed by the raw (pre-proxy) path, i.e. the same
 // /userdata/cache/images/storecards/... suffix fixImageUrl() would produce — check before
 // proxying/cache-busting so the comparison doesn't depend on either.
+// NOTE: deliberately NOT using the global URL class here (new URL(...).pathname) — this module
+// has its own top-level `const URL = process.env.SOLIGHT_URL` (the feed URL string), which
+// shadows the built-in URL constructor for the whole file. That silently turned every call here
+// into "URL is not a constructor", so isKnownBrokenImage always fell back to comparing the
+// *whole* URL (incl. domain) against the blocklist's domain-less suffixes and never matched
+// anything (confirmed 2026-08-15 via temporary debug logging in a live workflow run). Plain
+// string slicing avoids the name collision entirely.
 function isKnownBrokenImage(rawUrl) {
   const cleaned = rawUrl.replace(/\s+/g, '');
   const fixed = cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
-  let suffix;
-  try { suffix = new URL(fixed).pathname; } catch (e) { suffix = fixed; }
+  const withoutQuery = fixed.split('?')[0];
+  const afterScheme = withoutQuery.replace(/^https?:\/\//, '');
+  const slashIdx = afterScheme.indexOf('/');
+  const suffix = slashIdx >= 0 ? afterScheme.slice(slashIdx) : withoutQuery;
   return BROKEN_IMAGE_SUFFIXES.has(suffix);
 }
 
@@ -279,17 +288,6 @@ async function main() {
       155
     );
 
-    for (const u of p.images) {
-      if (/wd140_1|wd146_1|wo763_1/.test(u)) {
-        const codes = [...u].map((ch) => ch.charCodeAt(0).toString(16)).join(',');
-        const cleaned = u.replace(/\s+/g, '');
-        const cleanedCodes = [...cleaned].map((ch) => ch.charCodeAt(0).toString(16)).join(',');
-        const fixed = cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
-        let suffix, urlErr = null;
-        try { suffix = new URL(fixed).pathname; } catch (e) { suffix = fixed; urlErr = e.message; }
-        console.error(`DEBUG raw=${JSON.stringify(u)} codes=${codes} cleaned=${JSON.stringify(cleaned)} cleanedCodes=${cleanedCodes} fixed=${JSON.stringify(fixed)} urlErr=${urlErr} suffix=${JSON.stringify(suffix)} inSet=${BROKEN_IMAGE_SUFFIXES.has(suffix)} setSize=${BROKEN_IMAGE_SUFFIXES.size}`);
-      }
-    }
     const images = p.images.filter((u) => !isKnownBrokenImage(u)).slice(0, MAX_IMAGES).map(fixImageUrl);
 
     const shopitem = buildShopitemXml({
