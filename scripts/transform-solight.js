@@ -281,7 +281,11 @@ async function main() {
 
     for (const u of p.images) {
       if (/wd140_1|wd146_1|wo763_1/.test(u)) {
-        console.error(`DEBUG raw=${JSON.stringify(u)} broken=${isKnownBrokenImage(u)}`);
+        const codes = [...u].map((ch) => ch.charCodeAt(0).toString(16)).join(',');
+        const cleaned = u.replace(/\s+/g, '');
+        const fixed = cleaned.replace('/userdata/images/storecards/', '/userdata/cache/images/storecards/550/');
+        let suffix; try { suffix = new URL(fixed).pathname; } catch (e) { suffix = fixed; }
+        console.error(`DEBUG raw=${JSON.stringify(u)} codes=${codes} cleaned=${JSON.stringify(cleaned)} suffix=${JSON.stringify(suffix)} inSet=${BROKEN_IMAGE_SUFFIXES.has(suffix)} setSize=${BROKEN_IMAGE_SUFFIXES.size}`);
       }
     }
     const images = p.images.filter((u) => !isKnownBrokenImage(u)).slice(0, MAX_IMAGES).map(fixImageUrl);
