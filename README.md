@@ -134,6 +134,22 @@ Shoptet vie exportovať vystavené faktúry vo formáte Stormware Pohoda XML (`N
 
 **Webový formulár (`omega-import.html`):** rovnaký prevod bez príkazového riadku — statická stránka (dostupná cez GitHub Pages tohto repozitára, napr. `https://<pouzivatel>.github.io/import_innpro/omega-import.html`), celý prevod beží priamo v prehliadači cez JavaScript (rovnaká logika ako v `transform-omega-invoices.js`, výstup je bajt-presne identický — overené testom). Súbor s faktúrami sa nikam neposiela. Postup: nahraj Pohoda XML export → "Prekonvertovať" → stiahni `.txt` → naimportuj v Omege.
 
+## Naskladnenie z faktúry dodávateľa (`scripts/parse-supplier-invoice.js`, `naskladnenie.html`)
+
+Keď príde PDF faktúra od dodávateľa (ATOS / K+B / InnPro) za tovar do e-shopu, treba (1) zistiť z nej položky a množstvá, (2) napárovať ich na existujúce Shoptet produkty a (3) naskladniť správne kódy v Shoptete (`Produkty → Sklad → Naskladnenie`). Tento nástroj robí kroky 1-2 automaticky — samotné naskladnenie v Shoptete je zatiaľ ručné (obchod nemá Shoptet Premium/API prístup).
+
+**Ako funguje párovanie:** nástroj načíta PDF faktúru (rozparsuje text podľa pozície na strane — funguje aj bez OCR, keďže tieto PDF majú vložený textový obsah), z každej faktúry vytiahne položky a spáruje ich s aktuálnym Shoptet feedom daného dodávateľa (`output/atos.xml`, `output/kb.xml`, `output/innpro.xml`):
+- **ATOS aj InnPro:** faktúra obsahuje EAN — párovanie je spoľahlivé, kódy na faktúre (napr. ATOS `494318`, InnPro `FF5-A`) sa **nezhodujú** s reálnym Shoptet `CODE` (napr. `TOC-SX1014`, `029278`), preto sa páruje výhradne cez EAN.
+- **K+B:** faktúra EAN neobsahuje vôbec — párovanie ide cez presný názov produktu (menej spoľahlivé, funguje len ak sa názov na faktúre zhoduje s názvom v Shoptet feede).
+- Riadky, ktoré nie sú fyzický tovar (Dobírka/Dobierka, doprava, Recyklačný príspevok, Koszty dostawy...) sa automaticky preskakujú.
+- Nespárované položky (nový produkt, alebo feed ešte nemá čerstvé dáta z posledného behu) sa označia na ručné overenie — nič sa "nedomýšľa".
+
+**Webový formulár (`naskladnenie.html`):** nahraj PDF faktúru → tabuľka s výsledkom párovania (Shoptet kód, EAN, množstvo, stav) → stiahni CSV. Beží v prehliadači cez [pdf.js](https://mozilla.github.io/pdf.js/) (vendorovaný v `vendor/pdfjs/`, žiadna CDN závislosť) a `fetch()` na verejne publikované feedy tohto repozitára.
+
+**Príkazový riadok:** `node scripts/parse-supplier-invoice.js faktura.pdf [--supplier=atos|kb|innpro]` (bez `--supplier` sa dodávateľ rozpozná automaticky z textu faktúry) → tabuľka do konzoly + CSV do `output/naskladnenie-<dátum>-<dodávateľ>.csv`.
+
+**Čo (zatiaľ) chýba — Omega skladové karty a príjemka:** ďalší krok (vytvoriť v Omege skladovú kartu pre nové produkty + príjemku, aby sa neskôr predajná faktúra k objednávke automaticky spárovala s výdajkou zo skladu) čaká na vzorový export z Omegy pre typy `T03` (Skladové karty) a `T02` (Pohyby na sklade) — rovnakým spôsobom, akým bol pre faktúry (`T01`) získaný reálny vzor pred implementáciou `transform-omega-invoices.js`. Bez overenej vzorky by bolo mapovanie stĺpcov len hádanie, čo je pri skladovej evidencii rizikové.
+
 **Ako vznikla táto mapovanie stĺpcov:** Omega nemá verejne zdokumentovanú XML schému pre faktúry (na rozdiel od Pohody) — jej formát je 97-stĺpcový (`R01`) / 58-stĺpcový (`R02`) TXT bez oficiálne zverejnenej špecifikácie všetkých stĺpcov (KROS zmieňuje sprievodný Excel s "až 166 stĺpcami", ktorý nie je verejne dostupný). Mapovanie bolo odvodené porovnaním reálneho exportu z Omegy (6 faktúr, súkromné osoby aj firmy, dobierka/karta/prevod).
 
 **Známe obmedzenia / neoverené predpoklady** (over pri prvom ostrom teste, ideálne v skúšobnej firme v Omege):

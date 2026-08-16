@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Naskladnenie z faktúry dodávateľa</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #1a1d23;
+    --muted: #666c76;
+    --border: #dde1e6;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --warn-bg: #fff8e1;
+    --warn-border: #f0c14b;
+    --ok-bg: #eaf7ee;
+    --ok-border: #34a853;
+    --err-bg: #fdecea;
+    --err-border: #d93025;
+    --row-ok: #eaf7ee;
+    --row-warn: #fff8e1;
+    --row-skip: transparent;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --card: #1d2025;
+      --text: #e8eaed;
+      --muted: #9aa0a6;
+      --border: #33373d;
+      --accent: #6ea8fe;
+      --accent-hover: #8fbcff;
+      --warn-bg: #2c2510;
+      --warn-border: #7a5c00;
+      --ok-bg: #10261a;
+      --ok-border: #2e8b57;
+      --err-bg: #2b1414;
+      --err-border: #a33;
+      --row-ok: #10261a;
+      --row-warn: #2c2510;
+      --row-skip: transparent;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  .sub { color: var(--muted); margin-top: 0; margin-bottom: 28px; font-size: 0.95rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .supplier-row { display: flex; gap: 10px; margin-bottom: 18px; flex-wrap: wrap; }
+  .supplier-row label {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    user-select: none;
+  }
+  .supplier-row input { margin-right: 6px; }
+  .supplier-row input:checked + span { font-weight: 600; }
+  .drop {
+    border: 2px dashed var(--border);
+    border-radius: 10px;
+    padding: 32px 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color .15s, background .15s;
+  }
+  .drop:hover, .drop.drag { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 6%, transparent); }
+  .drop input { display: none; }
+  .drop .icon { font-size: 2rem; margin-bottom: 8px; }
+  .drop .fname { margin-top: 10px; font-weight: 600; word-break: break-all; }
+  button.primary {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 11px 22px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+  }
+  button.primary:hover { background: var(--accent-hover); }
+  button.primary:disabled { opacity: .5; cursor: not-allowed; }
+  .result { display: none; }
+  .box { border-radius: 10px; padding: 16px 18px; margin-bottom: 14px; border: 1px solid; }
+  .box.ok { background: var(--ok-bg); border-color: var(--ok-border); }
+  .box.warn { background: var(--warn-bg); border-color: var(--warn-border); }
+  .box.err { background: var(--err-bg); border-color: var(--err-border); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin-top: 10px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
+  tr.row-ok { background: var(--row-ok); }
+  tr.row-warn { background: var(--row-warn); }
+  .badge { font-size: 0.78rem; padding: 2px 8px; border-radius: 999px; font-weight: 600; white-space: nowrap; }
+  .badge.ok { background: var(--ok-border); color: #fff; }
+  .badge.warn { background: var(--warn-border); color: #000; }
+  .badge.skip { background: var(--border); color: var(--muted); }
+  a.download {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    padding: 11px 22px;
+    background: var(--ok-border);
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a.download:hover { opacity: .92; }
+  details { margin-top: 18px; color: var(--muted); font-size: 0.88rem; }
+  summary { cursor: pointer; font-weight: 600; }
+  code { background: color-mix(in srgb, var(--text) 8%, transparent); padding: 1px 5px; border-radius: 4px; font-size: 0.85em; }
+  footer { color: var(--muted); font-size: 0.82rem; text-align: center; margin-top: 30px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Naskladnenie z faktúry dodávateľa</h1>
+  <p class="sub">Nahraj PDF faktúru od ATOS, K+B alebo InnPro — prevod zistí položky tovaru a spáruje ich s existujúcimi Shoptet produktmi (podľa EAN, u K+B podľa názvu). Výsledok je zoznam na ručné naskladnenie v Shoptete (Produkty → Sklad → Naskladnenie). Faktúra sa spracúva priamo v prehliadači, nikam sa neposiela — okrem stiahnutia verejných produktových feedov tohto e-shopu (na spárovanie kódov).</p>
+
+  <div class="card">
+    <div class="supplier-row" id="supplierRow">
+      <label><input type="radio" name="supplier" value="auto" checked><span>Automaticky rozpoznať</span></label>
+      <label><input type="radio" name="supplier" value="atos"><span>ATOS</span></label>
+      <label><input type="radio" name="supplier" value="kb"><span>K+B</span></label>
+      <label><input type="radio" name="supplier" value="innpro"><span>InnPro</span></label>
+    </div>
+    <label class="drop" id="drop">
+      <input type="file" id="file" accept=".pdf">
+      <div class="icon">📄</div>
+      <div>Klikni sem alebo sem presuň PDF faktúru od dodávateľa</div>
+      <div class="fname" id="fname"></div>
+    </label>
+    <button class="primary" id="convertBtn" disabled>Spracovať faktúru</button>
+  </div>
+
+  <div class="result" id="result">
+    <div class="card">
+      <div id="boxes"></div>
+      <div id="tableWrap"></div>
+      <a class="download" id="downloadLink" download>⬇ Stiahnuť CSV</a>
+    </div>
+  </div>
+
+  <details>
+    <summary>Ako to použiť</summary>
+    <ol>
+      <li>Stiahni PDF faktúru od dodávateľa (ATOS / K+B / InnPro).</li>
+      <li>Nahraj ju sem, klikni <b>Spracovať faktúru</b>.</li>
+      <li>Skontroluj tabuľku — riadky <b>OK</b> naskladni v Shoptete (Produkty → Sklad → Naskladnenie) v uvedenom množstve pod uvedeným Shoptet kódom.</li>
+      <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, alebo feed ešte nemá aktuálne dáta) — over/naskladni ručne podľa názvu.</li>
+      <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky).</li>
+    </ol>
+    <p>Spárovanie beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
+  </details>
+
+  <footer>Prevod beží lokálne vo vašom prehliadači (JavaScript).</footer>
+</div>
+
+<script type="module">
+import * as pdfjsLib from './vendor/pdfjs/pdf.min.mjs';
+pdfjsLib.GlobalWorkerOptions.workerSrc = './vendor/pdfjs/pdf.worker.min.mjs';
+
+const FEED_FILES = { atos: 'output/atos.xml', kb: 'output/kb.xml', innpro: 'output/innpro.xml' };
+const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro' };
+const NON_STOCK_KEYWORDS = [
+  'dobierka', 'dobírka', 'doprava', 'postovne', 'poštovné', 'recyklac', 'recyklač',
+  'koszty dostawy', 'przesyłki', 'przesylki', 'shipping', 'dorucenie', 'doručenie',
+  'balikovne', 'balíkovné', 'dopravne', 'dopravné',
+];
+
+function normalize(s) {
+  return String(s || '')
+    .toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+function isNonStock(name) {
+  const n = normalize(name);
+  return NON_STOCK_KEYWORDS.some((kw) => n.includes(normalize(kw)));
+}
+function toFloat(s) {
+  if (s === undefined || s === null) return 0;
+  const v = parseFloat(String(s).replace(/\s/g, '').replace(',', '.'));
+  return Number.isNaN(v) ? 0 : v;
+}
+
+async function extractRows(file) {
+  const buf = await file.arrayBuffer();
+  const doc = await pdfjsLib.getDocument({ data: new Uint8Array(buf) }).promise;
+  const rows = [];
+  for (let p = 1; p <= doc.numPages; p++) {
+    const page = await doc.getPage(p);
+    const content = await page.getTextContent();
+    const items = content.items
+      .filter((it) => it.str.trim() !== '')
+      .map((it) => ({ str: it.str.trim(), x: it.transform[4], y: it.transform[5] }));
+    const buckets = [];
+    for (const it of items) {
+      let bucket = buckets.find((b) => Math.abs(b.y - it.y) <= 2);
+      if (!bucket) { bucket = { y: it.y, items: [] }; buckets.push(bucket); }
+      bucket.items.push(it);
+    }
+    buckets.sort((a, b) => b.y - a.y);
+    for (const b of buckets) rows.push(b.items.sort((a, c) => a.x - c.x).map((it) => it.str));
+  }
+  return rows;
+}
+
+function detectSupplier(rows) {
+  const text = normalize(rows.map((r) => r.join(' ')).join(' '));
+  if (text.includes('atos spol')) return 'atos';
+  if (text.includes('k+b progres')) return 'kb';
+  if (text.includes('innpro robert')) return 'innpro';
+  return null;
+}
+
+function parseAtos(rows) {
+  const items = [];
+  for (let i = 0; i < rows.length; i++) {
+    const cells = rows[i];
+    if (cells.length < 3) continue;
+    if (!/^\d{4,}$/.test(cells[0])) continue;
+    let idx = 1;
+    let ean = '';
+    if (/^\d{8,14}$/.test(cells[idx])) { ean = cells[idx]; idx++; }
+    const qty = toFloat(cells[idx]); idx++;
+    idx++; // unit
+    const name = cells.slice(idx).join(' ').replace(/^\S{2,4}\/\s*/, '');
+    if (!name) continue;
+    const priceRow = rows[i + 1] || [];
+    const unitPriceNet = toFloat(priceRow[0]);
+    items.push({ code: cells[0], ean, name, quantity: qty || 1, unitPriceNet });
+  }
+  return items;
+}
+function parseKb(rows) {
+  const items = [];
+  for (const cells of rows) {
+    if (cells.length < 8) continue;
+    if (!/^\d+$/.test(cells[0])) continue;
+    const code = cells[1];
+    if (!/^[A-Za-z]\d+$/.test(code)) continue;
+    items.push({ code, ean: '', name: cells[2], quantity: toFloat(cells[3]) || 1, unitPriceNet: toFloat(cells[4]) });
+  }
+  return items;
+}
+function parseInnpro(rows) {
+  const items = [];
+  for (const cells of rows) {
+    if (cells.length < 6) continue;
+    if (!/^\d+$/.test(cells[0])) continue;
+    const last = cells[cells.length - 1];
+    const hasEan = /^\d{8,14}$/.test(last);
+    items.push({
+      code: hasEan ? (cells[cells.length - 2] || '') : '',
+      ean: hasEan ? last : '',
+      name: cells[1],
+      quantity: toFloat(cells[3]) || 1,
+      unitPriceNet: toFloat(cells[7] !== undefined ? cells[7] : cells[4]),
+    });
+  }
+  return items;
+}
+const SUPPLIER_PARSERS = { atos: parseAtos, kb: parseKb, innpro: parseInnpro };
+
+async function loadFeedIndex(supplier) {
+  const byEan = new Map();
+  const byName = new Map();
+  const res = await fetch(FEED_FILES[supplier]);
+  if (!res.ok) return { byEan, byName };
+  const xmlText = await res.text();
+  const doc = new DOMParser().parseFromString(xmlText, 'application/xml');
+  const shopitems = Array.from(doc.getElementsByTagName('SHOPITEM'));
+  for (const it of shopitems) {
+    const code = it.getElementsByTagName('CODE')[0]?.textContent?.trim() || '';
+    const ean = it.getElementsByTagName('EAN')[0]?.textContent?.trim() || '';
+    const name = it.getElementsByTagName('NAME')[0]?.textContent?.trim() || '';
+    if (ean) byEan.set(ean, { code, name });
+    if (name) byName.set(normalize(name), { code, name });
+  }
+  return { byEan, byName };
+}
+function matchItem(item, index) {
+  if (item.ean && index.byEan.has(item.ean)) return { ...index.byEan.get(item.ean), matchedBy: 'EAN' };
+  const byName = index.byName.get(normalize(item.name));
+  if (byName) return { ...byName, matchedBy: 'názov' };
+  return null;
+}
+
+// ---------- UI ----------
+const fileInput = document.getElementById('file');
+const drop = document.getElementById('drop');
+const fname = document.getElementById('fname');
+const convertBtn = document.getElementById('convertBtn');
+const resultBox = document.getElementById('result');
+const boxes = document.getElementById('boxes');
+const tableWrap = document.getElementById('tableWrap');
+const downloadLink = document.getElementById('downloadLink');
+
+let selectedFile = null;
+fileInput.addEventListener('change', () => {
+  selectedFile = fileInput.files[0] || null;
+  fname.textContent = selectedFile ? selectedFile.name : '';
+  convertBtn.disabled = !selectedFile;
+  resultBox.style.display = 'none';
+});
+['dragover', 'dragenter'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add('drag'); }));
+['dragleave', 'drop'].forEach((ev) => drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove('drag'); }));
+drop.addEventListener('drop', (e) => {
+  const f = e.dataTransfer.files[0];
+  if (f) { fileInput.files = e.dataTransfer.files; selectedFile = f; fname.textContent = f.name; convertBtn.disabled = false; resultBox.style.display = 'none'; }
+});
+
+convertBtn.addEventListener('click', async () => {
+  if (!selectedFile) return;
+  boxes.innerHTML = '';
+  tableWrap.innerHTML = '';
+  resultBox.style.display = 'none';
+  try {
+    const rows = await extractRows(selectedFile);
+    let supplier = document.querySelector('input[name="supplier"]:checked').value;
+    if (supplier === 'auto') {
+      supplier = detectSupplier(rows);
+      if (!supplier) throw new Error('Nepodarilo sa automaticky rozpoznať dodávateľa. Vyber ho ručne hore.');
+    }
+    const parser = SUPPLIER_PARSERS[supplier];
+    const rawItems = parser(rows);
+    if (rawItems.length === 0) throw new Error('V PDF sa nenašli žiadne položky. Over, že ide o faktúru správneho dodávateľa.');
+    const index = await loadFeedIndex(supplier);
+
+    const results = rawItems.map((item) => {
+      if (isNonStock(item.name)) return { ...item, status: 'preskočené', statusClass: 'skip' };
+      const match = matchItem(item, index);
+      if (match) return { ...item, status: `OK (${match.matchedBy})`, statusClass: 'ok', shoptetCode: match.code };
+      return { ...item, status: 'over ručne', statusClass: 'warn' };
+    });
+
+    const okCount = results.filter((r) => r.statusClass === 'ok').length;
+    const warnCount = results.filter((r) => r.statusClass === 'warn').length;
+
+    const okBox = document.createElement('div');
+    okBox.className = 'box ok';
+    okBox.textContent = `Dodávateľ: ${SUPPLIER_LABELS[supplier]}. Položiek spolu: ${rawItems.length}. Na naskladnenie: ${okCount}. Na ručné overenie: ${warnCount}.`;
+    boxes.appendChild(okBox);
+
+    if (warnCount > 0) {
+      const wBox = document.createElement('div');
+      wBox.className = 'box warn';
+      wBox.textContent = 'Niektoré položky sa nenašli v aktuálnom Shoptet feede (nový produkt, alebo feed ešte neaktuálny) — over a naskladni ich ručne podľa názvu.';
+      boxes.appendChild(wBox);
+    }
+
+    const tbl = document.createElement('table');
+    tbl.innerHTML = '<thead><tr><th>Názov</th><th>Shoptet kód</th><th>EAN</th><th>Množstvo</th><th>Stav</th></tr></thead>';
+    const tbody = document.createElement('tbody');
+    for (const r of results) {
+      const tr = document.createElement('tr');
+      if (r.statusClass === 'ok') tr.className = 'row-ok';
+      else if (r.statusClass === 'warn') tr.className = 'row-warn';
+      tr.innerHTML = `<td>${r.name}</td><td>${r.shoptetCode || '-'}</td><td>${r.ean || '-'}</td><td>${r.quantity}</td><td><span class="badge ${r.statusClass}">${r.status}</span></td>`;
+      tbody.appendChild(tr);
+    }
+    tbl.appendChild(tbody);
+    tableWrap.appendChild(tbl);
+
+    const csvLines = ['nazov;shoptet_kod;ean;mnozstvo;jednotkova_cena_bez_dph;stav'];
+    for (const r of results) {
+      csvLines.push([r.name, r.shoptetCode || '', r.ean || '', r.quantity, r.unitPriceNet, r.status].map((v) => String(v).replace(/;/g, ',')).join(';'));
+    }
+    const blob = new Blob([csvLines.join('\r\n') + '\r\n'], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const today = new Date().toISOString().slice(0, 10);
+    downloadLink.href = url;
+    downloadLink.download = `naskladnenie-${today}-${supplier}.csv`;
+    downloadLink.textContent = `⬇ Stiahnuť naskladnenie-${today}-${supplier}.csv`;
+
+    resultBox.style.display = 'block';
+  } catch (err) {
+    const eBox = document.createElement('div');
+    eBox.className = 'box err';
+    eBox.textContent = 'Chyba: ' + err.message;
+    boxes.appendChild(eBox);
+    resultBox.style.display = 'block';
+  }
+});
+</script>
+</body>
+</html>
