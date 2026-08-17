@@ -211,6 +211,7 @@ function nowTime() {
 // v sklade Eshop zodpoveda predavany produkt (podla Shoptet kodu), aby vydajka pri importe faktury
 // spravne odpisala z tejto karty.
 const OMEGA_CARDS_API_URL = "https://omega-cards-api.dt7vy7byn2.workers.dev";
+const OMEGA_CARDS_API_KEY = "V77bC1yTE_ATf46jy_Xyx5efDgVj_BDm";
 
 // ---------- konstanty predavajuceho ----------
 const SELLER = {
@@ -368,7 +369,7 @@ function buildItemRow(item, warnings, cardIndex) {
 // z katalogu). DOLEZITE ZISTENIE: T01 import faktury SAM OSEBE nevytvara skutocnu vazbu na
 // skladovu kartu (aj ked "Kód položky" v UI vyzera spravne vyplneny) - Omega sa preto pri ulozeni
 // nepyta na vydajku. Treba preto vygenerovat T02 vydaj SAMOSTATNE, s vazbou na cislo faktury (col 18).
-function buildVydajkaHeaderRow(invoice, invoiceNumber) {
+function buildVydajkaHeaderRow(invoice, invoiceNumber, dokladCislo) {
   const header = child(invoice, "invoiceHeader");
   const partnerIdentity = child(header, "partnerIdentity");
   const address = child(partnerIdentity, "address");
@@ -384,7 +385,7 @@ function buildVydajkaHeaderRow(invoice, invoiceNumber) {
   const cols = new Array(38).fill("");
   cols[0] = "R01";
   cols[1] = "Eshop";
-  cols[2] = invoiceNumber; // cislo dokladu vydajky = externe cislo faktury (podla nastavenia "Prenos cisla fakt. do prijemky/vydajky" -> "Externe cislo DF")
+  cols[2] = dokladCislo || ""; // cislo dokladu vydajky - samostatny ciselny rad "Vydajky" v sklade Eshop (NIE cislo faktury), pridelene cez Omega cards API
   cols[3] = "V";
   cols[4] = "11";
   cols[5] = partnerName;
@@ -598,14 +599,34 @@ function convertInvoice(invoice, warnings, cardIndex) {
   for (const r of itemRows) lines.push(r.cols.join("\t"));
 
   const stockItems = itemRows.filter((r) => r.typ === "K");
-  let vydajkaLines = [];
-  if (stockItems.length > 0) {
-    vydajkaLines = [buildVydajkaHeaderRow(invoice, headerInfo.invoiceNumber).join("\t")];
-    for (const r of stockItems) {
-      vydajkaLines.push(buildVydajkaItemRow(r.cardName || r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join("\t"));
-    }
+  return { lines, stockItems, invoiceNumber: headerInfo.invoiceNumber, partnerName: headerInfo.partnerName, totalGross: headerInfo.totalGross };
+}
+
+function buildVydajkaLines(invoice, invoiceNumber, stockItems, dokladCislo) {
+  const lines = [buildVydajkaHeaderRow(invoice, invoiceNumber, dokladCislo).join("\t")];
+  for (const r of stockItems) {
+    lines.push(buildVydajkaItemRow(r.cardName || r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join("\t"));
   }
-  return { lines, vydajkaLines, invoiceNumber: headerInfo.invoiceNumber, partnerName: headerInfo.partnerName, totalGross: headerInfo.totalGross };
+  return lines;
+}
+
+// Cislo dokladu vydajky sa pri TXT importe do Omegy NEDOPLNA automaticky (overene realnym testom) -
+// vlastny ciselny rad "Vydajky" v sklade Eshop, spravovany rovnako ako cisla skladovych kariet.
+async function reserveVydajCisla(count) {
+  if (count < 1) return { cisla: [], error: null };
+  try {
+    const res = await fetch(OMEGA_CARDS_API_URL + "/reserve-doklad", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-Api-Key": OMEGA_CARDS_API_KEY },
+      body: JSON.stringify({ kind: "vydaj", count }),
+    });
+    const body = await res.json();
+    if (!res.ok) throw new Error(body.error || `HTTP ${res.status}`);
+    return { cisla: body.cisla, error: null };
+  } catch (err) {
+    console.warn("Nepodarilo sa prideliť čísla dokladov výdajky:", err.message);
+    return { cisla: [], error: err.message };
+  }
 }
 
 async function loadCardIndex() {
@@ -639,12 +660,12 @@ async function convertXml(xmlText) {
   }
 
   const lines = ["R00\tT01"];
-  const vydajkaLines = [];
+  const vydajCandidates = [];
   const summary = [];
   for (const invoice of invoices) {
     const res = convertInvoice(invoice, warnings, cardIndex);
     lines.push(...res.lines);
-    if (res.vydajkaLines.length) vydajkaLines.push(...res.vydajkaLines);
+    if (res.stockItems.length) vydajCandidates.push({ invoice, ...res });
     summary.push({ number: res.invoiceNumber, partner: res.partnerName, total: res.totalGross });
   }
   const outText = lines.join("\r\n") + "\r\n";
@@ -652,7 +673,15 @@ async function convertXml(xmlText) {
   if (unmapped.length) warnings.push("Znaky bez cp1250 náhrady, nahradené '?': " + unmapped.join(" "));
 
   let vydajkaBytes = null;
-  if (vydajkaLines.length) {
+  if (vydajCandidates.length) {
+    const { cisla, error } = await reserveVydajCisla(vydajCandidates.length);
+    if (error) {
+      warnings.push(`Nepodarilo sa prideliť čísla dokladov výdajky (${error}) — výdajka bude bez čísla, doplň ho ručne v Omege pred importom.`);
+    }
+    const vydajkaLines = [];
+    vydajCandidates.forEach((res, i) => {
+      vydajkaLines.push(...buildVydajkaLines(res.invoice, res.invoiceNumber, res.stockItems, cisla[i]));
+    });
     const vydajkaText = ["R00\tT02", ...vydajkaLines].join("\r\n") + "\r\n";
     vydajkaBytes = encodeWin1250(vydajkaText).bytes;
   }

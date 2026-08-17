@@ -1,8 +1,40 @@
 {
-  "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky/vydajky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
+  "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky/vydajky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia). 'nextVydajNumber' - rovnaky princip, ale pre cislovanie dokladov vydajky zo skladu Eshop (samostatny ciselny rad 'Vydajky' v Omege, NIE cislo faktury) - cislo dokladu sa pri TXT importe do Omegy nedopĺňa automaticky, preto ho tento nastroj musi dodat vopred.",
   "eshop": {
-    "nextCardNumber": 202600001,
-    "cards": {}
+    "nextCardNumber": 202600006,
+    "nextVydajNumber": 202600002,
+    "cards": {
+      "6971636400998": {
+        "kod": "202600001",
+        "nazov": "CR-10 SE 3D Printer",
+        "dodavatel": "innpro",
+        "code": "061008"
+      },
+      "6972470564372": {
+        "kod": "202600002",
+        "nazov": "ONIKUMA G69 keyboard",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "6975755966915": {
+        "kod": "202600003",
+        "nazov": "Flextail Tiny Pump 3X white",
+        "dodavatel": "innpro",
+        "code": "085473"
+      },
+      "6980064920091": {
+        "kod": "202600004",
+        "nazov": "Smartwatch Zeblaze Btalk",
+        "dodavatel": "innpro",
+        "code": "090356"
+      },
+      "0757047110734": {
+        "kod": "202600005",
+        "nazov": "Projector Magcubic",
+        "dodavatel": "innpro",
+        "code": "090891"
+      }
+    }
   },
   "_legacy_predajna_reference": {
     "_comment": "Stare zaznamy zo skladu 'Predajna' (iny sklad, ine cislovanie) - ponechane len ako referencia/dokaz spolahlivosti EAN parovania, tento nastroj ich uz nepouziva.",
