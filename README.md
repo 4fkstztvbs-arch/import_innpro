@@ -148,7 +148,17 @@ Keď príde PDF faktúra od dodávateľa (ATOS / K+B / InnPro) za tovar do e-sho
 
 **Príkazový riadok:** `node scripts/parse-supplier-invoice.js faktura.pdf [--supplier=atos|kb|innpro]` (bez `--supplier` sa dodávateľ rozpozná automaticky z textu faktúry) → tabuľka do konzoly + CSV do `output/naskladnenie-<dátum>-<dodávateľ>.csv`.
 
-**Čo (zatiaľ) chýba — Omega skladové karty a príjemka:** ďalší krok (vytvoriť v Omege skladovú kartu pre nové produkty + príjemku, aby sa neskôr predajná faktúra k objednávke automaticky spárovala s výdajkou zo skladu) čaká na vzorový export z Omegy pre typy `T03` (Skladové karty) a `T02` (Pohyby na sklade) — rovnakým spôsobom, akým bol pre faktúry (`T01`) získaný reálny vzor pred implementáciou `transform-omega-invoices.js`. Bez overenej vzorky by bolo mapovanie stĺpcov len hádanie, čo je pri skladovej evidencii rizikové.
+## Príjemka pre Omegu (`scripts/transform-omega-prijemka.js`)
+
+Nadväzuje na naskladnenie vyššie — z tej istej PDF faktúry vygeneruje aj Omega import pre **príjemku** (T02, typ `P`). Stĺpcové mapovanie (38 stĺpcov `R01`, 30 stĺpcov `R02`) bolo odvodené z reálneho T02 exportu z Omegy poskytnutého na overenie (obsahoval osobné údaje zákazníkov, preto sa neukladá do repozitára — len výsledné poznatky).
+
+**Dôležité zistenie:** T01 import faktúry v Omege **automaticky vygeneruje aj výdajku zo skladu** (potvrdené krížovou kontrolou identifikátorov medzi T01 a T02 exportom) — netreba ju teda vytvárať samostatne, `transform-omega-invoices.js`/`omega-import.html` stačí.
+
+**Číslo skladovej karty (`data/omega-stock-cards.json`):** Omega páruje položky príjemky na existujúce skladové karty cez svoje vlastné interné číslo karty (napr. `002538`), nie cez EAN ani Shoptet kód — preto tento súbor drží mapovanie **EAN → číslo karty v Omege**, zatiaľ overené pre 6 produktov (ATOS, InnPro) krížovou kontrolou poradia položiek medzi PDF faktúrou a T02 exportom. Položky, ktorých EAN v databáze chýba, sa do príjemky **nezahrnú** (typicky nový produkt bez karty, alebo produkt ešte v databáze nezaevidovaný) — vypíšu sa zvlášť na ručné dohľadanie čísla karty v Omege; keď ho zistíte, doplňte záznam do JSON súboru pre nabudúce. Vytváranie **nových** skladových kariet (T03) tento nástroj zatiaľ nerobí — čaká na vzorový T03 export z Omegy.
+
+**Webový formulár:** je súčasťou `naskladnenie.html` — po spracovaní faktúry sa zobrazí sekcia "Príjemka pre Omegu" so súborom na stiahnutie (ak je aspoň jedna položka so známou kartou).
+
+**Príkazový riadok:** `node scripts/transform-omega-prijemka.js faktura.pdf [--supplier=atos|kb|innpro] [--sklad="Eshop"]` → `output/omega-prijemka-<dátum>-<dodávateľ>.txt`.
 
 **Ako vznikla táto mapovanie stĺpcov:** Omega nemá verejne zdokumentovanú XML schému pre faktúry (na rozdiel od Pohody) — jej formát je 97-stĺpcový (`R01`) / 58-stĺpcový (`R02`) TXT bez oficiálne zverejnenej špecifikácie všetkých stĺpcov (KROS zmieňuje sprievodný Excel s "až 166 stĺpcami", ktorý nie je verejne dostupný). Mapovanie bolo odvodené porovnaním reálneho exportu z Omegy (6 faktúr, súkromné osoby aj firmy, dobierka/karta/prevod).
 

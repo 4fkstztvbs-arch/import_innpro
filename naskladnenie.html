@@ -159,6 +159,11 @@
       <div id="tableWrap"></div>
       <a class="download" id="downloadLink" download>⬇ Stiahnuť CSV</a>
     </div>
+    <div class="card" id="omegaCard" style="display:none">
+      <h2 style="font-size:1.05rem;margin-top:0">Príjemka pre Omegu</h2>
+      <div id="omegaBoxes"></div>
+      <a class="download" id="omegaDownloadLink" download style="display:none">⬇ Stiahnuť príjemku pre Omegu</a>
+    </div>
   </div>
 
   <details>
@@ -169,8 +174,10 @@
       <li>Skontroluj tabuľku — riadky <b>OK</b> naskladni v Shoptete (Produkty → Sklad → Naskladnenie) v uvedenom množstve pod uvedeným Shoptet kódom.</li>
       <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, alebo feed ešte nemá aktuálne dáta) — over/naskladni ručne podľa názvu.</li>
       <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky).</li>
+      <li>Ak sekcia "Príjemka pre Omegu" ponúka súbor na stiahnutie, naimportuj ho v Omege (<code>Firma → Import → Import z textového súboru</code>) — vytvorí príjemku len pre položky so známou skladovou kartou.</li>
     </ol>
     <p>Spárovanie beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
+    <p>Príjemka pre Omegu sa generuje len pre položky, ktorých EAN je v <code>data/omega-stock-cards.json</code> (databáza overených čísel skladových kariet). Nové produkty (bez známej karty) sa do príjemky nezahrnú — treba ich v Omege dohľadať/založiť ručne a číslo karty doplniť do databázy pre nabudúce.</p>
   </details>
 
   <footer>Prevod beží lokálne vo vašom prehliadači (JavaScript).</footer>
@@ -203,6 +210,101 @@ function toFloat(s) {
   if (s === undefined || s === null) return 0;
   const v = parseFloat(String(s).replace(/\s/g, '').replace(',', '.'));
   return Number.isNaN(v) ? 0 : v;
+}
+
+// ---------- Windows-1250 kodovanie (Omega prijemku vyzaduje cp1250) ----------
+const CP1250_MAP = {"160":160,"164":164,"166":166,"167":167,"168":168,"169":169,"171":171,"172":172,"173":173,"174":174,"176":176,"177":177,"180":180,"181":181,"182":182,"183":183,"184":184,"187":187,"193":193,"194":194,"196":196,"199":199,"201":201,"203":203,"205":205,"206":206,"211":211,"212":212,"214":214,"215":215,"218":218,"220":220,"221":221,"223":223,"225":225,"226":226,"228":228,"231":231,"233":233,"235":235,"237":237,"238":238,"243":243,"244":244,"246":246,"247":247,"250":250,"252":252,"253":253,"258":195,"259":227,"260":165,"261":185,"262":198,"263":230,"268":200,"269":232,"270":207,"271":239,"272":208,"273":240,"280":202,"281":234,"282":204,"283":236,"313":197,"314":229,"317":188,"318":190,"321":163,"322":179,"323":209,"324":241,"327":210,"328":242,"336":213,"337":245,"340":192,"341":224,"344":216,"345":248,"346":140,"347":156,"350":170,"351":186,"352":138,"353":154,"354":222,"355":254,"356":141,"357":157,"366":217,"367":249,"368":219,"369":251,"377":143,"378":159,"379":175,"380":191,"381":142,"382":158,"711":161,"728":162,"729":255,"731":178,"733":189,"8211":150,"8212":151,"8216":145,"8217":146,"8218":130,"8220":147,"8221":148,"8222":132,"8224":134,"8225":135,"8226":149,"8230":133,"8240":137,"8249":139,"8250":155,"8364":128,"8482":153};
+function encodeWin1250(str) {
+  const bytes = new Uint8Array(str.length);
+  for (let i = 0; i < str.length; i++) {
+    const cp = str.codePointAt(i);
+    if (cp < 128) { bytes[i] = cp; continue; }
+    const b = CP1250_MAP[cp];
+    bytes[i] = b !== undefined ? b : 63;
+  }
+  return bytes;
+}
+
+// ---------- Omega prijemka (T02) - stlpcove mapovanie zhodne s scripts/transform-omega-prijemka.js ----------
+const SELLER_NAME = 'Trokšiar .';
+const SUPPLIER_OMEGA_IDENTITY = {
+  atos: { name: 'ATOS spol. s r.o.', ico: '18055761', partnerId: '0002', street: 'Bohumínska 1556', zip: '969 01', city: 'Rychvald' },
+  innpro: { name: 'INNPRO Robert Bledowski SP. z. o.o.', ico: '', partnerId: '9066', street: 'Rudzka 65C', zip: '982 65', city: 'Rybnik' },
+  kb: { name: 'K+B Progres, a.s., organizační složka SK', ico: '', partnerId: '', street: '', zip: '', city: '' },
+};
+function nat(n) {
+  let s = (Math.round((n + Number.EPSILON) * 100) / 100).toFixed(2);
+  s = s.replace(/0+$/, '').replace(/\.$/, '');
+  return s === '' || s === '-' ? '0' : s;
+}
+function dateToOmegaNow() {
+  const d = new Date();
+  const p = (x) => String(x).padStart(2, '0');
+  return `${p(d.getDate())}.${p(d.getMonth() + 1)}.${d.getFullYear()}`;
+}
+function nowTimeMs() {
+  const d = new Date();
+  const p = (n) => String(n).padStart(2, '0');
+  return `${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}.000`;
+}
+function extractInvoiceNumber(rows, supplier) {
+  const flatRows = rows.map((r) => r.join(' '));
+  if (supplier === 'atos') {
+    for (const cells of rows) {
+      const idx = cells.findIndex((c) => /^číslo$/i.test(c));
+      if (idx >= 0 && cells[idx + 1] && /^\d{4,}$/.test(cells[idx + 1])) return cells[idx + 1];
+    }
+  }
+  if (supplier === 'kb') {
+    for (const line of flatRows) {
+      const m = line.match(/č\.\s*(\d{4,})/i);
+      if (m) return m[1];
+    }
+  }
+  if (supplier === 'innpro') {
+    for (const line of flatRows) {
+      const m = line.match(/invoice\s+(\d{3,})/i);
+      if (m) return m[1];
+    }
+  }
+  return '';
+}
+function buildOmegaHeaderRow(supplier, invoiceNumber, freightTotal, sklad) {
+  const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
+  const cols = new Array(38).fill('');
+  cols[0] = 'R01'; cols[1] = sklad; cols[2] = ''; cols[3] = 'P'; cols[4] = '2';
+  cols[5] = identity.name || SUPPLIER_LABELS[supplier];
+  cols[6] = identity.ico || '';
+  cols[7] = dateToOmegaNow();
+  cols[8] = 'PV'; cols[9] = 'P';
+  cols[10] = identity.partnerId || '';
+  cols[11] = ''; cols[12] = ''; cols[13] = '';
+  cols[14] = identity.street || ''; cols[15] = identity.zip || ''; cols[16] = identity.city || '';
+  cols[17] = '';
+  cols[18] = invoiceNumber || '';
+  cols[19] = SELLER_NAME; cols[20] = 'EUR'; cols[21] = '1'; cols[22] = '1';
+  cols[23] = nat(freightTotal); cols[24] = nat(freightTotal);
+  cols[25] = '0.0000'; cols[26] = '1'; cols[27] = '1';
+  cols[28] = nowTimeMs(); cols[29] = '-1'; cols[30] = ''; cols[31] = '0'; cols[32] = '0'; cols[33] = '';
+  cols[34] = '-999'; cols[35] = '1'; cols[36] = '0'; cols[37] = '';
+  return cols;
+}
+function buildOmegaItemRow(name, quantity, unitPriceNet, cardCode) {
+  const cols = new Array(30).fill('');
+  cols[0] = 'R02'; cols[1] = name; cols[2] = String(quantity); cols[3] = nat(unitPriceNet); cols[4] = cardCode;
+  cols[5] = '0'; cols[6] = nat(unitPriceNet); cols[7] = nat(unitPriceNet); cols[8] = '0'; cols[9] = '"ks"';
+  cols[10] = String(quantity); cols[11] = ''; cols[12] = '-6'; cols[13] = '3'; cols[14] = '0'; cols[15] = '-3';
+  cols[16] = nat(unitPriceNet); cols[17] = '0'; cols[18] = nat(unitPriceNet); cols[19] = '0'; cols[20] = '0';
+  cols[21] = 'X'; cols[22] = '(Nedefinované)'; cols[23] = 'X'; cols[24] = '(Nedefinované)';
+  cols[25] = 'X'; cols[26] = '(Nedefinované)'; cols[27] = 'X'; cols[28] = '(Nedefinované)'; cols[29] = '';
+  return cols;
+}
+async function loadStockCards() {
+  try {
+    const res = await fetch('data/omega-stock-cards.json');
+    if (!res.ok) return {};
+    return await res.json();
+  } catch { return {}; }
 }
 
 async function extractRows(file) {
@@ -317,6 +419,9 @@ const resultBox = document.getElementById('result');
 const boxes = document.getElementById('boxes');
 const tableWrap = document.getElementById('tableWrap');
 const downloadLink = document.getElementById('downloadLink');
+const omegaCard = document.getElementById('omegaCard');
+const omegaBoxes = document.getElementById('omegaBoxes');
+const omegaDownloadLink = document.getElementById('omegaDownloadLink');
 
 let selectedFile = null;
 fileInput.addEventListener('change', () => {
@@ -336,6 +441,9 @@ convertBtn.addEventListener('click', async () => {
   if (!selectedFile) return;
   boxes.innerHTML = '';
   tableWrap.innerHTML = '';
+  omegaBoxes.innerHTML = '';
+  omegaDownloadLink.style.display = 'none';
+  omegaCard.style.display = 'none';
   resultBox.style.display = 'none';
   try {
     const rows = await extractRows(selectedFile);
@@ -394,6 +502,41 @@ convertBtn.addEventListener('click', async () => {
     downloadLink.href = url;
     downloadLink.download = `naskladnenie-${today}-${supplier}.csv`;
     downloadLink.textContent = `⬇ Stiahnuť naskladnenie-${today}-${supplier}.csv`;
+
+    // ---- Prijemka pre Omegu (T02) - len pre polozky so znamou skladovou kartou ----
+    const cards = await loadStockCards();
+    const toReceive = [];
+    const needsCard = [];
+    let freightTotal = 0;
+    for (const item of rawItems) {
+      if (isNonStock(item.name)) { freightTotal += (item.unitPriceNet || 0) * (item.quantity || 1); continue; }
+      const card = item.ean && cards[item.ean];
+      if (card) toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
+      else needsCard.push(item);
+    }
+    omegaCard.style.display = 'block';
+    if (toReceive.length > 0) {
+      const invoiceNumber = extractInvoiceNumber(rows, supplier);
+      const headerCols = buildOmegaHeaderRow(supplier, invoiceNumber, freightTotal, 'Eshop');
+      const lines = ['R00\tT02', headerCols.join('\t')];
+      for (const r of toReceive) lines.push(buildOmegaItemRow(r.cardName, r.quantity, r.unitPriceNet, r.cardCode).join('\t'));
+      const bytes = encodeWin1250(lines.join('\r\n') + '\r\n');
+      const omegaUrl = URL.createObjectURL(new Blob([bytes], { type: 'text/plain;charset=windows-1250' }));
+      omegaDownloadLink.href = omegaUrl;
+      omegaDownloadLink.download = `omega-prijemka-${today}-${supplier}.txt`;
+      omegaDownloadLink.textContent = `⬇ Stiahnuť omega-prijemka-${today}-${supplier}.txt`;
+      omegaDownloadLink.style.display = 'block';
+      const okBox2 = document.createElement('div');
+      okBox2.className = 'box ok';
+      okBox2.textContent = `Príjemka pripravená pre ${toReceive.length} položiek so známou skladovou kartou (sklad "Eshop").`;
+      omegaBoxes.appendChild(okBox2);
+    }
+    if (needsCard.length > 0) {
+      const wBox2 = document.createElement('div');
+      wBox2.className = 'box warn';
+      wBox2.innerHTML = `${toReceive.length === 0 ? 'Žiadna položka' : `${needsCard.length} položiek`} nemá známe číslo skladovej karty v Omege (databáza <code>data/omega-stock-cards.json</code>) — over v Omege ručne a číslo karty doplň do databázy: ` + needsCard.map((i) => i.name).join(', ');
+      omegaBoxes.appendChild(wBox2);
+    }
 
     resultBox.style.display = 'block';
   } catch (err) {

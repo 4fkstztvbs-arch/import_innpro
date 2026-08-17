@@ -239,7 +239,14 @@ async function main() {
   console.log(`CSV ulozene -> ${outPath}`);
 }
 
-main().catch((err) => {
-  console.error(`Chyba: ${err.message}`);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(`Chyba: ${err.message}`);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  extractRows, detectSupplier, SUPPLIER_PARSERS, SUPPLIER_LABELS,
+  loadFeedIndex, matchItem, isNonStock, normalize, toFloat,
+};

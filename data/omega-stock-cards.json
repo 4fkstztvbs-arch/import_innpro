@@ -1,0 +1,9 @@
+{
+  "_comment": "EAN -> cislo skladovej karty v Omege. Zdroj: krizova kontrola T02 exportu z Omegy (prijemka 14.8.2026, poskytnute mimo repozitara - obsahuje osobne udaje zakaznikov, preto sa neuklada do (verejneho) gitu) s povodnymi PDF fakturami dodavatelov (poradie a mnozstvo polozok sa zhodovalo 1:1, cim je EAN<->kod jednoznacne overeny). Rucne dopln dalsie zaznamy, ked pride dalsi T02 export z Omegy spolu so zdrojovou PDF fakturou.",
+  "8595697700217": { "kod": "002538", "nazov": "Nosič kol na tažné zařízení SIXTOL SX1014 E-BIKE 2", "dodavatel": "atos" },
+  "5901890028844": { "kod": "002539", "nazov": "Multimetr UNI-T UT195DS PRO Line", "dodavatel": "atos" },
+  "8591686204032": { "kod": "002540", "nazov": "Garvia 20403 Pistole zavlažovací kruhová 10 funkcí", "dodavatel": "atos" },
+  "4823016209139": { "kod": "002541", "nazov": "Ventilátor VENTS 100 MAVT s automat. žaluzií", "dodavatel": "atos" },
+  "6956362995680": { "kod": "002542", "nazov": "FF5-A Solar Lamp 63W", "dodavatel": "innpro" },
+  "4262533460287": { "kod": "002543", "nazov": "Ultimea Skywave X50 Soundbar", "dodavatel": "innpro" }
+}
