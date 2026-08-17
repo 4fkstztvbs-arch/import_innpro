@@ -20,13 +20,12 @@ const { XMLParser } = require('fast-xml-parser');
 
 const IN_PATH = process.argv[2] || path.join(__dirname, '..', 'data', 'stormware_invoices.xml');
 const OUT_PATH = process.argv[3] || path.join(__dirname, '..', 'output', 'omega-invoices.txt');
-const OUT_VYDAJKA_PATH = path.join(path.dirname(OUT_PATH), `${path.basename(OUT_PATH, '.txt')}-vydajka.txt`);
 
 // Omega cards API (cloudflare-worker-omega-cards/) - odtial sa zisti, akemu cislu skladovej karty
-// v sklade Eshop zodpoveda predavany produkt (podla Shoptet kodu), aby vydajka pri importe faktury
-// spravne odpisala z tejto karty (cislo karty v Omege NIE JE to iste ako Shoptet CODE).
+// v sklade Eshop zodpoveda predavany produkt (podla Shoptet kodu), aby sa na fakture spravne
+// vyplnilo "Kod polozky" (cislo karty v Omege NIE JE to iste ako Shoptet CODE). Vydajku zo skladu
+// pri editacii/ulozeni faktury generuje Omega sama - tento nastroj ju negeneruje.
 const OMEGA_CARDS_API_URL = process.env.OMEGA_CARDS_API_URL || 'https://omega-cards-api.dt7vy7byn2.workers.dev';
-const OMEGA_CARDS_API_KEY = process.env.OMEGA_CARDS_API_KEY || 'V77bC1yTE_ATf46jy_Xyx5efDgVj_BDm';
 
 // --- Údaje predávajúceho (konštantné, zistené zo vzorového exportu z Omegy) ---
 const SELLER = {
@@ -144,33 +143,13 @@ async function loadCardIndex() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const db = await res.json();
     for (const card of Object.values(db.eshop?.cards || {})) {
-      if (card.code) index.set(card.code, { kod: card.kod, nazov: card.nazov });
+      if (card.code) index.set(card.code, card.kod);
     }
   } catch (err) {
     console.warn(`  [!] Omega cards API nedostupne (${err.message}) - predavany tovar sa nespojazdni s kartou, over rucne v Omege`);
     index.apiError = err.message;
   }
   return index;
-}
-
-// Cislo dokladu vydajky sa pri TXT importe do Omegy NEDOPLNA automaticky (overene realnym testom -
-// bez neho vydajka ostane bez cisla a neprepoji sa s fakturou) - vlastny ciselny rad "Vydajky" v
-// sklade Eshop, spravovany rovnako ako cisla skladovych kariet (Omega cards API, POST /reserve-doklad).
-async function reserveVydajCisla(count) {
-  if (count < 1) return { cisla: [], error: null };
-  try {
-    const res = await fetch(`${OMEGA_CARDS_API_URL}/reserve-doklad`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-Api-Key': OMEGA_CARDS_API_KEY },
-      body: JSON.stringify({ kind: 'vydaj', count }),
-    });
-    const body = await res.json();
-    if (!res.ok) throw new Error(body.error || `HTTP ${res.status}`);
-    return { cisla: body.cisla, error: null };
-  } catch (err) {
-    console.warn(`  [!] Nepodarilo sa prideliť čísla dokladov výdajky (${err.message}) - výdajka bude bez čísla, doplň ručne v Omege`);
-    return { cisla: [], error: err.message };
-  }
 }
 
 function buildItemRow(item, cardIndex, warnings) {
@@ -183,9 +162,7 @@ function buildItemRow(item, cardIndex, warnings) {
   const unitPriceNet = toFloat(field(home, 'unitPrice'));
   const code = field(item, 'code');
   const stockIds = item.stockItem && item.stockItem.stockItem ? field(item.stockItem.stockItem, 'ids') : '';
-  const card = cardIndex.get(code) || cardIndex.get(stockIds) || null;
-  const cardCode = card ? card.kod : '';
-  const cardName = card ? card.nazov : '';
+  const cardCode = cardIndex.get(code) || cardIndex.get(stockIds) || '';
 
   let typ; // S = sluzba, K = skladova karta (tovar), V = volna polozka
   let serviceCode = '';
@@ -194,7 +171,7 @@ function buildItemRow(item, cardIndex, warnings) {
       typ = 'K';
     } else {
       typ = 'V'; // bez znamej karty v Eshope sa neda spravne odpisat - radsej volna polozka nez zla karta
-      warnings.push(`Produkt "${text}" (kod ${code || stockIds}) nema znamu kartu v sklade Eshop - vydajka sa NEODPISE zo skladu, over v Omege.`);
+      warnings.push(`Produkt "${text}" (kod ${code || stockIds}) nema znamu kartu v sklade Eshop - polozka bude ako volna (V) namiesto tovaru (K), pred ulozenim faktury v Omege priprav/priraď kartu rucne.`);
     }
   } else if (/^(SHIPPING|BILLING)/i.test(code)) {
     serviceCode = matchServiceCode(text);
@@ -256,99 +233,7 @@ function buildItemRow(item, cardIndex, warnings) {
   cols[53] = analytika;
   cols[54] = ''; cols[55] = ''; cols[56] = '';
   cols[57] = '0,0000';
-  return {
-    cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode,
-    typ, cardCode, cardName, text, quantity, unitPriceNet, unitPriceGross,
-  };
-}
-
-// ---------- T02 (vydajka zo skladu Eshop, generovana k predajnej fakture) ----------
-// Mapovanie stlpcov odvodene z realneho T02 exportu vydajky, ktoru pouzivatel rucne vytvoril
-// v Omege vyberom karty z katalogu (nie importom) - viď README pre kontext. DOLEZITE ZISTENIE:
-// T01 import faktury SAM OSEBE nevytvara skutocnu vazbu na skladovu kartu (aj ked "Kod polozky"
-// v UI vyzera spravne vyplneny), Omega sa preto pri ulozeni nepyta na vydajku. Treba preto
-// vygenerovat T02 vydaj SAMOSTATNE, s vazbou na cislo faktury (stlpec 18).
-function buildVydajkaHeaderRow(invoice, invoiceNumber, dokladCislo) {
-  const header = invoice.invoiceHeader || {};
-  const address = (header.partnerIdentity && header.partnerIdentity.address) || {};
-  const company = field(address, 'company');
-  const personName = field(address, 'name');
-  const partnerName = company || personName;
-  const ico = field(address, 'ico');
-  const street = field(address, 'street');
-  const zip = field(address, 'zip');
-  const city = field(address, 'city');
-  const dateIssue = dateToOmega(field(header, 'date'));
-
-  const cols = new Array(38).fill('');
-  cols[0] = 'R01';
-  cols[1] = 'Eshop';
-  cols[2] = dokladCislo || ''; // cislo dokladu vydajky - samostatny ciselny rad "Vydajky" v sklade Eshop (NIE cislo faktury), pridelene cez Omega cards API
-  cols[3] = 'V';
-  cols[4] = '11';
-  cols[5] = partnerName;
-  cols[6] = ico;
-  cols[7] = dateIssue;
-  cols[8] = 'PV';
-  cols[9] = 'V';
-  cols[10] = ''; // interne cislo partnera v Omege - neznamy vopred (Omega ho dohlada podla vazby na fakturu)
-  cols[11] = ''; cols[12] = ''; cols[13] = '';
-  cols[14] = street;
-  cols[15] = zip;
-  cols[16] = city;
-  cols[17] = '';
-  cols[18] = invoiceNumber; // vazba na uz naimportovanu fakturu (T01)
-  cols[19] = SELLER.name;
-  cols[20] = 'EUR';
-  cols[21] = '1';
-  cols[22] = '1';
-  cols[23] = '0.0000';
-  cols[24] = '0.0000';
-  cols[25] = '0.0000';
-  cols[26] = '1';
-  cols[27] = '1';
-  cols[28] = nowTime();
-  cols[29] = '-1';
-  cols[30] = '';
-  cols[31] = '0';
-  cols[32] = ''; // interne cislo zakaznika v Omege - neznamy vopred
-  cols[33] = 'VT';
-  cols[34] = '-3';
-  cols[35] = '1';
-  cols[36] = '0';
-  cols[37] = '';
-  return cols;
-}
-function buildVydajkaItemRow(text, quantity, unitPriceNet, unitPriceGross, cardCode) {
-  const cols = new Array(30).fill('');
-  const qtyOut = String(-Math.abs(quantity));
-  cols[0] = 'R02';
-  cols[1] = text;
-  cols[2] = qtyOut;
-  cols[3] = nat(unitPriceNet);
-  cols[4] = cardCode;
-  cols[5] = '0';
-  cols[6] = '0.0000';
-  cols[7] = nat(unitPriceNet);
-  cols[8] = '0';
-  cols[9] = '"ks"';
-  cols[10] = qtyOut;
-  cols[11] = '';
-  cols[12] = '-2';
-  cols[13] = '3';
-  cols[14] = '2';
-  cols[15] = '-2';
-  cols[16] = nat(unitPriceGross);
-  cols[17] = '0';
-  cols[18] = nat(unitPriceGross);
-  cols[19] = '0';
-  cols[20] = '0';
-  cols[21] = 'X'; cols[22] = '(Nedefinované)';
-  cols[23] = 'X'; cols[24] = '(Nedefinované)';
-  cols[25] = 'X'; cols[26] = '(Nedefinované)';
-  cols[27] = 'X'; cols[28] = '(Nedefinované)';
-  cols[29] = '';
-  return cols;
+  return { cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode };
 }
 
 function buildHeaderRow(invoice, itemRows, totals) {
@@ -405,8 +290,8 @@ function buildHeaderRow(invoice, itemRows, totals) {
   cols[15] = '0';
   cols[16] = nat(totalGross);
   cols[17] = '0';
-  cols[18] = 'OF';
-  cols[19] = 'OF';
+  cols[18] = 'OFE'; // ciselny rad pre faktury importovane zo Shoptetu (predtym "OF", zmenene v Omege)
+  cols[19] = 'OFE';
   cols[20] = ''; // cislo v rade - ponechane prazdne, nech Omega prideli podla radu 0008
   cols[21] = ''; cols[22] = ''; cols[23] = '';
   cols[24] = street;
@@ -499,17 +384,6 @@ function convertInvoice(invoice, cardIndex, warnings) {
   const headerCols = buildHeaderRow(invoice, itemRows, totals);
   const lines = [headerCols.join('\t')];
   for (const r of itemRows) lines.push(r.cols.join('\t'));
-
-  const stockItems = itemRows.filter((r) => r.typ === 'K');
-  const invoiceNumber = field((invoice.invoiceHeader || {}).number, 'numberRequested');
-  return { lines, stockItems, invoiceNumber };
-}
-
-function buildVydajkaLines(invoice, invoiceNumber, stockItems, dokladCislo) {
-  const lines = [buildVydajkaHeaderRow(invoice, invoiceNumber, dokladCislo).join('\t')];
-  for (const r of stockItems) {
-    lines.push(buildVydajkaItemRow(r.cardName || r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join('\t'));
-  }
   return lines;
 }
 
@@ -523,39 +397,19 @@ async function main() {
   if (cardIndex.apiError) {
     warnings.push(
       `Nepodarilo sa spojit s databazou skladovych kariet (${cardIndex.apiError}). ` +
-      `Vsetky polozky nizsie su preto oznacene ako nezname a NEBUDE vytvorena vydajka zo skladu! ` +
+      `Vsetky polozky nizsie su preto oznacene ako nezname, "Kod polozky" ostane prazdny. ` +
       `Skontroluj internetove pripojenie a skus konverziu znova.`
     );
   }
   const lines = ['R00\tT01'];
-  const vydajCandidates = [];
   for (const invoice of invoices) {
-    const result = convertInvoice(invoice, cardIndex, warnings);
-    lines.push(...result.lines);
-    if (result.stockItems.length) vydajCandidates.push({ invoice, ...result });
+    lines.push(...convertInvoice(invoice, cardIndex, warnings));
   }
 
   const outText = lines.join('\r\n') + '\r\n';
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   fs.writeFileSync(OUT_PATH, iconv.encode(outText, 'win1250'));
   console.log(`Hotovo -> ${OUT_PATH} (Windows-1250, ${invoices.length} faktur)`);
-
-  if (vydajCandidates.length) {
-    const { cisla, error } = await reserveVydajCisla(vydajCandidates.length);
-    if (error) {
-      warnings.push(`Nepodarilo sa prideliť čísla dokladov výdajky (${error}) - výdajka bude bez čísla, doplň ho ručne v Omege pred importom.`);
-    }
-    const vydajkaLines = [];
-    vydajCandidates.forEach((result, i) => {
-      const { invoice, invoiceNumber, stockItems } = result;
-      vydajkaLines.push(...buildVydajkaLines(invoice, invoiceNumber, stockItems, cisla[i]));
-    });
-    const vydajkaText = ['R00\tT02', ...vydajkaLines].join('\r\n') + '\r\n';
-    fs.writeFileSync(OUT_VYDAJKA_PATH, iconv.encode(vydajkaText, 'win1250'));
-    console.log(`Vydajka ulozena -> ${OUT_VYDAJKA_PATH} (naimportuj v Omege AZ PO fakture T01)`);
-  } else {
-    console.log('Ziadna polozka so znamou kartou - vydajka sa negeneruje.');
-  }
 
   if (warnings.length) {
     console.warn(`\nUpozornenia (${warnings.length}):`);
