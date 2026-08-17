@@ -21,6 +21,11 @@ const { XMLParser } = require('fast-xml-parser');
 const IN_PATH = process.argv[2] || path.join(__dirname, '..', 'data', 'stormware_invoices.xml');
 const OUT_PATH = process.argv[3] || path.join(__dirname, '..', 'output', 'omega-invoices.txt');
 
+// Omega cards API (cloudflare-worker-omega-cards/) - odtial sa zisti, akemu cislu skladovej karty
+// v sklade Eshop zodpoveda predavany produkt (podla Shoptet kodu), aby vydajka pri importe faktury
+// spravne odpisala z tejto karty (cislo karty v Omege NIE JE to iste ako Shoptet CODE).
+const OMEGA_CARDS_API_URL = process.env.OMEGA_CARDS_API_URL || 'https://omega-cards-api.dt7vy7byn2.workers.dev';
+
 // --- Údaje predávajúceho (konštantné, zistené zo vzorového exportu z Omegy) ---
 const SELLER = {
   name: 'Trokšiar .',
@@ -108,7 +113,23 @@ function extractInvoices(xmlPath) {
   return items.map((it) => it.invoice).filter(Boolean);
 }
 
-function buildItemRow(item) {
+// Shoptet CODE -> cislo skladovej karty v Omege (sklad Eshop) - z Omega cards API.
+async function loadCardIndex() {
+  const index = new Map();
+  try {
+    const res = await fetch(`${OMEGA_CARDS_API_URL}/state`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const db = await res.json();
+    for (const card of Object.values(db.eshop?.cards || {})) {
+      if (card.code) index.set(card.code, card.kod);
+    }
+  } catch (err) {
+    console.warn(`  [!] Omega cards API nedostupne (${err.message}) - predavany tovar sa nespojazdni s kartou, over rucne v Omege`);
+  }
+  return index;
+}
+
+function buildItemRow(item, cardIndex, warnings) {
   const text = field(item, 'text');
   const quantity = toFloat(field(item, 'quantity')) || 1;
   const unit = field(item, 'unit');
@@ -118,10 +139,17 @@ function buildItemRow(item) {
   const unitPriceNet = toFloat(field(home, 'unitPrice'));
   const code = field(item, 'code');
   const stockIds = item.stockItem && item.stockItem.stockItem ? field(item.stockItem.stockItem, 'ids') : '';
+  const cardCode = cardIndex.get(code) || cardIndex.get(stockIds) || '';
 
   let typ; // S = sluzba, K = skladova karta (tovar), V = volna polozka
-  if (stockIds) typ = 'K';
-  else if (/^(SHIPPING|BILLING)/i.test(code)) typ = 'S';
+  if (stockIds) {
+    if (cardCode) {
+      typ = 'K';
+    } else {
+      typ = 'V'; // bez znamej karty v Eshope sa neda spravne odpisat - radsej volna polozka nez zla karta
+      warnings.push(`Produkt "${text}" (kod ${code || stockIds}) nema znamu kartu v sklade Eshop - vydajka sa NEODPISE zo skladu, over v Omege.`);
+    }
+  } else if (/^(SHIPPING|BILLING)/i.test(code)) typ = 'S';
   else typ = 'V';
 
   const unitPriceGross = round2(unitPriceNet * (1 + rate));
@@ -146,7 +174,7 @@ function buildItemRow(item) {
   cols[14] = typ === 'V' ? '' : '001';
   cols[15] = '';
   cols[16] = '';
-  cols[17] = typ === 'V' ? '' : (stockIds || code);
+  cols[17] = typ === 'K' ? cardCode : '';
   cols[18] = '';
   cols[19] = '';
   cols[20] = 'X'; cols[21] = '(Nedefinované)';
@@ -301,7 +329,7 @@ function buildHeaderRow(invoice, itemRows, totals) {
   return cols;
 }
 
-function convertInvoice(invoice) {
+function convertInvoice(invoice, cardIndex, warnings) {
   const detail = invoice.invoiceDetail || {};
   let rawItems = detail.invoiceItem || [];
   if (!Array.isArray(rawItems)) rawItems = [rawItems];
@@ -309,7 +337,7 @@ function convertInvoice(invoice) {
   const itemRows = [];
   const totals = { high: 0, highVat: 0, low: 0, lowVat: 0, third: 0, thirdVat: 0, none: 0 };
   for (const item of rawItems) {
-    const built = buildItemRow(item);
+    const built = buildItemRow(item, cardIndex, warnings);
     itemRows.push(built);
     const home = item.homeCurrency || {};
     const lineNet = toFloat(field(home, 'price')) || built.lineNetTotal;
@@ -326,20 +354,29 @@ function convertInvoice(invoice) {
   return lines;
 }
 
-function main() {
+async function main() {
   console.log(`Nacitavam ${IN_PATH} ...`);
   const invoices = extractInvoices(IN_PATH);
   console.log(`Najdenych faktur: ${invoices.length}`);
+  const cardIndex = await loadCardIndex();
 
+  const warnings = [];
   const lines = ['R00\tT01'];
   for (const invoice of invoices) {
-    lines.push(...convertInvoice(invoice));
+    lines.push(...convertInvoice(invoice, cardIndex, warnings));
   }
 
   const outText = lines.join('\r\n') + '\r\n';
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   fs.writeFileSync(OUT_PATH, iconv.encode(outText, 'win1250'));
   console.log(`Hotovo -> ${OUT_PATH} (Windows-1250, ${invoices.length} faktur)`);
+  if (warnings.length) {
+    console.warn(`\nUpozornenia (${warnings.length}):`);
+    for (const w of warnings) console.warn(`  [!] ${w}`);
+  }
 }
 
-main();
+main().catch((err) => {
+  console.error(`Chyba: ${err.message}`);
+  process.exit(1);
+});
