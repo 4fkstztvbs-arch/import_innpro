@@ -19,7 +19,7 @@
 // oba subory su samostatne, kombinovanie T01/T02/T03 v jednom subore nie je overene.
 //
 // Pouzitie:
-//   node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro]
+//   node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys]
 
 const fs = require('fs');
 const path = require('path');
@@ -39,7 +39,8 @@ const MARKUP = 1.15; // rovnaka prirazka ako pri ostatnych Shoptet feedoch tohto
 const VAT_RATE = 0.23;
 
 // Dodavatelia tak, ako su zaevidovani v Omege (partnerske cislo, IC, adresa) - zistene z realneho
-// T02 exportu. K+B tam zatial nie je zastupene (chyba prijemka od K+B na overenie).
+// T02 exportu. K+B a BaSys tam zatial nie su zastupene (chyba prijemka na overenie) - partnerId
+// zostava prazdny, Omega si partnera pri importe dohlada/zalozi sama podla ostatnych udajov.
 const SUPPLIER_OMEGA_IDENTITY = {
   atos: {
     name: 'ATOS spol. s r.o.', ico: '18055761', partnerId: '0002',
@@ -52,6 +53,10 @@ const SUPPLIER_OMEGA_IDENTITY = {
   kb: {
     name: 'K+B Progres, a.s., organizační složka SK', ico: '', partnerId: '',
     street: '', zip: '', city: '', label: 'K+B',
+  },
+  basys: {
+    name: 'BaSys CS, s.r.o.', ico: '49615581', partnerId: '',
+    street: 'Sodomkova 1478/8', zip: '102 00', city: 'Praha 10', label: 'BaSys',
   },
 };
 
@@ -213,13 +218,19 @@ function extractInvoiceNumber(rows, supplier) {
       if (m) return m[1];
     }
   }
+  if (supplier === 'basys') {
+    for (const line of flatRows) {
+      const m = line.match(/variabiln[íi]\s*symbol:?\s*(\d{4,})/i);
+      if (m) return m[1];
+    }
+  }
   return '';
 }
 
 async function main() {
   const pdfPath = process.argv[2];
   if (!pdfPath) {
-    console.error('Pouzitie: node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro]');
+    console.error('Pouzitie: node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys]');
     process.exit(1);
   }
   const supplierArg = process.argv.find((a) => a.startsWith('--supplier='));
@@ -230,7 +241,7 @@ async function main() {
 
   if (!supplier) {
     supplier = detectSupplier(rows);
-    if (!supplier) { console.error('Nepodarilo sa rozpoznat dodavatela. Pouzi --supplier=atos|kb|innpro'); process.exit(1); }
+    if (!supplier) { console.error('Nepodarilo sa rozpoznat dodavatela. Pouzi --supplier=atos|kb|innpro|basys'); process.exit(1); }
     console.log(`Rozpoznany dodavatel: ${SUPPLIER_LABELS[supplier]}`);
   }
   const parser = SUPPLIER_PARSERS[supplier];

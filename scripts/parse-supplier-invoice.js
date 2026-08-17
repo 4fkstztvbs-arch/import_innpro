@@ -4,7 +4,7 @@
 // v Shoptete naskladnit (Produkty -> Sklad -> Naskladnenie).
 //
 // Pouzitie:
-//   node scripts/parse-supplier-invoice.js <faktura.pdf> [--supplier=atos|kb|innpro]
+//   node scripts/parse-supplier-invoice.js <faktura.pdf> [--supplier=atos|kb|innpro|basys]
 //
 // Bez --supplier sa dodavatel skusi rozpoznat automaticky podla textu v hlavicke PDF.
 // Vystup: tabulka do konzoly + CSV subor output/naskladnenie-<datum>-<dodavatel>.csv
@@ -26,6 +26,7 @@ const FEED_FILES = {
   atos: path.join(__dirname, '..', 'output', 'atos.xml'),
   kb: path.join(__dirname, '..', 'output', 'kb.xml'),
   innpro: path.join(__dirname, '..', 'output', 'innpro.xml'),
+  basys: path.join(__dirname, '..', 'output', 'basys.xml'),
 };
 
 // Riadky, ktore nie su fyzicky tovar (poplatky, doprava, dobierka...) - nenaskladnujeme ich.
@@ -50,6 +51,11 @@ function toFloat(s) {
   if (s === undefined || s === null) return 0;
   const v = parseFloat(String(s).replace(/\s/g, '').replace(',', '.'));
   return Number.isNaN(v) ? 0 : v;
+}
+// EAN-13 sa niekedy uvadza aj bez uvodnej nuly (napr. skonvertovany z UPC-A, alebo strateny pri inom
+// systeme) - pri parovani preto porovnavame bez uvodnych nul, aby "017817856560" naslo "17817856560".
+function normalizeEan(ean) {
+  return String(ean || '').replace(/^0+/, '');
 }
 
 // ---------- nacitanie PDF a rekonstrukcia riadkov (zoskupenie textovych fragmentov podla Y) ----------
@@ -84,6 +90,7 @@ function detectSupplier(rows) {
   if (text.includes('atos spol')) return 'atos';
   if (text.includes('k+b progres')) return 'kb';
   if (text.includes('innpro robert')) return 'innpro';
+  if (text.includes('basys cs')) return 'basys';
   return null;
 }
 
@@ -141,8 +148,35 @@ function parseInnpro(rows) {
   return items;
 }
 
-const SUPPLIER_PARSERS = { atos: parseAtos, kb: parseKb, innpro: parseInnpro };
-const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro' };
+// BASYS pouziva "." ako oddelovac tisicok (napr. "1.800,00" = 1800.00) - bezny toFloat() by to
+// zle sparsoval ("1.800.00" po nahradeni ciarky -> parseFloat zastavi na druhej bodke -> 1.8).
+function toFloatEuro(s) {
+  if (s === undefined || s === null) return 0;
+  const v = parseFloat(String(s).replace(/\s/g, '').replace(/\./g, '').replace(',', '.'));
+  return Number.isNaN(v) ? 0 : v;
+}
+
+// ---------- BASYS: polozka na 1 riadku (kod/nazov/mnozstvo/cena), EAN na nasledujucom riadku ----------
+function parseBasys(rows) {
+  const items = [];
+  for (let i = 0; i < rows.length; i++) {
+    const cells = rows[i];
+    // riadok polozky: kod, nazov, mnozstvo, jednotka, sklad, JC bez DPH, sleva %, JC po slevě, celkom bez DPH, mena
+    if (cells.length < 9) continue;
+    if (!/^(pc\.|ks|kus)$/i.test(cells[3] || '')) continue; // stlpec "jednotka" rozlisi riadok polozky od ostatnych
+    const code = cells[0];
+    const name = cells[1];
+    const qty = toFloatEuro(cells[2]);
+    const unitPriceNet = toFloatEuro(cells[7]); // "JC po slevě" - cena po zlave
+    const nextRow = rows[i + 1] || [];
+    const ean = /^\d{8,14}$/.test(nextRow[0]) ? nextRow[0] : '';
+    items.push({ code, ean, name, quantity: qty || 1, unitPriceNet });
+  }
+  return items;
+}
+
+const SUPPLIER_PARSERS = { atos: parseAtos, kb: parseKb, innpro: parseInnpro, basys: parseBasys };
+const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro', basys: 'BaSys' };
 
 // ---------- nacitanie existujucich Shoptet feedov (EAN -> CODE, NAME -> CODE) ----------
 function loadFeedIndex(supplier) {
@@ -162,14 +196,14 @@ function loadFeedIndex(supplier) {
     const code = typeof it.CODE === 'object' ? it.CODE['#text'] : it.CODE;
     const ean = typeof it.EAN === 'object' ? it.EAN['#text'] : it.EAN;
     const name = typeof it.NAME === 'object' ? it.NAME['#text'] : it.NAME;
-    if (ean) byEan.set(String(ean).trim(), { code: String(code || '').trim(), name });
+    if (ean) byEan.set(normalizeEan(ean), { code: String(code || '').trim(), name });
     if (name) byName.set(normalize(name), { code: String(code || '').trim(), name });
   }
   return { byEan, byName };
 }
 
 function matchItem(item, index) {
-  if (item.ean && index.byEan.has(item.ean)) return { ...index.byEan.get(item.ean), matchedBy: 'EAN' };
+  if (item.ean && index.byEan.has(normalizeEan(item.ean))) return { ...index.byEan.get(normalizeEan(item.ean)), matchedBy: 'EAN' };
   const byName = index.byName.get(normalize(item.name));
   if (byName) return { ...byName, matchedBy: 'nazov' };
   return null;
@@ -178,7 +212,7 @@ function matchItem(item, index) {
 async function main() {
   const pdfPath = process.argv[2];
   if (!pdfPath) {
-    console.error('Pouzitie: node scripts/parse-supplier-invoice.js <faktura.pdf> [--supplier=atos|kb|innpro]');
+    console.error('Pouzitie: node scripts/parse-supplier-invoice.js <faktura.pdf> [--supplier=atos|kb|innpro|basys]');
     process.exit(1);
   }
   const supplierArg = process.argv.find((a) => a.startsWith('--supplier='));
@@ -190,7 +224,7 @@ async function main() {
   if (!supplier) {
     supplier = detectSupplier(rows);
     if (!supplier) {
-      console.error('Nepodarilo sa automaticky rozpoznat dodavatela. Pouzi --supplier=atos|kb|innpro');
+      console.error('Nepodarilo sa automaticky rozpoznat dodavatela. Pouzi --supplier=atos|kb|innpro|basys');
       process.exit(1);
     }
     console.log(`Rozpoznany dodavatel: ${SUPPLIER_LABELS[supplier]}`);
@@ -248,5 +282,5 @@ if (require.main === module) {
 
 module.exports = {
   extractRows, detectSupplier, SUPPLIER_PARSERS, SUPPLIER_LABELS,
-  loadFeedIndex, matchItem, isNonStock, normalize, toFloat,
+  loadFeedIndex, matchItem, isNonStock, normalize, normalizeEan, toFloat,
 };
