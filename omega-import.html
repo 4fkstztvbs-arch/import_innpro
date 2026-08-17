@@ -206,6 +206,11 @@ function nowTime() {
   return `${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
 }
 
+// Omega cards API (cloudflare-worker-omega-cards/) - odtial sa zisti, akemu cislu skladovej karty
+// v sklade Eshop zodpoveda predavany produkt (podla Shoptet kodu), aby vydajka pri importe faktury
+// spravne odpisala z tejto karty.
+const OMEGA_CARDS_API_URL = "https://omega-cards-api.dt7vy7byn2.workers.dev";
+
 // ---------- konstanty predavajuceho ----------
 const SELLER = {
   name: "Trokšiar .",
@@ -250,7 +255,7 @@ function extractInvoices(xmlText) {
   return invoices;
 }
 
-function buildItemRow(item, warnings) {
+function buildItemRow(item, warnings, cardIndex) {
   const t = text(item, "text");
   const quantity = toFloat(text(item, "quantity")) || 1;
   const unit = text(item, "unit");
@@ -261,10 +266,17 @@ function buildItemRow(item, warnings) {
   const code = text(item, "code");
   const stockItemEl = child(item, "stockItem");
   const stockIds = stockItemEl ? text(child(stockItemEl, "stockItem"), "ids") : "";
+  const cardCode = cardIndex.get(code) || cardIndex.get(stockIds) || "";
 
   let typ;
-  if (stockIds) typ = "K";
-  else if (/^(SHIPPING|BILLING)/i.test(code)) typ = "S";
+  if (stockIds) {
+    if (cardCode) {
+      typ = "K";
+    } else {
+      typ = "V"; // bez znamej karty v Eshope sa neda spravne odpisat - radsej volna polozka nez zla karta
+      warnings.push(`Produkt "${t}" (kód ${code || stockIds}) nemá známu kartu v sklade Eshop — výdajka sa NEODPÍŠE zo skladu, over v Omege.`);
+    }
+  } else if (/^(SHIPPING|BILLING)/i.test(code)) typ = "S";
   else typ = "V";
 
   const unitPriceGross = round2(unitPriceNet * (1 + rate));
@@ -288,7 +300,7 @@ function buildItemRow(item, warnings) {
   cols[14] = typ === "V" ? "" : "001";
   cols[15] = "";
   cols[16] = "";
-  cols[17] = typ === "V" ? "" : (stockIds || code);
+  cols[17] = typ === "K" ? cardCode : "";
   cols[18] = "";
   cols[19] = "";
   cols[20] = "X"; cols[21] = "(Nedefinované)";
@@ -440,14 +452,14 @@ function buildHeaderRow(invoice, itemRows, totals, warnings) {
   return { cols, invoiceNumber, partnerName, totalGross };
 }
 
-function convertInvoice(invoice, warnings) {
+function convertInvoice(invoice, warnings, cardIndex) {
   const detail = child(invoice, "invoiceDetail");
   const rawItems = children(detail, "invoiceItem");
 
   const itemRows = [];
   const totals = { high: 0, highVat: 0, low: 0, lowVat: 0, third: 0, thirdVat: 0, none: 0 };
   for (const item of rawItems) {
-    const built = buildItemRow(item, warnings);
+    const built = buildItemRow(item, warnings, cardIndex);
     itemRows.push(built);
     const home = child(item, "homeCurrency");
     const lineNet = toFloat(text(home, "price")) || built.lineNetTotal;
@@ -464,15 +476,31 @@ function convertInvoice(invoice, warnings) {
   return { lines, invoiceNumber: headerInfo.invoiceNumber, partnerName: headerInfo.partnerName, totalGross: headerInfo.totalGross };
 }
 
-function convertXml(xmlText) {
+async function loadCardIndex() {
+  const index = new Map();
+  try {
+    const res = await fetch(OMEGA_CARDS_API_URL + "/state");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const db = await res.json();
+    for (const card of Object.values((db.eshop && db.eshop.cards) || {})) {
+      if (card.code) index.set(card.code, card.kod);
+    }
+  } catch (err) {
+    console.warn("Omega cards API nedostupné:", err.message);
+  }
+  return index;
+}
+
+async function convertXml(xmlText) {
   const warnings = [];
   const invoices = extractInvoices(xmlText);
   if (invoices.length === 0) throw new Error("V súbore sa nenašla žiadna faktúra.");
+  const cardIndex = await loadCardIndex();
 
   const lines = ["R00\tT01"];
   const summary = [];
   for (const invoice of invoices) {
-    const res = convertInvoice(invoice, warnings);
+    const res = convertInvoice(invoice, warnings, cardIndex);
     lines.push(...res.lines);
     summary.push({ number: res.invoiceNumber, partner: res.partnerName, total: res.totalGross });
   }
@@ -514,7 +542,7 @@ convertBtn.addEventListener("click", async () => {
   resultBox.style.display = "none";
   try {
     const xmlText = await selectedFile.text();
-    const { bytes, summary, warnings } = convertXml(xmlText);
+    const { bytes, summary, warnings } = await convertXml(xmlText);
 
     const okBox = document.createElement("div");
     okBox.className = "box ok";

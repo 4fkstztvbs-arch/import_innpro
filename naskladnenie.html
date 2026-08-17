@@ -564,7 +564,10 @@ convertBtn.addEventListener('click', async () => {
       let apiError = null;
       if (physicalItems.length > 0) {
         try {
-          assigned = await reserveOmegaCards(physicalItems.map((i) => ({ ean: i.ean, name: i.name, supplier })));
+          assigned = await reserveOmegaCards(physicalItems.map((i) => {
+            const match = matchItem(i, index);
+            return { ean: i.ean, name: i.name, supplier, code: match ? match.code : '' };
+          }));
         } catch (err) {
           apiError = err.message;
         }

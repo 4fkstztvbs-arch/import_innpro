@@ -25,7 +25,7 @@ const fs = require('fs');
 const path = require('path');
 const iconv = require('iconv-lite');
 const {
-  extractRows, detectSupplier, SUPPLIER_PARSERS, SUPPLIER_LABELS, isNonStock,
+  extractRows, detectSupplier, SUPPLIER_PARSERS, SUPPLIER_LABELS, isNonStock, loadFeedIndex, matchItem,
 } = require('./parse-supplier-invoice');
 
 // Omega cards API (cloudflare-worker-omega-cards/) - jediny zdroj pravdy pre cisla skladovych
@@ -238,6 +238,7 @@ async function main() {
 
   const rawItems = parser(rows);
   const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
+  const feedIndex = loadFeedIndex(supplier);
 
   const invoiceNumber = extractInvoiceNumber(rows, supplier);
 
@@ -258,7 +259,10 @@ async function main() {
   const toReceive = [];
   const newCards = [];
   if (physicalItems.length > 0) {
-    const assigned = await reserveOmegaCards(physicalItems.map((i) => ({ ean: i.ean, name: i.name, supplier })));
+    const assigned = await reserveOmegaCards(physicalItems.map((i) => {
+      const match = matchItem(i, feedIndex);
+      return { ean: i.ean, name: i.name, supplier, code: match ? match.code : '' };
+    }));
     for (const item of physicalItems) {
       const card = assigned[item.ean];
       if (!card) continue;

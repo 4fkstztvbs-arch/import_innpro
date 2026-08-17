@@ -4,10 +4,14 @@
 // aktualizovanu databazu po kazdom pouziti.
 //
 // GET  /state              -> aktualny stav (verejne citatelne, neobsahuje citlive udaje)
-// POST /reserve             -> { items: [{ean, name, supplier}, ...] }
+// POST /reserve             -> { items: [{ean, name, supplier, code}, ...] }
 //                              pre kazdu polozku bez existujuceho zaznamu pridel'uje dalsie volne
 //                              cislo karty (eshop.nextCardNumber), commitne zmenu do repozitara a
-//                              vrati mapovanie ean -> {kod, nazov, dodavatel, isNew}
+//                              vrati mapovanie ean -> {kod, nazov, dodavatel, code, isNew}
+//                              "code" je Shoptet SKU (CODE z produktoveho feedu) - pouziva ho
+//                              transform-omega-invoices.js/omega-import.html na spatne najdenie
+//                              cisla karty pri vystavovani predajnej faktury (aby sa vydajka
+//                              spravne odpisala z konkretnej karty v Eshope).
 //                              vyzaduje hlavicku X-Api-Key (zdielany tajny kluc, viz secrets nizsie)
 
 const FILE_PATH = 'data/omega-stock-cards.json';
@@ -55,11 +59,15 @@ async function reserveCards(env, items, attempt = 0) {
     let card = db.eshop.cards[item.ean];
     let isNew = false;
     if (!card) {
-      card = { kod: String(db.eshop.nextCardNumber), nazov: item.name, dodavatel: item.supplier || '' };
+      card = { kod: String(db.eshop.nextCardNumber), nazov: item.name, dodavatel: item.supplier || '', code: item.code || '' };
       db.eshop.cards[item.ean] = card;
       db.eshop.nextCardNumber += 1;
       changed = true;
       isNew = true;
+    } else if (item.code && !card.code) {
+      // dobackfillovanie Shoptet kodu na starsie zaznamy, ktore ho este nemali
+      card.code = item.code;
+      changed = true;
     }
     assigned[item.ean] = { ...card, isNew };
   }
