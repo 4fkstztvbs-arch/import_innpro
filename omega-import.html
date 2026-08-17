@@ -130,6 +130,7 @@
       <div id="boxes"></div>
       <div id="tableWrap"></div>
       <a class="download" id="downloadLink" download>⬇ Stiahnuť omega-import.txt</a>
+      <a class="download" id="downloadVydajkaLink" download style="display:none">⬇ Stiahnuť výdajku (T02)</a>
     </div>
   </div>
 
@@ -354,7 +355,99 @@ function buildItemRow(item, warnings, cardIndex) {
   cols[53] = "D2";
   cols[54] = ""; cols[55] = ""; cols[56] = "";
   cols[57] = "0,0000";
-  return { cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode };
+  return {
+    cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode,
+    typ, cardCode, text: t, quantity, unitPriceNet, unitPriceGross,
+  };
+}
+
+// ---------- T02 (vydajka zo skladu Eshop, generovana k predajnej fakture) ----------
+// Mapovanie stlpcov odvodene z realneho T02 exportu vydajky vytvorenej rucne v Omege (vyber karty
+// z katalogu). DOLEZITE ZISTENIE: T01 import faktury SAM OSEBE nevytvara skutocnu vazbu na
+// skladovu kartu (aj ked "Kód položky" v UI vyzera spravne vyplneny) - Omega sa preto pri ulozeni
+// nepyta na vydajku. Treba preto vygenerovat T02 vydaj SAMOSTATNE, s vazbou na cislo faktury (col 18).
+function buildVydajkaHeaderRow(invoice, invoiceNumber) {
+  const header = child(invoice, "invoiceHeader");
+  const partnerIdentity = child(header, "partnerIdentity");
+  const address = child(partnerIdentity, "address");
+  const company = text(address, "company");
+  const personName = text(address, "name");
+  const partnerName = company || personName;
+  const ico = text(address, "ico");
+  const street = text(address, "street");
+  const zip = text(address, "zip");
+  const city = text(address, "city");
+  const dateIssue = dateToOmega(text(header, "date"));
+
+  const cols = new Array(38).fill("");
+  cols[0] = "R01";
+  cols[1] = "Eshop";
+  cols[2] = ""; // cislo dokladu vydajky - necha sa na Omegu (auto-cislovanie)
+  cols[3] = "V";
+  cols[4] = "11";
+  cols[5] = partnerName;
+  cols[6] = ico;
+  cols[7] = dateIssue;
+  cols[8] = "PV";
+  cols[9] = "V";
+  cols[10] = ""; // interne cislo partnera v Omege - neznamy vopred
+  cols[11] = ""; cols[12] = ""; cols[13] = "";
+  cols[14] = street;
+  cols[15] = zip;
+  cols[16] = city;
+  cols[17] = "";
+  cols[18] = invoiceNumber; // vazba na uz naimportovanu fakturu (T01)
+  cols[19] = SELLER.name;
+  cols[20] = "EUR";
+  cols[21] = "1";
+  cols[22] = "1";
+  cols[23] = "0.0000";
+  cols[24] = "0.0000";
+  cols[25] = "0.0000";
+  cols[26] = "1";
+  cols[27] = "1";
+  cols[28] = nowTime();
+  cols[29] = "-1";
+  cols[30] = "";
+  cols[31] = "0";
+  cols[32] = ""; // interne cislo zakaznika v Omege - neznamy vopred
+  cols[33] = "VT";
+  cols[34] = "-3";
+  cols[35] = "1";
+  cols[36] = "0";
+  cols[37] = "";
+  return cols;
+}
+function buildVydajkaItemRow(itemText, quantity, unitPriceNet, unitPriceGross, cardCode) {
+  const cols = new Array(30).fill("");
+  const qtyOut = String(-Math.abs(quantity));
+  cols[0] = "R02";
+  cols[1] = itemText;
+  cols[2] = qtyOut;
+  cols[3] = nat(unitPriceNet);
+  cols[4] = cardCode;
+  cols[5] = "0";
+  cols[6] = "0.0000";
+  cols[7] = nat(unitPriceNet);
+  cols[8] = "0";
+  cols[9] = '"ks"';
+  cols[10] = qtyOut;
+  cols[11] = "";
+  cols[12] = "-2";
+  cols[13] = "3";
+  cols[14] = "2";
+  cols[15] = "-2";
+  cols[16] = nat(unitPriceGross);
+  cols[17] = "0";
+  cols[18] = nat(unitPriceGross);
+  cols[19] = "0";
+  cols[20] = "0";
+  cols[21] = "X"; cols[22] = "(Nedefinované)";
+  cols[23] = "X"; cols[24] = "(Nedefinované)";
+  cols[25] = "X"; cols[26] = "(Nedefinované)";
+  cols[27] = "X"; cols[28] = "(Nedefinované)";
+  cols[29] = "";
+  return cols;
 }
 
 function buildHeaderRow(invoice, itemRows, totals, warnings) {
@@ -501,7 +594,16 @@ function convertInvoice(invoice, warnings, cardIndex) {
   const headerInfo = buildHeaderRow(invoice, itemRows, totals, warnings);
   const lines = [headerInfo.cols.join("\t")];
   for (const r of itemRows) lines.push(r.cols.join("\t"));
-  return { lines, invoiceNumber: headerInfo.invoiceNumber, partnerName: headerInfo.partnerName, totalGross: headerInfo.totalGross };
+
+  const stockItems = itemRows.filter((r) => r.typ === "K");
+  let vydajkaLines = [];
+  if (stockItems.length > 0) {
+    vydajkaLines = [buildVydajkaHeaderRow(invoice, headerInfo.invoiceNumber).join("\t")];
+    for (const r of stockItems) {
+      vydajkaLines.push(buildVydajkaItemRow(r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join("\t"));
+    }
+  }
+  return { lines, vydajkaLines, invoiceNumber: headerInfo.invoiceNumber, partnerName: headerInfo.partnerName, totalGross: headerInfo.totalGross };
 }
 
 async function loadCardIndex() {
@@ -535,16 +637,24 @@ async function convertXml(xmlText) {
   }
 
   const lines = ["R00\tT01"];
+  const vydajkaLines = [];
   const summary = [];
   for (const invoice of invoices) {
     const res = convertInvoice(invoice, warnings, cardIndex);
     lines.push(...res.lines);
+    if (res.vydajkaLines.length) vydajkaLines.push(...res.vydajkaLines);
     summary.push({ number: res.invoiceNumber, partner: res.partnerName, total: res.totalGross });
   }
   const outText = lines.join("\r\n") + "\r\n";
   const { bytes, unmapped } = encodeWin1250(outText);
   if (unmapped.length) warnings.push("Znaky bez cp1250 náhrady, nahradené '?': " + unmapped.join(" "));
-  return { bytes, summary, warnings };
+
+  let vydajkaBytes = null;
+  if (vydajkaLines.length) {
+    const vydajkaText = ["R00\tT02", ...vydajkaLines].join("\r\n") + "\r\n";
+    vydajkaBytes = encodeWin1250(vydajkaText).bytes;
+  }
+  return { bytes, vydajkaBytes, summary, warnings };
 }
 
 // ---------- UI ----------
@@ -556,6 +666,7 @@ const resultBox = document.getElementById("result");
 const boxes = document.getElementById("boxes");
 const tableWrap = document.getElementById("tableWrap");
 const downloadLink = document.getElementById("downloadLink");
+const downloadVydajkaLink = document.getElementById("downloadVydajkaLink");
 
 let selectedFile = null;
 
@@ -579,7 +690,7 @@ convertBtn.addEventListener("click", async () => {
   resultBox.style.display = "none";
   try {
     const xmlText = await selectedFile.text();
-    const { bytes, summary, warnings } = await convertXml(xmlText);
+    const { bytes, vydajkaBytes, summary, warnings } = await convertXml(xmlText);
 
     const okBox = document.createElement("div");
     okBox.className = "box ok";
@@ -605,6 +716,16 @@ convertBtn.addEventListener("click", async () => {
     downloadLink.href = url;
     downloadLink.download = `omega-import-${today}.txt`;
     downloadLink.textContent = `⬇ Stiahnuť omega-import-${today}.txt`;
+
+    if (vydajkaBytes) {
+      const vydajkaBlob = new Blob([vydajkaBytes], { type: "text/plain;charset=windows-1250" });
+      downloadVydajkaLink.href = URL.createObjectURL(vydajkaBlob);
+      downloadVydajkaLink.download = `omega-vydajka-${today}.txt`;
+      downloadVydajkaLink.textContent = `⬇ Stiahnuť omega-vydajka-${today}.txt (naimportuj AŽ PO faktúre)`;
+      downloadVydajkaLink.style.display = "";
+    } else {
+      downloadVydajkaLink.style.display = "none";
+    }
 
     resultBox.style.display = "block";
   } catch (err) {
