@@ -161,10 +161,11 @@ Keď príde PDF faktúra od dodávateľa (ATOS / K+B / InnPro / BaSys) za tovar 
 - **ATOS, InnPro aj BaSys:** faktúra obsahuje EAN — párovanie je spoľahlivé, kódy na faktúre (napr. ATOS `494318`, InnPro `FF5-A`, BaSys `B 892399-0010`) sa **nezhodujú** s reálnym Shoptet `CODE` (napr. `TOC-SX1014`, `029278`, `BASYS-B 892399-0010`), preto sa páruje výhradne cez EAN. Porovnanie EAN ignoruje prípadnú úvodnú nulu (bežná nezhoda medzi zdrojmi — napr. BaSys feed drží `17817856560`, faktúra `017817856560`).
 - **K+B:** faktúra EAN neobsahuje vôbec — párovanie ide cez presný názov produktu (menej spoľahlivé, funguje len ak sa názov na faktúre zhoduje s názvom v Shoptet feede).
 - **BaSys** navyše používa `.` ako oddeľovač tisícok v cenách (napr. `1.800,00` = 1800,00 EUR) — má vlastný parser čísel, aby sa cena neorezala.
-- Riadky, ktoré nie sú fyzický tovar (Dobírka/Dobierka, doprava, Recyklačný príspevok, Koszty dostawy...) sa automaticky preskakujú.
+- Riadky, ktoré nie sú fyzický tovar (Dobírka/Dobierka, doprava/Přepravné, Recyklačný príspevok, Koszty dostawy...) sa automaticky preskakujú a ich súčet ide do vedľajších nákladov príjemky.
+- **K+B niekedy posiela viacero faktúr v jednom PDF** (potvrdené na reálnej vzorke) — nástroj rozpozná hranicu medzi nimi (riadok "FAKTÚRA - DAŇOVÝ DOKLAD č.") a pre každú vygeneruje samostatnú príjemku s vlastným číslom faktúry a vlastnými vedľajšími nákladmi.
 - Nespárované položky (nový produkt, alebo feed ešte nemá čerstvé dáta z posledného behu) sa označia na ručné overenie — nič sa "nedomýšľa".
 
-**Webový formulár (`naskladnenie.html`):** nahraj PDF faktúru → tabuľka s výsledkom párovania (Shoptet kód, EAN, množstvo, stav) → stiahni CSV. Beží v prehliadači cez [pdf.js](https://mozilla.github.io/pdf.js/) (vendorovaný v `vendor/pdfjs/`, žiadna CDN závislosť) a `fetch()` na verejne publikované feedy tohto repozitára.
+**Webový formulár (`naskladnenie.html`):** nahraj PDF faktúru → tabuľka s výsledkom párovania (Shoptet kód, EAN, množstvo, stav) → stiahni CSV. Beží v prehliadači cez [pdf.js](https://mozilla.github.io/pdf.js/) (vendorovaný v `vendor/pdfjs/`, žiadna CDN závislosť) a `fetch()` na verejne publikované feedy tohto repozitára. Pole EAN v tabuľke je pre nespárované položky **editovateľné** — ak vieš EAN doplniť ručne (napr. produkt sa cez deň vypredal a v aktuálnom feede už nie je, ale treba ho naskladniť), príjemka pre Omegu sa pripraví aj preň. Samotné generovanie súborov pre Omegu (tlačidlo "Vygenerovať súbory pre Omegu") je zámerne oddelené od spracovania PDF, aby sa čísla kariet z Omega cards API prideľovali až po tom, čo si skontroluješ/doplníš tabuľku.
 
 **Príkazový riadok:** `node scripts/parse-supplier-invoice.js faktura.pdf [--supplier=atos|kb|innpro|basys]` (bez `--supplier` sa dodávateľ rozpozná automaticky z textu faktúry) → tabuľka do konzoly + CSV do `output/naskladnenie-<dátum>-<dodávateľ>.csv`.
 
@@ -177,7 +178,7 @@ Nadväzuje na naskladnenie vyššie — z tej istej PDF faktúry vygeneruje Omeg
 **Číslo skladovej karty je viazané na konkrétny sklad** (to isté číslo znamená v inom sklade iný produkt — overené priamo v dátach), preto má zmysel len v rámci Eshopu. Mapovanie **EAN → číslo karty v Eshope** drží `data/omega-stock-cards.json`:
 - Nové karty sa číslujú od `202600001` (vlastné nastavenie, rovnaké ako číslovanie dokladov príjemky).
 - Ak faktúra obsahuje produkt, ktorého EAN v databáze ešte nie je, pridelí sa mu **ďalšie voľné číslo** a pripraví sa aj T03 import na jeho založenie. Pri opakovanom výskyte toho istého EAN sa karta znova nezakladá, len sa naskladní (príjemka je prírastková — pripočíta sa k aktuálnemu stavu karty).
-- Položky bez EAN sa nedajú spracovať (nedá sa overiť/založiť karta) — vypíšu sa zvlášť.
+- Položky bez EAN (aj po pokuse o dohľadanie cez zhodu názvu v Shoptet feede) sa nedajú spracovať automaticky — vo webovom nástroji sa dajú doplniť ručne priamo v tabuľke pred vygenerovaním príjemky, v CLI verzii sa vypíšu zvlášť ako upozornenie.
 
 **NEOVERENÝ predpoklad, ktorý treba potvrdiť testovacím importom:** predpokladá sa, že Omega pri T03 importe s explicitne vyplneným číslom karty toto číslo **použije** (nepridelí vlastné). Pred bežným používaním odporúčame overiť jedným testovacím produktom priamo v Omege.
 
