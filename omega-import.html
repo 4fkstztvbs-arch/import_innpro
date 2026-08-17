@@ -384,7 +384,7 @@ function buildVydajkaHeaderRow(invoice, invoiceNumber) {
   const cols = new Array(38).fill("");
   cols[0] = "R01";
   cols[1] = "Eshop";
-  cols[2] = ""; // cislo dokladu vydajky - necha sa na Omegu (auto-cislovanie)
+  cols[2] = invoiceNumber; // cislo dokladu vydajky = externe cislo faktury (podla nastavenia "Prenos cisla fakt. do prijemky/vydajky" -> "Externe cislo DF")
   cols[3] = "V";
   cols[4] = "11";
   cols[5] = partnerName;
