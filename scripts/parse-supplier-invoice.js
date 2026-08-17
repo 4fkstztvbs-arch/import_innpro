@@ -33,7 +33,7 @@ const FEED_FILES = {
 const NON_STOCK_KEYWORDS = [
   'dobierka', 'dobírka', 'doprava', 'postovne', 'poštovné', 'recyklac', 'recyklač',
   'koszty dostawy', 'przesyłki', 'przesylki', 'shipping', 'dorucenie', 'doručenie',
-  'balikovne', 'balíkovné', 'dopravne', 'dopravné',
+  'balikovne', 'balíkovné', 'dopravne', 'dopravné', 'prepravne', 'přepravné', 'preprava', 'přeprava',
 ];
 
 function normalize(s) {
@@ -83,6 +83,29 @@ async function extractRows(pdfPath) {
     }
   }
   return rows;
+}
+
+// Niektori dodavatelia (potvrdene K+B) niekedy posielaju viacero faktur v jednom PDF - treba ich
+// rozdelit, aby kazda dostala vlastnu prijemku so spravnym cislom faktury a vlastnymi vedlajsimi
+// nakladmi (inak by sa vsetky polozky spojili do jednej prijemky pod cislom prvej faktury a druha
+// faktura by sa v Omege "stratila").
+const INVOICE_BOUNDARY_PATTERNS = {
+  kb: /^FAKTÚRA\s*-\s*DAŇOVÝ DOKLAD\s*č\./i,
+};
+function splitInvoices(rows, supplier) {
+  const pattern = INVOICE_BOUNDARY_PATTERNS[supplier];
+  if (!pattern) return [rows];
+  const groups = [];
+  let current = [];
+  for (const cells of rows) {
+    if (cells.length >= 1 && pattern.test(cells[0]) && current.length > 0) {
+      groups.push(current);
+      current = [];
+    }
+    current.push(cells);
+  }
+  if (current.length > 0) groups.push(current);
+  return groups.length > 0 ? groups : [rows];
 }
 
 function detectSupplier(rows) {
@@ -196,8 +219,8 @@ function loadFeedIndex(supplier) {
     const code = typeof it.CODE === 'object' ? it.CODE['#text'] : it.CODE;
     const ean = typeof it.EAN === 'object' ? it.EAN['#text'] : it.EAN;
     const name = typeof it.NAME === 'object' ? it.NAME['#text'] : it.NAME;
-    if (ean) byEan.set(normalizeEan(ean), { code: String(code || '').trim(), name });
-    if (name) byName.set(normalize(name), { code: String(code || '').trim(), name });
+    if (ean) byEan.set(normalizeEan(ean), { code: String(code || '').trim(), name, ean: String(ean).trim() });
+    if (name) byName.set(normalize(name), { code: String(code || '').trim(), name, ean: ean ? String(ean).trim() : '' });
   }
   return { byEan, byName };
 }
@@ -281,6 +304,6 @@ if (require.main === module) {
 }
 
 module.exports = {
-  extractRows, detectSupplier, SUPPLIER_PARSERS, SUPPLIER_LABELS,
+  extractRows, detectSupplier, splitInvoices, SUPPLIER_PARSERS, SUPPLIER_LABELS,
   loadFeedIndex, matchItem, isNonStock, normalize, normalizeEan, toFloat,
 };

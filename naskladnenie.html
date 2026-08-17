@@ -193,7 +193,7 @@ const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro', basys: 'BaS
 const NON_STOCK_KEYWORDS = [
   'dobierka', 'dobírka', 'doprava', 'postovne', 'poštovné', 'recyklac', 'recyklač',
   'koszty dostawy', 'przesyłki', 'przesylki', 'shipping', 'dorucenie', 'doručenie',
-  'balikovne', 'balíkovné', 'dopravne', 'dopravné',
+  'balikovne', 'balíkovné', 'dopravne', 'dopravné', 'prepravne', 'přepravné', 'preprava', 'přeprava',
 ];
 
 function normalize(s) {
@@ -399,6 +399,27 @@ function detectSupplier(rows) {
   return null;
 }
 
+// Niektori dodavatelia (potvrdene K+B) niekedy posielaju viacero faktur v jednom PDF - treba ich
+// rozdelit, aby kazda dostala vlastnu prijemku so spravnym cislom faktury a vlastnymi vedlajsimi
+// nakladmi (inak by sa vsetky polozky spojili do jednej prijemky pod cislom prvej faktury a druha
+// faktura by sa v Omege "stratila").
+const INVOICE_BOUNDARY_PATTERNS = { kb: /^FAKTÚRA\s*-\s*DAŇOVÝ DOKLAD\s*č\./i };
+function splitInvoices(rows, supplier) {
+  const pattern = INVOICE_BOUNDARY_PATTERNS[supplier];
+  if (!pattern) return [rows];
+  const groups = [];
+  let current = [];
+  for (const cells of rows) {
+    if (cells.length >= 1 && pattern.test(cells[0]) && current.length > 0) {
+      groups.push(current);
+      current = [];
+    }
+    current.push(cells);
+  }
+  if (current.length > 0) groups.push(current);
+  return groups.length > 0 ? groups : [rows];
+}
+
 function parseAtos(rows) {
   const items = [];
   for (let i = 0; i < rows.length; i++) {
@@ -474,8 +495,8 @@ async function loadFeedIndex(supplier) {
     const code = it.getElementsByTagName('CODE')[0]?.textContent?.trim() || '';
     const ean = it.getElementsByTagName('EAN')[0]?.textContent?.trim() || '';
     const name = it.getElementsByTagName('NAME')[0]?.textContent?.trim() || '';
-    if (ean) byEan.set(normalizeEan(ean), { code, name });
-    if (name) byName.set(normalize(name), { code, name });
+    if (ean) byEan.set(normalizeEan(ean), { code, name, ean });
+    if (name) byName.set(normalize(name), { code, name, ean });
   }
   return { byEan, byName };
 }
@@ -583,22 +604,35 @@ convertBtn.addEventListener('click', async () => {
     omegaCard.style.display = 'block';
     {
       const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
-      const toReceive = [];
-      const newCards = [];
       const skippedNoEan = [];
-      let freightTotal = 0;
-      const physicalItems = [];
-      for (const item of rawItems) {
-        if (isNonStock(item.name)) { freightTotal += (item.unitPriceNet || 0) * (item.quantity || 1); continue; }
-        if (!item.ean) { skippedNoEan.push(item); continue; }
-        physicalItems.push(item);
-      }
 
+      const invoiceGroups = splitInvoices(rows, supplier);
+      const perInvoice = invoiceGroups.map((groupRows) => {
+        const groupItems = parser(groupRows);
+        const invoiceNumber = extractInvoiceNumber(groupRows, supplier);
+        let freightTotal = 0;
+        const physicalItems = [];
+        for (const item of groupItems) {
+          if (isNonStock(item.name)) { freightTotal += (item.unitPriceNet || 0) * (item.quantity || 1); continue; }
+          // K+B faktury EAN vobec neposielaju - ak sa polozka sparuje podla nazvu, pouzijeme EAN
+          // z Shoptet feedu (ma ho ulozeny ten isty produkt) ako kluc pre Omega cards API.
+          let ean = item.ean;
+          if (!ean) {
+            const match = matchItem(item, index);
+            if (match && match.ean) ean = match.ean;
+          }
+          if (!ean) { skippedNoEan.push(item); continue; }
+          physicalItems.push({ ...item, ean });
+        }
+        return { invoiceNumber, freightTotal, physicalItems };
+      });
+
+      const allPhysicalItems = perInvoice.flatMap((inv) => inv.physicalItems);
       let assigned = {};
       let apiError = null;
-      if (physicalItems.length > 0) {
+      if (allPhysicalItems.length > 0) {
         try {
-          assigned = await reserveOmegaCards(physicalItems.map((i) => {
+          assigned = await reserveOmegaCards(allPhysicalItems.map((i) => {
             const match = matchItem(i, index);
             return { ean: i.ean, name: i.name, supplier, code: match ? match.code : '' };
           }));
@@ -612,16 +646,21 @@ convertBtn.addEventListener('click', async () => {
         eBox2.textContent = `Nepodarilo sa spojiť s Omega cards API (${apiError}) — príjemka sa nedá pripraviť.`;
         omegaBoxes.appendChild(eBox2);
       }
-      for (const item of physicalItems) {
-        const card = assigned[item.ean];
-        if (!card) continue;
-        if (card.isNew) newCards.push({ ...item, cardCode: card.kod });
-        toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
+
+      const newCards = [];
+      const newCardEans = new Set();
+      for (const inv of perInvoice) {
+        inv.toReceive = [];
+        for (const item of inv.physicalItems) {
+          const card = assigned[item.ean];
+          if (!card) continue;
+          if (card.isNew && !newCardEans.has(item.ean)) { newCards.push({ ...item, cardCode: card.kod }); newCardEans.add(item.ean); }
+          inv.toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
+        }
       }
+      const totalToReceive = perInvoice.reduce((n, inv) => n + inv.toReceive.length, 0);
 
-      if (toReceive.length > 0) {
-        const invoiceNumber = extractInvoiceNumber(rows, supplier);
-
+      if (totalToReceive > 0) {
         if (newCards.length > 0) {
           const cardLines = ['R00\tT03', buildWarehouseHeaderRow().join('\t')];
           for (const r of newCards) cardLines.push(buildNewCardRow(r.name, r.cardCode, r.ean, r.unitPriceNet, identity.label).join('\t'));
@@ -634,9 +673,12 @@ convertBtn.addEventListener('click', async () => {
           omegaBoxes.appendChild(cardLink);
         }
 
-        const prijemkaHeaderCols = buildPrijemkaHeaderRow(supplier, invoiceNumber, freightTotal);
-        const prijemkaLines = ['R00\tT02', prijemkaHeaderCols.join('\t')];
-        for (const r of toReceive) prijemkaLines.push(buildPrijemkaItemRow(r.cardName, r.quantity, r.unitPriceNet, r.cardCode).join('\t'));
+        const prijemkaLines = ['R00\tT02'];
+        for (const inv of perInvoice) {
+          if (inv.toReceive.length === 0) continue;
+          prijemkaLines.push(buildPrijemkaHeaderRow(supplier, inv.invoiceNumber, inv.freightTotal).join('\t'));
+          for (const r of inv.toReceive) prijemkaLines.push(buildPrijemkaItemRow(r.cardName, r.quantity, r.unitPriceNet, r.cardCode).join('\t'));
+        }
         const bytes = encodeWin1250(prijemkaLines.join('\r\n') + '\r\n');
         const omegaUrl = URL.createObjectURL(new Blob([bytes], { type: 'text/plain;charset=windows-1250' }));
         omegaDownloadLink.href = omegaUrl;
@@ -646,9 +688,10 @@ convertBtn.addEventListener('click', async () => {
           : `⬇ Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt)`;
         omegaDownloadLink.style.display = 'block';
 
+        const invoiceCountNote = perInvoice.length > 1 ? ` (${perInvoice.filter((inv) => inv.toReceive.length > 0).length} faktúry v jednom súbore)` : '';
         const okBox2 = document.createElement('div');
         okBox2.className = 'box ok';
-        okBox2.textContent = `Sklad "Eshop": ${toReceive.length} položiek na príjemku, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}). Databáza kariet je už uložená automaticky.`;
+        okBox2.textContent = `Sklad "Eshop": ${totalToReceive} položiek na príjemku${invoiceCountNote}, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}). Databáza kariet je už uložená automaticky.`;
         omegaBoxes.insertBefore(okBox2, omegaBoxes.firstChild);
       }
       if (skippedNoEan.length > 0) {
