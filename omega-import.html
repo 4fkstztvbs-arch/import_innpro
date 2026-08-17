@@ -285,7 +285,9 @@ function buildItemRow(item, warnings, cardIndex) {
   const code = text(item, "code");
   const stockItemEl = child(item, "stockItem");
   const stockIds = stockItemEl ? text(child(stockItemEl, "stockItem"), "ids") : "";
-  const cardCode = cardIndex.get(code) || cardIndex.get(stockIds) || "";
+  const card = cardIndex.get(code) || cardIndex.get(stockIds) || null;
+  const cardCode = card ? card.kod : "";
+  const cardName = card ? card.nazov : "";
 
   let typ;
   let serviceCode = "";
@@ -357,7 +359,7 @@ function buildItemRow(item, warnings, cardIndex) {
   cols[57] = "0,0000";
   return {
     cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode,
-    typ, cardCode, text: t, quantity, unitPriceNet, unitPriceGross,
+    typ, cardCode, cardName, text: t, quantity, unitPriceNet, unitPriceGross,
   };
 }
 
@@ -600,7 +602,7 @@ function convertInvoice(invoice, warnings, cardIndex) {
   if (stockItems.length > 0) {
     vydajkaLines = [buildVydajkaHeaderRow(invoice, headerInfo.invoiceNumber).join("\t")];
     for (const r of stockItems) {
-      vydajkaLines.push(buildVydajkaItemRow(r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join("\t"));
+      vydajkaLines.push(buildVydajkaItemRow(r.cardName || r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join("\t"));
     }
   }
   return { lines, vydajkaLines, invoiceNumber: headerInfo.invoiceNumber, partnerName: headerInfo.partnerName, totalGross: headerInfo.totalGross };
@@ -614,7 +616,7 @@ async function loadCardIndex() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const db = await res.json();
     for (const card of Object.values((db.eshop && db.eshop.cards) || {})) {
-      if (card.code) index.set(card.code, card.kod);
+      if (card.code) index.set(card.code, { kod: card.kod, nazov: card.nazov });
     }
   } catch (err) {
     console.warn("Omega cards API nedostupné:", err.message);

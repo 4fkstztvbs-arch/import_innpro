@@ -143,7 +143,7 @@ async function loadCardIndex() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const db = await res.json();
     for (const card of Object.values(db.eshop?.cards || {})) {
-      if (card.code) index.set(card.code, card.kod);
+      if (card.code) index.set(card.code, { kod: card.kod, nazov: card.nazov });
     }
   } catch (err) {
     console.warn(`  [!] Omega cards API nedostupne (${err.message}) - predavany tovar sa nespojazdni s kartou, over rucne v Omege`);
@@ -162,7 +162,9 @@ function buildItemRow(item, cardIndex, warnings) {
   const unitPriceNet = toFloat(field(home, 'unitPrice'));
   const code = field(item, 'code');
   const stockIds = item.stockItem && item.stockItem.stockItem ? field(item.stockItem.stockItem, 'ids') : '';
-  const cardCode = cardIndex.get(code) || cardIndex.get(stockIds) || '';
+  const card = cardIndex.get(code) || cardIndex.get(stockIds) || null;
+  const cardCode = card ? card.kod : '';
+  const cardName = card ? card.nazov : '';
 
   let typ; // S = sluzba, K = skladova karta (tovar), V = volna polozka
   let serviceCode = '';
@@ -235,7 +237,7 @@ function buildItemRow(item, cardIndex, warnings) {
   cols[57] = '0,0000';
   return {
     cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode,
-    typ, cardCode, text, quantity, unitPriceNet, unitPriceGross,
+    typ, cardCode, cardName, text, quantity, unitPriceNet, unitPriceGross,
   };
 }
 
@@ -483,7 +485,7 @@ function convertInvoice(invoice, cardIndex, warnings) {
     const invoiceNumber = field((invoice.invoiceHeader || {}).number, 'numberRequested');
     vydajkaLines = [buildVydajkaHeaderRow(invoice, invoiceNumber).join('\t')];
     for (const r of stockItems) {
-      vydajkaLines.push(buildVydajkaItemRow(r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join('\t'));
+      vydajkaLines.push(buildVydajkaItemRow(r.cardName || r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join('\t'));
     }
   }
   return { lines, vydajkaLines };
