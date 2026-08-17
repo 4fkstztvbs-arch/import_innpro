@@ -159,7 +159,6 @@
     <div class="card">
       <div id="boxes"></div>
       <div id="tableWrap"></div>
-      <a class="download" id="downloadLink" download>⬇ Stiahnuť CSV</a>
     </div>
     <div class="card" id="omegaCard" style="display:none">
       <h2 style="font-size:1.05rem;margin-top:0">Príjemka pre Omegu</h2>
@@ -562,7 +561,6 @@ const generateBtn = document.getElementById('generateBtn');
 const resultBox = document.getElementById('result');
 const boxes = document.getElementById('boxes');
 const tableWrap = document.getElementById('tableWrap');
-const downloadLink = document.getElementById('downloadLink');
 const omegaCard = document.getElementById('omegaCard');
 const omegaBoxes = document.getElementById('omegaBoxes');
 const omegaDownloadLink = document.getElementById('omegaDownloadLink');
@@ -661,22 +659,6 @@ function renderTable() {
   }
 }
 
-function downloadCsv() {
-  const allRows = [];
-  state.invoiceGroups.forEach((inv) => inv.items.forEach((item) => allRows.push(item)));
-  const csvLines = ['nazov;shoptet_kod;ean;mnozstvo;jednotkova_cena_bez_dph;stav'];
-  for (const item of allRows) {
-    const info = statusFor(item, state.feedIndex);
-    csvLines.push([item.name, info.shoptetCode || '', info.effectiveEan || '', item.quantity, item.unitPriceNet, info.status].map((v) => String(v).replace(/;/g, ',')).join(';'));
-  }
-  const blob = new Blob([csvLines.join('\r\n') + '\r\n'], { type: 'text/csv;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
-  const today = new Date().toISOString().slice(0, 10);
-  downloadLink.href = url;
-  downloadLink.download = `naskladnenie-${today}-${state.supplier}.csv`;
-  downloadLink.textContent = `⬇ Stiahnuť naskladnenie-${today}-${state.supplier}.csv`;
-}
-
 convertBtn.addEventListener('click', async () => {
   if (!selectedFile) return;
   boxes.innerHTML = '';
@@ -703,7 +685,6 @@ convertBtn.addEventListener('click', async () => {
 
     state = { supplier, feedIndex, invoiceGroups };
     renderTable();
-    downloadCsv();
     omegaCard.style.display = 'block';
 
     // ---- Prijemka (T02) + nove skladove karty (T03) pre sklad "Eshop" ----
