@@ -13,13 +13,6 @@
 //                              cisla karty pri vystavovani predajnej faktury (aby sa vydajka
 //                              spravne odpisala z konkretnej karty v Eshope).
 //                              vyzaduje hlavicku X-Api-Key (zdielany tajny kluc, viz secrets nizsie)
-// POST /reserve-doklad      -> { kind: 'vydaj', count: N }
-//                              pridel'uje dalsich N volnych cisel dokladu z vlastneho cislovania
-//                              danej agendy (eshop.nextVydajNumber), commitne zmenu a vrati pole
-//                              pridelenych cisel. Cislo dokladu vydajky sa pri TXT importe do Omegy
-//                              NEDOPLNA automaticky (overene realnym testom) - musi sa dodat vopred,
-//                              inak vydajka ostane bez cisla a neprepoji sa s fakturou.
-//                              vyzaduje hlavicku X-Api-Key
 
 const FILE_PATH = 'data/omega-stock-cards.json';
 const CORS_HEADERS = {
@@ -47,18 +40,6 @@ export default {
         const body = await request.json();
         const items = Array.isArray(body.items) ? body.items : [];
         return await reserveCards(env, items);
-      }
-
-      if (url.pathname === '/reserve-doklad' && request.method === 'POST') {
-        if (request.headers.get('X-Api-Key') !== env.API_KEY) {
-          return jsonResponse({ error: 'Unauthorized' }, 401);
-        }
-        const body = await request.json();
-        const kind = body.kind;
-        const count = Number(body.count) || 0;
-        if (kind !== 'vydaj') return jsonResponse({ error: `Neznamy kind "${kind}"` }, 400);
-        if (count < 1) return jsonResponse({ error: 'count musi byt >= 1' }, 400);
-        return await reserveDoklady(env, kind, count);
       }
 
       return jsonResponse({ error: 'Not found' }, 404);
@@ -101,45 +82,6 @@ async function reserveCards(env, items, attempt = 0) {
   }
 
   return jsonResponse({ assigned, nextCardNumber: db.eshop.nextCardNumber });
-}
-
-const DOKLAD_COUNTER_FIELD = { vydaj: 'nextVydajNumber' };
-
-async function reserveDoklady(env, kind, count, attempt = 0) {
-  const { db, sha } = await fetchFile(env);
-  const field = DOKLAD_COUNTER_FIELD[kind];
-  if (typeof db.eshop[field] !== 'number') db.eshop[field] = 202600001;
-
-  const cisla = [];
-  for (let i = 0; i < count; i++) {
-    cisla.push(String(db.eshop[field]));
-    db.eshop[field] += 1;
-  }
-
-  const commitOk = await commitDokladCounter(env, db, sha, kind);
-  if (!commitOk) {
-    if (attempt < 2) return reserveDoklady(env, kind, count, attempt + 1);
-    return jsonResponse({ error: 'Konflikt pri ukladani, skus znova.' }, 409);
-  }
-
-  return jsonResponse({ cisla });
-}
-
-async function commitDokladCounter(env, db, sha, kind) {
-  const content = JSON.stringify(db, null, 2) + '\n';
-  const encoded = btoa(unescape(encodeURIComponent(content)));
-  const res = await ghFetch(env, `contents/${FILE_PATH}`, {
-    method: 'PUT',
-    body: JSON.stringify({
-      message: `Omega Eshop: pridelene cisla dokladov (${kind})`,
-      content: encoded,
-      sha,
-      branch: 'main',
-    }),
-  });
-  if (res.status === 409) return false;
-  if (!res.ok) throw new Error(`GitHub commit zlyhal: ${res.status} ${await res.text()}`);
-  return true;
 }
 
 async function ghFetch(env, path, options = {}) {
