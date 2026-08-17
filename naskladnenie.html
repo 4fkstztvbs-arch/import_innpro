@@ -443,12 +443,21 @@ function parseAtos(rows) {
 }
 function parseKb(rows) {
   const items = [];
-  for (const cells of rows) {
+  for (let i = 0; i < rows.length; i++) {
+    const cells = rows[i];
     if (cells.length < 8) continue;
     if (!/^\d+$/.test(cells[0])) continue;
     const code = cells[1];
     if (!/^[A-Za-z]\d+$/.test(code)) continue;
-    items.push({ code, ean: '', name: cells[2], quantity: toFloat(cells[3]) || 1, unitPriceNet: toFloat(cells[4]) });
+    // EAN niekedy chyba, niekedy je na nasledujucom riadku ("EAN: <cislo>"), a ak sa nazov
+    // produktu zalomi na 2 riadky, EAN je este o riadok nizsie - hladame v najblizsich 2 riadkoch.
+    let ean = '';
+    for (let k = 1; k <= 2 && !ean; k++) {
+      const nextCells = rows[i + k] || [];
+      const found = nextCells.find((c) => /^\d{8,14}$/.test(c));
+      if (found) ean = found;
+    }
+    items.push({ code, ean, name: cells[2], quantity: toFloat(cells[3]) || 1, unitPriceNet: toFloat(cells[4]) });
   }
   return items;
 }

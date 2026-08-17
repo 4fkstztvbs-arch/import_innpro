@@ -142,7 +142,8 @@ function parseAtos(rows) {
 // ---------- K+B: jeden riadok na polozku, oddeleny stlpcami z hlavicky tabulky ----------
 function parseKb(rows) {
   const items = [];
-  for (const cells of rows) {
+  for (let i = 0; i < rows.length; i++) {
+    const cells = rows[i];
     if (cells.length < 8) continue;
     if (!/^\d+$/.test(cells[0])) continue; // Č.r. = poradove cislo riadku
     const code = cells[1];
@@ -150,7 +151,15 @@ function parseKb(rows) {
     const name = cells[2];
     const qty = toFloat(cells[3]);
     const unitPriceNet = toFloat(cells[4]);
-    items.push({ code, ean: '', name, quantity: qty || 1, unitPriceNet });
+    // EAN niekedy chyba, niekedy je na nasledujucom riadku ("EAN: <cislo>"), a ak sa nazov
+    // produktu zalomi na 2 riadky, EAN je este o riadok nizsie - hladame v najblizsich 2 riadkoch.
+    let ean = '';
+    for (let k = 1; k <= 2 && !ean; k++) {
+      const nextCells = rows[i + k] || [];
+      const found = nextCells.find((c) => /^\d{8,14}$/.test(c));
+      if (found) ean = found;
+    }
+    items.push({ code, ean, name, quantity: qty || 1, unitPriceNet });
   }
   return items;
 }
