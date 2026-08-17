@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600010,
+    "nextCardNumber": 202600014,
     "cards": {
       "6971636400998": {
         "kod": "202600001",
@@ -56,6 +56,30 @@
         "nazov": "EDIFIER T5s subwoofer černý",
         "dodavatel": "kb",
         "code": "100002201644"
+      },
+      "8595235807798": {
+        "kod": "202600010",
+        "nazov": "Maxxo vakuovací sáčky 50ks 22 x",
+        "dodavatel": "kb",
+        "code": "100000892515"
+      },
+      "8595235802120": {
+        "kod": "202600011",
+        "nazov": "Maxxo náhradní sáčky 30ks 28x35cm",
+        "dodavatel": "kb",
+        "code": "100001502508"
+      },
+      "8594043284388": {
+        "kod": "202600012",
+        "nazov": "Koma SB02S - Electrolux Multi Bag",
+        "dodavatel": "kb",
+        "code": "330121027111"
+      },
+      "4008496725434": {
+        "kod": "202600013",
+        "nazov": "REMINGTON PG 6030",
+        "dodavatel": "kb",
+        "code": ""
       }
     }
   },
