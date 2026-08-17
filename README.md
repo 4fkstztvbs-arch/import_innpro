@@ -148,15 +148,22 @@ Keď príde PDF faktúra od dodávateľa (ATOS / K+B / InnPro) za tovar do e-sho
 
 **Príkazový riadok:** `node scripts/parse-supplier-invoice.js faktura.pdf [--supplier=atos|kb|innpro]` (bez `--supplier` sa dodávateľ rozpozná automaticky z textu faktúry) → tabuľka do konzoly + CSV do `output/naskladnenie-<dátum>-<dodávateľ>.csv`.
 
-## Príjemka pre Omegu (`scripts/transform-omega-prijemka.js`)
+## Príjemka + nové skladové karty pre Omegu (`scripts/transform-omega-prijemka.js`)
 
-Nadväzuje na naskladnenie vyššie — z tej istej PDF faktúry vygeneruje aj Omega import pre **príjemku** (T02, typ `P`). Stĺpcové mapovanie (38 stĺpcov `R01`, 30 stĺpcov `R02`) bolo odvodené z reálneho T02 exportu z Omegy poskytnutého na overenie (obsahoval osobné údaje zákazníkov, preto sa neukladá do repozitára — len výsledné poznatky).
+Nadväzuje na naskladnenie vyššie — z tej istej PDF faktúry vygeneruje Omega import pre sklad **"Eshop"** (kód `03` — jediný sklad, s ktorým tento nástroj pracuje; sklad "Predajna" sa rieši ručne priamo v Omege, mimo tohto nástroja): **nové skladové karty** (T03) pre produkty, ktoré v Eshope ešte nemajú kartu, a **príjemku** (T02, typ `P`) pre všetky položky na faktúre. Stĺpcové mapovanie (T02: 38/30 stĺpcov, T03: 16/50 stĺpcov) bolo odvodené z reálnych T02/T03 exportov z Omegy poskytnutých na overenie (obsahovali osobné/citlivé dáta, preto sa neukladajú do repozitára — len výsledné poznatky).
 
 **Dôležité zistenie:** T01 import faktúry v Omege **automaticky vygeneruje aj výdajku zo skladu** (potvrdené krížovou kontrolou identifikátorov medzi T01 a T02 exportom) — netreba ju teda vytvárať samostatne, `transform-omega-invoices.js`/`omega-import.html` stačí.
 
-**Číslo skladovej karty (`data/omega-stock-cards.json`):** Omega páruje položky príjemky na existujúce skladové karty cez svoje vlastné interné číslo karty (napr. `002538`), nie cez EAN ani Shoptet kód — preto tento súbor drží mapovanie **EAN → číslo karty v Omege**, zatiaľ overené pre 6 produktov (ATOS, InnPro) krížovou kontrolou poradia položiek medzi PDF faktúrou a T02 exportom. Položky, ktorých EAN v databáze chýba, sa do príjemky **nezahrnú** (typicky nový produkt bez karty, alebo produkt ešte v databáze nezaevidovaný) — vypíšu sa zvlášť na ručné dohľadanie čísla karty v Omege; keď ho zistíte, doplňte záznam do JSON súboru pre nabudúce. Vytváranie **nových** skladových kariet (T03) tento nástroj zatiaľ nerobí — čaká na vzorový T03 export z Omegy.
+**Číslo skladovej karty je viazané na konkrétny sklad** (to isté číslo znamená v inom sklade iný produkt — overené priamo v dátach), preto má zmysel len v rámci Eshopu. `data/omega-stock-cards.json` drží mapovanie **EAN → číslo karty v Eshope**:
+- Nové karty sa číslujú od `202600001` (vlastné nastavenie, rovnaké ako číslovanie dokladov príjemky/výdajky) — nástroj si ďalšie voľné číslo sám vedie v `eshop.nextCardNumber`.
+- Ak faktúra obsahuje produkt, ktorého EAN v databáze ešte nie je, nástroj mu **pridelí ďalšie voľné číslo** a pripraví aj T03 import na jeho založenie. Pri opakovanom výskyte toho istého EAN sa karta znova nezakladá, len sa naskladní (príjemka je prírastková — pripočíta sa k aktuálnemu stavu karty).
+- Položky bez EAN sa nedajú spracovať (nedá sa overiť/založiť karta) — vypíšu sa zvlášť.
 
-**Webový formulár:** je súčasťou `naskladnenie.html` — po spracovaní faktúry sa zobrazí sekcia "Príjemka pre Omegu" so súborom na stiahnutie (ak je aspoň jedna položka so známou kartou).
+**NEOVERENÝ predpoklad, ktorý treba potvrdiť testovacím importom:** skript predpokladá, že Omega pri T03 importe s explicitne vyplneným číslom karty toto číslo **použije** (nepridelí vlastné). Pred bežným používaním odporúčame overiť jedným testovacím produktom priamo v Omege.
+
+**Poradie importu v Omege je dôležité:** najprv súbor s novými kartami (T03), až potom príjemka (T02) — kombinovanie viacerých typov v jednom súbore nie je overené, preto sú to vždy dva samostatné súbory.
+
+**Webový formulár (`naskladnenie.html`) — obmedzenie zápisu:** keďže ide o statickú stránku bez servera, nevie si zapísať aktualizovanú databázu kariet naspäť do repozitára (na rozdiel od `transform-omega-prijemka.js`, ktorý to robí automaticky pri behu z príkazového riadku). Preto po spracovaní faktúry s novými kartami ponúkne **3 súbory na stiahnutie v poradí**: 1) nové karty, 2) príjemka, 3) aktualizovaná `omega-stock-cards.json` — súbor č. 3 treba nahradiť v repozitári, inak by ďalšie použitie znova začalo číslovať od rovnakého čísla a kolidovalo by s už vytvorenými kartami.
 
 **Príkazový riadok:** `node scripts/transform-omega-prijemka.js faktura.pdf [--supplier=atos|kb|innpro] [--sklad="Eshop"]` → `output/omega-prijemka-<dátum>-<dodávateľ>.txt`.
 
