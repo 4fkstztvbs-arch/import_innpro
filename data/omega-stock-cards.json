@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600014,
+    "nextCardNumber": 202600017,
     "cards": {
       "6971636400998": {
         "kod": "202600001",
@@ -79,6 +79,24 @@
         "kod": "202600013",
         "nazov": "REMINGTON PG 6030",
         "dodavatel": "kb",
+        "code": ""
+      },
+      "5904335414837": {
+        "kod": "202600014",
+        "nazov": "Stojan pro tepelné čerpadlo klimatizace STRONGLIFT SL500X INOX",
+        "dodavatel": "atos",
+        "code": "STRONGLIFT SL500X"
+      },
+      "8424450154557": {
+        "kod": "202600015",
+        "nazov": "F konektor kompresní Televes 410801 5.4/7.0 mm pro kabel T200",
+        "dodavatel": "atos",
+        "code": "T410801"
+      },
+      "5900779952614": {
+        "kod": "202600016",
+        "nazov": "TOPENÍ Elektrický ohřívač vzduchu s ventilátorem Kaminer 24361",
+        "dodavatel": "atos",
         "code": ""
       }
     }
