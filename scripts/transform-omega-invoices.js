@@ -26,6 +26,7 @@ const OUT_VYDAJKA_PATH = path.join(path.dirname(OUT_PATH), `${path.basename(OUT_
 // v sklade Eshop zodpoveda predavany produkt (podla Shoptet kodu), aby vydajka pri importe faktury
 // spravne odpisala z tejto karty (cislo karty v Omege NIE JE to iste ako Shoptet CODE).
 const OMEGA_CARDS_API_URL = process.env.OMEGA_CARDS_API_URL || 'https://omega-cards-api.dt7vy7byn2.workers.dev';
+const OMEGA_CARDS_API_KEY = process.env.OMEGA_CARDS_API_KEY || 'V77bC1yTE_ATf46jy_Xyx5efDgVj_BDm';
 
 // --- Údaje predávajúceho (konštantné, zistené zo vzorového exportu z Omegy) ---
 const SELLER = {
@@ -152,6 +153,26 @@ async function loadCardIndex() {
   return index;
 }
 
+// Cislo dokladu vydajky sa pri TXT importe do Omegy NEDOPLNA automaticky (overene realnym testom -
+// bez neho vydajka ostane bez cisla a neprepoji sa s fakturou) - vlastny ciselny rad "Vydajky" v
+// sklade Eshop, spravovany rovnako ako cisla skladovych kariet (Omega cards API, POST /reserve-doklad).
+async function reserveVydajCisla(count) {
+  if (count < 1) return { cisla: [], error: null };
+  try {
+    const res = await fetch(`${OMEGA_CARDS_API_URL}/reserve-doklad`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Api-Key': OMEGA_CARDS_API_KEY },
+      body: JSON.stringify({ kind: 'vydaj', count }),
+    });
+    const body = await res.json();
+    if (!res.ok) throw new Error(body.error || `HTTP ${res.status}`);
+    return { cisla: body.cisla, error: null };
+  } catch (err) {
+    console.warn(`  [!] Nepodarilo sa prideliť čísla dokladov výdajky (${err.message}) - výdajka bude bez čísla, doplň ručne v Omege`);
+    return { cisla: [], error: err.message };
+  }
+}
+
 function buildItemRow(item, cardIndex, warnings) {
   const text = field(item, 'text');
   const quantity = toFloat(field(item, 'quantity')) || 1;
@@ -247,7 +268,7 @@ function buildItemRow(item, cardIndex, warnings) {
 // T01 import faktury SAM OSEBE nevytvara skutocnu vazbu na skladovu kartu (aj ked "Kod polozky"
 // v UI vyzera spravne vyplneny), Omega sa preto pri ulozeni nepyta na vydajku. Treba preto
 // vygenerovat T02 vydaj SAMOSTATNE, s vazbou na cislo faktury (stlpec 18).
-function buildVydajkaHeaderRow(invoice, invoiceNumber) {
+function buildVydajkaHeaderRow(invoice, invoiceNumber, dokladCislo) {
   const header = invoice.invoiceHeader || {};
   const address = (header.partnerIdentity && header.partnerIdentity.address) || {};
   const company = field(address, 'company');
@@ -262,7 +283,7 @@ function buildVydajkaHeaderRow(invoice, invoiceNumber) {
   const cols = new Array(38).fill('');
   cols[0] = 'R01';
   cols[1] = 'Eshop';
-  cols[2] = ''; // cislo dokladu vydajky - necha sa na Omegu (auto-cislovanie)
+  cols[2] = dokladCislo || ''; // cislo dokladu vydajky - samostatny ciselny rad "Vydajky" v sklade Eshop (NIE cislo faktury), pridelene cez Omega cards API
   cols[3] = 'V';
   cols[4] = '11';
   cols[5] = partnerName;
@@ -480,15 +501,16 @@ function convertInvoice(invoice, cardIndex, warnings) {
   for (const r of itemRows) lines.push(r.cols.join('\t'));
 
   const stockItems = itemRows.filter((r) => r.typ === 'K');
-  let vydajkaLines = [];
-  if (stockItems.length > 0) {
-    const invoiceNumber = field((invoice.invoiceHeader || {}).number, 'numberRequested');
-    vydajkaLines = [buildVydajkaHeaderRow(invoice, invoiceNumber).join('\t')];
-    for (const r of stockItems) {
-      vydajkaLines.push(buildVydajkaItemRow(r.cardName || r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join('\t'));
-    }
+  const invoiceNumber = field((invoice.invoiceHeader || {}).number, 'numberRequested');
+  return { lines, stockItems, invoiceNumber };
+}
+
+function buildVydajkaLines(invoice, invoiceNumber, stockItems, dokladCislo) {
+  const lines = [buildVydajkaHeaderRow(invoice, invoiceNumber, dokladCislo).join('\t')];
+  for (const r of stockItems) {
+    lines.push(buildVydajkaItemRow(r.cardName || r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join('\t'));
   }
-  return { lines, vydajkaLines };
+  return lines;
 }
 
 async function main() {
@@ -506,11 +528,11 @@ async function main() {
     );
   }
   const lines = ['R00\tT01'];
-  const vydajkaLines = [];
+  const vydajCandidates = [];
   for (const invoice of invoices) {
     const result = convertInvoice(invoice, cardIndex, warnings);
     lines.push(...result.lines);
-    if (result.vydajkaLines.length) vydajkaLines.push(...result.vydajkaLines);
+    if (result.stockItems.length) vydajCandidates.push({ invoice, ...result });
   }
 
   const outText = lines.join('\r\n') + '\r\n';
@@ -518,7 +540,16 @@ async function main() {
   fs.writeFileSync(OUT_PATH, iconv.encode(outText, 'win1250'));
   console.log(`Hotovo -> ${OUT_PATH} (Windows-1250, ${invoices.length} faktur)`);
 
-  if (vydajkaLines.length) {
+  if (vydajCandidates.length) {
+    const { cisla, error } = await reserveVydajCisla(vydajCandidates.length);
+    if (error) {
+      warnings.push(`Nepodarilo sa prideliť čísla dokladov výdajky (${error}) - výdajka bude bez čísla, doplň ho ručne v Omege pred importom.`);
+    }
+    const vydajkaLines = [];
+    vydajCandidates.forEach((result, i) => {
+      const { invoice, invoiceNumber, stockItems } = result;
+      vydajkaLines.push(...buildVydajkaLines(invoice, invoiceNumber, stockItems, cisla[i]));
+    });
     const vydajkaText = ['R00\tT02', ...vydajkaLines].join('\r\n') + '\r\n';
     fs.writeFileSync(OUT_VYDAJKA_PATH, iconv.encode(vydajkaText, 'win1250'));
     console.log(`Vydajka ulozena -> ${OUT_VYDAJKA_PATH} (naimportuj v Omege AZ PO fakture T01)`);
