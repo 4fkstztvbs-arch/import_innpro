@@ -42,6 +42,7 @@ const SELLER = {
 const PAYMENT_TYPE_MAP = {
   cash: 'Hotovosť',
   cod: 'Dobierka',
+  delivery: 'Dobierka', // alternativny Pohoda kod pre dobierku cez dopravcu (napr. Packeta Pickup)
   creditcard: 'Platba kartou',
   banktransfer: 'Prevodný príkaz',
   advance: 'Zálohová platba',
@@ -123,7 +124,8 @@ function vatRateFraction(code) {
 
 function extractInvoices(xmlPath) {
   const raw = fs.readFileSync(xmlPath, 'utf8');
-  const parser = new XMLParser({ ignoreAttributes: true, removeNSPrefix: true, textNodeName: '#text' });
+  // parseTagValue vypnuty - inak fast-xml-parser skonvertuje kody ako "085473" na cislo 85473 (strata uvodnej nuly)
+  const parser = new XMLParser({ ignoreAttributes: true, removeNSPrefix: true, textNodeName: '#text', parseTagValue: false });
   const doc = parser.parse(raw);
   const dataPack = doc.dataPack;
   if (!dataPack) throw new Error('Neplatny XML subor: chyba <dat:dataPack>');
@@ -144,6 +146,7 @@ async function loadCardIndex() {
     }
   } catch (err) {
     console.warn(`  [!] Omega cards API nedostupne (${err.message}) - predavany tovar sa nespojazdni s kartou, over rucne v Omege`);
+    index.apiError = err.message;
   }
   return index;
 }
@@ -390,6 +393,13 @@ async function main() {
   const cardIndex = await loadCardIndex();
 
   const warnings = [];
+  if (cardIndex.apiError) {
+    warnings.push(
+      `Nepodarilo sa spojit s databazou skladovych kariet (${cardIndex.apiError}). ` +
+      `Vsetky polozky nizsie su preto oznacene ako nezname a NEBUDE vytvorena vydajka zo skladu! ` +
+      `Skontroluj internetove pripojenie a skus konverziu znova.`
+    );
+  }
   const lines = ['R00\tT01'];
   for (const invoice of invoices) {
     lines.push(...convertInvoice(invoice, cardIndex, warnings));
