@@ -136,6 +136,21 @@ Shoptet vie exportovať vystavené faktúry vo formáte Stormware Pohoda XML (`N
 
 **Prepojenie na sklad Eshop (aby sa výdajka správne odpísala):** Shoptetov Pohoda export síce pri položke posiela vlastný Shoptet kód (napr. `TOC-SX1014`), ale číslo skladovej karty v Omege je úplne iné (napr. `202600001`) — priame použitie Shoptet kódu by výdajku nespojilo so správnou kartou. Preto obe verzie (CLI aj web) pred generovaním zavolajú **Omega cards API** (`GET /state`, pozri nižšie) a podľa Shoptet kódu dohľadajú skutočné číslo karty v sklade Eshop. Ak produkt v databáze kariet chýba (napr. nebol ešte nikdy prijatý cez `naskladnenie.html`), položka sa v exporte označí ako voľná (`V`) namiesto tovaru (`K`) a vypíše sa upozornenie — radšej voľná položka na faktúre než odpis zo zlej/neexistujúcej karty.
 
+**Doprava a dobierka (riadky typu "Služba"):** v Omege sú vedené ako skladové karty typu Služba v evidencii `SL` (stav sa neodpisuje, len sa použije suma) — rovnako ako tovar teda potrebujú svoje vlastné číslo karty, inak sa nedajú spárovať. Kódy sú **napevno zakódované** v oboch nástrojoch (konštanta `SERVICE_CODES`), zistené priamo z Omegy a spárované so skutočnými názvami z administrácie Shoptetu (`Nastavenia → Doprava a platby`):
+
+| Shoptet | Omega SL kód |
+|---|---|
+| Packeta (Shoptet Balíky) | `000002` |
+| SPS doručenie na adresu | `000003` |
+| Balíkovo | `000004` |
+| Slovenská pošta na adresu | `000005` |
+| Balíkobox / Alzabox | `000006` |
+| GEIS paletová preprava | `000007` |
+| Dobierka | `000008` |
+| Osobný odber | `000009` |
+
+Rozpoznávanie ide cez regex podľa textu riadku (nie presnú zhodu), takže drobné variácie znenia (napr. "doprava Packeta" vs "Packeta") fungujú rovnako. Neznáma doprava/platba (nenulová suma) sa označí ako voľná položka (`V`) a vypíše sa upozornenie — pribudne nová služba v Shoptete, treba doplniť do `SERVICE_CODES` v oboch súboroch.
+
 ## Naskladnenie z faktúry dodávateľa (`scripts/parse-supplier-invoice.js`, `naskladnenie.html`)
 
 Keď príde PDF faktúra od dodávateľa (ATOS / K+B / InnPro) za tovar do e-shopu, treba (1) zistiť z nej položky a množstvá, (2) napárovať ich na existujúce Shoptet produkty a (3) naskladniť správne kódy v Shoptete (`Produkty → Sklad → Naskladnenie`). Tento nástroj robí kroky 1-2 automaticky — samotné naskladnenie v Shoptete je zatiaľ ručné (obchod nemá Shoptet Premium/API prístup).
