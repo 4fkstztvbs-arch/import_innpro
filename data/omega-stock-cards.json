@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600007,
+    "nextCardNumber": 202600010,
     "cards": {
       "6971636400998": {
         "kod": "202600001",
@@ -38,6 +38,24 @@
         "nazov": "Energy Power Radio - Bluetooth headset with FM radio",
         "dodavatel": "basys",
         "code": ""
+      },
+      "8594186720972": {
+        "kod": "202600007",
+        "nazov": "GUZZANTI GZ 220A",
+        "dodavatel": "kb",
+        "code": "100000190763"
+      },
+      "3597320107856": {
+        "kod": "202600008",
+        "nazov": "ANTALIS Image Volume papír A4",
+        "dodavatel": "kb",
+        "code": "100001929344"
+      },
+      "6923520216918": {
+        "kod": "202600009",
+        "nazov": "EDIFIER T5s subwoofer černý",
+        "dodavatel": "kb",
+        "code": "100002201644"
       }
     }
   },
