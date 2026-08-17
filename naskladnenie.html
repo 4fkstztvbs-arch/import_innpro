@@ -135,7 +135,7 @@
 <body>
 <div class="wrap">
   <h1>Naskladnenie z faktúry dodávateľa</h1>
-  <p class="sub">Nahraj PDF faktúru od ATOS, K+B alebo InnPro — prevod zistí položky tovaru a spáruje ich s existujúcimi Shoptet produktmi (podľa EAN, u K+B podľa názvu). Výsledok je zoznam na ručné naskladnenie v Shoptete (Produkty → Sklad → Naskladnenie). Faktúra sa spracúva priamo v prehliadači, nikam sa neposiela — okrem stiahnutia verejných produktových feedov tohto e-shopu (na spárovanie kódov).</p>
+  <p class="sub">Nahraj PDF faktúru od ATOS, K+B, InnPro alebo BaSys — prevod zistí položky tovaru a spáruje ich s existujúcimi Shoptet produktmi (podľa EAN, u K+B podľa názvu). Výsledok je zoznam na ručné naskladnenie v Shoptete (Produkty → Sklad → Naskladnenie). Faktúra sa spracúva priamo v prehliadači, nikam sa neposiela — okrem stiahnutia verejných produktových feedov tohto e-shopu (na spárovanie kódov).</p>
 
   <div class="card">
     <div class="supplier-row" id="supplierRow">
@@ -143,6 +143,7 @@
       <label><input type="radio" name="supplier" value="atos"><span>ATOS</span></label>
       <label><input type="radio" name="supplier" value="kb"><span>K+B</span></label>
       <label><input type="radio" name="supplier" value="innpro"><span>InnPro</span></label>
+      <label><input type="radio" name="supplier" value="basys"><span>BaSys</span></label>
     </div>
     <label class="drop" id="drop">
       <input type="file" id="file" accept=".pdf">
@@ -169,14 +170,14 @@
   <details>
     <summary>Ako to použiť</summary>
     <ol>
-      <li>Stiahni PDF faktúru od dodávateľa (ATOS / K+B / InnPro).</li>
+      <li>Stiahni PDF faktúru od dodávateľa (ATOS / K+B / InnPro / BaSys).</li>
       <li>Nahraj ju sem, klikni <b>Spracovať faktúru</b>.</li>
       <li>Skontroluj tabuľku — riadky <b>OK</b> naskladni v Shoptete (Produkty → Sklad → Naskladnenie) v uvedenom množstve pod uvedeným Shoptet kódom.</li>
       <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, alebo feed ešte nemá aktuálne dáta) — over/naskladni ručne podľa názvu.</li>
       <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky).</li>
       <li>Sekcia "Príjemka pre Omegu" ponúkne súbor(y) na stiahnutie: ak sú v faktúre nové produkty (bez karty v sklade Eshop), najprv súbor s <b>novými kartami</b> (naimportuj v Omege ako prvý), potom vždy súbor s <b>príjemkou</b> (naimportuj až po nových kartách).</li>
     </ol>
-    <p>Spárovanie so Shoptet produktmi (horná tabuľka) beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
+    <p>Spárovanie so Shoptet produktmi (horná tabuľka) beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>, <code>output/basys.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
     <p>Čísla skladových kariet pre sklad Eshop prideľuje a ukladá automaticky Omega cards API — nové produkty (bez EAN v databáze) dostanú ďalšie voľné číslo (od <code>202600001</code>) a pripraví sa pre ne aj založenie karty (T03). Položky bez EAN na faktúre sa spracovať nedajú.</p>
   </details>
 
@@ -187,8 +188,8 @@
 import * as pdfjsLib from './vendor/pdfjs/pdf.min.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = './vendor/pdfjs/pdf.worker.min.mjs';
 
-const FEED_FILES = { atos: 'output/atos.xml', kb: 'output/kb.xml', innpro: 'output/innpro.xml' };
-const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro' };
+const FEED_FILES = { atos: 'output/atos.xml', kb: 'output/kb.xml', innpro: 'output/innpro.xml', basys: 'output/basys.xml' };
+const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro', basys: 'BaSys' };
 const NON_STOCK_KEYWORDS = [
   'dobierka', 'dobírka', 'doprava', 'postovne', 'poštovné', 'recyklac', 'recyklač',
   'koszty dostawy', 'przesyłki', 'przesylki', 'shipping', 'dorucenie', 'doručenie',
@@ -210,6 +211,17 @@ function toFloat(s) {
   if (s === undefined || s === null) return 0;
   const v = parseFloat(String(s).replace(/\s/g, '').replace(',', '.'));
   return Number.isNaN(v) ? 0 : v;
+}
+// BASYS pouziva "." ako oddelovac tisicok (napr. "1.800,00" = 1800.00) - bezny toFloat() by to
+// zle sparsoval ("1.800.00" po nahradeni ciarky -> parseFloat zastavi na druhej bodke -> 1.8).
+function toFloatEuro(s) {
+  if (s === undefined || s === null) return 0;
+  const v = parseFloat(String(s).replace(/\s/g, '').replace(/\./g, '').replace(',', '.'));
+  return Number.isNaN(v) ? 0 : v;
+}
+// EAN sa niekedy uvadza aj bez uvodnej nuly - pri parovani preto porovnavame bez uvodnych nul.
+function normalizeEan(ean) {
+  return String(ean || '').replace(/^0+/, '');
 }
 
 // ---------- Windows-1250 kodovanie (Omega prijemku vyzaduje cp1250) ----------
@@ -239,6 +251,7 @@ const SUPPLIER_OMEGA_IDENTITY = {
   atos: { name: 'ATOS spol. s r.o.', ico: '18055761', partnerId: '0002', street: 'Bohumínska 1556', zip: '969 01', city: 'Rychvald', label: 'Atos' },
   innpro: { name: 'INNPRO Robert Bledowski SP. z. o.o.', ico: '', partnerId: '9066', street: 'Rudzka 65C', zip: '982 65', city: 'Rybnik', label: 'Innpro' },
   kb: { name: 'K+B Progres, a.s., organizační složka SK', ico: '', partnerId: '', street: '', zip: '', city: '', label: 'K+B' },
+  basys: { name: 'BaSys CS, s.r.o.', ico: '49615581', partnerId: '', street: 'Sodomkova 1478/8', zip: '102 00', city: 'Praha 10', label: 'BaSys' },
 };
 function nat(n, decimals = 2) {
   let s = (Math.round((n + Number.EPSILON) * 10 ** decimals) / 10 ** decimals).toFixed(decimals);
@@ -273,6 +286,12 @@ function extractInvoiceNumber(rows, supplier) {
   if (supplier === 'innpro') {
     for (const line of flatRows) {
       const m = line.match(/invoice\s+(\d{3,})/i);
+      if (m) return m[1];
+    }
+  }
+  if (supplier === 'basys') {
+    for (const line of flatRows) {
+      const m = line.match(/variabiln[íi]\s*symbol:?\s*(\d{4,})/i);
       if (m) return m[1];
     }
   }
@@ -376,6 +395,7 @@ function detectSupplier(rows) {
   if (text.includes('atos spol')) return 'atos';
   if (text.includes('k+b progres')) return 'kb';
   if (text.includes('innpro robert')) return 'innpro';
+  if (text.includes('basys cs')) return 'basys';
   return null;
 }
 
@@ -426,7 +446,21 @@ function parseInnpro(rows) {
   }
   return items;
 }
-const SUPPLIER_PARSERS = { atos: parseAtos, kb: parseKb, innpro: parseInnpro };
+// BASYS: polozka na 1 riadku (kod/nazov/mnozstvo/cena), EAN na nasledujucom riadku.
+function parseBasys(rows) {
+  const items = [];
+  for (let i = 0; i < rows.length; i++) {
+    const cells = rows[i];
+    // riadok polozky: kod, nazov, mnozstvo, jednotka, sklad, JC bez DPH, sleva %, JC po slevě, celkom bez DPH, mena
+    if (cells.length < 9) continue;
+    if (!/^(pc\.|ks|kus)$/i.test(cells[3] || '')) continue; // stlpec "jednotka" rozlisi riadok polozky od ostatnych
+    const nextRow = rows[i + 1] || [];
+    const ean = /^\d{8,14}$/.test(nextRow[0]) ? nextRow[0] : '';
+    items.push({ code: cells[0], ean, name: cells[1], quantity: toFloatEuro(cells[2]) || 1, unitPriceNet: toFloatEuro(cells[7]) });
+  }
+  return items;
+}
+const SUPPLIER_PARSERS = { atos: parseAtos, kb: parseKb, innpro: parseInnpro, basys: parseBasys };
 
 async function loadFeedIndex(supplier) {
   const byEan = new Map();
@@ -440,13 +474,13 @@ async function loadFeedIndex(supplier) {
     const code = it.getElementsByTagName('CODE')[0]?.textContent?.trim() || '';
     const ean = it.getElementsByTagName('EAN')[0]?.textContent?.trim() || '';
     const name = it.getElementsByTagName('NAME')[0]?.textContent?.trim() || '';
-    if (ean) byEan.set(ean, { code, name });
+    if (ean) byEan.set(normalizeEan(ean), { code, name });
     if (name) byName.set(normalize(name), { code, name });
   }
   return { byEan, byName };
 }
 function matchItem(item, index) {
-  if (item.ean && index.byEan.has(item.ean)) return { ...index.byEan.get(item.ean), matchedBy: 'EAN' };
+  if (item.ean && index.byEan.has(normalizeEan(item.ean))) return { ...index.byEan.get(normalizeEan(item.ean)), matchedBy: 'EAN' };
   const byName = index.byName.get(normalize(item.name));
   if (byName) return { ...byName, matchedBy: 'názov' };
   return null;
