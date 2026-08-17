@@ -2,7 +2,7 @@
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky/vydajky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia). 'nextVydajNumber' - rovnaky princip, ale pre cislovanie dokladov vydajky zo skladu Eshop (samostatny ciselny rad 'Vydajky' v Omege, NIE cislo faktury) - cislo dokladu sa pri TXT importe do Omegy nedopĺňa automaticky, preto ho tento nastroj musi dodat vopred.",
   "eshop": {
     "nextCardNumber": 202600006,
-    "nextVydajNumber": 202600002,
+    "nextVydajNumber": 202600003,
     "cards": {
       "6971636400998": {
         "kod": "202600001",
