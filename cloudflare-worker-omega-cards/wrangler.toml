@@ -1,0 +1,6 @@
+name = "omega-cards-api"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+[vars]
+GH_REPO = "4fkstztvbs-arch/import_innpro"

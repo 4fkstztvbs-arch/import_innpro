@@ -6,11 +6,14 @@
 // Stlpcove mapovanie odvodene z realnych T02/T03 exportov z Omegy (obsahovali osobne udaje/citlive
 // data, preto sa neuklada do repozitara - len z nich odvodene poznatky a data/omega-stock-cards.json).
 //
-// DOLEZITY NEOVERENY PREDPOKLAD: cislo novej karty (T03) tento skript SAM PRIDELUJE postupne od
-// data/omega-stock-cards.json -> eshop.nextCardNumber (zaciatok 202600001, podla zadania). Predpoklada
-// sa, ze Omega pri importe T03 s explicitne vyplnenym cislom karty toto cislo POUZIJE (nie ze by si
-// prideľovala vlastne). Toto NIE JE overene skutocnym testovacim importom - pred bezným pouzivanim
-// over jednym testovacim produktom, ci karta v Omege naozaj dostane presne toto cislo.
+// Cisla novych kariet pridel'uje cloudflare-worker-omega-cards/ (Omega cards API) - jediny zdroj
+// pravdy zdielany s naskladnenie.html, ukladá priamo do data/omega-stock-cards.json v repozitari
+// (zaciatok cislovania 202600001, podla zadania).
+//
+// DOLEZITY NEOVERENY PREDPOKLAD: predpoklada sa, ze Omega pri importe T03 s explicitne vyplnenym
+// cislom karty toto cislo POUZIJE (nepridelí vlastne). Toto NIE JE overene skutocnym testovacim
+// importom - pred bezným pouzivanim over jednym testovacim produktom, ci karta v Omege naozaj
+// dostane presne toto cislo.
 //
 // Import v Omege MUSI prebehnut v poradi: najprv T03 subor (zalozi karty), potom az T02 (prijemka) -
 // oba subory su samostatne, kombinovanie T01/T02/T03 v jednom subore nie je overene.
@@ -25,7 +28,10 @@ const {
   extractRows, detectSupplier, SUPPLIER_PARSERS, SUPPLIER_LABELS, isNonStock,
 } = require('./parse-supplier-invoice');
 
-const CARDS_PATH = path.join(__dirname, '..', 'data', 'omega-stock-cards.json');
+// Omega cards API (cloudflare-worker-omega-cards/) - jediny zdroj pravdy pre cisla skladovych
+// kariet, zdielany s naskladnenie.html. Pridel'uje cisla a ukladá ich priamo do repozitara.
+const OMEGA_CARDS_API_URL = process.env.OMEGA_CARDS_API_URL || 'https://omega-cards-api.dt7vy7byn2.workers.dev';
+const OMEGA_CARDS_API_KEY = process.env.OMEGA_CARDS_API_KEY || 'V77bC1yTE_ATf46jy_Xyx5efDgVj_BDm';
 const SELLER_NAME = 'Trokšiar .';
 const SKLAD_NAME = 'Eshop';
 const SKLAD_KOD = '03';
@@ -65,12 +71,15 @@ function nowTime() {
   return `${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}.000`;
 }
 
-function loadCards() {
-  if (!fs.existsSync(CARDS_PATH)) throw new Error(`Chyba ${CARDS_PATH}`);
-  return JSON.parse(fs.readFileSync(CARDS_PATH, 'utf8'));
-}
-function saveCards(db) {
-  fs.writeFileSync(CARDS_PATH, JSON.stringify(db, null, 2) + '\n', 'utf8');
+async function reserveOmegaCards(items) {
+  const res = await fetch(`${OMEGA_CARDS_API_URL}/reserve`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Api-Key': OMEGA_CARDS_API_KEY },
+    body: JSON.stringify({ items }),
+  });
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || `Omega cards API zlyhalo (${res.status})`);
+  return body.assigned;
 }
 
 // ---------- T02 (prijemka) ----------
@@ -228,15 +237,12 @@ async function main() {
   if (!parser) { console.error(`Neznamy dodavatel "${supplier}"`); process.exit(1); }
 
   const rawItems = parser(rows);
-  const db = loadCards();
   const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
 
   const invoiceNumber = extractInvoiceNumber(rows, supplier);
 
-  const toReceive = [];
-  const newCards = [];
+  const physicalItems = [];
   let freightTotal = 0;
-
   for (const item of rawItems) {
     if (isNonStock(item.name)) {
       freightTotal += (item.unitPriceNet || 0) * (item.quantity || 1);
@@ -246,15 +252,19 @@ async function main() {
       console.warn(`  [!] polozka bez EAN, preskocena (nedokazem overit/zalozit kartu bez EAN): ${item.name}`);
       continue;
     }
-    let card = db.eshop.cards[item.ean];
-    if (!card) {
-      const cardCode = String(db.eshop.nextCardNumber);
-      card = { kod: cardCode, nazov: item.name, dodavatel: supplier };
-      db.eshop.cards[item.ean] = card;
-      db.eshop.nextCardNumber += 1;
-      newCards.push({ ...item, cardCode });
+    physicalItems.push(item);
+  }
+
+  const toReceive = [];
+  const newCards = [];
+  if (physicalItems.length > 0) {
+    const assigned = await reserveOmegaCards(physicalItems.map((i) => ({ ean: i.ean, name: i.name, supplier })));
+    for (const item of physicalItems) {
+      const card = assigned[item.ean];
+      if (!card) continue;
+      if (card.isNew) newCards.push({ ...item, cardCode: card.kod });
+      toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
     }
-    toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
   }
 
   console.log(`\nDodavatel: ${SUPPLIER_LABELS[supplier]} | Faktura c.: ${invoiceNumber || '(nenajdene)'}`);
@@ -287,9 +297,6 @@ async function main() {
   const prijemkaPath = path.join(outDir, `omega-prijemka-${today}-${supplier}.txt`);
   fs.writeFileSync(prijemkaPath, iconv.encode(prijemkaLines.join('\r\n') + '\r\n', 'win1250'));
   console.log(`Prijemka ulozena -> ${prijemkaPath}${newCards.length > 0 ? ' (naimportuj v Omege AZ PO novych kartach)' : ''}`);
-
-  saveCards(db);
-  console.log(`\ndata/omega-stock-cards.json aktualizovany (dalsie volne cislo karty: ${db.eshop.nextCardNumber}).`);
 }
 
 main().catch((err) => {

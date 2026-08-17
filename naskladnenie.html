@@ -174,10 +174,10 @@
       <li>Skontroluj tabuľku — riadky <b>OK</b> naskladni v Shoptete (Produkty → Sklad → Naskladnenie) v uvedenom množstve pod uvedeným Shoptet kódom.</li>
       <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, alebo feed ešte nemá aktuálne dáta) — over/naskladni ručne podľa názvu.</li>
       <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky).</li>
-      <li>Ak sekcia "Príjemka pre Omegu" ponúka súbor na stiahnutie, naimportuj ho v Omege (<code>Firma → Import → Import z textového súboru</code>) — vytvorí príjemku len pre položky so známou skladovou kartou.</li>
+      <li>Sekcia "Príjemka pre Omegu" ponúkne súbor(y) na stiahnutie: ak sú v faktúre nové produkty (bez karty v sklade Eshop), najprv súbor s <b>novými kartami</b> (naimportuj v Omege ako prvý), potom vždy súbor s <b>príjemkou</b> (naimportuj až po nových kartách).</li>
     </ol>
-    <p>Spárovanie beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
-    <p>Príjemka pre Omegu sa generuje len pre položky, ktorých EAN je v <code>data/omega-stock-cards.json</code> (databáza overených čísel skladových kariet). Nové produkty (bez známej karty) sa do príjemky nezahrnú — treba ich v Omege dohľadať/založiť ručne a číslo karty doplniť do databázy pre nabudúce.</p>
+    <p>Spárovanie so Shoptet produktmi (horná tabuľka) beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
+    <p>Čísla skladových kariet pre sklad Eshop prideľuje a ukladá automaticky Omega cards API — nové produkty (bez EAN v databáze) dostanú ďalšie voľné číslo (od <code>202600001</code>) a pripraví sa pre ne aj založenie karty (T03). Položky bez EAN na faktúre sa spracovať nedajú.</p>
   </details>
 
   <footer>Prevod beží lokálne vo vašom prehliadači (JavaScript).</footer>
@@ -231,6 +231,10 @@ const SKLAD_NAME = 'Eshop';
 const SKLAD_KOD = '03';
 const MARKUP = 1.15;
 const VAT_RATE = 0.23;
+// Omega cards API (cloudflare-worker-omega-cards/) - pridel'uje cisla novych kariet a ukladá ich
+// priamo do repozitara (data/omega-stock-cards.json), takze netreba rucne stahovat/nahradzat subor.
+const OMEGA_CARDS_API_URL = 'https://omega-cards-api.dt7vy7byn2.workers.dev';
+const OMEGA_CARDS_API_KEY = 'V77bC1yTE_ATf46jy_Xyx5efDgVj_BDm';
 const SUPPLIER_OMEGA_IDENTITY = {
   atos: { name: 'ATOS spol. s r.o.', ico: '18055761', partnerId: '0002', street: 'Bohumínska 1556', zip: '969 01', city: 'Rychvald', label: 'Atos' },
   innpro: { name: 'INNPRO Robert Bledowski SP. z. o.o.', ico: '', partnerId: '9066', street: 'Rudzka 65C', zip: '982 65', city: 'Rybnik', label: 'Innpro' },
@@ -334,12 +338,15 @@ function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel) {
   cols[44] = 'SK'; cols[45] = 'SK'; cols[46] = '504'; cols[47] = '000'; cols[48] = '0'; cols[49] = '0';
   return cols;
 }
-async function loadStockCards() {
-  try {
-    const res = await fetch('data/omega-stock-cards.json');
-    if (!res.ok) return null;
-    return await res.json();
-  } catch { return null; }
+async function reserveOmegaCards(items) {
+  const res = await fetch(OMEGA_CARDS_API_URL + '/reserve', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Api-Key': OMEGA_CARDS_API_KEY },
+    body: JSON.stringify({ items }),
+  });
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || `Omega cards API zlyhalo (${res.status})`);
+  return body.assigned;
 }
 
 async function extractRows(file) {
@@ -539,30 +546,39 @@ convertBtn.addEventListener('click', async () => {
     downloadLink.textContent = `⬇ Stiahnuť naskladnenie-${today}-${supplier}.csv`;
 
     // ---- Prijemka (T02) + nove skladove karty (T03) pre sklad "Eshop" ----
-    const db = await loadStockCards();
     omegaCard.style.display = 'block';
-    if (!db || !db.eshop) {
-      const eBox2 = document.createElement('div');
-      eBox2.className = 'box err';
-      eBox2.textContent = 'Nepodarilo sa načítať data/omega-stock-cards.json — príjemka sa nedá pripraviť.';
-      omegaBoxes.appendChild(eBox2);
-    } else {
+    {
       const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
       const toReceive = [];
       const newCards = [];
       const skippedNoEan = [];
       let freightTotal = 0;
+      const physicalItems = [];
       for (const item of rawItems) {
         if (isNonStock(item.name)) { freightTotal += (item.unitPriceNet || 0) * (item.quantity || 1); continue; }
         if (!item.ean) { skippedNoEan.push(item); continue; }
-        let card = db.eshop.cards[item.ean];
-        if (!card) {
-          const cardCode = String(db.eshop.nextCardNumber);
-          card = { kod: cardCode, nazov: item.name, dodavatel: supplier };
-          db.eshop.cards[item.ean] = card;
-          db.eshop.nextCardNumber += 1;
-          newCards.push({ ...item, cardCode });
+        physicalItems.push(item);
+      }
+
+      let assigned = {};
+      let apiError = null;
+      if (physicalItems.length > 0) {
+        try {
+          assigned = await reserveOmegaCards(physicalItems.map((i) => ({ ean: i.ean, name: i.name, supplier })));
+        } catch (err) {
+          apiError = err.message;
         }
+      }
+      if (apiError) {
+        const eBox2 = document.createElement('div');
+        eBox2.className = 'box err';
+        eBox2.textContent = `Nepodarilo sa spojiť s Omega cards API (${apiError}) — príjemka sa nedá pripraviť.`;
+        omegaBoxes.appendChild(eBox2);
+      }
+      for (const item of physicalItems) {
+        const card = assigned[item.ean];
+        if (!card) continue;
+        if (card.isNew) newCards.push({ ...item, cardCode: card.kod });
         toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
       }
 
@@ -595,18 +611,8 @@ convertBtn.addEventListener('click', async () => {
 
         const okBox2 = document.createElement('div');
         okBox2.className = 'box ok';
-        okBox2.textContent = `Sklad "Eshop": ${toReceive.length} položiek na príjemku, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}).`;
+        okBox2.textContent = `Sklad "Eshop": ${toReceive.length} položiek na príjemku, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}). Databáza kariet je už uložená automaticky.`;
         omegaBoxes.insertBefore(okBox2, omegaBoxes.firstChild);
-
-        // aktualizovana databaza (nove karty + posunuty pocitadlo) - MUSI sa nahradit data/omega-stock-cards.json v repozitari,
-        // inak sa cisla kariet pri dalsom pouziti zacnu prekryvat
-        const dbBytes = new TextEncoder().encode(JSON.stringify(db, null, 2) + '\n');
-        const dbUrl = URL.createObjectURL(new Blob([dbBytes], { type: 'application/json' }));
-        const dbLink = document.createElement('a');
-        dbLink.className = 'download'; dbLink.href = dbUrl;
-        dbLink.download = 'omega-stock-cards.json';
-        dbLink.textContent = '⬇ 3. Stiahnuť aktualizovanú databázu kariet (nahraď ňou data/omega-stock-cards.json v repozitári!)';
-        omegaBoxes.appendChild(dbLink);
       }
       if (skippedNoEan.length > 0) {
         const wBox2 = document.createElement('div');
@@ -614,7 +620,7 @@ convertBtn.addEventListener('click', async () => {
         wBox2.textContent = `${skippedNoEan.length} položiek bez EAN sa nedalo spracovať (nedá sa overiť/založiť karta bez EAN): ` + skippedNoEan.map((i) => i.name).join(', ');
         omegaBoxes.appendChild(wBox2);
       }
-      if (toReceive.length === 0 && skippedNoEan.length === 0) {
+      if (toReceive.length === 0 && skippedNoEan.length === 0 && !apiError) {
         const iBox2 = document.createElement('div');
         iBox2.className = 'box warn';
         iBox2.textContent = 'Žiadna položka na príjemku (všetko boli poplatky/doprava).';

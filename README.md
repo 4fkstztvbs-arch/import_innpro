@@ -154,16 +154,31 @@ Nadväzuje na naskladnenie vyššie — z tej istej PDF faktúry vygeneruje Omeg
 
 **Dôležité zistenie:** T01 import faktúry v Omege **automaticky vygeneruje aj výdajku zo skladu** (potvrdené krížovou kontrolou identifikátorov medzi T01 a T02 exportom) — netreba ju teda vytvárať samostatne, `transform-omega-invoices.js`/`omega-import.html` stačí.
 
-**Číslo skladovej karty je viazané na konkrétny sklad** (to isté číslo znamená v inom sklade iný produkt — overené priamo v dátach), preto má zmysel len v rámci Eshopu. `data/omega-stock-cards.json` drží mapovanie **EAN → číslo karty v Eshope**:
-- Nové karty sa číslujú od `202600001` (vlastné nastavenie, rovnaké ako číslovanie dokladov príjemky/výdajky) — nástroj si ďalšie voľné číslo sám vedie v `eshop.nextCardNumber`.
-- Ak faktúra obsahuje produkt, ktorého EAN v databáze ešte nie je, nástroj mu **pridelí ďalšie voľné číslo** a pripraví aj T03 import na jeho založenie. Pri opakovanom výskyte toho istého EAN sa karta znova nezakladá, len sa naskladní (príjemka je prírastková — pripočíta sa k aktuálnemu stavu karty).
+**Číslo skladovej karty je viazané na konkrétny sklad** (to isté číslo znamená v inom sklade iný produkt — overené priamo v dátach), preto má zmysel len v rámci Eshopu. Mapovanie **EAN → číslo karty v Eshope** drží `data/omega-stock-cards.json`:
+- Nové karty sa číslujú od `202600001` (vlastné nastavenie, rovnaké ako číslovanie dokladov príjemky/výdajky).
+- Ak faktúra obsahuje produkt, ktorého EAN v databáze ešte nie je, pridelí sa mu **ďalšie voľné číslo** a pripraví sa aj T03 import na jeho založenie. Pri opakovanom výskyte toho istého EAN sa karta znova nezakladá, len sa naskladní (príjemka je prírastková — pripočíta sa k aktuálnemu stavu karty).
 - Položky bez EAN sa nedajú spracovať (nedá sa overiť/založiť karta) — vypíšu sa zvlášť.
 
-**NEOVERENÝ predpoklad, ktorý treba potvrdiť testovacím importom:** skript predpokladá, že Omega pri T03 importe s explicitne vyplneným číslom karty toto číslo **použije** (nepridelí vlastné). Pred bežným používaním odporúčame overiť jedným testovacím produktom priamo v Omege.
+**NEOVERENÝ predpoklad, ktorý treba potvrdiť testovacím importom:** predpokladá sa, že Omega pri T03 importe s explicitne vyplneným číslom karty toto číslo **použije** (nepridelí vlastné). Pred bežným používaním odporúčame overiť jedným testovacím produktom priamo v Omege.
 
 **Poradie importu v Omege je dôležité:** najprv súbor s novými kartami (T03), až potom príjemka (T02) — kombinovanie viacerých typov v jednom súbore nie je overené, preto sú to vždy dva samostatné súbory.
 
-**Webový formulár (`naskladnenie.html`) — obmedzenie zápisu:** keďže ide o statickú stránku bez servera, nevie si zapísať aktualizovanú databázu kariet naspäť do repozitára (na rozdiel od `transform-omega-prijemka.js`, ktorý to robí automaticky pri behu z príkazového riadku). Preto po spracovaní faktúry s novými kartami ponúkne **3 súbory na stiahnutie v poradí**: 1) nové karty, 2) príjemka, 3) aktualizovaná `omega-stock-cards.json` — súbor č. 3 treba nahradiť v repozitári, inak by ďalšie použitie znova začalo číslovať od rovnakého čísla a kolidovalo by s už vytvorenými kartami.
+**Prideľovanie čísel kariet rieši `cloudflare-worker-omega-cards/`** (Omega cards API — pozri nižšie) — vďaka nemu netreba po každom použití ručne sťahovať a nahrádzať `data/omega-stock-cards.json` v repozitári; API ho aktualizuje samo. Webová aj CLI verzia zdieľajú to isté API ako jediný zdroj pravdy.
+
+## Omega cards API (`cloudflare-worker-omega-cards/`)
+
+Malý Cloudflare Worker, ktorý drží `data/omega-stock-cards.json` ako jediný zdroj pravdy a pri každej novej položke ho commitne priamo do repozitára cez GitHub Contents API — takže `naskladnenie.html` (statická stránka bez servera) aj `transform-omega-prijemka.js` (CLI) môžu prideľovať čísla kariet bez rizika, že si navzájom "prešliapu" číslovanie, a bez ručného sťahovania/nahrádzania súboru.
+
+- `GET /state` — aktuálny stav (verejne čitateľné, neobsahuje citlivé údaje — len názvy produktov, EAN, čísla kariet).
+- `POST /reserve` (vyžaduje hlavičku `X-Api-Key`) — pre zoznam položiek `{ean, name, supplier}` pridelí chýbajúce čísla kariet, uloží zmenu a vráti mapovanie `ean → {kod, nazov, dodavatel, isNew}`.
+
+**Nasadenie (treba urobiť raz, mimo Claude — vyžaduje prístup do Cloudflare aj GitHub účtu):**
+1. **GitHub token:** `Settings → Developer settings → Fine-grained personal access tokens` → nový token, obmedzený **len na tento repozitár**, oprávnenie `Contents: Read and write`. Ulož ho ako repo secret `OMEGA_CARDS_GH_TOKEN`.
+2. **API kľúč:** ľubovoľný náhodný reťazec (slúži ako heslo pre `POST /reserve`, aby ho nemohol zavolať niekto cudzí) — ulož ako repo secret `OMEGA_CARDS_API_KEY`. Rovnaká hodnota musí byť aj v `naskladnenie.html`/`transform-omega-prijemka.js` (`OMEGA_CARDS_API_KEY` konštanta/env premenná).
+3. `CLOUDFLARE_API_TOKEN` a `CLOUDFLARE_ACCOUNT_ID` už tento repozitár má nastavené (rovnaké ako pre ostatné Workery — ATOS/Solight/WiiM obrázkové proxy).
+4. Push do `cloudflare-worker-omega-cards/` (alebo `workflow_dispatch` na `Deploy Omega cards API`) Worker nasadí a nastaví mu secrets automaticky.
+
+Keďže `X-Api-Key` je viditeľný priamo v zdrojovom kóde stránky (verejný repozitár, žiadny skutočný backend), ide o slabú ochranu proti náhodnému zneužitiu, nie o skutočné zabezpečenie — vzhľadom na nízku citlivosť dát (len produktové názvy/EAN/čísla kariet, nie osobné údaje) je to primeraný kompromis.
 
 **Príkazový riadok:** `node scripts/transform-omega-prijemka.js faktura.pdf [--supplier=atos|kb|innpro] [--sklad="Eshop"]` → `output/omega-prijemka-<dátum>-<dodávateľ>.txt`.
 
