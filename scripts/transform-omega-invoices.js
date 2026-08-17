@@ -20,6 +20,7 @@ const { XMLParser } = require('fast-xml-parser');
 
 const IN_PATH = process.argv[2] || path.join(__dirname, '..', 'data', 'stormware_invoices.xml');
 const OUT_PATH = process.argv[3] || path.join(__dirname, '..', 'output', 'omega-invoices.txt');
+const OUT_VYDAJKA_PATH = path.join(path.dirname(OUT_PATH), `${path.basename(OUT_PATH, '.txt')}-vydajka.txt`);
 
 // Omega cards API (cloudflare-worker-omega-cards/) - odtial sa zisti, akemu cislu skladovej karty
 // v sklade Eshop zodpoveda predavany produkt (podla Shoptet kodu), aby vydajka pri importe faktury
@@ -232,7 +233,99 @@ function buildItemRow(item, cardIndex, warnings) {
   cols[53] = analytika;
   cols[54] = ''; cols[55] = ''; cols[56] = '';
   cols[57] = '0,0000';
-  return { cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode };
+  return {
+    cols, lineNetTotal: round2(unitPriceNet * quantity), rateCode,
+    typ, cardCode, text, quantity, unitPriceNet, unitPriceGross,
+  };
+}
+
+// ---------- T02 (vydajka zo skladu Eshop, generovana k predajnej fakture) ----------
+// Mapovanie stlpcov odvodene z realneho T02 exportu vydajky, ktoru pouzivatel rucne vytvoril
+// v Omege vyberom karty z katalogu (nie importom) - viď README pre kontext. DOLEZITE ZISTENIE:
+// T01 import faktury SAM OSEBE nevytvara skutocnu vazbu na skladovu kartu (aj ked "Kod polozky"
+// v UI vyzera spravne vyplneny), Omega sa preto pri ulozeni nepyta na vydajku. Treba preto
+// vygenerovat T02 vydaj SAMOSTATNE, s vazbou na cislo faktury (stlpec 18).
+function buildVydajkaHeaderRow(invoice, invoiceNumber) {
+  const header = invoice.invoiceHeader || {};
+  const address = (header.partnerIdentity && header.partnerIdentity.address) || {};
+  const company = field(address, 'company');
+  const personName = field(address, 'name');
+  const partnerName = company || personName;
+  const ico = field(address, 'ico');
+  const street = field(address, 'street');
+  const zip = field(address, 'zip');
+  const city = field(address, 'city');
+  const dateIssue = dateToOmega(field(header, 'date'));
+
+  const cols = new Array(38).fill('');
+  cols[0] = 'R01';
+  cols[1] = 'Eshop';
+  cols[2] = ''; // cislo dokladu vydajky - necha sa na Omegu (auto-cislovanie)
+  cols[3] = 'V';
+  cols[4] = '11';
+  cols[5] = partnerName;
+  cols[6] = ico;
+  cols[7] = dateIssue;
+  cols[8] = 'PV';
+  cols[9] = 'V';
+  cols[10] = ''; // interne cislo partnera v Omege - neznamy vopred (Omega ho dohlada podla vazby na fakturu)
+  cols[11] = ''; cols[12] = ''; cols[13] = '';
+  cols[14] = street;
+  cols[15] = zip;
+  cols[16] = city;
+  cols[17] = '';
+  cols[18] = invoiceNumber; // vazba na uz naimportovanu fakturu (T01)
+  cols[19] = SELLER.name;
+  cols[20] = 'EUR';
+  cols[21] = '1';
+  cols[22] = '1';
+  cols[23] = '0.0000';
+  cols[24] = '0.0000';
+  cols[25] = '0.0000';
+  cols[26] = '1';
+  cols[27] = '1';
+  cols[28] = nowTime();
+  cols[29] = '-1';
+  cols[30] = '';
+  cols[31] = '0';
+  cols[32] = ''; // interne cislo zakaznika v Omege - neznamy vopred
+  cols[33] = 'VT';
+  cols[34] = '-3';
+  cols[35] = '1';
+  cols[36] = '0';
+  cols[37] = '';
+  return cols;
+}
+function buildVydajkaItemRow(text, quantity, unitPriceNet, unitPriceGross, cardCode) {
+  const cols = new Array(30).fill('');
+  const qtyOut = String(-Math.abs(quantity));
+  cols[0] = 'R02';
+  cols[1] = text;
+  cols[2] = qtyOut;
+  cols[3] = nat(unitPriceNet);
+  cols[4] = cardCode;
+  cols[5] = '0';
+  cols[6] = '0.0000';
+  cols[7] = nat(unitPriceNet);
+  cols[8] = '0';
+  cols[9] = '"ks"';
+  cols[10] = qtyOut;
+  cols[11] = '';
+  cols[12] = '-2';
+  cols[13] = '3';
+  cols[14] = '2';
+  cols[15] = '-2';
+  cols[16] = nat(unitPriceGross);
+  cols[17] = '0';
+  cols[18] = nat(unitPriceGross);
+  cols[19] = '0';
+  cols[20] = '0';
+  cols[21] = 'X'; cols[22] = '(Nedefinované)';
+  cols[23] = 'X'; cols[24] = '(Nedefinované)';
+  cols[25] = 'X'; cols[26] = '(Nedefinované)';
+  cols[27] = 'X'; cols[28] = '(Nedefinované)';
+  cols[29] = '';
+  return cols;
 }
 
 function buildHeaderRow(invoice, itemRows, totals) {
@@ -383,7 +476,17 @@ function convertInvoice(invoice, cardIndex, warnings) {
   const headerCols = buildHeaderRow(invoice, itemRows, totals);
   const lines = [headerCols.join('\t')];
   for (const r of itemRows) lines.push(r.cols.join('\t'));
-  return lines;
+
+  const stockItems = itemRows.filter((r) => r.typ === 'K');
+  let vydajkaLines = [];
+  if (stockItems.length > 0) {
+    const invoiceNumber = field((invoice.invoiceHeader || {}).number, 'numberRequested');
+    vydajkaLines = [buildVydajkaHeaderRow(invoice, invoiceNumber).join('\t')];
+    for (const r of stockItems) {
+      vydajkaLines.push(buildVydajkaItemRow(r.text, r.quantity, r.unitPriceNet, r.unitPriceGross, r.cardCode).join('\t'));
+    }
+  }
+  return { lines, vydajkaLines };
 }
 
 async function main() {
@@ -401,14 +504,26 @@ async function main() {
     );
   }
   const lines = ['R00\tT01'];
+  const vydajkaLines = [];
   for (const invoice of invoices) {
-    lines.push(...convertInvoice(invoice, cardIndex, warnings));
+    const result = convertInvoice(invoice, cardIndex, warnings);
+    lines.push(...result.lines);
+    if (result.vydajkaLines.length) vydajkaLines.push(...result.vydajkaLines);
   }
 
   const outText = lines.join('\r\n') + '\r\n';
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   fs.writeFileSync(OUT_PATH, iconv.encode(outText, 'win1250'));
   console.log(`Hotovo -> ${OUT_PATH} (Windows-1250, ${invoices.length} faktur)`);
+
+  if (vydajkaLines.length) {
+    const vydajkaText = ['R00\tT02', ...vydajkaLines].join('\r\n') + '\r\n';
+    fs.writeFileSync(OUT_VYDAJKA_PATH, iconv.encode(vydajkaText, 'win1250'));
+    console.log(`Vydajka ulozena -> ${OUT_VYDAJKA_PATH} (naimportuj v Omege AZ PO fakture T01)`);
+  } else {
+    console.log('Ziadna polozka so znamou kartou - vydajka sa negeneruje.');
+  }
+
   if (warnings.length) {
     console.warn(`\nUpozornenia (${warnings.length}):`);
     for (const w of warnings) console.warn(`  [!] ${w}`);
