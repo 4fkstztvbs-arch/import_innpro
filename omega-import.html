@@ -229,6 +229,24 @@ const PAYMENT_TYPE_MAP = {
 };
 const VAT_RATE_MAP = { high: 0.23, low: 0.19, third: 0.05, none: 0 };
 
+// Riadkove polozky dopravy/dobierky (typ "S" = sluzba) su v Omege vedene ako skladove karty typu
+// "Služba" v evidencii SL - stav sa neodpisuje, len sa pouzije suma. Kody zistene priamo z Omegy
+// (2026-08-17), nazvy sposobov dopravy z administracie premiumstore.sk (Doprava a platby).
+const SERVICE_CODES = [
+  { code: "000002", pattern: /packeta/i },
+  { code: "000003", pattern: /sps.*doru[cč]enie/i },
+  { code: "000004", pattern: /bal[ií]kovo/i },
+  { code: "000006", pattern: /bal[ií]kobox|alzabox/i },
+  { code: "000005", pattern: /slovensk[aá]\s*po[sš]ta/i },
+  { code: "000007", pattern: /geis/i },
+  { code: "000008", pattern: /dobierk|dob[ií]rk/i },
+  { code: "000009", pattern: /osobn[yý]\s*odber/i },
+];
+function matchServiceCode(t) {
+  const hit = SERVICE_CODES.find((s) => s.pattern.test(t));
+  return hit ? hit.code : "";
+}
+
 function mapPaymentType(code, warnings) {
   const mapped = PAYMENT_TYPE_MAP[code];
   if (!mapped) { warnings.push(`Neznámy spôsob platby "${code}" — použitá surová hodnota, over v Omege.`); return code || ""; }
@@ -269,6 +287,7 @@ function buildItemRow(item, warnings, cardIndex) {
   const cardCode = cardIndex.get(code) || cardIndex.get(stockIds) || "";
 
   let typ;
+  let serviceCode = "";
   if (stockIds) {
     if (cardCode) {
       typ = "K";
@@ -276,8 +295,17 @@ function buildItemRow(item, warnings, cardIndex) {
       typ = "V"; // bez znamej karty v Eshope sa neda spravne odpisat - radsej volna polozka nez zla karta
       warnings.push(`Produkt "${t}" (kód ${code || stockIds}) nemá známu kartu v sklade Eshop — výdajka sa NEODPÍŠE zo skladu, over v Omege.`);
     }
-  } else if (/^(SHIPPING|BILLING)/i.test(code)) typ = "S";
-  else typ = "V";
+  } else if (/^(SHIPPING|BILLING)/i.test(code)) {
+    serviceCode = matchServiceCode(t);
+    if (serviceCode) {
+      typ = "S";
+    } else {
+      typ = "V"; // neznamy sposob dopravy/platby - nema priradenu sluzbu SL v Omege
+      if (unitPriceNet !== 0) {
+        warnings.push(`Doprava/platba "${t}" nemá známu kartu služby v Omege (evidencia SL) — over v Omege.`);
+      }
+    }
+  } else typ = "V";
 
   const unitPriceGross = round2(unitPriceNet * (1 + rate));
   const strediskoKod = typ === "V" ? "" : typ === "S" ? "602" : "604";
@@ -300,7 +328,7 @@ function buildItemRow(item, warnings, cardIndex) {
   cols[14] = typ === "V" ? "" : "001";
   cols[15] = "";
   cols[16] = "";
-  cols[17] = typ === "K" ? cardCode : "";
+  cols[17] = typ === "K" ? cardCode : (typ === "S" ? serviceCode : "");
   cols[18] = "";
   cols[19] = "";
   cols[20] = "X"; cols[21] = "(Nedefinované)";
