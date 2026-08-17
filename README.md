@@ -155,19 +155,20 @@ Rozpoznávanie ide cez regex podľa textu riadku (nie presnú zhodu), takže dro
 
 ## Naskladnenie z faktúry dodávateľa (`scripts/parse-supplier-invoice.js`, `naskladnenie.html`)
 
-Keď príde PDF faktúra od dodávateľa (ATOS / K+B / InnPro / BaSys) za tovar do e-shopu, treba (1) zistiť z nej položky a množstvá, (2) napárovať ich na existujúce Shoptet produkty a (3) naskladniť správne kódy v Shoptete (`Produkty → Sklad → Naskladnenie`). Tento nástroj robí kroky 1-2 automaticky — samotné naskladnenie v Shoptete je zatiaľ ručné (obchod nemá Shoptet Premium/API prístup).
+Keď príde PDF faktúra od dodávateľa (ATOS / K+B / InnPro / BaSys / Solight) za tovar do e-shopu, treba (1) zistiť z nej položky a množstvá, (2) napárovať ich na existujúce Shoptet produkty a (3) naskladniť správne kódy v Shoptete (`Produkty → Sklad → Naskladnenie`). Tento nástroj robí kroky 1-2 automaticky — samotné naskladnenie v Shoptete je zatiaľ ručné (obchod nemá Shoptet Premium/API prístup).
 
-**Ako funguje párovanie:** nástroj načíta PDF faktúru (rozparsuje text podľa pozície na strane — funguje aj bez OCR, keďže tieto PDF majú vložený textový obsah), z každej faktúry vytiahne položky a spáruje ich s aktuálnym Shoptet feedom daného dodávateľa (`output/atos.xml`, `output/kb.xml`, `output/innpro.xml`, `output/basys.xml`):
-- **ATOS, InnPro aj BaSys:** faktúra obsahuje EAN — párovanie je spoľahlivé, kódy na faktúre (napr. ATOS `494318`, InnPro `FF5-A`, BaSys `B 892399-0010`) sa **nezhodujú** s reálnym Shoptet `CODE` (napr. `TOC-SX1014`, `029278`, `BASYS-B 892399-0010`), preto sa páruje výhradne cez EAN. Porovnanie EAN ignoruje prípadnú úvodnú nulu (bežná nezhoda medzi zdrojmi — napr. BaSys feed drží `17817856560`, faktúra `017817856560`).
-- **K+B:** faktúra EAN neobsahuje vôbec — párovanie ide cez presný názov produktu (menej spoľahlivé, funguje len ak sa názov na faktúre zhoduje s názvom v Shoptet feede).
+**Ako funguje párovanie:** nástroj načíta PDF faktúru (rozparsuje text podľa pozície na strane — funguje aj bez OCR, keďže tieto PDF majú vložený textový obsah), z každej faktúry vytiahne položky a spáruje ich s aktuálnym Shoptet feedom daného dodávateľa (`output/atos.xml`, `output/kb.xml`, `output/innpro.xml`, `output/basys.xml`, `output/solight.xml`):
+- **ATOS, InnPro, BaSys aj Solight:** faktúra obsahuje EAN — párovanie je spoľahlivé, kódy na faktúre (napr. ATOS `494318`, InnPro `FF5-A`, BaSys `B 892399-0010`, Solight `RNP100A1`) sa **nezhodujú** s reálnym Shoptet `CODE` (napr. `TOC-SX1014`, `029278`, `BASYS-B 892399-0010`; Solight kódy sa zhodujú priamo), preto sa páruje výhradne cez EAN. Porovnanie EAN ignoruje prípadnú úvodnú nulu (bežná nezhoda medzi zdrojmi — napr. BaSys feed drží `17817856560`, faktúra `017817856560`).
+- **K+B:** faktúra EAN niekedy neobsahuje vôbec (párovanie ide cez presný názov produktu, menej spoľahlivé), inokedy ho uvádza na samostatnom riadku pod položkou (`EAN: <číslo>`, prípadne o riadok nižšie, ak sa dlhší názov zalomí) — obe varianty sa rozpoznávajú.
 - **BaSys** navyše používa `.` ako oddeľovač tisícok v cenách (napr. `1.800,00` = 1800,00 EUR) — má vlastný parser čísel, aby sa cena neorezala.
+- **Solight** má názov produktu často zalomený na viac riadkov (spája sa max. 2 pokračovania), a riadky "Sériová čísla" + samotné výrobné čísla sa ignorujú, nie sú súčasťou názvu.
 - Riadky, ktoré nie sú fyzický tovar (Dobírka/Dobierka, doprava/Přepravné, Recyklačný príspevok, Koszty dostawy...) sa automaticky preskakujú a ich súčet ide do vedľajších nákladov príjemky.
 - **K+B niekedy posiela viacero faktúr v jednom PDF** (potvrdené na reálnej vzorke) — nástroj rozpozná hranicu medzi nimi (riadok "FAKTÚRA - DAŇOVÝ DOKLAD č.") a pre každú vygeneruje samostatnú príjemku s vlastným číslom faktúry a vlastnými vedľajšími nákladmi.
 - Nespárované položky (nový produkt, alebo feed ešte nemá čerstvé dáta z posledného behu) sa označia na ručné overenie — nič sa "nedomýšľa".
 
 **Webový formulár (`naskladnenie.html`):** nahraj PDF faktúru → tabuľka s výsledkom párovania (Shoptet kód, EAN, množstvo, stav) → stiahni CSV. Beží v prehliadači cez [pdf.js](https://mozilla.github.io/pdf.js/) (vendorovaný v `vendor/pdfjs/`, žiadna CDN závislosť) a `fetch()` na verejne publikované feedy tohto repozitára. Pole EAN v tabuľke je pre nespárované položky **editovateľné** — ak vieš EAN doplniť ručne (napr. produkt sa cez deň vypredal a v aktuálnom feede už nie je, ale treba ho naskladniť), príjemka pre Omegu sa pripraví aj preň. Samotné generovanie súborov pre Omegu (tlačidlo "Vygenerovať súbory pre Omegu") je zámerne oddelené od spracovania PDF, aby sa čísla kariet z Omega cards API prideľovali až po tom, čo si skontroluješ/doplníš tabuľku.
 
-**Príkazový riadok:** `node scripts/parse-supplier-invoice.js faktura.pdf [--supplier=atos|kb|innpro|basys]` (bez `--supplier` sa dodávateľ rozpozná automaticky z textu faktúry) → tabuľka do konzoly + CSV do `output/naskladnenie-<dátum>-<dodávateľ>.csv`.
+**Príkazový riadok:** `node scripts/parse-supplier-invoice.js faktura.pdf [--supplier=atos|kb|innpro|basys|solight]` (bez `--supplier` sa dodávateľ rozpozná automaticky z textu faktúry) → tabuľka do konzoly + CSV do `output/naskladnenie-<dátum>-<dodávateľ>.csv`.
 
 ## Príjemka + nové skladové karty pre Omegu (`scripts/transform-omega-prijemka.js`)
 
@@ -201,7 +202,7 @@ Malý Cloudflare Worker, ktorý drží `data/omega-stock-cards.json` ako jediný
 
 Keďže `X-Api-Key` je viditeľný priamo v zdrojovom kóde stránky (verejný repozitár, žiadny skutočný backend), ide o slabú ochranu proti náhodnému zneužitiu, nie o skutočné zabezpečenie — vzhľadom na nízku citlivosť dát (len produktové názvy/EAN/čísla kariet, nie osobné údaje) je to primeraný kompromis.
 
-**Príkazový riadok:** `node scripts/transform-omega-prijemka.js faktura.pdf [--supplier=atos|kb|innpro|basys] [--sklad="Eshop"]` → `output/omega-prijemka-<dátum>-<dodávateľ>.txt`.
+**Príkazový riadok:** `node scripts/transform-omega-prijemka.js faktura.pdf [--supplier=atos|kb|innpro|basys|solight] [--sklad="Eshop"]` → `output/omega-prijemka-<dátum>-<dodávateľ>.txt`.
 
 **Ako vznikla táto mapovanie stĺpcov:** Omega nemá verejne zdokumentovanú XML schému pre faktúry (na rozdiel od Pohody) — jej formát je 97-stĺpcový (`R01`) / 58-stĺpcový (`R02`) TXT bez oficiálne zverejnenej špecifikácie všetkých stĺpcov (KROS zmieňuje sprievodný Excel s "až 166 stĺpcami", ktorý nie je verejne dostupný). Mapovanie bolo odvodené porovnaním reálneho exportu z Omegy (6 faktúr, súkromné osoby aj firmy, dobierka/karta/prevod).
 

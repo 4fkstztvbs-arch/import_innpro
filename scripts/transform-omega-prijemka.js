@@ -19,7 +19,7 @@
 // oba subory su samostatne, kombinovanie T01/T02/T03 v jednom subore nie je overene.
 //
 // Pouzitie:
-//   node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys]
+//   node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys|solight]
 
 const fs = require('fs');
 const path = require('path');
@@ -57,6 +57,10 @@ const SUPPLIER_OMEGA_IDENTITY = {
   basys: {
     name: 'BaSys CS, s.r.o.', ico: '49615581', partnerId: '',
     street: 'Sodomkova 1478/8', zip: '102 00', city: 'Praha 10', label: 'BaSys',
+  },
+  solight: {
+    name: 'Solight Holding s.r.o.', ico: '28320573', partnerId: '',
+    street: 'Na Brně 1972', zip: '500 06', city: 'Hradec Králové', label: 'Solight',
   },
 };
 
@@ -224,13 +228,19 @@ function extractInvoiceNumber(rows, supplier) {
       if (m) return m[1];
     }
   }
+  if (supplier === 'solight') {
+    for (const line of flatRows) {
+      const m = line.match(/(FV-\d+\/\d+)/i);
+      if (m) return m[1];
+    }
+  }
   return '';
 }
 
 async function main() {
   const pdfPath = process.argv[2];
   if (!pdfPath) {
-    console.error('Pouzitie: node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys]');
+    console.error('Pouzitie: node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys|solight]');
     process.exit(1);
   }
   const supplierArg = process.argv.find((a) => a.startsWith('--supplier='));
@@ -241,7 +251,7 @@ async function main() {
 
   if (!supplier) {
     supplier = detectSupplier(rows);
-    if (!supplier) { console.error('Nepodarilo sa rozpoznat dodavatela. Pouzi --supplier=atos|kb|innpro|basys'); process.exit(1); }
+    if (!supplier) { console.error('Nepodarilo sa rozpoznat dodavatela. Pouzi --supplier=atos|kb|innpro|basys|solight'); process.exit(1); }
     console.log(`Rozpoznany dodavatel: ${SUPPLIER_LABELS[supplier]}`);
   }
   const parser = SUPPLIER_PARSERS[supplier];

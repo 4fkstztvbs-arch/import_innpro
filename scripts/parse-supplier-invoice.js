@@ -4,7 +4,7 @@
 // v Shoptete naskladnit (Produkty -> Sklad -> Naskladnenie).
 //
 // Pouzitie:
-//   node scripts/parse-supplier-invoice.js <faktura.pdf> [--supplier=atos|kb|innpro|basys]
+//   node scripts/parse-supplier-invoice.js <faktura.pdf> [--supplier=atos|kb|innpro|basys|solight]
 //
 // Bez --supplier sa dodavatel skusi rozpoznat automaticky podla textu v hlavicke PDF.
 // Vystup: tabulka do konzoly + CSV subor output/naskladnenie-<datum>-<dodavatel>.csv
@@ -27,6 +27,7 @@ const FEED_FILES = {
   kb: path.join(__dirname, '..', 'output', 'kb.xml'),
   innpro: path.join(__dirname, '..', 'output', 'innpro.xml'),
   basys: path.join(__dirname, '..', 'output', 'basys.xml'),
+  solight: path.join(__dirname, '..', 'output', 'solight.xml'),
 };
 
 // Riadky, ktore nie su fyzicky tovar (poplatky, doprava, dobierka...) - nenaskladnujeme ich.
@@ -114,6 +115,7 @@ function detectSupplier(rows) {
   if (text.includes('k+b progres')) return 'kb';
   if (text.includes('innpro robert')) return 'innpro';
   if (text.includes('basys cs')) return 'basys';
+  if (text.includes('solight holding')) return 'solight';
   return null;
 }
 
@@ -207,8 +209,37 @@ function parseBasys(rows) {
   return items;
 }
 
-const SUPPLIER_PARSERS = { atos: parseAtos, kb: parseKb, innpro: parseInnpro, basys: parseBasys };
-const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro', basys: 'BaSys' };
+// ---------- SOLIGHT: kod+EAN na riadku polozky, nazov sa casto zalomi na dalsie riadky ----------
+function parseSolight(rows) {
+  const items = [];
+  for (let i = 0; i < rows.length; i++) {
+    const cells = rows[i];
+    if (cells.length === 0) continue;
+    // Dopravne a pod. nemaju kod/EAN - riadok je len "nazov, celkom bez DPH, sadzba, DPH, celkom s DPH"
+    if (cells.length >= 4 && isNonStock(cells[0])) {
+      items.push({ code: '', ean: '', name: cells[0].replace(/:$/, ''), quantity: 1, unitPriceNet: toFloat(cells[1]) });
+      continue;
+    }
+    if (cells.length < 8) continue;
+    if (!/^\d{8,14}$/.test(cells[1] || '')) continue; // stlpec EAN identifikuje riadok polozky
+    const code = cells[0];
+    let name = cells[2] || '';
+    // nazov produktu sa casto zalomi na dalsie riadky (max. 2 pokracovania) - "Seriove cisla" a
+    // samotne ciselne retazce seriovych cisel nie su sucastou nazvu.
+    for (let k = 1; k <= 2; k++) {
+      const next = rows[i + k];
+      if (!next || next.length !== 1 || /^\d/.test(next[0]) || /^sériov/i.test(next[0])) break;
+      name += ' ' + next[0];
+    }
+    const qty = toFloat(cells[4]);
+    const unitPriceNet = toFloat(cells[6]); // "Cena za jedn." (bez DPH)
+    items.push({ code, ean: cells[1], name: name.trim(), quantity: qty || 1, unitPriceNet });
+  }
+  return items;
+}
+
+const SUPPLIER_PARSERS = { atos: parseAtos, kb: parseKb, innpro: parseInnpro, basys: parseBasys, solight: parseSolight };
+const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro', basys: 'BaSys', solight: 'Solight' };
 
 // ---------- nacitanie existujucich Shoptet feedov (EAN -> CODE, NAME -> CODE) ----------
 function loadFeedIndex(supplier) {
@@ -244,7 +275,7 @@ function matchItem(item, index) {
 async function main() {
   const pdfPath = process.argv[2];
   if (!pdfPath) {
-    console.error('Pouzitie: node scripts/parse-supplier-invoice.js <faktura.pdf> [--supplier=atos|kb|innpro|basys]');
+    console.error('Pouzitie: node scripts/parse-supplier-invoice.js <faktura.pdf> [--supplier=atos|kb|innpro|basys|solight]');
     process.exit(1);
   }
   const supplierArg = process.argv.find((a) => a.startsWith('--supplier='));
@@ -256,7 +287,7 @@ async function main() {
   if (!supplier) {
     supplier = detectSupplier(rows);
     if (!supplier) {
-      console.error('Nepodarilo sa automaticky rozpoznat dodavatela. Pouzi --supplier=atos|kb|innpro|basys');
+      console.error('Nepodarilo sa automaticky rozpoznat dodavatela. Pouzi --supplier=atos|kb|innpro|basys|solight');
       process.exit(1);
     }
     console.log(`Rozpoznany dodavatel: ${SUPPLIER_LABELS[supplier]}`);
