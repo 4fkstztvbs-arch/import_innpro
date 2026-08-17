@@ -162,6 +162,8 @@
     </div>
     <div class="card" id="omegaCard" style="display:none">
       <h2 style="font-size:1.05rem;margin-top:0">Príjemka pre Omegu</h2>
+      <p class="sub" style="margin-bottom:14px">Položky bez EAN (chýba na faktúre aj v Shoptet feede) môžeš v tabuľke vyššie doplniť ručne — nájdeš ich EAN napr. priamo v Shoptet administrácii alebo na obale produktu. Keď budeš mať EAN doplnené, klikni na tlačidlo nižšie.</p>
+      <button class="primary" id="generateBtn">Vygenerovať súbory pre Omegu</button>
       <div id="omegaBoxes"></div>
       <a class="download" id="omegaDownloadLink" download style="display:none">⬇ Stiahnuť príjemku pre Omegu</a>
     </div>
@@ -173,9 +175,9 @@
       <li>Stiahni PDF faktúru od dodávateľa (ATOS / K+B / InnPro / BaSys).</li>
       <li>Nahraj ju sem, klikni <b>Spracovať faktúru</b>.</li>
       <li>Skontroluj tabuľku — riadky <b>OK</b> naskladni v Shoptete (Produkty → Sklad → Naskladnenie) v uvedenom množstve pod uvedeným Shoptet kódom.</li>
-      <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, alebo feed ešte nemá aktuálne dáta) — over/naskladni ručne podľa názvu.</li>
+      <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, predaný/delistovaný kus, alebo feed ešte nemá aktuálne dáta). Pole EAN je editovateľné — ak ho vieš doplniť ručne (napr. z obalu produktu), príjemka sa pripraví aj pre túto položku (vytvorí sa nová karta).</li>
       <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky).</li>
-      <li>Sekcia "Príjemka pre Omegu" ponúkne súbor(y) na stiahnutie: ak sú v faktúre nové produkty (bez karty v sklade Eshop), najprv súbor s <b>novými kartami</b> (naimportuj v Omege ako prvý), potom vždy súbor s <b>príjemkou</b> (naimportuj až po nových kartách).</li>
+      <li>Skontroluj/doplň EAN v tabuľke, potom klikni <b>Vygenerovať súbory pre Omegu</b> v sekcii nižšie. Ponúkne súbor(y) na stiahnutie: ak sú v faktúre nové produkty (bez karty v sklade Eshop), najprv súbor s <b>novými kartami</b> (naimportuj v Omege ako prvý), potom vždy súbor s <b>príjemkou</b> (naimportuj až po nových kartách).</li>
     </ol>
     <p>Spárovanie so Shoptet produktmi (horná tabuľka) beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>, <code>output/basys.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
     <p>Čísla skladových kariet pre sklad Eshop prideľuje a ukladá automaticky Omega cards API — nové produkty (bez EAN v databáze) dostanú ďalšie voľné číslo (od <code>202600001</code>) a pripraví sa pre ne aj založenie karty (T03). Položky bez EAN na faktúre sa spracovať nedajú.</p>
@@ -512,6 +514,7 @@ const fileInput = document.getElementById('file');
 const drop = document.getElementById('drop');
 const fname = document.getElementById('fname');
 const convertBtn = document.getElementById('convertBtn');
+const generateBtn = document.getElementById('generateBtn');
 const resultBox = document.getElementById('result');
 const boxes = document.getElementById('boxes');
 const tableWrap = document.getElementById('tableWrap');
@@ -521,6 +524,8 @@ const omegaBoxes = document.getElementById('omegaBoxes');
 const omegaDownloadLink = document.getElementById('omegaDownloadLink');
 
 let selectedFile = null;
+let state = null; // { supplier, feedIndex, invoiceGroups: [{ invoiceNumber, items }] }
+
 fileInput.addEventListener('change', () => {
   selectedFile = fileInput.files[0] || null;
   fname.textContent = selectedFile ? selectedFile.name : '';
@@ -533,6 +538,100 @@ drop.addEventListener('drop', (e) => {
   const f = e.dataTransfer.files[0];
   if (f) { fileInput.files = e.dataTransfer.files; selectedFile = f; fname.textContent = f.name; convertBtn.disabled = false; resultBox.style.display = 'none'; }
 });
+
+// Stav polozky pre tabulku - effectiveEan zohladnuje aj rucne doplneny EAN (item.manualEan).
+function statusFor(item, feedIndex) {
+  if (isNonStock(item.name)) return { status: 'preskočené', statusClass: 'skip', effectiveEan: item.ean || '' };
+  const effectiveEan = item.ean || item.manualEan || '';
+  const match = matchItem({ ...item, ean: effectiveEan }, feedIndex);
+  if (match) return { status: `OK (${match.matchedBy})`, statusClass: 'ok', shoptetCode: match.code, effectiveEan: effectiveEan || match.ean };
+  if (effectiveEan) return { status: 'EAN zadaný, bez Shoptet zhody — vytvorí sa nová karta', statusClass: 'warn', effectiveEan };
+  return { status: 'chýba EAN — over ručne', statusClass: 'warn', effectiveEan: '' };
+}
+
+function renderTable() {
+  boxes.innerHTML = '';
+  tableWrap.innerHTML = '';
+
+  const allRows = [];
+  state.invoiceGroups.forEach((inv, g) => inv.items.forEach((item, i) => allRows.push({ item, g, i })));
+
+  const tbl = document.createElement('table');
+  tbl.innerHTML = '<thead><tr><th>Názov</th><th>Shoptet kód</th><th>EAN</th><th>Množstvo</th><th>Stav</th></tr></thead>';
+  const tbody = document.createElement('tbody');
+  let okCount = 0;
+  let warnCount = 0;
+
+  for (const { item, g, i } of allRows) {
+    const info = statusFor(item, state.feedIndex);
+    if (!isNonStock(item.name)) { if (info.statusClass === 'ok') okCount++; else warnCount++; }
+
+    const tr = document.createElement('tr');
+    if (info.statusClass === 'ok') tr.className = 'row-ok';
+    else if (info.statusClass === 'warn') tr.className = 'row-warn';
+
+    const tdName = document.createElement('td'); tdName.textContent = item.name;
+    const tdCode = document.createElement('td'); tdCode.textContent = info.shoptetCode || '-';
+    const tdEan = document.createElement('td');
+    const tdQty = document.createElement('td'); tdQty.textContent = item.quantity;
+    const tdStatus = document.createElement('td');
+    const badge = document.createElement('span'); badge.className = `badge ${info.statusClass}`; badge.textContent = info.status;
+    tdStatus.appendChild(badge);
+
+    if (isNonStock(item.name)) {
+      tdEan.textContent = item.ean || '-';
+    } else {
+      const input = document.createElement('input');
+      input.type = 'text';
+      input.value = item.manualEan || item.ean || '';
+      input.placeholder = 'EAN (doplň ručne)';
+      input.style.cssText = 'width:150px;padding:4px 6px;border:1px solid var(--border);border-radius:6px;background:transparent;color:inherit;';
+      input.readOnly = !!item.ean; // EAN z faktury sa neprepisuje, len chybajuci sa doplna
+      input.addEventListener('input', () => {
+        state.invoiceGroups[g].items[i].manualEan = input.value.trim();
+        const updated = statusFor(state.invoiceGroups[g].items[i], state.feedIndex);
+        tdCode.textContent = updated.shoptetCode || '-';
+        badge.className = `badge ${updated.statusClass}`;
+        badge.textContent = updated.status;
+        tr.className = updated.statusClass === 'ok' ? 'row-ok' : updated.statusClass === 'warn' ? 'row-warn' : '';
+      });
+      tdEan.appendChild(input);
+    }
+
+    tr.append(tdName, tdCode, tdEan, tdQty, tdStatus);
+    tbody.appendChild(tr);
+  }
+  tbl.appendChild(tbody);
+  tableWrap.appendChild(tbl);
+
+  const totalPhysical = allRows.filter(({ item }) => !isNonStock(item.name)).length;
+  const okBox = document.createElement('div');
+  okBox.className = 'box ok';
+  okBox.textContent = `Dodávateľ: ${SUPPLIER_LABELS[state.supplier]}. Položiek spolu: ${totalPhysical}. Na naskladnenie: ${okCount}. Na ručné overenie: ${warnCount}.`;
+  boxes.appendChild(okBox);
+  if (warnCount > 0) {
+    const wBox = document.createElement('div');
+    wBox.className = 'box warn';
+    wBox.textContent = 'Niektoré položky sa nenašli v aktuálnom Shoptet feede (nový produkt, predaný/delistovaný kus, alebo feed ešte neaktuálny) — doplň EAN v tabuľke ručne, ak ho vieš zistiť, inak over/naskladni podľa názvu.';
+    boxes.appendChild(wBox);
+  }
+}
+
+function downloadCsv() {
+  const allRows = [];
+  state.invoiceGroups.forEach((inv) => inv.items.forEach((item) => allRows.push(item)));
+  const csvLines = ['nazov;shoptet_kod;ean;mnozstvo;jednotkova_cena_bez_dph;stav'];
+  for (const item of allRows) {
+    const info = statusFor(item, state.feedIndex);
+    csvLines.push([item.name, info.shoptetCode || '', info.effectiveEan || '', item.quantity, item.unitPriceNet, info.status].map((v) => String(v).replace(/;/g, ',')).join(';'));
+  }
+  const blob = new Blob([csvLines.join('\r\n') + '\r\n'], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const today = new Date().toISOString().slice(0, 10);
+  downloadLink.href = url;
+  downloadLink.download = `naskladnenie-${today}-${state.supplier}.csv`;
+  downloadLink.textContent = `⬇ Stiahnuť naskladnenie-${today}-${state.supplier}.csv`;
+}
 
 convertBtn.addEventListener('click', async () => {
   if (!selectedFile) return;
@@ -550,164 +649,20 @@ convertBtn.addEventListener('click', async () => {
       if (!supplier) throw new Error('Nepodarilo sa automaticky rozpoznať dodávateľa. Vyber ho ručne hore.');
     }
     const parser = SUPPLIER_PARSERS[supplier];
-    const rawItems = parser(rows);
-    if (rawItems.length === 0) throw new Error('V PDF sa nenašli žiadne položky. Over, že ide o faktúru správneho dodávateľa.');
-    const index = await loadFeedIndex(supplier);
+    const invoiceGroups = splitInvoices(rows, supplier).map((groupRows) => ({
+      invoiceNumber: extractInvoiceNumber(groupRows, supplier),
+      items: parser(groupRows),
+    }));
+    const totalItems = invoiceGroups.reduce((n, inv) => n + inv.items.length, 0);
+    if (totalItems === 0) throw new Error('V PDF sa nenašli žiadne položky. Over, že ide o faktúru správneho dodávateľa.');
+    const feedIndex = await loadFeedIndex(supplier);
 
-    const results = rawItems.map((item) => {
-      if (isNonStock(item.name)) return { ...item, status: 'preskočené', statusClass: 'skip' };
-      const match = matchItem(item, index);
-      if (match) return { ...item, status: `OK (${match.matchedBy})`, statusClass: 'ok', shoptetCode: match.code };
-      return { ...item, status: 'over ručne', statusClass: 'warn' };
-    });
-
-    const okCount = results.filter((r) => r.statusClass === 'ok').length;
-    const warnCount = results.filter((r) => r.statusClass === 'warn').length;
-
-    const okBox = document.createElement('div');
-    okBox.className = 'box ok';
-    okBox.textContent = `Dodávateľ: ${SUPPLIER_LABELS[supplier]}. Položiek spolu: ${rawItems.length}. Na naskladnenie: ${okCount}. Na ručné overenie: ${warnCount}.`;
-    boxes.appendChild(okBox);
-
-    if (warnCount > 0) {
-      const wBox = document.createElement('div');
-      wBox.className = 'box warn';
-      wBox.textContent = 'Niektoré položky sa nenašli v aktuálnom Shoptet feede (nový produkt, alebo feed ešte neaktuálny) — over a naskladni ich ručne podľa názvu.';
-      boxes.appendChild(wBox);
-    }
-
-    const tbl = document.createElement('table');
-    tbl.innerHTML = '<thead><tr><th>Názov</th><th>Shoptet kód</th><th>EAN</th><th>Množstvo</th><th>Stav</th></tr></thead>';
-    const tbody = document.createElement('tbody');
-    for (const r of results) {
-      const tr = document.createElement('tr');
-      if (r.statusClass === 'ok') tr.className = 'row-ok';
-      else if (r.statusClass === 'warn') tr.className = 'row-warn';
-      tr.innerHTML = `<td>${r.name}</td><td>${r.shoptetCode || '-'}</td><td>${r.ean || '-'}</td><td>${r.quantity}</td><td><span class="badge ${r.statusClass}">${r.status}</span></td>`;
-      tbody.appendChild(tr);
-    }
-    tbl.appendChild(tbody);
-    tableWrap.appendChild(tbl);
-
-    const csvLines = ['nazov;shoptet_kod;ean;mnozstvo;jednotkova_cena_bez_dph;stav'];
-    for (const r of results) {
-      csvLines.push([r.name, r.shoptetCode || '', r.ean || '', r.quantity, r.unitPriceNet, r.status].map((v) => String(v).replace(/;/g, ',')).join(';'));
-    }
-    const blob = new Blob([csvLines.join('\r\n') + '\r\n'], { type: 'text/csv;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
-    const today = new Date().toISOString().slice(0, 10);
-    downloadLink.href = url;
-    downloadLink.download = `naskladnenie-${today}-${supplier}.csv`;
-    downloadLink.textContent = `⬇ Stiahnuť naskladnenie-${today}-${supplier}.csv`;
+    state = { supplier, feedIndex, invoiceGroups };
+    renderTable();
+    downloadCsv();
+    omegaCard.style.display = 'block';
 
     // ---- Prijemka (T02) + nove skladove karty (T03) pre sklad "Eshop" ----
-    omegaCard.style.display = 'block';
-    {
-      const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
-      const skippedNoEan = [];
-
-      const invoiceGroups = splitInvoices(rows, supplier);
-      const perInvoice = invoiceGroups.map((groupRows) => {
-        const groupItems = parser(groupRows);
-        const invoiceNumber = extractInvoiceNumber(groupRows, supplier);
-        let freightTotal = 0;
-        const physicalItems = [];
-        for (const item of groupItems) {
-          if (isNonStock(item.name)) { freightTotal += (item.unitPriceNet || 0) * (item.quantity || 1); continue; }
-          // K+B faktury EAN vobec neposielaju - ak sa polozka sparuje podla nazvu, pouzijeme EAN
-          // z Shoptet feedu (ma ho ulozeny ten isty produkt) ako kluc pre Omega cards API.
-          let ean = item.ean;
-          if (!ean) {
-            const match = matchItem(item, index);
-            if (match && match.ean) ean = match.ean;
-          }
-          if (!ean) { skippedNoEan.push(item); continue; }
-          physicalItems.push({ ...item, ean });
-        }
-        return { invoiceNumber, freightTotal, physicalItems };
-      });
-
-      const allPhysicalItems = perInvoice.flatMap((inv) => inv.physicalItems);
-      let assigned = {};
-      let apiError = null;
-      if (allPhysicalItems.length > 0) {
-        try {
-          assigned = await reserveOmegaCards(allPhysicalItems.map((i) => {
-            const match = matchItem(i, index);
-            return { ean: i.ean, name: i.name, supplier, code: match ? match.code : '' };
-          }));
-        } catch (err) {
-          apiError = err.message;
-        }
-      }
-      if (apiError) {
-        const eBox2 = document.createElement('div');
-        eBox2.className = 'box err';
-        eBox2.textContent = `Nepodarilo sa spojiť s Omega cards API (${apiError}) — príjemka sa nedá pripraviť.`;
-        omegaBoxes.appendChild(eBox2);
-      }
-
-      const newCards = [];
-      const newCardEans = new Set();
-      for (const inv of perInvoice) {
-        inv.toReceive = [];
-        for (const item of inv.physicalItems) {
-          const card = assigned[item.ean];
-          if (!card) continue;
-          if (card.isNew && !newCardEans.has(item.ean)) { newCards.push({ ...item, cardCode: card.kod }); newCardEans.add(item.ean); }
-          inv.toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
-        }
-      }
-      const totalToReceive = perInvoice.reduce((n, inv) => n + inv.toReceive.length, 0);
-
-      if (totalToReceive > 0) {
-        if (newCards.length > 0) {
-          const cardLines = ['R00\tT03', buildWarehouseHeaderRow().join('\t')];
-          for (const r of newCards) cardLines.push(buildNewCardRow(r.name, r.cardCode, r.ean, r.unitPriceNet, identity.label).join('\t'));
-          const cardBytes = encodeWin1250(cardLines.join('\r\n') + '\r\n');
-          const cardUrl = URL.createObjectURL(new Blob([cardBytes], { type: 'text/plain;charset=windows-1250' }));
-          const cardLink = document.createElement('a');
-          cardLink.className = 'download'; cardLink.href = cardUrl;
-          cardLink.download = `omega-nove-karty-${today}-${supplier}.txt`;
-          cardLink.textContent = `⬇ 1. Stiahnuť nové karty (omega-nove-karty-${today}-${supplier}.txt) — naimportuj v Omege AKO PRVÉ`;
-          omegaBoxes.appendChild(cardLink);
-        }
-
-        const prijemkaLines = ['R00\tT02'];
-        for (const inv of perInvoice) {
-          if (inv.toReceive.length === 0) continue;
-          prijemkaLines.push(buildPrijemkaHeaderRow(supplier, inv.invoiceNumber, inv.freightTotal).join('\t'));
-          for (const r of inv.toReceive) prijemkaLines.push(buildPrijemkaItemRow(r.cardName, r.quantity, r.unitPriceNet, r.cardCode).join('\t'));
-        }
-        const bytes = encodeWin1250(prijemkaLines.join('\r\n') + '\r\n');
-        const omegaUrl = URL.createObjectURL(new Blob([bytes], { type: 'text/plain;charset=windows-1250' }));
-        omegaDownloadLink.href = omegaUrl;
-        omegaDownloadLink.download = `omega-prijemka-${today}-${supplier}.txt`;
-        omegaDownloadLink.textContent = newCards.length > 0
-          ? `⬇ 2. Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt) — naimportuj AŽ PO nových kartách`
-          : `⬇ Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt)`;
-        omegaDownloadLink.style.display = 'block';
-
-        const invoiceCountNote = perInvoice.length > 1 ? ` (${perInvoice.filter((inv) => inv.toReceive.length > 0).length} faktúry v jednom súbore)` : '';
-        const okBox2 = document.createElement('div');
-        okBox2.className = 'box ok';
-        okBox2.textContent = `Sklad "Eshop": ${totalToReceive} položiek na príjemku${invoiceCountNote}, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}). Databáza kariet je už uložená automaticky.`;
-        omegaBoxes.insertBefore(okBox2, omegaBoxes.firstChild);
-      }
-      if (skippedNoEan.length > 0) {
-        const wBox2 = document.createElement('div');
-        wBox2.className = 'box warn';
-        wBox2.textContent = `${skippedNoEan.length} položiek bez EAN sa nedalo spracovať (nedá sa overiť/založiť karta bez EAN): ` + skippedNoEan.map((i) => i.name).join(', ');
-        omegaBoxes.appendChild(wBox2);
-      }
-      if (toReceive.length === 0 && skippedNoEan.length === 0 && !apiError) {
-        const iBox2 = document.createElement('div');
-        iBox2.className = 'box warn';
-        iBox2.textContent = 'Žiadna položka na príjemku (všetko boli poplatky/doprava).';
-        omegaBoxes.appendChild(iBox2);
-      }
-    }
-
     resultBox.style.display = 'block';
   } catch (err) {
     const eBox = document.createElement('div');
@@ -715,6 +670,115 @@ convertBtn.addEventListener('click', async () => {
     eBox.textContent = 'Chyba: ' + err.message;
     boxes.appendChild(eBox);
     resultBox.style.display = 'block';
+  }
+});
+
+generateBtn.addEventListener('click', async () => {
+  if (!state) return;
+  omegaBoxes.innerHTML = '';
+  omegaDownloadLink.style.display = 'none';
+  const { supplier, feedIndex, invoiceGroups } = state;
+  const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
+  const skippedNoEan = [];
+  const today = new Date().toISOString().slice(0, 10);
+
+  const perInvoice = invoiceGroups.map((inv) => {
+    let freightTotal = 0;
+    const physicalItems = [];
+    for (const item of inv.items) {
+      if (isNonStock(item.name)) { freightTotal += (item.unitPriceNet || 0) * (item.quantity || 1); continue; }
+      // K+B faktury EAN vobec neposielaju - ak sa polozka sparuje podla nazvu, pouzijeme EAN
+      // z Shoptet feedu (ma ho ulozeny ten isty produkt) ako kluc pre Omega cards API. Ak ani
+      // to nevyjde, pouzije sa EAN rucne doplneny v tabulke (item.manualEan).
+      let ean = item.ean || item.manualEan;
+      if (!ean) {
+        const match = matchItem(item, feedIndex);
+        if (match && match.ean) ean = match.ean;
+      }
+      if (!ean) { skippedNoEan.push(item); continue; }
+      physicalItems.push({ ...item, ean });
+    }
+    return { invoiceNumber: inv.invoiceNumber, freightTotal, physicalItems };
+  });
+
+  const allPhysicalItems = perInvoice.flatMap((inv) => inv.physicalItems);
+  let assigned = {};
+  let apiError = null;
+  if (allPhysicalItems.length > 0) {
+    try {
+      assigned = await reserveOmegaCards(allPhysicalItems.map((i) => {
+        const match = matchItem(i, feedIndex);
+        return { ean: i.ean, name: i.name, supplier, code: match ? match.code : '' };
+      }));
+    } catch (err) {
+      apiError = err.message;
+    }
+  }
+  if (apiError) {
+    const eBox2 = document.createElement('div');
+    eBox2.className = 'box err';
+    eBox2.textContent = `Nepodarilo sa spojiť s Omega cards API (${apiError}) — príjemka sa nedá pripraviť.`;
+    omegaBoxes.appendChild(eBox2);
+  }
+
+  const newCards = [];
+  const newCardEans = new Set();
+  for (const inv of perInvoice) {
+    inv.toReceive = [];
+    for (const item of inv.physicalItems) {
+      const card = assigned[item.ean];
+      if (!card) continue;
+      if (card.isNew && !newCardEans.has(item.ean)) { newCards.push({ ...item, cardCode: card.kod }); newCardEans.add(item.ean); }
+      inv.toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
+    }
+  }
+  const totalToReceive = perInvoice.reduce((n, inv) => n + inv.toReceive.length, 0);
+
+  if (totalToReceive > 0) {
+    if (newCards.length > 0) {
+      const cardLines = ['R00\tT03', buildWarehouseHeaderRow().join('\t')];
+      for (const r of newCards) cardLines.push(buildNewCardRow(r.name, r.cardCode, r.ean, r.unitPriceNet, identity.label).join('\t'));
+      const cardBytes = encodeWin1250(cardLines.join('\r\n') + '\r\n');
+      const cardUrl = URL.createObjectURL(new Blob([cardBytes], { type: 'text/plain;charset=windows-1250' }));
+      const cardLink = document.createElement('a');
+      cardLink.className = 'download'; cardLink.href = cardUrl;
+      cardLink.download = `omega-nove-karty-${today}-${supplier}.txt`;
+      cardLink.textContent = `⬇ 1. Stiahnuť nové karty (omega-nove-karty-${today}-${supplier}.txt) — naimportuj v Omege AKO PRVÉ`;
+      omegaBoxes.appendChild(cardLink);
+    }
+
+    const prijemkaLines = ['R00\tT02'];
+    for (const inv of perInvoice) {
+      if (inv.toReceive.length === 0) continue;
+      prijemkaLines.push(buildPrijemkaHeaderRow(supplier, inv.invoiceNumber, inv.freightTotal).join('\t'));
+      for (const r of inv.toReceive) prijemkaLines.push(buildPrijemkaItemRow(r.cardName, r.quantity, r.unitPriceNet, r.cardCode).join('\t'));
+    }
+    const bytes = encodeWin1250(prijemkaLines.join('\r\n') + '\r\n');
+    const omegaUrl = URL.createObjectURL(new Blob([bytes], { type: 'text/plain;charset=windows-1250' }));
+    omegaDownloadLink.href = omegaUrl;
+    omegaDownloadLink.download = `omega-prijemka-${today}-${supplier}.txt`;
+    omegaDownloadLink.textContent = newCards.length > 0
+      ? `⬇ 2. Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt) — naimportuj AŽ PO nových kartách`
+      : `⬇ Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt)`;
+    omegaDownloadLink.style.display = 'block';
+
+    const invoiceCountNote = perInvoice.length > 1 ? ` (${perInvoice.filter((inv) => inv.toReceive.length > 0).length} faktúry v jednom súbore)` : '';
+    const okBox2 = document.createElement('div');
+    okBox2.className = 'box ok';
+    okBox2.textContent = `Sklad "Eshop": ${totalToReceive} položiek na príjemku${invoiceCountNote}, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}). Databáza kariet je už uložená automaticky.`;
+    omegaBoxes.insertBefore(okBox2, omegaBoxes.firstChild);
+  }
+  if (skippedNoEan.length > 0) {
+    const wBox2 = document.createElement('div');
+    wBox2.className = 'box warn';
+    wBox2.textContent = `${skippedNoEan.length} položiek bez EAN sa nedalo spracovať (nedá sa overiť/založiť karta bez EAN, aj po doplnení v tabuľke): ` + skippedNoEan.map((i) => i.name).join(', ');
+    omegaBoxes.appendChild(wBox2);
+  }
+  if (totalToReceive === 0 && skippedNoEan.length === 0 && !apiError) {
+    const iBox2 = document.createElement('div');
+    iBox2.className = 'box warn';
+    iBox2.textContent = 'Žiadna položka na príjemku (všetko boli poplatky/doprava).';
+    omegaBoxes.appendChild(iBox2);
   }
 });
 </script>
