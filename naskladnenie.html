@@ -135,7 +135,7 @@
 <body>
 <div class="wrap">
   <h1>Naskladnenie z faktúry dodávateľa</h1>
-  <p class="sub">Nahraj PDF faktúru od ATOS, K+B, InnPro alebo BaSys — prevod zistí položky tovaru a spáruje ich s existujúcimi Shoptet produktmi (podľa EAN, u K+B podľa názvu). Výsledok je zoznam na ručné naskladnenie v Shoptete (Produkty → Sklad → Naskladnenie). Faktúra sa spracúva priamo v prehliadači, nikam sa neposiela — okrem stiahnutia verejných produktových feedov tohto e-shopu (na spárovanie kódov).</p>
+  <p class="sub">Nahraj PDF faktúru od ATOS, K+B, InnPro, BaSys alebo Solight — prevod zistí položky tovaru a spáruje ich s existujúcimi Shoptet produktmi (podľa EAN, u K+B podľa názvu), aby sa dala pripraviť príjemka a nové skladové karty pre Omegu. Faktúra sa spracúva priamo v prehliadači, nikam sa neposiela — okrem stiahnutia verejných produktových feedov tohto e-shopu (na spárovanie kódov).</p>
 
   <div class="card">
     <div class="supplier-row" id="supplierRow">
@@ -173,14 +173,14 @@
   <details>
     <summary>Ako to použiť</summary>
     <ol>
-      <li>Stiahni PDF faktúru od dodávateľa (ATOS / K+B / InnPro / BaSys).</li>
+      <li>Stiahni PDF faktúru od dodávateľa (ATOS / K+B / InnPro / BaSys / Solight).</li>
       <li>Nahraj ju sem, klikni <b>Spracovať faktúru</b>.</li>
-      <li>Skontroluj tabuľku — riadky <b>OK</b> naskladni v Shoptete (Produkty → Sklad → Naskladnenie) v uvedenom množstve pod uvedeným Shoptet kódom.</li>
+      <li>Skontroluj tabuľku — riadky <b>OK</b> sa spárovali so Shoptet produktom (podľa toho sa určí presný názov a kód pre skladovú kartu v Omege).</li>
       <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, predaný/delistovaný kus, alebo feed ešte nemá aktuálne dáta). Pole EAN je editovateľné — ak ho vieš doplniť ručne (napr. z obalu produktu), príjemka sa pripraví aj pre túto položku (vytvorí sa nová karta).</li>
-      <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky).</li>
+      <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky) a idú do vedľajších nákladov príjemky.</li>
       <li>Skontroluj/doplň EAN v tabuľke, potom klikni <b>Vygenerovať súbory pre Omegu</b> v sekcii nižšie. Ponúkne súbor(y) na stiahnutie: ak sú v faktúre nové produkty (bez karty v sklade Eshop), najprv súbor s <b>novými kartami</b> (naimportuj v Omege ako prvý), potom vždy súbor s <b>príjemkou</b> (naimportuj až po nových kartách).</li>
     </ol>
-    <p>Spárovanie so Shoptet produktmi (horná tabuľka) beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>, <code>output/basys.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
+    <p>Spárovanie so Shoptet produktmi (horná tabuľka) beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>, <code>output/basys.xml</code>, <code>output/solight.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa. Slúži len na dohľadanie správneho názvu/kódu pre Omegu — sklad v Shoptete sa nepoužíva.</p>
     <p>Čísla skladových kariet pre sklad Eshop prideľuje a ukladá automaticky Omega cards API — nové produkty (bez EAN v databáze) dostanú ďalšie voľné číslo (od <code>202600001</code>) a pripraví sa pre ne aj založenie karty (T03). Položky bez EAN na faktúre sa spracovať nedajú.</p>
   </details>
 
