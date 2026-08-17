@@ -224,7 +224,7 @@ const SELLER = {
   radKod: "0008",
 };
 const PAYMENT_TYPE_MAP = {
-  cash: "Hotovosť", cod: "Dobierka", creditcard: "Platba kartou",
+  cash: "Hotovosť", cod: "Dobierka", delivery: "Dobierka", creditcard: "Platba kartou",
   banktransfer: "Prevodný príkaz", advance: "Zálohová platba", postal: "Poštová poukážka",
 };
 const VAT_RATE_MAP = { high: 0.23, low: 0.19, third: 0.05, none: 0 };
@@ -506,6 +506,7 @@ function convertInvoice(invoice, warnings, cardIndex) {
 
 async function loadCardIndex() {
   const index = new Map();
+  let apiError = null;
   try {
     const res = await fetch(OMEGA_CARDS_API_URL + "/state");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -515,15 +516,23 @@ async function loadCardIndex() {
     }
   } catch (err) {
     console.warn("Omega cards API nedostupné:", err.message);
+    apiError = err.message;
   }
-  return index;
+  return { index, apiError };
 }
 
 async function convertXml(xmlText) {
   const warnings = [];
   const invoices = extractInvoices(xmlText);
   if (invoices.length === 0) throw new Error("V súbore sa nenašla žiadna faktúra.");
-  const cardIndex = await loadCardIndex();
+  const { index: cardIndex, apiError } = await loadCardIndex();
+  if (apiError) {
+    warnings.unshift(
+      `⚠ Nepodarilo sa spojiť s databázou skladových kariet (${apiError}). ` +
+      `Všetky položky nižšie sú preto označené ako neznáme a NEBUDE vytvorená výdajka zo skladu! ` +
+      `Skontroluj internetové pripojenie a skús konverziu znova.`
+    );
+  }
 
   const lines = ["R00\tT01"];
   const summary = [];
