@@ -174,10 +174,10 @@
       <li>Skontroluj tabuľku — riadky <b>OK</b> naskladni v Shoptete (Produkty → Sklad → Naskladnenie) v uvedenom množstve pod uvedeným Shoptet kódom.</li>
       <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, alebo feed ešte nemá aktuálne dáta) — over/naskladni ručne podľa názvu.</li>
       <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky).</li>
-      <li>Ak sekcia "Príjemka pre Omegu" ponúka súbor na stiahnutie, naimportuj ho v Omege (<code>Firma → Import → Import z textového súboru</code>) — vytvorí príjemku len pre položky so známou skladovou kartou.</li>
+      <li>Sekcia "Príjemka pre Omegu" ponúkne súbor(y) na stiahnutie: ak sú v faktúre nové produkty (bez karty v sklade Eshop), najprv súbor s <b>novými kartami</b> (naimportuj v Omege ako prvý), potom vždy súbor s <b>príjemkou</b> (naimportuj až po nových kartách).</li>
     </ol>
-    <p>Spárovanie beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
-    <p>Príjemka pre Omegu sa generuje len pre položky, ktorých EAN je v <code>data/omega-stock-cards.json</code> (databáza overených čísel skladových kariet). Nové produkty (bez známej karty) sa do príjemky nezahrnú — treba ich v Omege dohľadať/založiť ručne a číslo karty doplniť do databázy pre nabudúce.</p>
+    <p>Spárovanie so Shoptet produktmi (horná tabuľka) beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa.</p>
+    <p>Čísla skladových kariet pre sklad Eshop prideľuje a ukladá automaticky Omega cards API — nové produkty (bez EAN v databáze) dostanú ďalšie voľné číslo (od <code>202600001</code>) a pripraví sa pre ne aj založenie karty (T03). Položky bez EAN na faktúre sa spracovať nedajú.</p>
   </details>
 
   <footer>Prevod beží lokálne vo vašom prehliadači (JavaScript).</footer>
