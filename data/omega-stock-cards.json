@@ -1,9 +1,16 @@
 {
-  "_comment": "EAN -> cislo skladovej karty v Omege. Zdroj: krizova kontrola T02 exportu z Omegy (prijemka 14.8.2026, poskytnute mimo repozitara - obsahuje osobne udaje zakaznikov, preto sa neuklada do (verejneho) gitu) s povodnymi PDF fakturami dodavatelov (poradie a mnozstvo polozok sa zhodovalo 1:1, cim je EAN<->kod jednoznacne overeny). Rucne dopln dalsie zaznamy, ked pride dalsi T02 export z Omegy spolu so zdrojovou PDF fakturou.",
-  "8595697700217": { "kod": "002538", "nazov": "Nosič kol na tažné zařízení SIXTOL SX1014 E-BIKE 2", "dodavatel": "atos" },
-  "5901890028844": { "kod": "002539", "nazov": "Multimetr UNI-T UT195DS PRO Line", "dodavatel": "atos" },
-  "8591686204032": { "kod": "002540", "nazov": "Garvia 20403 Pistole zavlažovací kruhová 10 funkcí", "dodavatel": "atos" },
-  "4823016209139": { "kod": "002541", "nazov": "Ventilátor VENTS 100 MAVT s automat. žaluzií", "dodavatel": "atos" },
-  "6956362995680": { "kod": "002542", "nazov": "FF5-A Solar Lamp 63W", "dodavatel": "innpro" },
-  "4262533460287": { "kod": "002543", "nazov": "Ultimea Skywave X50 Soundbar", "dodavatel": "innpro" }
+  "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky/vydajky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
+  "eshop": {
+    "nextCardNumber": 202600001,
+    "cards": {}
+  },
+  "_legacy_predajna_reference": {
+    "_comment": "Stare zaznamy zo skladu 'Predajna' (iny sklad, ine cislovanie) - ponechane len ako referencia/dokaz spolahlivosti EAN parovania, tento nastroj ich uz nepouziva.",
+    "8595697700217": { "kod": "002538", "nazov": "Nosič kol na tažné zařízení SIXTOL SX1014 E-BIKE 2", "dodavatel": "atos" },
+    "5901890028844": { "kod": "002539", "nazov": "Multimetr UNI-T UT195DS PRO Line", "dodavatel": "atos" },
+    "8591686204032": { "kod": "002540", "nazov": "Garvia 20403 Pistole zavlažovací kruhová 10 funkcí", "dodavatel": "atos" },
+    "4823016209139": { "kod": "002541", "nazov": "Ventilátor VENTS 100 MAVT s automat. žaluzií", "dodavatel": "atos" },
+    "6956362995680": { "kod": "002542", "nazov": "FF5-A Solar Lamp 63W", "dodavatel": "innpro" },
+    "4262533460287": { "kod": "002543", "nazov": "Ultimea Skywave X50 Soundbar", "dodavatel": "innpro" }
+  }
 }

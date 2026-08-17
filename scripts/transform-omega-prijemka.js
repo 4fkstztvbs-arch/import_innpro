@@ -1,44 +1,60 @@
 // Precita PDF fakturu od dodavatela (rovnaky parser ako parse-supplier-invoice.js) a vygeneruje
-// Omega import pre prijemku (T02, typ P) - stlpcove mapovanie odvodene z realneho T02 exportu
-// z Omegy (data/omega-export-samples/prijem-2026-08-14.txt), krizovo overene s PDF fakturami
-// (poradie a mnozstva poloziek sa zhodovali 1:1 s existujucimi skladovymi kartami).
+// Omega import pre sklad "Eshop" (kod 03, jediny sklad s ktorym tento nastroj pracuje - "Predajna"
+// sa rieši rucne priamo v Omege): (1) T03 - nove skladove karty pre produkty, ktore este nemaju
+// kartu v Eshope, (2) T02 - prijemka (typ P) pre vsetky polozky na fakture (existujuce aj nove karty).
 //
-// DOLEZITE OBMEDZENIE: cislo skladovej karty (T02 R02 stlpec 4) MUSI byt existujuca Omega karta -
-// vytvorenie NOVEJ karty (T03) tento skript nerobi (chyba overeny vzor T03 exportu). Polozky, ktorych
-// EAN nie je v data/omega-stock-cards.json, sa do prijemky NEZAHRNU - vypisu sa zvlast na rucne riesenie.
+// Stlpcove mapovanie odvodene z realnych T02/T03 exportov z Omegy (obsahovali osobne udaje/citlive
+// data, preto sa neuklada do repozitara - len z nich odvodene poznatky a data/omega-stock-cards.json).
+//
+// DOLEZITY NEOVERENY PREDPOKLAD: cislo novej karty (T03) tento skript SAM PRIDELUJE postupne od
+// data/omega-stock-cards.json -> eshop.nextCardNumber (zaciatok 202600001, podla zadania). Predpoklada
+// sa, ze Omega pri importe T03 s explicitne vyplnenym cislom karty toto cislo POUZIJE (nie ze by si
+// prideľovala vlastne). Toto NIE JE overene skutocnym testovacim importom - pred bezným pouzivanim
+// over jednym testovacim produktom, ci karta v Omege naozaj dostane presne toto cislo.
+//
+// Import v Omege MUSI prebehnut v poradi: najprv T03 subor (zalozi karty), potom az T02 (prijemka) -
+// oba subory su samostatne, kombinovanie T01/T02/T03 v jednom subore nie je overene.
 //
 // Pouzitie:
-//   node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro] [--sklad="Eshop"]
+//   node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro]
 
 const fs = require('fs');
 const path = require('path');
 const iconv = require('iconv-lite');
 const {
-  extractRows, detectSupplier, SUPPLIER_PARSERS, SUPPLIER_LABELS, loadFeedIndex, isNonStock,
+  extractRows, detectSupplier, SUPPLIER_PARSERS, SUPPLIER_LABELS, isNonStock,
 } = require('./parse-supplier-invoice');
 
 const CARDS_PATH = path.join(__dirname, '..', 'data', 'omega-stock-cards.json');
 const SELLER_NAME = 'Trokšiar .';
+const SKLAD_NAME = 'Eshop';
+const SKLAD_KOD = '03';
+const MARKUP = 1.15; // rovnaka prirazka ako pri ostatnych Shoptet feedoch tohto repozitara (README)
+const VAT_RATE = 0.23;
 
 // Dodavatelia tak, ako su zaevidovani v Omege (partnerske cislo, IC, adresa) - zistene z realneho
 // T02 exportu. K+B tam zatial nie je zastupene (chyba prijemka od K+B na overenie).
 const SUPPLIER_OMEGA_IDENTITY = {
   atos: {
     name: 'ATOS spol. s r.o.', ico: '18055761', partnerId: '0002',
-    street: 'Bohumínska 1556', zip: '969 01', city: 'Rychvald',
+    street: 'Bohumínska 1556', zip: '969 01', city: 'Rychvald', label: 'Atos',
   },
   innpro: {
     name: 'INNPRO Robert Bledowski SP. z. o.o.', ico: '', partnerId: '9066',
-    street: 'Rudzka 65C', zip: '982 65', city: 'Rybnik',
+    street: 'Rudzka 65C', zip: '982 65', city: 'Rybnik', label: 'Innpro',
   },
-  kb: { name: 'K+B Progres, a.s., organizační složka SK', ico: '', partnerId: '', street: '', zip: '', city: '' },
+  kb: {
+    name: 'K+B Progres, a.s., organizační složka SK', ico: '', partnerId: '',
+    street: '', zip: '', city: '', label: 'K+B',
+  },
 };
 
-function nat(n) {
-  let s = (Math.round((n + Number.EPSILON) * 100) / 100).toFixed(2);
+function nat(n, decimals = 2) {
+  let s = (Math.round((n + Number.EPSILON) * 10 ** decimals) / 10 ** decimals).toFixed(decimals);
   s = s.replace(/0+$/, '').replace(/\.$/, '');
   return s === '' || s === '-' ? '0' : s;
 }
+function natComma(n, decimals = 2) { return nat(n, decimals).replace('.', ','); }
 function dateToOmega(d) {
   const p = (x) => String(x).padStart(2, '0');
   return `${p(d.getDate())}.${p(d.getMonth() + 1)}.${d.getFullYear()}`;
@@ -50,16 +66,20 @@ function nowTime() {
 }
 
 function loadCards() {
-  if (!fs.existsSync(CARDS_PATH)) return {};
+  if (!fs.existsSync(CARDS_PATH)) throw new Error(`Chyba ${CARDS_PATH}`);
   return JSON.parse(fs.readFileSync(CARDS_PATH, 'utf8'));
 }
+function saveCards(db) {
+  fs.writeFileSync(CARDS_PATH, JSON.stringify(db, null, 2) + '\n', 'utf8');
+}
 
-function buildHeaderRow(supplier, invoiceNumber, freightTotal, sklad) {
+// ---------- T02 (prijemka) ----------
+function buildPrijemkaHeaderRow(supplier, invoiceNumber, freightTotal) {
   const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
   const cols = new Array(38).fill('');
   cols[0] = 'R01';
-  cols[1] = sklad;
-  cols[2] = ''; // cislo dokladu prijemky - necha sa na Omegu (auto-cislovanie), over pri prvom teste
+  cols[1] = SKLAD_NAME;
+  cols[2] = ''; // cislo dokladu prijemky - necha sa na Omegu (auto-cislovanie od 202600001)
   cols[3] = 'P';
   cols[4] = '2';
   cols[5] = identity.name || SUPPLIER_LABELS[supplier];
@@ -95,8 +115,7 @@ function buildHeaderRow(supplier, invoiceNumber, freightTotal, sklad) {
   cols[37] = '';
   return cols;
 }
-
-function buildItemRow(name, quantity, unitPriceNet, cardCode) {
+function buildPrijemkaItemRow(name, quantity, unitPriceNet, cardCode) {
   const cols = new Array(30).fill('');
   cols[0] = 'R02';
   cols[1] = name;
@@ -124,6 +143,42 @@ function buildItemRow(name, quantity, unitPriceNet, cardCode) {
   cols[25] = 'X'; cols[26] = '(Nedefinované)';
   cols[27] = 'X'; cols[28] = '(Nedefinované)';
   cols[29] = '';
+  return cols;
+}
+
+// ---------- T03 (nove skladove karty) ----------
+function buildWarehouseHeaderRow() {
+  const cols = new Array(16).fill('');
+  cols[0] = 'R01'; cols[1] = SKLAD_NAME; cols[2] = SKLAD_KOD;
+  cols[3] = ''; cols[4] = ''; cols[5] = '';
+  cols[6] = 'P'; cols[7] = 'ks'; cols[8] = '132'; cols[9] = '000'; cols[10] = '604'; cols[11] = '001';
+  cols[12] = '';
+  cols[13] = 'V'; cols[14] = '0'; cols[15] = '0';
+  return cols;
+}
+function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel) {
+  const sellNet = unitPriceNet * MARKUP;
+  const sellGross = sellNet * (1 + VAT_RATE);
+  const cols = new Array(50).fill('');
+  cols[0] = 'R02';
+  cols[1] = name;
+  cols[2] = cardCode;
+  cols[3] = 'ks';
+  cols[4] = ean || '';
+  cols[5] = '0'; cols[6] = ''; cols[7] = '0'; cols[8] = '0';
+  cols[9] = name;
+  cols[10] = 'V'; cols[11] = '132'; cols[12] = '000'; cols[13] = '604'; cols[14] = '001';
+  cols[15] = supplierLabel || '';
+  cols[16] = ''; cols[17] = ''; cols[18] = '0'; cols[19] = '0'; cols[20] = '-1';
+  cols[21] = ''; cols[22] = ''; cols[23] = '';
+  cols[24] = '0'; cols[25] = '0'; cols[26] = ''; cols[27] = '0'; cols[28] = '0'; cols[29] = '0'; cols[30] = '0';
+  cols[31] = natComma(sellNet, 4);
+  cols[32] = natComma(sellGross, 2);
+  cols[33] = '131'; cols[34] = '000';
+  cols[35] = ''; cols[36] = ''; cols[37] = '';
+  cols[38] = '0'; cols[39] = '0'; cols[40] = '0';
+  cols[41] = 'ks'; cols[42] = '1'; cols[43] = '0';
+  cols[44] = 'SK'; cols[45] = 'SK'; cols[46] = '504'; cols[47] = '000'; cols[48] = '0'; cols[49] = '0';
   return cols;
 }
 
@@ -155,13 +210,11 @@ function extractInvoiceNumber(rows, supplier) {
 async function main() {
   const pdfPath = process.argv[2];
   if (!pdfPath) {
-    console.error('Pouzitie: node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro] [--sklad="Eshop"]');
+    console.error('Pouzitie: node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro]');
     process.exit(1);
   }
   const supplierArg = process.argv.find((a) => a.startsWith('--supplier='));
   let supplier = supplierArg ? supplierArg.split('=')[1] : null;
-  const skladArg = process.argv.find((a) => a.startsWith('--sklad='));
-  const sklad = skladArg ? skladArg.split('=')[1].replace(/^"|"$/g, '') : 'Eshop';
 
   console.log(`Nacitavam ${pdfPath} ...`);
   const rows = await extractRows(pdfPath);
@@ -175,64 +228,68 @@ async function main() {
   if (!parser) { console.error(`Neznamy dodavatel "${supplier}"`); process.exit(1); }
 
   const rawItems = parser(rows);
-  const feedIndex = loadFeedIndex(supplier);
-  const cards = loadCards();
+  const db = loadCards();
+  const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
 
   const invoiceNumber = extractInvoiceNumber(rows, supplier);
 
   const toReceive = [];
-  const skipped = [];
-  const needsCard = [];
+  const newCards = [];
   let freightTotal = 0;
 
   for (const item of rawItems) {
     if (isNonStock(item.name)) {
       freightTotal += (item.unitPriceNet || 0) * (item.quantity || 1);
-      skipped.push(item);
       continue;
     }
-    const ean = item.ean;
-    let card = ean && cards[ean];
-    if (!card && ean && feedIndex.byEan.has(ean)) {
-      // EAN pozname zo Shoptet feedu, ale este nemame jeho Omega kartu v databaze
-      needsCard.push({ ...item, shoptetCode: feedIndex.byEan.get(ean).code });
+    if (!item.ean) {
+      console.warn(`  [!] polozka bez EAN, preskocena (nedokazem overit/zalozit kartu bez EAN): ${item.name}`);
       continue;
     }
-    if (!card) { needsCard.push(item); continue; }
+    let card = db.eshop.cards[item.ean];
+    if (!card) {
+      const cardCode = String(db.eshop.nextCardNumber);
+      card = { kod: cardCode, nazov: item.name, dodavatel: supplier };
+      db.eshop.cards[item.ean] = card;
+      db.eshop.nextCardNumber += 1;
+      newCards.push({ ...item, cardCode });
+    }
     toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
   }
 
   console.log(`\nDodavatel: ${SUPPLIER_LABELS[supplier]} | Faktura c.: ${invoiceNumber || '(nenajdene)'}`);
-  console.log(`Na prijemku (znama karta): ${toReceive.length}`);
-  for (const r of toReceive) console.log(`  OK   ${r.cardCode}  ${r.cardName}  x${r.quantity}`);
-  if (needsCard.length) {
-    console.log(`Chyba karta v databaze (over v Omege a dopln do data/omega-stock-cards.json): ${needsCard.length}`);
-    for (const r of needsCard) console.log(`  ???  EAN ${r.ean || '(chyba)'}  ${r.name}  x${r.quantity}`);
+  console.log(`Polozky na prijemku: ${toReceive.length} (z toho nove karty: ${newCards.length})`);
+  for (const r of toReceive) {
+    const tag = newCards.some((n) => n.ean === r.ean) ? 'NOVA' : 'existujuca';
+    console.log(`  ${r.cardCode}  (${tag})  ${r.cardName}  x${r.quantity}`);
   }
-  if (skipped.length) console.log(`Preskocene (poplatky/doprava): ${skipped.length}`);
 
   if (toReceive.length === 0) {
-    console.log('\nZiadna polozka so znamou skladovou kartou - prijemka sa nevygenerovala.');
+    console.log('\nZiadna polozka na spracovanie (vsetko poplatky/doprava, alebo chyba EAN) - nic sa nevygenerovalo.');
     return;
-  }
-
-  const identity = SUPPLIER_OMEGA_IDENTITY[supplier] || {};
-  if (!identity.partnerId) {
-    console.warn(`  [!] pre dodavatela "${supplier}" nepoznam Omega partnerske cislo - over v Omege pred importom`);
-  }
-
-  const headerCols = buildHeaderRow(supplier, invoiceNumber, freightTotal, sklad);
-  const lines = ['R00\tT02', headerCols.join('\t')];
-  for (const r of toReceive) {
-    lines.push(buildItemRow(r.cardName, r.quantity, r.unitPriceNet, r.cardCode).join('\t'));
   }
 
   const today = new Date().toISOString().slice(0, 10);
   const outDir = path.join(__dirname, '..', 'output');
   fs.mkdirSync(outDir, { recursive: true });
-  const outPath = path.join(outDir, `omega-prijemka-${today}-${supplier}.txt`);
-  fs.writeFileSync(outPath, iconv.encode(lines.join('\r\n') + '\r\n', 'win1250'));
-  console.log(`\nPrijemka ulozena -> ${outPath}`);
+
+  if (newCards.length > 0) {
+    const lines = ['R00\tT03', buildWarehouseHeaderRow().join('\t')];
+    for (const r of newCards) lines.push(buildNewCardRow(r.name, r.cardCode, r.ean, r.unitPriceNet, identity.label).join('\t'));
+    const outPath = path.join(outDir, `omega-nove-karty-${today}-${supplier}.txt`);
+    fs.writeFileSync(outPath, iconv.encode(lines.join('\r\n') + '\r\n', 'win1250'));
+    console.log(`\nNove skladove karty ulozene -> ${outPath} (naimportuj v Omege AKO PRVE)`);
+  }
+
+  const headerCols = buildPrijemkaHeaderRow(supplier, invoiceNumber, freightTotal);
+  const prijemkaLines = ['R00\tT02', headerCols.join('\t')];
+  for (const r of toReceive) prijemkaLines.push(buildPrijemkaItemRow(r.cardName, r.quantity, r.unitPriceNet, r.cardCode).join('\t'));
+  const prijemkaPath = path.join(outDir, `omega-prijemka-${today}-${supplier}.txt`);
+  fs.writeFileSync(prijemkaPath, iconv.encode(prijemkaLines.join('\r\n') + '\r\n', 'win1250'));
+  console.log(`Prijemka ulozena -> ${prijemkaPath}${newCards.length > 0 ? ' (naimportuj v Omege AZ PO novych kartach)' : ''}`);
+
+  saveCards(db);
+  console.log(`\ndata/omega-stock-cards.json aktualizovany (dalsie volne cislo karty: ${db.eshop.nextCardNumber}).`);
 }
 
 main().catch((err) => {
