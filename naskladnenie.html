@@ -523,6 +523,15 @@ function parseInnpro(rows) {
       if (parts.length > 1 && /^\d{8,14}$/.test(parts[parts.length - 1])) {
         ean = parts.pop();
         code = parts.join(' ');
+      } else {
+        // EAN je niekedy prilepeny priamo na koniec kodu bez medzery (napr. "Stratos 4 Pro B6980064920015" -
+        // kod "Stratos 4 Pro B" a EAN "6980064920015" sa v PDF extrakcii spoja do jedneho textoveho behu).
+        const lastPart = parts[parts.length - 1] || '';
+        const glued = lastPart.match(/^(\S*?)(\d{8,14})$/);
+        if (glued) {
+          ean = glued[2];
+          code = parts.slice(0, -1).concat(glued[1] ? [glued[1]] : []).join(' ');
+        }
       }
     }
 
