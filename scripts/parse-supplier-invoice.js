@@ -169,15 +169,39 @@ function parseKb(rows) {
 // ---------- InnPro: jeden riadok na polozku, EAN (Barcode) je posledny stlpec ----------
 function parseInnpro(rows) {
   const items = [];
-  for (const cells of rows) {
+  for (const raw of rows) {
+    if (raw.length < 5) continue;
+    let cells = raw;
+    // Pri dvojcifernom cisle polozky (10+) sa "No." a "Item name" v PDF extrakcii casto zlucia
+    // do jednej bunky (napr. "10 Lexar Smart Photo Frame") - rozdelime na povodne 2 stlpce.
+    const merged = String(cells[0]).match(/^(\d+)\s+(\S.*)$/);
+    if (merged) {
+      cells = [merged[1], merged[2], ...cells.slice(1)];
+    } else if (!/^\d+$/.test(cells[0])) {
+      continue; // No.
+    }
     if (cells.length < 6) continue;
-    if (!/^\d+$/.test(cells[0])) continue; // No.
-    const last = cells[cells.length - 1];
-    const hasEan = /^\d{8,14}$/.test(last);
+
+    // Supplier's item code a Barcode su normalne 2 samostatne posledne stlpce, ale niekedy sa
+    // tiez zlucia do jednej bunky ("PX-110BLKGL 843367138463") - rozdelime podla posledneho tokenu.
+    const lastCell = String(cells[cells.length - 1] || '').trim();
+    let code = '';
+    let ean = '';
+    if (/^\d{8,14}$/.test(lastCell)) {
+      ean = lastCell;
+      code = cells[cells.length - 2] || '';
+    } else {
+      const parts = lastCell.split(/\s+/);
+      if (parts.length > 1 && /^\d{8,14}$/.test(parts[parts.length - 1])) {
+        ean = parts.pop();
+        code = parts.join(' ');
+      }
+    }
+
     const name = cells[1];
     const qty = toFloat(cells[3]);
     const unitPriceNet = toFloat(cells[7] !== undefined ? cells[7] : cells[4]);
-    items.push({ code: hasEan ? (cells[cells.length - 2] || '') : '', ean: hasEan ? last : '', name, quantity: qty || 1, unitPriceNet });
+    items.push({ code, ean, name, quantity: qty || 1, unitPriceNet });
   }
   return items;
 }

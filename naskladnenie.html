@@ -159,7 +159,6 @@
     <div class="card">
       <div id="boxes"></div>
       <div id="tableWrap"></div>
-      <a class="download" id="downloadLink" download>⬇ Stiahnuť CSV</a>
     </div>
     <div class="card" id="omegaCard" style="display:none">
       <h2 style="font-size:1.05rem;margin-top:0">Príjemka pre Omegu</h2>
@@ -472,14 +471,38 @@ function parseKb(rows) {
 }
 function parseInnpro(rows) {
   const items = [];
-  for (const cells of rows) {
+  for (const raw of rows) {
+    if (raw.length < 5) continue;
+    let cells = raw;
+    // Pri dvojcifernom cisle polozky (10+) sa "No." a "Item name" v PDF extrakcii casto zlucia
+    // do jednej bunky (napr. "10 Lexar Smart Photo Frame") - rozdelime na povodne 2 stlpce.
+    const merged = String(cells[0]).match(/^(\d+)\s+(\S.*)$/);
+    if (merged) {
+      cells = [merged[1], merged[2], ...cells.slice(1)];
+    } else if (!/^\d+$/.test(cells[0])) {
+      continue;
+    }
     if (cells.length < 6) continue;
-    if (!/^\d+$/.test(cells[0])) continue;
-    const last = cells[cells.length - 1];
-    const hasEan = /^\d{8,14}$/.test(last);
+
+    // Supplier's item code a Barcode su normalne 2 samostatne posledne stlpce, ale niekedy sa
+    // tiez zlucia do jednej bunky ("PX-110BLKGL 843367138463") - rozdelime podla posledneho tokenu.
+    const lastCell = String(cells[cells.length - 1] || '').trim();
+    let code = '';
+    let ean = '';
+    if (/^\d{8,14}$/.test(lastCell)) {
+      ean = lastCell;
+      code = cells[cells.length - 2] || '';
+    } else {
+      const parts = lastCell.split(/\s+/);
+      if (parts.length > 1 && /^\d{8,14}$/.test(parts[parts.length - 1])) {
+        ean = parts.pop();
+        code = parts.join(' ');
+      }
+    }
+
     items.push({
-      code: hasEan ? (cells[cells.length - 2] || '') : '',
-      ean: hasEan ? last : '',
+      code,
+      ean,
       name: cells[1],
       quantity: toFloat(cells[3]) || 1,
       unitPriceNet: toFloat(cells[7] !== undefined ? cells[7] : cells[4]),
@@ -562,7 +585,6 @@ const generateBtn = document.getElementById('generateBtn');
 const resultBox = document.getElementById('result');
 const boxes = document.getElementById('boxes');
 const tableWrap = document.getElementById('tableWrap');
-const downloadLink = document.getElementById('downloadLink');
 const omegaCard = document.getElementById('omegaCard');
 const omegaBoxes = document.getElementById('omegaBoxes');
 const omegaDownloadLink = document.getElementById('omegaDownloadLink');
@@ -661,22 +683,6 @@ function renderTable() {
   }
 }
 
-function downloadCsv() {
-  const allRows = [];
-  state.invoiceGroups.forEach((inv) => inv.items.forEach((item) => allRows.push(item)));
-  const csvLines = ['nazov;shoptet_kod;ean;mnozstvo;jednotkova_cena_bez_dph;stav'];
-  for (const item of allRows) {
-    const info = statusFor(item, state.feedIndex);
-    csvLines.push([item.name, info.shoptetCode || '', info.effectiveEan || '', item.quantity, item.unitPriceNet, info.status].map((v) => String(v).replace(/;/g, ',')).join(';'));
-  }
-  const blob = new Blob([csvLines.join('\r\n') + '\r\n'], { type: 'text/csv;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
-  const today = new Date().toISOString().slice(0, 10);
-  downloadLink.href = url;
-  downloadLink.download = `naskladnenie-${today}-${state.supplier}.csv`;
-  downloadLink.textContent = `⬇ Stiahnuť naskladnenie-${today}-${state.supplier}.csv`;
-}
-
 convertBtn.addEventListener('click', async () => {
   if (!selectedFile) return;
   boxes.innerHTML = '';
@@ -703,7 +709,6 @@ convertBtn.addEventListener('click', async () => {
 
     state = { supplier, feedIndex, invoiceGroups };
     renderTable();
-    downloadCsv();
     omegaCard.style.display = 'block';
 
     // ---- Prijemka (T02) + nove skladove karty (T03) pre sklad "Eshop" ----
