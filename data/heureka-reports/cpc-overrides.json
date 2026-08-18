@@ -1,41 +1,9 @@
 {
- "5901890120173": {
-  "cpc": 0.4,
-  "itemId": "AT_LEC-RBA-4500-OR",
-  "name": "Paddleboard SUP REBEL ACTIVE RBA-4500-OR 11'6\"",
-  "note": "Skupina A: overený dopyt — top produkt segmentu Šport a outdoor, 116 návštev / 2 objednávky / 314 € tržieb za 9 dní (10.–18. 8. 2026) bez akejkoľvek biddingovej pozície.",
-  "addedAt": "2026-08-18",
-  "sourceReport": "premiumstoresk_20260815_0921.csv"
- },
- "810098382274": {
-  "cpc": 0.35,
-  "itemId": "083118",
-  "name": "FunWater SUP paddleboard SUPFW07A 3,2m",
-  "note": "Skupina A: overený dopyt — 8 návštev, 1 objednávka (122 €) za 9 dní.",
-  "addedAt": "2026-08-18",
-  "sourceReport": "premiumstoresk_20260815_0921.csv"
- },
- "810098382229": {
-  "cpc": 0.35,
-  "itemId": "083124",
-  "name": "FunWater SUP paddleboard SUPFW01A 3,35m",
-  "note": "Skupina A: overený dopyt — 24 návštev, zatiaľ 0 objednávok; test, či TOP pozícia zlepší konverziu.",
-  "addedAt": "2026-08-18",
-  "sourceReport": "premiumstoresk_20260815_0921.csv"
- },
- "5901890120685": {
-  "cpc": 0.35,
-  "itemId": "AT_LEC-RBA-4507-WH",
-  "name": "Paddleboard SUP REBEL ACTIVE RBA-4507-WH 11'6\"",
-  "note": "Skupina A: overený dopyt — 20 návštev za 9 dní bez konverzie.",
-  "addedAt": "2026-08-18",
-  "sourceReport": "premiumstoresk_20260815_0921.csv"
- },
  "6972436986941": {
   "cpc": 0.28,
   "itemId": "086908",
   "name": "Športové okuliare Colmi V06 AI (čierne)",
-  "note": "Skupina B: vysoká popularita (124), cenová pozícia #1, zatiaľ netestované v biddingu.",
+  "note": "Cenová pozícia #1, popularita 124, ale zatiaľ 0 návštev za 9 dní — cenová výhoda sa nepremieta do návštevnosti, kandidát na platenú viditeľnosť.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -43,7 +11,7 @@
   "cpc": 0.28,
   "itemId": "086907",
   "name": "Športové slnečné okuliare Colmi V06 AI Black",
-  "note": "Skupina B: vysoká popularita (124), cenová pozícia #3, zatiaľ netestované v biddingu.",
+  "note": "Cenová pozícia #3, popularita 124, zatiaľ 0 návštev za 9 dní.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -51,7 +19,7 @@
   "cpc": 0.25,
   "itemId": "078700",
   "name": "Digitálne nočné videnie FNIRSI NVS-20",
-  "note": "Skupina B: vysoká popularita (72), cenová pozícia #1, zatiaľ netestované v biddingu.",
+  "note": "Cenová pozícia #1, popularita 72, zatiaľ 0 návštev za 9 dní.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -59,7 +27,7 @@
   "cpc": 0.3,
   "itemId": "AT_ATO-ZAB0016",
   "name": "Hoverboard Rebel Cruiser Black",
-  "note": "Skupina B: popularita 32, cenová pozícia #1, zatiaľ netestované v biddingu.",
+  "note": "Cenová pozícia #1, popularita 32, zatiaľ 0 návštev za 9 dní.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -67,7 +35,7 @@
   "cpc": 0.12,
   "itemId": "SOL_WN53",
   "name": "Solight LED čelové nabíjacie svietidlo, 100lm",
-  "note": "Skupina C: kategóriový test (Čelovky) — dnes prakticky bez návštevnosti.",
+  "note": "Kategóriový test (Čelovky) — dnes prakticky bez návštevnosti.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -75,7 +43,7 @@
   "cpc": 0.12,
   "itemId": "SOL_WH27",
   "name": "Solight LED čelové svietidlo, 3W + červené svetlo",
-  "note": "Skupina C: kategóriový test (Čelovky) — dnes prakticky bez návštevnosti.",
+  "note": "Kategóriový test (Čelovky) — dnes prakticky bez návštevnosti.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -83,7 +51,7 @@
   "cpc": 0.15,
   "itemId": "SOL_WN41",
   "name": "Solight LED čelové nabíjacie svietidlo, 650lm",
-  "note": "Skupina C: kategóriový test (Čelovky) — dnes prakticky bez návštevnosti.",
+  "note": "Kategóriový test (Čelovky) — dnes prakticky bez návštevnosti.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -91,7 +59,7 @@
   "cpc": 0.12,
   "itemId": "SOL_WN51",
   "name": "Solight LED nabíjacia žiarovka Camping, 100lm",
-  "note": "Skupina C: kategóriový test (Svetlá a baterky) — dnes prakticky bez návštevnosti.",
+  "note": "Cenová pozícia #1, kategóriový test (Svetlá a baterky) — dnes prakticky bez návštevnosti aj napriek víťaznej cene.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -99,7 +67,7 @@
   "cpc": 0.1,
   "itemId": "SOL_WN49",
   "name": "Solight LED nabíjacie vreckové svietidlo",
-  "note": "Skupina C: kategóriový test (Svetlá a baterky) — dnes prakticky bez návštevnosti.",
+  "note": "Cenová pozícia #1, kategóriový test (Svetlá a baterky) — dnes prakticky bez návštevnosti aj napriek víťaznej cene.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -107,7 +75,7 @@
   "cpc": 0.18,
   "itemId": "065131",
   "name": "Baterka Superfire Godfire TF01 – 1371 lumenov",
-  "note": "Skupina C: kategóriový test (Svetlá a baterky) — dnes prakticky bez návštevnosti.",
+  "note": "Cenová pozícia #1, kategóriový test (Svetlá a baterky) — dnes prakticky bez návštevnosti aj napriek víťaznej cene.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
  },
@@ -115,8 +83,88 @@
   "cpc": 0.18,
   "itemId": "082247",
   "name": "Latarka Superfire L3 P90",
-  "note": "Skupina C: kategóriový test (Svetlá a baterky) — dnes prakticky bez návštevnosti.",
+  "note": "Kategóriový test (Svetlá a baterky) — dnes prakticky bez návštevnosti.",
   "addedAt": "2026-08-18",
   "sourceReport": "premiumstoresk_20260815_0921.csv"
+ },
+ "9120072375101": {
+  "cpc": 0.35,
+  "itemId": "AT_SRTLEAPS3",
+  "name": "Strong LEAP-S3 Google TV 4K UHD Android TV multimediálne centrum",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #2, odstup od najlacnejšieho len 0,1 % — takmer vyrovnaná cena. 5 návštev + 1 objednávka (64,50 €) za 9 dní aj bez biddingu; malý bid by mohol posunúť do TOP.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "6977132450192": {
+  "cpc": 0.15,
+  "itemId": "080232",
+  "name": "Plynová varná doska IsEasy MGBS-765",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #2, odstup 0,1 %. 4 návštevy + 1 objednávka (125,50 €) za 9 dní aj bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "197531544216": {
+  "cpc": 0.25,
+  "itemId": "KB_100002079522",
+  "name": "LENOVO adaptér TAB 68W AC USB ZG38C05739",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #2, odstup 0,7 %. 3 návštevy za 9 dní bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "4957812660334": {
+  "cpc": 0.55,
+  "itemId": "KB_100000910016",
+  "name": "YAMAHA RX-V4A Black (AV prijímač)",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #3, odstup 5,4 %, vysoká hodnota produktu (529 €). 3 návštevy za 9 dní bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "3499550347968": {
+  "cpc": 0.2,
+  "itemId": "KB_700000095772",
+  "name": "Thomson CR 50 (rádiobudík)",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #2, odstup 0,1 %. 2 návštevy za 9 dní bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "6972185560119": {
+  "cpc": 0.32,
+  "itemId": "055287",
+  "name": "Bezdrôtový adaptér Carlinkit CCPA Apple Carplay/Android auto",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #3, odstup 0,2 %. 2 návštevy za 9 dní bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "6935750512623": {
+  "cpc": 0.35,
+  "itemId": "077514",
+  "name": "Merač vzdialenosti UNI-T LM120A",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #2, odstup 0,3 %. 2 návštevy za 9 dní bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "3168430122130": {
+  "cpc": 0.42,
+  "itemId": "KB_340910114838",
+  "name": "TEFAL GC 305012 (domáci gril)",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #3, odstup 4,4 %. 2 návštevy za 9 dní bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "8594186721016": {
+  "cpc": 0.55,
+  "itemId": "KB_100000190770",
+  "name": "GUZZANTI GZ 20 (vinotéka)",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #3, odstup 14,4 % (vyšší, sledovať konverziu). 2 návštevy za 9 dní bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
+ },
+ "4957812689281": {
+  "cpc": 0.55,
+  "itemId": "KB_100002063316",
+  "name": "YAMAHA R-N800A BLACK",
+  "note": "Celokatalógový sken (2026-08-19): cenová pozícia #3, odstup 15,0 % (vyšší, sledovať konverziu), vysoká hodnota produktu (1099 €). 2 návštevy za 9 dní bez biddingu.",
+  "addedAt": "2026-08-19",
+  "sourceReport": "premiumstoresk_20260815_0921.csv + report20260810to20260818.csv"
  }
 }
