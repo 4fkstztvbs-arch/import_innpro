@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600026,
+    "nextCardNumber": 202600034,
     "cards": {
       "6971636400998": {
         "kod": "202600001",
@@ -152,6 +152,54 @@
         "nazov": "Portable Monitor Z1FC Silver",
         "dodavatel": "innpro",
         "code": "074687"
+      },
+      "26973293803860": {
+        "kod": "202600026",
+        "nazov": "Petkit Filter for EVERSWEET",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "843367138463": {
+        "kod": "202600027",
+        "nazov": "Lexar Smart Photo Frame",
+        "dodavatel": "innpro",
+        "code": "076856"
+      },
+      "6973137270742": {
+        "kod": "202600028",
+        "nazov": "MOZA MTP Throttle Panel",
+        "dodavatel": "innpro",
+        "code": "078740"
+      },
+      "6976297861263": {
+        "kod": "202600029",
+        "nazov": "Gps Bike Computer Cycplus",
+        "dodavatel": "innpro",
+        "code": "082886"
+      },
+      "6975755966908": {
+        "kod": "202600030",
+        "nazov": "Flextail Zero pump 2 black",
+        "dodavatel": "innpro",
+        "code": "085465"
+      },
+      "6971337724409": {
+        "kod": "202600031",
+        "nazov": "Webcam EMEET SmartCam",
+        "dodavatel": "innpro",
+        "code": "085701"
+      },
+      "6979127740646": {
+        "kod": "202600032",
+        "nazov": "Jump Starter GOOLOO",
+        "dodavatel": "innpro",
+        "code": "087303"
+      },
+      "6975532171228": {
+        "kod": "202600033",
+        "nazov": "Zeblaze smartwatch Stratos",
+        "dodavatel": "innpro",
+        "code": "087945"
       }
     }
   },
