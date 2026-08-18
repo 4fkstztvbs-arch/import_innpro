@@ -56,6 +56,11 @@ async function reserveCards(env, items, attempt = 0) {
 
   for (const item of items) {
     if (!item.ean) continue;
+    // Ak sa ten isty EAN v jednej davke vyskytne viackrat (napr. rovnaky produkt na 2 riadkoch
+    // faktury, alebo omylom prepisany EAN inej polozky), spracujeme len prvy vyskyt - inak by
+    // druhy prepisal "isNew" na false a nova karta by sa nikdy nezalozila (T03 by vysiel prazdny),
+    // pricom prijemka by sa aj tak odkazovala na kartu, ktora v Omege neexistuje.
+    if (item.ean in assigned) continue;
     let card = db.eshop.cards[item.ean];
     let isNew = false;
     if (!card) {
