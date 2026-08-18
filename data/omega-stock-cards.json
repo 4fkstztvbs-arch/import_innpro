@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600017,
+    "nextCardNumber": 202600026,
     "cards": {
       "6971636400998": {
         "kod": "202600001",
@@ -98,6 +98,60 @@
         "nazov": "TOPENÍ Elektrický ohřívač vzduchu s ventilátorem Kaminer 24361",
         "dodavatel": "atos",
         "code": ""
+      },
+      "0608887786774": {
+        "kod": "202600017",
+        "nazov": "Yeelight GU10 dimmable",
+        "dodavatel": "innpro",
+        "code": "025583"
+      },
+      "5907489605540": {
+        "kod": "202600018",
+        "nazov": "PULUZ 50x70cm Studio",
+        "dodavatel": "innpro",
+        "code": "026428"
+      },
+      "5907489607711": {
+        "kod": "202600019",
+        "nazov": "Digital clamp meter HT208D",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "6973293803860": {
+        "kod": "202600020",
+        "nazov": "Petkit Filter for EVERSWEET",
+        "dodavatel": "innpro",
+        "code": "038728"
+      },
+      "5906168433887": {
+        "kod": "202600021",
+        "nazov": "Ottocast U2-AIR Pro",
+        "dodavatel": "innpro",
+        "code": "064292"
+      },
+      "6976297860655": {
+        "kod": "202600022",
+        "nazov": "GPS bike computer Cycplus",
+        "dodavatel": "innpro",
+        "code": "065088"
+      },
+      "6975532170047": {
+        "kod": "202600023",
+        "nazov": "Neakasa Pet Groom kit P2",
+        "dodavatel": "innpro",
+        "code": "071558"
+      },
+      "5907085520919": {
+        "kod": "202600024",
+        "nazov": "EJEAS E1PRO",
+        "dodavatel": "innpro",
+        "code": "072034"
+      },
+      "5907085524511": {
+        "kod": "202600025",
+        "nazov": "Portable Monitor Z1FC Silver",
+        "dodavatel": "innpro",
+        "code": "074687"
       }
     }
   },
