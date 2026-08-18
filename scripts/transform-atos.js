@@ -24,6 +24,7 @@ const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
+const { heurekaCpcFor } = require('./heureka-cpc-overrides');
 const { extractCompatibleModels } = require('./extract-compatible-models');
 
 const URL = process.env.ATOS_URL;
@@ -163,6 +164,8 @@ function buildShopitemXml(p) {
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  const heurekaCpc = heurekaCpcFor(p.ean);
+  if (heurekaCpc !== undefined) parts.push(`<HEUREKA_CPC>${heurekaCpc}</HEUREKA_CPC>`);
   const images = (CDN_IMAGES[p.code] && CDN_IMAGES[p.code].length) ? CDN_IMAGES[p.code] : p.images.map(proxyImgAspUrl);
   if (images.length) {
     parts.push('<IMAGES>');

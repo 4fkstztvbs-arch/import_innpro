@@ -50,6 +50,7 @@ const { roundPrice, roundPriceDown } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { streamRecords } = require('./stream-records');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
+const { heurekaCpcFor } = require('./heureka-cpc-overrides');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
 const CLOUD_IMAGES_PATH = process.env.BASYS_CLOUD_IMAGES || path.join(__dirname, '..', 'data', 'basys-bose-cloud-images.json');
@@ -173,6 +174,8 @@ function buildShopitemXml(p) {
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  const heurekaCpc = heurekaCpcFor(p.ean);
+  if (heurekaCpc !== undefined) parts.push(`<HEUREKA_CPC>${heurekaCpc}</HEUREKA_CPC>`);
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));

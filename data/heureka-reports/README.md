@@ -7,3 +7,7 @@ Súbor si nechaj v pôvodnom Heureka názve (napr. `premiumstoresk_20260807_1253
 `scripts/process-heureka-report.js` beží raz denne (pozri Routine), skontroluje, či je tu novší report než posledný spracovaný (`.last-processed.json`), a ak áno, vygeneruje `reports/heureka-cenovy-navrh-<dátum>.md` **aj** `price-targets.json` (EAN → cieľová cena, strojovo čitateľné — toto si potom sami načítajú `transform-*.js` skripty pri nasledujúcom behu a aplikujú, pozri `reports/prehlad-importov.md` sekciu 4.4).
 
 Ručné spustenie: `node scripts/process-heureka-report.js` (voliteľne `--min-margin=5`, `--force` na prinútenie prepočítania aj bez nového súboru).
+
+## CPC (bidding) override
+
+`cpc-overrides.json` je samostatný, **ručne udržiavaný** zoznam (EAN → odporúčaná `HEUREKA_CPC`) — na rozdiel od `price-targets.json` sa negeneruje automaticky. Vzniká porovnaním sortiment reportu s Heureka výkonnostným reportom (návštevy/objednávky/tržby po produktoch). Pridávaj/uprav/maž záznamy ručne. Zapojenie do importu, kill switch (`HEUREKA_CPC_OVERRIDE=1`) a formát pozri `reports/prehlad-importov.md` sekciu 4.5.

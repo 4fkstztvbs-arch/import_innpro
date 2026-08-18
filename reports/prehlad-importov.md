@@ -108,6 +108,16 @@ Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports
 - **MONACOR nie je zapojený** — nemá k dispozícii nákupnú cenu vôbec (pozri sekciu 3), floor sa teda nedá bezpečne overiť, takže by naň mechanizmus nikdy stejne nezasiahol.
 - Produkt bez zhody EAN v `price-targets.json` = žiadna zmena, presne ako doteraz.
 
+### 4.5 Heureka CPC (bidding) override (`scripts/heureka-cpc-overrides.js`, od 2026-08-18)
+
+**⚠️ ZATIAĽ VYPNUTÉ (vedomé rozhodnutie, 2026-08-18), rovnaký vzor ako 4.4.** Zapojené vo všetkých `transform-*.js` (vrátane MONACOR — na rozdiel od cenového override tu nákupná cena nie je potrebná, override len posiela `<HEUREKA_CPC>`), ale za centrálnym vypínačom — bez `HEUREKA_CPC_OVERRIDE=1` (env premenná) je `heurekaCpcFor()` vždy no-op (vráti `undefined`, žiadny `<HEUREKA_CPC>` tag sa nepridá) bez ohľadu na obsah `cpc-overrides.json`. Zapnutie = pridať `HEUREKA_CPC_OVERRIDE: '1'` do `env:` v `.github/workflows/<dodavatel>-sync.yml` pre dodávateľov, kde to chceš aktívne.
+
+Na rozdiel od `price-targets.json` (4.4) sa **`data/heureka-reports/cpc-overrides.json` negeneruje automaticky** — je to malý ručne udržiavaný zoznam (EAN → `{ cpc, itemId, name, note, addedAt, sourceReport }`), vzniknutý porovnaním sortiment reportu (4.3) s Heureka výkonnostným reportom (návštevy/náklady/objednávky/tržby po produktoch) — pozri `cpc-overrides.json` pre aktuálny zoznam a dôvod pri každom produkte. Prvý zoznam (2026-08-18, 15 produktov, segment Šport a outdoor) testuje, či zvýšenie CPC pri produktoch bez biddingovej pozície zvýši ich viditeľnosť/tržby — najsilnejším dôkazom bol Paddleboard SUP REBEL ACTIVE RBA-4500-OR, ktorý bez akéhokoľvek biddingu generoval najviac návštev aj tržieb v celom segmente.
+
+- **Formát Shoptetu:** `<HEUREKA_CPC>` = maximálna cena za kliknutie na Heureka.sk/cz (pole `Heureka CPC` / `HEUREKA_CPC` v úplnom importe, desatinné číslo v EUR).
+- **Úprava zoznamu:** pridaj/uprav/zmaž záznam v `cpc-overrides.json` ručne (kľúč je EAN). Žiadny skript ho zatiaľ neprepisuje.
+- Produkt bez zhody EAN v `cpc-overrides.json` = žiadny `<HEUREKA_CPC>` tag, presne ako doteraz (Heureka použije svoje predvolené/posledné nastavenie).
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |
@@ -165,6 +175,8 @@ data/heureka-reports/                sem sa nahráva Heureka sortiment report (v
 scripts/compare-heureka-prices.js    porovnanie cien + návrh (jednorazovo, ľubovoľný CSV)
 scripts/process-heureka-report.js    denný beh — nájde nový report, vygeneruje .md + price-targets.json
 scripts/heureka-price-targets.js     zdieľaný lookup, ktorý transform-*.js skripty použijú na override ceny
+data/heureka-reports/cpc-overrides.json  ručne udržiavaný zoznam EAN → odporúčaná Heureka CPC (viď 4.5)
+scripts/heureka-cpc-overrides.js     zdieľaný lookup, ktorý transform-*.js skripty použijú na override <HEUREKA_CPC>
 scripts/fetch-atos-images.js         ATOS obrázkové URL zo StoItemBase_El (priamy CDN alebo cez proxy, pozri 5.1)
 cloudflare-worker/                   Cloudflare Worker (caching proxy pred atoselektro.cz) + deploy config
 .github/workflows/deploy-atos-image-proxy.yml   automatický deploy Workera pri zmene v cloudflare-worker/

@@ -18,6 +18,7 @@ const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
+const { heurekaCpcFor } = require('./heureka-cpc-overrides');
 
 const URL = process.env.SOLIGHT_URL;
 const MARKUP_PCT = parseFloat(process.env.SOLIGHT_MARKUP || '0');
@@ -175,6 +176,8 @@ function buildShopitemXml(p) {
   // maržovú podlahu preukázateľne nekonkurencieschopní cenou - tých je rádovo menej a ide o
   // konkrétne produkty, nie celé kategórie.
   if (cannotCompeteOnPrice(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  const heurekaCpc = heurekaCpcFor(p.ean);
+  if (heurekaCpc !== undefined) parts.push(`<HEUREKA_CPC>${heurekaCpc}</HEUREKA_CPC>`);
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));
