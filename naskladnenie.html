@@ -137,6 +137,16 @@
   <h1>Naskladnenie z faktúry dodávateľa</h1>
   <p class="sub">Nahraj PDF faktúru od ATOS, K+B, InnPro, BaSys alebo Solight — prevod zistí položky tovaru a spáruje ich s existujúcimi Shoptet produktmi (podľa EAN, u K+B podľa názvu), aby sa dala pripraviť príjemka a nové skladové karty pre Omegu. Faktúra sa spracúva priamo v prehliadači, nikam sa neposiela — okrem stiahnutia verejných produktových feedov tohto e-shopu (na spárovanie kódov).</p>
 
+  <details class="card" id="numberingCard">
+    <summary>Číslovanie skladových kariet <span id="numberingCurrent" class="sub" style="font-weight:400"></span></summary>
+    <p class="sub" style="margin:10px 0">Ak niekto v Omege založí kartu v sklade Eshop ručne (mimo tohto nástroja), over/uprav tu ďalšie voľné číslo predtým, než spustíš import — inak hrozí kolízia čísel.</p>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <input type="number" id="numberingInput" min="1" step="1" style="width:140px;padding:8px;border:1px solid var(--border,#ccc);border-radius:6px">
+      <button class="primary" id="numberingSaveBtn" type="button">Uložiť nové číslovanie</button>
+      <span id="numberingStatus" class="sub"></span>
+    </div>
+  </details>
+
   <div class="card">
     <div class="supplier-row" id="supplierRow">
       <label><input type="radio" name="supplier" value="auto" checked><span>Automaticky rozpoznať</span></label>
@@ -376,6 +386,22 @@ async function reserveOmegaCards(items) {
   if (!res.ok) throw new Error(body.error || `Omega cards API zlyhalo (${res.status})`);
   return body.assigned;
 }
+async function fetchOmegaNextCardNumber() {
+  const res = await fetch(OMEGA_CARDS_API_URL + '/state');
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || `Omega cards API zlyhalo (${res.status})`);
+  return body.eshop.nextCardNumber;
+}
+async function setOmegaNextCardNumber(nextCardNumber) {
+  const res = await fetch(OMEGA_CARDS_API_URL + '/set-next', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Api-Key': OMEGA_CARDS_API_KEY },
+    body: JSON.stringify({ nextCardNumber }),
+  });
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || `Omega cards API zlyhalo (${res.status})`);
+  return body.nextCardNumber;
+}
 
 async function extractRows(file) {
   const buf = await file.arrayBuffer();
@@ -588,6 +614,46 @@ const tableWrap = document.getElementById('tableWrap');
 const omegaCard = document.getElementById('omegaCard');
 const omegaBoxes = document.getElementById('omegaBoxes');
 const omegaDownloadLink = document.getElementById('omegaDownloadLink');
+const numberingCard = document.getElementById('numberingCard');
+const numberingCurrent = document.getElementById('numberingCurrent');
+const numberingInput = document.getElementById('numberingInput');
+const numberingSaveBtn = document.getElementById('numberingSaveBtn');
+const numberingStatus = document.getElementById('numberingStatus');
+
+let numberingLoaded = false;
+async function loadNumbering() {
+  numberingStatus.textContent = 'Načítavam…';
+  try {
+    const next = await fetchOmegaNextCardNumber();
+    numberingCurrent.textContent = `— aktuálne ďalšie voľné číslo: ${next}`;
+    numberingInput.value = next;
+    numberingStatus.textContent = '';
+    numberingLoaded = true;
+  } catch (err) {
+    numberingStatus.textContent = 'Chyba: ' + err.message;
+  }
+}
+numberingCard.addEventListener('toggle', () => {
+  if (numberingCard.open && !numberingLoaded) loadNumbering();
+});
+numberingSaveBtn.addEventListener('click', async () => {
+  const value = parseInt(numberingInput.value, 10);
+  if (!Number.isInteger(value) || value < 1) {
+    numberingStatus.textContent = 'Zadaj platné celé číslo.';
+    return;
+  }
+  numberingSaveBtn.disabled = true;
+  numberingStatus.textContent = 'Ukladám…';
+  try {
+    const next = await setOmegaNextCardNumber(value);
+    numberingCurrent.textContent = `— aktuálne ďalšie voľné číslo: ${next}`;
+    numberingStatus.textContent = 'Uložené.';
+  } catch (err) {
+    numberingStatus.textContent = 'Chyba: ' + err.message;
+  } finally {
+    numberingSaveBtn.disabled = false;
+  }
+});
 
 let selectedFile = null;
 let state = null; // { supplier, feedIndex, invoiceGroups: [{ invoiceNumber, items }] }

@@ -13,6 +13,9 @@
 //                              cisla karty pri vystavovani predajnej faktury (aby sa vydajka
 //                              spravne odpisala z konkretnej karty v Eshope).
 //                              vyzaduje hlavicku X-Api-Key (zdielany tajny kluc, viz secrets nizsie)
+// POST /set-next            -> { nextCardNumber: <int> } - rucna oprava dalsieho volneho cisla
+//                              karty (napr. ak niekto zalozi kartu v Omege priamo, mimo tohto
+//                              nastroja) - vyzaduje hlavicku X-Api-Key
 
 const FILE_PATH = 'data/omega-stock-cards.json';
 const CORS_HEADERS = {
@@ -40,6 +43,18 @@ export default {
         const body = await request.json();
         const items = Array.isArray(body.items) ? body.items : [];
         return await reserveCards(env, items);
+      }
+
+      if (url.pathname === '/set-next' && request.method === 'POST') {
+        if (request.headers.get('X-Api-Key') !== env.API_KEY) {
+          return jsonResponse({ error: 'Unauthorized' }, 401);
+        }
+        const body = await request.json();
+        const nextCardNumber = parseInt(body.nextCardNumber, 10);
+        if (!Number.isInteger(nextCardNumber) || nextCardNumber < 1) {
+          return jsonResponse({ error: 'Neplatne nextCardNumber' }, 400);
+        }
+        return await setNextCardNumber(env, nextCardNumber);
       }
 
       return jsonResponse({ error: 'Not found' }, 404);
@@ -89,6 +104,19 @@ async function reserveCards(env, items, attempt = 0) {
   return jsonResponse({ assigned, nextCardNumber: db.eshop.nextCardNumber });
 }
 
+async function setNextCardNumber(env, nextCardNumber, attempt = 0) {
+  const { db, sha } = await fetchFile(env);
+  db.eshop.nextCardNumber = nextCardNumber;
+
+  const commitOk = await commitFile(env, db, sha, [], `Omega Eshop: rucna oprava cislovania kariet na ${nextCardNumber}`);
+  if (!commitOk) {
+    if (attempt < 2) return setNextCardNumber(env, nextCardNumber, attempt + 1);
+    return jsonResponse({ error: 'Konflikt pri ukladani, skus znova.' }, 409);
+  }
+
+  return jsonResponse({ nextCardNumber: db.eshop.nextCardNumber });
+}
+
 async function ghFetch(env, path, options = {}) {
   return fetch(`https://api.github.com/repos/${env.GH_REPO}/${path}`, {
     ...options,
@@ -109,14 +137,15 @@ async function fetchFile(env) {
   return { db: JSON.parse(content), sha: data.sha };
 }
 
-async function commitFile(env, db, sha, items) {
+async function commitFile(env, db, sha, items, messageOverride) {
   const content = JSON.stringify(db, null, 2) + '\n';
   const encoded = btoa(unescape(encodeURIComponent(content)));
   const names = items.map((i) => i.name).slice(0, 3).join(', ');
+  const message = messageOverride || `Omega Eshop: nove skladove karty - ${names}`;
   const res = await ghFetch(env, `contents/${FILE_PATH}`, {
     method: 'PUT',
     body: JSON.stringify({
-      message: `Omega Eshop: nove skladove karty - ${names}`,
+      message,
       content: encoded,
       sha,
       branch: 'main',
