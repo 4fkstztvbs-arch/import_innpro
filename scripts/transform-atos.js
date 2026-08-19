@@ -24,6 +24,7 @@ const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
+const { heurekaNameOverrideFor } = require('./heureka-name-overrides');
 const { extractCompatibleModels } = require('./extract-compatible-models');
 
 const URL = process.env.ATOS_URL;
@@ -145,6 +146,8 @@ async function getCzkToEurRate() {
 function buildShopitemXml(p) {
   const parts = ['<SHOPITEM>'];
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
+  const heurekaNameOverride = heurekaNameOverrideFor(p.ean);
+  if (heurekaNameOverride) parts.push(`<NAME_TO_EXPORTS>${xmlCdata(heurekaNameOverride)}</NAME_TO_EXPORTS>`);
   if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
   parts.push(`<DESCRIPTION>${xmlCdata(p.description)}</DESCRIPTION>`);
   if (p.manufacturer) parts.push(`<MANUFACTURER>${xmlCdata(p.manufacturer)}</MANUFACTURER>`);

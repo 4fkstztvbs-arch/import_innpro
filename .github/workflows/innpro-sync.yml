@@ -33,6 +33,7 @@ jobs:
           INNPRO_OUT: output/innpro.xml
           INNPRO_EXCLUDE_UNAVAILABLE: '1'
           HEUREKA_PRICE_OVERRIDE: '1'
+          HEUREKA_NAME_OVERRIDE: '1'
         run: node scripts/transform-innpro.js
 
       - name: Pull latest before cross-supplier dedupe

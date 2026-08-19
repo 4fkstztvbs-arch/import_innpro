@@ -108,6 +108,57 @@ Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports
 - **MONACOR nie je zapojený** — nemá k dispozícii nákupnú cenu vôbec (pozri sekciu 3), floor sa teda nedá bezpečne overiť, takže by naň mechanizmus nikdy stejne nezasiahol.
 - Produkt bez zhody EAN v `price-targets.json` = žiadna zmena, presne ako doteraz.
 
+### 4.5 Nespárované produkty na Heureke (`scripts/process-heureka-unmatched.js`, od 2026-08-19)
+
+Heureka "Nespárované produkty" je iný export než sortiment report (4.2-4.4) — pre EANy, ktoré
+Heureka pozná, ale nevie ich spárovať s naším feedom, obsahuje aj vlastný návrh správneho názvu
+(`suggestProductName`) a kategórie (`suggestCategoryTree`), plus cenový rozsah spárovaného
+produktu na Heureke (`suggestPriceMin/Max`) na overenie, že návrh naozaj sedí na náš produkt.
+Report sa nedá automaticky sťahovať (dočasný podpísaný odkaz, pozri `data/heureka-reports/README.md`).
+
+**Zistenie na reálnom reporte (2026-08-19, shopId 4603, 6 303 nespárovaných produktov):**
+2 669 malo Heurekin návrh, vždy párovaný cez zhodný EAN (`suggestEan === EAN`) — teda ide o
+skutočne rovnaký fyzický produkt, nie o hádanie. Najčastejšia príčina nespárovania: náš
+`<NAME>` je príliš "opísaný" (obsahuje aj vlastnosti, napr. "Nástenné ovládanie hlasitosti PA,
+100 W"), kým Heureka eviduje produkt pod kratším katalógovým názvom ("Monacor ATT-2100H/WS").
+Kategórie boli nesprávne/chýbajúce prakticky pri všetkých (2 669/2 669).
+
+**Mechanizmus #1 — `NAME_TO_EXPORTS` (názov, `scripts/heureka-name-overrides.js`):**
+Shoptetovo pole "Alternatívny názov produktu pre vyhľadávače tovaru" — keď je vyplnené, prepíše
+sa doň to, čo sa posiela do porovnávačov (`#NAME#`/`#PRODUCT#`/`#PRODUCTNAME#` v šablónach feedu),
+bez zmeny názvu na vlastnom e-shope. `process-heureka-unmatched.js` postaví
+`data/heureka-reports/name-overrides.json` (EAN → navrhovaný názov), ale **iba** pre riadky, kde
+naša aktuálna cena padá do ±30 % okna `suggestPriceMin/Max` — mimo tohto okna je vysoká šanca, že
+ide o chybný EAN v našom vlastnom feede (nie o problém s názvom), takže by prepis len maskoval
+inú chybu (na reporte 2026-08-19: 104 z 2 669 takto vyradených). Z 2 669 návrhov prešlo touto
+kontrolou **2 566** produktov.
+Rovnaký vzor ako cenový override (4.4): **KILL SWITCH** `HEUREKA_NAME_OVERRIDE=1` v `env:`
+príslušného `*-sync.yml` — bez neho `heurekaNameOverrideFor()` vždy vráti `null`, žiadny živý
+dopad. Zapojené vo všetkých 7 `transform-*.js` (ATOS, BASYS, InnPro, K+B, MONACOR, Solight, WiiM),
+tag `<NAME_TO_EXPORTS>` sa vypisuje hneď za `<NAME>`, len keď je pre daný EAN nájdený návrh.
+**Zapnuté (2026-08-19)** v `atos-sync.yml`, `basys-sync.yml`, `innpro-sync.yml`, `kb-sync.yml`,
+`solight-sync.yml` (rovnaká skupina ako cenový override) — prejaví sa pri najbližšom behu
+každého z nich. MONACOR aj WiiM nemajú plánovaný beh s nastaveným flagom (WiiM sa spúšťa len
+ručne, MONACOR nemá k dispozícii nákupnú cenu ani pri cenovom override, pozri 4.4).
+
+**Mechanizmus #2 — kategórie (rozšírenie `scripts/heureka-mapping.json`, existujúci mechanizmus 4.1):**
+Skript stiahne živý Heureka strom kategórií (`heureka-sekce.xml`) a pre každú našu kategóriu s
+≥3 nespárovanými produktmi a ≥60 % zhodou medzi Heurekinými návrhmi nájde presné číselné
+`CATEGORY_ID` a porovná ho s tým, čo je (alebo nie je) v `scripts/heureka-mapping.json`. Výstup
+(`PRIDAŤ` / `OPRAVIŤ` / `UŽ_SPRÁVNE` / `NEDOSTATOK_DAT`) ide do `.md` reportu aj do
+`data/heureka-reports/heureka-mapping-candidates.json`. **Toto NIE JE automatické** —
+`heureka-mapping.json` zostáva ručne upravovaný súbor (tak ako pri jeho vzniku, pozri 4.1), skript
+len pripraví overiteľný návrh, ktorý sa ručne vyberá a vkladá. Na reporte 2026-08-19 našiel
+166 takýchto kategórií (najväčšia: "Kreatívne technológie > 3D tlač > Vlákna", 175 produktov,
+98 % zhoda → chýbala úplne). **133 z nich (≥70 % zhoda) bolo v ten istý deň doplnených priamo
+do `scripts/heureka-mapping.json`** (~1 800 produktov); zvyšných 33 s nižšou zhodou (50-69 %)
+zostáva zámerne mimo — vyžadujú ručné overenie pred doplnením, kandidáti sú stále v
+`data/heureka-reports/heureka-mapping-candidates.json`.
+
+**Zámerne nepokryté týmto mechanizmom:** 3 634 produktov bez akéhokoľvek Heurekinho návrhu
+(Heureka nenašla zhodu vôbec) a 704 produktov bez EAN v našom feede — oboje vyžaduje iný zásah
+(doplnenie EAN od dodávateľa, resp. ručné dohľadanie), nie hromadnú opravu.
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |
