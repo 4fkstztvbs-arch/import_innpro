@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600023,
+    "nextCardNumber": 202600027,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -134,6 +134,30 @@
         "nazov": "JBL PartyBox 330",
         "dodavatel": "kb",
         "code": "100002203894"
+      },
+      "3838782408038": {
+        "kod": "202600023",
+        "nazov": "GORENJE F4142PW",
+        "dodavatel": "kb",
+        "code": "100000821076"
+      },
+      "5908269349913": {
+        "kod": "202600024",
+        "nazov": "Zelmer ZMM9802B",
+        "dodavatel": "kb",
+        "code": "100002099597"
+      },
+      "3045388593727": {
+        "kod": "202600025",
+        "nazov": "TEFAL MB 756 G 31",
+        "dodavatel": "kb",
+        "code": "342200094838"
+      },
+      "4006501521217": {
+        "kod": "202600026",
+        "nazov": "Leifheit Clean Twist M Ergo+náhr.",
+        "dodavatel": "kb",
+        "code": ""
       }
     }
   },
