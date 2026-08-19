@@ -187,7 +187,6 @@ function buildItemRow(item, cardIndex, warnings) {
 
   const unitPriceGross = round2(unitPriceNet * (1 + rate));
   const analytika = 'D2'; // '/A1' pre firmy sa doplna v buildHeaderRow volajucim kodom, tu default B2C
-  const strediskoKod = typ === 'V' ? '' : (typ === 'S' ? '602' : '604');
 
   const cols = new Array(58).fill('');
   cols[0] = 'R02';
@@ -203,7 +202,7 @@ function buildItemRow(item, cardIndex, warnings) {
   cols[10] = typ === 'K' ? text : '';
   cols[11] = ''; // EAN - v Pohoda exporte zo Shoptetu nie je k dispozicii
   cols[12] = '0';
-  cols[13] = strediskoKod;
+  cols[13] = ''; // ucet/stredisko - vynechane, uzivatel pri editacii faktury v Omege rucne vyberie polozku/sluzbu zo skladu
   cols[14] = typ === 'V' ? '' : '001';
   cols[15] = '';
   cols[16] = '';
