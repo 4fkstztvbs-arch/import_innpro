@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600027,
+    "nextCardNumber": 202600031,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -157,6 +157,30 @@
         "kod": "202600026",
         "nazov": "Leifheit Clean Twist M Ergo+náhr.",
         "dodavatel": "kb",
+        "code": ""
+      },
+      "5901890116398": {
+        "kod": "202600027",
+        "nazov": "Zdroj záložní KEMOT PROsinus 800 URZ3405-LFP4 500W 12V",
+        "dodavatel": "atos",
+        "code": "LEC-URZ3405-LFP4"
+      },
+      "5901890117470": {
+        "kod": "202600028",
+        "nazov": "Powerbanka KRUGER & MATZ KM0913-B 10000mAh, kabel, MagSafe, QC, PD",
+        "dodavatel": "atos",
+        "code": "ATO-KM0913-B"
+      },
+      "5901890104630": {
+        "kod": "202600029",
+        "nazov": "Lapač hmyzu TEESA TSA0210 2 x 10W",
+        "dodavatel": "atos",
+        "code": "LEC-TSA0210"
+      },
+      "5901890120685": {
+        "kod": "202600030",
+        "nazov": "Paddleboard SUP REBEL ACTIVE RBA-4507-WH - BÍLÁ",
+        "dodavatel": "atos",
         "code": ""
       }
     }
