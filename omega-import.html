@@ -308,7 +308,6 @@ function buildItemRow(item, warnings, cardIndex) {
   } else typ = "V";
 
   const unitPriceGross = round2(unitPriceNet * (1 + rate));
-  const strediskoKod = typ === "V" ? "" : typ === "S" ? "602" : "604";
 
   const cols = new Array(58).fill("");
   cols[0] = "R02";
@@ -324,7 +323,7 @@ function buildItemRow(item, warnings, cardIndex) {
   cols[10] = typ === "K" ? t : "";
   cols[11] = "";
   cols[12] = "0";
-  cols[13] = strediskoKod;
+  cols[13] = ""; // ucet/stredisko - vynechane, uzivatel pri editacii faktury v Omege rucne vyberie polozku/sluzbu zo skladu
   cols[14] = typ === "V" ? "" : "001";
   cols[15] = "";
   cols[16] = "";
