@@ -18,6 +18,7 @@ const { streamRecords } = require('./stream-records');
 const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-kb');
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
+const { heurekaNameOverrideFor } = require('./heureka-name-overrides');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
 
 const ZBOZI_URL = process.env.KB_ZBOZI_URL;
@@ -109,6 +110,8 @@ async function checkUrlsWithConcurrency(items, concurrency, onResult) {
 function buildShopitemXml(p) {
   const parts = ['<SHOPITEM>'];
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
+  const heurekaNameOverride = heurekaNameOverrideFor(p.ean);
+  if (heurekaNameOverride) parts.push(`<NAME_TO_EXPORTS>${xmlCdata(heurekaNameOverride)}</NAME_TO_EXPORTS>`);
   if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
   parts.push(`<DESCRIPTION>${xmlCdata(p.description)}</DESCRIPTION>`);
   if (p.manufacturer) parts.push(`<MANUFACTURER>${xmlCdata(p.manufacturer)}</MANUFACTURER>`);
