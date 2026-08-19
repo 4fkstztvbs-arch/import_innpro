@@ -37,7 +37,7 @@ const SELLER = {
   iban: 'SK6711000000002943138960',
   dic: '2121848729',
   country: 'SLOVENSKO',
-  radKod: '0008', // číselný rad pre e-shop odoslané faktúry
+  radKod: '0002', // poradove cislo ciselneho radu OFE v Omege (predtym rad OF s poradovym cislom 0008)
 };
 
 const PAYMENT_TYPE_MAP = {
