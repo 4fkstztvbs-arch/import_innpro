@@ -40,6 +40,7 @@ jobs:
           ATOS_MARKUP: '15'
           ATOS_OUT: output/atos.xml
           HEUREKA_PRICE_OVERRIDE: '1'
+          HEUREKA_NAME_OVERRIDE: '1'
           ATOS_EXCLUDE_UNAVAILABLE: '1'
           ATOS_IMAGE_PROXY_BASE: ${{ secrets.ATOS_IMAGE_PROXY_BASE }}
         run: node scripts/transform-atos.js

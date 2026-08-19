@@ -11,76 +11,48 @@ Vstup: `premiumstoresk_20260819_1200.csv` (6303 nespárovaných produktov, autom
   - Zamietnuté kontrolou ceny (mimo ±30% okna navrhovanej ceny — pravdepodobne chybný EAN u nás, nie problém názvu): **104**
   - **Prijaté do `name-overrides.json` (pripravené na živé nasadenie): 2565**
 
-**Mechanizmus je pripravený, ale VYPNUTÝ** (rovnaký princíp ako cenový override) — aktivuje sa `HEUREKA_NAME_OVERRIDE=1` v `env:` príslušného `*-sync.yml` workflow. Do aktivácie sa nič v živom feede nemení, len sa dáta pripravujú. Pozri `scripts/heureka-name-overrides.js`.
+Mechanizmus je za kill-switchom `HEUREKA_NAME_OVERRIDE=1` v `env:` príslušného `*-sync.yml` workflow (rovnaký princíp ako cenový override) — skontroluj tam aktuálny stav pred spoliehaním sa na tieto čísla ako na to, čo sa práve posiela na Heureku. Pozri `scripts/heureka-name-overrides.js`.
 
 ## Kategórie na doplnenie/opravu v `scripts/heureka-mapping.json`
 
-Nájdených **166** kategórií s dostatočne presvedčivým návrhom (≥3 produkty, ≥60% zhoda medzi návrhmi Heureky) na doplnenie/opravu. Ručne pridaj/uprav v `scripts/heureka-mapping.json` a over namátkovo na Heureke pred nasadením.
+Nájdených **33** kategórií s dostatočne presvedčivým návrhom (≥3 produkty, ≥60% zhoda medzi návrhmi Heureky) na doplnenie/opravu. Ručne pridaj/uprav v `scripts/heureka-mapping.json` a over namátkovo na Heureke pred nasadením.
 
 | Stav | Naša kategória | Počet produktov | Heureka návrh | Zhoda | Terajšie ID | Navrhované ID |
 |---|---|---:|---|---:|---:|---:|
-| PRIDAŤ | Kreatívne technológie > 3D tlač > Vlákna | 175 | Elektronika | Počítače a notebooky | Tlačiarne a príslušenstvo | Náplne a farby do tlačiarní | Tlačové struny | 98% | — | 6216 |
 | PRIDAŤ | Heureka.sk > Elektronika > Foto, kamery, optika > Foto a kamery > Športové kamery | 104 | Elektronika | Foto, kamery, optika | Príslušenstvo k fotoaparátom | Objektívy a doplnky | Filtre k objektívom | 66% | — | 865 |
-| PRIDAŤ | Heureka.sk > Elektronika > TV, audio, video > Mikrofóny | 101 | Elektronika | TV, audio, video | Mikrofóny | 79% | — | 710 |
-| PRIDAŤ | TV, audio a video > Mobily a tablety > Smart telefóny | 83 | Elektronika | Mobily, tablety, nositeľná elektronika | Mobilné telefóny | 100% | — | 731 |
 | PRIDAŤ | Heureka.sk > Elektronika > TV, audio, video > Hi-Fi komponenty > Zosilňovače | 82 | Elektronika | TV, audio, video | Satelitná a digitálna technika | Zosilňovače a rozbočovače | 67% | — | 6314 |
-| PRIDAŤ | Heureka.sk > Elektronika > Počítače a notebooky > Sieťové prvky > IP kamery | 78 | Elektronika | Počítače a notebooky | Sieťové prvky | IP kamery | 86% | — | 1899 |
-| PRIDAŤ | TV, audio a video > Foto a optika > Príslušenstvo > Pre fotoaparáty a videokamery | 75 | Elektronika | Foto, kamery, optika | Príslušenstvo k fotoaparátom | Blesky a príslušenstvo | Blesky k fotoaparátom | 74% | — | 669 |
 | PRIDAŤ | Heureka.sk > Elektronika > Počítače a notebooky > Tlačiarne a príslušenstvo > Náplne a farby do tlačiarní > Atramenty a refillkity | 61 | Elektronika | Počítače a notebooky | Tlačiarne a príslušenstvo | Náplne a farby do tlačiarní | Náplne a tonery - originálne | 64% | — | 796 |
 | PRIDAŤ | Heureka.sk > Bývanie a doplnky > Osvetlenie a svietidlá > LED osvetlenie | 58 | Bývanie a doplnky | Osvetlenie a svietidlá | Svietidlá | 63% | — | 1663 |
 | PRIDAŤ | Heureka.sk > Elektronika > TV, audio, video > Reproduktory, soundbary > Reprosústavy a reproduktory | 48 | Elektronika | TV, audio, video | Reproduktory, soundbary | Bluetooth reproduktory | 67% | — | 5948 |
-| PRIDAŤ | TV, audio a video > Mobily a tablety > Smart hodinky > Smart prstene | 48 | Elektronika | Inteligentná domácnosť | Wearables | Inteligentné prstene | 100% | — | 7432 |
-| PRIDAŤ | Heureka.sk > Elektronika > Počítače a notebooky > Záložné zdroje > UPS | 47 | Elektronika | Počítače a notebooky | Záložné zdroje | UPS | 80% | — | 1906 |
-| PRIDAŤ | Heureka.sk > Elektronika > TV, audio, video > Príslušenstvo k TV, audio-video > Príslušenstvo k TV > Držiaky a stolíky > Držiaky a stojany na TV a monitory | 45 | Elektronika | Počítače a notebooky | Monitory | 76% | — | 816 |
 | PRIDAŤ | Dróny a RC modely > Príslušenstvo pre drony > Filtre pre drony | 41 | Elektronika | Foto, kamery, optika | Príslušenstvo ku kamerám | Filtre ku kamerám | 62% | — | 6755 |
-| PRIDAŤ | TV, audio a video > Audio technika > Stojany | 35 | Elektronika | TV, audio, video | Reproduktory, soundbary | Príslušenstvo k reproduktorom | Stojany a držiaky na reproduktory | 95% | — | 811 |
-| PRIDAŤ | Heureka.sk > Elektronika > Počítače a notebooky > Príslušenstvo k počítačom > Pamäťové karty | 29 | Elektronika | Počítače a notebooky | Príslušenstvo k počítačom | Pamäťové karty | 100% | — | 822 |
-| PRIDAŤ | Heureka.sk > Bývanie a doplnky > Osvetlenie a svietidlá > Dekoratívne osvetlenie > LED pásiky | 28 | Bývanie a doplnky | Osvetlenie a svietidlá | Dekoratívne osvetlenie | LED pásiky | 100% | — | 6351 |
 | PRIDAŤ | Profesionálna audio technika > Pódium, diskotéka, DJ > reproduktorové systémy > aktívne | 27 | Hobby | Hudobniny | Zvuková technika | Zvukové aparatúry a príslušenstvo | Aparatúry pre univerzálne použitie | 67% | — | 2012 |
-| PRIDAŤ | Profesionálna audio technika > Pódium, diskotéka, DJ > Statívy/držiaky > reproduktorov | 26 | Elektronika | TV, audio, video | Reproduktory, soundbary | Príslušenstvo k reproduktorom | Stojany a držiaky na reproduktory | 100% | — | 811 |
-| PRIDAŤ | Heureka.sk > Elektronika > Počítače a notebooky > Sieťové prvky > WiFi antény | 25 | Elektronika | Počítače a notebooky | Sieťové prvky | Access pointy a routery | 92% | — | 1789 |
-| PRIDAŤ | Šport, hračky a voľný čas > Outdoor > Rybárčenie > Návnada lode | 24 | Hobby | Rybárske potreby | Rybárske návnady, nástrahy a príslušenstvo | Zavážacie loďky | 100% | — | 8514 |
 | PRIDAŤ | TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Simulátory > Simulácia pretekov | 24 | Gaming | Herné príslušenstvo | Diely na stavbu kokpitu | 67% | — | 6546 |
-| PRIDAŤ | TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Herné podložky > Podložky | 24 | Gaming | Herné príslušenstvo | Herné ovládače | Gamepady | 100% | — | 812 |
-| PRIDAŤ | Bezpečnosť a smart domácnosť > Riadiace jednotky > Prepínače | 23 | Elektronika | Inteligentná domácnosť | Ovládače a spínače pre inteligentnú domácnosť | 100% | — | 5860 |
-| PRIDAŤ | Profesionálna audio technika > Pódium, diskotéka, DJ > transportné kufre a racky > príslušenstvo > ostatné | 22 | Hobby | Hudobniny | Hudobné nástroje | Strunové nástroje | Príslušenstvo pre gitary | 80% | — | 2007 |
-| PRIDAŤ | Elektroinštalačný materiál > Ostatné > 230V > Rozbočky | 22 | Dielňa, stavba, záhrada | Stavba | Elektromateriály | Elektroinštalačný materiál | Zásuvky, vypínače, termostaty | Zásuvky | 75% | — | 3935 |
-| PRIDAŤ | Heureka.sk > Dielňa, stavba, záhrada > Stavba > Elektromateriály > Elektroinštalačný materiál > Zásuvky, vypínače, termostaty > Zásuvky | 22 | Elektronika | Inteligentná domácnosť | Zásuvky pre inteligentnú domácnosť | 90% | — | 5879 |
 | PRIDAŤ | Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > IP ozvučenie | 21 | Elektronika | Počítače a notebooky | Sieťové prvky | Switche | 67% | — | 1942 |
-| PRIDAŤ | Heureka.sk > Elektronika > TV, audio, video > Televízory | 21 | Elektronika | TV, audio, video | Televízory | 75% | — | 2873 |
 | PRIDAŤ | Šport, hračky a voľný čas > Outdoor > Kempovanie | 21 | Šport a outdoor | Športy | Cyklistika | Príslušenstvo na bicykel | Doplnky na bicykel | 67% | — | 2817 |
-| PRIDAŤ | Profesionálna audio technika > Pódium, diskotéka, DJ > reproduktorové systémy > pasívne | 21 | Hobby | Hudobniny | Zvuková technika | Zvukové aparatúry a príslušenstvo | Aparatúry pre univerzálne použitie | 100% | — | 2012 |
-| PRIDAŤ | Elektroinštalačný materiál > Zvončeky | 21 | Dielňa, stavba, záhrada | Stavba | Elektromateriály | Domová komunikácia | Domové zvončeky | 90% | — | 2897 |
-| PRIDAŤ | Heureka.sk > Bývanie a doplnky > Bytové dekorácie > Hodiny a budíky > Hodiny | 20 | Bývanie a doplnky | Bytové dekorácie | Hodiny a budíky | Hodiny | 90% | — | 1738 |
-| PRIDAŤ | Heureka.sk > Elektronika > Mobily, tablety, nositeľná elektronika > Tablety a čítačky > Tablety | 20 | Elektronika | Mobily, tablety, nositeľná elektronika | Tablety a čítačky | Tablety | 100% | — | 3021 |
-| PRIDAŤ | Heureka.sk > Elektronika > TV, audio, video > Príslušenstvo k TV, audio-video > Audio príslušenstvo > Príslušenstvo pre gramofóny > Puzdrá a obaly pre gramofóny | 20 | Elektronika | Mobily, tablety, nositeľná elektronika | Príslušenstvo k mobilom | Puzdrá, sklá, fólie | Puzdrá a kryty na mobilné telefóny | Puzdrá a kryty na mobilné telefóny Apple | 100% | — | 8307 |
-| PRIDAŤ | TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Príslušenstvo VR | 19 | Gaming | Herné príslušenstvo | Príslušenstvo k herným konzolám | Ostatné príslušenstvo k herným konzolám | 71% | — | 912 |
-| PRIDAŤ | Profesionálna audio technika > Reproduktory > výškové | 19 | Elektronika | TV, audio, video | Reproduktory, soundbary | Reprosústavy a reproduktory | 100% | — | 705 |
-| PRIDAŤ | Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Regulátory hlasitosti | 18 | Hobby | Hudobniny | Hudobné nástroje | Strunové nástroje | Príslušenstvo pre gitary | 100% | — | 2007 |
-| PRIDAŤ | Náradie a dielňa > Kancelária a škola > Fototlačiarne | 18 | Elektronika | Počítače a notebooky | Tlačiarne a príslušenstvo | Tlačiarne | 100% | — | 795 |
-| PRIDAŤ | Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Reproduktory > podhľadové | 18 | Elektronika | TV, audio, video | Reproduktory, soundbary | Reprosústavy a reproduktory | 100% | — | 705 |
-| PRIDAŤ | Fotovoltaika a energie > Akumulátory a batérie > LiFePO4 akumulátory | 17 | Elektronika | Batérie a nabíjanie | Batérie | LiFePO4 batérie | 88% | — | 8521 |
-| PRIDAŤ | Zdravie a starostlivosť > Chovateľské potreby > Inteligentné toalety pre zvieratá | 17 | Chovateľské potreby | Pre mačky | Mačacie toalety a podstielky | Toalety pre mačky | 100% | — | 5791 |
 | PRIDAŤ | Heureka.sk > Domáce a osobné spotrebiče > Kuchynské spotrebiče > Filtrácia vody > Filtračné kanvice | 16 | Domáce a osobné spotrebiče | Kuchynské spotrebiče | Filtrácia vody | Filtračné patróny | 67% | — | 8372 |
-| PRIDAŤ | Heureka.sk > Dielňa, stavba, záhrada > Dielňa > Spájkovanie > Spájkovačky | 16 | Dielňa, stavba, záhrada | Dielňa | Spájkovanie | Spájkovačky | 100% | — | 4141 |
-| PRIDAŤ | Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Reproduktory > reproduktorové stĺpiky 100V | 16 | Elektronika | TV, audio, video | Reproduktory, soundbary | Reprosústavy a reproduktory | 100% | — | 705 |
-| PRIDAŤ | Bezpečnosť a smart domácnosť > Prvky výkonu > Smart zámky | 16 | Dielňa, stavba, záhrada | Stavba | Železiarstvo | Kovanie a zámky | Cylindrické vložky | 100% | — | 5194 |
-| PRIDAŤ | Heureka.sk > Dielňa, stavba, záhrada > Stavba > Fotovoltaika > Solárne regulátory | 15 | Dielňa, stavba, záhrada | Stavba | Fotovoltaika | Solárne regulátory | 100% | — | 6897 |
 | PRIDAŤ | Bezpečnosť a smart domácnosť > Zabezpečenie > PIR čidlá | 15 | Dielňa, stavba, záhrada | Stavba | Elektromateriály | Elektroinštalačný materiál | Zásuvky, vypínače, termostaty | Pohybové čidlá | 67% | — | 3937 |
-| PRIDAŤ | Dróny a RC modely > Príslušenstvo pre drony > DJI | 15 | Elektronika | Foto, kamery, optika | Drony a príslušenstvo | Príslušenstvo k dronom | 88% | — | 5081 |
 | PRIDAŤ | Heureka.sk > Elektronika > TV, audio, video > Príslušenstvo k TV, audio-video > Príslušenstvo k TV > 3D okuliare | 15 | Elektronika | Inteligentná domácnosť | Wearables | Inteligentné okuliare | 63% | — | 4939 |
-| PRIDAŤ | Heureka.sk > Elektronika > TV, audio, video > Satelitná a digitálna technika > LNB konvertory | 15 | Elektronika | TV, audio, video | Satelitná a digitálna technika | LNB konvertory | 100% | — | 692 |
-| PRIDAŤ | Elektroinštalačný materiál > Osvetlenie > LED pásky > Príslušenstvo | 15 | Bývanie a doplnky | Osvetlenie a svietidlá | Príslušenstvo k svietidlám | Príslušenstvo k LED pásikom | Konektory pre LED pásiky | 71% | — | 7444 |
-| PRIDAŤ | Heureka.sk > Domáce a osobné spotrebiče > Kuchynské spotrebiče > Príprava nápojov > Kávovary a príprava kávy > Moka kanvice | 14 | Domáce a osobné spotrebiče | Kuchynské spotrebiče | Príprava nápojov | Kávovary a príprava kávy | Moka kanvice | 100% | — | 5204 |
-| PRIDAŤ | Elektroinštalačný materiál > Ostatné > 230V > Koncovky | 14 | Dielňa, stavba, záhrada | Stavba | Elektromateriály | Elektroinštalačný materiál | Zásuvky, vypínače, termostaty | Zásuvky | 93% | — | 3935 |
-| PRIDAŤ | Heureka.sk > Chovateľské potreby > Pre hlodavce > Vybavenie klietok pre hlodavce > Napájačky | 14 | Chovateľské potreby | Pre psov | Misky a zásobníky pre psov | 79% | — | 2242 |
-| PRIDAŤ | TV, audio a video > Mobily a tablety > GSM nabíjačky | 13 | Elektronika | Mobily, tablety, nositeľná elektronika | Príslušenstvo k mobilom | Batérie a nabíjačky pre mobily | Nabíjačky pre mobilné telefóny | 86% | — | 738 |
-| PRIDAŤ | Profesionálna audio technika > Reproduktory > stredo-basové | 13 | Elektronika | TV, audio, video | Reproduktory, soundbary | Reprosústavy a reproduktory | 100% | — | 705 |
-| PRIDAŤ | Zdravie a starostlivosť > Chovateľské potreby > Dávkovače krmiva > misky | 13 | Chovateľské potreby | Pre psov | Misky a zásobníky pre psov | 80% | — | 2242 |
-| PRIDAŤ | Dróny a RC modely > Príslušenstvo pre drony > Tašky a kufre | 13 | Elektronika | Foto, kamery, optika | Drony a príslušenstvo | Príslušenstvo k dronom | 100% | — | 5081 |
-| PRIDAŤ | TV, audio a video > Audio technika > Rádiá | 12 | Elektronika | TV, audio, video | Prenosné audio | Rádioprijímače | 75% | — | 706 |
+| PRIDAŤ | Heureka.sk > Elektronika > Počítače a notebooky > Tlačiarne a príslušenstvo > Skenery | 11 | Elektronika | Počítače a notebooky | Tlačiarne a príslušenstvo | Náplne a farby do tlačiarní | Náplne a tonery - kompatibilné | 63% | — | 4106 |
+| PRIDAŤ | Bezpečnosť a smart domácnosť > Smart domácnosť > Zvončeky | 11 | Dielňa, stavba, záhrada | Stavba | Elektromateriály | Domová komunikácia | Domové zvončeky | 67% | — | 2897 |
+| PRIDAŤ | Bezpečnosť a smart domácnosť > Smart domácnosť > Ostatné smart elektronika | 11 | Chovateľské potreby | Pre psov | Misky a zásobníky pre psov | 67% | — | 2242 |
+| PRIDAŤ | TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Simulátory > Simulácia letu | 9 | Gaming | Herné príslušenstvo | Herné ovládače | Joysticky | 63% | — | 813 |
+| PRIDAŤ | Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Reproduktory > príslušenstvo | 8 | Elektronika | TV, audio, video | Reproduktory, soundbary | Reprosústavy a reproduktory | 67% | — | 705 |
+| PRIDAŤ | Heureka.sk > Šport a outdoor > Športy > Vodné športy > Paddleboardy | 8 | Šport a outdoor | Športy | Vodné športy | Vodácke vybavenie | Vodácke vrecia | 67% | — | 1429 |
+| PRIDAŤ | Heureka.sk > Šport a outdoor > Športy > Ostatné športy > Bojové športy > Nože a meče na bojové športy > Ostatné zbrane pre bojové športy | 7 | Šport a outdoor | Športy | Horolezectvo | Horolezecké steny | 60% | — | 1720 |
+| PRIDAŤ | Fotovoltaika a energie > Akumulátory a batérie > NiMh nabíjacie akumulátory > AA ceruzkové | 7 | Elektronika | Batérie a nabíjanie | Batérie | Nabíjacie batérie | 67% | — | 2972 |
+| PRIDAŤ | Heureka.sk > Kancelária a papiernictvo > Kancelárska technika a vybavenie prevádzok > Tlačiarne štítkov | 6 | Kancelária a papiernictvo | Kancelárska technika a vybavenie prevádzok | Príslušenstvo ku kancelárskej technike | Farbiace pásky | 67% | — | 3192 |
+| PRIDAŤ | Heureka.sk > Bývanie a doplnky > Bytové doplnky > Doplnky do kuchyne > Varenie > Hrnce | 5 | Bývanie a doplnky | Bytové doplnky | Doplnky do kuchyne | Varenie | Hrnce | 67% | — | 1712 |
+| PRIDAŤ | Heureka.sk > Šport a outdoor > Športy > Fitness > Trenažéry > Rotopédy | 5 | Šport a outdoor | Športy | Fitness | Trenažéry | Rotopédy | 67% | — | 1325 |
+| PRIDAŤ | Bezpečnosť a smart domácnosť > Osvetlenie > Nábytkové svietidlá | 5 | Bývanie a doplnky | Osvetlenie a svietidlá | Svietidlá | 60% | — | 1663 |
+| PRIDAŤ | Fotovoltaika a energie > Napájacie zdroje > Nabíjačky notebookov | 5 | Elektronika | Mobily, tablety, nositeľná elektronika | Príslušenstvo k mobilom | Batérie a nabíjačky pre mobily | Nabíjačky pre mobilné telefóny | 60% | — | 738 |
+| PRIDAŤ | TV, audio a video > Mobily a tablety > Príslušenstvo | 5 | Elektronika | Inteligentná domácnosť | Wearables | Inteligentné lokátory | 60% | — | 6240 |
+| PRIDAŤ | Heureka.sk > Šport a outdoor > Športy > Cyklistika > Kolobežky a príslušenstvo > Kolobežky | 4 | Šport a outdoor | Športy | Cyklistika | Elektrokolobežky | 67% | — | 5016 |
+| PRIDAŤ | Šport, hračky a voľný čas > Cyklistika > Pumpy na kolo | 3 | Šport a outdoor | Športy | Cyklistika | Náradie na bicykel a údržba | Pumpy na bicykel | 67% | — | 1230 |
+| PRIDAŤ | Fotovoltaika a energie > Nabíjačky > Nabíjačky DC-DC | 3 | Elektronika | Batérie a nabíjanie | Nabíjačky | Solárne nabíjačky | 67% | — | 5062 |
+| PRIDAŤ | Heureka.sk > Elektronika > Počítače a notebooky > Počítačové komponenty > Rozširujúce karty do počítača > Sieťové karty | 3 | Elektronika | Počítače a notebooky | Počítačové komponenty | Rozširujúce karty do počítača | Sieťové karty | 67% | — | 913 |
+| PRIDAŤ | Šport, hračky a voľný čas > Sportovní vybavenie > Raketové športy > Badminton | 3 | Šport a outdoor | Športy | Raketové športy | Badminton | Badmintonové súpravy | 67% | — | 1776 |
+| PRIDAŤ | Šport, hračky a voľný čas > Cyklistika > Svietidlá na kolo | 3 | Šport a outdoor | Športy | Cyklistika | Príslušenstvo na bicykel | Svetlá na bicykel | 67% | — | 2379 |
 
-_(+ ďalších 106 kategórií, pozri `heureka-mapping-candidates.json`)_
 
 ## Kategórie bez dostatočne jasného návrhu (171, ≥5 produktov)
 
@@ -119,6 +91,6 @@ Tu Heureka návrhy medzi sebou nesúhlasia (rôzne EAN → rôzne produkty), ale
 | Heureka.sk > Elektronika > Počítače a notebooky > Sieťové prvky > Servery a príslušenstvo > Rackové skrine | 24 | Elektronika | Počítače a notebooky | Záložné zdroje | Prepäťové ochrany | 100% |
 | Heureka.sk > Elektronika > Inteligentná domácnosť > Meteostanice | 23 | Elektronika | Inteligentná domácnosť | Príslušenstvo k meteostaniciam | 41% |
 
-## Už správne namapované, no stále nespárované (0 kategórií)
+## Už správne namapované, no stále nespárované (133 kategórií)
 
 Kategória už má správne `HEUREKA_CATEGORY_ID`, produkty sú napriek tomu nespárované — príčina je inde (názov, chýbajúci EAN, alebo Heureka ešte nestihla prepárovať po poslednom importe).

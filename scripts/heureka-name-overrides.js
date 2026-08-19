@@ -12,9 +12,11 @@
 // tolerance rule. A product with no EAN match here keeps its normal transform-*.js name
 // unchanged - this module never invents a name.
 //
-// KILL SWITCH: same pattern as heureka-price-targets.js - inactive until someone explicitly sets
-// HEUREKA_NAME_OVERRIDE=1 (e.g. in a supplier sync workflow's env). Until then every call is a
-// no-op. See reports/prehlad-importov.md section 4.5.
+// KILL SWITCH: same pattern as heureka-price-targets.js - a no-op unless HEUREKA_NAME_OVERRIDE=1
+// is set in the caller's env. Turned ON (2026-08-19) in atos/basys/innpro/kb/solight-sync.yml -
+// MONACOR and WiiM aren't wired into a scheduled workflow's env yet (WiiM has no scheduled sync
+// at all, see README; MONACOR intentionally excluded from the price override too, same reasoning
+// doesn't strictly apply here but it was left consistent). See reports/prehlad-importov.md 4.5.
 
 const fs = require('fs');
 const path = require('path');

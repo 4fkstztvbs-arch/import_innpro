@@ -136,6 +136,10 @@ Rovnaký vzor ako cenový override (4.4): **KILL SWITCH** `HEUREKA_NAME_OVERRIDE
 príslušného `*-sync.yml` — bez neho `heurekaNameOverrideFor()` vždy vráti `null`, žiadny živý
 dopad. Zapojené vo všetkých 7 `transform-*.js` (ATOS, BASYS, InnPro, K+B, MONACOR, Solight, WiiM),
 tag `<NAME_TO_EXPORTS>` sa vypisuje hneď za `<NAME>`, len keď je pre daný EAN nájdený návrh.
+**Zapnuté (2026-08-19)** v `atos-sync.yml`, `basys-sync.yml`, `innpro-sync.yml`, `kb-sync.yml`,
+`solight-sync.yml` (rovnaká skupina ako cenový override) — prejaví sa pri najbližšom behu
+každého z nich. MONACOR aj WiiM nemajú plánovaný beh s nastaveným flagom (WiiM sa spúšťa len
+ručne, MONACOR nemá k dispozícii nákupnú cenu ani pri cenovom override, pozri 4.4).
 
 **Mechanizmus #2 — kategórie (rozšírenie `scripts/heureka-mapping.json`, existujúci mechanizmus 4.1):**
 Skript stiahne živý Heureka strom kategórií (`heureka-sekce.xml`) a pre každú našu kategóriu s
@@ -144,8 +148,12 @@ Skript stiahne živý Heureka strom kategórií (`heureka-sekce.xml`) a pre kaž
 (`PRIDAŤ` / `OPRAVIŤ` / `UŽ_SPRÁVNE` / `NEDOSTATOK_DAT`) ide do `.md` reportu aj do
 `data/heureka-reports/heureka-mapping-candidates.json`. **Toto NIE JE automatické** —
 `heureka-mapping.json` zostáva ručne upravovaný súbor (tak ako pri jeho vzniku, pozri 4.1), skript
-len pripraví overiteľný návrh. Na reporte 2026-08-19 našiel 166 takýchto kategórií (najväčšia:
-"Kreatívne technológie > 3D tlač > Vlákna", 175 produktov, 98 % zhoda → chýbala úplne).
+len pripraví overiteľný návrh, ktorý sa ručne vyberá a vkladá. Na reporte 2026-08-19 našiel
+166 takýchto kategórií (najväčšia: "Kreatívne technológie > 3D tlač > Vlákna", 175 produktov,
+98 % zhoda → chýbala úplne). **133 z nich (≥70 % zhoda) bolo v ten istý deň doplnených priamo
+do `scripts/heureka-mapping.json`** (~1 800 produktov); zvyšných 33 s nižšou zhodou (50-69 %)
+zostáva zámerne mimo — vyžadujú ručné overenie pred doplnením, kandidáti sú stále v
+`data/heureka-reports/heureka-mapping-candidates.json`.
 
 **Zámerne nepokryté týmto mechanizmom:** 3 634 produktov bez akéhokoľvek Heurekinho návrhu
 (Heureka nenašla zhodu vôbec) a 704 produktov bez EAN v našom feede — oboje vyžaduje iný zásah

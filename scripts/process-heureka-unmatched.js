@@ -193,7 +193,7 @@ function toMarkdown(rows, categoryResults, nameOverrideStats, sourceCsvName, heu
   lines.push(`  - Zamietnuté kontrolou ceny (mimo ±${Math.round(PRICE_TOLERANCE * 100)}% okna navrhovanej ceny — pravdepodobne chybný EAN u nás, nie problém názvu): **${nameOverrideStats.rejectedByPrice}**`);
   lines.push(`  - **Prijaté do \`name-overrides.json\` (pripravené na živé nasadenie): ${Object.keys(nameOverrideStats.overrides).filter((k) => k !== '__meta').length}**`);
   lines.push('');
-  lines.push('**Mechanizmus je pripravený, ale VYPNUTÝ** (rovnaký princíp ako cenový override) — aktivuje sa `HEUREKA_NAME_OVERRIDE=1` v `env:` príslušného `*-sync.yml` workflow. Do aktivácie sa nič v živom feede nemení, len sa dáta pripravujú. Pozri `scripts/heureka-name-overrides.js`.');
+  lines.push('Mechanizmus je za kill-switchom `HEUREKA_NAME_OVERRIDE=1` v `env:` príslušného `*-sync.yml` workflow (rovnaký princíp ako cenový override) — skontroluj tam aktuálny stav pred spoliehaním sa na tieto čísla ako na to, čo sa práve posiela na Heureku. Pozri `scripts/heureka-name-overrides.js`.');
   lines.push('');
 
   lines.push('## Kategórie na doplnenie/opravu v `scripts/heureka-mapping.json`');
