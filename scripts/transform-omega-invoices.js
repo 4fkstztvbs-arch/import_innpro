@@ -37,7 +37,7 @@ const SELLER = {
   iban: 'SK6711000000002943138960',
   dic: '2121848729',
   country: 'SLOVENSKO',
-  radKod: '0002', // poradove cislo ciselneho radu OFE v Omege (predtym rad OF s poradovym cislom 0008)
+  radKod: '0008', // konstanta zistena z realneho exportu Omegy 19.8.2026 (nesuvisi s poradovym cislom radu OFE)
 };
 
 const PAYMENT_TYPE_MAP = {
@@ -290,8 +290,8 @@ function buildHeaderRow(invoice, itemRows, totals) {
   cols[15] = '0';
   cols[16] = nat(totalGross);
   cols[17] = '0';
-  cols[18] = 'OFE'; // ciselny rad pre faktury importovane zo Shoptetu (predtym "OF", zmenene v Omege)
-  cols[19] = 'OFE';
+  cols[18] = 'OF'; // konstanta (nezavisla od nazvu radu) - zistene z realneho exportu Omegy 19.8.2026
+  cols[19] = 'OFE'; // skutocny kod ciselneho radu
   cols[20] = ''; // cislo v rade - ponechane prazdne, nech Omega prideli podla radu 0008
   cols[21] = ''; cols[22] = ''; cols[23] = '';
   cols[24] = street;
@@ -302,9 +302,9 @@ function buildHeaderRow(invoice, itemRows, totals) {
   cols[29] = '';
   cols[30] = '';
   cols[31] = '';
-  cols[32] = '';
-  cols[33] = orderNumber;
-  cols[34] = SELLER.name;
+  cols[32] = orderNumber;
+  cols[33] = '';
+  cols[34] = '(Nedefinované)'; // konstanta zistena z realneho exportu Omegy - nie nazov predajcu
   cols[35] = SELLER.radKod;
   cols[36] = '';
   cols[37] = paymentType;
@@ -315,7 +315,7 @@ function buildHeaderRow(invoice, itemRows, totals) {
   cols[42] = nat(totalGross);
   cols[43] = '';
   cols[44] = '';
-  cols[45] = 'e shop';
+  cols[45] = '';
   cols[46] = SELLER.country;
   cols[47] = icDph ? 'SK' : '';
   cols[48] = icDph;
@@ -323,7 +323,7 @@ function buildHeaderRow(invoice, itemRows, totals) {
   cols[50] = SELLER.bankName;
   cols[51] = SELLER.bankCity;
   cols[52] = SELLER.country;
-  cols[53] = '01';
+  cols[53] = 'X';
   cols[54] = partnerName.slice(0, 15);
   cols[55] = SELLER.bic;
   cols[56] = SELLER.iban;
@@ -332,7 +332,7 @@ function buildHeaderRow(invoice, itemRows, totals) {
   cols[59] = SELLER.country;
   cols[60] = '-2';
   cols[61] = '3';
-  cols[62] = '';
+  cols[62] = '0';
   cols[63] = '999';
   cols[64] = '';
   cols[65] = '0.0000';
