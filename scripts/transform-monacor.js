@@ -13,7 +13,6 @@ const { streamRecords } = require('./stream-records');
 const { parseMonacorProduct } = require('./parse-monacor');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
-const { heurekaNameOverrideFor } = require('./heureka-name-overrides');
 
 const URL = process.env.MONACOR_URL;
 const MARKUP_PCT = parseFloat(process.env.MONACOR_MARKUP || '0');
@@ -43,8 +42,6 @@ function truncateAtWord(s, maxLen) {
 function buildShopitemXml(p) {
   const parts = ['<SHOPITEM>'];
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
-  const heurekaNameOverride = heurekaNameOverrideFor(p.ean);
-  if (heurekaNameOverride) parts.push(`<NAME_TO_EXPORTS>${xmlCdata(heurekaNameOverride)}</NAME_TO_EXPORTS>`);
   if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
   parts.push(`<DESCRIPTION>${xmlCdata(p.description)}</DESCRIPTION>`);
   if (p.manufacturer) parts.push(`<MANUFACTURER>${xmlCdata(p.manufacturer)}</MANUFACTURER>`);

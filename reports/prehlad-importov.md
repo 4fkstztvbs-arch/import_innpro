@@ -123,23 +123,30 @@ skutočne rovnaký fyzický produkt, nie o hádanie. Najčastejšia príčina ne
 100 W"), kým Heureka eviduje produkt pod kratším katalógovým názvom ("Monacor ATT-2100H/WS").
 Kategórie boli nesprávne/chýbajúce prakticky pri všetkých (2 669/2 669).
 
-**Mechanizmus #1 — `NAME_TO_EXPORTS` (názov, `scripts/heureka-name-overrides.js`):**
-Shoptetovo pole "Alternatívny názov produktu pre vyhľadávače tovaru" — keď je vyplnené, prepíše
-sa doň to, čo sa posiela do porovnávačov (`#NAME#`/`#PRODUCT#`/`#PRODUCTNAME#` v šablónach feedu),
-bez zmeny názvu na vlastnom e-shope. `process-heureka-unmatched.js` postaví
-`data/heureka-reports/name-overrides.json` (EAN → navrhovaný názov), ale **iba** pre riadky, kde
-naša aktuálna cena padá do ±30 % okna `suggestPriceMin/Max` — mimo tohto okna je vysoká šanca, že
-ide o chybný EAN v našom vlastnom feede (nie o problém s názvom), takže by prepis len maskoval
-inú chybu (na reporte 2026-08-19: 104 z 2 669 takto vyradených). Z 2 669 návrhov prešlo touto
-kontrolou **2 566** produktov.
-Rovnaký vzor ako cenový override (4.4): **KILL SWITCH** `HEUREKA_NAME_OVERRIDE=1` v `env:`
-príslušného `*-sync.yml` — bez neho `heurekaNameOverrideFor()` vždy vráti `null`, žiadny živý
-dopad. Zapojené vo všetkých 7 `transform-*.js` (ATOS, BASYS, InnPro, K+B, MONACOR, Solight, WiiM),
-tag `<NAME_TO_EXPORTS>` sa vypisuje hneď za `<NAME>`, len keď je pre daný EAN nájdený návrh.
-**Zapnuté (2026-08-19)** v `atos-sync.yml`, `basys-sync.yml`, `innpro-sync.yml`, `kb-sync.yml`,
-`solight-sync.yml` (rovnaká skupina ako cenový override) — prejaví sa pri najbližšom behu
-každého z nich. MONACOR aj WiiM nemajú plánovaný beh s nastaveným flagom (WiiM sa spúšťa len
-ručne, MONACOR nemá k dispozícii nákupnú cenu ani pri cenovom override, pozri 4.4).
+**Mechanizmus #1 — názov (`NAME_TO_EXPORTS`) — VYSKÚŠANÉ 2026-08-19, ROLLBACK 2026-08-20 ⚠️:**
+Shoptetovo pole "Alternatívny názov produktu pre vyhľadávače tovaru" (v admin UI produktu:
+"Ak je políčko vyplnené, bude sa do vyhľadávačov tovaru automaticky odosielať uvedený názov
+namiesto názvu, ktorý máte na e-shope... Do klasických feedov ho prepisuje značka #NAME#.
+Prepisujú sa tiež do značiek #PRODUCT# a #PRODUCTNAME#.") reálne existuje, ale **nie je súčasťou
+RNG schémy plného XML feedu**, ktorý generujú `transform-*.js` skripty — je dostupné len cez
+Shoptetov CSV import produktov / ručne v admin UI, nie cez dodávateľský XML feed.
+
+Pôvodne sme (chybne) pridali `<NAME_TO_EXPORTS>` tag do XML výstupu (`scripts/heureka-name-overrides.js`,
+zapojené vo všetkých 7 `transform-*.js`, aktivované `HEUREKA_NAME_OVERRIDE=1` v 5 `*-sync.yml`).
+**2026-08-20T20:05 Shoptet nahlásil RNG validačnú chybu** ("element NAME_TO_EXPORTS not allowed
+anywhere") — **celý InnPro feed (a rovnako BASYS/K+B/Solight, ktoré mali ten istý tag) bol
+Shoptetom úplne odmietnutý**, žiadny z týchto feedov sa dovtedy neaktualizoval. Okamžite opravené:
+tag aj `heureka-name-overrides.js` úplne odstránené zo všetkých `transform-*.js`, `HEUREKA_NAME_OVERRIDE`
+odstránené zo všetkých workflow env blokov. `process-heureka-unmatched.js` naďalej generuje
+`data/heureka-reports/name-overrides.json` (EAN → Heurekin navrhovaný názov, filtrované cenovou
+kontrolou ±30 %), ale je to teraz **len informačný výstup** bez live spotrebiteľa — alternatívny
+mechanizmus (napr. samostatný Shoptet CSV import produktov, mimo tejto XML pipeline) zatiaľ
+nevyriešený, čaká na rozhodnutie.
+
+**Poučenie:** pred zapojením akéhokoľvek nového XML tagu do `transform-*.js` treba tag overiť
+oproti Shoptetovej RNG schéme (dostupný XML validátor v Shoptet administrácii), nie len oproti
+neoficiálnej/admin-UI dokumentácii poľa — pole v administrácii a tag v plnom XML feede sú dva
+rôzne mechanizmy, ktoré sa dajú ľahko zameniť.
 
 **Mechanizmus #2 — kategórie (rozšírenie `scripts/heureka-mapping.json`, existujúci mechanizmus 4.1):**
 Skript stiahne živý Heureka strom kategórií (`heureka-sekce.xml`) a pre každú našu kategóriu s

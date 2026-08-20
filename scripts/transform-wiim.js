@@ -34,7 +34,6 @@ const { execFileSync } = require('child_process');
 const { parseWiimPricelist } = require('./parse-wiim-pricelist');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
-const { heurekaNameOverrideFor } = require('./heureka-name-overrides');
 
 const PDF_PATH = process.env.WIIM_PDF || path.join(__dirname, '..', 'data', 'wiim-pricelist.pdf');
 const OUT_PATH = process.env.WIIM_OUT || path.join(__dirname, '..', 'output', 'wiim.xml');
@@ -70,8 +69,6 @@ function extractPdfText(pdfPath) {
 function buildShopitemXml(p) {
   const parts = ['<SHOPITEM>'];
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
-  const heurekaNameOverride = heurekaNameOverrideFor(p.ean);
-  if (heurekaNameOverride) parts.push(`<NAME_TO_EXPORTS>${xmlCdata(heurekaNameOverride)}</NAME_TO_EXPORTS>`);
   if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
   parts.push(`<DESCRIPTION>${xmlCdata(p.description)}</DESCRIPTION>`);
   parts.push(`<MANUFACTURER>${xmlCdata('WiiM')}</MANUFACTURER>`);

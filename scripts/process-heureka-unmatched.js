@@ -2,9 +2,13 @@
 // CSV newer than the last one we processed, and if found:
 //   1. Builds data/heureka-reports/name-overrides.json (EAN -> suggested name) for the "quick
 //      win" cases: Heureka DOES know the product (matched by EAN, suggestEan === EAN) and
-//      already proposes an exact catalogue name for it. Consumed live by every transform-*.js
-//      via heureka-name-overrides.js (NAME_TO_EXPORTS tag), behind the HEUREKA_NAME_OVERRIDE
-//      kill switch - see that file.
+//      already proposes an exact catalogue name for it.
+//      NOTE (2026-08-20): originally this was meant to be applied live via a <NAME_TO_EXPORTS>
+//      tag in the full XML feed (see scripts/heureka-name-overrides.js, since removed) - that
+//      broke every affected feed's RNG validation (the tag doesn't exist in Shoptet's full-feed
+//      schema; the "Alternatívny názov" field it corresponds to is admin-UI/CSV-product-import
+//      only, not reachable from the supplier XML pipeline this repo generates). This file's
+//      output is data/informational only now, pending a separate mechanism.
 //   2. Builds a category-mismatch analysis: for each of OUR category paths appearing in the
 //      report, finds the majority Heureka category Heureka itself suggests for products in it,
 //      resolves that to a real numeric CATEGORY_ID via the live Heureka category tree
@@ -191,9 +195,9 @@ function toMarkdown(rows, categoryResults, nameOverrideStats, sourceCsvName, heu
   lines.push(`- Bez EAN v našom feede: **${noEan}**`);
   lines.push(`- Návrh názvu s EAN zhodou (suggestEan === EAN): **${nameOverrideStats.candidates}**`);
   lines.push(`  - Zamietnuté kontrolou ceny (mimo ±${Math.round(PRICE_TOLERANCE * 100)}% okna navrhovanej ceny — pravdepodobne chybný EAN u nás, nie problém názvu): **${nameOverrideStats.rejectedByPrice}**`);
-  lines.push(`  - **Prijaté do \`name-overrides.json\` (pripravené na živé nasadenie): ${Object.keys(nameOverrideStats.overrides).filter((k) => k !== '__meta').length}**`);
+  lines.push(`  - **Prijaté do \`name-overrides.json\`: ${Object.keys(nameOverrideStats.overrides).filter((k) => k !== '__meta').length}**`);
   lines.push('');
-  lines.push('Mechanizmus je za kill-switchom `HEUREKA_NAME_OVERRIDE=1` v `env:` príslušného `*-sync.yml` workflow (rovnaký princíp ako cenový override) — skontroluj tam aktuálny stav pred spoliehaním sa na tieto čísla ako na to, čo sa práve posiela na Heureku. Pozri `scripts/heureka-name-overrides.js`.');
+  lines.push('**Toto NIE JE live** — `<NAME_TO_EXPORTS>` v plnom XML feede spôsobil RNG validačnú chybu a bol 2026-08-20 odstránený zo všetkých `transform-*.js` (Shoptetova schéma tento tag nepozná; zodpovedajúce pole "Alternatívny názov" je dostupné len cez Shoptetov CSV import produktov/admin UI, nie cez dodávateľský XML feed). Tento zoznam je zatiaľ len informačný, čaká na rozhodnutie o alternatívnom mechanizme.');
   lines.push('');
 
   lines.push('## Kategórie na doplnenie/opravu v `scripts/heureka-mapping.json`');
