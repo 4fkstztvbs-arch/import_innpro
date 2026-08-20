@@ -120,6 +120,8 @@ Na rozdiel od `price-targets.json` (4.4) sa **`data/heureka-reports/cpc-override
 - **Úprava zoznamu:** pridaj/uprav/zmaž záznam v `cpc-overrides.json` ručne (kľúč je EAN). Žiadny skript ho zatiaľ neprepisuje.
 - Produkt bez zhody EAN v `cpc-overrides.json` = žiadny `<HEUREKA_CPC>` tag, presne ako doteraz (Heureka použije svoje predvolené/posledné nastavenie).
 
+**Kontrola rozpočtu (`scripts/check-cpc-budget.js`, od 2026-08-20):** Heureka nemá API ani pre výkonnostný (návštevy/náklady/objednávky) report, takže priebežné sledovanie útraty nejde automatizovať — funguje to rovnako ako sortiment report: niekto ručne exportuje CSV z Heureka administrácie a nahrá ho do `data/heureka-reports/performance/`, potom sa spustí `node scripts/check-cpc-budget.js [--cap=15] [--file=<názov>]`. Skript spočíta náklady po dňoch len pre produkty zo `cpc-overrides.json`, porovná so zadaným denným capom a vypíše `OVER_BUDGET:<dni>`, ak niektorý deň limit prekročil. Nie je naviazaný na žiadny plánovaný beh (workflow) — na to by bolo treba API, ktoré neexistuje.
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |
