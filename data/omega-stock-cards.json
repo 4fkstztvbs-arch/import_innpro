@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600040,
+    "nextCardNumber": 202600044,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -236,6 +236,30 @@
         "nazov": "Flytec RC Boat V803-GPS",
         "dodavatel": "innpro",
         "code": "083985"
+      },
+      "6976297860129": {
+        "kod": "202600040",
+        "nazov": "GPS bike Cycplus M1",
+        "dodavatel": "innpro",
+        "code": "065087"
+      },
+      "6975114120194": {
+        "kod": "202600041",
+        "nazov": "Portable Monitor Z1RC 16,0",
+        "dodavatel": "innpro",
+        "code": "066846"
+      },
+      "6977132450192": {
+        "kod": "202600042",
+        "nazov": "Five-zones stainless steel",
+        "dodavatel": "innpro",
+        "code": "080232"
+      },
+      "0810098382274": {
+        "kod": "202600043",
+        "nazov": "Funwater Inflatable Paddle",
+        "dodavatel": "innpro",
+        "code": "083118"
       }
     }
   },
