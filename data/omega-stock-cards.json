@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600031,
+    "nextCardNumber": 202600040,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -182,6 +182,60 @@
         "nazov": "Paddleboard SUP REBEL ACTIVE RBA-4507-WH - BÍLÁ",
         "dodavatel": "atos",
         "code": ""
+      },
+      "5907489606783": {
+        "kod": "202600031",
+        "nazov": "Environmental detector",
+        "dodavatel": "innpro",
+        "code": "026085"
+      },
+      "6971664934014": {
+        "kod": "202600032",
+        "nazov": "Haylou TWS Earphones X1",
+        "dodavatel": "innpro",
+        "code": "050755"
+      },
+      "6972185560119": {
+        "kod": "202600033",
+        "nazov": "Carlinkit CCPA Wireless",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "6971636400998": {
+        "kod": "202600034",
+        "nazov": "CR-10 SE 3D Printer",
+        "dodavatel": "innpro",
+        "code": "061008"
+      },
+      "5906168433962": {
+        "kod": "202600035",
+        "nazov": "EJEAS V6PRO+",
+        "dodavatel": "innpro",
+        "code": "064409"
+      },
+      "6976021769667": {
+        "kod": "202600036",
+        "nazov": "ELEGOO PETG Pro",
+        "dodavatel": "innpro",
+        "code": "079515"
+      },
+      "4711527005312": {
+        "kod": "202600037",
+        "nazov": "Darkflash M305 Black",
+        "dodavatel": "innpro",
+        "code": "079098"
+      },
+      "5907085524061": {
+        "kod": "202600038",
+        "nazov": "Flytec RC Boat V050-Black",
+        "dodavatel": "innpro",
+        "code": "078883"
+      },
+      "5905156102132": {
+        "kod": "202600039",
+        "nazov": "Flytec RC Boat V803-GPS",
+        "dodavatel": "innpro",
+        "code": "083985"
       }
     }
   },
