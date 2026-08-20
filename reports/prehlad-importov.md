@@ -148,6 +148,25 @@ oproti Shoptetovej RNG schéme (dostupný XML validátor v Shoptet administráci
 neoficiálnej/admin-UI dokumentácii poľa — pole v administrácii a tag v plnom XML feede sú dva
 rôzne mechanizmy, ktoré sa dajú ľahko zameniť.
 
+**Funkčná náhrada nájdená a nasadená (2026-08-20) — Shoptet CSV export/import produktov.**
+Pole sa v Shoptetovej internej databáze volá `xmlFeedName` (stĺpec v Katalóg → Produkty →
+Export/Import, mimo XML feedu úplne) — presne zodpovedá poľu "Alternatívny názov pre
+vyhľadávače tovaru" v admin UI. Postup: stiahnuť plný produktový CSV export (Shoptet admin,
+obsahuje `code`/`ean`/`xmlFeedName` a i.), spárovať s `data/heureka-reports/name-overrides.json`
+cez EAN, vyplniť `xmlFeedName` len pre spárované riadky (ostatné polia a ostatné produkty
+nedotknuté), CSV späť naimportovať cez Katalóg → Import. **Pozor na formát:** Shoptetov vlastný
+export má na konci hlavičky aj každého riadku nechcený prázdny stĺpec (`;""`) — export ho
+toleruje, import naň hlási "Chýbajúci názov stĺpca na pozícii N" a treba ho pred importom
+odstrániť.
+
+Otestované na vzorke 20 produktov, následne nasadené na celých **2 473 produktov** (2026-08-20,
+import cez Shoptet admin: "Spracované: 2473. Upravené: 2473.") — je to teda **ručný/poloautomatický**
+proces (export → skript spáruje a vyplní → ručný import v admine), mimo tohto repozitára a jeho
+GitHub Actions automatizácie; skript na vygenerovanie import-CSV zatiaľ nie je v repozitári ako
+samostatný `scripts/*.js` (bol spustený ad-hoc) — ak sa bude opakovať pravidelne, oplatí sa ho
+tam pridať. Dopad overuje rovnaký `compare-heureka-unmatched-progress.js` ako pri kategóriách
+(pozri README v `data/heureka-reports/`).
+
 **Mechanizmus #2 — kategórie (rozšírenie `scripts/heureka-mapping.json`, existujúci mechanizmus 4.1):**
 Skript stiahne živý Heureka strom kategórií (`heureka-sekce.xml`) a pre každú našu kategóriu s
 ≥3 nespárovanými produktmi a ≥60 % zhodou medzi Heurekinými návrhmi nájde presné číselné
