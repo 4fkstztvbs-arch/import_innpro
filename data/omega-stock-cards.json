@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600053,
+    "nextCardNumber": 202600058,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -314,6 +314,36 @@
         "nazov": "Swimming Pool Cleaner",
         "dodavatel": "innpro",
         "code": ""
+      },
+      "8594163275730": {
+        "kod": "202600053",
+        "nazov": "Zesilovač/opakovač Tesla GSM-LTE / 900/1800 MHz - kompletní sada",
+        "dodavatel": "atos",
+        "code": "IST-AIPTZ15244"
+      },
+      "5908254808883": {
+        "kod": "202600054",
+        "nazov": "Držák stahovací pásky ORNO OR-AE-13204 kusový prodej",
+        "dodavatel": "atos",
+        "code": "ATO-OR-AE-13204/100"
+      },
+      "4260189999366": {
+        "kod": "202600055",
+        "nazov": "Sat přij. Octagon SFX6018 S2 IP HD (DVB-S2 tuner, čtečka, USB 2.0, IR čidlo)",
+        "dodavatel": "atos",
+        "code": "SPR-4726018"
+      },
+      "5904830807875": {
+        "kod": "202600056",
+        "nazov": "Stahovací pásky ocelové nerezové 250 x 4,6 mm, 25ks/balení O542G-25",
+        "dodavatel": "atos",
+        "code": "ATO-O542G-25"
+      },
+      "8591686092790": {
+        "kod": "202600057",
+        "nazov": "Držák UNI LIFT stropní TÜV/GS 09279",
+        "dodavatel": "atos",
+        "code": "CMP-09279"
       }
     }
   },
