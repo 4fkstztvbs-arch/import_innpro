@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600048,
+    "nextCardNumber": 202600051,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -284,6 +284,24 @@
         "nazov": "Webcam EMEET Pixy",
         "dodavatel": "innpro",
         "code": "085718"
+      },
+      "6972884750002": {
+        "kod": "202600048",
+        "nazov": "Catlink Trash Bags for",
+        "dodavatel": "innpro",
+        "code": "031529"
+      },
+      "6923520247707": {
+        "kod": "202600049",
+        "nazov": "Edifier W830NB headphones",
+        "dodavatel": "innpro",
+        "code": "065954"
+      },
+      "0757047110567": {
+        "kod": "202600050",
+        "nazov": "Projector Magcubic",
+        "dodavatel": "innpro",
+        "code": "090294"
       }
     }
   },
