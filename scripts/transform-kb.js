@@ -19,6 +19,7 @@ const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
+const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 const ZBOZI_URL = process.env.KB_ZBOZI_URL;
 const KATEGORIE_URL = process.env.KB_KATEGORIE_URL;
@@ -126,7 +127,7 @@ function buildShopitemXml(p) {
   }
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
-  if (isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  if (isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean) || isCpcNonConverter(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
   if (p.image || p.energyLabelUrl) {
     parts.push('<IMAGES>');
     if (p.image) parts.push(`  <IMAGE description="${xmlAttr(p.name)}">${xmlEscape(p.image)}</IMAGE>`);

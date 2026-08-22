@@ -185,6 +185,38 @@ zostáva zámerne mimo — vyžadujú ručné overenie pred doplnením, kandidá
 (Heureka nenašla zhodu vôbec) a 704 produktov bez EAN v našom feede — oboje vyžaduje iný zásah
 (doplnenie EAN od dodávateľa, resp. ručné dohľadanie), nie hromadnú opravu.
 
+### 4.6 CPC nekonvertory — per-EAN vylúčenie z rozšíreného feedu (`scripts/heureka-cpc-exclusions.js`, od 2026-08-22)
+
+Tretí zdroj `HEUREKA_HIDDEN` (popri kategóriovom/cenovom pravidle 4.1 a `cannotCompeteOnPrice` z
+4.4) — založený na reálnych dátach z Heureka CPC reportu (Marketing → Heureka → náklady na
+preklik, export per produkt/deň: návštevy, náklady, objednávky, tržby), nie na heuristike podľa
+kategórie/ceny.
+
+**Zistenie (report 1.7.–22.8.2026, 53 dní):** 4 291 návštev, 1 452,97 € nákladov, 89 objednávok,
+15 268,70 € tržieb (ROI 10,5×) — celkovo v poriadku, ale **83,4 % nákladov (1 212,44 €) padlo na
+produkty s 0 objednávkami**. Pri prísnejšom kritériu (klik ≥3 rôzne dni, 0 objednávok za celé
+obdobie — aby to nebola náhoda pri 1-2 návštevách) ide o **275 produktov, spolu 703,94 €**.
+Z toho **171 sa podarilo spárovať cez EAN** (104 už v našom feede vôbec nie je — zjavne
+discontinuované produkty, netreba nič robiť, časom vypadnú z Heurekinho indexu samy).
+`data/heureka-reports/cpc-hidden-products.json` obsahuje výsledných **161 unikátnych EAN**.
+
+**Overenie opačným smerom (že sa neschovávajú dobré produkty):** z ~11 110 aktuálne skrytých
+produktov (kategóriové/cenové pravidlo) malo 124 aspoň nejaký klik za tých 53 dní — **ani jeden
+neskonvertoval** (0 objednávok). Žiadny dôkaz, že by bolo treba niečo odkryť.
+
+Zapojené vo všetkých 7 `transform-*.js` **okrem Solight** (ten je zámerne vynechaný aj z
+kategóriového pravidla, na výslovnú žiadosť — pozri komentár v `transform-solight.js`) —
+`isCpcNonConverter(p.ean)` v rovnakej OR podmienke ako ostatné dva zdroje `HEUREKA_HIDDEN`.
+Žiadny kill switch (na rozdiel od cenového/názvového override) — mechanizmus je vždy aktívny,
+keďže ide o čisto negatívny zoznam (produkt zostáva v bežnom porovnávači, len bez platenej
+priority), rovnaké riziko ako existujúce kategóriové pravidlo.
+
+**Aktualizácia zoznamu:** ručne, podľa potreby — stiahnuť nový CPC report z Heureka admina za
+dostatočne dlhé obdobie (odporúčam min. 4-6 týždňov kvôli štatistickej istote), prepočítať rovnakou
+metodikou (≥3 dni s klikom, 0 objednávok) a prepísať `cpc-hidden-products.json`. Zatiaľ nie je
+samostatný `scripts/process-heureka-cpc-report.js` (spracované ad-hoc) — ak sa bude opakovať
+pravidelne, oplatí sa ho podľa vzoru `process-heureka-unmatched.js` doplniť.
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |
