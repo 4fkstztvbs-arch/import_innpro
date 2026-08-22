@@ -217,6 +217,28 @@ metodikou (≥3 dni s klikom, 0 objednávok) a prepísať `cpc-hidden-products.j
 samostatný `scripts/process-heureka-cpc-report.js` (spracované ad-hoc) — ak sa bude opakovať
 pravidelne, oplatí sa ho podľa vzoru `process-heureka-unmatched.js` doplniť.
 
+### 4.7 Pilotný test — uvoľnenie cenového prahu <10 € pre vybrané InnPro kategórie (od 2026-08-23)
+
+Rozbor 4.6 ukázal, že pri InnPro kategóriové pravidlo (Auto-moto, Náradie...) skoro nič nerobí
+navyše — 94,6 % skrytých InnPro produktov je skrytých čisto kvôli cene pod 10 € (nie kategórii).
+Zisk na kus pri tomto tovare je nízky (priemer 0,66 €/ks), ale **skutočné CPC/konverzia pre tento
+cenový pás sa nedali overiť** — tieto produkty boli skryté od začiatku Heureka CPC merania, takže
+report ukazuje 0 návštev pri všetkých ich kategóriách (nedá sa zmerať dopyt po niečom, čo sa
+nikdy nezobrazovalo).
+
+**Pilotný test:** `scripts/heureka-pilot-unhidden.js` — per-EAN override, ktorý prebije všetky tri
+zdroje `HEUREKA_HIDDEN` (kategória/cena, `cannotCompeteOnPrice`, CPC nekonvertory). Uvoľnených
+**96 produktov z 5 InnPro kategórií s najvyšším ziskom na kus** medzi skrytými produktmi pod 10 €:
+Senzory (1,03 €/ks), Pre fotoaparáty a videokamery (1,03 €/ks), Postroje/upevňovacie
+prvky a držiaky (0,94 €/ks), Smart ovládače (0,91 €/ks), Puzdrá a obaly (0,85 €/ks).
+Zoznam (EAN, názov, kategória, cena) v `data/heureka-reports/heureka-pilot-unhidden.json`.
+Zapojené zatiaľ len v `transform-innpro.js` (pilot je InnPro-špecifický).
+
+**Ďalší krok (naplánované na cca 2026-09-20, pozri `__meta.reviewAfter` v JSON súbore):** stiahnuť
+nový Heureka CPC report, spracovať rovnakou metodikou ako 4.6, a podľa **reálnych** čísel
+rozhodnúť — ponechať odkryté, rozšíriť pilot na ďalšie kategórie/dodávateľov, alebo vrátiť späť.
+Nenechávať bežať donekonečna na tom istom netestovanom predpoklade, ktorý mal práve tento pilot overiť.
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |

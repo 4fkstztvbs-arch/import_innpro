@@ -18,6 +18,7 @@ const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
 
 const FULL_URL = process.env.INNPRO_FULL_URL;
 const LIGHT_URL = process.env.INNPRO_LIGHT_URL;
@@ -148,7 +149,7 @@ function buildShopitemXml(p) {
   }
   const heurekaCategoryId = heurekaCategoryIdFor(p.category);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
-  if (isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean) || isCpcNonConverter(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  if ((isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean) || isCpcNonConverter(p.ean)) && !isPilotUnhidden(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));

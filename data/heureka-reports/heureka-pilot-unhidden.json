@@ -1,0 +1,487 @@
+{
+ "__meta": {
+  "startedAt": "2026-08-23T00:00:00.000Z",
+  "reviewAfter": "2026-09-20",
+  "reason": "Pilotny test: kandidati na uvolnenie cenoveho prahu <10EUR (InnPro, 5 kategorii s najvyssim ziskom/ks) - ziadne realne CPC data neexistuju, lebo boli skryte od zaciatku merania. Po 4 tyzdnoch stiahnut novy Heureka CPC report a rozhodnut podla realnych cisel."
+ },
+ "5907489603874": {
+  "name": "Sklenený držiak do auta Puluz pre športové kamery (vrátane Osmo Action 5 Pro, Insta360 X5)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 4.4
+ },
+ "5907489603881": {
+  "name": "Držiak s klipom Puluz pre športové kamery (DJI, GoPro, Insta360) PU179",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.5
+ },
+ "6920075775891": {
+  "name": "Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW2 WiFi",
+  "category": "Senzory",
+  "price": 6.6
+ },
+ "6972391280177": {
+  "name": "Inteligentný spínač WiFi Gosund SW3, Tuya",
+  "category": "Smart ovládače",
+  "price": 5.2
+ },
+ "6972860174532": {
+  "name": "Hlavový popruh Telesin pre športové kamery (GP-HMS-T04)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 3.9
+ },
+ "6972860170053": {
+  "name": "Súprava na uchytenie batohu Telesin s J-háčikom pre GoPro/Osmo Action (GP-BPM-003)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 7.2
+ },
+ "6972860173542": {
+  "name": "Súprava na uchytenie popruhu na batoh Telesin s 360° J-háčikom pre GoPro/Osmo Action (GP-BPM-005)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.3
+ },
+ "6972860170046": {
+  "name": "Držiak na bicykel Telesin pre športové kamery 360° (DJ-HBM-001)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 7.5
+ },
+ "6920075777802": {
+  "name": "Snímač teploty a vlhkosti Sonoff THS01, RJ9",
+  "category": "Senzory",
+  "price": 6.4
+ },
+ "5905316141360": {
+  "name": "Držiak telefónu Puluz",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 6.7
+ },
+ "6976037360124": {
+  "name": "Inteligentný spínací modul WiFi Avatto WSM16-W1 TUYA",
+  "category": "Smart ovládače",
+  "price": 7.0
+ },
+ "6976037360131": {
+  "name": "Inteligentný spínací modul WiFi Avatto WSM16-W2 TUYA",
+  "category": "Smart ovládače",
+  "price": 9.0
+ },
+ "6976037360162": {
+  "name": "Inteligentný spínací modul ZigBee Avatto ZWSM16-W1 TUYA",
+  "category": "Smart ovládače",
+  "price": 7.9
+ },
+ "6976037360858": {
+  "name": "Inteligentný spínací modul ZigBee Avatto LZWSM16-W1 Bez neutrálu TUYA",
+  "category": "Smart ovládače",
+  "price": 8.5
+ },
+ "6920075740202": {
+  "name": "Inteligentný mini spínač WiFi Sonoff MINIR4",
+  "category": "Smart ovládače",
+  "price": 9.5
+ },
+ "6972391287732": {
+  "name": "Inteligentný bezdrôtový dverový/okenný senzor WiFi Gosund S2 Tuya",
+  "category": "Senzory",
+  "price": 9.2
+ },
+ "6972391287756": {
+  "name": "Inteligentný snímač pohybu WiFi Gosund S4 Tuya",
+  "category": "Senzory",
+  "price": 9.8
+ },
+ "6972391287749": {
+  "name": "Inteligentný detektor úniku vody WiFi Gosund S5 Tuya",
+  "category": "Senzory",
+  "price": 9.4
+ },
+ "5905316149298": {
+  "name": "Selfie tyč Puluz pre športové fotoaparáty (čierna)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 8.0
+ },
+ "6920075740936": {
+  "name": "Inteligentný prepínač WiFi Sonoff S-MATE2 (bez neutrálu)",
+  "category": "Smart ovládače",
+  "price": 6.6
+ },
+ "6920075741865": {
+  "name": "Inteligentný spínač WiFi Sonoff BASICR4",
+  "category": "Smart ovládače",
+  "price": 6.4
+ },
+ "6974944462146": {
+  "name": "Ochranná taška / puzdro Telesin for action cameras (GP-CPB-902)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 5.7
+ },
+ "5906168430299": {
+  "name": "Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 (ZG73)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.3
+ },
+ "850007706371": {
+  "name": "Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny)",
+  "category": "Senzory",
+  "price": 9.6
+ },
+ "6976037361084": {
+  "name": "Univerzálny diaľkový ovládač IR WiFi Avatto S16 TUYA",
+  "category": "Senzory",
+  "price": 7.5
+ },
+ "6976037361251": {
+  "name": "Univerzálny diaľkový ovládač IR WiFi Avatto S16 TUYA",
+  "category": "Smart ovládače",
+  "price": 5.6
+ },
+ "6920075740486": {
+  "name": "Vodotesný snímač teploty Sonoff WTS01, RJ9 4P4C (THR316/320)",
+  "category": "Senzory",
+  "price": 6.5
+ },
+ "6976100485044": {
+  "name": "Smartphone Holder PGYTECH (P-CG-187)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 4.4
+ },
+ "5906168433573": {
+  "name": "Ručný remienok a stojan Sunnylife pre DJI OSMO Pocket 3",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 7.3
+ },
+ "6976297860051": {
+  "name": "Cadence speed sensor Cycplus C3",
+  "category": "Senzory",
+  "price": 7.7
+ },
+ "5906168435584": {
+  "name": "Tablet/Phone Holder PULUZ",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.3
+ },
+ "5906168435669": {
+  "name": "Magnetic POV Holder Head Mount PULUZ for Insta360 GO 3 / 3S",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 6.3
+ },
+ "5906168438073": {
+  "name": "Mini Bag PULUZ for DJI Osmo Pocket 3 (Black)",
+  "category": "Puzdrá a obaly",
+  "price": 5.9
+ },
+ "5906168438080": {
+  "name": "Mini Body Bag PULUZ For Insta360 GO 3 / GO 3S (Black)",
+  "category": "Puzdrá a obaly",
+  "price": 4.9
+ },
+ "6972971865459": {
+  "name": "White Balance Lens Cap FREEWELL for Sony E Mount",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 6.3
+ },
+ "5906168438561": {
+  "name": "Upgraded Protective Cover Sunnylife for Insta360 X4 (X4-K842)",
+  "category": "Puzdrá a obaly",
+  "price": 5.2
+ },
+ "6974944461484": {
+  "name": "TELESIN headband with quick release for sports cameras",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 6.5
+ },
+ "5906168439421": {
+  "name": "PULUZ motorcycle helmet mount for sports cameras (including Ace Pro 2, Osmo Action 5 Pro)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 3.5
+ },
+ "5906168439445": {
+  "name": "Puluz headband with sports camera mount (including Osmo Action 5 Pro, Ace Pro 2)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 6.0
+ },
+ "5906168439452": {
+  "name": "PULUZ backpack mount for sports cameras (including Osmo Action 5 Pro, Ace Pro 2)(black)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 6.5
+ },
+ "6974944463099": {
+  "name": "TELESIN flexible mount for phones (gray)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 3.5
+ },
+ "6974944463105": {
+  "name": "TELESIN flexible mount for phones (blue)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.5
+ },
+ "6974944462993": {
+  "name": "Telesin Case for DJI Osmo Pocket 3",
+  "category": "Puzdrá a obaly",
+  "price": 6.5
+ },
+ "6974944462788": {
+  "name": "Telesin multifunctional silicone mount for sports cameras (green)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 7.8
+ },
+ "6974944462795": {
+  "name": "Telesin multifunctional silicone mount for sports cameras (orange)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.3
+ },
+ "6974944462801": {
+  "name": "Telesin multifunctional silicone mount for sports cameras (gray)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 8.2
+ },
+ "6974944461156": {
+  "name": "Set of magnetic TELESIN holders for action cameras",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.6
+ },
+ "6974944462191": {
+  "name": "TELESIN multi-functional ring type mount for sports cameras (green)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 7.8
+ },
+ "6974944463211": {
+  "name": "Telesin plastic mounting frame for Insta360 X4",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 4.0
+ },
+ "5907085523477": {
+  "name": "Bezdrôtový diaľkový ovládač Heiman HM1RC-W Interlinked",
+  "category": "Smart ovládače",
+  "price": 2.1
+ },
+ "6920075779844": {
+  "name": "Predlžovací kábel pre senzor záplav/únikov SNZB-05P SONOFF WLDC200",
+  "category": "Senzory",
+  "price": 7.3
+ },
+ "5907085523125": {
+  "name": "Krytka Sunnylife G3S-J867 pre Insta360 GO 3S/GO 3",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 7.9
+ },
+ "5907085522920": {
+  "name": "Sunnylife ZJ886-GY skladací držiak na tablet pre ovládače RC-N1, RC-N2 a RC-N3 (sivý)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 8.2
+ },
+ "6976297861119": {
+  "name": "Adaptér ANT+ USB Cycplus U10",
+  "category": "Senzory",
+  "price": 6.8
+ },
+ "5907085526164": {
+  "name": "SN986 úložné puzdro s popruhom RC-N3/2/1",
+  "category": "Puzdrá a obaly",
+  "price": 5.2
+ },
+ "6972860178042": {
+  "name": "Súprava nálepiek Telesin pre držiak J-Hook pre športové kamery (GP-BRK-004)",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 3.6
+ },
+ "5907085526430": {
+  "name": "Ochranné puzdro Puluz pre DJI Mic Mini (čierne)",
+  "category": "Puzdrá a obaly",
+  "price": 4.5
+ },
+ "5907085526447": {
+  "name": "Ochranné puzdro Puluz pre DJI Mic 2 (čierne)",
+  "category": "Puzdrá a obaly",
+  "price": 3.2
+ },
+ "5907085526621": {
+  "name": "Sunnylife MJ996 otočný magnetický držiak pre Action 5 Pro/ 360 X5/ Pocket 3",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 7.0
+ },
+ "5907085526638": {
+  "name": "Sunnylife ZJ942-D držiak na bicykel pre Action 5 Pro/ Insta360 GO 3S/ GoPro 13",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.5
+ },
+ "5907085526645": {
+  "name": "Sunnylife ZJ942-R držiak na bicykel pre Action 5 Pro/ Insta360 GO 3S/ GoPro 13",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 7.6
+ },
+ "5907085526683": {
+  "name": "Sunnylife AQX-18 prepravné puzdro pre OSMO ACTION 5 Pro/4/3",
+  "category": "Puzdrá a obaly",
+  "price": 7.9
+ },
+ "0810194780387": {
+  "name": "Snímač otvorenia dverí a okien X-Sense SDS0A",
+  "category": "Senzory",
+  "price": 9.9
+ },
+ "6976037362326": {
+  "name": "1-kanálový spínací modul WiFi s beznapäťovým kontaktom Avatto WSM16-DC32V-1",
+  "category": "Smart ovládače",
+  "price": 7.4
+ },
+ "6976037362005": {
+  "name": "Inteligentný senzor otvárania dverí a okien Avatto DS10 WiFi",
+  "category": "Senzory",
+  "price": 6.8
+ },
+ "6976037362012": {
+  "name": "Inteligentný senzor teploty a vlhkosti Avatto WHS10 WiFi",
+  "category": "Senzory",
+  "price": 7.0
+ },
+ "6976037362104": {
+  "name": "Modul inteligentných závesov Avatto CMS16-RF-1 WIFI+RF",
+  "category": "Smart ovládače",
+  "price": 8.7
+ },
+ "6976037362128": {
+  "name": "Inteligentný 1-kanálový spínací modul WiFi s beznapäťovým DC kontaktom Avatto WSM16-DC-1",
+  "category": "Smart ovládače",
+  "price": 7.7
+ },
+ "6974944466151": {
+  "name": "Ochranná taška Telesin DJI Osmo 360, otvára sa zdola",
+  "category": "Puzdrá a obaly",
+  "price": 4.0
+ },
+ "6974944466144": {
+  "name": "Ochranná taška Telesin DJI Osmo 360, úplne uzavretá",
+  "category": "Puzdrá a obaly",
+  "price": 6.2
+ },
+ "5907085529288": {
+  "name": "Taška Sunnylife pre OSMO 360 Standard Combo",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 7.2
+ },
+ "6920075772777": {
+  "name": "Sonoff Basic R5 Gen5 WiFi Smart Switch (10A, Matter)",
+  "category": "Smart ovládače",
+  "price": 6.6
+ },
+ "5905156101111": {
+  "name": "Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray)",
+  "category": "Puzdrá a obaly",
+  "price": 5.6
+ },
+ "5905156101159": {
+  "name": "Silikónové ochranné puzdro Puluz pre Insta360 Go Ultra (čierne)",
+  "category": "Puzdrá a obaly",
+  "price": 5.4
+ },
+ "6974944466489": {
+  "name": "Telesin DisAdv EVA univerzálna mini transportná taška pre športové kamery (čierna/modrá)",
+  "category": "Puzdrá a obaly",
+  "price": 8.9
+ },
+ "6974944466496": {
+  "name": "Telesin DisAdv EVA univerzálna mini transportná taška pre športové kamery (sivo-oranžová)",
+  "category": "Puzdrá a obaly",
+  "price": 8.9
+ },
+ "6974944466519": {
+  "name": "Telesin DisAdv EVA univerzálna mini transportná taška pre športové kamery (oranžová)",
+  "category": "Puzdrá a obaly",
+  "price": 8.9
+ },
+ "5905156101432": {
+  "name": "Torba Sunnylife do Action 6 (czarna)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 5.1
+ },
+ "5905156101449": {
+  "name": "Taška Sunnylife pre Action 6 (oranžová)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 5.3
+ },
+ "5905156101456": {
+  "name": "Torba Sunnylife Štandardné kombo do Akcia 6 (čarna)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 9.3
+ },
+ "5905156101463": {
+  "name": "Štandardná kombinovaná taška Sunnylife pre Action 6 (oranžová)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 9.3
+ },
+ "5905156101494": {
+  "name": "Twarde etui mini Sunnylife do Action 6",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 8.8
+ },
+ "5905156101685": {
+  "name": "Torba v prístroji Sunnylife zariadenia Osmo Nano (szara)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 5.3
+ },
+ "5905156101708": {
+  "name": "Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 5.3
+ },
+ "5905156101715": {
+  "name": "Torba na prístroj Sunnylife Standard Combo od Osmo Nano (šara)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 9.9
+ },
+ "5905156101722": {
+  "name": "Torba na prístroji Sunnylife Standard Combo do Osmo Nano (Tsarna)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 9.9
+ },
+ "5905156101739": {
+  "name": "Štandardná kombinovaná taška Sunnylife pre fotoaparát Osmo Nano (oranžová)",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 9.7
+ },
+ "5905156101746": {
+  "name": "Adaptér Puluz s rýchlonabíjacím adaptérom pre DJI Osmo Pocket 3",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 7.9
+ },
+ "5905156105508": {
+  "name": "Puzdro Sunnylife Mini pre Insta360 GO Ultra",
+  "category": "Puzdrá a obaly",
+  "price": 8.6
+ },
+ "5905156105515": {
+  "name": "Vodotesné puzdro Sunnylife Mini pre Osmo Nano",
+  "category": "Puzdrá a obaly",
+  "price": 9.0
+ },
+ "5905156105522": {
+  "name": "Vodotesné puzdro Sunnylife Mini pre Insta360 GO Ultra",
+  "category": "Puzdrá a obaly",
+  "price": 9.0
+ },
+ "5905156107786": {
+  "name": "Magnetická spona na batoh Sunnylife",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.3
+ },
+ "5905156107793": {
+  "name": "Magnetický krčný popruh Sunnylife pre Insta360 GO Ultra / Mic",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.2
+ },
+ "6952344227565": {
+  "name": "Sada 2 posuvníkov GODOX AK-S02",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 9.3
+ },
+ "6952344219997": {
+  "name": "Práva k produktu GODOX LSA-17",
+  "category": "Postroje, upevňovacie prvky a držiaky",
+  "price": 9.0
+ },
+ "6952344203187": {
+  "name": "Farebné filtre GODOX CF-07",
+  "category": "Pre fotoaparáty a videokamery",
+  "price": 9.7
+ }
+}
