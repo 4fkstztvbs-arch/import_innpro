@@ -31,6 +31,10 @@ const USERNAME = process.env.PENTA_USERNAME;
 const PASSWORD = process.env.PENTA_PASSWORD;
 const MIN_COST = parseFloat(process.env.PENTA_MIN_COST || '0');
 const OUT_PATH = process.env.PENTA_OUT || path.join(__dirname, '..', 'output', 'penta.xml');
+// Temporary, while penta-mapping.json only covers the categories with a confirmed match onto
+// our existing tree ("ZHODA") — the rest (ambiguous/no match) are still being paired by hand
+// (reports/penta-kategorie-2026-08-24.md). Set to '0'/unset once more categories are mapped.
+const ONLY_MAPPED_CATEGORIES = process.env.PENTA_ONLY_MAPPED_CATEGORIES === '1';
 const STORE_NAME = process.env.PENTA_STORE_NAME || 'premiumstore.sk';
 
 const MAPPING_PATH = path.join(__dirname, 'penta-mapping.json');
@@ -91,12 +95,15 @@ function resolvePentaCategories(categoryTexts, defaultCategoryRaw) {
       if (!isExcluded(a) && a !== TREE_ROOT) allPaths.add(a);
     }
   }
-  if (allPaths.size === 0) return { defaultCategory: '', extraCategories: [] };
+  if (allPaths.size === 0) return { defaultCategory: '', extraCategories: [], defaultMapped: false };
   const sortedPaths = Array.from(allPaths).sort((a, b) => b.split('>').length - a.split('>').length);
   const defaultKey = allPaths.has(defaultCategoryRaw) ? defaultCategoryRaw : sortedPaths[0];
   const defaultCategory = pentaDisplayPath(defaultKey);
   const extraCategories = sortedPaths.filter((p) => p !== defaultKey).map(pentaDisplayPath).filter(Boolean);
-  return { defaultCategory, extraCategories };
+  // Whether defaultKey has its own explicit entry in categoryRenamesByPath (a confirmed "ZHODA"
+  // match onto the existing tree), as opposed to falling through with Penta's raw category name.
+  const defaultMapped = !!lookupRename(defaultKey);
+  return { defaultCategory, extraCategories, defaultMapped };
 }
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
@@ -188,7 +195,7 @@ async function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmapped: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0 };
   const auth = { username: USERNAME, password: PASSWORD };
 
   await streamRecords(URL, 'SHOPITEM', (rawXml) => {
@@ -203,8 +210,9 @@ async function main() {
     let price = roundPrice(p.priceVat);
     price = applyHeurekaPriceTarget(p.ean, price, p.purchasePrice, parseFloat(p.vat));
 
-    const { defaultCategory, extraCategories } = resolvePentaCategories(p.categoryTexts, p.defaultCategoryRaw);
+    const { defaultCategory, extraCategories, defaultMapped } = resolvePentaCategories(p.categoryTexts, p.defaultCategoryRaw);
     if (!defaultCategory) { stats.skippedCategory++; return; }
+    if (ONLY_MAPPED_CATEGORIES && !defaultMapped) { stats.skippedUnmapped++; return; }
 
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
 
