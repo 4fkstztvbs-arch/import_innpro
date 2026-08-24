@@ -60,7 +60,17 @@ function normalizeKey(s) {
 const RENAMES_BY_NORM = new Map(Object.entries(RENAMES).map(([k, v]) => [normalizeKey(k), v]));
 const EXCLUSIONS_NORM = new Set(Array.from(EXCLUSIONS, normalizeKey));
 function lookupRename(key) { return RENAMES_BY_NORM.get(normalizeKey(key)); }
-function isExcluded(key) { return EXCLUSIONS_NORM.has(normalizeKey(key)); }
+// Matches the excluded path itself AND any of its descendants (a category text like
+// "Koncový shop I6 > Camping a outdoor > Autochladničky" must be excluded too, not just the
+// bare top-level "Koncový shop I6 > Camping a outdoor" — otherwise a product that also sits in
+// an out-of-scope tree leaks that tree's category back in via its non-default CATEGORY entries).
+function isExcluded(key) {
+  const nk = normalizeKey(key);
+  for (const ex of EXCLUSIONS_NORM) {
+    if (nk === ex || nk.startsWith(ex + ' > ')) return true;
+  }
+  return false;
+}
 
 function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
 
