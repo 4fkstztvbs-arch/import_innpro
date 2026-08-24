@@ -35,6 +35,10 @@ const OUT_PATH = process.env.PENTA_OUT || path.join(__dirname, '..', 'output', '
 // our existing tree ("ZHODA") — the rest (ambiguous/no match) are still being paired by hand
 // (reports/penta-kategorie-2026-08-24.md). Set to '0'/unset once more categories are mapped.
 const ONLY_MAPPED_CATEGORIES = process.env.PENTA_ONLY_MAPPED_CATEGORIES === '1';
+// Shoptet VISIBILITY value written to every product — 'visible' (default), 'hidden',
+// 'blocked', 'showRegistered', 'blockUnregistered', 'cashDeskOnly' or 'detailOnly'.
+// Set to 'hidden' for this first test import so it doesn't show to customers yet.
+const VISIBILITY = process.env.PENTA_VISIBILITY || 'visible';
 const STORE_NAME = process.env.PENTA_STORE_NAME || 'premiumstore.sk';
 
 const MAPPING_PATH = path.join(__dirname, 'penta-mapping.json');
@@ -181,7 +185,7 @@ function buildShopitemXml(p) {
   parts.push(`<FLAGS><ACTION>${p.actionFlag}</ACTION><NEW>${p.newFlag}</NEW><TIP>${p.tipFlag}</TIP></FLAGS>`);
   parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
   parts.push('<VISIBLE>1</VISIBLE>');
-  parts.push('<VISIBILITY>visible</VISIBILITY>');
+  parts.push(`<VISIBILITY>${xmlEscape(VISIBILITY)}</VISIBILITY>`);
   const logistic = [`<WEIGHT>${xmlNum(p.weightKg || 0)}</WEIGHT>`];
   if (p.heightCm) logistic.push(`<HEIGHT>${xmlNum(p.heightCm)}</HEIGHT>`);
   if (p.widthCm) logistic.push(`<WIDTH>${xmlNum(p.widthCm)}</WIDTH>`);
