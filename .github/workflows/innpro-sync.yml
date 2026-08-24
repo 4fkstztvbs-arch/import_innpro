@@ -30,6 +30,13 @@ jobs:
           INNPRO_FULL_URL: ${{ secrets.INNPRO_FULL_URL }}
           INNPRO_LIGHT_URL: ${{ secrets.INNPRO_LIGHT_URL }}
           INNPRO_MARKUP: '15'
+          # Cenová podlaha na NÁKUPNEJ cene bez DPH (2026-08-24). Pod ňou zisk na kus
+          # nepokryje ani spracovanie objednávky (priemer 0,04 €) a pri zaokrúhľovaní
+          # vznikali aj záporné marže. Zákazníci si tento drobný tovar berú ako
+          # príslušenstvo popri inom nákupe, preto zámerne nízka hranica — nie odstránenie
+          # celého lacného sortimentu. Počet vylúčených nájdeš v štatistike behu ako
+          # "skippedCheap".
+          INNPRO_MIN_COST: '0.50'
           INNPRO_OUT: output/innpro.xml
           INNPRO_EXCLUDE_UNAVAILABLE: '1'
           HEUREKA_PRICE_OVERRIDE: '1'

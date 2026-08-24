@@ -25,6 +25,10 @@ jobs:
         env:
           SOLIGHT_URL: ${{ secrets.SOLIGHT_URL }}
           SOLIGHT_MARKUP: '0'
+          # Cenová podlaha na NÁKUPNEJ cene bez DPH — pozri komentár v innpro-sync.yml.
+          # Solight má najvyšší podiel lacného tovaru v katalógu (48,6 % pod 10 €), touto
+          # hranicou vypadne len ~27 kusov (2,1 %) — zvyšok drobného sortimentu ostáva.
+          SOLIGHT_MIN_COST: '0.50'
           SOLIGHT_OUT: output/solight.xml
           SOLIGHT_IMAGE_PROXY_BASE: ${{ secrets.SOLIGHT_IMAGE_PROXY_BASE }}
           SOLIGHT_EXCLUDE_UNAVAILABLE: '1'

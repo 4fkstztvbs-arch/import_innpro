@@ -29,6 +29,10 @@ jobs:
           KB_CENY_URL: ${{ secrets.KB_CENY_URL }}
           KB_DOSTUPNOSTI_URL: ${{ secrets.KB_DOSTUPNOSTI_URL }}
           KB_MARKUP: '10'
+          # Cenová podlaha na NÁKUPNEJ cene bez DPH — pozri komentár v innpro-sync.yml.
+          # K+B dnes nemá pod touto hranicou nič (0 produktov), nastavené preventívne, aby
+          # sa lacný tovar nedostal do eshopu pri budúcich zmenách cenníka.
+          KB_MIN_COST: '0.50'
           KB_MIN_MARGIN: '10'
           KB_EXCLUDE_UNAVAILABLE: '1'
           KB_CHECK_ENERGY_LABELS: '1'
