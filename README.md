@@ -220,6 +220,8 @@ Penta CZ/SK beží na tej istej i6ws webservice platforme ako ATOS (Cybersoft I6
 - **Obrázky:** Pentine `img.asp?attid=...` URL sú verejne dostupné bez autentifikácie (overené) — na rozdiel od ATOS-u netreba Cloudflare Worker proxy.
 - **Kategórie:** Penta posiela vlastný `<DEFAULT_CATEGORY>` a viacero stromov v `<CATEGORIES>` naraz (`Koncový shop I6` — zákaznícka navigácia, `Dle výrobce` — podľa výrobcu, `Koncovy shop reklamni SK` — marketingové akcie). Používa sa len strom `Koncový shop I6`, mapovanie/výnimky sú v `scripts/penta-mapping.json` (zatiaľ prázdne — dopĺňať podľa potreby, keď sa objavia kategórie vyžadujúce úpravu).
 - **Časové okno:** `GetResult` pre `StoItemShoptet_El` (celý katalóg) je dostupný len 21:00-08:00 SEČ/SELČ — `.github/workflows/penta-sync.yml` beží o 22:20 UTC.
+- **Sklad:** importujú sa len produkty s `AVAILABILITY=skladem` u Penty — všetko ostatné (na objednávku, vypredané) sa preskočí (na rozdiel od ATOS-u, kde sa "Na objednávku" importuje tiež).
+- **Manuály:** Shoptetov natívny XML import nemá tag na prílohy/dokumenty (súvisiace súbory sú platený doplnok) — odkaz na Pentin manuál (`RELATED_FILES`) sa preto pridáva ako obyčajný PDF link na koniec popisu produktu.
 - **Secrets:** `PENTA_URL` (`https://dealer.pentask.sk/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet_El`), `PENTA_USERNAME`, `PENTA_PASSWORD`.
 
 ## Čo sa importuje

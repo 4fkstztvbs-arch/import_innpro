@@ -208,7 +208,7 @@ async function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmapped: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmapped: 0, skippedManufacturer: 0, skippedOutOfStock: 0, action: 0, new: 0, tip: 0 };
   const auth = { username: USERNAME, password: PASSWORD };
 
   await streamRecords(URL, 'SHOPITEM', (rawXml) => {
@@ -217,6 +217,7 @@ async function main() {
     try { p = parsePentaItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
+    if (p.availabilityRaw !== 'skladem') { stats.skippedOutOfStock++; return; }
     if (p.priceVat <= 0) { stats.skippedNoPrice++; return; }
     if (MIN_COST > 0 && p.purchasePrice > 0 && p.purchasePrice < MIN_COST) { stats.skippedCheap++; return; }
 
