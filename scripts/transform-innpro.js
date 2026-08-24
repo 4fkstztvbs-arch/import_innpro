@@ -19,6 +19,8 @@ const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
+const { createCategoryMatcher } = require('./resolve-category');
+const categoryMatcher = createCategoryMatcher('innpro');
 
 const FULL_URL = process.env.INNPRO_FULL_URL;
 const LIGHT_URL = process.env.INNPRO_LIGHT_URL;
@@ -50,7 +52,7 @@ function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' >
 
 // Identical logic to the browser tool's innDisplayPath()/extraCategories: build the cumulative
 // "/"-split path, walk from the leaf back toward the root, and stop at the first override.
-function resolveCategory(rawCategoryName) {
+function resolveCategory(rawCategoryName, productLabel) {
   if (!rawCategoryName) return { category: '', extraCategories: [], excluded: false };
   const parts = rawCategoryName.split('/').map((s) => s.trim()).filter(Boolean);
   const keys = [];
@@ -62,13 +64,17 @@ function resolveCategory(rawCategoryName) {
   if (!keys.length) return { category: '', extraCategories: [], excluded: false };
   if (EXCLUSIONS.has(keys[keys.length - 1].key)) return { category: '', extraCategories: [], excluded: true };
 
+  const leafTrusted = !!RENAMES[keys[keys.length - 1].key];
   const partsResult = [];
   for (let i = keys.length - 1; i >= 0; i--) {
     const rename = RENAMES[keys[i].key];
     if (isPathOverride(keys[i].key, rename)) { partsResult.unshift(rename); break; }
     partsResult.unshift(rename || keys[i].name);
   }
-  const category = partsResult.join(' > ');
+  let category = partsResult.join(' > ');
+  const gated = categoryMatcher.resolve(category, { trusted: leafTrusted, productLabel });
+  if (gated.excluded) return { category: '', extraCategories: [], excluded: true, unmatchedCategory: category };
+  category = gated.category;
   const segs = category.split(' > ');
   const extraCategories = [];
   for (let i = 1; i < segs.length; i++) extraCategories.push(segs.slice(0, i).join(' > '));
@@ -200,7 +206,7 @@ async function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnavailable: 0, fromLight: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedUnavailable: 0, fromLight: 0 };
 
   await streamProducts(FULL_URL, (rawXml) => {
     stats.total++;
@@ -218,8 +224,8 @@ async function main() {
     let price = roundPrice(cost * (1 + MARKUP_PCT / 100) * (1 + parseFloat(p.vat) / 100));
     price = applyHeurekaPriceTarget(p.ean, price, cost, parseFloat(p.vat));
 
-    let { category, extraCategories, excluded } = resolveCategory(p.category);
-    if (excluded) { stats.skippedCategory++; return; }
+    let { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.category, p.name);
+    if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
     const productCode = p.codeOnCard || p.id;
     if (CATEGORY_OVERRIDES_BY_CODE[productCode]) {
       category = CATEGORY_OVERRIDES_BY_CODE[productCode];
@@ -283,7 +289,8 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
-  console.log(JSON.stringify(stats, null, 2));
+  const categoryReport = categoryMatcher.writeReport();
+  console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
 }
 

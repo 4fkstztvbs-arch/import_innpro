@@ -1,0 +1,144 @@
+# Overenie kategórií na vypnutie oproti živému eshopu — 2026-08-24
+
+Zoznam „prázdnych" kategórií pôvodne vznikol počítaním produktov v `output/*.xml`. To je
+nespoľahlivé: XML obsahuje len produkty, ktoré prejdú dnešnými filtrami (`*_EXCLUDE_UNAVAILABLE=1`
+zahodí všetko, čo nie je skladom), pričom v eshope tie produkty ďalej existujú — plus produkty
+pridané ručne alebo vypadnuté z feedu v XML nikdy neboli. Preto sa každý kandidát (a celý jeho
+podstrom) overuje priamo na živej kategórii.
+
+- Kandidátov pôvodne: **130**
+- Overene prázdnych (ostávajú v CSV na vypnutie): **130**
+- Falošne označených, v skutočnosti majú produkty (odstránené): **0**
+
+## Overene prázdne — pripravené na vypnutie (130)
+
+- Auto-moto > Nosiče bicyklov
+- Auto-moto > Karavany a obytné autá
+- Auto-moto > Prenosné chladničky
+- Auto-moto > Ostatné
+- Auto-moto > Autorádiá > Subwoofery do autá
+- TV, audio a video > Audio technika > HiFi komponenty > Tunery a sieťové prehrávače
+- TV, audio a video > Počítače a príslušenstvo > Smartphones
+- TV, audio a video > Počítače a príslušenstvo > Myši
+- TV, audio a video > Mobily a tablety > Domáce telefóny
+- TV, audio a video > Mobily a tablety > Prstencové držiaky
+- TV, audio a video > Mobily a tablety > Držiaky telefónov
+- TV, audio a video > Mobily a tablety > Domáce telefóny > Drátové telefóny
+- Zdravie a starostlivosť > Holiace strojčeky a zastrihávače
+- Zdravie a starostlivosť > Ústne sprchy
+- Domáce spotrebiče > Malé spotrebiče > Žehličky > Domové alarmy a zvončeky
+- Náradie a dielňa > Výtlačné a kartušové pištole
+- Náradie a dielňa > Náradie > Elektrické náradie > Vŕtačky
+- Záhrada > Záhradné potreby > Lapače, odpudzovače hmyzu a škodcov
+- Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Krájače a porcovače
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Testery alkoholu
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Vonné oleje
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Filtračné kanvice
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Aroma difuzéry
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Hodiny a budíky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské váhy
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Formy na pečení
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Osobné váhy
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Starostlivosť o telo
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kanvice na čaj
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Těsnění do okien a dveří
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Nože a příbory
+- Náradie a dielňa > Náradie > Príslušenstvo pre stroje a náradie > Príslušenstvo AKU a Elektrické náradie > Príslušenstvo pre hoblíky a sústruhy
+- Šport, hračky a voľný čas > Turizmus
+- Šport, hračky a voľný čas > Exoskelety
+- Šport, hračky a voľný čas > Hračky > Pre kojencov
+- Domáce spotrebiče > Veľké spotrebiče > Umývačky riadu > Príslušenstvo k umývačke
+- TV, audio a video > Počítače a príslušenstvo > Herné zariadenia > Príslušenstvo ku konzolám > Xbox One - príslušenstvo
+- TV, audio a video > Televízory > Televízory
+- Fotovoltaika a energie > Nabíjačky > Stanice pre elektrokola
+- Domáce spotrebiče > Malé spotrebiče > Žehličky > Domové alarmy a zvončeky > Bezpečnostní kamery
+- Šport, hračky a voľný čas > Cyklistika > Elektrokola
+- Záhrada > Záhradné doplnky > Bazény a doplnky > Teplomery do bazénů
+- Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Flexo šnúry
+- Auto-moto > Karavany a obytné autá > Grily a variče
+- Auto-moto > Karavany a obytné autá > Parkovací asistenti
+- Auto-moto > Karavany a obytné autá > Kempingový nábytok
+- Auto-moto > Karavany a obytné autá > Autochladničky
+- Auto-moto > Karavany a obytné autá > Batérie do karavanu
+- Auto-moto > Karavany a obytné autá > Meniče napätie
+- Auto-moto > Karavany a obytné autá > Redukcie a adaptéry
+- Auto-moto > Karavany a obytné autá > Nabíjačky batérií
+- Auto-moto > Karavany a obytné autá > Ostatné doplnky
+- Auto-moto > Karavany a obytné autá > Lapače hmyzu
+- Auto-moto > Karavany a obytné autá > Mobilné TV a SAT antény
+- Auto-moto > Karavany a obytné autá > Televízory na 12V
+- Záhrada > Záhradné doplnky > Zavlažovanie > Hadice
+- Auto-moto > Audio, Hi-Fi > Reproduktory do autá
+- Auto-moto > Audio, Hi-Fi > Autorádiá
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Upratovanie > Metly a mopy na upratovanie
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Upratovanie > Handry, houbičky a utěrky na upratovanie
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Pece na pizzu
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Grily
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Mixéry
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Kávovary
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Palacinkovače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Kuchynské roboty
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vaflovače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Sušičky potravín
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Hriankovače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Sendvičovače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Zváračky folií
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Fritézy
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Elektrické hrnce
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Variče
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Rýchlovarné kanvice
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Elektrické panvice
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Výrobníky ľadu
+- Záhrada > Záhradné stroje > Píly
+- Záhrada > Záhradné stroje > Záhradné nožnice
+- Auto-moto > Nabíjanie > Štartovacie káble
+- Náradie a dielňa > Stavebné a maliarske náradie > Sadrokartón
+- TV, audio a video > Antény a satelity > SATELITNÉ PRIJÍMAČE > Skylink ready prijímače
+- Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory podľa typové rady VENTS > Ventilátory - typ PF
+- TV, audio a video > Počítače a príslušenstvo > Disky a pamäťové karty > USB flash disky
+- Šport, hračky a voľný čas > Sportovní vybavenie > Odražedla
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Hodiny a budíky > Budíky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Hodiny a budíky > Hodiny
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Hodiny a budíky > Časovače, minútky
+- Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové videorekordéry (NVR) > 64 kanálů
+- Elektroinštalačný materiál > Komponenty pre svietidlá > LED světelné zdroje
+- Auto-moto > Karavany a obytné autá > Nabíjačky batérií > Autonabíjačky
+- Auto-moto > Nosiče bicyklov > Príslušenstvo
+- Auto-moto > Nosiče bicyklov > Příčné nosníky
+- Auto-moto > Nosiče bicyklov > Nosiče na tažné zariadenie
+- Auto-moto > Nosiče bicyklov > Střešní nosiče
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Doplnky do domácnosti > Sušiaky na bielizeň
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Doplnky do domácnosti > Koše na bielizeň
+- Záhrada > Záhradné stroje > Píly > Lišty, reťaze, pilníky
+- Záhrada > Záhradné stroje > Píly > Lišty, reťaze, pilníky > Lišty
+- Náradie a dielňa > Elektrické a AKU náradie > Píly > Píly reťazové
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Ostatné kuchynské pomôcky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Lúskačky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Teplomery
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Varešky a obracačky
+- Náradie a dielňa > Kancelária a škola > Školské potreby > Peračníky
+- Auto-moto > Karavany a obytné autá > Mobilné TV a SAT antény > Antény pre DVB-T2 príjem
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače > Ručné vysávače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače > Tyčové vysávače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače > Robotické vysávače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače > Podlahové vysávače
+- Náradie a dielňa > Mechanické náradie > Vodo-topo > Horáky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Starostlivosť o telo > Kulmy a sušiče vlasů
+- Náradie a dielňa > Stavebné a maliarske náradie > Sadrokartón > Hoblíky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Efekty a dekorácie > Na párty
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Efekty a dekorácie > Do bytu
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Nože a příbory > Brousky na nože
+- TV, audio a video > Mobily a tablety > Kable USB I > USB-C na Lightning
+- Zdravie a starostlivosť > Holiace strojčeky a zastrihávače > Zastrihávače
+- Zdravie a starostlivosť > Holiace strojčeky a zastrihávače > Holiace strojčeky
+- TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Príslušenstvo pre PlayStation
+- TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Zostavy a sety
+- Zdravie a starostlivosť > Prístroje na tvár > Kavitačné peelingy
+- TV, audio a video > Počítače a príslušenstvo > Káble > Sieťové káble
+- Zdravie a starostlivosť > Ústne sprchy > Ústne sprchy
+- Fotovoltaika a energie > Fotovoltaické panely > Príslušenstvo
+- Fotovoltaika a energie > Fotovoltaické panely > Balkónové systémy
+- TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Klávesnice > Káblové
+- Profesionálna audio technika > Hudobné nástroje a príslušenstvo > Klávesové zosilňovače

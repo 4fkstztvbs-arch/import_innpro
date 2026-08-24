@@ -20,6 +20,8 @@ const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { createCategoryMatcher } = require('./resolve-category');
+const categoryMatcher = createCategoryMatcher('kb');
 
 const ZBOZI_URL = process.env.KB_ZBOZI_URL;
 const KATEGORIE_URL = process.env.KB_KATEGORIE_URL;
@@ -287,7 +289,7 @@ async function main() {
 
   console.log('Streaming main product feed...');
   const stats = {
-    total: 0, written: 0, skippedByCategoryFilter: 0, skippedUnavailable: 0,
+    total: 0, written: 0, skippedByCategoryFilter: 0, skippedUnmatchedCategory: 0, skippedUnavailable: 0,
     noPriceInfo: 0, skippedCheap: 0, usedRecommendedPrice: 0, usedMarkupPrice: 0,
     marginFloorApplied: 0, recyclingFeeCount: 0, energyLabelCandidates: 0, energyLabelsFound: 0,
   };
@@ -349,8 +351,14 @@ async function main() {
     }
 
     const catId = prodCategoryId[pid];
-    const defaultCategory = catId ? buildPath(catId) : '';
+    let defaultCategory = catId ? buildPath(catId) : '';
     const extraCategories = catId ? ancestorPathsOf(catId) : [];
+    if (defaultCategory) {
+      const leafTrusted = catId ? explicitOverrideIds.has(catId) : false;
+      const gated = categoryMatcher.resolve(defaultCategory, { trusted: leafTrusted, productLabel: name });
+      if (gated.excluded) { stats.skippedUnmatchedCategory++; return; }
+      defaultCategory = gated.category;
+    }
 
     const availCode = prodAvail[pid];
     const availability = availCode !== undefined ? (AVAILABILITY_MAP[availCode] || '') : '';
@@ -411,7 +419,8 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
-  console.log(JSON.stringify(stats, null, 2));
+  const categoryReport = categoryMatcher.writeReport();
+  console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
 }
 

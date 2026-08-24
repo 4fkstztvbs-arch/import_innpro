@@ -25,6 +25,10 @@ jobs:
         env:
           MONACOR_URL: ${{ secrets.MONACOR_URL }}
           MONACOR_MARKUP: '0'
+          # Cenová podlaha na NÁKUPNEJ cene bez DPH — pozri komentár v innpro-sync.yml.
+          # MONACOR má markup 0, takže hranica 0,50 € nákupnej ≈ 0,62 € predajnej s DPH —
+          # dnes pod ňou spadnú 2 kusy (WAGO svorka, mono zástrčka).
+          MONACOR_MIN_COST: '0.50'
           MONACOR_EXCLUDE_UNAVAILABLE: '1'
           MONACOR_OUT: output/monacor.xml
         run: node scripts/transform-monacor.js

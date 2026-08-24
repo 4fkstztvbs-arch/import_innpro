@@ -38,6 +38,11 @@ jobs:
           ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
           ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
           ATOS_MARKUP: '15'
+          # Cenová podlaha na NÁKUPNEJ cene bez DPH — pozri komentár v innpro-sync.yml.
+          # ATOS je najviac zasiahnutý (~577 produktov, 4,9 %): spojovací materiál, vruty,
+          # sťahovacie pásky. Práve tu vznikalo 10 produktov s cenou 0,00 € a 113 so
+          # zápornou maržou.
+          ATOS_MIN_COST: '0.50'
           ATOS_OUT: output/atos.xml
           HEUREKA_PRICE_OVERRIDE: '1'
           ATOS_EXCLUDE_UNAVAILABLE: '1'
