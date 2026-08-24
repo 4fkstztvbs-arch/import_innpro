@@ -62,6 +62,8 @@ function proxyImgAspUrl(rawUrl) {
 // products relabelled under ATOS.
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
 const TREE_ROOT = 'Druhy';
+const { createCategoryMatcher } = require('./resolve-category');
+const categoryMatcher = createCategoryMatcher('atos');
 
 // atos-mapping.json keys are hand-written and don't always match the live feed's
 // CategoryText byte-for-byte (case, diacritics, double spaces). Matching case/diacritics
@@ -100,7 +102,7 @@ function atosAncestorPaths(pathKey) {
   }
   return chain;
 }
-function resolveAtosCategories(categoryTexts) {
+function resolveAtosCategories(categoryTexts, productLabel) {
   const givenPaths = categoryTexts.filter((p) => p.startsWith(TREE_ROOT));
   const allPaths = new Set();
   for (const p of givenPaths) {
@@ -112,9 +114,24 @@ function resolveAtosCategories(categoryTexts) {
     }
   }
   const sortedPaths = Array.from(allPaths).sort((a, b) => b.split('>').length - a.split('>').length);
-  const defaultCategory = sortedPaths.length ? atosDisplayPath(sortedPaths[0]) : '';
-  const extraCategories = sortedPaths.slice(1).map(atosDisplayPath).filter(Boolean);
-  return { defaultCategory, extraCategories };
+
+  // Each candidate path (deepest first) is gated independently — a product keeps whichever of its
+  // paths already match the known tree (or a confident near-duplicate), and only drops the ones
+  // that don't. Only if every single candidate path is unmatched does the product get excluded.
+  const resolved = [];
+  let anyUnmatched = false;
+  for (const pathKey of sortedPaths) {
+    const display = atosDisplayPath(pathKey);
+    if (!display) continue;
+    const trusted = !!lookupRename(pathKey);
+    const gated = categoryMatcher.resolve(display, { trusted, productLabel });
+    if (gated.excluded) { anyUnmatched = true; continue; }
+    if (!resolved.includes(gated.category)) resolved.push(gated.category);
+  }
+
+  const defaultCategory = resolved.length ? resolved[0] : '';
+  const extraCategories = resolved.slice(1);
+  return { defaultCategory, extraCategories, unmatchedCategory: !defaultCategory && anyUnmatched };
 }
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
@@ -234,7 +251,7 @@ async function main() {
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0, withCompatibleModels: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0, withCompatibleModels: 0 };
   const auth = { username: USERNAME, password: PASSWORD };
 
   await streamRecords(URL, 'SHOPITEM', (rawXml) => {
@@ -252,8 +269,8 @@ async function main() {
     let price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
     price = applyHeurekaPriceTarget(p.ean, price, purchaseEUR, parseFloat(vat));
 
-    const { defaultCategory, extraCategories } = resolveAtosCategories(p.categoryTexts);
-    if (!defaultCategory) { stats.skippedCategory++; return; }
+    const { defaultCategory, extraCategories, unmatchedCategory } = resolveAtosCategories(p.categoryTexts, p.name);
+    if (!defaultCategory) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
 
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
     if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; return; }
@@ -307,7 +324,8 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
-  console.log(JSON.stringify(stats, null, 2));
+  const categoryReport = categoryMatcher.writeReport();
+  console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
 }
 

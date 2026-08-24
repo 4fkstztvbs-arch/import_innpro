@@ -47,7 +47,6 @@
     "Druhy > DŮM ZAHRADA > SANITÁRNÍ TECHNIKA": "Záhrada > Sanitárna technika",
     "Druhy > DŮM ZAHRADA > Kancelář - škola": "Náradie a dielňa > Kancelária a škola",
     "Druhy > DŮM ZAHRADA > Chovatelství": "Zdravie a starostlivosť > Chovateľské potreby",
-
     "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Fritézy": "Domáce spotrebiče > Malé spotrebiče > Fritézy a hrnce > Fritézy",
     "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Elektrické pánve": "Domáce spotrebiče > Malé spotrebiče > Fritézy a hrnce > Elektrické panvice",
     "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Elektrické hrnce": "Domáce spotrebiče > Malé spotrebiče > Fritézy a hrnce > Multifunkčné hrnce",
@@ -68,7 +67,6 @@
     "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vysavače > Robotické vysavače": "Domáce spotrebiče > Malé spotrebiče > Vysávače > Robotické vysávače",
     "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vysavače > Ruční vysavače": "Domáce spotrebiče > Malé spotrebiče > Vysávače > Ručné vysávače",
     "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vysavače > Tyčové vysavače": "Domáce spotrebiče > Malé spotrebiče > Vysávače > Tyčové vysávače",
-
     "Druhy > DŮM ZAHRADA > DOMÁCNOST > Aroma difuzéry": "Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Aroma difuzéry",
     "Druhy > DŮM ZAHRADA > KUCHYŇ > Aroma difuzéry": "Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Aroma difuzéry",
     "Druhy > DŮM ZAHRADA > DOMÁCNOST > Vonné oleje": "Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Aroma difuzéry",
@@ -98,9 +96,15 @@
     "Druhy > DŮM ZAHRADA > DOMÁCNOST > Těsnění do oken a dveří": "Náradie a dielňa > Stavebné a maliarske náradie > Těsnenie do okien a dverí",
     "Druhy > DŮM ZAHRADA > DOMÁCNOST > Úklid > Hadry, houbičky a utěrky na úklid": "Domáce spotrebiče > Malé spotrebiče > Upratovacie pomôcky > Čistiace prostriedky",
     "Druhy > DŮM ZAHRADA > DOMÁCNOST > Úklid > Smetáky a mopy na úklid": "Domáce spotrebiče > Malé spotrebiče > Upratovacie pomôcky > Košťata a metly",
-
     "Druhy > AUTO MOTO > Audio, Hi-Fi > Autorádia": "Auto-moto > Autorádiá",
     "Druhy > AUTO MOTO > Audio, Hi-Fi > Reproduktory do auta": "Auto-moto > Autorádiá > Reproduktory do autá",
-    "Druhy > AUTO MOTO > Nabíjení > Startovací kabely": "Auto-moto > Štartovacie káble"
+    "Druhy > AUTO MOTO > Nabíjení > Startovací kabely": "Auto-moto > Štartovacie káble",
+    "TV, audio a video/Počítače a príslušenstvo/Dokovací stanice": "TV, audio a video > Počítače a príslušenstvo > Dokovacie stanice",
+    "Náradie a dielňa/Meracia technika": "Náradie a dielňa > MERACIE TECHNIKA",
+    "Náradie a dielňa/Meracia technika/Laserové vodováhy": "Náradie a dielňa > MERACIE TECHNIKA > Laserové vodováhy",
+    "Náradie a dielňa/Meracia technika/Teplomery": "Náradie a dielňa > MERACIE TECHNIKA > Teplomery",
+    "Náradie a dielňa/Meracia technika/Laserové merače vzdialenosti": "Náradie a dielňa > MERACIE TECHNIKA > Laserové merače vzdialenosti",
+    "Náradie a dielňa/Meracia technika/Multimetre a zkúšačky": "Náradie a dielňa > MERACIE TECHNIKA > Multimetre a zkúšačky",
+    "TV, audio a video/Audio technika/Hi-Fi systémy": "TV, audio a video > Audio technika > HiFi systémy"
   }
 }

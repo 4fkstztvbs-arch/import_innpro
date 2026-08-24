@@ -47,11 +47,13 @@ const MAPPING_PATH = path.join(__dirname, 'solight-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
+const { createCategoryMatcher } = require('./resolve-category');
+const categoryMatcher = createCategoryMatcher('solight');
 
 function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
 
 // Identical logic to the browser tool's solDisplayPath()/extraCategories.
-function resolveCategory(rawCategoryName) {
+function resolveCategory(rawCategoryName, productLabel) {
   if (!rawCategoryName) return { category: '', extraCategories: [], excluded: false };
   const parts = rawCategoryName.split('/').map((s) => s.trim()).filter(Boolean);
   const keys = [];
@@ -63,13 +65,17 @@ function resolveCategory(rawCategoryName) {
   if (!keys.length) return { category: '', extraCategories: [], excluded: false };
   if (EXCLUSIONS.has(keys[keys.length - 1].key)) return { category: '', extraCategories: [], excluded: true };
 
+  const leafTrusted = !!RENAMES[keys[keys.length - 1].key];
   const partsResult = [];
   for (let i = keys.length - 1; i >= 0; i--) {
     const rename = RENAMES[keys[i].key];
     if (isPathOverride(keys[i].key, rename)) { partsResult.unshift(rename); break; }
     partsResult.unshift(rename || keys[i].name);
   }
-  const category = partsResult.join(' > ');
+  let category = partsResult.join(' > ');
+  const gated = categoryMatcher.resolve(category, { trusted: leafTrusted, productLabel });
+  if (gated.excluded) return { category: '', extraCategories: [], excluded: true, unmatchedCategory: category };
+  category = gated.category;
   const segs = category.split(' > ');
   const extraCategories = [];
   for (let i = 1; i < segs.length; i++) extraCategories.push(segs.slice(0, i).join(' > '));
@@ -228,7 +234,7 @@ async function main() {
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   const stats = {
-    total: 0, written: 0, skippedCheap: 0, skippedUnavailable: 0, skippedByCategory: 0,
+    total: 0, written: 0, skippedCheap: 0, skippedUnavailable: 0, skippedByCategory: 0, skippedUnmatchedCategory: 0,
     noPrice: 0, withDocs: 0, withVideo: 0, invalidPrice: 0,
   };
   const seenCodes = new Set();
@@ -250,8 +256,8 @@ async function main() {
     price = applyHeurekaPriceTarget(p.ean, price, p.costEUR, parseFloat(VAT));
     if (isNaN(price) || price < 0) { stats.invalidPrice++; return; }
 
-    const { category, extraCategories, excluded } = resolveCategory(p.categoryRaw);
-    if (excluded) { stats.skippedByCategory++; return; }
+    const { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.categoryRaw, p.name);
+    if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedByCategory++; return; }
 
     let availability, isAvailable;
     if (p.stockQty > 0) {
@@ -305,7 +311,8 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
-  console.log(JSON.stringify(stats, null, 2));
+  const categoryReport = categoryMatcher.writeReport();
+  console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
 }
 
