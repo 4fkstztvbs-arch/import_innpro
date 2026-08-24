@@ -114,6 +114,19 @@ function imageAltFor(name, index, total) {
 function xmlCdata(s) { return '<![CDATA[' + String(s == null ? '' : s).replace(/]]>/g, ']]&gt;') + ']]>'; }
 function xmlNum(n) { return (Math.round(n * 100) / 100).toFixed(2); }
 function stripTags(html) { return String(html || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim(); }
+// Shoptet's native XML import has no tag for product documents/manuals (confirmed against
+// Shoptet's own docs — "súvisiace súbory" is a separate paid doplnok, not part of the feed
+// schema), so the only way to surface Penta's manual PDF link through this pipeline is to
+// append it to the product DESCRIPTION as a plain link. Only genuine manuals are kept —
+// RELATED_FILES also carries internal thumbnail-size variants and comparison tables we don't
+// want cluttering the description.
+function manualsHtml(relatedFiles) {
+  if (!relatedFiles || !relatedFiles.length) return '';
+  const manuals = relatedFiles.filter((f) => /manuál|návod|manual/i.test(f.text));
+  if (!manuals.length) return '';
+  const links = manuals.map((f) => `<a href="${xmlAttr(f.url)}" target="_blank" rel="noopener">Stiahnuť manuál (PDF)</a>`);
+  return `<p><strong>Manuál na stiahnutie:</strong> ${links.join(', ')}</p>`;
+}
 function truncateAtWord(s, maxLen) {
   if (!s || s.length <= maxLen) return s || '';
   const cut = s.slice(0, maxLen);
@@ -217,6 +230,7 @@ async function main() {
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
 
     const shortDescription = p.shortDescription || truncateAtWord(stripTags(p.description), 200);
+    const description = p.description + manualsHtml(p.relatedFiles);
     const nameHasManufacturer = p.manufacturer && p.name.toLowerCase().includes(p.manufacturer.toLowerCase());
     const titleCore = (p.manufacturer && !nameHasManufacturer) ? `${p.name} – ${p.manufacturer}` : p.name;
     const seoTitle = truncateAtWord(`${titleCore} | ${STORE_NAME}`, 70);
@@ -230,7 +244,7 @@ async function main() {
     if (p.tipFlag === '1') stats.tip++;
 
     const shopitem = buildShopitemXml({
-      code: p.code, name: p.name, description: p.description, shortDescription,
+      code: p.code, name: p.name, description, shortDescription,
       manufacturer: p.manufacturer, warranty: p.warranty, ean: p.ean,
       defaultCategory, extraCategories, images: p.images, params: p.params,
       alternatives: p.alternatives, actionFlag: p.actionFlag, newFlag: p.newFlag, tipFlag: p.tipFlag,

@@ -3,7 +3,7 @@ const { XMLParser } = require('fast-xml-parser');
 const parser = new XMLParser({
   ignoreAttributes: true,
   textNodeName: '#text',
-  isArray: (name) => ['CATEGORY', 'IMAGE', 'TEXT_PROPERTY', 'CODE'].includes(name),
+  isArray: (name) => ['CATEGORY', 'IMAGE', 'TEXT_PROPERTY', 'CODE', 'RELATED_FILE'].includes(name),
 });
 
 function asArray(v) { return v === undefined ? [] : (Array.isArray(v) ? v : [v]); }
@@ -61,6 +61,15 @@ function parsePentaItem(rawXml) {
 
   const alternatives = it.ALTERNATIVE_PRODUCTS ? asArray(it.ALTERNATIVE_PRODUCTS.CODE).map(text).filter(Boolean) : [];
 
+  const relatedFiles = [];
+  if (it.RELATED_FILES) {
+    for (const rf of asArray(it.RELATED_FILES.RELATED_FILE)) {
+      const rfText = text(rf.TEXT);
+      const rfUrl = text(rf.URL);
+      if (rfText && rfUrl) relatedFiles.push({ text: rfText, url: rfUrl });
+    }
+  }
+
   let actionFlag = '0', newFlag = '0', tipFlag = '0';
   if (it.FLAGS) {
     actionFlag = text(it.FLAGS.ACTION) === '1' ? '1' : '0';
@@ -72,7 +81,7 @@ function parsePentaItem(rawXml) {
     code, ean, name, manufacturer, shortDescription, description, warranty,
     priceVat, purchasePrice, vat, weightKg, heightCm, widthCm, depthCm,
     stockAmount, availabilityRaw, categoryTexts, defaultCategoryRaw,
-    images, params, alternatives, actionFlag, newFlag, tipFlag,
+    images, params, alternatives, actionFlag, newFlag, tipFlag, relatedFiles,
   };
 }
 
