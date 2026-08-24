@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600058,
+    "nextCardNumber": 202600064,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -344,6 +344,42 @@
         "nazov": "Držák UNI LIFT stropní TÜV/GS 09279",
         "dodavatel": "atos",
         "code": "CMP-09279"
+      },
+      "6973293801309": {
+        "kod": "202600058",
+        "nazov": "2in1 Pet Trimmer",
+        "dodavatel": "innpro",
+        "code": "027970"
+      },
+      "5906168438011": {
+        "kod": "202600059",
+        "nazov": "Perlegear TV Cart",
+        "dodavatel": "innpro",
+        "code": "069341"
+      },
+      "6976297860846": {
+        "kod": "202600060",
+        "nazov": "Mini Air Pump Cycplus AS2",
+        "dodavatel": "innpro",
+        "code": "082881"
+      },
+      "6972436986903": {
+        "kod": "202600061",
+        "nazov": "COLMI A2 Smart Glasses",
+        "dodavatel": "innpro",
+        "code": "086911"
+      },
+      "6972185561109": {
+        "kod": "202600062",
+        "nazov": "Carlinkit 2AIR-T Wireless",
+        "dodavatel": "innpro",
+        "code": "088003"
+      },
+      "6971131382867": {
+        "kod": "202600063",
+        "nazov": "Router GL.iNet GL-AXT1800",
+        "dodavatel": "innpro",
+        "code": "090436"
       }
     }
   },
