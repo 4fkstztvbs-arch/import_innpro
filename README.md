@@ -119,7 +119,7 @@ Momentálne pokrýva **254 produktov / 1136 unikátnych TV modelov** (plus prij�
 
 Denne (21:00 UTC, `.github/workflows/heureka-price-report.yml`) sa spracuje Heureka sortiment report nahraný do `data/heureka-reports/` a pripraví sa `price-targets.json` (návrh, o koľko zvýšiť/znížiť cenu podľa konkurencie — pozri `reports/heureka-cenovy-navrh-*.md`). Tento návrh sa premieta do cien pri najbližšom nočnom behu dodávateľa (ATOS/InnPro/K+B/Solight).
 
-- **Stav:** zapnuté (2026-08-10) pre ATOS, InnPro, K+B, Solight. MONACOR zámerne nepoužíva (nemá heureka-price-targets prepojenie).
+- **Stav:** zapnuté (2026-08-10) pre ATOS, InnPro, K+B, Solight; od 2026-08-24 aj Penta. MONACOR zámerne nepoužíva (nemá heureka-price-targets prepojenie).
 - **Zapnutie/vypnutie:** riadi sa premennou `HEUREKA_PRICE_OVERRIDE: '1'` v `env:` sekcii kroku "Run ... transform" v `.github/workflows/<dodavatel>-sync.yml`. Vypneš odstránením tej premennej (alebo zmenou hodnoty na čokoľvek iné než `'1'`).
 - Detaily mechanizmu (floor 5 % marže, K+B výnimka, smer pohybu ceny) sú v `reports/prehlad-importov.md` sekcia 4.4.
 
@@ -211,6 +211,16 @@ Keďže `X-Api-Key` je viditeľný priamo v zdrojovom kóde stránky (verejný r
 - Číslo dokladu v rade (`R01` stĺpec 20) sa necháva **prázdne** — predpoklad je, že Omega ho pri importe doplní automaticky podľa nastaveného radu `0008`; ak import zlyhá/duplikuje čísla, treba to doriešiť ručne v Omege.
 - EAN a nákupná cena položiek nie sú v Pohoda exporte zo Shoptetu k dispozícii — ostávajú prázdne/0.
 - Bankové údaje predávajúceho (`SELLER` na začiatku skriptu) sú natvrdo zakódované z reálnej vzorky — pri zmene účtu/banky treba upraviť priamo v skripte.
+
+## Penta — priama odporúčaná cena (bez vlastnej prirážky)
+
+Penta CZ/SK beží na tej istej i6ws webservice platforme ako ATOS (Cybersoft I6, HTTP Basic Auth, `StoItemShoptet_El` export) — `scripts/parse-penta.js`/`transform-penta.js` sú postavené na rovnakom princípe (`scripts/stream-records.js`, sax streaming). Rozdiely oproti ATOS-u:
+
+- **Cena:** žiadny prepočet kurzu ani vlastná prirážka — priamo sa použije Pentina vlastná `PRICE_VAT` (odporúčaná maloobchodná cena s DPH v EUR, overené 2026-08-24 že sa zhoduje s `SipPriceSTORETotVatEUR` z `X-SipPriceSTORECurAll`). Penta o to výslovne žiada (email Michal Blatný, IT manager, kvôli cenovej disciplíne najmä pri G21 produktoch). Cena len prejde `roundPrice()` kvôli konzistentnému koncovku (.00/.50/.90). Celý katalóg po prvom importe prejdeme cez bežný Heureka cenový report (`process-heureka-report.js`) a prípadne doladíme — rovnaký cyklus ako pri ostatných dodávateľoch.
+- **Obrázky:** Pentine `img.asp?attid=...` URL sú verejne dostupné bez autentifikácie (overené) — na rozdiel od ATOS-u netreba Cloudflare Worker proxy.
+- **Kategórie:** Penta posiela vlastný `<DEFAULT_CATEGORY>` a viacero stromov v `<CATEGORIES>` naraz (`Koncový shop I6` — zákaznícka navigácia, `Dle výrobce` — podľa výrobcu, `Koncovy shop reklamni SK` — marketingové akcie). Používa sa len strom `Koncový shop I6`, mapovanie/výnimky sú v `scripts/penta-mapping.json` (zatiaľ prázdne — dopĺňať podľa potreby, keď sa objavia kategórie vyžadujúce úpravu).
+- **Časové okno:** `GetResult` pre `StoItemShoptet_El` (celý katalóg) je dostupný len 21:00-08:00 SEČ/SELČ — `.github/workflows/penta-sync.yml` beží o 22:20 UTC.
+- **Secrets:** `PENTA_URL` (`https://dealer.pentask.sk/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet_El`), `PENTA_USERNAME`, `PENTA_PASSWORD`.
 
 ## Čo sa importuje
 

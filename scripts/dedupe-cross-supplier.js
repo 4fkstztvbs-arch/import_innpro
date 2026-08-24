@@ -22,6 +22,7 @@ const SUPPLIER_FILES = {
   innpro: 'innpro.xml',
   kb: 'kb.xml',
   monacor: 'monacor.xml',
+  penta: 'penta.xml',
   solight: 'solight.xml',
 };
 
