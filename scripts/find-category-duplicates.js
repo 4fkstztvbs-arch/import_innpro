@@ -33,7 +33,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { similarity } = require('./resolve-category');
+const { similarity, normalizePath } = require('./resolve-category');
 
 const AUTO_THRESHOLD = 0.90;
 const REVIEW_THRESHOLD = 0.78;
@@ -145,6 +145,23 @@ function looksLikeRealDifference(leafA, leafB) {
   return false;
 }
 
+// Counts every category a product is filed under, keyed by NORMALIZED path. Two traps here, both
+// of which produced large numbers of false "empty category" verdicts before being fixed:
+//
+//  1. A product belongs to EVERY <CATEGORY> in its <CATEGORIES> block, not just the first one.
+//     The first is merely the default/main category; the rest are real memberships, not display
+//     breadcrumbs. Counting only the first reported 0 products for e.g.
+//     "Auto-moto > Vybavenie auta > Poistky", which appears 39x in atos.xml but never in first
+//     position — while the live category page lists a full page of fuses.
+//  2. The tree paths come from the Shoptet export while the product paths come from our own
+//     output/*.xml, and the two disagree on diacritics for whole branches ("Vybavenie auta" vs
+//     "Vybavenie autá" — the same category to Shoptet, which matches on the diacritics-stripped
+//     URL slug). Hence normalizePath() on both sides.
+//
+// NOTE even with both fixed, this is only "products in today's feed export" — it cannot see
+// out-of-stock or manually-added products that are still live in the shop. Never hide a category
+// on the strength of these numbers alone; scripts/verify-empty-categories.js checks the live shop
+// and is the authority.
 function countLiveDirectCounts() {
   const counts = new Map();
   const outDir = path.join(REPO_ROOT, 'output');
@@ -154,9 +171,8 @@ function countLiveDirectCounts() {
     const blockRe = /<CATEGORIES>([\s\S]*?)<\/CATEGORIES>/g;
     let block;
     while ((block = blockRe.exec(text))) {
-      const m = /<CATEGORY><!\[CDATA\[([\s\S]*?)\]\]><\/CATEGORY>/.exec(block[1]);
-      if (!m) continue;
-      counts.set(m[1], (counts.get(m[1]) || 0) + 1);
+      const cats = [...block[1].matchAll(/<CATEGORY><!\[CDATA\[([\s\S]*?)\]\]><\/CATEGORY>/g)].map((m) => normalizePath(m[1]));
+      for (const key of new Set(cats)) counts.set(key, (counts.get(key) || 0) + 1);
     }
   }
   return counts;
@@ -166,7 +182,7 @@ function recursiveTotals(paths, childrenOf, directCounts) {
   const totals = new Map();
   function total(p) {
     if (totals.has(p)) return totals.get(p);
-    let t = directCounts.get(p) || 0;
+    let t = directCounts.get(normalizePath(p)) || 0;
     for (const c of childrenOf.get(p) || []) t += total(c);
     totals.set(p, t);
     return t;

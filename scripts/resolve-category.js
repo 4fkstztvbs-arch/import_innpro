@@ -64,6 +64,19 @@ function loadKnownCategories() {
   return JSON.parse(fs.readFileSync(KNOWN_PATH, 'utf-8'));
 }
 
+// Shoptet matches an incoming feed category to an existing one by its URL slug, which is
+// diacritics-stripped and lowercased — so "Vybavenie autá" (what the ATOS feed emits) and
+// "Vybavenie auta" (what the live tree stores) are the SAME category to Shoptet, both slugging to
+// "vybavenie-auta". Comparing raw strings across those two sources therefore produces false
+// "unknown category" verdicts; every lookup against the known tree must go through this instead.
+// Verified 2026-08-24: 102 live categories under Auto-moto differ from our XML by exactly this.
+function normalizePath(p) {
+  return String(p || '')
+    .split(' > ')
+    .map((seg) => normalize(seg))
+    .join(' > ');
+}
+
 function splitLeaf(fullPath) {
   const idx = fullPath.lastIndexOf(' > ');
   return idx === -1 ? { parent: '', leaf: fullPath } : { parent: fullPath.slice(0, idx), leaf: fullPath.slice(idx + 3) };
@@ -73,12 +86,15 @@ function splitLeaf(fullPath) {
 function createCategoryMatcher(supplierName) {
   const known = loadKnownCategories();
   const knownSet = new Set(known);
+  const knownByNorm = new Set(known.map(normalizePath));
   const byParent = new Map();
   for (const p of known) {
     const { parent, leaf } = splitLeaf(p);
     if (!byParent.has(parent)) byParent.set(parent, []);
     byParent.get(parent).push({ path: p, leaf });
   }
+  // Slug-equal to something in the live tree == already an existing category (see normalizePath).
+  function isKnownPath(p) { return knownSet.has(p) || knownByNorm.has(normalizePath(p)); }
 
   function findMatch(unknownPath) {
     const { parent, leaf } = splitLeaf(unknownPath);
@@ -86,7 +102,7 @@ function createCategoryMatcher(supplierName) {
     // Tier 1 (highest confidence): the parent already exists as a known node, and one of its
     // known children is a near-spelling-variant of this leaf (e.g. "Odražedla" vs "Odrážadlá",
     // both already living under the same known "... > Sportovní vybavenie").
-    if (knownSet.has(parent) && byParent.has(parent)) {
+    if (isKnownPath(parent) && byParent.has(parent)) {
       let best = null, bestScore = 0;
       for (const c of byParent.get(parent)) {
         const score = similarity(leaf, c.leaf);
@@ -118,7 +134,10 @@ function createCategoryMatcher(supplierName) {
   // trusted=true skips the gate entirely (category came from an explicit, human-reviewed rename).
   function resolve(category, { trusted, productLabel } = {}) {
     if (!category || trusted) return { category, excluded: false, redirected: false };
-    if (knownSet.has(category)) return { category, excluded: false, redirected: false };
+    // Pass the ORIGINAL string through untouched when it's already a known category (possibly only
+    // slug-equal) — rewriting it to the tree's spelling would be a no-op for Shoptet's matching but
+    // could churn the live category title, so leave today's import behaviour exactly as it is.
+    if (isKnownPath(category)) return { category, excluded: false, redirected: false };
 
     const m = findMatch(category);
     if (m) {
@@ -177,7 +196,7 @@ function createCategoryMatcher(supplierName) {
     return { unmatchedCategories: unmatched.size, unmatchedProducts, autoMatchedCategories: autoMatched.size, autoMatchedProducts };
   }
 
-  return { isKnown: (p) => knownSet.has(p), findMatch, resolve, writeReport };
+  return { isKnown: isKnownPath, findMatch, resolve, writeReport };
 }
 
-module.exports = { createCategoryMatcher, normalize, similarity, loadKnownCategories };
+module.exports = { createCategoryMatcher, normalize, normalizePath, similarity, loadKnownCategories };
