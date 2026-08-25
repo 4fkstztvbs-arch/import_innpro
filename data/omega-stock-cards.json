@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600084,
+    "nextCardNumber": 202600085,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -500,6 +500,12 @@
         "nazov": "Gumová podložka 600 x 600 x 10 mm",
         "dodavatel": "atos",
         "code": "FLO-80008955"
+      },
+      "8425988907370": {
+        "kod": "202600084",
+        "nazov": "Zásuvka TV+R koncová Alcad BM-100 - 3,5dB",
+        "dodavatel": "atos",
+        "code": "ABM100"
       }
     }
   },
