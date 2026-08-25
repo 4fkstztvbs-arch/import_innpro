@@ -54,6 +54,20 @@ const COLLAPSE_MAP = {
   'Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Svorkovnice a Wago svorky': 'Elektroinštalačný materiál',
   'Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Predlžovacie káble': 'Elektroinštalačný materiál',
   'Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Ističe, inštalačné krabice, rozvádzače': 'Elektroinštalačný materiál',
+  // "Televízory" had two competing, mostly-unused sub-categorizations (by panel type: LED/OLED/
+  // QLED/UHD, and separately by screen diagonal) layered on top of each other — per request,
+  // flattened into one category; filtering by type/diagonal moves to Shoptet product parameters
+  // instead. Televízory na 12V / Príslušenstvo pre televízory / LED projektory are real distinct
+  // product lines, not a type/size split, so those stay as their own categories.
+  'TV, audio a video > Televízory > 32" (80 - 82 cm)': 'TV, audio a video > Televízory',
+  'TV, audio a video > Televízory > 43" (108 - 109 cm)': 'TV, audio a video > Televízory',
+  'TV, audio a video > Televízory > do 30" (76 cm)': 'TV, audio a video > Televízory',
+  'TV, audio a video > Televízory > nad 48" (120 - 165 cm)': 'TV, audio a video > Televízory',
+  'TV, audio a video > Televízory > LED televízory': 'TV, audio a video > Televízory',
+  'TV, audio a video > Televízory > OLED televízory': 'TV, audio a video > Televízory',
+  'TV, audio a video > Televízory > QLED, NeoQLED televízory': 'TV, audio a video > Televízory',
+  'TV, audio a video > Televízory > UHD(4K) televízory': 'TV, audio a video > Televízory',
+  'TV, audio a video > Televízory > Televízory Ultra HD (4K)': 'TV, audio a video > Televízory',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
