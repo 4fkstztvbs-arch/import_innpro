@@ -73,6 +73,15 @@ const COLLAPSE_MAP = {
   'TV, audio a video > Audio - video káble': 'TV, audio a video > AV káble',
   'TV, audio a video > Audio - video káble > HDMI káble': 'TV, audio a video > AV káble > HDMI káble',
   'TV, audio a video > Audio - video káble > Redukcie': 'TV, audio a video > AV káble > HDMI spojky a redukcie',
+  // Two parallel "accessories" buckets under TV, audio a video — folded the smaller one
+  // ("Príslušenstvo", HDMI/AUDIO converters) into the bigger, more populated one.
+  'TV, audio a video > Príslušenstvo': 'TV, audio a video > Príslušenstvo k TV, audio, video',
+  'TV, audio a video > Príslušenstvo > AUDIO prevodníky': 'TV, audio a video > Príslušenstvo k TV, audio, video > AUDIO prevodníky',
+  'TV, audio a video > Príslušenstvo > Bezdrátové přenosy signálu': 'TV, audio a video > Príslušenstvo k TV, audio, video > Bezdrátové přenosy signálu',
+  'TV, audio a video > Príslušenstvo > Bezdrátové přenosy signálu > AUDIO přenosy': 'TV, audio a video > Príslušenstvo k TV, audio, video > Bezdrátové přenosy signálu > AUDIO přenosy',
+  'TV, audio a video > Príslušenstvo > Bezdrátové přenosy signálu > Bluetooth': 'TV, audio a video > Príslušenstvo k TV, audio, video > Bezdrátové přenosy signálu > Bluetooth',
+  'TV, audio a video > Príslušenstvo > HDMI prevodníky': 'TV, audio a video > Príslušenstvo k TV, audio, video > HDMI prevodníky',
+  'TV, audio a video > Príslušenstvo > HDMI rozbočovače': 'TV, audio a video > Príslušenstvo k TV, audio, video > HDMI rozbočovače',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
