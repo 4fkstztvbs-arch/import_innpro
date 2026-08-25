@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600083,
+    "nextCardNumber": 202600084,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -494,6 +494,12 @@
         "nazov": "BRANY IN ND rameno motor k pohonu SW220AL - 553012ram - náhradní díl",
         "dodavatel": "atos",
         "code": "INSW220"
+      },
+      "0197988919254": {
+        "kod": "202600083",
+        "nazov": "Gumová podložka 600 x 600 x 10 mm",
+        "dodavatel": "atos",
+        "code": "FLO-80008955"
       }
     }
   },
