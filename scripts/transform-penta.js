@@ -30,6 +30,10 @@ const URL = process.env.PENTA_URL;
 const USERNAME = process.env.PENTA_USERNAME;
 const PASSWORD = process.env.PENTA_PASSWORD;
 const MIN_COST = parseFloat(process.env.PENTA_MIN_COST || '0');
+// Business rule: this store doesn't carry sub-€10 items (dollar-store junk like a €1.30
+// construction bucket isn't worth the shelf space) — checked against the final sell price,
+// after roundPrice()/Heureka target, not the raw feed price.
+const MIN_PRICE = parseFloat(process.env.PENTA_MIN_PRICE || '10');
 const OUT_PATH = process.env.PENTA_OUT || path.join(__dirname, '..', 'output', 'penta.xml');
 // Temporary, while penta-mapping.json only covers the categories with a confirmed match onto
 // our existing tree ("ZHODA") — the rest (ambiguous/no match) are still being paired by hand
@@ -237,6 +241,7 @@ async function main() {
 
     let price = roundPrice(p.priceVat);
     price = applyHeurekaPriceTarget(p.ean, price, p.purchasePrice, parseFloat(p.vat));
+    if (price < MIN_PRICE) { stats.skippedCheap++; return; }
 
     const { defaultCategory, extraCategories, defaultMapped } = resolvePentaCategories(p.categoryTexts, p.defaultCategoryRaw);
     if (!defaultCategory) { stats.skippedCategory++; return; }
