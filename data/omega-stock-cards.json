@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600072,
+    "nextCardNumber": 202600075,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -428,6 +428,24 @@
         "nazov": "Gorenje JC200BE",
         "dodavatel": "kb",
         "code": ""
+      },
+      "6930444805647": {
+        "kod": "202600072",
+        "nazov": "Pen Display Kamvas 16",
+        "dodavatel": "innpro",
+        "code": "077181"
+      },
+      "6976297860532": {
+        "kod": "202600073",
+        "nazov": "Air Pump Cycplus A12",
+        "dodavatel": "innpro",
+        "code": "082883"
+      },
+      "6975755965086": {
+        "kod": "202600074",
+        "nazov": "Flextail Max Pump 3 orange",
+        "dodavatel": "innpro",
+        "code": "084206"
       }
     }
   },
