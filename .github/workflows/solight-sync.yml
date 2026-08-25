@@ -44,6 +44,9 @@ jobs:
       - name: Cross-supplier dedupe
         run: node scripts/dedupe-cross-supplier.js
 
+      - name: Collapse duplicate categories
+        run: node scripts/collapse-duplicate-categories.js
+
       - name: Commit updated output
         run: |
           git config user.name "solight-sync-bot"
