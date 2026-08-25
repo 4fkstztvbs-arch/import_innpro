@@ -68,6 +68,11 @@ const COLLAPSE_MAP = {
   'TV, audio a video > Televízory > QLED, NeoQLED televízory': 'TV, audio a video > Televízory',
   'TV, audio a video > Televízory > UHD(4K) televízory': 'TV, audio a video > Televízory',
   'TV, audio a video > Televízory > Televízory Ultra HD (4K)': 'TV, audio a video > Televízory',
+  // "Audio - video káble" duplicated "AV káble" wholesale (same subcategories) — currently empty
+  // of products from our feeds, kept here as a guard in case a future feed ever lands there.
+  'TV, audio a video > Audio - video káble': 'TV, audio a video > AV káble',
+  'TV, audio a video > Audio - video káble > HDMI káble': 'TV, audio a video > AV káble > HDMI káble',
+  'TV, audio a video > Audio - video káble > Redukcie': 'TV, audio a video > AV káble > HDMI spojky a redukcie',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
