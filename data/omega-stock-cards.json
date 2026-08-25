@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600075,
+    "nextCardNumber": 202600083,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -446,6 +446,54 @@
         "nazov": "Flextail Max Pump 3 orange",
         "dodavatel": "innpro",
         "code": "084206"
+      },
+      "5901890110525": {
+        "kod": "202600075",
+        "nazov": "Lepidlo Zhanlida T-7000 25ml transparentní",
+        "dodavatel": "atos",
+        "code": "ATO-GSM1053"
+      },
+      "0745178459310": {
+        "kod": "202600076",
+        "nazov": "Držák kamer na stožár DKS105 - galvanický zinek",
+        "dodavatel": "atos",
+        "code": "TCZ-3021087B"
+      },
+      "4012386033196": {
+        "kod": "202600077",
+        "nazov": "Krabice pod zásuvku FOZ 1 W",
+        "dodavatel": "atos",
+        "code": "FOZ1W"
+      },
+      "8595563716601": {
+        "kod": "202600078",
+        "nazov": "Páska Stahovací 250 x 4 mm - bílá *",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "8592920154618": {
+        "kod": "202600079",
+        "nazov": "Mont.mat. příchytka kabelová 10 mm, bílá, balení 50 ks / EMOS A2826",
+        "dodavatel": "atos",
+        "code": "EMO3115282600"
+      },
+      "4012386033226": {
+        "kod": "202600080",
+        "nazov": "Víčko k TV+R zásuvce FOZ 2 W *",
+        "dodavatel": "atos",
+        "code": "FOZ2W"
+      },
+      "8425988907417": {
+        "kod": "202600081",
+        "nazov": "Zásuvka TV+R průběžná Alcad BM-500 - 10dB",
+        "dodavatel": "atos",
+        "code": "ABM500"
+      },
+      "8595685530123": {
+        "kod": "202600082",
+        "nazov": "BRANY IN ND rameno motor k pohonu SW220AL - 553012ram - náhradní díl",
+        "dodavatel": "atos",
+        "code": "INSW220"
       }
     }
   },
