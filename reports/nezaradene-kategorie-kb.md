@@ -9,4 +9,8 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 - ak má patriť pod existujúcu kategóriu inak pomenovanú → pridať záznam do
   `categoryRenamesByPath` v `scripts/kb-mapping.json`.
 
-_Žiadne — všetky kategórie z tohto behu sa napárovali na existujúci strom._
+**1 nenapárovaných kategórií, 3 produktov nenaimportovaných.**
+
+| Kategória z feedu | Počet produktov | Príklady produktov |
+|---|---|---|
+| Domáce spotrebiče > Malé spotrebiče > Žehličky > Dávkovače mydlá | 3 | GLOX Dávkovač mýdla Pěna NEREZ černý; GLOX Dávkovač mýdla Pěna NEREZ bílý; Glox FM19B bezdotykový dávkovač pěnového |
