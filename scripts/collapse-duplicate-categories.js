@@ -47,6 +47,13 @@ const COLLAPSE_MAP = {
   // Found manually (2026-08-25): a K+B drone toy filed under "TV, audio a video" instead of the
   // dedicated "Dróny a RC modely" top-level category that already exists for exactly this.
   'TV, audio a video > Drony': 'Dróny a RC modely',
+  // General electrical supplies stranded under the tools department, duplicating the dedicated
+  // top-level "Elektroinštalačný materiál" (3672 products) with no distinguishing context —
+  // unlike the Auto-moto > Elektroinštalačný materiál branch, which is genuinely car-specific.
+  'Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál': 'Elektroinštalačný materiál',
+  'Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Svorkovnice a Wago svorky': 'Elektroinštalačný materiál',
+  'Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Predlžovacie káble': 'Elektroinštalačný materiál',
+  'Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Ističe, inštalačné krabice, rozvádzače': 'Elektroinštalačný materiál',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
