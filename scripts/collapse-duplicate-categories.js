@@ -34,7 +34,25 @@ const COLLAPSE_MAP = {
   'Bezpečnosť a smart domácnosť > Smart domácnosť > IP kamery': 'Bezpečnosť a smart domácnosť > IP kamery',
   'TV, audio a video > Počítače a príslušenstvo > Sieťové prvky > IP kamery': 'Bezpečnosť a smart domácnosť > IP kamery',
   'Bezpečnosť a smart domácnosť > Smart domácnosť > Robotické vysávače': 'Domáce spotrebiče > Malé spotrebiče > Vysávače > Robotické vysávače',
+  // Second pass (2026-08-25), found via the full-tree browser — same self-nested "general X
+  // under X" pattern, all verified live in data/known-categories.json before merging.
+  'Náradie a dielňa > Kancelária a škola > Tlačiarne štítkov > Tlačiarne štítkov': 'Náradie a dielňa > Kancelária a škola > Tlačiarne štítkov',
+  'Záhrada > Záhradné náradie > Záhradné nožnice > Záhradné nožnice': 'Záhrada > Záhradné náradie > Záhradné nožnice',
+  'Fotovoltaika a energie > Elektrické stanice > Elektrické stanice': 'Fotovoltaika a energie > Elektrické stanice',
+  'Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Spájkovacie stanice > Spajkovacie stanice':
+    'Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Spájkovacie stanice',
+  'Zdravie a starostlivosť > Sonické zubné kefky > Sonické zubné kefky': 'Zdravie a starostlivosť > Sonické zubné kefky',
+  'Auto-moto > Videorekordéry > Videorekordéry': 'Auto-moto > Videorekordéry',
+  'Fotovoltaika a energie > Fotovoltaické panely > Fotovoltaické panely': 'Fotovoltaika a energie > Fotovoltaické panely',
 };
+
+// Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
+// tree (e.g. ATOS's own anniversary promo category) — dropped outright rather than merged,
+// since there's no sensible target. Only ever remove a CATEGORY line, never touch the rest of
+// the SHOPITEM; every product on this list was checked to still have a real category left over.
+const DROP_CATEGORIES = [
+  'Druhy > AKCE ATOS 35 LET',
+];
 
 function xmlCdata(s) { return '<![CDATA[' + s.replace(/]]>/g, ']]&gt;') + ']]>'; }
 
@@ -48,6 +66,12 @@ function collapseFile(filePath) {
     const occurrences = original.split(needle).length - 1;
     if (occurrences > 0) counts[from] = occurrences;
     xml = xml.split(needle).join(replacement);
+  }
+  for (const dropped of DROP_CATEGORIES) {
+    const needle = `  <CATEGORY>${xmlCdata(dropped)}</CATEGORY>\n`;
+    const occurrences = original.split(needle).length - 1;
+    if (occurrences > 0) counts[dropped] = occurrences;
+    xml = xml.split(needle).join('');
   }
 
   // Dedupe: a SHOPITEM that already listed both the old and new path (or now has the new path
