@@ -24,7 +24,7 @@ const { streamRecords } = require('./stream-records');
 const { parsePentaItem } = require('./parse-penta');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
-const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
+const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 
 const URL = process.env.PENTA_URL;
 const USERNAME = process.env.PENTA_USERNAME;
@@ -172,7 +172,7 @@ function buildShopitemXml(p) {
   }
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
-  if (isHeurekaHidden(p.defaultCategory, p.price) || cannotCompeteOnPrice(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  if (isHeurekaHidden(p.defaultCategory, p.price)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));

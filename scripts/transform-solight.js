@@ -17,7 +17,7 @@ const { streamRecords } = require('./stream-records');
 const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
-const { applyHeurekaPriceTarget, cannotCompeteOnPrice } = require('./heureka-price-targets');
+const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 
 const URL = process.env.SOLIGHT_URL;
 const MARKUP_PCT = parseFloat(process.env.SOLIGHT_MARKUP || '0');
@@ -185,11 +185,7 @@ function buildShopitemXml(p) {
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   // Solight zámerne vynechaný z kategóriového/cenového HEUREKA_HIDDEN pravidla (na žiadosť
-  // 2026-08-11) — scripts/heureka-hidden-categories.json by tu zasiahlo 88 % sortimentu. Toto je
-  // ale iný, oveľa užší prípad (na žiadosť 2026-08-13): produkt, kde sme aj po znížení na
-  // maržovú podlahu preukázateľne nekonkurencieschopní cenou - tých je rádovo menej a ide o
-  // konkrétne produkty, nie celé kategórie.
-  if (cannotCompeteOnPrice(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  // 2026-08-11) — scripts/heureka-hidden-categories.json by tu zasiahlo 88 % sortimentu.
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));
