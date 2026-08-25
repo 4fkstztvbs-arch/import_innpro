@@ -44,6 +44,9 @@ const COLLAPSE_MAP = {
   'Zdravie a starostlivosť > Sonické zubné kefky > Sonické zubné kefky': 'Zdravie a starostlivosť > Sonické zubné kefky',
   'Auto-moto > Videorekordéry > Videorekordéry': 'Auto-moto > Videorekordéry',
   'Fotovoltaika a energie > Fotovoltaické panely > Fotovoltaické panely': 'Fotovoltaika a energie > Fotovoltaické panely',
+  // Found manually (2026-08-25): a K+B drone toy filed under "TV, audio a video" instead of the
+  // dedicated "Dróny a RC modely" top-level category that already exists for exactly this.
+  'TV, audio a video > Drony': 'Dróny a RC modely',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
