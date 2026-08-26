@@ -7,7 +7,8 @@
     "sync": "node scripts/transform-monacor.js",
     "heureka-price-compare": "node scripts/compare-heureka-prices.js",
     "heureka-price-daily": "node scripts/process-heureka-report.js",
-    "heureka-unmatched": "node scripts/process-heureka-unmatched.js"
+    "heureka-unmatched": "node scripts/process-heureka-unmatched.js",
+    "check-inbox": "node scripts/check-support-inbox.js"
   },
   "license": "UNLICENSED",
   "private": true,
@@ -16,6 +17,8 @@
     "fast-xml-parser": "^5.10.1",
     "he": "^1.2.0",
     "iconv-lite": "^0.7.3",
+    "imapflow": "^1.7.6",
+    "mailparser": "^3.9.16",
     "pdfjs-dist": "^6.2.108",
     "sax": "^1.6.1"
   }
