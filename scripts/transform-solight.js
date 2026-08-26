@@ -18,6 +18,15 @@ const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+
+// Mobilné klimatizácie (portable AC units) explicitly hidden from the Heureka feed on request
+// 2026-08-26: 114,85 EUR spent over the first 17 days live, only 2 orders, and CPC ~50% above
+// the catalog average - a losing category for this store's margin regardless of the general
+// Solight HEUREKA_HIDDEN opt-out below. Matched on the raw category leaf (not the resolved/
+// renamed p.defaultCategory, which is shared with "Teplovzdušné konvektory"/"Ventilátory" under
+// the same "Vzduchotechnika" bucket and would over-hide those too).
+const MOBILE_AC_CATEGORY_RE = /mobiln[ée]\s+klimatiz[aá]cie/i;
 
 const URL = process.env.SOLIGHT_URL;
 const MARKUP_PCT = parseFloat(process.env.SOLIGHT_MARKUP || '0');
@@ -186,6 +195,10 @@ function buildShopitemXml(p) {
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   // Solight zámerne vynechaný z kategóriového/cenového HEUREKA_HIDDEN pravidla (na žiadosť
   // 2026-08-11) — scripts/heureka-hidden-categories.json by tu zasiahlo 88 % sortimentu.
+  // Napriek tomu sa HEUREKA_HIDDEN nastaví, ak je produkt preukázaný neprevádzajúci CPC klik
+  // (isCpcNonConverter) alebo patrí do explicitne vylúčenej kategórie Mobilné klimatizácie
+  // (heurekaHidden, viď MOBILE_AC_CATEGORY_RE vyššie a volanie buildShopitemXml nižšie).
+  if (p.heurekaHidden) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));
@@ -253,6 +266,7 @@ async function main() {
     if (isNaN(price) || price < 0) { stats.invalidPrice++; return; }
 
     const { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.categoryRaw, p.name);
+    const heurekaHidden = isCpcNonConverter(p.ean) || MOBILE_AC_CATEGORY_RE.test(p.categoryRaw || '');
     if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedByCategory++; return; }
 
     let availability, isAvailable;
@@ -296,7 +310,7 @@ async function main() {
       code, name: p.name, description, shortDescription, manufacturer: p.manufacturer,
       warranty: p.warranty, ean: p.ean, defaultCategory: category, extraCategories,
       images, params: p.params, availability, weightKg: p.weightKg, price,
-      purchasePrice: p.costEUR, seoTitle, metaDescription,
+      purchasePrice: p.costEUR, seoTitle, metaDescription, heurekaHidden,
     });
     out.write(shopitem + '\n');
     stats.written++;
