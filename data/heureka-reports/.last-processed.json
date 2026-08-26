@@ -1,15 +1,15 @@
 {
- "file": "premiumstoresk_20260825_2212.csv",
- "ts": "202608252212",
- "processedAt": "2026-08-25T20:20:44.536Z",
- "reportPath": "reports/heureka-cenovy-navrh-2026-08-25.md",
+ "file": "premiumstoresk_20260826_1243.csv",
+ "ts": "202608261243",
+ "processedAt": "2026-08-26T10:46:40.606Z",
+ "reportPath": "reports/heureka-cenovy-navrh-2026-08-26.md",
  "targetsPath": "data/heureka-reports/price-targets.json",
- "priceTargetsCount": 1008,
+ "priceTargetsCount": 1453,
  "stats": {
-  "total": 5297,
-  "zvysit": 98,
-  "znizit": 910,
-  "bezZmeny": 4289,
-  "floorLimited": 98
+  "total": 5502,
+  "zvysit": 246,
+  "znizit": 1207,
+  "bezZmeny": 4049,
+  "floorLimited": 112
  }
 }
