@@ -1,0 +1,30 @@
+name: List mailboxes check
+
+# Jednorazový/opakovateľný diagnostický beh: vypíše priečinky schránky a ich
+# special-use flagy (potrebné, aby sme poznali presný názov Drafts priečinka pre
+# append). Read-only, spúšťa sa len ručne.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: List IMAP mailboxes
+        env:
+          SEZNAM_IMAP_USER: ${{ secrets.SEZNAM_IMAP_USER }}
+          SEZNAM_IMAP_PASSWORD: ${{ secrets.SEZNAM_IMAP_PASSWORD }}
+        run: node scripts/list-mailboxes.js
