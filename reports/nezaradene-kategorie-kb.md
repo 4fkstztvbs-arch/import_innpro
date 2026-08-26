@@ -9,8 +9,9 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 - ak má patriť pod existujúcu kategóriu inak pomenovanú → pridať záznam do
   `categoryRenamesByPath` v `scripts/kb-mapping.json`.
 
-**1 nenapárovaných kategórií, 3 produktov nenaimportovaných.**
+**2 nenapárovaných kategórií, 2 produktov nenaimportovaných.**
 
 | Kategória z feedu | Počet produktov | Príklady produktov |
 |---|---|---|
-| Domáce spotrebiče > Malé spotrebiče > Žehličky > Dávkovače mydlá | 3 | GLOX Dávkovač mýdla Pěna NEREZ černý; GLOX Dávkovač mýdla Pěna NEREZ bílý; Glox FM19B bezdotykový dávkovač pěnového |
+| TV, audio a video > Audio - video káble > CINCH RCA káble | 1 | InAkustik 671934 Kabel jack 3,5 mm 1,5 m |
+| Zdravie a starostlivosť > Masážne prístroje > Masážne pištole | 1 | TrueLife RelaxGun G3 |
