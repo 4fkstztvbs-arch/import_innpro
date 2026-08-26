@@ -51,13 +51,23 @@ async function main() {
   let deleted = 0;
   try {
     const status = await client.status(draftsPath, { messages: true });
+
+    // Najprv len POZBIERAŤ zhody - vydávať ďalší IMAP príkaz (messageDelete) uprostred
+    // prebiehajúceho FETCH streamu rozbije protokol ("Command failed" bez detailu).
+    const toDelete = [];
     for await (const msg of client.fetch(`1:${status.messages}`, { source: true, uid: true })) {
       const parsed = await simpleParser(msg.source);
       const toAddr = (parsed.to?.value?.[0]?.address || '').toLowerCase();
       if (RECIPIENTS.includes(toAddr)) {
-        await client.messageDelete(msg.uid, { uid: true });
+        toDelete.push({ uid: msg.uid, toAddr, subject: parsed.subject });
+      }
+    }
+
+    if (toDelete.length) {
+      await client.messageDelete(toDelete.map((m) => m.uid).join(','), { uid: true });
+      for (const m of toDelete) {
         deleted += 1;
-        console.log(`Zmazané: ${toAddr} | "${parsed.subject}"`);
+        console.log(`Zmazané: ${m.toAddr} | "${m.subject}"`);
       }
     }
   } finally {
