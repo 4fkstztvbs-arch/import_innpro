@@ -1,0 +1,35 @@
+name: Delete drafts by recipient
+
+# Jednorazový/opakovateľný nástroj na vyčistenie konkrétnych draftov (napr. po oprave
+# promptu v draft-order-replies.js, keď boli staré drafty vecne nesprávne). Spúšťa sa
+# len ručne, s ručne zadaným zoznamom emailových adries.
+
+on:
+  workflow_dispatch:
+    inputs:
+      recipients:
+        description: 'Čiarkou oddelený zoznam emailových adries, ktorých drafty zmazať'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  delete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Delete matching drafts
+        env:
+          SEZNAM_IMAP_USER: ${{ secrets.SEZNAM_IMAP_USER }}
+          SEZNAM_IMAP_PASSWORD: ${{ secrets.SEZNAM_IMAP_PASSWORD }}
+          DELETE_RECIPIENTS: ${{ github.event.inputs.recipients }}
+        run: node scripts/delete-drafts-by-recipient.js
