@@ -39,8 +39,10 @@ const ORDER_SUBJECT_RE = /objedn[áa]vk/i;
 // Priame dotazy aj bez odpovede na konkrétny mail
 const ORDER_KEYWORD_RE =
   /\b(stav objedn[áa]vky|kde je (moja )?objedn[áa]vka|sledovanie z[áa]sielky|reklam[áa]cia|vr[áa]tenie tovaru|storno|nedostal|nepri[šs]lo|meškanie|dorucen)\b/i;
-// Číslo objednávky vo formáte použitom v orders.xml (napr. 202600658)
-const ORDER_NUMBER_RE = /\b(20\d{6})\b/;
+// Číslo objednávky vo formáte použitom v orders.xml - 9 číslic, "20" + rok + 5-miestne
+// poradové číslo (napr. 202600658). Predošlá verzia čakala 8 číslic a nikdy sa netrafila -
+// každý doterajší "match podľa čísla" bol v skutočnosti len zhoda cez email.
+const ORDER_NUMBER_RE = /\b(20\d{7})\b/;
 
 function isSystemSender(addr) {
   if (!addr) return false;
