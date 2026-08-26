@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600085,
+    "nextCardNumber": 202600096,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -506,6 +506,72 @@
         "nazov": "Zásuvka TV+R koncová Alcad BM-100 - 3,5dB",
         "dodavatel": "atos",
         "code": "ABM100"
+      },
+      "6956362909892": {
+        "kod": "202600085",
+        "nazov": "M9-E LED searchlight, black",
+        "dodavatel": "innpro",
+        "code": "025661"
+      },
+      "6972237682097": {
+        "kod": "202600086",
+        "nazov": "Maono DGM20S Microphone",
+        "dodavatel": "innpro",
+        "code": "057847"
+      },
+      "6934399223150": {
+        "kod": "202600087",
+        "nazov": "Pet grooming kit",
+        "dodavatel": "innpro",
+        "code": "060145"
+      },
+      "6972237682158": {
+        "kod": "202600088",
+        "nazov": "Maono PD200XS",
+        "dodavatel": "innpro",
+        "code": "075426"
+      },
+      "4711527002427": {
+        "kod": "202600089",
+        "nazov": "Darkflash DB330M Mesh",
+        "dodavatel": "innpro",
+        "code": "075751"
+      },
+      "6976037362593": {
+        "kod": "202600090",
+        "nazov": "Avatto WT20R-EH-16A WiFi",
+        "dodavatel": "innpro",
+        "code": "079284"
+      },
+      "6975755965079": {
+        "kod": "202600091",
+        "nazov": "Flextail Max Pump 3 white",
+        "dodavatel": "innpro",
+        "code": "084204"
+      },
+      "5905156102378": {
+        "kod": "202600092",
+        "nazov": "FNIRSI Color Screen",
+        "dodavatel": "innpro",
+        "code": "084450"
+      },
+      "6928819531550": {
+        "kod": "202600093",
+        "nazov": "xTool M1 Ultra 20W 4-in-1",
+        "dodavatel": "innpro",
+        "code": "077140"
+      },
+      "6976831830373": {
+        "kod": "202600094",
+        "nazov": "Neewer Z880-N TTL",
+        "dodavatel": "innpro",
+        "code": "083215"
+      },
+      "6921268817763": {
+        "kod": "202600095",
+        "nazov": "NEEWER LS-300 300W",
+        "dodavatel": "innpro",
+        "code": "083754"
       }
     }
   },
