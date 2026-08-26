@@ -9,4 +9,8 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 - ak má patriť pod existujúcu kategóriu inak pomenovanú → pridať záznam do
   `categoryRenamesByPath` v `scripts/atos-mapping.json`.
 
-_Žiadne — všetky kategórie z tohto behu sa napárovali na existujúci strom._
+**1 nenapárovaných kategórií, 1 produktov nenaimportovaných.**
+
+| Kategória z feedu | Počet produktov | Príklady produktov |
+|---|---|---|
+| TV, audio a video > Televízory > 39" - 42" (98 - 107 cm) | 1 | FINLUX 40FFI5661 SMART TV FULL HD TIVO |
