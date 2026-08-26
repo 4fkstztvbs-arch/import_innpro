@@ -4,10 +4,13 @@ name: Draft order replies
 # odpovede a uloží ho do priečinka Drafts na obchod@premiumstore.sk - NIKDY nič
 # neodosiela automaticky. Drží si stav spracovaných mailov v
 # data/drafted-order-emails.json (commitovaný do repa), aby sa ten istý mail
-# neprekladal do draftu opakovane. Zatiaľ len workflow_dispatch, kým sa neoverí
-# kvalita návrhov na živej schránke - cron sa zapne až potom.
+# neprekladal do draftu opakovane. Kvalita návrhov overená ručne (2 kolá opráv -
+# vylúčenie dodávateľských domén z filtra, správna interpretácia stavu "Objednané
+# <dodávateľ>") - teraz beží aj automaticky každých 15 minút.
 
 on:
+  schedule:
+    - cron: '*/15 * * * *'
   workflow_dispatch: {}
 
 permissions:
