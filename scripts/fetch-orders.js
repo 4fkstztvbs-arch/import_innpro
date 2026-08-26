@@ -31,19 +31,25 @@ async function fetchOrders(url) {
   return Array.isArray(raw) ? raw : [raw];
 }
 
-// Najnovšia objednávka daného zákazníckeho emailu, prípadne konkrétna objednávka podľa čísla.
+// Vráti { order, matchedBy }. matchedBy rozlišuje, AKO sme sa k objednávke dostali:
+// - 'code'           - presná zhoda na požadované číslo objednávky (najspoľahlivejšie)
+// - 'email'          - žiadne číslo sa nepýtalo, najnovšia objednávka daného emailu
+// - 'email-fallback' - číslo BOLO požadované, ale v exporte sa nenašlo (napr. stornovaná
+//                       objednávka mimo exportu) - toto NIE JE odpoveď na pôvodnú otázku,
+//                       len najbližší dostupný kontext, treba to takto aj prezentovať
+// - 'none'           - nič sa nenašlo
 function findOrder(orders, { email, orderCode } = {}) {
   if (orderCode) {
     const byCode = orders.find((o) => field(o, 'CODE') === String(orderCode));
-    if (byCode) return byCode;
+    if (byCode) return { order: byCode, matchedBy: 'code' };
   }
   if (email) {
     const matches = orders
       .filter((o) => field(o.CUSTOMER, 'EMAIL').toLowerCase() === email.toLowerCase())
       .sort((a, b) => new Date(field(b, 'DATE')) - new Date(field(a, 'DATE')));
-    if (matches.length) return matches[0];
+    if (matches.length) return { order: matches[0], matchedBy: orderCode ? 'email-fallback' : 'email' };
   }
-  return null;
+  return { order: null, matchedBy: 'none' };
 }
 
 function summarizeOrder(order) {
@@ -66,8 +72,8 @@ if (require.main === module) {
     console.log(`Načítaných ${orders.length} objednávok.`);
     const email = process.argv[2];
     if (email) {
-      const order = findOrder(orders, { email });
-      console.log(`Najnovšia objednávka pre ${email}:`, summarizeOrder(order));
+      const { order, matchedBy } = findOrder(orders, { email });
+      console.log(`Najnovšia objednávka pre ${email} (${matchedBy}):`, summarizeOrder(order));
     }
   })().catch((err) => {
     console.error('Chyba:', err.message);

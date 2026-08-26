@@ -27,7 +27,11 @@ const SYSTEM_SENDER_PATTERNS = [
   /@shoptet\.sk$/i,
   /@innpro\.(sk|pl)$/i,
   /@slposta\.sk$/i,
+  /@basys\.cz$/i, // dodávateľ BASYS - komunikácia o vlastných objednávkach u nich, nie zákaznícka podpora
+  /@k-b\.sk$/i, // dodávateľ K+B - to isté
   /^premiumstore@premiumstore\.sk$/i, // vlastná adresa - kópie/forwardy sebe
+  // TODO: doplniť domény zvyšných dodávateľov (ATOS, MONACOR, Solight, Penta, WiiM),
+  // len čo sa potvrdia - viď poznámka v zhrnutí pre používateľa.
 ];
 
 // "Re:" na pôvodný mail o objednávke (predmet obsahuje "objednávk...")
@@ -99,7 +103,7 @@ async function main() {
       if (!looksLikeCustomerQuery(subject, bodyText)) continue;
 
       const orderNumber = extractOrderNumber(subject, bodyText);
-      const order = findOrder(orders, { email: fromAddr, orderCode: orderNumber });
+      const { order, matchedBy } = findOrder(orders, { email: fromAddr, orderCode: orderNumber });
 
       candidates.push({
         seq: msg.seq,
@@ -108,6 +112,7 @@ async function main() {
         subject,
         orderNumber,
         matchedOrder: summarizeOrder(order),
+        matchedBy,
       });
     }
   } finally {
@@ -119,9 +124,14 @@ async function main() {
   console.log(`Prezretých ${scanned} správ, nájdených ${candidates.length} pravdepodobných zákazníckych dotazov:\n`);
   for (const c of candidates) {
     console.log(`#${c.seq} | ${c.date ? c.date.toISOString() : '?'} | ${c.from} | "${c.subject}"`);
-    if (c.matchedOrder) {
+    if (c.matchedBy === 'code' || c.matchedBy === 'email') {
+      const o = c.matchedOrder;
+      console.log(`   -> objednávka ${o.code} | stav: ${o.status} | ${o.totalWithVat} ${o.currency} | ${o.date}`);
+    } else if (c.matchedBy === 'email-fallback') {
+      const o = c.matchedOrder;
       console.log(
-        `   -> objednávka ${c.matchedOrder.code} | stav: ${c.matchedOrder.status} | ${c.matchedOrder.totalWithVat} ${c.matchedOrder.currency} | ${c.matchedOrder.date}`
+        `   -> POZOR: objednávka ${c.orderNumber} spomenutá v maile sa v exporte nenašla (možno stornovaná/mimo exportu). ` +
+          `Najnovšia objednávka tohto zákazníka je ${o.code} (stav: ${o.status}) - NEMUSÍ to byť tá, na ktorú sa pýta.`
       );
     } else {
       console.log(`   -> objednávka sa nenašla (rozpoznané číslo: ${c.orderNumber || 'žiadne'})`);
