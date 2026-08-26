@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600096,
+    "nextCardNumber": 202600103,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -572,6 +572,48 @@
         "nazov": "NEEWER LS-300 300W",
         "dodavatel": "innpro",
         "code": "083754"
+      },
+      "8592718034795": {
+        "kod": "202600096",
+        "nazov": "Predlžovací prívod 5m,",
+        "dodavatel": "solight",
+        "code": "PP73X"
+      },
+      "8592718042042": {
+        "kod": "202600097",
+        "nazov": "Lokátor na bicykel, Find My kompatibilný",
+        "dodavatel": "solight",
+        "code": "TR01"
+      },
+      "8592718027094": {
+        "kod": "202600098",
+        "nazov": "Flexo šnúra, 10m, 3 x",
+        "dodavatel": "solight",
+        "code": "PF61"
+      },
+      "8592718013226": {
+        "kod": "202600099",
+        "nazov": "LED svetelný pás s testrom, 5m, sada s",
+        "dodavatel": "solight",
+        "code": "WM50-65T"
+      },
+      "8592718035778": {
+        "kod": "202600100",
+        "nazov": "LED stmievateľná stolná lampička s klipom, 300lm, nastaviteľná teplota",
+        "dodavatel": "solight",
+        "code": "WO66-B"
+      },
+      "8592718022693": {
+        "kod": "202600101",
+        "nazov": "Bezdrôtový senzor k meteostaniciam TE81, TE81W, TE81XL,",
+        "dodavatel": "solight",
+        "code": "TE8S"
+      },
+      "8592718036850": {
+        "kod": "202600102",
+        "nazov": "kúpeľňový radiátor",
+        "dodavatel": "solight",
+        "code": "TZ01-500"
       }
     }
   },
