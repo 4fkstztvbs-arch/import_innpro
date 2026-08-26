@@ -239,6 +239,39 @@ nový Heureka CPC report, spracovať rovnakou metodikou ako 4.6, a podľa **reá
 rozhodnúť — ponechať odkryté, rozšíriť pilot na ďalšie kategórie/dodávateľov, alebo vrátiť späť.
 Nenechávať bežať donekonečna na tom istom netestovanom predpoklade, ktorý mal práve tento pilot overiť.
 
+### 4.8 Ignorované kategórie — oprava príliš všeobecných názvov (`scripts/fix-ignored-categories.js`, od 2026-08-26)
+
+Heureka poslala report "Ignorované kategórie" (dôvod: **"Nepresný alebo nezaraditeľný názov
+kategórie"**) — 131 kategórií, 597 produktov. Ide o iný problém než 4.5 (nespárované produkty):
+tu Heureka odmieta produkt zaradiť do svojho stromu vôbec, lebo posledný (list) segment našej
+`<CATEGORY>` cesty nehovorí, o aký typ produktu ide — všeobecné slová ako "Doplnky", "Ostatné",
+"Príslušenstvo", "Iné", alebo bratovský žargón bez kontextu ("JTS", "Statívy/držiaky"). Overené:
+deje sa to **aj** keď má produkt už nastavené `HEUREKA_CATEGORY_ID` (skúsili sme `TV, audio a
+video > Audio technika > Stojany`, ktoré má ID 811 a napriek tomu bolo v reporte) — takže
+`HEUREKA_CATEGORY_ID` sám o sebe tento problém nerieši, treba opraviť priamo text `<CATEGORY>`.
+
+Drvivá väčšina (radovo 85 % produktov v reporte) pochádza z vetvy **Profesionálna audio
+technika** (MONACOR feed) — `transform-monacor.js` posiela kategórie z dodávateľského feedu
+takmer bez úprav (žiadny `*-mapping.json`, žiadne `resolve-category.js` hradlo), takže surové
+skratkovité názvy z pulsepro.audio idú do XML 1:1. Zvyšok je najmä InnPro (Kreatívne technológie,
+Fotovoltaika a energie, Šport/hračky).
+
+**Riešenie:** `scripts/fix-ignored-categories.js` — rovnaký vzor ako `collapse-duplicate-categories.js`
+(prepisuje hotové `output/*.xml` textovo, beží v každom `*-sync.yml` hneď po ňom), s ručne
+vytvoreným `RENAME_MAP` (70 ciest, list premenovaný tak, aby sám o sebe niesol typ produktu —
+napr. `TV, audio a video > Audio technika > Doplnky` → `... > Príslušenstvo k audio technike`,
+`Náradie a dielňa > Meracie nástroje` → `... > Meracie prístroje`) a `DROP_LIST` pre 3 čisto
+marketingové pseudo-kategórie bez reálneho typu produktu (`Nové produkty`, `Výpredaj`, `Špeciálna
+ponuka + Akciové sety` — tie sa z `<CATEGORIES>` len vynechajú, produkt si necháva ostatné svoje
+kategórie). Prvý beh na aktuálnom `output/*.xml`: 2 473 prepísaných záznamov kategórií naprieč
+6 dodávateľmi (širší záber než report, lebo report zachytáva len časť katalógu za dané obdobie).
+
+Kategórie, ktoré už samé osebe pomerne jasne pomenúvajú typ produktu (napr. `Moving Heads Wash`,
+`DI boxy a transformátory`, `Chrániče sluchu`) boli v reporte tiež, ale zámerne nechané bez zásahu
+— pravdepodobne ide o odborný/žargónový výraz, ktorý Heureka nevie rozpoznať vo svojom vlastnom
+slovníku, nie o skutočne "neurčitý" názov; opravovať tieto by si vyžadovalo priamu spätnú väzbu
+od Heureky (ktoré presné slovo by uznali), nie hádanie naslepo.
+
 ## 5. Obrázky
 
 | Dodávateľ | Zdroj obrázkov |
@@ -301,4 +334,8 @@ cloudflare-worker/                   Cloudflare Worker (caching proxy pred atose
 .github/workflows/deploy-atos-image-proxy.yml   automatický deploy Workera pri zmene v cloudflare-worker/
 data/solight-image-checks/           kontrolné body postupného dobiehania Solight obrázkov v Shoptete (sekcia 7, bod 2)
 .github/workflows/heureka-price-report.yml   plán denného behu (21:00 UTC)
+scripts/collapse-duplicate-categories.js     zlúčenie duplicitných/vnorených kategórií (pozri hlavičku súboru)
+scripts/fix-ignored-categories.js            oprava príliš všeobecných názvov kategórií pre Heureku (sekcia 4.8)
+scripts/resolve-category.js                  hradlo proti nekontrolovanému rastu stromu kategórií (ATOS/InnPro/K+B/Solight)
+data/known-categories.json                   snapshot živého Shoptet stromu kategórií, zdroj pravdy pre resolve-category.js
 ```

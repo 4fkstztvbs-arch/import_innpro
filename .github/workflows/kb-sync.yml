@@ -59,6 +59,9 @@ jobs:
       - name: Collapse duplicate categories
         run: node scripts/collapse-duplicate-categories.js
 
+      - name: Fix ignored categories (Heureka)
+        run: node scripts/fix-ignored-categories.js
+
       - name: Commit updated output
         run: |
           git config user.name "kb-sync-bot"
