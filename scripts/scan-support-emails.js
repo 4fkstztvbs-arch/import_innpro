@@ -83,43 +83,56 @@ async function main() {
     logger: false,
   });
 
-  await client.connect();
-  const lock = await client.getMailboxLock('INBOX');
-
   const candidates = [];
   let scanned = 0;
+  let skippedOnError = 0;
   try {
-    const status = await client.status('INBOX', { messages: true });
-    const from = Math.max(1, status.messages - SCAN_LIMIT + 1);
+    await client.connect();
+    const lock = await client.getMailboxLock('INBOX');
+    try {
+      const status = await client.status('INBOX', { messages: true });
+      const from = Math.max(1, status.messages - SCAN_LIMIT + 1);
 
-    for await (const msg of client.fetch(`${from}:*`, { source: true })) {
-      scanned += 1;
-      const parsed = await simpleParser(msg.source);
-      const fromAddr = parsed.from?.value?.[0]?.address || '';
-      if (isSystemSender(fromAddr)) continue;
+      for await (const msg of client.fetch(`${from}:*`, { source: true })) {
+        scanned += 1;
+        try {
+          const parsed = await simpleParser(msg.source);
+          const fromAddr = parsed.from?.value?.[0]?.address || '';
+          if (isSystemSender(fromAddr)) continue;
 
-      const subject = parsed.subject || '';
-      const bodyText = parsed.text || '';
-      if (!looksLikeCustomerQuery(subject, bodyText)) continue;
+          const subject = parsed.subject || '';
+          const bodyText = parsed.text || '';
+          if (!looksLikeCustomerQuery(subject, bodyText)) continue;
 
-      const orderNumber = extractOrderNumber(subject, bodyText);
-      const { order, matchedBy } = findOrder(orders, { email: fromAddr, orderCode: orderNumber });
+          const orderNumber = extractOrderNumber(subject, bodyText);
+          const { order, matchedBy } = findOrder(orders, { email: fromAddr, orderCode: orderNumber });
 
-      candidates.push({
-        seq: msg.seq,
-        date: parsed.date,
-        from: fromAddr,
-        subject,
-        orderNumber,
-        matchedOrder: summarizeOrder(order),
-        matchedBy,
-      });
+          candidates.push({
+            seq: msg.seq,
+            date: parsed.date,
+            from: fromAddr,
+            subject,
+            orderNumber,
+            matchedOrder: summarizeOrder(order),
+            matchedBy,
+          });
+        } catch (perMessageErr) {
+          // Jedna poškodená/nezvyčajná správa nesmie zhodiť celý sken - preskočiť a ísť ďalej.
+          skippedOnError += 1;
+          console.warn(`   (správa #${msg.seq} sa nedala spracovať: ${perMessageErr.message} - preskakujem)`);
+        }
+      }
+    } finally {
+      lock.release();
     }
   } finally {
-    lock.release();
+    // Odhlásiť sa aj keď sken vyššie zlyhal, aby sa nenechávalo visieť pripojenie.
+    await client.logout().catch(() => {});
   }
 
-  await client.logout();
+  if (skippedOnError > 0) {
+    console.warn(`Preskočených ${skippedOnError} správ pre chybu pri spracovaní.`);
+  }
 
   console.log(`Prezretých ${scanned} správ, nájdených ${candidates.length} pravdepodobných zákazníckych dotazov:\n`);
   for (const c of candidates) {
@@ -140,6 +153,12 @@ async function main() {
 }
 
 main().catch((err) => {
+  // ImapFlow vie vyhodiť len strohé "Command failed" - vypísať všetko dostupné
+  // (kód, IMAP response, stack), nech sa dá pri ďalšom zlyhaní rovno diagnostikovať.
   console.error('Chyba pri skenovaní schránky:', err.message);
+  if (err.code) console.error('  kód:', err.code);
+  if (err.response) console.error('  IMAP odpoveď:', err.response);
+  if (err.responseText) console.error('  IMAP text:', err.responseText);
+  if (err.stack) console.error(err.stack);
   process.exit(1);
 });
