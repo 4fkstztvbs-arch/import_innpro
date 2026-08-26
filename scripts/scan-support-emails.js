@@ -1,18 +1,17 @@
 #!/usr/bin/env node
 'use strict';
 
-// Read-only krok č. 2: prejde posledných SCAN_LIMIT správ v INBOXe, odfiltruje
-// automatické systémové maily (Shoptet, dodávatelia, kuriéri) a z ostatných vyberie
-// tie, čo vyzerajú ako zákaznícky dotaz na objednávku - buď odpoveď na mail o
-// objednávke, alebo obsahujú kľúčové slová typu "stav objednávky". Ku každému
-// takému dotazu skúsi dohľadať objednávku v orders.xml podľa emailu/čísla objednávky.
+// Read-only krok č. 2: prejde posledných SCAN_LIMIT správ v INBOXe a vypíše, ktoré
+// vyzerajú ako zákaznícky dotaz na objednávku (filter + lookup logika je v
+// scripts/lib/order-email-filter.js - zdieľaná s draft-order-replies.js, aby sa
+// nerozišli dve kópie tej istej logiky).
 //
-// Zatiaľ nič neposiela, nič neoznačuje ako prečítané - len vypisuje nálezy na overenie
-// filtra pred tým, ako sa na to naviaže generovanie odpovedí.
+// Nič neposiela, nič neoznačuje ako prečítané - len na overenie filtra.
 
 const { ImapFlow } = require('imapflow');
 const { simpleParser } = require('mailparser');
-const { fetchOrders, findOrder, summarizeOrder } = require('./fetch-orders');
+const { fetchOrders } = require('./fetch-orders');
+const { scanInboxForOrderQueries } = require('./lib/order-email-filter');
 
 const IMAP_HOST = process.env.SEZNAM_IMAP_HOST || 'imap.seznam.cz';
 const IMAP_PORT = Number(process.env.SEZNAM_IMAP_PORT || 993);
@@ -20,48 +19,6 @@ const IMAP_USER = process.env.SEZNAM_IMAP_USER;
 const IMAP_PASSWORD = process.env.SEZNAM_IMAP_PASSWORD;
 const ORDERS_XML_URL = process.env.ORDERS_XML_URL;
 const SCAN_LIMIT = Number(process.env.SCAN_LIMIT || 50);
-
-// Odosielatelia, ktorí posielajú automatické systémové maily, nie zákaznícke otázky.
-// Dopĺňať podľa toho, čo sa v praxi objaví ako falošný zásah.
-const SYSTEM_SENDER_PATTERNS = [
-  /@shoptet\.sk$/i,
-  /@innpro\.(sk|pl)$/i,
-  /@slposta\.sk$/i,
-  /@basys\.cz$/i, // dodávateľ BASYS - komunikácia o vlastných objednávkach u nich, nie zákaznícka podpora
-  /@k-b\.sk$/i, // dodávateľ K+B - to isté
-  /^premiumstore@premiumstore\.sk$/i, // vlastná adresa - kópie/forwardy sebe
-  // TODO: doplniť domény zvyšných dodávateľov (ATOS, MONACOR, Solight, Penta, WiiM),
-  // len čo sa potvrdia - viď poznámka v zhrnutí pre používateľa.
-];
-
-// "Re:" na pôvodný mail o objednávke (predmet obsahuje "objednávk...")
-const ORDER_SUBJECT_RE = /objedn[áa]vk/i;
-// Priame dotazy aj bez odpovede na konkrétny mail
-const ORDER_KEYWORD_RE =
-  /\b(stav objedn[áa]vky|kde je (moja )?objedn[áa]vka|sledovanie z[áa]sielky|reklam[áa]cia|vr[áa]tenie tovaru|storno|nedostal|nepri[šs]lo|meškanie|dorucen)\b/i;
-// Číslo objednávky vo formáte použitom v orders.xml - 9 číslic, "20" + rok + 5-miestne
-// poradové číslo (napr. 202600658). Predošlá verzia čakala 8 číslic a nikdy sa netrafila -
-// každý doterajší "match podľa čísla" bol v skutočnosti len zhoda cez email.
-const ORDER_NUMBER_RE = /\b(20\d{7})\b/;
-
-function isSystemSender(addr) {
-  if (!addr) return false;
-  return SYSTEM_SENDER_PATTERNS.some((re) => re.test(addr));
-}
-
-function looksLikeCustomerQuery(subject, bodyText) {
-  const isReply = /^re:/i.test((subject || '').trim());
-  const subjectMentionsOrder = ORDER_SUBJECT_RE.test(subject || '');
-  const keywordHit = ORDER_KEYWORD_RE.test(subject || '') || ORDER_KEYWORD_RE.test(bodyText || '');
-  return (isReply && subjectMentionsOrder) || keywordHit;
-}
-
-function extractOrderNumber(subject, bodyText) {
-  const fromSubject = subject && subject.match(ORDER_NUMBER_RE);
-  if (fromSubject) return fromSubject[1];
-  const fromBody = bodyText && bodyText.match(ORDER_NUMBER_RE);
-  return fromBody ? fromBody[1] : null;
-}
 
 async function main() {
   if (!IMAP_USER || !IMAP_PASSWORD) {
@@ -85,55 +42,25 @@ async function main() {
     logger: false,
   });
 
-  const candidates = [];
+  let candidates = [];
   let scanned = 0;
-  let skippedOnError = 0;
   try {
     await client.connect();
     const lock = await client.getMailboxLock('INBOX');
     try {
-      const status = await client.status('INBOX', { messages: true });
-      const from = Math.max(1, status.messages - SCAN_LIMIT + 1);
-
-      for await (const msg of client.fetch(`${from}:*`, { source: true })) {
-        scanned += 1;
-        try {
-          const parsed = await simpleParser(msg.source);
-          const fromAddr = parsed.from?.value?.[0]?.address || '';
-          if (isSystemSender(fromAddr)) continue;
-
-          const subject = parsed.subject || '';
-          const bodyText = parsed.text || '';
-          if (!looksLikeCustomerQuery(subject, bodyText)) continue;
-
-          const orderNumber = extractOrderNumber(subject, bodyText);
-          const { order, matchedBy } = findOrder(orders, { email: fromAddr, orderCode: orderNumber });
-
-          candidates.push({
-            seq: msg.seq,
-            date: parsed.date,
-            from: fromAddr,
-            subject,
-            orderNumber,
-            matchedOrder: summarizeOrder(order),
-            matchedBy,
-          });
-        } catch (perMessageErr) {
-          // Jedna poškodená/nezvyčajná správa nesmie zhodiť celý sken - preskočiť a ísť ďalej.
-          skippedOnError += 1;
-          console.warn(`   (správa #${msg.seq} sa nedala spracovať: ${perMessageErr.message} - preskakujem)`);
-        }
-      }
+      const result = await scanInboxForOrderQueries(client, orders, {
+        limit: SCAN_LIMIT,
+        simpleParser,
+        onSkip: (seq, err) => console.warn(`   (správa #${seq} sa nedala spracovať: ${err.message} - preskakujem)`),
+      });
+      candidates = result.candidates;
+      scanned = result.scanned;
     } finally {
       lock.release();
     }
   } finally {
     // Odhlásiť sa aj keď sken vyššie zlyhal, aby sa nenechávalo visieť pripojenie.
     await client.logout().catch(() => {});
-  }
-
-  if (skippedOnError > 0) {
-    console.warn(`Preskočených ${skippedOnError} správ pre chybu pri spracovaní.`);
   }
 
   console.log(`Prezretých ${scanned} správ, nájdených ${candidates.length} pravdepodobných zákazníckych dotazov:\n`);

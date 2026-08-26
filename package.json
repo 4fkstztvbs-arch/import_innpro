@@ -9,17 +9,20 @@
     "heureka-price-daily": "node scripts/process-heureka-report.js",
     "heureka-unmatched": "node scripts/process-heureka-unmatched.js",
     "check-inbox": "node scripts/check-support-inbox.js",
-    "scan-support-emails": "node scripts/scan-support-emails.js"
+    "scan-support-emails": "node scripts/scan-support-emails.js",
+    "draft-order-replies": "node scripts/draft-order-replies.js"
   },
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.120.0",
     "csv-parse": "^7.0.2",
     "fast-xml-parser": "^5.10.1",
     "he": "^1.2.0",
     "iconv-lite": "^0.7.3",
     "imapflow": "^1.7.6",
     "mailparser": "^3.9.16",
+    "nodemailer": "^9.0.5",
     "pdfjs-dist": "^6.2.108",
     "sax": "^1.6.1"
   }

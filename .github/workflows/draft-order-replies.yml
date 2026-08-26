@@ -1,0 +1,55 @@
+name: Draft order replies
+
+# Krok č. 3: pre nové zákaznícke maily o objednávkach vygeneruje cez Claude návrh
+# odpovede a uloží ho do priečinka Drafts na obchod@premiumstore.sk - NIKDY nič
+# neodosiela automaticky. Drží si stav spracovaných mailov v
+# data/drafted-order-emails.json (commitovaný do repa), aby sa ten istý mail
+# neprekladal do draftu opakovane. Zatiaľ len workflow_dispatch, kým sa neoverí
+# kvalita návrhov na živej schránke - cron sa zapne až potom.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Generate draft replies for new customer order emails
+        env:
+          SEZNAM_IMAP_USER: ${{ secrets.SEZNAM_IMAP_USER }}
+          SEZNAM_IMAP_PASSWORD: ${{ secrets.SEZNAM_IMAP_PASSWORD }}
+          ORDERS_XML_URL: ${{ secrets.ORDERS_XML_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/draft-order-replies.js
+
+      - name: Commit updated draft-tracking state
+        run: |
+          git config user.name "draft-order-replies-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/drafted-order-emails.json
+          git diff --staged --quiet && echo "No changes" || git commit -m "Aktualizácia stavu vygenerovaných draftov $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            echo "Push failed (attempt $i) - retrying in $((i*8))s..."
+            sleep $((i*8))
+            if [ "$i" = "5" ]; then
+              echo "::error::Push failed after 5 attempts"
+              exit 1
+            fi
+          done
