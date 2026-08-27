@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600103,
+    "nextCardNumber": 202600111,
     "cards": {
       "0608887786774": {
         "kod": "202600001",
@@ -614,6 +614,54 @@
         "nazov": "kúpeľňový radiátor",
         "dodavatel": "solight",
         "code": "TZ01-500"
+      },
+      "6972860179162": {
+        "kod": "202600103",
+        "nazov": "GoPro HERO 9/8/Max T10",
+        "dodavatel": "innpro",
+        "code": "031873"
+      },
+      "6957141409152": {
+        "kod": "202600104",
+        "nazov": "QCY HT08 TWS Bluetooth",
+        "dodavatel": "innpro",
+        "code": "069216"
+      },
+      "6975116292745": {
+        "kod": "202600105",
+        "nazov": "Rojeco PD5211000m Dog",
+        "dodavatel": "innpro",
+        "code": "074230"
+      },
+      "0810194781049": {
+        "kod": "202600106",
+        "nazov": "X-Sense XS01-WX Smoke",
+        "dodavatel": "innpro",
+        "code": "079327"
+      },
+      "6976021769704": {
+        "kod": "202600107",
+        "nazov": "ELEGOO PETG Pro",
+        "dodavatel": "innpro",
+        "code": "079516"
+      },
+      "6976297860938": {
+        "kod": "202600108",
+        "nazov": "Mini Air Pump Cycplus",
+        "dodavatel": "innpro",
+        "code": "083111"
+      },
+      "6971131382539": {
+        "kod": "202600109",
+        "nazov": "Router GL.iNet GL-SFT1200",
+        "dodavatel": "innpro",
+        "code": "090434"
+      },
+      "6971337725949": {
+        "kod": "202600110",
+        "nazov": "EMEET SmartCam C960",
+        "dodavatel": "innpro",
+        "code": "091810"
       }
     }
   },
