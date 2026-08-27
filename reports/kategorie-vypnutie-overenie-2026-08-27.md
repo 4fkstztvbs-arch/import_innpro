@@ -6,84 +6,588 @@ zahodí všetko, čo nie je skladom), pričom v eshope tie produkty ďalej exist
 pridané ručne alebo vypadnuté z feedu v XML nikdy neboli. Preto sa každý kandidát (a celý jeho
 podstrom) overuje priamo na živej kategórii.
 
-- Kandidátov pôvodne: **1133**
+- Kandidátov pôvodne: **1638**
 - Overene prázdnych (ostávajú v CSV na vypnutie): **252**
-- Falošne označených, v skutočnosti majú produkty (odstránené): **881**
+- Falošne označených, v skutočnosti majú produkty (odstránené): **1386**
 
 ## Falošne označené — majú produkty v eshope, NEvypínať
 
 | Kategória | Produktov (vlastných / celý podstrom) | URL |
 |---|---|---|
+| Elektroinštalačný materiál > Predlžovacie káble a zásuvky | 12 / 123 | https://www.premiumstore.sk/predlzovacie-kable-a-zasuvky/ |
 | TV, audio a video > Slúchadlá | 12 / 53 | https://www.premiumstore.sk/sluchadla/ |
+| Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Viaczásuvkové | 12 / 36 | https://www.premiumstore.sk/viaczasuvkove/ |
+| Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Jednozásuvkové | 12 / 28 | https://www.premiumstore.sk/jednozasuvkove/ |
 | TV, audio a video > Mobily a tablety > Smart hodinky | 12 / 25 | https://www.premiumstore.sk/smart-hodinky-2/ |
+| Profesionálna audio technika > Car audio | 12 / 23 | https://www.premiumstore.sk/car-audio/ |
+| TV, audio a video > Mobily a tablety > Kable USB I > 3v1 Micro | 6 / 18 | https://www.premiumstore.sk/3v1-micro/ |
+| Profesionálna audio technika > Svetlá > Lasery | 12 / 18 | https://www.premiumstore.sk/lasery/ |
+| Šport, hračky a voľný čas > Mikroskopy | 6 / 15 | https://www.premiumstore.sk/mikroskopy/ |
+| Zdravie a starostlivosť > Starostlivosť o dieťa | 7 / 14 | https://www.premiumstore.sk/starostlivost-o-dieta/ |
+| Náradie a dielňa > Dielenské vybavenie > Kufre a organizéry na náradie | 7 / 14 | https://www.premiumstore.sk/kufre-a-organizery-na-naradie/ |
+| Náradie a dielňa > Mechanické náradie > Nože a nožnice | 7 / 14 | https://www.premiumstore.sk/noze-a-noznice/ |
+| Náradie a dielňa > Pneumatické náradie > Príslušenstvo k pneu náradie | 7 / 14 | https://www.premiumstore.sk/prislusenstvo-k-pneu-naradie/ |
+| Elektroinštalačný materiál > Komponenty pre svietidlá > Svorky pre průmyslová svietidlá | 5 / 14 | https://www.premiumstore.sk/svorky-pre-prumyslova-svietidla/ |
 | Profesionálna audio technika > Svetlá > Reflektory PAR | 12 / 14 | https://www.premiumstore.sk/reflektory-par/ |
+| Auto-moto > Karavany a obytná autá > Mobilné TV a SAT antény | 7 / 14 | https://www.premiumstore.sk/mobilne-tv-a-sat-anteny-2/ |
+| TV, audio a video > Počítače a príslušenstvo > Tlačiarne a skenery > Príslušenstvo - tlačiarne | 7 / 13 | https://www.premiumstore.sk/prislusenstvo-tlaciarne/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > Domové videotelefony | 7 / 13 | https://www.premiumstore.sk/domove-videotelefony/ |
+| Náradie a dielňa > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie > Píly | 6 / 13 | https://www.premiumstore.sk/pily-3/ |
 | TV, audio a video > Príslušenstvo | 0 / 12 | https://www.premiumstore.sk/prislusenstvo-10/ |
+| TV, audio a video > Audio technika > HiFi systémy | 6 / 12 | https://www.premiumstore.sk/hifi-systemy/ |
 | TV, audio a video > Audio technika > Stojany | 12 / 12 | https://www.premiumstore.sk/stojany-2/ |
 | TV, audio a video > Audio technika > Doplnky | 12 / 12 | https://www.premiumstore.sk/doplnky/ |
+| Domáce spotrebiče > Malé spotrebiče > Dezinfekčné lampy | 6 / 12 | https://www.premiumstore.sk/dezinfekcne-lampy/ |
 | TV, audio a video > Slúchadlá > Drátová | 12 / 12 | https://www.premiumstore.sk/dratova/ |
 | TV, audio a video > Slúchadlá > True Bezdrôtové | 12 / 12 | https://www.premiumstore.sk/true-bezdrotove/ |
 | TV, audio a video > Slúchadlá > Bezdrátová | 12 / 12 | https://www.premiumstore.sk/bezdratova/ |
+| Záhrada > Záhradné potreby | 4 / 12 | https://www.premiumstore.sk/zahradne-potreby/ |
 | Bezpečnosť a smart domácnosť > Smart domácnosť > Zásuvky | 12 / 12 | https://www.premiumstore.sk/zasuvky-2/ |
+| TV, audio a video > Počítače a príslušenstvo > Monitory > Plátna a projektory | 6 / 12 | https://www.premiumstore.sk/platna-a-projektory/ |
 | Fotovoltaika a energie > Nabíjačky > Powerbanky | 12 / 12 | https://www.premiumstore.sk/powerbanky/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Držiaky | 12 / 12 | https://www.premiumstore.sk/drziaky/ |
 | Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Fotovoltaické káble | 12 / 12 | https://www.premiumstore.sk/fotovoltaicke-kable-2/ |
+| Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Mercedes-Benz | 6 / 12 | https://www.premiumstore.sk/auto-koberce-mercedes-benz/ |
+| Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Renault | 6 / 12 | https://www.premiumstore.sk/auto-koberce-renault/ |
 | Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál > Silové káble | 12 / 12 | https://www.premiumstore.sk/silove-kable-3/ |
+| Náradie a dielňa > Stavebné a maliarske náradie > Obkladačské práce | 6 / 12 | https://www.premiumstore.sk/obkladacske-prace/ |
+| TV, audio a video > Antény a satelity > ZOSILŇOVAČE > HLAVNÍ STANICE | 4 / 12 | https://www.premiumstore.sk/hlavni-stanice/ |
+| Elektroinštalačný materiál > Ventilačné technika > Talířové ventily a difuzéry | 6 / 12 | https://www.premiumstore.sk/talirove-ventily-a-difuzery/ |
 | TV, audio a video > Audio technika > Reproduktory > Soundbary | 12 / 12 | https://www.premiumstore.sk/soundbary-2/ |
+| TV, audio a video > Mobily a tablety > Kable USB I > 3v1 Micro > USB-C | 6 / 12 | https://www.premiumstore.sk/usb-c/ |
 | TV, audio a video > Mobily a tablety > Smart hodinky > Smart prstene | 12 / 12 | https://www.premiumstore.sk/smart-prstene-2/ |
+| Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Iné 100V zariadenia | 7 / 12 | https://www.premiumstore.sk/ine-100v-zariadenia/ |
 | Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Výsuvné a vstavané zásuvky | 12 / 12 | https://www.premiumstore.sk/vysuvne-a-vstavane-zasuvky/ |
 | Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Navíjacie bubny | 12 / 12 | https://www.premiumstore.sk/navijacie-bubny/ |
 | Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Prepäťové ochrany | 12 / 12 | https://www.premiumstore.sk/prepatove-ochrany-3/ |
 | Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Viaczásuvkové > Ostatné | 12 / 12 | https://www.premiumstore.sk/ostatne-28/ |
 | Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Viaczásuvkové > Klasické | 12 / 12 | https://www.premiumstore.sk/klasicke/ |
+| TV, audio a video > AV káble > Anténa > Anténne káble | 6 / 12 | https://www.premiumstore.sk/antenne-kable/ |
 | Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Jednozásuvkové > Jednozásuvkové 230V | 12 / 12 | https://www.premiumstore.sk/jednozasuvkove-230v/ |
+| Náradie a dielňa > Náradie > Aku náradie | 7 / 11 | https://www.premiumstore.sk/aku-naradie/ |
+| Šport, hračky a voľný čas > Hudební nástroje | 6 / 11 | https://www.premiumstore.sk/hudebni-nastroje/ |
+| TV, audio a video > Audio technika > Reproduktory > Subwoofery | 11 / 11 | https://www.premiumstore.sk/subwoofery-2/ |
+| Profesionálna audio technika > Reproduktory > Príslušenstvo k reproduktorom > iné | 11 / 11 | https://www.premiumstore.sk/ine-8/ |
 | Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Záhradné stĺpiky | 11 / 11 | https://www.premiumstore.sk/zahradne-stlpiky/ |
+| TV, audio a video > Počítače a príslušenstvo > Káble | 5 / 10 | https://www.premiumstore.sk/kable-2/ |
+| Šport, hračky a voľný čas > Hračky > Hračky pre kluky | 5 / 10 | https://www.premiumstore.sk/hracky-pre-kluky/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Exteriér | 5 / 10 | https://www.premiumstore.sk/exterier-2/ |
+| TV, audio a video > Antény a satelity > CAM dekodéry a karty | 5 / 10 | https://www.premiumstore.sk/cam-dekodery-a-karty/ |
+| Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Volkswagen | 5 / 10 | https://www.premiumstore.sk/auto-koberce-volkswagen/ |
+| Auto-moto > Vybavenie auta > Autokoberce > Auto koberce BMW | 5 / 10 | https://www.premiumstore.sk/auto-koberce-bmw/ |
+| Náradie a dielňa > Mechanické náradie > Kliešte > Kliešte štiepacie | 5 / 10 | https://www.premiumstore.sk/klieste-stiepacie/ |
+| Zdravie a starostlivosť > Matka a dieťa > Elektronické príslušenstvo | 5 / 10 | https://www.premiumstore.sk/elektronicke-prislusenstvo/ |
 | TV, audio a video > Audio technika > Zosilňovače | 9 / 9 | https://www.premiumstore.sk/zosilnovace-3/ |
+| Zdravie a starostlivosť > Sonické zubné kefky | 6 / 9 | https://www.premiumstore.sk/sonicke-zubne-kefky/ |
 | Profesionálna audio technika > Nové produkty | 9 / 9 | https://www.premiumstore.sk/nove-produkty/ |
+| Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče | 4 / 8 | https://www.premiumstore.sk/ostatne-spotrebice/ |
+| Domáce spotrebiče > Malé spotrebiče > Kuchynské roboty a krájače > Mlynčeky na mäso | 8 / 8 | https://www.premiumstore.sk/mlynceky-na-maso/ |
+| TV, audio a video > Počítače a príslušenstvo > Herné zariadenia > Herné konzoly | 4 / 8 | https://www.premiumstore.sk/herne-konzoly/ |
+| Náradie a dielňa > Náradie > Príslušenstvo pre stroje a náradie > Príslušenstvo AKU a Elektrické náradie > Príslušenstvo pre Brúsky | 4 / 8 | https://www.premiumstore.sk/prislusenstvo-pre-brusky/ |
+| Bezpečnosť a smart domácnosť > Smart domácnosť > Smart zabezpečenie | 4 / 8 | https://www.premiumstore.sk/smart-zabezpecenie/ |
+| Záhrada > Záhradné stroje > Čerpadlá | 4 / 8 | https://www.premiumstore.sk/cerpadla-2/ |
+| TV, audio a video > Antény a satelity > ZOSILŇOVAČE > HLAVNÍ STANICE > ALCAD | 4 / 8 | https://www.premiumstore.sk/alcad/ |
+| Auto-moto > Vybavenie auta > Osviežovače vzduchu > Vône Mr&Mrs CESARE | 8 / 8 | https://www.premiumstore.sk/vone-mr-mrs-cesare/ |
+| Elektroinštalačný materiál > Komponenty pre svietidlá > Objímky | 4 / 8 | https://www.premiumstore.sk/objimky/ |
+| Elektroinštalačný materiál > Komponenty pre svietidlá > Svorky pre průmyslová svietidlá > Svorky - SLK 3 | 4 / 8 | https://www.premiumstore.sk/svorky-slk-3/ |
+| Profesionálna audio technika > Car audio > Káble | 4 / 8 | https://www.premiumstore.sk/kable-4/ |
+| Profesionálna audio technika > Reproduktory > Príslušenstvo k reproduktorom > výhybky | 8 / 8 | https://www.premiumstore.sk/vyhybky-2/ |
+| Profesionálna audio technika > Reproduktory > Príslušenstvo k reproduktorom > ochranné grily | 8 / 8 | https://www.premiumstore.sk/ochranne-grily/ |
+| Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Meracie prístroje > Merače panelové | 8 / 8 | https://www.premiumstore.sk/merace-panelove/ |
+| Domáce spotrebiče > Malé spotrebiče > Príprava nápojov > Výrobníky sódy | 7 / 7 | https://www.premiumstore.sk/vyrobniky-sody/ |
+| TV, audio a video > Počítače a príslušenstvo > Adaptéry a meniče | 7 / 7 | https://www.premiumstore.sk/adaptery-a-menice/ |
+| TV, audio a video > Počítače a príslušenstvo > SSD disky | 7 / 7 | https://www.premiumstore.sk/ssd-disky/ |
+| TV, audio a video > Počítače a príslušenstvo > Sieťové prvky > Patch káble | 7 / 7 | https://www.premiumstore.sk/patch-kable/ |
+| TV, audio a video > Mobily a tablety > Tlačidlové telefóny | 7 / 7 | https://www.premiumstore.sk/tlacidlove-telefony/ |
+| TV, audio a video > Mobily a tablety > Smartfóny | 7 / 7 | https://www.premiumstore.sk/smartfony/ |
+| Zdravie a starostlivosť > Elektrické deky | 7 / 7 | https://www.premiumstore.sk/elektricke-deky/ |
+| Domáce spotrebiče > Vstavané spotrebiče > Digestory > Závesné digestory | 7 / 7 | https://www.premiumstore.sk/zavesne-digestory/ |
+| Domáce spotrebiče > Malé spotrebiče > Grily, pekárne, variče > Varné platne | 7 / 7 | https://www.premiumstore.sk/varne-platne/ |
+| Elektroinštalačný materiál > Osvetlenie > Ostatné žiarovky a žiarivky | 7 / 7 | https://www.premiumstore.sk/ostatne-ziarovky-a-ziarivky/ |
+| TV, audio a video > Mobily a tablety > Príslušenstvo > Ostatné príslušenstvo pre mobily | 7 / 7 | https://www.premiumstore.sk/ostatne-prislusenstvo-pre-mobily/ |
+| Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Doštičky, Podložky, Krájacie dosky | 7 / 7 | https://www.premiumstore.sk/dosticky--podlozky--krajacie-dosky/ |
+| Bezpečnosť a smart domácnosť > Smart domácnosť > Príslušenstvo | 7 / 7 | https://www.premiumstore.sk/prislusenstvo-14/ |
+| TV, audio a video > Foto a optika > Digitálne kompakty | 7 / 7 | https://www.premiumstore.sk/digitalne-kompakty/ |
+| Domáce spotrebiče > Veľké spotrebiče > Umývačky riadu > Umývačky riad 45 cm | 7 / 7 | https://www.premiumstore.sk/umyvacky-riad-45-cm/ |
+| Šport, hračky a voľný čas > Hračky > Stavebnice > Ostatné stavebnice | 7 / 7 | https://www.premiumstore.sk/ostatne-stavebnice/ |
+| TV, audio a video > Televízory > Televízory na 12V | 7 / 7 | https://www.premiumstore.sk/televizory-na-12v/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k multimediálnímu boxu | 7 / 7 | https://www.premiumstore.sk/ovladace-k-multimedialnimu-boxu/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > Zircon | 7 / 7 | https://www.premiumstore.sk/zircon-2/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > Technisat | 7 / 7 | https://www.premiumstore.sk/technisat-2/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > DIWAY | 7 / 7 | https://www.premiumstore.sk/diway/ |
+| Šport, hračky a voľný čas > Cyklistika > Ostatné cyklo doplnky | 7 / 7 | https://www.premiumstore.sk/ostatne-cyklo-doplnky/ |
+| Fotovoltaika a energie > Záložné zdroje a UPS > UPS | 7 / 7 | https://www.premiumstore.sk/ups/ |
+| Elektroinštalačný materiál > Káble a vodiče > Dvojlinky | 7 / 7 | https://www.premiumstore.sk/dvojlinky/ |
+| Elektroinštalačný materiál > Rozvádzačové prvky > Bloky pre rozdělení fází > Typ PVB ("hranaté") 160 - 500 A | 7 / 7 | https://www.premiumstore.sk/typ-pvb-hranate-160-500-a/ |
+| Fotovoltaika a energie > Akumulátory a batérie > AAA mikrotužkové | 7 / 7 | https://www.premiumstore.sk/aaa-mikrotuzkove/ |
+| Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Chráničky | 7 / 7 | https://www.premiumstore.sk/chranicky/ |
+| Záhrada > Záhradné doplnky > Doplnky na záhradu | 7 / 7 | https://www.premiumstore.sk/doplnky-na-zahradu/ |
+| Bezpečnosť a smart domácnosť > Zabezpečenie > Požarní hlásiče | 7 / 7 | https://www.premiumstore.sk/pozarni-hlasice/ |
+| Bezpečnosť a smart domácnosť > Zabezpečenie > Kamery | 7 / 7 | https://www.premiumstore.sk/kamery-3/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > Grundig | 7 / 7 | https://www.premiumstore.sk/grundig/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > JVC | 7 / 7 | https://www.premiumstore.sk/jvc/ |
+| TV, audio a video > AV káble > Optické káble | 7 / 7 | https://www.premiumstore.sk/opticke-kable/ |
+| TV, audio a video > AV káble > HDMI spojky a redukcie | 7 / 7 | https://www.premiumstore.sk/hdmi-spojky-a-redukcie/ |
+| TV, audio a video > AV káble > TV účastnické šnúry | 7 / 7 | https://www.premiumstore.sk/tv-ucastnicke-snury-2/ |
+| TV, audio a video > Antény a satelity > Koaxiálne káble > Kabel s F konektory | 7 / 7 | https://www.premiumstore.sk/kabel-s-f-konektory/ |
+| TV, audio a video > Antény a satelity > Koaxiálne káble > TV účastnické šnúry | 7 / 7 | https://www.premiumstore.sk/tv-ucastnicke-snury/ |
+| Elektroinštalačný materiál > Inštalačné náradie a ostatné materiál > Náradie pre fotovoltaiku | 7 / 7 | https://www.premiumstore.sk/naradie-pre-fotovoltaiku-2/ |
+| TV, audio a video > TV stolíky a držiaky > Držiaky monitorů | 7 / 7 | https://www.premiumstore.sk/drziaky-monitoru/ |
+| Auto-moto > Elektromobilita > Tesla | 7 / 7 | https://www.premiumstore.sk/tesla-3/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové kamery > 5.0 Mpix. | 7 / 7 | https://www.premiumstore.sk/5-0-mpix/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové kamery > 8.0 Mpix. (4K) | 7 / 7 | https://www.premiumstore.sk/8-0-mpix-4k/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Dreambox | 7 / 7 | https://www.premiumstore.sk/dreambox/ |
+| Auto-moto > Vybavenie auta > Stierače > Stierače HYBRID | 7 / 7 | https://www.premiumstore.sk/stierace-hybrid/ |
+| Auto-moto > Vybavenie auta > Stierače > Sady stieračov FLAT DOUBLE | 7 / 7 | https://www.premiumstore.sk/sady-stieracov-flat-double/ |
+| Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Poistky | 7 / 7 | https://www.premiumstore.sk/poistky-2/ |
+| Elektroinštalačný materiál > Inštalačné príslušenstvo > Organizéry káblov | 7 / 7 | https://www.premiumstore.sk/organizery-kablov/ |
+| Šport, hračky a voľný čas > Turistika > Karimatky, matrace, vankúše | 7 / 7 | https://www.premiumstore.sk/karimatky--matrace--vankuse/ |
+| Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál > Smršťovací bužírky | 7 / 7 | https://www.premiumstore.sk/smrstovaci-buzirky/ |
+| Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Chémia pre pájení | 7 / 7 | https://www.premiumstore.sk/chemia-pre-pajeni/ |
+| Náradie a dielňa > Stavebné a maliarske náradie > Nástroje > Lepící pásky | 7 / 7 | https://www.premiumstore.sk/lepici-pasky/ |
+| TV, audio a video > Antény a satelity > ZOSILŇOVAČE > Linkové | 7 / 7 | https://www.premiumstore.sk/linkove/ |
+| Záhrada > Záhradné doplnky > Pestovanie > Záhradné hnojivá > Krystalická hnojivá | 7 / 7 | https://www.premiumstore.sk/krystalicka-hnojiva/ |
+| TV, audio a video > Antény a satelity > SATELITNÉ PRIJÍMAČE > Wi-Fi adaptéry | 7 / 7 | https://www.premiumstore.sk/wi-fi-adaptery/ |
+| Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory podľa typové rady VENTS > Ventilátory - typ QUIET | 7 / 7 | https://www.premiumstore.sk/ventilatory-typ-quiet/ |
+| TV, audio a video > Antény a satelity > LNB konvertory > Quad 4 TV | 7 / 7 | https://www.premiumstore.sk/quad-4-tv/ |
+| TV, audio a video > Antény a satelity > LNB konvertory > Quattro (H/V) | 7 / 7 | https://www.premiumstore.sk/quattro--h-v/ |
+| TV, audio a video > Antény a satelity > LNB konvertory > Twin 2 TV | 7 / 7 | https://www.premiumstore.sk/twin-2-tv/ |
+| Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové spojky > Káblové gelové spojky > Káblové gelové spojky PAGURO IP68 | 7 / 7 | https://www.premiumstore.sk/kablove-gelove-spojky-paguro-ip68/ |
+| Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové spojky > Káblové gelové spojky > Ochranné gelové krabičky | 7 / 7 | https://www.premiumstore.sk/ochranne-gelove-krabicky/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Spojovacie a kotevní materiál, chémia > Chémia | 7 / 7 | https://www.premiumstore.sk/chemia-3/ |
+| TV, audio a video > Antény a satelity > Satelitné príslušenstvo > Multipřepínače > 4 družice | 7 / 7 | https://www.premiumstore.sk/4-druzice/ |
+| TV, audio a video > Antény a satelity > Satelitné príslušenstvo > Multipřepínače > 3 družice | 7 / 7 | https://www.premiumstore.sk/3-druzice/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Držiaky stožárů > Patky | 7 / 7 | https://www.premiumstore.sk/patky/ |
+| TV, audio a video > Diaľkové ovládače > DVD > Philips | 7 / 7 | https://www.premiumstore.sk/philips-2/ |
+| Záhrada > Sanitárna technika > Sprchové hlavice | 7 / 7 | https://www.premiumstore.sk/sprchove-hlavice/ |
+| Fotovoltaika a energie > Fotovoltaika > Solárne panely > Prenosné a skládací | 7 / 7 | https://www.premiumstore.sk/prenosne-a-skladaci/ |
+| Šport, hračky a voľný čas > Sportovní vybavenie > Sportovní okuliare | 7 / 7 | https://www.premiumstore.sk/sportovni-okuliare/ |
+| Náradie a dielňa > Elektronické súčiastky > Priemyselné zdroje > 12v | 7 / 7 | https://www.premiumstore.sk/12v-2/ |
+| Auto-moto > Vybavenie auta > Osviežovače vzduchu > Vône SPEED | 7 / 7 | https://www.premiumstore.sk/vone-speed/ |
+| Auto-moto > Vybavenie auta > Osviežovače vzduchu > Vône AROMA CAR | 7 / 7 | https://www.premiumstore.sk/vone-aroma-car/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové videorekordéry (NVR) > 16 kanálů | 7 / 7 | https://www.premiumstore.sk/16-kanalu/ |
+| Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové příchytky a držiaky > Káblové příchytky | 7 / 7 | https://www.premiumstore.sk/kablove-prichytky/ |
+| Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové příchytky a držiaky > Sběrné káblové držiaky | 7 / 7 | https://www.premiumstore.sk/sberne-kablove-drziaky/ |
+| Fotovoltaika a energie > Fotovoltaika > Solárne zostavy > Zostavy pre ostrovní systémy (OFF-GRID) | 7 / 7 | https://www.premiumstore.sk/zostavy-pre-ostrovni-systemy--off-grid-/ |
+| Náradie a dielňa > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie > Kotúče rezacie, pílové, brúsne > Kotúče rezacie diamantové | 7 / 7 | https://www.premiumstore.sk/kotuce-rezacie-diamantove/ |
+| Elektroinštalačný materiál > Ventilačné technika > Mřížky > Kovové mřížky | 7 / 7 | https://www.premiumstore.sk/kovove-mrizky/ |
+| Náradie a dielňa > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie > Brusivo > Brúsne kotúče | 7 / 7 | https://www.premiumstore.sk/brusne-kotuce/ |
+| TV, audio a video > Mobily a tablety > Nabíjačky > Nabíjačky do auta | 7 / 7 | https://www.premiumstore.sk/nabijacky-do-auta/ |
+| Bezpečnosť a smart domácnosť > Osvetlenie > LED žiarovky | 7 / 7 | https://www.premiumstore.sk/led-ziarovky-3/ |
+| TV, audio a video > Foto a optika > Fotoateliér > Podšálky | 7 / 7 | https://www.premiumstore.sk/podsalky/ |
+| TV, audio a video > Foto a optika > Filtre > Pre smartfóny | 7 / 7 | https://www.premiumstore.sk/pre-smartfony-2/ |
+| TV, audio a video > Mobily a tablety > Selfie tyče > statívy > stojany > Selfie stojany | 7 / 7 | https://www.premiumstore.sk/selfie-stojany/ |
+| TV, audio a video > Foto a optika > Skladovanie a preprava > Tašky | 7 / 7 | https://www.premiumstore.sk/tasky/ |
+| Profesionálna audio technika > Pódium, diskotéka, DJ > Predzosilňovače audio | 7 / 7 | https://www.premiumstore.sk/predzosilnovace-audio/ |
+| Profesionálna audio technika > Káble, konektory a redukcie > Konektory a redukcie > Speakon/Powercon | 7 / 7 | https://www.premiumstore.sk/speakon-powercon/ |
+| Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Bezdrôtový prenos zvuku | 7 / 7 | https://www.premiumstore.sk/bezdrotovy-prenos-zvuku/ |
+| Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Transformátory 100V | 7 / 7 | https://www.premiumstore.sk/transformatory-100v/ |
+| Profesionálna audio technika > Reproduktory > Príslušenstvo k reproduktorom > konektory | 7 / 7 | https://www.premiumstore.sk/konektory-4/ |
+| Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Mikrofóny > zónové | 7 / 7 | https://www.premiumstore.sk/zonove-2/ |
 | Profesionálna audio technika > JTS > Slúchadlá | 5 / 7 | https://www.premiumstore.sk/sluchadla-5/ |
+| Profesionálna audio technika > JTS > Inštalácie > Príslušenstvo | 7 / 7 | https://www.premiumstore.sk/prislusenstvo-35/ |
+| Auto-moto > Karavany a obytná autá > Mobilné TV a SAT antény > Antény pre DVB-T2 príjem | 7 / 7 | https://www.premiumstore.sk/anteny-pre-dvb-t2-prijem-2/ |
+| Auto-moto > GPS navigácie | 6 / 6 | https://www.premiumstore.sk/gps-navigacie/ |
 | Auto-moto > Elektrovozidlá | 3 / 6 | https://www.premiumstore.sk/elektrovozidla/ |
+| TV, audio a video > Reproduktory > Drátové reproduktory | 6 / 6 | https://www.premiumstore.sk/dratove-reproduktory/ |
+| TV, audio a video > Počítače a príslušenstvo > Káble pre IT | 3 / 6 | https://www.premiumstore.sk/kable-pre-it/ |
+| TV, audio a video > Počítače a príslušenstvo > Monitor stands | 6 / 6 | https://www.premiumstore.sk/monitor-stands/ |
+| Domáce spotrebiče > Malé spotrebiče > Kávovary a espressá > Napěňovače mlieka | 6 / 6 | https://www.premiumstore.sk/napenovace-mlieka/ |
+| TV, audio a video > Mobily a tablety > Powerbanky | 6 / 6 | https://www.premiumstore.sk/powerbanky-4/ |
+| Domáce spotrebiče > Malé spotrebiče > Fritézy a hrnce > Ryžovary | 6 / 6 | https://www.premiumstore.sk/ryzovary/ |
 | Zdravie a starostlivosť > Parfumy a kozmetika | 2 / 6 | https://www.premiumstore.sk/parfumy-a-kozmetika/ |
+| Domáce spotrebiče > Malé spotrebiče > Vysávače > Viacúčelové vysávače | 6 / 6 | https://www.premiumstore.sk/viacucelove-vysavace/ |
+| TV, audio a video > Počítače a príslušenstvo > Tlačiarne a skenery > Príslušenstvo - tlačiarne > Papiere do tlačiarní | 6 / 6 | https://www.premiumstore.sk/papiere-do-tlaciarni/ |
+| Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika | 6 / 6 | https://www.premiumstore.sk/stavebne-material--chemia-a-technika/ |
 | Náradie a dielňa > Náradie > Elektrické náradie > Brúsky | 3 / 6 | https://www.premiumstore.sk/brusky/ |
 | Záhrada > Záhradné potreby > Záhradné náradie | 3 / 6 | https://www.premiumstore.sk/zahradne-naradie/ |
+| Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Mlynčeky na korenie | 6 / 6 | https://www.premiumstore.sk/mlynceky-na-korenie/ |
+| TV, audio a video > Počítače a príslušenstvo > Tlačiarne a skenery > Multifunkčné tlačiarne > Laserové multifunkčné tlačiarne | 6 / 6 | https://www.premiumstore.sk/laserove-multifunkcne-tlaciarne/ |
 | TV, audio a video > Príslušenstvo k TV, audio, video > Batérie a nabíjačky | 3 / 6 | https://www.premiumstore.sk/baterie-a-nabijacky/ |
+| Domáce spotrebiče > Veľké spotrebiče > Chladničky > Chladničky s mraziace priehradkou | 6 / 6 | https://www.premiumstore.sk/chladnicky-s-mraziace-priehradkou/ |
+| Bezpečnosť a smart domácnosť > Smart domácnosť > Meteostanice | 6 / 6 | https://www.premiumstore.sk/meteostanice-2/ |
+| Šport, hračky a voľný čas > Hračky > Vzdelávacie a interaktívne | 6 / 6 | https://www.premiumstore.sk/vzdelavacie-a-interaktivne/ |
+| Elektroinštalačný materiál > Osvetlenie > Svietidlá > Lampáše | 6 / 6 | https://www.premiumstore.sk/lampase/ |
+| Elektroinštalačný materiál > Osvetlenie > Svietidlá > Nenabíjacie | 6 / 6 | https://www.premiumstore.sk/nenabijacie/ |
 | TV, audio a video > Počítače a príslušenstvo > Monitory > Plátna a projektory > Projektory | 6 / 6 | https://www.premiumstore.sk/projektory/ |
+| TV, audio a video > Diaľkové ovládače > Ostatné | 6 / 6 | https://www.premiumstore.sk/ostatne-2/ |
+| TV, audio a video > Diaľkové ovládače > Hotelové a senior ovládače | 6 / 6 | https://www.premiumstore.sk/hotelove-a-senior-ovladace/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > Thomson | 6 / 6 | https://www.premiumstore.sk/thomson/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > GoSAT | 6 / 6 | https://www.premiumstore.sk/gosat-2/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > Hyundai | 6 / 6 | https://www.premiumstore.sk/hyundai-2/ |
 | Auto-moto > Bezpečnosť > Kamery do autá | 6 / 6 | https://www.premiumstore.sk/kamery-do-auta-2/ |
+| Elektroinštalačný materiál > Káble a vodiče > Auto káble | 6 / 6 | https://www.premiumstore.sk/auto-kable/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > HDCVI, HDTVI, AHD kamery | 4 / 6 | https://www.premiumstore.sk/hdcvi--hdtvi--ahd-kamery/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > Kamerové sety | 6 / 6 | https://www.premiumstore.sk/kamerove-sety/ |
+| Elektroinštalačný materiál > Rozvádzačové prvky > Bloky pre rozdělení fází > Typ PDB 160 - 490 A | 6 / 6 | https://www.premiumstore.sk/typ-pdb-160-490-a/ |
+| Fotovoltaika a energie > Akumulátory a batérie > Autobatérie | 6 / 6 | https://www.premiumstore.sk/autobaterie/ |
+| Záhrada > Záhradné doplnky > Grily | 6 / 6 | https://www.premiumstore.sk/grily-2/ |
+| Záhrada > Záhradné doplnky > Čerpadlá | 6 / 6 | https://www.premiumstore.sk/cerpadla-4/ |
+| Bezpečnosť a smart domácnosť > Zabezpečenie > Domové alarmy | 6 / 6 | https://www.premiumstore.sk/domove-alarmy/ |
+| TV, audio a video > Antény a satelity > ANTÉNY > Antény vonkajšie | 6 / 6 | https://www.premiumstore.sk/anteny-vonkajsie/ |
+| Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Predlžovačky 3 fázové | 6 / 6 | https://www.premiumstore.sk/predlzovacky-3-fazove/ |
 | Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Audi | 3 / 6 | https://www.premiumstore.sk/auto-koberce-audi/ |
 | Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Jeep | 3 / 6 | https://www.premiumstore.sk/auto-koberce-jeep/ |
 | Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Peugeot | 3 / 6 | https://www.premiumstore.sk/auto-koberce-peugeot/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > Hisense | 6 / 6 | https://www.premiumstore.sk/hisense/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > OVP | 6 / 6 | https://www.premiumstore.sk/ovp/ |
+| Elektroinštalačný materiál > Inštalačné náradie a ostatné materiál > Ořezávače káblov | 6 / 6 | https://www.premiumstore.sk/orezavace-kablov/ |
+| Elektroinštalačný materiál > Inštalačné náradie a ostatné materiál > Ostatné | 6 / 6 | https://www.premiumstore.sk/ostatne-6/ |
+| TV, audio a video > TV stolíky a držiaky > Konzolové držiaky | 6 / 6 | https://www.premiumstore.sk/konzolove-drziaky/ |
+| Auto-moto > Elektromobilita > AC nabíjacie stanice Wallbox | 6 / 6 | https://www.premiumstore.sk/ac-nabijacie-stanice-wallbox/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Kaon | 6 / 6 | https://www.premiumstore.sk/kaon/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Homecast | 6 / 6 | https://www.premiumstore.sk/homecast/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Humax | 6 / 6 | https://www.premiumstore.sk/humax/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Formuler | 6 / 6 | https://www.premiumstore.sk/formuler/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > ATlink | 6 / 6 | https://www.premiumstore.sk/atlink/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Zgemma | 6 / 6 | https://www.premiumstore.sk/zgemma/ |
+| Elektroinštalačný materiál > Káble a vodiče > Koaxiálne káble > Metráž | 6 / 6 | https://www.premiumstore.sk/metraz/ |
+| TV, audio a video > Antény a satelity > PASIVNÍ PRVKY > Útlumové články | 6 / 6 | https://www.premiumstore.sk/utlumove-clanky/ |
+| TV, audio a video > Antény a satelity > PASIVNÍ PRVKY > Rozbočovače > Televízne aktivní | 6 / 6 | https://www.premiumstore.sk/televizne-aktivni/ |
+| Elektroinštalačný materiál > Vypínače, zásuvky, krabice > TV SAT zásuvky > Průběžné | 6 / 6 | https://www.premiumstore.sk/prubezne/ |
+| TV, audio a video > Antény a satelity > Účastnické zásuvky > Průběžné | 6 / 6 | https://www.premiumstore.sk/prubezne-2/ |
+| TV, audio a video > Antény a satelity > Účastnické zásuvky > Koncové | 6 / 6 | https://www.premiumstore.sk/koncove-2/ |
+| Elektroinštalačný materiál > Rozvádzačové prvky > Můstky na nosnou lištu > Bezšroubové kryté můstky (IP20) | 6 / 6 | https://www.premiumstore.sk/bezsroubove-kryte-mustky--ip20/ |
+| Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Ističe | 6 / 6 | https://www.premiumstore.sk/istice/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Uzemnenie, hromosvody > Zemnící pásky | 6 / 6 | https://www.premiumstore.sk/zemnici-pasky/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Uzemnenie, hromosvody > Ekvipotenciální svorkovnice | 6 / 6 | https://www.premiumstore.sk/ekvipotencialni-svorkovnice/ |
+| Náradie a dielňa > Chémia > Ostatné chemické prípravky | 6 / 6 | https://www.premiumstore.sk/ostatne-chemicke-pripravky/ |
+| Náradie a dielňa > Chémia > Mazivá | 6 / 6 | https://www.premiumstore.sk/maziva/ |
+| Náradie a dielňa > Mechanické náradie > Svěrky, zveráky | 6 / 6 | https://www.premiumstore.sk/sverky--zveraky/ |
+| Šport, hračky a voľný čas > Bojové športy > Tréninková lana | 6 / 6 | https://www.premiumstore.sk/treninkova-lana/ |
+| Šport, hračky a voľný čas > Bojové športy > Montážne prvky | 6 / 6 | https://www.premiumstore.sk/montazne-prvky/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Konzoly na stěnu > Sa čtvercovou základnou | 6 / 6 | https://www.premiumstore.sk/sa-ctvercovou-zakladnou/ |
 | Náradie a dielňa > Stavebné a maliarske náradie > Truhlářské práce | 3 / 6 | https://www.premiumstore.sk/truhlarske-prace/ |
+| Náradie a dielňa > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie > Vrtáky > Vŕtacie korunky | 6 / 6 | https://www.premiumstore.sk/vrtacie-korunky/ |
+| Náradie a dielňa > Mechanické náradie > Kladivá, dláta, sekery > Paličky | 6 / 6 | https://www.premiumstore.sk/palicky/ |
+| Auto-moto > Autokozmetika, Chémia > Rozmrazovače | 6 / 6 | https://www.premiumstore.sk/rozmrazovace/ |
+| Auto-moto > Autokozmetika, Chémia > Oleje, mazivá | 6 / 6 | https://www.premiumstore.sk/oleje--maziva/ |
+| Auto-moto > Autokozmetika, Chémia > Renovace | 6 / 6 | https://www.premiumstore.sk/renovace/ |
+| TV, audio a video > Antény a satelity > ZOSILŇOVAČE > Aktivní TV rozbočovače | 6 / 6 | https://www.premiumstore.sk/aktivni-tv-rozbocovace/ |
+| Auto-moto > Kolesá > Měřiče tlaku | 6 / 6 | https://www.premiumstore.sk/merice-tlaku/ |
+| TV, audio a video > Antény a satelity > SATELITNÉ PRIJÍMAČE > COMBO SAT/DVBT | 6 / 6 | https://www.premiumstore.sk/combo-sat-dvbt/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Podvozek > Heváky a zdviháky > Náhradné diely k heverům | 6 / 6 | https://www.premiumstore.sk/nahradne-diely-k-heverum/ |
 | Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory do koupelny/WC - do potrubie | 3 / 6 | https://www.premiumstore.sk/ventilatory-do-koupelny-wc-do-potrubie/ |
+| Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory podľa typové rady VENTS > Ventilátory - typ VKO | 6 / 6 | https://www.premiumstore.sk/ventilatory-typ-vko/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Prípravky | 6 / 6 | https://www.premiumstore.sk/pripravky/ |
+| Elektroinštalačný materiál > Elektromery a spínacie technika > Impulzní spínače | 6 / 6 | https://www.premiumstore.sk/impulzni-spinace/ |
+| Elektroinštalačný materiál > Elektromery a spínacie technika > Zásuvkové elektromery | 6 / 6 | https://www.premiumstore.sk/zasuvkove-elektromery/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Spojovacie a kotevní materiál, chémia > Káblové příchytky | 6 / 6 | https://www.premiumstore.sk/kablove-prichytky-2/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Stožiare a trojnožky > Jednodílné stožiare | 6 / 6 | https://www.premiumstore.sk/jednodilne-stoziare/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Stožiare a trojnožky > Nadstavce na stožiare | 6 / 6 | https://www.premiumstore.sk/nadstavce-na-stoziare/ |
+| Šport, hračky a voľný čas > Sportovní vybavenie > Vodné športy, hračky do vody | 6 / 6 | https://www.premiumstore.sk/vodne-sporty--hracky-do-vody/ |
+| Šport, hračky a voľný čas > Sportovní vybavenie > Raketové športy > Badminton | 6 / 6 | https://www.premiumstore.sk/badminton/ |
+| Elektroinštalačný materiál > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky > Přístrojové prepojovacie svorky > Tvar konektoru "vidlička" | 6 / 6 | https://www.premiumstore.sk/tvar-konektoru--vidlicka/ |
+| Fotovoltaika a energie > Napájacie zdroje > Nabíjačky notebookov | 6 / 6 | https://www.premiumstore.sk/nabijacky-notebookov/ |
+| Náradie a dielňa > Elektronické súčiastky > Poistky, pojistkové držiaky > Autopojistky | 6 / 6 | https://www.premiumstore.sk/autopojistky/ |
+| Elektroinštalačný materiál > Elektromery a spínacie technika > Termostaty > Příložné | 6 / 6 | https://www.premiumstore.sk/prilozne/ |
+| Záhrada > Záhradné náradie > Záhradné nožnice > Pákové nožnice | 6 / 6 | https://www.premiumstore.sk/pakove-noznice/ |
 | Elektroinštalačný materiál > Komponenty pre svietidlá > Tlumivky, předřadníky, zapalovače | 3 / 6 | https://www.premiumstore.sk/tlumivky--predradniky--zapalovace/ |
+| Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory do koupelny/WC - s doběhem (časovač) > Pre průměr potrubie 100 mm | 6 / 6 | https://www.premiumstore.sk/pre-prumer-potrubie-100-mm/ |
+| Elektroinštalačný materiál > Elektromery a spínacie technika > Počítadla provozních hodin > Počítadla provozních hodin do panelu | 6 / 6 | https://www.premiumstore.sk/pocitadla-provoznich-hodin-do-panelu/ |
+| Elektroinštalačný materiál > Ventilačné technika > Priemyselné ventilátory > Ventilátory podľa typové rady VENTS > Ventilátory - typ TT | 6 / 6 | https://www.premiumstore.sk/ventilatory-typ-tt/ |
+| TV, audio a video > Audio technika > Slúchadlá > Slúchadlá herné | 6 / 6 | https://www.premiumstore.sk/sluchadla-herne/ |
+| Šport, hračky a voľný čas > Outdoor > Elektrické skútre | 6 / 6 | https://www.premiumstore.sk/elektricke-skutre/ |
 | Šport, hračky a voľný čas > Outdoor > Batohy | 3 / 6 | https://www.premiumstore.sk/batohy-3/ |
+| Šport, hračky a voľný čas > Outdoor > Svietidlá > Pracovné svetlá | 6 / 6 | https://www.premiumstore.sk/pracovne-svetla/ |
+| Bezpečnosť a smart domácnosť > Riadiace jednotky > Ovládacie panely | 6 / 6 | https://www.premiumstore.sk/ovladacie-panely/ |
+| TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Počítačové zdroje | 6 / 6 | https://www.premiumstore.sk/pocitacove-zdroje/ |
+| TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Klávesnice | 3 / 6 | https://www.premiumstore.sk/klavesnice-4/ |
+| TV, audio a video > Mobily a tablety > Kable USB I > 3v1 Micro > USB-C > Lightning | 6 / 6 | https://www.premiumstore.sk/lightning-2/ |
+| TV, audio a video > Mobily a tablety > Selfie tyče > statívy > stojany > Podložky a stojany | 6 / 6 | https://www.premiumstore.sk/podlozky-a-stojany/ |
+| Zdravie a starostlivosť > Matka a dieťa > Kŕmenie dieťaťa | 6 / 6 | https://www.premiumstore.sk/krmenie-dietata/ |
 | Zdravie a starostlivosť > Matka a dieťa > Odsávačky mlieka a masážne prístroje | 3 / 6 | https://www.premiumstore.sk/odsavacky-mlieka-a-masazne-pristroje/ |
+| Profesionálna audio technika > Káble, konektory a redukcie > Káble > 3.5/2.5mm | 6 / 6 | https://www.premiumstore.sk/3-5-2-5mm/ |
+| Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Reproduktory > projektory zvuku 100V | 6 / 6 | https://www.premiumstore.sk/projektory-zvuku-100v/ |
+| Profesionálna audio technika > Tlmočnícke, sprievodcovské a konferenčné systémy > Rečnícke pulty | 6 / 6 | https://www.premiumstore.sk/recnicke-pulty/ |
+| Profesionálna audio technika > Pódium, diskotéka, DJ > Slúchadlá > na ucho | 6 / 6 | https://www.premiumstore.sk/na-ucho/ |
+| Profesionálna audio technika > JTS > Mikrofóny a bezdrôtové systémy > Náhlavové a klopové mikrofóny | 6 / 6 | https://www.premiumstore.sk/nahlavove-a-klopove-mikrofony/ |
+| Profesionálna audio technika > JTS > Mikrofóny a bezdrôtové systémy > In-ear monitorovacie systémy | 6 / 6 | https://www.premiumstore.sk/in-ear-monitorovacie-systemy/ |
+| Profesionálna audio technika > JTS > Inštalácie > Systémy pre sprievodcov | 6 / 6 | https://www.premiumstore.sk/systemy-pre-sprievodcov/ |
+| Profesionálna audio technika > Svetlá > Špeciálne efekty a náplne > Výrobníky hmly | 6 / 6 | https://www.premiumstore.sk/vyrobniky-hmly/ |
 | Elektroinštalačný materiál > Ostatné > Káble | 3 / 6 | https://www.premiumstore.sk/kable-5/ |
+| Elektroinštalačný materiál > Ostatné > 230V > Vypínače a zásuvky > Slim | 6 / 6 | https://www.premiumstore.sk/slim/ |
+| TV, audio a video > AV káble > Anténa > Anténne káble > COAX | 6 / 6 | https://www.premiumstore.sk/coax-2/ |
+| Auto-moto > Karavany a obytná autá > Grily a variče | 6 / 6 | https://www.premiumstore.sk/grily-a-varice-2/ |
+| Auto-moto > Nosiče kol > Nosiče na tažné zariadenie | 6 / 6 | https://www.premiumstore.sk/nosice-na-tazne-zariadenie-2/ |
+| TV, audio a video > Audio technika > Vysielačky | 5 / 5 | https://www.premiumstore.sk/vysielacky/ |
+| Domáce spotrebiče > Malé spotrebiče > Płyty gazowe | 5 / 5 | https://www.premiumstore.sk/plyty-gazowe/ |
+| Auto-moto > Mini kompresory | 5 / 5 | https://www.premiumstore.sk/mini-kompresory/ |
+| TV, audio a video > Počítače a príslušenstvo > Osvetlenie | 5 / 5 | https://www.premiumstore.sk/osvetlenie-4/ |
+| TV, audio a video > Počítače a príslušenstvo > Externé zvukové karty | 5 / 5 | https://www.premiumstore.sk/externe-zvukove-karty/ |
+| TV, audio a video > Počítače a príslušenstvo > Pendrive | 5 / 5 | https://www.premiumstore.sk/pendrive/ |
+| TV, audio a video > Počítače a príslušenstvo > Sieťové prvky > Konektory, zásuvky | 5 / 5 | https://www.premiumstore.sk/konektory--zasuvky/ |
+| TV, audio a video > Mobily a tablety > Objektívy pre telefóny | 5 / 5 | https://www.premiumstore.sk/objektivy-pre-telefony/ |
+| TV, audio a video > Počítače a príslušenstvo > PC periférie > Podložky pod myš | 5 / 5 | https://www.premiumstore.sk/podlozky-pod-mys/ |
+| Domáce spotrebiče > Malé spotrebiče > Žehličky > Parné generátory | 5 / 5 | https://www.premiumstore.sk/parne-generatory/ |
+| Zdravie a starostlivosť > Holiace strojčeky > Dámske holiace strojčeky a depilátory | 5 / 5 | https://www.premiumstore.sk/damske-holiace-strojceky-a-depilatory/ |
 | TV, audio a video > Slúchadlá > Príslušenstvo pre slúchadlá | 5 / 5 | https://www.premiumstore.sk/prislusenstvo-pre-sluchadla/ |
+| Elektroinštalačný materiál > Osvetlenie > LED Žiarovky > G9&G4 | 5 / 5 | https://www.premiumstore.sk/g9-g4/ |
+| Domáce spotrebiče > Malé spotrebiče > Upratovacie pomôcky > Košťata a metly | 5 / 5 | https://www.premiumstore.sk/kostata-a-metly/ |
+| Domáce spotrebiče > Veľké spotrebiče > Sporáky a rúry > Príslušenstvo ku sporákom a rúram | 5 / 5 | https://www.premiumstore.sk/prislusenstvo-ku-sporakom-a-ruram/ |
+| Domáce spotrebiče > Veľké spotrebiče > Sporáky a rúry > Stolové rúry | 5 / 5 | https://www.premiumstore.sk/stolove-rury/ |
+| TV, audio a video > Digitálny príjem > DVB-T prijímače | 5 / 5 | https://www.premiumstore.sk/dvb-t-prijimace/ |
+| TV, audio a video > Audio technika > HiFi systémy > Mikrosystémy | 5 / 5 | https://www.premiumstore.sk/mikrosystemy/ |
+| Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Teplovzdušné ventilátory | 5 / 5 | https://www.premiumstore.sk/teplovzdusne-ventilatory/ |
+| Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Konvektory | 5 / 5 | https://www.premiumstore.sk/konvektory/ |
+| TV, audio a video > Počítače a príslušenstvo > Herné zariadenia > Príslušenstvo ku konzolám > PS5 - príslušenstvo | 5 / 5 | https://www.premiumstore.sk/ps5-prislusenstvo/ |
+| TV, audio a video > Počítače a príslušenstvo > Príslušenstvo k notebookom > Ostatné príslušenstvo k notebookom | 5 / 5 | https://www.premiumstore.sk/ostatne-prislusenstvo-k-notebookom/ |
+| TV, audio a video > Televízory > LED projektory | 5 / 5 | https://www.premiumstore.sk/led-projektory/ |
+| TV, audio a video > Televízory > Príslušenstvo pre televízory | 5 / 5 | https://www.premiumstore.sk/prislusenstvo-pre-televizory/ |
+| Šport, hračky a voľný čas > Hračky > Hračky pre kluky > Detské zbrane | 5 / 5 | https://www.premiumstore.sk/detske-zbrane/ |
+| Fotovoltaika a energie > Nabíjačky > Nabíjačky NiCd, NiMh, NiZn | 5 / 5 | https://www.premiumstore.sk/nabijacky-nicd--nimh--nizn/ |
+| Zdravie a starostlivosť > Chovateľské potreby > Pohlcovače zápachu | 5 / 5 | https://www.premiumstore.sk/pohlcovace-zapachu/ |
+| Zdravie a starostlivosť > Chovateľské potreby > Hračky | 5 / 5 | https://www.premiumstore.sk/hracky-2/ |
+| Zdravie a starostlivosť > Chovateľské potreby > Klece a ohrádky | 5 / 5 | https://www.premiumstore.sk/klece-a-ohradky/ |
+| Auto-moto > Vybavenie auta > Autožiarovky > 24V | 5 / 5 | https://www.premiumstore.sk/24v/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > AB | 5 / 5 | https://www.premiumstore.sk/ab-2/ |
+| Náradie a dielňa > Ochranné pomôcky a odevy > Kukly a štíty | 5 / 5 | https://www.premiumstore.sk/kukly-a-stity/ |
+| Šport, hračky a voľný čas > Cyklistika > Pumpy na kolo | 5 / 5 | https://www.premiumstore.sk/pumpy-na-kolo/ |
+| Fotovoltaika a energie > Fotovoltaika > Solárne nabíjačky | 5 / 5 | https://www.premiumstore.sk/solarne-nabijacky-2/ |
+| Záhrada > Záhradné náradie > Lopaty | 5 / 5 | https://www.premiumstore.sk/lopaty/ |
+| Záhrada > Záhradné náradie > Sady záhradného náradie | 5 / 5 | https://www.premiumstore.sk/sady-zahradneho-naradie/ |
+| Auto-moto > Garáž, Dielňa, Servis > Čerpadlá | 5 / 5 | https://www.premiumstore.sk/cerpadla-3/ |
+| Fotovoltaika a energie > Akumulátory a batérie > 9V | 5 / 5 | https://www.premiumstore.sk/9v/ |
+| Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Predlžovacie prívody > Dĺžka 30m | 5 / 5 | https://www.premiumstore.sk/dlzka-30m/ |
+| TV, audio a video > Mobily a tablety > USB káble > USB A | 5 / 5 | https://www.premiumstore.sk/usb-a/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > Vestel | 5 / 5 | https://www.premiumstore.sk/vestel/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > Technika | 5 / 5 | https://www.premiumstore.sk/technika/ |
+| Elektroinštalačný materiál > Inštalačné náradie a ostatné materiál > Organizéry | 5 / 5 | https://www.premiumstore.sk/organizery-2/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Mascom | 5 / 5 | https://www.premiumstore.sk/mascom-2/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Bensat | 5 / 5 | https://www.premiumstore.sk/bensat/ |
+| TV, audio a video > Antény a satelity > PASIVNÍ PRVKY > Slučovače TV | 5 / 5 | https://www.premiumstore.sk/slucovace-tv/ |
+| TV, audio a video > Antény a satelity > PASIVNÍ PRVKY > Anténní bleskojistky | 5 / 5 | https://www.premiumstore.sk/antenni-bleskojistky/ |
+| Elektroinštalačný materiál > Vypínače, zásuvky, krabice > TV SAT zásuvky > Koncové | 5 / 5 | https://www.premiumstore.sk/koncove/ |
+| TV, audio a video > Antény a satelity > Konektory > Kompresní a krimpovací | 5 / 5 | https://www.premiumstore.sk/kompresni-a-krimpovaci/ |
+| Šport, hračky a voľný čas > Posilňovanie a fitness > Pomôcky na cvičenie > Pomôcky na cvičenie břicha | 5 / 5 | https://www.premiumstore.sk/pomocky-na-cvicenie-bricha/ |
+| Šport, hračky a voľný čas > Posilňovanie a fitness > Pomôcky na cvičenie > Švihadlá | 5 / 5 | https://www.premiumstore.sk/svihadla/ |
+| Záhrada > Záhradné doplnky > Pestovanie > Pěstební lampy | 5 / 5 | https://www.premiumstore.sk/pestebni-lampy/ |
+| Záhrada > Záhradné stroje > Príslušenstvo | 5 / 5 | https://www.premiumstore.sk/prislusenstvo-9/ |
+| Šport, hračky a voľný čas > Turistika > Kempingové stoly, stoličky, ležadlá | 5 / 5 | https://www.premiumstore.sk/kempingove-stoly--stolicky--lezadla/ |
+| Náradie a dielňa > Mechanické náradie > Náradie pre ženy | 5 / 5 | https://www.premiumstore.sk/naradie-pre-zeny/ |
+| Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Plynové spájkovačky | 5 / 5 | https://www.premiumstore.sk/plynove-spajkovacky/ |
+| Náradie a dielňa > Elektrické a AKU náradie > Pištole lepící a horúcovzdušné > Príslušenstvo pre tavné pištole | 5 / 5 | https://www.premiumstore.sk/prislusenstvo-pre-tavne-pistole/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Konzoly na stěnu > Držiaky na okenní rám | 5 / 5 | https://www.premiumstore.sk/drziaky-na-okenni-ram/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Konzoly na stěnu > Držiaky na střechu | 5 / 5 | https://www.premiumstore.sk/drziaky-na-strechu/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Konzoly sa třmenem > Univerzálne | 5 / 5 | https://www.premiumstore.sk/univerzalne/ |
+| Náradie a dielňa > Stavebné a maliarske náradie > Sťahováky | 5 / 5 | https://www.premiumstore.sk/stahovaky-4/ |
+| Náradie a dielňa > Stavebné a maliarske náradie > Těsnenie do okien a dverí | 5 / 5 | https://www.premiumstore.sk/tesnenie-do-okien-a-dveri/ |
+| Náradie a dielňa > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie > Vrtáky > Vrtáky na kov | 5 / 5 | https://www.premiumstore.sk/vrtaky-na-kov/ |
+| Auto-moto > Vybavenie auta > Autokoberce > Auto koberce BMW > X1, X3, X4, X5, X6 | 5 / 5 | https://www.premiumstore.sk/x1--x3--x4--x5--x6/ |
+| Elektroinštalačný materiál > Ventilačné technika > Vzduchovody > Kovové potrubie | 5 / 5 | https://www.premiumstore.sk/kovove-potrubie/ |
+| Elektroinštalačný materiál > Ventilačné technika > Príslušenstvo k ventilátorům > Zpětné klapky, filtračné boxy | 5 / 5 | https://www.premiumstore.sk/zpetne-klapky--filtracne-boxy/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Držiaky stožárů > Na krovy | 5 / 5 | https://www.premiumstore.sk/na-krovy/ |
+| TV, audio a video > Diaľkové ovládače > DVD > Samsung | 5 / 5 | https://www.premiumstore.sk/samsung-3/ |
+| Náradie a dielňa > Mechanické náradie > Nýtování > Nity | 5 / 5 | https://www.premiumstore.sk/nity/ |
+| Fotovoltaika a energie > Fotovoltaika > Solárne panely > Monokrystalické s rámem | 5 / 5 | https://www.premiumstore.sk/monokrystalicke-s-ramem/ |
+| Šport, hračky a voľný čas > Posilňovanie a fitness > Činky a príslušenstvo > Činky obouruční, osy | 5 / 5 | https://www.premiumstore.sk/cinky-obourucni--osy/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > KAMERY 4v1 > 5.0 Mpix. | 5 / 5 | https://www.premiumstore.sk/5-0-mpix-2/ |
+| Auto-moto > Vybavenie auta > Osviežovače vzduchu > Různé | 5 / 5 | https://www.premiumstore.sk/ruzne/ |
+| Auto-moto > Vybavenie auta > Osviežovače vzduchu > Vône CAR CITY | 5 / 5 | https://www.premiumstore.sk/vone-car-city/ |
+| Auto-moto > Vybavenie auta > Osviežovače vzduchu > Vône FRESH POINT | 5 / 5 | https://www.premiumstore.sk/vone-fresh-point/ |
+| Auto-moto > Vybavenie auta > Osviežovače vzduchu > Vône LUCKY TOP | 5 / 5 | https://www.premiumstore.sk/vone-lucky-top/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové videorekordéry (NVR) > 8 kanálů | 5 / 5 | https://www.premiumstore.sk/8-kanalu/ |
+| Šport, hračky a voľný čas > Mikroskopy > Digitálne fotoaparáty | 5 / 5 | https://www.premiumstore.sk/digitalne-fotoaparaty/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Aretace > Alfa Romeo | 5 / 5 | https://www.premiumstore.sk/alfa-romeo/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Aretace > Volkswagen | 5 / 5 | https://www.premiumstore.sk/volkswagen/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Aretace > Fiat | 5 / 5 | https://www.premiumstore.sk/fiat/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Aretace > Ford | 5 / 5 | https://www.premiumstore.sk/ford/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Aretace > Citroën | 5 / 5 | https://www.premiumstore.sk/citroen/ |
+| Fotovoltaika a energie > Napájacie zdroje > Sieťové adaptéry | 5 / 5 | https://www.premiumstore.sk/sietove-adaptery/ |
+| Šport, hračky a voľný čas > Hudební nástroje > Digitálne piana | 5 / 5 | https://www.premiumstore.sk/digitalne-piana/ |
+| Elektroinštalačný materiál > Vypínače, zásuvky, krabice > Elektroinštalačný krabice > Krabice zapuštěné (pod omítku) | 5 / 5 | https://www.premiumstore.sk/krabice-zapustene--pod-omitku/ |
+| Náradie a dielňa > Kancelária a škola > Trezory | 5 / 5 | https://www.premiumstore.sk/trezory/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Podvozek > Podstavce > Príslušenstvo k podstavcům | 5 / 5 | https://www.premiumstore.sk/prislusenstvo-k-podstavcum/ |
+| TV, audio a video > Antény a satelity > SET-TOP-BOXY > COMBO DVB-T2 H.265 HEVC/SAT | 5 / 5 | https://www.premiumstore.sk/combo-dvb-t2-h-265-hevc-sat/ |
+| Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Renault > Duster | 5 / 5 | https://www.premiumstore.sk/duster/ |
+| Elektroinštalačný materiál > Osvetlenie > LED reflektory > Reflektory so senzorom | 5 / 5 | https://www.premiumstore.sk/reflektory-so-senzorom/ |
+| Elektroinštalačný materiál > Elektromery a spínacie technika > Počítadla provozních hodin > Počítadla provozních hodin na DIN lištu | 5 / 5 | https://www.premiumstore.sk/pocitadla-provoznich-hodin-na-din-listu/ |
+| Náradie a dielňa > Stavebné a maliarske náradie > Malířství a natěračství > Valčeky | 5 / 5 | https://www.premiumstore.sk/valceky/ |
+| Elektroinštalačný materiál > Ventilačné technika > Mřížky > Mřížka kruhová s nástavcem | 5 / 5 | https://www.premiumstore.sk/mrizka-kruhova-s-nastavcem/ |
+| Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Exteriér > Oprava karoserie | 5 / 5 | https://www.premiumstore.sk/oprava-karoserie/ |
+| TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Reproduktory | 5 / 5 | https://www.premiumstore.sk/reproduktory-4/ |
+| TV, audio a video > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Šport | 5 / 5 | https://www.premiumstore.sk/sport/ |
+| TV, audio a video > Mobily a tablety > Obaly na telefóny > Vodotesné puzdro | 5 / 5 | https://www.premiumstore.sk/vodotesne-puzdro/ |
+| TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Myši > Bezdrôtový | 5 / 5 | https://www.premiumstore.sk/bezdrotovy/ |
+| Kreatívne technológie > 3D tlač > Diely | 5 / 5 | https://www.premiumstore.sk/diely/ |
+| Zdravie a starostlivosť > Matka a dieťa > Elektronické príslušenstvo > Slúchadlá a reproduktory | 5 / 5 | https://www.premiumstore.sk/sluchadla-a-reproduktory/ |
+| Profesionálna audio technika > Káble, konektory a redukcie > Káble > adaptéry | 5 / 5 | https://www.premiumstore.sk/adaptery-3/ |
 | Profesionálna audio technika > Káble, konektory a redukcie > Konektory a redukcie > BNC | 5 / 5 | https://www.premiumstore.sk/bnc/ |
+| Profesionálna audio technika > Reproduktory > stredové | 5 / 5 | https://www.premiumstore.sk/stredove/ |
+| Profesionálna audio technika > Tlmočnícke, sprievodcovské a konferenčné systémy > Bezdrôtový, sprievodcovský systém > prijímače | 5 / 5 | https://www.premiumstore.sk/prijimace/ |
 | Profesionálna audio technika > Reproduktory > Príslušenstvo k reproduktorom > bassreflexy | 5 / 5 | https://www.premiumstore.sk/bassreflexy/ |
+| Profesionálna audio technika > Reproduktory > Príslušenstvo k reproduktorom > zosilňovacie moduly | 5 / 5 | https://www.premiumstore.sk/zosilnovacie-moduly/ |
+| Profesionálna audio technika > Pódium, diskotéka, DJ > mikrofóny > kravatové | 5 / 5 | https://www.premiumstore.sk/kravatove/ |
+| Elektroinštalačný materiál > Ostatné > 230V > Držiaky zásuviek | 5 / 5 | https://www.premiumstore.sk/drziaky-zasuviek/ |
+| TV, audio a video > AV káble > Computer > UTP | 5 / 5 | https://www.premiumstore.sk/utp/ |
+| Elektroinštalačný materiál > Ostatné > 230V > Vypínače a zásuvky > Do vlhka | 5 / 5 | https://www.premiumstore.sk/do-vlhka/ |
+| Auto-moto > Karavany a obytná autá > Redukcie a adaptéry | 5 / 5 | https://www.premiumstore.sk/redukcie-a-adaptery-3/ |
+| Auto-moto > Karavany a obytná autá > Batérie do karavanu | 5 / 5 | https://www.premiumstore.sk/baterie-do-karavanu-2/ |
+| Profesionálna audio technika > Hudobné nástroje a príslušenstvo > MIDI kontroléry | 5 / 5 | https://www.premiumstore.sk/midi-kontrolery/ |
 | TV, audio a video > Audio technika > Radiomagnetofóny | 3 / 4 | https://www.premiumstore.sk/radiomagnetofony/ |
 | Auto-moto > Videorekordéry | 3 / 4 | https://www.premiumstore.sk/videorekordery/ |
 | Auto-moto > Umývanie a čistenie | 2 / 4 | https://www.premiumstore.sk/umyvanie-a-cistenie/ |
+| Auto-moto > Autorádiá > Autorádiá s CD | 4 / 4 | https://www.premiumstore.sk/autoradia-s-cd/ |
+| TV, audio a video > Reproduktory > Subwoofery | 4 / 4 | https://www.premiumstore.sk/subwoofery/ |
+| TV, audio a video > Audio technika > HiFi komponenty > CD prehrávače | 4 / 4 | https://www.premiumstore.sk/cd-prehravace/ |
+| TV, audio a video > Počítače a príslušenstvo > Kalkulačky | 4 / 4 | https://www.premiumstore.sk/kalkulacky/ |
+| TV, audio a video > Počítače a príslušenstvo > Projektory | 4 / 4 | https://www.premiumstore.sk/projektory-2/ |
+| TV, audio a video > Počítače a príslušenstvo > Sieťové prvky > Extendery | 4 / 4 | https://www.premiumstore.sk/extendery/ |
+| TV, audio a video > Počítače a príslušenstvo > Tlačiarne a skenery > Fototlačiarne | 4 / 4 | https://www.premiumstore.sk/fototlaciarne/ |
 | TV, audio a video > Video technika > Prehrávače, rekordéry | 2 / 4 | https://www.premiumstore.sk/prehravace--rekordery/ |
+| TV, audio a video > Video technika > Outdoor kamery | 4 / 4 | https://www.premiumstore.sk/outdoor-kamery/ |
+| TV, audio a video > Mobily a tablety > Mobilné telefóny | 4 / 4 | https://www.premiumstore.sk/mobilne-telefony/ |
+| TV, audio a video > Mobily a tablety > Stylusy pre tablety | 4 / 4 | https://www.premiumstore.sk/stylusy-pre-tablety/ |
+| Domáce spotrebiče > Malé spotrebiče > Žehličky > Hodiny a budíky | 4 / 4 | https://www.premiumstore.sk/hodiny-a-budiky/ |
+| Elektroinštalačný materiál > Osvetlenie > LED sviečky | 4 / 4 | https://www.premiumstore.sk/led-sviecky/ |
+| Elektroinštalačný materiál > Osvetlenie > Patice, Redukcie | 4 / 4 | https://www.premiumstore.sk/patice--redukcie/ |
+| Elektroinštalačný materiál > Osvetlenie > LED Žiarovky > G9 patice | 4 / 4 | https://www.premiumstore.sk/g9-patice/ |
+| TV, audio a video > Mobily a tablety > Príslušenstvo > Ochranné fólie pre mobilné telefóny | 4 / 4 | https://www.premiumstore.sk/ochranne-folie-pre-mobilne-telefony/ |
+| Náradie a dielňa > Tašky a boxy na náradie | 4 / 4 | https://www.premiumstore.sk/tasky-a-boxy-na-naradie/ |
 | Náradie a dielňa > Náradie > Pneumatické a hydraulické náradie | 2 / 4 | https://www.premiumstore.sk/pneumaticke-a-hydraulicke-naradie/ |
 | Náradie a dielňa > Náradie > Elektrické náradie > Frézy a frézky | 2 / 4 | https://www.premiumstore.sk/frezy-a-frezky/ |
+| Domáce spotrebiče > Veľké spotrebiče > Sporáky a rúry > Kombinované sporáky | 4 / 4 | https://www.premiumstore.sk/kombinovane-sporaky/ |
+| Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské teplomery | 4 / 4 | https://www.premiumstore.sk/kuchynske-teplomery/ |
+| Domáce spotrebiče > Veľké spotrebiče > Chladničky > Príslušenstvo k chladničkám | 4 / 4 | https://www.premiumstore.sk/prislusenstvo-k-chladnickam/ |
+| Domáce spotrebiče > Veľké spotrebiče > Chladničky > Americké chladničky | 4 / 4 | https://www.premiumstore.sk/americke-chladnicky/ |
+| Zdravie a starostlivosť > Starostlivosť o zdravie > Vložky do bot | 4 / 4 | https://www.premiumstore.sk/vlozky-do-bot/ |
+| Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Sušiaky | 4 / 4 | https://www.premiumstore.sk/susiaky/ |
+| Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Termosky, termohrnčeky | 4 / 4 | https://www.premiumstore.sk/termosky--termohrnceky/ |
+| Bezpečnosť a smart domácnosť > Smart domácnosť > Vypínače | 4 / 4 | https://www.premiumstore.sk/vypinace/ |
 | TV, audio a video > Foto a optika > Kamery | 2 / 4 | https://www.premiumstore.sk/kamery-2/ |
+| Náradie a dielňa > Náradie > Príslušenstvo pre stroje a náradie > Príslušenstvo AKU a Elektrické náradie > Príslušenstvo pre Brúsky > 02 Brúsne a rezacie kotúče | 4 / 4 | https://www.premiumstore.sk/02-brusne-a-rezacie-kotuce/ |
+| Šport, hračky a voľný čas > Elektrické surfy | 4 / 4 | https://www.premiumstore.sk/elektricke-surfy/ |
+| Šport, hračky a voľný čas > Hračky > Autá, bagry, traktory pre deti | 4 / 4 | https://www.premiumstore.sk/auta--bagry--traktory-pre-deti/ |
 | Šport, hračky a voľný čas > Hračky > Vonkajšie hračky | 2 / 4 | https://www.premiumstore.sk/vonkajsie-hracky/ |
 | Šport, hračky a voľný čas > Hračky > Puzzle | 2 / 4 | https://www.premiumstore.sk/puzzle/ |
 | Šport, hračky a voľný čas > Hračky > Edukatívne | 2 / 4 | https://www.premiumstore.sk/edukativne/ |
 | Domáce spotrebiče > Malé spotrebiče > Meteostanice > Náhradné diely | 4 / 4 | https://www.premiumstore.sk/nahradne-diely-2/ |
+| Zdravie a starostlivosť > Starostlivosť o dieťa > Ostatné detské tovar | 4 / 4 | https://www.premiumstore.sk/ostatne-detske-tovar/ |
+| TV, audio a video > Mobily a tablety > Nositeľná elektronika > Lokátory | 4 / 4 | https://www.premiumstore.sk/lokatory/ |
+| Náradie a dielňa > Náradie > Aku náradie > AKU Svetlá a svietidlá | 4 / 4 | https://www.premiumstore.sk/aku-svetla-a-svietidla/ |
+| TV, audio a video > Audio technika > Mikrofóny > Štúdiové mikrofóny | 4 / 4 | https://www.premiumstore.sk/studiove-mikrofony/ |
+| Domáce spotrebiče > Vstavané spotrebiče > Vstavané chladenie > Vstavané kombinované chladničky | 4 / 4 | https://www.premiumstore.sk/vstavane-kombinovane-chladnicky/ |
+| Fotovoltaika a energie > Powerbanky | 4 / 4 | https://www.premiumstore.sk/powerbanky-3/ |
+| Zdravie a starostlivosť > Chovateľské potreby > Prepravky | 4 / 4 | https://www.premiumstore.sk/prepravky/ |
+| Auto-moto > Vybavenie auta > Odpojovač batérie | 4 / 4 | https://www.premiumstore.sk/odpojovac-baterie/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > Golden Media | 4 / 4 | https://www.premiumstore.sk/golden-media/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > Evolve | 4 / 4 | https://www.premiumstore.sk/evolve/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > Ferguson | 4 / 4 | https://www.premiumstore.sk/ferguson-2/ |
+| TV, audio a video > Diaľkové ovládače > Ovládače k DVB-T2 > Optex | 4 / 4 | https://www.premiumstore.sk/optex/ |
+| Auto-moto > Bezpečnosť > Testery alkoholu | 4 / 4 | https://www.premiumstore.sk/testery-alkoholu-2/ |
+| Elektroinštalačný materiál > Ističe a chrániče > Odpojovače batérií | 4 / 4 | https://www.premiumstore.sk/odpojovace-baterii-2/ |
+| Fotovoltaika a energie > Fotovoltaika > Solárne batérie | 4 / 4 | https://www.premiumstore.sk/solarne-baterie-2/ |
+| Záhrada > Brány a zvončeky > Pohony posuvné vrata | 4 / 4 | https://www.premiumstore.sk/pohony-posuvne-vrata/ |
+| Auto-moto > Garáž, Dielňa, Servis > Kanystry | 4 / 4 | https://www.premiumstore.sk/kanystry/ |
+| Auto-moto > Garáž, Dielňa, Servis > Hasicí prístroje | 4 / 4 | https://www.premiumstore.sk/hasici-pristroje-2/ |
 | Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Navijaky a zdviháky | 2 / 4 | https://www.premiumstore.sk/navijaky-a-zdvihaky/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > Atrapy kamer | 4 / 4 | https://www.premiumstore.sk/atrapy-kamer/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Káble | 4 / 4 | https://www.premiumstore.sk/kable/ |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Konektory | 4 / 4 | https://www.premiumstore.sk/konektory/ |
+| Elektroinštalačný materiál > Rozvádzačové prvky > Distribuční bloky | 4 / 4 | https://www.premiumstore.sk/distribucni-bloky/ |
+| Fotovoltaika a energie > Akumulátory a batérie > Li-Ion nabíjacie akumulátory | 4 / 4 | https://www.premiumstore.sk/li-ion-nabijacie-akumulatory/ |
+| Elektroinštalačný materiál > Prepäťové ochrany > Koaxiálne ochrany | 4 / 4 | https://www.premiumstore.sk/koaxialne-ochrany/ |
+| Bezpečnosť a smart domácnosť > Zabezpečenie > Hasící prístroje | 4 / 4 | https://www.premiumstore.sk/hasici-pristroje/ |
+| Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Predlžovacie prívody > Dĺžka 40m | 4 / 4 | https://www.premiumstore.sk/dlzka-40m/ |
 | Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Hyundai | 2 / 4 | https://www.premiumstore.sk/auto-koberce-hyundai/ |
 | Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Kia | 2 / 4 | https://www.premiumstore.sk/auto-koberce-kia/ |
 | Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Toyota | 2 / 4 | https://www.premiumstore.sk/auto-koberce-toyota/ |
+| Náradie a dielňa > Elektronické súčiastky > Konektory | 4 / 4 | https://www.premiumstore.sk/konektory-3/ |
+| Náradie a dielňa > Elektronické súčiastky > Arduino a moduly > Stavebnice Arduino | 4 / 4 | https://www.premiumstore.sk/stavebnice-arduino/ |
+| Náradie a dielňa > Elektronické súčiastky > Arduino a moduly > Sety Arduino | 4 / 4 | https://www.premiumstore.sk/sety-arduino/ |
+| TV, audio a video > Mobily a tablety > USB káble > Lightning | 4 / 4 | https://www.premiumstore.sk/lightning/ |
 | Náradie a dielňa > Dielenské vybavenie > Přeprava a skladování | 2 / 4 | https://www.premiumstore.sk/preprava-a-skladovani/ |
+| Náradie a dielňa > Dielenské vybavenie > Svářecí stroje | 4 / 4 | https://www.premiumstore.sk/svareci-stroje/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > TCL | 4 / 4 | https://www.premiumstore.sk/tcl/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > BEKO | 4 / 4 | https://www.premiumstore.sk/beko/ |
+| TV, audio a video > Diaľkové ovládače > Televízne ovládače > GoSat | 4 / 4 | https://www.premiumstore.sk/gosat-3/ |
+| Záhrada > Záhradné doplnky > Zavlažovanie > Rozprašovače | 4 / 4 | https://www.premiumstore.sk/rozprasovace/ |
+| Záhrada > Záhradné doplnky > Zavlažovanie > Príslušenstvo | 4 / 4 | https://www.premiumstore.sk/prislusenstvo-12/ |
+| Elektroinštalačný materiál > Inštalačné náradie a ostatné materiál > Kľúče na F konektory | 4 / 4 | https://www.premiumstore.sk/kluce-na-f-konektory/ |
+| Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Adaptéry a redukcie > Cestovné adaptéry | 4 / 4 | https://www.premiumstore.sk/cestovne-adaptery-2/ |
+| Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Výhodné sety rozvaděč + komponenty | 4 / 4 | https://www.premiumstore.sk/vyhodne-sety-rozvadec-komponenty/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Tesla | 4 / 4 | https://www.premiumstore.sk/tesla-2/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Technisat | 4 / 4 | https://www.premiumstore.sk/technisat/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Showbox | 4 / 4 | https://www.premiumstore.sk/showbox/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Ineos | 4 / 4 | https://www.premiumstore.sk/ineos/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Golden Interstar | 4 / 4 | https://www.premiumstore.sk/golden-interstar/ |
+| TV, audio a video > Diaľkové ovládače > Satelitné ovládače > Openbox | 4 / 4 | https://www.premiumstore.sk/openbox/ |
+| TV, audio a video > Antény a satelity > PASIVNÍ PRVKY > LTE filtre | 4 / 4 | https://www.premiumstore.sk/lte-filtre/ |
+| TV, audio a video > Počítače a príslušenstvo > Rackové skrine a príslušenstvo > Príslušenstvo > Chladenie | 4 / 4 | https://www.premiumstore.sk/chladenie/ |
+| TV, audio a video > Antény a satelity > Konektory > Redukcie | 4 / 4 | https://www.premiumstore.sk/redukcie-2/ |
+| TV, audio a video > Antény a satelity > Konektory > IEC konektory | 4 / 4 | https://www.premiumstore.sk/iec-konektory/ |
+| Šport, hračky a voľný čas > Posilňovanie a fitness > Pomôcky na cvičenie > Závažia na kotníky a zápěstí | 4 / 4 | https://www.premiumstore.sk/zavazia-na-kotniky-a-zapesti/ |
+| Elektroinštalačný materiál > Rozvádzačové prvky > Můstky na nosnou lištu > Nekryté můstky (IP00) | 4 / 4 | https://www.premiumstore.sk/nekryte-mustky--ip00/ |
+| Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné > Rozvodnice NEPTUN IP65 | 4 / 4 | https://www.premiumstore.sk/rozvodnice-neptun-ip65/ |
+| Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné > Rozvodnice AcquaPLUS IP65 | 4 / 4 | https://www.premiumstore.sk/rozvodnice-acquaplus-ip65/ |
+| Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál > Odpojovače batérií | 4 / 4 | https://www.premiumstore.sk/odpojovace-baterii/ |
+| Náradie a dielňa > Mechanické náradie > Kefy | 4 / 4 | https://www.premiumstore.sk/kefy-2/ |
 | Náradie a dielňa > Stavebné a maliarske náradie > Pokrývačské práce | 2 / 4 | https://www.premiumstore.sk/pokryvacske-prace/ |
 | Náradie a dielňa > Stavebné a maliarske náradie > Přeprava | 2 / 4 | https://www.premiumstore.sk/preprava/ |
+| Náradie a dielňa > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie > Pilníky | 4 / 4 | https://www.premiumstore.sk/pilniky/ |
+| Náradie a dielňa > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie > Závitníky, príslušenstvo | 4 / 4 | https://www.premiumstore.sk/zavitniky--prislusenstvo/ |
+| Náradie a dielňa > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie > Vrtáky > Vrtáky do dreva | 4 / 4 | https://www.premiumstore.sk/vrtaky-do-dreva/ |
+| TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Príslušenstvo ku stožárům > Manžety | 4 / 4 | https://www.premiumstore.sk/manzety/ |
+| Náradie a dielňa > Mechanické náradie > Kľúče > Nadstavce | 4 / 4 | https://www.premiumstore.sk/nadstavce/ |
+| TV, audio a video > Antény a satelity > SATELITNÉ PRIJÍMAČE > Prijímače pre freeSAT | 4 / 4 | https://www.premiumstore.sk/prijimace-pre-freesat/ |
+| TV, audio a video > Antény a satelity > ZOSILŇOVAČE > HLAVNÍ STANICE > ALCAD > Zdroje | 4 / 4 | https://www.premiumstore.sk/zdroje/ |
+| Záhrada > Odpudzovače a lapače hmyzu > Odpudzovače ptáků | 4 / 4 | https://www.premiumstore.sk/odpudzovace-ptaku/ |
+| Záhrada > Odpudzovače a lapače hmyzu > Odpudzovače a lapače slimáků | 4 / 4 | https://www.premiumstore.sk/odpudzovace-a-lapace-slimaku/ |
+| Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory podľa typové rady VENTS > Ventilátory - typ QUIETLINE | 4 / 4 | https://www.premiumstore.sk/ventilatory-typ-quietline/ |
+| Náradie a dielňa > Drobné náradie a príslušenstvo > Podložky a krúžky | 4 / 4 | https://www.premiumstore.sk/podlozky-a-kruzky/ |
+| TV, audio a video > Antény a satelity > LNB konvertory > MonoTwin 2 TV | 4 / 4 | https://www.premiumstore.sk/monotwin-2-tv/ |
+| Náradie a dielňa > Pneumatické náradie > Príslušenstvo k pneu náradie > Hadice | 4 / 4 | https://www.premiumstore.sk/hadice/ |
+| Elektroinštalačný materiál > Elektromery a spínacie technika > Schodišťové automaty | 4 / 4 | https://www.premiumstore.sk/schodistove-automaty/ |
+| Elektroinštalačný materiál > Elektromery a spínacie technika > Hladinvé spínače | 4 / 4 | https://www.premiumstore.sk/hladinve-spinace/ |
+| Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Spínacie zásuvky > Smart zásuvky | 4 / 4 | https://www.premiumstore.sk/smart-zasuvky/ |
+| Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové spojky > Káblové gelové spojky > Káblové spojky SHARK IP68 | 4 / 4 | https://www.premiumstore.sk/kablove-spojky-shark-ip68/ |
+| TV, audio a video > Diaľkové ovládače > DVD > LG | 4 / 4 | https://www.premiumstore.sk/lg-2/ |
+| Náradie a dielňa > Mechanické náradie > Nýtování > Nitovacie matice | 4 / 4 | https://www.premiumstore.sk/nitovacie-matice/ |
+| Záhrada > Záhradné stroje > Čerpadlá > Palivová a olejová čerpadlá | 4 / 4 | https://www.premiumstore.sk/palivova-a-olejova-cerpadla/ |
+| Náradie a dielňa > Mechanické náradie > Kliešte > Kliešte konektorové | 4 / 4 | https://www.premiumstore.sk/klieste-konektorove/ |
+| Náradie a dielňa > Mechanické náradie > Kliešte > Kliešte kombinované | 4 / 4 | https://www.premiumstore.sk/klieste-kombinovane/ |
+| Šport, hračky a voľný čas > Sportovní vybavenie > Hoverboardy | 4 / 4 | https://www.premiumstore.sk/hoverboardy/ |
+| Elektroinštalačný materiál > Inštalačné príslušenstvo > Sťahovacie pásky > Plastové sťahovacie pásky | 4 / 4 | https://www.premiumstore.sk/plastove-stahovacie-pasky/ |
+| Náradie a dielňa > Dielenské vybavenie > Kufre a organizéry na náradie > Kufre na náradie | 4 / 4 | https://www.premiumstore.sk/kufre-na-naradie/ |
+| Auto-moto > Vybavenie auta > Osviežovače vzduchu > Vône CITY | 4 / 4 | https://www.premiumstore.sk/vone-city/ |
+| Šport, hračky a voľný čas > Zdravotní potreby > Rehabilitační rotopedy | 4 / 4 | https://www.premiumstore.sk/rehabilitacni-rotopedy/ |
+| Elektroinštalačný materiál > Vypínače, zásuvky, krabice > Svorky a svorkovnice > WAGO svorky | 4 / 4 | https://www.premiumstore.sk/wago-svorky/ |
+| Elektroinštalačný materiál > Komponenty pre svietidlá > Objímky > Plastové objímky E14 | 4 / 4 | https://www.premiumstore.sk/plastove-objimky-e14/ |
 | TV, audio a video > Príslušenstvo > Bezdrátové přenosy signálu | 2 / 4 | https://www.premiumstore.sk/bezdratove-prenosy-signalu/ |
+| TV, audio a video > Antény a satelity > Servis > Aktualizace softvér | 4 / 4 | https://www.premiumstore.sk/aktualizace-softver/ |
+| Fotovoltaika a energie > Akumulátory a batérie > NiMh nabíjacie akumulátory > AAA mikrotužkové | 4 / 4 | https://www.premiumstore.sk/aaa-mikrotuzkove-2/ |
+| Elektroinštalačný materiál > Ventilačné technika > Gravitační žaluzie a klapky > Gravitační žaluzie s nástavcem (na omítku) | 4 / 4 | https://www.premiumstore.sk/gravitacni-zaluzie-s-nastavcem--na-omitku/ |
+| Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory podľa typové rady DOSPEL > Ventilátory - typ STYL | 4 / 4 | https://www.premiumstore.sk/ventilatory-typ-styl/ |
 | Elektroinštalačný materiál > Ventilačné technika > Priemyselné ventilátory > Ventilátory podľa typové rady DOSPEL | 2 / 4 | https://www.premiumstore.sk/ventilatory-podla-typove-rady-dospel-2/ |
+| Náradie a dielňa > Stavebné a maliarske náradie > Malířství a natěračství > Ochranné fólie | 4 / 4 | https://www.premiumstore.sk/ochranne-folie/ |
+| Elektroinštalačný materiál > Ventilačné technika > Mřížky > Mřížka sa síťkou s nástavcem | 4 / 4 | https://www.premiumstore.sk/mrizka-sa-sitkou-s-nastavcem/ |
+| Elektroinštalačný materiál > Ventilačné technika > Priemyselné ventilátory > Ventilátory podľa typové rady VENTS > Ventilátory - typ VK | 4 / 4 | https://www.premiumstore.sk/ventilatory-typ-vk/ |
+| TV, audio a video > Antény a satelity > CAM dekodéry a karty > CA moduly | 4 / 4 | https://www.premiumstore.sk/ca-moduly/ |
+| Dróny a RC modely > Príslušenstvo pre drony > Pristátie | 4 / 4 | https://www.premiumstore.sk/pristatie/ |
+| Šport, hračky a voľný čas > Outdoor > Svietidlá > UV svietidlá | 4 / 4 | https://www.premiumstore.sk/uv-svietidla/ |
+| TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Chladenie počítača > Aktívne chladenie | 4 / 4 | https://www.premiumstore.sk/aktivne-chladenie/ |
+| Šport, hračky a voľný čas > Príslušenstvo pre bicykle > Cyklopočítače | 4 / 4 | https://www.premiumstore.sk/cyklopocitace/ |
+| Šport, hračky a voľný čas > Príslušenstvo pre bicykle > Senzory | 4 / 4 | https://www.premiumstore.sk/senzory-2/ |
+| Šport, hračky a voľný čas > Príslušenstvo pre bicykle > Rukoväte | 4 / 4 | https://www.premiumstore.sk/rukovate/ |
+| TV, audio a video > Mobily a tablety > Tvrdené sklo a fólie > Pre tablety | 4 / 4 | https://www.premiumstore.sk/pre-tablety/ |
+| Domáce spotrebiče > Malé spotrebiče > Kuchynské príslušenstvo > Ostatné | 4 / 4 | https://www.premiumstore.sk/ostatne-19/ |
+| TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Myši > Káblové | 4 / 4 | https://www.premiumstore.sk/kablove/ |
+| Kreatívne technológie > 3D SLAM ručné skenery | 4 / 4 | https://www.premiumstore.sk/3d-slam-rucne-skenery/ |
 | Profesionálna audio technika > Výpredaj | 4 / 4 | https://www.premiumstore.sk/vypredaj/ |
+| Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Vysielačky | 4 / 4 | https://www.premiumstore.sk/vysielacky-3/ |
 | Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Spájkovacie stanice | 4 / 4 | https://www.premiumstore.sk/spajkovacie-stanice/ |
 | Profesionálna audio technika > Pódium, diskotéka, DJ > Gramofóny | 4 / 4 | https://www.premiumstore.sk/gramofony-3/ |
+| Profesionálna audio technika > Car audio > Káble > signálové | 4 / 4 | https://www.premiumstore.sk/signalove/ |
+| Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Megafóny | 4 / 4 | https://www.premiumstore.sk/megafony/ |
+| Profesionálna audio technika > Pódium, diskotéka, DJ > Statívy/držiaky > mikrofónové husí krk | 4 / 4 | https://www.premiumstore.sk/mikrofonove-husi-krk/ |
 | Profesionálna audio technika > Reproduktory > Príslušenstvo k reproduktorom > zvukovody | 4 / 4 | https://www.premiumstore.sk/zvukovody/ |
+| Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Meracie prístroje > Merače iné, detektory a testery | 4 / 4 | https://www.premiumstore.sk/merace-ine--detektory-a-testery/ |
+| Profesionálna audio technika > Svetlá > Divadelné a profesionálne osvetlenie | 4 / 4 | https://www.premiumstore.sk/divadelne-a-profesionalne-osvetlenie/ |
+| Profesionálna audio technika > Pódium, diskotéka, DJ > mixy a powermixy > Zónové mixy | 4 / 4 | https://www.premiumstore.sk/zonove-mixy/ |
+| Elektroinštalačný materiál > Osvetlenie > LED osvetlenie > Kúpeľňové osvetlenie | 4 / 4 | https://www.premiumstore.sk/kupelnove-osvetlenie/ |
 | TV, audio a video > AV káble > Anténa > Konektory a redukcie | 2 / 4 | https://www.premiumstore.sk/konektory-a-redukcie-2/ |
 | Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Jednozásuvkové > Jednozásuvkové  400V | 4 / 4 | https://www.premiumstore.sk/jednozasuvkove--400v/ |
+| Profesionálna audio technika > Hudobné nástroje a príslušenstvo > Gitarové ladičky | 4 / 4 | https://www.premiumstore.sk/gitarove-ladicky/ |
 | TV, audio a video > Audio technika > Řečnické systémy | 3 / 3 | https://www.premiumstore.sk/recnicke-systemy/ |
 | TV, audio a video > Audio technika > Gramofóny | 3 / 3 | https://www.premiumstore.sk/gramofony-2/ |
 | Domáce spotrebiče > Malé spotrebiče > Mini chladničky | 3 / 3 | https://www.premiumstore.sk/mini-chladnicky/ |
@@ -239,6 +743,7 @@ podstrom) overuje priamo na živej kategórii.
 | Profesionálna audio technika > Reproduktory > drivery | 3 / 3 | https://www.premiumstore.sk/drivery/ |
 | Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Zosilňovače hlasu | 3 / 3 | https://www.premiumstore.sk/zosilnovace-hlasu/ |
 | Profesionálna audio technika > Pódium, diskotéka, DJ > Slúchadlá > do ucha | 3 / 3 | https://www.premiumstore.sk/do-ucha/ |
+| Profesionálna audio technika > Reproduktory > Príslušenstvo k reproduktorom > transformátory | 3 / 3 | https://www.premiumstore.sk/transformatory/ |
 | Profesionálna audio technika > Svetlá > UV svetlá a stroboskopy | 3 / 3 | https://www.premiumstore.sk/uv-svetla-a-stroboskopy/ |
 | Profesionálna audio technika > Svetlá > Žiarovky | 3 / 3 | https://www.premiumstore.sk/ziarovky-2/ |
 | Profesionálna audio technika > Pódium, diskotéka, DJ > mixy a powermixy > dj (MPX-) | 3 / 3 | https://www.premiumstore.sk/dj--mpx-/ |
