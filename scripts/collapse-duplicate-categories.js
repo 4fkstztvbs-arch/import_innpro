@@ -82,6 +82,53 @@ const COLLAPSE_MAP = {
   'TV, audio a video > Príslušenstvo > Bezdrátové přenosy signálu > Bluetooth': 'TV, audio a video > Príslušenstvo k TV, audio, video > Bezdrátové přenosy signálu > Bluetooth',
   'TV, audio a video > Príslušenstvo > HDMI prevodníky': 'TV, audio a video > Príslušenstvo k TV, audio, video > HDMI prevodníky',
   'TV, audio a video > Príslušenstvo > HDMI rozbočovače': 'TV, audio a video > Príslušenstvo k TV, audio, video > HDMI rozbočovače',
+
+  // Third pass (2026-08-27), found via a full category audit of the live productsComplete.xml
+  // export (reports/kategorizacia-akcny-plan.md) — the same "same product type, two independent
+  // branches" pattern as above, this time spanning entire parallel sub-trees rather than a single
+  // self-nested leaf. Canonical side chosen the same way as find-category-duplicates.js: lower
+  // Shoptet category id (older/established), not product count.
+  // Headphones split into two unrelated branches under "TV, audio a video" — id 45231
+  // ("Audio technika > Slúchadlá") is the older, more complete tree (has TWS/Náhlavné/Drôtové
+  // sub-splits); id-less "Slúchadlá" directly under the top level is the newer, thinner one.
+  'TV, audio a video > Slúchadlá': 'TV, audio a video > Audio technika > Slúchadlá',
+  'TV, audio a video > Slúchadlá > Drátová': 'TV, audio a video > Audio technika > Slúchadlá > Drátová',
+  'TV, audio a video > Slúchadlá > Bezdrátová': 'TV, audio a video > Audio technika > Slúchadlá > Bezdrátová',
+  'TV, audio a video > Slúchadlá > True Bezdrôtové': 'TV, audio a video > Audio technika > Slúchadlá > True Bezdrôtové',
+  'TV, audio a video > Slúchadlá > Príslušenstvo pre slúchadlá': 'TV, audio a video > Audio technika > Slúchadlá > Príslušenstvo pre slúchadlá',
+  // Extension cords/power strips split by supplier brand (EMOS/ORNO under "Predlžovačky, zásuvky,
+  // vidlica" vs Solight under "Predlžovacie káble a zásuvky") into two parallel trees with the
+  // same length-based sub-structure — folded the smaller Solight branch into the established one.
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Výsuvné a vstavané zásuvky': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Výsuvné a vstavané zásuvky',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Jednozásuvkové > Jednozásuvkové 230V': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Jednozásuvkové > Jednozásuvkové 230V',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Viaczásuvkové > Ostatné': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Viaczásuvkové > Ostatné',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Navíjacie bubny': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Navíjacie bubny',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Jednozásuvkové > Jednozásuvkové  400V': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Jednozásuvkové > Jednozásuvkové  400V',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Viaczásuvkové > Klasické': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Viaczásuvkové > Klasické',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Prepäťové ochrany': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Prepäťové ochrany',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Záhradné stĺpiky': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Záhradné stĺpiky',
+  // Smart hodinky (smart watches) existed at two different nesting depths under "Mobily a
+  // tablety" — folded the bare one into the "Nositeľná elektronika" (wearables) branch. Smart
+  // prstene (smart rings) were nested a level too deep under "Smart hodinky" itself, as if a ring
+  // were a type of watch — moved out to be a direct sibling under "Nositeľná elektronika" instead.
+  'TV, audio a video > Mobily a tablety > Smart hodinky': 'TV, audio a video > Mobily a tablety > Nositeľná elektronika > Smart hodinky',
+  'TV, audio a video > Mobily a tablety > Smart hodinky > Smart prstene': 'TV, audio a video > Mobily a tablety > Nositeľná elektronika > Smart prstene',
+  'TV, audio a video > Mobily a tablety > Smart hodinky > Príslušenstvo': 'TV, audio a video > Mobily a tablety > Nositeľná elektronika > Smart hodinky > Príslušenstvo',
+  // Soundbars, HiFi amplifiers and projectors each had a duplicate nesting within the same
+  // top-level branch (a specific sub-path vs a shallower one for the same product type).
+  'TV, audio a video > Audio technika > Reproduktory > Soundbary': 'TV, audio a video > Audio technika > Soundbary',
+  'TV, audio a video > Audio technika > Zosilňovače': 'TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače',
+  'TV, audio a video > Počítače a príslušenstvo > Monitory > Plátna a projektory > Projektory': 'TV, audio a video > Počítače a príslušenstvo > Projektory a plátna > Projektory',
+  // Powerbanks and smart plugs/sockets each split across two sibling branches of the same
+  // top-level category (Fotovoltaika a energie / Bezpečnosť a smart domácnosť respectively).
+  'Fotovoltaika a energie > Nabíjačky > Powerbanky': 'Fotovoltaika a energie > Záložné zdroje a UPS > Powerbanky',
+  'Bezpečnosť a smart domácnosť > Smart domácnosť > Zásuvky': 'Bezpečnosť a smart domácnosť > Prvky výkonu > Smart zástrčky > Zásuvky',
+  // Same underlying product type (PV cable / heavy-duty power cable / dashcam) filed under two
+  // unrelated top-level categories — folded into the one with the dedicated, larger tree.
+  'Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Fotovoltaické káble': 'Elektroinštalačný materiál > Káble a vodiče > Fotovoltaické káble',
+  'Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál > Silové káble': 'Elektroinštalačný materiál > Káble a vodiče > Silové káble',
+  'Auto-moto > Bezpečnosť > Kamery do autá': 'TV, audio a video > Video technika > Kamery do autá',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our

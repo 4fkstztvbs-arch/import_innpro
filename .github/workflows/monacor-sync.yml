@@ -48,6 +48,9 @@ jobs:
       - name: Fix ignored categories (Heureka)
         run: node scripts/fix-ignored-categories.js
 
+      - name: Collapse thin categories
+        run: node scripts/collapse-thin-categories.js
+
       - name: Commit updated output
         run: |
           git config user.name "monacor-sync-bot"
