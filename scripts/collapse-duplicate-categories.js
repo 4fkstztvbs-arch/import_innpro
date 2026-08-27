@@ -108,6 +108,12 @@ const COLLAPSE_MAP = {
   'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Viaczásuvkové > Klasické': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Viaczásuvkové > Klasické',
   'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Prepäťové ochrany': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Prepäťové ochrany',
   'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Záhradné stĺpiky': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Záhradné stĺpiky',
+  // Bare parent-level entries (no specific type value) — found 2026-08-27 after the first sync
+  // batch: 98 Solight products (65+33) use just "Viaczásuvkové"/"Jednozásuvkové" directly, one
+  // level shallower than the specific-type children already covered above, so the exact-string
+  // matches above missed them.
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Viaczásuvkové': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Viaczásuvkové',
+  'Elektroinštalačný materiál > Predlžovacie káble a zásuvky > Jednozásuvkové': 'Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Jednozásuvkové',
   // Smart hodinky (smart watches) existed at two different nesting depths under "Mobily a
   // tablety" — folded the bare one into the "Nositeľná elektronika" (wearables) branch. Smart
   // prstene (smart rings) were nested a level too deep under "Smart hodinky" itself, as if a ring
