@@ -14,9 +14,11 @@
 // with zero risk of losing the product from navigation entirely. Once a supplier feed grows a thin
 // category past the threshold, this script simply stops touching it — no manual "un-merge" step.
 //
-// Threshold rationale: MIN_CATEGORY_SIZE=4 mirrors the same "≤3 products" cutoff used in the
-// 2026-08-27 category audit (reports/kategorizacia-akcny-plan.md) — a category needs at least a
-// handful of products before it's worth a dedicated page.
+// Threshold rationale: MIN_CATEGORY_SIZE=8 (raised from the initial 4 on 2026-08-27, after the
+// first pass left a browsable-but-still-1873-node tree — see reports/kategorizacia-akcny-plan.md
+// for the original "≤3 products" cutoff, and the follow-up decision to trade some granularity for
+// a shorter tree) — a category needs at least a handful of products before it's worth a dedicated
+// page.
 //
 // SAFETY NOTES (same spirit as find-category-duplicates.js):
 // - Never touches a category that has no parent (single-segment, top-level) — there is nowhere
@@ -39,7 +41,7 @@ const { normalizePath } = require('./resolve-category');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'output');
 const REPO_ROOT = path.join(__dirname, '..');
-const MIN_CATEGORY_SIZE = parseInt(process.env.THIN_CATEGORY_MIN || '4', 10);
+const MIN_CATEGORY_SIZE = parseInt(process.env.THIN_CATEGORY_MIN || '8', 10);
 const MAX_PASSES = 5;
 
 function xmlCdata(s) { return '<![CDATA[' + s.replace(/]]>/g, ']]&gt;') + ']]>'; }
