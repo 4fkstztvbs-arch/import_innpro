@@ -13,6 +13,6 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 
 | Kategória z feedu | Počet produktov | Príklady produktov |
 |---|---|---|
-| Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Držiaky a montážne krabice | 37 | Držák kamer na stožár DKS105 - komaxit slonová kost V2; Držák kamer na stožár DKS105 - galvanický zinek; CP PLUS CP-PR-70 Přídavný montážní nástavec (pro kameru CP-L4C-DX40FL3); CP-PR-124 Přídavný montážní nástavec otevřený; CP PLUS CP-PR-41 Přídavný montážní nástavec otevřený (110mm) |
-| Zdravie a starostlivosť > Chovateľské potreby > Pelíšky | 10 | Pelíšek REBEL ANIMALS RA-1102-M 70x55x16  pro psy a kočky  pohovka; Zátěžová deka Rebel RBY-2001-4   4 kg (100x150 cm) medvídci; Zátěžová deka Rebel RBY-2001-5   5 kg (100x150 cm) medvídci; Pelíšek REBEL ANIMALS RA-1102-XL  95x75x18  pro psy a kočky pohovka; Pelíšek REBEL ANIMALS RA-1102-XXL  110x85x19  pro psy a kočky pohovka |
+| Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Držiaky a montážne krabice | 37 | CP-PR-124 Přídavný montážní nástavec otevřený; CP PLUS CP-PR-41 Přídavný montážní nástavec otevřený (110mm); Přídavný montážní nástavec CP-PR-62; CP-PR-78 Držák na zeď pro dome kamery; CP-PR-83 Držák na zeď pro dome kamery |
+| Zdravie a starostlivosť > Chovateľské potreby > Pelíšky | 10 | Pelíšek REBEL ANIMALS RA-1102-L  80x65x17  pro psy a kočky  pohovka; Pelíšek REBEL ANIMALS RA-1102-M 70x55x16  pro psy a kočky  pohovka; Montážní krabice na kameru  KRUGER & MATZ  KM-PPA100 pro dome a bullet; Zátěžová deka Rebel RBY-2000-5   5 kg (100x150 cm) vesmír; Pelíšek REBEL ANIMALS RA-1102-S  60x45x14  pro psy a kočky pohovka |
 | TV, audio a video > Televízory > 39" - 42" (98 - 107 cm) | 1 | FINLUX 40FFI5661 SMART TV FULL HD TIVO |
