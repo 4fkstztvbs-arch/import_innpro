@@ -13,5 +13,5 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 
 | Kategória z feedu | Počet produktov | Príklady produktov |
 |---|---|---|
-| TV, audio a video > Audio - video káble > CINCH RCA káble | 1 | InAkustik 671934 Kabel jack 3,5 mm 1,5 m |
 | Zdravie a starostlivosť > Masážne prístroje > Masážne pištole | 1 | TrueLife RelaxGun G3 |
+| TV, audio a video > Audio - video káble > CINCH RCA káble | 1 | InAkustik 671934 Kabel jack 3,5 mm 1,5 m |

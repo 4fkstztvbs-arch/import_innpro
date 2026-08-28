@@ -54,5 +54,47 @@
     "subject": "Stav objednavky 202600642",
     "orderCode": "202600642",
     "matchedBy": "code"
+  },
+  "<014b01dd35f1$42694a90$c73bdfb0$@atoselektro.cz>": {
+    "draftedAt": "2026-08-28T01:30:07.981Z",
+    "from": "grajniakova@atoselektro.cz",
+    "subject": "RE: Storno",
+    "orderCode": null,
+    "matchedBy": "none"
+  },
+  "<017401dd35f3$585121a0$08f364e0$@atoselektro.cz>": {
+    "draftedAt": "2026-08-28T01:30:17.679Z",
+    "from": "grajniakova@atoselektro.cz",
+    "subject": "RE: Storno",
+    "orderCode": null,
+    "matchedBy": "none"
+  },
+  "<35F089B1-37BB-44FE-A0A7-50BF2D8DF777@gmail.com>": {
+    "draftedAt": "2026-08-28T01:30:31.472Z",
+    "from": "dadomirec@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600577 sa práve vybavuje",
+    "orderCode": "202600577",
+    "matchedBy": "code"
+  },
+  "<CAKY+wvi_mnby_r+N8HPr22h=egG1cb87_vREESgLHuVDmRddFw@mail.gmail.com>": {
+    "draftedAt": "2026-08-28T01:30:41.003Z",
+    "from": "ivan.baglas@gmail.com",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202600656",
+    "orderCode": "202600656",
+    "matchedBy": "code"
+  },
+  "<CACHmGrNc9wyi9tOFdf7Hi2KDsZNXi=a5pw9LEs25Ok6xqh27rw@mail.gmail.com>": {
+    "draftedAt": "2026-08-28T01:30:54.130Z",
+    "from": "tomsurik@gmail.com",
+    "subject": "Re: Toth zmena dorucenia objednavky",
+    "orderCode": "202600622",
+    "matchedBy": "code"
+  },
+  "<CAPvG=r40nxAHAfRzVpP6_rFoDsvtkdZqF+QE2QZhESFsU-JkuA@mail.gmail.com>": {
+    "draftedAt": "2026-08-28T01:31:12.054Z",
+    "from": "lukasmati666@gmail.com",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202600651",
+    "orderCode": "202600651",
+    "matchedBy": "code"
   }
 }
