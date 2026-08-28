@@ -1,0 +1,266 @@
+# Overenie kategórií na vypnutie oproti živému eshopu — 2026-08-28
+
+Zoznam „prázdnych" kategórií pôvodne vznikol počítaním produktov v `output/*.xml`. To je
+nespoľahlivé: XML obsahuje len produkty, ktoré prejdú dnešnými filtrami (`*_EXCLUDE_UNAVAILABLE=1`
+zahodí všetko, čo nie je skladom), pričom v eshope tie produkty ďalej existujú — plus produkty
+pridané ručne alebo vypadnuté z feedu v XML nikdy neboli. Preto sa každý kandidát (a celý jeho
+podstrom) overuje priamo na živej kategórii.
+
+- Kandidátov pôvodne: **252**
+- Overene prázdnych (ostávajú v CSV na vypnutie): **252**
+- Falošne označených, v skutočnosti majú produkty (odstránené): **0**
+
+## Overene prázdne — pripravené na vypnutie (252)
+
+- TV, audio a video > Drony
+- TV, audio a video > Audio - video káble
+- TV, audio a video > Audio technika > Mixážne pulty
+- TV, audio a video > Audio technika > Karaoke
+- Domáce spotrebiče > Malé spotrebiče > Čistenie
+- Auto-moto > Nosiče bicyklov
+- Auto-moto > Karavany a obytné autá
+- Auto-moto > Prenosné chladničky
+- Auto-moto > Ostatné
+- Auto-moto > Autorádiá > Subwoofery do autá
+- TV, audio a video > Audio technika > HiFi komponenty > Tunery a sieťové prehrávače
+- TV, audio a video > Počítače a príslušenstvo > Ostatné
+- TV, audio a video > Počítače a príslušenstvo > Smartphones
+- TV, audio a video > Počítače a príslušenstvo > Myši
+- TV, audio a video > Počítače a príslušenstvo > Sieťové prvky > IP kamery
+- TV, audio a video > Mobily a tablety > Domáce telefóny
+- TV, audio a video > Mobily a tablety > Prstencové držiaky
+- TV, audio a video > Mobily a tablety > Ostatné
+- TV, audio a video > Mobily a tablety > Držiaky telefónov
+- TV, audio a video > Mobily a tablety > Domáce telefóny > Drátové telefóny
+- Zdravie a starostlivosť > Holiace strojčeky a zastrihávače
+- Zdravie a starostlivosť > Ústne sprchy
+- Zdravie a starostlivosť > Erotika
+- Domáce spotrebiče > Malé spotrebiče > Žehličky > Domové alarmy a zvončeky
+- Náradie a dielňa > Ostatné
+- Náradie a dielňa > Meracie nástroje
+- Náradie a dielňa > Stavebné náradie
+- Náradie a dielňa > Výtlačné a kartušové pištole
+- Náradie a dielňa > Náradie > Elektrické náradie > Vŕtačky
+- Záhrada > Zavlažovacie systémy
+- Záhrada > Záhradné potreby > Lapače, odpudzovače hmyzu a škodcov
+- Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Odkôstkovače
+- Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Krájače a porcovače
+- TV, audio a video > Príslušenstvo k TV, audio, video > Diaľkové ovládače
+- TV, audio a video > Príslušenstvo k TV, audio, video > Batérie a nabíjačky > Mikrotužkové AAA
+- TV, audio a video > Audio - video káble > HDMI káble
+- TV, audio a video > Audio - video káble > Redukcie
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Meteostanice, teplomery, vlhkomery
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Testery alkoholu
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Vonné oleje
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Filtračné kanvice
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Aroma difuzéry
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Hodiny a budíky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské váhy
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Formy na pečení
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Osobné váhy
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Starostlivosť o telo
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kanvice na čaj
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Těsnění do okien a dveří
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Nože a příbory
+- Náradie a dielňa > Náradie > Príslušenstvo pre stroje a náradie > Príslušenstvo AKU a Elektrické náradie > Príslušenstvo pre hoblíky a sústruhy
+- Bezpečnosť a smart domácnosť > Príslušenstvo
+- Bezpečnosť a smart domácnosť > Smart domácnosť > Smart potreby do domácnosti
+- Bezpečnosť a smart domácnosť > Smart domácnosť > IP kamery
+- Bezpečnosť a smart domácnosť > Smart domácnosť > Ostatné smart elektronika
+- Bezpečnosť a smart domácnosť > Smart domácnosť > Robotické vysávače
+- TV, audio a video > Foto a optika > Príslušenstvo > Ostatné
+- Šport, hračky a voľný čas > Fitness Vybavenie
+- Šport, hračky a voľný čas > Turizmus
+- Šport, hračky a voľný čas > Exoskelety
+- Šport, hračky a voľný čas > Hračky > Pre kojencov
+- Domáce spotrebiče > Veľké spotrebiče > Umývačky riadu > Príslušenstvo k umývačke
+- TV, audio a video > Počítače a príslušenstvo > Herné zariadenia > Príslušenstvo ku konzolám > Xbox One - príslušenstvo
+- Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál
+- Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Predlžovacie káble
+- Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Ističe, inštalačné krabice, rozvádzače
+- Náradie a dielňa > Náradie > Stavebné materiál, chémia a technika > Elektroinštalačný materiál > Svorkovnice a Wago svorky
+- TV, audio a video > Televízory > LED televízory
+- TV, audio a video > Televízory > QLED, NeoQLED televízory
+- TV, audio a video > Televízory > OLED televízory
+- TV, audio a video > Televízory > UHD(4K) televízory
+- TV, audio a video > Televízory > nad 48" (120 - 165 cm)
+- TV, audio a video > Televízory > Televízory Ultra HD (4K)
+- TV, audio a video > Televízory > 32" (80 - 82 cm)
+- TV, audio a video > Televízory > 43" (108 - 109 cm)
+- TV, audio a video > Televízory > do 30" (76 cm)
+- TV, audio a video > Televízory > Televízory
+- TV, audio a video > Počítače a príslušenstvo > Tablety > Tablety
+- Fotovoltaika a energie > Nabíjačky > Stanice pre elektrokola
+- Domáce spotrebiče > Malé spotrebiče > Žehličky > Domové alarmy a zvončeky > Bezpečnostní kamery
+- Zdravie a starostlivosť > Chovateľské potreby > Ostatné príslušenstvo
+- Zdravie a starostlivosť > Chovateľské potreby > Starostlivosť o zvieratá
+- Šport, hračky a voľný čas > Posilňovanie a fitness > Príslušenstvo pre posilňovanie
+- Šport, hračky a voľný čas > Cyklistika > Elektrokola
+- Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Ostatné
+- Záhrada > Záhradné doplnky > Bazény a doplnky > Teplomery do bazénů
+- Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Flexo šnúry
+- Auto-moto > Karavany a obytné autá > Grily a variče
+- Auto-moto > Karavany a obytné autá > Parkovací asistenti
+- Auto-moto > Karavany a obytné autá > Kempingový nábytok
+- Auto-moto > Karavany a obytné autá > Autochladničky
+- Auto-moto > Karavany a obytné autá > Batérie do karavanu
+- Auto-moto > Karavany a obytné autá > Meniče napätie
+- Auto-moto > Karavany a obytné autá > Redukcie a adaptéry
+- Auto-moto > Karavany a obytné autá > Nabíjačky batérií
+- Auto-moto > Karavany a obytné autá > Ostatné doplnky
+- Auto-moto > Karavany a obytné autá > Lapače hmyzu
+- Auto-moto > Karavany a obytné autá > Mobilné TV a SAT antény
+- Auto-moto > Karavany a obytné autá > Televízory na 12V
+- TV, audio a video > Antény a satelity > Satelitné príslušenstvo > Slučovače SAT+TV
+- Záhrada > Záhradné doplnky > Zavlažovanie > Hadice
+- Auto-moto > Audio, Hi-Fi > Reproduktory do autá
+- Auto-moto > Audio, Hi-Fi > Autorádiá
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Upratovanie > Metly a mopy na upratovanie
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Upratovanie > Handry, houbičky a utěrky na upratovanie
+- TV, audio a video > AV káble > AV káble
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Pece na pizzu
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Grily
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Mixéry
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Kávovary
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Palacinkovače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Kuchynské roboty
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vaflovače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Sušičky potravín
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Hriankovače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Sendvičovače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Zváračky folií
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Fritézy
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Elektrické hrnce
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Variče
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Rýchlovarné kanvice
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Elektrické panvice
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Výrobníky ľadu
+- Elektroinštalačný materiál > Káble a vodiče > Koaxiálne káble > Železné
+- Záhrada > Záhradné stroje > Píly
+- Záhrada > Záhradné stroje > Záhradné nožnice
+- Šport, hračky a voľný čas > Turistika > Cestování a outdoor
+- Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo > Očká, fastóny, dutinky, spojky > Káblové spojky
+- Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo > Očká, fastóny, dutinky, spojky > Káblová očká
+- Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo > Očká, fastóny, dutinky, spojky > Fastóny
+- Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo > Očká, fastóny, dutinky, spojky > Sady fastonů
+- Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo > Očká, fastóny, dutinky, spojky > Kolíky
+- Auto-moto > Nabíjanie > Štartovacie káble
+- Náradie a dielňa > Stavebné a maliarske náradie > Sadrokartón
+- Náradie a dielňa > Mechanické náradie > Kladivá, dláta, sekery > Výsečníky
+- TV, audio a video > Antény a satelity > SATELITNÉ PRIJÍMAČE > Skylink ready prijímače
+- Elektroinštalačný materiál > Ventilačné technika > Krbové ventilátory
+- Záhrada > Odpudzovače a lapače hmyzu > Odpudzovače a lapače hmyzu
+- Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory podľa typové rady VENTS > Ventilátory - typ PF
+- TV, audio a video > Počítače a príslušenstvo > Disky a pamäťové karty > USB flash disky
+- Fotovoltaika a energie > Fotovoltaika > Solárne panely > Flexibilní solárne panely
+- Šport, hračky a voľný čas > Sportovní vybavenie > Odražedla
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Hodiny a budíky > Budíky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Hodiny a budíky > Hodiny
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Hodiny a budíky > Časovače, minútky
+- Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové videorekordéry (NVR) > 64 kanálů
+- Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové příchytky a držiaky > Páskové hmoždinky
+- Náradie a dielňa > Elektronické súčiastky > Poistky, pojistkové držiaky > Poistky 5x20mm rychlé (F)
+- Náradie a dielňa > Elektronické súčiastky > Poistky, pojistkové držiaky > Poistky 5x20mm pomalé (T)
+- Náradie a dielňa > Elektronické súčiastky > Poistky, pojistkové držiaky > Poistky 6x30mm
+- Záhrada > Záhradné náradie > Záhradné nožnice > Záhradné nožnice
+- Elektroinštalačný materiál > Komponenty pre svietidlá > LED světelné zdroje
+- Elektroinštalačný materiál > Komponenty pre svietidlá > Svorky pre průmyslová svietidlá > Svorky - SLK 3 > 2-pólové svorky - SLK 3/2
+- Elektroinštalačný materiál > Komponenty pre svietidlá > Objímky > Príslušenstvo k objímkám
+- Auto-moto > Karavany a obytné autá > Nabíjačky batérií > Autonabíjačky
+- Auto-moto > Nosiče bicyklov > Príslušenstvo
+- Auto-moto > Nosiče bicyklov > Příčné nosníky
+- Auto-moto > Nosiče bicyklov > Nosiče na tažné zariadenie
+- Auto-moto > Nosiče bicyklov > Střešní nosiče
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Doplnky do domácnosti > Sušiaky na bielizeň
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Doplnky do domácnosti > Koše na bielizeň
+- Záhrada > Záhradné stroje > Píly > Lišty, reťaze, pilníky
+- Záhrada > Záhradné stroje > Píly > Lišty, reťaze, pilníky > Lišty
+- Náradie a dielňa > Elektrické a AKU náradie > Píly > Píly reťazové
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Ostatné kuchynské pomôcky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Lúskačky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Teplomery
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Varešky a obracačky
+- Náradie a dielňa > Kancelária a škola > Školské potreby > Peračníky
+- Auto-moto > Karavany a obytné autá > Mobilné TV a SAT antény > Antény pre DVB-T2 príjem
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače > Ručné vysávače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače > Tyčové vysávače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače > Robotické vysávače
+- Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče > Vysávače > Podlahové vysávače
+- Elektroinštalačný materiál > Ventilačné technika > Priemyselné ventilátory > Ventilátory podľa typové rady VENTS > Ventilátory - typ OV
+- Šport, hračky a voľný čas > Hračky > Vybavenie pokojíčků a školek > Hracie funkční nábytok
+- Náradie a dielňa > Mechanické náradie > Vodo-topo > Horáky
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Starostlivosť o telo > Kulmy a sušiče vlasů
+- Náradie a dielňa > Stavebné a maliarske náradie > Sadrokartón > Hoblíky
+- Elektroinštalačný materiál > Ventilačné technika > Krbové ventilátory > Ventilátory KAM
+- TV, audio a video > Audio technika > Slúchadlá > Slúchadlá
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Efekty a dekorácie > Na párty
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Efekty a dekorácie > Do bytu
+- Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Nože a příbory > Brousky na nože
+- TV, audio a video > Mobily a tablety > Kable USB I > USB-C na Lightning
+- Šport, hračky a voľný čas > Outdoor > Kempovanie
+- Šport, hračky a voľný čas > Outdoor > Príslušenstvo na kľuky
+- Bezpečnosť a smart domácnosť > Prvky výkonu > Senzory
+- Zdravie a starostlivosť > Holiace strojčeky a zastrihávače > Zastrihávače
+- Zdravie a starostlivosť > Holiace strojčeky a zastrihávače > Holiace strojčeky
+- TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Ostatné
+- TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Osvetlenie
+- TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Príslušenstvo pre PlayStation
+- TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Zostavy a sety
+- Zdravie a starostlivosť > Prístroje na tvár > Kavitačné peelingy
+- Zdravie a starostlivosť > Sonické zubné kefky > Sonické zubné kefky
+- TV, audio a video > Mobily a tablety > Smart hodinky > Smart hodinky
+- TV, audio a video > Počítače a príslušenstvo > Káble > Sieťové káble
+- Auto-moto > Videorekordéry > Videorekordéry
+- Náradie a dielňa > Kancelária a škola > Tlačiarne štítkov > Tlačiarne štítkov
+- Zdravie a starostlivosť > Ústne sprchy > Ústne sprchy
+- Kreatívne technológie > Potlač textilu
+- Kreatívne technológie > Roboty
+- Bezpečnosť a smart domácnosť > Prvky výkonu > Smart kúrenie > Ovládače klimatizácie > tepelného čerpadla
+- Zdravie a starostlivosť > Matka a dieťa > Detská izba
+- Zdravie a starostlivosť > Matka a dieťa > Detská izba > Hodinky a budíky
+- Fotovoltaika a energie > Elektrické stanice > Príslušenstvo
+- Fotovoltaika a energie > Elektrické stanice > Elektrické stanice
+- Zdravie a starostlivosť > Erotika > Vibrátory
+- Fotovoltaika a energie > Fotovoltaické panely > Príslušenstvo
+- Fotovoltaika a energie > Fotovoltaické panely > Fotovoltaické panely
+- Fotovoltaika a energie > Fotovoltaické panely > Balkónové systémy
+- TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Klávesnice > Káblové
+- Kreatívne technológie > Roboty > Roboty Humanoidalne
+- Kreatívne technológie > Roboty > Roboty Humanoidalne > Seria R1
+- Profesionálna audio technika > Špeciálna ponuka + Akciové sety
+- Profesionálna audio technika > Multi-room
+- Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Skrinky Do It Yourself
+- Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Príslušenstvo a iné
+- Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Chémia
+- Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Napájanie
+- Profesionálna audio technika > Pódium, diskotéka, DJ > Pódiové, DJ príslušenstvo
+- Profesionálna audio technika > Pódium, diskotéka, DJ > Káble a príslušenstvo
+- Profesionálna audio technika > Pódium, diskotéka, DJ > Distribútory
+- Profesionálna audio technika > Pódium, diskotéka, DJ > ozvučovacie systémy
+- Profesionálna audio technika > Car audio > Príslušenstvo Car audio
+- Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > Prenosné ozvučovacie systémy
+- Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie) > IP ozvučenie
+- Profesionálna audio technika > Tlmočnícke, sprievodcovské a konferenčné systémy > Bezdrôtový, sprievodcovský systém > nabíjačky a príslušenstvo
+- Profesionálna audio technika > Pódium, diskotéka, DJ > Statívy/držiaky > príslušenstvo
+- Profesionálna audio technika > Pódium, diskotéka, DJ > Statívy/držiaky > hudobných nástrojov a nôt
+- Profesionálna audio technika > Svetlá > Statívy a príslušenstvo
+- Profesionálna audio technika > Svetlá > Architektonické osvetlenie
+- Profesionálna audio technika > Svetlá > Svetelné efekty
+- Profesionálna audio technika > Svetlá > Ovládače a kontroléry
+- Profesionálna audio technika > Pódium, diskotéka, DJ > Príslušenstvo k reproduktorom > Iné
+- Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Spájkovacie stanice > príslušenstvo
+- Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Spájkovacie stanice > Spajkovacie stanice
+- Profesionálna audio technika > Káble, konektory a redukcie > Neutrik > Speakon
+- Profesionálna audio technika > Svetlá > Otočné hlavy a skenery > Moving Heads Wash
+- Profesionálna audio technika > JTS > Inštalácie > Konferenčné systémy
+- Profesionálna audio technika > JTS > Slúchadlá > Slúchadlá
+- Profesionálna audio technika > Svetlá > Reflektory PAR > LED reflektory
+- Profesionálna audio technika > Svetlá > Špeciálne efekty a náplne > Ohňostroje
+- Profesionálna audio technika > Svetlá > Lasery > Multicolor Laser
+- TV, audio a video > AV káble > Anténa > Konektory a redukcie > F-konektor
+- Elektroinštalačný materiál > Ostatné > Izolačný materiál > Káblové príchytky
+- Elektroinštalačný materiál > Osvetlenie > LED panely a podhľadová svetla > Příslušenstvo
+- Profesionálna audio technika > Hudobné nástroje a príslušenstvo > Klávesové zosilňovače
+- Druhy > AKCE ATOS 35 LET
