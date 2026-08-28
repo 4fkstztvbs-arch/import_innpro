@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600119,
+    "nextCardNumber": 202600124,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -710,6 +710,36 @@
         "nazov": "Sat LNB MonoTwin Mascom GOLD MC M4-T01HD",
         "dodavatel": "atos",
         "code": "MASM4T01"
+      },
+      "5901436743286": {
+        "kod": "202600119",
+        "nazov": "Baterie olověná 12V / 40 Ah VIPOW bezúdržbový akumulátor",
+        "dodavatel": "atos",
+        "code": "TIP-04250101"
+      },
+      "8424450021552": {
+        "kod": "202600120",
+        "nazov": "Kabel koax. -- METRÁŽ -- Televes 2155 Cu / 6,6 mm / ČERNÝ",
+        "dodavatel": "atos",
+        "code": "2155M"
+      },
+      "5901890101363": {
+        "kod": "202600121",
+        "nazov": "Hrazda multifunkční REBEL ACTIVE RBA-2401",
+        "dodavatel": "atos",
+        "code": "LEC-RBA-2401"
+      },
+      "5901890018531": {
+        "kod": "202600122",
+        "nazov": "Vysílač DO univerzální Samsung RM-D1078 OEM",
+        "dodavatel": "atos",
+        "code": "DOHUA1078"
+      },
+      "5901890124829": {
+        "kod": "202600123",
+        "nazov": "Činky REBEL ACTIVE RBA-2330-2 litinové neoprenové HEX 2x2kg",
+        "dodavatel": "atos",
+        "code": "LEC-RBA-2330-2"
       }
     }
   },
