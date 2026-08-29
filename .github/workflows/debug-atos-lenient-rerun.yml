@@ -1,0 +1,45 @@
+name: Debug ATOS lenient re-run (one-time transition helper)
+
+# One-off manual probe — re-runs transform-atos.js with the price-sanity thresholds relaxed to
+# near-infinite, writing to a SEPARATE output file (not output/atos.xml). Used only to recover the
+# full, correctly-priced XML blocks for the ~135 products that today's safeguarded run correctly
+# but conservatively excluded during the one-time PRICE_VAT pricing transition (2026-08-29) - their
+# old day-over-day/category reference was itself based on the broken purchase-price formula, so a
+# now-correct price looks like a false anomaly against that stale baseline. Manually reviewed
+# (reports/cenove-anomalie-atos.md) and confirmed legitimate before running this. Not scheduled;
+# delete once the products are merged into output/atos.xml.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Run ATOS transform with relaxed sanity thresholds
+        env:
+          ATOS_URL: ${{ secrets.ATOS_URL }}
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+          ATOS_OUT: output/atos-lenient-temp.xml
+          PRICE_SANITY_RATIO: '1000000'
+          PRICE_SANITY_CATEGORY_RATIO: '1000000'
+        run: node scripts/transform-atos.js
+
+      - name: Upload lenient output artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: atos-lenient-temp
+          path: output/atos-lenient-temp.xml
