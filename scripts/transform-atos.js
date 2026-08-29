@@ -61,6 +61,12 @@ function proxyImgAspUrl(rawUrl) {
 // Solight is also a direct supplier with better purchase prices — don't re-sell their own
 // products relabelled under ATOS.
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
+
+// ATOS feed bug (found 2026-08-29): these 5 solar bundle variants ("Solární sestava ostrovní
+// TRINA 1820Wp...") carry a broken PURCHASE_PRICE (19.26 EUR) from the supplier feed — a factor
+// of ~80x too low for a ~2145 EUR product (confirmed against ATOS's own storefront price).
+// Excluded until ATOS corrects their feed; remove once verified fixed.
+const EXCLUDED_CODES = new Set(['ATO-04280479', 'ATO-04280480', 'ATO-04280481', 'ATO-04280483', 'ATO-04280487']);
 const TREE_ROOT = 'Druhy';
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('atos');
@@ -259,6 +265,7 @@ async function main() {
     let p;
     try { p = parseAtosItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
+    if (EXCLUDED_CODES.has(p.code)) { stats.skippedBadPrice = (stats.skippedBadPrice || 0) + 1; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
     if (p.purchasePriceCZK <= 0) { stats.skippedNoPrice++; return; }
 
