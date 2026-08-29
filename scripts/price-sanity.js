@@ -38,10 +38,13 @@
 //
 // Usage in each transform-*.js - TWO PASSES, because the category-outlier check needs to see the
 // WHOLE feed's own prices before it can judge any single one of them:
-//   const { loadPreviousPrices, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats,
-//           checkPriceSanity, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
-//   const previousPrices = loadPreviousPrices(OUT_PATH);          // BEFORE the write stream truncates it
-//   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH); // same timing
+//   const { loadPreviousPrices, buildCategoryPriceStats, buildOwnPreviousCategoryStats,
+//           buildFeedCategoryStats, mergeCategoryStats, checkPriceSanity, checkCategoryOutlier,
+//           writeAnomalyReport } = require('./price-sanity');
+//   const previousPrices = loadPreviousPrices(OUT_PATH);              // BEFORE the write stream truncates it
+//   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);      // same timing
+//   const ownPreviousCategoryStats = buildOwnPreviousCategoryStats(OUT_PATH); // same timing
+//   const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
 //   const anomalies = [];
 //   const candidates = [];
 //   ...PASS 1: parse the feed as usual, but instead of writing/checking immediately, once `price`
@@ -53,7 +56,7 @@
 //   ...PASS 2: for each candidate...
 //   const dayOverDay = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
 //   if (!dayOverDay.sane) { anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...dayOverDay }); continue; }
-//   const outlier = checkCategoryOutlier(categoryStats, catalogCategoryStats, c.category, c.price);
+//   const outlier = checkCategoryOutlier(categoryStats, bypassCategoryStats, c.category, c.price);
 //   if (!outlier.sane) { anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...outlier }); continue; }
 //   out.write(buildShopitemXml(c) + '\n'); stats.written++;
 //   ...wherever a product is skipped for price <= 0 (still during PASS 1, no candidate needed)...
@@ -129,11 +132,32 @@ function median(nums) {
   return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
 }
 
-// Scans every output/*.xml currently on disk and buckets prices by leaf category (the first
-// <CATEGORY> entry in each product's <CATEGORIES> block, which our own buildShopitemXml always
-// writes most-specific-first). excludeOutPath skips the caller's own file, since it's about to be
-// overwritten by this very run and its "current" content is really yesterday's leftovers -
-// harmless to include, but cleaner to leave out.
+// Parses one Shoptet-native XML file into category -> [prices], bucketed by leaf category (the
+// first <CATEGORY> entry in each product's <CATEGORIES> block, which our own buildShopitemXml
+// always writes most-specific-first). Shared by buildCategoryPriceStats (many files) and
+// buildOwnPreviousCategoryStats (one file) below.
+function categoryStatsFromFile(xmlPath, byCategory) {
+  let xml;
+  try { xml = fs.readFileSync(xmlPath, 'utf-8'); } catch (e) { return; }
+  const blockRe = /<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g;
+  let m;
+  while ((m = blockRe.exec(xml))) {
+    const block = m[0];
+    const catBlockM = block.match(/<CATEGORIES>([\s\S]*?)<\/CATEGORIES>/);
+    const priceM = block.match(/<PRICE_VAT>([\s\S]*?)<\/PRICE_VAT>/);
+    if (!catBlockM || !priceM) continue;
+    const catM = catBlockM[1].match(/<CATEGORY>(?:<!\[CDATA\[([\s\S]*?)\]\]>|([^<]*))<\/CATEGORY>/);
+    if (!catM) continue;
+    const category = (catM[1] !== undefined ? catM[1] : catM[2] || '').trim();
+    const price = parseFloat(priceM[1]);
+    if (!category || !Number.isFinite(price) || price <= 0) continue;
+    if (!byCategory.has(category)) byCategory.set(category, []);
+    byCategory.get(category).push(price);
+  }
+}
+
+// Scans every output/*.xml currently on disk EXCEPT excludeOutPath (the caller's own file, about
+// to be overwritten by this very run) and buckets prices by leaf category.
 function buildCategoryPriceStats(excludeOutPath) {
   const byCategory = new Map();
   let files = [];
@@ -142,24 +166,23 @@ function buildCategoryPriceStats(excludeOutPath) {
   for (const f of files) {
     const full = path.join(OUTPUT_DIR, f);
     if (excludeResolved && path.resolve(full) === excludeResolved) continue;
-    let xml;
-    try { xml = fs.readFileSync(full, 'utf-8'); } catch (e) { continue; }
-    const blockRe = /<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g;
-    let m;
-    while ((m = blockRe.exec(xml))) {
-      const block = m[0];
-      const catBlockM = block.match(/<CATEGORIES>([\s\S]*?)<\/CATEGORIES>/);
-      const priceM = block.match(/<PRICE_VAT>([\s\S]*?)<\/PRICE_VAT>/);
-      if (!catBlockM || !priceM) continue;
-      const catM = catBlockM[1].match(/<CATEGORY>(?:<!\[CDATA\[([\s\S]*?)\]\]>|([^<]*))<\/CATEGORY>/);
-      if (!catM) continue;
-      const category = (catM[1] !== undefined ? catM[1] : catM[2] || '').trim();
-      const price = parseFloat(priceM[1]);
-      if (!category || !Number.isFinite(price) || price <= 0) continue;
-      if (!byCategory.has(category)) byCategory.set(category, []);
-      byCategory.get(category).push(price);
-    }
+    categoryStatsFromFile(full, byCategory);
   }
+  return byCategory;
+}
+
+// Scans ONLY the caller's own previous file (yesterday's committed output/<supplier>.xml, read
+// BEFORE this run's write stream truncates it - same timing as buildCategoryPriceStats). Needed
+// alongside the cross-supplier catalog above: a category that's effectively exclusive to one
+// supplier (e.g. InnPro's own accessory categories - cheap replacement parts next to full kits,
+// naturally 100-150x spread) has ZERO samples in every OTHER supplier's catalog, so the
+// cross-supplier-only bypass in checkCategoryOutlier never fires for it and the check applies
+// strictly against that supplier's own normal (wide) price variety - a guaranteed false positive.
+// Confirmed against real data (2026-08-29 InnPro import): 185 perfectly normal products flagged
+// this way before this fix.
+function buildOwnPreviousCategoryStats(outPath) {
+  const byCategory = new Map();
+  if (outPath) categoryStatsFromFile(outPath, byCategory);
   return byCategory;
 }
 
@@ -203,26 +226,33 @@ function mergeCategoryStats(...maps) {
 // a promise of narrow prices; some categories are legitimately price-heterogeneous (budget vs.
 // premium models of the same product type) and always will be.
 //
-// Fix: only apply the ratio test to a category whose ESTABLISHED catalog prices (catalogStats -
-// the on-disk output/*.xml from every OTHER supplier, unaffected by whatever this run might be
-// about to write) are already internally consistent (max/min within CATEGORY_RATIO). If the
-// catalog itself already spans wider than that, the category is inherently heterogeneous and the
-// check is skipped entirely for it - a wide spread there is normal, not a signal. Deliberately
-// uses catalogStats (not the merged feed+catalog stats) for this bypass decision: if it used the
-// merged stats instead, a genuine multi-SKU pricing bug in THIS feed (e.g. 5 solar bundles all
-// wrongly priced at 27 EUR next to the catalog's real ~2000 EUR entries) would blow the spread
-// wide open by itself and bypass the very check meant to catch it.
+// Fix: only apply the ratio test to a category whose ESTABLISHED prices (bypassStats - see below)
+// are already internally consistent (max/min within CATEGORY_RATIO). If they already span wider
+// than that, the category is inherently heterogeneous and the check is skipped entirely for it -
+// a wide spread there is normal, not a signal.
+//
+// bypassStats must be built from data UNAFFECTED by whatever this run is about to write - the
+// caller merges TWO such sources: (a) the cross-supplier catalog (every OTHER supplier's
+// output/*.xml), and (b) THIS supplier's own previous file, read before this run's write stream
+// truncates it. Both matter: (a) alone misses any category that's effectively exclusive to one
+// supplier - checked against real data (2026-08-29), InnPro's own accessory categories (cheap
+// replacement parts next to full kits, naturally 100-150x spread) have ZERO samples in every
+// other supplier's catalog, so relying on (a) alone never bypassed them and flagged 185 perfectly
+// normal products in one run. Deliberately excludes THIS run's own new candidates (the merged
+// feed+catalog stats used below, once the gate is passed): if it didn't, a genuine multi-SKU
+// pricing bug in this feed (e.g. 5 solar bundles all wrongly priced at 27 EUR) would blow the
+// spread open by itself and bypass the very check meant to catch it.
 //
 // Once a category passes that gate, the actual flag/pass decision still runs against the merged
 // (feed + catalog) stats as before, so a single bad price still gets compared to the fullest
 // picture available.
-function checkCategoryOutlier(mergedStats, catalogStats, category, price) {
+function checkCategoryOutlier(mergedStats, bypassStats, category, price) {
   if (!category || !Number.isFinite(price) || price <= 0) return { sane: true }; // zero-price check handles this
-  const catalogPrices = catalogStats.get(category);
-  if (catalogPrices && catalogPrices.length >= MIN_CATEGORY_SAMPLES) {
-    const catalogMin = Math.min(...catalogPrices);
-    const catalogMax = Math.max(...catalogPrices);
-    if (catalogMin > 0 && catalogMax / catalogMin > CATEGORY_RATIO) return { sane: true }; // inherently heterogeneous category - not a signal
+  const bypassPrices = bypassStats.get(category);
+  if (bypassPrices && bypassPrices.length >= MIN_CATEGORY_SAMPLES) {
+    const bypassMin = Math.min(...bypassPrices);
+    const bypassMax = Math.max(...bypassPrices);
+    if (bypassMin > 0 && bypassMax / bypassMin > CATEGORY_RATIO) return { sane: true }; // inherently heterogeneous category - not a signal
   }
   const prices = mergedStats.get(category);
   if (!prices || prices.length < MIN_CATEGORY_SAMPLES) return { sane: true };
@@ -272,6 +302,6 @@ function writeAnomalyReport(supplier, anomalies) {
 
 module.exports = {
   loadPreviousPrices, checkPriceSanity,
-  buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier,
+  buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier,
   writeAnomalyReport,
 };

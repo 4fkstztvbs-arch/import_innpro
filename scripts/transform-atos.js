@@ -24,7 +24,7 @@ const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { extractCompatibleModels } = require('./extract-compatible-models');
 
@@ -256,6 +256,8 @@ async function main() {
   console.log('Streaming ATOS feed and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
+  const ownPreviousCategoryStats = buildOwnPreviousCategoryStats(OUT_PATH);
+  const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
   const anomalies = [];
 
   const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0, withCompatibleModels: 0 };
@@ -347,7 +349,7 @@ async function main() {
       anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...sanity });
       continue;
     }
-    const categoryOutlier = checkCategoryOutlier(categoryStats, catalogCategoryStats, c.category, c.price);
+    const categoryOutlier = checkCategoryOutlier(categoryStats, bypassCategoryStats, c.category, c.price);
     if (!categoryOutlier.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
       anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });

@@ -35,7 +35,7 @@ const { parseWiimPricelist } = require('./parse-wiim-pricelist');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 
 const PDF_PATH = process.env.WIIM_PDF || path.join(__dirname, '..', 'data', 'wiim-pricelist.pdf');
 const OUT_PATH = process.env.WIIM_OUT || path.join(__dirname, '..', 'output', 'wiim.xml');
@@ -112,6 +112,8 @@ function main() {
 
   const previousPrices = loadPreviousPrices(OUT_PATH);
   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
+  const ownPreviousCategoryStats = buildOwnPreviousCategoryStats(OUT_PATH);
+  const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
   const anomalies = [];
 
   const seenCodes = new Set();
@@ -162,7 +164,7 @@ function main() {
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   for (const c of candidates) {
-    const categoryOutlier = checkCategoryOutlier(categoryStats, catalogCategoryStats, c.category, c.price);
+    const categoryOutlier = checkCategoryOutlier(categoryStats, bypassCategoryStats, c.category, c.price);
     if (!categoryOutlier.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
       anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
