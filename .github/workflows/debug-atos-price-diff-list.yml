@@ -1,0 +1,38 @@
+name: Debug ATOS price diff list probe
+
+# One-off manual probe — prints the ~183 ATOS products where a hypothetical PRICE_VAT-based
+# price would differ from our current purchase-price-based price by >=2x or <=0.5x, for manual
+# review before deciding whether to switch ATOS pricing to PRICE_VAT. Not scheduled; delete once
+# the answer is known.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: List ATOS price divergences
+        env:
+          ATOS_URL: ${{ secrets.ATOS_URL }}
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+        run: node scripts/debug-atos-price-diff-list.js > atos-price-diffs.tsv
+
+      - name: Upload TSV artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: atos-price-diffs
+          path: atos-price-diffs.tsv
