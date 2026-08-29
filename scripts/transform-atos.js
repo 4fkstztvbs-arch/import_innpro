@@ -24,7 +24,7 @@ const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { extractCompatibleModels } = require('./extract-compatible-models');
 
@@ -255,6 +255,7 @@ async function main() {
 
   console.log('Streaming ATOS feed and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
+  const categoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
@@ -270,7 +271,11 @@ async function main() {
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
     if (EXCLUDED_CODES.has(p.code)) { stats.skippedBadPrice = (stats.skippedBadPrice || 0) + 1; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
-    if (p.purchasePriceCZK <= 0) { stats.skippedNoPrice++; return; }
+    if (p.purchasePriceCZK <= 0) {
+      stats.skippedNoPrice++;
+      anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'zero-price', newPrice: 0 });
+      return;
+    }
 
     const purchaseEUR = p.purchasePriceCZK * rate;
     if (MIN_COST > 0 && purchaseEUR < MIN_COST) { stats.skippedCheap++; return; }
@@ -282,12 +287,19 @@ async function main() {
     const sanity = checkPriceSanity(previousPrices, p.code, p.ean, price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: p.code, ean: p.ean, name: p.name, ...sanity });
+      anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'day-over-day', ...sanity });
       return;
     }
 
     const { defaultCategory, extraCategories, unmatchedCategory } = resolveAtosCategories(p.categoryTexts, p.name);
     if (!defaultCategory) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
+
+    const categoryOutlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'category-outlier', ...categoryOutlier });
+      return;
+    }
 
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
     if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; return; }

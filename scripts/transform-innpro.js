@@ -17,7 +17,7 @@ const { parseProduct } = require('./parse-product');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
@@ -204,6 +204,7 @@ async function main() {
 
   console.log('Streaming full.xml and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
+  const categoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
@@ -221,7 +222,11 @@ async function main() {
     let cost;
     if (lightEntry) { cost = lightEntry.price; stats.fromLight++; }
     else cost = p.priceNet;
-    if (cost <= 0) { stats.skippedNoPrice++; return; }
+    if (cost <= 0) {
+      stats.skippedNoPrice++;
+      anomalies.push({ code: p.codeOnCard || p.id, ean: p.ean, name: p.name, reason: 'zero-price', newPrice: 0 });
+      return;
+    }
     if (MIN_COST > 0 && cost < MIN_COST) { stats.skippedCheap++; return; }
 
     let price = roundPrice(cost * (1 + MARKUP_PCT / 100) * (1 + parseFloat(p.vat) / 100));
@@ -230,7 +235,7 @@ async function main() {
     const sanity = checkPriceSanity(previousPrices, p.codeOnCard || p.id, p.ean, price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: p.codeOnCard || p.id, ean: p.ean, name: p.name, ...sanity });
+      anomalies.push({ code: p.codeOnCard || p.id, ean: p.ean, name: p.name, reason: 'day-over-day', ...sanity });
       return;
     }
 
@@ -240,6 +245,13 @@ async function main() {
     if (CATEGORY_OVERRIDES_BY_CODE[productCode]) {
       category = CATEGORY_OVERRIDES_BY_CODE[productCode];
       extraCategories = pathToExtraCategories(category);
+    }
+
+    const categoryOutlier = checkCategoryOutlier(categoryStats, category, price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: productCode, ean: p.ean, name: p.name, reason: 'category-outlier', ...categoryOutlier });
+      return;
     }
 
     let stockQty = 0, stockInfinite = false;

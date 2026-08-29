@@ -50,7 +50,7 @@ const { roundPrice, roundPriceDown } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { streamRecords } = require('./stream-records');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
@@ -257,6 +257,7 @@ async function main() {
   console.log(`Total products to import: ${resolvedItems.length} (${priceList.length} z oficiálneho cenníka, ${resolvedItems.length - priceList.length} s odhadovanou nákupnou cenou z feedu).`);
 
   const previousPrices = loadPreviousPrices(OUT_PATH);
+  const categoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
@@ -302,10 +303,22 @@ async function main() {
     // currently the cheapest seller by a wide margin.
     const price = applyHeurekaPriceTarget(item.ean, roundPrice(item.mocInclVat), purchasePrice, parseFloat(VAT));
 
+    if (price === 0) {
+      anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, reason: 'zero-price', newPrice: 0 });
+      continue;
+    }
+
     const sanity = checkPriceSanity(previousPrices, 'BASYS-' + item.objKod, item.ean, price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, ...sanity });
+      anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, reason: 'day-over-day', ...sanity });
+      continue;
+    }
+
+    const categoryOutlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, reason: 'category-outlier', ...categoryOutlier });
       continue;
     }
 

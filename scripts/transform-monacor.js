@@ -14,7 +14,7 @@ const { parseMonacorProduct } = require('./parse-monacor');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 
 const URL = process.env.MONACOR_URL;
 const MARKUP_PCT = parseFloat(process.env.MONACOR_MARKUP || '0');
@@ -83,6 +83,7 @@ async function main() {
 
   console.log('Streaming MONACOR feed and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
+  const categoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
@@ -96,7 +97,11 @@ async function main() {
     let p;
     try { p = parseMonacorProduct(rawXml); } catch (e) { return; }
     if (!p) return;
-    if (p.basePrice <= 0) { stats.skippedNoPrice++; return; }
+    if (p.basePrice <= 0) {
+      stats.skippedNoPrice++;
+      anomalies.push({ code: p.number || p.id, ean: p.ean, name: p.baseName, reason: 'zero-price', newPrice: 0 });
+      return;
+    }
     if (MIN_COST > 0 && p.basePrice < MIN_COST) { stats.skippedCheap++; return; }
 
     let code = p.number || p.id || ('MON' + stats.total);
@@ -111,7 +116,7 @@ async function main() {
     const sanity = checkPriceSanity(previousPrices, code, p.ean, price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: p.ean, name, ...sanity });
+      anomalies.push({ code, ean: p.ean, name, reason: 'day-over-day', ...sanity });
       return;
     }
 
@@ -127,6 +132,13 @@ async function main() {
       extraCategories = catPaths.slice(1);
     } else if (ROOT_CATEGORY) {
       defaultCategory = ROOT_CATEGORY;
+    }
+
+    const categoryOutlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code, ean: p.ean, name, reason: 'category-outlier', ...categoryOutlier });
+      return;
     }
 
     let description = p.description;

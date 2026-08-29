@@ -35,7 +35,7 @@ const { parseWiimPricelist } = require('./parse-wiim-pricelist');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 
 const PDF_PATH = process.env.WIIM_PDF || path.join(__dirname, '..', 'data', 'wiim-pricelist.pdf');
 const OUT_PATH = process.env.WIIM_OUT || path.join(__dirname, '..', 'output', 'wiim.xml');
@@ -111,6 +111,7 @@ function main() {
   console.log(`Parsed ${records.length} colour-variant rows.`);
 
   const previousPrices = loadPreviousPrices(OUT_PATH);
+  const categoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
@@ -122,7 +123,11 @@ function main() {
 
   records.forEach((r) => {
     stats.total++;
-    if (!r.priceEur || r.priceEur <= 0) { stats.skippedNoPrice++; return; }
+    if (!r.priceEur || r.priceEur <= 0) {
+      stats.skippedNoPrice++;
+      anomalies.push({ code: r.sku, ean: r.ean, name: `${r.productName} ${r.color}`.trim(), reason: 'zero-price', newPrice: 0 });
+      return;
+    }
 
     let code = r.sku;
     if (!code || code === 'TBA') {
@@ -140,10 +145,17 @@ function main() {
     }
     const price = roundPrice(r.priceEur * (1 + MARKUP_PCT / 100));
 
+    const categoryOutlier = checkCategoryOutlier(categoryStats, category, price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code, ean: r.ean, name, reason: 'category-outlier', ...categoryOutlier });
+      return;
+    }
+
     const sanity = checkPriceSanity(previousPrices, code, r.ean, price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: r.ean, name, ...sanity });
+      anomalies.push({ code, ean: r.ean, name, reason: 'day-over-day', ...sanity });
       return;
     }
 

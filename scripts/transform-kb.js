@@ -19,7 +19,7 @@ const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('kb');
@@ -296,6 +296,7 @@ async function main() {
   };
   const products = [];
   const previousPrices = loadPreviousPrices(OUT_PATH);
+  const categoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
 
   await streamRecords(ZBOZI_URL, 'zaznam', (rawXml) => {
@@ -352,11 +353,16 @@ async function main() {
       stats.invalidPrice = (stats.invalidPrice || 0) + 1;
       return;
     }
+    if (price === 0) {
+      stats.invalidPrice = (stats.invalidPrice || 0) + 1;
+      anomalies.push({ code, ean, name, reason: 'zero-price', newPrice: 0 });
+      return;
+    }
 
     const sanity = checkPriceSanity(previousPrices, code, ean, price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean, name, ...sanity });
+      anomalies.push({ code, ean, name, reason: 'day-over-day', ...sanity });
       return;
     }
 
@@ -368,6 +374,13 @@ async function main() {
       const gated = categoryMatcher.resolve(defaultCategory, { trusted: leafTrusted, productLabel: name });
       if (gated.excluded) { stats.skippedUnmatchedCategory++; return; }
       defaultCategory = gated.category;
+    }
+
+    const categoryOutlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code, ean, name, reason: 'category-outlier', ...categoryOutlier });
+      return;
     }
 
     const availCode = prodAvail[pid];

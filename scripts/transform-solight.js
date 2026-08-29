@@ -18,7 +18,7 @@ const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 // Mobilné klimatizácie (portable AC units) explicitly hidden from the Heureka feed on request
@@ -240,6 +240,7 @@ async function main() {
 
   console.log('Streaming Solight feed and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
+  const categoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
@@ -256,7 +257,11 @@ async function main() {
     let p;
     try { p = parseSolightProduct(rawXml); } catch (e) { return; }
     if (!p) return;
-    if (p.costEUR <= 0) { stats.noPrice++; return; }
+    if (p.costEUR <= 0) {
+      stats.noPrice++;
+      anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'zero-price', newPrice: 0 });
+      return;
+    }
     if (MIN_COST > 0 && p.costEUR < MIN_COST) { stats.skippedCheap++; return; }
 
     let code = p.code || ('SOL' + stats.total);
@@ -266,18 +271,29 @@ async function main() {
     const basePrice = p.eshopPriceEUR > 0 ? p.eshopPriceEUR : p.costEUR;
     let price = roundPrice(basePrice * (1 + MARKUP_PCT / 100));
     price = applyHeurekaPriceTarget(p.ean, price, p.costEUR, parseFloat(VAT));
-    if (isNaN(price) || price < 0) { stats.invalidPrice++; return; }
+    if (isNaN(price) || price <= 0) {
+      stats.invalidPrice++;
+      anomalies.push({ code, ean: p.ean, name: p.name, reason: 'zero-price', newPrice: price || 0 });
+      return;
+    }
 
     const sanity = checkPriceSanity(previousPrices, code, p.ean, price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: p.ean, name: p.name, ...sanity });
+      anomalies.push({ code, ean: p.ean, name: p.name, reason: 'day-over-day', ...sanity });
       return;
     }
 
     const { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.categoryRaw, p.name);
     const heurekaHidden = isCpcNonConverter(p.ean) || MOBILE_AC_CATEGORY_RE.test(p.categoryRaw || '');
     if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedByCategory++; return; }
+
+    const categoryOutlier = checkCategoryOutlier(categoryStats, category, price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code, ean: p.ean, name: p.name, reason: 'category-outlier', ...categoryOutlier });
+      return;
+    }
 
     let availability, isAvailable;
     if (p.stockQty > 0) {
