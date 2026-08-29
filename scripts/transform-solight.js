@@ -18,7 +18,7 @@ const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 // Mobilné klimatizácie (portable AC units) explicitly hidden from the Heureka feed on request
@@ -240,17 +240,15 @@ async function main() {
 
   console.log('Streaming Solight feed and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
-  const categoryStats = buildCategoryPriceStats(OUT_PATH);
+  const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
-  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   const stats = {
     total: 0, written: 0, skippedCheap: 0, skippedUnavailable: 0, skippedByCategory: 0, skippedUnmatchedCategory: 0,
     noPrice: 0, withDocs: 0, withVideo: 0, invalidPrice: 0,
   };
   const seenCodes = new Set();
+  const candidates = [];
 
   await streamRecords(URL, 'product', (rawXml) => {
     stats.total++;
@@ -277,23 +275,9 @@ async function main() {
       return;
     }
 
-    const sanity = checkPriceSanity(previousPrices, code, p.ean, price);
-    if (!sanity.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: p.ean, name: p.name, reason: 'day-over-day', ...sanity });
-      return;
-    }
-
     const { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.categoryRaw, p.name);
     const heurekaHidden = isCpcNonConverter(p.ean) || MOBILE_AC_CATEGORY_RE.test(p.categoryRaw || '');
     if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedByCategory++; return; }
-
-    const categoryOutlier = checkCategoryOutlier(categoryStats, category, price);
-    if (!categoryOutlier.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: p.ean, name: p.name, reason: 'category-outlier', ...categoryOutlier });
-      return;
-    }
 
     let availability, isAvailable;
     if (p.stockQty > 0) {
@@ -332,15 +316,40 @@ async function main() {
 
     const images = p.images.filter((u) => !isKnownBrokenImage(u)).slice(0, MAX_IMAGES).map(fixImageUrl);
 
-    const shopitem = buildShopitemXml({
-      code, name: p.name, description, shortDescription, manufacturer: p.manufacturer,
-      warranty: p.warranty, ean: p.ean, defaultCategory: category, extraCategories,
-      images, params: p.params, availability, weightKg: p.weightKg, price,
-      purchasePrice: p.costEUR, seoTitle, metaDescription, heurekaHidden,
+    candidates.push({
+      code, ean: p.ean, name: p.name, category, price,
+      shopitemData: {
+        code, name: p.name, description, shortDescription, manufacturer: p.manufacturer,
+        warranty: p.warranty, ean: p.ean, defaultCategory: category, extraCategories,
+        images, params: p.params, availability, weightKg: p.weightKg, price,
+        purchasePrice: p.costEUR, seoTitle, metaDescription, heurekaHidden,
+      },
     });
-    out.write(shopitem + '\n');
-    stats.written++;
   });
+
+  const feedCategoryStats = buildFeedCategoryStats(candidates);
+  const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
+
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
+  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
+  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
+
+  for (const c of candidates) {
+    const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...sanity });
+      continue;
+    }
+    const categoryOutlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
+      continue;
+    }
+    out.write(buildShopitemXml(c.shopitemData) + '\n');
+    stats.written++;
+  }
 
   out.write('</SHOP>\n');
   out.end();

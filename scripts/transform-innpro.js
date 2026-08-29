@@ -17,7 +17,7 @@ const { parseProduct } = require('./parse-product');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
@@ -204,13 +204,11 @@ async function main() {
 
   console.log('Streaming full.xml and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
-  const categoryStats = buildCategoryPriceStats(OUT_PATH);
+  const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
-  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedUnavailable: 0, fromLight: 0 };
+  const candidates = [];
 
   await streamProducts(FULL_URL, (rawXml) => {
     stats.total++;
@@ -232,26 +230,12 @@ async function main() {
     let price = roundPrice(cost * (1 + MARKUP_PCT / 100) * (1 + parseFloat(p.vat) / 100));
     price = applyHeurekaPriceTarget(p.ean, price, cost, parseFloat(p.vat));
 
-    const sanity = checkPriceSanity(previousPrices, p.codeOnCard || p.id, p.ean, price);
-    if (!sanity.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: p.codeOnCard || p.id, ean: p.ean, name: p.name, reason: 'day-over-day', ...sanity });
-      return;
-    }
-
     let { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.category, p.name);
     if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
     const productCode = p.codeOnCard || p.id;
     if (CATEGORY_OVERRIDES_BY_CODE[productCode]) {
       category = CATEGORY_OVERRIDES_BY_CODE[productCode];
       extraCategories = pathToExtraCategories(category);
-    }
-
-    const categoryOutlier = checkCategoryOutlier(categoryStats, category, price);
-    if (!categoryOutlier.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: productCode, ean: p.ean, name: p.name, reason: 'category-outlier', ...categoryOutlier });
-      return;
     }
 
     let stockQty = 0, stockInfinite = false;
@@ -281,29 +265,54 @@ async function main() {
       155
     );
 
-    const shopitem = buildShopitemXml({
-      code: p.codeOnCard || p.id,
-      name: p.name,
-      description,
-      shortDescription,
-      manufacturer: p.manufacturer,
-      warranty: p.warranty,
-      ean: p.ean,
-      category,
-      extraCategories,
-      images: p.images.slice(0, MAX_IMAGES),
-      params: p.params,
-      availability,
-      weightKg: p.weightKg,
-      price,
-      purchasePrice: cost,
-      vat: p.vat,
-      seoTitle,
-      metaDescription,
+    candidates.push({
+      code: productCode, ean: p.ean, name: p.name, category, price,
+      shopitemData: {
+        code: productCode,
+        name: p.name,
+        description,
+        shortDescription,
+        manufacturer: p.manufacturer,
+        warranty: p.warranty,
+        ean: p.ean,
+        category,
+        extraCategories,
+        images: p.images.slice(0, MAX_IMAGES),
+        params: p.params,
+        availability,
+        weightKg: p.weightKg,
+        price,
+        purchasePrice: cost,
+        vat: p.vat,
+        seoTitle,
+        metaDescription,
+      },
     });
-    out.write(shopitem + '\n');
-    stats.written++;
   });
+
+  const feedCategoryStats = buildFeedCategoryStats(candidates);
+  const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
+
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
+  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
+  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
+
+  for (const c of candidates) {
+    const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...sanity });
+      continue;
+    }
+    const categoryOutlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
+      continue;
+    }
+    out.write(buildShopitemXml(c.shopitemData) + '\n');
+    stats.written++;
+  }
 
   out.write('</SHOP>\n');
   out.end();

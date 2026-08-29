@@ -5,17 +5,23 @@
 //    preceding import. Catches a price that changed unrealistically for a product we already knew.
 //
 // 2. CATEGORY OUTLIER: flags a product whose price is a wild outlier against the current median
-//    price for its own leaf category, built fresh from every output/*.xml on disk (all suppliers
-//    combined - a "Fotovoltaika > Solárne zostavy" reference price isn't ATOS-specific). Catches
-//    a bad price on a product's very FIRST import too, when check #1 has nothing to compare
-//    against yet.
+//    price for its own leaf category. The reference median is built from TWO sources merged
+//    together: (a) every OTHER product in this same run's own freshly-parsed feed that landed in
+//    the same category, and (b) the existing on-disk catalog (every output/*.xml from every OTHER
+//    supplier). Both matter: (a) catches a single bad SKU sitting among many correctly-priced
+//    siblings in the same feed; (b) catches an entire category being wrong in one supplier's feed,
+//    where every bad SKU agrees with every other bad SKU and (a) alone would see nothing unusual.
+//    Catches a bad price on a product's very FIRST import too, when check #1 has nothing to
+//    compare against yet.
 //
 // Both exist because of the same real incident: 2026-08-29, a user spotted an ATOS solar bundle
 // ("Solární sestava ostrovní TRINA 1820Wp...") live on the shop at 27 EUR instead of ~2145 EUR -
-// ATOS's own feed had sent a PURCHASE_PRICE ~80x too low for that SKU. Our pricing math (purchase
-// price x markup x VAT) was internally correct; the bad input just sailed straight through. Check
-// #1 alone would only have caught it from the SECOND bad import onward - check #2 catches it
-// immediately, the very first time such a product (new or existing) shows up with a broken price.
+// ATOS's own feed had sent a PURCHASE_PRICE ~80x too low for FIVE related SKUs at once (so they
+// agreed with each other - an in-feed-only comparison would have missed it). Our pricing math
+// (purchase price x markup x VAT) was internally correct; the bad input just sailed straight
+// through. Check #1 alone would only have caught it from the SECOND bad import onward - check #2
+// catches it immediately, the very first time such a product (new or existing) shows up with a
+// broken price, because it also weighs the established cross-supplier catalog median.
 //
 // A third, simpler safeguard lives alongside these: EXPLICIT ZERO/INVALID PRICE REPORTING. Every
 // transform-*.js already refuses to publish a product with price <= 0 (via its own
@@ -23,19 +29,27 @@
 // push those into the same `anomalies` list (reason: 'zero-price') so they show up in the report
 // below instead of vanishing into a stats counter nobody reads.
 //
-// Usage in each transform-*.js:
-//   const { loadPreviousPrices, buildCategoryPriceStats, checkPriceSanity, checkCategoryOutlier,
-//           writeAnomalyReport } = require('./price-sanity');
-//   const previousPrices = loadPreviousPrices(OUT_PATH);        // BEFORE the write stream truncates it
-//   const categoryStats = buildCategoryPriceStats(OUT_PATH);    // same timing
+// Usage in each transform-*.js - TWO PASSES, because the category-outlier check needs to see the
+// WHOLE feed's own prices before it can judge any single one of them:
+//   const { loadPreviousPrices, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats,
+//           checkPriceSanity, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+//   const previousPrices = loadPreviousPrices(OUT_PATH);          // BEFORE the write stream truncates it
+//   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH); // same timing
 //   const anomalies = [];
-//   ...once `price` (final, post-Heureka-override) is known...
-//   const dayOverDay = checkPriceSanity(previousPrices, p.code, p.ean, price);
-//   if (!dayOverDay.sane) { anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'day-over-day', ...dayOverDay }); return; }
-//   ...once `defaultCategory` (the resolved leaf category) is known...
-//   const outlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
-//   if (!outlier.sane) { anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'category-outlier', ...outlier }); return; }
-//   ...wherever a product is skipped for price <= 0...
+//   const candidates = [];
+//   ...PASS 1: parse the feed as usual, but instead of writing/checking immediately, once `price`
+//   and `defaultCategory` are known for a record, push a candidate and move on:
+//   candidates.push({ code, ean: p.ean, name, category: defaultCategory, price, ...rest-needed-to-render });
+//   ...after the feed is fully parsed...
+//   const feedCategoryStats = buildFeedCategoryStats(candidates);
+//   const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
+//   ...PASS 2: for each candidate...
+//   const dayOverDay = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
+//   if (!dayOverDay.sane) { anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...dayOverDay }); continue; }
+//   const outlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+//   if (!outlier.sane) { anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...outlier }); continue; }
+//   out.write(buildShopitemXml(c) + '\n'); stats.written++;
+//   ...wherever a product is skipped for price <= 0 (still during PASS 1, no candidate needed)...
 //   anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'zero-price', newPrice: price || 0 });
 //   ...at the end of main()...
 //   writeAnomalyReport('atos', anomalies);
@@ -142,6 +156,40 @@ function buildCategoryPriceStats(excludeOutPath) {
   return byCategory;
 }
 
+// Same bucketing as buildCategoryPriceStats, but from an in-memory list of {category, price}
+// candidates collected during THIS run's own feed parse - not from disk. Needed because the
+// on-disk catalog (buildCategoryPriceStats) can't see a brand-new category, and because an
+// entire-category-wrong-in-one-feed incident (like the actual 2026-08-29 ATOS bug: 5 SKUs that
+// all agreed with each other on the same wrong price) needs to be checked against something OTHER
+// than "other prices in this same feed" too - see mergeCategoryStats below.
+function buildFeedCategoryStats(items) {
+  const byCategory = new Map();
+  for (const it of items) {
+    const category = it.category;
+    const price = it.price;
+    if (!category || !Number.isFinite(price) || price <= 0) continue;
+    if (!byCategory.has(category)) byCategory.set(category, []);
+    byCategory.get(category).push(price);
+  }
+  return byCategory;
+}
+
+// Combines multiple category->prices maps (e.g. this run's own feed + the existing on-disk
+// catalog from every OTHER supplier) into one, so checkCategoryOutlier judges each product
+// against the fullest picture available: other prices in the very feed it came from, AND the
+// established cross-supplier catalog.
+function mergeCategoryStats(...maps) {
+  const merged = new Map();
+  for (const map of maps) {
+    if (!map) continue;
+    for (const [cat, prices] of map) {
+      if (!merged.has(cat)) merged.set(cat, []);
+      merged.get(cat).push(...prices);
+    }
+  }
+  return merged;
+}
+
 function checkCategoryOutlier(categoryStats, category, price) {
   if (!category || !Number.isFinite(price) || price <= 0) return { sane: true }; // zero-price check handles this
   const prices = categoryStats.get(category);
@@ -192,6 +240,6 @@ function writeAnomalyReport(supplier, anomalies) {
 
 module.exports = {
   loadPreviousPrices, checkPriceSanity,
-  buildCategoryPriceStats, checkCategoryOutlier,
+  buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier,
   writeAnomalyReport,
 };

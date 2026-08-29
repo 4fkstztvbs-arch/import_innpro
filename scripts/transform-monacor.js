@@ -14,7 +14,7 @@ const { parseMonacorProduct } = require('./parse-monacor');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 
 const URL = process.env.MONACOR_URL;
 const MARKUP_PCT = parseFloat(process.env.MONACOR_MARKUP || '0');
@@ -83,14 +83,12 @@ async function main() {
 
   console.log('Streaming MONACOR feed and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
-  const categoryStats = buildCategoryPriceStats(OUT_PATH);
+  const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
-  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedUnavailable: 0 };
   const seenCodes = new Set();
+  const candidates = [];
 
   await streamRecords(URL, 'product', (rawXml) => {
     stats.total++;
@@ -113,13 +111,6 @@ async function main() {
     // shop naming convention: "Značka Model popis"
     const name = [p.manufacturer, p.number, p.baseName].filter(Boolean).join(' ').trim() || p.baseName;
 
-    const sanity = checkPriceSanity(previousPrices, code, p.ean, price);
-    if (!sanity.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: p.ean, name, reason: 'day-over-day', ...sanity });
-      return;
-    }
-
     if (EXCLUDE_UNAVAILABLE && p.stock <= 0 && p.foreignstock <= 0) { stats.skippedUnavailable++; return; }
     const availability = p.stock > 0 ? 'Skladom' : (p.foreignstock > 0 ? FOREIGN_AVAIL_TEXT : 'Nedostupné');
 
@@ -132,13 +123,6 @@ async function main() {
       extraCategories = catPaths.slice(1);
     } else if (ROOT_CATEGORY) {
       defaultCategory = ROOT_CATEGORY;
-    }
-
-    const categoryOutlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
-    if (!categoryOutlier.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: p.ean, name, reason: 'category-outlier', ...categoryOutlier });
-      return;
     }
 
     let description = p.description;
@@ -160,14 +144,37 @@ async function main() {
     const seoTitle = truncateAtWord(`${seoCore} | ${STORE_NAME}`, 70);
     const metaDescription = truncateAtWord(`${seoCore} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
-    const shopitem = buildShopitemXml({
-      code, name, description, shortDescription, manufacturer: p.manufacturer, ean: p.ean,
-      defaultCategory, extraCategories, images: p.images, availability, weightKg: p.weightKg,
-      price, seoTitle, metaDescription,
+    candidates.push({
+      code, ean: p.ean, name, category: defaultCategory, price,
+      shopitemData: { code, name, description, shortDescription, manufacturer: p.manufacturer, ean: p.ean,
+        defaultCategory, extraCategories, images: p.images, availability, weightKg: p.weightKg,
+        price, seoTitle, metaDescription },
     });
-    out.write(shopitem + '\n');
-    stats.written++;
   });
+
+  const feedCategoryStats = buildFeedCategoryStats(candidates);
+  const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
+
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
+  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
+  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
+
+  for (const c of candidates) {
+    const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...sanity });
+      continue;
+    }
+    const categoryOutlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
+      continue;
+    }
+    out.write(buildShopitemXml(c.shopitemData) + '\n');
+    stats.written++;
+  }
 
   out.write('</SHOP>\n');
   out.end();

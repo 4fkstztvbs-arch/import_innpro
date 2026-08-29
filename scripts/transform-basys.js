@@ -50,7 +50,7 @@ const { roundPrice, roundPriceDown } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { streamRecords } = require('./stream-records');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
@@ -257,17 +257,15 @@ async function main() {
   console.log(`Total products to import: ${resolvedItems.length} (${priceList.length} z oficiálneho cenníka, ${resolvedItems.length - priceList.length} s odhadovanou nákupnou cenou z feedu).`);
 
   const previousPrices = loadPreviousPrices(OUT_PATH);
-  const categoryStats = buildCategoryPriceStats(OUT_PATH);
+  const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
-  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   const stats = {
     total: resolvedItems.length, fromPriceList: priceList.length, estimated: resolvedItems.length - priceList.length,
     written: 0, enriched: 0, noEnrichment: 0, onPromo: 0, cloudImages: 0, feedImages: 0, noImages: 0,
     categoryMapped: 0, categoryFallback: 0,
   };
+  const rawCandidates = [];
 
   for (const item of resolvedItems) {
     const enrich = feedMap.get(norm(item.objKod));
@@ -305,20 +303,6 @@ async function main() {
 
     if (price === 0) {
       anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, reason: 'zero-price', newPrice: 0 });
-      continue;
-    }
-
-    const sanity = checkPriceSanity(previousPrices, 'BASYS-' + item.objKod, item.ean, price);
-    if (!sanity.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, reason: 'day-over-day', ...sanity });
-      continue;
-    }
-
-    const categoryOutlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
-    if (!categoryOutlier.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, reason: 'category-outlier', ...categoryOutlier });
       continue;
     }
 
@@ -377,11 +361,36 @@ async function main() {
     const seoTitle = truncateAtWord(`${name} | ${STORE_NAME}`, 70);
     const metaDescription = truncateAtWord(`${name} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
-    const shopitem = buildShopitemXml({
-      code: 'BASYS-' + item.objKod, ean: item.ean, name, manufacturer: item.manufacturer, description, shortDescription, availability,
-      defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
+    rawCandidates.push({
+      code: 'BASYS-' + item.objKod, ean: item.ean, name, category: defaultCategory, price,
+      shopitemData: {
+        code: 'BASYS-' + item.objKod, ean: item.ean, name, manufacturer: item.manufacturer, description, shortDescription, availability,
+        defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
+      },
     });
-    out.write(shopitem + '\n');
+  }
+
+  const feedCategoryStats = buildFeedCategoryStats(rawCandidates);
+  const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
+
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
+  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
+  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
+
+  for (const c of rawCandidates) {
+    const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...sanity });
+      continue;
+    }
+    const categoryOutlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
+      continue;
+    }
+    out.write(buildShopitemXml(c.shopitemData) + '\n');
     stats.written++;
   }
 

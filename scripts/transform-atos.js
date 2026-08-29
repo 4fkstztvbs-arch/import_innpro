@@ -24,7 +24,7 @@ const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { extractCompatibleModels } = require('./extract-compatible-models');
 
@@ -255,14 +255,12 @@ async function main() {
 
   console.log('Streaming ATOS feed and building Shoptet XML...');
   const previousPrices = loadPreviousPrices(OUT_PATH);
-  const categoryStats = buildCategoryPriceStats(OUT_PATH);
+  const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
-  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0, withCompatibleModels: 0 };
   const auth = { username: USERNAME, password: PASSWORD };
+  const candidates = [];
 
   await streamRecords(URL, 'SHOPITEM', (rawXml) => {
     stats.total++;
@@ -284,22 +282,8 @@ async function main() {
     let price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
     price = applyHeurekaPriceTarget(p.ean, price, purchaseEUR, parseFloat(vat));
 
-    const sanity = checkPriceSanity(previousPrices, p.code, p.ean, price);
-    if (!sanity.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'day-over-day', ...sanity });
-      return;
-    }
-
     const { defaultCategory, extraCategories, unmatchedCategory } = resolveAtosCategories(p.categoryTexts, p.name);
     if (!defaultCategory) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
-
-    const categoryOutlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
-    if (!categoryOutlier.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'category-outlier', ...categoryOutlier });
-      return;
-    }
 
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
     if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; return; }
@@ -336,17 +320,42 @@ async function main() {
       }
     }
 
-    const shopitem = buildShopitemXml({
-      code: p.code, name: p.name, description: p.description, shortDescription,
-      manufacturer: p.manufacturer, warranty: p.warranty, ean: p.ean,
-      defaultCategory, extraCategories, images: p.images, params: p.params, compatibleModels,
-      alternatives: p.alternatives, actionFlag: p.actionFlag, newFlag: p.newFlag, tipFlag: p.tipFlag,
-      availability, weightKg: p.weightKg, price, purchasePrice: purchaseEUR, vat,
-      recyclingFeePrice, seoTitle, metaDescription,
+    candidates.push({
+      code: p.code, ean: p.ean, name: p.name, category: defaultCategory, price,
+      shopitemData: {
+        code: p.code, name: p.name, description: p.description, shortDescription,
+        manufacturer: p.manufacturer, warranty: p.warranty, ean: p.ean,
+        defaultCategory, extraCategories, images: p.images, params: p.params, compatibleModels,
+        alternatives: p.alternatives, actionFlag: p.actionFlag, newFlag: p.newFlag, tipFlag: p.tipFlag,
+        availability, weightKg: p.weightKg, price, purchasePrice: purchaseEUR, vat,
+        recyclingFeePrice, seoTitle, metaDescription,
+      },
     });
-    out.write(shopitem + '\n');
-    stats.written++;
   }, auth);
+
+  const feedCategoryStats = buildFeedCategoryStats(candidates);
+  const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
+
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
+  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
+  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
+
+  for (const c of candidates) {
+    const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...sanity });
+      continue;
+    }
+    const categoryOutlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
+      continue;
+    }
+    out.write(buildShopitemXml(c.shopitemData) + '\n');
+    stats.written++;
+  }
 
   out.write('</SHOP>\n');
   out.end();

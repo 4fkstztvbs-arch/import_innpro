@@ -35,7 +35,7 @@ const { parseWiimPricelist } = require('./parse-wiim-pricelist');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 
 const PDF_PATH = process.env.WIIM_PDF || path.join(__dirname, '..', 'data', 'wiim-pricelist.pdf');
 const OUT_PATH = process.env.WIIM_OUT || path.join(__dirname, '..', 'output', 'wiim.xml');
@@ -111,15 +111,13 @@ function main() {
   console.log(`Parsed ${records.length} colour-variant rows.`);
 
   const previousPrices = loadPreviousPrices(OUT_PATH);
-  const categoryStats = buildCategoryPriceStats(OUT_PATH);
+  const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
-  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
-  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
-  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   const seenCodes = new Set();
   const unmappedProducts = new Set();
   const stats = { total: 0, written: 0, skippedDuplicateCode: 0, skippedNoPrice: 0, tbaSkuFallback: 0 };
+  const candidates = [];
 
   records.forEach((r) => {
     stats.total++;
@@ -145,31 +143,40 @@ function main() {
     }
     const price = roundPrice(r.priceEur * (1 + MARKUP_PCT / 100));
 
-    const categoryOutlier = checkCategoryOutlier(categoryStats, category, price);
-    if (!categoryOutlier.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: r.ean, name, reason: 'category-outlier', ...categoryOutlier });
-      return;
-    }
-
-    const sanity = checkPriceSanity(previousPrices, code, r.ean, price);
-    if (!sanity.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean: r.ean, name, reason: 'day-over-day', ...sanity });
-      return;
-    }
-
     const seoTitle = truncateAtWord(`${name} | ${STORE_NAME}`, 70);
     const metaDescription = truncateAtWord(`${name} – ${AVAILABILITY.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
-    const shopitem = buildShopitemXml({
-      code, ean: r.ean, name, category, description: r.description,
-      shortDescription: truncateAtWord(r.description, 200),
-      weightKg: r.weightKg, price, seoTitle, metaDescription,
+    candidates.push({
+      code, ean: r.ean, name, category, price,
+      shopitemData: { code, ean: r.ean, name, category, description: r.description,
+        shortDescription: truncateAtWord(r.description, 200),
+        weightKg: r.weightKg, price, seoTitle, metaDescription },
     });
-    out.write(shopitem + '\n');
-    stats.written++;
   });
+
+  const feedCategoryStats = buildFeedCategoryStats(candidates);
+  const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
+
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
+  const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
+  out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
+
+  for (const c of candidates) {
+    const categoryOutlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
+      continue;
+    }
+    const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...sanity });
+      continue;
+    }
+    out.write(buildShopitemXml(c.shopitemData) + '\n');
+    stats.written++;
+  }
 
   out.write('</SHOP>\n');
   out.end();

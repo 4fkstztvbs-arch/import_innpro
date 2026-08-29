@@ -19,7 +19,7 @@ const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('kb');
@@ -294,9 +294,9 @@ async function main() {
     noPriceInfo: 0, skippedCheap: 0, usedRecommendedPrice: 0, usedMarkupPrice: 0,
     marginFloorApplied: 0, recyclingFeeCount: 0, energyLabelCandidates: 0, energyLabelsFound: 0,
   };
-  const products = [];
+  const rawCandidates = [];
   const previousPrices = loadPreviousPrices(OUT_PATH);
-  const categoryStats = buildCategoryPriceStats(OUT_PATH);
+  const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const anomalies = [];
 
   await streamRecords(ZBOZI_URL, 'zaznam', (rawXml) => {
@@ -359,13 +359,6 @@ async function main() {
       return;
     }
 
-    const sanity = checkPriceSanity(previousPrices, code, ean, price);
-    if (!sanity.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean, name, reason: 'day-over-day', ...sanity });
-      return;
-    }
-
     const catId = prodCategoryId[pid];
     let defaultCategory = catId ? buildPath(catId) : '';
     const extraCategories = catId ? ancestorPathsOf(catId) : [];
@@ -374,13 +367,6 @@ async function main() {
       const gated = categoryMatcher.resolve(defaultCategory, { trusted: leafTrusted, productLabel: name });
       if (gated.excluded) { stats.skippedUnmatchedCategory++; return; }
       defaultCategory = gated.category;
-    }
-
-    const categoryOutlier = checkCategoryOutlier(categoryStats, defaultCategory, price);
-    if (!categoryOutlier.sane) {
-      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
-      anomalies.push({ code, ean, name, reason: 'category-outlier', ...categoryOutlier });
-      return;
     }
 
     const availCode = prodAvail[pid];
@@ -406,14 +392,37 @@ async function main() {
       155
     );
 
-    products.push({
-      code, name, description, shortDescription, manufacturer, ean, warranty,
-      defaultCategory, extraCategories, image, availability, price,
-      purchasePrice: cenaNakupna, vat, recyclingFeeCategory, recyclingFeePrice,
-      seoTitle, metaDescription,
+    rawCandidates.push({
+      code, ean, name, category: defaultCategory, price,
+      shopitemData: {
+        code, name, description, shortDescription, manufacturer, ean, warranty,
+        defaultCategory, extraCategories, image, availability, price,
+        purchasePrice: cenaNakupna, vat, recyclingFeeCategory, recyclingFeePrice,
+        seoTitle, metaDescription,
+      },
     });
-    stats.written++;
   });
+
+  const feedCategoryStats = buildFeedCategoryStats(rawCandidates);
+  const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
+
+  const products = [];
+  for (const c of rawCandidates) {
+    const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...sanity });
+      continue;
+    }
+    const categoryOutlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+    if (!categoryOutlier.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
+      continue;
+    }
+    products.push(c.shopitemData);
+    stats.written++;
+  }
 
   if (CHECK_ENERGY_LABELS) {
     const candidates = [];
