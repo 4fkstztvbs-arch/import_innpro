@@ -162,7 +162,7 @@ function main() {
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   for (const c of candidates) {
-    const categoryOutlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+    const categoryOutlier = checkCategoryOutlier(categoryStats, catalogCategoryStats, c.category, c.price);
     if (!categoryOutlier.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
       anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });

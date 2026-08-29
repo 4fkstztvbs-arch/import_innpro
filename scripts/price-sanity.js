@@ -5,7 +5,14 @@
 //    preceding import. Catches a price that changed unrealistically for a product we already knew.
 //
 // 2. CATEGORY OUTLIER: flags a product whose price is a wild outlier against the current median
-//    price for its own leaf category. The reference median is built from TWO sources merged
+//    price for its own leaf category - but ONLY for a category whose established catalog prices
+//    are already internally consistent (max/min within CATEGORY_RATIO). Many real categories
+//    legitimately mix cheap and premium items (a "Slúchadlá" leaf spans a 7 EUR earbud tip and a
+//    4000 EUR studio pair) - checked against the real catalog on 2026-08-29, an unconditional
+//    version of this check flagged 776 perfectly normal products across 281 categories. So a
+//    category only gets checked once its own history shows it's normally narrow; a category
+//    that's already wide is left alone entirely, because "wide" is its normal state, not a signal.
+//    The reference median (once a category passes that gate) is built from TWO sources merged
 //    together: (a) every OTHER product in this same run's own freshly-parsed feed that landed in
 //    the same category, and (b) the existing on-disk catalog (every output/*.xml from every OTHER
 //    supplier). Both matter: (a) catches a single bad SKU sitting among many correctly-priced
@@ -46,7 +53,7 @@
 //   ...PASS 2: for each candidate...
 //   const dayOverDay = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
 //   if (!dayOverDay.sane) { anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...dayOverDay }); continue; }
-//   const outlier = checkCategoryOutlier(categoryStats, c.category, c.price);
+//   const outlier = checkCategoryOutlier(categoryStats, catalogCategoryStats, c.category, c.price);
 //   if (!outlier.sane) { anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...outlier }); continue; }
 //   out.write(buildShopitemXml(c) + '\n'); stats.written++;
 //   ...wherever a product is skipped for price <= 0 (still during PASS 1, no candidate needed)...
@@ -190,9 +197,34 @@ function mergeCategoryStats(...maps) {
   return merged;
 }
 
-function checkCategoryOutlier(categoryStats, category, price) {
+// Real catalog data (checked 2026-08-29) showed this check firing on 776 perfectly legitimate
+// products across 281 categories - things like "Slúchadlá" spanning a genuinely cheap 7.40 EUR
+// earbud tip up to a 4000 EUR studio pair in the very same leaf category. A leaf category isn't
+// a promise of narrow prices; some categories are legitimately price-heterogeneous (budget vs.
+// premium models of the same product type) and always will be.
+//
+// Fix: only apply the ratio test to a category whose ESTABLISHED catalog prices (catalogStats -
+// the on-disk output/*.xml from every OTHER supplier, unaffected by whatever this run might be
+// about to write) are already internally consistent (max/min within CATEGORY_RATIO). If the
+// catalog itself already spans wider than that, the category is inherently heterogeneous and the
+// check is skipped entirely for it - a wide spread there is normal, not a signal. Deliberately
+// uses catalogStats (not the merged feed+catalog stats) for this bypass decision: if it used the
+// merged stats instead, a genuine multi-SKU pricing bug in THIS feed (e.g. 5 solar bundles all
+// wrongly priced at 27 EUR next to the catalog's real ~2000 EUR entries) would blow the spread
+// wide open by itself and bypass the very check meant to catch it.
+//
+// Once a category passes that gate, the actual flag/pass decision still runs against the merged
+// (feed + catalog) stats as before, so a single bad price still gets compared to the fullest
+// picture available.
+function checkCategoryOutlier(mergedStats, catalogStats, category, price) {
   if (!category || !Number.isFinite(price) || price <= 0) return { sane: true }; // zero-price check handles this
-  const prices = categoryStats.get(category);
+  const catalogPrices = catalogStats.get(category);
+  if (catalogPrices && catalogPrices.length >= MIN_CATEGORY_SAMPLES) {
+    const catalogMin = Math.min(...catalogPrices);
+    const catalogMax = Math.max(...catalogPrices);
+    if (catalogMin > 0 && catalogMax / catalogMin > CATEGORY_RATIO) return { sane: true }; // inherently heterogeneous category - not a signal
+  }
+  const prices = mergedStats.get(category);
   if (!prices || prices.length < MIN_CATEGORY_SAMPLES) return { sane: true };
   const med = median(prices);
   if (!(med > 0)) return { sane: true };
