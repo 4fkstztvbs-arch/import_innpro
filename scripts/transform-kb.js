@@ -19,6 +19,7 @@ const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('kb');
@@ -294,6 +295,8 @@ async function main() {
     marginFloorApplied: 0, recyclingFeeCount: 0, energyLabelCandidates: 0, energyLabelsFound: 0,
   };
   const products = [];
+  const previousPrices = loadPreviousPrices(OUT_PATH);
+  const anomalies = [];
 
   await streamRecords(ZBOZI_URL, 'zaznam', (rawXml) => {
     stats.total++;
@@ -347,6 +350,13 @@ async function main() {
 
     if (isNaN(price) || isNaN(cenaNakupna) || price < 0 || cenaNakupna < 0) {
       stats.invalidPrice = (stats.invalidPrice || 0) + 1;
+      return;
+    }
+
+    const sanity = checkPriceSanity(previousPrices, code, ean, price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code, ean, name, ...sanity });
       return;
     }
 
@@ -419,6 +429,7 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
+  writeAnomalyReport('kb', anomalies);
   const categoryReport = categoryMatcher.writeReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);

@@ -14,6 +14,7 @@ const { parseMonacorProduct } = require('./parse-monacor');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
 
 const URL = process.env.MONACOR_URL;
 const MARKUP_PCT = parseFloat(process.env.MONACOR_MARKUP || '0');
@@ -81,6 +82,8 @@ async function main() {
   if (!URL) { console.error('Missing MONACOR_URL environment variable.'); process.exit(1); }
 
   console.log('Streaming MONACOR feed and building Shoptet XML...');
+  const previousPrices = loadPreviousPrices(OUT_PATH);
+  const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
@@ -104,6 +107,13 @@ async function main() {
 
     // shop naming convention: "Značka Model popis"
     const name = [p.manufacturer, p.number, p.baseName].filter(Boolean).join(' ').trim() || p.baseName;
+
+    const sanity = checkPriceSanity(previousPrices, code, p.ean, price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code, ean: p.ean, name, ...sanity });
+      return;
+    }
 
     if (EXCLUDE_UNAVAILABLE && p.stock <= 0 && p.foreignstock <= 0) { stats.skippedUnavailable++; return; }
     const availability = p.stock > 0 ? 'Skladom' : (p.foreignstock > 0 ? FOREIGN_AVAIL_TEXT : 'Nedostupné');
@@ -152,6 +162,7 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
+  writeAnomalyReport('monacor', anomalies);
   console.log(JSON.stringify(stats, null, 2));
   console.log('Output written to', OUT_PATH);
 }

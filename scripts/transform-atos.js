@@ -24,6 +24,7 @@ const { roundPrice } = require('./round-price');
 const { translateCategoryName } = require('./translate-cz-sk');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { extractCompatibleModels } = require('./extract-compatible-models');
 
@@ -253,6 +254,8 @@ async function main() {
   console.log(`  -> 1 CZK = ${rate} EUR`);
 
   console.log('Streaming ATOS feed and building Shoptet XML...');
+  const previousPrices = loadPreviousPrices(OUT_PATH);
+  const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
@@ -275,6 +278,13 @@ async function main() {
     const vat = '23'; // sell in Slovakia — ATOS's own VAT field (21) reflects Czech VAT, not ours
     let price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
     price = applyHeurekaPriceTarget(p.ean, price, purchaseEUR, parseFloat(vat));
+
+    const sanity = checkPriceSanity(previousPrices, p.code, p.ean, price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: p.code, ean: p.ean, name: p.name, ...sanity });
+      return;
+    }
 
     const { defaultCategory, extraCategories, unmatchedCategory } = resolveAtosCategories(p.categoryTexts, p.name);
     if (!defaultCategory) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
@@ -331,6 +341,7 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
+  writeAnomalyReport('atos', anomalies);
   const categoryReport = categoryMatcher.writeReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);

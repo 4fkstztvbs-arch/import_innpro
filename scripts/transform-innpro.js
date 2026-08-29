@@ -17,6 +17,7 @@ const { parseProduct } = require('./parse-product');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
 const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
@@ -202,6 +203,8 @@ async function main() {
   console.log(`  -> ${lightData.size} products with live price/stock`);
 
   console.log('Streaming full.xml and building Shoptet XML...');
+  const previousPrices = loadPreviousPrices(OUT_PATH);
+  const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
@@ -223,6 +226,13 @@ async function main() {
 
     let price = roundPrice(cost * (1 + MARKUP_PCT / 100) * (1 + parseFloat(p.vat) / 100));
     price = applyHeurekaPriceTarget(p.ean, price, cost, parseFloat(p.vat));
+
+    const sanity = checkPriceSanity(previousPrices, p.codeOnCard || p.id, p.ean, price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: p.codeOnCard || p.id, ean: p.ean, name: p.name, ...sanity });
+      return;
+    }
 
     let { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.category, p.name);
     if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
@@ -289,6 +299,7 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
+  writeAnomalyReport('innpro', anomalies);
   const categoryReport = categoryMatcher.writeReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);

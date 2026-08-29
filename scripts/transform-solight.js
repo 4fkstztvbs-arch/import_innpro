@@ -18,6 +18,7 @@ const { parseSolightProduct } = require('./parse-solight');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 // Mobilné klimatizácie (portable AC units) explicitly hidden from the Heureka feed on request
@@ -238,6 +239,8 @@ async function main() {
   if (!URL) { console.error('Missing SOLIGHT_URL environment variable.'); process.exit(1); }
 
   console.log('Streaming Solight feed and building Shoptet XML...');
+  const previousPrices = loadPreviousPrices(OUT_PATH);
+  const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
@@ -264,6 +267,13 @@ async function main() {
     let price = roundPrice(basePrice * (1 + MARKUP_PCT / 100));
     price = applyHeurekaPriceTarget(p.ean, price, p.costEUR, parseFloat(VAT));
     if (isNaN(price) || price < 0) { stats.invalidPrice++; return; }
+
+    const sanity = checkPriceSanity(previousPrices, code, p.ean, price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code, ean: p.ean, name: p.name, ...sanity });
+      return;
+    }
 
     const { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.categoryRaw, p.name);
     const heurekaHidden = isCpcNonConverter(p.ean) || MOBILE_AC_CATEGORY_RE.test(p.categoryRaw || '');
@@ -321,6 +331,7 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
+  writeAnomalyReport('solight', anomalies);
   const categoryReport = categoryMatcher.writeReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);

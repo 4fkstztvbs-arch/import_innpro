@@ -25,6 +25,7 @@ const { parsePentaItem } = require('./parse-penta');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 const URL = process.env.PENTA_URL;
@@ -223,6 +224,8 @@ async function main() {
   if (!URL) { console.error('Missing PENTA_URL environment variable.'); process.exit(1); }
 
   console.log('Streaming Penta feed and building Shoptet XML...');
+  const previousPrices = loadPreviousPrices(OUT_PATH);
+  const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
@@ -243,6 +246,13 @@ async function main() {
     let price = roundPrice(p.priceVat);
     price = applyHeurekaPriceTarget(p.ean, price, p.purchasePrice, parseFloat(p.vat));
     if (price < MIN_PRICE) { stats.skippedCheap++; return; }
+
+    const sanity = checkPriceSanity(previousPrices, p.code, p.ean, price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: p.code, ean: p.ean, name: p.name, ...sanity });
+      return;
+    }
 
     const { defaultCategory, extraCategories, defaultMapped } = resolvePentaCategories(p.categoryTexts, p.defaultCategoryRaw);
     if (!defaultCategory) { stats.skippedCategory++; return; }
@@ -281,6 +291,7 @@ async function main() {
   await new Promise((resolve) => out.on('finish', resolve));
 
   console.log('Done.');
+  writeAnomalyReport('penta', anomalies);
   console.log(JSON.stringify(stats, null, 2));
   console.log('Output written to', OUT_PATH);
 }

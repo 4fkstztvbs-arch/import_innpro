@@ -35,6 +35,7 @@ const { parseWiimPricelist } = require('./parse-wiim-pricelist');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
 
 const PDF_PATH = process.env.WIIM_PDF || path.join(__dirname, '..', 'data', 'wiim-pricelist.pdf');
 const OUT_PATH = process.env.WIIM_OUT || path.join(__dirname, '..', 'output', 'wiim.xml');
@@ -109,6 +110,8 @@ function main() {
   const records = parseWiimPricelist(text);
   console.log(`Parsed ${records.length} colour-variant rows.`);
 
+  const previousPrices = loadPreviousPrices(OUT_PATH);
+  const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
@@ -137,6 +140,13 @@ function main() {
     }
     const price = roundPrice(r.priceEur * (1 + MARKUP_PCT / 100));
 
+    const sanity = checkPriceSanity(previousPrices, code, r.ean, price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code, ean: r.ean, name, ...sanity });
+      return;
+    }
+
     const seoTitle = truncateAtWord(`${name} | ${STORE_NAME}`, 70);
     const metaDescription = truncateAtWord(`${name} – ${AVAILABILITY.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
@@ -152,6 +162,7 @@ function main() {
   out.write('</SHOP>\n');
   out.end();
 
+  writeAnomalyReport('wiim', anomalies);
   console.log(JSON.stringify(stats, null, 2));
   if (unmappedProducts.size) {
     console.warn('WARNING: no category mapping for these product families (used fallback ' +

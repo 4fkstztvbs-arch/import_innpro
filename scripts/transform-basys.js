@@ -50,6 +50,7 @@ const { roundPrice, roundPriceDown } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { streamRecords } = require('./stream-records');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { loadPreviousPrices, checkPriceSanity, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
@@ -255,6 +256,8 @@ async function main() {
   console.log(`Skipped ${skippedNoPrice} feed products with no usable price.`);
   console.log(`Total products to import: ${resolvedItems.length} (${priceList.length} z oficiálneho cenníka, ${resolvedItems.length - priceList.length} s odhadovanou nákupnou cenou z feedu).`);
 
+  const previousPrices = loadPreviousPrices(OUT_PATH);
+  const anomalies = [];
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
@@ -298,6 +301,14 @@ async function main() {
     // estimated). Note this can in principle push the price above Bose's own MOC if we're
     // currently the cheapest seller by a wide margin.
     const price = applyHeurekaPriceTarget(item.ean, roundPrice(item.mocInclVat), purchasePrice, parseFloat(VAT));
+
+    const sanity = checkPriceSanity(previousPrices, 'BASYS-' + item.objKod, item.ean, price);
+    if (!sanity.sane) {
+      stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
+      anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, ...sanity });
+      continue;
+    }
+
     const promoEntry = activePromos.get(norm(item.objKod));
     const supportExclVat = promoEntry ? promoEntry.supportExclVat : 0;
     // BASYS pays back "Podpora bez DPH/ks" (a per-unit subsidy) for every unit sold during the
@@ -365,6 +376,7 @@ async function main() {
   out.end();
 
   console.log('Done.');
+  writeAnomalyReport('basys', anomalies);
   console.log(JSON.stringify(stats, null, 2));
   console.log('Output written to', OUT_PATH);
 }
