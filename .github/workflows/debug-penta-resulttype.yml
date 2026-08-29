@@ -1,0 +1,37 @@
+name: Debug Penta resultType probe
+
+# One-off manual probe — checks whether a given i6ws resultType (default StoItemPriceOrd) is
+# reachable outside StoItemShoptet_El's 21:00-08:00 night window. Not scheduled; delete once
+# the answer is known.
+
+on:
+  workflow_dispatch:
+    inputs:
+      resultTypes:
+        description: 'Comma-separated resultType values to probe'
+        required: false
+        default: 'StoItemPriceOrd'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Probe Penta resultType(s)
+        env:
+          PENTA_URL: ${{ secrets.PENTA_URL }}
+          PENTA_USERNAME: ${{ secrets.PENTA_USERNAME }}
+          PENTA_PASSWORD: ${{ secrets.PENTA_PASSWORD }}
+          PENTA_RESULT_TYPES: ${{ github.event.inputs.resultTypes }}
+        run: node scripts/debug-penta-resulttype.js
