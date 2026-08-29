@@ -1,6 +1,19 @@
 // Automated equivalent of the "ATOS" tab in the browser tool. Fetches the ATOS Shoptet feed
 // (HTTP Basic Auth required), applies the agreed category mapping, converts CZK->EUR at the
 // live ECB rate, and writes a Shoptet-native XML ready for Automatické importy.
+//
+// Pricing (changed 2026-08-29): sells at ATOS's own recommended price (<PRICE>, excl. their VAT)
+// with OUR VAT applied on top — not purchase price x markup like before. Reason: PURCHASE_PRICE
+// is the field that's actually broken on ATOS's side (confirmed on a real incident - a solar
+// bundle at 27 EUR instead of ~2145 EUR - and on a follow-up full-catalog check that found ~220
+// more products with a nonsensical near-zero PURCHASE_PRICE), while <PRICE> held up correctly
+// even on every one of those broken SKUs. A full-catalog comparison (2026-08-29) showed the two
+// formulas agree within ±10% for 73% of products and ±20% for 94% - PRICE isn't a wild departure
+// from what we sell at today, just a more reliable source. purchasePriceCZK is still parsed and
+// still written to <PURCHASE_PRICE> in the XML (for margin visibility in Shoptet) - it's just no
+// longer used to DERIVE the sell price. If <PRICE> is missing/zero for a given SKU (rare - ~3 in
+// 13000 at last check), falls back to the old purchase-price x markup formula so the product isn't
+// dropped outright, provided the purchase price itself looks usable.
 // Images: uses data/atos-image-urls.json (built by fetch-atos-images.js, run before this
 // script in atos-sync.yml) — static img{0-3}.atoselektro.cz CDN URLs, per product code.
 // Falls back to the feed's own img.asp URLs for any code missing from that map, rewritten to go
@@ -63,11 +76,6 @@ function proxyImgAspUrl(rawUrl) {
 // products relabelled under ATOS.
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
 
-// ATOS feed bug (found 2026-08-29): these 5 solar bundle variants ("Solární sestava ostrovní
-// TRINA 1820Wp...") carry a broken PURCHASE_PRICE (19.26 EUR) from the supplier feed — a factor
-// of ~80x too low for a ~2145 EUR product (confirmed against ATOS's own storefront price).
-// Excluded until ATOS corrects their feed; remove once verified fixed.
-const EXCLUDED_CODES = new Set(['ATO-04280479', 'ATO-04280480', 'ATO-04280481', 'ATO-04280483', 'ATO-04280487']);
 const TREE_ROOT = 'Druhy';
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('atos');
@@ -269,19 +277,33 @@ async function main() {
     let p;
     try { p = parseAtosItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
-    if (EXCLUDED_CODES.has(p.code)) { stats.skippedBadPrice = (stats.skippedBadPrice || 0) + 1; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
-    if (p.purchasePriceCZK <= 0) {
+
+    const purchaseEUR = p.purchasePriceCZK * rate;
+
+    const vat = '23'; // sell in Slovakia — ATOS's own VAT field (21) reflects Czech VAT, not ours
+    let price;
+    if (p.priceCZK > 0) {
+      // ATOS's own recommended price is the normal path now - purchaseEUR is known to be
+      // unreliable on this feed (that's the whole reason for this switch), so MIN_COST (a
+      // "don't bother listing dollar-store junk" filter) must NOT gate on it here: a real
+      // ~150 EUR product with a broken near-zero PURCHASE_PRICE would otherwise get silently
+      // dropped as "too cheap" based on garbage data, right after the fix meant to stop trusting it.
+      price = roundPrice(p.priceCZK * rate * (1 + parseFloat(vat) / 100));
+    } else if (purchaseEUR > 0) {
+      // No usable recommended price for this SKU - purchaseEUR is our only signal, so the
+      // MIN_COST filter still makes sense here (same basis it's always used).
+      if (MIN_COST > 0 && purchaseEUR < MIN_COST) { stats.skippedCheap++; return; }
+      stats.usedMarkupFallback = (stats.usedMarkupFallback || 0) + 1;
+      price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
+    } else {
+      price = 0;
+    }
+    if (price <= 0) {
       stats.skippedNoPrice++;
       anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'zero-price', newPrice: 0 });
       return;
     }
-
-    const purchaseEUR = p.purchasePriceCZK * rate;
-    if (MIN_COST > 0 && purchaseEUR < MIN_COST) { stats.skippedCheap++; return; }
-
-    const vat = '23'; // sell in Slovakia — ATOS's own VAT field (21) reflects Czech VAT, not ours
-    let price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
     price = applyHeurekaPriceTarget(p.ean, price, purchaseEUR, parseFloat(vat));
 
     const { defaultCategory, extraCategories, unmatchedCategory } = resolveAtosCategories(p.categoryTexts, p.name);

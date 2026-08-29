@@ -32,6 +32,10 @@ function parseAtosItem(rawXml) {
   const description = text(it.DESCRIPTION);
   const warranty = text(it.WARRANTY);
   const purchasePriceCZK = toFloat(it.PURCHASE_PRICE);
+  // ATOS's own recommended retail price, excl. VAT (their VAT rate, not ours - see transform-atos.js
+  // for the recompute). Confirmed 2026-08-29: reliable even on the SKUs whose PURCHASE_PRICE is
+  // broken (0 or near-0 CZK) - see EXCLUDED_CODES history in transform-atos.js.
+  const priceCZK = toFloat(it.PRICE);
   const recyclingFeeCZK = toFloat(it.RECYCLING_FEE);
   const vat = it.VAT !== undefined ? String(Math.round(parseFloat(text(it.VAT)))) : '21';
   const weight = it.LOGISTIC ? toFloat(it.LOGISTIC.WEIGHT) : 0;
@@ -62,7 +66,7 @@ function parseAtosItem(rawXml) {
 
   return {
     code, ean, name, manufacturer, shortDescription, description, warranty,
-    purchasePriceCZK, recyclingFeeCZK, vat, weightKg: weight, stockAmount, availabilityRaw,
+    purchasePriceCZK, priceCZK, recyclingFeeCZK, vat, weightKg: weight, stockAmount, availabilityRaw,
     categoryTexts, images, params, alternatives, actionFlag, newFlag, tipFlag,
   };
 }
