@@ -150,6 +150,29 @@ const COLLAPSE_MAP = {
   'Mobily, smart hodinky a tablety > Tvrdené sklo a fólie > Pre smartfóny': 'Mobily, smart hodinky a tablety > Príslušenstvo > Tvrdené sklá pre mobilné telefóny',
   'Mobily, smart hodinky a tablety > Obaly na telefóny': 'Mobily, smart hodinky a tablety > Príslušenstvo > Puzdrá na mobilné telefóny',
   'Mobily, smart hodinky a tablety > Obaly na telefóny > Ochranné puzdrá pre smartfóny': 'Mobily, smart hodinky a tablety > Príslušenstvo > Puzdrá na mobilné telefóny',
+  // Fifth pass (2026-08-30), full systematic duplicate scan (normalized-name + fuzzy + compound-
+  // name matching) across all 4 categories touched this session, per user request to make sure
+  // none of this class of duplicate remained anywhere.
+  // "Myši, klávesnica" (mice+keyboards lumped into one untranslated leaf, singular "klávesnica")
+  // duplicated the already-split "PC periférie > Myši" / "> Klávesnice" - can't tell from the
+  // combined bucket which of the 13 products are which, so folded into the general "PC periférie"
+  // bucket (already an existing catch-all sibling) rather than guessing a split.
+  'Počítače a notebooky > Myši, klávesnica': 'Počítače a notebooky > PC periférie',
+  // "Selfie tyče > statívy > držiaky" (Mobily) / "> statívy > držiaky" (Foto): a single category
+  // name got split into 3-4 fake nesting levels by stray " > " characters somewhere upstream
+  // (likely a raw Polish/Czech source string translated segment-by-segment instead of as one
+  // phrase - see the innpro-mapping.json categoryRenamesByPath entries this pass also fixed).
+  // Flattened to one level under "Selfie tyče", keeping the real distinct sub-types as its direct
+  // children instead of burying them behind two meaningless lowercase fragment nodes.
+  'Mobily, smart hodinky a tablety > Selfie tyče > statívy': 'Mobily, smart hodinky a tablety > Selfie tyče',
+  'Mobily, smart hodinky a tablety > Selfie tyče > statívy > stojany': 'Mobily, smart hodinky a tablety > Selfie tyče',
+  'Mobily, smart hodinky a tablety > Selfie tyče > statívy > stojany > Iné': 'Mobily, smart hodinky a tablety > Selfie tyče',
+  'Foto a príslušenstvo > Selfie tyče > statívy': 'Foto a príslušenstvo > Selfie tyče',
+  'Foto a príslušenstvo > Selfie tyče > statívy > držiaky': 'Foto a príslušenstvo > Selfie tyče',
+  'Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Postroje, upevňovacie prvky a držiaky': 'Foto a príslušenstvo > Selfie tyče > Postroje, upevňovacie prvky a držiaky',
+  'Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Statívy': 'Foto a príslušenstvo > Selfie tyče > Statívy',
+  'Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Selfie tyče a držiaky': 'Foto a príslušenstvo > Selfie tyče > Selfie tyče a držiaky',
+  'Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Adaptéry': 'Foto a príslušenstvo > Selfie tyče > Adaptéry',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
