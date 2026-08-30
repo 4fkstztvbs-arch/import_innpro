@@ -69,6 +69,8 @@ jobs:
         run: |
           git config user.name "debug-bot"
           git config user.email "actions@users.noreply.github.com"
+          git checkout -- . 2>/dev/null || true
+          git clean -fd -- data/ 2>/dev/null || true
           git add output/basys-lenient-temp.xml output/monacor-lenient-temp.xml output/kb-lenient-temp.xml
           git commit -m "DEBUG: lenient rerun BASYS+MONACOR+K-B temp outputs"
           for i in 1 2 3 4 5; do
