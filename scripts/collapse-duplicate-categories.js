@@ -135,6 +135,21 @@ const COLLAPSE_MAP = {
   'Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Fotovoltaické káble': 'Elektroinštalačný materiál > Káble a vodiče > Fotovoltaické káble',
   'Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál > Silové káble': 'Elektroinštalačný materiál > Káble a vodiče > Silové káble',
   'Auto-moto > Bezpečnosť > Kamery do autá': 'TV, audio a video > Video technika > Kamery do autá',
+  // Fourth pass (2026-08-30), found via the interactive tree browser after the mega-category
+  // split. DVB-T antennas had their own tiny branch under "Digitálny príjem" instead of living
+  // with every other antenna type under "Antény a satelity > Antény".
+  'TV, audio a video > Digitálny príjem > DVB-T antény': 'TV, audio a video > Antény a satelity > Antény > DVB-T antény',
+  // USB cables split across two independently-named branches ("Kable USB I" - raw feed typo,
+  // missing diacritics and a stray "I" suffix - vs the correctly-spelled "USB káble").
+  'Mobily, smart hodinky a tablety > Kable USB I': 'Mobily, smart hodinky a tablety > USB káble',
+  'Mobily, smart hodinky a tablety > Kable USB I > USB na Lightning': 'Mobily, smart hodinky a tablety > USB káble > USB na Lightning',
+  'Mobily, smart hodinky a tablety > Kable USB I > USB na USB-C': 'Mobily, smart hodinky a tablety > USB káble > USB-C káble',
+  // Tempered glass and phone cases each had their own top-level branch duplicating an existing,
+  // more populated sub-branch already living under "Príslušenstvo".
+  'Mobily, smart hodinky a tablety > Tvrdené sklo a fólie': 'Mobily, smart hodinky a tablety > Príslušenstvo > Tvrdené sklá pre mobilné telefóny',
+  'Mobily, smart hodinky a tablety > Tvrdené sklo a fólie > Pre smartfóny': 'Mobily, smart hodinky a tablety > Príslušenstvo > Tvrdené sklá pre mobilné telefóny',
+  'Mobily, smart hodinky a tablety > Obaly na telefóny': 'Mobily, smart hodinky a tablety > Príslušenstvo > Puzdrá na mobilné telefóny',
+  'Mobily, smart hodinky a tablety > Obaly na telefóny > Ochranné puzdrá pre smartfóny': 'Mobily, smart hodinky a tablety > Príslušenstvo > Puzdrá na mobilné telefóny',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
