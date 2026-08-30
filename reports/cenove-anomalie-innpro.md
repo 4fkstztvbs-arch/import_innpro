@@ -85,8 +85,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 088746 | 6977658980043 | Termovízna kamera THERMAL MASTER X2 USB-C | cena mimo 8x rozsah mediánu kategórie | 12.95 € | 283.90 € | 21.9x | 34 |
 | 088747 | 6977658980494 | TERMOVÍZNA KAMERA THERMAL MASTER X2 USB-C Mini | cena mimo 8x rozsah mediánu kategórie | 12.95 € | 241.50 € | 18.6x | 34 |
 | 088748 | 6977658980050 | Termovízna kamera THERMAL MASTER X3 | cena mimo 8x rozsah mediánu kategórie | 64.75 € | 526.50 € | 8.1x | 18 |
-| 088872 | 6942580504971 | Batéria FOSSIBOT FB3840 s kapacitou 3840 Wh | cena mimo 8x rozsah mediánu kategórie | 57.25 € | 1267.90 € | 22.1x | 10 |
-| 088874 | 6942580505077 | Batéria FOSSIBOT FBP1200-B s kapacitou 1985 Wh (zelená) | cena mimo 8x rozsah mediánu kategórie | 57.25 € | 537.50 € | 9.4x | 10 |
+| 088872 | 6942580504971 | Batéria FOSSIBOT FB3840 s kapacitou 3840 Wh | cena mimo 8x rozsah mediánu kategórie | 60.25 € | 1267.90 € | 21.0x | 10 |
+| 088874 | 6942580505077 | Batéria FOSSIBOT FBP1200-B s kapacitou 1985 Wh (zelená) | cena mimo 8x rozsah mediánu kategórie | 60.25 € | 537.50 € | 8.9x | 10 |
 | 088914 | 6976230008557 | HTVRONT Auto1 lis na potlač (biely) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 252.00 € | 42.0x | 76 |
 | 088915 | 6976230008506 | HTVRONT Auto1 lis na potlač (modrý) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 252.00 € | 42.0x | 76 |
 | 088916 | 6976230004542 | HTVRONT Auto – 2-miestny lis na termotransfer (biely) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 350.00 € | 58.3x | 76 |
