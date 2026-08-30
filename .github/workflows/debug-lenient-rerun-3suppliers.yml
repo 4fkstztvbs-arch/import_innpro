@@ -1,0 +1,81 @@
+name: DEBUG lenient rerun BASYS+MONACOR+KB
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rerun:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Run BASYS transform (lenient safeguards)
+        env:
+          BASYS_URL: ${{ secrets.BASYS_URL }}
+          BASYS_OUT: output/basys-lenient-temp.xml
+          BASYS_EXCLUDE_UNAVAILABLE: '1'
+          HEUREKA_PRICE_OVERRIDE: '1'
+          PRICE_SANITY_RATIO: '1000000'
+          PRICE_SANITY_CATEGORY_RATIO: '1000000'
+        run: node scripts/transform-basys.js
+
+      - name: Run MONACOR transform (lenient safeguards)
+        env:
+          MONACOR_URL: ${{ secrets.MONACOR_URL }}
+          MONACOR_MARKUP: '0'
+          MONACOR_MIN_COST: '0.50'
+          MONACOR_EXCLUDE_UNAVAILABLE: '1'
+          MONACOR_OUT: output/monacor-lenient-temp.xml
+          PRICE_SANITY_RATIO: '1000000'
+          PRICE_SANITY_CATEGORY_RATIO: '1000000'
+        run: node scripts/transform-monacor.js
+
+      - name: Run K-B transform (lenient safeguards)
+        env:
+          KB_ZBOZI_URL: ${{ secrets.KB_ZBOZI_URL }}
+          KB_KATEGORIE_URL: ${{ secrets.KB_KATEGORIE_URL }}
+          KB_KATEGORIZACIA_URL: ${{ secrets.KB_KATEGORIZACIA_URL }}
+          KB_CENY_URL: ${{ secrets.KB_CENY_URL }}
+          KB_DOSTUPNOSTI_URL: ${{ secrets.KB_DOSTUPNOSTI_URL }}
+          KB_MARKUP: '10'
+          KB_MIN_COST: '0.50'
+          KB_MIN_MARGIN: '10'
+          KB_EXCLUDE_UNAVAILABLE: '1'
+          KB_CHECK_ENERGY_LABELS: '1'
+          KB_OUT: output/kb-lenient-temp.xml
+          HEUREKA_PRICE_OVERRIDE: '1'
+          PRICE_SANITY_RATIO: '1000000'
+          PRICE_SANITY_CATEGORY_RATIO: '1000000'
+        run: node scripts/transform-kb.js
+
+      - name: Enrich K-B temp output with Icecat data
+        env:
+          KB_XML_IN: output/kb-lenient-temp.xml
+          ICECAT_CSV: data/icecat-full.csv
+          KB_XML_OUT: output/kb-lenient-temp.xml
+        run: node scripts/enrich-kb-icecat.js
+
+      - name: Commit temp outputs for inspection
+        run: |
+          git config user.name "debug-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add output/basys-lenient-temp.xml output/monacor-lenient-temp.xml output/kb-lenient-temp.xml
+          git commit -m "DEBUG: lenient rerun BASYS+MONACOR+K-B temp outputs"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            sleep $((i*8))
+          done
