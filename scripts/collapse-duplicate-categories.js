@@ -25,14 +25,14 @@ const COLLAPSE_MAP = {
   'TV, audio a video > Audio technika > Slúchadlá > Slúchadlá': 'TV, audio a video > Audio technika > Slúchadlá',
   'Profesionálna audio technika > JTS > Slúchadlá > Slúchadlá': 'Profesionálna audio technika > JTS > Slúchadlá',
   'Záhrada > Odpudzovače a lapače hmyzu > Odpudzovače a lapače hmyzu': 'Záhrada > Odpudzovače a lapače hmyzu',
-  'TV, audio a video > Mobily a tablety > Smart hodinky > Smart hodinky': 'TV, audio a video > Mobily a tablety > Smart hodinky',
+  'Mobily, smart hodinky a tablety > Smart hodinky > Smart hodinky': 'Mobily, smart hodinky a tablety > Smart hodinky',
   'TV, audio a video > AV káble > AV káble': 'TV, audio a video > AV káble',
-  'TV, audio a video > Počítače a príslušenstvo > Tablety > Tablety': 'TV, audio a video > Počítače a príslušenstvo > Tablety',
+  'Počítače a notebooky > Tablety > Tablety': 'Počítače a notebooky > Tablety',
   'Elektroinštalačný materiál > Osvetlenie > LED žiarovky': 'Elektroinštalačný materiál > Osvetlenie > LED Žiarovky',
   'TV, audio a video > Príslušenstvo k TV, audio, video > Diaľkové ovládače': 'TV, audio a video > Diaľkové ovládače',
   'TV, audio a video > Reproduktory': 'TV, audio a video > Audio technika > Reproduktory',
   'Bezpečnosť a smart domácnosť > Smart domácnosť > IP kamery': 'Bezpečnosť a smart domácnosť > IP kamery',
-  'TV, audio a video > Počítače a príslušenstvo > Sieťové prvky > IP kamery': 'Bezpečnosť a smart domácnosť > IP kamery',
+  'Počítače a notebooky > Sieťové prvky > IP kamery': 'Bezpečnosť a smart domácnosť > IP kamery',
   'Bezpečnosť a smart domácnosť > Smart domácnosť > Robotické vysávače': 'Domáce spotrebiče > Malé spotrebiče > Vysávače > Robotické vysávače',
   // Second pass (2026-08-25), found via the full-tree browser — same self-nested "general X
   // under X" pattern, all verified live in data/known-categories.json before merging.
@@ -118,14 +118,14 @@ const COLLAPSE_MAP = {
   // tablety" — folded the bare one into the "Nositeľná elektronika" (wearables) branch. Smart
   // prstene (smart rings) were nested a level too deep under "Smart hodinky" itself, as if a ring
   // were a type of watch — moved out to be a direct sibling under "Nositeľná elektronika" instead.
-  'TV, audio a video > Mobily a tablety > Smart hodinky': 'TV, audio a video > Mobily a tablety > Nositeľná elektronika > Smart hodinky',
-  'TV, audio a video > Mobily a tablety > Smart hodinky > Smart prstene': 'TV, audio a video > Mobily a tablety > Nositeľná elektronika > Smart prstene',
-  'TV, audio a video > Mobily a tablety > Smart hodinky > Príslušenstvo': 'TV, audio a video > Mobily a tablety > Nositeľná elektronika > Smart hodinky > Príslušenstvo',
+  'Mobily, smart hodinky a tablety > Smart hodinky': 'Mobily, smart hodinky a tablety > Nositeľná elektronika > Smart hodinky',
+  'Mobily, smart hodinky a tablety > Smart hodinky > Smart prstene': 'Mobily, smart hodinky a tablety > Nositeľná elektronika > Smart prstene',
+  'Mobily, smart hodinky a tablety > Smart hodinky > Príslušenstvo': 'Mobily, smart hodinky a tablety > Nositeľná elektronika > Smart hodinky > Príslušenstvo',
   // Soundbars, HiFi amplifiers and projectors each had a duplicate nesting within the same
   // top-level branch (a specific sub-path vs a shallower one for the same product type).
   'TV, audio a video > Audio technika > Reproduktory > Soundbary': 'TV, audio a video > Audio technika > Soundbary',
   'TV, audio a video > Audio technika > Zosilňovače': 'TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače',
-  'TV, audio a video > Počítače a príslušenstvo > Monitory > Plátna a projektory > Projektory': 'TV, audio a video > Počítače a príslušenstvo > Projektory a plátna > Projektory',
+  'Počítače a notebooky > Monitory > Plátna a projektory > Projektory': 'Počítače a notebooky > Projektory a plátna > Projektory',
   // Powerbanks and smart plugs/sockets each split across two sibling branches of the same
   // top-level category (Fotovoltaika a energie / Bezpečnosť a smart domácnosť respectively).
   'Fotovoltaika a energie > Nabíjačky > Powerbanky': 'Fotovoltaika a energie > Záložné zdroje a UPS > Powerbanky',

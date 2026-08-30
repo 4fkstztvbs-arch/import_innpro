@@ -90,7 +90,7 @@ const RENAME_MAP = {
   'Profesionálna audio technika > Svetlá > Ovládače a kontroléry': 'Profesionálna audio technika > Svetlá > Ovládače a DMX kontroléry svetiel',
   'Šport, hračky a voľný čas > Posilňovanie a fitness': 'Šport, hračky a voľný čas > Posilňovanie a fitness – vybavenie',
   'Šport, hračky a voľný čas > Turistika > Cestování a outdoor': 'Šport, hračky a voľný čas > Turistika > Turistické a outdoorové vybavenie',
-  'TV, audio a video > Foto a optika > Príslušenstvo > Ostatné': 'TV, audio a video > Foto a optika > Príslušenstvo > Ostatné príslušenstvo k fotoaparátom',
+  'Foto a príslušenstvo > Príslušenstvo > Ostatné': 'Foto a príslušenstvo > Príslušenstvo > Ostatné príslušenstvo k fotoaparátom',
   'Náradie a dielňa > Ostatné': 'Náradie a dielňa > Ostatné náradie a vybavenie dielne',
   'Profesionálna audio technika > Multi-room': 'Profesionálna audio technika > Multi-room ozvučenie',
   'Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika > Chémia':
@@ -98,9 +98,9 @@ const RENAME_MAP = {
   'Profesionálna audio technika > Pódium, diskotéka, DJ > transportné kufre a racky':
     'Profesionálna audio technika > Pódium, diskotéka, DJ > Transportné kufre a racky pre audio techniku',
   'Šport, hračky a voľný čas > Outdoor > Príslušenstvo na kľuky': 'Šport, hračky a voľný čas > Outdoor > Príslušenstvo k bicyklovým kľukám',
-  'TV, audio a video > Mobily a tablety > Ostatné': 'TV, audio a video > Mobily a tablety > Ostatné príslušenstvo pre mobily a tablety',
-  'TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Osvetlenie':
-    'TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > RGB osvetlenie pre herné príslušenstvo',
+  'Mobily, smart hodinky a tablety > Ostatné': 'Mobily, smart hodinky a tablety > Ostatné príslušenstvo pre mobily a tablety',
+  'Počítače a notebooky > Herné príslušenstvo > Osvetlenie':
+    'Počítače a notebooky > Herné príslušenstvo > RGB osvetlenie pre herné príslušenstvo',
   'Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Ostatné':
     'Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Ostatné príslušenstvo ku kamerám',
   'Bezpečnosť a smart domácnosť > Prvky výkonu > Smart kúrenie > Ovládače klimatizácie > tepelného čerpadla':
@@ -122,9 +122,9 @@ const RENAME_MAP = {
   'Profesionálna audio technika > Svetlá > Otočné hlavy a skenery': 'Profesionálna audio technika > Svetlá > Otočné hlavy a skenery – ostatné',
   'Šport, hračky a voľný čas > Posilňovanie a fitness > Príslušenstvo pre posilňovanie':
     'Šport, hračky a voľný čas > Posilňovanie a fitness > Príslušenstvo pre posilňovanie – ostatné',
-  'TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Ostatné':
-    'TV, audio a video > Počítače a príslušenstvo > Herné príslušenstvo > Ostatné herné príslušenstvo',
-  'TV, audio a video > Počítače a príslušenstvo > Ostatné': 'TV, audio a video > Počítače a príslušenstvo > Ostatné počítačové príslušenstvo',
+  'Počítače a notebooky > Herné príslušenstvo > Ostatné':
+    'Počítače a notebooky > Herné príslušenstvo > Ostatné herné príslušenstvo',
+  'Počítače a notebooky > Ostatné': 'Počítače a notebooky > Ostatné počítačové príslušenstvo',
   'Zdravie a starostlivosť > Chovateľské potreby > Starostlivosť o zvieratá':
     'Zdravie a starostlivosť > Chovateľské potreby > Prípravky na starostlivosť o zvieratá',
 };
