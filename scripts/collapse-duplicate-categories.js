@@ -92,8 +92,8 @@ const COLLAPSE_MAP = {
   // ("Audio technika > Slúchadlá") is the older, more complete tree (has TWS/Náhlavné/Drôtové
   // sub-splits); id-less "Slúchadlá" directly under the top level is the newer, thinner one.
   'TV, audio a video > Slúchadlá': 'TV, audio a video > Audio technika > Slúchadlá',
-  'TV, audio a video > Slúchadlá > Drátová': 'TV, audio a video > Audio technika > Slúchadlá > Drátová',
-  'TV, audio a video > Slúchadlá > Bezdrátová': 'TV, audio a video > Audio technika > Slúchadlá > Bezdrátová',
+  'TV, audio a video > Slúchadlá > Drátová': 'TV, audio a video > Audio technika > Slúchadlá > Drôtové slúchadlá',
+  'TV, audio a video > Slúchadlá > Bezdrátová': 'TV, audio a video > Audio technika > Slúchadlá > Bezdrôtové slúchadlá',
   'TV, audio a video > Slúchadlá > True Bezdrôtové': 'TV, audio a video > Audio technika > Slúchadlá > True Bezdrôtové',
   'TV, audio a video > Slúchadlá > Príslušenstvo pre slúchadlá': 'TV, audio a video > Audio technika > Slúchadlá > Príslušenstvo pre slúchadlá',
   // Extension cords/power strips split by supplier brand (EMOS/ORNO under "Predlžovačky, zásuvky,
