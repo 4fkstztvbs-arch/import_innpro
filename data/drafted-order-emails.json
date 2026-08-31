@@ -103,5 +103,19 @@
     "subject": "Re: stav objednávky",
     "orderCode": "202600584",
     "matchedBy": "code"
+  },
+  "<007901dd3900$e2b440b0$a81cc210$@atoselektro.cz>": {
+    "draftedAt": "2026-08-31T07:29:19.249Z",
+    "from": "grajniakova@atoselektro.cz",
+    "subject": "RE: Storno",
+    "orderCode": null,
+    "matchedBy": "none"
+  },
+  "<CABWm7wA03BxxY=Xy5Lw3VYhHb9xf80JLM+PdfX43t1a=BTCSqg@mail.gmail.com>": {
+    "draftedAt": "2026-08-31T15:22:11.002Z",
+    "from": "pysnyfrantisek@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600692 bola stornovaná",
+    "orderCode": "202600692",
+    "matchedBy": "code"
   }
 }

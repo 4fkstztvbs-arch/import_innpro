@@ -47,10 +47,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093711 | 6932704922194 | Vlákno z uhlíkových vlákien ELEGOO PETG-CF (čierne) 0,5 kg | nulová/neplatná cena |  | 0.00 € |  |  |
 | 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 103.90 € | 8.7x | 21 |
-| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 27.70 € | 341.00 € | 12.3x | 26 |
-| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 27.70 € | 369.50 € | 13.3x | 26 |
-| 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 27.70 € | 302.00 € | 10.9x | 26 |
-| 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 27.70 € | 302.00 € | 10.9x | 26 |
+| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 341.00 € | 12.0x | 26 |
+| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 369.50 € | 13.0x | 26 |
+| 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 302.00 € | 10.6x | 26 |
+| 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 302.00 € | 10.6x | 26 |
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 57.50 € | 1.20 € | 1/47.9x | 11 |
 | 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 76 |
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 1.00 € | 1/12.0x | 21 |
