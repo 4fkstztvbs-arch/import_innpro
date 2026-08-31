@@ -13,16 +13,13 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | BASYS-DN9680 |  | Klark Teknik DN9680 extender | cena mimo 8x rozsah mediánu kategórie | 80.00 € | 3590.00 € | 44.9x | 96 |
 | BASYS-EN 423132 |  | Energy Sistem Earphones Urban 2 slúchadlá do uší, modré | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 12.90 € | 1/13.9x | 85 |
 | BASYS-EN 423149 |  | Energy Sistem Earphones Urban 2 slúchadlá do uší, magenta | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 12.90 € | 1/13.9x | 85 |
-| BASYS-EN 448517 |  | Energy Sistem Music Box 2 Bluetooth speaker, cherry | cena mimo 8x rozsah mediánu kategórie | 399.00 € | 24.90 € | 1/16.0x | 17 |
-| BASYS-EN 449330 |  | Energy Sistem Urban Box 2 Bluetooth reproduktor, jade | cena mimo 8x rozsah mediánu kategórie | 399.00 € | 29.90 € | 1/13.3x | 17 |
-| BASYS-EN 449347 |  | Energy Sistem Urban Box 2 Bluetooth reproduktor, magenta | cena mimo 8x rozsah mediánu kategórie | 399.00 € | 29.90 € | 1/13.3x | 17 |
 | BASYS-MEM-ELXLR |  | MEZE AUDIO ELITE High-End XLR slúchadlá | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 4000.00 € | 22.3x | 85 |
 | BASYS-EN 422517 |  | Energy Sistem Extra Battery 5000 portable battery, čierna | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 19.90 € | 1/9.0x | 85 |
 | BASYS-EN 451777 |  | Energy Sistem Earphones Sport 1+ Bluetooth, dark | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 14.90 € | 1/12.0x | 85 |
 | BASYS-MEM-ELTG |  | MEZE AUDIO ELITE špičkové slúchadlá s XLR pripojením, volfrám | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 4000.00 € | 22.3x | 85 |
 | BASYS-AMP800 V2 |  | Behringer AMP800 V2 stereo slúchadlový zosilňovač | cena mimo 8x rozsah mediánu kategórie | 1424.00 € | 68.00 € | 1/20.9x | 8 |
 | BASYS-MEM-II-6.3C |  | MEZE AUDIO Empyrean II.,  high-end planárne slúchadlá čierne | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 2999.00 € | 16.8x | 85 |
-| BASYS-EN 454976 |  | Energy Sistem Detský reproduktor Lol&Roll Bluetooth, ružový | cena mimo 8x rozsah mediánu kategórie | 399.00 € | 17.00 € | 1/23.5x | 17 |
+| BASYS-EN 454976 |  | Energy Sistem Detský reproduktor Lol&Roll Bluetooth, ružový | cena mimo 8x rozsah mediánu kategórie | 185.00 € | 17.00 € | 1/10.9x | 20 |
 | BASYS-LIR-2 |  | MEZE AUDIO LIRIC 2,  Audiofilské High-end slúchadlá, black - ebony | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 2000.00 € | 11.2x | 85 |
 | BASYS-EN 458790 |  | Energy Sistem Kovové slúchadlá typu C káblové, modré | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 18.00 € | 1/9.9x | 85 |
 | BASYS-EN 456741 |  | Energy Sistem Bluetooth slúchadlá s ANC, graphite | cena mimo 8x rozsah mediánu kategórie | 179.00 € | 18.00 € | 1/9.9x | 85 |
