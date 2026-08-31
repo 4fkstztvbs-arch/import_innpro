@@ -19,7 +19,7 @@ const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('kb');
@@ -299,6 +299,7 @@ async function main() {
   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const ownPreviousCategoryStats = buildOwnPreviousCategoryStats(OUT_PATH);
   const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
+  const approvedExceptions = loadApprovedExceptions();
   const anomalies = [];
 
   await streamRecords(ZBOZI_URL, 'zaznam', (rawXml) => {
@@ -410,6 +411,11 @@ async function main() {
 
   const products = [];
   for (const c of rawCandidates) {
+    if (checkApprovedException(approvedExceptions, 'kb', c.code, c.ean, c.price)) {
+      products.push(c.shopitemData);
+      stats.written++;
+      continue;
+    }
     const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;

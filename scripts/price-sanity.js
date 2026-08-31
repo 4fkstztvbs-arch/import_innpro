@@ -36,15 +36,22 @@
 // push those into the same `anomalies` list (reason: 'zero-price') so they show up in the report
 // below instead of vanishing into a stats counter nobody reads.
 //
+// A fourth safeguard - or rather, override - is APPROVED SKU EXCEPTIONS (checkApprovedException,
+// below checkCategoryOutlier's definition): a persisted, human-reviewed list of specific
+// product+price combinations that bypass BOTH checks above regardless of what the transient
+// per-run catalog stats look like. See its own comment for why this exists (production incident,
+// 2026-08-30/31) - checkCategoryOutlier's own implicit bypass is NOT a substitute for it.
+//
 // Usage in each transform-*.js - TWO PASSES, because the category-outlier check needs to see the
 // WHOLE feed's own prices before it can judge any single one of them:
 //   const { loadPreviousPrices, buildCategoryPriceStats, buildOwnPreviousCategoryStats,
 //           buildFeedCategoryStats, mergeCategoryStats, checkPriceSanity, checkCategoryOutlier,
-//           writeAnomalyReport } = require('./price-sanity');
+//           loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 //   const previousPrices = loadPreviousPrices(OUT_PATH);              // BEFORE the write stream truncates it
 //   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);      // same timing
 //   const ownPreviousCategoryStats = buildOwnPreviousCategoryStats(OUT_PATH); // same timing
 //   const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
+//   const approvedExceptions = loadApprovedExceptions();
 //   const anomalies = [];
 //   const candidates = [];
 //   ...PASS 1: parse the feed as usual, but instead of writing/checking immediately, once `price`
@@ -54,6 +61,9 @@
 //   const feedCategoryStats = buildFeedCategoryStats(candidates);
 //   const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
 //   ...PASS 2: for each candidate...
+//   if (checkApprovedException(approvedExceptions, 'atos', c.code, c.ean, c.price)) {
+//     out.write(buildShopitemXml(c) + '\n'); stats.written++; continue;
+//   }
 //   const dayOverDay = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
 //   if (!dayOverDay.sane) { anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'day-over-day', ...dayOverDay }); continue; }
 //   const outlier = checkCategoryOutlier(categoryStats, bypassCategoryStats, c.category, c.price);
@@ -91,6 +101,14 @@ const CATEGORY_RATIO = parseFloat(process.env.PRICE_SANITY_CATEGORY_RATIO || '8'
 const MIN_CATEGORY_SAMPLES = parseInt(process.env.PRICE_SANITY_MIN_CATEGORY_SAMPLES || '4', 10);
 const REPORT_DIR = path.join(__dirname, '..', 'reports');
 const OUTPUT_DIR = path.join(__dirname, '..', 'output');
+const EXCEPTIONS_PATH = path.join(__dirname, 'price-sanity-approved-exceptions.json');
+
+// PERSISTENT, SKU-LEVEL OVERRIDE — see checkApprovedException below for why this exists.
+function loadApprovedExceptions() {
+  let raw;
+  try { raw = JSON.parse(fs.readFileSync(EXCEPTIONS_PATH, 'utf-8')); } catch (e) { return []; }
+  return Array.isArray(raw) ? raw : [];
+}
 
 function loadPreviousPrices(outPath) {
   const byCode = new Map();
@@ -111,6 +129,45 @@ function loadPreviousPrices(outPath) {
     if (eanM && eanM[1]) byEan.set(eanM[1], price);
   }
   return { byCode, byEan };
+}
+
+// PERSISTENT, SKU-LEVEL OVERRIDE for a specific product+price a human has already reviewed and
+// confirmed legitimate (e.g. a genuinely premium item sitting in a category otherwise full of
+// budget items). Checked BEFORE both checkPriceSanity and checkCategoryOutlier below - a match
+// here skips both, no matter what either would otherwise conclude.
+//
+// Why this exists, not a category-level bypass: the category-outlier check (below) ALREADY has an
+// implicit bypass for categories whose established prices are already wide (see
+// checkCategoryOutlier's own comment) - but that bypass is reconstructed fresh from THE CURRENT
+// STATE of output/*.xml on every run, which is fragile in two ways proven in production on
+// 2026-08-30/31: (1) it only stays "wide" for as long as the previously-approved outlier products
+// keep being written back to disk every single run - if they ever drop out again for ANY unrelated
+// reason (a day-over-day mismatch, a feed hiccup, an availability flip), the category collapses
+// back to "narrow" and the exact same products get reflagged with no memory of the earlier review;
+// (2) `output/*.xml` is rewritten by EVERY supplier's own nightly workflow (collapse-duplicate-
+// categories.js and friends run for every supplier and touch every supplier's output file), so a
+// category label can be silently renamed by a completely unrelated supplier's job between one
+// night's review and the next, breaking the string match the implicit bypass depends on. Real
+// incident: BASYS (24 products) and MONACOR (22 products) were manually reviewed and added back on
+// 2026-08-30, then ALL of them were flagged again identically the very next night.
+//
+// This override is deliberately narrower than a category bypass: it only ever applies to the exact
+// SKU at the exact price a human approved (see scripts/price-sanity-approved-exceptions.json). If
+// the supplier's feed sends a DIFFERENT price for that SKU later, this does nothing - the normal
+// checks apply again, so a genuine further price error still gets caught. It also can't create a
+// blind spot for OTHER products that happen to share the same category (unlike a category-level
+// bypass would for a broad, cross-supplier category like "TV, audio a video > Televízory").
+//
+// To approve a new exception after manual review: add one entry to
+// scripts/price-sanity-approved-exceptions.json (supplier, code, ean, name, approvedPrice,
+// approvedDate, note) - do NOT rely on re-adding the product to output/*.xml alone, since that
+// alone is exactly what silently stopped working here.
+function checkApprovedException(exceptions, supplier, code, ean, price) {
+  if (!Number.isFinite(price) || price <= 0) return false;
+  return exceptions.some((e) => e.supplier === supplier
+    && (e.code === code || (ean && e.ean === ean))
+    && Number.isFinite(e.approvedPrice)
+    && Math.abs(e.approvedPrice - price) < 0.01);
 }
 
 function checkPriceSanity(previous, code, ean, newPrice) {
@@ -303,5 +360,6 @@ function writeAnomalyReport(supplier, anomalies) {
 module.exports = {
   loadPreviousPrices, checkPriceSanity,
   buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier,
+  loadApprovedExceptions, checkApprovedException,
   writeAnomalyReport,
 };

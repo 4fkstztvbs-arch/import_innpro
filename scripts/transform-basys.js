@@ -50,7 +50,7 @@ const { roundPrice, roundPriceDown } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { streamRecords } = require('./stream-records');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
@@ -260,6 +260,7 @@ async function main() {
   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const ownPreviousCategoryStats = buildOwnPreviousCategoryStats(OUT_PATH);
   const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
+  const approvedExceptions = loadApprovedExceptions();
   const anomalies = [];
 
   const stats = {
@@ -380,6 +381,11 @@ async function main() {
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   for (const c of rawCandidates) {
+    if (checkApprovedException(approvedExceptions, 'basys', c.code, c.ean, c.price)) {
+      out.write(buildShopitemXml(c.shopitemData) + '\n');
+      stats.written++;
+      continue;
+    }
     const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;

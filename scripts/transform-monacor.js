@@ -14,7 +14,7 @@ const { parseMonacorProduct } = require('./parse-monacor');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
+const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 
 const URL = process.env.MONACOR_URL;
 const MARKUP_PCT = parseFloat(process.env.MONACOR_MARKUP || '0');
@@ -86,6 +86,7 @@ async function main() {
   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const ownPreviousCategoryStats = buildOwnPreviousCategoryStats(OUT_PATH);
   const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
+  const approvedExceptions = loadApprovedExceptions();
   const anomalies = [];
 
   const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedUnavailable: 0 };
@@ -162,6 +163,11 @@ async function main() {
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
 
   for (const c of candidates) {
+    if (checkApprovedException(approvedExceptions, 'monacor', c.code, c.ean, c.price)) {
+      out.write(buildShopitemXml(c.shopitemData) + '\n');
+      stats.written++;
+      continue;
+    }
     const sanity = checkPriceSanity(previousPrices, c.code, c.ean, c.price);
     if (!sanity.sane) {
       stats.skippedPriceAnomaly = (stats.skippedPriceAnomaly || 0) + 1;
