@@ -395,15 +395,17 @@ function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel, feedP
   cols[44] = 'SK'; cols[45] = 'SK'; cols[46] = '504'; cols[47] = '000'; cols[48] = '0'; cols[49] = '0';
   return cols;
 }
-// Excel import predajnych cien pre nove karty (podpora.kros.sk/faq/import-z-excelu) - samostatny
-// subor od T03, naimportuje sa AZ PO zalozeni kariet cez T03 (karty musia uz existovat).
+// Excel import predajnych cien pre nove karty (Sklad -> Skladove karty -> Import z Excelu) -
+// samostatny subor od T03, naimportuje sa AZ PO zalozeni kariet cez T03 (karty musia uz existovat).
+// Nazvy stlpcov MUSIA byt presne takto (bez diakritiky, vratane cislovania "Cena1") - podla
+// realneho dialogu "Podmienky pre import cennika" v Omege.
 function buildNewCardPricesWorkbook(newCards) {
   const rows = newCards.map((r) => ({
-    'Kód skladu': SKLAD_KOD,
-    'Kód karty': r.cardCode,
-    'Názov karty': r.name,
-    'Cena Kód': PRICE_LEVEL_CODE,
-    'Cena bez DPH': Number(resolveSellNet(r.unitPriceNet, r.feedPriceVat).toFixed(4)),
+    'Kod skladu': SKLAD_KOD,
+    'Nazov karty': r.name,
+    'Cislo karty': r.cardCode,
+    'Cena1 Kod': PRICE_LEVEL_CODE,
+    'Cena1 bez DPH': Number(resolveSellNet(r.unitPriceNet, r.feedPriceVat).toFixed(4)),
   }));
   const sheet = XLSX.utils.json_to_sheet(rows);
   const workbook = XLSX.utils.book_new();
