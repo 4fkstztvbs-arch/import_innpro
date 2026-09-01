@@ -1,13 +1,20 @@
 /*
  * PremiumStore.sk – UX/CRO doplnky pre Shoptet (šablóna Disco)
- * Nahrané do Shoptetu ako: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-cro.js"></script>
+ * Nahrané do Shoptetu ako: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-cro.js?v=N"></script>
  * (Design -> Rozšírené nastavenia -> Vlastný HTML kód -> pätička, tesne pred </body>)
  *
  * Zodpovedajúce CSS patrí do hlavičky (Design -> Vlastné CSS), pozri
  * assets/ux/premiumstore-cro.css v tomto istom priečinku.
  *
- * Prvky sa vyhľadávajú podľa viditeľného textu, nie podľa CSS tried šablóny,
- * lebo tie sa medzi verziami/úpravami Shoptetu môžu líšiť.
+ * Selektory nižšie sú overené priamo z reálneho DOM premiumstore.sk
+ * (Shoptet Disco, šablóna "template-13"):
+ *   - #product-detail-form            ... existuje LEN na skutočnej PDP
+ *   - meta[itemprop="name"] v .p-detail ... názov produktu
+ *   - .price-final-holder             ... zobrazená cena
+ *   - [data-testid="buttonAddToCart"] ... hlavné tlačidlo Do košíka
+ *   - [data-testid="productDetailActionIcons"] ... riadok Tlač/Opýtať sa/Strážiť/Zdieľať
+ * Ak Shoptet tieto triedy/atribúty v budúcnosti zmení pri aktualizácii šablóny,
+ * treba selektory prekontrolovať v Inšpektore a upraviť tu.
  */
 (function () {
   'use strict';
@@ -39,43 +46,10 @@
     return /kosik|cart/i.test(location.pathname);
   }
 
-  // Malý ancestor tlačidla obsahuje aj počtový vstup (napr. "1" pri
-  // -/+ prepínači množstva)? To má na Shoptete iba HLAVNÉ tlačidlo
-  // produktu na PDP - karty v zoznamoch aj v súvisiacich produktoch
-  // (Príslušenstvo/Súvisiace produkty na tej istej PDP stránke) majú
-  // "Do košíka" bez vlastného výberu množstva.
-  function hasQuantityInputNear(btn) {
-    var container = btn.closest('form') || btn.parentElement;
-    var guard = 0;
-    while (container && guard < 3) {
-      var inputs = container.querySelectorAll('input');
-      for (var i = 0; i < inputs.length; i++) {
-        if (/^\d{1,3}$/.test((inputs[i].value || '').trim())) return true;
-      }
-      container = container.parentElement;
-      guard++;
-    }
-    return false;
-  }
-
-  // Nájde HLAVNÉ tlačidlo "Do košíka" na skutočnej stránke produktu.
-  // Vracia null na homepage/kategórii/pri súvisiacich produktoch bez
-  // jednoznačného hlavného tlačidla (tam sa PDP funkcie nemajú spúšťať).
-  var _mainBuyBtnCache = null;
-  function findMainBuyButton() {
-    if (_mainBuyBtnCache && document.contains(_mainBuyBtnCache)) return _mainBuyBtnCache;
-    var buttons = document.querySelectorAll('button, a, input[type="submit"]');
-    var withQty = [];
-    var all = [];
-    for (var i = 0; i < buttons.length; i++) {
-      var t = (buttons[i].value || buttons[i].textContent || '').trim().toLowerCase();
-      if (t.indexOf('do košíka') === -1) continue;
-      all.push(buttons[i]);
-      if (hasQuantityInputNear(buttons[i])) withQty.push(buttons[i]);
-    }
-    var result = withQty.length === 1 ? withQty[0] : (all.length === 1 ? all[0] : null);
-    _mainBuyBtnCache = result;
-    return result;
+  // #product-detail-form existuje len raz, výhradne na skutočnej stránke
+  // produktu (súvisiace produkty/karty v zoznamoch ho nepoužívajú).
+  function getPdpForm() {
+    return document.getElementById('product-detail-form');
   }
 
   // --- 1) Progress bar "doprava zadarmo od X €" (košík) --------------------
@@ -125,9 +99,16 @@
   // --- 2) Trust badges pri CTA (PDP a checkout) -----------------------------
   function trustBadges() {
     if (document.querySelector('.ps-trust-badges')) return;
-    // Na PDP hľadáme hlavné tlačidlo "Do košíka", na checkoute "Pokračovať".
-    var btn = findMainBuyButton() || findByText('button, a, input[type="submit"]', ['pokračovať']);
-    if (!btn) return;
+
+    var anchor = null;
+    var pdpForm = getPdpForm();
+    if (pdpForm) {
+      anchor = pdpForm.querySelector('.add-to-cart') || pdpForm.querySelector('[data-testid="buttonAddToCart"]');
+    } else {
+      var checkoutBtn = findByText('button, a, input[type="submit"]', ['pokračovať']);
+      anchor = checkoutBtn ? (checkoutBtn.closest('form, div, section') || checkoutBtn.parentElement) : null;
+    }
+    if (!anchor) return;
 
     var html =
       '<div class="ps-trust-badges">' +
@@ -136,33 +117,27 @@
         '<span>Podpora ' + SUPPORT_PHONE + '</span>' +
       '</div>';
 
-    (btn.closest('form, div, section') || btn.parentElement).insertAdjacentHTML('afterend', html);
-  }
-
-  // Cena hľadaná v blízkosti tlačidla (nie kdekoľvek na stránke), aby sa
-  // pri súvisiacich produktoch nechytila cudzia cena.
-  function priceNear(btn) {
-    var container = btn.closest('form') || btn.parentElement;
-    var guard = 0;
-    while (container && guard < 4) {
-      var m = container.textContent.match(/(\d[\d\s]*,\d{2})\s?€/);
-      if (m) return m[1] + ' €';
-      container = container.parentElement;
-      guard++;
-    }
-    var mAll = document.body.textContent.match(/(\d[\d\s]*,\d{2})\s?€/);
-    return mAll ? mAll[1] + ' €' : '';
+    anchor.insertAdjacentHTML('afterend', html);
   }
 
   // --- 3) Sticky lišta názov + cena + "Do košíka" (PDP, mobil/tablet) -------
   function stickyBuyBar() {
     if (document.querySelector('.ps-sticky-buy')) return;
-    var btn = findMainBuyButton();
+    var form = getPdpForm();
+    if (!form) return;
+
+    var btn = form.querySelector('[data-testid="buttonAddToCart"]') || form.querySelector('.add-to-cart-button');
     if (!btn) return;
 
-    var h1 = document.querySelector('h1');
-    var title = h1 ? h1.textContent.trim() : '';
-    var price = priceNear(btn);
+    var nameMeta = document.querySelector('.p-detail meta[itemprop="name"]');
+    var title = nameMeta ? (nameMeta.getAttribute('content') || '') : '';
+    if (!title) {
+      var h1 = document.querySelector('h1');
+      title = h1 ? h1.textContent.trim() : '';
+    }
+
+    var priceEl = form.querySelector('.price-final-holder');
+    var price = priceEl ? priceEl.textContent.trim() : '';
 
     var bar = document.createElement('div');
     bar.className = 'ps-sticky-buy';
@@ -183,50 +158,8 @@
 
   // --- 4) Zoslabenie riadku Tlač / Opýtať sa / Strážiť / Zdieľať (PDP) ------
   function deemphasizeSecondaryActions() {
-    if (document.querySelector('.ps-secondary-actions')) return;
-
-    var buyBtn = findMainBuyButton();
-    if (!buyBtn) return;
-    var buyRect = buyBtn.getBoundingClientRect();
-
-    var labels = ['tlač', 'opýtať sa', 'strážiť', 'zdieľať'];
-    var candidates = document.querySelectorAll('a, button');
-    var found = [];
-    for (var i = 0; i < candidates.length; i++) {
-      var el = candidates[i];
-      var t = (el.textContent || '').trim().toLowerCase();
-      var isLabel = false;
-      for (var j = 0; j < labels.length; j++) {
-        if (t.indexOf(labels[j]) !== -1) { isLabel = true; break; }
-      }
-      if (!isLabel) continue;
-
-      // Zoberieme len prvky vizuálne blízko tlačidla "Do košíka" (pod ním, do
-      // ~300px), nie čokoľvek na stránke s podobným textom (napr. v menu).
-      var rect = el.getBoundingClientRect();
-      if (rect.top < buyRect.top - 20 || rect.top > buyRect.top + 300) continue;
-
-      found.push(el);
-    }
-    if (found.length < 2) return;
-
-    // Spoločný predok, ale iba ak naozaj obsahuje výhradne tieto nájdené
-    // prvky (a nič oveľa väčšie) - inak sa radšej nič nezoslabí.
-    var container = found[0].parentElement;
-    var guard = 0;
-    var ok = false;
-    while (container && guard < 4) {
-      ok = true;
-      for (var k = 0; k < found.length; k++) {
-        if (!container.contains(found[k])) { ok = false; break; }
-      }
-      if (ok) break;
-      container = container.parentElement;
-      guard++;
-    }
-    if (ok && container && container !== document.body) {
-      container.classList.add('ps-secondary-actions');
-    }
+    var el = document.querySelector('[data-testid="productDetailActionIcons"]');
+    if (el) el.classList.add('ps-secondary-actions');
   }
 
   // --- Spustenie -------------------------------------------------------------
