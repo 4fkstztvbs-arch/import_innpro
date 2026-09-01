@@ -173,6 +173,10 @@ const COLLAPSE_MAP = {
   'Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Statívy': 'Foto a príslušenstvo > Selfie tyče > Statívy',
   'Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Selfie tyče a držiaky': 'Foto a príslušenstvo > Selfie tyče > Selfie tyče a držiaky',
   'Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Adaptéry': 'Foto a príslušenstvo > Selfie tyče > Adaptéry',
+  // Sixth pass (2026-09-01), found by user browsing the live site: TV wall mounts leaked into
+  // "Počítače a notebooky" (raw InnPro category text mapped wholesale during the mega-category
+  // split without per-leaf review) - this is a TV/audio accessory, not a computer peripheral.
+  'Počítače a notebooky > Držiaky na TV': 'TV, audio a video > TV stolíky a držiaky',
 };
 
 // Pure marketing/promo tags leaked from a supplier's raw feed root with no real place in our
