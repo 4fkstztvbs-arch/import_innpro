@@ -127,32 +127,49 @@
   // --- 4) Zoslabenie riadku Tlač / Opýtať sa / Strážiť / Zdieľať (PDP) ------
   function deemphasizeSecondaryActions() {
     if (document.querySelector('.ps-secondary-actions')) return;
+
+    var buyBtn = findByText('button, a, input[type="submit"]', ['do košíka']);
+    if (!buyBtn) return; // nie sme na PDP - nič nerobíme (menu ostáva nedotknuté)
+    var buyRect = buyBtn.getBoundingClientRect();
+
     var labels = ['tlač', 'opýtať sa', 'strážiť', 'zdieľať'];
     var candidates = document.querySelectorAll('a, button');
     var found = [];
     for (var i = 0; i < candidates.length; i++) {
-      var t = (candidates[i].textContent || '').trim().toLowerCase();
+      var el = candidates[i];
+      var t = (el.textContent || '').trim().toLowerCase();
+      var isLabel = false;
       for (var j = 0; j < labels.length; j++) {
-        if (t.indexOf(labels[j]) !== -1) {
-          found.push(candidates[i]);
-          break;
-        }
+        if (t.indexOf(labels[j]) !== -1) { isLabel = true; break; }
       }
+      if (!isLabel) continue;
+
+      // Zoberieme len prvky vizuálne blízko tlačidla "Do košíka" (pod ním, do
+      // ~300px), nie čokoľvek na stránke s podobným textom (napr. v menu).
+      var rect = el.getBoundingClientRect();
+      if (rect.top < buyRect.top - 20 || rect.top > buyRect.top + 300) continue;
+
+      found.push(el);
     }
     if (found.length < 2) return;
 
+    // Spoločný predok, ale iba ak naozaj obsahuje výhradne tieto nájdené
+    // prvky (a nič oveľa väčšie) - inak sa radšej nič nezoslabí.
     var container = found[0].parentElement;
     var guard = 0;
-    while (container && guard < 6) {
-      var containsAll = true;
+    var ok = false;
+    while (container && guard < 4) {
+      ok = true;
       for (var k = 0; k < found.length; k++) {
-        if (!container.contains(found[k])) { containsAll = false; break; }
+        if (!container.contains(found[k])) { ok = false; break; }
       }
-      if (containsAll) break;
+      if (ok) break;
       container = container.parentElement;
       guard++;
     }
-    if (container) container.classList.add('ps-secondary-actions');
+    if (ok && container && container !== document.body) {
+      container.classList.add('ps-secondary-actions');
+    }
   }
 
   // --- Spustenie -------------------------------------------------------------
