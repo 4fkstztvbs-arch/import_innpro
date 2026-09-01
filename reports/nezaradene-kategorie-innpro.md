@@ -9,12 +9,13 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 - ak má patriť pod existujúcu kategóriu inak pomenovanú → pridať záznam do
   `categoryRenamesByPath` v `scripts/innpro-mapping.json`.
 
-**5 nenapárovaných kategórií, 271 produktov nenaimportovaných.**
+**6 nenapárovaných kategórií, 289 produktov nenaimportovaných.**
 
 | Kategória z feedu | Počet produktov | Príklady produktov |
 |---|---|---|
 | Mobily, smart hodinky a tablety > Obaly na telefóny > Ochranné puzdrá pre smartfóny | 214 | Baseus Matné puzdro pre iPhone 13 PRO (čierne) + tvrdené sklo; Joyroom JR-14Q3 Puzdro pre Apple iPhone 14 Plus 6,7 "(čierne); Joyroom JR-14D2 priehľadné puzdro pre iPhone 14 Pro; Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max; Joyroom JR-14D5 priehľadné magnetické puzdro pre iPhone 14 |
 | Mobily, smart hodinky a tablety > Tvrdené sklo a fólie > Pre smartfóny | 33 | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 ks) pre iPhone XS Max / 11 Pro Max 6,5 palca; Tvrdené sklo Joyroom JR-DH07 pre Apple iPhone 14 Plus 6,7" (5 ks); Tvrdené sklo na ochranu očí Joyroom JR-G03 pre Apple iPhone 14 Plus 6,7"; Tvrdené sklo Joyroom JR-H03 pre Apple iPhone 14 Plus 6,7 "; Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " |
+| Počítače a notebooky > Držiaky na TV | 18 | TV mount 26-60" Perlesmith PSMFK12; TV mount 26-60" Perlesmith PSMFK1-EU; TV mount 23-60" Perlesmith PSMTK1-EU; TV mount 37-82" Perlesmith PSLTK1; TV mount 37-75" Perlesmith PSTVS13 |
 | Počítače a notebooky > Myši, klávesnica | 13 | ONIKUMA CW905 Pink 2.4G Wireless Gaming Mouse; ONIKUMA RGB Wired Gaming Mouse CW905 Purple; Herná myš Onikuma CW917 (čierna); Herná myš Onikuma CW917 (biela); Klávesnica Onikuma G55 (čierna) (QWERTY) |
 | Mobily, smart hodinky a tablety > Kable USB I > USB na USB-C | 10 | Kabel Flash Charge USB do Lightning Joyroom SA26-AL3 /3A / 1m (čierny); Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1,2 m (čierny); Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2 m (čierny); Kábel Pioneer USB-C do USB C Joyroom SA31-CC5 / 240W / 1,2 m (čierny); Kábel S-AC027A14 USB do USB C Joyroom / 3A / 1,2 m (fialový) |
 | Mobily, smart hodinky a tablety > Selfie tyče > statívy > stojany > Statívy a kruhové svetlá | 1 | Skladací statív Puluz pre mobilné telefóny |
