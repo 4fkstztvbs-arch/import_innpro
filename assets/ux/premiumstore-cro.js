@@ -110,11 +110,12 @@
     }
     if (!anchor) return;
 
+    var phoneDigits = SUPPORT_PHONE.replace(/\s+/g, '');
     var html =
       '<div class="ps-trust-badges">' +
         '<span>Vrátenie tovaru do 14 dní</span>' +
         '<span>Zabezpečená platba</span>' +
-        '<span>Podpora ' + SUPPORT_PHONE + '</span>' +
+        '<span>Podpora <a href="tel:' + phoneDigits + '">' + phoneDigits + '</a></span>' +
       '</div>';
 
     anchor.insertAdjacentHTML('afterend', html);

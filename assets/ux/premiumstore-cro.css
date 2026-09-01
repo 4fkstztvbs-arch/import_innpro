@@ -46,6 +46,14 @@
   gap: 6px;
   white-space: nowrap;
 }
+.ps-trust-badges a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.ps-trust-badges a:hover {
+  color: #1a7f37;
+}
 .ps-trust-badges span::before {
   content: "\2713";
   color: #1a7f37;
