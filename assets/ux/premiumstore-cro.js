@@ -39,6 +39,25 @@
     return /kosik|cart/i.test(location.pathname);
   }
 
+  function countByText(selector, words) {
+    var els = document.querySelectorAll(selector);
+    var count = 0;
+    for (var i = 0; i < els.length; i++) {
+      var t = (els[i].value || els[i].textContent || '').trim().toLowerCase();
+      for (var j = 0; j < words.length; j++) {
+        if (t.indexOf(words[j]) !== -1) { count++; break; }
+      }
+    }
+    return count;
+  }
+
+  // Skutočná stránka produktu má práve JEDNO tlačidlo "Do košíka".
+  // Homepage, kategórie a výpisy produktov ich majú viac (jedno pri
+  // každej karte) - tam sa nič z PDP funkcií nesmie spustiť.
+  function isProductDetailPage() {
+    return countByText('button, a, input[type="submit"]', ['do košíka']) === 1;
+  }
+
   // --- 1) Progress bar "doprava zadarmo od X €" (košík) --------------------
   // Zatiaľ VYPNUTÉ (nezavolané z run()) - hranica FREE_SHIP_THRESHOLD nie je
   // ešte potvrdená s reálnym nastavením dopravy. Zapnúť neskôr pridaním
@@ -86,7 +105,12 @@
   // --- 2) Trust badges pri CTA (PDP a checkout) -----------------------------
   function trustBadges() {
     if (document.querySelector('.ps-trust-badges')) return;
-    var btn = findByText('button, a, input[type="submit"]', ['do košíka', 'pokračovať']);
+    // Na PDP hľadáme "Do košíka" (tam je isto len jedno), na checkoute
+    // "Pokračovať" - na listingoch (viacero "Do košíka" tlačidiel) sa
+    // nehľadá nič, aby sa badge neomylom nepripojil pri prvej karte.
+    var btn = isProductDetailPage()
+      ? findByText('button, a, input[type="submit"]', ['do košíka'])
+      : findByText('button, a, input[type="submit"]', ['pokračovať']);
     if (!btn) return;
 
     var html =
@@ -101,7 +125,8 @@
 
   // --- 3) Sticky lišta cena + "Do košíka" (PDP, mobil/tablet) ---------------
   function stickyBuyBar() {
-    if (isCartPage() || document.querySelector('.ps-sticky-buy')) return;
+    if (document.querySelector('.ps-sticky-buy')) return;
+    if (!isProductDetailPage()) return; // len skutočná stránka produktu
     var btn = findByText('button, a, input[type="submit"]', ['do košíka']);
     if (!btn) return;
 
@@ -127,9 +152,10 @@
   // --- 4) Zoslabenie riadku Tlač / Opýtať sa / Strážiť / Zdieľať (PDP) ------
   function deemphasizeSecondaryActions() {
     if (document.querySelector('.ps-secondary-actions')) return;
+    if (!isProductDetailPage()) return; // len skutočná stránka produktu
 
     var buyBtn = findByText('button, a, input[type="submit"]', ['do košíka']);
-    if (!buyBtn) return; // nie sme na PDP - nič nerobíme (menu ostáva nedotknuté)
+    if (!buyBtn) return;
     var buyRect = buyBtn.getBoundingClientRect();
 
     var labels = ['tlač', 'opýtať sa', 'strážiť', 'zdieľať'];
