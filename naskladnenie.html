@@ -187,7 +187,7 @@
       <li>Skontroluj tabuľku — riadky <b>OK</b> sa spárovali so Shoptet produktom (podľa toho sa určí presný názov a kód pre skladovú kartu v Omege).</li>
       <li>Riadky <b>over ručne</b> nemajú v aktuálnom Shoptet feede zhodu (nový produkt, predaný/delistovaný kus, alebo feed ešte nemá aktuálne dáta). Pole EAN je editovateľné — ak ho vieš doplniť ručne (napr. z obalu produktu), príjemka sa pripraví aj pre túto položku (vytvorí sa nová karta).</li>
       <li>Dopravné, dobierka a recyklačné poplatky sa automaticky preskakujú (nie sú to skladové položky) a idú do vedľajších nákladov príjemky.</li>
-      <li>Skontroluj/doplň EAN v tabuľke, potom klikni <b>Vygenerovať súbory pre Omegu</b> v sekcii nižšie. Ponúkne súbor(y) na stiahnutie: ak sú v faktúre nové produkty (bez karty v sklade Eshop), najprv súbor s <b>novými kartami</b> (naimportuj v Omege ako prvý), potom vždy súbor s <b>príjemkou</b> (naimportuj až po nových kartách).</li>
+      <li>Skontroluj/doplň EAN v tabuľke, potom klikni <b>Vygenerovať súbory pre Omegu</b> v sekcii nižšie. Ponúkne súbor(y) na stiahnutie: ak sú v faktúre nové produkty (bez karty v sklade Eshop), najprv súbor s <b>novými kartami</b> (T03, naimportuj v Omege ako prvý), potom súbor s <b>predajnými cenami</b> (.xlsx, naimportuj cez "Import z Excelu" hneď po kartách — nastaví predajnú cenu rovno, bez dialógu "Pridaj predajnú cenu"), a nakoniec vždy súbor s <b>príjemkou</b> (T02, naimportuj ako posledný).</li>
     </ol>
     <p>Spárovanie so Shoptet produktmi (horná tabuľka) beží voči verejne publikovaným feedom tohto e-shopu (<code>output/atos.xml</code>, <code>output/kb.xml</code>, <code>output/innpro.xml</code>, <code>output/basys.xml</code>, <code>output/solight.xml</code>) — tie sa aktualizujú automaticky niekoľkokrát denne, takže výsledok je približne tak čerstvý ako posledný beh importu daného dodávateľa. Slúži len na dohľadanie správneho názvu/kódu pre Omegu — sklad v Shoptete sa nepoužíva.</p>
     <p>Čísla skladových kariet pre sklad Eshop prideľuje a ukladá automaticky Omega cards API — nové produkty (bez EAN v databáze) dostanú ďalšie voľné číslo (od <code>202600001</code>) a pripraví sa pre ne aj založenie karty (T03). Položky bez EAN na faktúre sa spracovať nedajú.</p>
@@ -196,6 +196,7 @@
   <footer>Prevod beží lokálne vo vašom prehliadači (JavaScript).</footer>
 </div>
 
+<script src="./vendor/xlsx/xlsx.full.min.js"></script>
 <script type="module">
 import * as pdfjsLib from './vendor/pdfjs/pdf.min.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = './vendor/pdfjs/pdf.worker.min.mjs';
@@ -255,6 +256,11 @@ const SKLAD_NAME = 'Eshop';
 const SKLAD_KOD = '03';
 const MARKUP = 1.15;
 const VAT_RATE = 0.23;
+// Kod cenovej hladiny pre eshopovu maloobchodnu cenu v Omege (Import skladovych kariet z Excelu -
+// https://podpora.kros.sk/faq/import-z-excelu - stlpce "Cena Kod"/"Cena bez DPH"). Na rozdiel od
+// stareho textoveho T03 importu tento format predajnu cenu skutocne nastavi bez dialogu "Pridaj
+// predajnu cenu" pri zalozeni karty.
+const PRICE_LEVEL_CODE = '01';
 // Omega cards API (cloudflare-worker-omega-cards/) - pridel'uje cisla novych kariet a ukladá ich
 // priamo do repozitara (data/omega-stock-cards.json), takze netreba rucne stahovat/nahradzat subor.
 const OMEGA_CARDS_API_URL = 'https://omega-cards-api.dt7vy7byn2.workers.dev';
@@ -375,6 +381,21 @@ function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel) {
   cols[41] = 'ks'; cols[42] = '1'; cols[43] = '0';
   cols[44] = 'SK'; cols[45] = 'SK'; cols[46] = '504'; cols[47] = '000'; cols[48] = '0'; cols[49] = '0';
   return cols;
+}
+// Excel import predajnych cien pre nove karty (podpora.kros.sk/faq/import-z-excelu) - samostatny
+// subor od T03, naimportuje sa AZ PO zalozeni kariet cez T03 (karty musia uz existovat).
+function buildNewCardPricesWorkbook(newCards) {
+  const rows = newCards.map((r) => ({
+    'Kód skladu': SKLAD_KOD,
+    'Kód karty': r.cardCode,
+    'Názov karty': r.name,
+    'Cena Kód': PRICE_LEVEL_CODE,
+    'Cena bez DPH': Number((r.unitPriceNet * MARKUP).toFixed(4)),
+  }));
+  const sheet = XLSX.utils.json_to_sheet(rows);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, sheet, 'Ceny');
+  return workbook;
 }
 async function reserveOmegaCards(items) {
   const res = await fetch(OMEGA_CARDS_API_URL + '/reserve', {
@@ -869,6 +890,15 @@ generateBtn.addEventListener('click', async () => {
       cardLink.download = `omega-nove-karty-${today}-${supplier}.txt`;
       cardLink.textContent = `⬇ 1. Stiahnuť nové karty (omega-nove-karty-${today}-${supplier}.txt) — naimportuj v Omege AKO PRVÉ`;
       omegaBoxes.appendChild(cardLink);
+
+      const pricesWorkbook = buildNewCardPricesWorkbook(newCards);
+      const pricesBytes = XLSX.write(pricesWorkbook, { type: 'array', bookType: 'xlsx' });
+      const pricesUrl = URL.createObjectURL(new Blob([pricesBytes], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }));
+      const pricesLink = document.createElement('a');
+      pricesLink.className = 'download'; pricesLink.href = pricesUrl;
+      pricesLink.download = `omega-nove-ceny-${today}-${supplier}.xlsx`;
+      pricesLink.textContent = `⬇ 2. Stiahnuť predajné ceny (omega-nove-ceny-${today}-${supplier}.xlsx) — naimportuj cez "Import z Excelu" AŽ PO nových kartách`;
+      omegaBoxes.appendChild(pricesLink);
     }
 
     const prijemkaLines = ['R00\tT02'];
@@ -882,7 +912,7 @@ generateBtn.addEventListener('click', async () => {
     omegaDownloadLink.href = omegaUrl;
     omegaDownloadLink.download = `omega-prijemka-${today}-${supplier}.txt`;
     omegaDownloadLink.textContent = newCards.length > 0
-      ? `⬇ 2. Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt) — naimportuj AŽ PO nových kartách`
+      ? `⬇ 3. Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt) — naimportuj AŽ PO nových kartách a cenách`
       : `⬇ Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt)`;
     omegaDownloadLink.style.display = 'block';
 

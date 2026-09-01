@@ -24,6 +24,7 @@
 const fs = require('fs');
 const path = require('path');
 const iconv = require('iconv-lite');
+const XLSX = require('xlsx');
 const {
   extractRows, detectSupplier, splitInvoices, SUPPLIER_PARSERS, SUPPLIER_LABELS, isNonStock, loadFeedIndex, matchItem,
 } = require('./parse-supplier-invoice');
@@ -37,6 +38,11 @@ const SKLAD_NAME = 'Eshop';
 const SKLAD_KOD = '03';
 const MARKUP = 1.15; // rovnaka prirazka ako pri ostatnych Shoptet feedoch tohto repozitara (README)
 const VAT_RATE = 0.23;
+// Kod cenovej hladiny pre eshopovu maloobchodnu cenu v Omege (Import skladovych kariet z Excelu -
+// https://podpora.kros.sk/faq/import-z-excelu - stlpce "Cena Kod"/"Cena bez DPH"). Na rozdiel od
+// stareho textoveho T03 importu tento format predajnu cenu skutocne nastavi bez dialogu "Pridaj
+// predajnu cenu" pri zalozeni karty.
+const PRICE_LEVEL_CODE = '01';
 
 // Dodavatelia tak, ako su zaevidovani v Omege (partnerske cislo, IC, adresa) - zistene z realneho
 // T02 exportu. K+B a BaSys tam zatial nie su zastupene (chyba prijemka na overenie) - partnerId
@@ -200,6 +206,22 @@ function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel) {
   return cols;
 }
 
+// Excel import predajnych cien pre nove karty (podpora.kros.sk/faq/import-z-excelu) - samostatny
+// subor od T03, naimportuje sa AZ PO zalozeni kariet cez T03 (karty musia uz existovat).
+function buildNewCardPricesWorkbook(newCards) {
+  const rows = newCards.map((r) => ({
+    'Kód skladu': SKLAD_KOD,
+    'Kód karty': r.cardCode,
+    'Názov karty': r.name,
+    'Cena Kód': PRICE_LEVEL_CODE,
+    'Cena bez DPH': Number((r.unitPriceNet * MARKUP).toFixed(4)),
+  }));
+  const sheet = XLSX.utils.json_to_sheet(rows);
+  const workbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook, sheet, 'Ceny');
+  return workbook;
+}
+
 // Cislo faktury dodavatela - format sa lisi na kazdej fakture, hlada sa podla dodavatela.
 // Omega uklada len uvodnu ciselnu cast (napr. "27197" z "27197/MAG/08/2026").
 function extractInvoiceNumber(rows, supplier) {
@@ -338,6 +360,11 @@ async function main() {
     const outPath = path.join(outDir, `omega-nove-karty-${today}-${supplier}.txt`);
     fs.writeFileSync(outPath, iconv.encode(lines.join('\r\n') + '\r\n', 'win1250'));
     console.log(`\nNove skladove karty ulozene -> ${outPath} (naimportuj v Omege AKO PRVE)`);
+
+    const pricesWorkbook = buildNewCardPricesWorkbook(newCards);
+    const pricesPath = path.join(outDir, `omega-nove-ceny-${today}-${supplier}.xlsx`);
+    XLSX.writeFile(pricesWorkbook, pricesPath);
+    console.log(`Predajne ceny novych kariet ulozene -> ${pricesPath} (naimportuj cez Import z Excelu AZ PO T03)`);
   }
 
   const prijemkaLines = ['R00\tT02'];
