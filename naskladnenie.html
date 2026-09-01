@@ -197,15 +197,14 @@
     <p>Čísla skladových kariet pre sklad Eshop prideľuje a ukladá automaticky Omega cards API — nové produkty (bez EAN v databáze) dostanú ďalšie voľné číslo (od <code>202600001</code>) a pripraví sa pre ne aj založenie karty (T03). Položky bez EAN na faktúre sa spracovať nedajú.</p>
   </details>
 
-  <div class="card" style="margin-top:16px">
-    <h2 style="font-size:1.05rem;margin-top:0">Dodatočné vygenerovanie cien pre už vytvorené karty</h2>
-    <p class="sub" style="margin-bottom:14px">Karta sa v databáze eviduje ako „nová" len pri prvom vygenerovaní — ak si medzitým už naimportoval karty (T03) do Omegy, ale cenový súbor si nestiahol/nenaimportoval, tu si ich vieš vyhľadať a zaškrtnúť bez ručného vpisovania EAN.</p>
-    <button id="loadPendingCardsBtn">Načítať posledné karty</button>
+  <div class="card" id="pendingCard" style="margin-top:16px;display:none">
+    <h2 style="font-size:1.05rem;margin-top:0">Dodatočné vygenerovanie cien pre karty z tejto faktúry</h2>
+    <p class="sub" style="margin-bottom:14px">Karta sa v databáze eviduje ako „nová" len pri prvom vygenerovaní — ak si medzitým už naimportoval karty (T03) do Omegy, ale cenový súbor si nestiahol/nenaimportoval, tu si zo <b>zoznamu položiek tejto faktúry</b> zaškrtneš, pre ktoré ho chceš dogenerovať znova.</p>
+    <button id="loadPendingCardsBtn">Načítať položky z tejto faktúry</button>
     <div id="pendingCardsPanel" style="display:none;margin-top:12px">
-      <input type="text" id="pendingFilterInput" placeholder="Filtrovať podľa názvu..." style="width:100%;max-width:420px;padding:6px 8px;box-sizing:border-box;margin-bottom:10px">
       <div id="pendingCardsList" style="max-height:320px;overflow-y:auto;border:1px solid var(--border);border-radius:8px;padding:8px"></div>
       <div style="margin-top:10px">
-        <button id="pendingSelectAllBtn" style="font-size:0.85rem">Vybrať všetky zobrazené</button>
+        <button id="pendingSelectAllBtn" style="font-size:0.85rem">Vybrať všetky</button>
         <button id="pendingSelectNoneBtn" style="font-size:0.85rem">Zrušiť výber</button>
       </div>
       <button class="primary" id="pendingPricesBtn" style="margin-top:12px">Vygenerovať súbor s cenami pre vybrané</button>
@@ -840,6 +839,10 @@ convertBtn.addEventListener('click', async () => {
     state = { supplier, feedIndex, invoiceGroups };
     renderTable();
     omegaCard.style.display = 'block';
+    pendingCard.style.display = 'block';
+    pendingCardsPanel.style.display = 'none';
+    pendingCardsList.innerHTML = '';
+    pendingPricesBoxes.innerHTML = '';
 
     // ---- Prijemka (T02) + nove skladove karty (T03) pre sklad "Eshop" ----
     resultBox.style.display = 'block';
@@ -981,18 +984,15 @@ generateBtn.addEventListener('click', async () => {
   }
 });
 
-// ---------- Dodatocne vygenerovanie cien pre uz vytvorene karty (podla EAN, nezavisle od faktury) ----------
-const pendingSupplierSelect = document.getElementById('pendingSupplierSelect');
+// ---------- Dodatocne vygenerovanie cien pre uz vytvorene karty z aktualne nacitanej faktury ----------
+const pendingCard = document.getElementById('pendingCard');
 const loadPendingCardsBtn = document.getElementById('loadPendingCardsBtn');
 const pendingCardsPanel = document.getElementById('pendingCardsPanel');
-const pendingFilterInput = document.getElementById('pendingFilterInput');
 const pendingCardsList = document.getElementById('pendingCardsList');
 const pendingSelectAllBtn = document.getElementById('pendingSelectAllBtn');
 const pendingSelectNoneBtn = document.getElementById('pendingSelectNoneBtn');
 const pendingPricesBtn = document.getElementById('pendingPricesBtn');
 const pendingPricesBoxes = document.getElementById('pendingPricesBoxes');
-const PENDING_CARDS_LIMIT = 60;
-let pendingFeedIndexes = null;
 let pendingCardRows = [];
 
 async function fetchOmegaCardsState() {
@@ -1003,24 +1003,20 @@ async function fetchOmegaCardsState() {
 }
 
 function renderPendingCardsList() {
-  const filterText = normalize(pendingFilterInput.value || '');
   pendingCardsList.innerHTML = '';
-  const visible = pendingCardRows.filter((r) => !filterText || normalize(r.nazov).includes(filterText));
-  if (visible.length === 0) {
-    pendingCardsList.innerHTML = '<div class="sub" style="padding:6px">Žiadne karty nezodpovedajú filtru.</div>';
+  if (pendingCardRows.length === 0) {
+    pendingCardsList.innerHTML = '<div class="sub" style="padding:6px">Žiadna položka tejto faktúry zatiaľ nemá kartu v Omege.</div>';
     return;
   }
-  for (const row of visible) {
-    const feedMatch = pendingFeedIndexes[row.dodavatel]?.byEan.get(normalizeEan(row.ean));
-    const hasPrice = !!(feedMatch && feedMatch.priceVat);
+  for (const row of pendingCardRows) {
     const label = document.createElement('label');
     label.style.cssText = 'display:flex;align-items:center;gap:8px;padding:5px 4px;font-size:0.9rem;cursor:pointer;border-bottom:1px solid var(--border)';
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
-    checkbox.dataset.ean = row.ean;
+    checkbox.checked = true;
     checkbox.dataset.kod = row.kod;
     checkbox.dataset.nazov = row.nazov;
-    checkbox.dataset.dodavatel = row.dodavatel;
+    checkbox.dataset.feedPriceVat = row.feedPriceVat || '';
     checkbox.className = 'pendingCardCheckbox';
     const text = document.createElement('span');
     text.style.flex = '1';
@@ -1028,29 +1024,51 @@ function renderPendingCardsList() {
     const meta = document.createElement('span');
     meta.className = 'sub';
     meta.style.fontSize = '0.8rem';
-    meta.textContent = `#${row.kod} · ${row.dodavatel}`;
+    meta.textContent = `#${row.kod}`;
     const badge = document.createElement('span');
-    badge.style.cssText = `font-size:0.75rem;padding:2px 6px;border-radius:4px;${hasPrice ? 'background:var(--ok-bg);color:var(--ok-border)' : 'background:var(--warn-bg);color:var(--warn-border)'}`;
-    badge.textContent = hasPrice ? 'cena OK' : 'bez ceny';
+    badge.style.cssText = `font-size:0.75rem;padding:2px 6px;border-radius:4px;${row.hasPrice ? 'background:var(--ok-bg);color:var(--ok-border)' : 'background:var(--warn-bg);color:var(--warn-border)'}`;
+    badge.textContent = row.hasPrice ? 'cena OK' : 'bez ceny';
     label.append(checkbox, text, meta, badge);
     pendingCardsList.appendChild(label);
   }
 }
 
 loadPendingCardsBtn.addEventListener('click', async () => {
+  if (!state) return;
   loadPendingCardsBtn.disabled = true;
   loadPendingCardsBtn.textContent = 'Načítavam...';
   pendingPricesBoxes.innerHTML = '';
   try {
-    const suppliers = ['atos', 'kb', 'innpro', 'basys', 'solight'];
-    const [state, ...feedIndexArr] = await Promise.all([fetchOmegaCardsState(), ...suppliers.map((s) => loadFeedIndex(s))]);
-    pendingFeedIndexes = Object.fromEntries(suppliers.map((s, i) => [s, feedIndexArr[i]]));
-    pendingCardRows = Object.entries(state.eshop.cards)
-      .map(([ean, card]) => ({ ean, kod: card.kod, nazov: card.nazov, dodavatel: card.dodavatel || '' }))
-      .sort((a, b) => Number(b.kod) - Number(a.kod))
-      .slice(0, PENDING_CARDS_LIMIT);
+    const { feedIndex, invoiceGroups } = state;
+    const omegaState = await fetchOmegaCardsState();
+    const items = invoiceGroups.flatMap((inv) => inv.items).filter((item) => !isNonStock(item.name));
+    const rows = [];
+    const seenEans = new Set();
+    for (const item of items) {
+      let ean = item.ean || item.manualEan;
+      if (!ean) {
+        const match = matchItem(item, feedIndex);
+        if (match && match.ean) ean = match.ean;
+      }
+      if (!ean) continue;
+      const normEan = normalizeEan(ean);
+      if (seenEans.has(normEan)) continue;
+      seenEans.add(normEan);
+      const cardEntry = Object.entries(omegaState.eshop.cards).find(([e]) => normalizeEan(e) === normEan);
+      if (!cardEntry) continue; // karta v Omege este neexistuje - treba najprv "Vygenerovať súbory pre Omegu" vyššie
+      const [, card] = cardEntry;
+      const feedMatch = feedIndex.byEan.get(normEan);
+      rows.push({ kod: card.kod, nazov: card.nazov, hasPrice: !!(feedMatch && feedMatch.priceVat), feedPriceVat: feedMatch ? feedMatch.priceVat : null });
+    }
+    pendingCardRows = rows;
     renderPendingCardsList();
     pendingCardsPanel.style.display = 'block';
+    if (rows.length === 0) {
+      const iBox = document.createElement('div');
+      iBox.className = 'box warn';
+      iBox.textContent = 'Žiadna položka tejto faktúry zatiaľ nemá kartu v Omege — najprv klikni na "Vygenerovať súbory pre Omegu" vyššie.';
+      pendingPricesBoxes.appendChild(iBox);
+    }
   } catch (err) {
     const eBox = document.createElement('div');
     eBox.className = 'box err';
@@ -1058,11 +1076,10 @@ loadPendingCardsBtn.addEventListener('click', async () => {
     pendingPricesBoxes.appendChild(eBox);
   } finally {
     loadPendingCardsBtn.disabled = false;
-    loadPendingCardsBtn.textContent = 'Načítať posledné karty';
+    loadPendingCardsBtn.textContent = 'Načítať položky z tejto faktúry';
   }
 });
 
-pendingFilterInput.addEventListener('input', renderPendingCardsList);
 pendingSelectAllBtn.addEventListener('click', () => {
   pendingCardsList.querySelectorAll('.pendingCardCheckbox').forEach((cb) => { cb.checked = true; });
 });
@@ -1083,11 +1100,10 @@ pendingPricesBtn.addEventListener('click', () => {
   const found = [];
   const noPrice = [];
   for (const cb of checked) {
-    const { ean, kod, nazov, dodavatel } = cb.dataset;
-    const feedMatch = pendingFeedIndexes[dodavatel]?.byEan.get(normalizeEan(ean));
-    const feedPriceVat = feedMatch ? feedMatch.priceVat : null;
-    if (!feedPriceVat) { noPrice.push(nazov); continue; }
-    found.push({ name: nazov, cardCode: kod, unitPriceNet: 0, feedPriceVat });
+    const { kod, nazov, feedPriceVat } = cb.dataset;
+    const priceVat = feedPriceVat ? parseFloat(feedPriceVat) : null;
+    if (!priceVat) { noPrice.push(nazov); continue; }
+    found.push({ name: nazov, cardCode: kod, unitPriceNet: 0, feedPriceVat: priceVat });
   }
   if (found.length > 0) {
     const workbook = buildNewCardPricesWorkbook(found);
