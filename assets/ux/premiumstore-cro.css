@@ -5,6 +5,7 @@
  * v Design -> Rozšírené nastavenia -> Vlastný HTML kód -> pätička.
  */
 
+/* Progress bar dopravy zadarmo - zatiaľ nevyužité, JS ho nevolá (pripravené na neskôr) */
 .ps-freeship-bar {
   margin: 16px 0;
   padding: 14px 16px;
@@ -79,4 +80,18 @@
 }
 @media (min-width: 1024px) {
   .ps-sticky-buy { display: none; } /* len mobil/tablet, na desktope je CTA zvyčajne stále vidno */
+}
+
+.ps-secondary-actions {
+  opacity: .6;
+  font-size: 12px;
+  transform: scale(.9);
+  transform-origin: left center;
+}
+.ps-secondary-actions a,
+.ps-secondary-actions button {
+  font-size: 12px !important;
+}
+.ps-secondary-actions:hover {
+  opacity: 1;
 }

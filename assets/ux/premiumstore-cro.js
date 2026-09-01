@@ -13,7 +13,7 @@
   'use strict';
 
   // --- Nastavenia ---------------------------------------------------------
-  var FREE_SHIP_THRESHOLD = 100; // € – uprav podľa reálnej hranice (musí sedieť s Nastavenia -> Doprava a platba)
+  var FREE_SHIP_THRESHOLD = 100; // € – zatiaľ nepoužité (freeShippingBar je vypnutý), pripravené na neskôr
   var SUPPORT_PHONE = '+421 48 4151999';
 
   // --- Pomocné funkcie -----------------------------------------------------
@@ -40,6 +40,9 @@
   }
 
   // --- 1) Progress bar "doprava zadarmo od X €" (košík) --------------------
+  // Zatiaľ VYPNUTÉ (nezavolané z run()) - hranica FREE_SHIP_THRESHOLD nie je
+  // ešte potvrdená s reálnym nastavením dopravy. Zapnúť neskôr pridaním
+  // freeShippingBar() do run() nižšie.
   function freeShippingBar() {
     if (!isCartPage()) return;
 
@@ -88,7 +91,6 @@
 
     var html =
       '<div class="ps-trust-badges">' +
-        '<span>Doprava zadarmo nad ' + FREE_SHIP_THRESHOLD + ' €</span>' +
         '<span>Vrátenie tovaru do 14 dní</span>' +
         '<span>Zabezpečená platba</span>' +
         '<span>Podpora ' + SUPPORT_PHONE + '</span>' +
@@ -122,11 +124,43 @@
     });
   }
 
+  // --- 4) Zoslabenie riadku Tlač / Opýtať sa / Strážiť / Zdieľať (PDP) ------
+  function deemphasizeSecondaryActions() {
+    if (document.querySelector('.ps-secondary-actions')) return;
+    var labels = ['tlač', 'opýtať sa', 'strážiť', 'zdieľať'];
+    var candidates = document.querySelectorAll('a, button');
+    var found = [];
+    for (var i = 0; i < candidates.length; i++) {
+      var t = (candidates[i].textContent || '').trim().toLowerCase();
+      for (var j = 0; j < labels.length; j++) {
+        if (t.indexOf(labels[j]) !== -1) {
+          found.push(candidates[i]);
+          break;
+        }
+      }
+    }
+    if (found.length < 2) return;
+
+    var container = found[0].parentElement;
+    var guard = 0;
+    while (container && guard < 6) {
+      var containsAll = true;
+      for (var k = 0; k < found.length; k++) {
+        if (!container.contains(found[k])) { containsAll = false; break; }
+      }
+      if (containsAll) break;
+      container = container.parentElement;
+      guard++;
+    }
+    if (container) container.classList.add('ps-secondary-actions');
+  }
+
   // --- Spustenie -------------------------------------------------------------
   function run() {
-    freeShippingBar();
     trustBadges();
     stickyBuyBar();
+    deemphasizeSecondaryActions();
+    // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
   }
 
   document.addEventListener('DOMContentLoaded', run);
