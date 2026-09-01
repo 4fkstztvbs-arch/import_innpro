@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600124,
+    "nextCardNumber": 202600130,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -740,6 +740,42 @@
         "nazov": "Činky REBEL ACTIVE RBA-2330-2 litinové neoprenové HEX 2x2kg",
         "dodavatel": "atos",
         "code": "LEC-RBA-2330-2"
+      },
+      "6932172643355": {
+        "kod": "202600124",
+        "nazov": "S-09 Pro Series Car FM",
+        "dodavatel": "innpro",
+        "code": "054589"
+      },
+      "6937267000372": {
+        "kod": "202600125",
+        "nazov": "BOBOVR S3 PRO Strap",
+        "dodavatel": "innpro",
+        "code": "064837"
+      },
+      "6974662350947": {
+        "kod": "202600126",
+        "nazov": "Anycubic ABS-Like Resin",
+        "dodavatel": "innpro",
+        "code": "065342"
+      },
+      "5907085524900": {
+        "kod": "202600127",
+        "nazov": "Uperfect Portable Monitor",
+        "dodavatel": "innpro",
+        "code": "075757"
+      },
+      "6976021769698": {
+        "kod": "202600128",
+        "nazov": "ELEGOO PETG Pro",
+        "dodavatel": "innpro",
+        "code": "079514"
+      },
+      "6970076588655": {
+        "kod": "202600129",
+        "nazov": "Jump Starter UTRAI JS9",
+        "dodavatel": "innpro",
+        "code": "087171"
       }
     }
   },
