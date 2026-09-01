@@ -197,6 +197,25 @@
     <p>Čísla skladových kariet pre sklad Eshop prideľuje a ukladá automaticky Omega cards API — nové produkty (bez EAN v databáze) dostanú ďalšie voľné číslo (od <code>202600001</code>) a pripraví sa pre ne aj založenie karty (T03). Položky bez EAN na faktúre sa spracovať nedajú.</p>
   </details>
 
+  <div class="card" style="margin-top:16px">
+    <h2 style="font-size:1.05rem;margin-top:0">Dodatočné vygenerovanie cien pre už vytvorené karty</h2>
+    <p class="sub" style="margin-bottom:14px">Karta sa v databáze eviduje ako „nová" len pri prvom vygenerovaní — ak si medzitým už naimportoval karty (T03) do Omegy, ale cenový súbor si nestiahol/nenaimportoval, tu ho vieš dodatočne vygenerovať znova podľa EAN, bez opätovného spracovania faktúry.</p>
+    <label style="display:block;font-size:0.9rem;margin-bottom:6px">Dodávateľ</label>
+    <select id="pendingSupplierSelect" style="margin-bottom:10px;padding:6px 8px">
+      <option value="atos">ATOS</option>
+      <option value="kb">K+B</option>
+      <option value="innpro">InnPro</option>
+      <option value="basys">BaSys</option>
+      <option value="solight">Solight</option>
+    </select>
+    <br>
+    <label style="display:block;font-size:0.9rem;margin-bottom:6px">EAN (jeden na riadok)</label>
+    <textarea id="pendingEansInput" rows="4" style="width:100%;max-width:420px;font-family:monospace;padding:8px;box-sizing:border-box"></textarea>
+    <br><br>
+    <button class="primary" id="pendingPricesBtn">Vygenerovať súbor s cenami</button>
+    <div id="pendingPricesBoxes" style="margin-top:12px"></div>
+  </div>
+
   <footer>Prevod beží lokálne vo vašom prehliadači (JavaScript).</footer>
 </div>
 
@@ -962,6 +981,82 @@ generateBtn.addEventListener('click', async () => {
     iBox2.className = 'box warn';
     iBox2.textContent = 'Žiadna položka na príjemku (všetko boli poplatky/doprava).';
     omegaBoxes.appendChild(iBox2);
+  }
+});
+
+// ---------- Dodatocne vygenerovanie cien pre uz vytvorene karty (podla EAN, nezavisle od faktury) ----------
+const pendingSupplierSelect = document.getElementById('pendingSupplierSelect');
+const pendingEansInput = document.getElementById('pendingEansInput');
+const pendingPricesBtn = document.getElementById('pendingPricesBtn');
+const pendingPricesBoxes = document.getElementById('pendingPricesBoxes');
+
+async function fetchOmegaCardsState() {
+  const res = await fetch(OMEGA_CARDS_API_URL + '/state');
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || `Omega cards API zlyhalo (${res.status})`);
+  return body;
+}
+
+pendingPricesBtn.addEventListener('click', async () => {
+  pendingPricesBoxes.innerHTML = '';
+  const supplier = pendingSupplierSelect.value;
+  const eans = pendingEansInput.value.split('\n').map((s) => s.trim()).filter(Boolean);
+  if (eans.length === 0) {
+    const eBox = document.createElement('div');
+    eBox.className = 'box warn';
+    eBox.textContent = 'Zadaj aspoň jeden EAN.';
+    pendingPricesBoxes.appendChild(eBox);
+    return;
+  }
+  try {
+    const [state, feedIndex] = await Promise.all([fetchOmegaCardsState(), loadFeedIndex(supplier)]);
+    const found = [];
+    const noCard = [];
+    const noPrice = [];
+    for (const ean of eans) {
+      const normEan = normalizeEan(ean);
+      const cardEntry = Object.entries(state.eshop.cards).find(([e]) => normalizeEan(e) === normEan);
+      if (!cardEntry) { noCard.push(ean); continue; }
+      const [cardEan, card] = cardEntry;
+      const feedMatch = feedIndex.byEan.get(normEan);
+      const feedPriceVat = feedMatch ? feedMatch.priceVat : null;
+      if (!feedPriceVat) { noPrice.push(`${ean} (${card.nazov})`); continue; }
+      found.push({ name: card.nazov, cardCode: card.kod, unitPriceNet: 0, feedPriceVat });
+    }
+    if (found.length > 0) {
+      const workbook = buildNewCardPricesWorkbook(found);
+      const bytes = XLSX.write(workbook, { type: 'array', bookType: 'xlsx' });
+      const url = URL.createObjectURL(new Blob([bytes], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }));
+      const today = new Date().toISOString().slice(0, 10);
+      const link = document.createElement('a');
+      link.className = 'download'; link.href = url;
+      link.download = `omega-nove-ceny-${today}-${supplier}-dodatocne.xlsx`;
+      link.textContent = `⬇ Stiahnuť súbor s cenami (${found.length} kariet) — naimportuj cez "Import z Excelu"`;
+      pendingPricesBoxes.appendChild(link);
+    }
+    if (noCard.length > 0) {
+      const wBox = document.createElement('div');
+      wBox.className = 'box warn';
+      wBox.textContent = `Karta v Omega cards API nenájdená pre EAN: ${noCard.join(', ')}`;
+      pendingPricesBoxes.appendChild(wBox);
+    }
+    if (noPrice.length > 0) {
+      const wBox2 = document.createElement('div');
+      wBox2.className = 'box warn';
+      wBox2.textContent = `Produkt zatiaľ nie je v Shoptet feede (žiadna reálna cena na dohľadanie): ${noPrice.join(', ')}`;
+      pendingPricesBoxes.appendChild(wBox2);
+    }
+    if (found.length === 0 && noCard.length === 0 && noPrice.length === 0) {
+      const iBox = document.createElement('div');
+      iBox.className = 'box warn';
+      iBox.textContent = 'Nič sa nenašlo.';
+      pendingPricesBoxes.appendChild(iBox);
+    }
+  } catch (err) {
+    const eBox = document.createElement('div');
+    eBox.className = 'box err';
+    eBox.textContent = 'Chyba: ' + err.message;
+    pendingPricesBoxes.appendChild(eBox);
   }
 });
 </script>
