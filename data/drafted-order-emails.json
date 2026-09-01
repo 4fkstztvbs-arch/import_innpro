@@ -124,5 +124,19 @@
     "subject": "Stav objednávky #202600666",
     "orderCode": "202600666",
     "matchedBy": "code"
+  },
+  "<ce9c7747-004a-4b85-b30c-f589d4e1db69@gmail.com>": {
+    "draftedAt": "2026-09-01T09:12:14.309Z",
+    "from": "mrpetersuda@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600537 sa práve vybavuje",
+    "orderCode": "202600537",
+    "matchedBy": "code"
+  },
+  "<web-17074822@cgp-back-6.mail.zoznam.sk>": {
+    "draftedAt": "2026-09-01T09:12:23.770Z",
+    "from": "pela.21@zoznam.sk",
+    "subject": "Re: Vaša objednávka č. 202600667 sa práve vybavuje",
+    "orderCode": "202600667",
+    "matchedBy": "code"
   }
 }
