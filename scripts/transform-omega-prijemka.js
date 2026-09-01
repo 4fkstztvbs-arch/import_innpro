@@ -262,11 +262,12 @@ function extractInvoiceNumber(rows, supplier) {
 async function main() {
   const pdfPath = process.argv[2];
   if (!pdfPath) {
-    console.error('Pouzitie: node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys|solight]');
+    console.error('Pouzitie: node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys|solight] [--no-prices]');
     process.exit(1);
   }
   const supplierArg = process.argv.find((a) => a.startsWith('--supplier='));
   let supplier = supplierArg ? supplierArg.split('=')[1] : null;
+  const withPrices = !process.argv.includes('--no-prices');
 
   console.log(`Nacitavam ${pdfPath} ...`);
   const rows = await extractRows(pdfPath);
@@ -361,10 +362,12 @@ async function main() {
     fs.writeFileSync(outPath, iconv.encode(lines.join('\r\n') + '\r\n', 'win1250'));
     console.log(`\nNove skladove karty ulozene -> ${outPath} (naimportuj v Omege AKO PRVE)`);
 
-    const pricesWorkbook = buildNewCardPricesWorkbook(newCards);
-    const pricesPath = path.join(outDir, `omega-nove-ceny-${today}-${supplier}.xlsx`);
-    XLSX.writeFile(pricesWorkbook, pricesPath);
-    console.log(`Predajne ceny novych kariet ulozene -> ${pricesPath} (naimportuj cez Import z Excelu AZ PO T03)`);
+    if (withPrices) {
+      const pricesWorkbook = buildNewCardPricesWorkbook(newCards);
+      const pricesPath = path.join(outDir, `omega-nove-ceny-${today}-${supplier}.xlsx`);
+      XLSX.writeFile(pricesWorkbook, pricesPath);
+      console.log(`Predajne ceny novych kariet ulozene -> ${pricesPath} (naimportuj cez Import z Excelu AZ PO T03)`);
+    }
   }
 
   const prijemkaLines = ['R00\tT02'];

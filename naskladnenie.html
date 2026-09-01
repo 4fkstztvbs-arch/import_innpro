@@ -173,6 +173,10 @@
     <div class="card" id="omegaCard" style="display:none">
       <h2 style="font-size:1.05rem;margin-top:0">Príjemka pre Omegu</h2>
       <p class="sub" style="margin-bottom:14px">Položky bez EAN (chýba na faktúre aj v Shoptet feede) môžeš v tabuľke vyššie doplniť ručne — nájdeš ich EAN napr. priamo v Shoptet administrácii alebo na obale produktu. Keď budeš mať EAN doplnené, klikni na tlačidlo nižšie.</p>
+      <label style="display:flex;align-items:center;gap:8px;margin-bottom:12px;cursor:pointer;font-size:0.92rem">
+        <input type="checkbox" id="genPricesCheckbox" checked>
+        Generovať aj súbor s predajnými cenami pre nové karty (.xlsx) — cena = nákupná cena z faktúry × prirážka 15 %, je to len odhad, nie skutočná cena z eshopu
+      </label>
       <button class="primary" id="generateBtn">Vygenerovať súbory pre Omegu</button>
       <div id="omegaBoxes"></div>
       <a class="download" id="omegaDownloadLink" download style="display:none">⬇ Stiahnuť príjemku pre Omegu</a>
@@ -638,6 +642,7 @@ const drop = document.getElementById('drop');
 const fname = document.getElementById('fname');
 const convertBtn = document.getElementById('convertBtn');
 const generateBtn = document.getElementById('generateBtn');
+const genPricesCheckbox = document.getElementById('genPricesCheckbox');
 const resultBox = document.getElementById('result');
 const boxes = document.getElementById('boxes');
 const tableWrap = document.getElementById('tableWrap');
@@ -891,14 +896,16 @@ generateBtn.addEventListener('click', async () => {
       cardLink.textContent = `⬇ 1. Stiahnuť nové karty (omega-nove-karty-${today}-${supplier}.txt) — naimportuj v Omege AKO PRVÉ`;
       omegaBoxes.appendChild(cardLink);
 
-      const pricesWorkbook = buildNewCardPricesWorkbook(newCards);
-      const pricesBytes = XLSX.write(pricesWorkbook, { type: 'array', bookType: 'xlsx' });
-      const pricesUrl = URL.createObjectURL(new Blob([pricesBytes], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }));
-      const pricesLink = document.createElement('a');
-      pricesLink.className = 'download'; pricesLink.href = pricesUrl;
-      pricesLink.download = `omega-nove-ceny-${today}-${supplier}.xlsx`;
-      pricesLink.textContent = `⬇ 2. Stiahnuť predajné ceny (omega-nove-ceny-${today}-${supplier}.xlsx) — naimportuj cez "Import z Excelu" AŽ PO nových kartách`;
-      omegaBoxes.appendChild(pricesLink);
+      if (genPricesCheckbox.checked) {
+        const pricesWorkbook = buildNewCardPricesWorkbook(newCards);
+        const pricesBytes = XLSX.write(pricesWorkbook, { type: 'array', bookType: 'xlsx' });
+        const pricesUrl = URL.createObjectURL(new Blob([pricesBytes], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }));
+        const pricesLink = document.createElement('a');
+        pricesLink.className = 'download'; pricesLink.href = pricesUrl;
+        pricesLink.download = `omega-nove-ceny-${today}-${supplier}.xlsx`;
+        pricesLink.textContent = `⬇ 2. Stiahnuť predajné ceny (omega-nove-ceny-${today}-${supplier}.xlsx) — naimportuj cez "Import z Excelu" AŽ PO nových kartách`;
+        omegaBoxes.appendChild(pricesLink);
+      }
     }
 
     const prijemkaLines = ['R00\tT02'];
@@ -911,8 +918,9 @@ generateBtn.addEventListener('click', async () => {
     const omegaUrl = URL.createObjectURL(new Blob([bytes], { type: 'text/plain;charset=windows-1250' }));
     omegaDownloadLink.href = omegaUrl;
     omegaDownloadLink.download = `omega-prijemka-${today}-${supplier}.txt`;
+    const withPrices = newCards.length > 0 && genPricesCheckbox.checked;
     omegaDownloadLink.textContent = newCards.length > 0
-      ? `⬇ 3. Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt) — naimportuj AŽ PO nových kartách a cenách`
+      ? `⬇ ${withPrices ? '3' : '2'}. Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt) — naimportuj AŽ PO nových kartách${withPrices ? ' a cenách' : ''}`
       : `⬇ Stiahnuť príjemku (omega-prijemka-${today}-${supplier}.txt)`;
     omegaDownloadLink.style.display = 'block';
 
