@@ -180,8 +180,17 @@ function buildWarehouseHeaderRow() {
   cols[13] = 'V'; cols[14] = '0'; cols[15] = '0';
   return cols;
 }
-function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel) {
-  const sellNet = unitPriceNet * MARKUP;
+// Ak uz produkt v Shoptet feede existuje (skutocna bezici predajna cena, feedPriceVat = PRICE_VAT
+// s DPH), pouzije sa tato realna cena namiesto odhadu z nakupnej ceny - presnejsie a nemeni cenu,
+// za ktoru uz produkt reálne bezi na eshope.
+function resolveSellNet(unitPriceNet, feedPriceVat) {
+  if (typeof feedPriceVat === 'number' && !Number.isNaN(feedPriceVat) && feedPriceVat > 0) {
+    return feedPriceVat / (1 + VAT_RATE);
+  }
+  return unitPriceNet * MARKUP;
+}
+function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel, feedPriceVat) {
+  const sellNet = resolveSellNet(unitPriceNet, feedPriceVat);
   const sellGross = sellNet * (1 + VAT_RATE);
   const cols = new Array(50).fill('');
   cols[0] = 'R02';
@@ -214,7 +223,7 @@ function buildNewCardPricesWorkbook(newCards) {
     'Kód karty': r.cardCode,
     'Názov karty': r.name,
     'Cena Kód': PRICE_LEVEL_CODE,
-    'Cena bez DPH': Number((r.unitPriceNet * MARKUP).toFixed(4)),
+    'Cena bez DPH': Number(resolveSellNet(r.unitPriceNet, r.feedPriceVat).toFixed(4)),
   }));
   const sheet = XLSX.utils.json_to_sheet(rows);
   const workbook = XLSX.utils.book_new();
@@ -331,7 +340,11 @@ async function main() {
     for (const item of inv.physicalItems) {
       const card = assigned[item.ean];
       if (!card) continue;
-      if (card.isNew && !newCardEans.has(item.ean)) { newCards.push({ ...item, cardCode: card.kod }); newCardEans.add(item.ean); }
+      if (card.isNew && !newCardEans.has(item.ean)) {
+        const feedMatch = matchItem(item, feedIndex);
+        newCards.push({ ...item, cardCode: card.kod, feedPriceVat: feedMatch ? feedMatch.priceVat : null });
+        newCardEans.add(item.ean);
+      }
       inv.toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
     }
   }
@@ -357,10 +370,12 @@ async function main() {
 
   if (newCards.length > 0) {
     const lines = ['R00\tT03', buildWarehouseHeaderRow().join('\t')];
-    for (const r of newCards) lines.push(buildNewCardRow(r.name, r.cardCode, r.ean, r.unitPriceNet, identity.label).join('\t'));
+    for (const r of newCards) lines.push(buildNewCardRow(r.name, r.cardCode, r.ean, r.unitPriceNet, identity.label, r.feedPriceVat).join('\t'));
     const outPath = path.join(outDir, `omega-nove-karty-${today}-${supplier}.txt`);
     fs.writeFileSync(outPath, iconv.encode(lines.join('\r\n') + '\r\n', 'win1250'));
+    const fromFeedCount = newCards.filter((r) => typeof r.feedPriceVat === 'number' && r.feedPriceVat > 0).length;
     console.log(`\nNove skladove karty ulozene -> ${outPath} (naimportuj v Omege AKO PRVE)`);
+    console.log(`  Predajna cena: ${fromFeedCount}/${newCards.length} zo skutocnej ceny na eshope (feed), ${newCards.length - fromFeedCount} odhadom (nakup x1.15)`);
 
     if (withPrices) {
       const pricesWorkbook = buildNewCardPricesWorkbook(newCards);

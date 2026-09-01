@@ -175,7 +175,7 @@
       <p class="sub" style="margin-bottom:14px">Položky bez EAN (chýba na faktúre aj v Shoptet feede) môžeš v tabuľke vyššie doplniť ručne — nájdeš ich EAN napr. priamo v Shoptet administrácii alebo na obale produktu. Keď budeš mať EAN doplnené, klikni na tlačidlo nižšie.</p>
       <label style="display:flex;align-items:center;gap:8px;margin-bottom:12px;cursor:pointer;font-size:0.92rem">
         <input type="checkbox" id="genPricesCheckbox" checked>
-        Generovať aj súbor s predajnými cenami pre nové karty (.xlsx) — cena = nákupná cena z faktúry × prirážka 15 %, je to len odhad, nie skutočná cena z eshopu
+        Generovať aj súbor s predajnými cenami pre nové karty (.xlsx) — prednostne skutočná cena z eshopu (feed), inak odhad z nákupnej ceny × 15 %
       </label>
       <button class="primary" id="generateBtn">Vygenerovať súbory pre Omegu</button>
       <div id="omegaBoxes"></div>
@@ -365,8 +365,17 @@ function buildWarehouseHeaderRow() {
   cols[13] = 'V'; cols[14] = '0'; cols[15] = '0';
   return cols;
 }
-function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel) {
-  const sellNet = unitPriceNet * MARKUP;
+// Ak uz produkt v Shoptet feede existuje (skutocna bezici predajna cena, feedPriceVat = PRICE_VAT
+// s DPH), pouzije sa tato realna cena namiesto odhadu z nakupnej ceny - presnejsie a nemeni sa
+// cena, za ktoru uz produkt reálne bezi na eshope.
+function resolveSellNet(unitPriceNet, feedPriceVat) {
+  if (typeof feedPriceVat === 'number' && !Number.isNaN(feedPriceVat) && feedPriceVat > 0) {
+    return feedPriceVat / (1 + VAT_RATE);
+  }
+  return unitPriceNet * MARKUP;
+}
+function buildNewCardRow(name, cardCode, ean, unitPriceNet, supplierLabel, feedPriceVat) {
+  const sellNet = resolveSellNet(unitPriceNet, feedPriceVat);
   const sellGross = sellNet * (1 + VAT_RATE);
   const cols = new Array(50).fill('');
   cols[0] = 'R02'; cols[1] = name; cols[2] = cardCode; cols[3] = 'ks'; cols[4] = ean || '';
@@ -394,7 +403,7 @@ function buildNewCardPricesWorkbook(newCards) {
     'Kód karty': r.cardCode,
     'Názov karty': r.name,
     'Cena Kód': PRICE_LEVEL_CODE,
-    'Cena bez DPH': Number((r.unitPriceNet * MARKUP).toFixed(4)),
+    'Cena bez DPH': Number(resolveSellNet(r.unitPriceNet, r.feedPriceVat).toFixed(4)),
   }));
   const sheet = XLSX.utils.json_to_sheet(rows);
   const workbook = XLSX.utils.book_new();
@@ -624,8 +633,10 @@ async function loadFeedIndex(supplier) {
     const code = it.getElementsByTagName('CODE')[0]?.textContent?.trim() || '';
     const ean = it.getElementsByTagName('EAN')[0]?.textContent?.trim() || '';
     const name = it.getElementsByTagName('NAME')[0]?.textContent?.trim() || '';
-    if (ean) byEan.set(normalizeEan(ean), { code, name, ean });
-    if (name) byName.set(normalize(name), { code, name, ean });
+    const priceVatRaw = it.getElementsByTagName('PRICE_VAT')[0]?.textContent?.trim() || '';
+    const priceVat = priceVatRaw ? parseFloat(priceVatRaw.replace(',', '.')) : null;
+    if (ean) byEan.set(normalizeEan(ean), { code, name, ean, priceVat });
+    if (name) byName.set(normalize(name), { code, name, ean, priceVat });
   }
   return { byEan, byName };
 }
@@ -878,7 +889,11 @@ generateBtn.addEventListener('click', async () => {
     for (const item of inv.physicalItems) {
       const card = assigned[item.ean];
       if (!card) continue;
-      if (card.isNew && !newCardEans.has(item.ean)) { newCards.push({ ...item, cardCode: card.kod }); newCardEans.add(item.ean); }
+      if (card.isNew && !newCardEans.has(item.ean)) {
+        const feedMatch = matchItem(item, feedIndex);
+        newCards.push({ ...item, cardCode: card.kod, feedPriceVat: feedMatch ? feedMatch.priceVat : null });
+        newCardEans.add(item.ean);
+      }
       inv.toReceive.push({ ...item, cardCode: card.kod, cardName: card.nazov });
     }
   }
@@ -887,7 +902,7 @@ generateBtn.addEventListener('click', async () => {
   if (totalToReceive > 0) {
     if (newCards.length > 0) {
       const cardLines = ['R00\tT03', buildWarehouseHeaderRow().join('\t')];
-      for (const r of newCards) cardLines.push(buildNewCardRow(r.name, r.cardCode, r.ean, r.unitPriceNet, identity.label).join('\t'));
+      for (const r of newCards) cardLines.push(buildNewCardRow(r.name, r.cardCode, r.ean, r.unitPriceNet, identity.label, r.feedPriceVat).join('\t'));
       const cardBytes = encodeWin1250(cardLines.join('\r\n') + '\r\n');
       const cardUrl = URL.createObjectURL(new Blob([cardBytes], { type: 'text/plain;charset=windows-1250' }));
       const cardLink = document.createElement('a');
@@ -925,9 +940,13 @@ generateBtn.addEventListener('click', async () => {
     omegaDownloadLink.style.display = 'block';
 
     const invoiceCountNote = perInvoice.length > 1 ? ` (${perInvoice.filter((inv) => inv.toReceive.length > 0).length} faktúry v jednom súbore)` : '';
+    const fromFeedCount = newCards.filter((r) => typeof r.feedPriceVat === 'number' && r.feedPriceVat > 0).length;
+    const priceSourceNote = newCards.length > 0
+      ? ` Predajná cena: ${fromFeedCount}/${newCards.length} zo skutočnej ceny na eshope (feed), ${newCards.length - fromFeedCount} odhadom (nákup ×1.15).`
+      : '';
     const okBox2 = document.createElement('div');
     okBox2.className = 'box ok';
-    okBox2.textContent = `Sklad "Eshop": ${totalToReceive} položiek na príjemku${invoiceCountNote}, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}). Databáza kariet je už uložená automaticky.`;
+    okBox2.textContent = `Sklad "Eshop": ${totalToReceive} položiek na príjemku${invoiceCountNote}, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}). Databáza kariet je už uložená automaticky.${priceSourceNote}`;
     omegaBoxes.insertBefore(okBox2, omegaBoxes.firstChild);
   }
   if (skippedNoEan.length > 0) {

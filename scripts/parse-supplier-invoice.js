@@ -292,8 +292,10 @@ function loadFeedIndex(supplier) {
     const code = typeof it.CODE === 'object' ? it.CODE['#text'] : it.CODE;
     const ean = typeof it.EAN === 'object' ? it.EAN['#text'] : it.EAN;
     const name = typeof it.NAME === 'object' ? it.NAME['#text'] : it.NAME;
-    if (ean) byEan.set(normalizeEan(ean), { code: String(code || '').trim(), name, ean: String(ean).trim() });
-    if (name) byName.set(normalize(name), { code: String(code || '').trim(), name, ean: ean ? String(ean).trim() : '' });
+    const priceVatRaw = typeof it.PRICE_VAT === 'object' ? it.PRICE_VAT['#text'] : it.PRICE_VAT;
+    const priceVat = priceVatRaw ? parseFloat(String(priceVatRaw).replace(',', '.')) : null;
+    if (ean) byEan.set(normalizeEan(ean), { code: String(code || '').trim(), name, ean: String(ean).trim(), priceVat });
+    if (name) byName.set(normalize(name), { code: String(code || '').trim(), name, ean: ean ? String(ean).trim() : '', priceVat });
   }
   return { byEan, byName };
 }
