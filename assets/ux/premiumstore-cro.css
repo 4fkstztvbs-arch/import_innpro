@@ -68,7 +68,21 @@
   transition: transform .25s ease;
 }
 .ps-sticky-buy.is-visible { transform: translateY(0); }
-.ps-sticky-buy .ps-sticky-price { font-weight: 700; font-size: 18px; }
+.ps-sticky-buy .ps-sticky-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 13px;
+  color: #444;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ps-sticky-buy .ps-sticky-price {
+  flex: 0 0 auto;
+  font-weight: 700;
+  font-size: 18px;
+  white-space: nowrap;
+}
 .ps-sticky-buy button {
   background: #1a7f37;
   color: #fff;

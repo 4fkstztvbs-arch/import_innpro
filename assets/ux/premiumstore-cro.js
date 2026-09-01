@@ -139,18 +139,35 @@
     (btn.closest('form, div, section') || btn.parentElement).insertAdjacentHTML('afterend', html);
   }
 
-  // --- 3) Sticky lišta cena + "Do košíka" (PDP, mobil/tablet) ---------------
+  // Cena hľadaná v blízkosti tlačidla (nie kdekoľvek na stránke), aby sa
+  // pri súvisiacich produktoch nechytila cudzia cena.
+  function priceNear(btn) {
+    var container = btn.closest('form') || btn.parentElement;
+    var guard = 0;
+    while (container && guard < 4) {
+      var m = container.textContent.match(/(\d[\d\s]*,\d{2})\s?€/);
+      if (m) return m[1] + ' €';
+      container = container.parentElement;
+      guard++;
+    }
+    var mAll = document.body.textContent.match(/(\d[\d\s]*,\d{2})\s?€/);
+    return mAll ? mAll[1] + ' €' : '';
+  }
+
+  // --- 3) Sticky lišta názov + cena + "Do košíka" (PDP, mobil/tablet) -------
   function stickyBuyBar() {
     if (document.querySelector('.ps-sticky-buy')) return;
     var btn = findMainBuyButton();
     if (!btn) return;
 
-    var priceMatch = document.body.textContent.match(/(\d[\d\s]*,\d{2})\s?€/);
-    var price = priceMatch ? priceMatch[1] + ' €' : '';
+    var h1 = document.querySelector('h1');
+    var title = h1 ? h1.textContent.trim() : '';
+    var price = priceNear(btn);
 
     var bar = document.createElement('div');
     bar.className = 'ps-sticky-buy';
     bar.innerHTML =
+      '<span class="ps-sticky-title">' + title.replace(/</g, '&lt;') + '</span>' +
       '<span class="ps-sticky-price">' + price + '</span>' +
       '<button type="button">Do košíka</button>';
     document.body.appendChild(bar);
