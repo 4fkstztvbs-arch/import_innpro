@@ -39,23 +39,43 @@
     return /kosik|cart/i.test(location.pathname);
   }
 
-  function countByText(selector, words) {
-    var els = document.querySelectorAll(selector);
-    var count = 0;
-    for (var i = 0; i < els.length; i++) {
-      var t = (els[i].value || els[i].textContent || '').trim().toLowerCase();
-      for (var j = 0; j < words.length; j++) {
-        if (t.indexOf(words[j]) !== -1) { count++; break; }
+  // Malý ancestor tlačidla obsahuje aj počtový vstup (napr. "1" pri
+  // -/+ prepínači množstva)? To má na Shoptete iba HLAVNÉ tlačidlo
+  // produktu na PDP - karty v zoznamoch aj v súvisiacich produktoch
+  // (Príslušenstvo/Súvisiace produkty na tej istej PDP stránke) majú
+  // "Do košíka" bez vlastného výberu množstva.
+  function hasQuantityInputNear(btn) {
+    var container = btn.closest('form') || btn.parentElement;
+    var guard = 0;
+    while (container && guard < 3) {
+      var inputs = container.querySelectorAll('input');
+      for (var i = 0; i < inputs.length; i++) {
+        if (/^\d{1,3}$/.test((inputs[i].value || '').trim())) return true;
       }
+      container = container.parentElement;
+      guard++;
     }
-    return count;
+    return false;
   }
 
-  // Skutočná stránka produktu má práve JEDNO tlačidlo "Do košíka".
-  // Homepage, kategórie a výpisy produktov ich majú viac (jedno pri
-  // každej karte) - tam sa nič z PDP funkcií nesmie spustiť.
-  function isProductDetailPage() {
-    return countByText('button, a, input[type="submit"]', ['do košíka']) === 1;
+  // Nájde HLAVNÉ tlačidlo "Do košíka" na skutočnej stránke produktu.
+  // Vracia null na homepage/kategórii/pri súvisiacich produktoch bez
+  // jednoznačného hlavného tlačidla (tam sa PDP funkcie nemajú spúšťať).
+  var _mainBuyBtnCache = null;
+  function findMainBuyButton() {
+    if (_mainBuyBtnCache && document.contains(_mainBuyBtnCache)) return _mainBuyBtnCache;
+    var buttons = document.querySelectorAll('button, a, input[type="submit"]');
+    var withQty = [];
+    var all = [];
+    for (var i = 0; i < buttons.length; i++) {
+      var t = (buttons[i].value || buttons[i].textContent || '').trim().toLowerCase();
+      if (t.indexOf('do košíka') === -1) continue;
+      all.push(buttons[i]);
+      if (hasQuantityInputNear(buttons[i])) withQty.push(buttons[i]);
+    }
+    var result = withQty.length === 1 ? withQty[0] : (all.length === 1 ? all[0] : null);
+    _mainBuyBtnCache = result;
+    return result;
   }
 
   // --- 1) Progress bar "doprava zadarmo od X €" (košík) --------------------
@@ -105,12 +125,8 @@
   // --- 2) Trust badges pri CTA (PDP a checkout) -----------------------------
   function trustBadges() {
     if (document.querySelector('.ps-trust-badges')) return;
-    // Na PDP hľadáme "Do košíka" (tam je isto len jedno), na checkoute
-    // "Pokračovať" - na listingoch (viacero "Do košíka" tlačidiel) sa
-    // nehľadá nič, aby sa badge neomylom nepripojil pri prvej karte.
-    var btn = isProductDetailPage()
-      ? findByText('button, a, input[type="submit"]', ['do košíka'])
-      : findByText('button, a, input[type="submit"]', ['pokračovať']);
+    // Na PDP hľadáme hlavné tlačidlo "Do košíka", na checkoute "Pokračovať".
+    var btn = findMainBuyButton() || findByText('button, a, input[type="submit"]', ['pokračovať']);
     if (!btn) return;
 
     var html =
@@ -126,8 +142,7 @@
   // --- 3) Sticky lišta cena + "Do košíka" (PDP, mobil/tablet) ---------------
   function stickyBuyBar() {
     if (document.querySelector('.ps-sticky-buy')) return;
-    if (!isProductDetailPage()) return; // len skutočná stránka produktu
-    var btn = findByText('button, a, input[type="submit"]', ['do košíka']);
+    var btn = findMainBuyButton();
     if (!btn) return;
 
     var priceMatch = document.body.textContent.match(/(\d[\d\s]*,\d{2})\s?€/);
@@ -152,9 +167,8 @@
   // --- 4) Zoslabenie riadku Tlač / Opýtať sa / Strážiť / Zdieľať (PDP) ------
   function deemphasizeSecondaryActions() {
     if (document.querySelector('.ps-secondary-actions')) return;
-    if (!isProductDetailPage()) return; // len skutočná stránka produktu
 
-    var buyBtn = findByText('button, a, input[type="submit"]', ['do košíka']);
+    var buyBtn = findMainBuyButton();
     if (!buyBtn) return;
     var buyRect = buyBtn.getBoundingClientRect();
 
