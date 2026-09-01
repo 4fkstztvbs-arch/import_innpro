@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600134,
+    "nextCardNumber": 202600154,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -800,6 +800,126 @@
         "nazov": "Carlinkit TBOX ULTRA 2",
         "dodavatel": "innpro",
         "code": ""
+      },
+      "5906168432439": {
+        "kod": "202600134",
+        "nazov": "PULUZ USB-C / Type-C to 8",
+        "dodavatel": "innpro",
+        "code": "063492"
+      },
+      "6976297860051": {
+        "kod": "202600135",
+        "nazov": "Cadence speed sensor",
+        "dodavatel": "innpro",
+        "code": "065090"
+      },
+      "6974662350923": {
+        "kod": "202600136",
+        "nazov": "Anycubic ABS-Like Resin",
+        "dodavatel": "innpro",
+        "code": "065341"
+      },
+      "6976831830960": {
+        "kod": "202600137",
+        "nazov": "85CM DEEP PARABOLIC",
+        "dodavatel": "innpro",
+        "code": "070462"
+      },
+      "4711527001543": {
+        "kod": "202600138",
+        "nazov": "Darkflash Computer Case",
+        "dodavatel": "innpro",
+        "code": "072319"
+      },
+      "6934399227004": {
+        "kod": "202600139",
+        "nazov": "3.5L water fountain",
+        "dodavatel": "innpro",
+        "code": "075789"
+      },
+      "6934399227011": {
+        "kod": "202600140",
+        "nazov": "3.5L water fountain filter refil",
+        "dodavatel": "innpro",
+        "code": "075790"
+      },
+      "6924922258100": {
+        "kod": "202600141",
+        "nazov": "Yeelight Motion Sensor",
+        "dodavatel": "innpro",
+        "code": "074440"
+      },
+      "0810194780677": {
+        "kod": "202600142",
+        "nazov": "X-Sense XC04-WX Wi-Fi",
+        "dodavatel": "innpro",
+        "code": "079320"
+      },
+      "5907085528656": {
+        "kod": "202600143",
+        "nazov": "RainPoint High Precision",
+        "dodavatel": "innpro",
+        "code": "079583"
+      },
+      "5907085523996": {
+        "kod": "202600144",
+        "nazov": "Flytec RC Boat",
+        "dodavatel": "innpro",
+        "code": "078879"
+      },
+      "6948052903440": {
+        "kod": "202600145",
+        "nazov": "PXN CB1 Control Box",
+        "dodavatel": "innpro",
+        "code": "080997"
+      },
+      "5905156102118": {
+        "kod": "202600146",
+        "nazov": "Flytec RC Boat V803-Basic",
+        "dodavatel": "innpro",
+        "code": "083983"
+      },
+      "6935750534533": {
+        "kod": "202600147",
+        "nazov": "Uni- T LPG tank level",
+        "dodavatel": "innpro",
+        "code": "085000"
+      },
+      "6976297860693": {
+        "kod": "202600148",
+        "nazov": "Mini Air Pump Cycplus",
+        "dodavatel": "innpro",
+        "code": "083110"
+      },
+      "5905156104686": {
+        "kod": "202600149",
+        "nazov": "Łódź zanętowa Flytec V805",
+        "dodavatel": "innpro",
+        "code": "087422"
+      },
+      "6936685221734": {
+        "kod": "202600150",
+        "nazov": "GameSir T4n Nova Lite Pink",
+        "dodavatel": "innpro",
+        "code": "086663"
+      },
+      "5905156106574": {
+        "kod": "202600151",
+        "nazov": "For Insta360 X3 PULUZ Cold",
+        "dodavatel": "innpro",
+        "code": "089662"
+      },
+      "5905156106604": {
+        "kod": "202600152",
+        "nazov": "For Insta360 X3 PULUZ Lens",
+        "dodavatel": "innpro",
+        "code": "089668"
+      },
+      "6952344211076": {
+        "kod": "202600153",
+        "nazov": "Speedlite GODOX TT350N",
+        "dodavatel": "innpro",
+        "code": "091001"
       }
     }
   },
