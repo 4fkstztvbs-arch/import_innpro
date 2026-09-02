@@ -31,11 +31,18 @@
     return parseFloat(m[1].replace(/\./g, '').replace(',', '.'));
   }
 
+  // Hlavné menu (#navigation) má tisíce odkazov (celý strom kategórií +
+  // značky) a je MIMO #content - hľadanie textu preto obmedzujeme na
+  // #content, nech sa táto obrovská vetva DOM vôbec neprehľadáva (výkon).
+  function getSearchRoot() {
+    return document.getElementById('content') || document.body;
+  }
+
   // excludeSelector: vynechá prvky vnútri napr. #cart-widget (vysúvacie
   // mini-okno košíka), ktoré má vlastné tlačidlo "Pokračovať do košíka" a
   // inak by ho hľadanie podľa textu omylom považovalo za checkout tlačidlo.
   function findByText(selector, words, excludeSelector) {
-    var els = document.querySelectorAll(selector);
+    var els = getSearchRoot().querySelectorAll(selector);
     for (var i = 0; i < els.length; i++) {
       if (excludeSelector && els[i].closest(excludeSelector)) continue;
       var t = (els[i].value || els[i].textContent || '').trim().toLowerCase();
@@ -211,7 +218,17 @@
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
   }
 
+  // run() sa NESMIE spúšťať synchrónne pri každej jednotlivej zmene DOM -
+  // stránka má obrovské menu a pri načítaní beží veľa mutácií naraz
+  // (obrázky, reklamy...), čo bez debounce mohlo zamraziť hlavné vlákno.
+  // Počkáme 200ms od poslednej zmeny a spustíme run() len raz.
+  var _runTimer = null;
+  function scheduleRun() {
+    if (_runTimer) clearTimeout(_runTimer);
+    _runTimer = setTimeout(run, 200);
+  }
+
   document.addEventListener('DOMContentLoaded', run);
   // Shoptet vie prepočítať košík cez AJAX bez reloadu stránky -> sledujeme zmeny DOM
-  new MutationObserver(run).observe(document.body, { childList: true, subtree: true });
+  new MutationObserver(scheduleRun).observe(document.body, { childList: true, subtree: true });
 })();
