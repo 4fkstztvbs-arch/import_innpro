@@ -20,6 +20,17 @@ body {
   letter-spacing: .5px;
 }
 
+/* Zaoblené rohy vysúvacieho okna košíka (#cart-widget), v rovnakom duchu
+   ako tlačidlo Do košíka (border-radius:999px - to je len skratka pre
+   "úplne oblé" pri jeho malej výške; na veľkom paneli by 999px spravilo
+   ovál, nie pekný zaoblený obdĺžnik, preto 16px). overflow:hidden zaistí,
+   že vnútorný biely pás s tlačidlom (.cart-widget-bottom) sa orezáva
+   podľa rovnakého zaoblenia, nie hranato. */
+#cart-widget.cart-widget {
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
 /* Vynútené minimum 13px pre čitateľný text (Google/prístupnosť odporúča
    neísť pod túto hranicu). Ide o miesta, kde natívna Shoptet šablóna (alebo
    pôvodné vlastné CSS) používala menšie písmo - overené v main-13.less...css
