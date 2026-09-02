@@ -64,6 +64,16 @@ body {
   }
 }
 
+/* Po kliknutí na lupu si natívne vyhľadávanie vyžaduje vlastný riadok na
+   celú šírku (.search{width:100%;order:3}), čo náš flex-wrap:nowrap vyššie
+   blokoval - pole sa tak zle vtláčalo do existujúceho riadku ikoniek.
+   V otvorenom stave vyhľadávania preto zalomenie znova povolíme. */
+@media (max-width: 991px) {
+  body.search-window-visible #header .header-top-wrapper {
+    flex-wrap: wrap !important;
+  }
+}
+
 /* Natívne #header .header-top-wrapper>div (logo/vyhľadávanie/ikonky) má
    pevný flex-basis:33.33% na každý stĺpec. Náš objemnejší blok ikoniek
    (PS avatar + telefón + prihlásenie + košík) sa do tretiny nezmestí a
