@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600166,
+    "nextCardNumber": 202600169,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -992,6 +992,24 @@
         "nazov": "TV FINLUX 32FFI5762 (S2/T2/C/SMART/TIVO/Wi-Fi/H.265)",
         "dodavatel": "atos",
         "code": "TVF32FFI5762"
+      },
+      "8595563729861": {
+        "kod": "202600166",
+        "nazov": "Baterie olověná TRAKČNÍ 12V / 12 Ah GETI bezúdržbový akumulátor",
+        "dodavatel": "atos",
+        "code": "TIP-04250662"
+      },
+      "5904576552459": {
+        "kod": "202600167",
+        "nazov": "Pumpa akumulátorová Trizand 20790 pro matrace a čluny",
+        "dodavatel": "atos",
+        "code": "ITR-00016479"
+      },
+      "5908261687204": {
+        "kod": "202600168",
+        "nazov": "Freestyle koloběžka NILS Extreme HS221 Spider",
+        "dodavatel": "atos",
+        "code": "ABL-16-50-253"
       }
     }
   },
