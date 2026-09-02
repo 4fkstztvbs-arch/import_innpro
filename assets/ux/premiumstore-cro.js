@@ -127,7 +127,11 @@
           '<span class="ps-header-support-hours">Po–Pia 9:00–17:00</span>' +
         '</div>' +
       '</div>';
-    navButtons.insertAdjacentHTML('beforebegin', html);
+    // Vkladá sa DOVNÚTRA .navigation-buttons (nie vedľa neho ako nový
+    // súrodenec) - #header .header-top-wrapper>div má flex-basis:33.33%
+    // na každé priame dieťa, takže samostatný 4. stĺpec by pretiekol
+    // 100% šírky a vynútil zalomenie riadku hlavičky.
+    navButtons.insertAdjacentHTML('afterbegin', html);
   }
 
   // --- 2) Trust badges pri CTA (PDP a checkout) -----------------------------

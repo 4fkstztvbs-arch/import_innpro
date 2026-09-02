@@ -91,6 +91,11 @@ body {
 .navigation-buttons .top-nav-button-login:before {
   display: block !important;
   font-size: 20px;
+  /* .top-nav-button-login:before nemá vlastné font-family:shoptet v natívnom
+     CSS (na rozdiel od iných ikoniek), takže dedí náš globálny prepis na
+     Plus Jakarta Sans a namiesto ikonky osoby sa zobrazí nezmyselný znak.
+     Vraciame späť ikon-font, v ktorom je "\e922" definované. */
+  font-family: shoptet !important;
 }
 .navigation-buttons .top-nav-button-login span {
   display: none;
