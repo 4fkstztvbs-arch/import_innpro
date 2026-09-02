@@ -31,9 +31,13 @@
     return parseFloat(m[1].replace(/\./g, '').replace(',', '.'));
   }
 
-  function findByText(selector, words) {
+  // excludeSelector: vynechá prvky vnútri napr. #cart-widget (vysúvacie
+  // mini-okno košíka), ktoré má vlastné tlačidlo "Pokračovať do košíka" a
+  // inak by ho hľadanie podľa textu omylom považovalo za checkout tlačidlo.
+  function findByText(selector, words, excludeSelector) {
     var els = document.querySelectorAll(selector);
     for (var i = 0; i < els.length; i++) {
+      if (excludeSelector && els[i].closest(excludeSelector)) continue;
       var t = (els[i].value || els[i].textContent || '').trim().toLowerCase();
       for (var j = 0; j < words.length; j++) {
         if (t.indexOf(words[j]) !== -1) return els[i];
@@ -105,7 +109,7 @@
     if (pdpForm) {
       anchor = pdpForm.querySelector('.add-to-cart') || pdpForm.querySelector('[data-testid="buttonAddToCart"]');
     } else {
-      var checkoutBtn = findByText('button, a, input[type="submit"]', ['pokračovať']);
+      var checkoutBtn = findByText('button, a, input[type="submit"]', ['pokračovať'], '#cart-widget');
       anchor = checkoutBtn ? (checkoutBtn.closest('form, div, section') || checkoutBtn.parentElement) : null;
     }
     if (!anchor) return;
