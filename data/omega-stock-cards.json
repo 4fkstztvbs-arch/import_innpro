@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600160,
+    "nextCardNumber": 202600162,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -956,6 +956,18 @@
         "nazov": "RCA-01 Smart Ring Gen 2",
         "dodavatel": "innpro",
         "code": "082689"
+      },
+      "4033653030618": {
+        "kod": "202600160",
+        "nazov": "BEHRINGER U-Control 2in/2out USB Audio Interface",
+        "dodavatel": "basys",
+        "code": ""
+      },
+      "017817813679": {
+        "kod": "202600161",
+        "nazov": "BOSE Headphones 700 cushion kit, black",
+        "dodavatel": "basys",
+        "code": ""
       }
     }
   },
