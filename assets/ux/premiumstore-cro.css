@@ -75,7 +75,6 @@ body {
 }
 
 /* Mobil, podľa vzoru denatura.cz:
-   - malá ikonka telefónu (.ps-phone-icon) v rade ikoniek
    - .ps-menu-trigger: VLASTNÉ tlačidlo "Menu" pred logom (ikonka +
      popisok pod ňou), ktoré len prepošle klik na skutočné natívne
      hamburger tlačidlo - to sa v rade ikoniek skryje (display:none),
@@ -101,14 +100,6 @@ body {
     align-items: center !important;
     justify-content: center !important;
     box-sizing: border-box !important;
-  }
-  .ps-phone-icon {
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
-    width: 36px !important;
-    height: 36px !important;
-    color: inherit;
   }
   #header .header-top-wrapper {
     align-items: center;
@@ -143,7 +134,6 @@ body {
   }
 }
 @media (min-width: 992px) {
-  .ps-phone-icon,
   .ps-menu-trigger {
     display: none !important;
   }
