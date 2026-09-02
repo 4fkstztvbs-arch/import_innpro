@@ -36,6 +36,25 @@ body {
   display: none;
 }
 
+/* Natívne #header .header-top-wrapper>div (logo/vyhľadávanie/ikonky) má
+   pevný flex-basis:33.33% na každý stĺpec. Náš objemnejší blok ikoniek
+   (PS avatar + telefón + prihlásenie + košík) sa do tretiny nezmestí a
+   celý riadok sa zalomí. Namiesto pevných tretín necháme stĺpce brať len
+   toľko miesta, koľko reálne potrebujú, a vyhľadávacie pole nech sa
+   pružne zmenší/naťiahne podľa zvyšného priestoru. */
+@media (min-width: 992px) {
+  #header .header-top-wrapper {
+    flex-wrap: nowrap !important;
+  }
+  #header .header-top-wrapper > div {
+    flex: 0 1 auto !important;
+  }
+  #header .header-top-wrapper .search {
+    flex: 1 1 auto !important;
+    min-width: 0;
+  }
+}
+
 .ps-header-support {
   display: flex;
   align-items: center;
