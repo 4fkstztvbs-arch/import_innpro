@@ -150,6 +150,38 @@
     navButtons.insertAdjacentHTML('afterbegin', html);
   }
 
+  // Mobil: tlačidlo "Menu" pred logom (ikonka + popisok pod ňou), podľa
+  // vzoru denatura.cz. NEPRESÚVA skutočné hamburger tlačidlo (to by
+  // rozbilo natívne display:none/ikonku/otváranie - vid. komentár pri
+  // headerSupportBlock vyššie) - namiesto toho vytvorí VLASTNÉ tlačidlo,
+  // ktoré len "prepošle" klik na skutočné tlačidlo. Pôvodné tlačidlo sa
+  // v rade ikoniek skryje cez CSS, nech tam nie je duplicitne.
+  function menuTrigger() {
+    if (document.querySelector('.ps-menu-trigger')) return;
+    var wrapper = document.querySelector('#header .header-top-wrapper');
+    var realHamburger = document.querySelector('#header .navigation-buttons a[data-target="navigation"]');
+    if (!wrapper || !realHamburger) return;
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'ps-menu-trigger';
+    btn.setAttribute('aria-label', 'Menu');
+    btn.innerHTML =
+      '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+        '<line x1="3" y1="6" x2="21" y2="6"></line>' +
+        '<line x1="3" y1="12" x2="21" y2="12"></line>' +
+        '<line x1="3" y1="18" x2="21" y2="18"></line>' +
+      '</svg>' +
+      '<span class="ps-menu-trigger-label">Menu</span>';
+
+    btn.addEventListener('click', function () {
+      realHamburger.click();
+      btn.classList.toggle('is-open');
+    });
+
+    wrapper.insertBefore(btn, wrapper.firstChild);
+  }
+
   // Mobil: kópia PS bloku (avatar+telefón+hodiny) do vysúvacieho menu
   // (#navigation .navigationActions), podľa vzoru denatura.cz. Čisto
   // informačný blok (len tel: odkaz) - kópia HTML je v poriadku, na
@@ -250,6 +282,7 @@
     relocateLoginButton();
     headerSupportBlock();
     mobilePhoneIcon();
+    menuTrigger();
     mobileMenuSupportBlock();
     trustBadges();
     stickyBuyBar();

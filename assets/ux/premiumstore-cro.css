@@ -76,14 +76,16 @@ body {
 
 /* Mobil, podľa vzoru denatura.cz:
    - malá ikonka telefónu (.ps-phone-icon) v rade ikoniek
-   - hamburger (natívny a[data-target="navigation"]) presunutý CSS
-     vlastnosťou "order" na začiatok radu ikoniek (hneď za logo) - NIE
-     presunom v DOM (natívne display:none/ikonka/otváranie menu sú
-     viazané na priamu pozíciu vnútri .navigation-buttons)
+   - .ps-menu-trigger: VLASTNÉ tlačidlo "Menu" pred logom (ikonka +
+     popisok pod ňou), ktoré len prepošle klik na skutočné natívne
+     hamburger tlačidlo - to sa v rade ikoniek skryje (display:none),
+     nech tam nie je duplicitne. Skutočný element sa NEPRESÚVA v DOM
+     (natívne display:none/ikonka/otváranie menu sú viazané na priamu
+     pozíciu vnútri .navigation-buttons, presun by to rozbil).
    - PS blok skopírovaný do vysúvacieho menu (.navigationActions) */
 @media (max-width: 991px) {
   #header .navigation-buttons a[data-target="navigation"] {
-    order: -1;
+    display: none !important;
   }
   .ps-phone-icon {
     display: inline-flex !important;
@@ -92,11 +94,34 @@ body {
     width: 36px !important;
     height: 36px !important;
     color: inherit;
-    order: -1;
+  }
+  #header .header-top-wrapper {
+    align-items: center;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+  }
+  .ps-menu-trigger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background: none;
+    border: none;
+    padding: 4px 10px 4px 0;
+    margin: 0;
+    color: inherit;
+    font-family: inherit;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .ps-menu-trigger-label {
+    font-size: 11px;
+    line-height: 1;
   }
 }
 @media (min-width: 992px) {
-  .ps-phone-icon {
+  .ps-phone-icon,
+  .ps-menu-trigger {
     display: none !important;
   }
 }
