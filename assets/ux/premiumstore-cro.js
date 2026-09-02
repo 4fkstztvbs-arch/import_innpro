@@ -155,7 +155,12 @@
   // informačný blok (len tel: odkaz) - kópia HTML je v poriadku, na
   // rozdiel od Prihlásenia nemá vlastné Shoptet event-listenery.
   function mobileMenuSupportBlock() {
-    if (document.querySelector('.navigationActions .ps-header-support')) return;
+    // Blok sa vkladá AFTER .navigationActions (ako súrodenec, nie
+    // potomok) - kontrola preto musí hľadať cez triedu, ktorá je
+    // unikátna pre toto miesto, nie cez ".navigationActions .ps-..."
+    // (descendant selektor by nikdy nenašiel súrodenca a spôsobil by
+    // opakované vkladanie duplikátov pri každom behu run()).
+    if (document.querySelector('.ps-header-support--mobile-menu')) return;
     var actions = document.querySelector('#navigation .navigationActions');
     if (!actions) return;
     actions.insertAdjacentHTML('afterend', supportBlockHtml('ps-header-support--mobile-menu'));
