@@ -36,6 +36,34 @@ body {
   display: none;
 }
 
+/* Mobil: logo (.site-name, natívne flex-basis:200px) + 4 ikonky
+   (.navigation-buttons, natívne margin-left:40px na každú) sa spolu
+   nezmestia do jedného riadku na bežnej šírke telefónu a natívne sa
+   preto zalamujú na 2 riadky. Vynucujeme 1 riadok: menšie logo,
+   tesnejšie ikonky. */
+@media (max-width: 991px) {
+  #header .header-top-wrapper {
+    flex-wrap: nowrap !important;
+  }
+  #header .site-name {
+    flex: 0 0 auto !important;
+    max-width: 110px !important;
+    min-width: 0 !important;
+  }
+  #header .site-name img {
+    max-height: 26px !important;
+    height: 26px !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  #header .navigation-buttons a {
+    margin-left: 8px !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+  }
+}
+
 /* Natívne #header .header-top-wrapper>div (logo/vyhľadávanie/ikonky) má
    pevný flex-basis:33.33% na každý stĺpec. Náš objemnejší blok ikoniek
    (PS avatar + telefón + prihlásenie + košík) sa do tretiny nezmestí a
