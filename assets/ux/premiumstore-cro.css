@@ -20,6 +20,31 @@ body {
   letter-spacing: .5px;
 }
 
+/* Vynútené minimum 13px pre čitateľný text (Google/prístupnosť odporúča
+   neísť pod túto hranicu). Ide o miesta, kde natívna Shoptet šablóna (alebo
+   pôvodné vlastné CSS) používala menšie písmo - overené v main-13.less...css
+   a v existujúcom vlastnom CSS v hlavičke. Ikonky (šípky v sidebar-kategóriách,
+   +/- pri množstve, checkbox fajočka) sú zámerne vynechané - sú to grafické
+   znaky z ikon-fontu (font-size im určuje veľkosť ikony, nie textu), ich
+   zväčšenie by rozbilo layout. */
+.top-navigation-bar,
+.top-navigation-bar a,
+#categories a,
+#categories .expandable > .topic > a,
+.flag-text,
+.flags-extra .flag,
+.flags-extra .flag .price-save,
+.flags-extra .flag .price-standard,
+.search-whisperer,
+.search-whisperer-documents em,
+.site-msg,
+.variant-price-wrap .price-additional,
+.variant-price-wrap .price-measure,
+.filter-count,
+.news-item-widget time {
+  font-size: 13px !important;
+}
+
 /* Progress bar dopravy zadarmo - zatiaľ nevyužité, JS ho nevolá (pripravené na neskôr) */
 .ps-freeship-bar {
   margin: 16px 0;
