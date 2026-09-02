@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600162,
+    "nextCardNumber": 202600166,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -968,6 +968,30 @@
         "nazov": "BOSE Headphones 700 cushion kit, black",
         "dodavatel": "basys",
         "code": ""
+      },
+      "5908254802102": {
+        "kod": "202600162",
+        "nazov": "Kabelová vodotěsná spojka ORNO OR-AE-13602, IP68, 450V, 25A, 6-12mm, 1-4mm2",
+        "dodavatel": "atos",
+        "code": "ATO-OR-AE-13602"
+      },
+      "5901890127554": {
+        "kod": "202600163",
+        "nazov": "Rádio KRUGER & MATZ KM0831 analog. přenos. solár. BT FM AM AUX",
+        "dodavatel": "atos",
+        "code": "LEC-KM0831"
+      },
+      "5900779961401": {
+        "kod": "202600164",
+        "nazov": "Odvlhčovač vzduchu Ruhhy 26829",
+        "dodavatel": "atos",
+        "code": "ITR-00018550"
+      },
+      "8698902064361": {
+        "kod": "202600165",
+        "nazov": "TV FINLUX 32FFI5762 (S2/T2/C/SMART/TIVO/Wi-Fi/H.265)",
+        "dodavatel": "atos",
+        "code": "TVF32FFI5762"
       }
     }
   },
