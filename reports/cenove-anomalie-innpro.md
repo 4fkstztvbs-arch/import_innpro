@@ -55,7 +55,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 57.50 € | 1.20 € | 1/47.9x | 11 |
 | 064431 | 6941565969675 | Nabíjačka do auta DJI Power (SDC) (12 V/24 V) | cena mimo 8x rozsah mediánu kategórie | 7.90 € | 71.90 € | 9.1x | 7 |
 | 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 82 |
-| 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 15.50 € | 1.00 € | 1/15.5x | 22 |
+| 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 13.90 € | 1.00 € | 1/13.9x | 23 |
 | 067822 | 6974370801533 | HOTO replacement brushes for electric brush QWFGJ005 | cena mimo 8x rozsah mediánu kategórie | 23.00 € | 2.50 € | 1/9.2x | 8 |
 | 074189 | 5907085522821 | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát AIR 3S 2 ks | cena mimo 8x rozsah mediánu kategórie | 12.95 € | 1.50 € | 1/8.6x | 34 |
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 277.75 € | 25.50 € | 1/10.9x | 8 |
@@ -83,6 +83,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 088095 | 786156005242 | GARRETT AT Max 8,5 x 11" INTL – detektor kovov | cena mimo 8x rozsah mediánu kategórie | 64.75 € | 757.50 € | 11.7x | 18 |
 | 087811 | 6976391039506 | Súprava bezdrôtového zvončeka IMOU 2S | cena mimo 8x rozsah mediánu kategórie | 2.70 € | 73.50 € | 27.2x | 33 |
 | 087812 | 6976391032453 | Bezdrôtový videozvonček IMOU, balenie po 3 kusoch | cena mimo 8x rozsah mediánu kategórie | 2.70 € | 88.00 € | 32.6x | 33 |
+| 085082 | 6974944467004 | Držiak Master Grip pre iPhone 17 Pro Max – súprava „všetko v jednom“ so svetlom  | cena mimo 8x rozsah mediánu kategórie | 12.95 € | 126.00 € | 9.7x | 34 |
 | 088746 | 6977658980043 | Termovízna kamera THERMAL MASTER X2 USB-C | cena mimo 8x rozsah mediánu kategórie | 12.95 € | 283.90 € | 21.9x | 34 |
 | 088747 | 6977658980494 | TERMOVÍZNA KAMERA THERMAL MASTER X2 USB-C Mini | cena mimo 8x rozsah mediánu kategórie | 12.95 € | 241.50 € | 18.6x | 34 |
 | 088748 | 6977658980050 | Termovízna kamera THERMAL MASTER X3 | cena mimo 8x rozsah mediánu kategórie | 64.75 € | 526.50 € | 8.1x | 18 |
