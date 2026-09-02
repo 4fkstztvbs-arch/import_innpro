@@ -82,11 +82,13 @@ body {
 }
 .ps-header-support-text a,
 .ps-header-support-text span {
-  display: block;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  text-align: left;
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  float: none !important;
+  text-indent: 0 !important;
 }
 .ps-header-support-text a {
   font-weight: 700;
