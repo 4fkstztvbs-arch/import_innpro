@@ -20,6 +20,82 @@ body {
   letter-spacing: .5px;
 }
 
+/* Hlavička v štýle denatura.cz: iniciály "PS" + telefón (klikateľný) +
+   hodiny, plus presunuté natívne tlačidlo Prihlásenie (JS presúva skutočný
+   #header .top-navigation-tools .top-nav-button-login prvok, nie kópiu).
+   Nahrádza pôvodný nefunkčný ::before text "Zákaznícka linka" z existujúceho
+   vlastného CSS - ten najprv vypíname. Starý horný panel (.top-navigation-bar)
+   je teraz úplne skrytý, keďže Prihlásenie/Registrácia sú dostupné inde. */
+@media (min-width: 992px) {
+  #header .navigation-buttons:before {
+    content: none !important;
+  }
+}
+
+.top-navigation-bar {
+  display: none;
+}
+
+.ps-header-support {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 20px;
+}
+.ps-header-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #24b47e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+.ps-header-support-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+.ps-header-support-text a {
+  font-weight: 700;
+  font-size: 15px;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+.ps-header-support-text a:hover {
+  text-decoration: underline;
+}
+.ps-header-support-hours {
+  font-size: 13px;
+  color: #767676;
+}
+@media (max-width: 991px) {
+  .ps-header-support {
+    display: none; /* na mobile nie je v hlavičke miesto */
+  }
+}
+
+/* Presunuté tlačidlo Prihlásenie: ikonka namiesto textu */
+.navigation-buttons .top-nav-button-login {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0 !important;
+}
+.navigation-buttons .top-nav-button-login:before {
+  display: block !important;
+  font-size: 20px;
+}
+.navigation-buttons .top-nav-button-login span {
+  display: none;
+}
+
 /* Zaoblené rohy vysúvacieho okna košíka (#cart-widget), v rovnakom duchu
    ako tlačidlo Do košíka (border-radius:999px - to je len skratka pre
    "úplne oblé" pri jeho malej výške; na veľkom paneli by 999px spravilo

@@ -100,6 +100,36 @@
     }
   }
 
+  // --- 1b) Hlavička: presun Prihlásenie + support blok (PS + telefón + hodiny) ---
+  // Beží na každej stránke (nie len PDP). Presúva SKUTOČNÝ existujúci prvok
+  // #header .top-navigation-tools .top-nav-button-login (nie kópiu), aby
+  // ostali zachované všetky Shoptet event-listenery na toggle-window/
+  // data-target="login".
+  function relocateLoginButton() {
+    if (document.querySelector('.navigation-buttons .top-nav-button-login')) return;
+    var loginBtn = document.querySelector('.top-navigation-tools .top-nav-button-login');
+    var navButtons = document.querySelector('#header .navigation-buttons');
+    if (loginBtn && navButtons) {
+      navButtons.insertBefore(loginBtn, navButtons.firstChild);
+    }
+  }
+
+  function headerSupportBlock() {
+    if (document.querySelector('.ps-header-support')) return;
+    var navButtons = document.querySelector('#header .navigation-buttons');
+    if (!navButtons) return;
+    var phoneDigits = SUPPORT_PHONE.replace(/\s+/g, '');
+    var html =
+      '<div class="ps-header-support">' +
+        '<div class="ps-header-avatar">PS</div>' +
+        '<div class="ps-header-support-text">' +
+          '<a href="tel:' + phoneDigits + '">' + phoneDigits + '</a>' +
+          '<span class="ps-header-support-hours">Po–Pia 9:00–17:00</span>' +
+        '</div>' +
+      '</div>';
+    navButtons.insertAdjacentHTML('beforebegin', html);
+  }
+
   // --- 2) Trust badges pri CTA (PDP a checkout) -----------------------------
   function trustBadges() {
     if (document.querySelector('.ps-trust-badges')) return;
@@ -169,6 +199,8 @@
 
   // --- Spustenie -------------------------------------------------------------
   function run() {
+    relocateLoginButton();
+    headerSupportBlock();
     trustBadges();
     stickyBuyBar();
     deemphasizeSecondaryActions();
