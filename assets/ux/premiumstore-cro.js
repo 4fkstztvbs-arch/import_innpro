@@ -114,53 +114,19 @@
     }
   }
 
-  function supportBlockHtml(extraClass) {
+  function headerSupportBlock() {
+    if (document.querySelector('.ps-header-support')) return;
+    var navButtons = document.querySelector('#header .navigation-buttons');
+    if (!navButtons) return;
     var phoneDigits = SUPPORT_PHONE.replace(/\s+/g, '');
-    return (
-      '<div class="ps-header-support' + (extraClass ? ' ' + extraClass : '') + '">' +
+    var html =
+      '<div class="ps-header-support">' +
         '<div class="ps-header-avatar">PS</div>' +
         '<div class="ps-header-support-text">' +
           '<a href="tel:' + phoneDigits + '">' + phoneDigits + '</a>' +
           '<span class="ps-header-support-hours">Po–Pia 9:00–17:00</span>' +
         '</div>' +
-      '</div>'
-    );
-  }
-
-  // Mobil: malá klikateľná ikonka telefónu v riadku ikoniek (namiesto
-  // celého PS bloku, na ktorý tam nie je miesto - ten je na mobile
-  // presunutý dole do vysúvacieho menu, pozri mobileMenuSupportBlock()).
-  function mobilePhoneIcon() {
-    if (document.querySelector('.ps-phone-icon')) return;
-    var navButtons = document.querySelector('#header .navigation-buttons');
-    if (!navButtons) return;
-    var phoneDigits = SUPPORT_PHONE.replace(/\s+/g, '');
-    var html =
-      '<a href="tel:' + phoneDigits + '" class="ps-phone-icon" aria-label="Zavolať ' + phoneDigits + '">' +
-        '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
-          '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>' +
-        '</svg>' +
-      '</a>';
-    navButtons.insertAdjacentHTML('afterbegin', html);
-  }
-
-  // Mobil: kópia PS bloku (avatar+telefón+hodiny) do vysúvacieho menu
-  // (.navigationActions, tesne pred zatváracím tlačidlom) - podľa vzoru
-  // denatura.cz. Ide o čisto informačný blok (len tel: odkaz), takže
-  // kópia HTML je v poriadku (na rozdiel od Prihlásenia nemá vlastné
-  // Shoptet event-listenery, ktoré by bolo treba zachovať presunom).
-  function mobileMenuSupportBlock() {
-    if (document.querySelector('.navigationActions .ps-header-support')) return;
-    var actions = document.querySelector('#navigation .navigationActions');
-    if (!actions) return;
-    actions.insertAdjacentHTML('afterend', supportBlockHtml('ps-header-support--mobile-menu'));
-  }
-
-  function headerSupportBlock() {
-    if (document.querySelector('#header .navigation-buttons .ps-header-support')) return;
-    var navButtons = document.querySelector('#header .navigation-buttons');
-    if (!navButtons) return;
-    var html = supportBlockHtml();
+      '</div>';
     // Vkladá sa DOVNÚTRA .navigation-buttons (nie vedľa neho ako nový
     // súrodenec) - #header .header-top-wrapper>div má flex-basis:33.33%
     // na každé priame dieťa, takže samostatný 4. stĺpec by pretiekol
@@ -239,8 +205,6 @@
   function run() {
     relocateLoginButton();
     headerSupportBlock();
-    mobilePhoneIcon();
-    mobileMenuSupportBlock();
     trustBadges();
     stickyBuyBar();
     deemphasizeSecondaryActions();

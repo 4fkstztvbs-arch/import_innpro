@@ -74,48 +74,6 @@ body {
   }
 }
 
-/* Mobil, podľa vzoru denatura.cz:
-   - malá ikonka telefónu (.ps-phone-icon) v rade ikoniek - na desktope je
-     telefón súčasťou celého PS bloku (.ps-header-support), tu netreba
-   - hamburger (natívny a[data-target="navigation"]) presunutý CSS
-     vlastnosťou "order" na začiatok radu ikoniek (hneď za logo) - NIE
-     presunom v DOM, lebo natívne display:none/ikonka/otváranie menu sú
-     viazané na to, že ostane priamym potomkom .navigation-buttons
-   - PS blok skopírovaný do vysúvacieho menu (.navigationActions) -
-     pozri mobileMenuSupportBlock() v JS */
-@media (max-width: 991px) {
-  #header .navigation-buttons a[data-target="navigation"] {
-    order: -1;
-  }
-  .ps-phone-icon {
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
-    width: 36px !important;
-    height: 36px !important;
-    color: inherit;
-    order: -1;
-  }
-}
-@media (min-width: 992px) {
-  .ps-phone-icon {
-    display: none !important;
-  }
-}
-
-/* PS blok vo vysúvacom mobilnom menu - default skrytý, viditeľný len na
-   mobile (aj keby .navigationActions bolo súčasťou aj desktopového
-   mega-menu, na desktope sa toto nikdy nezobrazí). */
-.ps-header-support.ps-header-support--mobile-menu {
-  display: none;
-  margin: 16px 20px;
-}
-@media (max-width: 991px) {
-  .ps-header-support.ps-header-support--mobile-menu {
-    display: flex;
-  }
-}
-
 /* Natívne #header .header-top-wrapper>div (logo/vyhľadávanie/ikonky) má
    pevný flex-basis:33.33% na každý stĺpec. Náš objemnejší blok ikoniek
    (PS avatar + telefón + prihlásenie + košík) sa do tretiny nezmestí a
