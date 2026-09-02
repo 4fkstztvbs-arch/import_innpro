@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600158,
+    "nextCardNumber": 202600160,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -944,6 +944,18 @@
         "nazov": "Midland ER Emergency Backpack",
         "dodavatel": "kb",
         "code": "100002203807"
+      },
+      "786156004535": {
+        "kod": "202600158",
+        "nazov": "Garrett Pro-Pointer AT",
+        "dodavatel": "innpro",
+        "code": "082667"
+      },
+      "6975377550912": {
+        "kod": "202600159",
+        "nazov": "RCA-01 Smart Ring Gen 2",
+        "dodavatel": "innpro",
+        "code": "082689"
       }
     }
   },
