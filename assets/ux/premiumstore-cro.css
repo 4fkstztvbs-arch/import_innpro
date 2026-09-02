@@ -5,15 +5,6 @@
  * v Design -> Rozšírené nastavenia -> Vlastný HTML kód -> pätička.
  */
 
-/* Horný panel (Doprava a platba/Kontakty/Obchodné podmienky/Moja objednávka/GDPR)
-   je duplicitný s footerom a natívne má font-size 10px - podľa vzoru denatura.cz
-   (rovnaká Shoptet Disco šablóna) skrývame len tento zoznam odkazov.
-   Prihlásenie/Registrácia (.top-navigation-tools) v tom istom paneli ostávajú
-   viditeľné, tie u denatura.cz v hlavičke chýbajú a nechceme o ne prísť. */
-.top-navigation-menu {
-  display: none;
-}
-
 /* Progress bar dopravy zadarmo - zatiaľ nevyužité, JS ho nevolá (pripravené na neskôr) */
 .ps-freeship-bar {
   margin: 16px 0;
