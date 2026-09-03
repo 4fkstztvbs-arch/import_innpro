@@ -36,7 +36,7 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 | Mobily, smart hodinky a tablety > Selfie tyče > statívy > stojany > Podložky a stojany | Mobily, smart hodinky a tablety > Selfie tyče > Podložky a stojany | 92% | 7 |
 | Mobily, smart hodinky a tablety > Kable USB I > USB-C na Lightning | Mobily, smart hodinky a tablety > USB káble > USB-C na Lightning | 94% | 6 |
 | Mobily, smart hodinky a tablety > Tvrdené sklo a fólie > Pre tablety | Mobily, smart hodinky a tablety > Príslušenstvo > Tvrdené sklá pre mobilné telefóny > Pre tablety | 88% | 6 |
-| Mobily, smart hodinky a tablety > Obaly na telefóny > Ochranné puzdrá pre tablety | Mobily, smart hodinky a tablety > Príslušenstvo > Puzdrá na mobilné telefóny > Ochranné puzdrá pre tablety | 89% | 5 |
+| Mobily, smart hodinky a tablety > Obaly na telefóny > Ochranné puzdrá pre tablety | Mobily, smart hodinky a tablety > Príslušenstvo > Puzdrá na mobilné telefóny > Ochranné puzdrá pre tablety | 89% | 6 |
 | Mobily, smart hodinky a tablety > Kable USB I > USB na Micro USB | Mobily, smart hodinky a tablety > USB káble > USB na Micro USB | 94% | 4 |
 | Mobily, smart hodinky a tablety > Kable USB I > USB-C na USB-C | Mobily, smart hodinky a tablety > USB káble > USB-C na USB-C | 94% | 3 |
 | Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Kruhové svetlá | Foto a príslušenstvo > Selfie tyče > Kruhové svetlá | 90% | 3 |
