@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — monacor — 2026-09-02
+# Cenové anomálie vynechané z feedu — monacor — 2026-09-03
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -8,6 +8,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | MCR-10 |  | Bubon na kábel, 10 m sieťový kábel | nulová/neplatná cena |  | 0.00 € |  |  |
 | NTA-3A |  | Adaptér pre mikrofóny s čelným oblúkom a mikrofóny s ušným pásom | nulová/neplatná cena |  | 0.00 € |  |  |
 | SMA-174EDG/JP |  | Adaptér SMA samec/SMA samica, 50 Ω | nulová/neplatná cena |  | 0.00 € |  |  |
+| SPE-82HQ |  | Hi-fi nástenný a stropný reproduktor, 50 W, 8 Ω | nulová/neplatná cena |  | 0.00 € |  |  |
 | USB-180BM |  | USB pripájací kábel, 1.8 m | nulová/neplatná cena |  | 0.00 € |  |  |
 | USB-312CA |  | USB káblový adaptér, 2 m | nulová/neplatná cena |  | 0.00 € |  |  |
 | RCS-18-EU |  | Napájacia lišta | nulová/neplatná cena |  | 0.00 € |  |  |
