@@ -194,5 +194,26 @@
     "subject": "RE: Storno",
     "orderCode": null,
     "matchedBy": "none"
+  },
+  "<CAAAvRRTSeSZJ5XG0ArwhcAfKuMTYDFEyiQxbab0mCZ5XgUJnAg@mail.gmail.com>": {
+    "draftedAt": "2026-09-03T11:39:12.839Z",
+    "from": "stanislavpokorny2@gmail.com",
+    "subject": "Re: Objednávka č. 202600647",
+    "orderCode": "202600647",
+    "matchedBy": "code"
+  },
+  "<CAPriJtx-cBdG1qiT10+zSYWceY_KWGBGwzNcBQ_RGixM6R7ttQ@mail.gmail.com>": {
+    "draftedAt": "2026-09-03T11:39:21.255Z",
+    "from": "bettese@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600631 bola stornovaná",
+    "orderCode": "202600631",
+    "matchedBy": "code"
+  },
+  "<CAJDmznPbtMyASQDUkPMOYuHaw8Q3w6csZ05cuOaEbuHN-Ub5Rg@mail.gmail.com>": {
+    "draftedAt": "2026-09-03T11:39:30.721Z",
+    "from": "120pisem@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600730 sa práve vybavuje",
+    "orderCode": "202600730",
+    "matchedBy": "code"
   }
 }
