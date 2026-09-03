@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600169,
+    "nextCardNumber": 202600171,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1010,6 +1010,18 @@
         "nazov": "Freestyle koloběžka NILS Extreme HS221 Spider",
         "dodavatel": "atos",
         "code": "ABL-16-50-253"
+      },
+      "8595563735305": {
+        "kod": "202600169",
+        "nazov": "Solární regulátor MPPT GETI GWH04W 5kW (pro FV ohřev vody)",
+        "dodavatel": "atos",
+        "code": "GETI-GWH04W"
+      },
+      "8591686073041": {
+        "kod": "202600170",
+        "nazov": "Odpuzovač kun do auta Compass 07304 elektronický 4x LR14",
+        "dodavatel": "atos",
+        "code": "CMP-07304"
       }
     }
   },
