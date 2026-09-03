@@ -313,7 +313,7 @@
  },
  "6977254870717": {
   "name": "Prístroj na spevnenie tváre ANLAN 01-AVLY41-02A",
-  "cost": 3.0,
+  "cost": 3,
   "visits": 11,
   "days": 6,
   "reason": "CPC report 2026-07-01..2026-08-22: klik >=3 dni, 0 objednavok",
@@ -513,7 +513,7 @@
  },
  "6978281190069": {
   "name": "Profesionálny automobilový diagnostický skener OBD2 Ancel X6",
-  "cost": 2.0,
+  "cost": 2,
   "visits": 5,
   "days": 3,
   "reason": "CPC report 2026-07-01..2026-08-22: klik >=3 dni, 0 objednavok",
@@ -897,7 +897,7 @@
  },
  "6920075741957": {
   "name": "SONOFF NSPanel Pro 120 Smart Control Panel Matter WiFi/Bluetooth/ZigBee (čierny)",
-  "cost": 1.0,
+  "cost": 1,
   "visits": 4,
   "days": 4,
   "reason": "CPC report 2026-07-01..2026-08-22: klik >=3 dni, 0 objednavok",
@@ -1726,5 +1726,733 @@
   "days": 13,
   "reason": "CPC report 2026-08-10..2026-08-26: kategoria Mobilne klimatizacie vylucena celkovo na ziadost 2026-08-26 (114,85 EUR/17 dni, len 2 objednavky) - viz aj kategoriovy zaznam v transform-solight.js",
   "generatedAt": "2026-08-26T21:30:00.000Z"
+ },
+ "6975532170399": {
+  "name": "Neakasa M1 Inteligentní samočistící toaleta 59,1 x 52,5 x 51,3 cm",
+  "cost": 22.66,
+  "visits": 22,
+  "days": 5,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6923520217212": {
+  "name": "Reproduktory Edifier S355DB 2.1 (čierne)",
+  "cost": 5.89,
+  "visits": 16,
+  "days": 8,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5901890069922": {
+  "name": "Kruger & Matz HiFi věž Kruger&Matz KM1995 s CD, DAB+/FM rádiem",
+  "cost": 5.58,
+  "visits": 11,
+  "days": 6,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5907085524177": {
+  "name": "Flytec V080 Fishfinder návnadová loď a 20000 mAh batériou",
+  "cost": 5.21,
+  "visits": 7,
+  "days": 7,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "8690842805554": {
+  "name": "Beko B3RCSO255W",
+  "cost": 4.22,
+  "visits": 9,
+  "days": 5,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6956362995710": {
+  "name": "Superfire FF5-D",
+  "cost": 4.01,
+  "visits": 10,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5907085523941": {
+  "name": "Flytec V700 12000 mAh loďka na návnadu",
+  "cost": 3.06,
+  "visits": 8,
+  "days": 5,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6972884751177": {
+  "name": "Catlink Baymax Automatický box na podstielku 59,9 x 53,3 x 54,5 cm",
+  "cost": 3.05,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6974416940905": {
+  "name": "WAYDOO Subnado čierna",
+  "cost": 3.04,
+  "visits": 8,
+  "days": 6,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5905156103160": {
+  "name": "Skladací elektrický bežecký pás DeerRun Z20",
+  "cost": 3,
+  "visits": 4,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5901890128964": {
+  "name": "Kruger & Matz Digitální piano Kruger&Matz KMDP-45P-BK černé se stojanem",
+  "cost": 2.98,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "8592718041700": {
+  "name": "Solight PB25C",
+  "cost": 2.67,
+  "visits": 13,
+  "days": 8,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5901890098069": {
+  "name": "Běžecký pás REBEL ACTIVE RBA-1001",
+  "cost": 2.64,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6977341740169": {
+  "name": "OTTOCAST OTTOAIBOX N95C Monitor do auta",
+  "cost": 2.58,
+  "visits": 7,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5907090925297": {
+  "name": "Azo Digital Solární regulátor MPPT ECO SOLAR BOOST EVO MPPT-4000 4kW (pro FV ohřev vody)",
+  "cost": 2.5,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6934399223235": {
+  "name": "Chytrý dávkovač krmiva Oneisall PFD001 Pro",
+  "cost": 2.47,
+  "visits": 6,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "8055176403041": {
+  "name": "G3ferrari G1020400 Pizza trouba, 2 min",
+  "cost": 2.46,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "1200130035142": {
+  "name": "Party reproduktor JBL PartyBox 130 White",
+  "cost": 2.41,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5901890128438": {
+  "name": "Kruger & Matz Digitální piano Kruger&Matz KMDP-105-WH bílá barva",
+  "cost": 2.35,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6935750552100": {
+  "name": "UNI-T UT521",
+  "cost": 2.34,
+  "visits": 5,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "8003437070822": {
+  "name": "WHIRLPOOL TW721DSFCEE",
+  "cost": 2.29,
+  "visits": 4,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "786156004801": {
+  "name": "Detektor kovov Garrett ACE 300i",
+  "cost": 2.28,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6978794734941": {
+  "name": "Čistiaci robot MOVA V70 Ultra Complete v bielej farbe",
+  "cost": 2.21,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6978794732930": {
+  "name": "MOVA Z70 Ultra Roller kompletná sada – Metal Black",
+  "cost": 2.21,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "8806099009328": {
+  "name": "Samsung The Frame Pro QE55LS03HW",
+  "cost": 2.12,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6972185560119": {
+  "name": "Bezdrôtový adaptér Carlinkit CCPA Apple Carplay/Android Auto (čierny)",
+  "cost": 2.09,
+  "visits": 8,
+  "days": 5,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6935750516171": {
+  "name": "UNI-T UT161E",
+  "cost": 2.06,
+  "visits": 5,
+  "days": 5,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "6977132450246": {
+  "name": "IsEasy MGBG-775 päťkuchľový plynový sporák so skleneným panelom",
+  "cost": 2.03,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "5907085524009": {
+  "name": "Flytec V010 12 000 mAh lodná batéria",
+  "cost": 1.82,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.175Z"
+ },
+ "8690842830440": {
+  "name": "Beko TB721EBESCS",
+  "cost": 1.79,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "5906168432576": {
+  "name": "HiBREW 5-in-1 capsule coffee maker H1B-beige(beige)",
+  "cost": 1.78,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "3838782997761": {
+  "name": "Gorenje N62CS2XL4",
+  "cost": 1.63,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6923520269518": {
+  "name": "Reproduktory Edifier S3000 PRO V23 2.0 (hnedé)",
+  "cost": 1.58,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6959422615634": {
+  "name": "Projektor JMGO N1S SE",
+  "cost": 1.57,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6977132450048": {
+  "name": "Indukčná varná doska IsEasy LI4-20",
+  "cost": 1.54,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6974416942046": {
+  "name": "Podvodný skúter Waydoo Subnado Plus – štandardná sada",
+  "cost": 1.48,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6971636403128": {
+  "name": "3D Tlačiareň Creality K1 MAX",
+  "cost": 1.4,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "4006501510167": {
+  "name": "LEIFHEIT 51016",
+  "cost": 1.4,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6979127740509": {
+  "name": "GOOLOO GP4000 74 Wh štartér",
+  "cost": 1.38,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6973137270667": {
+  "name": "Herný volant pre nákladné vozidlá Moza Racing RS071 (PC)",
+  "cost": 1.33,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "744581223426": {
+  "name": "3D tlačiareň QiDi Q2C",
+  "cost": 1.32,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "7332543723935": {
+  "name": "Electrolux E7K1-6BP",
+  "cost": 1.28,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8698902062589": {
+  "name": "FINLUX 32FFI5670 ANDROID TV",
+  "cost": 1.24,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8056095876589": {
+  "name": "Girmi IM9000 Strojek na těstoviny",
+  "cost": 1.23,
+  "visits": 4,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6923520247851": {
+  "name": "Bezdrôtové slúchadlá Edifier W800BT Pro, ANC (čierne)",
+  "cost": 1.16,
+  "visits": 6,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6976037361534": {
+  "name": "Avatto Smart Digital Lock ZSDL-A270-S-ALI-5572 ZigBee Silver",
+  "cost": 1.16,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6923520268177": {
+  "name": "Reproduktory Edifier S1000MKII 2.0 (hnedé)",
+  "cost": 1.15,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "3838782388422": {
+  "name": "GORENJE TH60E3B",
+  "cost": 1.13,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8698902060585": {
+  "name": "FINLUX 24FHMG5771 ANDROID TV 12V TRAVEL",
+  "cost": 1.07,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6935750534502": {
+  "name": "Ultrazvukový merací prístroj na hrúbku Uni-T UT345A",
+  "cost": 1.05,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8606018857395": {
+  "name": "Tesla KT500X",
+  "cost": 0.99,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "0757047110444": {
+  "name": "Projektor Magcubic L018",
+  "cost": 0.97,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6935750538777": {
+  "name": "Detektor kovov UNI-T UT387E",
+  "cost": 0.88,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8594186722259": {
+  "name": "Guzzanti GUZZANTIGZ 3601",
+  "cost": 0.84,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6948052903440": {
+  "name": "PXN CB1 Tlačítkový panel ovládací skříňky",
+  "cost": 0.84,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8059019059112": {
+  "name": "Candy CHW6LBX/4U2 IDEA",
+  "cost": 0.82,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8056095872833": {
+  "name": "G3Ferrari G4001300 Suchá žehlička",
+  "cost": 0.82,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "0757047110512": {
+  "name": "Projektor Magcubic HY300PRO",
+  "cost": 0.81,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6952344245903": {
+  "name": "GODOX Speedlite V1-S MID pre Sony",
+  "cost": 0.8,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6972237681649": {
+  "name": "Dynamický mikrofon Maono PD200x (černý)",
+  "cost": 0.79,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6971131381846": {
+  "name": "Router GL.iNet Puli 4G",
+  "cost": 0.79,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "0652726293244": {
+  "name": "Cyklistická pumpa Fanttik X9 Ace",
+  "cost": 0.77,
+  "visits": 6,
+  "days": 5,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6923520216918": {
+  "name": "EDIFIER T5s subwoofer černý",
+  "cost": 0.77,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "1200130024863": {
+  "name": "JBL Grip Red",
+  "cost": 0.76,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6923520217151": {
+  "name": "Reproduktory Edifier R20BT 2.0 (biele)",
+  "cost": 0.75,
+  "visits": 5,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8592718023430": {
+  "name": "Solight LED stmievateľný pásik s bezdotykovým ovládaním, 3m, 180 LED, 4000K, IP65, 230V",
+  "cost": 0.73,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8592718035532": {
+  "name": "Solight LED osvetlenie s nastaviteľným výkonom a teplotou svetla, 18/22/26W, max. 2210lm, 3CCT, IP65, 30cm",
+  "cost": 0.73,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6971337725758": {
+  "name": "Webová kamera EMEET Pixy",
+  "cost": 0.72,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6972185561109": {
+  "name": "Carlinkit 2Air-T",
+  "cost": 0.69,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6930460008206": {
+  "name": "SkyRC Nabíjačka B6AC Neo",
+  "cost": 0.67,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6975114120187": {
+  "name": "Prenosný monitor Arzopa A1 MAX 17,3\"",
+  "cost": 0.65,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "0757047110536": {
+  "name": "Projektor Magcubic HY320MINI",
+  "cost": 0.64,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "4007754261899": {
+  "name": "Monacor SPH-174KE Hi-fi stredobasový reproduktor , 50 W, 8 Ω",
+  "cost": 0.59,
+  "visits": 4,
+  "days": 4,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6976297860037": {
+  "name": "Air pump Cycplus A2",
+  "cost": 0.59,
+  "visits": 5,
+  "days": 5,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "5905156102224": {
+  "name": "FNIRSI FNB48P USB port tester čierny",
+  "cost": 0.58,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "5907085527529": {
+  "name": "Blitzwolf BW-S31 2xUSB-A, 4xUSB-C, PD, 240W sieťová nabíjačka.",
+  "cost": 0.58,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8592718041434": {
+  "name": "Solight ventilátor do kúpeľne s časovačom",
+  "cost": 0.57,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "5905316141117": {
+  "name": "Zvukový zosilňovač Blitzwolf AS-22, 45 W, Bluetooth 5.0, USB + diaľkové ovládanie (čierny)",
+  "cost": 0.57,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "5901890108690": {
+  "name": "Rotoped REBEL ACTIVE RBA-1013",
+  "cost": 0.57,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6957141412015": {
+  "name": "Bezdrôtové slúchadlá QCY Melobuds A30 (zlaté)",
+  "cost": 0.56,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6972436986811": {
+  "name": "Smartring Colmi R12 20MM 10 (čierny)",
+  "cost": 0.55,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "4710343797999": {
+  "name": "Počítačová skriňa Darkflash DS900 AIR (čierna)",
+  "cost": 0.55,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6936685221451": {
+  "name": "GameSir G7-SE HRG2298",
+  "cost": 0.52,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "198156627742": {
+  "name": "Lenovo Folio Keyboard for IdeaTab Grey",
+  "cost": 0.5,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "4711527001383": {
+  "name": "Počítačová skriňa Darkflash C275P bez ventilátorov (biela)",
+  "cost": 0.46,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "5905156108363": {
+  "name": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 pre CarPlay/Android Auto",
+  "cost": 0.45,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "3499550347968": {
+  "name": "Thomson CR 50",
+  "cost": 0.37,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6976297860679": {
+  "name": "Cycplus AS210 AT1 Anoutway – mini pumpa na bicykel",
+  "cost": 0.37,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6932172659660": {
+  "name": "Powerbank Baseus OS Free2Pull 10000mAh 30W +cable (grey)",
+  "cost": 0.37,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "6956362912618": {
+  "name": "Baterka Superfire GT60 – 2600 lm, 2 režimy, USB-C",
+  "cost": 0.35,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
+ },
+ "8592718038793": {
+  "name": "Solight predlžovacia trubica pre Dyson V7, V8, V10, V11, V12, V15",
+  "cost": 0.23,
+  "visits": 3,
+  "days": 3,
+  "reason": "CPC report 2026-08-10..2026-09-03: klik >=3 dni, 0 objednavok",
+  "generatedAt": "2026-09-03T20:30:58.176Z"
  }
 }
