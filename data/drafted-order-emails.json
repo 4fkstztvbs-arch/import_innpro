@@ -180,5 +180,19 @@
     "subject": "Re: [PremiumStore.sk] Objednávka 202600725",
     "orderCode": "202600725",
     "matchedBy": "code"
+  },
+  "<CAFyBozvz0UVjQ=njXwQM=A0eZmnKaRtnaLkyGGn07FnK895J3g@mail.gmail.com>": {
+    "draftedAt": "2026-09-03T06:27:14.744Z",
+    "from": "kriszgogh@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600688 sa práve vybavuje",
+    "orderCode": "202600688",
+    "matchedBy": "code"
+  },
+  "<2fcc01dd3b6c$32edb990$98c92cb0$@atoselektro.cz>": {
+    "draftedAt": "2026-09-03T06:27:25.402Z",
+    "from": "grajniakova@atoselektro.cz",
+    "subject": "RE: Storno",
+    "orderCode": null,
+    "matchedBy": "none"
   }
 }
