@@ -56,9 +56,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 1.00 € | 1/12.0x | 21 |
 | 069929 | 6972971865268 | T-bayonet mount Genius Rig Freewell for iPhone 15 | cena mimo 8x rozsah mediánu kategórie | 65.50 € | 5.90 € | 1/11.1x | 4 |
 | 067822 | 6974370801533 | HOTO replacement brushes for electric brush QWFGJ005 | cena mimo 8x rozsah mediánu kategórie | 23.00 € | 2.50 € | 1/9.2x | 8 |
-| 074189 | 5907085522821 | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát AIR 3S 2 ks | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 1.50 € | 1/8.6x | 33 |
+| 074189 | 5907085522821 | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát AIR 3S 2 ks | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 1.60 € | 1/8.1x | 33 |
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
-| 076214 | 6971889230212 | Adaptér OBSBOT UVC na HDMI | cena mimo 8x rozsah mediánu kategórie | 22.50 € | 188.50 € | 8.4x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
 | 078454 | 6976831832469 | Recenzia monitora 7" F700 | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 272.90 € | 21.2x | 33 |
 | 080186 | 5907085529080 | xTool Tlačiareň odevov - sada všetko v jednom | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 10376.90 € | 1729.5x | 76 |
