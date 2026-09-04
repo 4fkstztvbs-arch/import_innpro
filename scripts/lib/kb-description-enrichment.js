@@ -815,6 +815,39 @@ const PRODUCT_FACTS_LIST = [
       'Bluetooth 5.3, funkcia Q-Symphony na zosúladenie so Samsung televízorom, podpora Spotify Connect, AirPlay, Chromecast a optický vstup.',
     ],
   },
+  // --- Domáce spotrebiče: veľké spotrebiče (davka 1) ------------------------------
+  {
+    codes: ['100001947537', '100001947543'], // Samsung RB38C7B6AS9/EF, RB38C7B6D41/EF (Bespoke, rovnaká séria)
+    heading: 'Funkcia AI Energy Mode',
+    paragraphs: [
+      'Táto chladnička s mrazákom dole má funkciu AI Energy Mode, ktorá pomocou umelej inteligencie analyzuje spôsob používania chladničky a podľa toho odhaduje jej spotrebu. Ak by predpokladaný účet za elektrinu prekročil nastavenú cieľovú hodnotu, navrhne aktivovať úsporný režim.',
+      'Funkcia je dostupná cez aplikáciu SmartThings (Android/iOS) a vyžaduje Wi-Fi pripojenie a Samsung účet.',
+    ],
+  },
+  {
+    codes: ['100002201604', '100002201599', '100002201605'], // Roborock Saros 20 (+ Sonic Complete varianty)
+    heading: 'Navigácia StarSight a prekonávanie prahov',
+    paragraphs: [
+      'Roborock Saros 20 má saciu silu až 36 000 Pa a navigačný systém StarSight Autonomous 2.0, ktorý rozoznáva až 300 typov prekážok. Vďaka podvozku AdaptiLift Chassis 3.0 zvládne prekonať aj dvojitý prah do výšky 4,5+4,3 cm.',
+      'Robot automaticky prispôsobuje výšku podľa typu podlahy, zvláda koberce s vlasom do 3 cm, mopuje horúcou vodou a má kefu DuoDivide proti zamotávaniu vlasov.',
+    ],
+  },
+  {
+    codes: ['100002070411', '100002070409'], // Samsung WW90CGC04DTELE, WW80CGC04DABLE (rovnaká séria AI EcoBubble)
+    heading: 'AI EcoBubble a hygienické pranie parou',
+    paragraphs: [
+      'Práčka má technológiu AI EcoBubble, ktorá vytvára aktívnu penu odstraňujúcu až o 24 % viac nečistôt aj v studenej vode - práčka rozpozná typ tkaniny a podľa toho prispôsobí množstvo peny, čas prania, teplotu aj odstreďovanie.',
+      'Funkcia Drum Clean s parou odstráni z bubna až 99,9 % baktérií bez použitia čistiacich prostriedkov. Súčasťou je aj funkcia AI Energy Mode a pripojenie cez aplikáciu SmartThings.',
+    ],
+  },
+  {
+    codes: ['100002203268', '100002203288', '100002203265', '100002203269'], // Whirlpool WHK AI AdaptiveCool (viac veľkostí)
+    heading: 'Technológia 6. zmysel a AI AdaptiveCool',
+    paragraphs: [
+      'Táto chladnička využíva technológiu Whirlpool 6. zmysel - senzory priebežne sledujú vloženú potravinovú záťaž, teplotu a vlhkosť a podľa toho automaticky upravujú chladiaci výkon, aby udržali stabilné podmienky pri nižšej spotrebe energie.',
+      'Funkcia AI AdaptiveCool dopĺňa systém Dual Cooling (samostatné chladiace okruhy pre chladničku a mrazničku) a je súčasťou aplikácie HomeWhiz na diaľkové ovládanie a monitoring.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
