@@ -21,29 +21,35 @@ p, li, a, label, input, button, textarea, select {
    body.type-detail. */
 body.type-detail .benefitBanner {
   flex-wrap: nowrap !important;
-  gap: 14px !important;
+  gap: 10px !important;
 }
 body.type-detail .benefitBanner__item {
   flex: 1 1 0 !important;
   min-width: 0 !important;
-  gap: 8px !important;
+  gap: 6px !important;
 }
+/* Ikonka a jej wrapper nesmú mať vlastný margin/padding - inak vznikne
+   veľká medzera medzi ikonkou a textom navyše k "gap" vyššie. */
 body.type-detail .benefitBanner__icon,
 body.type-detail .benefitBanner img,
 body.type-detail .benefitBanner svg {
-  width: 26px !important;
-  height: 26px !important;
+  width: 24px !important;
+  height: 24px !important;
   flex: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 body.type-detail .benefitBanner__title,
 body.type-detail .benefitBanner b,
 body.type-detail .benefitBanner strong {
-  font-size: 13px !important;
+  font-size: 14.5px !important;
   line-height: 1.25 !important;
+  margin: 0 !important;
 }
 body.type-detail .benefitBanner__content {
-  font-size: 12px !important;
-  line-height: 1.25 !important;
+  font-size: 13px !important;
+  line-height: 1.3 !important;
+  margin: 0 !important;
 }
 
 body {
