@@ -987,6 +987,14 @@ const PRODUCT_FACTS_LIST = [
       'Funkcia Smart Finish uvarí dve jedlá dvoma rôznymi spôsobmi naraz, Match Cook zase zosynchronizuje nastavenia oboch zásuviek. Nepriľnavé zásuvky Crisp sú vhodné do umývačky riadu.',
     ],
   },
+  {
+    codes: ['340910016043'], // Krups EA 810 B (rad Essential)
+    heading: 'Nastaviteľná teplota a hrubosť mletia',
+    paragraphs: [
+      'Krups EA 810 B z radu Essential má zásobník na 260 g kávových zŕn a 1,7l nádržku na vodu. Ponúka 3 úrovne teploty vody a 3 stupne hrubosti mletia, takže si možno prípravu kávy prispôsobiť podľa chuti.',
+      'Súčasťou je parná tryska na prípravu penového mlieka do cappuccina a prehľadný LCD displej na ovládanie.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
