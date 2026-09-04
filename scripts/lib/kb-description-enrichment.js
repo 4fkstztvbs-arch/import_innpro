@@ -42,7 +42,9 @@ function splitStructuredItems(desc) {
   const groups = desc.split(/\.\s+|\.$/).map((g) => g.trim()).filter(Boolean);
   const items = [];
   for (const group of groups) {
-    for (const raw of group.split(',')) {
+    // Čiarka bez medzery za sebou (napr. "190,5 cm") je desatinná čiarka, nie
+    // oddeľovač položiek - tie majú v K-B feede vždy medzeru za čiarkou.
+    for (const raw of group.split(/,\s+/)) {
       const piece = raw.trim();
       if (!piece) continue;
       items.push(piece);
@@ -165,6 +167,96 @@ const DEFAULT_INTRO = ['{name} je produkt od {brand} z kategórie TV, audio a vi
 
 const SPEC_HEADING = 'Kľúčové parametre';
 
+// --- Doplnkové fakty o technológii displeja (len kategória Televízory) ------------
+// Zdroj: oficiálne stránky výrobcu (Samsung, TCL) - vlastnými slovami, nie doslovná
+// citácia. Aplikuje sa podľa značky/rady rozpoznanej v názve produktu, takže pokrýva
+// všetky veľkosti tej istej rady jedným zdrojom faktov namiesto stoviek jednotlivých
+// vyhľadávaní. Poradie je dôležité - kontroluje sa zhora nadol, prvá zhoda vyhráva
+// (napr. "NEO QLED THE FRAME" musí trafiť pravidlo Frame, nie Neo QLED).
+const TV_TECH_FACTS = [
+  {
+    manufacturer: 'Samsung',
+    test: /THE FRAME|FRAME PRO/i,
+    heading: 'Televízor aj obraz na stenu',
+    paragraphs: [
+      'Tento televízor patrí do radu Samsung The Frame, ktorý je navrhnutý tak, aby na stene pôsobil ako zarámovaný obraz. Vďaka funkcii Art Mode dokáže aj vo vypnutom stave zobrazovať umelecké diela namiesto čiernej obrazovky, pričom jas a farebný tón displeja sa prispôsobujú osvetleniu miestnosti.',
+      'Displej má aj úpravu proti odleskom, aby vyzeral čo najviac ako skutočný obraz zavesený na stene, a pohybový senzor dokáže televízor automaticky zapnúť alebo vypnúť podľa toho, či je v miestnosti niekto prítomný.',
+    ],
+  },
+  {
+    manufacturer: 'Samsung',
+    test: /NEO QLED/i,
+    heading: 'Technológia Neo QLED',
+    paragraphs: [
+      'Tento televízor patrí do Samsungovho radu Neo QLED, ktorý používa podsvietenie Mini LED - diódy sú výrazne menšie než pri bežnom LED podsvietení, vďaka čomu dokáže televízor presnejšie riadiť jednotlivé zóny podsvietenia.',
+      'Výsledkom je vyšší kontrast, hlbšia čierna farba a jasnejší obraz. V kombinácii s technológiou Quantum Dot navyše ponúka bohaté farby aj pri vyšších úrovniach jasu.',
+    ],
+  },
+  {
+    manufacturer: 'Samsung',
+    test: /\bOLED\b/i,
+    heading: 'Technológia OLED',
+    paragraphs: [
+      'Tento televízor využíva OLED panel, v ktorom si každý pixel svieti sám za seba. Vďaka tomu dokáže úplne vypnúť jednotlivé body obrazu a dosiahnuť absolútnu čiernu farbu a vysoký kontrast bez ohľadu na uhol pohľadu.',
+      'Panel má aj úpravu obmedzujúcu odrazy okolitého svetla, čo pomáha zachovať čitateľnosť obrazu aj v presvetlenej miestnosti.',
+    ],
+  },
+  {
+    manufacturer: 'Samsung',
+    test: /CRYSTAL UHD/i,
+    heading: 'Technológia Crystal UHD',
+    paragraphs: [
+      'Crystal UHD je Samsungov rad cenovo dostupnejších 4K televízorov. Procesor Crystal spracúva obraz a pri škálovaní na 4K rozlíšenie dopočítava chýbajúce detaily, hrany a farby bez ohľadu na kvalitu pôvodného zdroja.',
+      'Obrazová technológia Dynamic Crystal Color pritom vykresľuje široké spektrum farebných odtieňov pre živší a realistickejší obraz.',
+    ],
+  },
+  {
+    manufacturer: 'Samsung',
+    test: /MINI LED/i,
+    heading: 'Podsvietenie Mini LED',
+    paragraphs: [
+      'Aj tento televízor využíva podsvietenie Mini LED, ktoré vďaka menším diódam umožňuje presnejšie ovládanie jasu a kontrastu než bežné LED podsvietenie. Ide o vstupnú až strednú triedu Samsungovho radu s Mini LED podsvietením - najpokročilejšie riadenie zón a technológiu Quantum Dot ponúka až vyšší rad Neo QLED.',
+    ],
+  },
+  {
+    manufacturer: 'Samsung',
+    test: /QLED/i,
+    heading: 'Technológia QLED',
+    paragraphs: [
+      'Tento televízor patrí do Samsungovho radu QLED, ktorý využíva panel s technológiou Quantum Dot. Kvantové body umožňujú zobraziť široké farebné spektrum a vysoký farebný objem aj pri vyššom jase obrazu.',
+    ],
+  },
+  {
+    manufacturer: 'TCL',
+    test: /QD-?MINI\s?LED/i,
+    heading: 'Technológia QD-Mini LED',
+    paragraphs: [
+      'Tento televízor využíva technológiu QD-Mini LED, ktorá kombinuje podsvietenie Mini LED s technológiou Quantum Dot. Veľký počet drobných LED diód rozdelených do samostatne riadených stmievacích zón umožňuje presnejšie ovládanie jasu jednotlivých častí obrazu.',
+      'Výsledkom je hlbšia čierna farba, vysoký kontrast a jasné, sýte farby, ktoré sa kvalitou približujú k OLED panelom.',
+    ],
+  },
+  {
+    manufacturer: 'TCL',
+    test: /QLED/i,
+    heading: 'Technológia QLED',
+    paragraphs: [
+      'Tento televízor využíva panel QLED s technológiou Quantum Dot, ktorá oproti bežným LED televízorom rozširuje farebné spektrum a zvyšuje jas obrazu.',
+    ],
+  },
+  {
+    manufacturer: 'Xiaomi',
+    test: /MINI\s?LED/i,
+    heading: 'Podsvietenie Mini LED',
+    paragraphs: [
+      'Tento televízor kombinuje podsvietenie Mini LED s technológiou Quantum Dot, čo prináša vyšší jas a kontrast než bežné LED podsvietenie. O ovládanie sa stará systém Google TV s prístupom k tisíckam aplikácií a personalizovanými odporúčaniami obsahu.',
+    ],
+  },
+];
+
+function findTechFacts(manufacturer, name) {
+  return TV_TECH_FACTS.find((t) => t.manufacturer === manufacturer && t.test.test(name));
+}
+
 function subcategoryOf(defaultCategory) {
   if (!defaultCategory) return '';
   const segs = defaultCategory.split('>').map((s) => s.trim());
@@ -209,6 +301,14 @@ function buildEnrichedDescription(product) {
   parts.push(`<p>${intro}</p>`);
   if (image) {
     parts.push(`<p><img alt="${escapeHtml(name)}" src="${escapeHtml(image)}"></p>`);
+  }
+
+  if (sub === 'Televízory') {
+    const tech = findTechFacts(manufacturer, name);
+    if (tech) {
+      parts.push(`<h3>${escapeHtml(tech.heading)}</h3>`);
+      for (const p of tech.paragraphs) parts.push(`<p>${p}</p>`);
+    }
   }
 
   const desc = (description || '').trim();
