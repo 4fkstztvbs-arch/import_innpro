@@ -259,6 +259,23 @@
     if (el) el.classList.add('ps-secondary-actions');
   }
 
+  // --- 5) Presun konkurenčných výhod (.benefitBanner) za riadok ikon -------
+  // Presúva reálny natívny blok (nie kópiu) hneď za
+  // .buttons-wrapper.social-buttons-wrapper (Tlač/Opýtať sa/Strážiť/Zdieľať),
+  // len na produktovej stránke. Blok nemá žiadny stav viazaný na pôvodnú
+  // pozíciu v DOM (na rozdiel napr. od hamburger menu), takže presun cez
+  // insertAdjacentElement je bezpečný.
+  function relocateBenefitBanner() {
+    if (!getPdpForm()) return;
+    var actions = document.querySelector('[data-testid="productDetailActionIcons"]') ||
+      document.querySelector('.buttons-wrapper.social-buttons-wrapper');
+    var banner = document.querySelector('.benefitBanner.position--benefitProduct') ||
+      document.querySelector('.benefitBanner');
+    if (!actions || !banner) return;
+    if (banner.previousElementSibling === actions) return;
+    actions.insertAdjacentElement('afterend', banner);
+  }
+
   // --- Spustenie -------------------------------------------------------------
   function run() {
     relocateLoginButton();
@@ -268,6 +285,7 @@
     trustBadges();
     stickyBuyBar();
     deemphasizeSecondaryActions();
+    relocateBenefitBanner();
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
   }
 
