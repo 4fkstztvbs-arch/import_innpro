@@ -963,6 +963,14 @@ const PRODUCT_FACTS_LIST = [
       'Automatická korekcia akustiky YPAO doladí zvuk podľa priestoru, režim Pure Direct prenáša signál najkratšou možnou cestou. Kompatibilný s multi-room systémom Yamaha MusicCast a streamovacími službami ako Spotify či Amazon Music.',
     ],
   },
+  {
+    codes: ['100002134326'], // Kaon MZ-104 4K satelitný prijímač Skylink
+    heading: 'Prvý 4K prijímač pre Skylink',
+    paragraphs: [
+      'Kaon MZ-104 je prvý satelitný prijímač s podporou 4K (UHD) obrazu určený pre Skylink, s vstavaným bezkartovým dekodérom Nagravision. Chipset Broadcom BCM72174 s 2 GB RAM zvládne príjem SD, HD aj UHD kanálov v kompresiách MPEG-2, MPEG-4/H.264 a HEVC (DVB-S/DVB-S2).',
+      'Ide o hybridný prijímač - okrem klasického satelitného príjmu vie naplno využívať aj IPTV službu Skylink Live TV cez LAN alebo vstavané Wi-Fi. Podporuje programovateľné nahrávanie (PVR) na USB a funkciu Timeshift.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
