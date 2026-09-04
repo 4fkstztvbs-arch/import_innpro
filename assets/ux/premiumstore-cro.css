@@ -14,6 +14,15 @@ body, div, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4,
 p, li, a, label, input, button, textarea, select {
   font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
+
+/* Svetlozelené pozadie za menu kategórií v ľavom sidebari - rovnaký odtieň
+   zelenej ako tlačidlo "Do košíka" (var(--p): #24b47e z pôvodného
+   custom CSS v administrácii). */
+.sidebar.sidebar-left .box-categories {
+  background-color: #eaf7f1 !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+}
 /* Konkurenčné výhody (natívny Shoptet blok .benefitBanner) - na detaile
    produktu (body.type-detail) sa má zmestiť do jedného riadku, preto sú
    ikonky/text menšie. Na kategórii a homepage sa nedotýka (funguje tam
