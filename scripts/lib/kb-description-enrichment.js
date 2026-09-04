@@ -898,6 +898,23 @@ const PRODUCT_FACTS_LIST = [
       'Senzory OptiSense pri každom praní prispôsobia množstvo vody a spotrebu energie presne množstvu vloženej bielizne. Program Denný Express dokáže vyprať plnú náplň pri 30 °C za 28 minút.',
     ],
   },
+  // --- TV, audio a video: davka 12 (True Bezdrôtové, Drôtové slúchadlá) ------------
+  {
+    codes: ['100002164092'], // Apple AirPods Pro 3
+    heading: 'Najlepšie ANC od Apple a snímanie tepu',
+    paragraphs: [
+      'AirPods Pro 3 majú podľa Apple najlepšie aktívne potlačenie hluku (ANC) v slúchadlách do uší na svete - odfiltrujú až 2-násobne viac hluku než AirPods Pro 2. Dosiahnuté je to vďaka ultra-tichým mikrofónom, výpočtovému spracovaniu zvuku a novým penovým nadstavcom pre lepšiu pasívnu izoláciu.',
+      'Výdrž so zapnutým ANC je do 8 hodín na jedno nabitie (o 33 % viac než predchádzajúca generácia), s puzdrom spolu až 24 hodín. Slúchadlá aj puzdro majú krytie IP57 a po prvý raz dokážu snímať tepovú frekvenciu a rozoznať vyše 50 typov cvičení v aplikácii Fitness.',
+    ],
+  },
+  {
+    codes: ['100001949702', '100001953409'], // HyperX Cloud III (Black, Red)
+    heading: 'Herné slúchadlá s DTS Headphone:X',
+    paragraphs: [
+      'HyperX Cloud III majú 53mm meniče s neodýmovými magnetmi a frekvenčný rozsah 10 Hz - 21 kHz. Doživotná aktivácia DTS Headphone:X poskytuje presný priestorový 3D zvuk pre hranie.',
+      'Vankúšiky z pamäťovej peny a vypchatý hlavový oblúk sú navrhnuté na pohodlie pri dlhších herných reláciách, slúchadlá fungujú na PC, PS5, PS4, Xbox Series X|S, Xbox One, Nintendo Switch, Macu aj mobiloch.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
