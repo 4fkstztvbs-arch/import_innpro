@@ -1084,6 +1084,14 @@ const PRODUCT_FACTS_LIST = [
       'Jedinečný filter Micro Calc Filter zachytáva čiastočky vodného kameňa väčšie ako 0,2 mm a zabraňuje škvrnám na bielizni. Funkcia Automatic Steam sama zvolí správne množstvo pary podľa nastavenej teploty látky, žehlička sa dá použiť aj na zvislé naparovanie.',
     ],
   },
+  {
+    codes: ['100001831867'], // Lamax X7.2
+    heading: 'Záznam v 4K so stabilizáciou MAXsmooth',
+    paragraphs: [
+      'Lamax X7.2 zaznamenáva video v 4K pri 30 fps s elektronickou stabilizáciou MAXsmooth, prípadne v 2,7K/30 fps, FullHD až do 60 fps alebo spomalený záznam 1080p/120 fps. Fotografie majú rozlíšenie 16 Mpx.',
+      'Kamera je bez puzdra vodotesná do 12 m, s priloženým puzdrom až do 40 m. Súčasťou je 2" TFT LCD displej, Wi-Fi, port na externý mikrofón a batéria s výdržou do 2 hodín na jedno nabitie.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
