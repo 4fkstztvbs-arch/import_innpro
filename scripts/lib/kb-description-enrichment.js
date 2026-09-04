@@ -848,6 +848,22 @@ const PRODUCT_FACTS_LIST = [
       'Funkcia AI AdaptiveCool dopĺňa systém Dual Cooling (samostatné chladiace okruhy pre chladničku a mrazničku) a je súčasťou aplikácie HomeWhiz na diaľkové ovládanie a monitoring.',
     ],
   },
+  {
+    codes: ['100001827945', '100002070977', '100001875757', '100001879906', '100001875758', '100002200667'], // LG sušičky DUAL Inverter Heat Pump
+    heading: 'Tepelné čerpadlo DUAL Inverter Heat Pump',
+    paragraphs: [
+      'Táto sušička má technológiu DUAL Inverter Heat Pump, ktorá radí zariadenie do energetickej triedy A+++ a spotrebuje až o 65 % menej energie než bežné sušičky. Automatické čistenie kondenzátora vodou udržiava sušičku dlhodobo funkčnú bez nutnosti ručného čistenia.',
+      'Sušička dokáže znížiť výskyt roztočov až o 99,9 %. Na inverterový kompresor aj motor poskytuje LG 10-ročnú záruku.',
+    ],
+  },
+  {
+    codes: ['100000424178', '100002130289'], // Electrolux 600 SteamBake (EOD3H50TX, EOD5F71Z)
+    heading: 'Parná funkcia SteamBake',
+    paragraphs: [
+      'Táto vstavaná rúra má funkciu SteamBake, ktorá do pečenia pridáva paru pre šťavnatejšie a kysnutejšie výsledky. Katalytické samočistiace steny pohlcujú tuk a čistia sa samé pri teplote 250 °C.',
+      'Ventilátor v zadnej stene zaisťuje rovnomerné rozloženie tepla, vďaka čomu je možné piecť súčasne až na 3 úrovniach. Funkcia rýchleho predhrievania skráti čakanie oproti bežným rúram.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
