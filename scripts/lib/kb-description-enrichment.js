@@ -427,6 +427,22 @@ const PRODUCT_FACTS_LIST = [
       'Krytie IP68 ho chráni pred prachom aj ponorením do vody, výstupný výkon je oproti predchádzajúcemu modelu Boombox 3 vyšší takmer o polovicu.',
     ],
   },
+  {
+    codes: ['100002134627'], // Samsung HW-Q800F
+    heading: 'Priestorový zvuk Dolby Atmos',
+    paragraphs: [
+      'Samsung HW-Q800F je 5.1.2-kanálový soundbar s celkovým výkonom 400 W rozloženým do 11 reproduktorov vrátane dvoch smerovaných nahor pre efekt Dolby Atmos. Podporuje aj dekodéry Dolby Digital 5.1, Dolby Digital Plus, Dolby TrueHD a DTS:X.',
+      'Súčasťou je bezdrôtový 8-palcový subwoofer, pripojenie cez HDMI eARC, optický vstup, Bluetooth alebo Wi-Fi. Funkcia Q-Symphony dokáže zosúladiť zvuk soundbaru so správnym Samsung televízorom.',
+    ],
+  },
+  {
+    codes: ['100002172127'], // JBL Bar 1000 MK2
+    heading: 'Priestorový zvuk Dolby Atmos',
+    paragraphs: [
+      'JBL Bar 1000 MK2 je 7.1.4-kanálový systém s celkovým výkonom 960 W, ktorý podporuje Dolby Atmos aj DTS:X. Odnímateľné bezdrôtové zadné reproduktory (2× 80 W) sa dajú jednou rukou zložiť zo soundbaru a umiestniť za miesto na sedenie.',
+      'Štyri hore smerované reproduktory v soundbare spolu so zadnými reproduktormi vytvárajú skutočný priestorový Dolby Atmos zvuk, 10-palcový subwoofer má výkon 300 W.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
