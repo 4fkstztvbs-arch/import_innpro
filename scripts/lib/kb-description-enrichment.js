@@ -1039,6 +1039,16 @@ const PRODUCT_FACTS_LIST = [
       'Motor Inverter Direct Drive je pripojený priamo k bubnu bez remeňa, čo znižuje opotrebovanie a hlučnosť - LG naň poskytuje 10-ročnú záruku.',
     ],
   },
+  {
+    // LG kombinovane chladnicky s DoorCooling+ a linearnym invertorovym kompresorom
+    codes: ['100002202671', '100002200324', '100002200327', '100002200328', '100002200321',
+      '100002200322', '100002200319', '100002200320', '100002202677', '100002130386'],
+    heading: 'Technológia DoorCooling+ a lineárny kompresor',
+    paragraphs: [
+      'Táto chladnička má technológiu DoorCooling+, ktorá rovnomerne rozvádza chladný vzduch aj do dverí - nápoje uložené vo dverách sa tak chladia rýchlejšie a potraviny zostávajú čerstvé dlhšie.',
+      'Lineárny invertorový kompresor LG udržiava teplotné výkyvy v rozmedzí len ±0,5 °C vďaka technológii LinearCooling, čo pomáha zachovať čerstvosť potravín až 7 dní, a zároveň je tichší a energeticky úspornejší než bežný kompresor.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
