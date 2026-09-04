@@ -443,6 +443,22 @@ const PRODUCT_FACTS_LIST = [
       'Štyri hore smerované reproduktory v soundbare spolu so zadnými reproduktormi vytvárajú skutočný priestorový Dolby Atmos zvuk, 10-palcový subwoofer má výkon 300 W.',
     ],
   },
+  {
+    codes: ['100002172124'], // JBL Bar 800 MK2
+    heading: 'Priestorový zvuk Dolby Atmos',
+    paragraphs: [
+      'JBL Bar 800 MK2 je 7.1-kanálový systém s celkovým výkonom až 780 W a bezdrôtovým 10-palcovým subwooferom (300 W). Odnímateľné zadné reproduktory (2× 40 W) vytvárajú skutočný priestorový zvuk s podporou Dolby Atmos a DTS Virtual:X.',
+      'Technológia MultiBeam 3.0 rozširuje zvukovú scénu do šírky, Pure Voice 2.0 automaticky vylepšuje zrozumiteľnosť dialógov. Pripojenie cez HDMI eARC s podporou 4K HDR10/Dolby Vision passthrough a Wi-Fi streamovaním.',
+    ],
+  },
+  {
+    codes: ['100002134626'], // Samsung HW-Q930F
+    heading: 'Priestorový zvuk Dolby Atmos',
+    paragraphs: [
+      'Samsung HW-Q930F je 9.1.4-kanálový soundbar so 17 reproduktormi a celkovým výkonom 580 W, vrátane bezdrôtového subwooferu a bezdrôtových zadných reproduktorov so 4 hore smerovanými reproduktormi pre efekt Dolby Atmos. Podporuje aj DTS:X, DTS-HD Master Audio a Dolby TrueHD.',
+      'Bluetooth 5.3, funkcia Q-Symphony na zosúladenie so Samsung televízorom, podpora Spotify Connect, AirPlay, Chromecast a optický vstup.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
