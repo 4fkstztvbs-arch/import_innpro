@@ -267,8 +267,13 @@
   // insertAdjacentElement je bezpečný.
   function relocateBenefitBanner() {
     if (!getPdpForm()) return;
-    var actions = document.querySelector('[data-testid="productDetailActionIcons"]') ||
-      document.querySelector('.buttons-wrapper.social-buttons-wrapper');
+    // Dôležité: cieľ je VONKAJŠÍ wrapper .buttons-wrapper.social-buttons-wrapper,
+    // nie vnútorný [data-testid="productDetailActionIcons"] div - ten obsahuje
+    // len 4 flex položky (Tlač/Opýtať sa/Strážiť/Zdieľať) a vloženie banneru
+    // priamo doňho ho urobilo 5. flex položkou tohto riadku (rozhodilo icons
+    // aj banner do stĺpcov). Vložením AŽ ZA celý wrapper zostane riadok ikon
+    // nedotknutý a banner príde ako samostatný blok pod ním.
+    var actions = document.querySelector('.buttons-wrapper.social-buttons-wrapper');
     var banner = document.querySelector('.benefitBanner.position--benefitProduct') ||
       document.querySelector('.benefitBanner');
     if (!actions || !banner) return;
