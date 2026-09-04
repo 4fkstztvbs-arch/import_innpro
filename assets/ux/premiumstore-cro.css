@@ -23,21 +23,32 @@ body.type-detail .benefitBanner {
   flex-wrap: nowrap !important;
   gap: 10px !important;
 }
+/* Natívne je ikonka pravdepodobne position:absolute s padding-left na
+   texte namiesto flex "gap" (preto predošlé zúženie gap nič nezmenilo) -
+   vynucujeme vlastný tesný flex riadok ikonka+text namiesto toho. */
 body.type-detail .benefitBanner__item {
+  display: flex !important;
+  align-items: center !important;
   flex: 1 1 0 !important;
   min-width: 0 !important;
-  gap: 6px !important;
+  gap: 10px !important;
+  padding-left: 0 !important;
+  position: relative !important;
 }
-/* Ikonka a jej wrapper nesmú mať vlastný margin/padding - inak vznikne
-   veľká medzera medzi ikonkou a textom navyše k "gap" vyššie. */
 body.type-detail .benefitBanner__icon,
 body.type-detail .benefitBanner img,
 body.type-detail .benefitBanner svg {
-  width: 24px !important;
-  height: 24px !important;
+  position: static !important;
+  left: auto !important;
+  top: auto !important;
+  width: 32px !important;
+  height: 32px !important;
   flex: none !important;
   margin: 0 !important;
   padding: 0 !important;
+}
+body.type-detail .benefitBanner__content {
+  padding-left: 0 !important;
 }
 body.type-detail .benefitBanner__title,
 body.type-detail .benefitBanner b,
