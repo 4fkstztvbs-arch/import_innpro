@@ -263,6 +263,107 @@ function subcategoryOf(defaultCategory) {
   return segs[segs.length - 1] || '';
 }
 
+// --- Doplnkové fakty o konkrétnom produkte (mimo kategórie Televízory) -------------
+// Na rozdiel od TV, kde sa dá zdieľať fakt o technológii displeja naprieč veľkosťami
+// tej istej rady, väčšina audio produktov (slúchadlá, reproduktory...) sú navzájom
+// odlišné modely - fakty sa preto priraďujú podľa presného CODE (K-B feed), nie podľa
+// vzoru v názve. Zdroj: oficiálna stránka výrobcu, pri chýbajúcich údajoch veľký
+// e-shop (Alza/Nay/Datart) - vlastnými slovami, nič sa nevymýšľa nad rámec zdroja.
+// Postupne dopĺňané po dávkach (najprv najväčšie/najpredávanejšie modely).
+const PRODUCT_FACTS = {
+  '100002201318': { // Samsung Galaxy Buds4 Pro
+    heading: 'Zvuk a potlačenie hluku',
+    paragraphs: [
+      'Galaxy Buds4 Pro majú dvojpásmový 11mm menič doplnený 5,4mm výškovým meničom a podporujú 24-bitový zvuk. Adaptívne potlačenie okolitého hluku (ANC) sa vďaka umelej inteligencii priebežne prispôsobuje prostrediu, v ktorom sa práve nachádzate.',
+      'Až šesť mikrofonov s neurónovou sieťou oddeľuje hlas od ruchu v pozadí pri telefonovaní. Výdrž batérie je do cca 7 hodín na jedno nabitie slúchadiel (bez ANC) a s puzdrom spolu až 23 hodín, nabíjanie je cez USB-C aj bezdrôtovo.',
+    ],
+  },
+  '100002136616': { // JBL Tour Pro 3
+    heading: 'Smart Charging Case s displejom',
+    paragraphs: [
+      'JBL Tour Pro 3 majú nabíjacie puzdro s 1,57" dotykovým displejom, na ktorom vidno hranú skladbu, prichádzajúci hovor alebo si naň možno nastaviť vlastnú fotku ako tapetu. Puzdro dokáže slúžiť aj ako audio vysielač, napríklad k palubnému systému v lietadle.',
+      'Slúchadlá ponúkajú priestorový zvuk JBL Spatial 360 so sledovaním pohybu hlavy, Hi-Res zvuk s podporou kodeku LDAC a adaptívne potlačenie hluku v reálnom čase. Výdrž je do 11 hodín na jedno nabitie (8 hodín so zapnutým ANC), s puzdrom spolu až 33 hodín.',
+    ],
+  },
+  '100002136617': { // JBL Tour Pro 3 Latte (rovnaký model, iná farba)
+    heading: 'Smart Charging Case s displejom',
+    paragraphs: [
+      'JBL Tour Pro 3 majú nabíjacie puzdro s 1,57" dotykovým displejom, na ktorom vidno hranú skladbu, prichádzajúci hovor alebo si naň možno nastaviť vlastnú fotku ako tapetu. Puzdro dokáže slúžiť aj ako audio vysielač, napríklad k palubnému systému v lietadle.',
+      'Slúchadlá ponúkajú priestorový zvuk JBL Spatial 360 so sledovaním pohybu hlavy, Hi-Res zvuk s podporou kodeku LDAC a adaptívne potlačenie hluku v reálnom čase. Výdrž je do 11 hodín na jedno nabitie (8 hodín so zapnutým ANC), s puzdrom spolu až 33 hodín.',
+    ],
+  },
+  '100001937701': { // Sony WH-CH720N
+    heading: 'Potlačenie hluku a výdrž batérie',
+    paragraphs: [
+      'Sony WH-CH720N majú aktívne potlačenie hluku (ANC) a technológiu Precise Voice Pickup s tvarovaním mikrofónového lúča pre čistejšie hovory aj vo veternom počasí. Integrovaný procesor V1 spolu s technológiou DSEE dopočítava detaily stlačeného zvuku.',
+      'Výdrž batérie je až 50 hodín, slúchadlá sa dajú poskladať pre jednoduchšie prenášanie a cez appku Sound Connect si možno nastaviť ekvalizér alebo pripojenie k dvom zariadeniam naraz.',
+    ],
+  },
+  '100001937702': {
+    heading: 'Potlačenie hluku a výdrž batérie',
+    paragraphs: [
+      'Sony WH-CH720N majú aktívne potlačenie hluku (ANC) a technológiu Precise Voice Pickup s tvarovaním mikrofónového lúča pre čistejšie hovory aj vo veternom počasí. Integrovaný procesor V1 spolu s technológiou DSEE dopočítava detaily stlačeného zvuku.',
+      'Výdrž batérie je až 50 hodín, slúchadlá sa dajú poskladať pre jednoduchšie prenášanie a cez appku Sound Connect si možno nastaviť ekvalizér alebo pripojenie k dvom zariadeniam naraz.',
+    ],
+  },
+  '100002134398': {
+    heading: 'Potlačenie hluku a výdrž batérie',
+    paragraphs: [
+      'Sony WH-CH720N majú aktívne potlačenie hluku (ANC) a technológiu Precise Voice Pickup s tvarovaním mikrofónového lúča pre čistejšie hovory aj vo veternom počasí. Integrovaný procesor V1 spolu s technológiou DSEE dopočítava detaily stlačeného zvuku.',
+      'Výdrž batérie je až 50 hodín, slúchadlá sa dajú poskladať pre jednoduchšie prenášanie a cez appku Sound Connect si možno nastaviť ekvalizér alebo pripojenie k dvom zariadeniam naraz.',
+    ],
+  },
+  '100001937703': {
+    heading: 'Potlačenie hluku a výdrž batérie',
+    paragraphs: [
+      'Sony WH-CH720N majú aktívne potlačenie hluku (ANC) a technológiu Precise Voice Pickup s tvarovaním mikrofónového lúča pre čistejšie hovory aj vo veternom počasí. Integrovaný procesor V1 spolu s technológiou DSEE dopočítava detaily stlačeného zvuku.',
+      'Výdrž batérie je až 50 hodín, slúchadlá sa dajú poskladať pre jednoduchšie prenášanie a cez appku Sound Connect si možno nastaviť ekvalizér alebo pripojenie k dvom zariadeniam naraz.',
+    ],
+  },
+  '100002201075': { // Xiaomi Redmi Buds 8 Pro
+    heading: 'Aktívne potlačenie hluku a zvuk',
+    paragraphs: [
+      'Redmi Buds 8 Pro majú aktívne potlačenie hluku (ANC) až do 55 dB, ktoré vďaka adaptívnemu algoritmu analyzuje okolitý hluk a priebežne sa mu prispôsobuje. Basový 11mm menič s titánovou membránou dopĺňajú dva 6,7mm piezoelektrické keramické výškové meniče.',
+      'Slúchadlá podporujú certifikáciu Hi-Res Audio Wireless a kodek LDAC, majú krytie IP54 proti prachu a vode a výdrž do 8 hodín na jedno nabitie, s puzdrom spolu až 33 hodín.',
+    ],
+  },
+  '100002201057': {
+    heading: 'Aktívne potlačenie hluku a zvuk',
+    paragraphs: [
+      'Redmi Buds 8 Pro majú aktívne potlačenie hluku (ANC) až do 55 dB, ktoré vďaka adaptívnemu algoritmu analyzuje okolitý hluk a priebežne sa mu prispôsobuje. Basový 11mm menič s titánovou membránou dopĺňajú dva 6,7mm piezoelektrické keramické výškové meniče.',
+      'Slúchadlá podporujú certifikáciu Hi-Res Audio Wireless a kodek LDAC, majú krytie IP54 proti prachu a vode a výdrž do 8 hodín na jedno nabitie, s puzdrom spolu až 33 hodín.',
+    ],
+  },
+  '100002201056': {
+    heading: 'Aktívne potlačenie hluku a zvuk',
+    paragraphs: [
+      'Redmi Buds 8 Pro majú aktívne potlačenie hluku (ANC) až do 55 dB, ktoré vďaka adaptívnemu algoritmu analyzuje okolitý hluk a priebežne sa mu prispôsobuje. Basový 11mm menič s titánovou membránou dopĺňajú dva 6,7mm piezoelektrické keramické výškové meniče.',
+      'Slúchadlá podporujú certifikáciu Hi-Res Audio Wireless a kodek LDAC, majú krytie IP54 proti prachu a vode a výdrž do 8 hodín na jedno nabitie, s puzdrom spolu až 33 hodín.',
+    ],
+  },
+  '100002200822': { // JBL Tune 780NC
+    heading: 'Potlačenie hluku a výdrž batérie',
+    paragraphs: [
+      'JBL Tune 780NC majú adaptívne potlačenie hluku (ANC), ktoré automaticky filtruje rušivé zvuky z okolia, a režim Smart Ambient na počutie okolia bez zloženia slúchadiel. Bluetooth 6.0 s multipointom umožňuje plynulé prepínanie medzi dvomi zariadeniami.',
+      'Výdrž batérie je až 76 hodín so zapnutým ANC a Bluetooth vypnutými/50 hodín pri bežnom používaní, rýchle nabíjanie dá za 5 minút približne 5 hodín počúvania.',
+    ],
+  },
+  '100002200832': {
+    heading: 'Potlačenie hluku a výdrž batérie',
+    paragraphs: [
+      'JBL Tune 780NC majú adaptívne potlačenie hluku (ANC), ktoré automaticky filtruje rušivé zvuky z okolia, a režim Smart Ambient na počutie okolia bez zloženia slúchadiel. Bluetooth 6.0 s multipointom umožňuje plynulé prepínanie medzi dvomi zariadeniami.',
+      'Výdrž batérie je až 76 hodín so zapnutým ANC a Bluetooth vypnutými/50 hodín pri bežnom používaní, rýchle nabíjanie dá za 5 minút približne 5 hodín počúvania.',
+    ],
+  },
+  '100002200831': {
+    heading: 'Potlačenie hluku a výdrž batérie',
+    paragraphs: [
+      'JBL Tune 780NC majú adaptívne potlačenie hluku (ANC), ktoré automaticky filtruje rušivé zvuky z okolia, a režim Smart Ambient na počutie okolia bez zloženia slúchadiel. Bluetooth 6.0 s multipointom umožňuje plynulé prepínanie medzi dvomi zariadeniami.',
+      'Výdrž batérie je až 76 hodín so zapnutým ANC a Bluetooth vypnutými/50 hodín pri bežnom používaní, rýchle nabíjanie dá za 5 minút približne 5 hodín počúvania.',
+    ],
+  },
+};
+
 function nameHasBrand(name, manufacturer) {
   return manufacturer && name.toLowerCase().includes(manufacturer.toLowerCase());
 }
@@ -303,11 +404,20 @@ function buildEnrichedDescription(product) {
     parts.push(`<p><img alt="${escapeHtml(name)}" src="${escapeHtml(image)}"></p>`);
   }
 
+  let curatedFacts = false;
   if (sub === 'Televízory') {
     const tech = findTechFacts(manufacturer, name);
     if (tech) {
       parts.push(`<h3>${escapeHtml(tech.heading)}</h3>`);
       for (const p of tech.paragraphs) parts.push(`<p>${p}</p>`);
+      curatedFacts = true;
+    }
+  } else {
+    const facts = PRODUCT_FACTS[code];
+    if (facts) {
+      parts.push(`<h3>${escapeHtml(facts.heading)}</h3>`);
+      for (const p of facts.paragraphs) parts.push(`<p>${p}</p>`);
+      curatedFacts = true;
     }
   }
 
@@ -324,8 +434,10 @@ function buildEnrichedDescription(product) {
       parts.push(`<h3>${SPEC_HEADING}</h3>`);
       parts.push('<ul>' + items.map((i) => `<li>${escapeHtml(i)}</li>`).join('') + '</ul>');
     }
-  } else if (desc) {
+  } else if (desc && !curatedFacts) {
     // Prozaický text - rozdelenie na kratšie odseky podľa viet, bez zmeny obsahu.
+    // Ak už máme kurátorsky overené fakty (curatedFacts), tento surový text by ich
+    // len nečitateľne duplikoval, tak sa vynecháva.
     const sentences = desc.split(/(?<=[.!?])\s+/).map((s) => s.trim()).filter(Boolean);
     const paragraphs = [];
     for (let i = 0; i < sentences.length; i += 2) {
