@@ -165,8 +165,364 @@ const INTROS = {
   'Audio technika – ostatné produkty': [
     '{name} je audio zariadenie od {brand}.',
   ],
+
+  // --- Domáce spotrebiče -----------------------------------------------------------
+  'Chladničky s mrazákom dole': [
+    '{name} je kombinovaná chladnička s mrazákom dole od {brand}, určená ako hlavný chladiaci spotrebič v domácnosti.',
+  ],
+  'Chladničky': [
+    '{name} je chladnička od {brand}.',
+  ],
+  'Kombinované chladničky': [
+    '{name} je kombinovaná chladnička s mrazničkou od {brand}.',
+  ],
+  'Monoklimatické chladničky': [
+    '{name} je jednodverová (monoklimatická) chladnička od {brand}, vhodná napríklad ako menšia alebo doplnková chladnička.',
+  ],
+  'Vstavané chladenie': [
+    '{name} je vstavaný chladiaci spotrebič od {brand}, určený na zabudovanie do kuchynskej linky.',
+  ],
+  'Vinotéky a vitríny': [
+    '{name} je vinotéka/chladiaca vitrína od {brand} na skladovanie vína alebo nápojov pri optimálnej teplote.',
+  ],
+  'Zásuvkové mrazničky': [
+    '{name} je zásuvková mraznička od {brand}.',
+  ],
+  'Pultové mrazničky': [
+    '{name} je pultová (truhlicová) mraznička od {brand}, vhodná na skladovanie väčšieho množstva mrazených potravín.',
+  ],
+  'Práčky zepředu plnené': [
+    '{name} je práčka s predným plnením od {brand}.',
+  ],
+  'Práčky s vrchným plnením': [
+    '{name} je práčka s vrchným plnením od {brand}, vhodná najmä do menších priestorov.',
+  ],
+  'Sušičky': [
+    '{name} je sušička bielizne od {brand}.',
+  ],
+  'Príslušenstvo k práčkam a sušičkám': [
+    '{name} je príslušenstvo od {brand} k práčke alebo sušičke.',
+  ],
+  'Sušiaky na bielizeň': [
+    '{name} je sušiak na bielizeň od {brand}.',
+  ],
+  'Vstavané umývačky 60 cm': [
+    '{name} je vstavaná umývačka riadu (60 cm) od {brand}, určená na zabudovanie do kuchynskej linky.',
+  ],
+  'Vstavané umývačky 45 cm': [
+    '{name} je úzka vstavaná umývačka riadu (45 cm) od {brand}, vhodná do menších kuchýň.',
+  ],
+  'Umývačky riad 60 cm': [
+    '{name} je voľne stojaca umývačka riadu (60 cm) od {brand}.',
+  ],
+  'Umývačky riadu': [
+    '{name} je umývačka riadu od {brand}.',
+  ],
+  'Robotické vysávače': [
+    '{name} je robotický vysávač od {brand}, ktorý upratuje domácnosť samostatne bez potreby manuálneho ovládania.',
+  ],
+  'Tyčové vysávače': [
+    '{name} je tyčový (bezvreckový) vysávač od {brand}.',
+  ],
+  'Podlahové vysávače': [
+    '{name} je podlahový vysávač od {brand}.',
+  ],
+  'Aku vysávače': [
+    '{name} je akumulátorový (bezdrôtový) vysávač od {brand}.',
+  ],
+  'Vysávače': [
+    '{name} je vysávač od {brand}.',
+  ],
+  'Príslušenstvo k vysávačom': [
+    '{name} je príslušenstvo od {brand} k vysávaču.',
+  ],
+  'Filtre do vysávačov': [
+    '{name} je náhradný filter od {brand} do vysávača.',
+  ],
+  'Vrecká do vysávačov': [
+    '{name} sú vrecká do vysávača od {brand}.',
+  ],
+  'Parné mopy a čističe': [
+    '{name} je parný mop/čistič od {brand} na hĺbkové čistenie podláh bez chemikálií.',
+  ],
+  'Mopy a upratovacie súpravy': [
+    '{name} je mop/upratovacia súprava od {brand}.',
+  ],
+  'Čističe okien': [
+    '{name} je čistič okien od {brand}.',
+  ],
+  'Fritézy': [
+    '{name} je teplovzdušná fritéza od {brand}, na prípravu jedál s minimom oleja.',
+  ],
+  'Fritézy a hrnce': [
+    '{name} je fritéza/hrniec od {brand}.',
+  ],
+  'Multifunkčné hrnce': [
+    '{name} je multifunkčný hrniec od {brand}, ktorý nahradí viacero kuchynských spotrebičov naraz.',
+  ],
+  'Pomalé hrnce': [
+    '{name} je pomalý hrniec (slow cooker) od {brand} na dlhé, šetrné dusenie jedla.',
+  ],
+  'Parné hrnce': [
+    '{name} je parný hrniec od {brand} na prípravu jedla v pare.',
+  ],
+  'Hrnce': [
+    '{name} sú hrnce od {brand}.',
+  ],
+  'Panvice': [
+    '{name} je panvica od {brand}.',
+  ],
+  'Elektrické panvice': [
+    '{name} je elektrická panvica od {brand}.',
+  ],
+  'Elektrické grily': [
+    '{name} je elektrický gril od {brand}.',
+  ],
+  'Grily, pekárne, variče': [
+    '{name} je kuchynský spotrebič od {brand} (gril/pekáreň/varič).',
+  ],
+  'Vstavané pečúce rúry': [
+    '{name} je vstavaná rúra na pečenie od {brand}, určená na zabudovanie do kuchynskej linky.',
+  ],
+  'Sporáky a rúry': [
+    '{name} je sporák/rúra od {brand}.',
+  ],
+  'Vstavané rúry': [
+    '{name} je vstavaná rúra od {brand}.',
+  ],
+  'Elektrické sporáky': [
+    '{name} je elektrický sporák od {brand}.',
+  ],
+  'Vstavané mikrovlnné rúry': [
+    '{name} je vstavaná mikrovlnná rúra od {brand}.',
+  ],
+  'Mikrovlnné rúry': [
+    '{name} je mikrovlnná rúra od {brand}.',
+  ],
+  'Indukčné varné dosky': [
+    '{name} je indukčná varná doska od {brand}.',
+  ],
+  'Sklokeramické varné dosky': [
+    '{name} je sklokeramická varná doska od {brand}.',
+  ],
+  'Plynové varné dosky': [
+    '{name} je plynová varná doska od {brand}.',
+  ],
+  'Varné dosky': [
+    '{name} je varná doska od {brand}.',
+  ],
+  'Elektrické variče': [
+    '{name} je elektrický varič od {brand}.',
+  ],
+  'Výsuvné, výklopné digestory': [
+    '{name} je výsuvný/výklopný digestor od {brand} na odsávanie pary a pachov spod kuchynskej linky.',
+  ],
+  'Komínové digestory': [
+    '{name} je komínový digestor od {brand}.',
+  ],
+  'Digestory': [
+    '{name} je digestor od {brand}.',
+  ],
+  'Stolové mixéry': [
+    '{name} je stolový mixér od {brand}.',
+  ],
+  'Tyčové mixéry': [
+    '{name} je tyčový mixér od {brand}.',
+  ],
+  'Kuchynské roboty': [
+    '{name} je kuchynský robot od {brand}, ktorý zvládne miesenie, šľahanie či krájanie priamo v jednom zariadení.',
+  ],
+  'Kuchynské roboty a krájače': [
+    '{name} je kuchynský robot/krájač od {brand}.',
+  ],
+  'Príslušenstvo ku kuchynským robotom': [
+    '{name} je príslušenstvo od {brand} ku kuchynskému robotu.',
+  ],
+  'Šľahače': [
+    '{name} je ručný šľahač od {brand}.',
+  ],
+  'Krájače potravín': [
+    '{name} je krájač potravín od {brand}.',
+  ],
+  'Elektrické sekáčiky': [
+    '{name} je elektrický sekáčik od {brand}.',
+  ],
+  'Odšťavovače': [
+    '{name} je odšťavovač od {brand}.',
+  ],
+  'Lisy na citrusy': [
+    '{name} je lis na citrusy od {brand}.',
+  ],
+  'Ryžovary': [
+    '{name} je ryžovar od {brand}.',
+  ],
+  'Rýchlovarné kanvice': [
+    '{name} je rýchlovarná kanvica od {brand}.',
+  ],
+  'Filtračné kanvice': [
+    '{name} je filtračná kanvica od {brand} na jednoduchú filtráciu vody z vodovodu.',
+  ],
+  'Príslušenstvo pre filtračné kanvice': [
+    '{name} je náhradný filter/príslušenstvo od {brand} pre filtračnú kanvicu.',
+  ],
+  'Kávovary a espressá': [
+    '{name} je kávovar od {brand}.',
+  ],
+  'Automatická espressá': [
+    '{name} je automatický espresso kávovar od {brand}, ktorý pripraví kávu na stlačenie jedného tlačidla.',
+  ],
+  'Pákové kávovary': [
+    '{name} je pákový kávovar od {brand}.',
+  ],
+  'Kávovary na kapsle': [
+    '{name} je kapsulový kávovar od {brand}.',
+  ],
+  'Kávové kapsle': [
+    '{name} sú kávové kapsule od {brand}.',
+  ],
+  'Príslušenstvo ku kávovarom': [
+    '{name} je príslušenstvo od {brand} ku kávovaru.',
+  ],
+  'Moka kanvice a frenchpressy': [
+    '{name} je moka kanvica/frenchpress od {brand} na prípravu kávy tradičným spôsobom.',
+  ],
+  'Prekvapkávače': [
+    '{name} je prekvapkávač od {brand} na prípravu prekvapkávanej kávy.',
+  ],
+  'Príprava nápojov': [
+    '{name} je spotrebič od {brand} na prípravu nápojov.',
+  ],
+  'Káva': [
+    '{name} je produkt od {brand} z kategórie príprava kávy.',
+  ],
+  'Hriankovače': [
+    '{name} je hriankovač od {brand}.',
+  ],
+  'Sendvičovače': [
+    '{name} je sendvičovač/toaster od {brand}.',
+  ],
+  'Vaflovače': [
+    '{name} je vaflovač od {brand}.',
+  ],
+  'Palacinkovače': [
+    '{name} je palacinkovač od {brand}.',
+  ],
+  'Pece na pizzu': [
+    '{name} je pec na pizzu od {brand}.',
+  ],
+  'Naparovacie žehličky': [
+    '{name} je naparovacia žehlička od {brand}.',
+  ],
+  'Naparovače odevov': [
+    '{name} je naparovač odevov od {brand} na rýchle odstránenie záhybov bez žehliacej dosky.',
+  ],
+  'Žehličky': [
+    '{name} je žehlička od {brand}.',
+  ],
+  'Žehliace dosky': [
+    '{name} je žehliaca doska od {brand}.',
+  ],
+  'Príslušenstvo k žehlenie': [
+    '{name} je príslušenstvo od {brand} k žehleniu.',
+  ],
+  'Vákuovačky a zváračky': [
+    '{name} je vákuovačka od {brand} na predĺženie trvanlivosti potravín.',
+  ],
+  'Vákuovačky a zváračky fólií': [
+    '{name} je vákuovačka/zváračka fólií od {brand}.',
+  ],
+  'Príslušenstvo pre vákuovačky a zváračky': [
+    '{name} je príslušenstvo od {brand} k vákuovačke.',
+  ],
+  'Zmrzlinovače a jogurtovače': [
+    '{name} je zmrzlinovač/jogurtovač od {brand} na domácu prípravu zmrzliny alebo jogurtu.',
+  ],
+  'Výrobníky ľadu': [
+    '{name} je výrobník ľadu od {brand}.',
+  ],
+  'Sušičky potravín': [
+    '{name} je sušička potravín od {brand}.',
+  ],
+  'Kuchynské váhy': [
+    '{name} sú kuchynské váhy od {brand}.',
+  ],
+  'Kuchynské potreby': [
+    '{name} sú kuchynské potreby od {brand}.',
+  ],
+  'Kuchynské nádobie': [
+    '{name} je kuchynské nádobie od {brand}.',
+  ],
+  'Ostatné kuchynské potreby': [
+    '{name} je kuchynská potreba od {brand}.',
+  ],
+  'Kuchynské nože a nožnice': [
+    '{name} sú kuchynské nože/nožnice od {brand}.',
+  ],
+  'Varešky, Naberačky, Obracačky, Kliešte': [
+    '{name} je kuchynské náčinie od {brand}.',
+  ],
+  'Pečúce formy': [
+    '{name} je pečiaca forma od {brand}.',
+  ],
+  'Dózy na potraviny': [
+    '{name} sú dózy na potraviny od {brand}.',
+  ],
+  'Poháre a fľaše': [
+    '{name} je pohár/fľaša od {brand}.',
+  ],
+  'Termosky a termohrnčeky': [
+    '{name} je termoska/termohrnček od {brand}.',
+  ],
+  'Chladiace tašky a boxy': [
+    '{name} je chladiaca taška/box od {brand}.',
+  ],
+  'Príslušenstvo k malým spotrebičom': [
+    '{name} je príslušenstvo od {brand} k malému kuchynskému spotrebiču.',
+  ],
+  'Vykurovacie telesá, radiátory': [
+    '{name} je vykurovacie teleso/radiátor od {brand}.',
+  ],
+  'Vykurovacie telesá': [
+    '{name} je vykurovacie teleso od {brand}.',
+  ],
+  'Ohrievače vody': [
+    '{name} je ohrievač vody od {brand}.',
+  ],
+  'Čističky vzduchu': [
+    '{name} je čistička vzduchu od {brand}.',
+  ],
+  'Odvlhčovače vzduchu': [
+    '{name} je odvlhčovač vzduchu od {brand}.',
+  ],
+  'Aroma difuzéry': [
+    '{name} je aróma difuzér od {brand}.',
+  ],
+  'Ventilátory': [
+    '{name} je ventilátor od {brand}.',
+  ],
+  'Vzduchotechnika': [
+    '{name} je zariadenie vzduchotechniky od {brand}.',
+  ],
+  'Meteostanice': [
+    '{name} je meteostanica od {brand}.',
+  ],
+  'Upratovacie pomôcky': [
+    '{name} je upratovacia pomôcka od {brand}.',
+  ],
+  'Čistiace prostriedky': [
+    '{name} je čistiaci prostriedok od {brand}.',
+  ],
+  'Potreby pre domácnosť': [
+    '{name} je potreba pre domácnosť od {brand}.',
+  ],
+  'Na párty a oslavy': [
+    '{name} je produkt od {brand} na párty a oslavy.',
+  ],
+  'Ostatné domáce spotrebiče': [
+    '{name} je domáci spotrebič od {brand}.',
+  ],
 };
-const DEFAULT_INTRO = ['{name} je produkt od {brand} z kategórie TV, audio a video.'];
+const DEFAULT_INTRO = ['{name} je produkt od {brand}.'];
 
 const SPEC_HEADING = 'Kľúčové parametre';
 
@@ -483,9 +839,11 @@ function escapeHtml(s) {
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+const ENRICHED_ROOT_CATEGORIES = ['TV, audio a video', 'Domáce spotrebiče'];
 function shouldEnrich(product) {
+  const cat = product.defaultCategory || '';
   return isPoorDescription(product.description) &&
-    (product.defaultCategory || '').startsWith('TV, audio a video');
+    ENRICHED_ROOT_CATEGORIES.some((root) => cat.startsWith(root));
 }
 
 function buildEnrichedDescription(product) {
