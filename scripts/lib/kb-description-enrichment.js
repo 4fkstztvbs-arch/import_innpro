@@ -864,6 +864,24 @@ const PRODUCT_FACTS_LIST = [
       'Ventilátor v zadnej stene zaisťuje rovnomerné rozloženie tepla, vďaka čomu je možné piecť súčasne až na 3 úrovniach. Funkcia rýchleho predhrievania skráti čakanie oproti bežným rúram.',
     ],
   },
+  {
+    // Electrolux umývačky radu 600/700 so SatelliteClean + AirDry (rovnaká platforma naprieč viacerými modelmi)
+    codes: ['100001090909', '100001248099', '100000424131', '100002065226', '100001920284',
+      '100002103212', '100001920287', '100002200402', '100002067386'],
+    heading: 'Umývanie SatelliteClean a sušenie AirDry',
+    paragraphs: [
+      'Táto umývačka riadu má ostrekovacie rameno SatelliteClean, ktoré oproti štandardnému systému poskytuje až 3-násobne lepšie pokrytie priestoru a umýva riad od rohu k rohu. Technológia AirDry pred koncom programu automaticky pootvorí dvierka asi na 10 cm, čím sa vďaka prirodzenému prúdeniu vzduchu dosiahne až 3-násobne lepšie sušenie než pri zatvorených dvierkach.',
+      'Zásuvka MaxiFlex je uspôsobená na príbor a kuchynské náčinie rôznych tvarov vďaka posuvným priečkam, gumené podpery SoftSpike bezpečne držia na mieste aj krehké poháre.',
+    ],
+  },
+  {
+    codes: ['100002074204', '100002074255', '100002130864', '100002103178'], // Gorenje indukčné varné dosky
+    heading: 'Ovládanie SmartControl a funkcie BigZone/PowerBoost',
+    paragraphs: [
+      'Táto indukčná varná doska od Gorenje má dotykové ovládanie SmartControl na jednoduché a presné nastavenie teploty, automatické rozpoznanie riadu, funkciu BigZone pre veľké hrnce a PowerBoost na rýchlejší ohrev.',
+      'Súčasťou je aj detská poistka, indikátor zostatkového tepla a časovač varenia.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
