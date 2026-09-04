@@ -882,6 +882,22 @@ const PRODUCT_FACTS_LIST = [
       'Súčasťou je aj detská poistka, indikátor zostatkového tepla a časovač varenia.',
     ],
   },
+  {
+    codes: ['100002202673'], // Beko B5RCNA375HXB1 HarvestFresh
+    heading: 'Technológia HarvestFresh',
+    paragraphs: [
+      'Táto chladnička má v zásuvke na ovocie a zeleninu technológiu HarvestFresh - špeciálne osvetlenie striedajúce červené, zelené a modré svetlo, ktoré napodobňuje prirodzený cyklus denného svetla a pomáha dlhšie zachovať vitamíny a čerstvosť potravín.',
+      'Systém NeoFrost Dual Cooling používa samostatné chladiace okruhy pre chladničku a mrazničku, vďaka čomu udržiava stabilnú teplotu a optimálnu vlhkosť a zabraňuje premiešavaniu pachov medzi oboma priestormi.',
+    ],
+  },
+  {
+    codes: ['100002196970', '100002104849'], // Beko EnergySpin práčky
+    heading: 'Technológia EnergySpin',
+    paragraphs: [
+      'Táto práčka má technológiu EnergySpin, ktorá vďaka inovatívnym pohybom bubna šetrí energiu aj pri bežných programoch (bavlna, syntetika, rýchle pranie) - úspora až 35 % oproti energetickej triede A.',
+      'Senzory OptiSense pri každom praní prispôsobia množstvo vody a spotrebu energie presne množstvu vloženej bielizne. Program Denný Express dokáže vyprať plnú náplň pri 30 °C za 28 minút.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
