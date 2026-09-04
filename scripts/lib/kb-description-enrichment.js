@@ -1029,6 +1029,16 @@ const PRODUCT_FACTS_LIST = [
       'Súčasná dokovacia stanica Auto-Empty vysávač sama vyprázdni, HEPA filter zachytáva jemné častice a alergény. Výdrž batérie je do 60 minút, kefa je samočistiaca proti zamotávaniu chlpov, a vysávač sa dá okamžite premeniť na ručný.',
     ],
   },
+  {
+    // LG pracky s AI DD + TurboWash 360 - spolocna platforma cez cely aktualny rad F...
+    codes: ['100001048929', '100002129733', '100001958796', '100002127826', '100002067666',
+      '100002202702', '100002065295', '100001958795', '100001958777'],
+    heading: 'Technológia AI DD a TurboWash 360°',
+    paragraphs: [
+      'Táto práčka má technológiu AI DD, ktorá pri každom praní rozpozná nielen hmotnosť, ale aj jemnosť tkaniny, a podľa toho automaticky zvolí optimálny spôsob otáčania bubna. Systém TurboWash 360° sprchuje bielizeň prúdom vody zo 4 smerov, vďaka čomu dokáže dôkladne vyprať za 39 minút.',
+      'Motor Inverter Direct Drive je pripojený priamo k bubnu bez remeňa, čo znižuje opotrebovanie a hlučnosť - LG naň poskytuje 10-ročnú záruku.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
