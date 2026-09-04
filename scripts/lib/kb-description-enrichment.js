@@ -1076,6 +1076,14 @@ const PRODUCT_FACTS_LIST = [
       'Cez aplikáciu Instant Connect je možné varenie spustiť a sledovať na diaľku, aplikácia prevedie celým procesom krok za krokom vrátane odhadu zostávajúceho času. Vnútorná nádoba je z potravinárskej nehrdzavejúcej ocele bez BPA, PFOA a PTFE povlakov.',
     ],
   },
+  {
+    codes: ['100000431932'], // Tefal Ultimate Pure FV9865E0
+    heading: 'Žehliaca plocha Durilium AirGlide s Autoclean',
+    paragraphs: [
+      'Tefal Ultimate Pure FV9865E0 má maximálny parný ráz 250 g/min a plynulý výstup pary 60 g/min pri príkone 3000 W na rýchle zahriatie. Žehliaca plocha Durilium AirGlide s technológiou Autoclean sa čistí prakticky sama a vyžaduje minimum údržby.',
+      'Jedinečný filter Micro Calc Filter zachytáva čiastočky vodného kameňa väčšie ako 0,2 mm a zabraňuje škvrnám na bielizni. Funkcia Automatic Steam sama zvolí správne množstvo pary podľa nastavenej teploty látky, žehlička sa dá použiť aj na zvislé naparovanie.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
