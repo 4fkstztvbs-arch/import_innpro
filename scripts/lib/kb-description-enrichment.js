@@ -1021,6 +1021,14 @@ const PRODUCT_FACTS_LIST = [
       'Súčasťou je dokovacia stanica AutoWash, ktorá po upratovaní vyprázdni nádobu na prach, umyje mopovacie podložky a sama sa aj vysuší. Na jedno nabitie upratuje až 120 minút, potom sa vráti na dobitie a pokračuje tam, kde skončil.',
     ],
   },
+  {
+    codes: ['100002136675'], // Shark IW3612EU Detect Pro Auto-Empty
+    heading: 'Auto-Empty stanica a technológia DirtDetect',
+    paragraphs: [
+      'Tyčový vysávač Shark Detect Pro rozpozná znečistenie pomocou technológií DirtDetect (automaticky zvýši výkon podľa množstva nečistoty), EdgeDetect (dôkladnejšie vysáva pri stenách) a LightDetect. LED displej zobrazuje stav batérie, aktuálny režim aj mieru znečistenia.',
+      'Súčasná dokovacia stanica Auto-Empty vysávač sama vyprázdni, HEPA filter zachytáva jemné častice a alergény. Výdrž batérie je do 60 minút, kefa je samočistiaca proti zamotávaniu chlpov, a vysávač sa dá okamžite premeniť na ručný.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
