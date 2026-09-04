@@ -401,7 +401,7 @@ function buildEnrichedDescription(product) {
   parts.push(`<h3>${escapeHtml(name)}</h3>`);
   parts.push(`<p>${intro}</p>`);
   if (image) {
-    parts.push(`<p><img alt="${escapeHtml(name)}" src="${escapeHtml(image)}"></p>`);
+    parts.push(`<p style="text-align:center"><img alt="${escapeHtml(name)}" src="${escapeHtml(image)}"></p>`);
   }
 
   let curatedFacts = false;
