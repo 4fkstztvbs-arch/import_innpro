@@ -411,6 +411,22 @@ const PRODUCT_FACTS_LIST = [
       'Desať minút rýchleho nabíjania dá ďalšie 2 hodiny prehrávania.',
     ],
   },
+  {
+    codes: ['100002102621', '100002102622', '100002102623', '100002102627'], // JBL Clip 5 (farebné varianty)
+    heading: 'Výdrž batérie a odolnosť',
+    paragraphs: [
+      'JBL Clip 5 má batériu s kapacitou 1400 mAh a výdrž do 12 hodín na jedno nabitie, funkcia Playtime Boost pridá ďalšie 3 hodiny. Krytie IP67 ho chráni pred prachom aj ponorením do vody.',
+      'Výkon je 7 W RMS, pripojenie cez Bluetooth 5.3, súčasťou je karabína na jednoduché pripevnenie napríklad na batoh.',
+    ],
+  },
+  {
+    codes: ['100002172120'], // JBL Boombox 4
+    heading: 'Výdrž batérie a výkon',
+    paragraphs: [
+      'JBL Boombox 4 má batériu s kapacitou 99 Wh, ktorá vydrží do 28 hodín prehrávania (do 34 hodín s funkciou Playtime Boost). Batéria je vymeniteľná, plné nabitie trvá približne 3 hodiny.',
+      'Krytie IP68 ho chráni pred prachom aj ponorením do vody, výstupný výkon je oproti predchádzajúcemu modelu Boombox 3 vyšší takmer o polovicu.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
