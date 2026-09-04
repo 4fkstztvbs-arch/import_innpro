@@ -915,6 +915,22 @@ const PRODUCT_FACTS_LIST = [
       'Vankúšiky z pamäťovej peny a vypchatý hlavový oblúk sú navrhnuté na pohodlie pri dlhších herných reláciách, slúchadlá fungujú na PC, PS5, PS4, Xbox Series X|S, Xbox One, Nintendo Switch, Macu aj mobiloch.',
     ],
   },
+  {
+    codes: ['100001090716'], // Lamax T10 4K GPS
+    heading: 'Záznam v 4K a GPS databáza rizikových miest',
+    paragraphs: [
+      'Lamax T10 4K GPS zaznamenáva video v rozlíšení 4K (3840×2160 px) so širokým uhlom záberu 170° a technológiou Wide Dynamic Range, ktorá zlepšuje kvalitu obrazu pri vysokom kontraste - v noci aj pri priamom slnku.',
+      'Vstavaná GPS s pravidelne aktualizovanou databázou rizikových miest, 2,45" IPS displej, Wi-Fi na ovládanie z telefónu a G-senzor, ktorý pri náraze automaticky spustí parkovací režim.',
+    ],
+  },
+  {
+    codes: ['100001950962'], // Navitel R900 4K
+    heading: 'Záznam v 4K so snímačom Sony STARVIS',
+    paragraphs: [
+      'Navitel R900 4K zaznamenáva video v rozlíšení Ultra HD 4K (3840×2160 px, 30 fps) vďaka snímaču Sony STARVIS a 7-vrstvovej sklenej šošovke s IR filtrom, ktorá zachytáva detaily aj pri slabom osvetlení či v protisvetle.',
+      'Superkondenzátor namiesto klasickej batérie odoláva extrémnym teplotám bez rizika prehriatia. Súčasťou je darčekový poukaz na 12-mesačnú licenciu aplikácie Navitel Navigator s mapami 47 krajín.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
