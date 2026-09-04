@@ -23,6 +23,7 @@ const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnP
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('kb');
+const { shouldEnrich, buildEnrichedDescription } = require('./lib/kb-description-enrichment');
 
 const ZBOZI_URL = process.env.KB_ZBOZI_URL;
 const KATEGORIE_URL = process.env.KB_KATEGORIE_URL;
@@ -395,10 +396,17 @@ async function main() {
       155
     );
 
+    let finalDescription = description;
+    const enrichCandidate = { code, name, manufacturer, description, image, defaultCategory };
+    if (shouldEnrich(enrichCandidate)) {
+      finalDescription = buildEnrichedDescription(enrichCandidate);
+      stats.enrichedDescriptions = (stats.enrichedDescriptions || 0) + 1;
+    }
+
     rawCandidates.push({
       code, ean, name, category: defaultCategory, price,
       shopitemData: {
-        code, name, description, shortDescription, manufacturer, ean, warranty,
+        code, name, description: finalDescription, shortDescription, manufacturer, ean, warranty,
         defaultCategory, extraCategories, image, availability, price,
         purchasePrice: cenaNakupna, vat, recyclingFeeCategory, recyclingFeePrice,
         seoTitle, metaDescription,
