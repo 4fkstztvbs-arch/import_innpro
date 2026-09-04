@@ -1092,6 +1092,14 @@ const PRODUCT_FACTS_LIST = [
       'Kamera je bez puzdra vodotesná do 12 m, s priloženým puzdrom až do 40 m. Súčasťou je 2" TFT LCD displej, Wi-Fi, port na externý mikrofón a batéria s výdržou do 2 hodín na jedno nabitie.',
     ],
   },
+  {
+    codes: ['100002196845'], // Evolveo Dcolor GD2
+    heading: 'Certifikovaný Google TV box so 4K obrazom',
+    paragraphs: [
+      'Evolveo Dcolor GD2 je oficiálne certifikovaný Google TV box so vstavaným Chromecastom. Procesor Amlogic S905Y4 dopĺňajú 2 GB RAM a 32 GB úložiska, systém beží na Google TV 12 (na báze Androidu).',
+      'Obraz podporuje rozlíšenie 4K Ultra HD s HDR10+ a zvukom Dolby cez HDMI výstup až do 60 fps, pripojenie je možné cez Ethernet alebo Wi-Fi (2,4 aj 5 GHz). Diaľkový ovládač má mikrofón na hlasové ovládanie cez Google Assistant.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
