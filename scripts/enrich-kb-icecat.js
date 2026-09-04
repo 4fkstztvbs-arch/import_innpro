@@ -123,11 +123,20 @@ async function main() {
     // 5) description replacement — Icecat's manufacturer-sourced text replaces K-B's own
     //    description/short description when available (per your choice — K-B's own text has
     //    shown real errors, e.g. duplicated airflow figures on the Electrolux LFV619K).
-    if (data.longDescription) {
+    //    EXCEPT when transform-kb.js already built a formatted description (heading + image +
+    //    parameter list, see scripts/lib/kb-description-enrichment.js) — that text contains
+    //    real HTML tags, which K-B's own raw feed text never does. Overwriting it here would
+    //    silently undo that enrichment (including hand-curated PRODUCT_FACTS) on every run,
+    //    since this step runs right after transform-kb.js in kb-sync.yml.
+    const descMatch = item.match(/<DESCRIPTION><!\[CDATA\[([\s\S]*?)\]\]><\/DESCRIPTION>/);
+    const alreadyEnriched = !!(descMatch && /<[a-z][\s\S]*>/i.test(descMatch[1]));
+    if (data.longDescription && !alreadyEnriched) {
       item = item.replace(/<DESCRIPTION>[\s\S]*?<\/DESCRIPTION>/, `<DESCRIPTION>${xmlCdata(data.longDescription)}</DESCRIPTION>`);
       stats.descriptionReplaced = (stats.descriptionReplaced || 0) + 1;
+    } else if (data.longDescription) {
+      stats.descriptionSkippedAlreadyEnriched = (stats.descriptionSkippedAlreadyEnriched || 0) + 1;
     }
-    if (data.shortDescription) {
+    if (data.shortDescription && !alreadyEnriched) {
       if (item.includes('<SHORT_DESCRIPTION>')) {
         item = item.replace(/<SHORT_DESCRIPTION>[\s\S]*?<\/SHORT_DESCRIPTION>/, `<SHORT_DESCRIPTION>${xmlCdata(data.shortDescription)}</SHORT_DESCRIPTION>`);
       } else {
