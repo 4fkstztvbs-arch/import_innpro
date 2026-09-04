@@ -971,6 +971,22 @@ const PRODUCT_FACTS_LIST = [
       'Ide o hybridný prijímač - okrem klasického satelitného príjmu vie naplno využívať aj IPTV službu Skylink Live TV cez LAN alebo vstavané Wi-Fi. Podporuje programovateľné nahrávanie (PVR) na USB a funkciu Timeshift.',
     ],
   },
+  {
+    codes: ['100002203349', '100002202469', '100002203356'], // Roborock Qrevo Edge 2 (+ Pro varianty)
+    heading: 'Sacia sila 25 000 Pa a samočistiaci mop',
+    paragraphs: [
+      'Roborock Qrevo Edge 2 má saciu silu 25 000 Pa (HyperForce) a systém hlavnej kefy DuoDivide s bočnou kefou FlexiArm, ktorý zvládne aj vlasy dlhé do 40 cm bez zamotania. Podvozok AdaptiLift automaticky prispôsobuje výšku podľa typu podlahy a zvláda koberce s vlasom do 3 cm.',
+      'Pri prechode na koberec sa mop automaticky odpojí, aby ho nezamočil. Dokovacia stanica umýva mopy horúcou vodou (100 °C), následne ich vysuší teplým vzduchom (55 °C) proti plesniam a zápachu, a prach z robota vysype do vrecka na dobu až 65 dní.',
+    ],
+  },
+  {
+    codes: ['100002136486'], // Ninja Foodi Flex Drawer AF500EU
+    heading: 'Technológia DualZone a MegaZone',
+    paragraphs: [
+      'Ninja Foodi Flex Drawer má objem 10,4 l a 7 funkcií (horkovzdušné pečenie, pečenie, sušenie, kysnutie, prihrievanie, udržiavanie teploty, vysúšanie). Zásuvkový oddeľovač umožňuje piecť v dvoch 5,2l zónach naraz s rôznym časom aj teplotou (DualZone), alebo ho vybrať a získať jednu veľkú zásuvku MegaZone s celým objemom 10,4 l.',
+      'Funkcia Smart Finish uvarí dve jedlá dvoma rôznymi spôsobmi naraz, Match Cook zase zosynchronizuje nastavenia oboch zásuviek. Nepriľnavé zásuvky Crisp sú vhodné do umývačky riadu.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
