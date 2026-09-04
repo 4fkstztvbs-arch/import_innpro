@@ -14,6 +14,38 @@ body, div, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4,
 p, li, a, label, input, button, textarea, select {
   font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
+/* Konkurenčné výhody (natívny Shoptet blok .benefitBanner) - na detaile
+   produktu (body.type-detail) sa má zmestiť do jedného riadku, preto sú
+   ikonky/text menšie. Na kategórii a homepage sa nedotýka (funguje tam
+   dobre s pôvodnou veľkosťou), lebo tieto pravidlá cieli len na
+   body.type-detail. */
+body.type-detail .benefitBanner {
+  flex-wrap: nowrap !important;
+  gap: 14px !important;
+}
+body.type-detail .benefitBanner__item {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+  gap: 8px !important;
+}
+body.type-detail .benefitBanner__icon,
+body.type-detail .benefitBanner img,
+body.type-detail .benefitBanner svg {
+  width: 26px !important;
+  height: 26px !important;
+  flex: none !important;
+}
+body.type-detail .benefitBanner__title,
+body.type-detail .benefitBanner b,
+body.type-detail .benefitBanner strong {
+  font-size: 13px !important;
+  line-height: 1.25 !important;
+}
+body.type-detail .benefitBanner__content {
+  font-size: 12px !important;
+  line-height: 1.25 !important;
+}
+
 body {
   font-size: 15px;
   line-height: 1.7;
