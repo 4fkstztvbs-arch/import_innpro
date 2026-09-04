@@ -1059,6 +1059,15 @@ const PRODUCT_FACTS_LIST = [
       'Aplikácia umožňuje aj ovládanie na diaľku a prepojenie s hlasovými asistentmi Amazon Alexa a Google Assistant.',
     ],
   },
+  {
+    // Whirlpool mikrovlnne ruty s technologiou 6. zmysel (senzorove automaticke varenie)
+    codes: ['100001462279', '100001942574', '100002067339', '100002129594', '100002129596', '100002129598', '100002129592'],
+    heading: 'Technológia 6. zmysel',
+    paragraphs: [
+      'Táto mikrovlnná rúra má technológiu Whirlpool 6. zmysel - senzory rozpoznajú pripravované jedlo a priebežne upravujú čas, teplotu aj výkon počas varenia, rozmrazovania či ohrevu, takže sa netreba spoliehať len na odhad.',
+      'Súčasťou je menu s desiatkami automatických receptov na prípravu bez nutnosti ručného nastavovania. Niektoré modely majú navyše funkciu Crisp so špeciálnou platničkou, ktorá zaisťuje chrumkavý výsledok zo spodu aj z vrchu jedla pri nižšom obsahu tuku.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
