@@ -1068,6 +1068,14 @@ const PRODUCT_FACTS_LIST = [
       'Súčasťou je menu s desiatkami automatických receptov na prípravu bez nutnosti ručného nastavovania. Niektoré modely majú navyše funkciu Crisp so špeciálnou platničkou, ktorá zaisťuje chrumkavý výsledok zo spodu aj z vrchu jedla pri nižšom obsahu tuku.',
     ],
   },
+  {
+    codes: ['100002142406', '100002142413'], // Instant Pot Pro WiFi, Plus WiFi
+    heading: 'Funkcia 10v1 a ovládanie cez aplikáciu Instant Connect',
+    paragraphs: [
+      'Tento multifunkčný hrniec Instant Pot zvláda 10 funkcií v jednom - tlakové varenie, pomalé varenie, restovanie, varenie ryže, naparovanie, sous-vide, pečenie, prípravu jogurtu, udržiavanie teploty a funkciu Nutriboost na chutnejšie vývary a dusené jedlá.',
+      'Cez aplikáciu Instant Connect je možné varenie spustiť a sledovať na diaľku, aplikácia prevedie celým procesom krok za krokom vrátane odhadu zostávajúceho času. Vnútorná nádoba je z potravinárskej nehrdzavejúcej ocele bez BPA, PFOA a PTFE povlakov.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
