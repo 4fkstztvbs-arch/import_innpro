@@ -931,6 +931,22 @@ const PRODUCT_FACTS_LIST = [
       'Superkondenzátor namiesto klasickej batérie odoláva extrémnym teplotám bez rizika prehriatia. Súčasťou je darčekový poukaz na 12-mesačnú licenciu aplikácie Navitel Navigator s mapami 47 krajín.',
     ],
   },
+  {
+    codes: ['100001091847'], // Pioneer PLX-1000
+    heading: 'Priamy náhon s vysokým točivým momentom',
+    paragraphs: [
+      'Pioneer PLX-1000 je gramofón s priamym náhonom a vysokým točivým momentom 4,5 kg/cm, vďaka ktorému dosiahne rýchlosť 33⅓ otáčky za minútu už za 0,3 sekundy. Robustná konštrukcia s gumeným lemovaním tlmí vibrácie, nízkorezonančné rameno má tvar písmena S.',
+      'Pitch fader s rozsahom ±8 %, ±16 % a ±50 %, odpojiteľná kabeláž a LED osvetlenie. Súčasťou balenia je slipmat, kĺzavý papier, ochranný plexi kryt, headshell a potrebné káble.',
+    ],
+  },
+  {
+    codes: ['100002201926'], // Strong LEAP-NOVA 4K Google TV Stick
+    heading: 'Google TV so 4K obrazom a Wi-Fi 6',
+    paragraphs: [
+      'Strong LEAP-NOVA beží na systéme Android TV 14 s rozhraním Google TV, procesor Amlogic S905X5M dopĺňajú 2 GB RAM a 32 GB úložiska. Pripojenie cez Wi-Fi 6 a Bluetooth 5.4.',
+      'Výstup HDMI 2.1 podporuje obraz 4K pri 60 fps s Dolby Vision, HDR10, Dolby Atmos, DTS a AV1. Súčasťou balenia je bluetooth diaľkový ovládač s mikrofónom pre ovládanie hlasom cez Google Assistant.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
