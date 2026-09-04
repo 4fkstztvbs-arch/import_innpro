@@ -91,9 +91,12 @@ const INTROS = {
     '{name} sú bezdrôtové slúchadlá typu true wireless od {brand}, bez akéhokoľvek prepojovacieho kábla medzi ušami.',
     '{name} od {brand} patria medzi true wireless slúchadlá s nabíjacím puzdrom, ktoré uľahčuje ich používanie počas dňa.',
   ],
+  // Poznámka: napriek názvu "Drátové reproduktory" táto K-B kategória v praxi obsahuje
+  // aj množstvo prenosných Bluetooth reproduktorov (JBL Charge/Flip/Clip, Harman Kardon
+  // Onyx...), preto text nesmie tvrdiť "len na kábel" - to by bolo fakticky nesprávne.
   'Drátové reproduktory': [
-    '{name} je reproduktor od {brand}, určený na káblové zapojenie do zostavy domáceho ozvučenia.',
-    'Reproduktor {name} od značky {brand} dopĺňa audio zostavu o ozvučenie s dôrazom na kvalitu prevedenia.',
+    '{name} je reproduktor od {brand}, ktorý doplní domácu audio zostavu alebo poslúži ako samostatný prenosný reproduktor.',
+    'Reproduktor {name} od značky {brand} dopĺňa ozvučenie s dôrazom na kvalitu prevedenia.',
   ],
   'Reproduktory': [
     '{name} je reproduktor od {brand} určený na ozvučenie domácnosti alebo menšieho priestoru.',
@@ -375,6 +378,37 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Niceboy Aura 5 ANC ponúkajú výdrž batérie až 60 hodín s vypnutým potlačením hluku, respektíve 30 hodín so zapnutým ANC. Súčasťou balenia je aj 3,5mm audio kábel, takže slúchadlá je možné použiť aj bez batérie.',
       'Bluetooth 5.4 s kodekmi AAC/SBC, 40mm meniče a nabíjanie cez USB-C.',
+    ],
+  },
+  {
+    codes: ['100002136366', '100002136368', '100002136369', '100002136370', '100002136372'], // JBL Charge 6 (farebné varianty)
+    heading: 'Výdrž batérie a odolnosť',
+    paragraphs: [
+      'JBL Charge 6 má batériu s kapacitou 4722 mAh a bežnú výdrž do 24 hodín, funkcia Playtime Boost pridá ďalšie 4 hodiny (spolu do 28 hodín). Krytie IP68 ho chráni pred prachom, dažďom aj ponorením do vody.',
+      'Výkon reproduktora je 45 W, pripojenie cez Bluetooth 5.4, nabíjanie cez USB-C trvá približne 3 hodiny.',
+    ],
+  },
+  {
+    codes: ['100002136373'], // JBL Flip 7
+    heading: 'Výdrž batérie a odolnosť',
+    paragraphs: [
+      'JBL Flip 7 ponúka výdrž do 14 hodín na jedno nabitie, funkcia Playtime Boost pridá ďalšie 2 hodiny na úkor šírky frekvenčného rozsahu. Nabíjanie cez USB-C trvá približne 2,5 hodiny.',
+    ],
+  },
+  {
+    codes: ['100002136356', '100002136357'], // Harman Kardon Onyx Studio 9
+    heading: 'Výkon a výdrž batérie',
+    paragraphs: [
+      'Harman Kardon Onyx Studio 9 má trojkanálový systém s výkonom 50 W RMS a batériu s kapacitou 4722 mAh na výdrž do 8 hodín, nabíjanie cez USB-C trvá približne 4 hodiny.',
+      'Reproduktor dokáže cez USB výstup 5V/2,1A slúžiť aj ako powerbanka na dobitie iných zariadení. Pripojenie je cez Bluetooth 5.3.',
+    ],
+  },
+  {
+    codes: ['100002202601'], // JBL Xtreme 5
+    heading: 'Výdrž batérie a výkon',
+    paragraphs: [
+      'JBL Xtreme 5 má batériu s kapacitou 9444 mAh, ktorá pri priemernej hlasitosti vydrží viac ako 35 hodín prehrávania. Oficiálne udávaná výdrž je do 24 hodín, funkcia Playtime Boost pridá ďalšie 4 hodiny (spolu do 28 hodín).',
+      'Desať minút rýchleho nabíjania dá ďalšie 2 hodiny prehrávania.',
     ],
   },
 ];
