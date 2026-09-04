@@ -995,6 +995,22 @@ const PRODUCT_FACTS_LIST = [
       'Súčasťou je parná tryska na prípravu penového mlieka do cappuccina a prehľadný LCD displej na ovládanie.',
     ],
   },
+  {
+    codes: ['100002136525'], // Ninja Blast MAX BC251EUGY
+    heading: 'Nabíjateľný mixér na cesty',
+    paragraphs: [
+      'Ninja Blast MAX má výkonnejší motor než pôvodný model Blast a oceľové čepele integrované priamo v 570 ml nádobe, ktoré rozdrvia mrazené ovocie, zeleninu aj ľad v priebehu sekúnd. Na jedno nabitie zvládne až 25 mixovaní.',
+      'Odnímateľná nádoba Twist & Go má nepresakujúce viečko s pitným otvorom a rukoväť na prenášanie, vhodná je aj do umývačky riadu. K dispozícii sú 3 režimy - automatické programy Crush a Smoothie, aj manuálne miešanie.',
+    ],
+  },
+  {
+    codes: ['100001919299'], // Smeg KLF04WHEU
+    heading: 'Regulácia teploty v retro dizajne 50. rokov',
+    paragraphs: [
+      'Smeg KLF04 spája ikonický retro dizajn 50. rokov s reguláciou teploty vody v 7 stupňoch od 50 do 100 °C, takže voda má vždy presne takú teplotu, akú si daný nápoj (napr. zelený čaj alebo detská výživa) vyžaduje. Funkcia udržania teploty udrží nastavenú teplotu až 20 minút.',
+      'Telo je z práškovanej nerezovej ocele, súčasťou je vyberateľný filter proti vodnému kameňu, systém tichého otvárania veka Soft Opening a otočná základňa 360°.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
