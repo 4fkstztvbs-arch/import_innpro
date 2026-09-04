@@ -1049,6 +1049,16 @@ const PRODUCT_FACTS_LIST = [
       'Lineárny invertorový kompresor LG udržiava teplotné výkyvy v rozmedzí len ±0,5 °C vďaka technológii LinearCooling, čo pomáha zachovať čerstvosť potravín až 7 dní, a zároveň je tichší a energeticky úspornejší než bežný kompresor.',
     ],
   },
+  {
+    // Candy pracky rady Smart Touch/RFID (oznacenie "-S" v kode modelu)
+    codes: ['100002203001', '100002203000', '100002203718', '100002203412', '100002202992',
+      '100002202996', '100002203002', '100002202994', '100002202995', '100002203030', '100002172289'],
+    heading: 'Ovládanie cez aplikáciu hOn',
+    paragraphs: [
+      'Táto práčka sa dá pripojiť k aplikácii hOn, cez ktorú si možno vybrať z vyše 60 pracích programov, sledovať spotrebu vody a energie, alebo dostávať odporúčania na dávkovanie pracieho prostriedku podľa typu látky či farby.',
+      'Aplikácia umožňuje aj ovládanie na diaľku a prepojenie s hlasovými asistentmi Amazon Alexa a Google Assistant.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
