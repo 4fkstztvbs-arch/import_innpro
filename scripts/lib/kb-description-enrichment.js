@@ -947,6 +947,22 @@ const PRODUCT_FACTS_LIST = [
       'Výstup HDMI 2.1 podporuje obraz 4K pri 60 fps s Dolby Vision, HDR10, Dolby Atmos, DTS a AV1. Súčasťou balenia je bluetooth diaľkový ovládač s mikrofónom pre ovládanie hlasom cez Google Assistant.',
     ],
   },
+  {
+    codes: ['100000910018'], // Yamaha RX-V6A
+    heading: 'Priestorový zvuk Dolby Atmos a MusicCast',
+    paragraphs: [
+      'Yamaha RX-V6A je 7.2-kanálový AV receiver so 100 W na kanál, ktorý podporuje Dolby Atmos aj DTS:X. Sedem HDMI vstupov a jeden výstup zvládnu videosignál až 8K/60 alebo 4K/120 vrátane prechodu HDR10 a HDR10+.',
+      'Vstavané Wi-Fi, Bluetooth, AirPlay 2, Spotify Connect a multi-room systém MusicCast umožňujú streamovanie hudby do ďalších miestností. Automatická kalibrácia priestoru YPAO nastaví zvuk podľa akustiky izby, k dispozícii je aj samostatný fono vstup pre gramofón.',
+    ],
+  },
+  {
+    codes: ['100002063314', '100002063315'], // Yamaha R-N1000A (Black, Silver)
+    heading: 'Sieťový zosilňovač s MusicCast a DAC ESS Sabre',
+    paragraphs: [
+      'Yamaha R-N1000A je sieťový stereo zosilňovač s DAC ESS Technology Sabre ES9080Q (384 kHz/32-bit) a podporou hi-res formátov ALAC do 96 kHz, FLAC/WAV/AIFF do 384 kHz.',
+      'Automatická korekcia akustiky YPAO doladí zvuk podľa priestoru, režim Pure Direct prenáša signál najkratšou možnou cestou. Kompatibilný s multi-room systémom Yamaha MusicCast a streamovacími službami ako Spotify či Amazon Music.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
