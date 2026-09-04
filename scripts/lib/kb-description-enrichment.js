@@ -1011,6 +1011,16 @@ const PRODUCT_FACTS_LIST = [
       'Telo je z práškovanej nerezovej ocele, súčasťou je vyberateľný filter proti vodnému kameňu, systém tichého otvárania veka Soft Opening a otočná základňa 360°.',
     ],
   },
+  {
+    // iRobot Roomba Plus xxx Combo - rad s dokovacou stanicou AutoWash (na rozdiel od
+    // zakladnych radov 105/115/205 bez "Plus" v nazve, ktore AutoWash Dock nemaju).
+    codes: ['100002134755', '100002134756', '100002203429', '100002134757', '100002134758', '100002203399', '100002203430'],
+    heading: 'Dokovacia stanica AutoWash a mopovacie podložky DualClean',
+    paragraphs: [
+      'Tento robotický vysávač iRobot Roomba Plus Combo má 4 úrovne sacieho výkonu a rotujúce mopovacie podložky DualClean. Technológia Dirt Detect rozpozná väčšie mokré aj suché nečistoty a danú oblasť automaticky prejde znova, funkcia SmartScrub pridá intenzívnejšie drhnutie pri odolnejších škvrnách.',
+      'Súčasťou je dokovacia stanica AutoWash, ktorá po upratovaní vyprázdni nádobu na prach, umyje mopovacie podložky a sama sa aj vysuší. Na jedno nabitie upratuje až 120 minút, potom sa vráti na dobitie a pokračuje tam, kde skončil.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
