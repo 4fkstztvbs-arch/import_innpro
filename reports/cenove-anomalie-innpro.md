@@ -47,10 +47,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 9.60 € | 103.90 € | 10.8x | 18 |
-| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 341.00 € | 15.2x | 26 |
-| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 369.50 € | 16.5x | 26 |
-| 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 26 |
-| 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 26 |
+| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 24.40 € | 341.00 € | 14.0x | 26 |
+| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 24.40 € | 369.50 € | 15.1x | 26 |
+| 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 24.40 € | 302.00 € | 12.4x | 26 |
+| 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 24.40 € | 302.00 € | 12.4x | 26 |
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 57.95 € | 1.20 € | 1/48.3x | 10 |
 | 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 82 |
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 9.60 € | 1.00 € | 1/9.6x | 18 |
@@ -79,8 +79,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 087896 | 6971915321969 | Termovízna kamera Mileseey TR256C s Wi-Fi | cena mimo 8x rozsah mediánu kategórie | 40.95 € | 524.00 € | 12.8x | 270 |
 | 088094 | 786156004023 | Detektor kovov GARRETT AT Gold 5x8 | cena mimo 8x rozsah mediánu kategórie | 64.00 € | 736.50 € | 11.5x | 17 |
 | 088095 | 786156005242 | GARRETT AT Max 8,5 x 11" INTL – detektor kovov | cena mimo 8x rozsah mediánu kategórie | 64.00 € | 757.50 € | 11.8x | 17 |
-| 087811 | 6976391039506 | Súprava bezdrôtového zvončeka IMOU 2S | cena mimo 8x rozsah mediánu kategórie | 2.65 € | 73.50 € | 27.7x | 32 |
-| 087812 | 6976391032453 | Bezdrôtový videozvonček IMOU, balenie po 3 kusoch | cena mimo 8x rozsah mediánu kategórie | 2.65 € | 88.00 € | 33.2x | 32 |
+| 087811 | 6976391039506 | Súprava bezdrôtového zvončeka IMOU 2S | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 73.50 € | 28.3x | 33 |
+| 087812 | 6976391032453 | Bezdrôtový videozvonček IMOU, balenie po 3 kusoch | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 88.00 € | 33.8x | 33 |
 | 085083 | 6974944466229 | Držiak Master Grip pre iPhone 17 Pro – súprava všetko v jednom: svetlo + filter | cena mimo 8x rozsah mediánu kategórie | 2.30 € | 83.00 € | 36.1x | 5 |
 | 088746 | 6977658980043 | Termovízna kamera THERMAL MASTER X2 USB-C | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 283.90 € | 22.0x | 33 |
 | 088747 | 6977658980494 | TERMOVÍZNA KAMERA THERMAL MASTER X2 USB-C Mini | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 241.50 € | 18.7x | 33 |
@@ -104,6 +104,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 088744 | 5905156105805 | MERACH MR-2397 Tréningový prístroj na stehná a panvové dno (ružový) | cena mimo 8x rozsah mediánu kategórie | 114.25 € | 13.90 € | 1/8.2x | 42 |
 | 089641 | 5905156106697 | Vodotesné puzdro na iPhone Puluz (40 m) s jednosmerným ventilom (biele) | cena mimo 8x rozsah mediánu kategórie | 5.80 € | 55.50 € | 9.6x | 5 |
 | 090613 | 810150549751 | SwitchBot AI Art Frame – digitálny fotorámik s uhlopriečkou 31,5" | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 1001.00 € | 77.6x | 33 |
-| 090614 | 810150549775 | Klávesnica pre SwitchBot Keypad Vision Pro | cena mimo 8x rozsah mediánu kategórie | 2.65 € | 116.50 € | 44.0x | 32 |
-| 090619 | 810150549829 | SWITCHBOT C1 – bezdrôtový vypínač s dobíjateľnou batériou | cena mimo 8x rozsah mediánu kategórie | 2.65 € | 26.50 € | 10.0x | 32 |
+| 090614 | 810150549775 | Klávesnica pre SwitchBot Keypad Vision Pro | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 116.50 € | 44.8x | 33 |
+| 090619 | 810150549829 | SWITCHBOT C1 – bezdrôtový vypínač s dobíjateľnou batériou | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 26.50 € | 10.2x | 33 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
