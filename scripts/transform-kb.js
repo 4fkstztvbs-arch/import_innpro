@@ -11,6 +11,9 @@
 // Usage: node transform-kb.js
 // Required env vars: KB_ZBOZI_URL, KB_KATEGORIE_URL, KB_KATEGORIZACIA_URL, KB_CENY_URL, KB_DOSTUPNOSTI_URL
 // Optional: KB_MARKUP (10), KB_MIN_MARGIN (10), KB_MIN_COST (0), KB_OUT
+// Poistka: KB_DISABLE_DESCRIPTION_ENRICHMENT=1 vypne obohacovanie popisov
+// (scripts/lib/kb-description-enrichment.js) a nechá len pôvodný text z K-B feedu -
+// nastaviteľné ako GitHub Actions secret/variable bez nutnosti meniť kód.
 
 const fs = require('fs');
 const path = require('path');
@@ -398,7 +401,10 @@ async function main() {
 
     let finalDescription = description;
     const enrichCandidate = { code, name, manufacturer, description, image, defaultCategory };
-    if (shouldEnrich(enrichCandidate)) {
+    // Poistka: ak by obohatené popisy spôsobili problém (napr. v Shoptet importe),
+    // nastavením KB_DISABLE_DESCRIPTION_ENRICHMENT=1 v GitHub Actions sa dá vypnúť
+    // bez zásahu do kódu - ďalší nočný beh potom zapíše len pôvodný text z K-B feedu.
+    if (process.env.KB_DISABLE_DESCRIPTION_ENRICHMENT !== '1' && shouldEnrich(enrichCandidate)) {
       finalDescription = buildEnrichedDescription(enrichCandidate);
       stats.enrichedDescriptions = (stats.enrichedDescriptions || 0) + 1;
     }
