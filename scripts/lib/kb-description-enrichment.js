@@ -1892,7 +1892,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100001129960'], // Amica MV 447 ADW
+    codes: ['100001129960', '100001129956'], // Amica MV 447 ADW, MV 647 AW
     heading: 'Umývačka riadu s funkciou SteamPower a OpenDry',
     paragraphs: [
       'Táto umývačka riadu má funkciu SteamPower, ktorá na konci programu pridá horúcu paru pre lepší lesk a hygienickú čistotu riadu, funkcia OpenDry zase po skončení programu automaticky pootvorí dvierka, aby sa riad dosušil bez utierania.',
@@ -1972,7 +1972,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100001178518', '100002074235', '100002104833', '100002074234', '100002074161'], // GORENJE GS620C10S, GS642D90X, GS643C90X, GS541C10X, GS642D90W
+    codes: ['100001178518', '100002074235', '100002104833', '100002074234', '100002074161', '100001124199'], // GORENJE GS620C10S, GS642D90X, GS643C90X, GS541C10X, GS642D90W, GS620C10W
     heading: 'Umývačka riadu s funkciou TotalDry',
     paragraphs: [
       'Táto umývačka riadu pre 14 súprav má funkciu TotalDry, ktorá na konci programu automaticky pootvorí dvierka, aby sa riad prirodzene dosušil bez zvyšnej vlhkosti.',
@@ -2105,6 +2105,39 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Táto práčka s vrchným plnením má technológiu 6th Sense, ktorá pomocou senzorov rozpozná množstvo a typ bielizne a podľa toho automaticky upraví množstvo vody, energie aj dĺžku programu.',
       'Vďaka tomuto prispôsobeniu sa bielizeň neperie zbytočne dlho a práčka zároveň dosahuje tichší chod s menšími vibráciami pri odstreďovaní.',
+    ],
+  },
+  {
+    codes: ['100002145358'], // Electrolux EWS6426WC
+    heading: 'Úzka práčka so SensiCare a programom Steam Anti-Allergy',
+    paragraphs: [
+      'Táto úzka práčka (hĺbka len 37,8 cm) má technológiu SensiCare, ktorá automaticky prispôsobí prací program množstvu bielizne, aby sa neperlo zbytočne dlho a nepoškodzovali sa vlákna látok.',
+      'Program Steam Anti-Allergy udržiava počas prania teplotu nad 60 °C a pomocou pary odstráni až 99,9 % baktérií a vírusov, čo ocenia najmä alergici.',
+    ],
+  },
+  {
+    codes: ['100001541079'], // GORENJE FH25EAW
+    heading: 'Pultová mraznička so skrytým kondenzátorom',
+    paragraphs: [
+      'Táto pultová mraznička má kondenzátor umiestnený medzi stenou spotrebiča a izolačnou penou, vďaka čomu sa dá umiestniť bližšie k stene, nedochádza ku kondenzácii na povrchu a chod je tichší.',
+      'Funkcia FreezeProtect umožňuje spoľahlivú prevádzku aj pri nízkych okolitých teplotách do -15 °C, čo oceníte pri umiestnení v garáži či pivnici, FastFreeze zase rýchlo zmrazí čerstvé potraviny.',
+    ],
+  },
+  {
+    // Gorenje umyvacky riadu s Total AquaStop (rovnaka rada, farebne varianty)
+    codes: ['100001541077', '100001541076'],
+    heading: 'Umývačka riadu s ochranou Total AquaStop',
+    paragraphs: [
+      'Táto úzka umývačka riadu pre 9 súprav má ochranu Total AquaStop, ktorá v prípade úniku vody automaticky preruší jej prívod a zabráni tak vytopeniu.',
+      'Hodinový program je určený na bežne znečistený riad, program Eco zase perie pri nižšej teplote s nižšou spotrebou vody, svetelná a zvuková signalizácia upozorní na koniec cyklu.',
+    ],
+  },
+  {
+    codes: ['100002066141'], // Guzzanti GZ 35A
+    heading: 'Kompresorový chladiaci box pre celú rodinu',
+    paragraphs: [
+      'Guzzanti GZ 35A je kompresorový chladiaci box s objemom vhodným pre celú rodinu, ktorý na rozdiel od lacnejších termoelektrických chladiacich boxov dokáže chladiť aj mraziť nezávisle od teploty okolia.',
+      'Kolieska a rukoväť uľahčujú prenášanie a presúvanie boxu, vďaka čomu sa hodí na dlhšie výlety, kempovanie alebo do auta na cesty.',
     ],
   },
 ];
