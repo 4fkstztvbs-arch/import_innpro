@@ -1448,7 +1448,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100002100991'], // Guzzanti GZ 338DD
+    codes: ['100002100991', '100000026740'], // Guzzanti GZ 338DD, GZ 338
     heading: 'Presklená chladiaca vitrína',
     paragraphs: [
       'Táto presklená chladiaca vitrína má štyri nastaviteľné police a samozatváracie dvierka so zabudovaným zámkom, vďaka čomu sa hodí aj do prevádzok, kde treba tovar chrániť pred neoprávneným prístupom.',
@@ -1551,6 +1551,46 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Táto práčka s vrchným plnením má parný program SteamCare, ktorý pomocou pary uvoľní vlákna látky a zníži počet záhybov až o tretinu, vďaka čomu je bielizeň po vypraní ľahšie žehliť.',
       'Systém SensiCare pomocou senzorov rozpozná množstvo a savosť bielizne v bubne a podľa toho automaticky upraví dĺžku prania aj spotrebu vody a energie.',
+    ],
+  },
+  {
+    codes: ['100001919263'], // Gorenje FN619EAW6
+    heading: 'Skriňová mraznička s No Frost a SpaceBox',
+    paragraphs: [
+      'Táto skriňová mraznička má technológiu No Frost, ktorá zabraňuje tvorbe námrazy vo vnútri - odpadá tak potreba pravidelného ručného odmrazovania a police zostávajú ľahko čistiteľné.',
+      'Zväčšená zásuvka XXX SpaceBox s objemom 38 litrov je určená na väčšie kusy potravín, funkcia FreezeProtect zase umožňuje spoľahlivú prevádzku aj pri nízkych okolitých teplotách do -15 °C, napríklad v garáži alebo pivnici.',
+    ],
+  },
+  {
+    codes: ['100000067314'], // Yamaha WX-051 / MusicCast 50
+    heading: 'Bezdrôtový reproduktor s MusicCast',
+    paragraphs: [
+      'Yamaha MusicCast 50 je univerzálny bezdrôtový reproduktor s výkonom do 70 W, ktorý sa dá použiť samostatne, v páre pre stereo zvuk, alebo ako zadný surround reproduktor ku kompatibilnému MusicCast receiveru či soundbaru.',
+      'Podporuje Wi-Fi aj Bluetooth pripojenie, streamovacie služby ako Spotify, TIDAL a Deezer, a spolu s ďalšími MusicCast zariadeniami v domácnosti dokáže prehrávať tú istú hudbu synchronizovane vo viacerých miestnostiach.',
+    ],
+  },
+  {
+    codes: ['100002069755', '100002069757'], // Yamaha CD-C603 (BLACK/SILVER)
+    heading: 'CD prehrávač s funkciou PlayXChange',
+    paragraphs: [
+      'Yamaha CD-C603 je CD prehrávač/menič na 5 diskov s funkciou PlayXChange, ktorá umožňuje vymeniť štyri disky, zatiaľ čo piaty naďalej hrá - vhodné napríklad pri dlhších večierkoch bez prerušenia hudby.',
+      'Režim Pure Direct vypne digitálny výstup aj displej a obmedzí tak rušenie obvodu, vďaka čomu je analógový výstup čo najčistejší, prehrávač si poradí aj so súbormi MP3, WMA, AAC, WAV či FLAC z USB.',
+    ],
+  },
+  {
+    codes: ['100002113106'], // JBL Boombox 3 WIFI
+    heading: 'Výkon 180 W a odolnosť IP67',
+    paragraphs: [
+      'JBL Boombox 3 Wi-Fi je prenosný reproduktor s výkonom až 180 W a krytím IP67, ktoré ho chráni pred prachom aj úplným ponorením do vody - hodí sa preto rovnako k bazénu ako na výlet do prírody.',
+      'Streamovanie funguje cez Wi-Fi aj Bluetooth vrátane priestorového zvuku Dolby Atmos, výdrž batérie je až 24 hodín a reproduktor zároveň funguje ako powerbanka na nabíjanie iných zariadení.',
+    ],
+  },
+  {
+    codes: ['100002100846'], // Samsung WW11DG5B25AELE
+    heading: 'AI EcoBubble a AI Energy Mode',
+    paragraphs: [
+      'Táto práčka má technológiu AI EcoBubble, ktorá premieňa prací prostriedok na jemnú penu prenikajúcu do vlákien rýchlejšie než pri klasickom praní, funkčné aj pri praní v studenej vode.',
+      'Režim AI Energy Mode priebežne sleduje spotrebu a podľa toho ju sám optimalizuje, cez aplikáciu SmartThings je možné práčku ovládať a sledovať priebeh prania na diaľku z telefónu.',
     ],
   },
 ];
