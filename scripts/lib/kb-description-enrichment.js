@@ -2277,6 +2277,30 @@ const PRODUCT_FACTS_LIST = [
       'Medzi 8 programami je aj rýchly 32-minútový program na málo znečistený riad, pamäťová funkcia si zapamätá naposledy použitý program pre ďalšie použitie.',
     ],
   },
+  {
+    codes: ['100002136518'], // Ninja Frost Vault FB245EUGY Wheeled 42l
+    heading: 'Chladiaci box s oddelenou suchou zónou Dry Zone',
+    paragraphs: [
+      'Ninja FrostVault má objem 42 litrov a hrubú izoláciu (až 7 cm), vďaka ktorej udrží ľad v pevnom stave niekoľko dní, terénne kolieska a skladacie madlá uľahčujú prenos aj naloženie do auta.',
+      'Vstavaná zóna Dry Zone drží vybrané potraviny oddelene v suchu pri teplote chladničky bez priameho kontaktu s ľadom, veko aj zásuvka sa dajú uzamknúť.',
+    ],
+  },
+  {
+    codes: ['130282684555'], // YAMAHA NS-SW100
+    heading: 'Aktívny subwoofer s Twisted Flare Port',
+    paragraphs: [
+      'Yamaha NS-SW100 je aktívny subwoofer s 25cm basovým reproduktorom a výkonom zosilňovača 50 W, určený na doplnenie hlbokých basov k satelitným reproduktorom alebo AV receiveru bez vstavaného subwoofera.',
+      'Technológia Advanced YST II kombinuje princíp zápornej impedancie a konštantného prúdu pre presnejšie riadenie membrány, port Twisted Flare Port svojím zatočeným tvarom obmedzuje nežiaduci hluk prúdenia vzduchu.',
+    ],
+  },
+  {
+    codes: ['130290304555', '130290294555'], // Yamaha A-S201 (SILVER/BLACK)
+    heading: 'Integrovaný zosilňovač s funkciou Pure Direct',
+    paragraphs: [
+      'Yamaha A-S201 je stereo zosilňovač s výkonom až 2× 140 W (4 Ω), vstavaný fonopredzosilňovač pre MM gramofónové vložky umožňuje priame pripojenie gramofónu bez ďalšieho zariadenia.',
+      'Funkcia Pure Direct skráti signálovú cestu na minimum a obmedzí rušenie obvodu, vďaka čomu je zvuk na výstupe čistejší, funkcia Eco automaticky vypne zosilňovač po zvolenej dobe nečinnosti.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
