@@ -1127,6 +1127,15 @@ const PRODUCT_FACTS_LIST = [
       'Súčasťou je aj technológia IonAir, ktorá vysiela záporne nabité ióny čistiace vzduch a potláčajúce baktérie aj zápach, ventilačný systém MultiFlow 360° s 14 otvormi na rovnomerné rozvedenie chladného vzduchu, a AdaptTech, ktorý priebežne sleduje spôsob používania chladničky a upravuje teplotu tak, aby jedlo zostalo čerstvé pri nižšej spotrebe energie.',
     ],
   },
+  {
+    // Beko umyvacky s ramenami CornerIntense/AquaIntense (spolocna platforma)
+    codes: ['100001790102', '100002126788', '100002201814', '100002148305'],
+    heading: 'Umývacie ramená CornerIntense a AquaIntense',
+    paragraphs: [
+      'Táto umývačka riadu má rameno CornerIntense, ktoré sa namiesto kruhového pohybu pohybuje po štvorci - vďaka tomu sa voda dostane aj do rohov umývačky a umyje riad rovnako dobre ako v strede spodného koša.',
+      'Prídavné rameno AquaIntense umyje aj najpripečenejšie zvyšky bez namáčania a drhnutia, funkcia SteamGloss zase pridá na konci umývania paru a teplotu 60 °C, aby sklo a poháre zostali dokonale naleštené bez matného nádychu.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
