@@ -2325,6 +2325,38 @@ const PRODUCT_FACTS_LIST = [
       'Dve nezávislé ramená Aqua spray zaisťujú dôkladné umytie v oboch košoch súčasne, funkcia polovičnej náplne šetrí vodu aj energiu, ak umývačku nenaplníte úplne.',
     ],
   },
+  {
+    codes: ['100000067313'], // YAMAHA WX-021/MusicCast 20
+    heading: 'Bezdrôtový reproduktor s MusicCast a Hi-Res zvukom',
+    paragraphs: [
+      'Yamaha MusicCast 20 je univerzálny bezdrôtový reproduktor s výkonom 40 W, ktorý sa dá použiť samostatne, v páre pre stereo zvuk, alebo ako zadný surround reproduktor ku kompatibilnému MusicCast receiveru či soundbaru.',
+      'Podporuje Hi-Res formáty FLAC, WAV, AIFF a ALAC až do 192 kHz/24-bit, streamovanie funguje cez Wi-Fi aj Bluetooth vrátane internetového rádia a služieb ako Spotify.',
+    ],
+  },
+  {
+    codes: ['100002201684'], // Beko HSM14540
+    heading: 'Pultová mraznička s objemom 205 litrov',
+    paragraphs: [
+      'Táto pultová mraznička s objemom 205 litrov má funkciu rýchleho zmrazovania na uchovanie čo najviac vitamínov v čerstvých potravinách, drôtený kôš pomáha udržať poriadok pri triedení mrazených zásob.',
+      'Pri výpadku prúdu udrží mraznička nízku teplotu potravín až 23 hodín, čo je pri dlhších výpadkoch výrazná výhoda oproti menším zásuvkovým mrazničkám.',
+    ],
+  },
+  {
+    codes: ['100002141899'], // Whirlpool W55Z1 112W
+    heading: 'Kompaktná pultová mraznička s priehľadnými zásuvkami',
+    paragraphs: [
+      'Táto kompaktná pultová mraznička (výška do 85 cm) má tri priehľadné zásuvky, vďaka ktorým vidíte obsah bez toho, aby ste ich museli otvárať, odnímateľné veko navyše umožňuje umiestnenie pod kuchynskú linku.',
+      'Smer otvárania veka sa dá zmeniť podľa potreby kuchyne (na ľavú aj pravú stranu), mechanický termostat umožňuje jednoduché nastavenie teploty bez zbytočnej elektroniky.',
+    ],
+  },
+  {
+    codes: ['100002137127'], // Candy TCA273D3-S
+    heading: 'Práčka ProWash 300 s AI Weight Sense',
+    paragraphs: [
+      'Táto práčka s vrchným plnením má funkciu AI Weight Sense, ktorá analýzou množstva vody nasiaknutej do bielizne automaticky prispôsobí parametre zvoleného programu tak, aby bolo pranie čo najúčinnejšie.',
+      'Program Quick&Clean vyperie plnú náplň už za 49 minút bez kompromisu na kvalite prania, cez aplikáciu hOn je možné vybrať z viac než 60 doplnkových programov a sledovať priebeh prania na diaľku.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
