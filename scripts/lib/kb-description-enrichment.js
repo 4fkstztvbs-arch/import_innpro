@@ -1100,6 +1100,33 @@ const PRODUCT_FACTS_LIST = [
       'Obraz podporuje rozlíšenie 4K Ultra HD s HDR10+ a zvukom Dolby cez HDMI výstup až do 60 fps, pripojenie je možné cez Ethernet alebo Wi-Fi (2,4 aj 5 GHz). Diaľkový ovládač má mikrofón na hlasové ovládanie cez Google Assistant.',
     ],
   },
+  {
+    codes: ['100002129692'], // Victrola VTA-830SB-BLK Century Signature
+    heading: '6-v-1 hudobné centrum',
+    paragraphs: [
+      'Victrola Century Signature je 6-v-1 hudobné centrum s 3-rýchlostným gramofónom (33⅓, 45 a 78 ot./min), CD prehrávačom, kazetovou mechanikou, FM rádiom, Bluetooth streamovaním a vstavanými stereo reproduktormi.',
+      'Technológia Vinyl Stream umožňuje streamovať zvuk z gramofónu bezdrôtovo do externého Bluetooth reproduktora. Telo je z reálneho dreva a súčasťou dizajnu je aj analógové hodiny v retro štýle.',
+    ],
+  },
+  {
+    codes: ['100000229586'], // Sony STR-DH190
+    heading: 'Vstavané Bluetooth a fono vstup pre gramofón',
+    paragraphs: [
+      'Sony STR-DH190 je stereo receiver s výkonom 2× 100 W (8 Ω, 1 kHz) a vstavaným Bluetooth na bezdrôtové streamovanie hudby. Fono vstup umožňuje priame pripojenie gramofónu bez potreby samostatného predzosilňovača.',
+      'K dispozícii sú 4 stereo RCA vstupy, 3,5mm vstup, FM tuner s 30 predvoľbami staníc a možnosť pripojiť až 4 reproduktory s prepínaním A/B pre samostatné zóny.',
+    ],
+  },
+  {
+    // Gorenje kombinovane chladnicky s technologiou NoFrost Plus (IonAir + MultiFlow 360 + AdaptTech)
+    codes: ['100000855951', '100002200368', '100001857835', '100000841790', '100001880277',
+      '100002074222', '100002202001', '100002202005', '100002134244', '100002074226',
+      '100002074227', '100001124079', '100000861973', '100002201377'],
+    heading: 'Technológia NoFrost Plus',
+    paragraphs: [
+      'Táto chladnička má systém NoFrost Plus, ktorý zabraňuje tvorbe námrazy a ľadu v mrazničke a vysychaniu potravín v chladničke - odpadá tak ručné odmrazovanie a dá sa využiť celý vnútorný priestor.',
+      'Súčasťou je aj technológia IonAir, ktorá vysiela záporne nabité ióny čistiace vzduch a potláčajúce baktérie aj zápach, ventilačný systém MultiFlow 360° s 14 otvormi na rovnomerné rozvedenie chladného vzduchu, a AdaptTech, ktorý priebežne sleduje spôsob používania chladničky a upravuje teplotu tak, aby jedlo zostalo čerstvé pri nižšej spotrebe energie.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
@@ -1192,4 +1219,4 @@ function buildEnrichedDescription(product) {
   return parts.join('\n');
 }
 
-module.exports = { shouldEnrich, buildEnrichedDescription, isPoorDescription, looksStructured };
+module.exports = { shouldEnrich, buildEnrichedDescription, isPoorDescription, looksStructured, PRODUCT_FACTS };
