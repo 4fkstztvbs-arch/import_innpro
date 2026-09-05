@@ -1408,7 +1408,7 @@ const PRODUCT_FACTS_LIST = [
   },
   {
     // Beko volne stojace kombinovane chladnicky s NeoFrost Dual Cooling
-    codes: ['100002201698', '100002201699', '100002201701', '100002201692', '100002134762', '100002103825'],
+    codes: ['100002201698', '100002201699', '100002201701', '100002201692', '100002134762', '100002103825', '100002201687', '100002201686'],
     heading: 'NeoFrost Dual Cooling a HarvestFresh',
     paragraphs: [
       'Táto chladnička má systém NeoFrost Dual Cooling - dva samostatné chladiace okruhy pre chladničku a mrazničku, vďaka ktorým sa vzduch medzi nimi nemieša a v mrazničke sa netvorí námraza, takže ju netreba ručne odmrazovať.',
@@ -1953,6 +1953,46 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Táto multifunkčná rúra kombinovaného sporáka (plynová varná doska + elektrická rúra) má funkciu SteamShine, ktorá pomocou pary uľahčuje čistenie rúry po pečení, a funkciu AirFry na prípravu jedla s chrumkavou kôrkou bez väčšieho množstva oleja.',
       'Teleskopické výsuvy umožňujú bezpečne úplne vytiahnuť plech aj s jedlom bez rizika popálenia, plynová varná doska má tri bežné horáky a jeden wok horák s vyšším výkonom.',
+    ],
+  },
+  {
+    codes: ['100002128105'], // Gorenje FN617EES5
+    heading: 'Skriňová mraznička s digitálnym dotykovým displejom',
+    paragraphs: [
+      'Táto skriňová zásuvková mraznička má technológiu No Frost, ktorá zabraňuje tvorbe ľadu vo vnútri - odpadá tak potreba ručného odmrazovania a police zostávajú ľahko čistiteľné.',
+      'Teplotu nastavíte pomocou digitálneho dotykového displeja, invertorový kompresor pracuje veľmi ticho (do 37 dB) a mraznička zvládne zmraziť 10,8 kg potravín za 24 hodín.',
+    ],
+  },
+  {
+    codes: ['100002100822'], // JBL Partybox Stage 320
+    heading: 'Výkon 240 W a prepojenie viacerých reproduktorov',
+    paragraphs: [
+      'JBL PartyBox Stage 320 má výstupný výkon 240 W vďaka dvojici 6,5" wooferov a páru výškových reproduktorov, výdrž batérie je až 18 hodín a pri vybitej batérii ju možno jednoducho vymeniť za novú.',
+      'Krytie IPX4 chráni reproduktor pred zašpliechaním, vstupy pre gitaru a mikrofóny umožňujú hrať naživo, technológia JBL Auracast zase prepojí viacero reproduktorov s nulovým oneskorením do jedného zvukového celku.',
+    ],
+  },
+  {
+    codes: ['100001178518'], // GORENJE GS620C10S
+    heading: 'Umývačka riadu s funkciou TotalDry',
+    paragraphs: [
+      'Táto umývačka riadu pre 14 súprav má funkciu TotalDry, ktorá na konci programu automaticky pootvorí dvierka, aby sa riad prirodzene dosušil bez zvyšnej vlhkosti.',
+      'Funkcia 3v1 automaticky rozpozná typ použitého čistiaceho prostriedku (tablety, prášok, gél) a podľa toho prispôsobí priebeh umývania, invertorový motor PowerDrive zaisťuje dlhú životnosť a tichý chod.',
+    ],
+  },
+  {
+    codes: ['100001916260'], // Beko BDFS26120XQ
+    heading: 'Úzka umývačka s AquaIntense a HygieneIntense',
+    paragraphs: [
+      'Táto úzka (45cm) umývačka riadu pre 11 súprav má rameno AquaIntense, ktoré umyje aj pripečené zvyšky jedla bez namáčania, program HygieneIntense zase odstráni až 99,99 % vírusov a baktérií.',
+      'Celý cyklus umývania a sušenia zvládne dokončiť už za 58 minút, horný kôš Acrobat je nastaviteľný do troch výšok aj pri plnom naložení.',
+    ],
+  },
+  {
+    codes: ['100002070502'], // Amica VM 1442 R (retro rada VD1442)
+    heading: 'Retro dizajn s automatickým odmrazovaním',
+    paragraphs: [
+      'Táto chladnička v retro dizajne má mechanické otočné ovládanie teploty a automatické odmrazovanie chladiacej časti, veľké kovové rukoväte na dvierkach dopĺňajú celkový retro vzhľad.',
+      'V chladiacej časti sú štyri sklenené police (tri výškovo nastaviteľné) s nosnosťou do 100 kg a zásuvka na ovocie a zeleninu, LED osvetlenie rovnomerne osvetľuje celý vnútorný priestor.',
     ],
   },
 ];
