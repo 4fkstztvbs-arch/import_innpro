@@ -2188,6 +2188,39 @@ const PRODUCT_FACTS_LIST = [
       'Vnútri sú dve bezpečnostné sklenené police a zásuvka na zeleninu, tri praktické priehradky vo dvierkach ponúkajú ďalší úložný priestor.',
     ],
   },
+  {
+    codes: ['100002065154'], // JBL Boombox 3 (BLACK, bez Wi-Fi)
+    heading: 'Výkon 300 W a odolnosť IP67',
+    paragraphs: [
+      'JBL Boombox 3 má celkový výkon až 300 W pri napájaní zo siete (menej pri napájaní z batérie), krytie IP67 ho chráni pred prachom aj úplným ponorením do vody.',
+      'Výdrž batérie s kapacitou 10 000 mAh je udávaná až na 24 hodín pri strednej hlasitosti, reproduktor zároveň funguje ako powerbanka na nabíjanie iných zariadení cez USB.',
+    ],
+  },
+  {
+    codes: ['100002121993'], // Panasonic SC-BMAX10
+    heading: 'Prenosný párty reproduktor s výkonom 150 W',
+    paragraphs: [
+      'Panasonic SC-BMAX10 má výkon 150 W pri napájaní zo siete (50 W na batériu) vďaka 14cm basovým reproduktorom a dvom výškovým meničom s vlastným bassreflexovým portom, vstavaná batéria vydrží až 15 hodín prehrávania.',
+      'Svetelná show ponúka 12 rôznych vzorov v siedmich farbách, dva reproduktory SC-BMAX10 sa dajú prepojiť 3,5mm káblom a prepnúť do stereo režimu pre výraznejší priestorový zvuk.',
+    ],
+  },
+  {
+    codes: ['100002203853'], // JBL PartyBox On-The-Go 2
+    heading: 'Prenosný reproduktor s bezdrôtovým mikrofónom',
+    paragraphs: [
+      'JBL PartyBox On-The-Go 2 má výkon 100 W a v balení bezdrôtový digitálny mikrofón s efektom reverbu a funkciou Smart Key Change, ktorá pri speve automaticky prispôsobí tóninu.',
+      'Krytie IPX4 chráni reproduktor pred zašpliechaním, popruh na nosenie cez rameno má vstavaný otvárač na fľaše, technológia JBL Auracast umožňuje prepojiť viacero reproduktorov do jedného zvukového celku.',
+    ],
+  },
+  {
+    // Indesit pracky s vrchnym plnenim, technologia Water Balance Plus
+    codes: ['100002126960', '100001844091'],
+    heading: 'Technológia Water Balance Plus',
+    paragraphs: [
+      'Táto práčka s vrchným plnením má technológiu Water Balance Plus, ktorá pri menej naplnenom bubne dokáže ušetriť až 70 % vody a 50 % energie, program je zároveň až o 35 % rýchlejší.',
+      'Funkcia Extra Wash je určená na zaschnuté škvrny ako káva alebo čokoláda a dá sa pridať k akémukoľvek rýchlemu programu, dotykový displej umožňuje nastaviť aj odložený štart až o 24 hodín.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
