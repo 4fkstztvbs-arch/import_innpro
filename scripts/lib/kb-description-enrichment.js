@@ -1463,6 +1463,47 @@ const PRODUCT_FACTS_LIST = [
       'Funkcia rýchleho zohriatia dosiahne v rúre 150 °C už za štyri minúty, teda približne o pätinu rýchlejšie než bežne, katalytické samočistiace panely zase priebežne pohlcujú mastnotu zo stien rúry.',
     ],
   },
+  {
+    codes: ['100000475909'], // Yamaha XDA-AMP5400RK
+    heading: 'Viaczónový zosilňovač pre multi-room inštalácie',
+    paragraphs: [
+      'Yamaha XDA-AMP5400RK je 8-kanálový zosilňovač v triede D určený na rozšírenie multi-room audio inštalácie o ďalšie zóny alebo výkon - každý kanál má výstup do 40 W pri 8 Ω a dá sa premostiť (bridge) pre vyšší výkon na menší počet reproduktorov.',
+      'Štyri zbernice (audio buses) s priloženými prepojkami umožňujú rôzne konfigurácie rozvodu zvuku do viacerých miestností, zariadenie sa dá pripojiť aj na zónové výstupy (zone pre-out) kompatibilných Yamaha AV receiverov.',
+    ],
+  },
+  {
+    // Electrolux vstavane kombinovane chladnicky s TwinTech No Frost (600/700 rada)
+    codes: ['100002099560', '100002204213', '100002204218', '100002204192'],
+    heading: 'Technológia TwinTech No Frost',
+    paragraphs: [
+      'Táto vstavaná chladnička má systém TwinTech No Frost s dvoma samostatnými chladiacimi okruhmi pre chladničku a mrazničku - mraznička tak zostáva bez námrazy, zatiaľ čo v chladničke sa udržiava vyššia vlhkosť, aby potraviny nevysychali.',
+      'Funkcia FastFreeze rýchlo zmrazí čerstvé potraviny a zachová tak viac vitamínov a pôvodnú chuť, po jej automatickom skončení sa mraznička vráti do bežného režimu.',
+    ],
+  },
+  {
+    codes: ['100002128098', '100002128097'], // Samsung DV90DG52A0ABLE / DV90DG52A0TELE
+    heading: 'Sušička s tepelným čerpadlom a SmartThings',
+    paragraphs: [
+      'Táto sušička pracuje s tepelným čerpadlom, ktoré recykluje teplý vzduch späť do bubna namiesto jeho odvádzania von - vďaka tomu má oproti bežným kondenzačným sušičkám nižšiu spotrebu energie.',
+      'Cez aplikáciu SmartThings je možné sušičku ovládať a sledovať priebeh programu na diaľku z telefónu, vrátane upozornenia na koniec sušenia.',
+    ],
+  },
+  {
+    codes: ['100002134702'], // Beko GNO5323XPN
+    heading: 'Americká chladnička s Twin Cooling',
+    paragraphs: [
+      'Táto americká (Side by Side) chladnička má bez­námrazovú technológiu No Frost s dvojitým chladiacim systémom Twin Cooling, ktorý zabezpečuje rovnomerné chladenie v oboch častiach a zabraňuje tvorbe námrazy.',
+      'Režim Holiday vypne chladiacu časť a ponechá v chode len mrazničku, čím sa počas dlhšej neprítomnosti šetrí energia, zvukový signál zase upozorní na dlhšie otvorené dvere.',
+    ],
+  },
+  {
+    codes: ['100000861971'], // Gorenje NRS8182KX
+    heading: 'Americká chladnička s NoFrost Plus',
+    paragraphs: [
+      'Táto americká chladnička má technológiu NoFrost Plus, ktorá zabraňuje tvorbe ľadu v mraziacej časti a udržiava stabilnú teplotu aj vlhkosť, ventilačný systém MultiFlow 360° zase rovnomerne rozvádza vzduch po celom chladiacom priestore.',
+      'Funkcia FastFreeze zmrazí potraviny pri teplote až -24 °C a po približne 26 hodinách sa automaticky vypne, režim HolidayMode zase obmedzí spotrebu energie počas dlhšej neprítomnosti na minimum.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
