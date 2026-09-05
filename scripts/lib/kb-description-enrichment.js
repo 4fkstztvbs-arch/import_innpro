@@ -1761,6 +1761,55 @@ const PRODUCT_FACTS_LIST = [
       'Ochrana proti pokrčeniu udržiava bubon v pohybe až 8 hodín po skončení programu, ak si bielizeň nestihnete vybrať hneď, medzi programami nájdete aj špeciálne Outdoor a Duvet (paplóny).',
     ],
   },
+  {
+    codes: ['100002102883'], // Electrolux EW7F4485CQ
+    heading: 'UniversalDose a parné SteamCare',
+    paragraphs: [
+      'Táto práčka radu 700 SteamCare má zásuvku UniversalDose, ktorá je prispôsobená na všetky typy pracích prostriedkov vrátane kapsúl - tie sa v nej rozpúšťajú až o 60 % rýchlejšie než v bežnej zásuvke.',
+      'Program SteamRefresh pomocou pary osvieži oblečenie a odstráni pachy aj menšie záhyby už za 25 minút bez klasického prania, QuickCare program zase vyperie bielizeň pri 30 °C za necelú hodinu.',
+    ],
+  },
+  {
+    codes: ['100002202453'], // Gorenje WG894A25
+    heading: 'Technológia WaveActive a IonTech',
+    paragraphs: [
+      'Táto práčka má technológiu WaveActive, ktorá šetrne perie bielizeň a obmedzuje jej pokrčenie, funkcia IonTech zase pomocou prirodzeného procesu ionizácie účinnejšie odstraňuje škvrny bez vysokých teplôt a ďalších chemikálií.',
+      'Práčka dosahuje energetickú triedu A s ročnou spotrebou len 39 kWh, čo z nej robí jednu z úspornejších práčok v ponuke.',
+    ],
+  },
+  {
+    // Amica VD 1442 retro dvukrydlove chladnicky (farebne varianty)
+    codes: ['100000199682', '100000199673', '100000199677'],
+    heading: 'Retro dizajn s veľkými kovovými rukoväťami',
+    paragraphs: [
+      'Táto dvojdverová retro chladnička má mechanické otočné ovládanie teploty a automatické odmrazovanie chladiacej časti, veľké kovové rukoväte na dvierkach zdôrazňujú retro štýl.',
+      'V chladiacej časti sú štyri sklenené police (tri výškovo nastaviteľné) a zásuvka na ovocie a zeleninu, LED osvetlenie rovnomerne osvetľuje celý vnútorný priestor.',
+    ],
+  },
+  {
+    codes: ['100002141133'], // Mio MiSentry 12T 4G LTE
+    heading: 'Vzdialený dohľad nad autom cez 4G LTE',
+    paragraphs: [
+      'Mio MiSentry 12T je autokamerový systém s troma kamerami (predná, zadná a vnútorná) a vstavanou 4G LTE SIM kartou, vďaka ktorej môžete naživo sledovať záznam z auta odkiaľkoľvek cez aplikáciu MioNext.',
+      'Po vypnutí motora sa automaticky aktivuje inteligentný parkovací režim, ktorý pri náraze alebo pohybe okolo auta odošle notifikáciu do telefónu a záznam nahraje priamo do cloudového úložiska.',
+    ],
+  },
+  {
+    codes: ['100001129998'], // Amica SSA 6110 OCW
+    heading: 'Sklokeramický sporák s 10 funkciami rúry',
+    paragraphs: [
+      'Táto rúra s objemom 65 litrov ponúka 10 funkcií pečenia vrátane cirkulácie horúceho vzduchu, funkcia rýchleho predhriatia skráti čakanie na dosiahnutie nastavenej teploty.',
+      'Zvyškové teplo varných zón HiLight signalizujú kontrolky, aby ste sa nepopálili ešte aj po vypnutí sporáka, spodná výsuvná zásuvka slúži na uloženie plechov a hrncov.',
+    ],
+  },
+  {
+    codes: ['100001942899'], // Gorenje WDSI96A
+    heading: 'Práčka so sušičkou a technológiou SterilTub',
+    paragraphs: [
+      'Táto práčka so sušičkou perie až 9 kg bielizne a následne dokáže vysušiť 6 kg v tej istej náplni bez prekladania, funkcia Power JetWash je určená na silne znečistenú bielizeň.',
+      'Technológia SterilTub odstraňuje baktérie z bielizne počas sušenia, čo oceňujú najmä alergici, program pre alergikov navyše dôkladnejšie odstráni aj zvyšky roztočov a peľu.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
