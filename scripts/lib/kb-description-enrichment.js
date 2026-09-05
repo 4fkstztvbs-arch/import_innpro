@@ -2036,7 +2036,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100002104941'], // GORENJE WPNEI94A1SWIFI
+    codes: ['100002104941', '100002143482'], // GORENJE WPNEI94A1SWIFI, WPNEI72SA1SWIFI
     heading: 'Technológia WaveActive a StableTech',
     paragraphs: [
       'Táto práčka má bubon s technológiou WaveActive, ktorý šetrne perie bielizeň bez poškodenia vlákien, bočné panely StableTech zase znižujú vibrácie a zvyšujú stabilitu práčky počas odstreďovania.',
@@ -2108,7 +2108,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100002145358'], // Electrolux EWS6426WC
+    codes: ['100002145358', '100002200415'], // Electrolux EWS6426WC, EWS6526WC
     heading: 'Úzka práčka so SensiCare a programom Steam Anti-Allergy',
     paragraphs: [
       'Táto úzka práčka (hĺbka len 37,8 cm) má technológiu SensiCare, ktorá automaticky prispôsobí prací program množstvu bielizne, aby sa neperlo zbytočne dlho a nepoškodzovali sa vlákna látok.',
@@ -2219,6 +2219,30 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Táto práčka s vrchným plnením má technológiu Water Balance Plus, ktorá pri menej naplnenom bubne dokáže ušetriť až 70 % vody a 50 % energie, program je zároveň až o 35 % rýchlejší.',
       'Funkcia Extra Wash je určená na zaschnuté škvrny ako káva alebo čokoláda a dá sa pridať k akémukoľvek rýchlemu programu, dotykový displej umožňuje nastaviť aj odložený štart až o 24 hodín.',
+    ],
+  },
+  {
+    codes: ['100002134630'], // Samsung HW-B750F
+    heading: 'Soundbar 5.1 s vlastným subwooferom',
+    paragraphs: [
+      'Samsung HW-B750F je 5.1-kanálový soundbar so vstavanými bočnými aj centrálnym reproduktorom a samostatným bezdrôtovým subwooferom pre hlbšie basy, podpora DTS Virtual:X vytvára dojem priestorového zvuku aj bez zadných reproduktorov.',
+      'Pri spárovaní s kompatibilným Samsung televízorom funkcia Q-Symphony spojí zvuk soundbaru s vstavanými reproduktormi televízora, súprava sa dá neskôr rozšíriť o bezdrôtové zadné reproduktory SWA-9250F.',
+    ],
+  },
+  {
+    codes: ['100001143478'], // Yamaha NS-P41
+    heading: 'Súprava reproduktorov 5.1 pre domáce kino',
+    paragraphs: [
+      'Yamaha NS-P41 je súprava šiestich kompaktných reproduktorov (5.1) s celkovým výkonom 200 W, určená na výrazné vylepšenie zvuku televízora bez potreby veľkých podlahových reprosústav.',
+      'Subwoofer využíva technológiu Twisted Flare Port, ktorá vďaka špeciálnemu tvaru portu obmedzuje nežiaduci hluk prúdenia vzduchu a zaisťuje čistejšie a presnejšie basy, všetky satelitné reproduktory okrem subwoofera sa dajú upevniť na stenu.',
+    ],
+  },
+  {
+    codes: ['100001129850'], // Amica SPA 18 ZPX
+    heading: 'Sporák s katalytickým samočistením rúry',
+    paragraphs: [
+      'Táto rúra má katalytické samočistiace panely, ktoré priebežne pohlcujú mastnotu vznikajúcu pri pečení a stačí ich raz za čas vypáliť naprázdno pri vyššej teplote namiesto ručného drhnutia.',
+      'Sklokeramická varná doska s ovládaním pomocou otočných gombíkov ponúka rýchle zohriatie varných zón, zvyškové teplo signalizujú kontrolky, aby ste sa nepopálili ešte aj po vypnutí sporáka.',
     ],
   },
 ];
