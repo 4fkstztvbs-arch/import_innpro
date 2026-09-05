@@ -1810,6 +1810,55 @@ const PRODUCT_FACTS_LIST = [
       'Technológia SterilTub odstraňuje baktérie z bielizne počas sušenia, čo oceňujú najmä alergici, program pre alergikov navyše dôkladnejšie odstráni aj zvyšky roztočov a peľu.',
     ],
   },
+  {
+    codes: ['100002204035'], // Guzzanti GZ 352B (rovnaka rada ako GZ 352A)
+    heading: 'Presklená chladiaca vitrína s 5 policami',
+    paragraphs: [
+      'Táto voľne stojaca presklená chladiaca vitrína má päť drôtených políc a je určená na chladenie aj prezentáciu tovaru súčasne - hodí sa preto do cukrární, barov, reštaurácií či menších predajní.',
+      'Ventilovaný chladiaci systém rovnomerne rozvádza chlad po celom vnútornom priestore, samozatváracie dvierka zase pomáhajú udržať nastavenú teplotu aj pri častom otváraní.',
+    ],
+  },
+  {
+    codes: ['100001356000'], // Electrolux PerfectCare 600 EW6TN4262C
+    heading: 'Úzka práčka s vrchným plnením a SensiCare',
+    paragraphs: [
+      'Táto úzka práčka s vrchným plnením má technológiu SensiCare, ktorá pre každú náplň automaticky upraví dĺžku prania aj spotrebu vody a energie, hodí sa najmä do menších kúpeľní, kde nie je miesto na klasickú práčku plnenú spredu.',
+      'Certifikovaný antialergénny program dôkladne odstráni baktérie, roztoče aj alergény z bielizne, funkcia SoftPlus zase zaistí rovnomerné rozvedenie aviváže ku každému vláknu.',
+    ],
+  },
+  {
+    // Candy ProDry susicky s teplenym cerpadlom (rovnaka technologicka rada)
+    codes: ['100002203417', '100002203401', '100002203431'],
+    heading: 'Úzka sušička radu ProDry s tepelným čerpadlom',
+    paragraphs: [
+      'Táto úzka sušička s tepelným čerpadlom má invertorový motor pre tichší a energeticky úspornejší chod v porovnaní s klasickým kondenzačným ohrevom.',
+      'Vstavané Wi-Fi umožňuje sušičku ovládať a sledovať priebeh programu na diaľku cez mobilnú aplikáciu.',
+    ],
+  },
+  {
+    codes: ['100002067319'], // Whirlpool TDLRS 7232BS EU
+    heading: 'Technológia 6th Sense a tichý pohon ZEN',
+    paragraphs: [
+      'Táto práčka s vrchným plnením má technológiu 6th Sense, ktorá rozpozná množstvo a typ bielizne a podľa toho automaticky upraví teplotu, množstvo vody aj rýchlosť odstreďovania.',
+      'Priamy pohon ZEN nahrádza klasický remeňový pohon a otáča bubnom priamo, vďaka čomu má práčka menej vibrácií a je tichšia aj pri odstreďovaní.',
+    ],
+  },
+  {
+    codes: ['100001915162'], // Gorenje FN619EEW5
+    heading: 'Skriňová mraznička s No Frost',
+    paragraphs: [
+      'Táto skriňová mraznička má technológiu No Frost, ktorá zabraňuje tvorbe ľadu vo vnútri - odpadá tak potreba ručného odmrazovania a police zostávajú ľahko čistiteľné.',
+      'Funkcia FastFreeze zmrazí až 12,6 kg potravín za 24 hodín, režim EcoMode zase obmedzí spotrebu energie na potrebné minimum počas bežnej prevádzky.',
+    ],
+  },
+  {
+    codes: ['100001091835'], // Beko RFSA240M43WN
+    heading: 'Zásuvková mraznička s MinFrost a FreezerGuard',
+    paragraphs: [
+      'Táto zásuvková mraznička má technológiu MinFrost, ktorá obmedzuje tvorbu námrazy vo vnútri a znižuje tak potrebu častého odmrazovania.',
+      'Vďaka FreezerGuard funguje spoľahlivo aj pri nízkych okolitých teplotách pod 0 °C, vhodná je preto aj do garáže, technickej miestnosti alebo chaty, kovová rukoväť EasyOpen uľahčuje otváranie zásuviek.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
