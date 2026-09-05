@@ -1267,6 +1267,78 @@ const PRODUCT_FACTS_LIST = [
       'Prídavné rameno AquaIntense umyje aj najpripečenejšie zvyšky bez namáčania a drhnutia, funkcia SteamGloss zase pridá na konci umývania paru a teplotu 60 °C, aby sklo a poháre zostali dokonale naleštené bez matného nádychu.',
     ],
   },
+  {
+    codes: ['100000776671'], // Yamaha A-S3200
+    heading: 'Referenčný zosilňovač s vyváženým zapojením',
+    paragraphs: [
+      'Yamaha A-S3200 je vlajkovým Hi-Fi zosilňovačom radu A-S, postaveným okolo veľkého toroidného transformátora a symetrického (Floating and Balanced) zapojenia zosilňovacích stupňov, ktoré potláča skreslenie a šum už na úrovni obvodu.',
+      'Súčasťou je fonopredzosilňovač pre MM aj MC gramofónové vložky a motorický ALPS regulátor hlasitosti, ktorý umožňuje jemné doladenie úrovne aj diaľkovým ovládačom bez straty presnosti.',
+    ],
+  },
+  {
+    codes: ['100001916627', '100001916628'], // Yamaha R-N2000A (BLACK/SILVER)
+    heading: 'Sieťový prijímač s MusicCast a ESS Sabre DAC',
+    paragraphs: [
+      'Yamaha R-N2000A je vlajkovým sieťovým stereo prijímačom, ktorý spája výkonný zosilňovač s DAC čipom ESS Sabre Pro a s podporou MusicCast na streamovanie hudby zo sieťových úložísk aj online služieb do viacerých miestností súčasne.',
+      'Vstavaný fonopredzosilňovač pre MM aj MC gramofónové vložky a FM/AM tuner robia z prijímača kompletné centrum domáceho audiosystému bez potreby ďalších komponentov.',
+    ],
+  },
+  {
+    codes: ['100000776667', '100000776668'], // Yamaha A-S1200 (BLACK/SILVER)
+    heading: 'Integrovaný zosilňovač s ESS Sabre DAC',
+    paragraphs: [
+      'Yamaha A-S1200 kombinuje analógový zosilňovací stupeň s digitálno-analógovým prevodníkom ESS Sabre, ktorý spracuje aj signál privedený cez USB či optický/koaxiálny digitálny vstup z počítača alebo prehrávača.',
+      'Vstavaný fonopredzosilňovač podporuje MM aj MC gramofónové vložky, samostatný výstup na slúchadlá s vlastným zosilňovačom je určený na počúvanie bez reproduktorov.',
+    ],
+  },
+  {
+    codes: ['100002063316', '100002066147', '100002066148'], // Yamaha R-N800A, R-N600A (BLACK/SILVER)
+    heading: 'Sieťový prijímač s MusicCast',
+    paragraphs: [
+      'Tento sieťový stereo prijímač podporuje technológiu MusicCast, vďaka ktorej dokáže streamovať hudbu zo sieťových úložísk, obľúbených streamovacích služieb aj z Bluetooth zariadení a súčasne prehrávať rovnakú alebo inú skladbu v ďalších miestnostiach s MusicCast reproduktormi.',
+      'Vstavaný fonopredzosilňovač umožňuje priame pripojenie gramofónu bez ďalšieho zariadenia, ovládanie cez appku MusicCast Controller funguje aj bez klasického diaľkového ovládača.',
+    ],
+  },
+  {
+    codes: ['100002102281'], // LG GSXE90EVAD
+    heading: 'Door-in-Door a AI DualCool',
+    paragraphs: [
+      'LG GSXE90EVAD je americká chladnička so systémom Door-in-Door, ktorý umožňuje siahnuť po často používaných potravinách a nápojoch cez menšie vnútorné dvierka bez otvorenia celej chladničky - vnútri tak zostáva stabilnejšia teplota.',
+      'Technológia AI DualCool má samostatné chladiace okruhy pre chladiaci a mraziaci priestor a pomocou senzorov a algoritmov prispôsobuje chladiaci výkon podľa toho, ako často a ako dlho dvierka otvárate.',
+    ],
+  },
+  {
+    codes: ['100002100840', '100002129550', '100002099792'], // Samsung Bespoke chladnicky RB53DG706BS9EO, RB38C607AS9/EF, RB38T607BS9/EF
+    heading: 'SpaceMax a AI Energy Mode',
+    paragraphs: [
+      'Táto chladnička využíva technológiu SpaceMax s tenšou, ale výkonnejšou izoláciou stien, vďaka čomu ponúka väčší vnútorný úložný priestor pri zachovaní kompaktných vonkajších rozmerov.',
+      'Funkcia AI Energy Mode sleduje spôsob používania chladničky a podľa toho automaticky upravuje jej chod tak, aby sa znížila spotreba energie bez vplyvu na čerstvosť potravín.',
+    ],
+  },
+  {
+    codes: ['100002123611'], // JBL PartyBox Ultimate
+    heading: 'Výkon a svetelná show pre párty',
+    paragraphs: [
+      'JBL PartyBox Ultimate je najvýkonnejší reproduktor radu PartyBox, určený na ozvučenie väčších párty a záhradných akcií, s dynamickou svetelnou show synchronizovanou s hudbou po celom obvode aj vrchnej strane reproduktora.',
+      'Vstavaný DJ pad s efektmi a možnosť pripojiť mikrofón aj gitaru priamo do reproduktora robia z neho samostatné ozvučovacie centrum bez potreby mixpultu, ovládanie doplní aplikácia JBL PartyBox.',
+    ],
+  },
+  {
+    codes: ['100002197529'], // Yamaha TRUE X SURROUND 50A (set)
+    heading: 'Bezdrôtový surround s IntelliBeam kalibráciou',
+    paragraphs: [
+      'Súprava Yamaha True X Surround 50A dopĺňa true X soundbar o dvojicu bezdrôtových zadných reproduktorov, vďaka čomu vzniká kompletný priestorový zvukový systém s podporou Dolby Atmos a DTS:X bez nutnosti ťahať káble po miestnosti.',
+      'Automatická kalibrácia IntelliBeam odmeria akustiku miestnosti pomocou priloženého mikrofónu a podľa nej doladí úroveň a časovanie jednotlivých reproduktorov na najlepší možný zvuk v danom priestore.',
+    ],
+  },
+  {
+    codes: ['100002103198'], // Electrolux EW9F7617SC
+    heading: 'Technológia UltimateCare a SensiCare',
+    paragraphs: [
+      'Táto práčka využíva systém SensiCare, ktorý pomocou senzorov priebežne meria množstvo a typ bielizne v bubne a podľa toho automaticky upravuje spotrebu vody, energie aj dĺžku programu.',
+      'Súčasťou je aj parné programy UltimateCare, ktoré pred praním uvoľnia vlákna látky parou a znížia tak počet záhybov, vďaka čomu je bielizeň po vypraní ľahšie žehliť.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
