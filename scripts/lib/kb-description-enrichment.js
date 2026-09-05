@@ -1594,7 +1594,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100002102637'], // GUZZANTI GZ 363A
+    codes: ['100002102637', '100002067419'], // GUZZANTI GZ 363A, GZ 256A
     heading: 'Presklená chladiaca vitrína s 5 policami',
     paragraphs: [
       'Táto presklená chladiaca vitrína má päť nastaviteľných drôtených políc a samozatváracie dvierka, vďaka čomu sa hodí do cukrární, barov aj reštaurácií na prezentáciu aj chladenie tovaru súčasne.',
@@ -1819,7 +1819,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100001356000'], // Electrolux PerfectCare 600 EW6TN4262C
+    codes: ['100001356000', '100001916219'], // Electrolux PerfectCare 600 EW6TN4262C, EW2TN5061FC
     heading: 'Úzka práčka s vrchným plnením a SensiCare',
     paragraphs: [
       'Táto úzka práčka s vrchným plnením má technológiu SensiCare, ktorá pre každú náplň automaticky upraví dĺžku prania aj spotrebu vody a energie, hodí sa najmä do menších kúpeľní, kde nie je miesto na klasickú práčku plnenú spredu.',
@@ -1972,7 +1972,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100001178518'], // GORENJE GS620C10S
+    codes: ['100001178518', '100002074235', '100002104833', '100002074234', '100002074161'], // GORENJE GS620C10S, GS642D90X, GS643C90X, GS541C10X, GS642D90W
     heading: 'Umývačka riadu s funkciou TotalDry',
     paragraphs: [
       'Táto umývačka riadu pre 14 súprav má funkciu TotalDry, ktorá na konci programu automaticky pootvorí dvierka, aby sa riad prirodzene dosušil bez zvyšnej vlhkosti.',
@@ -2041,6 +2041,30 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Táto práčka má bubon s technológiou WaveActive, ktorý šetrne perie bielizeň bez poškodenia vlákien, bočné panely StableTech zase znižujú vibrácie a zvyšujú stabilitu práčky počas odstreďovania.',
       'Technológia SterilTub odstraňuje baktérie z bubna po praní, funkcia Power JetWash je určená na silne znečistenú bielizeň, cez aplikáciu ConnectLife je možné prací program spustiť a sledovať na diaľku.',
+    ],
+  },
+  {
+    codes: ['100002203233', '100002203234'], // JBL PartyBox 130 (černý/biely)
+    heading: 'Výkon 200 W s technológiou AI Sound Boost',
+    paragraphs: [
+      'JBL PartyBox 130 má výkon 200 W vďaka dvojici 145mm basových reproduktorov a dvom 25mm hodvábnym výškovým meničom, technológia AI Sound Boost pritom minimalizuje skreslenie zvuku aj pri vysokej hlasitosti.',
+      'Vymeniteľná batéria vydrží až 15 hodín prehrávania, krytie IPX4 ho ochráni pred zašpliechaním, futuristická svetelná show so stroboskopickými okrajovými svetlami je synchronizovaná s rytmom hudby.',
+    ],
+  },
+  {
+    codes: ['130282534555'], // Yamaha NS-F51
+    heading: 'Dvojpásmové stĺpové reproduktory',
+    paragraphs: [
+      'Yamaha NS-F51 sú dvojpásmové stĺpové reprosústavy s bassreflexovým vyladením, dvojicou 16cm basových reproduktorov a jedným výškovým meničom - nominálny výkon je 80 W (240 W špičkovo) pri impedancii 6 Ω.',
+      'Vďaka svojej veľkosti a výkonu sú určené na ozvučenie stredne veľkej až väčšej miestnosti, dostupné sú vo vyhotovení čierna alebo orech.',
+    ],
+  },
+  {
+    codes: ['100001462243'], // Yamaha CD-S303
+    heading: 'CD prehrávač s 24-bitovým DAC a Pure Direct',
+    paragraphs: [
+      'Yamaha CD-S303 má digitálno-analógový prevodník s rozlíšením 192 kHz/24 bit a prehráva okrem klasických CD aj súbory MP3, WMA, FLAC a AAC z USB.',
+      'Režim Pure Direct vypne digitálny výstup aj displej a obmedzí tak rušenie obvodu, vďaka čomu je analógový výstup čo najčistejší, laserová optika je navyše uložená na plávajúcom mechanizme odolnom voči vibráciám.',
     ],
   },
 ];
