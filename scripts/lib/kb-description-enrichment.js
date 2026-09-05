@@ -1665,6 +1665,54 @@ const PRODUCT_FACTS_LIST = [
       'Priamy pohon ZEN nahrádza klasický remeňový pohon a otáča bubnom priamo, vďaka čomu má práčka menej vibrácií a nižšiu hlučnosť aj pri odstreďovaní, program Hygiene 60° zase odstráni až 99 % baktérií.',
     ],
   },
+  {
+    codes: ['100001915657', '100001915658', '100002074364'], // Gorenje GECS5B70CLI, GECS6C70WPA, GECS5C70BPA
+    heading: 'Funkcia AirFry priamo v rúre',
+    paragraphs: [
+      'Táto sklokeramická rúra má funkciu AirFry - intenzívne pečenie horúcim vzduchom bez potreby oleja, ktoré je vhodné napríklad na prípravu hranolčekov, mäsa alebo zeleniny s výslednou chrumkavou kôrkou.',
+      'Program FrozenBake je určený priamo na mrazené a polopripravené jedlá, technológia MultiAir zase zaisťuje rovnomernú cirkuláciu horúceho vzduchu po celej rúre pri pečení na viacerých úrovniach naraz.',
+    ],
+  },
+  {
+    codes: ['100002161608'], // Whirlpool WAM 97WB EE
+    heading: 'Technológia 6th Sense a aplikácia HomeWhiz',
+    paragraphs: [
+      'Táto práčka má technológiu 6th Sense, ktorá podľa zvolenej úrovne znečistenia bielizne automaticky prispôsobí prací cyklus tak, aby bolo pranie účinné bez zbytočného predlžovania programu.',
+      'Cez aplikáciu HomeWhiz je možné prací program spustiť na diaľku, prispôsobiť nastavenia a sledovať priebeh prania priamo z telefónu.',
+    ],
+  },
+  {
+    codes: ['100002127144'], // Electrolux LKR64022AX
+    heading: 'Rúra s funkciou AirFry a prídavným ohrevom',
+    paragraphs: [
+      'Táto sklokeramická rúra má integrovanú funkciu AirFry, ktorá je navrhnutá tak, aby fungovala aj s príslušným AirFry táckou na prípravu jedla s chrumkavou kôrkou bez väčšieho množstva oleja.',
+      'Pri pečení na dvoch úrovniach súčasne pomáha dodatočné kruhové výhrevné teleso rovnomerne prepiecť oba plechy naraz, LED displej s časovačom zase umožňuje presne nastaviť dĺžku pečenia.',
+    ],
+  },
+  {
+    codes: ['100001920301'], // Electrolux ESS43210SW
+    heading: 'Sušenie technológiou AirDry',
+    paragraphs: [
+      'Táto umývačka riadu má technológiu AirDry, ktorá pred koncom programu automaticky pootvorí dvierka približne o 10 cm a využije prirodzené prúdenie vzduchu na dosušenie riadu bez ďalšej spotreby energie.',
+      'Rameno SatelliteClean s rotačnou tryskou zaisťuje až trojnásobne lepšie pokrytie riadu vodou v porovnaní s klasickým ramenom, zásuvka MaxiFlex zase umožňuje uložiť všetok príbor prehľadne na jedno miesto.',
+    ],
+  },
+  {
+    codes: ['100002074244'], // Gorenje DPNE83/GNLWIFI
+    heading: 'Sušenie technológiou NatureDry',
+    paragraphs: [
+      'Táto sušička s tepelným čerpadlom má systém NatureDry, ktorý napodobňuje sušenie na čerstvom vzduchu pri miernejšej teplote okolo 50 °C - vhodné aj na jemnejšie a citlivejšie tkaniny.',
+      'Systém proti pokrčeniu bielizeň posledných 10 minút programu pomaly ochladzuje, a ak si bielizeň nevyberiete hneď, bubon sa bez ohrevu ešte hodinu pomaly otáča, aby zostala nakyprená. Sušička má vstavané Wi-Fi na ovládanie a upozornenia cez aplikáciu.',
+    ],
+  },
+  {
+    codes: ['100001129951'], // Amica WFBA 2030 DL
+    heading: 'Jednozónová vinotéka s UV ochranou',
+    paragraphs: [
+      'Táto vinotéka pre 20 fliaš vína má elektronicky nastaviteľnú teplotu v rozsahu 5 až 20 °C a tónované sklo s UV ochranou, ktoré chráni víno pred škodlivými účinkami svetla.',
+      'Displej zobrazuje aj vlhkosť vo vnútri, aby korok nevysychal a nevznikala pleseň, vinotéka má tiež alarm pri príliš vysokej teplote aj pri otvorených dvierkach.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
