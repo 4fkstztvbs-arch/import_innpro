@@ -1399,7 +1399,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100002103880', '100002129547'], // Samsung RB38C600CS9/EF, RB34C600CWW/EF
+    codes: ['100002103880', '100002129547', '100002201437'], // Samsung RB38C600CS9/EF, RB34C600CWW/EF, RB38C600EWW/EF
     heading: 'Technológia SpaceMax',
     paragraphs: [
       'Táto chladnička využíva technológiu SpaceMax s tenšou, ale rovnako účinnou izoláciou stien - vďaka nej ponúka väčší vnútorný úložný priestor bez toho, aby chladnička zaberala viac miesta v kuchyni.',
@@ -1682,7 +1682,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100002127144'], // Electrolux LKR64022AX
+    codes: ['100002127144', '100002127669'], // Electrolux LKR64022AX, LKR64022AW
     heading: 'Rúra s funkciou AirFry a prídavným ohrevom',
     paragraphs: [
       'Táto sklokeramická rúra má integrovanú funkciu AirFry, ktorá je navrhnutá tak, aby fungovala aj s príslušným AirFry táckou na prípravu jedla s chrumkavou kôrkou bez väčšieho množstva oleja.',
@@ -1857,6 +1857,54 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Táto zásuvková mraznička má technológiu MinFrost, ktorá obmedzuje tvorbu námrazy vo vnútri a znižuje tak potrebu častého odmrazovania.',
       'Vďaka FreezerGuard funguje spoľahlivo aj pri nízkych okolitých teplotách pod 0 °C, vhodná je preto aj do garáže, technickej miestnosti alebo chaty, kovová rukoväť EasyOpen uľahčuje otváranie zásuviek.',
+    ],
+  },
+  {
+    codes: ['100002102860'], // Electrolux EW6F2491C
+    heading: 'Senzor SensiCare',
+    paragraphs: [
+      'Táto práčka radu SensiCare 600 rozpozná veľkosť náplne a podľa toho upraví prací program tak, aby ušetrila až 30 % času, vody aj energie oproti praniu bez tohto prispôsobenia.',
+      'Rýchly program dokáže vyprať 3 kg bielizne už za 20 minút, invertorový motor zase zaisťuje tichý chod aj pri odstreďovaní na 1400 otáčok za minútu.',
+    ],
+  },
+  {
+    codes: ['100002074369'], // Gorenje RP619EEW5
+    heading: 'Jednodverová chladnička s DynamiCooling',
+    paragraphs: [
+      'Táto jednodverová chladnička bez mrazničky má systém DynamiCooling, ktorý rovnomerne rozvádza chladený vzduch po celom vnútornom priestore, funkcia SuperCool zase na chvíľu zníži teplotu na maximum pri vložení väčšieho množstva čerstvých potravín.',
+      'Invertorový kompresor zaisťuje tichý chod, režim EcoMode obmedzí spotrebu energie počas bežnej prevádzky na potrebné minimum.',
+    ],
+  },
+  {
+    codes: ['100002103979'], // Beko BM3T3924WBW
+    heading: 'Sušička s tepelným čerpadlom EcoGentle',
+    paragraphs: [
+      'Táto sušička má tepelné čerpadlo EcoGentle, ktoré suší pri nižších teplotách než klasický ohrev - bielizeň si tak lepšie zachová tvar a farby a zároveň sa znižuje spotreba energie.',
+      'Automatický systém proti pokrčeniu udržiava bubon v pohybe aj po skončení programu, o dlhú životnosť a tichý chod sa stará invertorový motor ProSmart.',
+    ],
+  },
+  {
+    codes: ['100002202011'], // Gorenje NRS917E41X
+    heading: 'Americká chladnička s NoFrost Plus a MultiFlow',
+    paragraphs: [
+      'Táto americká (Side by Side) chladnička má technológiu NoFrost Plus, ktorá zabraňuje tvorbe ľadu v mraziacej časti, a ventilačný systém MultiFlow 360°, ktorý rovnomerne rozvádza vzduch po celom chladiacom priestore.',
+      'Funkcia FastFreeze zmrazí až 10 kg potravín za 24 hodín, elektronické ovládanie SensoTech s displejom zobrazuje teplotu v oboch komorách samostatne.',
+    ],
+  },
+  {
+    codes: ['100001129960'], // Amica MV 447 ADW
+    heading: 'Umývačka riadu s funkciou SteamPower a OpenDry',
+    paragraphs: [
+      'Táto umývačka riadu má funkciu SteamPower, ktorá na konci programu pridá horúcu paru pre lepší lesk a hygienickú čistotu riadu, funkcia OpenDry zase po skončení programu automaticky pootvorí dvierka, aby sa riad dosušil bez utierania.',
+      'Antibakteriálny filter z materiálu na báze triazolu obmedzuje vznik zápachu a množenie baktérií, Aquasensor priebežne sleduje znečistenie vody a podľa toho upravuje priebeh umývania.',
+    ],
+  },
+  {
+    codes: ['100002102300'], // Beko B3WFU4841MCC
+    heading: 'Senzory OptiSense a technológia EnergySpin',
+    paragraphs: [
+      'Táto práčka má senzory OptiSense, ktoré presne prispôsobia množstvo vody a energie danej náplni bielizne, technológia EnergySpin zase šetrí až 35 % energie aj pri bežných praniach, nielen v úspornom režime Eco.',
+      'Parná funkcia SteamCure pomáha lepšie uvoľniť nečistoty počas prania a obmedzuje pokrčenie pri odstreďovaní, rýchly program Xpress SuperShort vyperie bielizeň už za 14 minút.',
     ],
   },
 ];
