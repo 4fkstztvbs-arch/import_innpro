@@ -169,6 +169,7 @@ const INTROS = {
   // --- Domáce spotrebiče -----------------------------------------------------------
   'Chladničky s mrazákom dole': [
     '{name} je kombinovaná chladnička s mrazákom dole od {brand}, určená ako hlavný chladiaci spotrebič v domácnosti.',
+    'Kombinovaná chladnička {name} od {brand} má mrazák v spodnej časti a poslúži ako hlavný chladiaci spotrebič v domácnosti.',
   ],
   'Chladničky': [
     '{name} je chladnička od {brand}.',
@@ -178,12 +179,14 @@ const INTROS = {
   ],
   'Monoklimatické chladničky': [
     '{name} je jednodverová (monoklimatická) chladnička od {brand}, vhodná napríklad ako menšia alebo doplnková chladnička.',
+    'Jednodverová chladnička {name} od {brand} sa hodí napríklad ako menšia alebo doplnková chladnička.',
   ],
   'Vstavané chladenie': [
     '{name} je vstavaný chladiaci spotrebič od {brand}, určený na zabudovanie do kuchynskej linky.',
   ],
   'Vinotéky a vitríny': [
     '{name} je vinotéka/chladiaca vitrína od {brand} na skladovanie vína alebo nápojov pri optimálnej teplote.',
+    'Vinotéka {name} od {brand} uskladní víno alebo nápoje pri optimálnej teplote.',
   ],
   'Zásuvkové mrazničky': [
     '{name} je zásuvková mraznička od {brand}.',
@@ -193,21 +196,26 @@ const INTROS = {
   ],
   'Práčky zepředu plnené': [
     '{name} je práčka s predným plnením od {brand}.',
+    'Práčka {name} od {brand} má predné plnenie.',
   ],
   'Práčky s vrchným plnením': [
     '{name} je práčka s vrchným plnením od {brand}, vhodná najmä do menších priestorov.',
   ],
   'Sušičky': [
     '{name} je sušička bielizne od {brand}.',
+    'Sušička bielizne {name} od {brand} vysuší prádlo bez nutnosti sušiaka.',
   ],
   'Príslušenstvo k práčkam a sušičkám': [
     '{name} je príslušenstvo od {brand} k práčke alebo sušičke.',
+    'Príslušenstvo {name} od {brand} je určené k práčke alebo sušičke.',
   ],
   'Sušiaky na bielizeň': [
     '{name} je sušiak na bielizeň od {brand}.',
+    'Sušiak na bielizeň {name} od {brand} poslúži na sušenie prádla bez sušičky.',
   ],
   'Vstavané umývačky 60 cm': [
     '{name} je vstavaná umývačka riadu (60 cm) od {brand}, určená na zabudovanie do kuchynskej linky.',
+    'Vstavaná umývačka riadu {name} od {brand} (60 cm) je určená na zabudovanie do kuchynskej linky.',
   ],
   'Vstavané umývačky 45 cm': [
     '{name} je úzka vstavaná umývačka riadu (45 cm) od {brand}, vhodná do menších kuchýň.',
@@ -220,12 +228,15 @@ const INTROS = {
   ],
   'Robotické vysávače': [
     '{name} je robotický vysávač od {brand}, ktorý upratuje domácnosť samostatne bez potreby manuálneho ovládania.',
+    'Robotický vysávač {name} od {brand} zvládne upratovanie samostatne, bez manuálneho ovládania.',
   ],
   'Tyčové vysávače': [
     '{name} je tyčový (bezvreckový) vysávač od {brand}.',
+    'Tyčový vysávač {name} od {brand} je bezvreckový.',
   ],
   'Podlahové vysávače': [
     '{name} je podlahový vysávač od {brand}.',
+    'Podlahový vysávač {name} od {brand} poslúži na bežné upratovanie domácnosti.',
   ],
   'Aku vysávače': [
     '{name} je akumulátorový (bezdrôtový) vysávač od {brand}.',
@@ -235,30 +246,36 @@ const INTROS = {
   ],
   'Príslušenstvo k vysávačom': [
     '{name} je príslušenstvo od {brand} k vysávaču.',
+    'Príslušenstvo {name} od {brand} je určené k vysávaču.',
   ],
   'Filtre do vysávačov': [
     '{name} je náhradný filter od {brand} do vysávača.',
+    'Filter {name} od {brand} je náhrada do vysávača.',
   ],
   'Vrecká do vysávačov': [
     '{name} sú vrecká do vysávača od {brand}.',
+    'Vrecká {name} od {brand} sú náhrada do vysávača.',
   ],
   'Parné mopy a čističe': [
     '{name} je parný mop/čistič od {brand} na hĺbkové čistenie podláh bez chemikálií.',
   ],
   'Mopy a upratovacie súpravy': [
     '{name} je mop/upratovacia súprava od {brand}.',
+    'Mop {name} od {brand} uľahčí upratovanie domácnosti.',
   ],
   'Čističe okien': [
     '{name} je čistič okien od {brand}.',
   ],
   'Fritézy': [
     '{name} je teplovzdušná fritéza od {brand}, na prípravu jedál s minimom oleja.',
+    'Teplovzdušná fritéza {name} od {brand} pripraví jedlo s minimom oleja.',
   ],
   'Fritézy a hrnce': [
     '{name} je fritéza/hrniec od {brand}.',
   ],
   'Multifunkčné hrnce': [
     '{name} je multifunkčný hrniec od {brand}, ktorý nahradí viacero kuchynských spotrebičov naraz.',
+    'Multifunkčný hrniec {name} od {brand} nahradí viacero kuchynských spotrebičov naraz.',
   ],
   'Pomalé hrnce': [
     '{name} je pomalý hrniec (slow cooker) od {brand} na dlhé, šetrné dusenie jedla.',
@@ -268,21 +285,25 @@ const INTROS = {
   ],
   'Hrnce': [
     '{name} sú hrnce od {brand}.',
+    'Hrniec {name} od {brand} doplní kuchynské vybavenie.',
   ],
   'Panvice': [
     '{name} je panvica od {brand}.',
+    'Panvica {name} od {brand} doplní kuchynské nádobie.',
   ],
   'Elektrické panvice': [
     '{name} je elektrická panvica od {brand}.',
   ],
   'Elektrické grily': [
     '{name} je elektrický gril od {brand}.',
+    'Elektrický gril {name} od {brand} poslúži na grilovanie priamo v domácnosti.',
   ],
   'Grily, pekárne, variče': [
     '{name} je kuchynský spotrebič od {brand} (gril/pekáreň/varič).',
   ],
   'Vstavané pečúce rúry': [
     '{name} je vstavaná rúra na pečenie od {brand}, určená na zabudovanie do kuchynskej linky.',
+    'Vstavaná rúra {name} od {brand} je určená na zabudovanie do kuchynskej linky.',
   ],
   'Sporáky a rúry': [
     '{name} je sporák/rúra od {brand}.',
@@ -298,9 +319,11 @@ const INTROS = {
   ],
   'Mikrovlnné rúry': [
     '{name} je mikrovlnná rúra od {brand}.',
+    'Mikrovlnná rúra {name} od {brand} ohreje aj rozmrazí jedlo za pár minút.',
   ],
   'Indukčné varné dosky': [
     '{name} je indukčná varná doska od {brand}.',
+    'Varná doska {name} od {brand} využíva indukčný ohrev.',
   ],
   'Sklokeramické varné dosky': [
     '{name} je sklokeramická varná doska od {brand}.',
@@ -313,6 +336,7 @@ const INTROS = {
   ],
   'Elektrické variče': [
     '{name} je elektrický varič od {brand}.',
+    'Elektrický varič {name} od {brand} poslúži na varenie tam, kde nie je klasický sporák.',
   ],
   'Výsuvné, výklopné digestory': [
     '{name} je výsuvný/výklopný digestor od {brand} na odsávanie pary a pachov spod kuchynskej linky.',
@@ -325,12 +349,14 @@ const INTROS = {
   ],
   'Stolové mixéry': [
     '{name} je stolový mixér od {brand}.',
+    'Stolový mixér {name} od {brand} sa hodí na prípravu cesta, krémov či pyré.',
   ],
   'Tyčové mixéry': [
     '{name} je tyčový mixér od {brand}.',
   ],
   'Kuchynské roboty': [
     '{name} je kuchynský robot od {brand}, ktorý zvládne miesenie, šľahanie či krájanie priamo v jednom zariadení.',
+    'Kuchynský robot {name} od {brand} zvládne miesenie, šľahanie aj krájanie v jednom zariadení.',
   ],
   'Kuchynské roboty a krájače': [
     '{name} je kuchynský robot/krájač od {brand}.',
@@ -343,6 +369,7 @@ const INTROS = {
   ],
   'Krájače potravín': [
     '{name} je krájač potravín od {brand}.',
+    'Krájač potravín {name} od {brand} uľahčí krájanie surovín na rovnaké plátky.',
   ],
   'Elektrické sekáčiky': [
     '{name} je elektrický sekáčik od {brand}.',
@@ -358,12 +385,15 @@ const INTROS = {
   ],
   'Rýchlovarné kanvice': [
     '{name} je rýchlovarná kanvica od {brand}.',
+    'Rýchlovarná kanvica {name} od {brand} zohreje vodu za pár minút.',
   ],
   'Filtračné kanvice': [
     '{name} je filtračná kanvica od {brand} na jednoduchú filtráciu vody z vodovodu.',
+    'Filtračná kanvica {name} od {brand} jednoducho odfiltruje vodu z vodovodu.',
   ],
   'Príslušenstvo pre filtračné kanvice': [
     '{name} je náhradný filter/príslušenstvo od {brand} pre filtračnú kanvicu.',
+    'Náhradný filter {name} od {brand} je určený pre filtračnú kanvicu.',
   ],
   'Kávovary a espressá': [
     '{name} je kávovar od {brand}.',
@@ -379,12 +409,14 @@ const INTROS = {
   ],
   'Kávové kapsle': [
     '{name} sú kávové kapsule od {brand}.',
+    'Kapsule {name} od {brand} sú určené do kapsulového kávovaru.',
   ],
   'Príslušenstvo ku kávovarom': [
     '{name} je príslušenstvo od {brand} ku kávovaru.',
   ],
   'Moka kanvice a frenchpressy': [
     '{name} je moka kanvica/frenchpress od {brand} na prípravu kávy tradičným spôsobom.',
+    '{name} od {brand} slúži na prípravu kávy tradičným spôsobom.',
   ],
   'Prekvapkávače': [
     '{name} je prekvapkávač od {brand} na prípravu prekvapkávanej kávy.',
@@ -394,9 +426,11 @@ const INTROS = {
   ],
   'Káva': [
     '{name} je produkt od {brand} z kategórie príprava kávy.',
+    '{name} od {brand} patrí do kategórie príprava kávy.',
   ],
   'Hriankovače': [
     '{name} je hriankovač od {brand}.',
+    'Hriankovač {name} od {brand} pripraví hrianky na raňajky.',
   ],
   'Sendvičovače': [
     '{name} je sendvičovač/toaster od {brand}.',
@@ -412,6 +446,7 @@ const INTROS = {
   ],
   'Naparovacie žehličky': [
     '{name} je naparovacia žehlička od {brand}.',
+    'Naparovacia žehlička {name} od {brand} uľahčí žehlenie bielizne.',
   ],
   'Naparovače odevov': [
     '{name} je naparovač odevov od {brand} na rýchle odstránenie záhybov bez žehliacej dosky.',
@@ -427,6 +462,7 @@ const INTROS = {
   ],
   'Vákuovačky a zváračky': [
     '{name} je vákuovačka od {brand} na predĺženie trvanlivosti potravín.',
+    'Vákuovačka {name} od {brand} predĺži trvanlivosť potravín.',
   ],
   'Vákuovačky a zváračky fólií': [
     '{name} je vákuovačka/zváračka fólií od {brand}.',
@@ -445,12 +481,15 @@ const INTROS = {
   ],
   'Kuchynské váhy': [
     '{name} sú kuchynské váhy od {brand}.',
+    'Kuchynská váha {name} od {brand} presne odváži suroviny pri varení a pečení.',
   ],
   'Kuchynské potreby': [
     '{name} sú kuchynské potreby od {brand}.',
+    '{name} od {brand} patrí medzi kuchynské potreby.',
   ],
   'Kuchynské nádobie': [
     '{name} je kuchynské nádobie od {brand}.',
+    '{name} od {brand} patrí medzi kuchynské nádobie.',
   ],
   'Ostatné kuchynské potreby': [
     '{name} je kuchynská potreba od {brand}.',
@@ -478,6 +517,7 @@ const INTROS = {
   ],
   'Príslušenstvo k malým spotrebičom': [
     '{name} je príslušenstvo od {brand} k malému kuchynskému spotrebiču.',
+    'Príslušenstvo {name} od {brand} je určené k malému kuchynskému spotrebiču.',
   ],
   'Vykurovacie telesá, radiátory': [
     '{name} je vykurovacie teleso/radiátor od {brand}.',
