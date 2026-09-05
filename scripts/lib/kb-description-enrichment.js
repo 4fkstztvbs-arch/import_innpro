@@ -1339,6 +1339,73 @@ const PRODUCT_FACTS_LIST = [
       'Súčasťou je aj parné programy UltimateCare, ktoré pred praním uvoľnia vlákna látky parou a znížia tak počet záhybov, vďaka čomu je bielizeň po vypraní ľahšie žehliť.',
     ],
   },
+  {
+    codes: ['100001392482'], // Yamaha RX-A4A
+    heading: 'AV receiver s priestorovým zvukom a MusicCast',
+    paragraphs: [
+      'Yamaha RX-A4A je viackanálový AV receiver s podporou Dolby Atmos a DTS:X, ktorý dokáže pomocou stropných alebo výškovo virtualizovaných reproduktorov vytvoriť plný priestorový zvuk pri sledovaní filmov aj hraní hier.',
+      'Automatická kalibrácia YPAO s technológiou R.S.C. (Reflected Sound Control) zmeria akustiku miestnosti pomocou priloženého mikrofónu a potlačí nežiaduce odrazy zvuku od stien, receiver navyše podporuje sieťové streamovanie MusicCast.',
+    ],
+  },
+  {
+    // Whirlpool susicky so senzorom 6th Sense
+    codes: ['100002203836', '100002141896', '100002141923', '100002141895', '100002141927', '100002203739'],
+    heading: 'Senzorové sušenie 6th Sense',
+    paragraphs: [
+      'Táto sušička využíva senzorový systém 6th Sense, ktorý priebežne meria vlhkosť bielizne v bubne a sušenie automaticky ukončí presne vo chvíli, keď bielizeň dosiahne zvolený stupeň suchosti - bez zbytočného presúšania a plytvania energiou.',
+      'Vďaka tomu netreba dopredu odhadovať dĺžku programu podľa váhy náplne, sušička si čas sama priebežne prepočítava podľa skutočného stavu bielizne.',
+    ],
+  },
+  {
+    // Electrolux susicky s tepelnym cerpadlom
+    codes: ['100002103207', '100002102886', '100002103194', '100002102885'],
+    heading: 'Tepelné čerpadlo a šetrné sušenie',
+    paragraphs: [
+      'Táto sušička pracuje s tepelným čerpadlom, ktoré vzduch v bubne neustále recykluje namiesto jeho vyfukovania von - vďaka tomu má oproti kondenzačným sušičkám s klasickým ohrevom výrazne nižšiu spotrebu energie pri rovnakom objeme bielizne.',
+      'Nižšia pracovná teplota vzduchu je zároveň šetrnejšia k látkam náchylnejším na poškodenie teplom, čo predlžuje životnosť pravidelne sušenej bielizne.',
+    ],
+  },
+  {
+    // Electrolux pracky - SensiCare senzor rada EW7/EW8
+    codes: ['100002200410', '100002102882'],
+    heading: 'Senzor SensiCare',
+    paragraphs: [
+      'Táto práčka má systém SensiCare, ktorý pomocou senzorov v bubne rozpozná množstvo a savosť práve vloženej bielizne a podľa toho automaticky prispôsobí spotrebu vody a energie aj dĺžku prania.',
+      'Vďaka priebežnému prispôsobovaniu netreba pred praním odhadovať program podľa typu látky nahrubo - práčka reaguje na skutočný stav náplne v bubne.',
+    ],
+  },
+  {
+    codes: ['100002141580'], // JBL PartyBox 520
+    heading: 'Prenosný výkon a svetelná show',
+    paragraphs: [
+      'JBL PartyBox 520 je prenosný výkonný reproduktor s vlastnou batériou, dynamickou svetelnou show synchronizovanou s hudbou a odolnosťou voči striekajúcej vode (IPX4), vďaka čomu sa hodí rovnako do interiéru ako na terasu či záhradu.',
+      'Cez appku JBL PartyBox je možné upravovať ekvalizér aj svetelné efekty, k reproduktoru sa dá pripojiť aj mikrofón alebo gitara na spev a hru naživo.',
+    ],
+  },
+  {
+    codes: ['100002063325', '100002063324', '100002063322'], // Yamaha True X Bar 50A/40A soundbary
+    heading: 'Priestorový zvuk True X',
+    paragraphs: [
+      'Tento soundbar Yamaha z radu True X podporuje Dolby Atmos a DTS:X a pomocou virtualizácie výšky vytvára dojem priestorového zvuku prichádzajúceho aj zhora, hoci samotný soundbar stojí len pred televízorom.',
+      'Rôzne zvukové režimy prispôsobia charakter zvuku typu obsahu - od filmov cez hudbu až po televízne správy - a soundbar sa dá neskôr rozšíriť o bezdrôtový subwoofer alebo zadné reproduktory.',
+    ],
+  },
+  {
+    codes: ['100002141907'], // Whirlpool WHFF 6404 X6E
+    heading: 'Zásuvková mraznička so 6th Sense',
+    paragraphs: [
+      'Táto zásuvková mraznička využíva systém No Frost, ktorý zabraňuje tvorbe námrazy vo vnútri - odpadá tak potreba pravidelného ručného odmrazovania a zásuvky zostávajú ľahko vysúvateľné.',
+      'Technológia 6th Sense priebežne sleduje podmienky vo vnútri mrazničky a upravuje jej chod tak, aby si potraviny udržali kvalitu pri nižšej spotrebe energie.',
+    ],
+  },
+  {
+    codes: ['100002103880', '100002129547'], // Samsung RB38C600CS9/EF, RB34C600CWW/EF
+    heading: 'Technológia SpaceMax',
+    paragraphs: [
+      'Táto chladnička využíva technológiu SpaceMax s tenšou, ale rovnako účinnou izoláciou stien - vďaka nej ponúka väčší vnútorný úložný priestor bez toho, aby chladnička zaberala viac miesta v kuchyni.',
+      'Systém All-around Cooling rozvádza chladný vzduch rovnomerne po celom vnútornom priestore cez viacero prieduchov, vďaka čomu je teplota v rôznych častiach chladničky vyrovnanejšia.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
