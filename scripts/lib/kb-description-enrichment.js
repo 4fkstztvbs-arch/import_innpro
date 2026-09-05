@@ -1406,6 +1406,63 @@ const PRODUCT_FACTS_LIST = [
       'Systém All-around Cooling rozvádza chladný vzduch rovnomerne po celom vnútornom priestore cez viacero prieduchov, vďaka čomu je teplota v rôznych častiach chladničky vyrovnanejšia.',
     ],
   },
+  {
+    // Beko volne stojace kombinovane chladnicky s NeoFrost Dual Cooling
+    codes: ['100002201698', '100002201699', '100002201701', '100002201692'],
+    heading: 'NeoFrost Dual Cooling a HarvestFresh',
+    paragraphs: [
+      'Táto chladnička má systém NeoFrost Dual Cooling - dva samostatné chladiace okruhy pre chladničku a mrazničku, vďaka ktorým sa vzduch medzi nimi nemieša a v mrazničke sa netvorí námraza, takže ju netreba ručne odmrazovať.',
+      'Technológia HarvestFresh strieda osvetlenie s farebným spektrom napodobňujúcim striedanie dňa a noci, čo má ovocie a zeleninu udržať dlhšie čerstvé a s vyšším obsahom živín. O tichý chod sa stará invertorový kompresor ProSmart.',
+    ],
+  },
+  {
+    codes: ['100002128137'], // Amica FK3666.2DFZHC
+    heading: 'Total No Frost a zásuvka FreshZone',
+    paragraphs: [
+      'Táto chladnička má systém Total No Frost, ktorý udržiava rovnomernú vlhkosť a teplotu v chladničke aj mrazničke - vo vnútri sa netvorí námraza a odpadá potreba ručného odmrazovania.',
+      'Zásuvka FreshZone udržiava teplotu tesne nad bodom mrazu (0 až 3 °C), vhodnú napríklad na mäso a ryby, filter FreshON zase odbúrava škodlivé plyny vo vnútri chladničky, aby si potraviny dlhšie zachovali čerstvosť.',
+    ],
+  },
+  {
+    codes: ['100000158713'], // Amica KGCR387100R
+    heading: 'Retro dizajn s mechanickým ovládaním',
+    paragraphs: [
+      'Táto chladnička v retro dizajne má mechanické otočné ovládanie teploty s plynulým nastavením chladiaceho výkonu namiesto elektronického displeja, čo oceníte pri jednoduchej obsluhe bez nutnosti prechádzať menu.',
+      'V mrazničke sú tri priestranné zásuvky s mraziacim výkonom 3 kg za deň, pri výpadku prúdu dokáže chladnička udržať teplotu potravín až 8 hodín.',
+    ],
+  },
+  {
+    codes: ['100001129750'], // Concept LA8383DS
+    heading: 'Americká chladnička s Total No Frost',
+    paragraphs: [
+      'Táto americká chladnička radu Titania má technológiu Total No Frost, ktorá zabraňuje tvorbe námrazy v celom vnútornom priestore a zároveň zrýchľuje mrazenie - odpadá tak potreba ručného odmrazovania.',
+      'Funkcia Vacation (dovolenka) obmedzí spotrebu energie počas dlhšej neprítomnosti a pritom zaručí, že potraviny zostanú v poriadku, ovládanie je cez podsvietený dotykový displej.',
+    ],
+  },
+  {
+    codes: ['100001540923'], // Candy CCGMEE9025PX/E
+    heading: 'Multifunkčná rúra s pravým horúcim vzduchom',
+    paragraphs: [
+      'Táto rúra ponúka osem programov pečenia vrátane pravého horúceho vzduchu, klasického statického ohrevu, grilu a rozmrazovania, vďaka čomu sa dá prispôsobiť rôznym typom jedál aj receptov.',
+      'Dvierka sú z dvojitého bezpečnostného skla s tangenciálnym chladením, ktoré udržiava vonkajší povrch dvierok počas pečenia chladnejší, programátor pečenia zase umožňuje nastaviť dĺžku aj odložený štart prípravy.',
+    ],
+  },
+  {
+    codes: ['100002100991'], // Guzzanti GZ 338DD
+    heading: 'Presklená chladiaca vitrína',
+    paragraphs: [
+      'Táto presklená chladiaca vitrína má štyri nastaviteľné police a samozatváracie dvierka so zabudovaným zámkom, vďaka čomu sa hodí aj do prevádzok, kde treba tovar chrániť pred neoprávneným prístupom.',
+      'Ventilovaný chladiaci systém s nastaviteľným termostatom udrží teplotu v rozmedzí od +2 °C do +18 °C aj pri vyššej okolitej teplote, chladenie beží na ekologickom chladive R600a.',
+    ],
+  },
+  {
+    codes: ['100001738413'], // Amica SIS 512 TCX
+    heading: 'Indukčný sporák s funkciou SoftSteam',
+    paragraphs: [
+      'Táto multifunkčná rúra má 12 funkcií pečenia vrátane pravého horúceho vzduchu a grilu, funkcia SoftSteam pridá počas pečenia paru, vďaka čomu pečivo aj mäso zostanú šťavnatejšie.',
+      'Funkcia rýchleho zohriatia dosiahne v rúre 150 °C už za štyri minúty, teda približne o pätinu rýchlejšie než bežne, katalytické samočistiace panely zase priebežne pohlcujú mastnotu zo stien rúry.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
