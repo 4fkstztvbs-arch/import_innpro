@@ -2357,6 +2357,22 @@ const PRODUCT_FACTS_LIST = [
       'Program Quick&Clean vyperie plnú náplň už za 49 minút bez kompromisu na kvalite prania, cez aplikáciu hOn je možné vybrať z viac než 60 doplnkových programov a sledovať priebeh prania na diaľku.',
     ],
   },
+  {
+    codes: ['100002121992'], // Panasonic SC-BMAX5
+    heading: 'Kompaktný párty reproduktor s výkonom 75 W',
+    paragraphs: [
+      'Panasonic SC-BMAX5 má výkon 75 W pri napájaní zo siete vďaka 14cm basovému reproduktoru a dvom výškovým meničom, vstavaná batéria vydrží až 9 hodín prevádzky.',
+      'Vstupy pre gitaru a mikrofón umožňujú hrať a spievať naživo priamo cez reproduktor, dva alebo až tri reproduktory SC-BMAX5 sa dajú prepojiť 3,5mm káblom pre výraznejší priestorový zvuk.',
+    ],
+  },
+  {
+    codes: ['100000672493', '100002204020'], // GUZZANTI GZ 85, GZ 85R
+    heading: 'Kompaktná chladiaca vitrína s objemom 80 litrov',
+    paragraphs: [
+      'Táto voľne stojaca chladiaca vitrína s objemom 80 litrov má tri drôtené police a nerezovú rukoväť, vďaka kompaktným rozmerom sa hodí aj do menších priestorov v kanceláriách, penziónoch či malých prevádzkach.',
+      'Nastaviteľný termostat udrží teplotu od 3 °C, chladenie beží na ekologickom chladive R600a a s nízkou hlučnosťou len 42 dB nebude rušiť ani v tichšom prostredí.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
