@@ -2301,6 +2301,30 @@ const PRODUCT_FACTS_LIST = [
       'Funkcia Pure Direct skráti signálovú cestu na minimum a obmedzí rušenie obvodu, vďaka čomu je zvuk na výstupe čistejší, funkcia Eco automaticky vypne zosilňovač po zvolenej dobe nečinnosti.',
     ],
   },
+  {
+    codes: ['100001664755'], // SONY HT-S40R
+    heading: 'Súprava 5.1 s bezdrôtovými zadnými reproduktormi',
+    paragraphs: [
+      'Sony HT-S40R je 5.1-kanálová súprava domáceho kina s celkovým výkonom 600 W, ktorá spája soundbar, subwoofer a bezdrôtové zadné reproduktory napájané samostatným bezdrôtovým zosilňovačom - medzi predom a zadom miestnosti tak nevedie žiadny kábel.',
+      'Pri spárovaní s kompatibilným televízorom Sony BRAVIA je možné posielať zvuk bezdrôtovo priamo z televízora, medzi zvukovými režimami nájdete Cinema, Music, Standard aj Auto, doplnené o Night a Voice režim pre zrozumiteľnejší dialóg pri nižšej hlasitosti.',
+    ],
+  },
+  {
+    codes: ['100001879531'], // Niceboy VEGA X 8K (akcna kamera)
+    heading: 'Akčná kamera s rozlíšením až 8K',
+    paragraphs: [
+      'Niceboy VEGA X 8K je akčná kamera so senzorom Sony IMX377 a procesorom Ambarella H22, ktorá natáča natívne 4K pri 60 snímkach za sekundu, prípadne 6K pri 30 fps alebo 8K pri 15 fps.',
+      'Telo kamery je vodotesné do hĺbky 12 metrov aj bez ochranného puzdra, elektronická stabilizácia X-Smooth 2.0 potláča otrasy aj menšie nárazy počas natáčania.',
+    ],
+  },
+  {
+    codes: ['100001738453'], // Amica MIA 655 AG
+    heading: 'Vstavaná umývačka riadu so SteamPower a sušením HotAir',
+    paragraphs: [
+      'Táto vstavaná umývačka riadu pre 12 súprav má sušiaci systém HotAir a funkciu SteamPower, ktorá na konci programu pridá horúcu paru pre lepší lesk a hygienickú čistotu riadu.',
+      'Dve nezávislé ramená Aqua spray zaisťujú dôkladné umytie v oboch košoch súčasne, funkcia polovičnej náplne šetrí vodu aj energiu, ak umývačku nenaplníte úplne.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
