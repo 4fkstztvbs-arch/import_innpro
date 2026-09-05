@@ -2140,6 +2140,54 @@ const PRODUCT_FACTS_LIST = [
       'Kolieska a rukoväť uľahčujú prenášanie a presúvanie boxu, vďaka čomu sa hodí na dlhšie výlety, kempovanie alebo do auta na cesty.',
     ],
   },
+  {
+    codes: ['100002106647'], // BEKO BM3WFSU37013WW
+    heading: 'Technológia EnergySpin a program Denný Express',
+    paragraphs: [
+      'Táto práčka má technológiu EnergySpin, ktorá šetrí energiu aj pri bežných programoch, senzory OptiSense zase presne prispôsobia množstvo vody a energie danej náplni bielizne.',
+      'Program Denný Express vyperie plnú náplň už za 28 minút, funkcia Fast+ dokáže skrátiť vybrané programy až o polovicu ich štandardnej dĺžky, parná funkcia SteamCure pomáha uvoľniť aj zaschnuté škvrny.',
+    ],
+  },
+  {
+    codes: ['100002202301'], // Gorenje WE694A1
+    heading: 'Bubon WaveActive so stabilizáciou StableTech',
+    paragraphs: [
+      'Táto práčka má bubon WaveActive so špeciálnymi 3D vlnitými rebrami, ktoré šetrne perú bielizeň s minimálnym pokrčením, bočné a spodné panely StableTech zase znižujú vibrácie a hlučnosť aj pri vyšších otáčkach odstreďovania.',
+      'Parné ošetrenie na konci vybraného programu výrazne obmedzí pokrčenie, zápach aj množstvo baktérií, funkcia IonTech pomocou prirodzenej ionizácie odstráni až o 30 % viac škvŕn aj pri nižších teplotách prania.',
+    ],
+  },
+  {
+    codes: ['100001831657'], // Whirlpool FFB 8469 BV EE
+    heading: 'Technológia FreshCare+ a Steam Refresh',
+    paragraphs: [
+      'Táto práčka má technológiu 6th Sense, ktorá prispôsobí množstvo vody, energie aj dĺžku programu podľa množstva a typu bielizne, invertorový motor ponúka 6 špeciálnych pohybov bubna prispôsobených rôznym typom tkanín.',
+      'Funkcia FreshCare+ pomocou pary a jemného pohybu bubna udrží bielizeň čerstvú až 6 hodín po skončení prania, program Steam Refresh zase osvieži oblečenie bez klasického prania už za 20 minút.',
+    ],
+  },
+  {
+    codes: ['100002141238'], // JBL BAR 2.1 Deep Bass MK2
+    heading: 'Soundbar s bezdrôtovým subwooferom a výkonom 300 W',
+    paragraphs: [
+      'JBL Bar 2.1 Deep Bass MK2 je 2.1-kanálový soundbar s bezdrôtovým 6,5" subwooferom a celkovým výkonom 300 W, ktorý pridá filmom aj hudbe výrazne hlbšie basy oproti vstavaným reproduktorom televízora.',
+      'Podpora Dolby Digital a JBL Surround Sound vytvára priestorovejší zvuk bez potreby ďalších reproduktorov, pripojenie k televízoru je možné cez HDMI ARC alebo optický kábel, k mobilu zase cez Bluetooth.',
+    ],
+  },
+  {
+    codes: ['100002203854'], // JBL Cinema SB580
+    heading: 'Soundbar s virtuálnym Dolby Atmos a výkonom 440 W',
+    paragraphs: [
+      'JBL Cinema SB580 je 3.1-kanálový soundbar so samostatným centrálnym kanálom pre čistejší dialóg pri sledovaní filmov a seriálov, celkový výkon dosahuje 440 W vrátane 200W bezdrôtového subwoofera.',
+      'Virtuálny Dolby Atmos vytvára dojem priestorového zvuku aj bez fyzických výškových reproduktorov, pripojenie k televízoru je možné cez HDMI eARC, HDMI alebo optický kábel.',
+    ],
+  },
+  {
+    codes: ['100000029571', '100000029567'], // Amica VT862AM, VT862AB
+    heading: 'Retro jednodverová chladnička s mrazničkou',
+    paragraphs: [
+      'Táto kompaktná retro chladnička s mrazničkou má mechanické ovládanie teploty a automatické odmrazovanie chladiacej časti, mraziaci priestor s objemom 13 litrov je vhodný na menšie zásoby mrazených potravín.',
+      'Vnútri sú dve bezpečnostné sklenené police a zásuvka na zeleninu, tri praktické priehradky vo dvierkach ponúkajú ďalší úložný priestor.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
