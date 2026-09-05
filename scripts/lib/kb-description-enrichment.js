@@ -1408,7 +1408,7 @@ const PRODUCT_FACTS_LIST = [
   },
   {
     // Beko volne stojace kombinovane chladnicky s NeoFrost Dual Cooling
-    codes: ['100002201698', '100002201699', '100002201701', '100002201692'],
+    codes: ['100002201698', '100002201699', '100002201701', '100002201692', '100002134762', '100002103825'],
     heading: 'NeoFrost Dual Cooling a HarvestFresh',
     paragraphs: [
       'Táto chladnička má systém NeoFrost Dual Cooling - dva samostatné chladiace okruhy pre chladničku a mrazničku, vďaka ktorým sa vzduch medzi nimi nemieša a v mrazničke sa netvorí námraza, takže ju netreba ručne odmrazovať.',
@@ -1631,6 +1631,38 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Táto práčka má technológiu EnergySpin, ktorá dokáže ušetriť až 35 % energie aj pri bežných programoch, nielen v úspornom režime Eco, funkcia SteamCure zase pomocou pary osvieži bielizeň a uľahčí žehlenie.',
       'Programy Outdoor/Sport a CoolClean sú určené na športové oblečenie s dôrazom na zachovanie jeho funkčných vlastností pri nižších teplotách prania, o tichý chod sa stará invertorový motor ProSmart.',
+    ],
+  },
+  {
+    codes: ['100001951056'], // JBL Partybox 710
+    heading: 'Výkon 800 W s mikrofónovým aj gitarovým vstupom',
+    paragraphs: [
+      'JBL PartyBox 710 má celkový výkon 800 W vďaka dvojici 8" wooferov a dvom výškovým reproduktorom, čo z neho robí jeden z najvýkonnejších reproduktorov v rade PartyBox určený na ozvučenie väčších priestorov a záhradných akcií.',
+      'Vstupy pre mikrofón aj gitaru umožňujú spievať alebo hrať naživo priamo cez reproduktor, krytie IPX4 ho chráni pred zašpliechaním, ovládanie doplní aplikácia JBL.',
+    ],
+  },
+  {
+    codes: ['100002069758'], // Yamaha TT-S303
+    heading: 'Gramofón s konceptom True Sound',
+    paragraphs: [
+      'Yamaha TT-S303 je gramofón s remeňovým pohonom a hliníkovým tanierom s priemerom 30 cm, naladený podľa konceptu Yamaha True Sound, ktorého cieľom je čo najvernejšia a najdetailnejšia reprodukcia zvuku.',
+      'Vstavaný fonopredzosilňovač (s možnosťou vypnutia prepínačom PHONO EQ) umožňuje pripojiť gramofón aj k zosilňovaču bez samostatného PHONO vstupu.',
+    ],
+  },
+  {
+    codes: ['100000910016'], // Yamaha RX-V4A
+    heading: 'AV receiver s YPAO kalibráciou a MusicCast',
+    paragraphs: [
+      'Yamaha RX-V4A je 5.2-kanálový AV receiver s podporou 8K/4K120 HDMI, Dolby TrueHD a DTS-HD Master Audio, vhodný ako základ domáceho kina aj pre hranie hier vo vysokom rozlíšení.',
+      'Automatická kalibrácia YPAO pomocou priloženého mikrofónu zmeria akustiku miestnosti a podľa nej doladí zvuk, receiver podporuje aj MusicCast na streamovanie hudby a bezdrôtové surround reproduktory.',
+    ],
+  },
+  {
+    codes: ['100001916641'], // Whirlpool TDLRBX 6252BS EU
+    heading: 'Technológia 6th Sense a tichý pohon ZEN',
+    paragraphs: [
+      'Táto práčka s vrchným plnením má technológiu 6th Sense, ktorá pomocou senzorov rozpozná množstvo a typ bielizne a podľa toho automaticky upraví teplotu, množstvo vody aj rýchlosť odstreďovania.',
+      'Priamy pohon ZEN nahrádza klasický remeňový pohon a otáča bubnom priamo, vďaka čomu má práčka menej vibrácií a nižšiu hlučnosť aj pri odstreďovaní, program Hygiene 60° zase odstráni až 99 % baktérií.',
     ],
   },
 ];
