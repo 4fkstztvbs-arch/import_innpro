@@ -1713,6 +1713,54 @@ const PRODUCT_FACTS_LIST = [
       'Displej zobrazuje aj vlhkosť vo vnútri, aby korok nevysychal a nevznikala pleseň, vinotéka má tiež alarm pri príliš vysokej teplote aj pri otvorených dvierkach.',
     ],
   },
+  {
+    codes: ['100002102795'], // Electrolux EW6F3484C
+    heading: 'Senzor SensiCare',
+    paragraphs: [
+      'Táto práčka radu SensiCare 600 automaticky prispôsobí dĺžku prania aj spotrebu vody a energie podľa toho, koľko bielizne práve perie, vďaka čomu sa bielizeň neperie zbytočne dlho.',
+      'Invertorový motor zaisťuje tichý a spoľahlivý chod, súčasťou je aj rýchly program na menšiu náplň a detská poistka.',
+    ],
+  },
+  {
+    codes: ['100001915648'], // Gorenje R619EES5
+    heading: 'Jednodverová chladnička s DynamicAir',
+    paragraphs: [
+      'Táto jednodverová chladnička bez mrazničky má systém DynamicAir, ktorý rovnomerne rozvádza chladený vzduch po celom vnútornom priestore, a technológiu No Frost, vďaka ktorej odpadá ručné odmrazovanie.',
+      'Funkcia SuperCool na chvíľu zníži teplotu na maximum, aby čerstvo vložené potraviny rýchlo vychladli, zásuvka CrispZone s reguláciou vlhkosti je určená na ovocie a zeleninu.',
+    ],
+  },
+  {
+    codes: ['100002134628'], // Samsung HW-QS700F
+    heading: 'Soundbar s Convertible Fit a Q-Symphony',
+    paragraphs: [
+      'Samsung HW-QS700F je soundbar s konfiguráciou 3.1.2 kanála a podporou Dolby Atmos aj DTS:X, vstavaný gyroskopický senzor Convertible Fit rozpozná, či soundbar stojí na stole alebo visí na stene, a podľa toho automaticky preusporiada úlohy predných a hore smerujúcich reproduktorov.',
+      'Pri spárovaní s kompatibilným Samsung televízorom funkcia Q-Symphony spojí zvuk soundbaru s vstavanými reproduktormi televízora do jedného súvislejšieho zvukového obrazu.',
+    ],
+  },
+  {
+    codes: ['100002202448'], // Gorenje DE69CS
+    heading: 'Sušička radu G600 s NatureDry a TwinAir',
+    paragraphs: [
+      'Táto sušička s tepelným čerpadlom patrí do radu G600 a má systém NatureDry, ktorý napodobňuje sušenie na čerstvom vzduchu, technológia TwinAir zase optimalizuje prúdenie vzduchu v bubne pre rovnomernejšie sušenie.',
+      'Program FastDry Pro skráti dobu sušenia menších náplní, funkcia Wash&Dry Sync prispôsobí program sušenia podľa toho, aký program prania predtým bežal na práčke rovnakej značky, o tichý chod sa stará invertorový motor PowerDrive.',
+    ],
+  },
+  {
+    codes: ['100002203170'], // Candy BR 10N3BX-S
+    heading: 'Sušička s AI Smart Move a aplikáciou hOn',
+    paragraphs: [
+      'Táto sušička s tepelným čerpadlom má funkciu AI Smart Move, ktorá pravidelným premiešavaním bielizne v bubne zabraňuje jej zamotávaniu a zaisťuje rovnomerné sušenie celej náplne.',
+      'Program Easy Iron Plus skráti čas potrebný na žehlenie uvoľnením záhybov počas sušenia, cez aplikáciu hOn je možné sušičku ovládať a sledovať priebeh programu na diaľku z telefónu.',
+    ],
+  },
+  {
+    codes: ['100002105358'], // Beko BMTD37146W
+    heading: 'Štíhla sušička s tepelným čerpadlom EcoGentle',
+    paragraphs: [
+      'Táto sušička má hĺbku len 46 cm, vďaka čomu sa zmestí aj do menších priestorov alebo na užšiu práčku, tepelné čerpadlo EcoGentle zároveň suší pri nižších teplotách, čo šetrí energiu a chráni tvar aj farby bielizne.',
+      'Ochrana proti pokrčeniu udržiava bubon v pohybe až 8 hodín po skončení programu, ak si bielizeň nestihnete vybrať hneď, medzi programami nájdete aj špeciálne Outdoor a Duvet (paplóny).',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
