@@ -1593,6 +1593,46 @@ const PRODUCT_FACTS_LIST = [
       'Režim AI Energy Mode priebežne sleduje spotrebu a podľa toho ju sám optimalizuje, cez aplikáciu SmartThings je možné práčku ovládať a sledovať priebeh prania na diaľku z telefónu.',
     ],
   },
+  {
+    codes: ['100002102637'], // GUZZANTI GZ 363A
+    heading: 'Presklená chladiaca vitrína s 5 policami',
+    paragraphs: [
+      'Táto presklená chladiaca vitrína má päť nastaviteľných drôtených políc a samozatváracie dvierka, vďaka čomu sa hodí do cukrární, barov aj reštaurácií na prezentáciu aj chladenie tovaru súčasne.',
+      'Nastaviteľný termostat udrží teplotu v rozmedzí od -1 °C do +10 °C, chladenie beží na ekologickom chladive R600a bez CFC a vitrína má automatické odmrazovanie.',
+    ],
+  },
+  {
+    codes: ['100002103186'], // Electrolux EW6SM226CC
+    heading: 'Úzka práčka so SensiCare',
+    paragraphs: [
+      'Táto úzka práčka (600 rad) má technológiu SensiCare, ktorá pre každú náplň automaticky upraví dĺžku prania aj spotrebu vody a energie, aby sa bielizeň neprala zbytočne dlho.',
+      'Funkcia SoftPlus zaistí dôkladné namočenie a rovnomerné rozvedenie aviváže ku každému vláknu, Eco TimeManager zase umožňuje skrátiť dĺžku pracieho programu podľa toho, koľko času máte k dispozícii.',
+    ],
+  },
+  {
+    codes: ['100002203899', '100002203894'], // JBL PartyBox 330W, 330
+    heading: 'Výkon 280 W a vymeniteľná batéria',
+    paragraphs: [
+      'JBL PartyBox 330 má celkový výkon 280 W vďaka dvojici 6,5" wooferov a dvom výškovým reproduktorom, vymeniteľná batéria JBL Battery 400 vydrží až 18 hodín prehrávania a rýchlonabíjanie Fast Charge dobije 10 minútami nabíjania ďalšie približne 2 hodiny počúvania.',
+      'Teleskopická rukoväť a gumené kolieska umožňujú reproduktor jednoducho ťahať ako kufor, technológia Auracast zase dokáže prepojiť viacero reproduktorov (aj od iných výrobcov s Auracast) do jedného zvukového celku.',
+    ],
+  },
+  {
+    codes: ['100001947562'], // BEKO DPY8506GXB2
+    heading: 'Sušička s tepelným čerpadlom EcoGentle a SteamCure',
+    paragraphs: [
+      'Táto sušička má tepelné čerpadlo EcoGentle, ktoré suší pri nižších teplotách než klasický ohrev - bielizeň si tak lepšie zachová tvar a farby a zároveň sa znižuje spotreba energie.',
+      'Funkcia SteamCure vstrekne do bubna paru, ktorá osvieži bielizeň, odstráni pachy a záhyby - žehlenie tak často odpadá úplne, o tichý chod sa stará invertorový motor ProSmart.',
+    ],
+  },
+  {
+    codes: ['100002201603'], // BEKO B5WFU68418WBG
+    heading: 'Technológia EnergySpin a SteamCure',
+    paragraphs: [
+      'Táto práčka má technológiu EnergySpin, ktorá dokáže ušetriť až 35 % energie aj pri bežných programoch, nielen v úspornom režime Eco, funkcia SteamCure zase pomocou pary osvieži bielizeň a uľahčí žehlenie.',
+      'Programy Outdoor/Sport a CoolClean sú určené na športové oblečenie s dôrazom na zachovanie jeho funkčných vlastností pri nižších teplotách prania, o tichý chod sa stará invertorový motor ProSmart.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
