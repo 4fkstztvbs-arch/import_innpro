@@ -1504,6 +1504,55 @@ const PRODUCT_FACTS_LIST = [
       'Funkcia FastFreeze zmrazí potraviny pri teplote až -24 °C a po približne 26 hodinách sa automaticky vypne, režim HolidayMode zase obmedzí spotrebu energie počas dlhšej neprítomnosti na minimum.',
     ],
   },
+  {
+    codes: ['122772174555'], // Yamaha NS-777
+    heading: 'Trojpásmové reproduktory s tienením',
+    paragraphs: [
+      'Yamaha NS-777 sú trojpásmové stĺpové reprosústavy s bassreflexovým vyladením a dvojicou 20cm basových meničov, doplnených stredotónovým a výškovým meničom - nominálny výkon je 100 W (250 W špičkovo) pri impedancii 6 Ω.',
+      'Reproduktory sú magneticky tienené, vďaka čomu sa dajú umiestniť aj bližšie k obrazovke alebo iným citlivým zariadeniam bez rušenia obrazu.',
+    ],
+  },
+  {
+    codes: ['130290374555'], // Yamaha A-S701
+    heading: 'Integrovaný zosilňovač s koncepciou ToP-ART',
+    paragraphs: [
+      'Yamaha A-S701 je stereo zosilňovač postavený na koncepcii ToP-ART (Total Purity Audio Reproduction Technology) so symetrickým usporiadaním ľavého a pravého kanála, ktoré má zaistiť čo najčistejší prenos signálu.',
+      'Vstavaný fonopredzosilňovač umožňuje priame pripojenie gramofónu, digitálne vstupy (optický, koaxiálny, USB) zase pripoja aj počítač alebo iný digitálny zdroj zvuku bez potreby externého DAC.',
+    ],
+  },
+  {
+    codes: ['100000159595'], // Yamaha TT-N503 / MusicCast VINYL 500
+    heading: 'Gramofón so sieťovým streamovaním MusicCast',
+    paragraphs: [
+      'Yamaha MusicCast VINYL 500 je gramofón s remeňovým pohonom, prednamontovanou MM prenoskou a vstavaným fonopredzosilňovačom, vďaka ktorému sa dá pripojiť priamo do akéhokoľvek zosilňovača bez ďalšieho zariadenia.',
+      'Vstavané Wi-Fi a MusicCast umožňujú streamovať hudbu z platne bezdrôtovo do reproduktorov v ďalších miestnostiach, gramofón podporuje aj Bluetooth a AirPlay pre priame prehrávanie zo streamovacích služieb.',
+    ],
+  },
+  {
+    codes: ['100002103215'], // Electrolux LRT7ME39X
+    heading: 'Monoklimatická chladnička s MultiFlow',
+    paragraphs: [
+      'Táto voľne stojaca monoklimatická chladnička (bez mrazničky) má funkciu MultiFlow, ktorá rovnomerne rozvádza chladený vzduch po celom vnútornom priestore a udržiava stabilnú teplotu.',
+      'Zásuvka ExtraChill udržiava nižšiu teplotu než zvyšok chladničky vďaka aktívnej cirkulácii vzduchu, vhodnú napríklad na ryby, syry alebo studené misy.',
+    ],
+  },
+  {
+    codes: ['100000468219'], // Panasonic SC-MAX3500
+    heading: 'Výkonný party systém s AIRQUAKE BASS',
+    paragraphs: [
+      'Panasonic SC-MAX3500 je výkonný domáci audio systém s 25cm superwooferom a funkciou AIRQUAKE BASS, ktorá pomocou bassreflexového portu prenáša basy bez straty rezonancie vznikajúcej za membránou reproduktora.',
+      'Farebné osvetlenie reproduktorov sa synchronizuje s prehrávanou hudbou, appka MAX Juke umožňuje vytvárať playlisty a systém má aj vstavaný CD prehrávač a konektory pre mikrofóny na karaoke.',
+    ],
+  },
+  {
+    // Electrolux PerfectCare 700 pracky s vrchnym plnenim (SteamCare + SensiCare)
+    codes: ['100001474465', '100001915625', '100002126591'],
+    heading: 'SteamCare a senzor SensiCare',
+    paragraphs: [
+      'Táto práčka s vrchným plnením má parný program SteamCare, ktorý pomocou pary uvoľní vlákna látky a zníži počet záhybov až o tretinu, vďaka čomu je bielizeň po vypraní ľahšie žehliť.',
+      'Systém SensiCare pomocou senzorov rozpozná množstvo a savosť bielizne v bubne a podľa toho automaticky upraví dĺžku prania aj spotrebu vody a energie.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
