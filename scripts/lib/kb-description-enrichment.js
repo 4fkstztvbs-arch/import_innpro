@@ -1852,7 +1852,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100001091835'], // Beko RFSA240M43WN
+    codes: ['100001091835', '100002069766'], // Beko RFSA240M43WN, RFSA210K40WN
     heading: 'Zásuvková mraznička s MinFrost a FreezerGuard',
     paragraphs: [
       'Táto zásuvková mraznička má technológiu MinFrost, ktorá obmedzuje tvorbu námrazy vo vnútri a znižuje tak potrebu častého odmrazovania.',
@@ -2065,6 +2065,46 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Yamaha CD-S303 má digitálno-analógový prevodník s rozlíšením 192 kHz/24 bit a prehráva okrem klasických CD aj súbory MP3, WMA, FLAC a AAC z USB.',
       'Režim Pure Direct vypne digitálny výstup aj displej a obmedzí tak rušenie obvodu, vďaka čomu je analógový výstup čo najčistejší, laserová optika je navyše uložená na plávajúcom mechanizme odolnom voči vibráciám.',
+    ],
+  },
+  {
+    codes: ['100002103208', '100002103205'], // Electrolux LKR540066X, LKR520066W
+    heading: 'Rúra so systémom HotAir',
+    paragraphs: [
+      'Táto sklokeramická rúra má systém HotAir, ktorý rovnomerne rozvádza horúci vzduch po celom vnútornom priestore rúry - vďaka tomu sa jedlo prepečie rovnomerne aj na viacerých úrovniach naraz.',
+      'K dispozícii sú funkcie horného aj spodného ohrevu, grilu a horúceho vzduchu, sklokeramická doska ponúka 4 varné zóny s výkonom do 1800 W na rýchle zohriatie hrncov.',
+    ],
+  },
+  {
+    codes: ['100002075535'], // Concept LK3354wh
+    heading: 'Kompaktná chladnička s technológiou Less Frost',
+    paragraphs: [
+      'Táto kompaktná chladnička (šírka len 54 cm) má technológiu Less Frost, ktorá obmedzuje tvorbu námrazy vo vnútri, čím sa znižuje spotreba energie a predlžuje čas medzi odmrazovaniami.',
+      'Funkcia Fast Cool na chvíľu zrýchli chladenie po vložení väčšieho množstva čerstvých potravín, aby si zachovali čo najviac živín.',
+    ],
+  },
+  {
+    codes: ['100002202454'], // Gorenje WSAP84AWI
+    heading: 'Technológia AdaptTech a Aqua JetWash',
+    paragraphs: [
+      'Táto štíhla práčka (hĺbka 46,5 cm) má funkciu AdaptTech, ktorá si postupne zapamätá vaše obľúbené nastavenia (rýchlosť odstreďovania, množstvo vody, doplnkové funkcie) a automaticky ich ponúkne pri ďalšom praní.',
+      'Program ExtraHygiene s parným ošetrením odstráni až 99,9 % baktérií a kvasiniek z bielizne, cez aplikáciu ConnectLife je možné prací program ovládať a sledovať na diaľku.',
+    ],
+  },
+  {
+    codes: ['100001124054'], // ELECTROLUX ESF2400OW
+    heading: 'Kompaktná umývačka riadu pre 6 súprav',
+    paragraphs: [
+      'Táto kompaktná umývačka riadu je určená pre menšie domácnosti a pojme 6 súprav riadu, medzi 6 programami je aj rýchly 20-minútový program a jemný program na sklo pri 40 °C.',
+      'Sušenie využíva zvyškové teplo z posledného oplachu namiesto ďalšieho ohrevu, čím šetrí energiu, indikátor soli a leštidla upozorní na potrebu doplnenia.',
+    ],
+  },
+  {
+    codes: ['100002203245'], // WHIRLPOOL TW721DSFCEE
+    heading: 'Technológia 6th Sense',
+    paragraphs: [
+      'Táto práčka s vrchným plnením má technológiu 6th Sense, ktorá pomocou senzorov rozpozná množstvo a typ bielizne a podľa toho automaticky upraví množstvo vody, energie aj dĺžku programu.',
+      'Vďaka tomuto prispôsobeniu sa bielizeň neperie zbytočne dlho a práčka zároveň dosahuje tichší chod s menšími vibráciami pri odstreďovaní.',
     ],
   },
 ];
