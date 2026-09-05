@@ -1907,6 +1907,54 @@ const PRODUCT_FACTS_LIST = [
       'Parná funkcia SteamCure pomáha lepšie uvoľniť nečistoty počas prania a obmedzuje pokrčenie pri odstreďovaní, rýchly program Xpress SuperShort vyperie bielizeň už za 14 minút.',
     ],
   },
+  {
+    codes: ['100001091033'], // Whirlpool WHM22113 3
+    heading: 'Pultová mraznička s vyváženým vekom',
+    paragraphs: [
+      'Táto pultová mraznička dokáže zmraziť až 20 kg potravín za 24 hodín a pri výpadku prúdu udrží nízku teplotu až 60 hodín, čo je pri dlhších výpadkoch výrazná výhoda oproti bežným zásuvkovým mrazničkám.',
+      'Vyvážené veko sa jemne zatvára aj otvára bez potreby väčšej sily, vnútri sú dva drôtené košíky na prehľadné triedenie potravín.',
+    ],
+  },
+  {
+    codes: ['130290334555'], // Yamaha A-S301
+    heading: 'Integrovaný zosilňovač s režimom Pure Direct',
+    paragraphs: [
+      'Yamaha A-S301 je stereo zosilňovač s výkonom 2× 95 W, ktorý umožňuje pripojiť a nezávisle ovládať dva páry reproduktorov (A, B, alebo oba súčasne).',
+      'Režim Pure Direct skráti signálovú cestu na minimum a vypne nepoužívané obvody, čím dosahuje čistejší zvuk, vstavaný fonopredzosilňovač zase umožňuje priame pripojenie gramofónu.',
+    ],
+  },
+  {
+    codes: ['100002203784'], // Albrecht DR 1000
+    heading: 'All-in-one soundsystém s DAB+ a HDMI',
+    paragraphs: [
+      'Albrecht DR 1000 je 2.1 soundbar so samostatným 30W subwooferom, ktorý spája televízny zvuk (cez HDMI), internetové rádio, DAB+, FM rádio, CD prehrávač a Spotify Connect do jedného zariadenia.',
+      'Farebný displej zobrazuje názov stanice, informácie o programe aj názov skladby a interpreta pri DAB a internetovom rádiu, ovládanie je možné aj cez aplikáciu Oktiv v telefóne.',
+    ],
+  },
+  {
+    codes: ['100002077152'], // Panasonic SC-TMAX45E-K
+    heading: 'Párty reproduktor s výkonom 1000 W',
+    paragraphs: [
+      'Panasonic SC-TMAX45 má celkový výkon až 1000 W vďaka dvojici 16cm basových reproduktorov, dvom výškovým meničom a dvom bassreflexovým portom, pri hmotnosti len 12 kg vďaka konštrukcii z MDF dosiek.',
+      'Vstupy pre mikrofón aj gitaru umožňujú hrať a spievať naživo priamo cez reproduktor, až tri reproduktory SC-TMAX45 sa dajú prepojiť do jedného ozvučenia s násobným výkonom.',
+    ],
+  },
+  {
+    codes: ['100002136531'], // Guzzanti GZ 210G
+    heading: 'Kompaktná vinotéka pre 16 fliaš',
+    paragraphs: [
+      'Táto kompaktná vinotéka s objemom 48 litrov pojme až 16 fliaš vína a v energetickej triede B patrí medzi úspornejšie modely v tejto kategórii.',
+      'Presklené dvierka umožňujú sledovať obsah bez otvárania, vďaka čomu sa teplota vo vnútri zbytočne nemení pri každej kontrole zásoby.',
+    ],
+  },
+  {
+    codes: ['100002131081'], // Beko FBMA61330GXDT
+    heading: 'Kombinovaný sporák s funkciou SteamShine a AirFry',
+    paragraphs: [
+      'Táto multifunkčná rúra kombinovaného sporáka (plynová varná doska + elektrická rúra) má funkciu SteamShine, ktorá pomocou pary uľahčuje čistenie rúry po pečení, a funkciu AirFry na prípravu jedla s chrumkavou kôrkou bez väčšieho množstva oleja.',
+      'Teleskopické výsuvy umožňujú bezpečne úplne vytiahnuť plech aj s jedlom bez rizika popálenia, plynová varná doska má tri bežné horáky a jeden wok horák s vyšším výkonom.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
