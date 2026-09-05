@@ -2245,6 +2245,38 @@ const PRODUCT_FACTS_LIST = [
       'Sklokeramická varná doska s ovládaním pomocou otočných gombíkov ponúka rýchle zohriatie varných zón, zvyškové teplo signalizujú kontrolky, aby ste sa nepopálili ešte aj po vypnutí sporáka.',
     ],
   },
+  {
+    codes: ['100002136355'], // JBL PartyBox Encore 2
+    heading: 'Výkon 100 W s bezdrôtovým mikrofónom na karaoke',
+    paragraphs: [
+      'JBL PartyBox Encore 2 má výkon 100 W RMS vďaka 135mm basovému reproduktoru a dvojici 20mm výškových meničov, technológia AI Sound Boost pritom optimalizuje zvuk podľa prehrávaného signálu aj pri vyššej hlasitosti.',
+      'V balení nájdete bezdrôtový digitálny mikrofón určený priamo na karaoke, krytie IPX4 chráni reproduktor pred zašpliechaním, technológia Auracast umožňuje prepojiť viacero reproduktorov do jedného zvukového celku.',
+    ],
+  },
+  {
+    codes: ['130212724555', '130212734555'], // Yamaha R-S202D (BLACK/SILVER)
+    heading: 'Stereo receiver s Bluetooth a DAB+',
+    paragraphs: [
+      'Yamaha R-S202D je stereo receiver s výkonom 2× 100 W (8 Ω) a vstavaným Bluetooth na bezdrôtové streamovanie hudby priamo z telefónu, FM aj DAB+ tuner pridáva príjem rozhlasových staníc bez potreby ďalšieho zariadenia.',
+      'Svorky pre dva páry reproduktorov (A/B) umožňujú prepínať medzi dvomi miestnosťami alebo počúvať oba páry súčasne, predný 6,3mm výstup na slúchadlá je určený na počúvanie bez reproduktorov.',
+    ],
+  },
+  {
+    codes: ['100000902551'], // Gorenje RF4142PW4
+    heading: 'Kompaktná kombinovaná chladnička s mechanickým ovládaním',
+    paragraphs: [
+      'Táto kompaktná kombinovaná chladnička (šírka 55 cm) má mechanické ovládanie teploty bez zbytočnej elektroniky, vďaka čomu je obsluha jednoduchá a spoľahlivá.',
+      'Chladiaca časť sa odmrazuje automaticky, mraziaca časť s objemom 41 litrov a mraziacim výkonom 2 kg za 24 hodín sa odmrazuje ručne, pri výpadku prúdu udrží mraznička teplotu potravín až 22 hodín.',
+    ],
+  },
+  {
+    codes: ['100002104542'], // Candy CDPH 2D947X
+    heading: 'Umývačka riadu s funkciou ADDISH',
+    paragraphs: [
+      'Táto úzka umývačka riadu pre 9 súprav má funkciu ADDISH, ktorá umožňuje doplniť zabudnutý riad do umývačky aj po spustení programu bez jeho reštartovania.',
+      'Medzi 8 programami je aj rýchly 32-minútový program na málo znečistený riad, pamäťová funkcia si zapamätá naposledy použitý program pre ďalšie použitie.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
