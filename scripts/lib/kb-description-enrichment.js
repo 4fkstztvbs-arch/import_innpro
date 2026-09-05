@@ -1754,7 +1754,7 @@ const PRODUCT_FACTS_LIST = [
     ],
   },
   {
-    codes: ['100002105358'], // Beko BMTD37146W
+    codes: ['100002105358', '100002148274'], // Beko BMTD37146W, BM3T372E0W
     heading: 'Štíhla sušička s tepelným čerpadlom EcoGentle',
     paragraphs: [
       'Táto sušička má hĺbku len 46 cm, vďaka čomu sa zmestí aj do menších priestorov alebo na užšiu práčku, tepelné čerpadlo EcoGentle zároveň suší pri nižších teplotách, čo šetrí energiu a chráni tvar aj farby bielizne.',
@@ -1828,7 +1828,7 @@ const PRODUCT_FACTS_LIST = [
   },
   {
     // Candy ProDry susicky s teplenym cerpadlom (rovnaka technologicka rada)
-    codes: ['100002203417', '100002203401', '100002203431'],
+    codes: ['100002203417', '100002203401', '100002203431', '100002203406', '100002203336', '100002203432', '100002203335', '100002203433'],
     heading: 'Úzka sušička radu ProDry s tepelným čerpadlom',
     paragraphs: [
       'Táto úzka sušička s tepelným čerpadlom má invertorový motor pre tichší a energeticky úspornejší chod v porovnaní s klasickým kondenzačným ohrevom.',
@@ -1993,6 +1993,54 @@ const PRODUCT_FACTS_LIST = [
     paragraphs: [
       'Táto chladnička v retro dizajne má mechanické otočné ovládanie teploty a automatické odmrazovanie chladiacej časti, veľké kovové rukoväte na dvierkach dopĺňajú celkový retro vzhľad.',
       'V chladiacej časti sú štyri sklenené police (tri výškovo nastaviteľné) s nosnosťou do 100 kg a zásuvka na ovocie a zeleninu, LED osvetlenie rovnomerne osvetľuje celý vnútorný priestor.',
+    ],
+  },
+  {
+    codes: ['100002201203'], // Beko B5T4924SWW
+    heading: 'Sušička s tepelným čerpadlom EcoGentle',
+    paragraphs: [
+      'Táto sušička s kapacitou 9 kg má tepelné čerpadlo EcoGentle, ktoré suší pri nižších teplotách než klasický ohrev - bielizeň si tak lepšie zachová tvar a farby a zároveň sa znižuje spotreba energie.',
+      'Medzi 15 programami nájdete aj program na košele so šetrnejším sušením proti pokrčeniu a program Outdoor určený na funkčné a športové oblečenie.',
+    ],
+  },
+  {
+    codes: ['100002102297'], // Beko BM3WFU3941WBW
+    heading: 'Senzory OptiSense a technológia EnergySpin',
+    paragraphs: [
+      'Táto práčka má senzory OptiSense, ktoré presne prispôsobia množstvo vody a energie danej náplni bielizne, technológia EnergySpin zase šetrí až 35 % energie aj pri bežných programoch ako bavlna, syntetika či rýchle pranie.',
+      'Parná funkcia SteamCure pomáha uvoľniť aj zaschnuté škvrny hlbším prenikaním do vlákien počas prania.',
+    ],
+  },
+  {
+    codes: ['100002136530'], // Guzzanti GZ 195
+    heading: 'Kompaktná chladiaca vitrína s 3 policami',
+    paragraphs: [
+      'Táto voľne stojaca chladiaca vitrína s objemom 195 litrov má tri drôtené police a moderný dizajn, vďaka ktorému sa hodí do menších prevádzok, kaviarní alebo obchodíkov na chladenie aj prezentáciu tovaru.',
+      'Presklené vyhotovenie umožňuje vidieť obsah bez otvárania dvierok, čím sa zbytočne nemení teplota vo vnútri pri každej kontrole zásoby.',
+    ],
+  },
+  {
+    codes: ['100001959520'], // Guzzanti GZ 340A
+    heading: 'Jednodverová monoklimatická chladnička',
+    paragraphs: [
+      'Táto jednodverová chladnička bez mrazničky má objem 340 litrov a šesť sklenených políc doplnených zásuvkou na ovocie a zeleninu, vhodná je napríklad ako doplnková chladnička do garáže či na chatu.',
+      'Ekologické chladivo a nízka ročná spotreba energie (114 kWh) radia tento model medzi úspornejšie jednodverové chladničky v tejto kategórii.',
+    ],
+  },
+  {
+    codes: ['100002203332'], // Candy CNWQ4G56G2
+    heading: 'Dvojzónová vinotéka DiVino so 56 fľašami',
+    paragraphs: [
+      'Táto dvojzónová vinotéka DiVino pojme až 56 fliaš vína a umožňuje nastaviť dve nezávislé teplotné zóny v rozsahu 5 až 20 °C, vhodné napríklad na súčasné uchovávanie bieleho a červeného vína pri rôznych teplotách.',
+      'Cez aplikáciu hOn je možné sledovať informácie zo služby Vivino vrátane tipov na párovanie jedla s vínom, dvierka s UV filtrom chránia víno pred škodlivým svetlom a pamäťová funkcia si pri výpadku prúdu zapamätá nastavenia.',
+    ],
+  },
+  {
+    codes: ['100002104941'], // GORENJE WPNEI94A1SWIFI
+    heading: 'Technológia WaveActive a StableTech',
+    paragraphs: [
+      'Táto práčka má bubon s technológiou WaveActive, ktorý šetrne perie bielizeň bez poškodenia vlákien, bočné panely StableTech zase znižujú vibrácie a zvyšujú stabilitu práčky počas odstreďovania.',
+      'Technológia SterilTub odstraňuje baktérie z bubna po praní, funkcia Power JetWash je určená na silne znečistenú bielizeň, cez aplikáciu ConnectLife je možné prací program spustiť a sledovať na diaľku.',
     ],
   },
 ];
