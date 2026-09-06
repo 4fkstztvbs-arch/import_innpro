@@ -264,5 +264,19 @@
     "subject": "Re: Vaša objednávka č. 202600700 sa práve vybavuje",
     "orderCode": "202600700",
     "matchedBy": "code"
+  },
+  "<20260906203427.2F101BE5@pobox.sk>": {
+    "draftedAt": "2026-09-06T20:43:22.161Z",
+    "from": "MaoPine@pobox.sk",
+    "subject": "Re: Vaša objednávka č. 202600637 bola úspešne vybavená a odoslaná",
+    "orderCode": "202600637",
+    "matchedBy": "code"
+  },
+  "<20260906222518.146C5D09@centrum.sk>": {
+    "draftedAt": "2026-09-06T20:43:31.699Z",
+    "from": "galbavy.peter@centrum.sk",
+    "subject": "Re: Vaša objednávka č. 202600737 sa práve vybavuje",
+    "orderCode": "202600737",
+    "matchedBy": "code"
   }
 }
