@@ -2420,10 +2420,18 @@ function shouldEnrich(product) {
     ENRICHED_ROOT_CATEGORIES.some((root) => cat.startsWith(root));
 }
 
+// Niektoré produkty (typicky náhradné vodné filtre do chladničiek/kávovarov) sú v K-B feede
+// nesprávne zaradené priamo pod kategóriu samotného spotrebiča (napr. "Chladničky") namiesto
+// príslušenstva - kategória-špecifická úvodná veta by tak tvrdila, že produkt JE chladnička/
+// spotrebič, hoci ide len o filter/náhradný diel. Rozpoznanie podľa typického znenia popisu
+// ("vodní filtr ... do chladniček/kávovarov") a použitie neutrálnej vety namiesto kategórie.
+const REPLACEMENT_FILTER_RE = /\bfiltr\w*\b[\s\S]{0,60}\b(pro|do)\s+\w*(chladni[cč]|ledni[cč]|prá[cč]|umýva[cč]|kávovar)/i;
+
 function buildEnrichedDescription(product) {
   const { code, name, manufacturer, description, image, defaultCategory } = product;
   const sub = subcategoryOf(defaultCategory);
-  const variants = INTROS[sub] || DEFAULT_INTRO;
+  const isReplacementFilter = REPLACEMENT_FILTER_RE.test(description || '');
+  const variants = isReplacementFilter ? ['{name} je náhradný vodný filter od {brand}.'] : (INTROS[sub] || DEFAULT_INTRO);
   const template = pickVariant(code, variants);
   const brand = manufacturer || 'overeného výrobcu';
   const displayName = displayNameFor(name);
