@@ -10,6 +10,7 @@
 const fs = require('fs');
 const { streamRecords } = require('./stream-records');
 const { loadIcecatData } = require('./parse-icecat-csv');
+const { shouldEnrich, buildEnrichedDescription } = require('./lib/kb-description-enrichment');
 
 const XML_IN = process.env.KB_XML_IN;
 const CSV_IN = process.env.ICECAT_CSV;
@@ -141,6 +142,34 @@ async function main() {
         item = item.replace(/<SHORT_DESCRIPTION>[\s\S]*?<\/SHORT_DESCRIPTION>/, `<SHORT_DESCRIPTION>${xmlCdata(data.shortDescription)}</SHORT_DESCRIPTION>`);
       } else {
         item = item.replace('<DESCRIPTION>', `<SHORT_DESCRIPTION>${xmlCdata(data.shortDescription)}</SHORT_DESCRIPTION>\n<DESCRIPTION>`);
+      }
+    }
+
+    // 6) druhá šanca na obohatenie popisu - transform-kb.js sa rozhoduje obohatiť popis LEN
+    //    podľa PÔVODNÉHO K-B textu, predtým než tento skript prípadne (krok 5 vyššie) nahradí
+    //    popis textom od Icecatu. Ak K-B text nebol "chudobný" (shouldEnrich vrátilo false), ale
+    //    Icecat text, ktorý ho práve nahradil, chudobný JE, produkt by inak zostal navždy bez
+    //    kurátorského obohatenia - Icecat popis sa už nikdy neprehodnocuje. Preto sa tu enrichment
+    //    skúša znova nad AKTUÁLNYM (finálnym) textom popisu, nech pochádza odkiaľkoľvek.
+    const finalDescMatch = item.match(/<DESCRIPTION><!\[CDATA\[([\s\S]*?)\]\]><\/DESCRIPTION>/);
+    if (finalDescMatch && !/<[a-z][\s\S]*>/i.test(finalDescMatch[1])) {
+      const nameM = item.match(/<NAME><!\[CDATA\[(.*?)\]\]><\/NAME>/s);
+      const manufM = item.match(/<MANUFACTURER><!\[CDATA\[(.*?)\]\]><\/MANUFACTURER>/s);
+      const codeM = item.match(/<CODE>(.*?)<\/CODE>/);
+      const catM = item.match(/<CATEGORY><!\[CDATA\[(.*?)\]\]><\/CATEGORY>/s);
+      const imgM = item.match(/<IMAGE\s[^>]*>(.*?)<\/IMAGE>/);
+      const candidate = {
+        code: codeM ? codeM[1] : '',
+        name: nameM ? nameM[1] : '',
+        manufacturer: manufM ? manufM[1] : '',
+        description: finalDescMatch[1],
+        image: imgM ? imgM[1] : '',
+        defaultCategory: catM ? catM[1] : '',
+      };
+      if (shouldEnrich(candidate)) {
+        const enriched = buildEnrichedDescription(candidate);
+        item = item.replace(finalDescMatch[0], `<DESCRIPTION>${xmlCdata(enriched)}</DESCRIPTION>`);
+        stats.enrichedAfterIcecatReplace = (stats.enrichedAfterIcecatReplace || 0) + 1;
       }
     }
 
