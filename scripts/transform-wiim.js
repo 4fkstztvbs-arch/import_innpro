@@ -55,6 +55,17 @@ function truncateAtWord(s, maxLen) {
   return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
 }
 
+// truncateAtWord na celý reťazec "nadpis | Obchod" vie pri hranici odseknúť posledné slovo -
+// ak je to práve názov obchodu (napr. mu chýba len 1 znak do limitu), celý názov obchodu zmizne
+// a titulok skončí osamoteným "|…". Názov obchodu sa preto nikdy neorezáva - orezáva sa len
+// samotný názov produktu tak, aby sa celé "core | Obchod" zmestilo do limitu.
+function buildSeoTitle(core, storeName, maxLen) {
+  const suffix = ` | ${storeName}`;
+  const full = `${core}${suffix}`;
+  if (full.length <= maxLen) return full;
+  return truncateAtWord(core, maxLen - suffix.length) + suffix;
+}
+
 function extractPdfText(pdfPath) {
   try {
     return execFileSync('pdftotext', ['-layout', pdfPath, '-'], { maxBuffer: 1024 * 1024 * 64 }).toString('utf-8');
@@ -145,7 +156,7 @@ function main() {
     }
     const price = roundPrice(r.priceEur * (1 + MARKUP_PCT / 100));
 
-    const seoTitle = truncateAtWord(`${name} | ${STORE_NAME}`, 70);
+    const seoTitle = buildSeoTitle(name, STORE_NAME, 70);
     const metaDescription = truncateAtWord(`${name} – ${AVAILABILITY.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
     candidates.push({

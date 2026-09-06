@@ -92,6 +92,17 @@ function truncateAtWord(s, maxLen) {
   const lastSpace = cut.lastIndexOf(' ');
   return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
 }
+
+// truncateAtWord na celý reťazec "nadpis | Obchod" vie pri hranici odseknúť posledné slovo -
+// ak je to práve názov obchodu (napr. mu chýba len 1 znak do limitu), celý názov obchodu zmizne
+// a titulok skončí osamoteným "|…". Názov obchodu sa preto nikdy neorezáva - orezáva sa len
+// samotný názov produktu tak, aby sa celé "core | Obchod" zmestilo do limitu.
+function buildSeoTitle(core, storeName, maxLen) {
+  const suffix = ` | ${storeName}`;
+  const full = `${core}${suffix}`;
+  if (full.length <= maxLen) return full;
+  return truncateAtWord(core, maxLen - suffix.length) + suffix;
+}
 function norm(s) { return String(s || '').replace(/\s+/g, ' ').trim().toUpperCase(); }
 
 // Loads every data/basys-bose-promo-*.json present and returns objKod -> promoMocInclVat for
@@ -361,7 +372,7 @@ async function main() {
     if (onPromo) stats.onPromo++;
 
     const shortDescription = truncateAtWord(stripTags(description), 200);
-    const seoTitle = truncateAtWord(`${name} | ${STORE_NAME}`, 70);
+    const seoTitle = buildSeoTitle(name, STORE_NAME, 70);
     const metaDescription = truncateAtWord(`${name} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
     rawCandidates.push({

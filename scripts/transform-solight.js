@@ -139,6 +139,17 @@ function truncateAtWord(s, maxLen) {
   return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
 }
 
+// truncateAtWord na celý reťazec "nadpis | Obchod" vie pri hranici odseknúť posledné slovo -
+// ak je to práve názov obchodu (napr. mu chýba len 1 znak do limitu), celý názov obchodu zmizne
+// a titulok skončí osamoteným "|…". Názov obchodu sa preto nikdy neorezáva - orezáva sa len
+// samotný názov produktu tak, aby sa celé "core | Obchod" zmestilo do limitu.
+function buildSeoTitle(core, storeName, maxLen) {
+  const suffix = ` | ${storeName}`;
+  const full = `${core}${suffix}`;
+  if (full.length <= maxLen) return full;
+  return truncateAtWord(core, maxLen - suffix.length) + suffix;
+}
+
 // Cache-bust query param: Shoptet appears to skip re-downloading an image whose URL string is
 // unchanged from a previous (possibly failed) import attempt — a large batch of proxy URLs that
 // failed while the Cloudflare Worker was still cold/unstable right after deploy (2026-08-09)
@@ -310,7 +321,7 @@ async function main() {
 
     const nameHasManufacturer = p.manufacturer && p.name.toLowerCase().includes(p.manufacturer.toLowerCase());
     const titleCore = (p.manufacturer && !nameHasManufacturer) ? `${p.name} – ${p.manufacturer}` : p.name;
-    const seoTitle = truncateAtWord(`${titleCore} | ${STORE_NAME}`, 70);
+    const seoTitle = buildSeoTitle(titleCore, STORE_NAME, 70);
     const metaDescription = truncateAtWord(
       `${p.name}${p.manufacturer && !nameHasManufacturer ? ' od ' + p.manufacturer : ''} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`,
       155

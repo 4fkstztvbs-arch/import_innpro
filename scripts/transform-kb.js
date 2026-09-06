@@ -76,6 +76,17 @@ function truncateAtWord(s, maxLen) {
   return (lastSpace > 0 ? cut.slice(0, lastSpace) : cut) + '…';
 }
 
+// truncateAtWord na celý reťazec "nadpis | Obchod" vie pri hranici odseknúť posledné slovo -
+// ak je to práve názov obchodu (napr. mu chýba len 1 znak do limitu), celý názov obchodu zmizne
+// a titulok skončí osamoteným "|…". Názov obchodu sa preto nikdy neorezáva - orezáva sa len
+// samotný názov produktu tak, aby sa celé "core | Obchod" zmestilo do limitu.
+function buildSeoTitle(core, storeName, maxLen) {
+  const suffix = ` | ${storeName}`;
+  const full = `${core}${suffix}`;
+  if (full.length <= maxLen) return full;
+  return truncateAtWord(core, maxLen - suffix.length) + suffix;
+}
+
 async function loadAllRecords(url) {
   const records = [];
   await streamRecords(url, 'zaznam', (rawXml) => {
@@ -391,7 +402,7 @@ async function main() {
 
     const nameHasManufacturer = manufacturer && name.toLowerCase().includes(manufacturer.toLowerCase());
     const titleCore = (manufacturer && !nameHasManufacturer) ? `${name} – ${manufacturer}` : name;
-    const seoTitle = truncateAtWord(`${titleCore} | ${STORE_NAME}`, 70);
+    const seoTitle = buildSeoTitle(titleCore, STORE_NAME, 70);
     const availText = availability ? availability.toLowerCase() : 'dostupnosť na dopyt';
     const warrantyText = warranty ? `${warranty} mesiacov záruka` : 'záruka podľa výrobcu';
     const metaDescription = truncateAtWord(
