@@ -2373,6 +2373,22 @@ const PRODUCT_FACTS_LIST = [
       'Nastaviteľný termostat udrží teplotu od 3 °C, chladenie beží na ekologickom chladive R600a a s nízkou hlučnosťou len 42 dB nebude rušiť ani v tichšom prostredí.',
     ],
   },
+  {
+    codes: ['100002203382'], // SONY PS-LX3BT
+    heading: 'Bezdrôtový gramofón s plne automatickým prehrávaním',
+    paragraphs: [
+      'Sony PS-LX3BT je gramofón s remeňovým pohonom a plne automatickým prehrávaním - stačí stlačiť jedno tlačidlo a rameno sa samo spustí aj zdvihne po skončení platne bez ručnej manipulácie.',
+      'Bluetooth s podporou aptX Adaptive a Hi-Res Wireless Audio umožňuje bezdrôtové pripojenie k slúchadlám, soundbaru alebo Bluetooth reproduktoru, vstavaný fonopredzosilňovač s prepínačom PHONO/LINE a trojstupňovým zosilnením zase umožňuje aj klasické káblové pripojenie k zosilňovaču.',
+    ],
+  },
+  {
+    codes: ['130281174555'], // YAMAHA NS-AW592
+    heading: 'Vonkajšie reproduktory odolné voči počasiu',
+    paragraphs: [
+      'Yamaha NS-AW592 sú reproduktory s krytím IPX3 určené na inštaláciu vonku aj vnútri, 15cm vodotesný basový menič a 2,5cm hodvábny výškový menič zaisťujú kvalitný zvuk aj v náročnejšom prostredí terasy či záhrady.',
+      'Naklápací držiak s rozsahom 90° umožňuje upevnenie na stenu, strop alebo priamo na podlahu, UV odolný povrch skrinky odoláva vyblednutiu na slnku.',
+    ],
+  },
 ];
 const PRODUCT_FACTS = {};
 for (const entry of PRODUCT_FACTS_LIST) {
