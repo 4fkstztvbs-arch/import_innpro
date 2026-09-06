@@ -41,7 +41,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 57.95 € | 1.20 € | 1/48.3x | 10 |
 | 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 81 |
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 9.60 € | 1.00 € | 1/9.6x | 18 |
-| 069929 | 6972971865268 | T-bayonet mount Genius Rig Freewell for iPhone 15 | cena mimo 8x rozsah mediánu kategórie | 65.50 € | 5.90 € | 1/11.1x | 4 |
+| 069929 | 6972971865268 | T-bayonet mount Genius Rig Freewell for iPhone 15 | cena mimo 8x rozsah mediánu kategórie | 73.75 € | 5.90 € | 1/12.5x | 4 |
 | 074189 | 5907085522821 | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát AIR 3S 2 ks | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 1.60 € | 1/8.1x | 33 |
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
