@@ -13,7 +13,10 @@
 
 const he = require('he');
 
-const HEADER_RE = /kompatibiln[ýí]\S*(?:\s+i)?\s+s\s+(?:těmito\s+|vět\S+\s+)?model\S*\s*([^:<]{0,60}):\s*<\/strong>\s*<\/ins>\s*<\/p>\s*<p>\s*([^<]{2,4000})<\/p>/gi;
+// Chvost hodnoty ("<p>MODEL1, MODEL2<br /> &nbsp;</p>") casto obsahuje osamotene <br /> (a/alebo
+// &nbsp;) tesne pred zatvaracim </p> - povodny vzor to nedovolal (vyzadoval cisto text bez "<"),
+// cim unikla velka cast produktov s inak zhodnou strukturou. Chvost sa preto tolerovat samostatne.
+const HEADER_RE = /kompatibiln[ýí]\S*(?:\s+i)?\s+s\s+(?:těmito\s+|vět\S+\s+)?model\S*\s*([^:<]{0,60}):\s*<\/strong>\s*<\/ins>\s*<\/p>\s*<p>\s*([^<]{2,4000}?)(?:<br\s*\/?>\s*)*(?:&nbsp;\s*)*<\/p>/gi;
 
 function paramSuffixForDeviceType(rawText) {
   const t = rawText.trim().toLowerCase();
@@ -24,7 +27,7 @@ function paramSuffixForDeviceType(rawText) {
   if (/dvb-t/.test(t)) return 'DVB-T prijímača';
   if (/satelitn/.test(t)) return 'satelitného prijímača';
   if (/blu-?ray/.test(t)) return 'Blu-ray prehrávača';
-  if (/p[řr]ij[íi]mač/.test(t)) return 'prijímača';
+  if (/p[řr][ií]j[íi]mač/.test(t)) return 'prijímača'; // ATOS casto pise s preklepom "příjímač" (2x í)
   return null; // unrecognized device type — skip rather than guess wrong
 }
 
