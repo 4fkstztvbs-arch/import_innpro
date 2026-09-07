@@ -57,10 +57,10 @@ const PHRASE_TRANSLATIONS = [
   [new RegExp(`Pod značkou ALIEN získáte kvalitní a levnou náhradu originálního ${OVL}e, kter[yý] již (?:často )?není(?: často)? k dispozici nebo je několikanásobně dražší\\. ${OVL} ALIEN svou kvalitou a mechanickým zpracováním často předčí originální ${OVL}e a zaručuje (?:vám )?tak dlouhou životnost\\.`, 'gi'),
     'Pod značkou ALIEN získate kvalitnú a lacnú náhradu originálneho ovládača, ktorý už často nie je k dispozícii alebo je niekoľkonásobne drahší. Ovládač ALIEN svojou kvalitou a mechanickým spracovaním často prevyšuje originálne ovládače a zaručuje tak dlhú životnosť.'],
   [new RegExp(`Náhrada za originální ${OVL}e? `, 'gi'), 'Náhrada za originálny ovládač '],
-  [new RegExp(`${OVL} je kompatibilní s těmito modely ([^:<]{0,40}):`, 'gi'), (full, device) => {
+  [new RegExp(`${OVL} je kompatibilní s těmito modely\\s*([^:<]{0,40}):`, 'gi'), (full, device) => {
     let sk = device.trim();
     for (const [re, repl] of DEVICE_GENPL_CZ_TO_SK) { if (re.test(sk)) { sk = repl; break; } }
-    return `Ovládač je kompatibilný s týmito modelmi ${sk}:`;
+    return sk ? `Ovládač je kompatibilný s týmito modelmi ${sk}:` : 'Ovládač je kompatibilný s týmito modelmi:';
   }],
   [new RegExp(`Návod k použití dálkového ${OVL}e ALIEN`, 'gi'), 'Návod na použitie diaľkového ovládača ALIEN'],
   [new RegExp(`${OVL} je naprogramován na vašem zařízení\\. ALIEN nahrazuje všechny funkce originálního ${OVL}e\\.`, 'gi'),
@@ -86,7 +86,7 @@ function translateAtosRemoteDescription(descriptionHtml) {
   if (!isAtosRemoteTemplate(descriptionHtml)) return descriptionHtml;
 
   let d = he.decode(descriptionHtml)
-    .replace(/<\/?(?:strong|ins|b|span[^>]*|h[1-4])>/gi, '')
+    .replace(/<\/?(?:strong|ins|b|u|span[^>]*|h[1-4])>/gi, '')
     .replace(/\s+/g, ' ');
 
   // 1. Vetu o doprogramovani (50 Kč) vsade zmazat.
@@ -113,6 +113,27 @@ function translateAtosRemoteDescription(descriptionHtml) {
     let device = proMatch[1];
     for (const [re, repl] of DEVICE_NOUN_TRANSLATIONS) device = device.replace(re, repl);
     d = d.replace(proMatch[0], `diaľkové ovládanie v inom vzhľade pre ${device}.`);
+  }
+
+  // 5. "a další" v samotnom zozname modelov (nie iba vo vetach vyssie) - drobny zvysok cestiny.
+  d = d.replace(/\s+a další\b/gi, ' a ďalšie');
+
+  // 6. Konkretne prve modely z kompatibility uz do uvodnej vety - kedze ide o ten isty hardver
+  // (univerzalny ALIEN ovladac), jedina realna odlisnost medzi produktmi je zoznam modelov, s
+  // ktorymi je kompatibilny. Presunutim par konkretnych modelov hned do uvodu (nielen do zoznamu
+  // nizsie) sa zvysuje mnozstvo produktovo-specifickeho textu hned na zaciatku stranky.
+  const modelListMatch = d.match(/kompatibilný s týmito modelmi\s*[^:<]*:<\/p>\s*<p>([^<]+?)(?:<br\s*\/?>\s*)*<\/p>/i);
+  const introMatch = d.match(/diaľkové ovládanie v inom vzhľade pre ([^.<]{2,60})\./i);
+  if (modelListMatch && introMatch) {
+    const models = modelListMatch[1].split(',').map((s) => s.replace(/\s*a ďalšie\s*$/i, '').trim()).filter(Boolean);
+    if (models.length) {
+      const shown = models.slice(0, 3);
+      const joined = shown.length === 1 ? shown[0] : `${shown.slice(0, -1).join(', ')} a ${shown[shown.length - 1]}`;
+      const clause = models.length === 1 ? `s modelom ${joined}`
+        : models.length <= 3 ? `s modelmi ${joined}`
+        : `napríklad s modelmi ${joined} a ďalšími`;
+      d = d.replace(introMatch[0], `diaľkové ovládanie v inom vzhľade pre ${introMatch[1]} - kompatibilné ${clause}.`);
+    }
   }
 
   // Kozmeticke upratanie prazdnych elementov, ktore po vymazani obsahu ostali.
