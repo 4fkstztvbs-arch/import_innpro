@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600178,
+    "nextCardNumber": 202600183,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -163,7 +163,7 @@
         "kod": "202600026",
         "nazov": "Leifheit Clean Twist M Ergo+náhr.",
         "dodavatel": "kb",
-        "code": ""
+        "code": "100002136170"
       },
       "5901890116398": {
         "kod": "202600027",
@@ -1064,6 +1064,36 @@
         "nazov": "VITURE Pro 2 XR Glasses",
         "dodavatel": "innpro",
         "code": "091439"
+      },
+      "6924053404865": {
+        "kod": "202600178",
+        "nazov": "FENDA F&D A180X",
+        "dodavatel": "kb",
+        "code": "700080310278"
+      },
+      "8055176405250": {
+        "kod": "202600179",
+        "nazov": "G3Ferrari G2017500",
+        "dodavatel": "kb",
+        "code": "100002202091"
+      },
+      "8595235800867": {
+        "kod": "202600180",
+        "nazov": "Maxxo HiFi Tuner TR05",
+        "dodavatel": "kb",
+        "code": "100002075012"
+      },
+      "8806099050221": {
+        "kod": "202600181",
+        "nazov": "Samsung rám pro Frame TV 65\" Bílý",
+        "dodavatel": "kb",
+        "code": "100002203133"
+      },
+      "8806097238133": {
+        "kod": "202600182",
+        "nazov": "Samsung VG-SCFF85WTBXC",
+        "dodavatel": "kb",
+        "code": "100002142503"
       }
     }
   },
