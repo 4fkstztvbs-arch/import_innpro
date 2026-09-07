@@ -38,7 +38,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 369.50 € | 16.5x | 26 |
 | 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 26 |
 | 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 26 |
-| 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 57.95 € | 1.20 € | 1/48.3x | 10 |
+| 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 1.20 € | 1/49.5x | 10 |
 | 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 81 |
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 1.00 € | 1/10.9x | 19 |
 | 071860 | 5907085520438 | Sunnylife landing gear upgrade for DJI Neo (orange) | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 1.00 € | 1/12.0x | 7 |
@@ -46,10 +46,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
 | 078454 | 6976831832469 | Recenzia monitora 7" F700 | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 272.90 € | 21.2x | 33 |
-| 078552 | 5907085527000 | Autochladnička Euhomy CF001-35GR, 30 l | cena mimo 8x rozsah mediánu kategórie | 20.50 € | 230.50 € | 11.2x | 41 |
+| 078552 | 5907085527000 | Autochladnička Euhomy CF001-35GR, 30 l | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 230.50 € | 11.5x | 41 |
 | 080186 | 5907085529080 | xTool Tlačiareň odevov - sada všetko v jednom | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 10376.90 € | 1729.5x | 76 |
 | 081464 | 4897143171348 | Rýchloupínacia doska Freewell | cena mimo 8x rozsah mediánu kategórie | 2.30 € | 19.50 € | 8.5x | 5 |
-| 082001 | 6978258900387 | Bezdrôtový masážny prístroj/regeneračná obuv s technológiou AI UREVO UCRM003 | cena mimo 8x rozsah mediánu kategórie | 57.95 € | 542.90 € | 9.4x | 10 |
+| 082001 | 6978258900387 | Bezdrôtový masážny prístroj/regeneračná obuv s technológiou AI UREVO UCRM003 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 542.90 € | 9.1x | 10 |
 | 082669 | 786156004870 | Káblové slúchadlá pre detektory kovov Garrett MS-2 | cena mimo 8x rozsah mediánu kategórie | 279.20 € | 29.50 € | 1/9.5x | 8 |
 | 082686 | 6975377555009 | Súprava na určovanie veľkosti krúžkov RingConn | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 4.10 € | 1/43.4x | 81 |
 | 082738 | 6975377555313 | Etui do smartringa RingConn Ring Protector, r.12-14, (L) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 11.90 € | 1/15.0x | 81 |
@@ -60,7 +60,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 085498 | 6977641140072 | Vaša fréza MAKERA Carvera CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 6680.00 € | 28.4x | 9 |
 | 085499 | 6977641142496 | Vaša fréza MAKERA Carvera Air CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 3067.50 € | 13.1x | 9 |
 | 085503 | 6977641140423 | Základné panely MAKERA Carvera Air z MDF s hrúbkou 2 mm (5 ks) | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 23.90 € | 1/9.8x | 9 |
-| 085984 | 6975062110858 | Interaktívny robot Loona Premium | cena mimo 8x rozsah mediánu kategórie | 25.00 € | 456.00 € | 18.2x | 7 |
+| 085984 | 6975062110858 | Interaktívny robot Loona Premium | cena mimo 8x rozsah mediánu kategórie | 23.50 € | 456.00 € | 19.4x | 7 |
 | 087737 | 5905156105249 | BALDRTHERM E0575S kuchynská minútka | cena mimo 8x rozsah mediánu kategórie | 105.50 € | 5.50 € | 1/19.2x | 25 |
 | 087895 | 6971915322140 | Termovízna kamera Mileseey TR256A | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 389.90 € | 9.5x | 265 |
 | 087896 | 6971915321969 | Termovízna kamera Mileseey TR256C s Wi-Fi | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 524.00 € | 12.8x | 265 |
