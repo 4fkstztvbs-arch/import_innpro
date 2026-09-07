@@ -1,4 +1,5 @@
 const { XMLParser } = require('fast-xml-parser');
+const { fixDescriptionImageUrls } = require('./lib/fix-description-image-urls');
 
 const parser = new XMLParser({
   ignoreAttributes: true,
@@ -33,7 +34,7 @@ function parsePentaItem(rawXml) {
   const name = text(it.NAME);
   const manufacturer = text(it.MANUFACTURER);
   const shortDescription = text(it.SHORT_DESCRIPTION);
-  const description = text(it.DESCRIPTION);
+  const description = fixDescriptionImageUrls(text(it.DESCRIPTION));
   const warranty = text(it.WARRANTY);
   const priceVat = toFloat(it.PRICE_VAT);
   const purchasePrice = toFloat(it.PURCHASE_PRICE);

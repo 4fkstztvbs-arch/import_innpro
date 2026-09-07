@@ -1,4 +1,5 @@
 const { XMLParser } = require('fast-xml-parser');
+const { fixDescriptionImageUrls } = require('./lib/fix-description-image-urls');
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -41,7 +42,7 @@ function parseProduct(rawXml) {
 
   const desc = p.description || {};
   const name = pickSlovak(desc.name);
-  const longDesc = pickSlovak(desc.long_desc);
+  const longDesc = fixDescriptionImageUrls(pickSlovak(desc.long_desc));
 
   const producer = p.producer || {};
   const manufacturer = producer['@_name'] || '';

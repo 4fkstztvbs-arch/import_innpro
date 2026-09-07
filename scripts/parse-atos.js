@@ -1,4 +1,5 @@
 const { XMLParser } = require('fast-xml-parser');
+const { fixDescriptionImageUrls } = require('./lib/fix-description-image-urls');
 
 const parser = new XMLParser({
   ignoreAttributes: true,
@@ -29,7 +30,7 @@ function parseAtosItem(rawXml) {
   const name = text(it.NAME);
   const manufacturer = text(it.MANUFACTURER);
   const shortDescription = text(it.SHORT_DESCRIPTION);
-  const description = text(it.DESCRIPTION);
+  const description = fixDescriptionImageUrls(text(it.DESCRIPTION));
   const warranty = text(it.WARRANTY);
   const purchasePriceCZK = toFloat(it.PURCHASE_PRICE);
   // ATOS's own recommended retail price, excl. VAT (their VAT rate, not ours - see transform-atos.js
