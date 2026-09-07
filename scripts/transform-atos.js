@@ -42,6 +42,7 @@ const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { extractCompatibleModels } = require('./extract-compatible-models');
 const { translateRemoteControlName } = require('./lib/translate-remote-control-names');
 const { replaceDeadAtosImages } = require('./lib/fix-description-image-urls');
+const { translateAtosRemoteDescription } = require('./lib/atos-remote-control-description');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -334,6 +335,32 @@ async function main() {
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
     if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; return; }
 
+    // Diaľkové ovládače: ATOS lists compatible device models inside the description text
+    // ("Ovladač je kompatibilní s těmito modely televizorů: ..."), not as real feed parameters.
+    // Turn those into filterable Shoptet parameters (e.g. "Kompatibilný model TV") so a category
+    // filter by exact model becomes possible — mark the parameter as filtrovací in Shoptet admin.
+    // Musí bežať PRED prepisom popisu nižšie (potrebuje pôvodný český text so zoznamom modelov).
+    const compatibleModelParams = extractCompatibleModels(p.description);
+    let compatibleModels = null;
+    if (compatibleModelParams.length) {
+      stats.withCompatibleModels++;
+      compatibleModels = new Map();
+      for (const pv of compatibleModelParams) {
+        const idx = pv.indexOf(';');
+        const name = pv.slice(0, idx), value = pv.slice(idx + 1);
+        if (!compatibleModels.has(name)) compatibleModels.set(name, []);
+        compatibleModels.get(name).push(value);
+      }
+    }
+
+    // ATOS-ov "ALIEN náhradný ovládač" popis je jedna dlhá opakujúca sa česká šablóna - podľa
+    // požiadavky používateľa sa PREKLADÁ do slovenčiny (nie prepisuje na novo), s tromi presnými
+    // úpravami: veta o doprogramovaní za 50 Kč sa vymaže, reklama na batérie sa skráti na jednu
+    // vetu s odkazom na značku GP, a generický uzatvárací blok "Univerzální ovladač ALIEN 4v1" sa
+    // celý vymaže (viď scripts/lib/atos-remote-control-description.js). Iné formáty (WIWA,
+    // TechniSat vysielače a pod.) túto šablónu nemajú a ostávajú bez zmeny.
+    if (defaultCategory.includes('Diaľkové ovládače')) p.description = translateAtosRemoteDescription(p.description);
+
     const shortDescription = p.shortDescription || truncateAtWord(stripTags(p.description), 200);
     const nameHasManufacturer = p.manufacturer && p.name.toLowerCase().includes(p.manufacturer.toLowerCase());
     const titleCore = (p.manufacturer && !nameHasManufacturer) ? `${p.name} – ${p.manufacturer}` : p.name;
@@ -348,23 +375,6 @@ async function main() {
     if (p.actionFlag === '1') stats.action++;
     if (p.newFlag === '1') stats.new++;
     if (p.tipFlag === '1') stats.tip++;
-
-    // Diaľkové ovládače: ATOS lists compatible device models inside the description text
-    // ("Ovladač je kompatibilní s těmito modely televizorů: ..."), not as real feed parameters.
-    // Turn those into filterable Shoptet parameters (e.g. "Kompatibilný model TV") so a category
-    // filter by exact model becomes possible — mark the parameter as filtrovací in Shoptet admin.
-    const compatibleModelParams = extractCompatibleModels(p.description);
-    let compatibleModels = null;
-    if (compatibleModelParams.length) {
-      stats.withCompatibleModels++;
-      compatibleModels = new Map();
-      for (const pv of compatibleModelParams) {
-        const idx = pv.indexOf(';');
-        const name = pv.slice(0, idx), value = pv.slice(idx + 1);
-        if (!compatibleModels.has(name)) compatibleModels.set(name, []);
-        compatibleModels.get(name).push(value);
-      }
-    }
 
     candidates.push({
       code: p.code, ean: p.ean, name: p.name, category: defaultCategory, price,
