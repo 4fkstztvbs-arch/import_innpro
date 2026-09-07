@@ -33,14 +33,14 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 091857 | 6942580505022 | Trolley FOSSIBOT for F2400 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 9.60 € | 103.90 € | 10.8x | 18 |
+| 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 103.90 € | 9.5x | 19 |
 | 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 341.00 € | 14.9x | 25 |
 | 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 369.50 € | 16.1x | 25 |
 | 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 302.00 € | 13.2x | 25 |
 | 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 302.00 € | 13.2x | 25 |
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 57.95 € | 1.20 € | 1/48.3x | 10 |
 | 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 81 |
-| 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 9.60 € | 1.00 € | 1/9.6x | 18 |
+| 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 1.00 € | 1/10.9x | 19 |
 | 074189 | 5907085522821 | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát AIR 3S 2 ks | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 1.60 € | 1/8.1x | 33 |
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
@@ -66,7 +66,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 088095 | 786156005242 | GARRETT AT Max 8,5 x 11" INTL – detektor kovov | cena mimo 8x rozsah mediánu kategórie | 64.00 € | 757.50 € | 11.8x | 17 |
 | 087811 | 6976391039506 | Súprava bezdrôtového zvončeka IMOU 2S | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 73.50 € | 28.3x | 33 |
 | 087812 | 6976391032453 | Bezdrôtový videozvonček IMOU, balenie po 3 kusoch | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 88.00 € | 33.8x | 33 |
-| 085083 | 6974944466229 | Držiak Master Grip pre iPhone 17 Pro – súprava všetko v jednom: svetlo + filter | cena mimo 8x rozsah mediánu kategórie | 2.30 € | 83.00 € | 36.1x | 5 |
+| 085083 | 6974944466229 | Držiak Master Grip pre iPhone 17 Pro – súprava všetko v jednom: svetlo + filter | cena mimo 8x rozsah mediánu kategórie | 2.30 € | 117.90 € | 51.3x | 5 |
 | 088746 | 6977658980043 | Termovízna kamera THERMAL MASTER X2 USB-C | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 283.90 € | 22.0x | 33 |
 | 088747 | 6977658980494 | TERMOVÍZNA KAMERA THERMAL MASTER X2 USB-C Mini | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 241.50 € | 18.7x | 33 |
 | 088748 | 6977658980050 | Termovízna kamera THERMAL MASTER X3 | cena mimo 8x rozsah mediánu kategórie | 64.00 € | 526.50 € | 8.2x | 17 |
