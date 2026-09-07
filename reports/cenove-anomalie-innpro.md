@@ -39,40 +39,39 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 26 |
 | 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 26 |
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 1.20 € | 1/49.5x | 10 |
-| 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 81 |
+| 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 80 |
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 1.00 € | 1/10.9x | 19 |
 | 071860 | 5907085520438 | Sunnylife landing gear upgrade for DJI Neo (orange) | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 1.00 € | 1/12.0x | 7 |
-| 074189 | 5907085522821 | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát AIR 3S 2 ks | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 1.60 € | 1/8.1x | 33 |
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
-| 078454 | 6976831832469 | Recenzia monitora 7" F700 | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 272.90 € | 21.2x | 33 |
+| 078454 | 6976831832469 | Recenzia monitora 7" F700 | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 272.90 € | 22.8x | 32 |
 | 078552 | 5907085527000 | Autochladnička Euhomy CF001-35GR, 30 l | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 230.50 € | 11.5x | 41 |
 | 080186 | 5907085529080 | xTool Tlačiareň odevov - sada všetko v jednom | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 10376.90 € | 1729.5x | 76 |
-| 081464 | 4897143171348 | Rýchloupínacia doska Freewell | cena mimo 8x rozsah mediánu kategórie | 2.30 € | 19.50 € | 8.5x | 5 |
+| 081464 | 4897143171348 | Rýchloupínacia doska Freewell | cena mimo 8x rozsah mediánu kategórie | 2.00 € | 19.50 € | 9.8x | 4 |
 | 082001 | 6978258900387 | Bezdrôtový masážny prístroj/regeneračná obuv s technológiou AI UREVO UCRM003 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 542.90 € | 9.1x | 10 |
 | 082669 | 786156004870 | Káblové slúchadlá pre detektory kovov Garrett MS-2 | cena mimo 8x rozsah mediánu kategórie | 279.20 € | 29.50 € | 1/9.5x | 8 |
-| 082686 | 6975377555009 | Súprava na určovanie veľkosti krúžkov RingConn | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 4.10 € | 1/43.4x | 81 |
-| 082738 | 6975377555313 | Etui do smartringa RingConn Ring Protector, r.12-14, (L) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 11.90 € | 1/15.0x | 81 |
+| 082686 | 6975377555009 | Súprava na určovanie veľkosti krúžkov RingConn | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 4.10 € | 1/43.4x | 80 |
+| 082738 | 6975377555313 | Etui do smartringa RingConn Ring Protector, r.12-14, (L) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 11.90 € | 1/15.0x | 80 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 9.00 € | 1/13.0x | 15 |
 | 085056 | 6978390540465 | Robotický čistič okien MOVA N1 (biely) | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 287.50 € | 14.4x | 11 |
-| 084999 | 6935750534724 | Tvrdomer Uni-T Leed UT347A | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 399.50 € | 9.7x | 265 |
-| 085055 | 6935750520499 | Laserový diaľkomer Uni-T LM2000 | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 686.50 € | 16.7x | 265 |
+| 084999 | 6935750534724 | Tvrdomer Uni-T Leed UT347A | cena mimo 8x rozsah mediánu kategórie | 41.45 € | 399.50 € | 9.6x | 264 |
+| 085055 | 6935750520499 | Laserový diaľkomer Uni-T LM2000 | cena mimo 8x rozsah mediánu kategórie | 41.45 € | 686.50 € | 16.6x | 264 |
 | 085498 | 6977641140072 | Vaša fréza MAKERA Carvera CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 6680.00 € | 28.4x | 9 |
 | 085499 | 6977641142496 | Vaša fréza MAKERA Carvera Air CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 3067.50 € | 13.1x | 9 |
 | 085503 | 6977641140423 | Základné panely MAKERA Carvera Air z MDF s hrúbkou 2 mm (5 ks) | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 23.90 € | 1/9.8x | 9 |
 | 085984 | 6975062110858 | Interaktívny robot Loona Premium | cena mimo 8x rozsah mediánu kategórie | 23.50 € | 456.00 € | 19.4x | 7 |
 | 087737 | 5905156105249 | BALDRTHERM E0575S kuchynská minútka | cena mimo 8x rozsah mediánu kategórie | 105.50 € | 5.50 € | 1/19.2x | 25 |
-| 087895 | 6971915322140 | Termovízna kamera Mileseey TR256A | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 389.90 € | 9.5x | 265 |
-| 087896 | 6971915321969 | Termovízna kamera Mileseey TR256C s Wi-Fi | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 524.00 € | 12.8x | 265 |
+| 087895 | 6971915322140 | Termovízna kamera Mileseey TR256A | cena mimo 8x rozsah mediánu kategórie | 41.45 € | 389.90 € | 9.4x | 264 |
+| 087896 | 6971915321969 | Termovízna kamera Mileseey TR256C s Wi-Fi | cena mimo 8x rozsah mediánu kategórie | 41.45 € | 524.00 € | 12.6x | 264 |
 | 088094 | 786156004023 | Detektor kovov GARRETT AT Gold 5x8 | cena mimo 8x rozsah mediánu kategórie | 64.00 € | 736.50 € | 11.5x | 17 |
 | 088095 | 786156005242 | GARRETT AT Max 8,5 x 11" INTL – detektor kovov | cena mimo 8x rozsah mediánu kategórie | 64.00 € | 757.50 € | 11.8x | 17 |
 | 087811 | 6976391039506 | Súprava bezdrôtového zvončeka IMOU 2S | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 73.50 € | 28.3x | 33 |
 | 087812 | 6976391032453 | Bezdrôtový videozvonček IMOU, balenie po 3 kusoch | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 88.00 € | 33.8x | 33 |
-| 085083 | 6974944466229 | Držiak Master Grip pre iPhone 17 Pro – súprava všetko v jednom: svetlo + filter | cena mimo 8x rozsah mediánu kategórie | 2.30 € | 117.90 € | 51.3x | 5 |
-| 088746 | 6977658980043 | Termovízna kamera THERMAL MASTER X2 USB-C | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 283.90 € | 22.0x | 33 |
-| 088747 | 6977658980494 | TERMOVÍZNA KAMERA THERMAL MASTER X2 USB-C Mini | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 241.50 € | 18.7x | 33 |
+| 088746 | 6977658980043 | Termovízna kamera THERMAL MASTER X2 USB-C | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 283.90 € | 23.8x | 32 |
+| 088747 | 6977658980494 | TERMOVÍZNA KAMERA THERMAL MASTER X2 USB-C Mini | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 241.50 € | 20.2x | 32 |
 | 088748 | 6977658980050 | Termovízna kamera THERMAL MASTER X3 | cena mimo 8x rozsah mediánu kategórie | 64.00 € | 526.50 € | 8.2x | 17 |
-| 088872 | 6942580504971 | Batéria FOSSIBOT FB3840 s kapacitou 3840 Wh | cena mimo 8x rozsah mediánu kategórie | 67.50 € | 1267.90 € | 18.8x | 10 |
+| 088872 | 6942580504971 | Batéria FOSSIBOT FB3840 s kapacitou 3840 Wh | cena mimo 8x rozsah mediánu kategórie | 49.00 € | 1267.90 € | 25.9x | 9 |
+| 088874 | 6942580505077 | Batéria FOSSIBOT FBP1200-B s kapacitou 1985 Wh (zelená) | cena mimo 8x rozsah mediánu kategórie | 49.00 € | 537.50 € | 11.0x | 9 |
 | 088914 | 6976230008557 | HTVRONT Auto1 lis na potlač (biely) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 252.00 € | 42.0x | 76 |
 | 088915 | 6976230008506 | HTVRONT Auto1 lis na potlač (modrý) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 252.00 € | 42.0x | 76 |
 | 088916 | 6976230004542 | HTVRONT Auto – 2-miestny lis na termotransfer (biely) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 350.00 € | 58.3x | 76 |
@@ -89,7 +88,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 088743 | 5905156105775 | MERACH MR-2397 Trenažér na stehná a panvové dno (modrý) | cena mimo 8x rozsah mediánu kategórie | 114.25 € | 13.90 € | 1/8.2x | 42 |
 | 088744 | 5905156105805 | MERACH MR-2397 Tréningový prístroj na stehná a panvové dno (ružový) | cena mimo 8x rozsah mediánu kategórie | 114.25 € | 13.90 € | 1/8.2x | 42 |
 | 089641 | 5905156106697 | Vodotesné puzdro na iPhone Puluz (40 m) s jednosmerným ventilom (biele) | cena mimo 8x rozsah mediánu kategórie | 5.80 € | 55.50 € | 9.6x | 5 |
-| 090613 | 810150549751 | SwitchBot AI Art Frame – digitálny fotorámik s uhlopriečkou 31,5" | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 1001.00 € | 77.6x | 33 |
+| 090613 | 810150549751 | SwitchBot AI Art Frame – digitálny fotorámik s uhlopriečkou 31,5" | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 1001.00 € | 83.8x | 32 |
 | 090614 | 810150549775 | Klávesnica pre SwitchBot Keypad Vision Pro | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 116.50 € | 44.8x | 33 |
 | 090619 | 810150549829 | SWITCHBOT C1 – bezdrôtový vypínač s dobíjateľnou batériou | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 26.50 € | 10.2x | 33 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
