@@ -41,6 +41,7 @@ const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnP
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { extractCompatibleModels } = require('./extract-compatible-models');
 const { translateRemoteControlName } = require('./lib/translate-remote-control-names');
+const { replaceDeadAtosImages } = require('./lib/fix-description-image-urls');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -191,7 +192,11 @@ function buildShopitemXml(p) {
   const parts = ['<SHOPITEM>'];
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
   if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
-  parts.push(`<DESCRIPTION>${xmlCdata(p.description)}</DESCRIPTION>`);
+  // Musi byt az po vypocitani images (nizsie) - nahrada mrtvych boilerplate obrazkov (viz
+  // scripts/lib/fix-description-image-urls.js) potrebuje poznat skutocny (CDN) obrazok produktu.
+  const images = (CDN_IMAGES[p.code] && CDN_IMAGES[p.code].length) ? CDN_IMAGES[p.code] : p.images.map(proxyImgAspUrl);
+  const description = replaceDeadAtosImages(p.description, images[0], p.name);
+  parts.push(`<DESCRIPTION>${xmlCdata(description)}</DESCRIPTION>`);
   if (p.manufacturer) parts.push(`<MANUFACTURER>${xmlCdata(p.manufacturer)}</MANUFACTURER>`);
   if (p.warranty) parts.push(`<WARRANTY>${xmlEscape(p.warranty)}</WARRANTY>`);
   parts.push('<ITEM_TYPE>product</ITEM_TYPE>');
@@ -208,7 +213,6 @@ function buildShopitemXml(p) {
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (isHeurekaHidden(p.defaultCategory, p.price) || isCpcNonConverter(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
-  const images = (CDN_IMAGES[p.code] && CDN_IMAGES[p.code].length) ? CDN_IMAGES[p.code] : p.images.map(proxyImgAspUrl);
   if (images.length) {
     parts.push('<IMAGES>');
     images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, images.length))}">${xmlEscape(img)}</IMAGE>`));
