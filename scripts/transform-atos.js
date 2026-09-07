@@ -40,6 +40,7 @@ const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { extractCompatibleModels } = require('./extract-compatible-models');
+const { translateRemoteControlName } = require('./lib/translate-remote-control-names');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -319,6 +320,12 @@ async function main() {
 
     const { defaultCategory, extraCategories, unmatchedCategory } = resolveAtosCategories(p.categoryTexts, p.name);
     if (!defaultCategory) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
+
+    // ATOS posiela nazvy diaľkových ovládačov po česky ("Dálkový ovladač...") - ľudia na
+    // Slovensku hľadajú "diaľkový ovládač" (audit bod o vyhľadávaných výrazoch), preto preklad
+    // len v tejto kategórii (mimo nej by generický slovník s rovnakými slovami mohol dat
+    // negramaticky tvar v inom kontexte).
+    if (defaultCategory.includes('Diaľkové ovládače')) p.name = translateRemoteControlName(p.name);
 
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
     if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; return; }
