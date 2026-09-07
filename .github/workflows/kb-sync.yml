@@ -65,6 +65,9 @@ jobs:
       - name: Collapse thin categories
         run: node scripts/collapse-thin-categories.js
 
+      - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
+        run: node scripts/add-category-links.js --xml=output/kb.xml
+
       - name: Commit updated output
         run: |
           git config user.name "kb-sync-bot"
