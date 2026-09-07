@@ -122,12 +122,28 @@ function translateAtosRemoteDescription(descriptionHtml) {
   // (univerzalny ALIEN ovladac), jedina realna odlisnost medzi produktmi je zoznam modelov, s
   // ktorymi je kompatibilny. Presunutim par konkretnych modelov hned do uvodu (nielen do zoznamu
   // nizsie) sa zvysuje mnozstvo produktovo-specifickeho textu hned na zaciatku stranky.
-  const modelListMatch = d.match(/kompatibilný s týmito modelmi\s*[^:<]*:<\/p>\s*<p>([^<]+?)(?:<br\s*\/?>\s*)*<\/p>/i);
-  const introMatch = d.match(/diaľkové ovládanie v inom vzhľade pre ([^.<]{2,60})\./i);
+  // Strazi bezpecnu opakovanu spustitelnost (idempotenciu): ak uvodna veta uz obsahuje vlozenu
+  // klauzulu (t.j. popis uz raz prebehol touto funkciou), preskocit - inak by "pre (...)." zachytilo
+  // az prvu bodku za uz vlozenym zoznamom modelov (ktory ziadnu bodku neobsahuje) a poskodilo text.
+  const alreadyProcessed = /kompatibilné (napríklad )?s model/i.test(d);
+  const modelListMatch = !alreadyProcessed && d.match(/kompatibilný s týmito modelmi\s*[^:<]*:<\/p>\s*<p>([^<]+?)(?:<br\s*\/?>\s*)*<\/p>/i);
+  const introMatch = !alreadyProcessed && d.match(/diaľkové ovládanie v inom vzhľade pre ([^.<]{2,60})\./i);
   if (modelListMatch && introMatch) {
     const models = modelListMatch[1].split(',').map((s) => s.replace(/\s*a ďalšie\s*$/i, '').trim()).filter(Boolean);
     if (models.length) {
-      const shown = models.slice(0, 3);
+      // Znacka/seria pred prvym cislom v prvej polozke zoznamu (napr. "Ferguson ARIVA 100" ->
+      // "Ferguson ARIVA") - v tomto zdrojovom formate ATOS znacku+seriu uvadza len raz, pred
+      // celym zoznamom holych cislicovych kodov ("Ferguson ARIVA 100, 102E, 103E"), takze ju
+      // treba prevziat z prveho prvku, nie odvodzovat len jedno slovo z uvodnej vety (tam by sa
+      // stratilo napr. "ARIVA"). Ak prvy prvok ziadny takyto predpon nema (uz je to sam o sebe
+      // holy kod, napr. "KDL-55HX855"), pouzije sa ako zaloha znacka z konca vety "pre X.".
+      const firstWords = models[0].split(/\s+/);
+      let prefixLen = 0;
+      while (prefixLen < firstWords.length - 1 && !/\d/.test(firstWords[prefixLen])) prefixLen++;
+      const listPrefix = prefixLen > 0 ? firstWords.slice(0, prefixLen).join(' ') : '';
+      const fallbackBrand = introMatch[1].trim().split(/\s+/).pop();
+      const brand = listPrefix || fallbackBrand;
+      const shown = models.slice(0, 3).map((m) => (m.toLowerCase().includes(brand.toLowerCase()) ? m : `${brand} ${m}`));
       const joined = shown.length === 1 ? shown[0] : `${shown.slice(0, -1).join(', ')} a ${shown[shown.length - 1]}`;
       const clause = models.length === 1 ? `s modelom ${joined}`
         : models.length <= 3 ? `s modelmi ${joined}`
