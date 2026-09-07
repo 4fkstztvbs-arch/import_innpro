@@ -51,6 +51,7 @@ const DEVICE_NOUN_TRANSLATIONS = [
 // ATOS pouziva aspon dve mierne odlisne sablony (satelitne prijimace vs. TV ovladace).
 const PHRASE_TRANSLATIONS = [
   [/Dálkový ovladač /g, 'Diaľkový ovládač '],
+  [new RegExp(`Diaľkov[yý] ${OVL} pro `, 'gi'), 'Diaľkový ovládač pre '],
   [/Kvalitní náhradní dálkové ovládání jiného vzhledu pro /gi, 'Kvalitné náhradné diaľkové ovládanie v inom vzhľade pre '],
   [/Kvalitní náhradní dálkový ovladač,? většina funkcí (?:stejných jako u originálního ovládání|stejná jako original)\.? ?Dlouhá životnost,? kvalitní provedení\.? ?Ihned k použití!/gi,
     'Náhradný diaľkový ovládač, väčšina funkcií rovnaká ako pri originálnom ovládaní. Dlhá životnosť, kvalitné vyhotovenie. Ihneď pripravený na použitie!'],
@@ -78,6 +79,24 @@ const PHRASE_TRANSLATIONS = [
     'Ak chcete objednaný ovládač naprogramovať aj na ďalšie zariadenie, napíšte nám do poznámky k objednávke presný typ vášho zariadenia.'],
   [new RegExp(`Chcete-li do objednaného ${OVL}e naprogramovat ještě další přístroje, tak nám v objednávce do poznámky napište přesný typ dálkového ${OVL}e vašeho zařízení\\.`, 'gi'),
     'Ak chcete objednaný ovládač naprogramovať aj na ďalšie zariadenie, napíšte nám do poznámky k objednávke presný typ vášho zariadenia.'],
+
+  // Treti znama sablona (najma Samsung TV nahradne ovladace) - plain-text popis bez <p> struktury.
+  [new RegExp(`kvalitn[íi] náhradn[íi] (?:dálkov[yý] )?${OVL} jiného vzhledu s podporou v[sš]ech funkc[íi] originálního ${OVL}e\\.`, 'gi'),
+    'kvalitný náhradný diaľkový ovládač iného vzhľadu s podporou všetkých funkcií originálneho ovládača.'],
+  [new RegExp(`K ovládání je přiložen[yý] rozpis tlačítek\\.`, 'gi'), 'K ovládaniu je priložený rozpis tlačidiel.'],
+  [new RegExp(`${OVL} je připraven k okamžitému použití, stačí vložit pouze baterie\\.`, 'gi'),
+    'Ovládač je pripravený na okamžité použitie, stačí vložiť len batérie.'],
+  [new RegExp(`Dodávan[yý] ${OVL} ALIEN je plnohodnotnou náhradou originálního ${OVL}e\\.`, 'gi'),
+    'Dodávaný ovládač ALIEN je plnohodnotnou náhradou originálneho ovládača.'],
+  [new RegExp(`Díky kvalitní konstrukci je zaručena dlouhá životnost ${OVL}e\\.`, 'gi'),
+    'Vďaka kvalitnej konštrukcii je zaručená dlhá životnosť ovládača.'],
+  [new RegExp(`Vzhledem k tomu, že je ${OVL} programovatelný, tak ho můžete použít i při výměně vašeho přijímače za jiný - ${OVL} vám rádi přeprogramujeme na jiný model\\.`, 'gi'),
+    'Keďže je ovládač programovateľný, môžete ho použiť aj pri výmene vášho prijímača za iný - ovládač vám radi preprogramujeme na iný model.'],
+  [new RegExp(`${OVL} ALIEN 4v1 umí současně ovládat až 4 přístroje, pokud nám tedy spolu s objednávkou pošlete modely vašich zařízení, tak vám ho můžeme naprogramovat podle vašich potřeb\\.`, 'gi'),
+    'Ovládač ALIEN 4v1 dokáže súčasne ovládať až 4 zariadenia - ak nám spolu s objednávkou pošlete modely vašich zariadení, naprogramujeme ho podľa vašich potrieb.'],
+  // "Diaľkový Ovládač ..." (uz ciastocne prelozene priamo v zdroji, nekonzistentne velke pismeno
+  // "Ovládač" v strede vety, napr. "Diaľkový Ovládač ALIEN 4v1 umí...") - zjednoti sa na male.
+  [/Diaľkový Ovládač/g, 'Diaľkový ovládač'],
 ];
 
 const GP_LINK = '<p>Odporúčame batérie značky <a href="https://www.premiumstore.sk/znacka/gp/">GP Ultra Alkaline</a>.</p>';
@@ -106,13 +125,26 @@ function translateAtosRemoteDescription(descriptionHtml) {
   // Zaloha pre variant bez zavereenej fotky vobec - zastavi sa pred najblizsim zatvorenim <div>.
   d = d.replace(/Univerzáln[ií] ovlad[aá]č ALIEN 4v1[\s\S]*?(?=<\/div>)/gi, '');
 
+  // 3b. Treti sablona (Samsung "plain-text" varianta) ma navyse druhy generický blok - vedlajsi
+  // zoznam originalnych OEM kodov + reklamny "Prodáváme náhradní dálkové ovladače..." odsek za
+  // pomlckovou ciarou. Rovnako nesuvisi s konkretnym modelom, zmazat cely (az po odkaz na
+  // kategoriu, ktory sa prida vzdy na koniec).
+  // Ohranicene po najblizsi z terminatorov - v niektorych produktoch tato vedlajsia OEM zmienka
+  // stoji PRED skutocnym zoznamom modelov (nie len za nim), takze lenivy zaber "az po koniec"
+  // by inak vymazal aj samotny hlavny zoznam kompatibilnych modelov za nou.
+  d = d.replace(new RegExp(`${OVL} je kompatibiln[íi] s originálními ${OVL}i:[\\s\\S]*?(?=<p>Ďalšie produkty|-{5,}|${OVL} je kompatibiln|$)`, 'gi'), '');
+  // Zaloha, ak vedlajsi OEM zoznam chyba a rovno nasleduje len pomlckova ciara + reklamny odsek.
+  d = d.replace(/-{5,}[\s\S]*?(?=<p>Ďalšie produkty|$)/gi, '');
+
   // 4. Preklad zvysneho pevneho textu (fixne frazy) a bezneho nazvu zariadenia v tvare "pro X.".
   for (const [re, repl] of PHRASE_TRANSLATIONS) d = d.replace(re, repl);
-  const proMatch = d.match(/diaľkové ovládanie v inom vzhľade pre ([^.<]{2,60})\./i);
+  // Bez povinnej koncovej bodky - niektore produkty maju vetu ukoncenu rovno <br /> bez bodky;
+  // znakova trieda [^.<] sama o sebe zastavi zachytavanie spravne pred obidvoma varianty.
+  const proMatch = d.match(/diaľkové ovládanie v inom vzhľade pre ([^.<]{2,60})/i);
   if (proMatch) {
     let device = proMatch[1];
     for (const [re, repl] of DEVICE_NOUN_TRANSLATIONS) device = device.replace(re, repl);
-    d = d.replace(proMatch[0], `diaľkové ovládanie v inom vzhľade pre ${device}.`);
+    d = d.replace(proMatch[0], `diaľkové ovládanie v inom vzhľade pre ${device}`);
   }
 
   // 5. "a další" v samotnom zozname modelov (nie iba vo vetach vyssie) - drobny zvysok cestiny.
@@ -126,10 +158,18 @@ function translateAtosRemoteDescription(descriptionHtml) {
   // klauzulu (t.j. popis uz raz prebehol touto funkciou), preskocit - inak by "pre (...)." zachytilo
   // az prvu bodku za uz vlozenym zoznamom modelov (ktory ziadnu bodku neobsahuje) a poskodilo text.
   const alreadyProcessed = /kompatibilné (napríklad )?s model/i.test(d);
-  const modelListMatch = !alreadyProcessed && d.match(/kompatibilný s týmito modelmi\s*[^:<]*:<\/p>\s*<p>([^<]+?)(?:<br\s*\/?>\s*)*<\/p>/i);
-  const introMatch = !alreadyProcessed && d.match(/diaľkové ovládanie v inom vzhľade pre ([^.<]{2,60})\./i);
+  const modelListMatch = !alreadyProcessed && (
+    d.match(/kompatibilný s týmito modelmi\s*[^:<]*:<\/p>\s*<p>([^<]+?)(?:<br\s*\/?>\s*)*<\/p>/i)
+    // Zaloha pre "plain-text" sablonu bez <p> struktury (Samsung TV) - zoznam ide priamo za
+    // dvojbodkou az po zaciatok dalsieho odseku/znacky konca (ovladac je uz jednoslovny format
+    // "modelmi TV:" alebo cisto "modelmi:", oboje pokryva [^:<]*).
+    || d.match(/kompatibilný s týmito modelmi\s*[^:<]*:\s*([^<]+?)(?=\s*(?:Ovládač je kompatibiln|-{5,}|<p>Ďalšie produkty|$))/i)
+  );
+  const introMatch = !alreadyProcessed && d.match(/diaľkové ovládanie v inom vzhľade pre ([^.<]{2,60})/i);
   if (modelListMatch && introMatch) {
-    const models = modelListMatch[1].split(',').map((s) => s.replace(/\s*a ďalšie\s*$/i, '').trim()).filter(Boolean);
+    // niekedy zdrojovy zoznam obsahuje ten isty kod viackrat (chyba na strane ATOS-u) - unique()
+    // zachovavajuci poradie, aby sa v uvodnej vete nezobrazil ten isty model dvakrat.
+    const models = [...new Set(modelListMatch[1].split(',').map((s) => s.replace(/\s*a ďalšie\s*$/i, '').trim()).filter(Boolean))];
     if (models.length) {
       // Znacka/seria pred prvym cislom v prvej polozke zoznamu (napr. "Ferguson ARIVA 100" ->
       // "Ferguson ARIVA") - v tomto zdrojovom formate ATOS znacku+seriu uvadza len raz, pred
@@ -152,8 +192,9 @@ function translateAtosRemoteDescription(descriptionHtml) {
     }
   }
 
-  // Kozmeticke upratanie prazdnych elementov, ktore po vymazani obsahu ostali.
-  d = d.replace(/<p>\s*<\/p>/gi, '').replace(/<div>\s*<\/div>/gi, '');
+  // Kozmeticke upratanie prazdnych elementov a prip. zdvojenej bodky (ak povodna veta uz bodku
+  // mala, moj vlastny koniec vety v kroku 6 by inak vytvoril "..").
+  d = d.replace(/<p>\s*<\/p>/gi, '').replace(/<div>\s*<\/div>/gi, '').replace(/\.\.+/g, '.');
 
   return d.replace(/\s+/g, ' ').trim();
 }
