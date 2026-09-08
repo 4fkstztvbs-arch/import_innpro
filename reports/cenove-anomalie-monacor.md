@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — monacor — 2026-09-07
+# Cenové anomálie vynechané z feedu — monacor — 2026-09-08
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -55,6 +55,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | AMBIENT-5/B | 5905143219607 | Stropný reproduktor 80 W, 8 ohmov, čierny | nulová/neplatná cena |  | 0.00 € |  |  |
 | AMBIENT-5/W | 5905143219553 | Stropný reproduktor 80 W, 8 ohmov, biely | nulová/neplatná cena |  | 0.00 € |  |  |
 | CQ-18T | 6938122251434 | Digitálny mixpult | nulová/neplatná cena |  | 0.00 € |  |  |
-| OLA-35JT | 4051366119246 | ORG OLA-35JT Toslink adaptér | cena mimo 8x rozsah mediánu kategórie | 19.90 € | 1.40 € | 1/14.2x | 7 |
 | RM-4125DX | 4007754428261 | Monacor RM-4125DX 482 mm (19") mounting bracket kit for PA-4125DX and PA-4125DX/ | cena mimo 8x rozsah mediánu kategórie | 834.00 € | 41.90 € | 1/19.9x | 10 |
 | WM-4125DX | 4007754428278 | Monacor WM-4125DX Wall mounting bracket for PA-4125DX and PA-4125DX/DT | cena mimo 8x rozsah mediánu kategórie | 834.00 € | 22.00 € | 1/37.9x | 10 |
