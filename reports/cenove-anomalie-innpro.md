@@ -44,7 +44,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
 | 078454 | 6976831832469 | Recenzia monitora 7" F700 | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 272.90 € | 22.8x | 32 |
-| 078552 | 5907085527000 | Autochladnička Euhomy CF001-35GR, 30 l | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 244.00 € | 12.2x | 41 |
+| 078552 | 5907085527000 | Autochladnička Euhomy CF001-35GR, 30 l | cena mimo 8x rozsah mediánu kategórie | 19.00 € | 244.00 € | 12.8x | 41 |
 | 080186 | 5907085529080 | xTool Tlačiareň odevov - sada všetko v jednom | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 10376.90 € | 1729.5x | 76 |
 | 081464 | 4897143171348 | Rýchloupínacia doska Freewell | cena mimo 8x rozsah mediánu kategórie | 2.00 € | 19.50 € | 9.8x | 4 |
 | 082001 | 6978258900387 | Bezdrôtový masážny prístroj/regeneračná obuv s technológiou AI UREVO UCRM003 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 542.90 € | 9.1x | 10 |
@@ -52,6 +52,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 082686 | 6975377555009 | Súprava na určovanie veľkosti krúžkov RingConn | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 4.10 € | 1/43.4x | 80 |
 | 082738 | 6975377555313 | Etui do smartringa RingConn Ring Protector, r.12-14, (L) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 11.90 € | 1/15.0x | 80 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 9.00 € | 1/13.0x | 15 |
+| 084216 | 6975755966717 | Prenosná pumpa na SUP Flextail Evo SUP Pump Pro (sivá) | cena mimo 8x rozsah mediánu kategórie | 19.00 € | 152.90 € | 8.0x | 41 |
+| 084234 | 6971670130370 | Flextail Vacuum Storage Bags Size M | zmena ceny > 5x oproti minulému importu | 91.50 € | 7.20 € | 1/12.7x |  |
 | 085056 | 6978390540465 | Robotický čistič okien MOVA N1 (biely) | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 287.50 € | 14.4x | 11 |
 | 084999 | 6935750534724 | Tvrdomer Uni-T Leed UT347A | cena mimo 8x rozsah mediánu kategórie | 41.95 € | 399.50 € | 9.5x | 264 |
 | 085055 | 6935750520499 | Laserový diaľkomer Uni-T LM2000 | cena mimo 8x rozsah mediánu kategórie | 41.95 € | 686.50 € | 16.4x | 264 |
@@ -88,7 +90,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 089641 | 5905156106697 | Vodotesné puzdro na iPhone Puluz (40 m) s jednosmerným ventilom (biele) | cena mimo 8x rozsah mediánu kategórie | 5.80 € | 55.50 € | 9.6x | 5 |
 | 090613 | 810150549751 | SwitchBot AI Art Frame – digitálny fotorámik s uhlopriečkou 31,5" | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 1001.00 € | 83.8x | 32 |
 | 090614 | 810150549775 | Klávesnica pre SwitchBot Keypad Vision Pro | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 116.50 € | 44.8x | 33 |
-| 090619 | 810150549829 | SWITCHBOT C1 – bezdrôtový vypínač s dobíjateľnou batériou | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 26.50 € | 10.2x | 33 |
+| 090619 | 810150549829 | SWITCHBOT C1 – bezdrôtový vypínač s dobíjateľnou batériou | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 25.50 € | 9.8x | 33 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
 | 092826 | 6924843236645 | Elektrický mop VEXILAR X7 | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 181.00 € | 9.1x | 11 |
 | 092839 | 6924843231411 | Elektrický mop PROSCENIC F10 Ultra | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 177.90 € | 8.9x | 11 |
