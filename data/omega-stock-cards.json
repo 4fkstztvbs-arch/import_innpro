@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600197,
+    "nextCardNumber": 202600215,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1178,6 +1178,114 @@
         "nazov": "?MR-S38B2 Exercise Bike",
         "dodavatel": "innpro",
         "code": "086623"
+      },
+      "0608887786804": {
+        "kod": "202600197",
+        "nazov": "Yeelight Arwen Ceiling Light",
+        "dodavatel": "innpro",
+        "code": "026239"
+      },
+      "6972470561753": {
+        "kod": "202600198",
+        "nazov": "ONIKUMA ST-2 Gaming",
+        "dodavatel": "innpro",
+        "code": "063045"
+      },
+      "6976297860013": {
+        "kod": "202600199",
+        "nazov": "Mini air pump Cycplus AS2",
+        "dodavatel": "innpro",
+        "code": "065095"
+      },
+      "5906168436338": {
+        "kod": "202600200",
+        "nazov": "Arzopa Portable Monitor A1",
+        "dodavatel": "innpro",
+        "code": "066843"
+      },
+      "6972237682240": {
+        "kod": "202600201",
+        "nazov": "Maono PD100X RGB",
+        "dodavatel": "innpro",
+        "code": "068185"
+      },
+      "6975515774316": {
+        "kod": "202600202",
+        "nazov": "TF01 Godfire Flashlight",
+        "dodavatel": "innpro",
+        "code": "065131"
+      },
+      "5907085523040": {
+        "kod": "202600203",
+        "nazov": "Sunnylife OA5-B894-D",
+        "dodavatel": "innpro",
+        "code": "074212"
+      },
+      "6975702150299": {
+        "kod": "202600204",
+        "nazov": "HiBREW H10A temperature",
+        "dodavatel": "innpro",
+        "code": "076473"
+      },
+      "5907085524122": {
+        "kod": "202600205",
+        "nazov": "Flytec RC Boat V060",
+        "dodavatel": "innpro",
+        "code": "078907"
+      },
+      "6972436986354": {
+        "kod": "202600206",
+        "nazov": "Colmi R10 Smartring Black",
+        "dodavatel": "innpro",
+        "code": "079612"
+      },
+      "6972884751979": {
+        "kod": "202600207",
+        "nazov": "CATLINK Cassava Mixed",
+        "dodavatel": "innpro",
+        "code": "081417"
+      },
+      "4897143171492": {
+        "kod": "202600208",
+        "nazov": "Mini 5 Pro ND8/PL Filter",
+        "dodavatel": "innpro",
+        "code": "081490"
+      },
+      "5905156100626": {
+        "kod": "202600209",
+        "nazov": "Sunnylife 1/4”Interf Rota",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "5905156102811": {
+        "kod": "202600210",
+        "nazov": "RainPoint Pool Thermometer",
+        "dodavatel": "innpro",
+        "code": "083943"
+      },
+      "6971593175083": {
+        "kod": "202600211",
+        "nazov": "Smartphone HOTWAV A17",
+        "dodavatel": "innpro",
+        "code": "084354"
+      },
+      "6935750560310": {
+        "kod": "202600212",
+        "nazov": "Uni-T Laser Rangefinder",
+        "dodavatel": "innpro",
+        "code": "085046"
+      },
+      "6974246473543": {
+        "kod": "202600213",
+        "nazov": "MOES UFO-R2-RF Infrared",
+        "dodavatel": "innpro",
+        "code": "087519"
+      },
+      "5905156106581": {
+        "kod": "202600214",
+        "nazov": "For DJI Osmo Action 4",
+        "dodavatel": "innpro",
+        "code": "089663"
       }
     }
   },
