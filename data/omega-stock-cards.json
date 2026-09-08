@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600215,
+    "nextCardNumber": 202600219,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1286,6 +1286,30 @@
         "nazov": "For DJI Osmo Action 4",
         "dodavatel": "innpro",
         "code": "089663"
+      },
+      "5907085524146": {
+        "kod": "202600215",
+        "nazov": "Flytec RC Boat V030-Basic",
+        "dodavatel": "innpro",
+        "code": "078895"
+      },
+      "6976297860310": {
+        "kod": "202600216",
+        "nazov": "Mini Air Pump Cycplus AS1",
+        "dodavatel": "innpro",
+        "code": "083103"
+      },
+      "5905156105782": {
+        "kod": "202600217",
+        "nazov": "MR-2314 abdominal machine",
+        "dodavatel": "innpro",
+        "code": "088742"
+      },
+      "4897143172987": {
+        "kod": "202600218",
+        "nazov": "Osmo Pocket 4P Black Glow",
+        "dodavatel": "innpro",
+        "code": "091570"
       }
     }
   },
