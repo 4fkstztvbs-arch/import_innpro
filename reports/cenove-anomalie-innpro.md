@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-09-07
+# Cenové anomálie vynechané z feedu — innpro — 2026-09-08
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -34,10 +34,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 103.90 € | 9.5x | 19 |
-| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 341.00 € | 15.2x | 26 |
-| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 369.50 € | 16.5x | 26 |
-| 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 26 |
-| 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 26 |
+| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 25.70 € | 341.00 € | 13.3x | 26 |
+| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 25.70 € | 369.50 € | 14.4x | 26 |
+| 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 25.70 € | 302.00 € | 11.8x | 26 |
+| 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 25.70 € | 302.00 € | 11.8x | 26 |
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 1.20 € | 1/49.5x | 10 |
 | 065948 | 6972436985166 | Smartring Colmi R02 20.3MM 11 (Black) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 22.00 € | 1/8.1x | 80 |
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 1.00 € | 1/10.9x | 19 |
@@ -45,7 +45,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
 | 078454 | 6976831832469 | Recenzia monitora 7" F700 | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 272.90 € | 22.8x | 32 |
-| 078552 | 5907085527000 | Autochladnička Euhomy CF001-35GR, 30 l | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 230.50 € | 11.5x | 41 |
+| 078552 | 5907085527000 | Autochladnička Euhomy CF001-35GR, 30 l | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 244.00 € | 12.2x | 41 |
 | 080186 | 5907085529080 | xTool Tlačiareň odevov - sada všetko v jednom | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 10376.90 € | 1729.5x | 76 |
 | 081464 | 4897143171348 | Rýchloupínacia doska Freewell | cena mimo 8x rozsah mediánu kategórie | 2.00 € | 19.50 € | 9.8x | 4 |
 | 082001 | 6978258900387 | Bezdrôtový masážny prístroj/regeneračná obuv s technológiou AI UREVO UCRM003 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 542.90 € | 9.1x | 10 |
