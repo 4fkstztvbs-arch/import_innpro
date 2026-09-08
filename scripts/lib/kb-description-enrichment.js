@@ -19,7 +19,7 @@
 // nedodal formátovaný text) a je kratší než rozumná dĺžka na to, aby to bol
 // už plnohodnotný redakčný text.
 function isPoorDescription(desc) {
-  if (!desc) return false;
+  if (!desc) return true; // žiadny popis je najhorší prípad, nie výnimka z obohacovania
   const hasHtml = /<[a-z][\s\S]*>/i.test(desc);
   return !hasHtml && desc.length < 900;
 }

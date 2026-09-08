@@ -33,8 +33,11 @@ function main() {
     const name = field('<NAME><!\\[CDATA\\[(.*?)\\]\\]></NAME>', itemXml);
     const manufacturer = field('<MANUFACTURER><!\\[CDATA\\[(.*?)\\]\\]></MANUFACTURER>', itemXml);
     const code = field('<CODE>(.*?)</CODE>', itemXml);
-    const descMatch = itemXml.match(/<DESCRIPTION><!\[CDATA\[(.*?)\]\]><\/DESCRIPTION>/s);
-    const description = descMatch ? descMatch[1] : '';
+    // K-B feed niekedy posiela úplne prázdny tag bez CDATA vôbec ("<DESCRIPTION></DESCRIPTION>"),
+    // nie len prázdny CDATA obsah - bez tejto vetvy by isPoorDescription/shouldEnrich taký
+    // produkt nikdy neuvidel (regex by ho jednoducho nenašiel).
+    const descMatch = itemXml.match(/<DESCRIPTION>(?:<!\[CDATA\[(.*?)\]\]>)?<\/DESCRIPTION>/s);
+    const description = descMatch ? (descMatch[1] || '') : '';
     const firstCategory = field('<CATEGORY><!\\[CDATA\\[(.*?)\\]\\]></CATEGORY>', itemXml);
     // Dôležité: "<IMAGE\\s" (nie "<IMAGE[^>]*") - inak regex omylom matchne aj
     // obalujúci tag <IMAGES>, ktorého meno tiež začína "IMAGE".
@@ -46,7 +49,7 @@ function main() {
     const enriched = buildEnrichedDescription(candidate);
     changed++;
     const newDescTag = `<DESCRIPTION>${xmlCdata(enriched)}</DESCRIPTION>`;
-    return rest.replace(/<DESCRIPTION><!\[CDATA\[.*?\]\]><\/DESCRIPTION>/s, newDescTag);
+    return rest.replace(/<DESCRIPTION>(?:<!\[CDATA\[.*?\]\]>)?<\/DESCRIPTION>/s, newDescTag);
   });
 
   fs.writeFileSync(OUT_PATH, head + patched.map((p) => '<SHOPITEM>' + p).join(''), 'utf-8');
