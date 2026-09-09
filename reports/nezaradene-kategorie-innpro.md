@@ -26,7 +26,7 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 
 | Kategória z feedu | Napárované na | Zhoda | Počet produktov |
 |---|---|---|---|
-| Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Postroje, upevňovacie prvky a držiaky | Foto a príslušenstvo > Selfie tyče > Postroje, upevňovacie prvky a držiaky | 90% | 100 |
+| Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Postroje, upevňovacie prvky a držiaky | Foto a príslušenstvo > Selfie tyče > Postroje, upevňovacie prvky a držiaky | 90% | 99 |
 | Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Statívy | Foto a príslušenstvo > Selfie tyče > Statívy | 90% | 51 |
 | Mobily, smart hodinky a tablety > Kable USB I > USB na Lightning | Mobily, smart hodinky a tablety > USB káble > USB na Lightning | 94% | 23 |
 | Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Selfie tyče a držiaky | Foto a príslušenstvo > Selfie tyče > Selfie tyče a držiaky | 90% | 19 |
