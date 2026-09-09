@@ -35,7 +35,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 103.90 € | 9.5x | 19 |
 | 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 341.00 € | 14.9x | 25 |
-| 054807 | 6972842747716 | Páska pre B18 Niimbot (modrá) | zmena ceny > 5x oproti minulému importu | 1.10 € | 5.90 € | 5.4x |  |
 | 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 369.50 € | 16.1x | 25 |
 | 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 302.00 € | 13.2x | 25 |
 | 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 302.00 € | 13.2x | 25 |
