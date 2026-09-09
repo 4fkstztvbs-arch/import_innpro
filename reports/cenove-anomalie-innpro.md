@@ -35,6 +35,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 103.90 € | 9.5x | 19 |
 | 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 341.00 € | 14.9x | 25 |
+| 054807 | 6972842747716 | Páska pre B18 Niimbot (modrá) | zmena ceny > 5x oproti minulému importu | 1.10 € | 5.90 € | 5.4x |  |
 | 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 369.50 € | 16.1x | 25 |
 | 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 302.00 € | 13.2x | 25 |
 | 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 302.00 € | 13.2x | 25 |
@@ -43,7 +44,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 071860 | 5907085520438 | Sunnylife landing gear upgrade for DJI Neo (orange) | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 1.00 € | 1/12.0x | 7 |
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
-| 078454 | 6976831832469 | Recenzia monitora 7" F700 | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 272.90 € | 22.8x | 32 |
+| 078454 | 6976831832469 | Recenzia monitora 7" F700 | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 373.50 € | 31.3x | 32 |
 | 080186 | 5907085529080 | xTool Tlačiareň odevov - sada všetko v jednom | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 10376.90 € | 1729.5x | 75 |
 | 081464 | 4897143171348 | Rýchloupínacia doska Freewell | cena mimo 8x rozsah mediánu kategórie | 2.00 € | 19.50 € | 9.8x | 4 |
 | 082001 | 6978258900387 | Bezdrôtový masážny prístroj/regeneračná obuv s technológiou AI UREVO UCRM003 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 542.90 € | 9.1x | 10 |
@@ -83,8 +84,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 088925 | 6976230009998 | HTVRONT HPS07 Lis na prenos tepla (modrý) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 132.00 € | 22.0x | 75 |
 | 088926 | 6976230000674 | HTVRONT HPS07 Lis na prenos tepla (fialový) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 134.00 € | 22.3x | 75 |
 | 088931 | 6976230004634 | HTVRONT HPS08 Lis na prenos tepla 10 x 10 (biely) | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 112.00 € | 18.7x | 75 |
-| 088743 | 5905156105775 | MERACH MR-2397 Trenažér na stehná a panvové dno (modrý) | cena mimo 8x rozsah mediánu kategórie | 121.00 € | 13.90 € | 1/8.7x | 41 |
-| 088744 | 5905156105805 | MERACH MR-2397 Tréningový prístroj na stehná a panvové dno (ružový) | cena mimo 8x rozsah mediánu kategórie | 121.00 € | 13.90 € | 1/8.7x | 41 |
+| 088743 | 5905156105775 | MERACH MR-2397 Trenažér na stehná a panvové dno (modrý) | cena mimo 8x rozsah mediánu kategórie | 126.00 € | 13.90 € | 1/9.1x | 42 |
+| 088744 | 5905156105805 | MERACH MR-2397 Tréningový prístroj na stehná a panvové dno (ružový) | cena mimo 8x rozsah mediánu kategórie | 126.00 € | 13.90 € | 1/9.1x | 42 |
 | 089641 | 5905156106697 | Vodotesné puzdro na iPhone Puluz (40 m) s jednosmerným ventilom (biele) | cena mimo 8x rozsah mediánu kategórie | 5.80 € | 55.50 € | 9.6x | 5 |
 | 090613 | 810150549751 | SwitchBot AI Art Frame – digitálny fotorámik s uhlopriečkou 31,5" | cena mimo 8x rozsah mediánu kategórie | 11.95 € | 1001.00 € | 83.8x | 32 |
 | 090614 | 810150549775 | Klávesnica pre SwitchBot Keypad Vision Pro | cena mimo 8x rozsah mediánu kategórie | 2.60 € | 116.50 € | 44.8x | 33 |
