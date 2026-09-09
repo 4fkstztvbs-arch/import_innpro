@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600223,
+    "nextCardNumber": 202600231,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1334,6 +1334,54 @@
         "nazov": "Sat LNB Quad OPTICUM LQP-06H MULTIFEED 0,1 dB *",
         "dodavatel": "atos",
         "code": "KON0042"
+      },
+      "8592718039202": {
+        "kod": "202600223",
+        "nazov": "LED osvetlenie s diaľkovým ovládačom Estela White, 36W,",
+        "dodavatel": "solight",
+        "code": "WO8019"
+      },
+      "8592718042455": {
+        "kod": "202600224",
+        "nazov": "LED osvětlení s dálkovým ovladačem Estela White, 60W,",
+        "dodavatel": "solight",
+        "code": "WO8021"
+      },
+      "8592718033774": {
+        "kod": "202600225",
+        "nazov": "Nástenný keramický ohrievač, 2000 W, biely",
+        "dodavatel": "solight",
+        "code": "KP07"
+      },
+      "8592718011017": {
+        "kod": "202600226",
+        "nazov": "Flexo šnúra, 2.5m, 3 x",
+        "dodavatel": "solight",
+        "code": "PF38"
+      },
+      "8592718025939": {
+        "kod": "202600227",
+        "nazov": "3z viacnásobná zásuvka",
+        "dodavatel": "solight",
+        "code": "PZ11"
+      },
+      "8592718031282": {
+        "kod": "202600228",
+        "nazov": "LED COB svetelný pás",
+        "dodavatel": "solight",
+        "code": "WM616"
+      },
+      "8592718034191": {
+        "kod": "202600229",
+        "nazov": "LED osvetlenie prachotesné, IP65, 36W,",
+        "dodavatel": "solight",
+        "code": "WO530"
+      },
+      "8592718014995": {
+        "kod": "202600230",
+        "nazov": "Digitálna Izbová anténa, DVB-T2, 45dB",
+        "dodavatel": "solight",
+        "code": "HP26"
       }
     }
   },
