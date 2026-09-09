@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-09-08
+# Cenové anomálie vynechané z feedu — innpro — 2026-09-09
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -34,10 +34,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 103.90 € | 9.5x | 19 |
-| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.00 € | 341.00 € | 15.5x | 25 |
-| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.00 € | 369.50 € | 16.8x | 25 |
-| 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.00 € | 302.00 € | 13.7x | 25 |
-| 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.00 € | 302.00 € | 13.7x | 25 |
+| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 341.00 € | 14.9x | 25 |
+| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 369.50 € | 16.1x | 25 |
+| 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 302.00 € | 13.2x | 25 |
+| 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.90 € | 302.00 € | 13.2x | 25 |
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 59.45 € | 1.20 € | 1/49.5x | 10 |
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 1.00 € | 1/10.9x | 19 |
 | 071860 | 5907085520438 | Sunnylife landing gear upgrade for DJI Neo (orange) | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 1.00 € | 1/12.0x | 7 |
