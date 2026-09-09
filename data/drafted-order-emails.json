@@ -362,5 +362,12 @@
     "subject": "Re: Vaša objednávka č. 202600801 sa práve vybavuje",
     "orderCode": "202600801",
     "matchedBy": "code"
+  },
+  "<03f408a4-07ae-4758-af9e-49ce3c6c690b@abawood.sk>": {
+    "draftedAt": "2026-09-09T16:22:26.672Z",
+    "from": "faktury@abawood.sk",
+    "subject": "Re: Vaša objednávka č. 202600542 bola úspešne vybavená a odoslaná",
+    "orderCode": "202600542",
+    "matchedBy": "code"
   }
 }
