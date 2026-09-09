@@ -348,5 +348,19 @@
     "subject": "Re: [PremiumStore.sk] Objednávka 202600813",
     "orderCode": "202600813",
     "matchedBy": "code"
+  },
+  "<CAJk+Q_-FLyySKMnB8MZm-7fN8vWZzt-FdDo9L+8JvvP24MxsrA@mail.gmail.com>": {
+    "draftedAt": "2026-09-09T11:55:23.719Z",
+    "from": "plechisk@gmail.com",
+    "subject": "Info o nákupe/produkte",
+    "orderCode": "202600703",
+    "matchedBy": "code"
+  },
+  "<CAMAapvUNQEOLFxfKh2oYSZs8xcPFUSvPad4PX3FVASrWHSYNGg@mail.gmail.com>": {
+    "draftedAt": "2026-09-09T11:55:34.164Z",
+    "from": "msevecek@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600801 sa práve vybavuje",
+    "orderCode": "202600801",
+    "matchedBy": "code"
   }
 }
