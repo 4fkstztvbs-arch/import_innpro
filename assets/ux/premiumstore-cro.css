@@ -628,6 +628,13 @@ ol.cart-header > li:not(:last-child):after {
 #checkoutSidebar .order-summary .checkout-box {
   display: none !important;
 }
+/* Natívne .order-summary{margin-bottom:22px} (na obaľujúcom div, nie na
+   samotnej karte .order-summary-inner) robí medzeru pred tlačidlom
+   .next-step, ktoré nasleduje hneď za ním - karta a krémový blok s
+   tlačidlom majú byť jeden spojitý tvar bez medzery. */
+#checkoutSidebar .order-summary {
+  margin-bottom: 0 !important;
+}
 #checkoutSidebar .order-summary-inner {
   border: 1px solid var(--dn-g50) !important;
   border-bottom: none !important;
