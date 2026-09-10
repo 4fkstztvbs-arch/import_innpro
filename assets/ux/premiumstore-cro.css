@@ -761,6 +761,40 @@ ol.cart-header > li:not(:last-child):after {
 #checkoutSidebar .order-summary-item.price .price-wrapper {
   padding: 0 24px !important;
 }
+/* Natívne Shoptet CSS núti .price-label.price-primary aj .price.price-primary
+   na flex:1 1 100% (zalomí popisok a sumu pod seba, na 2 riadky) - denatura
+   to prepisuje na 50%/50% vedľa seba na jednom riadku. Rovnaký princíp aj
+   pre "Cena bez DPH" (.price-secondary). */
+#checkoutSidebar .price-wrapper .price-label.price-primary,
+#checkoutSidebar .price-wrapper .price.price-primary,
+#checkoutSidebar .price-wrapper .price-secondary {
+  flex: 1 1 50% !important;
+}
+#checkoutSidebar .price-wrapper .price-label.price-primary,
+#checkoutSidebar .price-wrapper .price-label.price-secondary {
+  text-align: left !important;
+}
+#checkoutSidebar .price-wrapper .price.price-primary {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  text-align: right !important;
+  white-space: normal !important;
+}
+#checkoutSidebar .price-wrapper .price-label.price-primary {
+  font-size: 16px !important;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+  margin-bottom: 9px !important;
+}
+#checkoutSidebar .price-wrapper .price-label.price-secondary,
+#checkoutSidebar .price-wrapper .price-secondary {
+  font-size: 14px !important;
+  line-height: 1.2 !important;
+  font-weight: 400 !important;
+  color: var(--dn-g300) !important;
+  text-align: right !important;
+}
 /* .next-step (tlačidlo "Pokračovať" + odkaz "Späť") - po presune JS-om
    je teraz POSLEDNÉ dieťa .order-summary-inner, hneď za .price, so
    zdieľaným krémovým pozadím - vizuálne jeden spojitý blok bez medzery. */
