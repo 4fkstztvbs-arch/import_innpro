@@ -1,0 +1,171 @@
+{
+  "fetchedAt": "2026-09-10T19:33:01.491Z",
+  "domain": "heureka.sk",
+  "productCount": 7,
+  "matchedProductCount": 5,
+  "unmatchedEanCount": 0,
+  "noEanCount": 2,
+  "products": [
+    {
+      "ean": "6976297861263",
+      "heurekaProductName": "Cyklocomputer Cycplus M3 - kompatibilný s: Strava, Trainingpeaks atď.",
+      "heurekaUrl": "https://www.premiumstore.sk/cyklocomputer-cycplus-m3-kompatibilny-s--strava--trainingpeaks-atd-/",
+      "ourName": "Cyklocomputer Cycplus M3 - kompatibilný s: Strava, Trainingpeaks atď.",
+      "ourCode": "082886",
+      "ourSource": "innpro.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6917472",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1788951642
+        }
+      ]
+    },
+    {
+      "ean": "8698902064705",
+      "heurekaProductName": "FINLUX 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
+      "heurekaUrl": "https://www.premiumstore.sk/finlux-65fqk9070-ultra-hd-4k-qled-smart-android-tv/",
+      "ourName": "FINLUX 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
+      "ourCode": "65FQK9070",
+      "ourSource": "atos.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6920540",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1788766854
+        }
+      ]
+    },
+    {
+      "ean": null,
+      "heurekaProductName": "Diaľkový ovládač ALIEN AB CryptoBox 750 HD - náhrada",
+      "heurekaUrl": "https://www.premiumstore.sk/dialkovy-ovladac-alien-ab-cryptobox-750-hd-nahrada/",
+      "ourName": null,
+      "ourCode": null,
+      "ourSource": null,
+      "reviewCount": 1,
+      "avgRating": 3,
+      "reviews": [
+        {
+          "ratingId": "6900161",
+          "orderId": "",
+          "author": "",
+          "rating": 3,
+          "pros": "",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1788550083
+        }
+      ]
+    },
+    {
+      "ean": "5901890037334",
+      "heurekaProductName": "Kruger & Matz Ozvučovací systém KRUGER MATZ KM1715, 2x bezdrátový mikrofon, 60W",
+      "heurekaUrl": "https://www.premiumstore.sk/ozvucovaci-system-kruger-matz-km1715--2x-bezdratovy-mikrofon--60w/",
+      "ourName": "Ozvučovací systém KRUGER MATZ KM1715, 2x bezdrátový mikrofon, 60W",
+      "ourCode": "TIP-05461064",
+      "ourSource": "atos.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6840975",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "vela muziky za tie peniaza, ma všetko čo som potreboval",
+          "reaction": "",
+          "unixTimestamp": 1786904888
+        }
+      ]
+    },
+    {
+      "ean": null,
+      "heurekaProductName": "Diaľkový ovládač ALIEN Thomson THS 812",
+      "heurekaUrl": "https://www.premiumstore.sk/dialkovy-ovladac-alien-thomson-ths-812/",
+      "ourName": null,
+      "ourCode": null,
+      "ourSource": null,
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6726274",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "Mám to čo som potrebovala",
+          "reaction": "",
+          "unixTimestamp": 1783422090
+        }
+      ]
+    },
+    {
+      "ean": "8590393259199",
+      "heurekaProductName": "ETA Verto II 1423 90000 bílý/zlatý",
+      "heurekaUrl": "https://www.premiumstore.sk/eta-verto-ii-1423-90000-bily-zlaty/",
+      "ourName": "ETA Verto II 1423 90000 bílý/zlatý",
+      "ourCode": "100000139422",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6686751",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "Dobry pomer cena -vykon, pri pravidelnom pouzivani vydrzi bateria cca 3 roky. Aj tak je vsak v porovnani s podobnymi vysavacmi v tejto cene najlepsi. Kupene uz druhykrat",
+          "reaction": "",
+          "unixTimestamp": 1781937076
+        }
+      ]
+    },
+    {
+      "ean": "8592718042530",
+      "heurekaProductName": "Solight sada dvoch vianočných LED svetielok, 15/20cm, 30x LED, AA baterie",
+      "heurekaUrl": "https://www.premiumstore.sk/solight-sada-dvoch-vianocnych-led-svetielok--15-20cm--30x-led--aa-baterie/",
+      "ourName": "Solight sada dvoch vianočných LED svetielok, 15/20cm, 30x LED, AA baterie",
+      "ourCode": "1V287",
+      "ourSource": "solight.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6581032",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "Som spokojná ďakujem.",
+          "reaction": "",
+          "unixTimestamp": 1778304184
+        }
+      ]
+    }
+  ]
+}
