@@ -676,24 +676,30 @@ ol.cart-header > li:not(:last-child):after {
 /* Natívne Bootstrap .row.col-md-8/.col-md-4 delí stĺpce na percentá celej
    šírky kontajnera (preto bola karta zhrnutia neprimerane široká). denatura
    prepína .row.cart-row na flex a stĺpcom dáva vlastnú max-width - stĺpec so
-   zhrnutím je tak úzky (360px) a nezávislý od šírky ľavého stĺpca. */
-.id--16 .row.cart-row {
-  display: flex !important;
-  justify-content: space-between !important;
-}
-.id--16 .row.cart-row:before,
-.id--16 .row.cart-row:after {
-  content: none !important;
-}
-#checkoutSidebar {
-  max-width: 360px !important;
-  padding: 0 !important;
-}
-#checkoutContent {
-  width: 100% !important;
-  max-width: 940px !important;
-  margin-left: 0 !important;
-  padding: 0 !important;
+   zhrnutím je tak úzky (360px) a nezávislý od šírky ľavého stĺpca.
+   DÔLEŽITÉ: len od 768px vyššie - Bootstrap .col-md-* je od prírody
+   responzívny (na mobile sa stĺpce zalamujú pod seba na 100% šírky);
+   force-flex/max-width bez media query by na mobile natlačil oba stĺpce
+   vedľa seba na malú šírku. */
+@media (min-width: 768px) {
+  .id--16 .row.cart-row {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .id--16 .row.cart-row:before,
+  .id--16 .row.cart-row:after {
+    content: none !important;
+  }
+  #checkoutSidebar {
+    max-width: 360px !important;
+    padding: 0 !important;
+  }
+  #checkoutContent {
+    width: 100% !important;
+    max-width: 940px !important;
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
 }
 
 /* --- Karta "Zhrnutie objednávky" - zvýraznený krémový blok sumy --------- */

@@ -194,29 +194,6 @@
     navButtons.insertAdjacentHTML('afterbegin', html);
   }
 
-  // --- 2) Trust badges pri CTA (len checkout) --------------------------------
-  // Na PDP sa už NEPOUŽÍVA - nahradené natívnym Shoptet blokom "Konkurenčné
-  // výhody" (ikony pod tlačidlom Do košíka), ktorý vyzerá lepšie a je
-  // spravovateľný priamo v administrácii. Tu ostáva len pre checkout krok.
-  function trustBadges() {
-    if (document.querySelector('.ps-trust-badges')) return;
-    if (getPdpForm()) return; // na PDP zámerne nič - nahradené natívnym blokom
-
-    var checkoutBtn = findByText('button, a, input[type="submit"]', ['pokračovať'], '#cart-widget');
-    var anchor = checkoutBtn ? (checkoutBtn.closest('form, div, section') || checkoutBtn.parentElement) : null;
-    if (!anchor) return;
-
-    var phoneDigits = SUPPORT_PHONE.replace(/\s+/g, '');
-    var html =
-      '<div class="ps-trust-badges">' +
-        '<span>Vrátenie tovaru do 14 dní</span>' +
-        '<span>Zabezpečená platba</span>' +
-        '<span>Podpora <a href="tel:' + phoneDigits + '">' + phoneDigits + '</a></span>' +
-      '</div>';
-
-    anchor.insertAdjacentHTML('afterend', html);
-  }
-
   // --- 3) Sticky lišta názov + cena + "Do košíka" (PDP, mobil/tablet) -------
   function stickyBuyBar() {
     if (document.querySelector('.ps-sticky-buy')) return;
