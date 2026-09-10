@@ -276,6 +276,16 @@
     summaryBox.appendChild(nextStep);
   }
 
+  // --- 7) Text tlačidla "Pokračovať" -> "Pokračovať v objednávke" -----------
+  // (checkout, krok "Doprava & platba"), presne ako "POKRAČOVAT V OBJEDNÁVCE"
+  // na denatura.cz. Mení len textový obsah, submit na #order-form ostáva.
+  function renameContinueButton() {
+    var span = document.querySelector('#checkoutSidebar #orderFormButton .order-button-text');
+    if (!span) return;
+    if (span.textContent.trim() === 'Pokračovať v objednávke') return;
+    span.textContent = 'Pokračovať v objednávke';
+  }
+
   // --- Spustenie -------------------------------------------------------------
   function run() {
     relocateLoginButton();
@@ -286,6 +296,7 @@
     deemphasizeSecondaryActions();
     relocateBenefitBanner();
     relocateCheckoutNextStep();
+    renameContinueButton();
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
   }
 

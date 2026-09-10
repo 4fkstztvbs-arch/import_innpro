@@ -750,10 +750,18 @@ ol.cart-header > li:not(:last-child):after {
   border-bottom: 1px solid var(--dn-g50) !important;
 }
 /* Riadky dopravy/platby ("Packeta", "Online platba kartou") sa dopĺňajú
-   AJAX-om po výbere dopravy - môžu byť inou triedou (.recapitulation-single)
-   než .order-summary-item, preto rovnaké vynulovanie aj tu. */
+   AJAX-om po výbere dopravy - inou triedou (.recapitulation-single) než
+   .order-summary-item, preto rovnaké vynulovanie aj tu. Natívne majú
+   padding:22px 0 (odtiaľ veľké prázdne miesto medzi riadkami) - denatura
+   ich stláča na padding:5px 0, presne ako tu. */
 #checkoutSidebar .recapitulation-single {
   border: none !important;
+  padding: 5px 0 !important;
+}
+/* Obalový element #shipping-billing-summary (denatura) má vlastný padding
+   14px hore / 26px dole - nahrádza väčší natívny odstup. */
+#checkoutSidebar #shipping-billing-summary {
+  padding: 14px 0 26px !important;
 }
 #checkoutSidebar .order-summary-item.helper {
   font-weight: 600 !important;
