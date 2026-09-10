@@ -844,9 +844,17 @@ ol.cart-header > li:not(:last-child):after {
   display: flex !important;
   flex-direction: column-reverse !important;
 }
+/* Denatura: .btn.btn-conversion{font-size:13px;font-weight:700;
+   letter-spacing:2px;line-height:1.7;padding:16px 48px;border-radius:100px}
+   - naše .btn-lg bolo oveľa väčšie (preto sa text lámal na 2 riadky). */
 #checkoutSidebar .next-step.next-step--step-1 .btn.btn-lg {
   width: 100% !important;
   justify-content: center !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+  line-height: 1.7 !important;
+  padding: 16px 20px !important;
 }
 /* denatura odkaz "Zpět" v karte zhrnutia nezobrazuje. */
 #checkoutSidebar .next-step.next-step--step-1 .next-step-back {
