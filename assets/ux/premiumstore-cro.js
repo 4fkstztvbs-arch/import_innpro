@@ -264,7 +264,6 @@
     headerSupportBlock();
     menuTrigger();
     mobileMenuSupportBlock();
-    trustBadges();
     stickyBuyBar();
     deemphasizeSecondaryActions();
     relocateBenefitBanner();
