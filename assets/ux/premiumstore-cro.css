@@ -760,10 +760,7 @@ ol.cart-header > li:not(:last-child):after {
   width: 100% !important;
   justify-content: center !important;
 }
+/* denatura odkaz "Zpět" v karte zhrnutia nezobrazuje. */
 #checkoutSidebar .next-step.next-step--step-1 .next-step-back {
-  margin-top: 16px !important;
-  text-align: center !important;
-  font-size: 13px !important;
-  color: var(--dn-g300) !important;
-  text-decoration: underline !important;
+  display: none !important;
 }
