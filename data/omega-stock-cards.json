@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600235,
+    "nextCardNumber": 202600243,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1406,6 +1406,54 @@
         "nazov": "Yeelight Smart LED Desk",
         "dodavatel": "innpro",
         "code": "087873"
+      },
+      "6923520286461": {
+        "kod": "202600235",
+        "nazov": "Edifier R990BT black",
+        "dodavatel": "innpro",
+        "code": "062436"
+      },
+      "6935750525081": {
+        "kod": "202600236",
+        "nazov": "UNI-T UT25CL CABLE",
+        "dodavatel": "innpro",
+        "code": "077518"
+      },
+      "6977726811729": {
+        "kod": "202600237",
+        "nazov": "K1C 2025 3D Printer",
+        "dodavatel": "innpro",
+        "code": "080689"
+      },
+      "6932704917268": {
+        "kod": "202600238",
+        "nazov": "ELEGOO PETG-CF Carbon",
+        "dodavatel": "innpro",
+        "code": "083356"
+      },
+      "6933582315740": {
+        "kod": "202600239",
+        "nazov": "Filament PLA Glow In The",
+        "dodavatel": "innpro",
+        "code": "085227"
+      },
+      "6933582317522": {
+        "kod": "202600240",
+        "nazov": "Filament ASA 1.75mm 1kg",
+        "dodavatel": "innpro",
+        "code": "085238"
+      },
+      "0757047110420": {
+        "kod": "202600241",
+        "nazov": "Projector Magcubic",
+        "dodavatel": "innpro",
+        "code": "086336"
+      },
+      "6974662352750": {
+        "kod": "202600242",
+        "nazov": "Anycubic PETG Filament",
+        "dodavatel": "innpro",
+        "code": "086693"
       }
     }
   },
