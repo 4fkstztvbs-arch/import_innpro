@@ -8,6 +8,7 @@
     "heureka-price-compare": "node scripts/compare-heureka-prices.js",
     "heureka-price-daily": "node scripts/process-heureka-report.js",
     "heureka-unmatched": "node scripts/process-heureka-unmatched.js",
+    "heureka-reviews": "node scripts/fetch-heureka-product-reviews.js",
     "check-inbox": "node scripts/check-support-inbox.js",
     "scan-support-emails": "node scripts/scan-support-emails.js",
     "draft-order-replies": "node scripts/draft-order-replies.js"
