@@ -516,41 +516,51 @@ ol.cart-header li {
   position: relative !important;
   z-index: 1 !important;
 }
-ol.cart-header li a,
-ol.cart-header li strong {
+/* Rovnaký dôvod pre body.ordering-process predponu ako pri kruhoch nižšie -
+   staršie "Vlastné CSS" v administrácii cieli `li.active a{color:#24b47e!important}`
+   na rovnakej úrovni špecifickosti. */
+body.ordering-process ol.cart-header li a,
+body.ordering-process ol.cart-header li strong {
   background: transparent !important;
   color: var(--dn-g300) !important;
   letter-spacing: 1px !important;
 }
-ol.cart-header li.active a,
-ol.cart-header li.completed a,
-ol.cart-header li.active strong,
-ol.cart-header li.completed strong {
+body.ordering-process ol.cart-header li.active a,
+body.ordering-process ol.cart-header li.completed a,
+body.ordering-process ol.cart-header li.active strong,
+body.ordering-process ol.cart-header li.completed strong {
   background: transparent !important;
 }
-ol.cart-header li.active a,
-ol.cart-header li.active strong {
+body.ordering-process ol.cart-header li.active a,
+body.ordering-process ol.cart-header li.active strong {
   color: var(--dn-b400) !important;
   font-weight: 700 !important;
 }
 /* Kruh s číslom - predvolene obrys, aktívny krok zvýraznený obrysom,
-   dokončený krok biely kruh (splynie so zeleným pásom za ním). */
-ol.cart-header li a:before,
-ol.cart-header li strong:before {
+   dokončený krok biely kruh (splynie so zeleným pásom za ním).
+   Selektory tu majú navyše predpону `body.ordering-process`, lebo staršie
+   "Vlastné CSS" v administrácii (mimo tohto repa) má rovnako špecifický
+   `ol.cart-header li.active/.completed a:before{color:#fff!important}`
+   a bez tejto vyššej špecificity by pri farbe textu vyhrávalo ono
+   (číslo bolo neviditeľné - biele na bielej/zelenej). */
+body.ordering-process ol.cart-header li a:before,
+body.ordering-process ol.cart-header li strong:before {
   background-color: transparent !important;
   border-color: var(--dn-b75) !important;
   color: var(--dn-b300) !important;
   font-weight: 700 !important;
 }
-ol.cart-header li.active a:before,
-ol.cart-header li.active strong:before {
+body.ordering-process ol.cart-header li.active a:before,
+body.ordering-process ol.cart-header li.active strong:before {
+  background-color: transparent !important;
   border-color: var(--dn-b300) !important;
   color: var(--dn-b300) !important;
 }
-ol.cart-header li.completed a:before,
-ol.cart-header li.completed strong:before {
+body.ordering-process ol.cart-header li.completed a:before,
+body.ordering-process ol.cart-header li.completed strong:before {
   background-color: #fff !important;
   border-color: #fff !important;
+  color: var(--dn-b300) !important;
 }
 /* Pôvodná spájacia čiara na celú šírku (span:after) sa na denatura
    vôbec nepoužíva - nahradená krátkou čiarkou cez ::after na li. */
