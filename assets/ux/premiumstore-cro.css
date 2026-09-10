@@ -585,31 +585,82 @@ ol.cart-header > li:not(:last-child):after {
    .for-free v main-13.less...css), netreba teda vlastný JS/`:has()`. */
 .shipping-billing-table .radio-wrapper {
   border: 1px solid var(--dn-g50) !important;
-  border-radius: 8px !important;
-  padding: 12px 20px !important;
+  padding: 16px 24px !important;
   margin-bottom: 8px !important;
+  border-radius: 8px !important;
   display: flex !important;
   align-items: center !important;
+  min-height: 84px !important;
 }
 .shipping-billing-table .radio-wrapper:last-child {
   margin-bottom: 0 !important;
-  border-bottom: 1px solid var(--dn-g50) !important; /* natívne .radio-wrapper:last-child ruší spodný okraj */
 }
 .shipping-billing-table .radio-wrapper.active {
   border-color: var(--dn-b200) !important;
   background: var(--dn-b50) !important;
 }
-.shipping-billing-table .radio-wrapper .payment-shipping-price {
+.shipping-billing-table .radio-wrapper > label .payment-logo {
+  order: -1 !important;
+  flex: 0 0 100px !important;
+  margin-right: 20px !important;
+  height: 50px !important;
+  background-color: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.shipping-billing-table .payment-info {
+  line-height: 1 !important;
+}
+.shipping-billing-table .payment-info .shipping-billing-name {
+  font-size: 15px !important;
+  line-height: 1.1 !important;
+  letter-spacing: 1px !important;
   color: var(--dn-g400) !important;
+}
+.shipping-billing-table .radio-wrapper input[type="radio"] + label {
+  padding-left: 40px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+#order-shipping-methods .payment-info > span a,
+#order-billing-methods .payment-info > span a {
+  font-size: 13px !important;
+  color: var(--dn-b400) !important;
+  text-decoration: underline !important;
+  line-height: 1.7 !important;
+}
+.radio-wrapper .payment-shipping-price {
+  color: var(--dn-g400) !important;
+  letter-spacing: 1px !important;
+  font-size: 15px !important;
+  line-height: 1.1 !important;
   font-weight: 600 !important;
 }
-.shipping-billing-table .payment-info b.shipping-billing-name {
-  color: var(--dn-g400) !important;
+.payment-logo img {
+  max-height: 40px !important;
+  max-width: 88px !important;
+}
+#order-billing-methods .payment-logo {
+  order: -1 !important;
+}
+@media screen and (max-width: 767px) {
+  .shipping-billing-table .radio-wrapper > label .payment-logo {
+    display: block !important;
+    height: auto !important;
+    background-color: transparent !important;
+  }
+  .payment-logo img {
+    max-height: 26px !important;
+    max-width: 56px !important;
+  }
 }
 /* Zvolený radio-bod - naša zelená (var(--p) z pôvodného vlastného CSS,
    rovnaká ako tlačidlo "Pokračovať"), namiesto natívnej --color-primary
    (na tomto webe čierna). Bez zásahu do tejto globálnej premennej,
-   nech to neovplyvní iné tlačidlá/prvky na webe. */
+   nech to neovplyvní iné tlačidlá/prvky na webe. Denatura tu má vlastnú
+   SVG ikonu (cudzí hosting, nedá sa priamo prevziať) - farba bodky je ale
+   1:1 rovnaký princíp (input:checked mení farbu). */
 .shipping-billing-table .radio-wrapper input[type="radio"]:checked + label:before {
   border-color: var(--p, #24b47e) !important;
 }
@@ -619,6 +670,30 @@ ol.cart-header > li:not(:last-child):after {
 .desktop .shipping-billing-table .radio-wrapper:hover {
   box-shadow: none !important;
   border-color: var(--dn-b200) !important;
+}
+
+/* --- Rozloženie stĺpcov (krok "Doprava & platba", body.id--16) ---------- */
+/* Natívne Bootstrap .row.col-md-8/.col-md-4 delí stĺpce na percentá celej
+   šírky kontajnera (preto bola karta zhrnutia neprimerane široká). denatura
+   prepína .row.cart-row na flex a stĺpcom dáva vlastnú max-width - stĺpec so
+   zhrnutím je tak úzky (360px) a nezávislý od šírky ľavého stĺpca. */
+.id--16 .row.cart-row {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.id--16 .row.cart-row:before,
+.id--16 .row.cart-row:after {
+  content: none !important;
+}
+#checkoutSidebar {
+  max-width: 360px !important;
+  padding: 0 !important;
+}
+#checkoutContent {
+  width: 100% !important;
+  max-width: 940px !important;
+  margin-left: 0 !important;
+  padding: 0 !important;
 }
 
 /* --- Karta "Zhrnutie objednávky" - zvýraznený krémový blok sumy --------- */
@@ -639,13 +714,26 @@ ol.cart-header > li:not(:last-child):after {
   border: 1px solid var(--dn-g50) !important;
   border-bottom: none !important;
   border-radius: 12px 12px 0 0 !important;
-  padding: 24px 24px 0 !important;
+  padding: 32px 24px 0 !important;
+  margin: 0 !important;
 }
+#checkoutSidebar .order-summary-item {
+  padding: 15px 0 !important;
+}
+#checkoutSidebar .order-summary-item.helper {
+  font-weight: 600 !important;
+}
+/* Presne podľa denatura: vodorovný padding nesie vnútorný .price-wrapper,
+   nie priamo .order-summary-item.price (ten len bledie na okraje karty
+   a nesie farbu pozadia). */
 #checkoutSidebar .order-summary-item.price {
   margin: 0 -24px !important;
   width: calc(100% + 48px) !important;
   background: var(--dn-s300) !important;
-  padding: 20px 24px 24px !important;
+  padding: 24px 0 32px !important;
+}
+#checkoutSidebar .order-summary-item.price .price-wrapper {
+  padding: 0 24px !important;
 }
 /* .next-step (tlačidlo "Pokračovať" + odkaz "Späť") ostáva v DOM tam, kde
    je natívne - hneď POD .order-summary-inner (rovnako ako u denatura,
