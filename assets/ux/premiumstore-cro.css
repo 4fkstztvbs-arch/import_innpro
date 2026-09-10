@@ -749,6 +749,12 @@ ol.cart-header > li:not(:last-child):after {
 #checkoutSidebar .order-summary-item[data-testid="recapCartItem"] {
   border-bottom: 1px solid var(--dn-g50) !important;
 }
+/* Riadky dopravy/platby ("Packeta", "Online platba kartou") sa dopĺňajú
+   AJAX-om po výbere dopravy - môžu byť inou triedou (.recapitulation-single)
+   než .order-summary-item, preto rovnaké vynulovanie aj tu. */
+#checkoutSidebar .recapitulation-single {
+  border: none !important;
+}
 #checkoutSidebar .order-summary-item.helper {
   font-weight: 600 !important;
   border-bottom: 2px solid var(--dn-g400) !important;
