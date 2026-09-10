@@ -2489,4 +2489,7 @@ function buildEnrichedDescription(product) {
   return parts.join('\n');
 }
 
-module.exports = { shouldEnrich, buildEnrichedDescription, isPoorDescription, looksStructured, PRODUCT_FACTS };
+module.exports = {
+  shouldEnrich, buildEnrichedDescription, isPoorDescription, looksStructured, PRODUCT_FACTS,
+  subcategoryOf, pickVariant, displayNameFor, escapeHtml, INTROS, DEFAULT_INTRO,
+};

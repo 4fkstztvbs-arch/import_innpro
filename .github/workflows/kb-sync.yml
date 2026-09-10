@@ -65,6 +65,9 @@ jobs:
       - name: Collapse thin categories
         run: node scripts/collapse-thin-categories.js
 
+      - name: Obnoviť zastaralé generické úvodné vety po zlúčení/premenovaní kategórií
+        run: node scripts/refresh-stale-generic-intros.js --out=output/kb.xml
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js --xml=output/kb.xml
 
