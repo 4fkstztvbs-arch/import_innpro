@@ -466,102 +466,187 @@ body {
 }
 
 /* ============================================================
-   Checkout "Doprava & platba" - podľa vzoru denatura.cz, v našich
-   farbách (zelená #24b47e/-eaf7f1 namiesto ich ružovej/mätovej).
-   Selektory overené priamo v kompilovanom main-13.less...css a v
-   skutočnom DOM z /objednavka/krok-1/.
+   Checkout "Doprava & platba" (krok-1) - verný port skutočného
+   produkčného CSS z denatura.cz (rovnaká šablóna Shoptet Disco,
+   rovnaké id--16/id--17 aj triedy - overené stiahnutím ich
+   user/documents/styles31.css a porovnaním s main-13.less...css).
+   Farby okrem tlačidla "Pokračovať" sú 1:1 ich hodnoty (--dn-* nižšie);
+   tlačidlo necháva našu existujúcu zelenú (var(--p) z pôvodného
+   vlastného CSS), presne podľa zadania "identický dizajn, zmeniť len
+   farbu tlačidla".
    ============================================================ */
-
-/* --- Krokový pruh (ol.cart-header) ------------------------------------- */
-/* Spájacia čiara medzi dokončenými/aktívnymi krokmi je v Shoptete farbená
-   cez --color-secondary (predvolene žltá #ffc500 z pôvodnej témy) na
-   selektore `li.completed a span:after` / `li.active a span:after`.
-   Pôvodné vlastné CSS (Design -> Vlastné CSS v administrácii) cielilo
-   omylom neexistujúci `li.completed:after` (bez `a span`), takže kruhy
-   boli zelené, ale čiara medzi nimi zostala žltá. */
-ol.cart-header li.completed a span:after,
-ol.cart-header li.active a span:after,
-ol.cart-header li.completed strong span:after,
-ol.cart-header li.active strong span:after {
-  border-top-color: #24b47e !important;
+:root {
+  --dn-b50: #edf3ef;   /* pozadie pásu krokov / zvýraznených blokov */
+  --dn-b75: #b3cdbf;
+  --dn-b100: #94b9a4;
+  --dn-b200: #659b7d;  /* zvolená doprava/platba - okraj + text kroku */
+  --dn-b300: #468662;  /* aktívny krok - okraj kruhu */
+  --dn-b400: #315e45;
+  --dn-g50: #ebebeb;   /* okraj kariet dopravy/platby */
+  --dn-g75: #acacad;
+  --dn-g200: #898a8b;
+  --dn-g300: #343537;  /* hlavný text */
+  --dn-g400: #242527;  /* cena, názov dopravy - tmavý text */
+  --dn-s300: #f3ece4;  /* krémový zvýraznený blok "Celkom k úhrade" */
 }
 
-/* Svetlozelený pás na celú šírku pod krokmi, v štýle denatura.cz (namiesto
-   holého bieleho pozadia). Budúci (nedokončený) krok stlmený sivou. */
+/* --- Krokový pruh (ol.cart-header) --------------------------------------
+   denatura: prerušovaná krátka čiarka (64px) medzi krokmi namiesto
+   plnej čiary cez celú šírku, kruh aktívneho kroku je len obrys (nie
+   plná výplň), dokončený krok = biely kruh na zelenom páse. */
 ol.cart-header {
-  background-color: #eaf7f1 !important;
-  border-radius: 12px !important;
-  padding: 20px 16px 4px !important;
+  position: relative !important;
+  margin: 0 0 32px !important;
+  padding: 16px 0 !important;
 }
-ol.cart-header li:not(.active):not(.completed) a,
-ol.cart-header li:not(.active):not(.completed) strong {
-  color: #767676 !important;
+ol.cart-header::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: var(--dn-b50) !important;
+  border-radius: 12px !important;
+}
+ol.cart-header li {
+  position: relative !important;
+  z-index: 1 !important;
+}
+ol.cart-header li a,
+ol.cart-header li strong {
+  background: transparent !important;
+  color: var(--dn-g300) !important;
+  letter-spacing: 1px !important;
 }
 ol.cart-header li.active a,
+ol.cart-header li.completed a,
 ol.cart-header li.active strong,
-ol.cart-header li.completed a {
+ol.cart-header li.completed strong {
+  background: transparent !important;
+}
+ol.cart-header li.active a,
+ol.cart-header li.active strong {
+  color: var(--dn-b400) !important;
   font-weight: 700 !important;
 }
+/* Kruh s číslom - predvolene obrys, aktívny krok zvýraznený obrysom,
+   dokončený krok biely kruh (splynie so zeleným pásom za ním). */
+ol.cart-header li a:before,
+ol.cart-header li strong:before {
+  background-color: transparent !important;
+  border-color: var(--dn-b75) !important;
+  color: var(--dn-b300) !important;
+  font-weight: 700 !important;
+}
+ol.cart-header li.active a:before,
+ol.cart-header li.active strong:before {
+  border-color: var(--dn-b300) !important;
+  color: var(--dn-b300) !important;
+}
+ol.cart-header li.completed a:before,
+ol.cart-header li.completed strong:before {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+/* Pôvodná spájacia čiara na celú šírku (span:after) sa na denatura
+   vôbec nepoužíva - nahradená krátkou čiarkou cez ::after na li. */
+ol.cart-header li a span:after,
+ol.cart-header li strong span:after {
+  content: none !important;
+}
+ol.cart-header > li:not(:last-child):after {
+  content: "" !important;
+  position: absolute !important;
+  right: -32px !important;
+  top: 50%;
+  width: 64px !important;
+  height: 1px !important;
+  background: var(--dn-b75) !important;
+  transform: translateY(-50%) !important;
+}
 
-/* --- Riadky spôsobu dopravy/platby (.radio-wrapper) --------------------- */
-/* Natívne sú to len položky oddelené spodnou čiarou (border-color:
-   transparent transparent var(...)). Prerábame na samostatné zaoblené
-   "karty" so zvýraznením zvolenej možnosti - presne podľa denatura.cz. */
+/* --- Riadky spôsobu dopravy/platby (.radio-wrapper) ---------------------
+   Natívne Shoptet triedu `.active` na zvolenom .radio-wrapper prepína
+   samo (rovnaký mechanizmus používa aj denatura - .radio-wrapper.active
+   .for-free v main-13.less...css), netreba teda vlastný JS/`:has()`. */
 .shipping-billing-table .radio-wrapper {
-  border: 1px solid #eaeaea !important;
-  border-radius: 10px !important;
-  margin-bottom: 10px !important;
-  padding: 4px 16px !important;
+  border: 1px solid var(--dn-g50) !important;
+  border-radius: 8px !important;
+  padding: 12px 20px !important;
+  margin-bottom: 8px !important;
+  display: flex !important;
+  align-items: center !important;
 }
 .shipping-billing-table .radio-wrapper:last-child {
   margin-bottom: 0 !important;
+  border-bottom: 1px solid var(--dn-g50) !important; /* natívne .radio-wrapper:last-child ruší spodný okraj */
 }
-.shipping-billing-table .radio-wrapper:has(input:checked) {
-  background-color: #eaf7f1 !important;
-  border-color: #24b47e !important;
+.shipping-billing-table .radio-wrapper.active {
+  border-color: var(--dn-b200) !important;
+  background: var(--dn-b50) !important;
 }
-/* Natívne farbí zvolený radio-bod cez globálnu premennú --color-primary
-   (na tomto webe čierna) - tu len pre riadky dopravy/platby prepisujeme
-   na našu zelenú, bez dotyku globálnej premennej použitej inde. */
+.shipping-billing-table .radio-wrapper .payment-shipping-price {
+  color: var(--dn-g400) !important;
+  font-weight: 600 !important;
+}
+.shipping-billing-table .payment-info b.shipping-billing-name {
+  color: var(--dn-g400) !important;
+}
+/* Zvolený radio-bod - naša zelená (var(--p) z pôvodného vlastného CSS,
+   rovnaká ako tlačidlo "Pokračovať"), namiesto natívnej --color-primary
+   (na tomto webe čierna). Bez zásahu do tejto globálnej premennej,
+   nech to neovplyvní iné tlačidlá/prvky na webe. */
 .shipping-billing-table .radio-wrapper input[type="radio"]:checked + label:before {
-  border-color: #24b47e !important;
+  border-color: var(--p, #24b47e) !important;
 }
 .shipping-billing-table .radio-wrapper input[type="radio"]:checked + label:after {
-  background-color: #24b47e !important;
+  background-color: var(--p, #24b47e) !important;
+}
+.desktop .shipping-billing-table .radio-wrapper:hover {
+  box-shadow: none !important;
+  border-color: var(--dn-b200) !important;
 }
 
-/* --- Karta "Zhrnutie objednávky" - zvýraznený blok celkovej sumy -------- */
-/* Len desktop/tablet (od 768px) - kompilované Shoptet CSS má pre kartu
-   na mobile iný (zjednodušený, zbalený) variant paddingu/borderu, tu preto
-   zámerne nezasahujeme, aby sa nič nerozbilo na malej šírke. */
-@media (min-width: 768px) {
-  #checkoutSidebar .order-summary-inner {
-    border-radius: 12px !important;
-  }
-  #checkoutSidebar .order-summary-inner .order-summary-item.price {
-    background-color: #eaf7f1 !important;
-    border-radius: 10px !important;
-    padding: 14px 16px !important;
-    margin: 14px 0 0 !important;
-  }
-  /* Tlačidlo "Pokračovať" sem premiestňuje JS (relocateCheckoutNextStep
-     v premiumstore-cro.js), aby sedelo vizuálne vnútri tej istej
-     zvýraznenej karty ako na denatura.cz, namiesto samostatne pod ňou. */
-  #checkoutSidebar .order-summary-inner .next-step {
-    background-color: #eaf7f1 !important;
-    border-radius: 10px !important;
-    padding: 0 16px 16px !important;
-    margin: -2px 0 0 !important;
-    flex-direction: column-reverse !important;
-    align-items: stretch !important;
-    gap: 10px !important;
-  }
-  #checkoutSidebar .order-summary-inner .next-step .btn.btn-lg {
-    width: 100% !important;
-    justify-content: center !important;
-  }
-  #checkoutSidebar .order-summary-inner .next-step .next-step-back {
-    text-align: center !important;
-    font-size: 13px !important;
-  }
+/* --- Karta "Zhrnutie objednávky" - zvýraznený krémový blok sumy --------- */
+/* denatura skrýva box "Potrebujete poradiť?" v sidebari checkoutu úplne
+   (.order-summary .checkout-box{display:none}) - pre 1:1 zhodu layoutu
+   rovnako tu, kontakt ostáva dostupný v pätičke/hlavičke webu. */
+#checkoutSidebar .order-summary .checkout-box {
+  display: none !important;
+}
+#checkoutSidebar .order-summary-inner {
+  border: 1px solid var(--dn-g50) !important;
+  border-bottom: none !important;
+  border-radius: 12px 12px 0 0 !important;
+  padding: 24px 24px 0 !important;
+}
+#checkoutSidebar .order-summary-item.price {
+  margin: 0 -24px !important;
+  width: calc(100% + 48px) !important;
+  background: var(--dn-s300) !important;
+  padding: 20px 24px 24px !important;
+}
+/* .next-step (tlačidlo "Pokračovať" + odkaz "Späť") ostáva v DOM tam, kde
+   je natívne - hneď POD .order-summary-inner (rovnako ako u denatura,
+   ich next-step.next-step--step-1 je tiež samostatný súrodenec, nie
+   vnorený). Vizuálne napojenie na kartu dosahuje zdieľaný krémový podklad
+   priamo na .next-step (denatura to rieši cez absolútne pozicovaný ::before
+   s pevnou výškou v px - tu radšej priamo bg na elemente, nech to nezávisí
+   od pevnej výšky obsahu). */
+#checkoutSidebar .next-step.next-step--step-1 {
+  margin: 0 !important;
+  padding: 20px 24px 24px !important;
+  background: var(--dn-s300) !important;
+  border-radius: 0 0 12px 12px !important;
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+#checkoutSidebar .next-step.next-step--step-1 .btn.btn-lg {
+  width: 100% !important;
+  justify-content: center !important;
+}
+#checkoutSidebar .next-step.next-step--step-1 .next-step-back {
+  margin-top: 16px !important;
+  text-align: center !important;
+  font-size: 13px !important;
+  color: var(--dn-g300) !important;
+  text-decoration: underline !important;
 }
