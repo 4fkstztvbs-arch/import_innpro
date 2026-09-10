@@ -464,3 +464,104 @@ body {
 .ps-secondary-actions:hover {
   opacity: 1;
 }
+
+/* ============================================================
+   Checkout "Doprava & platba" - podľa vzoru denatura.cz, v našich
+   farbách (zelená #24b47e/-eaf7f1 namiesto ich ružovej/mätovej).
+   Selektory overené priamo v kompilovanom main-13.less...css a v
+   skutočnom DOM z /objednavka/krok-1/.
+   ============================================================ */
+
+/* --- Krokový pruh (ol.cart-header) ------------------------------------- */
+/* Spájacia čiara medzi dokončenými/aktívnymi krokmi je v Shoptete farbená
+   cez --color-secondary (predvolene žltá #ffc500 z pôvodnej témy) na
+   selektore `li.completed a span:after` / `li.active a span:after`.
+   Pôvodné vlastné CSS (Design -> Vlastné CSS v administrácii) cielilo
+   omylom neexistujúci `li.completed:after` (bez `a span`), takže kruhy
+   boli zelené, ale čiara medzi nimi zostala žltá. */
+ol.cart-header li.completed a span:after,
+ol.cart-header li.active a span:after,
+ol.cart-header li.completed strong span:after,
+ol.cart-header li.active strong span:after {
+  border-top-color: #24b47e !important;
+}
+
+/* Svetlozelený pás na celú šírku pod krokmi, v štýle denatura.cz (namiesto
+   holého bieleho pozadia). Budúci (nedokončený) krok stlmený sivou. */
+ol.cart-header {
+  background-color: #eaf7f1 !important;
+  border-radius: 12px !important;
+  padding: 20px 16px 4px !important;
+}
+ol.cart-header li:not(.active):not(.completed) a,
+ol.cart-header li:not(.active):not(.completed) strong {
+  color: #767676 !important;
+}
+ol.cart-header li.active a,
+ol.cart-header li.active strong,
+ol.cart-header li.completed a {
+  font-weight: 700 !important;
+}
+
+/* --- Riadky spôsobu dopravy/platby (.radio-wrapper) --------------------- */
+/* Natívne sú to len položky oddelené spodnou čiarou (border-color:
+   transparent transparent var(...)). Prerábame na samostatné zaoblené
+   "karty" so zvýraznením zvolenej možnosti - presne podľa denatura.cz. */
+.shipping-billing-table .radio-wrapper {
+  border: 1px solid #eaeaea !important;
+  border-radius: 10px !important;
+  margin-bottom: 10px !important;
+  padding: 4px 16px !important;
+}
+.shipping-billing-table .radio-wrapper:last-child {
+  margin-bottom: 0 !important;
+}
+.shipping-billing-table .radio-wrapper:has(input:checked) {
+  background-color: #eaf7f1 !important;
+  border-color: #24b47e !important;
+}
+/* Natívne farbí zvolený radio-bod cez globálnu premennú --color-primary
+   (na tomto webe čierna) - tu len pre riadky dopravy/platby prepisujeme
+   na našu zelenú, bez dotyku globálnej premennej použitej inde. */
+.shipping-billing-table .radio-wrapper input[type="radio"]:checked + label:before {
+  border-color: #24b47e !important;
+}
+.shipping-billing-table .radio-wrapper input[type="radio"]:checked + label:after {
+  background-color: #24b47e !important;
+}
+
+/* --- Karta "Zhrnutie objednávky" - zvýraznený blok celkovej sumy -------- */
+/* Len desktop/tablet (od 768px) - kompilované Shoptet CSS má pre kartu
+   na mobile iný (zjednodušený, zbalený) variant paddingu/borderu, tu preto
+   zámerne nezasahujeme, aby sa nič nerozbilo na malej šírke. */
+@media (min-width: 768px) {
+  #checkoutSidebar .order-summary-inner {
+    border-radius: 12px !important;
+  }
+  #checkoutSidebar .order-summary-inner .order-summary-item.price {
+    background-color: #eaf7f1 !important;
+    border-radius: 10px !important;
+    padding: 14px 16px !important;
+    margin: 14px 0 0 !important;
+  }
+  /* Tlačidlo "Pokračovať" sem premiestňuje JS (relocateCheckoutNextStep
+     v premiumstore-cro.js), aby sedelo vizuálne vnútri tej istej
+     zvýraznenej karty ako na denatura.cz, namiesto samostatne pod ňou. */
+  #checkoutSidebar .order-summary-inner .next-step {
+    background-color: #eaf7f1 !important;
+    border-radius: 10px !important;
+    padding: 0 16px 16px !important;
+    margin: -2px 0 0 !important;
+    flex-direction: column-reverse !important;
+    align-items: stretch !important;
+    gap: 10px !important;
+  }
+  #checkoutSidebar .order-summary-inner .next-step .btn.btn-lg {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  #checkoutSidebar .order-summary-inner .next-step .next-step-back {
+    text-align: center !important;
+    font-size: 13px !important;
+  }
+}

@@ -281,6 +281,21 @@
     actions.insertAdjacentElement('afterend', banner);
   }
 
+  // --- 7) Presun tlačidla "Pokračovať" (.next-step) do karty zhrnutia
+  // objednávky (checkout, krok "Doprava & platba") ---------------------------
+  // Natívne je .next-step samostatný súrodenec za .order-summary, nie jeho
+  // súčasť - vizuálne tak "Pokračovať" pôsobí oddelene od karty. Presúva sa
+  // SKUTOČNÝ element (nie kópia), aby zostal zachovaný submit na #order-form.
+  // Zodpovedajúce CSS (zvýraznený blok sumy + tlačidla) je v
+  // assets/ux/premiumstore-cro.css, sekcia "Checkout Doprava & platba".
+  function relocateCheckoutNextStep() {
+    var summaryBox = document.querySelector('#checkoutSidebar .order-summary-inner');
+    var nextStep = document.querySelector('#checkoutSidebar .next-step');
+    if (!summaryBox || !nextStep) return;
+    if (nextStep.parentElement === summaryBox) return;
+    summaryBox.appendChild(nextStep);
+  }
+
   // --- Spustenie -------------------------------------------------------------
   function run() {
     relocateLoginButton();
@@ -291,6 +306,7 @@
     stickyBuyBar();
     deemphasizeSecondaryActions();
     relocateBenefitBanner();
+    relocateCheckoutNextStep();
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
   }
 
