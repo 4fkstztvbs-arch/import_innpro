@@ -722,6 +722,14 @@ ol.cart-header > li:not(:last-child):after {
   border-radius: 12px 12px 0 0 !important;
   padding: 32px 24px 0 !important;
   margin: 0 !important;
+  /* Staršie "Vlastné CSS" v administrácii dáva na .order-summary-inner
+     box-shadow:0 8px 24px rgba(0,0,0,.08) - jeho rozptyl pod spodným
+     okrajom vytváral viditeľnú svetlú čiaru/medzeru nad krémovým blokom
+     s tlačidlom. Denatura kartu bez tieňa, len s tenkým okrajom. */
+  box-shadow: none !important;
+}
+#checkoutSidebar .next-step.next-step--step-1 {
+  box-shadow: none !important;
 }
 #checkoutSidebar .order-summary-item {
   padding: 15px 0 !important;
