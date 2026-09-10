@@ -598,6 +598,34 @@ ol.cart-header > li:not(:last-child):after {
   transform: translateY(-50%) !important;
 }
 
+/* Mobil (denatura): menší kruh (32px namiesto 40px), menší text (12px),
+   kratšia spojovacia čiarka a menší padding pruhu - presne ich hodnoty. */
+@media (max-width: 767px) {
+  #content ol.cart-header {
+    padding: 8px 0 !important;
+  }
+  #content ol.cart-header li a,
+  #content ol.cart-header li strong {
+    padding: 0 5px !important;
+  }
+  #content ol.cart-header li span {
+    font-size: 12px !important;
+    line-height: 1.1 !important;
+    letter-spacing: 1px !important;
+    max-width: 90px !important;
+  }
+  #content ol.cart-header li a:before,
+  #content ol.cart-header li strong:before {
+    width: 32px !important;
+    height: 32px !important;
+    line-height: 30px !important;
+  }
+  #content ol.cart-header > li:not(:last-child):after {
+    width: 48px !important;
+    right: -25px !important;
+  }
+}
+
 /* --- Riadky spôsobu dopravy/platby (.radio-wrapper) ---------------------
    Natívne Shoptet triedu `.active` na zvolenom .radio-wrapper prepína
    samo (rovnaký mechanizmus používa aj denatura - .radio-wrapper.active
