@@ -31,13 +31,13 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 091857 | 6942580505022 | Trolley FOSSIBOT for F2400 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 9.60 € | 103.90 € | 10.8x | 18 |
+| 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 103.90 € | 9.5x | 19 |
 | 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 341.00 € | 15.2x | 24 |
 | 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 358.50 € | 16.0x | 24 |
 | 063460 | 6972884751139 | Smart pet dryer PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 24 |
 | 063459 | 6972884751214 | Inteligentná sušička pre domáce zvieratá Catlink Luxury | cena mimo 8x rozsah mediánu kategórie | 22.45 € | 302.00 € | 13.5x | 24 |
 | 064473 | 8435527816032 | Rolax InnovaGoods self-massaging roller V0103075 | cena mimo 8x rozsah mediánu kategórie | 51.50 € | 1.20 € | 1/42.9x | 4 |
-| 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 9.60 € | 1.00 € | 1/9.6x | 18 |
+| 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 10.90 € | 1.00 € | 1/10.9x | 19 |
 | 071860 | 5907085520438 | Sunnylife landing gear upgrade for DJI Neo (orange) | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 1.00 € | 1/12.0x | 7 |
 | 076115 | 843367129638 | Skriňa na disky SSD/M2 Lexar LPAE06N 10Gb/s | cena mimo 8x rozsah mediánu kategórie | 232.00 € | 23.90 € | 1/9.7x | 7 |
 | 076764 | 4251522825084 | XGRIDS LixelKity K1 | cena mimo 8x rozsah mediánu kategórie | 941.40 € | 7701.50 € | 8.2x | 4 |
