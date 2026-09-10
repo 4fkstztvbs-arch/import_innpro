@@ -519,28 +519,28 @@ ol.cart-header li {
 /* Rovnaký dôvod pre body.ordering-process predponu ako pri kruhoch nižšie -
    staršie "Vlastné CSS" v administrácii cieli `li.active a{color:#24b47e!important}`
    na rovnakej úrovni špecifickosti. */
-body.ordering-process ol.cart-header li a,
-body.ordering-process ol.cart-header li strong {
+body.ordering-process #content ol.cart-header li a,
+body.ordering-process #content ol.cart-header li strong {
   background: transparent !important;
   color: var(--dn-g300) !important;
   letter-spacing: 1px !important;
 }
-body.ordering-process ol.cart-header li.active a,
-body.ordering-process ol.cart-header li.completed a,
-body.ordering-process ol.cart-header li.active strong,
-body.ordering-process ol.cart-header li.completed strong {
+body.ordering-process #content ol.cart-header li.active a,
+body.ordering-process #content ol.cart-header li.completed a,
+body.ordering-process #content ol.cart-header li.active strong,
+body.ordering-process #content ol.cart-header li.completed strong {
   background: transparent !important;
 }
 /* Staršie "Vlastné CSS" v administrácii cieli aj `li.completed a{color:
    #24b47e!important}` (rovnaká špecifickosť ako li.active) - dokončený
    krok má byť tiež tmavý text, nie zelený. */
-body.ordering-process ol.cart-header li.completed a {
+body.ordering-process #content ol.cart-header li.completed a {
   color: var(--dn-g300) !important;
 }
 /* Text popisku kroku je tmavý (--dn-g400), NIE zelený - zelená patrí len
    kruhu/číslu. Predtým tu bola omylom zelená (--dn-b400). */
-body.ordering-process ol.cart-header li.active a,
-body.ordering-process ol.cart-header li.active strong {
+body.ordering-process #content ol.cart-header li.active a,
+body.ordering-process #content ol.cart-header li.active strong {
   color: var(--dn-g400) !important;
   font-weight: 700 !important;
 }
@@ -554,8 +554,8 @@ body.ordering-process ol.cart-header li.active strong {
    display:inline-block + margin-right (namiesto natívneho block +
    margin:0 auto, ktoré centruje kruh NAD textom) dáva kruh a text vedľa
    seba na jeden riadok, presne ako u denatura. */
-body.ordering-process ol.cart-header li a:before,
-body.ordering-process ol.cart-header li strong:before {
+body.ordering-process #content ol.cart-header li a:before,
+body.ordering-process #content ol.cart-header li strong:before {
   background-color: transparent !important;
   border-color: var(--dn-b75) !important;
   color: var(--dn-b300) !important;
@@ -564,19 +564,19 @@ body.ordering-process ol.cart-header li strong:before {
   vertical-align: middle !important;
   margin: 0 12px 0 0 !important;
 }
-body.ordering-process ol.cart-header li a span,
-body.ordering-process ol.cart-header li strong span {
+body.ordering-process #content ol.cart-header li a span,
+body.ordering-process #content ol.cart-header li strong span {
   display: inline-block !important;
   vertical-align: middle !important;
 }
-body.ordering-process ol.cart-header li.active a:before,
-body.ordering-process ol.cart-header li.active strong:before {
+body.ordering-process #content ol.cart-header li.active a:before,
+body.ordering-process #content ol.cart-header li.active strong:before {
   background-color: transparent !important;
   border-color: var(--dn-b300) !important;
   color: var(--dn-b300) !important;
 }
-body.ordering-process ol.cart-header li.completed a:before,
-body.ordering-process ol.cart-header li.completed strong:before {
+body.ordering-process #content ol.cart-header li.completed a:before,
+body.ordering-process #content ol.cart-header li.completed strong:before {
   background-color: #fff !important;
   border-color: #fff !important;
   color: var(--dn-b300) !important;
