@@ -739,6 +739,15 @@ ol.cart-header > li:not(:last-child):after {
 }
 #checkoutSidebar .order-summary-item.helper {
   font-weight: 600 !important;
+  /* Denatura: #shipping-billing-summary{border-top:1px solid var(--color-g400)}
+     - jedna výrazná tmavá čiara nad blokom dopravy/platby (namiesto tenkej
+     sivej ako pri ostatných riadkoch). */
+  border-bottom: 2px solid var(--dn-g400) !important;
+}
+/* Riadky dopravy a platby (za "Celkom za tovar") nemajú medzi sebou žiadnu
+   čiaru - len jednu hrubšiu vyššie, nad celým blokom (pravidlo vyššie). */
+#checkoutSidebar .order-summary-item.helper ~ .order-summary-item:not(.price) {
+  border-top: none !important;
 }
 /* Presne podľa denatura: vodorovný padding nesie vnútorný .price-wrapper,
    nie priamo .order-summary-item.price (ten len bledie na okraje karty
