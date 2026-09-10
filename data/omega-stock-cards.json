@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600231,
+    "nextCardNumber": 202600235,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1382,6 +1382,30 @@
         "nazov": "Digitálna Izbová anténa, DVB-T2, 45dB",
         "dodavatel": "solight",
         "code": "HP26"
+      },
+      "6971636402961": {
+        "kod": "202600231",
+        "nazov": "Space Pi Plus Filament Dryer",
+        "dodavatel": "innpro",
+        "code": "069513"
+      },
+      "1230000160414": {
+        "kod": "202600232",
+        "nazov": "VITURE Pro Mobile Dock",
+        "dodavatel": "innpro",
+        "code": "073064"
+      },
+      "5907085524887": {
+        "kod": "202600233",
+        "nazov": "Flytec RC Boat Battery",
+        "dodavatel": "innpro",
+        "code": "078908"
+      },
+      "6924922270065": {
+        "kod": "202600234",
+        "nazov": "Yeelight Smart LED Desk",
+        "dodavatel": "innpro",
+        "code": "087873"
       }
     }
   },
