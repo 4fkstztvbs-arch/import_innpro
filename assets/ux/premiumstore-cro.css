@@ -771,3 +771,22 @@ ol.cart-header > li:not(:last-child):after {
 #checkoutSidebar .next-step.next-step--step-1 .next-step-back {
   display: none !important;
 }
+
+/* --- Typografia nadpisov (checkout) --------------------------------------
+   Rovnaké písmo (Plus Jakarta Sans) sme mali už predtým, ale nadpisy u nás
+   padali na predvolenú prehliadačovú tučnú váhu (700), zatiaľ čo denatura
+   má h1-h6/.h1-.h6 explicitne font-weight:500 + letter-spacing:1px - preto
+   ich nadpisy vyzerajú "tenšie"/vzdušnejšie aj pri rovnakom fonte. */
+body.ordering-process h1,
+body.ordering-process h2,
+body.ordering-process h3,
+body.ordering-process h4,
+body.ordering-process h5,
+body.ordering-process h6,
+body.ordering-process .h1,
+body.ordering-process .h2,
+body.ordering-process .h3,
+body.ordering-process .h4 {
+  font-weight: 500 !important;
+  letter-spacing: 1px !important;
+}
