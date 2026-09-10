@@ -872,6 +872,14 @@ ol.cart-header > li:not(:last-child):after {
   display: flex !important;
   flex-direction: column-reverse !important;
 }
+/* Box s upozornením na neregulovanú kartu (zobrazuje sa len podmienene cez
+   triedu js-unregulated-card-warning) sedí v DOM medzi .price a .next-step
+   vnútri .order-summary-inner - ak by z akéhokoľvek dôvodu nebol skrytý
+   natívnym js-hidden, spôsobil by presne biely priestor pod krémovým
+   blokom pred zaobleným spodným rohom karty. */
+#checkoutSidebar .preauthorization-box {
+  display: none !important;
+}
 /* Denatura: .btn.btn-conversion{font-size:13px;font-weight:700;
    letter-spacing:2px;line-height:1.7;padding:16px 48px;border-radius:100px}
    - naše .btn-lg bolo oveľa väčšie (preto sa text lámal na 2 riadky). */
