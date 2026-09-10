@@ -544,6 +544,17 @@ body.ordering-process #content ol.cart-header li.active strong {
   color: var(--dn-g400) !important;
   font-weight: 700 !important;
 }
+/* KĽÚČOVÉ: staršie "Vlastné CSS" farbí priamo vnútorný <span> (nie len
+   obalový a/strong) - `li.active span, li.completed span{color:#24b47e
+   !important}". Farba na a/strong vyššie sa naň vôbec nevzťahovala (span
+   má vlastnú explicitnú farbu, nededí z rodiča), preto zostával zelený aj
+   po predošlej oprave. */
+body.ordering-process #content ol.cart-header li.active span {
+  color: var(--dn-g400) !important;
+}
+body.ordering-process #content ol.cart-header li.completed span {
+  color: var(--dn-g300) !important;
+}
 /* Kruh s číslom - predvolene obrys, aktívny krok zvýraznený obrysom,
    dokončený krok biely kruh (splynie so zeleným pásom za ním).
    Selektory tu majú navyše predpону `body.ordering-process`, lebo staršie
@@ -780,6 +791,16 @@ ol.cart-header > li:not(:last-child):after {
   /* Staršie "Vlastné CSS" v administrácii dáva na .order-summary-inner
      box-shadow:0 8px 24px rgba(0,0,0,.08) - denatura kartu bez tieňa. */
   box-shadow: none !important;
+}
+/* KĽÚČOVÉ: staršie "Vlastné CSS" v administrácii cieli `#checkoutSidebar
+   #summary-box` - DVE ID selektory naraz (špecifickosť 2,0,0), čo je
+   vyššie než moje vyššie `#checkoutSidebar .order-summary-inner` (ID +
+   trieda, 1,1,0). Preto z neho stále vyhrávalo najmä margin-bottom:20px
+   (biely priestor pod kartou) a čiastočne aj padding-left. Tu rovnaká
+   dvoj-ID špecifickosť, aby vyhralo moje. */
+#checkoutSidebar #summary-box {
+  margin: 0 !important;
+  padding: 32px 24px 0 !important;
 }
 /* Natívne Shoptet CSS dáva každému .order-summary-item vlastný horný
    okraj (delenie riadkov), zjavne z ďalšieho pravidla, ktoré tu nemožno
