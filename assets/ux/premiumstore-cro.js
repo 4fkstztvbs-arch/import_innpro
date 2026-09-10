@@ -258,6 +258,24 @@
     actions.insertAdjacentElement('afterend', banner);
   }
 
+  // --- 6) Presun tlačidla "Pokračovať" (.next-step) do karty zhrnutia
+  // objednávky (checkout, krok "Doprava & platba") ---------------------------
+  // Natívne je .next-step samostatný súrodenec za .order-summary. Aj po
+  // vynulovaní všetkých okolitých marginov/box-shadow cez CSS medzi kartou a
+  // tlačidlom zostávala medzera (pravdepodobne ďalšie staršie pravidlo v
+  // administrácii, ktoré odtiaľto nevidno) - najspoľahlivejšie riešenie je
+  // presunúť SKUTOČNÝ element (nie kópiu) dovnútra karty ako posledné
+  // dieťa, aby vôbec nemohol byť oddelený marginom medzi súrodencami.
+  // Zachováva submit na #order-form. Zodpovedajúce CSS je v
+  // assets/ux/premiumstore-cro.css, sekcia "Checkout Doprava & platba".
+  function relocateCheckoutNextStep() {
+    var summaryBox = document.querySelector('#checkoutSidebar .order-summary-inner');
+    var nextStep = document.querySelector('#checkoutSidebar .next-step');
+    if (!summaryBox || !nextStep) return;
+    if (nextStep.parentElement === summaryBox) return;
+    summaryBox.appendChild(nextStep);
+  }
+
   // --- Spustenie -------------------------------------------------------------
   function run() {
     relocateLoginButton();
@@ -267,6 +285,7 @@
     stickyBuyBar();
     deemphasizeSecondaryActions();
     relocateBenefitBanner();
+    relocateCheckoutNextStep();
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
   }
 

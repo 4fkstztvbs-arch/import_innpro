@@ -716,19 +716,22 @@ ol.cart-header > li:not(:last-child):after {
 #checkoutSidebar .order-summary {
   margin-bottom: 0 !important;
 }
+/* Karta je JEDEN celok vrátane tlačidla - .next-step sa sem premiestňuje
+   cez JS (relocateCheckoutNextStep v premiumstore-cro.js) ako posledné
+   dieťa, aby nemohla vzniknúť žiadna medzera z marginu medzi súrodencami
+   (opakovane sa to dialo aj po vynulovaní všetkých okolitých marginov -
+   pravdepodobne kvôli ďalšiemu staršiemu pravidlu v administrácii, ktoré
+   sa nedá odtiaľto vidieť/testovať). overflow:hidden + border-radius na
+   samotnej karte zaručí správne zaoblené rohy bez ohľadu na presné
+   hodnoty na vnorených prvkoch. */
 #checkoutSidebar .order-summary-inner {
   border: 1px solid var(--dn-g50) !important;
-  border-bottom: none !important;
-  border-radius: 12px 12px 0 0 !important;
+  border-radius: 12px !important;
   padding: 32px 24px 0 !important;
   margin: 0 !important;
+  overflow: hidden !important;
   /* Staršie "Vlastné CSS" v administrácii dáva na .order-summary-inner
-     box-shadow:0 8px 24px rgba(0,0,0,.08) - jeho rozptyl pod spodným
-     okrajom vytváral viditeľnú svetlú čiaru/medzeru nad krémovým blokom
-     s tlačidlom. Denatura kartu bez tieňa, len s tenkým okrajom. */
-  box-shadow: none !important;
-}
-#checkoutSidebar .next-step.next-step--step-1 {
+     box-shadow:0 8px 24px rgba(0,0,0,.08) - denatura kartu bez tieňa. */
   box-shadow: none !important;
 }
 #checkoutSidebar .order-summary-item {
@@ -744,23 +747,19 @@ ol.cart-header > li:not(:last-child):after {
   margin: 0 -24px !important;
   width: calc(100% + 48px) !important;
   background: var(--dn-s300) !important;
-  padding: 24px 0 32px !important;
+  padding: 24px 0 0 !important;
 }
 #checkoutSidebar .order-summary-item.price .price-wrapper {
   padding: 0 24px !important;
 }
-/* .next-step (tlačidlo "Pokračovať" + odkaz "Späť") ostáva v DOM tam, kde
-   je natívne - hneď POD .order-summary-inner (rovnako ako u denatura,
-   ich next-step.next-step--step-1 je tiež samostatný súrodenec, nie
-   vnorený). Vizuálne napojenie na kartu dosahuje zdieľaný krémový podklad
-   priamo na .next-step (denatura to rieši cez absolútne pozicovaný ::before
-   s pevnou výškou v px - tu radšej priamo bg na elemente, nech to nezávisí
-   od pevnej výšky obsahu). */
-#checkoutSidebar .next-step.next-step--step-1 {
-  margin: 0 !important;
+/* .next-step (tlačidlo "Pokračovať" + odkaz "Späť") - po presune JS-om
+   je teraz POSLEDNÉ dieťa .order-summary-inner, hneď za .price, so
+   zdieľaným krémovým pozadím - vizuálne jeden spojitý blok bez medzery. */
+#checkoutSidebar .order-summary-inner .next-step.next-step--step-1 {
+  margin: 0 -24px !important;
+  width: calc(100% + 48px) !important;
   padding: 20px 24px 24px !important;
   background: var(--dn-s300) !important;
-  border-radius: 0 0 12px 12px !important;
   display: flex !important;
   flex-direction: column-reverse !important;
 }
