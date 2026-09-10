@@ -376,5 +376,12 @@
     "subject": "Re: Vaša objednávka č. 202600496 sa práve vybavuje",
     "orderCode": "202600496",
     "matchedBy": "code"
+  },
+  "<4ce3895c-9439-4cc6-b163-3fde73653c85@mtasv.net>": {
+    "draftedAt": "2026-09-10T13:38:57.555Z",
+    "from": "info@Top-obaly.sk",
+    "subject": "Objednávka č. 326018799 je na ceste. Faktúru nájdete v prílohe.",
+    "orderCode": null,
+    "matchedBy": "none"
   }
 }
