@@ -856,6 +856,12 @@ ol.cart-header > li:not(:last-child):after {
   line-height: 1.7 !important;
   padding: 16px 20px !important;
 }
+/* Natívne .order-button-text{font-size:18px} je na samotnom <span>, takže
+   veľkosť z rodičovského tlačidla (vyššie) sa nededí - vlastná explicitná
+   hodnota na potomkovi vždy vyhrá. Treba prepísať priamo tu. */
+#checkoutSidebar .next-step.next-step--step-1 .btn.btn-lg .order-button-text {
+  font-size: 13px !important;
+}
 /* denatura odkaz "Zpět" v karte zhrnutia nezobrazuje. */
 #checkoutSidebar .next-step.next-step--step-1 .next-step-back {
   display: none !important;
