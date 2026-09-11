@@ -540,7 +540,11 @@ body {
    farbu tlačidla".
    ============================================================ */
 :root {
-  --dn-b50: #edf3ef;   /* pozadie pásu krokov / zvýraznených blokov */
+  /* Svetlé zelenkasté pozadia (pás krokov, zvolený riadok dopravy/platby)
+     nahradené požadovanou svetlomodrou D1E5EC - podľa zadania sa mení len
+     TOTO svetlé pozadie, nie sýta zelená na tlačidle/odkazoch/kruhu kroku
+     (tá necháva dostatočný kontrast s bielym textom, D1E5EC by ho nemala). */
+  --dn-b50: #d1e5ec;   /* pozadie pásu krokov / zvýraznených blokov */
   --dn-b75: #b3cdbf;
   --dn-b100: #94b9a4;
   --dn-b200: #659b7d;  /* zvolená doprava/platba - okraj + text kroku */
@@ -549,8 +553,10 @@ body {
   --dn-g50: #ebebeb;   /* okraj kariet dopravy/platby */
   --dn-g75: #acacad;
   --dn-g200: #898a8b;
-  --dn-g300: #343537;  /* hlavný text */
-  --dn-g400: #242527;  /* cena, názov dopravy - tmavý text */
+  /* Text v obsahu checkoutu (kroky, názvy dopravy/platby, ceny...) - podľa
+     zadania zjednotený na 0C151D namiesto pôvodných dvoch odtieňov sivej. */
+  --dn-g300: #0c151d;  /* hlavný text */
+  --dn-g400: #0c151d;  /* cena, názov dopravy - tmavý text */
   --dn-s300: #f3ece4;  /* krémový zvýraznený blok "Celkom k úhrade" */
 }
 
