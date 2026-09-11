@@ -816,7 +816,13 @@ ol.cart-header > li:not(:last-child):after {
      voči tesnému labelu a zostáva pri texte, len s posunom left:16px
      nižšie. */
   .shipping-billing-table .radio-wrapper input[type="radio"] + label {
-    padding-left: 34px !important;
+    /* Denatura má tu padding-left len 34px, počítané s ich menšou (18px)
+       natívnou bodkou - u nás je bodka o čosi väčšia (20px, viď nižšie
+       .shipping-billing-table input[type="radio"]+label:before), takže
+       pri 34px padding-left prakticky prilieha/prekrýva sa s textom.
+       Zväčšené na 42px, nech medzi bodkou (left:16px + šírka 20px = končí
+       na 36px) a textom ostane viditeľná medzera. */
+    padding-left: 42px !important;
     margin-right: 0 !important;
   }
   /* Bodka je natívne (aj podľa nášho desktopového labelu vyššie)
