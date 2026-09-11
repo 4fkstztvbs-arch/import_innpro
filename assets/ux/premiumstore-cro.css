@@ -842,6 +842,15 @@ ol.cart-header > li:not(:last-child):after {
   .shipping-billing-table .radio-wrapper > label .payment-logo {
     align-self: flex-start !important;
   }
+  /* Logo platby (karta/Apple Pay/Google Pay...) malo z vyššie #order-
+     billing-methods .payment-logo{order:-1} rovnaký problém ako logo
+     dopravy predtým - na mobile ho to posúvalo pred text namiesto za
+     neho. Denatura na tomto istom breakpointe poradie vracia späť a
+     zužuje logo, presne ako pri doprave vyššie. */
+  #order-billing-methods .payment-logo {
+    order: unset !important;
+    max-width: 64px !important;
+  }
 }
 /* Zvolený radio-bod - naša zelená (var(--p) z pôvodného vlastného CSS,
    rovnaká ako tlačidlo "Pokračovať"), namiesto natívnej --color-primary
