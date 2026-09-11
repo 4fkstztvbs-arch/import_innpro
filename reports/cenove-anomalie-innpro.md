@@ -52,15 +52,15 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 9.00 € | 1/13.0x | 15 |
 | 084216 | 6975755966717 | Prenosná pumpa na SUP Flextail Evo SUP Pump Pro (sivá) | cena mimo 8x rozsah mediánu kategórie | 18.75 € | 152.90 € | 8.2x | 40 |
 | 085056 | 6978390540465 | Robotický čistič okien MOVA N1 (biely) | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 287.50 € | 14.4x | 11 |
-| 084999 | 6935750534724 | Tvrdomer Uni-T Leed UT347A | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 399.50 € | 9.7x | 259 |
-| 085055 | 6935750520499 | Laserový diaľkomer Uni-T LM2000 | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 686.50 € | 16.7x | 259 |
+| 084999 | 6935750534724 | Tvrdomer Uni-T Leed UT347A | cena mimo 8x rozsah mediánu kategórie | 41.50 € | 399.50 € | 9.6x | 259 |
+| 085055 | 6935750520499 | Laserový diaľkomer Uni-T LM2000 | cena mimo 8x rozsah mediánu kategórie | 41.50 € | 686.50 € | 16.5x | 259 |
 | 085498 | 6977641140072 | Vaša fréza MAKERA Carvera CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 6680.00 € | 28.4x | 9 |
 | 085499 | 6977641142496 | Vaša fréza MAKERA Carvera Air CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 3067.50 € | 13.1x | 9 |
 | 085503 | 6977641140423 | Základné panely MAKERA Carvera Air z MDF s hrúbkou 2 mm (5 ks) | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 23.90 € | 1/9.8x | 9 |
 | 085984 | 6975062110858 | Interaktívny robot Loona Premium | cena mimo 8x rozsah mediánu kategórie | 23.50 € | 456.00 € | 19.4x | 7 |
 | 087737 | 5905156105249 | BALDRTHERM E0575S kuchynská minútka | cena mimo 8x rozsah mediánu kategórie | 105.50 € | 5.50 € | 1/19.2x | 25 |
-| 087895 | 6971915322140 | Termovízna kamera Mileseey TR256A | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 389.90 € | 9.5x | 259 |
-| 087896 | 6971915321969 | Termovízna kamera Mileseey TR256C s Wi-Fi | cena mimo 8x rozsah mediánu kategórie | 41.00 € | 524.00 € | 12.8x | 259 |
+| 087895 | 6971915322140 | Termovízna kamera Mileseey TR256A | cena mimo 8x rozsah mediánu kategórie | 41.50 € | 389.90 € | 9.4x | 259 |
+| 087896 | 6971915321969 | Termovízna kamera Mileseey TR256C s Wi-Fi | cena mimo 8x rozsah mediánu kategórie | 41.50 € | 524.00 € | 12.6x | 259 |
 | 083769 | 6976831831745 | Batéria NEEWER, 3450 mAh, 14,54 V, 50 Wh | cena mimo 8x rozsah mediánu kategórie | 10.95 € | 94.00 € | 8.6x | 32 |
 | 088094 | 786156004023 | Detektor kovov GARRETT AT Gold 5x8 | cena mimo 8x rozsah mediánu kategórie | 82.00 € | 736.50 € | 9.0x | 16 |
 | 088095 | 786156005242 | GARRETT AT Max 8,5 x 11" INTL – detektor kovov | cena mimo 8x rozsah mediánu kategórie | 82.00 € | 757.50 € | 9.2x | 16 |
