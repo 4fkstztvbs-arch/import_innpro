@@ -239,6 +239,16 @@ body {
     clip: rect(0, 0, 0, 0);
   }
 }
+
+/* Druhý riadok hlavičky (hlavné menu kategórií) je na checkoute prázdny -
+   Shoptet obsah #navigation na checkoute zámerne nevykresľuje (rovnaký
+   dôvod ako pri tlačidle Menu vyššie), no riadok si aj tak drží výšku
+   (min-height podľa breakpointu z natívneho main-13...css). */
+@media (min-width: 768px) {
+  body.ordering-process .header-bottom {
+    display: none !important;
+  }
+}
 @media (min-width: 992px) {
   .ps-checkout-contact {
     display: none !important;
@@ -769,6 +779,34 @@ ol.cart-header > li:not(:last-child):after {
 .desktop .shipping-billing-table .radio-wrapper:hover {
   box-shadow: none !important;
   border-color: var(--dn-b200) !important;
+}
+
+/* Natívna ikona pred nadpismi krokov (h2.order-icon - kamión/karta pred
+   "Zvoľte spôsob dopravy"/"Zvoľte spôsob platby") - na denatura je skrytá
+   (.id--16 .order-icon::before{content:none!important} v ich vlastnom CSS,
+   overené priamo z ich kompilovaného stylesheetu main-13...css). */
+.id--16 .order-icon::before,
+.id--17 .order-icon::before {
+  content: none !important;
+}
+
+/* Natívna bodka radio/checkbox je len 18px (--form-fields-checkbox-size).
+   Denatura ju globálne zväčšuje na 20px - rovnaká hodnota ako label
+   padding-left:40px vyššie počíta. */
+.shipping-billing-table input[type="radio"] + label:before {
+  width: 20px !important;
+  height: 20px !important;
+  border-color: var(--dn-g75) !important;
+}
+
+/* "?" tooltip bublina (.question-tooltip) natívne berie farbu z
+   --color-primary, čo je na tomto webe čierna (starý firemný vlastný CSS) -
+   preto vychádza ako plná čierna guľôčka namiesto zelenej ako na denatura
+   (tam je --color-primary rovno ich zelená). Farbu meníme len v rámci
+   checkoutu na našu --p, aby sme sa nedotkli --color-primary globálne. */
+body.ordering-process .question-tooltip {
+  background-color: var(--p, #24b47e) !important;
+  border-color: var(--p, #24b47e) !important;
 }
 
 /* --- Rozloženie stĺpcov (checkout, body.id--16 aj id--17) ---------------- */
