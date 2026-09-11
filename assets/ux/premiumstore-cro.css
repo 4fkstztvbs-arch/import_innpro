@@ -794,13 +794,17 @@ ol.cart-header > li:not(:last-child):after {
   #checkoutSidebar {
     max-width: 360px !important;
     padding: 0 !important;
-    /* Natívne #checkoutSidebar{position:relative;transition:top .6s
-       ease-out} - Shoptet vlastným JS pri scrolle mení position/top
-       ("sticky" sledovanie zhrnutia), čo pri dlhšom ľavom stĺpci (krok
-       "Informácie o vás") spôsobovalo viditeľný posun karty nadol.
-       Vypnuté, karta ostáva na svojom mieste v dokumente. */
-    position: static !important;
-    top: auto !important;
+    /* denatura má kartu "sticky" - sleduje scroll, aby bola stále vidno.
+       Natívne #checkoutSidebar{position:relative;transition:top .6s
+       ease-out} rieši to isté vlastným JS (mení position/top pri
+       scrolle), čo ale pri dlhšom ľavom stĺpci (krok "Informácie o vás")
+       spôsobovalo viditeľný posun karty nadol už pri načítaní stránky.
+       Namiesto spoliehania sa na ten krehký JS mechanizmus tu čisté CSS
+       sticky - nezávislé od dĺžky ľavého stĺpca. !important prebije
+       akúkoľvek inline štýl hodnotu, ktorú by JS ešte skúsil nastaviť. */
+    position: sticky !important;
+    top: 20px !important;
+    align-self: flex-start !important;
   }
   #checkoutContent {
     width: 100% !important;
