@@ -805,6 +805,19 @@ ol.cart-header > li:not(:last-child):after {
     align-items: center !important;
     position: initial !important;
   }
+  /* Bodka je natívne (aj podľa nášho desktopového labelu vyššie)
+     pozicovaná na left:0 v labeli - na tejto šírke to znamená doslova na
+     hrane karty, prilepená na okraj. Denatura ju posúva o 16px dnu -
+     presne podľa ich CSS pre tento krok/breakpoint. */
+  .id--16 input[type="checkbox"] + label::before,
+  .id--16 input[type="radio"] + label::before {
+    left: 16px !important;
+  }
+  .id--16 .radio-wrapper input[type="checkbox"]:checked + label::after,
+  .id--16 .radio-wrapper input[type="radio"]:checked + label::after,
+  .id--16 input[type="radio"]:checked + label::after {
+    left: 16px !important;
+  }
   .shipping-billing-table .payment-info .shipping-billing-name {
     font-size: 14px !important;
     padding-right: 0 !important;
