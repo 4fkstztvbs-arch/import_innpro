@@ -255,6 +255,23 @@ body {
   }
 }
 
+/* Na desktope/tablete (992px+) ostáva pravá časť hlavičky (PS blok s
+   telefónom + prihlásenie/účet z headerSupportBlock/relocateLoginButton)
+   na checkoute viditeľná rovnako ako na ostatných stránkach - natívne
+   Shoptet CSS inak .navigation-buttons na id--16/id--17 úplne skryje
+   (spolu s hlavným menu). Skrývame späť len ikony vyhľadávania a
+   hamburger menu (to isté robí aj denatura vo vlastnom CSS) - menu
+   kategórií samotné ostáva skryté cez .header-bottom vyššie. */
+@media (min-width: 992px) {
+  body.ordering-process .navigation-buttons {
+    display: flex !important;
+  }
+  body.ordering-process #header .navigation-buttons a[data-target="search"],
+  body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
+    display: none !important;
+  }
+}
+
 /* PS blok vo vysúvacom mobilnom menu - default skrytý, viditeľný len na
    mobile (aj keby .navigationActions bolo súčasťou aj desktopového
    mega-menu, na desktope sa toto nikdy nezobrazí). */
