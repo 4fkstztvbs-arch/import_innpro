@@ -713,10 +713,14 @@ ol.cart-header > li:not(:last-child):after {
   letter-spacing: 1px !important;
   color: var(--dn-g400) !important;
 }
+/* Natívne .radio-wrapper input+label{align-items:flex-start} zarovnáva
+   logo/text/cenu hore, nie na stred riadku - napriek tomu, že samotný
+   .radio-wrapper (o úroveň vyššie) má align-items:center. */
 .shipping-billing-table .radio-wrapper input[type="radio"] + label {
   padding-left: 40px !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  align-items: center !important;
 }
 #order-shipping-methods .payment-info > span a,
 #order-billing-methods .payment-info > span a {
