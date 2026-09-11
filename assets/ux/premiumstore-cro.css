@@ -739,22 +739,25 @@ ol.cart-header > li:not(:last-child):after {
    pevnou šírkou loga (100px) to v našom rozložení mierne presiahne šírku
    labelu, takže sa (kvôli natívnemu flex-wrap:wrap na labeli) cena
    zalomila na samostatný riadok pod názov namiesto vedľa neho (overené
-   priamo v DevTools - label 71.5px vysoký namiesto 50px). Len na
-   desktope/tablete (od 768px), kde má riadok bežať v jednom riadku -
-   pod 768px je zalomenie/cena pod názvom zámerné natívne mobilné
-   správanie a nemá sa meniť. */
-@media (min-width: 768px) {
-  .shipping-billing-table .radio-wrapper input[type="radio"] + label {
-    flex-wrap: nowrap !important;
-  }
-  .shipping-billing-table .payment-info {
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-  }
-  .radio-wrapper .payment-shipping-price {
-    flex: 0 0 auto !important;
-    white-space: nowrap !important;
-  }
+   priamo v DevTools - label 71.5px vysoký namiesto 50px).
+   DÔLEŽITÉ: platí na VŠETKÝCH šírkach vrátane mobilu - overené priamo na
+   živých screenshotoch z denatura.cz (mobil, iPhone), kde je názov
+   dopravy/platby vľavo a logo+cena vpravo v TOM ISTOM riadku (aj keď sa
+   názov láme na 2 riadky), nikdy nie je cena zalomená pod text na
+   samostatný riadok s medzerou. Predošlý pokus toto na mobile riešiť
+   opačne (cena ako blok pod textom, podľa jednej konkrétnej @media
+   pravidla z denatura CSS) bol omyl - to pravidlo sa v skutočnosti na
+   živom webe takto neuplatňuje. */
+.shipping-billing-table .radio-wrapper input[type="radio"] + label {
+  flex-wrap: nowrap !important;
+}
+.shipping-billing-table .payment-info {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+.radio-wrapper .payment-shipping-price {
+  flex: 0 0 auto !important;
+  white-space: nowrap !important;
 }
 .payment-logo img {
   max-height: 40px !important;
@@ -785,10 +788,19 @@ ol.cart-header > li:not(:last-child):after {
     flex-basis: 64px !important;
     margin-right: 0 !important;
   }
+  /* Rovnaký problém ako pri logu dopravy vyššie - #order-billing-methods
+     .payment-logo{order:-1!important} (nescopované, vyššie v súbore) malo
+     vyššiu špecificitu (ID) než generické pravidlo pre dopravu, takže logo
+     platby (karta/Apple Pay/Google Pay...) na mobile ostávalo pred textom. */
+  #order-billing-methods .payment-logo {
+    order: unset !important;
+    max-width: 64px !important;
+  }
 }
-/* Užší mobil - denatura tu ešte skracuje výšku riadku, dáva text do
-   stĺpca (názov + odkaz) a cenu pod ňu ako samostatný blok (namiesto
-   snahy vojsť sa vedľa loga na jeden riadok). Presne ich hodnoty. */
+/* Užší mobil - len zmenšenie paddingu/písma a posun bodky od okraja,
+   presne podľa denatura CSS pre tento breakpoint. Rozloženie riadku
+   (text vľavo, logo+cena vpravo v jednom riadku) rieši univerzálne
+   pravidlo vyššie (flex-wrap:nowrap) - platí aj tu, nemení sa. */
 @media (max-width: 499px) {
   .shipping-billing-table .radio-wrapper {
     padding: 16px 16px 20px 16px !important;
@@ -802,7 +814,6 @@ ol.cart-header > li:not(:last-child):after {
   .shipping-billing-table .radio-wrapper input[type="radio"] + label {
     padding-left: 34px !important;
     margin-right: 0 !important;
-    align-items: center !important;
     position: initial !important;
   }
   /* Bodka je natívne (aj podľa nášho desktopového labelu vyššie)
@@ -822,34 +833,8 @@ ol.cart-header > li:not(:last-child):after {
     font-size: 14px !important;
     padding-right: 0 !important;
   }
-  .shipping-billing-table .payment-info {
-    min-height: 40px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    /* Bez voľnej šírky (natívne bez flex-grow) ostával stĺpec s textom
-       úzky a názov sa zalamoval na viac riadkov, než bolo treba - to
-       zväčšovalo výšku prvého "riadku" flex-wrapu a s ňou aj medzeru
-       pred cenou na druhom riadku. */
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-  }
   .radio-wrapper input[type="radio"] + label .payment-shipping-price {
     font-size: 13px !important;
-    display: block !important;
-    margin-top: 4px !important;
-  }
-  .shipping-billing-table .radio-wrapper > label .payment-logo {
-    align-self: flex-start !important;
-  }
-  /* Logo platby (karta/Apple Pay/Google Pay...) malo z vyššie #order-
-     billing-methods .payment-logo{order:-1} rovnaký problém ako logo
-     dopravy predtým - na mobile ho to posúvalo pred text namiesto za
-     neho. Denatura na tomto istom breakpointe poradie vracia späť a
-     zužuje logo, presne ako pri doprave vyššie. */
-  #order-billing-methods .payment-logo {
-    order: unset !important;
-    max-width: 64px !important;
   }
 }
 /* Zvolený radio-bod - naša zelená (var(--p) z pôvodného vlastného CSS,
