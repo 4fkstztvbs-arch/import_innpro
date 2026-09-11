@@ -746,6 +746,28 @@ ol.cart-header > li:not(:last-child):after {
   line-height: 1.1 !important;
   font-weight: 600 !important;
 }
+/* Natívne .payment-info má cez @container (width > 27em) nastavený
+   flex-basis:calc(100% - 100px - 7.2em) a cena flex:1 0 7.2em - spolu s
+   pevnou šírkou loga (100px) to v našom rozložení mierne presiahne šírku
+   labelu, takže sa (kvôli natívnemu flex-wrap:wrap na labeli) cena
+   zalomila na samostatný riadok pod názov namiesto vedľa neho (overené
+   priamo v DevTools - label 71.5px vysoký namiesto 50px). Len na
+   desktope/tablete (od 768px), kde má riadok bežať v jednom riadku -
+   pod 768px je zalomenie/cena pod názvom zámerné natívne mobilné
+   správanie a nemá sa meniť. */
+@media (min-width: 768px) {
+  .shipping-billing-table .radio-wrapper input[type="radio"] + label {
+    flex-wrap: nowrap !important;
+  }
+  .shipping-billing-table .payment-info {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+  }
+  .radio-wrapper .payment-shipping-price {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+  }
+}
 .payment-logo img {
   max-height: 40px !important;
   max-width: 88px !important;
