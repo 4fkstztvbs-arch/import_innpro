@@ -142,6 +142,11 @@
   // v rade ikoniek skryje cez CSS, nech tam nie je duplicitne.
   function menuTrigger() {
     if (document.querySelector('.ps-menu-trigger')) return;
+    // Na checkoute (ordering-process) Shoptet zámerne nerenderuje obsah
+    // #navigation (zákazník nemá odchádzať prezerať kategórie počas
+    // objednávky) - tlačidlo Menu by tam otváralo prázdne menu. Namiesto
+    // neho tam ide kontakt (checkoutHeaderContact nižšie).
+    if (document.body.classList.contains('ordering-process')) return;
     var wrapper = document.querySelector('#header .header-top-wrapper');
     var realHamburger = document.querySelector('#header .navigation-buttons a[data-target="navigation"]');
     if (!wrapper || !realHamburger) return;
@@ -164,6 +169,29 @@
     });
 
     wrapper.insertBefore(btn, wrapper.firstChild);
+  }
+
+  // Mobil, checkout: namiesto tlačidla Menu (ktoré tam nemá čo otvárať -
+  // pozri komentár v menuTrigger vyššie) ide priamo klikateľný telefónny
+  // kontakt na rovnakom mieste (ikonka + popisok pod ňou), presne ako má
+  // denatura.cz v hlavičke checkoutu (logo + telefón + účet, bez menu).
+  function checkoutHeaderContact() {
+    if (document.querySelector('.ps-checkout-contact')) return;
+    if (!document.body.classList.contains('ordering-process')) return;
+    var wrapper = document.querySelector('#header .header-top-wrapper');
+    if (!wrapper) return;
+
+    var phoneDigits = SUPPORT_PHONE.replace(/\s+/g, '');
+    var link = document.createElement('a');
+    link.className = 'ps-checkout-contact';
+    link.href = 'tel:' + phoneDigits;
+    link.innerHTML =
+      '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">' +
+        '<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path>' +
+      '</svg>' +
+      '<span class="ps-checkout-contact-label">Kontakt</span>';
+
+    wrapper.insertBefore(link, wrapper.firstChild);
   }
 
   // Mobil: kópia PS bloku (avatar+telefón+hodiny) do vysúvacieho menu
@@ -291,6 +319,7 @@
     relocateLoginButton();
     headerSupportBlock();
     menuTrigger();
+    checkoutHeaderContact();
     mobileMenuSupportBlock();
     stickyBuyBar();
     deemphasizeSecondaryActions();
