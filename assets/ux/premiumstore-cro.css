@@ -827,11 +827,17 @@ ol.cart-header > li:not(:last-child):after {
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
+    /* Bez voľnej šírky (natívne bez flex-grow) ostával stĺpec s textom
+       úzky a názov sa zalamoval na viac riadkov, než bolo treba - to
+       zväčšovalo výšku prvého "riadku" flex-wrapu a s ňou aj medzeru
+       pred cenou na druhom riadku. */
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
   }
   .radio-wrapper input[type="radio"] + label .payment-shipping-price {
     font-size: 13px !important;
     display: block !important;
-    margin-top: 10px !important;
+    margin-top: 4px !important;
   }
   .shipping-billing-table .radio-wrapper > label .payment-logo {
     align-self: flex-start !important;
@@ -912,6 +918,13 @@ body.ordering-process .co-box.co-shipping-address h2::before {
   }
   #checkoutContent .smart-label-wrapper label {
     max-width: 100% !important;
+  }
+  /* Na mobile sa #checkoutSidebar (karta "Zhrnutie objednávky") natívne
+     zaraďuje hneď pod obsah bez medzery - na desktope/tablete rieši
+     odstup layout dvoch stĺpcov, na mobile (jeden stĺpec pod sebou) tam
+     medzera chýbala a karta bola "nalepená" na posledný riadok obsahu. */
+  #checkoutSidebar {
+    margin-top: 24px !important;
   }
 }
 /* Vstupné polia (meno, email, telefón, adresa...) - natívne form-control
