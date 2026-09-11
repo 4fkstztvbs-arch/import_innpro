@@ -319,28 +319,9 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
     display: none; /* na mobile nie je v hlavičke miesto */
   }
 }
-/* Na checkoute (kde chýba menu kategórií, pozri .header-bottom vyššie) sa
-   telefón v hlavičke oplatí ukázať aj na mobile, presne ako denatura.cz
-   (logo + telefón + účet, bez menu, na všetkých šírkach) - zúžená
-   varianta (bez "Po-Pia" hodín), nech sa zmestí vedľa ikony Prihlásenie. */
-@media (max-width: 991px) {
-  body.ordering-process .ps-header-support {
-    display: flex !important;
-    margin-right: 8px !important;
-    gap: 6px !important;
-  }
-  body.ordering-process .ps-header-avatar {
-    width: 32px !important;
-    height: 32px !important;
-    font-size: 12px !important;
-  }
-  body.ordering-process .ps-header-support-text a {
-    font-size: 13px !important;
-  }
-  body.ordering-process .ps-header-support-hours {
-    display: none !important;
-  }
-}
+/* Na mobile checkoute (aj mimo neho) telefónne číslo v hlavičke NIE JE
+   potrebné - stačí ikona Prihlásenie (rovnaké správanie ako inde na
+   webe, .ps-header-support ostáva na mobile skrytý). */
 
 /* Presunuté tlačidlo Prihlásenie: ikonka namiesto textu */
 .navigation-buttons .top-nav-button-login {
@@ -811,6 +792,12 @@ ol.cart-header > li:not(:last-child):after {
 @media (max-width: 499px) {
   .shipping-billing-table .radio-wrapper {
     padding: 16px 16px 20px 16px !important;
+    /* Label nižšie mení position na initial - bez position:relative tu by
+       natívna absolútne pozicovaná bodka (:before na labeli) nemala voči
+       čomu sa ukotviť a "utiekla" by k najbližšiemu pozicovanému predkovi
+       vyššie v strome (skutočná chyba z minulého nasadenia - bodka
+       vyskočila až hore k nadpisu "Zvoľte spôsob dopravy"). */
+    position: relative !important;
   }
   .shipping-billing-table .radio-wrapper input[type="radio"] + label {
     padding-left: 34px !important;
