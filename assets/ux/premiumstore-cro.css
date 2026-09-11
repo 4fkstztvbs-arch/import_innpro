@@ -1227,7 +1227,10 @@ body.ordering-process .h4 {
    oddelené hornou linkou s väčším paddingom, cena/tučný text jednotnou
    váhou 500. Netýka sa checkoutu (#order-shipping-methods) - tam má
    .payment-logo iné poradie/veľkosti riešené vyššie. */
-#colorbox.productDetail #cboxContent {
+/* Bez triedy .productDetail - modál dopravy beží pod generickým
+   #cboxContent (nie je to fotogaléria), preto zaoblenie musí byť
+   nepodmienené, presne ako v denatura.cz #cboxContent{border-radius:20px}. */
+#cboxContent {
   border-radius: 20px !important;
 }
 
@@ -1245,6 +1248,7 @@ body.ordering-process .h4 {
   border-bottom: none !important;
   padding: 20px 0 !important;
   align-items: center !important;
+  gap: 0 !important;
 }
 
 .shipping-options-popup .shipping-row .payment-logo {
