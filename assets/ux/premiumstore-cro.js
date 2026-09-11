@@ -178,8 +178,11 @@
   function checkoutHeaderContact() {
     if (document.querySelector('.ps-checkout-contact')) return;
     if (!document.body.classList.contains('ordering-process')) return;
-    var wrapper = document.querySelector('#header .header-top-wrapper');
-    if (!wrapper) return;
+    // Vkladá sa do .navigation-buttons (kde je aj presunuté tlačidlo
+    // Prihlásenie z relocateLoginButton) - vpravo vedľa ostatných ikoniek,
+    // nie pred logo. Logo (.site-name) tak ostáva úplne vľavo, bez zásahu.
+    var navButtons = document.querySelector('#header .navigation-buttons');
+    if (!navButtons) return;
 
     var phoneDigits = SUPPORT_PHONE.replace(/\s+/g, '');
     var link = document.createElement('a');
@@ -191,7 +194,7 @@
       '</svg>' +
       '<span class="ps-checkout-contact-label">Kontakt</span>';
 
-    wrapper.insertBefore(link, wrapper.firstChild);
+    navButtons.insertBefore(link, navButtons.firstChild);
   }
 
   // Mobil: kópia PS bloku (avatar+telefón+hodiny) do vysúvacieho menu

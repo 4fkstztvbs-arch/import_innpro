@@ -210,24 +210,33 @@ body {
 /* Na checkoute (ordering-process) Shoptet zámerne nerenderuje obsah
    #navigation (zákazník nemá odchádzať prezerať kategórie počas
    objednávky) - JS preto na checkoute .ps-menu-trigger vôbec nevytvára
-   (pozri menuTrigger() v premiumstore-cro.js) a namiesto neho vkladá na
-   rovnaké miesto .ps-checkout-contact (telefón), presne ako má denatura.cz
-   v hlavičke checkoutu (logo + telefón + účet, bez menu). */
+   (pozri menuTrigger() v premiumstore-cro.js) a namiesto neho vkladá
+   .ps-checkout-contact (telefón) do .navigation-buttons vpravo, vedľa
+   presunutého tlačidla Prihlásenie - logo (.site-name) tak ostáva vľavo
+   nedotknuté, presne ako má denatura.cz (logo + telefón + účet, bez menu). */
 @media (max-width: 991px) {
   .ps-checkout-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    padding: 4px 10px 4px 14px;
+    margin-left: 8px !important;
+    width: 36px !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
     color: inherit;
-    font-family: inherit;
     text-decoration: none;
     flex-shrink: 0;
   }
+  /* Popisok "Kontakt" ostáva len pre čítačky obrazovky - ostatné ikonky v
+     tomto rade (Prihlásenie, Vyhľadávanie) sú tiež bez viditeľného textu. */
   .ps-checkout-contact-label {
-    font-size: 11px;
-    line-height: 1;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
   }
 }
 @media (min-width: 992px) {
