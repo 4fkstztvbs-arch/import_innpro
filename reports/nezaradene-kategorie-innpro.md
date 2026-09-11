@@ -9,7 +9,7 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 - ak má patriť pod existujúcu kategóriu inak pomenovanú → pridať záznam do
   `categoryRenamesByPath` v `scripts/innpro-mapping.json`.
 
-**8 nenapárovaných kategórií, 295 produktov nenaimportovaných.**
+**9 nenapárovaných kategórií, 297 produktov nenaimportovaných.**
 
 | Kategória z feedu | Počet produktov | Príklady produktov |
 |---|---|---|
@@ -19,6 +19,7 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 | Počítače a notebooky > Myši, klávesnica | 13 | ONIKUMA CW905 Pink 2.4G Wireless Gaming Mouse; ONIKUMA RGB Wired Gaming Mouse CW905 Purple; Herná myš Onikuma CW917 (čierna); Herná myš Onikuma CW917 (biela); Klávesnica Onikuma G55 (čierna) (QWERTY) |
 | Mobily, smart hodinky a tablety > Kable USB I > USB na USB-C | 10 | Kabel Flash Charge USB do Lightning Joyroom SA26-AL3 /3A / 1m (čierny); Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1,2 m (čierny); Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2 m (čierny); Kábel Pioneer USB-C do USB C Joyroom SA31-CC5 / 240W / 1,2 m (čierny); Kábel S-AC027A14 USB do USB C Joyroom / 3A / 1,2 m (fialový) |
 | Záhrada > Robotické kosačky | 3 | Segway-Navimow 4G Access+ modul pre roboty série I1; Garáž X pre robotické kosačky Segway-Navimow radu X4; Batéria MOVA S7 |
+| Domáce spotrebiče > Malé spotrebiče > Insekticídne zariadenia | 2 | Inteligentný solárny lapač hmyzu BALDRTHERM (BZ501FRF); Inteligentná lampa na hubenie hmyzu BALDRTHERM (BZ601FRF) |
 | Šport, hračky a voľný čas > Príslušenstvo pre bicykle > Okuliare | 1 | Rockbros bicycle glasses, photochromic 10135R (red) |
 | Mobily, smart hodinky a tablety > Selfie tyče > statívy > stojany > Statívy a kruhové svetlá | 1 | Skladací statív Puluz pre mobilné telefóny |
 
@@ -26,11 +27,11 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 
 | Kategória z feedu | Napárované na | Zhoda | Počet produktov |
 |---|---|---|---|
-| Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Postroje, upevňovacie prvky a držiaky | Foto a príslušenstvo > Selfie tyče > Postroje, upevňovacie prvky a držiaky | 90% | 99 |
+| Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Postroje, upevňovacie prvky a držiaky | Foto a príslušenstvo > Selfie tyče > Postroje, upevňovacie prvky a držiaky | 90% | 104 |
 | Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Statívy | Foto a príslušenstvo > Selfie tyče > Statívy | 90% | 50 |
 | Mobily, smart hodinky a tablety > Kable USB I > USB na Lightning | Mobily, smart hodinky a tablety > USB káble > USB na Lightning | 94% | 23 |
+| Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Adaptéry | Foto a príslušenstvo > Selfie tyče > Adaptéry | 90% | 20 |
 | Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Selfie tyče a držiaky | Foto a príslušenstvo > Selfie tyče > Selfie tyče a držiaky | 90% | 19 |
-| Foto a príslušenstvo > Selfie tyče > statívy > držiaky > Adaptéry | Foto a príslušenstvo > Selfie tyče > Adaptéry | 90% | 17 |
 | Mobily, smart hodinky a tablety > Selfie tyče > statívy > stojany > Iné | Mobily, smart hodinky a tablety > Tablety > Iné | 88% | 15 |
 | Mobily, smart hodinky a tablety > Kable USB I > 3v1 Micro > USB-C > Lightning | Mobily, smart hodinky a tablety > USB káble > 3v1 Micro > USB-C > Lightning | 96% | 11 |
 | Mobily, smart hodinky a tablety > Obaly na telefóny > Vodotesné puzdro | Mobily, smart hodinky a tablety > Príslušenstvo > Puzdrá na mobilné telefóny > Vodotesné puzdro | 89% | 8 |
