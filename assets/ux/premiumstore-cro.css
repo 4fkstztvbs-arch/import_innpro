@@ -1220,3 +1220,55 @@ body.ordering-process .h4 {
   font-weight: 500 !important;
   letter-spacing: 1px !important;
 }
+
+/* --- Modál "Možnosti doručenia" v detaile produktu (.shipping-options-popup)
+   Podľa denatura.cz reálneho CSS (styles31.css): zaoblený modál (cboxContent
+   20px), logo prepravcu PRED názvom (order:-1, väčšie, 50px), riadky
+   oddelené hornou linkou s väčším paddingom, cena/tučný text jednotnou
+   váhou 500. Netýka sa checkoutu (#order-shipping-methods) - tam má
+   .payment-logo iné poradie/veľkosti riešené vyššie. */
+#colorbox.productDetail #cboxContent {
+  border-radius: 20px !important;
+}
+
+.shipping-options-popup {
+  padding: 48px 40px !important;
+}
+
+.shipping-options-popup h1 {
+  text-align: center !important;
+  margin: 0 0 16px !important;
+}
+
+.shipping-options-popup .shipping-row {
+  border-top: 1px solid var(--dn-g50) !important;
+  border-bottom: none !important;
+  padding: 20px 0 !important;
+  align-items: center !important;
+}
+
+.shipping-options-popup .shipping-row .payment-logo {
+  order: -1 !important;
+  margin-right: 12px !important;
+}
+
+.shipping-options-popup .shipping-row .payment-logo img {
+  max-height: 50px !important;
+}
+
+.shipping-options-popup .payment-info b {
+  font-weight: 500 !important;
+  letter-spacing: .5px !important;
+}
+
+.shipping-options-popup .shipping-row .payment-shipping-price {
+  font-weight: 500 !important;
+  letter-spacing: .5px !important;
+  color: #242527 !important;
+}
+
+@media (max-width: 499px) {
+  .shipping-options-popup {
+    padding: 24px 16px !important;
+  }
+}
