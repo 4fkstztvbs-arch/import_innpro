@@ -767,27 +767,40 @@ ol.cart-header > li:not(:last-child):after {
   border-color: var(--dn-b200) !important;
 }
 
-/* --- Rozloženie stĺpcov (krok "Doprava & platba", body.id--16) ---------- */
+/* --- Rozloženie stĺpcov (checkout, body.id--16 aj id--17) ---------------- */
 /* Natívne Bootstrap .row.col-md-8/.col-md-4 delí stĺpce na percentá celej
-   šírky kontajnera (preto bola karta zhrnutia neprimerane široká). denatura
-   prepína .row.cart-row na flex a stĺpcom dáva vlastnú max-width - stĺpec so
-   zhrnutím je tak úzky (360px) a nezávislý od šírky ľavého stĺpca.
+   šírky kontajnera (preto bola karta zhrnutia neprimerane široká aj zvisle
+   nezarovnaná pri dlhšom ľavom stĺpci). denatura má PRE KAŽDÝ krok vlastné
+   pravidlo (.id--16 aj samostatne .id--17 .row.cart-row{display:flex;...}) -
+   predtým som preniesol len id--16, krok "Informácie o vás" (id--17) tak
+   zostal na natívnom rozložení a karta bola posunutá nižšie/nezarovnaná.
    DÔLEŽITÉ: len od 768px vyššie - Bootstrap .col-md-* je od prírody
    responzívny (na mobile sa stĺpce zalamujú pod seba na 100% šírky);
    force-flex/max-width bez media query by na mobile natlačil oba stĺpce
    vedľa seba na malú šírku. */
 @media (min-width: 768px) {
-  .id--16 .row.cart-row {
+  .id--16 .row.cart-row,
+  .id--17 .row.cart-row {
     display: flex !important;
+    align-items: flex-start !important;
     justify-content: space-between !important;
   }
   .id--16 .row.cart-row:before,
-  .id--16 .row.cart-row:after {
+  .id--16 .row.cart-row:after,
+  .id--17 .row.cart-row:before,
+  .id--17 .row.cart-row:after {
     content: none !important;
   }
   #checkoutSidebar {
     max-width: 360px !important;
     padding: 0 !important;
+    /* Natívne #checkoutSidebar{position:relative;transition:top .6s
+       ease-out} - Shoptet vlastným JS pri scrolle mení position/top
+       ("sticky" sledovanie zhrnutia), čo pri dlhšom ľavom stĺpci (krok
+       "Informácie o vás") spôsobovalo viditeľný posun karty nadol.
+       Vypnuté, karta ostáva na svojom mieste v dokumente. */
+    position: static !important;
+    top: auto !important;
   }
   #checkoutContent {
     width: 100% !important;
