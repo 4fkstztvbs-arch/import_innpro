@@ -804,17 +804,20 @@ ol.cart-header > li:not(:last-child):after {
 @media (max-width: 499px) {
   .shipping-billing-table .radio-wrapper {
     padding: 16px 16px 20px 16px !important;
-    /* Label nižšie mení position na initial - bez position:relative tu by
-       natívna absolútne pozicovaná bodka (:before na labeli) nemala voči
-       čomu sa ukotviť a "utiekla" by k najbližšiemu pozicovanému predkovi
-       vyššie v strome (skutočná chyba z minulého nasadenia - bodka
-       vyskočila až hore k nadpisu "Zvoľte spôsob dopravy"). */
-    position: relative !important;
   }
+  /* Denatura na tomto kroku mení aj position labelu na "initial" - to
+     ale posúva pozicovací kontext bodky (:before, position:absolute;
+     top:calc(.75em + 1px) - teda odsadenie OD VRCHU kontextu, nie
+     vertikálne centrovanie) z tesného labelu na vyššieho predka
+     (.radio-wrapper, vyšší/vypchatý paddingom), takže bodka vyskočí
+     nahor mimo stred textu (overené priamo v Shoptet návrhárovi
+     šablóny - bodka bola nad textom, nie pri ňom). Necháme preto label
+     pri natívnom position:relative (bez zásahu) - bodka sa tak počíta
+     voči tesnému labelu a zostáva pri texte, len s posunom left:16px
+     nižšie. */
   .shipping-billing-table .radio-wrapper input[type="radio"] + label {
     padding-left: 34px !important;
     margin-right: 0 !important;
-    position: initial !important;
   }
   /* Bodka je natívne (aj podľa nášho desktopového labelu vyššie)
      pozicovaná na left:0 v labeli - na tejto šírke to znamená doslova na
