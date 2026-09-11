@@ -383,5 +383,12 @@
     "subject": "Objednávka č. 326018799 je na ceste. Faktúru nájdete v prílohe.",
     "orderCode": null,
     "matchedBy": "none"
+  },
+  "<CACW3g4_QYCy0cSzfH0JMqQ++GX0Ke3UdKt6cRmxYgCcQjL5vYw@mail.gmail.com>": {
+    "draftedAt": "2026-09-11T09:46:03.852Z",
+    "from": "simon.baksa@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600846 sa práve vybavuje",
+    "orderCode": "202600846",
+    "matchedBy": "code"
   }
 }
