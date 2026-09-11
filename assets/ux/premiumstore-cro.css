@@ -560,7 +560,7 @@ body {
    plná výplň), dokončený krok = biely kruh na zelenom páse. */
 ol.cart-header {
   position: relative !important;
-  margin: 24px 0 32px !important;
+  margin: 0 !important;
   padding: 16px 0 !important;
 }
 /* Presne podľa denatura.cz: pás siaha cez celú šírku obrazovky (presah
