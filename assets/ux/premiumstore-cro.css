@@ -825,19 +825,13 @@ ol.cart-header > li:not(:last-child):after {
     padding-left: 42px !important;
     margin-right: 0 !important;
   }
-  /* Bodka je natívne (aj podľa nášho desktopového labelu vyššie)
-     pozicovaná na left:0 v labeli - na tejto šírke to znamená doslova na
-     hrane karty, prilepená na okraj. Denatura ju posúva o 16px dnu -
-     presne podľa ich CSS pre tento krok/breakpoint. */
-  .id--16 input[type="checkbox"] + label::before,
-  .id--16 input[type="radio"] + label::before {
-    left: 19px !important;
-  }
-  .id--16 .radio-wrapper input[type="checkbox"]:checked + label::after,
-  .id--16 .radio-wrapper input[type="radio"]:checked + label::after,
-  .id--16 input[type="radio"]:checked + label::after {
-    left: 19px !important;
-  }
+  /* Vlastný posun "left" bodky (skúšané 16/24/19px) spôsoboval na
+     zvolenom (aktívnom, zeleným pozadím zvýraznenom) riadku posun len
+     vonkajšieho krúžku (:before), nie aj vnútornej vyplnenej bodky
+     (:checked+label:after má vlastný natívny výpočet pozície voči
+     krúžku) - výsledok bol nekonzistentný vzhľad medzi zvoleným a
+     nezvoleným stavom. Necháva sa preto natívna pozícia (left:0) - pri
+     padding-left:42px vyššie je aj tak dostatok miesta pred textom. */
   .shipping-billing-table .payment-info .shipping-billing-name {
     font-size: 14px !important;
     padding-right: 0 !important;
