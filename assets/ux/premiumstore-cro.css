@@ -240,18 +240,47 @@ body {
   }
 }
 
-/* Druhý riadok hlavičky (hlavné menu kategórií) je na checkoute prázdny -
-   Shoptet obsah #navigation na checkoute zámerne nevykresľuje (rovnaký
-   dôvod ako pri tlačidle Menu vyššie), no riadok si aj tak drží výšku
-   (min-height podľa breakpointu z natívneho main-13...css). */
+/* Druhý riadok hlavičky (hlavné menu kategórií) je na kroku "Informácie o
+   vás" (id--17) prázdny - Shoptet obsah #navigation tam zámerne
+   nevykresľuje (rovnaký dôvod ako pri tlačidle Menu vyššie), no riadok si
+   aj tak drží výšku (min-height podľa breakpointu z natívneho
+   main-13...css). Na kroku "Doprava & platba" (id--16) sa NEAPLIKUJE -
+   tam má aj denatura menu viditeľné (pozri blok nižšie). */
 @media (min-width: 768px) {
-  body.ordering-process .header-bottom {
+  body.ordering-process.id--17 .header-bottom {
     display: none !important;
   }
 }
 @media (min-width: 992px) {
   .ps-checkout-contact {
     display: none !important;
+  }
+}
+
+/* Na kroku "Doprava & platba" (id--16) ostáva hlavné menu viditeľné,
+   presne ako na denatura (overené priamo na ich checkoute cez DevTools -
+   .id--16 .navigation-buttons{display:flex} v ich vlastnom CSS). Natívne
+   Shoptet CSS inak na id--16/id--17 skrýva #navigation aj
+   .navigation-buttons úplne rovnako - tu to pre id--16 prepisujeme späť.
+   Len na desktope/tablete (992px+), kde sa menu zobrazuje priamo v
+   riadku hlavičky - mobilná náhrada (ikonka telefónu / vlastné tlačidlo
+   Menu) ostáva nezmenená. */
+@media (min-width: 992px) {
+  .id--16 .navigation-buttons {
+    display: flex !important;
+  }
+  .id--16 #header .navigation-buttons a[data-target="search"] {
+    display: none !important;
+  }
+  .id--16 .header-bottom {
+    display: block !important;
+    height: auto !important;
+  }
+  .id--16 .header-bottom-wrapper {
+    min-height: 0 !important;
+  }
+  .id--16 .header-bottom #navigation {
+    display: block !important;
   }
 }
 
