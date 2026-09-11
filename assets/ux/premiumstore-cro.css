@@ -207,6 +207,14 @@ body {
     display: none !important;
   }
 }
+/* Na checkoute (ordering-process) Shoptet zámerne nerenderuje obsah
+   #navigation (zákazník nemá odchádzať prezerať kategórie počas
+   objednávky) - kliknutie na naše tlačidlo Menu by teda otvorilo prázdne/
+   nefunkčné menu. Denatura na checkoute tlačidlo Menu vôbec nezobrazuje
+   (len logo + telefón + účet), tu rovnako. */
+body.ordering-process .ps-menu-trigger {
+  display: none !important;
+}
 
 /* PS blok vo vysúvacom mobilnom menu - default skrytý, viditeľný len na
    mobile (aj keby .navigationActions bolo súčasťou aj desktopového
@@ -496,7 +504,7 @@ body {
    plná výplň), dokončený krok = biely kruh na zelenom páse. */
 ol.cart-header {
   position: relative !important;
-  margin: 0 0 32px !important;
+  margin: 24px 0 32px !important;
   padding: 16px 0 !important;
 }
 /* Presne podľa denatura.cz: pás siaha cez celú šírku obrazovky (presah
