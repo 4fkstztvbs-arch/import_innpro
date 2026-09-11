@@ -831,12 +831,12 @@ ol.cart-header > li:not(:last-child):after {
      presne podľa ich CSS pre tento krok/breakpoint. */
   .id--16 input[type="checkbox"] + label::before,
   .id--16 input[type="radio"] + label::before {
-    left: 16px !important;
+    left: 24px !important;
   }
   .id--16 .radio-wrapper input[type="checkbox"]:checked + label::after,
   .id--16 .radio-wrapper input[type="radio"]:checked + label::after,
   .id--16 input[type="radio"]:checked + label::after {
-    left: 16px !important;
+    left: 24px !important;
   }
   .shipping-billing-table .payment-info .shipping-billing-name {
     font-size: 14px !important;
