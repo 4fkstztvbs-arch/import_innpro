@@ -680,12 +680,12 @@ ol.cart-header > li:not(:last-child):after {
    .for-free v main-13.less...css), netreba teda vlastný JS/`:has()`. */
 .shipping-billing-table .radio-wrapper {
   border: 1px solid var(--dn-g50) !important;
-  padding: 10px 24px !important;
+  padding: 16px 24px !important;
   margin-bottom: 8px !important;
   border-radius: 8px !important;
   display: flex !important;
   align-items: center !important;
-  min-height: 50px !important;
+  min-height: 84px !important;
 }
 .shipping-billing-table .radio-wrapper:last-child {
   margin-bottom: 0 !important;
@@ -696,9 +696,9 @@ ol.cart-header > li:not(:last-child):after {
 }
 .shipping-billing-table .radio-wrapper > label .payment-logo {
   order: -1 !important;
-  flex: 0 0 80px !important;
-  margin-right: 16px !important;
-  height: 32px !important;
+  flex: 0 0 100px !important;
+  margin-right: 20px !important;
+  height: 50px !important;
   background-color: #fff !important;
   display: flex !important;
   align-items: center !important;
