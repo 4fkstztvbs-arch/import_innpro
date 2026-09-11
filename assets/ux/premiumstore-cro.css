@@ -544,7 +544,7 @@ body {
      nahradené požadovanou svetlomodrou D1E5EC - podľa zadania sa mení len
      TOTO svetlé pozadie, nie sýta zelená na tlačidle/odkazoch/kruhu kroku
      (tá necháva dostatočný kontrast s bielym textom, D1E5EC by ho nemala). */
-  --dn-b50: #d1e5ec;   /* pozadie pásu krokov / zvýraznených blokov */
+  --dn-b50: #e4f0f5;   /* pozadie pásu krokov / zvýraznených blokov */
   --dn-b75: #b3cdbf;
   --dn-b100: #94b9a4;
   --dn-b200: #659b7d;  /* zvolená doprava/platba - okraj + text kroku */
