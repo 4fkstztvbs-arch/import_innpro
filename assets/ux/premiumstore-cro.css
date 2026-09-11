@@ -207,39 +207,6 @@ body {
     display: none !important;
   }
 }
-/* Na checkoute (ordering-process) Shoptet zámerne nerenderuje obsah
-   #navigation (zákazník nemá odchádzať prezerať kategórie počas
-   objednávky) - JS preto na checkoute .ps-menu-trigger vôbec nevytvára
-   (pozri menuTrigger() v premiumstore-cro.js) a namiesto neho vkladá
-   .ps-checkout-contact (telefón) do .navigation-buttons vpravo, vedľa
-   presunutého tlačidla Prihlásenie - logo (.site-name) tak ostáva vľavo
-   nedotknuté, presne ako má denatura.cz (logo + telefón + účet, bez menu). */
-@media (max-width: 991px) {
-  .ps-checkout-contact {
-    margin-left: 8px !important;
-    width: 36px !important;
-    height: 36px !important;
-    line-height: 36px !important;
-    padding: 0 !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    box-sizing: border-box !important;
-    color: inherit;
-    text-decoration: none;
-    flex-shrink: 0;
-  }
-  /* Popisok "Kontakt" ostáva len pre čítačky obrazovky - ostatné ikonky v
-     tomto rade (Prihlásenie, Vyhľadávanie) sú tiež bez viditeľného textu. */
-  .ps-checkout-contact-label {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-  }
-}
-
 /* Druhý riadok hlavičky (hlavné menu kategórií) je na checkoute prázdny -
    Shoptet obsah #navigation na checkoute zámerne nevykresľuje (rovnaký
    dôvod ako pri tlačidle Menu vyššie), no riadok si aj tak drží výšku
@@ -249,27 +216,22 @@ body {
     display: none !important;
   }
 }
-@media (min-width: 992px) {
-  .ps-checkout-contact {
-    display: none !important;
-  }
-}
 
-/* Na desktope/tablete (992px+) ostáva pravá časť hlavičky (PS blok s
-   telefónom + prihlásenie/účet z headerSupportBlock/relocateLoginButton)
-   na checkoute viditeľná rovnako ako na ostatných stránkach - natívne
-   Shoptet CSS inak .navigation-buttons na id--16/id--17 úplne skryje
-   (spolu s hlavným menu). Skrývame späť len ikony vyhľadávania a
-   hamburger menu (to isté robí aj denatura vo vlastnom CSS) - menu
-   kategórií samotné ostáva skryté cez .header-bottom vyššie. */
-@media (min-width: 992px) {
-  body.ordering-process .navigation-buttons {
-    display: flex !important;
-  }
-  body.ordering-process #header .navigation-buttons a[data-target="search"],
-  body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
-    display: none !important;
-  }
+/* Pravá časť hlavičky (PS blok s telefónom + prihlásenie/účet z
+   headerSupportBlock/relocateLoginButton) ostáva na checkoute viditeľná
+   rovnako ako na ostatných stránkach, na VŠETKÝCH šírkach vrátane
+   mobilu - natívne Shoptet CSS inak .navigation-buttons na id--16/id--17
+   úplne skryje (spolu s hlavným menu), bez ohľadu na šírku obrazovky.
+   Skrývame späť len ikony vyhľadávania a hamburger menu (to isté robí aj
+   denatura vo vlastnom CSS) - menu kategórií samotné ostáva skryté cez
+   .header-bottom vyššie (na mobile ho Shoptet natívne aj tak skoluje na
+   výšku 0, netreba ho tam skrývať zvlášť). */
+body.ordering-process .navigation-buttons {
+  display: flex !important;
+}
+body.ordering-process #header .navigation-buttons a[data-target="search"],
+body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
+  display: none !important;
 }
 
 /* PS blok vo vysúvacom mobilnom menu - default skrytý, viditeľný len na
@@ -355,6 +317,28 @@ body {
 @media (max-width: 991px) {
   .ps-header-support {
     display: none; /* na mobile nie je v hlavičke miesto */
+  }
+}
+/* Na checkoute (kde chýba menu kategórií, pozri .header-bottom vyššie) sa
+   telefón v hlavičke oplatí ukázať aj na mobile, presne ako denatura.cz
+   (logo + telefón + účet, bez menu, na všetkých šírkach) - zúžená
+   varianta (bez "Po-Pia" hodín), nech sa zmestí vedľa ikony Prihlásenie. */
+@media (max-width: 991px) {
+  body.ordering-process .ps-header-support {
+    display: flex !important;
+    margin-right: 8px !important;
+    gap: 6px !important;
+  }
+  body.ordering-process .ps-header-avatar {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 12px !important;
+  }
+  body.ordering-process .ps-header-support-text a {
+    font-size: 13px !important;
+  }
+  body.ordering-process .ps-header-support-hours {
+    display: none !important;
   }
 }
 
@@ -807,6 +791,50 @@ ol.cart-header > li:not(:last-child):after {
   .payment-logo img {
     max-height: 26px !important;
     max-width: 56px !important;
+  }
+}
+/* Na mobile bolo logo stále "order:-1;flex:0 0 100px" z desktopového
+   pravidla vyššie - kombinácia s natívnym flex-wrap:wrap na labeli tak
+   logo posunula na vlastný (prvý) riadok nad celý text namiesto malej
+   ikonky vedľa/za textom. Denatura na mobile poradie aj šírku loga
+   resetuje späť (overené priamo v ich CSS, presne tento breakpoint). */
+@media (max-width: 767px) {
+  .shipping-billing-table .radio-wrapper > label .payment-logo {
+    order: unset !important;
+    flex-basis: 64px !important;
+    margin-right: 0 !important;
+  }
+}
+/* Užší mobil - denatura tu ešte skracuje výšku riadku, dáva text do
+   stĺpca (názov + odkaz) a cenu pod ňu ako samostatný blok (namiesto
+   snahy vojsť sa vedľa loga na jeden riadok). Presne ich hodnoty. */
+@media (max-width: 499px) {
+  .shipping-billing-table .radio-wrapper {
+    padding: 16px 16px 20px 16px !important;
+  }
+  .shipping-billing-table .radio-wrapper input[type="radio"] + label {
+    padding-left: 34px !important;
+    margin-right: 0 !important;
+    align-items: center !important;
+    position: initial !important;
+  }
+  .shipping-billing-table .payment-info .shipping-billing-name {
+    font-size: 14px !important;
+    padding-right: 0 !important;
+  }
+  .shipping-billing-table .payment-info {
+    min-height: 40px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .radio-wrapper input[type="radio"] + label .payment-shipping-price {
+    font-size: 13px !important;
+    display: block !important;
+    margin-top: 10px !important;
+  }
+  .shipping-billing-table .radio-wrapper > label .payment-logo {
+    align-self: flex-start !important;
   }
 }
 /* Zvolený radio-bod - naša zelená (var(--p) z pôvodného vlastného CSS,
