@@ -404,5 +404,19 @@
     "subject": "Re: Objednávka č. 326018799 je na ceste. Faktúru nájdete v prílohe. [topobaly#266725]",
     "orderCode": null,
     "matchedBy": "none"
+  },
+  "<CAN6ei0doQVH9MXu3xoJg3SFK3Wwb7qgmVME=VsQd7UxHAjJH0w@mail.gmail.com>": {
+    "draftedAt": "2026-09-11T17:46:49.493Z",
+    "from": "romandvorak67@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600872 sa práve vybavuje",
+    "orderCode": "202600872",
+    "matchedBy": "code"
+  },
+  "<CAN6ei0dC4Bn4RDCSFnVC-pJns5+52cjKrhF6o=36NioRNkUPOQ@mail.gmail.com>": {
+    "draftedAt": "2026-09-11T17:46:55.892Z",
+    "from": "romandvorak67@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600872 sa práve vybavuje",
+    "orderCode": "202600872",
+    "matchedBy": "code"
   }
 }
