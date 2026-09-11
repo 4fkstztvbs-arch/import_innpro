@@ -911,7 +911,14 @@ body.ordering-process .co-box.co-shipping-address h2::before {
 @media (max-width: 767px) {
   #checkoutContent .form-group {
     flex-direction: column !important;
-    align-items: flex-start !important;
+    /* Base (nescopované) pravidlo vyššie má align-items:center - v
+       stĺpcovom rozložení to zmršťuje aj .form-control-wrapper (obal
+       poľa) na šírku OBSAHU namiesto natiahnutia na celú šírku stĺpca;
+       input mal síce width:100%, ale počítalo sa to voči tomuto
+       zmrštenému obalu, nie voči celej šírke. Pole tak vychádzalo oveľa
+       užšie než na denatura (overené priamo na živom mobile screenshote -
+       cca 63% šírky namiesto takmer celej). Explicitný stretch to opravuje. */
+    align-items: stretch !important;
   }
   #checkoutContent .smart-label-wrapper label {
     max-width: 100% !important;
