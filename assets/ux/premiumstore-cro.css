@@ -843,6 +843,43 @@ body.ordering-process .co-box.co-billing-address h2::before,
 body.ordering-process .co-box.co-shipping-address h2::before {
   display: none !important;
 }
+/* Label (Meno, Email, Telefón...) NIE JE plávajúci/prekrývajúci sa s
+   poľom (natívne .smart-label-wrapper label je position:absolute nad
+   vstupom) - denatura ho vo vlastnom CSS mení na normálny label VEDĽA
+   poľa (flex riadok): .form-group{display:flex;align-items:center;
+   gap:10px}, label position:relative;flex:1;max-width:240px, pole
+   flex:1. Overené priamo na živom denatura.cz (lokálny render z ich
+   reálneho HTML/CSS - label je vľavo od poľa, nie v ňom, na žiadnej
+   šírke - inak by sa napr. pri telefóne prekrýval s vlajkou/predvoľbou). */
+#checkoutContent .form-control-wrapper {
+  flex: 1 !important;
+  max-width: unset !important;
+}
+#checkoutContent .smart-label-wrapper label {
+  flex: 1 !important;
+  margin: 0 !important;
+  max-width: 240px !important;
+  position: relative !important;
+  left: unset !important;
+  top: unset !important;
+  transform: unset !important;
+}
+#checkoutContent .form-group {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+/* Pod 768px má denatura label nad poľom (stĺpec), nie vedľa neho -
+   rovnaký princíp (position:relative), len iné usporiadanie. */
+@media (max-width: 767px) {
+  #checkoutContent .form-group {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  #checkoutContent .smart-label-wrapper label {
+    max-width: 100% !important;
+  }
+}
 /* Vstupné polia (meno, email, telefón, adresa...) - natívne form-control
    má malý border-radius; denatura ich má plne "pill" tvarované (border-
    radius:100px), 54px vysoké, 580px široké, s farbou okraja --color-g75
@@ -863,25 +900,11 @@ body.ordering-process .co-box.co-shipping-address h2::before {
   max-width: 580px !important;
   width: 100% !important;
 }
-/* Label "Telefón" je natívne absolútne pozicovaný na left:0 - presne to
-   isté miesto, kde sedí vlajka/predvoľba (+421...), preto by sa s ňou
-   prekrýval. Posunutý na rovnaké miesto, kam začína písaný text v poli
-   (padding-left:105px vyššie). */
-#checkoutContent .form-group.phone-form-group label {
-  left: 105px !important;
-}
 #checkoutContent .form-group.phone-form-group .phone-combined-input input {
   height: 54px !important;
   border-radius: 100px !important;
   padding: 11px 18px 11px 105px !important;
   border-color: var(--dn-g75) !important;
-}
-/* Plávajúci label (smart-label-wrapper) počíta svoju vertikálnu pozíciu
-   z --smart-labels-computed-height, odvodenej z natívnej (nižšej) výšky
-   poľa - bez prepočtu by label zostal vycentrovaný na pôvodnú výšku a
-   prekrýval by sa s 54px vysokým poľom. */
-#checkoutContent .smart-label-wrapper {
-  --smart-labels-computed-height: 54px !important;
 }
 
 /* Natívna bodka radio/checkbox je len 18px (--form-fields-checkbox-size).
@@ -948,6 +971,20 @@ body.ordering-process .question-tooltip {
     margin-left: 0 !important;
     padding: 0 !important;
   }
+  /* Krok "Informácie o vás" má užší stĺpec obsahu ako krok dopravy/platby
+     (overené priamo v CSS denatura: .id--17 #checkoutContent{max-width:
+     820px}, u nás bez tejto výnimky bol stĺpec o čosi širší a celý
+     obsah tak začínal/končil inde než na denatura). */
+  .id--17 #checkoutContent {
+    max-width: 820px !important;
+  }
+}
+/* Medzera medzi zeleným pruhom krokov a obsahom nižšie - natívne
+   .cart-inner nemá žiadny padding-top, denatura ho pridáva vlastným CSS
+   (.cart-inner{padding:48px 0 0}), inak by bol obsah "nalepený" hneď pod
+   pruhom. */
+.cart-inner {
+  padding-top: 48px !important;
 }
 
 /* --- Karta "Zhrnutie objednávky" - zvýraznený krémový blok sumy --------- */
