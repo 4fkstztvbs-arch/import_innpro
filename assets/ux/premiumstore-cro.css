@@ -885,7 +885,7 @@ ol.cart-header > li:not(:last-child):after {
 /* .next-step (tlačidlo "Pokračovať" + odkaz "Späť") - po presune JS-om
    je teraz POSLEDNÉ dieťa .order-summary-inner, hneď za .price, so
    zdieľaným krémovým pozadím - vizuálne jeden spojitý blok bez medzery. */
-#checkoutSidebar .order-summary-inner .next-step.next-step--step-1 {
+#checkoutSidebar .order-summary-inner .next-step {
   margin: 0 -24px !important;
   width: calc(100% + 48px) !important;
   padding: 20px 24px 24px !important;
@@ -904,7 +904,7 @@ ol.cart-header > li:not(:last-child):after {
 /* Denatura: .btn.btn-conversion{font-size:13px;font-weight:700;
    letter-spacing:2px;line-height:1.7;padding:16px 48px;border-radius:100px}
    - naše .btn-lg bolo oveľa väčšie (preto sa text lámal na 2 riadky). */
-#checkoutSidebar .next-step.next-step--step-1 .btn.btn-lg {
+#checkoutSidebar .next-step .btn.btn-lg {
   width: 100% !important;
   justify-content: center !important;
   font-size: 13px !important;
@@ -916,11 +916,11 @@ ol.cart-header > li:not(:last-child):after {
 /* Natívne .order-button-text{font-size:18px} je na samotnom <span>, takže
    veľkosť z rodičovského tlačidla (vyššie) sa nededí - vlastná explicitná
    hodnota na potomkovi vždy vyhrá. Treba prepísať priamo tu. */
-#checkoutSidebar .next-step.next-step--step-1 .btn.btn-lg .order-button-text {
+#checkoutSidebar .next-step .btn.btn-lg .order-button-text {
   font-size: 13px !important;
 }
 /* denatura odkaz "Zpět" v karte zhrnutia nezobrazuje. */
-#checkoutSidebar .next-step.next-step--step-1 .next-step-back {
+#checkoutSidebar .next-step .next-step-back {
   display: none !important;
 }
 
