@@ -829,6 +829,61 @@ ol.cart-header > li:not(:last-child):after {
   content: none !important;
 }
 
+/* --- Krok "Informácie o vás" (id--17) - nadpisy sekcií a polia formulára -
+   Nadpisy "Osobné údaje"/"Fakturačná adresa" sú <h2> (nie .order-icon ako
+   na kroku dopravy), natívna ikona sa vkladá cez samostatné pravidlo
+   .co-box.co-contact-information/.co-billing-address h2:before. Denatura
+   ju skrýva presne takto (overené priamo v ich vlastnom CSS) a naviac ruší
+   aj natívny padding-left:40px, ktorý pre ikonu robil miesto. */
+body.ordering-process .co-box h2 {
+  padding-left: 0 !important;
+}
+body.ordering-process .co-box.co-contact-information h2::before,
+body.ordering-process .co-box.co-billing-address h2::before,
+body.ordering-process .co-box.co-shipping-address h2::before {
+  display: none !important;
+}
+/* Vstupné polia (meno, email, telefón, adresa...) - natívne form-control
+   má malý border-radius; denatura ich má plne "pill" tvarované (border-
+   radius:100px), 54px vysoké, 580px široké, s farbou okraja --color-g75
+   (u nás --dn-g75). Presne podľa #checkoutContent .form-group input v ich
+   CSS. Telefón má naviac padding vľavo pre predvoľbu/vlajku krajiny. */
+#checkoutContent .form-group {
+  margin-bottom: 20px !important;
+}
+#checkoutContent .form-group:not(.phone-form-group) input {
+  width: 100% !important;
+  max-width: 580px !important;
+  height: 54px !important;
+  border-radius: 100px !important;
+  border-color: var(--dn-g75) !important;
+  padding: 11px 18px !important;
+}
+#checkoutContent .form-group.phone-form-group .phone-combined-input {
+  max-width: 580px !important;
+  width: 100% !important;
+}
+/* Label "Telefón" je natívne absolútne pozicovaný na left:0 - presne to
+   isté miesto, kde sedí vlajka/predvoľba (+421...), preto by sa s ňou
+   prekrýval. Posunutý na rovnaké miesto, kam začína písaný text v poli
+   (padding-left:105px vyššie). */
+#checkoutContent .form-group.phone-form-group label {
+  left: 105px !important;
+}
+#checkoutContent .form-group.phone-form-group .phone-combined-input input {
+  height: 54px !important;
+  border-radius: 100px !important;
+  padding: 11px 18px 11px 105px !important;
+  border-color: var(--dn-g75) !important;
+}
+/* Plávajúci label (smart-label-wrapper) počíta svoju vertikálnu pozíciu
+   z --smart-labels-computed-height, odvodenej z natívnej (nižšej) výšky
+   poľa - bez prepočtu by label zostal vycentrovaný na pôvodnú výšku a
+   prekrýval by sa s 54px vysokým poľom. */
+#checkoutContent .smart-label-wrapper {
+  --smart-labels-computed-height: 54px !important;
+}
+
 /* Natívna bodka radio/checkbox je len 18px (--form-fields-checkbox-size).
    Denatura ju globálne zväčšuje na 20px - rovnaká hodnota ako label
    padding-left:40px vyššie počíta. */
