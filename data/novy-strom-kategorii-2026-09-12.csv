@@ -10,9 +10,9 @@ am8;am1;1;Karavany a obytné autá;karavany-a-obytne-auta;Auto-moto > Karavany a
 am10;am1;1;Kolesá a pneumatiky;kolesa-a-pneumatiky;Auto-moto > Kolesá a pneumatiky
 am6;am1;1;Nabíjanie a batérie;nabijanie-a-baterie;Auto-moto > Nabíjanie a batérie
 am11;am1;1;Nosiče a prenos;nosice-a-prenos;Auto-moto > Nosiče a prenos
-am4;am1;1;Príslušenstvo do auta;prislusenstvo-do-auta;Auto-moto > Príslušenstvo do auta
+am4;am1;1;Príslušenstvo do auta;vybavenie-auta;Auto-moto > Príslušenstvo do auta
 nmtx2yxj71vky3g;;0;Cestovanie, šport a outdoor;cestovanie-sport-a-outdoor;Cestovanie, šport a outdoor
-g212;nmtx2yxj71vky3g;1;Batérie;baterie;Cestovanie, šport a outdoor > Batérie
+g212;nmtx2yxj71vky3g;1;Batérie;litiove-a-nimh;Cestovanie, šport a outdoor > Batérie
 g131;nmtx2yxj71vky3g;1;Bojové športy;bojove-sporty;Cestovanie, šport a outdoor > Bojové športy
 g142;nmtx2yxj71vky3g;1;Cyklistika;cyklistika;Cestovanie, šport a outdoor > Cyklistika
 g137;nmtx2yxj71vky3g;1;Elektrické bežecké pásy;elektricke-bezecke-pasy;Cestovanie, šport a outdoor > Elektrické bežecké pásy
@@ -47,7 +47,7 @@ g216;nmtx2z35i18n8n2;1;Laserové gravírovacie a rezacie stroje;laserove-graviro
 g64;nmtx2z35i18n8n2;1;MERACIE TECHNIKA;meracie-technika;Dielňa a záhrada > MERACIE TECHNIKA
 g66;nmtx2z35i18n8n2;1;Mechanické náradie;mechanicke-naradie;Dielňa a záhrada > Mechanické náradie
 g77;nmtx2z35i18n8n2;1;Meracia technika;meracia-technika;Dielňa a záhrada > Meracia technika
-g62;nmtx2z35i18n8n2;1;Meracie prístroje;meracie-pristroje;Dielňa a záhrada > Meracie prístroje
+g62;nmtx2z35i18n8n2;1;Meracie prístroje;meracie-pristroje-3;Dielňa a záhrada > Meracie prístroje
 g74;nmtx2z35i18n8n2;1;Náradie;naradie;Dielňa a záhrada > Náradie
 g67;nmtx2z35i18n8n2;1;Náradie pre brúsenie, vŕtanie, rezanie a pilovanie;naradie-pre-brusenie--vrtanie--rezanie-a-pilovanie;Dielňa a záhrada > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie
 g70;nmtx2z35i18n8n2;1;Ochranné pomôcky a odevy;ochranne-pomocky-a-odevy;Dielňa a záhrada > Ochranné pomôcky a odevy
@@ -62,7 +62,7 @@ g73;nmtx2z35i18n8n2;1;Stavebné a maliarske náradie;stavebne-a-maliarske-naradi
 g215;nmtx2z35i18n8n2;1;Tlačiarne a lisy na potlač textilu;tlaciarne-a-lisy-na-potlac-textilu;Dielňa a záhrada > Tlačiarne a lisy na potlač textilu
 g85;nmtx2z35i18n8n2;1;Zariadenia na čistenie bazénov;zariadenia-na-cistenie-bazenov;Dielňa a záhrada > Zariadenia na čistenie bazénov
 g83;nmtx2z35i18n8n2;1;Záhradné doplnky;zahradne-doplnky;Dielňa a záhrada > Záhradné doplnky
-g87;nmtx2z35i18n8n2;1;Záhradné náradie;zahradne-naradie;Dielňa a záhrada > Záhradné náradie
+g87;nmtx2z35i18n8n2;1;Záhradné náradie;zahradne-naradie-2;Dielňa a záhrada > Záhradné náradie
 g86;nmtx2z35i18n8n2;1;Záhradné stroje;zahradne-stroje;Dielňa a záhrada > Záhradné stroje
 g84;nmtx2z35i18n8n2;1;Záhradné zavlažovacie systémy;zahradne-zavlazovacie-systemy;Dielňa a záhrada > Záhradné zavlažovacie systémy
 nmtx2zmrqmyq3yo;;0;Domáce spotrebiče;domace-spotrebice;Domáce spotrebiče
@@ -70,7 +70,7 @@ g114;nmtx2zmrqmyq3yo;1;Chladničky;chladnicky;Domáce spotrebiče > Chladničky
 g126;nmtx2zmrqmyq3yo;1;Digestory;digestory;Domáce spotrebiče > Digestory
 g96;nmtx2zmrqmyq3yo;1;Fritézy a hrnce;fritezy-a-hrnce;Domáce spotrebiče > Fritézy a hrnce
 g104;nmtx2zmrqmyq3yo;1;Grily, pekárne, variče;grily--pekarne--varice;Domáce spotrebiče > Grily, pekárne, variče
-g103;nmtx2zmrqmyq3yo;1;Hodiny a budíky;hodiny-a-budiky;Domáce spotrebiče > Hodiny a budíky
+g103;nmtx2zmrqmyq3yo;1;Hodiny a budíky;hodiny-2;Domáce spotrebiče > Hodiny a budíky
 g91;nmtx2zmrqmyq3yo;1;Kuchynské nádobie;kuchynske-nadobie;Domáce spotrebiče > Kuchynské nádobie
 g101;nmtx2zmrqmyq3yo;1;Kuchynské potreby;kuchynske-potreby;Domáce spotrebiče > Kuchynské potreby
 g106;nmtx2zmrqmyq3yo;1;Kuchynské príslušenstvo;kuchynske-prislusenstvo;Domáce spotrebiče > Kuchynské príslušenstvo
@@ -90,7 +90,7 @@ g105;nmtx2zmrqmyq3yo;1;Sendvičovače, hriankovače, vaflovače;sendvicovace--hr
 g119;nmtx2zmrqmyq3yo;1;Sporáky a rúry;sporaky-a-rury;Domáce spotrebiče > Sporáky a rúry
 g116;nmtx2zmrqmyq3yo;1;Sušičky;susicky;Domáce spotrebiče > Sušičky
 g108;nmtx2zmrqmyq3yo;1;Sušičky potravín;susicky-potravin;Domáce spotrebiče > Sušičky potravín
-g111;nmtx2zmrqmyq3yo;1;Teplomery;teplomery;Domáce spotrebiče > Teplomery
+g111;nmtx2zmrqmyq3yo;1;Teplomery;teplomery-3;Domáce spotrebiče > Teplomery
 g120;nmtx2zmrqmyq3yo;1;Umývačky riadu;umyvacky-riadu;Domáce spotrebiče > Umývačky riadu
 g93;nmtx2zmrqmyq3yo;1;Upratovacie pomôcky;upratovacie-pomocky;Domáce spotrebiče > Upratovacie pomôcky
 g124;nmtx2zmrqmyq3yo;1;Varné dosky;varne-dosky;Domáce spotrebiče > Varné dosky
@@ -107,7 +107,7 @@ g98;nmtx2zmrqmyq3yo;1;Vákuovačky a zváračky fólií;vakuovacky-a-zvaracky-fo
 g113;nmtx2zmrqmyq3yo;1;Čistiace prístroje a doplnky;cistiace-pristroje-a-doplnky;Domáce spotrebiče > Čistiace prístroje a doplnky
 g99;nmtx2zmrqmyq3yo;1;Žehličky;zehlicky;Domáce spotrebiče > Žehličky
 nmtx2zb3yft543o;;0;Elektro, Smart Home a osvetlenie;elektro-smart-home-a-osvetlenie;Elektro, Smart Home a osvetlenie
-g49;nmtx2zb3yft543o;1;Cestovné adaptéry;cestovne-adaptery;Elektro, Smart Home a osvetlenie > Cestovné adaptéry
+g49;nmtx2zb3yft543o;1;Cestovné adaptéry;cestovne-adaptery-3;Elektro, Smart Home a osvetlenie > Cestovné adaptéry
 g45;nmtx2zb3yft543o;1;Elektromery a spínacie technika;elektromery-a-spinacie-technika;Elektro, Smart Home a osvetlenie > Elektromery a spínacie technika
 g55;nmtx2zb3yft543o;1;IP kamery;ip-kamery;Elektro, Smart Home a osvetlenie > IP kamery
 g42;nmtx2zb3yft543o;1;Inštalačné príslušenstvo;instalacne-prislusenstvo;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo
@@ -115,7 +115,7 @@ g47;nmtx2zb3yft543o;1;Ističe a chrániče;istice-a-chranice;Elektro, Smart Home
 g54;nmtx2zb3yft543o;1;Kamerové systémy;kamerove-systemy;Elektro, Smart Home a osvetlenie > Kamerové systémy
 g44;nmtx2zb3yft543o;1;Káble a vodiče;kable-a-vodice;Elektro, Smart Home a osvetlenie > Káble a vodiče
 g40;nmtx2zb3yft543o;1;Montážne skrine a rozvádzače;montazne-skrine-a-rozvadzace;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače
-g41;nmtx2zb3yft543o;1;Ostatné;ostatne;Elektro, Smart Home a osvetlenie > Ostatné
+g41;nmtx2zb3yft543o;1;Ostatné;ostatne-27;Elektro, Smart Home a osvetlenie > Ostatné
 g36;nmtx2zb3yft543o;1;Osvetlenie;osvetlenie;Elektro, Smart Home a osvetlenie > Osvetlenie
 nmty9y7oap0iq70;g36;2;Komponenty pre svietidlá;komponenty-pre-svietidla;Elektro, Smart Home a osvetlenie > Osvetlenie > Komponenty pre svietidlá
 nmty9wt1mxu5qa8;g36;2;LED osvetlenie;led-osvetlenie;Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie
@@ -128,14 +128,14 @@ g58;nmtx2zb3yft543o;1;Smart domácnosť;smart-domacnost;Elektro, Smart Home a os
 g39;nmtx2zb3yft543o;1;Ventilačné technika;ventilacne-technika;Elektro, Smart Home a osvetlenie > Ventilačné technika
 g43;nmtx2zb3yft543o;1;Vypínače a nástenné zásuvky;vypinace-a-nastenne-zasuvky;Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky
 g59;nmtx2zb3yft543o;1;Zabezpečenie;zabezpecenie;Elektro, Smart Home a osvetlenie > Zabezpečenie
-g46;nmtx2zb3yft543o;1;Zvončeky;zvonceky;Elektro, Smart Home a osvetlenie > Zvončeky
-nmtx30fkus8jhzm;;0;Fotovoltaika;fotovoltaika;Fotovoltaika
+g46;nmtx2zb3yft543o;1;Zvončeky;zvonceky-2;Elektro, Smart Home a osvetlenie > Zvončeky
+nmtx30fkus8jhzm;;0;Fotovoltaika;fotovoltaika-a-energie;Fotovoltaika
 g157;nmtx30fkus8jhzm;1;Akumulátory a batérie;akumulatory-a-baterie;Fotovoltaika > Akumulátory a batérie
 g163;nmtx30fkus8jhzm;1;Elektrické stanice;elektricke-stanice;Fotovoltaika > Elektrické stanice
 g158;nmtx30fkus8jhzm;1;Fotovoltaika;fotovoltaika-2;Fotovoltaika > Fotovoltaika
 g160;nmtx30fkus8jhzm;1;Meniče napätia;menice-napatia;Fotovoltaika > Meniče napätia
 g161;nmtx30fkus8jhzm;1;Nabíjačky;nabijacky;Fotovoltaika > Nabíjačky
-g162;nmtx30fkus8jhzm;1;Napájacie zdroje;napajacie-zdroje;Fotovoltaika > Napájacie zdroje
+g162;nmtx30fkus8jhzm;1;Napájacie zdroje;napajacie-zdroje-2;Fotovoltaika > Napájacie zdroje
 g159;nmtx30fkus8jhzm;1;Záložné zdroje a UPS;zalozne-zdroje-a-ups;Fotovoltaika > Záložné zdroje a UPS
 nmtx31bbmx4yo53;;0;Počítače, mobily a tablety;pocitace-mobily-a-tablety;Počítače, mobily a tablety
 g184;nmtx31bbmx4yo53;1;Akumulátory, batérie;akumulatory--baterie-2;Počítače, mobily a tablety > Akumulátory, batérie
@@ -149,16 +149,16 @@ g175;nmtx31bbmx4yo53;1;Herné príslušenstvo;herne-prislusenstvo-3;Počítače,
 g182;nmtx31bbmx4yo53;1;Herné zariadenia;herne-zariadenia-2;Počítače, mobily a tablety > Herné zariadenia
 g178;nmtx31bbmx4yo53;1;Mini PC;mini-pc-2;Počítače, mobily a tablety > Mini PC
 g196;nmtx31bbmx4yo53;1;Monitory;monitory-2;Počítače, mobily a tablety > Monitory
-g154;nmtx31bbmx4yo53;1;Nabíjačky;nabijacky-2;Počítače, mobily a tablety > Nabíjačky
+g154;nmtx31bbmx4yo53;1;Nabíjačky;nabijacky-4;Počítače, mobily a tablety > Nabíjačky
 g147;nmtx31bbmx4yo53;1;Nositeľná elektronika;nositelna-elektronika-2;Počítače, mobily a tablety > Nositeľná elektronika
 g181;nmtx31bbmx4yo53;1;Notebooky;notebooky-2;Počítače, mobily a tablety > Notebooky
 g187;nmtx31bbmx4yo53;1;PC periférie;pc-periferie-2;Počítače, mobily a tablety > PC periférie
 g150;nmtx31bbmx4yo53;1;Pamäťové karty;pamatove-karty;Počítače, mobily a tablety > Pamäťové karty
 g183;nmtx31bbmx4yo53;1;Pamäťové médiá;pamatove-media-2;Počítače, mobily a tablety > Pamäťové médiá
 g189;nmtx31bbmx4yo53;1;Pendrive;pendrive;Počítače, mobily a tablety > Pendrive
-g188;nmtx31bbmx4yo53;1;Predlžovacie káble;predlzovacie-kable;Počítače, mobily a tablety > Predlžovacie káble
+g188;nmtx31bbmx4yo53;1;Predlžovacie káble;predlzovacie-kable-3;Počítače, mobily a tablety > Predlžovacie káble
 g179;nmtx31bbmx4yo53;1;Prenosné monitory;prenosne-monitory-2;Počítače, mobily a tablety > Prenosné monitory
-g146;nmtx31bbmx4yo53;1;Príslušenstvo;prislusenstvo;Počítače, mobily a tablety > Príslušenstvo
+g146;nmtx31bbmx4yo53;1;Príslušenstvo;prislusenstvo-10;Počítače, mobily a tablety > Príslušenstvo
 g194;nmtx31bbmx4yo53;1;Príslušenstvo k notebookom;prislusenstvo-k-notebookom-2;Počítače, mobily a tablety > Príslušenstvo k notebookom
 g186;nmtx31bbmx4yo53;1;Rackové skrine a príslušenstvo;rackove-skrine-a-prislusenstvo-2;Počítače, mobily a tablety > Rackové skrine a príslušenstvo
 g190;nmtx31bbmx4yo53;1;Routery;routery-3;Počítače, mobily a tablety > Routery
@@ -183,8 +183,8 @@ g209;nmtx320addb9vn5;1;Nové produkty;nove-produkty;Profesionálna audio technik
 g205;nmtx320addb9vn5;1;Náradia, Do It Yourself, napájanie, meracia technika;naradia--do-it-yourself--napajanie--meracia-technika;Profesionálna audio technika > Náradia, Do It Yourself, napájanie, meracia technika
 g198;nmtx320addb9vn5;1;Plošné ozvučenie (100V rozhlasové ozvučenie);plosne-ozvucenie--100v-rozhlasove-ozvucenie;Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie)
 g197;nmtx320addb9vn5;1;Pódium, diskotéka, DJ;podium--diskoteka--dj;Profesionálna audio technika > Pódium, diskotéka, DJ
-g200;nmtx320addb9vn5;1;Reproduktory;reproduktory;Profesionálna audio technika > Reproduktory
-g202;nmtx320addb9vn5;1;Svetlá;svetla;Profesionálna audio technika > Svetlá
+g200;nmtx320addb9vn5;1;Reproduktory;reproduktory-5;Profesionálna audio technika > Reproduktory
+g202;nmtx320addb9vn5;1;Svetlá;svetla-2;Profesionálna audio technika > Svetlá
 g204;nmtx320addb9vn5;1;Tlmočnícke, sprievodcovské a konferenčné systémy;tlmocnicke--sprievodcovske-a-konferencne-systemy;Profesionálna audio technika > Tlmočnícke, sprievodcovské a konferenčné systémy
 g210;nmtx320addb9vn5;1;Výpredaj;vypredaj;Profesionálna audio technika > Výpredaj
 nmtx2pijr74war9;;0;TV, foto, audio video;tv-foto-audio-video;TV, foto, audio video
@@ -192,7 +192,7 @@ g4;nmtx2pijr74war9;1;AV káble;av-kable;TV, foto, audio video > AV káble
 g3;nmtx2pijr74war9;1;Antény a satelity;anteny-a-satelity;TV, foto, audio video > Antény a satelity
 g1;nmtx2pijr74war9;1;Audio technika;audio-technika;TV, foto, audio video > Audio technika
 g2;g1;2;Reproduktory;reproduktory-2;TV, foto, audio video > Audio technika > Reproduktory
-nmtx2ua3sk2773f;nmtx2pijr74war9;1;Diaľkové ovládače;dialkove-ovladace;TV, foto, audio video > Diaľkové ovládače
+nmtx2ua3sk2773f;nmtx2pijr74war9;1;Diaľkové ovládače;dialkove-ovladace-2;TV, foto, audio video > Diaľkové ovládače
 nmty9jotps9d0cb;nmtx2ua3sk2773f;2;Audio ovládače;audio-ovladace;TV, foto, audio video > Diaľkové ovládače > Audio ovládače
 nmty9jzhykcbl21;nmtx2ua3sk2773f;2;DVD ovládače;dvd-ovladace;TV, foto, audio video > Diaľkové ovládače > DVD ovládače
 nmty9jds1txp46f;nmtx2ua3sk2773f;2;Ovládače k DVB-T2;ovladace-k-dvb-t2;TV, foto, audio video > Diaľkové ovládače > Ovládače k DVB-T2
@@ -211,7 +211,7 @@ g12;g10;2;Selfie tyče;selfie-tyce-2;TV, foto, audio video > Foto a príslušens
 g16;g10;2;Skladovanie a preprava;skladovanie-a-preprava-2;TV, foto, audio video > Foto a príslušenstvo > Skladovanie a preprava
 g18;g10;2;Súpravy;supravy-2;TV, foto, audio video > Foto a príslušenstvo > Súpravy
 nmtx2rgz1e15brg;nmtx2pijr74war9;1;Projektory;projektory-4;TV, foto, audio video > Projektory
-g7;nmtx2pijr74war9;1;Príslušenstvo;prislusenstvo-3;TV, foto, audio video > Príslušenstvo
+g7;nmtx2pijr74war9;1;Príslušenstvo;prislusenstvo-k-tv--audio--video;TV, foto, audio video > Príslušenstvo
 g5;nmtx2pijr74war9;1;TV stolíky a držiaky;tv-stoliky-a-drziaky;TV, foto, audio video > TV stolíky a držiaky
 nmtx2prr9xcxigb;nmtx2pijr74war9;1;Televízory;televizory;TV, foto, audio video > Televízory
 g6;nmtx2pijr74war9;1;Video technika;video-technika;TV, foto, audio video > Video technika
