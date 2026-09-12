@@ -51,4 +51,55 @@ function extractCompatibleModels(descriptionHtml) {
   return [...new Set(out)];
 }
 
-module.exports = { extractCompatibleModels };
+// --- Kompatibilná značka -------------------------------------------------------------------
+// Zoznam kompatibilných MODELOV v popise (vyššie) takmer nikdy neobsahuje značku zariadenia -
+// pri type "televizorů" sú to holé kódy modelov. Značka je ale spoľahlivo v názve produktu:
+// "Diaľkový ovládač ALIEN {Značka} {kód pôvodného ovládača}". Overené na 610 reálnych produktoch
+// z output/atos.xml: vzor sedí na 100 %, dá 82 rôznych značiek.
+//
+// Prečo nie "všetko okrem posledného tokenu": názvy často obsahujú zoznam viacerých pôvodných
+// modelov ("Vantage HD 1100, 6000, 7100, 8000"), takže počet tokenov kolíše od 2 do 11 - značka
+// je vždy len prvý token (resp. dvojslovný celok zo zoznamu nižšie).
+
+const NAME_PREFIX_RE = /^(?:Di(?:aľ|áľ)kov[ýé]\s+ovl[áa]d(?:ač|anie)|D[áa]lkov[ýé]\s+ovlada[čc]|Vysiela[čc]\s+DO)\s+(?:ALIEN\s+)?(.+)$/i;
+
+// Dvojslovné značky - musia sa skúšať pred jednoslovným fallbackom (najdlhšia zhoda vyhráva).
+const TWO_WORD_BRANDS = ['AB IPBOX', 'AB CryptoBox', 'AZ BOX', 'Golden Media', 'Golden Interstar', 'New Digital'];
+
+// Tá istá značka chodí od ATOSu v rôznom zápise - bez zjednotenia by sa vo filtri zobrazila
+// dvakrát ako dve rôzne možnosti. Kľúč je lowercase, hodnota oficiálny zápis značky.
+const BRAND_CANONICAL = {
+  'amiko': 'Amiko',
+  'bensat': 'BENsat',
+  'gosat': 'GoSat',
+  'hyundai': 'Hyundai',
+  'technisat': 'TechniSat',
+  'tesla': 'TESLA',
+  'topfield': 'Topfield',
+  'ab cryptobox': 'AB CryptoBox',
+};
+
+function extractCompatibleBrand(productName) {
+  if (!productName) return null;
+  const m = NAME_PREFIX_RE.exec(productName.trim());
+  if (!m) return null;
+  let rest = m[1]
+    .replace(/\s*[-–]\s*n[áa]hrada.*$/i, '') // "... - náhrada za originál" chvost
+    .trim()
+    .replace(/^STB\s+/i, '') // generický popis "Set-Top-Box", nie značka
+    .trim();
+  if (!rest) return null;
+
+  let brand = null;
+  for (const two of TWO_WORD_BRANDS) {
+    const lower = rest.toLowerCase(), t = two.toLowerCase();
+    if (lower === t || lower.startsWith(t + ' ')) { brand = rest.slice(0, two.length); break; }
+  }
+  if (!brand) brand = rest.split(/\s+/)[0];
+  brand = brand.replace(/[,;]+$/, '').trim();
+  if (!brand || brand.length > 30 || !/[a-zA-Z]/.test(brand)) return null;
+
+  return BRAND_CANONICAL[brand.toLowerCase()] || brand;
+}
+
+module.exports = { extractCompatibleModels, extractCompatibleBrand };

@@ -39,7 +39,7 @@ const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { extractCompatibleModels } = require('./extract-compatible-models');
+const { extractCompatibleModels, extractCompatibleBrand } = require('./extract-compatible-models');
 const { translateRemoteControlName } = require('./lib/translate-remote-control-names');
 const { replaceDeadAtosImages } = require('./lib/fix-description-image-urls');
 const { translateAtosRemoteDescription } = require('./lib/atos-remote-control-description');
@@ -350,6 +350,15 @@ async function main() {
         const name = pv.slice(0, idx), value = pv.slice(idx + 1);
         if (!compatibleModels.has(name)) compatibleModels.set(name, []);
         compatibleModels.get(name).push(value);
+      }
+      // Značku zariadenia zoznam modelov neobsahuje (pri TV sú to holé kódy), je len v názve
+      // produktu - bez nej sa v kategórii nedá filtrovať "ovládače na Sony". Pridáva sa len
+      // k produktom, ktoré už majú zoznam kompatibilných modelov (t. j. sú to naozaj náhradné
+      // ovládače k cudziemu zariadeniu, nie univerzálne ovládače vlastnej značky).
+      const brand = extractCompatibleBrand(p.name);
+      if (brand) {
+        compatibleModels.set('Kompatibilná značka', [brand]);
+        stats.withCompatibleBrand = (stats.withCompatibleBrand || 0) + 1;
       }
     }
 
