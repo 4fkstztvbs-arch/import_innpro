@@ -1,0 +1,61 @@
+name: Ranná kontrola feedov
+
+on:
+  schedule:
+    # 05:00 UTC (07:00 SK) — po celej nočnej dávke (posledný je BASYS 23:00 UTC) aj po
+    # dennom behu InnPro o 04:00 UTC, takže kontroluje čerstvé output/*.xml zo všetkých feedov
+    - cron: '0 5 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      # continue-on-error: report treba commitnúť aj keď kontrola našla nález; job sa zhodí
+      # až posledným krokom, aby GitHub poslal upozornenie
+      - name: Kontrola nových duplicít medzi dodávateľmi
+        id: duplicates
+        continue-on-error: true
+        run: node scripts/check-new-duplicates.js
+
+      - name: Commit report
+        run: |
+          git config user.name "morning-feed-check-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/nove-duplicity-dodavatelia.md
+          if git diff --staged --quiet; then
+            echo "Report sa nezmenil"
+            exit 0
+          fi
+          git commit -m "Ranná kontrola feedov $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            echo "Push failed (attempt $i) — iný workflow pravdepodobne pushol súčasne. Retry o $((i*8))s..."
+            sleep $((i*8))
+            if [ "$i" = "5" ]; then
+              echo "::error::Push failed after 5 attempts"
+              exit 1
+            fi
+          done
+
+      - name: Zhodiť job, ak kontrola našla nové duplicity
+        if: steps.duplicates.outcome == 'failure'
+        run: |
+          echo "::error::Ranná kontrola našla nové duplicity medzi dodávateľmi — viď reports/nove-duplicity-dodavatelia.md"
+          exit 1

@@ -246,6 +246,24 @@ zmazal produkt, ktorý duplicita nie je.
 Filter je zapojený v `transform-atos.js`, `transform-kb.js`, `transform-penta.js`,
 `transform-innpro.js` a `transform-basys.js`.
 
+### Ranná kontrola nových duplicít
+
+Sortiment sa mení – dodávatelia si priebežne pridávajú značky, takže nové duplicity vznikajú samé
+od seba. `.github/workflows/morning-feed-check.yml` beží **denne o 05:00 UTC (07:00 SK)**, teda po
+celej nočnej dávke (posledný je BASYS o 23:00) aj po dennom behu InnPro o 04:00.
+
+`scripts/check-new-duplicates.js` prejde všetky `output/*.xml` a nahlási značky, ktoré dodáva viac
+dodávateľov naraz a **ešte nie sú v preferenciách**. Značky, ktoré tam už sú, sa nehlásia – tie
+rieši filter priamo pri importe.
+
+Výsledok ide do `reports/nove-duplicity-dodavatelia.md` (commituje sa pri každej zmene). Keď sa
+objaví nová duplicita, workflow **skončí chybou**, takže GitHub pošle upozornenie na e-mail.
+Report rovno ukáže nákupné ceny oboch dodávateľov, takže sa dá rozhodnúť na mieste – potom stačí
+značku doplniť do `scripts/cross-supplier-preferences.json`, kód sa nemení.
+
+Overené: pri dnešnom stave hlási „žiadne nové duplicity" (exit 0); po dočasnom odobratí Tesly
+a EPEVERu z preferencií ich správne nahlásil aj s cenami a skončil chybou.
+
 ### Jeden prípad na overenie
 
 **Amiko HD265** – ATOS má „AMIKO Mini HD265", K-B „Amiko DVB-S2 přijímač Mini HD265 WIFI". Ak je
