@@ -2363,3 +2363,4 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /zemniace-svorky/;/anteny-a-satelity/;exact;TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Uzemnenie, hromosvody > Zemniace svorky;TV, foto, audio video > Antény a satelity;49371
 /hdmi/;/av-kable/;exact;TV, audio a video > AV káble > Video > HDMI;TV, foto, audio video > AV káble;49431
 /usb-2/;/av-kable/;exact;TV, audio a video > AV káble > Computer > USB;TV, foto, audio video > AV káble;49437
+/fotovoltika/;/fotovoltaika-a-energie/;exact (typo "Fotovoltika" -> nova kategoria vznikla po 2026-09-11, 0 produktov);Fotovoltika;Fotovoltaika;49470
