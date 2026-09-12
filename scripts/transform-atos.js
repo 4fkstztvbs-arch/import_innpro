@@ -40,6 +40,7 @@ const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { extractCompatibleModels, extractCompatibleBrand } = require('./extract-compatible-models');
+const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
 const { translateRemoteControlName } = require('./lib/translate-remote-control-names');
 const { replaceDeadAtosImages } = require('./lib/fix-description-image-urls');
 const { translateAtosRemoteDescription } = require('./lib/atos-remote-control-description');
@@ -80,10 +81,9 @@ function proxyImgAspUrl(rawUrl) {
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
 
 // Pri UNI-T a MHPower je prekryv s iným dodávateľom len čiastočný – vypnúť celú značku ako pri
-// Solighte by zhodilo aj 214 produktov, ktoré ten druhý vôbec nemá. Vylučujú sa preto jednotlivé
-// kusy, ktoré naozaj dodáva niekto iný lacnejšie. Zoznam generuje
-// scratchpad/build_atos_exclusions.py – po zmene sortimentu ktoréhokoľvek z dvojice ho pusti znova.
-const EXCLUDED_CODES = new Set(mapping.excludedProductCodes || []);
+// Solighte by zhodilo aj produkty, ktoré ten druhý vôbec nemá. Vylučujú sa preto jednotlivé kusy,
+// ktoré preferovaný dodávateľ reálne má vo svojom feede (viď scripts/cross-supplier-preferences.json).
+const crossSupplier = createCrossSupplierFilter('atos');
 
 const TREE_ROOT = 'Druhy';
 const { createCategoryMatcher } = require('./resolve-category');
@@ -301,7 +301,7 @@ async function main() {
     try { p = parseAtosItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
-    if (p.code && EXCLUDED_CODES.has(p.code)) { stats.skippedExcludedCode = (stats.skippedExcludedCode || 0) + 1; return; }
+    if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
 
     const purchaseEUR = p.purchasePriceCZK * rate;
 

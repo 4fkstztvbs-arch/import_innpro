@@ -1,0 +1,10 @@
+{
+  "_comment": "Značka -> dodávateľ, od ktorého ju berieme. Ostatní dodávatelia tú istú značku a model pri importe preskočia, nech v e-shope nevznikne tá istá karta dvakrát. Vylúči sa len model, ktorý preferovaný dodávateľ reálne má vo feede - jeho unikátny sortiment ostatným zostáva. Logika: scripts/lib/cross-supplier-dedupe.js",
+  "_comment2": "Filter je zapojený v transform-atos.js a transform-kb.js - to sú dnes jediní dodávatelia, ktorí niekomu ustupujú. Ak sem pribudne značka, kde má ustúpiť INÝ dodávateľ, treba do jeho transform skriptu doplniť createCrossSupplierFilter('<dodavatel>') a volanie shouldExclude(manufacturer, name) v produktovej slučke - inak sa zmena ticho neprejaví.",
+  "preferredSupplierByBrand": {
+    "UNI-T": "innpro",
+    "MHPower": "penta",
+    "Pioneer": "basys",
+    "TP-Link": "penta"
+  }
+}

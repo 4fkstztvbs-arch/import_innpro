@@ -154,32 +154,51 @@ značke sa rozhodnúť pre jedného dodávateľa.
 3. Pri značkách s úplným prekryvom (UNI-T: ATOS 208 ks vs. InnPro 158 ks) zvážiť, či nenechať
    celú značku len u jedného dodávateľa – ušetrí to priebežnú údržbu.
 
-## Vyriešené: UNI-T a MHPower
+## Vyriešené: automatická deduplikácia pri každom importe
 
-Rozhodnutie: UNI-T berieme z InnPro, MHPower z Penty.
+Rozhodnutie: **UNI-T z InnPro, MHPower z Penty, Pioneer z BASYSu, TP-Link z Penty.**
 
 **Nešlo to spraviť ako pri Solighte.** Solight má v ATOSe nastavené `excludedManufacturers`, lebo
-celý jeho sortiment berieme priamo od výrobcu. Tu je prekryv len čiastočný:
+celý jeho sortiment berieme priamo od výrobcu. Tu je prekryv len čiastočný – napr. ATOS má 208
+kusov UNI-T, ale InnPro z nich vie dodať len 54 modelov. Vypnutie celej značky by zhodilo 214
+produktov, ktoré druhý dodávateľ vôbec nemá: pri UNI-T práve tú drahšiu profesionálnu časť
+(UT505A, termokamera UTi730V, stolový multimeter UT8804E, generátor UTG2082B, laboratórne zdroje
+UDP3303A), pri MHPower LiFePO4 batérie 75–200 Ah a napájacie adaptéry pre MikroTik.
 
-| | ATOS | druhý dodávateľ | spoločné modely | len u ATOSu |
-|---|---|---|---|---|
-| UNI-T | 208 ks | InnPro 158 ks | 54 | **153 ks** |
-| MHPower | 71 ks | Penta 17 ks | 10 | **61 ks** |
+### Ako to funguje
 
-Vypnutie celej značky by zhodilo 214 produktov, ktoré druhý dodávateľ vôbec nemá – pri UNI-T
-práve tú drahšiu profesionálnu časť (UT505A, termokamera UTi730V, stolový multimeter UT8804E,
-generátor UTG2082B, laboratórne zdroje UDP3303A), pri MHPower LiFePO4 batérie 75–200 Ah
-a napájacie adaptéry pre MikroTik.
+`scripts/lib/cross-supplier-dedupe.js` beží **pri každom importe**. Keď transformuje feed
+dodávateľa, ktorý pri danej značke ustupuje, načíta `output/<preferovaný>.xml` a preskočí každý
+produkt, ktorého značka a modelový kód sa v ňom nachádzajú. Preferencie sú na jednom mieste:
+`scripts/cross-supplier-preferences.json`.
 
-**Riešenie:** `transform-atos.js` dostal nový kľúč `excludedProductCodes` – vylučuje jednotlivé
-kusy podľa kódu, nie celú značku. Do `atos-mapping.json` je doplnených **65 kódov** (55 UNI-T,
-10 MHPower). Overené na dnešnom `output/atos.xml`: UNI-T 208 → 153, MHPower 71 → 61, všetkých
-65 kódov sa v feede reálne nachádza.
+Nič sa neudržiava ručne – zoznam vylúčených kusov sa prepočítava z aktuálnych feedov pri každom
+behu. Keď InnPro nejaký model prestane viesť, ATOS ho nasledujúci beh sám vráti do ponuky.
 
-Zoznam generuje `scripts/build-atos-exclusions.py` (páruje značku + modelový kód, porovná ceny).
-**Po zmene sortimentu ktoréhokoľvek z dvojice dodávateľov ho treba pustiť znova** – inak by
-zostal vylúčený produkt, ktorý druhý dodávateľ prestal viesť, alebo by nový spoločný model
-pribudol dvakrát.
+Stav na dnešných feedoch:
 
-Zvyšné duplicity (Pioneer BASYS+K-B 16 ks, TP-Link K-B+Penta 5 ks a ďalšie) zostávajú otvorené –
-rovnaký mechanizmus sa dá použiť aj tam, len treba povedať, ktorý dodávateľ má vyhrať.
+| Dodávateľ | Položiek | Vylúčené |
+|---|---|---|
+| ATOS | 11 902 | 65 (UNI-T 55, MHPower 10) |
+| K-B | 4 928 | 22 (Pioneer 17, TP-Link 5) |
+| InnPro, Penta, BASYS, Solight | – | 0 (sú preferovaní) |
+
+### Poistka proti výpadku feedu
+
+Ak feed preferovaného dodávateľa chýba alebo je prázdny, pre danú značku sa **nevylučuje nič**
+a dôvod sa zaloguje. Overené: po odstránení `output/penta.xml` prestali platiť vylúčenia MHPower
+a TP-Link, ale UNI-T (InnPro) a Pioneer (BASYS) fungovali ďalej. Výpadok jedného feedu teda nikdy
+nezmaže sortiment.
+
+### Zapojenie
+
+Filter je volaný v `transform-atos.js` a `transform-kb.js` – dnes jediní dodávatelia, ktorí
+niekomu ustupujú. Ak do preferencií pribudne značka, kde má ustúpiť iný dodávateľ, treba do jeho
+transform skriptu doplniť dva riadky (je to poznamenané aj v samotnom JSON-e), inak sa zmena ticho
+neprejaví.
+
+### Zvyšné duplicity
+
+V `reports/duplicitne-produkty-dodavatelia-2026-09-12.csv` zostávajú ešte jednotlivé prípady
+(Tesla ATOS+K-B, Amiko, G21, EPEVER, Victron Energy, Roborock, Edifier a ďalšie – po 1–2 kusoch).
+Stačí doplniť značku do preferencií a vyriešia sa rovnakým mechanizmom.

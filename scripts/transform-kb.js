@@ -27,6 +27,11 @@ const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('kb');
 const { shouldEnrich, buildEnrichedDescription } = require('./lib/kb-description-enrichment');
+const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
+
+// Pioneer a TP-Link berieme od iného dodávateľa – tie isté modely sa tu preskočia, nech v e-shope
+// nevznikne tá istá karta dvakrát (scripts/cross-supplier-preferences.json).
+const crossSupplier = createCrossSupplierFilter('kb');
 
 const ZBOZI_URL = process.env.KB_ZBOZI_URL;
 const KATEGORIE_URL = process.env.KB_KATEGORIE_URL;
@@ -336,6 +341,7 @@ async function main() {
     const name = field(e, 'sJmenoVyrobku');
     const ean = field(e, 'sEan');
     const manufacturer = field(e, 'sJmenoVyrobce');
+    if (crossSupplier.shouldExclude(manufacturer, name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
     const warranty = field(e, 'nZarukaMesicu');
     let vat = field(e, 'nDph') || '23';
     vat = vat.replace(/\.00$/, '');
