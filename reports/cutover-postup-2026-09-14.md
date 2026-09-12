@@ -58,6 +58,13 @@ Import `data/kategorie-import-2026-09-12.csv` (Nastavenia → Import a export d�
 Import `reports/redirect-map-kategorie-shoptet-import.csv` (Marketing → Základné SEO →
 Presmerovanie adries URL) — **pred zmazaním starého stromu**, nech Shoptet nezačne 404-kovať.
 
+## 2b. Import SEO obsahu značiek
+Import `data/vyrobcovia-import-2026-09-12.csv` (Nastavenia → Import a export dát → Výrobcovia) –
+175 značiek s popisom a meta dátami, vrátane odkazov na kategórie. **Musí ísť až po kroku 1**,
+odkazy smerujú na nové kategórie. Voliteľne aj `data/vyrobcovia-skryt-2026-09-12.csv`
+(264 značiek bez produktov → skryť z výpisu), ten je na strome nezávislý.
+Podrobnosti a nálezy: `reports/vyrobcovia-seo-2026-09-12.md`.
+
 ## 3. Zmazanie starého stromu kategórií
 Až teraz, keď staré URL už majú funkčné presmerovanie na nové.
 
