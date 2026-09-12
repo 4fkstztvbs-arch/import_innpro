@@ -224,9 +224,11 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /vrtaky-a-skrutkovace/;/dielna-a-zahrada/;ancestor(-1);Náradie a dielňa > Vrtáky a skrutkovače;Dielňa a záhrada;46674
 /brusky-3/;/dielna-a-zahrada/;ancestor(-1);Náradie a dielňa > Brúsky;Dielňa a záhrada;46779
 /tasky-a-boxy-na-naradie/;/dielna-a-zahrada/;ancestor(-1);Náradie a dielňa > Tašky a boxy na náradie;Dielňa a záhrada;46812
-/spajkovacia-technika/;/dielna-a-zahrada/;ancestor(-1);Náradie a dielňa > Spájkovacia technika;Dielňa a záhrada;47925
+/meracia-technika/;/meracie-technika/;exact;Náradie a dielňa > Meracia technika;Dielňa a záhrada > Meracia technika;47850
+/spajkovacia-technika/;/spajkovacky/;exact;Náradie a dielňa > Spájkovacia technika;Dielňa a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky;47925
 /wykrywacze-metalu/;/dielna-a-zahrada/;ancestor(-1);Náradie a dielňa > Wykrywacze metalu;Dielňa a záhrada;48069
 /zvaranie/;/dielna-a-zahrada/;ancestor(-1);Náradie a dielňa > Zváranie;Dielňa a záhrada;48072
+/meracie-pristroje-3/;/meracie-technika/;exact;Náradie a dielňa > Meracie prístroje;Dielňa a záhrada > Meracia technika;48387
 /elektricke-naradie/;/naradie/;exact;Náradie a dielňa > Náradie > Elektrické náradie;Dielňa a záhrada > Náradie;39768
 /prislusenstvo-pre-stroje-a-naradie/;/naradie/;exact;Náradie a dielňa > Náradie > Príslušenstvo pre stroje a náradie;Dielňa a záhrada > Náradie;40110
 /rucne-naradie/;/naradie/;exact;Náradie a dielňa > Náradie > Ručné náradie;Dielňa a záhrada > Náradie;40170
@@ -624,20 +626,14 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /stabilizatory-napatie/;/zalozne-zdroje-a-ups/;exact;Fotovoltaika a energie > Záložné zdroje a UPS > Stabilizátory napätie;Fotovoltaika > Záložné zdroje a UPS;42579
 /hybridni-zdroje-energia/;/zalozne-zdroje-a-ups/;ancestor(-1);Fotovoltaika a energie > Záložné zdroje a UPS > Hybridní zdroje energia;Fotovoltaika > Záložné zdroje a UPS;43944
 /ups/;/zalozne-zdroje-a-ups/;exact;Fotovoltaika a energie > Záložné zdroje a UPS > UPS;Fotovoltaika > Záložné zdroje a UPS;44187
-/ampermetre-a-voltmetre/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Ampérmetre a voltmetre;Dielňa a záhrada > MERACIE TECHNIKA;41001
-/detektory/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Detektory;Dielňa a záhrada > MERACIE TECHNIKA;41151
-/infrateplomery-a-termokamery/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Infrateploměry a termokamery;Dielňa a záhrada > MERACIE TECHNIKA;41154
-/meranie-neelektrickych-velicin/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Meranie neelektrických veličin;Dielňa a záhrada > MERACIE TECHNIKA;41289
-/osciloskopy-a-generatory/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Osciloskopy a Generátory;Dielňa a záhrada > MERACIE TECHNIKA;41469
-/prislusenstvo-k-meracie-technice/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Príslušenstvo k meracie technice;Dielňa a záhrada > MERACIE TECHNIKA;41574
-/laboratorni-zdroje/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Laboratorní zdroje;Dielňa a záhrada > MERACIE TECHNIKA;42264
-/testery-2/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Testery;Dielňa a záhrada > MERACIE TECHNIKA;42492
-/meracie-lasery/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Meracie lasery;Dielňa a záhrada > MERACIE TECHNIKA;42606
-/nivelacne-pristroje/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Nivelačné prístroje;Dielňa a záhrada > MERACIE TECHNIKA;42609
-/meridla/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Měřidla;Dielňa a záhrada > MERACIE TECHNIKA;42918
-/inspekcni-kamery--endoskopy-2/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Inspekční kamery, endoskopy;Dielňa a záhrada > MERACIE TECHNIKA;43332
-/meranie-vody--plynu--vykurovanie--elektriny/;/meracie-technika/;ancestor(-1);Náradie a dielňa > MERACIE TECHNIKA > Meranie vody, plynu, vykurovanie, elektřiny;Dielňa a záhrada > MERACIE TECHNIKA;43818
-/dvb-s-s2-t-t2-c/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > DVB-S/S2/T/T2/C;Dielňa a záhrada > MERACIE TECHNIKA;44229
+/ampermetre-a-voltmetre/;/multimetre-a-klestove-merace/;exact;Náradie a dielňa > MERACIE TECHNIKA > Ampérmetre a voltmetre;Dielňa a záhrada > Meracia technika > Multimetre a kliešťové merače;41001
+/prislusenstvo-k-meracie-technice/;/prislusenstvo-k-meracej-technike/;exact;Náradie a dielňa > MERACIE TECHNIKA > Príslušenstvo k meracie technice;Dielňa a záhrada > Meracia technika > Príslušenstvo k meracej technike;41574
+/laboratorni-zdroje/;/osciloskopy-a-generatory/;exact;Náradie a dielňa > MERACIE TECHNIKA > Laboratorní zdroje;Dielňa a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje;42264
+/testery-2/;/testery-a-skusacky/;exact;Náradie a dielňa > MERACIE TECHNIKA > Testery;Dielňa a záhrada > Meracia technika > Testery a skúšačky;42492
+/meridla/;/meradla-a-meracie-pasma/;exact;Náradie a dielňa > MERACIE TECHNIKA > Měřidla;Dielňa a záhrada > Meracia technika > Meradlá a meracie pásma;42918
+/inspekcni-kamery--endoskopy-2/;/inspekcne-kamery-a-endoskopy/;exact;Náradie a dielňa > MERACIE TECHNIKA > Inspekční kamery, endoskopy;Dielňa a záhrada > Meracia technika > Inšpekčné kamery a endoskopy;43332
+/meranie-vody--plynu--vykurovanie--elektriny/;/meranie-neelektrickych-velicin/;exact;Náradie a dielňa > MERACIE TECHNIKA > Meranie vody, plynu, vykurovanie, elektřiny;Dielňa a záhrada > Meracia technika > Meranie neelektrických veličín;43818
+/dvb-s-s2-t-t2-c/;/merace-tv-a-satelitneho-signalu/;exact;Náradie a dielňa > MERACIE TECHNIKA > DVB-S/S2/T/T2/C;Dielňa a záhrada > Meracia technika > Merače TV a satelitného signálu;44229
 /silove-kable/;/kable-a-vodice/;exact;Elektroinštalačný materiál > Káble a vodiče > Silové káble;Elektro, Smart Home a osvetlenie > Káble a vodiče;41007
 /utp-a-ftp-kable/;/kable-a-vodice/;exact;Elektroinštalačný materiál > Káble a vodiče > UTP a FTP káble;Elektro, Smart Home a osvetlenie > Káble a vodiče;41025
 /fotovoltaicke-kable/;/kable-a-vodice/;exact;Elektroinštalačný materiál > Káble a vodiče > Fotovoltaické káble;Elektro, Smart Home a osvetlenie > Káble a vodiče;41079
@@ -1062,16 +1058,14 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /ulamovaci-a-zasouvaci-noze/;/mechanicke-naradie/;ancestor(-1);Náradie a dielňa > Mechanické náradie > Nože a nožnice > Ulamovací a zasouvací nože;Dielňa a záhrada > Mechanické náradie;41703
 /ostatne-noze/;/mechanicke-naradie/;ancestor(-1);Náradie a dielňa > Mechanické náradie > Nože a nožnice > Ostatné nože;Dielňa a záhrada > Mechanické náradie;44622
 /nahradne-brity/;/mechanicke-naradie/;ancestor(-1);Náradie a dielňa > Mechanické náradie > Nože a nožnice > Náhradné břity;Dielňa a záhrada > Mechanické náradie;44745
-/rucne-spajkovacky--trafopajky/;/spajkovacie-technika/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Ručné spájkovačky, trafopájky;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;41709
-/prislusenstvo-pre-spajkovacky/;/spajkovacie-technika/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Príslušenstvo pre spájkovačky;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;41787
-/chemia-pre-pajeni/;/spajkovacie-technika/;ancestor(-1);Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Chémia pre pájení;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;41796
-/stolove-mikropajky/;/spajkovacie-technika/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Stolové mikropájky;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;41919
-/servisni-stanice/;/spajkovacie-technika/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Servisní stanice;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;41922
-/odsavacky-cinu/;/spajkovacie-technika/;ancestor(-1);Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Odsávačky cínu;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;41925
-/plynove-spajkovacky/;/spajkovacie-technika/;ancestor(-1);Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Plynové spájkovačky;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;42363
-/lupy/;/spajkovacie-technika/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Lupy;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;42861
-/zveraky/;/spajkovacie-technika/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Zveráky;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;45039
-/tavne-a-horucovzdusne-pistole-2/;/spajkovacie-technika/;ancestor(-1);Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Tavné a horúcovzdušné pištole;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA;45726
+/rucne-spajkovacky--trafopajky/;/spajkovacky/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Ručné spájkovačky, trafopájky;Dielňa a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky;41709
+/chemia-pre-pajeni/;/prislusenstvo-pre-spajkovacky/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Chémia pre pájení;Dielňa a záhrada > Spájkovacia technika > Príslušenstvo na spájkovanie;41796
+/stolove-mikropajky/;/spajkovacie-stanice-a-mikrospajkovacky/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Stolové mikropájky;Dielňa a záhrada > Spájkovacia technika > Spájkovacie stanice a mikrospájkovačky;41919
+/servisni-stanice/;/spajkovacie-stanice-a-mikrospajkovacky/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Servisní stanice;Dielňa a záhrada > Spájkovacia technika > Spájkovacie stanice a mikrospájkovačky;41922
+/odsavacky-cinu/;/prislusenstvo-pre-spajkovacky/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Odsávačky cínu;Dielňa a záhrada > Spájkovacia technika > Príslušenstvo na spájkovanie;41925
+/plynove-spajkovacky/;/spajkovacky/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Plynové spájkovačky;Dielňa a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky;42363
+/zveraky/;/tretia-ruka-a-drziaky/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Zveráky;Dielňa a záhrada > Spájkovacia technika > Tretia ruka a držiaky;45039
+/tavne-a-horucovzdusne-pistole-2/;/spajkovacky/;exact;Náradie a dielňa > SPÁJKOVACIE TECHNIKA > Tavné a horúcovzdušné pištole;Dielňa a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky;45726
 /testery-autobaterii/;/startovacie-kable-2/;exact;Auto-moto > Nabíjanie > Testery autobaterií;Auto-moto > Nabíjanie a batérie;41718
 /nabijacky-a-startovacie-boxy/;/startovacie-kable-2/;exact;Auto-moto > Nabíjanie > Nabíjačky a štartovacie boxy;Auto-moto > Nabíjanie a batérie;41721
 /autobaterie-2/;/startovacie-kable-2/;exact;Auto-moto > Nabíjanie > Autobatérie;Auto-moto > Nabíjanie a batérie;42174
@@ -2082,10 +2076,10 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /prisadene-osvetlenie/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED osvetlenie > Vonkajšie osvetlenie > Prisadené osvetlenie;Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie;47814
 /solarne-osvetlenie/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED osvetlenie > Vonkajšie osvetlenie > Solárne osvetlenie;Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie;47895
 /fasadne-a-zahradne-osvetlenie/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED osvetlenie > Vonkajšie osvetlenie > Fasádne a záhradné osvetlenie;Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie;47904
-/multimetre-a-zkusacky/;/meracia-technika/;exact;Náradie a dielňa > Meracia technika > Multimetre a zkúšačky;Dielňa a záhrada > Meracia technika;47853
-/laserove-merace-vzdialenosti/;/meracia-technika/;ancestor(-1);Náradie a dielňa > Meracia technika > Laserové merače vzdialenosti;Dielňa a záhrada > Meracia technika;47859
-/teplomery-4/;/meracia-technika/;ancestor(-1);Náradie a dielňa > Meracia technika > Teplomery;Dielňa a záhrada > Meracia technika;47865
-/laserove-vodovahy/;/meracia-technika/;ancestor(-1);Náradie a dielňa > Meracia technika > Laserové vodováhy;Dielňa a záhrada > Meracia technika;47880
+/multimetre-a-zkusacky/;/multimetre-a-klestove-merace/;exact;Náradie a dielňa > Meracia technika > Multimetre a zkúšačky;Dielňa a záhrada > Meracia technika > Multimetre a kliešťové merače;47853
+/laserove-merace-vzdialenosti/;/meracie-lasery/;exact;Náradie a dielňa > Meracia technika > Laserové merače vzdialenosti;Dielňa a záhrada > Meracia technika > Meracie lasery a diaľkomery;47859
+/teplomery-4/;/infrateplomery-a-termokamery/;exact;Náradie a dielňa > Meracia technika > Teplomery;Dielňa a záhrada > Meracia technika > Infrateplomery a termokamery;47865
+/laserove-vodovahy/;/meracie-lasery/;exact;Náradie a dielňa > Meracia technika > Laserové vodováhy;Dielňa a záhrada > Meracia technika > Meracie lasery a diaľkomery;47880
 /budiky-2/;/hodiny-2/;exact;Domáce spotrebiče > Malé spotrebiče > Hodiny a budíky > Budíky;Domáce spotrebiče > Hodiny a budíky;47961
 /casovace--minutky-2/;/domace-spotrebice/;ancestor(-2);Domáce spotrebiče > Malé spotrebiče > Hodiny a budíky > Časovače, minútky;Domáce spotrebiče;47967
 /nabijacky-baterii-3/;/karavany-a-obytne-auta/;ancestor(-1);Auto-moto > Karavany a obytná autá > Nabíjačky batérií;Auto-moto > Karavany a obytné autá;48003
@@ -2344,4 +2338,4 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /zemniace-svorky/;/anteny-a-satelity/;exact;TV, audio a video > Antény a satelity > Konzoly, stožiare, uzemnenie > Uzemnenie, hromosvody > Zemniace svorky;TV, foto, audio video > Antény a satelity;49371
 /hdmi/;/av-kable/;exact;TV, audio a video > AV káble > Video > HDMI;TV, foto, audio video > AV káble;49431
 /usb-2/;/av-kable/;exact;TV, audio a video > AV káble > Computer > USB;TV, foto, audio video > AV káble;49437
-/fotovoltika/;/fotovoltaika-a-energie/;exact (typo "Fotovoltika" -> nova kategoria vznikla po 2026-09-11, 0 produktov);Fotovoltika;Fotovoltaika;49470
+/fotovoltika/;/fotovoltaika-a-energie/;manual;Fotovoltika (preklep, stara kategoria);Fotovoltaika;-

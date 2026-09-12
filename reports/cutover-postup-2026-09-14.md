@@ -1,5 +1,9 @@
 # Postup nasadenia nového stromu kategórií (noc nedeľa → pondelok)
 
+> **Aktualizované 2026-09-12:** strom má po zlúčení meracej a spájkovacej techniky **241 uzlov**
+> (pôvodne 227) – viď sekciu „Zlúčenie meracej a spájkovacej techniky" na konci dokumentu.
+> Sú to prvé kategórie v hĺbke 2, všetky ostatné zostávajú v hĺbke 1.
+
 Pripravené súbory čakajú vedľa aktuálnych (živých) ako `*.new.json` / s dátumom v názve —
 **nočný sync do nedele bude fungovať bez zmeny**, tieto sa aktivujú až ručným premenovaním
 podľa tohto postupu, v uvedenom poradí.
@@ -134,3 +138,37 @@ príliš vyrovnaný na jednoznačné rozhodnutie, **radšej som kategóriu vynec
 vtedy vráti null a Heureka/Shoptet použijú svoje vlastné automatické párovanie namiesto nesprávne
 vnúteného ID. Zoznam 50 vynechaných uzlov je v logu skriptu (`rewrite_heureka_mapping.py`), viem
 ich na požiadanie doplniť ručne, ak niektorá z nich je pre teba obchodne dôležitá.
+
+## Zlúčenie meracej a spájkovacej techniky (fast-follow bod 1 a 2, 2026-09-12)
+
+Tri samostatné uzly meracej techniky ("MERACIE TECHNIKA" 461 ks, "Meracie prístroje" 253 ks,
+"Meracia technika" 19 ks) a dva uzly spájkovania ("SPÁJKOVACIE TECHNIKA" 186 ks, "Spájkovačky"
+16 ks) boli zlúčené do dvoch rodičov s vecnými podkategóriami:
+
+- **Dielňa a záhrada > Meracia technika** (`meracie-technika`) – 12 podkategórií
+- **Dielňa a záhrada > Spájkovacia technika** (`spajkovacie-technika`) – 5 podkategórií
+
+Zároveň sa opravili aj gramaticky chybné názvy z verzálok ("MERACIE TECHNIKA" → "Meracia technika").
+
+**SEO kontinuita:** URL podkategórie sa opakovane použila zo starej kategórie všade, kde je obsah
+totožný – `detektory`, `lupy`, `nivelacne-pristroje`, `infrateplomery-a-termokamery`,
+`meranie-neelektrickych-velicin`, `meracie-lasery`, `osciloskopy-a-generatory`,
+`prislusenstvo-pre-spajkovacky`, `spajkovacky` zostávajú v platnosti bez presmerovania.
+Zvyšné staré adresy majú presmerovanie v redirect mape (celkovo 2340 záznamov, 0 reťazcov,
+0 duplicitných zdrojov, 0 cieľov mimo stromu).
+
+**Rozdelenie 253 InnPro produktov:** InnPro posiela celú meraciu techniku v jedinej surovej
+kategórii, takže na úrovni kategórií sa rozdeliť nedá. `transform-innpro.js` preto dostal nový
+mechanizmus `categorySubRulesByName` (pravidlá podľa názvu produktu, poradie je významné, prvé
+zhodné vyhráva). Overené na reálnom exporte: **253/253 produktov zaradených** do správnej
+podkategórie. Produkt, na ktorý nesadne žiadne pravidlo, zostáva v nadradenej kategórii, takže
+mechanizmus nikdy nespôsobí stratu kategórie.
+
+Kód v `transform-innpro.js` je **bezpečný pre dnešný import** – živý `scripts/innpro-mapping.json`
+kľúč `categorySubRulesByName` neobsahuje, takže sa správa presne ako doteraz. Pravidlá sú len
+v `scripts/innpro-mapping.new.json` a aktivujú sa až pri kroku 4.
+
+**Zostáva nevyriešené (bod 3):** pseudo-kategórie `Profesionálna audio technika > Nové produkty`
+(7 ks) a `> Výpredaj` (4 ks). Kontrola exportu ukázala, že **žiadny z týchto 11 produktov nie je
+v inej kategórii**, takže ich zmazanie by ich nechalo bez kategórie. Podľa dohody sa riešia neskôr
+– najprv treba produkty preradiť do vecných kategórií, až potom kategórie zrušiť.

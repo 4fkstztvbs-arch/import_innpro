@@ -60,11 +60,11 @@
     "Malé domáce spotrebiče > Varné platne": "Domáce spotrebiče > Grily, pekárne, variče",
     "Malé domáce spotrebiče > Ostatné": "Domáce spotrebiče > Ostatné domáce spotrebiče",
     "TV, audio a video/Počítače a príslušenstvo/Dokovací stanice": "Počítače, mobily a tablety > Dokovacie stanice",
-    "Náradie a dielňa/Meracia technika": "Dielňa a záhrada > MERACIE TECHNIKA",
-    "Náradie a dielňa/Meracia technika/Laserové vodováhy": "Dielňa a záhrada > MERACIE TECHNIKA",
-    "Náradie a dielňa/Meracia technika/Teplomery": "Dielňa a záhrada > MERACIE TECHNIKA",
-    "Náradie a dielňa/Meracia technika/Laserové merače vzdialenosti": "Dielňa a záhrada > MERACIE TECHNIKA",
-    "Náradie a dielňa/Meracia technika/Multimetre a zkúšačky": "Dielňa a záhrada > MERACIE TECHNIKA",
+    "Náradie a dielňa/Meracia technika": "Dielňa a záhrada > Meracia technika",
+    "Náradie a dielňa/Meracia technika/Laserové vodováhy": "Dielňa a záhrada > Meracia technika > Meracie lasery a diaľkomery",
+    "Náradie a dielňa/Meracia technika/Teplomery": "Dielňa a záhrada > Meracia technika > Infrateplomery a termokamery",
+    "Náradie a dielňa/Meracia technika/Laserové merače vzdialenosti": "Dielňa a záhrada > Meracia technika > Meracie lasery a diaľkomery",
+    "Náradie a dielňa/Meracia technika/Multimetre a zkúšačky": "Dielňa a záhrada > Meracia technika > Multimetre a kliešťové merače",
     "TV, audio a video/Audio technika/Hi-Fi systémy": "TV, foto, audio video > Audio technika",
     "Auto-moto/Karavany a obytné autá": "Auto-moto > Karavany a obytné autá",
     "Auto-moto/Karavany a obytné autá/Grily a variče": "Auto-moto > Karavany a obytné autá",
@@ -81,7 +81,7 @@
     "Auto-moto/Karavany a obytné autá/Televízory na 12V": "Auto-moto > Karavany a obytné autá",
     "Šport, hračky a voľný čas/Sportovní vybavenie/Odražedla": "Cestovanie, šport a outdoor > Sportovní vybavenie",
     "Šport, hračky a voľný čas/Posilňovanie a fitness/Príslušenstvo pre posilňovanie": "Cestovanie, šport a outdoor > Posilňovanie a fitness",
-    "Náradie a dielňa/Meracie nástroje": "Dielňa a záhrada > Meracie prístroje",
+    "Náradie a dielňa/Meracie nástroje": "Dielňa a záhrada > Meracia technika",
     "TV, audio a video/Reproduktory": "TV, foto, audio video > Audio technika > Reproduktory",
     "TV, audio a video/Reproduktory/Drátové reproduktory": "TV, foto, audio video > Audio technika > Reproduktory",
     "Zdravie a starostlivosť/Ústne sprchy": "Zdravie a starostlivosť > Starostlivosť o zuby",
@@ -90,5 +90,53 @@
     "Fotovoltaika a energie/Nabíjačky/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo > Powerbanky",
     "Fotovoltaika a energie/Záložné zdroje a UPS/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo > Powerbanky",
     "Fotovoltaika a energie/Napájacie zdroje/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo > Powerbanky"
+  },
+  "categorySubRulesByName": {
+    "Dielňa a záhrada > Meracia technika": [
+      {
+        "category": "Osciloskopy, generátory a laboratórne zdroje",
+        "pattern": "osciloskop|generátor|laboratórny zdroj|logický analyzátor"
+      },
+      {
+        "category": "Inšpekčné kamery a endoskopy",
+        "pattern": "endoskop|inšpekčn|inspekčn|boroskop"
+      },
+      {
+        "category": "Nivelačné prístroje",
+        "pattern": "nivelač|nivelák|teodolit"
+      },
+      {
+        "category": "Meracie lasery a diaľkomery",
+        "pattern": "diaľkomer|merač vzdialenosti|laserov\\w* vodováh|laserov\\w* merač|krížový laser"
+      },
+      {
+        "category": "Infrateplomery a termokamery",
+        "pattern": "termovízn|termokamer|pyrometer|teplomer|teplotn\\w* kamer"
+      },
+      {
+        "category": "Detektory a lokátory",
+        "pattern": "detektor|lokátor|lokaliz|vyhľadávač|skener stien|nástenný skener|hľadač"
+      },
+      {
+        "category": "Testery a skúšačky",
+        "pattern": "tester|testovanie|skúšačk|zkoušečk|recenzia zariadenia|kalibrátor|merač izolačného|merač zemného|merač uzemnenia|merač odporu|mikroohmmer|merač lcr|lcr "
+      },
+      {
+        "category": "Multimetre a kliešťové merače",
+        "pattern": "multimeter|multimetr|kliešťov|klešťov|ampérmeter|voltmeter"
+      },
+      {
+        "category": "Meranie neelektrických veličín",
+        "pattern": "hlukomer|meter hluku|decibel|vlhkomer|vlhkosti|anemometer|luxmeter|merač luxov|merač svetla|meradlo osvetlenia|svetelný merač|termohygrometer|otáčkomer|tachometer|merač teploty|merač hladiny|snímač hladiny|merač ph|merač prietoku|mera\\w+ hrúbky|merač oxidu|kvality ovzdušia|pm2|merač co2|merač tlaku|uhlomer|merač plochy|elektromagnetického poľa|výkonu lasera"
+      },
+      {
+        "category": "Príslušenstvo k meracej technike",
+        "pattern": "sonda|hrot|puzdro|meracie káble|merací kábel|senzor|clamp|náhradn"
+      },
+      {
+        "category": "Multimetre a kliešťové merače",
+        "pattern": "merací prístroj|meracie zariadenie"
+      }
+    ]
   }
 }

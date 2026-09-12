@@ -40,6 +40,12 @@ Pre každú z 227 kategórií som:
 Tieto veci by chcelo riešiť **zmenou stromu** (nové/zlúčené kategórie), nie len textom – zatiaľ
 sú len opísané čo najpresnejšie v rámci existujúcej štruktúry:
 
+> **VYRIEŠENÉ 2026-09-12 (body 1 a 2):** meracia aj spájkovacia technika boli zlúčené do jedného
+> rodiča s vecnými podkategóriami (12, resp. 5). Strom má teraz 241 uzlov. Detaily v
+> `cutover-postup-2026-09-14.md`, sekcia „Zlúčenie meracej a spájkovacej techniky". Bod 3
+> (pseudo-kategórie v Profesionálnej audio technike) zostáva otvorený – tých 11 produktov nie je
+> v žiadnej inej kategórii, takže sa najprv musia preradiť.
+
 1. **Meracia technika je rozdelená do 3 samostatných uzlov** (Dielňa a záhrada): "MERACIE
    TECHNIKA" (461 produktov, multimetre/testery/klieštové merače), "Meracie prístroje" (253,
    Uni-T/Habotest špecializované – decibelomer, detektor plynu, pyrometer) a "Meracia technika"

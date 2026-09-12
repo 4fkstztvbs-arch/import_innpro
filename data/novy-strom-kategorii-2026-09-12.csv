@@ -1,4 +1,4 @@
-id;parentId;depth;name;url;full_path
+﻿id;parentId;depth;name;url;full_path
 am1;;0;Auto-moto;auto-moto;Auto-moto
 am5;am1;1;Autokozmetika a chémia;autokozmetika--chemia;Auto-moto > Autokozmetika a chémia
 am3;am1;1;Autožiarovky a osvetlenie;autoziarovky;Auto-moto > Autožiarovky a osvetlenie
@@ -44,10 +44,20 @@ g63;nmtx2z35i18n8n2;1;Elektronické súčiastky;elektronicke-suciastky;Dielňa a
 g48;nmtx2z35i18n8n2;1;Inštalačné náradie a ostatné materiál;instalacne-naradie-a-ostatne-material;Dielňa a záhrada > Inštalačné náradie a ostatné materiál
 g69;nmtx2z35i18n8n2;1;Kancelária a škola;kancelaria-a-skola;Dielňa a záhrada > Kancelária a škola
 g216;nmtx2z35i18n8n2;1;Laserové gravírovacie a rezacie stroje;laserove-gravirovacie-a-rezacie-stroje;Dielňa a záhrada > Laserové gravírovacie a rezacie stroje
-g64;nmtx2z35i18n8n2;1;MERACIE TECHNIKA;meracie-technika;Dielňa a záhrada > MERACIE TECHNIKA
+g64;nmtx2z35i18n8n2;1;Meracia technika;meracie-technika;Dielňa a záhrada > Meracia technika
+g64a;g64;2;Multimetre a kliešťové merače;multimetre-a-klestove-merace;Dielňa a záhrada > Meracia technika > Multimetre a kliešťové merače
+g64b;g64;2;Meracie lasery a diaľkomery;meracie-lasery;Dielňa a záhrada > Meracia technika > Meracie lasery a diaľkomery
+g64c;g64;2;Nivelačné prístroje;nivelacne-pristroje;Dielňa a záhrada > Meracia technika > Nivelačné prístroje
+g64d;g64;2;Infrateplomery a termokamery;infrateplomery-a-termokamery;Dielňa a záhrada > Meracia technika > Infrateplomery a termokamery
+g64e;g64;2;Detektory a lokátory;detektory;Dielňa a záhrada > Meracia technika > Detektory a lokátory
+g64f;g64;2;Testery a skúšačky;testery-a-skusacky;Dielňa a záhrada > Meracia technika > Testery a skúšačky
+g64g;g64;2;Meranie neelektrických veličín;meranie-neelektrickych-velicin;Dielňa a záhrada > Meracia technika > Meranie neelektrických veličín
+g64h;g64;2;Osciloskopy, generátory a laboratórne zdroje;osciloskopy-a-generatory;Dielňa a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje
+g64i;g64;2;Inšpekčné kamery a endoskopy;inspekcne-kamery-a-endoskopy;Dielňa a záhrada > Meracia technika > Inšpekčné kamery a endoskopy
+g64j;g64;2;Meradlá a meracie pásma;meradla-a-meracie-pasma;Dielňa a záhrada > Meracia technika > Meradlá a meracie pásma
+g64k;g64;2;Merače TV a satelitného signálu;merace-tv-a-satelitneho-signalu;Dielňa a záhrada > Meracia technika > Merače TV a satelitného signálu
+g64l;g64;2;Príslušenstvo k meracej technike;prislusenstvo-k-meracej-technike;Dielňa a záhrada > Meracia technika > Príslušenstvo k meracej technike
 g66;nmtx2z35i18n8n2;1;Mechanické náradie;mechanicke-naradie;Dielňa a záhrada > Mechanické náradie
-g77;nmtx2z35i18n8n2;1;Meracia technika;meracia-technika;Dielňa a záhrada > Meracia technika
-g62;nmtx2z35i18n8n2;1;Meracie prístroje;meracie-pristroje-3;Dielňa a záhrada > Meracie prístroje
 g74;nmtx2z35i18n8n2;1;Náradie;naradie;Dielňa a záhrada > Náradie
 g67;nmtx2z35i18n8n2;1;Náradie pre brúsenie, vŕtanie, rezanie a pilovanie;naradie-pre-brusenie--vrtanie--rezanie-a-pilovanie;Dielňa a záhrada > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie
 g70;nmtx2z35i18n8n2;1;Ochranné pomôcky a odevy;ochranne-pomocky-a-odevy;Dielňa a záhrada > Ochranné pomôcky a odevy
@@ -55,9 +65,13 @@ g81;nmtx2z35i18n8n2;1;Odpudzovače a lapače hmyzu;odpudzovace-a-lapace-hmyzu;Di
 g72;nmtx2z35i18n8n2;1;Ostatné náradie a vybavenie dielne;ostatne-naradie-a-vybavenie-dielne;Dielňa a záhrada > Ostatné náradie a vybavenie dielne
 g80;nmtx2z35i18n8n2;1;Pneumatické náradie;pneumaticke-naradie;Dielňa a záhrada > Pneumatické náradie
 g78;nmtx2z35i18n8n2;1;Ručné AKU náradie;rucne-aku-naradie;Dielňa a záhrada > Ručné AKU náradie
-g65;nmtx2z35i18n8n2;1;SPÁJKOVACIE TECHNIKA;spajkovacie-technika;Dielňa a záhrada > SPÁJKOVACIE TECHNIKA
+g65;nmtx2z35i18n8n2;1;Spájkovacia technika;spajkovacie-technika;Dielňa a záhrada > Spájkovacia technika
+g65a;g65;2;Spájkovačky a trafospájkovačky;spajkovacky;Dielňa a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky
+g65b;g65;2;Spájkovacie stanice a mikrospájkovačky;spajkovacie-stanice-a-mikrospajkovacky;Dielňa a záhrada > Spájkovacia technika > Spájkovacie stanice a mikrospájkovačky
+g65c;g65;2;Príslušenstvo na spájkovanie;prislusenstvo-pre-spajkovacky;Dielňa a záhrada > Spájkovacia technika > Príslušenstvo na spájkovanie
+g65d;g65;2;Lupy;lupy;Dielňa a záhrada > Spájkovacia technika > Lupy
+g65e;g65;2;Tretia ruka a držiaky;tretia-ruka-a-drziaky;Dielňa a záhrada > Spájkovacia technika > Tretia ruka a držiaky
 g88;nmtx2z35i18n8n2;1;Sanitárna technika;sanitarna-technika;Dielňa a záhrada > Sanitárna technika
-g76;nmtx2z35i18n8n2;1;Spájkovačky;spajkovacky;Dielňa a záhrada > Spájkovačky
 g73;nmtx2z35i18n8n2;1;Stavebné a maliarske náradie;stavebne-a-maliarske-naradie;Dielňa a záhrada > Stavebné a maliarske náradie
 g215;nmtx2z35i18n8n2;1;Tlačiarne a lisy na potlač textilu;tlaciarne-a-lisy-na-potlac-textilu;Dielňa a záhrada > Tlačiarne a lisy na potlač textilu
 g85;nmtx2z35i18n8n2;1;Zariadenia na čistenie bazénov;zariadenia-na-cistenie-bazenov;Dielňa a záhrada > Zariadenia na čistenie bazénov

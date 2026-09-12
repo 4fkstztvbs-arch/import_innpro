@@ -51,6 +51,27 @@ function pathToExtraCategories(category) {
 
 function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
 
+// InnPro posiela celú meraciu techniku (~253 produktov) v jedinej surovej kategórii, takže na
+// úrovni kategórií sa rozdeliť nedá – jediná spoľahlivá informácia je názov produktu. Pravidlá
+// sú dátami v mapping súbore (categorySubRulesByName), poradie je významné (vyhráva prvé
+// pravidlo, ktoré sa zhoduje). Produkt, na ktorý nesadne žiadne, zostáva v nadradenej kategórii.
+const SUB_RULES = Object.entries(mapping.categorySubRulesByName || {}).map(([parent, rules]) => ({
+  parent,
+  rules: rules.map((r) => ({ category: r.category, re: new RegExp(r.pattern, 'i') })),
+}));
+
+function applySubRules(category, productLabel) {
+  if (!productLabel) return category;
+  for (const { parent, rules } of SUB_RULES) {
+    if (category !== parent) continue;
+    for (const { category: target, re } of rules) {
+      if (re.test(productLabel)) return `${parent} > ${target}`;
+    }
+    break;
+  }
+  return category;
+}
+
 // Identical logic to the browser tool's innDisplayPath()/extraCategories: build the cumulative
 // "/"-split path, walk from the leaf back toward the root, and stop at the first override.
 function resolveCategory(rawCategoryName, productLabel) {
@@ -72,7 +93,7 @@ function resolveCategory(rawCategoryName, productLabel) {
     if (isPathOverride(keys[i].key, rename)) { partsResult.unshift(rename); break; }
     partsResult.unshift(rename || keys[i].name);
   }
-  let category = partsResult.join(' > ');
+  let category = applySubRules(partsResult.join(' > '), productLabel);
   const gated = categoryMatcher.resolve(category, { trusted: leafTrusted, productLabel });
   if (gated.excluded) return { category: '', extraCategories: [], excluded: true, unmatchedCategory: category };
   category = gated.category;
