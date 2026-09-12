@@ -21,13 +21,50 @@ const MODEL_RE = /\b([A-Z]{1,4}[-\s]?\d{2,5}[A-Z+]{0,4})\b/g;
 // tokeny, ktoré vyzerajú ako modelový kód, ale sú to technické údaje spoločné mnohým produktom
 const NOT_A_MODEL = new Set(['USB', 'LED', 'RGB', 'IP65', 'IP67', 'IP44', 'IP54', 'IP20', 'DC', 'AC', '4K']);
 
+// Samotny modelovy kod na porovnanie nestaci - "Tapo L530E" a "Tapo L530E (2-pack)" maju rovnaky
+// kod, ale je to iny tovar, rovnako "RV30 Max" vs "RV30 Max Plus" alebo ten isty reproduktor
+// v ciernej a bielej. Preto sa ku kodu pripaja aj to, co produkt odlisuje od svojich variantov:
+// velkost balenia, farba a kvalifikatory radu. Ked to jeden dodavatel v nazve uvedie a druhy nie,
+// zhoda nevznikne - radsej necha duplicitu, nez by zmazal produkt, ktory duplicita nie je.
+const QUALIFIERS = ['plus', 'pro', 'max', 'ultra', 'lite', 'mini', 'combo', 'kit', 'set'];
+const COLOURS = {
+  cierna: ['čierny', 'čierna', 'čierne', 'černý', 'černá', 'black'],
+  biela: ['biely', 'biela', 'biele', 'bílý', 'bílá', 'white'],
+  seda: ['sivý', 'sivá', 'šedý', 'šedá', 'grey', 'gray'],
+  strieborna: ['strieborný', 'strieborná', 'stříbrný', 'silver'],
+  modra: ['modrý', 'modrá', 'blue'],
+  cervena: ['červený', 'červená', 'red'],
+  zelena: ['zelený', 'zelená', 'green'],
+  ruzova: ['ružový', 'ružová', 'růžová', 'pink'],
+  fialova: ['fialový', 'fialová', 'purple'],
+  zlta: ['žltý', 'žltá', 'žlutý', 'yellow'],
+};
+
+function variantTags(name) {
+  const low = name.toLowerCase();
+  const tags = [];
+  const pack = low.match(/(\d+)\s*-?\s*(?:pack|ks\b|kusov|kusy)/);
+  if (pack && pack[1] !== '1') tags.push(`pack${pack[1]}`);
+  // \b je v JS ASCII-ove, takze pri slovach s diakritikou ("cerny") hranicu nenajde - preto
+  // vlastna hranica cez unicode triedu pismen
+  const word = (w) => new RegExp(`(^|[^\\p{L}\\p{N}])${w}($|[^\\p{L}\\p{N}])`, 'u');
+  for (const q of QUALIFIERS) if (word(q).test(low)) tags.push(q);
+  for (const [tag, words] of Object.entries(COLOURS)) {
+    if (words.some((w) => word(w).test(low))) { tags.push(tag); break; }
+  }
+  return tags.sort();
+}
+
 function modelOf(name) {
   if (!name) return null;
   MODEL_RE.lastIndex = 0;
   let m;
   while ((m = MODEL_RE.exec(name))) {
     const key = m[1].toUpperCase().replace(/[\s-]/g, '');
-    if (key.length >= 4 && !NOT_A_MODEL.has(key)) return key;
+    if (key.length >= 4 && !NOT_A_MODEL.has(key)) {
+      const tags = variantTags(name);
+      return tags.length ? `${key}|${tags.join('|')}` : key;
+    }
   }
   return null;
 }

@@ -21,6 +21,10 @@ const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnP
 const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCategoryMatcher } = require('./resolve-category');
+const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
+
+// Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
+const crossSupplier = createCrossSupplierFilter('innpro');
 const categoryMatcher = createCategoryMatcher('innpro');
 
 const FULL_URL = process.env.INNPRO_FULL_URL;
@@ -249,6 +253,7 @@ async function main() {
     let p;
     try { p = parseProduct(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
+    if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
 
     const lightEntry = lightData.get(p.id);
     let cost;

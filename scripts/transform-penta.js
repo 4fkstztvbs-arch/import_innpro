@@ -27,6 +27,10 @@ const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
+
+// Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
+const crossSupplier = createCrossSupplierFilter('penta');
 
 const URL = process.env.PENTA_URL;
 const USERNAME = process.env.PENTA_USERNAME;
@@ -251,6 +255,7 @@ async function main() {
     try { p = parsePentaItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
+    if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
     if (p.availabilityRaw !== 'skladem') { stats.skippedOutOfStock++; return; }
     if (p.priceVat <= 0) {
       stats.skippedNoPrice++;

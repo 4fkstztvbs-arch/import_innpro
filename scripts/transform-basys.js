@@ -52,6 +52,10 @@ const { streamRecords } = require('./stream-records');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
+
+// Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
+const crossSupplier = createCrossSupplierFilter('basys');
 
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
 const CLOUD_IMAGES_PATH = process.env.BASYS_CLOUD_IMAGES || path.join(__dirname, '..', 'data', 'basys-bose-cloud-images.json');
@@ -287,6 +291,7 @@ async function main() {
     if (hasEnrichment) stats.enriched++; else stats.noEnrichment++;
 
     const name = item.name;
+    if (crossSupplier.shouldExclude(item.manufacturer, name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; continue; }
     const description = hasEnrichment && enrich.description
       ? enrich.description
       : `<p>${xmlEscape(name)}</p>`;

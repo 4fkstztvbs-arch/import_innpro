@@ -197,8 +197,57 @@ niekomu ustupujú. Ak do preferencií pribudne značka, kde má ustúpiť iný d
 transform skriptu doplniť dva riadky (je to poznamenané aj v samotnom JSON-e), inak sa zmena ticho
 neprejaví.
 
-### Zvyšné duplicity
+### Preferencie podľa nákupnej ceny
 
-V `reports/duplicitne-produkty-dodavatelia-2026-09-12.csv` zostávajú ešte jednotlivé prípady
-(Tesla ATOS+K-B, Amiko, G21, EPEVER, Victron Energy, Roborock, Edifier a ďalšie – po 1–2 kusoch).
-Stačí doplniť značku do preferencií a vyriešia sa rovnakým mechanizmom.
+Víťaza určuje **naša nákupná cena** (`PURCHASE_PRICE`), porovnaná model po modeli; pri značke
+vyhráva ten, kto je lacnejší pri väčšine spoločných modelov. Prepočet:
+`node scripts/compare-supplier-purchase-prices.js`.
+
+| Značka | Zhôd | Výsledok podľa nákupnej ceny | Berieme z |
+|---|---|---|---|
+| UNI-T | 50 | InnPro 45 : ATOS 4 : Penta 1 | **InnPro** |
+| Pioneer | 16 | K-B 15 : BASYS 1 | **K-B** |
+| MHPower | 10 | Penta 10 : ATOS 0 | **Penta** |
+| TP-Link | 2 | Penta 1 : K-B 1 | **Penta** |
+| Tesla | 1 | ATOS (5,39 € vs 16,71 €) | **ATOS** |
+| EPEVER | 1 | Penta (44,28 € vs 101,68 €) | **Penta** |
+| Amiko | 1 | ATOS (35,36 € vs 38,79 €) | **ATOS** |
+
+**Pozor – Pioneer sa zmenil oproti pôvodnému zadaniu.** Bolo dohodnuté brať ho z BASYSu, ale na
+nákupnej cene je K-B lacnejší pri 15 zo 16 spoločných modelov (priemer 139,18 € vs 144,66 €).
+Podľa pravidla „všade lacnejší dodávateľ" som prepol na K-B. Rozdiel je len 3,8 %, takže ak má
+BASYS lepšiu dostupnosť alebo dodacie podmienky, stačí to v preferenciách vrátiť späť.
+
+Pri TP-Linku je to 1:1, ale rozhoduje veľkosť rozdielu: RVA100 je u Penty o 41 % lacnejší
+(9,29 € vs 15,80 €), zatiaľ čo P100 2-pack je u K-B lacnejší len o 1,4 %.
+
+### Opravené: falošné duplicity pri variantoch
+
+Prvá verzia porovnávala len modelový kód a vyhadzovala aj produkty, ktoré duplicity nie sú:
+
+- TP-Link **L530E** – K-B jedna žiarovka (8,39 €), Penta 2-pack (14,63 €)
+- TP-Link **RV30 Max** (Penta 116 €) vs **RV30 Max Plus** (K-B 340 €) – iný model
+- Edifier **ES60** – K-B čierny, InnPro biely
+
+Párovanie preto k modelovému kódu pripája aj to, čo produkt odlišuje od jeho variantov: veľkosť
+balenia, farbu a kvalifikátory radu (Plus, Pro, Max, Ultra, Lite, Mini, Combo, Kit, Set). Keď to
+jeden dodávateľ v názve uvedie a druhý nie, zhoda nevznikne – radšej nechá duplicitu, než by
+zmazal produkt, ktorý duplicita nie je.
+
+### Stav na dnešných feedoch
+
+| Dodávateľ | Položiek | Vylúčené |
+|---|---|---|
+| ATOS | 11 902 | 61 (UNI-T 50, MHPower 10, EPEVER 1) |
+| BASYS | 943 | 22 (Pioneer) |
+| K-B | 4 928 | 4 (TP-Link 2, Amiko 1, Tesla 1) |
+| InnPro, Penta, Solight | – | 0 |
+
+Filter je zapojený v `transform-atos.js`, `transform-kb.js`, `transform-penta.js`,
+`transform-innpro.js` a `transform-basys.js`.
+
+### Jeden prípad na overenie
+
+**Amiko HD265** – ATOS má „AMIKO Mini HD265", K-B „Amiko DVB-S2 přijímač Mini HD265 WIFI". Ak je
+tá WIFI verzia naozaj iný model, nie je to duplicita a Amiko treba z preferencií vyhodiť. Rozdiel
+v nákupnej cene je len 3,43 €, takže o veľa nejde.
