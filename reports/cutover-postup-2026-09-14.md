@@ -100,6 +100,28 @@ týchto časov po dokončení krokov 1-3, inak InnPro (alebo ktorýkoľvek iný 
 odpáli) zanesie stromu naspäť staré kategórie. V praxi: naplánovať kroky 1-4 tak, aby prebehli
 vcelku, s rezervou aspoň hodinu pred najbližším z časov vyššie.
 
+## 4b. Reset základnej čiary pre rannú kontrolu
+Ranná kontrola (`.github/workflows/morning-feed-check.yml`, denne 05:00 UTC) hlási kategórie,
+ktoré feedy zapisujú do produktov, ale v strome neexistujú — Shoptet by ich pri importe vytvoril.
+Aby nehlásila stále to isté, porovnáva sa proti `data/kategorie-mimo-stromu-baseline.json`.
+
+Po prepnutí na nový strom (a po regenerovaní `data/known-categories.json` z čerstvého exportu,
+viď krok 5) treba základnú čiaru vynulovať, nech sa počíta od nového stavu:
+
+```bash
+echo '[]' > data/kategorie-mimo-stromu-baseline.json
+node scripts/check-unknown-categories.js   # ukáže, čo po prepnutí zostalo mimo stromu
+```
+
+Očakávaný výsledok je skoro nula — všetky hodnoty v prepísaných mapping súboroch boli overené
+proti novému stromu. Čo zostane, treba buď opraviť v mappingu, alebo vedome prijať a zapísať
+do základnej čiary. Od toho momentu upozornenie príde len na naozaj **nové** kategórie.
+
+**Dnešný stav pre porovnanie:** základná čiara obsahuje 59 kategórií mimo stromu (2683 produktov).
+Časť z nich sú ale artefakty toho, že `data/known-categories.json` je starší snapshot než dnešný
+strom v Shoptete (napr. „Náradie a dielňa > Meracie prístroje" tam chýba, hoci reálne existuje).
+Preto je regenerovanie tohto súboru v kroku 5 dôležité aj pre presnosť tejto kontroly.
+
 ## 5. Overenie po prvom behu
 Po prvom behu po prepnutí skontrolovať `reports/nezaradene-kategorie-*.md` pre každého
 dodávateľa — mal by byť prázdny alebo len s pár okrajovými položkami (viď nižšie, tieto
