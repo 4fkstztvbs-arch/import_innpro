@@ -117,10 +117,17 @@ Očakávaný výsledok je skoro nula — všetky hodnoty v prepísaných mapping
 proti novému stromu. Čo zostane, treba buď opraviť v mappingu, alebo vedome prijať a zapísať
 do základnej čiary. Od toho momentu upozornenie príde len na naozaj **nové** kategórie.
 
-**Dnešný stav pre porovnanie:** základná čiara obsahuje 59 kategórií mimo stromu (2683 produktov).
-Časť z nich sú ale artefakty toho, že `data/known-categories.json` je starší snapshot než dnešný
-strom v Shoptete (napr. „Náradie a dielňa > Meracie prístroje" tam chýba, hoci reálne existuje).
-Preto je regenerovanie tohto súboru v kroku 5 dôležité aj pre presnosť tejto kontroly.
+**Vyriešené 2026-09-12:** `data/known-categories.json` bol regenerovaný z čerstvého exportu
+(`data/shoptet-categories-2026-09-12.csv`, 2568 kategórií). Proti nemu je počet kategórií mimo
+stromu **nula** – všetkých pôvodných 59 nálezov boli artefakty zastaraného snapshotu. Základná
+čiara je preto prázdna a ranná kontrola hlási len skutočne nové prípady.
+
+Pribudla aj tvrdá poistka: `scripts/enforce-tree-categories.js` beží ako **posledný krok
+v každom `*-sync.yml`** a zaručuje, že vo vygenerovanom XML nezostane kategória mimo stromu.
+Ak sa taká objaví, skráti sa na najhlbšieho existujúceho predka (produkt zostáva v ponuke, len
+o úroveň vyššie) a zapíše sa do `reports/kategorie-mimo-stromu-{dodavatel}.md`. Po kroku 4 teda
+Shoptet nemôže vytvoriť žiadnu kategóriu, ktorá nie je v novom strome – ani cez trusted
+`categoryRenamesByPath`, ani cez BASYS/MONACOR, ktoré gate nemajú.
 
 ## 5. Overenie po prvom behu
 Po prvom behu po prepnutí skontrolovať `reports/nezaradene-kategorie-*.md` pre každého

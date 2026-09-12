@@ -60,6 +60,11 @@ jobs:
       - name: Collapse thin categories
         run: node scripts/collapse-thin-categories.js
 
+      # Posledný krok, ktorý sa dotýka kategórií: zaručuje, že v XML nezostane kategória mimo
+      # nášho stromu, ktorú by Shoptet pri importe vytvoril
+      - name: Enforce tree categories
+        run: node scripts/enforce-tree-categories.js
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js --xml=output/innpro.xml
 

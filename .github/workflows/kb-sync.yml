@@ -65,6 +65,11 @@ jobs:
       - name: Collapse thin categories
         run: node scripts/collapse-thin-categories.js
 
+      # Posledný krok, ktorý sa dotýka kategórií: zaručuje, že v XML nezostane kategória mimo
+      # nášho stromu, ktorú by Shoptet pri importe vytvoril
+      - name: Enforce tree categories
+        run: node scripts/enforce-tree-categories.js
+
       - name: Obnoviť zastaralé generické úvodné vety po zlúčení/premenovaní kategórií
         run: node scripts/refresh-stale-generic-intros.js --out=output/kb.xml
 
