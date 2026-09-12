@@ -54,6 +54,26 @@ sú len opísané čo najpresnejšie v rámci existujúcej štruktúry:
    Cestovanie/šport; chovateľské potreby v Zdravie a starostlivosť) – stále čakajú na
    rozhodnutie o rozdelení, dohodnuté zatiaľ odložiť po termíne nasadenia.
 
+## Dodatočná oprava URL (druhé kolo, po tvojom upozornení na "-2" prípony)
+
+Všimol si si, že veľa kategórií malo URL končiace číslom (napr. `filtre-2`, `dialkove-ovladace-2`).
+U **46 z pôvodných 50** išlo o legitímnu vec – presne taký istý (aj s číslom) URL mala už
+kategória v pôvodnom strome (Shoptet si číslo pridal sám pred rokmi, keď vznikla ďalšia
+kategória rovnakého mena inde v strome) – ide teda o zámerné zachovanie presne tej istej,
+už existujúcej URL kvôli SEO, nie o chybu.
+
+Zvyšné **4 prípady ale boli skutočne zbytočné** – vznikli chybou v mojom vlastnom skripte
+(kontrola URL kolízií si sama sebe "blokovala" cestu k správnej URL, alebo si vôbec nevšimla,
+že kategória bez vlastných produktov má správneho predchodcu cez svoje podkategórie). Po oprave
+skriptu sa ukázalo, že takýchto prípadov bolo v skutočnosti **20** (nie len tie 4, čo boli vidno
+na prvý pohľad) – všetky teraz získali späť svoju správnu, existujúcu URL bez čísla na konci,
+napr. `dialkove-ovladace` namiesto `dialkove-ovladace-2`, `fotovoltaika` namiesto `fotovoltaika-2`.
+
+Dôležité: v žiadnom z týchto 227 prípadov nešlo o "vnorenú duplicitu" v zmysle rodič→dieťa→
+rovnomenné vnúča v novom strome (taký vzor sa v strome nenašiel) – priezvisko "-N" je čisto
+záležitosť URL, nie duplicitná kategória na zmazanie. `data/kategorie-import-2026-09-12.csv`
+a redirect mapy boli prebudované s opravenými URL.
+
 ## Poradie v menu
 Stĺpec `priority` je zoradený zostupne podľa počtu produktov v podkategórii (najsilnejšia
 podkategória prvá) – čisto orientačné, dá sa v administrácii kedykoľvek preusporiadať
