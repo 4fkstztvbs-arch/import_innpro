@@ -154,5 +154,32 @@ značke sa rozhodnúť pre jedného dodávateľa.
 3. Pri značkách s úplným prekryvom (UNI-T: ATOS 208 ks vs. InnPro 158 ks) zvážiť, či nenechať
    celú značku len u jedného dodávateľa – ušetrí to priebežnú údržbu.
 
-Toto rozhodnutie je obchodné, preto som zatiaľ nič nevylučoval. Keď povieš, ktorý dodávateľ má
-pri ktorej značke vyhrať, doplním pravidlá do mapping súborov.
+## Vyriešené: UNI-T a MHPower
+
+Rozhodnutie: UNI-T berieme z InnPro, MHPower z Penty.
+
+**Nešlo to spraviť ako pri Solighte.** Solight má v ATOSe nastavené `excludedManufacturers`, lebo
+celý jeho sortiment berieme priamo od výrobcu. Tu je prekryv len čiastočný:
+
+| | ATOS | druhý dodávateľ | spoločné modely | len u ATOSu |
+|---|---|---|---|---|
+| UNI-T | 208 ks | InnPro 158 ks | 54 | **153 ks** |
+| MHPower | 71 ks | Penta 17 ks | 10 | **61 ks** |
+
+Vypnutie celej značky by zhodilo 214 produktov, ktoré druhý dodávateľ vôbec nemá – pri UNI-T
+práve tú drahšiu profesionálnu časť (UT505A, termokamera UTi730V, stolový multimeter UT8804E,
+generátor UTG2082B, laboratórne zdroje UDP3303A), pri MHPower LiFePO4 batérie 75–200 Ah
+a napájacie adaptéry pre MikroTik.
+
+**Riešenie:** `transform-atos.js` dostal nový kľúč `excludedProductCodes` – vylučuje jednotlivé
+kusy podľa kódu, nie celú značku. Do `atos-mapping.json` je doplnených **65 kódov** (55 UNI-T,
+10 MHPower). Overené na dnešnom `output/atos.xml`: UNI-T 208 → 153, MHPower 71 → 61, všetkých
+65 kódov sa v feede reálne nachádza.
+
+Zoznam generuje `scripts/build-atos-exclusions.py` (páruje značku + modelový kód, porovná ceny).
+**Po zmene sortimentu ktoréhokoľvek z dvojice dodávateľov ho treba pustiť znova** – inak by
+zostal vylúčený produkt, ktorý druhý dodávateľ prestal viesť, alebo by nový spoločný model
+pribudol dvakrát.
+
+Zvyšné duplicity (Pioneer BASYS+K-B 16 ks, TP-Link K-B+Penta 5 ks a ďalšie) zostávajú otvorené –
+rovnaký mechanizmus sa dá použiť aj tam, len treba povedať, ktorý dodávateľ má vyhrať.

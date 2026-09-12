@@ -79,6 +79,12 @@ function proxyImgAspUrl(rawUrl) {
 // products relabelled under ATOS.
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
 
+// Pri UNI-T a MHPower je prekryv s iným dodávateľom len čiastočný – vypnúť celú značku ako pri
+// Solighte by zhodilo aj 214 produktov, ktoré ten druhý vôbec nemá. Vylučujú sa preto jednotlivé
+// kusy, ktoré naozaj dodáva niekto iný lacnejšie. Zoznam generuje
+// scratchpad/build_atos_exclusions.py – po zmene sortimentu ktoréhokoľvek z dvojice ho pusti znova.
+const EXCLUDED_CODES = new Set(mapping.excludedProductCodes || []);
+
 const TREE_ROOT = 'Druhy';
 const { createCategoryMatcher } = require('./resolve-category');
 const categoryMatcher = createCategoryMatcher('atos');
@@ -295,6 +301,7 @@ async function main() {
     try { p = parseAtosItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
+    if (p.code && EXCLUDED_CODES.has(p.code)) { stats.skippedExcludedCode = (stats.skippedExcludedCode || 0) + 1; return; }
 
     const purchaseEUR = p.purchasePriceCZK * rate;
 
