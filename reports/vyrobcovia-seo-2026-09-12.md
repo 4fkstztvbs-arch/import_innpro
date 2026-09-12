@@ -32,8 +32,10 @@ Delba práce je zámerná:
   pizza pec Delizia).
 - **Prelinkovanie na kategórie je generované z dát** (`build_manufacturers_csv.py`). Pre každú
   značku sa z feedov spočíta, v ktorých kategóriách nového stromu reálne má produkty, a do textu
-  sa vloží veta s odkazmi na najsilnejšie z nich (podiel ≥ 4 %, max. 4 odkazy). Spolu **486
-  odkazov**, každý overený proti stromu – žiadny nemôže ukázať na neexistujúcu kategóriu a pri
+  sa vloží veta s odkazmi na najsilnejšie z nich (podiel ≥ 4 %, max. 4 odkazy). Koreňové
+  kategórie sa vynechávajú (ako odkaz nič nehovoria), rodič sa vynechá, ak je v zozname aj jeho
+  podkategória, a všeobecné názvy typu „Príslušenstvo" sa doplnia o kontext rodiča
+  („Príslušenstvo pre počítače, mobily a tablety"). Spolu **466 odkazov**, každý overený proti stromu – žiadny nemôže ukázať na neexistujúcu kategóriu a pri
   zmene stromu stačí skript pustiť znova.
 
 Meta description sa odvodzuje z ručného popisu (orezaný na 158 znakov), meta title je
@@ -83,3 +85,74 @@ importovať **až po kroku 1 cutoveru** (import nového stromu kategórií). Sú
 Pod hranicou 30 produktov zostáva 617 značiek so 17 % sortimentu, prevažne s 1–9 produktmi.
 Tie zatiaľ obsah nedostali. Ak ich budeme chcieť pokryť, dá sa pre ne vygenerovať aspoň meta
 title a meta description plus veta s odkazmi na kategórie – rovnakým skriptom, bez ručného textu.
+
+---
+
+# Krížová kontrola dodávateľov: ten istý produkt u viacerých z nich
+
+Podnet: „UNI-T má v ponuke aj ATOS". Potvrdilo sa a je to väčší problém, než sa zdalo.
+
+## EAN na odhalenie duplicít nestačí
+
+Zhoda podľa EAN naprieč všetkými ôsmimi feedmi nájde **jediný** prípad. Dôvod: každý dodávateľ
+používa vlastný EAN. Ten istý multimeter UNI-T UT202R má u ATOSu `5901890065078` (české
+distribútorské číslo) a u InnPro `6935750520291` (číslo výrobcu). Žiadna dedupe logika postavená
+na EAN ich nespojí.
+
+Preto som pároval podľa **značky + modelového kódu z názvu**, s kontrolou podobnosti názvu, aby
+sa nezlúčili rôzne produkty s podobným kódom (skript `cross_supplier_dupes.py`).
+
+## Výsledok: 89 produktov je v e-shope dvakrát
+
+| Dvojica dodávateľov | Produktov |
+|---|---|
+| ATOS + InnPro | 52 |
+| BASYS + K-B | 16 |
+| ATOS + Penta | 13 |
+| K-B + Penta | 5 |
+| ATOS + K-B | 2 |
+| InnPro + K-B | 1 |
+
+Celý zoznam vrátane oboch názvov, oboch EAN a ceny od každého dodávateľa je v
+`reports/duplicitne-produkty-dodavatelia-2026-09-12.csv`.
+
+Značky, ktorých sa to týka najviac: **UNI-T** (52 modelov, ATOS aj InnPro), **Pioneer** (16,
+BASYS aj K-B), **MHPower** (10, ATOS aj Penta), **TP-Link** (5, K-B aj Penta).
+
+## Prečo na tom záleží
+
+Každý taký produkt má v e-shope dve samostatné karty. To znamená rozdelené recenzie a hodnotenia,
+dve URL súťažiace o to isté kľúčové slovo (klasická kanibalizácia vo vyhľadávaní), dve rôzne ceny
+toho istého tovaru v jednom e-shope a dvojité skladové hlásenia do Heureky.
+
+## Cenové rozdiely – 32 modelov nad 15 %
+
+Pri 32 modeloch sa cena medzi dodávateľmi líši o viac než 15 %. Najvypuklejšie prípady:
+
+| Produkt | Lacnejší | Drahší | Rozdiel |
+|---|---|---|---|
+| TP-Link Tapo RV30 Max Plus | Penta 150,50 € | K-B 460,50 € | 3,06× |
+| Diaľkový ovládač Tesla TE-300 | ATOS 8,30 € | K-B 21,90 € | 2,64× |
+| EPever DR2210 solárny regulátor | Penta 60,90 € | ATOS 138,90 € | 2,28× |
+| TP-Link Tapo L530E | K-B 11,50 € | Penta 23,90 € | 2,08× |
+| MHPower MPL-500-12 UPS | Penta 97,90 € | ATOS 194,50 € | 1,99× |
+| MHPower MPL-700-12 UPS | Penta 115,90 € | ATOS 219,90 € | 1,90× |
+| UNI-T UT12D detektor napätia | InnPro 6,10 € | ATOS 10,00 € | 1,64× |
+| Roborock Q10 PF | InnPro 219,00 € | K-B 313,90 € | 1,43× |
+
+Pri rade MHPower je Penta systematicky lacnejšia než ATOS, pri UNI-T je lacnejšia InnPro. To nie
+sú náhodné odchýlky, ale rozdiel v nákupných podmienkach – stojí za to ich prejsť a pri každej
+značke sa rozhodnúť pre jedného dodávateľa.
+
+## Návrh riešenia
+
+1. Prejsť CSV a pri každom duplicitnom modeli vybrať dodávateľa (spravidla lacnejšieho, ak sedí
+   dostupnosť a dodacia lehota).
+2. Neželaného dodávateľa pre daný produkt vylúčiť cez `categoryExclusionsByPath` alebo cez
+   `excludedManufacturers` v jeho mapping súbore – podľa toho, či ide o jednotlivé kusy alebo
+   o celú značku.
+3. Pri značkách s úplným prekryvom (UNI-T: ATOS 208 ks vs. InnPro 158 ks) zvážiť, či nenechať
+   celú značku len u jedného dodávateľa – ušetrí to priebežnú údržbu.
+
+Toto rozhodnutie je obchodné, preto som zatiaľ nič nevylučoval. Keď povieš, ktorý dodávateľ má
+pri ktorej značke vyhrať, doplním pravidlá do mapping súborov.
