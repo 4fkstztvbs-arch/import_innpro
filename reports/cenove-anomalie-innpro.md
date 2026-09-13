@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-09-12
+# Cenové anomálie vynechané z feedu — innpro — 2026-09-13
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -52,7 +52,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 080186 | 5907085529080 | xTool Tlačiareň odevov - sada všetko v jednom | cena mimo 8x rozsah mediánu kategórie | 6.00 € | 10376.90 € | 1729.5x | 75 |
 | 081464 | 4897143171348 | Rýchloupínacia doska Freewell | cena mimo 8x rozsah mediánu kategórie | 2.00 € | 19.50 € | 9.8x | 4 |
 | 082001 | 6978258900387 | Bezdrôtový masážny prístroj/regeneračná obuv s technológiou AI UREVO UCRM003 | cena mimo 8x rozsah mediánu kategórie | 51.50 € | 542.90 € | 10.5x | 4 |
-| 082669 | 786156004870 | Káblové slúchadlá pre detektory kovov Garrett MS-2 | cena mimo 8x rozsah mediánu kategórie | 279.20 € | 29.50 € | 1/9.5x | 8 |
+| 082669 | 786156004870 | Káblové slúchadlá pre detektory kovov Garrett MS-2 | cena mimo 8x rozsah mediánu kategórie | 256.90 € | 29.50 € | 1/8.7x | 9 |
 | 082686 | 6975377555009 | Súprava na určovanie veľkosti krúžkov RingConn | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 4.10 € | 1/43.4x | 78 |
 | 082738 | 6975377555313 | Etui do smartringa RingConn Ring Protector, r.12-14, (L) | cena mimo 8x rozsah mediánu kategórie | 178.00 € | 11.90 € | 1/15.0x | 78 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
