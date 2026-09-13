@@ -32,6 +32,17 @@ function normalize(s) {
 
 const known = new Set(JSON.parse(fs.readFileSync(KNOWN_PATH, 'utf-8')).map(normalize));
 
+// Preklad starý strom -> nový (rovnaká mapa ako v resolve-category.js). Bez neho by sa cesta zo
+// starého stromu len skrátila na koreň alebo zahodila — presne to sa stalo 13. 9. 2026, keď beh
+// dodávateľa prepísal feedy ostatných dodávateľov, ktoré ešte starý strom obsahovali. Skript beží
+// nad VŠETKÝMI output/*.xml, nielen nad feedom práve spusteného dodávateľa, takže cudzí feed tu
+// musí prežiť. S prekladom platí opak: ktorýkoľvek beh dotiahne na nový strom všetky feedy naraz.
+const OLD_TO_NEW = new Map();
+try {
+  const raw = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'stary-novy-strom.json'), 'utf-8'));
+  for (const [from, to] of Object.entries(raw)) OLD_TO_NEW.set(normalize(from), to);
+} catch { /* súbor je voliteľný */ }
+
 // Najhlbší predok, ktorý v strome existuje. null = ani koreň neexistuje, kategória sa vynechá.
 function deepestKnownAncestor(category) {
   const segs = category.split(' > ');
@@ -44,6 +55,7 @@ function deepestKnownAncestor(category) {
 
 let totalChanged = 0;
 let totalDropped = 0;
+let totalTranslated = 0;
 
 for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml'))) {
   const supplier = file.replace('.xml', '');
@@ -66,12 +78,18 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml'))) {
         const category = raw.trim();
         let target = category;
         if (!known.has(normalize(category))) {
-          target = deepestKnownAncestor(category);
+          const prelozene = OLD_TO_NEW.get(normalize(category));
+          const maPreklad = Boolean(prelozene) && known.has(normalize(prelozene));
+          target = maPreklad ? prelozene : deepestKnownAncestor(category);
           changed = true;
-          if (!findings.has(category)) findings.set(category, { na: target, count: 0, sample: productName });
-          findings.get(category).count++;
+          // Preložená cesta nie je nález — je to plánovaný presun na nový strom, nie chýbajúce
+          // mapovanie. Do reportu ide len to, čo treba doriešiť ručne.
+          if (!maPreklad) {
+            if (!findings.has(category)) findings.set(category, { na: target, count: 0, sample: productName });
+            findings.get(category).count++;
+          }
           if (target === null) { totalDropped++; return ''; }
-          totalChanged++;
+          if (maPreklad) totalTranslated++; else totalChanged++;
         }
         // po skrátení môže vzniknúť duplicita s predkom, ktorý v zozname už je
         const key = normalize(target);
@@ -112,4 +130,5 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml'))) {
   }
 }
 
-console.log(`enforce-tree-categories: ${totalChanged} zápisov skrátených, ${totalDropped} vynechaných`);
+console.log(`enforce-tree-categories: ${totalTranslated} zápisov preložených na nový strom, `
+  + `${totalChanged} skrátených, ${totalDropped} vynechaných`);
