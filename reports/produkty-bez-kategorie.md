@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-09-13 20:15 UTC.
+Kontrola z 2026-09-13 20:21 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -6996,22 +6996,6 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `100002204689` | Epson EcoTank L5390 |
 | `100002204690` | Epson EcoTank L3310 |
 | `100002204669` | MSI PRO MP273 E14A |
-
-## monacor — 11 ks
-
-| Kód | Produkt |
-|---|---|
-| `ATC-110U` | Monacor ATC-110U 10 slot audioguide nabíjačka |
-| `CU-3BOOST` | IMG Stage Line CU-3BOOST Zosilňovač prispôsobenia úrovne (LED booster) pre RGB L |
-| `DMP-250` | IMG Stage Line DMP-250 Kompaktný modul na vkladanie MP3 prehrávača |
-| `SP-15A/350NEO` | IMG Stage Line SP-15A/350NEO Profesionálny basový reproduktor |
-| `SL-150SW/EN` | Monacor SL-150SW/EN Weatherproof PA speaker system, 150 W, 100 V/8 Ω, with EN cl |
-| `SL-150WS/EN` | Monacor SL-150WS/EN PA reproduktorový systém odolný voči poveternostným vplyvom, |
-| `SL-250SW/EN` | Monacor SL-250SW/EN Weatherproof PA speaker system, 250 W, 100 V/8 Ω, with EN cl |
-| `SL-250WS/EN` | Monacor SL-250WS/EN Weatherproof PA speaker system, 250 W, 100 V/8 Ω, with EN cl |
-| `PA-8125DX` | Monacor PA-8125DX 8-zone multifunctional mixing amplifier, 8 x 125 W, 4 x 250 W |
-| `PA-4500DX` | Monacor PA-4500DX 4-zone multifunctional mixing amplifier, 4 x 500 W, 2 x 1,000  |
-| `SA-40BT` | Monacor SA-40BT Mini stereo amplifier, 2 x 20 W |
 
 ## penta — 207 ks
 
