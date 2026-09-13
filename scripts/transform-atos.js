@@ -153,8 +153,18 @@ function resolveAtosCategories(categoryTexts, productLabel) {
     if (!resolved.includes(gated.category)) resolved.push(gated.category);
   }
 
-  const defaultCategory = resolved.length ? resolved[0] : '';
-  const extraCategories = resolved.slice(1);
+  // Prvá kategória je pre Shoptet hlavná (defaultCategory) a podľa nej sa riadi aj odkaz v popise,
+  // takže musí byť tá najkonkrétnejšia. sortedPaths síce triedi podľa hĺbky, lenže triedi cesty
+  // PRED prekladom — a preklad hĺbku mení (zlúčená vetva sa skráti, iná sa preloží hlbšie). Bez
+  // pretriedenia tu skončilo 1015 produktov s hlavnou kategóriou plytšou než ich vlastná vetva,
+  // napr. sťahovacie pásky pod "Inštalačné príslušenstvo" namiesto "Sťahovacie pásky a drobné
+  // príslušenstvo". Triedenie je stabilné, takže pri rovnakej hĺbke ostáva pôvodné poradie.
+  const podlaHlbky = resolved
+    .map((c, i) => ({ c, i, d: c.split(' > ').length }))
+    .sort((a, b) => (b.d - a.d) || (a.i - b.i))
+    .map((x) => x.c);
+  const defaultCategory = podlaHlbky.length ? podlaHlbky[0] : '';
+  const extraCategories = podlaHlbky.slice(1);
   return { defaultCategory, extraCategories, unmatchedCategory: !defaultCategory && anyUnmatched };
 }
 
