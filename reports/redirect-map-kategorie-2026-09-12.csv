@@ -1420,7 +1420,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /zdroje-pre-led-pasky/;/napajacie-zdroje-2/;ancestor(-1);Fotovoltaika a energie > Napájacie zdroje > Zdroje pre LED pásky;Energia a napájanie > Napájacie zdroje;44076
 /adaptery-pre-notebooky/;/napajacie-zdroje-2/;ancestor(-1);Fotovoltaika a energie > Napájacie zdroje > Adaptéry pre notebooky;Energia a napájanie > Napájacie zdroje;45654
 /nabijacky-notebookov/;/napajacie-zdroje-2/;ancestor(-1);Fotovoltaika a energie > Napájacie zdroje > Nabíjačky notebookov;Energia a napájanie > Napájacie zdroje;47739
-/usb-adaptery/;/napajacie-zdroje-2/;exact;Fotovoltaika a energie > Napájacie zdroje > USB adaptéry;Energia a napájanie > Napájacie zdroje;47817
+/usb-adaptery/;/nabijacky-pre-mobily/;exact;Fotovoltaika a energie > Napájacie zdroje > USB adaptéry;Počítače, mobily a tablety > Nabíjačky pre mobily;47817
 /sietove-adaptery/;/napajacie-zdroje-2/;ancestor(-1);Fotovoltaika a energie > Napájacie zdroje > Sieťové adaptéry;Energia a napájanie > Napájacie zdroje;47832
 /nabijacky-baterii-2/;/napajacie-zdroje-2/;ancestor(-1);Fotovoltaika a energie > Napájacie zdroje > Nabíjačky batérií;Energia a napájanie > Napájacie zdroje;47841
 /pre-mobily-a-tablety/;/napajacie-zdroje-2/;ancestor(-1);Fotovoltaika a energie > Napájacie zdroje > Pre mobily a tablety;Energia a napájanie > Napájacie zdroje;47910
@@ -2139,7 +2139,9 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /pamatove-karty-5/;/pamatove-karty-6/;exact;Počítače a notebooky > Pamäťové médiá > Pamäťové karty;Počítače, mobily a tablety > Pamäťové médiá > Pamäťové karty;48564
 /mysi-4/;/pc-periferie-2/;exact;Počítače a notebooky > PC periférie > Myši;Počítače, mobily a tablety > PC periférie;48600
 /klavesnice-5/;/pc-periferie-2/;exact;Počítače a notebooky > PC periférie > Klávesnice;Počítače, mobily a tablety > PC periférie;48606
+/nabijacky-4/;/nabijacky-pre-mobily/;exact;Mobily, smart hodinky a tablety > Nabíjačky;Počítače, mobily a tablety > Nabíjačky pre mobily;48675
 /tablety-5/;/pocitace-mobily-a-tablety/;ancestor(-1);Mobily, smart hodinky a tablety > Tablety;Počítače, mobily a tablety;48810
+/gsm-nabijacky-2/;/nabijacky-pre-mobily/;exact;Mobily, smart hodinky a tablety > GSM nabíjačky;Počítače, mobily a tablety > Nabíjačky pre mobily;48882
 /smartfony/;/pocitace-mobily-a-tablety/;ancestor(-1);Mobily, smart hodinky a tablety > Smartfóny;Počítače, mobily a tablety;49443
 /powerbanky-4/;/powerbanky/;exact;Mobily, smart hodinky a tablety > Powerbanky;Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny > Powerbanky;49455
 /drziaky-na-mobily-3/;/prislusenstvo-10/;exact;Mobily, smart hodinky a tablety > Príslušenstvo > Držiaky na mobily;Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny;48549
@@ -2168,7 +2170,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /smart-prstene-3/;/nositelna-elektronika-2/;exact;Mobily, smart hodinky a tablety > Nositeľná elektronika > Smart prstene;Počítače, mobily a tablety > Nositeľná elektronika;48651
 /usb-na-lightning-2/;/usb-kable-4/;exact;Mobily, smart hodinky a tablety > USB káble > USB na Lightning;Počítače, mobily a tablety > USB káble;48672
 /usb-c-kable-2/;/usb-kable-4/;exact;Mobily, smart hodinky a tablety > USB káble > USB-C káble;Počítače, mobily a tablety > USB káble;48885
-/sietove-nabijacky-2/;/nabijacky-4/;exact;Mobily, smart hodinky a tablety > Nabíjačky > sieťové nabíjačky;Počítače, mobily a tablety > Nabíjačky do auta a bezdrôtové;48702
+/sietove-nabijacky-2/;/nabijacky-pre-mobily/;exact;Mobily, smart hodinky a tablety > Nabíjačky > sieťové nabíjačky;Počítače, mobily a tablety > Nabíjačky pre mobily;48702
 /selfie-tyce-a-drziaky-2/;/postroje--upevnovacie-prvky-a-drziaky-2/;exact;Foto a príslušenstvo > Selfie tyče > Selfie tyče a držiaky;TV, audio, video a foto technika > Foto a príslušenstvo > Selfie tyče;48681
 /adaptery-4/;/postroje--upevnovacie-prvky-a-drziaky-2/;exact;Foto a príslušenstvo > Selfie tyče > Adaptéry;TV, audio, video a foto technika > Foto a príslušenstvo > Selfie tyče;48762
 /stativy-4/;/postroje--upevnovacie-prvky-a-drziaky-2/;exact;Foto a príslušenstvo > Selfie tyče > Statívy;TV, audio, video a foto technika > Foto a príslušenstvo > Selfie tyče;48816
