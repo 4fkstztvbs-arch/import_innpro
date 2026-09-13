@@ -18,14 +18,14 @@
 const fs = require('fs');
 const path = require('path');
 const { streamRecords } = require('./stream-records');
-const { translateCategoryName, parseRecord, field, toFloat } = require('./parse-kb');
+const { parseRecord, field, toFloat } = require('./parse-kb');
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { createCategoryMatcher } = require('./resolve-category');
-const categoryMatcher = createCategoryMatcher('kb');
+const { vytvorZaradovac } = require('./zarad-kategoriu');
+const zaradovac = vytvorZaradovac('kb');
 const { shouldEnrich, buildEnrichedDescription } = require('./lib/kb-description-enrichment');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
 
@@ -58,7 +58,6 @@ function isEnergyEligible(defaultCategory) {
 
 const MAPPING_PATH = path.join(__dirname, 'kb-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
-const MAPPING_RENAMES = mapping.categoryRenamesByPath || {};
 const MAPPING_EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
 
 const AVAILABILITY_MAP = {
@@ -215,46 +214,14 @@ async function main() {
   const pathToId = {};
   for (const id in categories) pathToId[originalPathOf(id)] = id;
 
-  // Stage 1: baseline CZ->SK word/phrase translation for every category (matches the browser
-  // tool's "Preložiť názvy do SK" button).
-  const renames = {};
-  for (const id in categories) renames[id] = translateCategoryName(categories[id].name);
-
-  // Stage 2: overlay the agreed category mapping (redirects/compound overrides) on top, matched
-  // by the ORIGINAL (untranslated) path — exactly like importing settings in the browser tool.
+  // Vylúčený sortiment — vedomé rozhodnutie, nie zaradenie, takže zostáva mimo tabuľky pravidiel.
   const excluded = new Set();
-  const explicitOverrideIds = new Set();
-  function isPathOverride(cid, rename) { return !!rename && explicitOverrideIds.has(cid); }
-  Object.keys(MAPPING_RENAMES).forEach((p) => {
-    const id = pathToId[p];
-    if (id) { renames[id] = MAPPING_RENAMES[p]; explicitOverrideIds.add(id); }
-  });
   MAPPING_EXCLUSIONS.forEach((p) => {
     const id = pathToId[p];
     if (id) excluded.add(id);
   });
 
-  const buildPathCache = {};
-  function buildPath(cid) {
-    if (buildPathCache[cid] !== undefined) return buildPathCache[cid];
-    const seen = new Set();
-    const parts = [];
-    let cur = cid;
-    while (cur && categories[cur] && !seen.has(cur)) {
-      seen.add(cur);
-      const rename = renames[cur];
-      if (isPathOverride(cur, rename)) { parts.push(rename); break; }
-      parts.push(rename || categories[cur].name);
-      cur = categories[cur].parent;
-    }
-    parts.reverse();
-    const res = parts.join(' > ');
-    buildPathCache[cid] = res;
-    return res;
-  }
-  // Cesta tak, ako ju posiela K-B, bez jediného prepisu — buildPath() renames aplikuje, takže na
-  // zápis zdrojových kategórií sa použiť nedá. Slúži len ako podklad pre zjednodušenie pipeline
-  // (data/zdrojove-kategorie/kb.json), na rozhodovanie nemá vplyv.
+  // Cesta tak, ako ju posiela K-B — presne to, čím je kľúčovaná tabuľka data/kategorie/kb.json.
   function buildRawPath(cid) {
     const seen = new Set();
     const parts = [];
@@ -265,35 +232,6 @@ async function main() {
       cur = categories[cur].parent;
     }
     return parts.reverse().join(' > ');
-  }
-  const ancestorsCache = {};
-  function ancestorsOf(cid) {
-    if (ancestorsCache[cid]) return ancestorsCache[cid];
-    const seen = new Set();
-    let cur = cid;
-    const chain = [];
-    while (cur && categories[cur] && !seen.has(cur)) {
-      seen.add(cur);
-      chain.push(cur);
-      cur = categories[cur].parent;
-    }
-    ancestorsCache[cid] = chain;
-    return chain;
-  }
-  function ancestorPathsOf(cid) {
-    if (isPathOverride(cid, renames[cid])) return [];
-    const chain = ancestorsOf(cid).slice(1);
-    const paths = [];
-    for (const id of chain) {
-      const rename = renames[id];
-      if (isPathOverride(id, rename)) {
-        const segments = rename.split(' > ');
-        for (let i = 1; i <= segments.length; i++) paths.push(segments.slice(0, i).join(' > '));
-        return paths;
-      }
-      paths.push(buildPath(id));
-    }
-    return paths;
   }
 
   console.log('Loading product->category mapping...');
@@ -397,15 +335,20 @@ async function main() {
       return;
     }
 
+    // Zaradenie rieši jediná tabuľka data/kategorie/kb.json, kľúčovaná cestou tak, ako ju posiela
+    // K-B (buildRawPath, teda bez prepisov). Najdlhší prefix vyhráva a jeho cieľ nahrádza celú
+    // cestu; predkov si dopočíta zaraďovač zo stromu, takže ancestorPathsOf() už netreba.
     const catId = prodCategoryId[pid];
-    let defaultCategory = catId ? buildPath(catId) : '';
-    const extraCategories = catId ? ancestorPathsOf(catId) : [];
-    if (defaultCategory) {
-      const leafTrusted = catId ? explicitOverrideIds.has(catId) : false;
-      const gated = categoryMatcher.resolve(defaultCategory, { trusted: leafTrusted, productLabel: name,
-        sourcePath: buildRawPath(catId) });
-      if (gated.excluded) { stats.skippedUnmatchedCategory++; return; }
-      defaultCategory = gated.category;
+    let defaultCategory = '';
+    let extraCategories = [];
+    if (catId) {
+      const { kategoria } = zaradovac.zarad(buildRawPath(catId), { produkt: name });
+      // Chýbajúce pravidlo produkt nezahadzuje — ostane bez kategórie, hide-uncategorised ho skryje
+      // a reports/chybajuce-pravidla-kb.md povie, aké pravidlo doplniť.
+      if (kategoria) {
+        defaultCategory = kategoria;
+        extraCategories = zaradovac.predkovia(kategoria);
+      }
     }
 
     const availCode = prodAvail[pid];
@@ -506,7 +449,7 @@ async function main() {
 
   console.log('Done.');
   writeAnomalyReport('kb', anomalies);
-  const categoryReport = categoryMatcher.writeReport();
+  const categoryReport = zaradovac.zapisReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
 }
