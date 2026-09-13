@@ -123,6 +123,53 @@ function createCategoryMatcher(supplierName) {
   // Slug-equal to something in the live tree == already an existing category (see normalizePath).
   function isKnownPath(p) { return knownSet.has(p) || knownByNorm.has(normalizePath(p)); }
 
+  // Zložená cesta: `categoryRenamesByPath` prepisuje iba PREFIX cesty dodávateľa, takže z pravidla
+  // "Druhy > NÁŘADÍ  DÍLNA" -> "Dielňa, náradie a záhrada" vznikne cesta, ktorá má nový koreň, ale
+  // starý chvost: "Dielňa, náradie a záhrada > Meracie prístroje". Taká cesta nie je ani v strome,
+  // ani v prekladovej mape (tá je kľúčovaná starými cestami), takže by prepadla až na koreň.
+  //
+  // Stačí ale koreň dočasne vrátiť na starý a mapu sa spýtať znova: "Náradie a dielňa > Meracie
+  // prístroje" v nej je a vedie na "Dielňa, náradie a záhrada > Meracia technika". Skúšajú sa
+  // všetky staré korene, ktoré sa na tento nový premenovali, a postupne aj kratšie chvosty.
+  const oldRootsByNew = new Map();
+  for (const [from, to] of oldToNew) {
+    // kľúč aj hodnota normalizovane — `from` je už normalizovaný kľúč mapy, `to` je surová cesta
+    const novy = normalizePath(String(to).split(' > ')[0]);
+    if (!oldRootsByNew.has(novy)) oldRootsByNew.set(novy, new Set());
+    oldRootsByNew.get(novy).add(from.split(' > ')[0]);
+  }
+  // Výslovné pravidlá pre zložené cesty, ktoré sa odvodiť nedajú — chvost v starom strome pod
+  // týmto koreňom nikdy nebol, alebo patrí do inej vetvy nového stromu. Majú prednosť pred
+  // odvodením, lebo sú to rozhodnutia človeka.
+  const ZLOZENE = new Map();
+  try {
+    const raw = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'zlozene-cesty.json'), 'utf-8'));
+    for (const [from, to] of Object.entries(raw.cesty || {})) ZLOZENE.set(normalizePath(from), to);
+  } catch { /* súbor je voliteľný */ }
+
+  function prelozZlozenu(cesta) {
+    const vyslovne = ZLOZENE.get(normalizePath(cesta));
+    if (vyslovne && isKnownPath(vyslovne)) return vyslovne;
+
+    const segs = String(cesta).split(' > ');
+    const stareKorene = oldRootsByNew.get(normalizePath(segs[0]));
+    if (!stareKorene || segs.length < 2) return null;
+    const pouzitelny = (ciel) => ciel && isKnownPath(ciel)
+      && normalizePath(ciel) !== normalizePath(segs[0]) ? ciel : null;
+    for (let d = segs.length - 1; d >= 1; d--) {
+      const chvost = segs.slice(1, d + 1);
+      // Chvost môže sám začínať starým koreňom ("Dielňa, náradie a záhrada > Kreatívne technológie
+      // > 3D tlač > Vlákna") — vtedy je celý chvost rovno starou cestou a nový koreň sa zahodí.
+      const zChvosta = pouzitelny(oldToNew.get(normalizePath(chvost.join(' > '))));
+      if (zChvosta) return zChvosta;
+      for (const stary of stareKorene) {
+        const ciel = pouzitelny(oldToNew.get(normalizePath([stary, ...chvost].join(' > '))));
+        if (ciel) return ciel;
+      }
+    }
+    return null;
+  }
+
   function findMatch(unknownPath) {
     const { parent, leaf } = splitLeaf(unknownPath);
 
@@ -158,6 +205,7 @@ function createCategoryMatcher(supplierName) {
   const unmatched = new Map(); // category -> { category, count, examples: [] }
   const autoMatched = new Map(); // "from|to" -> { from, to, score, count }
   const ancestorMatched = new Map(); // "from|to" -> { from, to, count } — preklad podľa predka
+  const composedMatched = new Map(); // "from|to" -> { from, to, count } — zložená cesta
 
   // trusted=true skips the gate entirely (category came from an explicit, human-reviewed rename).
   function resolve(category, { trusted, productLabel } = {}) {
@@ -171,6 +219,17 @@ function createCategoryMatcher(supplierName) {
     // slug-equal) — rewriting it to the tree's spelling would be a no-op for Shoptet's matching but
     // could churn the live category title, so leave today's import behaviour exactly as it is.
     if (isKnownPath(category)) return { category, excluded: false, redirected: false };
+
+    // Zložená cesta (nový koreň + starý chvost) sa rieši ešte pred fuzzy hľadaním: ide o odvodenie
+    // z kurátorovanej mapy, kým findMatch je odhad podľa podobnosti názvu.
+    const zoZlozenej = prelozZlozenu(category);
+    if (zoZlozenej) {
+      const key = category + '|' + zoZlozenej;
+      const r = composedMatched.get(key) || { from: category, to: zoZlozenej, count: 0 };
+      r.count++;
+      composedMatched.set(key, r);
+      return { category: zoZlozenej, excluded: false, redirected: true };
+    }
 
     const m = findMatch(category);
     if (m) {
@@ -242,6 +301,19 @@ function createCategoryMatcher(supplierName) {
       const sortedM = [...autoMatched.values()].sort((a, b) => b.count - a.count);
       for (const r of sortedM) lines.push(`| ${r.from} | ${r.to} | ${(r.score * 100).toFixed(0)}% | ${r.count} |`);
     }
+    if (composedMatched.size) {
+      lines.push('');
+      lines.push('## Zložená cesta preložená cez starý koreň');
+      lines.push('');
+      lines.push('`categoryRenamesByPath` prepisuje iba prefix cesty, takže vznikla cesta s novým');
+      lines.push('koreňom a starým chvostom. Zaradenie je odvodené z `data/stary-novy-strom.json`.');
+      lines.push('');
+      lines.push('| Cesta z feedu | Zaradené do | Počet produktov |');
+      lines.push('|---|---|---|');
+      for (const r of [...composedMatched.values()].sort((a, b) => b.count - a.count)) {
+        lines.push(`| ${r.from} | ${r.to} | ${r.count} |`);
+      }
+    }
     if (ancestorMatched.size) {
       lines.push('');
       lines.push('## Preložené na predka zo starého stromu');
@@ -260,8 +332,10 @@ function createCategoryMatcher(supplierName) {
     const unmatchedProducts = [...unmatched.values()].reduce((s, r) => s + r.count, 0);
     const autoMatchedProducts = [...autoMatched.values()].reduce((s, r) => s + r.count, 0);
     const ancestorMatchedProducts = [...ancestorMatched.values()].reduce((s, r) => s + r.count, 0);
+    const composedMatchedProducts = [...composedMatched.values()].reduce((s, r) => s + r.count, 0);
     return { unmatchedCategories: unmatched.size, unmatchedProducts, autoMatchedCategories: autoMatched.size, autoMatchedProducts,
-      ancestorMatchedCategories: ancestorMatched.size, ancestorMatchedProducts };
+      ancestorMatchedCategories: ancestorMatched.size, ancestorMatchedProducts,
+      composedMatchedCategories: composedMatched.size, composedMatchedProducts };
   }
 
   return { isKnown: isKnownPath, findMatch, resolve, writeReport };

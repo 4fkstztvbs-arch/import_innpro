@@ -52,6 +52,43 @@ function prelozit(category) {
     const cieľ = OLD_TO_NEW.get(normalize(segs.slice(0, depth).join(' > ')));
     if (cieľ && known.has(normalize(cieľ))) return cieľ;
   }
+  return prelozZlozenu(category);
+}
+
+// Zložená cesta (nový koreň + starý chvost) — rovnaká logika ako v resolve-category.js, aby feed,
+// ktorý sa práve netransformuje, dopadol rovnako ako ten, ktorý sa transformuje. Vzniká tým, že
+// `categoryRenamesByPath` prepisuje iba prefix cesty dodávateľa.
+const ZLOZENE = new Map();
+try {
+  const raw = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'zlozene-cesty.json'), 'utf-8'));
+  for (const [from, to] of Object.entries(raw.cesty || {})) ZLOZENE.set(normalize(from), to);
+} catch { /* súbor je voliteľný */ }
+
+const oldRootsByNew = new Map();
+for (const [from, to] of OLD_TO_NEW) {
+  const novy = normalize(String(to).split(' > ')[0]);
+  if (!oldRootsByNew.has(novy)) oldRootsByNew.set(novy, new Set());
+  oldRootsByNew.get(novy).add(from.split(' > ')[0]);
+}
+
+function prelozZlozenu(cesta) {
+  const vyslovne = ZLOZENE.get(normalize(cesta));
+  if (vyslovne && known.has(normalize(vyslovne))) return vyslovne;
+
+  const segs = String(cesta).split(' > ');
+  const stareKorene = oldRootsByNew.get(normalize(segs[0]));
+  if (!stareKorene || segs.length < 2) return null;
+  const pouzitelny = (c) => c && known.has(normalize(c))
+    && normalize(c) !== normalize(segs[0]) ? c : null;
+  for (let d = segs.length - 1; d >= 1; d--) {
+    const chvost = segs.slice(1, d + 1);
+    const zChvosta = pouzitelny(OLD_TO_NEW.get(normalize(chvost.join(' > '))));
+    if (zChvosta) return zChvosta;
+    for (const stary of stareKorene) {
+      const c = pouzitelny(OLD_TO_NEW.get(normalize([stary, ...chvost].join(' > '))));
+      if (c) return c;
+    }
+  }
   return null;
 }
 
