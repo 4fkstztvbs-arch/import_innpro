@@ -98,7 +98,8 @@ function resolveCategory(rawCategoryName, productLabel) {
     partsResult.unshift(rename || keys[i].name);
   }
   let category = applySubRules(partsResult.join(' > '), productLabel);
-  const gated = categoryMatcher.resolve(category, { trusted: leafTrusted, productLabel });
+  const gated = categoryMatcher.resolve(category, { trusted: leafTrusted, productLabel,
+    sourcePath: keys[keys.length - 1].key });
   if (gated.excluded) return { category: '', extraCategories: [], excluded: true, unmatchedCategory: category };
   category = gated.category;
   const segs = category.split(' > ');

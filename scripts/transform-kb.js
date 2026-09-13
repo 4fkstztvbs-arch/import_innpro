@@ -252,6 +252,20 @@ async function main() {
     buildPathCache[cid] = res;
     return res;
   }
+  // Cesta tak, ako ju posiela K-B, bez jediného prepisu — buildPath() renames aplikuje, takže na
+  // zápis zdrojových kategórií sa použiť nedá. Slúži len ako podklad pre zjednodušenie pipeline
+  // (data/zdrojove-kategorie/kb.json), na rozhodovanie nemá vplyv.
+  function buildRawPath(cid) {
+    const seen = new Set();
+    const parts = [];
+    let cur = cid;
+    while (cur && categories[cur] && !seen.has(cur)) {
+      seen.add(cur);
+      parts.push(categories[cur].name);
+      cur = categories[cur].parent;
+    }
+    return parts.reverse().join(' > ');
+  }
   const ancestorsCache = {};
   function ancestorsOf(cid) {
     if (ancestorsCache[cid]) return ancestorsCache[cid];
@@ -388,7 +402,8 @@ async function main() {
     const extraCategories = catId ? ancestorPathsOf(catId) : [];
     if (defaultCategory) {
       const leafTrusted = catId ? explicitOverrideIds.has(catId) : false;
-      const gated = categoryMatcher.resolve(defaultCategory, { trusted: leafTrusted, productLabel: name });
+      const gated = categoryMatcher.resolve(defaultCategory, { trusted: leafTrusted, productLabel: name,
+        sourcePath: buildRawPath(catId) });
       if (gated.excluded) { stats.skippedUnmatchedCategory++; return; }
       defaultCategory = gated.category;
     }

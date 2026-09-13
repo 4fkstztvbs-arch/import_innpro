@@ -148,7 +148,7 @@ function resolveAtosCategories(categoryTexts, productLabel) {
     const display = atosDisplayPath(pathKey);
     if (!display) continue;
     const trusted = !!lookupRename(pathKey);
-    const gated = categoryMatcher.resolve(display, { trusted, productLabel });
+    const gated = categoryMatcher.resolve(display, { trusted, productLabel, sourcePath: pathKey });
     if (gated.excluded) { anyUnmatched = true; continue; }
     if (!resolved.includes(gated.category)) resolved.push(gated.category);
   }

@@ -206,9 +206,24 @@ function createCategoryMatcher(supplierName) {
   const autoMatched = new Map(); // "from|to" -> { from, to, score, count }
   const ancestorMatched = new Map(); // "from|to" -> { from, to, count } — preklad podľa predka
   const composedMatched = new Map(); // "from|to" -> { from, to, count } — zložená cesta
+  const sourceMap = new Map(); // surová cesta dodávateľa -> Map(výsledná kategória -> počet)
 
   // trusted=true skips the gate entirely (category came from an explicit, human-reviewed rename).
-  function resolve(category, { trusted, productLabel } = {}) {
+  // sourcePath = cesta tak, ako ju poslal dodávateľ, pred akýmkoľvek prepisom. Slúži len na zápis
+  // do data/zdrojove-kategorie/<dodavatel>.json — podklad pre zjednodušenie pipeline na jedno
+  // výslovné pravidlo na dodávateľa. Na rozhodovanie nemá vplyv.
+  function resolve(category, { trusted, productLabel, sourcePath } = {}) {
+    const vysledok = resolveVnutorne(category, { trusted, productLabel });
+    if (sourcePath) {
+      const zaznam = sourceMap.get(sourcePath) || new Map();
+      const ciel = vysledok.excluded ? '(zahodené)' : vysledok.category;
+      zaznam.set(ciel, (zaznam.get(ciel) || 0) + 1);
+      sourceMap.set(sourcePath, zaznam);
+    }
+    return vysledok;
+  }
+
+  function resolveVnutorne(category, { trusted, productLabel } = {}) {
     if (!category || trusted) return { category, excluded: false, redirected: false };
 
     // Preklad starý strom -> nový beží ešte pred bránou, nech brána vidí cestu, ktorá v strome
@@ -329,6 +344,18 @@ function createCategoryMatcher(supplierName) {
     }
     fs.mkdirSync(path.dirname(reportPath), { recursive: true });
     fs.writeFileSync(reportPath, lines.join('\n') + '\n');
+
+    // Surové cesty dodávateľa a to, kam dnes vedú. Podklad pre zjednodušenie pipeline: z tohto
+    // sa dá zostaviť jedno výslovné pravidlo na dodávateľa namiesto dnešnej kaskády vrstiev.
+    if (sourceMap.size) {
+      const dir = path.join(__dirname, '..', 'data', 'zdrojove-kategorie');
+      fs.mkdirSync(dir, { recursive: true });
+      const out = {};
+      for (const [zdroj, ciele] of [...sourceMap].sort((a, b) => a[0].localeCompare(b[0]))) {
+        out[zdroj] = Object.fromEntries([...ciele].sort((a, b) => b[1] - a[1]));
+      }
+      fs.writeFileSync(path.join(dir, `${supplierName}.json`), JSON.stringify(out, null, 1) + '\n');
+    }
     const unmatchedProducts = [...unmatched.values()].reduce((s, r) => s + r.count, 0);
     const autoMatchedProducts = [...autoMatched.values()].reduce((s, r) => s + r.count, 0);
     const ancestorMatchedProducts = [...ancestorMatched.values()].reduce((s, r) => s + r.count, 0);
