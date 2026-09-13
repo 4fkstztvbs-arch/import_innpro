@@ -19,7 +19,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /pre-dieta/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Pre dieťa;Domáce spotrebiče;46746
 /mini-chladnicky/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Mini chladničky;Domáce spotrebiče;46755
 /dezinfekcne-lampy/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Dezinfekčné lampy;Domáce spotrebiče;47775
-/vybavenie-domacnosti/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vybavenie domácnosti;Domáce spotrebiče;47826
+/vybavenie-domacnosti/;/ventilatory/;exact;Domáce spotrebiče > Malé spotrebiče > Vybavenie domácnosti;Domáce spotrebiče > Klimatizácia a vzduch > Ventilátory;47826
 /hodiny-a-budiky-3/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Hodiny a budíky;Domáce spotrebiče;47958
 /plyty-gazowe/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Płyty gazowe;Domáce spotrebiče;48117
 /kuchynske-nadobie/;/kuchynske-vybavenie/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské nádobie;Domáce spotrebiče > Kuchynské vybavenie;48270
@@ -308,17 +308,17 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /vstavane-umyvacky-60-cm/;/vstavane-umyvacky-riadu/;exact;Domáce spotrebiče > Vstavané spotrebiče > Vstavané umývačky riadu > Vstavané umývačky 60 cm;Domáce spotrebiče > Vstavané umývačky riadu;39975
 /vstavane-umyvacky-45-cm/;/vstavane-umyvacky-riadu/;exact;Domáce spotrebiče > Vstavané spotrebiče > Vstavané umývačky riadu > Vstavané umývačky 45 cm;Domáce spotrebiče > Vstavané umývačky riadu;40101
 /vstavane-pecuce-rury/;/vstavane-rury/;exact;Domáce spotrebiče > Vstavané spotrebiče > Vstavané rúry > Vstavané pečúce rúry;Domáce spotrebiče > Vstavané rúry;39993
-/zvlhcovace-vzduchu/;/vzduchotechnika/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Zvlhčovače vzduchu;Domáce spotrebiče > Klimatizácia a vzduch;40428
-/vykurovanie/;/vzduchotechnika/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovanie;Domáce spotrebiče > Klimatizácia a vzduch;41217
-/klimatizacia-2/;/vzduchotechnika/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Klimatizácia;Domáce spotrebiče > Klimatizácia a vzduch;43866
+/zvlhcovace-vzduchu/;/cisticky-vzduchu/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Zvlhčovače vzduchu;Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu;40428
+/vykurovanie/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovanie;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;41217
+/klimatizacia-2/;/klimatizacia/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Klimatizácia;Domáce spotrebiče > Klimatizácia a vzduch > Klimatizácia;43866
 /prislusenstvo-15/;/vzduchotechnika/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Príslušenstvo;Domáce spotrebiče > Klimatizácia a vzduch;44679
-/zvlhcovace/;/vzduchotechnika/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Zvlhčovače;Domáce spotrebiče > Klimatizácia a vzduch;45369
-/susiaky/;/vzduchotechnika/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Sušiaky;Domáce spotrebiče > Klimatizácia a vzduch;48093
-/vykurovacie-telesa--radiatory/;/vzduchotechnika/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory;Domáce spotrebiče > Klimatizácia a vzduch;40038
-/elektricka-krbova-kachle/;/vzduchotechnika/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Elektrická krbová kachle;Domáce spotrebiče > Klimatizácia a vzduch;40557
-/teplovzdusne-ventilatory/;/vzduchotechnika/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Teplovzdušné ventilátory;Domáce spotrebiče > Klimatizácia a vzduch;40041
-/olejove-radiatory/;/vzduchotechnika/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Olejové radiátory;Domáce spotrebiče > Klimatizácia a vzduch;40278
-/konvektory/;/vzduchotechnika/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Konvektory;Domáce spotrebiče > Klimatizácia a vzduch;40326
+/zvlhcovace/;/cisticky-vzduchu/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Zvlhčovače;Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu;45369
+/susiaky/;/odvlhcovace-vzduchu/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Sušiaky;Domáce spotrebiče > Klimatizácia a vzduch > Odvlhčovače vzduchu;48093
+/vykurovacie-telesa--radiatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40038
+/elektricka-krbova-kachle/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Elektrická krbová kachle;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40557
+/teplovzdusne-ventilatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Teplovzdušné ventilátory;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40041
+/olejove-radiatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Olejové radiátory;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40278
+/konvektory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Konvektory;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40326
 /sijacie-stroje/;/zehlicky/;ancestor(-2);Domáce spotrebiče > Malé spotrebiče > Žehličky > Šijacie stroje a príslušenstvo > Šijacie stroje;Domáce spotrebiče > Žehličky;40098
 /elektricke-noze/;/triedenie-odpadu-a-organizery/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Elektrické nože;Domáce spotrebiče > Triedenie odpadu a domáce organizéry;40107
 /meteostanice--teplomery--vlhkomery/;/triedenie-odpadu-a-organizery/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Meteostanice, teplomery, vlhkomery;Domáce spotrebiče > Triedenie odpadu a domáce organizéry;40746
@@ -1592,7 +1592,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /plastove-talirove-difuzery/;/ventilacne-technika/;ancestor(-2);Elektroinštalačný materiál > Ventilačné technika > Talířové ventily a difuzéry > Plastové talířové difuzéry;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;44178
 /plastove-talirove-ventily/;/ventilacne-technika/;ancestor(-2);Elektroinštalačný materiál > Ventilačné technika > Talířové ventily a difuzéry > Plastové talířové ventily;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;44733
 /kovove-talirove-ventily/;/ventilacne-technika/;ancestor(-2);Elektroinštalačný materiál > Ventilačné technika > Talířové ventily a difuzéry > Kovové talířové ventily;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;45447
-/stolove-ventilatory/;/vzduchotechnika/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Ventilátory > Stolové ventilátory;Domáce spotrebiče > Klimatizácia a vzduch;48126
+/stolove-ventilatory/;/ventilatory/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Ventilátory > Stolové ventilátory;Domáce spotrebiče > Klimatizácia a vzduch > Ventilátory;48126
 /navijaky/;/garaz--dielna--servis/;ancestor(-2);Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Navijaky a zdviháky > Navijaky;Auto-moto > Garáž, dielňa, servis;44304
 /zdvihaky-a-hevaky/;/garaz--dielna--servis/;ancestor(-2);Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Navijaky a zdviháky > Zdviháky a heváky;Auto-moto > Garáž, dielňa, servis;44640
 /anteny-pre-dvb-t2-prijem/;/karavany-a-obytne-auta/;ancestor(-2);Auto-moto > Karavany a obytné autá > Mobilné TV a SAT antény > Antény pre DVB-T2 príjem;Auto-moto > Karavany a obytné autá;44343
