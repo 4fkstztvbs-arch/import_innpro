@@ -4,13 +4,13 @@
   ],
   "categoryOverridesByCode": {
     "_comment": "Per-produkt oprava kategórie, keď je INNPRO produkt vo vlastnom feede nesprávne zaradený (napr. teleprompter pod Tablety) - path-based renames by tu zasiahli aj správne zaradené produkty v tej istej kategórii.",
-    "083768": "TV, foto, audio video > Foto a príslušenstvo > Príslušenstvo"
+    "083768": "TV, foto, audio video > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
   },
   "categoryRenamesByPath": {
     "Audio": "TV, foto, audio video > Audio technika",
     "Foto a video": "TV, foto, audio video > Foto a príslušenstvo",
     "IT príslušenstvo": "Počítače, mobily a tablety",
-    "Hry": "Počítače, mobily a tablety > Herné príslušenstvo",
+    "Hry": "Počítače, mobily a tablety > Herné príslušenstvo pre PC",
     "Príslušenstvo GSM": "Počítače, mobily a tablety",
     "Smartfóny a tablety": "Počítače, mobily a tablety",
     "Smart hodinky": "Počítače, mobily a tablety",
@@ -79,17 +79,17 @@
     "Auto-moto/Karavany a obytné autá/Lapače hmyzu": "Auto-moto > Karavany a obytné autá",
     "Auto-moto/Karavany a obytné autá/Mobilné TV a SAT antény": "Auto-moto > Karavany a obytné autá",
     "Auto-moto/Karavany a obytné autá/Televízory na 12V": "Auto-moto > Karavany a obytné autá",
-    "Šport, hračky a voľný čas/Sportovní vybavenie/Odražedla": "Cestovanie, šport a outdoor > Sportovní vybavenie",
+    "Šport, hračky a voľný čas/Sportovní vybavenie/Odražedla": "Cestovanie, šport a outdoor > Športové vybavenie",
     "Šport, hračky a voľný čas/Posilňovanie a fitness/Príslušenstvo pre posilňovanie": "Cestovanie, šport a outdoor > Posilňovanie a fitness",
     "Náradie a dielňa/Meracie nástroje": "Dielňa a záhrada > Meracia technika",
     "TV, audio a video/Reproduktory": "TV, foto, audio video > Audio technika > Reproduktory",
     "TV, audio a video/Reproduktory/Drátové reproduktory": "TV, foto, audio video > Audio technika > Reproduktory",
     "Zdravie a starostlivosť/Ústne sprchy": "Zdravie a starostlivosť > Starostlivosť o zuby",
     "Zdravie a starostlivosť/Ústne sprchy/Ústne sprchy": "Zdravie a starostlivosť > Starostlivosť o zuby",
-    "Fotovoltaika a energie/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo > Powerbanky",
-    "Fotovoltaika a energie/Nabíjačky/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo > Powerbanky",
-    "Fotovoltaika a energie/Záložné zdroje a UPS/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo > Powerbanky",
-    "Fotovoltaika a energie/Napájacie zdroje/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo > Powerbanky"
+    "Fotovoltaika a energie/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny > Powerbanky",
+    "Fotovoltaika a energie/Nabíjačky/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny > Powerbanky",
+    "Fotovoltaika a energie/Záložné zdroje a UPS/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny > Powerbanky",
+    "Fotovoltaika a energie/Napájacie zdroje/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny > Powerbanky"
   },
   "categorySubRulesByName": {
     "Dielňa a záhrada > Meracia technika": [

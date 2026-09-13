@@ -1,8 +1,8 @@
 # Postup nasadenia nového stromu kategórií (noc nedeľa → pondelok)
 
-> **Aktualizované 2026-09-12:** strom má po zlúčení meracej a spájkovacej techniky **241 uzlov**
-> (pôvodne 227) – viď sekciu „Zlúčenie meracej a spájkovacej techniky" na konci dokumentu.
-> Sú to prvé kategórie v hĺbke 2, všetky ostatné zostávajú v hĺbke 1.
+> **Aktualizované 2026-09-13:** strom má **242 uzlov**. Audit pred nasadením našiel a opravil
+> štyri chyby – viď sekciu „Nálezy auditu 2026-09-13" na konci dokumentu. Pribudol krok 4c
+> (regenerovanie `data/category-urls.json`).
 
 Pripravené súbory čakajú vedľa aktuálnych (živých) ako `*.new.json` / s dátumom v názve —
 **nočný sync do nedele bude fungovať bez zmeny**, tieto sa aktivujú až ručným premenovaním
@@ -22,6 +22,10 @@ podľa tohto postupu, v uvedenom poradí.
 | `scripts/heureka-mapping.json` | `scripts/heureka-mapping.new.json` |
 | `scripts/heureka-hidden-categories.json` | `scripts/heureka-hidden-categories.new.json` |
 | `data/known-categories.json` | `data/known-categories-new-2026-09-12.json` |
+
+**Pozor:** celá dnešná práca je na vetve `claude/eshop-ux-ui-conversion-a1x9fq`, nie na `main`.
+Workflowy si berú kód z `main`, takže vetvu treba **zlúčiť do `main` pred krokom 4** – inak
+nočné behy pobežia bez deduplikácie dodávateľov, bez vynútenia kategórií a so starými cenami.
 
 Každý `categoryRenamesByPath`/`categoryOverridesByCode` záznam bol prepísaný zo starej cesty na
 zodpovedajúcu cestu v novom 227-kategóriovom strome (metodika a nálezy nižšie). `categoryExclusionsByPath`
@@ -129,6 +133,13 @@ o úroveň vyššie) a zapíše sa do `reports/kategorie-mimo-stromu-{dodavatel}
 Shoptet nemôže vytvoriť žiadnu kategóriu, ktorá nie je v novom strome – ani cez trusted
 `categoryRenamesByPath`, ani cez BASYS/MONACOR, ktoré gate nemajú.
 
+## 4c. Odkazy na kategórie v popisoch produktov
+`scripts/add-category-links.js` dopĺňa do popisu každého produktu odkaz na jeho kategóriu.
+`data/category-urls.json` už je vygenerovaný z nového stromu a kľúčovaný **plnou cestou**
+(predtým názvom listu, čo pri 5 rovnako pomenovaných listoch viedlo na cudziu kategóriu).
+Netreba nič robiť – len vedieť, že do prepnutia mappingov (krok 4) skript odkazy nedopĺňa,
+lebo feedy ešte zapisujú staré cesty. Po kroku 4 sa doplnia automaticky.
+
 ## 5. Overenie po prvom behu
 Po prvom behu po prepnutí skontrolovať `reports/nezaradene-kategorie-*.md` pre každého
 dodávateľa — mal by byť prázdny alebo len s pár okrajovými položkami (viď nižšie, tieto
@@ -208,3 +219,56 @@ v `scripts/innpro-mapping.new.json` a aktivujú sa až pri kroku 4.
 (7 ks) a `> Výpredaj` (4 ks). Kontrola exportu ukázala, že **žiadny z týchto 11 produktov nie je
 v inej kategórii**, takže ich zmazanie by ich nechalo bez kategórie. Podľa dohody sa riešia neskôr
 – najprv treba produkty preradiť do vecných kategórií, až potom kategórie zrušiť.
+
+
+## Nálezy auditu 2026-09-13 (pred nasadením)
+
+Systematická kontrola všetkých pripravených súborov našla štyri chyby. Všetky sú opravené
+a overené.
+
+**1. Názvy kategórií v strome nesúhlasili s názvami v importe (55 uzlov) — vážne.**
+Pri tvorbe SEO obsahu dostalo 55 kategórií presnejší názov (napr. „Načítanie" → „Nabíjačky pre
+drony a RC modely", „Fotovoltaika" → „Fotovoltaické inštalačné príslušenstvo"), ale `name`
+a `full_path` v strome zostali pôvodné. Mappingy dodávateľov, `known-categories`, Heureka
+mapovanie aj vynútenie kategórií pritom vychádzajú z `full_path`. Feedy by teda po prepnutí
+zapisovali cesty, ktoré by v Shoptete neexistovali, a Shoptet by k 55 správnym kategóriám
+vytvoril 55 duplikátov so starým názvom — presne to, čomu má celý projekt zabrániť. Strom
+je zjednotený s importom (58 prepísaných ciest vrátane potomkov) a všetko nadväzujúce
+pregenerované.
+
+**2. Powerbanky nemali v strome uzol.** Mappingy piatich dodávateľov smerovali 43 produktov na
+`Počítače, mobily a tablety > Príslušenstvo > Powerbanky`, ktorá v strome neexistovala — doteraz
+to fungovalo, lebo trusted rename ju dal Shoptetu vytvoriť. S novým vynútením by sa skrátila na
+rodiča a powerbanky by prišli o vlastnú kategóriu. Pridaný uzol `g146a` s URL `powerbanky`
+(prevzatá zo starého stromu, teda bez potreby presmerovania) a všetkých 5 starých ciest naň
+presmerovaných.
+
+**3. Prepis mappingov mazal pravidlá pre InnPro.** `rewrite_supplier_mappings.py` skladá
+`.new.json` zo živého mapping súboru, takže `categorySubRulesByName` (rozdelenie 253 produktov
+meracej techniky podľa názvu) sa pri každom prepise ticho stratilo. Skript ich teraz vkladá
+zakaždým.
+
+**4. Odkazy v popisoch produktov mierili na starý strom.** `data/category-urls.json` bol
+vygenerovaný zo sitemapy z 6. 9. — 881 z 1034 cieľových URL by po prepnutí ukazovalo mimo nového
+stromu. Mapa je pregenerovaná z nového stromu a `add-category-links.js` páruje podľa plnej cesty
+namiesto názvu listu.
+
+### Overené, bez potreby zásahu
+
+- 2339 presmerovaní: 0 duplicitných zdrojov, 0 reťazcov, všetky ciele v strome, všetky zdroje
+  existujú v živom strome. Bez presmerovania zostávajú 2 staré kategórie (`akce-atos-35-let`,
+  `druhy`) — obe sú `visible=0`, teda skryté, bez dopadu na SEO.
+- Import CSV: 242 riadkov, rodič vždy pred dieťaťom, žiadny `metaDescription` nad 160 znakov,
+  `id`/`parentId` prázdne.
+- Všetkých 8 mapping súborov: 0 hodnôt mimo stromu.
+- 466 odkazov v importe výrobcov: všetky na existujúce kategórie.
+- Simulácia feedu s novými cestami cez `enforce-tree-categories.js`: 0 skrátených, 0 vynechaných.
+  Cez `add-category-links.js`: 242 z 242 produktov dostalo správny odkaz.
+
+### Drobnosť na vedomie
+
+`scripts/collapse-thin-categories.js` zlučuje do rodiča kategórie s menej než 8 produktmi. V novom
+strome sú take 4 uzly: „Diaľkové ovládače" (0 priamych, deti majú stovky — nič sa nestane),
+„Výpredaj" a „Nové produkty" (tie už predtým zahodí `fix-ignored-categories.js`) a „Foto
+a príslušenstvo" (7 priamych produktov by sa presunulo o úroveň vyššie). Dopad je zanedbateľný,
+ale ak nechceš ani to, dá sa prah zvýšiť cez `THIN_CATEGORY_MIN`.

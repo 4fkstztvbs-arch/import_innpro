@@ -27,10 +27,6 @@ function escapeHtml(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-function leafOf(categoryPath) {
-  const segs = categoryPath.split(' > ');
-  return segs[segs.length - 1];
-}
 
 function main() {
   const xml = fs.readFileSync(XML_PATH, 'utf-8');
@@ -44,8 +40,13 @@ function main() {
     const catM = rest.match(/<CATEGORY><!\[CDATA\[(.*?)\]\]><\/CATEGORY>/s);
     if (!catM) { noMatch++; return rest; }
 
-    const leaf = leafOf(catM[1]);
-    const url = CATEGORY_URLS[leaf];
+    // Parovanie podla PLNEJ cesty, nie podla nazvu listu: v strome je 5 rovnakych nazvov listov
+    // ("Prislusenstvo", "Reproduktory", "Nabijacky", "Selfie tyce", "Fotovoltaika") a podla
+    // samotneho listu by produkt dostal odkaz na cudziu kategoriu. Text odkazu zostava nazov
+    // listu - v texte popisu dava zmysel kratky nazov, nie cela cesta.
+    const fullPath = catM[1].trim();
+    const leaf = fullPath.split(' > ').pop().trim();
+    const url = CATEGORY_URLS[fullPath];
     if (!url) { noMatch++; return rest; }
 
     if (rest.includes(`href="${url}"`)) { alreadyHad++; return rest; }
