@@ -309,16 +309,16 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /vstavane-umyvacky-45-cm/;/vstavane-umyvacky-riadu/;exact;Domáce spotrebiče > Vstavané spotrebiče > Vstavané umývačky riadu > Vstavané umývačky 45 cm;Domáce spotrebiče > Vstavané umývačky riadu;40101
 /vstavane-pecuce-rury/;/vstavane-rury/;exact;Domáce spotrebiče > Vstavané spotrebiče > Vstavané rúry > Vstavané pečúce rúry;Domáce spotrebiče > Vstavané rúry;39993
 /zvlhcovace-vzduchu/;/cisticky-vzduchu/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Zvlhčovače vzduchu;Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu;40428
-/vykurovanie/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovanie;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;41217
+/vykurovanie/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovanie;Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá;41217
 /klimatizacia-2/;/klimatizacia/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Klimatizácia;Domáce spotrebiče > Klimatizácia a vzduch > Klimatizácia;43866
 /prislusenstvo-15/;/vzduchotechnika/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Príslušenstvo;Domáce spotrebiče > Klimatizácia a vzduch;44679
 /zvlhcovace/;/cisticky-vzduchu/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Zvlhčovače;Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu;45369
 /susiaky/;/odvlhcovace-vzduchu/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Sušiaky;Domáce spotrebiče > Klimatizácia a vzduch > Odvlhčovače vzduchu;48093
-/vykurovacie-telesa--radiatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40038
-/elektricka-krbova-kachle/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Elektrická krbová kachle;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40557
-/teplovzdusne-ventilatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Teplovzdušné ventilátory;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40041
-/olejove-radiatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Olejové radiátory;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40278
-/konvektory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Konvektory;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá;40326
+/vykurovacie-telesa--radiatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory;Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá;40038
+/elektricka-krbova-kachle/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Elektrická krbová kachle;Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá;40557
+/teplovzdusne-ventilatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Teplovzdušné ventilátory;Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá;40041
+/olejove-radiatory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Olejové radiátory;Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá;40278
+/konvektory/;/vykurovacie-telesa/;exact;Domáce spotrebiče > Malé spotrebiče > Vzduchotechnika > Vykurovacie telesá > Vykurovacie telesá, radiátory > Konvektory;Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá;40326
 /sijacie-stroje/;/zehlicky/;ancestor(-2);Domáce spotrebiče > Malé spotrebiče > Žehličky > Šijacie stroje a príslušenstvo > Šijacie stroje;Domáce spotrebiče > Žehličky;40098
 /elektricke-noze/;/triedenie-odpadu-a-organizery/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Elektrické nože;Domáce spotrebiče > Triedenie odpadu a domáce organizéry;40107
 /meteostanice--teplomery--vlhkomery/;/triedenie-odpadu-a-organizery/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Meteostanice, teplomery, vlhkomery;Domáce spotrebiče > Triedenie odpadu a domáce organizéry;40746
@@ -2086,9 +2086,9 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /ozonove/;/domace-spotrebice/;ancestor(-2);Domáce spotrebiče > Malé spotrebiče > Dezinfekčné lampy > Ozónové;Domáce spotrebiče;47778
 /bezozonove/;/domace-spotrebice/;ancestor(-2);Domáce spotrebiče > Malé spotrebiče > Dezinfekčné lampy > Bezozónové;Domáce spotrebiče;47877
 /prislusenstvo--nahradne-diely/;/domace-spotrebice/;ancestor(-2);Domáce spotrebiče > Malé spotrebiče > Dezinfekčné lampy > Príslušenstvo, náhradné diely;Domáce spotrebiče;47898
-/prislusenstvo-38/;/rucne-aku-naradie/;exact;Náradie a dielňa > Ručné AKU náradie > Príslušenstvo;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Ručné AKU náradie Solight;47802
-/pily-4/;/rucne-aku-naradie/;ancestor(-1);Náradie a dielňa > Ručné AKU náradie > Pily;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Ručné AKU náradie Solight;47883
-/noznice-2/;/rucne-aku-naradie/;ancestor(-1);Náradie a dielňa > Ručné AKU náradie > Nožnice;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Ručné AKU náradie Solight;47922
+/prislusenstvo-38/;/rucne-aku-naradie/;exact;Náradie a dielňa > Ručné AKU náradie > Príslušenstvo;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie;47802
+/pily-4/;/rucne-aku-naradie/;ancestor(-1);Náradie a dielňa > Ručné AKU náradie > Pily;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie;47883
+/noznice-2/;/rucne-aku-naradie/;ancestor(-1);Náradie a dielňa > Ručné AKU náradie > Nožnice;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie;47922
 /slim/;/viacnasobne-zasuvky-a-izolacny-material/;ancestor(-1);Elektroinštalačný materiál > Ostatné > 230V > Vypínače a zásuvky > Slim;Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál;47808
 /do-vlhka/;/viacnasobne-zasuvky-a-izolacny-material/;ancestor(-1);Elektroinštalačný materiál > Ostatné > 230V > Vypínače a zásuvky > Do vlhka;Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál;47931
 /prisadene-osvetlenie/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED osvetlenie > Vonkajšie osvetlenie > Prisadené osvetlenie;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;47814

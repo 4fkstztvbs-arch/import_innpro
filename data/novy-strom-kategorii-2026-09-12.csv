@@ -61,11 +61,11 @@ g64h;g64;2;Osciloskopy, generátory a laboratórne zdroje;osciloskopy-a-generato
 g64l;g64;2;Príslušenstvo k meracej technike;prislusenstvo-k-meracej-technike;Dielňa, náradie a záhrada > Meracia technika > Príslušenstvo k meracej technike
 g64f;g64;2;Testery a skúšačky;testery-a-skusacky;Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky
 g300;nmtx2z35i18n8n2;1;Ručné a elektrické náradie;rucne-a-elektricke-naradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie
+g78;g300;2;Aku náradie a batérie;rucne-aku-naradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie
 g79;g300;2;Lepiace a horúcovzdušné pištole;lepiace-a-horucovzdusne-pistole;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Lepiace a horúcovzdušné pištole
 g66;g300;2;Mechanické náradie;mechanicke-naradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie
 g67;g300;2;Náradie pre brúsenie, vŕtanie, rezanie a pilovanie;naradie-pre-brusenie--vrtanie--rezanie-a-pilovanie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie
 g80;g300;2;Pneumatické náradie;pneumaticke-naradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Pneumatické náradie
-g78;g300;2;Ručné AKU náradie Solight;rucne-aku-naradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Ručné AKU náradie Solight
 g74;g300;2;Sady náradia;sady-naradia;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia
 g73;g300;2;Stavebné a maliarske náradie;stavebne-a-maliarske-naradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Stavebné a maliarske náradie
 g65;nmtx2z35i18n8n2;1;Spájkovacia technika;spajkovacie-technika;Dielňa, náradie a záhrada > Spájkovacia technika
@@ -91,7 +91,6 @@ g97;nmtx2zmrqmyq3yo;1;Klimatizácia a vzduch;vzduchotechnika;Domáce spotrebiče
 g97a;g97;2;Aróma difuzéry;aroma-difuzery;Domáce spotrebiče > Klimatizácia a vzduch > Aróma difuzéry
 g97f;g97;2;Klimatizácia;klimatizacia;Domáce spotrebiče > Klimatizácia a vzduch > Klimatizácia
 g97c;g97;2;Odvlhčovače vzduchu;odvlhcovace-vzduchu;Domáce spotrebiče > Klimatizácia a vzduch > Odvlhčovače vzduchu
-g97d;g97;2;Ohrievače a vykurovacie telesá;vykurovacie-telesa;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá
 g97e;g97;2;Ventilátory;ventilatory;Domáce spotrebiče > Klimatizácia a vzduch > Ventilátory
 g97b;g97;2;Čističky a zvlhčovače vzduchu;cisticky-vzduchu;Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu
 g90;nmtx2zmrqmyq3yo;1;Kuchynské roboty a krájače;kuchynske-roboty-a-krajace;Domáce spotrebiče > Kuchynské roboty a krájače
@@ -127,6 +126,7 @@ g127;nmtx2zmrqmyq3yo;1;Vstavané mikrovlnné rúry;vstavane-mikrovlnne-rury;Dom�
 g123;nmtx2zmrqmyq3yo;1;Vstavané rúry;vstavane-rury;Domáce spotrebiče > Vstavané rúry
 g125;nmtx2zmrqmyq3yo;1;Vstavané umývačky riadu;vstavane-umyvacky-riadu;Domáce spotrebiče > Vstavané umývačky riadu
 g121;nmtx2zmrqmyq3yo;1;Vykurovanie a ohrev vody;vykurovanie-a-ohrev-vody;Domáce spotrebiče > Vykurovanie a ohrev vody
+g97d;g121;2;Ohrievače a vykurovacie telesá;vykurovacie-telesa;Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá
 g89;nmtx2zmrqmyq3yo;1;Vysávače;vysavace;Domáce spotrebiče > Vysávače
 g98;nmtx2zmrqmyq3yo;1;Vákuovačky a zváračky fólií;vakuovacky-a-zvaracky-folii;Domáce spotrebiče > Vákuovačky a zváračky fólií
 g113;nmtx2zmrqmyq3yo;1;Čistiace prístroje a doplnky;cistiace-pristroje-a-doplnky;Domáce spotrebiče > Čistiace prístroje a doplnky
