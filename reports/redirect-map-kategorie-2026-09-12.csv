@@ -470,7 +470,6 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /vstavane-kombinovane-chladnicky/;/vstavane-chladenie/;ancestor(-1);Domáce spotrebiče > Vstavané spotrebiče > Vstavané chladenie > Vstavané kombinované chladničky;Domáce spotrebiče > Vstavané chladenie;40647
 /vstavane-chladnicky-s-mraziace-priehradkou/;/vstavane-chladenie/;ancestor(-1);Domáce spotrebiče > Vstavané spotrebiče > Vstavané chladenie > Vstavané chladničky s mraziace priehradkou;Domáce spotrebiče > Vstavané chladenie;48129
 /vstavane-monoklimaticke-chladnicky/;/vstavane-chladenie/;ancestor(-1);Domáce spotrebiče > Vstavané spotrebiče > Vstavané chladenie > Vstavané monoklimatické chladničky;Domáce spotrebiče > Vstavané chladenie;48141
-/fotovoltaika/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;40956
 /powerbanky-3/;/powerbanky/;exact;Fotovoltaika a energie > Powerbanky;Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny > Powerbanky;46191
 /fotovoltaicke-panely/;/fotovoltaika-a-energie/;ancestor(-1);Fotovoltaika a energie > Fotovoltaické panely;Energia a napájanie;46611
 /nabijacky-pre-olovene-akumulatory/;/nabijacky/;exact;Fotovoltaika a energie > Nabíjačky > Nabíjačky pre olovené akumulátory;Energia a napájanie > Nabíjačky;42210
@@ -571,23 +570,23 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /odpojovace-baterii-2/;/istice-a-chranice/;ancestor(-1);Elektroinštalačný materiál > Ističe a chrániče > Odpojovače batérií;Elektro, Smart Home a osvetlenie > Ističe a chrániče;44829
 /pojistkova-puzdra/;/istice-a-chranice/;ancestor(-1);Elektroinštalačný materiál > Ističe a chrániče > Pojistková puzdrá;Elektro, Smart Home a osvetlenie > Ističe a chrániče;45144
 /istice-dc/;/istice-a-chranice/;ancestor(-1);Elektroinštalačný materiál > Ističe a chrániče > Ističe DC;Elektro, Smart Home a osvetlenie > Ističe a chrániče;45168
-/fotovoltaicke-prislusenstvo/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Fotovoltaické príslušenstvo;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;40959
-/konstrukcia-pre-solarne-panely/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;40974
-/kable-pre-fotovoltaiku/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41082
-/rozvadzace/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41358
-/ochrana-fv-instalaci/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41526
-/konektory-pre-fotovoltaiku/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41676
-/solarne-regulatory/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne regulátory;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42237
-/solarne-panely/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne panely;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42558
-/solarne-zostavy/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne zostavy;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42897
-/nabijacie-stanice/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Nabíjacie stanice;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43092
-/naradie-pre-fotovoltaiku/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Náradie pre fotovoltaiku;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43278
-/solarne-menice-napatie/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne meniče napätie;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43368
-/elektromery/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Elektromery;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43533
-/solarne-nabijacky-2/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne nabíjačky;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;44925
-/solarne-baterie-2/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne batérie;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;45360
-/baterie-a-prislusenstvo/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Batérie a príslušenstvo;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;47934
-/menice/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Meniče;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;47940
+/fotovoltaicke-prislusenstvo/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Fotovoltaické príslušenstvo;Energia a napájanie > Fotovoltaika;40959
+/konstrukcia-pre-solarne-panely/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely;Energia a napájanie > Fotovoltaika;40974
+/kable-pre-fotovoltaiku/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku;Energia a napájanie > Fotovoltaika;41082
+/rozvadzace/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače;Energia a napájanie > Fotovoltaika;41358
+/ochrana-fv-instalaci/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací;Energia a napájanie > Fotovoltaika;41526
+/konektory-pre-fotovoltaiku/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku;Energia a napájanie > Fotovoltaika;41676
+/solarne-regulatory/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne regulátory;Energia a napájanie > Fotovoltaika;42237
+/solarne-panely/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne panely;Energia a napájanie > Fotovoltaika;42558
+/solarne-zostavy/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne zostavy;Energia a napájanie > Fotovoltaika;42897
+/nabijacie-stanice/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Nabíjacie stanice;Energia a napájanie > Fotovoltaika;43092
+/naradie-pre-fotovoltaiku/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Náradie pre fotovoltaiku;Energia a napájanie > Fotovoltaika;43278
+/solarne-menice-napatie/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne meniče napätie;Energia a napájanie > Fotovoltaika;43368
+/elektromery/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Elektromery;Energia a napájanie > Fotovoltaika;43533
+/solarne-nabijacky-2/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne nabíjačky;Energia a napájanie > Fotovoltaika;44925
+/solarne-baterie-2/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne batérie;Energia a napájanie > Fotovoltaika;45360
+/baterie-a-prislusenstvo/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Batérie a príslušenstvo;Energia a napájanie > Fotovoltaika;47934
+/menice/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Meniče;Energia a napájanie > Fotovoltaika;47940
 /bezdratove-zvonceky/;/zvonceky-2/;exact;Záhrada > Brány a zvončeky > Bezdrátové zvončeky;Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky;40965
 /parkovaci-zabrany/;/pohony-bran-a-vrat/;exact;Záhrada > Brány a zvončeky > Parkovací zábrany;Elektro, Smart Home a osvetlenie > Pohony brán a vrát;41742
 /prislusenstvo-pre-pohony-vrat/;/pohony-bran-a-vrat/;exact;Záhrada > Brány a zvončeky > Príslušenstvo pre pohony vrat;Elektro, Smart Home a osvetlenie > Pohony brán a vrát;43170
@@ -602,11 +601,11 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /lopaty/;/zahradne-naradie-2/;ancestor(-1);Záhrada > Záhradné náradie > Lopaty;Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné náradie;44061
 /sady-zahradneho-naradie/;/zahradne-naradie-2/;ancestor(-1);Záhrada > Záhradné náradie > Sady záhradného náradie;Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné náradie;44712
 /hrable/;/zahradne-naradie-2/;exact;Záhrada > Záhradné náradie > Hrable;Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné náradie;45423
-/na-sikmou-strechu/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Na šikmou střechu;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;40977
-/spojovacie-material/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Spojovacie materiál;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42234
-/profily-a-listy/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Profily a lišty;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42312
-/doplnky-a-prislusenstvo/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Doplnky a príslušenstvo;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42774
-/na-rovnou-strechu/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Na rovnou střechu;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43482
+/na-sikmou-strechu/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Na šikmou střechu;Energia a napájanie > Fotovoltaika;40977
+/spojovacie-material/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Spojovacie materiál;Energia a napájanie > Fotovoltaika;42234
+/profily-a-listy/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Profily a lišty;Energia a napájanie > Fotovoltaika;42312
+/doplnky-a-prislusenstvo/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Doplnky a príslušenstvo;Energia a napájanie > Fotovoltaika;42774
+/na-rovnou-strechu/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Na rovnou střechu;Energia a napájanie > Fotovoltaika;43482
 /specialne-naradie-a-pripravky/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky;Auto-moto > Garáž, dielňa, servis;40983
 /autodiagnostika/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Autodiagnostika;Auto-moto > Garáž, dielňa, servis;41109
 /kompresory--hustilky/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Kompresory, hustilky;Auto-moto > Garáž, dielňa, servis;41169
@@ -722,9 +721,9 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /4v/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > Olovené akumulátory > 4V;Energia a napájanie > Akumulátory a batérie;45432
 /36v/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > Olovené akumulátory > 36V;Energia a napájanie > Akumulátory a batérie;45558
 /24v-3/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > Olovené akumulátory > 24V;Energia a napájanie > Akumulátory a batérie;48177
-/fotovoltaicke-kable-2/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Fotovoltaické káble;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41085
-/chranicky/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Chráničky;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43083
-/silove-kable-2/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Silové káble;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43716
+/fotovoltaicke-kable-2/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Fotovoltaické káble;Energia a napájanie > Fotovoltaika;41085
+/chranicky/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Chráničky;Energia a napájanie > Fotovoltaika;43083
+/silove-kable-2/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku > Silové káble;Energia a napájanie > Fotovoltaika;43716
 /2-0-mpix--full-hd/;/kamerove-systemy/;ancestor(-2);Bezpečnosť a smart domácnosť > Kamerové systémy > HDCVI, HDTVI, AHD kamery > 2.0 Mpix (Full HD);Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;41091
 /otocne/;/kamerove-systemy/;ancestor(-2);Bezpečnosť a smart domácnosť > Kamerové systémy > HDCVI, HDTVI, AHD kamery > Otočné;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;42750
 /bazeny-a-doplnky/;/zahradne-doplnky/;exact;Záhrada > Záhradné doplnky > Bazény a doplnky;Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky;41097
@@ -907,10 +906,10 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /nastenne-priemyselne-zasuvky/;/predlzovacky--zasuvky--vidlica/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Priemyselné vidlica a zásuvky > Priemyselné zásuvky > Nástenné priemyselné zásuvky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41346
 /dc-rozvadzace/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače osadené > DC rozvádzače;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;41355
 /ac-rozvadzace/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače osadené > AC rozvádzače;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;43488
-/osadene-dc-rozvadzace/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Osadené DC rozvádzače;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41361
-/samostatne-rozvadzace/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Samostatné rozvádzače;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41550
-/osadene-ac-rozvadzace/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Osadené AC rozvádzače;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43491
-/vyhodne-sety-rozvadec-komponenty/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Výhodné sety rozvaděč + komponenty;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;44436
+/osadene-dc-rozvadzace/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Osadené DC rozvádzače;Energia a napájanie > Fotovoltaika;41361
+/samostatne-rozvadzace/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Samostatné rozvádzače;Energia a napájanie > Fotovoltaika;41550
+/osadene-ac-rozvadzace/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Osadené AC rozvádzače;Energia a napájanie > Fotovoltaika;43491
+/vyhodne-sety-rozvadec-komponenty/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Rozvádzače > Výhodné sety rozvaděč + komponenty;Energia a napájanie > Fotovoltaika;44436
 /5-0-mpix/;/kamerove-systemy/;ancestor(-1);Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové kamery > 5.0 Mpix.;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;41376
 /4-0-mpix/;/kamerove-systemy/;exact;Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové kamery > 4.0 Mpix.;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;43740
 /2-0-mpix-full-hd--2-4-mpix/;/kamerove-systemy/;exact;Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové kamery > 2.0 Mpix. (Full HD) / 2.4 Mpix;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;43743
@@ -958,11 +957,11 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /fungicidy-proti-houbam-a-plisnim/;/zahradne-doplnky/;ancestor(-1);Záhrada > Záhradné doplnky > Pestovanie > Fungicidy proti houbám a plísním;Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky;43059
 /pestebni-lampy/;/zahradne-doplnky/;ancestor(-1);Záhrada > Záhradné doplnky > Pestovanie > Pěstební lampy;Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky;43731
 /travni-smesi/;/zahradne-doplnky/;ancestor(-1);Záhrada > Záhradné doplnky > Pestovanie > Travní směsi;Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky;44556
-/uzemnovaci-prvky/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Uzemňovací prvky;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41529
-/prepatove-ochrany-2/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Prepäťové ochrany;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42123
-/poistky-2/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Poistky;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42315
-/pojistne-odpinace-odpojovace/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Pojistné odpínače/odpojovače;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;44754
-/istice/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Ističe;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;44823
+/uzemnovaci-prvky/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Uzemňovací prvky;Energia a napájanie > Fotovoltaika;41529
+/prepatove-ochrany-2/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Prepäťové ochrany;Energia a napájanie > Fotovoltaika;42123
+/poistky-2/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Poistky;Energia a napájanie > Fotovoltaika;42315
+/pojistne-odpinace-odpojovace/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Pojistné odpínače/odpojovače;Energia a napájanie > Fotovoltaika;44754
+/istice/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací > Ističe;Energia a napájanie > Fotovoltaika;44823
 /rozvodnice-acqua-ip65/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné > Rozvodnice Acqua IP65;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;41547
 /skrine-magna-ip65/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné > Skrine MAGNA IP65;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;42375
 /skrine-acquacombi-ip65-s-otvory/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné > Skrine AcquaCOMBI IP65 s otvory;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;42378
@@ -1045,9 +1044,9 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /sady-fastonov--konektorov/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo > Očká, fastóny, dutinky, spojky > Sady fastónov (konektorov);Energia a napájanie > Akumulátory a batérie;48444
 /kablove-spojky--konektory/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo > Očká, fastóny, dutinky, spojky > Káblové spojky (konektory);Energia a napájanie > Akumulátory a batérie;48450
 /fastonove-konektory/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo > Očká, fastóny, dutinky, spojky > Fastónové konektory;Energia a napájanie > Akumulátory a batérie;48456
-/dutinky-na-kabel/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku > Dutinky na kabel;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41679
-/kablova-ocka-2/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku > Káblová očká;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;41688
-/konektory-mc4/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku > Konektory MC4;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43929
+/dutinky-na-kabel/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku > Dutinky na kabel;Energia a napájanie > Fotovoltaika;41679
+/kablova-ocka-2/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku > Káblová očká;Energia a napájanie > Fotovoltaika;41688
+/konektory-mc4/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku > Konektory MC4;Energia a napájanie > Fotovoltaika;43929
 /noze-a-noznice/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Nože a nožnice;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;41700
 /skrutkovace--bity--imbusy/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Skrutkovače, bity, imbusy;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;41835
 /sady-naradie-2/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Sady náradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;41853
@@ -1267,9 +1266,9 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /misky--nadoby-a-lieviky/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Olej > Misky, nádoby a lieviky;Auto-moto > Garáž, dielňa, servis;42207
 /olejove-vany/;/garaz--dielna--servis/;ancestor(-1);Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Olej > Olejové vany;Auto-moto > Garáž, dielňa, servis;43065
 /olejnicky-a-maznice/;/garaz--dielna--servis/;ancestor(-1);Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Motor > Olej > Olejničky a maznice;Auto-moto > Garáž, dielňa, servis;45027
-/solarne-regulatory-mppt/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne regulátory > Solárne regulátory MPPT;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42240
-/solarne-regulatory-pwm/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne regulátory > Solárne regulátory PWM;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42921
-/solarne-regulatory-pre-ohrev-vody/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne regulátory > Solárne regulátory pre ohrev vody;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;44214
+/solarne-regulatory-mppt/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne regulátory > Solárne regulátory MPPT;Energia a napájanie > Fotovoltaika;42240
+/solarne-regulatory-pwm/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne regulátory > Solárne regulátory PWM;Energia a napájanie > Fotovoltaika;42921
+/solarne-regulatory-pre-ohrev-vody/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne regulátory > Solárne regulátory pre ohrev vody;Energia a napájanie > Fotovoltaika;44214
 /prislusenstvo-k-pneu-naradie/;/pneumaticke-naradie/;ancestor(-1);Náradie a dielňa > Pneumatické náradie > Príslušenstvo k pneu náradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Pneumatické náradie;42282
 /razove-utahovaky/;/pneumaticke-naradie/;ancestor(-1);Náradie a dielňa > Pneumatické náradie > Rázové uťahováky;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Pneumatické náradie;44190
 /pistole/;/pneumaticke-naradie/;ancestor(-1);Náradie a dielňa > Pneumatické náradie > Pištole;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Pneumatické náradie;44739
@@ -1332,9 +1331,9 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /klieste-seeger/;/mechanicke-naradie/;ancestor(-1);Náradie a dielňa > Mechanické náradie > Kliešte > Kliešte seeger;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;45390
 /klieste-siko/;/mechanicke-naradie/;ancestor(-1);Náradie a dielňa > Mechanické náradie > Kliešte > Kliešte SIKO;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;45468
 /noznice-na-plech-2/;/mechanicke-naradie/;ancestor(-1);Náradie a dielňa > Mechanické náradie > Kliešte > Nožnice na plech;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;45750
-/prenosne-a-skladaci/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne panely > Prenosné a skládací;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42561
-/monokrystalicke-s-ramem/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne panely > Monokrystalické s rámem;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;44388
-/flexibilni-solarne-panely/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne panely > Flexibilní solárne panely;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;44841
+/prenosne-a-skladaci/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne panely > Prenosné a skládací;Energia a napájanie > Fotovoltaika;42561
+/monokrystalicke-s-ramem/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne panely > Monokrystalické s rámem;Energia a napájanie > Fotovoltaika;44388
+/flexibilni-solarne-panely/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne panely > Flexibilní solárne panely;Energia a napájanie > Fotovoltaika;44841
 /raketove-sporty/;/sportove-vybavenie/;exact;Šport, hračky a voľný čas > Sportovní vybavenie > Raketové športy;Cestovanie, šport a outdoor > Športové vybavenie;42573
 /paddleboardy/;/sportove-vybavenie/;exact;Šport, hračky a voľný čas > Sportovní vybavenie > Paddleboardy;Cestovanie, šport a outdoor > Športové vybavenie;42870
 /ostatne-sporty/;/sportove-vybavenie/;exact;Šport, hračky a voľný čas > Sportovní vybavenie > Ostatné športy;Cestovanie, šport a outdoor > Športové vybavenie;42873
@@ -1412,8 +1411,8 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /sberne-kablove-drziaky/;/instalacne-prislusenstvo/;exact;Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové příchytky a držiaky > Sběrné káblové držiaky;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo;44373
 /paskove-hmozdinky/;/instalacne-prislusenstvo/;ancestor(-1);Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové příchytky a držiaky > Páskové hmoždinky;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo;47970
 /wago-svorky/;/vypinace--zasuvky--krabice/;ancestor(-1);Elektroinštalačný materiál > Vypínače, zásuvky, krabice > Svorky a svorkovnice > WAGO svorky;Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky;44523
-/zostavy-pre-solarne-ohrev-vody/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne zostavy > Zostavy pre solárne ohrev vody;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;42900
-/zostavy-pre-ostrovni-systemy--off-grid-/;/fotovoltaicke-instalacne-prislusenstvo/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne zostavy > Zostavy pre ostrovní systémy (OFF-GRID);Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43062
+/zostavy-pre-solarne-ohrev-vody/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne zostavy > Zostavy pre solárne ohrev vody;Energia a napájanie > Fotovoltaika;42900
+/zostavy-pre-ostrovni-systemy--off-grid-/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne zostavy > Zostavy pre ostrovní systémy (OFF-GRID);Energia a napájanie > Fotovoltaika;43062
 /prislusenstvo-pre-ohebne-potrubie-alu/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Vzduchovody > Ohebné potrubie - ALU > Príslušenstvo pre ohebné potrubie - ALU;Elektro, Smart Home a osvetlenie > Ventilačná technika;45105
 /adaptery-usb/;/napajacie-zdroje-2/;exact;Fotovoltaika a energie > Napájacie zdroje > Adaptéry USB;Energia a napájanie > Napájacie zdroje;42927
 /priemyselne-zdroje-2/;/napajacie-zdroje-2/;exact;Fotovoltaika a energie > Napájacie zdroje > Priemyselné zdroje;Energia a napájanie > Napájacie zdroje;43350
@@ -1491,8 +1490,8 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /pre-prumer-potrubie-100-mm/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory do koupelny/WC - s doběhem (časovač) > Pre průměr potrubie 100 mm;Elektro, Smart Home a osvetlenie > Ventilačná technika;43527
 /pre-prumer-potrubie-150-mm/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory do koupelny/WC - s doběhem (časovač) > Pre průměr potrubie 150 mm;Elektro, Smart Home a osvetlenie > Ventilačná technika;44007
 /pre-prumer-potrubie-125-mm-3/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory > Ventilátory do koupelny/WC - s doběhem (časovač) > Pre průměr potrubie 125 mm;Elektro, Smart Home a osvetlenie > Ventilačná technika;45498
-/3-fazove-elektromery-2/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Elektromery > 3 fázové elektromery;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43536
-/1-fazove-elektromery-2/;/fotovoltaicke-instalacne-prislusenstvo/;exact;Fotovoltaika a energie > Fotovoltaika > Elektromery > 1 fázové elektromery;Energia a napájanie > Fotovoltaické inštalačné príslušenstvo;43560
+/3-fazove-elektromery-2/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Elektromery > 3 fázové elektromery;Energia a napájanie > Fotovoltaika;43536
+/1-fazove-elektromery-2/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Elektromery > 1 fázové elektromery;Energia a napájanie > Fotovoltaika;43560
 /bezecke-pasy/;/posilnovanie-a-fitness/;exact;Šport, hračky a voľný čas > Posilňovanie a fitness > Trenažéry > Běžecké pásy;Cestovanie, šport a outdoor > Posilňovanie a fitness;43542
 /rotopedy/;/posilnovanie-a-fitness/;exact;Šport, hračky a voľný čas > Posilňovanie a fitness > Trenažéry > Rotopedy;Cestovanie, šport a outdoor > Posilňovanie a fitness;44262
 /spinningova-kolesa/;/posilnovanie-a-fitness/;ancestor(-1);Šport, hračky a voľný čas > Posilňovanie a fitness > Trenažéry > Spinningová kolesá;Cestovanie, šport a outdoor > Posilňovanie a fitness;44685
