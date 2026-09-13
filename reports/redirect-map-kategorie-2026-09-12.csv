@@ -550,13 +550,11 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /stojany-a-drziaky-na-kolesa/;/cyklistika/;ancestor(-1);Šport, hračky a voľný čas > Cyklistika > Stojany a držiaky na kolesá;Cestovanie, šport a outdoor > Cyklistika;45123
 /ostatne-cyklo-doplnky/;/cyklistika/;ancestor(-1);Šport, hračky a voľný čas > Cyklistika > Ostatné cyklo doplnky;Cestovanie, šport a outdoor > Cyklistika;45126
 /cyklodrzaky/;/cyklistika/;ancestor(-1);Šport, hračky a voľný čas > Cyklistika > Cyklodržáky;Cestovanie, šport a outdoor > Cyklistika;45135
-/upinacie-gumy-a-pasy/;/bezpecnost/;exact;Auto-moto > Bezpečnosť > Upínacie gumy a pásy;Auto-moto > Bezpečnosť;40944
-/parkovaci-senzory/;/bezpecnost/;exact;Auto-moto > Bezpečnosť > Parkovací senzory;Auto-moto > Bezpečnosť;41244
-/zimni-doplnky/;/bezpecnost/;exact;Auto-moto > Bezpečnosť > Zimní doplnky;Auto-moto > Bezpečnosť;42012
-/tazna-lana/;/bezpecnost/;exact;Auto-moto > Bezpečnosť > Tažná lana;Auto-moto > Bezpečnosť;43149
-/testery-alkoholu-2/;/bezpecnost/;ancestor(-1);Auto-moto > Bezpečnosť > Testery alkoholu;Auto-moto > Bezpečnosť;43275
-/kamery-do-auta-2/;/bezpecnost/;ancestor(-1);Auto-moto > Bezpečnosť > Kamery do autá;Auto-moto > Bezpečnosť;44682
-/autosedacky/;/bezpecnost/;exact;Auto-moto > Bezpečnosť > Autosedačky;Auto-moto > Bezpečnosť;44766
+/parkovaci-senzory/;/elektronika-do-auta/;exact;Auto-moto > Bezpečnosť > Parkovací senzory;Auto-moto > Elektronika do auta;41244
+/zimni-doplnky/;/zimne-vybavenie/;exact;Auto-moto > Bezpečnosť > Zimní doplnky;Auto-moto > Bezpečnostné a núdzové vybavenie > Zimné vybavenie;42012
+/tazna-lana/;/tazne-lana/;exact;Auto-moto > Bezpečnosť > Tažná lana;Auto-moto > Bezpečnostné a núdzové vybavenie > Ťažné laná a vyprosťovanie;43149
+/testery-alkoholu-2/;/vybavenie-auta/;exact;Auto-moto > Bezpečnosť > Testery alkoholu;Auto-moto > Príslušenstvo do auta;43275
+/kamery-do-auta-2/;/elektronika-do-auta/;exact;Auto-moto > Bezpečnosť > Kamery do autá;Auto-moto > Elektronika do auta;44682
 /prepinace-napajeni/;/istice-a-chranice/;exact;Elektroinštalačný materiál > Ističe a chrániče > Prepínače napájení;Elektro, Smart Home a osvetlenie > Ističe a chrániče;40953
 /poistky/;/istice-a-chranice/;exact;Elektroinštalačný materiál > Ističe a chrániče > Poistky;Elektro, Smart Home a osvetlenie > Ističe a chrániče;41730
 /stykace/;/istice-a-chranice/;exact;Elektroinštalačný materiál > Ističe a chrániče > Stykače;Elektro, Smart Home a osvetlenie > Ističe a chrániče;41739
