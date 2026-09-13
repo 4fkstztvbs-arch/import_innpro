@@ -1,10 +1,20 @@
 {
-  "_comment": "Vylúčenie z rozšíreného Heureka CPC feedu (HEUREKA_HIDDEN=1). 'categories': top-level kategórie s najnižším ziskom na kus podľa reports/heureka-kategorie-marza.md — porovnáva sa proti prvému segmentu p.defaultCategory (napr. 'Auto-moto > Autorádiá' -> 'Auto-moto'). 'priceBelow': produkty s PRICE_VAT pod túto hranicu (v EUR) sa vylúčia bez ohľadu na kategóriu — lacný tovar sa na Heureke neoplatí (CPC klik zožerie neprimeranú časť zisku, aj keď produkty pod 0,66 € sú aj tak zadarmo). 0 = vypnuté.",
+  "_comment": "Vylúčenie z rozšíreného Heureka CPC feedu (HEUREKA_HIDDEN=1). 'categories': cesty s najnižším ziskom na kus podľa reports/heureka-kategorie-marza.md — porovnáva sa ako prefix celej cesty, takže 'A > B' pokryje aj 'A > B > C'. 'exceptions': vetvy, ktoré sa z vylúčenia berú späť; vyhráva najdlhšia zhoda, teda konkrétnejšie pravidlo. 'priceBelow': produkty s PRICE_VAT pod touto hranicou (EUR) sa vylúčia bez ohľadu na kategóriu — lacný tovar sa na Heureke neoplatí (CPC klik zožerie neprimeranú časť zisku). 0 = vypnuté.",
+  "_comment_2026_09_13": "Prechod z koreňov na cesty. Nový strom zlúčil pod 'Elektro, Smart Home a osvetlenie' dve vetvy s veľmi rozdielnou maržou: 'Elektroinštalačný materiál' (4264 ks, 3,88 €/ks — vypnúť) a 'Bezpečnosť a smart domácnosť' (1045 ks, 6,13 €/ks — propagovať). Koreň je preto vylúčený ako celok a kamerové, zabezpečovacie a smart home podkategórie sú z vylúčenia vybraté cez exceptions. Pohony brán a bezdrôtové zvončeky sa medzi výnimky zámerne nedali — prichádzajú zo starých vetiev 'Záhrada' a 'Elektroinštalačný materiál', ktoré sú vypnuté. Chovateľské potreby boli doteraz skryté pod 'Zdravie a starostlivosť'; po osamostatnení na koreň sú vymenované zvlášť, nech sa zámer nezmení.",
   "priceBelow": 10,
   "categories": [
     "Auto-moto",
-    "Elektro, Smart Home a osvetlenie",
     "Dielňa, náradie a záhrada",
-    "Zdravie a starostlivosť"
+    "Zdravie a starostlivosť",
+    "Chovateľské potreby",
+    "Elektro, Smart Home a osvetlenie"
+  ],
+  "exceptions": [
+    "Elektro, Smart Home a osvetlenie > IP kamery",
+    "Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy",
+    "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia",
+    "Elektro, Smart Home a osvetlenie > Smart riadiace jednotky a huby",
+    "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory",
+    "Elektro, Smart Home a osvetlenie > Príslušenstvo pre zabezpečovacie systémy"
   ]
 }

@@ -322,3 +322,33 @@ zahodiť, takže produkt bez kategórie môže vzniknúť až tam) a pred prelin
 
 Skript je idempotentný a nič si nepamätá: len čo dodávateľ kategóriu doplní alebo
 pribudne pravidlo v `categoryRenamesByPath`, produkt sa prestane skrývať sám od seba.
+
+## Doplnené 2026-09-13: Heureka CPC po zlúčení koreňov
+
+Vylúčenie z rozšíreného Heureka CPC feedu stálo na **názve koreňovej kategórie**. Nový strom
+zlúčil pod `Elektro, Smart Home a osvetlenie` dve vetvy s veľmi rozdielnou maržou:
+
+| stará vetva | ks | zisk/ks | rozhodnutie |
+|---|---:|---:|---|
+| Elektroinštalačný materiál | 4264 | 3,88 € | vypnúť |
+| Bezpečnosť a smart domácnosť | 1045 | 6,13 € | propagovať |
+
+Pri kontrole podľa koreňa by sa po prepnutí **956 produktov prestalo propagovať** (prevažne
+kamerové systémy a smart home, teda tie ziskovejšie) a **199 by sa začalo** — bez toho, aby to
+bolo niečie rozhodnutie.
+
+`scripts/heureka-category.js` preto porovnáva **cesty ako prefix**, nie len koreň, a
+`heureka-hidden-categories.json` má nový kľúč `exceptions`, ktorý vetvu z vylúčenia berie späť
+(vyhráva najdlhšia, teda konkrétnejšia zhoda). Vypnutý je celý koreň a späť sú vybraté IP kamery,
+profesionálne kamerové systémy, smart domácnosť, smart riadiace jednotky, zabezpečenie a
+príslušenstvo k nemu. `Chovateľské potreby` sú po osamostatnení vymenované zvlášť, lebo boli
+doteraz skryté pod `Zdravie a starostlivosť`.
+
+Po tejto úprave je **99,4 % produktov na Heureke presne ako dnes** (26 253 z 26 415). Zvyšných
+162 sú skutočné presuny medzi kategóriami, nie artefakty mechanizmu — napríklad 75 svietidiel
+prešlo z Bezpečnosti pod Osvetlenie (nízkomaržové, správne vypnuté) a 23 autoelektroniky pod
+Auto-moto.
+
+**Zmena kódu je spätne kompatibilná** — overené na všetkých 26 415 produktoch: so súčasnou
+konfiguráciou dáva presne rovnaký výsledok ako pôvodná implementácia, takže samotný merge nič
+nemení, kým sa v kroku 4 nevymení `heureka-hidden-categories.json`.

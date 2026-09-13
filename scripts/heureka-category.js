@@ -17,20 +17,45 @@ function heurekaCategoryIdFor(categoryPath) {
   return MAPPING[categoryPath] || null;
 }
 
-// HEUREKA_HIDDEN — vylúčenie z rozšíreného Heureka CPC feedu podľa top-level kategórie a/alebo
-// nízkej ceny. Oboje sú obchodné rozhodnutia (návrh v reports/heureka-kategorie-marza.md pre
-// kategórie; cenový strop pridaný na žiadosť 2026-08-11 — lacné produkty sa na Heureke neoplatia
-// propagovať), nie automaticky odvodené — uprav scripts/heureka-hidden-categories.json.
+// HEUREKA_HIDDEN — vylúčenie z rozšíreného Heureka CPC feedu podľa kategórie a/alebo nízkej ceny.
+// Oboje sú obchodné rozhodnutia (návrh v reports/heureka-kategorie-marza.md pre kategórie; cenový
+// strop pridaný na žiadosť 2026-08-11 — lacné produkty sa na Heureke neoplatia propagovať), nie
+// automaticky odvodené — uprav scripts/heureka-hidden-categories.json.
+//
+// Zoznam pracuje s CESTAMI, nie len s koreňmi (2026-09-13). Dôvod: rozhodnutie stálo na zisku na
+// kus a nový strom zlúčil kategórie s veľmi rozdielnou maržou pod jeden koreň — "Elektroinštalačný
+// materiál" (3,88 €/ks, vypnúť) a "Bezpečnosť a smart domácnosť" (6,13 €/ks, propagovať) sú dnes
+// obe pod "Elektro, Smart Home a osvetlenie". Pri kontrole podľa koreňa by sa 956 produktov prestalo
+// propagovať a 199 začalo, bez toho, aby to bolo niečie rozhodnutie.
+//
+// Záznam sa porovnáva ako prefix celej cesty, takže "A > B" pokryje aj "A > B > C", a `exceptions`
+// vie vetvu z vylúčenia späť vybrať (vyhráva najdlhšia zhoda — konkrétnejšie pravidlo).
 const HIDDEN_PATH = path.join(__dirname, 'heureka-hidden-categories.json');
 const HIDDEN_CONFIG = JSON.parse(fs.readFileSync(HIDDEN_PATH, 'utf-8'));
-const HIDDEN_TOP_CATEGORIES = new Set((HIDDEN_CONFIG.categories || []).map((c) => c.trim()));
+const norm = (s) => String(s).trim().replace(/\s*>\s*/g, ' > ');
+const HIDDEN_PATHS = (HIDDEN_CONFIG.categories || []).map(norm);
+const HIDDEN_EXCEPTIONS = (HIDDEN_CONFIG.exceptions || []).map(norm);
 const HIDDEN_PRICE_BELOW = Number.isFinite(HIDDEN_CONFIG.priceBelow) ? HIDDEN_CONFIG.priceBelow : 0;
+
+// Najdlhšie pravidlo, ktoré je prefixom cesty (alebo sa jej rovná); null = žiadne.
+function longestMatch(list, categoryPath) {
+  let best = null;
+  for (const rule of list) {
+    if (categoryPath === rule || categoryPath.startsWith(rule + ' > ')) {
+      if (!best || rule.length > best.length) best = rule;
+    }
+  }
+  return best;
+}
 
 function isHeurekaHidden(categoryPath, priceInclVat) {
   if (Number.isFinite(priceInclVat) && HIDDEN_PRICE_BELOW > 0 && priceInclVat < HIDDEN_PRICE_BELOW) return true;
   if (!categoryPath) return false;
-  const top = categoryPath.split('>')[0].trim();
-  return HIDDEN_TOP_CATEGORIES.has(top);
+  const p = norm(categoryPath);
+  const hide = longestMatch(HIDDEN_PATHS, p);
+  if (!hide) return false;
+  const keep = longestMatch(HIDDEN_EXCEPTIONS, p);
+  return !(keep && keep.length > hide.length);
 }
 
 module.exports = { heurekaCategoryIdFor, isHeurekaHidden };
