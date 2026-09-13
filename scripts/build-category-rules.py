@@ -29,6 +29,29 @@ CIEL = KOREN / 'data' / 'kategorie'
 ZAPIS = '--zapis' in sys.argv
 
 
+STROM = json.loads((KOREN / 'data' / 'known-categories.json').read_text(encoding='utf-8'))
+
+
+def _norm(p):
+    import unicodedata
+    return ' > '.join(
+        ''.join(c for c in unicodedata.normalize('NFD', seg.lower()) if not unicodedata.combining(c)).strip()
+        for seg in str(p).split(' > '))
+
+
+STROM_PODLA_NORM = {_norm(u): u for u in STROM}
+
+
+def znenie_stromu(ciel):
+    """Cieľ zapíše v znení STROMU, nie feedu.
+
+    Shoptet páruje podľa slugu, takže "Stacionárne Bicykle" z feedu a "Stacionárne bicykle" v
+    strome sú preň tá istá kategória a pozorované správanie ukáže to z feedu. Do pravidiel ale
+    patrí znenie stromu — inak by súbor tvrdil niečo iné než strom a pri čítaní by mýlil.
+    """
+    return STROM_PODLA_NORM.get(_norm(ciel), ciel)
+
+
 def nacitaj(cesta):
     """zdrojová cesta -> cieľový uzol (berie najčastejší cieľ; viacznačné hlási volajúci)"""
     surove = json.loads(cesta.read_text(encoding='utf-8'))
@@ -39,7 +62,7 @@ def nacitaj(cesta):
             continue
         if len(skutocne) > 1:
             viacznacne.append((zdroj, skutocne))
-        out[zdroj] = max(skutocne.items(), key=lambda kv: kv[1])[0]
+        out[zdroj] = znenie_stromu(max(skutocne.items(), key=lambda kv: kv[1])[0])
     return out, viacznacne
 
 

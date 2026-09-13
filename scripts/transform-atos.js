@@ -34,7 +34,6 @@ const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseAtosItem } = require('./parse-atos');
 const { roundPrice } = require('./round-price');
-const { translateCategoryName } = require('./translate-cz-sk');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
@@ -56,7 +55,6 @@ const STORE_NAME = process.env.ATOS_STORE_NAME || 'premiumstore.sk';
 
 const MAPPING_PATH = path.join(__dirname, 'atos-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
-const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
 
 // Static img{0-3}.atoselektro.cz CDN URLs per product code, built by fetch-atos-images.js
@@ -86,71 +84,30 @@ const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map
 const crossSupplier = createCrossSupplierFilter('atos');
 
 const TREE_ROOT = 'Druhy';
-const { createCategoryMatcher } = require('./resolve-category');
-const categoryMatcher = createCategoryMatcher('atos');
+const { vytvorZaradovac } = require('./zarad-kategoriu');
+const zaradovac = vytvorZaradovac('atos');
 
-// atos-mapping.json keys are hand-written and don't always match the live feed's
-// CategoryText byte-for-byte (case, diacritics, double spaces). Matching case/diacritics
-// -insensitively here means a hand-written key still matches even when it isn't a perfect
-// copy of the feed text, instead of silently falling through to the untranslated "Druhy > ..."
-// path. Ambiguous normalized collisions (two distinct raw keys folding to the same normalized
-// form) are not expected given the mapping's size, so the last one wins.
+// Kľúče vylúčení sú písané ručne a nemusia sedieť s feedom na byte (veľkosť písmen, diakritika,
+// dvojité medzery), preto sa porovnávajú normalizovane.
 function normalizeKey(s) {
   return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
 }
-const RENAMES_BY_NORM = new Map(Object.entries(RENAMES).map(([k, v]) => [normalizeKey(k), v]));
 const EXCLUSIONS_NORM = new Set(Array.from(EXCLUSIONS, normalizeKey));
-function lookupRename(key) { return RENAMES_BY_NORM.get(normalizeKey(key)); }
 function isExcluded(key) { return EXCLUSIONS_NORM.has(normalizeKey(key)); }
 
-function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
-
-function atosDisplayPath(pathKey) {
-  const segs = pathKey.split(' > ');
-  const partsResult = [];
-  for (let i = segs.length - 1; i >= 0; i--) {
-    const cumKey = segs.slice(0, i + 1).join(' > ');
-    const rename = lookupRename(cumKey);
-    if (isPathOverride(cumKey, rename)) { partsResult.unshift(rename); break; }
-    partsResult.unshift(rename || translateCategoryName(segs[i]));
-  }
-  return partsResult.join(' > ');
-}
-function atosAncestorPaths(pathKey) {
-  const segs = pathKey.split(' > ');
-  const chain = [];
-  for (let i = segs.length - 2; i >= 0; i--) {
-    const key = segs.slice(0, i + 1).join(' > ');
-    chain.push(key);
-    if (isPathOverride(key, lookupRename(key))) break;
-  }
-  return chain;
-}
+// ATOS posiela na jeden produkt viac ciest naraz (napr. "sieťové prvky" aj "káble"), takže sa
+// zaraďuje každá zvlášť a výsledné uzly sa zlúčia. Predkov ciest z feedu už netreba dopočítavať:
+// predkov si dopočíta zaraďovač z NÁŠHO stromu, čo je aj správnejšie — strom ATOS-u s naším
+// nesúvisí.
 function resolveAtosCategories(categoryTexts, productLabel) {
-  const givenPaths = categoryTexts.filter((p) => p.startsWith(TREE_ROOT));
-  const allPaths = new Set();
-  for (const p of givenPaths) {
-    if (isExcluded(p)) continue;
-    if (p !== TREE_ROOT) allPaths.add(p);
-    if (lookupRename(p)) continue;
-    for (const a of atosAncestorPaths(p)) {
-      if (!isExcluded(a) && a !== TREE_ROOT) allPaths.add(a);
-    }
-  }
-  const sortedPaths = Array.from(allPaths).sort((a, b) => b.split('>').length - a.split('>').length);
+  const cesty = categoryTexts.filter((p) => p.startsWith(TREE_ROOT) && p !== TREE_ROOT && !isExcluded(p));
 
-  // Each candidate path (deepest first) is gated independently — a product keeps whichever of its
-  // paths already match the known tree (or a confident near-duplicate), and only drops the ones
-  // that don't. Only if every single candidate path is unmatched does the product get excluded.
   const resolved = [];
   let anyUnmatched = false;
-  for (const pathKey of sortedPaths) {
-    const display = atosDisplayPath(pathKey);
-    if (!display) continue;
-    const trusted = !!lookupRename(pathKey);
-    const gated = categoryMatcher.resolve(display, { trusted, productLabel, sourcePath: pathKey });
-    if (gated.excluded) { anyUnmatched = true; continue; }
-    if (!resolved.includes(gated.category)) resolved.push(gated.category);
+  for (const cesta of cesty) {
+    const { kategoria } = zaradovac.zarad(cesta, { produkt: productLabel });
+    if (!kategoria) { anyUnmatched = true; continue; }
+    if (!resolved.includes(kategoria)) resolved.push(kategoria);
   }
 
   // Prvá kategória je pre Shoptet hlavná (defaultCategory) a podľa nej sa riadi aj odkaz v popise,
@@ -164,7 +121,9 @@ function resolveAtosCategories(categoryTexts, productLabel) {
     .sort((a, b) => (b.d - a.d) || (a.i - b.i))
     .map((x) => x.c);
   const defaultCategory = podlaHlbky.length ? podlaHlbky[0] : '';
-  const extraCategories = podlaHlbky.slice(1);
+  // Predkovia hlavnej kategórie + ostatné vetvy, bez duplicít.
+  const extraCategories = [...new Set([...podlaHlbky.slice(1), ...zaradovac.predkovia(defaultCategory)])]
+    .filter((c) => c !== defaultCategory);
   return { defaultCategory, extraCategories, unmatchedCategory: !defaultCategory && anyUnmatched };
 }
 
@@ -445,7 +404,7 @@ async function main() {
 
   console.log('Done.');
   writeAnomalyReport('atos', anomalies);
-  const categoryReport = categoryMatcher.writeReport();
+  const categoryReport = zaradovac.zapisReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
 }
