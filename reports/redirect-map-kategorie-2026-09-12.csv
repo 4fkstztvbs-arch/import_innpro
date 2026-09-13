@@ -11,7 +11,9 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /velke-spotrebice/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Veľké spotrebiče;Domáce spotrebiče;39426
 /male-spotrebice/;/domace-spotrebice/;exact;Domáce spotrebiče > Malé spotrebiče;Domáce spotrebiče;39432
 /vstavane-spotrebice/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Vstavané spotrebiče;Domáce spotrebiče;39546
+/nadobie/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Nádobie;Domáce spotrebiče;39630
 /ostatne-spotrebice/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Ostatné spotrebiče;Domáce spotrebiče;41301
+/kuchynske-prislusenstvo/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské príslušenstvo;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;46215
 /cistenie/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Čistenie;Domáce spotrebiče;46551
 /pre-dieta/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Pre dieťa;Domáce spotrebiče;46746
 /mini-chladnicky/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Mini chladničky;Domáce spotrebiče;46755
@@ -19,6 +21,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /vybavenie-domacnosti/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Vybavenie domácnosti;Domáce spotrebiče;47826
 /hodiny-a-budiky-3/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Hodiny a budíky;Domáce spotrebiče;47958
 /plyty-gazowe/;/domace-spotrebice/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Płyty gazowe;Domáce spotrebiče;48117
+/kuchynske-nadobie/;/kuchynske-vybavenie/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské nádobie;Domáce spotrebiče > Kuchynské vybavenie;48270
 /rychlovarne-kanvice/;/priprava-napojov/;exact;Domáce spotrebiče > Malé spotrebiče > Príprava nápojov > Rýchlovarné kanvice;Domáce spotrebiče > Príprava nápojov;39438
 /odstavovace/;/priprava-napojov/;exact;Domáce spotrebiče > Malé spotrebiče > Príprava nápojov > Odšťavovače;Domáce spotrebiče > Príprava nápojov;39726
 /prislusenstvo-pre-filtracne-kanvice/;/priprava-napojov/;exact;Domáce spotrebiče > Malé spotrebiče > Príprava nápojov > Príslušenstvo pre filtračné kanvice;Domáce spotrebiče > Príprava nápojov;39756
@@ -136,16 +139,13 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /zavesne-digestory/;/digestory/;ancestor(-1);Domáce spotrebiče > Vstavané spotrebiče > Digestory > Závesné digestory;Domáce spotrebiče > Digestory;40146
 /ostrovcekove-digestory/;/digestory/;ancestor(-1);Domáce spotrebiče > Vstavané spotrebiče > Digestory > Ostrovčekové digestory;Domáce spotrebiče > Digestory;40383
 /prislusenstvo-k-digestorom/;/digestory/;ancestor(-1);Domáce spotrebiče > Vstavané spotrebiče > Digestory > Príslušenstvo k digestorom;Domáce spotrebiče > Digestory;40503
-/pekace-a-zapekacie-misy/;/nadobie/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Nádobie > Pekáče a zapekacie misy;Domáce spotrebiče > Nádobie;39633
-/pohare-a-flase/;/nadobie/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Poháre a fľaše;Domáce spotrebiče > Nádobie;39636
-/panvice/;/nadobie/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Panvice;Domáce spotrebiče > Nádobie;39876
-/dozy-na-potraviny/;/nadobie/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Dózy na potraviny;Domáce spotrebiče > Nádobie;40080
-/hrnce/;/nadobie/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Hrnce;Domáce spotrebiče > Nádobie;40194
-/termosky-a-termohrnceky/;/nadobie/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Termosky a termohrnčeky;Domáce spotrebiče > Nádobie;40296
-/hrnceky-a-salky/;/nadobie/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Nádobie > Hrnčeky a šálky;Domáce spotrebiče > Nádobie;40329
-/pecuce-formy/;/nadobie/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Pečúce formy;Domáce spotrebiče > Nádobie;40392
-/pokrievky/;/nadobie/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Nádobie > Pokrievky;Domáce spotrebiče > Nádobie;40617
-/misy-a-misky/;/nadobie/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Nádobie > Misy a misky;Domáce spotrebiče > Nádobie;40881
+/pekace-a-zapekacie-misy/;/pecuce-formy/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Pekáče a zapekacie misy;Domáce spotrebiče > Kuchynské vybavenie > Formy na pečenie;39633
+/panvice/;/hrnce-a-panvice/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Panvice;Domáce spotrebiče > Kuchynské vybavenie > Hrnce a panvice;39876
+/dozy-na-potraviny/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Dózy na potraviny;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40080
+/hrnce/;/hrnce-a-panvice/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Hrnce;Domáce spotrebiče > Kuchynské vybavenie > Hrnce a panvice;40194
+/hrnceky-a-salky/;/pohare-a-flase/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Hrnčeky a šálky;Domáce spotrebiče > Kuchynské vybavenie > Poháre a fľaše;40329
+/pokrievky/;/hrnce-a-panvice/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Pokrievky;Domáce spotrebiče > Kuchynské vybavenie > Hrnce a panvice;40617
+/misy-a-misky/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Nádobie > Misy a misky;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40881
 /naparovacie-zehlicky/;/zehlicky/;exact;Domáce spotrebiče > Malé spotrebiče > Žehličky > Naparovacie žehličky;Domáce spotrebiče > Žehličky;39642
 /zehliace-dosky/;/zehlicky/;exact;Domáce spotrebiče > Malé spotrebiče > Žehličky > Žehliace dosky;Domáce spotrebiče > Žehličky;39690
 /susiaky-na-bielizen/;/zehlicky/;exact;Domáce spotrebiče > Malé spotrebiče > Žehličky > Sušiaky na bielizeň;Domáce spotrebiče > Žehličky;39759
@@ -267,26 +267,26 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /elektricke-sporaky/;/sporaky-a-rury/;exact;Domáce spotrebiče > Veľké spotrebiče > Sporáky a rúry > Elektrické sporáky;Domáce spotrebiče > Sporáky a rúry;39900
 /stolove-rury/;/sporaky-a-rury/;ancestor(-1);Domáce spotrebiče > Veľké spotrebiče > Sporáky a rúry > Stolové rúry;Domáce spotrebiče > Sporáky a rúry;40092
 /kombinovane-sporaky/;/sporaky-a-rury/;ancestor(-1);Domáce spotrebiče > Veľké spotrebiče > Sporáky a rúry > Kombinované sporáky;Domáce spotrebiče > Sporáky a rúry;40434
-/ostatne-kuchynske-potreby/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Ostatné kuchynské potreby;Domáce spotrebiče > Kuchynské potreby;39822
-/kuchynske-minutky/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské minútky;Domáce spotrebiče > Kuchynské potreby;39891
-/kuchynske-vahy/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské váhy;Domáce spotrebiče > Kuchynské potreby;39897
-/otvarace-na-konzervy/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Otvárače na konzervy;Domáce spotrebiče > Kuchynské potreby;39906
-/cedniky--lieviky--sita/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Cedníky, Lieviky, Sitá;Domáce spotrebiče > Kuchynské potreby;39933
-/obrusy-a-prestieranie/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Obrusy a prestieranie;Domáce spotrebiče > Kuchynské potreby;40002
-/kuchynske-noze-a-noznice/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské nože a nožnice;Domáce spotrebiče > Kuchynské potreby;40005
-/brousky-na-noze/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Brousky na nože;Domáce spotrebiče > Kuchynské potreby;40029
-/vyvrtky-a-otvarace/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Vývrtky a otvárače;Domáce spotrebiče > Kuchynské potreby;40089
-/valceky-na-cesto/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Valčeky na cesto;Domáce spotrebiče > Kuchynské potreby;40233
-/lisy-na-potraviny/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Lisy na potraviny;Domáce spotrebiče > Kuchynské potreby;40332
-/dosticky--podlozky--krajacie-dosky/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Doštičky, Podložky, Krájacie dosky;Domáce spotrebiče > Kuchynské potreby;40350
-/mlynceky-na-korenie/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Mlynčeky na korenie;Domáce spotrebiče > Kuchynské potreby;40404
-/chlebniky--kosiky--kosiky--osatky/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Chlebníky, Košíky, Košíky (ošatky);Domáce spotrebiče > Kuchynské potreby;40455
-/kuchynske-teplomery/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské teplomery;Domáce spotrebiče > Kuchynské potreby;40527
-/odkostkovace/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Odkôstkovače;Domáce spotrebiče > Kuchynské potreby;40776
-/varesky--naberacky--obracacky--klieste/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Varešky, Naberačky, Obracačky, Kliešte;Domáce spotrebiče > Kuchynské potreby;40824
-/handry--houby--kefy/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Handry, Houby, Kefy;Domáce spotrebiče > Kuchynské potreby;40890
-/skrabky-a-struhadla/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Škrabky a strúhadlá;Domáce spotrebiče > Kuchynské potreby;40893
-/krajace-a-porcovace/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Krájače a porcovače;Domáce spotrebiče > Kuchynské potreby;48096
+/ostatne-kuchynske-potreby/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Ostatné kuchynské potreby;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;39822
+/kuchynske-minutky/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské minútky;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;39891
+/kuchynske-vahy/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské váhy;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;39897
+/otvarace-na-konzervy/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Otvárače na konzervy;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;39906
+/cedniky--lieviky--sita/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Cedníky, Lieviky, Sitá;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;39933
+/obrusy-a-prestieranie/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Obrusy a prestieranie;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40002
+/kuchynske-noze-a-noznice/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské nože a nožnice;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40005
+/brousky-na-noze/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Brousky na nože;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40029
+/vyvrtky-a-otvarace/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Vývrtky a otvárače;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40089
+/valceky-na-cesto/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Valčeky na cesto;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40233
+/lisy-na-potraviny/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Lisy na potraviny;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40332
+/dosticky--podlozky--krajacie-dosky/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Doštičky, Podložky, Krájacie dosky;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40350
+/mlynceky-na-korenie/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Mlynčeky na korenie;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40404
+/chlebniky--kosiky--kosiky--osatky/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Chlebníky, Košíky, Košíky (ošatky);Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40455
+/kuchynske-teplomery/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Kuchynské teplomery;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40527
+/odkostkovace/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Odkôstkovače;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40776
+/varesky--naberacky--obracacky--klieste/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Varešky, Naberačky, Obracačky, Kliešte;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40824
+/handry--houby--kefy/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Handry, Houby, Kefy;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40890
+/skrabky-a-struhadla/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Škrabky a strúhadlá;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;40893
+/krajace-a-porcovace/;/kuchynske-potreby/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské potreby > Krájače a porcovače;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;48096
 /chladiace-tasky-a-boxy/;/chladnicky/;exact;Domáce spotrebiče > Veľké spotrebiče > Chladničky > Chladiace tašky a boxy;Domáce spotrebiče > Chladničky;39882
 /monoklimaticke-chladnicky/;/chladnicky/;exact;Domáce spotrebiče > Veľké spotrebiče > Chladničky > Monoklimatické chladničky;Domáce spotrebiče > Chladničky;39930
 /chladnicky-s-mraziace-priehradkou/;/chladnicky/;ancestor(-1);Domáce spotrebiče > Veľké spotrebiče > Chladničky > Chladničky s mraziace priehradkou;Domáce spotrebiče > Chladničky;39936
@@ -1720,8 +1720,8 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /sonicke-zubne-kefky-2/;/zdravie-a-starostlivost/;ancestor(-2);Zdravie a starostlivosť > Sonické zubné kefky > Sonické zubné kefky;Zdravie a starostlivosť;46083
 /prislusenstvo-23/;/zdravie-a-starostlivost/;ancestor(-2);Zdravie a starostlivosť > Sonické zubné kefky > Príslušenstvo;Zdravie a starostlivosť;46377
 /programovatelni-roboti/;/hracky/;exact;Šport, hračky a voľný čas > Hračky > Edukatívne > Programovateľní roboti;Cestovanie, šport a outdoor > Hračky;46146
-/ostatne-19/;/kuchynske-prislusenstvo/;ancestor(-1);Domáce spotrebiče > Malé spotrebiče > Kuchynské príslušenstvo > Ostatné;Domáce spotrebiče > Kuchynské príslušenstvo na varenie;46218
-/na-varenie/;/kuchynske-prislusenstvo/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské príslušenstvo > Na varenie;Domáce spotrebiče > Kuchynské príslušenstvo na varenie;46335
+/ostatne-19/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské príslušenstvo > Ostatné;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;46218
+/na-varenie/;/kuchynske-potreby/;exact;Domáce spotrebiče > Malé spotrebiče > Kuchynské príslušenstvo > Na varenie;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky;46335
 /prislusenstvo-19/;/auto-moto/;ancestor(-2);Auto-moto > Videorekordéry > Príslušenstvo;Auto-moto;46236
 /videorekordery-2/;/auto-moto/;ancestor(-2);Auto-moto > Videorekordéry > Videorekordéry;Auto-moto;46818
 /stitky/;/kancelaria-a-skola/;exact;Náradie a dielňa > Kancelária a škola > Tlačiarne štítkov > Štítky;Počítače, mobily a tablety > Kancelária a škola;46275

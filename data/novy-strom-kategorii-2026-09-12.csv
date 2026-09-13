@@ -94,15 +94,17 @@ g97c;g97;2;Odvlhčovače vzduchu;odvlhcovace-vzduchu;Domáce spotrebiče > Klima
 g97d;g97;2;Ohrievače a vykurovacie telesá;vykurovacie-telesa;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá
 g97e;g97;2;Ventilátory;ventilatory;Domáce spotrebiče > Klimatizácia a vzduch > Ventilátory
 g97b;g97;2;Čističky a zvlhčovače vzduchu;cisticky-vzduchu;Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu
-g91;nmtx2zmrqmyq3yo;1;Kuchynské nádobie;kuchynske-nadobie;Domáce spotrebiče > Kuchynské nádobie
-g101;nmtx2zmrqmyq3yo;1;Kuchynské potreby;kuchynske-potreby;Domáce spotrebiče > Kuchynské potreby
-g106;nmtx2zmrqmyq3yo;1;Kuchynské príslušenstvo na varenie;kuchynske-prislusenstvo;Domáce spotrebiče > Kuchynské príslušenstvo na varenie
 g90;nmtx2zmrqmyq3yo;1;Kuchynské roboty a krájače;kuchynske-roboty-a-krajace;Domáce spotrebiče > Kuchynské roboty a krájače
+g102;nmtx2zmrqmyq3yo;1;Kuchynské vybavenie;kuchynske-vybavenie;Domáce spotrebiče > Kuchynské vybavenie
+g102b;g102;2;Formy na pečenie;pecuce-formy;Domáce spotrebiče > Kuchynské vybavenie > Formy na pečenie
+g102a;g102;2;Hrnce a panvice;hrnce-a-panvice;Domáce spotrebiče > Kuchynské vybavenie > Hrnce a panvice
+g101;g102;2;Kuchynské pomôcky;kuchynske-potreby;Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky
+g102d;g102;2;Poháre a fľaše;pohare-a-flase;Domáce spotrebiče > Kuchynské vybavenie > Poháre a fľaše
+g102c;g102;2;Termosky a termohrnčeky;termosky-a-termohrnceky;Domáce spotrebiče > Kuchynské vybavenie > Termosky a termohrnčeky
 g95;nmtx2zmrqmyq3yo;1;Kávovary a espressá;kavovary-a-espressa;Domáce spotrebiče > Kávovary a espressá
 g100;nmtx2zmrqmyq3yo;1;Meteostanice;meteostanice;Domáce spotrebiče > Meteostanice
 g117;nmtx2zmrqmyq3yo;1;Mikrovlnné rúry;mikrovlnne-rury;Domáce spotrebiče > Mikrovlnné rúry
 g122;nmtx2zmrqmyq3yo;1;Mrazničky;mraznicky;Domáce spotrebiče > Mrazničky
-g102;nmtx2zmrqmyq3yo;1;Nádobie;nadobie;Domáce spotrebiče > Nádobie
 g109;nmtx2zmrqmyq3yo;1;Ostatné domáce spotrebiče;ostatne-domace-spotrebice;Domáce spotrebiče > Ostatné domáce spotrebiče
 g107;nmtx2zmrqmyq3yo;1;Potreby pre domácnosť;potreby-pre-domacnost;Domáce spotrebiče > Potreby pre domácnosť
 g115;nmtx2zmrqmyq3yo;1;Práčky;pracky;Domáce spotrebiče > Práčky
