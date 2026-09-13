@@ -16,7 +16,11 @@ prehratím všetkých zdrojových ciest cez pravidlá vyjde presne dnešný cie�
 Prefixy sa zlučujú: keď celý podstrom zdrojových ciest vedie na ten istý uzol, stačí jedno
 pravidlo na jeho koreni. Preto je pravidiel podstatne menej než zdrojových ciest.
 
-Usage: python3 scripts/build-category-rules.py [--zapis]
+JEDNORAZOVÝ NÁSTROJ. Po prvom vygenerovaní sa pravidlá upravujú RUČNE — sú to rozhodnutia o tom,
+kam tovar patrí, nie odvodenina. Preto skript existujúci súbor neprepíše (ochrana pred tým, aby
+ručná oprava zmizla pri ďalšom behu); vedomé pregenerovanie si vyžiada --prepis.
+
+Usage: python3 scripts/build-category-rules.py [--zapis] [--prepis]
        bez --zapis len vypíše, čo by vzniklo (suchý beh)
 """
 import json
@@ -27,6 +31,7 @@ KOREN = pathlib.Path(__file__).resolve().parent.parent
 ZDROJ = KOREN / 'data' / 'zdrojove-kategorie'
 CIEL = KOREN / 'data' / 'kategorie'
 ZAPIS = '--zapis' in sys.argv
+PREPIS = '--prepis' in sys.argv
 
 
 STROM = json.loads((KOREN / 'data' / 'known-categories.json').read_text(encoding='utf-8'))
@@ -136,7 +141,11 @@ def main():
         for z, c in viacznacne[:5]:
             print(f'    viacznačné {z!r} -> {c}')
 
-        if ZAPIS and not chyby:
+        vystup = CIEL / f'{dodavatel}.json'
+        if ZAPIS and not chyby and vystup.exists() and not PREPIS:
+            print(f'    {vystup} uz existuje a moze obsahovat rucne opravy — neprepisujem '
+                  f'(vynut --prepis)')
+        elif ZAPIS and not chyby:
             CIEL.mkdir(parents=True, exist_ok=True)
             obsah = {
                 '_comment': (
@@ -149,7 +158,7 @@ def main():
                     'jediné miesto, kde sa o ňom rozhoduje.'),
                 'pravidla': dict(sorted(pravidla.items())),
             }
-            (CIEL / f'{dodavatel}.json').write_text(
+            vystup.write_text(
                 json.dumps(obsah, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 
     print(f'\nSPOLU     {spolu_ciest:5d} zdrojových ciest -> {spolu_pravidiel:4d} pravidiel, '
