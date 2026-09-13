@@ -66,6 +66,9 @@ jobs:
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js --xml=output/penta.xml
 
+      - name: Poistka proti useknutému feedu
+        run: node scripts/check-feed-size.js
+
       - name: Commit updated output
         run: |
           git config user.name "penta-sync-bot"

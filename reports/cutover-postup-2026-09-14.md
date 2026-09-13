@@ -352,3 +352,24 @@ Auto-moto.
 **Zmena kódu je spätne kompatibilná** — overené na všetkých 26 415 produktoch: so súčasnou
 konfiguráciou dáva presne rovnaký výsledok ako pôvodná implementácia, takže samotný merge nič
 nemení, kým sa v kroku 4 nevymení `heureka-hidden-categories.json`.
+
+## Doplnené 2026-09-13: poistka proti useknutému feedu
+
+Import do Shoptetu je nastavený tak, že **produkt, ktorý vo feede nie je, sa zmaže** — nie
+skryje. Transformy pritom padajú len vtedy, keď sa feed vôbec nedá stiahnuť; keď sa stiahne
+a je neúplný (zotavujúci sa server, výpadok databázy, zmena API), prejdú bez chyby a workflow
+skrátený výstup commitne. Shoptet by potom zmazal presne toľko tovaru, koľko vo feede chýba,
+aj s jeho URL, hodnoteniami a históriou.
+
+`scripts/check-feed-size.js` beží ako posledný krok pred commitom vo všetkých 7 sync
+workflowoch. Porovná počet položiek v každom `output/*.xml` s verziou v poslednom commite
+(`git show HEAD:...`) a pri poklese pod 70 % alebo pri prázdnom feede skončí chybou — commit
+sa nevykoná a výstup zostane nezmenený.
+
+| premenná | význam |
+|---|---|
+| `FEED_MIN_RATIO` | hranica, default `0.7` |
+| `FEED_SIZE_OVERRIDE=1` | vedomé obídenie, keď feed klesol naozaj (dodávateľ vyradil sortiment) |
+
+Overené na štyroch scenároch: bežný beh prejde, pokles na 9,9 % zastaví, prázdny feed zastaví,
+obídenie funguje.
