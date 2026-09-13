@@ -133,9 +133,12 @@ const RENAME_MAP = {
 // type to state, so drop the CATEGORY line outright rather than invent one (mirrors the
 // DROP_CATEGORIES pattern in collapse-duplicate-categories.js). Every product on this list keeps
 // at least one other, real category from the same feed.
+// Nazvy tychto dvoch kategorii sa pri prechode na novy strom spresnili (SEO obsah), preto su
+// tu uz v novom tvare - inak by sa DROP_LIST ticho prestal uplatnovat a produkty by v tychto
+// pseudo-kategoriach zostali, co je zmena spravania, ktoru nikto nechcel.
 const DROP_LIST = [
-  'Profesionálna audio technika > Nové produkty',
-  'Profesionálna audio technika > Výpredaj',
+  'Profesionálna audio technika > Nové produkty – vonkajšie PA reproduktory',
+  'Profesionálna audio technika > Výpredaj profesionálnej audio techniky',
   'Profesionálna audio technika > Špeciálna ponuka + Akciové sety',
 ];
 
