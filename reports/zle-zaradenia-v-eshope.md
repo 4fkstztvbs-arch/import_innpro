@@ -1,20 +1,28 @@
-# Staré zaradenia, ktoré v e-shope zostali
+# Zlé zaradenia z pokazeného okna (20:54–21:15)
 
-Shoptet pri importe produktov kategórie **pridáva, neodstraňuje**. Overené: ručný import InnPro
-o 22:55 už bežal na správnom feede, a produkty aj tak zostali v starých kategóriách.
+Kategórie boli v e-shope kompletne zmazané a naimportované nanovo, takže staré zaradenia
+zanikli spolu s nimi. Jediný zdroj zlých zaradení je teda import produktov spustený v okne,
+keď bol feed pokazený — medzi 20:54 a 21:15. Od 21:31 je feed správny.
 
-Zaradenia sú z ranného importu (starý strom). Keďže import kategórií páruje podľa URL, časť
-starých kategórií sa premenovala na nové uzly — a práve tam je staré zaradenie vidno.
+Ak taký import prebehol, týka sa **3386 produktov** a
+**3470 zaradení** v 24 kategóriách.
 
-- **12476** zaradení mieri na kategórie, ktoré sú dnes skryté → v e-shope ich nevidno
-- **455** zaradení mieri na živé kategórie, kde produkt nemá byť → tieto treba odstrániť
-- 61741 starých ciest sa nedalo vyhodnotiť (stará mapa URL pokrýva 1047 z 2928 uzlov),
-  takže druhé číslo je **dolný odhad**, nie presný počet
+Ak žiadny import v tom okne nebol, tento zoznam je bezpredmetný.
 
-| Živá kategória, z ktorej odstrániť | Produktov |
+| Kategória, z ktorej odstrániť | Produktov |
 |---|---:|
+| Profesionálna audio technika | 940 |
+| Dielňa, náradie a záhrada | 524 |
+| TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače | 455 |
 | Auto-moto | 290 |
-| Zdravie a starostlivosť | 134 |
+| TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače | 276 |
+| Auto-moto > Príslušenstvo do auta | 268 |
+| TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 | 207 |
+| Elektro, Smart Home a osvetlenie | 172 |
+| Počítače, mobily a tablety | 88 |
+| Cestovanie, šport a outdoor | 85 |
+| Energia a napájanie > Záložné zdroje a UPS | 25 |
+| Auto-moto > Bezpečnostné a núdzové vybavenie | 25 |
+| Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia | 25 |
 | Energia a napájanie | 23 |
-| Profesionálna audio technika | 5 |
-| Dielňa, náradie a záhrada > Záhrada a bazén | 3 |
+| Energia a napájanie > Napájacie zdroje | 20 |
