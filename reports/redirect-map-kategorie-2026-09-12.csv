@@ -2123,6 +2123,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /klasicke-2/;/predlzovacky--zasuvky--vidlica/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Viaczásuvkové > Klasické;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;48498
 /jednozasuvkove-230v-2/;/predlzovacky--zasuvky--vidlica/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Jednozásuvkové > Jednozásuvkové 230V;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;48507
 /prislusenstvo-k-tabletom/;/pocitace-mobily-a-tablety/;ancestor(-1);Počítače a notebooky > Príslušenstvo k tabletom;Počítače, mobily a tablety;49449
+/pendrive/;/usb-kluce/;exact;Počítače a notebooky > Pendrive;Počítače, mobily a tablety > Pamäťové médiá > USB kľúče;49458
 /projektory-a-platna-2/;/projektory-4/;exact;Počítače a notebooky > Projektory a plátna;TV, audio, video a foto technika > Projektory;48660
 /drziaky-na-tv-2/;/pocitace-mobily-a-tablety/;ancestor(-1);Počítače a notebooky > Držiaky na TV;Počítače, mobily a tablety;48801
 /switche-2/;/sietove-prvky-2/;exact;Počítače a notebooky > Sieťové prvky > Switche;Počítače, mobily a tablety > WiFi routery a sieťové karty;48519
@@ -2135,8 +2136,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /atramentove-tlaciarne-2/;/tlaciarne-a-skenery-2/;exact;Počítače a notebooky > Tlačiarne a skenery > Atramentové tlačiarne;Počítače, mobily a tablety > Tlačiarne, skenery a spotrebný materiál;48603
 /prislusenstvo-tlaciarne/;/tlaciarne-a-skenery-2/;ancestor(-1);Počítače a notebooky > Tlačiarne a skenery > Príslušenstvo - tlačiarne;Počítače, mobily a tablety > Tlačiarne, skenery a spotrebný materiál;49446
 /laserove-tlaciarne/;/tlaciarne-a-skenery-2/;ancestor(-1);Počítače a notebooky > Tlačiarne a skenery > Laserové tlačiarne;Počítače, mobily a tablety > Tlačiarne, skenery a spotrebný materiál;49461
-/externe-disky-2/;/pamatove-media-2/;exact;Počítače a notebooky > Pamäťové médiá > Externé disky;Počítače, mobily a tablety > Pamäťové médiá;48531
-/pamatove-karty-5/;/pamatove-media-2/;exact;Počítače a notebooky > Pamäťové médiá > Pamäťové karty;Počítače, mobily a tablety > Pamäťové médiá;48564
+/pamatove-karty-5/;/pamatove-karty-6/;exact;Počítače a notebooky > Pamäťové médiá > Pamäťové karty;Počítače, mobily a tablety > Pamäťové médiá > Pamäťové karty;48564
 /mysi-4/;/pc-periferie-2/;exact;Počítače a notebooky > PC periférie > Myši;Počítače, mobily a tablety > PC periférie;48600
 /klavesnice-5/;/pc-periferie-2/;exact;Počítače a notebooky > PC periférie > Klávesnice;Počítače, mobily a tablety > PC periférie;48606
 /tablety-5/;/pocitace-mobily-a-tablety/;ancestor(-1);Mobily, smart hodinky a tablety > Tablety;Počítače, mobily a tablety;48810

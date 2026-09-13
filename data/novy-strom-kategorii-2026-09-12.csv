@@ -175,9 +175,10 @@ g154;nmtx31bbmx4yo53;1;Nabíjačky do auta a bezdrôtové;nabijacky-4;Počítač
 g147;nmtx31bbmx4yo53;1;Nositeľná elektronika;nositelna-elektronika-2;Počítače, mobily a tablety > Nositeľná elektronika
 g181;nmtx31bbmx4yo53;1;Notebooky;notebooky-2;Počítače, mobily a tablety > Notebooky
 g187;nmtx31bbmx4yo53;1;PC periférie;pc-periferie-2;Počítače, mobily a tablety > PC periférie
-g150;nmtx31bbmx4yo53;1;Pamäťové karty;pamatove-karty-6;Počítače, mobily a tablety > Pamäťové karty
 g183;nmtx31bbmx4yo53;1;Pamäťové médiá;pamatove-media-2;Počítače, mobily a tablety > Pamäťové médiá
-g189;nmtx31bbmx4yo53;1;Pendrive;pendrive;Počítače, mobily a tablety > Pendrive
+g303;g183;2;Externé disky;externe-disky-2;Počítače, mobily a tablety > Pamäťové médiá > Externé disky
+g150;g183;2;Pamäťové karty;pamatove-karty-6;Počítače, mobily a tablety > Pamäťové médiá > Pamäťové karty
+g189;g183;2;USB kľúče;usb-kluce;Počítače, mobily a tablety > Pamäťové médiá > USB kľúče
 g188;nmtx31bbmx4yo53;1;Predlžovacie a rozbočovacie zásuvky k PC;predlzovacie-kable-3;Počítače, mobily a tablety > Predlžovacie a rozbočovacie zásuvky k PC
 g179;nmtx31bbmx4yo53;1;Prenosné monitory;prenosne-monitory-2;Počítače, mobily a tablety > Prenosné monitory
 g194;nmtx31bbmx4yo53;1;Príslušenstvo k notebookom;prislusenstvo-k-notebookom-2;Počítače, mobily a tablety > Príslušenstvo k notebookom
