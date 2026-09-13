@@ -13,14 +13,14 @@ Shoptetu) ani s jej blízkym pravopisným variantom — produkty pod nimi sa pre
 
 | Kategória z feedu | Počet produktov | Príklady produktov |
 |---|---|---|
-| Zdravie a starostlivosť > Masážne prístroje > Masážne pištole | 1 | TrueLife RelaxGun G3 |
+| Domáce spotrebiče > Malé spotrebiče > Nádobie > Zdobičky, Vykrajovačky | 1 | Westmark 2822 2270 Vykrajovač  "Gentle" |
+| Náradie a dielňa > Náradie > Pneumatické a hydraulické náradie > Nastreľovačky a Nitovačky | 1 | Güde 40220 Sponkovačka KOMBI sada |
 | Náradie a dielňa > Náradie > Elektrické náradie > Zváračky a rezačky > Elektrodové | 1 | Güde 20001 Elektrodová svářečka GE145W/A |
 | Domáce spotrebiče > Vstavané spotrebiče > Vstavané práčky a sušičky | 1 | Electrolux EWN7F447WI |
+| Zdravie a starostlivosť > Masážne prístroje > Masážne pištole | 1 | TrueLife RelaxGun G3 |
 | TV, audio a video > Audio - video káble > CINCH RCA káble | 1 | InAkustik 671934 Kabel jack 3,5 mm 1,5 m |
 | Domáce spotrebiče > Malé spotrebiče > Príprava nápojov > Čaje | 1 | ScanPart Čistící tablety 10 ks pro láhve |
-| Domáce spotrebiče > Malé spotrebiče > Nádobie > Zdobičky, Vykrajovačky | 1 | Westmark 2822 2270 Vykrajovač  "Gentle" |
 | Domáce spotrebiče > Vstavané spotrebiče > Ostatné vstavané spotrebiče | 1 | Electrolux LBD4Z |
-| Náradie a dielňa > Náradie > Pneumatické a hydraulické náradie > Nastreľovačky a Nitovačky | 1 | Güde 40220 Sponkovačka KOMBI sada |
 
 ## Automaticky napárované na existujúcu kategóriu (blízky pravopisný variant)
 
