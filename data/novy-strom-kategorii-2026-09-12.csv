@@ -113,10 +113,15 @@ g128;nmtx2zmrqmyq3yo;1;Vstavané chladenie;vstavane-chladenie;Domáce spotrebič
 g127;nmtx2zmrqmyq3yo;1;Vstavané mikrovlnné rúry;vstavane-mikrovlnne-rury;Domáce spotrebiče > Vstavané mikrovlnné rúry
 g123;nmtx2zmrqmyq3yo;1;Vstavané rúry;vstavane-rury;Domáce spotrebiče > Vstavané rúry
 g125;nmtx2zmrqmyq3yo;1;Vstavané umývačky riadu;vstavane-umyvacky-riadu;Domáce spotrebiče > Vstavané umývačky riadu
-g110;nmtx2zmrqmyq3yo;1;Vybavenie domácnosti;vybavenie-domacnosti;Domáce spotrebiče > Vybavenie domácnosti
 g121;nmtx2zmrqmyq3yo;1;Vykurovanie a ohrev vody;vykurovanie-a-ohrev-vody;Domáce spotrebiče > Vykurovanie a ohrev vody
 g89;nmtx2zmrqmyq3yo;1;Vysávače;vysavace;Domáce spotrebiče > Vysávače
-g97;nmtx2zmrqmyq3yo;1;Vzduchotechnika;vzduchotechnika;Domáce spotrebiče > Vzduchotechnika
+g97;nmtx2zmrqmyq3yo;1;Klimatizácia a vzduch;vzduchotechnika;Domáce spotrebiče > Klimatizácia a vzduch
+g97a;g97;2;Aróma difuzéry;aroma-difuzery;Domáce spotrebiče > Klimatizácia a vzduch > Aróma difuzéry
+g97b;g97;2;Čističky a zvlhčovače vzduchu;cisticky-vzduchu;Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu
+g97c;g97;2;Odvlhčovače vzduchu;odvlhcovace-vzduchu;Domáce spotrebiče > Klimatizácia a vzduch > Odvlhčovače vzduchu
+g97d;g97;2;Ohrievače a vykurovacie telesá;vykurovacie-telesa;Domáce spotrebiče > Klimatizácia a vzduch > Ohrievače a vykurovacie telesá
+g97e;g97;2;Ventilátory;ventilatory;Domáce spotrebiče > Klimatizácia a vzduch > Ventilátory
+g97f;g97;2;Klimatizácia;klimatizacia;Domáce spotrebiče > Klimatizácia a vzduch > Klimatizácia
 g98;nmtx2zmrqmyq3yo;1;Vákuovačky a zváračky fólií;vakuovacky-a-zvaracky-folii;Domáce spotrebiče > Vákuovačky a zváračky fólií
 g113;nmtx2zmrqmyq3yo;1;Čistiace prístroje a doplnky;cistiace-pristroje-a-doplnky;Domáce spotrebiče > Čistiace prístroje a doplnky
 g99;nmtx2zmrqmyq3yo;1;Žehličky;zehlicky;Domáce spotrebiče > Žehličky
