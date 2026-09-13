@@ -387,6 +387,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /razove-utahovaky-skrutkovace-kladiva/;/sady-naradia/;ancestor(-2);Náradie a dielňa > Náradie > Pneumatické a hydraulické náradie > Rázové uťahováky skrutkovače kladivá;Dielňa a záhrada > Sady náradia;48090
 /02-brusne-a-rezacie-kotuce/;/sady-naradia/;ancestor(-2);Náradie a dielňa > Náradie > Príslušenstvo pre stroje a náradie > Príslušenstvo AKU a Elektrické náradie > Príslušenstvo pre Brúsky > 02 Brúsne a rezacie kotúče;Dielňa a záhrada > Sady náradia;40209
 /oblecenie-a-obuv/;/cestovanie-sport-a-outdoor/;ancestor(-1);Šport, hračky a voľný čas > Oblečenie a obuv;Cestovanie, šport a outdoor;40224
+/turistika/;/outdoor/;exact;Šport, hračky a voľný čas > Turistika;Cestovanie, šport a outdoor > Turistika a outdoor;41640
 /sportovni-vybavenie/;/sportove-vybavenie/;exact;Šport, hračky a voľný čas > Sportovní vybavenie;Cestovanie, šport a outdoor > Športové vybavenie;42570
 /mikroskopy/;/cestovanie-sport-a-outdoor/;ancestor(-1);Šport, hračky a voľný čas > Mikroskopy;Cestovanie, šport a outdoor;42846
 /zdravotni-potreby/;/zdravotne-a-rehabilitacne-pomocky/;exact;Šport, hračky a voľný čas > Zdravotní potreby;Cestovanie, šport a outdoor > Zdravotné a rehabilitačné pomôcky;42879
@@ -1008,17 +1009,17 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /krovinorezy/;/nahradne-diely-pre-zahradne-stroje/;ancestor(-1);Záhrada > Záhradné stroje > Krovinorezy;Dielňa a záhrada > Náhradné diely pre záhradné stroje;44130
 /zahradne-noznice-4/;/nahradne-diely-pre-zahradne-stroje/;ancestor(-1);Záhrada > Záhradné stroje > Záhradné nožnice;Dielňa a záhrada > Náhradné diely pre záhradné stroje;45546
 /vysavace-listie/;/nahradne-diely-pre-zahradne-stroje/;ancestor(-1);Záhrada > Záhradné stroje > Vysávače lístie;Dielňa a záhrada > Náhradné diely pre záhradné stroje;45735
-/kempingove-stoly--stolicky--lezadla/;/turistika/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Kempingové stoly, stoličky, ležadlá;Cestovanie, šport a outdoor > Turistika;41643
-/celove-svietidla/;/turistika/;exact;Šport, hračky a voľný čas > Turistika > Čelové svietidlá;Cestovanie, šport a outdoor > Turistika;42018
-/impregnace/;/turistika/;exact;Šport, hračky a voľný čas > Turistika > Impregnace;Cestovanie, šport a outdoor > Turistika;42180
-/chladiace-tasky-a-boxy-2/;/turistika/;exact;Šport, hračky a voľný čas > Turistika > Chladiace tašky a boxy;Cestovanie, šport a outdoor > Turistika;42831
-/stany/;/turistika/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Stany;Cestovanie, šport a outdoor > Turistika;42936
-/turisticke-vybavenie/;/turistika/;exact;Šport, hračky a voľný čas > Turistika > Turistické vybavenie;Cestovanie, šport a outdoor > Turistika;43545
-/cestovani-a-outdoor/;/turistika/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Cestování a outdoor;Cestovanie, šport a outdoor > Turistika;43752
-/karimatky--matrace--vankuse/;/turistika/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Karimatky, matrace, vankúše;Cestovanie, šport a outdoor > Turistika;44034
-/hojdacie-siete/;/turistika/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Hojdacie siete;Cestovanie, šport a outdoor > Turistika;44040
-/vysielacky-2/;/turistika/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Vysielačky;Cestovanie, šport a outdoor > Turistika;44916
-/turisticke-a-outdoorove-vybavenie/;/turistika/;exact;Šport, hračky a voľný čas > Turistika > Turistické a outdoorové vybavenie;Cestovanie, šport a outdoor > Turistika;48447
+/kempingove-stoly--stolicky--lezadla/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Kempingové stoly, stoličky, ležadlá;Cestovanie, šport a outdoor > Turistika a outdoor;41643
+/celove-svietidla/;/outdoor/;exact;Šport, hračky a voľný čas > Turistika > Čelové svietidlá;Cestovanie, šport a outdoor > Turistika a outdoor;42018
+/impregnace/;/outdoor/;exact;Šport, hračky a voľný čas > Turistika > Impregnace;Cestovanie, šport a outdoor > Turistika a outdoor;42180
+/chladiace-tasky-a-boxy-2/;/outdoor/;exact;Šport, hračky a voľný čas > Turistika > Chladiace tašky a boxy;Cestovanie, šport a outdoor > Turistika a outdoor;42831
+/stany/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Stany;Cestovanie, šport a outdoor > Turistika a outdoor;42936
+/turisticke-vybavenie/;/outdoor/;exact;Šport, hračky a voľný čas > Turistika > Turistické vybavenie;Cestovanie, šport a outdoor > Turistika a outdoor;43545
+/cestovani-a-outdoor/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Cestování a outdoor;Cestovanie, šport a outdoor > Turistika a outdoor;43752
+/karimatky--matrace--vankuse/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Karimatky, matrace, vankúše;Cestovanie, šport a outdoor > Turistika a outdoor;44034
+/hojdacie-siete/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Hojdacie siete;Cestovanie, šport a outdoor > Turistika a outdoor;44040
+/vysielacky-2/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Turistika > Vysielačky;Cestovanie, šport a outdoor > Turistika a outdoor;44916
+/turisticke-a-outdoorove-vybavenie/;/outdoor/;exact;Šport, hračky a voľný čas > Turistika > Turistické a outdoorové vybavenie;Cestovanie, šport a outdoor > Turistika a outdoor;48447
 /redukcie--predlzovacie-kable-pre-pripojeni-privesu/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál > Redukcie, predlžovacie káble pre připojení přívěsu;Auto-moto > Garáž, dielňa, servis;41658
 /poistky-4/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál > Poistky;Auto-moto > Garáž, dielňa, servis;43710
 /smrstovaci-buzirky/;/garaz--dielna--servis/;ancestor(-1);Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál > Smršťovací bužírky;Auto-moto > Garáž, dielňa, servis;43890
@@ -1662,16 +1663,16 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /dji/;/prislusenstvo-pre-drony/;exact;Dróny a RC modely > Príslušenstvo pre drony > DJI;Cestovanie, šport a outdoor > Príslušenstvo pre drony;45912
 /filtre-pre-drony/;/prislusenstvo-pre-drony/;exact;Dróny a RC modely > Príslušenstvo pre drony > Filtre pre drony;Cestovanie, šport a outdoor > Príslušenstvo pre drony;46068
 /pristatie/;/prislusenstvo-pre-drony/;ancestor(-1);Dróny a RC modely > Príslušenstvo pre drony > Pristátie;Cestovanie, šport a outdoor > Príslušenstvo pre drony;46167
-/ostatne-13/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Ostatné;Cestovanie, šport a outdoor > Outdoor;45798
-/svietidla-3/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Svietidlá;Cestovanie, šport a outdoor > Outdoor;45846
-/osvetlenie-5/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Osvetlenie;Cestovanie, šport a outdoor > Outdoor;45924
-/kempovanie/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Kempovanie;Cestovanie, šport a outdoor > Outdoor;46650
-/rybarcenie/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Rybárčenie;Cestovanie, šport a outdoor > Outdoor;46698
-/prislusenstvo-na-kluky/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Príslušenstvo na kľuky;Cestovanie, šport a outdoor > Outdoor;46770
-/elektricke-skutre/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Elektrické skútre;Cestovanie, šport a outdoor > Outdoor;46785
-/batohy-3/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Batohy;Cestovanie, šport a outdoor > Outdoor;46800
-/kempingove-vybavenie/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Kempingové vybavenie;Cestovanie, šport a outdoor > Outdoor;48420
-/prislusenstvo-k-bicyklovym-klukam/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Príslušenstvo k bicyklovým kľukám;Cestovanie, šport a outdoor > Outdoor;48432
+/ostatne-13/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Ostatné;Cestovanie, šport a outdoor > Turistika a outdoor;45798
+/svietidla-3/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Svietidlá;Cestovanie, šport a outdoor > Turistika a outdoor;45846
+/osvetlenie-5/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Osvetlenie;Cestovanie, šport a outdoor > Turistika a outdoor;45924
+/kempovanie/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Kempovanie;Cestovanie, šport a outdoor > Turistika a outdoor;46650
+/rybarcenie/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Rybárčenie;Cestovanie, šport a outdoor > Turistika a outdoor;46698
+/prislusenstvo-na-kluky/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Príslušenstvo na kľuky;Cestovanie, šport a outdoor > Turistika a outdoor;46770
+/elektricke-skutre/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Elektrické skútre;Cestovanie, šport a outdoor > Turistika a outdoor;46785
+/batohy-3/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Batohy;Cestovanie, šport a outdoor > Turistika a outdoor;46800
+/kempingove-vybavenie/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Kempingové vybavenie;Cestovanie, šport a outdoor > Turistika a outdoor;48420
+/prislusenstvo-k-bicyklovym-klukam/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Príslušenstvo k bicyklovým kľukám;Cestovanie, šport a outdoor > Turistika a outdoor;48432
 /led-pasy/;/led-osvetlenie/;exact;Bezpečnosť a smart domácnosť > Osvetlenie > LED pásy;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;45822
 /stolove-a-nocne-lampy/;/osvetlenie/;exact;Bezpečnosť a smart domácnosť > Osvetlenie > Stolové a nočné lampy;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;45870
 /led-ziarovky-3/;/osvetlenie/;ancestor(-1);Bezpečnosť a smart domácnosť > Osvetlenie > LED žiarovky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;45951
@@ -1688,17 +1689,17 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /senzory-pre-smart-domacnost/;/smart-domacnost/;exact;Bezpečnosť a smart domácnosť > Prvky výkonu > Senzory pre smart domácnosť;Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia;48381
 /zasuvky-3/;/smart-domacnost/;exact;Bezpečnosť a smart domácnosť > Prvky výkonu > Smart zástrčky > Zásuvky;Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia;45831
 /napajacie-listy-2/;/smart-domacnost/;ancestor(-1);Bezpečnosť a smart domácnosť > Prvky výkonu > Smart zástrčky > Napájacie lišty;Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia;46563
-/ostatne-14/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Svietidlá > Ostatné;Cestovanie, šport a outdoor > Outdoor;45849
-/celovky-2/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Svietidlá > Čelovky;Cestovanie, šport a outdoor > Outdoor;45852
-/pracovne-svetla/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Svietidlá > Pracovné svetlá;Cestovanie, šport a outdoor > Outdoor;45855
-/uv-svietidla/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Svietidlá > UV svietidlá;Cestovanie, šport a outdoor > Outdoor;45948
-/svetla-na-bicykel/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Svietidlá > Svetlá na bicykel;Cestovanie, šport a outdoor > Outdoor;46716
+/ostatne-14/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Svietidlá > Ostatné;Cestovanie, šport a outdoor > Turistika a outdoor;45849
+/celovky-2/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Svietidlá > Čelovky;Cestovanie, šport a outdoor > Turistika a outdoor;45852
+/pracovne-svetla/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Svietidlá > Pracovné svetlá;Cestovanie, šport a outdoor > Turistika a outdoor;45855
+/uv-svietidla/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Svietidlá > UV svietidlá;Cestovanie, šport a outdoor > Turistika a outdoor;45948
+/svetla-na-bicykel/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Svietidlá > Svetlá na bicykel;Cestovanie, šport a outdoor > Turistika a outdoor;46716
 /smart-ovladace/;/riadiace-jednotky/;exact;Bezpečnosť a smart domácnosť > Riadiace jednotky > Smart ovládače;Elektro, Smart Home a osvetlenie > Smart riadiace jednotky a huby;45897
 /prepinace/;/riadiace-jednotky/;exact;Bezpečnosť a smart domácnosť > Riadiace jednotky > Prepínače;Elektro, Smart Home a osvetlenie > Smart riadiace jednotky a huby;45942
 /smart-centraly/;/riadiace-jednotky/;exact;Bezpečnosť a smart domácnosť > Riadiace jednotky > Smart centrály;Elektro, Smart Home a osvetlenie > Smart riadiace jednotky a huby;45945
 /ovladacie-panely/;/riadiace-jednotky/;ancestor(-1);Bezpečnosť a smart domácnosť > Riadiace jednotky > Ovládacie panely;Elektro, Smart Home a osvetlenie > Smart riadiace jednotky a huby;46089
-/kempingove-svetla/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Osvetlenie > Kempingové svetlá;Cestovanie, šport a outdoor > Outdoor;45927
-/vonkajsie-svetla/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Osvetlenie > Vonkajšie svetlá;Cestovanie, šport a outdoor > Outdoor;46056
+/kempingove-svetla/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Osvetlenie > Kempingové svetlá;Cestovanie, šport a outdoor > Turistika a outdoor;45927
+/vonkajsie-svetla/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Osvetlenie > Vonkajšie svetlá;Cestovanie, šport a outdoor > Turistika a outdoor;46056
 /napajacky/;/chovatelske-potreby/;exact;Zdravie a starostlivosť > Chovateľské potreby > Fontány > napájačky;Zdravie a starostlivosť > Chovateľské potreby;45933
 /zastrihavace-2/;/zdravie-a-starostlivost/;ancestor(-2);Zdravie a starostlivosť > Holiace strojčeky a zastrihávače > Zastrihávače;Zdravie a starostlivosť;45975
 /holiace-strojceky-2/;/zdravie-a-starostlivost/;ancestor(-2);Zdravie a starostlivosť > Holiace strojčeky a zastrihávače > Holiace strojčeky;Zdravie a starostlivosť;46104
@@ -1756,13 +1757,13 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /fotovoltaicke-panely-2/;/fotovoltaika-a-energie/;ancestor(-2);Fotovoltaika a energie > Fotovoltaické panely > Fotovoltaické panely;Energia a napájanie;46683
 /balkonove-systemy/;/fotovoltaika-a-energie/;ancestor(-2);Fotovoltaika a energie > Fotovoltaické panely > Balkónové systémy;Energia a napájanie;46692
 /vysavace-do-auta/;/auto-moto/;ancestor(-2);Auto-moto > Umývanie a čistenie > Vysávače do auta;Auto-moto;46680
-/navnada-lode/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Rybárčenie > Návnada lode;Cestovanie, šport a outdoor > Outdoor;46701
-/ostatne-24/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Rybárčenie > Ostatné;Cestovanie, šport a outdoor > Outdoor;46704
+/navnada-lode/;/outdoor/;exact;Šport, hračky a voľný čas > Outdoor > Rybárčenie > Návnada lode;Cestovanie, šport a outdoor > Turistika a outdoor;46701
+/ostatne-24/;/outdoor/;ancestor(-1);Šport, hračky a voľný čas > Outdoor > Rybárčenie > Ostatné;Cestovanie, šport a outdoor > Turistika a outdoor;46704
 /roboty-humanoidalne/;/dielna-a-zahrada/;ancestor(-2);Kreatívne technológie > Roboty > Roboty Humanoidalne;Dielňa a záhrada;46710
 /seria-r1/;/dielna-a-zahrada/;ancestor(-3);Kreatívne technológie > Roboty > Roboty Humanoidalne > Seria R1;Dielňa a záhrada;46713
 /humanoidne-roboty-seria-r1/;/dielna-a-zahrada/;ancestor(-3);Kreatívne technológie > Roboty > Roboty Humanoidalne > Humanoidné roboty séria R1;Dielňa a záhrada;48429
 /odsavacky-mlieka/;/matka-a-dieta/;ancestor(-2);Zdravie a starostlivosť > Matka a dieťa > Odsávačky mlieka a masážne prístroje > Odsávačky mlieka;Zdravie a starostlivosť > Matka a dieťa;46752
-/tasky-2/;/outdoor/;ancestor(-2);Šport, hračky a voľný čas > Outdoor > Batohy > tašky;Cestovanie, šport a outdoor > Outdoor;46803
+/tasky-2/;/outdoor/;ancestor(-2);Šport, hračky a voľný čas > Outdoor > Batohy > tašky;Cestovanie, šport a outdoor > Turistika a outdoor;46803
 /sluchadla-a-reproduktory/;/matka-a-dieta/;ancestor(-2);Zdravie a starostlivosť > Matka a dieťa > Elektronické príslušenstvo > Slúchadlá a reproduktory;Zdravie a starostlivosť > Matka a dieťa;46827
 /reproduktory-5/;/pa-reproduktory/;exact;Profesionálna audio technika > Reproduktory;Profesionálna audio technika > PA reproduktory;46914
 /vypredaj/;/profesionalna-audio-technika/;ancestor(-1);Profesionálna audio technika > Výpredaj;Profesionálna audio technika;46986
