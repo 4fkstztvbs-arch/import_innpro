@@ -1,6 +1,6 @@
 # Postup nasadenia nového stromu kategórií (noc nedeľa → pondelok)
 
-> **Aktualizované 2026-09-13:** strom má **242 uzlov**. Audit pred nasadením našiel a opravil
+> **Aktualizované 2026-09-13 (2×):** strom má **239 uzlov** po úpravách z recenzie. Audit pred nasadením našiel a opravil
 > štyri chyby – viď sekciu „Nálezy auditu 2026-09-13" na konci dokumentu. Pribudol krok 4c
 > (regenerovanie `data/category-urls.json`).
 
@@ -272,3 +272,28 @@ strome sú take 4 uzly: „Diaľkové ovládače" (0 priamych, deti majú stovky
 „Výpredaj" a „Nové produkty" (tie už predtým zahodí `fix-ignored-categories.js`) a „Foto
 a príslušenstvo" (7 priamych produktov by sa presunulo o úroveň vyššie). Dopad je zanedbateľný,
 ale ak nechceš ani to, dá sa prah zvýšiť cez `THIN_CATEGORY_MIN`.
+
+
+## Úpravy po recenzii (2026-09-13 popoludní)
+
+| Zmena | Prečo |
+|---|---|
+| Zrušené „Nové produkty" a „Výpredaj" | marketingové štítky, nie typy produktov; ich 11 kusov padne na koreň |
+| Dva JTS uzly zlúčené do „Mikrofóny a bezdrôtové systémy" | značka nie je taxonómia, má vlastnú stránku `/znacka/jts/` |
+| Reproduktory → „PA reproduktory" a „HiFi a domáce reproduktory" | rovnaký názov na dvoch miestach; navyše silnejšie vyhľadávané frázy |
+| TV, foto, audio video → „TV, audio, video a foto technika" | prirodzenejší jazyk zákazníka |
+| Fotovoltaika → „Energia a napájanie" | UPS, nabíjačky a elektrické stanice nie sú fotovoltaika |
+| Nabíjanie a batérie → „Autobatérie, nabíjačky a štartovacie boxy" | príliš všeobecné |
+| 18 opravených URL | prevzatá adresa hovorila niečo iné než názov (`/nacitanie/` pri nabíjačkách dronov, `/ostatne-27/`, `/startovacie-kable-2/`, `/fotovoltaika/` pri príslušenstve) |
+| Jazykové opravy | „Chytré" → „Inteligentné", „heváky" → „zdviháky", „klešťové" vypustené, „nivelák" → „nivelačný prístroj" |
+| 9 meta descriptions | odľahčené z 4 značiek na 2 + „a ďalších" |
+
+Strom 242 → **239 uzlov**, presmerovaní 2340 → **2362**.
+
+### Zámerne NEUROBENÉ (na neskôr)
+
+Zlúčenie piatich prekrývajúcich sa kuchynských kategórií (Nádobie 126, Kuchynské nádobie 122,
+Kuchynské potreby 117, Kuchynské príslušenstvo 31, Kuchynské roboty 181), presun Chovateľských
+potrieb (186 ks) spod Zdravia a rozdelenie 3D tlače (348 ks) na podkategórie. Nie sú to
+premenovania — treba pri nich rozhodnúť, kam idú stovky konkrétnych produktov, čo znamená nové
+mapovanie a nový test pokrytia.
