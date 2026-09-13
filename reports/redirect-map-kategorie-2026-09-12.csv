@@ -1,4 +1,4 @@
-old_url;new_url;match_type;old_full_path;new_full_path;old_id
+﻿old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /tv--audio-a-video/;/tv-foto-audio-video/;exact;TV, audio a video;TV, audio, video a foto technika;48936
 /pocitace-a-notebooky/;/pocitace-mobily-a-tablety/;exact;Počítače a notebooky;Počítače, mobily a tablety;48513
 /bezpecnost-a-smart-domacnost/;/elektro-smart-home-a-osvetlenie/;exact;Bezpečnosť a smart domácnosť;Elektro, Smart Home a osvetlenie;40119
@@ -2221,13 +2221,10 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /audio-technika---ostatne-produkty/;/audio-technika/;exact;TV, audio a video > Audio technika > Audio technika – ostatné produkty;TV, audio, video a foto technika > Audio technika;48957
 /radioprijimace/;/audio-technika/;exact;TV, audio a video > Audio technika > Rádioprijímače;TV, audio, video a foto technika > Audio technika;48966
 /radiobudiky/;/audio-technika/;exact;TV, audio a video > Audio technika > Rádiobudíky;TV, audio, video a foto technika > Audio technika;48969
-/sluchadla/;/audio-technika/;exact;TV, audio a video > Audio technika > Slúchadlá;TV, audio, video a foto technika > Audio technika;48972
-/soundbary/;/audio-technika/;exact;TV, audio a video > Audio technika > Soundbary;TV, audio, video a foto technika > Audio technika;48993
 /mikrofony/;/audio-technika/;exact;TV, audio a video > Audio technika > Mikrofóny;TV, audio, video a foto technika > Audio technika;49011
 /prislusenstvo-k-audio-technike/;/audio-technika/;exact;TV, audio a video > Audio technika > Príslušenstvo k audio technike;TV, audio, video a foto technika > Audio technika;49032
 /stojany-pre-reproduktory-a-sluchadla/;/audio-technika/;exact;TV, audio a video > Audio technika > Stojany pre reproduktory a slúchadlá;TV, audio, video a foto technika > Audio technika;49035
 /interkomy/;/audio-technika/;exact;TV, audio a video > Audio technika > Interkomy;TV, audio, video a foto technika > Audio technika;49062
-/radia/;/audio-technika/;exact;TV, audio a video > Audio technika > Rádiá;TV, audio, video a foto technika > Audio technika;49296
 /party-reproduktory/;/hifi-a-domace-reproduktory/;ancestor(-1);TV, audio a video > Audio technika > Reproduktory > Párty reproduktory;TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory;48996
 /pocitacove-reproduktory/;/hifi-a-domace-reproduktory/;exact;TV, audio a video > Audio technika > Reproduktory > Počítačové reproduktory;TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory;49044
 /aktivne-reproduktory/;/hifi-a-domace-reproduktory/;exact;TV, audio a video > Audio technika > Reproduktory > Aktívne reproduktory;TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory;49047
@@ -2236,8 +2233,6 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /av-receivery/;/audio-technika/;exact;TV, audio a video > Audio technika > HiFi komponenty > AV receivery;TV, audio, video a foto technika > Audio technika;48960
 /zosilnovace/;/audio-technika/;exact;TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače;TV, audio, video a foto technika > Audio technika;48963
 /gramofony/;/audio-technika/;exact;TV, audio a video > Audio technika > HiFi komponenty > Gramofóny;TV, audio, video a foto technika > Audio technika;48999
-/drotove-sluchadla/;/audio-technika/;exact;TV, audio a video > Audio technika > Slúchadlá > Drôtové slúchadlá;TV, audio, video a foto technika > Audio technika;48975
-/bezdrotove-sluchadla/;/audio-technika/;exact;TV, audio a video > Audio technika > Slúchadlá > Bezdrôtové slúchadlá;TV, audio, video a foto technika > Audio technika;49002
 /true-bezdrotove/;/audio-technika/;exact;TV, audio a video > Audio technika > Slúchadlá > True Bezdrôtové;TV, audio, video a foto technika > Audio technika;49014
 /prislusenstvo/;/audio-technika/;exact;TV, audio a video > Audio technika > Slúchadlá > Príslušenstvo;TV, audio, video a foto technika > Audio technika;49038
 /anteny/;/anteny-a-satelity/;exact;TV, audio a video > Antény a satelity > Antény;TV, audio, video a foto technika > Antény a satelity;48981
