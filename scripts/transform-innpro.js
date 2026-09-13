@@ -20,12 +20,12 @@ const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
-const { createCategoryMatcher } = require('./resolve-category');
+const { vytvorZaradovac } = require('./zarad-kategoriu');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
 
 // Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
 const crossSupplier = createCrossSupplierFilter('innpro');
-const categoryMatcher = createCategoryMatcher('innpro');
+const zaradovac = vytvorZaradovac('innpro');
 
 const FULL_URL = process.env.INNPRO_FULL_URL;
 const LIGHT_URL = process.env.INNPRO_LIGHT_URL;
@@ -42,7 +42,6 @@ const EXCLUDE_UNAVAILABLE = process.env.INNPRO_EXCLUDE_UNAVAILABLE === '1';
 
 const MAPPING_PATH = path.join(__dirname, 'innpro-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
-const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
 const CATEGORY_OVERRIDES_BY_CODE = mapping.categoryOverridesByCode || {};
 
@@ -53,7 +52,6 @@ function pathToExtraCategories(category) {
   return extraCategories;
 }
 
-function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
 
 // InnPro posiela celú meraciu techniku (~253 produktov) v jedinej surovej kategórii, takže na
 // úrovni kategórií sa rozdeliť nedá – jediná spoľahlivá informácia je názov produktu. Pravidlá
@@ -90,22 +88,18 @@ function resolveCategory(rawCategoryName, productLabel) {
   if (!keys.length) return { category: '', extraCategories: [], excluded: false };
   if (EXCLUSIONS.has(keys[keys.length - 1].key)) return { category: '', extraCategories: [], excluded: true };
 
-  const leafTrusted = !!RENAMES[keys[keys.length - 1].key];
-  const partsResult = [];
-  for (let i = keys.length - 1; i >= 0; i--) {
-    const rename = RENAMES[keys[i].key];
-    if (isPathOverride(keys[i].key, rename)) { partsResult.unshift(rename); break; }
-    partsResult.unshift(rename || keys[i].name);
-  }
-  let category = applySubRules(partsResult.join(' > '), productLabel);
-  const gated = categoryMatcher.resolve(category, { trusted: leafTrusted, productLabel,
-    sourcePath: keys[keys.length - 1].key });
-  if (gated.excluded) return { category: '', extraCategories: [], excluded: true, unmatchedCategory: category };
-  category = gated.category;
-  const segs = category.split(' > ');
-  const extraCategories = [];
-  for (let i = 1; i < segs.length; i++) extraCategories.push(segs.slice(0, i).join(' > '));
-  return { category, extraCategories, excluded: false };
+  // Zaradenie rieši jediná tabuľka data/kategorie/innpro.json — najdlhší prefix vyhráva a jeho
+  // cieľ nahrádza celú cestu. Podrobnosti v scripts/zarad-kategoriu.js.
+  const zdroj = keys[keys.length - 1].key;
+  const { kategoria } = zaradovac.zarad(zdroj, { produkt: productLabel });
+  // Chýbajúce pravidlo NIE JE dôvod produkt zahodiť: ostane bez kategórie, hide-uncategorised ho
+  // skryje a reports/chybajuce-pravidla-innpro.md povie, aké pravidlo doplniť.
+  if (!kategoria) return { category: '', extraCategories: [], excluded: false };
+  // Podpravidlá podľa názvu produktu bežia AŽ za zaradením: tá istá kategória dodávateľa sa podľa
+  // názvu rozpadá na konkrétnejšie uzly (meracia technika -> osciloskopy / termokamery / ...), čo
+  // tabuľka cesta->uzol vyjadriť nevie, lebo nezávisí od cesty.
+  const finalna = applySubRules(kategoria, productLabel);
+  return { category: finalna, extraCategories: zaradovac.predkovia(finalna), excluded: false };
 }
 
 function xmlEscape(s) {
@@ -361,7 +355,7 @@ async function main() {
 
   console.log('Done.');
   writeAnomalyReport('innpro', anomalies);
-  const categoryReport = categoryMatcher.writeReport();
+  const categoryReport = zaradovac.zapisReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
 }
