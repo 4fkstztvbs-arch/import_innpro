@@ -1,0 +1,44 @@
+{
+ "Dielňa, náradie a záhrada": {
+  "cesta": "/dielna-a-zahrada/",
+  "marker_text": "ANYCUBIC",
+  "stran": 85,
+  "marker": 86
+ },
+ "Profesionálna audio technika": {
+  "cesta": "/profesionalna-audio-technika/",
+  "marker_text": null,
+  "stran": 1,
+  "marker": null
+ },
+ "Auto-moto": {
+  "cesta": "/auto-moto/",
+  "marker_text": null,
+  "stran": 17,
+  "marker": null
+ },
+ "Televízne ovládače": {
+  "cesta": "/televizne-ovladace/",
+  "marker_text": null,
+  "stran": 1,
+  "marker": null
+ },
+ "Satelitné ovládače": {
+  "cesta": "/satelitne-ovladace/",
+  "marker_text": null,
+  "stran": 1,
+  "marker": null
+ },
+ "Príslušenstvo do auta": {
+  "cesta": "/vybavenie-auta/",
+  "marker_text": null,
+  "stran": 1,
+  "marker": null
+ },
+ "Príslušenstvo k TV, audio a video technike": {
+  "cesta": "/prislusenstvo-k-tv--audio--video/",
+  "marker_text": "Samsung",
+  "stran": 64,
+  "marker": 22
+ }
+}
