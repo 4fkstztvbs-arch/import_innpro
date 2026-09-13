@@ -27,12 +27,20 @@ function escapeHtml(s) {
   return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
+// Odstavec, ktorý tento skript sám vygeneroval pri niektorom z predošlých behov. Hľadá sa preto,
+// lebo kategória produktu sa časom mení a starý odstavec by inak v popise ostal navždy: po
+// prepnutí na nový strom (13. 9. 2026) ukazovalo 984 z 26 696 odkazov na nesprávnu kategóriu.
+// Shoptet páruje kategórie pri importe podľa URL, takže staré URL medzitým dostala iná kategória
+// — odkaz teda nebol mŕtvy, viedol na úplne iný sortiment ("Náhradné diely" -> Antény a satelity).
+// Zachytáva aj absolútny tvar odkazu z pilotnej verzie skriptu (add-brand-category-links.js).
+const EXISTING_LINK = /\s*<p>Ďalšie produkty nájdete v kategórii <a href="[^"]*">[^<]*<\/a>\.<\/p>/g;
+
 
 function main() {
   const xml = fs.readFileSync(XML_PATH, 'utf-8');
   const items = xml.split('<SHOPITEM>');
   const head = items.shift();
-  let added = 0, alreadyHad = 0, noMatch = 0;
+  let added = 0, alreadyHad = 0, noMatch = 0, updated = 0, removed = 0;
 
   const patched = items.map((rest) => {
     // Prva <CATEGORY> je vzdy najhlbsia/hlavna priradena kategoria (defaultCategory), dalsie su
@@ -47,21 +55,34 @@ function main() {
     const fullPath = catM[1].trim();
     const leaf = fullPath.split(' > ').pop().trim();
     const url = CATEGORY_URLS[fullPath];
-    if (!url) { noMatch++; return rest; }
-
-    if (rest.includes(`href="${url}"`)) { alreadyHad++; return rest; }
-
     const descM = rest.match(/<DESCRIPTION><!\[CDATA\[([\s\S]*?)\]\]><\/DESCRIPTION>/);
-    if (!descM) { noMatch++; return rest; }
 
+    // Kategóriu nepoznáme: starý odstavec treba aj tak odstrániť, inak by v popise ostal odkaz na
+    // kategóriu, v ktorej už produkt nie je. Radšej žiaden odkaz než odkaz inam.
+    if (!url || !descM) {
+      noMatch++;
+      if (!descM) return rest;
+      // Zámerne bez .test() — regex má príznak `g`, takže si pamätá lastIndex a pri opakovanom
+      // volaní by striedavo vracal false. .replace() lastIndex vždy vynuluje.
+      const ocistene = descM[1].replace(EXISTING_LINK, '');
+      if (ocistene === descM[1]) return rest;
+      removed++;
+      return rest.replace(descM[0], `<DESCRIPTION><![CDATA[${ocistene}]]></DESCRIPTION>`);
+    }
+
+    // Starý odstavec sa vždy odstráni a zapíše sa čerstvý — tak sa odkaz drží kategórie, v ktorej
+    // produkt práve je, namiesto tej, v ktorej bol pri prvom behu.
     const linkPara = `<p>Ďalšie produkty nájdete v kategórii <a href="${url}">${escapeHtml(leaf)}</a>.</p>`;
-    const newDesc = descM[1] + '\n' + linkPara;
-    added++;
+    const bez = descM[1].replace(EXISTING_LINK, '');
+    const newDesc = bez + '\n' + linkPara;
+    if (newDesc === descM[1]) { alreadyHad++; return rest; }
+    if (bez.length !== descM[1].length) updated++; else added++;
     return rest.replace(descM[0], `<DESCRIPTION><![CDATA[${newDesc}]]></DESCRIPTION>`);
   });
 
   fs.writeFileSync(XML_PATH, head + patched.map((p) => '<SHOPITEM>' + p).join(''), 'utf-8');
-  console.log(`${path.basename(XML_PATH)}: pridaný odkaz: ${added}, už mal: ${alreadyHad}, bez zhody/neznáma kategória: ${noMatch}`);
+  console.log(`${path.basename(XML_PATH)}: pridaný odkaz: ${added}, prepísaný: ${updated}, `
+    + `odstránený: ${removed}, už mal správny: ${alreadyHad}, bez zhody/neznáma kategória: ${noMatch}`);
 }
 
 main();
