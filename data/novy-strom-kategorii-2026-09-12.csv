@@ -42,7 +42,7 @@ g139;nmtx2yxj71vky3g;1;Ďalekohľady;dalekohlady;Cestovanie, šport a outdoor > 
 g134;nmtx2yxj71vky3g;1;Športové vybavenie;sportove-vybavenie;Cestovanie, šport a outdoor > Športové vybavenie
 nmtx2z35i18n8n2;;0;Dielňa, náradie a záhrada;dielna-a-zahrada;Dielňa, náradie a záhrada
 g68;nmtx2z35i18n8n2;1;Dielenské vybavenie;dielenske-vybavenie;Dielňa, náradie a záhrada > Dielenské vybavenie
-g75;g68;2;Chémia pre dielňu;chemia;Dielňa, náradie a záhrada > Dielenské vybavenie > Chémia pre dielňu
+g75;g68;2;Chémia pre dielňu;chemia-pre-dielnu;Dielňa, náradie a záhrada > Dielenské vybavenie > Chémia pre dielňu
 g70;g68;2;Ochranné pomôcky a odevy;ochranne-pomocky-a-odevy;Dielňa, náradie a záhrada > Dielenské vybavenie > Ochranné pomôcky a odevy
 g71;g68;2;Sťahovacie pásky a drobné príslušenstvo;stahovacie-pasky-a-drobne-prislusenstvo;Dielňa, náradie a záhrada > Dielenské vybavenie > Sťahovacie pásky a drobné príslušenstvo
 g63;nmtx2z35i18n8n2;1;Elektronické súčiastky;elektronicke-suciastky;Dielňa, náradie a záhrada > Elektronické súčiastky
@@ -146,7 +146,7 @@ nmty9y7oap0iq70;g36;2;Komponenty pre svietidlá;komponenty-pre-svietidla;Elektro
 nmty9wt1mxu5qa8;g36;2;LED osvetlenie;led-osvetlenie;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie
 nmty9vnk340se2h;g36;2;Vianočné osvetlenie a dekorácie;vianocne-osvetlenie;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > Vianočné osvetlenie a dekorácie
 g82;nmtx2zb3yft543o;1;Pohony brán a vrát;pohony-bran-a-vrat;Elektro, Smart Home a osvetlenie > Pohony brán a vrát
-g38;nmtx2zb3yft543o;1;Predlžovacie káble a vidlice;predlzovacky--zasuvky--vidlica;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice
+g38;nmtx2zb3yft543o;1;Predlžovacie káble a vidlice;predlzovacie-kable-a-vidlice;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice
 g54;nmtx2zb3yft543o;1;Profesionálne kamerové systémy;kamerove-systemy;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy
 g61;nmtx2zb3yft543o;1;Príslušenstvo pre zabezpečovacie systémy;prislusenstvo-pre-zabezpecovacie-systemy;Elektro, Smart Home a osvetlenie > Príslušenstvo pre zabezpečovacie systémy
 g37;nmtx2zb3yft543o;1;Rozvádzačové prvky;rozvadzacove-prvky;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky
@@ -185,10 +185,10 @@ g183;nmtx31bbmx4yo53;1;Pamäťové médiá;pamatove-media-2;Počítače, mobily 
 g303;g183;2;Externé disky;externe-disky-2;Počítače, mobily a tablety > Pamäťové médiá > Externé disky
 g150;g183;2;Pamäťové karty;pamatove-karty-6;Počítače, mobily a tablety > Pamäťové médiá > Pamäťové karty
 g189;g183;2;USB kľúče;usb-kluce;Počítače, mobily a tablety > Pamäťové médiá > USB kľúče
-g188;nmtx31bbmx4yo53;1;Predlžovacie a rozbočovacie zásuvky k PC;predlzovacie-kable-3;Počítače, mobily a tablety > Predlžovacie a rozbočovacie zásuvky k PC
+g188;nmtx31bbmx4yo53;1;Predlžovacie a rozbočovacie zásuvky k PC;predlzovacie-a-rozbocovacie-zasuvky;Počítače, mobily a tablety > Predlžovacie a rozbočovacie zásuvky k PC
 g179;nmtx31bbmx4yo53;1;Prenosné monitory;prenosne-monitory-2;Počítače, mobily a tablety > Prenosné monitory
 g194;nmtx31bbmx4yo53;1;Príslušenstvo k notebookom;prislusenstvo-k-notebookom-2;Počítače, mobily a tablety > Príslušenstvo k notebookom
-g146;nmtx31bbmx4yo53;1;Príslušenstvo pre mobilné telefóny;prislusenstvo-10;Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny
+g146;nmtx31bbmx4yo53;1;Príslušenstvo pre mobilné telefóny;prislusenstvo-pre-mobilne-telefony;Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny
 g146a;g146;2;Powerbanky;powerbanky;Počítače, mobily a tablety > Príslušenstvo pre mobilné telefóny > Powerbanky
 g186;nmtx31bbmx4yo53;1;Rackové skrine – príslušenstvo;rackove-skrine-a-prislusenstvo-2;Počítače, mobily a tablety > Rackové skrine – príslušenstvo
 g190;nmtx31bbmx4yo53;1;Routery;routery-3;Počítače, mobily a tablety > Routery
@@ -211,7 +211,7 @@ g200;nmtx320addb9vn5;1;PA reproduktory;pa-reproduktory;Profesionálna audio tech
 g198;nmtx320addb9vn5;1;Plošné ozvučenie (100V rozhlasové ozvučenie);plosne-ozvucenie--100v-rozhlasove-ozvucenie;Profesionálna audio technika > Plošné ozvučenie (100V rozhlasové ozvučenie)
 g197;nmtx320addb9vn5;1;Pódium, diskotéka, DJ;podium--diskoteka--dj;Profesionálna audio technika > Pódium, diskotéka, DJ
 g202;nmtx320addb9vn5;1;Svetlá pre DJ a diskotéky;svetla-2;Profesionálna audio technika > Svetlá pre DJ a diskotéky
-g205;nmtx320addb9vn5;1;Súčiastky, meracia technika a DIY pre audio;naradia--do-it-yourself--napajanie--meracia-technika;Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio
+g205;nmtx320addb9vn5;1;Súčiastky, meracia technika a DIY pre audio;suciastky-a-diy-pre-audio;Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio
 g204;nmtx320addb9vn5;1;Tlmočnícke a konferenčné systémy;tlmocnicke--sprievodcovske-a-konferencne-systemy;Profesionálna audio technika > Tlmočnícke a konferenčné systémy
 nmtx2pijr74war9;;0;TV, audio, video a foto technika;tv-foto-audio-video;TV, audio, video a foto technika
 g4;nmtx2pijr74war9;1;AV káble;av-kable;TV, audio, video a foto technika > AV káble
@@ -233,8 +233,8 @@ g13;g10;2;Fotoateliér;fotoatelier-2;TV, audio, video a foto technika > Foto a p
 g17;g10;2;Fotopasce;fotopasce-2;TV, audio, video a foto technika > Foto a príslušenstvo > Fotopasce
 g15;g10;2;Gimbály a stabilizátory;gimbaly-a-stabilizatory-2;TV, audio, video a foto technika > Foto a príslušenstvo > Gimbály a stabilizátory
 g11;g10;2;Príslušenstvo pre fotoaparáty a akčné kamery;prislusenstvo-pre-fotoaparaty-a-akcne-kamery;TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery
-g12;g10;2;Selfie tyče;postroje--upevnovacie-prvky-a-drziaky-2;TV, audio, video a foto technika > Foto a príslušenstvo > Selfie tyče
 g16;g10;2;Skladovanie a preprava;skladovanie-a-preprava-2;TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava
+g12;g10;2;Statívy, držiaky a upevnenie pre kamery;stativy-drziaky-a-upevnenie;TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery
 g18;g10;2;Súpravy;supravy-2;TV, audio, video a foto technika > Foto a príslušenstvo > Súpravy
 nmtx2rgz1e15brg;nmtx2pijr74war9;1;Projektory;projektory-4;TV, audio, video a foto technika > Projektory
 g7;nmtx2pijr74war9;1;Príslušenstvo k TV, audio a video technike;prislusenstvo-k-tv--audio--video;TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike
