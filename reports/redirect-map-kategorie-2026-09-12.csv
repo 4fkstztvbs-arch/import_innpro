@@ -641,7 +641,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /laboratorni-zdroje/;/osciloskopy-a-generatory/;exact;Náradie a dielňa > MERACIE TECHNIKA > Laboratorní zdroje;Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje;42264
 /testery-2/;/testery-a-skusacky/;exact;Náradie a dielňa > MERACIE TECHNIKA > Testery;Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky;42492
 /meridla/;/meradla-a-meracie-pasma/;exact;Náradie a dielňa > MERACIE TECHNIKA > Měřidla;Dielňa, náradie a záhrada > Meracia technika > Meradlá a meracie pásma;42918
-/inspekcni-kamery--endoskopy-2/;/inspekcne-kamery-a-endoskopy/;exact;Náradie a dielňa > MERACIE TECHNIKA > Inspekční kamery, endoskopy;Dielňa, náradie a záhrada > Meracia technika > Inšpekčné kamery a endoskopy;43332
+/inspekcni-kamery--endoskopy-2/;/meracie-technika/;exact;Náradie a dielňa > MERACIE TECHNIKA > Inspekční kamery, endoskopy;Dielňa, náradie a záhrada > Meracia technika;43332
 /meranie-vody--plynu--vykurovanie--elektriny/;/meranie-neelektrickych-velicin/;exact;Náradie a dielňa > MERACIE TECHNIKA > Meranie vody, plynu, vykurovanie, elektřiny;Dielňa, náradie a záhrada > Meracia technika > Meranie neelektrických veličín;43818
 /dvb-s-s2-t-t2-c/;/merace-tv-a-satelitneho-signalu/;exact;Náradie a dielňa > MERACIE TECHNIKA > DVB-S/S2/T/T2/C;Dielňa, náradie a záhrada > Meracia technika > Merače TV a satelitného signálu;44229
 /silove-kable/;/kable-a-vodice/;exact;Elektroinštalačný materiál > Káble a vodiče > Silové káble;Elektro, Smart Home a osvetlenie > Káble a vodiče;41007
@@ -2264,7 +2264,7 @@ old_url;new_url;match_type;old_full_path;new_full_path;old_id
 /tws-sluchadla/;/audio-technika/;exact;TV, audio a video > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá;TV, audio, video a foto technika > Audio technika;49059
 /audio--aux/;/audio-ovladace/;exact;TV, audio a video > Diaľkové ovládače > AUDIO (AUX);TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače;49110
 /dvd/;/dvd-ovladace/;exact;TV, audio a video > Diaľkové ovládače > DVD;TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače;49251
-/video--vcr/;/video-ovladace/;exact;TV, audio a video > Diaľkové ovládače > VIDEO (VCR);TV, audio, video a foto technika > Diaľkové ovládače > Video ovládače;49383
+/video--vcr/;/dialkove-ovladace/;exact;TV, audio a video > Diaľkové ovládače > VIDEO (VCR);TV, audio, video a foto technika > Diaľkové ovládače;49383
 /klopove-mikrofony/;/audio-technika/;exact;TV, audio a video > Audio technika > Mikrofóny > Klopové mikrofóny;TV, audio, video a foto technika > Audio technika;49041
 /hry/;/audio-technika/;exact;TV, audio a video > Audio technika > Mikrofóny > Hry;TV, audio, video a foto technika > Audio technika;49065
 /hdmi-kable/;/av-kable/;exact;TV, audio a video > AV káble > HDMI káble;TV, audio, video a foto technika > AV káble;49026

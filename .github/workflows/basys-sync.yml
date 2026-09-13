@@ -43,6 +43,9 @@ jobs:
       - name: Enforce tree categories
         run: node scripts/enforce-tree-categories.js
 
+      - name: Skryť produkty bez kategórie
+        run: node scripts/hide-uncategorised-products.js
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js --xml=output/basys.xml
 

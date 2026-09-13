@@ -297,3 +297,28 @@ Kuchynské potreby 117, Kuchynské príslušenstvo 31, Kuchynské roboty 181), p
 potrieb (186 ks) spod Zdravia a rozdelenie 3D tlače (348 ks) na podkategórie. Nie sú to
 premenovania — treba pri nich rozhodnúť, kam idú stovky konkrétnych produktov, čo znamená nové
 mapovanie a nový test pokrytia.
+
+---
+
+## Doplnené 2026-09-13 večer: skrývanie prázdnych kategórií a produktov bez kategórie
+
+**Prázdne kategórie.** Tri uzly nového stromu po prepnutí nemajú ani jeden produkt —
+smerujú správne, len ich dodávatelia momentálne nemajú v ponuke: *Inšpekčné kamery a
+endoskopy*, *Čistiace prístroje a doplnky*, *Video ovládače*. V import CSV majú
+`visible=0`, takže vzniknú, ale na webe sa nezobrazia. Zoznam je v
+`data/skryte-kategorie.json` a číta ho aj generátor presmerovaní — dve presmerovania,
+ktoré na ne mierili (`/inspekcni-kamery--endoskopy-2/`, `/video--vcr/`), sa posunuli na
+najbližšieho viditeľného rodiča, aby návštevník neskončil na 404.
+
+Keď sa tovar objaví, stačí kategóriu v Shoptete zviditeľniť. Ak sa import CSV
+pregeneruje, treba ju predtým vyhodiť zo `skryte-kategorie.json`.
+
+**Produkty bez kategórie.** 31 produktov (MONACOR 11, Solight 20) dodávateľ posiela bez
+kategórie — v e-shope by boli mimo navigácie, ale dostupné pre Google a priame odkazy.
+Nový krok `scripts/hide-uncategorised-products.js` im nastaví `VISIBLE=0` aj
+`VISIBILITY=hidden` a vypíše ich do `reports/produkty-bez-kategorie.md`. Je zapojený vo
+všetkých 7 sync workflowoch **za** `enforce-tree-categories.js` (ten môže kategóriu
+zahodiť, takže produkt bez kategórie môže vzniknúť až tam) a pred prelinkovaním.
+
+Skript je idempotentný a nič si nepamätá: len čo dodávateľ kategóriu doplní alebo
+pribudne pravidlo v `categoryRenamesByPath`, produkt sa prestane skrývať sám od seba.
