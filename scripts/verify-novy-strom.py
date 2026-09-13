@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Kompletna overovacia sada nad novym stromom kategorii pred nasadenim."""
-import csv, json, sys, collections
+import csv, json, sys, os, collections
 
 BASE = "/home/user/import_innpro"
 ok, bad = [], []
@@ -87,7 +87,9 @@ print(f"  POZN. {len(longmt)} metaTitle nad 70 znakov (max {max((len(r['metaTitl
 check(not longmd, f"metaDescription <= 175 znakov ({len(longmd)} dlhych)")
 
 # ---------- 3. known-categories ----------
-known = json.load(open(f"{BASE}/data/known-categories-new-2026-09-12.json", encoding="utf-8"))
+kp = f"{BASE}/data/known-categories-new-2026-09-12.json"
+if not os.path.exists(kp): kp = f"{BASE}/data/known-categories.json"
+known = json.load(open(kp, encoding="utf-8"))
 kset = set(known if isinstance(known, list) else known.get("categories", known))
 tset = {r["full_path"] for r in rows}
 check(kset == tset, f"known-categories == strom (chyba {len(tset-kset)}, navyse {len(kset-tset)})")
@@ -96,10 +98,13 @@ check(kset == tset, f"known-categories == strom (chyba {len(tset-kset)}, navyse 
 # Kontroluju sa CIELE, t.j. hodnoty categoryRenamesByPath (kluce su cesty z feedu dodavatela,
 # tie v nasom strome byt nemaju).
 for name in ["innpro", "atos", "penta", "kb", "solight", "basys", "wiim"]:
+    # pred prepnutim sa kontroluje staged subor, po prepnuti uz ostry
+    src = f"{BASE}/scripts/{name}-mapping.new.json"
+    if not os.path.exists(src): src = f"{BASE}/scripts/{name}-mapping.json"
     try:
-        m = json.load(open(f"{BASE}/scripts/{name}-mapping.new.json", encoding="utf-8"))
+        m = json.load(open(src, encoding="utf-8"))
     except FileNotFoundError:
-        check(False, f"{name}-mapping.new.json chyba"); continue
+        check(False, f"{name}-mapping: subor chyba"); continue
     vals = set()
     for key in ["categoryRenamesByPath", "categoryMap", "fallbackByManufacturer",
                 "priceListCategoryMap", "categoryOverridesByCode"]:
@@ -109,7 +114,9 @@ for name in ["innpro", "atos", "penta", "kb", "solight", "basys", "wiim"]:
             elif isinstance(v, dict) and v.get("category"): vals.add(v["category"])
     outside = sorted(v for v in vals if v not in tset)
     check(not outside, f"{name}-mapping: {len(vals)} cielov, mimo strom {len(outside)}: {outside[:3]}")
-h = json.load(open(f"{BASE}/scripts/heureka-mapping.new.json", encoding="utf-8"))
+hp = f"{BASE}/scripts/heureka-mapping.new.json"
+if not os.path.exists(hp): hp = f"{BASE}/scripts/heureka-mapping.json"
+h = json.load(open(hp, encoding="utf-8"))
 outside = sorted(k for k in h if k not in tset)
 check(not outside, f"heureka-mapping: {len(h)} nasich kategorii, mimo strom {len(outside)}: {outside[:3]}")
 
