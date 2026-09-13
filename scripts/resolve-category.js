@@ -82,9 +82,36 @@ function splitLeaf(fullPath) {
   return idx === -1 ? { parent: '', leaf: fullPath } : { parent: fullPath.slice(0, idx), leaf: fullPath.slice(idx + 3) };
 }
 
+// Prekladová vrstva starý strom -> nový strom (2026-09-13).
+//
+// Transformy stavajú cestu z kategórie dodávateľa a `categoryRenamesByPath` pokrýva len tie, na
+// ktorých sa niekto vedome rozhodol; zvyšok prejde tak, ako prišiel z feedu. Kým bol
+// known-categories.json snímkou starého Shoptet stromu, tieto surové cesty v ňom boli (starý strom
+// z feedov postupne vyrástol), takže bránou prešli. Po prepnutí na kurátorovaný strom (252 ciest)
+// by ich brána zahodila aj s produktmi — pri prvom behu InnPro to bolo 6112 produktov.
+//
+// Tento súbor preto prekladá každú cestu starého stromu na jej náprotivok v novom (1341 záznamov,
+// pokrýva všetky cesty, ktoré transformy dnes reálne produkujú). Aplikuje sa PRED bránou, takže
+// brána už vidí cestu nového stromu a produkt neprepadne.
+const OLD_TO_NEW_PATH = path.join(__dirname, '..', 'data', 'stary-novy-strom.json');
+let OLD_TO_NEW_NORM = null;
+function loadOldToNew() {
+  if (OLD_TO_NEW_NORM) return OLD_TO_NEW_NORM;
+  OLD_TO_NEW_NORM = new Map();
+  try {
+    const raw = JSON.parse(fs.readFileSync(OLD_TO_NEW_PATH, 'utf-8'));
+    // kľúčuje sa normalizovane z rovnakého dôvodu ako isKnownPath — Shoptet páruje podľa slugu
+    for (const [from, to] of Object.entries(raw)) OLD_TO_NEW_NORM.set(normalizePath(from), to);
+  } catch {
+    // súbor je voliteľný: pred prepnutím na nový strom neexistoval a nič ho nepotrebovalo
+  }
+  return OLD_TO_NEW_NORM;
+}
+
 // supplierName: used only for the report filename (reports/nezaradene-kategorie-<supplierName>.md).
 function createCategoryMatcher(supplierName) {
   const known = loadKnownCategories();
+  const oldToNew = loadOldToNew();
   const knownSet = new Set(known);
   const knownByNorm = new Set(known.map(normalizePath));
   const byParent = new Map();
@@ -134,6 +161,11 @@ function createCategoryMatcher(supplierName) {
   // trusted=true skips the gate entirely (category came from an explicit, human-reviewed rename).
   function resolve(category, { trusted, productLabel } = {}) {
     if (!category || trusted) return { category, excluded: false, redirected: false };
+
+    // Preklad starý strom -> nový beží ešte pred bránou, nech brána vidí cestu, ktorá v strome
+    // naozaj je. Bez toho by produkt prepadol, hoci preň existuje presné miesto.
+    const prelozene = oldToNew.get(normalizePath(category));
+    if (prelozene) return { category: prelozene, excluded: false, redirected: true };
     // Pass the ORIGINAL string through untouched when it's already a known category (possibly only
     // slug-equal) — rewriting it to the tree's spelling would be a no-op for Shoptet's matching but
     // could churn the live category title, so leave today's import behaviour exactly as it is.
