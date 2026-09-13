@@ -8,9 +8,9 @@ Vstup: `premiumstore-sk_2026-09-12_21-26.csv` (automaticky spracované denným b
 
 - Spárovaných produktov cez EAN: **6224**
 - Návrh **zvýšiť** cenu: **160** produktov
-- Návrh **znížiť** cenu: **1516** produktov
-- Bez zmeny (už optimálne / chýbajú dáta): **4548** produktov
-- Z toho obmedzené min. maržou 5 % (nedosiahli plný cieľ): **503**
+- Návrh **znížiť** cenu: **1517** produktov
+- Bez zmeny (už optimálne / chýbajú dáta): **4547** produktov
+- Z toho obmedzené min. maržou 5 % (nedosiahli plný cieľ): **506**
 
 Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou cenou).
 
@@ -179,7 +179,7 @@ Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou ceno
 | Magnetický veslařský trenažér HMS ZM1801 | 237.90 € | **238.00 €** | 42881.0 % | **42899.1 %** | 237.90 € | dobehnutie 2. najlacnejšieho konkurenta |
 | Guzzanti GZ 06A1 | 102.90 € | **103.00 €** | 5.2 % | **5.3 %** | 102.90 € | dobehnutie 2. najlacnejšieho konkurenta |
 
-## Návrh znížiť cenu (1516)
+## Návrh znížiť cenu (1517)
 
 | Názov | Naša cena | → Nová cena | Marža teraz | → Nová marža | Heureka najlacnejší | Poznámka |
 |---|---:|---:|---:|---:|---:|---|
@@ -611,6 +611,7 @@ Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou ceno
 | Sada filtrov Freewell „Standard Day“ pre OSMO NANO –... | 46.90 € | **42.90 €** | 15.2 % | **5.3 %** | 19.90 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | KRUPS KP143GF0 Nescafé Dolce Gusto Mini | 99.90 € | **95.90 €** | 9.4 % | **5.0 %** | 77.79 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | TP-LINK WiFi AC1200 (Deco E4 2-pack) | 84.90 € | **80.90 €** | 10.5 % | **5.3 %** | 63.92 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
+| Štúdiové slúchadlá Maono MH700 (čierne) | 48.90 € | **44.90 €** | 15.0 % | **5.6 %** | 31.35 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | SALENTE SuChef | 84.90 € | **80.90 €** | 10.5 % | **5.3 %** | 72.07 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Turecký kávovar HiBREW CM1179_EU | 49.50 € | **45.50 €** | 15.3 % | **6.0 %** | 39.29 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | FNIRSI DSO-TC3 SigGen 3-v-1 tester tranzistorov – ru... | 50.50 € | **46.50 €** | 14.7 % | **5.6 %** | 42.62 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
@@ -673,6 +674,7 @@ Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou ceno
 | Solight vstavaná podlahová zásuvka, IP55, okrúhle vi... | 22.90 € | **19.50 €** | 54.6 % | **31.7 %** | 19.90 € | stávame sa najlacnejší |
 | Blitzwolf 8in1 docking station BW-TH16 USB 100W LCD ... | 51.90 € | **48.50 €** | 14.9 % | **7.4 %** | 48.90 € | stávame sa najlacnejší |
 | Inteligentný pohlcovač zápachu Petkit | 41.00 € | **37.90 €** | 14.6 % | **5.9 %** | 20.99 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
+| Neewer photo background stand set | 40.00 € | **36.90 €** | 14.8 % | **5.9 %** | 30.00 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Cycplus AS1 POCKET AIRBANK – mini pumpa na bicykel | 38.00 € | **34.90 €** | 14.9 % | **5.6 %** | 34.63 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Freewell neutrálny filter ND32 pre OSMO 360 | 65.00 € | **61.90 €** | 14.9 % | **9.4 %** | 62.00 € | stávame sa najlacnejší |
 | Solight LED lineárne svietidlo podlinkové, 10W, 4100... | 14.00 € | **10.90 €** | 36.5 % | **6.3 %** | 10.90 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
@@ -685,6 +687,7 @@ Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou ceno
 | Inteligentná zásuvka IMOU CE2P, sada 4 ks | 36.90 € | **33.90 €** | 14.9 % | **5.6 %** | 9.30 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | N'oveen ohřívač vody IWH960 | 76.50 € | **73.50 €** | 10.0 % | **5.7 %** | 49.30 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Tefal FF203130 | 67.90 € | **64.90 €** | 10.0 % | **5.1 %** | 52.90 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
+| Čistička vzduchu Anycubic AirPure (2 ks) | 37.00 € | **34.00 €** | 14.6 % | **5.3 %** | 25.00 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Tefal BL16GE30 | 58.90 € | **55.90 €** | 10.7 % | **5.1 %** | 47.06 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Ariete ART 2904/04 | 69.50 € | **66.50 €** | 10.2 % | **5.5 %** | 58.78 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Koloběžka s pumpovanými koly NILS Extreme HC300 červená | 110.50 € | **107.50 €** | 8.3 % | **5.4 %** | 100.78 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
@@ -701,7 +704,6 @@ Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou ceno
 | Príslušenstvo TP-Link Tapo RVA301 umývateľná handrič... | 14.90 € | **11.90 €** | 35.0 % | **7.9 %** | 11.19 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Garett ROSE Gold Mesh Steel | 67.90 € | **64.90 €** | 10.1 % | **5.2 %** | 64.23 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Elektrické čerpadlo Cycplus AL1 | 36.50 € | **33.50 €** | 15.5 % | **6.0 %** | 32.83 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
-| Štúdiové slúchadlá Maono MH700 (čierne) | 34.90 € | **31.90 €** | 15.2 % | **5.3 %** | 31.35 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | ETA 0028 98050 | 67.90 € | **64.90 €** | 10.5 % | **5.6 %** | 64.90 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Solight LED svetelný panel Backlit, 36W, 3960lm, 400... | 24.50 € | **21.50 €** | 38.8 % | **21.8 %** | 21.51 € | stávame sa najlacnejší |
 | Systémy kvapkového a rozprašovacieho zavlažovania | 41.00 € | **38.00 €** | 14.6 % | **6.2 %** | 38.05 € | stávame sa najlacnejší |
@@ -844,6 +846,7 @@ Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou ceno
 | Tefal DT2020E1 | 36.50 € | **34.90 €** | 10.0 % | **5.2 %** | 31.44 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Tefal DT2022E1 | 36.50 € | **34.90 €** | 10.0 % | **5.2 %** | 31.44 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | Rýchlovarná kanvica Hyundai VK690B černá | 37.50 € | **35.90 €** | 10.9 % | **6.2 %** | 32.50 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
+| DJI RoboMaster TT celoplošný ochranný kryt vrtule | 23.50 € | **21.90 €** | 14.6 % | **6.8 %** | 18.50 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | FIXED MagClick 2 s MgSf 15W FIXMCLI2-BK | 32.50 € | **30.90 €** | 11.5 % | **6.0 %** | 27.73 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | TEFAL KO 299130 | 30.50 € | **28.90 €** | 11.6 % | **5.8 %** | 26.09 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
 | FIXED pouzdro Apple iPad FIXTRI-727-BK | 34.50 € | **32.90 €** | 10.3 % | **5.2 %** | 30.25 € | floor (min. marža 5%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší |
@@ -1494,8 +1497,6 @@ Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou ceno
 | Gorenje MVC72HGA | 29.90 € | **29.50 €** | 10.1 % | **8.6 %** | 29.80 € | stávame sa najlacnejší |
 | Solight profesionálny multimeter, tru RMS | 21.90 € | **21.50 €** | 34.0 % | **31.5 %** | 21.82 € | stávame sa najlacnejší |
 | Solight stolová nabíjačka 3v1, Qi2, MagSafe kompatib... | 30.90 € | **30.50 €** | 54.8 % | **52.8 %** | 30.82 € | stávame sa najlacnejší |
-| Bezdrôtové slúchadlá Oneodio Fusion A70 (čierne) | 36.90 € | **36.50 €** | 17.5 % | **16.2 %** | 36.82 € | stávame sa najlacnejší |
-| Bezdrôtové slúchadlá Oneodio Fusion A70 (čierno-červ... | 36.90 € | **36.50 €** | 17.8 % | **16.6 %** | 36.82 € | stávame sa najlacnejší |
 | Bezkontaktný laserový teplomer Habotest HT650B | 17.90 € | **17.50 €** | 15.2 % | **12.6 %** | 17.83 € | stávame sa najlacnejší |
 | Ufesa Rouge BP3443 | 31.90 € | **31.50 €** | 9.3 % | **8.0 %** | 31.83 € | stávame sa najlacnejší |
 | Solight predlžovací prívod na bubne, 4 zásuvky, 15m,... | 27.90 € | **27.50 €** | 14.7 % | **13.0 %** | 27.83 € | stávame sa najlacnejší |
