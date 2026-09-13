@@ -39,5 +39,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 088510 | 6937224140639 | Osmo Action 5 Pro – fotografovanie na ulici, držadlo, príslušenstvo, K | nulová/neplatná cena |  | 0.00 € |  |  |
 | 074889 | 6934915204465 | Súprava pre konštantný napájací zdroj OBD radu DDPAI Z60 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 066360 | 6923520247677 | Bezdrôtové slúchadlá Edifier STAX S5 (čierne) | cena mimo 8x rozsah mediánu kategórie | 36.25 € | 402.00 € | 11.1x | 108 |
+| 074793 | 6925624202262 | Slúchadlá do uší HiFiMAN RE2000 Pro Gold | cena mimo 8x rozsah mediánu kategórie | 23.50 € | 395.00 € | 16.8x | 26 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
