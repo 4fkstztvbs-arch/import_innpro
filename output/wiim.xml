@@ -242,7 +242,6 @@
 <CODE>WiiM_AMP_Ultra_013</CODE>
 <EAN>741365254553</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>805</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -253,8 +252,8 @@
   <IMAGE description="WiiM Amp Ultra Silver - obrázok 5">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3095-3_amp-ultra-silver-lifestyle-2.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.45</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>600.00</PRICE_VAT>
@@ -504,7 +503,6 @@
 <CODE>WiiM_AMP_Ultra_004</CODE>
 <EAN>602581806127</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>805</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -525,8 +523,8 @@
   <IMAGE description="WiiM Amp Ultra Grey - obrázok 15">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3098_photography-1--wiim-amp-ultra.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.45</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>600.00</PRICE_VAT>
@@ -701,7 +699,6 @@
 <CODE>WiiM_Amp_Pro_003</CODE>
 <EAN>602581806158</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>805</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -713,8 +710,8 @@
   <IMAGE description="WiiM Amp Pro Grey - obrázok 6">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2843-5_wiim-amp-pro-6.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.08</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>465.00</PRICE_VAT>
@@ -882,7 +879,6 @@
 <CODE>WiiM_AMP_013</CODE>
 <EAN>602581806080</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>805</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -891,8 +887,8 @@
   <IMAGE description="WiiM Amp Silver - obrázok 3">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2837-2_wiim-amp-stribrna-3.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>1.84</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>400.00</PRICE_VAT>
@@ -1060,7 +1056,6 @@
 <CODE>WiiM_AMP_003</CODE>
 <EAN>795847057231</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>805</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -1069,8 +1064,8 @@
   <IMAGE description="WiiM Amp Grey - obrázok 3">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2840-2_wiim-amp-seda-3-1.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>1.84</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>400.00</PRICE_VAT>
@@ -1088,12 +1083,11 @@
 <CODE>WiiM_Vibelink_013</CODE>
 <EAN>741365254546</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>805</HEUREKA_CATEGORY_ID>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.05</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>379.00</PRICE_VAT>
@@ -1111,12 +1105,11 @@
 <CODE>WiiM_Vibelink_003</CODE>
 <EAN>602581806318</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty > Zosilňovače]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>805</HEUREKA_CATEGORY_ID>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.05</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>379.00</PRICE_VAT>
@@ -1310,7 +1303,6 @@
 <CODE>WiiM_Ultra_013</CODE>
 <EAN>602581806165</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
   <IMAGE description="WiiM Ultra Silver - obrázok 1">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2846_wiim-ultra-sil-01.jpg</IMAGE>
@@ -1319,8 +1311,8 @@
   <IMAGE description="WiiM Ultra Silver - obrázok 4">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2846_6049298cf0abd157bfd096fcc3e790bb-7mdam-92252.webp</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>1.42</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>399.00</PRICE_VAT>
@@ -1514,7 +1506,6 @@
 <CODE>WiiM_Ultra_004</CODE>
 <EAN>602581806110</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
   <IMAGE description="WiiM Ultra Grey - obrázok 1">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2849-1_wiim-ultra-2.jpg</IMAGE>
@@ -1523,8 +1514,8 @@
   <IMAGE description="WiiM Ultra Grey - obrázok 4">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2849-3_wiim-ultra-4.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>1.42</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>399.00</PRICE_VAT>
@@ -1686,15 +1677,14 @@
 <CODE>WiiM_Pro_PLUS</CODE>
 <EAN>602581806073</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
   <IMAGE description="WiiM Pro Plus Black - obrázok 1">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2834_main-115343d0.webp</IMAGE>
   <IMAGE description="WiiM Pro Plus Black - obrázok 2">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2834-1_main-617da242.webp</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>250.00</PRICE_VAT>
@@ -1860,7 +1850,6 @@
 <CODE>WiiM_Pro_003</CODE>
 <EAN>196852149827</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
   <IMAGE description="WiiM Pro Black - obrázok 1">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2831_wiimpro01.webp</IMAGE>
@@ -1868,8 +1857,8 @@
   <IMAGE description="WiiM Pro Black - obrázok 3">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/2831_wiim-pro-1.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>179.00</PRICE_VAT>
@@ -1936,7 +1925,6 @@
 <CODE>WiiM_Mini_003</CODE>
 <EAN>195893478101</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > HiFi komponenty]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
   <IMAGE description="WiiM Mini Black - obrázok 1">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3092-1_sni--mka-obrazovky-2026-07-03-o-10-06-32.png</IMAGE>
@@ -1950,8 +1938,8 @@
   <IMAGE description="WiiM Mini Black - obrázok 9">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3092-2_setup.webp</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>109.00</PRICE_VAT>
@@ -1969,12 +1957,11 @@
 <CODE>WIIM-741365254713</CODE>
 <EAN>741365254713</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Soundbary]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5090</HEUREKA_CATEGORY_ID>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>5.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>515.00</PRICE_VAT>
@@ -1992,12 +1979,11 @@
 <CODE>WIIM-741365254690</CODE>
 <EAN>741365254690</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Soundbary]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5090</HEUREKA_CATEGORY_ID>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>5.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>515.00</PRICE_VAT>
@@ -2357,7 +2343,6 @@
 <CODE>WiiM_Bar_003</CODE>
 <EAN>741365254614</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Soundbary]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5090</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -2388,8 +2373,8 @@
   <IMAGE description="WiiM Bar Glossy Black - obrázok 25">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3125-18_wiim-bar-rear-view.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>5.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>515.00</PRICE_VAT>
@@ -2700,7 +2685,6 @@
 <CODE>WiiM_SPK_003</CODE>
 <EAN>741365254560</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Reproduktory > Aktívne reproduktory]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>705</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -2726,8 +2710,8 @@
   <IMAGE description="WiiM Sound Black - obrázok 20">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3104-8_cal3250.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.50</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>355.00</PRICE_VAT>
@@ -3039,7 +3023,6 @@
 <CODE>WiiM_SPK_013</CODE>
 <EAN>741365254577</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Reproduktory > Aktívne reproduktory]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>705</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -3059,8 +3042,8 @@
   <IMAGE description="WiiM Sound White - obrázok 14">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3107-13_cal2696.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.50</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>355.00</PRICE_VAT>
@@ -3293,7 +3276,6 @@
 <CODE>WiiM_Sound_Lite_003</CODE>
 <EAN>741365254621</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Reproduktory > Aktívne reproduktory]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>705</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -3307,8 +3289,8 @@
   <IMAGE description="WiiM Sound Lite Black - obrázok 8">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3113-7_lifestyle-photography-3.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.50</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>279.00</PRICE_VAT>
@@ -3541,7 +3523,6 @@
 <CODE>WiiM_Sound_Lite_013</CODE>
 <EAN>741365254638</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Reproduktory > Aktívne reproduktory]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>705</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -3554,8 +3535,8 @@
   <IMAGE description="WiiM Sound Lite White - obrázok 7">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3116-6_lifestyle-photography-3.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>2.50</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>279.00</PRICE_VAT>
@@ -3573,12 +3554,11 @@
 <CODE>WiiM-Sound-Lite-Black-2-pack</CODE>
 <EAN>741365254645</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Reproduktory > Aktívne reproduktory]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>705</HEUREKA_CATEGORY_ID>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>515.00</PRICE_VAT>
 <SEO_TITLE><![CDATA[WiiM Sound Lite Twin Pack Black | premiumstore.sk]]></SEO_TITLE>
@@ -3595,12 +3575,11 @@
 <CODE>WiiM-Sound-Lite-White-2-pack</CODE>
 <EAN>741365254652</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Reproduktory > Aktívne reproduktory]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>705</HEUREKA_CATEGORY_ID>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>515.00</PRICE_VAT>
 <SEO_TITLE><![CDATA[WiiM Sound Lite Twin Pack White | premiumstore.sk]]></SEO_TITLE>
@@ -3787,7 +3766,6 @@
 <CODE>WiiM_SUB_PRO_003</CODE>
 <EAN>741365254539</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Reproduktory]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>2115</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -3808,8 +3786,8 @@
   <IMAGE description="WiiM Sub Pro Black - obrázok 15">https://wiim-audiosk-image-proxy.dt7vy7byn2.workers.dev/usr/www.audio.sk/user/shop/orig/3110-13_wiim-sub-pro-tv-setup.jpg</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>16.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>510.00</PRICE_VAT>
@@ -3827,12 +3805,11 @@
 <CODE>WiiM_SUB_PRO_013</CODE>
 <EAN>741365254607</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Reproduktory]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>2115</HEUREKA_CATEGORY_ID>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>16.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>510.00</PRICE_VAT>
@@ -3850,11 +3827,10 @@
 <CODE>NORWIISOUWALBK</CODE>
 <EAN>3700795186916</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Stojany pre reproduktory a slúchadlá]]></CATEGORY>
 </CATEGORIES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>34.00</PRICE_VAT>
 <SEO_TITLE><![CDATA[WiiM Sound Wall Mount Black | premiumstore.sk]]></SEO_TITLE>
@@ -3871,11 +3847,10 @@
 <CODE>NORWIISOUWALWT</CODE>
 <EAN>3700795186923</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Stojany pre reproduktory a slúchadlá]]></CATEGORY>
 </CATEGORIES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>34.00</PRICE_VAT>
 <SEO_TITLE><![CDATA[WiiM Sound Wall Mount White | premiumstore.sk]]></SEO_TITLE>
@@ -3892,11 +3867,10 @@
 <CODE>NORWIISOUBK</CODE>
 <EAN>3700795186893</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Stojany pre reproduktory a slúchadlá]]></CATEGORY>
 </CATEGORIES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>75.00</PRICE_VAT>
 <SEO_TITLE><![CDATA[WiiM Sound Floor Stand Black | premiumstore.sk]]></SEO_TITLE>
@@ -3913,11 +3887,10 @@
 <CODE>NORWIISOUWT</CODE>
 <EAN>3700795186909</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Stojany pre reproduktory a slúchadlá]]></CATEGORY>
 </CATEGORIES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>75.00</PRICE_VAT>
 <SEO_TITLE><![CDATA[WiiM Sound Floor Stand White | premiumstore.sk]]></SEO_TITLE>
@@ -3934,11 +3907,10 @@
 <CODE>WiiM_VR_001</CODE>
 <EAN>795847057279</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Príslušenstvo k audio technike]]></CATEGORY>
 </CATEGORIES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>29.00</PRICE_VAT>
 <SEO_TITLE><![CDATA[WiiM Remote Black | premiumstore.sk]]></SEO_TITLE>
@@ -3955,11 +3927,10 @@
 <CODE>WiiM_WVR_002</CODE>
 <EAN>602581806288</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio a video > Audio technika > Príslušenstvo k audio technike]]></CATEGORY>
 </CATEGORIES>
 <AVAILABILITY><![CDATA[Na objednávku]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>50.00</PRICE_VAT>
 <SEO_TITLE><![CDATA[WiiM Voice Remote 2 Silver | premiumstore.sk]]></SEO_TITLE>
