@@ -55,14 +55,10 @@ const EXCLUDE_UNAVAILABLE = process.env.SOLIGHT_EXCLUDE_UNAVAILABLE === '1';
 
 const MAPPING_PATH = path.join(__dirname, 'solight-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
-const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
-const { createCategoryMatcher } = require('./resolve-category');
-const categoryMatcher = createCategoryMatcher('solight');
+const { vytvorZaradovac } = require('./zarad-kategoriu');
+const zaradovac = vytvorZaradovac('solight');
 
-function isPathOverride(cumKey, rename) { return !!rename && cumKey.includes(' > '); }
-
-// Identical logic to the browser tool's solDisplayPath()/extraCategories.
 function resolveCategory(rawCategoryName, productLabel) {
   if (!rawCategoryName) return { category: '', extraCategories: [], excluded: false };
   const parts = rawCategoryName.split('/').map((s) => s.trim()).filter(Boolean);
@@ -75,22 +71,15 @@ function resolveCategory(rawCategoryName, productLabel) {
   if (!keys.length) return { category: '', extraCategories: [], excluded: false };
   if (EXCLUSIONS.has(keys[keys.length - 1].key)) return { category: '', extraCategories: [], excluded: true };
 
-  const leafTrusted = !!RENAMES[keys[keys.length - 1].key];
-  const partsResult = [];
-  for (let i = keys.length - 1; i >= 0; i--) {
-    const rename = RENAMES[keys[i].key];
-    if (isPathOverride(keys[i].key, rename)) { partsResult.unshift(rename); break; }
-    partsResult.unshift(rename || keys[i].name);
-  }
-  let category = partsResult.join(' > ');
-  const gated = categoryMatcher.resolve(category, { trusted: leafTrusted, productLabel,
-    sourcePath: keys[keys.length - 1].key });
-  if (gated.excluded) return { category: '', extraCategories: [], excluded: true, unmatchedCategory: category };
-  category = gated.category;
-  const segs = category.split(' > ');
-  const extraCategories = [];
-  for (let i = 1; i < segs.length; i++) extraCategories.push(segs.slice(0, i).join(' > '));
-  return { category, extraCategories, excluded: false };
+  // Zaradenie rieši jediná tabuľka data/kategorie/solight.json — najdlhší prefix vyhráva a jeho
+  // cieľ nahrádza celú cestu. Nahradilo to kaskádu prefixového prepisu, brány, fuzzy hľadania,
+  // prekladu starý->nový strom a pádu na predka; podrobnosti v scripts/zarad-kategoriu.js.
+  const zdroj = keys[keys.length - 1].key;
+  const { kategoria } = zaradovac.zarad(zdroj, { produkt: productLabel });
+  // Chýbajúce pravidlo NIE JE dôvod produkt zahodiť: ostane bez kategórie, hide-uncategorised ho
+  // skryje a reports/chybajuce-pravidla-solight.md povie, aké pravidlo doplniť.
+  if (!kategoria) return { category: '', extraCategories: [], excluded: false };
+  return { category: kategoria, extraCategories: zaradovac.predkovia(kategoria), excluded: false };
 }
 
 const DOC_LANG_LABELS = { cz: 'CZ', sk: 'SK', en: 'EN', de: 'DE' };
@@ -371,7 +360,7 @@ async function main() {
 
   console.log('Done.');
   writeAnomalyReport('solight', anomalies);
-  const categoryReport = categoryMatcher.writeReport();
+  const categoryReport = zaradovac.zapisReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
 }
