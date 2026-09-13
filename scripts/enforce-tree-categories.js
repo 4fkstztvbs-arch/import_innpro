@@ -43,6 +43,18 @@ try {
   for (const [from, to] of Object.entries(raw)) OLD_TO_NEW.set(normalize(from), to);
 } catch { /* súbor je voliteľný */ }
 
+// Preklad cesty starého stromu: najprv presná zhoda, potom najhlbší PREDOK, ktorý v mape je.
+// Mapa pokrýva 1342 z 2928 uzlov starého stromu; zvyšok sú hlbšie vetvy, ktoré nový strom vedome
+// zlúčil do nadradenej kategórie, a tie by sa bez prekladu predka skrátili až na koreň.
+function prelozit(category) {
+  const segs = category.split(' > ');
+  for (let depth = segs.length; depth > 0; depth--) {
+    const cieľ = OLD_TO_NEW.get(normalize(segs.slice(0, depth).join(' > ')));
+    if (cieľ && known.has(normalize(cieľ))) return cieľ;
+  }
+  return null;
+}
+
 // Najhlbší predok, ktorý v strome existuje. null = ani koreň neexistuje, kategória sa vynechá.
 function deepestKnownAncestor(category) {
   const segs = category.split(' > ');
@@ -78,8 +90,8 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml'))) {
         const category = raw.trim();
         let target = category;
         if (!known.has(normalize(category))) {
-          const prelozene = OLD_TO_NEW.get(normalize(category));
-          const maPreklad = Boolean(prelozene) && known.has(normalize(prelozene));
+          const prelozene = prelozit(category);
+          const maPreklad = prelozene !== null;
           target = maPreklad ? prelozene : deepestKnownAncestor(category);
           changed = true;
           // Preložená cesta nie je nález — je to plánovaný presun na nový strom, nie chýbajúce

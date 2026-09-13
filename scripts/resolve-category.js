@@ -157,6 +157,7 @@ function createCategoryMatcher(supplierName) {
 
   const unmatched = new Map(); // category -> { category, count, examples: [] }
   const autoMatched = new Map(); // "from|to" -> { from, to, score, count }
+  const ancestorMatched = new Map(); // "from|to" -> { from, to, count } — preklad podľa predka
 
   // trusted=true skips the gate entirely (category came from an explicit, human-reviewed rename).
   function resolve(category, { trusted, productLabel } = {}) {
@@ -178,6 +179,26 @@ function createCategoryMatcher(supplierName) {
       rec.count++;
       autoMatched.set(key, rec);
       return { category: m.path, excluded: false, redirected: true };
+    }
+
+    // Posledná záchrana pred zahodením: preložiť podľa najhlbšieho PREDKA, ktorý v mape je. Starý
+    // strom mal 2928 uzlov a mapa pokrýva 1342 z nich — zvyšok sú hlbšie vetvy, ktoré nový strom
+    // vedome nemá (napr. "Auto-moto > Autorádiá > Autorádiá s CD" pod zlúčeným "Autorádiá"). Bez
+    // tohto kroku by produkt vypadol celý, hoci preň miesto o úroveň vyššie existuje. So záchranou
+    // pokrýva mapa 2927 z 2928 uzlov starého stromu.
+    const segs = String(category).split(' > ');
+    for (let depth = segs.length - 1; depth > 0; depth--) {
+      const cesta = segs.slice(0, depth).join(' > ');
+      // Predok môže byť v mape (stará cesta) alebo už priamo v novom strome — korene ako
+      // "Auto-moto" si meno nechali, takže pre ne mapa žiaden záznam nemá.
+      const predok = oldToNew.get(normalizePath(cesta)) || (isKnownPath(cesta) ? cesta : null);
+      if (predok) {
+        const key = category + '|' + predok;
+        const r = ancestorMatched.get(key) || { from: category, to: predok, count: 0 };
+        r.count++;
+        ancestorMatched.set(key, r);
+        return { category: predok, excluded: false, redirected: true };
+      }
     }
 
     const rec = unmatched.get(category) || { category, count: 0, examples: [] };
@@ -221,11 +242,26 @@ function createCategoryMatcher(supplierName) {
       const sortedM = [...autoMatched.values()].sort((a, b) => b.count - a.count);
       for (const r of sortedM) lines.push(`| ${r.from} | ${r.to} | ${(r.score * 100).toFixed(0)}% | ${r.count} |`);
     }
+    if (ancestorMatched.size) {
+      lines.push('');
+      lines.push('## Preložené na predka zo starého stromu');
+      lines.push('');
+      lines.push('Nový strom tieto hlbšie vetvy vedome nemá — zlúčil ich do nadradenej kategórie.');
+      lines.push('Produkt zostáva v ponuke, len o úroveň vyššie. Ak si niektorá z nich zaslúži');
+      lines.push('vlastnú kategóriu, pridať ju do stromu a do `data/stary-novy-strom.json`.');
+      lines.push('');
+      lines.push('| Kategória z feedu | Zaradené do | Počet produktov |');
+      lines.push('|---|---|---|');
+      const sortedA = [...ancestorMatched.values()].sort((a, b) => b.count - a.count);
+      for (const r of sortedA) lines.push(`| ${r.from} | ${r.to} | ${r.count} |`);
+    }
     fs.mkdirSync(path.dirname(reportPath), { recursive: true });
     fs.writeFileSync(reportPath, lines.join('\n') + '\n');
     const unmatchedProducts = [...unmatched.values()].reduce((s, r) => s + r.count, 0);
     const autoMatchedProducts = [...autoMatched.values()].reduce((s, r) => s + r.count, 0);
-    return { unmatchedCategories: unmatched.size, unmatchedProducts, autoMatchedCategories: autoMatched.size, autoMatchedProducts };
+    const ancestorMatchedProducts = [...ancestorMatched.values()].reduce((s, r) => s + r.count, 0);
+    return { unmatchedCategories: unmatched.size, unmatchedProducts, autoMatchedCategories: autoMatched.size, autoMatchedProducts,
+      ancestorMatchedCategories: ancestorMatched.size, ancestorMatchedProducts };
   }
 
   return { isKnown: isKnownPath, findMatch, resolve, writeReport };
