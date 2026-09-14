@@ -289,9 +289,15 @@ async function main() {
       extraCategories = pathToExtraCategories(category);
     }
 
+    // Skladom vyhlásime len na základe light.xml. To je živý feed dostupnosti; full.xml nesie
+    // starší snímok a vie tvrdiť, že tovar na sklade je, aj keď nie je. Presne to nahlásil
+    // zákazník 14. 9. 2026 pri Neakase P2 PRO (071558): full.xml uvádzal 1 ks, v light.xml
+    // produkt vôbec nebol a InnPro vo svojom systéme viedol 0 ks s naskladnením 17. 11.
+    // Týka sa to 84 z 5419 produktov vyhlásených za skladom (1,5 %) — u zvyšku sa nič nemení.
+    // Samotný budúci dátum ďalšej dodávky signálom nie je: má ho 1536 skladových produktov,
+    // pričom väčšina má reálne stovky kusov (bežné doobjednanie), takže sa podľa neho neriadime.
     let stockQty = 0, stockInfinite = false;
     if (lightEntry) { stockQty = lightEntry.stock; stockInfinite = lightEntry.infinite; }
-    else stockQty = p.stock;
 
     let availability;
     if (stockInfinite || stockQty > 0) availability = 'Skladom';
