@@ -86,12 +86,29 @@ function parseProduct(rawXml) {
   ]);
   const params = [];
   let nextDeliveryDate = '';
+  // InnPro pri časti tovaru predáva len po balíkoch — napr. fólia 088959 má minimálny odber 5 ks.
+  // Posiela to ako parameter, ktorý je na BLACKLIST-e (do popisu produktu nepatrí), ale samotná
+  // hodnota je pre nás dôležitá: bez nej si zákazník objedná 1 ks a my ho od dodávateľa nedokážeme
+  // kúpiť inak než po piatich. Berie sa prvé celé číslo v hodnote, lebo InnPro píše raz "5" a inde
+  // "5 szt." Odkladá sa oboje — maloobchodné aj veľkoobchodné minimum — kým sa neoverí, ktoré
+  // zodpovedá tomu, čo dodávateľ naozaj vyžaduje od nás.
+  let minOrderRetail = 0;
+  let minOrderWholesale = 0;
   const paramsNode = p.parameters || {};
   for (const par of asArray(paramsNode.parameter)) {
     const pname = par['@_name'];
     if (pname === 'Kolejna dostawa') {
       const v0 = asArray(par.value)[0];
       if (v0) nextDeliveryDate = v0['@_name'] || '';
+      continue;
+    }
+    if (pname === 'Minimalna liczba towaru w zamówieniu detalicznym'
+        || pname === 'Minimalna liczba towaru w zamówieniu hurtowym') {
+      const v0 = asArray(par.value)[0];
+      const n = parseInt(String(v0 ? v0['@_name'] : '').replace(/[^\d]/g, ''), 10);
+      if (Number.isFinite(n) && n > 1) {
+        if (pname.endsWith('detalicznym')) minOrderRetail = n; else minOrderWholesale = n;
+      }
       continue;
     }
     if (par['@_hide'] === 'y' || BLACKLIST.has(pname)) continue;
@@ -110,6 +127,7 @@ function parseProduct(rawXml) {
   return {
     id, codeOnCard, vat, name, longDesc, manufacturer, category, warranty,
     priceNet, ean, weightKg: weightG / 1000, stock, images, params, docs, nextDeliveryDate,
+    minOrderRetail, minOrderWholesale,
   };
 }
 

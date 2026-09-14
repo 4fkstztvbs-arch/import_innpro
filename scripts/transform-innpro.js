@@ -176,6 +176,11 @@ function buildShopitemXml(p) {
   if (p.warranty) parts.push(`<WARRANTY>${xmlEscape(p.warranty)}</WARRANTY>`);
   parts.push('<ITEM_TYPE>product</ITEM_TYPE>');
   parts.push('<UNIT>ks</UNIT>');
+  // Minimálny odber. InnPro pri časti sortimentu predáva len po balíkoch (fólia 088959 = 5 ks) a
+  // bez tejto informácie si zákazník objedná 1 ks, ktorý sa nedá od dodávateľa kúpiť samostatne.
+  // MINIMAL_AMOUNT je voliteľný element dodávateľskej schémy Shoptetu (products-supplier-v10.rng,
+  // overené 14. 9. 2026); SHOPITEM má deti v <interleave>, takže na poradí nezáleží.
+  if (p.minOrderRetail > 1) parts.push(`<MINIMAL_AMOUNT>${p.minOrderRetail}</MINIMAL_AMOUNT>`);
   parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
   if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
 
@@ -240,6 +245,7 @@ async function main() {
   const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
   const anomalies = [];
 
+  const minOdbery = [];
   const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedUnavailable: 0, fromLight: 0 };
   const candidates = [];
 
@@ -345,6 +351,10 @@ async function main() {
       continue;
     }
     out.write(buildShopitemXml(c.shopitemData) + '\n');
+    if (p.minOrderRetail > 1 || p.minOrderWholesale > 1) {
+      minOdbery.push({ code: p.codeOnCard || p.id, name: p.name,
+        retail: p.minOrderRetail, wholesale: p.minOrderWholesale });
+    }
     stats.written++;
   }
 
@@ -355,6 +365,23 @@ async function main() {
 
   console.log('Done.');
   writeAnomalyReport('innpro', anomalies);
+  // Prehľad minimálnych odberov — podklad na overenie, že sa hodnoty z feedu čítajú správne
+  // a že maloobchodné minimum je naozaj to, ktoré dodávateľ vyžaduje od nás.
+  if (minOdbery.length) {
+    const r = ['# Minimálny odber — InnPro', '',
+      `Kontrola z ${new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC.`, '',
+      `InnPro pri **${minOdbery.length}** produktoch uvádza minimálny odber väčší než 1 kus.`,
+      'Do XML sa zapisuje maloobchodné minimum ako `<MINIMAL_AMOUNT>`.', '',
+      '| Kód | Produkt | Maloobchodné | Veľkoobchodné |', '|---|---|---:|---:|'];
+    for (const m of minOdbery.sort((a, b) => b.retail - a.retail)) {
+      r.push(`| \`${m.code}\` | ${m.name.slice(0, 60)} | ${m.retail || '—'} | ${m.wholesale || '—'} |`);
+    }
+    fs.writeFileSync(path.join(__dirname, '..', 'reports', 'minimalny-odber-innpro.md'),
+      r.join('\n') + '\n');
+    console.log(`  -> ${minOdbery.length} produktov s minimálnym odberom > 1, `
+      + 'report: reports/minimalny-odber-innpro.md');
+  }
+
   const categoryReport = zaradovac.zapisReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
