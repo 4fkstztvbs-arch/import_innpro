@@ -13,8 +13,20 @@ const path = require('path');
 const MAPPING_PATH = path.join(__dirname, 'heureka-mapping.json');
 const MAPPING = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 
+// Podkategória dedí Heureka kategóriu po najbližšom predkovi, ktorý ju má. Bez toho by každé
+// prehĺbenie stromu zhodilo Heureka ID tovaru, ktorý ho dovtedy mal: po pridaní 4. úrovne
+// 14. 9. 2026 by ho naraz stratilo 11 487 produktov, hoci ide o ten istý tovar, len zaradený o
+// úroveň nižšie. Dedenie presne zachováva stav spred rozdelenia; keď si niektorá podkategória
+// zaslúži inú Heureka kategóriu, pridá sa do heureka-mapping.json vlastným záznamom a ten
+// dedeniu prirodzene prebije, lebo sa hľadá od najhlbšej cesty.
 function heurekaCategoryIdFor(categoryPath) {
-  return MAPPING[categoryPath] || null;
+  if (!categoryPath) return null;
+  const segs = String(categoryPath).split(' > ');
+  for (let d = segs.length; d > 0; d--) {
+    const id = MAPPING[segs.slice(0, d).join(' > ')];
+    if (id) return id;
+  }
+  return null;
 }
 
 // HEUREKA_HIDDEN — vylúčenie z rozšíreného Heureka CPC feedu podľa kategórie a/alebo nízkej ceny.

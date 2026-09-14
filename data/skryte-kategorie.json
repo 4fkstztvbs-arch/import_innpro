@@ -1,8 +1,6 @@
 {
-  "_comment": "Kategórie, ktoré po prepnutí na nový strom zostanú bez produktov. Smerujú správne, len ich dodávatelia momentálne nemajú v ponuke. Prázdna kategória je slabá stránka pre zákazníka aj pre Google, preto sa importujú ako neviditeľné (visible=0) a presmerovania na ne sa presmerujú na najbližšieho viditeľného rodiča. Keď sa tovar objaví, stačí kategóriu v Shoptete zviditeľniť; tento zoznam sa použije len pri (pre)generovaní importných súborov.",
+  "_comment": "Kategórie, ktoré po prepnutí na nový strom zostanú bez produktov. Smerujú správne, len ich dodávatelia momentálne nemajú v ponuke. Prázdna kategória je slabá stránka pre zákazníka aj pre Google, preto sa importujú ako neviditeľné (visible=0) a presmerovania na ne sa presmerujú na najbližšieho viditeľného rodiča. Keď sa tovar objaví, kategória sa odtiaľto vyradí a v importnom CSV dostane visible=1 — tak sa 14. 9. 2026 vrátili Inšpekčné kamery a endoskopy (9 ks) a Video ovládače (14 ks), ktorým pravidlá medzitým tovar priniesli.",
   "urls": [
-    "inspekcne-kamery-a-endoskopy",
-    "cistiace-pristroje-a-doplnky",
-    "video-ovladace"
+    "cistiace-pristroje-a-doplnky"
   ]
 }
