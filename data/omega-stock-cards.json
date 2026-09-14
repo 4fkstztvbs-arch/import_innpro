@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600256,
+    "nextCardNumber": 202600261,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1532,6 +1532,36 @@
         "nazov": "Tefal Rychlovarná konvice Sense",
         "dodavatel": "kb",
         "code": "100002203916"
+      },
+      "6974662350411": {
+        "kod": "202600256",
+        "nazov": "Anycubic Standard Resin",
+        "dodavatel": "innpro",
+        "code": "065108"
+      },
+      "6934399226502": {
+        "kod": "202600257",
+        "nazov": "Pet Clipper",
+        "dodavatel": "innpro",
+        "code": "074083"
+      },
+      "6930444801472": {
+        "kod": "202600258",
+        "nazov": "Pen Display Kamvas 13",
+        "dodavatel": "innpro",
+        "code": "077179"
+      },
+      "5907085526515": {
+        "kod": "202600259",
+        "nazov": "MINI 2IN1 Wireless Car",
+        "dodavatel": "innpro",
+        "code": "077960"
+      },
+      "4897143173557": {
+        "kod": "202600260",
+        "nazov": "Insta360 Luna Ultra Filters -",
+        "dodavatel": "innpro",
+        "code": "091592"
       }
     }
   },
