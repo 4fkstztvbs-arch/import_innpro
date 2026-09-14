@@ -515,17 +515,11 @@
 /prislusenstvo-pre-posilnovanie---ostatne/;/posilnovanie-a-fitness/;exact;Šport, hračky a voľný čas > Posilňovanie a fitness > Príslušenstvo pre posilňovanie – ostatné;Cestovanie, šport a outdoor > Posilňovanie a fitness;48441
 /cistice/;/sady-naradia/;ancestor(-2);Náradie a dielňa > Náradie > Upratovanie, čistenie a umývanie > Čističe;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia;40860
 /balzamy-a-kondicionery/;/zdravie-a-starostlivost/;ancestor(-3);Zdravie a starostlivosť > Parfumy a kozmetika > Vlasová kozmetika > Balzámy a kondicionéry;Zdravie a starostlivosť;40887
-/cestovne-doplnky/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Cestovné doplnky;Auto-moto > Príslušenstvo do auta;41013
-/autokoberce/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Autokoberce;Auto-moto > Príslušenstvo do auta;41160
 /adaptery-napajeni/;/elektronika-do-auta/;exact;Auto-moto > Vybavenie auta > Adaptéry napájení;Auto-moto > Elektronika do auta;41211
-/clony-a-roletky/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Clony a roletky;Auto-moto > Príslušenstvo do auta;41370
-/stierace/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Stierače;Auto-moto > Príslušenstvo do auta;41475
 /svetla/;/autoziarovky/;exact;Auto-moto > Vybavenie auta > Svetlá;Auto-moto > Autožiarovky a osvetlenie;41514
 /podlozky-spz/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Podložky SPZ;Auto-moto > Príslušenstvo do auta;41577
-/autopotahy/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Autopotahy;Auto-moto > Príslušenstvo do auta;41946
 /povinna-vybava/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Povinná výbava;Auto-moto > Príslušenstvo do auta;42072
 /drziaky-na-mobily-2/;/elektronika-do-auta/;exact;Auto-moto > Vybavenie auta > Držiaky na mobily;Auto-moto > Elektronika do auta;42501
-/osviezovace-vzduchu/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Osviežovače vzduchu;Auto-moto > Príslušenstvo do auta;42816
 /poistky-3/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Poistky;Auto-moto > Príslušenstvo do auta;43023
 /organizery-do-kufru/;/vybavenie-auta/;exact;Auto-moto > Vybavenie auta > Organizéry do kufru;Auto-moto > Príslušenstvo do auta;43188
 /menice-napatie-2/;/elektronika-do-auta/;exact;Auto-moto > Vybavenie auta > Meniče napätie;Auto-moto > Elektronika do auta;43362
@@ -574,12 +568,9 @@
 /istice-dc/;/istice-a-chranice/;ancestor(-1);Elektroinštalačný materiál > Ističe a chrániče > Ističe DC;Elektro, Smart Home a osvetlenie > Ističe a chrániče;45168
 /fotovoltaicke-prislusenstvo/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Fotovoltaické príslušenstvo;Energia a napájanie > Fotovoltaika;40959
 /konstrukcia-pre-solarne-panely/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely;Energia a napájanie > Fotovoltaika;40974
-/kable-pre-fotovoltaiku/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Káble pre fotovoltaiku;Energia a napájanie > Fotovoltaika;41082
 /rozvadzace/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Rozvádzače;Energia a napájanie > Fotovoltaika;41358
 /ochrana-fv-instalaci/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Ochrana FV instalací;Energia a napájanie > Fotovoltaika;41526
 /konektory-pre-fotovoltaiku/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Konektory pre fotovoltaiku;Energia a napájanie > Fotovoltaika;41676
-/solarne-regulatory/;/fotovoltaika/;ancestor(-1);Fotovoltaika a energie > Fotovoltaika > Solárne regulátory;Energia a napájanie > Fotovoltaika;42237
-/solarne-panely/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne panely;Energia a napájanie > Fotovoltaika;42558
 /solarne-zostavy/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Solárne zostavy;Energia a napájanie > Fotovoltaika;42897
 /nabijacie-stanice/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Nabíjacie stanice;Energia a napájanie > Fotovoltaika;43092
 /naradie-pre-fotovoltaiku/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Náradie pre fotovoltaiku;Energia a napájanie > Fotovoltaika;43278
@@ -702,14 +693,12 @@
 /typ-pvbs/;/rozvadzacove-prvky/;ancestor(-1);Elektroinštalačný materiál > Rozvádzačové prvky > Bloky pre rozdělení fází > Typ PVBS;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky;45681
 /typova-rad-rka/;/rozvadzacove-prvky/;exact;Elektroinštalačný materiál > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky > Univerzálne svorky > Typová rad RKA;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky;41064
 /typova-rad-uk/;/rozvadzacove-prvky/;exact;Elektroinštalačný materiál > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky > Univerzálne svorky > Typová rad UK;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky;41067
-/olovene-akumulatory/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > Olovené akumulátory;Energia a napájanie > Akumulátory a batérie;41073
 /prislusenstvo-6/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > Príslušenstvo;Energia a napájanie > Akumulátory a batérie;41664
 /d-velke-monoclanky/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > D veľké monočlánky;Energia a napájanie > Akumulátory a batérie;41814
 /9v/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > 9V;Energia a napájanie > Akumulátory a batérie;41817
 /gombikove/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > Gombíkové;Energia a napájanie > Akumulátory a batérie;41916
 /autobaterie/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > Autobatérie;Energia a napájanie > Akumulátory a batérie;42171
 /specialne/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > Špeciálne;Energia a napájanie > Akumulátory a batérie;42489
-/lifepo4-akumulatory/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > LiFePO4 akumulátory;Energia a napájanie > Akumulátory a batérie;42843
 /aa-ceruzkove/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > AA ceruzkové;Energia a napájanie > Akumulátory a batérie;42945
 /c-male-monoclanky/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > C malé monočlánky;Energia a napájanie > Akumulátory a batérie;43422
 /aaa-mikrotuzkove/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > AAA mikrotužkové;Energia a napájanie > Akumulátory a batérie;43464
@@ -899,7 +888,6 @@
 /skrine-pre-kamerove-systemy/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Skrine pre kamerové systémy;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;41964
 /zasuvkove-skrine/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Zásuvkové skrine;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;42366
 /kovove-skrine/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Kovové skrine;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;42732
-/revizne-dvierka/;/montazne-skrine-a-rozvadzace/;ancestor(-1);Elektroinštalačný materiál > Montážne skrine a rozvádzače > Revízne dvierka;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;43026
 /priemyselne-vidlica/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Priemyselné vidlica a zásuvky > Priemyselné vidlica;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41334
 /priemyselne-spojky/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Priemyselné vidlica a zásuvky > Priemyselné spojky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41337
 /priemyselne-zasuvky/;/predlzovacie-kable-a-vidlice/;ancestor(-2);Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Priemyselné vidlica a zásuvky > Priemyselné zásuvky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41340
@@ -1201,14 +1189,11 @@
 /audi-q2/;/vybavenie-auta/;ancestor(-2);Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Audi > Audi Q2;Auto-moto > Príslušenstvo do auta;43638
 /cherokee/;/vybavenie-auta/;ancestor(-2);Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Jeep > Cherokee;Auto-moto > Príslušenstvo do auta;42066
 /liberty/;/vybavenie-auta/;ancestor(-2);Auto-moto > Vybavenie auta > Autokoberce > Auto koberce Jeep > Liberty;Auto-moto > Príslušenstvo do auta;45618
-/vzduchovody/;/ventilacne-technika/;exact;Elektroinštalačný materiál > Ventilačné technika > Vzduchovody;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;42102
-/domove-ventilatory/;/ventilacne-technika/;exact;Elektroinštalačný materiál > Ventilačné technika > Domové ventilátory;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;42150
 /prislusenstvo-k-ventilatorum/;/ventilacne-technika/;exact;Elektroinštalačný materiál > Ventilačné technika > Príslušenstvo k ventilátorům;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;42405
 /pre-rackove-skrine/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Pre rackové skrine;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;42426
 /pokojove-rekuperacni-jednotky/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Pokojové rekuperační jednotky;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;42429
 /revizne-dvierka-2/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Revízne dvierka;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;43032
 /gravitacni-zaluzie-a-klapky/;/ventilacne-technika/;exact;Elektroinštalačný materiál > Ventilačné technika > Gravitační žaluzie a klapky;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;43983
-/priemyselne-ventilatory/;/ventilacne-technika/;exact;Elektroinštalačný materiál > Ventilačné technika > Priemyselné ventilátory;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;44019
 /mrizky/;/ventilacne-technika/;exact;Elektroinštalačný materiál > Ventilačné technika > Mřížky;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;44169
 /talirove-ventily-a-difuzery/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Talířové ventily a difuzéry;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;44175
 /osousece-rukou/;/ventilacne-technika/;ancestor(-1);Elektroinštalačný materiál > Ventilačné technika > Osoušeče rukou;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;44553
@@ -1746,9 +1731,7 @@
 /odsavacky-mlieka-a-masazne-pristroje/;/matka-a-dieta/;ancestor(-1);Zdravie a starostlivosť > Matka a dieťa > Odsávačky mlieka a masážne prístroje;Zdravie a starostlivosť > Matka a dieťa;46749
 /elektronicke-prislusenstvo/;/matka-a-dieta/;ancestor(-1);Zdravie a starostlivosť > Matka a dieťa > Elektronické príslušenstvo;Zdravie a starostlivosť > Matka a dieťa;46824
 /hodinky-a-budiky/;/matka-a-dieta/;ancestor(-2);Zdravie a starostlivosť > Matka a dieťa > Detská izba > Hodinky a budíky;Zdravie a starostlivosť > Matka a dieťa;46410
-/3d-tlaciarne/;/3d-tlac/;exact;Kreatívne technológie > 3D tlač > 3D tlačiarne;3D tlač a digitálna výroba > 3D tlačiarne a materiály;46416
 /vlakna/;/3d-tlac/;exact;Kreatívne technológie > 3D tlač > Vlákna;3D tlač a digitálna výroba > 3D tlačiarne a materiály;46443
-/prislusenstvo-pre-3d-tlaciarne/;/3d-tlac/;exact;Kreatívne technológie > 3D tlač > Príslušenstvo pre 3D tlačiarne;3D tlač a digitálna výroba > 3D tlačiarne a materiály;46446
 /zivice/;/3d-tlac/;exact;Kreatívne technológie > 3D tlač > Živice;3D tlač a digitálna výroba > 3D tlačiarne a materiály;46449
 /diely/;/3d-tlac/;ancestor(-1);Kreatívne technológie > 3D tlač > Diely;3D tlač a digitálna výroba > 3D tlačiarne a materiály;46668
 /prislusenstvo-24/;/prenosne-elektricke-stanice/;ancestor(-1);Fotovoltaika a energie > Elektrické stanice > Príslušenstvo;Energia a napájanie > Prenosné elektrické stanice;46437
