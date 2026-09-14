@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-14 11:02 UTC.
+Kontrola z 2026-09-14 16:04 UTC.
 
-InnPro pri **396** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **392** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -162,6 +162,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `061364` | Dust bag for Roidmi EVE CC | — | 2 |
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
+| `063729` | Replacement filters for the Oneisall fountain | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
 | `065622` | Storage Bag Sunnylife for Insta360 X4 / X5 | — | 5 |
@@ -175,9 +176,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `067464` | Silicone Protective Case PULUZ for DJI RC 2 (grey) | — | 5 |
 | `067463` | Silicone protective case PULUZ for DJI RC 2 (black) | — | 5 |
 | `067462` | Case with Lens Cap and Neck Strap PULUZ for GoPro Hero 9 / 1 | — | 5 |
-| `066276` | Lens Protector Nillkin for Samsung Galaxy S24+ (3 Pieces) | — | 5 |
 | `067767` | Anti-glare lens and gimbal cover Sunnylife for DJI Avata 2 | — | 5 |
-| `066318` | Case Nillkin Super Frosted Shield Pro for Samsung Galaxy A25 | — | 5 |
 | `068199` | Maono XLR-180 Cable | — | 5 |
 | `068234` | Silicone Cover Case Set with Strap PULUZ For DJI OSMO Pocket | — | 5 |
 | `068805` | Mini Bag PULUZ for DJI Osmo Pocket 3 (Black) | — | 5 |
@@ -210,12 +209,11 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `071860` | Sunnylife landing gear upgrade for DJI Neo (orange) | — | 5 |
 | `071853` | SUNNYLIFE lens hoods for DJI Neo | — | 5 |
 | `071865` | SUNNYLIFE protective battery case for DJI Neo | — | 5 |
-| `071236` | Puzdro Nillkin Super Frosted Shield Pro iPhone 16 Pro (SK) | — | 2 |
 | `071867` | Sunnylife protective case for 3 batteries for DJI Neo | — | 2 |
 | `071893` | Sunnylife tempered glass for DJI Action 5 Pro | — | 5 |
 | `072355` | Chladiaci ventilátor Darkflash DR08 (čierny) | — | 5 |
 | `072356` | Chladiaci ventilátor Darkflash DR08 (biely) | — | 5 |
-| `071238` | Etui do iPhone 16 Plus Nillkin Super Frosted Pro (čierne) | — | 5 |
+| `073741` | Butterfly Sunnylife NE-SN908 ochranné puzdro pre NEO s karab | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
 | `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 3 |
@@ -228,7 +226,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `075568` | Filtre Rojeco pre 2,5 l bezdrôtové vodné fontány 50 | — | 5 |
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
 | `076565` | Sunnylife mini B977-GY ochranné puzdro pre RC ovládače DJI ( | — | 5 |
-| `075790` | Oneisall PW04 filtre do fontány/napájačky (6 ks) | — | 5 |
 | `074257` | Adaptér ANT+ USB Cycplus U10 | — | 5 |
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
 | `077573` | Ochranné puzdro Sunnylife s popruhom pre Osmo Pocket 3 (čier | — | 5 |
@@ -307,7 +304,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `082349` | Chladiaci ventilátor Darkflash DE8 (biely) | — | 5 |
 | `084784` | Uni-T UT12D-EU Bezkontaktný tester napätia | — | 5 |
 | `085297` | Avatto 2 zásuvka TS20 rám vypínača (biely) | — | 5 |
-| `083555` | Waydoo Subnado Obal | — | 2 |
 | `081351` | Osciloskopická sonda Fnirsi P6100 | — | 5 |
 | `086043` | Sonoff WS01STPF-E – klasická nástenná zásuvka (typ F) | — | 5 |
 | `079180` | Puzdro Flytec – čierne | — | 5 |
