@@ -390,7 +390,6 @@
 /oblecenie-a-obuv/;/cestovanie-sport-a-outdoor/;ancestor(-1);Šport, hračky a voľný čas > Oblečenie a obuv;Cestovanie, šport a outdoor;40224
 /turistika/;/outdoor/;exact;Šport, hračky a voľný čas > Turistika;Cestovanie, šport a outdoor > Turistika a outdoor;41640
 /sportovni-vybavenie/;/sportove-vybavenie/;exact;Šport, hračky a voľný čas > Sportovní vybavenie;Cestovanie, šport a outdoor > Športové vybavenie;42570
-/mikroskopy/;/cestovanie-sport-a-outdoor/;ancestor(-1);Šport, hračky a voľný čas > Mikroskopy;Cestovanie, šport a outdoor;42846
 /zdravotni-potreby/;/zdravotne-a-rehabilitacne-pomocky/;exact;Šport, hračky a voľný čas > Zdravotní potreby;Cestovanie, šport a outdoor > Zdravotné a rehabilitačné pomôcky;42879
 /hudebni-nastroje/;/cestovanie-sport-a-outdoor/;ancestor(-1);Šport, hračky a voľný čas > Hudební nástroje;Cestovanie, šport a outdoor;43104
 /elektricke-kolobezky/;/cestovanie-sport-a-outdoor/;ancestor(-1);Šport, hračky a voľný čas > Elektrické kolobežky;Cestovanie, šport a outdoor;45138
@@ -490,10 +489,8 @@
 /fontany/;/chovatelske-potreby/;ancestor(-1);Zdravie a starostlivosť > Chovateľské potreby > Fontány;Chovateľské potreby;45930
 /hracky-2/;/chovatelske-potreby/;ancestor(-1);Zdravie a starostlivosť > Chovateľské potreby > Hračky;Chovateľské potreby;45936
 /davkovace-krmiva/;/chovatelske-potreby/;ancestor(-1);Zdravie a starostlivosť > Chovateľské potreby > Dávkovače krmiva;Chovateľské potreby;45987
-/starostlivost-o-zvierata/;/chovatelske-potreby/;ancestor(-1);Zdravie a starostlivosť > Chovateľské potreby > Starostlivosť o zvieratá;Chovateľské potreby;46032
 /inteligentne-toalety-pre-zvierata/;/chovatelske-potreby/;exact;Zdravie a starostlivosť > Chovateľské potreby > Inteligentné toalety pre zvieratá;Chovateľské potreby;46059
 /prislusenstvo-pre-macacie-toalety/;/chovatelske-potreby/;exact;Zdravie a starostlivosť > Chovateľské potreby > Príslušenstvo pre mačacie toalety;Chovateľské potreby;46065
-/vencenie-a-transport/;/chovatelske-potreby/;exact;Zdravie a starostlivosť > Chovateľské potreby > Venčenie a transport;Chovateľské potreby;46137
 /prepravky/;/chovatelske-potreby/;ancestor(-1);Zdravie a starostlivosť > Chovateľské potreby > Prepravky;Chovateľské potreby;48189
 /klece-a-ohradky/;/chovatelske-potreby/;ancestor(-1);Zdravie a starostlivosť > Chovateľské potreby > Klece a ohrádky;Chovateľské potreby;48192
 /ostatne-prislusenstvo-pre-zvierata/;/chovatelske-potreby/;exact;Zdravie a starostlivosť > Chovateľské potreby > Ostatné príslušenstvo pre zvieratá;Chovateľské potreby;48378
