@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600247,
+    "nextCardNumber": 202600256,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1478,6 +1478,60 @@
         "nazov": "DOMO DO42329PC",
         "dodavatel": "kb",
         "code": "100002203819"
+      },
+      "8590393250240": {
+        "kod": "202600247",
+        "nazov": "ETA 0028 98050",
+        "dodavatel": "kb",
+        "code": "100000421695"
+      },
+      "9022001909855": {
+        "kod": "202600248",
+        "nazov": "BWT náhradní filtry Mg2+ 6ks",
+        "dodavatel": "kb",
+        "code": "100000474543"
+      },
+      "4006501852823": {
+        "kod": "202600249",
+        "nazov": "Leifheit LinoLift 600 Quick Start 85282",
+        "dodavatel": "kb",
+        "code": "100001319334"
+      },
+      "4006501553799": {
+        "kod": "202600250",
+        "nazov": "Leifheit Combi Clean M + náhr. Static",
+        "dodavatel": "kb",
+        "code": "100001959277"
+      },
+      "4006501724854": {
+        "kod": "202600251",
+        "nazov": "Leifheit Air Board M Black Plus NF",
+        "dodavatel": "kb",
+        "code": "100002074065"
+      },
+      "3023372025515": {
+        "kod": "202600252",
+        "nazov": "Electrolux Menalux 1900",
+        "dodavatel": "kb",
+        "code": "362902405022"
+      },
+      "8595022046607": {
+        "kod": "202600253",
+        "nazov": "Bravo Kery B-4660 400W bílý",
+        "dodavatel": "kb",
+        "code": "100001321385"
+      },
+      "5411397168535": {
+        "kod": "202600254",
+        "nazov": "DOMO DO9279W",
+        "dodavatel": "kb",
+        "code": "100002200952"
+      },
+      "3045387297985": {
+        "kod": "202600255",
+        "nazov": "Tefal Rychlovarná konvice Sense",
+        "dodavatel": "kb",
+        "code": "100002203916"
       }
     }
   },
