@@ -89,7 +89,7 @@ body {
   letter-spacing: .5px;
 }
 
-/* Hlavička v štýle denatura.cz: iniciály "PS" + telefón (klikateľný) +
+/* Hlavička: kruhová fotografia + telefón a email (klikateľné) +
    hodiny, plus presunuté natívne tlačidlo Prihlásenie (JS presúva skutočný
    #header .top-navigation-tools .top-nav-button-login prvok, nie kópiu).
    Nahrádza pôvodný nefunkčný ::before text "Zákaznícka linka" z existujúceho
@@ -243,7 +243,7 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
 }
 @media (max-width: 991px) {
   .ps-header-support.ps-header-support--mobile-menu {
-    display: flex;
+    display: grid;
   }
 }
 
@@ -267,14 +267,17 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
 }
 
 .ps-header-support {
-  display: flex;
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
   align-items: center;
-  gap: 10px;
+  gap: 6px 12px;
   margin-right: 20px;
 }
 .ps-header-avatar {
-  width: 40px;
-  height: 40px;
+  grid-row: 1 / 3;
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
   border-radius: 50%;
   background: #24b47e;
   color: #fff;
@@ -285,14 +288,35 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
   font-size: 14px;
   flex-shrink: 0;
 }
+/* Pevný rozmer rezervuje miesto aj pred načítaním fotografie. */
+.ps-header-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+/* Širší desktop: dva kontakty vedľa seba; užší desktop a menu pod sebou. */
+@media (min-width: 1440px) {
+  #header .navigation-buttons .ps-header-support {
+    grid-template-columns: 56px max-content max-content;
+    column-gap: 16px;
+  }
+  #header .navigation-buttons .ps-header-avatar {
+    grid-row: auto;
+  }
+}
 .ps-header-support-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   line-height: 1.3;
+  min-width: 0;
 }
-.ps-header-support-text a,
-.ps-header-support-text span {
+#header .ps-header-support .ps-header-support-text a,
+#header .ps-header-support .ps-header-support-text span {
   display: block !important;
   width: 100% !important;
   margin: 0 !important;
@@ -300,8 +324,13 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
   text-align: left !important;
   float: none !important;
   text-indent: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  line-height: 1.3 !important;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
-.ps-header-support-text a {
+#header .ps-header-support .ps-header-support-text a {
   font-weight: 700;
   font-size: 15px;
   color: #1a1a1a;
