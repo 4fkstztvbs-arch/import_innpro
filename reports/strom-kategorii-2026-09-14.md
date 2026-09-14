@@ -1,0 +1,489 @@
+# Strom kategórií premiumstore.sk
+
+Stav k 2026-09-14 13:31 UTC. 483 kategórií, 26540 produktov vo feedoch.
+
+Prvé číslo = produkty priamo v kategórii, druhé = vrátane podkategórií.
+
+- **3D tlač a digitálna výroba** — 6 / 531 — `/3d-tlac-a-digitalna-vyroba/`
+    - 3D skenery — 35 / 35 — `/3d-skenery/`
+    - 3D tlačiarne a materiály — 4 / 365 — `/3d-tlac/`
+        - 3D tlačiarne — 51 / 51 — `/3d-tlaciarne/`
+        - Príslušenstvo k 3D tlačiarňam — 52 / 52 — `/prislusenstvo-pre-3d-tlaciarne/`
+        - Tlačové struny a vlákna — 231 / 231 — `/vlakna-pre-3d-tlac/`
+        - Živice pre 3D tlač — 27 / 27 — `/zivice-pre-3d-tlac/`
+    - CNC frézy a gravírovačky — 0 / 0 — `/cnc-frezy-a-gravirovacky/`
+    - Laserové gravírovacie a rezacie stroje — 50 / 50 — `/laserove-gravirovacie-a-rezacie-stroje/`
+    - Tlačiarne a lisy na potlač textilu — 75 / 75 — `/tlaciarne-a-lisy-na-potlac-textilu/`
+- **Auto-moto** — 0 / 2176 — `/auto-moto/`
+    - Autobatérie, nabíjačky a štartovacie boxy — 97 / 97 — `/autobaterie-nabijacky-a-startovacie-boxy/`
+    - Autokozmetika a chémia — 98 / 98 — `/autokozmetika--chemia/`
+    - Autožiarovky a osvetlenie — 166 / 166 — `/autoziarovky/`
+    - Bezpečnostné a núdzové vybavenie — 2 / 98 — `/bezpecnost/`
+        - Upínacie pásy a gumy — 38 / 38 — `/upinacie-gumy-a-pasy/`
+        - Zimné vybavenie — 43 / 43 — `/zimne-vybavenie/`
+        - Ťažné laná a vyprosťovanie — 15 / 15 — `/tazne-lana/`
+    - Detské autosedačky — 12 / 12 — `/autosedacky/`
+    - Elektromobilita — 52 / 52 — `/elektromobilita/`
+    - Elektronika do auta — 302 / 302 — `/elektronika-do-auta/`
+    - Garáž, dielňa, servis — 519 / 519 — `/garaz--dielna--servis/`
+        - Autodiagnostika — 0 / 0 — `/autodiagnostika/`
+        - Autonáradie a doplnky — 0 / 0 — `/autonaradie-a-doplnky/`
+        - Autoplachty a ochranné kryty — 0 / 0 — `/autoplachty/`
+        - Elektroinštalačný materiál pre auto — 0 / 0 — `/elektroinstalacia-pre-auto/`
+        - Heváky a zdviháky — 0 / 0 — `/hevaky-a-zdvihaky/`
+        - Špeciálne náradie a prípravky — 0 / 0 — `/specialne-naradie-pre-servis/`
+    - Karavany a obytné autá — 74 / 74 — `/karavany-a-obytne-auta/`
+    - Kolesá a pneumatiky — 41 / 41 — `/kolesa/`
+    - Nosiče bicyklov a strešné nosiče — 52 / 52 — `/nosice-kol/`
+    - Príslušenstvo do auta — 665 / 665 — `/vybavenie-auta/`
+        - Autokoberce — 0 / 0 — `/autokoberce/`
+        - Autopoťahy a ochrana sedadiel — 0 / 0 — `/autopotahy/`
+        - Cestovné doplnky — 0 / 0 — `/cestovne-doplnky/`
+        - Clony, roletky a poistky — 0 / 0 — `/clony-a-roletky/`
+        - Osviežovače vzduchu — 0 / 0 — `/osviezovace-vzduchu/`
+        - Stierače — 0 / 0 — `/stierace/`
+- **Cestovanie, šport a outdoor** — 12 / 1903 — `/cestovanie-sport-a-outdoor/`
+    - Batérie pre drony a RC modely — 41 / 41 — `/baterie-pre-drony-a-rc-modely/`
+    - Bojové športy — 377 / 377 — `/bojove-sporty/`
+    - Cyklistika — 47 / 47 — `/cyklistika/`
+    - Elektrické bicykle a cyklotrenažéry — 9 / 9 — `/elektricke-bicykle/`
+    - Hračky — 82 / 82 — `/hracky/`
+    - Nabíjačky pre drony a RC modely — 17 / 17 — `/nabijacky-pre-drony-a-rc-modely/`
+    - Podvodné skútre — 62 / 62 — `/podvodne-skutre/`
+    - Posilňovanie a fitness — 392 / 476 — `/posilnovanie-a-fitness/`
+        - Doplnkové posilňovacie pomôcky — 0 / 0 — `/doplnkove-posilnovacie-pomocky/`
+        - Elektrické bežecké pásy — 40 / 40 — `/elektricke-bezecke-pasy/`
+        - Fitness náradie a vybavenie — 44 / 44 — `/fitness-naradie-a-vybavenie/`
+        - Posilňovacie lavice a podložky — 0 / 0 — `/lavice-a-podlozky/`
+        - Trenažéry — 0 / 0 — `/trenazery/`
+        - Činky a závažia — 0 / 0 — `/cinky-a-zavazia/`
+    - Príslušenstvo pre bicykle — 39 / 39 — `/prislusenstvo-pre-bicykle/`
+    - Príslušenstvo pre drony — 229 / 229 — `/prislusenstvo-pre-drony/`
+    - SUP dosky — 13 / 13 — `/sup-dosky/`
+    - Stacionárne bicykle — 9 / 9 — `/stacionarne-bicykle/`
+    - Turistika a outdoor — 253 / 253 — `/outdoor/`
+    - Zdravotné a rehabilitačné pomôcky — 19 / 19 — `/zdravotne-a-rehabilitacne-pomocky/`
+    - Ďalekohľady — 80 / 80 — `/dalekohlady/`
+    - Športové vybavenie — 138 / 138 — `/sportove-vybavenie/`
+- **Chovateľské potreby** — 44 / 144 — `/chovatelske-potreby/`
+    - Fontány a napájačky — 13 / 13 — `/fontany-a-napajacky/`
+    - Hračky pre zvieratá — 0 / 0 — `/hracky-pre-zvierata/`
+    - Mačacie toalety a príslušenstvo — 20 / 20 — `/macacie-toalety/`
+    - Misky a dávkovače krmiva — 13 / 13 — `/misky-a-davkovace-krmiva/`
+    - Ostatné chovateľské potreby — 13 / 13 — `/ostatne-chovatelske-potreby/`
+    - Pelechy, škrabadlá a klietky — 0 / 0 — `/pelechy-skrabadla-klietky/`
+    - Starostlivosť o zvieratá — 27 / 27 — `/starostlivost-o-zvierata/`
+    - Venčenie a transport — 14 / 14 — `/vencenie-a-transport/`
+- **Dielňa, náradie a záhrada** — 2 / 2263 — `/dielna-a-zahrada/`
+    - Dielenské vybavenie — 63 / 201 — `/dielenske-vybavenie/`
+        - Chémia pre dielňu — 31 / 31 — `/chemia-pre-dielnu/`
+        - Ochranné pomôcky a odevy — 46 / 46 — `/ochranne-pomocky-a-odevy/`
+        - Sťahovacie pásky a drobné príslušenstvo — 61 / 61 — `/stahovacie-pasky-a-drobne-prislusenstvo/`
+    - Elektronické súčiastky — 296 / 296 — `/elektronicke-suciastky/`
+    - Meracia technika — 11 / 650 — `/meracie-technika/`
+        - Detektory a lokátory — 80 / 80 — `/detektory/`
+        - Infrateplomery a termokamery — 50 / 50 — `/infrateplomery-a-termokamery/`
+        - Inšpekčné kamery a endoskopy — 13 / 13 — `/inspekcne-kamery-a-endoskopy/`
+        - Meracie lasery a diaľkomery — 50 / 50 — `/meracie-lasery/`
+        - Meradlá a meracie pásma — 20 / 20 — `/meradla-a-meracie-pasma/`
+        - Meranie neelektrických veličín — 90 / 90 — `/meranie-neelektrickych-velicin/`
+        - Merače TV a satelitného signálu — 12 / 12 — `/merace-tv-a-satelitneho-signalu/`
+        - Mikroskopy — 0 / 0 — `/mikroskopy/`
+        - Multimetre a kliešťové merače — 180 / 180 — `/multimetre-a-kliestove-merace/`
+        - Nivelačné prístroje — 18 / 18 — `/nivelacne-pristroje/`
+        - Osciloskopy, generátory a laboratórne zdroje — 32 / 32 — `/osciloskopy-a-generatory/`
+        - Príslušenstvo k meracej technike — 24 / 24 — `/prislusenstvo-k-meracej-technike/`
+        - Testery a skúšačky — 70 / 70 — `/testery-a-skusacky/`
+    - Ručné a elektrické náradie — 11 / 567 — `/rucne-a-elektricke-naradie/`
+        - Aku náradie a batérie — 14 / 14 — `/rucne-aku-naradie/`
+        - Lepiace a horúcovzdušné pištole — 22 / 22 — `/lepiace-a-horucovzdusne-pistole/`
+        - Mechanické náradie — 262 / 262 — `/mechanicke-naradie/`
+            - Gola sady a nástrčné hlavice — 0 / 0 — `/gola-sady/`
+            - Kliešte — 0 / 0 — `/klieste/`
+            - Kľúče — 0 / 0 — `/kluce/`
+            - Nitovačky a nity — 0 / 0 — `/nitovacky/`
+            - Skrutkovače, bity a imbusy — 0 / 0 — `/skrutkovace-a-bity/`
+        - Náradie pre brúsenie, vŕtanie, rezanie a pilovanie — 117 / 117 — `/naradie-pre-brusenie--vrtanie--rezanie-a-pilovanie/`
+        - Pneumatické náradie — 9 / 9 — `/pneumaticke-naradie/`
+        - Sady náradia — 65 / 65 — `/sady-naradia/`
+        - Stavebné a maliarske náradie — 67 / 67 — `/stavebne-a-maliarske-naradie/`
+    - Spájkovacia technika — 11 / 200 — `/spajkovacie-technika/`
+        - Lupy — 30 / 30 — `/lupy/`
+        - Príslušenstvo na spájkovanie — 66 / 66 — `/prislusenstvo-pre-spajkovacky/`
+        - Spájkovacie stanice a mikrospájkovačky — 23 / 23 — `/spajkovacie-stanice-a-mikrospajkovacky/`
+        - Spájkovačky a trafospájkovačky — 61 / 61 — `/spajkovacky/`
+        - Tretia ruka a držiaky — 9 / 9 — `/tretia-ruka-a-drziaky/`
+    - Záhrada a bazén — 1 / 347 — `/zahrada/`
+        - Náhradné diely pre záhradné stroje — 40 / 40 — `/nahradne-diely-pre-zahradne-stroje/`
+        - Odpudzovače škodcov — 64 / 64 — `/odpudzovace-a-lapace-hmyzu/`
+        - Zariadenia na čistenie bazénov — 26 / 26 — `/zariadenia-na-cistenie-bazenov/`
+        - Záhradné doplnky — 135 / 135 — `/zahradne-doplnky/`
+        - Záhradné náradie — 30 / 30 — `/zahradne-naradie-2/`
+        - Záhradné zavlažovacie systémy — 51 / 51 — `/zahradne-zavlazovacie-systemy/`
+- **Domáce spotrebiče** — 20 / 3133 — `/domace-spotrebice/`
+    - Chladničky — 116 / 116 — `/chladnicky/`
+    - Digestory — 35 / 35 — `/digestory/`
+    - Grily, pekárne, variče — 118 / 118 — `/grily--pekarne--varice/`
+    - Hodiny a budíky — 60 / 60 — `/hodiny-2/`
+    - Horúcovzdušné fritézy a multifunkčné hrnce — 132 / 132 — `/fritezy-a-hrnce/`
+    - Klimatizácia a vzduch — 58 / 173 — `/vzduchotechnika/`
+        - Aróma difuzéry — 53 / 53 — `/aroma-difuzery/`
+        - Dezinfekčné UV lampy — 0 / 0 — `/dezinfekcne-uv-lampy/`
+        - Klimatizácia — 10 / 10 — `/klimatizacia/`
+        - Odvlhčovače vzduchu — 15 / 15 — `/odvlhcovace-vzduchu/`
+        - Ventilátory — 12 / 12 — `/ventilatory/`
+        - Čističky a zvlhčovače vzduchu — 25 / 25 — `/cisticky-vzduchu/`
+    - Kuchynské roboty a krájače — 180 / 180 — `/kuchynske-roboty-a-krajace/`
+    - Kuchynské vybavenie — 21 / 303 — `/kuchynske-vybavenie/`
+        - Formy na pečenie — 20 / 20 — `/pecuce-formy/`
+        - Hrnce a panvice — 67 / 67 — `/hrnce-a-panvice/`
+        - Kuchynské pomôcky — 117 / 155 — `/kuchynske-potreby/`
+            - Kuchynské váhy — 38 / 38 — `/kuchynske-vahy/`
+        - Poháre a fľaše — 17 / 17 — `/pohare-a-flase/`
+        - Termosky a termohrnčeky — 23 / 23 — `/termosky-a-termohrnceky/`
+    - Kávovary a espressá — 228 / 228 — `/kavovary-a-espressa/`
+    - Meteostanice — 125 / 125 — `/meteostanice/`
+    - Mikrovlnné rúry — 19 / 19 — `/mikrovlnne-rury/`
+    - Mrazničky — 16 / 16 — `/mraznicky/`
+    - Ostatné domáce spotrebiče — 32 / 32 — `/ostatne-domace-spotrebice/`
+    - Práčky — 95 / 95 — `/pracky/`
+    - Príprava nápojov — 192 / 192 — `/priprava-napojov/`
+    - Príslušenstvo k malým spotrebičom — 221 / 221 — `/prislusenstvo-k-malym-spotrebicom/`
+    - Sanitárna technika — 29 / 29 — `/sanitarna-technika/`
+    - Sendvičovače, hriankovače, vaflovače — 68 / 68 — `/sendvicovace--hriankovace--vaflovace/`
+    - Sporáky a rúry — 25 / 25 — `/sporaky-a-rury/`
+    - Spotrebiče na párty a oslavy — 0 / 0 — `/na-party-a-oslavy/`
+    - Sušičky bielizne — 33 / 33 — `/susicky/`
+    - Sušičky potravín — 18 / 18 — `/susicky-potravin/`
+    - Teplomery — 13 / 13 — `/teplomery-3/`
+    - Triedenie odpadu a domáce organizéry — 27 / 27 — `/triedenie-odpadu-a-organizery/`
+    - Umývačky riadu — 22 / 22 — `/umyvacky-riadu/`
+    - Upratovacie pomôcky — 133 / 133 — `/upratovacie-pomocky/`
+    - Varné dosky — 59 / 59 — `/varne-dosky/`
+    - Vinotéky a vitríny — 19 / 19 — `/vinoteky-a-vitriny/`
+    - Vstavané chladenie — 10 / 10 — `/vstavane-chladenie/`
+    - Vstavané mikrovlnné rúry — 15 / 15 — `/vstavane-mikrovlnne-rury/`
+    - Vstavané rúry — 42 / 42 — `/vstavane-rury/`
+    - Vstavané umývačky riadu — 38 / 38 — `/vstavane-umyvacky-riadu/`
+    - Vykurovanie a ohrev vody — 12 / 37 — `/vykurovanie-a-ohrev-vody/`
+        - Ohrievače a vykurovacie telesá — 25 / 25 — `/vykurovacie-telesa/`
+    - Vysávače — 280 / 280 — `/vysavace/`
+    - Vákuovačky a zváračky fólií — 70 / 70 — `/vakuovacky-a-zvaracky-folii/`
+    - Čistiace prístroje a doplnky — 0 / 0 — `/cistiace-pristroje-a-doplnky/`
+    - Žehličky — 130 / 130 — `/zehlicky/`
+- **Elektro, Smart Home a osvetlenie** — 0 / 5483 — `/elektro-smart-home-a-osvetlenie/`
+    - Bezdrôtové zvončeky — 50 / 50 — `/zvonceky-2/`
+    - Cestovné adaptéry — 13 / 13 — `/cestovne-adaptery-3/`
+    - Elektromery a spínacia technika — 176 / 176 — `/elektromery-a-spinacie-technika/`
+    - IP kamery — 113 / 113 — `/ip-kamery-3/`
+    - Inštalačné náradie a materiál — 44 / 44 — `/instalacne-naradie-a-material/`
+    - Inštalačné príslušenstvo — 225 / 225 — `/instalacne-prislusenstvo/`
+        - Káblové spojky a očká — 0 / 0 — `/kablove-spojky/`
+        - Príchytky, pásky a hmoždinky — 0 / 0 — `/prichytky-a-pasky/`
+        - Trubky a chráničky — 0 / 0 — `/trubky-a-chranicky/`
+    - Ističe a chrániče — 221 / 221 — `/istice-a-chranice/`
+    - Káble a vodiče — 141 / 141 — `/kable-a-vodice/`
+    - Montážne skrine a rozvádzače — 324 / 324 — `/montazne-skrine-a-rozvadzace/`
+        - Rozvádzače osadené — 0 / 0 — `/rozvadzace-osadene/`
+        - Rozvádzače prázdne — 0 / 0 — `/rozvadzace-prazdne/`
+        - Zásuvkové skrine — 0 / 0 — `/zasuvkove-skrine/`
+    - Osvetlenie – svietidlá — 959 / 1320 — `/osvetlenie/`
+        - Baterky a ručné svietidlá — 0 / 0 — `/baterky-a-svietidla/`
+        - Komponenty pre svietidlá — 29 / 29 — `/komponenty-pre-svietidla/`
+        - LED osvetlenie — 155 / 155 — `/led-osvetlenie/`
+        - LED panely a podhľadové svietidlá — 42 / 42 — `/led-panely/`
+        - LED pásiky a profily — 74 / 74 — `/led-pasiky/`
+        - LED reflektory — 0 / 0 — `/led-reflektory/`
+        - LED žiarovky — 61 / 61 — `/led-ziarovky/`
+        - Vianočné osvetlenie a dekorácie — 0 / 0 — `/vianocne-osvetlenie/`
+    - Pohony brán a vrát — 81 / 81 — `/pohony-bran-a-vrat/`
+    - Predlžovacie káble a vidlice — 463 / 463 — `/predlzovacie-kable-a-vidlice/`
+        - Predlžovacie prívody — 0 / 0 — `/predlzovacie-privody/`
+        - Priemyselné vidlice a zásuvky — 0 / 0 — `/priemyselne-vidlice-a-zasuvky/`
+        - Spínacie a časové zásuvky — 0 / 0 — `/spinacie-zasuvky/`
+        - Vidlice, zásuvky a redukcie — 0 / 0 — `/vidlice-zasuvky-a-redukcie/`
+    - Profesionálne kamerové systémy — 266 / 266 — `/kamerove-systemy/`
+        - IP sieťové kamery — 0 / 0 — `/ip-sietove-kamery/`
+        - Kamery 4v1 — 0 / 0 — `/kamery-4v1/`
+        - Príslušenstvo ku kamerovým systémom — 0 / 0 — `/prislusenstvo-ku-kameram/`
+        - Videorekordéry NVR a DVR — 0 / 0 — `/videorekordery-nvr/`
+    - Príslušenstvo pre zabezpečovacie systémy — 0 / 0 — `/prislusenstvo-pre-zabezpecovacie-systemy/`
+    - Rozvádzačové prvky — 487 / 487 — `/rozvadzacove-prvky/`
+        - Bloky pre rozdelenie fáz — 0 / 0 — `/bloky-pre-rozdelenie-faz/`
+        - DIN lišty a modulárne komponenty — 0 / 0 — `/din-listy-a-komponenty/`
+        - Prepojovacie a rozbočovacie svorky — 0 / 0 — `/prepojovacie-svorky/`
+        - Prepojovacie lišty a mostíky — 0 / 0 — `/prepojovacie-listy/`
+    - Smart domácnosť – zariadenia — 358 / 358 — `/smart-domacnost/`
+    - Smart riadiace jednotky a huby — 191 / 191 — `/riadiace-jednotky/`
+    - Viacnásobné zásuvky a izolačný materiál — 208 / 208 — `/viacnasobne-zasuvky-a-izolacny-material/`
+    - Vypínače a nástenné zásuvky — 276 / 276 — `/vypinace--zasuvky--krabice/`
+    - Vzduchotechnika a montážne príslušenstvo — 432 / 432 — `/ventilacne-technika/`
+        - Domové ventilátory — 0 / 0 — `/domove-ventilatory/`
+        - Mriežky, žalúzie a klapky — 0 / 0 — `/mriezky-zaluzie-a-klapky/`
+        - Priemyselné ventilátory — 0 / 0 — `/priemyselne-ventilatory/`
+        - Príslušenstvo k ventilátorom — 0 / 0 — `/prislusenstvo-k-ventilatorom/`
+        - Revízne dvierka — 0 / 0 — `/revizne-dvierka/`
+        - Vzduchovody a tvarovky — 0 / 0 — `/vzduchovody/`
+    - Zabezpečenie – detektory a senzory — 94 / 94 — `/zabezpecenie/`
+- **Energia a napájanie** — 0 / 971 — `/fotovoltaika-a-energie/`
+    - Akumulátory a batérie — 453 / 453 — `/akumulatory-a-baterie/`
+        - Káblové očká, fastóny a dutinky — 0 / 0 — `/ocka-fastony-dutinky/`
+        - LiFePO4 akumulátory — 0 / 0 — `/lifepo4-akumulatory/`
+        - Nabíjacie batérie a gombíkové články — 0 / 0 — `/nabijacie-baterie/`
+        - Olovené akumulátory — 0 / 0 — `/olovene-akumulatory/`
+    - Fotovoltaika — 291 / 291 — `/fotovoltaika/`
+        - Elektromery pre fotovoltiku — 0 / 0 — `/elektromery-pre-fotovoltiku/`
+        - Konštrukcie pre solárne panely — 0 / 0 — `/konstrukcie-pre-solarne-panely/`
+        - Káble a konektory pre fotovoltaiku — 0 / 0 — `/kable-pre-fotovoltaiku/`
+        - Rozvádzače a ochrana FV inštalácií — 0 / 0 — `/ochrana-fv-instalacii/`
+        - Solárne panely — 0 / 0 — `/solarne-panely/`
+        - Solárne regulátory — 0 / 0 — `/solarne-regulatory/`
+    - Meniče napätia — 27 / 27 — `/menice-napatia/`
+    - Nabíjačky batérií a akumulátorov — 60 / 60 — `/nabijacky/`
+    - Napájacie zdroje — 54 / 54 — `/napajacie-zdroje-2/`
+    - Prenosné elektrické stanice — 11 / 11 — `/prenosne-elektricke-stanice/`
+    - Záložné zdroje a UPS — 75 / 75 — `/zalozne-zdroje-a-ups/`
+- **Počítače, mobily a tablety** — 25 / 2950 — `/pocitace-mobily-a-tablety/`
+    - Akumulátory a batérie do elektroniky — 11 / 11 — `/akumulatory--baterie-2/`
+    - Cestovné a VPN routery — 12 / 12 — `/cestovne-a-vpn-routery/`
+    - Disky a pamäťové karty pre NVR — 12 / 12 — `/disky-a-pamatove-karty-2/`
+    - Dokovacie stanice — 11 / 11 — `/dokovacie-stanice-2/`
+    - Grafické tablety — 41 / 41 — `/graficke-tablety-3/`
+    - Herné konzoly — 69 / 69 — `/herne-zariadenia-2/`
+    - Herné kreslá — 11 / 11 — `/herne-kresla-2/`
+    - Herné ovládače pre mobily — 11 / 11 — `/herne-ovladace-4/`
+    - Herné príslušenstvo pre PC — 43 / 407 — `/herne-prislusenstvo-3/`
+        - Chladenie počítača — 38 / 38 — `/chladenie-pocitaca/`
+        - Herné podložky a mikrofóny — 50 / 50 — `/herne-podlozky/`
+        - Herné simulátory — 101 / 101 — `/herne-simulatory/`
+        - Počítačové skrine — 98 / 98 — `/pocitacove-skrine/`
+        - VR okuliare a príslušenstvo — 77 / 77 — `/vr-okuliare/`
+    - Kancelária a škola — 74 / 74 — `/kancelaria-a-skola/`
+    - Mini PC — 71 / 71 — `/mini-pc-2/`
+    - Monitory — 23 / 23 — `/monitory-2/`
+    - NAS servery a sieťové úložiská — 15 / 15 — `/sietove-zariadenia-2/`
+    - Nabíjačky pre mobily — 103 / 103 — `/nabijacky-pre-mobily/`
+    - Nositeľná elektronika — 197 / 197 — `/nositelna-elektronika-2/`
+    - Notebooky — 36 / 36 — `/notebooky-2/`
+    - PC periférie — 66 / 66 — `/pc-periferie-2/`
+    - Pamäťové médiá — 7 / 91 — `/pamatove-media-2/`
+        - Externé disky — 27 / 27 — `/externe-disky-2/`
+        - Pamäťové karty — 35 / 35 — `/pamatove-karty-6/`
+        - USB kľúče — 22 / 22 — `/usb-kluce/`
+    - Predlžovacie a rozbočovacie zásuvky k PC — 12 / 12 — `/predlzovacie-a-rozbocovacie-zasuvky/`
+    - Prenosné monitory — 68 / 68 — `/prenosne-monitory-2/`
+    - Príslušenstvo k notebookom — 17 / 17 — `/prislusenstvo-k-notebookom-2/`
+    - Puzdrá, sklá a príslušenstvo pre mobily — 269 / 789 — `/prislusenstvo-pre-mobilne-telefony/`
+        - Držiaky na mobily — 30 / 30 — `/drziaky-na-mobily/`
+        - Powerbanky — 46 / 46 — `/powerbanky/`
+        - Puzdrá na mobilné telefóny — 312 / 312 — `/puzdra-na-mobily/`
+        - Tvrdené sklá a fólie — 132 / 132 — `/tvrdene-skla/`
+    - Rackové skrine – príslušenstvo — 15 / 15 — `/rackove-skrine-a-prislusenstvo-2/`
+    - Selfie tyče a statívy pre telefóny — 31 / 31 — `/selfie-tyce-4/`
+    - Smart telefóny — 171 / 171 — `/smart-telefony-2/`
+    - Tablety — 90 / 90 — `/tablety-4/`
+    - Tlačiarne, skenery a spotrebný materiál — 226 / 226 — `/tlaciarne-a-skenery-2/`
+    - Tlačidlové telefóny — 10 / 10 — `/tlacidlove-telefony/`
+    - USB káble — 66 / 66 — `/usb-kable-4/`
+    - Webkamery — 40 / 40 — `/webkamery-3/`
+    - WiFi routery a sieťové karty — 129 / 129 — `/sietove-prvky-2/`
+    - Čítačky pamäťových kariet — 0 / 0 — `/citacky-kariet-2/`
+- **Profesionálna audio technika** — 54 / 2234 — `/profesionalna-audio-technika/`
+    - 100 V rozhlasové ozvučenie — 453 / 453 — `/100v-rozhlasove-ozvucenie/`
+    - Car audio — 12 / 12 — `/car-audio/`
+    - Hudobné nástroje a príslušenstvo — 86 / 86 — `/hudobne-nastroje-a-prislusenstvo/`
+    - Káble, konektory a redukcie — 246 / 246 — `/kable--konektory-a-redukcie/`
+    - Mikrofóny a bezdrôtové systémy — 43 / 43 — `/mikrofony-a-bezdrotove-systemy/`
+    - Multi-room ozvučenie — 5 / 5 — `/multi-room-ozvucenie/`
+    - PA reproduktory — 236 / 236 — `/pa-reproduktory/`
+    - Pódium, diskotéka, DJ — 813 / 813 — `/podium--diskoteka--dj/`
+    - Svetlá pre DJ a diskotéky — 167 / 167 — `/svetla-2/`
+    - Súčiastky, meracia technika a DIY pre audio — 77 / 77 — `/suciastky-a-diy-pre-audio/`
+    - Tlmočnícke a konferenčné systémy — 42 / 42 — `/tlmocnicke--sprievodcovske-a-konferencne-systemy/`
+- **TV, audio, video a foto technika** — 0 / 4215 — `/tv-foto-audio-video/`
+    - AV káble — 95 / 95 — `/av-kable/`
+    - Antény a satelity — 734 / 746 — `/anteny-a-satelity/`
+        - Antény — 12 / 12 — `/anteny/`
+        - Koaxiálne káble a konektory — 0 / 0 — `/koaxialne-kable/`
+        - LNB konvertory — 0 / 0 — `/lnb-konvertory/`
+        - Napájacie zdroje a výhybky — 0 / 0 — `/zdroje-a-vyhybky/`
+        - Pasívne prvky a rozbočovače — 0 / 0 — `/pasivne-prvky/`
+        - Satelitné paraboly — 0 / 0 — `/paraboly/`
+        - Satelitné prijímače a set-top boxy — 0 / 0 — `/satelitne-prijimace/`
+        - Satelitné príslušenstvo — 0 / 0 — `/satelitne-prislusenstvo/`
+        - Stožiare, konzoly a uzemnenie — 0 / 0 — `/stoziare-konzoly-a-uzemnenie/`
+        - Zosilňovače — 0 / 0 — `/zosilnovace/`
+        - Účastnícke zásuvky — 0 / 0 — `/ucastnicke-zasuvky/`
+    - Audio technika — 507 / 1117 — `/audio-technika/`
+        - HiFi a domáce reproduktory — 210 / 210 — `/hifi-a-domace-reproduktory/`
+        - Rádiá — 80 / 80 — `/radia/`
+        - Slúchadlá — 36 / 277 — `/sluchadla/`
+            - Bezdrôtové slúchadlá — 191 / 191 — `/bezdrotove-sluchadla/`
+            - Drôtové slúchadlá — 50 / 50 — `/drotove-sluchadla/`
+        - Soundbary — 43 / 43 — `/soundbary/`
+    - Diaľkové ovládače — 8 / 986 — `/dialkove-ovladace/`
+        - Audio ovládače — 0 / 0 — `/audio-ovladace/`
+            - AIWA — 0 / 0 — `/audio-ovladace-aiwa/`
+            - Panasonic — 0 / 0 — `/audio-ovladace-panasonic/`
+            - Philips — 0 / 0 — `/audio-ovladace-philips/`
+            - TechniSat — 0 / 0 — `/audio-ovladace-technisat/`
+        - DVD ovládače — 0 / 0 — `/dvd-ovladace/`
+            - Denon — 0 / 0 — `/dvd-ovladace-denon/`
+            - LG — 0 / 0 — `/dvd-ovladace-lg/`
+            - Philips — 0 / 0 — `/dvd-ovladace-philips/`
+            - Samsung — 0 / 0 — `/dvd-ovladace-samsung/`
+            - Sharp — 0 / 0 — `/dvd-ovladace-sharp/`
+            - Sony — 0 / 0 — `/dvd-ovladace-sony/`
+            - Technics — 0 / 0 — `/dvd-ovladace-technics/`
+        - Ovládače k DVB-T2 — 0 / 0 — `/ovladace-k-dvb-t2/`
+            - AB — 0 / 0 — `/dvbt2-ovladace-ab/`
+            - Alma — 0 / 0 — `/dvbt2-ovladace-alma/`
+            - Amiko — 0 / 0 — `/dvbt2-ovladace-amiko/`
+            - Cabletech — 0 / 0 — `/dvbt2-ovladace-cabletech/`
+            - DIWAY — 0 / 0 — `/dvbt2-ovladace-diway/`
+            - Dreambox — 0 / 0 — `/dvbt2-ovladace-dreambox/`
+            - Edision — 0 / 0 — `/dvbt2-ovladace-edision/`
+            - Emos — 0 / 0 — `/dvbt2-ovladace-emos/`
+            - Evolve — 0 / 0 — `/dvbt2-ovladace-evolve/`
+            - Ferguson — 0 / 0 — `/dvbt2-ovladace-ferguson/`
+            - Fte — 0 / 0 — `/dvbt2-ovladace-fte/`
+            - Fuba — 0 / 0 — `/dvbt2-ovladace-fuba/`
+            - GoGEN — 0 / 0 — `/dvbt2-ovladace-gogen/`
+            - GoSAT — 0 / 0 — `/dvbt2-ovladace-gosat/`
+            - Golden Media — 0 / 0 — `/dvbt2-ovladace-golden-media/`
+            - Humax — 0 / 0 — `/dvbt2-ovladace-humax/`
+            - Hyundai — 0 / 0 — `/dvbt2-ovladace-hyundai/`
+            - Mascom — 0 / 0 — `/dvbt2-ovladace-mascom/`
+            - Maxxo — 0 / 0 — `/dvbt2-ovladace-maxxo/`
+            - Medialink — 0 / 0 — `/dvbt2-ovladace-medialink/`
+            - New Digital — 0 / 0 — `/dvbt2-ovladace-new-digital/`
+            - Optex — 0 / 0 — `/dvbt2-ovladace-optex/`
+            - Opticum — 0 / 0 — `/dvbt2-ovladace-opticum/`
+            - Philips — 0 / 0 — `/dvbt2-ovladace-philips/`
+            - Sencor — 0 / 0 — `/dvbt2-ovladace-sencor/`
+            - Skyworth — 0 / 0 — `/dvbt2-ovladace-skyworth/`
+            - Solight — 0 / 0 — `/dvbt2-ovladace-solight/`
+            - Strong — 0 / 0 — `/dvbt2-ovladace-strong/`
+            - Technisat — 0 / 0 — `/dvbt2-ovladace-technisat/`
+            - Telesystem — 0 / 0 — `/dvbt2-ovladace-telesystem/`
+            - Tesla — 0 / 0 — `/dvbt2-ovladace-tesla/`
+            - Thomson — 0 / 0 — `/dvbt2-ovladace-thomson/`
+            - Wiwa — 0 / 0 — `/dvbt2-ovladace-wiwa/`
+            - Zircon — 0 / 0 — `/dvbt2-ovladace-zircon/`
+        - Satelitné ovládače — 0 / 0 — `/satelitne-ovladace/`
+            - AB — 0 / 0 — `/sat-ovladace-ab/`
+            - ATlink — 0 / 0 — `/sat-ovladace-atlink/`
+            - AZBox — 0 / 0 — `/sat-ovladace-azbox/`
+            - Allbox — 0 / 0 — `/sat-ovladace-allbox/`
+            - Alma — 0 / 0 — `/sat-ovladace-alma/`
+            - Amiko — 0 / 0 — `/sat-ovladace-amiko/`
+            - Apebox — 0 / 0 — `/sat-ovladace-apebox/`
+            - Bensat — 0 / 0 — `/sat-ovladace-bensat/`
+            - DIWAY — 0 / 0 — `/sat-ovladace-diway/`
+            - Dizipia — 0 / 0 — `/sat-ovladace-dizipia/`
+            - Dreambox — 0 / 0 — `/sat-ovladace-dreambox/`
+            - Dreamsky — 0 / 0 — `/sat-ovladace-dreamsky/`
+            - Edision — 0 / 0 — `/sat-ovladace-edision/`
+            - Evolve — 0 / 0 — `/sat-ovladace-evolve/`
+            - Ferguson — 0 / 0 — `/sat-ovladace-ferguson/`
+            - Formuler — 0 / 0 — `/sat-ovladace-formuler/`
+            - Globo — 0 / 0 — `/sat-ovladace-globo/`
+            - GoSat — 0 / 0 — `/sat-ovladace-gosat/`
+            - Golden Interstar — 0 / 0 — `/sat-ovladace-golden-interstar/`
+            - HD-BOX — 0 / 0 — `/sat-ovladace-hd-box/`
+            - Homecast — 0 / 0 — `/sat-ovladace-homecast/`
+            - Humax — 0 / 0 — `/sat-ovladace-humax/`
+            - Ineos — 0 / 0 — `/sat-ovladace-ineos/`
+            - Inetbox — 0 / 0 — `/sat-ovladace-inetbox/`
+            - Kaon — 0 / 0 — `/sat-ovladace-kaon/`
+            - LinkBox — 0 / 0 — `/sat-ovladace-linkbox/`
+            - Mascom — 0 / 0 — `/sat-ovladace-mascom/`
+            - Medialink — 0 / 0 — `/sat-ovladace-medialink/`
+            - Multibox — 0 / 0 — `/sat-ovladace-multibox/`
+            - Octagon — 0 / 0 — `/sat-ovladace-octagon/`
+            - Openbox — 0 / 0 — `/sat-ovladace-openbox/`
+            - Opensat — 0 / 0 — `/sat-ovladace-opensat/`
+            - Optibox — 0 / 0 — `/sat-ovladace-optibox/`
+            - Opticum — 0 / 0 — `/sat-ovladace-opticum/`
+            - Polygon — 0 / 0 — `/sat-ovladace-polygon/`
+            - Samsung — 0 / 0 — `/sat-ovladace-samsung/`
+            - SatElita — 0 / 0 — `/sat-ovladace-satelita/`
+            - Showbox — 0 / 0 — `/sat-ovladace-showbox/`
+            - Skytec — 0 / 0 — `/sat-ovladace-skytec/`
+            - Smart — 0 / 0 — `/sat-ovladace-smart/`
+            - Strong — 0 / 0 — `/sat-ovladace-strong/`
+            - Synaps — 0 / 0 — `/sat-ovladace-synaps/`
+            - Technisat — 0 / 0 — `/sat-ovladace-technisat/`
+            - Tesla — 0 / 0 — `/sat-ovladace-tesla/`
+            - Thomson — 0 / 0 — `/sat-ovladace-thomson/`
+            - Topfield — 0 / 0 — `/sat-ovladace-topfield/`
+            - Vantage — 0 / 0 — `/sat-ovladace-vantage/`
+            - Vu+ — 0 / 0 — `/sat-ovladace-vu/`
+            - Zgemma — 0 / 0 — `/sat-ovladace-zgemma/`
+            - Zircon — 0 / 0 — `/sat-ovladace-zircon/`
+        - Televízne ovládače — 0 / 0 — `/televizne-ovladace/`
+            - BEKO — 0 / 0 — `/tv-ovladace-beko/`
+            - CHiQ — 0 / 0 — `/tv-ovladace-chiq/`
+            - Changhong — 0 / 0 — `/tv-ovladace-changhong/`
+            - Daewoo — 0 / 0 — `/tv-ovladace-daewoo/`
+            - ECG — 0 / 0 — `/tv-ovladace-ecg/`
+            - Finlux — 0 / 0 — `/tv-ovladace-finlux/`
+            - GoSat — 0 / 0 — `/tv-ovladace-gosat/`
+            - Gogen — 0 / 0 — `/tv-ovladace-gogen/`
+            - Grundig — 0 / 0 — `/tv-ovladace-grundig/`
+            - Hisense — 0 / 0 — `/tv-ovladace-hisense/`
+            - Hitachi — 0 / 0 — `/tv-ovladace-hitachi/`
+            - Hyundai — 0 / 0 — `/tv-ovladace-hyundai/`
+            - JVC — 0 / 0 — `/tv-ovladace-jvc/`
+            - Kruger & Matz — 0 / 0 — `/tv-ovladace-kruger-matz/`
+            - LG — 0 / 0 — `/tv-ovladace-lg/`
+            - Luxtronic — 0 / 0 — `/tv-ovladace-luxtronic/`
+            - OVP — 0 / 0 — `/tv-ovladace-ovp/`
+            - Orava — 0 / 0 — `/tv-ovladace-orava/`
+            - Panasonic — 0 / 0 — `/tv-ovladace-panasonic/`
+            - Philips — 0 / 0 — `/tv-ovladace-philips/`
+            - Samsung — 0 / 0 — `/tv-ovladace-samsung/`
+            - Sencor — 0 / 0 — `/tv-ovladace-sencor/`
+            - Sharp — 0 / 0 — `/tv-ovladace-sharp/`
+            - Sony — 0 / 0 — `/tv-ovladace-sony/`
+            - TCL — 0 / 0 — `/tv-ovladace-tcl/`
+            - Technika — 0 / 0 — `/tv-ovladace-technika/`
+            - Telefunken — 0 / 0 — `/tv-ovladace-telefunken/`
+            - Thomson — 0 / 0 — `/tv-ovladace-thomson/`
+            - Toshiba — 0 / 0 — `/tv-ovladace-toshiba/`
+            - Vestel — 0 / 0 — `/tv-ovladace-vestel/`
+        - Univerzálne ovládače — 978 / 978 — `/univerzalne-ovladace/`
+            - LG — 0 / 0 — `/uni-ovladace-lg/`
+            - PHILIPS — 0 / 0 — `/uni-ovladace-philips/`
+            - Panasonic — 0 / 0 — `/uni-ovladace-panasonic/`
+            - Programovateľné — 0 / 0 — `/uni-ovladace-programovatelne/`
+            - SONY — 0 / 0 — `/uni-ovladace-sony/`
+            - Samsung — 0 / 0 — `/uni-ovladace-samsung/`
+            - Sharp — 0 / 0 — `/uni-ovladace-sharp/`
+            - Toshiba — 0 / 0 — `/uni-ovladace-toshiba/`
+        - Video ovládače — 0 / 0 — `/video-ovladace/`
+    - Foto a príslušenstvo — 11 / 914 — `/foto-a-prislusenstvo/`
+        - Digitálne kompakty — 8 / 8 — `/digitalne-kompakty/`
+        - Filtre — 93 / 93 — `/filtre-2/`
+        - Fotoateliér — 150 / 150 — `/fotoatelier-2/`
+        - Fotopasce — 16 / 16 — `/fotopasce-2/`
+        - Gimbály a stabilizátory — 46 / 46 — `/gimbaly-a-stabilizatory-2/`
+        - Príslušenstvo pre fotoaparáty a akčné kamery — 359 / 359 — `/prislusenstvo-pre-fotoaparaty-a-akcne-kamery/`
+        - Skladovanie a preprava — 39 / 39 — `/skladovanie-a-preprava-2/`
+        - Statívy, držiaky a upevnenie pre kamery — 181 / 181 — `/stativy-drziaky-a-upevnenie/`
+        - Súpravy príslušenstva pre akčné kamery — 11 / 11 — `/supravy-prislusenstva-pre-akcne-kamery/`
+    - Projektory — 61 / 61 — `/projektory-4/`
+    - Príslušenstvo k TV, audio a video technike — 33 / 33 — `/prislusenstvo-k-tv--audio--video/`
+    - TV stolíky a držiaky — 82 / 82 — `/tv-stoliky-a-drziaky/`
+    - Televízory — 146 / 146 — `/televizory/`
+    - Video technika — 35 / 35 — `/video-technika/`
+- **Zdravie a starostlivosť** — 1 / 537 — `/zdravie-a-starostlivost/`
+    - Holiace strojčeky a epilátory — 42 / 42 — `/holiace-strojceky/`
+    - Matka a dieťa — 14 / 14 — `/matka-a-dieta/`
+    - Monitorovanie dieťaťa — 11 / 11 — `/monitorovanie-dietata/`
+    - Osobné váhy — 36 / 36 — `/osobne-vahy/`
+    - Otoskopy a prístroje na čistenie pokožky — 12 / 12 — `/otoskopy/`
+    - Prístroje na tvár — 20 / 20 — `/pristroje-na-tvar/`
+    - Starostlivosť o vlasy — 227 / 227 — `/starostlivost-o-vlasy/`
+    - Starostlivosť o zdravie — 36 / 36 — `/starostlivost-o-zdravie/`
+    - Starostlivosť o zuby — 138 / 138 — `/starostlivost-o-zuby/`
