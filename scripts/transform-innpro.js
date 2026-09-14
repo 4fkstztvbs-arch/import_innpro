@@ -246,6 +246,12 @@ async function main() {
   const anomalies = [];
 
   const minOdbery = [];
+  // Podklad na overenie, odkiaľ sa berie "Skladom". InnPro posiela v light.xml aj
+  // quantity="-1"; skript to odjakživa chápe ako "neobmedzený sklad" a produkt vyhlási za
+  // skladom, hoci to dodávateľ môže myslieť inak (u 071558 Neakasa P2 PRO má InnPro vo svojom
+  // systéme 0 ks a najbližšie naskladnenie 17. 11., u nás je pritom Skladom). Domnienku sa nedá
+  // overiť lokálne — feed je za prihlásením — takže sa surové hodnoty zapíšu do reportu.
+  const sklad = [];
   const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedUnavailable: 0, fromLight: 0 };
   const candidates = [];
 
@@ -287,6 +293,10 @@ async function main() {
     else if (p.nextDeliveryDate) availability = `Dostupné od ${p.nextDeliveryDate}`;
     else availability = OUT_OF_STOCK_TEXT;
 
+    sklad.push({ code: productCode, name: p.name, light: !!lightEntry,
+      lightStock: lightEntry ? lightEntry.stock : null, infinite: stockInfinite,
+      fullStock: p.stock, dalsiaDodavka: p.nextDeliveryDate || '', availability });
+
     if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable++; return; }
 
     let description = p.longDesc;
@@ -326,6 +336,8 @@ async function main() {
         vat: p.vat,
         seoTitle,
         metaDescription,
+        minOrderRetail: p.minOrderRetail,
+        minOrderWholesale: p.minOrderWholesale,
       },
     });
   });
@@ -351,9 +363,12 @@ async function main() {
       continue;
     }
     out.write(buildShopitemXml(c.shopitemData) + '\n');
-    if (p.minOrderRetail > 1 || p.minOrderWholesale > 1) {
-      minOdbery.push({ code: p.codeOnCard || p.id, name: p.name,
-        retail: p.minOrderRetail, wholesale: p.minOrderWholesale });
+    // Zámerne `c.shopitemData`, nie `p`: `p` je premenná callbacku streamProducts a tu už nie je
+    // v dosahu — pôvodné znenie by na prvom zapísanom produkte spadlo na ReferenceError.
+    const d = c.shopitemData;
+    if (d.minOrderRetail > 1 || d.minOrderWholesale > 1) {
+      minOdbery.push({ code: c.code, name: c.name,
+        retail: d.minOrderRetail, wholesale: d.minOrderWholesale });
     }
     stats.written++;
   }
@@ -380,6 +395,39 @@ async function main() {
       r.join('\n') + '\n');
     console.log(`  -> ${minOdbery.length} produktov s minimálnym odberom > 1, `
       + 'report: reports/minimalny-odber-innpro.md');
+  }
+
+  // Skladový prehľad — z čoho vzniklo "Skladom". Do reportu idú len zaujímavé prípady:
+  // quantity="-1" (vyhlásené za neobmedzený sklad) a produkty s uvedeným ďalším naskladnením.
+  {
+    const nekonecne = sklad.filter((s) => s.infinite);
+    const sDodavkou = sklad.filter((s) => s.dalsiaDodavka);
+    const r = ['# Sklad — InnPro', '',
+      `Kontrola z ${new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC.`, '',
+      `Produktov v full.xml: **${sklad.length}**, z toho `
+      + `${sklad.filter((s) => s.light).length} má záznam aj v light.xml.`,
+      `Dostupnosť: Skladom ${sklad.filter((s) => s.availability === 'Skladom').length}, `
+      + `ostatné ${sklad.filter((s) => s.availability !== 'Skladom').length} `
+      + '(tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).', '',
+      `## quantity="-1" — ${nekonecne.length} produktov`, '',
+      'Tieto sú vyhlásené za skladom bez ohľadu na skutočné množstvo. Ak tu je tovar, ktorý',
+      'InnPro vo svojom systéme vedie ako 0 ks, znamená to, že `-1` neznamená neobmedzený sklad',
+      'a podmienka v transform-innpro.js sa musí zmeniť.', '',
+      '| Kód | Produkt | light stock | full stock | Ďalšia dodávka |', '|---|---|---:|---:|---|'];
+    for (const s of nekonecne.slice(0, 300)) {
+      r.push(`| \`${s.code}\` | ${s.name.slice(0, 55)} | ${s.lightStock} | ${s.fullStock} `
+        + `| ${s.dalsiaDodavka || '—'} |`);
+    }
+    r.push('', `## S uvedeným ďalším naskladnením — ${sDodavkou.length} produktov`, '',
+      '| Kód | Produkt | Dostupnosť u nás | light stock | Ďalšia dodávka |',
+      '|---|---|---|---:|---|');
+    for (const s of sDodavkou.slice(0, 300)) {
+      r.push(`| \`${s.code}\` | ${s.name.slice(0, 55)} | ${s.availability} | ${s.lightStock} `
+        + `| ${s.dalsiaDodavka} |`);
+    }
+    fs.writeFileSync(path.join(__dirname, '..', 'reports', 'sklad-innpro.md'), r.join('\n') + '\n');
+    console.log(`  -> sklad: ${nekonecne.length} s quantity="-1", ${sDodavkou.length} s ďalšou `
+      + 'dodávkou, report: reports/sklad-innpro.md');
   }
 
   const categoryReport = zaradovac.zapisReport();
