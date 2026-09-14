@@ -17,8 +17,15 @@
 const fs = require('fs');
 const path = require('path');
 
-const XML_PATH = process.argv.find((a) => a.startsWith('--xml='))?.slice('--xml='.length) ||
-  path.join(__dirname, '..', 'output', 'atos.xml');
+// Bez --xml sa spracujú VŠETKY output/*.xml. Je to tak zámerne: collapse-thin-categories.js a
+// enforce-tree-categories.js prepisujú kategórie vo všetkých feedoch, nielen v tom práve
+// transformovanom, takže keby sa odkazy dopĺňali len do jedného, ostatné by zostali s odkazom na
+// kategóriu, v ktorej produkt už nie je. Presne tak 14. 9. 2026 spadol nočný beh MONACOR-u na
+// jednom produkte Penty, ktorému medzitým collapse-thin zmenil kategóriu.
+const OUT_DIR = path.join(__dirname, '..', 'output');
+const ARG_XML = process.argv.find((a) => a.startsWith('--xml='))?.slice('--xml='.length);
+const XML_PATHS = ARG_XML ? [ARG_XML]
+  : fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml')).sort().map((f) => path.join(OUT_DIR, f));
 const URL_MAP_PATH = path.join(__dirname, '..', 'data', 'category-urls.json');
 
 const CATEGORY_URLS = JSON.parse(fs.readFileSync(URL_MAP_PATH, 'utf-8'));
@@ -36,7 +43,7 @@ function escapeHtml(s) {
 const EXISTING_LINK = /\s*<p>Ďalšie produkty nájdete v kategórii <a href="[^"]*">[^<]*<\/a>\.<\/p>/g;
 
 
-function main() {
+function main(XML_PATH) {
   const xml = fs.readFileSync(XML_PATH, 'utf-8');
   const items = xml.split('<SHOPITEM>');
   const head = items.shift();
@@ -85,4 +92,4 @@ function main() {
     + `odstránený: ${removed}, už mal správny: ${alreadyHad}, bez zhody/neznáma kategória: ${noMatch}`);
 }
 
-main();
+for (const p of XML_PATHS) main(p);

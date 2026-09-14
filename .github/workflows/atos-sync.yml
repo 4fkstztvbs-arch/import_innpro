@@ -84,7 +84,7 @@ jobs:
         run: node scripts/hide-uncategorised-products.js
 
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
-        run: node scripts/add-category-links.js --xml=output/atos.xml
+        run: node scripts/add-category-links.js
 
       - name: Kontrola odkazov na kategórie
         run: node scripts/check-category-links.js
