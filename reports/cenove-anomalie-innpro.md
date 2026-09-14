@@ -39,5 +39,21 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 088510 | 6937224140639 | Osmo Action 5 Pro – fotografovanie na ulici, držadlo, príslušenstvo, K | nulová/neplatná cena |  | 0.00 € |  |  |
 | 074889 | 6934915204465 | Súprava pre konštantný napájací zdroj OBD radu DDPAI Z60 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 7.70 € | 103.90 € | 13.5x | 13 |
+| 041480 | 6975069301389 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX | cena mimo 8x rozsah mediánu kategórie | 22.00 € | 311.50 € | 14.2x | 29 |
+| 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 31.00 € | 1.30 € | 1/23.8x | 19 |
+| 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 31.00 € | 1.00 € | 1/31.0x | 19 |
+| 056065 | 6975069301778 | Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX Pro | cena mimo 8x rozsah mediánu kategórie | 22.00 € | 327.50 € | 14.9x | 29 |
+| 071141 | 6975069305523 | Inteligentná samočistiaca búda PetKit Purobot ULTRA s AI kamerou pre mačky | cena mimo 8x rozsah mediánu kategórie | 47.45 € | 895.50 € | 18.9x | 24 |
+| 071188 | 6975069305028 | PetKit Pura MAX 2 PREMIUM inteligentný samočistiaci box pre mačky | cena mimo 8x rozsah mediánu kategórie | 47.45 € | 525.50 € | 11.1x | 24 |
+| 074749 | 6977728941431 | Cestovný batoh MOVA PB10 Pro Pet | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 109.90 € | 9.6x | 15 |
+| 080703 | 6977728947884 | Inteligentný samočistiaci box pre mačky MOVA LR10 Prime (biely) | cena mimo 8x rozsah mediánu kategórie | 47.45 € | 599.00 € | 12.6x | 24 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
+| 085498 | 6977641140072 | Vaša fréza MAKERA Carvera CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 6680.00 € | 28.4x | 9 |
+| 085499 | 6977641142496 | Vaša fréza MAKERA Carvera Air CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 3067.50 € | 13.1x | 9 |
+| 085503 | 6977641140423 | Základné panely MAKERA Carvera Air z MDF s hrúbkou 2 mm (5 ks) | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 23.90 € | 1/9.8x | 9 |
+| 081911 | 6975069306278 | Purobot Max Pro 2 Petkit Automatická samočistiaca toaleta pre domáce zvieratá | cena mimo 8x rozsah mediánu kategórie | 47.45 € | 573.00 € | 12.1x | 24 |
+| 088092 | 786156005877 | Detektor kovov GARRETT Ace Apex 8,5x11+MS-3 | cena mimo 8x rozsah mediánu kategórie | 57.20 € | 515.00 € | 9.0x | 14 |
+| 088094 | 786156004023 | Detektor kovov GARRETT AT Gold 5x8 | cena mimo 8x rozsah mediánu kategórie | 57.20 € | 736.50 € | 12.9x | 14 |
+| 088095 | 786156005242 | GARRETT AT Max 8,5 x 11" INTL – detektor kovov | cena mimo 8x rozsah mediánu kategórie | 57.20 € | 729.90 € | 12.8x | 14 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
