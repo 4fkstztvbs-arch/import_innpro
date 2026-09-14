@@ -180,7 +180,12 @@ function buildShopitemXml(p) {
   // bez tejto informácie si zákazník objedná 1 ks, ktorý sa nedá od dodávateľa kúpiť samostatne.
   // MINIMAL_AMOUNT je voliteľný element dodávateľskej schémy Shoptetu (products-supplier-v10.rng,
   // overené 14. 9. 2026); SHOPITEM má deti v <interleave>, takže na poradí nezáleží.
-  if (p.minOrderRetail > 1) parts.push(`<MINIMAL_AMOUNT>${p.minOrderRetail}</MINIMAL_AMOUNT>`);
+  // Berie sa VÄČŠIE z oboch miním. Overené na feede zo 14. 9. 2026: zo 401 produktov s
+  // minimálnym odberom nemá maloobchodné minimum ANI JEDEN — InnPro ho uvádza len ako
+  // veľkoobchodné, a práve to je to naše, lebo od nich nakupujeme veľkoobchodne. Pôvodné
+  // znenie čítalo maloobchodné, takže MINIMAL_AMOUNT by sa nezapísalo nikomu.
+  const minOrder = Math.max(p.minOrderRetail || 0, p.minOrderWholesale || 0);
+  if (minOrder > 1) parts.push(`<MINIMAL_AMOUNT>${minOrder}</MINIMAL_AMOUNT>`);
   parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
   if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
 
@@ -386,7 +391,7 @@ async function main() {
     const r = ['# Minimálny odber — InnPro', '',
       `Kontrola z ${new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC.`, '',
       `InnPro pri **${minOdbery.length}** produktoch uvádza minimálny odber väčší než 1 kus.`,
-      'Do XML sa zapisuje maloobchodné minimum ako `<MINIMAL_AMOUNT>`.', '',
+      'Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.', '',
       '| Kód | Produkt | Maloobchodné | Veľkoobchodné |', '|---|---|---:|---:|'];
     for (const m of minOdbery.sort((a, b) => b.retail - a.retail)) {
       r.push(`| \`${m.code}\` | ${m.name.slice(0, 60)} | ${m.retail || '—'} | ${m.wholesale || '—'} |`);
@@ -426,6 +431,16 @@ async function main() {
         + `| ${s.dalsiaDodavka} |`);
     }
     fs.writeFileSync(path.join(__dirname, '..', 'reports', 'sklad-innpro.md'), r.join('\n') + '\n');
+    // Markdown je len prehľad a je orezaný; CSV má všetky produkty, aby sa dal dohľadať
+    // konkrétny kód, keď zákazník nahlási nesedelo skladu.
+    const csv = ['kod;nazov;light;light_stock;nekonecny;full_stock;dalsia_dodavka;dostupnost'];
+    for (const s of sklad) {
+      csv.push([s.code, String(s.name).replace(/[;\r\n]/g, ' '), s.light ? 1 : 0,
+        s.lightStock === null ? '' : s.lightStock, s.infinite ? 1 : 0, s.fullStock,
+        s.dalsiaDodavka, s.availability].join(';'));
+    }
+    fs.writeFileSync(path.join(__dirname, '..', 'reports', 'sklad-innpro.csv'),
+      csv.join('\n') + '\n');
     console.log(`  -> sklad: ${nekonecne.length} s quantity="-1", ${sDodavkou.length} s ďalšou `
       + 'dodávkou, report: reports/sklad-innpro.md');
   }
