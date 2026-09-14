@@ -1,34 +1,11 @@
 {
-  "fetchedAt": "2026-09-10T19:33:01.491Z",
+  "fetchedAt": "2026-09-14T10:19:31.307Z",
   "domain": "heureka.sk",
-  "productCount": 7,
-  "matchedProductCount": 5,
+  "productCount": 6,
+  "matchedProductCount": 4,
   "unmatchedEanCount": 0,
   "noEanCount": 2,
   "products": [
-    {
-      "ean": "6976297861263",
-      "heurekaProductName": "Cyklocomputer Cycplus M3 - kompatibilný s: Strava, Trainingpeaks atď.",
-      "heurekaUrl": "https://www.premiumstore.sk/cyklocomputer-cycplus-m3-kompatibilny-s--strava--trainingpeaks-atd-/",
-      "ourName": "Cyklocomputer Cycplus M3 - kompatibilný s: Strava, Trainingpeaks atď.",
-      "ourCode": "082886",
-      "ourSource": "innpro.xml",
-      "reviewCount": 1,
-      "avgRating": 5,
-      "reviews": [
-        {
-          "ratingId": "6917472",
-          "orderId": "",
-          "author": "",
-          "rating": 5,
-          "pros": "",
-          "cons": "",
-          "summary": "",
-          "reaction": "",
-          "unixTimestamp": 1788951642
-        }
-      ]
-    },
     {
       "ean": "8698902064705",
       "heurekaProductName": "FINLUX 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
