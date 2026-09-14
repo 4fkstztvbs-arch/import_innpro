@@ -125,10 +125,14 @@
     var phoneDigits = SUPPORT_PHONE.replace(/\s+/g, '');
     return (
       '<div class="ps-header-support' + (extraClass ? ' ' + extraClass : '') + '">' +
-        '<div class="ps-header-avatar">PS</div>' +
+        '<div class="ps-header-avatar"><img src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/support-person.jpg" alt="" width="56" height="56"></div>' +
         '<div class="ps-header-support-text">' +
-          '<a href="tel:' + phoneDigits + '">' + phoneDigits + '</a>' +
+          '<a href="tel:' + phoneDigits + '">' + SUPPORT_PHONE + '</a>' +
           '<span class="ps-header-support-hours">Po–Pia 9:00–17:00</span>' +
+        '</div>' +
+        '<div class="ps-header-support-text">' +
+          '<a href="mailto:obchod@premiumstore.sk">obchod@premiumstore.sk</a>' +
+          '<span class="ps-header-support-hours">Odpovieme čo najskôr</span>' +
         '</div>' +
       '</div>'
     );
