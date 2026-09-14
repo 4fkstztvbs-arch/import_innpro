@@ -59,6 +59,10 @@ jobs:
       - name: Skryť produkty bez kategórie
         run: node scripts/hide-uncategorised-products.js
 
+      # Nesmieme predávať pod nákupnú cenu. Beží až za všetkými krokmi, ktoré menia cenu.
+      - name: Skryť produkty pod nákupnou cenou
+        run: node scripts/hide-below-cost-products.js
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js
 

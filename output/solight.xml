@@ -46209,8 +46209,8 @@ Kompatibilita: <b>HD01, HD02, HD03, HD04, HD08, HD07, HD15</b><br>
   <IMAGE description="Solight tryska na vyhladzovanie vlasov pre Dyson Supersonic - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyhd08fqz_4.jpg?v2</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>2.80</PRICE_VAT>

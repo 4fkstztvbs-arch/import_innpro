@@ -32,6 +32,10 @@ jobs:
         env:
           HEUREKA_PRICE_OVERRIDE: '1'
 
+      # Heureka cena ma marzove dno, ale poistka ma stat za kazdym, kto cenu meni.
+      - name: Skryť produkty pod nákupnou cenou
+        run: node scripts/hide-below-cost-products.js
+
       - name: Poistka proti useknutému feedu
         run: node scripts/check-feed-size.js
 
