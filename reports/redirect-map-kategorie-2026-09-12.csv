@@ -185,7 +185,6 @@
 /predlzovacie-kable-a-zasuvky/;/elektro-smart-home-a-osvetlenie/;ancestor(-1);Elektroinštalačný materiál > Predlžovacie káble a zásuvky;Elektro, Smart Home a osvetlenie;47610
 /casove-spinace-2/;/elektromery-a-spinacie-technika/;exact;Elektroinštalačný materiál > Časové spínače;Elektro, Smart Home a osvetlenie > Elektromery a spínacia technika;47634
 /elektromery-2/;/elektro-smart-home-a-osvetlenie/;ancestor(-1);Elektroinštalačný materiál > Elektromery;Elektro, Smart Home a osvetlenie;47856
-/led-ziarovky/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED Žiarovky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;39723
 /ostatne-ziarovky-a-ziarivky/;/osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > Ostatné žiarovky a žiarivky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;40302
 /svietidla/;/osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > Svietidlá;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;40407
 /zasuvky/;/osvetlenie/;ancestor(-1);Elektroinštalačný materiál > Osvetlenie > Zásuvky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;40446
@@ -196,7 +195,6 @@
 /led-svietidla/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED svietidlá;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;41520
 /zahradne-svietidla-2/;/osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > Záhradné svietidlá;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;41556
 /ziarovky/;/osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > Žiarovky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;42177
-/led-reflektory/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED reflektory;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;43476
 /led-pasky/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED pásky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;43908
 /led-sviecky/;/osvetlenie/;ancestor(-1);Elektroinštalačný materiál > Osvetlenie > LED sviečky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;43938
 /stojace-lampy/;/osvetlenie/;ancestor(-1);Elektroinštalačný materiál > Osvetlenie > Stojace lampy;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá;44289
@@ -378,7 +376,6 @@
 /kamery/;/smart-domacnost/;ancestor(-2);Bezpečnosť a smart domácnosť > Smart domácnosť > Smart zabezpečenie > Kamery;Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia;40128
 /detektor-pohybu/;/smart-domacnost/;ancestor(-2);Bezpečnosť a smart domácnosť > Smart domácnosť > Smart zabezpečenie > Detektor pohybu;Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia;40662
 /smart-senzory/;/smart-domacnost/;ancestor(-2);Bezpečnosť a smart domácnosť > Smart domácnosť > Smart zabezpečenie > Smart senzory;Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia;40791
-/kluce/;/sady-naradia/;ancestor(-1);Náradie a dielňa > Náradie > Ručné náradie > Kľúče;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia;40173
 /zveraky-a-svorky/;/sady-naradia/;ancestor(-1);Náradie a dielňa > Náradie > Ručné náradie > Zveráky a svorky;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia;40230
 /sady-naradie/;/sady-naradia/;ancestor(-1);Náradie a dielňa > Náradie > Ručné náradie > Sady náradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia;40545
 /bity-sety-sa-skrutkovacom-alebo-racnou/;/sady-naradia/;ancestor(-1);Náradie a dielňa > Náradie > Ručné náradie > Bity + sety sa skrutkovačom alebo račňou;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia;40578
@@ -510,7 +507,6 @@
 /prislusenstvo-pre-posilnovanie/;/posilnovanie-a-fitness/;ancestor(-1);Šport, hračky a voľný čas > Posilňovanie a fitness > Príslušenstvo pre posilňovanie;Cestovanie, šport a outdoor > Posilňovanie a fitness;42876
 /podlozky/;/posilnovanie-a-fitness/;exact;Šport, hračky a voľný čas > Posilňovanie a fitness > Podložky;Cestovanie, šport a outdoor > Posilňovanie a fitness;43014
 /stepy-a-steppery/;/posilnovanie-a-fitness/;exact;Šport, hračky a voľný čas > Posilňovanie a fitness > Stepy a steppery;Cestovanie, šport a outdoor > Posilňovanie a fitness;43194
-/trenazery/;/posilnovanie-a-fitness/;exact;Šport, hračky a voľný čas > Posilňovanie a fitness > Trenažéry;Cestovanie, šport a outdoor > Posilňovanie a fitness;43539
 /vibracne-plosiny/;/posilnovanie-a-fitness/;exact;Šport, hračky a voľný čas > Posilňovanie a fitness > Vibračné plošiny;Cestovanie, šport a outdoor > Posilňovanie a fitness;48138
 /prislusenstvo-pre-posilnovanie---ostatne/;/posilnovanie-a-fitness/;exact;Šport, hračky a voľný čas > Posilňovanie a fitness > Príslušenstvo pre posilňovanie – ostatné;Cestovanie, šport a outdoor > Posilňovanie a fitness;48441
 /cistice/;/sady-naradia/;ancestor(-2);Náradie a dielňa > Náradie > Upratovanie, čistenie a umývanie > Čističe;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia;40860
@@ -600,10 +596,8 @@
 /doplnky-a-prislusenstvo/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Doplnky a príslušenstvo;Energia a napájanie > Fotovoltaika;42774
 /na-rovnou-strechu/;/fotovoltaika/;exact;Fotovoltaika a energie > Fotovoltaika > Konštrukcia pre solárne panely > Na rovnou střechu;Energia a napájanie > Fotovoltaika;43482
 /specialne-naradie-a-pripravky/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky;Auto-moto > Garáž, dielňa, servis;40983
-/autodiagnostika/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Autodiagnostika;Auto-moto > Garáž, dielňa, servis;41109
 /kompresory--hustilky/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Kompresory, hustilky;Auto-moto > Garáž, dielňa, servis;41169
 /elektroinstalacny-material-3/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Elektroinštalačný materiál;Auto-moto > Garáž, dielňa, servis;41655
-/autoplachty/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Autoplachty;Auto-moto > Garáž, dielňa, servis;41661
 /autonaradi--doplnky/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Autonářadí, doplnky;Auto-moto > Garáž, dielňa, servis;41736
 /parkovaci-zabrany-2/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Parkovací zábrany;Auto-moto > Garáž, dielňa, servis;41745
 /kanystry/;/garaz--dielna--servis/;ancestor(-1);Auto-moto > Garáž, Dielňa, Servis > Kanystry;Auto-moto > Garáž, dielňa, servis;42069
@@ -645,10 +639,8 @@
 /mikrofonni-kable/;/kable-a-vodice/;ancestor(-1);Elektroinštalačný materiál > Káble a vodiče > Mikrofonní káble;Elektro, Smart Home a osvetlenie > Káble a vodiče;45198
 /prislusenstvo-4/;/kamerove-systemy/;exact;Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;41019
 /hdcvi--hdtvi--ahd-kamery/;/kamerove-systemy/;ancestor(-1);Bezpečnosť a smart domácnosť > Kamerové systémy > HDCVI, HDTVI, AHD kamery;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;41088
-/ip-sietove-kamery/;/kamerove-systemy/;exact;Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové kamery;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;41373
 /kamerove-sety/;/kamerove-systemy/;ancestor(-1);Bezpečnosť a smart domácnosť > Kamerové systémy > Kamerové sety;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;41571
 /ip-smart-kamery/;/kamerove-systemy/;exact;Bezpečnosť a smart domácnosť > Kamerové systémy > IP SMART kamery;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;42030
-/kamery-4v1/;/kamerove-systemy/;exact;Bezpečnosť a smart domácnosť > Kamerové systémy > KAMERY 4v1;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;42753
 /ip-sietove-videorekordery--nvr/;/kamerove-systemy/;exact;Bezpečnosť a smart domácnosť > Kamerové systémy > IP sieťové videorekordéry (NVR);Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;42825
 /inspekcni-kamery--endoskopy/;/kamerove-systemy/;exact;Bezpečnosť a smart domácnosť > Kamerové systémy > Inspekční kamery, endoskopy;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;43329
 /hdcvi-a-5v1-videorekordery/;/kamerove-systemy/;ancestor(-1);Bezpečnosť a smart domácnosť > Kamerové systémy > HDCVI a 5v1 videorekordéry;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;43566
@@ -667,7 +659,6 @@
 /ostatne-9/;/kamerove-systemy/;ancestor(-1);Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Ostatné;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;44730
 /pamatove-karty-3/;/kamerove-systemy/;ancestor(-1);Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Pamäťové karty;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;45708
 /ostatne-prislusenstvo-ku-kameram/;/kamerove-systemy/;ancestor(-1);Bezpečnosť a smart domácnosť > Kamerové systémy > PRÍSLUŠENSTVO > Ostatné príslušenstvo ku kamerám;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy;48438
-/prepojovacie-listy/;/rozvadzacove-prvky/;exact;Elektroinštalačný materiál > Rozvádzačové prvky > Prepojovacie lišty;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky;41031
 /prepojovacie-a-rozbocovacie-svorky/;/rozvadzacove-prvky/;ancestor(-1);Elektroinštalačný materiál > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky;41040
 /bloky-pre-rozdeleni-fazi/;/rozvadzacove-prvky/;exact;Elektroinštalačný materiál > Rozvádzačové prvky > Bloky pre rozdělení fází;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky;41052
 /podperne-a-distancni-izolatory/;/rozvadzacove-prvky/;exact;Elektroinštalačný materiál > Rozvádzačové prvky > Podpěrné a distanční izolátory;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky;41322
@@ -752,11 +743,9 @@
 /digitalne-fotoaparaty-2/;/dalekohlady/;exact;Šport, hračky a voľný čas > Ďalekohľady > Digitálne fotoaparáty;Cestovanie, šport a outdoor > Ďalekohľady;44355
 /monokularni/;/dalekohlady/;ancestor(-1);Šport, hračky a voľný čas > Ďalekohľady > Monokulární;Cestovanie, šport a outdoor > Ďalekohľady;44775
 /s-termovizi/;/dalekohlady/;ancestor(-1);Šport, hračky a voľný čas > Ďalekohľady > S termovizí;Cestovanie, šport a outdoor > Ďalekohľady;45411
-/predlzovacie-privody/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Predlžovacie prívody;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41142
 /adaptery-a-redukcie/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Adaptéry a redukcie;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41313
 /priemyselne-vidlica-a-zasuvky/;/predlzovacie-kable-a-vidlice/;ancestor(-1);Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Priemyselné vidlica a zásuvky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41331
 /vidlica-a-zasuvky/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Vidlica a zásuvky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;42300
-/spinacie-zasuvky/;/predlzovacie-kable-a-vidlice/;ancestor(-1);Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Spínacie zásuvky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;42333
 /predlzovacky-3-fazove/;/predlzovacie-kable-a-vidlice/;ancestor(-1);Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Predlžovačky 3 fázové;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;42966
 /napajacie-kable-2/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Napájacie káble;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;43353
 /flexo-snury/;/predlzovacie-kable-a-vidlice/;ancestor(-1);Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Flexo šnúry;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;45414
@@ -883,10 +872,8 @@
 /redukcie-a-adaptery/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Adaptéry a redukcie > Redukcie a adaptéry;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;43371
 /rozbocovacie-zasuvky/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Adaptéry a redukcie > Rozbočovacie zásuvky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;44520
 /plastove-skrine/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Plastové skrine;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;41328
-/rozvadzace-osadene/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače osadené;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;41352
 /rozvadzace-samostatne/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;41544
 /skrine-pre-kamerove-systemy/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Skrine pre kamerové systémy;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;41964
-/zasuvkove-skrine/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Zásuvkové skrine;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;42366
 /kovove-skrine/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Kovové skrine;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;42732
 /priemyselne-vidlica/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Priemyselné vidlica a zásuvky > Priemyselné vidlica;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41334
 /priemyselne-spojky/;/predlzovacie-kable-a-vidlice/;exact;Elektroinštalačný materiál > Predlžovačky, zásuvky, vidlica > Priemyselné vidlica a zásuvky > Priemyselné spojky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice;41337
@@ -965,7 +952,6 @@
 /skrine-acquacombi-ip65/;/montazne-skrine-a-rozvadzace/;exact;Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné > Skrine AcquaCOMBI IP65;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;44253
 /rozvodnice-acquaplus-ip65/;/montazne-skrine-a-rozvadzace/;ancestor(-1);Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné > Rozvodnice AcquaPLUS IP65;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;44256
 /ostatne-skrine-a-rozvodnice/;/montazne-skrine-a-rozvadzace/;ancestor(-1);Elektroinštalačný materiál > Montážne skrine a rozvádzače > Rozvádzače samostatné > Ostatné skrine a rozvodnice;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače;45363
-/kablove-spojky/;/instalacne-prislusenstvo/;ancestor(-1);Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblové spojky;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo;41565
 /izolacne-pasky/;/instalacne-prislusenstvo/;exact;Elektroinštalačný materiál > Inštalačné príslušenstvo > Izolačné pásky;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo;41607
 /kablova-oka/;/instalacne-prislusenstvo/;exact;Elektroinštalačný materiál > Inštalačné príslušenstvo > Káblová oká;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo;41685
 /hmozdinky-a-skrutky/;/instalacne-prislusenstvo/;exact;Elektroinštalačný materiál > Inštalačné príslušenstvo > Hmoždinky a skrutky;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo;42348
@@ -1044,7 +1030,6 @@
 /kluce-2/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Kľúče;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;41982
 /gola-sady-naradie/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Gola sady náradie;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;41988
 /nytovani/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Nýtování;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;42519
-/klieste/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Kliešte;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;42552
 /stahovaky/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Sťahováky;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;43068
 /naradie-pre-elektrikare/;/mechanicke-naradie/;ancestor(-1);Náradie a dielňa > Mechanické náradie > Náradie pre elektrikáře;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;43881
 /prislusenstvo-ku-gola-sadam/;/mechanicke-naradie/;exact;Náradie a dielňa > Mechanické náradie > Príslušenstvo ku gola sadám;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie;44118
@@ -1213,7 +1198,6 @@
 /odpudzovace-a-lapace-slimaku/;/odpudzovace-a-lapace-hmyzu/;ancestor(-1);Záhrada > Odpudzovače a lapače hmyzu > Odpudzovače a lapače slimáků;Dielňa, náradie a záhrada > Záhrada a bazén > Odpudzovače škodcov;42840
 /odpudzovace-psu--maciek-a-zvere/;/odpudzovace-a-lapace-hmyzu/;ancestor(-1);Záhrada > Odpudzovače a lapače hmyzu > Odpudzovače psů, mačiek a zvěře;Dielňa, náradie a záhrada > Záhrada a bazén > Odpudzovače škodcov;45012
 /prislusenstvo-pre-pevne-ploche-potrubie-pvc/;/ventilacne-technika/;exact;Elektroinštalačný materiál > Ventilačné technika > Vzduchovody > Pevné ploché potrubie - PVC > Príslušenstvo pre pevné ploché potrubie - PVC;Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo;42135
-/hevaky-a-zdvihaky/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Podvozek > Heváky a zdviháky;Auto-moto > Garáž, dielňa, servis;42141
 /podstavce/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Podvozek > Podstavce;Auto-moto > Garáž, dielňa, servis;43287
 /stahovaky-3/;/garaz--dielna--servis/;exact;Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Podvozek > Sťahováky;Auto-moto > Garáž, dielňa, servis;43377
 /ostatne-8/;/garaz--dielna--servis/;ancestor(-1);Auto-moto > Garáž, Dielňa, Servis > Špeciálne náradie a prípravky > Podvozek > Ostatné;Auto-moto > Garáž, dielňa, servis;44316
@@ -1514,7 +1498,6 @@
 /aa-ceruzkove-2/;/akumulatory-a-baterie/;exact;Fotovoltaika a energie > Akumulátory a batérie > NiMh nabíjacie akumulátory > AA ceruzkové;Energia a napájanie > Akumulátory a batérie;44532
 /aaa-mikrotuzkove-2/;/akumulatory-a-baterie/;ancestor(-1);Fotovoltaika a energie > Akumulátory a batérie > NiMh nabíjacie akumulátory > AAA mikrotužkové;Energia a napájanie > Akumulátory a batérie;44883
 /napajacie-zdroje-12v/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED pásky > Napájacie zdroje 12V;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;47619
-/led-pasiky/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED pásky > LED pásiky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;47664
 /prislusenstvo-37/;/led-osvetlenie/;exact;Elektroinštalačný materiál > Osvetlenie > LED pásky > Príslušenstvo;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie;47769
 /ostatne-kuchynske-pomocky/;/triedenie-odpadu-a-organizery/;ancestor(-2);Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Ostatné kuchynské pomôcky;Domáce spotrebiče > Triedenie odpadu a domáce organizéry;43926
 /luskacky/;/triedenie-odpadu-a-organizery/;ancestor(-2);Domáce spotrebiče > Malé spotrebiče > Potreby pre domácnosť > Kuchynské pomôcky > Lúskačky;Domáce spotrebiče > Triedenie odpadu a domáce organizéry;44283

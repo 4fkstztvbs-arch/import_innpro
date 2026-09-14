@@ -184,7 +184,6 @@
 /predlzovacie-kable-a-zasuvky/;/elektro-smart-home-a-osvetlenie/;0
 /casove-spinace-2/;/elektromery-a-spinacie-technika/;0
 /elektromery-2/;/elektro-smart-home-a-osvetlenie/;0
-/led-ziarovky/;/led-osvetlenie/;0
 /ostatne-ziarovky-a-ziarivky/;/osvetlenie/;0
 /svietidla/;/osvetlenie/;0
 /zasuvky/;/osvetlenie/;0
@@ -195,7 +194,6 @@
 /led-svietidla/;/led-osvetlenie/;0
 /zahradne-svietidla-2/;/osvetlenie/;0
 /ziarovky/;/osvetlenie/;0
-/led-reflektory/;/led-osvetlenie/;0
 /led-pasky/;/led-osvetlenie/;0
 /led-sviecky/;/osvetlenie/;0
 /stojace-lampy/;/osvetlenie/;0
@@ -377,7 +375,6 @@
 /kamery/;/smart-domacnost/;0
 /detektor-pohybu/;/smart-domacnost/;0
 /smart-senzory/;/smart-domacnost/;0
-/kluce/;/sady-naradia/;0
 /zveraky-a-svorky/;/sady-naradia/;0
 /sady-naradie/;/sady-naradia/;0
 /bity-sety-sa-skrutkovacom-alebo-racnou/;/sady-naradia/;0
@@ -509,7 +506,6 @@
 /prislusenstvo-pre-posilnovanie/;/posilnovanie-a-fitness/;0
 /podlozky/;/posilnovanie-a-fitness/;0
 /stepy-a-steppery/;/posilnovanie-a-fitness/;0
-/trenazery/;/posilnovanie-a-fitness/;0
 /vibracne-plosiny/;/posilnovanie-a-fitness/;0
 /prislusenstvo-pre-posilnovanie---ostatne/;/posilnovanie-a-fitness/;0
 /cistice/;/sady-naradia/;0
@@ -599,10 +595,8 @@
 /doplnky-a-prislusenstvo/;/fotovoltaika/;0
 /na-rovnou-strechu/;/fotovoltaika/;0
 /specialne-naradie-a-pripravky/;/garaz--dielna--servis/;0
-/autodiagnostika/;/garaz--dielna--servis/;0
 /kompresory--hustilky/;/garaz--dielna--servis/;0
 /elektroinstalacny-material-3/;/garaz--dielna--servis/;0
-/autoplachty/;/garaz--dielna--servis/;0
 /autonaradi--doplnky/;/garaz--dielna--servis/;0
 /parkovaci-zabrany-2/;/garaz--dielna--servis/;0
 /kanystry/;/garaz--dielna--servis/;0
@@ -644,10 +638,8 @@
 /mikrofonni-kable/;/kable-a-vodice/;0
 /prislusenstvo-4/;/kamerove-systemy/;0
 /hdcvi--hdtvi--ahd-kamery/;/kamerove-systemy/;0
-/ip-sietove-kamery/;/kamerove-systemy/;0
 /kamerove-sety/;/kamerove-systemy/;0
 /ip-smart-kamery/;/kamerove-systemy/;0
-/kamery-4v1/;/kamerove-systemy/;0
 /ip-sietove-videorekordery--nvr/;/kamerove-systemy/;0
 /inspekcni-kamery--endoskopy/;/kamerove-systemy/;0
 /hdcvi-a-5v1-videorekordery/;/kamerove-systemy/;0
@@ -666,7 +658,6 @@
 /ostatne-9/;/kamerove-systemy/;0
 /pamatove-karty-3/;/kamerove-systemy/;0
 /ostatne-prislusenstvo-ku-kameram/;/kamerove-systemy/;0
-/prepojovacie-listy/;/rozvadzacove-prvky/;0
 /prepojovacie-a-rozbocovacie-svorky/;/rozvadzacove-prvky/;0
 /bloky-pre-rozdeleni-fazi/;/rozvadzacove-prvky/;0
 /podperne-a-distancni-izolatory/;/rozvadzacove-prvky/;0
@@ -751,11 +742,9 @@
 /digitalne-fotoaparaty-2/;/dalekohlady/;0
 /monokularni/;/dalekohlady/;0
 /s-termovizi/;/dalekohlady/;0
-/predlzovacie-privody/;/predlzovacie-kable-a-vidlice/;0
 /adaptery-a-redukcie/;/predlzovacie-kable-a-vidlice/;0
 /priemyselne-vidlica-a-zasuvky/;/predlzovacie-kable-a-vidlice/;0
 /vidlica-a-zasuvky/;/predlzovacie-kable-a-vidlice/;0
-/spinacie-zasuvky/;/predlzovacie-kable-a-vidlice/;0
 /predlzovacky-3-fazove/;/predlzovacie-kable-a-vidlice/;0
 /napajacie-kable-2/;/predlzovacie-kable-a-vidlice/;0
 /flexo-snury/;/predlzovacie-kable-a-vidlice/;0
@@ -882,10 +871,8 @@
 /redukcie-a-adaptery/;/predlzovacie-kable-a-vidlice/;0
 /rozbocovacie-zasuvky/;/predlzovacie-kable-a-vidlice/;0
 /plastove-skrine/;/montazne-skrine-a-rozvadzace/;0
-/rozvadzace-osadene/;/montazne-skrine-a-rozvadzace/;0
 /rozvadzace-samostatne/;/montazne-skrine-a-rozvadzace/;0
 /skrine-pre-kamerove-systemy/;/montazne-skrine-a-rozvadzace/;0
-/zasuvkove-skrine/;/montazne-skrine-a-rozvadzace/;0
 /kovove-skrine/;/montazne-skrine-a-rozvadzace/;0
 /priemyselne-vidlica/;/predlzovacie-kable-a-vidlice/;0
 /priemyselne-spojky/;/predlzovacie-kable-a-vidlice/;0
@@ -964,7 +951,6 @@
 /skrine-acquacombi-ip65/;/montazne-skrine-a-rozvadzace/;0
 /rozvodnice-acquaplus-ip65/;/montazne-skrine-a-rozvadzace/;0
 /ostatne-skrine-a-rozvodnice/;/montazne-skrine-a-rozvadzace/;0
-/kablove-spojky/;/instalacne-prislusenstvo/;0
 /izolacne-pasky/;/instalacne-prislusenstvo/;0
 /kablova-oka/;/instalacne-prislusenstvo/;0
 /hmozdinky-a-skrutky/;/instalacne-prislusenstvo/;0
@@ -1043,7 +1029,6 @@
 /kluce-2/;/mechanicke-naradie/;0
 /gola-sady-naradie/;/mechanicke-naradie/;0
 /nytovani/;/mechanicke-naradie/;0
-/klieste/;/mechanicke-naradie/;0
 /stahovaky/;/mechanicke-naradie/;0
 /naradie-pre-elektrikare/;/mechanicke-naradie/;0
 /prislusenstvo-ku-gola-sadam/;/mechanicke-naradie/;0
@@ -1212,7 +1197,6 @@
 /odpudzovace-a-lapace-slimaku/;/odpudzovace-a-lapace-hmyzu/;0
 /odpudzovace-psu--maciek-a-zvere/;/odpudzovace-a-lapace-hmyzu/;0
 /prislusenstvo-pre-pevne-ploche-potrubie-pvc/;/ventilacne-technika/;0
-/hevaky-a-zdvihaky/;/garaz--dielna--servis/;0
 /podstavce/;/garaz--dielna--servis/;0
 /stahovaky-3/;/garaz--dielna--servis/;0
 /ostatne-8/;/garaz--dielna--servis/;0
@@ -1513,7 +1497,6 @@
 /aa-ceruzkove-2/;/akumulatory-a-baterie/;0
 /aaa-mikrotuzkove-2/;/akumulatory-a-baterie/;0
 /napajacie-zdroje-12v/;/led-osvetlenie/;0
-/led-pasiky/;/led-osvetlenie/;0
 /prislusenstvo-37/;/led-osvetlenie/;0
 /ostatne-kuchynske-pomocky/;/triedenie-odpadu-a-organizery/;0
 /luskacky/;/triedenie-odpadu-a-organizery/;0

@@ -293,3 +293,48 @@ m23;g214;2;3D tlačiarne;3d-tlaciarne;3D tlač a digitálna výroba > 3D tlačia
 m24;g214;2;Tlačové struny a vlákna;vlakna-pre-3d-tlac;3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna
 m25;g214;2;Živice pre 3D tlač;zivice-pre-3d-tlac;3D tlač a digitálna výroba > 3D tlačiarne a materiály > Živice pre 3D tlač
 m26;g214;2;Príslušenstvo k 3D tlačiarňam;prislusenstvo-pre-3d-tlaciarne;3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam
+m27;am7;2;Špeciálne náradie a prípravky;specialne-naradie-pre-servis;Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky
+m28;am7;2;Autodiagnostika;autodiagnostika;Auto-moto > Garáž, dielňa, servis > Autodiagnostika
+m29;am7;2;Heváky a zdviháky;hevaky-a-zdvihaky;Auto-moto > Garáž, dielňa, servis > Heváky a zdviháky
+m30;am7;2;Autoplachty a ochranné kryty;autoplachty;Auto-moto > Garáž, dielňa, servis > Autoplachty a ochranné kryty
+m31;am7;2;Autonáradie a doplnky;autonaradie-a-doplnky;Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky
+m32;am7;2;Elektroinštalačný materiál pre auto;elektroinstalacia-pre-auto;Auto-moto > Garáž, dielňa, servis > Elektroinštalačný materiál pre auto
+m33;g37;2;Prepojovacie a rozbočovacie svorky;prepojovacie-svorky;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky
+m34;g37;2;Prepojovacie lišty a mostíky;prepojovacie-listy;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie lišty a mostíky
+m35;g37;2;Bloky pre rozdelenie fáz;bloky-pre-rozdelenie-faz;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Bloky pre rozdelenie fáz
+m36;g37;2;DIN lišty a modulárne komponenty;din-listy-a-komponenty;Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > DIN lišty a modulárne komponenty
+m37;g38;2;Predlžovacie prívody;predlzovacie-privody;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Predlžovacie prívody
+m38;g38;2;Priemyselné vidlice a zásuvky;priemyselne-vidlice-a-zasuvky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Priemyselné vidlice a zásuvky
+m39;g38;2;Vidlice, zásuvky a redukcie;vidlice-zasuvky-a-redukcie;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Vidlice, zásuvky a redukcie
+m40;g38;2;Spínacie a časové zásuvky;spinacie-zasuvky;Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Spínacie a časové zásuvky
+m41;g40;2;Rozvádzače prázdne;rozvadzace-prazdne;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače > Rozvádzače prázdne
+m42;g40;2;Rozvádzače osadené;rozvadzace-osadene;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače > Rozvádzače osadené
+m43;g40;2;Zásuvkové skrine;zasuvkove-skrine;Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače > Zásuvkové skrine
+m44;g36;2;LED žiarovky;led-ziarovky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED žiarovky
+m45;g36;2;Baterky a ručné svietidlá;baterky-a-svietidla;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > Baterky a ručné svietidlá
+m46;g36;2;LED reflektory;led-reflektory;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED reflektory
+m47;g36;2;LED pásiky a profily;led-pasiky;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED pásiky a profily
+m48;g36;2;LED panely a podhľadové svietidlá;led-panely;Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED panely a podhľadové svietidlá
+m49;g130;2;Činky a závažia;cinky-a-zavazia;Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia
+m50;g130;2;Trenažéry;trenazery;Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry
+m51;g130;2;Posilňovacie lavice a podložky;lavice-a-podlozky;Cestovanie, šport a outdoor > Posilňovanie a fitness > Posilňovacie lavice a podložky
+m52;g54;2;IP sieťové kamery;ip-sietove-kamery;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > IP sieťové kamery
+m53;g54;2;Kamery 4v1;kamery-4v1;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > Kamery 4v1
+m54;g54;2;Videorekordéry NVR a DVR;videorekordery-nvr;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > Videorekordéry NVR a DVR
+m55;g54;2;Príslušenstvo ku kamerovým systémom;prislusenstvo-ku-kameram;Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > Príslušenstvo ku kamerovým systémom
+m56;g66;3;Kľúče;kluce;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Kľúče
+m57;g66;3;Kliešte;klieste;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Kliešte
+m58;g66;3;Gola sady a nástrčné hlavice;gola-sady;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice
+m59;g66;3;Skrutkovače, bity a imbusy;skrutkovace-a-bity;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Skrutkovače, bity a imbusy
+m60;g66;3;Nitovačky a nity;nitovacky;Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Nitovačky a nity
+m61;g42;2;Káblové spojky a očká;kablove-spojky;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Káblové spojky a očká
+m62;g42;2;Trubky a chráničky;trubky-a-chranicky;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Trubky a chráničky
+m63;g42;2;Príchytky, pásky a hmoždinky;prichytky-a-pasky;Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Príchytky, pásky a hmoždinky
+m64;g175;2;Herné simulátory;herne-simulatory;Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory
+m65;g175;2;Počítačové skrine;pocitacove-skrine;Počítače, mobily a tablety > Herné príslušenstvo pre PC > Počítačové skrine
+m66;g175;2;VR okuliare a príslušenstvo;vr-okuliare;Počítače, mobily a tablety > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo
+m67;g175;2;Chladenie počítača;chladenie-pocitaca;Počítače, mobily a tablety > Herné príslušenstvo pre PC > Chladenie počítača
+m68;g175;2;Herné podložky a mikrofóny;herne-podlozky;Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné podložky a mikrofóny
+m69;g146;2;Puzdrá na mobilné telefóny;puzdra-na-mobily;Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Puzdrá na mobilné telefóny
+m70;g146;2;Tvrdené sklá a fólie;tvrdene-skla;Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Tvrdené sklá a fólie
+m71;g146;2;Držiaky na mobily;drziaky-na-mobily;Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Držiaky na mobily
