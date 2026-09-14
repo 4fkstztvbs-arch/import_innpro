@@ -87,9 +87,15 @@ function buildPriceTargets(rows, sourceCsvName) {
   const targets = {};
   const generatedAt = new Date().toISOString();
   for (const r of rows) {
-    if (r.Akcia !== 'ZVÝŠIŤ' && r.Akcia !== 'ZNÍŽIŤ') continue;
+    if (!r.EAN) continue;
     const rawTarget = fnum(r.SurovyCielEUR);
-    if (rawTarget === null || !r.EAN) continue;
+    // "BEZ ZMENY" nesie cenu len výnimočne: keď sa zľava zrušila preto, že by nepohla cenovou
+    // pozíciou (compare-heureka-prices.js), cena sa nemení, ale zistenie "cenovo tu nevyhráme"
+    // platí ďalej a musí sa preniesť — inak by tieto produkty vypadli z cantCompete a začali
+    // znova míňať Heureka CPC na kliky, ktoré sa nemajú ako premeniť.
+    const nevyhrame = r.NemozemeVyhrat === '1';
+    if (r.Akcia !== 'ZVÝŠIŤ' && r.Akcia !== 'ZNÍŽIŤ' && !nevyhrame) continue;
+    if (rawTarget === null && !nevyhrame) continue;
     targets[r.EAN] = {
       action: r.Akcia,
       targetPriceInclVat: rawTarget,
@@ -112,7 +118,10 @@ function csvToMarkdownReport(rows, mdPath, sourceCsvName, minMarginPct) {
   const zvysit = rows.filter((r) => r.Akcia === 'ZVÝŠIŤ');
   const znizit = rows.filter((r) => r.Akcia === 'ZNÍŽIŤ');
   const bezZmeny = rows.filter((r) => r.Akcia === 'BEZ ZMENY');
-  const floorLimited = rows.filter((r) => (r.Poznamka || '').includes('floor'));
+  // Len skutočne znížené — poznámka pri zrušenej zľave tiež spomína floor, ale tam sa cena
+  // nemení, takže do "obmedzené maržou" nepatrí.
+  const floorLimited = znizit.filter((r) => (r.Poznamka || '').includes('floor'));
+  const bezPosunuPozicie = bezZmeny.filter((r) => (r.Poznamka || '').includes('nepreskočilo'));
 
   function impact(r) {
     const a = fnum(r.NasaCenaEUR); const b = fnum(r.OdporucanaCenaEUR);
@@ -136,6 +145,7 @@ function csvToMarkdownReport(rows, mdPath, sourceCsvName, minMarginPct) {
   lines.push(`- Návrh **znížiť** cenu: **${znizit.length}** produktov`);
   lines.push(`- Bez zmeny (už optimálne / chýbajú dáta): **${bezZmeny.length}** produktov`);
   lines.push(`- Z toho obmedzené min. maržou ${minMarginPct} % (nedosiahli plný cieľ): **${floorLimited.length}**`);
+  lines.push(`- Zľava zrušená, lebo by nepohla cenovou pozíciou: **${bezPosunuPozicie.length}**`);
   lines.push('');
   lines.push('Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou cenou).');
   lines.push('');
@@ -158,7 +168,7 @@ function csvToMarkdownReport(rows, mdPath, sourceCsvName, minMarginPct) {
 
   fs.mkdirSync(path.dirname(mdPath), { recursive: true });
   fs.writeFileSync(mdPath, lines.join('\n'), 'utf-8');
-  return { total, zvysit: zvysit.length, znizit: znizit.length, bezZmeny: bezZmeny.length, floorLimited: floorLimited.length };
+  return { total, zvysit: zvysit.length, znizit: znizit.length, bezZmeny: bezZmeny.length, floorLimited: floorLimited.length, bezPosunuPozicie: bezPosunuPozicie.length };
 }
 
 function main() {

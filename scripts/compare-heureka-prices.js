@@ -193,6 +193,27 @@ function main() {
         note = cantCompete
           ? `floor (min. marža ${MIN_MARGIN_PCT}%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší`
           : 'stávame sa najlacnejší';
+
+        // Zľava, ktorá nepohne cenovou pozíciou, je zľava zadarmo. Nastáva, keď floor zastaví
+        // zníženie skôr, než preskočíme čo i len jedného konkurenta — medzi terajšou a novou
+        // cenou potom nie je ani jedna cudzia ponuka. Na reporte zo 14. 9. 2026 to bolo 173 zo
+        // 602 takých prípadov a 2460 € zľavy; zvyšných 429 pozíciu naozaj získa, preto sa ruší
+        // len tento podmnožinový prípad, nie znižovanie k floor ako také (pozícia v rebríčku
+        // privádza zákazníkov aj bez prvého miesta — rozhodnutie používateľa 14. 9. 2026).
+        //
+        // Porovnáva sa tým istým spôsobom ako estimatedPosition vyššie, teda nad ladderAll:
+        // ten kvôli prekryvu stĺpcov PriceMin/PriceMax obsahuje ceny dvojmo, ale na ROVNOSŤ
+        // dvoch počtov to nemá vplyv — ak medzi cenami nie je žiadna cudzia ponuka, oba počty
+        // sú rovnaké bez ohľadu na násobnosť.
+        const pozTeraz = ladderAll.filter((v) => v < ours.price).length;
+        const pozPotom = ladderAll.filter((v) => v < suggestedPrice).length;
+        if (pozTeraz === pozPotom) {
+          action = 'BEZ ZMENY';
+          note = `zníženie po floor (min. marža ${MIN_MARGIN_PCT}%) by nepreskočilo ani jedného konkurenta `
+            + `— pozícia ${pozTeraz + 1} by ostala rovnaká, cenu preto nemeníme`;
+          suggestedPrice = ours.price;
+          rawTarget = null;
+        }
       }
     }
 
