@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-15 19:23 UTC.
+Kontrola z 2026-09-15 23:51 UTC.
 
-InnPro pri **389** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **415** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -50,6 +50,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `033419` | Mäkká kefa pre Dreame V10 Pro | — | 5 |
 | `032796` | Počítačový ventilátor Darkflash CL12 LED (120x120) | — | 5 |
+| `035753` | Kryt kefy pre vysávač Dreame Z10 Pro | — | 3 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `036334` | Montážna konzola na lištu DIN Sonoff DR | — | 5 |
@@ -76,6 +77,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
 | `044846` | Joyroom JR-14H5 priehľadné magnetické puzdro pre iPhone 14 | — | 5 |
+| `044848` | Joyroom JR-14H7 priehľadné magnetické puzdro pre iPhone 14 P | — | 5 |
 | `044828` | Joyroom JR-14S1 čierne puzdro pre iPhone 14 | — | 5 |
 | `044831` | Joyroom JR-14S4 čierne puzdro pre iPhone 14 Pro Max | — | 5 |
 | `044806` | Joyroom JR-G04 Glass iPhone 14 Pro Max 6.7 (ochrana očí) | — | 5 |
@@ -84,9 +86,11 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `044699` | Kábel k USB-A / Lightning / 2,4A / 0,25 m Joyroom S-UL012A9  | — | 5 |
 | `044698` | Kábel k USB-A / Lightning / 2,4 A / 2 m Joyroom S-UL012A9 (b | — | 5 |
 | `044876` | Kábel USB HDMI-HDMI / 4K 60Hz / 2m Joyroom SY-20H1 (sivý) | — | 5 |
+| `044441` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 5 |
 | `046683` | Vodotesné puzdro pre relé Sonoff IP66 | — | 5 |
 | `047961` | Inteligentný spínací modul WiFi Avatto WSM16-W1 TUYA | — | 5 |
 | `047993` | Univerzálny diaľkový ovládač IR WiFi Avatto S16 TUYA | — | 5 |
+| `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
 | `048658` | Priehľadný obal a sada tvrdeného skla Baseus Corning pre iPh | — | 5 |
 | `044419` | Fólia na objektív fotoaparátu Baseus pre iPhone 13 Pro/13 Pr | — | 3 |
 | `049249` | Ochranné sklo s tvrdeným sklom Baseus pre realme GT2 Master  | — | 5 |
@@ -102,7 +106,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `053788` | Kabel Flash Charge USB do Lightning Joyroom SA26-AL3 /3A / 1 | — | 5 |
 | `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 5 |
 | `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
-| `055035` | Magnetický základný adaptér PULUZ PU708B (1/4 palca) pre špo | — | 4 |
+| `055035` | Magnetický základný adaptér PULUZ PU708B (1/4 palca) pre špo | — | 3 |
 | `053576` | Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1, | — | 5 |
 | `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
 | `053572` | Kábel Pioneer USB-C do USB C Joyroom SA31-CC5 / 240W / 1,2 m | — | 3 |
@@ -139,7 +143,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `060080` | Ochranná taška / puzdro Telesin for action cameras (GP-CPB-9 | — | 5 |
 | `058016` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 4 |
 | `058028` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
-| `058031` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 3 |
+| `058031` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 2 |
 | `058032` | Phone case Baseus Magnetic Crystal Clear for iPhone 11 Pro M | — | 5 |
 | `060195` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | — | 5 |
 | `060430` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
@@ -220,7 +224,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `074171` | Kábel USB 2.0 A na 3v1 3A Vention CTPWG 1,5 m (biely) | — | 5 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `074972` | Sunnylife OA5-BK941 ochranné puzdro proti slnku pre OSMO ACT | — | 2 |
-| `073205` | Rýchlonabíjací dátový kábel Joyroom S-A53 USB-A - Lightning | — | 2 |
 | `073335` | Telesin Tvrdené sklo 3 v 1 pre GoPro Hero 13 Black (S6-FLM-0 | — | 5 |
 | `075568` | Filtre Rojeco pre 2,5 l bezdrôtové vodné fontány 50 | — | 5 |
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
@@ -242,6 +245,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `078020` | Tvrdené sklo Sunnylife pre RC PRO 2 (2 kusy) | — | 5 |
 | `078081` | Prachový filter pre vysávač MOVA Z50 Ultra [2 kusy]. | — | 5 |
 | `078082` | Filter vysávača MOVA K30/K30Mix/X4/X4Pro/X4Mix [1 ks]. | — | 5 |
+| `078092` | Podložky na vysávanie pre vysávač MOVA E10, E20, E20 Plus, E | — | 5 |
 | `078088` | Bočné mopovacie podložky pre vysávač MOVA Z50 Ultra [2 kusy] | — | 5 |
 | `078265` | PULUZ silikónové ochranné puzdro s krytom objektívu pre Inst | — | 5 |
 | `078270` | Silikónový stojan PULUZ pre kameru Insta360 X5 | — | 5 |
@@ -264,6 +268,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `081548` | Silikónový opasok Sunnylife pre zariadenie Osmo Nano (čierny | — | 5 |
 | `081527` | Etui na batérii Sunnylife Mini 5 Pro (na 2 batérie) | — | 5 |
 | `081549` | Sunnylife G031 plastový kryt objektívu pre OSMO 360 | — | 5 |
+| `081550` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 | — | 5 |
 | `081552` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 (oranž | — | 5 |
 | `081555` | Silikónový ochranný kryt kompatibilný so Sunnylife SG034 | — | 5 |
 | `081529` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (ruž | — | 4 |
@@ -306,6 +311,16 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
+| `086440` | Ponorné čerpadlo SUNSUN JP-500GL | — | 5 |
+| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
+| `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
+| `086445` | Ponorné čerpadlo SUNSUN YQP-500 | — | 5 |
+| `086450` | Filtračné čerpadlo SUNSUN JP-092 | — | 5 |
+| `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
+| `086461` | Filtračné čerpadlo SUNSUN JP-032F | — | 5 |
+| `086537` | Vnútorný filter SUNSUN HN-011 | — | 5 |
+| `086477` | Povrchový filter SUNSUN JY-03 | — | 5 |
+| `086551` | Cirkulačné čerpadlo SUNSUN JVP-110 | — | 5 |
 | `088616` | Tvrdené sklo Sunnylife pre Insta360 GO Ultra (2 ks) | — | 5 |
 | `088932` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (čierna) | — | 5 |
 | `088933` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (biela) | — | 5 |
@@ -355,6 +370,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |
 | `088984` | Rezná podložka HTVRONT, 34,8 cm x 37 cm, balenie po 3 kusoch | — | 5 |
 | `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
+| `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 5 |
 | `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
 | `087023` | Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 | — | 5 |
@@ -396,3 +412,13 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
+| `093563` | Popruh na prilbu SJCAM | — | 5 |
+| `093576` | Držiak SJCAM C100 Pro | — | 4 |
+| `093577` | Držiak SJCAM C300 POCKET | — | 5 |
+| `093578` | Malý statív SJCAM | — | 5 |
+| `093581` | SJCAM Floaty Bobber – držiak na zvýšenie vztlaku | — | 5 |
+| `093705` | Držiak na rám SJCAM C200 Pro | — | 5 |
+| `093700` | Zadná lišta SJCAM C100 Pro | — | 2 |
+| `093701` | SJCAM C110+ Zadná lišta | — | 4 |
+| `093702` | Zadná lišta pre SJCAM C200 Pro | — | 4 |
+| `093704` | Držiak na rám pre SJCAM C110 Plus | — | 5 |
