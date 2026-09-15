@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-15 00:05 UTC.
+Kontrola z 2026-09-15 09:05 UTC.
 
-InnPro pri **392** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **390** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -159,7 +159,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `061364` | Dust bag for Roidmi EVE CC | — | 2 |
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
-| `063729` | Replacement filters for the Oneisall fountain | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
 | `065401` | 2 sets Tempered Glass Film Sunnylife for Insta360 X4 / X5 | — | 5 |
@@ -259,13 +258,11 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `080742` | Sunnylife BK03 rýchloupínač pre OP 3 (čierny) | — | 5 |
 | `080731` | Torba Sunnylife pre OSMO 360 | — | 5 |
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
-| `080584` | Kryt nástenného spínača SONOFF E1GS (s N) | — | 5 |
 | `080587` | Rám pre trojitý prepínač Orb SONOFF EF3G | — | 5 |
 | `081353` | Sonoff Basic R5 Gen5 WiFi Smart Switch (10A, Matter) | — | 5 |
 | `081547` | Sunnylife tvrdené sklo (2 kusy) pre Osmo Nano | — | 5 |
 | `081548` | Silikónový opasok Sunnylife pre zariadenie Osmo Nano (čierny | — | 5 |
 | `081527` | Etui na batérii Sunnylife Mini 5 Pro (na 2 batérie) | — | 5 |
-| `081528` | Etui na batérii Sunnylife Mini 5 Pro (na 3 batérie) | — | 4 |
 | `081549` | Sunnylife G031 plastový kryt objektívu pre OSMO 360 | — | 5 |
 | `081552` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 (oranž | — | 5 |
 | `081555` | Silikónový ochranný kryt kompatibilný so Sunnylife SG034 | — | 5 |
@@ -304,6 +301,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `082349` | Chladiaci ventilátor Darkflash DE8 (biely) | — | 5 |
 | `084784` | Uni-T UT12D-EU Bezkontaktný tester napätia | — | 5 |
 | `085297` | Avatto 2 zásuvka TS20 rám vypínača (biely) | — | 5 |
+| `083555` | Waydoo Subnado Obal | — | 2 |
 | `081351` | Osciloskopická sonda Fnirsi P6100 | — | 5 |
 | `086043` | Sonoff WS01STPF-E – klasická nástenná zásuvka (typ F) | — | 5 |
 | `079180` | Puzdro Flytec – čierne | — | 5 |

@@ -41,24 +41,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 074889 | 6934915204465 | Súprava pre konštantný napájací zdroj OBD radu DDPAI Z60 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 22 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 22 |
-| 069563 | 6974416940646 | Attachment ring for Waydoo accessories | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 7.50 € | 1/43.1x | 62 |
-| 069565 | 6974416940721 | Adapter do SUP Waydoo | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 39.00 € | 1/8.3x | 62 |
-| 069580 | 6974416940691 | Waydoo finger controller for underwater scooter | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 34.50 € | 1/9.4x | 62 |
-| 075053 | 6972016030002 | Geneinno T1-Pro 150m 4K UHD podvodný dron | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 2634.00 € | 8.1x | 62 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
 | 085498 | 6977641140072 | Vaša fréza MAKERA Carvera CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 6680.00 € | 28.4x | 9 |
 | 085499 | 6977641142496 | Vaša fréza MAKERA Carvera Air CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 3067.50 € | 13.1x | 9 |
 | 085503 | 6977641140423 | Základné panely MAKERA Carvera Air z MDF s hrúbkou 2 mm (5 ks) | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 23.90 € | 1/9.8x | 9 |
-| 083555 | 6974416940677 | Waydoo Subnado Obal | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 5.30 € | 1/61.0x | 62 |
-| 083556 | 6974416940684 | Waydoo Subnado 66 mm vrtuľa | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 22.90 € | 1/14.1x | 62 |
-| 083571 | 6974416942060 | Ovládač Waydoo Subnado Plus – štandardný | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 37.90 € | 1/8.5x | 62 |
-| 083557 | 6974416940660 | Rýchla spojka Waydoo | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 31.50 € | 1/10.3x | 62 |
-| 087029 | 5905156104587 | Elektrický E-foil Waydoo Flyer EVO Lite | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 5020.50 € | 15.5x | 62 |
-| 087030 | 5905156104556 | Elektrický E-foil Waydoo Flyer EVO PRO PLUS | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 7273.50 € | 22.5x | 62 |
-| 087031 | 5905156104563 | Waydoo Flyer EVO MAX PLUS – elektrický E-foil | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 6932.50 € | 21.4x | 62 |
-| 087032 | 5905156104570 | Elektrický surf EFOIL Waydoo Flyer EVO Master PLUS | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 9237.00 € | 28.6x | 62 |
-| 086956 | 6974416941292 | Elektrický skateboard Waydoo EVO Master Plus 75 l (farba: Sunrise) | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 2764.50 € | 8.5x | 62 |
-| 086957 | 6974416941308 | Elektrický skateboard Waydoo EVO Master Plus 75 l (farba: čierna Onyx) | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 2764.50 € | 8.5x | 62 |
-| 086968 | 6974416941353 | Akumulátor Powerflight pre dosky WAYDOO EVO 2300 W | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 2827.90 € | 8.7x | 62 |
-| 087034 | 5905156104594 | Kábel pre diaľkové ovládanie WAYDOO EVO | cena mimo 8x rozsah mediánu kategórie | 323.45 € | 25.90 € | 1/12.5x | 62 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
