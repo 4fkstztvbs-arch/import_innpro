@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — monacor — 2026-09-14
+# Cenové anomálie vynechané z feedu — monacor — 2026-09-15
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -60,7 +60,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | ATT-19100 | 4007754205626 | Monacor ATT-19100 6-pásmový ovládač hlasitosti PA pre 482 mm (19") inštaláciu do | cena mimo 8x rozsah mediánu kategórie | 45.70 € | 378.00 € | 8.3x | 22 |
 | CDMX-3 | 4007754210811 | Monacor CDMX-3 Ovládací kábel, 100 m | cena mimo 8x rozsah mediánu kategórie | 10.20 € | 185.00 € | 18.1x | 12 |
 | CR-2016 |  | Panasonic CR-2016 Lítiové batérie CR2016 | cena mimo 8x rozsah mediánu kategórie | 23.20 € | 1.90 € | 1/12.2x | 12 |
-| DM-70/SW | 4007754094039 | Monacor DM-70/SW Dynamický mikrofón | cena mimo 8x rozsah mediánu kategórie | 66.50 € | 7.90 € | 1/8.4x | 27 |
+| DM-70/SW | 4007754094039 | Monacor DM-70/SW Dynamický mikrofón | cena mimo 8x rozsah mediánu kategórie | 67.20 € | 7.90 € | 1/8.5x | 26 |
 | MCS-180 | 4007754166415 | Monacor MCS-180 Zásuvková lišta pre montáž do racku | cena mimo 8x rozsah mediánu kategórie | 3.50 € | 165.00 € | 47.1x | 10 |
 | NA-2MJTX | 4007754192490 | Neutrik NA-2MJTX NEUTRIK XLR/6.3 mm vyrovnávací adaptér/uzemňovací izolátor | cena mimo 8x rozsah mediánu kategórie | 5.00 € | 56.00 € | 11.2x | 32 |
 | PB-05E | 4007754241242 | Monacor PB-05E Automatický mikrofónny prepínač | cena mimo 8x rozsah mediánu kategórie | 13.00 € | 192.00 € | 14.8x | 37 |
