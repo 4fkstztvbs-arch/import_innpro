@@ -217,6 +217,11 @@
       '49656': '<rect x="3" y="7" width="24" height="20" rx="2"/><path d="M27 13h3v8h-3M17 10l-6 9h7l-3 5"/>',
       '49665': '<rect x="2" y="5" width="28" height="20" rx="2"/><path d="M10 30h12M16 25v5M13 10l9 5-9 5z"/>'
     };
+    var deliveryLink = nativeNav.querySelector('.menu-item-39 > a[href="/obchodne-podmienky/"]');
+    if (deliveryLink) {
+      deliveryLink.setAttribute('href', '/doprava-a-platba/');
+      deliveryLink.textContent = 'Doprava a platba';
+    }
     var items = Array.prototype.slice.call(nativeNav.querySelectorAll('.menu-level-1 > li'));
     var categories = items.filter(function (item) {
       return Object.keys(icons).some(function (id) { return item.classList.contains('menu-item-' + id); });
@@ -596,6 +601,42 @@
     header.classList.add('ps-compact-header');
   }
 
+  // Pätička zachová pôvodné bloky a ich metadata; doplní rozdelenie odkazov.
+  function footerLayout() {
+    var footer = document.getElementById('footer');
+    var rows = footer && footer.querySelector('.footer-rows');
+    if (!rows || rows.querySelector('.ps-footer-grid')) return;
+    var articles = rows.querySelector('.custom-footer__articles');
+    var contact = rows.querySelector('.custom-footer__contact');
+    if (!articles || !contact) return;
+    var holder = document.createElement('div');
+    holder.innerHTML = "<div class=\"ps-footer-grid\">\n<section><h3>Nakupovanie</h3><ul>\n<li><a href=\"/doprava-a-platba/\">Doprava a platba</a></li>\n<li><a href=\"/moja-objednavka/\">Moja objednávka</a></li>\n<li><a href=\"https://www.premiumstore.sk/znacka/\">Značky</a></li>\n<li><a href=\"/kontakty/\">Pomoc s nákupom</a></li></ul></section>\n<section><h3>Sortiment</h3><ul>\n<li><a href=\"/pocitace-mobily-a-tablety/\">Počítače, mobily a tablety</a></li>\n<li><a href=\"/tv-foto-audio-video/\">TV, audio, video a foto</a></li>\n<li><a href=\"/domace-spotrebice/\">Domáce spotrebiče</a></li>\n<li><a href=\"/elektro-smart-home-a-osvetlenie/\">Smart Home a osvetlenie</a></li>\n<li><a href=\"/3d-tlac-a-digitalna-vyroba/\">3D tlač a digitálna výroba</a></li></ul></section>\n<section><h3>Užitočné informácie</h3><ul>\n<li><a href=\"/obchodne-podmienky/\">Obchodné podmienky</a></li>\n<li><a href=\"/podmienky-ochrany-osobnych-udajov/\">Ochrana osobných údajov</a></li>\n<li><a href=\"/kontakty/\">Kontakty</a></li></ul></section>\n<section class=\"ps-footer-help\"><h3>Poradíme vám</h3>\n<div class=\"ps-footer-person\"><img src=\"https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/support-person.jpg\" alt=\"\" width=\"56\" height=\"56\"><div><a href=\"tel:+421484151999\">+421 48 4151999</a><span>Po–Pia 9:00–17:00</span></div></div>\n<a href=\"mailto:obchod@premiumstore.sk\">obchod@premiumstore.sk</a><p>Odpovieme čo najskôr.</p></section>\n</div>";
+    var grid = holder.firstElementChild;
+    var originals = Array.prototype.slice.call(articles.querySelectorAll('a[href]'));
+    var used = [];
+    grid.querySelectorAll('ul a[href]').forEach(function (link) {
+      var path = new URL(link.href, location.href).pathname;
+      var source = originals.find(function (a) { return new URL(a.href, location.href).pathname === path; });
+      if (source) {
+        link.href = source.href;
+        if (path !== '/kontakty/' && path !== '/podmienky-ochrany-osobnych-udajov/') link.textContent = source.textContent.trim();
+        used.push(source);
+      }
+    });
+    // Nové odkazy z administrácie sa nestratia: zobrazia sa v informačnom stĺpci.
+    originals.filter(function (a) { return used.indexOf(a) === -1; }).forEach(function (a) {
+      var li = document.createElement('li');
+      li.appendChild(a.cloneNode(true));
+      grid.querySelectorAll('section ul')[2].appendChild(li);
+    });
+    rows.insertBefore(grid, rows.firstChild);
+    [articles, contact].forEach(function (el) { el.classList.add('ps-footer-source'); el.hidden = true; });
+    var originalRow = articles.parentElement;
+    if (originalRow === contact.parentElement && Array.prototype.every.call(originalRow.children, function (el) { return el.hidden || el.tagName === 'SCRIPT'; })) {
+      originalRow.classList.add('ps-footer-source'); originalRow.hidden = true;
+    }
+  }
+
   // --- Spustenie -------------------------------------------------------------
   function run() {
     relocateLoginButton();
@@ -603,6 +644,7 @@
     menuTrigger();
     catalogMenu();
     compactHeader();
+    footerLayout();
     mobileMenuSupportBlock();
     stickyBuyBar();
     deemphasizeSecondaryActions();

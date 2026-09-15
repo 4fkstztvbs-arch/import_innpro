@@ -1501,3 +1501,63 @@ body.ordering-process .h4 {
 @media (min-width: 992px) {
   #header.ps-compact-header .header-top { padding: 0; }
 }
+
+/* Jednotný vzhľad obchodu. Nákupné tlačidlá si ponechávajú pôvodnú zelenú. */
+:root { --ps-ink:#0e151c; --ps-surface:#eff4f6; --dn-s300:#eff4f6; }
+body { color:#0e151c; }
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.p-name,.p-name a { color:#0e151c; }
+#footer,.sidebar-inner,.subcategories li { background:#eff4f6 !important; color:#0e151c; }
+#footer a { color:#0e151c; }
+.subcategories li,.sidebar-inner { border-radius:14px; }
+.subcategories a:hover { background:#dce4e8; border-radius:14px; }
+.siteCookies.siteCookies--dark,.siteCookies__content { background:#eff4f6 !important; color:#0e151c !important; border-radius:14px; }
+.siteCookies { box-shadow:0 8px 30px #0e151c26 !important; border:1px solid #dce4e8; }
+.siteCookies a,.siteCookies__text { color:#0e151c !important; }
+.siteCookies .siteCookies__button,.siteCookies .siteCookies__link {
+  background:#fff !important; color:#0e151c !important; border:1px solid #0e151c !important; border-radius:999px !important;
+}
+.siteCookies .siteCookies__button:hover,.siteCookies .siteCookies__link:hover { background:#dce4e8 !important; }
+.benefitBanner__item { display:flex !important; align-items:center !important; gap:14px !important; }
+.benefitBanner__picture,body.type-detail .benefitBanner__picture {
+  flex:0 0 44px !important; width:44px !important; height:44px !important; margin:0 !important; padding:0 !important;
+}
+.benefitBanner__picture img,body.type-detail .benefitBanner__picture img {
+  width:44px !important; height:44px !important; max-width:none !important; object-fit:contain; filter:grayscale(1) brightness(.28);
+}
+.benefitBanner__content { flex:1; min-width:0; }
+.benefitBanner__data { color:#56616b; }
+#header .ps-catalog-icon,#header #navigation .ps-mobile-icon { border-radius:10px; }
+#header .ps-catalog-icon img,#header #navigation .ps-mobile-icon img { object-fit:contain; padding:4px; box-sizing:border-box; }
+@media (min-width:992px) {
+  #header.ps-compact-header .site-name { flex:0 0 220px !important; width:220px !important; }
+  #header.ps-compact-header .site-name img { width:220px !important; max-width:220px !important; height:auto !important; max-height:none !important; }
+}
+@media (min-width:992px) and (max-width:1199px) {
+  #header.ps-compact-header .site-name { flex-basis:175px !important; width:175px !important; }
+  #header.ps-compact-header .site-name img { width:175px !important; max-width:175px !important; }
+  #header.ps-compact-header .ps-header-support .ps-header-support-text a { font-size:12px; }
+}
+.siteCookies .siteCookies__form { background:#eff4f6 !important; color:#0e151c !important; border-radius:14px; }
+.siteCookies .siteCookies__content { border-radius:0; }
+@media (min-width:992px) {
+  #header.ps-compact-header .site-name a { display:block; overflow:hidden; }
+  #header.ps-compact-header .site-name img { display:block; width:150% !important; max-width:none !important; }
+}
+/* Pätička: existujúce odkazy, štyri skupiny. */
+#footer .ps-footer-grid { display:grid; grid-template-columns:1fr 1.15fr 1fr 1.2fr; gap:36px; padding:56px 0 40px; text-align:left; }
+#footer .ps-footer-grid section { min-width:0; }
+#footer .ps-footer-grid h3 { font-size:17px; font-weight:700; margin:0 0 22px; }
+#footer .ps-footer-grid ul { list-style:none; margin:0; padding:0; }
+#footer .ps-footer-grid li { margin:0 0 12px; padding:0; }
+#footer .ps-footer-grid a { font-size:14px; line-height:1.6; text-decoration:none; overflow-wrap:anywhere; }
+#footer .ps-footer-grid a:hover { text-decoration:underline; text-underline-offset:4px; }
+#footer .ps-footer-grid a:focus-visible { outline:2px solid #0e151c; outline-offset:4px; }
+#footer .ps-footer-person { display:flex; align-items:center; gap:12px; margin-bottom:20px; }
+#footer .ps-footer-person img { width:56px; height:56px; border-radius:50%; object-fit:cover; }
+#footer .ps-footer-person a { font-size:16px; font-weight:700; }
+#footer .ps-footer-person span,#footer .ps-footer-help p { display:block; font-size:13px; color:#56616b; margin:4px 0 0; }
+#footer .footer-bottom { background:#eff4f6; border-top:1px solid #dce4e8; padding:22px 0; color:#56616b; }
+@media(max-width:991px) { #footer .ps-footer-grid { gap:24px; grid-template-columns:1fr 1fr; } }
+@media(max-width:575px) { #footer .ps-footer-grid { grid-template-columns:1fr; gap:28px; padding:32px 4px; } #footer .ps-footer-grid h3 { margin-bottom:12px; } #footer .ps-footer-grid li { margin-bottom:8px; } #footer .ps-footer-grid a { display:inline-block; padding:4px 0; } }
+
+#footer .ps-footer-source[hidden] { display:none !important; }
