@@ -1305,3 +1305,257 @@ body.ordering-process .h4 {
     padding: 24px 16px !important;
   }
 }
+
+/* Menu Produkty: dlaždice hlavných kategórií, nezávislé od stĺpcov stránky.
+   Natívny Shoptet strom sa nemení. Pod 992px ostáva pôvodné mobilné menu. */
+.ps-catalog-nav,
+.ps-catalog-backdrop {
+  display: none;
+}
+@media (min-width: 992px) {
+  #header .ps-catalog-ready > #navigation,
+  #header .ps-catalog-ready > .menu-helper {
+    display: none !important;
+  }
+  #header .ps-catalog-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 68px;
+    width: 100%;
+    padding: 14px 0;
+    position: relative;
+    box-sizing: border-box;
+  }
+  #header .ps-catalog-active {
+    z-index: 1001;
+  }
+  #header .ps-catalog-trigger,
+  #header .ps-catalog-info {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    min-height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #315e45;
+    border-radius: 100px;
+    background: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color .16s ease, color .16s ease;
+  }
+  #header .ps-catalog-trigger { border-color: #315e45; }
+  #header .ps-catalog-info { color: #242527; }
+  #header .ps-catalog-info:hover { background: #edf3ef; color: #315e45; }
+  #header .ps-catalog-nav.is-open .ps-catalog-trigger {
+    border-color: #fff;
+    background: #fff;
+    border-radius: 14px 14px 0 0;
+    position: relative;
+    z-index: 2;
+  }
+  #header .ps-catalog-panel {
+    position: absolute;
+    top: calc(100% - 14px);
+    left: 0;
+    width: min(100%, 1100px);
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 0 14px 14px 14px;
+    box-shadow: 0 12px 32px rgba(12, 21, 29, .1);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  #header .ps-catalog-panel[hidden] { display: none !important; }
+  #header .ps-catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #header .ps-catalog-grid > li { margin: 0; padding: 0; min-width: 0; }
+  #header .ps-catalog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    min-height: 208px;
+    height: 100%;
+    padding: 22px 10px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    color: #315e45;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color .16s ease;
+  }
+  #header .ps-catalog-card:hover,
+  #header .ps-catalog-card:focus-visible { background: #edf3ef; }
+  #header .ps-catalog-icon {
+    width: 100px;
+    height: 100px;
+    flex: 0 0 100px;
+    border-radius: 4px;
+    background: #edf3ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #header .ps-catalog-label {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: .5px;
+    overflow-wrap: anywhere;
+  }
+  #header .ps-catalog-nav :focus-visible { outline: 2px solid #315e45; outline-offset: 3px; }
+  .ps-catalog-open > .ps-catalog-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, .32);
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header .ps-catalog-grid { gap: 10px; }
+  #header .ps-catalog-card { padding: 16px 6px; }
+  #header .ps-catalog-icon { width: 88px; height: 88px; flex-basis: 88px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #header .ps-catalog-nav * { transition: none; }
+}
+
+/* Mobilné menu podľa deNatura: Produkty -> kategórie -> podkategórie.
+   Natívny drawer Disco je mobilný do 767px; tabletové menu sa nemení. */
+.ps-mobile-catalog { display: none; }
+@media (max-width: 767px) {
+  #header #navigation.ps-mobile-catalog-ready {
+    max-width: calc(100vw - 48px);
+    background: #fff;
+  }
+  #header #navigation.ps-mobile-catalog-ready > .navigation-in {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  #header #navigation.ps-mobile-catalog-ready > .navigation-in > .menu-level-1 { display: none !important; }
+  #header #navigation .ps-mobile-catalog { display: block; width: 100%; }
+  #header #navigation .ps-mobile-heading {
+    display: block;
+    width: 100%;
+    min-height: 54px;
+    padding: 14px 20px;
+    border: 0;
+    border-bottom: 1px solid #e5e9e6;
+    background: #edf3ef;
+    color: #315e45;
+    font: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: left;
+    cursor: pointer;
+  }
+  #header #navigation .ps-mobile-rows { display: block; margin: 0; padding: 0; list-style: none; }
+  #header #navigation .ps-mobile-rows > li {
+    display: flex;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #e5e9e6;
+  }
+  #header #navigation .ps-mobile-rows > li > a {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 0;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    min-height: 54px;
+    color: #315e45;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  #header #navigation .ps-mobile-icon {
+    width: 46px;
+    height: 46px;
+    flex: 0 0 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: #edf3ef;
+  }
+  #header #navigation .ps-mobile-next {
+    flex: 0 0 44px;
+    min-height: 54px;
+    border: 0;
+    border-left: 1px solid #f1f3f1;
+    background: #fff;
+    color: #315e45;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  #header #navigation .ps-mobile-rows a:active,
+  #header #navigation .ps-mobile-next:active { background: #edf3ef; }
+  #header #navigation .ps-mobile-catalog :focus-visible { outline: 2px solid #315e45; outline-offset: -3px; }
+  #header #navigation .ps-mobile-rows .ps-mobile-all { font-weight: 700; }
+  body.navigation-window-visible #header .ps-menu-trigger svg { display: none; }
+  body.navigation-window-visible #header .ps-menu-trigger::before {
+    content: "×";
+    display: block;
+    height: 22px;
+    font-size: 30px;
+    line-height: 22px;
+  }
+}
+
+/* Rovnaký štvorcový rám pre kategóriové obrázky na desktope aj mobile. */
+#header .ps-catalog-icon,
+#header #navigation .ps-mobile-icon { position: relative; overflow: hidden; }
+#header .ps-catalog-icon img,
+#header #navigation .ps-mobile-icon img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background: #fff;
+  opacity: 0;
+}
+#header .ps-category-image-loaded img,
+#header #navigation .ps-mobile-icon.ps-category-image-loaded img { opacity: 1; }
+#header .ps-category-image-loaded svg { visibility: hidden; }
+
+@media (max-width: 767px) {
+  body.navigation-window-visible > .ps-catalog-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 55; /* Disco mobilná hlavička má z-index 56. */
+    background: rgba(0, 0, 0, .32);
+  }
+}
+
+@media (max-width: 767px) {
+  body.navigation-window-visible #header #navigation.ps-mobile-catalog-ready {
+    width: min(320px, calc(100vw - 48px));
+  }
+}
