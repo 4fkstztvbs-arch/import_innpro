@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600271,
+    "nextCardNumber": 202600272,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1622,6 +1622,12 @@
         "nazov": "Router GL.iNet GL-MT6000",
         "dodavatel": "innpro",
         "code": "093437"
+      },
+      "6939236146838": {
+        "kod": "202600271",
+        "nazov": "DAS TERRAMASTER",
+        "dodavatel": "innpro",
+        "code": "090330"
       }
     }
   },
