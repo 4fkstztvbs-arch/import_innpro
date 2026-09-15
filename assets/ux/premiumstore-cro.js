@@ -234,6 +234,50 @@
     // Nezakryť natívne menu, ak sa zmení jeho štruktúra alebo chýbajú kategórie.
     if (categories.length !== Object.keys(icons).length) return;
 
+    // Shoptet neposiela obrázok koreňovej kategórie v každom type menu.
+    // Voliteľná JSON mapa v HTML hlavičke: #ps-category-images, kľúč = ID kategórie.
+    var categoryImages = {};
+    var imageConfig = document.getElementById('ps-category-images');
+    if (imageConfig) {
+      try { categoryImages = JSON.parse(imageConfig.textContent) || {}; } catch (ignore) { /* Ikony zostanú. */ }
+    }
+    // Index vytvoríme len raz; pri prechode mobilným menu neprehľadávame celý strom.
+    var imageByPath = Object.create(null);
+    Array.prototype.forEach.call(document.querySelectorAll('#navigation a.menu-image, .subcategories a'), function (link) {
+      var img = link.querySelector('img');
+      if (img && link.getAttribute('href')) imageByPath[new URL(link.getAttribute('href'), location.href).pathname] = img;
+    });
+    function categoryImage(item) {
+      var match = item.className.match(/(?:^|\s)menu-item-(\d+)(?:\s|$)/);
+      var configured = match && categoryImages[match[1]];
+      // Len obrázok PRÍSLUŠNEJ kategórie, nie prvého potomka.
+      var nativeImage = item.querySelector(':scope > a.menu-image img, :scope > div > a.menu-image img');
+      var sourceLink = categoryAnchor(item);
+      if (!nativeImage && sourceLink) {
+        nativeImage = imageByPath[new URL(sourceLink.getAttribute('href'), location.href).pathname] || null;
+      }
+      var source = configured || (nativeImage && (nativeImage.getAttribute('data-src') || nativeImage.getAttribute('src')));
+      if (typeof source !== 'string' || !source.trim() || /(?:\/folder\.svg|\/no-image|\/noimage)/i.test(source)) return null;
+      try {
+        var url = new URL(source, location.href);
+        return /^https?:$/.test(url.protocol) ? url.href : null;
+      } catch (ignore) { return null; }
+    }
+    function applyCategoryImage(holder, item) {
+      var source = categoryImage(item);
+      if (!source) return;
+      var img = document.createElement('img');
+      img.alt = ''; // Názov je už v rovnakom odkaze vedľa obrázka.
+      img.width = 100;
+      img.height = 100;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+      img.addEventListener('load', function () { holder.classList.add('ps-category-image-loaded'); });
+      img.addEventListener('error', function () { img.remove(); holder.classList.remove('ps-category-image-loaded'); });
+      img.src = source;
+      holder.appendChild(img);
+    }
+
     var nav = document.createElement('nav');
     nav.className = 'ps-catalog-nav';
     nav.setAttribute('aria-label', 'Kategórie a informácie');
@@ -264,6 +308,7 @@
       var label = document.createElement('span');
       label.className = 'ps-catalog-label';
       label.textContent = source.textContent.trim();
+      applyCategoryImage(illustration, item);
       link.appendChild(illustration);
       link.appendChild(label);
       li.appendChild(link);
@@ -328,6 +373,112 @@
     document.addEventListener('pointerdown', function (event) { if (!nav.contains(event.target)) close(false); });
     window.addEventListener('resize', function () { close(false); });
     window.addEventListener('scroll', function () { if (!panel.hidden) close(false); }, { passive: true });
+    // Mobil: natívny Shoptet drawer a jeho otváranie zostávajú zachované.
+    // Meníme iba obsah; podkategórie sa čítajú z pôvodného stromu na požiadanie.
+    var mobile = document.createElement('div');
+    mobile.className = 'ps-mobile-catalog';
+    var mobileTrail = [];
+    function categoryAnchor(item) {
+      return item.querySelector(':scope > a:not(.menu-image), :scope > div > a:not(.menu-image)');
+    }
+    function categoryChildren(item) {
+      var ul = item.querySelector(':scope > ul, :scope > div > ul');
+      return ul ? Array.prototype.slice.call(ul.children).filter(function (el) { return el.tagName === 'LI'; }) : [];
+    }
+    function mobileScreen(focusBack) {
+      mobile.replaceChildren();
+      var screen = mobileTrail[mobileTrail.length - 1];
+      var heading = document.createElement('button');
+      heading.type = 'button';
+      heading.className = 'ps-mobile-heading';
+      if (screen) {
+        heading.textContent = '‹  ' + screen.title;
+        heading.setAttribute('aria-label', 'Späť z kategórie ' + screen.title);
+        heading.addEventListener('click', function () { mobileTrail.pop(); mobileScreen(true); });
+      } else {
+        heading.textContent = 'Produkty  ›';
+        heading.setAttribute('aria-label', 'Zobraziť kategórie produktov');
+        heading.addEventListener('click', function () {
+          mobileTrail.push({ title: 'Produkty', items: categories });
+          mobileScreen(true);
+        });
+      }
+      mobile.appendChild(heading);
+      var rows = document.createElement('ul');
+      rows.className = 'ps-mobile-rows';
+      if (screen && screen.href) {
+        var all = document.createElement('li');
+        var allLink = document.createElement('a');
+        allLink.href = screen.href;
+        allLink.textContent = 'Všetko v kategórii';
+        allLink.className = 'ps-mobile-all';
+        all.appendChild(allLink);
+        rows.appendChild(all);
+      }
+      (screen ? screen.items : items.filter(function (item) { return categories.indexOf(item) === -1; })).forEach(function (item) {
+        var source = categoryAnchor(item);
+        if (!source) return;
+        var row = document.createElement('li');
+        var link = document.createElement('a');
+        link.href = source.getAttribute('href');
+        var iconId = Object.keys(icons).filter(function (id) { return item.classList.contains('menu-item-' + id); })[0];
+        if (screen && (iconId || categoryImage(item))) {
+          var icon = document.createElement('span');
+          icon.className = 'ps-mobile-icon';
+          icon.innerHTML = '<svg viewBox="0 0 32 32" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (icons[iconId] || '<rect x="4" y="6" width="24" height="20" rx="2"/>') + '</svg>';
+          applyCategoryImage(icon, item);
+          link.appendChild(icon);
+        }
+        var text = document.createElement('span');
+        text.textContent = source.textContent.trim();
+        link.appendChild(text);
+        row.appendChild(link);
+        // Informačné odkazy (napr. Značky) ostávajú priame odkazy.
+        var children = screen ? categoryChildren(item) : [];
+        if (children.length) {
+          var next = document.createElement('button');
+          next.type = 'button';
+          next.className = 'ps-mobile-next';
+          next.textContent = '›';
+          next.setAttribute('aria-label', 'Podkategórie: ' + text.textContent);
+          next.addEventListener('click', function () {
+            mobileTrail.push({ title: text.textContent, href: link.getAttribute('href'), items: children });
+            mobileScreen(true);
+          });
+          row.appendChild(next);
+        }
+        rows.appendChild(row);
+      });
+      mobile.appendChild(rows);
+      if (focusBack) heading.focus({ preventScroll: true });
+      var scrollContainer = nativeNav.querySelector('.navigation-in');
+      if (scrollContainer) scrollContainer.scrollTop = 0;
+      nativeNav.scrollTop = 0;
+    }
+    mobileScreen(false);
+    var nativeInner = nativeNav.querySelector('.navigation-in');
+    if (nativeInner) {
+      nativeInner.insertBefore(mobile, nativeInner.firstChild);
+      nativeNav.classList.add('ps-mobile-catalog-ready');
+      var menuButton = document.querySelector('.ps-menu-trigger');
+      if (menuButton) {
+        menuButton.setAttribute('aria-controls', 'navigation');
+        function menuState() {
+          var isMenuOpen = document.body.classList.contains('navigation-window-visible');
+          menuButton.setAttribute('aria-expanded', String(isMenuOpen));
+          if (!isMenuOpen && mobileTrail.length) { mobileTrail = []; mobileScreen(false); }
+        }
+        menuState();
+        new MutationObserver(menuState).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+      }
+    }
+
+    backdrop.addEventListener('click', function () {
+      if (window.matchMedia('(max-width: 767px)').matches && document.body.classList.contains('navigation-window-visible')) {
+        var nativeToggle = document.querySelector('#header .navigation-buttons a[data-target="navigation"]');
+        if (nativeToggle) nativeToggle.click();
+      }
+    });
     wrapper.insertBefore(nav, nativeNav);
     document.body.appendChild(backdrop);
     wrapper.classList.add('ps-catalog-ready');
