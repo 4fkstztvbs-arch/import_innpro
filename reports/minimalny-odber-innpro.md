@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-15 09:05 UTC.
+Kontrola z 2026-09-15 14:34 UTC.
 
-InnPro pri **390** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **389** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -178,7 +178,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `068234` | Silicone Cover Case Set with Strap PULUZ For DJI OSMO Pocket | — | 5 |
 | `068805` | Mini Bag PULUZ for DJI Osmo Pocket 3 (Black) | — | 5 |
 | `068803` | Mini Body Bag PULUZ For DJI Osmo Action 5 Pro / 4 / 3 (Black | — | 5 |
-| `068808` | Mini Body Bag PULUZ For Insta360 GO 3 / GO 3S (Black) | — | 2 |
 | `068859` | Lens Cap Sunnylife for Insta360 GO3S | — | 5 |
 | `069434` | TELESIN tempered glass for DJI Osmo Pocket 3 | — | 5 |
 | `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
