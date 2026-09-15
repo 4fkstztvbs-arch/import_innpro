@@ -138,12 +138,6 @@
     );
   }
 
-  // Mobil: tlačidlo "Menu" pred logom (ikonka + popisok pod ňou), podľa
-  // vzoru denatura.cz. NEPRESÚVA skutočné hamburger tlačidlo (to by
-  // rozbilo natívne display:none/ikonku/otváranie - vid. komentár pri
-  // headerSupportBlock vyššie) - namiesto toho vytvorí VLASTNÉ tlačidlo,
-  // ktoré len "prepošle" klik na skutočné tlačidlo. Pôvodné tlačidlo sa
-  // v rade ikoniek skryje cez CSS, nech tam nie je duplicitne.
   function menuTrigger() {
     if (document.querySelector('.ps-menu-trigger')) return;
     // Na checkoute (ordering-process) Shoptet zámerne nerenderuje obsah
@@ -176,10 +170,6 @@
     wrapper.insertBefore(btn, wrapper.firstChild);
   }
 
-  // Mobil: kópia PS bloku (avatar+telefón+hodiny) do vysúvacieho menu
-  // (#navigation .navigationActions), podľa vzoru denatura.cz. Čisto
-  // informačný blok (len tel: odkaz) - kópia HTML je v poriadku, na
-  // rozdiel od Prihlásenia nemá vlastné Shoptet event-listenery.
   function mobileMenuSupportBlock() {
     // Blok sa vkladá AFTER .navigationActions (ako súrodenec, nie
     // potomok) - kontrola preto musí hľadať cez triedu, ktorá je
@@ -362,7 +352,10 @@
       }, 180);
     }
     trigger.addEventListener('pointerenter', function () { if (finePointer.matches) open(); });
-    trigger.addEventListener('click', function () { if (panel.hidden) open(); else close(false); });
+    trigger.addEventListener('click', function (event) {
+      if (panel.hidden || (finePointer.matches && event.detail > 0)) open();
+      else close(false);
+    });
     trigger.addEventListener('keydown', function (event) {
       if (event.key === 'ArrowDown') { event.preventDefault(); open(); list.querySelector('a').focus(); }
     });
@@ -568,14 +561,39 @@
     summaryBox.appendChild(nextStep);
   }
 
-  // --- 7) Text tlačidla "Pokračovať" -> "Pokračovať v objednávke" -----------
-  // (checkout, krok "Doprava & platba"), presne ako "POKRAČOVAT V OBJEDNÁVCE"
-  // na denatura.cz. Mení len textový obsah, submit na #order-form ostáva.
   function renameContinueButton() {
     var span = document.querySelector('#checkoutSidebar #orderFormButton .order-button-text');
     if (!span) return;
     if (span.textContent.trim() === 'Pokračovať v objednávke') return;
     span.textContent = 'Pokračovať v objednávke';
+  }
+
+  // Kompaktná hlavička používa pôvodné ovládanie Shoptetu.
+  function compactHeader() {
+    var header = document.getElementById('header');
+    if (!header || header.classList.contains('ps-compact-header') || document.body.classList.contains('ordering-process')) return;
+    var top = header.querySelector('.header-top-wrapper');
+    var bottom = header.querySelector('.header-bottom-wrapper');
+    var catalog = header.querySelector('.ps-catalog-nav');
+    var search = top && top.querySelector('.search');
+    var buttons = top && top.querySelector('.navigation-buttons');
+    if (!top || !bottom || !catalog || !search || !buttons) return;
+    var login = buttons.querySelector('.top-nav-button-login');
+    if (login && !login.getAttribute('aria-label')) login.setAttribute('aria-label', 'Prihlásenie');
+    var phone = document.createElement('a');
+    phone.className = 'ps-header-phone';
+    phone.href = 'tel:' + SUPPORT_PHONE.replace(/\s+/g, '');
+    phone.setAttribute('aria-label', 'Zavolať na ' + SUPPORT_PHONE);
+    phone.innerHTML = '<svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 3 4 4c-3 5 11 19 16 16l1-4-5-2-2 2a16 16 0 0 1-6-6l2-2Z"/></svg>';
+    buttons.insertBefore(phone, buttons.firstChild);
+    var desktop = window.matchMedia('(min-width: 992px)');
+    function placeCatalog() {
+      if (desktop.matches) top.insertBefore(catalog, search);
+      else bottom.insertBefore(catalog, bottom.firstChild);
+    }
+    placeCatalog();
+    desktop.addEventListener('change', placeCatalog);
+    header.classList.add('ps-compact-header');
   }
 
   // --- Spustenie -------------------------------------------------------------
@@ -584,6 +602,7 @@
     headerSupportBlock();
     menuTrigger();
     catalogMenu();
+    compactHeader();
     mobileMenuSupportBlock();
     stickyBuyBar();
     deemphasizeSecondaryActions();

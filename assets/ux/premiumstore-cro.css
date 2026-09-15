@@ -5,9 +5,7 @@
  * v Design -> Rozšírené nastavenia -> Vlastný HTML kód -> pätička.
  */
 
-/* Písmo "Plus Jakarta Sans" (Google Fonts) - rovnaké ako používa denatura.cz,
-   nahrádza predvolené Shoptet písma Exo 2 (nadpisy) / Source Sans 3 (text).
-   @import musí byť pred všetkými ostatnými pravidlami v súbore. */
+
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 
 body, div, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4,
@@ -143,14 +141,7 @@ body {
   }
 }
 
-/* Mobil, podľa vzoru denatura.cz:
-   - .ps-menu-trigger: VLASTNÉ tlačidlo "Menu" pred logom (ikonka +
-     popisok pod ňou), ktoré len prepošle klik na skutočné natívne
-     hamburger tlačidlo - to sa v rade ikoniek skryje (display:none),
-     nech tam nie je duplicitne. Skutočný element sa NEPRESÚVA v DOM
-     (natívne display:none/ikonka/otváranie menu sú viazané na priamu
-     pozíciu vnútri .navigation-buttons, presun by to rozbil).
-   - PS blok skopírovaný do vysúvacieho menu (.navigationActions) */
+
 @media (max-width: 991px) {
   #header .navigation-buttons a[data-target="navigation"] {
     display: none !important;
@@ -217,15 +208,7 @@ body {
   }
 }
 
-/* Pravá časť hlavičky (PS blok s telefónom + prihlásenie/účet z
-   headerSupportBlock/relocateLoginButton) ostáva na checkoute viditeľná
-   rovnako ako na ostatných stránkach, na VŠETKÝCH šírkach vrátane
-   mobilu - natívne Shoptet CSS inak .navigation-buttons na id--16/id--17
-   úplne skryje (spolu s hlavným menu), bez ohľadu na šírku obrazovky.
-   Skrývame späť len ikony vyhľadávania a hamburger menu (to isté robí aj
-   denatura vo vlastnom CSS) - menu kategórií samotné ostáva skryté cez
-   .header-bottom vyššie (na mobile ho Shoptet natívne aj tak skoluje na
-   výšku 0, netreba ho tam skrývať zvlášť). */
+
 body.ordering-process .navigation-buttons {
   display: flex !important;
 }
@@ -523,16 +506,7 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
   opacity: 1;
 }
 
-/* ============================================================
-   Checkout "Doprava & platba" (krok-1) - verný port skutočného
-   produkčného CSS z denatura.cz (rovnaká šablóna Shoptet Disco,
-   rovnaké id--16/id--17 aj triedy - overené stiahnutím ich
-   user/documents/styles31.css a porovnaním s main-13.less...css).
-   Farby okrem tlačidla "Pokračovať" sú 1:1 ich hodnoty (--dn-* nižšie);
-   tlačidlo necháva našu existujúcu zelenú (var(--p) z pôvodného
-   vlastného CSS), presne podľa zadania "identický dizajn, zmeniť len
-   farbu tlačidla".
-   ============================================================ */
+
 :root {
   /* Svetlé zelenkasté pozadia (pás krokov, zvolený riadok dopravy/platby)
      nahradené požadovanou svetlomodrou D1E5EC - podľa zadania sa mení len
@@ -543,7 +517,7 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
   --dn-b100: #94b9a4;
   --dn-b200: #659b7d;  /* zvolená doprava/platba - okraj + text kroku */
   --dn-b300: #468662;  /* aktívny krok - okraj kruhu */
-  --dn-b400: #315e45;
+  --dn-b400: #0e151c;
   --dn-g50: #ebebeb;   /* okraj kariet dopravy/platby */
   --dn-g75: #acacad;
   --dn-g200: #898a8b;
@@ -554,18 +528,13 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
   --dn-s300: #f3ece4;  /* krémový zvýraznený blok "Celkom k úhrade" */
 }
 
-/* --- Krokový pruh (ol.cart-header) --------------------------------------
-   denatura: prerušovaná krátka čiarka (64px) medzi krokmi namiesto
-   plnej čiary cez celú šírku, kruh aktívneho kroku je len obrys (nie
-   plná výplň), dokončený krok = biely kruh na zelenom páse. */
+
 ol.cart-header {
   position: relative !important;
   margin: 0 !important;
   padding: 16px 0 !important;
 }
-/* Presne podľa denatura.cz: pás siaha cez celú šírku obrazovky (presah
-   mimo kontajnera), BEZ zaoblenia - nie ohraničený zaoblený box vo vnútri
-   stĺpca s obsahom. */
+
 ol.cart-header::before {
   content: "" !important;
   position: absolute !important;
@@ -619,16 +588,7 @@ body.ordering-process #content ol.cart-header li.active span {
 body.ordering-process #content ol.cart-header li.completed span {
   color: var(--dn-g300) !important;
 }
-/* Kruh s číslom - predvolene obrys, aktívny krok zvýraznený obrysom,
-   dokončený krok biely kruh (splynie so zeleným pásom za ním).
-   Selektory tu majú navyše predpону `body.ordering-process`, lebo staršie
-   "Vlastné CSS" v administrácii (mimo tohto repa) má rovnako špecifický
-   `ol.cart-header li.active/.completed a:before{color:#fff!important}`
-   a bez tejto vyššej špecificity by pri farbe textu vyhrávalo ono
-   (číslo bolo neviditeľné - biele na bielej/zelenej).
-   display:inline-block + margin-right (namiesto natívneho block +
-   margin:0 auto, ktoré centruje kruh NAD textom) dáva kruh a text vedľa
-   seba na jeden riadok, presne ako u denatura. */
+
 body.ordering-process #content ol.cart-header li a:before,
 body.ordering-process #content ol.cart-header li strong:before {
   background-color: transparent !important;
@@ -656,8 +616,7 @@ body.ordering-process #content ol.cart-header li.completed strong:before {
   border-color: #fff !important;
   color: var(--dn-b300) !important;
 }
-/* Pôvodná spájacia čiara na celú šírku (span:after) sa na denatura
-   vôbec nepoužíva - nahradená krátkou čiarkou cez ::after na li. */
+
 ol.cart-header li a span:after,
 ol.cart-header li strong span:after {
   content: none !important;
@@ -673,8 +632,7 @@ ol.cart-header > li:not(:last-child):after {
   transform: translateY(-50%) !important;
 }
 
-/* Mobil (denatura): menší kruh (32px namiesto 40px), menší text (12px),
-   kratšia spojovacia čiarka a menší padding pruhu - presne ich hodnoty. */
+
 @media (max-width: 767px) {
   #content ol.cart-header {
     padding: 8px 0 !important;
@@ -701,10 +659,7 @@ ol.cart-header > li:not(:last-child):after {
   }
 }
 
-/* --- Riadky spôsobu dopravy/platby (.radio-wrapper) ---------------------
-   Natívne Shoptet triedu `.active` na zvolenom .radio-wrapper prepína
-   samo (rovnaký mechanizmus používa aj denatura - .radio-wrapper.active
-   .for-free v main-13.less...css), netreba teda vlastný JS/`:has()`. */
+
 .shipping-billing-table .radio-wrapper {
   border: 1px solid var(--dn-g50) !important;
   padding: 16px 24px !important;
@@ -763,20 +718,7 @@ ol.cart-header > li:not(:last-child):after {
   line-height: 1.1 !important;
   font-weight: 600 !important;
 }
-/* Natívne .payment-info má cez @container (width > 27em) nastavený
-   flex-basis:calc(100% - 100px - 7.2em) a cena flex:1 0 7.2em - spolu s
-   pevnou šírkou loga (100px) to v našom rozložení mierne presiahne šírku
-   labelu, takže sa (kvôli natívnemu flex-wrap:wrap na labeli) cena
-   zalomila na samostatný riadok pod názov namiesto vedľa neho (overené
-   priamo v DevTools - label 71.5px vysoký namiesto 50px).
-   DÔLEŽITÉ: platí na VŠETKÝCH šírkach vrátane mobilu - overené priamo na
-   živých screenshotoch z denatura.cz (mobil, iPhone), kde je názov
-   dopravy/platby vľavo a logo+cena vpravo v TOM ISTOM riadku (aj keď sa
-   názov láme na 2 riadky), nikdy nie je cena zalomená pod text na
-   samostatný riadok s medzerou. Predošlý pokus toto na mobile riešiť
-   opačne (cena ako blok pod textom, podľa jednej konkrétnej @media
-   pravidla z denatura CSS) bol omyl - to pravidlo sa v skutočnosti na
-   živom webe takto neuplatňuje. */
+
 .shipping-billing-table .radio-wrapper input[type="radio"] + label {
   flex-wrap: nowrap !important;
 }
@@ -806,11 +748,7 @@ ol.cart-header > li:not(:last-child):after {
     max-width: 56px !important;
   }
 }
-/* Na mobile bolo logo stále "order:-1;flex:0 0 100px" z desktopového
-   pravidla vyššie - kombinácia s natívnym flex-wrap:wrap na labeli tak
-   logo posunula na vlastný (prvý) riadok nad celý text namiesto malej
-   ikonky vedľa/za textom. Denatura na mobile poradie aj šírku loga
-   resetuje späť (overené priamo v ich CSS, presne tento breakpoint). */
+
 @media (max-width: 767px) {
   .shipping-billing-table .radio-wrapper > label .payment-logo {
     order: unset !important;
@@ -826,31 +764,14 @@ ol.cart-header > li:not(:last-child):after {
     max-width: 64px !important;
   }
 }
-/* Užší mobil - len zmenšenie paddingu/písma a posun bodky od okraja,
-   presne podľa denatura CSS pre tento breakpoint. Rozloženie riadku
-   (text vľavo, logo+cena vpravo v jednom riadku) rieši univerzálne
-   pravidlo vyššie (flex-wrap:nowrap) - platí aj tu, nemení sa. */
+
 @media (max-width: 499px) {
   .shipping-billing-table .radio-wrapper {
     padding: 16px 16px 20px 16px !important;
   }
-  /* Denatura na tomto kroku mení aj position labelu na "initial" - to
-     ale posúva pozicovací kontext bodky (:before, position:absolute;
-     top:calc(.75em + 1px) - teda odsadenie OD VRCHU kontextu, nie
-     vertikálne centrovanie) z tesného labelu na vyššieho predka
-     (.radio-wrapper, vyšší/vypchatý paddingom), takže bodka vyskočí
-     nahor mimo stred textu (overené priamo v Shoptet návrhárovi
-     šablóny - bodka bola nad textom, nie pri ňom). Necháme preto label
-     pri natívnom position:relative (bez zásahu) - bodka sa tak počíta
-     voči tesnému labelu a zostáva pri texte, len s posunom left:16px
-     nižšie. */
+
   .shipping-billing-table .radio-wrapper input[type="radio"] + label {
-    /* Denatura má tu padding-left len 34px, počítané s ich menšou (18px)
-       natívnou bodkou - u nás je bodka o čosi väčšia (20px, viď nižšie
-       .shipping-billing-table input[type="radio"]+label:before), takže
-       pri 34px padding-left prakticky prilieha/prekrýva sa s textom.
-       Zväčšené na 42px, nech medzi bodkou (left:16px + šírka 20px = končí
-       na 36px) a textom ostane viditeľná medzera. */
+
     padding-left: 42px !important;
     margin-right: 0 !important;
   }
@@ -869,12 +790,7 @@ ol.cart-header > li:not(:last-child):after {
     font-size: 13px !important;
   }
 }
-/* Zvolený radio-bod - naša zelená (var(--p) z pôvodného vlastného CSS,
-   rovnaká ako tlačidlo "Pokračovať"), namiesto natívnej --color-primary
-   (na tomto webe čierna). Bez zásahu do tejto globálnej premennej,
-   nech to neovplyvní iné tlačidlá/prvky na webe. Denatura tu má vlastnú
-   SVG ikonu (cudzí hosting, nedá sa priamo prevziať) - farba bodky je ale
-   1:1 rovnaký princíp (input:checked mení farbu). */
+
 .shipping-billing-table .radio-wrapper input[type="radio"]:checked + label:before {
   border-color: var(--p, #24b47e) !important;
 }
@@ -886,21 +802,13 @@ ol.cart-header > li:not(:last-child):after {
   border-color: var(--dn-b200) !important;
 }
 
-/* Natívna ikona pred nadpismi krokov (h2.order-icon - kamión/karta pred
-   "Zvoľte spôsob dopravy"/"Zvoľte spôsob platby") - na denatura je skrytá
-   (.id--16 .order-icon::before{content:none!important} v ich vlastnom CSS,
-   overené priamo z ich kompilovaného stylesheetu main-13...css). */
+
 .id--16 .order-icon::before,
 .id--17 .order-icon::before {
   content: none !important;
 }
 
-/* --- Krok "Informácie o vás" (id--17) - nadpisy sekcií a polia formulára -
-   Nadpisy "Osobné údaje"/"Fakturačná adresa" sú <h2> (nie .order-icon ako
-   na kroku dopravy), natívna ikona sa vkladá cez samostatné pravidlo
-   .co-box.co-contact-information/.co-billing-address h2:before. Denatura
-   ju skrýva presne takto (overené priamo v ich vlastnom CSS) a naviac ruší
-   aj natívny padding-left:40px, ktorý pre ikonu robil miesto. */
+
 body.ordering-process .co-box h2 {
   padding-left: 0 !important;
 }
@@ -909,14 +817,7 @@ body.ordering-process .co-box.co-billing-address h2::before,
 body.ordering-process .co-box.co-shipping-address h2::before {
   display: none !important;
 }
-/* Label (Meno, Email, Telefón...) NIE JE plávajúci/prekrývajúci sa s
-   poľom (natívne .smart-label-wrapper label je position:absolute nad
-   vstupom) - denatura ho vo vlastnom CSS mení na normálny label VEDĽA
-   poľa (flex riadok): .form-group{display:flex;align-items:center;
-   gap:10px}, label position:relative;flex:1;max-width:240px, pole
-   flex:1. Overené priamo na živom denatura.cz (lokálny render z ich
-   reálneho HTML/CSS - label je vľavo od poľa, nie v ňom, na žiadnej
-   šírke - inak by sa napr. pri telefóne prekrýval s vlajkou/predvoľbou). */
+
 #checkoutContent .form-control-wrapper {
   flex: 1 !important;
   max-width: unset !important;
@@ -935,18 +836,11 @@ body.ordering-process .co-box.co-shipping-address h2::before {
   align-items: center !important;
   gap: 10px !important;
 }
-/* Pod 768px má denatura label nad poľom (stĺpec), nie vedľa neho -
-   rovnaký princíp (position:relative), len iné usporiadanie. */
+
 @media (max-width: 767px) {
   #checkoutContent .form-group {
     flex-direction: column !important;
-    /* Base (nescopované) pravidlo vyššie má align-items:center - v
-       stĺpcovom rozložení to zmršťuje aj .form-control-wrapper (obal
-       poľa) na šírku OBSAHU namiesto natiahnutia na celú šírku stĺpca;
-       input mal síce width:100%, ale počítalo sa to voči tomuto
-       zmrštenému obalu, nie voči celej šírke. Pole tak vychádzalo oveľa
-       užšie než na denatura (overené priamo na živom mobile screenshote -
-       cca 63% šírky namiesto takmer celej). Explicitný stretch to opravuje. */
+
     align-items: stretch !important;
   }
   #checkoutContent .smart-label-wrapper label {
@@ -960,11 +854,7 @@ body.ordering-process .co-box.co-shipping-address h2::before {
     margin-top: 24px !important;
   }
 }
-/* Vstupné polia (meno, email, telefón, adresa...) - natívne form-control
-   má malý border-radius; denatura ich má plne "pill" tvarované (border-
-   radius:100px), 54px vysoké, 580px široké, s farbou okraja --color-g75
-   (u nás --dn-g75). Presne podľa #checkoutContent .form-group input v ich
-   CSS. Telefón má naviac padding vľavo pre predvoľbu/vlajku krajiny. */
+
 #checkoutContent .form-group {
   margin-bottom: 20px !important;
 }
@@ -987,36 +877,21 @@ body.ordering-process .co-box.co-shipping-address h2::before {
   border-color: var(--dn-g75) !important;
 }
 
-/* Natívna bodka radio/checkbox je len 18px (--form-fields-checkbox-size).
-   Denatura ju globálne zväčšuje na 20px - rovnaká hodnota ako label
-   padding-left:40px vyššie počíta. */
+
 .shipping-billing-table input[type="radio"] + label:before {
   width: 20px !important;
   height: 20px !important;
   border-color: var(--dn-g75) !important;
 }
 
-/* "?" tooltip bublina (.question-tooltip) natívne berie farbu z
-   --color-primary, čo je na tomto webe čierna (starý firemný vlastný CSS) -
-   preto vychádza ako plná čierna guľôčka namiesto zelenej ako na denatura
-   (tam je --color-primary rovno ich zelená). Farbu meníme len v rámci
-   checkoutu na našu --p, aby sme sa nedotkli --color-primary globálne. */
+
 body.ordering-process .question-tooltip {
   background-color: var(--p, #24b47e) !important;
   border-color: var(--p, #24b47e) !important;
 }
 
 /* --- Rozloženie stĺpcov (checkout, body.id--16 aj id--17) ---------------- */
-/* Natívne Bootstrap .row.col-md-8/.col-md-4 delí stĺpce na percentá celej
-   šírky kontajnera (preto bola karta zhrnutia neprimerane široká aj zvisle
-   nezarovnaná pri dlhšom ľavom stĺpci). denatura má PRE KAŽDÝ krok vlastné
-   pravidlo (.id--16 aj samostatne .id--17 .row.cart-row{display:flex;...}) -
-   predtým som preniesol len id--16, krok "Informácie o vás" (id--17) tak
-   zostal na natívnom rozložení a karta bola posunutá nižšie/nezarovnaná.
-   DÔLEŽITÉ: len od 768px vyššie - Bootstrap .col-md-* je od prírody
-   responzívny (na mobile sa stĺpce zalamujú pod seba na 100% šírky);
-   force-flex/max-width bez media query by na mobile natlačil oba stĺpce
-   vedľa seba na malú šírku. */
+
 @media (min-width: 768px) {
   .id--16 .row.cart-row,
   .id--17 .row.cart-row {
@@ -1033,14 +908,7 @@ body.ordering-process .question-tooltip {
   #checkoutSidebar {
     max-width: 360px !important;
     padding: 0 !important;
-    /* denatura má kartu "sticky" - sleduje scroll, aby bola stále vidno.
-       Natívne #checkoutSidebar{position:relative;transition:top .6s
-       ease-out} rieši to isté vlastným JS (mení position/top pri
-       scrolle), čo ale pri dlhšom ľavom stĺpci (krok "Informácie o vás")
-       spôsobovalo viditeľný posun karty nadol už pri načítaní stránky.
-       Namiesto spoliehania sa na ten krehký JS mechanizmus tu čisté CSS
-       sticky - nezávislé od dĺžky ľavého stĺpca. !important prebije
-       akúkoľvek inline štýl hodnotu, ktorú by JS ešte skúsil nastaviť. */
+
     position: sticky !important;
     top: 20px !important;
     align-self: flex-start !important;
@@ -1051,26 +919,18 @@ body.ordering-process .question-tooltip {
     margin-left: 0 !important;
     padding: 0 !important;
   }
-  /* Krok "Informácie o vás" má užší stĺpec obsahu ako krok dopravy/platby
-     (overené priamo v CSS denatura: .id--17 #checkoutContent{max-width:
-     820px}, u nás bez tejto výnimky bol stĺpec o čosi širší a celý
-     obsah tak začínal/končil inde než na denatura). */
+
   .id--17 #checkoutContent {
     max-width: 820px !important;
   }
 }
-/* Medzera medzi zeleným pruhom krokov a obsahom nižšie - natívne
-   .cart-inner nemá žiadny padding-top, denatura ho pridáva vlastným CSS
-   (.cart-inner{padding:48px 0 0}), inak by bol obsah "nalepený" hneď pod
-   pruhom. */
+
 .cart-inner {
   padding-top: 48px !important;
 }
 
 /* --- Karta "Zhrnutie objednávky" - zvýraznený krémový blok sumy --------- */
-/* denatura skrýva box "Potrebujete poradiť?" v sidebari checkoutu úplne
-   (.order-summary .checkout-box{display:none}) - pre 1:1 zhodu layoutu
-   rovnako tu, kontakt ostáva dostupný v pätičke/hlavičke webu. */
+
 #checkoutSidebar .order-summary .checkout-box {
   display: none !important;
 }
@@ -1095,8 +955,7 @@ body.ordering-process .question-tooltip {
   padding: 32px 24px 0 !important;
   margin: 0 !important;
   overflow: hidden !important;
-  /* Staršie "Vlastné CSS" v administrácii dáva na .order-summary-inner
-     box-shadow:0 8px 24px rgba(0,0,0,.08) - denatura kartu bez tieňa. */
+
   box-shadow: none !important;
 }
 /* KĽÚČOVÉ: staršie "Vlastné CSS" v administrácii cieli `#checkoutSidebar
@@ -1109,13 +968,7 @@ body.ordering-process .question-tooltip {
   margin: 0 !important;
   padding: 32px 24px 0 !important;
 }
-/* Natívne Shoptet CSS dáva každému .order-summary-item vlastný horný
-   okraj (delenie riadkov), zjavne z ďalšieho pravidla, ktoré tu nemožno
-   naslepo dohľadať (skúšané odstránenie len cez "border-top:none" na
-   susedných prvkoch nezaberalo). Namiesto toho okraj úplne vynulujeme na
-   VŠETKÝCH riadkoch a vrátime naspäť len presne tie dve čiary, čo chceme -
-   tenkú pod položkou tovaru a hrubú tmavú pod "Celkom za tovar", presne
-   ako u denatura (#shipping-billing-summary{border-top:...var(--color-g400)}). */
+
 #checkoutSidebar .order-summary-item {
   padding: 15px 0 !important;
   border: none !important;
@@ -1124,17 +977,12 @@ body.ordering-process .question-tooltip {
 #checkoutSidebar .order-summary-item[data-testid="recapCartItem"] {
   border-bottom: 1px solid var(--dn-g50) !important;
 }
-/* Riadky dopravy/platby ("Packeta", "Online platba kartou") sa dopĺňajú
-   AJAX-om po výbere dopravy - inou triedou (.recapitulation-single) než
-   .order-summary-item, preto rovnaké vynulovanie aj tu. Natívne majú
-   padding:22px 0 (odtiaľ veľké prázdne miesto medzi riadkami) - denatura
-   ich stláča na padding:5px 0, presne ako tu. */
+
 #checkoutSidebar .recapitulation-single {
   border: none !important;
   padding: 5px 0 !important;
 }
-/* Obalový element #shipping-billing-summary (denatura) má vlastný padding
-   14px hore / 26px dole - nahrádza väčší natívny odstup. */
+
 #checkoutSidebar #shipping-billing-summary {
   padding: 14px 0 26px !important;
 }
@@ -1142,9 +990,7 @@ body.ordering-process .question-tooltip {
   font-weight: 600 !important;
   border-bottom: 2px solid var(--dn-g400) !important;
 }
-/* Presne podľa denatura: vodorovný padding nesie vnútorný .price-wrapper,
-   nie priamo .order-summary-item.price (ten len bledie na okraje karty
-   a nesie farbu pozadia). */
+
 #checkoutSidebar .order-summary-item.price {
   margin: 0 -24px !important;
   width: calc(100% + 48px) !important;
@@ -1154,10 +1000,7 @@ body.ordering-process .question-tooltip {
 #checkoutSidebar .order-summary-item.price .price-wrapper {
   padding: 0 24px !important;
 }
-/* Natívne Shoptet CSS núti .price-label.price-primary aj .price.price-primary
-   na flex:1 1 100% (zalomí popisok a sumu pod seba, na 2 riadky) - denatura
-   to prepisuje na 50%/50% vedľa seba na jednom riadku. Rovnaký princíp aj
-   pre "Cena bez DPH" (.price-secondary). */
+
 #checkoutSidebar .price-wrapper .price-label.price-primary,
 #checkoutSidebar .price-wrapper .price.price-primary,
 #checkoutSidebar .price-wrapper .price-label.price-secondary,
@@ -1208,9 +1051,7 @@ body.ordering-process .question-tooltip {
 #checkoutSidebar .preauthorization-box {
   display: none !important;
 }
-/* Denatura: .btn.btn-conversion{font-size:13px;font-weight:700;
-   letter-spacing:2px;line-height:1.7;padding:16px 48px;border-radius:100px}
-   - naše .btn-lg bolo oveľa väčšie (preto sa text lámal na 2 riadky). */
+
 #checkoutSidebar .next-step .btn.btn-lg {
   width: 100% !important;
   justify-content: center !important;
@@ -1226,16 +1067,12 @@ body.ordering-process .question-tooltip {
 #checkoutSidebar .next-step .btn.btn-lg .order-button-text {
   font-size: 13px !important;
 }
-/* denatura odkaz "Zpět" v karte zhrnutia nezobrazuje. */
+
 #checkoutSidebar .next-step .next-step-back {
   display: none !important;
 }
 
-/* --- Typografia nadpisov (checkout) --------------------------------------
-   Rovnaké písmo (Plus Jakarta Sans) sme mali už predtým, ale nadpisy u nás
-   padali na predvolenú prehliadačovú tučnú váhu (700), zatiaľ čo denatura
-   má h1-h6/.h1-.h6 explicitne font-weight:500 + letter-spacing:1px - preto
-   ich nadpisy vyzerajú "tenšie"/vzdušnejšie aj pri rovnakom fonte. */
+
 body.ordering-process h1,
 body.ordering-process h2,
 body.ordering-process h3,
@@ -1250,15 +1087,8 @@ body.ordering-process .h4 {
   letter-spacing: 1px !important;
 }
 
-/* --- Modál "Možnosti doručenia" v detaile produktu (.shipping-options-popup)
-   Podľa denatura.cz reálneho CSS (styles31.css): zaoblený modál (cboxContent
-   20px), logo prepravcu PRED názvom (order:-1, väčšie, 50px), riadky
-   oddelené hornou linkou s väčším paddingom, cena/tučný text jednotnou
-   váhou 500. Netýka sa checkoutu (#order-shipping-methods) - tam má
-   .payment-logo iné poradie/veľkosti riešené vyššie. */
-/* Bez triedy .productDetail - modál dopravy beží pod generickým
-   #cboxContent (nie je to fotogaléria), preto zaoblenie musí byť
-   nepodmienené, presne ako v denatura.cz #cboxContent{border-radius:20px}. */
+
+
 #cboxContent {
   border-radius: 20px !important;
 }
@@ -1343,16 +1173,16 @@ body.ordering-process .h4 {
     line-height: 1.3;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #315e45;
+    color: #0e151c;
     border-radius: 100px;
     background: transparent;
     border: 1px solid transparent;
     cursor: pointer;
     transition: background-color .16s ease, color .16s ease;
   }
-  #header .ps-catalog-trigger { border-color: #315e45; }
+  #header .ps-catalog-trigger { border-color: #0e151c; }
   #header .ps-catalog-info { color: #242527; }
-  #header .ps-catalog-info:hover { background: #edf3ef; color: #315e45; }
+  #header .ps-catalog-info:hover { background: #eff4f6; color: #0e151c; }
   #header .ps-catalog-nav.is-open .ps-catalog-trigger {
     border-color: #fff;
     background: #fff;
@@ -1393,19 +1223,19 @@ body.ordering-process .h4 {
     padding: 22px 10px;
     box-sizing: border-box;
     border-radius: 14px;
-    color: #315e45;
+    color: #0e151c;
     text-decoration: none;
     text-align: center;
     transition: background-color .16s ease;
   }
   #header .ps-catalog-card:hover,
-  #header .ps-catalog-card:focus-visible { background: #edf3ef; }
+  #header .ps-catalog-card:focus-visible { background: #eff4f6; }
   #header .ps-catalog-icon {
     width: 100px;
     height: 100px;
     flex: 0 0 100px;
     border-radius: 4px;
-    background: #edf3ef;
+    background: #eff4f6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1417,7 +1247,7 @@ body.ordering-process .h4 {
     letter-spacing: .5px;
     overflow-wrap: anywhere;
   }
-  #header .ps-catalog-nav :focus-visible { outline: 2px solid #315e45; outline-offset: 3px; }
+  #header .ps-catalog-nav :focus-visible { outline: 2px solid #0e151c; outline-offset: 3px; }
   .ps-catalog-open > .ps-catalog-backdrop {
     display: block;
     position: fixed;
@@ -1435,8 +1265,7 @@ body.ordering-process .h4 {
   #header .ps-catalog-nav * { transition: none; }
 }
 
-/* Mobilné menu podľa deNatura: Produkty -> kategórie -> podkategórie.
-   Natívny drawer Disco je mobilný do 767px; tabletové menu sa nemení. */
+
 .ps-mobile-catalog { display: none; }
 @media (max-width: 767px) {
   #header #navigation.ps-mobile-catalog-ready {
@@ -1457,8 +1286,8 @@ body.ordering-process .h4 {
     padding: 14px 20px;
     border: 0;
     border-bottom: 1px solid #e5e9e6;
-    background: #edf3ef;
-    color: #315e45;
+    background: #eff4f6;
+    color: #0e151c;
     font: inherit;
     font-size: 18px;
     font-weight: 700;
@@ -1482,7 +1311,7 @@ body.ordering-process .h4 {
     gap: 12px;
     padding: 10px 12px;
     min-height: 54px;
-    color: #315e45;
+    color: #0e151c;
     font-size: 14px;
     line-height: 1.4;
     font-weight: 600;
@@ -1498,7 +1327,7 @@ body.ordering-process .h4 {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    background: #edf3ef;
+    background: #eff4f6;
   }
   #header #navigation .ps-mobile-next {
     flex: 0 0 44px;
@@ -1506,13 +1335,13 @@ body.ordering-process .h4 {
     border: 0;
     border-left: 1px solid #f1f3f1;
     background: #fff;
-    color: #315e45;
+    color: #0e151c;
     font-size: 28px;
     cursor: pointer;
   }
   #header #navigation .ps-mobile-rows a:active,
-  #header #navigation .ps-mobile-next:active { background: #edf3ef; }
-  #header #navigation .ps-mobile-catalog :focus-visible { outline: 2px solid #315e45; outline-offset: -3px; }
+  #header #navigation .ps-mobile-next:active { background: #eff4f6; }
+  #header #navigation .ps-mobile-catalog :focus-visible { outline: 2px solid #0e151c; outline-offset: -3px; }
   #header #navigation .ps-mobile-rows .ps-mobile-all { font-weight: 700; }
   body.navigation-window-visible #header .ps-menu-trigger svg { display: none; }
   body.navigation-window-visible #header .ps-menu-trigger::before {
@@ -1558,4 +1387,117 @@ body.ordering-process .h4 {
   body.navigation-window-visible #header #navigation.ps-mobile-catalog-ready {
     width: min(320px, calc(100vw - 48px));
   }
+}
+
+/* Kompaktná hlavička. Aktivuje sa až po zostavení menu; checkout má svoj layout. */
+#header.ps-compact-header { --ps-surface: #eff4f6; --ps-ink: #0e151c; }
+#header.ps-compact-header .navigation-buttons { color: var(--ps-ink); }
+#header .ps-header-phone { display: none !important; }
+@media (min-width: 992px) {
+  #header.ps-compact-header .header-top-wrapper {
+    position: relative;
+    gap: 16px;
+    min-height: 96px;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    align-items: center;
+  }
+  #header.ps-compact-header .site-name {
+    flex: 0 0 150px !important;
+    width: 150px;
+    margin: 0;
+  }
+  #header.ps-compact-header .site-name img { width: 150px; height: auto; max-height: 52px; object-fit: contain; }
+  #header.ps-compact-header .ps-catalog-nav {
+    flex: 1 1 auto;
+    width: auto;
+    position: static;
+    min-width: 0;
+    padding: 0;
+    gap: 2px;
+  }
+  #header.ps-compact-header .ps-catalog-trigger,
+  #header.ps-compact-header .ps-catalog-info { padding: 12px 14px; letter-spacing: .3px; white-space: nowrap; }
+  #header.ps-compact-header .ps-catalog-trigger { background: var(--ps-surface); border-color: var(--ps-ink); }
+  #header.ps-compact-header .ps-catalog-nav.is-open .ps-catalog-trigger { background: white; }
+  #header.ps-compact-header .ps-catalog-panel { top: calc(100% - 12px); left: 16px; width: calc(100% - 32px); border-radius: 14px; }
+  body.ps-catalog-open #header.ps-compact-header .header-top-wrapper { z-index: 1001; }
+  #header.ps-compact-header .navigation-buttons { flex: 0 0 auto !important; gap: 8px; margin-left: auto; }
+  #header.ps-compact-header .navigation-buttons > a[data-target="search"],
+  #header.ps-compact-header .navigation-buttons > .top-nav-button-login,
+  #header.ps-compact-header .navigation-buttons > .cart-count {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 44px;
+    padding: 0;
+    margin: 0 !important;
+    color: var(--ps-ink);
+    background: transparent;
+    border: 0;
+  }
+  #header.ps-compact-header .navigation-buttons > a[data-target="search"] { order: 1; }
+  #header.ps-compact-header .navigation-buttons > .top-nav-button-login { order: 2; }
+  #header.ps-compact-header .navigation-buttons > .cart-count { order: 3; }
+  #header.ps-compact-header .cart-price { display: none !important; }
+  #header.ps-compact-header .navigation-buttons .ps-header-support {
+    grid-template-columns: 44px max-content;
+    gap: 4px 10px;
+    margin-right: 8px;
+  }
+  #header.ps-compact-header .navigation-buttons .ps-header-avatar { width: 44px; height: 44px; grid-row: 1 / 3; background: var(--ps-surface); }
+  #header.ps-compact-header .ps-header-support .ps-header-support-text a { font-size: 13px; color: var(--ps-ink); white-space: nowrap; }
+  #header.ps-compact-header .ps-header-support-hours { font-size: 11px; color: #56616b; }
+  #header.ps-compact-header .header-top-wrapper > .search { display: none; }
+  body.search-window-visible #header.ps-compact-header .header-top-wrapper > .search {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 12px 24px #0e151c1a;
+    z-index: 1002;
+  }
+  #header.ps-compact-header .header-bottom { min-height: 0; border: 0; }
+  #header.ps-compact-header .header-bottom-wrapper { min-height: 0; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header.ps-compact-header .header-top-wrapper { gap: 8px; }
+  #header.ps-compact-header .site-name { flex-basis: 125px !important; width: 125px; }
+  #header.ps-compact-header .ps-catalog-trigger,
+  #header.ps-compact-header .ps-catalog-info { font-size: 12px; padding: 12px 8px; }
+  #header.ps-compact-header .navigation-buttons { gap: 2px; }
+}
+@media (max-width: 991px) {
+  #header.ps-compact-header .navigation-buttons { gap: 2px; }
+  #header.ps-compact-header .navigation-buttons > .ps-header-phone,
+  #header.ps-compact-header .navigation-buttons > a[data-target="search"],
+  #header.ps-compact-header .navigation-buttons > .top-nav-button-login,
+  #header.ps-compact-header .navigation-buttons > .cart-count {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 36px !important;
+    height: 44px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: var(--ps-ink);
+  }
+  #header.ps-compact-header .ps-header-phone { order: 0; }
+  #header.ps-compact-header .navigation-buttons > a[data-target="search"] { order: 1; }
+  #header.ps-compact-header .top-nav-button-login { order: 2; }
+  #header.ps-compact-header .cart-count { order: 3; }
+  #header.ps-compact-header .ps-menu-trigger { color: var(--ps-ink); }
+}
+@media (max-width: 359px) {
+  #header.ps-compact-header .site-name { max-width: 86px !important; }
+  #header.ps-compact-header .header-top-wrapper { padding-left: 8px; padding-right: 8px; }
+  #header.ps-compact-header .navigation-buttons { gap: 0; }
+}
+
+@media (min-width: 992px) {
+  #header.ps-compact-header .header-top { padding: 0; }
 }
