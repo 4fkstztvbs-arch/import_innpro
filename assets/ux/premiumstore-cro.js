@@ -204,6 +204,135 @@
     navButtons.insertAdjacentHTML('afterbegin', html);
   }
 
+  // Desktopové menu Produkty. Natívny strom zostáva na mobile aj ako fallback.
+  function catalogMenu() {
+    if (document.querySelector('.ps-catalog-nav') || document.body.classList.contains('ordering-process')) return;
+    var nativeNav = document.querySelector('#header #navigation');
+    var wrapper = document.querySelector('#header .header-bottom-wrapper');
+    if (!nativeNav || !wrapper) return;
+
+    // ID hlavných kategórií z aktuálneho Shoptet menu; názvy a URL čítame z DOM.
+    // Pri pridaní ďalšej hlavnej kategórie doplň jej ID (ikona môže zostať predvolená).
+    var icons = {
+      '49635': '<path d="M6 18V5h20v13M4 18h24v12H4zM10 25h12M12 5v6h8V5M16 11v5"/>',
+      '49644': '<ellipse cx="10" cy="10" rx="3" ry="4"/><ellipse cx="22" cy="10" rx="3" ry="4"/><ellipse cx="4" cy="17" rx="2" ry="3"/><ellipse cx="28" cy="17" rx="2" ry="3"/><path d="M8 26c0-5 5-10 8-10s8 5 8 10c0 5-5 2-8 2s-8 3-8-2z"/>',
+      '49659': '<rect x="3" y="5" width="22" height="16" rx="2"/><path d="M10 27h10M15 21v6"/><rect x="23" y="15" width="7" height="14" rx="1"/>',
+      '49647': '<path d="M21 3a8 8 0 0 0-9 10L3 24a3 3 0 0 0 5 5l11-10a8 8 0 0 0 10-9l-6 6-6-6z"/>',
+      '49668': '<path d="M16 28S3 20 3 10a7 7 0 0 1 13-3 7 7 0 0 1 13 3c0 10-13 18-13 18zM6 16h6l3-6 3 11 3-5h5"/>',
+      '49638': '<path d="M4 16l3-9h18l3 9M3 16h26v10H3zM7 26v3M25 26v3M7 21h3M22 21h3"/>',
+      '49650': '<rect x="6" y="2" width="20" height="28" rx="2"/><circle cx="16" cy="19" r="7"/><path d="M6 9h20M10 6h1M15 6h1M10 19c4-4 8 4 12 0"/>',
+      '49641': '<path d="M2 28L13 6l8 14 4-7 6 15H2zM9 14l4 3 4-3"/><circle cx="25" cy="5" r="3"/>',
+      '49662': '<rect x="4" y="2" width="17" height="28" rx="2"/><circle cx="12.5" cy="20" r="5.5"/><circle cx="12.5" cy="8" r="2"/><path d="M26 9v14M30 5v22"/>',
+      '49653': '<path d="M10 22C-1 11 7 2 16 2s17 9 6 20M10 22h12v5H10zM13 30h6M16 9v10M12 12l4 3 4-3"/>',
+      '49656': '<rect x="3" y="7" width="24" height="20" rx="2"/><path d="M27 13h3v8h-3M17 10l-6 9h7l-3 5"/>',
+      '49665': '<rect x="2" y="5" width="28" height="20" rx="2"/><path d="M10 30h12M16 25v5M13 10l9 5-9 5z"/>'
+    };
+    var items = Array.prototype.slice.call(nativeNav.querySelectorAll('.menu-level-1 > li'));
+    var categories = items.filter(function (item) {
+      return Object.keys(icons).some(function (id) { return item.classList.contains('menu-item-' + id); });
+    });
+    // Nezakryť natívne menu, ak sa zmení jeho štruktúra alebo chýbajú kategórie.
+    if (categories.length !== Object.keys(icons).length) return;
+
+    var nav = document.createElement('nav');
+    nav.className = 'ps-catalog-nav';
+    nav.setAttribute('aria-label', 'Kategórie a informácie');
+    var trigger = document.createElement('button');
+    trigger.type = 'button';
+    trigger.className = 'ps-catalog-trigger';
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.setAttribute('aria-controls', 'ps-catalog-panel');
+    trigger.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 6h16M4 12h11M4 18h6" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Produkty</span>';
+    nav.appendChild(trigger);
+    var panel = document.createElement('div');
+    panel.id = 'ps-catalog-panel';
+    panel.className = 'ps-catalog-panel';
+    panel.hidden = true;
+    var list = document.createElement('ul');
+    list.className = 'ps-catalog-grid';
+    categories.forEach(function (item) {
+      var source = item.querySelector('a');
+      if (!source) return;
+      var id = Object.keys(icons).filter(function (key) { return item.classList.contains('menu-item-' + key); })[0];
+      var li = document.createElement('li');
+      var link = document.createElement('a');
+      link.className = 'ps-catalog-card';
+      link.setAttribute('href', source.getAttribute('href'));
+      var illustration = document.createElement('span');
+      illustration.className = 'ps-catalog-icon';
+      illustration.innerHTML = '<svg viewBox="0 0 32 32" width="64" height="64" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + icons[id] + '</svg>';
+      var label = document.createElement('span');
+      label.className = 'ps-catalog-label';
+      label.textContent = source.textContent.trim();
+      link.appendChild(illustration);
+      link.appendChild(label);
+      li.appendChild(link);
+      list.appendChild(li);
+    });
+    panel.appendChild(list);
+    nav.appendChild(panel);
+    items.filter(function (item) { return categories.indexOf(item) === -1; }).forEach(function (item) {
+      var source = item.querySelector('a');
+      if (!source) return;
+      var link = document.createElement('a');
+      link.className = 'ps-catalog-info';
+      link.setAttribute('href', source.getAttribute('href'));
+      link.textContent = source.textContent.trim();
+      link.addEventListener('pointerenter', function () { if (finePointer.matches) close(false); });
+      link.addEventListener('focus', function () { close(false); });
+      nav.appendChild(link);
+    });
+    var backdrop = document.createElement('div');
+    backdrop.className = 'ps-catalog-backdrop';
+    backdrop.setAttribute('aria-hidden', 'true');
+    var desktop = window.matchMedia('(min-width: 992px)');
+    var finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
+    var closeTimer;
+    function open() {
+      clearTimeout(closeTimer);
+      if (!desktop.matches) return;
+      panel.hidden = false;
+      trigger.setAttribute('aria-expanded', 'true');
+      nav.classList.add('is-open');
+      wrapper.classList.add('ps-catalog-active');
+      document.body.classList.add('ps-catalog-open');
+      // Pri nízkom okne zostáva celý panel dostupný vnútorným posúvaním.
+      panel.style.maxHeight = Math.max(120, window.innerHeight - panel.getBoundingClientRect().top - 16) + 'px';
+    }
+    function close(returnFocus) {
+      clearTimeout(closeTimer);
+      panel.hidden = true;
+      trigger.setAttribute('aria-expanded', 'false');
+      nav.classList.remove('is-open');
+      wrapper.classList.remove('ps-catalog-active');
+      document.body.classList.remove('ps-catalog-open');
+      if (returnFocus) trigger.focus();
+    }
+    function delayedClose() {
+      clearTimeout(closeTimer);
+      closeTimer = setTimeout(function () {
+        if (!panel.contains(document.activeElement)) close(false);
+      }, 180);
+    }
+    trigger.addEventListener('pointerenter', function () { if (finePointer.matches) open(); });
+    trigger.addEventListener('click', function () { if (panel.hidden) open(); else close(false); });
+    trigger.addEventListener('keydown', function (event) {
+      if (event.key === 'ArrowDown') { event.preventDefault(); open(); list.querySelector('a').focus(); }
+    });
+    nav.addEventListener('pointerleave', delayedClose);
+    panel.addEventListener('pointerenter', function () { clearTimeout(closeTimer); });
+    nav.addEventListener('focusout', function (event) { if (!nav.contains(event.relatedTarget)) close(false); });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && !panel.hidden) { event.preventDefault(); close(true); }
+    });
+    document.addEventListener('pointerdown', function (event) { if (!nav.contains(event.target)) close(false); });
+    window.addEventListener('resize', function () { close(false); });
+    window.addEventListener('scroll', function () { if (!panel.hidden) close(false); }, { passive: true });
+    wrapper.insertBefore(nav, nativeNav);
+    document.body.appendChild(backdrop);
+    wrapper.classList.add('ps-catalog-ready');
+  }
+
   // --- 3) Sticky lišta názov + cena + "Do košíka" (PDP, mobil/tablet) -------
   function stickyBuyBar() {
     if (document.querySelector('.ps-sticky-buy')) return;
@@ -301,6 +430,7 @@
     relocateLoginButton();
     headerSupportBlock();
     menuTrigger();
+    catalogMenu();
     mobileMenuSupportBlock();
     stickyBuyBar();
     deemphasizeSecondaryActions();
