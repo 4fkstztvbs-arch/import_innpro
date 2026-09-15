@@ -1506,10 +1506,19 @@ body.ordering-process .h4 {
 :root { --ps-ink:#0e151c; --ps-surface:#eff4f6; --dn-s300:#eff4f6; }
 body { color:#0e151c; }
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.p-name,.p-name a { color:#0e151c; }
-#footer,.sidebar-inner,.subcategories li { background:#eff4f6 !important; color:#0e151c; }
+#footer {
+  background:#eff4f6 !important;
+  color:#0e151c;
+}
+
+.sidebar-inner,
+.subcategories li {
+  background:#fff !important;
+  color:#0e151c;
+}
 #footer a { color:#0e151c; }
 .subcategories li,.sidebar-inner { border-radius:14px; }
-.subcategories a:hover { background:#dce4e8; border-radius:14px; }
+.subcategories a:hover { background:#fff; border-radius:14px; }
 .siteCookies.siteCookies--dark,.siteCookies__content { background:#eff4f6 !important; color:#0e151c !important; border-radius:14px; }
 .siteCookies { box-shadow:0 8px 30px #0e151c26 !important; border:1px solid #dce4e8; }
 .siteCookies a,.siteCookies__text { color:#0e151c !important; }
