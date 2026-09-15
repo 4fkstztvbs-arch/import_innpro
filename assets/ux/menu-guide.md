@@ -21,7 +21,7 @@ Vlož nasledujúci blok do **HTML hlavičky**, pred načítanie `premiumstore-cr
 ```html
 <script type="application/json" id="ps-category-images">
 {
-  "49635": "",
+  "49635": "https://www.premiumstore.sk/user/categories/orig/bamboo-x1-carbon-combo.png",
   "49644": "",
   "49659": "",
   "49647": "",
@@ -72,3 +72,7 @@ Návrh je súčasťou PR #14, nie je zlúčený do main. Po schválení, zlúče
 CSS patrí do hlavičky, JavaScript do pätičky. Nepridávaj druhý exemplár skriptu. Na 768–991 px zostáva existujúce tabletové menu; nové mobilné rozhranie rešpektuje natívny mobilný breakpoint Disco do 767 px.
 
 Overené v lokálnom náhľade: otvorenie mobilného menu, všetkých 12 kategórií, dve ďalšie úrovne podkategórií, správne odkazy, návrat a zatvorenie, reset na úvod pri ďalšom otvorení. Pri meranom mobile 390 px nebolo horizontálne pretečenie. Podpora obrázka bola overená samostatnou testovacou mapou a testovacím SVG (400 px, zobrazené v mobilnom menu); produkčný náhľad používa pôvodné ikony. JavaScript prešiel kontrolou syntaxe a zmeny kontrolou formátu.
+
+## Overené reálne obrázky – 15. 9. 2026
+
+Hlavná kategória 3D tlač a digitálna výroba (49635): obrázok sa načítal z og:image jej stránky; URL je teraz predvolene v mape skriptu. Pri zmene adresy nahraného obrázka treba aktualizovať túto mapu. Podkategória 3D tlačiarne a materiály (/3d-tlac/): obrázok sa prevzal automaticky z natívneho menu Shoptetu. Oba obrázky boli overené v mobilnom náhľade.

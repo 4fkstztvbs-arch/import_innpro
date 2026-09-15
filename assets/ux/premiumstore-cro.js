@@ -236,10 +236,12 @@
 
     // Shoptet neposiela obrázok koreňovej kategórie v každom type menu.
     // Voliteľná JSON mapa v HTML hlavičke: #ps-category-images, kľúč = ID kategórie.
-    var categoryImages = {};
+    // Overený obrázok hlavnej kategórie z jej Shoptet og:image (2026-09-15).
+    // Pri zmene URL obrázka aktualizovať mapu alebo prekryť cez #ps-category-images.
+    var categoryImages = { '49635': 'https://www.premiumstore.sk/user/categories/orig/bamboo-x1-carbon-combo.png' };
     var imageConfig = document.getElementById('ps-category-images');
     if (imageConfig) {
-      try { categoryImages = JSON.parse(imageConfig.textContent) || {}; } catch (ignore) { /* Ikony zostanú. */ }
+      try { Object.assign(categoryImages, JSON.parse(imageConfig.textContent) || {}); } catch (ignore) { /* Predvolené obrázky a ikony zostanú. */ }
     }
     // Index vytvoríme len raz; pri prechode mobilným menu neprehľadávame celý strom.
     var imageByPath = Object.create(null);
