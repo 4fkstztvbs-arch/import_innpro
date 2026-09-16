@@ -176,16 +176,6 @@ function buildShopitemXml(p) {
   if (p.warranty) parts.push(`<WARRANTY>${xmlEscape(p.warranty)}</WARRANTY>`);
   parts.push('<ITEM_TYPE>product</ITEM_TYPE>');
   parts.push('<UNIT>ks</UNIT>');
-  // Minimálny odber. InnPro pri časti sortimentu predáva len po balíkoch (fólia 088959 = 5 ks) a
-  // bez tejto informácie si zákazník objedná 1 ks, ktorý sa nedá od dodávateľa kúpiť samostatne.
-  // MINIMAL_AMOUNT je voliteľný element dodávateľskej schémy Shoptetu (products-supplier-v10.rng,
-  // overené 14. 9. 2026); SHOPITEM má deti v <interleave>, takže na poradí nezáleží.
-  // Berie sa VÄČŠIE z oboch miním. Overené na feede zo 14. 9. 2026: zo 401 produktov s
-  // minimálnym odberom nemá maloobchodné minimum ANI JEDEN — InnPro ho uvádza len ako
-  // veľkoobchodné, a práve to je to naše, lebo od nich nakupujeme veľkoobchodne. Pôvodné
-  // znenie čítalo maloobchodné, takže MINIMAL_AMOUNT by sa nezapísalo nikomu.
-  const minOrder = Math.max(p.minOrderRetail || 0, p.minOrderWholesale || 0);
-  if (minOrder > 1) parts.push(`<MINIMAL_AMOUNT>${minOrder}</MINIMAL_AMOUNT>`);
   parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
   if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
 
