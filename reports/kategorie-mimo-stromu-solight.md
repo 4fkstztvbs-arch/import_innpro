@@ -1,5 +1,5 @@
 # Kategórie mimo stromu — solight
 
-Kontrola z 2026-09-16 01:08 UTC.
+Kontrola z 2026-09-16 08:57 UTC.
 
 Žiadne — všetky kategórie v tomto feede existujú v našom strome.
