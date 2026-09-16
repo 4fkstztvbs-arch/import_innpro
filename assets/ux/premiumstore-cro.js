@@ -629,6 +629,43 @@
       li.appendChild(a.cloneNode(true));
       grid.querySelectorAll('section ul')[2].appendChild(li);
     });
+    // Na mobile sú odkazy zbalené; kontakt zostáva stále viditeľný.
+    var mobileFooter = window.matchMedia('(max-width: 767px)');
+    var footerPanels = [];
+    grid.querySelectorAll('section:not(.ps-footer-help)').forEach(function (section, index) {
+      var heading = section.querySelector('h3');
+      var list = section.querySelector('ul');
+      if (!heading || !list) return;
+      var label = document.createElement('span');
+      label.textContent = heading.textContent;
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'ps-footer-toggle';
+      button.textContent = label.textContent;
+      list.id = 'ps-footer-links-' + index;
+      button.setAttribute('aria-controls', list.id);
+      heading.textContent = '';
+      heading.appendChild(label);
+      heading.appendChild(button);
+      section.classList.add('ps-footer-collapsible');
+      var expanded = false;
+      function sync() {
+        var mobile = mobileFooter.matches;
+        label.hidden = mobile;
+        button.hidden = !mobile;
+        button.setAttribute('aria-expanded', String(!mobile || expanded));
+        list.hidden = mobile && !expanded;
+      }
+      button.addEventListener('click', function () {
+        expanded = !expanded;
+        sync();
+      });
+      footerPanels.push(sync);
+      sync();
+    });
+    mobileFooter.addEventListener('change', function () {
+      footerPanels.forEach(function (sync) { sync(); });
+    });
     rows.insertBefore(grid, rows.firstChild);
     [articles, contact].forEach(function (el) { el.classList.add('ps-footer-source'); el.hidden = true; });
     var originalRow = articles.parentElement;
