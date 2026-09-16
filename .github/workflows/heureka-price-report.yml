@@ -8,11 +8,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: heureka-price-report
+  cancel-in-progress: false
+
 jobs:
   process:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -40,25 +46,45 @@ jobs:
         run: node scripts/check-feed-size.js
 
       - name: Commit price targets + report (only if something new was processed)
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "heureka-price-report-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/heureka-reports/.last-processed.json data/heureka-reports/price-targets.json reports/heureka-cenovy-navrh-*.md output/*.xml
-          if git diff --staged --quiet; then
+
+          echo "== git status before staging =="
+          git status --short
+
+          # Staging all generated/modified files avoids the classic
+          # "cannot pull with rebase: You have unstaged changes" issue.
+          git add -A
+
+          if git diff --cached --quiet; then
             echo "No changes (nothing new to process)"
             exit 0
           fi
+
           git commit -m "Automatický Heureka cenový report $(date -u +%Y-%m-%dT%H:%MZ)"
+
+          echo "== git status after commit =="
+          git status --short
+
+          git fetch origin main
+
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main
-            if git push; then
+            echo "== rebase attempt $i =="
+            if git rebase origin/main; then
+              git push origin HEAD:main
               echo "Push succeeded on attempt $i"
-              break
+              exit 0
             fi
-            echo "Push failed (attempt $i) — another workflow likely pushed at the same time. Retrying in $((i*8))s..."
-            sleep $((i*8))
-            if [ "$i" = "5" ]; then
-              echo "::error::Push failed after 5 attempts"
-              exit 1
-            fi
+
+            echo "Rebase failed on attempt $i; aborting and retrying..."
+            git rebase --abort || true
+            git status --short
+            sleep $((i * 8))
           done
+
+          echo "::error::Failed to rebase and push after 5 attempts"
+          exit 1
