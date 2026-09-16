@@ -481,5 +481,33 @@
     "subject": "Re: Potvrdenie prijatia Vašej objednávky č. 202000605",
     "orderCode": null,
     "matchedBy": "none"
+  },
+  "<7e3009d3-6afb-4916-8b19-1225a61f6e17@mramor-c.sk>": {
+    "draftedAt": "2026-09-16T11:40:30.415Z",
+    "from": "mramorc@mramor-c.sk",
+    "subject": "Re: Vaša objednávka č. 202600866 sa práve vybavuje",
+    "orderCode": "202600866",
+    "matchedBy": "code"
+  },
+  "<CAOwabSk=tpQXJratbBSNbR_a_oB7oWCdRjr5_o0qyXjcuGWjNg@mail.gmail.com>": {
+    "draftedAt": "2026-09-16T11:40:37.919Z",
+    "from": "robo.langer@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600850 sa práve vybavuje",
+    "orderCode": "202600850",
+    "matchedBy": "code"
+  },
+  "<CACpfbWejn2MO6Aeu1JqbD3RWoJLcu2Q-3_xy_yVvhVyuKLsssg@mail.gmail.com>": {
+    "draftedAt": "2026-09-16T11:40:46.140Z",
+    "from": "vevericka241@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600898 sa práve vybavuje",
+    "orderCode": "202600898",
+    "matchedBy": "code"
+  },
+  "<20260916121617.Horde.7vioNgek5TPVcee1ABRL8VZ@webmail.inetadmin.eu>": {
+    "draftedAt": "2026-09-16T11:40:59.600Z",
+    "from": "vhujdic@fz.sk",
+    "subject": "Reklamacia",
+    "orderCode": "202600755",
+    "matchedBy": "email"
   }
 }
