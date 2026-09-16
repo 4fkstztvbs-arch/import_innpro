@@ -509,5 +509,19 @@
     "subject": "Reklamacia",
     "orderCode": "202600755",
     "matchedBy": "email"
+  },
+  "<66d5ae2a-00bd-4305-8da4-dfe1eee42c0e@edison>": {
+    "draftedAt": "2026-09-16T15:34:37.979Z",
+    "from": "katarina@ivankova.sk",
+    "subject": "Re: Vaša objednávka č.  202600878 sa práve  vybavuje",
+    "orderCode": "202600878",
+    "matchedBy": "code"
+  },
+  "<CAOwabS=hMr3D_ba8FB9-hVCjNr=y=hTmbeZ9TiAtNALHMytedA@mail.gmail.com>": {
+    "draftedAt": "2026-09-16T15:34:43.329Z",
+    "from": "robo.langer@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600850 sa práve vybavuje",
+    "orderCode": "202600850",
+    "matchedBy": "code"
   }
 }
