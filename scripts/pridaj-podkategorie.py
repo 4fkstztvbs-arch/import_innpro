@@ -22,6 +22,8 @@ Zadanie je JSON:
 Usage: python3 scripts/pridaj-podkategorie.py zadanie.json [--sucho]
 """
 import collections
+import re
+import unicodedata
 import csv
 import json
 import pathlib
@@ -39,6 +41,13 @@ REDIRECTY = [(KOREN / 'reports' / 'redirect-map-kategorie-shoptet-import.csv', F
 def nacitaj_csv(p, bom=True):
     with p.open(encoding='utf-8-sig' if bom else 'utf-8', newline='') as fh:
         return list(csv.reader(fh, delimiter=';'))
+
+
+def slug(s):
+    """Slug tak, ako ho z názvu odvodí Shoptet."""
+    s = ''.join(c for c in unicodedata.normalize('NFD', str(s).lower())
+                if not unicodedata.combining(c))
+    return re.sub(r'[^a-z0-9]', '-', s.replace('&', 'a')).strip('-')
 
 
 def main():
@@ -61,6 +70,20 @@ def main():
                if d['url'] in obsadene and obsadene[d['url']] != f"{rodic} > {d['meno']}"]
     if kolizie:
         sys.exit(f'URL kolidujú so stromom: {kolizie}')
+
+    # URL NOVEJ kategórie sa musí rovnať slugu z jej názvu. Kategóriu totiž spravidla založí
+    # PRODUKTOVÝ import z cesty vo feede, nie toto CSV — a ten si slug odvodí z názvu. Keď sa
+    # naša url líši, Shoptet kategóriu založí pod svojím slugom, naše CSV ju už nenájde a vyrobí
+    # duplicitu; odkazy v popisoch produktov (berú URL z category-urls.json) potom vedú na prázdnu
+    # stránku. Presne tak 14. 9. 2026 vznikli /macacie-toalety-a-prislusenstvo/ a
+    # /pelechy--skrabadla-a-klietky/, hoci CSV posielalo /macacie-toalety/ a
+    # /pelechy-skrabadla-klietky/ — obe kategórie mali prázdne SEO texty, čo je podpis
+    # automatického založenia produktovým importom.
+    zle = [(d['meno'], d['url'], slug(d['meno'])) for d in deti if d['url'] != slug(d['meno'])]
+    if zle:
+        for meno, url, s in zle:
+            print(f'CHYBA: {meno!r} má url {url!r}, ale Shoptet ju založí ako {s!r}')
+        sys.exit('URL novej kategórie sa musí rovnať slugu z názvu — oprav url alebo názov')
 
     nove_cesty = [f"{rodic} > {d['meno']}" for d in deti]
     print(f'{rodic}\n  + {len(deti)} podkategórií')
