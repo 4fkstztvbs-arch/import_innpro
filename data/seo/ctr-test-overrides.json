@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "experimentId": "CTR-2026-09",
+  "status": "PREPARED_NOT_ACTIVE",
+  "baseline": {
+    "from": "2026-08-10",
+    "to": "2026-09-16",
+    "source": "Google Search Console export"
+  },
+  "rules": {
+    "matchBy": "code",
+    "lockSeoFields": true,
+    "allowPriceStockAvailabilityUpdates": true
+  },
+  "products": {}
+}
