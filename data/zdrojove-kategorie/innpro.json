@@ -20,6 +20,9 @@
  "Audio > Mikrofóny > Ostatné": {
   "TV, audio, video a foto technika > Audio technika": 4
  },
+ "Audio > Mikrofóny > Smerové mikrofóny": {
+  "TV, audio, video a foto technika > Audio technika": 3
+ },
  "Audio > Mikrofóny > Štúdiové mikrofóny": {
   "TV, audio, video a foto technika > Audio technika": 4
  },
@@ -39,25 +42,25 @@
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 11
  },
  "Audio > Reproduktory > Soundbary": {
-  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 22
+  "TV, audio, video a foto technika > Audio technika > Soundbary": 22
  },
  "Audio > Reproduktory > Subwoofery": {
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 4
  },
  "Audio > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné slúchadlá": {
-  "TV, audio, video a foto technika > Audio technika": 65
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 65
  },
  "Audio > Slúchadlá > Bezdrôtové slúchadlá > Šport": {
-  "TV, audio, video a foto technika > Audio technika": 13
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 13
  },
  "Audio > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá": {
-  "TV, audio, video a foto technika > Audio technika": 94
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 94
  },
  "Audio > Slúchadlá > Drôtové slúchadlá": {
-  "TV, audio, video a foto technika > Audio technika": 48
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá": 48
  },
  "Audio > Slúchadlá > Príslušenstvo": {
-  "TV, audio, video a foto technika > Audio technika": 28
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá": 28
  },
  "Audio > Stojany": {
   "TV, audio, video a foto technika > Audio technika": 6
@@ -66,13 +69,13 @@
   "TV, audio, video a foto technika > Audio technika": 2
  },
  "Drony > Náhradné diely": {
-  "Cestovanie, šport a outdoor": 2
+  "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 2
  },
  "Drony > Podvodné drony": {
-  "Cestovanie, šport a outdoor": 3
+  "Cestovanie, šport a outdoor > Podvodné skútre": 3
  },
  "Drony > Príslušenstvo pre drony > DJI": {
-  "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 99
+  "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 98
  },
  "Drony > Príslušenstvo pre drony > Filtre pre drony": {
   "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 121
@@ -90,13 +93,13 @@
   "Energia a napájanie > Prenosné elektrické stanice": 17
  },
  "Energia > Fotovoltaické panely > Balkónové systémy": {
-  "Energia a napájanie": 1
+  "Energia a napájanie > Fotovoltaika": 1
  },
  "Energia > Fotovoltaické panely > Fotovoltaické panely": {
-  "Energia a napájanie": 5
+  "Energia a napájanie > Fotovoltaika > Solárne panely": 5
  },
  "Energia > Fotovoltaické panely > Príslušenstvo": {
-  "Energia a napájanie": 1
+  "Energia a napájanie > Fotovoltaika": 1
  },
  "Energia > Powerbanky": {
   "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Powerbanky": 12
@@ -114,7 +117,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo": 3
  },
  "Foto a video > Filtre > Pre smartfóny": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 8
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 7
  },
  "Foto a video > Filtre > Pre športové kamery": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 86
@@ -144,7 +147,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Gimbály a stabilizátory": 49
  },
  "Foto a video > Kamery > Akaso": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo": 2
+  "TV, audio, video a foto technika > Foto a príslušenstvo": 28
  },
  "Foto a video > Kamery > Insta": {
   "TV, audio, video a foto technika > Foto a príslušenstvo": 9
@@ -153,13 +156,13 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 1
  },
  "Foto a video > Príslušenstvo > Ostatné": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 46
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 44
  },
  "Foto a video > Príslušenstvo > Pre fotoaparáty a videokamery": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 131
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 128
  },
  "Foto a video > Príslušenstvo > Pre športové kamery": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 258
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 281
  },
  "Foto a video > Príslušenstvo > Pre stabilizátory": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 28
@@ -171,25 +174,25 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 3
  },
  "Foto a video > Selfie tyče > statívy > držiaky > Postroje, upevňovacie prvky a držiaky": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 104
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 115
  },
  "Foto a video > Selfie tyče > statívy > držiaky > Selfie tyče a držiaky": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 19
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 20
  },
  "Foto a video > Selfie tyče > statívy > držiaky > Statívy": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 50
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 52
  },
  "Foto a video > Skladovanie a preprava > Batohy": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava": 6
  },
  "Foto a video > Skladovanie a preprava > Puzdrá a obaly": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava": 41
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava": 40
  },
  "Foto a video > Skladovanie a preprava > Tašky": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava": 13
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava": 14
  },
  "Foto a video > Súpravy": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Súpravy príslušenstva pre akčné kamery": 14
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Súpravy príslušenstva pre akčné kamery": 15
  },
  "Foto a video > Wysięgniki > Selfie Stiki > Statywy > Mocowania > Adaptery i przejściówki": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 1
@@ -210,19 +213,22 @@
   "Cestovanie, šport a outdoor > Hračky": 8
  },
  "Hry > Chladenie počítača > Aktívne chladenie": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 5
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Chladenie počítača": 5
  },
  "Hry > Chladenie počítača > Chladenie vodou": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 25
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Chladenie počítača": 25
  },
  "Hry > Chladenie počítača > Ventilátory": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 19
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Chladenie počítača": 19
+ },
+ "Hry > Herné kreslá": {
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 2
  },
  "Hry > Herné podložky > Podložky": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 29
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné podložky a mikrofóny": 29
  },
  "Hry > Herné podložky > Príslušenstvo": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 5
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné podložky a mikrofóny": 5
  },
  "Hry > Herné príslušenstvo - docky, stojany": {
   "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 1
@@ -234,7 +240,7 @@
   "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 3
  },
  "Hry > Mikrofóny": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 29
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné podložky a mikrofóny": 29
  },
  "Hry > Myši > Bezdrôtový": {
   "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 7
@@ -243,7 +249,7 @@
   "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 4
  },
  "Hry > Okuliare pre rozšírenú realitu": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 61
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo": 61
  },
  "Hry > Ostatné": {
   "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 2
@@ -261,22 +267,22 @@
   "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 1
  },
  "Hry > Príslušenstvo VR": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 30
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo": 30
  },
  "Hry > Reproduktory": {
   "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 10
  },
  "Hry > Simulátory > Simulácia letu": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 30
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory": 30
  },
  "Hry > Simulátory > Simulácia pretekov": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 97
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory": 97
  },
  "Hry > Skrine > Bez ventilátora": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 53
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Počítačové skrine": 53
  },
  "Hry > Skrine > S ventilátorom": {
-  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 63
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Počítačové skrine": 63
  },
  "Hry > Stojany na slúchadlá": {
   "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 3
@@ -294,13 +300,13 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 1
  },
  "Inteligentná domácnosť > Osvetlenie > LED pásy": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie": 18
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie": 17
  },
  "Inteligentná domácnosť > Osvetlenie > LED žiarovky": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie": 11
  },
  "Inteligentná domácnosť > Osvetlenie > Nábytkové svietidlá": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 13
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 12
  },
  "Inteligentná domácnosť > Osvetlenie > Stojacie lampy": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 3
@@ -315,16 +321,16 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 4
  },
  "Inteligentná domácnosť > Príslušenstvo": {
-  "Elektro, Smart Home a osvetlenie": 38
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 38
  },
  "Inteligentná domácnosť > Prvky výkonu > Senzory": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 100
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 93
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart kúrenie > Ovládače klimatizácie > tepelného čerpadla": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 2
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart kúrenie > Termostatické hlavice": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 11
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 10
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart kúrenie > Termostaty": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 30
@@ -354,7 +360,7 @@
   "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 11
  },
  "IT príslušenstvo > Adaptéry a meniče": {
-  "Počítače, mobily a tablety": 10
+  "Počítače, mobily a tablety > Príslušenstvo k notebookom": 10
  },
  "IT príslušenstvo > Akumulátory, batérie > Batérie": {
   "Počítače, mobily a tablety > Akumulátory a batérie do elektroniky": 11
@@ -369,25 +375,25 @@
   "TV, audio, video a foto technika > TV stolíky a držiaky": 18
  },
  "IT príslušenstvo > Externé zvukové karty": {
-  "Počítače, mobily a tablety": 5
+  "Počítače, mobily a tablety > PC periférie": 5
  },
  "IT príslušenstvo > Káble > Ostatné": {
-  "Počítače, mobily a tablety": 2
+  "Počítače, mobily a tablety > PC periférie": 2
  },
  "IT príslušenstvo > Káble > Sieťové káble": {
-  "Počítače, mobily a tablety": 2
+  "Počítače, mobily a tablety > PC periférie": 2
  },
  "IT príslušenstvo > Káble > USB káble": {
   "Počítače, mobily a tablety > USB káble": 6
  },
  "IT príslušenstvo > Káble > Video káble": {
-  "Počítače, mobily a tablety": 1
+  "Počítače, mobily a tablety > PC periférie": 1
  },
  "IT príslušenstvo > Mini PC": {
   "Počítače, mobily a tablety > Mini PC": 80
  },
  "IT príslušenstvo > Monitor stands": {
-  "Počítače, mobily a tablety": 6
+  "Počítače, mobily a tablety > Monitory": 6
  },
  "IT príslušenstvo > Myši, klávesnica": {
   "Počítače, mobily a tablety > PC periférie": 13
@@ -396,13 +402,13 @@
   "Energia a napájanie > Napájacie zdroje": 1
  },
  "IT príslušenstvo > Ostatné": {
-  "Počítače, mobily a tablety": 7
+  "Počítače, mobily a tablety > PC periférie": 8
  },
  "IT príslušenstvo > Osvetlenie": {
-  "Počítače, mobily a tablety": 8
+  "Počítače, mobily a tablety > Herné príslušenstvo pre PC": 7
  },
  "IT príslušenstvo > Pendrive": {
-  "Počítače, mobily a tablety > Pamäťové médiá > USB kľúče": 14
+  "Počítače, mobily a tablety > Pamäťové médiá > USB kľúče": 13
  },
  "IT príslušenstvo > Predlžovacie káble": {
   "Počítače, mobily a tablety > Predlžovacie a rozbočovacie zásuvky k PC": 3
@@ -423,13 +429,13 @@
   "Počítače, mobily a tablety > Cestovné a VPN routery": 13
  },
  "IT príslušenstvo > Rozbočovače": {
-  "Počítače, mobily a tablety": 4
+  "Počítače, mobily a tablety > Dokovacie stanice": 4
  },
  "IT príslušenstvo > Sieťové zariadenia": {
   "Počítače, mobily a tablety > NAS servery a sieťové úložiská": 16
  },
  "IT príslušenstvo > SSD disky": {
-  "Počítače, mobily a tablety": 8
+  "Počítače, mobily a tablety > Pamäťové médiá": 7
  },
  "IT príslušenstvo > Tablety > Grafické tablety": {
   "Počítače, mobily a tablety > Grafické tablety": 2
@@ -438,13 +444,13 @@
   "Počítače, mobily a tablety > Tablety": 16
  },
  "IT príslušenstvo > Tašky, obaly, batohy": {
-  "Počítače, mobily a tablety": 1
+  "Počítače, mobily a tablety > Príslušenstvo k notebookom": 1
  },
  "IT príslušenstvo > Webkamery": {
   "Počítače, mobily a tablety > Webkamery": 45
  },
  "Kancelária > Fototlačiarne": {
-  "Počítače, mobily a tablety > Kancelária a škola": 13
+  "Počítače, mobily a tablety > Kancelária a škola": 15
  },
  "Kancelária > Tlačiarne štítkov > Štítky": {
   "Počítače, mobily a tablety > Kancelária a škola": 33
@@ -456,25 +462,25 @@
   "3D tlač a digitálna výroba > 3D skenery": 32
  },
  "Kreatívne technológie > 3D SLAM ručné skenery": {
-  "Dielňa, náradie a záhrada": 5
+  "3D tlač a digitálna výroba > 3D skenery": 5
  },
  "Kreatívne technológie > 3D tlač > 3D tlačiarne": {
-  "3D tlač a digitálna výroba > 3D tlačiarne a materiály": 63
+  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > 3D tlačiarne": 65
  },
  "Kreatívne technológie > 3D tlač > Diely": {
   "3D tlač a digitálna výroba > 3D tlačiarne a materiály": 6
  },
  "Kreatívne technológie > 3D tlač > Príslušenstvo pre 3D tlačiarne": {
-  "3D tlač a digitálna výroba > 3D tlačiarne a materiály": 101
+  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam": 101
  },
  "Kreatívne technológie > 3D tlač > Vlákna": {
-  "3D tlač a digitálna výroba > 3D tlačiarne a materiály": 271
+  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna": 271
  },
  "Kreatívne technológie > 3D tlač > Živice": {
-  "3D tlač a digitálna výroba > 3D tlačiarne a materiály": 28
+  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Živice pre 3D tlač": 34
  },
  "Kreatívne technológie > CNC stroje": {
-  "Dielňa, náradie a záhrada": 11
+  "3D tlač a digitálna výroba > CNC frézy a gravírovačky": 11
  },
  "Kreatívne technológie > Laserové gravírovacie a rezacie stroje > Príslušenstvo": {
   "3D tlač a digitálna výroba > Laserové gravírovacie a rezacie stroje": 21
@@ -483,13 +489,13 @@
   "3D tlač a digitálna výroba > Laserové gravírovacie a rezacie stroje": 37
  },
  "Kreatívne technológie > Metalurgia": {
-  "Dielňa, náradie a záhrada": 1
+  "Dielňa, náradie a záhrada > Dielenské vybavenie": 1
  },
  "Kreatívne technológie > Potlač textilu": {
   "3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu": 77
  },
  "Malé domáce spotrebiče > AGD małe": {
-  "Domáce spotrebiče": 5
+  "Domáce spotrebiče > Ostatné domáce spotrebiče": 5
  },
  "Malé domáce spotrebiče > Čistenie": {
   "Domáce spotrebiče > Upratovacie pomôcky": 12
@@ -504,7 +510,7 @@
   "Domáce spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 3
  },
  "Malé domáce spotrebiče > Insekticídne zariadenia": {
-  "Domáce spotrebiče": 2
+  "Domáce spotrebiče > Ostatné domáce spotrebiče": 2
  },
  "Malé domáce spotrebiče > Kávovary": {
   "Domáce spotrebiče > Kávovary a espressá": 28
@@ -516,7 +522,7 @@
   "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky": 12
  },
  "Malé domáce spotrebiče > Mini chladničky": {
-  "Domáce spotrebiče": 3
+  "Domáce spotrebiče > Chladničky": 3
  },
  "Malé domáce spotrebiče > Mixéry": {
   "Domáce spotrebiče > Kuchynské roboty a krájače": 4
@@ -528,10 +534,10 @@
   "Domáce spotrebiče > Ostatné domáce spotrebiče": 8
  },
  "Malé domáce spotrebiče > Płyty gazowe": {
-  "Domáce spotrebiče": 5
+  "Domáce spotrebiče > Varné dosky": 5
  },
  "Malé domáce spotrebiče > Pre dieťa": {
-  "Domáce spotrebiče": 1
+  "Zdravie a starostlivosť > Matka a dieťa": 1
  },
  "Malé domáce spotrebiče > Teplomery": {
   "Domáce spotrebiče > Teplomery": 13
@@ -546,16 +552,19 @@
   "Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá": 3
  },
  "Malé domáce spotrebiče > Vysávače > Náhradné diely": {
-  "Domáce spotrebiče > Vysávače": 86
+  "Domáce spotrebiče > Vysávače": 96
  },
  "Malé domáce spotrebiče > Vysávače > Ostatné": {
-  "Domáce spotrebiče > Vysávače": 1
+  "Domáce spotrebiče > Vysávače": 2
  },
  "Malé domáce spotrebiče > Vysávače > Robotické vysávače": {
   "Domáce spotrebiče > Vysávače": 47
  },
  "Malé domáce spotrebiče > Vysávače > Tyčové vysávače": {
   "Domáce spotrebiče > Vysávače": 25
+ },
+ "Malé domáce spotrebiče > Zvlhčovače vzduchu > Náhradné diely": {
+  "Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu": 1
  },
  "Malé domáce spotrebiče > Zvlhčovače vzduchu > Zvlhčovače vzduchu": {
   "Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu": 3
@@ -573,46 +582,46 @@
   "Zdravie a starostlivosť > Matka a dieťa": 3
  },
  "Náradie > Brúsky": {
-  "Dielňa, náradie a záhrada": 1
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 1
  },
  "Náradie > Meracie nástroje": {
   "Dielňa, náradie a záhrada > Meracia technika": 327
  },
  "Náradie > Ostatné": {
-  "Dielňa, náradie a záhrada": 19
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie": 16
  },
  "Náradie > Rezacie nástroje": {
-  "Dielňa, náradie a záhrada": 4
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 4
  },
  "Náradie > Skrutkovače": {
-  "Dielňa, náradie a záhrada": 5
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Skrutkovače, bity a imbusy": 5
  },
  "Náradie > Spájkovačky": {
   "Dielňa, náradie a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky": 20
  },
  "Náradie > Tašky a boxy na náradie": {
-  "Dielňa, náradie a záhrada": 4
+  "Dielňa, náradie a záhrada > Dielenské vybavenie": 4
  },
  "Náradie > Vrtáky a skrutkovače": {
-  "Dielňa, náradie a záhrada": 2
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 2
  },
  "Náradie > Výtlačné a kartušové pištole": {
-  "Dielňa, náradie a záhrada": 1
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Lepiace a horúcovzdušné pištole": 1
  },
  "Náradie > Wykrywacze metalu": {
   "Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory": 9
  },
  "Náradie > Zváranie": {
-  "Dielňa, náradie a záhrada": 1
+  "Dielňa, náradie a záhrada > Spájkovacia technika": 1
  },
  "Outdoor > Batohy > tašky": {
   "Cestovanie, šport a outdoor > Turistika a outdoor": 4
  },
  "Outdoor > Elektrické skútre": {
-  "Cestovanie, šport a outdoor > Turistika a outdoor": 6
+  "Cestovanie, šport a outdoor > Turistika a outdoor": 9
  },
  "Outdoor > Kempovanie": {
-  "Cestovanie, šport a outdoor > Turistika a outdoor": 44
+  "Cestovanie, šport a outdoor > Turistika a outdoor": 45
  },
  "Outdoor > Ostatné": {
   "Cestovanie, šport a outdoor > Turistika a outdoor": 6
@@ -648,10 +657,10 @@
   "Cestovanie, šport a outdoor > Turistika a outdoor": 5
  },
  "Príslušenstvo GSM > Adaptéry Bluetooth": {
-  "Počítače, mobily a tablety": 2
+  "Počítače, mobily a tablety > PC periférie": 2
  },
  "Príslušenstvo GSM > Bluetooth slúchadlá": {
-  "Počítače, mobily a tablety": 1
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 1
  },
  "Príslušenstvo GSM > Herné ovládače": {
   "Počítače, mobily a tablety > Herné ovládače pre mobily": 15
@@ -660,22 +669,22 @@
   "Počítače, mobily a tablety > USB káble": 11
  },
  "Príslušenstvo GSM > Kable USB I > Iné": {
-  "Počítače, mobily a tablety": 1
+  "Počítače, mobily a tablety > USB káble": 1
  },
  "Príslušenstvo GSM > Kable USB I > USB na Lightning": {
   "Počítače, mobily a tablety > USB káble": 23
  },
  "Príslušenstvo GSM > Kable USB I > USB na Micro USB": {
-  "Počítače, mobily a tablety": 4
+  "Počítače, mobily a tablety > USB káble": 4
  },
  "Príslušenstvo GSM > Kable USB I > USB na USB-C": {
   "Počítače, mobily a tablety > USB káble": 10
  },
  "Príslušenstvo GSM > Kable USB I > USB-C na Lightning": {
-  "Počítače, mobily a tablety": 6
+  "Počítače, mobily a tablety > USB káble": 6
  },
  "Príslušenstvo GSM > Kable USB I > USB-C na USB-C": {
-  "Počítače, mobily a tablety": 3
+  "Počítače, mobily a tablety > USB káble": 3
  },
  "Príslušenstvo GSM > Nabíjačky > Bezdrôtové nabíjačky": {
   "Energia a napájanie > Nabíjačky batérií a akumulátorov": 5
@@ -690,28 +699,28 @@
   "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily": 215
  },
  "Príslušenstvo GSM > Obaly na telefóny > Ochranné puzdrá pre tablety": {
-  "Počítače, mobily a tablety": 6
+  "Počítače, mobily a tablety > Tablety": 6
  },
  "Príslušenstvo GSM > Obaly na telefóny > Vodotesné puzdro": {
-  "Počítače, mobily a tablety": 8
+  "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Puzdrá na mobilné telefóny": 8
  },
  "Príslušenstvo GSM > Objektívy pre telefóny": {
-  "Počítače, mobily a tablety": 7
+  "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily": 7
  },
  "Príslušenstvo GSM > Organizátory káblov": {
-  "Počítače, mobily a tablety": 2
+  "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily": 2
  },
  "Príslušenstvo GSM > Ostatné": {
-  "Počítače, mobily a tablety": 10
+  "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily": 10
  },
  "Príslušenstvo GSM > Pamäťové karty": {
-  "Počítače, mobily a tablety > Pamäťové médiá > Pamäťové karty": 27
+  "Počítače, mobily a tablety > Pamäťové médiá > Pamäťové karty": 26
  },
  "Príslušenstvo GSM > Powerbanky": {
   "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Powerbanky": 11
  },
  "Príslušenstvo GSM > Prstencové držiaky": {
-  "Počítače, mobily a tablety": 2
+  "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Držiaky na mobily": 2
  },
  "Príslušenstvo GSM > Selfie tyče > statívy > stojany > Adaptéry": {
   "Počítače, mobily a tablety > Selfie tyče a statívy pre telefóny": 3
@@ -729,25 +738,25 @@
   "Počítače, mobily a tablety > Selfie tyče a statívy pre telefóny": 1
  },
  "Príslušenstvo GSM > Stylusy pre tablety": {
-  "Počítače, mobily a tablety": 7
+  "Počítače, mobily a tablety > Tablety": 7
  },
  "Príslušenstvo GSM > Tvrdené sklo a fólie > Pre smartfóny": {
   "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily": 34
  },
  "Príslušenstvo GSM > Tvrdené sklo a fólie > Pre tablety": {
-  "Počítače, mobily a tablety": 6
+  "Počítače, mobily a tablety > Tablety": 6
  },
  "Príslušenstvo GSM > Vysielače do auta": {
-  "Počítače, mobily a tablety": 1
+  "Auto-moto > Elektronika do auta": 1
  },
  "Príslušenstvo GSM > Zvukové adaptéry": {
-  "Počítače, mobily a tablety": 4
+  "Počítače, mobily a tablety > PC periférie": 4
  },
  "Príslušenstvo pre automobily > Bezdrôtové adaptéry CarPlay > Android Auto": {
   "Auto-moto > Elektronika do auta": 34
  },
  "Príslušenstvo pre automobily > Bezprzewodowe adaptery CarPlay > Android Auto": {
-  "Auto-moto": 4
+  "Auto-moto > Elektronika do auta": 4
  },
  "Príslušenstvo pre automobily > Diagnostické nástroje": {
   "Auto-moto > Garáž, dielňa, servis": 51
@@ -759,31 +768,31 @@
   "Auto-moto > Elektromobilita": 11
  },
  "Príslušenstvo pre automobily > Mini kompresory": {
-  "Auto-moto": 8
+  "Auto-moto > Garáž, dielňa, servis": 8
  },
  "Príslušenstvo pre automobily > Monitory automobilov": {
-  "Auto-moto": 3
+  "Auto-moto > Elektronika do auta": 3
  },
  "Príslušenstvo pre automobily > Nabíjačky do auta": {
-  "Auto-moto": 5
+  "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy": 5
  },
  "Príslušenstvo pre automobily > Ostatné": {
-  "Auto-moto": 3
+  "Auto-moto > Príslušenstvo do auta": 3
  },
  "Príslušenstvo pre automobily > Štartovacie káble": {
   "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy": 40
  },
  "Príslušenstvo pre automobily > Umývanie a čistenie > Vysávače do auta": {
-  "Auto-moto": 4
+  "Auto-moto > Autokozmetika a chémia": 4
  },
  "Príslušenstvo pre automobily > Videorekordéry > Príslušenstvo": {
-  "Auto-moto": 4
+  "Auto-moto > Elektronika do auta": 5
  },
  "Príslušenstvo pre automobily > Videorekordéry > Videorekordéry": {
-  "Auto-moto > Elektronika do auta": 22
+  "Auto-moto > Elektronika do auta": 25
  },
  "Príslušenstvo pre automobily > Vysielače do auta": {
-  "Auto-moto": 1
+  "Auto-moto > Elektronika do auta": 1
  },
  "RC modely > Batérie > Lítiové a NiMH": {
   "Cestovanie, šport a outdoor > Batérie pre drony a RC modely": 69
@@ -798,10 +807,10 @@
   "Cestovanie, šport a outdoor > Nabíjačky pre drony a RC modely": 2
  },
  "RC modely > Nástroje a meradlá": {
-  "Cestovanie, šport a outdoor": 1
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie": 1
  },
  "Roboty > Roboty Humanoidalne > Seria R1": {
-  "Dielňa, náradie a záhrada": 1
+  "Cestovanie, šport a outdoor > Hračky": 1
  },
  "Smart hodinky > Príslušenstvo": {
   "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily": 1
@@ -828,13 +837,13 @@
   "Cestovanie, šport a outdoor > Elektrické bicykle a cyklotrenažéry": 14
  },
  "šport > Elektrické surfy": {
-  "Cestovanie, šport a outdoor": 4
+  "Cestovanie, šport a outdoor > Podvodné skútre": 4
  },
  "šport > Fitness Vybavenie": {
-  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Fitness náradie a vybavenie": 45
+  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Fitness náradie a vybavenie": 47
  },
  "šport > Golf": {
-  "Cestovanie, šport a outdoor": 1
+  "Cestovanie, šport a outdoor > Športové vybavenie": 1
  },
  "šport > Podvodné skútre": {
   "Cestovanie, šport a outdoor > Podvodné skútre": 68
@@ -867,46 +876,49 @@
   "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle": 4
  },
  "šport > Stacionárne Bicykle": {
-  "Cestovanie, šport a outdoor > Stacionárne Bicykle": 9
+  "Cestovanie, šport a outdoor > Stacionárne bicykle": 9
  },
  "šport > SUP dosky": {
   "Cestovanie, šport a outdoor > SUP dosky": 19
  },
  "šport > Turizmus": {
-  "Cestovanie, šport a outdoor": 1
+  "Cestovanie, šport a outdoor > Turistika a outdoor": 1
  },
  "Spotrebná elektronika > Televízory": {
   "TV, audio, video a foto technika > Televízory": 1
  },
+ "Záhrada > Jazierka": {
+  "(bez pravidla)": 21
+ },
  "Záhrada > Robotické kosačky": {
-  "Dielňa, náradie a záhrada": 3
+  "Dielňa, náradie a záhrada > Záhrada a bazén": 3
  },
  "Záhrada > Zariadenia na čistenie bazénov": {
   "Dielňa, náradie a záhrada > Záhrada a bazén > Zariadenia na čistenie bazénov": 31
  },
  "Záhrada > Zavlažovacie systémy": {
-  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy": 53
+  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy": 51
  },
  "Zdravie a krása > Erotika > Vibrátory": {
-  "Zdravie a starostlivosť": 2
+  "Zdravie a starostlivosť > Starostlivosť o zdravie": 2
  },
  "Zdravie a krása > Holiace strojčeky a zastrihávače > Holiace strojčeky": {
-  "Zdravie a starostlivosť": 1
+  "Zdravie a starostlivosť > Holiace strojčeky a epilátory": 1
  },
  "Zdravie a krása > Holiace strojčeky a zastrihávače > Zastrihávače": {
-  "Zdravie a starostlivosť": 2
+  "Zdravie a starostlivosť > Holiace strojčeky a epilátory": 2
  },
  "Zdravie a krása > Masážne prístroje": {
-  "Zdravie a starostlivosť": 5
+  "Zdravie a starostlivosť > Starostlivosť o zdravie": 5
  },
  "Zdravie a krása > Osobná starostlivosť": {
-  "Zdravie a starostlivosť": 3
+  "Zdravie a starostlivosť > Starostlivosť o zdravie": 3
  },
  "Zdravie a krása > Otoskopy": {
   "Zdravie a starostlivosť > Otoskopy a prístroje na čistenie pokožky": 13
  },
  "Zdravie a krása > Predlžovanie rias": {
-  "Zdravie a starostlivosť": 3
+  "Zdravie a starostlivosť > Prístroje na tvár": 3
  },
  "Zdravie a krása > Prístroje na tvár > Iné": {
   "Zdravie a starostlivosť > Prístroje na tvár": 3
@@ -915,10 +927,10 @@
   "Zdravie a starostlivosť > Prístroje na tvár": 9
  },
  "Zdravie a krása > Sonické zubné kefky > Príslušenstvo": {
-  "Zdravie a starostlivosť": 4
+  "Zdravie a starostlivosť > Starostlivosť o zuby": 4
  },
  "Zdravie a krása > Sonické zubné kefky > Sonické zubné kefky": {
-  "Zdravie a starostlivosť": 8
+  "Zdravie a starostlivosť > Starostlivosť o zuby": 8
  },
  "Zdravie a krása > Starostlivosť o pleť > Masażery": {
   "Zdravie a starostlivosť > Prístroje na tvár": 3
@@ -927,10 +939,10 @@
   "Zdravie a starostlivosť > Prístroje na tvár": 2
  },
  "Zdravie a krása > Starostlivosť o pleť > Pozostałe": {
-  "Zdravie a starostlivosť": 4
+  "Zdravie a starostlivosť > Prístroje na tvár": 4
  },
  "Zdravie a krása > Starostlivosť o pleť > Szczoteczki do czyszczenia twarzy": {
-  "Zdravie a starostlivosť": 2
+  "Zdravie a starostlivosť > Prístroje na tvár": 2
  },
  "Zdravie a krása > Starostlivosť o vlasy > Fény": {
   "Zdravie a starostlivosť > Starostlivosť o vlasy": 14
@@ -939,45 +951,45 @@
   "Zdravie a starostlivosť > Starostlivosť o vlasy": 3
  },
  "Zdravie a krása > Ústne sprchy > Ústne sprchy": {
-  "Zdravie a starostlivosť": 1
+  "Zdravie a starostlivosť > Starostlivosť o zuby": 1
  },
  "Zdravie a krása > Váhy": {
-  "Zdravie a starostlivosť": 1
+  "Zdravie a starostlivosť > Osobné váhy": 1
+ },
+ "Zvieratá > Akvaristika": {
+  "Chovateľské potreby": 61
  },
  "Zvieratá > Dávkovače krmiva > misky": {
-  "Chovateľské potreby": 37
+  "Chovateľské potreby > Misky a dávkovače krmiva": 35
  },
  "Zvieratá > Dozowniki karmy > Miski": {
-  "Chovateľské potreby": 4
+  "Chovateľské potreby > Misky a dávkovače krmiva": 4
  },
  "Zvieratá > Fontanny > Poidła": {
-  "Chovateľské potreby": 6
+  "Chovateľské potreby > Fontány a napájačky": 5
  },
  "Zvieratá > Fontány > napájačky": {
-  "Chovateľské potreby": 21
+  "Chovateľské potreby > Fontány a napájačky": 26
  },
  "Zvieratá > Hračky": {
-  "Chovateľské potreby": 10
- },
- "Zvieratá > Inteligentne kuwety": {
-  "Chovateľské potreby": 4
+  "Chovateľské potreby > Hračky pre zvieratá": 10
  },
  "Zvieratá > Inteligentné toalety pre zvieratá": {
-  "Chovateľské potreby": 15
+  "Chovateľské potreby > Mačacie toalety a príslušenstvo": 12
  },
  "Zvieratá > Ostatné príslušenstvo": {
-  "Chovateľské potreby": 30
+  "Chovateľské potreby > Ostatné chovateľské potreby": 27
  },
  "Zvieratá > Pohlcovače zápachu": {
-  "Chovateľské potreby": 9
+  "Chovateľské potreby > Starostlivosť o zvieratá": 8
  },
  "Zvieratá > Príslušenstvo pre mačacie toalety": {
-  "Chovateľské potreby": 27
+  "Chovateľské potreby > Mačacie toalety a príslušenstvo": 26
  },
  "Zvieratá > Starostlivosť o zvieratá": {
-  "Chovateľské potreby": 33
+  "Chovateľské potreby > Starostlivosť o zvieratá": 31
  },
  "Zvieratá > Venčenie a transport": {
-  "Chovateľské potreby": 26
+  "Chovateľské potreby > Venčenie a transport": 27
  }
 }
