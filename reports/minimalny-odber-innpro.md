@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-17 14:33 UTC.
+Kontrola z 2026-09-17 19:26 UTC.
 
-InnPro pri **410** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **409** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -36,7 +36,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `025646` | Baseus Tungsten Gold kábel USB na iP 2,4A 2 m (čierny) | — | 5 |
 | `026651` | Súprava vodotesných filtrov Telesin pre objektív GoPro Hero  | — | 5 |
 | `026662` | Hlavový popruh Telesin pre športové kamery (GP-HMS-T04) | — | 5 |
-| `027613` | Inteligentný bezdrôtový nástenný spínač Sonoff T2EU1C-RF 433 | — | 4 |
 | `027504` | Počítačový ventilátor ARGB Darkflash DR12 Pro (120x120) | — | 5 |
 | `027505` | Počítačový ventilátor RGB Darkflash D1 (120x120) | — | 5 |
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
