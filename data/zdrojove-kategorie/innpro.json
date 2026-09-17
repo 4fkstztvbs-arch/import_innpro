@@ -120,10 +120,10 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 7
  },
  "Foto a video > Filtre > Pre športové kamery": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 86
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 88
  },
  "Foto a video > Filtre > Pre zrkadlovky": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 18
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 30
  },
  "Foto a video > Fotoateliér > Fotografické pozadia": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér": 12
@@ -159,7 +159,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 44
  },
  "Foto a video > Príslušenstvo > Pre fotoaparáty a videokamery": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 128
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 134
  },
  "Foto a video > Príslušenstvo > Pre športové kamery": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 281
@@ -168,7 +168,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 28
  },
  "Foto a video > Selfie tyče > statívy > držiaky > Adaptéry": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 20
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 22
  },
  "Foto a video > Selfie tyče > statívy > držiaky > Kruhové svetlá": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 3
@@ -372,7 +372,7 @@
   "Počítače, mobily a tablety > Dokovacie stanice": 10
  },
  "IT príslušenstvo > Držiaky na TV": {
-  "TV, audio, video a foto technika > TV stolíky a držiaky": 18
+  "TV, audio, video a foto technika > TV stolíky a držiaky": 19
  },
  "IT príslušenstvo > Externé zvukové karty": {
   "Počítače, mobily a tablety > PC periférie": 5
@@ -836,17 +836,11 @@
  "šport > Elektrické bicykle": {
   "Cestovanie, šport a outdoor > Elektrické bicykle a cyklotrenažéry": 14
  },
- "šport > Elektrické surfy": {
-  "Cestovanie, šport a outdoor > Podvodné skútre": 4
- },
  "šport > Fitness Vybavenie": {
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Fitness náradie a vybavenie": 47
  },
  "šport > Golf": {
   "Cestovanie, šport a outdoor > Športové vybavenie": 1
- },
- "šport > Podvodné skútre": {
-  "Cestovanie, šport a outdoor > Podvodné skútre": 68
  },
  "šport > Príslušenstvo pre bicykle > Cyklopočítače": {
   "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle": 4
@@ -888,7 +882,7 @@
   "TV, audio, video a foto technika > Televízory": 1
  },
  "Záhrada > Jazierka": {
-  "Dielňa, náradie a záhrada > Záhrada a bazén > Jazierka a jazierková technika": 21
+  "Dielňa, náradie a záhrada > Záhrada a bazén > Jazierka a jazierková technika": 24
  },
  "Záhrada > Robotické kosačky": {
   "Dielňa, náradie a záhrada > Záhrada a bazén": 3
@@ -957,10 +951,10 @@
   "Zdravie a starostlivosť > Osobné váhy": 1
  },
  "Zvieratá > Akvaristika": {
-  "Chovateľské potreby > Akvaristika": 61
+  "Chovateľské potreby > Akvaristika": 62
  },
  "Zvieratá > Dávkovače krmiva > misky": {
-  "Chovateľské potreby > Misky a dávkovače krmiva": 35
+  "Chovateľské potreby > Misky a dávkovače krmiva": 37
  },
  "Zvieratá > Dozowniki karmy > Miski": {
   "Chovateľské potreby > Misky a dávkovače krmiva": 4
@@ -969,13 +963,13 @@
   "Chovateľské potreby > Fontány a napájačky": 5
  },
  "Zvieratá > Fontány > napájačky": {
-  "Chovateľské potreby > Fontány a napájačky": 26
+  "Chovateľské potreby > Fontány a napájačky": 28
  },
  "Zvieratá > Hračky": {
-  "Chovateľské potreby > Hračky pre zvieratá": 10
+  "Chovateľské potreby > Hračky pre zvieratá": 11
  },
  "Zvieratá > Inteligentné toalety pre zvieratá": {
-  "Chovateľské potreby > Inteligentné toalety pre zvieratá": 12
+  "Chovateľské potreby > Inteligentné toalety pre zvieratá": 13
  },
  "Zvieratá > Ostatné príslušenstvo": {
   "Chovateľské potreby > Ostatné chovateľské potreby": 27
@@ -987,7 +981,7 @@
   "Chovateľské potreby > Mačacie toalety a príslušenstvo": 26
  },
  "Zvieratá > Starostlivosť o zvieratá": {
-  "Chovateľské potreby > Starostlivosť o zvieratá": 31
+  "Chovateľské potreby > Starostlivosť o zvieratá": 33
  },
  "Zvieratá > Venčenie a transport": {
   "Chovateľské potreby > Venčenie a transport": 27
