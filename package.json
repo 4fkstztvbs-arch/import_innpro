@@ -5,6 +5,7 @@
   "main": "scripts/transform-monacor.js",
   "scripts": {
     "sync": "node scripts/transform-monacor.js",
+    "test:seo-overrides": "node scripts/test-seo-overrides.js",
     "heureka-price-compare": "node scripts/compare-heureka-prices.js",
     "heureka-price-daily": "node scripts/process-heureka-report.js",
     "heureka-unmatched": "node scripts/process-heureka-unmatched.js",
