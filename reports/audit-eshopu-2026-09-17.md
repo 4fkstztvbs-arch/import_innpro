@@ -1,7 +1,8 @@
 # Audit e-shopu premiumstore.sk
 
 Stav k **17. 9. 2026, 10:00 UTC**. Zostavené z repozitára (105 skriptov, 21 workflow),
-živého exportu kategórií zo Shoptetu a priamych volaní na web.
+živých exportov kategórií zo Shoptetu (vrátane archívnych z 24. 8., 11.–13. 9.) a priamych
+volaní na web.
 
 ---
 
@@ -35,22 +36,48 @@ Moja objednávka, GDPR, e-mail, telefón, Shoptet, nastavenie cookies.
 **Kategóriová stránka** ukazuje dlaždice podkategórií a pod nimi tovar, 12 kusov na
 stranu. Úvodný SEO text sa zobrazuje tam, kde ho kategória má.
 
-### ⚠️ Toto sa mi nepodarilo potvrdiť
+---
 
-Píšete, že kategórie boli podstatne zmenšené. **V dátach to nevidím:**
+## 3. Zmenšenie kategórií — čo sa stalo
 
-- živý export kategórií má **480 položiek**, čo je **bajt za bajtom ten istý súbor**
-  ako ráno o 05:00
-- rozloženie úrovní je nezmenené: 12 / 172 / 155 / 141
-- menu naďalej nesie celý strom
+Najväčší zásah do e-shopu za posledný mesiac. Doložené exportmi zo Shoptetu:
 
-Buď zmeny ešte nie sú publikované, alebo je export cachovaný, alebo idú mimo toho,
-čo z týchto zdrojov vidno. Než na nich niečo postavím, potreboval by som vedieť,
-čo presne sa zmenilo.
+| Dátum | Kategórií | Viditeľných | Koreňov | Úrovne (1 / 2 / 3 / 4 / 5 / 6) |
+|---|---:|---:|---:|---|
+| 24. 8. | **2 929** | 2 925 | 14 | 14 / 206 / 1063 / 1314 / 290 / 42 |
+| 11. 9. | 2 568 | 2 360 | 17 | 17 / 255 / 988 / 1052 / 225 / 31 |
+| 12. 9. | 2 569 | 2 361 | 18 | 18 / 255 / 988 / 1052 / 225 / 31 |
+| 13. 9. po importe | 2 315 | 2 132 | 12 | 12 / 234 / 896 / 825 / 310 / 38 |
+| **17. 9. dnes** | **480** | 479 | **12** | **12 / 172 / 155 / 141** |
+
+Zo **2 929 na 480**, teda na šestinu. A hĺbka zo **šiestich úrovní na štyri**.
+
+### Čo sa tým vyriešilo
+
+Starý strom mal 1314 kategórií na štvrtej úrovni a ďalších 332 na piatej a šiestej —
+väčšinou s jednotkami produktov. Zákazník sa v tom nemal ako zorientovať a Google
+indexoval tisíce takmer prázdnych stránok.
+
+Podstatnejšie však bolo, že strom nebol **stabilný**: názvy sa medzi dodávateľmi
+líšili, takže Shoptet pri každom importe zakladal ďalšie číslované varianty tej istej
+kategórie (`/tablety-4/`, `/sluchadla-2/`). Odtiaľ tých 2929.
+
+Nový strom je uzavretá množina. O zaradení rozhoduje jedna tabuľka na dodávateľa a
+`enforce-tree-categories.js` nepustí ďalej nič, čo v nej nie je — **Shoptet tak nemá
+ako kategóriu navyše vytvoriť**. Dnes je mimo stromu 0 z 26 947 produktov.
+
+### Čo to znamená pre zvyšok systému
+
+| Vec | Stav |
+|---|---|
+| Presmerovania zo starých URL | 2 830 pravidiel, pokrytie overené proti exportom z 24. 8. aj 12. 9. |
+| Produkty zaparkované na koreni | 6 166 (13. 9.) → 669 (14. 9.) → **103 dnes** |
+| Odkazy v popisoch produktov | prepisujú sa pri každom behu, kontroluje ich poistka |
+| Hĺbka 4. úrovne | 141 uzlov, zatiaľ naplnených 1 220 produktmi |
 
 ---
 
-## 3. Ako e-shop funguje — pipeline
+## 4. Ako e-shop funguje — pipeline
 
 Osem dodávateľov, každý má vlastný workflow a vlastný čas:
 
@@ -101,7 +128,7 @@ nenahrá pokazený.
 
 ---
 
-## 4. Kategorizácia — ako sa správa dnes
+## 5. Kategorizácia — ako sa správa dnes
 
 Strom má **487 uzlov** (12 / 177 / 157 / 141), e-shop **480**. Rozdiel je 7 kategórií,
 ktoré čakajú na import.
@@ -129,7 +156,7 @@ e-shop sú v zhode.
 
 ---
 
-## 5. Čo je zdravé
+## 6. Čo je zdravé
 
 - **Žiadna kategória mimo stromu** — 0 z 26 947 produktov. Shoptet nemá ako vyrobiť
   kategóriu navyše.
@@ -142,7 +169,7 @@ e-shop sú v zhode.
 - **Heureka** — 149 kategórií má priradené ID, 5 vetiev je z plateného feedu vylúčených,
   cenový strop 10 €.
 
-## 6. Čo treba doriešiť
+## 7. Čo treba doriešiť
 
 | Vec | Rozsah | Poznámka |
 |---|---:|---|
