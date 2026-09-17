@@ -72,6 +72,14 @@ jobs:
 
           git fetch origin main
 
+          # Súbory, ktoré sú vždy plne prepočítané odznova (nie ručne upravované) — pri konflikte
+          # v rebase nemá zmysel opakovať ten istý pokus, lebo konflikt je štrukturálny (obe strany
+          # nezávisle prepísali celý súbor inými dátami), nie náhodný. Zoberie sa verzia z tohto
+          # behu ("theirs" pri git rebase = commit, ktorý sa prehráva), lebo je najčerstvejšia.
+          REGENERATED_FILES=(
+            "reports/produkty-pod-nakupnou-cenou.md"
+          )
+
           for i in 1 2 3 4 5; do
             echo "== rebase attempt $i =="
             if git rebase origin/main; then
@@ -80,7 +88,33 @@ jobs:
               exit 0
             fi
 
-            echo "Rebase failed on attempt $i; aborting and retrying..."
+            CONFLICTS=$(git diff --name-only --diff-filter=U)
+            echo "Rebase failed on attempt $i, conflicts in:"
+            echo "$CONFLICTS"
+
+            ONLY_REGENERATED=true
+            while IFS= read -r f; do
+              [ -z "$f" ] && continue
+              if ! printf '%s\n' "${REGENERATED_FILES[@]}" | grep -qxF "$f"; then
+                ONLY_REGENERATED=false
+                break
+              fi
+            done <<< "$CONFLICTS"
+
+            if [ -n "$CONFLICTS" ] && [ "$ONLY_REGENERATED" = true ]; then
+              echo "Only regenerated-report conflicts — keeping this run's freshly computed version and continuing rebase"
+              for f in $CONFLICTS; do
+                git checkout --theirs -- "$f"
+                git add "$f"
+              done
+              if git rebase --continue; then
+                git push origin HEAD:main
+                echo "Push succeeded on attempt $i (after auto-resolving regenerated-report conflict)"
+                exit 0
+              fi
+            fi
+
+            echo "Aborting and retrying..."
             git rebase --abort || true
             git status --short
             sleep $((i * 8))
