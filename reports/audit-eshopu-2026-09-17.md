@@ -103,7 +103,7 @@ nenahrá pokazený.
 
 ## 4. Kategorizácia — ako sa správa dnes
 
-Strom má **487 uzlov** (12 / 174 / 156 / 145), e-shop **480**. Rozdiel je 7 kategórií,
+Strom má **487 uzlov** (12 / 177 / 157 / 141), e-shop **480**. Rozdiel je 7 kategórií,
 ktoré čakajú na import.
 
 O zaradení rozhoduje **jedna tabuľka na dodávateľa** (`data/kategorie/<dodávateľ>.json`).
