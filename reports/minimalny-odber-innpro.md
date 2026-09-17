@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-17 05:42 UTC.
+Kontrola z 2026-09-17 09:02 UTC.
 
 InnPro pri **414** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
