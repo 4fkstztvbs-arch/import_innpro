@@ -50,6 +50,17 @@ function vytvorZaradovac(dodavatel) {
   }
 
   const chybajuce = new Map(); // zdrojová cesta -> { cesta, pocet, priklady: [] }
+  // KAŽDÁ cesta z feedu a to, kam viedla — nielen tie bez pravidla. Presne tento prehľad dovolil
+  // 13. 9. 2026 nahradiť kaskádu ôsmich vrstiev jednou tabuľkou pravidiel; keď sa prestal písať,
+  // stratili sme možnosť zistiť, ako má dodávateľ sortiment rozdelený, a pri novom tovare sa
+  // cieľová kategória dala už len odhadovať z názvov produktov.
+  const vsetky = new Map(); // zdrojová cesta -> Map(cieľ -> počet)
+
+  function zapis(zdrojovaCesta, ciel) {
+    const zaznam = vsetky.get(zdrojovaCesta) || new Map();
+    zaznam.set(ciel, (zaznam.get(ciel) || 0) + 1);
+    vsetky.set(zdrojovaCesta, zaznam);
+  }
 
   function zarad(zdrojovaCesta, { produkt } = {}) {
     if (!zdrojovaCesta) return { kategoria: '', chyba: false };
@@ -60,8 +71,9 @@ function vytvorZaradovac(dodavatel) {
       if (!ciel) continue;
       // Cieľ pravidla musí byť uzol stromu. Keď nie je, je chybné pravidlo — nie dôvod hádať.
       const vStrome = STROM_NORM.get(normalizuj(ciel));
-      if (vStrome) return { kategoria: vStrome, chyba: false };
+      if (vStrome) { zapis(zdrojovaCesta, vStrome); return { kategoria: vStrome, chyba: false }; }
     }
+    zapis(zdrojovaCesta, '(bez pravidla)');
 
     const zaznam = chybajuce.get(zdrojovaCesta)
       || { cesta: zdrojovaCesta, pocet: 0, priklady: [] };
@@ -97,6 +109,20 @@ function vytvorZaradovac(dodavatel) {
     }
     fs.mkdirSync(path.dirname(cesta), { recursive: true });
     fs.writeFileSync(cesta, r.join('\n') + '\n');
+
+    // Surové cesty dodávateľa a to, kam dnes vedú. Zámerne sa prepisuje celý súbor, nie zlučuje
+    // so starým: zlúčením by v ňom navždy ostávali kategórie, ktoré dodávateľ už neposiela, a
+    // súbor by prestal odpovedať na otázku "ako to má dodávateľ rozdelené TERAZ".
+    if (vsetky.size) {
+      const dir = path.join(KOREN, 'data', 'zdrojove-kategorie');
+      fs.mkdirSync(dir, { recursive: true });
+      const out = {};
+      for (const [zdroj, ciele] of [...vsetky].sort((a, b) => a[0].localeCompare(b[0]))) {
+        out[zdroj] = Object.fromEntries([...ciele].sort((a, b) => b[1] - a[1]));
+      }
+      fs.writeFileSync(path.join(dir, `${dodavatel}.json`), JSON.stringify(out, null, 1) + '\n');
+    }
+
     return {
       cestyBezPravidla: chybajuce.size,
       produktyBezPravidla: [...chybajuce.values()].reduce((s, z) => s + z.pocet, 0),
