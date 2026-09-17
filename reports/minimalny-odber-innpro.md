@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-17 09:02 UTC.
+Kontrola z 2026-09-17 14:33 UTC.
 
-InnPro pri **414** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **410** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -43,7 +43,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
 | `029279` | Zadné svetlo na bicykel Superfire BTL01, USB, 230 mAh | — | 5 |
 | `029282` | Baterka Superfire S33-A – USB, čierna, 4 režimy | — | 5 |
-| `030318` | Hrudný popruh Telesin s držiakom pre športové kamery (GP-CGP | — | 3 |
 | `030322` | Baseus Crystal Shine kábel USB na Lightning, 2,4A, 1,2 m (mo | — | 5 |
 | `030381` | Baseus Dynamic kábel USB na Lightning, 2,4 A, 2 m (fialový) | — | 5 |
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 5 |
@@ -281,7 +280,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `082320` | PULUZ Silikónové nabíjacie puzdro Ochranný kryt pre DJI Mic  | — | 5 |
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
-| `082639` | Silikónové ochranné puzdro Puluz pre Insta360 Go Ultra (čier | — | 2 |
 | `082641` | Sada tvrdeného skla Puluz pre DJI Osmo Action 6 (3 ks). | — | 5 |
 | `082642` | Tvrdené sklo Puluz pre Insta360 X4 Air | — | 5 |
 | `082686` | Súprava na určovanie veľkosti krúžkov RingConn | — | 5 |
@@ -303,7 +301,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `083944` | Inteligentný termohygrometer Rainpoint Smart+ | — | 5 |
 | `084784` | Uni-T UT12D-EU Bezkontaktný tester napätia | — | 5 |
 | `085297` | Avatto 2 zásuvka TS20 rám vypínača (biely) | — | 5 |
-| `083555` | Waydoo Subnado Obal | — | 2 |
 | `081351` | Osciloskopická sonda Fnirsi P6100 | — | 5 |
 | `086043` | Sonoff WS01STPF-E – klasická nástenná zásuvka (typ F) | — | 5 |
 | `079180` | Puzdro Flytec – čierne | — | 5 |
@@ -322,7 +319,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `086551` | Cirkulačné čerpadlo SUNSUN JVP-110 | — | 5 |
 | `088616` | Tvrdené sklo Sunnylife pre Insta360 GO Ultra (2 ks) | — | 5 |
 | `088932` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (čierna) | — | 5 |
-| `088933` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (biela) | — | 5 |
 | `088934` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (červená) | — | 5 |
 | `088935` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (zlatá) | — | 5 |
 | `088936` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (ružové zla | — | 5 |

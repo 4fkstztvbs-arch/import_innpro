@@ -44,5 +44,4 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 085498 | 6977641140072 | Vaša fréza MAKERA Carvera CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 6680.00 € | 28.4x | 9 |
 | 085499 | 6977641142496 | Vaša fréza MAKERA Carvera Air CNC | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 3067.50 € | 13.1x | 9 |
 | 085503 | 6977641140423 | Základné panely MAKERA Carvera Air z MDF s hrúbkou 2 mm (5 ks) | cena mimo 8x rozsah mediánu kategórie | 235.00 € | 23.90 € | 1/9.8x | 9 |
-| 086538 | 6955974933028 | Ponorné čerpadlo SUNSUN XQP-500F | cena mimo 8x rozsah mediánu kategórie | 101.50 € | 6.40 € | 1/15.9x | 21 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
