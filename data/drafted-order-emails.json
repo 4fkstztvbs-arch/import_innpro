@@ -537,5 +537,33 @@
     "subject": "Re: [PremiumStore.sk] Objednávka 202600750",
     "orderCode": "202600750",
     "matchedBy": "code"
+  },
+  "<01b001dd4695$744d7e50$5ce87af0$@monacor.sk>": {
+    "draftedAt": "2026-09-17T15:15:22.510Z",
+    "from": "tibor@pulsepro.audio",
+    "subject": "RE: Objednávka",
+    "orderCode": null,
+    "matchedBy": "none"
+  },
+  "<14B8620E-E305-4F5B-8BFD-2495380B38F3@gmail.com>": {
+    "draftedAt": "2026-09-17T15:15:32.450Z",
+    "from": "marek.vestenicky@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600874 sa práve vybavuje",
+    "orderCode": "202600874",
+    "matchedBy": "code"
+  },
+  "<CAABUvXEmtj5BWGQBJyy0z5C-SiQhVB2xU1CZK2iSO=-x-0R+Cw@mail.gmail.com>": {
+    "draftedAt": "2026-09-17T15:15:38.787Z",
+    "from": "dariaavol7@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600936 sa práve vybavuje",
+    "orderCode": "202600936",
+    "matchedBy": "code"
+  },
+  "<CAJQ7E_+cr-z+ZqLXNE6mpE5JVRMYGauy-y3gbfnkN3WeHY4T6w@mail.gmail.com>": {
+    "draftedAt": "2026-09-17T15:15:46.030Z",
+    "from": "generalshocks@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600460 sa práve vybavuje",
+    "orderCode": "202600460",
+    "matchedBy": "code"
   }
 }
