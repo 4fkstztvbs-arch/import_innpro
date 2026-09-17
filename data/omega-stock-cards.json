@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600282,
+    "nextCardNumber": 202600305,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1688,6 +1688,144 @@
         "nazov": "BEHRINGER Premium Analog 5-Input Mixer with USB",
         "dodavatel": "basys",
         "code": ""
+      },
+      "6972860171128": {
+        "kod": "202600282",
+        "nazov": "Telesin 45m waterproof case",
+        "dodavatel": "innpro",
+        "code": "026650"
+      },
+      "6972860170046": {
+        "kod": "202600283",
+        "nazov": "Telesin Bike Mount",
+        "dodavatel": "innpro",
+        "code": "028759"
+      },
+      "6920075740622": {
+        "kod": "202600284",
+        "nazov": "SNZB-02P (round)",
+        "dodavatel": "innpro",
+        "code": "057375"
+      },
+      "6934399224034": {
+        "kod": "202600285",
+        "nazov": "Pet Clipper P2",
+        "dodavatel": "innpro",
+        "code": "060147"
+      },
+      "6971636409625": {
+        "kod": "202600286",
+        "nazov": "CR-PETG Transparent -",
+        "dodavatel": "innpro",
+        "code": "064759"
+      },
+      "5906168436819": {
+        "kod": "202600287",
+        "nazov": "BW-VS4 100inch Projector",
+        "dodavatel": "innpro",
+        "code": "067547"
+      },
+      "6975702150305": {
+        "kod": "202600288",
+        "nazov": "HiBREW G5 electric",
+        "dodavatel": "innpro",
+        "code": "076470"
+      },
+      "6935750568323": {
+        "kod": "202600289",
+        "nazov": "UNI-T UT683KIT Wire",
+        "dodavatel": "innpro",
+        "code": "077506"
+      },
+      "6972860178042": {
+        "kod": "202600290",
+        "nazov": "Flat+Curve Adhesive Mount",
+        "dodavatel": "innpro",
+        "code": "073822"
+      },
+      "6920075743432": {
+        "kod": "202600291",
+        "nazov": "Matter Over WiFi Smart",
+        "dodavatel": "innpro",
+        "code": "080590"
+      },
+      "5907085524023": {
+        "kod": "202600292",
+        "nazov": "Flytec RC Boat",
+        "dodavatel": "innpro",
+        "code": "078882"
+      },
+      "5907085524092": {
+        "kod": "202600293",
+        "nazov": "Flytec RC Boat V050-Camo",
+        "dodavatel": "innpro",
+        "code": "078885"
+      },
+      "6971670131155": {
+        "kod": "202600294",
+        "nazov": "Flextail Zero Pillow brown",
+        "dodavatel": "innpro",
+        "code": "084224"
+      },
+      "5905156102125": {
+        "kod": "202600295",
+        "nazov": "Flytec RC Boat V803-GPS",
+        "dodavatel": "innpro",
+        "code": "083984"
+      },
+      "6933582315146": {
+        "kod": "202600296",
+        "nazov": "Filament PETG 1.75mm 1kg",
+        "dodavatel": "innpro",
+        "code": "085193"
+      },
+      "6933582315696": {
+        "kod": "202600297",
+        "nazov": "Filament PLA+ Silk Tri-Color",
+        "dodavatel": "innpro",
+        "code": "085219"
+      },
+      "6972467710133": {
+        "kod": "202600298",
+        "nazov": "Gimbal AOCHUAN XE",
+        "dodavatel": "innpro",
+        "code": "085534"
+      },
+      "6977132450260": {
+        "kod": "202600299",
+        "nazov": "isEasy Three-head glass gas",
+        "dodavatel": "innpro",
+        "code": "086330"
+      },
+      "6976230000872": {
+        "kod": "202600300",
+        "nazov": "Heat transfer film HTVRONT",
+        "dodavatel": "innpro",
+        "code": "088932"
+      },
+      "6976230000889": {
+        "kod": "202600301",
+        "nazov": "Heat transfer vinyl",
+        "dodavatel": "innpro",
+        "code": "088933"
+      },
+      "6976230001077": {
+        "kod": "202600302",
+        "nazov": "Self-adhesive vinyl",
+        "dodavatel": "innpro",
+        "code": "088959"
+      },
+      "6957141411988": {
+        "kod": "202600303",
+        "nazov": "QCY MeloBuds A30 HT22",
+        "dodavatel": "innpro",
+        "code": "090390"
+      },
+      "4897143173632": {
+        "kod": "202600304",
+        "nazov": "Insta360 Luna Ultra Glow",
+        "dodavatel": "innpro",
+        "code": "091454"
       }
     }
   },
