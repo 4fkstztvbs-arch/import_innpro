@@ -35,6 +35,9 @@ jobs:
       - name: Fix ignored categories (Heureka)
         run: node scripts/fix-ignored-categories.js
 
+      - name: Potvrdené opravy produktov z auditu
+        run: node scripts/apply-product-category-corrections.js --write
+
       - name: Collapse thin categories
         run: node scripts/collapse-thin-categories.js
 

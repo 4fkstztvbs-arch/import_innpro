@@ -1,40 +1,11 @@
-# Kategórie PremiumStore: pripravené na upload
+# Import kategórií je pozastavený — nič z tohto priečinka nenahrávať
 
-61 nových kategórií, SEO pre 91 kategórií, 2 337 overených produktových presunov.
+Používateľ 18. 9. 2026 rozšíril zadanie na kontrolu všetkých produktov. Najprv sa opravuje zaradenie a zavádzajúce produktové texty, potom sa prepočíta strom a až následne sa pripravia nové importy so správnymi cestami.
 
-## Aktuálny stav
+Pôvodný návrh 61 nových kategórií a súbory 01–07 sú historický pracovný podklad. Nie sú schválené na upload. Najmä súbor 06 používal kódy z dodávateľských feedov; aktuálny úplný export potvrdil, že živé kódy často obsahujú ďalšiu predponu. Bez zosúladenia so živými kartami sa nesmie použiť.
 
-Kód a overené produktové pravidlá sú v hlavnej vetve. Nové zaradenie je vypnuté (`enabled: false` v `data/approved-category-migration.json`). Pôvodné aktívne mapovania a XML feedy sa týmto commitom nemenia. Sedem synchronizácií už obsahuje pripravený záverečný krok, ktorý do aktivácie nič nemení.
+`data/approved-category-migration.json` zostáva `enabled: false`. Nemenia sa aktívny strom, kategóriové URL ani presmerovania. Nové L4/L5 sa neaktivujú.
 
-## Teraz v Shoptete
+Potvrdené opravy do existujúcich kategórií sú samostatne v `data/product-category-corrections.json`. Krok `scripts/apply-product-category-corrections.js` ich obnovuje po synchronizácii a pred kontrolou minimálneho počtu produktov. Kontroluje dodávateľa, kód, EAN, názov a pôvodné zaradenie; sporné alebo zmenené položky nepremiestni naslepo.
 
-1. Uložiť aktuálny export kategórií, produktov a presmerovaní ako zálohu.
-2. V Marketing → Základné SEO → Presmerovanie adries odstrániť 22 pravidiel uvedených v `manualne/00-presmerovania-na-odstranenie-NEIMPORTOVAT.csv`. Tento súbor je zoznam na odstránenie, nie mazací import. Zdrojové adresy sa znova použijú pre kategórie.
-3. V Produkty → Kategórie → Import nahrať postupne súbory `import/01-nove-kategorie-L2.csv`, `02-nove-kategorie-L3.csv`, `03-nove-kategorie-L4.csv`, `04-nove-kategorie-L5.csv` a `05-seo-existujucich-kategorii.csv`. Po každom overiť log. CSV používajú bodkočiarku a UTF-8.
-4. Potvrdiť dokončenie uploadu a poskytnúť aktuálny produktový export na kontrolu ručných priradení a variantov. Zatiaľ nenahrávať produktový súbor 06 ani presmerovanie 07 a nemažať pôvodnú kategóriu.
-
-## Aktivácia po uploade
-
-V jednej zmene nahradiť `data/known-categories.json`, `data/category-urls.json` a tri súbory `data/kategorie/{atos,innpro,kb}.json` ich pripravenými verziami z `data/category-rollout-2026-09-18/` a nastaviť `enabled: true` v konfigurácii migrácie. Potom:
-
-```sh
-node --test scripts/test-approved-categories.js
-node scripts/apply-approved-categories.js
-node scripts/apply-approved-categories.js --write
-node scripts/add-category-links.js
-node scripts/check-category-links.js
-```
-
-Kategorizátor číta všetkých osem feedov. Kontroluje dodávateľa, kód a EAN. Nové skupiny musia mať aspoň 8 viditeľných unikátnych EAN (bez EAN dodávateľ + kód); pri poklese ostáva produkt v rodičovi. Nové modely bez overeného priradenia ostávajú podľa pôvodného mapovania. Počet produktov a ostatné produktové údaje sa nemenia.
-
-Aktivovaný krok beží po filtroch viditeľnosti a pred interným prelinkovaním. Pri nedostatočnom počte reportuje potrebu preveriť viditeľnosť stránky v Shoptete; sám stránky neskryje ani nezmaže. Po aktivácii musí Shoptet pri pravidelných importoch aktualizovať kategórie.
-
-## Následné importy
-
-`06-produkty-zaradenie.csv` je voliteľný jednorazový presun existujúcich produktov, ktorý treba najprv porovnať so živým exportom. Použiť režim bez mazania produktov/variantov mimo súboru. Zachovať produktové URL. Prázdny pairCode zodpovedá samostatným produktom; prípadné živé varianty sa musia najprv zosúladiť.
-
-`07-nove-presmerovanie-301.csv` pridať až pri finálnom zlúčení Ostatných chovateľských potrieb: po presune všetkých živých produktov odstrániť starú kategóriu a overiť 301 na `/chovatelske-potreby/`. Samotné skrytie kategórie nepreukazuje funkčné presmerovanie.
-
-## Overenie
-
-Podklady: živý export kategórií z 18. 9. 2026 a osem XML feedov pri commite 7ff4cad17b4cd77a6e96ec5094b438843ac2b584. Pred publikovaním sa overila ich zhoda s aktuálnym main. Skúšobné spracovanie zachovalo 26 975 produktov a zmenilo presne 2 337 zaradení, všetkých 61 nových kategórií spĺňa prah. Opakovaný beh bol bez ďalších zmien. Kontrola interných odkazov: 0 nesprávnych. Import do Shoptetu ani kontrola živého produktového exportu ešte neboli vykonané.
+Audit zatiaľ nie je uzavretý. Zhoda automatickej kontroly s názvom/popisom nie je ručné schválenie celého katalógu. Príprava importu a finálne prepočítanie nového stromu sa vykonajú po vyriešení otvorených položiek.

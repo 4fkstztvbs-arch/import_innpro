@@ -1,0 +1,92 @@
+{
+  "status": "in_progress",
+  "liveProducts": 27247,
+  "visibleLiveProducts": 26674,
+  "hiddenLiveProducts": 573,
+  "feedProducts": 26975,
+  "reconciliation": {
+    "live_products": 27247,
+    "feed_products": 26975,
+    "matching": {
+      "matched": 26821,
+      "live_only": 426
+    },
+    "methods": {
+      "supplier_code": 26455,
+      "ean": 366
+    },
+    "category_differences": 135,
+    "code_differences": 21316,
+    "multiple_live_to_same_feed": {
+      "feed:atos:9568": 2,
+      "feed:basys:36": 2,
+      "feed:basys:39": 2,
+      "feed:basys:37": 2,
+      "feed:atos:10403": 2,
+      "feed:atos:6837": 2,
+      "feed:atos:3068": 2,
+      "feed:atos:873": 2,
+      "feed:atos:5505": 2,
+      "feed:atos:3288": 2,
+      "feed:atos:8216": 2,
+      "feed:atos:6933": 2,
+      "feed:atos:10851": 2,
+      "feed:kb:4335": 2,
+      "feed:kb:4967": 2,
+      "feed:kb:4381": 2,
+      "feed:atos:6052": 2,
+      "feed:atos:9201": 2,
+      "feed:atos:6053": 2,
+      "feed:atos:10701": 2,
+      "feed:atos:6054": 2,
+      "feed:kb:2760": 2,
+      "feed:atos:2261": 2,
+      "feed:atos:11668": 2,
+      "feed:kb:844": 2,
+      "feed:kb:5014": 2,
+      "feed:atos:10639": 2,
+      "feed:atos:11779": 2,
+      "feed:kb:282": 2,
+      "feed:kb:2814": 2
+    },
+    "feed_only": 184
+  },
+  "confirmedCorrectionRules": 1068,
+  "categoryChanges": 1064,
+  "nameChanges": 9,
+  "removedMisleadingGeneratedIntros": 59,
+  "wrongCategoryLinksAfterCorrection": 0,
+  "newCategoriesActivated": 0,
+  "newTreeImportReady": false,
+  "verification": {
+    "products": 26975,
+    "boseProAllInProfessionalBranch": 166,
+    "changedFields": {
+      "DESCRIPTION": 1066,
+      "CATEGORIES": 1064,
+      "NAME": 9,
+      "META_DESCRIPTION": 9,
+      "SEO_TITLE": 9,
+      "SHORT_DESCRIPTION": 2
+    },
+    "otherFieldsUnchanged": true,
+    "newCategories": 0,
+    "hashes": {
+      "atos.xml": "862817fbcdff80fbb61309da5da4130f97a52be3068f0a308b81b373c4c0b9a8",
+      "basys.xml": "42118de4afedfc697a9ca32e6c5ae20cbda18e17d139b90281e2e9bd09d086f1",
+      "innpro.xml": "74fdf654e1c5ca8c36f241602994d003915f023b8c0dec4626e5f8025cd0c431",
+      "kb.xml": "4ee88113c961951ecaa3b087f9652e1ef4d6641c887114b4a6bfe4866ef38486",
+      "monacor.xml": "a20aa01dc820c07c976363d6c2b1a20704f0a1ab9d9d127e71eeb5b4ec2d77bc",
+      "penta.xml": "3ef9237e3d5f02bc929ebc5f1f89e61731ee8d982dd295da283ce9787b84e4ed",
+      "solight.xml": "fe1ca318b53e7c286041e5d206b8202fdb1b07dcf3791bf2b8413a6460d74c42",
+      "wiim.xml": "4391be053fee2595bc200e06bc0b0ce3db4f8b6ac52bc3977afe0117bdb15e2c"
+    }
+  },
+  "sources": [
+    "https://truthear.com/products/zero",
+    "https://www.oneodio.com/products/pro10-black-over-ear-headphones",
+    "https://www.oneodio.com/products/studio-pro-50-black-professional-studio-over-ear-headphones",
+    "https://boseprofessional.com/products/loudspeakers/arrayable/showmatch/showmatch-sm10-deltaq-array-loudspeaker",
+    "https://boseprofessional.com/products/loudspeakers/subwoofers/mb-sub/mb210-wr-outdoor-subwoofer"
+  ]
+}
