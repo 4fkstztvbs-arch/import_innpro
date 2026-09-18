@@ -621,5 +621,19 @@
     "subject": "Daňový doklad k prijatej platbe",
     "orderCode": null,
     "matchedBy": "none"
+  },
+  "<20260918125430.73F02027@centrum.sk>": {
+    "draftedAt": "2026-09-18T14:18:00.895Z",
+    "from": "ambrus.alexander@centrum.sk",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202600602",
+    "orderCode": "202600602",
+    "matchedBy": "code"
+  },
+  "<78b08384-d5d7-47b6-a77c-e2497b1e147e@mramor-c.sk>": {
+    "draftedAt": "2026-09-18T14:18:08.431Z",
+    "from": "mramorc@mramor-c.sk",
+    "subject": "Re: Vaša objednávka č. 202600866 bola úspešne vybavená a odoslaná",
+    "orderCode": "202600866",
+    "matchedBy": "code"
   }
 }
