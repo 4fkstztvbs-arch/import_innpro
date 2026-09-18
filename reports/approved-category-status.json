@@ -2,7 +2,7 @@
   "minimum": 8,
   "totalProducts": 27025,
   "matchedRules": 2709,
-  "changedProducts": 1280,
+  "changedProducts": 15,
   "rejected": [],
   "categories": [
     {
@@ -120,64 +120,64 @@
       "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
     },
     {
-      "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Krájače potravín",
+      "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Krájače potravín",
       "visibleUnique": 12,
       "active": true,
-      "parent": "Domáce spotrebiče > Kuchynské roboty a krájače"
+      "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
     {
-      "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Kuchynské roboty",
+      "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Kuchynské roboty",
       "visibleUnique": 17,
       "active": true,
-      "parent": "Domáce spotrebiče > Kuchynské roboty a krájače"
+      "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
     {
-      "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
+      "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
       "visibleUnique": 63,
       "active": true,
-      "parent": "Domáce spotrebiče > Kuchynské roboty a krájače"
+      "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
     {
-      "path": "Domáce spotrebiče > Príprava nápojov > Filtračné kanvice",
+      "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Filtračné kanvice",
       "visibleUnique": 12,
       "active": true,
-      "parent": "Domáce spotrebiče > Príprava nápojov"
+      "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
     {
-      "path": "Domáce spotrebiče > Príprava nápojov > Rýchlovarné kanvice",
+      "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice",
       "visibleUnique": 28,
       "active": true,
-      "parent": "Domáce spotrebiče > Príprava nápojov"
+      "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
     {
-      "path": "Domáce spotrebiče > Príslušenstvo k vysávačom",
+      "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
       "visibleUnique": 69,
       "active": true,
-      "parent": "Domáce spotrebiče"
+      "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
     {
-      "path": "Domáce spotrebiče > Sušiaky na bielizeň",
+      "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Sušiaky na bielizeň",
       "visibleUnique": 46,
       "active": true,
-      "parent": "Domáce spotrebiče"
+      "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
     {
-      "path": "Domáce spotrebiče > Vysávače > Robotické vysávače",
+      "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
       "visibleUnique": 76,
       "active": true,
-      "parent": "Domáce spotrebiče > Vysávače"
+      "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
-      "path": "Domáce spotrebiče > Vysávače > Tyčové vysávače",
+      "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače",
       "visibleUnique": 37,
       "active": true,
-      "parent": "Domáce spotrebiče > Vysávače"
+      "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
-      "path": "Domáce spotrebiče > Vysávače > Vreckové a bezvreckové vysávače",
+      "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Vreckové a bezvreckové vysávače",
       "visibleUnique": 14,
       "active": true,
-      "parent": "Domáce spotrebiče > Vysávače"
+      "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Senzory pohybu a otvorenia",
@@ -216,26 +216,26 @@
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
     {
-      "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače",
+      "path": "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače",
       "visibleUnique": 45,
       "active": true,
-      "parent": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory"
+      "parent": "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory"
     },
     {
-      "path": "Počítače, mobily a tablety > WiFi routery a sieťové karty > Sieťové switche",
+      "path": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche",
       "visibleUnique": 22,
       "active": true,
-      "parent": "Počítače, mobily a tablety > WiFi routery a sieťové karty"
+      "parent": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
     },
     {
-      "path": "Počítače, mobily a tablety > WiFi routery a sieťové karty > WiFi routery",
+      "path": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > WiFi routery",
       "visibleUnique": 48,
       "active": true,
-      "parent": "Počítače, mobily a tablety > WiFi routery a sieťové karty"
+      "parent": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
     },
     {
       "path": "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu",
-      "visibleUnique": 49,
+      "visibleUnique": 34,
       "active": true,
       "parent": "Profesionálna audio technika"
     },
