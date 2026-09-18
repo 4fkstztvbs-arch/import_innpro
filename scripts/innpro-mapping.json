@@ -10,7 +10,7 @@
     "Audio": "TV, audio, video a foto technika > Audio technika",
     "Foto a video": "TV, audio, video a foto technika > Foto a príslušenstvo",
     "IT príslušenstvo": "Počítače, mobily a tablety",
-    "Hry": "Počítače, mobily a tablety > Herné príslušenstvo pre PC",
+    "Hry": "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC",
     "Príslušenstvo GSM": "Počítače, mobily a tablety",
     "Smartfóny a tablety": "Počítače, mobily a tablety",
     "Smart hodinky": "Počítače, mobily a tablety",
@@ -22,7 +22,7 @@
     "Inteligentná domácnosť": "Elektro, Smart Home a osvetlenie",
     "Malé domáce spotrebiče": "Domáce spotrebiče a domácnosť",
     "Náradie": "Dielňa, náradie a záhrada",
-    "Kancelária": "Počítače, mobily a tablety > Kancelária a škola",
+    "Kancelária": "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola",
     "Príslušenstvo pre automobily": "Auto-moto",
     "Záhrada": "Dielňa, náradie a záhrada",
     "Energia": "Energia a napájanie",
@@ -59,7 +59,7 @@
     "Malé domáce spotrebiče > Naparovače odevov": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky",
     "Malé domáce spotrebiče > Varné platne": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče",
     "Malé domáce spotrebiče > Ostatné": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Ostatné domáce spotrebiče",
-    "TV, audio a video/Počítače a príslušenstvo/Dokovací stanice": "Počítače, mobily a tablety > Dokovacie stanice",
+    "TV, audio a video/Počítače a príslušenstvo/Dokovací stanice": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Dokovacie stanice",
     "Náradie a dielňa/Meracia technika": "Dielňa, náradie a záhrada > Meracia technika",
     "Náradie a dielňa/Meracia technika/Laserové vodováhy": "Dielňa, náradie a záhrada > Meracia technika > Meracie lasery a diaľkomery",
     "Náradie a dielňa/Meracia technika/Teplomery": "Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery",
@@ -86,10 +86,10 @@
     "TV, audio a video/Reproduktory/Drátové reproduktory": "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory",
     "Zdravie a starostlivosť/Ústne sprchy": "Zdravie a starostlivosť > Starostlivosť o zuby",
     "Zdravie a starostlivosť/Ústne sprchy/Ústne sprchy": "Zdravie a starostlivosť > Starostlivosť o zuby",
-    "Fotovoltaika a energie/Powerbanky": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Powerbanky",
-    "Fotovoltaika a energie/Nabíjačky/Powerbanky": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Powerbanky",
-    "Fotovoltaika a energie/Záložné zdroje a UPS/Powerbanky": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Powerbanky",
-    "Fotovoltaika a energie/Napájacie zdroje/Powerbanky": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Powerbanky"
+    "Fotovoltaika a energie/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky",
+    "Fotovoltaika a energie/Nabíjačky/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky",
+    "Fotovoltaika a energie/Záložné zdroje a UPS/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky",
+    "Fotovoltaika a energie/Napájacie zdroje/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky"
   },
   "categorySubRulesByName": {
     "Dielňa, náradie a záhrada > Meracia technika": [

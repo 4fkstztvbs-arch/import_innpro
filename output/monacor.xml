@@ -43528,7 +43528,11 @@ Bez potreby licencie, návod na použitie nájdete na webovej stránke MONACOR.<
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>ZZACC2NR</CODE>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > USB káble]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>6310</HEUREKA_CATEGORY_ID>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
