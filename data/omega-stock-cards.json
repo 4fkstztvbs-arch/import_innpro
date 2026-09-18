@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600307,
+    "nextCardNumber": 202600315,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1838,6 +1838,54 @@
         "nazov": "Nepriamy germicidný UV žiarič",
         "dodavatel": "solight",
         "code": "GNZ01"
+      },
+      "5905316148376": {
+        "kod": "202600307",
+        "nazov": "BW-BTS8 Bluetooth Bone",
+        "dodavatel": "innpro",
+        "code": "055043"
+      },
+      "6975069305240": {
+        "kod": "202600308",
+        "nazov": "PET ODOR ELIMINATORR",
+        "dodavatel": "innpro",
+        "code": "073431"
+      },
+      "6930444802608": {
+        "kod": "202600309",
+        "nazov": "Graphic Tablet Huin note X10",
+        "dodavatel": "innpro",
+        "code": "077163"
+      },
+      "6975069304281": {
+        "kod": "202600310",
+        "nazov": "Cat Waste Bag for PURA",
+        "dodavatel": "innpro",
+        "code": "078359"
+      },
+      "6975069303956": {
+        "kod": "202600311",
+        "nazov": "\"Pet Odor Eliminator ?3pcs)\"",
+        "dodavatel": "innpro",
+        "code": "078361"
+      },
+      "0810194780400": {
+        "kod": "202600312",
+        "nazov": "X-Sense SKP0A Wireless",
+        "dodavatel": "innpro",
+        "code": "077354"
+      },
+      "0810194780448": {
+        "kod": "202600313",
+        "nazov": "X-Sense SMS0A Wireless",
+        "dodavatel": "innpro",
+        "code": "077355"
+      },
+      "5907085527246": {
+        "kod": "202600314",
+        "nazov": "FNIRSI Binocular Night",
+        "dodavatel": "innpro",
+        "code": "078688"
       }
     }
   },
