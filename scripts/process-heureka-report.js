@@ -16,6 +16,9 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { createHash } = require('crypto');
+const { parse } = require('csv-parse/sync');
+const { POLICY, validatePolicy } = require('./heureka-pricing');
 
 const REPO_ROOT = path.join(__dirname, '..');
 
@@ -49,68 +52,48 @@ function fnum(s) { const v = parseFloat(s); return Number.isFinite(v) ? v : null
 function fmtEur(v) { return v !== null && v !== undefined && v !== '' ? `${fnum(v).toFixed(2)} €` : '—'; }
 function fmtPct(v) { return v !== null && v !== undefined && v !== '' ? `${fnum(v).toFixed(1)} %` : '—'; }
 
-// The CSV writer quotes only Nazov/Kategoria/Poznamka fields, so a plain split(',') would break
-// on any comma inside those - use a small proper parser instead.
-function parseCsvLine(line) {
-  const out = [];
-  let cur = '';
-  let inQuotes = false;
-  for (let i = 0; i < line.length; i++) {
-    const c = line[i];
-    if (inQuotes) {
-      if (c === '"' && line[i + 1] === '"') { cur += '"'; i++; }
-      else if (c === '"') { inQuotes = false; }
-      else cur += c;
-    } else if (c === '"') { inQuotes = true; }
-    else if (c === ',') { out.push(cur); cur = ''; }
-    else cur += c;
-  }
-  out.push(cur);
-  return out;
-}
-
 function readCsvRows(csvPath) {
-  const raw = fs.readFileSync(csvPath, 'utf-8').trim().split('\n');
-  const header = raw[0].split(',');
-  return raw.slice(1).map((line) => {
-    const cols = parseCsvLine(line);
-    const rec = {};
-    header.forEach((h, i) => { rec[h] = cols[i]; });
-    return rec;
-  });
+  return parse(fs.readFileSync(csvPath, 'utf-8'), { columns: true, skip_empty_lines: true });
 }
 
-// Builds the EAN -> target map consumed live by every transform-*.js via
-// heureka-price-targets.js. Only actionable rows (ZVÝŠIŤ/ZNÍŠIŤ) with a raw competitor-derived
-// target carry a price - "BEZ ZMENY" rows and rows with no purchase price contribute nothing.
-function buildPriceTargets(rows, sourceCsvName) {
+// Retain valid market targets even when the current feed is already at target.
+// Otherwise the next supplier transform would fall back to cost+markup again.
+function buildPriceTargets(rows, sourceCsvName, policy = POLICY) {
   const targets = {};
   const generatedAt = new Date().toISOString();
   for (const r of rows) {
-    if (!r.EAN) continue;
-    const rawTarget = fnum(r.SurovyCielEUR);
-    // "BEZ ZMENY" nesie cenu len výnimočne: keď sa zľava zrušila preto, že by nepohla cenovou
-    // pozíciou (compare-heureka-prices.js), cena sa nemení, ale zistenie "cenovo tu nevyhráme"
-    // platí ďalej a musí sa preniesť — inak by tieto produkty vypadli z cantCompete a začali
-    // znova míňať Heureka CPC na kliky, ktoré sa nemajú ako premeniť.
-    const nevyhrame = r.NemozemeVyhrat === '1';
-    if (r.Akcia !== 'ZVÝŠIŤ' && r.Akcia !== 'ZNÍŽIŤ' && !nevyhrame) continue;
-    if (rawTarget === null && !nevyhrame) continue;
+    if (!r.EAN || r.KonkurenciaPlatna !== '1' || !(fnum(r.NakupnaCenaBezDphEUR) > 0)) continue;
+    const soleOffer = fnum(r.PocetPredajcov) === 1;
+    if (!soleOffer && !(fnum(r.SurovyCielEUR) > 0)) continue;
     targets[r.EAN] = {
+      pricingVersion: policy.version,
+      policy,
+      mode: soleOffer ? 'supplier' : 'market',
       action: r.Akcia,
-      targetPriceInclVat: rawTarget,
+      targetPriceInclVat: fnum(r.SurovyCielEUR),
+      referencePriceInclVat: fnum(r.NasaCenaEUR),
+      source: r.Dodavatel,
+      competitorPrices: (r.KonkurencneCeny || '').split(';').map(fnum).filter((p) => p > 0),
+      completeRanking: r.UplnyRebricek === '1',
+      sellerCount: fnum(r.PocetPredajcov),
       heurekaNajnizsia: fnum(r.HeurekaNajnizsiaEUR),
       heurekaUrl: r.HeurekaURL || '',
       generatedAt,
       sourceReport: sourceCsvName,
-      // Even after landing on the margin floor we still can't undercut the cheapest competitor -
-      // paying for Heureka CPC clicks on this product is wasted spend, so it gets excluded from
-      // the extended Heureka feed entirely (see cannotCompeteOnPrice() in heureka-price-targets.js
-      // and its use in each transform-*.js's HEUREKA_HIDDEN line).
       cantCompete: r.NemozemeVyhrat === '1',
     };
   }
   return targets;
+}
+
+// Updating a CSV under its original name, or changing the pricing rules, must
+// reprocess it even if the filename timestamp has not changed.
+function processingFingerprint(csvPath, policy) {
+  const hash = createHash('sha256').update(fs.readFileSync(csvPath)).update(JSON.stringify(policy));
+  for (const file of ['heureka-pricing.js', 'compare-heureka-prices.js', 'process-heureka-report.js', 'round-price.js']) {
+    hash.update(fs.readFileSync(path.join(__dirname, file)));
+  }
+  return hash.digest('hex');
 }
 
 function csvToMarkdownReport(rows, mdPath, sourceCsvName, minMarginPct) {
@@ -136,7 +119,8 @@ function csvToMarkdownReport(rows, mdPath, sourceCsvName, minMarginPct) {
   lines.push('');
   lines.push(`Vstup: \`${sourceCsvName}\` (automaticky spracované denným behom).`);
   lines.push('');
-  lines.push(`**Pravidlo:** sme najlacnejší → zvýšiť na 2. najlacnejšieho konkurenta. Nie sme najlacnejší → znížiť tesne pod aktuálne najlacnejšieho. Cena nikdy neklesne pod floor = nákupná cena bez DPH × (1 + ${minMarginPct} % marža) × (1 + DPH). Marža = prirážka nad nákupnú cenu bez DPH (rovnaká definícia ako \`KB_MIN_MARGIN\` v \`transform-kb.js\`), nie klasická obchodná marža z predajnej ceny.`);
+  lines.push(`**Pravidlo:** ponuky sa počítajú podľa pozície v rebríčku, naša ponuka sa odčíta presne raz. Cieľ je najbližšia zaokrúhlená cena pod najlacnejším iným predajcom, bez stropu prirážky. Minimum = nákupná cena bez DPH × (1 + ${minMarginPct} % prirážka) × (1 + DPH), zaokrúhlené nahor. Už najlacnejší produkt sa zbytočne nezlacňuje. Ak zľava po cenové minimum nepreskočí žiadnu známu konkurenčnú ponuku, cena sa zachová. Pri jedinej ponuke INNPRO zostáva na 15 % prirážke; ostatní dodávatelia používajú vlastnú základnú/odporúčanú cenu. Neplatné dáta a chýbajúca nákupná cena sa nepreceňujú.`);
+  lines.push('Prirážka je počítaná z nákupnej ceny bez DPH; nejde o obchodnú maržu z predajnej ceny. Heureka ceny v tabuľkách sú ceny iných predajcov.');
   lines.push('');
   lines.push('## Súhrn');
   lines.push('');
@@ -152,7 +136,7 @@ function csvToMarkdownReport(rows, mdPath, sourceCsvName, minMarginPct) {
 
   function tableSection(title, group) {
     const out = [`## ${title} (${group.length})`, ''];
-    out.push('| Názov | Naša cena | → Nová cena | Marža teraz | → Nová marža | Heureka najlacnejší | Poznámka |');
+    out.push('| Názov | Naša cena | → Nová cena | Prirážka teraz | → Nová prirážka | Najlacnejší konkurent | Poznámka |');
     out.push('|---|---:|---:|---:|---:|---:|---|');
     for (const r of group) {
       let name = (r.Nazov || '').replace(/\|/g, '/');
@@ -176,7 +160,8 @@ function main() {
   const dirArg = args.find((a) => a.startsWith('--dir='));
   const reportsDir = dirArg ? dirArg.slice('--dir='.length) : path.join(REPO_ROOT, 'data', 'heureka-reports');
   const marginArg = args.find((a) => a.startsWith('--min-margin='));
-  const minMarginPct = marginArg ? parseFloat(marginArg.slice('--min-margin='.length)) : 5;
+  const minMarginPct = marginArg ? Number(marginArg.slice('--min-margin='.length)) : POLICY.minMarkupPct;
+  const policy = validatePolicy({ ...POLICY, minMarkupPct: minMarginPct });
   const force = args.includes('--force');
 
   const statePath = path.join(reportsDir, '.last-processed.json');
@@ -187,14 +172,15 @@ function main() {
     return;
   }
 
+  const csvPath = path.join(reportsDir, latest.file);
+  const fingerprint = processingFingerprint(csvPath, policy);
   const state = loadState(statePath);
-  if (!force && state && state.ts >= latest.ts) {
+  if (!force && state && state.file === latest.file && state.fingerprint === fingerprint && fs.existsSync(path.join(reportsDir, 'price-targets.json'))) {
     console.log('NOTHING_NEW');
     console.log(`Najnovší súbor (${latest.file}, ${latest.ts}) už bol spracovaný ${state.processedAt} (report: ${state.reportPath}).`);
     return;
   }
 
-  const csvPath = path.join(reportsDir, latest.file);
   const dateStr = latest.ts.slice(0, 8);
   const isoDate = `${dateStr.slice(0, 4)}-${dateStr.slice(4, 6)}-${dateStr.slice(6, 8)}`;
   // Intermediate per-product CSV is just scratch data for building the .md report below - the
@@ -204,7 +190,7 @@ function main() {
   const mdPath = path.join(REPO_ROOT, 'reports', `heureka-cenovy-navrh-${isoDate}.md`);
 
   console.log(`Spracúvam: ${latest.file} (${latest.ts})`);
-  execFileSync('node', [
+  execFileSync(process.execPath, [
     path.join(__dirname, 'compare-heureka-prices.js'),
     csvPath,
     `--out=${outCsvPath}`,
@@ -217,12 +203,12 @@ function main() {
   // price-targets.json is what every transform-*.js reads at its own next run to override
   // prices for products it recognizes by EAN - see scripts/heureka-price-targets.js.
   const targetsPath = path.join(reportsDir, 'price-targets.json');
-  const targets = buildPriceTargets(rows, latest.file);
+  const targets = buildPriceTargets(rows, latest.file, policy);
   fs.writeFileSync(targetsPath, JSON.stringify(targets, null, 1), 'utf-8');
   console.log(`Cieľové ceny pre živé importy: ${Object.keys(targets).length} produktov -> ${targetsPath}`);
 
   fs.writeFileSync(statePath, JSON.stringify({
-    file: latest.file, ts: latest.ts, processedAt: new Date().toISOString(),
+    file: latest.file, ts: latest.ts, fingerprint, pricingVersion: policy.version, processedAt: new Date().toISOString(),
     reportPath: path.relative(REPO_ROOT, mdPath), targetsPath: path.relative(REPO_ROOT, targetsPath),
     priceTargetsCount: Object.keys(targets).length, stats,
   }, null, 1), 'utf-8');
@@ -230,4 +216,5 @@ function main() {
   console.log(`PROCESSED:${mdPath}`);
 }
 
-main();
+if (require.main === module) main();
+module.exports = { buildPriceTargets, readCsvRows, processingFingerprint, extractTimestamp, findLatestReport };

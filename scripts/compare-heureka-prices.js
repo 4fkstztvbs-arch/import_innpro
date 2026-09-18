@@ -4,14 +4,10 @@
 // PriceMax10..2, Najvyššia cena, E-shopov predávajúcich produkt), and suggests a new price for
 // each matched product using the following rule:
 //
-//   - We're currently the cheapest (or tied) -> too cheap, leaving margin on the table. Raise
-//     to match the second-cheapest competitor (PriceMin2) - stay very competitive, but stop
-//     giving away the gap to whoever is currently #2.
-//   - We're not the cheapest -> undercut the current cheapest competitor by one rounding step,
-//     to become the new #1 - but never below a minimum-margin safety floor on our purchase price
-//     (excl. VAT, --min-margin, default 5%): floor = purchasePriceExclVat * (1+margin) * (1+VAT).
-//     If matching/undercutting the competitor would break the floor, price only goes down to the
-//     floor (not all the way to the competitor) and the row is flagged.
+// Ranked price columns are merged by OFFER POSITION, then exactly one own
+// offer (identified using the REPORT price) is removed. Shared policy targets
+// the cheapest other offer, preserving a minimum markup without a maximum markup cap.
+// See heureka-pricing-policy.json and heureka-pricing.js.
 //
 // The report's own "Item ID" column is Shoptet's internal product ID from whichever store the
 // report was pulled from — it does NOT match our supplier CODE and isn't portable across a
@@ -25,7 +21,7 @@
 const fs = require('fs');
 const path = require('path');
 const { parse } = require('csv-parse/sync');
-const { roundPrice, roundPriceUp, roundPriceDown } = require('./round-price');
+const { POLICY, validatePolicy, readCompetition, priceDecision } = require('./heureka-pricing');
 
 function xmlUnescape(s) {
   return String(s || '')
@@ -54,7 +50,7 @@ function loadOurProducts(xmlPaths) {
       const purchasePriceRaw = (it.match(/<PURCHASE_PRICE>(.*?)<\/PURCHASE_PRICE>/) || [])[1];
       const purchasePrice = purchasePriceRaw ? parseFloat(purchasePriceRaw) : null;
       const purchaseVatRaw = (it.match(/<PURCHASE_VAT>(.*?)<\/PURCHASE_VAT>/) || [])[1];
-      const purchaseVat = purchaseVatRaw ? parseFloat(purchaseVatRaw) : 23;
+      const purchaseVat = purchaseVatRaw !== undefined ? parseFloat(purchaseVatRaw) : null;
       if (byEan.has(ean)) { dupes++; continue; }
       const entry = { name, price, category, code, source: path.basename(xmlPath), purchasePrice, purchaseVat, ean };
       byEan.set(ean, entry);
@@ -81,7 +77,8 @@ function main() {
   const xmlArg = args.find((a) => a.startsWith('--xml='));
   const outputDir = xmlArg ? xmlArg.slice('--xml='.length) : path.join(__dirname, '..', 'output');
   const marginArg = args.find((a) => a.startsWith('--min-margin='));
-  const MIN_MARGIN_PCT = marginArg ? parseFloat(marginArg.slice('--min-margin='.length)) : 5;
+  const MIN_MARGIN_PCT = marginArg ? Number(marginArg.slice('--min-margin='.length)) : POLICY.minMarkupPct;
+  const policy = validatePolicy({ ...POLICY, minMarkupPct: MIN_MARGIN_PCT });
   const xmlPaths = fs.readdirSync(outputDir)
     .filter((f) => f.endsWith('.xml'))
     .map((f) => path.join(outputDir, f));
@@ -95,13 +92,14 @@ function main() {
   const csvRaw = fs.readFileSync(csvPath, 'utf-8');
   // Heureka's export has a trailing comma on every data row (one extra empty field past the
   // last header column) - tolerate the mismatched column count instead of erroring on it.
-  const rows = parse(csvRaw, { columns: true, skip_empty_lines: true, relax_column_count: true });
+  const rows = parse(csvRaw, { bom: true, columns: (headers) => {
+    for (const required of ['EAN', 'Vaša cena', 'Najnižšia cena', 'Najvyššia cena', 'E-shopov predávajúcich produkt']) {
+      if (!headers.includes(required)) throw new Error(`Heureka report is missing column: ${required}`);
+    }
+    return headers;
+  }, skip_empty_lines: true, relax_column_count: true });
+  if (!rows.length) throw new Error('Heureka report is empty');
   console.log(`  -> ${rows.length} rows in report`);
-
-  const PRICE_LADDER_COLS = [
-    'Najnižšia cena', 'PriceMin2', 'PriceMin3', 'PriceMin4', 'PriceMin5', 'PriceMin6', 'PriceMin7', 'PriceMin8', 'PriceMin9', 'PriceMin10',
-    'PriceMax10', 'PriceMax9', 'PriceMax8', 'PriceMax7', 'PriceMax6', 'PriceMax5', 'PriceMax4', 'PriceMax3', 'PriceMax2', 'Najvyššia cena',
-  ];
 
   const matched = [];
   let noEan = 0;
@@ -128,101 +126,24 @@ function main() {
     // be blank when we only matched via the Item ID fallback above.
     const ean = ours.ean;
 
-    const ladderAll = PRICE_LADDER_COLS.map((c) => num(row[c])).filter((v) => v !== null);
-    const ladderSorted = [...ladderAll].sort((a, b) => a - b);
-    const heurekaMin = ladderSorted.length ? ladderSorted[0] : null;
-    const heurekaMin2 = ladderSorted.length > 1 ? ladderSorted[1] : null;
-    const sellerCount = num(row['E-shopov predávajúcich produkt']);
-
-    let estimatedPosition = null;
-    if (heurekaMin !== null && ours.price !== null) {
-      estimatedPosition = ladderAll.filter((v) => v < ours.price).length + 1;
-    }
-
+    const competition = readCompetition(row);
+    const decision = priceDecision(ours.price, ours.purchasePrice, ours.purchaseVat, competition, policy, ours.source);
+    if (!(ours.purchasePrice > 0) || !Number.isFinite(ours.purchaseVat)) noPurchasePrice++;
+    const heurekaMin = competition.cheapest;
+    const heurekaMin2 = competition.prices[1] ?? null;
+    const sellerCount = competition.sellerCount;
+    const estimatedPosition = competition.valid && competition.complete
+      ? competition.prices.filter((p) => p < ours.price).length + 1 : null;
     const diff = heurekaMin !== null ? +(ours.price - heurekaMin).toFixed(2) : null;
     const diffPct = heurekaMin ? +((diff / heurekaMin) * 100).toFixed(1) : null;
-
-    // --- price suggestion ---
-    let floorPrice = null;
-    if (ours.purchasePrice) {
-      floorPrice = roundPriceUp(ours.purchasePrice * (1 + MIN_MARGIN_PCT / 100) * (1 + ours.purchaseVat / 100));
-    } else {
-      noPurchasePrice++;
-    }
-
-    let action = 'BEZ ZMENY';
-    let suggestedPrice = ours.price;
-    let note = '';
-    // rawTarget is the pure competitor-derived price, BEFORE clamping to today's floor - kept
-    // separate so a later, live re-application (see heureka-price-targets.js) can re-derive the
-    // floor from that day's actual purchase price instead of trusting this snapshot's floor.
-    let rawTarget = null;
-    // True only for ZNÍŽIŤ cases where even the floor-clamped price still doesn't undercut the
-    // cheapest competitor — i.e. we mathematically cannot win on price here without breaking the
-    // margin floor. Used downstream to pull these out of the Heureka CPC feed entirely (see
-    // process-heureka-report.js / HEUREKA_HIDDEN wiring) - paying for clicks we can never convert
-    // on price is wasted spend.
-    let cantCompete = false;
-
-    if (heurekaMin === null) {
-      note = 'žiadna konkurencia v rebríčku';
-    } else if (!floorPrice) {
-      note = 'chýba nákupná cena, nedá sa overiť min. marža';
-    } else if (ours.price <= heurekaMin) {
-      // We're the cheapest (or tied) - raise toward the 2nd-cheapest competitor.
-      if (heurekaMin2 !== null && heurekaMin2 > ours.price) {
-        rawTarget = heurekaMin2;
-        suggestedPrice = roundPrice(Math.max(floorPrice, heurekaMin2));
-        if (suggestedPrice > ours.price) {
-          action = 'ZVÝŠIŤ';
-          note = floorPrice > heurekaMin2
-            ? `min. marža (${MIN_MARGIN_PCT}%) vyžaduje vyššiu cenu než 2. najlacnejší konkurent — zvýšené na floor, nad úroveň 2. najlacnejšieho`
-            : 'dobehnutie 2. najlacnejšieho konkurenta';
-        }
-      } else {
-        note = 'sme najlacnejší, ale nie je známy 2. najlacnejší konkurent';
-      }
-    } else {
-      // We're not the cheapest - undercut the current cheapest, floor permitting.
-      const undercut = roundPriceDown(heurekaMin - 0.01);
-      rawTarget = undercut;
-      suggestedPrice = roundPrice(Math.max(floorPrice, undercut));
-      if (suggestedPrice < ours.price) {
-        action = 'ZNÍŽIŤ';
-        cantCompete = suggestedPrice >= heurekaMin;
-        note = cantCompete
-          ? `floor (min. marža ${MIN_MARGIN_PCT}%) je nad cenou konkurencie — znížené len po floor, nestaneme sa najlacnejší`
-          : 'stávame sa najlacnejší';
-
-        // Zľava, ktorá nepohne cenovou pozíciou, je zľava zadarmo. Nastáva, keď floor zastaví
-        // zníženie skôr, než preskočíme čo i len jedného konkurenta — medzi terajšou a novou
-        // cenou potom nie je ani jedna cudzia ponuka. Na reporte zo 14. 9. 2026 to bolo 173 zo
-        // 602 takých prípadov a 2460 € zľavy; zvyšných 429 pozíciu naozaj získa, preto sa ruší
-        // len tento podmnožinový prípad, nie znižovanie k floor ako také (pozícia v rebríčku
-        // privádza zákazníkov aj bez prvého miesta — rozhodnutie používateľa 14. 9. 2026).
-        //
-        // Porovnáva sa tým istým spôsobom ako estimatedPosition vyššie, teda nad ladderAll:
-        // ten kvôli prekryvu stĺpcov PriceMin/PriceMax obsahuje ceny dvojmo, ale na ROVNOSŤ
-        // dvoch počtov to nemá vplyv — ak medzi cenami nie je žiadna cudzia ponuka, oba počty
-        // sú rovnaké bez ohľadu na násobnosť.
-        const pozTeraz = ladderAll.filter((v) => v < ours.price).length;
-        const pozPotom = ladderAll.filter((v) => v < suggestedPrice).length;
-        if (pozTeraz === pozPotom) {
-          action = 'BEZ ZMENY';
-          note = `zníženie po floor (min. marža ${MIN_MARGIN_PCT}%) by nepreskočilo ani jedného konkurenta `
-            + `— pozícia ${pozTeraz + 1} by ostala rovnaká, cenu preto nemeníme`;
-          suggestedPrice = ours.price;
-          rawTarget = null;
-        }
-      }
-    }
+    const { floor: floorPrice, action, price: suggestedPrice, reason: note, target: rawTarget, cantCompete } = decision;
 
     // Margin (our "marža" convention throughout this codebase, see transform-kb.js's
     // MIN_MARGIN floor): markup over purchase price excl. VAT, i.e.
     // margin% = priceExclVat / purchaseExclVat - 1, NOT (price-cost)/price.
     let currentMarginPct = null;
     let newMarginPct = null;
-    if (ours.purchasePrice) {
+    if (ours.purchasePrice > 0 && Number.isFinite(ours.purchaseVat)) {
       const priceExclVat = ours.price / (1 + ours.purchaseVat / 100);
       currentMarginPct = +((priceExclVat / ours.purchasePrice - 1) * 100).toFixed(1);
       const suggestedExclVat = suggestedPrice / (1 + ours.purchaseVat / 100);
@@ -252,6 +173,10 @@ function main() {
       poznamka: note,
       nemozemeVyhrat: cantCompete,
       heurekaUrl: row['Heureka URL'] || '',
+      competitorPrices: competition.prices.join(';'),
+      completeRanking: competition.complete ? '1' : '0',
+      reportPrice: num(row['Vaša cena']),
+      competitionValid: competition.valid ? '1' : '0',
     });
   }
 
@@ -259,7 +184,7 @@ function main() {
 
   const header = ['EAN', 'Nazov', 'Kategoria', 'Dodavatel', 'NasaCenaEUR', 'NakupnaCenaBezDphEUR', 'FloorCenaEUR',
     'MarzaTerazPct', 'MarzaPoUpravePct', 'HeurekaNajnizsiaEUR', 'HeurekaDruhaNajnizsiaEUR', 'HeurekaNajvyssiaEUR',
-    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'SurovyCielEUR', 'Poznamka', 'NemozemeVyhrat', 'HeurekaURL'];
+    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'SurovyCielEUR', 'Poznamka', 'NemozemeVyhrat', 'HeurekaURL', 'KonkurencneCeny', 'UplnyRebricek', 'NasaCenaVReporteEUR', 'KonkurenciaPlatna'];
   const lines = [header.join(',')];
   for (const m of matched) {
     lines.push([
@@ -268,7 +193,7 @@ function main() {
       m.marzaTerazPct ?? '', m.marzaPoUpravePct ?? '',
       m.heurekaNajnizsia ?? '', m.heurekaDruhaNajnizsia ?? '', m.heurekaNajvyssia ?? '', m.pocetPredajcov ?? '',
       m.odhadovanaPozicia ?? '', m.rozdielEur ?? '', m.rozdielPct ?? '', m.akcia, m.odporucanaCena ?? '', m.surovyCiel ?? '',
-      `"${m.poznamka.replace(/"/g, '""')}"`, m.nemozemeVyhrat ? '1' : '0', m.heurekaUrl,
+      `"${m.poznamka.replace(/"/g, '""')}"`, m.nemozemeVyhrat ? '1' : '0', m.heurekaUrl, m.competitorPrices, m.completeRanking, m.reportPrice ?? '', m.competitionValid,
     ].join(','));
   }
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
@@ -279,14 +204,14 @@ function main() {
   const rovnako = matched.filter((m) => m.rozdielEur === 0).length;
   const zvysit = matched.filter((m) => m.akcia === 'ZVÝŠIŤ').length;
   const znizit = matched.filter((m) => m.akcia === 'ZNÍŽIŤ').length;
-  const floorLimited = matched.filter((m) => m.poznamka.includes('floor')).length;
+  const floorLimited = matched.filter((m) => m.akcia === 'ZNÍŽIŤ' && m.poznamka.includes('floor')).length;
 
   console.log('\n=== Súhrn ===');
   console.log(`Riadkov v reporte bez EAN: ${noEan}`);
   console.log(`Riadkov s EAN, ale bez zhody v našich produktoch: ${noMatch}`);
   console.log(`Spárovaných produktov: ${matched.length}`);
   console.log(`  - sme drahší než najlacnejší: ${drahsi}`);
-  console.log(`  - sme lacnejší/najlacnejší: ${lacnejsi}`);
+  console.log(`  - sme lacnejší než najlacnejší iný predajca: ${lacnejsi}`);
   console.log(`  - rovnaká cena ako najlacnejší: ${rovnako}`);
   console.log(`  - bez nákupnej ceny (nedá sa navrhnúť cena): ${noPurchasePrice}`);
   console.log(`Návrh: zvýšiť cenu u ${zvysit}, znížiť u ${znizit} produktov`);
@@ -294,4 +219,5 @@ function main() {
   console.log(`\nReport uložený do: ${outPath}`);
 }
 
-main();
+if (require.main === module) main();
+module.exports = { loadOurProducts };

@@ -11,8 +11,8 @@
 // dodávateľa. Feedy bez nákupnej ceny (MONACOR, WiiM) tak ostanú nedotknuté; applyHeurekaPriceTarget
 // pri chýbajúcej nákupnej cene cenu zámerne nemení.
 //
-// Opakované spustenie nič nepokazí: pre ZNÍŽIŤ sa berie min(terajšia, cieľ) a pre ZVÝŠIŤ
-// max(dno, cieľ), takže druhý beh nad tým istým súborom už nemá čo zmeniť.
+// Opakované spustenie používa rovnakú referenčnú cenu a konkurenčné ponuky z reportu.
+// Pri nezmenenej nákupnej cene preto ďalší beh už nič neprepisuje.
 //
 // Rovnaký vypínač ako živé prepisovanie v transformoch: bez HEUREKA_PRICE_OVERRIDE=1 sa nerobí nič.
 //
