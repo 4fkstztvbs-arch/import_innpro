@@ -1,9 +1,15 @@
 {
   "minimum": 8,
-  "totalProducts": 27025,
-  "matchedRules": 2709,
-  "changedProducts": 15,
-  "rejected": [],
+  "totalProducts": 27084,
+  "matchedRules": 2708,
+  "changedProducts": 1526,
+  "rejected": [
+    {
+      "supplier": "innpro",
+      "code": "064997",
+      "reason": "Reviewed product name changed"
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -343,7 +349,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 85,
+      "visibleUnique": 84,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },

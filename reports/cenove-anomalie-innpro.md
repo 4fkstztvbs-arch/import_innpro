@@ -38,9 +38,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 088510 | 6937224140639 | Osmo Action 5 Pro – fotografovanie na ulici, držadlo, príslušenstvo, K | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092888 | 6975116296170 | Food dispenser Rojeco PTD001 IQ Training | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092889 | 6975116296408 | Automatic pet food and water dispenser Rojeco 2-in-1 C | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092887 | 6975116296231 | Filterless water dispenser Rojeco PTM673 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092888 | 6975116296170 | Dávkovač potravín Rojeco PTD001 IQ Training | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092889 | 6975116296408 | Automatický dávkovač krmiva a vody pre domáce zvieratá Rojeco 2 v 1 C | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092887 | 6975116296231 | Dávkovač vody bez filtra Rojeco PTM673 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 24 |
 | 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 14.95 € | 1.00 € | 1/15.0x | 20 |

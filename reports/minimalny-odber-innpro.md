@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-18 18:46 UTC.
+Kontrola z 2026-09-18 23:46 UTC.
 
-InnPro pri **415** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **416** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -31,7 +31,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `024662` | Inteligentný spínač WiFi Gosund SW3, Tuya | — | 5 |
 | `025657` | Čelovka Superfire HL51 – 160 lm, micro-USB, 4 režimy, 300 m | — | 5 |
 | `024942` | Baseus Simple Wisdom Súprava dátového kábla USB na Lightning | — | 5 |
-| `025066` | Rýchlonabíjačka Baseus Super Si 1C 20W (biela) | — | 5 |
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | — | 5 |
 | `026131` | Základňa snímača pohybu Sonoff (PIR3, SNZB-03) | — | 5 |
 | `025440` | Sada dátových káblov Baseus Simple Wisdom USB to Micro 2.1A  | — | 5 |
@@ -52,7 +51,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `035753` | Kryt kefy pre vysávač Dreame Z10 Pro | — | 3 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
-| `036334` | Montážna konzola na lištu DIN Sonoff DR | — | 5 |
+| `036334` | Montážna konzola na lištu DIN Sonoff DR | — | 3 |
 | `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
 | `045781` | Sunnylife lanyard with attachment for DJI RC-N1 / RC-N2 / RC | — | 5 |
@@ -133,6 +132,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
 | `056365` | Nalepovacie termoštítky Niimbot 25 x 60 mm, 110 ks (biele) | — | 5 |
 | `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
+| `057927` | Inteligentný prepínač WiFi Sonoff S-MATE2 (bez neutrálu) | — | 2 |
 | `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 5 |
@@ -157,9 +157,9 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `059286` | Vysávačová kefa DREAME U10 | — | 5 |
 | `063431` | Silikónové bezpečnostné puzdro pre Puluz Insta360 GO 3 s kry | — | 5 |
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
+| `061362` | Side brush for Roidmi EVE CC | — | 5 |
 | `061363` | Mopping pads for Roidmi EVE CC | — | 5 |
 | `061364` | Dust bag for Roidmi EVE CC | — | 2 |
-| `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
@@ -190,7 +190,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `068840` | Mäkká kefa pre Dreame Z20/Z30/Z20 AquaCycle™/Z30 AquaCycle™ | — | 5 |
 | `070385` | Puluz headband with sports camera mount (including Osmo Acti | — | 5 |
 | `070386` | PULUZ backpack mount for sports cameras (including Osmo Acti | — | 2 |
-| `069447` | TELESIN flexible mount for phones (gray) | — | 5 |
+| `069447` | TELESIN flexible mount for phones (gray) | — | 3 |
 | `070758` | Thermal labels Niimbot stickers 40x30 mm - 900 pcs. White | — | 5 |
 | `070767` | Thermal Labels Niimbot stickers 50x30 mm - 225 pcs Silver | — | 5 |
 | `070768` | Thermal labels Niimbot stickers 50x70 mm - 100 pcs. White | — | 5 |
@@ -235,6 +235,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `073822` | Súprava nálepiek Telesin pre držiak J-Hook pre športové kame | — | 5 |
 | `077966` | Svetlo Superfire BTL05 na bicykli | — | 5 |
 | `077873` | Ochranná fólia Puluz 3 v 1 pre Insta 360 Ace Pro 2 | — | 5 |
+| `077868` | Ochranné puzdro Puluz pre DJI Mic Mini (čierne) | — | 5 |
 | `077869` | Ochranné puzdro Puluz pre DJI Mic 2 (čierne) | — | 5 |
 | `077820` | Dvojfarebné štítky do tlačiarne T50*30-230 (biele) | — | 5 |
 | `077821` | T50*30-230 Dvojfarebné štítky do tlačiarne (žlté) | — | 5 |
@@ -280,7 +281,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `082320` | PULUZ Silikónové nabíjacie puzdro Ochranný kryt pre DJI Mic  | — | 5 |
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
-| `082639` | Silikónové ochranné puzdro Puluz pre Insta360 Go Ultra (čier | — | 5 |
 | `082641` | Sada tvrdeného skla Puluz pre DJI Osmo Action 6 (3 ks). | — | 5 |
 | `082642` | Tvrdené sklo Puluz pre Insta360 X4 Air | — | 5 |
 | `082686` | Súprava na určovanie veľkosti krúžkov RingConn | — | 5 |
@@ -300,6 +300,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `082348` | Chladiaci ventilátor Darkflash DE8 (čierny) | — | 5 |
 | `082349` | Chladiaci ventilátor Darkflash DE8 (biely) | — | 5 |
 | `083944` | Inteligentný termohygrometer Rainpoint Smart+ | — | 5 |
+| `084241` | Huba ako tienidlo pre lampu Flextail Tiny Pump 2X (biela) | — | 5 |
 | `084784` | Uni-T UT12D-EU Bezkontaktný tester napätia | — | 5 |
 | `085297` | Avatto 2 zásuvka TS20 rám vypínača (biely) | — | 5 |
 | `081351` | Osciloskopická sonda Fnirsi P6100 | — | 5 |
