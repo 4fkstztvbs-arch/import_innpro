@@ -13,7 +13,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
 | 079933 | 6972237683193 | Mikrofón Maono WM622 PC2 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 080865 | 8721008412412 | Predlžovací kábel Segway-Navimow pre roboty radu X4 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 082505 | 6977973410348 | Pripojovací modul k kosačke MOVA LiDAX Ultra 800 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084865 | 6978390540472 | Robotický čistič okien MOVA N1 (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084669 | 6978794731711 | Vysávač MOVA S7 Ultra Stick | nulová/neplatná cena |  | 0.00 € |  |  |

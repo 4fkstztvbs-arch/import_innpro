@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27019,
-  "matchedRules": 2711,
-  "changedProducts": 1281,
+  "totalProducts": 27025,
+  "matchedRules": 2709,
+  "changedProducts": 1280,
   "rejected": [],
   "categories": [
     {
@@ -295,7 +295,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 66,
+      "visibleUnique": 65,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -313,7 +313,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory",
-      "visibleUnique": 18,
+      "visibleUnique": 17,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
@@ -337,7 +337,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Súpravy fotografických filtrov",
-      "visibleUnique": 56,
+      "visibleUnique": 57,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
     },
