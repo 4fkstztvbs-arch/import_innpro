@@ -65,6 +65,9 @@ jobs:
       - name: Skryť produkty pod nákupnou cenou
         run: node scripts/hide-below-cost-products.js
 
+      - name: Approved category tree and visible 8-product minimum
+        run: node scripts/apply-approved-categories.js --write
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js
 

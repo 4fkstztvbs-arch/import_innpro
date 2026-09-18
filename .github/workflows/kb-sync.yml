@@ -80,6 +80,9 @@ jobs:
       - name: Obnoviť zastaralé generické úvodné vety po zlúčení/premenovaní kategórií
         run: node scripts/refresh-stale-generic-intros.js --out=output/kb.xml
 
+      - name: Approved category tree and visible 8-product minimum
+        run: node scripts/apply-approved-categories.js --write
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js
 
