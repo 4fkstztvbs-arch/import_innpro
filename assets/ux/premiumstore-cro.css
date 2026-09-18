@@ -1573,7 +1573,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.p-name,.p-name a { color:#0e151c; }
 
 /* Mobilná pätička: tri rozbaľovacie sekcie a stále viditeľný kontakt. */
 #footer .ps-footer-grid [hidden] { display:none !important; }
-@media (max-width:767px) {
+@media (max-width:991px) {
   #footer .ps-footer-grid { grid-template-columns:1fr; gap:0; padding:24px 4px 32px; }
   #footer .ps-footer-collapsible { border-bottom:1px solid #d4dde2; }
   #footer .ps-footer-grid .ps-footer-collapsible h3 { margin:0; }

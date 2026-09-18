@@ -653,7 +653,7 @@
       grid.querySelectorAll('section ul')[2].appendChild(li);
     });
     // Na mobile sú odkazy zbalené; kontakt zostáva stále viditeľný.
-    var mobileFooter = window.matchMedia('(max-width: 767px)');
+    var mobileFooter = window.matchMedia('(max-width: 991px)');
     var footerPanels = [];
     grid.querySelectorAll('section:not(.ps-footer-help)').forEach(function (section, index) {
       var heading = section.querySelector('h3');
