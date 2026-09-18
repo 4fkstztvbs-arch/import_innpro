@@ -39,21 +39,29 @@ function applyRule(before, rule) {
   const removed = rule.current.filter(c => !rule.proposed.includes(c));
   const added = rule.proposed.filter(c => !rule.current.includes(c));
   // Preserve current assignments outside the reviewed branches.
-  const rest = before.filter(c => !removed.some(d => under(c, d)));
+  // Earlier thin/tree passes may already have replaced a reviewed old leaf by its parent.
+  const rest = before.filter(c => !removed.some(d => under(c, d) || under(d, c)));
   return orderedTargets(before, [...rest, ...added]);
 }
 function processFeeds(files, config) {
   if (config.minimum !== 8) throw new Error('Approved minimum must be 8');
   const known = new Set(config.tree);
   const rules = new Map();
+  const reviewedCodes = new Set();
   for (const r of config.products) {
-    const key = r.supplier + '\0' + r.code;
+    const key = r.supplier + '\0' + r.code + '\0' + r.ean;
     if (rules.has(key)) throw new Error('Duplicate reviewed supplier/code: ' + r.code);
     if (![...r.current, ...r.proposed].every(c => typeof c === 'string' && c.length)) throw new Error('Invalid rule');
     if (!r.proposed.every(c => known.has(c))) throw new Error('Rule target outside tree: ' + r.code);
     rules.set(key, r);
+    reviewedCodes.add(r.supplier + '\0' + r.code);
   }
   const records = [];
+  const dynamicExcluded = new Set((config.dynamicExcludedProducts || []).map(r => r.supplier + '\0' + r.code + '\0' + r.ean));
+  const dynamic = (config.dynamicRules || []).map(r => {
+    if (!known.has(r.target) || !under(r.target, r.base)) throw new Error('Invalid recurring category rule');
+    return {...r, re: new RegExp(r.pattern, 'i'), except: new RegExp(r.exclude || '(?!)', 'i')};
+  });
   const seenReviewed = new Set();
   const report = {minimum: 8, totalProducts: 0, matchedRules: 0, changedProducts: 0, rejected: [], categories: []};
   for (const file of files) {
@@ -61,10 +69,15 @@ function processFeeds(files, config) {
     if (!matches.length || !/<\/SHOP>\s*$/.test(file.text)) throw new Error('Empty or incomplete feed: ' + file.name);
     for (const m of matches) {
       const xml = m[0], code = field(xml, 'CODE'), ean = field(xml, 'EAN');
-      const key = file.name + '\0' + code;
+      const key = file.name + '\0' + code + '\0' + ean;
       const original = categories(xml), before = leaves(original);
       let target = before;
-      const rule = rules.get(key);
+      let rule = rules.get(key);
+      if (!rule && reviewedCodes.has(file.name + '\0' + code)) throw new Error('Reviewed EAN changed: ' + file.name + '/' + code);
+      if (rule?.name && rule.name !== field(xml, 'NAME')) {
+        report.rejected.push({supplier: file.name, code, reason: 'Reviewed product name changed'});
+        rule = null;
+      }
       if (rule) {
         if (seenReviewed.has(key)) throw new Error('Ambiguous reviewed product code: ' + file.name + '/' + code);
         seenReviewed.add(key);
@@ -74,6 +87,13 @@ function processFeeds(files, config) {
         }
         target = applyRule(before, rule);
         report.matchedRules++;
+      }
+      if (!rule && !dynamicExcluded.has(key) && !report.rejected.some(r => r.supplier === file.name && r.code === code)) {
+        const name = field(xml, 'NAME').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+        target = before.map(c => {
+          const r = dynamic.find(r => c === r.base && r.re.test(name) && !r.except.test(name));
+          return r ? r.target : c;
+        });
       }
       target = target.map(c => {
         for (const [old, to] of Object.entries(config.retired)) if (under(c, old)) return to;
@@ -87,7 +107,7 @@ function processFeeds(files, config) {
   // EAN deduplication is across suppliers; missing EAN falls back to supplier+code.
   const counts = new Map(config.newCategories.map(c => [c, new Set()]));
   for (const p of records) if (p.visible) {
-    for (const [c, ids] of counts) if (p.target.some(t => under(t, c))) ids.add(p.ean ? 'ean:' + p.ean : p.file.name + ':' + p.code);
+    for (const [c, ids] of counts) if (p.target.some(t => under(t, c))) ids.add(p.ean ? 'ean:' + p.ean.replace(/^0+/, '') : p.file.name + ':' + p.code);
   }
   const disabled = new Set();
   for (const [c, ids] of counts) {

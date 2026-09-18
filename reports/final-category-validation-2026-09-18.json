@@ -1,0 +1,53 @@
+{
+  "csvRows": {
+    "teraz/01-nove-kategorie-L2.csv": 6,
+    "teraz/02-nove-kategorie-L3.csv": 40,
+    "teraz/03-nove-kategorie-L4.csv": 23,
+    "teraz/04-nove-kategorie-L5.csv": 3,
+    "teraz/05-seo-existujucich-kategorii.csv": 33,
+    "po-kontrole/06-produkty-zive-kody.csv": 3576,
+    "po-kontrole/07-skryt-vyradene-kategorie.csv": 101,
+    "prehlad/cely-strom-NEIMPORTOVAT.csv": 454,
+    "prehlad/presuny-produktov-NEIMPORTOVAT.csv": 3578,
+    "prehlad/vyradene-vetvy-NEIMPORTOVAT.csv": 101
+  },
+  "unitTestsPassed": 9,
+  "feedProductsChecked": 26975,
+  "feedCategoryChanges": 2721,
+  "allOtherFieldsPreserved": true,
+  "idempotent": true,
+  "pipelineTargetsAgree": true,
+  "pipelineSteps": [
+    {
+      "step": "apply-product-category-corrections.js --write",
+      "status": 0
+    },
+    {
+      "step": "collapse-thin-categories.js",
+      "status": 0
+    },
+    {
+      "step": "enforce-tree-categories.js",
+      "status": 0
+    },
+    {
+      "step": "apply-approved-categories.js --write",
+      "status": 0
+    },
+    {
+      "step": "add-category-links.js",
+      "status": 0
+    },
+    {
+      "step": "check-category-links.js",
+      "status": 0
+    }
+  ],
+  "newCategories": 72,
+  "newAndTerminalCategoriesMeetEightInBothSources": true,
+  "seoRecords": 105,
+  "brokenSeoLinks": 0,
+  "knownUrlCollisions": 0,
+  "shopImportsExecuted": false,
+  "rolloutEnabled": false
+}

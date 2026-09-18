@@ -1,0 +1,4088 @@
+[
+  {
+    "path": "3D tlač a digitálna výroba",
+    "level": 1,
+    "url": "/3d-tlac-a-digitalna-vyroba/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 552,
+    "visibleUniqueLive": 552,
+    "terminal": false
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D skenery",
+    "level": 2,
+    "url": "/3d-skenery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 35,
+    "visibleUniqueLive": 35,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály",
+    "level": 2,
+    "url": "/3d-tlac/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 389,
+    "visibleUniqueLive": 388,
+    "terminal": false
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > 3D tlačiarne",
+    "level": 3,
+    "url": "/3d-tlaciarne/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 54,
+    "visibleUniqueLive": 54,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam",
+    "level": 3,
+    "url": "/prislusenstvo-pre-3d-tlaciarne/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 73,
+    "visibleUniqueLive": 72,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna",
+    "level": 3,
+    "url": "/vlakna-pre-3d-tlac/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 230,
+    "visibleUniqueLive": 230,
+    "terminal": false
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
+    "level": 4,
+    "url": "/abs-a-asa-filamenty/",
+    "status": "nová",
+    "visibleUniqueFeed": 21,
+    "visibleUniqueLive": 21,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PETG filamenty",
+    "level": 4,
+    "url": "/petg-filamenty/",
+    "status": "nová",
+    "visibleUniqueFeed": 42,
+    "visibleUniqueLive": 42,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
+    "level": 4,
+    "url": "/pla-filamenty/",
+    "status": "nová",
+    "visibleUniqueFeed": 143,
+    "visibleUniqueLive": 143,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+    "level": 4,
+    "url": "/tpu-filamenty/",
+    "status": "nová",
+    "visibleUniqueFeed": 15,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Živice pre 3D tlač",
+    "level": 3,
+    "url": "/zivice-pre-3d-tlac/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 27,
+    "visibleUniqueLive": 27,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > Laserové gravírovacie a rezacie stroje",
+    "level": 2,
+    "url": "/laserove-gravirovacie-a-rezacie-stroje/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 49,
+    "visibleUniqueLive": 50,
+    "terminal": true
+  },
+  {
+    "path": "3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu",
+    "level": 2,
+    "url": "/tlaciarne-a-lisy-na-potlac-textilu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 73,
+    "visibleUniqueLive": 73,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto",
+    "level": 1,
+    "url": "/auto-moto/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 2486,
+    "visibleUniqueLive": 2491,
+    "terminal": false
+  },
+  {
+    "path": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy",
+    "level": 2,
+    "url": "/autobaterie-nabijacky-a-startovacie-boxy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 165,
+    "visibleUniqueLive": 166,
+    "terminal": false
+  },
+  {
+    "path": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy > Nabíjačky autobatérií",
+    "level": 3,
+    "url": "/autobaterie-nabijacky-a-startovacie-boxy-nabijacky-autobaterii/",
+    "status": "nová",
+    "visibleUniqueFeed": 36,
+    "visibleUniqueLive": 36,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Autokozmetika a chémia",
+    "level": 2,
+    "url": "/autokozmetika--chemia/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 106,
+    "visibleUniqueLive": 106,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Autožiarovky a osvetlenie",
+    "level": 2,
+    "url": "/autoziarovky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 167,
+    "visibleUniqueLive": 167,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Bezpečnostné a núdzové vybavenie",
+    "level": 2,
+    "url": "/bezpecnost/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 102,
+    "visibleUniqueLive": 102,
+    "terminal": false
+  },
+  {
+    "path": "Auto-moto > Bezpečnostné a núdzové vybavenie > Upínacie pásy a gumy",
+    "level": 3,
+    "url": "/upinacie-gumy-a-pasy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 38,
+    "visibleUniqueLive": 38,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Bezpečnostné a núdzové vybavenie > Zimné vybavenie",
+    "level": 3,
+    "url": "/zimne-vybavenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 45,
+    "visibleUniqueLive": 45,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Bezpečnostné a núdzové vybavenie > Ťažné laná a vyprosťovanie",
+    "level": 3,
+    "url": "/tazne-lana/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 15,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Detské autosedačky",
+    "level": 2,
+    "url": "/autosedacky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Elektromobilita",
+    "level": 2,
+    "url": "/elektromobilita/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 69,
+    "visibleUniqueLive": 69,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Elektronika do auta",
+    "level": 2,
+    "url": "/elektronika-do-auta/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 358,
+    "visibleUniqueLive": 358,
+    "terminal": false
+  },
+  {
+    "path": "Auto-moto > Elektronika do auta > Autorádiá",
+    "level": 3,
+    "url": "/elektronika-do-auta-autoradia/",
+    "status": "nová",
+    "visibleUniqueFeed": 20,
+    "visibleUniqueLive": 20,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Elektronika do auta > Kamery do auta",
+    "level": 3,
+    "url": "/elektronika-do-auta-kamery-do-auta/",
+    "status": "nová",
+    "visibleUniqueFeed": 29,
+    "visibleUniqueLive": 29,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Garáž, dielňa, servis",
+    "level": 2,
+    "url": "/garaz--dielna--servis/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 655,
+    "visibleUniqueLive": 655,
+    "terminal": false
+  },
+  {
+    "path": "Auto-moto > Garáž, dielňa, servis > Autodiagnostika",
+    "level": 3,
+    "url": "/autodiagnostika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 51,
+    "visibleUniqueLive": 51,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky",
+    "level": 3,
+    "url": "/autonaradie-a-doplnky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 57,
+    "visibleUniqueLive": 57,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Garáž, dielňa, servis > Autoplachty a ochranné kryty",
+    "level": 3,
+    "url": "/autoplachty/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 47,
+    "visibleUniqueLive": 47,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Garáž, dielňa, servis > Elektroinštalačný materiál pre auto",
+    "level": 3,
+    "url": "/elektroinstalacia-pre-auto/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 71,
+    "visibleUniqueLive": 71,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Garáž, dielňa, servis > Heváky a zdviháky",
+    "level": 3,
+    "url": "/hevaky-a-zdvihaky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 57,
+    "visibleUniqueLive": 57,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky",
+    "level": 3,
+    "url": "/specialne-naradie-pre-servis/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 310,
+    "visibleUniqueLive": 310,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Karavany a obytné autá",
+    "level": 2,
+    "url": "/karavany-a-obytne-auta/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 205,
+    "visibleUniqueLive": 209,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Kolesá a pneumatiky",
+    "level": 2,
+    "url": "/kolesa/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 65,
+    "visibleUniqueLive": 65,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Nosiče bicyklov a strešné nosiče",
+    "level": 2,
+    "url": "/nosice-kol/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 47,
+    "visibleUniqueLive": 47,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Príslušenstvo do auta",
+    "level": 2,
+    "url": "/vybavenie-auta/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 739,
+    "visibleUniqueLive": 739,
+    "terminal": false
+  },
+  {
+    "path": "Auto-moto > Príslušenstvo do auta > Autokoberce",
+    "level": 3,
+    "url": "/autokoberce/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 48,
+    "visibleUniqueLive": 48,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Príslušenstvo do auta > Autopoťahy a ochrana sedadiel",
+    "level": 3,
+    "url": "/autopotahy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 65,
+    "visibleUniqueLive": 65,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Príslušenstvo do auta > Cestovné doplnky",
+    "level": 3,
+    "url": "/cestovne-doplnky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 90,
+    "visibleUniqueLive": 90,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Príslušenstvo do auta > Clony, roletky a poistky",
+    "level": 3,
+    "url": "/clony-a-roletky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 59,
+    "visibleUniqueLive": 59,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu",
+    "level": 3,
+    "url": "/osviezovace-vzduchu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 57,
+    "visibleUniqueLive": 57,
+    "terminal": true
+  },
+  {
+    "path": "Auto-moto > Príslušenstvo do auta > Stierače",
+    "level": 3,
+    "url": "/stierace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 345,
+    "visibleUniqueLive": 345,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor",
+    "level": 1,
+    "url": "/cestovanie-sport-a-outdoor/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 1913,
+    "visibleUniqueLive": 1904,
+    "terminal": false
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Batérie pre drony a RC modely",
+    "level": 2,
+    "url": "/baterie-pre-drony-a-rc-modely/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 41,
+    "visibleUniqueLive": 41,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Bojové športy",
+    "level": 2,
+    "url": "/bojove-sporty/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 380,
+    "visibleUniqueLive": 380,
+    "terminal": false
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Bojové športy > Boxerské rukavice",
+    "level": 3,
+    "url": "/bojove-sporty-boxerske-rukavice/",
+    "status": "nová",
+    "visibleUniqueFeed": 119,
+    "visibleUniqueLive": 119,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Bojové športy > Chrániče pre bojové športy",
+    "level": 3,
+    "url": "/chranice-pre-bojove-sporty/",
+    "status": "nová",
+    "visibleUniqueFeed": 64,
+    "visibleUniqueLive": 64,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Bojové športy > MMA rukavice",
+    "level": 3,
+    "url": "/bojove-sporty-mma-rukavice/",
+    "status": "nová",
+    "visibleUniqueFeed": 42,
+    "visibleUniqueLive": 42,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Cyklistika",
+    "level": 2,
+    "url": "/cyklistika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 55,
+    "visibleUniqueLive": 55,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Elektrické bicykle a cyklotrenažéry",
+    "level": 2,
+    "url": "/elektricke-bicykle/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Hračky",
+    "level": 2,
+    "url": "/hracky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 98,
+    "visibleUniqueLive": 96,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Nabíjačky pre drony a RC modely",
+    "level": 2,
+    "url": "/nabijacky-pre-drony-a-rc-modely/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 17,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Posilňovanie a fitness",
+    "level": 2,
+    "url": "/posilnovanie-a-fitness/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 474,
+    "visibleUniqueLive": 474,
+    "terminal": false
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Posilňovanie a fitness > Elektrické bežecké pásy",
+    "level": 3,
+    "url": "/elektricke-bezecke-pasy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 51,
+    "visibleUniqueLive": 51,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Posilňovanie a fitness > Fitness náradie a vybavenie",
+    "level": 3,
+    "url": "/fitness-naradie-a-vybavenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 41,
+    "visibleUniqueLive": 41,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Posilňovanie a fitness > Posilňovacie lavice a podložky",
+    "level": 3,
+    "url": "/lavice-a-podlozky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 57,
+    "visibleUniqueLive": 57,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry",
+    "level": 3,
+    "url": "/trenazery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 35,
+    "visibleUniqueLive": 35,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia",
+    "level": 3,
+    "url": "/cinky-a-zavazia/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 107,
+    "visibleUniqueLive": 107,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle",
+    "level": 2,
+    "url": "/prislusenstvo-pre-bicykle/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 37,
+    "visibleUniqueLive": 37,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony",
+    "level": 2,
+    "url": "/prislusenstvo-pre-drony/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 224,
+    "visibleUniqueLive": 217,
+    "terminal": false
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Filtre pre drony",
+    "level": 3,
+    "url": "/prislusenstvo-pre-drony-filtre-pre-drony/",
+    "status": "nová",
+    "visibleUniqueFeed": 101,
+    "visibleUniqueLive": 101,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
+    "level": 3,
+    "url": "/tasky-a-kufre-pre-drony/",
+    "status": "nová",
+    "visibleUniqueFeed": 47,
+    "visibleUniqueLive": 43,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > SUP dosky",
+    "level": 2,
+    "url": "/sup-dosky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Stacionárne bicykle",
+    "level": 2,
+    "url": "/stacionarne-bicykle/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Turistika a outdoor",
+    "level": 2,
+    "url": "/outdoor/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 326,
+    "visibleUniqueLive": 326,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Zdravotné a rehabilitačné pomôcky",
+    "level": 2,
+    "url": "/zdravotne-a-rehabilitacne-pomocky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 38,
+    "visibleUniqueLive": 38,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Ďalekohľady",
+    "level": 2,
+    "url": "/dalekohlady/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 76,
+    "visibleUniqueLive": 76,
+    "terminal": true
+  },
+  {
+    "path": "Cestovanie, šport a outdoor > Športové vybavenie",
+    "level": 2,
+    "url": "/sportove-vybavenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 141,
+    "visibleUniqueLive": 141,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby",
+    "level": 1,
+    "url": "/chovatelske-potreby/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 240,
+    "visibleUniqueLive": 240,
+    "terminal": false
+  },
+  {
+    "path": "Chovateľské potreby > Akvaristika",
+    "level": 2,
+    "url": "/akvaristika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 61,
+    "visibleUniqueLive": 61,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Fontány a napájačky",
+    "level": 2,
+    "url": "/fontany-a-napajacky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 30,
+    "visibleUniqueLive": 30,
+    "terminal": false
+  },
+  {
+    "path": "Chovateľské potreby > Fontány a napájačky > Filtre a čerpadlá do fontán",
+    "level": 3,
+    "url": "/filtre-a-cerpadla-do-fontan/",
+    "status": "nová",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Fontány a napájačky > Fontány pre psy a mačky",
+    "level": 3,
+    "url": "/fontany-pre-psy-a-macky/",
+    "status": "nová",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 17,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Inteligentné toalety pre zvieratá",
+    "level": 2,
+    "url": "/inteligentne-toalety-pre-zvierata/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Mačacie toalety a príslušenstvo",
+    "level": 2,
+    "url": "/macacie-toalety-a-prislusenstvo/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 21,
+    "visibleUniqueLive": 21,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Misky a dávkovače krmiva",
+    "level": 2,
+    "url": "/misky-a-davkovace-krmiva/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 22,
+    "visibleUniqueLive": 22,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Pelechy, škrabadlá a klietky",
+    "level": 2,
+    "url": "/pelechy--skrabadla-a-klietky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 31,
+    "visibleUniqueLive": 31,
+    "terminal": false
+  },
+  {
+    "path": "Chovateľské potreby > Pelechy, škrabadlá a klietky > Pelechy pre psy a mačky",
+    "level": 3,
+    "url": "/pelechy-pre-psy-a-macky/",
+    "status": "nová",
+    "visibleUniqueFeed": 16,
+    "visibleUniqueLive": 16,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Pelechy, škrabadlá a klietky > Škrabadlá pre mačky",
+    "level": 3,
+    "url": "/skrabadla-pre-macky/",
+    "status": "nová",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Pohlcovače zápachu",
+    "level": 2,
+    "url": "/chovatelske-potreby-pohlcovace-zapachu/",
+    "status": "nová",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Starostlivosť o zvieratá",
+    "level": 2,
+    "url": "/starostlivost-o-zvierata/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 26,
+    "visibleUniqueLive": 26,
+    "terminal": true
+  },
+  {
+    "path": "Chovateľské potreby > Venčenie a transport",
+    "level": 2,
+    "url": "/vencenie-a-transport/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 23,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada",
+    "level": 1,
+    "url": "/dielna-a-zahrada/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 2197,
+    "visibleUniqueLive": 2200,
+    "terminal": false
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Dielenské vybavenie",
+    "level": 2,
+    "url": "/dielenske-vybavenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 222,
+    "visibleUniqueLive": 222,
+    "terminal": false
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Dielenské vybavenie > Chémia pre dielňu",
+    "level": 3,
+    "url": "/chemia-pre-dielnu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 31,
+    "visibleUniqueLive": 31,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Dielenské vybavenie > Ochranné pomôcky a odevy",
+    "level": 3,
+    "url": "/ochranne-pomocky-a-odevy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 54,
+    "visibleUniqueLive": 54,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Dielenské vybavenie > Sťahovacie pásky a drobné príslušenstvo",
+    "level": 3,
+    "url": "/stahovacie-pasky-a-drobne-prislusenstvo/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 61,
+    "visibleUniqueLive": 61,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Elektronické súčiastky",
+    "level": 2,
+    "url": "/elektronicke-suciastky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 291,
+    "visibleUniqueLive": 291,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika",
+    "level": 2,
+    "url": "/meracie-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 662,
+    "visibleUniqueLive": 663,
+    "terminal": false
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory",
+    "level": 3,
+    "url": "/detektory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 81,
+    "visibleUniqueLive": 81,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery",
+    "level": 3,
+    "url": "/infrateplomery-a-termokamery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 52,
+    "visibleUniqueLive": 52,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Inšpekčné kamery a endoskopy",
+    "level": 3,
+    "url": "/inspekcne-kamery-a-endoskopy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 17,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Meracie lasery a diaľkomery",
+    "level": 3,
+    "url": "/meracie-lasery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 51,
+    "visibleUniqueLive": 52,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Meradlá a meracie pásma",
+    "level": 3,
+    "url": "/meradla-a-meracie-pasma/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 19,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Meranie neelektrických veličín",
+    "level": 3,
+    "url": "/meranie-neelektrickych-velicin/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 91,
+    "visibleUniqueLive": 91,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Merače TV a satelitného signálu",
+    "level": 3,
+    "url": "/merace-tv-a-satelitneho-signalu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače",
+    "level": 3,
+    "url": "/multimetre-a-kliestove-merace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 185,
+    "visibleUniqueLive": 185,
+    "terminal": false
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Digitálne multimetre",
+    "level": 4,
+    "url": "/digitalne-multimetre/",
+    "status": "nová",
+    "visibleUniqueFeed": 63,
+    "visibleUniqueLive": 63,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače",
+    "level": 4,
+    "url": "/kliestove-merace/",
+    "status": "nová",
+    "visibleUniqueFeed": 53,
+    "visibleUniqueLive": 53,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Nivelačné prístroje",
+    "level": 3,
+    "url": "/nivelacne-pristroje/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 22,
+    "visibleUniqueLive": 22,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje",
+    "level": 3,
+    "url": "/osciloskopy-a-generatory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 36,
+    "visibleUniqueLive": 36,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Príslušenstvo k meracej technike",
+    "level": 3,
+    "url": "/prislusenstvo-k-meracej-technike/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 25,
+    "visibleUniqueLive": 25,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky",
+    "level": 3,
+    "url": "/testery-a-skusacky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 95,
+    "visibleUniqueLive": 95,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie",
+    "level": 2,
+    "url": "/rucne-a-elektricke-naradie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 484,
+    "visibleUniqueLive": 486,
+    "terminal": false
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie",
+    "level": 3,
+    "url": "/rucne-aku-naradie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Lepiace a horúcovzdušné pištole",
+    "level": 3,
+    "url": "/lepiace-a-horucovzdusne-pistole/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 19,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie",
+    "level": 3,
+    "url": "/mechanicke-naradie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 237,
+    "visibleUniqueLive": 237,
+    "terminal": false
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice",
+    "level": 4,
+    "url": "/gola-sady/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 49,
+    "visibleUniqueLive": 49,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Kliešte",
+    "level": 4,
+    "url": "/klieste/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 47,
+    "visibleUniqueLive": 47,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Kľúče",
+    "level": 4,
+    "url": "/kluce/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 48,
+    "visibleUniqueLive": 48,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Skrutkovače, bity a imbusy",
+    "level": 4,
+    "url": "/skrutkovace-a-bity/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 17,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie",
+    "level": 3,
+    "url": "/naradie-pre-brusenie--vrtanie--rezanie-a-pilovanie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 111,
+    "visibleUniqueLive": 113,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Pneumatické náradie",
+    "level": 3,
+    "url": "/pneumaticke-naradie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia",
+    "level": 3,
+    "url": "/sady-naradia/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 60,
+    "visibleUniqueLive": 60,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Stavebné a maliarske náradie",
+    "level": 3,
+    "url": "/stavebne-a-maliarske-naradie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 30,
+    "visibleUniqueLive": 30,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Spájkovacia technika",
+    "level": 2,
+    "url": "/spajkovacie-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 207,
+    "visibleUniqueLive": 207,
+    "terminal": false
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Spájkovacia technika > Lupy",
+    "level": 3,
+    "url": "/lupy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 31,
+    "visibleUniqueLive": 31,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Spájkovacia technika > Príslušenstvo na spájkovanie",
+    "level": 3,
+    "url": "/prislusenstvo-pre-spajkovacky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 68,
+    "visibleUniqueLive": 68,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Spájkovacia technika > Spájkovacie stanice a mikrospájkovačky",
+    "level": 3,
+    "url": "/spajkovacie-stanice-a-mikrospajkovacky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 23,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky",
+    "level": 3,
+    "url": "/spajkovacky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 63,
+    "visibleUniqueLive": 63,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Spájkovacia technika > Tretia ruka a držiaky",
+    "level": 3,
+    "url": "/tretia-ruka-a-drziaky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Záhrada a bazén",
+    "level": 2,
+    "url": "/zahrada/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 366,
+    "visibleUniqueLive": 366,
+    "terminal": false
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Záhrada a bazén > Jazierka a jazierková technika",
+    "level": 3,
+    "url": "/jazierka-a-jazierkova-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 21,
+    "visibleUniqueLive": 21,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Záhrada a bazén > Náhradné diely pre záhradné stroje",
+    "level": 3,
+    "url": "/nahradne-diely-pre-zahradne-stroje/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 37,
+    "visibleUniqueLive": 37,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Záhrada a bazén > Odpudzovače škodcov",
+    "level": 3,
+    "url": "/odpudzovace-a-lapace-hmyzu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 64,
+    "visibleUniqueLive": 64,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Záhrada a bazén > Zariadenia na čistenie bazénov",
+    "level": 3,
+    "url": "/zariadenia-na-cistenie-bazenov/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 26,
+    "visibleUniqueLive": 26,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky",
+    "level": 3,
+    "url": "/zahradne-doplnky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 138,
+    "visibleUniqueLive": 138,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné náradie",
+    "level": 3,
+    "url": "/zahradne-naradie-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 31,
+    "visibleUniqueLive": 31,
+    "terminal": true
+  },
+  {
+    "path": "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy",
+    "level": 3,
+    "url": "/zahradne-zavlazovacie-systemy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 50,
+    "visibleUniqueLive": 50,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče",
+    "level": 1,
+    "url": "/domace-spotrebice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 3168,
+    "visibleUniqueLive": 3117,
+    "terminal": false
+  },
+  {
+    "path": "Domáce spotrebiče > Chladničky",
+    "level": 2,
+    "url": "/chladnicky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 117,
+    "visibleUniqueLive": 116,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Digestory",
+    "level": 2,
+    "url": "/digestory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 34,
+    "visibleUniqueLive": 33,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Grily, pekárne, variče",
+    "level": 2,
+    "url": "/grily--pekarne--varice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 119,
+    "visibleUniqueLive": 119,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Hodiny a budíky",
+    "level": 2,
+    "url": "/hodiny-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 64,
+    "visibleUniqueLive": 63,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce",
+    "level": 2,
+    "url": "/fritezy-a-hrnce/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 130,
+    "visibleUniqueLive": 129,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Klimatizácia a vzduch",
+    "level": 2,
+    "url": "/vzduchotechnika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 174,
+    "visibleUniqueLive": 179,
+    "terminal": false
+  },
+  {
+    "path": "Domáce spotrebiče > Klimatizácia a vzduch > Aróma difuzéry",
+    "level": 3,
+    "url": "/aroma-difuzery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 52,
+    "visibleUniqueLive": 54,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Klimatizácia a vzduch > Dezinfekčné UV lampy",
+    "level": 3,
+    "url": "/dezinfekcne-uv-lampy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Klimatizácia a vzduch > Klimatizácia",
+    "level": 3,
+    "url": "/klimatizacia/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Klimatizácia a vzduch > Odvlhčovače vzduchu",
+    "level": 3,
+    "url": "/odvlhcovace-vzduchu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Klimatizácia a vzduch > Ventilátory",
+    "level": 3,
+    "url": "/ventilatory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Klimatizácia a vzduch > Čističky a zvlhčovače vzduchu",
+    "level": 3,
+    "url": "/cisticky-vzduchu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 27,
+    "visibleUniqueLive": 27,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské roboty a krájače",
+    "level": 2,
+    "url": "/kuchynske-roboty-a-krajace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 181,
+    "visibleUniqueLive": 180,
+    "terminal": false
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Krájače potravín",
+    "level": 3,
+    "url": "/kuchynske-roboty-a-krajace-krajace-potravin/",
+    "status": "nová",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Kuchynské roboty",
+    "level": 3,
+    "url": "/kuchynske-roboty-a-krajace-kuchynske-roboty/",
+    "status": "nová",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 17,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
+    "level": 3,
+    "url": "/kuchynske-roboty-a-krajace-mixery-a-slahace/",
+    "status": "nová",
+    "visibleUniqueFeed": 63,
+    "visibleUniqueLive": 62,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské vybavenie",
+    "level": 2,
+    "url": "/kuchynske-vybavenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 295,
+    "visibleUniqueLive": 295,
+    "terminal": false
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské vybavenie > Formy na pečenie",
+    "level": 3,
+    "url": "/pecuce-formy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 20,
+    "visibleUniqueLive": 20,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské vybavenie > Hrnce a panvice",
+    "level": 3,
+    "url": "/hrnce-a-panvice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 64,
+    "visibleUniqueLive": 64,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky",
+    "level": 3,
+    "url": "/kuchynske-potreby/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 152,
+    "visibleUniqueLive": 152,
+    "terminal": false
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky > Kuchynské váhy",
+    "level": 4,
+    "url": "/kuchynske-vahy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 33,
+    "visibleUniqueLive": 33,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské vybavenie > Poháre a fľaše",
+    "level": 3,
+    "url": "/pohare-a-flase/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 17,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kuchynské vybavenie > Termosky a termohrnčeky",
+    "level": 3,
+    "url": "/termosky-a-termohrnceky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 23,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Kávovary a espressá",
+    "level": 2,
+    "url": "/kavovary-a-espressa/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 227,
+    "visibleUniqueLive": 227,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Meteostanice",
+    "level": 2,
+    "url": "/meteostanice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 133,
+    "visibleUniqueLive": 135,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Mikrovlnné rúry",
+    "level": 2,
+    "url": "/mikrovlnne-rury/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Mrazničky",
+    "level": 2,
+    "url": "/mraznicky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Ostatné domáce spotrebiče",
+    "level": 2,
+    "url": "/ostatne-domace-spotrebice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 31,
+    "visibleUniqueLive": 31,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Práčky",
+    "level": 2,
+    "url": "/pracky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 95,
+    "visibleUniqueLive": 94,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Príprava nápojov",
+    "level": 2,
+    "url": "/priprava-napojov/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 190,
+    "visibleUniqueLive": 189,
+    "terminal": false
+  },
+  {
+    "path": "Domáce spotrebiče > Príprava nápojov > Filtračné kanvice",
+    "level": 3,
+    "url": "/priprava-napojov-filtracne-kanvice/",
+    "status": "nová",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Príprava nápojov > Rýchlovarné kanvice",
+    "level": 3,
+    "url": "/priprava-napojov-rychlovarne-kanvice/",
+    "status": "nová",
+    "visibleUniqueFeed": 28,
+    "visibleUniqueLive": 28,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Príslušenstvo k malým spotrebičom",
+    "level": 2,
+    "url": "/prislusenstvo-k-malym-spotrebicom/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 235,
+    "visibleUniqueLive": 217,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Príslušenstvo k vysávačom",
+    "level": 2,
+    "url": "/domace-spotrebice-prislusenstvo-k-vysavacom/",
+    "status": "nová",
+    "visibleUniqueFeed": 69,
+    "visibleUniqueLive": 69,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Sanitárna technika",
+    "level": 2,
+    "url": "/sanitarna-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 30,
+    "visibleUniqueLive": 30,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Sendvičovače, hriankovače, vaflovače",
+    "level": 2,
+    "url": "/sendvicovace--hriankovace--vaflovace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 69,
+    "visibleUniqueLive": 69,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Sporáky a rúry",
+    "level": 2,
+    "url": "/sporaky-a-rury/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 23,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Sušiaky na bielizeň",
+    "level": 2,
+    "url": "/domace-spotrebice-susiaky-na-bielizen/",
+    "status": "nová",
+    "visibleUniqueFeed": 46,
+    "visibleUniqueLive": 41,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Sušičky bielizne",
+    "level": 2,
+    "url": "/susicky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 32,
+    "visibleUniqueLive": 32,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Sušičky potravín",
+    "level": 2,
+    "url": "/susicky-potravin/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 19,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Teplomery",
+    "level": 2,
+    "url": "/teplomery-3/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Triedenie odpadu a domáce organizéry",
+    "level": 2,
+    "url": "/triedenie-odpadu-a-organizery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 28,
+    "visibleUniqueLive": 28,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Umývačky riadu",
+    "level": 2,
+    "url": "/umyvacky-riadu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 21,
+    "visibleUniqueLive": 21,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Upratovacie pomôcky",
+    "level": 2,
+    "url": "/upratovacie-pomocky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 133,
+    "visibleUniqueLive": 123,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Varné dosky",
+    "level": 2,
+    "url": "/varne-dosky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 58,
+    "visibleUniqueLive": 58,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vinotéky a vitríny",
+    "level": 2,
+    "url": "/vinoteky-a-vitriny/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 16,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vstavané chladenie",
+    "level": 2,
+    "url": "/vstavane-chladenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vstavané mikrovlnné rúry",
+    "level": 2,
+    "url": "/vstavane-mikrovlnne-rury/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vstavané rúry",
+    "level": 2,
+    "url": "/vstavane-rury/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 41,
+    "visibleUniqueLive": 41,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vstavané umývačky riadu",
+    "level": 2,
+    "url": "/vstavane-umyvacky-riadu/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 39,
+    "visibleUniqueLive": 38,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vykurovanie a ohrev vody",
+    "level": 2,
+    "url": "/vykurovanie-a-ohrev-vody/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 38,
+    "visibleUniqueLive": 36,
+    "terminal": false
+  },
+  {
+    "path": "Domáce spotrebiče > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá",
+    "level": 3,
+    "url": "/vykurovacie-telesa/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 26,
+    "visibleUniqueLive": 24,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vysávače",
+    "level": 2,
+    "url": "/vysavace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 253,
+    "visibleUniqueLive": 249,
+    "terminal": false
+  },
+  {
+    "path": "Domáce spotrebiče > Vysávače > Robotické vysávače",
+    "level": 3,
+    "url": "/vysavace-roboticke-vysavace/",
+    "status": "nová",
+    "visibleUniqueFeed": 76,
+    "visibleUniqueLive": 76,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vysávače > Tyčové vysávače",
+    "level": 3,
+    "url": "/vysavace-tycove-vysavace/",
+    "status": "nová",
+    "visibleUniqueFeed": 37,
+    "visibleUniqueLive": 34,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vysávače > Vreckové a bezvreckové vysávače",
+    "level": 3,
+    "url": "/vreckove-a-bezvreckove-vysavace/",
+    "status": "nová",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Vákuovačky a zváračky fólií",
+    "level": 2,
+    "url": "/vakuovacky-a-zvaracky-folii/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 68,
+    "visibleUniqueLive": 69,
+    "terminal": true
+  },
+  {
+    "path": "Domáce spotrebiče > Žehličky",
+    "level": 2,
+    "url": "/zehlicky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 75,
+    "visibleUniqueLive": 73,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie",
+    "level": 1,
+    "url": "/elektro-smart-home-a-osvetlenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 5564,
+    "visibleUniqueLive": 5574,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+    "level": 2,
+    "url": "/zvonceky-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 67,
+    "visibleUniqueLive": 67,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Cestovné adaptéry",
+    "level": 2,
+    "url": "/cestovne-adaptery-3/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Elektromery a spínacia technika",
+    "level": 2,
+    "url": "/elektromery-a-spinacie-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 231,
+    "visibleUniqueLive": 231,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > IP kamery",
+    "level": 2,
+    "url": "/ip-kamery-3/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 122,
+    "visibleUniqueLive": 132,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Inštalačné náradie a materiál",
+    "level": 2,
+    "url": "/instalacne-naradie-a-material/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 74,
+    "visibleUniqueLive": 74,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo",
+    "level": 2,
+    "url": "/instalacne-prislusenstvo/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 295,
+    "visibleUniqueLive": 295,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Káblové spojky a očká",
+    "level": 3,
+    "url": "/kablove-spojky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 144,
+    "visibleUniqueLive": 144,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Príchytky, pásky a hmoždinky",
+    "level": 3,
+    "url": "/prichytky-a-pasky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 107,
+    "visibleUniqueLive": 107,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Trubky a chráničky",
+    "level": 3,
+    "url": "/trubky-a-chranicky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 32,
+    "visibleUniqueLive": 32,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Ističe a chrániče",
+    "level": 2,
+    "url": "/istice-a-chranice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 231,
+    "visibleUniqueLive": 231,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Káble a vodiče",
+    "level": 2,
+    "url": "/kable-a-vodice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 214,
+    "visibleUniqueLive": 214,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače",
+    "level": 2,
+    "url": "/montazne-skrine-a-rozvadzace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 349,
+    "visibleUniqueLive": 349,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače > Rozvádzače osadené",
+    "level": 3,
+    "url": "/rozvadzace-osadene/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 61,
+    "visibleUniqueLive": 61,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače > Rozvádzače prázdne",
+    "level": 3,
+    "url": "/rozvadzace-prazdne/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 158,
+    "visibleUniqueLive": 158,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače > Zásuvkové skrine",
+    "level": 3,
+    "url": "/zasuvkove-skrine/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 62,
+    "visibleUniqueLive": 62,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá",
+    "level": 2,
+    "url": "/osvetlenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 1254,
+    "visibleUniqueLive": 1252,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > Baterky a ručné svietidlá",
+    "level": 3,
+    "url": "/baterky-a-svietidla/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 104,
+    "visibleUniqueLive": 104,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > Komponenty pre svietidlá",
+    "level": 3,
+    "url": "/komponenty-pre-svietidla/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 28,
+    "visibleUniqueLive": 28,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie",
+    "level": 3,
+    "url": "/led-osvetlenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 157,
+    "visibleUniqueLive": 157,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED panely a podhľadové svietidlá",
+    "level": 3,
+    "url": "/led-panely/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 42,
+    "visibleUniqueLive": 42,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED reflektory",
+    "level": 3,
+    "url": "/led-reflektory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 39,
+    "visibleUniqueLive": 39,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED žiarovky",
+    "level": 3,
+    "url": "/led-ziarovky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 218,
+    "visibleUniqueLive": 218,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Pohony brán a vrát",
+    "level": 2,
+    "url": "/pohony-bran-a-vrat/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 79,
+    "visibleUniqueLive": 79,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice",
+    "level": 2,
+    "url": "/predlzovacie-kable-a-vidlice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 509,
+    "visibleUniqueLive": 509,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Predlžovacie prívody",
+    "level": 3,
+    "url": "/predlzovacie-privody/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 178,
+    "visibleUniqueLive": 178,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Priemyselné vidlice a zásuvky",
+    "level": 3,
+    "url": "/priemyselne-vidlice-a-zasuvky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 135,
+    "visibleUniqueLive": 135,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Spínacie a časové zásuvky",
+    "level": 3,
+    "url": "/spinacie-zasuvky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 32,
+    "visibleUniqueLive": 32,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Vidlice, zásuvky a redukcie",
+    "level": 3,
+    "url": "/vidlice-zasuvky-a-redukcie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 88,
+    "visibleUniqueLive": 88,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy",
+    "level": 2,
+    "url": "/kamerove-systemy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 312,
+    "visibleUniqueLive": 312,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > IP sieťové kamery",
+    "level": 3,
+    "url": "/ip-sietove-kamery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 70,
+    "visibleUniqueLive": 70,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > Kamery 4v1",
+    "level": 3,
+    "url": "/kamery-4v1/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 16,
+    "visibleUniqueLive": 16,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > Príslušenstvo ku kamerovým systémom",
+    "level": 3,
+    "url": "/prislusenstvo-ku-kameram/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 147,
+    "visibleUniqueLive": 147,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > Videorekordéry NVR a DVR",
+    "level": 3,
+    "url": "/videorekordery-nvr/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 18,
+    "visibleUniqueLive": 18,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky",
+    "level": 2,
+    "url": "/rozvadzacove-prvky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 504,
+    "visibleUniqueLive": 504,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Bloky pre rozdelenie fáz",
+    "level": 3,
+    "url": "/bloky-pre-rozdelenie-faz/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 34,
+    "visibleUniqueLive": 34,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > DIN lišty a modulárne komponenty",
+    "level": 3,
+    "url": "/din-listy-a-komponenty/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 106,
+    "visibleUniqueLive": 106,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+    "level": 3,
+    "url": "/prepojovacie-svorky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 262,
+    "visibleUniqueLive": 262,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie lišty a mostíky",
+    "level": 3,
+    "url": "/prepojovacie-listy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 81,
+    "visibleUniqueLive": 81,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia",
+    "level": 2,
+    "url": "/smart-domacnost/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 349,
+    "visibleUniqueLive": 351,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Senzory pohybu a otvorenia",
+    "level": 3,
+    "url": "/senzory-pohybu-a-otvorenia/",
+    "status": "nová",
+    "visibleUniqueFeed": 15,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Senzory teploty a vlhkosti",
+    "level": 3,
+    "url": "/senzory-teploty-a-vlhkosti/",
+    "status": "nová",
+    "visibleUniqueFeed": 15,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Smart termostaty a hlavice",
+    "level": 3,
+    "url": "/smart-termostaty-a-hlavice/",
+    "status": "nová",
+    "visibleUniqueFeed": 35,
+    "visibleUniqueLive": 35,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Smart zásuvky",
+    "level": 3,
+    "url": "/smart-domacnost-zariadenia-smart-zasuvky/",
+    "status": "nová",
+    "visibleUniqueFeed": 41,
+    "visibleUniqueLive": 41,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Smart riadiace jednotky a huby",
+    "level": 2,
+    "url": "/riadiace-jednotky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 187,
+    "visibleUniqueLive": 187,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál",
+    "level": 2,
+    "url": "/viacnasobne-zasuvky-a-izolacny-material/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 203,
+    "visibleUniqueLive": 203,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky",
+    "level": 2,
+    "url": "/vypinace--zasuvky--krabice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 285,
+    "visibleUniqueLive": 285,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo",
+    "level": 2,
+    "url": "/ventilacne-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 475,
+    "visibleUniqueLive": 475,
+    "terminal": false
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Domové ventilátory",
+    "level": 3,
+    "url": "/domove-ventilatory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 183,
+    "visibleUniqueLive": 183,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Mriežky, žalúzie a klapky",
+    "level": 3,
+    "url": "/mriezky-zaluzie-a-klapky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 55,
+    "visibleUniqueLive": 55,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Priemyselné ventilátory",
+    "level": 3,
+    "url": "/priemyselne-ventilatory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 47,
+    "visibleUniqueLive": 47,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Príslušenstvo k ventilátorom",
+    "level": 3,
+    "url": "/prislusenstvo-k-ventilatorom/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 19,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Revízne dvierka",
+    "level": 3,
+    "url": "/revizne-dvierka/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 58,
+    "visibleUniqueLive": 58,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Vzduchovody a tvarovky",
+    "level": 3,
+    "url": "/vzduchovody/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 102,
+    "visibleUniqueLive": 102,
+    "terminal": true
+  },
+  {
+    "path": "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory",
+    "level": 2,
+    "url": "/zabezpecenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 97,
+    "visibleUniqueLive": 97,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie",
+    "level": 1,
+    "url": "/fotovoltaika-a-energie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 1333,
+    "visibleUniqueLive": 1341,
+    "terminal": false
+  },
+  {
+    "path": "Energia a napájanie > Akumulátory a batérie",
+    "level": 2,
+    "url": "/akumulatory-a-baterie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 541,
+    "visibleUniqueLive": 543,
+    "terminal": false
+  },
+  {
+    "path": "Energia a napájanie > Akumulátory a batérie > Káblové očká, fastóny a dutinky",
+    "level": 3,
+    "url": "/ocka-fastony-dutinky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 323,
+    "visibleUniqueLive": 323,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Akumulátory a batérie > LiFePO4 akumulátory",
+    "level": 3,
+    "url": "/lifepo4-akumulatory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 29,
+    "visibleUniqueLive": 29,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články",
+    "level": 3,
+    "url": "/nabijacie-baterie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 44,
+    "visibleUniqueLive": 45,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory",
+    "level": 3,
+    "url": "/olovene-akumulatory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 96,
+    "visibleUniqueLive": 96,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika",
+    "level": 2,
+    "url": "/fotovoltaika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 577,
+    "visibleUniqueLive": 577,
+    "terminal": false
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika > Elektromery pre fotovoltiku",
+    "level": 3,
+    "url": "/elektromery-pre-fotovoltiku/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 29,
+    "visibleUniqueLive": 29,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika > Konštrukcie pre solárne panely",
+    "level": 3,
+    "url": "/konstrukcie-pre-solarne-panely/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 101,
+    "visibleUniqueLive": 101,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku",
+    "level": 3,
+    "url": "/kable-pre-fotovoltaiku/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 149,
+    "visibleUniqueLive": 149,
+    "terminal": false
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické konektory",
+    "level": 4,
+    "url": "/fotovoltaicke-konektory/",
+    "status": "nová",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické káble",
+    "level": 4,
+    "url": "/kable-a-konektory-pre-fotovoltaiku-fotovoltaicke-kable/",
+    "status": "nová",
+    "visibleUniqueFeed": 54,
+    "visibleUniqueLive": 54,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika > Rozvádzače a ochrana FV inštalácií",
+    "level": 3,
+    "url": "/ochrana-fv-instalacii/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 143,
+    "visibleUniqueLive": 143,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika > Solárne panely",
+    "level": 3,
+    "url": "/solarne-panely/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 23,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Fotovoltaika > Solárne regulátory",
+    "level": 3,
+    "url": "/solarne-regulatory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 54,
+    "visibleUniqueLive": 54,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Meniče napätia",
+    "level": 2,
+    "url": "/menice-napatia/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 36,
+    "visibleUniqueLive": 38,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Nabíjačky batérií a akumulátorov",
+    "level": 2,
+    "url": "/nabijacky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 64,
+    "visibleUniqueLive": 65,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Napájacie zdroje",
+    "level": 2,
+    "url": "/napajacie-zdroje-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 72,
+    "visibleUniqueLive": 72,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Prenosné elektrické stanice",
+    "level": 2,
+    "url": "/prenosne-elektricke-stanice/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "Energia a napájanie > Záložné zdroje a UPS",
+    "level": 2,
+    "url": "/zalozne-zdroje-a-ups/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 85,
+    "visibleUniqueLive": 88,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety",
+    "level": 1,
+    "url": "/pocitace-mobily-a-tablety/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 2975,
+    "visibleUniqueLive": 2939,
+    "terminal": false
+  },
+  {
+    "path": "Počítače, mobily a tablety > Akumulátory a batérie do elektroniky",
+    "level": 2,
+    "url": "/akumulatory--baterie-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Cestovné a VPN routery",
+    "level": 2,
+    "url": "/cestovne-a-vpn-routery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Disky a pamäťové karty pre NVR",
+    "level": 2,
+    "url": "/disky-a-pamatove-karty-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Dokovacie stanice",
+    "level": 2,
+    "url": "/dokovacie-stanice-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Grafické tablety",
+    "level": 2,
+    "url": "/graficke-tablety-3/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 41,
+    "visibleUniqueLive": 41,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné konzoly",
+    "level": 2,
+    "url": "/herne-zariadenia-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 75,
+    "visibleUniqueLive": 75,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné kreslá",
+    "level": 2,
+    "url": "/herne-kresla-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné ovládače pre mobily",
+    "level": 2,
+    "url": "/herne-ovladace-4/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC",
+    "level": 2,
+    "url": "/herne-prislusenstvo-3/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 401,
+    "visibleUniqueLive": 401,
+    "terminal": false
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Chladenie počítača",
+    "level": 3,
+    "url": "/chladenie-pocitaca/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 38,
+    "visibleUniqueLive": 38,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné podložky a mikrofóny",
+    "level": 3,
+    "url": "/herne-podlozky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 49,
+    "visibleUniqueLive": 48,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory",
+    "level": 3,
+    "url": "/herne-simulatory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 98,
+    "visibleUniqueLive": 98,
+    "terminal": false
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače",
+    "level": 4,
+    "url": "/volanty-a-pretekarske-ovladace/",
+    "status": "nová",
+    "visibleUniqueFeed": 45,
+    "visibleUniqueLive": 45,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Počítačové skrine",
+    "level": 3,
+    "url": "/pocitacove-skrine/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 95,
+    "visibleUniqueLive": 96,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo",
+    "level": 3,
+    "url": "/vr-okuliare/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 77,
+    "visibleUniqueLive": 77,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Kancelária a škola",
+    "level": 2,
+    "url": "/kancelaria-a-skola/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 80,
+    "visibleUniqueLive": 80,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Mini PC",
+    "level": 2,
+    "url": "/mini-pc-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 71,
+    "visibleUniqueLive": 71,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Monitory",
+    "level": 2,
+    "url": "/monitory-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 20,
+    "visibleUniqueLive": 20,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > NAS servery a sieťové úložiská",
+    "level": 2,
+    "url": "/sietove-zariadenia-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 15,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Nabíjačky pre mobily",
+    "level": 2,
+    "url": "/nabijacky-pre-mobily/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 108,
+    "visibleUniqueLive": 108,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Nositeľná elektronika",
+    "level": 2,
+    "url": "/nositelna-elektronika-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 199,
+    "visibleUniqueLive": 199,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Notebooky",
+    "level": 2,
+    "url": "/notebooky-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 40,
+    "visibleUniqueLive": 39,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > PC periférie",
+    "level": 2,
+    "url": "/pc-periferie-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 70,
+    "visibleUniqueLive": 69,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Pamäťové médiá",
+    "level": 2,
+    "url": "/pamatove-media-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 89,
+    "visibleUniqueLive": 82,
+    "terminal": false
+  },
+  {
+    "path": "Počítače, mobily a tablety > Pamäťové médiá > Externé disky",
+    "level": 3,
+    "url": "/externe-disky-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 28,
+    "visibleUniqueLive": 27,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Pamäťové médiá > Pamäťové karty",
+    "level": 3,
+    "url": "/pamatove-karty-6/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 33,
+    "visibleUniqueLive": 30,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Pamäťové médiá > USB kľúče",
+    "level": 3,
+    "url": "/usb-kluce/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 22,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Predlžovacie a rozbočovacie zásuvky k PC",
+    "level": 2,
+    "url": "/predlzovacie-a-rozbocovacie-zasuvky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Prenosné monitory",
+    "level": 2,
+    "url": "/prenosne-monitory-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 68,
+    "visibleUniqueLive": 68,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Príslušenstvo k notebookom",
+    "level": 2,
+    "url": "/prislusenstvo-k-notebookom-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 16,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily",
+    "level": 2,
+    "url": "/prislusenstvo-pre-mobilne-telefony/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 757,
+    "visibleUniqueLive": 757,
+    "terminal": false
+  },
+  {
+    "path": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Držiaky na mobily",
+    "level": 3,
+    "url": "/drziaky-na-mobily/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 31,
+    "visibleUniqueLive": 31,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Powerbanky",
+    "level": 3,
+    "url": "/powerbanky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 49,
+    "visibleUniqueLive": 49,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Puzdrá na mobilné telefóny",
+    "level": 3,
+    "url": "/puzdra-na-mobily/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 457,
+    "visibleUniqueLive": 457,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Tvrdené sklá a fólie",
+    "level": 3,
+    "url": "/tvrdene-skla/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 149,
+    "visibleUniqueLive": 149,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Rackové skrine – príslušenstvo",
+    "level": 2,
+    "url": "/rackove-skrine-a-prislusenstvo-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 16,
+    "visibleUniqueLive": 16,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Selfie tyče a statívy pre telefóny",
+    "level": 2,
+    "url": "/selfie-tyce-4/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 30,
+    "visibleUniqueLive": 32,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Smart telefóny",
+    "level": 2,
+    "url": "/smart-telefony-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 190,
+    "visibleUniqueLive": 189,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Tablety",
+    "level": 2,
+    "url": "/tablety-4/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 92,
+    "visibleUniqueLive": 89,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Tlačiarne, skenery a spotrebný materiál",
+    "level": 2,
+    "url": "/tlaciarne-a-skenery-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 217,
+    "visibleUniqueLive": 209,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Tlačidlové telefóny",
+    "level": 2,
+    "url": "/tlacidlove-telefony/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > USB káble",
+    "level": 2,
+    "url": "/usb-kable-4/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 96,
+    "visibleUniqueLive": 96,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > Webkamery",
+    "level": 2,
+    "url": "/webkamery-3/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 40,
+    "visibleUniqueLive": 40,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > WiFi routery a sieťové karty",
+    "level": 2,
+    "url": "/sietove-prvky-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 139,
+    "visibleUniqueLive": 123,
+    "terminal": false
+  },
+  {
+    "path": "Počítače, mobily a tablety > WiFi routery a sieťové karty > Sieťové switche",
+    "level": 3,
+    "url": "/sietove-switche/",
+    "status": "nová",
+    "visibleUniqueFeed": 22,
+    "visibleUniqueLive": 17,
+    "terminal": true
+  },
+  {
+    "path": "Počítače, mobily a tablety > WiFi routery a sieťové karty > WiFi routery",
+    "level": 3,
+    "url": "/wifi-routery-a-sietove-karty-wifi-routery/",
+    "status": "nová",
+    "visibleUniqueFeed": 48,
+    "visibleUniqueLive": 44,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika",
+    "level": 1,
+    "url": "/profesionalna-audio-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 2334,
+    "visibleUniqueLive": 2339,
+    "terminal": false
+  },
+  {
+    "path": "Profesionálna audio technika > 100 V rozhlasové ozvučenie",
+    "level": 2,
+    "url": "/100v-rozhlasove-ozvucenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 467,
+    "visibleUniqueLive": 467,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Car audio",
+    "level": 2,
+    "url": "/car-audio/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Hudobné nástroje a príslušenstvo",
+    "level": 2,
+    "url": "/hudobne-nastroje-a-prislusenstvo/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 91,
+    "visibleUniqueLive": 92,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Káble, konektory a redukcie",
+    "level": 2,
+    "url": "/kable--konektory-a-redukcie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 262,
+    "visibleUniqueLive": 262,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+    "level": 2,
+    "url": "/mikrofony-a-bezdrotove-systemy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 311,
+    "visibleUniqueLive": 311,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Multi-room ozvučenie",
+    "level": 2,
+    "url": "/multi-room-ozvucenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > PA reproduktory",
+    "level": 2,
+    "url": "/pa-reproduktory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 229,
+    "visibleUniqueLive": 232,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu",
+    "level": 2,
+    "url": "/prislusenstvo-k-profesionalnemu-audiu/",
+    "status": "nová",
+    "visibleUniqueFeed": 49,
+    "visibleUniqueLive": 51,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Pódium, diskotéka, DJ",
+    "level": 2,
+    "url": "/podium--diskoteka--dj/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 657,
+    "visibleUniqueLive": 656,
+    "terminal": false
+  },
+  {
+    "path": "Profesionálna audio technika > Pódium, diskotéka, DJ > DI boxy a audio izolátory",
+    "level": 3,
+    "url": "/di-boxy-a-audio-izolatory/",
+    "status": "nová",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Pódium, diskotéka, DJ > Mikrofónové a reproduktorové stojany",
+    "level": 3,
+    "url": "/mikrofonove-a-reproduktorove-stojany/",
+    "status": "nová",
+    "visibleUniqueFeed": 19,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Pódium, diskotéka, DJ > Mixážne pulty",
+    "level": 3,
+    "url": "/podium-diskoteka-dj-mixazne-pulty/",
+    "status": "nová",
+    "visibleUniqueFeed": 20,
+    "visibleUniqueLive": 20,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Signálové procesory a ovládače",
+    "level": 2,
+    "url": "/signalove-procesory-a-ovladace/",
+    "status": "nová",
+    "visibleUniqueFeed": 19,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Svetlá pre DJ a diskotéky",
+    "level": 2,
+    "url": "/svetla-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 170,
+    "visibleUniqueLive": 170,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+    "level": 2,
+    "url": "/suciastky-a-diy-pre-audio/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 112,
+    "visibleUniqueLive": 112,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Tlmočnícke a konferenčné systémy",
+    "level": 2,
+    "url": "/tlmocnicke--sprievodcovske-a-konferencne-systemy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 70,
+    "visibleUniqueLive": 70,
+    "terminal": true
+  },
+  {
+    "path": "Profesionálna audio technika > Výkonové a inštalačné zosilňovače",
+    "level": 2,
+    "url": "/vykonove-a-instalacne-zosilnovace/",
+    "status": "nová",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 17,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika",
+    "level": 1,
+    "url": "/tv-foto-audio-video/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 4450,
+    "visibleUniqueLive": 4516,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > AV káble",
+    "level": 2,
+    "url": "/av-kable/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 104,
+    "visibleUniqueLive": 103,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity",
+    "level": 2,
+    "url": "/anteny-a-satelity/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 840,
+    "visibleUniqueLive": 840,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Antény",
+    "level": 3,
+    "url": "/anteny/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 64,
+    "visibleUniqueLive": 64,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory",
+    "level": 3,
+    "url": "/koaxialne-kable/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 147,
+    "visibleUniqueLive": 147,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > LNB konvertory",
+    "level": 3,
+    "url": "/lnb-konvertory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 41,
+    "visibleUniqueLive": 41,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Napájacie zdroje a výhybky",
+    "level": 3,
+    "url": "/zdroje-a-vyhybky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače",
+    "level": 3,
+    "url": "/pasivne-prvky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 55,
+    "visibleUniqueLive": 55,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Satelitné paraboly",
+    "level": 3,
+    "url": "/paraboly/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy",
+    "level": 3,
+    "url": "/satelitne-prijimace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 68,
+    "visibleUniqueLive": 68,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo",
+    "level": 3,
+    "url": "/satelitne-prislusenstvo/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 61,
+    "visibleUniqueLive": 61,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie",
+    "level": 3,
+    "url": "/stoziare-konzoly-a-uzemnenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 270,
+    "visibleUniqueLive": 270,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Zosilňovače",
+    "level": 3,
+    "url": "/zosilnovace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 75,
+    "visibleUniqueLive": 75,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Antény a satelity > Účastnícke zásuvky",
+    "level": 3,
+    "url": "/ucastnicke-zasuvky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 19,
+    "visibleUniqueLive": 19,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika",
+    "level": 2,
+    "url": "/audio-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 1163,
+    "visibleUniqueLive": 1247,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory",
+    "level": 3,
+    "url": "/hifi-a-domace-reproduktory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 184,
+    "visibleUniqueLive": 197,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery",
+    "level": 3,
+    "url": "/hifi-zosilnovace-a-receivery/",
+    "status": "nová",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
+    "level": 3,
+    "url": "/audio-technika-prenosne-bluetooth-reproduktory/",
+    "status": "nová",
+    "visibleUniqueFeed": 47,
+    "visibleUniqueLive": 61,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike",
+    "level": 3,
+    "url": "/audio-technika-prislusenstvo-k-audio-technike/",
+    "status": "nová",
+    "visibleUniqueFeed": 16,
+    "visibleUniqueLive": 46,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k slúchadlám",
+    "level": 3,
+    "url": "/prislusenstvo-k-sluchadlam/",
+    "status": "nová",
+    "visibleUniqueFeed": 31,
+    "visibleUniqueLive": 33,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Rádiá",
+    "level": 3,
+    "url": "/radia/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 84,
+    "visibleUniqueLive": 84,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá",
+    "level": 3,
+    "url": "/sluchadla/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 491,
+    "visibleUniqueLive": 491,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá",
+    "level": 4,
+    "url": "/bezdrotove-sluchadla/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 305,
+    "visibleUniqueLive": 307,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
+    "level": 5,
+    "url": "/nahlavne-bezdrotove-sluchadla/",
+    "status": "nová",
+    "visibleUniqueFeed": 66,
+    "visibleUniqueLive": 65,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá",
+    "level": 5,
+    "url": "/otvorene-bezdrotove-sluchadla/",
+    "status": "nová",
+    "visibleUniqueFeed": 37,
+    "visibleUniqueLive": 37,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
+    "level": 5,
+    "url": "/bezdrotove-sluchadla-tws-sluchadla/",
+    "status": "nová",
+    "visibleUniqueFeed": 108,
+    "visibleUniqueLive": 108,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá",
+    "level": 4,
+    "url": "/drotove-sluchadla/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 83,
+    "visibleUniqueLive": 82,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Soundbary",
+    "level": 3,
+    "url": "/soundbary/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 52,
+    "visibleUniqueLive": 60,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory",
+    "level": 3,
+    "url": "/stojany-a-drziaky-na-reproduktory/",
+    "status": "nová",
+    "visibleUniqueFeed": 18,
+    "visibleUniqueLive": 43,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače",
+    "level": 2,
+    "url": "/dialkove-ovladace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 983,
+    "visibleUniqueLive": 981,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače",
+    "level": 3,
+    "url": "/audio-ovladace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 44,
+    "visibleUniqueLive": 44,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače > Panasonic",
+    "level": 4,
+    "url": "/audio-ovladace-panasonic/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 44,
+    "visibleUniqueLive": 44,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače",
+    "level": 3,
+    "url": "/dvd-ovladace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 22,
+    "visibleUniqueLive": 22,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2",
+    "level": 3,
+    "url": "/ovladace-k-dvb-t2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 206,
+    "visibleUniqueLive": 206,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Alma",
+    "level": 4,
+    "url": "/dvbt2-ovladace-alma/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 15,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Amiko",
+    "level": 4,
+    "url": "/dvbt2-ovladace-amiko/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Emos",
+    "level": 4,
+    "url": "/dvbt2-ovladace-emos/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > GoGEN",
+    "level": 4,
+    "url": "/dvbt2-ovladace-gogen/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Mascom",
+    "level": 4,
+    "url": "/dvbt2-ovladace-mascom/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Opticum",
+    "level": 4,
+    "url": "/dvbt2-ovladace-opticum/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Sencor",
+    "level": 4,
+    "url": "/dvbt2-ovladace-sencor/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Strong",
+    "level": 4,
+    "url": "/dvbt2-ovladace-strong/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Telesystem",
+    "level": 4,
+    "url": "/dvbt2-ovladace-telesystem/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Tesla",
+    "level": 4,
+    "url": "/dvbt2-ovladace-tesla/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 23,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Wiwa",
+    "level": 4,
+    "url": "/dvbt2-ovladace-wiwa/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače",
+    "level": 3,
+    "url": "/satelitne-ovladace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 276,
+    "visibleUniqueLive": 276,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > AB",
+    "level": 4,
+    "url": "/sat-ovladace-ab/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 18,
+    "visibleUniqueLive": 18,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Amiko",
+    "level": 4,
+    "url": "/sat-ovladace-amiko/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 36,
+    "visibleUniqueLive": 36,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Ferguson",
+    "level": 4,
+    "url": "/sat-ovladace-ferguson/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Globo",
+    "level": 4,
+    "url": "/sat-ovladace-globo/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > GoSat",
+    "level": 4,
+    "url": "/sat-ovladace-gosat/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > HD-BOX",
+    "level": 4,
+    "url": "/sat-ovladace-hd-box/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Octagon",
+    "level": 4,
+    "url": "/sat-ovladace-octagon/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Opensat",
+    "level": 4,
+    "url": "/sat-ovladace-opensat/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Optibox",
+    "level": 4,
+    "url": "/sat-ovladace-optibox/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Opticum",
+    "level": 4,
+    "url": "/sat-ovladace-opticum/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Strong",
+    "level": 4,
+    "url": "/sat-ovladace-strong/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Topfield",
+    "level": 4,
+    "url": "/sat-ovladace-topfield/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Zircon",
+    "level": 4,
+    "url": "/sat-ovladace-zircon/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače",
+    "level": 3,
+    "url": "/televizne-ovladace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 455,
+    "visibleUniqueLive": 455,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Changhong",
+    "level": 4,
+    "url": "/tv-ovladace-changhong/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 16,
+    "visibleUniqueLive": 16,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > ECG",
+    "level": 4,
+    "url": "/tv-ovladace-ecg/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Finlux",
+    "level": 4,
+    "url": "/tv-ovladace-finlux/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Gogen",
+    "level": 4,
+    "url": "/tv-ovladace-gogen/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 16,
+    "visibleUniqueLive": 16,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Hitachi",
+    "level": 4,
+    "url": "/tv-ovladace-hitachi/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Hyundai",
+    "level": 4,
+    "url": "/tv-ovladace-hyundai/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > LG",
+    "level": 4,
+    "url": "/tv-ovladace-lg/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 102,
+    "visibleUniqueLive": 102,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Orava",
+    "level": 4,
+    "url": "/tv-ovladace-orava/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Panasonic",
+    "level": 4,
+    "url": "/tv-ovladace-panasonic/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 56,
+    "visibleUniqueLive": 56,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Philips",
+    "level": 4,
+    "url": "/tv-ovladace-philips/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Samsung",
+    "level": 4,
+    "url": "/tv-ovladace-samsung/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 66,
+    "visibleUniqueLive": 66,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Sencor",
+    "level": 4,
+    "url": "/tv-ovladace-sencor/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 33,
+    "visibleUniqueLive": 33,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Sharp",
+    "level": 4,
+    "url": "/tv-ovladace-sharp/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 15,
+    "visibleUniqueLive": 15,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Sony",
+    "level": 4,
+    "url": "/tv-ovladace-sony/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 30,
+    "visibleUniqueLive": 30,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Telefunken",
+    "level": 4,
+    "url": "/tv-ovladace-telefunken/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Toshiba",
+    "level": 4,
+    "url": "/tv-ovladace-toshiba/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače",
+    "level": 3,
+    "url": "/univerzalne-ovladace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 17,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > Programovateľné",
+    "level": 4,
+    "url": "/uni-ovladace-programovatelne/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 9,
+    "visibleUniqueLive": 9,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Diaľkové ovládače > Video ovládače",
+    "level": 3,
+    "url": "/video-ovladace/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 14,
+    "visibleUniqueLive": 14,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo",
+    "level": 2,
+    "url": "/foto-a-prislusenstvo/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 1020,
+    "visibleUniqueLive": 1007,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Digitálne kompakty",
+    "level": 3,
+    "url": "/digitalne-kompakty/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre",
+    "level": 3,
+    "url": "/filtre-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 123,
+    "visibleUniqueLive": 124,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Efektové a difúzne filtre",
+    "level": 4,
+    "url": "/efektove-a-difuzne-filtre/",
+    "status": "nová",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > ND a variabilné ND filtre",
+    "level": 4,
+    "url": "/nd-a-variabilne-nd-filtre/",
+    "status": "nová",
+    "visibleUniqueFeed": 28,
+    "visibleUniqueLive": 28,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Polarizačné CPL filtre",
+    "level": 4,
+    "url": "/polarizacne-cpl-filtre/",
+    "status": "nová",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Súpravy fotografických filtrov",
+    "level": 4,
+    "url": "/supravy-fotografickych-filtrov/",
+    "status": "nová",
+    "visibleUniqueFeed": 56,
+    "visibleUniqueLive": 56,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér",
+    "level": 3,
+    "url": "/fotoatelier-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 147,
+    "visibleUniqueLive": 147,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
+    "level": 4,
+    "url": "/fotograficke-a-video-svetla/",
+    "status": "nová",
+    "visibleUniqueFeed": 85,
+    "visibleUniqueLive": 85,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotostany a fotoboxy",
+    "level": 4,
+    "url": "/fotostany-a-fotoboxy/",
+    "status": "nová",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Softboxy a modifikátory svetla",
+    "level": 4,
+    "url": "/softboxy-a-modifikatory-svetla/",
+    "status": "nová",
+    "visibleUniqueFeed": 18,
+    "visibleUniqueLive": 18,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotopasce",
+    "level": 3,
+    "url": "/fotopasce-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 17,
+    "visibleUniqueLive": 16,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Gimbály a stabilizátory",
+    "level": 3,
+    "url": "/gimbaly-a-stabilizatory-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 46,
+    "visibleUniqueLive": 46,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery",
+    "level": 3,
+    "url": "/prislusenstvo-pre-fotoaparaty-a-akcne-kamery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 371,
+    "visibleUniqueLive": 363,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Batérie a nabíjačky pre kamery",
+    "level": 4,
+    "url": "/baterie-a-nabijacky-pre-kamery/",
+    "status": "nová",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 23,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné kryty a klietky pre kamery",
+    "level": 4,
+    "url": "/ochranne-kryty-a-klietky-pre-kamery/",
+    "status": "nová",
+    "visibleUniqueFeed": 49,
+    "visibleUniqueLive": 48,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery",
+    "level": 4,
+    "url": "/ochranne-skla-a-folie-pre-kamery/",
+    "status": "nová",
+    "visibleUniqueFeed": 36,
+    "visibleUniqueLive": 35,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava",
+    "level": 3,
+    "url": "/skladovanie-a-preprava-2/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 39,
+    "visibleUniqueLive": 37,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery",
+    "level": 3,
+    "url": "/stativy-drziaky-a-upevnenie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 221,
+    "visibleUniqueLive": 218,
+    "terminal": false
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery",
+    "level": 4,
+    "url": "/drziaky-a-montazne-uchyty-pre-kamery/",
+    "status": "nová",
+    "visibleUniqueFeed": 110,
+    "visibleUniqueLive": 108,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Popruhy a postroje pre kamery",
+    "level": 4,
+    "url": "/popruhy-a-postroje-pre-kamery/",
+    "status": "nová",
+    "visibleUniqueFeed": 13,
+    "visibleUniqueLive": 13,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Selfie tyče pre kamery",
+    "level": 4,
+    "url": "/selfie-tyce-pre-kamery/",
+    "status": "nová",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 23,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Statívy pre fotoaparáty a kamery",
+    "level": 4,
+    "url": "/stativy-pre-fotoaparaty-a-kamery/",
+    "status": "nová",
+    "visibleUniqueFeed": 30,
+    "visibleUniqueLive": 30,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Súpravy príslušenstva pre akčné kamery",
+    "level": 3,
+    "url": "/supravy-prislusenstva-pre-akcne-kamery/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Projektory",
+    "level": 2,
+    "url": "/projektory-4/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 68,
+    "visibleUniqueLive": 68,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike",
+    "level": 2,
+    "url": "/prislusenstvo-k-tv--audio--video/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 34,
+    "visibleUniqueLive": 35,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > TV stolíky a držiaky",
+    "level": 2,
+    "url": "/tv-stoliky-a-drziaky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 79,
+    "visibleUniqueLive": 78,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Televízory",
+    "level": 2,
+    "url": "/televizory/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 145,
+    "visibleUniqueLive": 144,
+    "terminal": true
+  },
+  {
+    "path": "TV, audio, video a foto technika > Video technika",
+    "level": 2,
+    "url": "/video-technika/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 37,
+    "visibleUniqueLive": 36,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť",
+    "level": 1,
+    "url": "/zdravie-a-starostlivost/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 554,
+    "visibleUniqueLive": 539,
+    "terminal": false
+  },
+  {
+    "path": "Zdravie a starostlivosť > Holiace strojčeky a epilátory",
+    "level": 2,
+    "url": "/holiace-strojceky/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 40,
+    "visibleUniqueLive": 40,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Matka a dieťa",
+    "level": 2,
+    "url": "/matka-a-dieta/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 10,
+    "visibleUniqueLive": 10,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Monitorovanie dieťaťa",
+    "level": 2,
+    "url": "/monitorovanie-dietata/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 11,
+    "visibleUniqueLive": 11,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Osobné váhy",
+    "level": 2,
+    "url": "/osobne-vahy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 39,
+    "visibleUniqueLive": 38,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Otoskopy a prístroje na čistenie pokožky",
+    "level": 2,
+    "url": "/otoskopy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 12,
+    "visibleUniqueLive": 12,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Prístroje na tvár",
+    "level": 2,
+    "url": "/pristroje-na-tvar/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 22,
+    "visibleUniqueLive": 22,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o vlasy",
+    "level": 2,
+    "url": "/starostlivost-o-vlasy/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 238,
+    "visibleUniqueLive": 227,
+    "terminal": false
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Fény a teplovzdušné kefy",
+    "level": 3,
+    "url": "/feny-a-teplovzdusne-kefy/",
+    "status": "nová",
+    "visibleUniqueFeed": 31,
+    "visibleUniqueLive": 30,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Kulmy na vlasy",
+    "level": 3,
+    "url": "/starostlivost-o-vlasy-kulmy-na-vlasy/",
+    "status": "nová",
+    "visibleUniqueFeed": 23,
+    "visibleUniqueLive": 22,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy",
+    "level": 3,
+    "url": "/zehlicky-na-vlasy/",
+    "status": "nová",
+    "visibleUniqueFeed": 24,
+    "visibleUniqueLive": 24,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o zdravie",
+    "level": 2,
+    "url": "/starostlivost-o-zdravie/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 38,
+    "visibleUniqueLive": 37,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o zuby",
+    "level": 2,
+    "url": "/starostlivost-o-zuby/",
+    "status": "existujúca",
+    "visibleUniqueFeed": 143,
+    "visibleUniqueLive": 141,
+    "terminal": false
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Elektrické zubné kefky",
+    "level": 3,
+    "url": "/starostlivost-o-zuby-elektricke-zubne-kefky/",
+    "status": "nová",
+    "visibleUniqueFeed": 55,
+    "visibleUniqueLive": 55,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Náhradné hlavice na zubné kefky",
+    "level": 3,
+    "url": "/nahradne-hlavice-na-zubne-kefky/",
+    "status": "nová",
+    "visibleUniqueFeed": 49,
+    "visibleUniqueLive": 47,
+    "terminal": true
+  },
+  {
+    "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy",
+    "level": 3,
+    "url": "/starostlivost-o-zuby-ustne-sprchy/",
+    "status": "nová",
+    "visibleUniqueFeed": 8,
+    "visibleUniqueLive": 8,
+    "terminal": true
+  }
+]

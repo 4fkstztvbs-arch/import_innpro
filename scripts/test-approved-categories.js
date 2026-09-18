@@ -55,3 +55,26 @@ test('retirement only removes the retired branch; parent with few direct items r
   assert.deepEqual(leaves(categories(last)),['Root','Other']);
   assert.equal(r.report.categories[0].active,true);
 });
+test('new named products use recurring rules, accessories and excluded identities stay in parent', () => {
+  const {config,files}=fixture();
+  config.dynamicRules=[{base:'Root > Parent',target:'Root > Parent > Child',pattern:'device',exclude:'accessory'}];
+  config.dynamicExcludedProducts=[{supplier:'a',code:'excluded',ean:'excluded'}];
+  const extra=[['new','Device'],['accessory','Device accessory'],['excluded','Device']].map(([code,name])=>item(code,code).replace('Preserve me',name)).join('');
+  files[0].text=files[0].text.replace('</SHOP>',extra+'</SHOP>');
+  const r=processFeeds(files,config);const items=r.files[0].text.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g).slice(-3);
+  assert.equal(categories(items[0])[0],'Root > Parent > Child');
+  assert.equal(categories(items[1])[0],'Root > Parent');assert.equal(categories(items[2])[0],'Root > Parent');
+});
+test('same SKU with distinct EANs is handled by exact identity; zero-prefixed EAN is deduplicated', () => {
+  const {config,files}=fixture(7);
+  config.products.push({...config.products[0],ean:'distinct'});
+  files[0].text=files[0].text.replace('</SHOP>',item('c0','distinct')+'</SHOP>');
+  const r=processFeeds(files,config);assert.equal(r.report.matchedRules,8);assert.equal(r.report.categories[0].visibleUnique,8);
+  const d=fixture(7);d.files.push({name:'b',text:'<SHOP>'+item('x','0001','visible',['Root > Parent > Child'])+'</SHOP>'});
+  assert.equal(processFeeds(d.files,d.config).report.categories[0].visibleUnique,7);
+});
+test('a reviewed removed branch stays removed after an earlier pass folded it into its parent', () => {
+  const {applyRule}=require('./apply-approved-categories');
+  assert.deepEqual(applyRule(['Root > Parent','Other'],{current:['Root > Parent > Old','Other'],proposed:['Other']}),['Other']);
+  assert.deepEqual(applyRule(['Root > Parent > Unrelated','Other'],{current:['Root > Parent > Old','Other'],proposed:['Other']}),['Root > Parent > Unrelated','Other']);
+});
