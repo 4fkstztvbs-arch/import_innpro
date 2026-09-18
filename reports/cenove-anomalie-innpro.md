@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-09-17
+# Cenové anomálie vynechané z feedu — innpro — 2026-09-18
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
