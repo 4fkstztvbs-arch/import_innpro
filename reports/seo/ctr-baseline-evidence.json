@@ -1,0 +1,376 @@
+{
+  "source": "premiumstore.sk-Performance-on-Search-2026-09-17 2.xlsx",
+  "sha256": "e61e717dc20d148a76e01a074c1e25b393a429338530aacc232f50bcb1e803b4",
+  "baseline": {
+    "from": "2026-08-10",
+    "to": "2026-09-16"
+  },
+  "filter": "10. 8. 2026-16. 9. 2026",
+  "dates": [
+    "2026-08-10",
+    "2026-09-16"
+  ],
+  "rows": [
+    {
+      "row": 10,
+      "url": "https://www.premiumstore.sk/mini-pc-gmktec-evo-x2-ryzen-ai-max--395-s-64-gb-ram--1-tb-ssd-a-windows-11-pro/",
+      "clicks": 6,
+      "impressions": 151,
+      "ctr": 0.0397,
+      "position": 5.17,
+      "differences": []
+    },
+    {
+      "row": 23,
+      "url": "https://www.premiumstore.sk/bezdrotovy-adapter-ottocast-ottoaibox-p3-pro-pre-android/",
+      "clicks": 4,
+      "impressions": 74,
+      "ctr": 0.0541,
+      "position": 6.27,
+      "differences": []
+    },
+    {
+      "row": 160,
+      "url": "https://www.premiumstore.sk/stojan-pro-tepelne-cerpadlo-klimatizace-stronglift-sl500x-inox/",
+      "clicks": 1,
+      "impressions": 67,
+      "ctr": 0.0149,
+      "position": 6.55,
+      "differences": []
+    },
+    {
+      "row": 53,
+      "url": "https://www.premiumstore.sk/homatics-box-4k-v2-ai-sr-google-tv-uhd-multimedialni-prehravac/",
+      "clicks": 2,
+      "impressions": 47,
+      "ctr": 0.0426,
+      "position": 12.91,
+      "differences": []
+    },
+    {
+      "row": 8,
+      "url": "https://www.premiumstore.sk/okuliare-viture-pro-2-xr/",
+      "clicks": 7,
+      "impressions": 38,
+      "ctr": 0.18420000000000003,
+      "position": 3.84,
+      "differences": []
+    },
+    {
+      "row": 176,
+      "url": "https://www.premiumstore.sk/solight-kefka-na-cistenie-filtra-pre-dyson-airwrap/",
+      "clicks": 1,
+      "impressions": 33,
+      "ctr": 0.030299999999999997,
+      "position": 10.82,
+      "differences": []
+    },
+    {
+      "row": 177,
+      "url": "https://www.premiumstore.sk/minis-forum-x1-pro-370-ryzen-ai-9-hx370-mini-pc-v-zakladnej-zostave/",
+      "clicks": 1,
+      "impressions": 31,
+      "ctr": 0.0323,
+      "position": 6.26,
+      "differences": []
+    },
+    {
+      "row": 185,
+      "url": "https://www.premiumstore.sk/automaticky-prepinac-siti-napajeni-4p-400v-20a-nlq4-125-4p-pro-fve/",
+      "clicks": 1,
+      "impressions": 28,
+      "ctr": 0.035699999999999996,
+      "position": 14.79,
+      "differences": []
+    },
+    {
+      "row": 190,
+      "url": "https://www.premiumstore.sk/lcd-displej-kruger-matz-km2021-android-auto-apple-carplay-s-dvr-a-couvaci-kamerou/",
+      "clicks": 1,
+      "impressions": 26,
+      "ctr": 0.0385,
+      "position": 7.73,
+      "differences": []
+    },
+    {
+      "row": 69,
+      "url": "https://www.premiumstore.sk/kamera-emos-ip-1100g-wall--h4170--gosmart-venkovni-bateriova-s-wifi-a-solarnim-panelem/",
+      "clicks": 2,
+      "impressions": 23,
+      "ctr": 0.087,
+      "position": 6.7,
+      "differences": []
+    },
+    {
+      "row": 35,
+      "url": "https://www.premiumstore.sk/tester-usb-fnirsi-fnb-c2/",
+      "clicks": 3,
+      "impressions": 22,
+      "ctr": 0.1364,
+      "position": 4.14,
+      "differences": []
+    },
+    {
+      "row": 27,
+      "url": "https://www.premiumstore.sk/mini-pc-minis-forum-um760-slim-ryzen-5-7640hs--bez-skrinky/",
+      "clicks": 4,
+      "impressions": 21,
+      "ctr": 0.1905,
+      "position": 3.95,
+      "differences": []
+    },
+    {
+      "row": 204,
+      "url": "https://www.premiumstore.sk/powerbanka-flextail-zero-power-metal-5000-mah--strieborna/",
+      "clicks": 1,
+      "impressions": 20,
+      "ctr": 0.05,
+      "position": 3.25,
+      "differences": []
+    },
+    {
+      "row": 205,
+      "url": "https://www.premiumstore.sk/enhance-s3xy-knob-ovladac-commander-kabely--tesla-3-y-2021-predni-i-zadni-instalace/",
+      "clicks": 1,
+      "impressions": 20,
+      "ctr": 0.05,
+      "position": 5.65,
+      "differences": []
+    },
+    {
+      "row": 73,
+      "url": "https://www.premiumstore.sk/zalozni-zdroj-volt-polska-sinus-pro-800-e-12v-230v-800va-500w/",
+      "clicks": 2,
+      "impressions": 18,
+      "ctr": 0.11109999999999999,
+      "position": 9.78,
+      "differences": []
+    },
+    {
+      "row": 75,
+      "url": "https://www.premiumstore.sk/televes-smartkom-531911-digitalni-programovatelny-zesilovac/",
+      "clicks": 2,
+      "impressions": 17,
+      "ctr": 0.1176,
+      "position": 7.29,
+      "differences": []
+    },
+    {
+      "row": 213,
+      "url": "https://www.premiumstore.sk/detektor-kablov-fnirsi-lpm-10a/",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.0588,
+      "position": 6.41,
+      "differences": []
+    },
+    {
+      "row": 214,
+      "url": "https://www.premiumstore.sk/meross-mrs200ma-eu---inteligentny-navijaci-mechanizmus-na-rolety-s-wi-fi/",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.0588,
+      "position": 7.18,
+      "differences": []
+    },
+    {
+      "row": 41,
+      "url": "https://www.premiumstore.sk/xiaomi-redmi-pad-2-9-7-cover--77599/",
+      "clicks": 3,
+      "impressions": 16,
+      "ctr": 0.1875,
+      "position": 6.31,
+      "differences": []
+    },
+    {
+      "row": 220,
+      "url": "https://www.premiumstore.sk/telefon-gsm-kruger-matz-simple-923-pro-seniory/",
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 6.62,
+      "differences": []
+    },
+    {
+      "row": 16,
+      "url": "https://www.premiumstore.sk/poco-f9-pro-12-256gb-black/",
+      "clicks": 5,
+      "impressions": 147,
+      "ctr": 0.034,
+      "position": 6.73,
+      "differences": []
+    },
+    {
+      "row": 11,
+      "url": "https://www.premiumstore.sk/cistiaci-robot-mova-v70-ultra-complete-v-bielej-farbe/",
+      "clicks": 6,
+      "impressions": 100,
+      "ctr": 0.06,
+      "position": 6.64,
+      "differences": []
+    },
+    {
+      "row": 51,
+      "url": "https://www.premiumstore.sk/bezdrotovy-adapter-carlinkit-mini-ultra-5-pre-carplay-android-auto/",
+      "clicks": 2,
+      "impressions": 53,
+      "ctr": 0.0377,
+      "position": 7.23,
+      "differences": []
+    },
+    {
+      "row": 54,
+      "url": "https://www.premiumstore.sk/flytec-v803-gps-5200mah-lod-na-navnadu/",
+      "clicks": 2,
+      "impressions": 46,
+      "ctr": 0.0435,
+      "position": 8.61,
+      "differences": []
+    },
+    {
+      "row": 56,
+      "url": "https://www.premiumstore.sk/monacor-dt-25n-neodymovy-hi-fi-vyskovy-reproduktor--40-w--8-/",
+      "clicks": 2,
+      "impressions": 42,
+      "ctr": 0.047599999999999996,
+      "position": 7.71,
+      "differences": []
+    },
+    {
+      "row": 171,
+      "url": "https://www.premiumstore.sk/trafopajka-aku-soldinger-pc-100-kompatibilni-s-akumulatory-typu-dewalt/",
+      "clicks": 1,
+      "impressions": 38,
+      "ctr": 0.0263,
+      "position": 5.18,
+      "differences": []
+    },
+    {
+      "row": 178,
+      "url": "https://www.premiumstore.sk/beko-b3bcna324hs/",
+      "clicks": 1,
+      "impressions": 31,
+      "ctr": 0.0323,
+      "position": 7.65,
+      "differences": []
+    },
+    {
+      "row": 187,
+      "url": "https://www.premiumstore.sk/inteligentna-samocistiaca-toaleta-pre-macky-ubpet-c41/",
+      "clicks": 1,
+      "impressions": 27,
+      "ctr": 0.037000000000000005,
+      "position": 7,
+      "differences": []
+    },
+    {
+      "row": 67,
+      "url": "https://www.premiumstore.sk/filter-mova-pre-stanicu-g70-2/",
+      "clicks": 2,
+      "impressions": 26,
+      "ctr": 0.07690000000000001,
+      "position": 4.73,
+      "differences": []
+    },
+    {
+      "row": 192,
+      "url": "https://www.premiumstore.sk/whirlpool-whk-26373-xbr6ea-ai-adaptiveco/",
+      "clicks": 1,
+      "impressions": 25,
+      "ctr": 0.04,
+      "position": 7.16,
+      "differences": []
+    },
+    {
+      "row": 199,
+      "url": "https://www.premiumstore.sk/bose-quietcomfort-headphones-club-sc-bluetooth-sluchadla-s-potlacenim-okoliteho-hluku--cierne/",
+      "clicks": 1,
+      "impressions": 22,
+      "ctr": 0.0455,
+      "position": 10.64,
+      "differences": []
+    },
+    {
+      "row": 201,
+      "url": "https://www.premiumstore.sk/router-gl-inet-flint-2-wi-fi-6/",
+      "clicks": 1,
+      "impressions": 21,
+      "ctr": 0.047599999999999996,
+      "position": 4.67,
+      "differences": []
+    },
+    {
+      "row": 38,
+      "url": "https://www.premiumstore.sk/samsung-oled-qe55s95h/",
+      "clicks": 3,
+      "impressions": 20,
+      "ctr": 0.15,
+      "position": 8,
+      "differences": []
+    },
+    {
+      "row": 29,
+      "url": "https://www.premiumstore.sk/urevo-foldimix-5l-pro-elektricky-bezecky-pas--strieborny/",
+      "clicks": 4,
+      "impressions": 19,
+      "ctr": 0.21050000000000002,
+      "position": 5.47,
+      "differences": []
+    },
+    {
+      "row": 39,
+      "url": "https://www.premiumstore.sk/prenosny-kompresor-fanttik-x8-apex/",
+      "clicks": 3,
+      "impressions": 19,
+      "ctr": 0.15789999999999998,
+      "position": 7,
+      "differences": []
+    },
+    {
+      "row": 6,
+      "url": "https://www.premiumstore.sk/panel-tlacidiel-ovladacieho-panela-pxn-cb1/",
+      "clicks": 8,
+      "impressions": 17,
+      "ctr": 0.4706,
+      "position": 5.65,
+      "differences": []
+    },
+    {
+      "row": 212,
+      "url": "https://www.premiumstore.sk/adapter-obsbot-uvc-na-hdmi/",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.0588,
+      "position": 6.35,
+      "differences": []
+    },
+    {
+      "row": 215,
+      "url": "https://www.premiumstore.sk/trafo-230-12v--10amp/",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.0588,
+      "position": 8.24,
+      "differences": []
+    },
+    {
+      "row": 217,
+      "url": "https://www.premiumstore.sk/pioneer-ts-wx140da-aktivny-subwoofer-do-auta/",
+      "clicks": 1,
+      "impressions": 17,
+      "ctr": 0.0588,
+      "position": 9,
+      "differences": []
+    },
+    {
+      "row": 79,
+      "url": "https://www.premiumstore.sk/blesk-godox-v850iii/",
+      "clicks": 2,
+      "impressions": 16,
+      "ctr": 0.125,
+      "position": 4.12,
+      "differences": []
+    }
+  ],
+  "cohortRevision": 2
+}

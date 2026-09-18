@@ -1,0 +1,26 @@
+{
+  "node": "24.19.0",
+  "sax": "1.6.1",
+  "seoTests": {
+    "passed": 39,
+    "failed": 0
+  },
+  "existingPricingAndCategoryRegressionTests": {
+    "passed": 31,
+    "failed": 0
+  },
+  "workflowYamlParse": "PASS (Ruby YAML parser)",
+  "inactiveWriteInvocation": "PASS: no OUT read/written",
+  "gitOutputDiffAgainstAuditedMain": "EMPTY",
+  "gitDiffCheck": "PASS",
+  "requireReadyExitCode": 1,
+  "requireReadyExitExpected": true,
+  "note": "Local tests use bundled Node 24; GitHub Actions targets Node 20. Prior preparation CI passed on Node 20; refreshed cohort CI is checked on its own commit after publication. No live supplier fetch/import was run.",
+  "cohortRevision": 2,
+  "baselineRowsVerifiedAgainstWorkbook": 40,
+  "priorPreparationCi": {
+    "commit": "26b28b04a33d7f86b22bb4ac576afc758f8472bb",
+    "push": "success",
+    "pullRequest": "success"
+  }
+}

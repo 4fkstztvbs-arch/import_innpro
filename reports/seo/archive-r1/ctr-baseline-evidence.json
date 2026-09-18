@@ -1,0 +1,213 @@
+{
+  "source": "premiumstore.sk-Performance-on-Search-2026-09-17 2.xlsx",
+  "sha256": "e61e717dc20d148a76e01a074c1e25b393a429338530aacc232f50bcb1e803b4",
+  "baseline": {
+    "from": "2026-08-10",
+    "to": "2026-09-16"
+  },
+  "filter": "10. 8. 2026-16. 9. 2026",
+  "dates": [
+    "2026-08-10",
+    "2026-09-16"
+  ],
+  "rows": [
+    {
+      "row": 16,
+      "url": "https://www.premiumstore.sk/poco-f9-pro-12-256gb-black/",
+      "clicks": 5.0,
+      "impressions": 147.0,
+      "ctr": 0.034,
+      "position": 6.73,
+      "differences": []
+    },
+    {
+      "row": 10,
+      "url": "https://www.premiumstore.sk/mini-pc-gmktec-evo-x2-ryzen-ai-max--395-s-64-gb-ram--1-tb-ssd-a-windows-11-pro/",
+      "clicks": 6.0,
+      "impressions": 151.0,
+      "ctr": 0.0397,
+      "position": 5.17,
+      "differences": []
+    },
+    {
+      "row": 159,
+      "url": "https://www.premiumstore.sk/xiaomi-redmi-smart-pen--white/",
+      "clicks": 1.0,
+      "impressions": 76.0,
+      "ctr": 0.0132,
+      "position": 10.43,
+      "differences": []
+    },
+    {
+      "row": 160,
+      "url": "https://www.premiumstore.sk/stojan-pro-tepelne-cerpadlo-klimatizace-stronglift-sl500x-inox/",
+      "clicks": 1.0,
+      "impressions": 67.0,
+      "ctr": 0.0149,
+      "position": 6.55,
+      "differences": []
+    },
+    {
+      "row": 164,
+      "url": "https://www.premiumstore.sk/tesla-powerwash-steam-station-tqs600/",
+      "clicks": 1.0,
+      "impressions": 55.0,
+      "ctr": 0.0182,
+      "position": 8.75,
+      "differences": []
+    },
+    {
+      "row": 165,
+      "url": "https://www.premiumstore.sk/samsung-galaxy-watch-9-40mm-cream/",
+      "clicks": 1.0,
+      "impressions": 52.0,
+      "ctr": 0.0192,
+      "position": 8.33,
+      "differences": []
+    },
+    {
+      "row": 22,
+      "url": "https://www.premiumstore.sk/poco-f9-ultra-12-256gb-black/",
+      "clicks": 4.0,
+      "impressions": 91.0,
+      "ctr": 0.044000000000000004,
+      "position": 6.36,
+      "differences": []
+    },
+    {
+      "row": 51,
+      "url": "https://www.premiumstore.sk/bezdrotovy-adapter-carlinkit-mini-ultra-5-pre-carplay-android-auto/",
+      "clicks": 2.0,
+      "impressions": 53.0,
+      "ctr": 0.0377,
+      "position": 7.23,
+      "differences": []
+    },
+    {
+      "row": 171,
+      "url": "https://www.premiumstore.sk/trafopajka-aku-soldinger-pc-100-kompatibilni-s-akumulatory-typu-dewalt/",
+      "clicks": 1.0,
+      "impressions": 38.0,
+      "ctr": 0.0263,
+      "position": 5.18,
+      "differences": []
+    },
+    {
+      "row": 172,
+      "url": "https://www.premiumstore.sk/vasa-freza-makera-carvera-air-cnc/",
+      "clicks": 1.0,
+      "impressions": 38.0,
+      "ctr": 0.0263,
+      "position": 7.84,
+      "differences": []
+    },
+    {
+      "row": 52,
+      "url": "https://www.premiumstore.sk/simulacna-suprava-moza-racing-r5-pro/",
+      "clicks": 2.0,
+      "impressions": 52.0,
+      "ctr": 0.0385,
+      "position": 5.77,
+      "differences": []
+    },
+    {
+      "row": 175,
+      "url": "https://www.premiumstore.sk/flytec-v030-zakladny-nastrahovy-valec-bateria/",
+      "clicks": 1.0,
+      "impressions": 33.0,
+      "ctr": 0.030299999999999997,
+      "position": 8.79,
+      "differences": []
+    },
+    {
+      "row": 176,
+      "url": "https://www.premiumstore.sk/solight-kefka-na-cistenie-filtra-pre-dyson-airwrap/",
+      "clicks": 1.0,
+      "impressions": 33.0,
+      "ctr": 0.030299999999999997,
+      "position": 10.82,
+      "differences": []
+    },
+    {
+      "row": 53,
+      "url": "https://www.premiumstore.sk/homatics-box-4k-v2-ai-sr-google-tv-uhd-multimedialni-prehravac/",
+      "clicks": 2.0,
+      "impressions": 47.0,
+      "ctr": 0.0426,
+      "position": 12.91,
+      "differences": []
+    },
+    {
+      "row": 54,
+      "url": "https://www.premiumstore.sk/flytec-v803-gps-5200mah-lod-na-navnadu/",
+      "clicks": 2.0,
+      "impressions": 46.0,
+      "ctr": 0.0435,
+      "position": 8.61,
+      "differences": []
+    },
+    {
+      "row": 23,
+      "url": "https://www.premiumstore.sk/bezdrotovy-adapter-ottocast-ottoaibox-p3-pro-pre-android/",
+      "clicks": 4.0,
+      "impressions": 74.0,
+      "ctr": 0.0541,
+      "position": 6.27,
+      "differences": []
+    },
+    {
+      "row": 177,
+      "url": "https://www.premiumstore.sk/minis-forum-x1-pro-370-ryzen-ai-9-hx370-mini-pc-v-zakladnej-zostave/",
+      "clicks": 1.0,
+      "impressions": 31.0,
+      "ctr": 0.0323,
+      "position": 6.26,
+      "differences": []
+    },
+    {
+      "row": 178,
+      "url": "https://www.premiumstore.sk/beko-b3bcna324hs/",
+      "clicks": 1.0,
+      "impressions": 31.0,
+      "ctr": 0.0323,
+      "position": 7.65,
+      "differences": []
+    },
+    {
+      "row": 179,
+      "url": "https://www.premiumstore.sk/tcl-55t8c-qled-4k-smart-google-tv/",
+      "clicks": 1.0,
+      "impressions": 31.0,
+      "ctr": 0.0323,
+      "position": 8.84,
+      "differences": []
+    },
+    {
+      "row": 181,
+      "url": "https://www.premiumstore.sk/domo-do9276c/",
+      "clicks": 1.0,
+      "impressions": 29.0,
+      "ctr": 0.0345,
+      "position": 6.24,
+      "differences": []
+    },
+    {
+      "row": 3,
+      "url": "https://www.premiumstore.sk/poco-f9-ultra-16-512gb-black/",
+      "clicks": 32.0,
+      "impressions": 473.0,
+      "ctr": 0.0677,
+      "position": 6.45,
+      "differences": []
+    },
+    {
+      "row": 11,
+      "url": "https://www.premiumstore.sk/cistiaci-robot-mova-v70-ultra-complete-v-bielej-farbe/",
+      "clicks": 6.0,
+      "impressions": 100.0,
+      "ctr": 0.06,
+      "position": 6.64,
+      "differences": []
+    }
+  ]
+}

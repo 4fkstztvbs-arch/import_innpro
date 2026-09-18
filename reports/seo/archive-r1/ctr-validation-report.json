@@ -1,0 +1,278 @@
+{
+  "experimentId": "CTR-2026-09",
+  "status": "PREPARED_NOT_ACTIVE",
+  "baseline": {
+    "from": "2026-08-10",
+    "to": "2026-09-16",
+    "verified": true,
+    "source": "premiumstore.sk-Performance-on-Search-2026-09-17 2.xlsx",
+    "sha256": "e61e717dc20d148a76e01a074c1e25b393a429338530aacc232f50bcb1e803b4"
+  },
+  "preparationValid": true,
+  "activationReady": false,
+  "errors": [],
+  "blockers": [
+    {
+      "url": "https://www.premiumstore.sk/xiaomi-redmi-smart-pen--white/",
+      "reason": "NOT_IN_CURRENT_OUT"
+    },
+    {
+      "url": "https://www.premiumstore.sk/tesla-powerwash-steam-station-tqs600/",
+      "reason": "NOT_IN_CURRENT_OUT"
+    },
+    {
+      "url": "https://www.premiumstore.sk/samsung-galaxy-watch-9-40mm-cream/",
+      "reason": "NOT_IN_CURRENT_OUT"
+    },
+    {
+      "url": "https://www.premiumstore.sk/vasa-freza-makera-carvera-air-cnc/",
+      "reason": "NOT_IN_CURRENT_OUT"
+    },
+    {
+      "url": "https://www.premiumstore.sk/simulacna-suprava-moza-racing-r5-pro/",
+      "reason": "URL_CHANGED"
+    },
+    {
+      "url": "https://www.premiumstore.sk/flytec-v030-zakladny-nastrahovy-valec-bateria/",
+      "reason": "AMBIGUOUS_IDENTITY"
+    },
+    {
+      "url": "https://www.premiumstore.sk/tcl-55t8c-qled-4k-smart-google-tv/",
+      "reason": "NOT_IN_CURRENT_OUT"
+    },
+    {
+      "url": "https://www.premiumstore.sk/domo-do9276c/",
+      "reason": "NOT_IN_CURRENT_OUT"
+    },
+    {
+      "url": "https://www.premiumstore.sk/poco-f9-ultra-16-512gb-black/",
+      "reason": "NOT_IN_CURRENT_OUT"
+    },
+    {
+      "reason": "EXPLICIT_USER_ACTIVATION_APPROVAL_MISSING"
+    },
+    {
+      "reason": "FULL_ACTIVATION_PREFLIGHT_NOT_PASSED"
+    }
+  ],
+  "feeds": [
+    {
+      "supplier": "innpro",
+      "items": 5520,
+      "sha256": "76fb93c15a5b24ab55d739a6c63d16fc277c48b2c0ff010ca8b72addc249a4ae",
+      "inactiveSha256": "76fb93c15a5b24ab55d739a6c63d16fc277c48b2c0ff010ca8b72addc249a4ae",
+      "previewProducts": 5,
+      "nonSeoBeforeSha256": "4f4b859dc9e0548e34b444b5e02bb4764a0fc6d605a02aa329d038a981b6d0e2",
+      "nonSeoAfterSha256": "4f4b859dc9e0548e34b444b5e02bb4764a0fc6d605a02aa329d038a981b6d0e2"
+    },
+    {
+      "supplier": "kb",
+      "items": 5056,
+      "sha256": "3e81799aeef6bb865801ab01a766ee2fd91abe175de5786639842131780c6710",
+      "inactiveSha256": "3e81799aeef6bb865801ab01a766ee2fd91abe175de5786639842131780c6710",
+      "previewProducts": 3,
+      "nonSeoBeforeSha256": "a95eaa66b41e2d3a999b03274d0ba12f4015580a1cacbff53bffe743ca450a3f",
+      "nonSeoAfterSha256": "a95eaa66b41e2d3a999b03274d0ba12f4015580a1cacbff53bffe743ca450a3f"
+    },
+    {
+      "supplier": "atos",
+      "items": 11958,
+      "sha256": "657ac805f0c3016545477e07ead703e7b0d840cd1e01c43865d93ebff3ea3e1b",
+      "inactiveSha256": "657ac805f0c3016545477e07ead703e7b0d840cd1e01c43865d93ebff3ea3e1b",
+      "previewProducts": 3,
+      "nonSeoBeforeSha256": "b8062e0fcb6a3247428ae719d5951095227333dc3316960ec985d8ff36dcc085",
+      "nonSeoAfterSha256": "b8062e0fcb6a3247428ae719d5951095227333dc3316960ec985d8ff36dcc085"
+    },
+    {
+      "supplier": "basys",
+      "items": 917,
+      "sha256": "12d348dc5f80593ea8811cb7ddfd319b46f9048985e45f8bc1b3f17f71e41535",
+      "inactiveSha256": "12d348dc5f80593ea8811cb7ddfd319b46f9048985e45f8bc1b3f17f71e41535",
+      "previewProducts": 0,
+      "nonSeoBeforeSha256": "88207cfe23948426b523f6f640f8102fe185f619a7e09a12caedac1cf02ab45b",
+      "nonSeoAfterSha256": "88207cfe23948426b523f6f640f8102fe185f619a7e09a12caedac1cf02ab45b"
+    },
+    {
+      "supplier": "monacor",
+      "items": 1820,
+      "sha256": "8f2a188417021a37b7c97117a6dbd365c9eca6754702417e5db9c224a537b15d",
+      "inactiveSha256": "8f2a188417021a37b7c97117a6dbd365c9eca6754702417e5db9c224a537b15d",
+      "previewProducts": 0,
+      "nonSeoBeforeSha256": "7c1c2a201a98599981ca9f7cbdf15f1881a2e075bea7fc861f54177d0a4a0151",
+      "nonSeoAfterSha256": "7c1c2a201a98599981ca9f7cbdf15f1881a2e075bea7fc861f54177d0a4a0151"
+    },
+    {
+      "supplier": "penta",
+      "items": 431,
+      "sha256": "a391c018331d023843fcca5ee4dd2525009e1eff61a6b39937f444fc7890ec61",
+      "inactiveSha256": "a391c018331d023843fcca5ee4dd2525009e1eff61a6b39937f444fc7890ec61",
+      "previewProducts": 0,
+      "nonSeoBeforeSha256": "5c1f2fb7633a963b215bcca4b74dd904a629bd0c4669b521a1f0e7e22ed191d1",
+      "nonSeoAfterSha256": "5c1f2fb7633a963b215bcca4b74dd904a629bd0c4669b521a1f0e7e22ed191d1"
+    },
+    {
+      "supplier": "solight",
+      "items": 1286,
+      "sha256": "61542b1e7831c101a5e1c7865c7b8933f31d7ff68aeed98d9ee73b4cf0af1564",
+      "inactiveSha256": "61542b1e7831c101a5e1c7865c7b8933f31d7ff68aeed98d9ee73b4cf0af1564",
+      "previewProducts": 1,
+      "nonSeoBeforeSha256": "c2631534a70e98e505b0be8cc305fcdf39a2ec1c6377ea1e82ac31fc0a95e82c",
+      "nonSeoAfterSha256": "c2631534a70e98e505b0be8cc305fcdf39a2ec1c6377ea1e82ac31fc0a95e82c"
+    },
+    {
+      "supplier": "wiim",
+      "items": 29,
+      "sha256": "5bae9d9cbf6bd336a102a282d48df11cebe9a89ff5fa233b2af32b4ba7071e83",
+      "inactiveSha256": "5bae9d9cbf6bd336a102a282d48df11cebe9a89ff5fa233b2af32b4ba7071e83",
+      "previewProducts": 0,
+      "nonSeoBeforeSha256": "78e6278e17201f36402d886ba94cb5539607d92ec318b8011de8576639c5ab55",
+      "nonSeoAfterSha256": "78e6278e17201f36402d886ba94cb5539607d92ec318b8011de8576639c5ab55"
+    }
+  ],
+  "previews": [
+    {
+      "supplier": "innpro",
+      "code": "088850",
+      "before": {
+        "seoTitle": "Mini PC GMKtec EVO-X2 Ryzen AI Max+ 395 s 64 GB… | premiumstore.sk",
+        "metaDescription": "Mini PC GMKtec EVO-X2 Ryzen AI Max+ 395 s 64 GB RAM, 1 TB SSD a Windows 11 Pro – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "GMKtec EVO-X2 64 GB / 1 TB, Ryzen AI Max+ 395",
+        "metaDescription": "Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Overte si parametre a aktuálnu dostupnosť."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "088002",
+      "before": {
+        "seoTitle": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 pre… | premiumstore.sk",
+        "metaDescription": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 pre CarPlay/Android Auto – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Carlinkit Mini Ultra 5 – bezdrôtové CarPlay / Android Auto",
+        "metaDescription": "Adaptér Carlinkit Mini Ultra 5 pre bezdrôtové CarPlay a Android Auto. Overte si kompatibilitu s vozidlom a aktuálnu dostupnosť."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "083984",
+      "before": {
+        "seoTitle": "Flytec V803-GPS 5200mAh loď na návnadu | premiumstore.sk",
+        "metaDescription": "Flytec V803-GPS 5200mAh loď na návnadu – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Flytec V803-GPS 5200 mAh – loď na návnadu",
+        "metaDescription": "Loď na návnadu Flytec V803-GPS s kapacitou batérie 5200 mAh. Overte si parametre, obsah balenia a aktuálnu dostupnosť."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "087844",
+      "before": {
+        "seoTitle": "Bezdrôtový adaptér Ottocast OTTOAIBOX P3 Pro pre… | premiumstore.sk",
+        "metaDescription": "Bezdrôtový adaptér Ottocast OTTOAIBOX P3 Pro pre Android – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Ottocast OttoAibox P3 Pro pre Android | PremiumStore.sk",
+        "metaDescription": "Bezdrôtový adaptér Ottocast OttoAibox P3 Pro pre Android. Pred nákupom si overte kompatibilitu s vozidlom a obsah balenia."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "088348",
+      "before": {
+        "seoTitle": "MINIS FORUM X1 Pro-370 Ryzen AI 9 HX370 Mini PC v… | premiumstore.sk",
+        "metaDescription": "MINIS FORUM X1 Pro-370 Ryzen AI 9 HX370 Mini PC v základnej zostave – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "MINIS FORUM X1 Pro-370 – Ryzen AI 9 HX370 Mini PC",
+        "metaDescription": "MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, parametre a aktuálnu dostupnosť."
+      }
+    },
+    {
+      "supplier": "kb",
+      "code": "100002204353",
+      "before": {
+        "seoTitle": "POCO F9 PRO 12/256GB Black | premiumstore.sk",
+        "metaDescription": "POCO F9 PRO 12/256GB Black – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "POCO F9 Pro 12/256 GB Black | PremiumStore.sk",
+        "metaDescription": "POCO F9 Pro v čiernej farbe s 12 GB RAM a 256 GB úložiskom. Pozrite si parametre, cenu a aktuálnu dostupnosť na PremiumStore.sk."
+      }
+    },
+    {
+      "supplier": "kb",
+      "code": "100002204355",
+      "before": {
+        "seoTitle": "POCO F9 Ultra 12/256GB Black | premiumstore.sk",
+        "metaDescription": "POCO F9 Ultra 12/256GB Black – 3-5 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "POCO F9 Ultra 12/256 GB Black | PremiumStore.sk",
+        "metaDescription": "POCO F9 Ultra v čiernej farbe s 12 GB RAM a 256 GB úložiskom. Pozrite si parametre, cenu a aktuálnu dostupnosť na PremiumStore.sk."
+      }
+    },
+    {
+      "supplier": "kb",
+      "code": "100002201158",
+      "before": {
+        "seoTitle": "Beko B3BCNA324HS | premiumstore.sk",
+        "metaDescription": "Beko B3BCNA324HS – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Beko B3BCNA324HS | Parametre a dostupnosť",
+        "metaDescription": "Beko B3BCNA324HS na PremiumStore.sk. Pozrite si rozmery, technické parametre, aktuálnu cenu a dostupnosť pred objednaním."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "STRONGLIFT SL500X",
+      "before": {
+        "seoTitle": "Stojan pro tepelné čerpadlo klimatizace STRONGLIFT… | premiumstore.sk",
+        "metaDescription": "Stojan pro tepelné čerpadlo klimatizace STRONGLIFT SL500X INOX od Ostatní – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Stronglift SL500X INOX – stojan pre tepelné čerpadlo",
+        "metaDescription": "Stojan Stronglift SL500X INOX pre tepelné čerpadlo alebo klimatizáciu. Pozrite si rozmery, parametre a aktuálnu dostupnosť."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-06530200",
+      "before": {
+        "seoTitle": "Trafopájka AKU SOLDINGER PC-100 kompatibilní s… | premiumstore.sk",
+        "metaDescription": "Trafopájka AKU SOLDINGER PC-100 kompatibilní s akumulátory typu DeWalt – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "SOLDINGER PC-100 – aku trafospájkovačka pre DeWalt",
+        "metaDescription": "Aku trafospájkovačka SOLDINGER PC-100 kompatibilná s akumulátormi typu DeWalt. Overte si parametre, obsah balenia a dostupnosť."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "MMCHB4KV2",
+      "before": {
+        "seoTitle": "Homatics Box 4K V2 AI-SR Google TV - UHD… | premiumstore.sk",
+        "metaDescription": "Homatics Box 4K V2 AI-SR Google TV - UHD multimediální přehrávač – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Homatics Box 4K V2 AI-SR – Google TV prehrávač",
+        "metaDescription": "Homatics Box 4K V2 AI-SR s Google TV na prehrávanie multimédií v UHD. Pozrite si parametre, pripojenia a aktuálnu dostupnosť."
+      }
+    },
+    {
+      "supplier": "solight",
+      "code": "DSP-DYHS01QJS",
+      "before": {
+        "seoTitle": "Solight kefka na čistenie filtra pre Dyson Airwrap | premiumstore.sk",
+        "metaDescription": "Solight kefka na čistenie filtra pre Dyson Airwrap – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Solight kefka na filter Dyson Airwrap | PremiumStore.sk",
+        "metaDescription": "Kefka Solight na čistenie filtra pre Dyson Airwrap. Pozrite si informácie o príslušenstve, aktuálnu cenu a dostupnosť."
+      }
+    }
+  ]
+}

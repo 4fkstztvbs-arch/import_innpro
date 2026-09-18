@@ -1,0 +1,405 @@
+{
+  "sourceMainCommit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+  "suppliers": [
+    {
+      "supplier": "innpro",
+      "transform": "scripts/transform-innpro.js",
+      "transformSha256": "4de4095c6d18924bdd2bb948a8acd19c68b2c247610282dc002267ea4900be4b",
+      "sourceEnvVariables": [
+        "INNPRO_EXCLUDE_UNAVAILABLE",
+        "INNPRO_FULL_URL",
+        "INNPRO_LIGHT_URL",
+        "INNPRO_MARKUP",
+        "INNPRO_MAX_IMAGES",
+        "INNPRO_MIN_COST",
+        "INNPRO_OUT",
+        "INNPRO_OUT_OF_STOCK_TEXT",
+        "INNPRO_STORE_NAME"
+      ],
+      "workflow": ".github/workflows/innpro-sync.yml",
+      "cronUTC": [
+        "0 4,10,16,22 * * *"
+      ],
+      "orderedScripts": [
+        "scripts/transform-innpro.js",
+        "scripts/dedupe-cross-supplier.js",
+        "scripts/collapse-duplicate-categories.js",
+        "scripts/fix-ignored-categories.js",
+        "scripts/apply-product-category-corrections.js",
+        "scripts/collapse-thin-categories.js",
+        "scripts/enforce-tree-categories.js",
+        "scripts/hide-uncategorised-products.js",
+        "scripts/hide-below-cost-products.js",
+        "scripts/apply-approved-categories.js",
+        "scripts/add-category-links.js",
+        "scripts/check-category-links.js",
+        "scripts/check-feed-size.js",
+        "scripts/apply-seo-overrides.js"
+      ],
+      "out": "output/innpro.xml",
+      "outEnv": "INNPRO_OUT",
+      "shoptetFeedUrl": "https://4fkstztvbs-arch.github.io/import_innpro/output/innpro.xml",
+      "shoptetPrefix": "",
+      "shoptetAdminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=18",
+      "shoptetFullImportTimeAsDisplayed": "03:05",
+      "shoptetMissingProductAction": "zmazať produkt",
+      "snapshot": {
+        "supplier": "innpro",
+        "out": "output/innpro.xml",
+        "commit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+        "sha256": "76fb93c15a5b24ab55d739a6c63d16fc277c48b2c0ff010ca8b72addc249a4ae",
+        "items": 5520
+      },
+      "notes": "Exact feed URL/prefix verified read-only in Shoptet on 2026-09-18."
+    },
+    {
+      "supplier": "kb",
+      "transform": "scripts/transform-kb.js",
+      "transformSha256": "8f19b179ee2854eeebc58de9869ac9e5a5e4d546016d4ab887342fcaa8aff958",
+      "sourceEnvVariables": [
+        "KB_CENY_URL",
+        "KB_CHECK_ENERGY_LABELS",
+        "KB_DISABLE_DESCRIPTION_ENRICHMENT",
+        "KB_DOSTUPNOSTI_URL",
+        "KB_EXCLUDE_UNAVAILABLE",
+        "KB_INCLUDE_NO_CATEGORY",
+        "KB_KATEGORIE_URL",
+        "KB_KATEGORIZACIA_URL",
+        "KB_MARKUP",
+        "KB_MIN_COST",
+        "KB_MIN_MARGIN",
+        "KB_OUT",
+        "KB_STORE_NAME",
+        "KB_ZBOZI_URL"
+      ],
+      "workflow": ".github/workflows/kb-sync.yml",
+      "cronUTC": [
+        "30 22 * * *"
+      ],
+      "orderedScripts": [
+        "scripts/transform-kb.js",
+        "scripts/enrich-kb-icecat.js",
+        "scripts/dedupe-cross-supplier.js",
+        "scripts/collapse-duplicate-categories.js",
+        "scripts/fix-ignored-categories.js",
+        "scripts/apply-product-category-corrections.js",
+        "scripts/collapse-thin-categories.js",
+        "scripts/enforce-tree-categories.js",
+        "scripts/hide-uncategorised-products.js",
+        "scripts/hide-below-cost-products.js",
+        "scripts/refresh-stale-generic-intros.js",
+        "scripts/apply-approved-categories.js",
+        "scripts/add-category-links.js",
+        "scripts/check-category-links.js",
+        "scripts/check-feed-size.js",
+        "scripts/apply-seo-overrides.js"
+      ],
+      "out": "output/kb.xml",
+      "outEnv": "KB_OUT",
+      "shoptetFeedUrl": "https://4fkstztvbs-arch.github.io/import_innpro/output/kb.xml",
+      "shoptetPrefix": "kb_",
+      "shoptetAdminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=24",
+      "shoptetFullImportTimeAsDisplayed": "00:05",
+      "shoptetMissingProductAction": "zmazať produkt",
+      "snapshot": {
+        "supplier": "kb",
+        "out": "output/kb.xml",
+        "commit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+        "sha256": "3e81799aeef6bb865801ab01a766ee2fd91abe175de5786639842131780c6710",
+        "items": 5056
+      },
+      "notes": "Exact feed URL/prefix verified read-only in Shoptet on 2026-09-18."
+    },
+    {
+      "supplier": "atos",
+      "transform": "scripts/transform-atos.js",
+      "transformSha256": "39aca3bb016a9f25aa6a23b52588233d6c33d6a14c30000fa70234ab39acdd7b",
+      "sourceEnvVariables": [
+        "ATOS_EXCLUDE_UNAVAILABLE",
+        "ATOS_IMAGE_PROXY_BASE",
+        "ATOS_MARKUP",
+        "ATOS_MIN_COST",
+        "ATOS_OUT",
+        "ATOS_PASSWORD",
+        "ATOS_STORE_NAME",
+        "ATOS_URL",
+        "ATOS_USERNAME"
+      ],
+      "workflow": ".github/workflows/atos-sync.yml",
+      "cronUTC": [
+        "10 22 * * *"
+      ],
+      "orderedScripts": [
+        "scripts/fetch-atos-images.js",
+        "scripts/transform-atos.js",
+        "scripts/enrich-shoptet-icecat.js",
+        "scripts/dedupe-cross-supplier.js",
+        "scripts/collapse-duplicate-categories.js",
+        "scripts/fix-ignored-categories.js",
+        "scripts/apply-product-category-corrections.js",
+        "scripts/collapse-thin-categories.js",
+        "scripts/enforce-tree-categories.js",
+        "scripts/hide-uncategorised-products.js",
+        "scripts/hide-below-cost-products.js",
+        "scripts/apply-approved-categories.js",
+        "scripts/add-category-links.js",
+        "scripts/check-category-links.js",
+        "scripts/check-feed-size.js",
+        "scripts/apply-seo-overrides.js"
+      ],
+      "out": "output/atos.xml",
+      "outEnv": "ATOS_OUT",
+      "shoptetFeedUrl": "https://4fkstztvbs-arch.github.io/import_innpro/output/atos.xml",
+      "shoptetPrefix": "at_",
+      "shoptetAdminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=12",
+      "shoptetFullImportTimeAsDisplayed": "04:05",
+      "shoptetMissingProductAction": "zmazať produkt",
+      "snapshot": {
+        "supplier": "atos",
+        "out": "output/atos.xml",
+        "commit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+        "sha256": "657ac805f0c3016545477e07ead703e7b0d840cd1e01c43865d93ebff3ea3e1b",
+        "items": 11958
+      },
+      "notes": "Exact feed URL/prefix verified read-only in Shoptet on 2026-09-18."
+    },
+    {
+      "supplier": "basys",
+      "transform": "scripts/transform-basys.js",
+      "transformSha256": "39ab49188813b5b7ac182a0d811ceed723ed9d98e889ad2caafee92c6dc6a298",
+      "sourceEnvVariables": [
+        "BASYS_CLOUD_IMAGES",
+        "BASYS_EXCLUDE_UNAVAILABLE",
+        "BASYS_LOCAL_FILE",
+        "BASYS_MIN_PROMO_MARGIN",
+        "BASYS_OUT",
+        "BASYS_PRICELIST",
+        "BASYS_STORE_NAME",
+        "BASYS_URL",
+        "BASYS_VAT"
+      ],
+      "workflow": ".github/workflows/basys-sync.yml",
+      "cronUTC": [
+        "0 23 * * *"
+      ],
+      "orderedScripts": [
+        "scripts/transform-basys.js",
+        "scripts/collapse-duplicate-categories.js",
+        "scripts/fix-ignored-categories.js",
+        "scripts/apply-product-category-corrections.js",
+        "scripts/collapse-thin-categories.js",
+        "scripts/enforce-tree-categories.js",
+        "scripts/hide-uncategorised-products.js",
+        "scripts/hide-below-cost-products.js",
+        "scripts/apply-approved-categories.js",
+        "scripts/add-category-links.js",
+        "scripts/check-category-links.js",
+        "scripts/check-feed-size.js",
+        "scripts/apply-seo-overrides.js"
+      ],
+      "out": "output/basys.xml",
+      "outEnv": "BASYS_OUT",
+      "shoptetFeedUrl": "https://4fkstztvbs-arch.github.io/import_innpro/output/basys.xml",
+      "shoptetPrefix": "bas_",
+      "shoptetAdminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=27",
+      "shoptetFullImportTimeAsDisplayed": "02:05",
+      "shoptetMissingProductAction": "zmazať produkt",
+      "snapshot": {
+        "supplier": "basys",
+        "out": "output/basys.xml",
+        "commit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+        "sha256": "12d348dc5f80593ea8811cb7ddfd319b46f9048985e45f8bc1b3f17f71e41535",
+        "items": 917
+      },
+      "notes": "Exact feed URL/prefix verified read-only in Shoptet on 2026-09-18."
+    },
+    {
+      "supplier": "monacor",
+      "transform": "scripts/transform-monacor.js",
+      "transformSha256": "eba5645d94693ed43022364391f68d9e50088636561a82b6610a05234e26ec0b",
+      "sourceEnvVariables": [
+        "MONACOR_EXCLUDE_UNAVAILABLE",
+        "MONACOR_FOREIGN_AVAIL_TEXT",
+        "MONACOR_MARKUP",
+        "MONACOR_MIN_COST",
+        "MONACOR_OUT",
+        "MONACOR_ROOT_CATEGORY",
+        "MONACOR_STORE_NAME",
+        "MONACOR_URL",
+        "MONACOR_VAT"
+      ],
+      "workflow": ".github/workflows/monacor-sync.yml",
+      "cronUTC": [
+        "40 22 * * *"
+      ],
+      "orderedScripts": [
+        "scripts/transform-monacor.js",
+        "scripts/dedupe-cross-supplier.js",
+        "scripts/collapse-duplicate-categories.js",
+        "scripts/fix-ignored-categories.js",
+        "scripts/apply-product-category-corrections.js",
+        "scripts/collapse-thin-categories.js",
+        "scripts/enforce-tree-categories.js",
+        "scripts/hide-uncategorised-products.js",
+        "scripts/hide-below-cost-products.js",
+        "scripts/apply-approved-categories.js",
+        "scripts/add-category-links.js",
+        "scripts/check-category-links.js",
+        "scripts/check-feed-size.js",
+        "scripts/apply-seo-overrides.js"
+      ],
+      "out": "output/monacor.xml",
+      "outEnv": "MONACOR_OUT",
+      "shoptetFeedUrl": "https://4fkstztvbs-arch.github.io/import_innpro/output/monacor.xml",
+      "shoptetPrefix": "mon_",
+      "shoptetAdminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=21",
+      "shoptetFullImportTimeAsDisplayed": "01:05",
+      "shoptetMissingProductAction": "zmazať produkt",
+      "snapshot": {
+        "supplier": "monacor",
+        "out": "output/monacor.xml",
+        "commit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+        "sha256": "8f2a188417021a37b7c97117a6dbd365c9eca6754702417e5db9c224a537b15d",
+        "items": 1820
+      },
+      "notes": "Exact feed URL/prefix verified read-only in Shoptet on 2026-09-18."
+    },
+    {
+      "supplier": "penta",
+      "transform": "scripts/transform-penta.js",
+      "transformSha256": "60bcc50ed1465ee308deb62b7818776d335dcf9e0c05c41c32615a9911cb937c",
+      "sourceEnvVariables": [
+        "PENTA_MIN_COST",
+        "PENTA_MIN_PRICE",
+        "PENTA_ONLY_MAPPED_CATEGORIES",
+        "PENTA_OUT",
+        "PENTA_PASSWORD",
+        "PENTA_STORE_NAME",
+        "PENTA_URL",
+        "PENTA_USERNAME",
+        "PENTA_VISIBILITY"
+      ],
+      "workflow": ".github/workflows/penta-sync.yml",
+      "cronUTC": [
+        "20 22 * * *"
+      ],
+      "orderedScripts": [
+        "scripts/transform-penta.js",
+        "scripts/dedupe-cross-supplier.js",
+        "scripts/collapse-duplicate-categories.js",
+        "scripts/fix-ignored-categories.js",
+        "scripts/apply-product-category-corrections.js",
+        "scripts/collapse-thin-categories.js",
+        "scripts/enforce-tree-categories.js",
+        "scripts/hide-uncategorised-products.js",
+        "scripts/hide-below-cost-products.js",
+        "scripts/apply-approved-categories.js",
+        "scripts/add-category-links.js",
+        "scripts/check-category-links.js",
+        "scripts/check-feed-size.js",
+        "scripts/apply-seo-overrides.js"
+      ],
+      "out": "output/penta.xml",
+      "outEnv": "PENTA_OUT",
+      "shoptetFeedUrl": "https://4fkstztvbs-arch.github.io/import_innpro/output/penta.xml",
+      "shoptetPrefix": "pen_",
+      "shoptetAdminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=30",
+      "shoptetFullImportTimeAsDisplayed": "06:05",
+      "shoptetMissingProductAction": "nechať nezmenenné",
+      "snapshot": {
+        "supplier": "penta",
+        "out": "output/penta.xml",
+        "commit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+        "sha256": "a391c018331d023843fcca5ee4dd2525009e1eff61a6b39937f444fc7890ec61",
+        "items": 431
+      },
+      "notes": "Exact feed URL/prefix verified read-only in Shoptet on 2026-09-18."
+    },
+    {
+      "supplier": "solight",
+      "transform": "scripts/transform-solight.js",
+      "transformSha256": "bd2b2e946dfaa9ba7521f035beafc632533d808d744806c11b26222f7c45c206",
+      "sourceEnvVariables": [
+        "SOLIGHT_EXCLUDE_UNAVAILABLE",
+        "SOLIGHT_IMAGE_PROXY_BASE",
+        "SOLIGHT_MARKUP",
+        "SOLIGHT_MAX_IMAGES",
+        "SOLIGHT_MIN_COST",
+        "SOLIGHT_OUT",
+        "SOLIGHT_OUT_OF_STOCK_TEXT",
+        "SOLIGHT_STORE_NAME",
+        "SOLIGHT_URL",
+        "SOLIGHT_VAT"
+      ],
+      "workflow": ".github/workflows/solight-sync.yml",
+      "cronUTC": [
+        "50 22 * * *"
+      ],
+      "orderedScripts": [
+        "scripts/transform-solight.js",
+        "scripts/dedupe-cross-supplier.js",
+        "scripts/collapse-duplicate-categories.js",
+        "scripts/fix-ignored-categories.js",
+        "scripts/apply-product-category-corrections.js",
+        "scripts/collapse-thin-categories.js",
+        "scripts/enforce-tree-categories.js",
+        "scripts/hide-uncategorised-products.js",
+        "scripts/hide-below-cost-products.js",
+        "scripts/apply-approved-categories.js",
+        "scripts/add-category-links.js",
+        "scripts/check-category-links.js",
+        "scripts/check-feed-size.js",
+        "scripts/apply-seo-overrides.js"
+      ],
+      "out": "output/solight.xml",
+      "outEnv": "SOLIGHT_OUT",
+      "shoptetFeedUrl": "https://4fkstztvbs-arch.github.io/import_innpro/output/solight.xml",
+      "shoptetPrefix": "sol_",
+      "shoptetAdminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=15",
+      "shoptetFullImportTimeAsDisplayed": "05:05",
+      "shoptetMissingProductAction": "zmazať produkt",
+      "snapshot": {
+        "supplier": "solight",
+        "out": "output/solight.xml",
+        "commit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+        "sha256": "61542b1e7831c101a5e1c7865c7b8933f31d7ff68aeed98d9ee73b4cf0af1564",
+        "items": 1286
+      },
+      "notes": "Exact feed URL/prefix verified read-only in Shoptet on 2026-09-18."
+    },
+    {
+      "supplier": "wiim",
+      "transform": "scripts/transform-wiim.js",
+      "transformSha256": "ff9a73d63ac7d5fcb1d48deddee40a5a6fb73b4f6059cb4934d13575428d4b53",
+      "sourceEnvVariables": [
+        "WIIM_MARKUP",
+        "WIIM_OUT",
+        "WIIM_PDF",
+        "WIIM_STORE_NAME"
+      ],
+      "workflow": null,
+      "cronUTC": [],
+      "orderedScripts": [],
+      "out": "output/wiim.xml",
+      "outEnv": "WIIM_OUT",
+      "shoptetFeedUrl": null,
+      "shoptetPrefix": null,
+      "shoptetAdminUrl": null,
+      "shoptetFullImportTimeAsDisplayed": null,
+      "shoptetMissingProductAction": null,
+      "snapshot": {
+        "supplier": "wiim",
+        "out": "output/wiim.xml",
+        "commit": "b6df3573e61768aa9f5a193885b43efcade1b529",
+        "sha256": "5bae9d9cbf6bd336a102a282d48df11cebe9a89ff5fa233b2af32b4ba7071e83",
+        "items": 29
+      },
+      "notes": "No WiiM sync workflow exists at audited commit; README mentions workflow_dispatch but repository contains only image proxy deployment. No WiiM automatic import is configured in Shoptet. Manual transform from PDF, then finalizer."
+    }
+  ],
+  "otherOutputWriters": [
+    ".github/workflows/heureka-price-report.yml",
+    ".github/workflows/product-category-corrections.yml"
+  ],
+  "scope": "All eight product feed transforms and all nine automated OUT-writing workflows inspected."
+}
