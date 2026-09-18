@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-18 08:37 UTC.
+Kontrola z 2026-09-18 13:59 UTC.
 
-InnPro pri **413** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **415** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -31,6 +31,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `024662` | Inteligentný spínač WiFi Gosund SW3, Tuya | — | 5 |
 | `025657` | Čelovka Superfire HL51 – 160 lm, micro-USB, 4 režimy, 300 m | — | 5 |
 | `024942` | Baseus Simple Wisdom Súprava dátového kábla USB na Lightning | — | 5 |
+| `025066` | Rýchlonabíjačka Baseus Super Si 1C 20W (biela) | — | 5 |
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | — | 5 |
 | `026131` | Základňa snímača pohybu Sonoff (PIR3, SNZB-03) | — | 5 |
 | `025440` | Sada dátových káblov Baseus Simple Wisdom USB to Micro 2.1A  | — | 5 |
@@ -279,6 +280,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `082320` | PULUZ Silikónové nabíjacie puzdro Ochranný kryt pre DJI Mic  | — | 5 |
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
+| `082639` | Silikónové ochranné puzdro Puluz pre Insta360 Go Ultra (čier | — | 5 |
 | `082641` | Sada tvrdeného skla Puluz pre DJI Osmo Action 6 (3 ks). | — | 5 |
 | `082642` | Tvrdené sklo Puluz pre Insta360 X4 Air | — | 5 |
 | `082686` | Súprava na určovanie veľkosti krúžkov RingConn | — | 5 |

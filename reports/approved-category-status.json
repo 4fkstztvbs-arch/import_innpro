@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27017,
-  "matchedRules": 2716,
-  "changedProducts": 657,
+  "totalProducts": 27019,
+  "matchedRules": 2711,
+  "changedProducts": 1281,
   "rejected": [],
   "categories": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
-      "visibleUnique": 143,
+      "visibleUnique": 142,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -115,7 +115,7 @@
     },
     {
       "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače",
-      "visibleUnique": 53,
+      "visibleUnique": 52,
       "active": true,
       "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
     },
@@ -385,7 +385,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Popruhy a postroje pre kamery",
-      "visibleUnique": 13,
+      "visibleUnique": 12,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
