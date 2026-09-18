@@ -17166,6 +17166,54 @@
       "rule": "audio-accessories",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:wiim:29"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-M99C-EpB",
+      "ean": "",
+      "name": "MEZE AUDIO 99 Series Earpads",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike",
+      "rule": "reviewed-meze-accessory",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:basys:580"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-M99C-hbB",
+      "ean": "",
+      "name": "MEZE AUDIO 99 Series kožená opierka hlavy",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike",
+      "rule": "reviewed-meze-accessory",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:basys:852"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-M99C-cpB",
+      "ean": "",
+      "name": "MEZE AUDIO ochranný vak na káble",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike",
+      "rule": "reviewed-meze-accessory",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:basys:850"
     }
   ]
 }
