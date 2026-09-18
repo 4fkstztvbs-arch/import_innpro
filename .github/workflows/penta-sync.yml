@@ -74,6 +74,9 @@ jobs:
       - name: Approved category tree and visible 8-product minimum
         run: node scripts/apply-approved-categories.js --write
 
+      - name: Vianočné zaradenie, parametre a rozcestníky
+        run: node scripts/apply-christmas-products.js --write
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js
 

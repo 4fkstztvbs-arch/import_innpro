@@ -1,0 +1,43 @@
+name: Christmas lighting product links
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/christmas-products.json
+      - scripts/apply-christmas-products.js
+      - scripts/register-christmas-category.js
+      - .github/workflows/christmas-products.yml
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: christmas-products
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Preserve reviewed Christmas category and product links
+        run: |
+          set -euo pipefail
+          git config user.name 'christmas-products-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/register-christmas-category.js
+            node --test scripts/test-christmas-products.js
+            node scripts/apply-christmas-products.js --write
+            node scripts/add-category-links.js
+            node scripts/check-category-links.js
+            git add data/known-categories.json data/category-urls.json data/approved-category-migration.json output/*.xml reports/christmas-products-status.json
+            if git diff --staged --quiet; then exit 0; fi
+            git commit -m 'Preserve Christmas lighting categories, filters and product links'
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          exit 1

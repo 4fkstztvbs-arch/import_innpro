@@ -39,6 +39,7 @@ jobs:
             node scripts/apply-product-category-corrections.js --write
             node scripts/collapse-thin-categories.js
             node scripts/enforce-tree-categories.js
+            node scripts/apply-christmas-products.js --write
             node scripts/add-category-links.js
             node scripts/check-category-links.js
             node scripts/apply-seo-overrides.js --write
