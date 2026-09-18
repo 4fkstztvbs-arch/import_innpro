@@ -10,6 +10,10 @@ function applyProductContent(supplier, product) {
     if (typeof override[key] !== 'string' || !override[key].trim()) throw new Error(`Empty content override: ${key}`);
     result[key] = override[key];
   }
+  if (override.images) {
+    if (!Array.isArray(override.images) || !override.images.length || override.images.some(x => !/^https:\/\/www\.premiumstore\.sk\/user\/documents\/upload\/[^<>"&]+$/.test(x))) throw new Error(`Invalid image override: ${product.code}`);
+    result.images = [...override.images];
+  }
   return result;
 }
 function applyFeedContent(xml, supplier) {
@@ -26,6 +30,10 @@ function applyFeedContent(xml, supplier) {
       if ((item.match(re)||[]).length !== 1) throw new Error(`Expected one ${tag}: ${code}`);
       const value = product[key].replace(/\]\]>/g, ']]]]><![CDATA[>');
       item = item.replace(re, () => `<${tag}><![CDATA[${value}]]></${tag}>`);
+    }
+    if (product.images) {
+      if ((item.match(/<IMAGES>/g)||[]).length !== 1) throw new Error(`Expected one IMAGES: ${code}`);
+      item = item.replace(/<IMAGES>[\s\S]*?<\/IMAGES>/, () => '<IMAGES>\n' + product.images.map((url, i) => `  <IMAGE description="Bose QuietComfort SC čierne - obrázok ${i+1}">${url}</IMAGE>`).join('\n') + '\n</IMAGES>');
     }
     return item;
   });

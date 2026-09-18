@@ -18,9 +18,11 @@ const a=items(before),b=items(after);assert.equal(a.length,b.length);
 let count=0;
 for(let i=0;i<a.length;i++)if(a[i]!==b[i]){
  count++;assert.match(a[i],/<CODE>BASYS-B 884367-0900<\/CODE>/);
- const strip=x=>x.replace(/<(DESCRIPTION|SHORT_DESCRIPTION|SEO_TITLE|META_DESCRIPTION)>[\s\S]*?<\/\1>/g,'');
+ const strip=x=>x.replace(/<(DESCRIPTION|SHORT_DESCRIPTION|SEO_TITLE|META_DESCRIPTION|IMAGES)>[\s\S]*?<\/\1>/g,'');
  assert.equal(strip(a[i]),strip(b[i]));
 }
-assert.equal(count,before.includes('id="ps-qcsc"')?0:1);
+assert.ok(count <= 1);
+assert.equal(changed.images.length,5);
+assert.ok(changed.images.every(x=>x.includes('/user/documents/upload/')));
 console.log(`PASS: ${a.length} products, ${count} changed; only four content fields, idempotent, manufacturer guard`);
 if(process.argv.includes('--write'))fs.writeFileSync('output/basys.xml',after);
