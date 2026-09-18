@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "enabled": false,
+  "enabled": true,
   "date": "2026-09-18",
   "minimum": 8,
   "suppliers": [
@@ -33881,5 +33881,5 @@
       "ean": "5411397176738"
     }
   ],
-  "activationNote": "Verify uploaded categories and actual URLs first; publish staged known-categories, category-urls and category maps in the same commit as enabled=true. Do not hide old default categories before live product verification."
+  "activationNote": "Activated after verifying all 72 new category paths, visibility and 105 SEO records against the uploaded Shoptet export."
 }

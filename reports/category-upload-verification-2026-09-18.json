@@ -1,0 +1,66 @@
+{
+  "rows": 555,
+  "expectedNew": 72,
+  "newPresent": 72,
+  "missingPaths": [],
+  "unexpectedPaths": [],
+  "hiddenNew": [],
+  "differences": [],
+  "oldIdsChanged": [],
+  "seoRecordsCompared": 105,
+  "newCategoriesVisible": 72,
+  "existingCategories": 483,
+  "retirementPending": 101,
+  "comparedFields": [
+    "parentUrl",
+    "parentId (existujúce)",
+    "title",
+    "linkText",
+    "url",
+    "visible",
+    "priority",
+    "access",
+    "expandInMenu",
+    "topDescription",
+    "bottomDescription",
+    "metaTitle",
+    "metaDescription"
+  ],
+  "sourceExportSha256": "f2af755a58466f9a6912301a1e620babe023c6a079c3d889d16e718e9f9d12ed",
+  "feedValidation": {
+    "sourceCommit": "5197d816983f29c3e14b2a1c0e068752cc6d1ad1",
+    "products": 26975,
+    "matchedRules": 2721,
+    "changedProducts": 2706,
+    "activeNewCategories": 72,
+    "unitTestsPassed": 16,
+    "protectedProductFieldsPreserved": true,
+    "categoryLinksChecked": true,
+    "steps": [
+      {
+        "step": "apply-product-category-corrections.js --write",
+        "status": 0
+      },
+      {
+        "step": "collapse-thin-categories.js",
+        "status": 0
+      },
+      {
+        "step": "enforce-tree-categories.js",
+        "status": 0
+      },
+      {
+        "step": "apply-approved-categories.js --write",
+        "status": 0
+      },
+      {
+        "step": "add-category-links.js",
+        "status": 0
+      },
+      {
+        "step": "check-category-links.js",
+        "status": 0
+      }
+    ]
+  }
+}
