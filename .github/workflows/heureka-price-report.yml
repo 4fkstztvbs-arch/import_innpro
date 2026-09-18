@@ -1,6 +1,19 @@
 name: Heureka price report
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/heureka-reports/*.[cC][sS][vV]'
+      - 'scripts/heureka-pricing.js'
+      - 'scripts/heureka-pricing-policy.json'
+      - 'scripts/compare-heureka-prices.js'
+      - 'scripts/process-heureka-report.js'
+      - 'scripts/heureka-price-targets.js'
+      - 'scripts/apply-price-targets.js'
+      - 'scripts/round-price.js'
+      - 'scripts/tests/heureka-pricing.test.js'
+      - '.github/workflows/heureka-price-report.yml'
   schedule:
     - cron: '0 22 * * *' # 22:00 UTC (00:00 SK) daily — first in the tight night batch, before ATOS at 22:10 UTC
   workflow_dispatch: {}
@@ -14,11 +27,13 @@ concurrency:
 
 jobs:
   process:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
@@ -26,6 +41,9 @@ jobs:
 
       - name: Install dependencies
         run: npm install --omit=dev
+
+      - name: Verify Heureka pricing rules
+        run: node --test scripts/tests/heureka-pricing.test.js
 
       - name: Process Heureka report if a newer one was uploaded
         run: node scripts/process-heureka-report.js
@@ -44,6 +62,9 @@ jobs:
 
       - name: Poistka proti useknutému feedu
         run: node scripts/check-feed-size.js
+
+      - name: Apply supplier-aware CTR SEO overrides (inactive by default)
+        run: node scripts/apply-seo-overrides.js --write
 
       - name: Commit price targets + report (only if something new was processed)
         shell: bash
@@ -107,7 +128,8 @@ jobs:
                 git checkout --theirs -- "$f"
                 git add "$f"
               done
-              if git rebase --continue; then
+              # CI nemá interaktívny editor; ponechaj pôvodnú správu commitu.
+              if GIT_EDITOR=true git rebase --continue; then
                 git push origin HEAD:main
                 echo "Push succeeded on attempt $i (after auto-resolving regenerated-report conflict)"
                 exit 0

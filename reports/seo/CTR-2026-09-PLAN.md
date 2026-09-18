@@ -1,39 +1,29 @@
 # PremiumStore CTR experiment — CTR-2026-09
 
-Status: **PREPARED_NOT_ACTIVE**
+Status: **PREPARED_NOT_ACTIVE**. Do not merge, deploy or activate without explicit user approval.
 
-## Baseline
-Only post-migration Google Search Console data is valid for this experiment.
+The baseline is exclusively **2026-08-10 through 2026-09-16**, from the date-filtered GSC export. Pre-migration and three-month aggregates are excluded. See `ctr-baseline-evidence.json` for all 20 candidate and 2 control rows, workbook hash and source row numbers.
 
-- from: 2026-08-10
-- to: 2026-09-16
-- migration/new storefront start: 2026-08-10
+## Current implementation
 
-Do not mix pre-2026-08-10 GSC data into the baseline.
+- `data/seo/ctr-test-candidates.json` preserves the original cohort and GSC metrics. `code` is now raw supplier XML CODE; `shoptetCode` stores the separate storefront identity.
+- `data/seo/ctr-test-overrides.json` stores proposed SEO text and supplier-specific mappings. Unresolved mappings block activation of the entire experiment, not merely the unresolved rows.
+- `scripts/apply-seo-overrides.js` is the final OUT processing step in seven supplier workflows and both other automated OUT writers (Heureka pricing and product category corrections).
+- The layer runs **after** deduplication, enrichment and product/category corrections, since those can modify SEO too. Direct manual transforms must be followed by the finalizer before publishing.
+- Match exact supplier + raw CODE, and check EAN when available. Never strip prefixes heuristically, coerce numeric CODEs, fuzzy-match names or replace a variant.
+- Only direct `SEO_TITLE` and `META_DESCRIPTION` elements may change. All other feed content is preserved byte-for-byte.
+- Inactive/paused runs do not write feed files. Controls never receive overrides.
+- Strict preflight rejects missing or ambiguous identities before any write. During an active daily experiment, missing/duplicate/mismatching identities are skipped with an Actions warning so that fresh prices and availability can continue; no stale product is restored.
+- Invalid active registry/XML aborts publication. Atomic replacement is per file; workflows commit only after successful finalization.
 
-## Objective
-Identify repeatable SEO title/meta-description patterns that increase organic clicks at comparable Google positions. The goal is not merely to find individual winning products, but rules that can later be applied safely to a larger part of the 20k+ product catalogue.
+## Activation requirements
 
-## Deployment design
-1. Select 20–30 products with meaningful impressions, preferably average positions 3–15 and underperforming CTR.
-2. Keep a comparable untouched control group.
-3. Resolve every candidate to exact PremiumStore URL + product CODE/EAN before activation.
-4. Store experimental SEO values in `data/seo/ctr-test-overrides.json`.
-5. Match overrides by CODE, never by mutable product name.
-6. Apply overrides after normal SEO generation but before SHOPITEM XML serialization.
-7. Override only SEO_TITLE and META_DESCRIPTION. Price, stock, availability, images, categories and other normal daily-import fields must continue updating.
-8. Log expected/applied/missing override counts on every run.
-9. Treat missing products or duplicate CODEs as warnings/errors; never silently lose an experiment member.
-10. Validate generated XML before deployment and inspect the diff.
+Resolve and verify all 20 original candidates and both controls against current OUT and storefront identity. Address changed/unavailable URLs and verify Shoptet SEO updates for existing cards in a nonproduction environment. Obtain explicit user approval, record its reference, run strict preflight on fresh OUT, and review the resulting SEO-only diff before enabling the registry. Preparation alone grants no production authorization.
 
-## Safety
-The registry is intentionally `PREPARED_NOT_ACTIVE`. Merely merging the registry must not alter production output. Activation requires explicit integration in the transformer plus populated, verified product records.
+Current blockers and complete supplier inventory are in `CTR-2026-09-VALIDATION.md`. A preparation CI pass does **not** mean activation readiness. `node scripts/validate-seo-overrides.js --require-ready` currently exits nonzero as intended.
 
-## Measurement
-For each experimental URL retain baseline clicks, impressions, CTR and average position, plus primary query metrics where available. Evaluate CTR changes only together with position changes. Google may rewrite title links/snippets, so observed SERP output should be checked during evaluation.
+## Measurement and rollback
 
-## Initial controls / references
-Known strong performers from the post-migration GSC export should remain untouched during the first experiment, including POCO F9 Ultra and MOVA V70 Ultra Complete. Do not use Yamaha A-S2200 as a weak-CTR test page without re-checking page-level performance; its page-level CTR was already comparatively strong in the baseline analysis.
+Keep baseline clicks, impressions, CTR and average position tied to the original URL. Evaluate CTR together with position, availability and redirect changes. Do not silently merge MOZA's redirected URL into the baseline. Missing pages are experimental attrition, not zero-CTR observations. The two reference controls are not a randomized matched control group; do not infer causality from them alone.
 
-## Next implementation step
-Populate a verified candidate/control dataset, then add a small `seo-overrides` module and tests. Only after test XML passes should a PR be proposed for production deployment.
+Pause overrides with `PAUSED`; normal SEO generation returns on the next supplier regeneration. An immediate rollback must restore only the previous SEO fields after validating the same identity, never publish an old whole feed with stale price or stock.

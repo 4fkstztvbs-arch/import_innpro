@@ -1,0 +1,19 @@
+{
+  "node": "24.19.0",
+  "sax": "1.6.1",
+  "seoTests": {
+    "passed": 36,
+    "failed": 0
+  },
+  "existingPricingAndCategoryRegressionTests": {
+    "passed": 31,
+    "failed": 0
+  },
+  "workflowYamlParse": "PASS (Ruby YAML parser)",
+  "inactiveWriteInvocation": "PASS: no OUT read/written",
+  "gitOutputDiffAgainstAuditedMain": "EMPTY",
+  "gitDiffCheck": "PASS",
+  "requireReadyExitCode": 1,
+  "requireReadyExitExpected": true,
+  "note": "Local tests use bundled Node 24; GitHub Actions workflow targets Node 20. No live supplier fetch/import was run."
+}

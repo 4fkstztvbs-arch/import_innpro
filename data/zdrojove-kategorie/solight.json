@@ -45,13 +45,13 @@
   "TV, audio, video a foto technika > AV káble": 1
  },
  "Solight > Dezinfekčné lampy > Bezozónové": {
-  "Domáce spotrebiče": 3
+  "Domáce spotrebiče > Klimatizácia a vzduch > Dezinfekčné UV lampy": 3
  },
  "Solight > Dezinfekčné lampy > Ozónové": {
-  "Domáce spotrebiče": 2
+  "Domáce spotrebiče > Klimatizácia a vzduch > Dezinfekčné UV lampy": 2
  },
  "Solight > Dezinfekčné lampy > Príslušenstvo, náhradné diely": {
-  "Domáce spotrebiče": 5
+  "Domáce spotrebiče > Klimatizácia a vzduch > Dezinfekčné UV lampy": 5
  },
  "Solight > Držiaky TV a AV techniky > Fixné držiaky": {
   "TV, audio, video a foto technika > TV stolíky a držiaky": 2
@@ -69,7 +69,7 @@
   "Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál": 5
  },
  "Solight > Elektroinštalačný materiál > 230V > Flexo šnúry": {
-  "Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál": 32
+  "Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál": 30
  },
  "Solight > Elektroinštalačný materiál > 230V > Koncovky": {
   "Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál": 25
@@ -114,13 +114,13 @@
   "Elektro, Smart Home a osvetlenie > Elektromery a spínacia technika": 9
  },
  "Solight > Elektrotovar > Cestovné adaptéry": {
-  "Elektro, Smart Home a osvetlenie > Cestovné adaptéry": 13
+  "Elektro, Smart Home a osvetlenie > Cestovné adaptéry": 12
  },
  "Solight > Elektrotovar > Diaľkovo ovládané zásuvky": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 7
  },
  "Solight > Elektrotovar > Merače spotreby": {
-  "Elektro, Smart Home a osvetlenie": 2
+  "Elektro, Smart Home a osvetlenie > Elektromery a spínacia technika": 2
  },
  "Solight > Elektrotovar > Meteostanice": {
   "Domáce spotrebiče > Meteostanice": 17
@@ -141,7 +141,7 @@
   "Energia a napájanie > Napájacie zdroje": 5
  },
  "Solight > Elektrotovar > Napájanie > USB adaptéry": {
-  "Počítače, mobily a tablety > Nabíjačky pre mobily": 21
+  "Počítače, mobily a tablety > Nabíjačky pre mobily": 30
  },
  "Solight > Elektrotovar > Príslušenstvo pre mobilné telefóny": {
   "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily": 6
@@ -180,10 +180,10 @@
   "Domáce spotrebiče > Klimatizácia a vzduch": 2
  },
  "Solight > Ostatné > Vybavenie domácnosti": {
-  "Domáce spotrebiče": 12
+  "Domáce spotrebiče > Ostatné domáce spotrebiče": 12
  },
  "Solight > Predľžovacie prívody > Jednozásuvkové > Jednozásuvkové  400V": {
-  "Elektro, Smart Home a osvetlenie": 4
+  "Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Priemyselné vidlice a zásuvky": 4
  },
  "Solight > Predľžovacie prívody > Jednozásuvkové > Jednozásuvkové 230V": {
   "Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice": 29
@@ -214,6 +214,9 @@
  },
  "Solight > Ručné AKU naradie > Príslušenstvo": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie": 11
+ },
+ "Solight > Svietiaci program > GU10 bodové osvetlenie": {
+  "(bez pravidla)": 20
  },
  "Solight > Svietiaci program > LED osvetlenie > Interiérové osvetlenie": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie": 56
@@ -246,19 +249,19 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED osvetlenie": 10
  },
  "Solight > Svietiaci program > LED panely a podhľadová svetla > LED podhľadové panely a svetlá": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 36
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED panely a podhľadové svietidlá": 36
  },
  "Solight > Svietiaci program > LED panely a podhľadová svetla > Příslušenstvo": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 6
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED panely a podhľadové svietidlá": 6
  },
- "Solight > Svietiaci program > LED pásky > LED pásiky": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 38
+ "Solight > Svietiaci program > LED pásky a príslušenstvo > LED pásiky": {
+  "(bez pravidla)": 38
  },
- "Solight > Svietiaci program > LED pásky > Napájacie zdroje 12V": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 14
+ "Solight > Svietiaci program > LED pásky a príslušenstvo > Napájacie zdroje 12V": {
+  "(bez pravidla)": 14
  },
- "Solight > Svietiaci program > LED pásky > Príslušenstvo": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 23
+ "Solight > Svietiaci program > LED pásky a príslušenstvo > Príslušenstvo": {
+  "(bez pravidla)": 23
  },
  "Solight > Svietiaci program > LED reflektory > Reflektory bez senzora": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 11
@@ -276,19 +279,19 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 9
  },
  "Solight > Svietiaci program > LED žiarovky > E14": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 17
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED žiarovky": 17
  },
  "Solight > Svietiaci program > LED žiarovky > E27": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 28
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED žiarovky": 28
  },
  "Solight > Svietiaci program > LED žiarovky > G9&G4": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 5
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED žiarovky": 5
  },
  "Solight > Svietiaci program > LED žiarovky > GU10": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 8
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED žiarovky": 8
  },
  "Solight > Svietiaci program > LED žiarovky > Ostatné svetelné zdroje": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 3
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED žiarovky": 3
  },
  "Solight > Svietiaci program > Priemyselné LED osvetlenie > High Bay": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 8

@@ -1,0 +1,28 @@
+name: Inactive CTR preparation validation
+on:
+  pull_request:
+    paths:
+      - 'data/seo/**'
+      - 'reports/seo/**'
+      - 'scripts/*seo*'
+      - '.github/workflows/**'
+      - 'package.json'
+  push:
+    branches: ['seo/ctr-experiment-prep']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci --ignore-scripts
+      - run: npm run test:seo-overrides
+      - run: npm run validate:seo-overrides
+      - name: Verify inactive write invocation leaves every OUT unchanged
+        run: |
+          node scripts/apply-seo-overrides.js --write
+          git diff --exit-code -- output/

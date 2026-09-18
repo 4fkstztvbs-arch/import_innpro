@@ -378,6 +378,28 @@
     var mobile = document.createElement('div');
     mobile.className = 'ps-mobile-catalog';
     var mobileTrail = [];
+    function updateTabletMenuTop() {
+      if (window.innerWidth < 768 || window.innerWidth >= 992) return;
+      var header = document.getElementById('header');
+      var top = Math.max(0, Math.min(window.innerHeight - 100, header.getBoundingClientRect().bottom));
+      header.style.setProperty('--ps-tablet-menu-top', top + 'px');
+    }
+    window.addEventListener('resize', function () {
+      if (desktop.matches && document.body.classList.contains('navigation-window-visible')) {
+        var toggle = document.querySelector('#header .navigation-buttons a[data-target="navigation"]');
+        if (toggle) toggle.click();
+      }
+      updateTabletMenuTop();
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && !desktop.matches && document.body.classList.contains('navigation-window-visible')) {
+        var toggle = document.querySelector('#header .navigation-buttons a[data-target="navigation"]');
+        if (toggle) toggle.click();
+        var button = document.querySelector('.ps-menu-trigger');
+        if (button) button.focus();
+      }
+    });
+
     function categoryAnchor(item) {
       return item.querySelector(':scope > a:not(.menu-image), :scope > div > a:not(.menu-image)');
     }
@@ -466,6 +488,7 @@
         function menuState() {
           var isMenuOpen = document.body.classList.contains('navigation-window-visible');
           menuButton.setAttribute('aria-expanded', String(isMenuOpen));
+          if (isMenuOpen) updateTabletMenuTop();
           if (!isMenuOpen && mobileTrail.length) { mobileTrail = []; mobileScreen(false); }
         }
         menuState();
@@ -474,7 +497,7 @@
     }
 
     backdrop.addEventListener('click', function () {
-      if (window.matchMedia('(max-width: 767px)').matches && document.body.classList.contains('navigation-window-visible')) {
+      if (window.matchMedia('(max-width: 991px)').matches && document.body.classList.contains('navigation-window-visible')) {
         var nativeToggle = document.querySelector('#header .navigation-buttons a[data-target="navigation"]');
         if (nativeToggle) nativeToggle.click();
       }
@@ -630,7 +653,7 @@
       grid.querySelectorAll('section ul')[2].appendChild(li);
     });
     // Na mobile sú odkazy zbalené; kontakt zostáva stále viditeľný.
-    var mobileFooter = window.matchMedia('(max-width: 767px)');
+    var mobileFooter = window.matchMedia('(max-width: 991px)');
     var footerPanels = [];
     grid.querySelectorAll('section:not(.ps-footer-help)').forEach(function (section, index) {
       var heading = section.querySelector('h3');

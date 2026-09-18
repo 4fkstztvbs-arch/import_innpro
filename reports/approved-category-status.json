@@ -1,0 +1,441 @@
+{
+  "minimum": 8,
+  "totalProducts": 27017,
+  "matchedRules": 2716,
+  "changedProducts": 657,
+  "rejected": [],
+  "categories": [
+    {
+      "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
+      "visibleUnique": 21,
+      "active": true,
+      "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+    },
+    {
+      "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PETG filamenty",
+      "visibleUnique": 42,
+      "active": true,
+      "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+    },
+    {
+      "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
+      "visibleUnique": 143,
+      "active": true,
+      "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+    },
+    {
+      "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "visibleUnique": 15,
+      "active": true,
+      "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+    },
+    {
+      "path": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy > Nabíjačky autobatérií",
+      "visibleUnique": 36,
+      "active": true,
+      "parent": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy"
+    },
+    {
+      "path": "Auto-moto > Elektronika do auta > Autorádiá",
+      "visibleUnique": 20,
+      "active": true,
+      "parent": "Auto-moto > Elektronika do auta"
+    },
+    {
+      "path": "Auto-moto > Elektronika do auta > Kamery do auta",
+      "visibleUnique": 29,
+      "active": true,
+      "parent": "Auto-moto > Elektronika do auta"
+    },
+    {
+      "path": "Cestovanie, šport a outdoor > Bojové športy > Boxerské rukavice",
+      "visibleUnique": 119,
+      "active": true,
+      "parent": "Cestovanie, šport a outdoor > Bojové športy"
+    },
+    {
+      "path": "Cestovanie, šport a outdoor > Bojové športy > Chrániče pre bojové športy",
+      "visibleUnique": 64,
+      "active": true,
+      "parent": "Cestovanie, šport a outdoor > Bojové športy"
+    },
+    {
+      "path": "Cestovanie, šport a outdoor > Bojové športy > MMA rukavice",
+      "visibleUnique": 42,
+      "active": true,
+      "parent": "Cestovanie, šport a outdoor > Bojové športy"
+    },
+    {
+      "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Filtre pre drony",
+      "visibleUnique": 101,
+      "active": true,
+      "parent": "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
+    },
+    {
+      "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
+      "visibleUnique": 47,
+      "active": true,
+      "parent": "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
+    },
+    {
+      "path": "Chovateľské potreby > Fontány a napájačky > Filtre a čerpadlá do fontán",
+      "visibleUnique": 13,
+      "active": true,
+      "parent": "Chovateľské potreby > Fontány a napájačky"
+    },
+    {
+      "path": "Chovateľské potreby > Fontány a napájačky > Fontány pre psy a mačky",
+      "visibleUnique": 17,
+      "active": true,
+      "parent": "Chovateľské potreby > Fontány a napájačky"
+    },
+    {
+      "path": "Chovateľské potreby > Pelechy, škrabadlá a klietky > Pelechy pre psy a mačky",
+      "visibleUnique": 16,
+      "active": true,
+      "parent": "Chovateľské potreby > Pelechy, škrabadlá a klietky"
+    },
+    {
+      "path": "Chovateľské potreby > Pelechy, škrabadlá a klietky > Škrabadlá pre mačky",
+      "visibleUnique": 10,
+      "active": true,
+      "parent": "Chovateľské potreby > Pelechy, škrabadlá a klietky"
+    },
+    {
+      "path": "Chovateľské potreby > Pohlcovače zápachu",
+      "visibleUnique": 8,
+      "active": true,
+      "parent": "Chovateľské potreby"
+    },
+    {
+      "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Digitálne multimetre",
+      "visibleUnique": 63,
+      "active": true,
+      "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
+    },
+    {
+      "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače",
+      "visibleUnique": 53,
+      "active": true,
+      "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
+    },
+    {
+      "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Krájače potravín",
+      "visibleUnique": 12,
+      "active": true,
+      "parent": "Domáce spotrebiče > Kuchynské roboty a krájače"
+    },
+    {
+      "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Kuchynské roboty",
+      "visibleUnique": 17,
+      "active": true,
+      "parent": "Domáce spotrebiče > Kuchynské roboty a krájače"
+    },
+    {
+      "path": "Domáce spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
+      "visibleUnique": 63,
+      "active": true,
+      "parent": "Domáce spotrebiče > Kuchynské roboty a krájače"
+    },
+    {
+      "path": "Domáce spotrebiče > Príprava nápojov > Filtračné kanvice",
+      "visibleUnique": 12,
+      "active": true,
+      "parent": "Domáce spotrebiče > Príprava nápojov"
+    },
+    {
+      "path": "Domáce spotrebiče > Príprava nápojov > Rýchlovarné kanvice",
+      "visibleUnique": 28,
+      "active": true,
+      "parent": "Domáce spotrebiče > Príprava nápojov"
+    },
+    {
+      "path": "Domáce spotrebiče > Príslušenstvo k vysávačom",
+      "visibleUnique": 69,
+      "active": true,
+      "parent": "Domáce spotrebiče"
+    },
+    {
+      "path": "Domáce spotrebiče > Sušiaky na bielizeň",
+      "visibleUnique": 46,
+      "active": true,
+      "parent": "Domáce spotrebiče"
+    },
+    {
+      "path": "Domáce spotrebiče > Vysávače > Robotické vysávače",
+      "visibleUnique": 76,
+      "active": true,
+      "parent": "Domáce spotrebiče > Vysávače"
+    },
+    {
+      "path": "Domáce spotrebiče > Vysávače > Tyčové vysávače",
+      "visibleUnique": 37,
+      "active": true,
+      "parent": "Domáce spotrebiče > Vysávače"
+    },
+    {
+      "path": "Domáce spotrebiče > Vysávače > Vreckové a bezvreckové vysávače",
+      "visibleUnique": 14,
+      "active": true,
+      "parent": "Domáce spotrebiče > Vysávače"
+    },
+    {
+      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Senzory pohybu a otvorenia",
+      "visibleUnique": 15,
+      "active": true,
+      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+    },
+    {
+      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Senzory teploty a vlhkosti",
+      "visibleUnique": 15,
+      "active": true,
+      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+    },
+    {
+      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Smart termostaty a hlavice",
+      "visibleUnique": 35,
+      "active": true,
+      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+    },
+    {
+      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Smart zásuvky",
+      "visibleUnique": 41,
+      "active": true,
+      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+    },
+    {
+      "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické konektory",
+      "visibleUnique": 14,
+      "active": true,
+      "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
+    },
+    {
+      "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické káble",
+      "visibleUnique": 54,
+      "active": true,
+      "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
+    },
+    {
+      "path": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače",
+      "visibleUnique": 45,
+      "active": true,
+      "parent": "Počítače, mobily a tablety > Herné príslušenstvo pre PC > Herné simulátory"
+    },
+    {
+      "path": "Počítače, mobily a tablety > WiFi routery a sieťové karty > Sieťové switche",
+      "visibleUnique": 22,
+      "active": true,
+      "parent": "Počítače, mobily a tablety > WiFi routery a sieťové karty"
+    },
+    {
+      "path": "Počítače, mobily a tablety > WiFi routery a sieťové karty > WiFi routery",
+      "visibleUnique": 48,
+      "active": true,
+      "parent": "Počítače, mobily a tablety > WiFi routery a sieťové karty"
+    },
+    {
+      "path": "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu",
+      "visibleUnique": 49,
+      "active": true,
+      "parent": "Profesionálna audio technika"
+    },
+    {
+      "path": "Profesionálna audio technika > Pódium, diskotéka, DJ > DI boxy a audio izolátory",
+      "visibleUnique": 9,
+      "active": true,
+      "parent": "Profesionálna audio technika > Pódium, diskotéka, DJ"
+    },
+    {
+      "path": "Profesionálna audio technika > Pódium, diskotéka, DJ > Mikrofónové a reproduktorové stojany",
+      "visibleUnique": 19,
+      "active": true,
+      "parent": "Profesionálna audio technika > Pódium, diskotéka, DJ"
+    },
+    {
+      "path": "Profesionálna audio technika > Pódium, diskotéka, DJ > Mixážne pulty",
+      "visibleUnique": 20,
+      "active": true,
+      "parent": "Profesionálna audio technika > Pódium, diskotéka, DJ"
+    },
+    {
+      "path": "Profesionálna audio technika > Signálové procesory a ovládače",
+      "visibleUnique": 19,
+      "active": true,
+      "parent": "Profesionálna audio technika"
+    },
+    {
+      "path": "Profesionálna audio technika > Výkonové a inštalačné zosilňovače",
+      "visibleUnique": 17,
+      "active": true,
+      "parent": "Profesionálna audio technika"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery",
+      "visibleUnique": 8,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Audio technika"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
+      "visibleUnique": 47,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Audio technika"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike",
+      "visibleUnique": 16,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Audio technika"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k slúchadlám",
+      "visibleUnique": 31,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Audio technika"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
+      "visibleUnique": 66,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá",
+      "visibleUnique": 37,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
+      "visibleUnique": 109,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory",
+      "visibleUnique": 18,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Audio technika"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Efektové a difúzne filtre",
+      "visibleUnique": 11,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > ND a variabilné ND filtre",
+      "visibleUnique": 28,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Polarizačné CPL filtre",
+      "visibleUnique": 10,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Súpravy fotografických filtrov",
+      "visibleUnique": 56,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
+      "visibleUnique": 85,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotostany a fotoboxy",
+      "visibleUnique": 10,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Softboxy a modifikátory svetla",
+      "visibleUnique": 18,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Batérie a nabíjačky pre kamery",
+      "visibleUnique": 23,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné kryty a klietky pre kamery",
+      "visibleUnique": 49,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery",
+      "visibleUnique": 36,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery",
+      "visibleUnique": 110,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Popruhy a postroje pre kamery",
+      "visibleUnique": 13,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Selfie tyče pre kamery",
+      "visibleUnique": 23,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
+    },
+    {
+      "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Statívy pre fotoaparáty a kamery",
+      "visibleUnique": 30,
+      "active": true,
+      "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
+    },
+    {
+      "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Fény a teplovzdušné kefy",
+      "visibleUnique": 31,
+      "active": true,
+      "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
+    },
+    {
+      "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Kulmy na vlasy",
+      "visibleUnique": 23,
+      "active": true,
+      "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
+    },
+    {
+      "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy",
+      "visibleUnique": 23,
+      "active": true,
+      "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
+    },
+    {
+      "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Elektrické zubné kefky",
+      "visibleUnique": 55,
+      "active": true,
+      "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
+    },
+    {
+      "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Náhradné hlavice na zubné kefky",
+      "visibleUnique": 47,
+      "active": true,
+      "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
+    },
+    {
+      "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy",
+      "visibleUnique": 8,
+      "active": true,
+      "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
+    }
+  ]
+}

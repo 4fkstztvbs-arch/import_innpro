@@ -1,0 +1,56 @@
+name: Potvrdené opravy kategorizácie produktov
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/product-category-corrections.json
+      - scripts/apply-product-category-corrections.js
+      - scripts/test-product-category-corrections.js
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: product-category-corrections
+  cancel-in-progress: false
+
+jobs:
+  correct:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Overiť presné opravy a zachovanie ostatných údajov
+        run: node --test scripts/test-product-category-corrections.js
+      - name: Zapracovať potvrdené opravy do existujúcich feedov
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "category-corrections-bot"
+          git config user.email "actions@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/apply-product-category-corrections.js --write
+            node scripts/collapse-thin-categories.js
+            node scripts/enforce-tree-categories.js
+            node scripts/add-category-links.js
+            node scripts/check-category-links.js
+            node scripts/apply-seo-overrides.js --write
+            git add output/*.xml reports/product-category-corrections-status.json
+            if git diff --staged --quiet; then
+              exit 0
+            fi
+            git commit -m "Potvrdené opravy zaradenia a produktových textov"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "Súbežná zmena main: opravy sa nepublikovali, spustiť znova."
+          exit 1

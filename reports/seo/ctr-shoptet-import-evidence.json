@@ -1,0 +1,495 @@
+{
+  "observedAt": "2026-09-18",
+  "imports": [
+    {
+      "name": "Atos",
+      "adminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=12",
+      "fields": [
+        {
+          "name": "name",
+          "value": "Atos"
+        },
+        {
+          "name": "importCode",
+          "value": "at_"
+        },
+        {
+          "name": "codePrefix",
+          "value": "at_"
+        },
+        {
+          "name": "xmlFeedUrl",
+          "value": "https://4fkstztvbs-arch.github.io/import_innpro/output/atos.xml"
+        },
+        {
+          "name": "pairBy",
+          "value": "code",
+          "selected": "kód produktu"
+        },
+        {
+          "name": "complete",
+          "value": "delete",
+          "selected": "zmazať produkt"
+        },
+        {
+          "name": "finishProducts",
+          "value": "0",
+          "selected": "všetky"
+        },
+        {
+          "name": "includedInUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[stock]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "fullSchedule",
+          "value": "04",
+          "selected": "04:05"
+        }
+      ]
+    },
+    {
+      "name": "Solight",
+      "adminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=15",
+      "fields": [
+        {
+          "name": "name",
+          "value": "Solight"
+        },
+        {
+          "name": "importCode",
+          "value": "sol_"
+        },
+        {
+          "name": "codePrefix",
+          "value": "sol_"
+        },
+        {
+          "name": "xmlFeedUrl",
+          "value": "https://4fkstztvbs-arch.github.io/import_innpro/output/solight.xml"
+        },
+        {
+          "name": "pairBy",
+          "value": "code",
+          "selected": "kód produktu"
+        },
+        {
+          "name": "complete",
+          "value": "delete",
+          "selected": "zmazať produkt"
+        },
+        {
+          "name": "finishProducts",
+          "value": "0",
+          "selected": "všetky"
+        },
+        {
+          "name": "includedInUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[stock]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "fullSchedule",
+          "value": "05",
+          "selected": "05:05"
+        }
+      ]
+    },
+    {
+      "name": "INNPRO",
+      "adminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=18",
+      "fields": [
+        {
+          "name": "name",
+          "value": "INNPRO"
+        },
+        {
+          "name": "importCode",
+          "value": "inn_"
+        },
+        {
+          "name": "codePrefix",
+          "value": ""
+        },
+        {
+          "name": "xmlFeedUrl",
+          "value": "https://4fkstztvbs-arch.github.io/import_innpro/output/innpro.xml"
+        },
+        {
+          "name": "pairBy",
+          "value": "code",
+          "selected": "kód produktu"
+        },
+        {
+          "name": "complete",
+          "value": "delete",
+          "selected": "zmazať produkt"
+        },
+        {
+          "name": "finishProducts",
+          "value": "0",
+          "selected": "všetky"
+        },
+        {
+          "name": "includedInUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[stock]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "fullSchedule",
+          "value": "03",
+          "selected": "03:05"
+        }
+      ]
+    },
+    {
+      "name": "Monacor",
+      "adminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=21",
+      "fields": [
+        {
+          "name": "name",
+          "value": "Monacor"
+        },
+        {
+          "name": "importCode",
+          "value": "mon_"
+        },
+        {
+          "name": "codePrefix",
+          "value": "mon_"
+        },
+        {
+          "name": "xmlFeedUrl",
+          "value": "https://4fkstztvbs-arch.github.io/import_innpro/output/monacor.xml"
+        },
+        {
+          "name": "pairBy",
+          "value": "code",
+          "selected": "kód produktu"
+        },
+        {
+          "name": "complete",
+          "value": "delete",
+          "selected": "zmazať produkt"
+        },
+        {
+          "name": "finishProducts",
+          "value": "0",
+          "selected": "všetky"
+        },
+        {
+          "name": "includedInUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[stock]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "fullSchedule",
+          "value": "01",
+          "selected": "01:05"
+        }
+      ]
+    },
+    {
+      "name": "K-B",
+      "adminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=24",
+      "fields": [
+        {
+          "name": "name",
+          "value": "K-B"
+        },
+        {
+          "name": "importCode",
+          "value": "kb_"
+        },
+        {
+          "name": "codePrefix",
+          "value": "kb_"
+        },
+        {
+          "name": "xmlFeedUrl",
+          "value": "https://4fkstztvbs-arch.github.io/import_innpro/output/kb.xml"
+        },
+        {
+          "name": "pairBy",
+          "value": "code",
+          "selected": "kód produktu"
+        },
+        {
+          "name": "complete",
+          "value": "delete",
+          "selected": "zmazať produkt"
+        },
+        {
+          "name": "finishProducts",
+          "value": "0",
+          "selected": "všetky"
+        },
+        {
+          "name": "includedInUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[stock]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "fullSchedule",
+          "value": "00",
+          "selected": "00:05"
+        }
+      ]
+    },
+    {
+      "name": "Basys",
+      "adminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=27",
+      "fields": [
+        {
+          "name": "name",
+          "value": "Basys"
+        },
+        {
+          "name": "importCode",
+          "value": "BAS_"
+        },
+        {
+          "name": "codePrefix",
+          "value": "bas_"
+        },
+        {
+          "name": "xmlFeedUrl",
+          "value": "https://4fkstztvbs-arch.github.io/import_innpro/output/basys.xml"
+        },
+        {
+          "name": "pairBy",
+          "value": "code",
+          "selected": "kód produktu"
+        },
+        {
+          "name": "complete",
+          "value": "delete",
+          "selected": "zmazať produkt"
+        },
+        {
+          "name": "finishProducts",
+          "value": "0",
+          "selected": "všetky"
+        },
+        {
+          "name": "includedInUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[stock]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "fullSchedule",
+          "value": "02",
+          "selected": "02:05"
+        }
+      ]
+    },
+    {
+      "name": "Penta",
+      "adminUrl": "https://www.premiumstore.sk/admin/automaticke-importy-detail/?id=30",
+      "fields": [
+        {
+          "name": "name",
+          "value": "Penta"
+        },
+        {
+          "name": "importCode",
+          "value": "pen_"
+        },
+        {
+          "name": "codePrefix",
+          "value": "pen_"
+        },
+        {
+          "name": "xmlFeedUrl",
+          "value": "https://4fkstztvbs-arch.github.io/import_innpro/output/penta.xml"
+        },
+        {
+          "name": "pairBy",
+          "value": "code",
+          "selected": "kód produktu"
+        },
+        {
+          "name": "complete",
+          "value": "0",
+          "selected": "nechať nezmenenné"
+        },
+        {
+          "name": "finishProducts",
+          "value": "0",
+          "selected": "všetky"
+        },
+        {
+          "name": "includedInUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[stock]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[price]",
+          "value": true
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[amount]",
+          "value": false
+        },
+        {
+          "name": "includedInUpdate_onlyUpdate[availability]",
+          "value": true
+        },
+        {
+          "name": "fullSchedule",
+          "value": "06",
+          "selected": "06:05"
+        }
+      ]
+    }
+  ]
+}

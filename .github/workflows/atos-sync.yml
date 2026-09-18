@@ -14,6 +14,7 @@ permissions:
 
 jobs:
   sync:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -72,6 +73,9 @@ jobs:
       - name: Fix ignored categories (Heureka)
         run: node scripts/fix-ignored-categories.js
 
+      - name: Potvrdené opravy produktov z auditu
+        run: node scripts/apply-product-category-corrections.js --write
+
       - name: Collapse thin categories
         run: node scripts/collapse-thin-categories.js
 
@@ -87,6 +91,9 @@ jobs:
       - name: Skryť produkty pod nákupnou cenou
         run: node scripts/hide-below-cost-products.js
 
+      - name: Approved category tree and visible 8-product minimum
+        run: node scripts/apply-approved-categories.js --write
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js
 
@@ -95,6 +102,9 @@ jobs:
 
       - name: Poistka proti useknutému feedu
         run: node scripts/check-feed-size.js
+
+      - name: Apply supplier-aware CTR SEO overrides (inactive by default)
+        run: node scripts/apply-seo-overrides.js --write
 
       - name: Commit updated output
         run: |
