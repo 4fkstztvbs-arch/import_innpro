@@ -1,6 +1,6 @@
 {
   "products": 27025,
-  "matched": 727,
+  "matched": 742,
   "categoryChanges": 0,
   "nameChanges": 0,
   "descriptionChanges": 0,
@@ -529,24 +529,6 @@
     },
     {
       "supplier": "basys",
-      "code": "BASYS-B 829682-0210",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829705-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829712-0210",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-BD 718971",
       "ean": "",
       "reason": "Changed name or category; needs review"
@@ -787,67 +769,7 @@
     },
     {
       "supplier": "basys",
-      "code": "BASYS-B 841155-0420",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 841155-0320",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-EP-109P",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 841151-0420",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 841151-0320",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829682-0220",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829682-0120",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829705-0220",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829705-0120",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829712-0220",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829712-0120",
       "ean": "",
       "reason": "Changed name or category; needs review"
     },
@@ -926,18 +848,6 @@
     {
       "supplier": "basys",
       "code": "BASYS-B 888507-0400",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B A01114-0100",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B A01114-0200",
       "ean": "",
       "reason": "Changed name or category; needs review"
     },
