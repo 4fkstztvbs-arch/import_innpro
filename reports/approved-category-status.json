@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26975,
-  "matchedRules": 2721,
-  "changedProducts": 2706,
+  "totalProducts": 27017,
+  "matchedRules": 2716,
+  "changedProducts": 657,
   "rejected": [],
   "categories": [
     {
@@ -307,7 +307,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 108,
+      "visibleUnique": 109,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -415,7 +415,7 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy",
-      "visibleUnique": 24,
+      "visibleUnique": 23,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
@@ -427,7 +427,7 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Náhradné hlavice na zubné kefky",
-      "visibleUnique": 49,
+      "visibleUnique": 47,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     },
