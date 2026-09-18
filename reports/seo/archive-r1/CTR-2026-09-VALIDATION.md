@@ -4,14 +4,12 @@
 
 Audit 18. 9. 2026. Produkčné dáta čítané z main `b6df3573e61768aa9f5a193885b43efcade1b529`. Pracovná vetva `seo/ctr-experiment-prep`, draft PR #16. Produkčný main, živé feedy ani nastavenia Shoptetu sa touto prípravou nemenili.
 
-## Aktuálny výsledok – revízia 2
+## Výsledok
 
-- Na výslovný pokyn používateľa bola vzorka obnovená: **20 testovacích + 20 kontrolných produktov, všetkých 40 mapovaní overených**. Testovacia skupina obsahuje 14 nových a 6 pôvodných produktov.
-- Baseline výhradne **10. 8. – 16. 9. 2026**. Test: 702 zobrazení / 45 kliknutí; kontrola: 720 / 48. Ide o exploračný pilot s nízkym objemom dát.
-- Kompletný výber, zdôvodnenie, texty a plán merania: [CTR-2026-09-COHORT-R2.md](CTR-2026-09-COHORT-R2.md).
-- 39 SEO testov a 31 existujúcich regresných testov prešlo. Offline SEO náhľad všetkých 20 testovacích produktov zachováva identické ne-SEO bajty. Všetkých 8 OUT obsahuje 27 017 položiek; neaktívny režim je presný no-op.
-- Pôvodný audit 20 kandidátov a 2 kontrol je zachovaný v `archive-r1/`. Nasledujúca historická tabuľka ho dokumentuje; runtime používa **iba revíziu 2**. Neoverené pôvodné produkty už neblokujú novú vzorku.
-- Aktivácia je naďalej blokovaná chýbajúcim súhlasom a neukončeným predprodukčným preflightom vrátane overenia koncového SEO importu.
+- 20 kandidátov: **12 overených**, 1 presmerovaná URL, 6 historicky identifikovaných produktov mimo aktuálneho OUT, 1 nejednoznačná identita Flytec.
+- 2 kontroly: MOVA overená, POCO 16/512 historicky identifikovaný a dnes mimo OUT s chybovou stránkou. Žiadna kontrola sa neprepisuje.
+- Baseline **10. 8. – 16. 9. 2026**: všetkých 22 riadkov sa zhoduje s exportom `premiumstore.sk-Performance-on-Search-2026-09-17 2.xlsx`, list `Strany`; filter potvrdený v `Filtre!A3:B3`, dátumy v liste `Graf`. Export za posledné 3 mesiace sa nepoužil.
+- 36 nových automatizovaných testov a 31 existujúcich regresných testov cien/kategórií prešlo. YAML workflowov prešiel syntaktickou kontrolou. Všetkých 8 úplných XML súborov (27 017 položiek) validne rozparsovaných. Neaktívny režim zachováva každý bajt; offline náhľad 12 overených produktov zachováva identický obsah mimo dvoch SEO polí.
 
 ## Dodávateľské pipeliney
 
@@ -42,7 +40,7 @@ WiiM navyše používa `scripts/transform-wiim.js` → `output/wiim.xml`, PDF vs
 
 Spoločné kroky obsahujú deduplikáciu (okrem Basys), opravy kategórií, skrytie produktov, prelinkovanie a kontroly. KB a ATOS navyše Icecat obohacovanie; KB obnovu úvodných viet. Nový SEO krok je **posledná úprava pred commitom**, po `apply-product-category-corrections.js`, ktorý môže meniť aj SEO. Heureka cenový workflow aj samostatný workflow opráv kategórií majú rovnakú poistku.
 
-## Historický audit pôvodných 20 kandidátov – revízia 1
+## Mapovanie 20 kandidátov
 
 `CODE` nižšie je presná hodnota z dodávateľského XML bez Shoptet prefixu. `shoptetCode` je uložený samostatne v JSON. Každý dodávateľ v tabuľke odkazuje na svoj transform a OUT uvedený vyššie. `—` znamená nedoloženú hodnotu, nie nulu.
 
@@ -69,7 +67,7 @@ Spoločné kroky obsahujú deduplikáciu (okrem Basys), opravy kategórií, skry
 | 19 | [TCL 55T8C](https://www.premiumstore.sk/tcl-55t8c-qled-4k-smart-google-tv/) | kb | `100002141479` | `5901292526726` | Mimo OUT / chybová stránka |
 | 20 | [DOMO DO9276C](https://www.premiumstore.sk/domo-do9276c/) | kb | `100002200930` | `5411397168504` | Mimo OUT / chybová stránka |
 
-Historické párovania sú doložené presnými riadkami katalógových CSV v `archive-r1/ctr-mapping-evidence.json`. Heureka záznamy slúžia **iba na identitu produktu**, nikdy na GSC baseline.
+Historické párovania sú doložené presnými riadkami katalógových CSV v `ctr-mapping-evidence.json`. Heureka záznamy slúžia **iba na identitu produktu**, nikdy na GSC baseline.
 
 - **Flytec:** historický `089983`, EAN `5905156109049`, patrí k inej URL (`/flytec-v030-zakladna-lod-na-navnadu-bateria/`). Pre pôvodnú GSC URL nemáme jednoznačný dôkaz. CODE zostáva `null`; príbuzný `078895` sa nesmie použiť ako náhrada.
 - **MOZA:** pôvodná URL presmerúva na `/herny-volant-moza-racing-r5-pro/`. CODE `091171` a EAN sú potvrdené, ale zmena URL/názvu ovplyvňuje porovnateľnosť baseline. Nezlučovať metriky automaticky.
@@ -81,7 +79,7 @@ Register obsahuje návrhy title/meta pre 20 kandidátov, ale status zostáva PRE
 
 XML sa parsuje pre identitu a presné pozície elementov. Prepisujú sa iba priame `SEO_TITLE` a `META_DESCRIPTION`; všetky ostatné bajty vrátane ceny, skladu, dostupnosti, popisov, kategórií, obrázkov a URL zostávajú z čerstvého denného feedu. Chýbajúce SEO elementy sa doplnia, text sa XML-escapuje, opakované spustenie je idempotentné.
 
-Aktivácia vyžaduje overené mapovanie všetkých 20 kandidátov aj všetkých 20 kontrol, správny baseline, explicitné schválenie a úspešný preflight. Kontrolné URL/identity sa nesmú prekrývať s kandidátmi. Nesprávny OUT, neznámy dodávateľ, numerický CODE, nepovolené polia (napr. cena), prázdne či príliš dlhé SEO texty alebo neplatné XML sa odmietnu.
+Aktivácia vyžaduje overené mapovanie všetkých 20 kandidátov aj oboch kontrol, správny baseline, explicitné schválenie a úspešný preflight. Kontrolné URL/identity sa nesmú prekrývať s kandidátmi. Nesprávny OUT, neznámy dodávateľ, numerický CODE, nepovolené polia (napr. cena), prázdne či príliš dlhé SEO texty alebo neplatné XML sa odmietnu.
 
 Pri dennom behu chýbajúci produkt, duplicitný CODE alebo zmenený EAN znamená preskočenie konkrétneho override a výrazné hlásenie driftu v Actions. Nikdy sa neobnovuje starý produkt ani stará cena. `--strict` je určený na preflight a pri takomto probléme zlyhá pred akýmkoľvek zápisom. Neplatný aktívny register alebo neplatný XML feed zastavia publikovanie a vyžadujú opravu.
 
@@ -89,8 +87,8 @@ Všetkých deväť workflowov zapisujúcich OUT má obmedzenie na main, takže r
 
 ## Čo zostáva pred aktiváciou
 
-1. Znovu preveriť čerstvé OUT a všetkých 40 stránok novej vzorky tesne pred spustením.
-2. Po zmenách kategorizácie overiť prevádzkovú stabilitu podľa plánu revízie 2. MOZA ani nejednoznačný Flytec nie sú v novej vzorke.
+1. Doriešiť 8 neoverených kandidátov a chýbajúcu kontrolu. Obnoviť presné produkty alebo samostatne schváliť zmenu kohorty; náhrady sa teraz neurobili.
+2. Pre MOZA rozhodnúť o meraní presmerovanej URL; pre Flytec preukázať identitu pôvodnej GSC URL.
 3. Overiť SEO import na existujúcom produkte v neprodukčnom Shoptet prostredí. Administrácia nemá samostatné viditeľné prepínače SEO_TITLE/META_DESCRIPTION; samotné validné XML nedokazuje výsledný zápis do SEO polí existujúcej karty.
 4. Po finálnej kontrole vyžiadať explicitné schválenie nasadenia a aktivácie. Až potom doplniť schvaľovacie polia, spustiť strict preflight na aktuálnych OUT a aktivovať. Tento PR sa teraz nesmie zlúčiť alebo aktivovať automaticky.
 
@@ -99,7 +97,7 @@ Všetkých deväť workflowov zapisujúcich OUT má obmedzenie na main, takže r
 - Cena a dostupnosť sú v úplných aj aktualizačných importoch zapnuté. „Sklad“ je v úplnom importe zapnutý, ale **„Množstvo a pozícia v sklade“ je v oboch režimoch vypnuté** pri všetkých siedmich dodávateľoch. Feed hodnoty zachovávame; nenastavovali sme novú synchronizáciu fyzických množstiev.
 - Chýbajúce produkty sa u šiestich dodávateľov mažú; Penta ich necháva nezmenené. To je existujúce nastavenie a vysvetľuje riziko zániku experimentálnych URL.
 - Nevykonávali sa živé supplier transformy vyžadujúce secrets ani produkčný import. Overovanie použilo kompletné OUT pripnuté ku konkrétnemu main commitu a read-only pohľad na Shoptet. Novšie denné feedy sa môžu líšiť.
-- V novej vzorke sú všetky identity overené k dátumu auditu; overenie netvrdí budúcu dostupnosť ani súhlas s aktiváciou.
+- Návrhy pre neoverené produkty sú iba pracovné texty na kontrolu; nie je to súhlas s aktiváciou.
 - Pozastavenie `PAUSED` zastaví override; bežný transform pri ďalšej regenerácii obnoví štandardné SEO. Okamžitý návrat SEO musí používať samostatný SEO-only rollback, nikdy starý celý feed s neaktuálnymi cenami.
 
 ## Reprodukcia

@@ -25,8 +25,21 @@ function validate() {
     if(!b||!c||!e||e.url!==x.url) { errors.push(`Missing evidence: ${x.url}`);continue; }
     for(const k of ['supplier','code','ean','mappingStatus','out','transform','shoptetCode']) if(c[k]!==x[k]||e[k]!==x[k]) errors.push(`Mapping evidence mismatch ${k}: ${x.url}`);
     for(const k of ['clicks','impressions','ctr','position']) if(Math.abs(c[k]-b[k])>0.00001) errors.push(`Baseline metric mismatch ${k}: ${x.url}`);
+    if(x.mappingStatus==='VERIFIED'&&(e.canonicalUrl!==x.url||e.currentUrl!==x.url||e.robots!=='index,follow')) errors.push(`Invalid current URL/indexability evidence: ${x.url}`);
     if(x.mappingStatus!=='VERIFIED') blockers.push({url:x.url,reason:x.mappingStatus});
   }
+  const selection=JSON.parse(fs.readFileSync(path.join(ROOT,'reports/seo/ctr-cohort-selection.json'),'utf8'));
+  if(selection.cohortRevision!==2||config.cohortRevision!==2||selection.pairs.length!==20) errors.push('Invalid cohort revision/pair count');
+  const seen=new Set();
+  for(const pair of selection.pairs) {
+    const t=candidates.candidates.find(x=>x.url===pair.treatment),c=candidates.controls.find(x=>x.url===pair.control);
+    if(!t||!c||t.pair!==pair.pair||c.pair!==pair.pair||seen.has(t.url)||seen.has(c.url)) { errors.push('Invalid frozen treatment/control pair');continue; }
+    seen.add(t.url);seen.add(c.url);
+    const originalOrder=selection.screened.filter(x=>x.selected&&(x.url===t.url||x.url===c.url));
+    const bit=crypto.createHash('sha256').update(`CTR-2026-09-R2:pair:${pair.pair}`).digest()[0]%2;
+    if(originalOrder.length!==2||originalOrder[bit].url!==t.url) errors.push('Frozen arm assignment changed');
+  }
+  if(seen.size!==40) errors.push('Not all cohort members have a unique frozen pair');
   for(const supplier of SUPPLIERS) {
     const file=path.join(ROOT,'output',`${supplier}.xml`),xml=fs.readFileSync(file,'utf8'),items=inspectFeed(xml);
     const inactive=applyFeedOverrides(xml,supplier,config);

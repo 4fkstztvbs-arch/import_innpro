@@ -2,7 +2,7 @@
 
 Status: **PREPARED_NOT_ACTIVE**. Do not merge, deploy or activate without explicit user approval.
 
-The baseline is exclusively **2026-08-10 through 2026-09-16**, from the date-filtered GSC export. Pre-migration and three-month aggregates are excluded. See `ctr-baseline-evidence.json` for all 20 candidate and 2 control rows, workbook hash and source row numbers.
+The baseline is exclusively **2026-08-10 through 2026-09-16**, from the date-filtered GSC export. Pre-migration and three-month aggregates are excluded. See `ctr-baseline-evidence.json` for all 20 treatment and 20 control rows, workbook hash and source row numbers.
 
 ## Current implementation
 
@@ -18,12 +18,12 @@ The baseline is exclusively **2026-08-10 through 2026-09-16**, from the date-fil
 
 ## Activation requirements
 
-Resolve and verify all 20 original candidates and both controls against current OUT and storefront identity. Address changed/unavailable URLs and verify Shoptet SEO updates for existing cards in a nonproduction environment. Obtain explicit user approval, record its reference, run strict preflight on fresh OUT, and review the resulting SEO-only diff before enabling the registry. Preparation alone grants no production authorization.
+Recheck all 20 treatment products and 20 controls in cohort revision 2 against fresh OUT and storefront identity. All 40 identities are verified as of the audit; the original cohort audit remains in archive-r1. Address any newly changed/unavailable URLs and verify Shoptet SEO updates for existing cards in a nonproduction environment. Obtain explicit user approval, record its reference, run strict preflight on fresh OUT, and review the resulting SEO-only diff before enabling the registry. Preparation alone grants no production authorization.
 
 Current blockers and complete supplier inventory are in `CTR-2026-09-VALIDATION.md`. A preparation CI pass does **not** mean activation readiness. `node scripts/validate-seo-overrides.js --require-ready` currently exits nonzero as intended.
 
 ## Measurement and rollback
 
-Keep baseline clicks, impressions, CTR and average position tied to the original URL. Evaluate CTR together with position, availability and redirect changes. Do not silently merge MOZA's redirected URL into the baseline. Missing pages are experimental attrition, not zero-CTR observations. The two reference controls are not a randomized matched control group; do not infer causality from them alone.
+Keep baseline clicks, impressions, CTR and average position tied to the original URL. Evaluate CTR together with position, availability and redirect changes. Do not silently merge MOZA's redirected URL into the baseline. Missing pages are experimental attrition, not zero-CTR observations. Revision 2 uses 20 traffic-paired controls with deterministic pseudorandom arm assignment. They are not matched on category, query or supplier; this remains an exploratory low-traffic pilot. The complete fixed measurement plan and 20 SEO drafts are in CTR-2026-09-COHORT-R2.md.
 
 Pause overrides with `PAUSED`; normal SEO generation returns on the next supplier regeneration. An immediate rollback must restore only the previous SEO fields after validating the same identity, never publish an old whole feed with stale price or stock.

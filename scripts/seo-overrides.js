@@ -15,7 +15,7 @@ function validateRegistry(config) {
   if (!['PREPARED_NOT_ACTIVE', 'ACTIVE', 'PAUSED'].includes(config.status)) errors.push('unknown status');
   if (config.baseline?.from !== BASELINE.from || config.baseline?.to !== BASELINE.to) errors.push('baseline must be 2026-08-10 through 2026-09-16');
   if (!Array.isArray(config.products) || config.products.length !== 20) errors.push('exactly 20 candidates required');
-  if (!Array.isArray(config.controls) || config.controls.length !== 2) errors.push('exactly 2 protected controls required');
+  if (!Array.isArray(config.controls) || config.controls.length !== 20) errors.push('exactly 20 protected controls required');
   if (errors.length) throw new Error(`Invalid SEO override registry: ${errors.join('; ')}`);
   const keys = new Set(), urls = new Set();
   for (const entry of [...config.products, ...config.controls]) {
@@ -31,6 +31,7 @@ function validateRegistry(config) {
       keys.add(key);
       if (entry.out !== `output/${entry.supplier}.xml` || entry.transform !== `scripts/transform-${entry.supplier}.js`) errors.push(`wrong transform/OUT: ${key}`);
     }
+    if (config.status === 'ACTIVE' && entry.currentUrl !== entry.url) errors.push(`changed URL: ${entry.url}`);
     if (config.status === 'ACTIVE' && (entry.mappingStatus !== 'VERIFIED' || !entry.code || !entry.supplier || !nonempty(entry.evidenceRef))) errors.push(`unverified mapping: ${entry.url}`);
   }
   for (const entry of config.products) {

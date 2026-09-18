@@ -13,42 +13,6 @@
   "errors": [],
   "blockers": [
     {
-      "url": "https://www.premiumstore.sk/xiaomi-redmi-smart-pen--white/",
-      "reason": "NOT_IN_CURRENT_OUT"
-    },
-    {
-      "url": "https://www.premiumstore.sk/tesla-powerwash-steam-station-tqs600/",
-      "reason": "NOT_IN_CURRENT_OUT"
-    },
-    {
-      "url": "https://www.premiumstore.sk/samsung-galaxy-watch-9-40mm-cream/",
-      "reason": "NOT_IN_CURRENT_OUT"
-    },
-    {
-      "url": "https://www.premiumstore.sk/vasa-freza-makera-carvera-air-cnc/",
-      "reason": "NOT_IN_CURRENT_OUT"
-    },
-    {
-      "url": "https://www.premiumstore.sk/simulacna-suprava-moza-racing-r5-pro/",
-      "reason": "URL_CHANGED"
-    },
-    {
-      "url": "https://www.premiumstore.sk/flytec-v030-zakladny-nastrahovy-valec-bateria/",
-      "reason": "AMBIGUOUS_IDENTITY"
-    },
-    {
-      "url": "https://www.premiumstore.sk/tcl-55t8c-qled-4k-smart-google-tv/",
-      "reason": "NOT_IN_CURRENT_OUT"
-    },
-    {
-      "url": "https://www.premiumstore.sk/domo-do9276c/",
-      "reason": "NOT_IN_CURRENT_OUT"
-    },
-    {
-      "url": "https://www.premiumstore.sk/poco-f9-ultra-16-512gb-black/",
-      "reason": "NOT_IN_CURRENT_OUT"
-    },
-    {
       "reason": "EXPLICIT_USER_ACTIVATION_APPROVAL_MISSING"
     },
     {
@@ -61,7 +25,7 @@
       "items": 5520,
       "sha256": "76fb93c15a5b24ab55d739a6c63d16fc277c48b2c0ff010ca8b72addc249a4ae",
       "inactiveSha256": "76fb93c15a5b24ab55d739a6c63d16fc277c48b2c0ff010ca8b72addc249a4ae",
-      "previewProducts": 5,
+      "previewProducts": 9,
       "nonSeoBeforeSha256": "4f4b859dc9e0548e34b444b5e02bb4764a0fc6d605a02aa329d038a981b6d0e2",
       "nonSeoAfterSha256": "4f4b859dc9e0548e34b444b5e02bb4764a0fc6d605a02aa329d038a981b6d0e2"
     },
@@ -70,7 +34,7 @@
       "items": 5056,
       "sha256": "3e81799aeef6bb865801ab01a766ee2fd91abe175de5786639842131780c6710",
       "inactiveSha256": "3e81799aeef6bb865801ab01a766ee2fd91abe175de5786639842131780c6710",
-      "previewProducts": 3,
+      "previewProducts": 1,
       "nonSeoBeforeSha256": "a95eaa66b41e2d3a999b03274d0ba12f4015580a1cacbff53bffe743ca450a3f",
       "nonSeoAfterSha256": "a95eaa66b41e2d3a999b03274d0ba12f4015580a1cacbff53bffe743ca450a3f"
     },
@@ -79,7 +43,7 @@
       "items": 11958,
       "sha256": "657ac805f0c3016545477e07ead703e7b0d840cd1e01c43865d93ebff3ea3e1b",
       "inactiveSha256": "657ac805f0c3016545477e07ead703e7b0d840cd1e01c43865d93ebff3ea3e1b",
-      "previewProducts": 3,
+      "previewProducts": 9,
       "nonSeoBeforeSha256": "b8062e0fcb6a3247428ae719d5951095227333dc3316960ec985d8ff36dcc085",
       "nonSeoAfterSha256": "b8062e0fcb6a3247428ae719d5951095227333dc3316960ec985d8ff36dcc085"
     },
@@ -138,32 +102,8 @@
         "metaDescription": "Mini PC GMKtec EVO-X2 Ryzen AI Max+ 395 s 64 GB RAM, 1 TB SSD a Windows 11 Pro – skladom. Kúpte na premiumstore.sk."
       },
       "after": {
-        "seoTitle": "GMKtec EVO-X2 64 GB / 1 TB, Ryzen AI Max+ 395",
-        "metaDescription": "Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Overte si parametre a aktuálnu dostupnosť."
-      }
-    },
-    {
-      "supplier": "innpro",
-      "code": "088002",
-      "before": {
-        "seoTitle": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 pre… | premiumstore.sk",
-        "metaDescription": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 pre CarPlay/Android Auto – skladom. Kúpte na premiumstore.sk."
-      },
-      "after": {
-        "seoTitle": "Carlinkit Mini Ultra 5 – bezdrôtové CarPlay / Android Auto",
-        "metaDescription": "Adaptér Carlinkit Mini Ultra 5 pre bezdrôtové CarPlay a Android Auto. Overte si kompatibilitu s vozidlom a aktuálnu dostupnosť."
-      }
-    },
-    {
-      "supplier": "innpro",
-      "code": "083984",
-      "before": {
-        "seoTitle": "Flytec V803-GPS 5200mAh loď na návnadu | premiumstore.sk",
-        "metaDescription": "Flytec V803-GPS 5200mAh loď na návnadu – skladom. Kúpte na premiumstore.sk."
-      },
-      "after": {
-        "seoTitle": "Flytec V803-GPS 5200 mAh – loď na návnadu",
-        "metaDescription": "Loď na návnadu Flytec V803-GPS s kapacitou batérie 5200 mAh. Overte si parametre, obsah balenia a aktuálnu dostupnosť."
+        "seoTitle": "GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD",
+        "metaDescription": "Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť."
       }
     },
     {
@@ -174,8 +114,20 @@
         "metaDescription": "Bezdrôtový adaptér Ottocast OTTOAIBOX P3 Pro pre Android – skladom. Kúpte na premiumstore.sk."
       },
       "after": {
-        "seoTitle": "Ottocast OttoAibox P3 Pro pre Android | PremiumStore.sk",
-        "metaDescription": "Bezdrôtový adaptér Ottocast OttoAibox P3 Pro pre Android. Pred nákupom si overte kompatibilitu s vozidlom a obsah balenia."
+        "seoTitle": "Ottocast OTTOAIBOX P3 Pro – adaptér pre Android",
+        "metaDescription": "Ottocast OTTOAIBOX P3 Pro pre Android. Pred výberom si overte kompatibilitu s vozidlom, pripojenie a obsah balenia na PremiumStore.sk."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "091439",
+      "before": {
+        "seoTitle": "Okuliare VITURE Pro 2 XR | premiumstore.sk",
+        "metaDescription": "Okuliare VITURE Pro 2 XR – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "VITURE Pro 2 XR – okuliare | PremiumStore.sk",
+        "metaDescription": "Okuliare VITURE Pro 2 XR. Pozrite si parametre obrazu, možnosti pripojenia a kompatibilitu so zariadeniami pred výberom."
       }
     },
     {
@@ -186,44 +138,80 @@
         "metaDescription": "MINIS FORUM X1 Pro-370 Ryzen AI 9 HX370 Mini PC v základnej zostave – skladom. Kúpte na premiumstore.sk."
       },
       "after": {
-        "seoTitle": "MINIS FORUM X1 Pro-370 – Ryzen AI 9 HX370 Mini PC",
-        "metaDescription": "MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, parametre a aktuálnu dostupnosť."
+        "seoTitle": "MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370",
+        "metaDescription": "MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "089327",
+      "before": {
+        "seoTitle": "Tester USB FNIRSI FNB-C2 | premiumstore.sk",
+        "metaDescription": "Tester USB FNIRSI FNB-C2 – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "FNIRSI FNB-C2 – USB tester | PremiumStore.sk",
+        "metaDescription": "USB tester FNIRSI FNB-C2. Pozrite si merané veličiny, podporované konektory a technické parametre na PremiumStore.sk."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "088364",
+      "before": {
+        "seoTitle": "Mini PC MINIS FORUM UM760 Slim Ryzen 5 7640HS (bez… | premiumstore.sk",
+        "metaDescription": "Mini PC MINIS FORUM UM760 Slim Ryzen 5 7640HS (bez skrinky) – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "MINIS FORUM UM760 Slim – mini PC s Ryzen 5 7640HS",
+        "metaDescription": "Mini PC MINIS FORUM UM760 Slim s Ryzen 5 7640HS. Pred objednaním si overte presnú konfiguráciu, obsah balenia a možnosti rozšírenia."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "084248",
+      "before": {
+        "seoTitle": "Powerbanka Flextail Zero Power Metal 5000 mAh… | premiumstore.sk",
+        "metaDescription": "Powerbanka Flextail Zero Power Metal 5000 mAh (strieborná) – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Flextail Zero Power Metal – powerbanka 5 000 mAh",
+        "metaDescription": "Strieborná powerbanka Flextail Zero Power Metal s kapacitou 5 000 mAh. Pozrite si rozmery, konektory a možnosti nabíjania."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "089326",
+      "before": {
+        "seoTitle": "Detektor káblov FNIRSI LPM-10A | premiumstore.sk",
+        "metaDescription": "Detektor káblov FNIRSI LPM-10A – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "FNIRSI LPM-10A – detektor káblov | PremiumStore.sk",
+        "metaDescription": "Detektor káblov FNIRSI LPM-10A. Pozrite si podporované merania, spôsob použitia a obsah balenia pred objednaním."
+      }
+    },
+    {
+      "supplier": "innpro",
+      "code": "087760",
+      "before": {
+        "seoTitle": "MEROSS MRS200MA-EU – inteligentný navíjací… | premiumstore.sk",
+        "metaDescription": "MEROSS MRS200MA-EU – inteligentný navíjací mechanizmus na rolety s Wi-Fi – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Meross MRS200MA-EU – Wi-Fi navíjací mechanizmus na rolety",
+        "metaDescription": "Inteligentný navíjací mechanizmus Meross MRS200MA-EU na rolety s Wi-Fi. Overte si kompatibilitu, napájanie a podmienky montáže."
       }
     },
     {
       "supplier": "kb",
-      "code": "100002204353",
+      "code": "100002202637",
       "before": {
-        "seoTitle": "POCO F9 PRO 12/256GB Black | premiumstore.sk",
-        "metaDescription": "POCO F9 PRO 12/256GB Black – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk."
+        "seoTitle": "Xiaomi Redmi Pad 2 9.7 Cover (77599) | premiumstore.sk",
+        "metaDescription": "Xiaomi Redmi Pad 2 9.7 Cover (77599) – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk."
       },
       "after": {
-        "seoTitle": "POCO F9 Pro 12/256 GB Black | PremiumStore.sk",
-        "metaDescription": "POCO F9 Pro v čiernej farbe s 12 GB RAM a 256 GB úložiskom. Pozrite si parametre, cenu a aktuálnu dostupnosť na PremiumStore.sk."
-      }
-    },
-    {
-      "supplier": "kb",
-      "code": "100002204355",
-      "before": {
-        "seoTitle": "POCO F9 Ultra 12/256GB Black | premiumstore.sk",
-        "metaDescription": "POCO F9 Ultra 12/256GB Black – 3-5 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk."
-      },
-      "after": {
-        "seoTitle": "POCO F9 Ultra 12/256 GB Black | PremiumStore.sk",
-        "metaDescription": "POCO F9 Ultra v čiernej farbe s 12 GB RAM a 256 GB úložiskom. Pozrite si parametre, cenu a aktuálnu dostupnosť na PremiumStore.sk."
-      }
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201158",
-      "before": {
-        "seoTitle": "Beko B3BCNA324HS | premiumstore.sk",
-        "metaDescription": "Beko B3BCNA324HS – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk."
-      },
-      "after": {
-        "seoTitle": "Beko B3BCNA324HS | Parametre a dostupnosť",
-        "metaDescription": "Beko B3BCNA324HS na PremiumStore.sk. Pozrite si rozmery, technické parametre, aktuálnu cenu a dostupnosť pred objednaním."
+        "seoTitle": "Xiaomi Redmi Pad 2 9.7 Cover 77599 – obal na tablet",
+        "metaDescription": "Obal Xiaomi Redmi Pad 2 9.7 Cover, model 77599. Pred výberom si overte kompatibilitu s tabletom, vyhotovenie a aktuálnu dostupnosť."
       }
     },
     {
@@ -235,19 +223,7 @@
       },
       "after": {
         "seoTitle": "Stronglift SL500X INOX – stojan pre tepelné čerpadlo",
-        "metaDescription": "Stojan Stronglift SL500X INOX pre tepelné čerpadlo alebo klimatizáciu. Pozrite si rozmery, parametre a aktuálnu dostupnosť."
-      }
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-06530200",
-      "before": {
-        "seoTitle": "Trafopájka AKU SOLDINGER PC-100 kompatibilní s… | premiumstore.sk",
-        "metaDescription": "Trafopájka AKU SOLDINGER PC-100 kompatibilní s akumulátory typu DeWalt – skladom. Kúpte na premiumstore.sk."
-      },
-      "after": {
-        "seoTitle": "SOLDINGER PC-100 – aku trafospájkovačka pre DeWalt",
-        "metaDescription": "Aku trafospájkovačka SOLDINGER PC-100 kompatibilná s akumulátormi typu DeWalt. Overte si parametre, obsah balenia a dostupnosť."
+        "metaDescription": "Stojan Stronglift SL500X INOX pre tepelné čerpadlo alebo klimatizáciu. Pozrite si rozmery, technické parametre a aktuálnu dostupnosť."
       }
     },
     {
@@ -258,8 +234,92 @@
         "metaDescription": "Homatics Box 4K V2 AI-SR Google TV - UHD multimediální přehrávač – skladom. Kúpte na premiumstore.sk."
       },
       "after": {
-        "seoTitle": "Homatics Box 4K V2 AI-SR – Google TV prehrávač",
-        "metaDescription": "Homatics Box 4K V2 AI-SR s Google TV na prehrávanie multimédií v UHD. Pozrite si parametre, pripojenia a aktuálnu dostupnosť."
+        "seoTitle": "Homatics Box 4K V2 AI-SR – UHD prehrávač s Google TV",
+        "metaDescription": "Homatics Box 4K V2 AI-SR s Google TV na prehrávanie multimédií v UHD. Overte si konektory, funkcie, obsah balenia a aktuálnu cenu."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-T549A",
+      "before": {
+        "seoTitle": "Automatický přepínač sítí - napájení 4P 400V 20A -… | premiumstore.sk",
+        "metaDescription": "Automatický přepínač sítí - napájení 4P 400V 20A - NLQ4-125/4P pro FVE od Zhejiang Nalei Electric – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "NLQ4-125/4P 20 A – automatický prepínač sietí pre FVE",
+        "metaDescription": "Automatický prepínač sietí NLQ4-125/4P, 4P, 400 V, 20 A pre FVE. Pozrite si technické parametre a požiadavky na zapojenie."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM2021",
+      "before": {
+        "seoTitle": "LCD displej KRUGER & MATZ KM2021 Android Auto Apple… | premiumstore.sk",
+        "metaDescription": "LCD displej KRUGER & MATZ KM2021 Android Auto Apple Carplay s DVR a couvací kamerou – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Kruger & Matz KM2021 – displej CarPlay / Android Auto",
+        "metaDescription": "Displej Kruger & Matz KM2021 s Android Auto, Apple CarPlay, DVR a cúvacou kamerou. Overte si pripojenie a presný obsah balenia."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-3024041700",
+      "before": {
+        "seoTitle": "Kamera EMOS IP-1100G WALL /H4170/ GoSmart venkovní… | premiumstore.sk",
+        "metaDescription": "Kamera EMOS IP-1100G WALL /H4170/ GoSmart venkovní bateriová s WiFi a solárním panelem – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "EMOS GoSmart IP-1100G WALL H4170 – Wi-Fi kamera",
+        "metaDescription": "Vonkajšia batériová kamera EMOS GoSmart IP-1100G WALL H4170 s Wi-Fi a solárnym panelom. Pozrite si parametre a obsah balenia."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "EL-TES-KNOB-B-3/Y",
+      "before": {
+        "seoTitle": "Enhance S3XY Knob ovladač + Commander + kabely,… | premiumstore.sk",
+        "metaDescription": "Enhance S3XY Knob ovladač + Commander + kabely, Tesla 3/Y 2021+ (přední i zadní instalace) – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Enhance S3XY Knob + Commander pre Tesla 3/Y 2021+",
+        "metaDescription": "Súprava Enhance S3XY Knob, Commander a káblov pre Tesla 3/Y 2021+. Overte si kompatibilitu a podmienky prednej či zadnej inštalácie."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-06437074",
+      "before": {
+        "seoTitle": "Záložní zdroj VOLT POLSKA Sinus Pro 800 E 12V/230V… | premiumstore.sk",
+        "metaDescription": "Záložní zdroj VOLT POLSKA Sinus Pro 800 E 12V/230V 800VA 500W – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "VOLT POLSKA Sinus Pro 800 E – záložný zdroj 500 W",
+        "metaDescription": "Záložný zdroj VOLT POLSKA Sinus Pro 800 E, 12 V/230 V, 800 VA/500 W. Pozrite si parametre a požiadavky na pripojenie batérie."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "T531911",
+      "before": {
+        "seoTitle": "Televes SMARTKOM 531911 digitální programovatelný… | premiumstore.sk",
+        "metaDescription": "Televes SMARTKOM 531911 digitální programovatelný zesilovač – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Televes SMARTKOM 531911 – programovateľný zosilňovač",
+        "metaDescription": "Digitálny programovateľný zosilňovač Televes SMARTKOM 531911. Overte si vstupy, podporované pásma a možnosti nastavenia."
+      }
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM0923-2G",
+      "before": {
+        "seoTitle": "Telefon GSM Kruger&Matz Simple 923 pro seniory –… | premiumstore.sk",
+        "metaDescription": "Telefon GSM Kruger&Matz Simple 923 pro seniory od Kruger & Matz – skladom. Kúpte na premiumstore.sk."
+      },
+      "after": {
+        "seoTitle": "Kruger & Matz Simple 923 – GSM telefón pre seniorov",
+        "metaDescription": "GSM telefón Kruger & Matz Simple 923 pre seniorov. Pozrite si ovládanie, funkcie, podporované siete a obsah balenia."
       }
     },
     {

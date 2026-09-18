@@ -12,7 +12,7 @@ function entry(supplier, code, url) {
 }
 function fixture() {
   const products = Array.from({ length: 20 }, (_, i) => entry(SUPPLIERS[i % 8], String(i).padStart(6, '0'), `test-${i}`));
-  return { schemaVersion: 2, experimentId: 'CTR-2026-09', status: 'ACTIVE', baseline: { from: '2026-08-10', to: '2026-09-16', verified: true }, activation: { approvedBy: 'TEST ONLY', approvedAt: '2026-09-18', approvalReference: 'fixture', preflightPassed: true }, products, controls: [entry('innpro','CONTROL1','control-1'),entry('kb','CONTROL2','control-2')] };
+  return { schemaVersion: 2, experimentId: 'CTR-2026-09', status: 'ACTIVE', baseline: { from: '2026-08-10', to: '2026-09-16', verified: true }, activation: { approvedBy: 'TEST ONLY', approvedAt: '2026-09-18', approvalReference: 'fixture', preflightPassed: true }, products, controls: Array.from({length:20},(_,i)=>entry(SUPPLIERS[i%8],`CONTROL${i+1}`,`control-${i+1}`)) };
 }
 function item(code, ean = '0123456789012', price = 17, tags = '<SEO_TITLE><![CDATA[Old title]]></SEO_TITLE><META_DESCRIPTION>Old meta</META_DESCRIPTION>') {
   return `<SHOPITEM><CODE>${code}</CODE><EAN>${ean}</EAN><NAME>Žltý produkt</NAME><PRICE_VAT>${price}</PRICE_VAT><STOCK><AMOUNT>8</AMOUNT></STOCK><AVAILABILITY_IN>3 dni</AVAILABILITY_IN><URL>keep-url</URL><DESCRIPTION><![CDATA[Keep <SHOPITEM><CODE>fake</CODE></SHOPITEM>]]></DESCRIPTION><IMAGES><IMAGE>x.jpg</IMAGE></IMAGES>${tags}</SHOPITEM>`;
@@ -83,6 +83,8 @@ for(const [name,mutate,pattern] of [
  ['empty meta',c=>c.products[0].metaDescription='',/META_DESCRIPTION/],
  ['XML control character',c=>c.products[0].seoTitle='Bad\u0001',/SEO_TITLE/],
  ['missing member',c=>c.products.pop(),/20 candidates/],
+ ['missing protected control',c=>c.controls.pop(),/20 protected controls/],
+ ['changed URL',c=>c.products[0].currentUrl+='renamed',/changed URL/],
  ['unverified baseline',c=>c.baseline.verified=false,/baseline/],
  ['missing preflight',c=>c.activation.preflightPassed=false,/preflight/]
 ]) test(`guard: ${name}`,()=>{const c=fixture();mutate(c);assert.throws(()=>validateRegistry(c),pattern);});
@@ -92,7 +94,7 @@ test('malformed XML and DTD are rejected',()=>{
   assert.throws(()=>inspectFeed(wrap('<SHOPITEM><CODE>x</CODE><CODE>y</CODE></SHOPITEM>')),/duplicate CODE/);
 });
 test('committed registry cannot be activated by only flipping status',()=>{
-  const c=loadSeoOverrides();assert.equal(c.status,'PREPARED_NOT_ACTIVE');c.status='ACTIVE';assert.throws(()=>validateRegistry(c),/unverified mapping/);
+  const c=loadSeoOverrides();assert.equal(c.status,'PREPARED_NOT_ACTIVE');c.status='ACTIVE';assert.throws(()=>validateRegistry(c),/approval/);
 });
 test('strict multi-feed failure occurs before any file is written',()=>{
   const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'ctr-'));
@@ -120,4 +122,14 @@ test('all automated OUT writers finalize SEO after product/category changes',()=
     }
     assert.ok(hook<text.indexOf('git add '),name+' must finalize before staging');
   }
+});
+
+test('refreshed cohort protects all 20 controls from SEO changes',()=>{
+ const c=fixture();
+ for(const supplier of SUPPLIERS){
+ const controls=c.controls.filter(x=>x.supplier===supplier);
+ const before=wrap(c.products.filter(x=>x.supplier===supplier).map(x=>item(x.code)).join('')+controls.map(x=>item(x.code)).join(''));
+ const after=applyFeedOverrides(before,supplier,c,{strict:true}).xml;
+ for(const control of controls)assert.ok(after.includes(item(control.code)));
+ }
 });
