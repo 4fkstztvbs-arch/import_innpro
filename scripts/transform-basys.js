@@ -176,6 +176,7 @@ async function loadFeed() {
 }
 
 function buildShopitemXml(p) {
+  p = require('./product-content-overrides').applyProductContent('basys', p);
   const parts = ['<SHOPITEM>'];
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
   if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
