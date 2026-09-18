@@ -1,3 +1,5 @@
+> Aktualizácia nasadenia: používateľ následne schválil nasadenie SEO zmien do importných súborov. Register je pripravený ako ACTIVE po čerstvom preflighte; historické označenia PREPARED_NOT_ACTIVE a chýbajúci súhlas nižšie dokumentujú predchádzajúci stav. Pozri CTR-2026-09-DEPLOYMENT.md.
+
 # PremiumStore – nová vzorka CTR testu (revízia 2)
 
 **Pripravené, nespustené. 20 testovacích produktov + 20 kontrolných.**

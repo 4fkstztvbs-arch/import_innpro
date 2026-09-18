@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "experimentId": "CTR-2026-09",
-  "status": "PREPARED_NOT_ACTIVE",
+  "status": "ACTIVE",
   "baseline": {
     "from": "2026-08-10",
     "to": "2026-09-16",
@@ -10,10 +10,11 @@
     "sha256": "e61e717dc20d148a76e01a074c1e25b393a429338530aacc232f50bcb1e803b4"
   },
   "activation": {
-    "approvedBy": null,
-    "approvedAt": null,
-    "approvalReference": null,
-    "preflightPassed": false
+    "approvedBy": "user",
+    "approvedAt": "2026-09-18T14:08:45.046343+00:00",
+    "approvalReference": "User request in this task: OK. Vies tieto zmeny produktov nasadit do importnych suborov? Aby sa nestalo ze nam kazdu noc udaje automaticky prepise novy import. Idealne ako krok po vygenerovani importu pripadne priamo do vytvarania importu",
+    "preflightPassed": true,
+    "preflightScope": "Fresh supplier OUT identities, 40 storefront URLs, SEO-only byte preservation and automated tests. Feed publication approved; end-to-end Shoptet import remains separately unverified."
   },
   "products": [
     {

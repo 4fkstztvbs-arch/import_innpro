@@ -1,0 +1,450 @@
+{
+  "asOf": "2026-09-18T14:08:45.046343+00:00",
+  "sourceMainCommit": "807bf32e31e1dca2b892325ff5208607cb310729",
+  "approval": {
+    "approvedBy": "user",
+    "approvedAt": "2026-09-18T14:08:45.046343+00:00",
+    "approvalReference": "User request in this task: OK. Vies tieto zmeny produktov nasadit do importnych suborov? Aby sa nestalo ze nam kazdu noc udaje automaticky prepise novy import. Idealne ako krok po vygenerovani importu pripadne priamo do vytvarania importu",
+    "preflightPassed": true,
+    "preflightScope": "Fresh supplier OUT identities, 40 storefront URLs, SEO-only byte preservation and automated tests. Feed publication approved; end-to-end Shoptet import remains separately unverified."
+  },
+  "storefrontChecks": [
+    {
+      "expectedUrl": "https://www.premiumstore.sk/mini-pc-gmktec-evo-x2-ryzen-ai-max--395-s-64-gb-ram--1-tb-ssd-a-windows-11-pro/",
+      "expectedCode": "088850",
+      "actualUrl": "https://www.premiumstore.sk/mini-pc-gmktec-evo-x2-ryzen-ai-max--395-s-64-gb-ram--1-tb-ssd-a-windows-11-pro/",
+      "canonical": "https://www.premiumstore.sk/mini-pc-gmktec-evo-x2-ryzen-ai-max--395-s-64-gb-ram--1-tb-ssd-a-windows-11-pro/",
+      "code": "088850",
+      "h1": "Mini PC GMKtec EVO-X2 Ryzen AI Max+ 395 s 64 GB RAM, 1 TB SSD a Windows 11 Pro",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/poco-f9-pro-12-256gb-black/",
+      "expectedCode": "KB_100002204353",
+      "actualUrl": "https://www.premiumstore.sk/poco-f9-pro-12-256gb-black/",
+      "canonical": "https://www.premiumstore.sk/poco-f9-pro-12-256gb-black/",
+      "code": "KB_100002204353",
+      "h1": "POCO F9 PRO 12/256GB Black",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/cistiaci-robot-mova-v70-ultra-complete-v-bielej-farbe/",
+      "expectedCode": "088466",
+      "actualUrl": "https://www.premiumstore.sk/cistiaci-robot-mova-v70-ultra-complete-v-bielej-farbe/",
+      "canonical": "https://www.premiumstore.sk/cistiaci-robot-mova-v70-ultra-complete-v-bielej-farbe/",
+      "code": "088466",
+      "h1": "Čistiaci robot MOVA V70 Ultra Complete v bielej farbe",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/bezdrotovy-adapter-ottocast-ottoaibox-p3-pro-pre-android/",
+      "expectedCode": "087844",
+      "actualUrl": "https://www.premiumstore.sk/bezdrotovy-adapter-ottocast-ottoaibox-p3-pro-pre-android/",
+      "canonical": "https://www.premiumstore.sk/bezdrotovy-adapter-ottocast-ottoaibox-p3-pro-pre-android/",
+      "code": "087844",
+      "h1": "Bezdrôtový adaptér Ottocast OTTOAIBOX P3 Pro pre Android",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/stojan-pro-tepelne-cerpadlo-klimatizace-stronglift-sl500x-inox/",
+      "expectedCode": "AT_STRONGLIFT SL500X",
+      "actualUrl": "https://www.premiumstore.sk/stojan-pro-tepelne-cerpadlo-klimatizace-stronglift-sl500x-inox/",
+      "canonical": "https://www.premiumstore.sk/stojan-pro-tepelne-cerpadlo-klimatizace-stronglift-sl500x-inox/",
+      "code": "AT_STRONGLIFT SL500X",
+      "h1": "Stojan pro tepelné čerpadlo klimatizace STRONGLIFT SL500X INOX",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/bezdrotovy-adapter-carlinkit-mini-ultra-5-pre-carplay-android-auto/",
+      "expectedCode": "088002",
+      "actualUrl": "https://www.premiumstore.sk/bezdrotovy-adapter-carlinkit-mini-ultra-5-pre-carplay-android-auto/",
+      "canonical": "https://www.premiumstore.sk/bezdrotovy-adapter-carlinkit-mini-ultra-5-pre-carplay-android-auto/",
+      "code": "088002",
+      "h1": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 pre CarPlay/Android Auto",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/homatics-box-4k-v2-ai-sr-google-tv-uhd-multimedialni-prehravac/",
+      "expectedCode": "AT_MMCHB4KV2",
+      "actualUrl": "https://www.premiumstore.sk/homatics-box-4k-v2-ai-sr-google-tv-uhd-multimedialni-prehravac/",
+      "canonical": "https://www.premiumstore.sk/homatics-box-4k-v2-ai-sr-google-tv-uhd-multimedialni-prehravac/",
+      "code": "AT_MMCHB4KV2",
+      "h1": "Homatics Box 4K V2 AI-SR Google TV - UHD multimediální přehrávač",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/flytec-v803-gps-5200mah-lod-na-navnadu/",
+      "expectedCode": "083984",
+      "actualUrl": "https://www.premiumstore.sk/flytec-v803-gps-5200mah-lod-na-navnadu/",
+      "canonical": "https://www.premiumstore.sk/flytec-v803-gps-5200mah-lod-na-navnadu/",
+      "code": "083984",
+      "h1": "Flytec V803-GPS 5200mAh loď na návnadu",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/monacor-dt-25n-neodymovy-hi-fi-vyskovy-reproduktor--40-w--8-/",
+      "expectedCode": "MON_DT-25N",
+      "actualUrl": "https://www.premiumstore.sk/monacor-dt-25n-neodymovy-hi-fi-vyskovy-reproduktor--40-w--8-/",
+      "canonical": "https://www.premiumstore.sk/monacor-dt-25n-neodymovy-hi-fi-vyskovy-reproduktor--40-w--8-/",
+      "code": "MON_DT-25N",
+      "h1": "Monacor DT-25N Neodymový Hi-Fi výškový reproduktor, 40 W, 8 Ω",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/okuliare-viture-pro-2-xr/",
+      "expectedCode": "091439",
+      "actualUrl": "https://www.premiumstore.sk/okuliare-viture-pro-2-xr/",
+      "canonical": "https://www.premiumstore.sk/okuliare-viture-pro-2-xr/",
+      "code": "091439",
+      "h1": "Okuliare VITURE Pro 2 XR",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/trafopajka-aku-soldinger-pc-100-kompatibilni-s-akumulatory-typu-dewalt/",
+      "expectedCode": "AT_TIP-06530200",
+      "actualUrl": "https://www.premiumstore.sk/trafopajka-aku-soldinger-pc-100-kompatibilni-s-akumulatory-typu-dewalt/",
+      "canonical": "https://www.premiumstore.sk/trafopajka-aku-soldinger-pc-100-kompatibilni-s-akumulatory-typu-dewalt/",
+      "code": "AT_TIP-06530200",
+      "h1": "Trafopájka AKU SOLDINGER PC-100 kompatibilní s akumulátory typu DeWalt",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/solight-kefka-na-cistenie-filtra-pre-dyson-airwrap/",
+      "expectedCode": "SOL_DSP-DYHS01QJS",
+      "actualUrl": "https://www.premiumstore.sk/solight-kefka-na-cistenie-filtra-pre-dyson-airwrap/",
+      "canonical": "https://www.premiumstore.sk/solight-kefka-na-cistenie-filtra-pre-dyson-airwrap/",
+      "code": "SOL_DSP-DYHS01QJS",
+      "h1": "Solight kefka na čistenie filtra pre Dyson Airwrap",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/minis-forum-x1-pro-370-ryzen-ai-9-hx370-mini-pc-v-zakladnej-zostave/",
+      "expectedCode": "088348",
+      "actualUrl": "https://www.premiumstore.sk/minis-forum-x1-pro-370-ryzen-ai-9-hx370-mini-pc-v-zakladnej-zostave/",
+      "canonical": "https://www.premiumstore.sk/minis-forum-x1-pro-370-ryzen-ai-9-hx370-mini-pc-v-zakladnej-zostave/",
+      "code": "088348",
+      "h1": "MINIS FORUM X1 Pro-370 Ryzen AI 9 HX370 Mini PC v základnej zostave",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/beko-b3bcna324hs/",
+      "expectedCode": "KB_100002201158",
+      "actualUrl": "https://www.premiumstore.sk/beko-b3bcna324hs/",
+      "canonical": "https://www.premiumstore.sk/beko-b3bcna324hs/",
+      "code": "KB_100002201158",
+      "h1": "Beko B3BCNA324HS",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/automaticky-prepinac-siti-napajeni-4p-400v-20a-nlq4-125-4p-pro-fve/",
+      "expectedCode": "AT_ATO-T549A",
+      "actualUrl": "https://www.premiumstore.sk/automaticky-prepinac-siti-napajeni-4p-400v-20a-nlq4-125-4p-pro-fve/",
+      "canonical": "https://www.premiumstore.sk/automaticky-prepinac-siti-napajeni-4p-400v-20a-nlq4-125-4p-pro-fve/",
+      "code": "AT_ATO-T549A",
+      "h1": "Automatický přepínač sítí - napájení 4P 400V 20A - NLQ4-125/4P pro FVE",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/inteligentna-samocistiaca-toaleta-pre-macky-ubpet-c41/",
+      "expectedCode": "087571",
+      "actualUrl": "https://www.premiumstore.sk/inteligentna-samocistiaca-toaleta-pre-macky-ubpet-c41/",
+      "canonical": "https://www.premiumstore.sk/inteligentna-samocistiaca-toaleta-pre-macky-ubpet-c41/",
+      "code": "087571",
+      "h1": "Inteligentná samočistiaca toaleta pre mačky UBPet C41",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/filter-mova-pre-stanicu-g70-2/",
+      "expectedCode": "087027",
+      "actualUrl": "https://www.premiumstore.sk/filter-mova-pre-stanicu-g70-2/",
+      "canonical": "https://www.premiumstore.sk/filter-mova-pre-stanicu-g70-2/",
+      "code": "087027",
+      "h1": "Filter MOVA pre stanicu G70",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/lcd-displej-kruger-matz-km2021-android-auto-apple-carplay-s-dvr-a-couvaci-kamerou/",
+      "expectedCode": "AT_LEC-KM2021",
+      "actualUrl": "https://www.premiumstore.sk/lcd-displej-kruger-matz-km2021-android-auto-apple-carplay-s-dvr-a-couvaci-kamerou/",
+      "canonical": "https://www.premiumstore.sk/lcd-displej-kruger-matz-km2021-android-auto-apple-carplay-s-dvr-a-couvaci-kamerou/",
+      "code": "AT_LEC-KM2021",
+      "h1": "LCD displej KRUGER & MATZ KM2021 Android Auto Apple Carplay s DVR a couvací kamerou",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/whirlpool-whk-26373-xbr6ea-ai-adaptiveco/",
+      "expectedCode": "KB_100002203269",
+      "actualUrl": "https://www.premiumstore.sk/whirlpool-whk-26373-xbr6ea-ai-adaptiveco/",
+      "canonical": "https://www.premiumstore.sk/whirlpool-whk-26373-xbr6ea-ai-adaptiveco/",
+      "code": "KB_100002203269",
+      "h1": "Whirlpool WHK 26373 XBR6EA AI AdaptiveCo",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/kamera-emos-ip-1100g-wall--h4170--gosmart-venkovni-bateriova-s-wifi-a-solarnim-panelem/",
+      "expectedCode": "AT_ATO-3024041700",
+      "actualUrl": "https://www.premiumstore.sk/kamera-emos-ip-1100g-wall--h4170--gosmart-venkovni-bateriova-s-wifi-a-solarnim-panelem/",
+      "canonical": "https://www.premiumstore.sk/kamera-emos-ip-1100g-wall--h4170--gosmart-venkovni-bateriova-s-wifi-a-solarnim-panelem/",
+      "code": "AT_ATO-3024041700",
+      "h1": "Kamera EMOS IP-1100G WALL /H4170/ GoSmart venkovní bateriová s WiFi a solárním panelem",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/tester-usb-fnirsi-fnb-c2/",
+      "expectedCode": "089327",
+      "actualUrl": "https://www.premiumstore.sk/tester-usb-fnirsi-fnb-c2/",
+      "canonical": "https://www.premiumstore.sk/tester-usb-fnirsi-fnb-c2/",
+      "code": "089327",
+      "h1": "Tester USB FNIRSI FNB-C2",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/bose-quietcomfort-headphones-club-sc-bluetooth-sluchadla-s-potlacenim-okoliteho-hluku--cierne/",
+      "expectedCode": "BAS_BASYS-B 884367-0900",
+      "actualUrl": "https://www.premiumstore.sk/bose-quietcomfort-headphones-club-sc-bluetooth-sluchadla-s-potlacenim-okoliteho-hluku--cierne/",
+      "canonical": "https://www.premiumstore.sk/bose-quietcomfort-headphones-club-sc-bluetooth-sluchadla-s-potlacenim-okoliteho-hluku--cierne/",
+      "code": "BAS_BASYS-B 884367-0900",
+      "h1": "Bose QuietComfort Headphones Club SC - Bluetooth slúchadlá s potlačením okolitého hluku, čierne",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/mini-pc-minis-forum-um760-slim-ryzen-5-7640hs--bez-skrinky/",
+      "expectedCode": "088364",
+      "actualUrl": "https://www.premiumstore.sk/mini-pc-minis-forum-um760-slim-ryzen-5-7640hs--bez-skrinky/",
+      "canonical": "https://www.premiumstore.sk/mini-pc-minis-forum-um760-slim-ryzen-5-7640hs--bez-skrinky/",
+      "code": "088364",
+      "h1": "Mini PC MINIS FORUM UM760 Slim Ryzen 5 7640HS (bez skrinky)",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/router-gl-inet-flint-2-wi-fi-6/",
+      "expectedCode": "093437",
+      "actualUrl": "https://www.premiumstore.sk/router-gl-inet-flint-2-wi-fi-6/",
+      "canonical": "https://www.premiumstore.sk/router-gl-inet-flint-2-wi-fi-6/",
+      "code": "093437",
+      "h1": "Router GL.iNet Flint 2 Wi-Fi 6",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/samsung-oled-qe55s95h/",
+      "expectedCode": "KB_100002203112",
+      "actualUrl": "https://www.premiumstore.sk/samsung-oled-qe55s95h/",
+      "canonical": "https://www.premiumstore.sk/samsung-oled-qe55s95h/",
+      "code": "KB_100002203112",
+      "h1": "Samsung OLED QE55S95H",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/powerbanka-flextail-zero-power-metal-5000-mah--strieborna/",
+      "expectedCode": "084248",
+      "actualUrl": "https://www.premiumstore.sk/powerbanka-flextail-zero-power-metal-5000-mah--strieborna/",
+      "canonical": "https://www.premiumstore.sk/powerbanka-flextail-zero-power-metal-5000-mah--strieborna/",
+      "code": "084248",
+      "h1": "Powerbanka Flextail Zero Power Metal 5000 mAh (strieborná)",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/enhance-s3xy-knob-ovladac-commander-kabely--tesla-3-y-2021-predni-i-zadni-instalace/",
+      "expectedCode": "AT_EL-TES-KNOB-B-3/Y",
+      "actualUrl": "https://www.premiumstore.sk/enhance-s3xy-knob-ovladac-commander-kabely--tesla-3-y-2021-predni-i-zadni-instalace/",
+      "canonical": "https://www.premiumstore.sk/enhance-s3xy-knob-ovladac-commander-kabely--tesla-3-y-2021-predni-i-zadni-instalace/",
+      "code": "AT_EL-TES-KNOB-B-3/Y",
+      "h1": "Enhance S3XY Knob ovladač + Commander + kabely, Tesla 3/Y 2021+ (přední i zadní instalace)",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/urevo-foldimix-5l-pro-elektricky-bezecky-pas--strieborny/",
+      "expectedCode": "081289",
+      "actualUrl": "https://www.premiumstore.sk/urevo-foldimix-5l-pro-elektricky-bezecky-pas--strieborny/",
+      "canonical": "https://www.premiumstore.sk/urevo-foldimix-5l-pro-elektricky-bezecky-pas--strieborny/",
+      "code": "081289",
+      "h1": "UREVO FoldiMix 5L Pro elektrický bežecký pás (strieborný)",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/prenosny-kompresor-fanttik-x8-apex/",
+      "expectedCode": "079834",
+      "actualUrl": "https://www.premiumstore.sk/prenosny-kompresor-fanttik-x8-apex/",
+      "canonical": "https://www.premiumstore.sk/prenosny-kompresor-fanttik-x8-apex/",
+      "code": "079834",
+      "h1": "Prenosný kompresor Fanttik X8 Apex",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/zalozni-zdroj-volt-polska-sinus-pro-800-e-12v-230v-800va-500w/",
+      "expectedCode": "AT_TIP-06437074",
+      "actualUrl": "https://www.premiumstore.sk/zalozni-zdroj-volt-polska-sinus-pro-800-e-12v-230v-800va-500w/",
+      "canonical": "https://www.premiumstore.sk/zalozni-zdroj-volt-polska-sinus-pro-800-e-12v-230v-800va-500w/",
+      "code": "AT_TIP-06437074",
+      "h1": "Záložní zdroj VOLT POLSKA Sinus Pro 800 E 12V/230V 800VA 500W",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/panel-tlacidiel-ovladacieho-panela-pxn-cb1/",
+      "expectedCode": "080997",
+      "actualUrl": "https://www.premiumstore.sk/panel-tlacidiel-ovladacieho-panela-pxn-cb1/",
+      "canonical": "https://www.premiumstore.sk/panel-tlacidiel-ovladacieho-panela-pxn-cb1/",
+      "h1": "Panel tlačidiel ovládacieho panela PXN CB1",
+      "robots": "index,follow",
+      "code": "080997"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/televes-smartkom-531911-digitalni-programovatelny-zesilovac/",
+      "expectedCode": "AT_T531911",
+      "actualUrl": "https://www.premiumstore.sk/televes-smartkom-531911-digitalni-programovatelny-zesilovac/",
+      "canonical": "https://www.premiumstore.sk/televes-smartkom-531911-digitalni-programovatelny-zesilovac/",
+      "code": "AT_T531911",
+      "h1": "Televes SMARTKOM 531911 digitální programovatelný zesilovač",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/adapter-obsbot-uvc-na-hdmi/",
+      "expectedCode": "076214",
+      "actualUrl": "https://www.premiumstore.sk/adapter-obsbot-uvc-na-hdmi/",
+      "canonical": "https://www.premiumstore.sk/adapter-obsbot-uvc-na-hdmi/",
+      "code": "076214",
+      "h1": "Adaptér OBSBOT UVC na HDMI",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/detektor-kablov-fnirsi-lpm-10a/",
+      "expectedCode": "089326",
+      "actualUrl": "https://www.premiumstore.sk/detektor-kablov-fnirsi-lpm-10a/",
+      "canonical": "https://www.premiumstore.sk/detektor-kablov-fnirsi-lpm-10a/",
+      "code": "089326",
+      "h1": "Detektor káblov FNIRSI LPM-10A",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/meross-mrs200ma-eu---inteligentny-navijaci-mechanizmus-na-rolety-s-wi-fi/",
+      "expectedCode": "087760",
+      "actualUrl": "https://www.premiumstore.sk/meross-mrs200ma-eu---inteligentny-navijaci-mechanizmus-na-rolety-s-wi-fi/",
+      "canonical": "https://www.premiumstore.sk/meross-mrs200ma-eu---inteligentny-navijaci-mechanizmus-na-rolety-s-wi-fi/",
+      "code": "087760",
+      "h1": "MEROSS MRS200MA-EU – inteligentný navíjací mechanizmus na rolety s Wi-Fi",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/trafo-230-12v--10amp/",
+      "expectedCode": "AT_CMP-07116",
+      "actualUrl": "https://www.premiumstore.sk/trafo-230-12v--10amp/",
+      "canonical": "https://www.premiumstore.sk/trafo-230-12v--10amp/",
+      "code": "AT_CMP-07116",
+      "h1": "Trafo 230/12V  10Amp",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/pioneer-ts-wx140da-aktivny-subwoofer-do-auta/",
+      "expectedCode": "BAS_BASYS-TS-WX140DA",
+      "actualUrl": "https://www.premiumstore.sk/pioneer-ts-wx140da-aktivny-subwoofer-do-auta/",
+      "canonical": "https://www.premiumstore.sk/pioneer-ts-wx140da-aktivny-subwoofer-do-auta/",
+      "code": "BAS_BASYS-TS-WX140DA",
+      "h1": "Pioneer TS-WX140DA aktivny subwoofer do auta",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/xiaomi-redmi-pad-2-9-7-cover--77599/",
+      "expectedCode": "KB_100002202637",
+      "actualUrl": "https://www.premiumstore.sk/xiaomi-redmi-pad-2-9-7-cover--77599/",
+      "canonical": "https://www.premiumstore.sk/xiaomi-redmi-pad-2-9-7-cover--77599/",
+      "code": "KB_100002202637",
+      "h1": "Xiaomi Redmi Pad 2 9.7 Cover (77599)",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/blesk-godox-v850iii/",
+      "expectedCode": "090984",
+      "actualUrl": "https://www.premiumstore.sk/blesk-godox-v850iii/",
+      "canonical": "https://www.premiumstore.sk/blesk-godox-v850iii/",
+      "code": "090984",
+      "h1": "Blesk GODOX V850III",
+      "robots": "index,follow"
+    },
+    {
+      "expectedUrl": "https://www.premiumstore.sk/telefon-gsm-kruger-matz-simple-923-pro-seniory/",
+      "expectedCode": "AT_LEC-KM0923-2G",
+      "actualUrl": "https://www.premiumstore.sk/telefon-gsm-kruger-matz-simple-923-pro-seniory/",
+      "canonical": "https://www.premiumstore.sk/telefon-gsm-kruger-matz-simple-923-pro-seniory/",
+      "code": "AT_LEC-KM0923-2G",
+      "h1": "Telefon GSM Kruger&Matz Simple 923 pro seniory",
+      "robots": "index,follow"
+    }
+  ],
+  "freshFeedChecks": [
+    {
+      "supplier": "innpro",
+      "items": 5522,
+      "sha256": "6fb6e7a97d8346aa6736931de9bc2f0b85f1ec5cb2f630bde5cc9eeda21e6757",
+      "inactiveSha256": "6fb6e7a97d8346aa6736931de9bc2f0b85f1ec5cb2f630bde5cc9eeda21e6757",
+      "previewProducts": 9,
+      "nonSeoBeforeSha256": "c213a394fc2deb9a7b302ba5a677dd220a654bbd219033cc82bc0dcbece30ae9",
+      "nonSeoAfterSha256": "c213a394fc2deb9a7b302ba5a677dd220a654bbd219033cc82bc0dcbece30ae9"
+    },
+    {
+      "supplier": "kb",
+      "items": 5056,
+      "sha256": "3e81799aeef6bb865801ab01a766ee2fd91abe175de5786639842131780c6710",
+      "inactiveSha256": "3e81799aeef6bb865801ab01a766ee2fd91abe175de5786639842131780c6710",
+      "previewProducts": 1,
+      "nonSeoBeforeSha256": "a95eaa66b41e2d3a999b03274d0ba12f4015580a1cacbff53bffe743ca450a3f",
+      "nonSeoAfterSha256": "a95eaa66b41e2d3a999b03274d0ba12f4015580a1cacbff53bffe743ca450a3f"
+    },
+    {
+      "supplier": "atos",
+      "items": 11958,
+      "sha256": "657ac805f0c3016545477e07ead703e7b0d840cd1e01c43865d93ebff3ea3e1b",
+      "inactiveSha256": "657ac805f0c3016545477e07ead703e7b0d840cd1e01c43865d93ebff3ea3e1b",
+      "previewProducts": 9,
+      "nonSeoBeforeSha256": "b8062e0fcb6a3247428ae719d5951095227333dc3316960ec985d8ff36dcc085",
+      "nonSeoAfterSha256": "b8062e0fcb6a3247428ae719d5951095227333dc3316960ec985d8ff36dcc085"
+    },
+    {
+      "supplier": "basys",
+      "items": 917,
+      "sha256": "12d348dc5f80593ea8811cb7ddfd319b46f9048985e45f8bc1b3f17f71e41535",
+      "inactiveSha256": "12d348dc5f80593ea8811cb7ddfd319b46f9048985e45f8bc1b3f17f71e41535",
+      "previewProducts": 0,
+      "nonSeoBeforeSha256": "88207cfe23948426b523f6f640f8102fe185f619a7e09a12caedac1cf02ab45b",
+      "nonSeoAfterSha256": "88207cfe23948426b523f6f640f8102fe185f619a7e09a12caedac1cf02ab45b"
+    },
+    {
+      "supplier": "monacor",
+      "items": 1820,
+      "sha256": "8f2a188417021a37b7c97117a6dbd365c9eca6754702417e5db9c224a537b15d",
+      "inactiveSha256": "8f2a188417021a37b7c97117a6dbd365c9eca6754702417e5db9c224a537b15d",
+      "previewProducts": 0,
+      "nonSeoBeforeSha256": "7c1c2a201a98599981ca9f7cbdf15f1881a2e075bea7fc861f54177d0a4a0151",
+      "nonSeoAfterSha256": "7c1c2a201a98599981ca9f7cbdf15f1881a2e075bea7fc861f54177d0a4a0151"
+    },
+    {
+      "supplier": "penta",
+      "items": 431,
+      "sha256": "a391c018331d023843fcca5ee4dd2525009e1eff61a6b39937f444fc7890ec61",
+      "inactiveSha256": "a391c018331d023843fcca5ee4dd2525009e1eff61a6b39937f444fc7890ec61",
+      "previewProducts": 0,
+      "nonSeoBeforeSha256": "5c1f2fb7633a963b215bcca4b74dd904a629bd0c4669b521a1f0e7e22ed191d1",
+      "nonSeoAfterSha256": "5c1f2fb7633a963b215bcca4b74dd904a629bd0c4669b521a1f0e7e22ed191d1"
+    },
+    {
+      "supplier": "solight",
+      "items": 1286,
+      "sha256": "61542b1e7831c101a5e1c7865c7b8933f31d7ff68aeed98d9ee73b4cf0af1564",
+      "inactiveSha256": "61542b1e7831c101a5e1c7865c7b8933f31d7ff68aeed98d9ee73b4cf0af1564",
+      "previewProducts": 1,
+      "nonSeoBeforeSha256": "c2631534a70e98e505b0be8cc305fcdf39a2ec1c6377ea1e82ac31fc0a95e82c",
+      "nonSeoAfterSha256": "c2631534a70e98e505b0be8cc305fcdf39a2ec1c6377ea1e82ac31fc0a95e82c"
+    },
+    {
+      "supplier": "wiim",
+      "items": 29,
+      "sha256": "5bae9d9cbf6bd336a102a282d48df11cebe9a89ff5fa233b2af32b4ba7071e83",
+      "inactiveSha256": "5bae9d9cbf6bd336a102a282d48df11cebe9a89ff5fa233b2af32b4ba7071e83",
+      "previewProducts": 0,
+      "nonSeoBeforeSha256": "78e6278e17201f36402d886ba94cb5539607d92ec318b8011de8576639c5ab55",
+      "nonSeoAfterSha256": "78e6278e17201f36402d886ba94cb5539607d92ec318b8011de8576639c5ab55"
+    }
+  ],
+  "shoptetSeoImportVerified": false,
+  "measurementStart": null,
+  "note": "User approved deployment into import files. Prior recommendation to test a nonproduction Shoptet is not represented as completed. This release verifies feed output; actual storefront SEO and Google adoption must be checked after import."
+}

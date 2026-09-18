@@ -1,0 +1,56 @@
+name: Publish approved CTR SEO overrides
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/seo/ctr-test-overrides.json'
+      - 'scripts/seo-overrides.js'
+      - 'scripts/seo-feed-xml.js'
+      - 'scripts/apply-seo-overrides.js'
+      - '.github/workflows/seo-ctr-publish.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: ctr-seo-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci --ignore-scripts
+      - run: npm run test:seo-overrides
+      - name: Apply approved SEO to fresh main without restoring old feed data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "ctr-seo-bot"
+          git config user.email "actions@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            node -e "if(require('./data/seo/ctr-test-overrides.json').status!=='ACTIVE')process.exit(1)"
+            node scripts/validate-seo-overrides.js --require-ready
+            node scripts/apply-seo-overrides.js --strict --write
+            git add output/*.xml
+            if git diff --staged --quiet; then
+              exit 0
+            fi
+            git commit -m "Apply approved CTR SEO titles and descriptions"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "::error::Concurrent feed changes prevented publication; retry on fresh main."
+          exit 1
+      - name: Rebuild public import URLs after the bot commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"

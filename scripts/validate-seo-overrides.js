@@ -17,7 +17,6 @@ function validate() {
   const baseline=JSON.parse(fs.readFileSync(path.join(ROOT,'reports/seo/ctr-baseline-evidence.json'),'utf8'));
   const evidence=JSON.parse(fs.readFileSync(path.join(ROOT,'reports/seo/ctr-mapping-evidence.json'),'utf8'));
   const errors=[], blockers=[], feeds=[], previews=[];
-  if(config.status!=='PREPARED_NOT_ACTIVE') errors.push('Preparation branch must remain PREPARED_NOT_ACTIVE');
   if(baseline.baseline.from!==config.baseline.from||baseline.baseline.to!==config.baseline.to||baseline.dates.join('/')!=='2026-08-10/2026-09-16'||baseline.sha256!==config.baseline.sha256) errors.push('Baseline provenance mismatch');
   const members=[...config.products,...config.controls];
   for(const [i,x] of members.entries()) {
@@ -42,7 +41,7 @@ function validate() {
   if(seen.size!==40) errors.push('Not all cohort members have a unique frozen pair');
   for(const supplier of SUPPLIERS) {
     const file=path.join(ROOT,'output',`${supplier}.xml`),xml=fs.readFileSync(file,'utf8'),items=inspectFeed(xml);
-    const inactive=applyFeedOverrides(xml,supplier,config);
+    const inactive=applyFeedOverrides(xml,supplier,{...config,status:'PREPARED_NOT_ACTIVE'});
     if(inactive.xml!==xml) errors.push(`Inactive output changed: ${supplier}`);
     const changes=[];
     for(const entry of members.filter(x=>x.supplier===supplier&&x.mappingStatus==='VERIFIED')) {

@@ -93,8 +93,8 @@ test('malformed XML and DTD are rejected',()=>{
   assert.throws(()=>inspectFeed('<!DOCTYPE SHOP><SHOP/>'),/DTD/);
   assert.throws(()=>inspectFeed(wrap('<SHOPITEM><CODE>x</CODE><CODE>y</CODE></SHOPITEM>')),/duplicate CODE/);
 });
-test('committed registry cannot be activated by only flipping status',()=>{
-  const c=loadSeoOverrides();assert.equal(c.status,'PREPARED_NOT_ACTIVE');c.status='ACTIVE';assert.throws(()=>validateRegistry(c),/approval/);
+test('committed registry requires explicit activation approval',()=>{
+  const c=loadSeoOverrides();c.status='ACTIVE';c.activation.approvalReference=null;assert.throws(()=>validateRegistry(c),/approval/);
 });
 test('strict multi-feed failure occurs before any file is written',()=>{
   const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'ctr-'));

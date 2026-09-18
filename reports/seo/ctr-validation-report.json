@@ -1,6 +1,6 @@
 {
   "experimentId": "CTR-2026-09",
-  "status": "PREPARED_NOT_ACTIVE",
+  "status": "ACTIVE",
   "baseline": {
     "from": "2026-08-10",
     "to": "2026-09-16",
@@ -9,25 +9,18 @@
     "sha256": "e61e717dc20d148a76e01a074c1e25b393a429338530aacc232f50bcb1e803b4"
   },
   "preparationValid": true,
-  "activationReady": false,
+  "activationReady": true,
   "errors": [],
-  "blockers": [
-    {
-      "reason": "EXPLICIT_USER_ACTIVATION_APPROVAL_MISSING"
-    },
-    {
-      "reason": "FULL_ACTIVATION_PREFLIGHT_NOT_PASSED"
-    }
-  ],
+  "blockers": [],
   "feeds": [
     {
       "supplier": "innpro",
-      "items": 5520,
-      "sha256": "76fb93c15a5b24ab55d739a6c63d16fc277c48b2c0ff010ca8b72addc249a4ae",
-      "inactiveSha256": "76fb93c15a5b24ab55d739a6c63d16fc277c48b2c0ff010ca8b72addc249a4ae",
+      "items": 5522,
+      "sha256": "6fb6e7a97d8346aa6736931de9bc2f0b85f1ec5cb2f630bde5cc9eeda21e6757",
+      "inactiveSha256": "6fb6e7a97d8346aa6736931de9bc2f0b85f1ec5cb2f630bde5cc9eeda21e6757",
       "previewProducts": 9,
-      "nonSeoBeforeSha256": "4f4b859dc9e0548e34b444b5e02bb4764a0fc6d605a02aa329d038a981b6d0e2",
-      "nonSeoAfterSha256": "4f4b859dc9e0548e34b444b5e02bb4764a0fc6d605a02aa329d038a981b6d0e2"
+      "nonSeoBeforeSha256": "c213a394fc2deb9a7b302ba5a677dd220a654bbd219033cc82bc0dcbece30ae9",
+      "nonSeoAfterSha256": "c213a394fc2deb9a7b302ba5a677dd220a654bbd219033cc82bc0dcbece30ae9"
     },
     {
       "supplier": "kb",

@@ -1,4 +1,4 @@
-name: Inactive CTR preparation validation
+name: CTR SEO validation
 on:
   pull_request:
     paths:
@@ -22,7 +22,7 @@ jobs:
       - run: npm ci --ignore-scripts
       - run: npm run test:seo-overrides
       - run: npm run validate:seo-overrides
-      - name: Verify inactive write invocation leaves every OUT unchanged
+      - name: Verify dry run leaves every OUT unchanged
         run: |
-          node scripts/apply-seo-overrides.js --write
+          node scripts/apply-seo-overrides.js --strict
           git diff --exit-code -- output/
