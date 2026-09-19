@@ -1,6 +1,6 @@
 # Produkty pod nákupnou cenou (skryté)
 
-Kontrola z 2026-09-19 18:19 UTC.
+Kontrola z 2026-09-19 19:25 UTC.
 
 Týchto **215** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
 na každom predanom kuse prerobili. Sú preto nastavené ako **skryté** a v e-shope sa
@@ -15,24 +15,24 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `CMP-TO-09463` | Fólie krycí 4 x 5 m stavební | 1.50 € | 1.22 € | 1.48 € | -17.6 % |
 | `ELKAPR0704296` | Silový kabel H05RR-F 3G2,5 (CGSG)  3x2,5 guma, venkovní | 2.00 € | 1.63 € | 1.89 € | -14.0 % |
 | `LEC-RB-1131` | Svinovací metr Rebel RB-1131 délka 5m šíře 25mm | 2.00 € | 1.63 € | 1.85 € | -12.1 % |
-| `CMP-TO-73260` | Tyčka do tavné pistole 7 x 100 mm (12ks) | 1.00 € | 0.81 € | 0.92 € | -11.6 % |
 | `CMP-TO-70420` | Nýt hliníkový 4,0 x 12,7 mm 50ks | 1.00 € | 0.81 € | 0.92 € | -11.6 % |
+| `CMP-TO-73260` | Tyčka do tavné pistole 7 x 100 mm (12ks) | 1.00 € | 0.81 € | 0.92 € | -11.6 % |
 | `ABT-A500005483` | Baterie olověná  12V / 28 Ah  MHPower GE28-12 GEL | 50.90 € | 41.38 € | 46.64 € | -11.3 % |
 | `CMP-TO-70410` | Nýt hliníkový 4,0 x 9,6 mm 50ks | 0.90 € | 0.73 € | 0.82 € | -10.8 % |
 | `CMP-TO-75238` | Páska textilní "DUCT" 48mmx10m | 1.50 € | 1.22 € | 1.36 € | -10.3 % |
 | `CMP-TO-70510` | Nýt hliníkový 4,8 x 19 mm 50 ks | 1.50 € | 1.22 € | 1.36 € | -10.3 % |
-| `CMP-TO-75201` | Páska teflonová 12 x 0,1mm 12m | 0.60 € | 0.49 € | 0.54 € | -9.7 % |
 | `CMP-TO-72100` | Spona do sešívačky 10 x 11,2 x 0,7 mm 1000 ks | 0.60 € | 0.49 € | 0.54 € | -9.7 % |
+| `CMP-TO-75201` | Páska teflonová 12 x 0,1mm 12m | 0.60 € | 0.49 € | 0.54 € | -9.7 % |
 | `ELE-1000242` | VUK 68-SK víčko sádrokartonové krabice | 0.30 € | 0.24 € | 0.27 € | -9.7 % |
 | `M8X120TORX40` | Vrut M8x120 do dřevostaveb talířová hlava, Torx 40, nerez A2 | 0.50 € | 0.41 € | 0.45 € | -9.7 % |
 | `ATO-L877` | Oko kabelové 4,3mm modré (RVS 2-4) | 0.10 € | 0.08 € | 0.09 € | -9.7 % |
-| `692328` | Matice M8 s ozubeným límcem DIN 6923 A2, nerez | 0.10 € | 0.08 € | 0.09 € | -9.7 % |
-| `ATO-K730A` | Pojistkový držák do DPS pro pojistky 5x20mm, rozteč vývodů 5mm | 0.10 € | 0.08 € | 0.09 € | -9.7 % |
 | `ATO-L874` | Oko kabelové 4,3mm žluté (RVS 5,5-4) | 0.10 € | 0.08 € | 0.09 € | -9.7 % |
+| `ATO-K730A` | Pojistkový držák do DPS pro pojistky 5x20mm, rozteč vývodů 5mm | 0.10 € | 0.08 € | 0.09 € | -9.7 % |
+| `692328` | Matice M8 s ozubeným límcem DIN 6923 A2, nerez | 0.10 € | 0.08 € | 0.09 € | -9.7 % |
 | `ELE-1000440` | Hmoždinka natloukací NH 6x80 | 0.10 € | 0.08 € | 0.09 € | -9.7 % |
 | `CMP-TO-09150` | Pistole na kartuše 230 mm | 2.50 € | 2.03 € | 2.24 € | -9.3 % |
-| `CMP-TO-09920` | Sada štětců malířských 3 ks | 1.60 € | 1.30 € | 1.43 € | -9.0 % |
 | `CMP-TO-09372` | Váleček malířský 110 x 35 x 6 mm s držákem | 1.60 € | 1.30 € | 1.43 € | -9.0 % |
+| `CMP-TO-09920` | Sada štětců malířských 3 ks | 1.60 € | 1.30 € | 1.43 € | -9.0 % |
 | `LEC-RBA-3101-BL` | Gymnastický míč REBEL ACTIVE RBA-3101-BL 65 cm s ruční pumpou, modrý | 6.90 € | 5.61 € | 6.16 € | -8.9 % |
 | `FIR-1613220` | Relé elektromagnetické F&F PP-1Zi/24, 1× NO, 24V AC/DC, 16A, do krabic | 14.50 € | 11.79 € | 12.89 € | -8.5 % |
 | `CMP-TO-09462` | Fólie krycí 4 x 5 m malířská | 0.80 € | 0.65 € | 0.71 € | -8.4 % |
@@ -49,13 +49,13 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `ATO-A500001750` | Baterie olověná  12V / 33 Ah MHPower MS33-12 | 57.00 € | 46.34 € | 50.05 € | -7.4 % |
 | `CMP-TO-06130` | Sada špachtlí 3 ks | 1.70 € | 1.38 € | 1.49 € | -7.2 % |
 | `CMP-TO-83002` | Trychtýř plastový 3dílný | 1.70 € | 1.38 € | 1.49 € | -7.2 % |
-| `CMP-TO-76761` | Těsnění do oken a dveří samolepící 9x5,5mm TYP P hnědé 6M | 3.80 € | 3.09 € | 3.33 € | -7.2 % |
 | `CMP-TO-76751` | Těsnění do oken a dveří samolepící 9x5,5mm TYP P bílé 6M | 3.80 € | 3.09 € | 3.33 € | -7.2 % |
+| `CMP-TO-76761` | Těsnění do oken a dveří samolepící 9x5,5mm TYP P hnědé 6M | 3.80 € | 3.09 € | 3.33 € | -7.2 % |
 | `CMP-TO-75240` | Páska samolepící textilní DUCT, 48 mm x 50 m | 5.00 € | 4.07 € | 4.38 € | -7.2 % |
 | `CMP-TO-09535` | Štětec 75 mm anglický profesionální | 3.30 € | 2.68 € | 2.89 € | -7.2 % |
 | `CMP-TO-70430` | Nýt hliníkový 4,0 x 19 mm 50 ks | 1.20 € | 0.98 € | 1.05 € | -7.1 % |
-| `CMP-TO-05300` | Přísavka manipulační na sklo 115 mm do 40 kg | 4.00 € | 3.25 € | 3.50 € | -7.1 % |
 | `CMP-TO-75239` | Páska samolepící textilní DUCT, 38 mm x 50 m | 4.00 € | 3.25 € | 3.50 € | -7.1 % |
+| `CMP-TO-05300` | Přísavka manipulační na sklo 115 mm do 40 kg | 4.00 € | 3.25 € | 3.50 € | -7.1 % |
 | `CMP-amK0021` | K2 ULTRA CUT 100 g - pasta k odstranění škrábanců | 3.20 € | 2.60 € | 2.80 € | -7.1 % |
 | `ATO-92011` | Náhradní objímka na kolo pravá pro nosič E-BIKE | 4.70 € | 3.82 € | 4.11 € | -7.0 % |
 | `ATO-92010` | Náhradní objímka na kolo levá pro nosič E-BIKE | 4.70 € | 3.82 € | 4.11 € | -7.0 % |
@@ -79,16 +79,16 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `CMP-TO-09930` | Sada štětců malířských 3 ks | 2.00 € | 1.63 € | 1.73 € | -6.0 % |
 | `ELE-1009553` | Ventilátor VENTS TT 160 potrubní | 77.00 € | 62.60 € | 66.57 € | -6.0 % |
 | `CMP-TO-09533` | Štětec 50 mm anglický profesionální | 2.40 € | 1.95 € | 2.07 € | -5.7 % |
-| `CMP-TO-08574` | Brusný papír 125 mm P40 s otvory 5 ks suchý zip | 0.80 € | 0.65 € | 0.69 € | -5.7 % |
 | `CMP-YT-83352` | Kotouč lamelový radiální 40x20  P-60 s hřídelí 6 mm | 0.80 € | 0.65 € | 0.69 € | -5.7 % |
 | `CMP-YT-83353` | Kotouč lamelový radiální 40x20 P-80 s hřídelí 6 mm | 0.80 € | 0.65 € | 0.69 € | -5.7 % |
+| `CMP-TO-08574` | Brusný papír 125 mm P40 s otvory 5 ks suchý zip | 0.80 € | 0.65 € | 0.69 € | -5.7 % |
 | `CMP-TO-70490` | Nýt hliníkový 4,8 x 9,6 mm 50ks | 1.30 € | 1.06 € | 1.12 € | -5.6 % |
 | `CMP-TO-09400` | Vědro malířské plastové 14l | 4.10 € | 3.33 € | 3.53 € | -5.6 % |
 | `CMP-TO-09523` | Štětec 50 mm anglický | 1.50 € | 1.22 € | 1.29 € | -5.5 % |
 | `CMP-TO-04451` | Výtlačná spárovací pistole špičatá hubice | 11.50 € | 9.35 € | 9.88 € | -5.4 % |
+| `CMP-TO-76750` | Těsnění do oken a dveří samolepící 9x4mm TYP E bílé 6M | 3.60 € | 2.93 € | 3.09 € | -5.3 % |
 | `CMP-TO-76760` | Těsnění do oken a dveří samolepící 9x4mm TYP E hnědé 6M | 3.60 € | 2.93 € | 3.09 € | -5.3 % |
 | `CMP-TO-78385` | Odhrotovač kombi 6 - 36 mm vnitřní/vnější | 3.60 € | 2.93 € | 3.09 € | -5.3 % |
-| `CMP-TO-76750` | Těsnění do oken a dveří samolepící 9x4mm TYP E bílé 6M | 3.60 € | 2.93 € | 3.09 € | -5.3 % |
 | `CMP-TO-83005` | Trychtýř plastový sada 4ks | 1.90 € | 1.54 € | 1.63 € | -5.2 % |
 | `LEC-RBA-6002-GL` | Akupresurní podložka s polštářem REBEL ACTIVE RBA-6002-GL | 11.50 € | 9.35 € | 9.86 € | -5.2 % |
 | `CMP-TO-06391` | Vědro stavební plastové 12 l | 2.50 € | 2.03 € | 2.14 € | -5.0 % |
@@ -102,23 +102,23 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `ATO-92014` | Náhradní matice se zámkem pro nosič E-BIKE, DOLPHIN 3 a 4 | 5.80 € | 4.72 € | 4.93 € | -4.4 % |
 | `KRA-SKVZP` | Hliníková FV přídavná podpěra na plochou střechu V-Z 10° | 30.00 € | 24.39 € | 25.43 € | -4.1 % |
 | `LEC-RBA-3060` | Posilovací kolečko REBEL ACTIVE RBA-3060 AB Wheel AB-1 | 7.30 € | 5.93 € | 6.16 € | -3.7 % |
-| `CMP-01516` | Pásek reflexní ROLLER S.O.R. žlutý | 1.00 € | 0.81 € | 0.84 € | -3.2 % |
 | `CMP-TO-05560` | Vrták do skla a glazury 6 mm | 1.00 € | 0.81 € | 0.84 € | -3.2 % |
 | `CMP-TO-06965` | Kartáč drátěný ruční mosaz | 1.00 € | 0.81 € | 0.84 € | -3.2 % |
 | `CMP-TO-38515` | Svěrka upínací 150 mm plastová | 1.00 € | 0.81 € | 0.84 € | -3.2 % |
 | `CMP-01518` | Pásek reflexní ROLLER S.O.R. stříbrný | 1.00 € | 0.81 € | 0.84 € | -3.2 % |
+| `CMP-01516` | Pásek reflexní ROLLER S.O.R. žlutý | 1.00 € | 0.81 € | 0.84 € | -3.2 % |
 | `LEC-TSA5006.1` | Chladící box Teesa TSA5006.1 35l 230/12V | 75.90 € | 61.71 € | 63.73 € | -3.2 % |
 | `PEN-52350025` | Baterie olověná  12V / 40 Ah  MHPower MS40-12 | 71.00 € | 57.72 € | 59.58 € | -3.1 % |
 | `ABT-A500005484` | Baterie olověná 12V / 33 Ah MHPower GE33-12 GEL | 60.50 € | 49.19 € | 50.54 € | -2.7 % |
 | `TIP-06426279` | Reproduktor Bluetooth KRUGER & MATZ Explorer+ | 98.00 € | 79.67 € | 81.85 € | -2.7 % |
 | `CMP-TO-75631` | Sprchová hlavice FALA Hermana | 2.90 € | 2.36 € | 2.42 € | -2.6 % |
-| `ATO-92018` | Náhradní objímka na kolo levá pro nosič DOLPHIN 3 a 4 | 6.40 € | 5.20 € | 5.34 € | -2.6 % |
 | `ATO-92019` | Náhradní objímka na kolo pravá pro nosič DOLPHIN 3 a 4 | 6.40 € | 5.20 € | 5.34 € | -2.6 % |
+| `ATO-92018` | Náhradní objímka na kolo levá pro nosič DOLPHIN 3 a 4 | 6.40 € | 5.20 € | 5.34 € | -2.6 % |
 | `CMP-TO-08171` | Kotouč na kov 125 x 22 x 1,0 mm | 0.60 € | 0.49 € | 0.50 € | -2.4 % |
 | `CMP-YT-4351` | Vrták do dřeva spirálový  4x75 mm | 0.60 € | 0.49 € | 0.50 € | -2.4 % |
+| `CMP-YT-8159` | Páska izolační 15 x 0,13 mm x 20 m černá | 1.00 € | 0.81 € | 0.83 € | -2.0 % |
 | `CMP-TO-33650` | Palička gumová 55 mm | 2.00 € | 1.63 € | 1.66 € | -2.0 % |
 | `CMP-YT-36472` | Nýtovací matice ocelová M5, 20ks | 1.00 € | 0.81 € | 0.83 € | -2.0 % |
-| `CMP-YT-8159` | Páska izolační 15 x 0,13 mm x 20 m černá | 1.00 € | 0.81 € | 0.83 € | -2.0 % |
 | `LEC-RBA-1016` | Spinningové kolo REBEL ACTIVE RBA-1016 | 104.50 € | 84.96 € | 86.62 € | -1.9 % |
 | `CMP-TO-70320` | Nýt hliníkový 3,2 x 6,4 mm 50ks | 0.70 € | 0.57 € | 0.58 € | -1.9 % |
 | `CMP-TO-06820` | Škrabka na sklo břit 60 mm | 0.70 € | 0.57 € | 0.58 € | -1.9 % |
@@ -142,10 +142,10 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `CMP-YT-73080` | Multimetr digitální YATO YT-73080 | 8.90 € | 7.24 € | 7.30 € | -0.9 % |
 | `CMP-21006` | Lopatka zahradní SEED 34 x 8cm Garvia 21006 | 3.00 € | 2.44 € | 2.46 € | -0.9 % |
 | `CMP-21007` | Lopatka zahradní SEED 34 x 5cm Garvia 21007 | 3.00 € | 2.44 € | 2.46 € | -0.9 % |
+| `CMP-07409` | Konektor do auto zapalovače Compass 07409 12V / 24V s pojistkou | 2.00 € | 1.63 € | 1.64 € | -0.9 % |
 | `ABT-A500004999` | Kabel UTP CAT5E Solarix SXKD-5E-UTP-PVC 100m | 0.50 € | 0.41 € | 0.41 € | -0.9 % |
 | `ELE-1000696` | Sběrný kabelový držák LKG 8, křídlový, 8x kabel 3x1,5mm2 /1310810 | 0.50 € | 0.41 € | 0.41 € | -0.9 % |
 | `ELE-1007902` | Koncovka EK-D - 3/10 pro 3-pól. prop. lišty, průřez 10mm2 | 0.50 € | 0.41 € | 0.41 € | -0.9 % |
-| `CMP-07409` | Konektor do auto zapalovače Compass 07409 12V / 24V s pojistkou | 2.00 € | 1.63 € | 1.64 € | -0.9 % |
 | `BOSGPDU2BMS` | BMS controllbox Deye BOS-G-PDU-2 pro sestavy BOS-G Pro, HV | 1002.00 € | 814.63 € | 821.39 € | -0.8 % |
 | `TIP-06430069` | Fólie vakuovací TEESA 15x500cm 2ks | 4.10 € | 3.33 € | 3.36 € | -0.8 % |
 | `CMP-TO-64385` | Ráčnový šroubovák s nástavci sada 41ks | 13.00 € | 10.57 € | 10.65 € | -0.8 % |
@@ -159,46 +159,46 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `TIP-09830109` | Mega2560-16AU R3, precizní klon Arduino | 29.50 € | 23.98 € | 24.10 € | -0.5 % |
 | `TIP-08840180` | Termostat AVANSA 110 E příložný | 32.50 € | 26.42 € | 26.55 € | -0.5 % |
 | `CPP-CP-ENC-T51PL3C` | CP PLUS CP-ENC-T51PL3C 5.0 Mpix venkovní kompaktní IP kamera s IR přís | 120.00 € | 97.56 € | 98.02 € | -0.5 % |
-| `TOC-EX9912` | Tyčinky tavné, černá barva, pr.7,2x100mm, 12ks EXTOL-CRAFT | 1.20 € | 0.98 € | 0.98 € | -0.4 % |
 | `CMP-TO-05600` | Vrták do skla a glazury 10 mm | 1.80 € | 1.46 € | 1.47 € | -0.4 % |
 | `TOC-EX4780028A` | Břity ulamovací do nože 9mm, 10ks, SK2 EXTOL-PREMIUM | 1.20 € | 0.98 € | 0.98 € | -0.4 % |
 | `TOC-T00143-09` | Nástrčná hlavice dvanáctihranná 1/2" 9 mm TVARDY | 1.20 € | 0.98 € | 0.98 € | -0.4 % |
+| `TOC-EX9912` | Tyčinky tavné, černá barva, pr.7,2x100mm, 12ks EXTOL-CRAFT | 1.20 € | 0.98 € | 0.98 € | -0.4 % |
 | `CMP-12039` | Cyklotaška nad rám oboustranná + pouzdro na telefon 6,7" COMPASS | 11.00 € | 8.94 € | 8.98 € | -0.4 % |
 | `CMP-12037` | Cyklotaška nad rám přední vidlice + držák na telefon/mapu 6,7" COMPASS | 9.90 € | 8.05 € | 8.08 € | -0.4 % |
 | `LEC-UCH0153` | Cabletech UCH0153 | 7.50 € | 6.10 € | 6.12 € | -0.4 % |
 | `CMP-07160` | COMPASS 07160 12V/4Ah | 36.50 € | 29.67 € | 29.77 € | -0.3 % |
 | `CMP-TO-64310` | Sada šroubováků hodinářských 6 ks | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
-| `TOC-EX8803531` | Papíry brusné výsek, suchý zip, bal. 10ks, 115mm, P36 EXTOL-PREMIUM | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
-| `EMO1525730424` | LED žárovka Classic MR16 / GU10 / 3 W (32 W) / 345 lm / neutrální bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
-| `EMO1525743241` | LED žárovka EMOS ZL5F47 Basic A60 / E27 / 8,8 W (60 W) / 806 lm / tepl | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
-| `EMO1525743419` | LED žárovka EMOS ZL5F48 Basic A60 / E27 / 8,8 W (60 W) / 806 lm / neut | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525731451` | LED žárovka Basic Mini Globe / E27 / 5,5 W (40 W) / 470 lm / teplá bíl | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525731452` | LED žárovka Basic svíčka / E14 / 5,5 W (40 W) / 470 lm / teplá bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525741451` | LED žárovka Basic Mini Globe / E14 / 5,5 W (40 W) / 470 lm / teplá bíl | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
+| `EMO1525743241` | LED žárovka EMOS ZL5F47 Basic A60 / E27 / 8,8 W (60 W) / 806 lm / tepl | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
+| `EMO1525743419` | LED žárovka EMOS ZL5F48 Basic A60 / E27 / 8,8 W (60 W) / 806 lm / neut | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
+| `TOC-EX8803531` | Papíry brusné výsek, suchý zip, bal. 10ks, 115mm, P36 EXTOL-PREMIUM | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525730114` | LED žárovka Classic MR16 / GU10 / 3 W (32 W) / 345 lm / studená bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525730229` | LED žárovka Classic MR16 / GU10 / 3 W (32 W) / 345 lm / teplá bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
+| `EMO1525730424` | LED žárovka Classic MR16 / GU10 / 3 W (32 W) / 345 lm / neutrální bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525730235` | LED žárovka Basic MR16 / GU10 / 5,2 W (40 W) / 450 lm / teplá bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525730430` | LED žárovka Basic MR16 / GU10 / 5,2 W (40 W) / 450 lm / neutrální bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525743201` | LED žárovka Basic svíčka / E27 / 5,5 W (40 W) / 470 lm / teplá bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525743202` | LED žárovka Basic Mini Globe / E27 / 5,5 W (40 W) / 470 lm / teplá bíl | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525731244` | LED žárovka Basic svíčka / E14 / 5,5 W (40 W) / 470 lm / teplá bílá | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
 | `EMO1525731246` | LED žárovka Basic Mini Globe / E14 / 5,5 W (40 W) / 470 lm / teplá bíl | 1.30 € | 1.06 € | 1.06 € | -0.3 % |
-| `CMP-TO-51590` | Sada klíčů očkoplochých 8 ks 6 - 19 mm spona | 3.30 € | 2.68 € | 2.69 € | -0.3 % |
-| `CMP-YT-2080` | Kleště kombinované 115 mm mini | 3.30 € | 2.68 € | 2.69 € | -0.3 % |
-| `CMP-YT-01906` | Klíč očkoplochý ráčnový 6 mm | 3.30 € | 2.68 € | 2.69 € | -0.3 % |
 | `CMP-YT-3265` | Vrták do dřeva hadovitý 10 x 400 mm | 3.30 € | 2.68 € | 2.69 € | -0.3 % |
+| `CMP-YT-01906` | Klíč očkoplochý ráčnový 6 mm | 3.30 € | 2.68 € | 2.69 € | -0.3 % |
+| `CMP-YT-2080` | Kleště kombinované 115 mm mini | 3.30 € | 2.68 € | 2.69 € | -0.3 % |
+| `CMP-TO-51590` | Sada klíčů očkoplochých 8 ks 6 - 19 mm spona | 3.30 € | 2.68 € | 2.69 € | -0.3 % |
 | `SPSF138` | Aktualizace SW a nastavení přijímače včetně HbbTV | 62.50 € | 50.81 € | 50.94 € | -0.2 % |
-| `CMP-am00452` | Leštící a brusná pasta tuba 150ml | 10.00 € | 8.13 € | 8.15 € | -0.2 % |
 | `CMP-TO-43603` | Sada děrovacích kleští na kůži | 10.00 € | 8.13 € | 8.15 € | -0.2 % |
+| `CMP-am00452` | Leštící a brusná pasta tuba 150ml | 10.00 € | 8.13 € | 8.15 € | -0.2 % |
 | `CPP-CP-UNC-TA21L3B-LQ` | CP PLUS CP-UNC-TA21L3B-LQ 2.0 Mpix venkovní kompaktní IP kamera s duál | 141.00 € | 114.63 € | 114.90 € | -0.2 % |
 | `CPP-CP-LNC-VC51L4-MD` | CP PLUS CP-LNC-VC51L4-MD 5.0 Mpix venkovní antivandal dome IP kamera s | 202.00 € | 164.23 € | 164.55 € | -0.2 % |
 | `ATO-A500007730` | Baterie olověná 12V / 80 Ah MHPower 6-EVF-80 GEL Trakční | 169.00 € | 137.40 € | 137.65 € | -0.2 % |
 | `SP7` | Konfigurace + Software do přijímače s OS Linux Enigma 2 | 62.50 € | 50.81 € | 50.90 € | -0.2 % |
 | `CMP-TO-23592` | Sekáč SDS+ plochý 40x14x250mm | 2.80 € | 2.28 € | 2.28 € | -0.2 % |
 | `CMP-TO-56473` | Sada klíčů imbus 8 ks s kuličkou | 2.80 € | 2.28 € | 2.28 € | -0.2 % |
-| `TIP-06691719` | Čerpadlo oběhové AVANSA 25-4/180E | 83.00 € | 67.48 € | 67.58 € | -0.1 % |
-| `LEV-86485` | Wi-Fi fotookulár Levenhuk Kelvin WFP25 | 83.00 € | 67.48 € | 67.58 € | -0.1 % |
 | `LEV-86482` | Ruční fotomikroskop Levenhuk Kelvin HPM25 | 83.00 € | 67.48 € | 67.58 € | -0.1 % |
+| `LEV-86485` | Wi-Fi fotookulár Levenhuk Kelvin WFP25 | 83.00 € | 67.48 € | 67.58 € | -0.1 % |
+| `TIP-06691719` | Čerpadlo oběhové AVANSA 25-4/180E | 83.00 € | 67.48 € | 67.58 € | -0.1 % |
 | `LEC-RBA-3053-33` | Masážní válec REBEL ACTIVE RBA-3053-33  14x33cm černo-modrý | 5.00 € | 4.07 € | 4.07 € | -0.1 % |
 | `LEV-86484` | Wi-Fi teleokulár Levenhuk Kelvin TLC60 | 166.50 € | 135.37 € | 135.50 € | -0.1 % |
 | `CPP-CP-UNC-DA41L3C-D-Q-0360` | CP PLUS CP-UNC-DA41L3C-D-Q-0360 4.0 Mpix venkovní dome IP kamera s IR, | 154.50 € | 125.61 € | 125.71 € | -0.1 % |
@@ -212,8 +212,8 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `ABT-52451501` | TP-Link TL-SG2210P PoE Switch | 127.50 € | 103.66 € | 103.69 € | -0.0 % |
 | `ITR-00012516` | Výrobník ledu Ruhhy K5536 | 96.00 € | 78.05 € | 78.07 € | -0.0 % |
 | `TIP-06429644` | Nástraha na mravence AGROBIO Atak 3ks | 5.30 € | 4.31 € | 4.31 € | -0.0 % |
-| `CPP-CP-UNC-TA61L3C-LQ` | CP PLUS CP-UNC-TA61L3C-LQ 6.0 Mpix venkovní kompaktní IP kamera s duál | 230.90 € | 187.72 € | 187.76 € | -0.0 % |
 | `CPP-CP-UNC-DA61L3C-LQ` | CP PLUS CP-UNC-DA61L3C-LQ 6.0 Mpix venkovní dome IP kamera s duálním p | 230.90 € | 187.72 € | 187.76 € | -0.0 % |
+| `CPP-CP-UNC-TA61L3C-LQ` | CP PLUS CP-UNC-TA61L3C-LQ 6.0 Mpix venkovní kompaktní IP kamera s duál | 230.90 € | 187.72 € | 187.76 € | -0.0 % |
 | `CMP-TO-64654` | Šroubovák s oboustranými koncovkami 6 ks | 3.80 € | 3.09 € | 3.09 € | -0.0 % |
 | `CMP-TO-40042` | Kleště kombinované 180 mm | 3.80 € | 3.09 € | 3.09 € | -0.0 % |
 | `CPP-CP-UNC-TC41L5C-VMD-LQ` | CP PLUS CP-UNC-TC41L5C-VMD-LQ 4.0 Mpix venkovní kompaktní IP kamera s  | 284.90 € | 231.63 € | 231.65 € | -0.0 % |
