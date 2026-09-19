@@ -44,6 +44,21 @@ const REPO_ROOT = path.join(__dirname, '..');
 const MIN_CATEGORY_SIZE = parseInt(process.env.THIN_CATEGORY_MIN || '8', 10);
 const MAX_PASSES = 5;
 
+// "Diaľkové ovládače" je strom značiek náhradných ovládačov (satelitné/DVB-T2/TV/DVD/audio/
+// univerzálne) — desiatky značiek, z ktorých má väčšina prirodzene len pár kusov (ATOS ich
+// vo vlastnom feede takto delí sám). MIN_CATEGORY_SIZE=8 tu nie je signál "táto stránka je
+// mŕtvy kút", len fakt, že daná značka nemá veľký sortiment — 36 takýchto značiek pod
+// "Satelitné ovládače" (Dreambox, Humax, Vu+, Zgemma...) malo v Shoptete už vytvorenú a
+// viditeľnú podkategóriu, ktorú tento skript každú noc vyprázdnil späť do rodiča (zistené
+// 19.9.2026 pri kontrole /satelitne-ovladace/). Celý podstrom je preto z zbaľovania natrvalo
+// vyňatý, nech má značka čo len 1 produkt.
+const EXEMPT_PREFIXES = ['TV, audio, video a foto technika > Diaľkové ovládače']
+  .map(normalizePath);
+function isExempt(displayPath) {
+  const norm = normalizePath(displayPath);
+  return EXEMPT_PREFIXES.some((p) => norm === p || norm.startsWith(p + ' > '));
+}
+
 function xmlCdata(s) { return '<![CDATA[' + s.replace(/]]>/g, ']]&gt;') + ']]>'; }
 
 function parentOf(fullPath) {
@@ -130,6 +145,7 @@ function main() {
     for (const [norm, count] of counts) {
       if (count >= MIN_CATEGORY_SIZE) continue;
       const display = displayOf.get(norm);
+      if (isExempt(display)) continue;
       const parentDisplay = parentOf(display);
       if (!parentDisplay) continue; // top-level category, nothing safe to fold into
       renamePairs.push([display, parentDisplay]);
