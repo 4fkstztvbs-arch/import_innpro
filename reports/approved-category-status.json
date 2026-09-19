@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27146,
-  "matchedRules": 2708,
-  "changedProducts": 299,
+  "totalProducts": 27168,
+  "matchedRules": 2706,
+  "changedProducts": 900,
   "rejected": [
     {
       "supplier": "innpro",
@@ -139,7 +139,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
-      "visibleUnique": 63,
+      "visibleUnique": 62,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
@@ -151,7 +151,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice",
-      "visibleUnique": 28,
+      "visibleUnique": 27,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
