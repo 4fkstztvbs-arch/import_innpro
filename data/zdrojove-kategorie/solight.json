@@ -3,7 +3,7 @@
   "Zdravie a starostlivosť > Starostlivosť o vlasy": 12
  },
  "Dyson > Príslušenstvo > Neoriginálne príslušenstvo > Pre vysávače": {
-  "Domáce spotrebiče > Príslušenstvo k malým spotrebičom": 15
+  "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom": 15
  },
  "Solight > Anténna a TV technika > Aktívne a pasívne prvky": {
   "TV, audio, video a foto technika > Antény a satelity": 2
@@ -45,13 +45,13 @@
   "TV, audio, video a foto technika > AV káble": 1
  },
  "Solight > Dezinfekčné lampy > Bezozónové": {
-  "Domáce spotrebiče > Klimatizácia a vzduch > Dezinfekčné UV lampy": 3
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Dezinfekčné UV lampy": 3
  },
  "Solight > Dezinfekčné lampy > Ozónové": {
-  "Domáce spotrebiče > Klimatizácia a vzduch > Dezinfekčné UV lampy": 2
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Dezinfekčné UV lampy": 2
  },
  "Solight > Dezinfekčné lampy > Príslušenstvo, náhradné diely": {
-  "Domáce spotrebiče > Klimatizácia a vzduch > Dezinfekčné UV lampy": 5
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Dezinfekčné UV lampy": 5
  },
  "Solight > Držiaky TV a AV techniky > Fixné držiaky": {
   "TV, audio, video a foto technika > TV stolíky a držiaky": 2
@@ -108,7 +108,7 @@
   "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky": 51
  },
  "Solight > Elektrotovar > Budíky": {
-  "Domáce spotrebiče > Meteostanice": 9
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 9
  },
  "Solight > Elektrotovar > Časové spínače": {
   "Elektro, Smart Home a osvetlenie > Elektromery a spínacia technika": 9
@@ -123,7 +123,7 @@
   "Elektro, Smart Home a osvetlenie > Elektromery a spínacia technika": 2
  },
  "Solight > Elektrotovar > Meteostanice": {
-  "Domáce spotrebiče > Meteostanice": 17
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 17
  },
  "Solight > Elektrotovar > Napájanie > Nabíjačky batérií": {
   "Energia a napájanie > Napájacie zdroje": 2
@@ -141,16 +141,16 @@
   "Energia a napájanie > Napájacie zdroje": 5
  },
  "Solight > Elektrotovar > Napájanie > USB adaptéry": {
-  "Počítače, mobily a tablety > Nabíjačky pre mobily": 30
+  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily": 30
  },
  "Solight > Elektrotovar > Príslušenstvo pre mobilné telefóny": {
-  "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily": 6
+  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom": 6
  },
  "Solight > Elektrotovar > Teplomery": {
-  "Domáce spotrebiče > Meteostanice": 5
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 5
  },
  "Solight > Elektrotovar > Ventilátory": {
-  "Domáce spotrebiče > Klimatizácia a vzduch": 1
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 1
  },
  "Solight > Elektrotovar > Zabezpečovacia technika": {
   "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory": 11
@@ -177,10 +177,10 @@
   "Dielňa, náradie a záhrada > Meracia technika": 1
  },
  "Solight > Mobilné klimatizácie": {
-  "Domáce spotrebiče > Klimatizácia a vzduch": 2
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 2
  },
  "Solight > Ostatné > Vybavenie domácnosti": {
-  "Domáce spotrebiče > Ostatné domáce spotrebiče": 12
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Ostatné domáce spotrebiče": 12
  },
  "Solight > Predľžovacie prívody > Jednozásuvkové > Jednozásuvkové  400V": {
   "Elektro, Smart Home a osvetlenie > Predlžovacie káble a vidlice > Priemyselné vidlice a zásuvky": 4
@@ -327,9 +327,9 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 26
  },
  "Solight > Teplovzdušné konvektory": {
-  "Domáce spotrebiče > Klimatizácia a vzduch": 24
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 24
  },
  "Solight > Teplovzdušné konvektory > Sušiaky": {
-  "Domáce spotrebiče > Klimatizácia a vzduch": 4
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 4
  }
 }
