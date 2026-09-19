@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-19 18:18 UTC.
+Kontrola z 2026-09-19 23:48 UTC.
 
-InnPro pri **416** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **412** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -51,7 +51,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `035753` | Kryt kefy pre vysávač Dreame Z10 Pro | — | 3 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
-| `036334` | Montážna konzola na lištu DIN Sonoff DR | — | 3 |
 | `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
 | `045781` | Sunnylife lanyard with attachment for DJI RC-N1 / RC-N2 / RC | — | 5 |
@@ -64,7 +63,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | — | 5 |
 | `039235` | Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " | — | 5 |
 | `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 5 |
-| `038947` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `038946` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `038943` | Baseus Glitter priehľadné puzdro a sada tvrdeného skla pre i | — | 2 |
 | `040287` | Prepravné puzdro Sunnylife pre DJI Osmo Mobile 6 | — | 5 |
@@ -83,7 +81,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `044806` | Joyroom JR-G04 Glass iPhone 14 Pro Max 6.7 (ochrana očí) | — | 5 |
 | `044811` | Kábel Lightning Type-C 20W 1m Joyroom S-CL020A9 (biely) | — | 2 |
 | `045007` | Kábel k USB-A / Lightning / 2,4A / 1,2 m Joyroom S-UL012A3 ( | — | 5 |
-| `044699` | Kábel k USB-A / Lightning / 2,4A / 0,25 m Joyroom S-UL012A9  | — | 5 |
 | `044698` | Kábel k USB-A / Lightning / 2,4 A / 2 m Joyroom S-UL012A9 (b | — | 5 |
 | `044876` | Kábel USB HDMI-HDMI / 4K 60Hz / 2m Joyroom SY-20H1 (sivý) | — | 5 |
 | `044441` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 5 |
@@ -93,6 +90,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
 | `048658` | Priehľadný obal a sada tvrdeného skla Baseus Corning pre iPh | — | 5 |
 | `044419` | Fólia na objektív fotoaparátu Baseus pre iPhone 13 Pro/13 Pr | — | 3 |
+| `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
 | `049249` | Ochranné sklo s tvrdeným sklom Baseus pre realme GT2 Master  | — | 5 |
 | `046655` | Baterka Superfire L28 – 121 lm, 5W, 52 m, 5 režimov | — | 5 |
 | `046656` | Baterka Superfire X18 – 55 lm, 5W, 5 režimov, 38 m | — | 5 |
@@ -230,7 +228,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
 | `077573` | Ochranné puzdro Sunnylife s popruhom pre Osmo Pocket 3 (čier | — | 5 |
 | `077579` | Sunnylife anti-shock spona pre DJI Flip | — | 5 |
-| `077580` | Kryt objektívu Sunnylife pre DJI Flip (čierny) | — | 5 |
 | `077581` | Ochranné kryty vrtúľ Sunnylife pre DJI Flip (čierne) | — | 3 |
 | `073822` | Súprava nálepiek Telesin pre držiak J-Hook pre športové kame | — | 5 |
 | `077966` | Svetlo Superfire BTL05 na bicykli | — | 5 |
@@ -245,7 +242,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `078092` | Podložky na vysávanie pre vysávač MOVA E10, E20, E20 Plus, E | — | 5 |
 | `078088` | Bočné mopovacie podložky pre vysávač MOVA Z50 Ultra [2 kusy] | — | 5 |
 | `078265` | PULUZ silikónové ochranné puzdro s krytom objektívu pre Inst | — | 5 |
-| `078270` | Silikónový stojan PULUZ pre kameru Insta360 X5 | — | 5 |
 | `078359` | PetKit PURA MAX 2 vrecká na odpadky | — | 5 |
 | `078581` | Ochranné puzdro Sunnylife pre DJI Osmo Pocket 3 | — | 5 |
 | `079255` | 1-kanálový spínací modul WiFi s beznapäťovým kontaktom Avatt | — | 5 |
@@ -267,6 +263,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `081549` | Sunnylife G031 plastový kryt objektívu pre OSMO 360 | — | 5 |
 | `081550` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 | — | 5 |
 | `081552` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 (oranž | — | 5 |
+| `081553` | Sunnylife SN027 polootvorené plastové ochranné puzdro (čiern | — | 5 |
 | `081555` | Silikónový ochranný kryt kompatibilný so Sunnylife SG034 | — | 5 |
 | `081529` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (ruž | — | 4 |
 | `081532` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (žlt | — | 5 |
@@ -298,7 +295,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `083520` | Magnetický adaptér s rýchloupínačom Puluz pre DJI Osmo Actio | — | 5 |
 | `083450` | RayNeo Air 3s Pro tónovací uzáver okuliarov | — | 5 |
 | `082348` | Chladiaci ventilátor Darkflash DE8 (čierny) | — | 5 |
-| `082349` | Chladiaci ventilátor Darkflash DE8 (biely) | — | 5 |
 | `083944` | Inteligentný termohygrometer Rainpoint Smart+ | — | 5 |
 | `084241` | Huba ako tienidlo pre lampu Flextail Tiny Pump 2X (biela) | — | 5 |
 | `084784` | Uni-T UT12D-EU Bezkontaktný tester napätia | — | 5 |
