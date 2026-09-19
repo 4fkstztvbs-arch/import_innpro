@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27084,
+  "totalProducts": 27143,
   "matchedRules": 2708,
-  "changedProducts": 1526,
+  "changedProducts": 624,
   "rejected": [
     {
       "supplier": "innpro",
@@ -55,13 +55,13 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Bojové športy > Boxerské rukavice",
-      "visibleUnique": 119,
+      "visibleUnique": 122,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Bojové športy"
     },
     {
       "path": "Cestovanie, šport a outdoor > Bojové športy > Chrániče pre bojové športy",
-      "visibleUnique": 64,
+      "visibleUnique": 66,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Bojové športy"
     },

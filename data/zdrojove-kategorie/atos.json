@@ -18,7 +18,7 @@
   "TV, audio, video a foto technika > Antény a satelity > Antény": 34
  },
  "Druhy > ANTÉNY  SATELITY > CAM dekodéry a karty > CA moduly": {
-  "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy": 4
+  "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy": 5
  },
  "Druhy > ANTÉNY  SATELITY > CAM dekodéry a karty > Dekódovací karty": {
   "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy": 1
@@ -108,7 +108,7 @@
   "TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače": 15
  },
  "Druhy > ANTÉNY  SATELITY > PASIVNÍ PRVKY > Rozbočovače > Televizní aktivní": {
-  "TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače": 5
+  "TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače": 6
  },
  "Druhy > ANTÉNY  SATELITY > PASIVNÍ PRVKY > Slučovače TV": {
   "TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače": 6
@@ -150,13 +150,13 @@
   "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo": 8
  },
  "Druhy > ANTÉNY  SATELITY > Satelitní příslušenství > Multifeed LNB držáky": {
-  "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo": 11
+  "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo": 10
  },
  "Druhy > ANTÉNY  SATELITY > Satelitní příslušenství > Multipřepínače > 1 družice": {
   "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo": 8
  },
  "Druhy > ANTÉNY  SATELITY > Satelitní příslušenství > Multipřepínače > 2 družice": {
-  "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo": 7
+  "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo": 8
  },
  "Druhy > ANTÉNY  SATELITY > Satelitní příslušenství > Multipřepínače > 3 družice": {
   "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo": 7
@@ -222,7 +222,7 @@
   "TV, audio, video a foto technika > Antény a satelity > Zosilňovače": 1
  },
  "Druhy > ANTÉNY  SATELITY > ZESILOVAČE > Aktivní TV rozbočovače": {
-  "TV, audio, video a foto technika > Antény a satelity > Zosilňovače": 5
+  "TV, audio, video a foto technika > Antény a satelity > Zosilňovače": 6
  },
  "Druhy > ANTÉNY  SATELITY > ZESILOVAČE > Domovní": {
   "TV, audio, video a foto technika > Antény a satelity > Zosilňovače": 36
@@ -261,7 +261,7 @@
   "Auto-moto > Autokozmetika a chémia": 33
  },
  "Druhy > AUTO MOTO > Autokosmetika, Chemie > Mycí a čistící pomůcky": {
-  "Auto-moto > Autokozmetika a chémia": 28
+  "Auto-moto > Autokozmetika a chémia": 29
  },
  "Druhy > AUTO MOTO > Autokosmetika, Chemie > Nanotechnologie": {
   "Auto-moto > Autokozmetika a chémia": 10
@@ -477,7 +477,7 @@
   "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky": 5
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Speciální nářadí a přípravky > Podvozek > Stahováky": {
-  "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky": 19
+  "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky": 27
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Speciální nářadí a přípravky > Testery": {
   "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky": 2
@@ -522,7 +522,7 @@
   "Auto-moto > Karavany a obytné autá": 3
  },
  "Druhy > AUTO MOTO > Kola > Kolové šrouby a matice": {
-  "Auto-moto > Kolesá a pneumatiky": 8
+  "Auto-moto > Kolesá a pneumatiky": 11
  },
  "Druhy > AUTO MOTO > Kola > Měřiče tlaku": {
   "Auto-moto > Kolesá a pneumatiky": 6
@@ -534,7 +534,7 @@
   "Auto-moto > Kolesá a pneumatiky": 9
  },
  "Druhy > AUTO MOTO > Kola > Poklice na kola": {
-  "Auto-moto > Kolesá a pneumatiky": 15
+  "Auto-moto > Kolesá a pneumatiky": 16
  },
  "Druhy > AUTO MOTO > Kola > Sněhové řetězy": {
   "Auto-moto > Kolesá a pneumatiky": 16
@@ -843,31 +843,31 @@
   "Chovateľské potreby > Pelechy, škrabadlá a klietky": 15
  },
  "Druhy > DŮM ZAHRADA > Chovatelství > Pro psy": {
-  "Chovateľské potreby > Ostatné chovateľské potreby": 16
+  "Chovateľské potreby": 16
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Aroma difuzéry": {
-  "Domáce spotrebiče > Klimatizácia a vzduch > Aróma difuzéry": 33
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry": 33
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Doplňky do domácnosti > Koše na prádlo": {
-  "Domáce spotrebiče > Žehličky": 1
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 1
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Doplňky do domácnosti > Koše na tříděný odpad": {
-  "Domáce spotrebiče > Triedenie odpadu a domáce organizéry": 10
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry": 10
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Doplňky do domácnosti > Ostatní doplňky do domácnosti": {
-  "Domáce spotrebiče > Triedenie odpadu a domáce organizéry": 14
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry": 14
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Efekty a dekorace > Do bytu": {
-  "Domáce spotrebiče > Spotrebiče na párty a oslavy": 2
+  "Domáce spotrebiče a domácnosť": 2
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Hodiny a budíky > Budíky": {
-  "Domáce spotrebiče > Hodiny a budíky": 35
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky": 35
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Hodiny a budíky > Časovače, minutky": {
-  "Domáce spotrebiče > Hodiny a budíky": 2
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky": 2
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Hodiny a budíky > Hodiny": {
-  "Domáce spotrebiče > Hodiny a budíky": 17
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky": 17
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Osobní váhy": {
   "Zdravie a starostlivosť > Osobné váhy": 5
@@ -882,16 +882,16 @@
   "Auto-moto > Príslušenstvo do auta": 2
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Úklid": {
-  "Domáce spotrebiče > Triedenie odpadu a domáce organizéry": 3
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry": 3
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Úklid > Hadry, houbičky a utěrky na úklid": {
-  "Domáce spotrebiče > Upratovacie pomôcky": 5
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky": 5
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Úklid > Smetáky a mopy na úklid": {
-  "Domáce spotrebiče > Upratovacie pomôcky": 1
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky": 1
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Vonné oleje": {
-  "Domáce spotrebiče > Klimatizácia a vzduch > Aróma difuzéry": 8
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry": 8
  },
  "Druhy > DŮM ZAHRADA > KAMEROVÉ SYSTÉMY > Akční kamery": {
   "Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy": 2
@@ -1029,79 +1029,79 @@
   "Elektro, Smart Home a osvetlenie > Profesionálne kamerové systémy > Príslušenstvo ku kamerovým systémom": 2
  },
  "Druhy > DŮM ZAHRADA > Kancelář - škola": {
-  "Počítače, mobily a tablety > Kancelária a škola": 2
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 2
  },
  "Druhy > DŮM ZAHRADA > Kancelář - škola > Obalový materiál": {
-  "Počítače, mobily a tablety > Kancelária a škola": 1
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 1
  },
  "Druhy > DŮM ZAHRADA > Kancelář - škola > Pokladny": {
-  "Počítače, mobily a tablety > Kancelária a škola": 1
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 1
  },
  "Druhy > DŮM ZAHRADA > Kancelář - škola > Skartovače": {
-  "Počítače, mobily a tablety > Kancelária a škola": 2
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 2
  },
  "Druhy > DŮM ZAHRADA > Kancelář - škola > Školní potřeby > Malování a kreslení": {
-  "Počítače, mobily a tablety > Kancelária a škola": 10
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 10
  },
  "Druhy > DŮM ZAHRADA > Kancelář - škola > Školní potřeby > Školní batohy, aktovky > Školní aktovky": {
-  "Počítače, mobily a tablety > Kancelária a škola": 1
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 1
  },
  "Druhy > DŮM ZAHRADA > Kancelář - škola > Trezory": {
-  "Počítače, mobily a tablety > Kancelária a škola": 6
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 6
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Čističky vzduchu": {
-  "Domáce spotrebiče > Klimatizácia a vzduch": 3
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 3
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Klimatizace": {
-  "Domáce spotrebiče > Klimatizácia a vzduch > Klimatizácia": 12
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Klimatizácia": 11
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Odvlhčovače vzduchu": {
-  "Domáce spotrebiče > Klimatizácia a vzduch > Odvlhčovače vzduchu": 8
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Odvlhčovače vzduchu": 8
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Příslušenství": {
-  "Domáce spotrebiče > Klimatizácia a vzduch": 11
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 11
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Topení": {
-  "Domáce spotrebiče > Klimatizácia a vzduch": 23
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 28
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Ventilátory": {
-  "Domáce spotrebiče > Klimatizácia a vzduch > Ventilátory": 11
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Ventilátory": 10
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Zvlhčovače": {
-  "Domáce spotrebiče > Klimatizácia a vzduch": 1
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 1
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Filtrační konvice": {
-  "Domáce spotrebiče > Príprava nápojov": 4
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 4
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Formy na pečení": {
-  "Domáce spotrebiče > Kuchynské vybavenie > Formy na pečenie": 2
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Formy na pečenie": 2
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Konvice na čaj": {
-  "Domáce spotrebiče > Príprava nápojov": 1
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 1
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Kuchyňské nádobí > Pánve": {
-  "Domáce spotrebiče > Triedenie odpadu a domáce organizéry": 1
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry": 1
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Kuchyňské pomůcky > Louskáčky": {
-  "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky": 1
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 1
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Kuchyňské pomůcky > Ostatní kuchyňské pomůcky": {
-  "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky": 5
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 5
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Kuchyňské pomůcky > Teploměry": {
-  "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky": 3
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 3
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Kuchyňské pomůcky > Vařečky a obracečky": {
-  "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky": 1
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 1
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Kuchyňské váhy": {
-  "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky > Kuchynské váhy": 10
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky > Kuchynské váhy": 10
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Nože a příbory > Brousky na nože": {
-  "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky": 1
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 1
  },
  "Druhy > DŮM ZAHRADA > KUCHYŇ > Termosky, termohrnky": {
-  "Domáce spotrebiče > Triedenie odpadu a domáce organizéry": 2
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry": 2
  },
  "Druhy > DŮM ZAHRADA > ODPUZOVAČE A LAPAČE": {
   "Dielňa, náradie a záhrada > Záhrada a bazén > Odpudzovače škodcov": 4
@@ -1119,19 +1119,22 @@
   "Dielňa, náradie a záhrada > Záhrada a bazén > Odpudzovače škodcov": 4
  },
  "Druhy > DŮM ZAHRADA > SANITÁRNÍ TECHNIKA > Baterie": {
-  "Domáce spotrebiče > Sanitárna technika": 11
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Sanitárna technika": 11
  },
  "Druhy > DŮM ZAHRADA > SANITÁRNÍ TECHNIKA > Dávkovače mýdla": {
-  "Domáce spotrebiče > Sanitárna technika": 3
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Sanitárna technika": 3
  },
  "Druhy > DŮM ZAHRADA > SANITÁRNÍ TECHNIKA > Ostatní": {
-  "Domáce spotrebiče > Sanitárna technika": 9
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Sanitárna technika": 9
+ },
+ "Druhy > DŮM ZAHRADA > SANITÁRNÍ TECHNIKA > Sprchové hadice": {
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Sanitárna technika": 1
  },
  "Druhy > DŮM ZAHRADA > SANITÁRNÍ TECHNIKA > Sprchové hlavice": {
-  "Domáce spotrebiče > Sanitárna technika": 7
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Sanitárna technika": 7
  },
  "Druhy > DŮM ZAHRADA > SANITÁRNÍ TECHNIKA > Umyvadlové výpusti": {
-  "Domáce spotrebiče > Sanitárna technika": 1
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Sanitárna technika": 1
  },
  "Druhy > DŮM ZAHRADA > ZABEZPEČENÍ > Detektory CO, CO2, plynu a vody": {
   "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory": 20
@@ -1383,37 +1386,37 @@
   "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia": 13
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > AUDIO (AUX) > AIWA": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače > AIWA": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > AUDIO (AUX) > Panasonic": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače > Panasonic": 44
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > AUDIO (AUX) > Philips": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače > Philips": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > AUDIO (AUX) > TechniSat": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače > TechniSat": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Audio ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > DVD > Denon": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače > Denon": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > DVD > LG": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače > LG": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > DVD > Philips": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače > Philips": 7
+  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače": 7
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > DVD > Samsung": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače > Samsung": 5
+  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače": 5
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > DVD > Sharp": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače > Sharp": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > DVD > Sony": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače > Sony": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > DVD > Technics": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače > Technics": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > DVD ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Hotelové a senior ovladače": {
   "TV, audio, video a foto technika > Diaľkové ovládače": 6
@@ -1425,7 +1428,7 @@
   "TV, audio, video a foto technika > Diaľkové ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > AB": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > AB": 5
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 5
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Alma": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Alma": 15
@@ -1434,82 +1437,82 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Amiko": 11
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Cabletech": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Cabletech": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > DIWAY": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > DIWAY": 7
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 7
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Dreambox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Dreambox": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Edision": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Edision": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Emos": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Emos": 8
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Evolve": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Evolve": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Ferguson": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Ferguson": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Fte": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Fte": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Fuba": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Fuba": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > GoGEN": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > GoGEN": 8
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Golden Media": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Golden Media": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > GoSAT": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > GoSAT": 5
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 5
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Humax": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Humax": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Hyundai": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Hyundai": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Mascom": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Mascom": 11
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Maxxo": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Maxxo": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Medialink": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Medialink": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > New Digital": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > New Digital": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Optex": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Optex": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Opticum": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Opticum": 8
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Philips": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Philips": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Sencor": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Sencor": 8
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Skyworth": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Skyworth": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Solight": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Solight": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Strong": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Strong": 12
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Technisat": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Technisat": 7
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 7
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Telesystem": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Telesystem": 14
@@ -1518,13 +1521,13 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Tesla": 23
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Thomson": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Thomson": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Wiwa": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Wiwa": 9
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k DVB-T2 > Zircon": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2 > Zircon": 7
+  "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2": 7
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Ovladače k multimediálnímu boxu": {
   "TV, audio, video a foto technika > Diaľkové ovládače": 7
@@ -1533,55 +1536,55 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > AB": 18
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Allbox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Allbox": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Alma": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Alma": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Amiko": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Amiko": 36
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Apebox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Apebox": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > ATlink": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > ATlink": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > AZBox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > AZBox": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Bensat": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Bensat": 5
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 5
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > DIWAY": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > DIWAY": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Dizipia": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Dizipia": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Dreambox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Dreambox": 7
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 7
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Dreamsky": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Dreamsky": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Edision": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Edision": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Evolve": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Evolve": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Ferguson": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Ferguson": 9
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Formuler": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Formuler": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Globo": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Globo": 9
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Golden Interstar": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Golden Interstar": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > GoSat": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > GoSat": 14
@@ -1590,37 +1593,37 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > HD-BOX": 10
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Homecast": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Homecast": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Humax": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Humax": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Ineos": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Ineos": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Inetbox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Inetbox": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Kaon": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Kaon": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > LinkBox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > LinkBox": 3
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 3
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Mascom": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Mascom": 5
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 5
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Medialink": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Medialink": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Multibox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Multibox": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Octagon": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Octagon": 12
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Openbox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Openbox": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Opensat": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Opensat": 9
@@ -1635,64 +1638,64 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Polygon": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Polygon": 3
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 3
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Samsung": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Samsung": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > SatElita": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > SatElita": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Showbox": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Showbox": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Skytec": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Skytec": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Smart": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Smart": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Strong": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Strong": 13
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Synaps": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Synaps": 3
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 3
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Technisat": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Technisat": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Tesla": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Tesla": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Thomson": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Thomson": 3
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 3
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Topfield": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Topfield": 14
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Vantage": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Vantage": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Vu+": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Vu+": 3
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 3
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Zgemma": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Zgemma": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Satelitní ovladače > Zircon": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače > Zircon": 10
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > BEKO": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > BEKO": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Changhong": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Changhong": 16
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > CHiQ": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > CHiQ": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Daewoo": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Daewoo": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > ECG": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > ECG": 8
@@ -1704,13 +1707,13 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Gogen": 16
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > GoSat": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > GoSat": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Grundig": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Grundig": 7
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 7
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Hisense": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Hisense": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Hitachi": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Hitachi": 11
@@ -1719,16 +1722,16 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Hyundai": 14
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > JVC": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > JVC": 7
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 7
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Kruger & Matz": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Kruger & Matz": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > LG": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > LG": 102
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Luxtronic": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Luxtronic": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Orava": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Orava": 8
@@ -1737,7 +1740,7 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > OVP": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > OVP": 6
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 6
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Panasonic": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Panasonic": 58
@@ -1758,232 +1761,232 @@
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Sony": 30
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > TCL": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > TCL": 4
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 4
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Technika": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Technika": 5
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 5
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Telefunken": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Telefunken": 10
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Thomson": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Thomson": 3
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 3
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Toshiba": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Toshiba": 11
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Televizní ovladače > Vestel": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače > Vestel": 5
+  "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače": 5
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Univerzální ovladače > LG": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > LG": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Univerzální ovladače > Panasonic": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > Panasonic": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Univerzální ovladače > PHILIPS": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > PHILIPS": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Univerzální ovladače > Programovatelné": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > Programovateľné": 10
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Univerzální ovladače > Samsung": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > Samsung": 2
+  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače": 2
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Univerzální ovladače > Sharp": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > Sharp": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Univerzální ovladače > SONY": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > SONY": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > Univerzální ovladače > Toshiba": {
-  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače > Toshiba": 1
+  "TV, audio, video a foto technika > Diaľkové ovládače > Univerzálne ovládače": 1
  },
  "Druhy > ELEKTRO > DÁLKOVÉ OVLADAČE > VIDEO (VCR)": {
   "TV, audio, video a foto technika > Diaľkové ovládače > Video ovládače": 14
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Drobné kuchyňské spotřebiče": {
-  "Domáce spotrebiče > Kuchynské vybavenie > Kuchynské pomôcky": 3
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 3
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Elektrické hrnce": {
-  "Domáce spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 1
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 1
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Elektrické pánve": {
-  "Domáce spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 3
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 3
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Fritézy": {
-  "Domáce spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 8
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 9
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Grily": {
-  "Domáce spotrebiče > Grily, pekárne, variče": 4
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 4
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Kávovary": {
-  "Domáce spotrebiče > Kávovary a espressá": 4
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 4
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Kuchyňské roboty": {
-  "Domáce spotrebiče > Kuchynské roboty a krájače": 7
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače": 7
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Mixéry": {
-  "Domáce spotrebiče > Kuchynské roboty a krájače": 3
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače": 3
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Palačinkovače": {
-  "Domáce spotrebiče > Grily, pekárne, variče": 1
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 1
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Pece na pizzu": {
-  "Domáce spotrebiče > Grily, pekárne, variče": 10
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 10
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Rychlovarné konvice": {
-  "Domáce spotrebiče > Príprava nápojov": 2
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 2
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Sendvičovače": {
-  "Domáce spotrebiče > Sendvičovače, hriankovače, vaflovače": 4
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Sendvičovače, hriankovače, vaflovače": 4
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Sušičky potravin": {
-  "Domáce spotrebiče > Sušičky potravín": 3
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Sušičky potravín": 3
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Svářečky folií": {
-  "Domáce spotrebiče > Vákuovačky a zváračky fólií": 6
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Vákuovačky a zváračky fólií": 6
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Topinkovače": {
-  "Domáce spotrebiče > Sendvičovače, hriankovače, vaflovače": 1
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Sendvičovače, hriankovače, vaflovače": 1
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Trouby": {
-  "Domáce spotrebiče > Sporáky a rúry": 1
+  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Sporáky a rúry": 1
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vaflovače": {
-  "Domáce spotrebiče > Sendvičovače, hriankovače, vaflovače": 4
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Sendvičovače, hriankovače, vaflovače": 4
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vařiče": {
-  "Domáce spotrebiče > Grily, pekárne, variče": 3
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 3
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Výrobníky ledu": {
-  "Domáce spotrebiče > Príprava nápojov": 3
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 3
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vysavače > Podlahové vysavače": {
-  "Domáce spotrebiče > Vysávače": 1
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 1
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vysavače > Robotické vysavače": {
-  "Domáce spotrebiče > Vysávače": 3
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 3
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vysavače > Ruční vysavače": {
-  "Domáce spotrebiče > Vysávače": 3
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 3
  },
  "Druhy > ELEKTRO > DOMÁCÍ SPOTŘEBIČE > Vysavače > Tyčové vysavače": {
-  "Domáce spotrebiče > Vysávače": 1
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 1
  },
  "Druhy > ELEKTRO > METEOSTANICE": {
-  "Domáce spotrebiče > Meteostanice": 1
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 1
  },
  "Druhy > ELEKTRO > METEOSTANICE > Bezdrátová čidla": {
-  "Domáce spotrebiče > Meteostanice": 31
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 31
  },
  "Druhy > ELEKTRO > METEOSTANICE > Dataloggery": {
-  "Domáce spotrebiče > Meteostanice": 2
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 2
  },
  "Druhy > ELEKTRO > METEOSTANICE > Meteorologické stanice": {
-  "Domáce spotrebiče > Meteostanice": 40
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 40
  },
  "Druhy > ELEKTRO > METEOSTANICE > Náhradní díly": {
-  "Domáce spotrebiče > Meteostanice": 2
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 2
  },
  "Druhy > ELEKTRO > METEOSTANICE > Stanice s připojením k počítači": {
-  "Domáce spotrebiče > Meteostanice": 21
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 21
  },
  "Druhy > ELEKTRO > METEOSTANICE > Teploměry digitální": {
-  "Domáce spotrebiče > Meteostanice": 15
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice": 15
  },
  "Druhy > ELEKTRO > Mobily, tablety, příslušenství > GSM antény": {
-  "Počítače, mobily a tablety > WiFi routery a sieťové karty": 2
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 2
  },
  "Druhy > ELEKTRO > Mobily, tablety, příslušenství > GSM nabíječky": {
-  "Počítače, mobily a tablety > Nabíjačky pre mobily": 22
+  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily": 21
  },
  "Druhy > ELEKTRO > Mobily, tablety, příslušenství > Mobilní telefony": {
-  "Počítače, mobily a tablety > Smart telefóny": 4
+  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny": 4
  },
  "Druhy > ELEKTRO > Mobily, tablety, příslušenství > USB kabely > Lightning": {
-  "Počítače, mobily a tablety > USB káble": 3
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble": 3
  },
  "Druhy > ELEKTRO > Mobily, tablety, příslušenství > USB kabely > Micro USB kabely": {
-  "Počítače, mobily a tablety > USB káble": 4
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble": 4
  },
  "Druhy > ELEKTRO > Mobily, tablety, příslušenství > USB kabely > Univerzální": {
-  "Počítače, mobily a tablety > USB káble": 1
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble": 1
  },
  "Druhy > ELEKTRO > Mobily, tablety, příslušenství > USB kabely > USB A": {
-  "Počítače, mobily a tablety > USB káble": 5
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble": 5
  },
  "Druhy > ELEKTRO > Mobily, tablety, příslušenství > USB kabely > USB-C kabely": {
-  "Počítače, mobily a tablety > USB káble": 22
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble": 22
  },
  "Druhy > ELEKTRO > Multimediální centra - Android TV boxy": {
   "TV, audio, video a foto technika > Video technika": 15
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Disky a paměťové karty > HDD": {
-  "Počítače, mobily a tablety > Disky a pamäťové karty pre NVR": 11
+  "Počítače, mobily a tablety > Disky a pamäťové médiá > Disky a pamäťové karty pre NVR": 11
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Disky a paměťové karty > Paměťové karty": {
-  "Počítače, mobily a tablety > Disky a pamäťové karty pre NVR": 1
+  "Počítače, mobily a tablety > Disky a pamäťové médiá > Disky a pamäťové karty pre NVR": 1
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Dokovací stanice": {
-  "Počítače, mobily a tablety > Dokovacie stanice": 1
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Dokovacie stanice": 1
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Foto a kamery": {
-  "Počítače, mobily a tablety > Webkamery": 2
+  "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery": 2
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Herní křesla": {
-  "Počítače, mobily a tablety > Herné kreslá": 11
+  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné kreslá": 11
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Klávesnice > K televizi": {
-  "Počítače, mobily a tablety > PC periférie": 1
+  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 1
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Myši": {
-  "Počítače, mobily a tablety > PC periférie": 1
+  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 1
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Ostatní": {
-  "Počítače, mobily a tablety > PC periférie": 2
+  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 2
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Podložky": {
-  "Počítače, mobily a tablety > PC periférie": 2
+  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 2
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Projektory": {
   "TV, audio, video a foto technika > Projektory": 4
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Rackové skříně a příslušenství": {
-  "Počítače, mobily a tablety > Rackové skrine – príslušenstvo": 5
+  "Počítače, mobily a tablety > Siete a dátové úložiská > Rackové skrine – príslušenstvo": 5
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Rackové skříně a příslušenství > Příslušenství": {
-  "Počítače, mobily a tablety > Rackové skrine – príslušenstvo": 4
+  "Počítače, mobily a tablety > Siete a dátové úložiská > Rackové skrine – príslušenstvo": 4
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Rackové skříně a příslušenství > Příslušenství > Chlazení": {
-  "Počítače, mobily a tablety > Rackové skrine – príslušenstvo": 5
+  "Počítače, mobily a tablety > Siete a dátové úložiská > Rackové skrine – príslušenstvo": 5
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Rackové skříně a příslušenství > Příslušenství > Napájecí lišty": {
-  "Počítače, mobily a tablety > Rackové skrine – príslušenstvo": 10
+  "Počítače, mobily a tablety > Siete a dátové úložiská > Rackové skrine – príslušenstvo": 10
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Rackové skříně a příslušenství > Příslušenství > Patch Panely": {
-  "Počítače, mobily a tablety > Rackové skrine – príslušenstvo": 1
+  "Počítače, mobily a tablety > Siete a dátové úložiská > Rackové skrine – príslušenstvo": 1
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Reproduktory": {
-  "Počítače, mobily a tablety > PC periférie": 1
+  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 1
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Síťové prvky > Konektory, zásuvky": {
-  "Počítače, mobily a tablety > WiFi routery a sieťové karty": 8
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 8
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Síťové prvky > Napájecí adaptéry a POE": {
-  "Počítače, mobily a tablety > WiFi routery a sieťové karty": 1
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 1
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Síťové prvky > Patch kabely": {
-  "Počítače, mobily a tablety > WiFi routery a sieťové karty": 9
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 9
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Síťové prvky > Routery": {
-  "Počítače, mobily a tablety > WiFi routery a sieťové karty": 1
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 1
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > Síťové prvky > WI-FI extendéry": {
-  "Počítače, mobily a tablety > WiFi routery a sieťové karty": 2
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 2
  },
  "Druhy > ELEKTRO > Počítače a příslušenství > USB huby": {
-  "Počítače, mobily a tablety > Dokovacie stanice": 3
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Dokovacie stanice": 3
  },
  "Druhy > ELEKTRO > TELEVIZE > 32\" (80 - 82 cm)": {
   "TV, audio, video a foto technika > Televízory": 6
@@ -1995,7 +1998,7 @@
   "TV, audio, video a foto technika > Televízory": 1
  },
  "Druhy > ELEKTRO > TELEVIZE > do 30\" (76 cm)": {
-  "TV, audio, video a foto technika > Televízory": 4
+  "TV, audio, video a foto technika > Televízory": 3
  },
  "Druhy > ELEKTRO > TELEVIZE > LED projektory": {
   "TV, audio, video a foto technika > Televízory": 5
@@ -2208,7 +2211,7 @@
   "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Príchytky, pásky a hmoždinky": 14
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Instalační příslušenství > Stahovací pásky > Plastové stahovací pásky": {
-  "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Príchytky, pásky a hmoždinky": 15
+  "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Príchytky, pásky a hmoždinky": 25
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Instalační příslušenství > Trubky a chráničky > Chráničky (husí krk)": {
   "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Trubky a chráničky": 30
@@ -2217,7 +2220,7 @@
   "Elektro, Smart Home a osvetlenie > Inštalačné príslušenstvo > Trubky a chráničky": 2
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Jističe a chrániče > Jističe AC": {
-  "Elektro, Smart Home a osvetlenie > Ističe a chrániče": 39
+  "Elektro, Smart Home a osvetlenie > Ističe a chrániče": 40
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Jističe a chrániče > Jističe DC": {
   "Elektro, Smart Home a osvetlenie > Ističe a chrániče": 4
@@ -2400,7 +2403,7 @@
   "Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače": 22
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Montážní skříně a rozvaděče > Zásuvkové skříně": {
-  "Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače > Zásuvkové skrine": 77
+  "Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače > Zásuvkové skrine": 78
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Montážní skříně a rozvaděče > Zásuvkové sloupky": {
   "Elektro, Smart Home a osvetlenie > Montážne skrine a rozvádzače": 2
@@ -2577,13 +2580,13 @@
   "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie lišty a mostíky": 1
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Rozvaděčové prvky > Propojovací lišty > Příslušenství pro propojovací lišty": {
-  "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie lišty a mostíky": 10
+  "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie lišty a mostíky": 9
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Rozvaděčové prvky > Propojovací lišty > Propojovací lišty tvar kontaktu \"kolík/jazýček\"": {
   "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie lišty a mostíky": 27
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Rozvaděčové prvky > Propojovací lišty > Propojovací lišty tvar kontaktu \"vidlička\"": {
-  "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie lišty a mostíky": 31
+  "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie lišty a mostíky": 32
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Rozvaděčové prvky > Zdroje a zásuvky na DIN lištu": {
   "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > DIN lišty a modulárne komponenty": 37
@@ -2820,7 +2823,7 @@
   "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Vzduchovody a tvarovky": 5
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Ventilační technika > Vzduchovody > Pevné ploché potrubí - PVC > Příslušenství pro pevné ploché potrubí - PVC": {
-  "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Vzduchovody a tvarovky": 18
+  "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Vzduchovody a tvarovky": 17
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Ventilační technika > Vzduchovody > Příslušenství pro vzduchovody": {
   "Elektro, Smart Home a osvetlenie > Vzduchotechnika a montážne príslušenstvo > Vzduchovody a tvarovky": 9
@@ -2886,7 +2889,7 @@
   "Energia a napájanie > Akumulátory a batérie": 4
  },
  "Druhy > ENERGIE > Akumulátory > LiFePO4 akumulátory": {
-  "Energia a napájanie > Akumulátory a batérie > LiFePO4 akumulátory": 33
+  "Energia a napájanie > Akumulátory a batérie > LiFePO4 akumulátory": 32
  },
  "Druhy > ENERGIE > Akumulátory > NiMh nabíjecí akumulátory": {
   "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články": 2
@@ -2982,7 +2985,7 @@
   "Energia a napájanie > Napájacie zdroje": 13
  },
  "Druhy > ENERGIE > Napájecí zdroje a adaptéry > Adaptéry USB": {
-  "Energia a napájanie > Napájacie zdroje": 17
+  "Energia a napájanie > Napájacie zdroje": 16
  },
  "Druhy > ENERGIE > Napájecí zdroje a adaptéry > Průmyslové zdroje": {
   "Energia a napájanie > Napájacie zdroje": 17
@@ -3030,7 +3033,7 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 3
  },
  "Druhy > ENERGIE > SVĚTLO > LED reflektory > Bílé světlo": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED reflektory": 36
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED reflektory": 37
  },
  "Druhy > ENERGIE > SVĚTLO > LED reflektory > Přenosné": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > LED reflektory": 11
@@ -3069,7 +3072,7 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 17
  },
  "Druhy > ENERGIE > SVĚTLO > SVÍTILNY > Čelovky": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > Baterky a ručné svietidlá": 50
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > Baterky a ručné svietidlá": 52
  },
  "Druhy > ENERGIE > SVĚTLO > SVÍTILNY > Kempingové": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > Baterky a ručné svietidlá": 4
@@ -3081,7 +3084,7 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá > Baterky a ručné svietidlá": 35
  },
  "Druhy > ENERGIE > SVĚTLO > Vánoční dekorace": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 152
+  "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 159
  },
  "Druhy > ENERGIE > SVĚTLO > Zahradní svítidla": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie – svietidlá": 21
@@ -3093,7 +3096,7 @@
   "Energia a napájanie > Záložné zdroje a UPS": 2
  },
  "Druhy > ENERGIE > Záložní zdroje a UPS > Powerbanky": {
-  "Počítače, mobily a tablety > Puzdrá, sklá a príslušenstvo pre mobily > Powerbanky": 26
+  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky": 26
  },
  "Druhy > ENERGIE > Záložní zdroje a UPS > Stabilizátory napětí": {
   "Energia a napájanie > Záložné zdroje a UPS": 19
@@ -3102,7 +3105,7 @@
   "Energia a napájanie > Záložné zdroje a UPS": 10
  },
  "Druhy > ENERGIE > Záložní zdroje a UPS > Záložní zdroje pro oběhová čerpadla": {
-  "Energia a napájanie > Záložné zdroje a UPS": 59
+  "Energia a napájanie > Záložné zdroje a UPS": 61
  },
  "Druhy > FOTOVOLTAIKA > Elektroměry > 1 fázové elektroměry": {
   "Energia a napájanie > Fotovoltaika > Elektromery pre fotovoltiku": 15
@@ -3153,7 +3156,7 @@
   "Energia a napájanie > Fotovoltaika": 10
  },
  "Druhy > FOTOVOLTAIKA > Ochrana FV instalací > Jističe": {
-  "Energia a napájanie > Fotovoltaika > Rozvádzače a ochrana FV inštalácií": 6
+  "Energia a napájanie > Fotovoltaika > Rozvádzače a ochrana FV inštalácií": 7
  },
  "Druhy > FOTOVOLTAIKA > Ochrana FV instalací > Pojistky": {
   "Energia a napájanie > Fotovoltaika > Rozvádzače a ochrana FV inštalácií": 7
@@ -3198,7 +3201,7 @@
   "Energia a napájanie > Fotovoltaika > Solárne panely": 7
  },
  "Druhy > FOTOVOLTAIKA > Solární regulátory > Solární regulátory MPPT": {
-  "Energia a napájanie > Fotovoltaika > Solárne regulátory": 45
+  "Energia a napájanie > Fotovoltaika > Solárne regulátory": 44
  },
  "Druhy > FOTOVOLTAIKA > Solární regulátory > Solární regulátory pro ohřev vody": {
   "Energia a napájanie > Fotovoltaika > Solárne regulátory": 13
@@ -3288,7 +3291,7 @@
   "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 8
  },
  "Druhy > KONZOLY  STOŽÁRY  UZEMNĚNÍ > Spojovací a kotevní materiál, chemie > Stahovací pásky": {
-  "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 11
+  "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 21
  },
  "Druhy > KONZOLY  STOŽÁRY  UZEMNĚNÍ > Spojovací a kotevní materiál, chemie > Vruty, hmoždinky": {
   "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 17
@@ -3315,10 +3318,10 @@
   "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 1
  },
  "Druhy > KONZOLY  STOŽÁRY  UZEMNĚNÍ > Uzemnění, hromosvody > Zemnící pásky": {
-  "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 5
+  "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 6
  },
  "Druhy > KONZOLY  STOŽÁRY  UZEMNĚNÍ > Uzemnění, hromosvody > Zemnící svorky": {
-  "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 17
+  "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 18
  },
  "Druhy > KONZOLY  STOŽÁRY  UZEMNĚNÍ > Uzemnění, hromosvody > Zemnící tyče": {
   "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 3
@@ -3378,7 +3381,7 @@
   "Dielňa, náradie a záhrada > Dielenské vybavenie > Sťahovacie pásky a drobné príslušenstvo": 1
  },
  "Druhy > NÁŘADÍ  DÍLNA > Drobné nářadí a příslušenství > Stahovací pásky a spony": {
-  "Dielňa, náradie a záhrada > Dielenské vybavenie > Sťahovacie pásky a drobné príslušenstvo": 33
+  "Dielňa, náradie a záhrada > Dielenské vybavenie > Sťahovacie pásky a drobné príslušenstvo": 43
  },
  "Druhy > NÁŘADÍ  DÍLNA > Drobné nářadí a příslušenství > Zámky": {
   "Dielňa, náradie a záhrada > Dielenské vybavenie > Sťahovacie pásky a drobné príslušenstvo": 2
@@ -3444,7 +3447,7 @@
   "Dielňa, náradie a záhrada > Elektronické súčiastky": 25
  },
  "Druhy > NÁŘADÍ  DÍLNA > Elektronické součástky > Pojistky, pojistkové držáky > Pojistková pouzdra a držáky": {
-  "Dielňa, náradie a záhrada > Elektronické súčiastky": 8
+  "Dielňa, náradie a záhrada > Elektronické súčiastky": 7
  },
  "Druhy > NÁŘADÍ  DÍLNA > Elektronické součástky > Pojistky, pojistkové držáky > Pojistky 5x20mm pomalé (T)": {
   "Dielňa, náradie a záhrada > Elektronické súčiastky": 15
@@ -3456,7 +3459,7 @@
   "Dielňa, náradie a záhrada > Elektronické súčiastky": 10
  },
  "Druhy > NÁŘADÍ  DÍLNA > Elektronické součástky > Průmyslové zdroje > 12v": {
-  "Dielňa, náradie a záhrada > Elektronické súčiastky": 7
+  "Dielňa, náradie a záhrada > Elektronické súčiastky": 8
  },
  "Druhy > NÁŘADÍ  DÍLNA > Elektronické součástky > Průmyslové zdroje > 24v": {
   "Dielňa, náradie a záhrada > Elektronické súčiastky": 1
@@ -3555,13 +3558,13 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie": 3
  },
  "Druhy > NÁŘADÍ  DÍLNA > Mechanické nářadí > Nýtování > Nýtovací kleště": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Nitovačky a nity": 2
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie": 2
  },
  "Druhy > NÁŘADÍ  DÍLNA > Mechanické nářadí > Nýtování > Nýtovací matice": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Nitovačky a nity": 5
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie": 5
  },
  "Druhy > NÁŘADÍ  DÍLNA > Mechanické nářadí > Nýtování > Nýty": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Nitovačky a nity": 8
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie": 8
  },
  "Druhy > NÁŘADÍ  DÍLNA > Mechanické nářadí > Příslušenství ke gola sadám": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice": 3
@@ -3624,7 +3627,7 @@
   "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače": 122
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > Detektory": {
-  "Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory": 38
+  "Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory": 37
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > DVB-S/S2/T/T2/C": {
   "Dielňa, náradie a záhrada > Meracia technika > Merače TV a satelitného signálu": 13
@@ -3645,7 +3648,7 @@
   "Dielňa, náradie a záhrada > Meracia technika": 5
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > Měřící lasery": {
-  "Dielňa, náradie a záhrada > Meracia technika > Meracie lasery a diaľkomery": 22
+  "Dielňa, náradie a záhrada > Meracia technika > Meracie lasery a diaľkomery": 21
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > Měřidla": {
   "Dielňa, náradie a záhrada > Meracia technika > Meradlá a meracie pásma": 20
@@ -3660,7 +3663,7 @@
   "Dielňa, náradie a záhrada > Meracia technika > Príslušenstvo k meracej technike": 22
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > Testery": {
-  "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky": 41
+  "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky": 40
  },
  "Druhy > NÁŘADÍ  DÍLNA > Nářadí pro broušení, vrtání, řezání a pilování > Brusivo > Brusné kotouče": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 7
@@ -3684,7 +3687,7 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 1
  },
  "Druhy > NÁŘADÍ  DÍLNA > Nářadí pro broušení, vrtání, řezání a pilování > Kotouče řezací, pilové, brusné > Kotouče lamelové": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 11
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 10
  },
  "Druhy > NÁŘADÍ  DÍLNA > Nářadí pro broušení, vrtání, řezání a pilování > Kotouče řezací, pilové, brusné > Kotouče lamelové na stopce": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 3
@@ -3747,7 +3750,7 @@
   "Dielňa, náradie a záhrada > Dielenské vybavenie > Ochranné pomôcky a odevy": 1
  },
  "Druhy > NÁŘADÍ  DÍLNA > Ochranné pomůcky a oděvy > Kukly a štíty": {
-  "Dielňa, náradie a záhrada > Dielenské vybavenie > Ochranné pomôcky a odevy": 5
+  "Dielňa, náradie a záhrada > Dielenské vybavenie > Ochranné pomôcky a odevy": 10
  },
  "Druhy > NÁŘADÍ  DÍLNA > Ochranné pomůcky a oděvy > Pracovní rukavice": {
   "Dielňa, náradie a záhrada > Dielenské vybavenie > Ochranné pomôcky a odevy": 18
@@ -3897,16 +3900,16 @@
   "Cestovanie, šport a outdoor": 1
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Boxerské rukavice": {
-  "Cestovanie, šport a outdoor > Bojové športy": 116
+  "Cestovanie, šport a outdoor > Bojové športy": 119
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Boxovací pytle - plné": {
-  "Cestovanie, šport a outdoor > Bojové športy": 25
+  "Cestovanie, šport a outdoor > Bojové športy": 23
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Boxovací pytle - prázdné": {
   "Cestovanie, šport a outdoor > Bojové športy": 11
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Chrániče": {
-  "Cestovanie, šport a outdoor > Bojové športy": 53
+  "Cestovanie, šport a outdoor > Bojové športy": 55
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Chrániče holení": {
   "Cestovanie, šport a outdoor > Bojové športy": 36
@@ -3915,7 +3918,7 @@
   "Cestovanie, šport a outdoor > Bojové športy": 12
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Lapy a bloky": {
-  "Cestovanie, šport a outdoor > Bojové športy": 27
+  "Cestovanie, šport a outdoor > Bojové športy": 28
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > MMA rukavice": {
   "Cestovanie, šport a outdoor > Bojové športy": 42
@@ -3933,10 +3936,10 @@
   "Cestovanie, šport a outdoor > Bojové športy": 11
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Tréninková lana": {
-  "Cestovanie, šport a outdoor > Bojové športy": 5
+  "Cestovanie, šport a outdoor > Bojové športy": 6
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Zátěžové vesty": {
-  "Cestovanie, šport a outdoor > Bojové športy": 13
+  "Cestovanie, šport a outdoor > Bojové športy": 14
  },
  "Druhy > SPORT HRAČKY > Cyklistika": {
   "Cestovanie, šport a outdoor > Cyklistika": 2
@@ -3945,7 +3948,7 @@
   "Cestovanie, šport a outdoor > Cyklistika": 3
  },
  "Druhy > SPORT HRAČKY > Cyklistika > Cyklotašky": {
-  "Cestovanie, šport a outdoor > Cyklistika": 19
+  "Cestovanie, šport a outdoor > Cyklistika": 18
  },
  "Druhy > SPORT HRAČKY > Cyklistika > Elektrokola": {
   "Cestovanie, šport a outdoor > Cyklistika": 5
@@ -3975,7 +3978,7 @@
   "Cestovanie, šport a outdoor > Ďalekohľady": 19
  },
  "Druhy > SPORT HRAČKY > Dalekohledy > Digitální fotoaparáty": {
-  "Cestovanie, šport a outdoor > Ďalekohľady": 9
+  "Cestovanie, šport a outdoor > Ďalekohľady": 8
  },
  "Druhy > SPORT HRAČKY > Dalekohledy > Hvězdářské": {
   "Cestovanie, šport a outdoor > Ďalekohľady": 14
@@ -3987,7 +3990,7 @@
   "Cestovanie, šport a outdoor > Ďalekohľady": 11
  },
  "Druhy > SPORT HRAČKY > Dalekohledy > Příslušenství": {
-  "Cestovanie, šport a outdoor > Ďalekohľady": 14
+  "Cestovanie, šport a outdoor > Ďalekohľady": 13
  },
  "Druhy > SPORT HRAČKY > Dalekohledy > Pro noční vidění": {
   "Cestovanie, šport a outdoor > Ďalekohľady": 15
@@ -4000,9 +4003,6 @@
  },
  "Druhy > SPORT HRAČKY > Hračky > Auta, bagry, traktory pro děti": {
   "Cestovanie, šport a outdoor > Hračky": 5
- },
- "Druhy > SPORT HRAČKY > Hračky > Dětské hudební nástroje > Sady": {
-  "Cestovanie, šport a outdoor > Hračky": 1
  },
  "Druhy > SPORT HRAČKY > Hračky > Kreativní hračky": {
   "Cestovanie, šport a outdoor > Hračky": 11
@@ -4046,32 +4046,29 @@
  "Druhy > SPORT HRAČKY > Hračky > Zvířátka, farmy > Zvířátka": {
   "Cestovanie, šport a outdoor > Hračky": 1
  },
- "Druhy > SPORT HRAČKY > Hudební nástroje": {
-  "Profesionálna audio technika > Hudobné nástroje a príslušenstvo": 1
- },
  "Druhy > SPORT HRAČKY > Hudební nástroje > Digitální piana": {
   "Profesionálna audio technika > Hudobné nástroje a príslušenstvo": 6
  },
  "Druhy > SPORT HRAČKY > Mikroskopy > Digitální fotoaparáty": {
-  "Dielňa, náradie a záhrada > Meracia technika > Mikroskopy": 5
+  "Dielňa, náradie a záhrada > Meracia technika": 4
  },
  "Druhy > SPORT HRAČKY > Mikroskopy > LCD displej / PC monitor": {
-  "Dielňa, náradie a záhrada > Meracia technika > Mikroskopy": 1
+  "Dielňa, náradie a záhrada > Meracia technika": 1
  },
  "Druhy > SPORT HRAČKY > Mikroskopy > Monokulární": {
-  "Dielňa, náradie a záhrada > Meracia technika > Mikroskopy": 1
+  "Dielňa, náradie a záhrada > Meracia technika": 1
  },
  "Druhy > SPORT HRAČKY > Mikroskopy > Příslušenství": {
-  "Dielňa, náradie a záhrada > Meracia technika > Mikroskopy": 2
+  "Dielňa, náradie a záhrada > Meracia technika": 1
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Činky a příslušenství > Činky jednoruční": {
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 50
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Činky a příslušenství > Činky nastavitelné": {
-  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 27
+  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 28
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Činky a příslušenství > Činky obouruční, osy": {
-  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 8
+  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 7
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Činky a příslušenství > Kettlebell": {
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 21
@@ -4080,7 +4077,7 @@
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 8
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Činky a příslušenství > Závaží": {
-  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 15
+  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Činky a závažia": 18
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Podložky": {
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Posilňovacie lavice a podložky": 34
@@ -4131,7 +4128,7 @@
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry": 26
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Trenažéry > Spinningová kola": {
-  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry": 4
+  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry": 3
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Trenažéry > Veslařské trenažéry": {
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry": 5
@@ -4146,7 +4143,7 @@
   "Cestovanie, šport a outdoor > Športové vybavenie": 4
  },
  "Druhy > SPORT HRAČKY > Sportovní vybavení > Koloběžky": {
-  "Cestovanie, šport a outdoor > Športové vybavenie": 42
+  "Cestovanie, šport a outdoor > Športové vybavenie": 43
  },
  "Druhy > SPORT HRAČKY > Sportovní vybavení > Odrážedla": {
   "Cestovanie, šport a outdoor > Športové vybavenie": 9
@@ -4155,7 +4152,7 @@
   "Cestovanie, šport a outdoor > Športové vybavenie": 11
  },
  "Druhy > SPORT HRAČKY > Sportovní vybavení > Paddleboardy": {
-  "Cestovanie, šport a outdoor > Športové vybavenie": 38
+  "Cestovanie, šport a outdoor > Športové vybavenie": 37
  },
  "Druhy > SPORT HRAČKY > Sportovní vybavení > Raketové sporty > Badminton": {
   "Cestovanie, šport a outdoor > Športové vybavenie": 6
@@ -4170,7 +4167,7 @@
   "Cestovanie, šport a outdoor > Športové vybavenie": 7
  },
  "Druhy > SPORT HRAČKY > Turistika > Čelové svítilny": {
-  "Cestovanie, šport a outdoor > Turistika a outdoor": 46
+  "Cestovanie, šport a outdoor > Turistika a outdoor": 48
  },
  "Druhy > SPORT HRAČKY > Turistika > Cestování a outdoor": {
   "Cestovanie, šport a outdoor > Turistika a outdoor": 37
