@@ -1,9 +1,9 @@
 # Sklad — InnPro
 
-Kontrola z 2026-09-18 23:46 UTC.
+Kontrola z 2026-09-19 08:24 UTC.
 
-Produktov v full.xml: **6992**, z toho 5629 má záznam aj v light.xml.
-Dostupnosť: Skladom 5600, ostatné 1392 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
+Produktov v full.xml: **6992**, z toho 5626 má záznam aj v light.xml.
+Dostupnosť: Skladom 5597, ostatné 1395 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
 
 ## quantity="-1" — 0 produktov
 
@@ -41,7 +41,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `021910` | Náhradné filtre + špongia + pumpička Petoneer (3 ks) | Skladom | 579 | 16.10.2026 |
 | `022610` | Inteligentný spínač WiFi + RF 433 Sonoff RF R2 (NOVINKA | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `023125` | Inteligentný odstraňovač zápachu Petoneer | Skladom | 104 | 16.10.2026 |
-| `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrát | Skladom | 282 | 27.10.2026 |
+| `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrát | Skladom | 281 | 27.10.2026 |
 | `024515` | Panoramatický fotografický stojan 360 Puluz DCA0871W | Skladom | 144 | 23.11.2026 |
 | `023538` | Inteligentný spínač WiFi SONOFF 4CHR3 | Skladom | 341 | 23.10.2026 |
 | `023537` | Inteligentný spínač WiFi SONOFF 4CHPROR3 | Skladom | 1202 | 23.10.2026 |
@@ -91,7 +91,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `026531` | Inteligentný dávkovač krmiva Petoneer Nutri Mini | Skladom | 55 | 16.10.2026 |
 | `027612` | Inteligentný spínač WiFi Sonoff Dual R3 | Skladom | 2361 | 27.10.2026 |
 | `027615` | Inteligentný bezdrôtový nástenný vypínač Sonoff T2EU3C- | Dostupné od 23.10.2026 | null | 23.10.2026 |
-| `026429` | Štúdiová súprava Puluz softbox 50x70cm, statív, LED žia | Skladom | 641 | 24.09.2026 |
+| `026429` | Štúdiová súprava Puluz softbox 50x70cm, statív, LED žia | Skladom | 640 | 24.09.2026 |
 | `026430` | Podpera pozadia pre fotoštúdio Puluz PU3054B 67 cm | Skladom | 32 | 24.09.2026 |
 | `026433` | Podpora pozadia pre fotoštúdio Puluz 200x200cm DCA0975 | Skladom | 141 | 22.09.2026 |
 | `026435` | Súprava na upevnenie fotografického pozadia Puluz 2x3 m | Skladom | 24 | 24.09.2026 |
@@ -122,7 +122,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `028759` | Držiak na bicykel Telesin pre športové kamery 360° (DJ- | Skladom | 31 | 22.09.2026 |
 | `027970` | Zastrihávač pre domáce zvieratá 2v1 Petkit | Skladom | 946 | 22.09.2026 |
 | `029058` | Digitálny kliešťový merač Habotest HT208D | Skladom | 11 | 29.09.2026 |
-| `029016` | 3-slotový nabíjací box Telesin pre GoPro Hero 5/6/7/8 + | Skladom | 78 | 23.11.2026 |
+| `029016` | 3-slotový nabíjací box Telesin pre GoPro Hero 5/6/7/8 + | Skladom | 77 | 23.11.2026 |
 | `030465` | Smart Hub WiFi/RF 433MHz Sonoff RF BridgeR2 | Skladom | 269 | 23.10.2026 |
 | `029288` | UV svietidlo Superfire A5, 365NM | Skladom | 345 | 04.12.2026 |
 | `029278` | Solárna lampa Superfire FF5-A, 63W, 500lm, 5000mAh | Skladom | 318 | 04.12.2026 |
@@ -199,7 +199,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `041439` | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | Skladom | 578 | 22.09.2026 |
 | `041445` | Inteligentné diaľkové ovládanie SwitchBot Hub mini | Dostupné od 22.09.2026 | null | 22.09.2026 |
 | `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 365 | 22.09.2026 |
-| `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 556 | 22.09.2026 |
+| `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 555 | 22.09.2026 |
 | `041450` | Diaľkové ovládanie SwitchBot Remote | Skladom | 100 | 22.09.2026 |
 | `041280` | Detektor úniku plynu Habotest HT59 | Skladom | 1097 | 22.09.2026 |
 | `041281` | Detektor úniku plynu Habotest HT60 | Skladom | 514 | 29.09.2026 |
@@ -235,7 +235,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `045438` | Bezdrôtové slúchadlá Oneodio Fusion A70 (čierne) | Skladom | 254 | 22.09.2026 |
 | `045431` | Slúchadlá TWS Oneodio Pro50 (sivé) | Skladom | 193 | 22.09.2026 |
 | `045428` | Slúchadlá Oneodio Pro30 (strieborné) | Skladom | 41 | 22.09.2026 |
-| `045427` | Slúchadlá Oneodio Pro10 (červené) | Skladom | 288 | 22.09.2026 |
+| `045427` | Slúchadlá Oneodio Pro10 (červené) | Skladom | 287 | 22.09.2026 |
 | `045426` | Slúchadlá Oneodio Pro10 (modré) | Dostupné od 22.09.2026 | null | 22.09.2026 |
 | `045425` | Slúchadlá Oneodio Pro10 (čierne) | Dostupné od 22.09.2026 | null | 22.09.2026 |
 | `044652` | Vysielač/prijímač Bluetooth 5.2 BlitzMax BT05, aptX | Skladom | 339 | 16.10.2026 |
@@ -254,10 +254,10 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `047981` | Inteligentný spínací modul ZigBee Avatto LZWSM16-W3 Bez | Skladom | 13 | 16.10.2026 |
 | `047993` | Univerzálny diaľkový ovládač IR WiFi Avatto S16 TUYA | Skladom | 217 | 03.11.2026 |
 | `047994` | Univerzálny diaľkový ovládač IR WiFi RF 433 MHz Avatto  | Skladom | 246 | 16.10.2026 |
-| `048551` | Slúchadlá Oneodio Pro10 (sivé) | Skladom | 74 | 22.09.2026 |
+| `048551` | Slúchadlá Oneodio Pro10 (sivé) | Skladom | 73 | 22.09.2026 |
 | `048550` | Bezdrôtové slúchadlá Oneodio Pro10 (ružovo-zlaté) | Skladom | 76 | 22.09.2026 |
 | `046569` | Fotoštúdio Puluz 30cm LED 24-26lm (PU5032B) | Skladom | 170 | 22.09.2026 |
-| `047621` | Inteligentný mini spínač WiFi Sonoff MINIR4 | Skladom | 78 | 23.10.2026 |
+| `047621` | Inteligentný mini spínač WiFi Sonoff MINIR4 | Skladom | 75 | 23.10.2026 |
 | `048321` | Potápačská maska Telesin s odnímateľným držiakom pre šp | Skladom | 38 | 29.09.2026 |
 | `047221` | Matéria Inteligentné diaľkové ovládanie SwitchBot Hub 2 | Skladom | 140 | 22.09.2026 |
 | `049119` | Sada inteligentného diaľkového ovládania Hub + 3x termo | Skladom | 76 | 22.09.2026 |
@@ -307,7 +307,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `056068` | Napájadlo pre psy a mačky PetKit Eversweet 3 Pro | Skladom | 343 | 27.11.2026 |
 | `056069` | Cestovný batoh PetKit Breezy 2 pre domáce zvieratá (ruž | Skladom | 38 | 22.09.2026 |
 | `056153` | Schodíky do toalety PetKit | Skladom | 106 | 22.09.2026 |
-| `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 356 | 16.10.2026 |
+| `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 355 | 16.10.2026 |
 | `057842` | Dynamický mikrofon Maono PD200x (černý) | Skladom | 195 | 06.10.2026 |
 | `057843` | Dynamický mikrofon Maono PD200x (bílý) | Skladom | 16 | 06.10.2026 |
 | `057844` | Herní mikrofon Maono DM30RGB (černý) | Skladom | 239 | 06.10.2026 |

@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27168,
-  "matchedRules": 2706,
-  "changedProducts": 477,
+  "totalProducts": 27165,
+  "matchedRules": 2705,
+  "changedProducts": 1523,
   "rejected": [
     {
       "supplier": "innpro",
@@ -193,7 +193,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Senzory teploty a vlhkosti",
-      "visibleUnique": 15,
+      "visibleUnique": 14,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
     },
@@ -343,7 +343,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Súpravy fotografických filtrov",
-      "visibleUnique": 57,
+      "visibleUnique": 56,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
     },
