@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-20 21:25 UTC.
+Kontrola z 2026-09-20 23:44 UTC.
 
-InnPro pri **412** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **406** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -53,7 +53,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
-| `045781` | Sunnylife lanyard with attachment for DJI RC-N1 / RC-N2 / RC | — | 5 |
 | `037416` | Tvrdené sklo Sunnylife pre RC ovládač DJI 2ks (MM3-GHM388) | — | 5 |
 | `037421` | Hliníkové paličky na ovládače Sunnylife pre  DJI RC / DJI RC | — | 5 |
 | `037456` | Držiak Sunnylife AirTag pre drony | — | 5 |
@@ -167,7 +166,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `066305` | Tempered Glass PULUZ  for Insta360 X4 / X5 | — | 5 |
 | `066397` | Magnetic Quick Release Mount PULUZ For DJI Osmo Action 5 Pro | — | 5 |
 | `066407` | Magnetic POV Holder Head Mount PULUZ for Insta360 GO 3 / 3S | — | 5 |
-| `066874` | Multifunctional Adapter Mount SUNNYLIFE for DJI Avata 2 | — | 5 |
 | `067464` | Silicone Protective Case PULUZ for DJI RC 2 (grey) | — | 5 |
 | `067463` | Silicone protective case PULUZ for DJI RC 2 (black) | — | 5 |
 | `067462` | Case with Lens Cap and Neck Strap PULUZ for GoPro Hero 9 / 1 | — | 5 |
@@ -215,8 +213,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
-| `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
-| `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 5 |
+| `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
 | `074171` | Kábel USB 2.0 A na 3v1 3A Vention CTPWG 1,5 m (biely) | — | 5 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `074972` | Sunnylife OA5-BK941 ochranné puzdro proti slnku pre OSMO ACT | — | 2 |
@@ -232,7 +229,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `073822` | Súprava nálepiek Telesin pre držiak J-Hook pre športové kame | — | 5 |
 | `077966` | Svetlo Superfire BTL05 na bicykli | — | 5 |
 | `077873` | Ochranná fólia Puluz 3 v 1 pre Insta 360 Ace Pro 2 | — | 5 |
-| `077868` | Ochranné puzdro Puluz pre DJI Mic Mini (čierne) | — | 5 |
 | `077869` | Ochranné puzdro Puluz pre DJI Mic 2 (čierne) | — | 5 |
 | `077820` | Dvojfarebné štítky do tlačiarne T50*30-230 (biele) | — | 5 |
 | `077821` | T50*30-230 Dvojfarebné štítky do tlačiarne (žlté) | — | 5 |
@@ -262,12 +258,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `081528` | Etui na batérii Sunnylife Mini 5 Pro (na 3 batérie) | — | 5 |
 | `081549` | Sunnylife G031 plastový kryt objektívu pre OSMO 360 | — | 5 |
 | `081550` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 | — | 5 |
-| `081552` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 (oranž | — | 5 |
 | `081553` | Sunnylife SN027 polootvorené plastové ochranné puzdro (čiern | — | 5 |
-| `081555` | Silikónový ochranný kryt kompatibilný so Sunnylife SG034 | — | 5 |
 | `081529` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (ruž | — | 4 |
 | `081532` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (žlt | — | 5 |
-| `081944` | Cyklistické svetlo Superfire BL56-B | — | 5 |
+| `081944` | Cyklistické svetlo Superfire BL56-B | — | 4 |
 | `082306` | Ochranné sklo 2 v 1 (displej + objektív) PULUZ pre Insta360  | — | 5 |
 | `082307` | Puzdro EVA PULUZ Mini pre Insta360 GO Ultra (čierne) | — | 5 |
 | `082309` | Silikónový kryt objektívu + puzdro PULUZ pre Insta360 GO Ult | — | 5 |
