@@ -54,6 +54,15 @@ function applyFeedContent(xml, supplier) {
       const xmlEscapeUrl = u => u.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
       item = item.replace(/<IMAGES>[\s\S]*?<\/IMAGES>/, () => '<IMAGES>\n' + product.images.map((url, i) => `  <IMAGE description="${alt} - obrázok ${i+1}">${xmlEscapeUrl(url)}</IMAGE>`).join('\n') + '\n</IMAGES>');
     }
+    if (product.ean) {
+      // applyProductContent už ean overil (8-13 číslic); tu ho len zapíšeme do XML, buď
+      // prepísaním existujúceho <EAN>, alebo (feed bez EAN) vložením pred <CATEGORIES>.
+      if (/<EAN>[^<]*<\/EAN>/.test(item)) {
+        item = item.replace(/<EAN>[^<]*<\/EAN>/, `<EAN>${product.ean}</EAN>`);
+      } else {
+        item = item.replace('<CATEGORIES>', `<EAN>${product.ean}</EAN>\n<CATEGORIES>`);
+      }
+    }
     return item;
   });
 }
