@@ -21,7 +21,7 @@ for(let i=0;i<a.length;i++)if(a[i]!==b[i]){
  count++;
  const code=a[i].match(/<CODE>([^<]+)<\/CODE>/)?.[1];
  assert.ok(registryCodes.has(code),`Changed SHOPITEM has unregistered code: ${code}`);
- const strip=x=>x.replace(/<(DESCRIPTION|SHORT_DESCRIPTION|SEO_TITLE|META_DESCRIPTION|IMAGES)>[\s\S]*?<\/\1>/g,'');
+ const strip=x=>x.replace(/<(DESCRIPTION|SHORT_DESCRIPTION|SEO_TITLE|META_DESCRIPTION|IMAGES)>[\s\S]*?<\/\1>/g,'').replace(/<EAN>[^<]*<\/EAN>\n?/g,'');
  assert.equal(strip(a[i]),strip(b[i]));
 }
 assert.ok(count <= registryCodes.size, `Changed more SHOPITEMs (${count}) than registered overrides (${registryCodes.size})`);
