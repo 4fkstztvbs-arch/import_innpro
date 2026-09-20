@@ -83,7 +83,9 @@ function processFeeds(files, config) {
         seenReviewed.add(key);
         if (rule.ean !== ean) throw new Error('Reviewed EAN changed: ' + file.name + '/' + code);
         if (!before.some(c => [...rule.current, ...rule.proposed].some(d => under(c, d) || under(d, c)))) {
-          throw new Error('Reviewed product moved outside its approved scope: ' + file.name + '/' + code);
+          throw new Error('Reviewed product moved outside its approved scope: ' + file.name + '/' + code +
+            ' (feed now has: ' + before.join(' | ') + '; approved current: ' + rule.current.join(' | ') +
+            '; approved proposed: ' + rule.proposed.join(' | ') + ')');
         }
         target = applyRule(before, rule);
         report.matchedRules++;
