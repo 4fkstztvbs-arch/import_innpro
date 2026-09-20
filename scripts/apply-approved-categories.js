@@ -83,12 +83,19 @@ function processFeeds(files, config) {
         seenReviewed.add(key);
         if (rule.ean !== ean) throw new Error('Reviewed EAN changed: ' + file.name + '/' + code);
         if (!before.some(c => [...rule.current, ...rule.proposed].some(d => under(c, d) || under(d, c)))) {
-          throw new Error('Reviewed product moved outside its approved scope: ' + file.name + '/' + code +
-            ' (feed now has: ' + before.join(' | ') + '; approved current: ' + rule.current.join(' | ') +
-            '; approved proposed: ' + rule.proposed.join(' | ') + ')');
+          // The supplier feed has drifted its own category for this product since the rule was
+          // reviewed/approved (seen with MONACOR/pulsepro.audio, whose upstream categories shift
+          // over time). Treat like a name change: skip the stale rule and fall through to the
+          // ordinary dynamic-rule/tree-enforced category instead of aborting the whole feed.
+          report.rejected.push({
+            supplier: file.name, code, reason: 'Reviewed product moved outside its approved scope',
+            feedCategories: before, approvedCurrent: rule.current, approvedProposed: rule.proposed,
+          });
+          rule = null;
+        } else {
+          target = applyRule(before, rule);
+          report.matchedRules++;
         }
-        target = applyRule(before, rule);
-        report.matchedRules++;
       }
       if (!rule && !dynamicExcluded.has(key) && !report.rejected.some(r => r.supplier === file.name && r.code === code)) {
         const name = field(xml, 'NAME').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
