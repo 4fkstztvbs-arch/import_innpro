@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27163,
+  "totalProducts": 27148,
   "matchedRules": 2705,
-  "changedProducts": 52,
+  "changedProducts": 649,
   "rejected": [
     {
       "supplier": "innpro",
@@ -151,7 +151,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice",
-      "visibleUnique": 27,
+      "visibleUnique": 28,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
@@ -169,13 +169,13 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
-      "visibleUnique": 76,
+      "visibleUnique": 75,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače",
-      "visibleUnique": 37,
+      "visibleUnique": 36,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
@@ -421,7 +421,7 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy",
-      "visibleUnique": 23,
+      "visibleUnique": 24,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
