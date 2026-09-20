@@ -27,5 +27,14 @@ for(let i=0;i<a.length;i++)if(a[i]!==b[i]){
 assert.ok(count <= registryCodes.size, `Changed more SHOPITEMs (${count}) than registered overrides (${registryCodes.size})`);
 assert.equal(changed.images.length,5);
 assert.ok(changed.images.every(x=>x.includes('/user/documents/upload/')));
+
+// EAN override: mutate the same (require-cached) registry object in place, no ean set yet on QCSC fixture.
+const rawRegistry=require('../data/product-content/basys.json');
+assert.equal(applyProductContent('basys',product).ean,'');
+rawRegistry[product.code]={...rawRegistry[product.code],ean:'12345678'};
+assert.equal(applyProductContent('basys',product).ean,'12345678');
+rawRegistry[product.code]={...rawRegistry[product.code],ean:'not-a-number'};
+assert.throws(()=>applyProductContent('basys',product),/Invalid EAN override/);
+delete rawRegistry[product.code].ean;
 console.log(`PASS: ${a.length} products, ${count} changed; only four content fields, idempotent, manufacturer guard`);
 if(process.argv.includes('--write'))fs.writeFileSync('output/basys.xml',after);
