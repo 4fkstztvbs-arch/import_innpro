@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27162,
+  "totalProducts": 27165,
   "matchedRules": 2705,
-  "changedProducts": 1277,
+  "changedProducts": 488,
   "rejected": [
     {
       "supplier": "innpro",
@@ -133,7 +133,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Kuchynské roboty",
-      "visibleUnique": 18,
+      "visibleUnique": 21,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
