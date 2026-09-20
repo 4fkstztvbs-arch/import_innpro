@@ -43,21 +43,36 @@ function applyRule(before, rule) {
   const rest = before.filter(c => !removed.some(d => under(c, d) || under(d, c)));
   return orderedTargets(before, [...rest, ...added]);
 }
+// Approved rules for one supplier code. Normally exactly one; the EAN decides only when a code
+// legitimately carries several (colour variants that a supplier ships under one code, say).
+// A rule with no recorded EAN matches whatever the feed now sends - that is the fill-in case.
+function pickRule(list, ean) {
+  if (!list || !list.length) return null;
+  if (list.length === 1) return list[0];
+  return list.find(r => r.ean === ean) || list.find(r => !r.ean) || null;
+}
 function processFeeds(files, config) {
   if (config.minimum !== 8) throw new Error('Approved minimum must be 8');
   const known = new Set(config.tree);
+  // Keyed by supplier+code, NOT supplier+code+ean. A missing EAN gets filled in later (see the
+  // unmatched-products report workflow), so an EAN appearing where the approved rule recorded
+  // none is the normal course of events, not a sign of a different product. Keying on the EAN
+  // made every such fill-in abort the whole run: on 2026-09-20 BASYS-B 895491-0300 gained EAN
+  // 17817859745 and took down all seven supplier syncs. The EAN is now a cross-check, not an
+  // identity - see pickRule below for the one case where it still decides.
   const rules = new Map();
-  const reviewedCodes = new Set();
   for (const r of config.products) {
-    const key = r.supplier + '\0' + r.code + '\0' + r.ean;
-    if (rules.has(key)) throw new Error('Duplicate reviewed supplier/code: ' + r.code);
+    const key = r.supplier + '\0' + r.code;
+    const list = rules.get(key) || [];
+    // Two rules for one code are allowed only when their EANs tell them apart.
+    if (list.some(o => o.ean === r.ean)) throw new Error('Duplicate reviewed supplier/code: ' + r.code);
     if (![...r.current, ...r.proposed].every(c => typeof c === 'string' && c.length)) throw new Error('Invalid rule');
     if (!r.proposed.every(c => known.has(c))) throw new Error('Rule target outside tree: ' + r.code);
-    rules.set(key, r);
-    reviewedCodes.add(r.supplier + '\0' + r.code);
+    list.push(r);
+    rules.set(key, list);
   }
   const records = [];
-  const dynamicExcluded = new Set((config.dynamicExcludedProducts || []).map(r => r.supplier + '\0' + r.code + '\0' + r.ean));
+  const dynamicExcluded = new Set((config.dynamicExcludedProducts || []).map(r => r.supplier + '\0' + r.code));
   const dynamic = (config.dynamicRules || []).map(r => {
     if (!known.has(r.target) || !under(r.target, r.base)) throw new Error('Invalid recurring category rule');
     return {...r, re: new RegExp(r.pattern, 'i'), except: new RegExp(r.exclude || '(?!)', 'i')};
@@ -69,19 +84,33 @@ function processFeeds(files, config) {
     if (!matches.length || !/<\/SHOP>\s*$/.test(file.text)) throw new Error('Empty or incomplete feed: ' + file.name);
     for (const m of matches) {
       const xml = m[0], code = field(xml, 'CODE'), ean = field(xml, 'EAN');
-      const key = file.name + '\0' + code + '\0' + ean;
+      const key = file.name + '\0' + code;
       const original = categories(xml), before = leaves(original);
       let target = before;
-      let rule = rules.get(key);
-      if (!rule && reviewedCodes.has(file.name + '\0' + code)) throw new Error('Reviewed EAN changed: ' + file.name + '/' + code);
+      let rule = pickRule(rules.get(key), ean);
+      // A rule whose EAN was recorded and now differs from a non-empty feed EAN really may be a
+      // different product. That is worth refusing - but only for THIS product: skip the stale
+      // rule and fall through to the ordinary dynamic/tree path, exactly like a name change.
+      // Aborting the run would stop every supplier over one item, which is how the whole night
+      // batch used to go down.
+      if (rule && rule.ean && ean && rule.ean !== ean) {
+        report.rejected.push({supplier: file.name, code, reason: 'Reviewed EAN changed',
+          approvedEan: rule.ean, feedEan: ean});
+        rule = null;
+      }
       if (rule?.name && rule.name !== field(xml, 'NAME')) {
         report.rejected.push({supplier: file.name, code, reason: 'Reviewed product name changed'});
         rule = null;
       }
       if (rule) {
-        if (seenReviewed.has(key)) throw new Error('Ambiguous reviewed product code: ' + file.name + '/' + code);
-        seenReviewed.add(key);
-        if (rule.ean !== ean) throw new Error('Reviewed EAN changed: ' + file.name + '/' + code);
+        // One approved rule may serve one feed item. A second item claiming it means the feed
+        // carries the code twice; skip it rather than abort, and let the report say so.
+        if (seenReviewed.has(rule)) {
+          report.rejected.push({supplier: file.name, code, reason: 'Ambiguous reviewed product code'});
+          rule = null;
+        } else seenReviewed.add(rule);
+      }
+      if (rule) {
         if (!before.some(c => [...rule.current, ...rule.proposed].some(d => under(c, d) || under(d, c)))) {
           // The supplier feed has drifted its own category for this product since the rule was
           // reviewed/approved (seen with MONACOR/pulsepro.audio, whose upstream categories shift
@@ -184,6 +213,12 @@ function main() {
   console.log(JSON.stringify({mode: args.includes('--write') ? 'write' : 'dry-run', ...result.report, categories: undefined}, null, 2));
   for (const c of result.report.categories.filter(c => !c.active)) {
     console.log('::warning::Category below 8: ' + c.path + ' (' + c.visibleUnique + '). Products stay in parent; review shop page visibility.');
+  }
+  // Skipping a stale rule keeps the run alive, but silently dropping an approved decision would
+  // be worse than the crash it replaced - so every skip is visible in the Actions log.
+  for (const r of result.report.rejected) {
+    console.log('::warning::Approved rule skipped: ' + r.supplier + '/' + r.code + ' - ' + r.reason
+      + (r.approvedEan ? ' (approved ' + r.approvedEan + ', feed ' + r.feedEan + ')' : ''));
   }
 }
 module.exports = {processFeeds, applyRule, orderedTargets, categories, leaves, ancestors};

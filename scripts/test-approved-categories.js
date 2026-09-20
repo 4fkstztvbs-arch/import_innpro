@@ -41,10 +41,24 @@ test('new unreviewed SKU stays in existing parent', () => {
   const last=r.files[0].text.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g).at(-1);
   assert.equal(categories(last)[0],'Root > Parent');
 });
-test('EAN changes and ambiguous reviewed codes stop before writes', () => {
+test('an EAN filled in later still matches its approved rule', () => {
+  // The normal course of events: the rule was approved before we knew the EAN, and the product
+  // workflow has since found one. This must not disturb the run at all.
   const {config,files} = fixture();
-  assert.throws(()=>processFeeds([{...files[0],text:files[0].text.replace('<EAN>0</EAN>','<EAN>changed</EAN>')}],config),/EAN changed/);
-  assert.throws(()=>processFeeds([{...files[0],text:files[0].text.replace('</SHOP>',item('c0','0')+'</SHOP>')}],config),/Ambiguous/);
+  config.products[0].ean = '';
+  const r = processFeeds(files,config);
+  assert.equal(r.report.rejected.length,0);
+  assert.equal(r.report.matchedRules,8);
+  assert.equal(r.report.categories[0].active,true);
+});
+test('a changed EAN or a duplicated code skips that one product, never the run', () => {
+  const {config,files} = fixture();
+  const changed = processFeeds([{...files[0],text:files[0].text.replace('<EAN>0</EAN>','<EAN>changed</EAN>')}],config);
+  assert.deepEqual(changed.report.rejected.map(r=>r.reason),['Reviewed EAN changed']);
+  assert.equal(changed.report.matchedRules,7); // the other seven still applied
+  const twice = processFeeds([{...files[0],text:files[0].text.replace('</SHOP>',item('c0','0')+'</SHOP>')}],config);
+  assert.deepEqual(twice.report.rejected.map(r=>r.reason),['Ambiguous reviewed product code']);
+  assert.equal(twice.report.matchedRules,8);
 });
 test('retirement only removes the retired branch; parent with few direct items remains', () => {
   const {config,files}=fixture(); config.retired['Root > Retired']='Root';

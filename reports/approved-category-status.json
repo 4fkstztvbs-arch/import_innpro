@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27166,
-  "matchedRules": 2702,
-  "changedProducts": 1277,
+  "totalProducts": 27165,
+  "matchedRules": 2701,
+  "changedProducts": 0,
   "rejected": [
     {
       "supplier": "innpro",
@@ -301,7 +301,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 65,
+      "visibleUnique": 64,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
