@@ -11,7 +11,14 @@ function applyProductContent(supplier, product) {
     result[key] = override[key];
   }
   if (override.images) {
-    if (!Array.isArray(override.images) || !override.images.length || override.images.some(x => !/^https:\/\/www\.premiumstore\.sk\/user\/documents\/upload\/[^<>"&]+$/.test(x))) throw new Error(`Invalid image override: ${product.code}`);
+    // premiumstore.sk/user/documents/upload/ = curated fotky nahrané cez Shoptet filemanager (QCSC pilot).
+    // cloud.basys.cz/... = overené reálne fotky priamo z BASYS dodávateľského CDN, "zamknuté" v override,
+    // aby sa nezmenili/nezmizli, keby BASYS niekedy prestavil svoj vlastný feed/CDN.
+    const ALLOWED_IMAGE_HOSTS = [
+      /^https:\/\/www\.premiumstore\.sk\/user\/documents\/upload\/[^<>"&]+$/,
+      /^https:\/\/cloud\.basys\.cz\/remote\.php\/dav\/public-files\/[^<>"&]+$/,
+    ];
+    if (!Array.isArray(override.images) || !override.images.length || override.images.some(x => !ALLOWED_IMAGE_HOSTS.some(re => re.test(x)))) throw new Error(`Invalid image override: ${product.code}`);
     result.images = [...override.images];
   }
   return result;
