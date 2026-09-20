@@ -16,10 +16,12 @@ function applyProductContent(supplier, product) {
     // aby sa nezmenili/nezmizli, keby BASYS niekedy prestavil svoj vlastný feed/CDN.
     // assets.bosecreative.com = oficiálne produktové fotky priamo od výrobcu (Bose), použité len keď
     // dodávateľský feed nemá funkčnú vlastnú fotku pre daný farebný variant.
+    // assets.boseprofessional.com = oficiálne produktové fotky Bose Professional (B2B/inštalačný sortiment).
     const ALLOWED_IMAGE_HOSTS = [
       /^https:\/\/www\.premiumstore\.sk\/user\/documents\/upload\/[^<>"&]+$/,
       /^https:\/\/cloud\.basys\.cz\/remote\.php\/dav\/public-files\/[^<>"&]+$/,
       /^https:\/\/assets\.bosecreative\.com\/transform\/[^<>"]+$/,
+      /^https:\/\/assets\.boseprofessional\.com\/transform\/[^<>"]+$/,
     ];
     if (!Array.isArray(override.images) || !override.images.length || override.images.some(x => !ALLOWED_IMAGE_HOSTS.some(re => re.test(x)))) throw new Error(`Invalid image override: ${product.code}`);
     result.images = [...override.images];
