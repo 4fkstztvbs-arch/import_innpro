@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600320,
+    "nextCardNumber": 202600322,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1916,6 +1916,18 @@
         "nazov": "Teplotní sonda UNI-T T01",
         "dodavatel": "atos",
         "code": "TIP-07740140"
+      },
+      "6925281969775": {
+        "kod": "202600320",
+        "nazov": "JBL Tune Beam black",
+        "dodavatel": "kb",
+        "code": "100001959243"
+      },
+      "7350007792587": {
+        "kod": "202600321",
+        "nazov": "Alligator 3079B",
+        "dodavatel": "kb",
+        "code": "100001880340"
       }
     }
   },
