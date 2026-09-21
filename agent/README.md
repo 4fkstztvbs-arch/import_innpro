@@ -31,11 +31,17 @@ Until explicitly promoted for a named change class, the agent runs in DISCOVERY 
 Read all rules before acting:
 - `rules/safety.md`
 - `rules/security.md`
+- `rules/data-sources.md`
 - `rules/imports.md`
 - `rules/seo.md`
 - `rules/experiments.md`
 - `change-ledger/README.md`
 - `reports/README.md`
+
+## Operational data sources
+The owner has provided authenticated PremiumStore exports for orders, the complete product catalogue and categories. Their endpoint families and handling rules are documented in `rules/data-sources.md`.
+
+Because this repository is public and the signed export URLs contain access hashes, the full authenticated URLs must stay in private runtime configuration/secrets and must not be committed here. The orders export may contain customer personal data and must be handled accordingly.
 
 ## Production reality
 In this repository, `main` is connected to production. Published `output/*.xml` files are consumed by Shoptet, pricing workflows can modify those feeds, and some Cloudflare Worker directories auto-deploy after changes to `main`. A merge must therefore be treated as a potential deployment.
