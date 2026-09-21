@@ -34,17 +34,17 @@ function fixtureFor(entries) {
 }
 
 for (const supplier of ['kb', 'atos']) {
-  test(supplier + ': dry-run lokalizuje presne 20 pilotných produktov a nič iné', () => {
+  test(supplier + ': dry-run lokalizuje presne 50 pilotných produktov a nič iné', () => {
     const entries = registry.products.filter((p) => p.supplier === supplier && p.status === 'pilot_approved');
-    assert.equal(entries.length, 20);
+    assert.equal(entries.length, 50);
     const before = fixtureFor(entries);
     const localized = localizeXml(before, { supplier, registry });
     assert.equal(localized.report.issueCount, 0);
-    assert.equal(localized.report.changedCount, 20);
+    assert.equal(localized.report.changedCount, 50);
 
     const validation = validateXml(before, localized.xml, { supplier, registry });
     assert.equal(validation.ok, true, JSON.stringify(validation.issues));
-    assert.equal(validation.changedCount, 20);
+    assert.equal(validation.changedCount, 50);
   });
 }
 
