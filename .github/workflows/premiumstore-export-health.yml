@@ -1,20 +1,19 @@
 name: PremiumStore export health check
 
 on:
-  workflow_dispatch:
-  push:
-    branches:
-      - agent/export-health-check
-    paths:
-      - scripts/agent-validate-premiumstore-exports.js
-      - scripts/agent-aggregate-premiumstore-orders.js
-      - .github/workflows/premiumstore-export-health.yml
+  schedule:
+    # 06:00 UTC / 08:00 CEST — read-only health check after the nightly import batch.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
 
 permissions:
   contents: read
 
 jobs:
   validate:
+    # Secrets must never be exposed to a workflow version from an agent/test branch.
+    # Scheduled runs use the default branch; manual runs on any other ref are skipped.
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
       PREMIUMSTORE_ORDERS_EXPORT_URL: ${{ secrets.PREMIUMSTORE_ORDERS_EXPORT_URL }}
@@ -32,6 +31,3 @@ jobs:
 
       - name: Validate authenticated exports
         run: node scripts/agent-validate-premiumstore-exports.js
-
-      - name: Aggregate orders safely
-        run: node scripts/agent-aggregate-premiumstore-orders.js
