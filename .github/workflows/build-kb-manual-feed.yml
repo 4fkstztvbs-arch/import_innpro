@@ -1,0 +1,45 @@
+name: Build K-B manual localized feed
+
+on:
+  push:
+    branches:
+      - fix/kb-manual-localized-feed
+    paths:
+      - 'scripts/build-kb-manual-feed.js'
+      - '.github/workflows/build-kb-manual-feed.yml'
+      - 'output/kb.xml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build manual feed with Shoptet K-B product codes
+        run: |
+          node scripts/build-kb-manual-feed.js \
+            --in=output/kb.xml \
+            --out=/tmp/kb-localized-manual.xml \
+            --prefix=KB_
+
+      - name: Verify expected live-feed size
+        run: |
+          COUNT=$(grep -c '<SHOPITEM' /tmp/kb-localized-manual.xml)
+          echo "SHOPITEM count: $COUNT"
+          test "$COUNT" -ge 4900
+
+      - name: Upload XML
+        uses: actions/upload-artifact@v4
+        with:
+          name: kb-localized-manual-feed
+          path: /tmp/kb-localized-manual.xml
+          retention-days: 3
+          compression-level: 0
