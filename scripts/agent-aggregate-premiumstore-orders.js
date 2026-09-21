@@ -74,12 +74,22 @@ async function main() {
     const gross = grossTotal(order);
     if (gross === null) missingGrossTotal += 1;
 
-    if (!daily.has(date)) daily.set(date, { orders: 0, grossRevenue: 0, pricedOrders: 0, statuses: {} });
+    if (!daily.has(date)) daily.set(date, {
+      orders: 0, grossRevenue: 0, pricedOrders: 0,
+      activeOrders: 0, activeGrossRevenue: 0,
+      cancelledOrders: 0, cancelledGrossRevenue: 0,
+      statuses: {}
+    });
     const d = daily.get(date);
+    const cancelled = status.toLocaleLowerCase('sk').includes('storn');
     d.orders += 1;
+    if (cancelled) d.cancelledOrders += 1;
+    else d.activeOrders += 1;
     if (gross !== null) {
       d.grossRevenue += gross;
       d.pricedOrders += 1;
+      if (cancelled) d.cancelledGrossRevenue += gross;
+      else d.activeGrossRevenue += gross;
     }
     d.statuses[status] = (d.statuses[status] || 0) + 1;
   }
@@ -90,6 +100,10 @@ async function main() {
       date,
       orders: d.orders,
       grossRevenue: Number(d.grossRevenue.toFixed(2)),
+      activeOrders: d.activeOrders,
+      activeGrossRevenue: Number(d.activeGrossRevenue.toFixed(2)),
+      cancelledOrders: d.cancelledOrders,
+      cancelledGrossRevenue: Number(d.cancelledGrossRevenue.toFixed(2)),
       pricedOrders: d.pricedOrders,
       statuses: d.statuses,
     }));
