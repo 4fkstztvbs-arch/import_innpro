@@ -105,14 +105,6 @@
     },
     {
       "supplier": "kb",
-      "code": "100000800050",
-      "ean": "4006501565907",
-      "sourceName": "Leifheit Mop na podlahu PICO SPRAY",
-      "skName": "Leifheit Pico Spray podlahový mop",
-      "status": "pilot_approved"
-    },
-    {
-      "supplier": "kb",
       "code": "100000236692",
       "ean": "8594172540027",
       "sourceName": "LIMO BAR Edge - Grey",
@@ -125,14 +117,6 @@
       "ean": "8013240705514",
       "sourceName": "Laica XXL Milano bílá",
       "skName": "Laica Milano XXL filtračná kanvica, biela",
-      "status": "pilot_approved"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000905607",
-      "ean": "6935364089832",
-      "sourceName": "TP-LINK Archer MR600 4G LTE WiFI Router",
-      "skName": "TP-Link Archer MR600 4G LTE Wi-Fi router",
       "status": "pilot_approved"
     },
     {
@@ -333,6 +317,22 @@
       "ean": "4066966321630",
       "sourceName": "Svorka Wago 2773-2401, 2x0,2-4 mm2 PUSH WIRE, bezšroubová",
       "skName": "Wago 2773-2401 bezskrutková svorka PUSH WIRE, 2 × 0,2–4 mm²",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000224396",
+      "ean": "8594161339113",
+      "sourceName": "Evolveo Ania 5R, chladicí podst. pro NTB",
+      "skName": "Evolveo Ania 5R chladiaca podložka pod notebook",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "700010550632",
+      "ean": "4017167329208",
+      "sourceName": "Continenta Dřevěný chlebník",
+      "skName": "Continenta drevený chlebník",
       "status": "pilot_approved"
     }
   ]
