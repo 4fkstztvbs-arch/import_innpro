@@ -8864,9 +8864,30 @@
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerMatch Amplink 24-channel Card rozširujúca karta]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[24-kanálová vstupní karta]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p>24-kanálová vstupní karta</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-k-profesionalnemu-audiu/">Príslušenstvo k profesionálnemu audiu</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerMatch AmpLink 24-channel Card, rozširujúca karta pre 24-kanálové AmpLink digitálne audio pripojenie.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-amplink24">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERMATCH</p><h2>AmpLink 24-channel Card.<br>Rozširujúca karta.</h2><p>Rozširujúca karta AmpLink 24-channel Card pridáva zosilňovaču prístup k 24-kanálovému digitálnemu AmpLink audio bus. 3-polohový prepínač bánk vyberie, ktorých 8 z 24 kanálov bude zosilňovač zosilňovať, a viacero zosilňovačov možno zapojiť do reťaze (daisy-chain).</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/9e611eb3-46f6-4b71-85c4-372dd650e642/PM-A_Card_Ortho_Front-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerMatch AmpLink 24-channel Card, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/a66085f9-14f9-4a73-b961-8d5efc6f0c7e/PM-A_Card_Right_Facing_alt-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerMatch AmpLink 24-channel Card, bočný pohľad na kartu s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">ZAPOJENIE</p><h2>Daisy-chain.<br>Až 8 zosilňovačov v reťazi.</h2><p>Rýchlokonektory RJ-45 na tienenom Cat 5 kábli umožňujú prepojenie (thru) až 8 zosilňovačov v reťazi do vzdialenosti 10 m medzi jednotlivými zariadeniami. Každý zosilňovač v reťazi si môže zvoliť rovnakú alebo inú banku 8 kanálov.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Digitálne kanály</strong><span class="ps-value">24 AmpLink in</span></div>
+<div><strong class="ps-label">Konektory</strong><span class="ps-value">(1) RJ-45 AmpLink in / (1) RJ-45 AmpLink thru</span></div>
+<div><strong class="ps-label">Kabeláž</strong><span class="ps-value">Cat 5, tienený TIA/EIA 568B priamy kábel</span></div>
+<div><strong class="ps-label">Max. dĺžka kábla</strong><span class="ps-value">10 m medzi zariadeniami</span></div>
+<div><strong class="ps-label">Výber banky</strong><span class="ps-value">3-polohový prepínač (kanály 1–8, 9–16, 17–24)</span></div>
+<div><strong class="ps-label">Max. počet zosilňovačov v reťazi</strong><span class="ps-value">8</span></div>
+<div><strong class="ps-label">Vzorkovacia frekvencia/bit hĺbka</strong><span class="ps-value">48 kHz / 24-bit</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+</div></section>
+<section class="ps-section"><h2>V balení</h2><ul class="ps-package"><li>(1) rozširujúca karta PowerMatch</li><li>Inštalačná príručka</li></ul></section>
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Do ktorých zosilňovačov karta pasuje?</summary><p>Karta je určená pre zosilňovače radu Bose Professional PowerMatch s voľným rozširujúcim slotom.</p></details><details><summary>Môžem prepojiť viacero zosilňovačov na rôzne banky kanálov?</summary><p>Áno, každý zosilňovač v reťazi si nezávisle zvolí, ktorú z troch 8-kanálových bánk bude zosilňovať.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerMatch%20AmpLink%2024-channel%20Card">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -8874,8 +8895,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>709</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerMatch Amplink 24-channel Card rozširujúca karta - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/m/pmamplinkcard.jpg</IMAGE>
-  <IMAGE description="BOSE PowerMatch Amplink 24-channel Card rozširujúca karta - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/m/pmamplinkcard_front.jpg</IMAGE>
+  <IMAGE description="Bose Professional PowerMatch AmpLink 24-channel Card, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/9e611eb3-46f6-4b71-85c4-372dd650e642/PM-A_Card_Ortho_Front-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerMatch AmpLink 24-channel Card, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/a66085f9-14f9-4a73-b961-8d5efc6f0c7e/PM-A_Card_Right_Facing_alt-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -8885,8 +8906,8 @@
 <PURCHASE_PRICE>215.62</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerMatch Amplink 24-channel Card rozširujúca… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerMatch Amplink 24-channel Card rozširujúca karta – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerMatch AmpLink 24-channel Card rozširujúca karta]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerMatch AmpLink 24-channel Card – rozširujúca karta pre pripojenie zosilňovača k 24-kanálovému AmpLink audio bus.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Behringer NX6000 power amplifier]]></NAME>
@@ -9689,9 +9710,24 @@
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerMatch PM8250N výkonový zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Profesionálny výkonový zosilňovač konfigurácie Bose® PowerMatch PM8250 poskytuje zvukovú kvalitu kontrastu s vysokou úrovňou škálovateľnosti a konfigurovateľnosti pre pevné inštalačné zvukové systémy.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Profesionálny výkonový zosilňovač konfigurácie Bose® PowerMatch PM8250 poskytuje zvukovú kvalitu kontrastu s vysokou úrovňou škálovateľnosti a konfigurovateľnosti pre pevné inštalačné zvukové systémy.
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerMatch PM8250N, 8-kanálový konfigurovateľný zosilňovač so sieťovým Ethernet ovládaním.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-pm8250n">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERMATCH PM8250N</p><h2>Konfigurovateľný zosilňovač.<br>8 kanálov, QuadBridge.</h2><p>PowerMatch PM8250N je 8-kanálový konfigurovateľný zosilňovač s výkonom 2000 W pre inštalačné ozvučenie. Technológia QuadBridge umožňuje nastaviť každý 4-kanálový blok do režimu Mono, V-Bridge, I-Share alebo Quad, takže celkový výkon bloku možno prideliť jednému alebo viacerým výstupným kanálom. Sieťové Ethernet riadenie umožňuje konfiguráciu, ovládanie a monitoring, rozširujúci slot podporuje voliteľné digitálne audio karty (napr. AmpLink 24-channel Card).</p></div>
+</section>
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">8, konfigurovateľné (QuadBridge: Mono/V-Bridge/I-Share/Quad)</span></div>
+<div><strong class="ps-label">Výkon</strong><span class="ps-value">2000 W (celkový, podľa konfigurácie QuadBridge)</span></div>
+<div><strong class="ps-label">Záťaž</strong><span class="ps-value">Nízka impedancia 2–8 Ω aj vysoká impedancia 70/100V</span></div>
+<div><strong class="ps-label">Riadenie</strong><span class="ps-value">Sieťové cez Ethernet, konfigurácia, ovládanie a monitoring</span></div>
+<div><strong class="ps-label">Pripojenie k PC</strong><span class="ps-value">USB na prednom paneli pre priame pripojenie</span></div>
+<div><strong class="ps-label">Rozšírenie</strong><span class="ps-value">Voliteľný slot pre digitálne audio karty (napr. AmpLink 24-channel Card)</span></div>
+<div><strong class="ps-label">Stav</strong><span class="ps-value">Ukončený model (discontinued) na strane výrobcu – aktuálne v ponuke ako skladová položka</span></div>
+</div></section>
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Prečo pri tomto produkte chýba fotografia?</summary><p>PM8250N je na stránke výrobcu vedený medzi ukončenými produktmi bez aktuálne dostupnej oficiálnej fotografie na povolenom hostiteľovi obrázkov – parametre v popise sú prevzaté z oficiálneho technického listu Bose Professional.</p></details><details><summary>Je PM8250N stále podporovaný?</summary><p>Áno, technická dokumentácia a servisné materiály sú naďalej dostupné na stránke výrobcu v sekcii ukončených produktov.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerMatch%20PM8250N">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -9710,8 +9746,8 @@
 <PURCHASE_PRICE>2841.99</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerMatch PM8250N výkonový zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerMatch PM8250N výkonový zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerMatch PM8250N konfigurovateľný výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerMatch PM8250N – 8-kanálový konfigurovateľný zosilňovač s QuadBridge technológiou a Ethernet sieťovým riadením.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Midas DL155 stage box]]></NAME>
@@ -11507,9 +11543,33 @@
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerShare PS404D výkonový zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerShare PS404D, 4-kanálový DSP zosilňovač s asymetrickým rozdelením výkonu až 400 W a Dante audio sieťovaním.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-ps404d">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSHARE PS404D</p><h2>Adaptable Power Amplifier.<br>Až 400 W asymetricky.</h2><p>PowerShare PS404D je 4-kanálový sieťový DSP zosilňovač s patentovanou technológiou PowerShare – namiesto pevného rozdelenia výkonu podľa kanála možno celkový výkon 400 W rozložiť ľubovoľne medzi výstupy podľa potreby zóny. Integrovaná Dante audio sieť a ControlSpace Designer softvér.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/9e579a9d-a29a-4ca2-8f94-6b7e0201d2d2/i_PowerShare_Dante_PS404D_Right_Facing_1200-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerShare PS404D, 1U rackový zosilňovač, bočný pohľad" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/cc99510e-e59c-46b2-a4af-5e966f250108/i_PowerShare_Dante_PS404D_Rear_12000-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerShare PS404D, zadný panel s Dante konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">DANTE A DSP</p><h2>Vstavaný Dante.<br>9-pásmové EQ, crossover, delay.</h2><p>Integrovaná Dante audio sieť podporuje 4 digitálne vstupné kanály, ktoré je možné mixovať s analógovými vstupmi priamo v softvéri ControlSpace Designer. Duálna slučka spätnej väzby (Dual Feedback Loop) monitoruje prúd aj napätie na každom výstupe pre lepšiu linearitu a ochranu reproduktorov.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">4</span></div>
+<div><strong class="ps-label">Menovitý výkon (asymetrický)</strong><span class="ps-value">400 W spolu, ľubovoľne rozdelené medzi kanály</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">100 W/kanál</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±0,5 dB) pri 1 W</span></div>
+<div><strong class="ps-label">Dante</strong><span class="ps-value">4 kanály vstup, primárna/sekundárna sieť</span></div>
+<div><strong class="ps-label">DSP</strong><span class="ps-value">9-pásmové parametrické EQ, crossover (Butterworth/Bessel/Linkwitz-Riley), delay, limitéry, maticový mixér</span></div>
+<div><strong class="ps-label">A/D, D/A prevodníky</strong><span class="ps-value">48 kHz / 24-bit</span></div>
+<div><strong class="ps-label">Softvér</strong><span class="ps-value">ControlSpace Designer 5.4 alebo novší (Windows)</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Čo znamená "asymetrický" výkon?</summary><p>Namiesto pevných 100 W na každý zo 4 kanálov možno pomocou PowerShare technológie priradiť viac výkonu jednej väčšej zóne a menej ďalším, spolu do 400 W.</p></details><details><summary>Potrebujem samostatnú Dante kartu?</summary><p>Nie, Dante audio sieťovanie je vstavané priamo v zosilňovači.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerShare%20PS404D">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -11517,8 +11577,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerShare PS404D výkonový zosilňovač - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose-powershare-ps404d-basys-2.png</IMAGE>
-  <IMAGE description="BOSE PowerShare PS404D výkonový zosilňovač - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose-powershare-ps404d-basys-1.png</IMAGE>
+  <IMAGE description="Bose Professional PowerShare PS404D, 1U rackový zosilňovač, bočný pohľad - obrázok 1">https://assets.boseprofessional.com/transform/9e579a9d-a29a-4ca2-8f94-6b7e0201d2d2/i_PowerShare_Dante_PS404D_Right_Facing_1200-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerShare PS404D, 1U rackový zosilňovač, bočný pohľad - obrázok 2">https://assets.boseprofessional.com/transform/cc99510e-e59c-46b2-a4af-5e966f250108/i_PowerShare_Dante_PS404D_Rear_12000-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -11528,14 +11588,38 @@
 <PURCHASE_PRICE>1732.06</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerShare PS404D výkonový zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerShare PS404D výkonový zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerShare PS404D výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerShare PS404D – 4-kanálový sieťový DSP zosilňovač s technológiou PowerShare a integrovaným Dante audiom.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerShare PS604D výkonový zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerShare PS604D, 4-kanálový DSP zosilňovač s asymetrickým rozdelením výkonu až 600 W a Dante audio sieťovaním.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-ps604d">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSHARE PS604D</p><h2>Adaptable Power Amplifier.<br>Až 600 W asymetricky.</h2><p>PowerShare PS604D je 4-kanálový sieťový DSP zosilňovač s patentovanou technológiou PowerShare – namiesto pevného rozdelenia výkonu podľa kanála možno celkový výkon 600 W rozložiť ľubovoľne medzi výstupy podľa potreby zóny. Integrovaná Dante audio sieť a ControlSpace Designer softvér.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/f875b1af-4e12-47f0-8de9-b0f3831c608b/i_PowerShareDante_PS604D_Right_Facing_1200-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerShare PS604D, 1U rackový zosilňovač, bočný pohľad" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/db52175a-1265-4f44-a61c-7d71c4b309bf/i_PowerShareDante_PS604D_Rear_1200-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerShare PS604D, zadný panel s Dante konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">DANTE A DSP</p><h2>Vstavaný Dante.<br>9-pásmové EQ, crossover, delay.</h2><p>Integrovaná Dante audio sieť podporuje 4 digitálne vstupné kanály, ktoré je možné mixovať s analógovými vstupmi priamo v softvéri ControlSpace Designer. Duálna slučka spätnej väzby (Dual Feedback Loop) monitoruje prúd aj napätie na každom výstupe pre lepšiu linearitu a ochranu reproduktorov.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">4</span></div>
+<div><strong class="ps-label">Menovitý výkon (asymetrický)</strong><span class="ps-value">600 W spolu, ľubovoľne rozdelené medzi kanály</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">150 W/kanál</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±0,5 dB) pri 1 W</span></div>
+<div><strong class="ps-label">Dante</strong><span class="ps-value">4 kanály vstup, primárna/sekundárna sieť</span></div>
+<div><strong class="ps-label">DSP</strong><span class="ps-value">9-pásmové parametrické EQ, crossover (Butterworth/Bessel/Linkwitz-Riley), delay, limitéry, maticový mixér</span></div>
+<div><strong class="ps-label">A/D, D/A prevodníky</strong><span class="ps-value">48 kHz / 24-bit</span></div>
+<div><strong class="ps-label">Softvér</strong><span class="ps-value">ControlSpace Designer 5.4 alebo novší (Windows)</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Čo znamená "asymetrický" výkon?</summary><p>Namiesto pevných 150 W na každý zo 4 kanálov možno pomocou PowerShare technológie priradiť viac výkonu jednej väčšej zóne a menej ďalším, spolu do 600 W.</p></details><details><summary>Potrebujem samostatnú Dante kartu?</summary><p>Nie, Dante audio sieťovanie je vstavané priamo v zosilňovači.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerShare%20PS604D">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -11543,8 +11627,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerShare PS604D výkonový zosilňovač - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose-powershare-ps604d-basys-3.png</IMAGE>
-  <IMAGE description="BOSE PowerShare PS604D výkonový zosilňovač - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose-powershare-ps604d-basys-1.png</IMAGE>
+  <IMAGE description="Bose Professional PowerShare PS604D, 1U rackový zosilňovač, bočný pohľad - obrázok 1">https://assets.boseprofessional.com/transform/f875b1af-4e12-47f0-8de9-b0f3831c608b/i_PowerShareDante_PS604D_Right_Facing_1200-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerShare PS604D, 1U rackový zosilňovač, bočný pohľad - obrázok 2">https://assets.boseprofessional.com/transform/db52175a-1265-4f44-a61c-7d71c4b309bf/i_PowerShareDante_PS604D_Rear_1200-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -11554,8 +11638,8 @@
 <PURCHASE_PRICE>2120.89</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerShare PS604D výkonový zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerShare PS604D výkonový zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerShare PS604D výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerShare PS604D – 4-kanálový sieťový DSP zosilňovač s technológiou PowerShare a integrovaným Dante audiom.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE vymeniteľné sklíčka pre okuliare Alto, strieborné (polarizačné) M/L]]></NAME>
@@ -11935,9 +12019,33 @@
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerSpace P2600A výkonový zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerSpace P2600A, 2-kanálový výkonový zosilňovač 600 W/kanál.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-p2600">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSPACE P2600A</p><h2>Výkonový zosilňovač.<br>600 W na kanál, 2 kanály.</h2><p>PowerSpace P2600A je 2-kanálový inštalačný zosilňovač s výkonom 600 W na kanál. Výstupy nezávislé od záťaže zvládnu nízku impedanciu (4–8 Ω) aj vysokú impedanciu (70/100V) bez nutnosti mostíkovania. Bez integrovaného DSP – čisto výkonový zosilňovač určený na spoluprácu s externým procesorom cez AmpLink.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/a65f770e-93e7-4c52-b8e7-ce0b91e21b54/PowerSpace_P2600A_Front_1200x1022-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerSpace P2600A, 1U rackový zosilňovač, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/1d648936-671c-4ea5-a33c-318e91efdc38/PowerSpace_P2600A_Rear_1200x1022-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerSpace P2600A, zadný panel s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">KONEKTIVITA</p><h2>AmpLink vstup.<br>I-Share zdvojenie výkonu.</h2><p>AmpLink vstup zjednodušuje pripojenie k DSP procesorom cez jediný Cat 5 kábel. Funkcia I-Share umožňuje spojiť prúd dvoch kanálov a dosiahnuť 2× vyšší výkon na jednom výstupe. Auto-standby šetrí energiu pri absencii signálu.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">2</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">600 W/kanál</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±1 dB) pri 1 W</span></div>
+<div><strong class="ps-label">THD+N</strong><span class="ps-value">< 0,04 % pri 1 kHz, 4–8 Ω, 70V/100V</span></div>
+<div><strong class="ps-label">Dynamický rozsah</strong><span class="ps-value">≥ 100 dB pri menovitom výkone, A-vážený</span></div>
+<div><strong class="ps-label">Vstupy</strong><span class="ps-value">2 balancovaných + 8-kanálový AmpLink in/thru</span></div>
+<div><strong class="ps-label">Záťaž</strong><span class="ps-value">Nízka impedancia 4–8 Ω alebo vysoká impedancia 70/100V, bez mostíkovania</span></div>
+<div><strong class="ps-label">DSP</strong><span class="ps-value">Nie</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Sivá</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Potrebujem k tomuto zosilňovaču externý procesor?</summary><p>Zosilňovač nemá vlastný DSP – pre spracovanie zvuku (EQ, delay, crossover) sa pripája k procesoru ControlSpace alebo inému zdroju cez AmpLink alebo analógový vstup.</p></details><details><summary>Dá sa výkon kombinovať medzi kanálmi?</summary><p>Áno, funkcia I-Share umožňuje spojiť dva kanály a dosiahnuť dvojnásobný výkon na jednom výstupe.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerSpace%20P2600A">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -11945,8 +12053,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerSpace P2600A výkonový zosilňovač - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose_powerspace_p2600a_basys_2.png</IMAGE>
-  <IMAGE description="BOSE PowerSpace P2600A výkonový zosilňovač - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose_powerspace_p2600a_basys_1.png</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P2600A, 1U rackový zosilňovač, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/a65f770e-93e7-4c52-b8e7-ce0b91e21b54/PowerSpace_P2600A_Front_1200x1022-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P2600A, 1U rackový zosilňovač, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/1d648936-671c-4ea5-a33c-318e91efdc38/PowerSpace_P2600A_Rear_1200x1022-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -11956,14 +12064,38 @@
 <PURCHASE_PRICE>1010.96</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerSpace P2600A výkonový zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerSpace P2600A výkonový zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerSpace P2600A výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerSpace P2600A – 2-kanálový inštalačný zosilňovač 600 W/kanál, nízka aj vysoká impedancia.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerSpace P21000A výkonový zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerSpace P21000A, 2-kanálový výkonový zosilňovač 1000 W/kanál.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-p21000">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSPACE P21000A</p><h2>Výkonový zosilňovač.<br>1000 W na kanál, 2 kanály.</h2><p>PowerSpace P21000A je 2-kanálový inštalačný zosilňovač s výkonom 1000 W na kanál. Výstupy nezávislé od záťaže zvládnu nízku impedanciu (4–8 Ω) aj vysokú impedanciu (70/100V) bez nutnosti mostíkovania. Bez integrovaného DSP – čisto výkonový zosilňovač určený na spoluprácu s externým procesorom cez AmpLink.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/8d67335f-747b-45d5-a62e-34f828a19171/PowerSpace_P21000A_Front_1200x1022-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerSpace P21000A, 1U rackový zosilňovač, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/bc14982b-db5d-4424-b61e-b5a471e34639/PowerSpace_P21000A_Right-Facing_1200x1022-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerSpace P21000A, zadný panel s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">KONEKTIVITA</p><h2>AmpLink vstup.<br>I-Share zdvojenie výkonu.</h2><p>AmpLink vstup zjednodušuje pripojenie k DSP procesorom cez jediný Cat 5 kábel. Funkcia I-Share umožňuje spojiť prúd dvoch kanálov a dosiahnuť 2× vyšší výkon na jednom výstupe. Auto-standby šetrí energiu pri absencii signálu.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">2</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">1000 W/kanál</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±1 dB) pri 1 W</span></div>
+<div><strong class="ps-label">THD+N</strong><span class="ps-value">< 0,04 % pri 1 kHz, 4–8 Ω, 70V/100V</span></div>
+<div><strong class="ps-label">Dynamický rozsah</strong><span class="ps-value">≥ 100 dB pri menovitom výkone, A-vážený</span></div>
+<div><strong class="ps-label">Vstupy</strong><span class="ps-value">2 balancovaných + 8-kanálový AmpLink in/thru</span></div>
+<div><strong class="ps-label">Záťaž</strong><span class="ps-value">Nízka impedancia 4–8 Ω alebo vysoká impedancia 70/100V, bez mostíkovania</span></div>
+<div><strong class="ps-label">DSP</strong><span class="ps-value">Nie</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Sivá</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Potrebujem k tomuto zosilňovaču externý procesor?</summary><p>Zosilňovač nemá vlastný DSP – pre spracovanie zvuku (EQ, delay, crossover) sa pripája k procesoru ControlSpace alebo inému zdroju cez AmpLink alebo analógový vstup.</p></details><details><summary>Dá sa výkon kombinovať medzi kanálmi?</summary><p>Áno, funkcia I-Share umožňuje spojiť dva kanály a dosiahnuť dvojnásobný výkon na jednom výstupe.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerSpace%20P21000A">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -11971,8 +12103,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerSpace P21000A výkonový zosilňovač - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/o/powerspace_p21000a_basys_1.png</IMAGE>
-  <IMAGE description="BOSE PowerSpace P21000A výkonový zosilňovač - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/o/powerspace_p21000a_basys_2.png</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P21000A, 1U rackový zosilňovač, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/8d67335f-747b-45d5-a62e-34f828a19171/PowerSpace_P21000A_Front_1200x1022-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P21000A, 1U rackový zosilňovač, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/bc14982b-db5d-4424-b61e-b5a471e34639/PowerSpace_P21000A_Right-Facing_1200x1022-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -11982,14 +12114,38 @@
 <PURCHASE_PRICE>1343.23</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerSpace P21000A výkonový zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerSpace P21000A výkonový zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerSpace P21000A výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerSpace P21000A – 2-kanálový inštalačný zosilňovač 1000 W/kanál, nízka aj vysoká impedancia.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerSpace P4300A výkonový zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerSpace P4300A, 4-kanálový výkonový zosilňovač 300 W/kanál.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-p4300a">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSPACE P4300A</p><h2>Výkonový zosilňovač.<br>300 W na kanál, 4 kanály.</h2><p>PowerSpace P4300A je 4-kanálový inštalačný zosilňovač s výkonom 300 W na kanál. Výstupy nezávislé od záťaže zvládnu nízku impedanciu (4–8 Ω) aj vysokú impedanciu (70/100V) bez nutnosti mostíkovania. Bez integrovaného DSP – čisto výkonový zosilňovač určený na spoluprácu s externým procesorom cez AmpLink.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/815a5888-3fdd-431a-a9f3-fffbbcd0ca4c/PowerSpace_P4300A_Front_1200x1022-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerSpace P4300A, 1U rackový zosilňovač, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/58174574-36e8-42d5-83a9-ced570d80324/PowerSpace_P4300A_Rear_1200x1022-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerSpace P4300A, zadný panel s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">KONEKTIVITA</p><h2>AmpLink vstup.<br>I-Share zdvojenie výkonu.</h2><p>AmpLink vstup zjednodušuje pripojenie k DSP procesorom cez jediný Cat 5 kábel. Funkcia I-Share umožňuje spojiť prúd dvoch kanálov a dosiahnuť 2× vyšší výkon na jednom výstupe. Auto-standby šetrí energiu pri absencii signálu.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">4</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">300 W/kanál</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±1 dB) pri 1 W</span></div>
+<div><strong class="ps-label">THD+N</strong><span class="ps-value">< 0,04 % pri 1 kHz, 4–8 Ω, 70V/100V</span></div>
+<div><strong class="ps-label">Dynamický rozsah</strong><span class="ps-value">≥ 100 dB pri menovitom výkone, A-vážený</span></div>
+<div><strong class="ps-label">Vstupy</strong><span class="ps-value">4 balancovaných + 8-kanálový AmpLink in/thru</span></div>
+<div><strong class="ps-label">Záťaž</strong><span class="ps-value">Nízka impedancia 4–8 Ω alebo vysoká impedancia 70/100V, bez mostíkovania</span></div>
+<div><strong class="ps-label">DSP</strong><span class="ps-value">Nie</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Sivá</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Potrebujem k tomuto zosilňovaču externý procesor?</summary><p>Zosilňovač nemá vlastný DSP – pre spracovanie zvuku (EQ, delay, crossover) sa pripája k procesoru ControlSpace alebo inému zdroju cez AmpLink alebo analógový vstup.</p></details><details><summary>Dá sa výkon kombinovať medzi kanálmi?</summary><p>Áno, funkcia I-Share umožňuje spojiť dva kanály a dosiahnuť dvojnásobný výkon na jednom výstupe.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerSpace%20P4300A">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -11997,8 +12153,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerSpace P4300A výkonový zosilňovač - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose_powerspace_p4300a_power_amplifier_basys_2.png</IMAGE>
-  <IMAGE description="BOSE PowerSpace P4300A výkonový zosilňovač - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose_powerspace_p4300a_power_amplifier_basys_1.png</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P4300A, 1U rackový zosilňovač, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/815a5888-3fdd-431a-a9f3-fffbbcd0ca4c/PowerSpace_P4300A_Front_1200x1022-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P4300A, 1U rackový zosilňovač, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/58174574-36e8-42d5-83a9-ced570d80324/PowerSpace_P4300A_Rear_1200x1022-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -12008,14 +12164,38 @@
 <PURCHASE_PRICE>1449.28</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerSpace P4300A výkonový zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerSpace P4300A výkonový zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerSpace P4300A výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerSpace P4300A – 4-kanálový inštalačný zosilňovač 300 W/kanál, nízka aj vysoká impedancia.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerSpace P4150+ výkonový zosilňovač s DSP]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[4-kanálový výkonový zosilňovač, 4x 150 W]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p>4-kanálový výkonový zosilňovač, 4x 150 W</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerSpace P4150+, 4-kanálový výkonový zosilňovač 150 W/kanál s integrovaným DSP.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-p4150plus">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSPACE P4150+</p><h2>Výkonový zosilňovač.<br>150 W na kanál, 4 kanály.</h2><p>PowerSpace P4150+ je 4-kanálový inštalačný zosilňovač s výkonom 150 W na kanál. Výstupy nezávislé od záťaže zvládnu nízku impedanciu (4–8 Ω) aj vysokú impedanciu (70/100V) bez nutnosti mostíkovania. Zabudovaný DSP (SmartBass, smerovanie, oneskorenia, limitéry, reproduktorové EQ) a integrovaný webserver pre konfiguráciu cez prehliadač.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/f598a3d0-0169-4ff8-84e5-83b78de8062c/PowerSpace_P4150_plus_Front-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerSpace P4150+, 1U rackový zosilňovač, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/d5fb8aa2-38c4-4dce-bcce-b059e18788ee/PowerSpace_P4150_plus_Right-Facing-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerSpace P4150+, zadný panel s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">KONEKTIVITA</p><h2>AmpLink vstup.<br>I-Share zdvojenie výkonu.</h2><p>AmpLink vstup zjednodušuje pripojenie k DSP procesorom cez jediný Cat 5 kábel. Funkcia I-Share umožňuje spojiť prúd dvoch kanálov a dosiahnuť 2× vyšší výkon na jednom výstupe. Auto-standby šetrí energiu pri absencii signálu.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">4</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">150 W/kanál</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±1 dB) pri 1 W</span></div>
+<div><strong class="ps-label">THD+N</strong><span class="ps-value">< 0,04 % pri 1 kHz, 4–8 Ω, 70V/100V</span></div>
+<div><strong class="ps-label">Dynamický rozsah</strong><span class="ps-value">≥ 100 dB pri menovitom výkone, A-vážený</span></div>
+<div><strong class="ps-label">Vstupy</strong><span class="ps-value">4 balancovaných + 8-kanálový AmpLink in/thru</span></div>
+<div><strong class="ps-label">Záťaž</strong><span class="ps-value">Nízka impedancia 4–8 Ω alebo vysoká impedancia 70/100V, bez mostíkovania</span></div>
+<div><strong class="ps-label">DSP</strong><span class="ps-value">Áno – SmartBass, smerovanie, EQ, limitéry, delay</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Sivá</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Aký je rozdiel oproti bežnému PowerSpace bez DSP?</summary><p>P4150+ má navyše integrovaný DSP (SmartBass, EQ, delay, limitéry) a webové rozhranie na konfiguráciu, takže nepotrebuje samostatný procesor pre základné spracovanie zvuku.</p></details><details><summary>Dá sa k zosilňovaču pripojiť nástenný ovládač?</summary><p>Áno, podporuje voliteľné analógové ovládače ControlCenter CC-1, CC-2 a CC-3 pre hlasitosť a výber zdroja.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerSpace%20P4150%2B">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -12023,8 +12203,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerSpace P4150+ výkonový zosilňovač s DSP - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/o/powerspace_p4150__right-facing_halfres.jpg</IMAGE>
-  <IMAGE description="BOSE PowerSpace P4150+ výkonový zosilňovač s DSP - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/o/powerspace_p4150__front_halfres.jpg</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P4150+, 1U rackový zosilňovač, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/f598a3d0-0169-4ff8-84e5-83b78de8062c/PowerSpace_P4150_plus_Front-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P4150+, 1U rackový zosilňovač, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/d5fb8aa2-38c4-4dce-bcce-b059e18788ee/PowerSpace_P4150_plus_Right-Facing-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -12034,14 +12214,38 @@
 <PURCHASE_PRICE>1661.36</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerSpace P4150+ výkonový zosilňovač s DSP | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerSpace P4150+ výkonový zosilňovač s DSP – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerSpace P4150+ výkonový zosilňovač s DSP]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerSpace P4150+ – 4-kanálový inštalačný zosilňovač 150 W/kanál, nízka aj vysoká impedancia. Integrovaný DSP.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerSpace P4300+ výkonový zosilňovač s DSP]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Popis produktu je momentálne k dispozícii v angličtine. Slovenský obsah sa pripravuje.
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerSpace P4300+, 4-kanálový výkonový zosilňovač 300 W/kanál s integrovaným DSP.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-p4300plus">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSPACE P4300+</p><h2>Výkonový zosilňovač.<br>300 W na kanál, 4 kanály.</h2><p>PowerSpace P4300+ je 4-kanálový inštalačný zosilňovač s výkonom 300 W na kanál. Výstupy nezávislé od záťaže zvládnu nízku impedanciu (4–8 Ω) aj vysokú impedanciu (70/100V) bez nutnosti mostíkovania. Zabudovaný DSP (SmartBass, smerovanie, oneskorenia, limitéry, reproduktorové EQ) a integrovaný webserver pre konfiguráciu cez prehliadač.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/7e2f2cc7-72eb-4687-b3a4-d03b0b99c8f1/PowerSpace_P4300plus_Front_1200x1022-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerSpace P4300+, 1U rackový zosilňovač, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/61f15c3d-e397-43e9-b31b-4b8d1814cea2/PowerSpace_P4300plus_Right-Facing_1200x1022-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerSpace P4300+, zadný panel s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">KONEKTIVITA</p><h2>AmpLink vstup.<br>I-Share zdvojenie výkonu.</h2><p>AmpLink vstup zjednodušuje pripojenie k DSP procesorom cez jediný Cat 5 kábel. Funkcia I-Share umožňuje spojiť prúd dvoch kanálov a dosiahnuť 2× vyšší výkon na jednom výstupe. Auto-standby šetrí energiu pri absencii signálu.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">4</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">300 W/kanál</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±1 dB) pri 1 W</span></div>
+<div><strong class="ps-label">THD+N</strong><span class="ps-value">< 0,04 % pri 1 kHz, 4–8 Ω, 70V/100V</span></div>
+<div><strong class="ps-label">Dynamický rozsah</strong><span class="ps-value">≥ 100 dB pri menovitom výkone, A-vážený</span></div>
+<div><strong class="ps-label">Vstupy</strong><span class="ps-value">4 balancovaných + 8-kanálový AmpLink in/thru</span></div>
+<div><strong class="ps-label">Záťaž</strong><span class="ps-value">Nízka impedancia 4–8 Ω alebo vysoká impedancia 70/100V, bez mostíkovania</span></div>
+<div><strong class="ps-label">DSP</strong><span class="ps-value">Áno – SmartBass, smerovanie, EQ, limitéry, delay</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Sivá</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Aký je rozdiel oproti bežnému PowerSpace bez DSP?</summary><p>P4300+ má navyše integrovaný DSP (SmartBass, EQ, delay, limitéry) a webové rozhranie na konfiguráciu, takže nepotrebuje samostatný procesor pre základné spracovanie zvuku.</p></details><details><summary>Dá sa k zosilňovaču pripojiť nástenný ovládač?</summary><p>Áno, podporuje voliteľné analógové ovládače ControlCenter CC-1, CC-2 a CC-3 pre hlasitosť a výber zdroja.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerSpace%20P4300%2B">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -12049,8 +12253,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerSpace P4300+ výkonový zosilňovač s DSP - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/o/powerspace_p4300__right-facing_halfres.jpg</IMAGE>
-  <IMAGE description="BOSE PowerSpace P4300+ výkonový zosilňovač s DSP - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/o/powerspace_p4300__front_halfres.jpg</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P4300+, 1U rackový zosilňovač, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/7e2f2cc7-72eb-4687-b3a4-d03b0b99c8f1/PowerSpace_P4300plus_Front_1200x1022-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerSpace P4300+, 1U rackový zosilňovač, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/61f15c3d-e397-43e9-b31b-4b8d1814cea2/PowerSpace_P4300plus_Right-Facing_1200x1022-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -12060,8 +12264,8 @@
 <PURCHASE_PRICE>1838.11</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerSpace P4300+ výkonový zosilňovač s DSP | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerSpace P4300+ výkonový zosilňovač s DSP – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerSpace P4300+ výkonový zosilňovač s DSP]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerSpace P4300+ – 4-kanálový inštalačný zosilňovač 300 W/kanál, nízka aj vysoká impedancia. Integrovaný DSP.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE CSP-428 digitálny signálový procesor]]></NAME>
@@ -20680,9 +20884,33 @@
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerShareX PSX1204D Zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[PSX1204D, 4 kanálový zosilňovač s technológiou "PowerShare", vstavané DSP a DANTE, samostatné nastavenie HZ alebo LZ výstupu pre každý kanál. Celkový výkon je 1200 wattov.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p>PSX1204D, 4 kanálový zosilňovač s technológiou "PowerShare", vstavané DSP a DANTE, samostatné nastavenie HZ alebo LZ výstupu pre každý kanál. Celkový výkon je 1200 wattov.</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerShareX PSX1204D, 4-kanálový sieťový zosilňovač s asymetrickým výkonom, vstavaným Dante a EN 54-16 certifikáciou.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-psx1204d">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSHAREX PSX1204D</p><h2>Adaptable Power Amplifier.<br>Nová generácia PowerShare.</h2><p>PowerShareX PSX1204D je 4-kanálový sieťový zosilňovač novej generácie s technológiou dynamického rozdelenia výkonu, vstavaným Dante audiom a certifikáciou EN 54-16 pre hlasové evakuačné (VA/PAVA) systémy. Kompaktný 1U dizajn s hĺbkou len 358 mm.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/40c973e9-d7fb-4209-8c7c-1cf70a80905b/psx-1204d_frontstraight-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerShareX PSX1204D, 1U rackový zosilňovač, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/4d336b3c-4b6f-4746-87c2-810cdb87e19d/psx-1204d_rearpanel-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerShareX PSX1204D, zadný panel s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">SPOĽAHLIVOSŤ A MONITORING</p><h2>Powersoft technológia.<br>Sieťový monitoring v reálnom čase.</h2><p>Postavené na overenej technológii Powersoft, s podporou nízkej (2/4/8 Ω) aj vysokej impedancie (70/100V) na každom výstupe. Sieťový monitoring poskytuje dáta o výkone systému v reálnom čase, čím znižuje počet servisných zásahov.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">4</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">400 W/kanál pri 2 Ω, 300 W/kanál pri 4–8 Ω/70V/100V</span></div>
+<div><strong class="ps-label">Max. výkon (asymetrický)</strong><span class="ps-value">2200 W pri 2/4/8 Ω, 70V, 100V</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±1,0 dB), 1 W pri 8 Ω</span></div>
+<div><strong class="ps-label">SNR</strong><span class="ps-value">> 104 dB, A-vážený</span></div>
+<div><strong class="ps-label">Dante</strong><span class="ps-value">4 kanály vstup, vstavané</span></div>
+<div><strong class="ps-label">Certifikácia</strong><span class="ps-value">EN 54-16 (hlasové evakuačné systémy)</span></div>
+<div><strong class="ps-label">Hĺbka</strong><span class="ps-value">358 mm (14,1")</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Je PowerShareX vhodný pre evakuačný rozhlas?</summary><p>Áno, rad PowerShareX je certifikovaný podľa EN 54-16 pre použitie v hlasových evakuačných (VA/PAVA) systémoch spolu s ďalšími certifikovanými komponentmi.</p></details><details><summary>Potrebujem samostatnú kartu pre Dante?</summary><p>Nie, Dante audio sieťovanie (až 4 vstupné kanály) je vstavané priamo v zosilňovači.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerShareX%20PSX1204D">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -20690,8 +20918,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerShareX PSX1204D Zosilňovač - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/s/psx_1204d_frontrightfacing2.jpg</IMAGE>
-  <IMAGE description="BOSE PowerShareX PSX1204D Zosilňovač - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/s/psx_1204d_frontstraighton_nocover.jpg</IMAGE>
+  <IMAGE description="Bose Professional PowerShareX PSX1204D, 1U rackový zosilňovač, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/40c973e9-d7fb-4209-8c7c-1cf70a80905b/psx-1204d_frontstraight-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerShareX PSX1204D, 1U rackový zosilňovač, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/4d336b3c-4b6f-4746-87c2-810cdb87e19d/psx-1204d_rearpanel-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -20701,14 +20929,38 @@
 <PURCHASE_PRICE>2439.02</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerShareX PSX1204D Zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerShareX PSX1204D Zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerShareX PSX1204D výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerShareX PSX1204D – 4-kanálový PowerShare zosilňovač novej generácie s vstavaným Dante, EN 54-16 pre VA/PAVA systémy.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerShareX PSX2404D Zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[PSX2404D, 4 kanálový zosilňovač s technológiou "PowerShare", vstavané DSP a DANTE, samostatné nastavenie HZ alebo LZ výstupu pre každý kanál. Celkový výkon je 2400 wattov.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p>PSX2404D, 4 kanálový zosilňovač s technológiou "PowerShare", vstavané DSP a DANTE, samostatné nastavenie HZ alebo LZ výstupu pre každý kanál. Celkový výkon je 2400 wattov.</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerShareX PSX2404D, 4-kanálový sieťový zosilňovač s asymetrickým výkonom, vstavaným Dante a EN 54-16 certifikáciou.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-psx2404d">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSHAREX PSX2404D</p><h2>Adaptable Power Amplifier.<br>Nová generácia PowerShare.</h2><p>PowerShareX PSX2404D je 4-kanálový sieťový zosilňovač novej generácie s technológiou dynamického rozdelenia výkonu, vstavaným Dante audiom a certifikáciou EN 54-16 pre hlasové evakuačné (VA/PAVA) systémy. Kompaktný 1U dizajn s hĺbkou len 358 mm.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/7bbda921-f5ea-43a5-a039-37ca6e0fb43d/PSX_2404D_I-Studio_FrontStraightOn-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerShareX PSX2404D, 1U rackový zosilňovač, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/5c3adcfb-e1f3-4eb3-82be-f399effcdb86/PSX_I-Studio_RearPanel-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerShareX PSX2404D, zadný panel s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">SPOĽAHLIVOSŤ A MONITORING</p><h2>Powersoft technológia.<br>Sieťový monitoring v reálnom čase.</h2><p>Postavené na overenej technológii Powersoft, s podporou nízkej (2/4/8 Ω) aj vysokej impedancie (70/100V) na každom výstupe. Sieťový monitoring poskytuje dáta o výkone systému v reálnom čase, čím znižuje počet servisných zásahov.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">4</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">800 W/kanál pri 2 Ω, 600 W/kanál pri 4–8 Ω/70V/100V</span></div>
+<div><strong class="ps-label">Max. výkon (asymetrický)</strong><span class="ps-value">3400 W pri 4 Ω (max.)</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±1,0 dB), 1 W pri 8 Ω</span></div>
+<div><strong class="ps-label">SNR</strong><span class="ps-value">> 104 dB, A-vážený</span></div>
+<div><strong class="ps-label">Dante</strong><span class="ps-value">4 kanály vstup, vstavané</span></div>
+<div><strong class="ps-label">Certifikácia</strong><span class="ps-value">EN 54-16 (hlasové evakuačné systémy)</span></div>
+<div><strong class="ps-label">Hĺbka</strong><span class="ps-value">358 mm (14,1")</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Je PowerShareX vhodný pre evakuačný rozhlas?</summary><p>Áno, rad PowerShareX je certifikovaný podľa EN 54-16 pre použitie v hlasových evakuačných (VA/PAVA) systémoch spolu s ďalšími certifikovanými komponentmi.</p></details><details><summary>Potrebujem samostatnú kartu pre Dante?</summary><p>Nie, Dante audio sieťovanie (až 4 vstupné kanály) je vstavané priamo v zosilňovači.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerShareX%20PSX2404D">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -20716,8 +20968,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerShareX PSX2404D Zosilňovač - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/s/psx_2404d_frontrightfacing.jpg</IMAGE>
-  <IMAGE description="BOSE PowerShareX PSX2404D Zosilňovač - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/s/psx_2404d_frontrightfacing_nocover.jpg</IMAGE>
+  <IMAGE description="Bose Professional PowerShareX PSX2404D, 1U rackový zosilňovač, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/7bbda921-f5ea-43a5-a039-37ca6e0fb43d/PSX_2404D_I-Studio_FrontStraightOn-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerShareX PSX2404D, 1U rackový zosilňovač, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/5c3adcfb-e1f3-4eb3-82be-f399effcdb86/PSX_I-Studio_RearPanel-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -20727,14 +20979,38 @@
 <PURCHASE_PRICE>3039.94</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerShareX PSX2404D Zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerShareX PSX2404D Zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerShareX PSX2404D výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerShareX PSX2404D – 4-kanálový PowerShare zosilňovač novej generácie s vstavaným Dante, EN 54-16 pre VA/PAVA systémy.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE PowerShareX PSX4804D Zosilňovač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[PSX4804D, 4 kanálový zosilňovač s technológiou "PowerShare", vstavané DSP a DANTE, samostatné nastavenie HZ alebo LZ výstupu pre každý kanál. Celkový výkon je 4800 wattov.]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p>PSX4804D, 4 kanálový zosilňovač s technológiou "PowerShare", vstavané DSP a DANTE, samostatné nastavenie HZ alebo LZ výstupu pre každý kanál. Celkový výkon je 4800 wattov.</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vykonove-a-instalacne-zosilnovace/">Výkonové a inštalačné zosilňovače</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional PowerShareX PSX4804D, 4-kanálový sieťový zosilňovač s asymetrickým výkonom, vstavaným Dante a EN 54-16 certifikáciou.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-psx4804d">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL POWERSHAREX PSX4804D</p><h2>Adaptable Power Amplifier.<br>Nová generácia PowerShare.</h2><p>PowerShareX PSX4804D je 4-kanálový sieťový zosilňovač novej generácie s technológiou dynamického rozdelenia výkonu, vstavaným Dante audiom a certifikáciou EN 54-16 pre hlasové evakuačné (VA/PAVA) systémy. Kompaktný 1U dizajn s hĺbkou len 358 mm.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/21a74127-1c5e-4571-bc1a-22521e48d5e3/PSX_4804D_I-Studio_FrontStraightOn-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional PowerShareX PSX4804D, 1U rackový zosilňovač, pohľad spredu" decoding="async"></div>
+</section>
+
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/d2c2b1ef-0811-4a1c-87c8-8605de38223a/PSX_I-Studio_1200x1022_RearPanel-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional PowerShareX PSX4804D, zadný panel s konektormi"></div><div class="ps-copy"><p class="ps-eyebrow">SPOĽAHLIVOSŤ A MONITORING</p><h2>Powersoft technológia.<br>Sieťový monitoring v reálnom čase.</h2><p>Postavené na overenej technológii Powersoft, s podporou nízkej (2/4/8 Ω) aj vysokej impedancie (70/100V) na každom výstupe. Sieťový monitoring poskytuje dáta o výkone systému v reálnom čase, čím znižuje počet servisných zásahov.</p></div></section>
+
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Počet kanálov</strong><span class="ps-value">4</span></div>
+<div><strong class="ps-label">Menovitý výkon (symetrický)</strong><span class="ps-value">1500 W/kanál pri 2 Ω, 1200 W/kanál pri 4–8 Ω/70V/100V</span></div>
+<div><strong class="ps-label">Max. výkon (asymetrický)</strong><span class="ps-value">5200 W pri 4 Ω (max.)</span></div>
+<div><strong class="ps-label">Frekvenčná odozva</strong><span class="ps-value">20 Hz – 20 kHz (±1,0 dB), 1 W pri 8 Ω</span></div>
+<div><strong class="ps-label">SNR</strong><span class="ps-value">> 104 dB, A-vážený</span></div>
+<div><strong class="ps-label">Dante</strong><span class="ps-value">4 kanály vstup, vstavané</span></div>
+<div><strong class="ps-label">Certifikácia</strong><span class="ps-value">EN 54-16 (hlasové evakuačné systémy)</span></div>
+<div><strong class="ps-label">Hĺbka</strong><span class="ps-value">358 mm (14,1")</span></div>
+<div><strong class="ps-label">Napájanie</strong><span class="ps-value">100–240 VAC (±10 %), 50/60 Hz</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+<div><strong class="ps-label">Montáž</strong><span class="ps-value">1RU rack</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Je PowerShareX vhodný pre evakuačný rozhlas?</summary><p>Áno, rad PowerShareX je certifikovaný podľa EN 54-16 pre použitie v hlasových evakuačných (VA/PAVA) systémoch spolu s ďalšími certifikovanými komponentmi.</p></details><details><summary>Potrebujem samostatnú kartu pre Dante?</summary><p>Nie, Dante audio sieťovanie (až 4 vstupné kanály) je vstavané priamo v zosilňovači.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20PowerShareX%20PSX4804D">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -20742,8 +21018,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Výkonové a inštalačné zosilňovače]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE PowerShareX PSX4804D Zosilňovač - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/s/psx_4804d_frontrightfacing.jpg</IMAGE>
-  <IMAGE description="BOSE PowerShareX PSX4804D Zosilňovač - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/s/psx_4804d_frontstraighton.jpg</IMAGE>
+  <IMAGE description="Bose Professional PowerShareX PSX4804D, 1U rackový zosilňovač, pohľad spredu - obrázok 1">https://assets.boseprofessional.com/transform/21a74127-1c5e-4571-bc1a-22521e48d5e3/PSX_4804D_I-Studio_FrontStraightOn-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional PowerShareX PSX4804D, 1U rackový zosilňovač, pohľad spredu - obrázok 2">https://assets.boseprofessional.com/transform/d2c2b1ef-0811-4a1c-87c8-8605de38223a/PSX_I-Studio_1200x1022_RearPanel-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -20753,8 +21029,8 @@
 <PURCHASE_PRICE>3527.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE PowerShareX PSX4804D Zosilňovač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE PowerShareX PSX4804D Zosilňovač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE PowerShareX PSX4804D výkonový zosilňovač]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE PowerShareX PSX4804D – 4-kanálový PowerShare zosilňovač novej generácie s vstavaným Dante, EN 54-16 pre VA/PAVA systémy.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Beyerdynamic EDT 700 PRO X náušníky, sivé]]></NAME>
