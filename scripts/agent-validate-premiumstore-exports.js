@@ -125,13 +125,27 @@ function inspectCsv(buf) {
     try {
       const { buf, contentType, status } = await fetchSafe(label, envName);
       const detail = type === 'xml' ? inspectXml(buf) : inspectCsv(buf);
-      summary.results[label] = {
-        ok: true,
-        httpStatus: status,
-        contentType,
-        bytes: buf.length,
-        ...detail,
-      };
+      if (label === 'orders') {
+        const orderCount = detail.records?.ORDER || 0;
+        const required = ['ORDER_ID', 'DATE', 'TOTAL_PRICE', 'STATUS'];
+        summary.results[label] = {
+          ok: true,
+          httpStatus: status,
+          contentType,
+          root: detail.root,
+          hasOrders: orderCount > 0,
+          schemaOk: required.every((field) => (detail.fieldPresence?.[field] || 0) > 0),
+          requiredFieldsPresent: Object.fromEntries(required.map((field) => [field, (detail.fieldPresence?.[field] || 0) > 0])),
+        };
+      } else {
+        summary.results[label] = {
+          ok: true,
+          httpStatus: status,
+          contentType,
+          bytes: buf.length,
+          ...detail,
+        };
+      }
     } catch (err) {
       failed = true;
       summary.results[label] = { ok: false, error: String(err.message) };
