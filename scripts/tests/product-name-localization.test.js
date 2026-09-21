@@ -21,6 +21,7 @@ function fixtureFor(entries) {
       '<CODE>' + esc(p.code) + '</CODE>',
       '<EAN>' + esc(p.ean) + '</EAN>',
       '<CATEGORIES><CATEGORY><![CDATA[Test > Kategória]]></CATEGORY></CATEGORIES>',
+      '<TEXT_PROPERTIES><TEXT_PROPERTY><NAME><![CDATA[Farba]]></NAME><VALUE><![CDATA[Test]]></VALUE></TEXT_PROPERTY></TEXT_PROPERTIES>',
       '<PRICE_VAT>' + (10 + i / 10).toFixed(2) + '</PRICE_VAT>',
       '<PURCHASE_PRICE>' + (5 + i / 10).toFixed(2) + '</PURCHASE_PRICE>',
       '<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>',
