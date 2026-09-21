@@ -137,6 +137,16 @@
         "category": "Multimetre a kliešťové merače",
         "pattern": "merací prístroj|meracie zariadenie"
       }
+    ],
+    "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": [
+      {
+        "category": "Senzory pohybu a otvorenia",
+        "pattern": "pohyb|motion|\\bPIR\\b|otvor|opening|dver|door|okn|window|magnet|kontakt|contact"
+      },
+      {
+        "category": "Senzory teploty a vlhkosti",
+        "pattern": "teplot|temperature|vlhk|humidity|hygro|termohyg|thermo"
+      }
     ]
   }
 }

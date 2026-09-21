@@ -430,7 +430,14 @@ def transform_strings(obj):
     if isinstance(obj, list):
         return [transform_strings(x) for x in obj]
     if isinstance(obj, dict):
-        return {k: transform_strings(v) for k, v in obj.items()}
+        out = {}
+        for k, v in obj.items():
+            nk = migrate_path(k) if isinstance(k, str) else k
+            nv = transform_strings(v)
+            if nk in out and out[nk] != nv:
+                raise RuntimeError(f"Kolízia JSON kľúča po migrácii: {k!r} -> {nk!r}")
+            out[nk] = nv
+        return out
     return obj
 
 def set_rules(path: Path, overrides: dict, planned: dict):
@@ -755,6 +762,9 @@ def prepare(repo: Path):
         "data/zlozene-cesty.json",
         "data/product-category-corrections.json",
         "data/approved-category-migration.json",
+        "data/category-migration.json",
+        "data/christmas-products.json",
+        "scripts/heureka-hidden-categories.json",
     ]:
         migrate_recursive_json(repo / rel, planned, known_after=known_after)
 

@@ -20,12 +20,12 @@
       "ean": "8595025359063",
       "name": "Svorkovnice 12 x 10mm2 / 57A / 450V / T85",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:10"
@@ -36,12 +36,12 @@
       "ean": "8592920096963",
       "name": "Domovní bezdrátový zvonek EMOS P5750",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:455"
@@ -52,12 +52,12 @@
       "ean": "8592920096987",
       "name": "Domovní bezdrátový zvonek EMOS P5750.2T",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:457"
@@ -68,12 +68,12 @@
       "ean": "8592920096949",
       "name": "Domovní bezdrátový zvonek EMOS P5750.2R",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:458"
@@ -84,12 +84,12 @@
       "ean": "8592920112793",
       "name": "Domovní bezdrátový zvonek EMOS P5734 do zásuvky",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:671"
@@ -100,12 +100,12 @@
       "ean": "8592920112809",
       "name": "Domovní bezdrátový zvonek EMOS P5734B do zásuvky",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:672"
@@ -116,12 +116,12 @@
       "ean": "8592920006641",
       "name": "Domovní bezdrátový zvonek EMOS 98098",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:738"
@@ -148,12 +148,12 @@
       "ean": "8592920135433",
       "name": "EMOS P5735WS GoSmart bílý domovní bezdrátový zvonek do zásuvky s WiFi",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:1024"
@@ -164,12 +164,12 @@
       "ean": "8592920105948",
       "name": "Bezbateriový domovní bezdrátový zvonek EMOS P5729B černý",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:1028"
@@ -180,12 +180,12 @@
       "ean": "8592920135488",
       "name": "EMOS P5735SS GoSmart stříbrný domovní bezdrátový zvonek do zásuvky s WiFi",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:1167"
@@ -196,12 +196,12 @@
       "ean": "8592920105962",
       "name": "Domovní bezdrátový zvonek EMOS P5733W do zásuvky",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:1174"
@@ -212,7 +212,7 @@
       "ean": "8592920081976",
       "name": "Koaxiální kabel Emos 113 LSZH / 250m / 7 mm",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Káble a vodiče"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Káble a vodiče"
       ],
       "proposed": [
         "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory"
@@ -276,12 +276,12 @@
       "ean": "8592920154847",
       "name": "Šroubová svorkovnice 12× 2,5–4 mm2, 450 V, bílá, EMOS A4101",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:4237"
@@ -292,12 +292,12 @@
       "ean": "8592920154861",
       "name": "Šroubová svorkovnice 12× 6–10 mm2, 450 V, bílá, EMOS A4103",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:4238"
@@ -308,12 +308,12 @@
       "ean": "8596425170609",
       "name": "Svorka Wago 221-2411, 2x0,2-4 mm2 s páčkou, bezšroubová",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:4561"
@@ -324,12 +324,12 @@
       "ean": "4066966321630",
       "name": "Svorka Wago 2773-2401, 2x0,2-4 mm2 PUSH WIRE, bezšroubová",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:5309"
@@ -340,12 +340,12 @@
       "ean": "4066966611663",
       "name": "Svorka Wago 221-420, 10x0,2-4 mm2 páčková, bezšroubová",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:6259"
@@ -356,12 +356,12 @@
       "ean": "4055143704168",
       "name": "Svorka Wago 221-612, 2x0,5-6 mm2 páčková, bezšroubová",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:6260"
@@ -372,12 +372,12 @@
       "ean": "8596425057573",
       "name": "Svorka Wago 221-413, 3x0,2-4 mm2 s páčkou, bezšroubová",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:7418"
@@ -388,12 +388,12 @@
       "ean": "8592920154854",
       "name": "Šroubová svorkovnice 12× 4–6mm2, 450 V, bílá, EMOS A4102",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:7538"
@@ -404,12 +404,12 @@
       "ean": "8592920153604",
       "name": "Domovní bezdrátový zvonek EMOS P5727N do zásuvky",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:7560"
@@ -436,12 +436,12 @@
       "ean": "8595025359049",
       "name": "Svorkovnice 12 x 6mm2 / 41A / 450V / T85",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:8284"
@@ -468,7 +468,7 @@
       "ean": "8592920068236",
       "name": "Koaxiální kabel Emos 113 / 500m / 6,8 mm",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Káble a vodiče"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Káble a vodiče"
       ],
       "proposed": [
         "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory"
@@ -500,12 +500,12 @@
       "ean": "8592920105986",
       "name": "Domovní bezdrátový zvonek P5733S do zásuvky",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:9331"
@@ -516,12 +516,12 @@
       "ean": "8592920106006",
       "name": "Domovní bezdrátový zvonek P5733G do zásuvky",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:9332"
@@ -564,12 +564,12 @@
       "ean": "8596425057580",
       "name": "Svorka Wago 221-415, 5x0,2-4 mm2 s páčkou, bezšroubová",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Vypínače a nástenné zásuvky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:9803"
@@ -628,12 +628,12 @@
       "ean": "8592920080405",
       "name": "Bezbateriový domovní bezdrátový zvonek EMOS P5729 bílý",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Pohony brán a vrát"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:atos:11729"
@@ -9405,12 +9405,12 @@
       "ean": "6976391039506",
       "name": "Súprava bezdrôtového zvončeka IMOU 2S",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:innpro:4400"
@@ -9421,12 +9421,12 @@
       "ean": "6976391032453",
       "name": "Bezdrôtový videozvonček IMOU, balenie po 3 kusoch",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezdrôtové zvončeky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:innpro:4401"
@@ -10560,9 +10560,9 @@
         "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie a rozbočovacie svorky",
       "rule": "terminal-block",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:kb:116"
@@ -15865,7 +15865,7 @@
       "name": "Vysávač Niceboy ION Charles i4 - white",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -15914,7 +15914,7 @@
       "name": "Vysávač Niceboy ION Charles i6 Black",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -15931,7 +15931,7 @@
       "name": "Vysávač Niceboy ION Charles i6 White",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -15948,7 +15948,7 @@
       "name": "Vysávač Niceboy ION Charles i3 Plus White",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16012,7 +16012,7 @@
       "ean": "8885020627534",
       "name": "Príslušenstvo TP-Link Tapo RVA301 umývateľná handrička na vysávač Tapo, 5ks",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16028,7 +16028,7 @@
       "ean": "8885020628470",
       "name": "Príslušenstvo TP-Link Tapo RVA411 Vodotesná podložka pre robotický vysávač Tapo",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16044,7 +16044,7 @@
       "ean": "8885020627619",
       "name": "Príslušenstvo TP-Link Tapo RVA410 Vodotesná podložka pre robotický vysávač Tapo",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16061,7 +16061,7 @@
       "name": "Vysávač TP-Link Tapo RV30 Max White robotický s mopom, výkon 5300 Pa",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16206,7 +16206,7 @@
       "name": "Vysávač TP-Link Tapo RV30 Max Plus Gen2 robotický s mopom, aut. vyprázdňovanie",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16366,7 +16366,7 @@
       "ean": "4895252500424",
       "name": "Príslušenstvo TP-Link Tapo RVA300 umývateľná handrička na vysávač Tapo",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16383,7 +16383,7 @@
       "name": "Vysávač Niceboy ION Charles i10 Black",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16400,7 +16400,7 @@
       "name": "Vysávač Niceboy ION Charles i10 White",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16417,7 +16417,7 @@
       "name": "Vysávač Niceboy ION Charles Q10",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16434,7 +16434,7 @@
       "name": "Vysávač TP-Link Tapo RV30 Max robotický s mopom, výkon 5300 Pa",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16451,7 +16451,7 @@
       "name": "Vysávač TP-Link Tapo RV20 Max robotický s mopom, 5300Pa, MagSlim",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16467,7 +16467,7 @@
       "ean": "8885020627510",
       "name": "Príslušenstvo TP-Link Tapo RVA105 sada na výmenu vysávača Tapo",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16500,7 +16500,7 @@
       "name": "Vysávač Niceboy ION Charles i9 Plus - black",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16517,7 +16517,7 @@
       "name": "Vysávač Niceboy ION Charles i9 Plus - white",
       "current": [
         "Domáce spotrebiče a domácnosť",
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
@@ -16661,7 +16661,7 @@
       "ean": "",
       "name": "Príslušenstvo TP-Link Tapo RVA100 sada na výmenu vysávača Tapo, poškodený obal",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16677,7 +16677,7 @@
       "ean": "",
       "name": "Sáčok TP-Link Tapo RVA200 jednorazový, prachový Tapo, poškodený obal",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16709,7 +16709,7 @@
       "ean": "8885020627596",
       "name": "Príslušenstvo TP-Link Tapo RVA500 nádobka na prach pre vysávače Tapo",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16725,7 +16725,7 @@
       "ean": "1210002618915",
       "name": "Príslušenstvo TP-Link Tapo RVA520 Umývateľný HEPA filter pre robotický vysávač Tapo RV50 Omni",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16741,7 +16741,7 @@
       "ean": "1210002619066",
       "name": "Príslušenstvo TP-Link Tapo RVA420 Deodorizačný modul pre robotický vysávač Tapo RV50 Omni",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16757,7 +16757,7 @@
       "ean": "1210002613415",
       "name": "Príslušenstvo TP-Link Tapo RVA310 Umývateľná mopovacia handrička pre robotický vysávač Tapo RV50 Omni",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16773,7 +16773,7 @@
       "ean": "1210002613453",
       "name": "Príslušenstvo TP-Link Tapo RVA210 Jednorazové vrecko na prach pre robotický vysávač Tapo RV50 Omni",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "proposed": [
         "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
@@ -16789,7 +16789,7 @@
       "ean": "8595092102067",
       "name": "Solight koaxiálny kábel CC120, voľne, 100m",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Viacnásobné zásuvky a izolačný materiál"
       ],
       "proposed": [
         "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory"
@@ -16805,12 +16805,12 @@
       "ean": "8592718027421",
       "name": "Solight otočná IP kamera",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > IP kamery"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > IP kamery",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
       "rule": "ip-cameras",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:solight:81"
@@ -16821,12 +16821,12 @@
       "ean": "8592718034894",
       "name": "Solight domáca WiFi kamera",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > IP kamery"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > IP kamery",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
       "rule": "ip-cameras",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:solight:98"
@@ -16885,7 +16885,7 @@
       "ean": "8595092102265",
       "name": "Solight koaxiálny kábel CC120, sáčok, 15m",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Viacnásobné zásuvky a izolačný materiál"
       ],
       "proposed": [
         "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory"
@@ -16901,7 +16901,7 @@
       "ean": "8595092102272",
       "name": "Solight koaxiálny kábel CC120, sáčok, 20m",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Viacnásobné zásuvky a izolačný materiál"
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Viacnásobné zásuvky a izolačný materiál"
       ],
       "proposed": [
         "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory"
@@ -16933,12 +16933,12 @@
       "ean": "8592718047986",
       "name": "Solight vonkajšia otočná IP kamera",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > IP kamery"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > IP kamery",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
       "rule": "ip-cameras",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:solight:892"
@@ -16965,12 +16965,12 @@
       "ean": "8592718036485",
       "name": "Solight vonkajšia IP kamera",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > IP kamery"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > IP kamery",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
       "rule": "ip-cameras",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:solight:1129"
@@ -16997,12 +16997,12 @@
       "ean": "8592718036492",
       "name": "Solight vonkajšia IP kamera s LED světlom",
       "current": [
-        "Elektro, Smart Home a osvetlenie > Zabezpečenie – detektory a senzory"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
       ],
       "proposed": [
-        "Elektro, Smart Home a osvetlenie > IP kamery"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
       ],
-      "desiredTarget": "Elektro, Smart Home a osvetlenie > IP kamery",
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
       "rule": "ip-cameras",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:solight:1143"
