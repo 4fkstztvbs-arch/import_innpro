@@ -5648,8 +5648,23 @@
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE T4S/T1 ToneMatch Audio Engine/Mixer Power Supply]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Napájací adaptér pre zariadenia série ToneMatch T4S/T1]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p>Napájací adaptér pre zariadenia série ToneMatch T4S/T1</p>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional T1 ToneMatch Power Supply, napájací zdroj pre mixpult T4S alebo audio engine T1 pri samostatnom použití či so systémom L1 Compact/L1 Model I.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-t1-powersupply">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL T4S/T1 TONEMATCH POWER SUPPLY</p><h2>Napájanie pre ToneMatch.<br>Pre T4S aj audio engine T1.</h2><p>Tento napájací zdroj zabezpečí napájanie pre ToneMatch audio engine T1 pri použití so systémom Bose L1 Compact či L1 Model I, alebo pri jeho samostatnom nasadení. Rovnaký zdroj slúži aj ako voliteľné napájanie pre mixpult T4S mimo systémov L1 Pro, kde sa T4S bežne napája priamo cez ToneMatch kábel.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/c3b7c0a9-b292-4bc6-8d4d-c774e7e02310/tonematch2_1200x1022-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional T1 ToneMatch napájací zdroj s XLR konektorom" decoding="async"></div>
+</section>
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Určenie</strong><span class="ps-value">ToneMatch audio engine T1, mixpult T4S (voliteľne)</span></div>
+<div><strong class="ps-label">Vstupné napätie</strong><span class="ps-value">100 – 230 V~</span></div>
+<div><strong class="ps-label">Konektor</strong><span class="ps-value">XLR</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+</div></section>
+
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Potrebujem tento zdroj, ak mám T4S so systémom L1 Pro?</summary><p>Nie, pri pripojení k systému Bose L1 Pro sa T4S napája priamo cez ToneMatch kábel. Tento zdroj je potrebný len pri samostatnom použití T4S alebo pri audio engine T1 so staršími systémami L1 Compact/L1 Model I.</p></details><details><summary>Je zdroj kompatibilný aj s T8S?</summary><p>T8S má vlastný napájací zdroj priamo v balení, takže tento doplnkový zdroj sa preň nevyžaduje.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Bose%20Professional%20T1%20ToneMatch%20Power%20Supply%20%E2%80%93%20dopyt">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>
 <p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-k-profesionalnemu-audiu/">Príslušenstvo k profesionálnemu audiu</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -5658,7 +5673,7 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>709</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE T4S/T1 ToneMatch Audio Engine/Mixer Power Supply">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/0/0/000000000000051377.main.jpg</IMAGE>
+  <IMAGE description="Bose Professional T1 ToneMatch napájací zdroj s XLR konektorom - obrázok 1">https://assets.boseprofessional.com/transform/c3b7c0a9-b292-4bc6-8d4d-c774e7e02310/tonematch2_1200x1022-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -5668,8 +5683,8 @@
 <PURCHASE_PRICE>28.28</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE T4S/T1 ToneMatch Audio Engine/Mixer Power… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE T4S/T1 ToneMatch Audio Engine/Mixer Power Supply – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE T4S/T1 ToneMatch Audio Engine/Mixer Power Supply]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE T1 ToneMatch Power Supply – napájací zdroj pre mixpult T4S alebo audio engine T1.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE instalační krabice na povrch pro CC-16 / DXA]]></NAME>
@@ -8616,8 +8631,32 @@
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE T4S ToneMatch mixážny pult]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Mixer T4S ToneMatch]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p>Mixer T4S ToneMatch</p>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional T4S ToneMatch, kompaktný 4-kanálový digitálny mixpult s procesorom ToneMatch, zEQ a efektmi štúdiovej kvality pre živé vystúpenia.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-t4s">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL T4S TONEMATCH</p><h2>Ultra-kompaktný 4-kanálový mixér.<br>Štúdiové efekty na dosah ruky.</h2><p>T4S je ultra-kompaktný 4-kanálový digitálny mixpult navrhnutý priamo pre výkon na pódiu. Výkonný DSP procesor ponúka ekvalizáciu, dynamiku a efekty štúdiovej kvality, doplnené o technológiu Bose ToneMatch a zEQ pre prirodzene znejúci spev aj nástroje. V kombinácii so systémom Bose L1 alebo F1 dosiahnete kompletnú tonálnu optimalizáciu od mikrofónu až po reproduktor.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/d8bedd0b-1158-4bf8-b994-beedb2fb506e/t4-silo1-1200x1022-17-BOSE-064-121417-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional T4S ToneMatch mixážny pult, pohľad zhora" decoding="async"></div>
+</section>
+<div class="ps-facts"><div><strong>4 kanály</strong><span>XLR combo vstupy</span></div><div><strong>48 kHz/24-bit</strong><span>Vzorkovanie</span></div><div><strong>1,0 kg</strong><span>Hmotnosť</span></div></div>
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/b4bf82a9-0c85-4be0-9823-9be39d658c9b/t4-silo2-1200x1022-17-BOSE-064-121417-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional T4S ToneMatch mixážny pult, pohľad z uhla na ovládacie prvky"></div><div class="ps-copy"><p class="ps-eyebrow">OVLÁDANIE</p><h2>Hmatové ovládače.<br>Prehľadný OLED displej aj za tmy.</h2><p>Hmatové otočné ovládače a tlačidlá spolu s podsvieteným OLED displejom sú navrhnuté priamo pre živé použitie na slabo osvetlenom pódiu. T4S má vstavaný tap tempo delay, chromatický ladič a možnosť uloženia scén (scene recall) pre rýchle prepínanie nastavení medzi skladbami. Odolná konštrukcia s magnetickým krytom chráni ovládače a konektory pri preprave.</p></div></section>
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Vstupy</strong><span class="ps-value">4× XLR combo (mikrofón/nástroj), 2× Jack 6,35 mm TRS</span></div>
+<div><strong class="ps-label">Phantom napájanie</strong><span class="ps-value">48 V DC, všetky kanály</span></div>
+<div><strong class="ps-label">Výstupy</strong><span class="ps-value">4× vyvážený, linková úroveň</span></div>
+<div><strong class="ps-label">Ekvalizácia</strong><span class="ps-value">3-pásmové EQ + ToneMatch a zEQ na kanál</span></div>
+<div><strong class="ps-label">Efekty</strong><span class="ps-value">Kompresor, limiter, de-esser, noise gate, chorus, flanger, phaser, tremolo, delay, reverb</span></div>
+<div><strong class="ps-label">Vzorkovanie</strong><span class="ps-value">48 kHz / 24-bit</span></div>
+<div><strong class="ps-label">Rozhranie s počítačom</strong><span class="ps-value">USB Type-B, USB-A pre prehrávanie z USB kľúča</span></div>
+<div><strong class="ps-label">Displej</strong><span class="ps-value">OLED</span></div>
+<div><strong class="ps-label">Rozmery (V×Š×H)</strong><span class="ps-value">214 × 184 × 83 mm</span></div>
+<div><strong class="ps-label">Hmotnosť</strong><span class="ps-value">1,0 kg</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+</div></section>
+<section class="ps-section"><h2>V balení</h2><ul class="ps-package"><li>1× ToneMatch mixpult a magnetický kryt</li><li>1× kábel ToneMatch</li></ul></section>
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Aký je rozdiel medzi T4S a T8S?</summary><p>T4S má 4 vstupné kanály (4× XLR combo) a je určený pre menšie zostavy, T8S má 8 kanálov (8× XLR combo + 8× Jack) pre väčšie kapely alebo náročnejšie ozvučenie.</p></details><details><summary>Potrebujem samostatné napájanie?</summary><p>T4S sa pri pripojení k systému Bose L1 Pro napája priamo cez ToneMatch kábel. Pre samostatné použitie alebo staršie systémy L1 Compact/L1 Model I je určený voliteľný napájací zdroj T1.</p></details><details><summary>Funguje T4S aj bez systému Bose L1/F1?</summary><p>Áno, T4S má aj bežné linkové vyvážené výstupy, takže funguje ako samostatný digitálny mixér s ľubovoľným ozvučovacím systémom, plné end-to-end ladenie ToneMatch je však dostupné len so systémami L1 alebo F1.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Bose%20Professional%20T4S%20ToneMatch%20%E2%80%93%20dopyt">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>
 <p>Ďalšie produkty nájdete v kategórii <a href="/podium-diskoteka-dj-mixazne-pulty/">Mixážne pulty</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -8626,8 +8665,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Pódium, diskotéka, DJ > Mixážne pulty]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika > Pódium, diskotéka, DJ]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE T4S ToneMatch mixážny pult - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/c/q/cq5dam.web.1920.1920.jpg</IMAGE>
-  <IMAGE description="BOSE T4S ToneMatch mixážny pult - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose-tonematch-mixer-basys.jpg</IMAGE>
+  <IMAGE description="Bose Professional T4S ToneMatch mixážny pult, pohľad zhora - obrázok 1">https://assets.boseprofessional.com/transform/d8bedd0b-1158-4bf8-b994-beedb2fb506e/t4-silo1-1200x1022-17-BOSE-064-121417-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional T4S ToneMatch mixážny pult, pohľad zhora - obrázok 2">https://assets.boseprofessional.com/transform/b4bf82a9-0c85-4be0-9823-9be39d658c9b/t4-silo2-1200x1022-17-BOSE-064-121417-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -8637,13 +8676,37 @@
 <PURCHASE_PRICE>516.08</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE T4S ToneMatch mixážny pult | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE T4S ToneMatch mixážny pult – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE T4S ToneMatch mixážny pult]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE T4S ToneMatch mixážny pult – kompaktný 4-kanálový digitálny mixér s procesorom ToneMatch pre hudobníkov.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE T8S ToneMatch mixážny pult]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Mixer T8S ToneMatch]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p>Mixer T8S ToneMatch</p>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional T8S ToneMatch, kompaktný 8-kanálový digitálny mixpult s procesorom ToneMatch, zEQ a efektmi štúdiovej kvality pre živé vystúpenia.]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-t8s">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL T8S TONEMATCH</p><h2>Kompaktný 8-kanálový mixér.<br>Štúdiové efekty na dosah ruky.</h2><p>T8S je kompaktný 8-kanálový digitálny mixpult navrhnutý priamo pre výkon na pódiu, s dvojnásobným počtom vstupov oproti T4S. Výkonný DSP procesor ponúka ekvalizáciu, dynamiku a efekty štúdiovej kvality, doplnené o technológiu Bose ToneMatch a zEQ pre prirodzene znejúci spev aj nástroje. V kombinácii so systémom Bose L1 alebo F1 dosiahnete kompletnú tonálnu optimalizáciu od mikrofónu až po reproduktor.</p></div>
+<div class="ps-hero-image"><img src="https://assets.boseprofessional.com/transform/9f0a1087-b5b6-4f81-ba5b-e057e4650597/t8-silo1-1200x1022-17-BOSE-064-121417-png?io=transform:scale,width:1024" width="800" height="600" alt="Bose Professional T8S ToneMatch mixážny pult, pohľad zhora" decoding="async"></div>
+</section>
+<div class="ps-facts"><div><strong>8 kanálov</strong><span>XLR combo vstupy</span></div><div><strong>48 kHz/24-bit</strong><span>Vzorkovanie</span></div><div><strong>1,9 kg</strong><span>Hmotnosť</span></div></div>
+<section class="ps-row"><div class="ps-photo"><img src="https://assets.boseprofessional.com/transform/527043ce-7d3e-4218-8a4d-36a0330ce507/t8-silo2-1200x1022-17-BOSE-064-121417-png?io=transform:scale,width:1024" width="816" height="612" loading="lazy" decoding="async" alt="Bose Professional T8S ToneMatch mixážny pult, pohľad z uhla na ovládacie prvky a master metrer"></div><div class="ps-copy"><p class="ps-eyebrow">OVLÁDANIE</p><h2>Hmatové ovládače pre 8 kanálov.<br>Master metrer a prehľadný OLED displej.</h2><p>Hmatové otočné ovládače a tlačidlá spolu s podsvieteným OLED displejom a master metrom sú navrhnuté priamo pre živé použitie na slabo osvetlenom pódiu. T8S má rovnako ako T4S vstavaný tap tempo delay, chromatický ladič a možnosť uloženia scén (scene recall). Odolná konštrukcia s magnetickým krytom chráni ovládače a konektory pri preprave, na rozdiel od T4S má T8S v balení aj vlastný napájací zdroj.</p></div></section>
+<section class="ps-section"><h2>Parametre</h2><div class="ps-specs">
+<div><strong class="ps-label">Vstupy</strong><span class="ps-value">8× XLR combo (mikrofón/nástroj), 8× Jack 6,35 mm TRS</span></div>
+<div><strong class="ps-label">Phantom napájanie</strong><span class="ps-value">48 V DC, všetky kanály</span></div>
+<div><strong class="ps-label">Výstupy</strong><span class="ps-value">8× (2× XLR + 6× vyvážený, linková úroveň)</span></div>
+<div><strong class="ps-label">Ekvalizácia</strong><span class="ps-value">3-pásmové EQ + ToneMatch a zEQ na kanál</span></div>
+<div><strong class="ps-label">Efekty</strong><span class="ps-value">Kompresor, limiter, de-esser, noise gate, chorus, flanger, phaser, tremolo, delay, reverb</span></div>
+<div><strong class="ps-label">Vzorkovanie</strong><span class="ps-value">48 kHz / 24-bit</span></div>
+<div><strong class="ps-label">Rozhranie s počítačom</strong><span class="ps-value">USB Type-B, USB-A pre prehrávanie z USB kľúča</span></div>
+<div><strong class="ps-label">Displej</strong><span class="ps-value">OLED</span></div>
+<div><strong class="ps-label">Rozmery (V×Š×H)</strong><span class="ps-value">214 × 311 × 83 mm</span></div>
+<div><strong class="ps-label">Hmotnosť</strong><span class="ps-value">1,9 kg</span></div>
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Čierna</span></div>
+</div></section>
+<section class="ps-section"><h2>V balení</h2><ul class="ps-package"><li>1× ToneMatch mixpult a magnetický kryt</li><li>1× napájací zdroj ToneMatch</li></ul></section>
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Aký je rozdiel medzi T8S a T4S?</summary><p>T8S má 8 vstupných kanálov (8× XLR combo + 8× Jack) pre väčšie kapely alebo náročnejšie ozvučenie, T4S má 4 kanály a je kompaktnejší aj ľahší.</p></details><details><summary>Je v balení napájací zdroj?</summary><p>Áno, na rozdiel od T4S má T8S vlastný napájací zdroj priamo v balení.</p></details><details><summary>Funguje T8S aj bez systému Bose L1/F1?</summary><p>Áno, T8S má aj bežné linkové/XLR výstupy, takže funguje ako samostatný digitálny mixér s ľubovoľným ozvučovacím systémom, plné end-to-end ladenie ToneMatch je však dostupné len so systémami L1 alebo F1.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Bose%20Professional%20T8S%20ToneMatch%20%E2%80%93%20dopyt">premiumstore@premiumstore.sk</a> s parametrami vášho použitia.</p></footer>
+</div>
 <p>Ďalšie produkty nájdete v kategórii <a href="/podium-diskoteka-dj-mixazne-pulty/">Mixážne pulty</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -8652,8 +8715,8 @@
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Pódium, diskotéka, DJ > Mixážne pulty]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika > Pódium, diskotéka, DJ]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>710</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="BOSE T8S ToneMatch mixážny pult - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose_t8s_tonematch_mixer_basys_03.jpg</IMAGE>
-  <IMAGE description="BOSE T8S ToneMatch mixážny pult - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/b/o/bose_t8s_tonematch_mixer_basys_01.jpg</IMAGE>
+  <IMAGE description="Bose Professional T8S ToneMatch mixážny pult, pohľad zhora - obrázok 1">https://assets.boseprofessional.com/transform/9f0a1087-b5b6-4f81-ba5b-e057e4650597/t8-silo1-1200x1022-17-BOSE-064-121417-png?io=transform:scale,width:1024</IMAGE>
+  <IMAGE description="Bose Professional T8S ToneMatch mixážny pult, pohľad zhora - obrázok 2">https://assets.boseprofessional.com/transform/527043ce-7d3e-4218-8a4d-36a0330ce507/t8-silo2-1200x1022-17-BOSE-064-121417-png?io=transform:scale,width:1024</IMAGE>
 </IMAGES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
@@ -8663,8 +8726,8 @@
 <PURCHASE_PRICE>728.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE T8S ToneMatch mixážny pult | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE T8S ToneMatch mixážny pult – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE T8S ToneMatch mixážny pult]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE T8S ToneMatch mixážny pult – kompaktný 8-kanálový digitálny mixér s procesorom ToneMatch pre hudobníkov.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[TC Electronic Choka Tremolo effect pedal]]></NAME>
