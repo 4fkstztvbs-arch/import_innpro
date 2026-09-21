@@ -1,11 +1,57 @@
 {
-  "fetchedAt": "2026-09-14T10:19:31.307Z",
+  "fetchedAt": "2026-09-21T10:24:20.322Z",
   "domain": "heureka.sk",
-  "productCount": 6,
-  "matchedProductCount": 4,
+  "productCount": 7,
+  "matchedProductCount": 5,
   "unmatchedEanCount": 0,
   "noEanCount": 2,
   "products": [
+    {
+      "ean": "5060134337798",
+      "heurekaProductName": "CrockPot SCV400RD",
+      "heurekaUrl": "https://www.premiumstore.sk/crockpot-scv400rd/",
+      "ourName": "CrockPot SCV400RD",
+      "ourCode": "100001771971",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6944563",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "Jednoduché ovládanie (prehľadné tlačidlá)",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1789760946
+        }
+      ]
+    },
+    {
+      "ean": "5908261687204",
+      "heurekaProductName": "Freestyle koloběžka NILS Extreme HS221 Spider",
+      "heurekaUrl": "https://www.premiumstore.sk/freestyle-kolobezka-nils-extreme-hs221-spider/",
+      "ourName": "Freestyle koloběžka NILS Extreme HS221 Spider",
+      "ourCode": "ABL-16-50-253",
+      "ourSource": "atos.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6933648",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1789366170
+        }
+      ]
+    },
     {
       "ean": "8698902064705",
       "heurekaProductName": "FINLUX 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
@@ -99,33 +145,10 @@
       ]
     },
     {
-      "ean": "8590393259199",
-      "heurekaProductName": "ETA Verto II 1423 90000 bílý/zlatý",
-      "heurekaUrl": "https://www.premiumstore.sk/eta-verto-ii-1423-90000-bily-zlaty/",
-      "ourName": "ETA Verto II 1423 90000 bílý/zlatý",
-      "ourCode": "100000139422",
-      "ourSource": "kb.xml",
-      "reviewCount": 1,
-      "avgRating": 5,
-      "reviews": [
-        {
-          "ratingId": "6686751",
-          "orderId": "",
-          "author": "",
-          "rating": 5,
-          "pros": "",
-          "cons": "",
-          "summary": "Dobry pomer cena -vykon, pri pravidelnom pouzivani vydrzi bateria cca 3 roky. Aj tak je vsak v porovnani s podobnymi vysavacmi v tejto cene najlepsi. Kupene uz druhykrat",
-          "reaction": "",
-          "unixTimestamp": 1781937076
-        }
-      ]
-    },
-    {
       "ean": "8592718042530",
-      "heurekaProductName": "Solight sada dvoch vianočných LED svetielok, 15/20cm, 30x LED, AA baterie",
-      "heurekaUrl": "https://www.premiumstore.sk/solight-sada-dvoch-vianocnych-led-svetielok--15-20cm--30x-led--aa-baterie/",
-      "ourName": "Solight sada dvoch vianočných LED svetielok, 15/20cm, 30x LED, AA baterie",
+      "heurekaProductName": "Sada 2 vianočných LED svetielok Solight 1V287, 15/20 cm, 30 LED, AA batérie",
+      "heurekaUrl": "https://www.premiumstore.sk/sada-2-vianocnych-led-svetielok-solight-1v287--15-20-cm--30-led--aa-baterie/",
+      "ourName": "Sada 2 vianočných LED svetielok Solight 1V287, 15/20 cm, 30 LED, AA batérie",
       "ourCode": "1V287",
       "ourSource": "solight.xml",
       "reviewCount": 1,
