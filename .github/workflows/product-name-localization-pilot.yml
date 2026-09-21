@@ -13,6 +13,8 @@ on:
       - 'scripts/tests/product-name-localization.test.js'
       - 'naskladnenie.html'
       - '.github/workflows/product-name-localization-pilot.yml'
+      - '.github/workflows/atos-sync.yml'
+      - '.github/workflows/kb-sync.yml'
   workflow_dispatch: {}
 
 permissions:
