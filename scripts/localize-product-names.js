@@ -18,9 +18,9 @@ function cdata(value) {
 }
 
 function replaceName(block, name) {
-  const matches = block.match(/<NAME>[\s\S]*?<\/NAME>/g) || [];
-  if (matches.length !== 1) throw new Error('Expected exactly one <NAME>, found ' + matches.length);
-  return block.replace(/<NAME>[\s\S]*?<\/NAME>/, '<NAME>' + cdata(name) + '</NAME>');
+  const re = /^(<SHOPITEM(?:\\s[^>]*)?>\\s*)<NAME>[\\s\\S]*?<\\/NAME>/;
+  if (!re.test(block)) throw new Error('Expected product-level <NAME> directly under SHOPITEM');
+  return block.replace(re, (full, prefix) => prefix + '<NAME>' + cdata(name) + '</NAME>');
 }
 
 function loadRegistry(registryPath = DEFAULT_REGISTRY) {
