@@ -1,0 +1,791 @@
+/*
+ * PremiumStore.sk – Product Detail v1
+ * 2026-09-21
+ *
+ * Izolovana UX/CRO vrstva pre detail produktu.
+ * Aktivuje sa iba ked premiumstore-pdp-v1.js prida body class .ps-pdp-v1.
+ *
+ * Zachovava:
+ * - Shoptet galeriu a zoom
+ * - varianty
+ * - nativny kosik
+ * - Popis / Parametre
+ * - existujuce produktove popisy
+ *
+ * Rollback:
+ * odstranit link na tento CSS a premiumstore-pdp-v1.js z administracie.
+ */
+
+:root {
+  --ps-pdp-green: #24b47e;
+  --ps-pdp-green-hover: #1d996a;
+  --ps-pdp-green-soft: #eefaf5;
+  --ps-pdp-text: #172033;
+  --ps-pdp-muted: #637083;
+  --ps-pdp-border: #e4eaf0;
+  --ps-pdp-surface: #ffffff;
+  --ps-pdp-soft: #f7f9fb;
+  --ps-pdp-shadow: 0 10px 32px rgba(15, 23, 42, .065);
+}
+
+
+/* =========================================================
+   PRODUCT LAYOUT – DESKTOP
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1 .p-detail-inner {
+  display: grid !important;
+  grid-template-columns:
+    minmax(0, 1.08fr)
+    minmax(370px, .92fr);
+  gap: 38px !important;
+  align-items: start !important;
+}
+
+body.type-detail.ps-pdp-v1 .p-image-wrapper,
+body.type-detail.ps-pdp-v1 .p-data-wrapper {
+  float: none !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-width: 0 !important;
+  flex: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
+/* =========================================================
+   PRODUCT GALLERY
+   Zoom a Shoptet spravanie ostavaju nedotknute.
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1 .p-image-wrapper .p-image {
+  background: #fff !important;
+}
+
+body.type-detail.ps-pdp-v1 .p-image-wrapper .p-image img {
+  border-radius: 16px;
+}
+
+body.type-detail.ps-pdp-v1 .p-image-wrapper .row {
+  margin-top: 14px !important;
+}
+
+body.type-detail.ps-pdp-v1 .p-image-wrapper img {
+  image-rendering: auto;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1
+.p-detail-inner-header h1,
+
+body.type-detail.ps-pdp-v1
+.p-detail-inner-header .h1,
+
+body.type-detail.ps-pdp-v1
+.p-detail-inner-header-mobile h1,
+
+body.type-detail.ps-pdp-v1
+.p-detail-inner-header-mobile .h1 {
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+
+  color: var(--ps-pdp-text) !important;
+
+  font-size: clamp(27px, 2.15vw, 36px) !important;
+  font-weight: 700 !important;
+  line-height: 1.18 !important;
+  letter-spacing: -.025em !important;
+}
+
+
+/* =========================================================
+   BRAND LOGO
+   Vklada ho premiumstore-pdp-v1.js.
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1 .ps-brand-logo {
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+  min-height: 28px;
+
+  margin: 8px 0 14px;
+}
+
+body.type-detail.ps-pdp-v1 .ps-brand-logo img {
+  display: block;
+
+  width: auto;
+  height: auto;
+
+  max-width: 120px;
+  max-height: 28px;
+
+  object-fit: contain;
+  object-position: left center;
+}
+
+
+/* =========================================================
+   BUYING AREA
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1 #product-detail-form {
+  margin-top: 16px !important;
+
+  padding: 21px 22px !important;
+
+  border: 1px solid var(--ps-pdp-border) !important;
+  border-radius: 18px !important;
+
+  background: var(--ps-pdp-surface) !important;
+
+  box-shadow: var(--ps-pdp-shadow) !important;
+}
+
+
+/* =========================================================
+   AVAILABILITY / DELIVERY
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .availability-label,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .availability-amount,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .availability-value,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .p-availability {
+  color: #168a62 !important;
+}
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .availability-label,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .availability-amount,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .availability-value {
+  font-weight: 700 !important;
+}
+
+
+/* =========================================================
+   PRICE
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .price-final-holder,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .price-final,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .p-final-price-wrapper {
+  color: #121923 !important;
+
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  line-height: 1.12 !important;
+  letter-spacing: -.025em !important;
+}
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .price-standard,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .price-save,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .price-before-discount {
+  color: #8792a0 !important;
+}
+
+
+/* =========================================================
+   QUANTITY + ADD TO CART
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .p-to-cart-block {
+  display: flex !important;
+
+  align-items: stretch !important;
+
+  gap: 10px !important;
+
+  width: 100% !important;
+
+  margin-top: 16px !important;
+}
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .p-to-cart-block .quantity {
+  display: flex !important;
+
+  flex: 0 0 112px !important;
+
+  align-items: stretch !important;
+
+  height: 52px !important;
+
+  overflow: hidden !important;
+
+  margin: 0 !important;
+
+  border: 1px solid #d9e0e7 !important;
+  border-radius: 12px !important;
+
+  background: #fff !important;
+}
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .quantity input {
+  min-width: 0 !important;
+  height: 50px !important;
+
+  border: 0 !important;
+
+  background: transparent !important;
+
+  text-align: center !important;
+
+  font-size: 15px !important;
+  font-weight: 700 !important;
+
+  box-shadow: none !important;
+}
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .quantity .increase,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .quantity .decrease {
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 34px !important;
+  height: 50px !important;
+
+  border: 0 !important;
+
+  background: transparent !important;
+
+  color: #384454 !important;
+
+  font-size: 18px !important;
+}
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .p-to-cart-block .btn-cart,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .p-to-cart-block .btn-conversion,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form [data-testid="buttonAddToCart"],
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .add-to-cart-button {
+  flex: 1 1 auto !important;
+
+  min-width: 0 !important;
+  min-height: 52px !important;
+
+  margin: 0 !important;
+
+  padding: 0 26px !important;
+
+  border-color: var(--ps-pdp-green) !important;
+  border-radius: 12px !important;
+
+  background: var(--ps-pdp-green) !important;
+
+  color: #fff !important;
+
+  font-size: 17px !important;
+  font-weight: 700 !important;
+
+  box-shadow: none !important;
+}
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .p-to-cart-block .btn-cart:hover,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .p-to-cart-block .btn-conversion:hover,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form [data-testid="buttonAddToCart"]:hover,
+
+body.type-detail.ps-pdp-v1
+#product-detail-form .add-to-cart-button:hover {
+  border-color: var(--ps-pdp-green-hover) !important;
+
+  background: var(--ps-pdp-green-hover) !important;
+}
+
+
+/* =========================================================
+   SECONDARY ACTIONS
+   Tlac / Opytat sa / Strazit / Zdielat
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1
+.buttons-wrapper.social-buttons-wrapper {
+  margin-top: 15px !important;
+
+  color: #748091 !important;
+
+  font-size: 13px !important;
+}
+
+body.type-detail.ps-pdp-v1
+.buttons-wrapper.social-buttons-wrapper a {
+  color: #748091 !important;
+}
+
+body.type-detail.ps-pdp-v1
+.buttons-wrapper.social-buttons-wrapper a:hover {
+  color: var(--ps-pdp-green-hover) !important;
+}
+
+
+/* =========================================================
+   BENEFITS
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1 .benefitBanner {
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr)) !important;
+
+  gap: 10px !important;
+
+  width: 100% !important;
+
+  margin: 24px 0 34px !important;
+
+  padding: 16px 18px !important;
+
+  border: 1px solid #e3ede8 !important;
+  border-radius: 16px !important;
+
+  background: linear-gradient(
+    135deg,
+    #f7fcfa 0%,
+    #f3f8f6 100%
+  ) !important;
+}
+
+body.type-detail.ps-pdp-v1 .benefitBanner__item {
+  display: grid !important;
+
+  grid-template-columns:
+    38px minmax(0, 1fr) !important;
+
+  align-items: center !important;
+
+  gap: 10px !important;
+
+  min-width: 0 !important;
+
+  padding: 4px 8px !important;
+}
+
+body.type-detail.ps-pdp-v1 .benefitBanner__picture {
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 38px !important;
+  height: 38px !important;
+
+  margin: 0 !important;
+}
+
+body.type-detail.ps-pdp-v1
+.benefitBanner__picture img,
+
+body.type-detail.ps-pdp-v1
+.benefitBanner__picture svg {
+  width: 28px !important;
+  height: 28px !important;
+
+  max-width: 28px !important;
+  max-height: 28px !important;
+}
+
+body.type-detail.ps-pdp-v1 .benefitBanner__content {
+  min-width: 0 !important;
+
+  line-height: 1.25 !important;
+}
+
+body.type-detail.ps-pdp-v1 .benefitBanner__title {
+  display: block !important;
+
+  margin: 0 !important;
+
+  color: #24303e !important;
+
+  font-size: 13.5px !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+}
+
+body.type-detail.ps-pdp-v1 .benefitBanner__data {
+  display: block !important;
+
+  margin-top: 2px !important;
+
+  color: #687586 !important;
+
+  font-size: 12px !important;
+  line-height: 1.3 !important;
+}
+
+
+/* =========================================================
+   DESCRIPTION / PARAMETERS
+   Nezasahujeme do obsahu rich popisov.
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper {
+  margin-top: 6px !important;
+}
+
+body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* =========================================================
+   TABLET LANDSCAPE / SMALL DESKTOP
+   ========================================================= */
+
+@media (max-width: 1199px) {
+
+  body.type-detail.ps-pdp-v1 .p-detail-inner {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(340px, .92fr);
+
+    gap: 28px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .p-detail-inner-header h1,
+
+  body.type-detail.ps-pdp-v1
+  .p-detail-inner-header .h1 {
+    font-size: 28px !important;
+  }
+
+  body.type-detail.ps-pdp-v1 .benefitBanner {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr)) !important;
+  }
+
+}
+
+
+/* =========================================================
+   TABLET PORTRAIT
+   ========================================================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  body.type-detail.ps-pdp-v1 .p-detail-inner {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(320px, .95fr);
+
+    gap: 22px !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form {
+    padding: 17px !important;
+
+    border-radius: 16px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .price-final-holder,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .price-final,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-final-price-wrapper {
+    font-size: 28px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-to-cart-block {
+    gap: 8px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-to-cart-block .quantity {
+    flex-basis: 98px !important;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+  body.type-detail.ps-pdp-v1 .p-detail-inner {
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    gap: 0 !important;
+  }
+
+  body.type-detail.ps-pdp-v1 .p-image-wrapper,
+  body.type-detail.ps-pdp-v1 .p-data-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+
+  /* Galeria */
+
+  body.type-detail.ps-pdp-v1
+  .p-image-wrapper .p-image {
+    order: 1 !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .p-image-wrapper .row {
+    order: 2 !important;
+
+    margin-top: 10px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .p-image-wrapper .p-detail-inner-header-mobile {
+    order: 3 !important;
+
+    margin-top: 16px !important;
+  }
+
+
+  /* Nazov */
+
+  body.type-detail.ps-pdp-v1
+  .p-detail-inner-header-mobile h1,
+
+  body.type-detail.ps-pdp-v1
+  .p-detail-inner-header-mobile .h1 {
+    margin-bottom: 7px !important;
+
+    font-size: 22px !important;
+    line-height: 1.22 !important;
+  }
+
+
+  /* Logo */
+
+  body.type-detail.ps-pdp-v1 .ps-brand-logo {
+    min-height: 23px;
+
+    margin: 7px 0 12px;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .ps-brand-logo img {
+    max-width: 102px;
+    max-height: 23px;
+  }
+
+
+  /* Nakupny blok */
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form {
+    margin-top: 13px !important;
+
+    padding: 16px !important;
+
+    border-radius: 15px !important;
+
+    box-shadow:
+      0 7px 22px rgba(15, 23, 42, .055) !important;
+  }
+
+
+  /* Cena */
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .price-final-holder,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .price-final,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-final-price-wrapper {
+    font-size: 28px !important;
+  }
+
+
+  /*
+   * premiumstore-main.css povodne quantity na mobile skryval.
+   * Tu ho cielene vraciame.
+   */
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-to-cart-block .quantity {
+    display: flex !important;
+
+    flex: none !important;
+
+    width: 104px !important;
+    height: 52px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-to-cart-block {
+    display: grid !important;
+
+    grid-template-columns:
+      104px minmax(0, 1fr) !important;
+
+    gap: 9px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-to-cart-block .btn-cart,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-to-cart-block .btn-conversion,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form [data-testid="buttonAddToCart"],
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .add-to-cart-button {
+    width: 100% !important;
+
+    min-height: 52px !important;
+
+    padding: 0 14px !important;
+
+    font-size: 16px !important;
+  }
+
+
+  /* Na mobile sekundarne akcie zbytocne neodvadzaju pozornost */
+
+  body.type-detail.ps-pdp-v1
+  .buttons-wrapper.social-buttons-wrapper {
+    display: none !important;
+  }
+
+
+  /* Benefity */
+
+  body.type-detail.ps-pdp-v1 .benefitBanner {
+    display: grid !important;
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr)) !important;
+
+    gap: 8px !important;
+
+    margin: 18px 0 28px !important;
+
+    padding: 13px !important;
+
+    border-radius: 14px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .benefitBanner__item {
+    grid-template-columns:
+      30px minmax(0, 1fr) !important;
+
+    gap: 8px !important;
+
+    padding: 4px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .benefitBanner__picture {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .benefitBanner__picture img,
+
+  body.type-detail.ps-pdp-v1
+  .benefitBanner__picture svg {
+    width: 23px !important;
+    height: 23px !important;
+
+    max-width: 23px !important;
+    max-height: 23px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .benefitBanner__title {
+    font-size: 12.5px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  .benefitBanner__data {
+    font-size: 11px !important;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 380px) {
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form {
+    padding: 14px !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-to-cart-block {
+    grid-template-columns:
+      92px minmax(0, 1fr) !important;
+  }
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form .p-to-cart-block .quantity {
+    width: 92px !important;
+  }
+
+  body.type-detail.ps-pdp-v1 .benefitBanner {
+    grid-template-columns: 1fr !important;
+  }
+
+}
