@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27153,
-  "matchedRules": 2696,
-  "changedProducts": 227,
+  "totalProducts": 27120,
+  "matchedRules": 2690,
+  "changedProducts": 1221,
   "rejected": [
     {
       "supplier": "innpro",
@@ -31,7 +31,7 @@
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
-      "visibleUnique": 15,
+      "visibleUnique": 14,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -79,7 +79,7 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
-      "visibleUnique": 47,
+      "visibleUnique": 46,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
     },
@@ -186,28 +186,28 @@
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
-      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Senzory pohybu a otvorenia",
-      "visibleUnique": 15,
+      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia",
+      "visibleUnique": 17,
       "active": true,
-      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
     {
-      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Senzory teploty a vlhkosti",
-      "visibleUnique": 14,
+      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory teploty a vlhkosti",
+      "visibleUnique": 18,
       "active": true,
-      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
     {
-      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Smart termostaty a hlavice",
-      "visibleUnique": 35,
-      "active": true,
-      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
-    },
-    {
-      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia > Smart zásuvky",
+      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
       "visibleUnique": 41,
       "active": true,
-      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť – zariadenia"
+      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+    },
+    {
+      "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky",
+      "visibleUnique": 61,
+      "active": true,
+      "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické konektory",
@@ -349,7 +349,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 84,
+      "visibleUnique": 83,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
@@ -373,7 +373,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné kryty a klietky pre kamery",
-      "visibleUnique": 49,
+      "visibleUnique": 48,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },
@@ -385,7 +385,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery",
-      "visibleUnique": 110,
+      "visibleUnique": 109,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },

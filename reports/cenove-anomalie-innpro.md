@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-09-20
+# Cenové anomálie vynechané z feedu — innpro — 2026-09-21
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -43,6 +43,13 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092887 | 6975116296231 | Dávkovač vody bez filtra Rojeco PTM673 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 24 |
-| 066581 | 843775118842 | Dogness poop bag dispenser | cena mimo 8x rozsah mediánu kategórie | 14.95 € | 1.00 € | 1/15.0x | 20 |
+| 058458 | 850007706586 | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | cena mimo 8x rozsah mediánu kategórie | 17.00 € | 2.00 € | 1/8.5x | 63 |
+| 073608 | 5907085523477 | Bezdrôtový diaľkový ovládač Heiman HM1RC-W Interlinked | cena mimo 8x rozsah mediánu kategórie | 17.00 € | 2.10 € | 1/8.1x | 100 |
+| 074820 | 6920075741940 | SONOFF NSPanel Pro 120 Smart Control Panel Matter WiFi/Bluetooth/ZigBee (biely) | cena mimo 8x rozsah mediánu kategórie | 17.00 € | 146.50 € | 8.6x | 100 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
+| 082233 | 0810150547382 | Panel klimatizácie Switchbot Home | cena mimo 8x rozsah mediánu kategórie | 4.00 € | 35.00 € | 8.8x | 35 |
+| 087546 | 6974246470962 | MOES WWP-BY-908 – 2-kanálové zavlažovacie čerpadlo s Wi-Fi | cena mimo 8x rozsah mediánu kategórie | 4.00 € | 42.00 € | 10.5x | 35 |
+| 087811 | 6976391039506 | Súprava bezdrôtového zvončeka IMOU 2S | cena mimo 8x rozsah mediánu kategórie | 4.00 € | 67.50 € | 16.9x | 35 |
+| 087812 | 6976391032453 | Bezdrôtový videozvonček IMOU, balenie po 3 kusoch | cena mimo 8x rozsah mediánu kategórie | 4.00 € | 88.00 € | 22.0x | 35 |
+| 090614 | 810150549775 | Klávesnica pre SwitchBot Keypad Vision Pro | cena mimo 8x rozsah mediánu kategórie | 4.00 € | 116.50 € | 29.1x | 35 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
