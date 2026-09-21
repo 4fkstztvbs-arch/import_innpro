@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '30 22 * * *' # 22:30 UTC (00:30 SK) daily — inside Shoptet's 00:00–07:00 "úplný import" window
   workflow_dispatch: {}
+  # Jednorazový bezpečný trigger na ručné spustenie z chatu; bežný push workflow nespúšťa.
+  push:
+    branches: [main]
+    paths:
+      - 'data/localization/run-kb-now.txt'
 
 permissions:
   contents: write
@@ -102,10 +107,8 @@ jobs:
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
 
-      # SK lokalizácia NAME je pripravená, ale ostáva bezpečne vypnutá, kým sa nenastaví
-      # repository variable PRODUCT_NAME_LOCALIZATION_KB=1. Beží až po cenách, dedupe, kategóriách a SEO.
+      # SK lokalizácia NAME je pre K-B aktívna. Beží až po cenách, dedupe, kategóriách a SEO.
       - name: Lokalizovať názvy produktov do slovenčiny (K-B)
-        if: ${{ vars.PRODUCT_NAME_LOCALIZATION_KB == '1' }}
         run: |
           cp output/kb.xml /tmp/kb-before-name-localization.xml
           node scripts/localize-product-names.js --supplier=kb --in=output/kb.xml --out=output/kb.xml
