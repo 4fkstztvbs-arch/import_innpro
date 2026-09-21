@@ -1324,3 +1324,353 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
 }
 
+
+
+
+/* =========================================================
+   PDP V1.3 – MOBILE POLISH
+   2026-09-21
+
+   - stabilny vlastny benefit blok pre mobil
+   - kompaktnejsie mnozstvo
+   - menej dominantny kod produktu
+   - lepsie zobrazenie moznosti dopravy
+   ========================================================= */
+
+
+/* Vlastny benefit blok je mimo mobilu skryty. */
+
+body.type-detail.ps-pdp-v1
+.ps-mobile-benefits {
+  display: none;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+
+  /* -------------------------------------------------------
+     NATIVNE BENEFITY
+
+     Na mobile pouzijeme vlastny stabilny blok.
+     Desktop a tablet pouzivaju nadalej povodny Shoptet blok.
+     ------------------------------------------------------- */
+
+  body.type-detail.ps-pdp-v1
+  .benefitBanner {
+    display: none !important;
+  }
+
+
+  /* -------------------------------------------------------
+     MOBILE BENEFITS 2 × 2
+     ------------------------------------------------------- */
+
+  body.type-detail.ps-pdp-v1
+  .ps-mobile-benefits {
+
+    display: grid !important;
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 8px;
+
+    width: 100%;
+
+    margin: 14px 0 25px;
+
+    padding: 12px;
+
+    border: 1px solid #e2ece7;
+    border-radius: 14px;
+
+    background:
+      linear-gradient(
+        135deg,
+        #f7fcfa 0%,
+        #f2f8f5 100%
+      );
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  .ps-mobile-benefit {
+
+    display: grid;
+
+    grid-template-columns:
+      27px minmax(0, 1fr);
+
+    align-items: center;
+
+    gap: 7px;
+
+    min-width: 0;
+
+    padding: 5px 3px;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  .ps-mobile-benefit-icon {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 25px;
+    height: 25px;
+
+    border: 1px solid #cfdcd6;
+    border-radius: 50%;
+
+    background: #fff;
+
+    color: #1d996a;
+
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  .ps-mobile-benefit-content {
+
+    min-width: 0;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  .ps-mobile-benefit-title {
+
+    display: block;
+
+    color: #24303e;
+
+    font-size: 11.5px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  .ps-mobile-benefit-text {
+
+    display: block;
+
+    margin-top: 2px;
+
+    color: #687586;
+
+    font-size: 10px;
+    line-height: 1.25;
+  }
+
+
+  /* -------------------------------------------------------
+     DETAIL PARAMETERS
+     ------------------------------------------------------- */
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .detail-parameters {
+
+    margin-bottom: 10px !important;
+  }
+
+
+  /*
+   * Možnosti dorucenia:
+   * zarovnat dolava a dat tomu charakter sekundarneho CTA.
+   */
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .ps-pdp-row-shipping-options th,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .ps-pdp-row-shipping-options td {
+
+    width: 100% !important;
+
+    padding-top: 6px !important;
+    padding-bottom: 9px !important;
+
+    text-align: left !important;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .ps-pdp-row-shipping-options a {
+
+    color: #263240 !important;
+
+    font-size: 12.5px !important;
+    font-weight: 600 !important;
+
+    text-decoration: none !important;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .ps-pdp-row-shipping-options a::after {
+
+    content: " →";
+
+    color: #24b47e;
+
+    font-weight: 700;
+  }
+
+
+  /*
+   * Produktovy kod:
+   * ponechat dostupny, ale vizualne ho potlacit.
+   */
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .ps-pdp-row-code td,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .ps-pdp-row-code td a {
+
+    color: #697586 !important;
+
+    font-size: 11.5px !important;
+    font-weight: 500 !important;
+
+    line-height: 1.25 !important;
+
+    text-decoration: none !important;
+
+    word-break: normal !important;
+    overflow-wrap: anywhere !important;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .ps-pdp-row-code th {
+
+    color: #697586 !important;
+
+    font-size: 12px !important;
+  }
+
+
+  /* -------------------------------------------------------
+     PRICE + QUANTITY + CART
+     ------------------------------------------------------- */
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .p-to-cart-block {
+
+    gap: 8px !important;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .p-to-cart-block .quantity {
+
+    flex: 0 0 92px !important;
+
+    width: 92px !important;
+
+    height: 50px !important;
+
+    border-radius: 11px !important;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .quantity input {
+
+    height: 48px !important;
+
+    font-size: 14px !important;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .quantity .increase,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .quantity .decrease {
+
+    width: 29px !important;
+    height: 48px !important;
+
+    font-size: 17px !important;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .p-to-cart-block .btn-cart,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .p-to-cart-block .btn-conversion,
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  [data-testid="buttonAddToCart"],
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .add-to-cart-button {
+
+    min-height: 50px !important;
+
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+    border-radius: 11px !important;
+
+    font-size: 16px !important;
+  }
+
+}
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 360px) {
+
+  body.type-detail.ps-pdp-v1
+  .ps-mobile-benefits {
+
+    grid-template-columns: 1fr;
+  }
+
+
+  body.type-detail.ps-pdp-v1
+  #product-detail-form
+  .p-to-cart-block .quantity {
+
+    flex-basis: 86px !important;
+
+    width: 86px !important;
+  }
+
+}
+

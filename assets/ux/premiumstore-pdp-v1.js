@@ -440,6 +440,159 @@
   }
 
 
+
+  /* PDP V1.3 MOBILE ENHANCEMENTS */
+
+
+  function classifyDetailRows() {
+
+    var form =
+      getProductForm();
+
+    if (!form) {
+      return;
+    }
+
+
+    var table =
+      form.querySelector(
+        '.detail-parameters'
+      );
+
+
+    if (!table) {
+      return;
+    }
+
+
+    var rows =
+      table.querySelectorAll('tr');
+
+
+    for (
+      var i = 0;
+      i < rows.length;
+      i++
+    ) {
+
+      var row =
+        rows[i];
+
+
+      var text =
+        clean(
+          row.textContent
+        ).toLowerCase();
+
+
+      if (
+        text.indexOf(
+          'možnosti doručenia'
+        ) !== -1 ||
+        text.indexOf(
+          'moznosti dorucenia'
+        ) !== -1
+      ) {
+
+        row.classList.add(
+          'ps-pdp-row-shipping-options'
+        );
+
+      }
+
+
+      if (
+        text.indexOf('kód') === 0 ||
+        text.indexOf('kod') === 0
+      ) {
+
+        row.classList.add(
+          'ps-pdp-row-code'
+        );
+
+      }
+
+    }
+
+  }
+
+
+  function ensureMobileBenefits() {
+
+    if (
+      document.querySelector(
+        '.ps-mobile-benefits'
+      )
+    ) {
+      return;
+    }
+
+
+    var form =
+      getProductForm();
+
+
+    if (!form) {
+      return;
+    }
+
+
+    var benefits =
+      document.createElement('div');
+
+
+    benefits.className =
+      'ps-mobile-benefits';
+
+
+    benefits.setAttribute(
+      'aria-label',
+      'Výhody nákupu'
+    );
+
+
+    benefits.innerHTML =
+      '<div class="ps-mobile-benefit">' +
+        '<span class="ps-mobile-benefit-icon">✓</span>' +
+        '<span class="ps-mobile-benefit-content">' +
+          '<strong class="ps-mobile-benefit-title">Rýchle doručenie</strong>' +
+          '<span class="ps-mobile-benefit-text">viac ako 3000 výdajných miest</span>' +
+        '</span>' +
+      '</div>' +
+
+      '<div class="ps-mobile-benefit">' +
+        '<span class="ps-mobile-benefit-icon">✓</span>' +
+        '<span class="ps-mobile-benefit-content">' +
+          '<strong class="ps-mobile-benefit-title">Bezpečné doručenie</strong>' +
+          '<span class="ps-mobile-benefit-text">garancia nepoškodeného tovaru</span>' +
+        '</span>' +
+      '</div>' +
+
+      '<div class="ps-mobile-benefit">' +
+        '<span class="ps-mobile-benefit-icon">✓</span>' +
+        '<span class="ps-mobile-benefit-content">' +
+          '<strong class="ps-mobile-benefit-title">Bezproblémové vrátenie</strong>' +
+          '<span class="ps-mobile-benefit-text">tovaru do 14 dní</span>' +
+        '</span>' +
+      '</div>' +
+
+      '<div class="ps-mobile-benefit">' +
+        '<span class="ps-mobile-benefit-icon">✓</span>' +
+        '<span class="ps-mobile-benefit-content">' +
+          '<strong class="ps-mobile-benefit-title">Doručenie do 2 dní</strong>' +
+          '<span class="ps-mobile-benefit-text">na výdajné miesta alebo kuriérom</span>' +
+        '</span>' +
+      '</div>';
+
+
+    form.insertAdjacentElement(
+      'afterend',
+      benefits
+    );
+
+  }
+
+
   function enhanceProductDetail() {
 
     if (!isRealProductDetail()) {
@@ -453,6 +606,10 @@
 
 
     enhanceBrand();
+
+    classifyDetailRows();
+
+    ensureMobileBenefits();
   }
 
 
