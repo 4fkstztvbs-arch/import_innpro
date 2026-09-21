@@ -90,6 +90,10 @@ function inspectXml(buf) {
     topTags: topEntries(counts),
     // Structural paths only; never field values. Useful for safely adapting aggregate parsers.
     topPaths: topEntries(paths, 40).map(({ tag, count }) => ({ path: tag, count })),
+    relevantPaths: [...paths.entries()]
+      .filter(([path]) => /\/(DATE|STATUS|TOTAL_PRICE|WITH_VAT|WITHOUT_VAT|ITEMS|ITEM|AMOUNT)$/.test(path))
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([path, count]) => ({ path, count })),
   };
 }
 
