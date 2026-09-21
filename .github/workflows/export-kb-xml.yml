@@ -1,10 +1,12 @@
-name: Export K-B XML artifact
+name: Export K-B localization test XML
 
 on:
   push:
     branches: [main]
     paths:
       - '.github/workflows/export-kb-xml.yml'
+      - 'scripts/export-kb-manual-localization-test.js'
+  workflow_dispatch: {}
 
 permissions:
   contents: read
@@ -14,12 +16,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Verify K-B XML exists
         run: test -s output/kb.xml
-      - name: Upload exact K-B XML
+
+      - name: Build safe manual-import test feed
+        run: |
+          node scripts/export-kb-manual-localization-test.js \
+            --in=output/kb.xml \
+            --out=/tmp/premiumstore-kb-localization-test.xml \
+            --prefix=KB_
+
+      - name: Verify manual-import codes
+        run: |
+          test "$(grep -c '<SHOPITEM' /tmp/premiumstore-kb-localization-test.xml)" = "3"
+          test "$(grep -c '<CODE>KB_' /tmp/premiumstore-kb-localization-test.xml)" = "3"
+          ! grep -Eq '<CODE>[0-9]' /tmp/premiumstore-kb-localization-test.xml
+
+      - name: Upload safe K-B localization test XML
         uses: actions/upload-artifact@v4
         with:
-          name: kb-localized-xml
-          path: output/kb.xml
+          name: kb-localization-test-manual-import
+          path: /tmp/premiumstore-kb-localization-test.xml
           if-no-files-found: error
           retention-days: 1
