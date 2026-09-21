@@ -58,3 +58,22 @@ The agent must:
 - never use order/customer PII for public test fixtures
 
 For import work, repository supplier feeds and transformation logic explain how data is generated; live PremiumStore exports show what is currently present in the shop. When they disagree, diagnose the pipeline before changing anything.
+
+
+## Measurement authority
+
+For business totals, use the PremiumStore orders export as the primary operational source of truth for order creation, current order status and order-level gross value. Treat cancelled orders according to their current export status; do not infer cancellation from GA4.
+
+Use GA4 primarily for behavioural analysis, funnel analysis, device/channel/source attribution and experiment measurement. Do not treat GA4 purchase counts or purchase revenue as authoritative business totals until tracking coverage has been reconciled against the orders export.
+
+A September 2026 reconciliation found material GA4 under-coverage versus the operational orders export. Therefore:
+- weekly/monthly business totals must come from the operational order source when available
+- GA4 purchase/revenue trends must be labelled as analytics-tracking metrics
+- differences between GA4 and operational orders are a tracking-quality signal to investigate, not revenue to silently discard
+- never "correct" GA4 by multiplying it with a fixed factor; coverage can change over time
+
+## Public-log privacy
+
+Order/customer data is private operational data. Exact daily order/revenue aggregates derived from the authenticated orders export must not be printed to public GitHub Actions logs or committed to this public repository.
+
+Export health workflows may expose only non-sensitive health/schema results (for example HTTP success, parse success, required-field presence). Detailed business aggregates belong in approved private reporting surfaces such as the private Slack/Drive reporting workspace.

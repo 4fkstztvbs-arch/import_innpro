@@ -1,0 +1,33 @@
+name: PremiumStore export health check
+
+on:
+  schedule:
+    # 06:00 UTC / 08:00 CEST — read-only health check after the nightly import batch.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    # Secrets must never be exposed to a workflow version from an agent/test branch.
+    # Scheduled runs use the default branch; manual runs on any other ref are skipped.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      PREMIUMSTORE_ORDERS_EXPORT_URL: ${{ secrets.PREMIUMSTORE_ORDERS_EXPORT_URL }}
+      PREMIUMSTORE_PRODUCTS_EXPORT_URL: ${{ secrets.PREMIUMSTORE_PRODUCTS_EXPORT_URL }}
+      PREMIUMSTORE_CATEGORIES_EXPORT_URL: ${{ secrets.PREMIUMSTORE_CATEGORIES_EXPORT_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install locked dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Validate authenticated exports
+        run: node scripts/agent-validate-premiumstore-exports.js
