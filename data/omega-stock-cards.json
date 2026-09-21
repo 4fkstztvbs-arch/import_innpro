@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600326,
+    "nextCardNumber": 202600333,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -1952,6 +1952,48 @@
         "nazov": "Aligator Watch Junior 2 Black",
         "dodavatel": "kb",
         "code": ""
+      },
+      "5453002616802": {
+        "kod": "202600326",
+        "nazov": "Sat LNB Twin INVERTO Premium IDLP-TWL413 / 0,2 dB / s filtrem 4G LTE",
+        "dodavatel": "atos",
+        "code": "IST-LNBINTWPMU11"
+      },
+      "8592920154571": {
+        "kod": "202600327",
+        "nazov": "Mont.mat. příchytka kabelová 6 mm, bílá, balení 50 ks / EMOS A2822",
+        "dodavatel": "atos",
+        "code": "EMO3115282200"
+      },
+      "8592920154595": {
+        "kod": "202600328",
+        "nazov": "Mont.mat. příchytka kabelová 8 mm, bílá, balení 50 ks / EMOS A2824",
+        "dodavatel": "atos",
+        "code": "EMO3115282400"
+      },
+      "3333333333333": {
+        "kod": "202600329",
+        "nazov": "DVBT2 DI-WAY MINI 2020 V2 (USB, HDMI, SCART, externí displej)",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "3800501858622": {
+        "kod": "202600330",
+        "nazov": "Enhance S3XY Strip světelný pruh pro Tesla 3/Y 2021-2024",
+        "dodavatel": "atos",
+        "code": "EL-TES-STRIP-3/Y-24"
+      },
+      "9120072379208": {
+        "kod": "202600331",
+        "nazov": "MMC Strong LEAP-S3+ V2 Google TV (4K, USB 2.0, 2GB RAM, 16GB FLASH)",
+        "dodavatel": "atos",
+        "code": "SRTLEAPS3PLUSV2"
+      },
+      "5901890065054": {
+        "kod": "202600332",
+        "nazov": "Multimetr UNI-T UT161D | MIE0433",
+        "dodavatel": "atos",
+        "code": "TIP-07720280"
       }
     }
   },
