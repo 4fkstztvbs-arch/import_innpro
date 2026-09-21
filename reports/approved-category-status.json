@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27159,
-  "matchedRules": 2701,
-  "changedProducts": 1277,
+  "totalProducts": 27151,
+  "matchedRules": 2697,
+  "changedProducts": 484,
   "rejected": [
     {
       "supplier": "innpro",
@@ -211,13 +211,13 @@
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické konektory",
-      "visibleUnique": 14,
+      "visibleUnique": 13,
       "active": true,
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické káble",
-      "visibleUnique": 54,
+      "visibleUnique": 51,
       "active": true,
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
