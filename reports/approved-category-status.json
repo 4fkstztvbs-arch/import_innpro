@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27151,
-  "matchedRules": 2697,
-  "changedProducts": 484,
+  "totalProducts": 27149,
+  "matchedRules": 2696,
+  "changedProducts": 51,
   "rejected": [
     {
       "supplier": "innpro",
@@ -169,7 +169,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
-      "visibleUnique": 75,
+      "visibleUnique": 74,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
