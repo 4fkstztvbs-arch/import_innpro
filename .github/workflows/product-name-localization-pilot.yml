@@ -7,6 +7,7 @@ on:
     paths:
       - 'data/localization/**'
       - 'scripts/localize-product-names.js'
+      - 'scripts/list-localization-candidates.js'
       - 'scripts/validate-product-name-localization.js'
       - 'scripts/parse-supplier-invoice.js'
       - 'scripts/tests/product-name-localization.test.js'
@@ -37,3 +38,9 @@ jobs:
         run: |
           node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=/tmp/atos-localized.xml --expected=20
           node scripts/validate-product-name-localization.js --supplier=atos --before=output/atos.xml --after=/tmp/atos-localized.xml --expected=20
+      - name: Candidate sample from current feeds
+        run: |
+          echo '=== K-B CANDIDATES ==='
+          node scripts/list-localization-candidates.js kb 80
+          echo '=== ATOS CANDIDATES ==='
+          node scripts/list-localization-candidates.js atos 80
