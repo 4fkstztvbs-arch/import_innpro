@@ -43,49 +43,39 @@ function main() {
   }
 
   const xml = fs.readFileSync(input, 'utf8');
-  const blocks = xml.match(/<SHOPITEM(?:\s[^>]*)?>[\s\S]*?<\/SHOPITEM>/g) || [];
-  if (!blocks.length) throw new Error('No SHOPITEM blocks found');
-
   const seen = new Set();
+  let shopitems = 0;
   let changedCodes = 0;
 
   const out = xml.replace(/<SHOPITEM(?:\s[^>]*)?>[\s\S]*?<\/SHOPITEM>/g, (block) => {
+    shopitems++;
     const code = extractCode(block);
     if (!code) throw new Error('SHOPITEM without CODE');
     const nextCode = code.startsWith(prefix) ? code : prefix + code;
     if (seen.has(nextCode)) throw new Error('Duplicate output CODE: ' + nextCode);
     seen.add(nextCode);
+
+    const changed = replaceCode(block, nextCode);
+    const restored = replaceCode(changed, code);
+    if (restored !== block) {
+      throw new Error('Safety check failed for CODE ' + code + ': non-CODE content changed');
+    }
     if (nextCode !== code) changedCodes++;
-    return replaceCode(block, nextCode);
+    return changed;
   });
 
-  const outBlocks = out.match(/<SHOPITEM(?:\s[^>]*)?>[\s\S]*?<\/SHOPITEM>/g) || [];
-  if (outBlocks.length !== blocks.length) {
-    throw new Error('SHOPITEM count changed: ' + blocks.length + ' -> ' + outBlocks.length);
-  }
+  if (!shopitems) throw new Error('No SHOPITEM blocks found');
+  const outCount = (out.match(/<SHOPITEM(?:\s[^>]*)?>/g) || []).length;
+  if (outCount !== shopitems) throw new Error('SHOPITEM count changed: ' + shopitems + ' -> ' + outCount);
 
-  for (const block of outBlocks) {
-    const code = extractCode(block);
-    if (!code.startsWith(prefix)) throw new Error('Unprefixed output CODE: ' + code);
-  }
-
-  // Strong safety check: restore each original CODE and require byte-for-byte equality.
-  let reverted = out;
-  for (const block of outBlocks) {
-    const prefixed = extractCode(block);
-    const original = prefixed.startsWith(prefix) ? prefixed.slice(prefix.length) : prefixed;
-    reverted = reverted.replace('<CODE>' + prefixed + '</CODE>', '<CODE>' + original + '</CODE>');
-    reverted = reverted.replace('<CODE><![CDATA[' + prefixed + ']]></CODE>', '<CODE><![CDATA[' + original + ']]></CODE>');
-  }
-
-  if (reverted !== xml) {
-    throw new Error('Safety check failed: something other than CODE prefix changed');
-  }
+  const badCode = out.match(/<CODE>(?!KB_)[^<]*<\/CODE>/);
+  const badCdataCode = out.match(/<CODE><!\[CDATA\[(?!KB_)[\s\S]*?\]\]><\/CODE>/);
+  if (badCode || badCdataCode) throw new Error('Unprefixed CODE remains in output');
 
   fs.writeFileSync(output, out, 'utf8');
   console.log(JSON.stringify({
     ok: true,
-    shopitems: blocks.length,
+    shopitems,
     changedCodes,
     prefix,
     inputBytes: Buffer.byteLength(xml),
