@@ -1,0 +1,25 @@
+name: Export K-B XML artifact
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/export-kb-xml.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify K-B XML exists
+        run: test -s output/kb.xml
+      - name: Upload exact K-B XML
+        uses: actions/upload-artifact@v4
+        with:
+          name: kb-localized-xml
+          path: output/kb.xml
+          if-no-files-found: error
+          retention-days: 1
