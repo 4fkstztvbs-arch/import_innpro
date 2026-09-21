@@ -130,6 +130,7 @@ async function checkUrlsWithConcurrency(items, concurrency, onResult) {
 }
 
 function buildShopitemXml(p) {
+  p = require('./product-content-overrides').applyProductContent('kb', p);
   const parts = ['<SHOPITEM>'];
   parts.push(`<NAME>${xmlCdata(p.name)}</NAME>`);
   if (p.shortDescription) parts.push(`<SHORT_DESCRIPTION>${xmlCdata(p.shortDescription)}</SHORT_DESCRIPTION>`);
