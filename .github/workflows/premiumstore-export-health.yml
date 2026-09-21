@@ -7,6 +7,7 @@ on:
       - agent/export-health-check
     paths:
       - scripts/agent-validate-premiumstore-exports.js
+      - scripts/agent-aggregate-premiumstore-orders.js
       - .github/workflows/premiumstore-export-health.yml
 
 permissions:
