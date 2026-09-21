@@ -5,6 +5,7 @@ const assert = require('node:assert/strict');
 const path = require('path');
 const { loadRegistry, localizeXml } = require('../localize-product-names');
 const { validateXml } = require('../validate-product-name-localization');
+const { buildUpdateFeed } = require('../build-product-name-update-feed');
 
 const registry = loadRegistry(path.join(__dirname, '..', '..', 'data', 'localization', 'product-names-sk.json'));
 
@@ -66,4 +67,46 @@ test('source-name drift sa neprepisuje', () => {
   assert.equal(localized.report.changedCount, 0);
   assert.equal(localized.report.issueCount, 1);
   assert.equal(localized.report.issues[0].reason, 'source-name-drift');
+});
+
+
+test('manualny K-B update feed pouziva live prefix a meni iba NAME', () => {
+  const codes = ['100000859847', '100000033310', '100002134534'];
+  const entries = codes.map((code) => registry.products.find((p) =>
+    p.supplier === 'kb' && p.code === code && p.status === 'pilot_approved'
+  ));
+  assert.ok(entries.every(Boolean));
+
+  const source = fixtureFor(entries);
+  const result = buildUpdateFeed(source, {
+    supplier: 'kb',
+    prefix: 'KB_',
+    registry,
+    codes,
+  });
+
+  assert.equal(result.report.generatedCount, 3);
+  for (const code of codes) {
+    assert.match(result.xml, new RegExp('<CODE>KB_' + code + '<\\/CODE>'));
+  }
+  assert.doesNotMatch(result.xml, /<PRICE(?:_VAT)?>/);
+  assert.doesNotMatch(result.xml, /<ORIG_URL>/);
+  assert.doesNotMatch(result.xml, /<EAN>/);
+  assert.doesNotMatch(result.xml, /<CATEGORIES>/);
+  assert.doesNotMatch(result.xml, /<DESCRIPTION>/);
+  assert.equal((result.xml.match(/<SHOPITEM>/g) || []).length, 3);
+});
+
+test('manualny update feed odmietne neocakavany source-name drift', () => {
+  const entry = registry.products.find((p) =>
+    p.supplier === 'kb' && p.code === '100000859847' && p.status === 'pilot_approved'
+  );
+  const source = fixtureFor([{ ...entry, sourceName: entry.sourceName + ' CHANGED' }]);
+
+  assert.throws(() => buildUpdateFeed(source, {
+    supplier: 'kb',
+    prefix: 'KB_',
+    registry,
+    codes: [entry.code],
+  }), /Refusing to build update feed/);
 });
