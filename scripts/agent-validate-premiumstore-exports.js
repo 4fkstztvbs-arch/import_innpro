@@ -1,6 +1,7 @@
 'use strict';
 
 const sax = require('sax');
+const { parse: parseCsv } = require('csv-parse/sync');
 
 const sources = [
   ['products', 'PREMIUMSTORE_PRODUCTS_EXPORT_URL', 'xml'],
@@ -45,6 +46,8 @@ async function fetchSafe(label, envName) {
 
 function inspectXml(buf) {
   const counts = new Map();
+  const paths = new Map();
+  const stack = [];
   let root = null;
   let parseError = null;
 
@@ -52,7 +55,11 @@ function inspectXml(buf) {
   parser.onopentag = (node) => {
     if (!root) root = node.name;
     counts.set(node.name, (counts.get(node.name) || 0) + 1);
+    stack.push(node.name);
+    const path = stack.join('/');
+    paths.set(path, (paths.get(path) || 0) + 1);
   };
+  parser.onclosetag = () => { stack.pop(); };
   parser.onerror = (err) => {
     parseError = err.message;
     parser.resume();
@@ -76,54 +83,33 @@ function inspectXml(buf) {
     if (counts.has(tag)) fieldPresence[tag] = counts.get(tag);
   }
 
-  return { root, records, fieldPresence, topTags: topEntries(counts) };
-}
-
-function parseCsvLine(line, delimiter) {
-  const out = [];
-  let current = '';
-  let quoted = false;
-  for (let i = 0; i < line.length; i += 1) {
-    const char = line[i];
-    if (char === '"') {
-      if (quoted && line[i + 1] === '"') {
-        current += '"';
-        i += 1;
-      } else {
-        quoted = !quoted;
-      }
-    } else if (char === delimiter && !quoted) {
-      out.push(current);
-      current = '';
-    } else {
-      current += char;
-    }
-  }
-  out.push(current);
-  return out;
+  return {
+    root,
+    records,
+    fieldPresence,
+    topTags: topEntries(counts),
+    // Structural paths only; never field values. Useful for safely adapting aggregate parsers.
+    topPaths: topEntries(paths, 40).map(({ tag, count }) => ({ path: tag, count })),
+  };
 }
 
 function inspectCsv(buf) {
-  const text = buf.toString('utf8').replace(/^\uFEFF/, '');
-  const lines = text.split(/\r?\n/).filter((line) => line.trim() !== '');
-  if (!lines.length) throw new Error('CSV empty');
-
-  const semicolons = (lines[0].match(/;/g) || []).length;
-  const commas = (lines[0].match(/,/g) || []).length;
-  const delimiter = semicolons >= commas ? ';' : ',';
-  const headers = parseCsvLine(lines[0], delimiter).map((value) => value.trim());
-
-  let malformedRows = 0;
-  for (const line of lines.slice(1)) {
-    if (parseCsvLine(line, delimiter).length !== headers.length) malformedRows += 1;
-  }
-
+  const text = buf.toString('utf8').replace(/^\\uFEFF/, '');
+  const records = parseCsv(text, {
+    delimiter: ';',
+    bom: true,
+    columns: true,
+    skip_empty_lines: true,
+    relax_column_count: true,
+    relax_quotes: true,
+  });
+  const headers = records.length ? Object.keys(records[0]) : [];
   return {
-    rows: Math.max(0, lines.length - 1),
+    rows: records.length,
     columns: headers.length,
     headers,
-    delimiter: delimiter === ';' ? 'semicolon' : 'comma',
-    malformedRows,
+    delimiter: 'semicolon',
+    parsed: true,
   };
 }
 
