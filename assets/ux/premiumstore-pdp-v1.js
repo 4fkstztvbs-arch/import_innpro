@@ -593,6 +593,102 @@
   }
 
 
+
+  /* PDP V1.4 MOBILE PARENT LINK */
+
+
+  function ensureMobileParentLink() {
+
+    if (
+      document.querySelector(
+        '.ps-mobile-parent-link'
+      )
+    ) {
+      return;
+    }
+
+
+    var breadcrumb =
+      document.querySelector(
+        '.breadcrumbs.navigation-home-icon-wrapper'
+      );
+
+
+    if (!breadcrumb) {
+      return;
+    }
+
+
+    /*
+     * Posledny klikatelny breadcrumb pred produktom
+     * je jeho bezprostredna nadradena kategoria.
+     */
+
+    var links =
+      breadcrumb.querySelectorAll(
+        'a[href]'
+      );
+
+
+    if (!links.length) {
+      return;
+    }
+
+
+    var parentLink =
+      links[links.length - 1];
+
+
+    var label =
+      clean(
+        parentLink.textContent
+      );
+
+
+    if (!label) {
+      return;
+    }
+
+
+    var mobileLink =
+      document.createElement('a');
+
+
+    mobileLink.className =
+      'ps-mobile-parent-link';
+
+
+    mobileLink.href =
+      parentLink.href;
+
+
+    mobileLink.setAttribute(
+      'aria-label',
+      'Späť do kategórie ' + label
+    );
+
+
+    var span =
+      document.createElement('span');
+
+
+    span.textContent =
+      label;
+
+
+    mobileLink.appendChild(
+      span
+    );
+
+
+    breadcrumb.insertAdjacentElement(
+      'afterend',
+      mobileLink
+    );
+
+  }
+
+
   function enhanceProductDetail() {
 
     if (!isRealProductDetail()) {
@@ -610,6 +706,8 @@
     classifyDetailRows();
 
     ensureMobileBenefits();
+
+    ensureMobileParentLink();
   }
 
 
