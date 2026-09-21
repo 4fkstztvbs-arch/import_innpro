@@ -1,0 +1,39 @@
+name: Product name localization pilot
+
+on:
+  push:
+    branches:
+      - pilot/sk-product-name-localization
+    paths:
+      - 'data/localization/**'
+      - 'scripts/localize-product-names.js'
+      - 'scripts/validate-product-name-localization.js'
+      - 'scripts/parse-supplier-invoice.js'
+      - 'scripts/tests/product-name-localization.test.js'
+      - 'naskladnenie.html'
+      - '.github/workflows/product-name-localization-pilot.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm install --omit=dev
+      - name: Unit tests
+        run: node --test scripts/tests/product-name-localization.test.js
+      - name: K-B real feed dry-run
+        run: |
+          node scripts/localize-product-names.js --supplier=kb --in=output/kb.xml --out=/tmp/kb-localized.xml --expected=20
+          node scripts/validate-product-name-localization.js --supplier=kb --before=output/kb.xml --after=/tmp/kb-localized.xml --expected=20
+      - name: ATOS real feed dry-run
+        run: |
+          node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=/tmp/atos-localized.xml --expected=20
+          node scripts/validate-product-name-localization.js --supplier=atos --before=output/atos.xml --after=/tmp/atos-localized.xml --expected=20
