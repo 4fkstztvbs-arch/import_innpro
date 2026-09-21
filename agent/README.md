@@ -35,8 +35,12 @@ Read all rules before acting:
 - `rules/imports.md`
 - `rules/seo.md`
 - `rules/experiments.md`
+- `rules/ux-cro-design.md`
 - `change-ledger/README.md`
 - `reports/README.md`
+
+## Friday onboarding
+The prepared Day 1 brief is in `onboarding/2026-09-25-day-1.md`. On first launch, follow it in DISCOVERY-only mode.
 
 ## Operational data sources
 The owner has provided authenticated PremiumStore exports for orders, the complete product catalogue and categories. Their endpoint families and handling rules are documented in `rules/data-sources.md`.
