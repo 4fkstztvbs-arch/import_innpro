@@ -60,6 +60,25 @@ test('a changed EAN or a duplicated code skips that one product, never the run',
   assert.deepEqual(twice.report.rejected.map(r=>r.reason),['Ambiguous reviewed product code']);
   assert.equal(twice.report.matchedRules,8);
 });
+test('an approved category survives supplier taxonomy drift and unrelated roots are preserved', () => {
+  const {config,files} = fixture();
+  // Make the reviewed decision concern only the Root branch. "Other" is an unrelated assignment
+  // that should survive even when the supplier moves the Root branch somewhere entirely new.
+  config.products[0].current=['Root > Parent'];
+  config.products[0].proposed=['Root > Parent > Child'];
+  const drifted=files[0].text.replace(
+    '<CATEGORY><![CDATA[Root > Parent]]></CATEGORY><CATEGORY><![CDATA[Root]]></CATEGORY><CATEGORY><![CDATA[Other]]></CATEGORY>',
+    '<CATEGORY><![CDATA[Root > Supplier Drift]]></CATEGORY><CATEGORY><![CDATA[Root]]></CATEGORY><CATEGORY><![CDATA[Other]]></CATEGORY>'
+  );
+  const r=processFeeds([{...files[0],text:drifted}],config);
+  assert.equal(r.report.rejected.length,0);
+  assert.equal(r.report.categoryDrifts.length,1);
+  assert.equal(r.report.categoryDrifts[0].code,'c0');
+  assert.equal(r.report.matchedRules,8);
+  const first=r.files[0].text.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/)[0];
+  assert.deepEqual(leaves(categories(first)),['Root > Parent > Child','Other']);
+  assert.ok(!first.includes('Root > Supplier Drift'));
+});
 test('retirement only removes the retired branch; parent with few direct items remains', () => {
   const {config,files}=fixture(); config.retired['Root > Retired']='Root';
   files[0].text=files[0].text.replace('</SHOP>',item('old','old','visible',['Root > Retired','Other'])+'</SHOP>');
