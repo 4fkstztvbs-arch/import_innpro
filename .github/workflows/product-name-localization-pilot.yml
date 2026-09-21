@@ -7,6 +7,7 @@ on:
     paths:
       - 'data/localization/**'
       - 'scripts/localize-product-names.js'
+      - 'scripts/build-product-name-update-feed.js'
       - 'scripts/list-localization-candidates.js'
       - 'scripts/validate-product-name-localization.js'
       - 'scripts/parse-supplier-invoice.js'
@@ -40,6 +41,23 @@ jobs:
         run: |
           node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=/tmp/atos-localized.xml --expected=50
           node scripts/validate-product-name-localization.js --supplier=atos --before=output/atos.xml --after=/tmp/atos-localized.xml --expected=50
+      - name: Build fail-closed K-B manual 3-product update feed
+        run: |
+          node scripts/build-product-name-update-feed.js \
+            --supplier=kb \
+            --prefix=KB_ \
+            --in=output/kb.xml \
+            --out=/tmp/premiumstore-kb-name-update-test3.xml \
+            --codes=100000859847,100000033310,100002134534
+          test "$(grep -c '<SHOPITEM>' /tmp/premiumstore-kb-name-update-test3.xml)" = "3"
+          ! grep -Eq '<PRICE(_VAT)?>|<ORIG_URL>|<EAN>|<CATEGORIES>|<DESCRIPTION>' /tmp/premiumstore-kb-name-update-test3.xml
+      - name: Upload K-B manual update feed
+        uses: actions/upload-artifact@v4
+        with:
+          name: premiumstore-kb-name-update-test3
+          path: /tmp/premiumstore-kb-name-update-test3.xml
+          if-no-files-found: error
+          retention-days: 7
       - name: Candidate sample from current feeds
         run: |
           echo '=== K-B CANDIDATES ==='
