@@ -321,18 +321,18 @@
     },
     {
       "supplier": "kb",
-      "code": "100000224396",
-      "ean": "8594161339113",
-      "sourceName": "Evolveo Ania 5R, chladicí podst. pro NTB",
-      "skName": "Evolveo Ania 5R chladiaca podložka pod notebook",
-      "status": "pilot_approved"
-    },
-    {
-      "supplier": "kb",
       "code": "700010550632",
       "ean": "4017167329208",
       "sourceName": "Continenta Dřevěný chlebník",
       "skName": "Continenta drevený chlebník",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001173055",
+      "ean": "740617309102",
+      "sourceName": "Kingston USB 3.2 (gen 1) DT Kyson 64GB",
+      "skName": "Kingston DataTraveler Kyson 64 GB USB 3.2 flash disk",
       "status": "pilot_approved"
     }
   ]
