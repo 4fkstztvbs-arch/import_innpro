@@ -18,7 +18,7 @@ function cdata(value) {
 }
 
 function replaceName(block, name) {
-  const re = /^(<SHOPITEM(?:\\s[^>]*)?>\\s*)<NAME>[\\s\\S]*?<\\/NAME>/;
+  const re = /^(<SHOPITEM(?:\s[^>]*)?>\s*)<NAME>[\s\S]*?<\/NAME>/;
   if (!re.test(block)) throw new Error('Expected product-level <NAME> directly under SHOPITEM');
   return block.replace(re, (full, prefix) => prefix + '<NAME>' + cdata(name) + '</NAME>');
 }
