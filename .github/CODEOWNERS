@@ -1,0 +1,11 @@
+# Human ownership for agent governance and production-sensitive automation.
+# CODEOWNERS only becomes an enforcement gate when repository branch/ruleset settings require code-owner review.
+
+/agent/ @4fkstztvbs-arch
+/.github/workflows/ @4fkstztvbs-arch
+/cloudflare-worker*/ @4fkstztvbs-arch
+/output/ @4fkstztvbs-arch
+/data/omega-stock-cards.json @4fkstztvbs-arch
+/scripts/heureka-pricing-policy.json @4fkstztvbs-arch
+/scripts/apply-price-targets.js @4fkstztvbs-arch
+/scripts/*mapping*.json @4fkstztvbs-arch
