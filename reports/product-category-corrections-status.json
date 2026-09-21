@@ -1,9 +1,9 @@
 {
-  "products": 27120,
-  "matched": 798,
-  "categoryChanges": 303,
-  "nameChanges": 9,
-  "descriptionChanges": 0,
+  "products": 27065,
+  "matched": 775,
+  "categoryChanges": 131,
+  "nameChanges": 0,
+  "descriptionChanges": 50,
   "skipped": [
     {
       "supplier": "atos",
@@ -972,441 +972,513 @@
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002102621",
-      "ean": "1200130010170",
+      "supplier": "innpro",
+      "code": "019498",
+      "ean": "5907489601849",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002164157",
-      "ean": "1200130024887",
+      "supplier": "innpro",
+      "code": "029090",
+      "ean": "6973734689732",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000033310",
-      "ean": "4006501816504",
+      "supplier": "innpro",
+      "code": "033419",
+      "ean": "6972086390389",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000800044",
-      "ean": "4006501833051",
+      "supplier": "innpro",
+      "code": "035753",
+      "ean": "6973734689404",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002102279",
-      "ean": "4006501815897",
+      "supplier": "innpro",
+      "code": "039677",
+      "ean": "6973734686748",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002164156",
-      "ean": "1200130024863",
+      "supplier": "innpro",
+      "code": "048201",
+      "ean": "6972971860959",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000118119",
-      "ean": "4006501814104",
+      "supplier": "innpro",
+      "code": "050684",
+      "ean": "6973734687318",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136230",
-      "ean": "4006501815170",
+      "supplier": "innpro",
+      "code": "050687",
+      "ean": "6973734683792",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001444262",
-      "ean": "6925281982125",
+      "supplier": "innpro",
+      "code": "052614",
+      "ean": "6973734681576",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001942312",
-      "ean": "4006501853592",
+      "supplier": "innpro",
+      "code": "058841",
+      "ean": "5905316149311",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136244",
-      "ean": "4006501831071",
+      "supplier": "innpro",
+      "code": "059286",
+      "ean": "6976233670256",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001124218",
-      "ean": "6925281979392",
+      "supplier": "innpro",
+      "code": "063488",
+      "ean": "5906168432392",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002203081",
-      "ean": "1200130036194",
+      "supplier": "innpro",
+      "code": "063489",
+      "ean": "5906168432408",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000800045",
-      "ean": "4006501833068",
+      "supplier": "innpro",
+      "code": "061537",
+      "ean": "6976233672816",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002172120",
-      "ean": "1200130024221",
+      "supplier": "innpro",
+      "code": "063866",
+      "ean": "5906168432293",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136368",
-      "ean": "1200130019623",
+      "supplier": "innpro",
+      "code": "068840",
+      "ean": "6976233678931",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002141237",
-      "ean": "6925281953637",
+      "supplier": "innpro",
+      "code": "071368",
+      "ean": "6955578044649",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000980758",
-      "ean": "4023103140592",
+      "supplier": "innpro",
+      "code": "072604",
+      "ean": "6974944463419",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136373",
-      "ean": "1200130019272",
+      "supplier": "innpro",
+      "code": "077866",
+      "ean": "5907085526461",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136233",
-      "ean": "4006501815408",
+      "supplier": "innpro",
+      "code": "078067",
+      "ean": "6977328062604",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001321202",
-      "ean": "4006501856661",
+      "supplier": "innpro",
+      "code": "078068",
+      "ean": "6977328063687",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002102622",
-      "ean": "1200130010187",
+      "supplier": "innpro",
+      "code": "078070",
+      "ean": "6977728942612",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002113106",
-      "ean": "6925281953859",
+      "supplier": "innpro",
+      "code": "078071",
+      "ean": "6977728947662",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136232",
-      "ean": "4006501815392",
+      "supplier": "innpro",
+      "code": "078075",
+      "ean": "6977328062628",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000188119",
-      "ean": "4006501814548",
+      "supplier": "innpro",
+      "code": "078077",
+      "ean": "6977728944098",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001942313",
-      "ean": "4006501820082",
+      "supplier": "innpro",
+      "code": "078081",
+      "ean": "6977728944036",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002164154",
-      "ean": "1200130024870",
+      "supplier": "innpro",
+      "code": "078082",
+      "ean": "6977728941721",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136248",
-      "ean": "4006501856500",
+      "supplier": "innpro",
+      "code": "078091",
+      "ean": "6977728944050",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136237",
-      "ean": "4006501817020",
+      "supplier": "innpro",
+      "code": "078098",
+      "ean": "6977728943084",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136214",
-      "ean": "4006501815347",
+      "supplier": "innpro",
+      "code": "078088",
+      "ean": "6977728944081",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136234",
-      "ean": "4006501816207",
+      "supplier": "innpro",
+      "code": "078416",
+      "ean": "6974944464652",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136242",
-      "ean": "4006501830401",
+      "supplier": "innpro",
+      "code": "080729",
+      "ean": "5907085529264",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136239",
-      "ean": "4006501820075",
+      "supplier": "innpro",
+      "code": "080728",
+      "ean": "5907085529257",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000238119",
-      "ean": "4006501811516",
+      "supplier": "innpro",
+      "code": "081117",
+      "ean": "6923520216772",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136223",
-      "ean": "4006501727008",
+      "supplier": "innpro",
+      "code": "081118",
+      "ean": "6923520216796",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001319334",
-      "ean": "4006501852823",
+      "supplier": "innpro",
+      "code": "081119",
+      "ean": "6923520216789",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136246",
-      "ean": "4006501852779",
+      "supplier": "innpro",
+      "code": "081513",
+      "ean": "5905156100640",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136370",
-      "ean": "1200130019562",
+      "supplier": "innpro",
+      "code": "081515",
+      "ean": "5905156100718",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000476442",
-      "ean": "4044918512008",
+      "supplier": "innpro",
+      "code": "082308",
+      "ean": "5905156100947",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002202601",
-      "ean": "1200130033742",
+      "supplier": "innpro",
+      "code": "082310",
+      "ean": "5905156100961",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000033292",
-      "ean": "4006501814081",
+      "supplier": "innpro",
+      "code": "082317",
+      "ean": "5905156101036",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136236",
-      "ean": "4006501816917",
+      "supplier": "innpro",
+      "code": "081964",
+      "ean": "6977328069955",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001959280",
-      "ean": "4006501816214",
+      "supplier": "innpro",
+      "code": "081959",
+      "ean": "6977328069931",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000128119",
-      "ean": "4006501814135",
+      "supplier": "innpro",
+      "code": "083790",
+      "ean": "6974028141868",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000208119",
-      "ean": "4006501815163",
+      "supplier": "innpro",
+      "code": "083292",
+      "ean": "6979181921784",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000248119",
-      "ean": "4006501817204",
+      "supplier": "innpro",
+      "code": "083762",
+      "ean": "6976831839680",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000033297",
-      "ean": "4006501814098",
+      "supplier": "innpro",
+      "code": "088694",
+      "ean": "5905156105638",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000018119",
-      "ean": "4006501815705",
+      "supplier": "innpro",
+      "code": "088695",
+      "ean": "5905156105645",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002065154",
-      "ean": "6925281998768",
+      "supplier": "innpro",
+      "code": "088696",
+      "ean": "5905156105652",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136359",
-      "ean": "1200130018596",
+      "supplier": "innpro",
+      "code": "088155",
+      "ean": "6977328065544",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000218119",
-      "ean": "4006501831002",
+      "supplier": "innpro",
+      "code": "088156",
+      "ean": "6977328065551",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001188813",
-      "ean": "6925281977480",
+      "supplier": "innpro",
+      "code": "088161",
+      "ean": "6977328060952",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136245",
-      "ean": "4006501852762",
+      "supplier": "innpro",
+      "code": "086996",
+      "ean": "6977728943107",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136240",
-      "ean": "4006501821003",
+      "supplier": "innpro",
+      "code": "086999",
+      "ean": "6977728947525",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136372",
-      "ean": "1200130019586",
+      "supplier": "innpro",
+      "code": "087006",
+      "ean": "6977728947242",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136228",
-      "ean": "4006501814708",
+      "supplier": "innpro",
+      "code": "087007",
+      "ean": "6977728945460",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001959281",
-      "ean": "4006501816900",
+      "supplier": "innpro",
+      "code": "087008",
+      "ean": "6977728942841",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002102627",
-      "ean": "1200130010217",
+      "supplier": "innpro",
+      "code": "087009",
+      "ean": "6978794730998",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136241",
-      "ean": "4006501825001",
+      "supplier": "innpro",
+      "code": "087015",
+      "ean": "6978794731308",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001930624",
-      "ean": "6925281993015",
+      "supplier": "innpro",
+      "code": "087016",
+      "ean": "6978794731315",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136235",
-      "ean": "4006501816351",
+      "supplier": "innpro",
+      "code": "087017",
+      "ean": "6978794731377",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001124213",
-      "ean": "6925281979293",
+      "supplier": "innpro",
+      "code": "087019",
+      "ean": "6978794731469",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136360",
-      "ean": "1200130018602",
+      "supplier": "innpro",
+      "code": "087020",
+      "ean": "6977728947686",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000228119",
-      "ean": "4006501832016",
+      "supplier": "innpro",
+      "code": "087021",
+      "ean": "6977328063519",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000033320",
-      "ean": "4006501815101",
+      "supplier": "innpro",
+      "code": "087022",
+      "ean": "6977728940434",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100000461883",
-      "ean": "4006501853608",
+      "supplier": "innpro",
+      "code": "087023",
+      "ean": "6977728941554",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136243",
-      "ean": "4006501830562",
+      "supplier": "innpro",
+      "code": "087027",
+      "ean": "6978794731391",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136224",
-      "ean": "4006501727060",
+      "supplier": "innpro",
+      "code": "087245",
+      "ean": "6977728946948",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136358",
-      "ean": "1200130018589",
+      "supplier": "innpro",
+      "code": "087997",
+      "ean": "6976233679723",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000098119",
-      "ean": "4006501814357",
+      "supplier": "innpro",
+      "code": "089569",
+      "ean": "6978794733371",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100002136369",
-      "ean": "1200130019593",
+      "supplier": "innpro",
+      "code": "089576",
+      "ean": "6978794731612",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "648000038119",
-      "ean": "4006501815149",
+      "supplier": "innpro",
+      "code": "089577",
+      "ean": "6977728945835",
       "reason": "Changed name or category; needs review"
     },
     {
-      "supplier": "kb",
-      "code": "100001807390",
-      "ean": "6925281988158",
+      "supplier": "innpro",
+      "code": "089578",
+      "ean": "6977728945828",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089580",
+      "ean": "6977728945842",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089615",
+      "ean": "5905156106925",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089636",
+      "ean": "5905156106475",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089594",
+      "ean": "5905156106888",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089579",
+      "ean": "6977728948607",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089581",
+      "ean": "6977728947754",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089583",
+      "ean": "6977728944067",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089585",
+      "ean": "6977728947648",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090567",
+      "ean": "6979181923108",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090569",
+      "ean": "6979181923115",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091951",
+      "ean": "5905156110113",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088337",
+      "ean": "6977728942537",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1627,6 +1699,61 @@
       "supplier": "innpro",
       "code": "087812",
       "ean": "6976391032453"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033293",
+      "ean": "4006501725769"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002203081",
+      "ean": "1200130036194"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001942313",
+      "ean": "4006501820082"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136224",
+      "ean": "4006501727060"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136223",
+      "ean": "4006501727008"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136240",
+      "ean": "4006501821003"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002202240",
+      "ean": ""
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136221",
+      "ean": "4006501726971"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001368395",
+      "ean": "4006501725776"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002164154",
+      "ean": "1200130024870"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002202111",
+      "ean": "4006501762153"
     },
     {
       "supplier": "penta",

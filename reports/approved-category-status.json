@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27120,
-  "matchedRules": 2690,
-  "changedProducts": 1221,
+  "totalProducts": 27065,
+  "matchedRules": 2674,
+  "changedProducts": 632,
   "rejected": [
     {
       "supplier": "innpro",
@@ -139,7 +139,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
-      "visibleUnique": 62,
+      "visibleUnique": 61,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
@@ -151,7 +151,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice",
-      "visibleUnique": 28,
+      "visibleUnique": 26,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
@@ -163,19 +163,19 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Sušiaky na bielizeň",
-      "visibleUnique": 46,
+      "visibleUnique": 42,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
-      "visibleUnique": 74,
+      "visibleUnique": 75,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače",
-      "visibleUnique": 37,
+      "visibleUnique": 36,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
@@ -235,7 +235,7 @@
     },
     {
       "path": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > WiFi routery",
-      "visibleUnique": 48,
+      "visibleUnique": 47,
       "active": true,
       "parent": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
     },
@@ -283,7 +283,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
-      "visibleUnique": 45,
+      "visibleUnique": 43,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
@@ -301,7 +301,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 64,
+      "visibleUnique": 63,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -313,7 +313,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 109,
+      "visibleUnique": 108,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -409,19 +409,19 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Fény a teplovzdušné kefy",
-      "visibleUnique": 31,
+      "visibleUnique": 29,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Kulmy na vlasy",
-      "visibleUnique": 23,
+      "visibleUnique": 22,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy",
-      "visibleUnique": 24,
+      "visibleUnique": 23,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
