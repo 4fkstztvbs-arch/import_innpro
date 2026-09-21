@@ -1,5 +1,8 @@
 'use strict';
-const registry = { basys: require('../data/product-content/basys.json') };
+const registry = {
+  basys: require('../data/product-content/basys.json'),
+  kb: require('../data/product-content/kb.json'),
+};
 const fields = {description:'DESCRIPTION',shortDescription:'SHORT_DESCRIPTION',seoTitle:'SEO_TITLE',metaDescription:'META_DESCRIPTION'};
 function applyProductContent(supplier, product) {
   const override = registry[supplier]?.[product.code];
