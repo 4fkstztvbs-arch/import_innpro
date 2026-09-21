@@ -12305,10 +12305,49 @@
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE DesignMax DM8S Povrchový reproduktor, biely]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[BOSE DesignMax DM8S je dvojpásmový koaxiálny reproduktor s výkonom 125W (500W peak), frekvenčným rozsahom 52Hz – 20kHz, vyžarovaním 130°, impedanciou 8Ω (možnosť 70/100V) a maximálnym SPL 114dB.…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p style="text-align: justify;">BOSE DesignMax DM8S je dvojpásmový koaxiálny reproduktor s výkonom 125W (500W peak), frekvenčným rozsahom 52Hz – 20kHz, vyžarovaním 130°, impedanciou 8Ω (možnosť 70/100V) a maximálnym SPL 114dB. Použitie v interiéry na vertikálne a horizontálne povrchy.</p>
-<p></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/100v-rozhlasove-ozvucenie/">100 V rozhlasové ozvučenie</a>.</p>]]></DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Bose Professional DesignMax DM8S, 125 W reproduktor na povrchovú montáž, biela, koaxiálny 2-pásmový menič (staršia generácia, nahradená modelom DM8SE).]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div class="ps-product ps-product-pro" id="ps-dm8s-wht">
+<section class="ps-hero">
+<div class="ps-intro"><p class="ps-eyebrow">BOSE PROFESSIONAL DesignMax DM8S · biela</p><h2>125 W reproduktor na povrchovú montáž.<br>Koaxiálny, dvojpásmový.</h2><p>DesignMax DM8S je staršia generácia 8" koaxiálneho reproduktora na povrchovú montáž pre komerčné inštalácie (1× 8" woofer + 1× 1" kompresný driver, koaxiálny, stredovo vyžarujúci). Výrobcom je nahradený novším modelom DesignMax DM8SE, konštrukčne a akusticky je však veľmi podobný.</p></div>
+</section>
+<div class="ps-facts"><div><strong>52 – 20 000 Hz</strong><span>Frekvenčný rozsah (-10 dB)</span></div><div><strong>118 dB</strong><span>Max. SPL @ 1 m, špičkovo (AES)</span></div><div><strong>125 W</strong><span>Dlhodobý výkon (Bose extended-lifecycle)</span></div></div>
+<aside class="ps-note"><h3>Poznámka k modelu</h3><p>DM8S je staršia (dnes už výrobcom nevyrábaná) generácia tohto 8" reproduktora – aktuálnou náhradou je DesignMax DM8SE. Táto položka je posledný dostupný kus zo skladu dodávateľa, technické parametre nižšie sú z pôvodného oficiálneho technického listu Bose Professional. Aktuálna produktová fotografia nie je od výrobcu dostupná (produkt je vedený ako "discontinued").</p></aside>
+
+<section class="ps-section"><p class="ps-eyebrow">MONTÁŽ A KONŠTRUKCIA</p><h2>QuickHold U-konzola.<br>4 predvolené uhly náklonu.</h2><p>Reproduktor sa uzamyká na skrytú QuickHold U-konzolu, s 4 predvolenými uhlami náklonu (0°, 15°, 30°, 45°) pre stenu alebo strop. Mriežka je pripevnená magneticky (8 bodov) a istená bezpečnostným lankom. Euroblock konektor s prieťahom umožňuje jednoduché prepojenie viacerých reproduktorov v sérii.</p><p>Reproduktor nevyžaduje externý DSP ani EQ – pri kombinácii s podporovaným zosilňovačom/DSP Bose je možné aktivovať EQ voicing a SmartBass spracovanie.</p></section>
+<section class="ps-section"><h2>Akustika a výkon</h2><div class="ps-specs">
+<div><strong class="ps-label">Frekvenčná odozva (-3 dB)</strong><span class="ps-value">60 – 20 000 Hz</span></div>
+<div><strong class="ps-label">Frekvenčný rozsah (-10 dB)</strong><span class="ps-value">52 – 20 000 Hz</span></div>
+<div><strong class="ps-label">Nominálny uhol pokrytia (H × V)</strong><span class="ps-value">130° × 130°</span></div>
+<div><strong class="ps-label">Nominálny uhol pokrytia (1–10 kHz)</strong><span class="ps-value">115° × 115°</span></div>
+<div><strong class="ps-label">Citlivosť (SPL/1W @ 1m)</strong><span class="ps-value">90 dB</span></div>
+<div><strong class="ps-label">Max. SPL @ 1m</strong><span class="ps-value">111 dB (extended-lifecycle) / 112 dB (AES), špičkovo 117–118 dB</span></div>
+<div><strong class="ps-label">Výkonová záťaž, dlhodobá</strong><span class="ps-value">125 W (extended-lifecycle) / 150 W (AES)</span></div>
+<div><strong class="ps-label">Výkonová záťaž, špičková</strong><span class="ps-value">500 W (extended-lifecycle) / 600 W (AES)</span></div>
+<div><strong class="ps-label">Výhybka</strong><span class="ps-value">1,5 kHz, pasívna 2-pásmová</span></div>
+<div><strong class="ps-label">Odporúčaná ochrana (high-pass)</strong><span class="ps-value">48 Hz, filter 24 dB/oct</span></div>
+<div><strong class="ps-label">Ochrana proti preťaženiu</strong><span class="ps-value">Odporová sieť s automatickým resetom</span></div>
+<div><strong class="ps-label">Transformátorové odbočky</strong><span class="ps-value">70 V: 2,5/5/10/20/40/80 W, bypass · 100 V: 5/10/20/40/80 W, bypass</span></div>
+</div></section>
+<section class="ps-section"><h2>Meniče a konektory</h2><div class="ps-specs">
+<div><strong class="ps-label">Basový menič</strong><span class="ps-value">1× 8" (203 mm) woofer</span></div>
+<div><strong class="ps-label">Výškový menič</strong><span class="ps-value">1× 1" (25 mm) kompresný driver, koaxiálny, stredovo vyžarujúci</span></div>
+<div><strong class="ps-label">Nominálna impedancia</strong><span class="ps-value">8 Ω (transformátor v bypasse)</span></div>
+<div><strong class="ps-label">Konektor</strong><span class="ps-value">Euroblock 6-pin s prieťahom, na zadnej strane, 18–14 AWG</span></div>
+</div></section>
+<section class="ps-section"><h2>Fyzické parametre a montáž</h2><div class="ps-specs">
+<div><strong class="ps-label">Farba</strong><span class="ps-value">Biela (Bose Arctic White, podobná RAL 9003)</span></div>
+<div><strong class="ps-label">Rozmery (V × Š × H)</strong><span class="ps-value">395 × 249 × 253 mm</span></div>
+<div><strong class="ps-label">Rozmery s konzolou (V × Š × H)</strong><span class="ps-value">395 × 249 × 270 mm</span></div>
+<div><strong class="ps-label">Hmotnosť (jeden kus, s mriežkou)</strong><span class="ps-value">10,3 kg</span></div>
+<div><strong class="ps-label">Prevádzková teplota</strong><span class="ps-value">0 °C až 50 °C</span></div>
+<div><strong class="ps-label">Prostredie</strong><span class="ps-value">Len interiér</span></div>
+<div><strong class="ps-label">Certifikácie</strong><span class="ps-value">UL-1480A, S5591/UL Listed, NFPA 70, IEC 60268-5, RoHS, CE</span></div>
+</div><p class="ps-small">Zdroj: oficiálny technický dátový list Bose Professional (11/2019).</p></section>
+<section class="ps-row ps-section"><div class="ps-copy"><p class="ps-eyebrow">V BALENÍ</p><h2>Čo nájdete v balení</h2><ul class="ps-list"><li>Reproduktor DesignMax DM8S, biela mriežka</li><li>U-konzola, práškovo lakovaná oceľ</li></ul><p class="ps-small">Voliteľné príslušenstvo: pan-tilt konzola. Zosilňovač/DSP sa predáva samostatne.</p></div></section>
+<section class="ps-section"><h2>Časté otázky</h2><details open><summary>Čím sa DM8S líši od DM8SE?</summary><p>DM8SE je novšia, aktuálne vyrábaná náhrada s rovnakým 8" koaxiálnym meničom, doplnená o krytie IP55 pre exteriér. DM8S je určený len do interiéru.</p></details><details><summary>Potrebujem externý DSP alebo EQ?</summary><p>Nie, reproduktor funguje aj bez neho. V kombinácii s podporovaným zosilňovačom/DSP Bose možno aktivovať EQ voicing a SmartBass spracovanie.</p></details><details><summary>Dá sa použiť v exteriéri?</summary><p>Nie, tento model je určený výhradne do interiéru.</p></details></section>
+<section class="ps-section"><h2>Preskúmajte ponuku BOSE PROFESSIONAL</h2><div class="ps-links"><a href="https://www.premiumstore.sk/znacka/bose/">Značka BOSE ↗</a></div></section>
+<footer class="ps-footer"><h3>Potrebujete technickú konzultáciu?</h3><p>Napíšte nám na <a href="mailto:premiumstore@premiumstore.sk?subject=Ot%C3%A1zka%20k%20BOSE%20Professional%20DesignMax%20DM8S">premiumstore@premiumstore.sk</a> s parametrami vašej inštalácie.</p><p class="ps-small">Podklady: technický dátový list Bose Professional (11/2019).</p></footer>
+</div>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Bose Pro]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
@@ -12327,8 +12366,8 @@
 <PURCHASE_PRICE>585.37</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[BOSE DesignMax DM8S Povrchový reproduktor, biely | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[BOSE DesignMax DM8S Povrchový reproduktor, biely – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[BOSE DesignMax DM8S – reproduktor na povrchovú montáž, biely]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOSE Professional DesignMax DM8S (biely) – 125 W koaxiálny reproduktor na povrchovú montáž. Technické parametre a špecifikácie.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[BOSE DesignMax DM8C inštalačný reproduktor, biely]]></NAME>
