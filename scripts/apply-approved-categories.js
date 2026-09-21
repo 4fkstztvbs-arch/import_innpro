@@ -43,6 +43,16 @@ function applyRule(before, rule) {
   const rest = before.filter(c => !removed.some(d => under(c, d) || under(d, c)));
   return orderedTargets(before, [...rest, ...added]);
 }
+// If the supplier moves a reviewed product to a different category, the reviewed classification
+// remains authoritative as long as the product identity still matches. Drop supplier categories
+// from roots that were part of the approved decision, preserve genuinely unrelated roots, and
+// re-apply the approved target. This avoids both failure modes seen with MONACOR/LIVEO-420PWH:
+// aborting the whole run, or silently accepting a new upstream category after the abort was fixed.
+function applyRuleAfterDrift(before, rule) {
+  const approvedRoots = new Set([...rule.current, ...rule.proposed].map(c => c.split(SEP)[0]));
+  const rest = before.filter(c => !approvedRoots.has(c.split(SEP)[0]));
+  return orderedTargets(before, [...rest, ...rule.proposed]);
+}
 // Approved rules for one supplier code. Normally exactly one; the EAN decides only when a code
 // legitimately carries several (colour variants that a supplier ships under one code, say).
 // A rule with no recorded EAN matches whatever the feed now sends - that is the fill-in case.
@@ -78,7 +88,7 @@ function processFeeds(files, config) {
     return {...r, re: new RegExp(r.pattern, 'i'), except: new RegExp(r.exclude || '(?!)', 'i')};
   });
   const seenReviewed = new Set();
-  const report = {minimum: 8, totalProducts: 0, matchedRules: 0, changedProducts: 0, rejected: [], categories: []};
+  const report = {minimum: 8, totalProducts: 0, matchedRules: 0, changedProducts: 0, rejected: [], categoryDrifts: [], categories: []};
   for (const file of files) {
     const matches = [...file.text.matchAll(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/g)];
     if (!matches.length || !/<\/SHOP>\s*$/.test(file.text)) throw new Error('Empty or incomplete feed: ' + file.name);
@@ -114,13 +124,15 @@ function processFeeds(files, config) {
         if (!before.some(c => [...rule.current, ...rule.proposed].some(d => under(c, d) || under(d, c)))) {
           // The supplier feed has drifted its own category for this product since the rule was
           // reviewed/approved (seen with MONACOR/pulsepro.audio, whose upstream categories shift
-          // over time). Treat like a name change: skip the stale rule and fall through to the
-          // ordinary dynamic-rule/tree-enforced category instead of aborting the whole feed.
-          report.rejected.push({
+          // over time). The product identity still matches, so the approved decision remains the
+          // source of truth: replace categories from the reviewed roots with the approved target,
+          // preserve unrelated roots, and report the drift for follow-up.
+          report.categoryDrifts.push({
             supplier: file.name, code, reason: 'Reviewed product moved outside its approved scope',
             feedCategories: before, approvedCurrent: rule.current, approvedProposed: rule.proposed,
           });
-          rule = null;
+          target = applyRuleAfterDrift(before, rule);
+          report.matchedRules++;
         } else {
           target = applyRule(before, rule);
           report.matchedRules++;
@@ -220,6 +232,13 @@ function main() {
     console.log('::warning::Approved rule skipped: ' + r.supplier + '/' + r.code + ' - ' + r.reason
       + (r.approvedEan ? ' (approved ' + r.approvedEan + ', feed ' + r.feedEan + ')' : ''));
   }
+  // Category drift is different from an identity mismatch: the approved rule WAS applied, but the
+  // upstream supplier classification changed and should remain visible for audit.
+  for (const r of result.report.categoryDrifts) {
+    console.log('::warning::Supplier category drift overridden: ' + r.supplier + '/' + r.code
+      + ' - feed=' + JSON.stringify(r.feedCategories)
+      + ', approved=' + JSON.stringify(r.approvedProposed));
+  }
 }
-module.exports = {processFeeds, applyRule, orderedTargets, categories, leaves, ancestors};
+module.exports = {processFeeds, applyRule, applyRuleAfterDrift, orderedTargets, categories, leaves, ancestors};
 if (require.main === module) main();
