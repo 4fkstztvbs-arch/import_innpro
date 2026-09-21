@@ -29,6 +29,7 @@ const FEED_FILES = {
   basys: path.join(__dirname, '..', 'output', 'basys.xml'),
   solight: path.join(__dirname, '..', 'output', 'solight.xml'),
 };
+const LOCALIZATION_REGISTRY = path.join(__dirname, '..', 'data', 'localization', 'product-names-sk.json');
 
 // Riadky, ktore nie su fyzicky tovar (poplatky, doprava, dobierka...) - nenaskladnujeme ich.
 const NON_STOCK_KEYWORDS = [
@@ -279,9 +280,10 @@ function loadFeedIndex(supplier) {
   const feedPath = FEED_FILES[supplier];
   const byEan = new Map();
   const byName = new Map();
+  const byCode = new Map();
   if (!fs.existsSync(feedPath)) {
     console.warn(`  [!] feed ${feedPath} neexistuje - parovanie s Shoptet produktmi nebude mozne`);
-    return { byEan, byName };
+    return { byEan, byName, byCode };
   }
   // parseTagValue vypnuty - inak fast-xml-parser skonvertuje kody ako "029278" na cislo 29278 (strata uvodnej nuly)
   const parser = new XMLParser({ ignoreAttributes: true, textNodeName: '#text', parseTagValue: false });
@@ -294,16 +296,39 @@ function loadFeedIndex(supplier) {
     const name = typeof it.NAME === 'object' ? it.NAME['#text'] : it.NAME;
     const priceVatRaw = typeof it.PRICE_VAT === 'object' ? it.PRICE_VAT['#text'] : it.PRICE_VAT;
     const priceVat = priceVatRaw ? parseFloat(String(priceVatRaw).replace(',', '.')) : null;
-    if (ean) byEan.set(normalizeEan(ean), { code: String(code || '').trim(), name, ean: String(ean).trim(), priceVat });
-    if (name) byName.set(normalize(name), { code: String(code || '').trim(), name, ean: ean ? String(ean).trim() : '', priceVat });
+    const record = { code: String(code || '').trim(), name, ean: ean ? String(ean).trim() : '', priceVat };
+    if (record.code) byCode.set(record.code, record);
+    if (ean) byEan.set(normalizeEan(ean), record);
+    if (name) byName.set(normalize(name), record);
   }
-  return { byEan, byName };
+
+  // Po lokalizacii moze byt <NAME> v hotovom feede po slovensky, ale K+B faktura bez EAN
+  // stale nesie povodny cesky nazov dodavatela. Registry preto pridava povodny sourceName ako
+  // dalsi PRESNY alias k tomu istemu CODE/EAN. Nic sa tu neparuje fuzzy a identita produktu
+  // zostava viazana na existujucu kartu z feedu.
+  if (fs.existsSync(LOCALIZATION_REGISTRY)) {
+    try {
+      const registry = JSON.parse(fs.readFileSync(LOCALIZATION_REGISTRY, 'utf8'));
+      for (const entry of registry.products || []) {
+        if (entry.supplier !== supplier || !entry.sourceName) continue;
+        const record = byCode.get(entry.code);
+        if (!record) continue;
+        if (entry.ean && record.ean && normalizeEan(entry.ean) !== normalizeEan(record.ean)) continue;
+        const alias = normalize(entry.sourceName);
+        if (alias && !byName.has(alias)) byName.set(alias, { ...record, sourceNameAlias: true });
+      }
+    } catch (err) {
+      console.warn(`  [!] nepodarilo sa nacitat lokalizacny register: ${err.message}`);
+    }
+  }
+
+  return { byEan, byName, byCode };
 }
 
 function matchItem(item, index) {
   if (item.ean && index.byEan.has(normalizeEan(item.ean))) return { ...index.byEan.get(normalizeEan(item.ean)), matchedBy: 'EAN' };
   const byName = index.byName.get(normalize(item.name));
-  if (byName) return { ...byName, matchedBy: 'nazov' };
+  if (byName) return { ...byName, matchedBy: byName.sourceNameAlias ? 'povodny nazov dodavatela' : 'nazov' };
   return null;
 }
 

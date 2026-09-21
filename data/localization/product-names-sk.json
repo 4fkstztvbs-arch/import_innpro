@@ -1,0 +1,819 @@
+{
+  "schemaVersion": 1,
+  "status": "pilot-not-live",
+  "policy": {
+    "scope": "NAME only",
+    "urlPolicy": "never-change",
+    "allowedStatuses": [
+      "pilot_approved"
+    ],
+    "sourceNameMustMatch": true,
+    "preserveIdentifiers": [
+      "CODE",
+      "EAN"
+    ],
+    "note": "Lokalizacia sa aplikuje az po cenach, Heureke, deduplikacii, kategorizacii, enrichmentoch a SEO override. URL/ORIG_URL sa nikdy nemenia."
+  },
+  "products": [
+    {
+      "supplier": "kb",
+      "code": "341950068119",
+      "ean": "4006501510075",
+      "sourceName": "LEIFHEIT Sací hubice 17 cm",
+      "skName": "Leifheit sacia hubica 17 cm",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "491500014462",
+      "ean": "9022001909848",
+      "sourceName": "BWT náhradní filtry Mg2+ 3ks",
+      "skName": "BWT náhradné filtre Mg2+, 3 ks",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000651903",
+      "ean": "193808642487",
+      "sourceName": "HP Wireless Mouse 220 Black",
+      "skName": "HP Wireless Mouse 220 bezdrôtová myš, čierna",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000729129",
+      "ean": "193905408610",
+      "sourceName": "HP Wireless Mouse 220 Red",
+      "skName": "HP Wireless Mouse 220 bezdrôtová myš, červená",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000729289",
+      "ean": "8013240701752",
+      "sourceName": "Laica Bi-flux filtr C3M Coffee & Tea,3ks",
+      "skName": "Laica Bi-Flux C3M Coffee & Tea filtre, 3 ks",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000729323",
+      "ean": "8594183190167",
+      "sourceName": "LIMO BAR TWIN - White",
+      "skName": "LIMO BAR TWIN výrobník sódy, biely",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000287818",
+      "ean": "6959033844713",
+      "sourceName": "Philips SQM3642/00 TV držák na zeď",
+      "skName": "Philips SQM3642/00 nástenný držiak na TV",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000455883",
+      "ean": "8591680095469",
+      "sourceName": "Fixed držák ICON Air Vent, FIXIC-VENT-BK",
+      "skName": "FIXED Icon Air Vent FIXIC-VENT-BK držiak do ventilácie",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000196881",
+      "ean": "6935364080839",
+      "sourceName": "TP-LINK WiFi AC1300 (Deco M5 3-pack)",
+      "skName": "TP-Link Deco M5 AC1300 Wi-Fi Mesh systém, 3 ks",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000236691",
+      "ean": "8594172540010",
+      "sourceName": "LIMO BAR Edge - Red",
+      "skName": "LIMO BAR Edge výrobník sódy, červený",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000473691",
+      "ean": "4011833301963",
+      "sourceName": "Steba Sendvičovač 3v1 SG 55",
+      "skName": "Steba SG 55 sendvičovač 3 v 1",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000236692",
+      "ean": "8594172540027",
+      "sourceName": "LIMO BAR Edge - Grey",
+      "skName": "LIMO BAR Edge výrobník sódy, sivý",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000729253",
+      "ean": "8013240705514",
+      "sourceName": "Laica XXL Milano bílá",
+      "skName": "Laica Milano XXL filtračná kanvica, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000729322",
+      "ean": "8594183190211",
+      "sourceName": "LIMO BAR TWIN - Black",
+      "skName": "LIMO BAR TWIN výrobník sódy, čierny",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001162126",
+      "ean": "8595235802915",
+      "sourceName": "Maxxo vakuovací rolky 40x1000cm",
+      "skName": "Maxxo vákuovacie rolky 40 × 1000 cm",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000980758",
+      "ean": "4023103140592",
+      "sourceName": "Vileda Universal sušák na prádlo 18m",
+      "skName": "Vileda Universal sušiak na bielizeň 18 m",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001501379",
+      "ean": "6940056180490",
+      "sourceName": "Rapoo M300 Silent bezdrátová myš, modrá",
+      "skName": "Rapoo M300 Silent bezdrôtová myš, modrá",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000571086",
+      "ean": "6940056189684",
+      "sourceName": "Rapoo 8050T set klávesnice a myši černý",
+      "skName": "Rapoo 8050T súprava klávesnice a myši, čierna",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3146000600",
+      "ean": "8595025359063",
+      "sourceName": "Svorkovnice 12 x 10mm2 / 57A / 450V / T85",
+      "skName": "Svorkovnica 12 × 10 mm² / 57 A / 450 V / T85",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402118000",
+      "ean": "8592920096963",
+      "sourceName": "Domovní bezdrátový zvonek EMOS P5750",
+      "skName": "EMOS P5750 bezdrôtový domový zvonček",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402119000",
+      "ean": "8592920096987",
+      "sourceName": "Domovní bezdrátový zvonek EMOS P5750.2T",
+      "skName": "EMOS P5750.2T bezdrôtový domový zvonček",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402120000",
+      "ean": "8592920096949",
+      "sourceName": "Domovní bezdrátový zvonek EMOS P5750.2R",
+      "skName": "EMOS P5750.2R bezdrôtový domový zvonček",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402125000",
+      "ean": "8592920112793",
+      "sourceName": "Domovní bezdrátový zvonek EMOS P5734 do zásuvky",
+      "skName": "EMOS P5734 bezdrôtový domový zvonček do zásuvky",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402126000",
+      "ean": "8592920112809",
+      "sourceName": "Domovní bezdrátový zvonek EMOS P5734B do zásuvky",
+      "skName": "EMOS P5734B bezdrôtový domový zvonček do zásuvky",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402107000",
+      "ean": "8592920006641",
+      "sourceName": "Domovní bezdrátový zvonek EMOS 98098",
+      "skName": "EMOS 98098 bezdrôtový domový zvonček",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-12036",
+      "ean": "8591686120363",
+      "sourceName": "Cyklotaška - pouzdro na telefon 6,7\" COMPASS",
+      "skName": "COMPASS cyklotaška s puzdrom na telefón 6,7\"",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-3402127000",
+      "ean": "8592920135433",
+      "sourceName": "EMOS P5735WS GoSmart bílý domovní bezdrátový zvonek do zásuvky s WiFi",
+      "skName": "EMOS P5735WS GoSmart bezdrôtový domový zvonček do zásuvky s Wi-Fi, biely",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402121000",
+      "ean": "8592920105948",
+      "sourceName": "Bezbateriový domovní bezdrátový zvonek EMOS P5729B černý",
+      "skName": "EMOS P5729B bezbatériový bezdrôtový domový zvonček, čierny",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-3402128000",
+      "ean": "8592920135488",
+      "sourceName": "EMOS P5735SS GoSmart stříbrný domovní bezdrátový zvonek do zásuvky s WiFi",
+      "skName": "EMOS P5735SS GoSmart bezdrôtový domový zvonček do zásuvky s Wi-Fi, strieborný",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402122000",
+      "ean": "8592920105962",
+      "sourceName": "Domovní bezdrátový zvonek EMOS P5733W do zásuvky",
+      "skName": "EMOS P5733W bezdrôtový domový zvonček do zásuvky",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2305113600",
+      "ean": "8592920081976",
+      "sourceName": "Koaxiální kabel Emos 113 LSZH / 250m / 7 mm",
+      "skName": "EMOS 113 LSZH koaxiálny kábel 250 m / 7 mm",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1014",
+      "ean": "5901890113106",
+      "sourceName": "Běžecký pás REBEL ACTIVE RBA-1014",
+      "skName": "REBEL ACTIVE RBA-1014 bežecký pás",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-17-19-029",
+      "ean": "5907695557626",
+      "sourceName": "fit/  Běžecký pás HMS BE8501I",
+      "skName": "HMS BE8501I bežecký pás",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1017",
+      "ean": "5901890124652",
+      "sourceName": "Běžecký pás REBEL ACTIVE RBA-1017",
+      "skName": "REBEL ACTIVE RBA-1017 bežecký pás",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3146001040",
+      "ean": "8592920154847",
+      "sourceName": "Šroubová svorkovnice 12× 2,5–4 mm2, 450 V, bílá, EMOS A4101",
+      "skName": "EMOS A4101 skrutkovacia svorkovnica 12 × 2,5–4 mm², 450 V, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3146001100",
+      "ean": "8592920154861",
+      "sourceName": "Šroubová svorkovnice 12× 6–10 mm2, 450 V, bílá, EMOS A4103",
+      "skName": "EMOS A4103 skrutkovacia svorkovnica 12 × 6–10 mm², 450 V, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "HAD-L685",
+      "ean": "8596425170609",
+      "sourceName": "Svorka Wago 221-2411, 2x0,2-4 mm2 s páčkou, bezšroubová",
+      "skName": "Wago 221-2411 bezskrutková svorka s páčkou, 2 × 0,2–4 mm²",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMA-2773-2401",
+      "ean": "4066966321630",
+      "sourceName": "Svorka Wago 2773-2401, 2x0,2-4 mm2 PUSH WIRE, bezšroubová",
+      "skName": "Wago 2773-2401 bezskrutková svorka PUSH WIRE, 2 × 0,2–4 mm²",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "700010550632",
+      "ean": "4017167329208",
+      "sourceName": "Continenta Dřevěný chlebník",
+      "skName": "Continenta drevený chlebník",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001173055",
+      "ean": "740617309102",
+      "sourceName": "Kingston USB 3.2 (gen 1) DT Kyson 64GB",
+      "skName": "Kingston DataTraveler Kyson 64 GB USB 3.2 flash disk",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136451",
+      "ean": "1200130016486",
+      "sourceName": "JBL Tune Beam 2 bílá",
+      "skName": "JBL Tune Beam 2 TWS slúchadlá, biele",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002164501",
+      "ean": "8596426102487",
+      "sourceName": "Ali pouzdro TRANSPAR. iPhone17 PTA0177",
+      "skName": "ALI PTA0177 transparentné puzdro pre iPhone 17",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "490900127111",
+      "ean": "8594043286139",
+      "sourceName": "KOMA HFEX1 - HEPA filtr Electrolux",
+      "skName": "KOMA HFEX1 HEPA filter pre Electrolux",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002120939",
+      "ean": "4548736158955",
+      "sourceName": "Sony SRS-LS1 LinkBuds speaker, šedý",
+      "skName": "Sony SRS-LS1 LinkBuds reproduktor, sivý",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002102621",
+      "ean": "1200130010170",
+      "sourceName": "JBL Clip 5 Black",
+      "skName": "JBL Clip 5 Bluetooth reproduktor, čierny",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134526",
+      "ean": "6976466690113",
+      "sourceName": "Usmile C10 - White",
+      "skName": "Usmile C10 ústna sprcha, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000728372",
+      "ean": "193424172702",
+      "sourceName": "HP 106A Black Laser Toner, W1106A",
+      "skName": "HP 106A W1106A čierny laserový toner",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002068422",
+      "ean": "711000040728",
+      "sourceName": "PS5 DualSense Wireless Volcanic Red",
+      "skName": "PlayStation 5 DualSense bezdrôtový ovládač, Volcanic Red",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002193620",
+      "ean": "6936905901101",
+      "sourceName": "Roborock Q7 BF White",
+      "skName": "Roborock Q7 BF robotický vysávač, biely",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134450",
+      "ean": "711719590101",
+      "sourceName": "PS5 - PlayStation Pulse Elite Black",
+      "skName": "PlayStation Pulse Elite bezdrôtové slúchadlá, čierne",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000474550",
+      "ean": "9022001905017",
+      "sourceName": "BWT VIDA MEI bílá, 2,6l + 3 filtry",
+      "skName": "BWT VIDA MEI filtračná kanvica 2,6 l + 3 filtre, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002141024",
+      "ean": "4006387140786",
+      "sourceName": "Brita Style ESS 2,4l, bílá, + 2 filtry",
+      "skName": "Brita Style ESS filtračná kanvica 2,4 l + 2 filtre, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002172122",
+      "ean": "1200130024054",
+      "sourceName": "JBL Tuner 3 White Přenosné rádio",
+      "skName": "JBL Tuner 3 prenosné rádio, biele",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002200259",
+      "ean": "8591680192090",
+      "sourceName": "Fixed podložka pod držák, FIXDSC2-TR",
+      "skName": "FIXED FIXDSC2-TR podložka pod držiak",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "420180038531",
+      "ean": "8591680053285",
+      "sourceName": "FIXED držák MT, šírka 6-9cm FIXH-FIX3",
+      "skName": "FIXED FIXH-FIX3 držiak na mobil, šírka 6–9 cm",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033310",
+      "ean": "4006501816504",
+      "sourceName": "Leifheit Sušák Pegasus 180 Solid MAXX",
+      "skName": "Leifheit Pegasus 180 Solid MAXX sušiak na bielizeň",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000859847",
+      "ean": "6935364080976",
+      "sourceName": "TP-LINK RE205 AC750 WiFi Range Extender",
+      "skName": "TP-Link RE205 AC750 Wi-Fi extender",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134534",
+      "ean": "6970411759849",
+      "sourceName": "Usmile Y10 - Black",
+      "skName": "Usmile Y10 elektrická zubná kefka, čierna",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002102279",
+      "ean": "4006501815897",
+      "sourceName": "Leifheit Sušák Pegasus 180 Solid Black",
+      "skName": "Leifheit Pegasus 180 Solid sušiak na bielizeň, čierny",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136480",
+      "ean": "1200130016530",
+      "sourceName": "JBL JR470 bílá",
+      "skName": "JBL JR470 bezdrôtové slúchadlá, biele",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002193624",
+      "ean": "6936905901637",
+      "sourceName": "Roborock vysavač Q10 VF White",
+      "skName": "Roborock Q10 VF robotický vysávač, biely",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134533",
+      "ean": "6970411759719",
+      "sourceName": "Usmile Y10 - White",
+      "skName": "Usmile Y10 elektrická zubná kefka, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000190961",
+      "ean": "190781977902",
+      "sourceName": "HP 44A Black Laser Toner, CF244A",
+      "skName": "HP 44A CF244A čierny laserový toner",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134531",
+      "ean": "6976466690540",
+      "sourceName": "Usmile P10 PRO White",
+      "skName": "Usmile P10 PRO elektrická zubná kefka, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001915684",
+      "ean": "819900014075",
+      "sourceName": "Kodak Friendly Zoom FZ55 Red",
+      "skName": "Kodak Friendly Zoom FZ55 digitálny fotoaparát, červený",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000078119",
+      "ean": "4006501856067",
+      "sourceName": "LEIFHEIT Držák šroubovací k zahr. sušáku",
+      "skName": "Leifheit skrutkovací držiak k záhradnému sušiaku",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002171249",
+      "ean": "1200130024771",
+      "sourceName": "JBL Endurance Zone Blue",
+      "skName": "JBL Endurance Zone otvorené bezdrôtové slúchadlá, modré",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001943042",
+      "ean": "6925281916069",
+      "sourceName": "JBL Reflect Aero white",
+      "skName": "JBL Reflect Aero bezdrôtové slúchadlá, biele",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002200822",
+      "ean": "1200130030505",
+      "sourceName": "JBL Tune 780NC Blue",
+      "skName": "JBL Tune 780NC bezdrôtové slúchadlá, modré",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136604",
+      "ean": "1200130011658",
+      "sourceName": "JBL Live Beam 3 Blue",
+      "skName": "JBL Live Beam 3 TWS slúchadlá, modré",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO1902330500",
+      "ean": "8592920008317",
+      "sourceName": "Prodlužovací kabel s vypínačem 3 zásuvky 5m, černý",
+      "skName": "Predlžovací kábel s vypínačom, 3 zásuvky, 5 m, čierny",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO1902340500",
+      "ean": "8592920008324",
+      "sourceName": "Prodlužovací kabel s vypínačem 4 zásuvky 5m, černý",
+      "skName": "Predlžovací kábel s vypínačom, 4 zásuvky, 5 m, čierny",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "CPP-CP-PR-103",
+      "ean": "5901643197605",
+      "sourceName": "CP-PR-103 Uzamykatelná skříňka na zeď pro velké DVR / NVR přehrávače (bílá)",
+      "skName": "CP-PR-103 uzamykateľná nástenná skrinka pre veľké DVR/NVR prehrávače, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "TOC-G73542",
+      "ean": "5901477122392",
+      "sourceName": "Ochranné rukavice bílé z pletené bavlny, polomáčené v PU, velikost 9\" GEKO",
+      "skName": "GEKO ochranné rukavice z pletenej bavlny, polomáčané v PU, biele, veľkosť 9\"",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "TOC-EX9565",
+      "ean": "8595126939379",
+      "sourceName": "Páska výstražná červeno-bílá, 75mm x 100m, PE EXTOL-CRAFT",
+      "skName": "EXTOL CRAFT výstražná páska červeno-biela, 75 mm × 100 m, PE",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "TOC-EX9566",
+      "ean": "8595126960861",
+      "sourceName": "Páska výstražná červeno-bílá, 75mm x 250m, PE EXTOL-CRAFT",
+      "skName": "EXTOL CRAFT výstražná páska červeno-biela, 75 mm × 250 m, PE",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "TOC-EX9568",
+      "ean": "8595126963848",
+      "sourceName": "Páska výstražná červeno-bílá ZÁKAZ VSTUPU, 75mm x 250m, PE EXTOL-CRAFT",
+      "skName": "EXTOL CRAFT výstražná páska ZÁKAZ VSTUPU, červeno-biela, 75 mm × 250 m, PE",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402114000",
+      "ean": "8592920080429",
+      "sourceName": "Tlačítko EMOS P5729T (pro zvonek P5729, P5729B, P5731)",
+      "skName": "EMOS P5729T tlačidlo pre zvončeky P5729, P5729B a P5731",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402115000",
+      "ean": "8592920084281",
+      "sourceName": "Domovní bezdrátový zvonek EMOS P5730 - 2x zvonek / 1x tlačítko",
+      "skName": "EMOS P5730 bezdrôtový domový zvonček – 2× zvonček / 1× tlačidlo",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L822-100",
+      "ean": "8595118833937",
+      "sourceName": "Dutinka pro kabel 0,5mm2 oranžová (E0508), balení 100ks",
+      "skName": "Dutinka pre kábel 0,5 mm² oranžová E0508, balenie 100 ks",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L706-100",
+      "ean": "8595118849075",
+      "sourceName": "Dutinka pro kabel 0,75mm2 celokovová (EN7506), balení 100ks",
+      "skName": "Celokovová dutinka pre kábel 0,75 mm² EN7506, balenie 100 ks",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L709-100",
+      "ean": "8595118828636",
+      "sourceName": "Dutinka pro kabel 2,5mm2 celokovová (EN2512), balení 100ks",
+      "skName": "Celokovová dutinka pre kábel 2,5 mm² EN2512, balenie 100 ks",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L826A",
+      "ean": "8596425112753",
+      "sourceName": "Dutinka pro kabel 2,5mm2 modrá (E2512)",
+      "skName": "Dutinka pre kábel 2,5 mm² modrá E2512",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L789",
+      "ean": "8595118836945",
+      "sourceName": "Oko kabelové 10,5mm, kabel 6-10mm2 (RNB 8-10)",
+      "skName": "Káblové oko 10,5 mm pre kábel 6–10 mm², RNB 8-10",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L820",
+      "ean": "8595118849877",
+      "sourceName": "Oko kabelové 10,5mm, kabel 70-95mm2 (RNB 70-10)",
+      "skName": "Káblové oko 10,5 mm pre kábel 70–95 mm², RNB 70-10",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L768",
+      "ean": "8595118832060",
+      "sourceName": "Oko kabelové 3,7mm, kabel 0,5-1,5mm2",
+      "skName": "Káblové oko 3,7 mm pre kábel 0,5–1,5 mm²",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L770",
+      "ean": "8595118834828",
+      "sourceName": "Oko kabelové 5,3mm, kabel 0,5-1,5mm2 (RNB 1,25-5)",
+      "skName": "Káblové oko 5,3 mm pre kábel 0,5–1,5 mm², RNB 1,25-5",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L774",
+      "ean": "8595118835603",
+      "sourceName": "Oko kabelové 5,3mm, kabel 1,5-2,5mm2 (RNBS 2-5)",
+      "skName": "Káblové oko 5,3 mm pre kábel 1,5–2,5 mm², RNBS 2-5",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L779",
+      "ean": "8595118836082",
+      "sourceName": "Oko kabelové 5,3mm, kabel 2,5-4mm2 (RNBL 3,5-5)",
+      "skName": "Káblové oko 5,3 mm pre kábel 2,5–4 mm², RNBL 3,5-5",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-L795",
+      "ean": "8595118837300",
+      "sourceName": "Oko kabelové 6,5mm, kabel 16-25mm2 (RNBS 22-6)",
+      "skName": "Káblové oko 6,5 mm pre kábel 16–25 mm², RNBS 22-6",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "TOC-SX304301",
+      "ean": "8595697702143",
+      "sourceName": "Filtr samostmívací do svářecí kukly - náhradní díl SIXTOL",
+      "skName": "SIXTOL samostmievací filter do zváračskej kukly – náhradný diel",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO1525733291",
+      "ean": "8592920127889",
+      "sourceName": "LED žárovka Classic Mini Globe / E27 / 4,2 W (40 W) / 470 lm / teplá bílá",
+      "skName": "LED žiarovka Classic Mini Globe / E27 / 4,2 W (40 W) / 470 lm / teplá biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "ELE-1000996",
+      "ean": "4046931334735",
+      "sourceName": "Krytka volných modulů ELEMAN ADS-B, bílá, 225mm (12mod.)",
+      "skName": "ELEMAN ADS-B krytka voľných modulov, biela, 225 mm (12 mod.)",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-12037",
+      "ean": "8591686120370",
+      "sourceName": "Cyklotaška nad rám přední vidlice + držák na telefon/mapu 6,7\" COMPASS",
+      "skName": "COMPASS cyklotaška nad rám prednej vidlice + držiak na telefón/mapu 6,7\"",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO1531282200",
+      "ean": "8592920108147",
+      "sourceName": "LED reflektor EMOS ACCO ZS2822 nabíjecí přenosný, 20 W studená bílá",
+      "skName": "EMOS ACCO ZS2822 nabíjací prenosný LED reflektor, 20 W, studená biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2617010500",
+      "ean": "8592920006962",
+      "sourceName": "Digitální osobní váha EMOS EV105 TY6108 (180 kg, bílá)",
+      "skName": "EMOS EV105 TY6108 digitálna osobná váha, 180 kg, biela",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-09406",
+      "ean": "8591686094060",
+      "sourceName": "Klíč na olejový filtr PROFI",
+      "skName": "Kľúč na olejový filter PROFI",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-09407",
+      "ean": "8591686094077",
+      "sourceName": "Klíč na olejový filtr stavitelný",
+      "skName": "Nastaviteľný kľúč na olejový filter",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2305023000",
+      "ean": "8592920041000",
+      "sourceName": "Koaxiální kabel Emos CB115 / 100m / 6,8 mm",
+      "skName": "EMOS CB115 koaxiálny kábel 100 m / 6,8 mm",
+      "status": "pilot_approved"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-06301",
+      "ean": "8591686063011",
+      "sourceName": "Držák telefonu LUKE-X bezdrátové nabíjení 10W silver",
+      "skName": "LUKE-X držiak telefónu s bezdrôtovým nabíjaním 10 W, strieborný",
+      "status": "pilot_approved"
+    }
+  ]
+}

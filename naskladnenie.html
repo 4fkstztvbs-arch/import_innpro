@@ -221,6 +221,7 @@ import * as pdfjsLib from './vendor/pdfjs/pdf.min.mjs';
 pdfjsLib.GlobalWorkerOptions.workerSrc = './vendor/pdfjs/pdf.worker.min.mjs';
 
 const FEED_FILES = { atos: 'output/atos.xml', kb: 'output/kb.xml', innpro: 'output/innpro.xml', basys: 'output/basys.xml', solight: 'output/solight.xml' };
+const LOCALIZATION_REGISTRY_FILE = 'data/localization/product-names-sk.json';
 const SUPPLIER_LABELS = { atos: 'ATOS', kb: 'K+B', innpro: 'InnPro', basys: 'BaSys', solight: 'Solight' };
 const NON_STOCK_KEYWORDS = [
   'dobierka', 'dobírka', 'doprava', 'postovne', 'poštovné', 'recyklac', 'recyklač',
@@ -641,8 +642,9 @@ const SUPPLIER_PARSERS = { atos: parseAtos, kb: parseKb, innpro: parseInnpro, ba
 async function loadFeedIndex(supplier) {
   const byEan = new Map();
   const byName = new Map();
+  const byCode = new Map();
   const res = await fetch(FEED_FILES[supplier]);
-  if (!res.ok) return { byEan, byName };
+  if (!res.ok) return { byEan, byName, byCode };
   const xmlText = await res.text();
   const doc = new DOMParser().parseFromString(xmlText, 'application/xml');
   const shopitems = Array.from(doc.getElementsByTagName('SHOPITEM'));
@@ -652,15 +654,38 @@ async function loadFeedIndex(supplier) {
     const name = it.getElementsByTagName('NAME')[0]?.textContent?.trim() || '';
     const priceVatRaw = it.getElementsByTagName('PRICE_VAT')[0]?.textContent?.trim() || '';
     const priceVat = priceVatRaw ? parseFloat(priceVatRaw.replace(',', '.')) : null;
-    if (ean) byEan.set(normalizeEan(ean), { code, name, ean, priceVat });
-    if (name) byName.set(normalize(name), { code, name, ean, priceVat });
+    const record = { code, name, ean, priceVat };
+    if (code) byCode.set(code, record);
+    if (ean) byEan.set(normalizeEan(ean), record);
+    if (name) byName.set(normalize(name), record);
   }
-  return { byEan, byName };
+
+  // Lokalizovany feed moze mat slovensky NAME, ale dodavatelska faktura (hlavne K+B bez EAN)
+  // stale obsahuje povodny cesky nazov. Registry pridava sourceName ako presny alias k existujucej
+  // karte podla CODE/EAN, aby lokalizacia neznizila spolahlivost naskladnenia.
+  try {
+    const locRes = await fetch(LOCALIZATION_REGISTRY_FILE, { cache: 'no-store' });
+    if (locRes.ok) {
+      const registry = await locRes.json();
+      for (const entry of registry.products || []) {
+        if (entry.supplier !== supplier || !entry.sourceName) continue;
+        const record = byCode.get(entry.code);
+        if (!record) continue;
+        if (entry.ean && record.ean && normalizeEan(entry.ean) !== normalizeEan(record.ean)) continue;
+        const alias = normalize(entry.sourceName);
+        if (alias && !byName.has(alias)) byName.set(alias, { ...record, sourceNameAlias: true });
+      }
+    }
+  } catch (err) {
+    console.warn('Lokalizacny register sa nepodarilo nacitat:', err);
+  }
+
+  return { byEan, byName, byCode };
 }
 function matchItem(item, index) {
   if (item.ean && index.byEan.has(normalizeEan(item.ean))) return { ...index.byEan.get(normalizeEan(item.ean)), matchedBy: 'EAN' };
   const byName = index.byName.get(normalize(item.name));
-  if (byName) return { ...byName, matchedBy: 'názov' };
+  if (byName) return { ...byName, matchedBy: byName.sourceNameAlias ? 'pôvodný názov dodávateľa' : 'názov' };
   return null;
 }
 
