@@ -36,6 +36,7 @@ jobs:
             agent/README.md
             agent/rules/safety.md
             agent/rules/security.md
+            agent/rules/data-sources.md
             agent/rules/imports.md
             agent/rules/seo.md
             agent/rules/experiments.md
