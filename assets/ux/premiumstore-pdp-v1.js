@@ -156,10 +156,46 @@
   }
 
 
+  function getBrandFromTitle() {
+
+    var title =
+      document.querySelector(
+        '.p-data-wrapper h1, ' +
+        '.p-data-wrapper .h1, ' +
+        '.p-detail h1, ' +
+        '.p-detail .h1'
+      );
+
+
+    if (!title) {
+      return '';
+    }
+
+
+    var text =
+      clean(title.textContent);
+
+
+    /*
+     * Bezpecny fallback iba pre znacky,
+     * pre ktore mame vlastne logo.
+     * Neskor sem mozeme pridavat dalsie.
+     */
+
+    if (/^bose\b/i.test(text)) {
+      return 'Bose';
+    }
+
+
+    return '';
+  }
+
+
   function getBrandName() {
     return (
       getBrandFromShoptetDataLayer() ||
-      getBrandFromPage()
+      getBrandFromPage() ||
+      getBrandFromTitle()
     );
   }
 
