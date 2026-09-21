@@ -1,0 +1,33 @@
+name: PremiumStore export health check
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - agent/export-health-check
+    paths:
+      - scripts/agent-validate-premiumstore-exports.js
+      - .github/workflows/premiumstore-export-health.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      PREMIUMSTORE_ORDERS_EXPORT_URL: ${{ secrets.PREMIUMSTORE_ORDERS_EXPORT_URL }}
+      PREMIUMSTORE_PRODUCTS_EXPORT_URL: ${{ secrets.PREMIUMSTORE_PRODUCTS_EXPORT_URL }}
+      PREMIUMSTORE_CATEGORIES_EXPORT_URL: ${{ secrets.PREMIUMSTORE_CATEGORIES_EXPORT_URL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install locked dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Validate authenticated exports
+        run: node scripts/agent-validate-premiumstore-exports.js
