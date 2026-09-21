@@ -1,0 +1,70 @@
+name: Agent safety CI
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  safety:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install locked dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Run pricing policy tests
+        run: node --test scripts/tests/heureka-pricing.test.js
+
+      - name: Run SEO override tests
+        run: node --test scripts/test-seo-overrides.js
+
+      - name: Verify governance files
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            agent/README.md
+            agent/rules/safety.md
+            agent/rules/security.md
+            agent/rules/data-sources.md
+            agent/rules/imports.md
+            agent/rules/seo.md
+            agent/rules/experiments.md
+            agent/change-ledger/README.md
+            agent/reports/README.md
+          )
+          for f in "${required[@]}"; do
+            test -s "$f" || { echo "::error::Missing governance file: $f"; exit 1; }
+          done
+
+      - name: Reject obvious newly-added plaintext secrets
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main --depth=1
+          added="$(git diff --unified=0 origin/main...HEAD -- . ':!package-lock.json'             | sed -n 's/^+[^+]/&/p' || true)"
+          if printf '%s\n' "$added" | grep -Eiq             '(api[_-]?key|password|passwd|secret|token)[[:space:]]*[:=][[:space:]]*["'\'' ]?[A-Za-z0-9_./+=-]{16,}'; then
+            echo "::error::Possible plaintext credential added in PR. Use GitHub Secrets/environment configuration."
+            exit 1
+          fi
+          echo "No obvious newly-added plaintext credential pattern found."
+
+      - name: Flag production-sensitive paths for review
+        shell: bash
+        run: |
+          set -euo pipefail
+          changed="$(git diff --name-only origin/main...HEAD)"
+          echo "$changed"
+          if printf '%s\n' "$changed" | grep -Eq             '^(output/|\.github/workflows/|cloudflare-worker|data/omega-stock-cards\.json$|scripts/heureka-pricing-policy\.json$)'; then
+            echo "::warning::PR touches production-sensitive paths. Apply agent/rules/safety.md and require human approval where specified."
+          fi
