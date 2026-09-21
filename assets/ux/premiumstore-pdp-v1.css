@@ -789,3 +789,81 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
   }
 
 }
+
+
+/* =========================================================
+   PDP V1.1 HOTFIX
+   2026-09-21
+
+   - benefit banner je fyzicky v pravom PDP stlpci,
+     preto desktop pouziva 2x2 namiesto 4x1
+   - zabranenie lamaniu textu po jednotlivych znakoch
+   ========================================================= */
+
+body.type-detail.ps-pdp-v1 .benefitBanner {
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr)) !important;
+
+  gap: 12px !important;
+}
+
+body.type-detail.ps-pdp-v1 .benefitBanner__item {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+}
+
+body.type-detail.ps-pdp-v1 .benefitBanner__content {
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0 !important;
+}
+
+body.type-detail.ps-pdp-v1 .benefitBanner__title,
+body.type-detail.ps-pdp-v1 .benefitBanner__data {
+  width: auto !important;
+  max-width: none !important;
+
+  white-space: normal !important;
+
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  hyphens: none !important;
+}
+
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  body.type-detail.ps-pdp-v1 .benefitBanner {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr)) !important;
+  }
+
+}
+
+
+/* Mobil */
+
+@media (max-width: 767px) {
+
+  body.type-detail.ps-pdp-v1 .benefitBanner {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr)) !important;
+
+    gap: 8px !important;
+  }
+
+}
+
+
+/* Malé mobily */
+
+@media (max-width: 380px) {
+
+  body.type-detail.ps-pdp-v1 .benefitBanner {
+    grid-template-columns: 1fr !important;
+  }
+
+}

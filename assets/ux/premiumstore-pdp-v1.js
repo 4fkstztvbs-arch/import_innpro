@@ -348,6 +348,52 @@
     );
 
 
+    /*
+     * Disco nema na kazdom PDP rovnaku header strukturu.
+     * Na niektorych produktoch je viditelny H1 priamo
+     * v .p-data-wrapper, preto pridavame bezpecny fallback.
+     */
+
+    var visibleDesktopTitle =
+      document.querySelector(
+        '.p-data-wrapper h1, ' +
+        '.p-data-wrapper .h1'
+      );
+
+
+    if (
+      visibleDesktopTitle &&
+      visibleDesktopTitle.parentNode &&
+      !visibleDesktopTitle.parentNode.querySelector(
+        '.ps-brand-logo'
+      )
+    ) {
+
+      var fallbackLogo =
+        createBrandLogo(
+          brandName,
+          brandSlug
+        );
+
+
+      if (visibleDesktopTitle.nextSibling) {
+
+        visibleDesktopTitle.parentNode.insertBefore(
+          fallbackLogo,
+          visibleDesktopTitle.nextSibling
+        );
+
+      } else {
+
+        visibleDesktopTitle.parentNode.appendChild(
+          fallbackLogo
+        );
+
+      }
+
+    }
+
+
     document.body.setAttribute(
       'data-ps-brand',
       brandSlug
