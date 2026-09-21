@@ -31,3 +31,6 @@ jobs:
 
       - name: Validate authenticated exports
         run: node scripts/agent-validate-premiumstore-exports.js
+
+      - name: Aggregate orders safely
+        run: node scripts/agent-aggregate-premiumstore-orders.js
