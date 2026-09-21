@@ -18,9 +18,9 @@ function itemMap(xml) {
 }
 
 function nameNeutral(block) {
-  const matches = block.match(/<NAME>[\s\S]*?<\/NAME>/g) || [];
-  if (matches.length !== 1) throw new Error('Expected exactly one NAME tag in SHOPITEM');
-  return block.replace(/<NAME>[\s\S]*?<\/NAME>/, '<NAME>__LOCALIZATION_NAME__</NAME>');
+  const re = /^(<SHOPITEM(?:\\s[^>]*)?>\\s*)<NAME>[\\s\\S]*?<\\/NAME>/;
+  if (!re.test(block)) throw new Error('Expected product-level NAME directly under SHOPITEM');
+  return block.replace(re, (full, prefix) => prefix + '<NAME>__LOCALIZATION_NAME__</NAME>');
 }
 
 function validateXml(beforeXml, afterXml, { supplier, registry } = {}) {
