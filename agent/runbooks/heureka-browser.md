@@ -30,7 +30,9 @@ Open the current Conversion Measurement / performance area and record:
 - whether bidded / non-bidded / free splits are available
 - VAT/cost-display configuration if relevant to interpreting reports
 
-Do NOT copy the displayed API key into notes, GitHub, Slack or reports.
+Do NOT copy the displayed conversion-measurement key into notes, GitHub, Slack or reports.
+
+Do not confuse the shop/platform conversion-measurement key with a Heureka API Gateway credential. A Gateway credential is a secret integration credential and may carry write access; it must never be exposed to the agent/browser notes or created merely to make reporting convenient.
 
 If measurement is not fully implemented, document the missing state and prepare a setup plan. Do not change tracking on Day 1.
 
