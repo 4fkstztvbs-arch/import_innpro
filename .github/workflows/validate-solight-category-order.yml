@@ -18,6 +18,7 @@ jobs:
       - name: Download current Shoptet complete RNG
         run: |
           curl -fsSL https://www.shoptet.cz/export/schema/products-complete-v10.rng -o /tmp/products-complete-v10.rng
+          curl -fsSL https://www.shoptet.cz/export/schema/products-supplier-v10.rng -o /tmp/products-supplier-v10.rng
           curl -fsSL https://www.shoptet.cz/export/schema/products-datatype-v10.rng -o /tmp/products-datatype-v10.rng
       - name: Validate
         run: xmllint --noout --relaxng /tmp/products-complete-v10.rng test/solight-category-order.xml
