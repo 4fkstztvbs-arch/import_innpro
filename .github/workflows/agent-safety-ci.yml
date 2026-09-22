@@ -28,6 +28,9 @@ jobs:
       - name: Run Heureka shadow optimizer tests
         run: node --test scripts/test-heureka-shadow-core.js
 
+      - name: Check Heureka shadow optimizer syntax
+        run: node --check scripts/heureka-shadow-optimizer.js
+
       - name: Run SEO override tests
         run: node --test scripts/test-seo-overrides.js
 
