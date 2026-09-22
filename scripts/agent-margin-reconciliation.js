@@ -163,6 +163,28 @@ function parseOrders(xml) {
   return orders;
 }
 
+function inspectOrderPaths(xml) {
+  const counts = new Map();
+  const stack = [];
+  const parser = sax.parser(true, { trim: false, normalize: false, xmlns: false });
+
+  parser.onopentag = (node) => {
+    stack.push(node.name);
+    const path = stack.join('/');
+    if (/(ORDER|ITEM|PRODUCT|PURCHASE|TOTAL|CODE|AMOUNT|REFERER|STATUS|PRICE)/i.test(path)) {
+      counts.set(path, (counts.get(path) || 0) + 1);
+    }
+  };
+  parser.onclosetag = () => { stack.pop(); };
+  parser.onerror = (err) => { throw err; };
+  parser.write(xml).close();
+
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .slice(0, 60)
+    .map(([path, count]) => ({ path, count }));
+}
+
 function productItems(order) {
   let items = order?.ITEMS?.ITEM || [];
   if (!Array.isArray(items)) items = [items];
@@ -319,6 +341,9 @@ function aggregate(candidates, catalog, latestDate, days) {
     reasons.push('HIGH_MAJOR_DRIFT');
   }
 
+  const orderSchemaDiagnostic =
+    singleProductOrders === 0 ? inspectOrderPaths(ordersXml) : undefined;
+
   const summary = {
     checkedAt: new Date().toISOString(),
     mode: 'read-only',
@@ -333,6 +358,7 @@ function aggregate(candidates, catalog, latestDate, days) {
       missingOrderPurchasePrice,
     },
     windows,
+    orderSchemaDiagnostic,
     interpretation: {
       purchasePriceExactOrClose:
         'Shoptet single-product order PURCHASE_PRICE per unit versus current supplier output PURCHASE_PRICE; <= €0.02 exact, <=1% close.',
