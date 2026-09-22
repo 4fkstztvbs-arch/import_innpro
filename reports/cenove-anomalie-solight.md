@@ -12,6 +12,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | WM79 | 8592718012731 | Solight prepojovací kábel pre LED pásy, 8mm zacvakávací konektor na oboch straná | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 1.30 € | 1/8.8x | 75 |
 | WM80 | 8592718012748 | Solight prepojovací kábel pre LED pásy, 10mm zacvakávací konektor na oboch stran | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 1.30 € | 1/8.8x | 75 |
 | WM90 | 8592718031312 | Solight prepojovací konektor pevný pre COB LED pásy, balenie 1ks, sáčok | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 1.30 € | 1/8.8x | 75 |
+| WO2000-ND3 | 8592718037130 | Solight napájací kábel pre lineárne osvetlenie, dĺžka 0,3m | cena mimo 8x rozsah mediánu kategórie | 18.90 € | 2.20 € | 1/8.6x | 95 |
+| RNZN01 | 8592718033033 | Solight akumulátorové záhradné nožnice | cena mimo 8x rozsah mediánu kategórie | 5.50 € | 63.50 € | 11.5x | 13 |
 | WM63-50M-WW | 8592718047641 | Solight LED COB pásik, 50m, teplá biela, 10W/m, 1000lm/m, 8mm | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 135.50 € | 11.8x | 75 |
 | WPH-ND-009 | 8592718032579 | Solight 90° výmenná šošovka pre high bay radu 006 | cena mimo 8x rozsah mediánu kategórie | 49.90 € | 3.50 € | 1/14.3x | 11 |
 | WM63-50M-NW | 8592718047658 | Solight LED COB pásik, 50m, neutrálna biela, 10W/m, 1000lm/m, 8mm | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 135.50 € | 11.8x | 75 |
