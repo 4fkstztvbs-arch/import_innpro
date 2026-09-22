@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26753,
+  "totalProducts": 26754,
   "matchedRules": 2650,
-  "changedProducts": 227,
+  "changedProducts": 4,
   "rejected": [
     {
       "supplier": "innpro",
@@ -291,7 +291,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky",
-      "visibleUnique": 67,
+      "visibleUnique": 61,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
