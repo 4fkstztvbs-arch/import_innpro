@@ -80,6 +80,24 @@ function decideProduct(input, policy) {
   const minPaidDaysExclude = finite(ev.minDistinctPaidDaysForExclude, 7);
   const exclusionSpendMultiplier = finite(ev.excludeSpendToTargetCpaMultiplier, 2.0);
 
+  if (input.existingExcluded) {
+    const postExclusionOrders = finite(performance.postExistingExclusionOrders, 0);
+    if (postExclusionOrders > 0) {
+      reasons.push('POST_EXCLUSION_ORDER_SIGNAL_REQUIRES_REENTRY_REVIEW');
+      return {
+        state: 'WATCH', action: 'REVIEW_REENTRY', reasons,
+        recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
+        metrics, confidence: 'LOW'
+      };
+    }
+    reasons.push('EXISTING_EXCLUSION_WITHOUT_REENTRY_EVIDENCE');
+    return {
+      state: 'EXCLUDE', action: 'KEEP_EXCLUDED', reasons,
+      recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
+      metrics, confidence: 'MEDIUM'
+    };
+  }
+
   if (
     paidOrders >= minPaidOrdersBid &&
     paidVisits >= minPaidVisitsBid &&
@@ -125,24 +143,6 @@ function decideProduct(input, policy) {
       state: 'EXCLUDE', action: input.existingExcluded ? 'KEEP_EXCLUDED' : 'EXCLUDE_FROM_HEUREKA', reasons,
       recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
       metrics, confidence: 'HIGH'
-    };
-  }
-
-  if (input.existingExcluded) {
-    const postExclusionOrders = finite(performance.postExistingExclusionOrders, 0);
-    if (postExclusionOrders > 0) {
-      reasons.push('POST_EXCLUSION_ORDER_SIGNAL_REQUIRES_REENTRY_REVIEW');
-      return {
-        state: 'WATCH', action: 'REVIEW_REENTRY', reasons,
-        recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
-        metrics, confidence: 'LOW'
-      };
-    }
-    reasons.push('EXISTING_EXCLUSION_WITHOUT_REENTRY_EVIDENCE');
-    return {
-      state: 'EXCLUDE', action: 'KEEP_EXCLUDED', reasons,
-      recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
-      metrics, confidence: 'MEDIUM'
     };
   }
 
