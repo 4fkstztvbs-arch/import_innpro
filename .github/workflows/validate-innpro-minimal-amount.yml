@@ -54,16 +54,17 @@ jobs:
       - name: Install XML validator
         run: sudo apt-get update && sudo apt-get install -y libxml2-utils
 
-      - name: Download current Shoptet supplier schemas
+      - name: Download current Shoptet schemas
         run: |
+          curl -fsSL https://www.shoptet.cz/export/schema/products-complete-v10.rng -o /tmp/products-complete-v10.rng
           curl -fsSL https://www.shoptet.cz/export/schema/products-supplier-v10.rng -o /tmp/products-supplier-v10.rng
           curl -fsSL https://www.shoptet.cz/export/schema/products-datatype-v10.rng -o /tmp/products-datatype-v10.rng
 
-      - name: Validate small test feed against Shoptet RNG
-        run: xmllint --noout --relaxng /tmp/products-supplier-v10.rng test/innpro-minimal-amount.xml
+      - name: Validate small test feed against Shoptet complete RNG
+        run: xmllint --noout --relaxng /tmp/products-complete-v10.rng test/innpro-minimal-amount.xml
 
-      - name: Validate generated full feed against Shoptet RNG
-        run: xmllint --noout --relaxng /tmp/products-supplier-v10.rng output/innpro.xml
+      - name: Validate generated full feed against Shoptet complete RNG
+        run: xmllint --noout --relaxng /tmp/products-complete-v10.rng output/innpro.xml
 
       - name: Verify generated minimum-order values
         run: |
