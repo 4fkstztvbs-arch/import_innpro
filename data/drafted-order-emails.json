@@ -719,5 +719,47 @@
     "subject": "Informácia o budúcom doručení zásielky",
     "orderCode": null,
     "matchedBy": "none"
+  },
+  "<A11ECDF6-75AD-4779-BD6A-BBE8C3D6580D@gmail.com>": {
+    "draftedAt": "2026-09-22T18:07:56.922Z",
+    "from": "lukas.valo@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202601021 sa práve vybavuje",
+    "orderCode": "202601021",
+    "matchedBy": "code"
+  },
+  "<CABNe_6imKanY8T7=U1S3tbqMMekr67e7NDSG5hQ9y3tbJEJuww@mail.gmail.com>": {
+    "draftedAt": "2026-09-22T18:08:03.736Z",
+    "from": "bertamarian@gmail.com",
+    "subject": "",
+    "orderCode": "202600954",
+    "matchedBy": "code"
+  },
+  "<010e01dd4a9f$a25f6840$e71e38c0$@atoselektro.cz>": {
+    "draftedAt": "2026-09-22T18:08:11.222Z",
+    "from": "servis@atoselektro.cz",
+    "subject": "RE: Reklamácia",
+    "orderCode": null,
+    "matchedBy": "none"
+  },
+  "<20260922164205.EDF18BAD@centrum.sk>": {
+    "draftedAt": "2026-09-22T18:08:20.028Z",
+    "from": "skuk@centrum.sk",
+    "subject": "Re: Vaša objednávka č. 202600975 sa práve vybavuje",
+    "orderCode": "202600975",
+    "matchedBy": "code"
+  },
+  "<6FA8B57D-2401-4F68-8B90-2ED29A33040A@icloud.com>": {
+    "draftedAt": "2026-09-22T18:08:31.899Z",
+    "from": "congradymarcus@icloud.com",
+    "subject": "Re: Vaša objednávka č. 202600993 sa práve vybavuje",
+    "orderCode": "202600993",
+    "matchedBy": "code"
+  },
+  "<CAL-xL56Miny=VrU1gegB+kg9bOTLbN8qeZpOeDq+Fnb4VLkGWw@mail.gmail.com>": {
+    "draftedAt": "2026-09-22T18:08:44.128Z",
+    "from": "whsyridl@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600978 bola úspešne vybavená a odoslaná",
+    "orderCode": "202600978",
+    "matchedBy": "code"
   }
 }
