@@ -16,6 +16,14 @@ If a credential appears exposed, do not copy or redistribute it. Record only the
 
 Known legacy exposures do not create an exception for new work.
 
+## Authenticated browser sessions
+
+An authenticated browser session supplied by the owner (including Heureka admin) is an access mechanism, not a credential to extract.
+
+The agent must never copy, reveal, persist or export browser passwords, cookies, session tokens, API keys, signed URLs or authentication headers.
+
+Being logged in does not broaden write authority. All browser actions remain subject to `safety.md` and the system-specific governance rule.
+
 ## Personal and private data
 Customer/order/support/accounting data is private operational data.
 
