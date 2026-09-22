@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600341,
+    "nextCardNumber": 202600349,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2042,6 +2042,54 @@
         "nazov": "Sublimation film HTVRONT",
         "dodavatel": "innpro",
         "code": "088987"
+      },
+      "850046603495": {
+        "kod": "202600341",
+        "nazov": "SwitchBot Curtain U Rail 3",
+        "dodavatel": "innpro",
+        "code": "054362"
+      },
+      "5905316148895": {
+        "kod": "202600342",
+        "nazov": "Computer Case DS900 Black",
+        "dodavatel": "innpro",
+        "code": "058814"
+      },
+      "6975515775573": {
+        "kod": "202600343",
+        "nazov": "Superfire HE11 Headlamp",
+        "dodavatel": "innpro",
+        "code": "072344"
+      },
+      "5905156101586": {
+        "kod": "202600344",
+        "nazov": "Sunnylife PU Leather Case",
+        "dodavatel": "innpro",
+        "code": "083372"
+      },
+      "6975755966946": {
+        "kod": "202600345",
+        "nazov": "Flextail Evo Tire Pump 150",
+        "dodavatel": "innpro",
+        "code": "084209"
+      },
+      "5905156102873": {
+        "kod": "202600346",
+        "nazov": "Beverage Fridge Euhomy",
+        "dodavatel": "innpro",
+        "code": "083135"
+      },
+      "4897143171652": {
+        "kod": "202600347",
+        "nazov": "Pro SSD Link",
+        "dodavatel": "innpro",
+        "code": "090468"
+      },
+      "6977502518804": {
+        "kod": "202600348",
+        "nazov": "HL106 headlamp",
+        "dodavatel": "innpro",
+        "code": "089389"
       }
     }
   },
