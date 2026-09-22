@@ -7,6 +7,7 @@ const sources = [
   ['products', 'PREMIUMSTORE_PRODUCTS_EXPORT_URL', 'xml'],
   ['categories', 'PREMIUMSTORE_CATEGORIES_EXPORT_URL', 'csv'],
   ['orders', 'PREMIUMSTORE_ORDERS_EXPORT_URL', 'xml'],
+  ['ordersMargin', 'PREMIUMSTORE_ORDERS_MARGIN_EXPORT_URL', 'xml'],
 ];
 
 function topEntries(map, n = 20) {
@@ -125,9 +126,11 @@ function inspectCsv(buf) {
     try {
       const { buf, contentType, status } = await fetchSafe(label, envName);
       const detail = type === 'xml' ? inspectXml(buf) : inspectCsv(buf);
-      if (label === 'orders') {
+      if (label === 'orders' || label === 'ordersMargin') {
         const orderCount = detail.records?.ORDER || 0;
-        const required = ['ORDER_ID', 'DATE', 'TOTAL_PRICE', 'STATUS'];
+        const required = label === 'ordersMargin'
+          ? ['ORDER_ID', 'CODE', 'DATE', 'STATUS', 'PURCHASE_PRICE']
+          : ['ORDER_ID', 'DATE', 'TOTAL_PRICE', 'STATUS'];
         summary.results[label] = {
           ok: true,
           httpStatus: status,
