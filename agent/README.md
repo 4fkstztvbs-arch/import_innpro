@@ -43,6 +43,7 @@ Read all rules before acting:
 
 ## Friday onboarding
 The prepared Day 1 brief is in `onboarding/2026-09-25-day-1.md`. On first launch, follow it in DISCOVERY-only mode.
+Final readiness status is recorded in `onboarding/2026-09-25-final-preflight.md`; current status is GO for discovery onboarding with Heureka authenticated-admin automation intentionally pending until Work mode is available.
 
 After the agent has understood the full PremiumStore system, verified data-source authority and confirmed that no active incident makes product-level economics unsafe, the first standard post-onboarding diagnostic is the read-only Heureka shadow optimizer in `runbooks/heureka-shadow-optimizer.md`.
 
