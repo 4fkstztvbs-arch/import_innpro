@@ -1,9 +1,9 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-22 08:55 UTC.
+Kontrola z 2026-09-22 09:41 UTC.
 
 InnPro pri **399** produktoch uvádza minimálny odber väčší než 1 kus.
-Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
+Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
 |---|---|---:|---:|
@@ -215,6 +215,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `075568` | Filtre Rojeco pre 2,5 l bezdrôtové vodné fontány 50 | — | 5 |
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
 | `076565` | Sunnylife mini B977-GY ochranné puzdro pre RC ovládače DJI ( | — | 5 |
+| `075790` | Oneisall PW04 filtre do fontány/napájačky (6 ks) | — | 5 |
 | `074257` | Adaptér ANT+ USB Cycplus U10 | — | 5 |
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
 | `077573` | Ochranné puzdro Sunnylife s popruhom pre Osmo Pocket 3 (čier | — | 5 |
@@ -266,7 +267,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.
 | `082320` | PULUZ Silikónové nabíjacie puzdro Ochranný kryt pre DJI Mic  | — | 5 |
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
-| `082641` | Sada tvrdeného skla Puluz pre DJI Osmo Action 6 (3 ks). | — | 5 |
 | `082642` | Tvrdené sklo Puluz pre Insta360 X4 Air | — | 5 |
 | `082686` | Súprava na určovanie veľkosti krúžkov RingConn | — | 5 |
 | `082251` | Svietidlo Superfire HL23-X | — | 5 |

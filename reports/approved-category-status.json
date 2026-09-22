@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26745,
-  "matchedRules": 2647,
-  "changedProducts": 1184,
+  "totalProducts": 26753,
+  "matchedRules": 2646,
+  "changedProducts": 1179,
   "rejected": [
     {
       "supplier": "innpro",
@@ -105,7 +105,7 @@
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PETG filamenty",
-      "visibleUnique": 41,
+      "visibleUnique": 42,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -225,7 +225,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
-      "visibleUnique": 61,
+      "visibleUnique": 60,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
@@ -465,7 +465,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery",
-      "visibleUnique": 36,
+      "visibleUnique": 35,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },
