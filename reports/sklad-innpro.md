@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-09-22 19:25 UTC.
+Kontrola z 2026-09-22 20:22 UTC.
 
 Produktov v full.xml: **7052**, z toho 5627 má záznam aj v light.xml.
 Dostupnosť: Skladom 5598, ostatné 1454 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -25,7 +25,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `018666` | Sada 53 kusov príslušenstva Puluz pre športové kamery P | Skladom | 228 | 27.10.2026 |
 | `018671` | Čiapka Puluz s držiakom pre športovú kameru (DJI, GoPro | Skladom | 75 | 27.10.2026 |
 | `018672` | Náramok Puluz s nástavcom na športovú kameru (vrátane A | Skladom | 22 | 23.09.2026 |
-| `018681` | Fotoštúdio Puluz 40 cm LED 2400 lúmenov PU5040EU | Skladom | 123 | 24.09.2026 |
+| `018681` | Fotoštúdio Puluz 40 cm LED 2400 lúmenov PU5040EU | Skladom | 122 | 24.09.2026 |
 | `018684` | Stan Puluz 80 cm bez tieňov s LED svietidlom s výkonom  | Skladom | 125 | 24.09.2026 |
 | `018690` | Vodotesný batoh na fotoaparát Puluz PU5011B (čierny) | Dostupné od 24.09.2026 | null | 24.09.2026 |
 | `018800` | Baterka Superfire F3-L2 – 570 lm, 260 m, 5 režimov, fun | Skladom | 74 | 26.11.2026 |
@@ -44,7 +44,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `023125` | Inteligentný odstraňovač zápachu Petoneer | Skladom | 93 | 16.10.2026 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrát | Skladom | 272 | 27.10.2026 |
 | `024515` | Panoramatický fotografický stojan 360 Puluz DCA0871W | Skladom | 131 | 03.11.2026 |
-| `023538` | Inteligentný spínač WiFi SONOFF 4CHR3 | Skladom | 331 | 23.10.2026 |
+| `023538` | Inteligentný spínač WiFi SONOFF 4CHR3 | Skladom | 330 | 23.10.2026 |
 | `023537` | Inteligentný spínač WiFi SONOFF 4CHPROR3 | Skladom | 1163 | 23.10.2026 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW | Skladom | 1161 | 23.10.2026 |
 | `024466` | Vodná fontána pre domáce zvieratá Petoneer Fresco mini  | Skladom | 129 | 16.10.2026 |
@@ -154,7 +154,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `031533` | Herné slúchadlá Edifier HECATE G2 II (biele) | Dostupné od 17.11.2026 | null | 17.11.2026 |
 | `031532` | Reproduktor Edifier D12 (hnedý) | Skladom | 233 | 25.09.2026 |
 | `031873` | Diaľkové ovládanie Telesin pre GoPro Hero 13 / 12 / 11  | Skladom | 285 | 26.11.2026 |
-| `033682` | HIBREW H4 Premium 80 W 3-v-1 espresso stroj | Skladom | 8 | 12.10.2026 |
+| `033682` | HIBREW H4 Premium 80 W 3-v-1 espresso stroj | Skladom | 7 | 12.10.2026 |
 | `033593` | Pretekársky volant  PXN-V3 (PC / PS3 / PS4 / XBOX ONE / | Skladom | 303 | 16.10.2026 |
 | `033594` | Nastaviteľný stojan na herný volant PXN-A9 (čierny) | Skladom | 435 | 16.10.2026 |
 | `033247` | Počítačová skriňa Darkflash DK151 LED s 3 ventilátormi  | Skladom | 818 | 22.09.2026 |
@@ -212,13 +212,13 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 357 | 25.09.2026 |
 | `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 533 | 25.09.2026 |
 | `041450` | Diaľkové ovládanie SwitchBot Remote | Skladom | 95 | 25.09.2026 |
-| `041280` | Detektor úniku plynu Habotest HT59 | Skladom | 1088 | 23.09.2026 |
+| `041280` | Detektor úniku plynu Habotest HT59 | Skladom | 1087 | 23.09.2026 |
 | `041281` | Detektor úniku plynu Habotest HT60 | Skladom | 504 | 29.09.2026 |
 | `041284` | Merač teploty a vlhkosti Habotest HT607 | Dostupné od 29.09.2026 | null | 29.09.2026 |
 | `041285` | Digitálny merač svetla Habotest HT603 | Skladom | 32 | 29.09.2026 |
 | `041286` | Merač hladiny zvuku Habotest HT602B | Skladom | 143 | 27.10.2026 |
 | `041287` | Digitálny anemometer Habotest HT605 | Skladom | 65 | 29.09.2026 |
-| `040244` | Elektrický otočný stojan Puluz 30 cm USB (čierny) | Skladom | 118 | 23.09.2026 |
+| `040244` | Elektrický otočný stojan Puluz 30 cm USB (čierny) | Skladom | 117 | 23.09.2026 |
 | `040245` | Elektrický otočný stôl Puluz 30 cm USB (biely) | Skladom | 413 | 27.10.2026 |
 | `041706` | Fotopasca Puluz so selfie tyčou pre športové kamery (DJ | Skladom | 67 | 23.09.2026 |
 | `038160` | Solárna lampa Superfire FF10-B | Skladom | 173 | 26.11.2026 |
@@ -311,7 +311,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `054086` | Bezdrôtový mikrofón PULUZ PUL648B (USB-C) | Skladom | 777 | 23.09.2026 |
 | `054157` | Ochranné puzdro Sunnylife pre DJI RC 2 | Skladom | 53 | 26.11.2026 |
 | `082379` | Motor na ovládanie závesov SwitchBot Rod 2 (biely) | Skladom | 269 | 25.09.2026 |
-| `054362` | Motor na ovládanie závesov SwitchBot Rod 2 (biely) | Skladom | 1293 | 25.09.2026 |
+| `054362` | Motor na ovládanie závesov SwitchBot Rod 2 (biely) | Skladom | 1292 | 25.09.2026 |
 | `056767` | Ovládač na osvetlenie Yeelight | Skladom | 30 | 14.10.2026 |
 | `056058` | Profesionálny statív PGYTECH pre športovú kameru (čiern | Skladom | 55 | 29.09.2026 |
 | `055833` | Automatické kŕmidlo pre domáce zvieratá - 6 jedál / 360 | Skladom | 81 | 28.09.2026 |
