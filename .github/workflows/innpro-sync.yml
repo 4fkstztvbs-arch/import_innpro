@@ -1,6 +1,11 @@
 name: InnPro sync
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/innpro-sync.yml
   schedule:
     # 4x denne, 6h od seba (4:00 / 10:00 / 16:00 / 22:00 UTC), aby boli dáta čerstvé pred
     # každým Shoptet Automatickým importom (ten je teraz tiež nastavený na 4x denne v
