@@ -362,6 +362,132 @@ function productItems(order) {
   });
 }
 
+function orderCode(order) {
+  return String(order?.CODE ?? order?.ORDER_CODE ?? order?.ORDER_ID ?? '').trim();
+}
+
+function orderMap(orders) {
+  const map = new Map();
+  for (const order of orders) {
+    const code = orderCode(order);
+    if (code) map.set(code, order);
+  }
+  return map;
+}
+
+function itemNetTotal(item) {
+  const total = n(item?.TOTAL_PRICE?.WITHOUT_VAT);
+  if (total != null) return total;
+  const unit = n(item?.UNIT_PRICE?.WITHOUT_VAT);
+  const amount = n(item?.AMOUNT) || 1;
+  return unit != null ? unit * amount : null;
+}
+
+function matchCatalogItem(catalog, eanIndex, item) {
+  const code = String(item?.CODE || '').trim();
+  if (code && catalog.has(code)) return catalog.get(code);
+
+  const ean = String(item?.EAN || '').trim();
+  if (ean && eanIndex.index.has(ean)) return eanIndex.index.get(ean);
+
+  return null;
+}
+
+function reconcileMarginOrders(standardOrders, marginOrders, supplierCatalog) {
+  const standard = orderMap(standardOrders);
+  const supplierEans = uniqueEanIndex(supplierCatalog);
+
+  const out = {
+    marginOrders: marginOrders.length,
+    activeMarginOrders: 0,
+    marginPurchasePriceAvailable: 0,
+    overlapWithStandardOrders: 0,
+    productRows: 0,
+    supplierMatchedProductRows: 0,
+    fullySupplierComparableOrders: 0,
+    supplierCostExact: 0,
+    supplierCostClose: 0,
+    supplierCostDrift: 0,
+    supplierCostMajor: 0,
+    formulaReadyOrders: 0,
+  };
+
+  for (const marginOrder of marginOrders) {
+    if (isCancelled(marginOrder.STATUS)) continue;
+    out.activeMarginOrders++;
+
+    const purchase = n(marginOrder.PURCHASE_PRICE);
+    if (purchase != null) out.marginPurchasePriceAvailable++;
+
+    const code = orderCode(marginOrder);
+    const std = code ? standard.get(code) : null;
+    if (std) out.overlapWithStandardOrders++;
+
+    const items = productItems(marginOrder);
+    out.productRows += items.length;
+
+    let currentSupplierCost = 0;
+    let supplierComparable = items.length > 0;
+    for (const item of items) {
+      const matched = matchCatalogItem(supplierCatalog, supplierEans, item);
+      const amount = n(item.AMOUNT) || 1;
+      if (!matched || matched.ambiguous || !(matched.purchasePrice > 0)) {
+        supplierComparable = false;
+        continue;
+      }
+      out.supplierMatchedProductRows++;
+      currentSupplierCost += matched.purchasePrice * amount;
+    }
+
+    if (purchase != null && supplierComparable) {
+      out.fullySupplierComparableOrders++;
+      const cls = classifyDiff(purchase, currentSupplierCost);
+      out['supplierCost' + ({
+        exact: 'Exact',
+        close: 'Close',
+        drift: 'Drift',
+        major: 'Major',
+      })[cls]]++;
+    }
+
+    if (purchase != null && std && !isCancelled(std.STATUS)) {
+      const stdProducts = productItems(std);
+      if (stdProducts.length) {
+        let complete = true;
+        let productSalesExVat = 0;
+        for (const item of stdProducts) {
+          const value = itemNetTotal(item);
+          if (value == null) {
+            complete = false;
+            break;
+          }
+          productSalesExVat += value;
+        }
+        // If complete, exact historical gross margin is derivable privately as:
+        // productSalesExVat - marginOrder.PURCHASE_PRICE.
+        // Never print the monetary value to public CI logs.
+        if (complete && Number.isFinite(productSalesExVat - purchase)) {
+          out.formulaReadyOrders++;
+        }
+      }
+    }
+  }
+
+  return {
+    ...out,
+    marginPurchasePriceCoveragePct: pct(out.marginPurchasePriceAvailable, out.activeMarginOrders),
+    standardOrderOverlapPct: pct(out.overlapWithStandardOrders, out.activeMarginOrders),
+    supplierProductJoinPct: pct(out.supplierMatchedProductRows, out.productRows),
+    supplierComparableOrderPct: pct(out.fullySupplierComparableOrders, out.activeMarginOrders),
+    supplierExactOrClosePct: pct(
+      out.supplierCostExact + out.supplierCostClose,
+      out.fullySupplierComparableOrders
+    ),
+    supplierMajorDriftPct: pct(out.supplierCostMajor, out.fullySupplierComparableOrders),
+    historicalMarginFormulaReadyPct: pct(out.formulaReadyOrders, out.activeMarginOrders),
+  };
+}
+
 function orderReadiness(orders) {
   const out = {
     orders: orders.length,
@@ -413,17 +539,24 @@ function orderReadiness(orders) {
 }
 
 (async () => {
-  const [ordersXml, productsXml, supplierData] = await Promise.all([
+  const [ordersXml, marginOrdersXml, productsXml, supplierData] = await Promise.all([
     fetchPrivate('PREMIUMSTORE_ORDERS_EXPORT_URL', 'orders'),
+    fetchPrivate('PREMIUMSTORE_ORDERS_MARGIN_EXPORT_URL', 'orders-margin'),
     fetchPrivate('PREMIUMSTORE_PRODUCTS_EXPORT_URL', 'products'),
     loadSupplierCatalog(),
   ]);
 
   const liveProducts = parseShopXmlString(productsXml, 'live-products-export');
   const orders = parseOrders(ordersXml);
+  const marginOrders = parseOrders(marginOrdersXml);
 
   const current = compareCurrentCatalog(supplierData.catalog, liveProducts);
   const readiness = orderReadiness(orders);
+  const marginReconciliation = reconcileMarginOrders(
+    orders,
+    marginOrders,
+    supplierData.catalog
+  );
 
   let status = 'PASS';
   const reasons = [];
@@ -451,7 +584,20 @@ function orderReadiness(orders) {
   }
 
   if (readiness.orderPurchasePriceCoveragePct === 0) {
-    reasons.push('ORDER_EXPORT_HAS_NO_ORDER_PURCHASE_PRICE');
+    reasons.push('STANDARD_ORDER_EXPORT_HAS_NO_ORDER_PURCHASE_PRICE');
+  }
+
+  if (marginReconciliation.marginPurchasePriceCoveragePct < 95) {
+    status = 'WARN';
+    reasons.push('LOW_MARGIN_EXPORT_PURCHASE_PRICE_COVERAGE');
+  }
+  if (marginReconciliation.standardOrderOverlapPct < 90) {
+    status = 'WARN';
+    reasons.push('LOW_STANDARD_MARGIN_ORDER_OVERLAP');
+  }
+  if (marginReconciliation.historicalMarginFormulaReadyPct < 85) {
+    status = 'WARN';
+    reasons.push('LOW_HISTORICAL_MARGIN_FORMULA_COVERAGE');
   }
 
   const summary = {
@@ -466,6 +612,7 @@ function orderReadiness(orders) {
     },
     currentProductReconciliation: current,
     orderMarginInputReadiness: readiness,
+    marginOrderReconciliation: marginReconciliation,
     interpretation: {
       currentPurchasePrice:
         'Compares current supplier output PURCHASE_PRICE to current live Shoptet products-export PURCHASE_PRICE using exact CODE first, then only a unique EAN fallback.',
@@ -474,7 +621,9 @@ function orderReadiness(orders) {
       currentSalePrice:
         'Compares supplier output PRICE_VAT to live Shoptet products-export PRICE_VAT; differences can also indicate import lag or protected pricing overrides.',
       orderHistory:
-        'The default orders export exposes item sale prices/CODE/EAN but may omit historical PURCHASE_PRICE. Exact historical margin then requires the custom orders export or historical supplier-cost snapshots.',
+        'The standard orders export supplies product-level net sale prices; the private margin orders export supplies historical order PURCHASE_PRICE. When the same active order is present in both, exact historical gross margin is privately derivable as product sales ex VAT minus order purchase price.',
+      supplierOrderCheck:
+        'Margin-order PURCHASE_PRICE is also compared with the sum of current supplier purchase prices as a drift/sanity signal only; differences can be legitimate historical supplier-cost changes.',
     },
   };
 
