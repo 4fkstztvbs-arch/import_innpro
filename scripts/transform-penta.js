@@ -25,6 +25,7 @@ const { parsePentaItem } = require('./parse-penta');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
+const { applyPentaOpportunityPrice } = require('./penta-opportunity-prices');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
@@ -265,6 +266,10 @@ async function main() {
     if (MIN_COST > 0 && p.purchasePrice > 0 && p.purchasePrice < MIN_COST) { stats.skippedCheap++; return; }
 
     let price = roundPrice(p.priceVat);
+    // Bootstrap selected Penta opportunities from a recent live Heureka check. The normal
+    // daily Heureka target runs afterwards and therefore takes precedence as soon as that
+    // product appears reliably in the daily report.
+    price = applyPentaOpportunityPrice(p.ean, price, p.purchasePrice, parseFloat(p.vat));
     price = applyHeurekaPriceTarget(p.ean, price, p.purchasePrice, parseFloat(p.vat));
     if (price < MIN_PRICE) { stats.skippedCheap++; return; }
 
