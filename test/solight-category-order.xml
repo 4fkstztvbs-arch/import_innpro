@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SHOP>
+  <SHOPITEM>
+    <CODE>TEST-SOL-2</CODE>
+    <STOCK><MINIMAL_AMOUNT>2</MINIMAL_AMOUNT></STOCK>
+    <CATEGORIES>
+      <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+      <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia]]></DEFAULT_CATEGORY>
+    </CATEGORIES>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>TEST-SOL-3</CODE>
+    <STOCK><MINIMAL_AMOUNT>3</MINIMAL_AMOUNT></STOCK>
+    <CATEGORIES>
+      <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+      <DEFAULT_CATEGORY><![CDATA[TV, audio, video a foto technika > Antény a satelity]]></DEFAULT_CATEGORY>
+    </CATEGORIES>
+  </SHOPITEM>
+</SHOP>
