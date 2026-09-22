@@ -18,84 +18,42 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Audit MINQTY and package
+      - name: Compare live MINQTY with current output
         env:
           SOLIGHT_URL: ${{ secrets.SOLIGHT_URL }}
         run: |
           node <<'NODE'
-          const https = require('https');
-          const http = require('http');
-          const { XMLParser } = require('fast-xml-parser');
-
-          const url = process.env.SOLIGHT_URL;
-          const client = url.startsWith('https:') ? https : http;
-          function get(u) {
-            return new Promise((resolve,reject)=>{
-              client.get(u,res=>{
-                if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-                  return resolve(get(new URL(res.headers.location,u).toString()));
-                }
-                if (res.statusCode !== 200) return reject(new Error('HTTP '+res.statusCode));
-                let d=''; res.setEncoding('utf8');
-                res.on('data',c=>d+=c); res.on('end',()=>resolve(d)); res.on('error',reject);
-              }).on('error',reject);
-            });
-          }
-          const txt = v => {
-            if(v===undefined||v===null) return '';
-            if(typeof v==='object' && '#text' in v) return String(v['#text']).trim();
-            return String(v).trim();
-          };
-          const num = v => {
-            const n=parseFloat(txt(v).replace(',','.'));
-            return Number.isFinite(n)?n:0;
-          };
-
+          const fs=require('fs');
+          const https=require('https'),http=require('http');
+          const {XMLParser}=require('fast-xml-parser');
+          const url=process.env.SOLIGHT_URL, client=url.startsWith('https:')?https:http;
+          const get=u=>new Promise((resolve,reject)=>client.get(u,res=>{
+            if(res.statusCode>=300&&res.statusCode<400&&res.headers.location)return resolve(get(new URL(res.headers.location,u).toString()));
+            if(res.statusCode!==200)return reject(new Error('HTTP '+res.statusCode));
+            let d='';res.setEncoding('utf8');res.on('data',c=>d+=c);res.on('end',()=>resolve(d));res.on('error',reject);
+          }).on('error',reject));
+          const txt=v=>v==null?'':(typeof v==='object'&&'#text'in v?String(v['#text']).trim():String(v).trim());
+          const num=v=>{const n=parseFloat(txt(v).replace(',','.'));return Number.isFinite(n)?n:0};
           (async()=>{
-            const xml=await get(url);
-            const blocks=[...xml.matchAll(/<product>[\s\S]*?<\/product>/gi)].map(m=>m[0]);
+            const src=await get(url);
             const parser=new XMLParser({ignoreAttributes:true,textNodeName:'#text'});
             const rows=[];
-            for(const b of blocks){
-              let p; try{p=parser.parse(b).product}catch{continue}
-              if(!p) continue;
-              rows.push({
-                code:txt(p.objednaci_cislo),
-                name:txt(p.sk_nazev)||txt(p.nazev)||txt(p.cs_nazev),
-                minqty:num(p.MINQTY),
-                package:num(p.package),
-                stock:num(p.skladem),
-                cost:num(p.eur_vase_cena_bez_dph),
-                eshop:num(p.eur_eshop_price)
-              });
+            for(const m of src.matchAll(/<product>[\s\S]*?<\/product>/gi)){
+              let p;try{p=parser.parse(m[0]).product}catch{continue}
+              if(!p)continue;
+              rows.push({code:txt(p.objednaci_cislo),name:txt(p.sk_nazev),minqty:num(p.MINQTY),package:num(p.package)});
             }
-            const dist = key => {
-              const o={}; for(const r of rows){const v=String(r[key]);o[v]=(o[v]||0)+1}
-              return Object.fromEntries(Object.entries(o).sort((a,b)=>Number(a[0])-Number(b[0])));
-            };
-            const gt1=rows.filter(r=>r.minqty>1);
-            const pkgGt1=rows.filter(r=>r.package>1);
-            const both=rows.filter(r=>r.minqty>1&&r.package>1);
-            const equal=both.filter(r=>r.minqty===r.package);
-            const diff=both.filter(r=>r.minqty!==r.package);
-            const minAbsent=rows.filter(r=>r.minqty===0);
-            const packageAbsent=rows.filter(r=>r.package===0);
-
-            console.log('SUMMARY',JSON.stringify({
-              total:rows.length,
-              minqtyGt1:gt1.length,
-              packageGt1:pkgGt1.length,
-              bothGt1:both.length,
-              bothEqual:equal.length,
-              bothDifferent:diff.length,
-              minqtyZeroOrMissing:minAbsent.length,
-              packageZeroOrMissing:packageAbsent.length,
-              minqtyDistribution:dist('minqty'),
-              packageDistribution:dist('package')
+            const out=fs.readFileSync('output/solight.xml','utf8');
+            const outCodes=new Set([...out.matchAll(/<CODE>([^<]+)<\/CODE>/g)].map(m=>m[1]));
+            const active=rows.filter(r=>r.minqty>1&&outCodes.has(r.code));
+            const dist={};for(const r of active)dist[r.minqty]=(dist[r.minqty]||0)+1;
+            console.log('ACTIVE_SUMMARY',JSON.stringify({
+              sourceTotal:rows.length,
+              sourceMinGt1:rows.filter(r=>r.minqty>1).length,
+              currentOutputProducts:outCodes.size,
+              currentOutputMinGt1:active.length,
+              distribution:Object.fromEntries(Object.entries(dist).sort((a,b)=>Number(a[0])-Number(b[0])))
             },null,2));
-
-            console.log('MINQTY_GT1_SAMPLES',JSON.stringify(gt1.slice(0,100),null,2));
-            console.log('MINQTY_PACKAGE_DIFFERENT',JSON.stringify(diff.slice(0,100),null,2));
-            console.log('PACKAGE_GT1_MINQTY_LE1_SAMPLES',JSON.stringify(rows.filter(r=>r.package>1&&r.minqty<=1).slice(0,60),null,2));
+            console.log('ACTIVE_EXAMPLES',JSON.stringify(active.slice(0,40),null,2));
           })().catch(e=>{console.error(e);process.exit(1)});
           NODE
