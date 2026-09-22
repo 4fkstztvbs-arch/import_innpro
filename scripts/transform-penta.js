@@ -25,7 +25,7 @@ const { parsePentaItem } = require('./parse-penta');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { applyPentaOpportunityPrice } = require('./penta-opportunity-prices');
+const { applyPentaOpportunityPrice, enforcePentaGrossMarginFloor } = require('./penta-opportunity-prices');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
@@ -271,6 +271,7 @@ async function main() {
     // product appears reliably in the daily report.
     price = applyPentaOpportunityPrice(p.ean, price, p.purchasePrice, parseFloat(p.vat));
     price = applyHeurekaPriceTarget(p.ean, price, p.purchasePrice, parseFloat(p.vat));
+    price = enforcePentaGrossMarginFloor(price, p.purchasePrice, parseFloat(p.vat));
     if (price < MIN_PRICE) { stats.skippedCheap++; return; }
 
     const { defaultCategory, extraCategories, defaultMapped } = resolvePentaCategories(p.categoryTexts, p.defaultCategoryRaw);
