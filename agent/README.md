@@ -56,8 +56,8 @@ In this repository, `main` is connected to production. Published `output/*.xml` 
 Explicit approval is required before changing:
 - product/category URLs or redirects
 - prices, pricing rules, markups or margin rules
-- Heureka bidding/CPC, budgets or production channel configuration
-- availability/visibility/deletion rules
+- Heureka bidding/CPC, budgets or production channel configuration **outside** a separately promoted and verified Heureka controlled-autonomy policy
+- availability/visibility/deletion rules, except Heureka channel-only feed inclusion/exclusion executed inside the promoted policy in `rules/heureka.md`
 - checkout/payment logic
 - tax settings
 - delivery rules
@@ -70,6 +70,10 @@ Explicit approval is required before changing:
 - Cloudflare Worker production code/configuration
 - credentials, secrets, permissions and repository protection settings
 - destructive bulk actions
+
+## Heureka operating model
+
+The target operating model for Heureka is agent-managed optimization rather than manual per-product tuning. After the staged validation/promotion process in `rules/heureka.md`, the agent is the canonical controller for bidding, CPC state, Heureka feed inclusion/exclusion and spend allocation within hard policy limits. Human control remains at the policy/limit/kill-switch level.
 
 ## Core principles
 - The agent is measured by verified business impact, not by number of changes.
