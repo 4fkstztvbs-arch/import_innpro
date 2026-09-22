@@ -52,9 +52,14 @@ function decideProduct(input, policy) {
 
   if (reasons.length) {
     return {
-      state: 'WATCH', action: 'NO_CHANGE', reasons,
-      recommendedCpc: null, safeCpc: null, targetCpa: null,
-      metrics, confidence: 'LOW'
+      state: 'WATCH',
+      action: 'NO_CHANGE',
+      reasons,
+      recommendedCpc: null,
+      safeCpc: null,
+      targetCpa: null,
+      metrics,
+      confidence: 'LOW',
     };
   }
 
@@ -70,7 +75,9 @@ function decideProduct(input, policy) {
   metrics.costShareOfGrossMargin = costShareOfMargin === null ? null : round(costShareOfMargin, 4);
   metrics.contributionAfterHeurekaCost = round(grossMarginFromPaidOrders - paidCost);
 
-  const operationalHeurekaOrders = finite(operational.heurekaReferredSingleProductOrders, 0) + finite(operational.heurekaReferredMultiProductContains, 0);
+  const operationalHeurekaOrders =
+    finite(operational.heurekaReferredSingleProductOrders, 0) +
+    finite(operational.heurekaReferredMultiProductContains, 0);
   const attributionConflict = paidOrders === 0 && operationalHeurekaOrders > 0;
 
   const minPaidVisitsBid = finite(ev.minPaidVisitsForBid, 15);
@@ -85,16 +92,26 @@ function decideProduct(input, policy) {
     if (postExclusionOrders > 0) {
       reasons.push('POST_EXCLUSION_ORDER_SIGNAL_REQUIRES_REENTRY_REVIEW');
       return {
-        state: 'WATCH', action: 'REVIEW_REENTRY', reasons,
-        recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
-        metrics, confidence: 'LOW'
+        state: 'WATCH',
+        action: 'REVIEW_REENTRY',
+        reasons,
+        recommendedCpc: null,
+        safeCpc: round(safeCpc, 4),
+        targetCpa: round(targetCpa),
+        metrics,
+        confidence: 'LOW',
       };
     }
     reasons.push('EXISTING_EXCLUSION_WITHOUT_REENTRY_EVIDENCE');
     return {
-      state: 'EXCLUDE', action: 'KEEP_EXCLUDED', reasons,
-      recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
-      metrics, confidence: 'MEDIUM'
+      state: 'EXCLUDE',
+      action: 'KEEP_EXCLUDED',
+      reasons,
+      recommendedCpc: null,
+      safeCpc: round(safeCpc, 4),
+      targetCpa: round(targetCpa),
+      metrics,
+      confidence: 'MEDIUM',
     };
   }
 
@@ -110,14 +127,23 @@ function decideProduct(input, policy) {
     const maxStepPct = finite(eco.maxCpcStepPct, 20) / 100;
     let recommended = safeCpc;
     if (currentAvgCpc > 0 && maxStepPct >= 0) {
-      recommended = clamp(recommended, currentAvgCpc * (1 - maxStepPct), currentAvgCpc * (1 + maxStepPct));
+      recommended = clamp(
+        recommended,
+        currentAvgCpc * (1 - maxStepPct),
+        currentAvgCpc * (1 + maxStepPct)
+      );
     }
     recommended = clamp(recommended, minRecommendedCpc, maxRecommendedCpc);
     reasons.push('PROFITABLE_PAID_CONVERSION_EVIDENCE');
     return {
-      state: 'BID', action: 'SET_CPC', reasons,
-      recommendedCpc: round(recommended, 2), safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
-      metrics, confidence: paidOrders >= Math.max(4, minPaidOrdersBid * 2) ? 'HIGH' : 'MEDIUM'
+      state: 'BID',
+      action: 'SET_CPC',
+      reasons,
+      recommendedCpc: round(recommended, 2),
+      safeCpc: round(safeCpc, 4),
+      targetCpa: round(targetCpa),
+      metrics,
+      confidence: paidOrders >= Math.max(4, minPaidOrdersBid * 2) ? 'HIGH' : 'MEDIUM',
     };
   }
 
@@ -133,16 +159,26 @@ function decideProduct(input, policy) {
     if (attributionConflict) {
       reasons.push('ATTRIBUTION_CONFLICT_BLOCKS_EXCLUDE');
       return {
-        state: 'WATCH', action: 'NO_CHANGE', reasons,
-        recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
-        metrics, confidence: 'LOW'
+        state: 'WATCH',
+        action: 'NO_CHANGE',
+        reasons,
+        recommendedCpc: null,
+        safeCpc: round(safeCpc, 4),
+        targetCpa: round(targetCpa),
+        metrics,
+        confidence: 'LOW',
       };
     }
     reasons.push('ZERO_PAID_ORDERS_AFTER_MEANINGFUL_SPEND');
     return {
-      state: 'EXCLUDE', action: input.existingExcluded ? 'KEEP_EXCLUDED' : 'EXCLUDE_FROM_HEUREKA', reasons,
-      recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
-      metrics, confidence: 'HIGH'
+      state: 'EXCLUDE',
+      action: 'EXCLUDE_FROM_HEUREKA',
+      reasons,
+      recommendedCpc: null,
+      safeCpc: round(safeCpc, 4),
+      targetCpa: round(targetCpa),
+      metrics,
+      confidence: 'HIGH',
     };
   }
 
@@ -151,12 +187,175 @@ function decideProduct(input, policy) {
   else if (paidVisits >= finite(ev.minPaidVisitsForBase, 8)) reasons.push('ENOUGH_TRAFFIC_FOR_BASE_NOT_FOR_EXCLUDE');
   else reasons.push('INSUFFICIENT_EVIDENCE');
 
-  const baseEligible = !attributionConflict && (paidOrders > 0 || paidVisits >= finite(ev.minPaidVisitsForBase, 8));
+  const baseEligible =
+    !attributionConflict &&
+    (paidOrders > 0 || paidVisits >= finite(ev.minPaidVisitsForBase, 8));
+
   return {
-    state: baseEligible ? 'BASE' : 'WATCH', action: baseEligible ? 'REMOVE_PRODUCT_CPC_OVERRIDE' : 'NO_CHANGE', reasons,
-    recommendedCpc: null, safeCpc: round(safeCpc, 4), targetCpa: round(targetCpa),
-    metrics, confidence: baseEligible ? 'MEDIUM' : 'LOW'
+    state: baseEligible ? 'BASE' : 'WATCH',
+    action: baseEligible ? 'REMOVE_PRODUCT_CPC_OVERRIDE' : 'NO_CHANGE',
+    reasons,
+    recommendedCpc: null,
+    safeCpc: round(safeCpc, 4),
+    targetCpa: round(targetCpa),
+    metrics,
+    confidence: baseEligible ? 'MEDIUM' : 'LOW',
   };
 }
 
-module.exports = { finite, round, clamp, decideProduct };
+function reconcileWindows(input, policy) {
+  const mw = policy?.multiWindow || {};
+  const longDecision = input.longDecision;
+  const shortDecision = input.shortDecision;
+  const shortPerformance = input.shortPerformance || {};
+  const shortOperational = input.shortOperational || {};
+  const existingExcluded = !!input.existingExcluded;
+
+  if (!longDecision || !shortDecision) {
+    throw new Error('reconcileWindows requires longDecision and shortDecision');
+  }
+
+  const shortPaidVisits = finite(shortPerformance.paidVisits, 0);
+  const shortPaidOrders = finite(shortPerformance.paidOrders, 0);
+  const shortOperationalOrders =
+    finite(shortOperational.heurekaReferredSingleProductOrders, 0) +
+    finite(shortOperational.heurekaReferredMultiProductContains, 0);
+  const shortHasConversion = shortPaidOrders > 0 || shortOperationalOrders > 0;
+  const shortConfirmExcludeVisits = finite(mw.minShortPaidVisitsForExcludeConfirmation, 8);
+
+  const result = {
+    state: longDecision.state,
+    action: longDecision.action,
+    reasons: [...(longDecision.reasons || [])],
+    recommendedCpc: longDecision.recommendedCpc,
+    safeCpc: longDecision.safeCpc,
+    targetCpa: longDecision.targetCpa,
+    metrics: longDecision.metrics,
+    confidence: longDecision.confidence,
+    windows: {
+      long: {
+        state: longDecision.state,
+        action: longDecision.action,
+        recommendedCpc: longDecision.recommendedCpc,
+        reasons: longDecision.reasons || [],
+      },
+      short: {
+        state: shortDecision.state,
+        action: shortDecision.action,
+        recommendedCpc: shortDecision.recommendedCpc,
+        reasons: shortDecision.reasons || [],
+      },
+    },
+  };
+
+  if (existingExcluded) {
+    if (longDecision.state === 'WATCH' || shortDecision.state === 'WATCH') {
+      return {
+        ...result,
+        state: 'WATCH',
+        action: 'REVIEW_REENTRY',
+        recommendedCpc: null,
+        confidence: 'LOW',
+        reasons: [...result.reasons, 'EXISTING_EXCLUSION_REQUIRES_REENTRY_REVIEW'],
+      };
+    }
+    return {
+      ...result,
+      state: 'EXCLUDE',
+      action: 'KEEP_EXCLUDED',
+      recommendedCpc: null,
+      confidence: 'MEDIUM',
+      reasons: [...result.reasons, 'EXISTING_EXCLUSION_FAIL_CLOSED'],
+    };
+  }
+
+  if (longDecision.state === 'BID') {
+    if (mw.requireBidAgreement !== false && shortDecision.state !== 'BID') {
+      const state = shortHasConversion ? 'BASE' : 'WATCH';
+      return {
+        ...result,
+        state,
+        action: state === 'BASE' ? 'REMOVE_PRODUCT_CPC_OVERRIDE' : 'NO_CHANGE',
+        recommendedCpc: null,
+        confidence: shortHasConversion ? 'MEDIUM' : 'LOW',
+        reasons: [...result.reasons, 'BID_BLOCKED_BY_SHORT_WINDOW'],
+      };
+    }
+
+    if (shortDecision.state === 'BID') {
+      const candidates = [longDecision.recommendedCpc, shortDecision.recommendedCpc]
+        .filter(Number.isFinite);
+      const recommendedCpc = candidates.length ? Math.min(...candidates) : null;
+      return {
+        ...result,
+        state: 'BID',
+        action: 'SET_CPC',
+        recommendedCpc: round(recommendedCpc, 2),
+        confidence:
+          longDecision.confidence === 'HIGH' && shortDecision.confidence === 'HIGH'
+            ? 'HIGH'
+            : 'MEDIUM',
+        reasons: [...result.reasons, 'LONG_AND_SHORT_WINDOWS_AGREE'],
+      };
+    }
+  }
+
+  if (longDecision.state === 'EXCLUDE') {
+    if (shortHasConversion) {
+      return {
+        ...result,
+        state: 'WATCH',
+        action: 'NO_CHANGE',
+        recommendedCpc: null,
+        confidence: 'LOW',
+        reasons: [...result.reasons, 'RECENT_CONVERSION_BLOCKS_EXCLUDE'],
+      };
+    }
+
+    if (shortPaidVisits < shortConfirmExcludeVisits) {
+      return {
+        ...result,
+        state: 'WATCH',
+        action: 'NO_CHANGE',
+        recommendedCpc: null,
+        confidence: 'LOW',
+        reasons: [...result.reasons, 'EXCLUDE_NOT_CONFIRMED_BY_SHORT_WINDOW'],
+      };
+    }
+
+    return {
+      ...result,
+      state: 'EXCLUDE',
+      action: 'EXCLUDE_FROM_HEUREKA',
+      recommendedCpc: null,
+      confidence: 'HIGH',
+      reasons: [...result.reasons, 'LONG_EXCLUDE_CONFIRMED_BY_SHORT_WINDOW'],
+    };
+  }
+
+  if (shortDecision.state === 'EXCLUDE' && longDecision.state !== 'EXCLUDE') {
+    return {
+      ...result,
+      state: 'WATCH',
+      action: 'NO_CHANGE',
+      recommendedCpc: null,
+      confidence: 'LOW',
+      reasons: [...result.reasons, 'SHORT_TERM_DETERIORATION_NEEDS_LONG_CONFIRMATION'],
+    };
+  }
+
+  if (longDecision.state === 'BASE' && shortDecision.state === 'BID') {
+    return {
+      ...result,
+      state: 'BASE',
+      action: 'REMOVE_PRODUCT_CPC_OVERRIDE',
+      recommendedCpc: null,
+      confidence: 'MEDIUM',
+      reasons: [...result.reasons, 'SHORT_UPSIDE_NOT_YET_CONFIRMED_LONG_TERM'],
+    };
+  }
+
+  return result;
+}
+
+module.exports = { finite, round, clamp, decideProduct, reconcileWindows };
