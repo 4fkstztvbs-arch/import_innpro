@@ -1,0 +1,70 @@
+name: Export Solight manual prefixed XML
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/export-solight-manual-prefixed.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build manual Solight import with SOL_ codes
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const input = 'output/solight.xml';
+          const output = '/tmp/solight-manual-SOL-prefix.xml';
+          const xml = fs.readFileSync(input, 'utf8');
+
+          let count = 0;
+          const out = xml.replace(/<CODE>([^<]+)<\/CODE>/g, (_, code) => {
+            if (code.startsWith('SOL_')) throw new Error('Source feed already contains SOL_ prefix: ' + code);
+            count++;
+            return '<CODE>SOL_' + code + '</CODE>';
+          });
+
+          const items = [...out.matchAll(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g)].map(m => m[0]);
+          const codes = [...out.matchAll(/<CODE>([^<]+)<\/CODE>/g)].map(m => m[1]);
+          const mins = [...out.matchAll(/<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>/g)].map(m => m[1]);
+
+          if (items.length !== count) throw new Error('SHOPITEM/CODE count mismatch');
+          if (codes.some(c => !c.startsWith('SOL_') || c.startsWith('SOL_SOL_'))) {
+            throw new Error('Invalid prefixed code detected');
+          }
+          if (new Set(codes).size !== codes.length) throw new Error('Duplicate CODE after prefixing');
+
+          console.log('SHOPITEM_COUNT', items.length);
+          console.log('PREFIXED_CODE_COUNT', codes.length);
+          console.log('MINIMAL_AMOUNT_COUNT', mins.length);
+          console.log('SAMPLE_CODES', codes.slice(0,10).join(','));
+
+          fs.writeFileSync(output, out, 'utf8');
+          NODE
+
+      - name: Install XML validator
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+
+      - name: Download current Shoptet RNG schemas
+        run: |
+          curl -fsSL https://www.shoptet.cz/export/schema/products-complete-v10.rng -o /tmp/products-complete-v10.rng
+          curl -fsSL https://www.shoptet.cz/export/schema/products-supplier-v10.rng -o /tmp/products-supplier-v10.rng
+          curl -fsSL https://www.shoptet.cz/export/schema/products-datatype-v10.rng -o /tmp/products-datatype-v10.rng
+
+      - name: Validate manual feed
+        run: xmllint --noout --relaxng /tmp/products-complete-v10.rng /tmp/solight-manual-SOL-prefix.xml
+
+      - name: Upload manual Solight XML
+        uses: actions/upload-artifact@v4
+        with:
+          name: solight-manual-SOL-prefix
+          path: /tmp/solight-manual-SOL-prefix.xml
+          if-no-files-found: error
+          retention-days: 1
