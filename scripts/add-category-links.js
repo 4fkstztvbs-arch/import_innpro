@@ -50,9 +50,10 @@ function main(XML_PATH) {
   let added = 0, alreadyHad = 0, noMatch = 0, updated = 0, removed = 0;
 
   const patched = items.map((rest) => {
-    // Prva <CATEGORY> je vzdy najhlbsia/hlavna priradena kategoria (defaultCategory), dalsie su
-    // predkovia - rovnaky poriadok vo vsetkych transform-*.js skriptoch.
-    const catM = rest.match(/<CATEGORY><!\[CDATA\[(.*?)\]\]><\/CATEGORY>/s);
+    // Solight má explicitný DEFAULT_CATEGORY; ostatné feedy historicky používajú prvú CATEGORY.
+    // Preferujeme preto DEFAULT_CATEGORY a iba ak chýba, použijeme prvú CATEGORY.
+    const catM = rest.match(/<DEFAULT_CATEGORY(?:\s[^>]*)?><!\[CDATA\[(.*?)\]\]><\/DEFAULT_CATEGORY>/s)
+      || rest.match(/<CATEGORY(?:\s[^>]*)?><!\[CDATA\[(.*?)\]\]><\/CATEGORY>/s);
     if (!catM) { noMatch++; return rest; }
 
     // Parovanie podla PLNEJ cesty, nie podla nazvu listu: v strome je 5 rovnakych nazvov listov
