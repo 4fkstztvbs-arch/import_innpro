@@ -16,14 +16,19 @@ test('základná veta s uhlopriečkou a pripojeniami, bez farby v názve', () =>
     ['LAN RJ45', 'Ano'],
     ['Zabudovaná Wi-Fi', 'Ano'],
   ]);
-  assert.equal(facts, 'Úhlopříčka obrazovky 40 - 50" (101 - 127cm), připojení HDMI/Wi-Fi/USB/LAN.');
+  assert.equal(facts, 'Uhlopriečka obrazovky 40 - 50" (101 - 127cm), pripojenie HDMI/Wi-Fi/USB/LAN.');
 });
 
-test('farbu doplní len ak ju názov produktu sám uvádza', () => {
+test('veta je vždy po slovensky, aj keď je meno produktu (od ATOS-u) po česky', () => {
   const facts = buildTvQuickFacts('Finlux 32FWI5670 Smart Android TV Full Hd Bílá', [
     ['Úhlopříčka', '32" (82cm)'],
   ]);
-  assert.equal(facts, 'Úhlopříčka obrazovky 32" (82cm), barva bílá.');
+  assert.equal(facts, 'Uhlopriečka obrazovky 32" (82cm), farba biela.');
+});
+
+test('farbu doplní len ak ju názov produktu sám uvádza', () => {
+  const facts = buildTvQuickFacts('FINLUX 40FFI5661 Smart TV Full HD Tivo', [['Úhlopříčka', '40"']]);
+  assert.equal(facts, 'Uhlopriečka obrazovky 40".');
 });
 
 test('vynechá pripojenie s hodnotou "Ne"', () => {
@@ -32,5 +37,5 @@ test('vynechá pripojenie s hodnotou "Ne"', () => {
     ['HDMI', 'Ne'],
     ['USB port', '1x'],
   ]);
-  assert.equal(facts, 'Úhlopříčka obrazovky 24", připojení USB.');
+  assert.equal(facts, 'Uhlopriečka obrazovky 24", pripojenie USB.');
 });

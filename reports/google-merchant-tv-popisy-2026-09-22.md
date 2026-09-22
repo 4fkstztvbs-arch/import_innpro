@@ -49,11 +49,15 @@ Dohľadal som oficiálnu špecifikáciu a Shoptet dokumentáciu, aby bolo jasné
 
 ## Vykonaná náprava (2026-09-22)
 
-Doplnené `scripts/lib/atos-tv-quick-facts.js` — pre televízory (kategória končiaca na "Televízory" a s vyplneným parametrom "Úhlopříčka") sa na **úplný začiatok** `<DESCRIPTION>` vloží krátka veta v tvare `Úhlopříčka obrazovky <hodnota>, barva <farba ak je v názve>, připojení <HDMI/Wi-Fi/USB/LAN/AV podľa toho, čo produkt naozaj má>.` — všetko len z hodnôt, ktoré ATOS sám posiela v `TEXT_PROPERTIES` (žiadne dopĺňanie farby naslepo — ak ju názov produktu neuvádza, veta ju jednoducho vynechá).
+Doplnené `scripts/lib/atos-tv-quick-facts.js` — pre televízory (kategória končiaca na "Televízory" a s vyplneným parametrom "Úhlopříčka") sa na **úplný začiatok** `<DESCRIPTION>` vloží krátka veta v tvare `Uhlopriečka obrazovky <hodnota>, farba <ak je v názve>, pripojenie <HDMI/Wi-Fi/USB/LAN/AV podľa toho, čo produkt naozaj má>.` — všetko len z hodnôt, ktoré ATOS sám posiela v `TEXT_PROPERTIES` (žiadne dopĺňanie farby naslepo — ak ju názov produktu neuvádza, veta ju jednoducho vynechá).
+
+**Veta je vždy po slovensky** (výslovná požiadavka používateľa), aj keď zvyšok ATOS popisu za ňou ostáva po česky (dodávateľská marketingová kópia, mimo rozsahu tejto úpravy) — farba z českého názvu produktu (napr. "Bílá") sa preto pri vkladaní prekladá na slovenský tvar ("biela"), nekopíruje sa 1:1.
 
 - `scripts/transform-atos.js` — použité pri každom budúcom nočnom behu (živý zdroj dát).
-- `scripts/inject-atos-tv-quick-facts.js` — jednorazový (opakovateľný, idempotentný) patch tej istej logiky na už vygenerovaný `output/atos.xml`, keďže živý ATOS feed sa dá stiahnuť len v noci a s prístupovými údajmi. Spustený teraz: **14 televízorov** upravených (23 produktov v kategórii "Televízory" spolu, 9 z nich sú príslušenstvo bez vlastnej uhlopriečky — adaptéry, kufríky na projektor, držiaky — tie sa správne preskočili).
+- `scripts/inject-atos-tv-quick-facts.js` — jednorazový patch tej istej logiky na už vygenerovaný `output/atos.xml`, keďže živý ATOS feed sa dá stiahnuť len v noci a s prístupovými údajmi. Idempotentný aj naprieč zmenou znenia vety — pri opravnom behu (pôvodne po česky → teraz po slovensky) starú vetu rozpoznal a nahradil, nie zduplikoval. Spustený: **14 televízorov** upravených (23 produktov v kategórii "Televízory" spolu, 9 z nich je príslušenstvo bez vlastnej uhlopriečky — adaptéry, kufríky na projektor, držiaky — tie sa správne preskočili).
 - `scripts/tests/atos-tv-quick-facts.test.js` — jednotkové testy vrátane regresie na chybu s `\b` v regexe, ktorý pri slovách s diakritikou (napr. "Bílá") na konci reťazca nikdy nenašiel hranicu slova.
+
+**Zostáva po česky** (mimo rozsahu tejto úpravy, len upozornenie): zvyšok ATOS popisu — marketingový úvod, "Klíčové vlastnosti", tabuľka "Technické specifikace" — je dodávateľská kópia, ktorú `transform-atos.js` len preberá, a je (a vždy bola) po česky pre celý katalóg, nielen televízory. Plný preklad by bol samostatná, oveľa väčšia úloha (tisíce produktov, dlhé HTML popisy) — pozri poznámku v odpovedi, či sa má riešiť.
 
 Mimochodom som si všimol, že popis produktu `FINLUX 32FWI5670 SMART ANDROID TV FULL HD BÍLÁ` má vlastný nadpis "FINLUX 32FFI5670 ANDROID TV BÍLÁ" (WI5670 vs FI5670) — vyzerá to na preklep priamo v ATOS-ovej dodávateľskej kópii, nie na niečo, čo spôsobil tento feed. Neopravoval som to (mimo zadania), len na to upozorňujem.
 

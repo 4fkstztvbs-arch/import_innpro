@@ -7,7 +7,10 @@
 // takže fakty z tabuľky "Technické specifikace" hlboko v ATOS popise sa tam často vôbec
 // nedostanú.
 //
-// Idempotentné: produkt, ktorý už túto vetu na začiatku popisu má, sa preskočí.
+// Idempotentné aj naprieč zmenou znenia vety (napr. keď sa oprava jazyka z 2026-09-22
+// prepísala z češtiny na slovenčinu) - pri každom behu sa prípadná predošlá vygenerovaná
+// veta na začiatku popisu (rozpoznaná podľa LEADING_FACTS_RE, nezávisle od jazyka) najprv
+// odstráni a nahradí aktuálnou, namiesto len kontroly "už tam je/nie je".
 //
 // Usage: node inject-atos-tv-quick-facts.js [--xml=output/atos.xml]
 
@@ -17,6 +20,10 @@ const { buildTvQuickFacts } = require('./lib/atos-tv-quick-facts');
 
 const XML_PATH = process.argv.find((a) => a.startsWith('--xml='))?.slice('--xml='.length) ||
   path.join(__dirname, '..', 'output', 'atos.xml');
+
+// Rozpozná vetu vloženú predošlým behom tohto skriptu (česká aj slovenská verzia znenia),
+// aby sa pri zmene textu nekopírovala duplicitne popri novej.
+const LEADING_FACTS_RE = /^<p>(?:Úhlopříčka|Uhlopriečka) obrazovky[^<]*<\/p>\s*/;
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 
@@ -53,9 +60,10 @@ function main() {
     if (!quickFacts) { noDiagonal++; return rest; }
 
     const desc = descM[1];
-    if (desc.includes(quickFacts)) { alreadyHad++; return rest; }
+    const withoutOldFacts = desc.replace(LEADING_FACTS_RE, '');
+    const newDesc = `<p>${xmlEscape(quickFacts)}</p>\n${withoutOldFacts}`;
+    if (newDesc === desc) { alreadyHad++; return rest; }
 
-    const newDesc = `<p>${xmlEscape(quickFacts)}</p>\n${desc}`;
     injected++;
     return rest.replace(descM[0], `<DESCRIPTION><![CDATA[${newDesc}]]></DESCRIPTION>`);
   });

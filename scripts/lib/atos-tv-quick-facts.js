@@ -12,16 +12,30 @@
 // ju transform-atos.js (živý beh) aj inject-atos-tv-quick-facts.js (jednorazový
 // dotiahnutie už vygenerovaného output/atos.xml) - obe zdieľajú rovnakú logiku,
 // aby veta bola vždy rovnaká bez ohľadu na to, ktorá cesta ju vygenerovala.
+//
+// Veta je VŽDY po slovensky, aj keď je zvyšok ATOS popisu (za ňou) po česky -
+// požiadavka používateľa. Preto sa farba z názvu (ten je od ATOS-u po česky,
+// napr. "Bílá") prekladá na slovenský tvar, nie len skopíruje.
 
-const COLOR_WORDS = ['Bílá', 'Černá', 'Stříbrná', 'Šedá', 'Zlatá', 'Modrá', 'Červená', 'Zelená'];
+const COLOR_WORDS = {
+  bílá: 'biela', biela: 'biela',
+  černá: 'čierna', čierna: 'čierna',
+  stříbrná: 'strieborná', strieborná: 'strieborná',
+  šedá: 'sivá', sivá: 'sivá',
+  zlatá: 'zlatá',
+  modrá: 'modrá',
+  červená: 'červená',
+  zelená: 'zelená',
+};
 
 // Rozdelenie na slová cez \p{L} (nie \b) - \b v JS regexe berie do úvahy len ASCII
 // \w, takže pri slovách s diakritikou (í, á, ...) na konci reťazca "\bBílá\b"
 // nikdy nenájde hranicu a nič nenamatchne.
 function colorFromName(name) {
   const words = name.split(/[^\p{L}]+/u);
-  for (const word of COLOR_WORDS) {
-    if (words.some((w) => w.toLowerCase() === word.toLowerCase())) return word.toLowerCase();
+  for (const w of words) {
+    const sk = COLOR_WORDS[w.toLowerCase()];
+    if (sk) return sk;
   }
   return null;
 }
@@ -60,9 +74,9 @@ function buildTvQuickFacts(name, paramPairs) {
   const color = colorFromName(name);
   const connections = connectionsFrom(paramPairs);
 
-  let sentence = `Úhlopříčka obrazovky ${diagonal}`;
-  if (color) sentence += `, barva ${color}`;
-  if (connections.length) sentence += `, připojení ${connections.join('/')}`;
+  let sentence = `Uhlopriečka obrazovky ${diagonal}`;
+  if (color) sentence += `, farba ${color}`;
+  if (connections.length) sentence += `, pripojenie ${connections.join('/')}`;
   return sentence + '.';
 }
 
