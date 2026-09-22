@@ -98,20 +98,6 @@
   "categoryDrifts": [
     {
       "supplier": "penta",
-      "code": "65526100",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
       "code": "65526102",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
@@ -182,6 +168,34 @@
     },
     {
       "supplier": "penta",
+      "code": "65526100",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526105",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
       "code": "65526109",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
@@ -239,20 +253,6 @@
     {
       "supplier": "penta",
       "code": "65526112",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526105",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
         "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
