@@ -35,6 +35,10 @@ function parseSolightProduct(rawXml) {
   const costEUR = toFloatComma(text(p.eur_vase_cena_bez_dph));
   const eshopPriceEUR = toFloatComma(text(p.eur_eshop_price));
   const stockQty = toFloatComma(text(p.skladem));
+  // Solight posiela minimálny objednateľný počet priamo v <MINQTY>.
+  // <package> je veľkosť kartónu/balenia dodávateľa a NIE JE minimálny odber.
+  const minQty = toFloatComma(text(p.MINQTY));
+  const packageQty = toFloatComma(text(p.package));
   const deliveryDate = text(p.delivery_date);
   const categoryRaw = text(p.sk_hlsekce_nazev);
   const videoLink = text(p.videolink);
@@ -61,7 +65,7 @@ function parseSolightProduct(rawXml) {
 
   return {
     code, ean, name, description, shortDescFallback, manufacturer, warranty, weightKg,
-    costEUR, eshopPriceEUR, stockQty, deliveryDate, categoryRaw, videoLink, images, docs, params,
+    costEUR, eshopPriceEUR, stockQty, minQty, packageQty, deliveryDate, categoryRaw, videoLink, images, docs, params,
   };
 }
 
