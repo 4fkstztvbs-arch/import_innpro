@@ -88,3 +88,18 @@ Preferred pilot suppliers when appropriate:
 
 ## URL policy
 Product URLs must not be changed without explicit approval.
+
+## Durable content overrides
+
+Product descriptions, localization, internal-link blocks and other content improvements must survive subsequent supplier imports.
+
+Before implementing a content change:
+- determine which import/transform owns the target field
+- determine whether a supplier import overwrites it
+- use an approved persistent override/localization/post-processing layer when necessary
+- add invariant validation appropriate to the changed field
+
+A one-off manual Shoptet edit that will be overwritten by the next supplier import is not considered a completed implementation.
+
+Follow `product-content-seo.md` and `../runbooks/product-content-seo.md` for product-content rollouts.
+
