@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-09-21
+# Cenové anomálie vynechané z feedu — innpro — 2026-09-22
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -16,6 +16,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 082505 | 6977973410348 | Pripojovací modul k kosačke MOVA LiDAX Ultra 800 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084865 | 6978390540472 | Robotický čistič okien MOVA N1 (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084669 | 6978794731711 | Vysávač MOVA S7 Ultra Stick | nulová/neplatná cena |  | 0.00 € |  |  |
+| 085045 | 6977728949031 | MOVA NutriPal 10 Ultra (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 085053 | 6978794730554 | MOVA LitterBot LR10 Prime (sivý) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 087071 | 6971867511159 | SUNSUN CUF-5011 11 W čerpadlo do fontány | nulová/neplatná cena |  | 0.00 € |  |  |
 | 087482 | 6937224142831 | Multifunkčný modul pre DJI Osmo Mobile | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -24,6 +25,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 087490 | 6937224129771 | Program ochrany DJI Care Refresh pre Osmo Mobile 8P (1-ročný program) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 087491 | 6937224129764 | Program ochrany DJI Care Refresh pre Osmo Mobile 8P (2-ročný program) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
+| 089590 | 6978794734194 | Vysávač MOVA K30 Lite | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090052 | 6923520270330 | Herné slúchadlá EDIFIER HECATE G5 Max (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090051 | 6923520270323 | Herné slúchadlá EDIFIER HECATE G5 Max BT (sivé) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -44,4 +46,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 24 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
+| 089027 | 6975069302393 | Súprava na čistenie fontány pre domáce zvieratá Petkit | cena mimo 8x rozsah mediánu kategórie | 54.50 € | 5.30 € | 1/10.3x | 23 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |

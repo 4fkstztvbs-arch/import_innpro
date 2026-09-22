@@ -597,7 +597,7 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Skrutkovače, bity a imbusy": 5
  },
  "Náradie > Spájkovačky": {
-  "Dielňa, náradie a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky": 20
+  "Dielňa, náradie a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky": 18
  },
  "Náradie > Tašky a boxy na náradie": {
   "Dielňa, náradie a záhrada > Dielenské vybavenie": 4
@@ -825,7 +825,7 @@
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika": 78
  },
  "Smart hodinky > Smart prstene": {
-  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika": 97
+  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika": 96
  },
  "Smartfóny a tablety > Smartfóny": {
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny": 14
@@ -897,7 +897,7 @@
   "Dielňa, náradie a záhrada > Záhrada a bazén > Zariadenia na čistenie bazénov": 31
  },
  "Záhrada > Zavlažovacie systémy": {
-  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy": 51
+  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy": 53
  },
  "Zdravie a krása > Erotika > Vibrátory": {
   "Zdravie a starostlivosť > Starostlivosť o zdravie": 2
@@ -960,36 +960,39 @@
   "Chovateľské potreby > Akvaristika": 62
  },
  "Zvieratá > Dávkovače krmiva > misky": {
-  "Chovateľské potreby > Misky a dávkovače krmiva": 37
+  "Chovateľské potreby > Misky a dávkovače krmiva": 39
  },
  "Zvieratá > Dozowniki karmy > Miski": {
   "Chovateľské potreby > Misky a dávkovače krmiva": 4
  },
  "Zvieratá > Fontanny > Poidła": {
-  "Chovateľské potreby > Fontány a napájačky": 5
+  "Chovateľské potreby > Fontány a napájačky": 6
  },
  "Zvieratá > Fontány > napájačky": {
-  "Chovateľské potreby > Fontány a napájačky": 29
+  "Chovateľské potreby > Fontány a napájačky": 32
  },
  "Zvieratá > Hračky": {
   "Chovateľské potreby": 11
  },
+ "Zvieratá > Inteligentne kuwety": {
+  "Chovateľské potreby > Inteligentné toalety pre zvieratá": 4
+ },
  "Zvieratá > Inteligentné toalety pre zvieratá": {
-  "Chovateľské potreby > Inteligentné toalety pre zvieratá": 15
+  "Chovateľské potreby > Inteligentné toalety pre zvieratá": 28
  },
  "Zvieratá > Ostatné príslušenstvo": {
-  "Chovateľské potreby": 27
+  "Chovateľské potreby": 30
  },
  "Zvieratá > Pohlcovače zápachu": {
-  "Chovateľské potreby > Pohlcovače zápachu": 8
+  "Chovateľské potreby > Pohlcovače zápachu": 10
  },
  "Zvieratá > Príslušenstvo pre mačacie toalety": {
-  "Chovateľské potreby > Mačacie toalety a príslušenstvo": 26
+  "Chovateľské potreby > Mačacie toalety a príslušenstvo": 45
  },
  "Zvieratá > Starostlivosť o zvieratá": {
-  "Chovateľské potreby > Starostlivosť o zvieratá": 33
+  "Chovateľské potreby > Starostlivosť o zvieratá": 36
  },
  "Zvieratá > Venčenie a transport": {
-  "Chovateľské potreby > Venčenie a transport": 27
+  "Chovateľské potreby > Venčenie a transport": 28
  }
 }
