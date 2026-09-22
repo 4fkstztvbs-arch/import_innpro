@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27009,
-  "matchedRules": 2633,
-  "changedProducts": 4,
+  "totalProducts": 26968,
+  "matchedRules": 2611,
+  "changedProducts": 202,
   "rejected": [
     {
       "supplier": "innpro",
@@ -363,43 +363,43 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery",
-      "visibleUnique": 8,
-      "active": true,
+      "visibleUnique": 7,
+      "active": false,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
-      "visibleUnique": 43,
+      "visibleUnique": 39,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike",
-      "visibleUnique": 16,
+      "visibleUnique": 13,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k slúchadlám",
-      "visibleUnique": 31,
+      "visibleUnique": 26,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 63,
+      "visibleUnique": 60,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá",
-      "visibleUnique": 36,
+      "visibleUnique": 34,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 108,
+      "visibleUnique": 104,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
