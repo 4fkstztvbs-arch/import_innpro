@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27057,
-  "matchedRules": 2652,
-  "changedProducts": 1179,
+  "totalProducts": 26777,
+  "matchedRules": 2650,
+  "changedProducts": 470,
   "rejected": [
     {
       "supplier": "innpro",
@@ -95,7 +95,36 @@
       "reason": "Reviewed product name changed"
     }
   ],
-  "categoryDrifts": [],
+  "categoryDrifts": [
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13WDS2",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    },
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13PIR",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -141,13 +170,13 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Bojové športy > Boxerské rukavice",
-      "visibleUnique": 122,
+      "visibleUnique": 121,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Bojové športy"
     },
     {
       "path": "Cestovanie, šport a outdoor > Bojové športy > Chrániče pre bojové športy",
-      "visibleUnique": 66,
+      "visibleUnique": 65,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Bojové športy"
     },
@@ -303,7 +332,7 @@
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické káble",
-      "visibleUnique": 51,
+      "visibleUnique": 54,
       "active": true,
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
