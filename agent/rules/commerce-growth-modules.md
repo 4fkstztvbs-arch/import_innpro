@@ -23,6 +23,8 @@ The modules are:
 7. Content gap agent
 8. Seasonal planner
 9. Post-mortem / učenie sa z chýb
+10. Interné vyhľadávanie PremiumStore
+11. Feed & Distribution Manager
 
 ## 1. Sortimentný manažér
 
@@ -408,9 +410,118 @@ The purpose is process/system improvement.
 
 A repeated incident without a new safeguard is considered an incomplete post-mortem.
 
-## Cross-module prioritisation
+## 10. Interné vyhľadávanie PremiumStore
 
-The agent should not run nine independent queues with no prioritisation.
+### Goal
+Turn on-site search behaviour into a direct signal for assortment, naming, content, synonyms, filtering and conversion improvement.
+
+### Inputs
+Use available internal-search evidence such as:
+- search queries
+- zero-result queries
+- queries with many results but no click
+- queries with clicks but weak add-to-cart/conversion
+- spelling variants and typos
+- repeated synonym patterns
+- search refinements
+- result positions/clicked products where available
+
+### Tasks
+Maintain an **INTERNAL SEARCH BACKLOG** covering:
+- zero-result queries with meaningful demand
+- search terms that map poorly to current product names
+- synonyms customers use but catalogue content does not
+- queries that expose assortment gaps
+- queries that indicate category/filter problems
+- high-volume searches with weak conversion
+- typo/normalisation opportunities
+- opportunities to improve product names using real customer vocabulary
+
+### Integration
+Internal-search findings should feed:
+- Sortimentný manažér
+- Product Content Backlog
+- Content Gap Agent
+- Merchandising
+- Category/filter improvements
+- Seasonal Planner
+
+### Guardrails
+Do not create fake products/categories merely to satisfy search.
+
+Do not alter product identity or protected URLs from search-query evidence alone.
+
+Search synonyms, redirects or ranking logic must be tested for relevance and must not hide valid alternatives.
+
+## 11. Feed & Distribution Manager
+
+### Goal
+Keep PremiumStore product data accurate, consistent and useful across external discovery/distribution channels.
+
+### Scope
+Potential channels include:
+- Google Merchant Center / Shopping / free listings
+- Heureka
+- OpenAI product feed
+- other approved marketplaces/comparison engines
+- structured product feeds/API outputs
+- future AI-shopping/discovery surfaces
+
+### Responsibilities
+Maintain a **FEED & DISTRIBUTION BACKLOG** covering:
+- rejected/disapproved products
+- missing required/recommended attributes
+- title/description quality
+- GTIN/EAN consistency
+- category mapping
+- image quality/completeness
+- price consistency
+- availability consistency
+- shipping/delivery fields where applicable
+- product-count drift
+- stale data
+- feed-vs-site conflicts
+- channel-specific eligibility loss
+- AI/discovery readiness of structured product data
+
+### Source-of-truth rule
+External feeds must not invent a separate commercial truth.
+
+Where a channel supports price, availability, ID, GTIN/EAN, shipping or other factual fields, those values must remain consistent with the authoritative PremiumStore source defined in `data-sources.md`.
+
+A feed-specific transformation may improve title, categorization or attributes only when:
+- it is documented
+- it does not change product identity
+- it does not conflict with live factual data
+- it is reversible
+- it is validated against channel requirements
+
+### Monitoring
+Track per channel where available:
+- submitted products
+- approved/eligible products
+- disapproved products
+- warnings
+- product coverage
+- attribute completeness
+- feed freshness
+- price/availability mismatch
+- click/order/revenue signal
+- discovery visibility
+- AI-shopping/agentic-discovery metrics if exposed by the platform
+
+### Guardrails
+Do not:
+- hide/remove large product groups from a channel without governed approval
+- rewrite GTIN/EAN/SKU/IDs to force eligibility
+- send false stock/price/delivery claims
+- resolve a feed conflict by guessing which system is correct
+
+When site/feed data conflict, investigate the pipeline and fix the authoritative cause.
+
+
+
+The agent should not run eleven independent queues with no prioritisation.
 
 All backlogs feed into a shared **PremiumStore Opportunity Backlog**.
 
@@ -445,6 +556,8 @@ Summarise:
 - content gaps
 - seasonal readiness
 - post-mortem actions
+- internal-search findings
+- feed/distribution health and eligibility
 - top recommended priorities for next week
 
 ### Monthly/quarterly
