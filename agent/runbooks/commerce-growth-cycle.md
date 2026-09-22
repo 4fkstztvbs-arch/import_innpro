@@ -54,6 +54,12 @@ Check upcoming 6-8 week windows and readiness.
 ### Post-mortem
 Check whether any material incident still lacks permanent safeguards.
 
+### Internal search
+Find zero-result demand, weak query-to-product mapping, synonyms, typos, assortment gaps and high-volume searches with weak conversion.
+
+### Feed & Distribution
+Check channel/feed freshness, eligibility, disapprovals, product-count drift, title/attribute quality, GTIN/category/image completeness and site-vs-feed factual consistency.
+
 ## 3. Cluster
 
 Do not create hundreds of duplicate tasks.
@@ -67,6 +73,8 @@ Cluster by likely root cause, for example:
 - tracking issue
 - seasonal readiness
 - pricing/context issue
+- internal-search mapping issue
+- external feed/channel eligibility issue
 
 ## 4. Prioritise
 
@@ -151,4 +159,6 @@ Examples:
 - bundle suggestions can become autonomous before automatic bundle pricing.
 - competitor monitoring can become autonomous while price changes remain approval-gated.
 - post-mortem generation can be autonomous while production remediation remains governed.
+- internal-search diagnostics can become autonomous before synonym/ranking changes.
+- feed health monitoring can become autonomous while large channel inclusion/exclusion changes remain governed.
 
