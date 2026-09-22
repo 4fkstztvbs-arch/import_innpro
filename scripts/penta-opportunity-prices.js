@@ -5,6 +5,8 @@ const path = require('path');
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { POLICY } = require('./heureka-pricing');
 
+const PENTA_MIN_GROSS_MARGIN_PCT = 5;
+
 const CONFIG_PATH = path.join(__dirname, '..', 'data', 'penta-opportunity-prices.json');
 
 let cache;
@@ -43,4 +45,22 @@ function applyPentaOpportunityPrice(ean, computedPriceInclVat, purchasePriceExcl
   return Math.max(floor, target);
 }
 
-module.exports = { applyPentaOpportunityPrice, loadPentaOpportunityPrices, CONFIG_PATH };
+// Penta-specific final safety clamp requested for the opportunity rollout: true gross margin
+// (profit / net selling price), not markup over cost. This runs after the dynamic Heureka target
+// so no later pricing step can push a Penta product below 5% gross margin.
+function enforcePentaGrossMarginFloor(priceInclVat, purchasePriceExclVat, vatPct) {
+  if (!(Number.isFinite(priceInclVat) && priceInclVat > 0)
+      || !(Number.isFinite(purchasePriceExclVat) && purchasePriceExclVat > 0)
+      || !Number.isFinite(vatPct) || vatPct < 0) return priceInclVat;
+  const minNetSell = purchasePriceExclVat / (1 - PENTA_MIN_GROSS_MARGIN_PCT / 100);
+  const minInclVat = roundPriceUp(minNetSell * (1 + vatPct / 100));
+  return Math.max(priceInclVat, minInclVat);
+}
+
+module.exports = {
+  applyPentaOpportunityPrice,
+  enforcePentaGrossMarginFloor,
+  loadPentaOpportunityPrices,
+  CONFIG_PATH,
+  PENTA_MIN_GROSS_MARGIN_PCT,
+};
