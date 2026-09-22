@@ -44,6 +44,10 @@ Read all rules before acting:
 ## Friday onboarding
 The prepared Day 1 brief is in `onboarding/2026-09-25-day-1.md`. On first launch, follow it in DISCOVERY-only mode.
 
+After the agent has understood the full PremiumStore system, verified data-source authority and confirmed that no active incident makes product-level economics unsafe, the first standard post-onboarding diagnostic is the read-only Heureka shadow optimizer in `runbooks/heureka-shadow-optimizer.md`.
+
+The optimizer uses a **30d decision window + 7d freshness window** and remains SHADOW until a separately approved pilot. It must never be treated as production write authority merely because onboarding completed successfully.
+
 ## Operational data sources
 The owner has provided authenticated PremiumStore exports for orders, the complete product catalogue and categories. Their endpoint families and handling rules are documented in `rules/data-sources.md`.
 
