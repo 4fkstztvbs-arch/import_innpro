@@ -132,6 +132,22 @@ Do not put raw order/customer PII or authenticated export URLs into Slack.
 
 **Status:** PASS
 
+### Product Content & SEO Improvement
+
+Prepared:
+- dedicated governance in `agent/rules/product-content-seo.md`
+- execution workflow in `agent/runbooks/product-content-seo.md`
+- prioritized Product Content Backlog model
+- verified-facts-only product rewrite standard
+- internal linking and compatibility-safe cross-sell rules
+- import-persistent override requirement
+- staged product-content rollout
+- Seasonal Merchandising Backlog and stable seasonal URL principle
+
+During Day 1 this remains audit/backlog only. Production publishing starts only through scoped pilots under the normal governance and import-safety rules.
+
+**Status:** READY FOR DISCOVERY / PILOT AFTER ONBOARDING
+
 ## Heureka readiness
 
 Available now:
