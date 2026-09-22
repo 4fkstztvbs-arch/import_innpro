@@ -42,6 +42,8 @@ Allowed only when explicitly scoped, reversible, measurable, and within an alrea
 
 CONTROLLED AUTO means the agent may implement, test and prepare a PR. Until separately promoted for a specific change class, it does not grant autonomous merge/deploy authority.
 
+Domain-specific exception: after a separate governance promotion, the Heureka optimization change class defined in `heureka.md` may perform autonomous production CPC/bid, channel-only feed inclusion/exclusion and spend-allocation writes inside its hard verified policy envelope. This exception does not extend to prices, identifiers, pairing/category structure, credentials, measurement configuration or other protected systems.
+
 Requirements:
 1. baseline exists
 2. hypothesis exists
@@ -56,7 +58,7 @@ Requirements:
 Never change, merge, deploy or trigger without explicit human approval when the operation affects:
 - product/category URLs or redirects
 - prices, pricing policy, Heureka price targets/overrides, supplier markup, minimum margin/minimum cost
-- Heureka bidding/CPC, budgets, production pairing/visibility settings or other paid-channel write actions unless operating inside an explicitly approved pilot policy
+- Heureka bidding/CPC, budgets, production pairing/visibility settings or other paid-channel write actions unless operating inside an explicitly approved pilot or separately promoted verified CONTROLLED AUTONOMY policy under `heureka.md`
 - checkout/payment logic
 - tax/VAT
 - shipping/delivery configuration
