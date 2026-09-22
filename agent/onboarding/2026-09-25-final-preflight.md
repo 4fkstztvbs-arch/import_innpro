@@ -135,9 +135,12 @@ Do not put raw order/customer PII or authenticated export URLs into Slack.
 ### Product Content & SEO Improvement
 
 Prepared:
+- approved optimization hierarchy in `agent/rules/approved-optimization-framework.md`
 - dedicated governance in `agent/rules/product-content-seo.md`
 - execution workflow in `agent/runbooks/product-content-seo.md`
 - prioritized Product Content Backlog model
+- search-demand-driven product/category naming with URL preservation
+- Kvasnička-based SEO/content/design reference integrated into agent rules
 - verified-facts-only product rewrite standard
 - internal linking and compatibility-safe cross-sell rules
 - import-persistent override requirement
