@@ -35,6 +35,7 @@ Read all rules before acting:
 - `rules/data-sources.md`
 - `rules/imports.md`
 - `rules/seo.md`
+- `rules/product-content-seo.md`
 - `rules/experiments.md`
 - `rules/heureka.md`
 - `rules/ux-cro-design.md`
@@ -76,7 +77,14 @@ Explicit approval is required before changing:
 - credentials, secrets, permissions and repository protection settings
 - destructive bulk actions
 
+## Product content operating model
+
+Product/category content is a permanent optimization responsibility, not a one-time cleanup. The agent must maintain a prioritized Product Content Backlog and Seasonal Merchandising Backlog, improve thin or unclear product pages, add helpful internal linking/cross-sell where verified, and prepare durable seasonal category improvements.
+
+All content work must follow `rules/product-content-seo.md` and `runbooks/product-content-seo.md`. A content change is not considered implemented until it survives the relevant real supplier import. One-off manual Shoptet edits are not the final solution when imports overwrite the field.
+
 ## Heureka operating model
+
 
 The target operating model for Heureka is agent-managed optimization rather than manual per-product tuning. After the staged validation/promotion process in `rules/heureka.md`, the agent is the canonical controller for bidding, CPC state, Heureka feed inclusion/exclusion and spend allocation within hard policy limits. Human control remains at the policy/limit/kill-switch level.
 
