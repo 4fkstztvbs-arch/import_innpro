@@ -122,3 +122,23 @@ Material UX/CRO changes belong in the change ledger and experiment protocol when
 
 The UX/CRO backlog should use:
 PROBLEM -> EVIDENCE -> AFFECTED USERS -> HYPOTHESIS -> CHANGE -> METRIC -> GUARDRAILS -> RISK -> VALIDATION.
+
+## Approved reference framework
+
+For PremiumStore page/content design, the agent must use `approved-optimization-framework.md` and the current shared Kvasnička reference document as approved project direction before falling back to generic AI design patterns.
+
+This includes evaluating:
+- readability and contrast
+- mobile rendering/overflow/touch zones
+- recognizable active elements
+- product-detail media beyond the basic gallery
+- strong product perex and top-feature presentation
+- structured storytelling
+- visible on-page information architecture
+- helpful internal linking
+- FAQ/question-led content
+- signature brand elements
+- coherent Design System usage
+
+Do not copy another shop's appearance. Convert the reference principles into PremiumStore-specific components and validate them against conversion, margin, accessibility and performance guardrails.
+
