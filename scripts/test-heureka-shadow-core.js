@@ -51,6 +51,17 @@ test('low sample stays WATCH', () => {
   assert.equal(result.state, 'WATCH');
 });
 
+test('existing exclusion stays fail-closed until reentry evidence', () => {
+  const result = decideProduct({
+    performance: { paidVisits: 80, paidOrders: 6, paidCostExVat: 20, distinctPaidDays: 10, postExistingExclusionOrders: 0 },
+    economics,
+    operational: {},
+    existingExcluded: true,
+  }, policy);
+  assert.equal(result.state, 'EXCLUDE');
+  assert.equal(result.action, 'KEEP_EXCLUDED');
+});
+
 test('missing purchase price can never trigger EXCLUDE', () => {
   const result = decideProduct({
     performance: { paidVisits: 100, paidOrders: 0, paidCostExVat: 100, distinctPaidDays: 10 },
