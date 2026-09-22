@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-09-22 10:27 UTC.
+Kontrola z 2026-09-22 20:15 UTC.
 
-Solight pri **509** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **508** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -84,7 +84,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
-| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -128,6 +127,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ534` | Solight LED žiarovka, klasický tvar, 18W, E27, 4000K, 270°,  | 6 | 100 |
 | `WT118` | Solight LED NANO žiarivka lineárna T8, 9W, 800lm, 6000K, 60c | 6 | 25 |
 | `1V215` | Solight LED reťaz retiazka s dekoráciami, 20LED reťaz, 1m, 2 | 6 | 60 |
+| `WO2000-ND3` | Solight napájací kábel pre lineárne osvetlenie, dĺžka 0,3m | 6 | 200 |
 | `1P09` | Solight viazacie nylonové pásky, 3,6 x 300mm, natural, 100ks | 6 | 100 |
 | `1P29` | Solight viazacie nylonové pásky, 3,6 x 300mm, čierna, 100ks | 6 | 150 |
 | `5B303` | Solight vypínač do vlhka IP54, č. 1 jednopólový, sivý | 6 | 48 |
@@ -409,7 +409,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PP141` | Solight predlžovací prívod, 7 zásuviek, biely, vypínač, 2m | 2 | 50 |
 | `1V223-A` | Solight LED dekorácie závesná, les a jeleň, biela a hnedá, 2 | 2 | 50 |
 | `PS15O` | Solight predlžovací prívod - spojka, 1 zásuvka, 7m, 3 x 1mm2 | 2 | 20 |
-| `WL909` | Solight nočné LED svetielko s pohybovým a svetelným sensorom | 2 | 60 |
 | `WPIR04-B` | Solight PIR senzor nástenný, vonkajší, čierny | 2 | 100 |
 | `WN904` | Solight náhradný akumulátor typ 18650, 3,7 V, Li-Ion 3350mAh | 2 | 400 |
 | `PP32X` | Solight predlžovací prívod 3m, 4 zásuvky, vypínač, 16A/3680W | 2 | 40 |
