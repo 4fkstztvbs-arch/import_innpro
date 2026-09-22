@@ -5,7 +5,8 @@
     "name": "Pec na pizzu G21 Bianca multifunkčná, 400 °C",
     "targetPriceInclVat": 204.5,
     "marketMinInclVat": 204.8,
-    "source": "Heureka.sk live check 2026-09-22"
+    "source": "Heureka.sk live check 2026-09-22",
+    "protectMargin": true
   },
   "8885020629903": {
     "enabled": true,
@@ -13,15 +14,17 @@
     "name": "Kamera TP-Link Tapo C675D KIT",
     "targetPriceInclVat": 223.9,
     "marketMinInclVat": 224.14,
-    "source": "Heureka.sk live check 2026-09-22"
+    "source": "Heureka.sk live check 2026-09-22",
+    "protectMargin": true
   },
   "1210002635448": {
     "enabled": true,
     "code": "65526000",
     "name": "Vysávač TP-Link Tapo RV30 Max Plus Gen2",
-    "targetPriceInclVat": 183.0,
+    "targetPriceInclVat": 183,
     "marketMinInclVat": 183.12,
-    "source": "Heureka.sk live check 2026-09-22"
+    "source": "Heureka.sk live check 2026-09-22",
+    "protectMargin": true
   },
   "8595627425159": {
     "enabled": true,
@@ -29,7 +32,8 @@
     "name": "Komorová vákuovačka G21 Virtuous",
     "targetPriceInclVat": 462.5,
     "marketMinInclVat": 462.54,
-    "source": "Heureka.sk live check 2026-09-22"
+    "source": "Heureka.sk live check 2026-09-22",
+    "protectMargin": true
   },
   "8885020629750": {
     "enabled": true,
@@ -37,6 +41,149 @@
     "name": "Kamera TP-Link Tapo C645D KIT",
     "targetPriceInclVat": 184.5,
     "marketMinInclVat": 184.77,
-    "source": "Heureka.sk live check 2026-09-22"
+    "source": "Heureka.sk live check 2026-09-22",
+    "protectMargin": true
+  },
+  "8595627429164": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022442",
+    "name": "Termoska G21 nerezová 3800 ml, čierno-sivá",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429270": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022450",
+    "name": "Termohrnček G21 FlowCup 1200 ml – pieskovo béžový",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627423988": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022404",
+    "name": "Termoska G21 na pitie, 1000 ml, zelená s rukoväťou",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429157": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022441",
+    "name": "Termoska G21 nerezová 2500 ml, čierno-sivá",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627420543": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "600970",
+    "name": "Vákuovacia dóza G21 2 L, marinovacia",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "5999056766556": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "600228",
+    "name": "Berlingerhaus BH-1256 20 cm",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429140": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022440",
+    "name": "Termoska G21 nerezová 1200 ml, čierno-sivá",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "5999056793071": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "6340662",
+    "name": "Berlingerhaus BH-1931 28 cm",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429317": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022454",
+    "name": "Termoska na jedlo G21 500 ml – pieskovo béžová",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8594196538796": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "7822013",
+    "name": "Aróma difuzér Sixtol Palm biele drevo 500 ml",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429287": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022451",
+    "name": "Termohrnček G21 FlowCup 1200 ml – levanduľový",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429096": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "6009718",
+    "name": "Vákuovacia dóza G21 1900 ml, nerezová",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8594196538673": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "7822042",
+    "name": "Aróma difuzér Sixtol Vulcan biely lesk 350 ml",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429300": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022453",
+    "name": "Termohrnček G21 FlowCup 1200 ml - grafitovo modrý",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429294": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022452",
+    "name": "Termohrnček G21 FlowCup 1200 ml – eukalyptovo zelený",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627423995": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022405",
+    "name": "Termoska G21 na pitie, 1000 ml, šedá s rukoväťou",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8594196538802": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "7822014",
+    "name": "Aróma difuzér Sixtol Palm svetlé drevo 500 ml",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8594196538857": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "7822016",
+    "name": "Aróma difuzér Sixtol Palm čierny lesk 500 ml",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
+  },
+  "8595627429324": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "60022455",
+    "name": "Termoska na jedlo G21 500 ml – eukalyptovo zelená",
+    "source": "Heureka sortiment report 2026-09-22 13:59",
+    "targetPriceInclVat": 19.5,
+    "marketMinInclVat": 19.9
+  },
+  "8594196538680": {
+    "enabled": true,
+    "protectMargin": true,
+    "code": "7822010",
+    "name": "Aróma difuzér Sixtol Vulcan čierny lesk 350 ml",
+    "source": "Heureka sortiment report 2026-09-22 13:59"
   }
 }
