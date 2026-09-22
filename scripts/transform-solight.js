@@ -195,8 +195,9 @@ function buildShopitemXml(p) {
   const extraCats = [...new Set((p.extraCategories || []).filter((c) => c && c !== p.defaultCategory))];
   if (p.defaultCategory || extraCats.length) {
     parts.push('<CATEGORIES>');
-    if (p.defaultCategory) parts.push(`  <DEFAULT_CATEGORY>${xmlCdata(p.defaultCategory)}</DEFAULT_CATEGORY>`);
+    // Shoptet RNG vyžaduje CATEGORY elementy pred DEFAULT_CATEGORY.
     extraCats.forEach((c) => parts.push(`  <CATEGORY>${xmlCdata(c)}</CATEGORY>`));
+    if (p.defaultCategory) parts.push(`  <DEFAULT_CATEGORY>${xmlCdata(p.defaultCategory)}</DEFAULT_CATEGORY>`);
     parts.push('</CATEGORIES>');
   }
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
