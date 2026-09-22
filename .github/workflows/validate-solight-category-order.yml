@@ -1,0 +1,23 @@
+name: Validate Solight category order test
+
+on:
+  push:
+    branches:
+      - test/solight-category-order-rng
+    paths:
+      - test/solight-category-order.xml
+      - .github/workflows/validate-solight-category-order.yml
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XML validator
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+      - name: Download current Shoptet complete RNG
+        run: |
+          curl -fsSL https://www.shoptet.cz/export/schema/products-complete-v10.rng -o /tmp/products-complete-v10.rng
+          curl -fsSL https://www.shoptet.cz/export/schema/products-datatype-v10.rng -o /tmp/products-datatype-v10.rng
+      - name: Validate
+        run: xmllint --noout --relaxng /tmp/products-complete-v10.rng test/solight-category-order.xml
