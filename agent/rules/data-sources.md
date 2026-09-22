@@ -19,6 +19,25 @@ Full authenticated URL:
 
 This source may contain customer/order personal data. Apply `security.md`: minimize access, never commit raw exports, never copy customer PII into PRs/issues/reports, and prefer aggregate metrics.
 
+### Margin orders export
+Purpose:
+- historical order-level purchase-cost validation
+- exact gross-margin reconstruction when joined to the standard orders export
+- reconciliation of supplier purchase costs against Shoptet order purchase cost
+
+Runtime secret:
+- `PREMIUMSTORE_ORDERS_MARGIN_EXPORT_URL`
+
+This is the custom Shoptet XML export containing order-level `PURCHASE_PRICE` plus product item identity. Treat it as private operational data with the same PII restrictions as the standard orders export.
+
+Use the two order exports together:
+- standard orders export -> product-level sale values ex VAT, CODE/EAN, source/referer, status
+- margin orders export -> historical order-level purchase price
+- exact historical gross margin for an overlapping active order can be derived privately as:
+  `sum(product sales ex VAT) - order PURCHASE_PRICE`
+
+Do not print order-level monetary values or customer data to public GitHub logs. Aggregate health/coverage percentages are allowed.
+
 ### Complete products export
 Purpose:
 - current live product catalogue reference
