@@ -18,7 +18,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: Audit source feed
+      - name: Audit MINQTY and package
         env:
           SOLIGHT_URL: ${{ secrets.SOLIGHT_URL }}
         run: |
@@ -28,9 +28,7 @@ jobs:
           const { XMLParser } = require('fast-xml-parser');
 
           const url = process.env.SOLIGHT_URL;
-          if (!url) throw new Error('Missing SOLIGHT_URL');
           const client = url.startsWith('https:') ? https : http;
-
           function get(u) {
             return new Promise((resolve,reject)=>{
               client.get(u,res=>{
@@ -43,68 +41,61 @@ jobs:
               }).on('error',reject);
             });
           }
+          const txt = v => {
+            if(v===undefined||v===null) return '';
+            if(typeof v==='object' && '#text' in v) return String(v['#text']).trim();
+            return String(v).trim();
+          };
+          const num = v => {
+            const n=parseFloat(txt(v).replace(',','.'));
+            return Number.isFinite(n)?n:0;
+          };
 
           (async()=>{
-            const xml = await get(url);
-            console.log('bytes', Buffer.byteLength(xml));
-
-            // Enumerate raw tag names and suspicious MOQ/package-related fields.
-            const tags = new Map();
-            for (const m of xml.matchAll(/<([A-Za-z0-9_:-]+)(?:\s[^>]*)?>/g)) {
-              const t=m[1]; tags.set(t,(tags.get(t)||0)+1);
-            }
-            const suspicious = [...tags.keys()].filter(t =>
-              /(min|bal|pack|kart|box|mno|poc|počet|kus|qty|quant|odb|objed|nasob|násob|unit|jedn)/i.test(t)
-            );
-            console.log('SUSPICIOUS_TAGS', JSON.stringify(suspicious.sort()));
-
-            const productBlocks = [...xml.matchAll(/<product>[\s\S]*?<\/product>/gi)].map(m=>m[0]);
-            console.log('products', productBlocks.length);
-
-            const words = [
-              'balení','balenie','baleni','minim','minimum','min.','karton','kartón',
-              'balík','balik','počet kus','pocet kus','kusů','kusov','násob','nasob',
-              'množství','mnozstvi','odběr','odber','objednáv','objednav','package','pack'
-            ];
-
-            const hits=[];
-            for (let i=0;i<productBlocks.length;i++) {
-              const b=productBlocks[i];
-              const low=b.toLowerCase();
-              if (!words.some(w=>low.includes(w.toLowerCase()))) continue;
-              const code=(b.match(/<objednaci_cislo>([\s\S]*?)<\/objednaci_cislo>/i)||[])[1]||'';
-              const name=(b.match(/<sk_nazev>([\s\S]*?)<\/sk_nazev>/i)||[])[1]||'';
-              const snippets=[];
-              for (const w of words) {
-                let pos=low.indexOf(w.toLowerCase());
-                if(pos>=0) snippets.push(b.slice(Math.max(0,pos-180),Math.min(b.length,pos+280)).replace(/\s+/g,' '));
-              }
-              hits.push({code:code.replace(/<[^>]+>/g,''),name:name.replace(/<[^>]+>/g,''),snippets:[...new Set(snippets)].slice(0,4)});
-              if(hits.length>=80) break;
-            }
-            console.log('TEXT_HITS_COUNT', hits.length);
-            console.log('TEXT_HITS', JSON.stringify(hits,null,2));
-
-            // Parse products and list top-level keys + PARAM names/values that look relevant.
-            const parser=new XMLParser({ignoreAttributes:true,isArray:(n)=>n==='PARAM'});
-            const keyCounts=new Map();
-            const paramMap=new Map();
-            for(const b of productBlocks){
+            const xml=await get(url);
+            const blocks=[...xml.matchAll(/<product>[\s\S]*?<\/product>/gi)].map(m=>m[0]);
+            const parser=new XMLParser({ignoreAttributes:true,textNodeName:'#text'});
+            const rows=[];
+            for(const b of blocks){
               let p; try{p=parser.parse(b).product}catch{continue}
               if(!p) continue;
-              for(const k of Object.keys(p)) keyCounts.set(k,(keyCounts.get(k)||0)+1);
-              const params=Array.isArray(p.PARAM)?p.PARAM:(p.PARAM?[p.PARAM]:[]);
-              for(const par of params){
-                const n=String(par.PARAM_NAME||'').trim();
-                const v=String(par.VAL||'').trim();
-                if (/(min|bal|pack|kart|box|mno|počet|pocet|kus|odb|objed|nasob|násob|jedn)/i.test(n+' '+v)){
-                  const key=n+'|||'+v;
-                  paramMap.set(key,(paramMap.get(key)||0)+1);
-                }
-              }
+              rows.push({
+                code:txt(p.objednaci_cislo),
+                name:txt(p.sk_nazev)||txt(p.nazev)||txt(p.cs_nazev),
+                minqty:num(p.MINQTY),
+                package:num(p.package),
+                stock:num(p.skladem),
+                cost:num(p.eur_vase_cena_bez_dph),
+                eshop:num(p.eur_eshop_price)
+              });
             }
-            const suspKeys=[...keyCounts.keys()].filter(t=>/(min|bal|pack|kart|box|mno|poc|počet|kus|qty|quant|odb|objed|nasob|násob|unit|jedn)/i.test(t));
-            console.log('SUSPICIOUS_TOP_LEVEL_KEYS', JSON.stringify(suspKeys));
-            console.log('RELEVANT_PARAMS', JSON.stringify([...paramMap.entries()].sort((a,b)=>b[1]-a[1]).slice(0,200),null,2));
+            const dist = key => {
+              const o={}; for(const r of rows){const v=String(r[key]);o[v]=(o[v]||0)+1}
+              return Object.fromEntries(Object.entries(o).sort((a,b)=>Number(a[0])-Number(b[0])));
+            };
+            const gt1=rows.filter(r=>r.minqty>1);
+            const pkgGt1=rows.filter(r=>r.package>1);
+            const both=rows.filter(r=>r.minqty>1&&r.package>1);
+            const equal=both.filter(r=>r.minqty===r.package);
+            const diff=both.filter(r=>r.minqty!==r.package);
+            const minAbsent=rows.filter(r=>r.minqty===0);
+            const packageAbsent=rows.filter(r=>r.package===0);
+
+            console.log('SUMMARY',JSON.stringify({
+              total:rows.length,
+              minqtyGt1:gt1.length,
+              packageGt1:pkgGt1.length,
+              bothGt1:both.length,
+              bothEqual:equal.length,
+              bothDifferent:diff.length,
+              minqtyZeroOrMissing:minAbsent.length,
+              packageZeroOrMissing:packageAbsent.length,
+              minqtyDistribution:dist('minqty'),
+              packageDistribution:dist('package')
+            },null,2));
+
+            console.log('MINQTY_GT1_SAMPLES',JSON.stringify(gt1.slice(0,100),null,2));
+            console.log('MINQTY_PACKAGE_DIFFERENT',JSON.stringify(diff.slice(0,100),null,2));
+            console.log('PACKAGE_GT1_MINQTY_LE1_SAMPLES',JSON.stringify(rows.filter(r=>r.package>1&&r.minqty<=1).slice(0,60),null,2));
           })().catch(e=>{console.error(e);process.exit(1)});
           NODE
