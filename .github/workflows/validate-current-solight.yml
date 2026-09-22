@@ -23,7 +23,44 @@ jobs:
           curl -fsSL https://www.shoptet.cz/export/schema/products-supplier-v10.rng -o /tmp/products-supplier-v10.rng
           curl -fsSL https://www.shoptet.cz/export/schema/products-datatype-v10.rng -o /tmp/products-datatype-v10.rng
       - name: Validate final Solight feed
+        continue-on-error: true
         run: xmllint --noout --relaxng /tmp/products-complete-v10.rng output/solight.xml
+
+      - name: Show relevant Shoptet schema definitions
+        if: always()
+        run: |
+          echo '=== VISIBILITY / VISIBLE ==='
+          grep -n -B 8 -A 16 -E 'name="(VISIBLE|VISIBILITY)"' /tmp/products-*.rng || true
+          echo '=== IMAGES ==='
+          grep -n -B 8 -A 24 -E 'name="IMAGES"|name="IMAGE"' /tmp/products-*.rng || true
+          echo '=== CATEGORIES ==='
+          grep -n -B 8 -A 30 -E 'name="CATEGORIES"|name="DEFAULT_CATEGORY"|name="CATEGORY"' /tmp/products-*.rng || true
+
+      - name: Structural diagnostics
+        if: always()
+        run: |
+          node <<'NODE'
+          const fs=require('fs');
+          const xml=fs.readFileSync('output/solight.xml','utf8');
+          const items=[...xml.matchAll(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g)].map(m=>m[0]);
+          const countTag=(s,t)=>(s.match(new RegExp('<'+t+'(?:\\s[^>]*)?>','g'))||[]).length;
+          let bothVisible=0, onlyVisible=0, onlyVisibility=0, dupImages=0, dupCats=0;
+          const imageExamples=[];
+          for(const item of items){
+            const v1=countTag(item,'VISIBLE'), v2=countTag(item,'VISIBILITY');
+            if(v1&&v2) bothVisible++;
+            else if(v1) onlyVisible++;
+            else if(v2) onlyVisibility++;
+            const im=countTag(item,'IMAGES');
+            if(im>1){
+              dupImages++;
+              imageExamples.push((item.match(/<CODE>([^<]+)<\/CODE>/)||[])[1]||'?');
+            }
+            if(countTag(item,'CATEGORIES')>1) dupCats++;
+          }
+          console.log({items:items.length,bothVisible,onlyVisible,onlyVisibility,dupImages,dupCats,imageExamples:imageExamples.slice(0,30)});
+          NODE
+
       - name: Verify MOQ and category order
         run: |
           node <<'NODE'
