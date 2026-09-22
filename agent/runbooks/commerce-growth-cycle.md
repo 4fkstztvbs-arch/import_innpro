@@ -60,6 +60,9 @@ Find zero-result demand, weak query-to-product mapping, synonyms, typos, assortm
 ### Feed & Distribution
 Check channel/feed freshness, eligibility, disapprovals, product-count drift, title/attribute quality, GTIN/category/image completeness and site-vs-feed factual consistency.
 
+### Returned stock recovery
+Check physically confirmed returned/open-box units, condition grade, cost basis, listing state, age, current clearance price and whether a markdown/escalation is due. Never infer sellable condition from order status alone.
+
 ## 3. Cluster
 
 Do not create hundreds of duplicate tasks.
@@ -75,6 +78,7 @@ Cluster by likely root cause, for example:
 - pricing/context issue
 - internal-search mapping issue
 - external feed/channel eligibility issue
+- returned/open-box stock ageing or listing/pricing issue
 
 ## 4. Prioritise
 
@@ -161,4 +165,5 @@ Examples:
 - post-mortem generation can be autonomous while production remediation remains governed.
 - internal-search diagnostics can become autonomous before synonym/ranking changes.
 - feed health monitoring can become autonomous while large channel inclusion/exclusion changes remain governed.
+- returned-stock detection/reporting can become autonomous before condition classification and pricing writes; controlled markdown automation requires a separately approved clearance pricing policy.
 
