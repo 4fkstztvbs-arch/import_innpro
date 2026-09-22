@@ -9,6 +9,7 @@ A change has production effect if it can alter customer-visible behaviour, comme
 - changes to `output/*.xml` consumed by Shoptet
 - supplier transforms, mappings, dedupe/category/visibility logic
 - Heureka pricing policy, targets, markups, margins, minimum costs or price overrides
+- Heureka bidding/CPC, budgets, pairing/visibility configuration or production channel settings
 - `.github/workflows/**` that can write, deploy or regenerate production-connected outputs
 - Cloudflare Worker code/configuration
 - Omega stock-card state or APIs
@@ -55,6 +56,7 @@ Requirements:
 Never change, merge, deploy or trigger without explicit human approval when the operation affects:
 - product/category URLs or redirects
 - prices, pricing policy, Heureka price targets/overrides, supplier markup, minimum margin/minimum cost
+- Heureka bidding/CPC, budgets, production pairing/visibility settings or other paid-channel write actions unless operating inside an explicitly approved pilot policy
 - checkout/payment logic
 - tax/VAT
 - shipping/delivery configuration
