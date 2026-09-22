@@ -1,0 +1,53 @@
+name: Validate current Solight XML
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/validate-current-solight.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XML validator
+        run: sudo apt-get update && sudo apt-get install -y libxml2-utils
+      - name: Download current Shoptet RNG schemas
+        run: |
+          curl -fsSL https://www.shoptet.cz/export/schema/products-complete-v10.rng -o /tmp/products-complete-v10.rng
+          curl -fsSL https://www.shoptet.cz/export/schema/products-supplier-v10.rng -o /tmp/products-supplier-v10.rng
+          curl -fsSL https://www.shoptet.cz/export/schema/products-datatype-v10.rng -o /tmp/products-datatype-v10.rng
+      - name: Validate final Solight feed
+        run: xmllint --noout --relaxng /tmp/products-complete-v10.rng output/solight.xml
+      - name: Verify MOQ and category order
+        run: |
+          node <<'NODE'
+          const fs=require('fs');
+          const xml=fs.readFileSync('output/solight.xml','utf8');
+          const items=[...xml.matchAll(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g)].map(m=>m[0]);
+          let badOrder=0,badMoq=0;
+          const vals=[];
+          for(const item of items){
+            const cb=item.match(/<CATEGORIES>[\s\S]*?<\/CATEGORIES>/)?.[0];
+            if(cb){
+              const dp=cb.indexOf('<DEFAULT_CATEGORY');
+              if(dp<0) throw new Error('Missing DEFAULT_CATEGORY');
+              if(cb.slice(dp).includes('<CATEGORY')) badOrder++;
+            }
+            const mins=[...item.matchAll(/<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>/g)];
+            for(const m of mins) vals.push(Number(m[1]));
+            if(mins.length && !/<STOCK>[\s\S]*?<MINIMAL_AMOUNT>[^<]+<\/MINIMAL_AMOUNT>[\s\S]*?<\/STOCK>/.test(item)) badMoq++;
+          }
+          const dist={}; for(const v of vals) dist[v]=(dist[v]||0)+1;
+          console.log('SHOPITEM_COUNT',items.length);
+          console.log('MINIMAL_AMOUNT_COUNT',vals.length);
+          console.log('BAD_CATEGORY_ORDER',badOrder);
+          console.log('BAD_MOQ_NESTING',badMoq);
+          console.log('DISTRIBUTION',JSON.stringify(dist));
+          if(badOrder||badMoq) process.exit(1);
+          NODE
