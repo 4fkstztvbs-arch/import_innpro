@@ -77,6 +77,66 @@ Never use fuzzy matching or a suggested Heureka product/category as authority fo
 
 Bulk category mapping, identifier changes and material visibility changes remain approval-required.
 
+
+### Pairing diagnostic order and blocked state
+
+For every unmatched-product backlog or pairing candidate, use this order. Do not jump directly to title rewriting or fuzzy matching.
+
+1. **DATA INTEGRITY**
+   - verify that PRODUCTNAME, URL, ITEM_ID/SKU, EAN where available, supplier identity and the actual product refer to the same product
+   - if identity fields conflict, classify the item as `BLOCKED / DATA ERROR`
+   - do not attempt an automatic pairing, title rewrite, category rewrite or identifier substitution for a blocked item
+   - trace the error back to the source/import mechanism and propose a source-level fix
+2. **DUPLICATE / VARIANT CHECK**
+   - detect identical or near-identical names used by multiple SKU/ITEM_ID values
+   - determine whether they are legitimate variants missing a distinguishing attribute, true duplicates, or separate products
+   - do not pair several distinct products to one Heureka product card merely because their names are identical
+3. **PRODUCT FAMILY PATTERN**
+   - cluster unmatched products by brand, model family, series and repeated naming/category pattern
+   - when many products from one family fail in the same way, search for the common root cause and one safe reusable rule instead of editing items one by one
+   - validate the rule on a small representative sample before expanding it to the family
+4. **BUSINESS PRIORITY**
+   - after identity is trustworthy, prioritize by expected commercial value: demand/popularity, price/revenue potential, margin/contribution, availability, strategic importance and confidence of a safe fix
+   - high price alone is not sufficient for priority
+5. **PAIRING CHANGE**
+   - simulate or stage the smallest safe change first
+   - validate the result after Heureka reprocesses the feed
+   - expand only rules that improve correct valuable pairing without introducing identity/category corruption
+
+`BLOCKED / DATA ERROR` is separate from the commercial A-D backlog. A blocked product cannot be promoted into an automatic pairing tier until its identity conflict is resolved.
+
+### Pairing priority tiers
+
+Use value-weighted tiers for products that passed the identity and duplicate/variant checks:
+
+- **Tier A** — high commercial potential, unambiguous product identity and high confidence that a safe pairing/feed fix exists.
+- **Tier B** — meaningful commercial potential with clear identity, but lower confidence, weaker evidence or a fix that needs controlled validation.
+- **Tier C** — lower-value or long-tail products that are safe to investigate, especially when a reusable family rule can resolve many items together.
+- **Tier D** — products with low expected Heureka value, weak demand/evidence, or products where a valid Heureka product card/category may not exist; investigate only after higher-value work unless a family-level fix makes them cheap to resolve.
+
+Do not use the tier label as permission to bypass approval requirements.
+
+### Unmatched-product report as a recurring diagnostic input
+
+Treat the current Heureka unmatched-products export as a recurring diagnostic dataset, not a one-off cleanup list.
+
+Track at minimum:
+- newly unmatched products
+- products resolved since the previous report
+- products still unmatched
+- `BLOCKED / DATA ERROR` items
+- duplicate/variant conflicts
+- product-family clusters and the rule responsible for each attempted fix
+- validation status after Heureka reprocessing
+- regressions caused by a previously successful rule
+
+Measure progress primarily as **Valuable Pairing Coverage** and correct resolved value, not raw item count. The agent should be able to show whether a rule improved valuable correct pairing and whether it created any false pairing, identity, category or reporting regression.
+
+For every reusable family-level pairing rule, keep a validation trail:
+`ROOT CAUSE -> SAMPLE -> PROPOSED RULE -> DRY RUN/DIFF -> HEUREKA REPROCESS -> RESULT -> EXPAND/HOLD/ROLLBACK`
+
+A rule that increases raw pairing while creating wrong product identity is a failure and must be rolled back or blocked.
+
 ## 2. Market and Pricing Engine
 
 Use Heureka market data to understand:
