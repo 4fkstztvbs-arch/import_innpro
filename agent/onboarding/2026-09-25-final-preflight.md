@@ -151,6 +151,27 @@ During Day 1 this remains audit/backlog only. Production publishing starts only 
 
 **Status:** READY FOR DISCOVERY / PILOT AFTER ONBOARDING
 
+### Commerce Growth & Operations modules
+
+Prepared:
+- Sortimentný manažér
+- Automatický merchandising
+- Automatická QA kontrola e-shopu
+- Konkurencia a cenový kontext
+- Bundle / sety / príslušenstvo
+- Experiment manager
+- Content gap agent
+- Seasonal planner
+- Post-mortem / učenie sa z chýb
+- shared prioritisation through one PremiumStore Opportunity Backlog
+- staged autonomy per action class: OBSERVE -> SHADOW -> PILOT -> CONTROLLED AUTONOMY
+- dedicated operating rules in `agent/rules/commerce-growth-modules.md`
+- weekly execution workflow in `agent/runbooks/commerce-growth-cycle.md`
+
+Day 1 is discovery/baseline only. Recommendation and monitoring classes can later be promoted independently from production-write classes.
+
+**Status:** READY FOR DISCOVERY / STAGED PILOTS AFTER ONBOARDING
+
 ## Heureka readiness
 
 Available now:
@@ -186,7 +207,7 @@ Temporary Day 1 rule:
 7. Audit UX/CRO separately for mobile and desktop.
 8. Build Heureka channel baseline.
 9. Run the read-only 30d/7d Heureka shadow optimizer using the freshest available CPC report.
-10. Build opportunity backlogs.
+10. Build Product Content + Commerce Growth module baselines and shared opportunity backlogs.
 11. Store detailed Day 1 report in `AI PremiumStore/05 Reports/`.
 12. Post executive summary to Slack `#premiumstore-ai`.
 
