@@ -48,7 +48,9 @@ function applyPentaOpportunityPrice(ean, computedPriceInclVat, purchasePriceExcl
 // Penta-specific final safety clamp requested for the opportunity rollout: true gross margin
 // (profit / net selling price), not markup over cost. This runs after the dynamic Heureka target
 // so no later pricing step can push a Penta product below 5% gross margin.
-function enforcePentaGrossMarginFloor(priceInclVat, purchasePriceExclVat, vatPct) {
+function enforcePentaGrossMarginFloor(ean, priceInclVat, purchasePriceExclVat, vatPct) {
+  const entry = ean ? loadPentaOpportunityPrices()[String(ean)] : null;
+  if (!entry || entry.protectMargin !== true) return priceInclVat;
   if (!(Number.isFinite(priceInclVat) && priceInclVat > 0)
       || !(Number.isFinite(purchasePriceExclVat) && purchasePriceExclVat > 0)
       || !Number.isFinite(vatPct) || vatPct < 0) return priceInclVat;
