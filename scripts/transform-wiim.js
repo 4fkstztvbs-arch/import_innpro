@@ -92,7 +92,7 @@ function buildShopitemXml(p) {
 
   if (p.category) {
     parts.push('<CATEGORIES>');
-    parts.push(`  <CATEGORY>${xmlCdata(p.category)}</CATEGORY>`);
+    parts.push(`  <DEFAULT_CATEGORY>${xmlCdata(p.category)}</DEFAULT_CATEGORY>`);
     parts.push('</CATEGORIES>');
     const heurekaCategoryId = heurekaCategoryIdFor(p.category);
     if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);

@@ -187,7 +187,7 @@ function buildShopitemXml(p) {
   parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
   if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
 
-  parts.push(`<CATEGORIES><CATEGORY>${xmlCdata(p.defaultCategory)}</CATEGORY></CATEGORIES>`);
+  parts.push(`<CATEGORIES><DEFAULT_CATEGORY>${xmlCdata(p.defaultCategory)}</DEFAULT_CATEGORY></CATEGORIES>`);
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
   if (isHeurekaHidden(p.defaultCategory, p.price) || isCpcNonConverter(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
