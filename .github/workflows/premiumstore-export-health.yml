@@ -1,6 +1,11 @@
 name: PremiumStore export health check
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/premiumstore-export-health.yml'
+      - 'scripts/agent-margin-reconciliation.js'
   schedule:
     # 06:00 UTC / 08:00 CEST — read-only health check after the nightly import batch.
     - cron: '0 6 * * *'
@@ -31,3 +36,6 @@ jobs:
 
       - name: Validate authenticated exports
         run: node scripts/agent-validate-premiumstore-exports.js
+
+      - name: Reconcile recent purchase costs and margin inputs
+        run: node scripts/agent-margin-reconciliation.js
