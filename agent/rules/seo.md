@@ -30,3 +30,14 @@ Do not change without explicit approval:
 - large-scale redirects
 
 Do not infer SEO impact from correlation alone. Prefer before/after measurement with suitable controls where possible.
+
+## Product and seasonal content
+
+Product-page rewrites, internal linking, verified accessory/cross-sell links, category-copy improvement and seasonal merchandising are governed by:
+- `product-content-seo.md`
+- `../runbooks/product-content-seo.md`
+
+Thin content is an ongoing backlog signal, not merely an SEO warning.
+
+Prefer durable improvements that survive supplier imports. Preserve established seasonal URLs when they remain useful; do not recreate the same seasonal category every year merely for freshness.
+
