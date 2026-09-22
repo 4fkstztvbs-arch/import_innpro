@@ -1,0 +1,41 @@
+name: Verify current Solight MOQ
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/verify-solight-moq.yml
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify final Solight XML
+        run: |
+          node <<'NODE'
+          const fs=require('fs');
+          const xml=fs.readFileSync('output/solight.xml','utf8');
+          const items=[...xml.matchAll(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g)].map(m=>m[0]);
+          const vals=[];
+          let bad=0;
+          for(const item of items){
+            const ms=[...item.matchAll(/<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>/g)];
+            for(const m of ms) vals.push(Number(m[1]));
+            if(ms.length && !/<STOCK>[\s\S]*?<MINIMAL_AMOUNT>[^<]+<\/MINIMAL_AMOUNT>[\s\S]*?<\/STOCK>/.test(item)) bad++;
+          }
+          const dist={}; for(const v of vals) dist[v]=(dist[v]||0)+1;
+          console.log('SHOPITEM_COUNT',items.length);
+          console.log('MINIMAL_AMOUNT_COUNT',vals.length);
+          console.log('BAD_NESTING',bad);
+          console.log('DISTRIBUTION',JSON.stringify(dist));
+          for(const code of ['XA05','1D41','P98','PZ12','P50']){
+            const item=items.find(s=>s.includes('<CODE>'+code+'</CODE>'));
+            const m=item&&item.match(/<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>/);
+            console.log('SAMPLE',code,m?m[1]:'NOT_FOUND');
+          }
+          NODE
