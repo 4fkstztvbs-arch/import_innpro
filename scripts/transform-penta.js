@@ -271,7 +271,7 @@ async function main() {
     // product appears reliably in the daily report.
     price = applyPentaOpportunityPrice(p.ean, price, p.purchasePrice, parseFloat(p.vat));
     price = applyHeurekaPriceTarget(p.ean, price, p.purchasePrice, parseFloat(p.vat));
-    price = enforcePentaGrossMarginFloor(price, p.purchasePrice, parseFloat(p.vat));
+    price = enforcePentaGrossMarginFloor(p.ean, price, p.purchasePrice, parseFloat(p.vat));
     if (price < MIN_PRICE) { stats.skippedCheap++; return; }
 
     const { defaultCategory, extraCategories, defaultMapped } = resolvePentaCategories(p.categoryTexts, p.defaultCategoryRaw);
