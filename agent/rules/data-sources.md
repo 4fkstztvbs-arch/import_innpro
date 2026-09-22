@@ -77,3 +77,21 @@ A September 2026 reconciliation found material GA4 under-coverage versus the ope
 Order/customer data is private operational data. Exact daily order/revenue aggregates derived from the authenticated orders export must not be printed to public GitHub Actions logs or committed to this public repository.
 
 Export health workflows may expose only non-sensitive health/schema results (for example HTTP success, parse success, required-field presence). Detailed business aggregates belong in approved private reporting surfaces such as the private Slack/Drive reporting workspace.
+
+
+## Heureka channel data
+
+Heureka is a primary growth-channel measurement layer.
+
+Approved read/analysis inputs can include:
+- authenticated Heureka admin views through the owner-provided browser session
+- Sortiment report
+- unmatched/waiting-for-pairing reports
+- conversion/performance reporting
+- bidding/CPC views
+- public Heureka category/product context
+- repository-generated Heureka pricing, mapping, exclusion and pilot state
+
+Treat Heureka attributed orders/revenue as channel-attribution metrics, not operational accounting totals. Reconcile material conclusions with PremiumStore operational orders and reliable margin/cost data.
+
+Do not store browser credentials, session material, API keys or signed report-download URLs in this public repository.
