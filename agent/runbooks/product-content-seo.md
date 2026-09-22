@@ -41,6 +41,25 @@ High priority = meaningful demand/traffic + commercial potential + weak content 
 
 Do not spend the first batches on products with no measurable demand while high-value thin-content products are waiting.
 
+## 2A. Search-demand naming
+
+For each priority product/category, check whether its visible name matches how customers search.
+
+Use available evidence from:
+- Search Console queries
+- external keyword/search-demand data
+- internal-site search
+- Heureka terminology/demand
+- customer vocabulary
+
+If the current supplier name is weak, prepare an optimized Slovak NAME that is immediately understandable and aligned with search intent.
+
+Preserve brand/model and important verified differentiators. Avoid keyword stuffing.
+
+Do not change URL as a side effect of NAME optimization.
+
+If NAME is supplier-owned, route the change through the persistent override/localization mechanism and validate it on the next real import.
+
 ## 3. Verify source facts
 
 Before rewriting, assemble verified facts from current available sources.
@@ -60,6 +79,9 @@ Confirm:
 If source facts conflict, stop and mark the item for review.
 
 ## 4. Draft customer-first content
+
+Use `agent/rules/approved-optimization-framework.md` and the current shared Kvasnička reference document as the approved content/design direction. Do not substitute generic AI layout/copy conventions for those project rules.
+
 
 Draft for comprehension first, SEO second.
 
@@ -121,6 +143,9 @@ At minimum check:
 - category assignment unless intentionally in scope
 
 ## 8. Live QA
+
+In addition to data integrity, inspect the Kvasnička/PremiumStore quality dimensions that are in scope: readability, mobile rendering, content hierarchy, useful media/storytelling, visible important information, internal links, FAQ/question-led content and PremiumStore Design System consistency.
+
 
 After the next real import:
 - confirm content still exists
