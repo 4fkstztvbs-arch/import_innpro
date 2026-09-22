@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26747,
-  "matchedRules": 2646,
-  "changedProducts": 1189,
+  "totalProducts": 26770,
+  "matchedRules": 2647,
+  "changedProducts": 1187,
   "rejected": [
     {
       "supplier": "innpro",
@@ -387,7 +387,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 62,
+      "visibleUnique": 63,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -411,7 +411,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Efektové a difúzne filtre",
-      "visibleUnique": 11,
+      "visibleUnique": 12,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
     },

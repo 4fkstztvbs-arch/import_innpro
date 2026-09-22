@@ -18,28 +18,18 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 084669 | 6978794731711 | Vysávač MOVA S7 Ultra Stick | nulová/neplatná cena |  | 0.00 € |  |  |
 | 085045 | 6977728949031 | MOVA NutriPal 10 Ultra (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 085053 | 6978794730554 | MOVA LitterBot LR10 Prime (sivý) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 087071 | 6971867511159 | SUNSUN CUF-5011 11 W čerpadlo do fontány | nulová/neplatná cena |  | 0.00 € |  |  |
-| 087482 | 6937224142831 | Multifunkčný modul pre DJI Osmo Mobile | nulová/neplatná cena |  | 0.00 € |  |  |
-| 087483 | 6937224142916 | Magnetický držiak pre DJI Osmo Mobile | nulová/neplatná cena |  | 0.00 € |  |  |
-| 087489 | 6937224130586 | Program ochrany DJI Care Refresh pre Osmo Mobile 8P (2-ročný program) – digitáln | nulová/neplatná cena |  | 0.00 € |  |  |
-| 087490 | 6937224129771 | Program ochrany DJI Care Refresh pre Osmo Mobile 8P (1-ročný program) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 087491 | 6937224129764 | Program ochrany DJI Care Refresh pre Osmo Mobile 8P (2-ročný program) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089590 | 6978794734194 | Vysávač MOVA K30 Lite | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090052 | 6923520270330 | Herné slúchadlá EDIFIER HECATE G5 Max (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090051 | 6923520270323 | Herné slúchadlá EDIFIER HECATE G5 Max BT (sivé) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
-| 090811 | 6937224148291 | Filter Black Mist pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090812 | 6937224148284 | Širokouhlý objektív DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
-| 090816 | 6937224157460 | Puzdro pre DJI Osmo Pocket Pro | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090776 | 6978794736129 | Súprava Mova DuoCare Pet | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090775 | 6978794735764 | MOVA LB10 – samočistiaca toaleta pre mačky s vzduchovým systémom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093039 | 6930444806132 | Grafický tablet HUION Kamvas Pad 12 KP1202 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091857 | 6942580505022 | Trolley FOSSIBOT for F2400 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 089072 | 6937224137578 | Magnetický hrudný popruh DJI Osmo | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 088510 | 6937224140639 | Osmo Action 5 Pro – fotografovanie na ulici, držadlo, príslušenstvo, K | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092888 | 6975116296170 | Dávkovač potravín Rojeco PTD001 IQ Training | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092889 | 6975116296408 | Automatický dávkovač krmiva a vody pre domáce zvieratá Rojeco 2 v 1 C | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092887 | 6975116296231 | Dávkovač vody bez filtra Rojeco PTM673 | nulová/neplatná cena |  | 0.00 € |  |  |
