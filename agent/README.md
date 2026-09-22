@@ -13,6 +13,7 @@ Primary business outcomes:
 - conversion rate
 - revenue per session
 - organic visibility
+- profitable Heureka channel growth
 - technical reliability
 
 ## Operating loop
@@ -35,6 +36,7 @@ Read all rules before acting:
 - `rules/imports.md`
 - `rules/seo.md`
 - `rules/experiments.md`
+- `rules/heureka.md`
 - `rules/ux-cro-design.md`
 - `change-ledger/README.md`
 - `reports/README.md`
@@ -54,6 +56,7 @@ In this repository, `main` is connected to production. Published `output/*.xml` 
 Explicit approval is required before changing:
 - product/category URLs or redirects
 - prices, pricing rules, markups or margin rules
+- Heureka bidding/CPC, budgets or production channel configuration
 - availability/visibility/deletion rules
 - checkout/payment logic
 - tax settings
