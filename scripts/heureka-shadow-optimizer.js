@@ -113,6 +113,7 @@ function tag(block, names) {
 
 function readHeurekaRows(file) {
   const rows = parse(fs.readFileSync(file, 'utf8'), {
+    bom: true,
     columns: true,
     skip_empty_lines: true,
     relax_column_count: true,
@@ -227,10 +228,19 @@ function normalizePerformance(p) {
   };
 }
 
-function economics(dir, vatDefault) {
+function economics(dir, vatDefault, codePrefixes = {}) {
   const map = new Map();
+  const files = fs.readdirSync(dir).filter((x) => x.endsWith('.xml'));
+  if (!codePrefixes || typeof codePrefixes !== 'object' || Array.isArray(codePrefixes)) {
+    throw new Error('Code prefixes must be an object keyed by supplier output filename');
+  }
+  for (const [file, prefix] of Object.entries(codePrefixes)) {
+    if (!files.includes(file) || typeof prefix !== 'string' || !/^[A-Za-z0-9_-]{1,32}$/.test(prefix)) {
+      throw new Error('Invalid supplier code-prefix mapping');
+    }
+  }
 
-  for (const file of fs.readdirSync(dir).filter((x) => x.endsWith('.xml'))) {
+  for (const file of files) {
     const xml = fs.readFileSync(path.join(dir, file), 'utf8');
     const blocks = xml.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/gi) || [];
 
@@ -240,6 +250,8 @@ function economics(dir, vatDefault) {
 
       const record = {
         code,
+        sourceCode: code,
+        matchMethod: 'exact-code',
         source: file,
         name: tag(block, ['PRODUCTNAME', 'NAME']),
         ean: tag(block, ['EAN']),
@@ -267,6 +279,31 @@ function economics(dir, vatDefault) {
       if (!existing.ean) existing.ean = record.ean;
       if (!existing.price) existing.price = record.price;
       if (!existing.buy) existing.buy = record.buy;
+    }
+  }
+
+  // Explicit, audited Shoptet import prefixes only. Do not guess prefixes from
+  // CPC codes, mutate source files, or apply fuzzy/case-insensitive SKU matching.
+  const rawRecords = [...map.values()];
+  for (const record of rawRecords) {
+    for (const file of record.sources) {
+      const prefix = codePrefixes[file];
+      if (!prefix) continue;
+      const alias = prefix + record.sourceCode;
+      const candidate = {
+        ...record,
+        code: alias,
+        source: file,
+        matchMethod: 'configured-import-prefix',
+        sources: [...record.sources],
+      };
+      if (map.has(alias)) {
+        // A configured alias colliding with any real/aliased SKU is not proof
+        // of identity, even if its current price happens to be identical.
+        map.set(alias, { ...map.get(alias), amb: true });
+      } else {
+        map.set(alias, candidate);
+      }
     }
   }
 
@@ -409,7 +446,8 @@ function main() {
   const outputDir = a['output-dir'] || path.join(ROOT, 'output');
   const longRaw = performance(rows, longFrom, to);
   const shortRaw = performance(rows, shortFrom, to);
-  const eco = economics(outputDir, finite(policy?.economics?.defaultVatPct, 23));
+  const codePrefixes = a['code-prefixes'] ? json(a['code-prefixes'], null) : {};
+  const eco = economics(outputDir, finite(policy?.economics?.defaultVatPct, 23), codePrefixes);
   const longOrders = orders(a.orders, longFrom, to);
   const shortOrders = orders(a.orders, shortFrom, to);
   const exclusions = json(a.exclusions || DEFAULT_EXCLUSIONS);
@@ -530,6 +568,8 @@ function main() {
       name: longItem.name || current.name,
       ean: current.ean || '',
       supplierOutput: current.source,
+      supplierCode: current.sourceCode || null,
+      economicsMatchMethod: current.matchMethod || null,
       economics: {
         priceInclVat: round(current.price),
         purchasePriceExVat: round(purchasePrice),

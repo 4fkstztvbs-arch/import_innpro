@@ -4,6 +4,77 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const { decideProduct, reconcileWindows } = require('./lib/heureka-shadow-core');
 const policy = require('./heureka-shadow-policy.json');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
+const { economics: readEconomics, readHeurekaRows } = require('./heureka-shadow-optimizer');
+
+function fixtureDir(t, files) {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'heureka-input-test-'));
+  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
+  for (const [name, content] of Object.entries(files)) fs.writeFileSync(path.join(dir, name), content);
+  return dir;
+}
+
+const fixtureItem = (code, price = 123, buy = 70, ean = '1234567890128') =>
+  `<SHOPITEM><CODE>${code}</CODE><NAME>Test product</NAME><EAN>${ean}</EAN>` +
+  `<PRICE_VAT>${price}</PRICE_VAT><PURCHASE_PRICE>${buy}</PURCHASE_PRICE><VAT>23</VAT></SHOPITEM>`;
+
+test('real export BOM is accepted without changing leading-zero product codes', (t) => {
+  const headers = ['date', 'shop_item_id', 'shop_item_name', 'visits_total', 'visits_free',
+    'visits_bidded', 'visits_not_bidded', 'costs_without_vat_total', 'costs_without_vat_bidded',
+    'costs_without_vat_not_bidded', 'orders_total', 'orders_free', 'orders_bidded',
+    'orders_not_bidded', 'revenue_total', 'revenue_free', 'revenue_bidded', 'revenue_not_bidded'];
+  const values = headers.map(h => ({ date: '2026-09-21', shop_item_id: '00123',
+    shop_item_name: 'Test product' }[h] || '0'));
+  const csv = headers.join(',') + '\n' + values.join(',') + '\n';
+  const dir = fixtureDir(t, { 'plain.csv': csv, 'bom.csv': '\uFEFF' + csv });
+  assert.deepEqual(readHeurekaRows(path.join(dir, 'bom.csv')), readHeurekaRows(path.join(dir, 'plain.csv')));
+  assert.equal(readHeurekaRows(path.join(dir, 'bom.csv'))[0].shop_item_id, '00123');
+});
+
+test('prefix aliases are explicit, supplier scoped, exact, and do not change files', (t) => {
+  const xml = `<SHOP>${fixtureItem('00123')}</SHOP>`;
+  const dir = fixtureDir(t, { 'supplier.xml': xml, 'other.xml': `<SHOP>${fixtureItem('00234')}</SHOP>` });
+  assert.equal(readEconomics(dir, 23).has('SHOP_00123'), false);
+  const map = readEconomics(dir, 23, { 'supplier.xml': 'SHOP_' });
+  assert.equal(map.get('SHOP_00123').sourceCode, '00123');
+  assert.equal(map.get('SHOP_00123').source, 'supplier.xml');
+  assert.equal(map.get('SHOP_00123').matchMethod, 'configured-import-prefix');
+  assert.equal(map.get('SHOP_00123').buy, 70);
+  assert.equal(map.has('SHOP_00234'), false);
+  assert.equal(map.has('shop_00123'), false);
+  assert.equal(map.has('SHOP_123'), false);
+  assert.equal(fs.readFileSync(path.join(dir, 'supplier.xml'), 'utf8'), xml);
+});
+
+test('real-code alias collision fails closed rather than selecting an identity', (t) => {
+  const dir = fixtureDir(t, { 'supplier.xml': `<SHOP>${fixtureItem('00123')}</SHOP>`,
+    'other.xml': `<SHOP>${fixtureItem('SHOP_00123', 123, 70, '9999999999999')}</SHOP>` });
+  const row = readEconomics(dir, 23, { 'supplier.xml': 'SHOP_' }).get('SHOP_00123');
+  assert.equal(row.amb, true);
+  const result = decideProduct({ performance: { paidVisits: 100, paidOrders: 10, distinctPaidDays: 10 },
+    economics: { priceInclVat: row.price, purchasePriceExVat: row.buy,
+      grossMarginPerSale: 30, ambiguous: row.amb } }, policy);
+  assert.equal(result.state, 'WATCH');
+  assert.equal(result.recommendedCpc, null);
+});
+
+test('conflicting supplier economics remain ambiguous through prefix aliases', (t) => {
+  const dir = fixtureDir(t, { 'supplier.xml': `<SHOP>${fixtureItem('00123')}</SHOP>`,
+    'other.xml': `<SHOP>${fixtureItem('00123', 200, 100)}</SHOP>` });
+  const map = readEconomics(dir, 23, { 'supplier.xml': 'SHOP_' });
+  assert.equal(map.get('00123').amb, true);
+  assert.equal(map.get('SHOP_00123').amb, true);
+});
+
+test('unverified prefix configuration is rejected', (t) => {
+  const dir = fixtureDir(t, { 'supplier.xml': `<SHOP>${fixtureItem('00123')}</SHOP>` });
+  for (const config of [null, [], { 'unknown.xml': 'SHOP_' }, { 'supplier.xml': '' },
+    { 'supplier.xml': 123 }, { 'supplier.xml': '../' }]) {
+    assert.throws(() => readEconomics(dir, 23, config));
+  }
+});
 
 const economics = {
   priceInclVat: 123,
