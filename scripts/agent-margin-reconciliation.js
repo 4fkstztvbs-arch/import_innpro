@@ -235,13 +235,35 @@ async function loadSupplierCatalog() {
   return { catalog, files };
 }
 
+function uniqueEanIndex(map) {
+  const first = new Map();
+  const duplicate = new Set();
+
+  for (const rec of map.values()) {
+    const ean = String(rec.ean || '').trim();
+    if (!ean) continue;
+    if (first.has(ean)) duplicate.add(ean);
+    else first.set(ean, rec);
+  }
+
+  for (const ean of duplicate) first.delete(ean);
+  return { index: first, duplicateCount: duplicate.size };
+}
+
 function compareCurrentCatalog(supplier, live) {
+  const supplierEans = uniqueEanIndex(supplier);
+  const liveEans = uniqueEanIndex(live);
+
   const out = {
     supplierCodes: supplier.size,
     liveCodes: live.size,
     supplierWithPurchasePrice: 0,
     liveWithPurchasePrice: 0,
-    matchedByCode: 0,
+    joinedByCode: 0,
+    joinedByUniqueEanFallback: 0,
+    joinedTotal: 0,
+    supplierDuplicateEans: supplierEans.duplicateCount,
+    liveDuplicateEans: liveEans.duplicateCount,
     comparablePurchasePrice: 0,
     purchaseExact: 0,
     purchaseClose: 0,
@@ -264,9 +286,24 @@ function compareCurrentCatalog(supplier, live) {
   }
 
   for (const [code, s] of supplier) {
-    const l = live.get(code);
+    let l = live.get(code);
+    let method = null;
+
+    if (l) {
+      method = 'code';
+    } else if (s.ean && supplierEans.index.get(s.ean) === s) {
+      const eanMatch = liveEans.index.get(s.ean);
+      if (eanMatch) {
+        l = eanMatch;
+        method = 'ean';
+      }
+    }
+
     if (!l) continue;
-    out.matchedByCode++;
+
+    out.joinedTotal++;
+    if (method === 'code') out.joinedByCode++;
+    else out.joinedByUniqueEanFallback++;
 
     if (!s.ambiguous && s.purchasePrice > 0 && l.purchasePrice > 0) {
       out.comparablePurchasePrice++;
@@ -291,7 +328,8 @@ function compareCurrentCatalog(supplier, live) {
 
   return {
     ...out,
-    codeMatchPct: pct(out.matchedByCode, out.supplierCodes),
+    codeJoinPct: pct(out.joinedByCode, out.supplierCodes),
+    totalJoinPct: pct(out.joinedTotal, out.supplierCodes),
     purchasePriceCoveragePct: pct(out.comparablePurchasePrice, out.supplierWithPurchasePrice),
     purchaseExactOrClosePct: pct(out.purchaseExact + out.purchaseClose, out.comparablePurchasePrice),
     purchaseMajorDriftPct: pct(out.purchaseMajor, out.comparablePurchasePrice),
@@ -430,7 +468,7 @@ function orderReadiness(orders) {
     orderMarginInputReadiness: readiness,
     interpretation: {
       currentPurchasePrice:
-        'Compares current supplier output PURCHASE_PRICE to current live Shoptet products-export PURCHASE_PRICE by CODE.',
+        'Compares current supplier output PURCHASE_PRICE to current live Shoptet products-export PURCHASE_PRICE using exact CODE first, then only a unique EAN fallback.',
       exactOrClose:
         'Exact means <= EUR 0.02 absolute difference; close means <=1% relative difference.',
       currentSalePrice:
