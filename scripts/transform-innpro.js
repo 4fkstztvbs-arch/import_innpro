@@ -177,6 +177,12 @@ function buildShopitemXml(p) {
   parts.push('<ITEM_TYPE>product</ITEM_TYPE>');
   parts.push('<UNIT>ks</UNIT>');
   parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
+  const minOrder = Math.max(p.minOrderRetail || 0, p.minOrderWholesale || 0);
+  if (minOrder > 1) {
+    parts.push('<STOCK>');
+    parts.push(`  <MINIMAL_AMOUNT>${minOrder}</MINIMAL_AMOUNT>`);
+    parts.push('</STOCK>');
+  }
   if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
 
   const allCats = [p.category].concat(p.extraCategories || []).filter(Boolean);
@@ -387,7 +393,7 @@ async function main() {
     const r = ['# Minimálny odber — InnPro', '',
       `Kontrola z ${new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC.`, '',
       `InnPro pri **${minOdbery.length}** produktoch uvádza minimálny odber väčší než 1 kus.`,
-      'Do XML sa zapisuje väčšie z oboch miním ako `<MINIMAL_AMOUNT>`.', '',
+      'Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.', '',
       '| Kód | Produkt | Maloobchodné | Veľkoobchodné |', '|---|---|---:|---:|'];
     for (const m of minOdbery.sort((a, b) => b.retail - a.retail)) {
       r.push(`| \`${m.code}\` | ${m.name.slice(0, 60)} | ${m.retail || '—'} | ${m.wholesale || '—'} |`);
