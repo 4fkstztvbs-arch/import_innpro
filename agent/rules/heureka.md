@@ -255,6 +255,24 @@ Estimate a break-even CPC only from defensible economics and conversion evidence
 
 Never extrapolate a product-level bid from tiny samples without an explicit exploration policy.
 
+### Multi-window decision guard
+
+Product-level BID and EXCLUDE decisions must not rely on one lookback window.
+
+Default Heureka optimizer logic uses:
+- **30d decision window** for sufficiently stable economic/conversion evidence
+- **7d freshness window** to detect recent deterioration, improvement or attribution conflict
+
+Rules:
+- final `BID` requires support from both windows; if both produce a valid CPC, use the lower recommendation
+- 30d BID that is not confirmed by 7d is downgraded to BASE/WATCH
+- a new `EXCLUDE` requires 30d evidence plus recent 7d confirmation with no recent Heureka/Shoptet conversion signal
+- recent conversion blocks a new EXCLUDE
+- short-term deterioration without long-window confirmation produces WATCH, not immediate exclusion
+- short-term upside without long-window confirmation remains BASE, not immediate BID
+
+A future production policy may change window lengths only through reviewed policy changes backed by shadow/pilot evidence. The agent must not silently weaken this guard.
+
 ### Canonical product optimization states
 
 Every Heureka-eligible product managed by the agent must have exactly one canonical optimization state:
