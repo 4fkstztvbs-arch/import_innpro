@@ -165,6 +165,7 @@ Prepared:
 - Post-mortem / učenie sa z chýb
 - Interné vyhľadávanie PremiumStore
 - Feed & Distribution Manager
+- Returned Stock Recovery Manager
 - shared prioritisation through one PremiumStore Opportunity Backlog
 - staged autonomy per action class: OBSERVE -> SHADOW -> PILOT -> CONTROLLED AUTONOMY
 - dedicated operating rules in `agent/rules/commerce-growth-modules.md`
