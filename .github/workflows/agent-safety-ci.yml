@@ -25,6 +25,12 @@ jobs:
       - name: Run pricing policy tests
         run: node --test scripts/tests/heureka-pricing.test.js
 
+      - name: Run Heureka shadow optimizer tests
+        run: node --test scripts/test-heureka-shadow-core.js
+
+      - name: Check Heureka shadow optimizer syntax
+        run: node --check scripts/heureka-shadow-optimizer.js
+
       - name: Run SEO override tests
         run: node --test scripts/test-seo-overrides.js
 
@@ -40,6 +46,9 @@ jobs:
             agent/rules/imports.md
             agent/rules/seo.md
             agent/rules/experiments.md
+            agent/rules/heureka.md
+            agent/runbooks/heureka-browser.md
+            agent/runbooks/heureka-shadow-optimizer.md
             agent/rules/ux-cro-design.md
             agent/onboarding/2026-09-25-day-1.md
             agent/change-ledger/README.md
@@ -53,7 +62,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git fetch origin main --depth=1
+          git fetch origin main
           added="$(git diff --unified=0 origin/main...HEAD -- . ':!package-lock.json'             | sed -n 's/^+[^+]/&/p' || true)"
           if printf '%s\n' "$added" | grep -Eiq             '(api[_-]?key|password|passwd|secret|token)[[:space:]]*[:=][[:space:]]*["'\'' ]?[A-Za-z0-9_./+=-]{16,}'; then
             echo "::error::Possible plaintext credential added in PR. Use GitHub Secrets/environment configuration."
@@ -67,6 +76,6 @@ jobs:
           set -euo pipefail
           changed="$(git diff --name-only origin/main...HEAD)"
           echo "$changed"
-          if printf '%s\n' "$changed" | grep -Eq             '^(output/|\.github/workflows/|cloudflare-worker|data/omega-stock-cards\.json$|scripts/heureka-pricing-policy\.json$)'; then
+          if printf '%s\n' "$changed" | grep -Eq             '^(output/|\.github/workflows/|cloudflare-worker|data/omega-stock-cards\.json$|data/heureka-reports/|scripts/heureka-.*\.(js|json)$)'; then
             echo "::warning::PR touches production-sensitive paths. Apply agent/rules/safety.md and require human approval where specified."
           fi

@@ -13,6 +13,7 @@ Primary business outcomes:
 - conversion rate
 - revenue per session
 - organic visibility
+- profitable Heureka channel growth
 - technical reliability
 
 ## Operating loop
@@ -35,12 +36,17 @@ Read all rules before acting:
 - `rules/imports.md`
 - `rules/seo.md`
 - `rules/experiments.md`
+- `rules/heureka.md`
 - `rules/ux-cro-design.md`
 - `change-ledger/README.md`
 - `reports/README.md`
 
 ## Friday onboarding
 The prepared Day 1 brief is in `onboarding/2026-09-25-day-1.md`. On first launch, follow it in DISCOVERY-only mode.
+
+After the agent has understood the full PremiumStore system, verified data-source authority and confirmed that no active incident makes product-level economics unsafe, the first standard post-onboarding diagnostic is the read-only Heureka shadow optimizer in `runbooks/heureka-shadow-optimizer.md`.
+
+The optimizer uses a **30d decision window + 7d freshness window** and remains SHADOW until a separately approved pilot. It must never be treated as production write authority merely because onboarding completed successfully.
 
 ## Operational data sources
 The owner has provided authenticated PremiumStore exports for orders, the complete product catalogue and categories. Their endpoint families and handling rules are documented in `rules/data-sources.md`.
@@ -54,7 +60,8 @@ In this repository, `main` is connected to production. Published `output/*.xml` 
 Explicit approval is required before changing:
 - product/category URLs or redirects
 - prices, pricing rules, markups or margin rules
-- availability/visibility/deletion rules
+- Heureka bidding/CPC, budgets or production channel configuration **outside** a separately promoted and verified Heureka controlled-autonomy policy
+- availability/visibility/deletion rules, except Heureka channel-only feed inclusion/exclusion executed inside the promoted policy in `rules/heureka.md`
 - checkout/payment logic
 - tax settings
 - delivery rules
@@ -67,6 +74,10 @@ Explicit approval is required before changing:
 - Cloudflare Worker production code/configuration
 - credentials, secrets, permissions and repository protection settings
 - destructive bulk actions
+
+## Heureka operating model
+
+The target operating model for Heureka is agent-managed optimization rather than manual per-product tuning. After the staged validation/promotion process in `rules/heureka.md`, the agent is the canonical controller for bidding, CPC state, Heureka feed inclusion/exclusion and spend allocation within hard policy limits. Human control remains at the policy/limit/kill-switch level.
 
 ## Core principles
 - The agent is measured by verified business impact, not by number of changes.
