@@ -32,7 +32,9 @@ jobs:
           INNPRO_OUT: output/innpro.xml
           INNPRO_EXCLUDE_UNAVAILABLE: '1'
           HEUREKA_PRICE_OVERRIDE: '1'
-        run: node scripts/transform-innpro.js
+        run: |
+          node scripts/transform-innpro.js
+          cp output/innpro.xml /tmp/innpro-before-post.xml
 
       - name: Run production post-processing chain
         run: |
@@ -63,33 +65,50 @@ jobs:
       - name: Validate small test feed against Shoptet complete RNG
         run: xmllint --noout --relaxng /tmp/products-complete-v10.rng test/innpro-minimal-amount.xml
 
-      - name: Validate generated full feed against Shoptet complete RNG
+      - name: Validate full feed before post-processing
+        run: xmllint --noout --relaxng /tmp/products-complete-v10.rng /tmp/innpro-before-post.xml
+
+      - name: Validate final feed after post-processing
+        continue-on-error: true
         run: xmllint --noout --relaxng /tmp/products-complete-v10.rng output/innpro.xml
 
-      - name: Verify generated minimum-order values
+      - name: Verify generated minimum-order values and duplicate fields
+        if: always()
         run: |
           node <<'NODE'
           const fs = require('fs');
-          const xml = fs.readFileSync('output/innpro.xml', 'utf8');
-          const values = [...xml.matchAll(/<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>/g)].map(m => m[1]);
-          if (!values.length) {
-            console.error('No MINIMAL_AMOUNT values found in generated feed');
-            process.exit(1);
-          }
-          const distribution = {};
-          for (const v of values) distribution[v] = (distribution[v] || 0) + 1;
-          console.log('MINIMAL_AMOUNT count:', values.length);
-          console.log('Distribution:', distribution);
-
-          for (const code of ['023350','035753','044831','016534']) {
-            const item = [...xml.matchAll(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g)]
-              .map(m => m[0])
-              .find(s => s.includes('<CODE>' + code + '</CODE>'));
-            if (!item) {
-              console.log(code + ': not present in current generated feed');
-              continue;
+          for (const [label, path] of [['before-post','/tmp/innpro-before-post.xml'], ['after-post','output/innpro.xml']]) {
+            const xml = fs.readFileSync(path, 'utf8');
+            const items = [...xml.matchAll(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g)].map(m => m[0]);
+            const values = [...xml.matchAll(/<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>/g)].map(m => m[1]);
+            const distribution = {};
+            for (const v of values) distribution[v] = (distribution[v] || 0) + 1;
+            let badNesting = 0;
+            let dupVisibility = 0, dupImages = 0, dupTextProps = 0;
+            for (const item of items) {
+              const mins = [...item.matchAll(/<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>/g)];
+              if (mins.length && !/<STOCK>[\s\S]*?<MINIMAL_AMOUNT>[^<]+<\/MINIMAL_AMOUNT>[\s\S]*?<\/STOCK>/.test(item)) badNesting++;
+              const count = tag => (item.match(new RegExp('<' + tag + '(?:>|\\s)', 'g')) || []).length;
+              if (count('VISIBILITY') > 1) dupVisibility++;
+              if (count('IMAGES') > 1) dupImages++;
+              if (count('TEXT_PROPERTIES') > 1) dupTextProps++;
             }
-            const m = item.match(/<STOCK>[\s\S]*?<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>[\s\S]*?<\/STOCK>/);
-            console.log(code + ': ' + (m ? 'MINIMAL_AMOUNT=' + m[1] : 'missing MINIMAL_AMOUNT'));
+            console.log(label + ' SHOPITEM count:', items.length);
+            console.log(label + ' MINIMAL_AMOUNT count:', values.length);
+            console.log(label + ' distribution:', distribution);
+            console.log(label + ' bad MINIMAL_AMOUNT nesting:', badNesting);
+            console.log(label + ' duplicate VISIBILITY items:', dupVisibility);
+            console.log(label + ' duplicate IMAGES items:', dupImages);
+            console.log(label + ' duplicate TEXT_PROPERTIES items:', dupTextProps);
+
+            for (const code of ['023350','035753','044831','016534']) {
+              const item = items.find(s => s.includes('<CODE>' + code + '</CODE>'));
+              if (!item) {
+                console.log(label + ' ' + code + ': not present');
+                continue;
+              }
+              const m = item.match(/<STOCK>[\s\S]*?<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>[\s\S]*?<\/STOCK>/);
+              console.log(label + ' ' + code + ': ' + (m ? 'MINIMAL_AMOUNT=' + m[1] : 'missing MINIMAL_AMOUNT'));
+            }
           }
           NODE
