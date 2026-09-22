@@ -87,6 +87,7 @@ function parseShopXmlString(xml, source = null) {
   const map = new Map();
   const wanted = new Set(['CODE', 'EAN', 'PRICE_VAT', 'PURCHASE_PRICE', 'VAT', 'PURCHASE_VAT']);
   let item = null;
+  let itemDepth = 0;
   let activeTag = null;
   let activeValue = '';
 
@@ -95,9 +96,15 @@ function parseShopXmlString(xml, source = null) {
   parser.onopentag = (node) => {
     if (node.name === 'SHOPITEM') {
       item = {};
+      itemDepth = 0;
       activeTag = null;
       activeValue = '';
-    } else if (item && wanted.has(node.name)) {
+      return;
+    }
+    if (!item) return;
+
+    itemDepth += 1;
+    if (itemDepth === 1 && wanted.has(node.name)) {
       activeTag = node.name;
       activeValue = '';
     }
@@ -113,7 +120,7 @@ function parseShopXmlString(xml, source = null) {
   parser.onclosetag = (tag) => {
     if (!item) return;
 
-    if (activeTag && tag === activeTag) {
+    if (activeTag && itemDepth === 1 && tag === activeTag) {
       item[activeTag] = activeValue.trim();
       activeTag = null;
       activeValue = '';
@@ -129,7 +136,11 @@ function parseShopXmlString(xml, source = null) {
         vat: n(item.VAT ?? item.PURCHASE_VAT),
       });
       item = null;
+      itemDepth = 0;
+      return;
     }
+
+    itemDepth -= 1;
   };
 
   let error = null;
@@ -147,6 +158,7 @@ function parseSupplierOutput(filePath, source, catalog) {
   return new Promise((resolve, reject) => {
     const wanted = new Set(['CODE', 'EAN', 'PRICE_VAT', 'PRICE', 'PURCHASE_PRICE', 'VAT', 'PURCHASE_VAT']);
     let item = null;
+    let itemDepth = 0;
     let activeTag = null;
     let activeValue = '';
 
@@ -159,9 +171,15 @@ function parseSupplierOutput(filePath, source, catalog) {
     parser.on('opentag', (node) => {
       if (node.name === 'SHOPITEM') {
         item = {};
+        itemDepth = 0;
         activeTag = null;
         activeValue = '';
-      } else if (item && wanted.has(node.name)) {
+        return;
+      }
+      if (!item) return;
+
+      itemDepth += 1;
+      if (itemDepth === 1 && wanted.has(node.name)) {
         activeTag = node.name;
         activeValue = '';
       }
@@ -177,7 +195,7 @@ function parseSupplierOutput(filePath, source, catalog) {
     parser.on('closetag', (tag) => {
       if (!item) return;
 
-      if (activeTag && tag === activeTag) {
+      if (activeTag && itemDepth === 1 && tag === activeTag) {
         item[activeTag] = activeValue.trim();
         activeTag = null;
         activeValue = '';
@@ -193,7 +211,11 @@ function parseSupplierOutput(filePath, source, catalog) {
           vat: n(item.VAT ?? item.PURCHASE_VAT),
         });
         item = null;
+        itemDepth = 0;
+        return;
       }
+
+      itemDepth -= 1;
     });
 
     parser.on('error', reject);
