@@ -185,6 +185,11 @@ function buildShopitemXml(p) {
   parts.push('<ITEM_TYPE>product</ITEM_TYPE>');
   parts.push('<UNIT>ks</UNIT>');
   parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
+  if (p.minQty > 1) {
+    parts.push('<STOCK>');
+    parts.push(`  <MINIMAL_AMOUNT>${xmlEscape(p.minQty)}</MINIMAL_AMOUNT>`);
+    parts.push('</STOCK>');
+  }
   if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
 
   const extraCats = [...new Set((p.extraCategories || []).filter((c) => c && c !== p.defaultCategory))];
@@ -253,6 +258,7 @@ async function main() {
   };
   const seenCodes = new Set();
   const candidates = [];
+  const minOdbery = [];
 
   await streamRecords(URL, 'product', (rawXml) => {
     stats.total++;
@@ -327,6 +333,7 @@ async function main() {
         warranty: p.warranty, ean: p.ean, defaultCategory: category, extraCategories,
         images, params: p.params, availability, weightKg: p.weightKg, price,
         purchasePrice: p.costEUR, seoTitle, metaDescription, heurekaHidden,
+        minQty: p.minQty, packageQty: p.packageQty,
       },
     });
   });
@@ -352,6 +359,14 @@ async function main() {
       continue;
     }
     out.write(buildShopitemXml(c.shopitemData) + '\n');
+    if (c.shopitemData.minQty > 1) {
+      minOdbery.push({
+        code: c.code,
+        name: c.name,
+        minQty: c.shopitemData.minQty,
+        packageQty: c.shopitemData.packageQty,
+      });
+    }
     stats.written++;
   }
 
@@ -361,6 +376,21 @@ async function main() {
 
   console.log('Done.');
   writeAnomalyReport('solight', anomalies);
+
+  if (minOdbery.length) {
+    const r = ['# Minimálny odber — Solight', '',
+      `Kontrola z ${new Date().toISOString().slice(0, 16).replace('T', ' ')} UTC.`, '',
+      `Solight pri **${minOdbery.length}** produktoch vo výslednom XML uvádza MINQTY > 1.`,
+      'Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.',
+      '`package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.', '',
+      '| Kód | Produkt | MINQTY | package |', '|---|---|---:|---:|'];
+    for (const m of minOdbery.sort((a, b) => b.minQty - a.minQty)) {
+      r.push(`| \`${m.code}\` | ${m.name.slice(0, 60)} | ${m.minQty} | ${m.packageQty || '—'} |`);
+    }
+    fs.writeFileSync(path.join(__dirname, '..', 'reports', 'minimalny-odber-solight.md'),
+      r.join('\n') + '\n');
+    console.log(`  -> ${minOdbery.length} produktov s MINQTY > 1, report: reports/minimalny-odber-solight.md`);
+  }
   const categoryReport = zaradovac.zapisReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
   console.log('Output written to', OUT_PATH);
