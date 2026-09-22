@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-22 20:22 UTC.
+Kontrola z 2026-09-22 23:56 UTC.
 
-InnPro pri **398** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **401** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -58,7 +58,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `037456` | Držiak Sunnylife AirTag pre drony | — | 5 |
 | `037507` | Puzdro na batérie Sunnylife pre DJI Mini 3 Pro/Mini 4 Pro  M | — | 5 |
 | `038492` | Sonoff 5V USB Zasilacz (Type-E/ F) | — | 5 |
-| `038488` | Predlžovací kábel snímača Sonoff RL560 | — | 5 |
+| `038488` | Predlžovací kábel snímača Sonoff RL560 | — | 2 |
 | `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | — | 5 |
 | `039235` | Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " | — | 5 |
 | `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 5 |
@@ -85,6 +85,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `046683` | Vodotesné puzdro pre relé Sonoff IP66 | — | 5 |
 | `047961` | Inteligentný spínací modul WiFi Avatto WSM16-W1 TUYA | — | 5 |
 | `047993` | Univerzálny diaľkový ovládač IR WiFi Avatto S16 TUYA | — | 5 |
+| `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
 | `048658` | Priehľadný obal a sada tvrdeného skla Baseus Corning pre iPh | — | 5 |
 | `044419` | Fólia na objektív fotoaparátu Baseus pre iPhone 13 Pro/13 Pr | — | 3 |
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
@@ -183,7 +184,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `070386` | PULUZ backpack mount for sports cameras (including Osmo Acti | — | 2 |
 | `069447` | TELESIN flexible mount for phones (gray) | — | 3 |
 | `070758` | Thermal labels Niimbot stickers 40x30 mm - 900 pcs. White | — | 5 |
-| `070767` | Thermal Labels Niimbot stickers 50x30 mm - 225 pcs Silver | — | 5 |
 | `070768` | Thermal labels Niimbot stickers 50x70 mm - 100 pcs. White | — | 5 |
 | `070769` | Thermal labels Niimbot stickers 60x40 mm - 690 pcs. White | — | 5 |
 | `070619` | Telesin plastic mounting frame for Insta360 X4 | — | 5 |
@@ -207,7 +207,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
-| `074171` | Kábel USB 2.0 A na 3v1 3A Vention CTPWG 1,5 m (biely) | — | 5 |
+| `074171` | Kábel USB 2.0 A na 3v1 3A Vention CTPWG 1,5 m (biely) | — | 3 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `074972` | Sunnylife OA5-BK941 ochranné puzdro proti slnku pre OSMO ACT | — | 2 |
 | `073335` | Telesin Tvrdené sklo 3 v 1 pre GoPro Hero 13 Black (S6-FLM-0 | — | 5 |
@@ -218,6 +218,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
 | `077573` | Ochranné puzdro Sunnylife s popruhom pre Osmo Pocket 3 (čier | — | 5 |
 | `077579` | Sunnylife anti-shock spona pre DJI Flip | — | 5 |
+| `077580` | Kryt objektívu Sunnylife pre DJI Flip (čierny) | — | 5 |
 | `077581` | Ochranné kryty vrtúľ Sunnylife pre DJI Flip (čierne) | — | 3 |
 | `073822` | Súprava nálepiek Telesin pre držiak J-Hook pre športové kame | — | 5 |
 | `077966` | Svetlo Superfire BTL05 na bicykli | — | 5 |
@@ -254,18 +255,19 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `081553` | Sunnylife SN027 polootvorené plastové ochranné puzdro (čiern | — | 5 |
 | `081529` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (ruž | — | 4 |
 | `081532` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (žlt | — | 5 |
-| `081944` | Cyklistické svetlo Superfire BL56-B | — | 4 |
+| `081944` | Cyklistické svetlo Superfire BL56-B | — | 3 |
 | `082306` | Ochranné sklo 2 v 1 (displej + objektív) PULUZ pre Insta360  | — | 5 |
 | `082307` | Puzdro EVA PULUZ Mini pre Insta360 GO Ultra (čierne) | — | 5 |
 | `082309` | Silikónový kryt objektívu + puzdro PULUZ pre Insta360 GO Ult | — | 5 |
 | `082311` | Puzdro - PC adaptér PULUZ pre Insta360 GO Ultra (čierne) | — | 5 |
+| `082312` | Silikónové puzdro s krytom objektívu PULUZ pre DJI Osmo 360  | — | 5 |
 | `082314` | PULUZ Tvrdené ochranné sklo a fólia na objektív pre DJI Osmo | — | 5 |
 | `082315` | EVA PULUZ Hard Mini Case pre DJI Osmo Nano (čierny) | — | 5 |
 | `082319` | PULUZ Magic Arm Tripod Suction Cup Holder (čierny) | — | 5 |
 | `082320` | PULUZ Silikónové nabíjacie puzdro Ochranný kryt pre DJI Mic  | — | 5 |
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
-| `082641` | Sada tvrdeného skla Puluz pre DJI Osmo Action 6 (3 ks). | — | 5 |
+| `082641` | Sada tvrdeného skla Puluz pre DJI Osmo Action 6 (3 ks). | — | 2 |
 | `082642` | Tvrdené sklo Puluz pre Insta360 X4 Air | — | 5 |
 | `082686` | Súprava na určovanie veľkosti krúžkov RingConn | — | 5 |
 | `082251` | Svietidlo Superfire HL23-X | — | 5 |
@@ -283,6 +285,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083450` | RayNeo Air 3s Pro tónovací uzáver okuliarov | — | 5 |
 | `082348` | Chladiaci ventilátor Darkflash DE8 (čierny) | — | 5 |
 | `083944` | Inteligentný termohygrometer Rainpoint Smart+ | — | 5 |
+| `084239` | Ochranné puzdro Flextail pre Tiny Pump 2X (čierne) | — | 5 |
 | `084241` | Huba ako tienidlo pre lampu Flextail Tiny Pump 2X (biela) | — | 5 |
 | `084784` | Uni-T UT12D-EU Bezkontaktný tester napätia | — | 5 |
 | `085297` | Avatto 2 zásuvka TS20 rám vypínača (biely) | — | 5 |

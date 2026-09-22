@@ -14,16 +14,18 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
 | 079933 | 6972237683193 | Mikrofón Maono WM622 PC2 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 082505 | 6977973410348 | Pripojovací modul k kosačke MOVA LiDAX Ultra 800 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 084680 | 6978794730943 | Fritéza MOVA FD20s Pro Air | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084865 | 6978390540472 | Robotický čistič okien MOVA N1 (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084669 | 6978794731711 | Vysávač MOVA S7 Ultra Stick | nulová/neplatná cena |  | 0.00 € |  |  |
 | 085045 | 6977728949031 | MOVA NutriPal 10 Ultra (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 085053 | 6978794730554 | MOVA LitterBot LR10 Prime (sivý) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
+| 089414 | 5905156108714 | WOLFBOX X5 WiFi 4K + 2,5K 128 GB palubná kamera | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089590 | 6978794734194 | Vysávač MOVA K30 Lite | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090052 | 6923520270330 | Herné slúchadlá EDIFIER HECATE G5 Max (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090051 | 6923520270323 | Herné slúchadlá EDIFIER HECATE G5 Max BT (sivé) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
-| 090812 | 6937224148284 | Širokouhlý objektív DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
+| 088847 | 6978794734798 | Fén MOVA Turbo 20 (biely) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090776 | 6978794736129 | Súprava Mova DuoCare Pet | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090775 | 6978794735764 | MOVA LB10 – samočistiaca toaleta pre mačky s vzduchovým systémom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093039 | 6930444806132 | Grafický tablet HUION Kamvas Pad 12 KP1202 | nulová/neplatná cena |  | 0.00 € |  |  |

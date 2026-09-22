@@ -126,7 +126,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 30
  },
  "Foto a video > Fotoateliér > Fotografické pozadia": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér": 12
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér": 11
  },
  "Foto a video > Fotoateliér > Kruhové svetlá": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér": 12
@@ -162,7 +162,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 134
  },
  "Foto a video > Príslušenstvo > Pre športové kamery": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 283
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 285
  },
  "Foto a video > Príslušenstvo > Pre stabilizátory": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 30
@@ -174,7 +174,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 3
  },
  "Foto a video > Selfie tyče > statívy > držiaky > Postroje, upevňovacie prvky a držiaky": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 115
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 116
  },
  "Foto a video > Selfie tyče > statívy > držiaky > Selfie tyče a držiaky": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 20
@@ -395,6 +395,9 @@
  "IT príslušenstvo > Monitor stands": {
   "Počítače, mobily a tablety > Monitory a PC periférie > Monitory": 6
  },
+ "IT príslušenstvo > Monitory": {
+  "(bez pravidla)": 2
+ },
  "IT príslušenstvo > Myši, klávesnica": {
   "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 13
  },
@@ -442,9 +445,6 @@
  },
  "IT príslušenstvo > Tablety > Tablety": {
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety": 16
- },
- "IT príslušenstvo > Tašky, obaly, batohy": {
-  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom": 1
  },
  "IT príslušenstvo > Webkamery": {
   "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery": 45
@@ -507,7 +507,7 @@
   "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 1
  },
  "Malé domáce spotrebiče > Fritézy": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 3
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 4
  },
  "Malé domáce spotrebiče > Insekticídne zariadenia": {
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Ostatné domáce spotrebiče": 2
@@ -559,6 +559,9 @@
  },
  "Malé domáce spotrebiče > Vysávače > Robotické vysávače": {
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 47
+ },
+ "Malé domáce spotrebiče > Vysávače > Ručné vysávače": {
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 1
  },
  "Malé domáce spotrebiče > Vysávače > Tyčové vysávače": {
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 24
@@ -783,16 +786,16 @@
   "Auto-moto > Príslušenstvo do auta": 5
  },
  "Príslušenstvo pre automobily > Štartovacie káble": {
-  "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy": 41
+  "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy": 46
  },
  "Príslušenstvo pre automobily > Umývanie a čistenie > Vysávače do auta": {
-  "Auto-moto > Autokozmetika a chémia": 4
+  "Auto-moto > Autokozmetika a chémia": 5
  },
  "Príslušenstvo pre automobily > Videorekordéry > Príslušenstvo": {
   "Auto-moto > Elektronika do auta": 5
  },
  "Príslušenstvo pre automobily > Videorekordéry > Videorekordéry": {
-  "Auto-moto > Elektronika do auta": 25
+  "Auto-moto > Elektronika do auta": 41
  },
  "Príslušenstvo pre automobily > Vysielače do auta": {
   "Auto-moto > Elektronika do auta": 1
