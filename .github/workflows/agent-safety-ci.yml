@@ -25,6 +25,9 @@ jobs:
       - name: Run pricing policy tests
         run: node --test scripts/tests/heureka-pricing.test.js
 
+      - name: Run Heureka shadow optimizer tests
+        run: node --test scripts/test-heureka-shadow-core.js
+
       - name: Run SEO override tests
         run: node --test scripts/test-seo-overrides.js
 
@@ -42,6 +45,7 @@ jobs:
             agent/rules/experiments.md
             agent/rules/heureka.md
             agent/runbooks/heureka-browser.md
+            agent/runbooks/heureka-shadow-optimizer.md
             agent/rules/ux-cro-design.md
             agent/onboarding/2026-09-25-day-1.md
             agent/change-ledger/README.md
