@@ -4,7 +4,7 @@ Cieľ: vybrať produkty s dobrým pomerom dopyt / konkurencia / zisk na objedná
 
 ## Cenová bezpečnosť
 
-- Pre PENTA je po novom finálna poistka **min. 5 % skutočnej hrubej marže** z netto predajnej ceny.
+- Pre **25 produktov v shortliste** je po novom finálna poistka **min. 5 % skutočnej hrubej marže** z netto predajnej ceny; ostatné PENTA produkty týmto pravidlom nemeníme.
 - Statické bootstrap ceny sa používajú len pre vybrané produkty, ktoré ešte nie sú spoľahlivo zachytené denným Heureka reportom.
 - Denný Heureka price target sa aplikuje až potom a má prednosť.
 - Po ňom sa znovu aplikuje 5 % margin floor, takže Heureka target nemôže cenu stlačiť pod stopku.
@@ -56,7 +56,7 @@ Tieto produkty majú dobrý zisk na objednávku a/alebo nízku konkurenciu. Keď
 
 ## Implementácia
 
-- nový konfig: `data/penta-opportunity-prices.json`
+- nový konfig: `data/penta-opportunity-prices.json` — 25 EAN v shortliste, z toho 6 s bootstrap cenou a všetkých 25 s 5 % margin ochranou
 - nový helper: `scripts/penta-opportunity-prices.js`
 - `transform-penta.js`: bootstrap target -> dynamický Heureka target -> finálny 5 % gross-margin clamp
 - aktuálny `output/penta.xml` zostáva na **424 produktoch**; zmenených bolo iba 5 cien vyššie uvedených produktov
