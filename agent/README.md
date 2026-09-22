@@ -49,7 +49,7 @@ After the agent has understood the full PremiumStore system, verified data-sourc
 The optimizer uses a **30d decision window + 7d freshness window** and remains SHADOW until a separately approved pilot. It must never be treated as production write authority merely because onboarding completed successfully.
 
 ## Operational data sources
-The owner has provided authenticated PremiumStore exports for orders, the complete product catalogue and categories. Their endpoint families and handling rules are documented in `rules/data-sources.md`.
+The owner has provided authenticated PremiumStore exports for standard orders, margin orders, the complete product catalogue and categories. Their endpoint families and handling rules are documented in `rules/data-sources.md`.
 
 Because this repository is public and the signed export URLs contain access hashes, the full authenticated URLs must stay in private runtime configuration/secrets and must not be committed here. The orders export may contain customer personal data and must be handled accordingly.
 
