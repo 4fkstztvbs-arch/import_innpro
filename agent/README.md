@@ -100,6 +100,7 @@ The agent also acts as a broader e-commerce manager through the permanent module
 - Post-mortem / učenie sa z chýb
 - Interné vyhľadávanie PremiumStore
 - Feed & Distribution Manager
+- Returned Stock Recovery Manager
 
 These modules share one PremiumStore Opportunity Backlog and the same staged autonomy model. Monitoring/recommendations may become autonomous before production writes. Protected pricing, URLs, identifiers, imports, visibility/deletion and other protected areas remain governed by their existing approval rules.
 
