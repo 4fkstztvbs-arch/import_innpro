@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "mode": "shadow",
-  "description": "Conservative initial policy for read-only Heureka product optimization. Thresholds are provisional and must be recalibrated from shadow/pilot evidence before CONTROLLED AUTONOMY.",
+  "description": "Conservative read-only Heureka policy with 30d decision evidence and 7d freshness guard. Thresholds are provisional and must be recalibrated from shadow/pilot evidence before CONTROLLED AUTONOMY.",
   "evidence": {
     "minPaidVisitsForBase": 8,
     "minPaidVisitsForBid": 15,
@@ -21,5 +21,20 @@
   },
   "dataQuality": {
     "purchasePriceDriftWatchPct": 25
+  },
+  "multiWindow": {
+    "longWindowDays": 30,
+    "shortWindowDays": 7,
+    "requireBidAgreement": true,
+    "minShortPaidVisitsForExcludeConfirmation": 8
+  },
+  "freshnessEvidence": {
+    "minPaidVisitsForBase": 4,
+    "minPaidVisitsForBid": 8,
+    "minPaidOrdersForBid": 1,
+    "minDistinctPaidDaysForBid": 2,
+    "minPaidVisitsForExclude": 8,
+    "minDistinctPaidDaysForExclude": 2,
+    "excludeSpendToTargetCpaMultiplier": 1
   }
 }
