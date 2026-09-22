@@ -26,6 +26,19 @@ Before proposing changes, inspect and understand the existing repository mechani
 
 Do not replace, bypass or duplicate an existing mechanism until its purpose, safeguards and production effects are understood.
 
+## Operating ownership — agent as the single controller
+
+The intended steady state is **agent-managed Heureka optimization**. Manual per-product tuning is not part of normal operations.
+
+Once a Heureka change class has passed the required OBSERVE -> SHADOW -> PILOT validation and is explicitly promoted to CONTROLLED AUTONOMY:
+- the agent becomes the single writer/source of truth for product-level Heureka bidding, CPC state, feed inclusion/exclusion and budget allocation inside the approved policy limits
+- do not maintain competing manual CPC/bid/product-visibility overrides in Heureka admin
+- human operators define strategy, hard limits, promotion gates and the emergency kill switch; they do not manually tune individual products
+- a manual override discovered in production is configuration drift; pause automated changes for the affected scope until the override is reconciled with the canonical agent state
+- emergency human intervention is allowed only as a break-glass safety action; it must be logged and the system must return to agent-managed canonical state after the incident
+
+The agent must never promote itself into a broader autonomy class. Promotion of a new change class or broader hard limits remains a governance decision requiring human review.
+
 ## Browser access
 
 The owner may provide an authenticated Heureka admin session through the browser in ChatGPT Work.
@@ -43,12 +56,14 @@ Never copy or persist passwords, cookies, session tokens, API keys, signed downl
 
 The following browser actions are APPROVAL REQUIRED until a narrower policy explicitly promotes them:
 - changing CPC/bids or budgets
+- changing feed inclusion/exclusion or other product-level paid visibility
 - changing prices or availability
-- changing feed/shop configuration
+- changing feed/shop configuration outside the promoted optimization mechanism
 - changing pairing/category settings with production effect
 - changing conversion measurement/tracking configuration
 - generating, rotating or changing API credentials/scopes
-- bulk hide/unhide or other visibility changes
+
+After promotion to CONTROLLED AUTONOMY, CPC/bid changes, product-level Heureka feed inclusion/exclusion and budget allocation may be executed without per-change human approval **only** inside the verified automated policy and hard limits defined below. Price, availability, identifiers, pairing/category structure, credentials and measurement configuration remain separately protected.
 
 ## 1. Pairing Engine
 
@@ -190,6 +205,30 @@ Do not assume these are the same. Verify the current Heureka attribution model/w
 
 For authoritative business totals, follow `data-sources.md`: PremiumStore operational orders are the source of truth. Heureka and GA4 are attribution/behavioural measurement layers.
 
+### Profitability basis
+
+For Heureka optimization, prefer **margin-based economics** over revenue-only PNO.
+
+When the required source fields have been reconciled and validated:
+- gross margin / contribution comes from PremiumStore/Shoptet operational order data
+- Heureka traffic cost comes from the Heureka downloadable performance report
+- compare like with like, preferably excluding VAT on both sides
+- primary efficiency measure is contribution remaining after Heureka cost, not attributed revenue alone
+
+Canonical calculation where attribution is sufficiently reliable:
+
+`HEUREKA CONTRIBUTION AFTER COST = GROSS MARGIN EX VAT - HEUREKA COST EX VAT`
+
+Also track:
+- Heureka cost / gross margin
+- cost per attributed order
+- conversion rate
+- revenue and margin per click
+- bidded versus non-bidded performance
+- cancellation/return-adjusted contribution when available
+
+Do not fabricate per-order channel margin when the Heureka report cannot be reliably joined to a specific operational order. In that case optimize at the most defensible product/category/cohort level and keep the attribution limitation explicit.
+
 ## 4. Bidding Engine
 
 The long-term goal is product-level, economics-aware bidding.
@@ -215,6 +254,52 @@ A bidding decision should consider:
 Estimate a break-even CPC only from defensible economics and conversion evidence. Apply a safety margin; do not bid at theoretical break-even by default.
 
 Never extrapolate a product-level bid from tiny samples without an explicit exploration policy.
+
+### Canonical product optimization states
+
+Every Heureka-eligible product managed by the agent must have exactly one canonical optimization state:
+
+- **BID** — economically proven product with enough evidence to justify paid positioning. The agent may emit/update product-level CPC within policy limits.
+- **BASE** — product remains present on Heureka without an agent-added product-level CPC override. Use when the product is healthy but incremental bidding is not yet justified.
+- **WATCH** — insufficient, noisy or recently changed evidence. Keep the product available for measurement, avoid aggressive bid changes and collect more data.
+- **EXCLUDE** — product is removed from the Heureka acquisition feed/paid visibility by the canonical automated mechanism because continued acquisition is economically unjustified or unsafe. This does **not** delete or hide the product from PremiumStore.
+
+Feed behavior:
+- `BID`: emit the canonical product-level CPC value (for the current XML implementation this is `HEUREKA_CPC`)
+- `BASE` / `WATCH`: do not emit an agent product-level CPC override
+- `EXCLUDE`: do not emit the product into the Heureka acquisition feed, or use the single canonical Heureka exclusion mechanism if the architecture requires one
+- never run a parallel manual per-product CPC/visibility rule that can override the canonical agent state
+
+### State-transition policy
+
+A state transition must be evidence-driven and reversible.
+
+Typical transitions:
+- `WATCH -> BASE` when measurement is trustworthy and the product has enough evidence for ordinary participation
+- `WATCH/BASE -> BID` when observed conversion, margin and cost support profitable incremental acquisition
+- `BID -> BASE` when incremental bidding no longer clears profitability or evidence guardrails
+- `BASE/WATCH -> EXCLUDE` only after minimum evidence/spend thresholds are met and poor performance is not better explained by tracking, stock, price, feed, pairing or checkout problems
+- `EXCLUDE -> WATCH` after a cooldown or when economics materially change, such as price, margin, competition, availability, seasonality or feed/pairing changes
+
+Never use a rule equivalent to "zero orders this week -> EXCLUDE".
+
+Before `EXCLUDE`, validate at minimum:
+- tracking/data quality is healthy
+- product identity/pairing is correct
+- product is actually available and orderable
+- the observation window is long enough for the product/category
+- clicks or spend exceed the policy's minimum evidence threshold
+- spend is meaningful relative to the product's available margin/contribution
+- recent price/stock/feed changes have had time to settle
+- no known site/checkout incident explains the result
+
+Every excluded product must have:
+- reason code
+- evidence snapshot
+- exclusion timestamp
+- next review date / cooldown
+- automatic re-entry condition
+- rollback path
 
 ## Bidding autonomy ladder
 
@@ -249,14 +334,35 @@ A pilot must define:
 - rollback/reversion method
 - start/end/review dates
 
-Only the approved scope may be changed.
+Once a pilot is approved, the agent executes the allowed product-level decisions inside that pilot without manual per-product tuning. Only the approved scope may be changed.
 
 ### Phase 4 — CONTROLLED AUTONOMY
-Not enabled by this document.
+This is the intended steady-state operating model, but it is **not active by default**.
 
-It may be enabled later only through a separately reviewed governance change after successful pilots demonstrate safe decision quality.
+It may be promoted only after successful pilots demonstrate safe decision quality and the production implementation has:
+- reconciled margin and Heureka-cost inputs
+- deterministic product identity/join logic
+- tested BID/BASE/WATCH/EXCLUDE generation
+- hard maximum CPC and spend ceilings
+- minimum margin/contribution floors
+- minimum evidence/sample thresholds
+- maximum CPC step/change-rate limits
+- stock/availability gates
+- cooldown rules
+- anomaly stops
+- full decision/change logging
+- automated rollback or safe reversion
+- a human emergency kill switch
+- post-change validation that confirms the feed/admin state matches the agent's canonical state
 
-A future policy must still impose hard budget/CPC/margin/PNO limits, evidence thresholds, change-rate limits, anomaly stops, audit logging and rollback.
+After promotion, the agent may autonomously:
+- raise or lower product CPC within policy limits
+- turn bidding on/off by moving products between BID and BASE/WATCH
+- exclude persistently uneconomic products from the Heureka acquisition feed
+- re-enable previously excluded products through EXCLUDE -> WATCH when re-entry criteria are met
+- allocate/reallocate Heureka spend within the approved total budget ceiling
+
+No per-product human approval is required for these actions once the change class is promoted. Humans approve the policy envelope and any future expansion of its hard limits, not individual routine decisions.
 
 ## 5. Feed quality
 
@@ -274,6 +380,8 @@ Monitor issues involving:
 - hidden/excluded products
 
 A pairing or feed-quality change is not automatically good because coverage increases. Validate that it maps the correct product and improves valuable channel coverage without corrupting identifiers or categories.
+
+Heureka performance exclusion is channel-specific: an `EXCLUDE` decision must not delete, hide or disable the product in PremiumStore itself. It only removes the product from the Heureka acquisition surface through the canonical feed/visibility mechanism.
 
 ## 6. Experiments and causal discipline
 
@@ -297,3 +405,33 @@ For a material Heureka recommendation or pilot decision, record:
 `PROBLEM -> EVIDENCE -> CHANNEL MECHANISM -> PROPOSED ACTION -> EXPECTED ECONOMICS -> PRIMARY METRIC -> GUARDRAILS -> SCOPE -> RISK -> APPROVAL CLASS -> VALIDATION -> ROLLBACK`
 
 The agent must be able to explain why a proposed Heureka action should improve PremiumStore economics, not merely Heureka dashboard metrics.
+
+## 8. Autonomous optimization cycle
+
+Once the relevant Heureka change class is promoted, run a recurring closed loop:
+
+`INGEST -> VALIDATE -> JOIN -> SCORE -> STATE DECISION -> FEED/CPC CHANGE -> VERIFY -> MEASURE -> LOG -> REVISIT`
+
+At minimum:
+1. ingest the current Heureka performance export and PremiumStore operational product/order/margin data
+2. reject or quarantine incomplete, stale or internally inconsistent inputs
+3. reconcile product identity before any product-level action
+4. calculate product/category economics and uncertainty
+5. assign or retain BID / BASE / WATCH / EXCLUDE
+6. generate the smallest permitted CPC/feed diff
+7. validate the diff before publication
+8. verify after Heureka reprocessing that the intended state became effective
+9. monitor commercial and technical guardrails
+10. rollback on a clear regression or anomaly
+11. record every state/CPC change with evidence and reason
+
+The routine report must include:
+- products moved into/out of BID
+- CPC increases/decreases
+- products moved to EXCLUDE
+- products reactivated EXCLUDE -> WATCH
+- spend/revenue/orders/margin contribution changes
+- products spending without conversion
+- products with profitable headroom for additional bidding
+- guardrail stops, rollbacks and data-quality blocks
+- current manual-override/configuration-drift count; target is zero
