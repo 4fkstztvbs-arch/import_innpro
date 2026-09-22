@@ -75,6 +75,9 @@ jobs:
       - name: Vianočné zaradenie, parametre a rozcestníky
         run: node scripts/apply-christmas-products.js --write
 
+      - name: Finalizovať hlavnú kategóriu Solight
+        run: node scripts/finalize-solight-default-category.js
+
       - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
         run: node scripts/add-category-links.js
 
