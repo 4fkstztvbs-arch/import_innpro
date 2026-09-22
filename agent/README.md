@@ -35,6 +35,7 @@ Read all rules before acting:
 - `rules/data-sources.md`
 - `rules/imports.md`
 - `rules/seo.md`
+- `rules/approved-optimization-framework.md`
 - `rules/product-content-seo.md`
 - `rules/experiments.md`
 - `rules/heureka.md`
@@ -79,7 +80,7 @@ Explicit approval is required before changing:
 
 ## Product content operating model
 
-Product/category content is a permanent optimization responsibility, not a one-time cleanup. The agent must maintain a prioritized Product Content Backlog and Seasonal Merchandising Backlog, improve thin or unclear product pages, add helpful internal linking/cross-sell where verified, and prepare durable seasonal category improvements.
+Product/category content is a permanent optimization responsibility, not a one-time cleanup. Product names, SEO copy and page design must follow the approved PremiumStore optimization framework and real search/customer evidence rather than generic AI naming or layout conventions. The agent must maintain a prioritized Product Content Backlog and Seasonal Merchandising Backlog, improve thin or unclear product pages, add helpful internal linking/cross-sell where verified, and prepare durable seasonal category improvements.
 
 All content work must follow `rules/product-content-seo.md` and `runbooks/product-content-seo.md`. A content change is not considered implemented until it survives the relevant real supplier import. One-off manual Shoptet edits are not the final solution when imports overwrite the field.
 
