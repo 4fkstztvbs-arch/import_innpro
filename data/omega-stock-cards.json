@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600334,
+    "nextCardNumber": 202600341,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2000,6 +2000,48 @@
         "nazov": "TV FINLUX 40FFI5661 FHD (S2/T2/C/SMART/TIVO/Wi-Fi)",
         "dodavatel": "atos",
         "code": "ATO-TVF40FFI5661"
+      },
+      "6972237682653": {
+        "kod": "202600334",
+        "nazov": "Maono PD100X Microphone",
+        "dodavatel": "innpro",
+        "code": "075428"
+      },
+      "6972403820117": {
+        "kod": "202600335",
+        "nazov": "Bebird EarSight Plus",
+        "dodavatel": "innpro",
+        "code": "074539"
+      },
+      "6936685221901": {
+        "kod": "202600336",
+        "nazov": "GameSir X5 Lite BK (Black)",
+        "dodavatel": "innpro",
+        "code": "079692"
+      },
+      "5905156100008": {
+        "kod": "202600337",
+        "nazov": "Play2Video Plus Wireless",
+        "dodavatel": "innpro",
+        "code": "081072"
+      },
+      "5905156102149": {
+        "kod": "202600338",
+        "nazov": "Flytec RC Boat V803-Pro",
+        "dodavatel": "innpro",
+        "code": "083986"
+      },
+      "6979127740165": {
+        "kod": "202600339",
+        "nazov": "Jump Starter GOOLOO A3",
+        "dodavatel": "innpro",
+        "code": "087310"
+      },
+      "6976230001411": {
+        "kod": "202600340",
+        "nazov": "Sublimation film HTVRONT",
+        "dodavatel": "innpro",
+        "code": "088987"
       }
     }
   },
