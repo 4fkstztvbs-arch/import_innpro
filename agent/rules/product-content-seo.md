@@ -12,7 +12,10 @@ The goal is to make product and category pages:
 - better at relevant cross-sell
 - resilient to subsequent supplier imports
 
-This work must always respect all higher-risk governance in:
+This work must always follow the approved optimization direction in:
+- `approved-optimization-framework.md`
+
+It must also respect all higher-risk governance in:
 - `safety.md`
 - `security.md`
 - `imports.md`
@@ -56,7 +59,34 @@ The backlog should record:
 - approval level
 - validation method
 
+## Product-name optimization
+
+Do not treat the supplier product name as the ideal customer-facing name.
+
+For priority products, evaluate the name against:
+- Google Search Console query wording
+- external search-demand evidence where available
+- internal-site search phrases
+- Heureka/category terminology
+- customer vocabulary in support/reviews
+- category/filter language
+
+Optimize the visible product NAME for search intent and immediate comprehension while preserving:
+- brand
+- model
+- important verified differentiators
+- natural Slovak language
+
+Do not keyword-stuff.
+
+A NAME change must not change URL, SKU/CODE, EAN, supplier ID or product ID.
+
+If the supplier import overwrites NAME, the optimized name must be implemented through the same durable override/localization principles as other content.
+
 ## Product-page content standard
+
+Use the current Kvasnička reference document and `approved-optimization-framework.md` as the approved direction for product-detail content/design. In particular, evaluate perex quality, readability, mobile rendering, structured sections, important-property presentation, media/storytelling, internal linking, FAQ and visible information architecture.
+
 
 When a product needs a full rewrite, prefer a customer-friendly structure such as:
 
