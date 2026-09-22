@@ -1,0 +1,24 @@
+name: Export current Solight XML
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/export-current-solight.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload current Solight XML
+        uses: actions/upload-artifact@v4
+        with:
+          name: solight-current-xml
+          path: output/solight.xml
+          if-no-files-found: error
+          retention-days: 1
