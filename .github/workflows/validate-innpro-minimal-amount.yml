@@ -23,6 +23,4 @@ jobs:
           curl -fsSL https://www.shoptet.cz/export/schema/products-datatype-v10.rng -o /tmp/products-datatype-v10.rng
 
       - name: Validate test feed against Shoptet RNG
-        run: |
-          cp /tmp/products-datatype-v10.rng /tmp/products-datatype-v10.rng
-          xmllint --noout --relaxng /tmp/products-supplier-v10.rng test/innpro-minimal-amount.xml
+        run: xmllint --noout --relaxng /tmp/products-supplier-v10.rng test/innpro-minimal-amount.xml
