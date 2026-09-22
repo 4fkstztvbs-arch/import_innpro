@@ -25,6 +25,7 @@ The modules are:
 9. Post-mortem / učenie sa z chýb
 10. Interné vyhľadávanie PremiumStore
 11. Feed & Distribution Manager
+12. Returned Stock Recovery Manager
 
 ## 1. Sortimentný manažér
 
@@ -521,7 +522,130 @@ When site/feed data conflict, investigate the pipeline and fix the authoritative
 
 
 
-The agent should not run eleven independent queues with no prioritisation.
+## 12. Returned Stock Recovery Manager
+
+### Goal
+Turn customer-returned and unclaimed-COD stock back into cash quickly, transparently and with controlled economics instead of leaving isolated units idle in inventory.
+
+### Scope
+This module covers stock that physically returns to PremiumStore, for example:
+- unclaimed cash-on-delivery parcels
+- customer returns within the return period
+- opened-box items
+- items with damaged packaging but functional product
+- other individually returned units that may still be resellable
+
+It does **not** automatically cover:
+- defective products
+- incomplete products
+- products with uncertain safety/functionality
+- warranty-claim items
+- items that cannot legally or ethically be sold in their current condition
+
+### Mandatory physical classification
+No returned unit may be auto-listed from order status alone.
+
+Before resale, require a warehouse/owner-confirmed condition state such as:
+- **A — NEW/UNOPENED:** unopened, complete, normal new-stock quality
+- **B — OPENED/LIKE NEW:** opened but complete and functionally checked
+- **C — COSMETIC/PACKAGING DAMAGE:** functional, but packaging or cosmetic condition must be disclosed
+- **D — UNSUITABLE FOR AUTOMATIC RESALE:** defective, incomplete, unsafe, unclear or requires manual decision
+
+Grade D is fail-closed: no automatic sale.
+
+### Listing principle
+Do not reduce the retail price of all normal stock merely because one returned unit exists.
+
+If normal sellable stock shares the same SKU/product, the returned/open-box unit should use a separately identifiable sellable state where the e-commerce platform supports it, for example:
+- dedicated variant/condition
+- dedicated returned/open-box product
+- another approved one-unit listing mechanism
+
+The customer must be able to understand the actual condition before purchase.
+
+Do not represent an opened/damaged-packaging unit as factory-new if it is not.
+
+### Clearance category and merchandising
+Maintain a **RETURNED STOCK RECOVERY QUEUE**.
+
+Eligible returned units may be:
+- placed into a dedicated returned/open-box/clearance section
+- visibly marked with condition
+- promoted internally in relevant category/product contexts
+- surfaced through merchandising where useful
+- linked from the original product when the relationship is clear
+
+Because these units often have quantity 1 and thin margin, paid distribution is not automatically desirable. Feed & Distribution and Heureka rules decide channel eligibility; do not pay CPC for a one-off clearance unit unless economics justify it.
+
+### Pricing objective
+The objective is **fast stock recovery with a positive, owner-approved contribution floor**, not maximising headline margin.
+
+Returned-stock pricing is a separate protected pricing class.
+
+Before any automatic production price write, define an owner-approved **Returned Stock Clearance Policy** containing:
+- authoritative unit cost source
+- VAT treatment
+- minimum contribution above cost
+- handling/repacking cost allowance
+- payment/channel fee treatment where relevant
+- maximum initial discount versus current normal selling price
+- markdown schedule by age
+- absolute floor
+- stop/escalation conditions
+
+Example logic only after policy approval:
+
+`clearance floor ex VAT = verified unit cost ex VAT + handling allowance + minimum retained contribution + unavoidable variable channel/payment costs`
+
+Do not compare a VAT-inclusive selling price directly with an ex-VAT purchase price.
+
+When historical acquisition cost is available and trustworthy for that physical unit, prefer it over a guessed current supplier cost. If cost basis is uncertain, do not auto-price.
+
+### Time-based markdown
+After the pricing policy is approved, the agent may propose or later control a staged markdown, for example:
+- initial returned-stock offer
+- after N unsold days: reduce within policy
+- after another N days: reduce again
+- never cross the approved floor
+- escalate stale stock that reaches the floor without selling
+
+Exact percentages/days belong in policy, not hard-coded assumptions.
+
+### Automation flow
+Target flow:
+
+`RETURN RECEIVED -> PHYSICAL CHECK -> CONDITION GRADE -> COST VERIFY -> LISTING ROUTE -> CLEARANCE PRICE -> INTERNAL MERCHANDISING -> MONITOR AGE -> MARKDOWN/SELL -> AUTO-CLOSE LISTING -> REPORT`
+
+### Data and accounting safety
+Before controlled automation, map:
+- how the returned physical unit is re-entered into stock
+- Shoptet stock representation
+- Omega/accounting treatment
+- order/return linkage
+- whether the original product has additional normal stock
+- whether the item is already reserved or otherwise unavailable
+
+The agent must not create duplicate accounting/stock state or sell one physical unit twice.
+
+### Success metrics
+Track:
+- number/value of returned units awaiting resale
+- age of returned stock
+- median days to resale
+- recovery revenue
+- recovery contribution
+- recovered value vs write-off/idle stock
+- markdown depth
+- percentage sold before hitting floor
+- customer issues/returns from returned-stock sales
+
+### Autonomy path
+Use:
+`OBSERVE -> SHADOW PRICING -> PILOT -> CONTROLLED AUTONOMY`
+
+A good first pilot is a small number of physically verified units with manual condition confirmation and agent-generated listing/price recommendations.
+
+The agent should not run twelve independent queues with no prioritisation.
 
 All backlogs feed into a shared **PremiumStore Opportunity Backlog**.
 
@@ -558,6 +682,7 @@ Summarise:
 - post-mortem actions
 - internal-search findings
 - feed/distribution health and eligibility
+- returned/open-box stock awaiting resale, ageing and recovery performance
 - top recommended priorities for next week
 
 ### Monthly/quarterly
