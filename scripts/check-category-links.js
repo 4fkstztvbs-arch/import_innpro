@@ -8,8 +8,8 @@
 //
 // Samotná oprava add-category-links.js je tichá — keby sa raz rozbila, nikto sa to nedozvie, kým to
 // niekto nenájde na webe. Tento skript preto kontroluje VÝSLEDOK, nie postup: pre každý produkt
-// porovná URL v odstavci s URL jeho HLAVNEJ kategórie (prvá <CATEGORY>, tam Shoptet produkt
-// zaradí) podľa data/category-urls.json. Pri nezhode skončí chybou a workflow sa zastaví pred
+// porovná URL v odstavci s URL jeho HLAVNEJ kategórie (DEFAULT_CATEGORY, ak existuje;
+// inak prvá CATEGORY) podľa data/category-urls.json. Pri nezhode skončí chybou a workflow sa zastaví pred
 // commitom. Popri tom hlási — bez zastavenia — produkty, ktorých hlavná kategória je plytšia než
 // iná ich vlastná vetva; tam je odkaz správny, len zaradenie by mohlo byť konkrétnejšie.
 //
@@ -37,18 +37,23 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml')).sor
   const xml = fs.readFileSync(path.join(OUT_DIR, file), 'utf-8');
 
   for (const item of xml.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g) || []) {
-    const kategorie = [...item.matchAll(/<CATEGORY><!\[CDATA\[([\s\S]*?)\]\]><\/CATEGORY>/g)]
+    const defaultM = item.match(/<DEFAULT_CATEGORY(?:\s[^>]*)?><!\[CDATA\[([\s\S]*?)\]\]><\/DEFAULT_CATEGORY>/);
+    const kategorie = [...item.matchAll(/<CATEGORY(?:\s[^>]*)?><!\[CDATA\[([\s\S]*?)\]\]><\/CATEGORY>/g)]
       .map((m) => m[1].trim()).filter(Boolean);
-    if (!kategorie.length) continue;
+    const defaultCategory = defaultM ? defaultM[1].trim() : '';
+    if (!defaultCategory && !kategorie.length) continue;
     spolu++;
 
-    // Prvá kategória = hlavná (defaultCategory), tam Shoptet produkt zaradí a tam má viesť odkaz.
-    const kategoria = kategorie[0];
+    // Explicitný DEFAULT_CATEGORY má prednosť; staršie feedy bez neho používajú prvú CATEGORY.
+    const kategoria = defaultCategory || kategorie[0];
     const ocakavana = URLS[kategoria];
 
-    // Hlavná kategória by mala byť zároveň najkonkrétnejšia. Keď nie je, produkt síce nie je zle
-    // odkázaný, ale je zaradený plytšie, než by mohol byť — to sa hlási zvlášť a beh nezastavuje.
-    const najhlbsia = kategorie.reduce((a, b) => (b.split(' > ').length > a.split(' > ').length ? b : a));
+    // Hlavná kategória by mala byť zároveň najkonkrétnejšia. Pri Solighte porovnávame aj
+    // DEFAULT_CATEGORY aj vedľajšie CATEGORY, aby rodičovské vetvy neboli omylom považované
+    // za hlavnú kategóriu.
+    const vsetkyKategorie = defaultCategory ? [defaultCategory, ...kategorie] : kategorie;
+    const najhlbsia = vsetkyKategorie.reduce((a, b) =>
+      (b.split(' > ').length > a.split(' > ').length ? b : a));
     if (najhlbsia !== kategoria) plytkaHlavna.push({ file, kategoria, najhlbsia });
     const odkazy = [...item.matchAll(ODKAZ)];
     const kod = ((item.match(/<CODE>([\s\S]*?)<\/CODE>/) || [])[1] || '').trim();
