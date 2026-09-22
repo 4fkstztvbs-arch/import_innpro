@@ -59,7 +59,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          git fetch origin main --depth=1
+          git fetch origin main
           added="$(git diff --unified=0 origin/main...HEAD -- . ':!package-lock.json'             | sed -n 's/^+[^+]/&/p' || true)"
           if printf '%s\n' "$added" | grep -Eiq             '(api[_-]?key|password|passwd|secret|token)[[:space:]]*[:=][[:space:]]*["'\'' ]?[A-Za-z0-9_./+=-]{16,}'; then
             echo "::error::Possible plaintext credential added in PR. Use GitHub Secrets/environment configuration."
