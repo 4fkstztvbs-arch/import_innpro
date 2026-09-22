@@ -28,6 +28,30 @@ Každý riadok som overil voči aktuálne generovaným feedom v `output/*.xml`:
 
 Pri produktoch, kde sa Google popis zhoduje s aktuálnym (napr. Finlux 40FFI5661, kód `ATO-TVF40FFI5661`), som skontroloval aj štruktúrované `TEXT_PROPERTY` hodnoty, ktoré `transform-atos.js` preberá priamo z ATOS feedu. **Úhlopriečka aj konektivita (HDMI, USB port, LAN RJ45, AV vstup) tam už sú** — ako text v popise aj ako samostatný parameter. Farba tam nie je nikde — ani v popise, ani medzi parametrami — u žiadneho zo skontrolovaných televízorov, pretože ju ATOS vo svojom feede neposiela. To je jediná časť odporúčania Google, ktorá naozaj sedí naprieč celou kategóriou.
 
+## Ako presne Google Merchant Center berie popis (a prečo to sedí aj na živé produkty)
+
+Dohľadal som oficiálnu špecifikáciu a Shoptet dokumentáciu, aby bolo jasné, **kam presne** tieto údaje zapisovať:
+
+- **`description` je vlastný, povinný atribút feedu, max 5000 znakov** (Google Merchant Center — Product data specification). Google výslovne odporúča najdôležitejšie fakty napísať **hneď na začiatok**, lebo pri zobrazení produktu vidí zákazník (a zjavne aj nástroj na kontrolu kvality) najskôr len prvú časť textu.
+- **`color` (farba) je úplne samostatný atribút feedu — nie je to text v `description`.** Nedá sa "dopísať veta o farbe do popisu" a čakať, že to Google zoberie ako štruktúrovanú farbu. V Shoptete sa toto rieši cez **Nastavenia → Parametrické filtre**, kde sa konkrétny parameter produktu namapuje na Google parameter `color` — to je krok v administrácii Shoptetu, nie v tomto repozitári. Toto konkrétne odporúčanie GMC ("Pridať do opisu") ale nechce tento štruktúrovaný atribút — chce, aby sa tie isté fakty **slovami objavili priamo v texte `description`** (kvôli vyhľadávaniu/párovaniu dopytov).
+- **Shoptet generuje svoj Google feed automaticky (každú hodinu) zo svojej produktovej databázy** — teda z toho istého popisu, ktorý je aj na produktovej stránke (Google to dokonca vyžaduje: popis v feede sa musí zhodovať s popisom na stránke). To, čo `transform-atos.js` zapíše do `<DESCRIPTION>`, je po importe presne to, čo ide aj do Google — netreba teda žiadny ďalší krok na "prepojenie".
+
+**Zmeral som, kde presne (v plain-texte, bez HTML) sa v našich popisoch prvýkrát spomína uhlopriečka/HDMI:**
+
+| Produkt (CODE) | Dĺžka popisu (plain text, znakov) | 1. zmienka "Úhlopříčka" | 1. zmienka "HDMI" | V rámci 5000-znakového limitu Google? |
+|---|---|---|---|---|
+| 32FQI8061 | 8 463 | znak 5 196 | znak 6 218 | **NIE** |
+| ATO-TVF40FFI5661 | 15 336 | znak 7 624 | znak 10 135 | **NIE** |
+| MC22TFW11 | 11 456 | znak 5 891 | znak 7 653 | **NIE** |
+| 55FQK9070 | 11 966 | znak 3 128 | znak 2 336 | áno |
+
+**Záver:** naša šablóna popisu (dlhý marketingový úvod → "Klíčové vlastnosti" → tabuľka "Technické specifikace" až na konci) posúva presne tie fakty, ktoré Google chce, za hranicu 5000 znakov, ktorú Google pre `description` reálne prijíma. Google preto tieto údaje u väčšiny produktov **reálne nevidí**, hoci v HTML zdroji sú — nejde teda len o staré záznamy v Merchant Center (vyššie), ale aj o poradie faktov v šablóne popisu. Riešenie by bolo doplniť krátku vetu s uhlopriečkou/pripojením (a farbou, ak je známa z názvu) hneď na začiatok popisu, nie len do tabuľky na konci.
+
+Zdroje:
+- [Product data specification — Google Merchant Center Help](https://support.google.com/merchants/answer/7052112?hl=en)
+- [Google Nákupy — Shoptet Podpora](https://podpora.shoptet.cz/google-nakupy/)
+- [Parametrické filtry — Shoptet Podpora](https://podpora.shoptet.cz/parametricke-filtry/)
+
 ## Detailná tabuľka
 
 | # | Produkt | Google ID | Stav | Poznámka |
