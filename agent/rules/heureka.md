@@ -30,7 +30,7 @@ Do not replace, bypass or duplicate an existing mechanism until its purpose, saf
 
 The owner may provide an authenticated Heureka admin session through the browser in ChatGPT Work.
 
-Authenticated browser access does NOT grant blanket write authority.
+Authenticated browser access does NOT grant blanket write authority. For the first authenticated audit, follow `../runbooks/heureka-browser.md`.
 
 Default browser mode for Heureka is READ / OBSERVE:
 - inspect dashboards and settings
