@@ -1,0 +1,69 @@
+name: Audit Solight duplicate identity
+
+on:
+  push:
+    branches:
+      - test/solight-xa05-duplicate-audit
+    paths:
+      - .github/workflows/audit-solight-duplicate-identity.yml
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Compare XA05 before and after MOQ rollout
+        run: |
+          node <<'NODE'
+          const {execSync}=require('child_process');
+          function readAt(ref){
+            return execSync(`git show ${ref}:output/solight.xml`,{encoding:'utf8',maxBuffer:50*1024*1024});
+          }
+          function parse(xml){
+            return [...xml.matchAll(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g)].map(m=>m[0]);
+          }
+          function field(item,tag){
+            const m=item.match(new RegExp('<'+tag+'(?:\\s[^>]*)?>([\\s\\S]*?)<\\/'+tag+'>'));
+            return m?m[1].replace(/<!\[CDATA\[|\]\]>/g,'').trim():'';
+          }
+          function summary(ref){
+            const xml=readAt(ref);
+            const items=parse(xml);
+            const xa=items.filter(i=>field(i,'CODE')==='XA05');
+            const codes=new Map();
+            for(const i of items){
+              const code=field(i,'CODE');
+              const arr=codes.get(code)||[];
+              arr.push(i); codes.set(code,arr);
+            }
+            const duplicateCodes=[...codes.entries()].filter(([k,v])=>k&&v.length>1).map(([k,v])=>({code:k,count:v.length}));
+            return {
+              ref,
+              items:items.length,
+              xa05Count:xa.length,
+              xa05:xa.map(i=>({
+                code:field(i,'CODE'),
+                ean:field(i,'EAN'),
+                name:field(i,'NAME'),
+                external_code:field(i,'EXTERNAL_CODE'),
+                external_id:field(i,'EXTERNAL_ID'),
+                guid:field(i,'GUID'),
+                min:field(i,'MINIMAL_AMOUNT'),
+                supplier:field(i,'SUPPLIER'),
+                default_category:field(i,'DEFAULT_CATEGORY')
+              })),
+              duplicateCodeCount:duplicateCodes.length,
+              duplicateCodes:duplicateCodes.slice(0,50)
+            };
+          }
+          const before='26cc595a7e61b9471676fedfb8a5a87f2ee8b775';
+          const current='HEAD';
+          console.log('BEFORE',JSON.stringify(summary(before),null,2));
+          console.log('CURRENT',JSON.stringify(summary(current),null,2));
+          NODE
