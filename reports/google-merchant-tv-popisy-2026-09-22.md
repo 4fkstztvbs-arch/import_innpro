@@ -45,7 +45,17 @@ Dohľadal som oficiálnu špecifikáciu a Shoptet dokumentáciu, aby bolo jasné
 | MC22TFW11 | 11 456 | znak 5 891 | znak 7 653 | **NIE** |
 | 55FQK9070 | 11 966 | znak 3 128 | znak 2 336 | áno |
 
-**Záver:** naša šablóna popisu (dlhý marketingový úvod → "Klíčové vlastnosti" → tabuľka "Technické specifikace" až na konci) posúva presne tie fakty, ktoré Google chce, za hranicu 5000 znakov, ktorú Google pre `description` reálne prijíma. Google preto tieto údaje u väčšiny produktov **reálne nevidí**, hoci v HTML zdroji sú — nejde teda len o staré záznamy v Merchant Center (vyššie), ale aj o poradie faktov v šablóne popisu. Riešenie by bolo doplniť krátku vetu s uhlopriečkou/pripojením (a farbou, ak je známa z názvu) hneď na začiatok popisu, nie len do tabuľky na konci.
+**Záver:** naša šablóna popisu (dlhý marketingový úvod → "Klíčové vlastnosti" → tabuľka "Technické specifikace" až na konci) posúva presne tie fakty, ktoré Google chce, za hranicu 5000 znakov, ktorú Google pre `description` reálne prijíma. Google preto tieto údaje u väčšiny produktov **reálne nevidí**, hoci v HTML zdroji sú — nejde teda len o staré záznamy v Merchant Center (vyššie), ale aj o poradie faktov v šablóne popisu.
+
+## Vykonaná náprava (2026-09-22)
+
+Doplnené `scripts/lib/atos-tv-quick-facts.js` — pre televízory (kategória končiaca na "Televízory" a s vyplneným parametrom "Úhlopříčka") sa na **úplný začiatok** `<DESCRIPTION>` vloží krátka veta v tvare `Úhlopříčka obrazovky <hodnota>, barva <farba ak je v názve>, připojení <HDMI/Wi-Fi/USB/LAN/AV podľa toho, čo produkt naozaj má>.` — všetko len z hodnôt, ktoré ATOS sám posiela v `TEXT_PROPERTIES` (žiadne dopĺňanie farby naslepo — ak ju názov produktu neuvádza, veta ju jednoducho vynechá).
+
+- `scripts/transform-atos.js` — použité pri každom budúcom nočnom behu (živý zdroj dát).
+- `scripts/inject-atos-tv-quick-facts.js` — jednorazový (opakovateľný, idempotentný) patch tej istej logiky na už vygenerovaný `output/atos.xml`, keďže živý ATOS feed sa dá stiahnuť len v noci a s prístupovými údajmi. Spustený teraz: **14 televízorov** upravených (23 produktov v kategórii "Televízory" spolu, 9 z nich sú príslušenstvo bez vlastnej uhlopriečky — adaptéry, kufríky na projektor, držiaky — tie sa správne preskočili).
+- `scripts/tests/atos-tv-quick-facts.test.js` — jednotkové testy vrátane regresie na chybu s `\b` v regexe, ktorý pri slovách s diakritikou (napr. "Bílá") na konci reťazca nikdy nenašiel hranicu slova.
+
+Mimochodom som si všimol, že popis produktu `FINLUX 32FWI5670 SMART ANDROID TV FULL HD BÍLÁ` má vlastný nadpis "FINLUX 32FFI5670 ANDROID TV BÍLÁ" (WI5670 vs FI5670) — vyzerá to na preklep priamo v ATOS-ovej dodávateľskej kópii, nie na niečo, čo spôsobil tento feed. Neopravoval som to (mimo zadania), len na to upozorňujem.
 
 Zdroje:
 - [Product data specification — Google Merchant Center Help](https://support.google.com/merchants/answer/7052112?hl=en)

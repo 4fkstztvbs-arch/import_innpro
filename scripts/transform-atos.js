@@ -43,6 +43,7 @@ const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
 const { translateRemoteControlName } = require('./lib/translate-remote-control-names');
 const { replaceDeadAtosImages } = require('./lib/fix-description-image-urls');
 const { translateAtosRemoteDescription } = require('./lib/atos-remote-control-description');
+const { buildTvQuickFacts } = require('./lib/atos-tv-quick-facts');
 
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
@@ -345,6 +346,21 @@ async function main() {
     // celý vymaže (viď scripts/lib/atos-remote-control-description.js). Iné formáty (WIWA,
     // TechniSat vysielače a pod.) túto šablónu nemajú a ostávajú bez zmeny.
     if (defaultCategory.includes('Diaľkové ovládače')) p.description = translateAtosRemoteDescription(p.description);
+
+    // Google Merchant Center odporúčanie "Aktualizujte opisy výrobkov" (kategória TVs, overené
+    // 2026-09-22): uhlopriečka a pripojenie sú v ATOS popise len v tabuľke "Technické specifikace"
+    // hlboko v texte, často za hranicou 5000 znakov, na ktorých Google atribút `description`
+    // orezáva (support.google.com/merchants/answer/7052112) - tam sa teda nikdy nedostanú, hoci
+    // v HTML zdroji sú. Krátka veta s tými istými faktami (zo skutočných TEXT_PROPERTIES, nič sa
+    // nedomýšľa) sa preto vloží na úplný začiatok popisu, nie len do tabuľky na konci.
+    if (defaultCategory.endsWith('Televízory')) {
+      const paramPairs = p.params.map((pv) => {
+        const idx = pv.indexOf(';');
+        return [pv.slice(0, idx), pv.slice(idx + 1)];
+      });
+      const quickFacts = buildTvQuickFacts(p.name, paramPairs);
+      if (quickFacts) p.description = `<p>${xmlEscape(quickFacts)}</p>\n${p.description}`;
+    }
 
     const shortDescription = p.shortDescription || truncateAtWord(stripTags(p.description), 200);
     const nameHasManufacturer = p.manufacturer && p.name.toLowerCase().includes(p.manufacturer.toLowerCase());
