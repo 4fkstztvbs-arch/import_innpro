@@ -1,6 +1,9 @@
 name: Penta sync
 
 on:
+  push:
+    paths:
+      - '.github/workflows/penta-sync.yml'
   schedule:
     # StoItemShoptet_El's GetResult is only available 21:00-08:00 CET/CEST (per Penta's own
     # ResultTypeInfo table). 22:20 UTC = 00:20/01:20 CET/CEST depending on DST — inside that
