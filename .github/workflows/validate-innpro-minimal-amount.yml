@@ -5,6 +5,8 @@ on:
     branches:
       - test/innpro-minimal-amount-stock
     paths:
+      - scripts/transform-innpro.js
+      - scripts/parse-product.js
       - test/innpro-minimal-amount.xml
       - .github/workflows/validate-innpro-minimal-amount.yml
 
@@ -14,6 +16,41 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Generate full INNPRO feed with test change
+        env:
+          INNPRO_FULL_URL: ${{ secrets.INNPRO_FULL_URL }}
+          INNPRO_LIGHT_URL: ${{ secrets.INNPRO_LIGHT_URL }}
+          INNPRO_MARKUP: '15'
+          INNPRO_MIN_COST: '0.50'
+          INNPRO_OUT: output/innpro.xml
+          INNPRO_EXCLUDE_UNAVAILABLE: '1'
+          HEUREKA_PRICE_OVERRIDE: '1'
+        run: node scripts/transform-innpro.js
+
+      - name: Run production post-processing chain
+        run: |
+          node scripts/dedupe-cross-supplier.js
+          node scripts/collapse-duplicate-categories.js
+          node scripts/fix-ignored-categories.js
+          node scripts/apply-product-category-corrections.js --write
+          node scripts/collapse-thin-categories.js
+          node scripts/enforce-tree-categories.js
+          node scripts/hide-uncategorised-products.js
+          node scripts/hide-below-cost-products.js
+          node scripts/apply-approved-categories.js --write
+          node scripts/apply-christmas-products.js --write
+          node scripts/add-category-links.js
+          node scripts/check-category-links.js
+          node scripts/check-feed-size.js
+          node scripts/apply-seo-overrides.js --write
+
       - name: Install XML validator
         run: sudo apt-get update && sudo apt-get install -y libxml2-utils
 
@@ -22,5 +59,36 @@ jobs:
           curl -fsSL https://www.shoptet.cz/export/schema/products-supplier-v10.rng -o /tmp/products-supplier-v10.rng
           curl -fsSL https://www.shoptet.cz/export/schema/products-datatype-v10.rng -o /tmp/products-datatype-v10.rng
 
-      - name: Validate test feed against Shoptet RNG
+      - name: Validate small test feed against Shoptet RNG
         run: xmllint --noout --relaxng /tmp/products-supplier-v10.rng test/innpro-minimal-amount.xml
+
+      - name: Validate generated full feed against Shoptet RNG
+        run: xmllint --noout --relaxng /tmp/products-supplier-v10.rng output/innpro.xml
+
+      - name: Verify generated minimum-order values
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const xml = fs.readFileSync('output/innpro.xml', 'utf8');
+          const values = [...xml.matchAll(/<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>/g)].map(m => m[1]);
+          if (!values.length) {
+            console.error('No MINIMAL_AMOUNT values found in generated feed');
+            process.exit(1);
+          }
+          const distribution = {};
+          for (const v of values) distribution[v] = (distribution[v] || 0) + 1;
+          console.log('MINIMAL_AMOUNT count:', values.length);
+          console.log('Distribution:', distribution);
+
+          for (const code of ['023350','035753','044831','016534']) {
+            const item = [...xml.matchAll(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g)]
+              .map(m => m[0])
+              .find(s => s.includes('<CODE>' + code + '</CODE>'));
+            if (!item) {
+              console.log(code + ': not present in current generated feed');
+              continue;
+            }
+            const m = item.match(/<STOCK>[\s\S]*?<MINIMAL_AMOUNT>([^<]+)<\/MINIMAL_AMOUNT>[\s\S]*?<\/STOCK>/);
+            console.log(code + ': ' + (m ? 'MINIMAL_AMOUNT=' + m[1] : 'missing MINIMAL_AMOUNT'));
+          }
+          NODE
