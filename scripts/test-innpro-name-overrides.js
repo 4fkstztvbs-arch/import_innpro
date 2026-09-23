@@ -15,11 +15,12 @@ function productFor(row) {
     ean: row.ean,
     manufacturer: row.manufacturer,
     name: row.sourceName,
+    metaDescription: 'Generated supplier meta',
   };
 }
 
-function shopitem(name, code, ean, manufacturer = 'Flytec') {
-  return `<SHOPITEM>\n<NAME><![CDATA[${name}]]></NAME>\n<DESCRIPTION><![CDATA[literal <CODE>${code}</CODE><EAN>${ean}</EAN>]]></DESCRIPTION><MANUFACTURER><![CDATA[${manufacturer}]]></MANUFACTURER><CODE>${code}</CODE><EAN>${ean}</EAN><TEXT_PROPERTIES><TEXT_PROPERTY><NAME><![CDATA[Model]]></NAME><VALUE>preserve</VALUE></TEXT_PROPERTY></TEXT_PROPERTIES><PRICE_VAT>10.00</PRICE_VAT></SHOPITEM>`;
+function shopitem(name, code, ean, manufacturer = 'Flytec', metaDescription = 'Generated supplier meta') {
+  return \`<SHOPITEM>\n<NAME><![CDATA[\${name}]]></NAME>\n<DESCRIPTION><![CDATA[literal <CODE>\${code}</CODE><EAN>\${ean}</EAN>]]></DESCRIPTION><MANUFACTURER><![CDATA[\${manufacturer}]]></MANUFACTURER><CODE>\${code}</CODE><EAN>\${ean}</EAN><TEXT_PROPERTIES><TEXT_PROPERTY><NAME><![CDATA[Model]]></NAME><VALUE>preserve</VALUE></TEXT_PROPERTY></TEXT_PROPERTIES><PRICE_VAT>10.00</PRICE_VAT>\n<META_DESCRIPTION><![CDATA[\${metaDescription}]]></META_DESCRIPTION>\n</SHOPITEM>\`;
 }
 
 test('approved exact identity changes only the leading product NAME and is repeatable', () => {
@@ -31,6 +32,38 @@ test('approved exact identity changes only the leading product NAME and is repea
   assert.equal(apply(before, product), after);
   const alreadyNamed = { ...product, name: row.name };
   assert.equal(createNameOverride([alreadyNamed])(after, alreadyNamed), after);
+});
+
+test('optional meta override changes only NAME and terminal META_DESCRIPTION for a verified identity', () => {
+  const base = overrides[0];
+  const row = { ...base, metaDescription: 'Zavážacia loďka Flytec 2011-5 s batériou 12 000 mAh. Overené parametre v popise.' };
+  const product = productFor(row);
+  const before = shopitem(row.sourceName, row.code, row.ean, row.manufacturer, product.metaDescription);
+  const after = shopitem(row.name, row.code, row.ean, row.manufacturer, row.metaDescription);
+  const apply = createNameOverride([product], [row]);
+  assert.equal(apply(before, product), after);
+  assert.equal(apply(after, product), after);
+
+  for (const changed of [
+    { ...product, ean: 'wrong' },
+    { ...product, manufacturer: 'Other' },
+    { ...product, name: 'Supplier drift' },
+  ]) assert.equal(createNameOverride([changed], [row])(before, changed), before);
+});
+
+test('validator checks optional meta overrides without constraining legacy name-only entries', () => {
+  const base = overrides[0];
+  const row = { ...base, metaDescription: 'Krátky overený SEO popis produktu.' };
+  const product = productFor(row);
+  const source = shopitem(row.sourceName, row.code, row.ean, row.manufacturer, product.metaDescription);
+  const transformed = createNameOverride([product], [row])(source, product);
+  const good = validate(transformed, [row]);
+  assert.equal(good.ok, true);
+  assert.equal(good.checked, 1);
+  const bad = validate(transformed.replace(row.metaDescription, 'Iný popis.'), [row]);
+  assert.equal(bad.ok, false);
+  assert.equal(bad.issues[0].reason, 'identity-name-or-meta-mismatch');
+  assert.equal(validate(transformed, [base]).ok, true);
 });
 
 test('identity drift, missing targets, and duplicate CODEs preserve supplier XML', () => {
