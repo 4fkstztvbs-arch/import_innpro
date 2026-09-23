@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27012,
-  "matchedRules": 2517,
-  "changedProducts": 462,
+  "totalProducts": 27022,
+  "matchedRules": 2518,
+  "changedProducts": 1113,
   "rejected": [
     {
       "supplier": "innpro",
@@ -535,36 +535,7 @@
       "reason": "Reviewed product name changed"
     }
   ],
-  "categoryDrifts": [
-    {
-      "supplier": "atos",
-      "code": "IST-SECQI13WDS2",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
-      ],
-      "approvedCurrent": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
-      ],
-      "approvedProposed": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
-      ]
-    },
-    {
-      "supplier": "atos",
-      "code": "IST-SECQI13PIR",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
-      ],
-      "approvedCurrent": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
-      ],
-      "approvedProposed": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
-      ]
-    }
-  ],
+  "categoryDrifts": [],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -928,7 +899,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné kryty a klietky pre kamery",
-      "visibleUnique": 47,
+      "visibleUnique": 48,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },

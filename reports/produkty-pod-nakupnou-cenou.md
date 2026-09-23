@@ -1,6 +1,6 @@
 # Produkty pod nákupnou cenou (skryté)
 
-Kontrola z 2026-09-23 19:17 UTC.
+Kontrola z 2026-09-23 19:21 UTC.
 
 Týchto **190** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
 na každom predanom kuse prerobili. Sú preto nastavené ako **skryté** a v e-shope sa
@@ -120,7 +120,7 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `PEN-523502` | Baterie olověná  12V / 40 Ah  MHPower GE40-12 GEL | 74.50 € | 60.57 € | 61.47 € | -1.5 % |
 | `CMP-TO-33650` | Palička gumová 55 mm | 2.00 € | 1.63 € | 1.65 € | -1.5 % |
 | `LEC-RB-1251` | Kovový úložný regál Atos RB-1251 180x90x40 cm stříbrný | 19.90 € | 16.18 € | 16.40 € | -1.3 % |
-| `CMP-12037` | Cyklotaška nad rám přední vidlice + držák na telefon/mapu 6,7" COMPASS | 9.80 € | 7.97 € | 8.07 € | -1.3 % |
+| `CMP-12037` | COMPASS cyklotaška nad rám prednej vidlice + držiak na telefón/mapu 6, | 9.80 € | 7.97 € | 8.07 € | -1.3 % |
 | `CMP-90526` | Rozmrazovač zámků 50ml | 1.30 € | 1.06 € | 1.07 € | -1.2 % |
 | `LEC-URZ3625` | LED reflektor REBEL URZ3625 se solárním nabíjením a detektorem pohybu | 10.50 € | 8.54 € | 8.64 € | -1.2 % |
 | `TOC-EX9911` | Tyčinky tavné, mix barev se třpytem (glitter), pr.11x100mm, 12ks EXTOL | 0.90 € | 0.73 € | 0.74 € | -1.1 % |
@@ -146,7 +146,7 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `CMP-01599` | Přívěšek reflexní GHOST - žlutý | 1.10 € | 0.89 € | 0.90 € | -0.6 % |
 | `TOC-YT-7365` | Ochranné brýle čiré typ 91659 YATO | 2.80 € | 2.28 € | 2.29 € | -0.6 % |
 | `CMP-TO-64385` | Ráčnový šroubovák s nástavci sada 41ks | 13.00 € | 10.57 € | 10.63 € | -0.6 % |
-| `CMP-12036` | Cyklotaška - pouzdro na telefon 6,7" COMPASS | 5.90 € | 4.80 € | 4.82 € | -0.5 % |
+| `CMP-12036` | COMPASS cyklotaška s puzdrom na telefón 6,7" | 5.90 € | 4.80 € | 4.82 € | -0.5 % |
 | `1M42MMZ2MM` | Stožár 1,0 m / 42 mm / 2 mm / ŽÁR | 12.50 € | 10.16 € | 10.21 € | -0.5 % |
 | `CMP-TO-05600` | Vrták do skla a glazury 10 mm | 1.80 € | 1.46 € | 1.47 € | -0.4 % |
 | `CMP-TO-60785` | Sada šroubováků VOREL 60785 | 15.00 € | 12.20 € | 12.25 € | -0.4 % |

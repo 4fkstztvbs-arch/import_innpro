@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-23 14:34 UTC.
+Kontrola z 2026-09-23 19:21 UTC.
 
-InnPro pri **396** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -23,6 +23,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `019505` | Skladacie mäkké svetlo s bleskom Puluz PU5120 20cm | — | 5 |
 | `019506` | Fotoblesk Puluz 5w1 + puzdro | — | 5 |
 | `020112` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (sivý+čierny) | — | 5 |
+| `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | — | 5 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrátane O | — | 5 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW2 WiF | — | 5 |
 | `023349` | Organizér / držiak nabíjačky AppleWatch (čierny) | — | 5 |
@@ -94,7 +95,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `051698` | Ochrana súkromia Tvrdené sklo Baseus Crystal Series IP 14 PR | — | 5 |
 | `044439` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 4 |
 | `052614` | Filter pre Dreame M12/H12 Pro/H12 Dual/H12 S/H12S AE/H13 Pro | — | 5 |
-| `053581` | Ładowarka samochodowa Joyroom JR-CCN05, A+C 30W | — | 5 |
 | `053641` | Sieťová nabíjačka Joyroom JR-TCF05, 20 W + kábel C-L 1 m (bi | — | 5 |
 | `053691` | Joyroom držiak na palubnú dosku auta JR-ZS350 (strieborný) | — | 5 |
 | `053788` | Kabel Flash Charge USB do Lightning Joyroom SA26-AL3 /3A / 1 | — | 5 |
@@ -204,6 +204,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
+| `074171` | Kábel USB 2.0 A na 3v1 3A Vention CTPWG 1,5 m (biely) | — | 3 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `074972` | Sunnylife OA5-BK941 ochranné puzdro proti slnku pre OSMO ACT | — | 2 |
 | `073335` | Telesin Tvrdené sklo 3 v 1 pre GoPro Hero 13 Black (S6-FLM-0 | — | 5 |
