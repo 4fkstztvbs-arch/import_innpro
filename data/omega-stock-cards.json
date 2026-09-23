@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600366,
+    "nextCardNumber": 202600370,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2192,6 +2192,30 @@
         "nazov": "Zásuvka s DO EMOS P0070 dálkově ovládané zásuvky bílé / set 3+1 / 3 zásuvky /",
         "dodavatel": "atos",
         "code": "EMO1905120004"
+      },
+      "1111111222222": {
+        "kod": "202600366",
+        "nazov": "Držák stožáru kloub na jezdce pr.48 mm",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "1111111333333": {
+        "kod": "202600367",
+        "nazov": "pcs Vysílač DO Optibox miniZebra SE new - originál",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "11111114444444": {
+        "kod": "202600368",
+        "nazov": "Manžeta gumová (48-57 mm)",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "1111111555555": {
+        "kod": "202600369",
+        "nazov": "Zásuvka TV+R koncová Alcad BM-100 - 3,5dB",
+        "dodavatel": "atos",
+        "code": "ABM100"
       }
     }
   },
