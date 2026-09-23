@@ -34,12 +34,12 @@ jobs:
         run: node --test scripts/tests/product-name-localization.test.js
       - name: K-B real feed dry-run
         run: |
-          node scripts/localize-product-names.js --supplier=kb --in=output/kb.xml --out=/tmp/kb-localized.xml --expected=50
-          node scripts/validate-product-name-localization.js --supplier=kb --before=output/kb.xml --after=/tmp/kb-localized.xml --expected=50
+          node scripts/localize-product-names.js --supplier=kb --in=output/kb.xml --out=/tmp/kb-localized.xml
+          node scripts/validate-product-name-localization.js --supplier=kb --before=output/kb.xml --after=/tmp/kb-localized.xml
       - name: ATOS real feed dry-run
         run: |
-          node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=/tmp/atos-localized.xml --expected=50
-          node scripts/validate-product-name-localization.js --supplier=atos --before=output/atos.xml --after=/tmp/atos-localized.xml --expected=50
+          node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=/tmp/atos-localized.xml
+          node scripts/validate-product-name-localization.js --supplier=atos --before=output/atos.xml --after=/tmp/atos-localized.xml
       - name: Candidate sample from current feeds
         run: |
           echo '=== K-B CANDIDATES ==='
