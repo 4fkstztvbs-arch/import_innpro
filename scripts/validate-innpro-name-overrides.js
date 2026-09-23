@@ -5,6 +5,13 @@ const fs = require('fs');
 const { extractTag } = require('./localize-product-names');
 const { loadNameOverrides } = require('./innpro-name-overrides');
 
+function extractMetaDescription(item) {
+  // The InnPro serializer emits this as the final direct child. Anchoring after the
+  // SHOPITEM close boundary avoids matching tag-like text inside DESCRIPTION CDATA.
+  const match = item.match(/\n<META_DESCRIPTION><!\[CDATA\[([\s\S]*?)\]\]>\n<\/SHOPITEM>$/);
+  return match ? match[1] : '';
+}
+
 function validate(xml, overrides = loadNameOverrides()) {
   const items = [...xml.matchAll(/<SHOPITEM(?:\s[^>]*)?>[\s\S]*?<\/SHOPITEM>/g)].map(match => match[0]);
   const report = { checked: 0, absent: [], issues: [] };
@@ -23,7 +30,7 @@ function validate(xml, overrides = loadNameOverrides()) {
       ean: extractTag(item, 'EAN').trim(),
       manufacturer: extractTag(item, 'MANUFACTURER').trim(),
       name: extractTag(item, 'NAME'),
-      metaDescription: extractTag(item, 'META_DESCRIPTION'),
+      metaDescription: extractMetaDescription(item),
     };
     const expected = { ean: entry.ean, manufacturer: entry.manufacturer, name: entry.name };
     const metaMismatch = typeof entry.metaDescription === 'string'
