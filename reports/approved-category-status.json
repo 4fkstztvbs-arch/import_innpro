@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27013,
-  "matchedRules": 2612,
-  "changedProducts": 202,
+  "totalProducts": 27037,
+  "matchedRules": 2610,
+  "changedProducts": 1203,
   "rejected": [
     {
       "supplier": "innpro",
@@ -135,7 +135,7 @@
     },
     {
       "path": "Auto-moto > Elektronika do auta > Kamery do auta",
-      "visibleUnique": 29,
+      "visibleUnique": 45,
       "active": true,
       "parent": "Auto-moto > Elektronika do auta"
     },
@@ -243,7 +243,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
-      "visibleUnique": 69,
+      "visibleUnique": 68,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
@@ -273,13 +273,13 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia",
-      "visibleUnique": 15,
+      "visibleUnique": 16,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory teploty a vlhkosti",
-      "visibleUnique": 17,
+      "visibleUnique": 19,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
@@ -459,7 +459,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné kryty a klietky pre kamery",
-      "visibleUnique": 48,
+      "visibleUnique": 47,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },
