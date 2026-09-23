@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DEFAULT_REGISTRY = path.join(__dirname, '..', 'data', 'localization', 'product-names-sk.json');
+const DEFAULT_CTR_REGISTRY = path.join(__dirname, '..', 'data', 'seo', 'ctr-test-overrides.json');
 
 function extractTag(block, tag) {
   const cdata = block.match(new RegExp('<' + tag + '><!\\[CDATA\\[([\\s\\S]*?)\\]\\]></' + tag + '>'));
@@ -35,9 +36,24 @@ function normalizeEan(value) {
   return String(value || '').replace(/^0+/, '');
 }
 
-function localizeXml(xml, { supplier, registry, limit = Infinity } = {}) {
+function localizationKey(supplier, code) {
+  return `${supplier}\\u0000${code}`;
+}
+
+function loadCtrExcludedKeys(registryPath = DEFAULT_CTR_REGISTRY) {
+  const config = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
+  if (!Array.isArray(config.products) || !Array.isArray(config.controls)) {
+    throw new Error('CTR cohort registry must contain products and controls arrays');
+  }
+  return new Set([...config.products, ...config.controls]
+    .filter((entry) => entry && typeof entry.supplier === 'string' && typeof entry.code === 'string')
+    .map((entry) => localizationKey(entry.supplier, entry.code)));
+}
+
+function localizeXml(xml, { supplier, registry, limit = Infinity, ctrExcluded } = {}) {
   if (!supplier) throw new Error('supplier is required');
   if (!registry) registry = loadRegistry();
+  if (!ctrExcluded) ctrExcluded = loadCtrExcludedKeys();
 
   const entries = registry.products.filter((p) =>
     p.supplier === supplier && p.status === 'pilot_approved'
@@ -51,6 +67,7 @@ function localizeXml(xml, { supplier, registry, limit = Infinity } = {}) {
     alreadyLocalized: [],
     notFound: [],
     issues: [],
+    skippedCtr: [],
     untouched: 0,
   };
 
@@ -66,6 +83,11 @@ function localizeXml(xml, { supplier, registry, limit = Infinity } = {}) {
     }
 
     seen.add(code);
+    if (ctrExcluded.has(localizationKey(supplier, code))) {
+      report.skippedCtr.push(code);
+      report.untouched++;
+      return block;
+    }
     const currentName = extractTag(block, 'NAME');
     const ean = extractTag(block, 'EAN').trim();
 
@@ -162,5 +184,7 @@ module.exports = {
   extractTag,
   replaceName,
   loadRegistry,
+  loadCtrExcludedKeys,
+  localizationKey,
   localizeXml,
 };
