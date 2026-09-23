@@ -1,0 +1,17 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const {applyProductContent,applyFeedContent}=require('./product-content-overrides');
+const rule=require('../data/product-content/penta.json')['52932459'];
+const p={code:'52932459',manufacturer:rule.manufacturer,ean:rule.expectedEan,name:rule.expectedName,price:184.5,stock:10,url:'unchanged',description:'supplier'};
+const fixed=applyProductContent('penta',p);
+assert.deepEqual(fixed,{...p,name:rule.name});assert.equal(p.name,rule.expectedName);
+assert.deepEqual(applyProductContent('penta',fixed),fixed);
+assert.equal(applyProductContent('penta',{...p,code:'other'}).name,p.name);
+for(const drift of [{ean:'other'},{manufacturer:'Other'},{name:'Unexpected new model'}])assert.throws(()=>applyProductContent('penta',{...p,...drift}),/mismatch|drift/);
+const before=fs.readFileSync('output/penta.xml','utf8'),after=applyFeedContent(before,'penta');
+const items=x=>x.match(/<SHOPITEM(?:\s[^>]*)?>[\s\S]*?<\/SHOPITEM>/g),a=items(before),b=items(after);assert.equal(a.length,b.length);
+let targets=0;
+for(let i=0;i<a.length;i++)if(a[i].includes('<CODE>52932459</CODE>')){targets++;assert.equal(a[i].replace(/<NAME>[\s\S]*?<\/NAME>/,''),b[i].replace(/<NAME>[\s\S]*?<\/NAME>/,''));assert.ok(b[i].includes(rule.name));}else assert.equal(a[i],b[i]);
+assert.equal(targets,1);assert.equal(applyFeedContent(after,'penta'),after);
+assert.throws(()=>applyFeedContent(before.replace('<EAN>8885020629750</EAN>','<EAN>0000000000000</EAN>'),'penta'),/EAN mismatch/);
+console.log(`PASS: ${a.length} items, one name target; all other fields and items byte-identical`);
