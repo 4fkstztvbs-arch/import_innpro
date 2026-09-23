@@ -20,11 +20,11 @@ function productFor(row) {
 }
 
 function shopitem(name, code, ean, manufacturer = 'Flytec', metaDescription = 'Generated supplier meta') {
-  return '<SHOPITEM>\\n<NAME><![CDATA[' + name + ']]></NAME>\\n<DESCRIPTION><![CDATA[literal <CODE>'
+  return '<SHOPITEM>\n<NAME><![CDATA[' + name + ']]></NAME>\n<DESCRIPTION><![CDATA[literal <META_DESCRIPTION>supplier text</META_DESCRIPTION> <CODE>'
     + code + '</CODE><EAN>' + ean + '</EAN>]]></DESCRIPTION><MANUFACTURER><![CDATA[' + manufacturer
     + ']]></MANUFACTURER><CODE>' + code + '</CODE><EAN>' + ean
-    + '</EAN><TEXT_PROPERTIES><TEXT_PROPERTY><NAME><![CDATA[Model]]></NAME><VALUE>preserve</VALUE></TEXT_PROPERTY></TEXT_PROPERTIES><PRICE_VAT>10.00</PRICE_VAT>\\n<META_DESCRIPTION><![CDATA['
-    + metaDescription + ']]></META_DESCRIPTION>\\n</SHOPITEM>';
+    + '</EAN><TEXT_PROPERTIES><TEXT_PROPERTY><NAME><![CDATA[Model]]></NAME><VALUE>preserve</VALUE></TEXT_PROPERTY></TEXT_PROPERTIES><PRICE_VAT>10.00</PRICE_VAT>\n<META_DESCRIPTION><![CDATA['
+    + metaDescription + ']]></META_DESCRIPTION>\n</SHOPITEM>';
 }
 
 test('approved exact identity changes only the leading product NAME and is repeatable', () => {
