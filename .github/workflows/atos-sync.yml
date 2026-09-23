@@ -109,10 +109,8 @@ jobs:
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
 
-      # SK lokalizácia NAME je pripravená, ale ostáva bezpečne vypnutá, kým sa nenastaví
-      # repository variable PRODUCT_NAME_LOCALIZATION_ATOS=1. Beží až po cenách, dedupe, kategóriách a SEO.
+      # Schválené slovenské názvy bežia po cenách, deduplikácii, kategóriách a SEO.
       - name: Lokalizovať názvy produktov do slovenčiny (ATOS)
-        if: ${{ vars.PRODUCT_NAME_LOCALIZATION_ATOS == '1' }}
         run: |
           cp output/atos.xml /tmp/atos-before-name-localization.xml
           node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=output/atos.xml
