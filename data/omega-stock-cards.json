@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600349,
+    "nextCardNumber": 202600357,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2090,6 +2090,54 @@
         "nazov": "HL106 headlamp",
         "dodavatel": "innpro",
         "code": "089389"
+      },
+      "6977031210613": {
+        "kod": "202600349",
+        "nazov": "Thermal Label Niimbot",
+        "dodavatel": "innpro",
+        "code": "062224"
+      },
+      "6971636405344": {
+        "kod": "202600350",
+        "nazov": "CR-PETG Black Filament",
+        "dodavatel": "innpro",
+        "code": "064757"
+      },
+      "6976297861119": {
+        "kod": "202600351",
+        "nazov": "ANT+ Adapter Cycplus U10",
+        "dodavatel": "innpro",
+        "code": "074257"
+      },
+      "5905156102187": {
+        "kod": "202600352",
+        "nazov": "FNIRSI High-Precision",
+        "dodavatel": "innpro",
+        "code": "084428"
+      },
+      "6935750520390": {
+        "kod": "202600353",
+        "nazov": "Uni-T Digital Clamp Meter",
+        "dodavatel": "innpro",
+        "code": "084904"
+      },
+      "6974246470788": {
+        "kod": "202600354",
+        "nazov": "MOES",
+        "dodavatel": "innpro",
+        "code": "087531"
+      },
+      "6975515777553": {
+        "kod": "202600355",
+        "nazov": "F1-S flashlight, black",
+        "dodavatel": "innpro",
+        "code": "089384"
+      },
+      "6972476161223": {
+        "kod": "202600356",
+        "nazov": "Waterproof Case SCJAM",
+        "dodavatel": "innpro",
+        "code": "093556"
       }
     }
   },
