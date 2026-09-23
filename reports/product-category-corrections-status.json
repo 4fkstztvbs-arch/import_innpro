@@ -1,7 +1,7 @@
 {
-  "products": 27037,
-  "matched": 764,
-  "categoryChanges": 302,
+  "products": 27019,
+  "matched": 762,
+  "categoryChanges": 300,
   "nameChanges": 9,
   "descriptionChanges": 0,
   "skipped": [
@@ -1616,6 +1616,11 @@
     },
     {
       "supplier": "innpro",
+      "code": "054874",
+      "ean": "6932172641191"
+    },
+    {
+      "supplier": "innpro",
       "code": "069973",
       "ean": "6970592331711"
     },
@@ -1623,6 +1628,11 @@
       "supplier": "innpro",
       "code": "079830",
       "ean": "0652726247407"
+    },
+    {
+      "supplier": "innpro",
+      "code": "082669",
+      "ean": "786156004870"
     },
     {
       "supplier": "kb",
