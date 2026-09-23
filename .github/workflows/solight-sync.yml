@@ -90,6 +90,13 @@ jobs:
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
 
+      - name: Lokalizovať názvy podľa spoločného registra
+        run: |
+          cp output/solight.xml /tmp/solight-before-name-localization.xml
+          node scripts/localize-product-names.js --supplier=solight --in=output/solight.xml --out=output/solight.xml --strict=0
+          node scripts/validate-product-name-localization.js --supplier=solight --before=/tmp/solight-before-name-localization.xml --after=output/solight.xml
+          node scripts/check-feed-size.js
+
       - name: Commit updated output
         run: |
           git config user.name "solight-sync-bot"
