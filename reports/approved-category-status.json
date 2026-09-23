@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26972,
-  "matchedRules": 2611,
-  "changedProducts": 1189,
+  "totalProducts": 27008,
+  "matchedRules": 2612,
+  "changedProducts": 462,
   "rejected": [
     {
       "supplier": "innpro",
@@ -95,7 +95,36 @@
       "reason": "Reviewed product name changed"
     }
   ],
-  "categoryDrifts": [],
+  "categoryDrifts": [
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13WDS2",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    },
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13PIR",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -303,7 +332,7 @@
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické káble",
-      "visibleUnique": 49,
+      "visibleUnique": 50,
       "active": true,
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
