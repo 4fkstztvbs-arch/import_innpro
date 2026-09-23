@@ -1,6 +1,6 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-09-23 00:57 UTC.
+Kontrola z 2026-09-23 21:53 UTC.
 
 Solight pri **511** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -27,7 +27,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ316A-1` | Solight LED žiarovka, bodová , 5W, GU10, 3000K, 425lm, biela | 10 | 100 |
 | `WZ324-1` | Solight LED žiarovka, bodová , 5W, GU10, 6000K, 425lm, biela | 10 | 100 |
 | `WZ317A-1` | Solight LED žiarovka, bodová , 5W, GU10, 4000K, 425lm, biela | 10 | 100 |
-| `WZ409-1` | Solight LED žiarovka, sviečka, 6W, E14, 3000K, 510lm | 10 | 100 |
 | `WZ416-1` | Solight LED žiarovka, miniglobe, 6W, E14, 3000K, 510lm, biel | 10 | 100 |
 | `WZ419-1` | Solight LED žiarovka, miniglobe, 6W, E27, 6000K, 510lm | 10 | 100 |
 | `WZ325A-1` | Solight LED žiarovka, bodová , 7W, GU10, 6000K, 595lm, biela | 10 | 100 |
@@ -84,6 +83,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
