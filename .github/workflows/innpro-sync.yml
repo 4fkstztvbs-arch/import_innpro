@@ -94,6 +94,9 @@ jobs:
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
 
+      - name: Overiť schválené názvy InnPro
+        run: node scripts/validate-innpro-name-overrides.js --in=output/innpro.xml
+
       - name: Commit updated output
         run: |
           git config user.name "innpro-sync-bot"
