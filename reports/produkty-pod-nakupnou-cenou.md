@@ -1,6 +1,6 @@
 # Produkty pod nákupnou cenou (skryté)
 
-Kontrola z 2026-09-23 19:27 UTC.
+Kontrola z 2026-09-23 20:27 UTC.
 
 Týchto **190** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
 na každom predanom kuse prerobili. Sú preto nastavené ako **skryté** a v e-shope sa
@@ -201,9 +201,9 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 
 | Kód | Produkt | Predaj s DPH | Predaj bez DPH | Nákup | Marža |
 |---|---|---:|---:|---:|---:|
-| `5494114` | Príslušenstvo BOYA BY-P160 protivětrný kryt 160x23mm | 12.50 € | 10.16 € | 10.23 € | -0.7 % |
 | `5494115` | Príslušenstvo BOYA BY-P240 protivětrný kryt 240x23mm | 12.50 € | 10.16 € | 10.23 € | -0.7 % |
 | `5494117` | Príslušenstvo BOYA BY-B01 protivětrný kryt 70x62mm | 12.50 € | 10.16 € | 10.23 € | -0.7 % |
+| `5494114` | Príslušenstvo BOYA BY-P160 protivětrný kryt 160x23mm | 12.50 € | 10.16 € | 10.23 € | -0.7 % |
 
 ## solight — 1 ks
 
