@@ -1,16 +1,158 @@
 {
   "minimum": 8,
   "totalProducts": 27008,
-  "matchedRules": 2629,
-  "changedProducts": 626,
+  "matchedRules": 2612,
+  "changedProducts": 41,
   "rejected": [
     {
       "supplier": "innpro",
       "code": "064997",
       "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134534",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136451",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134531",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002102279",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002171249",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002102621",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134526",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000729253",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002200822",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136604",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002193624",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000980758",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002193620",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000474550",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033310",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134533",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000196881",
+      "reason": "Reviewed product name changed"
     }
   ],
-  "categoryDrifts": [],
+  "categoryDrifts": [
+    {
+      "supplier": "monacor",
+      "code": "KM-24110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    },
+    {
+      "supplier": "monacor",
+      "code": "KM-24120",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    },
+    {
+      "supplier": "monacor",
+      "code": "LIVEO-420PWH",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    },
+    {
+      "supplier": "monacor",
+      "code": "LIVEO-640PBK",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -146,7 +288,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Filtračné kanvice",
-      "visibleUnique": 12,
+      "visibleUnique": 13,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
