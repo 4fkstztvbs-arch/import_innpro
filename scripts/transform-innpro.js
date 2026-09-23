@@ -11,6 +11,7 @@
 //                     "Na objednávku" / "Dostupné od ..."
 
 const fs = require('fs');
+const { createAs2NameOverride } = require('./innpro-as2-name');
 const path = require('path');
 const { streamProducts } = require('./stream-products');
 const { parseProduct } = require('./parse-product');
@@ -352,6 +353,8 @@ async function main() {
   const feedCategoryStats = buildFeedCategoryStats(candidates);
   const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
 
+  // Resolve the single approved target before writing; identity drift keeps supplier content.
+  const applyAs2Name = createAs2NameOverride(candidates.map(c => c.shopitemData));
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   const out = fs.createWriteStream(OUT_PATH, { encoding: 'utf-8' });
   out.write('<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n');
@@ -369,7 +372,7 @@ async function main() {
       anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
       continue;
     }
-    out.write(buildShopitemXml(c.shopitemData) + '\n');
+    out.write(applyAs2Name(buildShopitemXml(c.shopitemData), c.shopitemData) + '\n');
     // Zámerne `c.shopitemData`, nie `p`: `p` je premenná callbacku streamProducts a tu už nie je
     // v dosahu — pôvodné znenie by na prvom zapísanom produkte spadlo na ReferenceError.
     const d = c.shopitemData;
