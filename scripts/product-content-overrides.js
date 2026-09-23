@@ -4,6 +4,7 @@ const registry = {
   kb: require('../data/product-content/kb.json'),
   penta: require('../data/product-content/penta.json'),
 };
+Object.assign(registry.basys, require('../data/product-content/basys-catalog.json'));
 const fields = {name:'NAME',description:'DESCRIPTION',shortDescription:'SHORT_DESCRIPTION',seoTitle:'SEO_TITLE',metaDescription:'META_DESCRIPTION'};
 function applyProductContent(supplier, product) {
   const override = registry[supplier]?.[product.code];
@@ -14,6 +15,8 @@ function applyProductContent(supplier, product) {
     if (!override.expectedName || ![override.expectedName, override.name].includes(product.name)) throw new Error(`Content override name drift: ${supplier}/${product.code}`);
     if (Object.keys(override).some(k => !['manufacturer','expectedEan','expectedName','name'].includes(k))) throw new Error('Penta pilot only permits a name override');
     if (typeof override.name !== 'string' || !override.name.trim()) throw new Error('Empty content override: name');
+  } else if (override.expectedName && product.name !== override.expectedName) {
+    throw new Error(`Content override name drift: ${supplier}/${product.code}`);
   }
   const result = {...product};
   for (const key of Object.keys(fields)) {
