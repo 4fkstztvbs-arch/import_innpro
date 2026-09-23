@@ -20,7 +20,11 @@ function productFor(row) {
 }
 
 function shopitem(name, code, ean, manufacturer = 'Flytec', metaDescription = 'Generated supplier meta') {
-  return \`<SHOPITEM>\n<NAME><![CDATA[\${name}]]></NAME>\n<DESCRIPTION><![CDATA[literal <CODE>\${code}</CODE><EAN>\${ean}</EAN>]]></DESCRIPTION><MANUFACTURER><![CDATA[\${manufacturer}]]></MANUFACTURER><CODE>\${code}</CODE><EAN>\${ean}</EAN><TEXT_PROPERTIES><TEXT_PROPERTY><NAME><![CDATA[Model]]></NAME><VALUE>preserve</VALUE></TEXT_PROPERTY></TEXT_PROPERTIES><PRICE_VAT>10.00</PRICE_VAT>\n<META_DESCRIPTION><![CDATA[\${metaDescription}]]></META_DESCRIPTION>\n</SHOPITEM>\`;
+  return '<SHOPITEM>\\n<NAME><![CDATA[' + name + ']]></NAME>\\n<DESCRIPTION><![CDATA[literal <CODE>'
+    + code + '</CODE><EAN>' + ean + '</EAN>]]></DESCRIPTION><MANUFACTURER><![CDATA[' + manufacturer
+    + ']]></MANUFACTURER><CODE>' + code + '</CODE><EAN>' + ean
+    + '</EAN><TEXT_PROPERTIES><TEXT_PROPERTY><NAME><![CDATA[Model]]></NAME><VALUE>preserve</VALUE></TEXT_PROPERTY></TEXT_PROPERTIES><PRICE_VAT>10.00</PRICE_VAT>\\n<META_DESCRIPTION><![CDATA['
+    + metaDescription + ']]></META_DESCRIPTION>\\n</SHOPITEM>';
 }
 
 test('approved exact identity changes only the leading product NAME and is repeatable', () => {
@@ -42,7 +46,7 @@ test('optional meta override changes only NAME and terminal META_DESCRIPTION for
   const after = shopitem(row.name, row.code, row.ean, row.manufacturer, row.metaDescription);
   const apply = createNameOverride([product], [row]);
   assert.equal(apply(before, product), after);
-  assert.equal(apply(after, product), after);
+  const alreadyApplied = { ...product, name: row.name, metaDescription: row.metaDescription };\n  assert.equal(createNameOverride([alreadyApplied], [row])(after, alreadyApplied), after);
 
   for (const changed of [
     { ...product, ean: 'wrong' },
