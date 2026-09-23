@@ -8,7 +8,7 @@ const { loadNameOverrides } = require('./innpro-name-overrides');
 function extractMetaDescription(item) {
   // The InnPro serializer emits this as the final direct child. Anchoring after the
   // SHOPITEM close boundary avoids matching tag-like text inside DESCRIPTION CDATA.
-  const match = item.match(/\n<META_DESCRIPTION><!\[CDATA\[([\s\S]*?)\]\]>\n<\/SHOPITEM>$/);
+  const match = item.match(/\n<META_DESCRIPTION><!\[CDATA\[([\s\S]*?)\]\]><\/META_DESCRIPTION>\n<\/SHOPITEM>$/);
   return match ? match[1] : '';
 }
 
