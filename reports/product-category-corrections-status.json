@@ -1,10 +1,214 @@
 {
   "products": 27026,
-  "matched": 677,
-  "categoryChanges": 26,
+  "matched": 728,
+  "categoryChanges": 221,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "skipped": [
+    {
+      "supplier": "atos",
+      "code": "EMO3402121000",
+      "ean": "8592920105948",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402044000",
+      "ean": "8592920080405",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1021",
+      "ean": "5901890136952",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1017",
+      "ean": "5901890124652",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-3402127000",
+      "ean": "8592920135433",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402119000",
+      "ean": "8592920096987",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402120000",
+      "ean": "8592920096949",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1018",
+      "ean": "5901890124669",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2305113003",
+      "ean": "8592920068236",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-17-19-029",
+      "ean": "5907695557626",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402118000",
+      "ean": "8592920096963",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMA-2773-2401",
+      "ean": "4066966321630",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3146001040",
+      "ean": "8592920154847",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3146001100",
+      "ean": "8592920154861",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2305113600",
+      "ean": "8592920081976",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402122000",
+      "ean": "8592920105962",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1014",
+      "ean": "5901890113106",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-12036",
+      "ean": "8591686120363",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "HAD-L685",
+      "ean": "8596425170609",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1017-PRO",
+      "ean": "5901890130325",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-3402128000",
+      "ean": "8592920135488",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3146000600",
+      "ean": "8595025359063",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-UCH0222",
+      "ean": "5901890137416",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402107000",
+      "ean": "8592920006641",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402125000",
+      "ean": "8592920112793",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3402126000",
+      "ean": "8592920112809",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1001",
+      "ean": "5901890098069",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3146001060",
+      "ean": "8592920154854",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 892930-2100",
+      "ean": "17817858601",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 892930-2200",
+      "ean": "17817858946",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 892079-2100",
+      "ean": "17817856164",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 893955-2100",
+      "ean": "17817858519",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 893955-2200",
+      "ean": "17817858557",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 796145-2100",
+      "ean": "17817783422",
+      "reason": "Changed name or category; needs review"
+    },
     {
       "supplier": "basys",
       "code": "BASYS-B 895098-0100",
@@ -195,516 +399,6 @@
       "supplier": "basys",
       "code": "BASYS-B 897827-0020",
       "ean": "17817861809",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 028338",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 317088-0100",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 318338-0200",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 371407-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 041761",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 809510-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 050194",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 722139-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 722139-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 722427-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 722140-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 766712-2410",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768932-2210",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768938-2110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768938-2210",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768941-2110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768941-2210",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 756491-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768928-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 751863-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 751864-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 789175-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 809781-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 772238-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 362538-0030",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 362538-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 362538-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 762817-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 772730-0030",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 772130-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 720876-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 760858-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 760858-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 754609-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 825339-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 812896-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808461-2110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808928-2110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808928-2210",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808930-2210",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808930-2110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 774453-0050",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 774453-0060",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 718971",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 834167-0300",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 855972-0100",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 855979-0300",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856989-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856992-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856996-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856990-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856993-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856985-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856986-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 857000-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 843344-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 843364-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 863314-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 838460-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 850571-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 799376-0210",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 799376-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 851220-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 871761-0111",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 871761-0211",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-EN 454952",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-EN 454938",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 934780",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 934798",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 880413-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 880413-0120",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 869725-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 869725-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 881046-0040",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-EP-109P",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EH",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EAA",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-ELB",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EV",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-LIR2-EP",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-SE-99",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 892122-0100",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B A00508-0100",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B A00509-0100",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0800",
-      "ean": "",
       "reason": "Changed name or category; needs review"
     },
     {
