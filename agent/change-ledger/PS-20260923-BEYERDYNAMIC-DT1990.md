@@ -1,0 +1,25 @@
+# PS-20260923-BEYERDYNAMIC-DT1990
+
+- CHANGE_ID: PS-20260923-BEYERDYNAMIC-DT1990
+- DATE: 2026-09-23
+- ACTOR: Codex na výslovný pokyn vlastníka
+- AREA: produktový obsah, UX/CRO a katalógový dizajn
+- URL/PAGE/SCOPE: https://www.premiumstore.sk/beyerdynamic-dt-1990-pro-mkii--profesionalne-sluchadla-30-ohm/; jeden produkt BASYS-BD 1000303
+- AFFECTED_PRODUCTS/PAGES: beyerdynamic DT 1990 PRO MKII, Shoptet ID 669408; CSS štýly sú izolované triedou `.ps-product-catalog`
+- DESCRIPTION: navrhnutý a otestovaný slovenský opis, tri oficiálne fotografie v popise, praktické obmedzenia, parametre, balenie, prvé zapojenie, FAQ, kotvová navigácia, SEO title a meta description; zachovaný existujúci H1/názov a URL
+- REASON: živá stránka mala len krátky odsek s preklepom, bez fotografií v opise, obsahu balenia, FAQ a návodu
+- HYPOTHESIS: presná identifikácia generácie a účelu spolu s čitateľným poradenským obsahom zníži neistotu pri výbere; SEO dopad je hypotéza bez garantovaného nárastu
+- BASELINE: jeden všeobecný odsek, chybný text „ovo vyvinutá“, žiadne fotografie/FAQ/balenie v popise; kategória a URL pred zmenou zachované
+- PRIMARY_METRIC: počet organických kliknutí na túto produktovú URL z Google Search Console po 28 dňoch; predchádzajúcich 28 dní použiť ako opisnú porovnávaciu základňu, ak je dostupná
+- GUARDRAIL_METRICS: URL, názov/H1, kód, EAN, cena, dostupnosť, kategória a galéria sa nemenia; nulový horizontálny overflow; všetky nadpisy a kotvy viditeľné/funkčné
+- IMPLEMENTATION: identitu stráži presný výrobca aj presný aktuálny názov feedu; menia sa iba description, shortDescription, seoTitle a metaDescription. CSS nie je viazané na značkový selector Bose/Sonos.
+- FILES_CHANGED: assets/ux/premiumstore-pdp-final.css; data/product-content/basys-catalog.json; scripts/product-content-overrides.js; scripts/test-product-content-overrides.js
+- COMMIT / PR: PR #30 (otvorený v čase zápisu); merge SHA doplniť po úspešnom merge
+- APPROVAL / APPROVER: vlastník výslovne schválil použitie návrhu po úspešnom testovaní a povolil overené produktové zmeny
+- EXPERIMENT_ID: N/A — jednotkový obsahový pilot, nie kontrolovaný experiment
+- PRE_DEPLOY_VALIDATION: desktop 1200×900 a mobil 390×844; 1 H1, 8 viditeľných H2, 5 funkčných kotiev, všetky 3 oficiálne obrázky načítané, meta 145 znakov, bez overflow. BASYS regresia 897 produktov/221 zaregistrovaných úprav; KB 4 994/5; Penta 424/jeden cieľový názov; diff check PASS. PR safety CI čaká na výsledok.
+- DEPLOYED_AT: čaká na PR merge, verziu CSS v administrácii a nasledujúci úspešný BASYS/Shoptet import
+- POST_DEPLOY_VALIDATION: PENDING — overiť živý popis po skutočnom importe; desktop/mobil, URL/H1, cenu/dostupnosť a pretrvanie obsahu
+- RESULT: PREPARED, NOT YET CONFIRMED LIVE; žiadny vplyv na CTR/konverziu zatiaľ netvrdiť
+- DECISION: po úspešnom CI zlúčiť; následne overiť živý CSS asset a import; šablónu nepoužiť hromadne bez vyhodnotenia pilotu
+- ROLLBACK / ROLLBACK_COMMIT: revert PR #30 a obnoviť zálohu presného Shoptet poľa `work/backups/beyerdynamic-dt1990/shoptet-header-code.before.html`; záloha je lokálna a prístupovo obmedzená. Zatiaľ bez rollbacku.

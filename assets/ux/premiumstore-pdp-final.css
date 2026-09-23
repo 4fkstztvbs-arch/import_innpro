@@ -2079,3 +2079,70 @@ body.type-detail.ps-pdp-v1
 
 }
 
+
+/* PremiumStore catalogue product description pilot: beyerdynamic DT 1990 PRO MKII. */
+.ps-product-catalog {
+  --psc-text: #0e151c;
+  --psc-muted: #52616c;
+  --psc-green: #24b47e;
+  --psc-green-dark: #176b4e;
+  --psc-line: #dce5e8;
+  color: var(--psc-text);
+  font-family: "Plus Jakarta Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+.ps-product-catalog * { box-sizing: border-box; }
+.ps-product-catalog h2, .ps-product-catalog h3 { display: block !important; color: var(--psc-text); line-height: 1.25; }
+.ps-product-catalog h2 { margin: 10px 0 18px; font-size: clamp(25px, 3vw, 34px); letter-spacing: -.025em; }
+.ps-product-catalog h3 { margin: 8px 0 10px; font-size: 20px; }
+.ps-product-catalog p { margin: 0 0 18px; }
+.ps-product-catalog a { color: var(--psc-green-dark); text-decoration: underline; text-underline-offset: 3px; }
+.ps-product-catalog a:focus-visible, .ps-product-catalog summary:focus-visible { outline: 3px solid var(--psc-green-dark); outline-offset: 3px; }
+.ps-product-catalog img { display: block; width: 100%; max-width: 100%; height: auto; border-radius: 16px; }
+.ps-product-catalog .psc-hero { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 26px; margin: 8px 0 20px; padding: 32px; border-radius: 20px; background: #eff4f6; }
+.ps-product-catalog .psc-hero img { max-height: 430px; object-fit: contain; }
+.ps-product-catalog .psc-hero-copy p:last-child { margin-bottom: 0; }
+.ps-product-catalog .psc-eyebrow { color: var(--psc-green-dark); font-size: 14px; font-weight: 700; letter-spacing: 1.1px; }
+.ps-product-catalog .psc-muted, .ps-product-catalog .psc-fine, .ps-product-catalog .psc-sources { color: var(--psc-muted); font-size: 14px; }
+.ps-product-catalog .psc-facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 20px 0; }
+.ps-product-catalog .psc-facts > div, .ps-product-catalog .psc-cards article { padding: 18px; border: 1px solid var(--psc-line); border-radius: 16px; background: #fff; }
+.ps-product-catalog .psc-facts strong, .ps-product-catalog .psc-facts span { display: block; }
+.ps-product-catalog .psc-facts span { color: var(--psc-muted); font-size: 14px; }
+.ps-product-catalog .psc-nav { display: flex; flex-wrap: wrap; gap: 9px; margin: 20px 0 30px; }
+.ps-product-catalog .psc-nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 8px 15px; border-radius: 999px; background: #eff4f6; font-size: 14px; font-weight: 700; text-decoration: none; }
+.ps-product-catalog .psc-nav a:hover { background: #dceee6; }
+.ps-product-catalog .psc-row { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 32px; margin: 0 0 30px; }
+.ps-product-catalog .psc-soft { padding: 28px; border-radius: 20px; background: #f5f8f9; }
+.ps-product-catalog .psc-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 20px 0; }
+.ps-product-catalog .psc-cards article { border-top: 3px solid var(--psc-green); }
+.ps-product-catalog .psc-note, .ps-product-catalog .psc-tip { padding: 18px 20px; border-left: 4px solid var(--psc-green); border-radius: 0 14px 14px 0; background: #eef8f3; }
+.ps-product-catalog .psc-note p { margin: 6px 0 0; }
+.ps-product-catalog .psc-specs { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
+.ps-product-catalog .psc-specs > div { display: flex; justify-content: space-between; gap: 15px; padding: 12px 0; border-bottom: 1px solid var(--psc-line); }
+.ps-product-catalog .psc-specs span { text-align: right; }
+.ps-product-catalog .psc-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; padding-left: 24px; }
+.ps-product-catalog .psc-steps > div { padding: 18px; border: 1px solid var(--psc-line); border-radius: 16px; background: #fff; }
+.ps-product-catalog .psc-num { display: inline-grid; width: 32px; height: 32px; place-items: center; border-radius: 50%; background: #e3f5ec; color: var(--psc-green-dark); font-weight: 700; }
+.ps-product-catalog details { padding: 16px 0; border-bottom: 1px solid var(--psc-line); }
+.ps-product-catalog summary { min-height: 44px; padding: 8px 24px 8px 0; font-weight: 700; cursor: pointer; }
+.ps-product-catalog details p { margin: 6px 0 10px; }
+.ps-product-catalog .psc-help { margin: 28px 0; padding: 28px; border-radius: 20px; background: #eff4f6; }
+.ps-product-catalog .psc-help > a { display: inline-flex; align-items: center; min-height: 44px; padding: 9px 18px; border-radius: 999px; background: var(--psc-green); color: #0e151c; font-weight: 700; text-decoration: none; }
+.ps-product-catalog .psc-links { display: flex; flex-wrap: wrap; gap: 20px; margin: 18px 0 0; }
+.ps-product-catalog .psc-sources { margin-top: 22px; }
+@media (max-width: 767px) {
+  .ps-product-catalog .psc-hero, .ps-product-catalog .psc-row { grid-template-columns: 1fr; gap: 20px; }
+  .ps-product-catalog .psc-hero { padding: 22px; }
+  .ps-product-catalog .psc-facts { gap: 8px; }
+  .ps-product-catalog .psc-facts > div { padding: 12px 9px; }
+  .ps-product-catalog .psc-facts strong { font-size: 16px; }
+  .ps-product-catalog .psc-facts span { font-size: 14px; }
+  .ps-product-catalog .psc-nav { gap: 7px; }
+  .ps-product-catalog .psc-nav a { padding: 8px 11px; font-size: 14px; }
+  .ps-product-catalog .psc-soft, .ps-product-catalog .psc-help { padding: 22px; }
+  .ps-product-catalog .psc-cards, .ps-product-catalog .psc-specs, .ps-product-catalog .psc-steps { grid-template-columns: 1fr; }
+  .ps-product-catalog .psc-specs > div { align-items: flex-start; }
+  .ps-product-catalog .psc-specs span { max-width: 58%; }
+  .ps-product-catalog .psc-help > a { font-size: 14px; }
+}
