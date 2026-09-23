@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600358,
+    "nextCardNumber": 202600366,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2144,6 +2144,54 @@
         "nazov": "TC Electronic PolyTune Clip black tuner",
         "dodavatel": "basys",
         "code": ""
+      },
+      "5901890052412": {
+        "kod": "202600358",
+        "nazov": "Vysílač DO univerzální SM-1LC Samsung",
+        "dodavatel": "atos",
+        "code": "LP-SM-1LC"
+      },
+      "1212121212121": {
+        "kod": "202600359",
+        "nazov": "Držák antenní přímý 35 mm / 30 cm - pásovina",
+        "dodavatel": "atos",
+        "code": "TCZ-3025001A"
+      },
+      "1313131313131": {
+        "kod": "202600360",
+        "nazov": "Držák stožáru kloub na jezdce pr.48 mm",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "5901560500625": {
+        "kod": "202600361",
+        "nazov": "Ventilátor DOSPEL POLO 4 100 AZ s automat. žaluzií 1020003",
+        "dodavatel": "atos",
+        "code": "ELE-1020003"
+      },
+      "4004005050615": {
+        "kod": "202600362",
+        "nazov": "Krytka stožáru MAD 50 (35, 42 a 48 mm)",
+        "dodavatel": "atos",
+        "code": "SCHMAD50"
+      },
+      "5901890132602": {
+        "kod": "202600363",
+        "nazov": "Rádio KRUGER & MATZ KM0835 SOS BT FM AM AUX, powerbanka, svítilna, dynamo",
+        "dodavatel": "atos",
+        "code": "LEC-KM0835"
+      },
+      "8595689805951": {
+        "kod": "202600364",
+        "nazov": "Rádio TESLA Sound DAB65 s DAB+ certifikací - 2200 mAh",
+        "dodavatel": "atos",
+        "code": "IST-TESO00040"
+      },
+      "8592920076217": {
+        "kod": "202600365",
+        "nazov": "Zásuvka s DO EMOS P0070 dálkově ovládané zásuvky bílé / set 3+1 / 3 zásuvky /",
+        "dodavatel": "atos",
+        "code": "EMO1905120004"
       }
     }
   },
