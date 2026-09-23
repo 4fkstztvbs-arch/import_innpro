@@ -30,6 +30,12 @@ jobs:
           HEUREKA_PRICE_OVERRIDE: '1'
         run: node scripts/transform-basys.js
 
+      - name: Localize approved Slovak product names
+        run: |
+          cp output/basys.xml /tmp/basys-before-name-localization.xml
+          node scripts/localize-product-names.js --supplier=basys --in=output/basys.xml --out=output/basys.xml --strict=0
+          node scripts/validate-product-name-localization.js --supplier=basys --before=/tmp/basys-before-name-localization.xml --after=output/basys.xml
+
       - name: Collapse duplicate categories
         run: node scripts/collapse-duplicate-categories.js
 

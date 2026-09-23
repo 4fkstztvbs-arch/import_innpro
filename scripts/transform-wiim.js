@@ -32,6 +32,8 @@ const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const { parseWiimPricelist } = require('./parse-wiim-pricelist');
+const { localizeXml } = require('./localize-product-names');
+const { validateXml } = require('./validate-product-name-localization');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
@@ -192,16 +194,38 @@ function main() {
   }
 
   out.write('</SHOP>\n');
+  out.on('finish', () => {
+    try {
+      const beforeXml = fs.readFileSync(OUT_PATH, 'utf8');
+      const localized = localizeXml(beforeXml, { supplier: 'wiim' });
+      if (localized.report.issueCount) {
+        throw new Error(localized.report.issueCount + ' product-name identity mismatch(es)');
+      }
+      const validation = validateXml(beforeXml, localized.xml, { supplier: 'wiim' });
+      if (!validation.ok) {
+        throw new Error('NAME-only validation failed: ' + JSON.stringify(validation.issues));
+      }
+      fs.writeFileSync(OUT_PATH, localized.xml, 'utf8');
+      console.log('Slovak NAME localization:', JSON.stringify({
+        changed: localized.report.changedCount,
+        skippedCtr: localized.report.skippedCtr.length,
+        sourceDrift: localized.report.issueCount,
+      }));
+      console.log(JSON.stringify(stats, null, 2));
+      if (unmappedProducts.size) {
+        console.warn('WARNING: no category mapping for these product families (used fallback ' +
+          `"${FALLBACK_CATEGORY}") — add them to scripts/wiim-mapping.json:`);
+        unmappedProducts.forEach((n) => console.warn('  -', n));
+      }
+      console.log('Output written to', OUT_PATH);
+    } catch (error) {
+      console.error('WiiM product-name localization failed:', error.message);
+      process.exitCode = 1;
+    }
+  });
   out.end();
 
   writeAnomalyReport('wiim', anomalies);
-  console.log(JSON.stringify(stats, null, 2));
-  if (unmappedProducts.size) {
-    console.warn('WARNING: no category mapping for these product families (used fallback ' +
-      `"${FALLBACK_CATEGORY}") — add them to scripts/wiim-mapping.json:`);
-    unmappedProducts.forEach((n) => console.warn('  -', n));
-  }
-  console.log('Output written to', OUT_PATH);
 }
 
 main();

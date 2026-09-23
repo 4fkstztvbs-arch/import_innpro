@@ -33,10 +33,18 @@ function fixtureFor(entries) {
     '\n</SHOP>\n';
 }
 
-for (const supplier of ['kb', 'atos', 'innpro', 'penta', 'solight']) {
+const localizedSuppliers = [...new Set(
+  registry.products
+    .filter((p) => p.status === 'pilot_approved')
+    .map((p) => p.supplier)
+)].sort();
+
+for (const supplier of localizedSuppliers) {
   test(supplier + ': dry-run mení výhradne NAME pri presnej identite', () => {
+    const ctrExcluded = loadCtrExcludedKeys();
     const entries = registry.products
-      .filter((p) => p.supplier === supplier && p.status === 'pilot_approved')
+      .filter((p) => p.supplier === supplier && p.status === 'pilot_approved' && p.sourceName !== p.skName &&
+        !ctrExcluded.has(localizationKey(p.supplier, p.code)))
       .slice(0, 20);
     assert.ok(entries.length > 0);
     const before = fixtureFor(entries);
