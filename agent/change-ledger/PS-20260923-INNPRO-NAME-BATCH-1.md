@@ -1,0 +1,29 @@
+# PS-20260923-INNPRO-NAME-BATCH-1
+
+- CHANGE_ID: PS-20260923-INNPRO-NAME-BATCH-1
+- DATE: 2026-09-23
+- ACTOR: Codex coordinator
+- AREA: InnPro supplier transform, product display NAME only
+- URL/PAGE/SCOPE: Existing product URLs retained; two identity-guarded `NAME` overrides in the InnPro transform input
+- AFFECTED_PRODUCTS/PAGES:
+  - CODE `064837`, EAN `6937267000372`, BOBOVR S3 Pro; proposed name `BOBOVR S3 Pro – popruh s batériou a ventilátorom pre Meta Quest 3/3S`.
+  - CODE `085822`, EAN `5905156103504`, MERACH MR-S08B1-EU; proposed name `Horizontálny rotoped MERACH MR-S08B1-EU s opierkou, čierny`.
+  - CODE `079692`, EAN `6936685221901`, GameSir X5 Lite BK; proposed name `GameSir X5 Lite BK – mobilný herný ovládač USB-C, čierny`.
+- DESCRIPTION: Add three exact CODE+EAN+manufacturer+source-name guarded overrides. No metadata, category, URL, description, images, price, CPC, availability, or other product fields are changed.
+- REASON: Replace supplier-oriented wording with clearer Slovak product-type wording, retaining exact verified brand/model/variant; correct supplier typo `GamesSir` and redundant “Black” for GameSir. Heureka listing/category wording supports “popruh s batériou” for BOBOVR and the “horizontálny rotoped/recumbent” product type for MERACH. GameSir manufacturer page/manual supports the official brand/model, mobile-controller product type and USB-C. Search volume was not measured; no market-volume claim is made.
+- EVIDENCE: `outputs/PremiumStore-BOBOVR-S3-PRO-Name-SEO-Category-2026-09-23.md`; `outputs/PremiumStore-MERACH-MR-S08B1-Name-Meta-Category-2026-09-23.md`; `outputs/PremiumStore-Name-Meta-Audit-GameSir-X5-Lite-2026-09-23.md`; exact feed and Heureka report identity joins described in those audits.
+- HYPOTHESIS: Clearer Slovak product type plus stable model identity may improve customer recognition and qualified organic discovery.
+- BASELINE: Current supplier names are recorded in the override identity guards. No verified order-level or product-level organic conversion baseline is included in this batch; results must not be attributed without post-deployment measurement.
+- PRIMARY_METRIC: Product-page organic clicks and qualified product visits after the next import, evaluated against a suitable prior period/query/page baseline if available.
+- GUARDRAIL_METRICS: CODE/EAN/URL/product identity, supplier item count, price, purchase price, availability, visibility, category, images, parameters and all non-NAME XML bytes unchanged; preserve any active CTR experiment.
+- IMPLEMENTATION: Prepared only on `agent/name-only-batch-20260923`; production effect requires reviewed merge and the scheduled InnPro transform/import.
+- FILES_CHANGED: `data/localization/innpro-name-overrides.json` (three rows only); this ledger.
+- COMMIT / PR: Pending
+- APPROVAL / APPROVER: Explicit user authorization on 2026-09-23 to deploy product names through the transform for the next overnight import.
+- EXPERIMENT_ID: NAME-20260923-BOBOVR-S3PRO-MERACH-MR-S08B1-GAMESIR-X5LITE
+- PRE_DEPLOY_VALIDATION: Exact CODE/EAN/manufacturer/sourceName matched current InnPro XML for all three rows; exact live URLs were checked against active SEO CTR override/candidate lists and were not listed. GameSir live admin record was matched to CODE/EAN; official product/manual sources support the proposed wording. `node --test scripts/test-innpro-name-overrides.js`: 5/5 passed after all three rows; dry-run verified 5,596 feed items, 114 exact NAME overrides, and every other byte preserved. Heureka listing/category wording checked. No live write performed.
+- DEPLOYED_AT: Not deployed
+- POST_DEPLOY_VALIDATION: Pending merge, scheduled transform, Shoptet import and live-page check.
+- RESULT: Prepared, not deployed
+- DECISION: Await normal CI/review and merge; after merge verify next import before claiming persistence.
+- ROLLBACK / ROLLBACK_COMMIT: Remove only the three exact rows from `data/localization/innpro-name-overrides.json` if post-merge validation fails; no rollback commit exists yet.
