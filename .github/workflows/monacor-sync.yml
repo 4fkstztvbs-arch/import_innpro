@@ -34,6 +34,12 @@ jobs:
           MONACOR_OUT: output/monacor.xml
         run: node scripts/transform-monacor.js
 
+      - name: Localize approved Slovak product names
+        run: |
+          cp output/monacor.xml /tmp/monacor-before-name-localization.xml
+          node scripts/localize-product-names.js --supplier=monacor --in=output/monacor.xml --out=output/monacor.xml --strict=0
+          node scripts/validate-product-name-localization.js --supplier=monacor --before=/tmp/monacor-before-name-localization.xml --after=output/monacor.xml
+
       - name: Pull latest before cross-supplier dedupe
         run: |
           git stash -u
