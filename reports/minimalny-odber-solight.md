@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-09-22 20:15 UTC.
+Kontrola z 2026-09-23 00:57 UTC.
 
-Solight pri **508** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **511** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -223,9 +223,11 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ529-3P` | Solight LED žiarovka 3-pack, klasický tvar, 10W, E27, 3000K, | 4 | 40 |
 | `SSC16005-S` | Solight USB-C kábel, USB 2.0 A konektor - USB-C 3.1 konektor | 4 | 50 |
 | `WZ530-3P` | ECOLUX LED žiarovka 3-pack, klasický tvar, 12W, E27, 3000K,  | 4 | 40 |
+| `SSC17005-S` | Solight USB-C 3.1 kábel, USB-C konektor - USB-C konektor, si | 4 | 50 |
 | `WZ5002` | Solight extra úsporná LED žiarovka 3,8 W, 806lm, 2700K, ekv. | 4 | 100 |
 | `WZ5003` | Solight extra úsporná LED žiarovka 5,0 W, 1055lm, 2700K, ekv | 4 | 100 |
 | `PF03` | Solight flexo šnúra, 3x 1mm2, biela, 3m | 4 | 50 |
+| `WN49` | Solight LED nabíjacie vreckové svietidlo so zoomom, 100lm +  | 4 | 6 |
 | `WZ6101` | Solight LED svetelný zdroj do stropných svetiel, 12W, 1200lm | 4 | 60 |
 | `1P12` | Solight viazacie nylonové pásky, 4,8 x 300mm, natural, 100ks | 4 | 100 |
 | `PP08` | Solight predlžovací prívod, 3 zásuvky, čierny, 2m | 4 | 50 |
@@ -409,6 +411,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PP141` | Solight predlžovací prívod, 7 zásuviek, biely, vypínač, 2m | 2 | 50 |
 | `1V223-A` | Solight LED dekorácie závesná, les a jeleň, biela a hnedá, 2 | 2 | 50 |
 | `PS15O` | Solight predlžovací prívod - spojka, 1 zásuvka, 7m, 3 x 1mm2 | 2 | 20 |
+| `WL909` | Solight nočné LED svetielko s pohybovým a svetelným sensorom | 2 | 60 |
 | `WPIR04-B` | Solight PIR senzor nástenný, vonkajší, čierny | 2 | 100 |
 | `WN904` | Solight náhradný akumulátor typ 18650, 3,7 V, Li-Ion 3350mAh | 2 | 400 |
 | `PP32X` | Solight predlžovací prívod 3m, 4 zásuvky, vypínač, 16A/3680W | 2 | 40 |
