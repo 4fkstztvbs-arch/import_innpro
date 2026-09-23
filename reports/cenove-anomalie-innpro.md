@@ -25,13 +25,18 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 090052 | 6923520270330 | Herné slúchadlá EDIFIER HECATE G5 Max (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090051 | 6923520270323 | Herné slúchadlá EDIFIER HECATE G5 Max BT (sivé) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
+| 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
+| 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
 | 088847 | 6978794734798 | Fén MOVA Turbo 20 (biely) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090776 | 6978794736129 | Súprava Mova DuoCare Pet | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090775 | 6978794735764 | MOVA LB10 – samočistiaca toaleta pre mačky s vzduchovým systémom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093039 | 6930444806132 | Grafický tablet HUION Kamvas Pad 12 KP1202 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091857 | 6942580505022 | Trolley FOSSIBOT for F2400 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091857 | 6942580505022 | Vozík FOSSIBOT pre model F2400 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094048 | 6975828005169 | Prenosná nabíjačka pre elektromobily dé 22 kW s 7 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094050 | 6975828005183 | Prenosná nabíjačka pre elektromobily dé 22 kW s káblom 15 m | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094052 | 6975828005206 | Nabíjacia stanica Wallbox dé  11 kW s 5 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092888 | 6975116296170 | Dávkovač potravín Rojeco PTD001 IQ Training | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092889 | 6975116296408 | Automatický dávkovač krmiva a vody pre domáce zvieratá Rojeco 2 v 1 C | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092887 | 6975116296231 | Dávkovač vody bez filtra Rojeco PTM673 | nulová/neplatná cena |  | 0.00 € |  |  |

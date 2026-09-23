@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27026,
+  "totalProducts": 27050,
   "matchedRules": 2281,
-  "changedProducts": 161,
+  "changedProducts": 1116,
   "rejected": [
     {
       "supplier": "atos",
@@ -1807,7 +1807,7 @@
     },
     {
       "path": "Chovateľské potreby > Fontány a napájačky > Fontány pre psy a mačky",
-      "visibleUnique": 17,
+      "visibleUnique": 15,
       "active": true,
       "parent": "Chovateľské potreby > Fontány a napájačky"
     },
