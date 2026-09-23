@@ -46,7 +46,8 @@ test('optional meta override changes only NAME and terminal META_DESCRIPTION for
   const after = shopitem(row.name, row.code, row.ean, row.manufacturer, row.metaDescription);
   const apply = createNameOverride([product], [row]);
   assert.equal(apply(before, product), after);
-  const alreadyApplied = { ...product, name: row.name, metaDescription: row.metaDescription };\n  assert.equal(createNameOverride([alreadyApplied], [row])(after, alreadyApplied), after);
+  const alreadyApplied = { ...product, name: row.name, metaDescription: row.metaDescription };
+  assert.equal(createNameOverride([alreadyApplied], [row])(after, alreadyApplied), after);
 
   for (const changed of [
     { ...product, ean: 'wrong' },
