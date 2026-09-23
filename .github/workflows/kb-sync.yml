@@ -106,7 +106,7 @@ jobs:
       - name: Lokalizovať názvy produktov do slovenčiny (K-B)
         run: |
           cp output/kb.xml /tmp/kb-before-name-localization.xml
-          node scripts/localize-product-names.js --supplier=kb --in=output/kb.xml --out=output/kb.xml
+          node scripts/localize-product-names.js --supplier=kb --in=output/kb.xml --out=output/kb.xml --strict=0
           node scripts/validate-product-name-localization.js --supplier=kb --before=/tmp/kb-before-name-localization.xml --after=output/kb.xml
           node scripts/check-feed-size.js
 
