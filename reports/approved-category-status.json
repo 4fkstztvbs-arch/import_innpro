@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27025,
-  "matchedRules": 2519,
-  "changedProducts": 41,
+  "totalProducts": 27026,
+  "matchedRules": 2506,
+  "changedProducts": 462,
   "rejected": [
     {
       "supplier": "innpro",
@@ -533,175 +533,100 @@
       "supplier": "kb",
       "code": "100000196881",
       "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_AMP_Ultra_013",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_AMP_Ultra_004",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_Amp_Pro_003",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_AMP_013",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_AMP_003",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_Vibelink_013",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_Vibelink_003",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "NORWIISOUWALBK",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "NORWIISOUWALWT",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "NORWIISOUBK",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "NORWIISOUWT",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_VR_001",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "wiim",
+      "code": "WiiM_WVR_002",
+      "reason": "Reviewed product name changed"
     }
   ],
   "categoryDrifts": [
     {
-      "supplier": "penta",
-      "code": "65526100",
+      "supplier": "atos",
+      "code": "IST-SECQI13WDS2",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
       ],
       "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
       ]
     },
     {
-      "supplier": "penta",
-      "code": "65526102",
+      "supplier": "atos",
+      "code": "IST-SECQI13PIR",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
       ],
       "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
       ],
       "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526103",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526104",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526105",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526109",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "6552611",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526110",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526111",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526112",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526107",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526108",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
       ]
     }
   ],
@@ -972,7 +897,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery",
-      "visibleUnique": 7,
+      "visibleUnique": 0,
       "active": false,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
