@@ -110,7 +110,7 @@ function parseArgs(argv) {
 function main() {
   const args = parseArgs(process.argv.slice(2));
   if (!args.before || !args.after || !args.supplier) {
-    console.error('Usage: node scripts/validate-product-name-localization.js --supplier=kb|atos --before=output/kb.xml --after=/tmp/kb-localized.xml [--expected=20]');
+    console.error('Usage: node scripts/validate-product-name-localization.js --supplier=SUPPLIER --before=output/SUPPLIER.xml --after=/tmp/SUPPLIER-localized.xml [--expected=N]');
     process.exit(1);
   }
 
