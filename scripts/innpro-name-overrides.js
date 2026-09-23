@@ -51,7 +51,7 @@ function createNameOverride(products, overrides = loadNameOverrides()) {
       // anchor prevents matching tag-like content inside DESCRIPTION CDATA.
       const meta = result.match(/\n(<META_DESCRIPTION><!\[CDATA\[)([\s\S]*?)(\]\]><\/META_DESCRIPTION>\n<\/SHOPITEM>)$/);
       if (meta && meta[2] === product.metaDescription) {
-        result = result.replace(meta[0], '\\n' + meta[1] + match.override.metaDescription + meta[3]);
+        result = result.replace(meta[0], '\n' + meta[1] + match.override.metaDescription + meta[3]);
       }
     }
     return result;
