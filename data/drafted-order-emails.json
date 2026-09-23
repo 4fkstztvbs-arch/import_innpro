@@ -775,5 +775,33 @@
     "subject": "RE: Vaša objednávka č. 202600918 sa práve vybavuje",
     "orderCode": "202600918",
     "matchedBy": "code"
+  },
+  "<1B17C7C7-7C4B-43F1-8A64-5206D07883E4@icloud.com>": {
+    "draftedAt": "2026-09-23T13:02:20.494Z",
+    "from": "econka22@icloud.com",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202600999",
+    "orderCode": "202600999",
+    "matchedBy": "code"
+  },
+  "<A6130835-D4A4-47F1-A257-74EEF3FF6E88@gmail.com>": {
+    "draftedAt": "2026-09-23T13:02:29.234Z",
+    "from": "lukas.valo@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202601021 sa práve vybavuje",
+    "orderCode": "202601021",
+    "matchedBy": "code"
+  },
+  "<CACDKxaPHC9s95bt+9=i5MFFMwjjiXShfyRO-evyrOMpkj6jkEg@mail.gmail.com>": {
+    "draftedAt": "2026-09-23T13:02:49.866Z",
+    "from": "milosykora1@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600966 bola úspešne vybavená a odoslaná",
+    "orderCode": "202600966",
+    "matchedBy": "code"
+  },
+  "<1E74CD76-1B15-4349-9BC8-F37B88F96D7F@icloud.com>": {
+    "draftedAt": "2026-09-23T13:02:57.883Z",
+    "from": "econka22@icloud.com",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202600999",
+    "orderCode": "202600999",
+    "matchedBy": "code"
   }
 }
