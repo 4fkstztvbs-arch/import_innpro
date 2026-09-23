@@ -34,6 +34,9 @@ jobs:
       - name: Run SEO override tests
         run: node --test scripts/test-seo-overrides.js
 
+      - name: Run InnPro name and meta override tests
+        run: node --test scripts/test-innpro-name-overrides.js
+
       - name: Verify governance files
         shell: bash
         run: |
