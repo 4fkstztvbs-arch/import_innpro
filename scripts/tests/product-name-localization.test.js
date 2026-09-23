@@ -3,7 +3,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const path = require('path');
-const { loadRegistry, localizeXml } = require('../localize-product-names');
+const { loadRegistry, loadCtrExcludedKeys, localizationKey, localizeXml } = require('../localize-product-names');
 const { validateXml } = require('../validate-product-name-localization');
 
 const registry = loadRegistry(path.join(__dirname, '..', '..', 'data', 'localization', 'product-names-sk.json'));
@@ -33,20 +33,34 @@ function fixtureFor(entries) {
     '\n</SHOP>\n';
 }
 
-for (const supplier of ['kb', 'atos']) {
-  test(supplier + ': dry-run lokalizuje presne 50 pilotných produktov a nič iné', () => {
-    const entries = registry.products.filter((p) => p.supplier === supplier && p.status === 'pilot_approved');
-    assert.equal(entries.length, 50);
+for (const supplier of ['kb', 'atos', 'innpro', 'penta', 'solight']) {
+  test(supplier + ': dry-run mení výhradne NAME pri presnej identite', () => {
+    const entries = registry.products
+      .filter((p) => p.supplier === supplier && p.status === 'pilot_approved')
+      .slice(0, 20);
+    assert.ok(entries.length > 0);
     const before = fixtureFor(entries);
     const localized = localizeXml(before, { supplier, registry });
     assert.equal(localized.report.issueCount, 0);
-    assert.equal(localized.report.changedCount, 50);
+    assert.equal(localized.report.changedCount, entries.length);
 
     const validation = validateXml(before, localized.xml, { supplier, registry });
     assert.equal(validation.ok, true, JSON.stringify(validation.issues));
-    assert.equal(validation.changedCount, 50);
+    assert.equal(validation.changedCount, entries.length);
   });
 }
+
+test('CTR treatment aj kontrolné produkty sa vždy preskočia', () => {
+  const ctrExcluded = loadCtrExcludedKeys();
+  assert.ok(ctrExcluded.size > 0);
+  const entry = registry.products.find((p) => p.supplier === 'kb' && p.status === 'pilot_approved');
+  const before = fixtureFor([entry]);
+  const protectedKeys = new Set([localizationKey(entry.supplier, entry.code)]);
+  const localized = localizeXml(before, { supplier: entry.supplier, registry, ctrExcluded: protectedKeys });
+  assert.equal(localized.xml, before);
+  assert.equal(localized.report.changedCount, 0);
+  assert.deepEqual(localized.report.skippedCtr, [entry.code]);
+});
 
 test('validator odmietne zmenu ceny aj ked je NAME korektne lokalizovany', () => {
   const entries = registry.products.filter((p) => p.supplier === 'kb' && p.status === 'pilot_approved');

@@ -97,6 +97,13 @@ jobs:
       - name: Overiť schválené názvy InnPro
         run: node scripts/validate-innpro-name-overrides.js --in=output/innpro.xml
 
+      - name: Lokalizovať názvy podľa spoločného registra
+        run: |
+          cp output/innpro.xml /tmp/innpro-before-name-localization.xml
+          node scripts/localize-product-names.js --supplier=innpro --in=output/innpro.xml --out=output/innpro.xml --strict=0
+          node scripts/validate-product-name-localization.js --supplier=innpro --before=/tmp/innpro-before-name-localization.xml --after=output/innpro.xml
+          node scripts/check-feed-size.js
+
       - name: Commit updated output
         run: |
           git config user.name "innpro-sync-bot"

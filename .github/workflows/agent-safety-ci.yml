@@ -22,6 +22,9 @@ jobs:
       - name: Install locked dependencies
         run: npm ci --ignore-scripts
 
+      - name: Run product name localization tests
+        run: node --test scripts/tests/product-name-localization.test.js
+
       - name: Run pricing policy tests
         run: node --test scripts/tests/heureka-pricing.test.js
 

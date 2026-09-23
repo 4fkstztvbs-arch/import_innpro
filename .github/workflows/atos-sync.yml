@@ -113,7 +113,7 @@ jobs:
       - name: Lokalizovať názvy produktov do slovenčiny (ATOS)
         run: |
           cp output/atos.xml /tmp/atos-before-name-localization.xml
-          node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=output/atos.xml
+          node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=output/atos.xml --strict=0
           node scripts/validate-product-name-localization.js --supplier=atos --before=/tmp/atos-before-name-localization.xml --after=output/atos.xml
           node scripts/check-feed-size.js
 

@@ -93,6 +93,13 @@ jobs:
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
 
+      - name: Lokalizovať názvy podľa spoločného registra
+        run: |
+          cp output/penta.xml /tmp/penta-before-name-localization.xml
+          node scripts/localize-product-names.js --supplier=penta --in=output/penta.xml --out=output/penta.xml --strict=0
+          node scripts/validate-product-name-localization.js --supplier=penta --before=/tmp/penta-before-name-localization.xml --after=output/penta.xml
+          node scripts/check-feed-size.js
+
       - name: Commit updated output
         run: |
           git config user.name "penta-sync-bot"
