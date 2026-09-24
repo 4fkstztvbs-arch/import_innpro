@@ -20,6 +20,7 @@ const { heurekaCategoryIdFor } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { createProductNameResolver } = require('./localize-product-names');
 
 // Mobilné klimatizácie (portable AC units) explicitly hidden from the Heureka feed on request
 // 2026-08-26: 114,85 EUR spent over the first 17 days live, only 2 orders, and CPC ~50% above
@@ -52,6 +53,8 @@ const OUT_PATH = process.env.SOLIGHT_OUT || path.join(__dirname, '..', 'output',
 const STORE_NAME = process.env.SOLIGHT_STORE_NAME || 'premiumstore.sk';
 const OUT_OF_STOCK_TEXT = process.env.SOLIGHT_OUT_OF_STOCK_TEXT || 'Na objednávku';
 const EXCLUDE_UNAVAILABLE = process.env.SOLIGHT_EXCLUDE_UNAVAILABLE === '1';
+const resolveProductName = createProductNameResolver('solight');
+let localizedProductNames = 0;
 
 const MAPPING_PATH = path.join(__dirname, 'solight-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
@@ -359,7 +362,12 @@ async function main() {
       anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
       continue;
     }
-    out.write(buildShopitemXml(c.shopitemData) + '\n');
+    const correctedName = resolveProductName(c.shopitemData);
+    const shopitemData = correctedName
+      ? { ...c.shopitemData, name: correctedName }
+      : c.shopitemData;
+    if (correctedName) localizedProductNames++;
+    out.write(buildShopitemXml(shopitemData) + '\n');
     if (c.shopitemData.minQty > 1) {
       minOdbery.push({
         code: c.code,
@@ -394,6 +402,7 @@ async function main() {
   }
   const categoryReport = zaradovac.zapisReport();
   console.log(JSON.stringify({ ...stats, categoryReport }, null, 2));
+  console.log(`Slovak name corrections: ${localizedProductNames}`);
   console.log('Output written to', OUT_PATH);
 }
 

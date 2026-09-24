@@ -11,9 +11,9 @@ function loadNameOverrides(file = OVERRIDES_PATH) {
   const codes = new Set();
   for (const row of overrides) {
     for (const key of ['code', 'ean', 'manufacturer', 'sourceName', 'name']) {
-      if (typeof row[key] !== 'string' || !row[key].trim()) {
-        throw new Error(`Invalid InnPro name override: missing ${key}.`);
-      }
+    if (typeof row[key] !== 'string' || !row[key].trim()) {
+      throw new Error(`Invalid InnPro name override: missing ${key}.`);
+    }
     }
     if (codes.has(row.code)) throw new Error(`Duplicate InnPro name override CODE ${row.code}.`);
     codes.add(row.code);
@@ -29,7 +29,7 @@ function createNameOverride(products, overrides = loadNameOverrides()) {
     const target = targets[0];
     const identityMatches = target.ean === override.ean
       && target.manufacturer === override.manufacturer
-      && [override.sourceName, override.name].includes(target.name);
+      && [override.sourceName, override.name, override.previousName].filter(Boolean).includes(target.name);
     if (identityMatches) resolved.push({ target, override });
   }
 

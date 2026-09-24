@@ -3,10 +3,11 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const path = require('path');
-const { loadRegistry, loadCtrExcludedKeys, localizationKey, localizeXml } = require('../localize-product-names');
+const { loadRegistry, localizeXml, createProductNameResolver } = require('../localize-product-names');
 const { validateXml } = require('../validate-product-name-localization');
 
 const registry = loadRegistry(path.join(__dirname, '..', '..', 'data', 'localization', 'product-names-sk.json'));
+const ctr = require('../../data/seo/ctr-test-overrides.json');
 
 function esc(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -33,19 +34,9 @@ function fixtureFor(entries) {
     '\n</SHOP>\n';
 }
 
-const localizedSuppliers = [...new Set(
-  registry.products
-    .filter((p) => p.status === 'pilot_approved')
-    .map((p) => p.supplier)
-)].sort();
-
-for (const supplier of localizedSuppliers) {
-  test(supplier + ': dry-run mení výhradne NAME pri presnej identite', () => {
-    const ctrExcluded = loadCtrExcludedKeys();
-    const entries = registry.products
-      .filter((p) => p.supplier === supplier && p.status === 'pilot_approved' && p.sourceName !== p.skName &&
-        !ctrExcluded.has(localizationKey(p.supplier, p.code)))
-      .slice(0, 20);
+for (const supplier of ['kb', 'atos', 'penta', 'solight']) {
+  test(supplier + ': dry-run mení iba NAME pri každom schválenom zázname', () => {
+    const entries = registry.products.filter((p) => p.supplier === supplier && p.status === 'pilot_approved');
     assert.ok(entries.length > 0);
     const before = fixtureFor(entries);
     const localized = localizeXml(before, { supplier, registry });
@@ -58,16 +49,16 @@ for (const supplier of localizedSuppliers) {
   });
 }
 
-test('CTR treatment aj kontrolné produkty sa vždy preskočia', () => {
-  const ctrExcluded = loadCtrExcludedKeys();
-  assert.ok(ctrExcluded.size > 0);
-  const entry = registry.products.find((p) => p.supplier === 'kb' && p.status === 'pilot_approved');
-  const before = fixtureFor([entry]);
-  const protectedKeys = new Set([localizationKey(entry.supplier, entry.code)]);
-  const localized = localizeXml(before, { supplier: entry.supplier, registry, ctrExcluded: protectedKeys });
-  assert.equal(localized.xml, before);
-  assert.equal(localized.report.changedCount, 0);
-  assert.deepEqual(localized.report.skippedCtr, [entry.code]);
+test('transform resolver validates exact CODE/EAN/source name and permits an approved previous title', () => {
+  const entry = registry.products.find((p) => p.supplier === 'penta');
+  const resolve = createProductNameResolver('penta', registry);
+  assert.equal(resolve({ code: entry.code, ean: entry.ean, name: entry.sourceName }), entry.skName);
+  assert.equal(resolve({ code: entry.code, ean: entry.ean, name: entry.skName }), null);
+  if (entry.previousName) {
+    assert.equal(resolve({ code: entry.code, ean: entry.ean, name: entry.previousName }), entry.skName);
+  }
+  assert.throws(() => resolve({ code: entry.code, ean: 'wrong', name: entry.sourceName }), /EAN mismatch/);
+  assert.throws(() => resolve({ code: entry.code, ean: entry.ean, name: 'Unrecognized source' }), /Source-name drift/);
 });
 
 test('validator odmietne zmenu ceny aj ked je NAME korektne lokalizovany', () => {
@@ -78,6 +69,12 @@ test('validator odmietne zmenu ceny aj ked je NAME korektne lokalizovany', () =>
   const validation = validateXml(before, tampered, { supplier: 'kb', registry });
   assert.equal(validation.ok, false);
   assert.ok(validation.issues.some((x) => x.reason === 'non-NAME-field-changed'));
+});
+
+test('aktívna CTR experimentálna ani kontrolná kohorta sa nelokalizuje', () => {
+  const protectedEans = new Set([...(ctr.products || []), ...(ctr.controls || [])].map((p) => `${p.supplier}|${p.ean}`));
+  const overlaps = registry.products.filter((p) => protectedEans.has(`${p.supplier}|${p.ean}`));
+  assert.deepEqual(overlaps, []);
 });
 
 test('source-name drift sa neprepisuje', () => {

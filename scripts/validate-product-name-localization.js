@@ -63,8 +63,8 @@ function validateXml(beforeXml, afterXml, { supplier, registry } = {}) {
       issues.push({ code, reason: 'NAME-changed-without-approved-registry-entry', beforeName, afterName });
       continue;
     }
-    if (beforeName !== entry.sourceName && beforeName !== entry.skName) {
-      issues.push({ code, reason: 'unexpected-before-name', expected: entry.sourceName, actual: beforeName });
+    if (beforeName !== entry.sourceName && beforeName !== entry.previousName && beforeName !== entry.skName) {
+      issues.push({ code, reason: 'unexpected-before-name', expected: [entry.sourceName, entry.previousName, entry.skName].filter(Boolean), actual: beforeName });
       continue;
     }
     if (afterName !== entry.skName) {
@@ -110,7 +110,7 @@ function parseArgs(argv) {
 function main() {
   const args = parseArgs(process.argv.slice(2));
   if (!args.before || !args.after || !args.supplier) {
-    console.error('Usage: node scripts/validate-product-name-localization.js --supplier=SUPPLIER --before=output/SUPPLIER.xml --after=/tmp/SUPPLIER-localized.xml [--expected=N]');
+    console.error('Usage: node scripts/validate-product-name-localization.js --supplier=kb|atos --before=output/kb.xml --after=/tmp/kb-localized.xml [--expected=20]');
     process.exit(1);
   }
 
