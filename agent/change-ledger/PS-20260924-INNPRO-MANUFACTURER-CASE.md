@@ -1,0 +1,25 @@
+# PS-20260924-INNPRO-MANUFACTURER-CASE
+
+- CHANGE_ID: PS-20260924-INNPRO-MANUFACTURER-CASE
+- DATE: 2026-09-24
+- ACTOR: Codex
+- AREA: InnPro product-name transform validation
+- URL/PAGE/SCOPE: Supplier feed generation; no storefront page fields written directly
+- AFFECTED_PRODUCTS/PAGES: InnPro CODE `032606`, EAN `6973293802276` (Petkit Fresh Element SOLO)
+- DESCRIPTION: Normalize manufacturer strings by trimming and case-folding for exact identity checks in the InnPro NAME override and validator. CODE, EAN, source/target name matching remain exact.
+- REASON: Workflow run `36049337868` stopped at `Overiť schválené názvy InnPro`: supplier manufacturer was `PETKIT`, approved override expected `Petkit`; casing alone blocked the existing exact product-name override.
+- HYPOTHESIS: Case-insensitive manufacturer identity matching will allow the approved NAME-only override while still rejecting a different manufacturer and preserving all other feed bytes.
+- BASELINE: InnPro workflow run `36049337868`, job `107800667757`, failed with one `identity-or-name-mismatch`; two absent override rows were reported separately and were nonblocking.
+- PRIMARY_METRIC: InnPro workflow and post-transform validator pass with the exact approved override applied.
+- GUARDRAIL_METRICS: 5,596-item local feed snapshot unchanged in item count; only explicitly approved NAME nodes may differ; CODE/EAN, URLs, prices, availability, categories, images, parameters and all other XML bytes remain unchanged.
+- IMPLEMENTATION: Add trim+lowercase normalization for manufacturer comparison in the InnPro override matcher and validator; add regression test for `Petkit`/`PETKIT` and wrong-brand rejection.
+- FILES_CHANGED: `scripts/innpro-name-overrides.js`; `scripts/validate-innpro-name-overrides.js`; `scripts/test-innpro-name-overrides.js`; this ledger entry.
+- COMMIT / PR: Pending
+- APPROVAL / APPROVER: Explicit owner authorization in this conversation to fix, test, deploy to `main`, rerun InnPro and then run supplier imports sequentially.
+- EXPERIMENT_ID: N/A (correctness fix)
+- PRE_DEPLOY_VALIDATION: Focused Node test suite 7/7 passed; 5,596-item feed invariant reported; node syntax checks and `git diff --check` passed.
+- DEPLOYED_AT: Pending
+- POST_DEPLOY_VALIDATION: Pending workflow and generated output verification.
+- RESULT: Pending
+- DECISION: Pending
+- ROLLBACK / ROLLBACK_COMMIT: Revert the scoped commit if CI or the InnPro output invariants fail; do not publish the failed feed.

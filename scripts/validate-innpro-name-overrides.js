@@ -3,7 +3,7 @@
 
 const fs = require('fs');
 const { extractTag } = require('./localize-product-names');
-const { loadNameOverrides } = require('./innpro-name-overrides');
+const { loadNameOverrides, normalizeManufacturer } = require('./innpro-name-overrides');
 
 function validate(xml, overrides = loadNameOverrides()) {
   const items = [...xml.matchAll(/<SHOPITEM(?:\s[^>]*)?>[\s\S]*?<\/SHOPITEM>/g)].map(match => match[0]);
@@ -25,7 +25,9 @@ function validate(xml, overrides = loadNameOverrides()) {
       name: extractTag(item, 'NAME'),
     };
     const expected = { ean: entry.ean, manufacturer: entry.manufacturer, name: entry.name };
-    if (actual.ean !== expected.ean || actual.manufacturer !== expected.manufacturer || actual.name !== expected.name) {
+    if (actual.ean !== expected.ean
+        || normalizeManufacturer(actual.manufacturer) !== normalizeManufacturer(expected.manufacturer)
+        || actual.name !== expected.name) {
       report.issues.push({ code: entry.code, reason: 'identity-or-name-mismatch', expected, actual });
       continue;
     }
