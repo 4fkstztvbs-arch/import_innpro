@@ -107,6 +107,12 @@ body.type-category.ps-category-filter-enhanced #filters.ps-category-filter-open 
   box-shadow: 0 12px 32px rgba(26, 35, 44, .16) !important;
 }
 
+/* Shoptet can leave its native panel marked visible after an AJAX filter update.
+   Keep it collapsed until the customer opens one of the compact controls. */
+body.type-category.ps-category-filter-enhanced #filters:not(.ps-category-filter-open) {
+  display: none !important;
+}
+
 body.type-category.ps-category-filter-enhanced #filters.ps-category-filter-price .filter-sections {
   display: none !important;
 }
