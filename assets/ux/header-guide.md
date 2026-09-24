@@ -29,15 +29,16 @@ Pre návrat obnoviť pôvodné CSS a JS zo záložnej vetvy a znovu publikovať 
 
 Pod 768 px sú sekcie Nakupovanie, Sortiment a Užitočné informácie predvolene zbalené. Nadpisy sú tlačidlá ovládateľné aj klávesnicou s aria-expanded a aria-controls. Kontakt zostáva viditeľný. Od 768 px sú všetky odkazy zobrazené; od 992 px zostáva pôvodné štvorstĺpcové rozloženie. Pri zmene šírky sa stav synchronizuje; mobil si zachová otvorené sekcie.
 
-## Globálny kompaktný filter kategórií
+## Jednoduchší vzhľad natívnej filtrácie Shoptet
 
-Na všetky kategórie Shoptetu sa aktivuje samostatnými súbormi. Existujúce štýly hlavičky ani pôvodný skript sa nemenia.
+Filtráciu riadia pôvodné formuláre a skripty Shoptetu. Tento doplnok mení iba jemné vizuálne detaily: okraje, rozostupy, typografiu a vzhľad počtov produktov. Nepridáva vlastný panel, vyhľadávanie, posúvanie ani JavaScript.
 
-CSS pridať do hlavičky a JavaScript do pätičky pred koniec BODY:
+V administrácii Shoptetu v kategóriách odstrániť staré odkazy na `category-filters.css` a `category-filters.js`. Namiesto nich pridať iba tento štýl do hlavičky:
 
 ```html
-<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.css?v=9">
-<script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.js?v=9"></script>
+<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters-native.css?v=1">
 ```
 
-Zmenené sú iba stránky kategórií. Filter používa natívne formuláre Shoptetu, cenu, značky a ďalšie existujúce skupiny. Dlhé zoznamy majú lokálne vyhľadávanie zobrazené mimo natívnych formulárov Shoptetu, aby písanie značky nespustilo filtrovanie. Po natívnej zmene filtra Shoptet dynamicky obnoví kompaktný panel. Samostatný filter dostupnosti sa skryje podľa obchodného pravidla, že všetok ponúkaný sortiment je skladom. Mobilný panel sa otvára zdola, zostáva v hraniciach displeja a pri dlhých zoznamoch sa posúva ako jeden celok; na telefónoch sa značky zobrazia v jednom stĺpci. Desktopový panel sa zobrazí pri tlačidlách filtrov. Pri návrate odstrániť oba nové odkazy z HTML kódov; pôvodné súbory stránky ostanú nedotknuté.
+Pôvodné prvky a akcie filtra zostávajú nedotknuté. Štýl nevynucuje výšku ani vnútorné posúvanie zoznamov; používa sa prirodzené rozloženie stránky a natívne správanie Shoptetu.
+
+Po publikovaní assetu a jeho aktivácii v Shoptete skontrolovať kategóriu na mobile, tablete a desktope, vrátane rozbalenia filtra, výberu značky, ceny a zrušenia filtrov. Po overení odstrániť staré odkazy natrvalo, aby sa vlastný panel nezapol súčasne s natívnym filtrom.
