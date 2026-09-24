@@ -5,6 +5,10 @@ const path = require('path');
 
 const OVERRIDES_PATH = path.join(__dirname, '..', 'data', 'localization', 'innpro-name-overrides.json');
 
+function normalizeManufacturer(value) {
+  return String(value || '').trim().toLowerCase();
+}
+
 function loadNameOverrides(file = OVERRIDES_PATH) {
   const overrides = JSON.parse(fs.readFileSync(file, 'utf8'));
   if (!Array.isArray(overrides)) throw new Error('InnPro name overrides must be a JSON array.');
@@ -32,7 +36,7 @@ function createNameOverride(products, overrides = loadNameOverrides()) {
     if (targets.length !== 1) continue;
     const target = targets[0];
     const identityMatches = target.ean === override.ean
-      && target.manufacturer === override.manufacturer
+      && normalizeManufacturer(target.manufacturer) === normalizeManufacturer(override.manufacturer)
       && [override.sourceName, override.name, override.previousName].filter(Boolean).includes(target.name);
     if (identityMatches) resolved.push({ target, override });
   }
@@ -46,4 +50,4 @@ function createNameOverride(products, overrides = loadNameOverrides()) {
   };
 }
 
-module.exports = { createNameOverride, loadNameOverrides, OVERRIDES_PATH };
+module.exports = { createNameOverride, loadNameOverrides, normalizeManufacturer, OVERRIDES_PATH };

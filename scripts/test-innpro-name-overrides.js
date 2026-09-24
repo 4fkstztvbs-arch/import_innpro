@@ -42,6 +42,22 @@ test('a recorded previous localized name can transition to its corrected target'
   assert.equal(createNameOverride([product], [row])(before, product), after);
 });
 
+test('manufacturer capitalization drift does not block the exact approved CODE/EAN/name correction', () => {
+  const row = overrides.find(entry => entry.code === '032606');
+  assert.ok(row, 'expected the Petkit capitalization regression row');
+  const product = { ...productFor(row), manufacturer: 'PETKIT' };
+  const before = shopitem(row.sourceName, row.code, row.ean, 'PETKIT');
+  const after = shopitem(row.name, row.code, row.ean, 'PETKIT');
+  const transformed = createNameOverride([product], [row])(before, product);
+  assert.equal(transformed, after);
+  const report = validate(transformed, [row]);
+  assert.equal(report.ok, true);
+  assert.equal(report.checked, 1);
+  assert.deepEqual(report.issues, []);
+  const wrongBrand = shopitem(row.name, row.code, row.ean, 'Other');
+  assert.equal(validate(wrongBrand, [row]).ok, false, 'a different manufacturer must remain rejected');
+});
+
 test('identity drift, missing targets, and duplicate CODEs preserve supplier XML', () => {
   const row = overrides[0];
   const before = shopitem(row.sourceName, row.code, row.ean, row.manufacturer);
