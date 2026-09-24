@@ -107,6 +107,12 @@ body.type-category.ps-category-filter-enhanced #filters.ps-category-filter-open 
   box-shadow: 0 12px 32px rgba(26, 35, 44, .16) !important;
 }
 
+/* Shoptet can leave its native panel marked visible after an AJAX filter update.
+   Keep it collapsed until the customer opens one of the compact controls. */
+body.type-category.ps-category-filter-enhanced #filters:not(.ps-category-filter-open) {
+  display: none !important;
+}
+
 body.type-category.ps-category-filter-enhanced #filters.ps-category-filter-price .filter-sections {
   display: none !important;
 }
@@ -268,6 +274,13 @@ body.type-category.ps-category-filter-lock {
 }
 
 @media (max-width: 767px) {
+  /* Keep the filter wrapper above its page-dimming backdrop. The wrapper is a
+     stacking context, so the drawer's own z-index cannot outrank a body-level
+     backdrop unless its parent is raised too. */
+  body.type-category.ps-category-filter-enhanced #filters-wrapper > .filters-wrapper {
+    z-index: 1099 !important;
+  }
+
   body.type-category.ps-category-filter-enhanced .filters-unveil-button-wrapper {
     min-height: 46px !important;
     margin: 6px 0 8px !important;
