@@ -19,6 +19,20 @@
     toolbar.setAttribute('role', 'group');
     toolbar.setAttribute('aria-label', 'Filtrovať produkty');
 
+    var toolbarLabel = document.createElement('span');
+    toolbarLabel.className = 'ps-category-filter-heading';
+    var filterIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    filterIcon.setAttribute('viewBox', '0 0 24 24');
+    filterIcon.setAttribute('aria-hidden', 'true');
+    var filterPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    filterPath.setAttribute('d', 'M3 5h18l-7 8v5l-4 2v-7L3 5z');
+    filterIcon.appendChild(filterPath);
+    toolbarLabel.appendChild(filterIcon);
+    var toolbarLabelText = document.createElement('span');
+    toolbarLabelText.textContent = 'Filtrovať';
+    toolbarLabel.appendChild(toolbarLabelText);
+    toolbar.appendChild(toolbarLabel);
+
     var backdrop = document.createElement('div');
     backdrop.className = 'ps-category-filter-backdrop';
     backdrop.setAttribute('aria-hidden', 'true');
@@ -101,6 +115,30 @@
       return Boolean(section.querySelector('input[name="stock"], #stock'));
     }
 
+    function syncResetLink() {
+      var currentReset = filters.querySelector('#clear-filters a[href]');
+      var resetLink = toolbar.querySelector('.ps-category-filter-reset');
+      var min = filters.querySelector('#min');
+      var max = filters.querySelector('#max');
+      var minBound = filters.querySelector('#categoryMinValue');
+      var maxBound = filters.querySelector('#categoryMaxValue');
+      var activePrice = min && max && minBound && maxBound &&
+        (min.textContent.trim() !== minBound.textContent.trim() || max.textContent.trim() !== maxBound.textContent.trim());
+      var activeOptions = filters.querySelector('input[type="checkbox"]:checked:not([name="stock"]), input[type="radio"]:checked');
+
+      if (currentReset) {
+        resetLink = currentReset;
+        resetLink.removeAttribute('class');
+        resetLink.className = 'ps-category-filter-reset';
+        resetLink.textContent = '× Zrušiť filtre';
+        resetLink.setAttribute('aria-label', 'Zrušiť všetky filtre');
+        resetLink.setAttribute('title', 'Zrušiť všetky filtre');
+        toolbar.insertBefore(resetLink, toolbar.querySelector('.ps-category-facet-button'));
+      } else if (resetLink && !activePrice && !activeOptions) {
+        resetLink.remove();
+      }
+    }
+
     function updateBadges() {
       facetButtons.forEach(function (facet) {
         var selected = 0;
@@ -126,6 +164,7 @@
         facet.count.hidden = available === 0;
         if (available > 0 && !facet.count.isConnected) facet.button.insertBefore(facet.count, facet.button.querySelector('.ps-category-facet-chevron'));
       });
+      syncResetLink();
     }
 
     function setExpanded(button) {
@@ -232,7 +271,8 @@
     window.__psCategoryFilterState = {
       filters: filters,
       facets: facetButtons,
-      closePanel: closePanel
+      closePanel: closePanel,
+      refresh: updateBadges
     };
 
     // Shoptet replaces the filter markup after applying a facet without a full
@@ -259,6 +299,8 @@
               if (oldToolbar) oldToolbar.remove();
               document.querySelectorAll('.ps-category-filter-backdrop').forEach(function (node) { node.remove(); });
               initCategoryFilters();
+            } else if (state.refresh) {
+              state.refresh();
             }
           });
         });
