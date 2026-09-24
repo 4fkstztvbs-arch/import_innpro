@@ -1,475 +1,323 @@
 # Návrh na úpravu cien podľa Heureka porovnania — 2026-09-24
 
-Vstup: `premiumstore-sk_2026-09-24_09-10.csv` (automaticky spracované denným behom).
+Vstup: `premiumstore-sk_2026-09-24_21-57.csv` (automaticky spracované denným behom).
 
 **Pravidlo:** ponuky sa počítajú podľa pozície v rebríčku, naša ponuka sa odčíta presne raz. Cieľ je najbližšia zaokrúhlená cena pod najlacnejším iným predajcom, bez stropu prirážky. Minimum = nákupná cena bez DPH × (1 + 5 % prirážka) × (1 + DPH), zaokrúhlené nahor. Už najlacnejší produkt sa zbytočne nezlacňuje. Ak zľava po cenové minimum nepreskočí žiadnu známu konkurenčnú ponuku, cena sa zachová. Pri jedinej ponuke INNPRO zostáva na 15 % prirážke; ostatní dodávatelia používajú vlastnú základnú/odporúčanú cenu. Neplatné dáta a chýbajúca nákupná cena sa nepreceňujú.
 Prirážka je počítaná z nákupnej ceny bez DPH; nejde o obchodnú maržu z predajnej ceny. Heureka ceny v tabuľkách sú ceny iných predajcov.
 
 ## Súhrn
 
-- Spárovaných produktov cez EAN: **6957**
-- Návrh **zvýšiť** cenu: **216** produktov
-- Návrh **znížiť** cenu: **232** produktov
-- Bez zmeny (už optimálne / chýbajú dáta): **6509** produktov
-- Z toho obmedzené min. maržou 5 % (nedosiahli plný cieľ): **53**
-- Zľava zrušená, lebo by nepohla cenovou pozíciou: **485**
+- Spárovaných produktov cez EAN: **6984**
+- Návrh **zvýšiť** cenu: **92** produktov
+- Návrh **znížiť** cenu: **204** produktov
+- Bez zmeny (už optimálne / chýbajú dáta): **6688** produktov
+- Z toho obmedzené min. maržou 5 % (nedosiahli plný cieľ): **22**
+- Zľava zrušená, lebo by nepohla cenovou pozíciou: **506**
 
 Zoradené od najväčšieho dopadu (rozdiel medzi terajšou a odporúčanou cenou).
 
-## Návrh zvýšiť cenu (216)
+## Návrh zvýšiť cenu (92)
 
 | Názov | Naša cena | → Nová cena | Prirážka teraz | → Nová prirážka | Najlacnejší konkurent | Poznámka |
 |---|---:|---:|---:|---:|---:|---|
-| Batéria pre zavážaciu loďku Flytec V030, 20 000 mAh | 44.50 € | **250.50 €** | 14.5 % | **544.5 %** | 250.58 € | cena podľa najlacnejšieho iného predajcu |
-| Termovízna kamera THERMAL MASTER X3 | 526.50 € | **656.90 €** | 15.0 % | **43.4 %** | 657.00 € | cena podľa najlacnejšieho iného predajcu |
-| Termovízna kamera THERMAL MASTER DV2 | 444.00 € | **558.90 €** | 15.0 % | **44.7 %** | 559.00 € | cena podľa najlacnejšieho iného predajcu |
-| Amica SHM 51071 W | 254.90 € | **359.00 €** | 10.0 % | **55.0 %** | 359.17 € | cena podľa najlacnejšieho iného predajcu |
-| Johansson 6700 Revolution programovatelný zosilňovač | 270.50 € | **360.50 €** | 7.4 % | **43.1 %** | 360.59 € | cena podľa najlacnejšieho iného predajcu |
-| TERMOVÍZNA KAMERA THERMAL MASTER P4 USB-C Mini | 323.00 € | **408.90 €** | 15.0 % | **45.6 %** | 409.00 € | cena podľa najlacnejšieho iného predajcu |
-| TERMOVÍZNA KAMERA THERMAL MASTER X2 USB-C Mini | 241.50 € | **308.90 €** | 15.1 % | **47.2 %** | 309.00 € | cena podľa najlacnejšieho iného predajcu |
-| TERMOVÍZNA KAMERA THERMAL MASTER P2 Pro USB-C Mini | 247.00 € | **308.90 €** | 15.0 % | **43.8 %** | 309.00 € | cena podľa najlacnejšieho iného predajcu |
-| 3D tlačiareň Anycubic Photon Mono M7 Max | 648.90 € | **694.50 €** | 5.2 % | **12.6 %** | 694.83 € | cena podľa najlacnejšieho iného predajcu |
-| Vysávač robotický NEDIS WIFIVCL001CBK SmartLife 3 v ... | 238.90 € | **282.00 €** | 18.3 % | **39.6 %** | 282.49 € | cena podľa najlacnejšieho iného predajcu |
-| Termovízna kamera THERMAL MASTER T2Max | 292.90 € | **332.50 €** | 15.0 % | **30.5 %** | 332.90 € | cena podľa najlacnejšieho iného predajcu |
-| Panvica Tefal G721SD74 | 107.50 € | **146.50 €** | 10.4 % | **50.4 %** | 146.90 € | cena podľa najlacnejšieho iného predajcu |
-| Súprava stabilizátora iSteady MT3 Pro | 584.90 € | **614.90 €** | 32.6 % | **39.4 %** | 614.99 € | cena podľa najlacnejšieho iného predajcu |
-| Termovízna kamera THERMAL MASTER X2 USB-C | 283.90 € | **311.50 €** | 15.1 % | **26.3 %** | 311.90 € | cena podľa najlacnejšieho iného predajcu |
-| Digitálny RCD / tester odporu slučky Habotest HT5910 | 131.50 € | **156.90 €** | 14.9 % | **37.1 %** | 157.00 € | cena podľa najlacnejšieho iného predajcu |
-| Remoska® Europa panvica 28 cm | 14.90 € | **34.90 €** | 12.9 % | **164.4 %** | 35.00 € | cena podľa najlacnejšieho iného predajcu |
-| ALI Pods Transl.TWS+překladač ATR10BK | 55.00 € | **75.00 €** | 10.0 % | **50.0 %** | 75.12 € | cena podľa najlacnejšieho iného predajcu |
-| Pristávacia podložka pre drony Sunnylife 80 cm šesťu... | 27.90 € | **45.90 €** | 15.0 % | **89.2 %** | 45.93 € | cena podľa najlacnejšieho iného predajcu |
-| Cvičebný bicykel UREVO T1 (čierno-žltý) | 245.90 € | **262.50 €** | 15.0 % | **22.8 %** | 262.64 € | cena podľa najlacnejšieho iného predajcu |
-| Tigo CloudConnect Advance Kit vrátane TAP | 200.00 € | **216.00 €** | 4.4 % | **12.7 %** | 216.22 € | cena podľa najlacnejšieho iného predajcu |
-| Veslovací trenažér MERACH MR-R15B1-EU | 245.00 € | **261.00 €** | 14.9 % | **22.4 %** | 261.46 € | cena podľa najlacnejšieho iného predajcu |
-| Skladací elektrický bežecký pás ACEZOE P12 (čierny a... | 211.90 € | **226.00 €** | 34.8 % | **43.8 %** | 226.28 € | cena podľa najlacnejšieho iného predajcu |
-| Skladací elektrický bežecký pás ACEZOE P12 (čierny a... | 211.90 € | **226.00 €** | 27.1 % | **35.5 %** | 226.28 € | cena podľa najlacnejšieho iného predajcu |
-| Remoska® Europa panvica 26 cm | 18.00 € | **31.90 €** | 10.6 % | **96.0 %** | 32.00 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod - spojka, 1 zásuvka, čier... | 112.50 € | **124.90 €** | 6.5 % | **18.3 %** | 125.00 € | cena podľa najlacnejšieho iného predajcu |
-| Bezdrôtový adaptér Carlinkit AIR X1 Carplay/Android ... | 36.50 € | **48.00 €** | 15.3 % | **51.7 %** | 48.19 € | cena podľa najlacnejšieho iného predajcu |
-| Televes 552220 Crocodile 5G LTE700 domovní zosilňovač | 33.50 € | **44.90 €** | 9.0 % | **46.1 %** | 44.96 € | cena podľa najlacnejšieho iného predajcu |
-| Remoska® Europa Hluboká panvica 26 cm | 23.90 € | **34.00 €** | 10.0 % | **56.5 %** | 34.23 € | cena podľa najlacnejšieho iného predajcu |
-| PC skrinka Darkflash DK351+ so 4 ventilátormi, biela | 43.90 € | **54.00 €** | 16.7 % | **43.5 %** | 54.50 € | cena podľa najlacnejšieho iného predajcu |
-| Teplovzdušná fritéza TEESA TSA8089 Teplovzdušná frit... | 71.90 € | **82.00 €** | 5.6 % | **20.4 %** | 82.49 € | cena podľa najlacnejšieho iného predajcu |
-| Ultimea Skywave X50 soundbar | 398.90 € | **408.90 €** | 8.5 % | **11.2 %** | 409.00 € | cena podľa najlacnejšieho iného predajcu |
-| Kolobežka NILS Extreme HM122T s kotúčovou brzdou a LED | 102.50 € | **112.50 €** | 8.5 % | **19.0 %** | 112.70 € | cena podľa najlacnejšieho iného predajcu |
-| Wi-Fi mesh systém TP-Link Deco E4, 2 kusy | 80.90 € | **90.50 €** | 5.3 % | **17.7 %** | 90.90 € | cena podľa najlacnejšieho iného predajcu |
-| Rádio TechniSat DIGITRADIO 550 IR /čierne/ | 150.00 € | **159.50 €** | 14.2 % | **21.4 %** | 159.90 € | cena podľa najlacnejšieho iného predajcu |
-| NEEWER SF120Q 120 cm parabolický softbox | 102.00 € | **110.50 €** | 14.8 % | **24.4 %** | 110.67 € | cena podľa najlacnejšieho iného predajcu |
-| Súprava teleokuláru pro smartphone Levenhuk Kelvin T... | 166.50 € | **174.90 €** | 0.1 % | **5.2 %** | 143.74 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| MASCOM SUNNY-T Android TV 4K UHD Android TV multimed... | 85.00 € | **93.00 €** | 19.7 % | **31.0 %** | 93.41 € | cena podľa najlacnejšieho iného predajcu |
-| Vibračná platforma MERACH MR-2533B1-EU (čierna) | 81.00 € | **88.90 €** | 14.7 % | **25.9 %** | 88.96 € | cena podľa najlacnejšieho iného predajcu |
-| Zvukový mixér a zvuková karta AMC2 Neo | 38.90 € | **46.50 €** | 5.0 % | **25.6 %** | 46.90 € | cena podľa najlacnejšieho iného predajcu |
-| Nastaviteľné činky MERACH MR-2444, súprava 2 ks | 41.90 € | **49.50 €** | 15.2 % | **36.1 %** | 49.90 € | cena podľa najlacnejšieho iného predajcu |
-| Solárny regulátor MPPT EPever DR1206-DDS, 12/24V, 10... | 81.90 € | **89.50 €** | 5.4 % | **15.2 %** | 89.79 € | cena podľa najlacnejšieho iného predajcu |
-| G3Ferrari G1015502 Mikrovlnná rúra | 118.00 € | **125.50 €** | 10.0 % | **17.0 %** | 125.90 € | cena podľa najlacnejšieho iného predajcu |
-| Inteligentný dávkovač potravín Oneisall PFD001 Pro (... | 43.50 € | **50.50 €** | 15.6 % | **34.2 %** | 50.83 € | cena podľa najlacnejšieho iného predajcu |
-| Elektrický mlynček na zrnkovú kávu HiBREW G3 | 77.50 € | **84.50 €** | 11.3 % | **21.3 %** | 84.87 € | cena podľa najlacnejšieho iného predajcu |
-| Fotografický beztienový svetelný panel Puluz PU5138 ... | 33.50 € | **40.50 €** | 14.6 % | **38.5 %** | 40.90 € | cena podľa najlacnejšieho iného predajcu |
-| Teplomer a vlhkomer CO2 SwitchBot Meter Pro | 42.50 € | **49.50 €** | 15.6 % | **34.7 %** | 49.90 € | cena podľa najlacnejšieho iného predajcu |
-| Solight cestovná nabíjačka 3v1, MagSafe kompatibilná | 25.00 € | **31.00 €** | 32.1 % | **63.8 %** | 31.50 € | cena podľa najlacnejšieho iného predajcu |
-| Niceboy Beans 5 POP White | 28.90 € | **34.50 €** | 10.2 % | **31.5 %** | 34.58 € | cena podľa najlacnejšieho iného predajcu |
-| Prenosný monitor Uperfect UGame C2 16" 2560x1600 120Hz | 169.50 € | **174.90 €** | 15.1 % | **18.8 %** | 174.91 € | cena podľa najlacnejšieho iného predajcu |
-| SUNLU vysokorýchlostný PLA+ filament, čierny | 12.90 € | **18.00 €** | 14.6 % | **59.9 %** | 18.49 € | cena podľa najlacnejšieho iného predajcu |
-| Podpora pozadia pre fotoštúdio Puluz 200x200 cm DCA0975 | 29.00 € | **34.00 €** | 31.8 % | **54.5 %** | 34.32 € | cena podľa najlacnejšieho iného predajcu |
-| Mixér G21 Perfection v hnedej farbe | 203.50 € | **208.50 €** | 13.8 % | **16.6 %** | 208.90 € | cena podľa najlacnejšieho iného predajcu |
-| Žehlička Leifheit Žehl. prkno 76210 | 65.50 € | **70.00 €** | 10.6 % | **18.2 %** | 70.26 € | cena podľa najlacnejšieho iného predajcu |
-| Súprava 4 filtrov ND-PL 4/8/16/32 Sunnylife pre DJI ... | 23.00 € | **27.50 €** | 14.7 % | **37.2 %** | 27.85 € | cena podľa najlacnejšieho iného predajcu |
-| Skaner 3D Creality RaptorX | 2819.50 € | **2824.00 €** | 15.9 % | **16.1 %** | 2824.40 € | cena podľa najlacnejšieho iného predajcu |
-| Žehliaca doska Tefal IB5100E0 | 89.90 € | **94.00 €** | 5.4 % | **10.2 %** | 94.39 € | cena podľa najlacnejšieho iného predajcu |
-| Tefal RK812110 | 104.90 € | **109.00 €** | 5.2 % | **9.3 %** | 109.40 € | cena podľa najlacnejšieho iného predajcu |
-| Vibračný tester Uni-T UT315A | 317.50 € | **321.50 €** | 18.2 % | **19.7 %** | 321.59 € | cena podľa najlacnejšieho iného predajcu |
-| Vibračný tester Uni-T UT312A | 291.00 € | **295.00 €** | 17.8 % | **19.4 %** | 295.09 € | cena podľa najlacnejšieho iného predajcu |
-| JBL Xtreme 3 čierny | 187.90 € | **191.90 €** | 9.9 % | **12.2 %** | 192.00 € | cena podľa najlacnejšieho iného predajcu |
-| Nástenná nabíjačka Besen BS20 11 kW APP pre elektrom... | 343.50 € | **347.50 €** | 19.9 % | **21.3 %** | 347.79 € | cena podľa najlacnejšieho iného predajcu |
-| Amica SHC 5865 W | 276.90 € | **280.50 €** | 10.1 % | **11.5 %** | 280.81 € | cena podľa najlacnejšieho iného predajcu |
-| Stĺpcový filter Solight pre vysávač Dyson V12 | 5.90 € | **9.50 €** | 24.3 % | **100.1 %** | 9.51 € | cena podľa najlacnejšieho iného predajcu |
-| Kamerový set Kruger&Matz KM2240 Connect C200 Tuya Wi-Fi | 164.50 € | **168.00 €** | 12.0 % | **14.4 %** | 168.01 € | cena podľa najlacnejšieho iného predajcu |
-| Makro blesk GODOX MF12 | 113.50 € | **117.00 €** | 14.5 % | **18.0 %** | 117.08 € | cena podľa najlacnejšieho iného predajcu |
-| Meteorologická stanice s 24hod /7denní predpoveďou G... | 273.50 € | **277.00 €** | 5.8 % | **7.2 %** | 277.09 € | cena podľa najlacnejšieho iného predajcu |
-| FIXED pouzdro SD S26 FE FIXOP3-1707-BK | 12.00 € | **15.50 €** | 10.9 % | **43.2 %** | 15.85 € | cena podľa najlacnejšieho iného predajcu |
-| IMOU N110W 10-kanálový IP videorekordér | 79.00 € | **82.50 €** | 14.3 % | **19.3 %** | 82.89 € | cena podľa najlacnejšieho iného predajcu |
-| SUNLU PLA Classic filament, sivý | 11.00 € | **14.50 €** | 12.9 % | **48.8 %** | 14.90 € | cena podľa najlacnejšieho iného predajcu |
-| G21 nôž Damascus Premium 13 cm | 41.50 € | **45.00 €** | 6.1 % | **15.0 %** | 45.49 € | cena podľa najlacnejšieho iného predajcu |
-| GARNI GAR 191 USB datalogger pro meranie teploty a r... | 79.50 € | **82.90 €** | 16.6 % | **21.6 %** | 82.94 € | cena podľa najlacnejšieho iného predajcu |
-| Tesla MediaBox XG500 | 59.50 € | **62.90 €** | 5.5 % | **11.5 %** | 63.00 € | cena podľa najlacnejšieho iného predajcu |
-| Solight alkohol tester mini, Fuel Cell, 0,0 - 5,0‰ B... | 39.00 € | **42.00 €** | 28.6 % | **38.5 %** | 42.21 € | cena podľa najlacnejšieho iného predajcu |
-| SUNLU PLA Classic filament, čierny | 10.50 € | **13.50 €** | 16.9 % | **50.4 %** | 13.84 € | cena podľa najlacnejšieho iného predajcu |
-| Barkan 3400LB, 4 pohybový prodloužený do 600x400 mm,... | 62.50 € | **65.50 €** | 24.0 % | **30.0 %** | 65.90 € | cena podľa najlacnejšieho iného predajcu |
-| Olovená batéria 6V / 12Ah XTREME / Enerwell bezúdržb... | 11.90 € | **14.50 €** | 16.3 % | **41.7 %** | 14.86 € | cena podľa najlacnejšieho iného predajcu |
-| Sunnylife A3S-FI928 4ks súprava filtrov objektívu pr... | 11.00 € | **13.50 €** | 14.5 % | **40.5 %** | 13.90 € | cena podľa najlacnejšieho iného predajcu |
-| Presný kliešťový multimeter Uni-T 60A UT211B | 105.50 € | **108.00 €** | 9.7 % | **12.3 %** | 108.49 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED solárne svetlo so senzorom, 9W, 850lm, 4... | 19.50 € | **21.90 €** | 19.9 % | **34.7 %** | 21.92 € | cena podľa najlacnejšieho iného predajcu |
-| Huanuo HNCM9 13-32" monitor mount | 29.50 € | **31.90 €** | 12.3 % | **21.5 %** | 31.97 € | cena podľa najlacnejšieho iného predajcu |
-| Strojček na strihanie domácich zvierat Oneisall RFC-... | 34.90 € | **37.00 €** | 15.1 % | **22.0 %** | 37.42 € | cena podľa najlacnejšieho iného predajcu |
-| Boxovací pytel MMA DBX BUSHIDO 130 cm 40 kg | 131.90 € | **134.00 €** | 3.4 % | **5.1 %** | 133.79 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Domácí monitorovací systém TechnoLine MA10001 Starte... | 68.90 € | **71.00 €** | 5.1 % | **8.3 %** | 71.29 € | cena podľa najlacnejšieho iného predajcu |
-| Vysávač Electrolux EB61C4DB | 146.00 € | **148.00 €** | 6.8 % | **8.3 %** | 148.05 € | cena podľa najlacnejšieho iného predajcu |
-| Indukčná varná doska IsEasy LI3-17 | 152.50 € | **154.50 €** | 30.6 % | **32.3 %** | 154.59 € | cena podľa najlacnejšieho iného predajcu |
-| IsEasy LT5-04 Sklokeramická varná doska | 162.50 € | **164.50 €** | 21.2 % | **22.7 %** | 164.59 € | cena podľa najlacnejšieho iného predajcu |
-| Plynová varná doska ISEASY MGBG-775 s 5 horákmi (biela) | 152.50 € | **154.50 €** | 19.3 % | **20.9 %** | 154.59 € | cena podľa najlacnejšieho iného predajcu |
-| Huanuo HNDS8 double monitor mount 13-32" | 59.00 € | **61.00 €** | 20.0 % | **24.1 %** | 61.13 € | cena podľa najlacnejšieho iného predajcu |
-| WESTMARK 2094,2611 Nůžky na salát, 8 ks | 44.00 € | **46.00 €** | 10.2 % | **15.2 %** | 46.14 € | cena podľa najlacnejšieho iného predajcu |
-| Súprava 4 filtrov UV+CPL+ND4+ND8 Sunnylife pre DJI M... | 21.50 € | **23.50 €** | 18.9 % | **30.0 %** | 23.86 € | cena podľa najlacnejšieho iného predajcu |
-| Cyklotaška na zadné nosič 3in1 Trizand 25516 | 16.50 € | **18.50 €** | 9.4 % | **22.7 %** | 18.90 € | cena podľa najlacnejšieho iného predajcu |
-| Solight vonkajšia anténa, DVB-T2, 11dB | 16.00 € | **17.90 €** | 50.2 % | **68.0 %** | 17.99 € | cena podľa najlacnejšieho iného predajcu |
-| Slúchadlá Oneodio Pro10 (modré) | 24.90 € | **26.50 €** | 15.2 % | **22.6 %** | 26.65 € | cena podľa najlacnejšieho iného predajcu |
-| Inteligentný spínací modul ZigBee Avatto ZWSM16-W1 TUYA | 7.90 € | **9.50 €** | 15.3 % | **38.7 %** | 9.59 € | cena podľa najlacnejšieho iného predajcu |
-| Tréninkový prohnutý blok DBX BUSHIDO T 62 x 35 x 12 ... | 61.00 € | **62.50 €** | 2.8 % | **5.3 %** | 51.69 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Solight náhradné trubičky pre alkohol tester Solight... | 1.60 € | **3.10 €** | 30.1 % | **152.0 %** | 3.12 € | cena podľa najlacnejšieho iného predajcu |
-| Euhomy BR009-55,37 l chladiaci box na nápoje (čierny) | 137.50 € | **139.00 €** | 35.8 % | **37.2 %** | 139.04 € | cena podľa najlacnejšieho iného predajcu |
-| Vysávač DOMO DO252SV | 109.50 € | **111.00 €** | 8.8 % | **10.3 %** | 111.09 € | cena podľa najlacnejšieho iného predajcu |
-| Olovená batéria 12V / 7,5Ah XTREME / Enerwell bezúdr... | 14.50 € | **16.00 €** | 5.4 % | **16.4 %** | 16.09 € | cena podľa najlacnejšieho iného predajcu |
-| Slúchadlá Oneodio Pro10 (čierne) | 25.00 € | **26.50 €** | 14.8 % | **21.7 %** | 26.65 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit držiak kuchynských rolí ROLLY MO | 18.00 € | **19.50 €** | 22.1 % | **32.2 %** | 19.79 € | cena podľa najlacnejšieho iného predajcu |
-| Plynová varná doska IsEasy MGBS-765 z nehrdzavejúcej... | 127.50 € | **129.00 €** | 17.0 % | **18.4 %** | 129.29 € | cena podľa najlacnejšieho iného predajcu |
-| Kamera IP vnútorný Kruger&Matz Connect C25 2 K Tuya ... | 37.00 € | **38.50 €** | 21.8 % | **26.8 %** | 38.89 € | cena podľa najlacnejšieho iného predajcu |
-| Sklenená plynová varná doska IsEasy MGBG-604B | 118.50 € | **120.00 €** | 31.7 % | **33.3 %** | 120.39 € | cena podľa najlacnejšieho iného predajcu |
-| IsEasy T4-04 Sklokeramická varná doska | 114.00 € | **115.50 €** | 24.3 % | **25.9 %** | 115.89 € | cena podľa najlacnejšieho iného predajcu |
-| Vákuovačka G21 Nefrit | 116.00 € | **117.50 €** | 8.2 % | **9.6 %** | 117.90 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED reflektor TOP, 50W, max. 6500lm, 3CCT, v... | 10.50 € | **12.00 €** | 14.7 % | **31.1 %** | 12.50 € | cena podľa najlacnejšieho iného predajcu |
-| Mixér G3Ferrari G2016201 | 35.50 € | **36.90 €** | 11.5 % | **15.9 %** | 36.99 € | cena podľa najlacnejšieho iného predajcu |
-| Remoska® Europa Hluboká panvica 28cm | 37.50 € | **38.90 €** | 23.1 % | **27.7 %** | 39.00 € | cena podľa najlacnejšieho iného predajcu |
-| Niceboy Beans 5 POP Black | 28.90 € | **30.00 €** | 10.4 % | **14.6 %** | 30.34 € | cena podľa najlacnejšieho iného predajcu |
-| Niceboy Beans 5 POP Pink | 28.90 € | **30.00 €** | 10.4 % | **14.6 %** | 30.34 € | cena podľa najlacnejšieho iného predajcu |
-| Sada stavebních vozidel s příslušenstvím 26578 | 22.90 € | **24.00 €** | 13.8 % | **19.3 %** | 24.49 € | cena podľa najlacnejšieho iného predajcu |
-| Avatto SDL-V1-B100 100 mm digitálna cylindrická vlož... | 86.90 € | **88.00 €** | 15.2 % | **16.6 %** | 88.09 € | cena podľa najlacnejšieho iného predajcu |
-| Mini rúra GUZZANTI GZ 3601 | 96.90 € | **98.00 €** | 5.0 % | **6.2 %** | 98.18 € | cena podľa najlacnejšieho iného predajcu |
-| Termoska na jedlo G21,750 ml – eukalyptovo zelená | 23.50 € | **24.50 €** | 11.2 % | **15.9 %** | 24.59 € | cena podľa najlacnejšieho iného predajcu |
-| Termoska na jedlo G21,750 ml – pieskovo béžová | 23.50 € | **24.50 €** | 11.2 % | **15.9 %** | 24.59 € | cena podľa najlacnejšieho iného predajcu |
-| Inteligentný WiFi termostat Meross MTS215BMA(EU) | 64.00 € | **65.00 €** | 24.0 % | **26.0 %** | 65.09 € | cena podľa najlacnejšieho iného predajcu |
-| Vysávač akumulátorový TEESA TSA5055 SWEEPER 9000,2 v 1 | 91.50 € | **92.50 €** | 14.1 % | **15.3 %** | 92.59 € | cena podľa najlacnejšieho iného predajcu |
-| IsEasy LT2V-15 dvojzónová electric ceramic stove | 83.90 € | **84.90 €** | 27.9 % | **29.4 %** | 84.99 € | cena podľa najlacnejšieho iného predajcu |
-| Motor na ovládanie závesov SwitchBot Rod 2 (biely) | 53.90 € | **54.90 €** | 23.3 % | **25.6 %** | 55.00 € | cena podľa najlacnejšieho iného predajcu |
-| Digitálna cylindrická vložka zámku Avatto SDL-V1-S80... | 90.00 € | **91.00 €** | 15.4 % | **16.7 %** | 91.19 € | cena podľa najlacnejšieho iného predajcu |
-| Digitálna vložka zámku Avatto SDL-V1-B90 90 mm čierna | 90.00 € | **91.00 €** | 14.5 % | **15.8 %** | 91.19 € | cena podľa najlacnejšieho iného predajcu |
-| Laserový diaľkomer Uni-T LM600 | 71.50 € | **72.50 €** | 11.2 % | **12.8 %** | 72.69 € | cena podľa najlacnejšieho iného predajcu |
-| Súprava na prežitie LEVENHUK LabZZ SK40 | 43.00 € | **44.00 €** | 7.5 % | **10.0 %** | 44.19 € | cena podľa najlacnejšieho iného predajcu |
-| IsEasy MGBG-312S2C dvojzónový sklenený plynový sporá... | 83.00 € | **84.00 €** | 33.9 % | **35.5 %** | 84.19 € | cena podľa najlacnejšieho iného predajcu |
-| Plynová varná doska ISEASY MGBG-312A, 2 horáky (biela) | 79.50 € | **80.50 €** | 17.4 % | **18.9 %** | 80.69 € | cena podľa najlacnejšieho iného predajcu |
-| Fixed pouzdro SGA17 4G / 5G FIXOP3-1700-BK | 16.50 € | **17.50 €** | 52.4 % | **61.7 %** | 17.73 € | cena podľa najlacnejšieho iného predajcu |
-| Kapsulový kávovar 5 v 1 HiBREW H2B (biely) | 95.00 € | **96.00 €** | 23.5 % | **24.8 %** | 96.28 € | cena podľa najlacnejšieho iného predajcu |
-| Digitálna cylindrická vložka zámku Avatto SDL-V1-B60... | 79.50 € | **80.50 €** | 14.6 % | **16.1 %** | 80.79 € | cena podľa najlacnejšieho iného predajcu |
-| 4-kanálový teplomer Uni-T UT325F | 98.50 € | **99.50 €** | 8.5 % | **9.6 %** | 99.79 € | cena podľa najlacnejšieho iného predajcu |
-| Sušička potravín DOMO DO42602S | 38.50 € | **39.50 €** | 5.5 % | **8.2 %** | 39.79 € | cena podľa najlacnejšieho iného predajcu |
-| Fixed pouzdro ME60 F 5G FIXOP3-1564-BK | 12.00 € | **13.00 €** | 10.9 % | **20.1 %** | 13.32 € | cena podľa najlacnejšieho iného predajcu |
-| BOBOVR S3 Pro – popruh s batériou a ventilátorom pre... | 71.00 € | **72.00 €** | 20.4 % | **22.1 %** | 72.33 € | cena podľa najlacnejšieho iného predajcu |
-| Tesla GSM-LTE zesil. sig. 900 / 1800 MHz | 181.50 € | **182.50 €** | 21.4 % | **22.0 %** | 182.89 € | cena podľa najlacnejšieho iného predajcu |
-| IsEasy MGBG-603 trojzónový plynový sporák so sklenen... | 106.00 € | **107.00 €** | 19.4 % | **20.5 %** | 107.39 € | cena podľa najlacnejšieho iného predajcu |
-| Plynová varná doska ISEASY MGBG-603,3 horáky (biela) | 106.00 € | **107.00 €** | 12.3 % | **13.3 %** | 107.39 € | cena podľa najlacnejšieho iného predajcu |
-| Univerzálny prísavný držiak TELESIN s držiakom na te... | 14.50 € | **15.50 €** | 27.0 % | **35.8 %** | 15.90 € | cena podľa najlacnejšieho iného predajcu |
-| Prenosný monitor ZEUSLAP AP156 s uhlopriečkou 15,6" | 114.50 € | **115.50 €** | 12.9 % | **13.8 %** | 115.90 € | cena podľa najlacnejšieho iného predajcu |
-| ZEUSLAP Z14P 14-palcový prenosný monitor | 112.50 € | **113.50 €** | 12.8 % | **13.8 %** | 113.90 € | cena podľa najlacnejšieho iného predajcu |
-| Kryt FIXED pre Apple iPhone 13 | 17.50 € | **18.50 €** | 11.9 % | **18.3 %** | 18.90 € | cena podľa najlacnejšieho iného predajcu |
-| Kávovar AMZCHEF CE-EM3131-WT s piestovým mechanizmom... | 87.00 € | **88.00 €** | 21.7 % | **23.1 %** | 88.49 € | cena podľa najlacnejšieho iného predajcu |
-| TESLA Cook BBQ150 | 54.00 € | **54.90 €** | 11.5 % | **13.4 %** | 54.99 € | cena podľa najlacnejšieho iného predajcu |
-| Nabíjacia stanica FOSSIBOT FBP1200 1200 W (zelená) | 728.00 € | **728.90 €** | 9.1 % | **9.2 %** | 729.00 € | cena podľa najlacnejšieho iného predajcu |
-| Solight sieťový adaptér pre LED pásiky, 230V - 12V, ... | 6.60 € | **7.30 €** | 29.9 % | **43.7 %** | 7.37 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED mini panel CCT, prisazený, 18W, 1530lm, ... | 9.80 € | **10.50 €** | 18.0 % | **26.5 %** | 10.90 € | cena podľa najlacnejšieho iného predajcu |
-| Powerbanka EMOS NTBF20 / B0560B / , 20 000 mAh, 65 W... | 38.90 € | **39.50 €** | 4.6 % | **6.2 %** | 33.05 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Obdelníkový stropní držiak na boxovací pytel do 150 ... | 18.90 € | **19.50 €** | 4.0 % | **7.3 %** | 13.99 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Leifheit Set PowerClean M+náhr. zdarma | 19.90 € | **20.50 €** | 7.1 % | **10.3 %** | 20.89 € | cena podľa najlacnejšieho iného predajcu |
-| D-LINK 4G LTE USB Adaptér (DWM-222W) | 51.90 € | **52.50 €** | 10.3 % | **11.6 %** | 52.89 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED svietidlo pracovné, 120+40lm, 3W COB + 3... | 3.80 € | **4.40 €** | 49.2 % | **72.8 %** | 4.46 € | cena podľa najlacnejšieho iného predajcu |
-| Solight náhradný akumulátor typ 18650, 3,7V, Li-Ion,... | 4.10 € | **4.70 €** | 20.3 % | **37.9 %** | 4.80 € | cena podľa najlacnejšieho iného predajcu |
-| Laserový diaľkomer Uni-T LM1000A | 132.90 € | **133.50 €** | 16.4 % | **16.9 %** | 133.82 € | cena podľa najlacnejšieho iného predajcu |
-| Impregnácia na obuv INPRODUCTS 400 ml | 25.00 € | **25.50 €** | 4.6 % | **6.6 %** | 21.29 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Termoska BERGNER fľaša nerezová oceľ 0,5 l sivá | 15.00 € | **15.50 €** | 3.8 % | **7.2 %** | 15.07 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Impregnácia na kožené odevy INPRODUCTS WAX 200 ml | 17.00 € | **17.50 €** | 4.0 % | **7.1 %** | 17.10 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Sada na selfie Neewer SRP18C s priemerom 17 cm a okr... | 165.00 € | **165.50 €** | 39.0 % | **39.4 %** | 165.51 € | cena podľa najlacnejšieho iného predajcu |
-| Solight GSM alarm, pohybový senzor, diaľk. ovl., biely | 70.50 € | **71.00 €** | 37.4 % | **38.4 %** | 71.04 € | cena podľa najlacnejšieho iného predajcu |
-| Vysávač TP-Link Tapo RV30 Max v bielej farbe robotic... | 141.50 € | **142.00 €** | 6.6 % | **7.0 %** | 142.04 € | cena podľa najlacnejšieho iného predajcu |
-| Digitálna cylindrická vložka zámku Avatto SDL-V1-S70... | 93.50 € | **94.00 €** | 14.2 % | **14.9 %** | 94.08 € | cena podľa najlacnejšieho iného predajcu |
-| Držiak na bicykel Sunnylife pre ovládač DJI RC 2 (ZJ... | 16.00 € | **16.50 €** | 14.8 % | **18.4 %** | 16.58 € | cena podľa najlacnejšieho iného predajcu |
-| Svietidlá do skrinky Yeelight Ultra-Thin Intelligent... | 38.00 € | **38.50 €** | 38.4 % | **40.2 %** | 38.59 € | cena podľa najlacnejšieho iného predajcu |
-| Aróma difuzér Sixtol Palm sivý lesk 500 ml | 21.50 € | **22.00 €** | 6.8 % | **9.3 %** | 22.09 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit sušiak na bielizeň Pegasus Bath 19 | 30.00 € | **30.50 €** | 6.5 % | **8.2 %** | 30.59 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED žiarivka lineárna PRO+, T8, 22W, 3080lm,... | 15.00 € | **15.50 €** | 12.9 % | **16.7 %** | 15.59 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED žiarivka lineárna T8, 22W, 3080lm, 4000K... | 15.00 € | **15.50 €** | 327.9 % | **342.2 %** | 15.59 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED žiarivka lineárna T8, 22W, 3080lm, 6000K... | 15.00 € | **15.50 €** | 327.9 % | **342.2 %** | 15.59 € | cena podľa najlacnejšieho iného predajcu |
-| Digitálny multimeter UNI-T UT118B | 27.50 € | **28.00 €** | 15.6 % | **17.7 %** | 28.09 € | cena podľa najlacnejšieho iného predajcu |
-| Profesionálny digitálny multimeter UNI-T UT191E | 56.00 € | **56.50 €** | 5.1 % | **6.1 %** | 56.59 € | cena podľa najlacnejšieho iného predajcu |
-| Inteligentný WiFi detektor dymu Meross GS559A (HomeKit) | 23.00 € | **23.50 €** | 11.7 % | **14.1 %** | 23.59 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit Podlahový mop Picobello M Micro | 19.50 € | **20.00 €** | 11.2 % | **14.0 %** | 20.09 € | cena podľa najlacnejšieho iného predajcu |
-| ZEUSLAP Z14Lite 14-palcový prenosný monitor | 114.50 € | **115.00 €** | 13.4 % | **13.9 %** | 115.10 € | cena podľa najlacnejšieho iného predajcu |
-| Akčná kamera SJCAM C200 Pro | 124.50 € | **125.00 €** | 8.9 % | **9.4 %** | 125.12 € | cena podľa najlacnejšieho iného predajcu |
-| Solight detektor dymu s WIFI pripojením | 17.50 € | **18.00 €** | 33.6 % | **37.4 %** | 18.13 € | cena podľa najlacnejšieho iného predajcu |
-| Resto 93323 panvica Sagitta 20 cm | 14.50 € | **15.00 €** | 13.7 % | **17.6 %** | 15.14 € | cena podľa najlacnejšieho iného predajcu |
-| Helmet držiak Puluz for action cameras (DJI, GoPro, ... | 17.50 € | **18.00 €** | 14.3 % | **17.5 %** | 18.17 € | cena podľa najlacnejšieho iného predajcu |
-| Puluz 50 cm LED stan bez tienidla PU5051EU | 43.00 € | **43.50 €** | 15.1 % | **16.4 %** | 43.67 € | cena podľa najlacnejšieho iného predajcu |
-| Bezdrôtový adaptér Ottocast CA525-T3 | 27.50 € | **28.00 €** | 23.3 % | **25.5 %** | 28.19 € | cena podľa najlacnejšieho iného predajcu |
-| Solight digitálny kapesny kompresor mini | 38.50 € | **39.00 €** | 16.8 % | **18.3 %** | 39.19 € | cena podľa najlacnejšieho iného predajcu |
-| Mixér G21 VitalStick 800 W, červeno-čierne vyhotovenie | 46.50 € | **47.00 €** | 9.0 % | **10.2 %** | 47.19 € | cena podľa najlacnejšieho iného predajcu |
-| Mixér G21 VitalStick 800 W, v čiernej farbe | 46.50 € | **47.00 €** | 9.0 % | **10.2 %** | 47.19 € | cena podľa najlacnejšieho iného predajcu |
-| Solight flexo šnúra, 5m, 3 x 2.5mm2, gumová H07RN-F3... | 16.00 € | **16.50 €** | 6.4 % | **9.7 %** | 16.69 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit držiak fólií (rolí) PARAT ROYAL | 31.50 € | **32.00 €** | 10.5 % | **12.2 %** | 32.29 € | cena podľa najlacnejšieho iného predajcu |
-| Podpera pozadia pre fotoštúdio Puluz 2x2 m + pozadia... | 41.50 € | **42.00 €** | 15.2 % | **16.6 %** | 42.38 € | cena podľa najlacnejšieho iného predajcu |
-| Uni-T UT320T 2-v-1 teplomer | 33.00 € | **33.50 €** | 7.2 % | **8.8 %** | 33.89 € | cena podľa najlacnejšieho iného predajcu |
-| Blesk Neewer Z880-S s lítiovou batériou | 165.50 € | **165.90 €** | 39.5 % | **39.8 %** | 165.92 € | cena podľa najlacnejšieho iného predajcu |
-| Solight flexo šnúra, 2.5m, 3 x 2.5mm2, gumová H07RN-... | 9.50 € | **9.90 €** | 19.7 % | **24.8 %** | 9.97 € | cena podľa najlacnejšieho iného predajcu |
-| Inteligentný spínací modul ZigBee Avatto LZWSM16-W2 ... | 11.50 € | **11.90 €** | 29.1 % | **33.6 %** | 11.99 € | cena podľa najlacnejšieho iného predajcu |
-| Súprava na prežitie LEVENHUK LabZZ SK20 | 24.50 € | **24.90 €** | 4.8 % | **6.5 %** | 24.00 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Olovená batéria 12V / 17 Ah MHPower MS17-12 | 28.50 € | **28.90 €** | 9.7 % | **11.2 %** | 28.91 € | cena podľa najlacnejšieho iného predajcu |
-| Cycplus AS220 PRO POCKET 2 PRO AIRBANK – mini pumpa ... | 55.50 € | **55.90 €** | 35.5 % | **36.5 %** | 55.91 € | cena podľa najlacnejšieho iného predajcu |
-| ELECTROLUX ZE064 | 29.50 € | **29.90 €** | 9.6 % | **11.1 %** | 29.92 € | cena podľa najlacnejšieho iného predajcu |
-| Aróma difuzér Sixtol Vulcan tmavé drevo 350 ml | 17.50 € | **17.90 €** | 7.5 % | **9.9 %** | 17.99 € | cena podľa najlacnejšieho iného predajcu |
-| Solight flexo šnúra, 3x 1,5mm2, gumová, čierna, 2,5m | 6.30 € | **6.60 €** | 21.1 % | **26.9 %** | 6.63 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod, 6 zásuviek, biely, vypín... | 5.10 € | **5.30 €** | 30.8 % | **35.9 %** | 5.33 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod, 3 zásuvky, biely, vypína... | 5.50 € | **5.70 €** | 25.6 % | **30.2 %** | 5.75 € | cena podľa najlacnejšieho iného predajcu |
-| Blesk Neewer Q4 s batériou | 389.90 € | **390.00 €** | 38.6 % | **38.7 %** | 390.09 € | cena podľa najlacnejšieho iného predajcu |
-| Kamera Ezviz H3c 3 K vonkajší IP, 5MP, 2.8 mm, WiFi | 48.90 € | **49.00 €** | 4.8 % | **5.0 %** | 47.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| PC skrinka Darkflash DK351+ so 4 ventilátormi, čierna | 50.90 € | **51.00 €** | 39.9 % | **40.1 %** | 51.01 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod, 4 zásuvky, biely, vypína... | 9.70 € | **9.80 €** | 28.2 % | **29.6 %** | 9.89 € | cena podľa najlacnejšieho iného predajcu |
-| Vonkajšia vianočná LED reťaz Solight 1V53-W, 5 m, st... | 3.50 € | **3.60 €** | 55.5 % | **59.9 %** | 3.64 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod - spojka, 1 zásuvka, 3m, ... | 3.60 € | **3.70 €** | 15.7 % | **18.9 %** | 3.79 € | cena podľa najlacnejšieho iného predajcu |
-| Hasicí přístroj práškový 1 kg ABC | 14.90 € | **15.00 €** | 5.0 % | **5.7 %** | 12.98 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Solight LED kuchynské svietidlo T5, vypínač, 9W, 410... | 8.30 € | **8.40 €** | 13.8 % | **15.2 %** | 8.49 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3... | 5.20 € | **5.30 €** | 20.4 % | **22.8 %** | 5.39 € | cena podľa najlacnejšieho iného predajcu |
-| Vonkajšia vianočná LED reťaz Solight 1V110-M, 5 m, v... | 5.00 € | **5.10 €** | 23.9 % | **26.4 %** | 5.19 € | cena podľa najlacnejšieho iného predajcu |
-| Solight multimeter, max. AC 600V, max. DC 600V / 10A... | 6.50 € | **6.60 €** | 20.7 % | **22.5 %** | 6.69 € | cena podľa najlacnejšieho iného predajcu |
-| Inteligentný prepínač WiFi WiFi Sonoff Dual R3 Lite | 11.90 € | **12.00 €** | 30.4 % | **31.5 %** | 12.09 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod, 6 zásuviek, biely, vypín... | 4.90 € | **5.00 €** | 18.6 % | **21.0 %** | 5.09 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED čelové nabíjacie svietidlo, 3W + COB, 15... | 9.00 € | **9.10 €** | 10.5 % | **11.8 %** | 9.19 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED svetelný pás s testrom, 5m, sada s 12V a... | 10.90 € | **11.00 €** | 24.8 % | **26.0 %** | 11.39 € | cena podľa najlacnejšieho iného predajcu |
-| Hyper PETG Creality filament (priehľadnýný) | 13.90 € | **14.00 €** | 14.7 % | **15.6 %** | 14.42 € | cena podľa najlacnejšieho iného predajcu |
-| Olovená batéria 12V / 3,4Ah XTREME bezúdržbový akumu... | 10.90 € | **11.00 €** | 12.0 % | **13.1 %** | 11.49 € | cena podľa najlacnejšieho iného predajcu |
-| Herný volant PXN-V3 pre PC, PS3, PS4, Xbox One a Switch | 66.90 € | **67.00 €** | 30.4 % | **30.6 %** | 67.01 € | cena podľa najlacnejšieho iného predajcu |
-| Paddleboard SUP REBEL ACTIVE RBA-4501-WH 11'6" 350x8... | 165.90 € | **166.00 €** | 15.4 % | **15.5 %** | 166.36 € | cena podľa najlacnejšieho iného predajcu |
-| Kávovar na kapsule HiBREW H2B 5 v 1 (sivý) | 106.90 € | **107.00 €** | 27.3 % | **27.4 %** | 107.38 € | cena podľa najlacnejšieho iného predajcu |
-| Menič napätia GETI GPIU 1012S 12V/230V 1000W | 151.90 € | **152.00 €** | 5.4 % | **5.5 %** | 152.39 € | cena podľa najlacnejšieho iného predajcu |
+| CATLINK Scooper Luxury ProX – samočistiaca toaleta p... | 521.90 € | **656.90 €** | 15.0 % | **44.8 %** | 657.00 € | cena podľa najlacnejšieho iného predajcu |
+| Základňa volantu PXN VD10 (PC Windows) | 325.90 € | **358.90 €** | 15.0 % | **26.7 %** | 359.00 € | cena podľa najlacnejšieho iného predajcu |
+| Počítačová skriňa Darkflash C305 ATX (biela) | 82.50 € | **106.90 €** | 15.3 % | **49.4 %** | 107.00 € | cena podľa najlacnejšieho iného predajcu |
+| Zelmer ZMM3512B | 96.00 € | **116.00 €** | 27.4 % | **54.0 %** | 116.29 € | cena podľa najlacnejšieho iného predajcu |
+| CATLINK C08 – Schody | 51.90 € | **69.50 €** | 15.1 % | **54.2 %** | 69.90 € | cena podľa najlacnejšieho iného predajcu |
+| CATLINK C08 Schodíky k toaletnému košu | 51.90 € | **69.50 €** | 15.1 % | **54.2 %** | 69.90 € | cena podľa najlacnejšieho iného predajcu |
+| Ultima Poseidon D60 Soundbar | 169.50 € | **183.50 €** | 9.5 % | **18.5 %** | 183.79 € | cena podľa najlacnejšieho iného predajcu |
+| Súprava príslušenstva pre Dreame D20 | 51.00 € | **62.90 €** | 15.0 % | **41.8 %** | 63.00 € | cena podľa najlacnejšieho iného predajcu |
+| KMP H-T259C (HP W2071A Cyan) | 32.50 € | **43.90 €** | 11.2 % | **50.2 %** | 43.99 € | cena podľa najlacnejšieho iného predajcu |
+| KMP H-T259Y (HP W2072A Yellow) | 32.50 € | **43.90 €** | 11.2 % | **50.2 %** | 43.99 € | cena podľa najlacnejšieho iného predajcu |
+| KMP H-T259M (HP W2073A Magenta) | 32.50 € | **43.90 €** | 11.2 % | **50.2 %** | 43.99 € | cena podľa najlacnejšieho iného predajcu |
+| JBL Easy sing mic mini | 143.00 € | **154.00 €** | 12.9 % | **21.6 %** | 154.46 € | cena podľa najlacnejšieho iného predajcu |
+| Odstraňovač čiernych bodiek s kamerou inFace CF-05E ... | 20.00 € | **30.90 €** | 40.1 % | **116.4 %** | 30.99 € | cena podľa najlacnejšieho iného predajcu |
+| Čistiaca sada MOVA pre model E40 Ultra | 35.90 € | **45.00 €** | 15.3 % | **44.5 %** | 45.45 € | cena podľa najlacnejšieho iného predajcu |
+| KMP H-T259B (HP W2070A Black) | 32.50 € | **40.90 €** | 11.2 % | **39.9 %** | 40.99 € | cena podľa najlacnejšieho iného predajcu |
+| Sklenená plynová varná doska IsEasy MGBG-654A | 129.00 € | **136.90 €** | 29.6 % | **37.5 %** | 137.00 € | cena podľa najlacnejšieho iného predajcu |
+| IsEasy MGBG-604B štvorzónový plynový sporák so sklen... | 129.00 € | **136.90 €** | 37.7 % | **46.1 %** | 137.00 € | cena podľa najlacnejšieho iného predajcu |
+| Hoverboard Rebel Cruiser Joy | 175.00 € | **182.50 €** | 33.8 % | **39.5 %** | 182.88 € | cena podľa najlacnejšieho iného predajcu |
+| Súprava príslušenstva pre Dreame L50 Ultra AE | 67.90 € | **74.90 €** | 15.1 % | **26.9 %** | 75.00 € | cena podľa najlacnejšieho iného predajcu |
+| Súprava príslušenstva pre Dreame L50s Pro Ultra | 67.90 € | **74.90 €** | 15.1 % | **26.9 %** | 75.00 € | cena podľa najlacnejšieho iného predajcu |
+| Carrera Rozšiřující set 3 | 47.50 € | **54.00 €** | 96.6 % | **123.5 %** | 54.21 € | cena podľa najlacnejšieho iného predajcu |
+| Stepper na podstielku Petkit | 27.00 € | **33.00 €** | 14.3 % | **39.7 %** | 33.50 € | cena podľa najlacnejšieho iného predajcu |
+| Kryt na toaletu pre mačky Petkit Hood | 30.90 € | **36.00 €** | 15.3 % | **34.4 %** | 36.48 € | cena podľa najlacnejšieho iného predajcu |
+| Gorenje MO 20 A3B | 72.90 € | **77.50 €** | 5.3 % | **12.0 %** | 77.80 € | cena podľa najlacnejšieho iného predajcu |
+| Laserový diaľkomer Uni-T LM1500G | 225.00 € | **229.50 €** | 17.3 % | **19.7 %** | 229.90 € | cena podľa najlacnejšieho iného predajcu |
+| Paddleboard SUP REBEL ACTIVE RBA-4512 PRO TOURING 38... | 291.50 € | **295.90 €** | 11.2 % | **12.9 %** | 295.99 € | cena podľa najlacnejšieho iného predajcu |
+| Epson EcoTank L3350 | 188.90 € | **192.50 €** | 9.7 % | **11.8 %** | 192.90 € | cena podľa najlacnejšieho iného predajcu |
+| Akčná kamera SJCAM C200 Pro | 125.00 € | **128.50 €** | 9.4 % | **12.4 %** | 128.54 € | cena podľa najlacnejšieho iného predajcu |
+| FIXED kryt SG S26 Ultra FIXFLM-1706-BL | 20.00 € | **23.50 €** | 13.4 % | **33.2 %** | 23.82 € | cena podľa najlacnejšieho iného predajcu |
+| Stabilizátor AOCHUAN X Pro s RGB osvetlením (sivý) | 60.50 € | **64.00 €** | 16.0 % | **22.7 %** | 64.50 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED nabíjacia lampička 3v1, 280lm, zmena CCT... | 16.90 € | **20.00 €** | 23.9 % | **46.6 %** | 20.45 € | cena podľa najlacnejšieho iného predajcu |
+| Bezdrôtový robot na čistenie bazénov Wybot A1 | 176.00 € | **178.90 €** | 17.5 % | **19.5 %** | 178.91 € | cena podľa najlacnejšieho iného predajcu |
+| Garett ROSE Gold Mesh Steel | 64.90 € | **67.50 €** | 5.2 % | **9.4 %** | 67.56 € | cena podľa najlacnejšieho iného predajcu |
+| Laserový gravír XTOOL M2 Deluxe 20 W | 1441.00 € | **1443.50 €** | 7.2 % | **7.4 %** | 1443.51 € | cena podľa najlacnejšieho iného predajcu |
+| Salente Hotair-Wh | 59.50 € | **62.00 €** | 10.3 % | **14.9 %** | 62.10 € | cena podľa najlacnejšieho iného predajcu |
+| Petkit Sítko na stelivo | 12.00 € | **14.50 €** | 13.0 % | **36.6 %** | 14.90 € | cena podľa najlacnejšieho iného predajcu |
+| Petkit Sítko na stelivo | 12.00 € | **14.50 €** | 13.0 % | **36.6 %** | 14.90 € | cena podľa najlacnejšieho iného predajcu |
+| FM Transmitter Baseus S-09 Pro, Bluetooth (čierny) | 18.50 € | **20.90 €** | 96.4 % | **121.8 %** | 20.99 € | cena podľa najlacnejšieho iného predajcu |
+| Maxxo HiFi Tuner TR05 | 138.00 € | **140.00 €** | 9.9 % | **11.5 %** | 140.07 € | cena podľa najlacnejšieho iného predajcu |
+| REBEL ACTIVE RBA-1014 bežecký pás | 199.50 € | **201.50 €** | 51.7 % | **53.2 %** | 201.63 € | cena podľa najlacnejšieho iného predajcu |
+| Barkan S320. B - natáčecí stojan pro TV (29-58'' 25k... | 60.00 € | **62.00 €** | 19.1 % | **23.1 %** | 62.29 € | cena podľa najlacnejšieho iného predajcu |
+| Vodotesný batoh na fotoaparát Puluz PU5011B (čierny) | 21.50 € | **23.50 €** | 15.9 % | **26.7 %** | 23.87 € | cena podľa najlacnejšieho iného predajcu |
+| MERACH MR-2354B2 Stepper (Black) | 59.50 € | **61.50 €** | 19.5 % | **23.5 %** | 61.90 € | cena podľa najlacnejšieho iného predajcu |
+| Zastrihávač / zastrihávač domácich zvierat Oneisall ... | 21.50 € | **23.00 €** | 14.7 % | **22.7 %** | 23.08 € | cena podľa najlacnejšieho iného predajcu |
+| Odšťavovač G21 Chamberi horizontal | 155.50 € | **157.00 €** | 8.7 % | **9.8 %** | 157.12 € | cena podľa najlacnejšieho iného predajcu |
+| Guzzanti GZ 90A1 | 129.00 € | **130.50 €** | 7.1 % | **8.3 %** | 130.65 € | cena podľa najlacnejšieho iného predajcu |
+| Zastrihávač / zastrihávač zvierat Oneisall X2 | 22.00 € | **23.50 €** | 13.8 % | **21.5 %** | 23.75 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED stropné svetlo štvorcové Treviso, 48W, 2... | 58.00 € | **59.50 €** | 33.8 % | **37.3 %** | 59.89 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED solárne svetlo so senzorom, 11W, 1200lm,... | 26.90 € | **28.00 €** | 18.3 % | **23.2 %** | 28.27 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED mini panel kúpeľňový 2v1, 3CCT, podhľado... | 6.80 € | **7.90 €** | 17.6 % | **36.7 %** | 7.98 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED osvetlenie s diaľkovým ovládačom Iron Oa... | 35.00 € | **36.00 €** | 34.3 % | **38.1 %** | 36.01 € | cena podľa najlacnejšieho iného predajcu |
+| KMP H96BX (HP 305XL Black) | 17.90 € | **18.90 €** | 12.3 % | **18.6 %** | 18.99 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED osvetlenie s diaľkovým ovládačom Iron Oa... | 43.00 € | **44.00 €** | 34.5 % | **37.6 %** | 44.17 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED stropné osvetlenie prisadené kulaté, 48W... | 38.50 € | **39.50 €** | 33.7 % | **37.2 %** | 39.78 € | cena podľa najlacnejšieho iného predajcu |
+| 3D tlačiareň Anycubic Photon Mono M7 Max | 694.50 € | **695.50 €** | 12.6 % | **12.7 %** | 695.84 € | cena podľa najlacnejšieho iného predajcu |
+| Wireless controler GameSir T4n (white) | 25.50 € | **26.50 €** | 19.3 % | **24.0 %** | 26.84 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED žiarovka, klasický tvar, 15W, E27, 4000K... | 1.80 € | **2.70 €** | 39.4 % | **109.1 %** | 2.76 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED napájací zdroj, 230V - 12V, 5A, 60W, IP65 | 25.00 € | **25.90 €** | 48.9 % | **54.3 %** | 25.93 € | cena podľa najlacnejšieho iného predajcu |
+| Solight pracovná nabíjacia LED lampa, 500lm + 70lm, ... | 14.00 € | **14.50 €** | 49.0 % | **54.3 %** | 14.52 € | cena podľa najlacnejšieho iného predajcu |
+| Činky REBEL ACTIVE RBA-2330-2 liatinové neoprénové H... | 16.00 € | **16.50 €** | 37.9 % | **42.3 %** | 16.54 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED vonkajšie osvetlenie so senzorom a nasta... | 18.00 € | **18.50 €** | 34.1 % | **37.9 %** | 18.55 € | cena podľa najlacnejšieho iného predajcu |
+| Pamäťová karta Lexar microSD 3.0,64 GB | 18.00 € | **18.50 €** | 6.7 % | **9.7 %** | 18.60 € | cena podľa najlacnejšieho iného predajcu |
+| PetKit Eversweet SOLO SE fontána pre psov a mačky (t... | 34.50 € | **35.00 €** | 10.0 % | **11.6 %** | 35.14 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED kúpeľňové osvetlenie nad zrkadlo 3v1, 7W... | 19.00 € | **19.50 €** | 33.4 % | **36.9 %** | 19.68 € | cena podľa najlacnejšieho iného predajcu |
+| Maxxo Chamber Line 70 | 350.00 € | **350.50 €** | 6.7 % | **6.8 %** | 350.73 € | cena podľa najlacnejšieho iného predajcu |
+| Yeelight Svetlo do skrine 40 cm (strieborné) 2700K | 12.50 € | **13.00 €** | 20.0 % | **24.8 %** | 13.29 € | cena podľa najlacnejšieho iného predajcu |
+| Pamäťová karta Lexar Professional 800x Pro SDXC 256GD | 83.00 € | **83.50 €** | 17.6 % | **18.3 %** | 83.80 € | cena podľa najlacnejšieho iného predajcu |
+| Fixed puzdro SG A36 5G FIXOP3-1502-BRW | 12.50 € | **13.00 €** | 15.5 % | **20.1 %** | 13.31 € | cena podľa najlacnejšieho iného predajcu |
+| Black&Decker BXSH2003E | 27.00 € | **27.50 €** | 16.5 % | **18.6 %** | 27.82 € | cena podľa najlacnejšieho iného predajcu |
+| PULUZ Gimbal pre DJI Osmo Action 5 Pro / 4 / 3 (čierny) | 11.00 € | **11.50 €** | 13.3 % | **18.5 %** | 11.90 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED smart stropné svetlo Wave, 30W, 2300lm, ... | 46.50 € | **47.00 €** | 34.4 % | **35.9 %** | 47.50 € | cena podľa najlacnejšieho iného predajcu |
+| USB kľúč Lexar JumpDrive M400,32 GB, USB 3.0 | 10.50 € | **11.00 €** | 8.9 % | **14.1 %** | 11.50 € | cena podľa najlacnejšieho iného predajcu |
+| LED čelovka Cattara STRIP SENSOR 350lm nabíjacia | 11.50 € | **11.90 €** | 5.8 % | **9.4 %** | 12.00 € | cena podľa najlacnejšieho iného predajcu |
+| NEDIS WIFIZBT10CWT chytrá brána ZigBee 3.0 do zásuvk... | 26.50 € | **26.90 €** | 5.0 % | **6.6 %** | 26.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Solight LED žiarovka, klasický tvar, 10W, E27, 4000K... | 1.30 € | **1.60 €** | 42.8 % | **75.8 %** | 1.69 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED nabíjacia lampička Lucca, 120lm, zmena C... | 9.50 € | **9.70 €** | 33.9 % | **36.7 %** | 9.80 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED nabíjacia lampička Lucca, 120lm, zmena C... | 9.50 € | **9.70 €** | 33.9 % | **36.7 %** | 9.80 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED SMD RGB pásik, sada s adaptérom, 3m, dia... | 19.90 € | **20.00 €** | 44.2 % | **44.9 %** | 20.01 € | cena podľa najlacnejšieho iného predajcu |
+| Solight nástenná lampička CELE, 1x GU10, čierna | 9.70 € | **9.80 €** | 34.6 % | **36.0 %** | 9.90 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED osvetlenie Gari, 44W, 3960lm, 3CCT, IP65... | 19.90 € | **20.00 €** | 34.4 % | **35.1 %** | 20.45 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED osvetlenie Gari, 44W, 3960lm, 3CCT, IP65... | 19.90 € | **20.00 €** | 34.4 % | **35.1 %** | 20.45 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED solárne svetlo so senzorom, 9W, 850lm, 4... | 21.90 € | **22.00 €** | 34.7 % | **35.3 %** | 22.47 € | cena podľa najlacnejšieho iného predajcu |
+| Solight nočné LED svetielko s pohybovým a svetelným ... | 7.80 € | **7.90 €** | 46.1 % | **48.0 %** | 7.98 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED žiarovka, bodová , 5W, GU10, 6000K, 425l... | 1.00 € | **1.10 €** | 31.1 % | **44.2 %** | 1.11 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED nabíjacie vreckové svietidlo, 120lm, Li-... | 2.40 € | **2.50 €** | 44.5 % | **50.6 %** | 2.56 € | cena podľa najlacnejšieho iného predajcu |
+| Ratanová LED hviezda Solight 1V246, 40 cm, 40 LED, 2... | 3.30 € | **3.40 €** | 19.8 % | **23.4 %** | 3.49 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED žiarovka, klasický tvar, 15W, E27, 3000K... | 1.80 € | **1.90 €** | 39.4 % | **47.1 %** | 1.91 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED žiarovka, klasický tvar, 15W, E27, 6000K... | 1.80 € | **1.90 €** | 39.4 % | **47.1 %** | 1.91 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED nabíjacia žiarovka Camping, 100lm, Li-Io... | 4.20 € | **4.30 €** | 50.4 % | **54.0 %** | 4.31 € | cena podľa najlacnejšieho iného predajcu |
+| Leifheit Stěrka na dlaždice a vanu FLEXI | 11.90 € | **12.00 €** | 8.8 % | **9.7 %** | 12.09 € | cena podľa najlacnejšieho iného predajcu |
+| MEROSS MRS200MA-EU – inteligentný navíjací mechanizm... | 125.90 € | **126.00 €** | 19.9 % | **20.0 %** | 126.06 € | cena podľa najlacnejšieho iného predajcu |
+| IMOU S800 PRO palubná kamera, 4K | 104.90 € | **105.00 €** | 12.1 % | **12.2 %** | 105.17 € | cena podľa najlacnejšieho iného predajcu |
 
-## Návrh znížiť cenu (232)
+## Návrh znížiť cenu (204)
 
 | Názov | Naša cena | → Nová cena | Prirážka teraz | → Nová prirážka | Najlacnejší konkurent | Poznámka |
 |---|---:|---:|---:|---:|---:|---|
-| Detektor kovov Garrett AT Pre-International | 809.50 € | **703.90 €** | 50.2 % | **30.6 %** | 704.00 € | cena podľa najlacnejšieho iného predajcu |
-| Router GL.iNet Puli AX, 5G NR | 656.90 € | **559.50 €** | 44.5 % | **23.1 %** | 559.83 € | cena podľa najlacnejšieho iného predajcu |
-| Elektrický bežecký pás UREVO Spacewalk SP1 Lite (čie... | 262.00 € | **197.90 €** | 39.5 % | **5.4 %** | 198.00 € | cena podľa najlacnejšieho iného predajcu |
-| Apple iPhone 17 256GB Lavender | 1174.90 € | **1121.50 €** | 10.0 % | **5.0 %** | 895.00 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Robotický vysávač Shark RV2800ZEEU PowerDetect Never... | 758.50 € | **724.50 €** | 10.0 % | **5.1 %** | 635.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Tablet Apple iPad 11", 256 GB, strieborný | 661.50 € | **631.50 €** | 10.0 % | **5.0 %** | 580.00 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Veslovací trenažér REBEL ACTIVE RBA-1005 | 217.00 € | **187.50 €** | 28.0 % | **10.6 %** | 187.59 € | cena podľa najlacnejšieho iného predajcu |
-| Xiaomi TV S Mini LED 55 2026 | 635.50 € | **606.50 €** | 10.1 % | **5.1 %** | 479.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Orbitrek REBEL ACTIVE RBA-1011 | 155.00 € | **133.00 €** | 25.0 % | **7.3 %** | 133.38 € | cena podľa najlacnejšieho iného predajcu |
-| Zavážacia loďka Flytec V900, 12 000 mAh | 135.90 € | **115.50 €** | 23.6 % | **5.1 %** | 92.94 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Roborock QR 798 Black | 432.90 € | **413.50 €** | 10.0 % | **5.1 %** | 353.71 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Redmi Pad 2 Pro 8 / 256GB stříbrná (71044) | 349.50 € | **333.50 €** | 10.1 % | **5.0 %** | 268.63 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Pamäťová karta Memory card Samsung EVO Plus microSD ... | 35.50 € | **21.50 €** | 128.3 % | **38.3 %** | 21.85 € | cena podľa najlacnejšieho iného predajcu |
-| Remoska® Europa Hluboká panvica 24cm | 30.50 € | **17.00 €** | 111.6 % | **17.9 %** | 17.10 € | cena podľa najlacnejšieho iného predajcu |
-| Kamera IP vonkajší NEDIS WIFICO22CWT / Wi-Fi / 3MP /... | 98.90 € | **85.50 €** | 22.0 % | **5.4 %** | 81.00 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Počítačová skriňa Darkflash TH285M (čierna) | 64.00 € | **50.90 €** | 44.9 % | **15.3 %** | — | jediná ponuka; základná prirážka dodávateľa 15 % |
-| Epson EcoTank L3366 | 243.90 € | **232.90 €** | 10.1 % | **5.1 %** | 213.41 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| DOMO DO91124 volně stojící chladnička s | 234.50 € | **223.90 €** | 10.1 % | **5.1 %** | 219.71 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Xiaomi Smart Projector L1 EU | 222.90 € | **212.50 €** | 10.2 % | **5.0 %** | 169.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Epson EcoTank L3356 | 218.90 € | **208.90 €** | 10.2 % | **5.1 %** | 189.00 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| TWS QCY MeloBuds Pro HT08 slúchadlá, ANC (čierny) | 41.00 € | **31.00 €** | 39.2 % | **5.3 %** | 29.99 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Ultima Poseidon D60 soundbar | 179.50 € | **169.50 €** | 16.0 % | **9.5 %** | 169.90 € | cena podľa najlacnejšieho iného predajcu |
-| Paddleboard SUP REBEL ACTIVE RBA-4501 11'6" 350x81x1... | 166.50 € | **157.00 €** | 15.8 % | **9.2 %** | 157.05 € | cena podľa najlacnejšieho iného predajcu |
-| Vakuová zváračka fólií TEESA V200 | 41.90 € | **32.50 €** | 50.7 % | **16.9 %** | 32.90 € | cena podľa najlacnejšieho iného predajcu |
-| EPSON EcoTank L1270 | 192.50 € | **183.50 €** | 10.2 % | **5.1 %** | 149.11 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Slúchadlá Niceboy Pins 4 Arctic biely | 41.90 € | **32.90 €** | 34.0 % | **5.2 %** | 21.89 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Beko HSM14540 | 279.50 € | **270.50 €** | 17.4 % | **13.6 %** | 270.73 € | cena podľa najlacnejšieho iného predajcu |
-| Zavážacia loďka Flytec V060 GPS, 12 000 mAh | 127.00 € | **118.50 €** | 23.2 % | **14.9 %** | — | jediná ponuka; základná prirážka dodávateľa 15 % |
-| Prenosný monitor Arzopa Z1C, 16,1", sivý | 98.90 € | **90.50 €** | 15.2 % | **5.4 %** | 88.85 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Prenosná cyklistická pumpa Flextail Tiny Bike Pump P... | 67.50 € | **60.00 €** | 36.2 % | **21.0 %** | 60.21 € | cena podľa najlacnejšieho iného predajcu |
-| TESLA AirCook & Grill QG800 WiFi | 164.90 € | **157.50 €** | 10.3 % | **5.3 %** | 108.21 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| LEIFHEIT  Regulus PowerVac 2in1 11925 | 144.50 € | **137.90 €** | 10.0 % | **5.0 %** | 124.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| ETA Nubela 2569,90100, biely | 28.50 € | **22.00 €** | 54.7 % | **19.4 %** | 22.13 € | cena podľa najlacnejšieho iného predajcu |
-| Solight dezinfekčná bezozónová UV lampa 100 W | 47.00 € | **40.50 €** | 49.6 % | **28.9 %** | 40.72 € | cena podľa najlacnejšieho iného predajcu |
-| Wi-Fi mesh systém TP-Link Deco X10 AX1500, 3 kusy | 144.90 € | **138.50 €** | 10.1 % | **5.2 %** | 60.20 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| TERMOVÍZNA KAMERA THERMAL MASTER P2 USB-C Mini | 196.90 € | **190.50 €** | 15.1 % | **11.3 %** | 190.90 € | cena podľa najlacnejšieho iného predajcu |
-| Webová kamera OBSBOT Tiny 3 | 375.00 € | **368.90 €** | 11.4 % | **9.6 %** | 369.00 € | cena podľa najlacnejšieho iného predajcu |
-| Binokulárny ďalekohľad LEVENHUK Halo 50XN GPS s nočn... | 237.00 € | **230.90 €** | 7.9 % | **5.1 %** | 229.95 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Pamäťová karta Karta pamäte Lexar High-Performance S... | 97.00 € | **91.50 €** | 14.9 % | **8.3 %** | 91.56 € | cena podľa najlacnejšieho iného predajcu |
-| Beko B3BCNA324HS | 626.00 € | **620.50 €** | 9.1 % | **8.1 %** | 620.78 € | cena podľa najlacnejšieho iného predajcu |
-| Kamera EMOS IP-1200 WASP /H4067/ GoSmart vonkajší ba... | 90.50 € | **85.50 €** | 11.4 % | **5.3 %** | 73.52 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| CP-UNC-DA21L3C-L 2.0 Mpix vonkajší dome IP kamera s ... | 96.00 € | **91.00 €** | 23.9 % | **17.4 %** | 91.28 € | cena podľa najlacnejšieho iného predajcu |
-| Hohem mikrofón (2TX + 1RX + nabíjacie puzdro) | 71.50 € | **66.50 €** | 22.0 % | **13.5 %** | 66.90 € | cena podľa najlacnejšieho iného predajcu |
-| G3Ferrari G1000606 Pizza rúra DELIZIA | 110.50 € | **105.90 €** | 9.8 % | **5.2 %** | 93.00 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| TWS QCY MeloBuds Pro HT08 slúchadlá, ANC (biely) | 35.50 € | **31.00 €** | 20.6 % | **5.3 %** | 29.99 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Leifheit sušiak na bielizeň LinoPop-Up 140 | 45.00 € | **40.50 €** | 18.5 % | **6.7 %** | 40.59 € | cena podľa najlacnejšieho iného predajcu |
-| Filter do čističky vzduchu Náhradní predfilter GARNI... | 23.00 € | **18.50 €** | 41.1 % | **13.5 %** | 18.59 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED osvetlenie s ochranou proti vlhkosti, IP... | 25.00 € | **20.50 €** | 67.1 % | **37.1 %** | 20.66 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED stropné osvetlenie prisadené, 40W, 4800l... | 33.00 € | **28.50 €** | 71.4 % | **48.1 %** | 28.88 € | cena podľa najlacnejšieho iného predajcu |
-| CANON PIXMA TS6550i White | 92.90 € | **88.90 €** | 10.1 % | **5.4 %** | 57.80 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Multimeter Uni-T UT256A | 46.90 € | **42.90 €** | 15.3 % | **5.5 %** | 42.49 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| CP-UNC-TA21PL3C-V3 2.0 Mpix vonkajší IP kamera s IR ... | 81.00 € | **77.00 €** | 23.7 % | **17.6 %** | 77.03 € | cena podľa najlacnejšieho iného predajcu |
-| Hula hoop REBEL ACTIVE RBA-3067-PK se závažím a počí... | 20.50 € | **16.50 €** | 47.8 % | **18.9 %** | 16.64 € | cena podľa najlacnejšieho iného predajcu |
-| Klávesnica ONIKUMA G69 (ružová) (QWERTY) | 37.00 € | **33.00 €** | 22.0 % | **8.8 %** | 33.30 € | cena podľa najlacnejšieho iného predajcu |
-| USB Adaptér 6v1 Kruger&Matz KM0391.2 (HUB) typu C na... | 31.00 € | **27.00 €** | 25.5 % | **9.3 %** | 27.31 € | cena podľa najlacnejšieho iného predajcu |
-| Súprava 4 filtrov ND 4/8/16/32 Sunnylife pre DJI Min... | 26.00 € | **22.00 €** | 39.3 % | **17.8 %** | 22.33 € | cena podľa najlacnejšieho iného predajcu |
-| FIXED kryt SG S26 Ultra FIXFLM-1706-PI | 23.50 € | **19.50 €** | 33.2 % | **10.6 %** | 19.84 € | cena podľa najlacnejšieho iného predajcu |
-| ZEUSLAP P16 Plus - prenosný 16-palcový monitor | 147.00 € | **143.00 €** | 17.8 % | **14.6 %** | 143.39 € | cena podľa najlacnejšieho iného predajcu |
-| Mixér G21 Perfection grafitovo-čierne vyhotovenie | 211.50 € | **207.50 €** | 18.2 % | **16.0 %** | 207.90 € | cena podľa najlacnejšieho iného predajcu |
-| Kolobežka NILS Extreme HM0107 bielo-ružová | 59.00 € | **55.50 €** | 12.4 % | **5.7 %** | 48.63 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Klávesnica ONIKUMA G69 (čierna) (QWERTY) | 39.00 € | **35.50 €** | 23.5 % | **12.4 %** | 35.65 € | cena podľa najlacnejšieho iného predajcu |
-| Olovená batéria 12V / 55Ah VIPOW bezúdržbový akumulátor | 93.00 € | **89.50 €** | 20902.7 % | **20112.3 %** | 89.71 € | cena podľa najlacnejšieho iného predajcu |
-| Herné slúchadlá ONIKUMA GT808 (čierne) | 28.00 € | **24.50 €** | 24.7 % | **9.1 %** | 24.80 € | cena podľa najlacnejšieho iného predajcu |
-| Cycplus AS210 MAX AT1 Max Anoutway – mini pumpa na b... | 46.00 € | **42.50 €** | 21.1 % | **11.9 %** | 42.90 € | cena podľa najlacnejšieho iného predajcu |
-| GORENJE MO 20 E1W | 75.90 € | **72.50 €** | 10.5 % | **5.5 %** | 65.59 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| TP-LINK TL-MR150 4G LTE WiFi N Router | 70.90 € | **67.50 €** | 10.4 % | **5.1 %** | 66.67 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| CP-URC-TC51PL3C-L-V2 5.0 Mpix vonkajší kamera 4v1 s ... | 60.00 € | **56.90 €** | 23.4 % | **17.0 %** | 57.00 € | cena podľa najlacnejšieho iného predajcu |
-| D-LINK 5-Port Gigabit Switch (DMS-105/E) | 70.50 € | **67.50 €** | 10.4 % | **5.7 %** | 66.40 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Solight LED osvetlenie Corato s nastaviteľnou wattáž... | 19.00 € | **16.00 €** | 44.4 % | **21.6 %** | 16.27 € | cena podľa najlacnejšieho iného predajcu |
-| Zelmer ZMM3511B | 69.50 € | **66.50 €** | 20.8 % | **15.6 %** | 66.90 € | cena podľa najlacnejšieho iného predajcu |
-| Cycplus G1 bicycle computer | 25.50 € | **22.50 €** | 28.2 % | **13.1 %** | 22.90 € | cena podľa najlacnejšieho iného predajcu |
-| Solight teplomer, farba biela | 14.00 € | **11.00 €** | 83.0 % | **43.8 %** | 11.48 € | cena podľa najlacnejšieho iného predajcu |
-| CP-URC-DC24PL3C-L 2.4 Mpix vonkajší dome kamera 4v1 ... | 53.00 € | **50.00 €** | 22.8 % | **15.8 %** | 50.50 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod - spojka, 1 zásuvka, čier... | 78.90 € | **76.00 €** | 23.2 % | **18.6 %** | 76.11 € | cena podľa najlacnejšieho iného predajcu |
-| Hula hoop REBEL ACTIVE RBA-3066-BL se závažím a masá... | 13.90 € | **11.00 €** | 53.1 % | **21.2 %** | 11.22 € | cena podľa najlacnejšieho iného predajcu |
-| TWS QCY MeloBuds Pro HT08 slúchadlá, ANC (gold) | 32.50 € | **29.90 €** | 14.7 % | **5.6 %** | 29.99 € | cena podľa najlacnejšieho iného predajcu |
-| Kolobežka NILS Extreme HM0107 bielo-oranžová | 58.00 € | **55.50 €** | 10.5 % | **5.7 %** | 41.18 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Nabíječka USB EMOS V02G20 GaN PD univerzální 3A (20W... | 10.50 € | **8.00 €** | 39.0 % | **5.9 %** | 7.79 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Prenosný monitor ZEUSLAP P16 Ultra s uhlopriečkou 16... | 137.00 € | **134.50 €** | 16.2 % | **14.1 %** | 134.62 € | cena podľa najlacnejšieho iného predajcu |
-| PC skrinka Darkflash Aquarius Mesh, čierna | 31.00 € | **28.50 €** | 27.8 % | **17.5 %** | 28.74 € | cena podľa najlacnejšieho iného predajcu |
-| Barkan S320. B, natáčecí stojan pro TV (29-58'' 25 k... | 62.50 € | **60.00 €** | 24.0 % | **19.1 %** | 60.29 € | cena podľa najlacnejšieho iného predajcu |
-| Dóza na potraviny FoodSaver FFC022X | 19.00 € | **16.50 €** | 22.9 % | **6.7 %** | 16.83 € | cena podľa najlacnejšieho iného predajcu |
-| Inteligentný pohlcovač zápachu Catlink Fresh | 35.50 € | **33.00 €** | 15.0 % | **6.9 %** | 33.36 € | cena podľa najlacnejšieho iného predajcu |
-| Maono G1 Neo Sound Card Black | 46.00 € | **43.50 €** | 16.1 % | **9.8 %** | 43.90 € | cena podľa najlacnejšieho iného predajcu |
-| Zvuková karta Maono G1 Neo (biela) | 46.00 € | **43.50 €** | 17.6 % | **11.2 %** | 43.90 € | cena podľa najlacnejšieho iného predajcu |
-| Držiak monitora Cabletech UCH0221 (13-32'' 10 kg) či... | 22.90 € | **20.50 €** | 19.5 % | **7.0 %** | 16.85 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Hriankovač Ariete ART 155/CA | 58.90 € | **56.50 €** | 10.4 % | **5.9 %** | 53.52 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Herné slúchadlá ONIKUMA GT839 | 27.90 € | **25.50 €** | 26.0 % | **15.2 %** | 25.67 € | cena podľa najlacnejšieho iného predajcu |
-| FIXED kryt pro SGS26+ FIXFLM2-1705-PI | 21.90 € | **19.50 €** | 24.2 % | **10.6 %** | 19.84 € | cena podľa najlacnejšieho iného predajcu |
-| FIXED kryt SG S26 Ultra FIXFLM-1706-RD | 21.90 € | **19.50 €** | 24.2 % | **10.6 %** | 19.84 € | cena podľa najlacnejšieho iného predajcu |
-| Čítačka kariet TP-Link UA430D USB3.0 Typ C, microSD/... | 12.00 € | **9.70 €** | 30.4 % | **5.4 %** | 8.67 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Podložka pod mačaciu toaletu Catlink Baymax / Baymax... | 27.00 € | **24.90 €** | 14.8 % | **5.9 %** | 23.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Kamera EMOS IP-220 W /H4062/ GoSmart vnútorný otočná... | 39.50 € | **37.50 €** | 11.5 % | **5.8 %** | 29.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| TP-LINK RE505X AX1500 WiFi 6 Extender | 42.90 € | **40.90 €** | 11.0 % | **5.8 %** | 37.69 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Ariete Handy Force One 2 v 1,2708 | 54.50 € | **52.50 €** | 10.7 % | **6.7 %** | 52.51 € | cena podľa najlacnejšieho iného predajcu |
-| Solight bezdrôtový zvonček a nočné svetielko, do zás... | 6.80 € | **4.80 €** | 68.6 % | **19.0 %** | 4.85 € | cena podľa najlacnejšieho iného predajcu |
-| Solight bezdrôtový zvonček a nočné svetielko, do zás... | 6.80 € | **4.80 €** | 68.6 % | **19.0 %** | 4.85 € | cena podľa najlacnejšieho iného predajcu |
-| Napájací zdroj spínaný URZ1169 12 V / 5 A - 2,1/5,5 | 14.50 € | **12.50 €** | 33.1 % | **14.7 %** | 12.89 € | cena podľa najlacnejšieho iného predajcu |
-| Remoska D52F/10 4l Dua Glass | 136.90 € | **135.00 €** | 10.1 % | **8.6 %** | 135.10 € | cena podľa najlacnejšieho iného predajcu |
-| Rowenta XD6220F0 | 38.90 € | **37.00 €** | 11.0 % | **5.5 %** | 37.30 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED kuchynské svietidlo výklopné, vypínač, 1... | 17.90 € | **16.00 €** | 34.5 % | **20.2 %** | 16.43 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED osvetlenie Adrano s ochranou proti vlhko... | 8.80 € | **7.10 €** | 31.8 % | **6.3 %** | 6.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| TP-LINK RE315 AC1200 WiFi Range Extender | 36.50 € | **34.90 €** | 10.4 % | **5.5 %** | 22.88 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| DOMO DO961T | 29.50 € | **27.90 €** | 11.2 % | **5.2 %** | 27.79 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Solight LED osvetlenie Corato s nastaviteľnou wattáž... | 10.50 € | **9.00 €** | 43.2 % | **22.8 %** | 9.04 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit sušiak Classic 200 Flex | 27.50 € | **26.00 €** | 17.5 % | **11.1 %** | 26.19 € | cena podľa najlacnejšieho iného predajcu |
-| ZEUSLAP P16 - prenosný 16-palcový monitor | 131.00 € | **129.50 €** | 20.8 % | **19.5 %** | 129.90 € | cena podľa najlacnejšieho iného predajcu |
-| Solight bezdrôtový senzor k metostaniciam radu TE9xWiFi | 11.50 € | **10.00 €** | 36.1 % | **18.3 %** | 10.43 € | cena podľa najlacnejšieho iného predajcu |
-| D-LINK Mobile WiFi 4G Hotspot (DWR-932) | 36.90 € | **35.50 €** | 10.0 % | **5.8 %** | 33.46 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Bezdrôtový diaľkový ovládač Heiman HM1RC-W Interlinked | 3.70 € | **2.40 €** | 104.6 % | **32.7 %** | 2.49 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit sušiak Classic 250 Flex | 33.00 € | **31.90 €** | 17.3 % | **13.4 %** | 31.99 € | cena podľa najlacnejšieho iného predajcu |
-| Súprava vysílaček a binokulárních dalekohledů LEVENH... | 55.00 € | **53.90 €** | 7.6 % | **5.4 %** | 54.00 € | cena podľa najlacnejšieho iného predajcu |
-| Anemometer UNI-T UT363 | 16.00 € | **14.90 €** | 14.0 % | **6.2 %** | 12.49 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Vákuovacie fólie G21 rola 20 x 600 cm 2 ks | 10.50 € | **9.40 €** | 17.6 % | **5.3 %** | 8.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Solight LED mini panel kúpeľňový 2v1, 3CCT, podhľado... | 8.80 € | **7.80 €** | 53.9 % | **36.4 %** | 7.90 € | cena podľa najlacnejšieho iného predajcu |
-| Kingston Canvas Select Plus/Micro 64GB | 22.90 € | **21.90 €** | 11.6 % | **6.7 %** | 15.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| CANON PG-575 XL Black | 27.50 € | **26.50 €** | 10.9 % | **6.9 %** | 24.69 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| FoodSaver FFC023X | 20.90 € | **19.90 €** | 10.6 % | **5.3 %** | 19.66 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Držiak mikrofónu Maono BA20 (čierny) | 14.50 € | **13.50 €** | 15.7 % | **7.7 %** | 13.49 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Philips AWP175/10 | 24.90 € | **23.90 €** | 11.6 % | **7.1 %** | 23.99 € | cena podľa najlacnejšieho iného predajcu |
-| Pozorovací ďalekohľad LEVENHUK New Blaze PRO 100 | 379.90 € | **378.90 €** | 8.0 % | **7.7 %** | 379.00 € | cena podľa najlacnejšieho iného predajcu |
-| Laserový gravír XTOOL M2 Deluxe 20 W | 1442.00 € | **1441.00 €** | 7.3 % | **7.2 %** | 1441.22 € | cena podľa najlacnejšieho iného predajcu |
-| ALI PB PD 20W+QC 22,5A,30000mAh PBPD30BK | 30.50 € | **29.50 €** | 11.6 % | **8.0 %** | 29.83 € | cena podľa najlacnejšieho iného predajcu |
-| Solight 45W GaN fast charge USB-A + USB-C adaptér | 14.00 € | **13.00 €** | 43.5 % | **33.3 %** | 13.36 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit sušiak na bielizeň Rolfix 150 Trip | 19.00 € | **18.00 €** | 13.7 % | **7.7 %** | 18.38 € | cena podľa najlacnejšieho iného predajcu |
-| Výrobník ľadových kociek Euhomy IM001,1,2 l, 12 kg (... | 60.50 € | **59.50 €** | 16.4 % | **14.5 %** | 59.90 € | cena podľa najlacnejšieho iného predajcu |
-| Výrobník ľadových kociek Euhomy IM001,1,2 l, 12 kg (... | 60.50 € | **59.50 €** | 16.3 % | **14.3 %** | 59.90 € | cena podľa najlacnejšieho iného predajcu |
-| ZEUSLAP ZP156 - prenosný monitor s uhlopriečkou 15,6" | 86.50 € | **85.50 €** | 7.1 % | **5.8 %** | 85.90 € | cena podľa najlacnejšieho iného predajcu |
-| GPS bike computer Cycplus M1 | 26.50 € | **25.50 €** | 14.2 % | **9.9 %** | 25.90 € | cena podľa najlacnejšieho iného predajcu |
-| Aróma difuzér Sixtol Palm sivé drevo 500 ml | 23.00 € | **22.00 €** | 14.2 % | **9.3 %** | 22.49 € | cena podľa najlacnejšieho iného predajcu |
-| Fixed Video kabel FIXHU-CHDMI-GR | 15.90 € | **15.00 €** | 11.5 % | **5.2 %** | 11.87 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Reproduktor Bluetooth KRUGER & MATZ KM0566 STREET XL... | 39.90 € | **39.00 €** | 16.0 % | **13.4 %** | 39.19 € | cena podľa najlacnejšieho iného predajcu |
-| Solight 3z + USB A+C prenosné stolné zásuvky, 2m, bi... | 9.70 € | **8.90 €** | 29.5 % | **18.8 %** | 8.99 € | cena podľa najlacnejšieho iného predajcu |
-| Herný ovládač GameSir Nova MultiPlatform | 25.50 € | **24.90 €** | 9.3 % | **6.7 %** | 24.99 € | cena podľa najlacnejšieho iného predajcu |
-| LEIFHEIT sušiak na bielizeň Quartett 20 | 12.50 € | **11.90 €** | 11.4 % | **6.1 %** | 9.28 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Solight USB-C/Lightning kábel, USB-C konektor, Light... | 4.80 € | **4.20 €** | 73.4 % | **51.8 %** | 4.27 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit stierka na dlaždice a vanu FLEXI | 12.50 € | **11.90 €** | 14.3 % | **8.8 %** | 11.99 € | cena podľa najlacnejšieho iného predajcu |
-| Epson EcoTank L3350 | 189.50 € | **188.90 €** | 10.1 % | **9.7 %** | 189.00 € | cena podľa najlacnejšieho iného predajcu |
-| Kolobežka NILS Extreme HM1302 čierna | 43.00 € | **42.50 €** | 6.9 % | **5.6 %** | 40.50 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Skladacia kolobežka NILS Extreme HM2009 sivá | 46.50 € | **46.00 €** | 6.3 % | **5.2 %** | 44.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| USB kľúč Lexar JumpDrive M400, 32 GB, USB 3.0 | 11.00 € | **10.50 €** | 14.1 % | **8.9 %** | 9.47 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Kamera TP-Link Tapo C460 8MPx, vonkajšia, IP, WiFi, ... | 113.00 € | **112.50 €** | 5.7 % | **5.3 %** | 112.40 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
-| Solight LED mini panel kúpeľňový 2v1, 3CCT, podhľado... | 15.50 € | **15.00 €** | 42.4 % | **37.8 %** | 15.03 € | cena podľa najlacnejšieho iného predajcu |
-| Paddleboard SUP REBEL ACTIVE RBA-4513 WINDSURFING 30... | 346.50 € | **346.00 €** | 14.5 % | **14.3 %** | 346.03 € | cena podľa najlacnejšieho iného predajcu |
-| Solight lightning kábel, USB 2.0 A konektor, Lightni... | 4.80 € | **4.30 €** | 69.7 % | **52.0 %** | 4.37 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED vonkajšia reťaz s žiarovkami, 10 žiarovi... | 13.00 € | **12.50 €** | 42.4 % | **37.0 %** | 12.61 € | cena podľa najlacnejšieho iného predajcu |
-| Rýchlovarná kanvica Tefal Coppertinto KI280G10 | 31.50 € | **31.00 €** | 11.9 % | **10.1 %** | 31.23 € | cena podľa najlacnejšieho iného predajcu |
-| Olovená batéria 12V / 7,0 Ah MHPower MS7-12 | 12.00 € | **11.50 €** | 10.6 % | **6.0 %** | 11.74 € | cena podľa najlacnejšieho iného predajcu |
-| Moza Racing CM2 RS072 displej | 217.00 € | **216.50 €** | 17.4 % | **17.1 %** | 216.78 € | cena podľa najlacnejšieho iného predajcu |
-| Menič napätia GETI GPI 2012 12V/230V 2000W USB | 141.50 € | **141.00 €** | 5.4 % | **5.0 %** | 141.29 € | cena podľa najlacnejšieho iného predajcu |
-| Budík Samolepiace hodiny G21 Metallic Style | 12.50 € | **12.00 €** | 17.8 % | **13.0 %** | 12.29 € | cena podľa najlacnejšieho iného predajcu |
-| BALDRTHERM B0596WT2H2P – V1 – meteorologická stanica... | 14.50 € | **14.00 €** | 16.5 % | **12.5 %** | 14.29 € | cena podľa najlacnejšieho iného predajcu |
-| Batéria motocyklová 12V / 9Ah Vipow | 24.00 € | **23.50 €** | 9.0 % | **6.7 %** | 23.79 € | cena podľa najlacnejšieho iného predajcu |
-| Letové pedále MOZA Racing AS019 | 345.50 € | **345.00 €** | 6.9 % | **6.7 %** | 345.29 € | cena podľa najlacnejšieho iného predajcu |
-| Hyper PLA filament Creality (oranžový) | 14.50 € | **14.00 €** | 17.3 % | **13.3 %** | 14.30 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED osvetlenie Adrano s ochranou proti vlhko... | 11.50 € | **11.00 €** | 33.4 % | **27.6 %** | 11.32 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod - spojka, 1 zásuvka, čier... | 98.00 € | **97.50 €** | 24.3 % | **23.6 %** | 97.86 € | cena podľa najlacnejšieho iného predajcu |
-| Herní křeslo KRUGER & MATZ GX-150 černé s LED podsví... | 116.00 € | **115.50 €** | 15.0 % | **14.5 %** | 115.87 € | cena podľa najlacnejšieho iného predajcu |
-| Budík Hodiny analogové TechnoLine WT 650 s teploměre... | 11.50 € | **11.00 €** | 10.3 % | **5.5 %** | 11.39 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit Pegasus 180 Solid sušiak na bielizeň, čierny | 40.50 € | **40.00 €** | 16.3 % | **14.9 %** | 40.39 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit sušiak na bielizeň Classic Extenda | 54.50 € | **54.00 €** | 18.2 % | **17.1 %** | 54.39 € | cena podľa najlacnejšieho iného predajcu |
-| Sušiak na bielizeň Leifheit Classic Siena 180 Easy | 26.50 € | **26.00 €** | 9.5 % | **7.5 %** | 26.39 € | cena podľa najlacnejšieho iného predajcu |
-| Robotický čistič okien MOVA N1 (biely) | 287.00 € | **286.50 €** | 14.7 % | **14.5 %** | 286.89 € | cena podľa najlacnejšieho iného predajcu |
-| FoodSaver VS5910X | 274.50 € | **274.00 €** | 6.7 % | **6.5 %** | 274.39 € | cena podľa najlacnejšieho iného predajcu |
-| Leifheit stierka na okna s kartáčem a tel | 18.50 € | **18.00 €** | 11.5 % | **8.5 %** | 18.39 € | cena podľa najlacnejšieho iného predajcu |
-| Whirlpool NoFrost WHK 22414 XBR8EA | 873.50 € | **873.00 €** | 9.4 % | **9.3 %** | 873.39 € | cena podľa najlacnejšieho iného predajcu |
-| Whirlpool WHK 22414 X7EA1 AI AdaptiveCoo | 684.50 € | **684.00 €** | 5.5 % | **5.4 %** | 684.39 € | cena podľa najlacnejšieho iného predajcu |
-| DOMO DO91135F | 322.00 € | **321.50 €** | 8.2 % | **8.0 %** | 321.89 € | cena podľa najlacnejšieho iného predajcu |
-| Whirlpool C WD 84M WBS CZ | 633.50 € | **633.00 €** | 5.6 % | **5.5 %** | 633.39 € | cena podľa najlacnejšieho iného predajcu |
-| Whirlpool C WD 94M WBS CZ | 670.00 € | **669.50 €** | 8.3 % | **8.2 %** | 669.89 € | cena podľa najlacnejšieho iného predajcu |
-| Whirlpool WP B9X WBS EE | 699.00 € | **698.50 €** | 9.2 % | **9.1 %** | 698.89 € | cena podľa najlacnejšieho iného predajcu |
-| Solight digitálny infračervený teplomer -50° +380°C | 13.00 € | **12.50 €** | 30.8 % | **25.8 %** | 12.90 € | cena podľa najlacnejšieho iného predajcu |
-| Kamerový set Kruger&Matz Connect C300 IP POE Tuya | 160.00 € | **159.50 €** | 6.9 % | **6.6 %** | 159.90 € | cena podľa najlacnejšieho iného predajcu |
-| 14 filtrov Voľne použiteľné pre DJI Osmo Pocket 3 | 119.50 € | **119.00 €** | 9.4 % | **9.0 %** | 119.42 € | cena podľa najlacnejšieho iného predajcu |
-| Termoregulačný inteligentný pelech Petoneer Cozy Sofa | 99.50 € | **99.00 €** | 10.2 % | **9.6 %** | 99.47 € | cena podľa najlacnejšieho iného predajcu |
-| Masážní přístroj šíje a zad, REBEL ACTIVE RBA-6005 | 32.50 € | **32.00 €** | 7.2 % | **5.5 %** | 32.48 € | cena podľa najlacnejšieho iného predajcu |
-| Black&Decker BXSH2003E | 27.50 € | **27.00 €** | 18.6 % | **16.5 %** | 27.49 € | cena podľa najlacnejšieho iného predajcu |
-| DOMO DO9252I | 252.50 € | **252.00 €** | 7.7 % | **7.5 %** | 252.49 € | cena podľa najlacnejšieho iného predajcu |
-| TELEVES INNOVA BOSS LTE700 5G pokojová inteligentní ... | 59.50 € | **59.00 €** | 19.6 % | **18.6 %** | 59.49 € | cena podľa najlacnejšieho iného predajcu |
-| SkyRC BD380+ vybíjač | 104.50 € | **104.00 €** | 21.4 % | **20.9 %** | 104.49 € | cena podľa najlacnejšieho iného predajcu |
-| DOMO DO754K | 35.50 € | **35.00 €** | 7.0 % | **5.5 %** | 35.50 € | cena podľa najlacnejšieho iného predajcu |
-| Vysávač Domo DO 221 SV | 120.50 € | **120.00 €** | 9.1 % | **8.6 %** | 120.50 € | cena podľa najlacnejšieho iného predajcu |
-| Žehlička Domo DO7059S | 35.50 € | **35.00 €** | 7.0 % | **5.5 %** | 35.50 € | cena podľa najlacnejšieho iného predajcu |
-| Káblové slúchadlá TRUTHEAR Gate (biele) | 27.50 € | **27.00 €** | 41.5 % | **38.9 %** | 27.50 € | cena podľa najlacnejšieho iného predajcu |
-| Káblové slúchadlá TRUTHEAR Gate (čierne) | 27.50 € | **27.00 €** | 41.5 % | **38.9 %** | 27.50 € | cena podľa najlacnejšieho iného predajcu |
-| Káblové slúchadlá TRUTHEAR Gate s mikrofónom (biele) | 27.50 € | **27.00 €** | 34.1 % | **31.7 %** | 27.50 € | cena podľa najlacnejšieho iného predajcu |
-| Smartring RingConn Air Gen 2 (veľkosť 11, strieborná... | 212.90 € | **212.50 €** | 37.4 % | **37.2 %** | 212.61 € | cena podľa najlacnejšieho iného predajcu |
-| Smartring RingConn Air Gen 2 (veľkosť 13, zlatá) | 212.90 € | **212.50 €** | 37.7 % | **37.5 %** | 212.61 € | cena podľa najlacnejšieho iného predajcu |
-| Smartring RingConn Air Gen 2 (veľkosť 7, zlatá) | 212.90 € | **212.50 €** | 37.4 % | **37.2 %** | 212.61 € | cena podľa najlacnejšieho iného predajcu |
-| Smartring RingConn Air Gen 2 (veľkosť 9, strieborná ... | 212.90 € | **212.50 €** | 37.4 % | **37.2 %** | 212.61 € | cena podľa najlacnejšieho iného predajcu |
-| Smartring RingConn Air Gen 2 (veľkosť 9, zlatá) | 212.90 € | **212.50 €** | 37.4 % | **37.2 %** | 212.61 € | cena podľa najlacnejšieho iného predajcu |
-| Smartring RingConn Gen 2 Air RCA-02 (veľkosť 12, str... | 212.90 € | **212.50 €** | 37.4 % | **37.2 %** | 212.61 € | cena podľa najlacnejšieho iného predajcu |
-| Multifunkční tréninková hrazda REBEL ACTIVE RBA-2407 | 66.90 € | **66.50 €** | 6.1 % | **5.5 %** | 66.67 € | cena podľa najlacnejšieho iného predajcu |
-| Ultimea Poseidon D50 soundbar | 141.90 € | **141.50 €** | 24.0 % | **23.7 %** | 141.72 € | cena podľa najlacnejšieho iného predajcu |
-| Reproduktor Edifier ES300 Bluetooth (biely) | 181.90 € | **181.50 €** | 10.5 % | **10.2 %** | 181.73 € | cena podľa najlacnejšieho iného predajcu |
-| Reproduktor Edifier ES300 Bluetooth (čierny) | 181.90 € | **181.50 €** | 10.5 % | **10.2 %** | 181.73 € | cena podľa najlacnejšieho iného predajcu |
-| Sada filtrov Freewell Osmo Pocket Every Day (balenie... | 66.90 € | **66.50 €** | 36.1 % | **35.3 %** | 66.85 € | cena podľa najlacnejšieho iného predajcu |
-| Sada 8 filtrov Freewell DJI Osmo Pocket 3 | 80.90 € | **80.50 €** | 8.7 % | **8.2 %** | 80.87 € | cena podľa najlacnejšieho iného predajcu |
-| Solight USB-C/Lightning kábel, USB-C konektor, Light... | 4.70 € | **4.30 €** | 66.1 % | **52.0 %** | 4.37 € | cena podľa najlacnejšieho iného predajcu |
-| Solight lightning kábel, USB 2.0 A konektor, Lightni... | 2.80 € | **2.40 €** | 75.1 % | **50.1 %** | 2.47 € | cena podľa najlacnejšieho iného predajcu |
-| Solight USB-C/Lightning kábel, USB-C konektor, Light... | 3.30 € | **2.90 €** | 81.3 % | **59.3 %** | 2.98 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED kuchynské svietidlo T5, vypínač, 4W, 400... | 7.80 € | **7.40 €** | 34.6 % | **27.7 %** | 7.49 € | cena podľa najlacnejšieho iného predajcu |
-| Akupresurní podložka REBEL ACTIVE RBA-6011-GL 72x42c... | 23.90 € | **23.50 €** | 12.8 % | **11.0 %** | 23.72 € | cena podľa najlacnejšieho iného predajcu |
-| LEIFHEIT sušiak na bielizeň QUARTETT Duo | 18.90 € | **18.50 €** | 12.1 % | **9.7 %** | 18.79 € | cena podľa najlacnejšieho iného predajcu |
-| Aróma difuzér Domo DO9215AV | 31.90 € | **31.50 €** | 7.0 % | **5.7 %** | 31.89 € | cena podľa najlacnejšieho iného predajcu |
-| Vákuovacia dóza G21,2 l, marinovacia | 22.90 € | **22.50 €** | 16.2 % | **14.2 %** | 22.89 € | cena podľa najlacnejšieho iného predajcu |
-| Akupresurní podložka REBEL ACTIVE RBA-6013-GL 130x50... | 31.90 € | **31.50 €** | 12.9 % | **11.5 %** | 31.90 € | cena podľa najlacnejšieho iného predajcu |
-| Videostativ Neewer LL55 z uhlíkových vlákien s olejo... | 630.90 € | **630.50 €** | 38.5 % | **38.4 %** | 630.89 € | cena podľa najlacnejšieho iného predajcu |
-| Solight napájací konektor pre COB LED pásy, opasok-n... | 1.50 € | **1.30 €** | 56.3 % | **35.5 %** | 1.39 € | cena podľa najlacnejšieho iného predajcu |
-| Solight USB kábel, USB 2.0 A konektor, USB B micro k... | 3.40 € | **3.20 €** | 60.7 % | **51.3 %** | 3.27 € | cena podľa najlacnejšieho iného predajcu |
-| Mixér G21 Ultimate grafitovo-čierne vyhotovenie | 271.00 € | **270.90 €** | 16.5 % | **16.5 %** | 270.94 € | cena podľa najlacnejšieho iného predajcu |
-| Sonoff ZBM5-1C-86W (1 kanál) Inteligentný dotykový n... | 21.00 € | **20.90 €** | 9.4 % | **8.9 %** | 20.97 € | cena podľa najlacnejšieho iného predajcu |
-| Vakuová zváračka fólií TEESA V100 | 22.00 € | **21.90 €** | 6.1 % | **5.6 %** | 21.99 € | cena podľa najlacnejšieho iného predajcu |
-| Solight predlžovací prívod - spojka, 1 zásuvka, 40 m... | 44.00 € | **43.90 €** | 5.8 % | **5.5 %** | 43.99 € | cena podľa najlacnejšieho iného predajcu |
-| Inteligentná zásuvka MEROSS MSS315CFH-EU s monitorov... | 43.00 € | **42.90 €** | 11.5 % | **11.2 %** | 42.99 € | cena podľa najlacnejšieho iného predajcu |
-| Mini stepper Rebel Active RBA-3226 | 52.00 € | **51.90 €** | 6.4 % | **6.2 %** | 51.99 € | cena podľa najlacnejšieho iného predajcu |
-| Solight kovový okrúhly lampáš so žiarovkou s micro L... | 5.90 € | **5.80 €** | 21.7 % | **19.7 %** | 5.82 € | cena podľa najlacnejšieho iného predajcu |
-| Solight kovový oválny lampáš so žiarovkou s micro LE... | 5.40 € | **5.30 €** | 20.9 % | **18.7 %** | 5.36 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED podhľadové svietidlo bodové, 5W, 400lm, ... | 2.90 € | **2.80 €** | 41.2 % | **36.3 %** | 2.84 € | cena podľa najlacnejšieho iného predajcu |
-| Solight viacnásobná zásuvka, 4 zásuvky | 2.40 € | **2.30 €** | 36.4 % | **30.8 %** | 2.40 € | cena podľa najlacnejšieho iného predajcu |
-| Solight napájací konektor pre LED pásy, 5,5 mm, rozb... | 1.90 € | **1.80 €** | 44.4 % | **36.8 %** | 1.90 € | cena podľa najlacnejšieho iného predajcu |
-| Solight kovový lampáš s LED sviečkou, teplá biela, 3... | 6.10 € | **6.00 €** | 21.6 % | **19.6 %** | 6.01 € | cena podľa najlacnejšieho iného predajcu |
-| Solight kovový lampáš so žiarovkou s micro LED, tepl... | 5.50 € | **5.40 €** | 21.5 % | **19.3 %** | 5.44 € | cena podľa najlacnejšieho iného predajcu |
-| Solight USB-C + USB-A fast charger GaN 20W PD | 7.80 € | **7.70 €** | 47.1 % | **45.2 %** | 7.74 € | cena podľa najlacnejšieho iného predajcu |
-| Solight LED podhľadové svietidlo bodové, 9W, 720lm, ... | 4.60 € | **4.50 €** | 38.0 % | **35.0 %** | 4.60 € | cena podľa najlacnejšieho iného predajcu |
-| MEROSS MRS200MA-EU – inteligentný navíjací mechanizm... | 126.00 € | **125.90 €** | 20.0 % | **19.9 %** | 125.92 € | cena podľa najlacnejšieho iného predajcu |
-| Varná doska Plynový sporák ISEASY MGBS-604D so 4 hor... | 102.00 € | **101.90 €** | 13.5 % | **13.4 %** | 101.94 € | cena podľa najlacnejšieho iného predajcu |
-| Domo DO7344H | 110.00 € | **109.90 €** | 9.3 % | **9.2 %** | 110.00 € | cena podľa najlacnejšieho iného predajcu |
-| Domo DO7345H | 147.00 € | **146.90 €** | 9.6 % | **9.5 %** | 147.00 € | cena podľa najlacnejšieho iného predajcu |
-| Vysávač Domo DO228SV | 120.00 € | **119.90 €** | 8.3 % | **8.2 %** | 120.00 € | cena podľa najlacnejšieho iného predajcu |
-| TechniSat DIGITRADIO 217 /čierne/ 0000/3998 | 127.00 € | **126.90 €** | 11.6 % | **11.5 %** | 127.00 € | cena podľa najlacnejšieho iného predajcu |
-| Sklokeramická/elektrická varná doska IsEasy LT5-02 | 156.00 € | **155.90 €** | 11.6 % | **11.5 %** | 156.00 € | cena podľa najlacnejšieho iného predajcu |
+| Okuliare RayNeo X3 Pro AR | 2258.90 € | **1536.50 €** | 67.6 % | **14.0 %** | 1536.90 € | cena podľa najlacnejšieho iného predajcu |
+| Grafický tablet Huion Kamvas Studio 16 KS1601 | 2406.90 € | **2048.90 €** | 50.3 % | **27.9 %** | 2048.97 € | cena podľa najlacnejšieho iného predajcu |
+| Termovízna kamera THERMAL MASTER X3 | 656.90 € | **548.50 €** | 43.4 % | **19.8 %** | 548.88 € | cena podľa najlacnejšieho iného predajcu |
+| Amica SHM 51071 W | 359.00 € | **261.90 €** | 55.0 % | **13.1 %** | 261.96 € | cena podľa najlacnejšieho iného predajcu |
+| Johansson 6700 Revolution programovatelný zesilovač | 360.50 € | **270.00 €** | 43.2 % | **7.3 %** | 270.39 € | cena podľa najlacnejšieho iného predajcu |
+| MSI Cyborg 15 (A13UC-2218CZ) | 882.90 € | **814.00 €** | 24.7 % | **15.0 %** | 814.01 € | cena podľa najlacnejšieho iného predajcu |
+| Střídač hybridní DEYE SUN-10K-SG01HP3-EU-AM2, 10kW, ... | 1508.90 € | **1471.50 €** | 7.7 % | **5.0 %** | 1453.85 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Mini PC MINIS FORUM MS-02U-235HX Intel Core Ultra 5 ... | 819.90 € | **784.00 €** | 15.0 % | **10.0 %** | 784.20 € | cena podľa najlacnejšieho iného predajcu |
+| Smartring RingConn Air Gen 2 (veľkosť 11, strieborná... | 212.50 € | **178.00 €** | 37.2 % | **14.9 %** | 178.01 € | cena podľa najlacnejšieho iného predajcu |
+| TERMOVÍZNA KAMERA THERMAL MASTER P2 Pro USB-C Mini | 308.90 € | **275.50 €** | 43.8 % | **28.2 %** | 275.73 € | cena podľa najlacnejšieho iného predajcu |
+| Súprava stabilizátora iSteady MT3 Pro | 614.90 € | **584.90 €** | 39.4 % | **32.6 %** | 585.00 € | cena podľa najlacnejšieho iného predajcu |
+| Zavážacia loďka Flytec V066, 18 000 mAh | 258.50 € | **234.00 €** | 26.9 % | **14.9 %** | — | jediná ponuka; základná prirážka dodávateľa 15 % |
+| Digitálny RCD / tester odporu slučky Habotest HT5910 | 156.90 € | **133.00 €** | 37.1 % | **16.2 %** | 133.21 € | cena podľa najlacnejšieho iného predajcu |
+| Candy GD 9N2BR-S | 434.90 € | **414.90 €** | 10.1 % | **5.0 %** | 404.10 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Rádio TechniSat DIGITRADIO 550 IR /černé/ | 159.50 € | **139.90 €** | 21.4 % | **6.5 %** | 139.99 € | cena podľa najlacnejšieho iného predajcu |
+| BROTHER DCP-L3560CDW | 394.50 € | **376.50 €** | 10.1 % | **5.0 %** | 354.24 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| TERMOVÍZNA KAMERA THERMAL MASTER X2 USB-C Mini | 308.90 € | **291.00 €** | 47.2 % | **38.7 %** | 291.11 € | cena podľa najlacnejšieho iného predajcu |
+| ALI Pods Transl.TWS+překladač ATR10BK | 75.00 € | **59.00 €** | 50.0 % | **18.0 %** | 59.10 € | cena podľa najlacnejšieho iného predajcu |
+| Xiaomi Smart Projector L1 Pro EU | 320.50 € | **305.90 €** | 10.1 % | **5.1 %** | 241.60 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Beko TB622ECWCS | 359.00 € | **344.50 €** | 25.1 % | **20.0 %** | 344.63 € | cena podľa najlacnejšieho iného predajcu |
+| Střídač hybridní DEYE SUN-30K-SG01HP3-EU-BM3, 30kW, ... | 4032.90 € | **4018.50 €** | 5.4 % | **5.0 %** | 3982.89 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Solight predlžovací prívod - spojka, 1 zásuvka, čier... | 124.90 € | **112.50 €** | 18.3 % | **6.5 %** | 112.90 € | cena podľa najlacnejšieho iného predajcu |
+| Redmi Pad 2 4/256 GB zelená (79232) | 262.00 € | **250.50 €** | 10.0 % | **5.2 %** | 207.70 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Mobil Xiaomi Redmi Note 17,4/128 GB, čierny | 241.50 € | **230.50 €** | 10.2 % | **5.2 %** | 168.20 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Horkovzdušná fritéza TEESA TSA8089 AIR FRYER DUAL PO... | 82.00 € | **71.50 €** | 20.5 % | **5.0 %** | 71.79 € | cena podľa najlacnejšieho iného predajcu |
+| IMOU N110W 10-kanálový IP videorekordér | 82.50 € | **72.90 €** | 19.3 % | **5.5 %** | 64.35 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| CANON i-SENSYS MF3010 | 202.90 € | **193.90 €** | 10.0 % | **5.1 %** | 152.41 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| FIXED MagCool 2,MagSafe FIXMCO2-BK | 40.00 € | **31.00 €** | 49.4 % | **15.8 %** | 31.33 € | cena podľa najlacnejšieho iného predajcu |
+| Gimbal Hohem iSteady Mobile+ | 79.50 € | **72.00 €** | 45.6 % | **31.9 %** | 72.24 € | cena podľa najlacnejšieho iného predajcu |
+| Baterie olověná  12V / 75Ah  VIPOW bezúdržbový akumu... | 121.00 € | **114.00 €** | 24493.5 % | **23070.7 %** | 114.38 € | cena podľa najlacnejšieho iného predajcu |
+| Pedrini Infinity červená 6 porcí | 41.50 € | **35.00 €** | 26.5 % | **6.7 %** | 35.41 € | cena podľa najlacnejšieho iného predajcu |
+| Beko B7RCNA418HXP | 798.90 € | **792.50 €** | 13.3 % | **12.4 %** | 792.90 € | cena podľa najlacnejšieho iného predajcu |
+| Beko FRL5388B | 134.90 € | **128.90 €** | 10.2 % | **5.3 %** | 119.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| TEESA AIR FRYER TSA8046W | 53.50 € | **48.00 €** | 19.1 % | **6.9 %** | 48.09 € | cena podľa najlacnejšieho iného predajcu |
+| Sada filtrov FREEWELL pre DJI Mavic 4 Pro Gradient (... | 49.90 € | **44.90 €** | 25.8 % | **13.2 %** | 45.00 € | cena podľa najlacnejšieho iného predajcu |
+| Záložný zdroj Rebel POWER 1000 RB-4013 700W 12V nást... | 116.50 € | **111.90 €** | 9.5 % | **5.2 %** | 108.99 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Ottocast Play2Video Plus Carplay/Android Auto bezdrô... | 74.00 € | **69.90 €** | 38.7 % | **31.0 %** | 69.92 € | cena podľa najlacnejšieho iného predajcu |
+| Solight dezinfekčná UV lampa 100W | 49.50 € | **45.50 €** | 49.7 % | **37.6 %** | 45.90 € | cena podľa najlacnejšieho iného predajcu |
+| Beko FRL5474B | 73.50 € | **70.00 €** | 10.4 % | **5.1 %** | 70.00 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Bezdrôtový adaptér Carlinkit AIR X1 Carplay/Android ... | 48.00 € | **44.50 €** | 51.7 % | **40.6 %** | 44.79 € | cena podľa najlacnejšieho iného predajcu |
+| Blender G21 Experience White | 253.90 € | **250.50 €** | 18.3 % | **16.7 %** | 250.73 € | cena podľa najlacnejšieho iného predajcu |
+| Baterie olověná  12V/17Ah  REBEL | 29.90 € | **26.50 €** | 19.1 % | **5.6 %** | 21.34 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Sada filtrov Freewell pre DJI Mini 5 Pro Bright Day | 64.00 € | **60.90 €** | 22.2 % | **16.3 %** | 61.00 € | cena podľa najlacnejšieho iného predajcu |
+| Presný klešťový multimeter Uni-T 60A UT211B | 108.00 € | **105.00 €** | 12.3 % | **9.1 %** | 105.39 € | cena podľa najlacnejšieho iného predajcu |
+| Batéria Jupio AAA 1000 mAh (mikrotužkové) 4ks, dobíj... | 11.50 € | **8.60 €** | 46.1 % | **9.2 %** | 8.66 € | cena podľa najlacnejšieho iného predajcu |
+| Inverto HOME Pro - Quattro Universal 40mm PLL LNB | 18.50 € | **15.90 €** | 24.0 % | **6.6 %** | 11.99 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Žehlička Berlingerhaus naparovacia 2200 W Taupe Coll... | 36.00 € | **33.50 €** | 16.0 % | **7.9 %** | 33.57 € | cena podľa najlacnejšieho iného predajcu |
+| GODOX CS-85D Softbox | 74.50 € | **72.00 €** | 23.1 % | **19.0 %** | 72.26 € | cena podľa najlacnejšieho iného predajcu |
+| Prijímač BOYA BY-WM3U bezdrátový, dosah 20m | 81.90 € | **79.50 €** | 8.7 % | **5.6 %** | 46.84 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Vrecká na odpadky pre Petkit litter box Purobot ULTR... | 31.90 € | **29.50 €** | 15.1 % | **6.4 %** | 29.49 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Gimbal iSteady MT3 | 280.00 € | **277.90 €** | 31.8 % | **30.8 %** | 277.98 € | cena podľa najlacnejšieho iného predajcu |
+| Solární regulátor PWM Epever LS2024B, 12/24V, 20A | 39.50 € | **37.50 €** | 11.0 % | **5.3 %** | 34.09 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| AMICA PIH6541PHTSUN 3.0 BL MATT | 394.90 € | **392.90 €** | 6.7 % | **6.1 %** | 393.00 € | cena podľa najlacnejšieho iného predajcu |
+| Aróma difuzér Sixtol Car Flame do auta čierny 100ml,... | 15.50 € | **13.50 €** | 28.1 % | **11.5 %** | 13.71 € | cena podľa najlacnejšieho iného predajcu |
+| Kamera IP vnitřní Kruger&Matz Connect C25 2K Tuya Wi-Fi | 38.50 € | **36.50 €** | 26.8 % | **20.2 %** | 36.89 € | cena podľa najlacnejšieho iného predajcu |
+| TESLA TE-2800 PW venkovní anténa pro DVB-T2, 470-790... | 33.00 € | **31.00 €** | 12.7 % | **5.9 %** | 31.49 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED žiarivka lineárna T8, 18W, 2520lm, 6000K... | 6.90 € | **5.30 €** | 156.2 % | **96.8 %** | 5.40 € | cena podľa najlacnejšieho iného predajcu |
+| Sada 8 filtrov Freewell DJI Osmo Pocket 3 | 80.50 € | **78.90 €** | 8.2 % | **6.0 %** | 79.00 € | cena podľa najlacnejšieho iného predajcu |
+| Paddleboard Jbay Zone J2 Comet 320x81x15, 145 Kg, Th... | 322.00 € | **320.50 €** | 6.9 % | **6.4 %** | 320.64 € | cena podľa najlacnejšieho iného predajcu |
+| Lamp LED Neewer GL1C RGB 48W 2900-7000K | 151.00 € | **149.50 €** | 40.4 % | **39.0 %** | 149.65 € | cena podľa najlacnejšieho iného predajcu |
+| Sada pro přežití LEVENHUK LabZZ SK40 | 44.00 € | **42.50 €** | 10.1 % | **6.3 %** | 42.79 € | cena podľa najlacnejšieho iného predajcu |
+| Wireless adapter, Ottocast, CP82, U2-AIR PRO Carplay... | 55.00 € | **53.50 €** | 32.4 % | **28.8 %** | 53.84 € | cena podľa najlacnejšieho iného predajcu |
+| Vysavač akumulátorový  TEESA TSA5055 SWEEPER 9000 2v1 | 92.50 € | **91.00 €** | 15.4 % | **13.5 %** | 91.39 € | cena podľa najlacnejšieho iného predajcu |
+| Domo DO 264 AP | 59.00 € | **57.50 €** | 10.1 % | **7.3 %** | 57.90 € | cena podľa najlacnejšieho iného predajcu |
+| FIXED 2 skla SG A37 5G FIXGFADA-1702-BK | 13.00 € | **11.50 €** | 30.6 % | **15.6 %** | 11.90 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED žiarivka lineárna T8, 9W, 1260lm, 6000K,... | 5.40 € | **4.00 €** | 150.9 % | **85.8 %** | 4.10 € | cena podľa najlacnejšieho iného predajcu |
+| TEFAL KO 250830 | 35.90 € | **34.50 €** | 10.8 % | **6.4 %** | 30.85 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Motor na ovládanie závesov SwitchBot Rod 2 (biely) | 54.90 € | **53.50 €** | 25.6 % | **22.4 %** | 53.90 € | cena podľa najlacnejšieho iného predajcu |
+| Inteligentný spínací modul ZigBee Avatto ZWSM16-W1 TUYA | 9.50 € | **8.40 €** | 38.7 % | **22.6 %** | 8.49 € | cena podľa najlacnejšieho iného predajcu |
+| Baterie LiFePO4 12,8V 100Ah MHPower MS100-12(L) LC4-M8 | 249.00 € | **247.90 €** | 7.6 % | **7.1 %** | 247.92 € | cena podľa najlacnejšieho iného predajcu |
+| Paddleboard Jbay Zone H1 Kame 297x76x15, 120 Kg, All... | 221.50 € | **220.50 €** | 5.8 % | **5.3 %** | 220.56 € | cena podľa najlacnejšieho iného predajcu |
+| Paddleboard Jbay Zone H3 Kame 297x81x10, 99 Kg, All ... | 221.50 € | **220.50 €** | 5.8 % | **5.3 %** | 220.56 € | cena podľa najlacnejšieho iného predajcu |
+| Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (č... | 255.90 € | **254.90 €** | 11.9 % | **11.5 %** | 255.00 € | cena podľa najlacnejšieho iného predajcu |
+| UREVO Cyberpad pre elektrický bežecký pás Office 2 (... | 396.90 € | **395.90 €** | 5.9 % | **5.7 %** | 396.00 € | cena podľa najlacnejšieho iného predajcu |
+| UREVO Foldi 3S Smart elektrický bežecký pás (čierny) | 398.90 € | **397.90 €** | 5.8 % | **5.5 %** | 398.00 € | cena podľa najlacnejšieho iného predajcu |
+| Magnetický veslařský trenažér HMS ZM1502 | 228.90 € | **227.90 €** | 41255.0 % | **41074.3 %** | 228.00 € | cena podľa najlacnejšieho iného predajcu |
+| Veslařský trenažér HMS Premium ZW1600 | 666.90 € | **665.90 €** | 120387.8 % | **120207.1 %** | 666.00 € | cena podľa najlacnejšieho iného predajcu |
+| Veslovací trenažér se vzduchovým odporem HMS ZP6591 | 364.90 € | **363.90 €** | 65825.9 % | **65645.3 %** | 364.00 € | cena podľa najlacnejšieho iného predajcu |
+| Baterie LiFePO4 12,8V  75Ah MHPower MS75-12(L) LC5-M8 | 217.00 € | **216.00 €** | 10.6 % | **10.1 %** | 216.12 € | cena podľa najlacnejšieho iného predajcu |
+| Bezdrátové digitální bazénové čidlo GARNI 065P | 22.50 € | **21.50 €** | 14.3 % | **9.2 %** | 21.64 € | cena podľa najlacnejšieho iného predajcu |
+| Televes AVANT 12 LITE 532210 (105 dBµV max., 5G LTE) | 353.50 € | **352.50 €** | 36.1 % | **35.7 %** | 352.70 € | cena podľa najlacnejšieho iného predajcu |
+| Záložní zdroj VOLT POLSKA SINUS UPS 800 + AKU 55Ah /... | 274.00 € | **273.00 €** | 20.4 % | **19.9 %** | 273.30 € | cena podľa najlacnejšieho iného predajcu |
+| Solight koaxiálny kábel CC120, voľne, 100m | 26.00 € | **25.00 €** | 42.7 % | **37.2 %** | 25.33 € | cena podľa najlacnejšieho iného predajcu |
+| Aróma difuzér Sixtol Palm šedý lesk 500 ml | 22.00 € | **21.00 €** | 10.1 % | **5.1 %** | 21.39 € | cena podľa najlacnejšieho iného predajcu |
+| Digitálny multimeter UNI-T UT118B | 28.00 € | **27.00 €** | 17.7 % | **13.5 %** | 27.39 € | cena podľa najlacnejšieho iného predajcu |
+| Solight predlžovací prívod IP44, 3 zásuvky, gumový k... | 21.50 € | **20.50 €** | 22.4 % | **16.7 %** | 20.90 € | cena podľa najlacnejšieho iného predajcu |
+| Schodík pred mačaciu toaletu Catlink Scooper (sivé) | 85.00 € | **84.00 €** | 14.9 % | **13.5 %** | 84.42 € | cena podľa najlacnejšieho iného predajcu |
+| Niceboy ORYX X220 Iris | 20.50 € | **19.90 €** | 15.8 % | **12.4 %** | 20.00 € | cena podľa najlacnejšieho iného predajcu |
+| Solight magnetický USB-C 3.1 kábel, USB-C konektor -... | 4.40 € | **3.80 €** | 52.9 % | **32.0 %** | 3.87 € | cena podľa najlacnejšieho iného predajcu |
+| Vysoko presný ručný LCR meter FNIRSI LC1020E | 62.00 € | **61.50 €** | 6.7 % | **5.8 %** | 56.15 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Leifheit Stěrka na okna s kartáčem a tel | 18.00 € | **17.50 €** | 8.5 % | **5.5 %** | 12.99 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Solight USB kábel, USB 2.0 A konektor - USB B micro ... | 4.00 € | **3.50 €** | 53.4 % | **34.2 %** | 3.51 € | cena podľa najlacnejšieho iného predajcu |
+| Beko PowerIntense BDFN26560XP | 541.50 € | **541.00 €** | 6.8 % | **6.7 %** | 541.07 € | cena podľa najlacnejšieho iného predajcu |
+| Záložný zdroj REBEL POWER 1000 RB-4003 700W 12V | 107.50 € | **107.00 €** | 6.1 % | **5.6 %** | 107.09 € | cena podľa najlacnejšieho iného predajcu |
+| Mixed Cat Litter 7L Petkit | 12.00 € | **11.50 €** | 15.5 % | **10.6 %** | 11.64 € | cena podľa najlacnejšieho iného predajcu |
+| Súprava celodenných filtrov Freewell Real Locking s ... | 225.50 € | **225.00 €** | 17.8 % | **17.6 %** | 225.18 € | cena podľa najlacnejšieho iného predajcu |
+| Baterie olověná  12V / 55Ah  VIPOW bezúdržbový akumu... | 89.50 € | **89.00 €** | 20112.3 % | **19999.4 %** | 89.19 € | cena podľa najlacnejšieho iného predajcu |
+| Záložní zdroj VOLT POLSKA SINUS UPS 500 + AKU 40Ah /... | 234.50 € | **234.00 €** | 24.9 % | **24.6 %** | 234.20 € | cena podľa najlacnejšieho iného predajcu |
+| Baterie LiFePO4 12,8V 33Ah VOLT+ bezúdržbový systém BMS | 124.00 € | **123.50 €** | 20.0 % | **19.5 %** | 123.70 € | cena podľa najlacnejšieho iného predajcu |
+| Sada 6 filtrov Freewell Bright Day pre DJI Flip | 39.50 € | **39.00 €** | 37.4 % | **35.7 %** | 39.20 € | cena podľa najlacnejšieho iného predajcu |
+| Stan Puluz 80 cm bez tieňov s LED svietidlom s výkon... | 69.50 € | **69.00 €** | 6.3 % | **5.5 %** | 69.21 € | cena podľa najlacnejšieho iného predajcu |
+| Blender G21 Experience Graphite Black | 251.00 € | **250.50 €** | 16.9 % | **16.7 %** | 250.73 € | cena podľa najlacnejšieho iného predajcu |
+| Detektor kovov Garrett ACE Apex | 493.50 € | **493.00 €** | 28.3 % | **28.2 %** | 493.26 € | cena podľa najlacnejšieho iného predajcu |
+| Bezdrôtový adaptér Carlinkit 2AIR | 31.00 € | **30.50 €** | 7.2 % | **5.5 %** | 30.79 € | cena podľa najlacnejšieho iného predajcu |
+| Měnič napětí GETI GPIU 1012S 12V/230V 1000W | 152.00 € | **151.50 €** | 5.5 % | **5.2 %** | 151.79 € | cena podľa najlacnejšieho iného predajcu |
+| Budík analogový TechnoLine WT 757W | 26.00 € | **25.50 €** | 8.3 % | **6.3 %** | 25.79 € | cena podľa najlacnejšieho iného predajcu |
+| Budík digitální projekční TechnoLine WT 538 | 32.50 € | **32.00 €** | 7.5 % | **5.8 %** | 32.29 € | cena podľa najlacnejšieho iného predajcu |
+| Digitálny klešťový multimeter Uni-T UT203R | 52.00 € | **51.50 €** | 11.3 % | **10.2 %** | 51.79 € | cena podľa najlacnejšieho iného predajcu |
+| Detektor oxidu uhličitého CO2 Levenhuk Wezzer PLUS LP90 | 52.50 € | **52.00 €** | 9.1 % | **8.0 %** | 52.29 € | cena podľa najlacnejšieho iného predajcu |
+| Sada náhradních filtrů GARNI AC 15T / GARNI AH 15T | 46.50 € | **46.00 €** | 10.7 % | **9.5 %** | 46.29 € | cena podľa najlacnejšieho iného predajcu |
+| Sada náhradních filtrů GARNI AC 45T / GARNI AH 45T | 61.50 € | **61.00 €** | 12.0 % | **11.1 %** | 61.29 € | cena podľa najlacnejšieho iného predajcu |
+| AMIKO diaľkové ovládanie Univerzálny, HD - SD | 12.50 € | **12.00 €** | 9.7 % | **5.4 %** | 12.29 € | cena podľa najlacnejšieho iného predajcu |
+| Barkan 4400 polohovací držák pro TV 32"-80" | 81.50 € | **81.00 €** | 15.5 % | **14.8 %** | 81.29 € | cena podľa najlacnejšieho iného predajcu |
+| CP-UNC-C30L1-VMW 3.0Mpix vnitřní IP kamera s IR přís... | 75.50 € | **75.00 €** | 16.0 % | **15.3 %** | 75.29 € | cena podľa najlacnejšieho iného predajcu |
+| CP PLUS CP-USC-DC51PL2-V3-0360 5.0 Mpix vnitřní dome... | 64.50 € | **64.00 €** | 14.4 % | **13.6 %** | 64.29 € | cena podľa najlacnejšieho iného predajcu |
+| Mascom Monoblok Twin MCM4T01HD Gold LNB 4,3st | 31.00 € | **30.50 €** | 11.6 % | **9.8 %** | 30.79 € | cena podľa najlacnejšieho iného predajcu |
+| Meteorologická stanice TechnoLine WS 9251 | 52.50 € | **52.00 €** | 6.2 % | **5.2 %** | 52.29 € | cena podľa najlacnejšieho iného predajcu |
+| Stabilizátor napětí KEMOT SER-2000 URZ3413 s opožděn... | 58.50 € | **58.00 €** | 17.8 % | **16.8 %** | 58.29 € | cena podľa najlacnejšieho iného predajcu |
+| GARNI GAR 175 USB datalogger pro měření teploty a re... | 83.50 € | **83.00 €** | 13.4 % | **12.7 %** | 83.29 € | cena podľa najlacnejšieho iného predajcu |
+| MASCOM MC820T2 HD DVB-T2 H.265/HEVC | 35.00 € | **34.50 €** | 14.3 % | **12.6 %** | 34.79 € | cena podľa najlacnejšieho iného predajcu |
+| Záložný zdroj KEMOT PROsinus 1500/24 URZ3427 1050W 24V | 135.50 € | **135.00 €** | 13.9 % | **13.5 %** | 135.29 € | cena podľa najlacnejšieho iného predajcu |
+| Anténní zesilovač EVERCON AM-797 5G | 20.50 € | **20.00 €** | 16.9 % | **14.0 %** | 20.29 € | cena podľa najlacnejšieho iného predajcu |
+| Ivo DVBR-03 aktivní rozbočovač 4x výstup"F" 5dB zisk | 27.00 € | **26.50 €** | 18.9 % | **16.7 %** | 26.79 € | cena podľa najlacnejšieho iného predajcu |
+| Victrola VTA-830SB-BLK Century Signature | 180.00 € | **179.50 €** | 10.4 % | **10.1 %** | 179.80 € | cena podľa najlacnejšieho iného predajcu |
+| Vysávač TP-Link Tapo RV30 Max White robotický s mopo... | 142.00 € | **141.50 €** | 7.0 % | **6.6 %** | 141.83 € | cena podľa najlacnejšieho iného predajcu |
+| JBL Easy sing mics | 160.00 € | **159.50 €** | 13.4 % | **13.0 %** | 159.86 € | cena podľa najlacnejšieho iného predajcu |
+| Dávkovač krmiva PETKIT Fresh Element SOLO, 3 l | 73.50 € | **73.00 €** | 7.4 % | **6.7 %** | 73.36 € | cena podľa najlacnejšieho iného predajcu |
+| Blender G21 Perfection red | 209.00 € | **208.50 €** | 16.8 % | **16.6 %** | 208.87 € | cena podľa najlacnejšieho iného predajcu |
+| Stolná lampa YEELIGHT D1 Matter | 77.50 € | **77.00 €** | 33.3 % | **32.4 %** | 77.38 € | cena podľa najlacnejšieho iného predajcu |
+| Leifheit Sušák na prádlo Classic Extenda | 54.00 € | **53.50 €** | 17.1 % | **16.1 %** | 53.89 € | cena podľa najlacnejšieho iného predajcu |
+| LEIFHEIT Sušák na prádlo QUARTETT Duo | 18.50 € | **18.00 €** | 9.7 % | **6.7 %** | 18.39 € | cena podľa najlacnejšieho iného predajcu |
+| Merač LCR Uni-T UT612 | 134.50 € | **134.00 €** | 12.2 % | **11.8 %** | 134.39 € | cena podľa najlacnejšieho iného predajcu |
+| Digitálny mikroohmmer Uni-T UT620C+ | 178.50 € | **178.00 €** | 5.5 % | **5.2 %** | 178.39 € | cena podľa najlacnejšieho iného predajcu |
+| Bezdrôtový robot na čistenie bazénov WYBOT F1 | 301.00 € | **300.50 €** | 6.1 % | **6.0 %** | 300.89 € | cena podľa najlacnejšieho iného predajcu |
+| Uni-T UT663B endoskop | 154.00 € | **153.50 €** | 14.0 % | **13.6 %** | 153.89 € | cena podľa najlacnejšieho iného predajcu |
+| Uni-T UT663B-2m endoskop | 189.50 € | **189.00 €** | 14.0 % | **13.7 %** | 189.39 € | cena podľa najlacnejšieho iného predajcu |
+| Uni-T UT663B-3m endoskop | 253.00 € | **252.50 €** | 14.3 % | **14.1 %** | 252.89 € | cena podľa najlacnejšieho iného predajcu |
+| Merač teploty a vlhkosti Uni-T UT332+ | 59.00 € | **58.50 €** | 8.4 % | **7.5 %** | 58.89 € | cena podľa najlacnejšieho iného predajcu |
+| Infračervený teplomer Uni-T UT301D+ | 51.00 € | **50.50 €** | 6.6 % | **5.5 %** | 50.89 € | cena podľa najlacnejšieho iného predajcu |
+| Kontaktný teplomer Uni-T UT325 | 78.50 € | **78.00 €** | 9.1 % | **8.4 %** | 78.39 € | cena podľa najlacnejšieho iného predajcu |
+| Uni-T UT362H Anemometer | 166.50 € | **166.00 €** | 12.5 % | **12.2 %** | 166.39 € | cena podľa najlacnejšieho iného predajcu |
+| Solární regulátor MPPT ECO SOLAR BOOST EVO MPPT-4000... | 323.50 € | **323.00 €** | 10.8 % | **10.6 %** | 323.39 € | cena podľa najlacnejšieho iného predajcu |
+| Regulátor Geti GWH04W solárny MPPT 5 kW na ohrev vod... | 354.00 € | **353.50 €** | 35.3 % | **35.1 %** | 353.89 € | cena podľa najlacnejšieho iného predajcu |
+| Merač izolačného odporu pri vysokom napätí Uni-T UT512 | 149.50 € | **149.00 €** | 12.3 % | **11.9 %** | 149.39 € | cena podľa najlacnejšieho iného predajcu |
+| Klimatizace GETI GKH18K hybridní 5kW | 1289.50 € | **1289.00 €** | 7.5 % | **7.4 %** | 1289.39 € | cena podľa najlacnejšieho iného predajcu |
+| Pec na pizzu TEESA TSA3240 SUPREME ELITE 2200 W mult... | 140.50 € | **140.00 €** | 9.2 % | **8.8 %** | 140.39 € | cena podľa najlacnejšieho iného predajcu |
+| Pec na pizzu TEESA TSA3241-B SUPREME FUN 1200W | 56.00 € | **55.50 €** | 16.9 % | **15.9 %** | 55.89 € | cena podľa najlacnejšieho iného predajcu |
+| Vákuovačka G21 Onyx | 55.00 € | **54.50 €** | 10.4 % | **9.4 %** | 54.89 € | cena podľa najlacnejšieho iného predajcu |
+| CP-UNC-DA21PL3C-V3-0360  2.0 Mpix venkovní IP dome k... | 94.00 € | **93.50 €** | 18.0 % | **17.4 %** | 93.89 € | cena podľa najlacnejšieho iného predajcu |
+| Kamera TESLA SecureQ SC55 - venkovní WiFi smart kame... | 49.50 € | **49.00 €** | 9.3 % | **8.2 %** | 49.39 € | cena podľa najlacnejšieho iného predajcu |
+| Baterie LiFePO4 51,2V 100Ah GETI GBLW-51-100V2 nástěnná | 931.00 € | **930.50 €** | 5.2 % | **5.1 %** | 930.89 € | cena podľa najlacnejšieho iného predajcu |
+| Meteorologická stanice GARNI 750 | 113.50 € | **113.00 €** | 9.8 % | **9.4 %** | 113.39 € | cena podľa najlacnejšieho iného predajcu |
+| D-LINK 4G LTE USB Adaptér (DWM-222W) | 52.50 € | **52.00 €** | 11.6 % | **10.5 %** | 52.39 € | cena podľa najlacnejšieho iného predajcu |
+| Rádio KRUGER & MATZ KM0838 SOS FM/ AM, powerbanka 10... | 44.00 € | **43.50 €** | 11.9 % | **10.6 %** | 43.89 € | cena podľa najlacnejšieho iného predajcu |
+| Záložný zdroj KEMOT PROsinus URZ3411 1600W 12V nástenný | 240.00 € | **239.50 €** | 9.2 % | **9.0 %** | 239.89 € | cena podľa najlacnejšieho iného predajcu |
+| Stabilizátor napětí KEMOT SHB-3000 URZ3415 s opožděn... | 133.50 € | **133.00 €** | 7.6 % | **7.2 %** | 133.39 € | cena podľa najlacnejšieho iného predajcu |
+| Záložný zdroj REBEL POWER 800 LFP4 RB-4027 500W 12V | 91.50 € | **91.00 €** | 9.7 % | **9.1 %** | 91.39 € | cena podľa najlacnejšieho iného predajcu |
+| Johansson 6711 Revolution programovatelný zesilovač | 206.00 € | **205.50 €** | 8.9 % | **8.6 %** | 205.89 € | cena podľa najlacnejšieho iného predajcu |
+| Johansson 6714 Profino Revolution Lite programovatel... | 193.50 € | **193.00 €** | 9.9 % | **9.6 %** | 193.39 € | cena podľa najlacnejšieho iného predajcu |
+| Súprava inteligentného solárneho vodného čerpadla s ... | 65.50 € | **65.00 €** | 22.2 % | **21.2 %** | 65.39 € | cena podľa najlacnejšieho iného predajcu |
+| Whirlpool C WD 84M WBS CZ | 633.00 € | **632.50 €** | 5.5 % | **5.4 %** | 632.89 € | cena podľa najlacnejšieho iného predajcu |
+| Whirlpool C WD 94M WBS CZ | 669.50 € | **669.00 €** | 8.2 % | **8.2 %** | 669.39 € | cena podľa najlacnejšieho iného predajcu |
+| Odpojená indukčná varná doska IsEasy LI2V-15 | 86.50 € | **86.00 €** | 10.3 % | **9.7 %** | 86.39 € | cena podľa najlacnejšieho iného predajcu |
+| Solight pištoľ spájkovacia 100W sada | 12.00 € | **11.50 €** | 18.4 % | **13.5 %** | 11.90 € | cena podľa najlacnejšieho iného predajcu |
+| CP-UNC-TA41L3C-L 4.0 Mpix venkovní IP kamera s duáln... | 105.50 € | **105.00 €** | 19.4 % | **18.8 %** | 105.40 € | cena podľa najlacnejšieho iného predajcu |
+| Solight LED reflektor, 50W, prenosný, nabijací, 5000... | 41.50 € | **41.00 €** | 29.9 % | **28.3 %** | 41.42 € | cena podľa najlacnejšieho iného predajcu |
+| AI-NC-T50L3-MW-0360 5.0 Mpix venkovní IP kamera s IR... | 136.50 € | **136.00 €** | 18.2 % | **17.7 %** | 136.42 € | cena podľa najlacnejšieho iného predajcu |
+| LED čelovka Cattara 570lm ZOOM nabíjecí | 16.50 € | **16.00 €** | 15.1 % | **11.7 %** | 16.43 € | cena podľa najlacnejšieho iného predajcu |
+| Ariete Handy Force One 2v1, 2708 | 52.50 € | **52.00 €** | 6.7 % | **5.6 %** | 52.45 € | cena podľa najlacnejšieho iného predajcu |
+| CP-UNC-DA41PL3-D-0360 4.0Mpix venkovní IP dome kamer... | 121.50 € | **121.00 €** | 13.7 % | **13.3 %** | 121.47 € | cena podľa najlacnejšieho iného predajcu |
+| Masážny prístroj na nohy a lýtka Shiatsu, REBEL ACTI... | 32.50 € | **32.00 €** | 7.3 % | **5.6 %** | 32.48 € | cena podľa najlacnejšieho iného predajcu |
+| Hrniec Berlingerhaus s mramorovým povrchom 28 cm Bla... | 47.50 € | **47.00 €** | 6.2 % | **5.1 %** | 47.49 € | cena podľa najlacnejšieho iného predajcu |
+| Termoska G21 na pitie, 500 ml, oceľovo šedá | 14.50 € | **14.00 €** | 15.9 % | **11.9 %** | 14.49 € | cena podľa najlacnejšieho iného predajcu |
+| Fixed sklo SamsG TabA11/A9 FIXGT-1650-TR | 19.50 € | **19.00 €** | 52.1 % | **48.2 %** | 19.50 € | cena podľa najlacnejšieho iného predajcu |
+| Fixed puzdro SamsGTA11+ / A9+ FIXTOT-1651 | 19.50 € | **19.00 €** | 29.2 % | **25.9 %** | 19.50 € | cena podľa najlacnejšieho iného predajcu |
+| GameSir X5 Lite BK – mobilný herný ovládač USB-C, či... | 39.50 € | **39.00 €** | 78.7 % | **76.4 %** | 39.50 € | cena podľa najlacnejšieho iného predajcu |
+| Planetárium Levenhuk Star Sky P1 | 23.50 € | **23.00 €** | 8.6 % | **6.3 %** | 23.50 € | cena podľa najlacnejšieho iného predajcu |
+| Bezdrôtové slúchadlá OneOdio Studio Max 1 (čierne) | 126.90 € | **126.50 €** | 24.8 % | **24.4 %** | 126.72 € | cena podľa najlacnejšieho iného predajcu |
+| Johansson KIT 7473 L2 zesilovač + zdroj (2437) | 108.90 € | **108.50 €** | 8.4 % | **8.0 %** | 108.79 € | cena podľa najlacnejšieho iného predajcu |
+| GARNI GAR 191 USB datalogger pro měření teploty a re... | 82.90 € | **82.50 €** | 21.7 % | **21.1 %** | 82.84 € | cena podľa najlacnejšieho iného predajcu |
+| Závesná LED vianočná hviezda Solight 1V310, 40 cm, 1... | 5.10 € | **4.70 €** | 54.1 % | **42.0 %** | 4.80 € | cena podľa najlacnejšieho iného predajcu |
+| Leifheit Sušák Classic 250 Flex | 31.90 € | **31.50 €** | 13.4 % | **12.0 %** | 31.79 € | cena podľa najlacnejšieho iného predajcu |
+| Laserový diaľkomer Uni-T LM40T | 27.90 € | **27.50 €** | 8.5 % | **7.0 %** | 27.89 € | cena podľa najlacnejšieho iného predajcu |
+| Pristávacia podložka pre drony Sunnylife 80 cm šesťu... | 45.90 € | **45.50 €** | 89.2 % | **87.6 %** | 45.89 € | cena podľa najlacnejšieho iného predajcu |
+| Zastrihávač pre domáce zvieratá 2v1 Petkit | 22.90 € | **22.50 €** | 24.2 % | **22.0 %** | 22.89 € | cena podľa najlacnejšieho iného predajcu |
+| Príslušenstvo TP-Link Tapo RVA500 nádobka na prach p... | 33.90 € | **33.50 €** | 8.9 % | **7.6 %** | 33.90 € | cena podľa najlacnejšieho iného predajcu |
+| Paddleboard Capriolo Blue C PRO 335 x 83x 15 cm, 150 kg | 266.00 € | **265.90 €** | 7.3 % | **7.3 %** | 265.96 € | cena podľa najlacnejšieho iného predajcu |
+| Tréninkový blok DBX BUSHIDO KS-3 | 58.00 € | **57.90 €** | 5.5 % | **5.3 %** | 39.99 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Skládací koloběžka NILS Extreme HM2009 šedá | 46.00 € | **45.90 €** | 5.2 % | **5.0 %** | 44.90 € | cena podľa najlacnejšieho iného predajcu; obmedzené min. prirážkou (floor) |
+| Ručný multimeter do auta UNI-T UT107 | 26.00 € | **25.90 €** | 6.1 % | **5.7 %** | 25.99 € | cena podľa najlacnejšieho iného predajcu |
+| Uni-T UT261B – tester fáz a smeru otáčania motora | 42.00 € | **41.90 €** | 10.0 % | **9.7 %** | 41.99 € | cena podľa najlacnejšieho iného predajcu |
+| Monitorovacie zariadenia Uni-T A25D na meranie PM2,5 | 52.00 € | **51.90 €** | 7.3 % | **7.1 %** | 51.99 € | cena podľa najlacnejšieho iného predajcu |
+| Rapoo E9270p bezdrátová klávesnice černá | 37.00 € | **36.90 €** | 7.8 % | **7.5 %** | 36.99 € | cena podľa najlacnejšieho iného predajcu |
+| Inteligentná nabíjačka SkyRC S100neo AC/DC | 51.00 € | **50.90 €** | 35.7 % | **35.4 %** | 50.99 € | cena podľa najlacnejšieho iného predajcu |
+| Aróma difuzér Sixtol Bloom čierny lesk 200 ml | 13.00 € | **12.90 €** | 6.3 % | **5.5 %** | 12.99 € | cena podľa najlacnejšieho iného predajcu |
+| Teplovzdušný ventilátor TEESA TSA8027 | 14.00 € | **13.90 €** | 11.0 % | **10.3 %** | 14.00 € | cena podľa najlacnejšieho iného predajcu |
+| Solight stĺpcový filter pre Dyson V12 | 9.50 € | **9.40 €** | 100.1 % | **98.0 %** | 9.50 € | cena podľa najlacnejšieho iného predajcu |
+| Odšťavovač G21 Gracioso horizontal | 202.00 € | **201.90 €** | 12.9 % | **12.8 %** | 201.91 € | cena podľa najlacnejšieho iného predajcu |
+| CP-UNC-TA21PL3C-V3 2.0 Mpix venkovní IP kamera s IR ... | 77.00 € | **76.90 €** | 17.6 % | **17.5 %** | 76.94 € | cena podľa najlacnejšieho iného predajcu |
+| Blesk GODOX TT685II TTL pre Sony | 127.00 € | **126.90 €** | 6.6 % | **6.5 %** | 126.96 € | cena podľa najlacnejšieho iného predajcu |
+| CP-UNC-TB21L3-MDS-V2-0360 2.0 Mpix venkovní IP kamer... | 120.00 € | **119.90 €** | 13.7 % | **13.6 %** | 119.97 € | cena podľa najlacnejšieho iného predajcu |
+| CP-UNC-WC21L5C-MDS 2.0 Mpix venkovní IP kamera dome ... | 170.00 € | **169.90 €** | 18.5 % | **18.4 %** | 169.99 € | cena podľa najlacnejšieho iného predajcu |
+| Skladací elektrický bežecký pás ACEZOE P12 (čierny a... | 226.00 € | **225.90 €** | 43.8 % | **43.7 %** | 225.99 € | cena podľa najlacnejšieho iného predajcu |
+| Skladací elektrický bežecký pás ACEZOE P12 (čierny a... | 226.00 € | **225.90 €** | 35.5 % | **35.5 %** | 225.99 € | cena podľa najlacnejšieho iného predajcu |
