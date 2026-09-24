@@ -28,3 +28,16 @@ Pre návrat obnoviť pôvodné CSS a JS zo záložnej vetvy a znovu publikovať 
 ## Mobilná pätička
 
 Pod 768 px sú sekcie Nakupovanie, Sortiment a Užitočné informácie predvolene zbalené. Nadpisy sú tlačidlá ovládateľné aj klávesnicou s aria-expanded a aria-controls. Kontakt zostáva viditeľný. Od 768 px sú všetky odkazy zobrazené; od 992 px zostáva pôvodné štvorstĺpcové rozloženie. Pri zmene šírky sa stav synchronizuje; mobil si zachová otvorené sekcie.
+
+## Globálny kompaktný filter kategórií
+
+Na všetky kategórie Shoptetu sa aktivuje samostatnými súbormi. Existujúce štýly hlavičky ani pôvodný skript sa nemenia.
+
+CSS pridať do hlavičky a JavaScript do pätičky pred koniec BODY:
+
+```html
+<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.css?v=1">
+<script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.js?v=1"></script>
+```
+
+Zmenené sú iba stránky kategórií. Filter používa natívne formuláre Shoptetu, cenu, značky a ďalšie existujúce skupiny. Dlhé zoznamy majú vyhľadávanie. Samostatný filter dostupnosti sa skryje podľa obchodného pravidla, že všetok ponúkaný sortiment je skladom. Mobilný panel sa otvára zdola; desktopový panel sa zobrazí pri tlačidlách filtrov. Pri návrate odstrániť oba nové odkazy z HTML kódov; pôvodné súbory stránky ostanú nedotknuté.
