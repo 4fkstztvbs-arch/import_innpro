@@ -1,10 +1,12 @@
-/* Light visual cleanup for the native Shoptet category filters.
-   No markup, filter behavior, panel layout, or scrolling is changed. */
+/* Friendlier visual treatment for native Shoptet category filters.
+   Keeps Shoptet markup, forms, actions, and page scrolling unchanged. */
 body.type-category #filters-wrapper > .filters-wrapper {
   width: 100%;
 }
 
 body.type-category .filters-unveil-button-wrapper {
+  display: flex;
+  justify-content: flex-start;
   margin: 8px 0 12px;
 }
 
@@ -14,7 +16,7 @@ body.type-category .filters-unveil-button-wrapper .unveil-button {
   min-height: 40px;
   padding: 8px 14px;
   border: 1px solid #d8dde1;
-  border-radius: 6px;
+  border-radius: 7px;
   background: #fff;
   box-shadow: none;
   color: #202429;
@@ -24,52 +26,130 @@ body.type-category .filters-unveil-button-wrapper .unveil-button {
 }
 
 body.type-category #filters {
-  padding: 14px 16px;
-  border: 1px solid #e1e5e8;
-  border-radius: 8px;
-  background: #fff;
+  padding: 8px 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   box-shadow: none;
 }
 
-body.type-category #filters .filter-section {
-  padding: 10px 0;
-  border-top: 1px solid #eceff1;
+body.type-category #filters .slider-wrapper {
+  max-width: 720px;
+  margin: 0 auto 12px;
+  padding: 8px 16px 20px;
 }
 
-body.type-category #filters .filter-section h4,
-body.type-category #filters .slider-wrapper h4 {
-  margin: 0 0 8px;
+body.type-category #filters .slider-wrapper h4,
+body.type-category #filters .filter-section h4 {
+  margin: 0 0 10px;
   color: #202429;
   font-size: 15px;
   font-weight: 600;
   line-height: 1.4;
 }
 
+body.type-category #filters .slider-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #424a50;
+  font-size: 14px;
+}
+
+body.type-category #filters .slider-content {
+  margin: 0 10px;
+  padding: 9px 0;
+}
+
+body.type-category #filters #slider {
+  height: 5px;
+  border: 0;
+  border-radius: 5px;
+  background: #e7eaec;
+}
+
+body.type-category #filters #slider .ui-slider-range {
+  border-radius: 5px;
+  background: #f2b900;
+}
+
+body.type-category #filters #slider .ui-slider-handle {
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: -9px;
+  border: 2px solid #d9a500;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(32, 36, 41, .2);
+  cursor: grab;
+}
+
+body.type-category #filters #slider .ui-slider-handle:focus-visible {
+  outline: 3px solid rgba(32, 36, 41, .7);
+  outline-offset: 3px;
+}
+
+body.type-category #filters .filter-section {
+  padding: 12px 0;
+  border-top: 1px solid #eceff1;
+}
+
 body.type-category #filters fieldset {
+  display: block;
   margin: 0;
   padding: 0;
   border: 0;
 }
 
+body.type-category #filters #manufacturer-filter fieldset {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 2px 18px;
+}
+
+body.type-category #filters #manufacturer-filter fieldset > div {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  min-height: 34px;
+  margin: 0;
+}
+
 body.type-category #filters .filter-section label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  margin: 0;
   color: #30363b;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.4;
+  cursor: pointer;
 }
 
 body.type-category #filters input[type="checkbox"],
 body.type-category #filters input[type="radio"] {
+  flex: 0 0 auto;
   accent-color: #24b47e;
+}
+
+body.type-category #filters #manufacturer-filter label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 body.type-category #filters .filter-count {
   display: inline-block;
-  margin-left: 3px;
-  padding: 1px 6px;
-  border-radius: 10px;
-  background: #f1f3f4;
-  color: #5c646a;
-  font-size: 11px;
+  flex: 0 0 auto;
+  margin-left: 1px;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #737b81;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 1.4;
 }
 
@@ -80,12 +160,32 @@ body.type-category #filters input:focus-visible {
   outline-offset: 2px;
 }
 
+@media (max-width: 1199px) {
+  body.type-category #filters #manufacturer-filter fieldset {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2px 14px;
+  }
+}
+
 @media (max-width: 767px) {
   body.type-category #filters {
-    padding: 12px;
+    padding: 4px 0;
+  }
+
+  body.type-category #filters .slider-wrapper {
+    padding: 6px 8px 16px;
   }
 
   body.type-category #filters .filter-section {
-    padding: 9px 0;
+    padding: 10px 0;
+  }
+
+  body.type-category #filters #manufacturer-filter fieldset {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1px 10px;
+  }
+
+  body.type-category #filters #manufacturer-filter fieldset > div {
+    min-height: 36px;
   }
 }
