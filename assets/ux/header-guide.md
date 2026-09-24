@@ -36,7 +36,7 @@ Filtráciu riadia pôvodné formuláre a skripty Shoptetu. Tento doplnok mení i
 V administrácii Shoptetu v kategóriách odstrániť staré odkazy na `category-filters.css` a `category-filters.js`. Namiesto nich pridať iba tento štýl do hlavičky:
 
 ```html
-<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters-native.css?v=2">
+<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters-native.css?v=3">
 ```
 
 Pôvodné prvky a akcie filtra zostávajú nedotknuté. Štýl nevynucuje výšku ani vnútorné posúvanie zoznamov; používa sa prirodzené rozloženie stránky a natívne správanie Shoptetu.
