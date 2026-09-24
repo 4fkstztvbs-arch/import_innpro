@@ -264,6 +264,10 @@ body.type-category.ps-category-filter-enhanced #filters .ps-category-filter-sear
   outline-offset: 2px;
 }
 
+body.type-category.ps-category-filter-enhanced #filters .ps-category-filter-search[hidden] {
+  display: none !important;
+}
+
 body.type-category.ps-category-filter-enhanced #filters .ps-category-filter-values {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr));
