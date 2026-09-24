@@ -92,24 +92,19 @@
       search.placeholder = 'Hľadať možnosť';
       search.setAttribute('aria-label', 'Hľadať v možnostiach filtra');
       search.autocomplete = 'off';
-      form.insertBefore(search, fieldset);
+      section.insertBefore(search, form);
 
-      // This local text search is inside Shoptet's native filter form. Do not
-      // let Enter submit the incomplete form and navigate away from category.
+      // Keep the local search outside Shoptet's native filter form so its
+      // delegated change handlers cannot submit the form while typing.
       search.addEventListener('keydown', function (event) {
         if (event.key === 'Enter') {
           event.preventDefault();
           event.stopPropagation();
         }
       });
-      form.addEventListener('submit', function (event) {
-        if (document.activeElement === search) {
-          event.preventDefault();
-          event.stopImmediatePropagation();
-        }
-      }, true);
 
-      search.addEventListener('input', function () {
+      search.addEventListener('input', function (event) {
+        event.stopPropagation();
         var query = search.value.trim().toLocaleLowerCase('sk');
         checkboxes.forEach(function (input) {
           var label = input.id ? section.querySelector('label[for="' + CSS.escape(input.id) + '"]') : input.closest('label');
