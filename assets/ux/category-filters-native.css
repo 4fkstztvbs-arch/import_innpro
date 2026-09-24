@@ -1,0 +1,91 @@
+/* Light visual cleanup for the native Shoptet category filters.
+   No markup, filter behavior, panel layout, or scrolling is changed. */
+body.type-category #filters-wrapper > .filters-wrapper {
+  width: 100%;
+}
+
+body.type-category .filters-unveil-button-wrapper {
+  margin: 8px 0 12px;
+}
+
+body.type-category .filters-unveil-button-wrapper .unveil-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 8px 14px;
+  border: 1px solid #d8dde1;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: none;
+  color: #202429;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+body.type-category #filters {
+  padding: 14px 16px;
+  border: 1px solid #e1e5e8;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: none;
+}
+
+body.type-category #filters .filter-section {
+  padding: 10px 0;
+  border-top: 1px solid #eceff1;
+}
+
+body.type-category #filters .filter-section h4,
+body.type-category #filters .slider-wrapper h4 {
+  margin: 0 0 8px;
+  color: #202429;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+body.type-category #filters fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body.type-category #filters .filter-section label {
+  color: #30363b;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body.type-category #filters input[type="checkbox"],
+body.type-category #filters input[type="radio"] {
+  accent-color: #24b47e;
+}
+
+body.type-category #filters .filter-count {
+  display: inline-block;
+  margin-left: 3px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: #f1f3f4;
+  color: #5c646a;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+body.type-category #filters a:focus-visible,
+body.type-category .filters-unveil-button-wrapper .unveil-button:focus-visible,
+body.type-category #filters input:focus-visible {
+  outline: 2px solid #202429;
+  outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+  body.type-category #filters {
+    padding: 12px;
+  }
+
+  body.type-category #filters .filter-section {
+    padding: 9px 0;
+  }
+}
