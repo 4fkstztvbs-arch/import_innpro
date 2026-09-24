@@ -838,5 +838,47 @@
     "subject": "Re: Vaša objednávka č. 202600979 sa práve vybavuje",
     "orderCode": "202600979",
     "matchedBy": "code"
+  },
+  "<000001dd4c07$f1b66f10$d5234d30$@penzionzitava.sk>": {
+    "draftedAt": "2026-09-24T14:22:54.085Z",
+    "from": "recepcia@penzionzitava.sk",
+    "subject": "RE: [PremiumStore.sk] Objednávka 202601060",
+    "orderCode": "202601060",
+    "matchedBy": "code"
+  },
+  "<web-15917015@cgp-back-4.mail.zoznam.sk>": {
+    "draftedAt": "2026-09-24T14:23:01.645Z",
+    "from": "kluvanek.g@zoznam.sk",
+    "subject": "STORNO",
+    "orderCode": "202601064",
+    "matchedBy": "code"
+  },
+  "<!&!AAAAAAAAAAAYAAAAAAAAAG0DD66R3jdPncKvcdZID+3CgAAAEAAAAO6z1PVDbzdCk+a8SlGsYOkBAAAAAA==@woodb.sk>": {
+    "draftedAt": "2026-09-24T14:23:08.301Z",
+    "from": "kopanyi@woodb.sk",
+    "subject": "RE: [PremiumStore.sk] Objednávka 202601062",
+    "orderCode": "202601062",
+    "matchedBy": "code"
+  },
+  "<000901dd4c11$c2fe8cc0$48fba640$@penzionzitava.sk>": {
+    "draftedAt": "2026-09-24T14:23:19.365Z",
+    "from": "recepcia@penzionzitava.sk",
+    "subject": "RE: Vaša objednávka č. 202601060 bola stornovaná",
+    "orderCode": "202601060",
+    "matchedBy": "code"
+  },
+  "<CAJy9UufEMr6=Lv5HD=bVPKDdBymq-iQVahrwG7ckkuN4jhe-Kw@mail.gmail.com>": {
+    "draftedAt": "2026-09-24T14:23:27.054Z",
+    "from": "mrerdodi@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600934 sa práve vybavuje",
+    "orderCode": "202600934",
+    "matchedBy": "code"
+  },
+  "<CALtnwzX=LHwn4q8+NhaLwRo4Cn++7jw4vnmzNYMV7u00E1AWXQ@mail.gmail.com>": {
+    "draftedAt": "2026-09-24T14:23:36.959Z",
+    "from": "tomaspaul1982@gmail.com",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202601068",
+    "orderCode": "202601068",
+    "matchedBy": "code"
   }
 }
