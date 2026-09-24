@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600372,
+    "nextCardNumber": 202600380,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2228,6 +2228,54 @@
         "nazov": "Manžeta gumová (48-57 mm)",
         "dodavatel": "atos",
         "code": ""
+      },
+      "4711527001376": {
+        "kod": "202600372",
+        "nazov": "Darkflash C275P Black",
+        "dodavatel": "innpro",
+        "code": "079096"
+      },
+      "6936685222557": {
+        "kod": "202600373",
+        "nazov": "GameSir X5s Wireless",
+        "dodavatel": "innpro",
+        "code": "080751"
+      },
+      "6972467710355": {
+        "kod": "202600374",
+        "nazov": "Gimbal AOCHUAN XE RGB",
+        "dodavatel": "innpro",
+        "code": "085535"
+      },
+      "6976230000506": {
+        "kod": "202600375",
+        "nazov": "Heat press HTVRONT Auto1",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "6976230000568": {
+        "kod": "202600376",
+        "nazov": "Tumbler Press HTVRONT",
+        "dodavatel": "innpro",
+        "code": "088920"
+      },
+      "6976230001343": {
+        "kod": "202600377",
+        "nazov": "PTFE mat HTVRONT",
+        "dodavatel": "innpro",
+        "code": "088978"
+      },
+      "6976230001350": {
+        "kod": "202600378",
+        "nazov": "Sublimation tape HTVRONT",
+        "dodavatel": "innpro",
+        "code": "088979"
+      },
+      "6976230004047": {
+        "kod": "202600379",
+        "nazov": "Vinyl scraper HTVRONT",
+        "dodavatel": "innpro",
+        "code": "088983"
       }
     }
   },
