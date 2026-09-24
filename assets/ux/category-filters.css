@@ -26,6 +26,68 @@ body.type-category.ps-category-filter-enhanced .ps-category-filter-toolbar {
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
+  min-height: 52px;
+  padding: 6px 9px;
+  border: 1px solid #f0dfaa;
+  border-radius: 8px;
+  background: #fffaf0;
+}
+
+body.type-category.ps-category-filter-enhanced .ps-category-filter-heading {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 7px;
+  min-height: 38px;
+  padding: 0 10px;
+  border-radius: 6px;
+  background: #ffc500;
+  color: #202429;
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+body.type-category.ps-category-filter-enhanced .ps-category-filter-heading svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+body.type-category.ps-category-filter-enhanced .ps-category-filter-reset {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  margin-right: 2px;
+  padding: 8px 12px;
+  border: 1px solid #d9b9ae;
+  border-radius: 7px;
+  background: #fff;
+  color: #71382e;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+body.type-category.ps-category-filter-enhanced .ps-category-filter-reset:hover,
+body.type-category.ps-category-filter-enhanced .ps-category-filter-reset:focus-visible {
+  border-color: #a9503f;
+  background: #fff5f2;
+}
+
+body.type-category.ps-category-filter-enhanced .ps-category-filter-reset:focus-visible {
+  outline: 3px solid #202429;
+  outline-offset: 2px;
 }
 
 body.type-category.ps-category-filter-enhanced .ps-category-facet-button {
@@ -301,6 +363,21 @@ body.type-category.ps-category-filter-lock {
     flex: 0 0 auto;
     min-height: 44px;
     font-size: 14px;
+  }
+
+  body.type-category.ps-category-filter-enhanced .ps-category-filter-toolbar {
+    flex-wrap: nowrap;
+    min-height: 54px;
+    padding: 5px 7px;
+  }
+
+  body.type-category.ps-category-filter-enhanced .ps-category-filter-heading {
+    min-height: 40px;
+    padding: 0 9px;
+  }
+
+  body.type-category.ps-category-filter-enhanced .ps-category-filter-reset {
+    min-height: 44px;
   }
 
   body.type-category.ps-category-filter-enhanced .ps-category-filter-backdrop.is-visible {
