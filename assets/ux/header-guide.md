@@ -36,8 +36,8 @@ Na všetky kategórie Shoptetu sa aktivuje samostatnými súbormi. Existujúce �
 CSS pridať do hlavičky a JavaScript do pätičky pred koniec BODY:
 
 ```html
-<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.css?v=3">
-<script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.js?v=3"></script>
+<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.css?v=4">
+<script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.js?v=4"></script>
 ```
 
 Zmenené sú iba stránky kategórií. Filter používa natívne formuláre Shoptetu, cenu, značky a ďalšie existujúce skupiny. Dlhé zoznamy majú vyhľadávanie. Po natívnej zmene filtra Shoptet dynamicky obnoví kompaktný panel. Samostatný filter dostupnosti sa skryje podľa obchodného pravidla, že všetok ponúkaný sortiment je skladom. Mobilný panel sa otvára zdola; desktopový panel sa zobrazí pri tlačidlách filtrov. Pri návrate odstrániť oba nové odkazy z HTML kódov; pôvodné súbory stránky ostanú nedotknuté.
