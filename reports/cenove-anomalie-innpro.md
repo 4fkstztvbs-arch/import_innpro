@@ -43,5 +43,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 24 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 14 |
-| 089027 | 6975069302393 | Súprava na čistenie fontány pre domáce zvieratá Petkit | cena mimo 8x rozsah mediánu kategórie | 54.50 € | 5.30 € | 1/10.3x | 23 |
+| 089027 | 6975069302393 | Súprava na čistenie fontány pre domáce zvieratá Petkit | cena mimo 8x rozsah mediánu kategórie | 45.00 € | 5.30 € | 1/8.5x | 24 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 14 |
