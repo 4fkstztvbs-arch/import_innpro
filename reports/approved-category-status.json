@@ -1,9 +1,969 @@
 {
   "minimum": 8,
   "totalProducts": 27084,
-  "matchedRules": 1829,
-  "changedProducts": 467,
+  "matchedRules": 1654,
+  "changedProducts": 47,
   "rejected": [
+    {
+      "supplier": "atos",
+      "code": "TIP-07720243",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6RE2",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO1606025000",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720229",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720299",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "HAD-N351B",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "HAD-N351C",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "HAD-N345A-100",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720225",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "NED-WIFIVCL001CBK",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "NED-WIFIVCR001CBK",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1102-S",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1102-XS",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1103-L",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1104-L",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1104-XL",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SOLKAB10MM2BLACK",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-WIFIP151EWT",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-07168",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-2631610100",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-2631600200",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-2631600100",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-1916055520",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "VCXZS1500V",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RBY-2000-5",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B3-102",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720170",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-06444296",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82990",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82967",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-1902940203",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEBB21AB",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-YT-36472",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-YT-36473",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07730147",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-G825",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-WIFIPO130EWT",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04240640",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1003",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1004",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1005",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1006",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO1608000001",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2202015000",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720256",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RBY-2001-4",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RBY-2001-5",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1102-XL",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1102-XXL",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1104-M",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1104-XS",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720139",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6BL2",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B1-196",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1002",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1007",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1009",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82546",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SKP6MM5MBLACK",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SKP6MM5MRED",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SK6MM5M",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ZSPVLTM011000V",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720258",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720284",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03360267",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720212",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07730136",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV4BL500",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ITR-00017692",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B1-133",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-04240700",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-04240701",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-04240702",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07730009",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2202013000",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720186",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720194",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720296",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13WDS2",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82992",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-MIE0401",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ITR-00016712",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-2631600400",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B1-613",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-83844",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720213",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720214",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-KW510",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-KW520",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-2631600600",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-2631610200",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720174",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720175",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720249",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM2017",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM2016",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03360262",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RC-10",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6BL25",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6BL50015V",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-EVCH37KWBK20",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1102-L",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1102-M",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720228",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM-PPA100",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1103-M",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1103-S",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1103-XL",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RA-1103-XS",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-WIFIP313EWT",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-WIFIP141EWT",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720230",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04240639",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B1-035",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720187",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720191",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03360268",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07730003",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07730044",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03360240",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6BL10015V",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6BL15",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TOC-SX1409",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVESYMC42PAR",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV4BL2515V",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-MIE0426",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ITR-00016713",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720227",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03360261",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TOC-1693354",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B1-254",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720188",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720180",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6BL",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-G812A",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1001",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-RA-1008",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04290151",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04290152",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720280",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720006",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-G826",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B1-383",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B3-100",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-06444294",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720265",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04240669",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6BL50",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720285",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-06444254",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV4BL1515V",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LP-MIE0402",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-BAT1155",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-WIFIVCL002CBK",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "E6258",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07730135",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV4BL2015V",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV6BL20",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07730155",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04290153",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720239",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720240",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV4BL50",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "SPR-FVEPV4BL",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04240621",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-YT-36474",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07730161",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ITR-00018340",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM2018",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "H1Z2Z2-K-BLACK-4-M",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "H1Z2Z2-K-BLACK-6-M",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-TSA3507",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-MIE0458",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-MIE0459",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-04240703",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03360241",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "HAD-N351",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "HAD-N351A",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720179",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-YT-36475",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-TSA3545-B",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-TSA3545-W",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ITR-00018345",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82991",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-1916055510",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-MIE0463",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82986",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82987",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82988",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEV-82989",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "LP-MIE0403",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B3-101",
+      "reason": "Reviewed product name changed"
+    },
     {
       "supplier": "basys",
       "code": "BASYS-B 895098-0100",
@@ -3835,91 +4795,6 @@
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "penta",
-      "code": "554503",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "5537663",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "5537664",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "553765",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "553768",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "600865",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "600866",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "553766",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "5537661",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "55450700",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "6008150",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "5545064",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526102",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "6008154",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526054",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "7208381",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "553774",
-      "reason": "Reviewed product name changed"
-    },
-    {
       "supplier": "wiim",
       "code": "WiiM_AMP_Ultra_013",
       "reason": "Reviewed product name changed"
@@ -3987,31 +4862,171 @@
   ],
   "categoryDrifts": [
     {
-      "supplier": "atos",
-      "code": "IST-SECQI13WDS2",
+      "supplier": "penta",
+      "code": "65526109",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
       ],
       "approvedCurrent": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
       ],
       "approvedProposed": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
       ]
     },
     {
-      "supplier": "atos",
-      "code": "IST-SECQI13PIR",
+      "supplier": "penta",
+      "code": "65526100",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
       ],
       "approvedCurrent": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
       ],
       "approvedProposed": [
-        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526105",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "6552611",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526111",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526112",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526102",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526103",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526104",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526107",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526108",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
       ]
     }
   ],
@@ -4120,7 +5135,7 @@
     },
     {
       "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Digitálne multimetre",
-      "visibleUnique": 63,
+      "visibleUnique": 64,
       "active": true,
       "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
     },
