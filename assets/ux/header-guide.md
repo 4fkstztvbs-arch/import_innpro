@@ -36,8 +36,8 @@ Na všetky kategórie Shoptetu sa aktivuje samostatnými súbormi. Existujúce �
 CSS pridať do hlavičky a JavaScript do pätičky pred koniec BODY:
 
 ```html
-<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.css?v=6">
-<script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.js?v=6"></script>
+<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.css?v=7">
+<script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters.js?v=7"></script>
 ```
 
-Zmenené sú iba stránky kategórií. Filter používa natívne formuláre Shoptetu, cenu, značky a ďalšie existujúce skupiny. Dlhé zoznamy majú lokálne vyhľadávanie, ktoré neodosiela formulár pri potvrdení textu. Po natívnej zmene filtra Shoptet dynamicky obnoví kompaktný panel. Samostatný filter dostupnosti sa skryje podľa obchodného pravidla, že všetok ponúkaný sortiment je skladom. Mobilný panel sa otvára zdola, zostáva v hraniciach displeja a pri dlhých zoznamoch sa posúva ako jeden celok; na telefónoch sa značky zobrazia v jednom stĺpci. Desktopový panel sa zobrazí pri tlačidlách filtrov. Pri návrate odstrániť oba nové odkazy z HTML kódov; pôvodné súbory stránky ostanú nedotknuté.
+Zmenené sú iba stránky kategórií. Filter používa natívne formuláre Shoptetu, cenu, značky a ďalšie existujúce skupiny. Dlhé zoznamy majú lokálne vyhľadávanie mimo natívneho formulára Shoptetu, takže písanie značky neodosiela filtrovanie. Po natívnej zmene filtra Shoptet dynamicky obnoví kompaktný panel. Samostatný filter dostupnosti sa skryje podľa obchodného pravidla, že všetok ponúkaný sortiment je skladom. Mobilný panel sa otvára zdola, zostáva v hraniciach displeja a pri dlhých zoznamoch sa posúva ako jeden celok; na telefónoch sa značky zobrazia v jednom stĺpci. Desktopový panel sa zobrazí pri tlačidlách filtrov. Pri návrate odstrániť oba nové odkazy z HTML kódov; pôvodné súbory stránky ostanú nedotknuté.
