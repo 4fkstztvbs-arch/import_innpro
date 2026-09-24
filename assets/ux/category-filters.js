@@ -80,7 +80,7 @@
       return button;
     }
 
-    function createSearch(section) {
+    function createSearch(section, key) {
       var fieldset = section.querySelector('fieldset');
       var form = section.querySelector('form');
       var checkboxes = section.querySelectorAll('input[type="checkbox"], input[type="radio"]');
@@ -92,10 +92,13 @@
       search.placeholder = 'Hľadať možnosť';
       search.setAttribute('aria-label', 'Hľadať v možnostiach filtra');
       search.autocomplete = 'off';
-      section.insertBefore(search, form);
+      search.dataset.psSearchTarget = key;
+      search.hidden = true;
+      var filterSections = filters.querySelector('.filter-sections');
+      if (filterSections) filters.insertBefore(search, filterSections);
+      else filters.appendChild(search);
 
-      // Shoptet delegates several filter events from the native form. Isolate
-      // local search keystrokes so they cannot trigger its manufacturer filter.
+      // Isolate local search events from Shoptet's delegated filter handlers.
       ['keydown', 'keypress', 'keyup', 'change', 'search', 'compositionstart', 'compositionend'].forEach(function (type) {
         search.addEventListener(type, function (event) {
           event.stopPropagation();
@@ -199,6 +202,9 @@
         var section = filters.querySelector('[data-ps-facet-section="' + CSS.escape(target) + '"]');
         if (section) section.classList.add('ps-category-filter-section-active');
       }
+      filters.querySelectorAll('.ps-category-filter-search').forEach(function (search) {
+        search.hidden = mode !== 'group' || search.dataset.psSearchTarget !== target;
+      });
 
       activeButton = button;
       setExpanded(button);
@@ -252,7 +258,7 @@
       var count = getAvailableCount(section);
       var label = /značk/i.test(name) ? 'Značka' : name;
       makeButton(label, 'group', key, count);
-      createSearch(section);
+      createSearch(section, key);
 
       section.querySelectorAll('form fieldset').forEach(function (fieldset) {
         var controls = fieldset.querySelectorAll('input[type="checkbox"], input[type="radio"]');
