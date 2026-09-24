@@ -29,9 +29,12 @@ const { applyPentaOpportunityPrice, enforcePentaGrossMarginFloor } = require('./
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
+const { createProductNameResolver } = require('./localize-product-names');
 
 // Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
 const crossSupplier = createCrossSupplierFilter('penta');
+const resolveProductName = createProductNameResolver('penta');
+let localizedProductNames = 0;
 
 const URL = process.env.PENTA_URL;
 const USERNAME = process.env.PENTA_USERNAME;
@@ -328,7 +331,12 @@ async function main() {
       anomalies.push({ code: c.code, ean: c.ean, name: c.name, reason: 'category-outlier', ...categoryOutlier });
       continue;
     }
-    out.write(buildShopitemXml(c.shopitemData) + '\n');
+    const correctedName = resolveProductName(c.shopitemData);
+    const shopitemData = correctedName
+      ? { ...c.shopitemData, name: correctedName }
+      : c.shopitemData;
+    if (correctedName) localizedProductNames++;
+    out.write(buildShopitemXml(shopitemData) + '\n');
     stats.written++;
   }
 
@@ -339,6 +347,7 @@ async function main() {
   console.log('Done.');
   writeAnomalyReport('penta', anomalies);
   console.log(JSON.stringify(stats, null, 2));
+  console.log(`Slovak name corrections: ${localizedProductNames}`);
   console.log('Output written to', OUT_PATH);
 }
 

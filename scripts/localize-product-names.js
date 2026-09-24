@@ -5,7 +5,6 @@ const fs = require('fs');
 const path = require('path');
 
 const DEFAULT_REGISTRY = path.join(__dirname, '..', 'data', 'localization', 'product-names-sk.json');
-const DEFAULT_CTR_REGISTRY = path.join(__dirname, '..', 'data', 'seo', 'ctr-test-overrides.json');
 
 function extractTag(block, tag) {
   const cdata = block.match(new RegExp('<' + tag + '><!\\[CDATA\\[([\\s\\S]*?)\\]\\]></' + tag + '>'));
@@ -32,28 +31,9 @@ function loadRegistry(registryPath = DEFAULT_REGISTRY) {
   return raw;
 }
 
-function normalizeEan(value) {
-  return String(value || '').replace(/^0+/, '');
-}
-
-function localizationKey(supplier, code) {
-  return `${supplier}\\u0000${code}`;
-}
-
-function loadCtrExcludedKeys(registryPath = DEFAULT_CTR_REGISTRY) {
-  const config = JSON.parse(fs.readFileSync(registryPath, 'utf8'));
-  if (!Array.isArray(config.products) || !Array.isArray(config.controls)) {
-    throw new Error('CTR cohort registry must contain products and controls arrays');
-  }
-  return new Set([...config.products, ...config.controls]
-    .filter((entry) => entry && typeof entry.supplier === 'string' && typeof entry.code === 'string')
-    .map((entry) => localizationKey(entry.supplier, entry.code)));
-}
-
-function localizeXml(xml, { supplier, registry, limit = Infinity, ctrExcluded } = {}) {
+function localizeXml(xml, { supplier, registry, limit = Infinity } = {}) {
   if (!supplier) throw new Error('supplier is required');
   if (!registry) registry = loadRegistry();
-  if (!ctrExcluded) ctrExcluded = loadCtrExcludedKeys();
 
   const entries = registry.products.filter((p) =>
     p.supplier === supplier && p.status === 'pilot_approved'
@@ -67,7 +47,6 @@ function localizeXml(xml, { supplier, registry, limit = Infinity, ctrExcluded } 
     alreadyLocalized: [],
     notFound: [],
     issues: [],
-    skippedCtr: [],
     untouched: 0,
   };
 
@@ -83,15 +62,10 @@ function localizeXml(xml, { supplier, registry, limit = Infinity, ctrExcluded } 
     }
 
     seen.add(code);
-    if (ctrExcluded.has(localizationKey(supplier, code))) {
-      report.skippedCtr.push(code);
-      report.untouched++;
-      return block;
-    }
     const currentName = extractTag(block, 'NAME');
     const ean = extractTag(block, 'EAN').trim();
 
-    if (entry.ean && ean && normalizeEan(entry.ean) !== normalizeEan(ean)) {
+    if (!entry.ean || !ean || entry.ean !== ean) {
       report.issues.push({ code, reason: 'ean-mismatch', expected: entry.ean, actual: ean });
       return block;
     }
@@ -101,11 +75,11 @@ function localizeXml(xml, { supplier, registry, limit = Infinity, ctrExcluded } 
       return block;
     }
 
-    if (currentName !== entry.sourceName) {
+    if (currentName !== entry.sourceName && currentName !== entry.previousName) {
       report.issues.push({
         code,
         reason: 'source-name-drift',
-        expected: entry.sourceName,
+        expected: [entry.sourceName, entry.previousName].filter(Boolean),
         actual: currentName,
       });
       return block;
@@ -127,6 +101,34 @@ function localizeXml(xml, { supplier, registry, limit = Infinity, ctrExcluded } 
   report.issueCount = report.issues.length;
   report.notFoundCount = report.notFound.length;
   return { xml: out, report };
+}
+
+function createProductNameResolver(supplier, registry = loadRegistry()) {
+  if (!supplier) throw new Error('supplier is required');
+  const entries = registry.products.filter((p) =>
+    p.supplier === supplier && p.status === 'pilot_approved'
+  );
+  const byCode = new Map();
+  for (const entry of entries) {
+    if (byCode.has(entry.code)) throw new Error('Duplicate localization CODE for ' + supplier + ': ' + entry.code);
+    byCode.set(entry.code, entry);
+  }
+
+  return function resolveProductName(product) {
+    const code = String(product?.code || '').trim();
+    const entry = byCode.get(code);
+    if (!entry) return null;
+    const ean = String(product?.ean || '').trim();
+    const currentName = String(product?.name || '');
+    if (!ean || ean !== entry.ean) {
+      throw new Error(`EAN mismatch for ${supplier} ${code}: expected ${entry.ean}, got ${ean || '(empty)'}`);
+    }
+    if (currentName === entry.skName) return null;
+    if (currentName !== entry.sourceName && currentName !== entry.previousName) {
+      throw new Error(`Source-name drift for ${supplier} ${code}: ${currentName}`);
+    }
+    return entry.skName;
+  };
 }
 
 function parseArgs(argv) {
@@ -184,7 +186,6 @@ module.exports = {
   extractTag,
   replaceName,
   loadRegistry,
-  loadCtrExcludedKeys,
-  localizationKey,
   localizeXml,
+  createProductNameResolver,
 };

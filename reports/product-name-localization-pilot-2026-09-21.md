@@ -2,7 +2,12 @@
 
 ## Stav
 
-Pilot je pripravený na vetve `pilot/sk-product-name-localization` a **nie je aktívny v produkcii**.
+Historické znenie nižšie opisuje pripravenie pilotu 21. 9. 2026. **Už nie je aktuálnym stavom:** hlavné vetvy ATOS a K-B vykonávajú lokalizáciu v synchronizačných workflowoch; stav registra je `active-transform-live-import-unverified`.
+
+Aktuálne rozlíšenie:
+- hlavný feed / transform: lokalizácia je zapojená;
+- živý Shoptet import a zobrazenie každého názvu: treba potvrdiť po nočnom importe;
+- reprocessed opravy z 24. 9. 2026 sú pripravené na samostatnej pracovnej vetve a ešte nie sú v main.
 
 Testovaný rozsah:
 - K-B: 50 produktov

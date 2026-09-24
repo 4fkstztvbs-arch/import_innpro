@@ -15,6 +15,10 @@ function loadNameOverrides(file = OVERRIDES_PATH) {
         throw new Error(`Invalid InnPro name override: missing ${key}.`);
       }
     }
+    if (Object.prototype.hasOwnProperty.call(row, 'previousName')
+        && (typeof row.previousName !== 'string' || !row.previousName.trim())) {
+      throw new Error(`Invalid InnPro name override: missing previousName for CODE ${row.code}.`);
+    }
     if (codes.has(row.code)) throw new Error(`Duplicate InnPro name override CODE ${row.code}.`);
     codes.add(row.code);
   }
@@ -29,7 +33,7 @@ function createNameOverride(products, overrides = loadNameOverrides()) {
     const target = targets[0];
     const identityMatches = target.ean === override.ean
       && target.manufacturer === override.manufacturer
-      && [override.sourceName, override.name].includes(target.name);
+      && [override.sourceName, override.name, override.previousName].filter(Boolean).includes(target.name);
     if (identityMatches) resolved.push({ target, override });
   }
 

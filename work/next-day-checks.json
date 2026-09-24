@@ -1,0 +1,15 @@
+[
+  {
+    "date": "2026-09-25",
+    "timezone": "Europe/Bratislava",
+    "changeId": "PS-20260924-NAME-CORRECTIONS",
+    "status": "scheduled",
+    "checks": [
+      "Confirm PR merged to main before relying on a nightly transform.",
+      "Inspect successful supplier runs and compare generated product NAME by supplier, CODE, and EAN for 2,515 approved corrections.",
+      "Confirm URL, identifiers, pricing, availability, visibility, categories, descriptions, images, parameters, and SEO fields stayed unchanged by localization.",
+      "Verify representative live Shoptet product titles after the overnight import; if the import has not run, leave persistence PENDING."
+    ],
+    "notes": "Ignore separate PENDING correction files as requested. Do not change active CTR cohort."
+  }
+]

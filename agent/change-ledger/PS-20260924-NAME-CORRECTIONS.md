@@ -1,0 +1,25 @@
+# Change ledger — oprava názvov z kategórijných dávok
+
+- CHANGE_ID: PS-20260924-NAME-CORRECTIONS
+- DATE: 2026-09-24
+- ACTOR: Codex, podľa výslovného pokynu vlastníka
+- AREA: dodávateľské transformy; názvy produktov
+- URL/PAGE/SCOPE: produktové `NAME` v XML transformoch ATOS, K-B, InnPro, Penta a Solight
+- AFFECTED_PRODUCTS/PAGES: 2 515 produktov (ATOS 1 582; K-B 496; InnPro 387; Solight 32; Penta 18)
+- DESCRIPTION: opraviť české, chybné alebo nekonzistentné slovenské názvy z ôsmich odovzdaných kategórijných correction CSV súborov
+- REASON: objednávkový screenshot ukázal český názov na zákazníckom doklade; vlastník žiada opravy pred ďalším nočným importom
+- HYPOTHESIS: trvalý NAME-only override po najbližšej synchronizácii zachová slovenský zákaznícky názov aj po ďalšom dodávateľskom prepise
+- BASELINE: aktuálne výstupy `output/{atos,kb,innpro,penta,solight,basys}.xml`; 2 614 odovzdaných riadkov; exact CODE/EAN porovnanie; 0 zhôd s CTR experimentálnou alebo kontrolnou kohortou
+- PRIMARY_METRIC: počet opravených cieľových `NAME` polí vo výstupe po nočnom transforme; cieľ 2 515
+- GUARDRAIL_METRICS: nezmenený počet SHOPITEM, CODE, EAN, URL, ceny, nákupné ceny, dostupnosti, visibility, kategórie, obrázkov, parametrov, popisu a SEO polí; 0 zmien v aktívnej CTR kohorte
+- IMPLEMENTATION: ATOS/K-B cez existujúci lokalizátor; InnPro cez existujúci exact-ID override; Penta/Solight cez rovnaký CODE/EAN/sourceName resolver v transform skriptoch. `previousName` povoľuje iba presne evidovaný prechod zo starého slovenského názvu na nový. Bez zmeny príslušných SEO polí.
+- FILES_CHANGED: `data/localization/product-names-sk.json`, `data/localization/innpro-name-overrides.json`, `scripts/localize-product-names.js`, `scripts/innpro-name-overrides.js`, `scripts/validate-product-name-localization.js`, transformy Penta/Solight a testy; pilot report upravený, aby neuvádzal historický „pilot-not-live“ ako aktuálny stav
+- COMMIT / PR: lokálny commit `65c969c`; PR sa pripravuje z aktuálneho `main` `534b2af`; shell `git fetch` zlyhal pre nedostupné DNS, GitHub connector ostáva dostupný
+- APPROVAL / APPROVER: vlastník výslovne nariadil vložiť opravy do transform skriptov pre najbližší nočný import; PENDING záznamy výslovne vynechané
+- EXPERIMENT_ID: žiadny; ide o jazykovú opravu NAME, nie CTR experiment
+- PRE_DEPLOY_VALIDATION: 13/13 unit testov; `git diff --check` a `node --check` úspešné; dry-run a NAME-only validator: ATOS 1 626 zmien vrátane 44 skorších overrideov, K-B 496 zmien + 49 už správnych názvov, Penta 18, Solight 32; InnPro test overil 433 exact override záznamov na 5 596 položkách a zachovanie všetkých ostatných bajtov. Pri correction CSV vynechaných 34 riadkov bez identity/EAN, 2 absent feed kódy, 63 riadkov bez zmeny a všetky samostatné PENDING súbory.
+- DEPLOYED_AT: PENDING — ešte nie je v main
+- POST_DEPLOY_VALIDATION: PENDING — naplánované na 2026-09-25; živý Shoptet názov sa overí až po nočnom importe
+- RESULT: pripravené na PR; pri aktuálnych feedech žiadny EAN/CODE konflikt ani CTR kohortová zhoda
+- DECISION: zlúčiť len po povinných kontrolách PR; potom overiť reálny import a zákaznícke zobrazenie
+- ROLLBACK / ROLLBACK_COMMIT: revertovať iba commit opráv názvov; ostatné feed polia sa nemenia

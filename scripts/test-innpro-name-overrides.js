@@ -33,6 +33,15 @@ test('approved exact identity changes only the leading product NAME and is repea
   assert.equal(createNameOverride([alreadyNamed])(after, alreadyNamed), after);
 });
 
+test('a recorded previous localized name can transition to its corrected target', () => {
+  const row = overrides.find(entry => entry.previousName);
+  assert.ok(row, 'expected at least one correction from an earlier localized name');
+  const product = { ...productFor(row), name: row.previousName };
+  const before = shopitem(row.previousName, row.code, row.ean, row.manufacturer);
+  const after = shopitem(row.name, row.code, row.ean, row.manufacturer);
+  assert.equal(createNameOverride([product], [row])(before, product), after);
+});
+
 test('identity drift, missing targets, and duplicate CODEs preserve supplier XML', () => {
   const row = overrides[0];
   const before = shopitem(row.sourceName, row.code, row.ean, row.manufacturer);
@@ -67,11 +76,11 @@ test('current InnPro XML dry-run changes exactly the registered product NAME fie
     assert.ok(oldItem.includes(`<EAN>${row.ean}</EAN>`), `EAN drift for ${row.code}`);
     assert.ok(oldItem.includes(`<MANUFACTURER><![CDATA[${row.manufacturer}]]></MANUFACTURER>`), `Manufacturer drift for ${row.code}`);
     const currentName = oldItem.match(/^<SHOPITEM>\s*<NAME><!\[CDATA\[([\s\S]*?)\]\]><\/NAME>/)?.[1];
-    assert.ok([row.sourceName, row.name].includes(currentName), `Source name drift for ${row.code}: ${currentName}`);
+    assert.ok([row.sourceName, row.name, row.previousName].filter(Boolean).includes(currentName), `Source name drift for ${row.code}: ${currentName}`);
     const product = { ...productFor(row), name: currentName };
     const changedItem = createNameOverride([product], [row])(oldItem, product);
     const expectedItem = currentName === row.name ? oldItem : oldItem.replace(
-      `<NAME><![CDATA[${row.sourceName}]]></NAME>`, `<NAME><![CDATA[${row.name}]]></NAME>`,
+      `<NAME><![CDATA[${currentName}]]></NAME>`, `<NAME><![CDATA[${row.name}]]></NAME>`,
     );
     assert.equal(changedItem, expectedItem, `Unexpected non-NAME change for ${row.code}`);
     assert.equal(createNameOverride([{ ...product, name: row.name }], [row])(changedItem, { ...product, name: row.name }), changedItem);
@@ -95,7 +104,7 @@ test('post-transform validator accepts the complete approved name batch', () => 
     const source = items.find(item => item.includes(`<CODE>${row.code}</CODE>`));
     assert.ok(source, `missing source product ${row.code}`);
     const currentName = source.match(/^<SHOPITEM>\s*<NAME><!\[CDATA\[([\s\S]*?)\]\]><\/NAME>/)?.[1];
-    assert.ok([row.sourceName, row.name].includes(currentName), `source name drift for ${row.code}`);
+    assert.ok([row.sourceName, row.name, row.previousName].filter(Boolean).includes(currentName), `source name drift for ${row.code}`);
     const product = { ...productFor(row), name: currentName };
     changes.set(source, createNameOverride([product], [row])(source, product));
   }
