@@ -1,9 +1,9 @@
 {
   "products": 27084,
-  "matched": 647,
-  "categoryChanges": 133,
+  "matched": 423,
+  "categoryChanges": 5,
   "nameChanges": 0,
-  "descriptionChanges": 47,
+  "descriptionChanges": 0,
   "skipped": [
     {
       "supplier": "atos",
@@ -1452,9 +1452,747 @@
       "reason": "Changed name or category; needs review"
     },
     {
+      "supplier": "kb",
+      "code": "100002102621",
+      "ean": "1200130010170",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002164157",
+      "ean": "1200130024887",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033310",
+      "ean": "4006501816504",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000800044",
+      "ean": "4006501833051",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002102279",
+      "ean": "4006501815897",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002164156",
+      "ean": "1200130024863",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000118119",
+      "ean": "4006501814104",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000159726",
+      "ean": "8595181139592",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001453241",
+      "ean": "190199535039",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002172120",
+      "ean": "1200130024221",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136368",
+      "ean": "1200130019623",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136244",
+      "ean": "4006501831071",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002143591",
+      "ean": "8591680182107",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001926446",
+      "ean": "8591680147274",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002127904",
+      "ean": "8596426108229",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000800045",
+      "ean": "4006501833068",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000939268",
+      "ean": "8595181191897",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000980758",
+      "ean": "4023103140592",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136373",
+      "ean": "1200130019272",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002141237",
+      "ean": "6925281953637",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002102622",
+      "ean": "1200130010187",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136230",
+      "ean": "4006501815170",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000159725",
+      "ean": "8595181139585",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000188119",
+      "ean": "4006501814548",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001958381",
+      "ean": "8591680146628",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002100855",
+      "ean": "8591680161614",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001926484",
+      "ean": "8591680147298",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136234",
+      "ean": "4006501816207",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002127901",
+      "ean": "8596426108892",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136239",
+      "ean": "4006501820075",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002074589",
+      "ean": "8596426104085",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002127893",
+      "ean": "8596426108472",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001436695",
+      "ean": "889842748048",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136233",
+      "ean": "4006501815408",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136214",
+      "ean": "4006501815347",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002127896",
+      "ean": "8596426108502",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001926447",
+      "ean": "8591680147281",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001444262",
+      "ean": "6925281982125",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136236",
+      "ean": "4006501816917",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001942312",
+      "ean": "4006501853592",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000128119",
+      "ean": "4006501814135",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136237",
+      "ean": "4006501817020",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000159727",
+      "ean": "8595181189559",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002131481",
+      "ean": "8596426111007",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001321202",
+      "ean": "4006501856661",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002113106",
+      "ean": "6925281953859",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001959280",
+      "ean": "4006501816214",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001319334",
+      "ean": "4006501852823",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001124218",
+      "ean": "6925281979392",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033285",
+      "ean": "4006501724175",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002127898",
+      "ean": "8596426108526",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136248",
+      "ean": "4006501856500",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002202601",
+      "ean": "1200130033742",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033292",
+      "ean": "4006501814081",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136974",
+      "ean": "8596426112059",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136372",
+      "ean": "1200130019586",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000228119",
+      "ean": "4006501832016",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002127897",
+      "ean": "8596426108519",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002131483",
+      "ean": "8596426111489",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000238119",
+      "ean": "4006501811516",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033320",
+      "ean": "4006501815101",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002068467",
+      "ean": "8596426104061",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000218119",
+      "ean": "4006501831002",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002100857",
+      "ean": "8591680161669",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000461883",
+      "ean": "4006501853608",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136359",
+      "ean": "1200130018596",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001926485",
+      "ean": "8591680147304",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001930624",
+      "ean": "6925281993015",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136243",
+      "ean": "4006501830562",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000208119",
+      "ean": "4006501815163",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002068468",
+      "ean": "8596426104054",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000570731",
+      "ean": "4210101922538",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136358",
+      "ean": "1200130018589",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136982",
+      "ean": "8596426110840",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136232",
+      "ean": "4006501815392",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000098119",
+      "ean": "4006501814357",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136369",
+      "ean": "1200130019593",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002074588",
+      "ean": "8596426104078",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002127903",
+      "ean": "8596426108212",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000038119",
+      "ean": "4006501815149",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001807390",
+      "ean": "6925281988158",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136212",
+      "ean": "4006501716019",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000159724",
+      "ean": "8595181189542",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033297",
+      "ean": "4006501814098",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000018119",
+      "ean": "4006501815705",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002065154",
+      "ean": "6925281998768",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "342030058119",
+      "ean": "4006501725790",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001188813",
+      "ean": "6925281977480",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136245",
+      "ean": "4006501852762",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136228",
+      "ean": "4006501814708",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000939265",
+      "ean": "8595181191927",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002143592",
+      "ean": "8591680182114",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002102375",
+      "ean": "8591680168675",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001959281",
+      "ean": "4006501816900",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "460500017111",
+      "ean": "8594043288348",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136241",
+      "ean": "4006501825001",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136360",
+      "ean": "1200130018602",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136246",
+      "ean": "4006501852779",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136370",
+      "ean": "1200130019562",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002127902",
+      "ean": "8596426108908",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001832523",
+      "ean": "5400338050664",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136235",
+      "ean": "4006501816351",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002102627",
+      "ean": "1200130010217",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "460500027111",
+      "ean": "8594043288355",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000939266",
+      "ean": "8595181191910",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001124213",
+      "ean": "6925281979293",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ARM-880RC",
+      "ean": "4007754231694",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ATS-12HT",
+      "ean": "4007754222647",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "BH-009",
+      "ean": "4007754243994",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DH-95N",
+      "ean": "4007754004014",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DH-95NP",
+      "ean": "4007754186567",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-065",
+      "ean": "4007754211269",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-1100",
+      "ean": "4007754172317",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-3SET",
+      "ean": "4007754183672",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-5000LN",
+      "ean": "4007754074215",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DMG-450",
+      "ean": "4007754154078",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DMG-600",
+      "ean": "4007754035186",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DMG-700",
+      "ean": "4007754154085",
+      "reason": "Changed name or category; needs review"
+    },
+    {
       "supplier": "monacor",
       "code": "ECM-10/SW",
       "ean": "4007754154528",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-200",
+      "ean": "4007754005615",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-250",
+      "ean": "4007754174427",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-270",
+      "ean": "4007754194982",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-285",
+      "ean": "4007754155471",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-300L",
+      "ean": "4007754137231",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1471,6 +2209,36 @@
     },
     {
       "supplier": "monacor",
+      "code": "ECM-310P",
+      "ean": "4007754140347",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-310W",
+      "ean": "4007754172744",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-402L",
+      "ean": "4007754174991",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-450",
+      "ean": "4007754173062",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-500",
+      "ean": "4007754150667",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "ECM-500L/SK",
       "ean": "4007754182224",
       "reason": "Changed name or category; needs review"
@@ -1479,6 +2247,72 @@
       "supplier": "monacor",
       "code": "ECM-501L/SK",
       "ean": "4007754182231",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-821LT",
+      "ean": "4007754201451",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-925P",
+      "ean": "4007754091281",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "EMG-330P",
+      "ean": "4007754190298",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "EMG-500P",
+      "ean": "4007754089769",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "EMG-600P",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HF-30",
+      "ean": "4007754114478",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HF-50",
+      "ean": "4007754114461",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HF-70",
+      "ean": "4007754114447",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HM-30",
+      "ean": "4007754154139",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-100",
+      "ean": "4007754113273",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-110",
+      "ean": "4007754114102",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1543,6 +2377,36 @@
     },
     {
       "supplier": "monacor",
+      "code": "HSE-72",
+      "ean": "4007754241754",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-80",
+      "ean": "4007754181999",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-821SX",
+      "ean": "4007754201468",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-86",
+      "ean": "4007754213584",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-90",
+      "ean": "4007754183733",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "KM-24110",
       "ean": "4016842814527",
       "reason": "Changed name or category; needs review"
@@ -1551,6 +2415,360 @@
       "supplier": "monacor",
       "code": "KM-24120",
       "ean": "4016842817467",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSC-1500NP",
+      "ean": "4007754068467",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSC-33NP",
+      "ean": "4007754033342",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-100T",
+      "ean": "4007754066920",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-15T",
+      "ean": "4007754046908",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-22T",
+      "ean": "4007754066845",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-82T",
+      "ean": "4007754066913",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-260",
+      "ean": "4007754191578",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-302",
+      "ean": "4007754226164",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-306",
+      "ean": "4007754209471",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-39",
+      "ean": "4007754012620",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-390",
+      "ean": "4007754243888",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-460",
+      "ean": "4007754252309",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-480",
+      "ean": "4007754228236",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-10",
+      "ean": "4007754221824",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-120",
+      "ean": "4007754221923",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-15",
+      "ean": "4007754221831",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-150",
+      "ean": "4007754221930",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-470",
+      "ean": "4007754221961",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-68",
+      "ean": "4007754221893",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-82",
+      "ean": "4007754221909",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-120",
+      "ean": "4007754222074",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-22",
+      "ean": "4007754221992",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-30",
+      "ean": "4007754222005",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-82",
+      "ean": "4007754222050",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-1120RC",
+      "ean": "4007754143188",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-4000RC",
+      "ean": "4007754218442",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-4300PTT",
+      "ean": "4007754236231",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-6000RC",
+      "ean": "4007754199574",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PDM-302",
+      "ean": "4007754205572",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SE-20",
+      "ean": "4007754186840",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SE-30",
+      "ean": "4007754243864",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SE-62",
+      "ean": "4007754202342",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXA-800HT",
+      "ean": "4007754199352",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-2402SET",
+      "ean": "4007754226836",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-611SET",
+      "ean": "4007754223743",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-631SET",
+      "ean": "4007754223750",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-812SET",
+      "ean": "4007754215175",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-900HT",
+      "ean": "4007754239126",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-500",
+      "ean": "4007754213355",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-505",
+      "ean": "4007754193978",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-508",
+      "ean": "4007754193992",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-508W",
+      "ean": "4007754194005",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-509",
+      "ean": "4007754194098",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-516",
+      "ean": "4007754194029",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-516W",
+      "ean": "4007754194012",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-520",
+      "ean": "4007754228496",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "GML-5212",
+      "ean": "4007754194500",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "GML-5218",
+      "ean": "4007754194524",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HP-535",
+      "ean": "4007754194425",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HP-565",
+      "ean": "4007754248128",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HPM-535",
+      "ean": "4007754248111",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "IE-1",
+      "ean": "4007754194920",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TK-600",
+      "ean": "4007754194302",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-500DUSET",
+      "ean": "4007754254570",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-2400RC",
+      "ean": "4007754256239",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SIP-MIC",
+      "ean": "8595159511429",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DRM-884RC",
+      "ean": "4007754261820",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECMS-60",
+      "ean": "4007754259971",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECMS-70",
+      "ean": "4007754259988",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1585,6 +2803,48 @@
     },
     {
       "supplier": "monacor",
+      "code": "HS02T",
+      "ean": "4032661416537",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ622",
+      "ean": "8051361592279",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ101",
+      "ean": "8051361592149",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ102",
+      "ean": "8051361592156",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ZZACC1VE",
+      "ean": "8000000015198",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ZZACC2NR",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-M4RC",
+      "ean": "4007754273397",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "TXS-606HT/2",
       "ean": "4007754276183",
       "reason": "Changed name or category; needs review"
@@ -1609,6 +2869,36 @@
     },
     {
       "supplier": "monacor",
+      "code": "DM-710",
+      "ean": "4007754410921",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-720",
+      "ean": "4007754410945",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-720S",
+      "ean": "4007754410952",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-730",
+      "ean": "4007754410969",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-730S",
+      "ean": "4007754410976",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "PDM-302PTT",
       "ean": "4007754410914",
       "reason": "Changed name or category; needs review"
@@ -1617,6 +2907,18 @@
       "supplier": "monacor",
       "code": "EAM-17DT",
       "ean": "4007754419900",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-2500RM",
+      "ean": "8588008802281",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "KSM-2406",
+      "ean": "755249415688",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1663,6 +2965,36 @@
     },
     {
       "supplier": "monacor",
+      "code": "TXZZ422",
+      "ean": "8051361596390",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ522",
+      "ean": "8051361592231",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ424",
+      "ean": "8051361596383",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ520",
+      "ean": "8051361592224",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ103",
+      "ean": "8051361592163",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "HMX-MIC",
       "ean": "8054301338944",
       "reason": "Changed name or category; needs review"
@@ -1677,6 +3009,18 @@
       "supplier": "monacor",
       "code": "LIVEO-640PBK",
       "ean": "8051706390270",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MIC100",
+      "ean": "3700752716798",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MIC300",
+      "ean": "3700752716804",
       "reason": "Changed name or category; needs review"
     },
     {
