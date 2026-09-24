@@ -2,7 +2,7 @@
   "minimum": 8,
   "totalProducts": 27085,
   "matchedRules": 1637,
-  "changedProducts": 9,
+  "changedProducts": 159,
   "rejected": [
     {
       "supplier": "atos",
@@ -4979,7 +4979,7 @@
     },
     {
       "path": "Auto-moto > Elektronika do auta > Autorádiá",
-      "visibleUnique": 20,
+      "visibleUnique": 17,
       "active": true,
       "parent": "Auto-moto > Elektronika do auta"
     },
@@ -5255,8 +5255,8 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory",
-      "visibleUnique": 10,
-      "active": true,
+      "visibleUnique": 6,
+      "active": false,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
