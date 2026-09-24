@@ -104,7 +104,7 @@ body.type-category #filters fieldset {
 
 body.type-category #filters #manufacturer-filter fieldset {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 2px 18px;
 }
 
@@ -135,9 +135,12 @@ body.type-category #filters input[type="radio"] {
 }
 
 body.type-category #filters #manufacturer-filter label {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  flex: 1 1 auto;
+  width: auto !important;
+  max-width: 100%;
+  overflow: visible;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 body.type-category #filters .filter-count {
@@ -162,7 +165,7 @@ body.type-category #filters input:focus-visible {
 
 @media (max-width: 1199px) {
   body.type-category #filters #manufacturer-filter fieldset {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2px 14px;
   }
 }
