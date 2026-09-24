@@ -1,969 +1,9 @@
 {
   "minimum": 8,
-  "totalProducts": 27062,
-  "matchedRules": 1926,
-  "changedProducts": 1120,
+  "totalProducts": 27084,
+  "matchedRules": 1829,
+  "changedProducts": 467,
   "rejected": [
-    {
-      "supplier": "atos",
-      "code": "TIP-07730147",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-BAT1155",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720296",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "VCXZS1500V",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SOLKAB10MM2BLACK",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07730136",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720249",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TOC-1693354",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6BL2",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720258",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04290151",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04290152",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV4BL2015V",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6BL20",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07730155",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04290153",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-WIFIVCL002CBK",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "E6258",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-2631600200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-2631600100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "IST-SECQI13WDS2",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1102-XL",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1102-XXL",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1104-M",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1104-XS",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04240669",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-WIFIP151EWT",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04240640",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720139",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-MIE0401",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "CMP-07168",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720188",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "CMP-YT-36472",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "CMP-YT-36473",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720299",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720239",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720240",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6BL15",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "HAD-N351",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "HAD-N351A",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LP-MIE0402",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82990",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82967",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "NED-WIFIVCL001CBK",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "NED-WIFIVCR001CBK",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07730009",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "EMO2202013000",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-2631600400",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-2631610100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720284",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-06444296",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV4BL500",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720228",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720265",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B3-100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-03360268",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEBB21AB",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "CMP-YT-36474",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "HAD-N351B",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "HAD-N351C",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "HAD-N345A-100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-WIFIP313EWT",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-WIFIP141EWT",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-1916055510",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07730044",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6RE2",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-03360241",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-2631600600",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-2631610200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "CMP-YT-36475",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-KM2017",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-KM2016",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720194",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-03360262",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ZSPVLTM011000V",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-MIE0426",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-04240701",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-04240702",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "EMO1606025000",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV4BL50",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RBY-2001-4",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RBY-2001-5",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04240639",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "EMO2202015000",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-035",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-KW510",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-1916055520",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-EVCH37KWBK20",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RBY-2000-5",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1102-S",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07730003",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-G826",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-KM2018",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-04240703",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720212",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720213",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720214",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-G825",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TOC-SX1409",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04240621",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV4BL2515V",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720243",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV4BL",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-03360240",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-196",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-613",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-06444294",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-G812A",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-WIFIPO130EWT",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LP-MIE0403",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82991",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720229",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07730135",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720256",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720174",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720175",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "H1Z2Z2-K-BLACK-4-M",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "H1Z2Z2-K-BLACK-6-M",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720280",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1003",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1004",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1005",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1006",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1002",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1007",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1009",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ITR-00016713",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-KM-PPA100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1103-M",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1103-S",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1103-XL",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1103-XS",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-383",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720191",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720285",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720179",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6BL50015V",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-03360261",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82986",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82987",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82988",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82989",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82546",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B3-102",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SKP6MM5MBLACK",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SKP6MM5MRED",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SK6MM5M",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6BL10015V",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6BL",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1102-L",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1102-M",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-1902940203",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1102-XS",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1103-L",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1104-L",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RA-1104-XL",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-TSA3545-B",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-TSA3545-W",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-03360267",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-06444254",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720180",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVESYMC42PAR",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6BL50",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV6BL25",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-MIE0463",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-MIE0458",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-MIE0459",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720230",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-82992",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-254",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1001",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1008",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEV-83844",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-TSA3507",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-133",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ITR-00016712",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ITR-00018340",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ITR-00018345",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720187",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ITR-00017692",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-KW520",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-04240700",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720186",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720227",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720006",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720225",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720170",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "EMO1608000001",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B3-101",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "SPR-FVEPV4BL1515V",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07730161",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RC-10",
-      "reason": "Reviewed product name changed"
-    },
     {
       "supplier": "basys",
       "code": "BASYS-B 895098-0100",
@@ -1131,7 +171,1032 @@
     },
     {
       "supplier": "innpro",
+      "code": "018683",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "022738",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "021910",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "024466",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "024468",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "025923",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "027972",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "030692",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "031735",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "032608",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "033593",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "037030",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "037402",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "037404",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "037405",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "037507",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "038728",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "041477",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "046755",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "046756",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "046569",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "053648",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "055034",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "055429",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "054078",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "055849",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "056068",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "059216",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "060196",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "061372",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "060473",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "060474",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064030",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064235",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064902",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064816",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "064997",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065002",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065003",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088227",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065174",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090695",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064730",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064731",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064732",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064733",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064734",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064735",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064736",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064737",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064738",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064739",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064740",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064742",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064743",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064744",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064745",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064746",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064747",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064748",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064749",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064752",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064755",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064756",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064757",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064758",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064759",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064760",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064761",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064762",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064763",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065407",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "063812",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "063811",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065782",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065785",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065823",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "066305",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "066289",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "066417",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "066401",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "066402",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "066404",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "066488",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "067768",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "067769",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "068234",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069425",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "068239",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069426",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069161",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069259",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "068968",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070385",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070386",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070342",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069447",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069448",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069449",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069216",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069217",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069206",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070489",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069224",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069254",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069460",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069462",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069473",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069924",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070632",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "071382",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070643",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "071873",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "072102",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "072621",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073427",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073428",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073431",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074192",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074193",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074194",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073687",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074232",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074752",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075364",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075365",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073335",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073338",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073341",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075568",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075952",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075951",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075950",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "072604",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078075",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078077",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078081",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078082",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078098",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078088",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077645",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077646",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078328",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078329",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078330",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078361",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078331",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078332",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078283",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078275",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078274",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078982",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078978",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078983",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079418",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077378",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077379",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077380",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077381",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077382",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077383",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077384",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077389",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079514",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079515",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079516",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079517",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079518",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079519",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079520",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "080299",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "080300",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "080794",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "080795",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "080759",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081317",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081316",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081335",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079792",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079796",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079797",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079798",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079799",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079800",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081466",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081467",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081468",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081469",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081470",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081535",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081539",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "082634",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "082637",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "082638",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081959",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083392",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083393",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084311",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084310",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084306",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084312",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083351",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083352",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083356",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083357",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083353",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1286,6 +1351,21 @@
     },
     {
       "supplier": "innpro",
+      "code": "085123",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085126",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085130",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "085133",
       "reason": "Reviewed product name changed"
     },
@@ -1297,6 +1377,71 @@
     {
       "supplier": "innpro",
       "code": "085135",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084901",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084902",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084904",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084907",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084908",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084912",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084913",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084914",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084917",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084918",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084919",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084920",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084921",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1466,6 +1611,41 @@
     },
     {
       "supplier": "innpro",
+      "code": "085177",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085180",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085183",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085184",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085186",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085190",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085193",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "085198",
       "reason": "Reviewed product name changed"
     },
@@ -1566,12 +1746,322 @@
     },
     {
       "supplier": "innpro",
+      "code": "082843",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "085237",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "innpro",
+      "code": "085241",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085242",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085243",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "085204",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085269",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086690",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086691",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086692",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086693",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086694",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086695",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086696",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086702",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086703",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086698",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086700",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086699",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086701",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086697",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086704",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088341",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088344",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088345",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085806",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089019",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089029",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089018",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088726",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089028",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089017",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089615",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089619",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089633",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089658",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089661",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090150",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087943",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090976",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090992",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091020",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091570",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091572",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088325",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091955",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091956",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091960",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091962",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091963",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093879",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093880",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093881",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093882",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093885",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093886",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093887",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093890",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093892",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093893",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093894",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "092702",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "092701",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "082793",
       "reason": "Reviewed product name changed"
     },
     {
@@ -3495,7 +3985,36 @@
       "reason": "Reviewed product name changed"
     }
   ],
-  "categoryDrifts": [],
+  "categoryDrifts": [
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13WDS2",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    },
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13PIR",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -3529,7 +4048,7 @@
     },
     {
       "path": "Auto-moto > Elektronika do auta > Autorádiá",
-      "visibleUnique": 17,
+      "visibleUnique": 20,
       "active": true,
       "parent": "Auto-moto > Elektronika do auta"
     },
@@ -3577,7 +4096,7 @@
     },
     {
       "path": "Chovateľské potreby > Fontány a napájačky > Fontány pre psy a mačky",
-      "visibleUnique": 15,
+      "visibleUnique": 17,
       "active": true,
       "parent": "Chovateľské potreby > Fontány a napájačky"
     },
@@ -3589,7 +4108,7 @@
     },
     {
       "path": "Chovateľské potreby > Pelechy, škrabadlá a klietky > Škrabadlá pre mačky",
-      "visibleUnique": 10,
+      "visibleUnique": 9,
       "active": true,
       "parent": "Chovateľské potreby > Pelechy, škrabadlá a klietky"
     },
@@ -3601,7 +4120,7 @@
     },
     {
       "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Digitálne multimetre",
-      "visibleUnique": 64,
+      "visibleUnique": 63,
       "active": true,
       "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
     },
@@ -3625,7 +4144,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
-      "visibleUnique": 58,
+      "visibleUnique": 59,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
@@ -3841,7 +4360,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotostany a fotoboxy",
-      "visibleUnique": 10,
+      "visibleUnique": 11,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
