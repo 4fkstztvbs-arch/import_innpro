@@ -33,6 +33,15 @@ test('approved exact identity changes only the leading product NAME and is repea
   assert.equal(createNameOverride([alreadyNamed])(after, alreadyNamed), after);
 });
 
+test('a recorded previous localized name can transition to its corrected target', () => {
+  const row = overrides.find(entry => entry.previousName);
+  assert.ok(row, 'expected at least one correction from an earlier localized name');
+  const product = { ...productFor(row), name: row.previousName };
+  const before = shopitem(row.previousName, row.code, row.ean, row.manufacturer);
+  const after = shopitem(row.name, row.code, row.ean, row.manufacturer);
+  assert.equal(createNameOverride([product], [row])(before, product), after);
+});
+
 test('identity drift, missing targets, and duplicate CODEs preserve supplier XML', () => {
   const row = overrides[0];
   const before = shopitem(row.sourceName, row.code, row.ean, row.manufacturer);

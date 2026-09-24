@@ -11,9 +11,13 @@ function loadNameOverrides(file = OVERRIDES_PATH) {
   const codes = new Set();
   for (const row of overrides) {
     for (const key of ['code', 'ean', 'manufacturer', 'sourceName', 'name']) {
-    if (typeof row[key] !== 'string' || !row[key].trim()) {
-      throw new Error(`Invalid InnPro name override: missing ${key}.`);
+      if (typeof row[key] !== 'string' || !row[key].trim()) {
+        throw new Error(`Invalid InnPro name override: missing ${key}.`);
+      }
     }
+    if (Object.prototype.hasOwnProperty.call(row, 'previousName')
+        && (typeof row.previousName !== 'string' || !row.previousName.trim())) {
+      throw new Error(`Invalid InnPro name override: missing previousName for CODE ${row.code}.`);
     }
     if (codes.has(row.code)) throw new Error(`Duplicate InnPro name override CODE ${row.code}.`);
     codes.add(row.code);
