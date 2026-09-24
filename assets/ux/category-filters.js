@@ -94,6 +94,21 @@
       search.autocomplete = 'off';
       form.insertBefore(search, fieldset);
 
+      // This local text search is inside Shoptet's native filter form. Do not
+      // let Enter submit the incomplete form and navigate away from category.
+      search.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+      });
+      form.addEventListener('submit', function (event) {
+        if (document.activeElement === search) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+
       search.addEventListener('input', function () {
         var query = search.value.trim().toLocaleLowerCase('sk');
         checkboxes.forEach(function (input) {
