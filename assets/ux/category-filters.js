@@ -26,7 +26,6 @@
 
     var facetButtons = [];
     var activeButton = null;
-    var activeMode = null;
 
     function makeButton(label, mode, target, optionCount) {
       var button = document.createElement('button');
@@ -153,7 +152,6 @@
       }
 
       activeButton = button;
-      activeMode = mode;
       setExpanded(button);
       if (window.matchMedia('(max-width: 767px)').matches) {
         backdrop.classList.add('is-visible');
@@ -175,7 +173,6 @@
       facetButtons.forEach(function (facet) { facet.button.setAttribute('aria-expanded', 'false'); });
       var previous = activeButton;
       activeButton = null;
-      activeMode = null;
       if (returnFocus && previous) previous.focus();
     }
 
@@ -232,6 +229,35 @@
     filters.addEventListener('change', updateBadges);
     filters.addEventListener('input', updateBadges);
     updateBadges();
+
+    // Shoptet replaces the filter markup after applying a facet without a full
+    // page load. Rebuild the compact controls when that native fragment changes.
+    if (!window.__psCategoryFilterObserver) {
+      var observedRoot = document.body;
+      if (observedRoot && window.MutationObserver) {
+        var queued = false;
+        window.__psCategoryFilterObserver = new MutationObserver(function () {
+          if (queued) return;
+          queued = true;
+          window.requestAnimationFrame(function () {
+            queued = false;
+            var currentWrapper = document.querySelector('#filters-wrapper > .filters-wrapper');
+            var currentFilters = document.getElementById('filters');
+            var staleFacet = currentFilters && facetButtons.some(function (facet) {
+              return facet.mode === 'group' && !currentFilters.querySelector('[data-ps-facet-section="' + CSS.escape(facet.target) + '"]');
+            });
+            if (currentWrapper && (currentFilters !== filters || staleFacet || !currentWrapper.querySelector('.ps-category-filter-toolbar'))) {
+              if (activeButton) closePanel(false);
+              var oldToolbar = currentWrapper.querySelector('.ps-category-filter-toolbar');
+              if (oldToolbar) oldToolbar.remove();
+              document.querySelectorAll('.ps-category-filter-backdrop').forEach(function (node) { node.remove(); });
+              initCategoryFilters();
+            }
+          });
+        });
+        window.__psCategoryFilterObserver.observe(observedRoot, { childList: true, subtree: true });
+      }
+    }
   }
 
   if (document.readyState === 'loading') {
