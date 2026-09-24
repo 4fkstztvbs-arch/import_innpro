@@ -94,13 +94,13 @@
       search.autocomplete = 'off';
       section.insertBefore(search, form);
 
-      // Keep the local search outside Shoptet's native filter form so its
-      // delegated change handlers cannot submit the form while typing.
-      search.addEventListener('keydown', function (event) {
-        if (event.key === 'Enter') {
-          event.preventDefault();
+      // Shoptet delegates several filter events from the native form. Isolate
+      // local search keystrokes so they cannot trigger its manufacturer filter.
+      ['keydown', 'keypress', 'keyup', 'change', 'search', 'compositionstart', 'compositionend'].forEach(function (type) {
+        search.addEventListener(type, function (event) {
           event.stopPropagation();
-        }
+          if (type === 'keydown' && event.key === 'Enter') event.preventDefault();
+        });
       });
 
       search.addEventListener('input', function (event) {
