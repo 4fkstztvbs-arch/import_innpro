@@ -13,6 +13,9 @@
     var pricePanel = filters && filters.querySelector('.slider-wrapper');
     if (!filters || !wrapper || !buttonWrap || !pricePanel) return;
     if (wrapper.querySelector('.ps-category-filter-toolbar')) return;
+    filters.querySelectorAll('.ps-category-filter-search').forEach(function (search) {
+      search.remove();
+    });
 
     var toolbar = document.createElement('div');
     toolbar.className = 'ps-category-filter-toolbar';
@@ -222,6 +225,9 @@
       filters.removeAttribute('aria-label');
       filters.querySelectorAll('.ps-category-filter-section-active').forEach(function (section) {
         section.classList.remove('ps-category-filter-section-active');
+      });
+      filters.querySelectorAll('.ps-category-filter-search').forEach(function (search) {
+        search.hidden = true;
       });
       backdrop.classList.remove('is-visible');
       body.classList.remove('ps-category-filter-lock');
