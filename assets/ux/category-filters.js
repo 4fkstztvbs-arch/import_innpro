@@ -229,6 +229,11 @@
     filters.addEventListener('change', updateBadges);
     filters.addEventListener('input', updateBadges);
     updateBadges();
+    window.__psCategoryFilterState = {
+      filters: filters,
+      facets: facetButtons,
+      closePanel: closePanel
+    };
 
     // Shoptet replaces the filter markup after applying a facet without a full
     // page load. Rebuild the compact controls when that native fragment changes.
@@ -241,13 +246,15 @@
           queued = true;
           window.requestAnimationFrame(function () {
             queued = false;
+            var state = window.__psCategoryFilterState;
+            if (!state) return;
             var currentWrapper = document.querySelector('#filters-wrapper > .filters-wrapper');
             var currentFilters = document.getElementById('filters');
-            var staleFacet = currentFilters && facetButtons.some(function (facet) {
+            var staleFacet = currentFilters && state.facets.some(function (facet) {
               return facet.mode === 'group' && !currentFilters.querySelector('[data-ps-facet-section="' + CSS.escape(facet.target) + '"]');
             });
-            if (currentWrapper && (currentFilters !== filters || staleFacet || !currentWrapper.querySelector('.ps-category-filter-toolbar'))) {
-              closePanel(false);
+            if (currentWrapper && (currentFilters !== state.filters || staleFacet || !currentWrapper.querySelector('.ps-category-filter-toolbar'))) {
+              state.closePanel(false);
               var oldToolbar = currentWrapper.querySelector('.ps-category-filter-toolbar');
               if (oldToolbar) oldToolbar.remove();
               document.querySelectorAll('.ps-category-filter-backdrop').forEach(function (node) { node.remove(); });
