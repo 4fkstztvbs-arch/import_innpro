@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27084,
+  "totalProducts": 27085,
   "matchedRules": 1637,
-  "changedProducts": 56,
+  "changedProducts": 9,
   "rejected": [
     {
       "supplier": "atos",
@@ -4945,36 +4945,7 @@
       "reason": "Reviewed product name changed"
     }
   ],
-  "categoryDrifts": [
-    {
-      "supplier": "monacor",
-      "code": "KM-24110",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Profesionálna audio technika > Pódium, diskotéka, DJ"
-      ],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
-      ]
-    },
-    {
-      "supplier": "monacor",
-      "code": "KM-24120",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Profesionálna audio technika > Pódium, diskotéka, DJ"
-      ],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
-      ]
-    }
-  ],
+  "categoryDrifts": [],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",

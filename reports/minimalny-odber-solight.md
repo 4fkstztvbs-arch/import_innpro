@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-09-23 21:53 UTC.
+Kontrola z 2026-09-24 00:54 UTC.
 
-Solight pri **511** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **512** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -27,6 +27,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ316A-1` | Solight LED žiarovka, bodová , 5W, GU10, 3000K, 425lm, biela | 10 | 100 |
 | `WZ324-1` | Solight LED žiarovka, bodová , 5W, GU10, 6000K, 425lm, biela | 10 | 100 |
 | `WZ317A-1` | Solight LED žiarovka, bodová , 5W, GU10, 4000K, 425lm, biela | 10 | 100 |
+| `WZ409-1` | Solight LED žiarovka, sviečka, 6W, E14, 3000K, 510lm | 10 | 100 |
 | `WZ416-1` | Solight LED žiarovka, miniglobe, 6W, E14, 3000K, 510lm, biel | 10 | 100 |
 | `WZ419-1` | Solight LED žiarovka, miniglobe, 6W, E27, 6000K, 510lm | 10 | 100 |
 | `WZ325A-1` | Solight LED žiarovka, bodová , 7W, GU10, 6000K, 595lm, biela | 10 | 100 |
