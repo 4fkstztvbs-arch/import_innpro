@@ -247,7 +247,7 @@
               return facet.mode === 'group' && !currentFilters.querySelector('[data-ps-facet-section="' + CSS.escape(facet.target) + '"]');
             });
             if (currentWrapper && (currentFilters !== filters || staleFacet || !currentWrapper.querySelector('.ps-category-filter-toolbar'))) {
-              if (activeButton) closePanel(false);
+              closePanel(false);
               var oldToolbar = currentWrapper.querySelector('.ps-category-filter-toolbar');
               if (oldToolbar) oldToolbar.remove();
               document.querySelectorAll('.ps-category-filter-backdrop').forEach(function (node) { node.remove(); });
