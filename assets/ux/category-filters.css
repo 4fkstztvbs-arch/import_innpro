@@ -272,10 +272,10 @@ body.type-category.ps-category-filter-enhanced #filters .ps-category-filter-valu
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 3px 12px;
-  max-height: 280px;
+  max-height: none;
   margin: 0 !important;
   padding: 0 !important;
-  overflow: auto;
+  overflow: visible;
   border: 0 !important;
 }
 
