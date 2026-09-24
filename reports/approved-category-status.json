@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26923,
-  "matchedRules": 2228,
-  "changedProducts": 9,
+  "totalProducts": 26956,
+  "matchedRules": 2282,
+  "changedProducts": 225,
   "rejected": [
     {
       "supplier": "atos",
@@ -462,171 +462,6 @@
     {
       "supplier": "atos",
       "code": "LP-MIE0402",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895098-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0300",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0300",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B  883848-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 883848-0400",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0030",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0040",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884104-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884104-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0400",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0300",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0500",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0030",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 881046-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888507-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B  888507-0200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888507-0300",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 802171-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 802171-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897829-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897827-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897827-0020",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2214,43 +2049,43 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
-      "visibleUnique": 32,
+      "visibleUnique": 44,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike",
-      "visibleUnique": 5,
-      "active": false,
+      "visibleUnique": 14,
+      "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k slúchadlám",
-      "visibleUnique": 26,
+      "visibleUnique": 31,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 53,
+      "visibleUnique": 63,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá",
-      "visibleUnique": 32,
+      "visibleUnique": 35,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 102,
+      "visibleUnique": 112,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory",
-      "visibleUnique": 8,
+      "visibleUnique": 13,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
