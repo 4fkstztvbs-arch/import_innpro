@@ -19,6 +19,11 @@
 // Optional: PENTA_MIN_COST (0), PENTA_OUT (./output/penta.xml)
 
 const fs = require('fs');
+const { validateState } = require('./lib/vypredaj-core');
+const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
+const saleState = fs.existsSync(SALE_STATE_PATH)
+  ? validateState(JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')))
+  : { items: {} };
 const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parsePentaItem } = require('./parse-penta');
@@ -261,7 +266,8 @@ async function main() {
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
     if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
-    if (p.availabilityRaw !== 'skladem') { stats.skippedOutOfStock++; return; }
+    const trackedSale = (saleState.items[p.code]?.quantity || 0) > 0;
+    if (p.availabilityRaw !== 'skladem' && !trackedSale) { stats.skippedOutOfStock++; return; }
     if (p.priceVat <= 0) {
       stats.skippedNoPrice++;
       anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'zero-price', newPrice: 0 });
