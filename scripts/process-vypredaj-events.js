@@ -6,6 +6,8 @@ const path = require('path');
 const { ImapFlow } = require('imapflow');
 const { simpleParser } = require('mailparser');
 const { fetchOrders } = require('./fetch-orders');
+const { streamProducts } = require('./stream-products');
+const { parseProduct } = require('./parse-product');
 const {
   createEmptyState, validateState, parseCommandBody, hasUniqueProduct, addItems, applyOrders,
 } = require('./lib/vypredaj-core');
@@ -28,6 +30,19 @@ function stableMessageKey(message, uidValidity) {
   return message.parsed.messageId
     ? `message-id:${message.parsed.messageId.trim().toLowerCase()}`
     : `imap:${uidValidity}:${message.uid}`;
+}
+
+async function findInnproProductCodes(codes) {
+  const url = process.env.INNPRO_FULL_URL;
+  if (!url) throw new Error('Chýba GitHub Secret INNPRO_FULL_URL na overenie produktov, ktoré nie sú v bežnom výstupe.');
+  const found = new Map([...codes].map((code) => [code, 0]));
+  await streamProducts(url, (rawXml) => {
+    let product;
+    try { product = parseProduct(rawXml); } catch { return; }
+    const code = product?.codeOnCard || product?.id;
+    if (found.has(code)) found.set(code, found.get(code) + 1);
+  });
+  return found;
 }
 
 async function main() {
@@ -118,9 +133,15 @@ async function main() {
 
         try {
           const rows = parseCommandBody(parsed.text || '');
-          for (const row of rows) {
-            if (!hasUniqueProduct(feeds, row.code)) {
-              throw new Error(`Kód ${row.code} sa naprieč aktuálnymi dodávateľskými výstupmi nenachádza práve raz.`);
+          const missingFromOutput = rows.filter((row) => !hasUniqueProduct(feeds, row.code));
+          if (missingFromOutput.length) {
+            // InnPro removes supplier-out-of-stock products from output/*.xml. Confirm these
+            // codes against its live full catalog so returned stock can be activated anyway.
+            const sourceMatches = await findInnproProductCodes(new Set(missingFromOutput.map((row) => row.code)));
+            for (const row of missingFromOutput) {
+              if (sourceMatches.get(row.code) !== 1) {
+                throw new Error(`Kód ${row.code} nie je práve raz v aktuálnych výstupoch ani v živom InnPro katalógu.`);
+              }
             }
           }
           nextState = addItems(nextState, rows, message.internalDate || parsed.date || new Date());
