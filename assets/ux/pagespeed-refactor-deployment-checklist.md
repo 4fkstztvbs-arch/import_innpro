@@ -29,4 +29,4 @@ Check homepage, one category with a native brand filter, one product with galler
 
 ## 4. Rollback
 
-Restore the previous Shoptet asset references: CRO CSS `?v=72`, CRO JS `?v=25`, the unversioned `premiumstore-main.css`, and PDP final CSS/JS `?v=1`. If the font HEAD snippet was added solely for this release, it may be removed after the old CSS URLs are restored.
+Restore the previous Shoptet asset references: CRO CSS `?v=72`, CRO JS `?v=25`, `premiumstore-main.css` with its previous unversioned URL, and PDP final CSS/JS `?v=1`. If the font HEAD snippet was added solely for this release, it may be removed after the old CSS URLs are restored.
