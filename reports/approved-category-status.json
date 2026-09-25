@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27004,
+  "totalProducts": 26992,
   "matchedRules": 2282,
-  "changedProducts": 995,
+  "changedProducts": 992,
   "rejected": [
     {
       "supplier": "atos",
@@ -2074,7 +2074,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 112,
+      "visibleUnique": 108,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2110,7 +2110,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 83,
+      "visibleUnique": 84,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },

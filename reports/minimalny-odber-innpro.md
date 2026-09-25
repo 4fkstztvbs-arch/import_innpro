@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-25 10:31 UTC.
+Kontrola z 2026-09-25 14:53 UTC.
 
-InnPro pri **398** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -24,7 +24,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `019506` | Fotoblesk Puluz 5w1 + puzdro | — | 5 |
 | `020112` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (sivý+čierny) | — | 5 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | — | 5 |
-| `022609` | Inteligentný spínač WiFi Sonoff Basic R2 (NOVINKA) | — | 5 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrátane O | — | 5 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW2 WiF | — | 5 |
 | `023349` | Organizér / držiak nabíjačky AppleWatch (čierny) | — | 5 |
