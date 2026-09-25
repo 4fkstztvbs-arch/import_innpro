@@ -110,7 +110,8 @@ function applyOrders(stateInput, orders) {
   const changes = [];
   for (const order of asList(orders)) {
     const quantities = new Map();
-    const orderItems = asList(order.ITEMS?.ITEM);
+    const itemContainer = order.ORDER_ITEMS ?? order.ITEMS;
+    const orderItems = asList(itemContainer?.ITEM ?? itemContainer);
     for (const line of orderItems) {
       const code = text(line.CODE);
       const item = state.items[code];
