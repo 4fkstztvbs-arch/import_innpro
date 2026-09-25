@@ -43,6 +43,21 @@ async function main() {
   const feeds = feedPaths.map((file) => fs.readFileSync(file, 'utf8'));
   const state = readState();
   const orders = await fetchOrders(process.env.ORDERS_XML_URL);
+  const normalizeCode = (value) => String(value ?? '').trim().replace(/^0+(?=\\d)/, '');
+  for (const [activeCode, item] of Object.entries(state.items).filter(([, value]) => value.quantity > 0)) {
+    const candidates = [];
+    for (const order of orders) {
+      const rawLines = order.ITEMS?.ITEM || [];
+      const lines = Array.isArray(rawLines) ? rawLines : [rawLines];
+      for (const line of lines) {
+        const rawCode = typeof line.CODE === 'object' ? line.CODE['#text'] : line.CODE;
+        if (normalizeCode(rawCode) === normalizeCode(activeCode)) {
+          candidates.push({ order: String(order.CODE ?? ''), date: String(order.DATE ?? ''), itemCode: String(rawCode ?? ''), itemCodeType: typeof rawCode });
+        }
+      }
+    }
+    console.log(`Kontrola zhody ${activeCode}: ${candidates.length} položiek v exporte; ${JSON.stringify(candidates.slice(-5))}`);
+  }
   const oldestTrackedActivation = Object.values(state.items)
     .filter((item) => item.quantity > 0)
     .reduce((oldest, item) => Math.min(oldest, Date.parse(item.activatedAt)), Date.now());
