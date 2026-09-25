@@ -12,7 +12,7 @@
     "solight",
     "wiim"
   ],
-  "note": "Len potvrdené opravy do existujúcich kategórií. Nové L4/L5 ani import sa neaktivujú. Následný collapse-thin-categories zachová prah 8.",
+  "note": "Potvrdené presné opravy a automatické materiálové pravidlá obmedzené na konkrétnu zdrojovú kategóriu a existujúce uzly stromu. Nové kategórie sa nevytvárajú. Následný collapse-thin-categories zachová prah 8.",
   "products": [
     {
       "supplier": "atos",
@@ -17454,6 +17454,40 @@
       "rule": "reviewed-meze-accessory",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:basys:850"
+    }
+  ],
+  "automaticCategoryRules": [
+    {
+      "supplier": "innpro",
+      "sourceCategory": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna",
+      "note": "Vlákna InnPro sú v zdroji všetky v jednej kategórii. Rozdeľujú sa len pri jednoznačnom materiálovom označení názvu; neznáme a nejednoznačné názvy zostanú v rodičovi na kontrolu.",
+      "families": [
+        {
+          "target": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+          "patterns": [
+            "\\bTPU\\b"
+          ]
+        },
+        {
+          "target": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PETG filamenty",
+          "patterns": [
+            "\\bPETG\\b"
+          ]
+        },
+        {
+          "target": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
+          "patterns": [
+            "\\bABS\\b",
+            "\\bASA\\b"
+          ]
+        },
+        {
+          "target": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
+          "patterns": [
+            "\\bPLA\\b"
+          ]
+        }
+      ]
     }
   ]
 }
