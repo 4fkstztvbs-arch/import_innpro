@@ -714,17 +714,26 @@
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
   }
 
-  // run() sa NESMIE spúšťať synchrónne pri každej jednotlivej zmene DOM -
-  // stránka má obrovské menu a pri načítaní beží veľa mutácií naraz
-  // (obrázky, reklamy...), čo bez debounce mohlo zamraziť hlavné vlákno.
-  // Počkáme 200ms od poslednej zmeny a spustíme run() len raz.
-  var _runTimer = null;
-  function scheduleRun() {
-    if (_runTimer) clearTimeout(_runTimer);
-    _runTimer = setTimeout(run, 200);
+  // This script is loaded at the end of BODY, after the static markup it
+  // enhances has been parsed. Run immediately, then do one bounded retry at
+  // DOMContentLoaded in case Shoptet finishes adding a static enhancement host.
+  run();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', run, { once: true });
   }
 
-  document.addEventListener('DOMContentLoaded', run);
-  // Shoptet vie prepočítať košík cez AJAX bez reloadu stránky -> sledujeme zmeny DOM
-  new MutationObserver(scheduleRun).observe(document.body, { childList: true, subtree: true });
+  // Only checkout summary controls can be replaced during Shoptet AJAX updates.
+  // Keep the observer scoped there and avoid rerunning header, menu, PDP and
+  // footer setup after unrelated page mutations.
+  var checkoutSidebar = document.getElementById('checkoutSidebar');
+  if (checkoutSidebar && window.MutationObserver) {
+    var checkoutTimer = null;
+    new MutationObserver(function () {
+      clearTimeout(checkoutTimer);
+      checkoutTimer = setTimeout(function () {
+        relocateCheckoutNextStep();
+        renameContinueButton();
+      }, 80);
+    }).observe(checkoutSidebar, { childList: true, subtree: true });
+  }
 })();

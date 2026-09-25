@@ -288,7 +288,7 @@
     // Shoptet replaces the filter markup after applying a facet without a full
     // page load. Rebuild the compact controls when that native fragment changes.
     if (!window.__psCategoryFilterObserver) {
-      var observedRoot = document.body;
+      var observedRoot = document.getElementById('filters-wrapper');
       if (observedRoot && window.MutationObserver) {
         var queued = false;
         window.__psCategoryFilterObserver = new MutationObserver(function () {
