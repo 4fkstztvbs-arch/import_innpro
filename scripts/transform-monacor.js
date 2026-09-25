@@ -130,7 +130,7 @@ async function main() {
     // shop naming convention: "Značka Model popis"
     const name = [p.manufacturer, p.number, p.baseName].filter(Boolean).join(' ').trim() || p.baseName;
 
-    const trackedSale = (saleState.items[p.code]?.quantity || 0) > 0;
+    const trackedSale = (saleState.items[code]?.quantity || 0) > 0;
     if (EXCLUDE_UNAVAILABLE && p.stock <= 0 && p.foreignstock <= 0 && !trackedSale) { stats.skippedUnavailable++; return; }
     const availability = p.stock > 0 ? 'Skladom' : (p.foreignstock > 0 ? FOREIGN_AVAIL_TEXT : 'Nedostupné');
 
