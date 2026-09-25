@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600390,
+    "nextCardNumber": 202600395,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2336,6 +2336,36 @@
         "nazov": "ELEGOO Rapid PLA+",
         "dodavatel": "innpro",
         "code": "085806"
+      },
+      "693439922700": {
+        "kod": "202600390",
+        "nazov": "3.5L water fountain",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "693439922701": {
+        "kod": "202600391",
+        "nazov": "3.5L water fountain filter refil",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "697629786126": {
+        "kod": "202600392",
+        "nazov": "Gps Bike Computer Cycplus",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "697575596506": {
+        "kod": "202600393",
+        "nazov": "Flextail Max Pump 3 black",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "123000028216": {
+        "kod": "202600394",
+        "nazov": "VITURE Pro 2 XR Glasses",
+        "dodavatel": "innpro",
+        "code": ""
       }
     }
   },
