@@ -114,8 +114,8 @@ jobs:
           node scripts/validate-product-name-localization.js --supplier=kb --before=/tmp/kb-before-name-localization.xml --after=output/kb.xml
           node scripts/check-feed-size.js
 
-      - name: Apply return-stock sale prices after all feed transformations
-        run: node scripts/apply-vypredaj-to-feed.js output/kb.xml --allow-missing
+      - name: Build isolated Sklad BB feed
+        run: node scripts/build-sklad-bb-feed.js
 
       - name: Commit updated output
         run: |
