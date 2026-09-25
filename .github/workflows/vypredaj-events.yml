@@ -31,6 +31,7 @@ jobs:
           SEZNAM_IMAP_USER: ${{ secrets.SEZNAM_IMAP_USER }}
           SEZNAM_IMAP_PASSWORD: ${{ secrets.SEZNAM_IMAP_PASSWORD }}
           ORDERS_XML_URL: ${{ secrets.ORDERS_XML_URL }}
+          INNPRO_FULL_URL: ${{ secrets.INNPRO_FULL_URL }}
         run: node scripts/process-vypredaj-events.js
 
       - name: Zapísať výpredaj do všetkých dodávateľských výstupov
