@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write # needed to commit the generated XML into the repo (served via Pages)
 
+concurrency:
+  group: premiumstore-vypredaj-state
+  cancel-in-progress: false
+
 jobs:
   sync:
     if: github.ref == 'refs/heads/main'
@@ -108,6 +112,8 @@ jobs:
           node scripts/localize-product-names.js --supplier=innpro --in=output/innpro.xml --out=output/innpro.xml --strict=0
           node scripts/validate-product-name-localization.js --supplier=innpro --before=/tmp/innpro-before-name-localization.xml --after=output/innpro.xml
           node scripts/check-feed-size.js
+      - name: Apply return-stock sale prices after all feed transformations
+        run: node scripts/apply-vypredaj-to-feed.js output/innpro.xml --allow-missing
 
       - name: Commit updated output
         run: |

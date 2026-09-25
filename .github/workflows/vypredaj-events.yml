@@ -1,0 +1,64 @@
+name: Vypredajovy agent – mail a objednavky
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: premiumstore-vypredaj-state
+  cancel-in-progress: false
+
+jobs:
+  process:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Spracovať nové e-maily a objednávky
+        env:
+          SEZNAM_IMAP_USER: ${{ secrets.SEZNAM_IMAP_USER }}
+          SEZNAM_IMAP_PASSWORD: ${{ secrets.SEZNAM_IMAP_PASSWORD }}
+          ORDERS_XML_URL: ${{ secrets.ORDERS_XML_URL }}
+        run: node scripts/process-vypredaj-events.js
+
+      - name: Zapísať výpredaj do všetkých dodávateľských výstupov
+        run: |
+          for feed in output/*.xml; do
+            test -s "$feed" || continue
+            node scripts/apply-vypredaj-to-feed.js "$feed" --allow-missing
+          done
+
+      - name: Uložiť stav a feedy na ďalší Shoptet import
+        run: |
+          git config user.name "vypredajovy-agent"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/vypredaj.json output/*.xml
+          if git diff --cached --quiet; then
+            echo "Feedy a stav bez zmeny"
+            exit 0
+          fi
+          git commit -m "Aktualizovať výpredajové feedy a stav"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push; then
+              echo "Stav a výpredajové feedy uložené"
+              break
+            fi
+            sleep $((i * 8))
+            if [ "$i" = "5" ]; then
+              echo "::error::Push výpredajového feedu zlyhal"
+              exit 1
+            fi
+          done

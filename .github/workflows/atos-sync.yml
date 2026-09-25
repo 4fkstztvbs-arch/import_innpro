@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: premiumstore-vypredaj-state
+  cancel-in-progress: false
+
 jobs:
   sync:
     if: github.ref == 'refs/heads/main'
@@ -116,6 +120,9 @@ jobs:
           node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=output/atos.xml --strict=0
           node scripts/validate-product-name-localization.js --supplier=atos --before=/tmp/atos-before-name-localization.xml --after=output/atos.xml
           node scripts/check-feed-size.js
+
+      - name: Apply return-stock sale prices after all feed transformations
+        run: node scripts/apply-vypredaj-to-feed.js output/atos.xml --allow-missing
 
       - name: Commit updated output
         run: |

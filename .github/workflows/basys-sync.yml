@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: premiumstore-vypredaj-state
+  cancel-in-progress: false
+
 jobs:
   sync:
     if: github.ref == 'refs/heads/main'
@@ -77,6 +81,9 @@ jobs:
 
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
+
+      - name: Apply return-stock sale prices after all feed transformations
+        run: node scripts/apply-vypredaj-to-feed.js output/basys.xml --allow-missing
 
       - name: Commit updated output
         run: |

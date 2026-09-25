@@ -18,7 +18,8 @@
     "validate:seo-overrides": "node scripts/validate-seo-overrides.js",
     "seo:overrides": "node scripts/apply-seo-overrides.js",
     "heureka-shadow": "node scripts/heureka-shadow-optimizer.js",
-    "test:heureka-shadow": "node --test scripts/test-heureka-shadow-core.js"
+    "test:heureka-shadow": "node --test scripts/test-heureka-shadow-core.js",
+    "test:vypredaj-agent": "node --test scripts/test-vypredaj-agent.js"
   },
   "license": "UNLICENSED",
   "private": true,

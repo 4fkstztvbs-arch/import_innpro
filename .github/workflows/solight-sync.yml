@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: premiumstore-vypredaj-state
+  cancel-in-progress: false
+
 jobs:
   sync:
     if: github.ref == 'refs/heads/main'
@@ -96,6 +100,8 @@ jobs:
           node scripts/localize-product-names.js --supplier=solight --in=output/solight.xml --out=output/solight.xml --strict=0
           node scripts/validate-product-name-localization.js --supplier=solight --before=/tmp/solight-before-name-localization.xml --after=output/solight.xml
           node scripts/check-feed-size.js
+      - name: Apply return-stock sale prices after all feed transformations
+        run: node scripts/apply-vypredaj-to-feed.js output/solight.xml --allow-missing
 
       - name: Commit updated output
         run: |
