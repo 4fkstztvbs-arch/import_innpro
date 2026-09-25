@@ -69,19 +69,21 @@ async function main() {
       let lastUid = Number(state.mail.lastUid || 0);
       let initialSetup = false;
       if (state.mail.uidValidity && String(state.mail.uidValidity) !== uidValidity) {
-        // Mailbox UIDs can be reassigned after a mailbox rebuild. Set a fresh high-water mark
-        // instead of replaying the whole Inbox and accidentally applying old sale commands.
-        const existing = await client.search({ all: true }, { uid: true });
-        lastUid = existing.reduce((max, uid) => Math.max(max, uid), 0);
-        console.warn('IMAP UIDVALIDITY sa zmenil; staršie správy preskakujem a nastavujem nový kurzor.');
-      } else if (!state.mail.uidValidity) {
-        // Scan existing UIDs once so a new command received just before the first five-minute
-        // poll is not lost. Older messages are filtered by the committed activation timestamp.
+        // UIDs may be reassigned after a mailbox rebuild. Re-scan today's messages from the
+        // activation date instead of searching the whole Inbox.
         lastUid = 0;
         initialSetup = true;
-        console.log('Prvý beh: kontrolujem správy doručené po aktivácii agenta.');
+        console.warn('IMAP UIDVALIDITY sa zmenil; znovu kontrolujem správy od aktivácie agenta.');
+      } else if (!state.mail.uidValidity) {
+        // On the first run, restrict IMAP to the activation date; internalDate below keeps the
+        // exact activation-time boundary. This avoids fetching the entire mailbox history.
+        lastUid = 0;
+        initialSetup = true;
+        console.log('Prvý beh: kontrolujem iba správy od dátumu aktivácie agenta.');
       }
-      const uids = await client.search({ uid: `${lastUid + 1}:*` }, { uid: true });
+      const searchCriteria = { uid: `${lastUid + 1}:*` };
+      if (initialSetup) searchCriteria.since = new Date(state.mail.activationAfter);
+      const uids = await client.search(searchCriteria, { uid: true });
       const messages = [];
       if (uids.length) {
         for await (const message of client.fetch(uids, { uid: true, source: true, internalDate: true }, { uid: true })) {
@@ -107,7 +109,8 @@ async function main() {
         const to = [...mailAddresses(parsed, 'to'), ...mailAddresses(parsed, 'cc')];
         const key = stableMessageKey(message, uidValidity);
         if (seen.has(key)) continue;
-        if (!from.includes(ADDRESS) || !to.includes(ADDRESS) || (parsed.subject || '').trim() !== 'VÝPREDAJ') continue;
+        const subject = (parsed.subject || '').normalize('NFC').trim().toLocaleUpperCase('sk-SK');
+        if (!from.includes(ADDRESS) || !to.includes(ADDRESS) || subject !== 'VÝPREDAJ') continue;
         if (initialSetup && Date.parse(message.internalDate || parsed.date || 0) < Date.parse(state.mail.activationAfter)) {
           seen.add(key);
           continue;
@@ -133,6 +136,7 @@ async function main() {
       nextState.mail = {
         uidValidity,
         lastUid,
+        activationAfter: state.mail.activationAfter,
         processedMessageKeys: [...seen].slice(-5000),
       };
     } finally {
