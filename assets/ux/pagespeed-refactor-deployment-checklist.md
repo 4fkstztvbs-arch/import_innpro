@@ -21,7 +21,7 @@ Keep one copy of each stylesheet/script and preserve the current order. Update t
 <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-final.js?v=2"></script>
 ```
 
-Keep CSS in HEAD and both scripts in the footer, in the order shown. Do not edit or duplicate the category-filter references during this change; the deployed category currently renders Shoptet's native form and the legacy custom files are not loaded there.
+Keep CSS in HEAD. In the footer, keep the `#ps-category-images` JSON block before `premiumstore-cro.js`; the menu reads that configuration when the script initializes. Load CRO JS before PDP JS, as shown. Do not duplicate the category-filter references during this change; the deployed category currently renders Shoptet's native form and the legacy custom files are not loaded there.
 
 ## 3. Verify after propagation
 
