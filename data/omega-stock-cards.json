@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600401,
+    "nextCardNumber": 202600408,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2401,6 +2401,48 @@
         "kod": "202600400",
         "nazov": "TC Electronic Spark Mini Booster *No DFI Applicable",
         "dodavatel": "basys",
+        "code": ""
+      },
+      "5901122687672": {
+        "kod": "202600401",
+        "nazov": "Proudový chránič VCX DZ47LE 3P+N typ A /B40A/30mA/6kA (s nadproudovou ochra",
+        "dodavatel": "atos",
+        "code": "DZ47LE3P+NB4030MATYPA"
+      },
+      "8013679026778": {
+        "kod": "202600402",
+        "nazov": "Parabola EMES 73x80 Al TMAVĚ ŠEDÁ",
+        "dodavatel": "atos",
+        "code": "PAEM80ALS"
+      },
+      "8595689800345": {
+        "kod": "202600403",
+        "nazov": "Vysílač DO TESLA TE-300, 301, 302, Alma 2820 +++ORIGINÁL+++",
+        "dodavatel": "atos",
+        "code": "IST-DOVTE00049"
+      },
+      "8594163278311": {
+        "kod": "202600404",
+        "nazov": "DVBT2 TESLA TE-300 (USB, HDMI CEC, SCART, displej, H.265)",
+        "dodavatel": "atos",
+        "code": "TES300R2"
+      },
+      "5900779956414": {
+        "kod": "202600405",
+        "nazov": "Suchý zip samolepící Ruhhy 25806 5m x 5cm černý",
+        "dodavatel": "atos",
+        "code": "ITR-00018277"
+      },
+      "4823016223326": {
+        "kod": "202600406",
+        "nazov": "Páska VENTS C 100Zn rychloupevňovací 9-11cm",
+        "dodavatel": "atos",
+        "code": "ELE-1009920"
+      },
+      "4823016260437": {
+        "kod": "202600407",
+        "nazov": "Ventilátor VENTS 100 CFT TURBO radiální 1009288 1904004",
+        "dodavatel": "atos",
         "code": ""
       }
     }
