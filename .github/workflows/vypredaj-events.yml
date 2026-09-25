@@ -2,9 +2,10 @@ name: Vypredajovy agent – mail a objednavky
 
 on:
   schedule:
-    # Nočný finálny beh po dodávateľských feedech; BASYS je plánovaný na 23:00 UTC.
-    # 23:30 UTC = 01:30 Europe/Bratislava (CEST/CET), pred nočným Shoptet importom.
-    - cron: '30 23 * * *'
+    # Spracuje poštu a objednávky pred nočnými transformáciami, aby aj vypredané položky
+    # mohli byť zaradené do dodávateľského výstupu pre následné skopírovanie do Sklad BB.
+    # 21:30 UTC = 23:30 CEST / 22:30 CET; feedové API dodávateľov už je dostupné.
+    - cron: '30 21 * * *'
   workflow_dispatch: {}
 
 permissions:
