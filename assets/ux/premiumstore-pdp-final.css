@@ -136,6 +136,24 @@ body.type-detail .ps-brand-logo img {
 }
 
 
+/* The brand mark is added by JS after the PDP markup is painted. Keep it
+   visually beneath the title but out of document flow so its insertion cannot
+   push availability, price or the description tabs down. Mobile keeps its
+   existing in-flow layout. */
+@media (min-width: 992px) {
+  body.type-detail .p-detail-inner-header {
+    position: relative;
+  }
+  body.type-detail .p-detail-inner-header > .ps-brand-logo {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    margin: 0;
+  }
+}
+
+
 /* =========================================================
    BUYING AREA
    ========================================================= */
