@@ -8,6 +8,8 @@ const { simpleParser } = require('mailparser');
 const { fetchOrders } = require('./fetch-orders');
 const { streamProducts } = require('./stream-products');
 const { parseProduct } = require('./parse-product');
+const { streamRecords } = require('./stream-records');
+const { parseRecord, field } = require('./parse-kb');
 const {
   createEmptyState, validateState, parseCommandBody, hasUniqueProduct, addItems, applyOrders,
 } = require('./lib/vypredaj-core');
@@ -32,16 +34,35 @@ function stableMessageKey(message, uidValidity) {
     : `imap:${uidValidity}:${message.uid}`;
 }
 
-async function findInnproProductCodes(codes) {
-  const url = process.env.INNPRO_FULL_URL;
-  if (!url) throw new Error('Chýba GitHub Secret INNPRO_FULL_URL na overenie produktov, ktoré nie sú v bežnom výstupe.');
+async function findSupplierProductCodes(codes) {
+  const sources = [process.env.INNPRO_FULL_URL, process.env.KB_ZBOZI_URL, process.env.BASYS_URL].filter(Boolean);
+  if (!sources.length) throw new Error('Chýbajú dodávateľské vstupné URL na overenie chýbajúcich kódov.');
   const found = new Map([...codes].map((code) => [code, 0]));
-  await streamProducts(url, (rawXml) => {
-    let product;
-    try { product = parseProduct(rawXml); } catch { return; }
-    const code = product?.codeOnCard || product?.id;
-    if (found.has(code)) found.set(code, found.get(code) + 1);
-  });
+  if (process.env.INNPRO_FULL_URL) {
+    await streamProducts(process.env.INNPRO_FULL_URL, (rawXml) => {
+      let product;
+      try { product = parseProduct(rawXml); } catch { return; }
+      const code = String(product?.codeOnCard || product?.id || '');
+      if (found.has(code)) found.set(code, found.get(code) + 1);
+    });
+  }
+  if (process.env.KB_ZBOZI_URL) {
+    await streamRecords(process.env.KB_ZBOZI_URL, 'zaznam', (rawXml) => {
+      let record;
+      try { record = parseRecord(rawXml); } catch { return; }
+      const code = String(field(record, 'sKodZbozi') || field(record, 'sIdZbozi') || '');
+      if (found.has(code)) found.set(code, found.get(code) + 1);
+    });
+  }
+  if (process.env.BASYS_URL) {
+    await streamRecords(process.env.BASYS_URL, 'SHOPITEM', (rawXml) => {
+      const match = rawXml.match(/<CODE\\b[^>]*>([\\s\\S]*?)<\\/CODE>/i);
+      if (!match) return;
+      const supplierCode = match[1].replace(/<\\/?[^>]+>/g, '').trim();
+      const code = `BASYS-${supplierCode}`;
+      if (found.has(code)) found.set(code, found.get(code) + 1);
+    });
+  }
   return found;
 }
 
@@ -135,9 +156,9 @@ async function main() {
           const rows = parseCommandBody(parsed.text || '');
           const missingFromOutput = rows.filter((row) => !hasUniqueProduct(feeds, row.code));
           if (missingFromOutput.length) {
-            // InnPro removes supplier-out-of-stock products from output/*.xml. Confirm these
-            // codes against its live full catalog so returned stock can be activated anyway.
-            const sourceMatches = await findInnproProductCodes(new Set(missingFromOutput.map((row) => row.code)));
+            // Stock-only supplier transforms omit unavailable items from output/*.xml. Confirm
+            // missing codes against the live InnPro, K-B and BASYS catalogs.
+            const sourceMatches = await findSupplierProductCodes(new Set(missingFromOutput.map((row) => row.code)));
             for (const row of missingFromOutput) {
               if (sourceMatches.get(row.code) !== 1) {
                 throw new Error(`Kód ${row.code} nie je práve raz v aktuálnych výstupoch ani v živom InnPro katalógu.`);
