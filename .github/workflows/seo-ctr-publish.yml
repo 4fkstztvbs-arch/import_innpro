@@ -27,6 +27,7 @@ jobs:
       - run: npm ci --ignore-scripts
       - run: npm run test:seo-overrides
       - name: Apply approved SEO to fresh main without restoring old feed data
+        id: publish
         shell: bash
         run: |
           set -euo pipefail
@@ -36,14 +37,34 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             node -e "if(require('./data/seo/ctr-test-overrides.json').status!=='ACTIVE')process.exit(1)"
-            node scripts/validate-seo-overrides.js --require-ready
+            if node - <<'NODE'
+          const report = require('./scripts/validate-seo-overrides').validate();
+          console.log(JSON.stringify(report, null, 2));
+          if (!report.preparationValid) process.exit(1);
+          if (!report.activationReady) {
+            console.log('::notice::CTR SEO publication skipped: preparation is valid, but readiness blockers remain. See the report above.');
+            process.exit(2);
+          }
+          NODE
+            then
+              :
+            else
+              validation_status=$?
+              if [ "$validation_status" -eq 2 ]; then
+                echo "result=skipped" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+              exit "$validation_status"
+            fi
             node scripts/apply-seo-overrides.js --strict --write
             git add output/*.xml
             if git diff --staged --quiet; then
+              echo "result=unchanged" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             git commit -m "Apply approved CTR SEO titles and descriptions"
             if git push origin HEAD:main; then
+              echo "result=published" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             sleep 3
@@ -51,6 +72,7 @@ jobs:
           echo "::error::Concurrent feed changes prevented publication; retry on fresh main."
           exit 1
       - name: Rebuild public import URLs after the bot commit
+        if: steps.publish.outputs.result == 'published'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
