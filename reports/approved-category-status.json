@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27003,
-  "matchedRules": 2283,
-  "changedProducts": 1030,
+  "totalProducts": 26998,
+  "matchedRules": 2282,
+  "changedProducts": 1029,
   "rejected": [
     {
       "supplier": "atos",
@@ -1792,8 +1792,8 @@
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
-      "visibleUnique": 5,
-      "active": false,
+      "visibleUnique": 14,
+      "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
     {
@@ -2110,7 +2110,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 84,
+      "visibleUnique": 83,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
