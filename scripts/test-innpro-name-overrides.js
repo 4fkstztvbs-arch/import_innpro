@@ -5,7 +5,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const { createNameOverride, loadNameOverrides } = require('./innpro-name-overrides');
-const { validate } = require('./validate-innpro-name-overrides');
+const { validate, quarantine } = require('./validate-innpro-name-overrides');
 
 const overrides = loadNameOverrides();
 
@@ -109,6 +109,39 @@ test('current InnPro XML dry-run changes exactly the registered product NAME fie
   assert.equal((after.match(/<SHOPITEM>/g) || []).length, allItems.length);
   assert.equal(applicable, overrides.length);
   console.log(`Verified ${allItems.length} feed items; ${applicable} exact NAME overrides; every other byte preserved.`);
+});
+
+
+test('quarantines only a changed product and preserves the rest of the XML feed', () => {
+  const row = overrides.find(entry => entry.code === '089550');
+  assert.ok(row, 'expected the Etenwolf identity-drift row');
+  const changed = shopitem('Tlakomer Etenwolf T600', row.code, row.ean, row.manufacturer);
+  const good = shopitem('Unchanged valid product', 'KEEP-001', '1234567890123', 'Other');
+  const xml = `<?xml version="1.0"?><SHOP>\\n${changed}\\n${good}\\n</SHOP>\\n`;
+
+  const result = quarantine(xml, [row]);
+
+  assert.equal(result.report.ok, true);
+  assert.equal(result.report.quarantined.length, 1);
+  assert.equal(result.report.quarantined[0].code, row.code);
+  assert.equal(result.report.quarantined[0].reason, 'identity-or-name-mismatch');
+  assert.equal(result.report.quarantined[0].removedCount, 1);
+  assert.doesNotMatch(result.xml, /089550|Tlakomer Etenwolf T600/);
+  assert.ok(result.xml.includes(good), 'unrelated product XML must be preserved byte-for-byte');
+  assert.equal(validate(result.xml, [row]).ok, true);
+});
+
+test('quarantines every ambiguous item for an approved duplicate CODE', () => {
+  const row = overrides[0];
+  const first = shopitem(row.sourceName, row.code, row.ean, row.manufacturer);
+  const second = shopitem(row.name, row.code, row.ean, row.manufacturer);
+  const result = quarantine(`<SHOP>${first}${second}</SHOP>`, [row]);
+
+  assert.equal(result.report.ok, true);
+  assert.equal(result.report.quarantined[0].reason, 'duplicate-code');
+  assert.equal(result.report.quarantined[0].removedCount, 2);
+  assert.doesNotMatch(result.xml, new RegExp(row.code));
+  assert.deepEqual(validate(result.xml, [row]).issues, []);
 });
 
 test('post-transform validator accepts the complete approved name batch', () => {
