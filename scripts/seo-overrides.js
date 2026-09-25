@@ -76,7 +76,11 @@ function applyFeedOverrides(xml, supplier, config, { strict = false } = {}) {
     changes.push({ item: items[0], seoTitle: entry.seoTitle, metaDescription: entry.metaDescription });
   }
   report.applied = changes.length;
-  if (strict && report.issues.length) throw new Error(`SEO preflight ${supplier}: ${JSON.stringify(report.issues)}`);
+  // A product absent from the current OUT is commonly excluded by supplier stock filters.
+  // Keep it reported, but do not fail a routine strict check; the readiness validator keeps
+  // the cohort blocked until the product returns. Code/EAN drift and duplicates stay fatal.
+  const unsafeIssues = report.issues.filter(issue => issue.reason !== 'missing');
+  if (strict && unsafeIssues.length) throw new Error(`SEO preflight ${supplier}: ${JSON.stringify(unsafeIssues)}`);
   // Daily disappearance must not freeze prices or resurrect a stale product.
   // Skip unsafe identities and report drift; strict preflight forbids starting with drift.
   return { xml: patchSeo(xml, changes), report };
