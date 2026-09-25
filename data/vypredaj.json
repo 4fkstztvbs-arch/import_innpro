@@ -16,12 +16,13 @@
   },
   "mail": {
     "uidValidity": "1",
-    "lastUid": 57695,
+    "lastUid": 57701,
     "activationAfter": "2026-09-25T00:00:00.000Z",
     "processedMessageKeys": [
       "message-id:<el.8kqqp.3g{nysanwzg.1gjcgb@seznam.cz>",
       "message-id:<fv.8kqtt.4hm2d49txwj.1gjczu@seznam.cz>",
-      "message-id:<nq.8kqs1.4odwfhrab}s.1gjhku@seznam.cz>"
+      "message-id:<nq.8kqs1.4odwfhrab}s.1gjhku@seznam.cz>",
+      "message-id:<na.8kqs}.4j{phldzfyx.1gjhtc@seznam.cz>"
     ]
   },
   "ignoredMail": [
@@ -29,6 +30,11 @@
       "key": "message-id:<nq.8kqs1.4odwfhrab}s.1gjhku@seznam.cz>",
       "reason": "Riadok 2 musí mať tvar KÓD;POČET.",
       "at": "2026-09-25T17:58:36.943Z"
+    },
+    {
+      "key": "message-id:<na.8kqs}.4j{phldzfyx.1gjhtc@seznam.cz>",
+      "reason": "HTTP 500 fetching https://dealer.pentask.sk/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet_El\nResponse body (first 2000 chars): System.ApplicationException: Unsupported Hour: *20* for method: *GetResult* of resultType: *StoItemShoptet_El*.\r\n   at CyberSoft.I6.Web.WebService.I6Ws.GetResult(String resultType)\r\n",
+      "at": "2026-09-25T18:05:26.858Z"
     }
   ]
 }
