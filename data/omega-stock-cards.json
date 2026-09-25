@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600395,
+    "nextCardNumber": 202600399,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2366,6 +2366,30 @@
         "nazov": "VITURE Pro 2 XR Glasses",
         "dodavatel": "innpro",
         "code": ""
+      },
+      "6953156301481": {
+        "kod": "202600395",
+        "nazov": "ANLAN EMS Light Therapy",
+        "dodavatel": "innpro",
+        "code": "049133"
+      },
+      "6976230001220": {
+        "kod": "202600396",
+        "nazov": "Self-adhesive film HTVRONT",
+        "dodavatel": "innpro",
+        "code": "088953"
+      },
+      "6920233423879": {
+        "kod": "202600397",
+        "nazov": "Portable monitor A238W05",
+        "dodavatel": "innpro",
+        "code": "090868"
+      },
+      "6972884752471": {
+        "kod": "202600398",
+        "nazov": "CATLINK Stairway for C08",
+        "dodavatel": "innpro",
+        "code": "091122"
       }
     }
   },
