@@ -116,8 +116,6 @@ function applyOrders(stateInput, orders) {
       const code = text(line.CODE);
       const item = state.items[code];
       if (!item || item.quantity <= 0) continue;
-      // Zásoba je evidencia opätovne zaradených kusov: podľa pravidla používateľa jedna
-      // objednávka spotrebuje najviac jeden výpredajový kus daného kódu, aj ak má viac riadkov.
       quantities.set(code, 1);
     }
     if (!quantities.size) continue;
@@ -149,13 +147,13 @@ function replaceOrInsert(block, tag, value) {
   return block.slice(0, close) + `<${tag}>${value}</${tag}>\n` + block.slice(close);
 }
 
-function setActionFlag(block, active) {
-  const flag = `<ACTION>${active ? 1 : 0}</ACTION>`;
+function setProductFlag(block, tag, active) {
+  const flag = `<${tag}>${active ? 1 : 0}</${tag}>`;
   const flagsMatch = block.match(/<FLAGS\b[^>]*>([\s\S]*?)<\/FLAGS>/);
   if (!flagsMatch) return replaceOrInsert(block, 'FLAGS', flag);
   let flags = flagsMatch[1];
-  const action = /<ACTION\b[^>]*>[\s\S]*?<\/ACTION>/i;
-  if (action.test(flags)) flags = flags.replace(action, flag);
+  const current = new RegExp(`<${tag}\\b[^>]*>[\\s\\S]*?<\\/${tag}>`, 'i');
+  if (current.test(flags)) flags = flags.replace(current, flag);
   else flags += flag;
   return block.replace(/<FLAGS\b[^>]*>[\s\S]*?<\/FLAGS>/, `<FLAGS>${flags}</FLAGS>`);
 }
@@ -185,11 +183,12 @@ function applyVypredajToXml(feedXml, stateInput, options = {}) {
     if (item.quantity > 0 && purchasePrice > 0 && salePrice / (1 + vatRate / 100) + 0.000001 < purchasePriceNet) {
       throw new Error(`Zľava 5 % by dostala ${code} pod nákupnú cenu. Položka sa zastavila na kontrolu.`);
     }
-    // Novšie Shoptet importy prázdne/neprítomné polia nemusia mazať. Pri vypredaní preto
-    // posielame ACTION_PRICE rovný aktuálnej štandardnej cene a vypíname príznak Akcia.
+    // Výpredaj je v Shoptete vlastný príznak custom1. Akcia musí ostať vypnutá;
+    // po objednávke sa obnoví štandardná cena a odstráni sa príznak Výpredaj.
     const actionPrice = item.quantity > 0 ? salePrice : regularPrice;
     let updated = replaceOrInsert(block, 'ACTION_PRICE', actionPrice.toFixed(2));
-    updated = setActionFlag(updated, item.quantity > 0);
+    updated = setProductFlag(updated, 'ACTION', false);
+    updated = setProductFlag(updated, 'CUSTOM1', item.quantity > 0);
     return updated;
   });
 
