@@ -19,8 +19,8 @@ function categoryBlock(target) {
  return '<CATEGORIES>'+[...new Set(cats)].map(c=>'<CATEGORY>'+cdata(c)+'</CATEGORY>').join('')+'</CATEGORIES>';
 }
 function replaceCategory(xml,target) {
- if(!/<CATEGORIES>[\\s\\S]*?<\\/CATEGORIES>/.test(xml))throw new Error('Missing category block for '+target);
- return xml.replace(/<CATEGORIES>[\\s\\S]*?<\\/CATEGORIES>/,categoryBlock(target));
+ if(!/<CATEGORIES>[\s\S]*?<\/CATEGORIES>/.test(xml))throw new Error('Missing category block for '+target);
+ return xml.replace(/<CATEGORIES>[\s\S]*?<\/CATEGORIES>/,categoryBlock(target));
 }
 function stripGeneratedIntro(description,name,manufacturer) {
  const n=escapeHtml(displayNameFor(name)),b=escapeHtml(manufacturer||'overeného výrobcu');
@@ -68,7 +68,7 @@ function apply(files,config,knownCategories) {
     } else if(targets.length===0) report.automaticCategoryUnclassified.push(detail);
     else report.automaticCategoryAmbiguous.push({...detail,targets});
    }
-   const code=field(currentXml,'CODE'),ean=field(currentXml,'EAN'),key=[f.name,code,ean].join('\\0'),r=rules.get(key);
+   const code=field(currentXml,'CODE'),ean=field(currentXml,'EAN'),key=[f.name,code,ean].join('\0'),r=rules.get(key);
    if(!r)return currentXml;
    if(seen.has(key))throw new Error('Repeated supplier/code/EAN identity: '+f.name+'/'+code);
    seen.add(key);
