@@ -6,6 +6,7 @@
   "scripts": {
     "sync": "node scripts/transform-monacor.js",
     "test:seo-overrides": "node --test scripts/test-seo-overrides.js",
+    "test:pagespeed-refactor": "node --test scripts/test-pagespeed-refactor.js",
     "test:innpro-name-overrides": "node --test scripts/test-innpro-name-overrides.js",
     "heureka-price-compare": "node scripts/compare-heureka-prices.js",
     "heureka-price-daily": "node scripts/process-heureka-report.js",

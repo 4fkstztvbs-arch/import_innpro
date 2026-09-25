@@ -6,8 +6,6 @@
  */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
-
 body, div, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4,
 p, li, a, label, input, button, textarea, select {
   font-family: 'Plus Jakarta Sans', sans-serif !important;

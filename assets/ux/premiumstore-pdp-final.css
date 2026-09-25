@@ -35,7 +35,9 @@
    PRODUCT LAYOUT – DESKTOP
    ========================================================= */
 
-body.type-detail.ps-pdp-v1 .p-detail-inner {
+/* Apply the page geometry from the first style calculation. The JS class is
+   retained for compatibility, but must not gate layout after first paint. */
+body.type-detail .p-detail-inner {
   display: grid !important;
   grid-template-columns:
     minmax(0, 1.08fr)
@@ -44,8 +46,8 @@ body.type-detail.ps-pdp-v1 .p-detail-inner {
   align-items: start !important;
 }
 
-body.type-detail.ps-pdp-v1 .p-image-wrapper,
-body.type-detail.ps-pdp-v1 .p-data-wrapper {
+body.type-detail .p-image-wrapper,
+body.type-detail .p-data-wrapper {
   float: none !important;
   width: 100% !important;
   max-width: none !important;
@@ -61,19 +63,19 @@ body.type-detail.ps-pdp-v1 .p-data-wrapper {
    Zoom a Shoptet spravanie ostavaju nedotknute.
    ========================================================= */
 
-body.type-detail.ps-pdp-v1 .p-image-wrapper .p-image {
+body.type-detail .p-image-wrapper .p-image {
   background: #fff !important;
 }
 
-body.type-detail.ps-pdp-v1 .p-image-wrapper .p-image img {
+body.type-detail .p-image-wrapper .p-image img {
   border-radius: 16px;
 }
 
-body.type-detail.ps-pdp-v1 .p-image-wrapper .row {
+body.type-detail .p-image-wrapper .row {
   margin-top: 14px !important;
 }
 
-body.type-detail.ps-pdp-v1 .p-image-wrapper img {
+body.type-detail .p-image-wrapper img {
   image-rendering: auto;
 }
 
@@ -82,16 +84,16 @@ body.type-detail.ps-pdp-v1 .p-image-wrapper img {
    TITLE
    ========================================================= */
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .p-detail-inner-header h1,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .p-detail-inner-header .h1,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .p-detail-inner-header-mobile h1,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .p-detail-inner-header-mobile .h1 {
   margin-top: 0 !important;
   margin-bottom: 8px !important;
@@ -110,7 +112,7 @@ body.type-detail.ps-pdp-v1
    Vklada ho premiumstore-pdp-v1.js.
    ========================================================= */
 
-body.type-detail.ps-pdp-v1 .ps-brand-logo {
+body.type-detail .ps-brand-logo {
   display: flex;
   align-items: center;
 
@@ -120,7 +122,7 @@ body.type-detail.ps-pdp-v1 .ps-brand-logo {
   margin: 8px 0 14px;
 }
 
-body.type-detail.ps-pdp-v1 .ps-brand-logo img {
+body.type-detail .ps-brand-logo img {
   display: block;
 
   width: auto;
@@ -138,7 +140,7 @@ body.type-detail.ps-pdp-v1 .ps-brand-logo img {
    BUYING AREA
    ========================================================= */
 
-body.type-detail.ps-pdp-v1 #product-detail-form {
+body.type-detail #product-detail-form {
   margin-top: 16px !important;
 
   padding: 21px 22px !important;
@@ -156,27 +158,27 @@ body.type-detail.ps-pdp-v1 #product-detail-form {
    AVAILABILITY / DELIVERY
    ========================================================= */
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .availability-label,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .availability-amount,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .availability-value,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .p-availability {
   color: #168a62 !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .availability-label,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .availability-amount,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .availability-value {
   font-weight: 700 !important;
 }
@@ -186,13 +188,13 @@ body.type-detail.ps-pdp-v1
    PRICE
    ========================================================= */
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .price-final-holder,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .price-final,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .p-final-price-wrapper {
   color: #121923 !important;
 
@@ -202,13 +204,13 @@ body.type-detail.ps-pdp-v1
   letter-spacing: -.025em !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .price-standard,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .price-save,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .price-before-discount {
   color: #8792a0 !important;
 }
@@ -218,7 +220,7 @@ body.type-detail.ps-pdp-v1
    QUANTITY + ADD TO CART
    ========================================================= */
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .p-to-cart-block {
   display: flex !important;
 
@@ -231,7 +233,7 @@ body.type-detail.ps-pdp-v1
   margin-top: 16px !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .p-to-cart-block .quantity {
   display: flex !important;
 
@@ -251,7 +253,7 @@ body.type-detail.ps-pdp-v1
   background: #fff !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .quantity input {
   min-width: 0 !important;
   height: 50px !important;
@@ -268,10 +270,10 @@ body.type-detail.ps-pdp-v1
   box-shadow: none !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .quantity .increase,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .quantity .decrease {
   display: flex !important;
 
@@ -290,16 +292,16 @@ body.type-detail.ps-pdp-v1
   font-size: 18px !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .p-to-cart-block .btn-cart,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .p-to-cart-block .btn-conversion,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form [data-testid="buttonAddToCart"],
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .add-to-cart-button {
   flex: 1 1 auto !important;
 
@@ -323,16 +325,16 @@ body.type-detail.ps-pdp-v1
   box-shadow: none !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .p-to-cart-block .btn-cart:hover,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .p-to-cart-block .btn-conversion:hover,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form [data-testid="buttonAddToCart"]:hover,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 #product-detail-form .add-to-cart-button:hover {
   border-color: var(--ps-pdp-green-hover) !important;
 
@@ -345,7 +347,7 @@ body.type-detail.ps-pdp-v1
    Tlac / Opytat sa / Strazit / Zdielat
    ========================================================= */
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .buttons-wrapper.social-buttons-wrapper {
   margin-top: 15px !important;
 
@@ -354,12 +356,12 @@ body.type-detail.ps-pdp-v1
   font-size: 13px !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .buttons-wrapper.social-buttons-wrapper a {
   color: #748091 !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .buttons-wrapper.social-buttons-wrapper a:hover {
   color: var(--ps-pdp-green-hover) !important;
 }
@@ -369,7 +371,7 @@ body.type-detail.ps-pdp-v1
    BENEFITS
    ========================================================= */
 
-body.type-detail.ps-pdp-v1 .benefitBanner {
+body.type-detail .benefitBanner {
   display: grid !important;
 
   grid-template-columns:
@@ -393,7 +395,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner {
   ) !important;
 }
 
-body.type-detail.ps-pdp-v1 .benefitBanner__item {
+body.type-detail .benefitBanner__item {
   display: grid !important;
 
   grid-template-columns:
@@ -408,7 +410,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__item {
   padding: 4px 8px !important;
 }
 
-body.type-detail.ps-pdp-v1 .benefitBanner__picture {
+body.type-detail .benefitBanner__picture {
   display: flex !important;
 
   align-items: center !important;
@@ -420,10 +422,10 @@ body.type-detail.ps-pdp-v1 .benefitBanner__picture {
   margin: 0 !important;
 }
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .benefitBanner__picture img,
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .benefitBanner__picture svg {
   width: 28px !important;
   height: 28px !important;
@@ -432,13 +434,13 @@ body.type-detail.ps-pdp-v1
   max-height: 28px !important;
 }
 
-body.type-detail.ps-pdp-v1 .benefitBanner__content {
+body.type-detail .benefitBanner__content {
   min-width: 0 !important;
 
   line-height: 1.25 !important;
 }
 
-body.type-detail.ps-pdp-v1 .benefitBanner__title {
+body.type-detail .benefitBanner__title {
   display: block !important;
 
   margin: 0 !important;
@@ -450,7 +452,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__title {
   line-height: 1.25 !important;
 }
 
-body.type-detail.ps-pdp-v1 .benefitBanner__data {
+body.type-detail .benefitBanner__data {
   display: block !important;
 
   margin-top: 2px !important;
@@ -467,11 +469,11 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
    Nezasahujeme do obsahu rich popisov.
    ========================================================= */
 
-body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper {
+body.type-detail .p-detail-tabs-wrapper {
   margin-top: 6px !important;
 }
 
-body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
+body.type-detail .p-detail-tabs-wrapper img {
   max-width: 100%;
   height: auto;
 }
@@ -483,7 +485,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
 @media (max-width: 1199px) {
 
-  body.type-detail.ps-pdp-v1 .p-detail-inner {
+  body.type-detail .p-detail-inner {
     grid-template-columns:
       minmax(0, 1fr)
       minmax(340px, .92fr);
@@ -491,15 +493,15 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
     gap: 28px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-inner-header h1,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-inner-header .h1 {
     font-size: 28px !important;
   }
 
-  body.type-detail.ps-pdp-v1 .benefitBanner {
+  body.type-detail .benefitBanner {
     grid-template-columns:
       repeat(2, minmax(0, 1fr)) !important;
   }
@@ -513,7 +515,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-  body.type-detail.ps-pdp-v1 .p-detail-inner {
+  body.type-detail .p-detail-inner {
     grid-template-columns:
       minmax(0, 1fr)
       minmax(320px, .95fr);
@@ -521,29 +523,29 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
     gap: 22px !important;
   }
 
-  body.type-detail.ps-pdp-v1 #product-detail-form {
+  body.type-detail #product-detail-form {
     padding: 17px !important;
 
     border-radius: 16px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .price-final-holder,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .price-final,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-final-price-wrapper {
     font-size: 28px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-to-cart-block {
     gap: 8px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-to-cart-block .quantity {
     flex-basis: 98px !important;
   }
@@ -557,7 +559,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
 @media (max-width: 767px) {
 
-  body.type-detail.ps-pdp-v1 .p-detail-inner {
+  body.type-detail .p-detail-inner {
     display: flex !important;
 
     flex-direction: column !important;
@@ -565,8 +567,8 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
     gap: 0 !important;
   }
 
-  body.type-detail.ps-pdp-v1 .p-image-wrapper,
-  body.type-detail.ps-pdp-v1 .p-data-wrapper {
+  body.type-detail .p-image-wrapper,
+  body.type-detail .p-data-wrapper {
     width: 100% !important;
     max-width: 100% !important;
   }
@@ -574,19 +576,19 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
   /* Galeria */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-image-wrapper .p-image {
     order: 1 !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-image-wrapper .row {
     order: 2 !important;
 
     margin-top: 10px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-image-wrapper .p-detail-inner-header-mobile {
     order: 3 !important;
 
@@ -596,10 +598,10 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
   /* Nazov */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-inner-header-mobile h1,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-inner-header-mobile .h1 {
     margin-bottom: 7px !important;
 
@@ -610,13 +612,13 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
   /* Logo */
 
-  body.type-detail.ps-pdp-v1 .ps-brand-logo {
+  body.type-detail .ps-brand-logo {
     min-height: 23px;
 
     margin: 7px 0 12px;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-brand-logo img {
     max-width: 102px;
     max-height: 23px;
@@ -625,7 +627,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
   /* Nakupny blok */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form {
     margin-top: 13px !important;
 
@@ -640,13 +642,13 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
   /* Cena */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .price-final-holder,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .price-final,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-final-price-wrapper {
     font-size: 28px !important;
   }
@@ -657,7 +659,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
    * Tu ho cielene vraciame.
    */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-to-cart-block .quantity {
     display: flex !important;
 
@@ -667,7 +669,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
     height: 52px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-to-cart-block {
     display: grid !important;
 
@@ -677,16 +679,16 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
     gap: 9px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-to-cart-block .btn-cart,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-to-cart-block .btn-conversion,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form [data-testid="buttonAddToCart"],
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .add-to-cart-button {
     width: 100% !important;
 
@@ -700,7 +702,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
   /* Na mobile sekundarne akcie zbytocne neodvadzaju pozornost */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .buttons-wrapper.social-buttons-wrapper {
     display: none !important;
   }
@@ -708,7 +710,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
   /* Benefity */
 
-  body.type-detail.ps-pdp-v1 .benefitBanner {
+  body.type-detail .benefitBanner {
     display: grid !important;
 
     grid-template-columns:
@@ -723,7 +725,7 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
     border-radius: 14px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__item {
     grid-template-columns:
       30px minmax(0, 1fr) !important;
@@ -733,16 +735,16 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
     padding: 4px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__picture {
     width: 30px !important;
     height: 30px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__picture img,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__picture svg {
     width: 23px !important;
     height: 23px !important;
@@ -751,12 +753,12 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
     max-height: 23px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__title {
     font-size: 12.5px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__data {
     font-size: 11px !important;
   }
@@ -770,23 +772,23 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
 
 @media (max-width: 380px) {
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form {
     padding: 14px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-to-cart-block {
     grid-template-columns:
       92px minmax(0, 1fr) !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .p-to-cart-block .quantity {
     width: 92px !important;
   }
 
-  body.type-detail.ps-pdp-v1 .benefitBanner {
+  body.type-detail .benefitBanner {
     grid-template-columns: 1fr !important;
   }
 
@@ -802,27 +804,27 @@ body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper img {
    - zabranenie lamaniu textu po jednotlivych znakoch
    ========================================================= */
 
-body.type-detail.ps-pdp-v1 .benefitBanner {
+body.type-detail .benefitBanner {
   grid-template-columns:
     repeat(2, minmax(0, 1fr)) !important;
 
   gap: 12px !important;
 }
 
-body.type-detail.ps-pdp-v1 .benefitBanner__item {
+body.type-detail .benefitBanner__item {
   width: auto !important;
   max-width: none !important;
   min-width: 0 !important;
 }
 
-body.type-detail.ps-pdp-v1 .benefitBanner__content {
+body.type-detail .benefitBanner__content {
   width: auto !important;
   max-width: none !important;
   min-width: 0 !important;
 }
 
-body.type-detail.ps-pdp-v1 .benefitBanner__title,
-body.type-detail.ps-pdp-v1 .benefitBanner__data {
+body.type-detail .benefitBanner__title,
+body.type-detail .benefitBanner__data {
   width: auto !important;
   max-width: none !important;
 
@@ -838,7 +840,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
 @media (min-width: 768px) and (max-width: 1199px) {
 
-  body.type-detail.ps-pdp-v1 .benefitBanner {
+  body.type-detail .benefitBanner {
     grid-template-columns:
       repeat(2, minmax(0, 1fr)) !important;
   }
@@ -850,7 +852,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
 @media (max-width: 767px) {
 
-  body.type-detail.ps-pdp-v1 .benefitBanner {
+  body.type-detail .benefitBanner {
     grid-template-columns:
       repeat(2, minmax(0, 1fr)) !important;
 
@@ -864,7 +866,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
 @media (max-width: 380px) {
 
-  body.type-detail.ps-pdp-v1 .benefitBanner {
+  body.type-detail .benefitBanner {
     grid-template-columns: 1fr !important;
   }
 
@@ -885,7 +887,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-  body.type-detail.ps-pdp-v1 .p-detail-inner {
+  body.type-detail .p-detail-inner {
     display: grid !important;
 
     grid-template-columns: 1fr !important;
@@ -893,10 +895,10 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
     gap: 26px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-image-wrapper,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-data-wrapper {
     width: 100% !important;
 
@@ -906,12 +908,12 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
     margin-right: auto !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form {
     padding: 20px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner {
     grid-template-columns:
       repeat(2, minmax(0, 1fr)) !important;
@@ -929,10 +931,10 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
   /* TITLE */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-inner-header-mobile h1,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-inner-header-mobile .h1 {
 
     margin-top: 0 !important;
@@ -947,7 +949,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
   /* BRAND */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-brand-logo {
 
     min-height: 20px !important;
@@ -956,7 +958,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
     margin-bottom: 16px !important;
   }
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-brand-logo img {
 
     max-width: 92px !important;
@@ -966,7 +968,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
   /* BUY CARD */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form {
 
     margin-top: 8px !important;
@@ -988,7 +990,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
    * Vonkajsi #product-detail-form uz tvori celu kartu.
    */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form .detail-parameters {
 
     width: 100% !important;
@@ -1010,11 +1012,11 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
   /* PARAMETER ROWS */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .detail-parameters th,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .detail-parameters td {
 
@@ -1030,7 +1032,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .detail-parameters th {
 
@@ -1044,7 +1046,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .detail-parameters td {
 
@@ -1061,7 +1063,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
    * Nesmie vytvarat obrovsky blok.
    */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .detail-parameters tr:last-child td {
 
@@ -1076,19 +1078,19 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
   /* STOCK */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .availability-label,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .availability-amount,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .availability-value,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-availability {
 
@@ -1100,15 +1102,15 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
   /* PRICE */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .price-final-holder,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .price-final,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-final-price-wrapper {
 
@@ -1131,7 +1133,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
    * [- 1 +]  [       Do kosika       ]
    */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block {
 
@@ -1150,7 +1152,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block .quantity {
 
@@ -1170,19 +1172,19 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block .btn-cart,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block .btn-conversion,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   [data-testid="buttonAddToCart"],
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .add-to-cart-button {
 
@@ -1213,7 +1215,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
   /* SECONDARY ACTIONS */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .buttons-wrapper.social-buttons-wrapper {
 
     display: none !important;
@@ -1222,7 +1224,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
   /* BENEFITS */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner {
 
     grid-template-columns:
@@ -1239,7 +1241,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__item {
 
     grid-template-columns:
@@ -1251,7 +1253,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__picture {
 
     width: 28px !important;
@@ -1259,10 +1261,10 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__picture img,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__picture svg {
 
     width: 22px !important;
@@ -1273,7 +1275,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__title {
 
     font-size: 11.5px !important;
@@ -1283,7 +1285,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner__data {
 
     margin-top: 2px !important;
@@ -1301,14 +1303,14 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
 @media (max-width: 380px) {
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form {
 
     padding: 13px !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block .quantity {
 
@@ -1318,7 +1320,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner {
 
     grid-template-columns: 1fr !important;
@@ -1341,7 +1343,7 @@ body.type-detail.ps-pdp-v1 .benefitBanner__data {
 
 /* Vlastny benefit blok je mimo mobilu skryty. */
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .ps-mobile-benefits {
   display: none;
 }
@@ -1361,7 +1363,7 @@ body.type-detail.ps-pdp-v1
      Desktop a tablet pouzivaju nadalej povodny Shoptet blok.
      ------------------------------------------------------- */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .benefitBanner {
     display: none !important;
   }
@@ -1371,7 +1373,7 @@ body.type-detail.ps-pdp-v1
      MOBILE BENEFITS 2 × 2
      ------------------------------------------------------- */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-benefits {
 
     display: grid !important;
@@ -1399,7 +1401,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-benefit {
 
     display: grid;
@@ -1417,7 +1419,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-benefit-icon {
 
     display: flex;
@@ -1441,14 +1443,14 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-benefit-content {
 
     min-width: 0;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-benefit-title {
 
     display: block;
@@ -1461,7 +1463,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-benefit-text {
 
     display: block;
@@ -1479,7 +1481,7 @@ body.type-detail.ps-pdp-v1
      DETAIL PARAMETERS
      ------------------------------------------------------- */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .detail-parameters {
 
@@ -1492,11 +1494,11 @@ body.type-detail.ps-pdp-v1
    * zarovnat dolava a dat tomu charakter sekundarneho CTA.
    */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .ps-pdp-row-shipping-options th,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .ps-pdp-row-shipping-options td {
 
@@ -1509,7 +1511,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .ps-pdp-row-shipping-options a {
 
@@ -1522,7 +1524,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .ps-pdp-row-shipping-options a::after {
 
@@ -1539,11 +1541,11 @@ body.type-detail.ps-pdp-v1
    * ponechat dostupny, ale vizualne ho potlacit.
    */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .ps-pdp-row-code td,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .ps-pdp-row-code td a {
 
@@ -1561,7 +1563,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .ps-pdp-row-code th {
 
@@ -1575,7 +1577,7 @@ body.type-detail.ps-pdp-v1
      PRICE + QUANTITY + CART
      ------------------------------------------------------- */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block {
 
@@ -1583,7 +1585,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block .quantity {
 
@@ -1597,7 +1599,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .quantity input {
 
@@ -1607,11 +1609,11 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .quantity .increase,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .quantity .decrease {
 
@@ -1622,19 +1624,19 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block .btn-cart,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block .btn-conversion,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   [data-testid="buttonAddToCart"],
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .add-to-cart-button {
 
@@ -1657,14 +1659,14 @@ body.type-detail.ps-pdp-v1
 
 @media (max-width: 360px) {
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-benefits {
 
     grid-template-columns: 1fr;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   #product-detail-form
   .p-to-cart-block .quantity {
 
@@ -1690,7 +1692,7 @@ body.type-detail.ps-pdp-v1
 
 /* Na desktope/tablete mobilny back-link nezobrazujeme. */
 
-body.type-detail.ps-pdp-v1
+body.type-detail
 .ps-mobile-parent-link {
   display: none;
 }
@@ -1711,13 +1713,13 @@ body.type-detail.ps-pdp-v1
      odkazom na nadradenu kategoriu.
      ------------------------------------------------------- */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .breadcrumbs.navigation-home-icon-wrapper {
     display: none !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-parent-link {
     display: inline-flex !important;
 
@@ -1739,7 +1741,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-parent-link::before {
     content: "←";
 
@@ -1751,7 +1753,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-parent-link span {
     display: block;
 
@@ -1765,9 +1767,9 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-parent-link:hover,
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-mobile-parent-link:focus {
     color: #1d996a !important;
   }
@@ -1781,17 +1783,17 @@ body.type-detail.ps-pdp-v1
      a samotnym obsahom.
      ------------------------------------------------------- */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper {
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper h2,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .h2 {
     margin-top: 0 !important;
     margin-bottom: 10px !important;
@@ -1800,32 +1802,32 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .tab-content {
     margin-top: 0 !important;
     padding-top: 6px !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .tab-pane,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .detail-description {
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper
   .tab-content > *:first-child,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper
   .tab-pane > *:first-child,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper
   .detail-description > *:first-child {
     margin-top: 0 !important;
@@ -1837,7 +1839,7 @@ body.type-detail.ps-pdp-v1
      STICKY BUY BAR
      ------------------------------------------------------- */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy {
     left: 0 !important;
     right: 0 !important;
@@ -1871,7 +1873,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy .ps-sticky-title {
     flex: 1 1 auto !important;
 
@@ -1893,7 +1895,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy .ps-sticky-price {
     flex: 0 0 auto !important;
 
@@ -1910,7 +1912,7 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy button {
     display: flex !important;
 
@@ -1944,10 +1946,10 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy button:hover,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy button:focus {
     background: #1d996a !important;
   }
@@ -1961,7 +1963,7 @@ body.type-detail.ps-pdp-v1
 
 @media (max-width: 360px) {
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy {
     gap: 7px !important;
 
@@ -1970,19 +1972,19 @@ body.type-detail.ps-pdp-v1
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy .ps-sticky-title {
     font-size: 11px !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy .ps-sticky-price {
     font-size: 17px !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .ps-sticky-buy button {
     min-width: 98px !important;
 
@@ -2011,65 +2013,65 @@ body.type-detail.ps-pdp-v1
    * co vytvaralo velku prazdnu plochu pod "Popis".
    */
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper h2:first-of-type,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .h2:first-of-type {
     margin: 0 !important;
     padding: 0 !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper h2:first-of-type + *,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .h2:first-of-type + * {
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .tab-content,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .tab-pane,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .detail-description,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .basic-description,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .extended-description,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper .description-inner {
     margin-top: 0 !important;
     padding-top: 0 !important;
   }
 
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper
   .tab-content > *:first-child,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper
   .tab-pane > *:first-child,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper
   .detail-description > *:first-child,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper
   .basic-description > *:first-child,
 
-  body.type-detail.ps-pdp-v1
+  body.type-detail
   .p-detail-tabs-wrapper
   .extended-description > *:first-child {
 

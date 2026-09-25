@@ -741,25 +741,14 @@
   );
 
 
-  /*
-   * Niektore casti produktu Shoptet
-   * dorenderuje po prvom DOMContentLoaded.
-   * Observer je debounceovany a funkcia
-   * je idempotentna.
-   */
-
-  var observer =
-    new MutationObserver(
-      scheduleEnhance
-    );
-
-
-  observer.observe(
-    document.documentElement,
-    {
+  // Product parameters can be refreshed after initial render. Keep this
+  // observer inside the product form instead of scanning the entire page.
+  var productForm = getProductForm();
+  if (productForm && window.MutationObserver) {
+    new MutationObserver(scheduleEnhance).observe(productForm, {
       childList: true,
       subtree: true
-    }
-  );
+    });
+  }
 
 })();
