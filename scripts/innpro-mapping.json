@@ -92,6 +92,12 @@
     "Fotovoltaika a energie/Napájacie zdroje/Powerbanky": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky"
   },
   "categorySubRulesByName": {
+    "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna": [
+      {
+        "category": "TPU filamenty",
+        "pattern": "(?=.*\\bTPU\\b)(?=.*(?:filament|vlákno))"
+      }
+    ],
     "Dielňa, náradie a záhrada > Meracia technika": [
       {
         "category": "Osciloskopy, generátory a laboratórne zdroje",
