@@ -43,6 +43,10 @@ const MARKUP_PCT = parseFloat(process.env.KB_MARKUP || '10');
 const MIN_MARGIN_PCT = parseFloat(process.env.KB_MIN_MARGIN || '10');
 const MIN_COST = parseFloat(process.env.KB_MIN_COST || '0');
 const EXCLUDE_UNAVAILABLE = process.env.KB_EXCLUDE_UNAVAILABLE === '1';
+const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
+const saleState = fs.existsSync(SALE_STATE_PATH)
+  ? require('./lib/vypredaj-core').validateState(JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')))
+  : { items: {} };
 const INCLUDE_NO_CATEGORY = process.env.KB_INCLUDE_NO_CATEGORY !== '0'; // default true, matches browser tool default
 const OUT_PATH = process.env.KB_OUT || path.join(__dirname, '..', 'output', 'kb.xml');
 const STORE_NAME = process.env.KB_STORE_NAME || 'premiumstore.sk';
@@ -288,9 +292,9 @@ async function main() {
       stats.skippedByCategoryFilter++; return;
     }
 
-    if (EXCLUDE_UNAVAILABLE && prodAvail[pid] === '0') { stats.skippedUnavailable++; return; }
-
     const code = field(e, 'sKodZbozi') || pid;
+    const isReturnStockSale = (saleState.items[code]?.quantity || 0) > 0;
+    if (EXCLUDE_UNAVAILABLE && prodAvail[pid] === '0' && !isReturnStockSale) { stats.skippedUnavailable++; return; }
     const name = field(e, 'sJmenoVyrobku');
     const ean = field(e, 'sEan');
     const manufacturer = field(e, 'sJmenoVyrobce');
@@ -353,7 +357,8 @@ async function main() {
     }
 
     const availCode = prodAvail[pid];
-    const availability = availCode !== undefined ? (AVAILABILITY_MAP[availCode] || '') : '';
+    const availability = isReturnStockSale ? 'Skladom'
+      : (availCode !== undefined ? (AVAILABILITY_MAP[availCode] || '') : '');
 
     let recyclingFeeCategory = '', recyclingFeePrice = 0;
     const rawRecycleCode = field(e, 'sRecycleCode');
