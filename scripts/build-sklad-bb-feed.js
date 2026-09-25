@@ -60,14 +60,17 @@ function prepareBbItem(sourceBlock, originalCode, quantity) {
   let block = sourceBlock;
   const sourcePrice = Number(decodeTag(sourceBlock, 'PRICE_VAT'));
   if (!Number.isFinite(sourcePrice) || sourcePrice <= 0) throw new Error('Pre ' + originalCode + ' chýba platná PRICE_VAT.');
-  const vat = Number(decodeTag(sourceBlock, 'VAT') || 23);
+  const supplierActionPrice = Number(decodeTag(sourceBlock, 'ACTION_PRICE') || 0);
+  const referencePrice = supplierActionPrice > 0 && supplierActionPrice < sourcePrice
+    ? supplierActionPrice : sourcePrice;
+  const vat = Number(decodeTag(sourceBlock, 'VAT') || decodeTag(sourceBlock, 'PURCHASE_VAT') || 23);
   const purchasePrice = Number(decodeTag(sourceBlock, 'PURCHASE_PRICE') || 0);
   const purchaseInclVat = Number(decodeTag(sourceBlock, 'PURCHASE_PRICE_INCL_VAT') || 0) === 1;
   const purchaseNet = purchaseInclVat ? purchasePrice / (1 + vat / 100) : purchasePrice;
-  // PRICE_VAT je už výsledná cena z dodávateľského feedu (po marži a prípadnom
-  // Heureka cenovom cieli). Výpredajovú cenu rátame z nej a nikdy nad ňu.
-  const salePrice = Math.min(sourcePrice, Math.round(sourcePrice * 95) / 100);
-  if (salePrice > sourcePrice) throw new Error('Výpredajová cena pre ' + originalCode + ' presahuje cenu dodávateľa.');
+  // Zdrojový blok je už po dodávateľskom aj Heureka cenení. Ak má dodávateľ vlastnú
+  // nižšiu akčnú cenu, použijeme ju ako základ, aby Sklad BB nikdy nebol drahší.
+  const salePrice = Math.min(referencePrice, Math.round(referencePrice * 95) / 100);
+  if (salePrice > referencePrice) throw new Error('Výpredajová cena pre ' + originalCode + ' presahuje aktuálnu cenu dodávateľa.');
   if (purchasePrice > 0 && salePrice / (1 + vat / 100) + 0.000001 < purchaseNet) {
     throw new Error('Zľava 5 % dostane ' + originalCode + ' pod nákupnú cenu; položka sa zastavila.');
   }
@@ -76,7 +79,7 @@ function prepareBbItem(sourceBlock, originalCode, quantity) {
   if (bbCode.length > 64) throw new Error('Kód ' + bbCode + ' prekračuje limit 64 znakov.');
   block = replaceTag(block, 'CODE', escapeXml(bbCode));
   block = replaceTag(block, 'PRICE_VAT', sourcePrice.toFixed(2));
-  block = replaceTag(block, 'STANDARD_PRICE', sourcePrice.toFixed(2));
+  block = replaceTag(block, 'STANDARD_PRICE', referencePrice.toFixed(2));
   block = replaceTag(block, 'ACTION_PRICE', salePrice.toFixed(2));
   block = setFlag(block, 'ACTION', false);
   block = setFlag(block, 'CUSTOM1', true);
