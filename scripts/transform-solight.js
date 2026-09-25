@@ -12,6 +12,11 @@
 //           SOLIGHT_MAX_IMAGES (5), SOLIGHT_OUT
 
 const fs = require('fs');
+const { validateState } = require('./lib/vypredaj-core');
+const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
+const saleState = fs.existsSync(SALE_STATE_PATH)
+  ? validateState(JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')))
+  : { items: {} };
 const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseSolightProduct } = require('./parse-solight');
@@ -304,7 +309,8 @@ async function main() {
       availability = OUT_OF_STOCK_TEXT;
       isAvailable = false;
     }
-    if (EXCLUDE_UNAVAILABLE && !isAvailable) { stats.skippedUnavailable++; return; }
+    const trackedSale = (saleState.items[p.code]?.quantity || 0) > 0;
+    if (EXCLUDE_UNAVAILABLE && !isAvailable && !trackedSale) { stats.skippedUnavailable++; return; }
 
     let description = p.description;
     if (p.docs.length) {
