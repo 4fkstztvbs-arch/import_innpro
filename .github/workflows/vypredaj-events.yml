@@ -36,18 +36,14 @@ jobs:
           BASYS_URL: ${{ secrets.BASYS_URL }}
         run: node scripts/process-vypredaj-events.js
 
-      - name: Zapísať výpredaj do všetkých dodávateľských výstupov
-        run: |
-          for feed in output/*.xml; do
-            test -s "$feed" || continue
-            node scripts/apply-vypredaj-to-feed.js "$feed" --allow-missing
-          done
+      - name: Vytvoriť Sklad BB feed
+        run: node scripts/build-sklad-bb-feed.js
 
       - name: Uložiť stav a feedy na ďalší Shoptet import
         run: |
           git config user.name "vypredajovy-agent"
           git config user.email "actions@users.noreply.github.com"
-          git add data/vypredaj.json output/*.xml
+          git add data/vypredaj.json data/sklbb-source-items.json output/*.xml output-sklad-bb/sklad-bb.xml
           if git diff --cached --quiet; then
             echo "Feedy a stav bez zmeny"
             exit 0
