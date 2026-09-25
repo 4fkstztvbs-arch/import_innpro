@@ -17,10 +17,10 @@ const AVAILABILITY = 'Skladom na predajni';
 const SUPPLIER = 'Sklad BB';
 
 function decodeTag(xml, name) {
-  const re = new RegExp('<' + name + '\\b[^>]*>([\\s\\S]*?)<\\/' + name + '>', 'i');
+  const re = new RegExp('<' + name + '[\s\S]b[^>]*>([[\s\S]s[\s\S]S]*?)<[\s\S]/' + name + '>', 'i');
   const match = String(xml).match(re);
   if (!match) return null;
-  return he.decode(match[1].replace(/<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>/g, '$1')).trim();
+  return he.decode(match[1].replace(/<![\s\S][CDATA[\s\S][([[\s\S]s[\s\S]S]*?)[\s\S]][\s\S]]>/g, '$1')).trim();
 }
 function escapeXml(value) {
   return String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -36,26 +36,26 @@ function readJson(file, fallback) {
 }
 function codeOf(block) { return decodeTag(block, 'CODE'); }
 function getBlocks(xml) {
-  return [...String(xml).matchAll(/<SHOPITEM\b[^>]*>[\\s\\S]*?<\\/SHOPITEM>/g)].map((m) => m[0]);
+  return [...String(xml).matchAll(/<SHOPITEM\b[^>]*>[[\s\S]s[\s\S]S]*?<\/SHOPITEM>/g)].map((m) => m[0]);
 }
 function replaceTag(block, tag, value) {
-  const re = new RegExp('<' + tag + '\\b[^>]*>[\\s\\S]*?<\\/' + tag + '>', 'i');
+  const re = new RegExp('<' + tag + '[\s\S]b[^>]*>[[\s\S]s[\s\S]S]*?<[\s\S]/' + tag + '>', 'i');
   const matches = block.match(new RegExp(re.source, 'gi')) || [];
   if (matches.length > 1) throw new Error('SHOPITEM obsahuje viacero polí ' + tag + '.');
   const encoded = '<' + tag + '>' + value + '</' + tag + '>';
   if (matches.length) return block.replace(re, encoded);
   const end = block.lastIndexOf('</SHOPITEM>');
   if (end < 0) throw new Error('Neúplný SHOPITEM.');
-  return block.slice(0, end) + encoded + '\\n' + block.slice(end);
+  return block.slice(0, end) + encoded + '[\s\S]n' + block.slice(end);
 }
 function setFlag(block, name, active) {
-  const flagsMatch = block.match(/<FLAGS\\b[^>]*>([\\s\\S]*?)<\\/FLAGS>/i);
+  const flagsMatch = block.match(/<FLAGS[\s\S]b[^>]*>([[\s\S]s[\s\S]S]*?)<[\s\S]/FLAGS>/i);
   const value = '<' + name + '>' + (active ? '1' : '0') + '</' + name + '>';
   if (!flagsMatch) return replaceTag(block, 'FLAGS', value);
   const flags = flagsMatch[1];
-  const re = new RegExp('<' + name + '\\b[^>]*>[\\s\\S]*?<\\/' + name + '>', 'i');
+  const re = new RegExp('<' + name + '[\s\S]b[^>]*>[[\s\S]s[\s\S]S]*?<[\s\S]/' + name + '>', 'i');
   const newFlags = re.test(flags) ? flags.replace(re, value) : flags + value;
-  return block.replace(/<FLAGS\\b[^>]*>[\\s\\S]*?<\\/FLAGS>/i, '<FLAGS>' + newFlags + '</FLAGS>');
+  return block.replace(/<FLAGS[\s\S]b[^>]*>[[\s\S]s[\s\S]S]*?<[\s\S]/FLAGS>/i, '<FLAGS>' + newFlags + '</FLAGS>');
 }
 function prepareBbItem(sourceBlock, originalCode, quantity) {
   let block = sourceBlock;
@@ -82,9 +82,9 @@ function prepareBbItem(sourceBlock, originalCode, quantity) {
   block = replaceTag(block, 'SUPPLIER', '<![CDATA[' + SUPPLIER + ']]>');
   block = replaceTag(block, 'VISIBLE', '1');
   block = replaceTag(block, 'VISIBILITY', 'visible');
-  const stock = block.match(/<STOCK\\b[^>]*>([\\s\\S]*?)<\\/STOCK>/i);
-  const stockNode = '<STOCK><AMOUNT>' + quantity + '</AMOUNT>' + (stock ? stock[1].replace(/<AMOUNT\\b[^>]*>[\\s\\S]*?<\\/AMOUNT>/i, '') : '') + '</STOCK>';
-  if (stock) block = block.replace(/<STOCK\\b[^>]*>[\\s\\S]*?<\\/STOCK>/i, stockNode);
+  const stock = block.match(/<STOCK[\s\S]b[^>]*>([[\s\S]s[\s\S]S]*?)<[\s\S]/STOCK>/i);
+  const stockNode = '<STOCK><AMOUNT>' + quantity + '</AMOUNT>' + (stock ? stock[1].replace(/<AMOUNT[\s\S]b[^>]*>[[\s\S]s[\s\S]S]*?<[\s\S]/AMOUNT>/i, '') : '') + '</STOCK>';
+  if (stock) block = block.replace(/<STOCK[\s\S]b[^>]*>[[\s\S]s[\s\S]S]*?<[\s\S]/STOCK>/i, stockNode);
   else block = replaceTag(block, 'STOCK', '<AMOUNT>' + quantity + '</AMOUNT>');
   return { code: bbCode, block };
 }
@@ -132,7 +132,7 @@ function main() {
     if (matches.length) {
       const feed = matches[0].feed;
       let removed = false;
-      const updated = feed.xml.replace(/<SHOPITEM\\b[^>]*>[\\s\\S]*?<\\/SHOPITEM>/g, (block) => {
+      const updated = feed.xml.replace(/<SHOPITEM\b[^>]*>[[\s\S]s[\s\S]S]*?<\/SHOPITEM>/g, (block) => {
         if (!removed && codeOf(block) === code) { removed = true; return ''; }
         return block;
       });
@@ -148,8 +148,8 @@ function main() {
   }
 
   for (const [file, xml] of outputs) atomicWrite(file, xml);
-  atomicWrite(CACHE_PATH, JSON.stringify(nextCache, null, 2) + '\\n');
-  atomicWrite(BB_PATH, '<?xml version="1.0" encoding="utf-8"?>\\n<SHOP>\\n' + bbBlocks.join('\\n') + '\\n</SHOP>\\n');
+  atomicWrite(CACHE_PATH, JSON.stringify(nextCache, null, 2) + '[\s\S]n');
+  atomicWrite(BB_PATH, '<?xml version="1.0" encoding="utf-8"?>[\s\S]n<SHOP>[\s\S]n' + bbBlocks.join('[\s\S]n') + '[\s\S]n</SHOP>[\s\S]n');
   console.log('Sklad BB: ' + bbBlocks.length + ' produktov; aktívnych kódov ' + active.length + '.');
 }
 try { main(); } catch (err) { console.error('Sklad BB feed sa nepublikuje: ' + err.message); process.exit(1); }
