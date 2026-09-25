@@ -7,7 +7,12 @@ const MAX_QUANTITY_PER_LINE = 10000;
 const MAX_ORDER_IDS_PER_ITEM = 50000;
 
 function createEmptyState() {
-  return { schemaVersion: SCHEMA_VERSION, items: {}, mail: { uidValidity: null, lastUid: 0 }, ignoredMail: [] };
+  return {
+    schemaVersion: SCHEMA_VERSION,
+    items: {},
+    mail: { uidValidity: null, lastUid: 0, activationAfter: new Date().toISOString() },
+    ignoredMail: [],
+  };
 }
 
 function validateState(state) {
@@ -22,6 +27,7 @@ function validateState(state) {
     if (!Array.isArray(item.appliedOrderIds)) item.appliedOrderIds = [];
   }
   if (!state.mail) state.mail = { uidValidity: null, lastUid: 0 };
+  if (!state.mail.activationAfter) state.mail.activationAfter = new Date().toISOString();
   if (!Array.isArray(state.ignoredMail)) state.ignoredMail = [];
   return state;
 }

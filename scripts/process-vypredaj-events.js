@@ -67,6 +67,7 @@ async function main() {
     try {
       const uidValidity = String(client.mailbox.uidValidity);
       let lastUid = Number(state.mail.lastUid || 0);
+      let initialSetup = false;
       if (state.mail.uidValidity && String(state.mail.uidValidity) !== uidValidity) {
         // Mailbox UIDs can be reassigned after a mailbox rebuild. Set a fresh high-water mark
         // instead of replaying the whole Inbox and accidentally applying old sale commands.
@@ -74,10 +75,11 @@ async function main() {
         lastUid = existing.reduce((max, uid) => Math.max(max, uid), 0);
         console.warn('IMAP UIDVALIDITY sa zmenil; staršie správy preskakujem a nastavujem nový kurzor.');
       } else if (!state.mail.uidValidity) {
-        // On initial installation, process only emails arriving after activation, not old messages.
-        const existing = await client.search({ all: true }, { uid: true });
-        lastUid = existing.reduce((max, uid) => Math.max(max, uid), 0);
-        console.log('Prvý beh: existujúce správy preskočené, čakám na nové príkazy.');
+        // Scan existing UIDs once so a new command received just before the first five-minute
+        // poll is not lost. Older messages are filtered by the committed activation timestamp.
+        lastUid = 0;
+        initialSetup = true;
+        console.log('Prvý beh: kontrolujem správy doručené po aktivácii agenta.');
       }
       const uids = await client.search({ uid: `${lastUid + 1}:*` }, { uid: true });
       const messages = [];
@@ -106,6 +108,10 @@ async function main() {
         const key = stableMessageKey(message, uidValidity);
         if (seen.has(key)) continue;
         if (!from.includes(ADDRESS) || !to.includes(ADDRESS) || (parsed.subject || '').trim() !== 'VÝPREDAJ') continue;
+        if (initialSetup && Date.parse(message.internalDate || parsed.date || 0) < Date.parse(state.mail.activationAfter)) {
+          seen.add(key);
+          continue;
+        }
 
         try {
           const rows = parseCommandBody(parsed.text || '');
