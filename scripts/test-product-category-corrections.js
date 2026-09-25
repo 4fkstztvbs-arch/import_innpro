@@ -52,5 +52,5 @@ test('all InnPro TPU filaments retain their approved subcategory in nightly corr
  const result=apply([{name:'innpro',text:'<SHOP>'+items+'</SHOP>'}],{schemaVersion:cfg.schemaVersion,products:rules},known);
  assert.equal(result.report.matched,codes.length);assert.equal(result.report.categoryChanges,codes.length);
  assert.deepEqual(result.report.skipped,[]);assert.deepEqual(result.report.unseen,[]);
- assert.equal(categories(result.files[0].text).filter(c=>c===target).length,codes.length);
+ assert.equal(result.files[0].text.split(target).length-1,codes.length);
 });
