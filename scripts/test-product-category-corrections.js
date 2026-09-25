@@ -37,3 +37,52 @@ test('factual name correction leaves canonical URL unchanged and updates exact n
  const r=apply(files,config,tree);assert.equal(field(r.files[0].text,'NAME'),'Correct rack');assert.equal(field(r.files[0].text,'URL'),'https://example.test/original');assert.ok(field(r.files[0].text,'DESCRIPTION').includes('Correct rack. Original evidence.'));
  assert.equal(apply(r.files,config,tree).files[0].text,r.files[0].text);
 });
+
+test('all InnPro TPU filaments retain their approved subcategory in nightly corrections',()=>{
+ const fs=require('node:fs'),path=require('node:path');
+ const cfg=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/product-category-corrections.json'),'utf8'));
+ const known=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/known-categories.json'),'utf8'));
+ const codes=['079801','079802','079803','079804','079805','085247','086696','086697','086698','086699','086700','086701','086702','086703','086704'];
+ const parent='3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna';
+ const target=parent+' > TPU filamenty';
+ const rules=cfg.products.filter(r=>r.supplier==='innpro'&&codes.includes(r.code));
+ assert.deepEqual(rules.map(r=>r.code).sort(),codes.slice().sort());
+ for(const r of rules){assert.deepEqual(r.current,[parent]);assert.deepEqual(r.proposed,[target]);assert.equal(r.rule,'tpu-filament');}
+ const items=rules.map(r=>'<SHOPITEM><CODE>'+r.code+'</CODE><EAN>'+r.ean+'</EAN><NAME>'+r.name+'</NAME><CATEGORIES><CATEGORY><![CDATA['+parent+']]></CATEGORY></CATEGORIES></SHOPITEM>').join('');
+ const result=apply([{name:'innpro',text:'<SHOP>'+items+'</SHOP>'}],{schemaVersion:cfg.schemaVersion,products:rules},known);
+ assert.equal(result.report.matched,codes.length);assert.equal(result.report.categoryChanges,codes.length);
+ assert.deepEqual(result.report.skipped,[]);assert.deepEqual(result.report.unseen,[]);
+ assert.equal(result.files[0].text.split(target).length-1,codes.length);
+});
+
+test('new InnPro filament SKUs are classified by material; ambiguous or unknown materials stay in parent',()=>{
+ const fs=require('node:fs'),path=require('node:path');
+ const source=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/product-category-corrections.json'),'utf8'));
+ const known=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/known-categories.json'),'utf8'));
+ const automaticCategoryRules=source.automaticCategoryRules;
+ const parent='3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna';
+ const target=material=>parent+' > '+material;
+ const products=[
+  ['NEW-TPU','9000000000001','New TPU filament 95A','TPU filamenty'],
+  ['NEW-PLA','9000000000002','New PLA-CF filament','PLA filamenty'],
+  ['NEW-PETG','9000000000003','New PETG filament','PETG filamenty'],
+  ['NEW-ASA','9000000000004','New ASA filament','ABS a ASA filamenty'],
+  ['NEW-MIX','9000000000005','New PLA PETG mixed filament',null],
+  ['NEW-PC','9000000000006','New PC filament',null]
+ ];
+ const items=products.map(([code,ean,name])=>'<SHOPITEM><CODE>'+code+'</CODE><EAN>'+ean+'</EAN><NAME>'+name+'</NAME><CATEGORIES><CATEGORY><![CDATA['+parent+']]></CATEGORY></CATEGORIES></SHOPITEM>').join('');
+ const config={schemaVersion:source.schemaVersion,products:[],automaticCategoryRules};
+ const input=[{name:'innpro',text:'<SHOP>'+items+'</SHOP>'}];
+ const result=apply(input,config,known);
+ assert.equal(result.report.automaticCategoryChanges,4);
+ assert.equal(result.report.automaticCategoryAmbiguous.length,1);
+ assert.equal(result.report.automaticCategoryUnclassified.length,1);
+ for(const [code,,name,material] of products) {
+  const item=result.files[0].text.split('<SHOPITEM>').find(x=>field(x,'CODE')===code);
+  assert.ok(item);
+  assert.ok(categories(item).includes(material?target(material):parent),name);
+ }
+ const again=apply(result.files,config,known);
+ assert.equal(again.report.automaticCategoryChanges,0);
+ assert.equal(again.files[0].text,result.files[0].text);
+});
