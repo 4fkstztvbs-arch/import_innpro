@@ -8,6 +8,11 @@
 //           MONACOR_ROOT_CATEGORY (Profesionálna audio technika), MONACOR_OUT
 
 const fs = require('fs');
+const { validateState } = require('./lib/vypredaj-core');
+const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
+const saleState = fs.existsSync(SALE_STATE_PATH)
+  ? validateState(JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')))
+  : { items: {} };
 const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseMonacorProduct } = require('./parse-monacor');
@@ -125,7 +130,8 @@ async function main() {
     // shop naming convention: "Značka Model popis"
     const name = [p.manufacturer, p.number, p.baseName].filter(Boolean).join(' ').trim() || p.baseName;
 
-    if (EXCLUDE_UNAVAILABLE && p.stock <= 0 && p.foreignstock <= 0) { stats.skippedUnavailable++; return; }
+    const trackedSale = (saleState.items[p.code]?.quantity || 0) > 0;
+    if (EXCLUDE_UNAVAILABLE && p.stock <= 0 && p.foreignstock <= 0 && !trackedSale) { stats.skippedUnavailable++; return; }
     const availability = p.stock > 0 ? 'Skladom' : (p.foreignstock > 0 ? FOREIGN_AVAIL_TEXT : 'Nedostupné');
 
     let catPaths = [...new Set(p.categoryTexts)];
