@@ -113,7 +113,8 @@ function applyOrders(stateInput, orders) {
     const itemContainer = order.ORDER_ITEMS ?? order.ITEMS;
     const orderItems = asList(itemContainer?.ITEM ?? itemContainer);
     for (const line of orderItems) {
-      const code = text(line.CODE);
+      const orderCode = text(line.CODE);
+      const code = orderCode.startsWith('SKLBB-') ? orderCode.slice('SKLBB-'.length) : orderCode;
       const item = state.items[code];
       if (!item || item.quantity <= 0) continue;
       quantities.set(code, 1);
