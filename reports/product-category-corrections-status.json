@@ -1,10 +1,10 @@
 {
-  "products": 26992,
-  "matched": 725,
-  "categoryChanges": 298,
+  "products": 26998,
+  "matched": 726,
+  "categoryChanges": 299,
   "nameChanges": 9,
   "descriptionChanges": 0,
-  "automaticCategoryChanges": 202,
+  "automaticCategoryChanges": 203,
   "automaticCategoryUnclassified": [
     {
       "supplier": "innpro",
@@ -1979,11 +1979,6 @@
       "supplier": "innpro",
       "code": "028538",
       "ean": "6923520267705"
-    },
-    {
-      "supplier": "innpro",
-      "code": "047029",
-      "ean": "6932172627645"
     },
     {
       "supplier": "innpro",

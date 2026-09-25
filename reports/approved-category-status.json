@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26992,
-  "matchedRules": 2282,
-  "changedProducts": 992,
+  "totalProducts": 26998,
+  "matchedRules": 2283,
+  "changedProducts": 994,
   "rejected": [
     {
       "supplier": "atos",
@@ -1780,7 +1780,7 @@
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PETG filamenty",
-      "visibleUnique": 41,
+      "visibleUnique": 42,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -2074,7 +2074,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 108,
+      "visibleUnique": 109,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2104,7 +2104,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Súpravy fotografických filtrov",
-      "visibleUnique": 59,
+      "visibleUnique": 60,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
     },
