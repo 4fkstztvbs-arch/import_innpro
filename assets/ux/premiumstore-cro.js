@@ -714,13 +714,9 @@
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
   }
 
-  // The script is in the footer on production pages, so initialize as soon as
-  // the DOM is available rather than waiting for a later DOMContentLoaded task.
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', run, { once: true });
-  } else {
-    run();
-  }
+  // This script is loaded at the end of BODY, after the static markup it
+  // enhances has been parsed. Run before the browser dispatches DOMContentLoaded.
+  run();
 
   // Only checkout summary controls can be replaced during Shoptet AJAX updates.
   // Keep the observer scoped there and avoid rerunning header, menu, PDP and

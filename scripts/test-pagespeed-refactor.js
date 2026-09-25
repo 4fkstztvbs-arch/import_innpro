@@ -21,9 +21,9 @@ test('PDP mutation observation is limited to the product form', () => {
   assert.doesNotMatch(js, /observe\(\s*document\.documentElement/);
 });
 
-test('CRO initializes as soon as the footer script can access the DOM', () => {
+test('CRO initializes synchronously at the end of BODY', () => {
   const js = read('assets/ux/premiumstore-cro.js');
-  assert.match(js, /if \(document\.readyState === 'loading'\)[\s\S]*?addEventListener\('DOMContentLoaded', run, \{ once: true \}\)[\s\S]*?else\s*\{\s*run\(\);/);
+  assert.match(js, /loaded at the end of BODY[\s\S]*?\n  run\(\);/);
   assert.match(js, /observe\(checkoutSidebar, \{ childList: true, subtree: true \}\)/);
   assert.doesNotMatch(js, /observe\(document\.body, \{ childList: true, subtree: true \}\)/);
 });
