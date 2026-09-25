@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "items": {},
   "mail": {
-    "uidValidity": null,
-    "lastUid": 0,
-    "activationAfter": "2026-09-25T12:30:34.000Z",
-    "processedMessageKeys": []
+    "uidValidity": "1",
+    "lastUid": 57631,
+    "processedMessageKeys": [],
+    "activationAfter": "2026-09-25T12:54:30.160Z"
   },
   "ignoredMail": []
 }
