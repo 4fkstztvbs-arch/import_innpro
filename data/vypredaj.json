@@ -1,11 +1,25 @@
 {
   "schemaVersion": 1,
-  "items": {},
+  "items": {
+    "085534": {
+      "quantity": 2,
+      "activatedAt": "2026-09-25T12:35:24.000Z",
+      "appliedOrderIds": []
+    },
+    "085535": {
+      "quantity": 2,
+      "activatedAt": "2026-09-25T12:35:24.000Z",
+      "appliedOrderIds": []
+    }
+  },
   "mail": {
-    "uidValidity": null,
-    "lastUid": 0,
+    "uidValidity": "1",
+    "lastUid": 57647,
     "activationAfter": "2026-09-25T00:00:00.000Z",
-    "processedMessageKeys": []
+    "processedMessageKeys": [
+      "message-id:<el.8kqqp.3g{nysanwzg.1gjcgb@seznam.cz>",
+      "message-id:<fv.8kqtt.4hm2d49txwj.1gjczu@seznam.cz>"
+    ]
   },
   "ignoredMail": []
 }
