@@ -9097,6 +9097,86 @@
     },
     {
       "supplier": "innpro",
+      "code": "079801",
+      "ean": "6971636408833",
+      "name": "Vlákno Creality TPU (biele)",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:2637"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079802",
+      "ean": "6971636407645",
+      "name": "Vlákno Creality TPU (čierne)",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:2638"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079803",
+      "ean": "6971636407331",
+      "name": "Vlákno Creality TPU (červené)",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:2639"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079804",
+      "ean": "6971636407621",
+      "name": "Vlákno Creality TPU (modré)",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:2640"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079805",
+      "ean": "6971636408499",
+      "name": "Vlákno Creality TPU (zelené)",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:2641"
+    },
+    {
+      "supplier": "innpro",
       "code": "081488",
       "ean": "4897143171317",
       "name": "Puzdro Freewell pre iPhone 17 Pro Max so 17 mm držiakom",
@@ -9369,6 +9449,22 @@
     },
     {
       "supplier": "innpro",
+      "code": "085247",
+      "ean": "6933582316488",
+      "name": "Filament Sunlu TPU Silk (čierny)",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:3772"
+    },
+    {
+      "supplier": "innpro",
       "code": "083292",
       "ean": "6979181921784",
       "name": "Mäkká kefa pre vysávač DREAME V30",
@@ -9401,6 +9497,118 @@
     },
     {
       "supplier": "innpro",
+      "code": "086696",
+      "ean": "6974662353092",
+      "name": "Filament Anycubic TPU (čierny) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4357"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086702",
+      "ean": "6974662353153",
+      "name": "Filament Anycubic TPU (priehľadná modrá) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4358"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086703",
+      "ean": "6974662353160",
+      "name": "Filament Anycubic TPU (priehľadná zelená) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4359"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086698",
+      "ean": "6974662353115",
+      "name": "Filament Anycubic TPU (priehľadný) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4360"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086700",
+      "ean": "6974662353139",
+      "name": "Filament Anycubic TPU (priehľadná oranžová) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4361"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086699",
+      "ean": "6974662353122",
+      "name": "Filament Anycubic TPU (priehľadná fialová) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4362"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086701",
+      "ean": "6974662353146",
+      "name": "Filament Anycubic TPU (priehľadná červená) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4363"
+    },
+    {
+      "supplier": "innpro",
       "code": "087811",
       "ean": "6976391039506",
       "name": "Súprava bezdrôtového zvončeka IMOU 2S",
@@ -9430,6 +9638,38 @@
       "rule": "doorbell",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:innpro:4401"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086697",
+      "ean": "6974662353108",
+      "name": "Filament Anycubic TPU (sivý) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4407"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086704",
+      "ean": "6974662353177",
+      "name": "Filament Anycubic TPU (mliečna biela) 1 kg",
+      "current": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
+      ],
+      "proposed": [
+        "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty"
+      ],
+      "desiredTarget": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > TPU filamenty",
+      "rule": "tpu-filament",
+      "cleanGeneratedIntro": true,
+      "sourceKey": "feed:innpro:4408"
     },
     {
       "supplier": "innpro",
