@@ -95,8 +95,8 @@ jobs:
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
 
-      - name: Apply return-stock sale prices after all feed transformations
-        run: node scripts/apply-vypredaj-to-feed.js output/monacor.xml --allow-missing
+      - name: Build isolated Sklad BB feed
+        run: node scripts/build-sklad-bb-feed.js
 
       - name: Commit updated output
         run: |

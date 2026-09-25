@@ -7,6 +7,7 @@ const path = require('path');
 const { validateRegistry, loadSeoOverrides, applyFeedOverrides, SUPPLIERS } = require('./seo-overrides');
 const { inspectFeed } = require('./seo-feed-xml');
 const { run } = require('./apply-seo-overrides');
+const { resolveOutputIdentity } = require('./validate-seo-overrides');
 function entry(supplier, code, url) {
   return { supplier, code, ean: '0123456789012', shoptetCode: code, url: `https://www.premiumstore.sk/${url}/`, currentUrl: `https://www.premiumstore.sk/${url}/`, transform: `scripts/transform-${supplier}.js`, out: `output/${supplier}.xml`, mappingStatus: 'VERIFIED', evidenceRef: 'synthetic-test-fixture', seoTitle: 'Nový názov & <test> ]]> Ž', metaDescription: 'Nový popis "test" & viac.' };
 }
@@ -54,6 +55,28 @@ test('daily missing or changed identity is skipped without freezing new prices',
   const r=applyFeedOverrides(xml,'innpro',c);assert.equal(r.xml,xml);assert.ok(r.report.issues.some(x=>x.reason==='ean-mismatch'));assert.ok(r.report.issues.some(x=>x.reason==='missing'));
   assert.throws(()=>applyFeedOverrides(xml,'innpro',c,{strict:true}),/SEO preflight/);
 });
+test('strict finalizer tolerates only items absent from the current OUT',()=>{
+  const c=fixture(),xml=wrap(item('UNSELECTED'));
+  const result=applyFeedOverrides(xml,'innpro',c,{strict:true});
+  assert.equal(result.xml,xml);
+  assert.equal(result.report.applied,0);
+  assert.ok(result.report.issues.length>0);
+  assert.ok(result.report.issues.every(x=>x.reason==='missing'));
+
+  const target=c.products.find(x=>x.supplier==='innpro');
+  const changed=wrap(item(target.code,'9999999999999'));
+  assert.throws(()=>applyFeedOverrides(changed,'innpro',c,{strict:true}),/ean-mismatch/);
+});
+
+test('missing output is pending, while CODE/EAN drift and duplicates remain identity errors',()=>{
+  const target=entry('innpro','089326');
+  assert.deepEqual(resolveOutputIdentity(target,[]),{status:'missing'});
+  assert.equal(resolveOutputIdentity(target,inspectFeed(wrap(item('DIFFERENT-CODE',target.ean)))).reason,'code-mismatch');
+  assert.equal(resolveOutputIdentity(target,inspectFeed(wrap(item(target.code,'9999999999999')))).reason,'ean-mismatch');
+  assert.equal(resolveOutputIdentity(target,inspectFeed(wrap(item(target.code)+item(target.code)))).reason,'duplicate-code');
+  assert.equal(resolveOutputIdentity(target,inspectFeed(wrap(item(target.code,target.ean)))).status,'matched');
+});
+
 test('duplicate CODE is never applied',()=>{
   const c=fixture(),xml=wrap(item('000000')+item('000000'));
   const r=applyFeedOverrides(xml,'innpro',c);assert.equal(r.xml,xml);assert.equal(r.report.issues[0].reason,'duplicate-code');

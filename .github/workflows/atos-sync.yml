@@ -121,8 +121,8 @@ jobs:
           node scripts/validate-product-name-localization.js --supplier=atos --before=/tmp/atos-before-name-localization.xml --after=output/atos.xml
           node scripts/check-feed-size.js
 
-      - name: Apply return-stock sale prices after all feed transformations
-        run: node scripts/apply-vypredaj-to-feed.js output/atos.xml --allow-missing
+      - name: Build isolated Sklad BB feed
+        run: node scripts/build-sklad-bb-feed.js
 
       - name: Commit updated output
         run: |

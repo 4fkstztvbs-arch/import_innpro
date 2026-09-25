@@ -11,6 +11,10 @@ const { streamProducts } = require('./stream-products');
 const { parseProduct } = require('./parse-product');
 const { streamRecords } = require('./stream-records');
 const { parseRecord, field } = require('./parse-kb');
+const { parsePentaItem } = require('./parse-penta');
+const { parseAtosItem } = require('./parse-atos');
+const { parseSolightProduct } = require('./parse-solight');
+const { parseMonacorProduct } = require('./parse-monacor');
 const {
   createEmptyState, validateState, parseCommandBody, hasUniqueProduct, addItems, applyOrders,
 } = require('./lib/vypredaj-core');
@@ -36,7 +40,10 @@ function stableMessageKey(message, uidValidity) {
 }
 
 async function findSupplierProductCodes(codes) {
-  const sources = [process.env.INNPRO_FULL_URL, process.env.KB_ZBOZI_URL, process.env.BASYS_URL].filter(Boolean);
+  const sources = [
+    process.env.INNPRO_FULL_URL, process.env.KB_ZBOZI_URL, process.env.BASYS_URL,
+    process.env.PENTA_URL, process.env.ATOS_URL, process.env.SOLIGHT_URL, process.env.MONACOR_URL,
+  ].filter(Boolean);
   if (!sources.length) throw new Error('Chýbajú dodávateľské vstupné URL na overenie chýbajúcich kódov.');
   const found = new Map([...codes].map((code) => [code, 0]));
   if (process.env.INNPRO_FULL_URL) {
@@ -61,6 +68,38 @@ async function findSupplierProductCodes(codes) {
       if (!match) return;
       const supplierCode = he.decode(match[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')).trim();
       const code = `BASYS-${supplierCode}`;
+      if (found.has(code)) found.set(code, found.get(code) + 1);
+    });
+  }
+  if (process.env.PENTA_URL) {
+    const auth = process.env.PENTA_USERNAME && process.env.PENTA_PASSWORD
+      ? { username: process.env.PENTA_USERNAME, ['password']: process.env.PENTA_PASSWORD } : undefined;
+    await streamRecords(process.env.PENTA_URL, 'SHOPITEM', (rawXml) => {
+      let product; try { product = parsePentaItem(rawXml); } catch { return; }
+      const code = String(product?.code || '');
+      if (found.has(code)) found.set(code, found.get(code) + 1);
+    }, auth);
+  }
+  if (process.env.ATOS_URL) {
+    const auth = process.env.ATOS_USERNAME && process.env.ATOS_PASSWORD
+      ? { username: process.env.ATOS_USERNAME, ['password']: process.env.ATOS_PASSWORD } : undefined;
+    await streamRecords(process.env.ATOS_URL, 'SHOPITEM', (rawXml) => {
+      let product; try { product = parseAtosItem(rawXml); } catch { return; }
+      const code = String(product?.code || '');
+      if (found.has(code)) found.set(code, found.get(code) + 1);
+    }, auth);
+  }
+  if (process.env.SOLIGHT_URL) {
+    await streamRecords(process.env.SOLIGHT_URL, 'product', (rawXml) => {
+      let product; try { product = parseSolightProduct(rawXml); } catch { return; }
+      const code = String(product?.code || '');
+      if (found.has(code)) found.set(code, found.get(code) + 1);
+    });
+  }
+  if (process.env.MONACOR_URL) {
+    await streamRecords(process.env.MONACOR_URL, 'product', (rawXml) => {
+      let product; try { product = parseMonacorProduct(rawXml); } catch { return; }
+      const code = String(product?.number || product?.id || '');
       if (found.has(code)) found.set(code, found.get(code) + 1);
     });
   }

@@ -31,6 +31,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const { validateState } = require('./lib/vypredaj-core');
+const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
+const saleState = fs.existsSync(SALE_STATE_PATH)
+  ? validateState(JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')))
+  : { items: {} };
 const { streamRecords } = require('./stream-records');
 const { parseAtosItem } = require('./parse-atos');
 const { roundPrice } = require('./round-price');
@@ -308,8 +313,9 @@ async function main() {
     // negramaticky tvar v inom kontexte).
     if (defaultCategory.includes('Diaľkové ovládače')) p.name = translateRemoteControlName(p.name);
 
+    const trackedSale = (saleState.items[p.code]?.quantity || 0) > 0;
     const availability = p.availabilityRaw === 'skladem' ? 'Skladom' : 'Na objednávku';
-    if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; return; }
+    if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom' && !trackedSale) { stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; return; }
 
     // Diaľkové ovládače: ATOS lists compatible device models inside the description text
     // ("Ovladač je kompatibilní s těmito modely televizorů: ..."), not as real feed parameters.
