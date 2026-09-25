@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26998,
+  "totalProducts": 27004,
   "matchedRules": 2282,
-  "changedProducts": 1029,
+  "changedProducts": 995,
   "rejected": [
     {
       "supplier": "atos",
@@ -1774,19 +1774,19 @@
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
-      "visibleUnique": 9,
+      "visibleUnique": 20,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PETG filamenty",
-      "visibleUnique": 9,
+      "visibleUnique": 41,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
-      "visibleUnique": 16,
+      "visibleUnique": 141,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
