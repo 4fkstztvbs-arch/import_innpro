@@ -34,6 +34,14 @@ jobs:
           INNPRO_FULL_URL: ${{ secrets.INNPRO_FULL_URL }}
           KB_ZBOZI_URL: ${{ secrets.KB_ZBOZI_URL }}
           BASYS_URL: ${{ secrets.BASYS_URL }}
+          PENTA_URL: ${{ secrets.PENTA_URL }}
+          PENTA_USERNAME: ${{ secrets.PENTA_USERNAME }}
+          PENTA_PASSWORD: ${{ secrets.PENTA_PASSWORD }}
+          ATOS_URL: ${{ secrets.ATOS_URL }}
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+          SOLIGHT_URL: ${{ secrets.SOLIGHT_URL }}
+          MONACOR_URL: ${{ secrets.MONACOR_URL }}
         run: node scripts/process-vypredaj-events.js
 
       - name: Vytvoriť Sklad BB feed
