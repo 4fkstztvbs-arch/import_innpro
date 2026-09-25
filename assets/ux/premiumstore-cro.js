@@ -715,8 +715,12 @@
   }
 
   // This script is loaded at the end of BODY, after the static markup it
-  // enhances has been parsed. Run before the browser dispatches DOMContentLoaded.
+  // enhances has been parsed. Run immediately, then do one bounded retry at
+  // DOMContentLoaded in case Shoptet finishes adding a static enhancement host.
   run();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', run, { once: true });
+  }
 
   // Only checkout summary controls can be replaced during Shoptet AJAX updates.
   // Keep the observer scoped there and avoid rerunning header, menu, PDP and
