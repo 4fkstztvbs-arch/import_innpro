@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const { ImapFlow } = require('imapflow');
 const { simpleParser } = require('mailparser');
+const he = require('he');
 const { fetchOrders } = require('./fetch-orders');
 const { streamProducts } = require('./stream-products');
 const { parseProduct } = require('./parse-product');
@@ -56,9 +57,9 @@ async function findSupplierProductCodes(codes) {
   }
   if (process.env.BASYS_URL) {
     await streamRecords(process.env.BASYS_URL, 'SHOPITEM', (rawXml) => {
-      const match = rawXml.match(/<CODE\\b[^>]*>([\\s\\S]*?)<\\/CODE>/i);
+      const match = rawXml.match(/<CODE\b[^>]*>([\s\S]*?)<\/CODE>/i);
       if (!match) return;
-      const supplierCode = match[1].replace(/<\\/?[^>]+>/g, '').trim();
+      const supplierCode = he.decode(match[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')).trim();
       const code = `BASYS-${supplierCode}`;
       if (found.has(code)) found.set(code, found.get(code) + 1);
     });
