@@ -43,6 +43,13 @@ async function main() {
   const feeds = feedPaths.map((file) => fs.readFileSync(file, 'utf8'));
   const state = readState();
   const orders = await fetchOrders(process.env.ORDERS_XML_URL);
+  const diagnosticOrder = orders.find((order) => String(order.CODE ?? '') === '202601084');
+  console.log(`Diagnostika objednávky 202601084: ${JSON.stringify(diagnosticOrder ? {
+    orderFields: Object.keys(diagnosticOrder),
+    orderCode: diagnosticOrder.CODE,
+    date: diagnosticOrder.DATE,
+    items: diagnosticOrder.ITEMS,
+  } : { found: false })}`);
   const normalizeCode = (value) => String(value ?? '').trim().replace(/^0+(?=\\d)/, '');
   for (const [activeCode, item] of Object.entries(state.items).filter(([, value]) => value.quantity > 0)) {
     const candidates = [];
