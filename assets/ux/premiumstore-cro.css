@@ -1387,6 +1387,53 @@ body.ordering-process .h4 {
   }
 }
 
+/* Desktop header geometry is present before CRO JS relocates the catalogue nav.
+   The compact-header class below only adds presentation and interaction styles. */
+@media (min-width: 992px) {
+  #header .header-top-wrapper {
+    position: relative;
+    gap: 16px;
+    min-height: 96px;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    align-items: center;
+  }
+  #header .site-name {
+    flex: 0 0 220px !important;
+    width: 220px !important;
+    margin: 0;
+  }
+  #header .site-name img {
+    display: block;
+    width: 220px !important;
+    max-width: 220px !important;
+    height: auto !important;
+    max-height: none !important;
+  }
+  #header .header-bottom {
+    height: 0;
+    min-height: 0;
+    border: 0;
+    overflow: hidden;
+  }
+  #header .header-bottom-wrapper {
+    height: 0;
+    min-height: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #header .header-top-wrapper { gap: 8px; }
+  #header .site-name {
+    flex-basis: 175px !important;
+    width: 175px !important;
+  }
+  #header .site-name img {
+    width: 175px !important;
+    max-width: 175px !important;
+  }
+}
+
 /* Kompaktná hlavička. Aktivuje sa až po zostavení menu; checkout má svoj layout. */
 #header.ps-compact-header { --ps-surface: #eff4f6; --ps-ink: #0e151c; }
 #header.ps-compact-header .navigation-buttons { color: var(--ps-ink); }
