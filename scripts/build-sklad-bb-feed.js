@@ -114,18 +114,21 @@ function main() {
   for (const [code, sale] of active) {
     const matches = sourceLocations.get(code) || [];
     if (matches.length > 1) throw new Error('Kód ' + code + ' sa našiel vo viacerých dodávateľských feedoch.');
-    let sourceBlock = matches[0]?.block || cache[code]?.block;
-    const sourceFile = matches[0]?.feed.name || cache[code]?.sourceFile;
+    const cached = cache[code];
+    const sourceBlock = matches[0]?.block || cached?.block;
+    const sourceFile = matches[0]?.feed.name || cached?.sourceFile;
     if (!sourceBlock) {
-      console.warn('Čaká sa na zdrojový produkt ' + code + '; položka ostáva aktívna v stave.');
+      console.warn('Čaká sa na úplný zdrojový produkt ' + code + '; položka ostáva aktívna v stave.');
       continue;
     }
     if (matches.length) {
       foundInSource.add(code);
       nextCache[code] = { sourceFile, block: sourceBlock };
     }
-    const bb = prepareBbItem(sourceBlock, code, sale.quantity);
-    bbBlocks.push(bb.block);
+    bbBlocks.push(prepareBbItem(sourceBlock, code, sale.quantity).block);
+
+    // Dodávateľské importy mažú produkty, ktoré vo feede chýbajú. Keď je položka aktívna
+    // na Sklad BB, pôvodný kód preto nesmie zostať ani v jednom dodávateľskom feede.
     if (matches.length) {
       const feed = matches[0].feed;
       let removed = false;
@@ -137,22 +140,11 @@ function main() {
     }
   }
 
-  for (const [code, record] of Object.entries(nextCache)) {
-    if (activeCodes.has(code)) continue;
-    const sourceFile = path.join(SOURCE_DIR, path.basename(record.sourceFile || ''));
-    const output = outputs.get(sourceFile);
-    if (output) {
-      const existing = getBlocks(output).filter((b) => codeOf(b) === code);
-      if (!existing.length) {
-        const closing = output.lastIndexOf('</SHOP>');
-        if (closing < 0) throw new Error('Zdrojový feed ' + sourceFile + ' nemá uzatvárací </SHOP>.');
-        outputs.set(sourceFile, output.slice(0, closing) + record.block + '\\n' + output.slice(closing));
-        console.log('Vrátený pôvodný kód do feedu ' + path.basename(sourceFile) + ': ' + code);
-      }
-      delete nextCache[code];
-    } else {
-      console.warn('Pôvodný feed pre ' + code + ' sa zatiaľ nenašiel; obnova ostáva v cache.');
-    }
+  // Neobnovujeme blok z cache do dodávateľského feedu. Po objednávke ďalší
+  // dodávateľský transform určí z aktuálnej dostupnosti, či sa pôvodný kód vráti.
+  for (const [code, item] of Object.entries(cache)) {
+    if (activeCodes.has(code)) nextCache[code] = item;
+    else delete nextCache[code];
   }
 
   for (const [file, xml] of outputs) atomicWrite(file, xml);
