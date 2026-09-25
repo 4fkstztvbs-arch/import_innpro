@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-24 19:58 UTC.
+Kontrola z 2026-09-25 06:34 UTC.
 
-InnPro pri **400** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -52,7 +52,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `035753` | Kryt kefy pre vysávač Dreame Z10 Pro | — | 3 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
-| `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
 | `037416` | Tvrdené sklo Sunnylife pre RC ovládač DJI 2ks (MM3-GHM388) | — | 5 |
 | `037421` | Hliníkové paličky na ovládače Sunnylife pre  DJI RC / DJI RC | — | 5 |
@@ -115,7 +114,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054765` | Vodotesné puzdro Baseus AquaGlide s cylindrickým zámkom (mod | — | 5 |
 | `054163` | Ochranné puzdro na batérie Sunnylife pre DJI AIR 3 | — | 5 |
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action 4 | — | 5 |
-| `057076` | Kryt objektívu gimbalu Sunnylife proti oslneniu pre DJI Mini | — | 5 |
 | `057079` | Kryt objektívu/gimbalu Sunnylife pre DJI Mavic 3 Pro (M3P-G5 | — | 5 |
 | `055655` | Vodotesné puzdro Sonoff R2 BOX | — | 5 |
 | `058840` | Ochranné sklo PULUZ pre objektív a obrazovku DJI OSMO Pocket | — | 5 |
@@ -132,7 +130,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060078` | Ochranná taška / puzdro Telesin pre GoPro Hero 9 / Hero 10 / | — | 5 |
 | `060079` | Ochranná taška / puzdro Telesin pre Insta360 Ace Pro / Ace ( | — | 5 |
 | `060080` | Ochranná taška / puzdro Telesin for action cameras (GP-CPB-9 | — | 5 |
-| `058016` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 4 |
+| `058016` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 3 |
 | `058031` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 2 |
 | `058032` | Phone case Baseus Magnetic Crystal Clear for iPhone 11 Pro M | — | 5 |
 | `060195` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | — | 5 |
@@ -202,7 +200,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071238` | Etui do iPhone 16 Plus Nillkin Super Frosted Pro (čierne) | — | 5 |
 | `073741` | Butterfly Sunnylife NE-SN908 ochranné puzdro pre NEO s karab | — | 5 |
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
-| `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
 | `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
@@ -211,7 +208,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `073335` | Telesin Tvrdené sklo 3 v 1 pre GoPro Hero 13 Black (S6-FLM-0 | — | 5 |
 | `075568` | Filtre Rojeco pre 2,5 l bezdrôtové vodné fontány 50 | — | 5 |
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
-| `076565` | Sunnylife mini B977-GY ochranné puzdro pre RC ovládače DJI ( | — | 5 |
 | `074257` | Adaptér ANT+ USB Cycplus U10 | — | 5 |
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
 | `077573` | Ochranné puzdro Sunnylife s popruhom pre Osmo Pocket 3 (čier | — | 5 |
@@ -251,10 +247,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `081528` | Etui na batérii Sunnylife Mini 5 Pro (na 3 batérie) | — | 5 |
 | `081549` | Sunnylife G031 plastový kryt objektívu pre OSMO 360 | — | 5 |
 | `081550` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 | — | 5 |
-| `081553` | Sunnylife SN027 polootvorené plastové ochranné puzdro (čiern | — | 5 |
 | `081529` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (ruž | — | 4 |
 | `081532` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (žlt | — | 5 |
-| `081944` | Cyklistické svetlo Superfire BL56-B | — | 3 |
 | `082306` | Ochranné sklo 2 v 1 (displej + objektív) PULUZ pre Insta360  | — | 5 |
 | `082307` | Puzdro EVA PULUZ Mini pre Insta360 GO Ultra (čierne) | — | 5 |
 | `082309` | Silikónový kryt objektívu + puzdro PULUZ pre Insta360 GO Ult | — | 5 |

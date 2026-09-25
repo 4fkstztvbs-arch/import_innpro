@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26985,
-  "matchedRules": 2284,
-  "changedProducts": 225,
+  "totalProducts": 26979,
+  "matchedRules": 2282,
+  "changedProducts": 1014,
   "rejected": [
     {
       "supplier": "atos",
@@ -1226,11 +1226,6 @@
     },
     {
       "supplier": "innpro",
-      "code": "085218",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
       "code": "085220",
       "reason": "Reviewed product name changed"
     },
@@ -1815,7 +1810,7 @@
     },
     {
       "path": "Auto-moto > Elektronika do auta > Kamery do auta",
-      "visibleUnique": 45,
+      "visibleUnique": 44,
       "active": true,
       "parent": "Auto-moto > Elektronika do auta"
     },
@@ -1965,7 +1960,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
-      "visibleUnique": 41,
+      "visibleUnique": 40,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },

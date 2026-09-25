@@ -90,7 +90,7 @@
   "Energia a napájanie > Prenosné elektrické stanice": 6
  },
  "Energia > Elektrické stanice > Príslušenstvo": {
-  "Energia a napájanie > Prenosné elektrické stanice": 17
+  "Energia a napájanie > Prenosné elektrické stanice": 16
  },
  "Energia > Fotovoltaické panely > Balkónové systémy": {
   "Energia a napájanie > Fotovoltaika": 1
@@ -324,7 +324,7 @@
   "Elektro, Smart Home a osvetlenie > Smart domácnosť": 38
  },
  "Inteligentná domácnosť > Prvky výkonu > Senzory": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": 92
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": 91
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart kúrenie > Ovládače klimatizácie > tepelného čerpadla": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť": 2
@@ -597,7 +597,7 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 4
  },
  "Náradie > Skrutkovače": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Skrutkovače, bity a imbusy": 5
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Skrutkovače, bity a imbusy": 6
  },
  "Náradie > Spájkovačky": {
   "Dielňa, náradie a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky": 18
@@ -774,7 +774,7 @@
   "Auto-moto > Elektromobilita": 27
  },
  "Príslušenstvo pre automobily > Mini kompresory": {
-  "Auto-moto > Garáž, dielňa, servis": 23
+  "Auto-moto > Garáž, dielňa, servis": 24
  },
  "Príslušenstvo pre automobily > Monitory automobilov": {
   "Auto-moto > Elektronika do auta": 3
@@ -786,7 +786,10 @@
   "Auto-moto > Príslušenstvo do auta": 5
  },
  "Príslušenstvo pre automobily > Štartovacie káble": {
-  "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy": 46
+  "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy": 47
+ },
+ "Príslušenstvo pre automobily > Umývanie a čistenie > Tlakové čističe": {
+  "Auto-moto > Autokozmetika a chémia": 1
  },
  "Príslušenstvo pre automobily > Umývanie a čistenie > Vysávače do auta": {
   "Auto-moto > Autokozmetika a chémia": 5
@@ -825,7 +828,7 @@
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom": 1
  },
  "Smart hodinky > Smart hodinky": {
-  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika": 78
+  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika": 77
  },
  "Smart hodinky > Smart prstene": {
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika": 96
@@ -870,7 +873,7 @@
   "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle": 1
  },
  "šport > Príslušenstvo pre bicykle > Pumpy": {
-  "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle": 24
+  "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle": 25
  },
  "šport > Príslušenstvo pre bicykle > Rukoväte": {
   "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle": 5
