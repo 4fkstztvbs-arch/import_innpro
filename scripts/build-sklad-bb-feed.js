@@ -64,7 +64,10 @@ function prepareBbItem(sourceBlock, originalCode, quantity) {
   const purchasePrice = Number(decodeTag(sourceBlock, 'PURCHASE_PRICE') || 0);
   const purchaseInclVat = Number(decodeTag(sourceBlock, 'PURCHASE_PRICE_INCL_VAT') || 0) === 1;
   const purchaseNet = purchaseInclVat ? purchasePrice / (1 + vat / 100) : purchasePrice;
-  const salePrice = Math.round(sourcePrice * 95) / 100;
+  // PRICE_VAT je už výsledná cena z dodávateľského feedu (po marži a prípadnom
+  // Heureka cenovom cieli). Výpredajovú cenu rátame z nej a nikdy nad ňu.
+  const salePrice = Math.min(sourcePrice, Math.round(sourcePrice * 95) / 100);
+  if (salePrice > sourcePrice) throw new Error('Výpredajová cena pre ' + originalCode + ' presahuje cenu dodávateľa.');
   if (purchasePrice > 0 && salePrice / (1 + vat / 100) + 0.000001 < purchaseNet) {
     throw new Error('Zľava 5 % dostane ' + originalCode + ' pod nákupnú cenu; položka sa zastavila.');
   }
@@ -72,9 +75,9 @@ function prepareBbItem(sourceBlock, originalCode, quantity) {
   const bbCode = PREFIX + originalCode;
   if (bbCode.length > 64) throw new Error('Kód ' + bbCode + ' prekračuje limit 64 znakov.');
   block = replaceTag(block, 'CODE', escapeXml(bbCode));
-  block = replaceTag(block, 'PRICE_VAT', salePrice.toFixed(2));
+  block = replaceTag(block, 'PRICE_VAT', sourcePrice.toFixed(2));
   block = replaceTag(block, 'STANDARD_PRICE', sourcePrice.toFixed(2));
-  block = replaceTag(block, 'ACTION_PRICE', '');
+  block = replaceTag(block, 'ACTION_PRICE', salePrice.toFixed(2));
   block = setFlag(block, 'ACTION', false);
   block = setFlag(block, 'CUSTOM1', true);
   block = replaceTag(block, 'AVAILABILITY', '<![CDATA[' + AVAILABILITY + ']]>');
