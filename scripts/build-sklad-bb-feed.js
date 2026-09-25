@@ -113,7 +113,8 @@ function prepareBbItem(sourceBlock, originalCode, quantity) {
   block = replaceTag(block, 'STANDARD_PRICE', referencePrice.toFixed(2));
   block = replaceTag(block, 'ACTION_PRICE', salePrice.toFixed(2));
   block = setFlag(block, 'ACTION', false);
-  block = setFlag(block, 'CUSTOM1', true);
+  block = setFlag(block, 'CUSTOM1', false);
+  block = setFlag(block, 'TIP', true);
   block = replaceTag(block, 'AVAILABILITY', '<![CDATA[' + AVAILABILITY + ']]>');
   block = replaceTag(block, 'SUPPLIER', '<![CDATA[' + SUPPLIER + ']]>');
   block = replaceTag(block, 'VISIBLE', '1');
