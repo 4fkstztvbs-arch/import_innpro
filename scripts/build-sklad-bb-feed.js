@@ -48,14 +48,45 @@ function replaceTag(block, tag, value) {
   return block.slice(0, end) + encoded + '\n' + block.slice(end);
 }
 function setFlag(block, name, active) {
+  const requestedCode = name.toLowerCase();
   const flagsMatch = block.match(/<FLAGS\b[^>]*>([\s\S]*?)<\/FLAGS>/i);
-  const value = '<' + name + '>' + (active ? '1' : '0') + '</' + name + '>';
-  if (!flagsMatch) return replaceTag(block, 'FLAGS', value);
-  const flags = flagsMatch[1];
-  const re = new RegExp('<' + name + '\\b[^>]*>[\\s\\S]*?<\\/' + name + '>', 'i');
-  const newFlags = re.test(flags) ? flags.replace(re, value) : flags + value;
-  return block.replace(/<FLAGS\b[^>]*>[\s\S]*?<\/FLAGS>/i, '<FLAGS>' + newFlags + '</FLAGS>');
+  const entries = new Map();
+  if (flagsMatch) {
+    const body = flagsMatch[1];
+    // Read legacy <ACTION>/<TIP>/<NEW>/<CUSTOM1> entries so source flags survive
+    // while the BB copy is written using Shoptet's current <FLAG><CODE> format.
+    for (const match of body.matchAll(/<(NEW|TIP|ACTION|CUSTOM\d+)\b[^>]*>([\s\S]*?)<\/\1>/gi)) {
+      const code = match[1].toLowerCase();
+      entries.set(code, { code, active: /^(1|true|yes)$/i.test(he.decode(match[2].trim())) });
+    }
+    for (const match of body.matchAll(/<FLAG\b[^>]*>([\s\S]*?)<\/FLAG>/gi)) {
+      const item = match[1];
+      const code = decodeTag(item, 'CODE')?.toLowerCase();
+      if (!code) continue;
+      const prior = entries.get(code) || { code, active: false };
+      const activeValue = decodeTag(item, 'ACTIVE');
+      entries.set(code, {
+        ...prior,
+        active: activeValue == null ? prior.active : /^(1|true|yes)$/i.test(activeValue),
+        validFrom: decodeTag(item, 'VALID_FROM') || prior.validFrom || '',
+        validUntil: decodeTag(item, 'VALID_UNTIL') || prior.validUntil || '',
+      });
+    }
+  }
+  const prior = entries.get(requestedCode) || { code: requestedCode };
+  entries.set(requestedCode, { ...prior, code: requestedCode, active: Boolean(active) });
+  const flagsXml = '<FLAGS>' + [...entries.values()].map((flag) => {
+    return '<FLAG><CODE>' + escapeXml(flag.code) + '</CODE><ACTIVE>' + (flag.active ? '1' : '0') + '</ACTIVE>'
+      + (flag.validFrom ? '<VALID_FROM>' + escapeXml(flag.validFrom) + '</VALID_FROM>' : '')
+      + (flag.validUntil ? '<VALID_UNTIL>' + escapeXml(flag.validUntil) + '</VALID_UNTIL>' : '')
+      + '</FLAG>';
+  }).join('') + '</FLAGS>';
+  if (flagsMatch) return block.replace(/<FLAGS\b[^>]*>[\s\S]*?<\/FLAGS>/i, flagsXml);
+  const end = block.lastIndexOf('</SHOPITEM>');
+  if (end < 0) throw new Error('Neúplný SHOPITEM pri zápise príznakov.');
+  return block.slice(0, end) + flagsXml + '\n' + block.slice(end);
 }
+
 function prepareBbItem(sourceBlock, originalCode, quantity) {
   let block = sourceBlock;
   const sourcePrice = Number(decodeTag(sourceBlock, 'PRICE_VAT'));
