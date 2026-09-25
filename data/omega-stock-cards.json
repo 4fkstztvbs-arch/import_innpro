@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600380,
+    "nextCardNumber": 202600390,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2276,6 +2276,66 @@
         "nazov": "Vinyl scraper HTVRONT",
         "dodavatel": "innpro",
         "code": "088983"
+      },
+      "5905316148468": {
+        "kod": "202600380",
+        "nazov": "Sunnylife Riding Bracket for",
+        "dodavatel": "innpro",
+        "code": "055456"
+      },
+      "6928493309469": {
+        "kod": "202600381",
+        "nazov": "Gens ace G-Tech 5500mAh",
+        "dodavatel": "innpro",
+        "code": "065527"
+      },
+      "6928493309438": {
+        "kod": "202600382",
+        "nazov": "Gens ace G-Tech 8000mAh",
+        "dodavatel": "innpro",
+        "code": "065503"
+      },
+      "6937267000419": {
+        "kod": "202600383",
+        "nazov": "BOBOVR C3 Carrying Case",
+        "dodavatel": "innpro",
+        "code": "068822"
+      },
+      "6946639813915": {
+        "kod": "202600384",
+        "nazov": "Zeblaze Vibe 8 Smartwatch",
+        "dodavatel": "innpro",
+        "code": "081238"
+      },
+      "6972470564358": {
+        "kod": "202600385",
+        "nazov": "ONIKUMA BT keyboard",
+        "dodavatel": "innpro",
+        "code": "080568"
+      },
+      "6933582315306": {
+        "kod": "202600386",
+        "nazov": "Filament PETG High-Speed",
+        "dodavatel": "innpro",
+        "code": "085121"
+      },
+      "0757047110451": {
+        "kod": "202600387",
+        "nazov": "Projector Magcubic HY450C",
+        "dodavatel": "innpro",
+        "code": "086339"
+      },
+      "6931705008616": {
+        "kod": "202600388",
+        "nazov": "Smart Cat Litter Box C41, EU",
+        "dodavatel": "innpro",
+        "code": "087571"
+      },
+      "6932704908242": {
+        "kod": "202600389",
+        "nazov": "ELEGOO Rapid PLA+",
+        "dodavatel": "innpro",
+        "code": "085806"
       }
     }
   },
