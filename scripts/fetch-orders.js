@@ -8,7 +8,8 @@
 
 const { XMLParser } = require('fast-xml-parser');
 
-const parser = new XMLParser({ ignoreAttributes: true, textNodeName: '#text' });
+// Product codes are identifiers; keep numeric-looking values such as 085534 as strings.
+const parser = new XMLParser({ ignoreAttributes: true, textNodeName: '#text', parseTagValue: false });
 
 function field(order, tag) {
   const v = order ? order[tag] : undefined;
