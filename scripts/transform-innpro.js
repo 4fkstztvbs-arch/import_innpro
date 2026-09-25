@@ -24,6 +24,7 @@ const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { vytvorZaradovac } = require('./zarad-kategoriu');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
+const { validateState } = require('./lib/vypredaj-core');
 
 // Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
 const crossSupplier = createCrossSupplierFilter('innpro');
@@ -41,6 +42,10 @@ const OUT_OF_STOCK_TEXT = process.env.INNPRO_OUT_OF_STOCK_TEXT || 'Na objednávk
 // are exported — "Na objednávku" and "Dostupné od ..." products are skipped entirely, not just
 // hidden/greyed out. Same convention as KB_EXCLUDE_UNAVAILABLE in transform-kb.js.
 const EXCLUDE_UNAVAILABLE = process.env.INNPRO_EXCLUDE_UNAVAILABLE === '1';
+const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
+const saleState = fs.existsSync(SALE_STATE_PATH)
+  ? validateState(JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')))
+  : { items: {} };
 
 const MAPPING_PATH = path.join(__dirname, 'innpro-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
@@ -282,6 +287,7 @@ async function main() {
     let { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.category, p.name);
     if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
     const productCode = p.codeOnCard || p.id;
+    const isReturnStockSale = (saleState.items[productCode]?.quantity || 0) > 0;
     if (CATEGORY_OVERRIDES_BY_CODE[productCode]) {
       category = CATEGORY_OVERRIDES_BY_CODE[productCode];
       extraCategories = pathToExtraCategories(category);
@@ -297,16 +303,22 @@ async function main() {
     let stockQty = 0, stockInfinite = false;
     if (lightEntry) { stockQty = lightEntry.stock; stockInfinite = lightEntry.infinite; }
 
-    let availability;
-    if (stockInfinite || stockQty > 0) availability = 'Skladom';
-    else if (p.nextDeliveryDate) availability = `Dostupné od ${p.nextDeliveryDate}`;
-    else availability = OUT_OF_STOCK_TEXT;
+    let supplierAvailability;
+    if (stockInfinite || stockQty > 0) supplierAvailability = 'Skladom';
+    else if (p.nextDeliveryDate) supplierAvailability = `Dostupné od ${p.nextDeliveryDate}`;
+    else supplierAvailability = OUT_OF_STOCK_TEXT;
+    // Returned goods are physically in our warehouse even when InnPro has no stock.
+    // Keep tracked sale items in the feed and advertise the local returned unit as available.
+    const availability = isReturnStockSale ? 'Skladom' : supplierAvailability;
 
     sklad.push({ code: productCode, name: p.name, light: !!lightEntry,
       lightStock: lightEntry ? lightEntry.stock : null, infinite: stockInfinite,
-      fullStock: p.stock, dalsiaDodavka: p.nextDeliveryDate || '', availability });
+      fullStock: p.stock, dalsiaDodavka: p.nextDeliveryDate || '', availability: supplierAvailability,
+      returnStockSale: isReturnStockSale });
 
-    if (EXCLUDE_UNAVAILABLE && availability !== 'Skladom') { stats.skippedUnavailable++; return; }
+    if (EXCLUDE_UNAVAILABLE && supplierAvailability !== 'Skladom' && !isReturnStockSale) {
+      stats.skippedUnavailable++; return;
+    }
 
     let description = p.longDesc;
     if (p.docs.length) {
