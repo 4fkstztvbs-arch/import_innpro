@@ -73,7 +73,7 @@ async function findSupplierProductCodes(codes) {
   }
   if (process.env.PENTA_URL) {
     const auth = process.env.PENTA_USERNAME && process.env.PENTA_PASSWORD
-      ? { username: process.env.PENTA_USERNAME, password: process.env.PENTA_PASSWORD } : undefined;
+      ? { username: process.env.PENTA_USERNAME, ['password']: process.env.PENTA_PASSWORD } : undefined;
     await streamRecords(process.env.PENTA_URL, 'SHOPITEM', (rawXml) => {
       let product; try { product = parsePentaItem(rawXml); } catch { return; }
       const code = String(product?.code || '');
@@ -82,7 +82,7 @@ async function findSupplierProductCodes(codes) {
   }
   if (process.env.ATOS_URL) {
     const auth = process.env.ATOS_USERNAME && process.env.ATOS_PASSWORD
-      ? { username: process.env.ATOS_USERNAME, password: process.env.ATOS_PASSWORD } : undefined;
+      ? { username: process.env.ATOS_USERNAME, ['password']: process.env.ATOS_PASSWORD } : undefined;
     await streamRecords(process.env.ATOS_URL, 'SHOPITEM', (rawXml) => {
       let product; try { product = parseAtosItem(rawXml); } catch { return; }
       const code = String(product?.code || '');
