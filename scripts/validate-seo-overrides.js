@@ -6,6 +6,17 @@ const { loadSeoOverrides, applyFeedOverrides, SUPPLIERS } = require('./seo-overr
 const { inspectFeed, patchSeo } = require('./seo-feed-xml');
 const ROOT = path.join(__dirname, '..');
 const sha = value => crypto.createHash('sha256').update(value).digest('hex');
+function resolveOutputIdentity(entry, items) {
+  const found = items.filter(x => x.fields.CODE?.text === entry.code);
+  if (found.length > 1) return { status: 'error', reason: 'duplicate-code' };
+  if (found.length === 1) {
+    if (entry.ean && found[0].fields.EAN?.text !== entry.ean) return { status: 'error', reason: 'ean-mismatch' };
+    return { status: 'matched', item: found[0] };
+  }
+  const eanMatches = entry.ean ? items.filter(x => x.fields.EAN?.text === entry.ean) : [];
+  if (eanMatches.length) return { status: 'error', reason: 'code-mismatch' };
+  return { status: 'missing' };
+}
 function maskSeo(xml, items) {
   const spans=items.flatMap(x=>['SEO_TITLE','META_DESCRIPTION'].map(t=>x.fields[t]).filter(Boolean)).sort((a,b)=>a.start-b.start);
   const chunks=[];let cursor=0;for(const x of spans){chunks.push(xml.slice(cursor,x.start));cursor=x.end;}chunks.push(xml.slice(cursor));
@@ -45,9 +56,15 @@ function validate() {
     if(inactive.xml!==xml) errors.push(`Inactive output changed: ${supplier}`);
     const changes=[];
     for(const entry of members.filter(x=>x.supplier===supplier&&x.mappingStatus==='VERIFIED')) {
-      const found=items.filter(x=>x.fields.CODE?.text===entry.code);
-      if(found.length!==1||(entry.ean&&found[0]?.fields.EAN?.text!==entry.ean)) { errors.push(`Verified identity no longer matches OUT: ${supplier}/${entry.code}`);continue; }
-      if(config.products.includes(entry)) changes.push({item:found[0],seoTitle:entry.seoTitle,metaDescription:entry.metaDescription});
+      const identity=resolveOutputIdentity(entry,items);
+      if(identity.status==='error') { errors.push(`Verified identity changed in OUT (${identity.reason}): ${supplier}/${entry.code}`);continue; }
+      if(identity.status==='missing') {
+        // The exact mapped product may be omitted by the supplier's current-stock filter.
+        // Keep the frozen cohort intact, but make it explicit that activation is not ready.
+        blockers.push({supplier,code:entry.code,reason:'NOT_IN_CURRENT_OUT'});
+        continue;
+      }
+      if(config.products.includes(entry)) changes.push({item:identity.item,seoTitle:entry.seoTitle,metaDescription:entry.metaDescription});
     }
     // Preview only: low-level serialization validation, never an ACTIVE registry or write.
     const preview=patchSeo(xml,changes), after=inspectFeed(preview);
@@ -64,4 +81,4 @@ if(require.main===module){
   try{const result=validate();console.log(JSON.stringify(result,null,2));if(!result.preparationValid||(process.argv.includes('--require-ready')&&!result.activationReady))process.exitCode=1;}
   catch(error){console.error(error.message);process.exitCode=1;}
 }
-module.exports={validate};
+module.exports={validate,resolveOutputIdentity};
