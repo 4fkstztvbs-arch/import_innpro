@@ -30,12 +30,12 @@
 //           ATOS_IMAGE_PROXY_BASE (same Cloudflare Worker as fetch-atos-images.js)
 
 const fs = require('fs');
+const path = require('path');
 const { validateState } = require('./lib/vypredaj-core');
 const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
 const saleState = fs.existsSync(SALE_STATE_PATH)
   ? validateState(JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')))
   : { items: {} };
-const path = require('path');
 const { streamRecords } = require('./stream-records');
 const { parseAtosItem } = require('./parse-atos');
 const { roundPrice } = require('./round-price');
