@@ -39,7 +39,7 @@ function stableMessageKey(message, uidValidity) {
     : `imap:${uidValidity}:${message.uid}`;
 }
 
-async function findSupplierProductCodes(codes, options = {}) {
+async function findSupplierProductCodes(codes) {
   const sources = [
     process.env.INNPRO_FULL_URL, process.env.KB_ZBOZI_URL, process.env.BASYS_URL,
     process.env.PENTA_URL, process.env.ATOS_URL, process.env.SOLIGHT_URL, process.env.MONACOR_URL,
@@ -71,7 +71,7 @@ async function findSupplierProductCodes(codes, options = {}) {
       if (found.has(code)) found.set(code, found.get(code) + 1);
     });
   }
-  if (process.env.PENTA_URL && !options.skipPenta) {
+  if (process.env.PENTA_URL) {
     const auth = process.env.PENTA_USERNAME && process.env.PENTA_PASSWORD
       ? { username: process.env.PENTA_USERNAME, ['password']: process.env.PENTA_PASSWORD } : undefined;
     await streamRecords(process.env.PENTA_URL, 'SHOPITEM', (rawXml) => {
@@ -200,12 +200,7 @@ async function main() {
             // missing codes against the live InnPro, K-B and BASYS catalogs.
             let sourceMatches;
             try {
-              const oneTimeKnownNonPentaMail = key === 'message-id:<na.8kqs}.4j{phldzfyx.1gjhtc@seznam.cz>';
-              if (oneTimeKnownNonPentaMail) console.warn('Jednorazovo vynechávam Penta katalóg pre potvrdený e-mail bez produktov Penta.');
-              sourceMatches = await findSupplierProductCodes(
-                new Set(missingFromOutput.map((row) => row.code)),
-                { skipPenta: oneTimeKnownNonPentaMail },
-              );
+              sourceMatches = await findSupplierProductCodes(new Set(missingFromOutput.map((row) => row.code)));
             } catch (err) {
               // Supplier catalog outages are temporary. Do not consume the email UID or mark the
               // message ignored; fail this run so the scheduled workflow retries it next time.
