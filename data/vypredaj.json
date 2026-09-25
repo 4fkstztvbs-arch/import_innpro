@@ -16,12 +16,19 @@
   },
   "mail": {
     "uidValidity": "1",
-    "lastUid": 57689,
+    "lastUid": 57695,
     "activationAfter": "2026-09-25T00:00:00.000Z",
     "processedMessageKeys": [
       "message-id:<el.8kqqp.3g{nysanwzg.1gjcgb@seznam.cz>",
-      "message-id:<fv.8kqtt.4hm2d49txwj.1gjczu@seznam.cz>"
+      "message-id:<fv.8kqtt.4hm2d49txwj.1gjczu@seznam.cz>",
+      "message-id:<nq.8kqs1.4odwfhrab}s.1gjhku@seznam.cz>"
     ]
   },
-  "ignoredMail": []
+  "ignoredMail": [
+    {
+      "key": "message-id:<nq.8kqs1.4odwfhrab}s.1gjhku@seznam.cz>",
+      "reason": "Riadok 2 musí mať tvar KÓD;POČET.",
+      "at": "2026-09-25T17:58:36.943Z"
+    }
+  ]
 }
