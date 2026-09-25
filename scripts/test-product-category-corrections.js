@@ -37,3 +37,20 @@ test('factual name correction leaves canonical URL unchanged and updates exact n
  const r=apply(files,config,tree);assert.equal(field(r.files[0].text,'NAME'),'Correct rack');assert.equal(field(r.files[0].text,'URL'),'https://example.test/original');assert.ok(field(r.files[0].text,'DESCRIPTION').includes('Correct rack. Original evidence.'));
  assert.equal(apply(r.files,config,tree).files[0].text,r.files[0].text);
 });
+
+test('all InnPro TPU filaments retain their approved subcategory in nightly corrections',()=>{
+ const fs=require('node:fs'),path=require('node:path');
+ const cfg=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/product-category-corrections.json'),'utf8'));
+ const known=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/known-categories.json'),'utf8'));
+ const codes=['079801','079802','079803','079804','079805','085247','086696','086697','086698','086699','086700','086701','086702','086703','086704'];
+ const parent='3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna';
+ const target=parent+' > TPU filamenty';
+ const rules=cfg.products.filter(r=>r.supplier==='innpro'&&codes.includes(r.code));
+ assert.deepEqual(rules.map(r=>r.code).sort(),codes.slice().sort());
+ for(const r of rules){assert.deepEqual(r.current,[parent]);assert.deepEqual(r.proposed,[target]);assert.equal(r.rule,'tpu-filament');}
+ const items=rules.map(r=>'<SHOPITEM><CODE>'+r.code+'</CODE><EAN>'+r.ean+'</EAN><NAME>'+r.name+'</NAME><CATEGORIES><CATEGORY><![CDATA['+parent+']]></CATEGORY></CATEGORIES></SHOPITEM>').join('');
+ const result=apply([{name:'innpro',text:'<SHOP>'+items+'</SHOP>'}],{schemaVersion:cfg.schemaVersion,products:rules},known);
+ assert.equal(result.report.matched,codes.length);assert.equal(result.report.categoryChanges,codes.length);
+ assert.deepEqual(result.report.skipped,[]);assert.deepEqual(result.report.unseen,[]);
+ assert.equal((result.files[0].text.match(/<CATEGORY><!\\[CDATA\\[[^<]* > TPU filamenty\\]\\]><\\/CATEGORY>/g)||[]).length,codes.length);
+});
