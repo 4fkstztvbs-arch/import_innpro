@@ -198,7 +198,16 @@ async function main() {
           if (missingFromOutput.length) {
             // Stock-only supplier transforms omit unavailable items from output/*.xml. Confirm
             // missing codes against the live InnPro, K-B and BASYS catalogs.
-            const sourceMatches = await findSupplierProductCodes(new Set(missingFromOutput.map((row) => row.code)));
+            let sourceMatches;
+            try {
+              sourceMatches = await findSupplierProductCodes(new Set(missingFromOutput.map((row) => row.code)));
+            } catch (err) {
+              // Supplier catalog outages are temporary. Do not consume the email UID or mark the
+              // message ignored; fail this run so the scheduled workflow retries it next time.
+              const retryable = new Error(`Dočasne sa nepodarilo overiť kódy v katalógoch dodávateľov; e-mail zostáva nespracovaný: ${err.message}`);
+              retryable.retryableSupplierLookup = true;
+              throw retryable;
+            }
             for (const row of missingFromOutput) {
               if (sourceMatches.get(row.code) !== 1) {
                 throw new Error(`Kód ${row.code} nie je práve raz v aktuálnych výstupoch ani v živom InnPro katalógu.`);
@@ -209,6 +218,7 @@ async function main() {
           mailChanges += rows.length;
           console.log(`Prijatý výpredajový e-mail: ${rows.length} produktových riadkov.`);
         } catch (err) {
+          if (err.retryableSupplierLookup) throw err;
           nextState.ignoredMail.push({ key, reason: err.message, at: new Date().toISOString() });
           nextState.ignoredMail = nextState.ignoredMail.slice(-200);
           console.warn(`Výpredajový e-mail UID ${message.uid} odmietnutý: ${err.message}`);
