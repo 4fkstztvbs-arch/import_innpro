@@ -1691,3 +1691,123 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.p-name,.p-name a { color:#0e151c; }
   }
   body.navigation-window-visible { overflow:hidden; }
 }
+
+/* Trvalo viditeľné vyhľadávanie v hlavičke. Kontakty ostávajú v pätičke a na stránke Kontakt. */
+#header.ps-compact-header .navigation-buttons > .ps-header-support,
+#header.ps-compact-header .navigation-buttons > .ps-header-phone,
+#header.ps-compact-header .navigation-buttons > a[data-target="search"] {
+  display: none !important;
+}
+
+@media (min-width: 992px) {
+  #header.ps-compact-header .header-top-wrapper > .search,
+  body.search-window-visible #header.ps-compact-header .header-top-wrapper > .search {
+    position: static !important;
+    display: block !important;
+    flex: 1 1 320px !important;
+    min-width: 220px !important;
+    width: auto !important;
+    max-width: none !important;
+    order: 2;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    z-index: auto !important;
+  }
+  #header.ps-compact-header .ps-catalog-nav { flex: 0 1 auto; }
+}
+
+@media (max-width: 991px) {
+  #header.ps-compact-header .header-top-wrapper { flex-wrap: wrap !important; }
+  #header.ps-compact-header .header-top-wrapper > .search,
+  body.search-window-visible #header.ps-compact-header .header-top-wrapper > .search {
+    position: static !important;
+    display: block !important;
+    flex: 0 0 100% !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    order: 10 !important;
+    margin: 0 !important;
+    padding: 8px 0 2px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    z-index: auto !important;
+  }
+  #header.ps-compact-header .navigation-buttons > .ps-header-phone,
+  #header.ps-compact-header .navigation-buttons > a[data-target="search"] {
+    display: none !important;
+  }
+}
+
+#header.ps-compact-header .search-form,
+body.search-window-visible #header.ps-compact-header .search-form {
+  display: flex !important;
+  align-items: stretch;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 50px;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  border: 1px solid #cbd4dc !important;
+  border-radius: 12px !important;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+#header.ps-compact-header #formSearchForm > div {
+  display: flex !important;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+}
+
+#header.ps-compact-header .search-input {
+  flex: 1 1 auto !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  height: 48px !important;
+  margin: 0 !important;
+  padding: 0 14px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-size: 16px !important;
+}
+
+#header.ps-compact-header .search-button {
+  position: static !important;
+  display: inline-flex !important;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-width: 96px;
+  height: 42px !important;
+  margin: 3px !important;
+  padding: 0 18px !important;
+  border: 0 !important;
+  border-radius: 12px !important;
+  background: #0757a5 !important;
+  color: #fff !important;
+  font-weight: 700;
+  line-height: 1.2;
+  box-shadow: none !important;
+}
+
+#header.ps-compact-header .search-button:hover { background: #064785 !important; }
+#header.ps-compact-header .search-form:focus-within {
+  outline: 3px solid rgba(7, 87, 165, .2);
+  outline-offset: 2px;
+}
+@media (max-width: 575px) {
+  #header.ps-compact-header .search-button {
+    min-width: 78px;
+    padding: 0 12px !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  #header.ps-compact-header .search-button { transition: none !important; }
+}
+
