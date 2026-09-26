@@ -1821,3 +1821,15 @@ body.search-window-visible #header.ps-compact-header .search-form {
 
 /* Leave room for the search icon inside the input. */
 #header.ps-compact-header .search-input { padding-left: 44px !important; }
+
+/* Mobile keeps the original icon-triggered search panel. */
+@media (max-width: 767px) {
+  #header.ps-compact-header .navigation-buttons > a[data-target="search"] { display: inline-flex !important; }
+  #header.ps-compact-header .header-top-wrapper > .search { display: none !important; }
+  body.search-window-visible #header.ps-compact-header .header-top-wrapper > .search {
+    position: static !important; display: block !important; flex: 0 0 100% !important;
+    min-width: 0 !important; width: 100% !important; max-width: none !important;
+    order: 10 !important; margin: 0 !important; padding: 8px 0 2px !important;
+    background: transparent !important; box-shadow: none !important; z-index: auto !important;
+  }
+}
