@@ -1,8 +1,8 @@
 {
   "minimum": 8,
   "totalProducts": 27029,
-  "matchedRules": 2280,
-  "changedProducts": 4,
+  "matchedRules": 2279,
+  "changedProducts": 224,
   "rejected": [
     {
       "supplier": "atos",
@@ -2022,7 +2022,7 @@
     },
     {
       "path": "Profesionálna audio technika > Výkonové a inštalačné zosilňovače",
-      "visibleUnique": 17,
+      "visibleUnique": 16,
       "active": true,
       "parent": "Profesionálna audio technika"
     },
