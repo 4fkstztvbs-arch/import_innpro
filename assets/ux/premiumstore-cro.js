@@ -606,6 +606,8 @@
     var search = top && top.querySelector('.search');
     var buttons = top && top.querySelector('.navigation-buttons');
     if (!top || !bottom || !catalog || !search || !buttons) return;
+    var searchInput = search.querySelector('.search-input');
+    if (searchInput) searchInput.placeholder = 'Čo hľadáte? Skúste značku, produkt alebo kód…';
     var login = buttons.querySelector('.top-nav-button-login');
     if (login && !login.getAttribute('aria-label')) login.setAttribute('aria-label', 'Prihlásenie');
     var phone = document.createElement('a');
