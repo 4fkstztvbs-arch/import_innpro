@@ -103,7 +103,9 @@ function prepareBbItem(sourceBlock, originalCode, quantity) {
   const salePrice = Math.min(referencePrice, Math.round(referencePrice * 95) / 100);
   if (salePrice > referencePrice) throw new Error('Výpredajová cena pre ' + originalCode + ' presahuje aktuálnu cenu dodávateľa.');
   if (purchasePrice > 0 && salePrice / (1 + vat / 100) + 0.000001 < purchaseNet) {
-    throw new Error('Zľava 5 % dostane ' + originalCode + ' pod nákupnú cenu; položka sa zastavila.');
+    const err = new Error('Zľava 5 % dostane ' + originalCode + ' pod nákupnú cenu.');
+    err.code = 'SALE_BELOW_COST';
+    throw err;
   }
   if (!/^[A-Za-z0-9_ /.-]+$/.test(originalCode)) throw new Error('Kód obsahuje nepodporované znaky: ' + originalCode);
   const bbCode = PREFIX + originalCode;
@@ -155,8 +157,19 @@ function main() {
       console.warn('Čaká sa na zdrojový produkt ' + code + '; aktívna položka sa zachová v stave.');
       continue;
     }
+    let bbItem;
+    try {
+      bbItem = prepareBbItem(sourceBlock, code, sale.quantity);
+    } catch (err) {
+      if (err.code !== 'SALE_BELOW_COST') throw err;
+      // A single uneconomic item must not block the whole nightly batch. Keep its supplier
+      // product in the regular feed and omit only its Sklad BB copy.
+      console.warn(err.message + ' Ponechávam štandardný produkt v dodávateľskom feede; Sklad BB kópia sa preskočí.');
+      delete nextCache[code];
+      continue;
+    }
     if (matches.length) nextCache[code] = { sourceFile: matches[0].feed.name, block: sourceBlock };
-    saleBlocks.push(prepareBbItem(sourceBlock, code, sale.quantity));
+    saleBlocks.push(bbItem);
 
     // Kým je tovar aktívny v BB, pôvodný CODE nesmie zostať v dodávateľskom feede:
     // import dodávateľa by ho inak znovu vytvoril ako duplicitný produkt.
