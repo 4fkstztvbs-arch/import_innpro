@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-09-26 08:56 UTC.
+Kontrola z 2026-09-26 13:58 UTC.
 
 Produktov v full.xml: **7109**, z toho 5659 má záznam aj v light.xml.
 Dostupnosť: Skladom 5630, ostatné 1479 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -153,7 +153,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `034115` | Yeelight Svetlo so senzorom do šatníka 40 cm - čierne 4 | Skladom | 460 | 14.10.2026 |
 | `032519` | Fotografické pozadie Puluz PU5321W (biela) | Skladom | 299 | 27.10.2026 |
 | `035151` | Nabíjateľná stolová lampa Yeelight 4 v 1 | Skladom | 182 | 14.10.2026 |
-| `035190` | Ústredňa inteligentnej domácnosti Smart ZigBee Bridge P | Skladom | 166 | 23.10.2026 |
+| `035190` | Ústredňa inteligentnej domácnosti Smart ZigBee Bridge P | Skladom | 164 | 23.10.2026 |
 | `035191` | Inteligentný nástenný vypínač scén Sonoff R5 | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `035194` | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | Skladom | 5 | 16.10.2026 |
 | `033374` | Habotest HT641B Digitálny laserový pyrometer | Skladom | 223 | 29.09.2026 |
@@ -168,7 +168,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `036334` | Montážna konzola na lištu DIN Sonoff DR | Dostupné od 03.11.2026 | null | 03.11.2026 |
 | `036280` | Ultrazvukový čistič pokožky ANLAN ALCPJ07-02 (biely) | Skladom | 115 | 16.10.2026 |
 | `037026` | Ambientné svetlo Yeelight Candela | Dostupné od 16.10.2026 | null | 16.10.2026 |
-| `036062` | UV baterka Superfire Z01, 365NM, USB | Skladom | 816 | 26.11.2026 |
+| `036062` | UV baterka Superfire Z01, 365NM, USB | Skladom | 814 | 26.11.2026 |
 | `036073` | Čelovka Superfire HL58 – 350 lm, USB, 3 režimy, 200 m | Skladom | 158 | 03.12.2026 |
 | `036077` | Čelovka Superfire HL23 – 220 lm, USB-C, powerbanka | Skladom | 267 | 26.11.2026 |
 | `037394` | Pristávacia podložka Sunnylife pre drony 50 cm geografi | Skladom | 147 | 10.11.2026 |
@@ -198,12 +198,12 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 1155 | 27.10.2026 |
 | `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 2068 | 27.10.2026 |
 | `041280` | Detektor úniku plynu Habotest HT59 | Skladom | 1074 | 29.09.2026 |
-| `041281` | Detektor úniku plynu Habotest HT60 | Skladom | 502 | 29.09.2026 |
+| `041281` | Detektor úniku plynu Habotest HT60 | Skladom | 501 | 29.09.2026 |
 | `041284` | Merač teploty a vlhkosti Habotest HT607 | Dostupné od 29.09.2026 | null | 29.09.2026 |
 | `041285` | Digitálny merač svetla Habotest HT603 | Skladom | 31 | 29.09.2026 |
 | `041286` | Merač hladiny zvuku Habotest HT602B | Skladom | 142 | 27.10.2026 |
 | `041287` | Digitálny anemometer Habotest HT605 | Skladom | 64 | 29.09.2026 |
-| `040244` | Elektrický otočný stojan Puluz 30 cm USB (čierny) | Skladom | 282 | 03.11.2026 |
+| `040244` | Elektrický otočný stojan Puluz 30 cm USB (čierny) | Skladom | 281 | 03.11.2026 |
 | `040245` | Elektrický otočný stôl Puluz 30 cm USB (biely) | Skladom | 406 | 27.10.2026 |
 | `041706` | Fotopasca Puluz so selfie tyčou pre športové kamery (DJ | Skladom | 112 | 18.11.2026 |
 | `038160` | Solárna lampa Superfire FF10-B | Skladom | 169 | 26.11.2026 |
@@ -224,7 +224,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `044363` | Kapsulový kávovar 5 v 1 HiBREW H2B (biely) | Skladom | 23 | 13.10.2026 |
 | `045428` | Slúchadlá Oneodio Pro30 (strieborné) | Skladom | 238 | 20.10.2026 |
 | `045426` | Slúchadlá Oneodio Pro10 (modré) | Skladom | 120 | 20.10.2026 |
-| `044652` | Vysielač/prijímač Bluetooth 5.2 BlitzMax BT05, aptX | Skladom | 267 | 16.10.2026 |
+| `044652` | Vysielač/prijímač Bluetooth 5.2 BlitzMax BT05, aptX | Skladom | 266 | 16.10.2026 |
 | `046683` | Vodotesné puzdro pre relé Sonoff IP66 | Skladom | 1592 | 23.10.2026 |
 | `041475` | Schodík pred mačaciu toaletu Catlink Scooper (sivé) | Skladom | 419 | 28.09.2026 |
 | `089096` | Inteligentný vypínač svetla WiFi Avatto TS02-EU-B1 1 Wa | Skladom | 67 | 03.11.2026 |
@@ -287,14 +287,14 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `057843` | Dynamický mikrofon Maono PD200x (bílý) | Skladom | 3 | 06.10.2026 |
 | `057844` | Herní mikrofon Maono DM30RGB (černý) | Skladom | 238 | 06.10.2026 |
 | `057845` | Herní mikrofon Maono DM30RGB (bílý) | Skladom | 162 | 06.10.2026 |
-| `057846` | Herní mikrofon Maono DGM20 (černý) | Skladom | 199 | 06.10.2026 |
+| `057846` | Herní mikrofon Maono DGM20 (černý) | Skladom | 198 | 06.10.2026 |
 | `057847` | Herní mikrofon Maono DGM20 S (černý) | Skladom | 451 | 06.10.2026 |
 | `057849` | Zvukový mixér a zvuková karta AMC2 Neo | Skladom | 77 | 06.10.2026 |
 | `035793` | Inteligentný dávkovač krmiva Petoneer NutriSpin | Skladom | 162 | 16.10.2026 |
 | `058437` | Prenosný monitor Arzopa A1 MAX 17,3" | Skladom | 244 | 03.11.2026 |
 | `058406` | Pomalý odšťavovač AMZCHEF 1501-GA (Grey) | Skladom | 2 | 29.09.2026 |
 | `058410` | Indukčná varná doska AMZCHEF CB16-BK | Dostupné od 27.10.2026 | null | 27.10.2026 |
-| `055617` | Inteligentný ZigBee LCD senzor teploty a vlhkosti Sonof | Skladom | 241 | 23.10.2026 |
+| `055617` | Inteligentný ZigBee LCD senzor teploty a vlhkosti Sonof | Skladom | 234 | 23.10.2026 |
 | `055655` | Vodotesné puzdro Sonoff R2 BOX | Skladom | 116 | 23.10.2026 |
 | `058814` | Počítačová skriňa Darkflash DS900 (čierna) + 7 ventilát | Skladom | 737 | 17.11.2026 |
 | `058841` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | Skladom | 1 | 27.10.2026 |
@@ -311,7 +311,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `057924` | Inteligentný nástenný vypínač WiFi Sonoff NSPanel (biel | Skladom | 224 | 27.10.2026 |
 | `057627` | Nabíjačka SkyRC D100neo | Skladom | 314 | 16.10.2026 |
 | `057927` | Inteligentný prepínač WiFi Sonoff S-MATE2 (bez neutrálu | Dostupné od 23.10.2026 | null | 23.10.2026 |
-| `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | Skladom | 47 | 23.10.2026 |
+| `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | Skladom | 45 | 23.10.2026 |
 | `059381` | Snímač prítomnosti človeka ZigBee Sonoff SNZB-06P | Skladom | 1098 | 23.10.2026 |
 | `057602` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | Skladom | 182 | 03.11.2026 |
 | `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | Dostupné od 29.09.2026 | null | 29.09.2026 |
