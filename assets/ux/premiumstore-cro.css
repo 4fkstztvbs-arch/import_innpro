@@ -1822,10 +1822,10 @@ body.search-window-visible #header.ps-compact-header .search-form {
 /* Leave room for the search icon inside the input. */
 #header.ps-compact-header .search-input { padding-left: 44px !important; }
 
-/* Mobile keeps the original icon-triggered search panel. */
-@media (max-width: 767px) {
-  #header.ps-compact-header .navigation-buttons > a[data-target="search"] { display: inline-flex !important; }
-  #header.ps-compact-header .header-top-wrapper > .search { display: none !important; }
+/* Mobile and tablet keep the original icon-triggered search panel. */
+@media (max-width: 991px) {
+  body #header.ps-compact-header .navigation-buttons > a[data-target="search"] { display: inline-flex !important; }
+  body:not(.search-window-visible) #header.ps-compact-header .header-top-wrapper > .search { display: none !important; }
   body.search-window-visible #header.ps-compact-header .header-top-wrapper > .search {
     position: static !important; display: block !important; flex: 0 0 100% !important;
     min-width: 0 !important; width: 100% !important; max-width: none !important;
