@@ -12,16 +12,72 @@
       "quantity": 1,
       "activatedAt": "2026-09-25T12:35:24.000Z",
       "appliedOrderIds": []
+    },
+    "065094": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "085718": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "079284": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "065095": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "087519": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "LEC-KM0292": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "083111": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "025661": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "038728": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "065108": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
+    },
+    "072034": {
+      "quantity": 1,
+      "activatedAt": "2026-09-25T18:02:53.000Z",
+      "appliedOrderIds": []
     }
   },
   "mail": {
     "uidValidity": "1",
-    "lastUid": 57700,
+    "lastUid": 57709,
     "activationAfter": "2026-09-25T00:00:00.000Z",
     "processedMessageKeys": [
       "message-id:<el.8kqqp.3g{nysanwzg.1gjcgb@seznam.cz>",
       "message-id:<fv.8kqtt.4hm2d49txwj.1gjczu@seznam.cz>",
-      "message-id:<nq.8kqs1.4odwfhrab}s.1gjhku@seznam.cz>"
+      "message-id:<nq.8kqs1.4odwfhrab}s.1gjhku@seznam.cz>",
+      "message-id:<na.8kqs}.4j{phldzfyx.1gjhtc@seznam.cz>"
     ]
   },
   "ignoredMail": [
