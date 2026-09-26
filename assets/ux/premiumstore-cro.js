@@ -606,8 +606,13 @@
     var search = top && top.querySelector('.search');
     var buttons = top && top.querySelector('.navigation-buttons');
     if (!top || !bottom || !catalog || !search || !buttons) return;
-    var searchInput = search.querySelector('.search-input');
-    if (searchInput) searchInput.placeholder = 'Čo hľadáte? Skúste značku, produkt alebo kód…';
+    var searchPlaceholder = 'Čo hľadáte? Skúste značku, produkt alebo kód…';
+    function applySearchPlaceholder() {
+      var searchInput = search.querySelector('.search-input');
+      if (searchInput && searchInput.placeholder !== searchPlaceholder) searchInput.placeholder = searchPlaceholder;
+    }
+    applySearchPlaceholder();
+    new MutationObserver(applySearchPlaceholder).observe(search, { attributes: true, attributeFilter: ['placeholder'], childList: true, subtree: true });
     var login = buttons.querySelector('.top-nav-button-login');
     if (login && !login.getAttribute('aria-label')) login.setAttribute('aria-label', 'Prihlásenie');
     var phone = document.createElement('a');
