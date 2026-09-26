@@ -1818,3 +1818,6 @@ body.search-window-visible #header.ps-compact-header .search-form {
   #header.ps-compact-header .header-top-wrapper > .search { order: 2 !important; flex: 1 1 300px !important; min-width: 190px !important; }
   #header.ps-compact-header .navigation-buttons { order: 3 !important; margin-left: 0 !important; flex: 0 0 auto !important; }
 }
+
+/* Leave room for the search icon inside the input. */
+#header.ps-compact-header .search-input { padding-left: 44px !important; }
