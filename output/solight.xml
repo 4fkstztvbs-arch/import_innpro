@@ -298,9 +298,9 @@ LED sviečky sú vybavené tromi režimami – zapnuté, vypnuté a časovač, k
 <CODE>1V313</CODE>
 <EAN>8592718049911</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -3400,9 +3400,9 @@ Ovládanie reťaze je veľmi pohodlné – môžete využiť diaľkový ovláda�
 <CODE>1V08-RGB</CODE>
 <EAN>8592718025304</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -5227,9 +5227,9 @@ Svetelný reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete 
 </STOCK>
 <EAN>8592718018658</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -5815,9 +5815,9 @@ Svetelný reťaz je navrhnutý s dôrazom na praktickosť – prívodný kábel 
 </STOCK>
 <EAN>8592718037925</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -6227,7 +6227,7 @@ Zaistí stabilný príjem HD vysielania aj vo väčšej vzdialenosti od vysiela�
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.54</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>45.50</PRICE_VAT>
+<PRICE_VAT>49.50</PRICE_VAT>
 <PURCHASE_PRICE>26.89</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -7051,7 +7051,7 @@ Táto LED žiarovka je vyrobená z kvalitného hliníka a PVC, čo zaisťuje jej
     <VALUE><![CDATA[F]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 23.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -7061,7 +7061,7 @@ Táto LED žiarovka je vyrobená z kvalitného hliníka a PVC, čo zaisťuje jej
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED žiarovka, sviečka, 6W, E14, 3000K, 510lm | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED žiarovka, sviečka, 6W, E14, 3000K, 510lm – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED žiarovka, sviečka, 6W, E14, 3000K, 510lm – dostupné od 23.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight USB-C 240W kábel s integrovaným stojanom]]></NAME>
@@ -7627,9 +7627,9 @@ Lucerna je napájaná tromi AAA batériami, ktoré zabezpečia prevádzku až na
 </STOCK>
 <EAN>8592718027285</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -7693,9 +7693,9 @@ Osvetlenie je napájané dvoma AA batériami, ktoré nie sú súčasťou balenia
 <CODE>1V233</CODE>
 <EAN>8592718027292</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -9198,9 +9198,9 @@ Napájanie pomocou 2 x AA batérií zabezpečuje maximálnu flexibilitu bez nutn
 </STOCK>
 <EAN>8592718027308</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -11665,9 +11665,9 @@ LED vianočný stromček je napájaný dvoma AA batériami, ktoré nie sú súč
 </STOCK>
 <EAN>8592718023102</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -12539,9 +12539,9 @@ Svetelný reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete 
 <CODE>1V101-WW</CODE>
 <EAN>8592718020507</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -12701,7 +12701,7 @@ Zapojiť a pracovať alebo streamovať bez výpadkov.
 <SHORT_DESCRIPTION><![CDATA[GSM zásuvka na diaľkové ovládanie Táto GSM zásuvka na diaľkové ovládanie umožňuje jednoduché ovládanie pomocou SMS príkazov a aplikácie. Má teplotný senzor na monitorovanie teploty a funkciu…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>GSM zásuvka na diaľkové ovládanie</b><br>Táto GSM zásuvka na diaľkové ovládanie umožňuje jednoduché ovládanie pomocou SMS príkazov a aplikácie. Má teplotný senzor na monitorovanie teploty a funkciu teplotného alarmu pri prekročení nastavených limitov. Možno nastaviť kalendár na pravidelné spúšťanie a pripojiť až 4 prídavné zásuvky DY10S. Podporuje manuálne zapnutie a vypnutie, má LED indikáciu a detskú poistku. Maximálne zaťaženie je 3600W (AC 230V/16A) a pracovná teplota sa pohybuje od -10°C do +50°C. Farba: biela.</p>
 <UL>
-<LI>GSM 4G diaľkovo ovládaná zásuvka</LI>
+<LI>4G LTE diaľkovo ovládaná zásuvka</LI>
 <LI>jednoduché ovládanie pomocou SMS príkazov</LI>
 <LI>rýchla a jednoduchá inštalácia</LI>
 <LI>zapínanie a vypínanie na diaľku</LI>
@@ -12882,9 +12882,9 @@ Napájanie stromčeka zabezpečujú dve AA batérie (nie sú súčasťou balenia
 </STOCK>
 <EAN>8592718023119</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -12955,9 +12955,9 @@ Osvetlenie ponúka 8 rôznych svetelných módov, medzi ktorými si môžete vyb
 <CODE>1V101-W</CODE>
 <EAN>8592718020514</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -13157,9 +13157,9 @@ Užite si osem rôznych svetelných efektov, medzi ktoré patrí napríklad blik
 <CODE>1V101-M</CODE>
 <EAN>8592718020521</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -13377,9 +13377,9 @@ Napájanie zabezpečujú 3 x AA batérie, ktoré umožňujú umiestniť reťaz k
 </STOCK>
 <EAN>8592718011857</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -13546,9 +13546,9 @@ Reťaz ponúka 8 rôznych svetelných módov, vrátane blikania, prelínania sve
 </STOCK>
 <EAN>8592718025359</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -13697,9 +13697,9 @@ Vyberte si z ôsmich rôznych svetelných módov, ako je blikanie, prelínanie s
 </STOCK>
 <EAN>8592718025366</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -14098,9 +14098,9 @@ LED reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete naprí
 <CODE>1V04-M</CODE>
 <EAN>8592718025380</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -14521,9 +14521,9 @@ Napájanie zabezpečujú dve AA batérie, ktoré umožňujú prevádzku reťaze 
 </STOCK>
 <EAN>8592718014605</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -14837,9 +14837,9 @@ Reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete napríklad
 <CODE>1V04-W</CODE>
 <EAN>8592718017330</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -16527,9 +16527,9 @@ Osvetlenie ponúka 8 nastaviteľných módov svietenia a blikania, ktoré možno
 <CODE>1V40-WW</CODE>
 <EAN>8592718023126</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -17250,9 +17250,9 @@ LED reťaz je napájaná dvoma AA batériami, ktoré nie sú súčasťou balenia
 </STOCK>
 <EAN>8592718023003</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -17418,7 +17418,7 @@ Tento LED pásik ponúka možnosť prepínania medzi 15 farbami a 4 farebnými e
     <VALUE><![CDATA[IP20]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 5.10.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -17428,7 +17428,7 @@ Tento LED pásik ponúka možnosť prepínania medzi 15 farbami a 4 farebnými e
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED svetelný pás, RGB, 3m, sada s 12V… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED svetelný pás, RGB, 3m, sada s 12V adaptérom a DO, 7,2W/m, IP20 – dostupné od 30.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED svetelný pás, RGB, 3m, sada s 12V adaptérom a DO, 7,2W/m, IP20 – dostupné od 5.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight zástrčka gumová do vlhka a prachu, priama, IP65, čierna]]></NAME>
@@ -17525,9 +17525,9 @@ Napájanie zabezpečujú dve AA batérie, ktoré nie sú súčasťou balenia, a 
 </STOCK>
 <EAN>8592718023027</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -17946,9 +17946,9 @@ Svietnik je vybavený časovačom 6 h/18 h, ktorý umožňuje automatické zapnu
 <CODE>1V222</CODE>
 <EAN>8592718025243</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -18313,7 +18313,7 @@ Prístroj zvládne maximálne zaťaženie až 3680 W (16 A pri 230 V~) a reaguje
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 22.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -18323,7 +18323,7 @@ Prístroj zvládne maximálne zaťaženie až 3680 W (16 A pri 230 V~) a reaguje
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight prepäťová ochrana do zásuvky, 236J, 1… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight prepäťová ochrana do zásuvky, 236J, 1 zásuvka, kontrolka – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight prepäťová ochrana do zásuvky, 236J, 1 zásuvka, kontrolka – dostupné od 22.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED reflektor PRO, 50W, 4600lm, 5000K, IP65]]></NAME>
@@ -18436,9 +18436,9 @@ Ovládanie reťazca je veľmi pohodlné – môžete využiť diaľkový ovláda
 <CODE>1V09-RGB</CODE>
 <EAN>8592718025311</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -19139,9 +19139,9 @@ LED reťaz je vhodný na vonkajšie aj vnútorné použitie vďaka stupňu kryti
 </STOCK>
 <EAN>8592718018665</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -19731,7 +19731,7 @@ Svietidlo s príkonom 24 W poskytuje svetelný tok 2280 lm v neutrálnej bielej 
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.54</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>40.50</PRICE_VAT>
+<PRICE_VAT>47.00</PRICE_VAT>
 <PURCHASE_PRICE>25.54</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -21401,9 +21401,9 @@ LED reťaz je určený na vnútorné použitie (stupeň krytia IP20) a vďaka na
 </STOCK>
 <EAN>8592718027315</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -22644,9 +22644,9 @@ LED reťaz je určený výhradne na vnútorné použitie, čo zabezpečuje stupe
 </STOCK>
 <EAN>8592718029920</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -23613,9 +23613,9 @@ Girlanda ponúka 8 nastaviteľných módov svietenia a blikania, ktoré ľahko p
 <CODE>1v403-CW</CODE>
 <EAN>8592718049737</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -24853,9 +24853,9 @@ Vyberte si z ôsmich rôznych svetelných módov, ako je blikanie, prelínanie s
 <CODE>1V102-WW</CODE>
 <EAN>8592718020538</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -25005,9 +25005,9 @@ Napájanie zabezpečujú 3 x AA batérie, čo umožňuje jednoduché umiestnenie
 </STOCK>
 <EAN>8592718011864</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -25484,9 +25484,9 @@ LED reťaz je navrhnutý na vnútorné aj vonkajšie použitie, čo zaisťuje st
 </STOCK>
 <EAN>8592718025373</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -25924,9 +25924,9 @@ LED reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete naprí
 <CODE>1V05-M</CODE>
 <EAN>8592718025397</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -26105,9 +26105,9 @@ Osvetlenie ponúka 8 rôznych svetelných módov, medzi ktorými nájdete naprí
 <CODE>1V04-WW</CODE>
 <EAN>8592718017347</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -27067,63 +27067,6 @@ S naklápacím TV držiakom si užijete obraz vždy v špičkovej kvalite.</p>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight malý naklápací držiak pre ploché TV, 26cm -… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Solight malý naklápací držiak pre ploché TV, 26cm - 69cm (10'' - 27'') – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Solight profesionálný laserový merač vzdálenosti, 0,05 - 80m]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Profesionálny laserový merač vzdialenosti Laserový merač vzdialenosti – presné meranie až do 80 m. Profesionálny laserový diaľkomer umožňuje meranie vzdialenosti, plochy, objemu a výpočet dĺžok…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>Profesionálny laserový merač vzdialenosti</b><br>Laserový merač vzdialenosti – presné meranie až do 80 m.
-Profesionálny laserový diaľkomer umožňuje meranie vzdialenosti, plochy, objemu a výpočet dĺžok pomocou Pytagorovej vety. Ponúka vysokú presnosť ±1,5 mm a rozsah merania 0,05 – 80 m. Disponuje podsvieteným displejom, horizontálnou aj vertikálnou vodováhou, pamäťou pre 20 posledných meraní a automatickým vypnutím. Vďaka širokému teplotnému rozsahu (-10 až 50 °C) je ideálny na použitie v rôznych podmienkach. Napájanie 2× AAA batériami.</p>
-<UL>
-<LI>meranie vzdialenosti, výpočet plochy, objemu a meranie pomocou Pytagorovej vety (výpočet dĺžky tretej strany z dvoch známych dĺžok strán)</LI>
-<LI>rozsah merania vzdialenosti: 0,05–80 m</LI>
-<LI>jednotky: m, ft, in</LI>
-<LI>trieda lasera: II, menej než 1 mW</LI>
-<LI>typ lasera: 635 nm</LI>
-<LI>presnosť merania: ±1,5 mm</LI>
-<LI>rozlíšenie: 1 mm</LI>
-<LI>teplotný rozsah použitia: –10 až +50 °C</LI>
-<LI>podsvietenie displeja</LI>
-<LI>horizontálna a vertikálna vodováha</LI>
-<LI>pamäť pre 20 posledných meraní</LI>
-<LI>automatické vypnutie</LI>
-<LI>indikátor vybitej batérie</LI>
-<LI>batérie: 2 × 1,5 V AAA</LI>
-<LI>rozmery: 125 × 58 × 30 mm</LI>
-</UL><p><a href="https://www.solight.sk/documents/dm80_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/dm80_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/dm80_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/dm80_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/meracie-technika/">Meracia technika</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>DM80</CODE>
-<EAN>8592718023409</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Solight profesionálný laserový merač vzdálenosti, 0,05 - 80m - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dm80.jpg?v2</IMAGE>
-  <IMAGE description="Solight profesionálný laserový merač vzdálenosti, 0,05 - 80m - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dm80_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight profesionálný laserový merač vzdálenosti, 0,05 - 80m - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dm80_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight profesionálný laserový merač vzdálenosti, 0,05 - 80m - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dm80_a.jpg?v2</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba lasera]]></NAME>
-    <VALUE><![CDATA[Červená]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>18.50</PRICE_VAT>
-<PURCHASE_PRICE>12.80</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Solight profesionálný laserový merač vzdálenosti,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight profesionálný laserový merač vzdálenosti, 0,05 - 80m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight vypínač Slim č. 6 striedavý - schodiskový, biely]]></NAME>
@@ -28105,9 +28048,9 @@ Dekorácia je napájaná dvoma AAA batériami, ktoré nie sú súčasťou baleni
 </STOCK>
 <EAN>8592718025250</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -28673,9 +28616,9 @@ Osvetlenie ponúka 8 rôznych svetelných módov, medzi ktorými nájdete naprí
 <CODE>1V06-WW</CODE>
 <EAN>8592718018672</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -30020,7 +29963,7 @@ Táto LED žiarovka s tradičným tvarom je ideálnou voľbou pre bežné osvetl
     <VALUE><![CDATA[E27]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 23.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -30030,7 +29973,7 @@ Táto LED žiarovka s tradičným tvarom je ideálnou voľbou pre bežné osvetl
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED žiarovka, klasický tvar, 10W, E27,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED žiarovka, klasický tvar, 10W, E27, 3000K, 270°, 1100lm – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED žiarovka, klasický tvar, 10W, E27, 3000K, 270°, 1100lm – dostupné od 23.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Vianočná mikro LED reťaz Solight 1V54-WW, 10 m, teplá biela, 100 mini LED, 3 × AA, medený drôt]]></NAME>
@@ -30068,9 +30011,9 @@ LED reťaz je napájaný tromi AA batériami, ktoré nie sú súčasťou balenia
 </STOCK>
 <EAN>8592718027322</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -31061,9 +31004,9 @@ počet LED diód: 576 reťaz Cluster (ježko) disponuje diódami umiestnenými v
 <CODE>1V11-W</CODE>
 <EAN>8592718030001</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -31889,9 +31832,9 @@ Girlanda ponúka 8 nastaviteľných módov svietenia a blikania, ktoré možno �
 <CODE>1v403-WW</CODE>
 <EAN>8592718049744</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -32559,9 +32502,9 @@ Svetelný reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete 
 <CODE>1V102-W</CODE>
 <EAN>8592718020545</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -32870,9 +32813,9 @@ Vyberte si z ôsmich rôznych svetelných módov, ako je blikanie, prelínanie s
 <CODE>1V05-W</CODE>
 <EAN>8592718017354</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -34182,9 +34125,9 @@ Vyberte si z ôsmich rôznych svetelných módov, ako je blikanie, prelínanie s
 <CODE>1V06-W</CODE>
 <EAN>8592718018689</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -35186,7 +35129,12 @@ Inštaluje sa do otvoru 50 mm v pracovnej doske. Modul je napájaný sieťovým 
 <UNIT>ks</UNIT>
 <CODE>V50</CODE>
 <EAN>8592718027186</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, max. AC 600V/600A, max. DC 600V, test diódy, bzučiak, odpor, teplota - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v50.jpg?v2</IMAGE>
@@ -35498,9 +35446,9 @@ Ovládanie závesu je veľmi jednoduché – po zapnutí sa automaticky aktivuje
 <CODE>1V10</CODE>
 <EAN>8592718027339</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -36477,9 +36425,9 @@ LED vonkajšie snehuliak veľký počet LED diód: 40 farba svetla: teplá biela
 <CODE>1V241</CODE>
 <EAN>8592718031749</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -37379,9 +37327,9 @@ Reťaz je napájaný dvoma AA batériami, ktoré nie sú súčasťou balenia, a 
 </STOCK>
 <EAN>8592718037260</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -37719,9 +37667,9 @@ Svetelný reťaz je navrhnutý na vnútorné aj vonkajšie použitie, čo umož�
 <CODE>1V102-M</CODE>
 <EAN>8592718020552</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -37790,9 +37738,9 @@ Záves je vybavený praktickým časovačom 6 h/18 h, ktorý po 6 hodinách prev
 <CODE>1V227</CODE>
 <EAN>8592718025328</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -38233,9 +38181,9 @@ Osvetlenie ponúka 8 rôznych svetelných módov, vrátane blikania, prelínania
 <CODE>1V05-WW</CODE>
 <EAN>8592718017361</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -38831,9 +38779,9 @@ Osvetlenie ponúka 8 rôznych svetelných módov, medzi ktorými nájdete naprí
 <CODE>1V07-WW</CODE>
 <EAN>8592718018696</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -40239,7 +40187,7 @@ LED žiarovka je navrhnutá s dôrazom na dlhú životnosť a spoľahlivosť –
     <VALUE><![CDATA[Bodová]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 23.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
@@ -40249,7 +40197,7 @@ LED žiarovka je navrhnutá s dôrazom na dlhú životnosť a spoľahlivosť –
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED žiarovka, bodová , 7W, GU10, 3000K,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED žiarovka, bodová , 7W, GU10, 3000K, 595lm, biela – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED žiarovka, bodová , 7W, GU10, 3000K, 595lm, biela – dostupné od 23.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED mini panel CCT, prisazený, 18W, 1530lm, 3000K, 4000K, 6000K, štvorcový]]></NAME>
@@ -40664,9 +40612,9 @@ LED reťazec ponúka 8 svetelných módov, vrátane blikania, prelínania svetla
 <CODE>1V11-M</CODE>
 <EAN>8592718030025</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -41004,9 +40952,9 @@ Osvetlenie je vybavené časovačom 6h/18h, ktorý po 6 hodinách prevádzky aut
 <CODE>1V227-4</CODE>
 <EAN>8592718031732</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -41786,9 +41734,9 @@ Reťaz je napájaný dvoma AA batériami, ktoré nie sú súčasťou balenia, a 
 </STOCK>
 <EAN>8592718037277</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -42074,9 +42022,9 @@ Osvetlenie ponúka 8 rôznych svetelných módov, medzi ktorými nájdete naprí
 </STOCK>
 <EAN>8592718020569</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -42432,27 +42380,19 @@ Užite si viac priestoru a dokonale upravený interiér - s konzolovým televíz
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
     <NAME><![CDATA[VESA]]></NAME>
-    <VALUE><![CDATA[200x100]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[VESA]]></NAME>
-    <VALUE><![CDATA[400x200]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ držiaku]]></NAME>
-    <VALUE><![CDATA[Konzolový]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Uhlopriečka TV (cm)]]></NAME>
-    <VALUE><![CDATA[58-140]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[VESA]]></NAME>
     <VALUE><![CDATA[200x200]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Káblový manažment]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[VESA]]></NAME>
     <VALUE><![CDATA[400x300]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[VESA]]></NAME>
+    <VALUE><![CDATA[200x100]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Uhlopriečka TV (palce)]]></NAME>
@@ -42464,19 +42404,35 @@ Užite si viac priestoru a dokonale upravený interiér - s konzolovým televíz
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[VESA]]></NAME>
-    <VALUE><![CDATA[400x400]]></VALUE>
+    <VALUE><![CDATA[75x75]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[VESA]]></NAME>
-    <VALUE><![CDATA[75x75]]></VALUE>
+    <VALUE><![CDATA[400x200]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ držiaku]]></NAME>
+    <VALUE><![CDATA[Konzolový]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[VESA]]></NAME>
+    <VALUE><![CDATA[300x300]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[VESA]]></NAME>
     <VALUE><![CDATA[200x400]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Káblový manažment]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
+    <NAME><![CDATA[Max.profil od steny (mm)]]></NAME>
+    <VALUE><![CDATA[408]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[VESA]]></NAME>
+    <VALUE><![CDATA[400x400]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uhlopriečka TV (cm)]]></NAME>
+    <VALUE><![CDATA[58-140]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Min. profil od steny (mm)]]></NAME>
@@ -42485,14 +42441,6 @@ Užite si viac priestoru a dokonale upravený interiér - s konzolovým televíz
   <TEXT_PROPERTY>
     <NAME><![CDATA[VESA]]></NAME>
     <VALUE><![CDATA[100x100]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[VESA]]></NAME>
-    <VALUE><![CDATA[300x300]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Max.profil od steny (mm)]]></NAME>
-    <VALUE><![CDATA[408]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
@@ -42715,9 +42663,9 @@ Napájanie zabezpečujú 2× AA batérie, ktoré nie sú súčasťou balenia, al
 </STOCK>
 <EAN>8592718023096</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -43310,9 +43258,9 @@ Reťaz ponúka 8 rôznych svetelných módov, medzi ktorými si ľahko vyberiete
 <CODE>1V07-W</CODE>
 <EAN>8592718018702</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -45484,9 +45432,9 @@ LED reťaz ponúka jednoduché ovládanie s možnosťou zapnutia a vypnutia, tak
 </STOCK>
 <EAN>8592718037284</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -46127,9 +46075,9 @@ Girlanda je vybavená praktickým časovačom 6 h/18 h, ktorý umožňuje automa
 <CODE>1V300</CODE>
 <EAN>8592718049706</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -47150,9 +47098,9 @@ Použitie predlžovacieho kábla je veľmi jednoduché – stačí ho zapojiť m
 </STOCK>
 <EAN>8592718030049</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -47462,9 +47410,9 @@ Kalendár je napájaný dvoma AAA batériami, ktoré nie sú súčasťou balenia
 <CODE>1V244</CODE>
 <EAN>8592718031770</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -47946,32 +47894,20 @@ Navrhnuté pre zaťaženie do 3680 W, t.j. 16 A pri 230 V~. Montáž je jednoduc
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Prierez (mm2)]]></NAME>
-    <VALUE><![CDATA[1.5]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
     <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
     <VALUE><![CDATA[IP20]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uzemnený]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Počet zásuviek]]></NAME>
     <VALUE><![CDATA[3]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[Strieborná]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
-    <VALUE><![CDATA[Vstavaná zásuvka]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Dĺžka (m)]]></NAME>
-    <VALUE><![CDATA[2]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[USB nabíjanie]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
+    <NAME><![CDATA[Napätie (V)]]></NAME>
+    <VALUE><![CDATA[230 V]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Vypínač]]></NAME>
@@ -47982,15 +47918,27 @@ Navrhnuté pre zaťaženie do 3680 W, t.j. 16 A pri 230 V~. Montáž je jednoduc
     <VALUE><![CDATA[3680]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Napätie (V)]]></NAME>
-    <VALUE><![CDATA[230 V]]></VALUE>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[Strieborná]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Uzemnený]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
+    <NAME><![CDATA[Dĺžka (m)]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
+    <VALUE><![CDATA[Vstavaná zásuvka]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Bezdrôtové nabíjanie]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Prierez (mm2)]]></NAME>
+    <VALUE><![CDATA[1.5]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[USB nabíjanie]]></NAME>
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
@@ -48104,9 +48052,9 @@ LED sviečky sú vybavené jednoduchým ovládaním s možnosťou zapnutia, vypn
 <CODE>1V284</CODE>
 <EAN>8592718042509</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -48176,9 +48124,9 @@ Napájanie zabezpečujú dve bežné AA batérie, ktoré nie sú súčasťou bal
 </STOCK>
 <EAN>8592718037291</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -49081,9 +49029,9 @@ Girlanda ponúka 8 nastaviteľných módov svietenia a blikania, ktoré je možn
 <CODE>1v402-CW</CODE>
 <EAN>8592718049713</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -49775,7 +49723,11 @@ Tradičné biele prevedenie s klasickým vzhľadom sa hodí do každej domácnos
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718033101</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>2838</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight WIFI zásuvka s meraním spotreby - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dty01wifi.jpg?v2</IMAGE>
@@ -50380,50 +50332,6 @@ Reflektor je vybavený pohybovým senzorom s detekčným uhlom 120° a dosahom a
 <META_DESCRIPTION><![CDATA[Solight elektrický sušiak uterákov 130W – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Konektor pre COB LED pásy 8 mm – jednoduché prepojenie s napájaním Tento konektor je určený na rýchle a bezpečné pripojenie COB LED pásov so šírkou 8 mm. Na jednej strane je vybavený konektorom,…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>Konektor pre COB LED pásy 8 mm – jednoduché prepojenie s napájaním</b><br>
-Tento konektor je určený na rýchle a bezpečné pripojenie COB LED pásov so šírkou 8 mm. Na jednej strane je vybavený konektorom, ktorý umožňuje jednoduché a pevné spojenie s LED pásom bez nutnosti spájkovania. Druhá strana je opatrená vodičmi, ktoré slúžia na pripojenie k napájaciemu zdroju, čo zabezpečuje spoľahlivý prenos energie a stabilnú prevádzku osvetlenia. Vďaka tomuto riešeniu je inštalácia LED pásikov výrazne jednoduchšia a zvládne ju aj menej skúsený používateľ.</p>
-<p><b>Praktické balenie a univerzálne využitie</b><br>
-Konektor je dodávaný v praktickom balení po 1 kuse v sáčku, čo umožňuje jednoduché skladovanie aj manipuláciu pri montáži. Je ideálnou voľbou pre domáce aj profesionálne inštalácie, kde je potrebné rýchlo a efektívne prepojiť COB LED pásy s napájacím zdrojom. Tento konektor šetrí čas, zvyšuje bezpečnosť a prispieva k dlhej životnosti celého LED systému.</p>
-<UL>
-<LI>prepojovací konektor pre COB LED pásy 8mm</LI>
-<LI>na jednej strane konektor, na druhej strane vodiče pre pripojenie na napájací zdroj</LI>
-<LI>balenie: sáčok 1ks</LI>
-</UL><p><a href="https://www.solight.sk/documents/wm91_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/led-pasiky/">LED pásiky a príslušenstvo</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>WM91</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>9</MINIMAL_AMOUNT>
-</STOCK>
-<EAN>8592718031329</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED pásiky a príslušenstvo]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm91.jpg?v2</IMAGE>
-</IMAGES>
-<AVAILABILITY><![CDATA[Dostupné od 10.10.2026]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>1.30</PRICE_VAT>
-<PURCHASE_PRICE>0.78</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Solight napájací konektor pre COB LED pásy,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok – dostupné od 10.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod - na bubne, 4 zásuvky, 25m kábel guma-neoprén, 3x 2,5mm2, IP44]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Spoľahlivý pomocník pre náročné profesie 25 m predlžovací kábel s robustnou konštrukciou navijaka a cievkou z odolného plastu. Vodiace oko zabezpečuje plynulé navinutie kábla a šetrí tak čas aj…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>Spoľahlivý pomocník pre náročné profesie</b><br>
@@ -50957,9 +50865,9 @@ Sviečky ponúkajú jednoduché ovládanie s možnosťou zapnutia, vypnutia aleb
 <CODE>1V285</CODE>
 <EAN>8592718042516</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -51099,9 +51007,9 @@ Betlehem ponúka tri režimy – zapnuté, vypnuté a časovač, ktorý umožňu
 <CODE>1V275</CODE>
 <EAN>8592718037307</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -52014,9 +51922,9 @@ Girlanda ponúka 8 nastaviteľných módov svietenia a blikania, ktoré možno �
 <CODE>1v402-WW</CODE>
 <EAN>8592718049720</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -53250,106 +53158,6 @@ Zásuvka je vybavená detskou poistkou pre bezpečné používanie. Prívodný k
 <META_DESCRIPTION><![CDATA[Solight 1z + USB-C 20W PD vstavaná zásuvka, 2m, strieborná – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Solight bezdrôtový zvonček a nočné svetielko, do zásuvky, 150m, čierny, learning code]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Bezdrôtový zvonček s výraznou svetelnou signalizáciou Zvonček ponúka nielen klasické zvonenie, ale aj mimoriadne silnú vizuálnu signalizáciu. Vďaka rozmernému LED svetlu o veľkosti 5,5 x 6 cm je…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>Bezdrôtový zvonček s výraznou svetelnou signalizáciou</b><br>
-Zvonček ponúka nielen klasické zvonenie, ale aj mimoriadne silnú vizuálnu signalizáciu. Vďaka rozmernému LED svetlu o veľkosti 5,5 x 6 cm je zvukové upozornenie doplnené o jasné blikanie, ktoré je viditeľné aj na väčšiu vzdialenosť. Ideálne riešenie pre hlučné prevádzky, domácnosti s vyššou hladinou hluku alebo pre osoby so sluchovým postihnutím.</p>
-<p><b>Vizuálne upozornenie aj nočné svetlo</b><br>
-Zvonček ponúka 36 melódií, 4 úrovne hlasitosti a možnosť prepnutia do režimu permanentného nočného svetla. V tomto režime zostáva LED panel zapnutý aj bez zazvonenia a zároveň si zariadenie zachováva funkciu zvončeka. Tým sa zariadenie stáva multifunkčným pomocníkom – orientačným svetlom pre nočné priestory aj spoľahlivým zvončekom v jednom.</p>
-<p><b>Jednoduchý dizajn a široké možnosti využitia</b><br>
-Matné čierne prevedenie s čistými líniami pôsobí decentne a zapadne do akéhokoľvek prostredia – od domácností cez kancelárie až po prevádzky a verejné priestory. Kombinácia silnej svetelnej signalizácie a možnosti trvalého svietenia rozširuje využitie aj pre špecifické potreby, ako sú zdravotnícke zariadenia alebo domácnosti s nedoslýchavými osobami. Výrazná svetelná signalizácia vďaka rozmernému LED svetielku 5,5 x 6 cm rozširuje možnosti použitia. Vhodné na použitie na miestach s vysokou úrovňou hluku, na vizuálnu signalizáciu na veľkú vzdialenosť. Ideálne pre nedoslýchavých a osoby so sluchovým postihnutím. Možno prepnúť do režimu permanentne svietiaceho nočného svetielka s funkciou zvonenia.</p>
-<UL>
-<LI>funkcia „Learning code“ umožňuje spárovanie viacerých zvončekov alebo tlačidiel do jednej skupiny:</LI>
-<LI>k jednému zvončeku môže byť spárovaných max. 8 tlačidiel</LI>
-<LI>jedno tlačidlo môže byť spárované s max. 20 zvončekmi, na každom zvončeku môže byť nastavená iná melódia</LI>
-<LI>64 voliteľných melódií, obojsmerné vyhľadávanie</LI>
-<LI>LED indikátor zvonenia na zvončeku aj tlačidle</LI>
-<LI>tlačidlo s krytom na menovku, vodotesná a prachotesná ochrana IP56</LI>
-<LI>hlasitosť zvončeka: 4 úrovne, 25 - 100 dB(A)</LI>
-<LI>uchytenie tlačidla pomocou samolepiacej podložky alebo montážnych otvorov</LI>
-<LI>farba: čierna</LI>
-<LI>dosah signálu na otvorenom priestranstve: 150 m</LI>
-<LI>prenosová frekvencia: 433,92 MHz</LI>
-<LI>napájanie:</LI>
-<LI>tlačidlo: 1 x 3 V batéria CR2032 (súčasťou balenia)</LI>
-<LI>zvonček: AC 230 V~ – do zásuvky</LI>
-<LI>spotreba energie:</LI>
-<LI>prijímač (zvonček) v kľudovom režime: <0,4 W</LI>
-<LI>vysielač (tlačidlo) v pracovnom režime: <10 mW</LI>
-<LI>pracovná teplota: tlačidlo -20 °C až +50 °C, zvonček -10 °C až +45 °C</LI>
-<LI>náhradné tlačidlo Solight č. 1L69T</LI>
-</UL><p><a href="https://www.solight.sk/documents/1l79b_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/1l79b_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/1l79b_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/1l79b_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>1L79B</CODE>
-<EAN>8592718038502</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>2897</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight bezdrôtový zvonček a nočné svetielko, do zásuvky, 150m, čierny, learning code - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1l79b.jpg?v2</IMAGE>
-  <IMAGE description="Solight bezdrôtový zvonček a nočné svetielko, do zásuvky, 150m, čierny, learning code - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1l79b_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight bezdrôtový zvonček a nočné svetielko, do zásuvky, 150m, čierny, learning code - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1l79b_10.jpg?v2</IMAGE>
-  <IMAGE description="Solight bezdrôtový zvonček a nočné svetielko, do zásuvky, 150m, čierny, learning code - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1l79b_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight bezdrôtový zvonček a nočné svetielko, do zásuvky, 150m, čierny, learning code - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1l79b_3.jpg?v2</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet tlačidiel v balení]]></NAME>
-    <VALUE><![CDATA[1]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet zvončekov v balení]]></NAME>
-    <VALUE><![CDATA[1]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Prídavné (náhradné) tlačidlo]]></NAME>
-    <VALUE><![CDATA[1L69T]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Napájanie zvončeka]]></NAME>
-    <VALUE><![CDATA[Do zásuvky]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Max. hlasitosť zvonenia]]></NAME>
-    <VALUE><![CDATA[100]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia tlačidla]]></NAME>
-    <VALUE><![CDATA[IP56]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Dosah (m)]]></NAME>
-    <VALUE><![CDATA[150]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Napájanie tlačidla]]></NAME>
-    <VALUE><![CDATA[1x CR2032]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[Čierna]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>4.80</PRICE_VAT>
-<PURCHASE_PRICE>3.28</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Solight bezdrôtový zvonček a nočné svetielko, do… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček a nočné svetielko, do zásuvky, 150m, čierny, learning code – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Solight vstavaná zásuvka 1x 16 A + USB-C 65W PD, 2m, biela]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Jednoduché napájanie s USB-C nabíjaním Táto vstavaná zásuvka je praktickým riešením pre tých, ktorí hľadajú efektívnu kombináciu klasického napájania a moderného USB-C nabíjania v kompaktnom…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>Jednoduché napájanie s USB-C nabíjaním</b><br>
@@ -53692,9 +53500,9 @@ Každá sviečka je vybavená vlastnou LED diódou a napájaná tromi batériami
 <CODE>1V286</CODE>
 <EAN>8592718042523</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -53761,9 +53569,9 @@ Betlehem ponúka jednoduché ovládanie s možnosťou zapnutia, vypnutia alebo v
 <CODE>1V276</CODE>
 <EAN>8592718037314</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -54568,9 +54376,9 @@ Kométa ponúka tri režimy – zapnuté, vypnuté a časovač, ktorý umožňuj
 <CODE>1V278</CODE>
 <EAN>8592718037338</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -54726,9 +54534,9 @@ Girlanda je určená na vonkajšie aj vnútorné použitie a vďaka stupňu kryt
 <CODE>1v404-CW</CODE>
 <EAN>8592718049751</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -54878,51 +54686,51 @@ Maximálna záťaž až 2300 W (10 A pri 230 V~) zabezpečuje bezpečnú prevád
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Prierez (mm2)]]></NAME>
-    <VALUE><![CDATA[1]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálna záťaž (W)]]></NAME>
-    <VALUE><![CDATA[2300]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet USB portov]]></NAME>
-    <VALUE><![CDATA[2]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
     <NAME><![CDATA[Dĺžka (m)]]></NAME>
     <VALUE><![CDATA[10]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
-    <VALUE><![CDATA[Navíjací bubon]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
-    <VALUE><![CDATA[IP20]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Bezdrôtové nabíjanie]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Verzia USB]]></NAME>
-    <VALUE><![CDATA[USB A+C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Uzemnený]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
+    <NAME><![CDATA[Počet zásuviek]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Napätie (V)]]></NAME>
     <VALUE><![CDATA[230 V]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[Sivá]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
+    <VALUE><![CDATA[Navíjací bubon]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bezdrôtové nabíjanie]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uzemnený]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Verzia USB]]></NAME>
+    <VALUE><![CDATA[USB A+C]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Prierez (mm2)]]></NAME>
+    <VALUE><![CDATA[1]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
     <NAME><![CDATA[USB nabíjanie]]></NAME>
     <VALUE><![CDATA[Áno]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet zásuviek]]></NAME>
+    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
+    <VALUE><![CDATA[IP20]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet USB portov]]></NAME>
     <VALUE><![CDATA[2]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
@@ -54930,8 +54738,8 @@ Maximálna záťaž až 2300 W (10 A pri 230 V~) zabezpečuje bezpečnú prevád
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[Sivá]]></VALUE>
+    <NAME><![CDATA[Maximálna záťaž (W)]]></NAME>
+    <VALUE><![CDATA[2300]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
@@ -55088,9 +54896,9 @@ Tento LED reťazec ponúka 240 LED diód v dvoch farebných variantoch – viacf
 <CODE>1V12-WIFI</CODE>
 <EAN>8592718029982</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -55656,9 +55464,9 @@ vianočna ratanová hviezda s LED diódami počet LED diód: 40 farba svetla: te
 </STOCK>
 <EAN>8592718031794</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -56106,9 +55914,9 @@ Svetielka sú určené výhradne na vnútorné použitie a spĺňajú stupeň kr
 <CODE>1V287</CODE>
 <EAN>8592718042530</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -56180,9 +55988,9 @@ Kolotoč ponúka tri režimy – zapnuté, vypnuté a časovač, ktorý umožňu
 <CODE>1V277</CODE>
 <EAN>8592718037321</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -56596,9 +56404,9 @@ Napájanie na 2 x AA batérie umožňuje použitie reťaze aj na miestach bez pr
 </STOCK>
 <EAN>8592718014599</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -57230,9 +57038,9 @@ Svietnik ponúka tri režimy – zapnuté, vypnuté a časovač, ktorý automati
 <CODE>1V280</CODE>
 <EAN>8592718037352</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -57306,9 +57114,9 @@ Girlanda je určená na vonkajšie aj vnútorné použitie a spĺňa stupeň kry
 <CODE>1v404-WW</CODE>
 <EAN>8592718049768</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -57844,9 +57652,9 @@ Tento LED reťazec ponúka 400 LED diód v dvoch farebných variantoch – viacf
 <CODE>1V13-WIFI</CODE>
 <EAN>8592718029999</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -58930,9 +58738,9 @@ Lucerna je napájaná dvoma AA batériami, ktoré nie sú súčasťou balenia, �
 </STOCK>
 <EAN>8592718042547</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -59125,9 +58933,9 @@ Stromček ponúka tri režimy – zapnuté, vypnuté a časovač, ktorý automat
 <CODE>1V282</CODE>
 <EAN>8592718037376</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -60078,7 +59886,7 @@ Moderné okrúhle LED svietidlo je ideálnou voľbou pre osvetlenie kúpeľní, 
     <VALUE><![CDATA[IP54]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 22.9.2026]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -60088,7 +59896,7 @@ Moderné okrúhle LED svietidlo je ideálnou voľbou pre osvetlenie kúpeľní, 
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED osvetlenie s ochranou proti vlhkosti,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED osvetlenie s ochranou proti vlhkosti, IP54, 18W, 1530lm, 3CCT, 33cm – dostupné od 22.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED osvetlenie s ochranou proti vlhkosti, IP54, 18W, 1530lm, 3CCT, 33cm – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[ECOLUX LED žiarovka 3-pack, klasický tvar, 12W, E27, 3000K, 270°, 1080lm, 3ks v baleniu]]></NAME>
@@ -60479,9 +60287,9 @@ Stromček je napájaný dvoma AA batériami, ktoré nie sú súčasťou balenia,
 <CODE>1V236</CODE>
 <EAN>8592718029937</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -60721,9 +60529,9 @@ LED zásvesná dekorácia s motívom s motívom jeleňov a lesa počet LED diód
 </STOCK>
 <EAN>8592718031824</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -60842,9 +60650,9 @@ Dedinka je napájaná dvoma AA batériami, ktoré nie sú súčasťou balenia, �
 <CODE>1V256</CODE>
 <EAN>8592718031893</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -61176,9 +60984,9 @@ LED zvonček je vybavený jednoduchým ovládaním s možnosťou zapnutia, vypnu
 <CODE>1V289</CODE>
 <EAN>8592718042554</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -61320,9 +61128,9 @@ Stromček je vybavený 13 LED diódami s príjemným teplým bielym svetlom, kto
 <CODE>1V283</CODE>
 <EAN>8592718037383</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -62210,9 +62018,9 @@ LED vločky ponúkajú tri režimy – zapnuté, vypnuté a časovač, ktorý au
 <CODE>1V281</CODE>
 <EAN>8592718037369</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -62284,9 +62092,9 @@ Jedinečnou vlastnosťou tohto stromčeka je integrované zvukové čidlo, ktor�
 <CODE>1V301</CODE>
 <EAN>8592718049775</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -63090,9 +62898,9 @@ LED adventný kalendár je navrhnutý pre maximálne pohodlie – napájanie zab
 <CODE>1V258</CODE>
 <EAN>8592718031916</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -63283,9 +63091,9 @@ LED stromček ponúka jednoduché ovládanie s možnosťou zapnutia, vypnutia al
 <CODE>1V290</CODE>
 <EAN>8592718042561</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -64037,9 +63845,9 @@ LED hviezda ponúka možnosť aktivácie časovača 6 h/18 h, čo znamená, že 
 <CODE>1V302</CODE>
 <EAN>8592718049782</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -64646,9 +64454,9 @@ LED reťaz ponúka tri možnosti nastavenia: zapnuté, vypnuté a časovač. Ča
 <CODE>1V238</CODE>
 <EAN>8592718029951</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -64890,9 +64698,9 @@ LED mestečko je napájané dvoma AAA batériami, ktoré nie sú súčasťou bal
 <CODE>1V250</CODE>
 <EAN>8592718031831</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -64961,9 +64769,9 @@ Osvetlenie je napájané tromi AA batériami, ktoré nie sú súčasťou balenia
 <CODE>1V262</CODE>
 <EAN>8592718033958</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -65074,9 +64882,9 @@ LED nástenná dekorácia s motívom vianočného stromčeka počet LED diód: 2
 </STOCK>
 <EAN>8592718031930</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -66072,9 +65880,9 @@ Veniec ponúka možnosť aktivácie časovača 6 h/18 h, takže sa po šiestich 
 <CODE>1V303</CODE>
 <EAN>8592718049799</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -66513,9 +66321,9 @@ Ovládanie venca je veľmi jednoduché – môžete si zvoliť medzi režimami z
 <CODE>1V239</CODE>
 <EAN>8592718029968</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -67017,9 +66825,9 @@ LED reťaz Santa - samoprísavná okenná dekorácia počet LED diód: 6 farba s
 </STOCK>
 <EAN>8592718031848</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -67130,9 +66938,9 @@ LED nástenná dekorácia s motívom hviezdy počet LED diód: 24 farba svetla: 
 </STOCK>
 <EAN>8592718031947</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -67330,9 +67138,9 @@ Reťazec je navrhnutý pre maximálne pohodlie – stačí vložiť 2 x AA baté
 </STOCK>
 <EAN>8592718042585</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -68004,9 +67812,9 @@ Sada ponúka jednoduché ovládanie s možnosťou zapnutia, vypnutia alebo využ
 <CODE>1V304</CODE>
 <EAN>8592718049805</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -68621,9 +68429,9 @@ LED reťaz je napájaná dvoma bežnými AA batériami, ktoré nie sú súčasť
 </STOCK>
 <EAN>8592718031855</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -68690,9 +68498,9 @@ LED dekorácia je napájaná dvoma AAA batériami, ktoré nie sú súčasťou ba
 </STOCK>
 <EAN>8592718033972</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -68812,9 +68620,9 @@ Vianočná hviezda je napájaná dvoma AA batériami, ktoré nie sú súčasťou
 </STOCK>
 <EAN>8592718031886</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -69057,9 +68865,9 @@ Oceneníte možnosť aktivácie časovača 6h/18h – po zapnutí svieti hviezda
 <CODE>1V293</CODE>
 <EAN>8592718042592</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -70236,9 +70044,9 @@ Stromček je vybavený 17 LED diódami s teplým bielym svetlom, ktoré navodí 
 <CODE>1V305</CODE>
 <EAN>8592718049812</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -70829,9 +70637,9 @@ Dekorácia je vyrobená v kombinácii bielej a červenej farby, čo jej dodáva 
 <CODE>1V257</CODE>
 <EAN>8592718031909</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -70900,9 +70708,9 @@ Svietnik je napájaný dvoma AA batériami, ktoré nie sú súčasťou balenia, 
 <CODE>1V265</CODE>
 <EAN>8592718033989</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -71125,9 +70933,9 @@ Vianočná hviezda je vybavená praktickým časovačom 6h/18h – po zapnutí s
 </STOCK>
 <EAN>8592718042608</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -71783,9 +71591,9 @@ Dekorácia ponúka tri režimy – zapnuté, vypnuté a časovač. Časovač umo
 <CODE>1V306</CODE>
 <EAN>8592718049829</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -72147,9 +71955,9 @@ Lucerna je vybavená tromi LED diódami, ktoré zaisťujú dlhú životnosť a n
 <CODE>1V266</CODE>
 <EAN>8592718033996</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -72387,9 +72195,9 @@ Vianočná hviezda je vybavená praktickým časovačom, ktorý umožňuje nasta
 </STOCK>
 <EAN>8592718042615</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -73129,9 +72937,9 @@ Svietnik ponúka tri režimy – zapnuté, vypnuté a časovač, ktorý umožňu
 <CODE>1V307</CODE>
 <EAN>8592718049836</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -73460,7 +73268,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <UNIT>ks</UNIT>
 <CODE>V52</CODE>
 <EAN>8592718041564</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight profesionálný kliešťový multimeter, 10mA - 1000A - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v52.jpg?v2</IMAGE>
@@ -73720,9 +73533,9 @@ prírodná, vianočná drevená dekorácia v tvare vianočného stromčeka so za
 </STOCK>
 <EAN>8592718034009</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -74020,9 +73833,9 @@ Dekorácia je napájaná dvoma AA batériami, ktoré nie sú súčasťou balenia
 <CODE>1V296</CODE>
 <EAN>8592718042622</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -75066,7 +74879,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718041557</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, 20 - 200A - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v51.jpg?v2</IMAGE>
@@ -75328,9 +75146,9 @@ Hviezda má rozmery 49 x 30 x 8,5 cm a je určená na vnútorné použitie (stup
 </STOCK>
 <EAN>8592718034016</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -75668,9 +75486,9 @@ Veniec je vybavený praktickým časovačom, ktorý umožňuje nastaviť automat
 <CODE>1V297</CODE>
 <EAN>8592718042639</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -77362,9 +77180,9 @@ Táto LED girlanda je vybavená praktickým časovačom 6 h/18 h, ktorý zabezpe
 <CODE>1V298</CODE>
 <EAN>8592718042646</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -78436,7 +78254,7 @@ Prívod je navrhnutý na maximálne zaťaženie 3680 W, tzn. prúdové zaťažen
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 25.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.57</WEIGHT></LOGISTIC>
@@ -78446,7 +78264,7 @@ Prívod je navrhnutý na maximálne zaťaženie 3680 W, tzn. prúdové zaťažen
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight 1z predlžovací prívod - spojka, 15m, 3 x… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight 1z predlžovací prívod - spojka, 15m, 3 x 1,5mm2, oranžová – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight 1z predlžovací prívod - spojka, 15m, 3 x 1,5mm2, oranžová – dostupné od 25.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight teplomer]]></NAME>
@@ -78636,9 +78454,9 @@ Girlanda je vybavená praktickým časovačom 6 h/18 h, ktorý umožňuje automa
 <CODE>1V299</CODE>
 <EAN>8592718042653</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -82369,7 +82187,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
     <VALUE><![CDATA[2300]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 25.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.25</WEIGHT></LOGISTIC>
@@ -82379,7 +82197,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 1,5m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 1,5m – dostupné od 25.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod, 4 zásuvky, biely, vypínač, 5m]]></NAME>
@@ -82718,6 +82536,69 @@ Kvalitný koaxiálny kábel typu 3C2V s dĺžkou 1,5 metra s kombinovanými kone
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight anténny koaxiálny kábel, kombinované… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Solight anténny koaxiálny kábel, kombinované konektory, 1,5m, sáčok – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Solight olejový radiátor 2000W]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Olejový radiátor 2000W Tento olejový radiátor s výkonom 2000 W poskytuje efektívne a úsporné vykurovanie s možnosťou troch úrovní výkonu (800/1200/2000 W) pre optimálnu reguláciu tepla. 9 rebier…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<p><b>Olejový radiátor 2000W</b><br>Tento olejový radiátor s výkonom 2000 W poskytuje efektívne a úsporné vykurovanie s možnosťou troch úrovní výkonu (800/1200/2000 W) pre optimálnu reguláciu tepla. 9 rebier zabezpečuje rovnomerné rozloženie tepla v miestnosti. Disponuje nastaviteľným termostatom na presné riadenie teploty, ochranou proti prehriatiu pre bezpečnú prevádzku a svetelnou indikáciou prevádzky. Napájanie AC 230V/50Hz, max. 2000 W. Tichá a spoľahlivá prevádzka robí z tohto radiátora ideálnu voľbu na vykurovanie domácností aj kancelárií.</p>
+<UL>
+<LI>olejový radiátor 2 000 W</LI>
+<LI>tri nastaviteľné úrovne výkonu: 800 / 1 200 / 2 000 W</LI>
+<LI>9 rebier</LI>
+<LI>nastaviteľný termostat</LI>
+<LI>ochrana proti prehriatiu</LI>
+<LI>svetelná indikácia chodu</LI>
+<LI>napájanie AC 230 V / 50 Hz, max. 2 000 W</LI>
+</UL><p><a href="https://www.solight.sk/documents/or01_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/or01_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/or01_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/or01_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/or01_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vzduchotechnika/">Klíma, vzduch a vykurovanie</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>OR01</CODE>
+<EAN>8592718032814</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie]]></DEFAULT_CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Solight olejový radiátor 2000W - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/or01.jpg?v2</IMAGE>
+  <IMAGE description="Solight olejový radiátor 2000W - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/or01_1.jpg?v2</IMAGE>
+  <IMAGE description="Solight olejový radiátor 2000W - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/or01_a.jpg?v2</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Diaľkové ovládanie]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Displej]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pripojenie WiFi]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ventilátor]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Časovač]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>7.46</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>50.00</PRICE_VAT>
+<PURCHASE_PRICE>38.68</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Solight olejový radiátor 2000W | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Solight olejový radiátor 2000W – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED stropné osvetlenie prisadené, 40W, 4800lm, 4000K, UGR]]></NAME>
@@ -83223,7 +83104,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, tzn. prúdové zaťaže
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 25.9.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.70</WEIGHT></LOGISTIC>
@@ -83233,7 +83114,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, tzn. prúdové zaťaže
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight 1z pohyblivý prívod - spojka, 20m, 2 x… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight 1z pohyblivý prívod - spojka, 20m, 2 x 1,5mm2, oranžová – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight 1z pohyblivý prívod - spojka, 20m, 2 x 1,5mm2, oranžová – dostupné od 25.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight 2z + USB A+C 17W, cestovný predlžovací prívod 1.5m, biely]]></NAME>
@@ -85163,9 +85044,9 @@ LED reťaz ponúka jednoduché ovládanie s možnosťou zapnutia, vypnutia alebo
 <CODE>1V308</CODE>
 <EAN>8592718049843</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -85445,7 +85326,7 @@ Reflektor spĺňa krytie IP65, čo znamená úplnú ochranu proti prachu a strie
   <IMAGE description="Solight infražiarič na terasu 2000W - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ir04_3.jpg?v2</IMAGE>
   <IMAGE description="Solight infražiarič na terasu 2000W - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ir04_4.jpg?v2</IMAGE>
 </IMAGES>
-<AVAILABILITY><![CDATA[Dostupné od 2.10.2026]]></AVAILABILITY>
+<AVAILABILITY><![CDATA[Dostupné od 30.11.2026]]></AVAILABILITY>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.15</WEIGHT></LOGISTIC>
@@ -85455,7 +85336,7 @@ Reflektor spĺňa krytie IP65, čo znamená úplnú ochranu proti prachu a strie
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight infražiarič na terasu 2000W | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight infražiarič na terasu 2000W – dostupné od 2.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight infražiarič na terasu 2000W – dostupné od 30.11.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight bezdrôtová nabíjačka, Qi2, MagSafe kompatibilná]]></NAME>
@@ -86174,9 +86055,9 @@ Osvetlenie možno jednoducho zapnúť, vypnúť alebo nastaviť praktický časo
 <CODE>1V309</CODE>
 <EAN>8592718049850</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -87565,9 +87446,9 @@ Osvetlenie je napájané tromi AA batériami, ktoré nie sú súčasťou balenia
 <CODE>1v262-S</CODE>
 <EAN>8592718049867</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -88393,9 +88274,9 @@ LED reťaz je určený na vonkajšie aj vnútorné použitie vďaka stupňu kryt
 </STOCK>
 <EAN>8592718034245</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -88464,9 +88345,9 @@ Osvetlenie je napájané tromi AA batériami, ktoré nie sú súčasťou balenia
 <CODE>1v262-G</CODE>
 <EAN>8592718049874</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -89576,9 +89457,9 @@ LED reťaz je vybavený integrovaným 8-hodinovým časovačom, ktorý po uplynu
 </STOCK>
 <EAN>8592718034252</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -89645,9 +89526,9 @@ Vianočná hviezda je napájaná dvoma AA batériami, ktoré nie sú súčasťou
 <CODE>1V310</CODE>
 <EAN>8592718049881</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -90475,9 +90356,9 @@ LED reťaz je vybavený praktickým časovačom, ktorý po 6 hodinách prevádzk
 </STOCK>
 <EAN>8592718034269</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -91735,9 +91616,9 @@ LED reťaz je napájaný tromi AA batériami, ktoré nie sú súčasťou balenia
 </STOCK>
 <EAN>8592718034276</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -92605,9 +92486,9 @@ LED reťaz je vybavený praktickým časovačom, ktorý po 6 hodinách prevádzk
 </STOCK>
 <EAN>8592718034283</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -92673,9 +92554,9 @@ Svetielka sú určené výhradne na vnútorné použitie a spĺňajú stupeň kr
 <CODE>1V311</CODE>
 <EAN>8592718049898</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -93887,9 +93768,9 @@ LED reťaz je napájaná tromi AA batériami, ktoré nie sú súčasťou balenia
 </STOCK>
 <EAN>8592718034290</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
@@ -93956,9 +93837,9 @@ Ovládanie sviečok je maximálne pohodlné vďaka priloženému diaľkovému ov
 <CODE>1V312</CODE>
 <EAN>8592718049904</EAN>
 <CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
 <IMAGES>
