@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27029,
-  "matchedRules": 2279,
-  "changedProducts": 224,
+  "totalProducts": 27026,
+  "matchedRules": 2278,
+  "changedProducts": 993,
   "rejected": [
     {
       "supplier": "atos",
@@ -1350,6 +1350,11 @@
       "reason": "Reviewed product name changed"
     },
     {
+      "supplier": "innpro",
+      "code": "082793",
+      "reason": "Reviewed product name changed"
+    },
+    {
       "supplier": "kb",
       "code": "100002136451",
       "reason": "Reviewed product name changed"
@@ -2064,7 +2069,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 114,
+      "visibleUnique": 113,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
