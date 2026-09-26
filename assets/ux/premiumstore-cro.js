@@ -660,11 +660,12 @@
       var list = section.querySelector('ul');
       if (!heading || !list) return;
       var label = document.createElement('span');
+      label.className = 'ps-footer-label';
       label.textContent = heading.textContent;
       var button = document.createElement('button');
       button.type = 'button';
       button.className = 'ps-footer-toggle';
-      button.textContent = label.textContent;
+      button.setAttribute('aria-label', label.textContent);
       list.id = 'ps-footer-links-' + index;
       button.setAttribute('aria-controls', list.id);
       heading.textContent = '';
@@ -674,7 +675,7 @@
       var expanded = false;
       function sync() {
         var mobile = mobileFooter.matches;
-        label.hidden = mobile;
+        label.hidden = false;
         button.hidden = !mobile;
         button.setAttribute('aria-expanded', String(!mobile || expanded));
         list.hidden = mobile && !expanded;

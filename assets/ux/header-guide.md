@@ -7,8 +7,8 @@ Produkčná verzia obsahuje kompaktnú hlavičku, väčšie logo, neutrálne men
 Po publikovaní GitHub Pages upraviť existujúce odkazy v administrácii Shoptetu na:
 
 ```html
-<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-cro.css?v=69">
-<script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-cro.js?v=23"></script>
+<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-cro.css?v=70">
+<script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-cro.js?v=24"></script>
 ```
 
 CSS patrí do hlavičky, skript do pätičky pred koniec BODY. Nahradiť existujúce odkazy; nevkladať druhé kópie. Po obnovení stránky overiť menu, vyhľadávanie, prihlásenie a košík.
