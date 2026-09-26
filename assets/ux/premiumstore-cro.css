@@ -1811,3 +1811,10 @@ body.search-window-visible #header.ps-compact-header .search-form {
   #header.ps-compact-header .search-button { transition: none !important; }
 }
 
+/* Desktop: keep search between category links and account actions. */
+@media (min-width: 992px) {
+  #header.ps-compact-header .site-name { order: 0 !important; }
+  #header.ps-compact-header .ps-catalog-nav { order: 1 !important; flex: 0 1 auto !important; }
+  #header.ps-compact-header .header-top-wrapper > .search { order: 2 !important; flex: 1 1 300px !important; min-width: 190px !important; }
+  #header.ps-compact-header .navigation-buttons { order: 3 !important; margin-left: 0 !important; flex: 0 0 auto !important; }
+}
