@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-26 18:53 UTC.
+Kontrola z 2026-09-27 00:04 UTC.
 
-InnPro pri **398** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -22,6 +22,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `019499` | Držiak J-Hook Puluz pre športové kamery (DJI, GoPro, Insta36 | — | 5 |
 | `019505` | Skladacie mäkké svetlo s bleskom Puluz PU5120 20cm | — | 5 |
 | `019506` | Fotoblesk Puluz 5w1 + puzdro | — | 5 |
+| `020113` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (červený+čierny) | — | 5 |
 | `020112` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (sivý+čierny) | — | 5 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | — | 5 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrátane O | — | 5 |
@@ -50,7 +51,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `033419` | Mäkká kefa pre Dreame V10 Pro | — | 5 |
 | `032796` | Počítačový ventilátor Darkflash CL12 LED (120x120) | — | 5 |
-| `035753` | Kryt kefy pre vysávač Dreame Z10 Pro | — | 3 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
@@ -66,7 +66,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `038946` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `038943` | Baseus Glitter priehľadné puzdro a sada tvrdeného skla pre i | — | 2 |
 | `040287` | Prepravné puzdro Sunnylife pre DJI Osmo Mobile 6 | — | 5 |
-| `039677` | Mäkká valcová kefa pre vysávač Dreame R10 Pro / R20 | — | 5 |
 | `041716` | Držiak telefónu Puluz | — | 5 |
 | `043028` | Stojan Sonoff NSPanel (biely) | — | 5 |
 | `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 5 |
@@ -126,7 +125,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `056365` | Nalepovacie termoštítky Niimbot 25 x 60 mm, 110 ks (biele) | — | 5 |
 | `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
 | `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
-| `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 5 |
 | `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
@@ -237,13 +235,11 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 5 |
 | `080658` | Tvrdené sklo puluz DJI Osmo 360 (číre) | — | 5 |
 | `080661` | PULUZ DJI Osmo 360 silikónový stojan (čierny) | — | 5 |
-| `080663` | Silikónový kryt s objektívom PULUZ DJI Osmo 360 (sivý) | — | 5 |
 | `080664` | PULUZ silikónový kryt objektívu DJI Osmo 360 (čierny) | — | 5 |
 | `080679` | Telesin DJI Osmo 360 sada ochranných skiel | — | 5 |
 | `080742` | Sunnylife BK03 rýchloupínač pre OP 3 (čierny) | — | 5 |
 | `080731` | Torba Sunnylife pre OSMO 360 | — | 5 |
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
-| `080587` | Rám pre trojitý prepínač Orb SONOFF EF3G | — | 5 |
 | `081353` | Sonoff Basic R5 Gen5 WiFi Smart Switch (10A, Matter) | — | 5 |
 | `081547` | Sunnylife tvrdené sklo (2 kusy) pre Osmo Nano | — | 5 |
 | `081548` | Silikónový opasok Sunnylife pre zariadenie Osmo Nano (čierny | — | 5 |
