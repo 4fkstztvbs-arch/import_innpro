@@ -715,9 +715,38 @@
     content.appendChild(perex);
   }
 
+  // --- Navigácia k podkategóriám --------------------------------------------
+  function keepCategoryTilesNearTop() {
+    if (!document.body.classList.contains('type-category')) return;
+    var main = document.querySelector('main');
+    var categoryTop = main && main.querySelector('.category-top');
+    var perex = main && main.querySelector('.category-content-wrapper > .category-perex');
+    var nativeTiles = categoryTop && categoryTop.querySelector('.subcategories.with-image');
+    if (!categoryTop || !perex || !nativeTiles || window.getComputedStyle(nativeTiles).display !== 'none') return;
+    if (categoryTop.querySelector('.ps-grid')) return;
+
+    var grid = perex.querySelector('.ps-grid');
+    var tileSection = grid && grid.closest('section[id^="ps-cat-"]');
+    var outerSection = tileSection && tileSection.parentElement && tileSection.parentElement.closest('section[id^="ps-cat-"]');
+    var title = categoryTop.querySelector('.category-title');
+    var heading = tileSection && tileSection.querySelector(':scope > .ps-head');
+    if (!tileSection || !outerSection || tileSection === outerSection || !title || !heading || grid.parentElement !== tileSection) return;
+
+    var intro = tileSection.querySelector(':scope > .ps-intro');
+    var brands = tileSection.querySelector(':scope > .ps-brands');
+    if (intro) outerSection.appendChild(intro);
+    if (brands) outerSection.appendChild(brands);
+    var oldWrapper = tileSection.parentElement;
+    if (oldWrapper && oldWrapper !== outerSection && oldWrapper.classList.contains('ps-intro') && !oldWrapper.children.length) {
+      oldWrapper.remove();
+    }
+    title.insertAdjacentElement('afterend', tileSection);
+  }
+
   // --- Spustenie -------------------------------------------------------------
   function run() {
     relocateCategoryDescription();
+    keepCategoryTilesNearTop();
     relocateLoginButton();
     headerSupportBlock();
     menuTrigger();
