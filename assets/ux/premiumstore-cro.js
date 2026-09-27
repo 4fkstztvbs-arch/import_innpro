@@ -705,8 +705,19 @@
     }
   }
 
+  // --- Popis kategórie --------------------------------------------------------
+  function relocateCategoryDescription() {
+    if (!document.body.classList.contains('type-category')) return;
+    var main = document.querySelector('main');
+    var content = main && main.querySelector('.category-content-wrapper');
+    var perex = main && main.querySelector('.category-top > .category-perex');
+    if (!content || !perex) return;
+    content.appendChild(perex);
+  }
+
   // --- Spustenie -------------------------------------------------------------
   function run() {
+    relocateCategoryDescription();
     relocateLoginButton();
     headerSupportBlock();
     menuTrigger();
