@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27022,
-  "matchedRules": 2278,
-  "changedProducts": 993,
+  "totalProducts": 27021,
+  "matchedRules": 2277,
+  "changedProducts": 992,
   "rejected": [
     {
       "supplier": "atos",
@@ -2105,7 +2105,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 84,
+      "visibleUnique": 83,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
