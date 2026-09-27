@@ -5,55 +5,46 @@
    Kam vložiť: Vzhled a obsah -> Návrhář šablony -> Vlastní JS
    Funguje len spolu s CSS súborom mobilne-filtre-bottom-sheet.css.
 
-   TOTO JE DRUHÁ, DÔKLADNEJŠIE OTESTOVANÁ VERZIA. Prvá verzia (click-hijack
-   s klonovaním tlačidla + farba z --color-secondary) mala pri poctivejšom
-   testovaní priamo na premiumstore.sk tieto reálne chyby, ktoré táto verzia
-   opravuje:
+   OPRAVA PO NASADENÍ NA ŽIVÝ WEB: prvá nahratá verzia sa na premiumstore.sk
+   vôbec nespustila. Príčina: skript čakal len na udalosť
+   "DOMContentLoaded". Keď sa <script> tag pridáva do stránky dynamicky
+   (presne tak, ako to robí mechanizmus vkladania vlastného kódu v hlavičke/
+   pätičke Shoptetu), stránka môže byť v čase spustenia skriptu už dávno
+   načítaná - udalosť DOMContentLoaded už raz prebehla a druhý krát sa
+   nezopakuje, takže poslucháč pridaný oneskorene sa už nikdy nespustí.
+   Overené priamo na premiumstore.sk: document.readyState bol už "complete"
+   a #fs-sheet sa nikdy nevytvoril. Oprava nižšie (funkcia "ready") najprv
+   skontroluje readyState a ak je dokument už hotový, spustí inicializáciu
+   ihneď namiesto čakania na udalosť, ktorá už nikdy nepríde.
 
-   1) FARBA: --color-secondary (#ffc500) je farba cenového slideru, nie
-      primárneho tlačidla. Skutočná farba, ktorú zákazník vníma ako
-      "potvrdzujúce" tlačidlo, je zelená #24b47e použitá na "Do košíka".
-      Táto verzia ju necháva napevno v CSS presne podľa reálne
-      vyrenderovaného tlačidla (nie z premennej v administrácii).
-
-   2) ARCHITEKTÚRA: Namiesto klonovania/nahradenia tlačidla "Otvoriť filter"
-      (čo nenávratne odstráni pôvodný Shoptet click handler a na desktope by
-      po kliknutí nešlo spraviť nič) táto verzia iba POZORUJE zmenu triedy
-      "visible" na #filters cez MutationObserver. Shoptet aj naďalej sám
-      riadi otváranie/zatváranie aj text tlačidla ("Otvoriť filter" /
-      "Zavrieť filter") - naša vrstva len reaguje. Overené naživo: klasické
-      "preventDefault + stopPropagation" prerušilo natívne prepínanie
-      nespoľahlivo (záviselo od poradia interných listenerov), preto sa mu
-      táto verzia úplne vyhýba.
-
-   3) ZATVÁRANIE cez naše UI (X, backdrop, tlačidlo "Zobraziť výsledky")
-      simuluje klik na pôvodné tlačidlo namiesto priameho odobratia triedy -
-      inak zostal popisok tlačidla nesprávne "Zavrieť filter" aj keď bol
-      panel v skutočnosti zatvorený (reálne reprodukovaná chyba).
-
-   4) FOCUS po Escape sa vracia na skutočný element tlačidla (uložený pri
-      otvorení), nie na document.activeElement - to je nespoľahlivé práve
-      pri <a> odkazoch (čím "Otvoriť filter" v Disco šablóne aj je),
-      obzvlášť na iOS Safari.
-
-   5) POČET VÝSLEDKOV: pri návrate po úplnom reloade stránky (kliknutie na
-      filter v Disco spôsobí reload, nie AJAX) treba: a) ručne pridať triedu
-      "visible" novému #filters, lebo čerstvá stránka o predošlom stave
-      nevie, a b) sledovať zmenu textu v .category-header-pagination cez
-      vlastný MutationObserver, pretože pri prvom vykreslení bol počas
-      testovania krátky moment, keď tlačidlo ukázalo starý (nesprávny)
-      počet položiek z predošlej stránky.
+   Predošlé opravy z testovania pred nasadením (stále platia):
+   1) Farba tlačidla je natvrdo #24b47e - odčítaná z reálneho tlačidla
+      "Do košíka" na webe, nie z premennej --color-secondary v administrácii
+      (tá patrí cenovému slideru).
+   2) Namiesto klonovania/nahradenia tlačidla "Otvoriť filter" sa iba
+      sleduje zmena triedy "visible" na #filters cez MutationObserver -
+      Shoptet aj naďalej sám riadi otváranie/zatváranie aj text tlačidla,
+      táto vrstva len reaguje. Klonovanie by na desktope (kde tento e-shop
+      nemá bočný panel, len rovnaký toggle ako mobil) natrvalo zničilo
+      pôvodné správanie.
+   3) Zatváranie cez naše UI (X, backdrop, "Zobraziť výsledky") simuluje
+      klik na pôvodné tlačidlo, aby si Shoptet sám správne prepol aj text.
+   4) Focus po Escape sa vracia na uložený element tlačidla, nie na
+      document.activeElement (nespoľahlivé pri <a> odkazoch).
+   5) Po filtrovaní (čo v Disco spôsobí kompletný reload stránky) sa stav
+      "otvorené" ukladá do sessionStorage a po reloade sa panel automaticky
+      znova otvorí aj s pridaním triedy "visible", ktorú čerstvá stránka
+      sama od seba nemá.
 
    Zostávajúce vedomé obmedzenie: filtrovanie v Disco robí kompletný reload
-   stránky (nie potichu cez AJAX), takže panel sa po každom výbere filtra na
-   zlomok sekundy "zabliká" zatvorený a hneď znova otvorí. Toto je vlastnosť
-   šablóny, nie chyba tohto riešenia - obísť by sa to dalo len prepísaním
-   celého mechanizmu filtrovania na AJAX, čo je výrazne väčší zásah.
+   stránky (nie AJAX), takže panel sa pri výbere filtra na zlomok sekundy
+   vizuálne zatvorí a hneď znova otvorí. Vlastnosť šablóny, nie chyba tohto
+   riešenia.
    ========================================================================== */
 
 (function () {
   function initFilterSheet() {
-    if (document.getElementById('fs-sheet')) return; // uz inicializovane (napr. po AJAX reloade časti stránky)
+    if (document.getElementById('fs-sheet')) return; // uz inicializovane
 
     var mq = window.matchMedia('(max-width: 991.98px)');
     var filtersEl = document.getElementById('filters');
@@ -100,8 +91,6 @@
         fsApplyBtn.disabled = false;
       }
     }
-    // sleduje zmeny v počítadle položiek, aby tlačidlo nikdy neukazovalo
-    // zastaralý počet (reálne overený race condition pri načítaní stránky)
     var pagEl = document.querySelector('.category-header-pagination');
     if (pagEl) {
       new MutationObserver(updateApplyBtn).observe(pagEl, {
@@ -140,16 +129,12 @@
     function onKeydown(e) {
       if (e.key === 'Escape') syncedClose();
     }
-    // zatvorenie cez nase UI necha kliknut na povodne tlacidlo, aby si
-    // Shoptet sam spravne prepol aj vlastny text ("Otvoriť/Zavrieť filter")
     function syncedClose() {
       if (filtersEl.classList.contains('visible')) trigger.click();
     }
 
-    // JADRO RIEŠENIA: nehýbeme sa do Shoptet click handlera vôbec,
-    // len reagujeme na zmenu triedy "visible", ktorú si Shoptet prepína sám
     var mo = new MutationObserver(function () {
-      if (!mq.matches) return; // desktop / široký tablet - necháme natívne správanie bez zásahu
+      if (!mq.matches) return;
       var isVisible = filtersEl.classList.contains('visible');
       var isOpen = sheet.classList.contains('open');
       if (isVisible && !isOpen) {
@@ -166,8 +151,6 @@
     fsClose.addEventListener('click', syncedClose);
     fsApplyBtn.addEventListener('click', syncedClose);
 
-    // ak sa okno pri otvorenom paneli roztiahne na desktopovú šírku,
-    // vrátime #filters na pôvodné miesto v DOM (natívne správanie)
     if (mq.addEventListener) {
       mq.addEventListener('change', function (ev) {
         if (!ev.matches) {
@@ -177,16 +160,26 @@
       });
     }
 
-    // kliknutie na filter v Disco spôsobí kompletný reload stránky (nie AJAX),
-    // takže po reloade obnovíme otvorený stav zo sessionStorage
     if (mq.matches && sessionStorage.getItem('fsSheetOpen') === '1') {
-      filtersEl.classList.add('visible'); // čerstvá stránka o predošlom stave sama nevie
+      filtersEl.classList.add('visible');
       moveIn();
       setTimeout(openSheet, 50);
     }
   }
 
-  document.addEventListener('DOMContentLoaded', initFilterSheet);
+  // KĽÚČOVÁ OPRAVA: ak sa tento skript spustí až po tom, čo dokument už
+  // dohotovil parsovanie (typické pri dynamicky vkladanom kóde cez Shoptet
+  // hlavičku/pätičku), DOMContentLoaded už nikdy nenastane - treba
+  // inicializovať ihneď.
+  function ready(fn) {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', fn);
+    } else {
+      fn();
+    }
+  }
+
+  ready(initFilterSheet);
 
   // Shoptet Developers Tools event - pre prípad AJAX-om dotiahnutého obsahu
   document.addEventListener('ShoptetDOMContentLoaded', initFilterSheet);
