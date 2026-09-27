@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27019,
-  "matchedRules": 2277,
-  "changedProducts": 225,
+  "totalProducts": 27022,
+  "matchedRules": 2278,
+  "changedProducts": 993,
   "rejected": [
     {
       "supplier": "atos",
@@ -1841,7 +1841,7 @@
     },
     {
       "path": "Chovateľské potreby > Fontány a napájačky > Filtre a čerpadlá do fontán",
-      "visibleUnique": 11,
+      "visibleUnique": 12,
       "active": true,
       "parent": "Chovateľské potreby > Fontány a napájačky"
     },
