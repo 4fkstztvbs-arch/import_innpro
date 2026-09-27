@@ -1,0 +1,120 @@
+/* ==========================================================================
+   Sticky bottom-sheet pre mobilné filtre – Shoptet šablóna Disco
+   premiumstore.sk
+
+   Kam vložiť: Vzhled a obsah -> Návrhář šablony -> Vlastní CSS
+   (funguje len spolu s JS súborom mobilne-filtre-bottom-sheet.js)
+
+   Farby a rozmery tlačidla NIE SÚ odhadnuté z --color-secondary v
+   administrácii (to je farba cenového slideru, nie primárneho tlačidla).
+   Sú odčítané priamo z reálne vykresleného tlačidla "Do košíka"
+   (.btn-cart.add-to-cart-button) na živom webe: #24b47e, radius 999px,
+   font-weight 600, font-size 18px, padding 10px 24px - takže nové
+   tlačidlo vyzerá ako prirodzená súčasť e-shopu, nie cudzí prvok.
+   ========================================================================== */
+
+#fs-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(14, 21, 28, .5);
+  z-index: 99998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+#fs-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#fs-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 99999;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, .18);
+  max-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(100%);
+  transition: transform .28s cubic-bezier(.4, 0, .2, 1);
+  font-family: "Source Sans 3", sans-serif;
+}
+#fs-sheet.open {
+  transform: translateY(0);
+}
+
+#fs-sheet .fs-handle {
+  width: 40px;
+  height: 4px;
+  background: #d8dade;
+  border-radius: 4px;
+  margin: 10px auto 4px;
+}
+
+#fs-sheet .fs-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px 12px;
+  border-bottom: 1px solid #eee;
+}
+#fs-sheet .fs-header h3 {
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0e151c;
+}
+#fs-sheet .fs-close {
+  border: none;
+  background: none;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: #0e151c;
+  padding: 4px 8px;
+}
+
+#fs-sheet .fs-body {
+  overflow-y: auto;
+  padding: 12px 16px;
+  flex: 1 1 auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+#fs-sheet .fs-footer {
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+/* presná zhoda s reálnym tlačidlom "Do košíka" na premiumstore.sk */
+#fs-sheet .fs-apply-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  border: 1px solid #24b47e;
+  border-radius: 999px;
+  background: #24b47e;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 10px 24px;
+  cursor: pointer;
+  font-family: "Source Sans 3", sans-serif;
+}
+#fs-sheet .fs-apply-btn:disabled {
+  background: #c9ccd0;
+  border-color: #c9ccd0;
+  cursor: not-allowed;
+}
+
+body.fs-open {
+  overflow: hidden;
+}
