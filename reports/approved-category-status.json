@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27011,
+  "totalProducts": 27019,
   "matchedRules": 2277,
-  "changedProducts": 4,
+  "changedProducts": 225,
   "rejected": [
     {
       "supplier": "atos",
@@ -1799,7 +1799,7 @@
     },
     {
       "path": "Auto-moto > Elektronika do auta > Autorádiá",
-      "visibleUnique": 20,
+      "visibleUnique": 21,
       "active": true,
       "parent": "Auto-moto > Elektronika do auta"
     },
