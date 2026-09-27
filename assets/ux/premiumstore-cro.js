@@ -737,10 +737,10 @@
     if (intro) outerSection.appendChild(intro);
     if (brands) outerSection.appendChild(brands);
     var oldWrapper = tileSection.parentElement;
+    title.insertAdjacentElement('afterend', tileSection);
     if (oldWrapper && oldWrapper !== outerSection && oldWrapper.classList.contains('ps-intro') && !oldWrapper.children.length) {
       oldWrapper.remove();
     }
-    title.insertAdjacentElement('afterend', tileSection);
   }
 
   // --- Spustenie -------------------------------------------------------------
