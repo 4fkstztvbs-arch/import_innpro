@@ -134,6 +134,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout th::after {
+    right: 12px !important;
+  }
+}
+
 @media (max-width: 360px) {
   body.type-detail.ps-pdp-v1 #product-detail-form .p-final-price-wrapper > .price-standard,
   body.type-detail.ps-pdp-v1 #product-detail-form .p-final-price-wrapper > .price-save {
