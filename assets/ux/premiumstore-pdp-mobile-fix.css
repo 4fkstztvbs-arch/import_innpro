@@ -1,0 +1,41 @@
+/* Mobile product purchase controls: price first, quantity right, CTA below. */
+@media (max-width: 767px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch !important;
+    gap: 9px !important;
+    width: 100% !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > .p-final-price-wrapper {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > .add-to-cart {
+    display: flex !important;
+    align-self: flex-end !important;
+    flex: 0 0 52px !important;
+    width: 104px !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block .quantity {
+    display: flex !important;
+    flex: 0 0 52px !important;
+    width: 104px !important;
+    height: 52px !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > .add-to-cart-button {
+    display: flex !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 52px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    white-space: normal !important;
+  }
+}
