@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-27 19:25 UTC.
+Kontrola z 2026-09-28 00:09 UTC.
 
 InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -72,7 +72,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
 | `044846` | Joyroom JR-14H5 priehľadné magnetické puzdro pre iPhone 14 | — | 5 |
-| `044848` | Joyroom JR-14H7 priehľadné magnetické puzdro pre iPhone 14 P | — | 5 |
 | `044828` | Joyroom JR-14S1 čierne puzdro pre iPhone 14 | — | 5 |
 | `044830` | Joyroom JR-14S3 čierne puzdro pre iPhone 14 Plus | — | 5 |
 | `044831` | Joyroom JR-14S4 čierne puzdro pre iPhone 14 Pro Max | — | 3 |
@@ -102,7 +101,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `053788` | Kabel Flash Charge USB do Lightning Joyroom SA26-AL3 /3A / 1 | — | 5 |
 | `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 5 |
 | `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
-| `055035` | Magnetický základný adaptér PULUZ PU708B (1/4 palca) pre špo | — | 3 |
+| `055035` | Magnetický základný adaptér PULUZ PU708B (1/4 palca) pre špo | — | 2 |
 | `053576` | Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1, | — | 5 |
 | `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
 | `053572` | Kábel Pioneer USB-C do USB C Joyroom SA31-CC5 / 240W / 1,2 m | — | 3 |
@@ -274,6 +273,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083518` | Silikónové ochranné puzdro Puluz s popruhom pre DJI Osmo Act | — | 5 |
 | `083520` | Magnetický adaptér s rýchloupínačom Puluz pre DJI Osmo Actio | — | 5 |
 | `083450` | RayNeo Air 3s Pro tónovací uzáver okuliarov | — | 5 |
+| `083454` | RayNeo Back Clip mobilný dokovací držiak pre Switch 2 | — | 5 |
 | `082348` | Chladiaci ventilátor Darkflash DE8 (čierny) | — | 5 |
 | `082349` | Chladiaci ventilátor Darkflash DE8 (biely) | — | 5 |
 | `083944` | Inteligentný termohygrometer Rainpoint Smart+ | — | 5 |
@@ -379,7 +379,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089666` | Penový ochranný kryt Puluz pre Insta360 X5, X4 a X3 (balenie | — | 5 |
 | `089669` | Tvrdené sklo Puluz pre DJI Osmo Action 5 Pro (číre) | — | 5 |
 | `089671` | Skladací statív Puluz pre mobilné telefóny | — | 5 |
-| `089594` | Držiak Puluz s nastaviteľným 1/4-palcovým závitom pre akčné  | — | 5 |
+| `089594` | Držiak Puluz s nastaviteľným 1/4-palcovým závitom pre akčné  | — | 4 |
 | `089585` | Bočná kefa MOVA pre model E40 Ultra | — | 5 |
 | `089895` | Sunnylife Insta360 GO Ultra silikónový náramok (čierny) | — | 5 |
 | `089897` | Univerzálny držiak na telefón Sunnylife s klipom | — | 5 |
