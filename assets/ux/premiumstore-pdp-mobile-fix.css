@@ -131,3 +131,11 @@
     white-space: normal !important;
   }
 }
+
+@media (max-width: 360px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-final-price-wrapper > .price-standard,
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-final-price-wrapper > .price-save {
+    font-size: 23px !important;
+    line-height: 1.15 !important;
+  }
+}
