@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-28 10:20 UTC.
+Kontrola z 2026-09-28 21:29 UTC.
 
-InnPro pri **393** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **392** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -123,7 +123,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
 | `056365` | Nalepovacie termoštítky Niimbot 25 x 60 mm, 110 ks (biele) | — | 5 |
 | `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
-| `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 5 |
 | `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |

@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26998,
-  "matchedRules": 2270,
-  "changedProducts": 987,
+  "totalProducts": 26980,
+  "matchedRules": 2269,
+  "changedProducts": 986,
   "rejected": [
     {
       "supplier": "atos",
@@ -2123,7 +2123,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Batérie a nabíjačky pre kamery",
-      "visibleUnique": 26,
+      "visibleUnique": 27,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },
@@ -2141,7 +2141,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery",
-      "visibleUnique": 114,
+      "visibleUnique": 113,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
@@ -2153,7 +2153,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Selfie tyče pre kamery",
-      "visibleUnique": 23,
+      "visibleUnique": 22,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
