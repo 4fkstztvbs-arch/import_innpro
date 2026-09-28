@@ -1,8 +1,8 @@
 {
-  "fetchedAt": "2026-09-21T10:24:20.322Z",
+  "fetchedAt": "2026-09-28T11:26:30.392Z",
   "domain": "heureka.sk",
-  "productCount": 7,
-  "matchedProductCount": 5,
+  "productCount": 8,
+  "matchedProductCount": 6,
   "unmatchedEanCount": 0,
   "noEanCount": 2,
   "products": [
@@ -31,7 +31,7 @@
     },
     {
       "ean": "5908261687204",
-      "heurekaProductName": "Freestyle koloběžka NILS Extreme HS221 Spider",
+      "heurekaProductName": "Freestyle kolobežka NILS Extreme HS221 Spider",
       "heurekaUrl": "https://www.premiumstore.sk/freestyle-kolobezka-nils-extreme-hs221-spider/",
       "ourName": "Freestyle koloběžka NILS Extreme HS221 Spider",
       "ourCode": "ABL-16-50-253",
@@ -95,6 +95,29 @@
           "summary": "",
           "reaction": "",
           "unixTimestamp": 1788550083
+        }
+      ]
+    },
+    {
+      "ean": "6925281996719",
+      "heurekaProductName": "JBL BAR 800",
+      "heurekaUrl": "https://www.premiumstore.sk/jbl-bar-800/",
+      "ourName": "JBL BAR 800",
+      "ourCode": "100002203850",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6851306",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "Skvelý zvuk\nElegantný dizajn\nJednoduché ovládanie\nDobrá hodnota za peniaze\nJednoduchá inštalácia",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1787112489
         }
       ]
     },
