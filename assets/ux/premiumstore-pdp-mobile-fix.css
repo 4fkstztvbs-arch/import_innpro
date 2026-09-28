@@ -1,13 +1,19 @@
 /* Mobile product purchase controls and compact product details. */
 @media (max-width: 767px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr:first-child,
+  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr.p-code {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) max-content !important;
+    align-items: center !important;
+  }
   body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr:first-child th,
   body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr.p-code th {
-    width: 38% !important;
+    width: auto !important;
     white-space: nowrap !important;
   }
   body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr:first-child td,
   body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr.p-code td {
-    width: 62% !important;
+    width: auto !important;
     white-space: nowrap !important;
   }
   body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr:first-child .availability-label,
