@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27006,
-  "matchedRules": 2274,
-  "changedProducts": 225,
+  "totalProducts": 26998,
+  "matchedRules": 2270,
+  "changedProducts": 987,
   "rejected": [
     {
       "supplier": "atos",
@@ -1835,13 +1835,13 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
-      "visibleUnique": 45,
+      "visibleUnique": 44,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
     },
     {
       "path": "Chovateľské potreby > Fontány a napájačky > Filtre a čerpadlá do fontán",
-      "visibleUnique": 11,
+      "visibleUnique": 12,
       "active": true,
       "parent": "Chovateľské potreby > Fontány a napájačky"
     },
@@ -2069,7 +2069,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 113,
+      "visibleUnique": 112,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2123,7 +2123,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Batérie a nabíjačky pre kamery",
-      "visibleUnique": 27,
+      "visibleUnique": 26,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },
@@ -2141,7 +2141,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery",
-      "visibleUnique": 115,
+      "visibleUnique": 114,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
@@ -2153,7 +2153,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Selfie tyče pre kamery",
-      "visibleUnique": 24,
+      "visibleUnique": 23,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
