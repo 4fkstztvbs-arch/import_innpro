@@ -135,8 +135,9 @@
 }
 
 @media (max-width: 767px) {
-  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout th::after {
+  html body.type-detail.ps-pdp-v1 #product-detail-form #product-detail-form table.detail-parameters.shipping-options-layout > tbody > tr > th::after {
     right: 12px !important;
+    width: calc(100% - 12px) !important;
   }
 }
 
