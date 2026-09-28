@@ -1,24 +1,42 @@
 /* Mobile product purchase controls and compact product details. */
 @media (max-width: 767px) {
-  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr:first-child,
-  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr.p-code {
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: fixed !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout > tbody {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout > tbody > tr {
     display: grid !important;
+    box-sizing: border-box !important;
     grid-template-columns: minmax(0, 1fr) max-content !important;
     align-items: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
-  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr:first-child th,
-  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr.p-code th {
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout th,
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout td {
+    box-sizing: border-box !important;
+    min-width: 0 !important;
     width: auto !important;
+    padding: 5px 0 !important;
     white-space: nowrap !important;
   }
-  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr:first-child td,
-  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr.p-code td {
-    width: auto !important;
-    white-space: nowrap !important;
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout th {
+    text-align: left !important;
   }
-  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr:first-child .availability-label,
-  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters.shipping-options-layout tr.p-code td > span {
-    white-space: nowrap !important;
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout td {
+    text-align: right !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form table.detail-parameters.shipping-options-layout tr.shipping-options-row td {
+    grid-column: 1 / -1 !important;
+    text-align: left !important;
   }
 
   body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block {
