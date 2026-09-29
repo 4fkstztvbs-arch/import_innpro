@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26939,
-  "matchedRules": 2265,
-  "changedProducts": 225,
+  "totalProducts": 26969,
+  "matchedRules": 2277,
+  "changedProducts": 999,
   "rejected": [
     {
       "supplier": "atos",
@@ -1698,78 +1698,170 @@
       "supplier": "penta",
       "code": "553768",
       "reason": "Reviewed product name changed"
-    },
+    }
+  ],
+  "categoryDrifts": [
     {
       "supplier": "wiim",
       "code": "WiiM_AMP_Ultra_013",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "WiiM_AMP_Ultra_004",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "WiiM_Amp_Pro_003",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "WiiM_AMP_013",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "WiiM_AMP_003",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "WiiM_Vibelink_013",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "WiiM_Vibelink_003",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "NORWIISOUWALBK",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "NORWIISOUWALWT",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "NORWIISOUBK",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "NORWIISOUWT",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "WiiM_VR_001",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike"
+      ]
     },
     {
       "supplier": "wiim",
       "code": "WiiM_WVR_002",
-      "reason": "Reviewed product name changed"
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike"
+      ]
     }
   ],
-  "categoryDrifts": [],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
-      "visibleUnique": 20,
+      "visibleUnique": 21,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -1841,7 +1933,7 @@
     },
     {
       "path": "Chovateľské potreby > Fontány a napájačky > Filtre a čerpadlá do fontán",
-      "visibleUnique": 11,
+      "visibleUnique": 13,
       "active": true,
       "parent": "Chovateľské potreby > Fontány a napájačky"
     },
@@ -1955,7 +2047,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
-      "visibleUnique": 39,
+      "visibleUnique": 40,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
@@ -2105,7 +2197,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 83,
+      "visibleUnique": 82,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
@@ -2147,19 +2239,19 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Popruhy a postroje pre kamery",
-      "visibleUnique": 12,
+      "visibleUnique": 13,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Selfie tyče pre kamery",
-      "visibleUnique": 22,
+      "visibleUnique": 20,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Statívy pre fotoaparáty a kamery",
-      "visibleUnique": 28,
+      "visibleUnique": 27,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },

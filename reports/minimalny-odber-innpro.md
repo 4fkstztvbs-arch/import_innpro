@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-09-29 01:22 UTC.
+Kontrola z 2026-09-29 10:16 UTC.
 
 InnPro pri **388** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -12,7 +12,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `016544` | Kábel Baseus Cafule Micro USB 1,5A 2 m (červený+čierny) | — | 5 |
 | `018164` | Baseus Cafule USB Lightning kábel 2,4 A 0,5 m (červený) | — | 5 |
 | `018159` | Baseus Cafule USB Lightning kábel 1,5 A 2 m (sivý+čierny) | — | 5 |
-| `018665` | Selfie tyč Puluz pre športové fotoaparáty (DJI, GoPro, Insta | — | 5 |
 | `017838` | Yeelight LED Lightstrip Extension (1 m) | — | 5 |
 | `018671` | Čiapka Puluz s držiakom pre športovú kameru (DJI, GoPro, Ins | — | 5 |
 | `018672` | Náramok Puluz s nástavcom na športovú kameru (vrátane Ace Pr | — | 5 |
@@ -45,12 +44,12 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
 | `029279` | Zadné svetlo na bicykel Superfire BTL01, USB, 230 mAh | — | 5 |
 | `029282` | Baterka Superfire S33-A – USB, čierna, 4 režimy | — | 5 |
+| `030318` | Hrudný popruh Telesin s držiakom pre športové kamery (GP-CGP | — | 5 |
 | `030322` | Baseus Crystal Shine kábel USB na Lightning, 2,4A, 1,2 m (mo | — | 5 |
 | `030381` | Baseus Dynamic kábel USB na Lightning, 2,4 A, 2 m (fialový) | — | 5 |
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 5 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `033419` | Mäkká kefa pre Dreame V10 Pro | — | 5 |
-| `032796` | Počítačový ventilátor Darkflash CL12 LED (120x120) | — | 5 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
@@ -344,6 +343,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |
 | `088984` | Rezná podložka HTVRONT, 34,8 cm x 37 cm, balenie po 3 kusoch | — | 5 |
 | `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
+| `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 5 |
 | `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
 | `087023` | Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 | — | 5 |
