@@ -8,6 +8,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..');
+const SALE_STATE_PATH = path.join(ROOT, 'data', 'vypredaj.json');
+const SALE_SOURCE_CACHE_PATH = path.join(ROOT, 'data', 'sklbb-source-items.json');
 const MIN_COUNT_RATIO = Number(process.env.MISSING_PRODUCT_MIN_RATIO || '0.70');
 const UNAVAILABLE_LABEL = process.env.MISSING_PRODUCT_AVAILABILITY || 'Vypredané';
 const DETAIL_ONLY = 'detailOnly';
@@ -35,6 +37,32 @@ function xmlText(value) {
 function field(item, name) {
   const match = item.match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)<\\/${name}>`, 'i'));
   return match ? decodeXml(match[1]) : '';
+}
+
+function clearSaleState(block, regularPrice = '') {
+  let updated = block;
+  for (const name of ['ACTION', 'CUSTOM1']) {
+    const legacy = new RegExp(`<${name}\\b[^>]*>[\\s\\S]*?<\\/${name}>`, 'i');
+    if (legacy.test(updated)) updated = updated.replace(legacy, `<${name}>0</${name}>`);
+    else {
+      const flag = new RegExp(`(<FLAG\\b[^>]*>[\\s\\S]*?<CODE>\\s*${name.toLowerCase()}\\s*<\\/CODE>[\\s\\S]*?<ACTIVE>)[\\s\\S]*?(<\\/ACTIVE>[\\s\\S]*?<\\/FLAG>)`, 'i');
+      if (flag.test(updated)) updated = updated.replace(flag, (_m, before, after) => `${before}0${after}`);
+      else {
+        const flags = updated.match(/<FLAGS\b[^>]*>[\s\S]*?<\/FLAGS>/i);
+        if (flags) updated = updated.replace(flags[0], flags[0].replace('</FLAGS>', `<${name}>0</${name}></FLAGS>`));
+        else updated = updated.replace('</SHOPITEM>', `<FLAGS><${name}>0</${name}></FLAGS>\n  </SHOPITEM>`);
+      }
+    }
+  }
+  if (regularPrice) {
+    const escaped = xmlText(regularPrice);
+    for (const name of ['STANDARD_PRICE', 'ACTION_PRICE']) {
+      const re = new RegExp(`<${name}\\b[^>]*>[\\s\\S]*?<\\/${name}>`, 'i');
+      if (re.test(updated)) updated = updated.replace(re, `<${name}>${escaped}</${name}>`);
+      else updated = updated.replace('</SHOPITEM>', `<${name}>${escaped}</${name}>\n  </SHOPITEM>`);
+    }
+  }
+  return updated;
 }
 
 function productIdentity(code, ean) {
@@ -94,6 +122,8 @@ function main() {
   for (const key of currentByIdentity.keys()) existingTombstones.delete(key);
 
   const statePath = path.join(ROOT, 'data', 'availability-state', `${supplier}.json`);
+  const saleState = fs.existsSync(SALE_STATE_PATH) ? JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')) : { items: {} };
+  const saleSourceCache = fs.existsSync(SALE_SOURCE_CACHE_PATH) ? JSON.parse(fs.readFileSync(SALE_SOURCE_CACHE_PATH, 'utf8')) : {};
   const prior = readState(statePath);
   if (prior?.activeItemCount && activeItemCount / prior.activeItemCount < MIN_COUNT_RATIO) {
     throw new Error(`${supplier}: product count dropped to ${(100 * activeItemCount / prior.activeItemCount).toFixed(1)}% of the last complete feed (${activeItemCount}/${prior.activeItemCount}); refusing to classify products as missing.`);
@@ -111,11 +141,29 @@ function main() {
   }
 
   const tombstones = [...nextMissing.entries()].filter(([key]) => !existingTombstones.has(key))
-    .map(([, product]) => product).sort((a, b) => a.code.localeCompare(b.code)).map(product =>
-      `  <SHOPITEM>\n    <CODE>${xmlText(product.code)}</CODE>${product.ean ? `\n    <EAN>${xmlText(product.ean)}</EAN>` : ''}\n    <AVAILABILITY>${xmlText(UNAVAILABLE_LABEL)}</AVAILABILITY>\n    <VISIBILITY>${DETAIL_ONLY}</VISIBILITY>\n  </SHOPITEM>`);
-  const output = tombstones.length
-    ? xml.replace(/\s*<\/SHOP>\s*$/i, `\n${tombstones.join('\n')}\n</SHOP>\n`)
-    : xml;
+    .map(([, product]) => product).sort((a, b) => a.code.localeCompare(b.code)).map(product => {
+      const soldOutSale = saleState.items?.[product.code]?.quantity === 0;
+      let tombstone = `  <SHOPITEM>\n    <CODE>${xmlText(product.code)}</CODE>${product.ean ? `\n    <EAN>${xmlText(product.ean)}</EAN>` : ''}\n    <AVAILABILITY>${xmlText(UNAVAILABLE_LABEL)}</AVAILABILITY>\n    <VISIBILITY>${DETAIL_ONLY}</VISIBILITY>\n  </SHOPITEM>`;
+      if (soldOutSale) {
+        const source = saleSourceCache[product.code]?.block || '';
+        const regular = source ? Number(field(source, 'PRICE_VAT')) : 0;
+        const supplierAction = source ? Number(field(source, 'ACTION_PRICE')) : 0;
+        const restoredPrice = supplierAction > 0 && supplierAction < regular ? supplierAction : regular;
+        tombstone = clearSaleState(tombstone, Number.isFinite(restoredPrice) && restoredPrice > 0 ? restoredPrice.toFixed(2) : '');
+      }
+      return tombstone;
+    });
+  let output = xml.replace(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/gi, block => {
+    const code = field(block, 'CODE');
+    if (saleState.items?.[code]?.quantity !== 0 || field(block, 'VISIBILITY') !== DETAIL_ONLY
+        || field(block, 'AVAILABILITY') !== UNAVAILABLE_LABEL) return block;
+    const source = saleSourceCache[code]?.block || '';
+    const regular = source ? Number(field(source, 'PRICE_VAT')) : 0;
+    const supplierAction = source ? Number(field(source, 'ACTION_PRICE')) : 0;
+    const restoredPrice = supplierAction > 0 && supplierAction < regular ? supplierAction : regular;
+    return clearSaleState(block, Number.isFinite(restoredPrice) && restoredPrice > 0 ? restoredPrice.toFixed(2) : '');
+  });
+  if (tombstones.length) output = output.replace(/\s*<\/SHOP>\s*$/i, `\n${tombstones.join('\n')}\n</SHOP>\n`);
   if (output === xml && tombstones.length) throw new Error(`${supplier}: could not append tombstones to XML.`);
 
   fs.mkdirSync(path.dirname(statePath), { recursive: true });

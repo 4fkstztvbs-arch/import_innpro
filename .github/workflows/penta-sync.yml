@@ -99,8 +99,8 @@ jobs:
           node scripts/localize-product-names.js --supplier=penta --in=output/penta.xml --out=output/penta.xml --strict=0
           node scripts/validate-product-name-localization.js --supplier=penta --before=/tmp/penta-before-name-localization.xml --after=output/penta.xml
           node scripts/check-feed-size.js
-      - name: Build isolated Sklad BB feed
-        run: node scripts/build-sklad-bb-feed.js
+      - name: Apply internal sale state to original supplier products
+        run: node scripts/apply-vypredaj-to-feeds.js
 
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z Penta feedu
         run: node scripts/apply-missing-availability.js --supplier=penta --xml=output/penta.xml

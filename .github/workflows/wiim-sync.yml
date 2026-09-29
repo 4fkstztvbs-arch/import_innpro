@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: wiim-sync
+  group: premiumstore-vypredaj-state
   cancel-in-progress: false
 
 jobs:
@@ -37,6 +37,9 @@ jobs:
       - name: Generate WiiM feed
         run: node scripts/transform-wiim.js
 
+      - name: Apply internal sale state to original supplier products
+        run: node scripts/apply-vypredaj-to-feeds.js
+
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z WiiM feedu
         run: node scripts/apply-missing-availability.js --supplier=wiim --xml=output/wiim.xml
 
@@ -49,7 +52,7 @@ jobs:
           set -euo pipefail
           git config user.name "wiim-sync-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add output/wiim.xml data/availability-state/wiim.json
+          git add -A
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0

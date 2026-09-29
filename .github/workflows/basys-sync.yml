@@ -82,8 +82,8 @@ jobs:
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
 
-      - name: Build isolated Sklad BB feed
-        run: node scripts/build-sklad-bb-feed.js
+      - name: Apply internal sale state to original supplier products
+        run: node scripts/apply-vypredaj-to-feeds.js
 
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z BASYS feedu
         run: node scripts/apply-missing-availability.js --supplier=basys --xml=output/basys.xml
