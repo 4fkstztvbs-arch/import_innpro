@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600424,
+    "nextCardNumber": 202600435,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2540,6 +2540,72 @@
         "nazov": "Maxxo NIR Rapid Dry",
         "dodavatel": "kb",
         "code": "100002202939"
+      },
+      "5908254849091": {
+        "kod": "202600424",
+        "nazov": "ORNO OR-GM-9046/W Zásuvka zápustná s víčkem, 2x 230V, bílá, IP55, ovalná",
+        "dodavatel": "atos",
+        "code": "ATO-OR-GM-9046/W"
+      },
+      "1234567898765": {
+        "kod": "202600425",
+        "nazov": "Zemnící svorka na okapové svody ST FeZn (ocel/zinek) s páskem Tremis V095",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "5901890134040": {
+        "kod": "202600426",
+        "nazov": "Zátěžová deka Rebel RBY-2000-3 3 kg (100x150 cm) vesmír",
+        "dodavatel": "atos",
+        "code": "ATO-RBY-2000-3"
+      },
+      "8595689802653": {
+        "kod": "202600427",
+        "nazov": "DVBT2 TESLA TE-323 V2 (USB, učící DO + SENIOR DO, HDMI, SCART, IR čidlo, displ",
+        "dodavatel": "atos",
+        "code": "TESLA-TE-323-V2"
+      },
+      "8594016909669": {
+        "kod": "202600428",
+        "nazov": "DVBT2 MASCOM MC710T2 HD (USB, HDMI, SCART, LAN, H.265)",
+        "dodavatel": "atos",
+        "code": "MC710T2"
+      },
+      "9876543211234": {
+        "kod": "202600429",
+        "nazov": "Vysílač DO DI-WAY IRD-265HD / HD-BOX HS-265IRD +++ORIGINÁL+++",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "5901436798514": {
+        "kod": "202600430",
+        "nazov": "Kon.redukce HDMI-HDMI Cabletech ZLA0852 úhlová flexibilní otočná",
+        "dodavatel": "atos",
+        "code": "LEC-ZLA0852"
+      },
+      "8592920091166": {
+        "kod": "202600431",
+        "nazov": "Anténa EMOS DIO-V700 (EM-DIO3) (0-80 km) --LTE700/5G--",
+        "dodavatel": "atos",
+        "code": "EMO2702029000"
+      },
+      "8591686041330": {
+        "kod": "202600432",
+        "nazov": "Deka ochranná do auta pro psa Compass 04133",
+        "dodavatel": "atos",
+        "code": "CMP-04133"
+      },
+      "5901890132664": {
+        "kod": "202600433",
+        "nazov": "Rádio KRUGER & MATZ KM0838 SOS FM AM AUX, powerbanka 10000mAh, svítilna,",
+        "dodavatel": "atos",
+        "code": "LEC-KM0838"
+      },
+      "8596425093656": {
+        "kod": "202600434",
+        "nazov": "HDX- Napájecí zdroj-modul WX-DC2416 100-265VAC/36VDC 5A /M395B/",
+        "dodavatel": "atos",
+        "code": "ATO-M395B"
       }
     }
   },
