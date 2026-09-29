@@ -1041,5 +1041,19 @@
     "subject": "Re: Vaša objednávka č. 202601054 sa práve vybavuje",
     "orderCode": "202601054",
     "matchedBy": "code"
+  },
+  "<AS2PR03MB9052FB61C3D6FCD610D0D74DF28C2@AS2PR03MB9052.eurprd03.prod.outlook.com>": {
+    "draftedAt": "2026-09-29T19:20:30.988Z",
+    "from": "steviskus@gmail.com",
+    "subject": "Re: Dotaz k objednávke č.202600994",
+    "orderCode": "202600994",
+    "matchedBy": "code"
+  },
+  "<CAFkSneRraW7TJ2za5xcwfJWx+RVPx8b6W_YJtCcE23d=ZVDUoQ@mail.gmail.com>": {
+    "draftedAt": "2026-09-29T19:20:36.163Z",
+    "from": "milan.macko1952@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600943 sa práve vybavuje",
+    "orderCode": "202600943",
+    "matchedBy": "code"
   }
 }
