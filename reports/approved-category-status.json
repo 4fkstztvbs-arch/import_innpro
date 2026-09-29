@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26980,
-  "matchedRules": 2269,
-  "changedProducts": 986,
+  "totalProducts": 26993,
+  "matchedRules": 2270,
+  "changedProducts": 988,
   "rejected": [
     {
       "supplier": "atos",
@@ -1805,7 +1805,7 @@
     },
     {
       "path": "Auto-moto > Elektronika do auta > Kamery do auta",
-      "visibleUnique": 44,
+      "visibleUnique": 45,
       "active": true,
       "parent": "Auto-moto > Elektronika do auta"
     },
@@ -1925,7 +1925,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
-      "visibleUnique": 82,
+      "visibleUnique": 83,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },

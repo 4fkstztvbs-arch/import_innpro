@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-09-28
+# Cenové anomálie vynechané z feedu — innpro — 2026-09-29
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -41,7 +41,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092887 | 6975116296231 | Dávkovač vody bez filtra Rojeco PTM673 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 27.75 € | 1.30 € | 1/21.3x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 27.75 € | 1.00 € | 1/27.8x | 24 |
-| 078908 | 5907085524887 | Batéria Flytec V030 s kapacitou 20 000 mAh | zmena ceny > 5x oproti minulému importu | 250.50 € | 44.50 € | 1/5.6x |  |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 14 |
 | 089027 | 6975069302393 | Súprava na čistenie fontány pre domáce zvieratá Petkit | cena mimo 8x rozsah mediánu kategórie | 54.50 € | 5.30 € | 1/10.3x | 23 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 14 |
