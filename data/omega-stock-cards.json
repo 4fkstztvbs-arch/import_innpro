@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600421,
+    "nextCardNumber": 202600424,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2522,6 +2522,24 @@
         "nazov": "JBL JR470 růžová",
         "dodavatel": "kb",
         "code": "100002136479"
+      },
+      "8595689803087": {
+        "kod": "202600421",
+        "nazov": "Tesla TE-222 Dongle, DVB-T2",
+        "dodavatel": "kb",
+        "code": "100001815989"
+      },
+      "8595235807200": {
+        "kod": "202600422",
+        "nazov": "BWT VIDA MEI černá, 2,6l + 3x filtr",
+        "dodavatel": "kb",
+        "code": "100002101647"
+      },
+      "8595235807101": {
+        "kod": "202600423",
+        "nazov": "Maxxo NIR Rapid Dry",
+        "dodavatel": "kb",
+        "code": "100002202939"
       }
     }
   },
