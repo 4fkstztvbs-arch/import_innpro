@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600409,
+    "nextCardNumber": 202600414,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2450,6 +2450,36 @@
         "nazov": "Behringer Flow 8 Digital Mixer",
         "dodavatel": "basys",
         "code": ""
+      },
+      "8592718042707": {
+        "kod": "202600409",
+        "nazov": "Dok stojan V11, V15 Detect, Outsize",
+        "dodavatel": "solight",
+        "code": "DSP-DYV11DMS"
+      },
+      "8592718017101": {
+        "kod": "202600410",
+        "nazov": "Náhradný akumulátor",
+        "dodavatel": "solight",
+        "code": "WN900"
+      },
+      "8592718030476": {
+        "kod": "202600411",
+        "nazov": "LED solárne svetlo so senzorom, 11W, 1200lm,",
+        "dodavatel": "solight",
+        "code": "WO785-1"
+      },
+      "8592718022501": {
+        "kod": "202600412",
+        "nazov": "Diaľkovo ovládanéGSM diaľkovo ovládaná zásuvka",
+        "dodavatel": "solight",
+        "code": "DY10GSM"
+      },
+      "8592718026707": {
+        "kod": "202600413",
+        "nazov": "LED nabíjacie svietidlo,",
+        "dodavatel": "solight",
+        "code": "WN34"
       }
     }
   },
