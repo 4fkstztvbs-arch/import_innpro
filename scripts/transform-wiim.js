@@ -198,8 +198,8 @@ function main() {
     try {
       const beforeXml = fs.readFileSync(OUT_PATH, 'utf8');
       const localized = localizeXml(beforeXml, { supplier: 'wiim' });
-      if (localized.report.issueCount) {
-        throw new Error(localized.report.issueCount + ' product-name identity mismatch(es)');
+      if (localized.report.issues.length) {
+        throw new Error(localized.report.issues.length + ' product-name identity mismatch(es)');
       }
       const validation = validateXml(beforeXml, localized.xml, { supplier: 'wiim' });
       if (!validation.ok) {
@@ -207,9 +207,9 @@ function main() {
       }
       fs.writeFileSync(OUT_PATH, localized.xml, 'utf8');
       console.log('Slovak NAME localization:', JSON.stringify({
-        changed: localized.report.changedCount,
-        skippedCtr: localized.report.skippedCtr.length,
-        sourceDrift: localized.report.issueCount,
+        changed: localized.report.changed.length,
+        alreadyLocalized: localized.report.alreadyLocalized.length,
+        sourceDrift: localized.report.issues.length,
       }));
       console.log(JSON.stringify(stats, null, 2));
       if (unmappedProducts.size) {
