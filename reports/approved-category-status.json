@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26943,
-  "matchedRules": 2266,
-  "changedProducts": 4,
+  "totalProducts": 26939,
+  "matchedRules": 2265,
+  "changedProducts": 225,
   "rejected": [
     {
       "supplier": "atos",
@@ -1955,7 +1955,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
-      "visibleUnique": 40,
+      "visibleUnique": 39,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
