@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-09-29 10:16 UTC.
+Kontrola z 2026-09-29 20:21 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -20,17 +20,10 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `100001880301` | Drosselmeyer NCGP03 |
 
-## wiim — 29 ks
+## wiim — 16 ks
 
 | Kód | Produkt |
 |---|---|
-| `WiiM_AMP_Ultra_013` | WiiM Amp Ultra Silver |
-| `WiiM_AMP_Ultra_004` | WiiM Amp Ultra Grey |
-| `WiiM_Amp_Pro_003` | WiiM Amp Pro Grey |
-| `WiiM_AMP_013` | WiiM Amp Silver |
-| `WiiM_AMP_003` | WiiM Amp Grey |
-| `WiiM_Vibelink_013` | WiiM Vibelink Silver |
-| `WiiM_Vibelink_003` | WiiM Vibelink Grey |
 | `WiiM_Ultra_013` | WiiM Ultra Silver |
 | `WiiM_Ultra_004` | WiiM Ultra Grey |
 | `WiiM_Pro_PLUS` | WiiM Pro Plus Black |
@@ -47,10 +40,4 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `WiiM-Sound-Lite-White-2-pack` | WiiM Sound Lite Twin Pack White |
 | `WiiM_SUB_PRO_003` | WiiM Sub Pro Black |
 | `WiiM_SUB_PRO_013` | WiiM Sub Pro White |
-| `NORWIISOUWALBK` | WiiM Sound Wall Mount Black |
-| `NORWIISOUWALWT` | WiiM Sound Wall Mount White |
-| `NORWIISOUBK` | WiiM Sound Floor Stand Black |
-| `NORWIISOUWT` | WiiM Sound Floor Stand White |
-| `WiiM_VR_001` | WiiM Remote Black |
-| `WiiM_WVR_002` | WiiM Voice Remote 2 Silver |
 
