@@ -117,7 +117,11 @@ function applyOrders(stateInput, orders) {
       const code = orderCode.startsWith('SKLBB-') ? orderCode.slice('SKLBB-'.length) : orderCode;
       const item = state.items[code];
       if (!item || item.quantity <= 0) continue;
-      quantities.set(code, 1);
+      const amount = Number(text(line.AMOUNT ?? line.QUANTITY));
+      if (!Number.isSafeInteger(amount) || amount <= 0) {
+        throw new Error(`Objednávka ${text(order.CODE) || '(bez čísla)'} obsahuje neplatné množstvo pre výpredajový kód ${code}.`);
+      }
+      quantities.set(code, (quantities.get(code) || 0) + amount);
     }
     if (!quantities.size) continue;
     const orderId = text(order.CODE) || text(order.ORDER_ID);

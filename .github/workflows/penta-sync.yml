@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: premiumstore-vypredaj-state
-  cancel-in-progress: false
+  queue: max
 
 jobs:
   sync:

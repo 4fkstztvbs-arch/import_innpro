@@ -30,16 +30,23 @@ test('deducts each matching order only once and never charges pre-activation ord
   const orders = [
     { CODE: 'OLD', DATE: '2026-09-25 11:59:59', ITEMS: { ITEM: { CODE: 'RET-001', AMOUNT: '3' } } },
     { CODE: 'NEW', DATE: '2026-09-25 14:01:00', ITEMS: { ITEM: [
-      { CODE: 'RET-001', AMOUNT: '1' }, { CODE: 'RET-001', AMOUNT: '1' },
+      { CODE: 'RET-001', AMOUNT: '2' }, { CODE: 'RET-001', AMOUNT: '1' },
     ] } },
   ];
   let result = applyOrders(state, orders);
   state = result.state;
-  assert.equal(state.items['RET-001'].quantity, 3);
-  assert.deepEqual(result.changes.map((x) => [x.orderId, x.amount, x.after]), [['NEW', 1, 3]]);
+  assert.equal(state.items['RET-001'].quantity, 1);
+  assert.deepEqual(result.changes.map((x) => [x.orderId, x.amount, x.after]), [['NEW', 3, 1]]);
   result = applyOrders(state, orders);
-  assert.equal(result.state.items['RET-001'].quantity, 3);
+  assert.equal(result.state.items['RET-001'].quantity, 1);
   assert.equal(result.changes.length, 0);
+});
+
+test('fails closed when an active sale order has no valid ordered quantity', () => {
+  const state = addItems(createEmptyState(), [{ code: 'RET-001', quantity: 2 }], '2026-09-25T12:00:00Z');
+  assert.throws(() => applyOrders(state, [
+    { CODE: 'NEW', DATE: '2026-09-25 14:01:00', ITEMS: { ITEM: { CODE: 'RET-001' } } },
+  ]), /neplatné množstvo/);
 });
 
 test('renders a five percent ACTION_PRICE and resets it to standard price at zero', () => {
@@ -47,12 +54,13 @@ test('renders a five percent ACTION_PRICE and resets it to standard price at zer
   let result = applyVypredajToXml(feed, state);
   assert.match(result.xml, /<PRICE_VAT>100\.00<\/PRICE_VAT>/);
   assert.match(result.xml, /<ACTION_PRICE>95\.00<\/ACTION_PRICE>/);
-  assert.match(result.xml, /<FLAGS><ACTION>1<\/ACTION><\/FLAGS>/);
+  assert.match(result.xml, /<FLAGS><ACTION>0<\/ACTION><CUSTOM1>1<\/CUSTOM1><\/FLAGS>/);
 
   state.items['RET-001'].quantity = 0;
   result = applyVypredajToXml(feed, state);
   assert.match(result.xml, /<ACTION_PRICE>100\.00<\/ACTION_PRICE>/);
   assert.match(result.xml, /<ACTION>0<\/ACTION>/);
+  assert.match(result.xml, /<CUSTOM1>0<\/CUSTOM1>/);
   assert.doesNotMatch(result.xml, /<ACTION_PRICE><\/ACTION_PRICE>/);
 });
 

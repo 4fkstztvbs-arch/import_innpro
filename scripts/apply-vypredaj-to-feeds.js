@@ -13,6 +13,7 @@ const STATE_PATH = path.join(ROOT, 'data', 'vypredaj.json');
 const CACHE_PATH = path.join(ROOT, 'data', 'sklbb-source-items.json');
 const OUTPUT_DIR = path.join(ROOT, 'output');
 const SALE_FLAG = 'CUSTOM1';
+const SALE_AVAILABILITY = 'Skladom na predajni';
 
 function tag(block, name) {
   const m = block.match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)<\\/${name}>`, 'i'));
@@ -53,6 +54,20 @@ function setFlag(block, name, active) {
   return match ? block.replace(/<FLAGS\b[^>]*>[\s\S]*?<\/FLAGS>/i, xml) : block.replace('</SHOPITEM>', `${xml}\n</SHOPITEM>`);
 }
 function code(block) { return tag(block, 'CODE'); }
+function flagActive(block, name) {
+  const direct = block.match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)<\\/${name}>`, 'i'));
+  if (direct) return /^(1|true|yes)$/i.test(tag(block, name));
+  const flags = block.match(/<FLAGS\b[^>]*>([\s\S]*?)<\/FLAGS>/i)?.[1] || '';
+  for (const match of flags.matchAll(/<FLAG\b[^>]*>([\s\S]*?)<\/FLAG>/gi)) {
+    if (tag(match[1], 'CODE').toLowerCase() === name.toLowerCase()) {
+      return /^(1|true|yes)$/i.test(tag(match[1], 'ACTIVE'));
+    }
+  }
+  return false;
+}
+function isSaleAdjusted(block) {
+  return flagActive(block, SALE_FLAG) && tag(block, 'AVAILABILITY') === SALE_AVAILABILITY;
+}
 function updateBlock(block, item, productCode) {
   let updated = block;
   const regular = Number(tag(block, 'PRICE_VAT'));
@@ -71,7 +86,9 @@ function updateBlock(block, item, productCode) {
     if (!safePrice) console.warn(`Výpredaj ${productCode}: zľava 5 % by bola pod nákupnou cenou; ponechávam dodávateľskú cenu a nastavujem interný príznak.`);
     updated = setTag(updated, 'STANDARD_PRICE', reference.toFixed(2));
     updated = setTag(updated, 'ACTION_PRICE', actionPrice.toFixed(2));
-    updated = setTag(updated, 'AVAILABILITY', '<![CDATA[Skladom]]>');
+    // Sale stock is held at the shop. This Shoptet availability already carries
+    // a 24-hour delivery estimate; do not represent these units as sold out.
+    updated = setTag(updated, 'AVAILABILITY', `<![CDATA[${SALE_AVAILABILITY}]]>`);
     updated = setTag(updated, 'VISIBLE', '1');
     updated = setTag(updated, 'VISIBILITY', 'visible');
   } else {
@@ -102,8 +119,13 @@ function main() {
     const found = locations.get(productCode) || [];
     if (found.length > 1) throw new Error(`Kód ${productCode} sa nachádza vo viacerých dodávateľských feedech.`);
     let targetName = found[0]?.name;
-    let sourceBlock = found[0]?.block;
-    if (found.length) nextCache[productCode] = { sourceFile: targetName, block: sourceBlock };
+    const currentBlock = found[0]?.block;
+    const alreadyAdjusted = currentBlock ? isSaleAdjusted(currentBlock) : false;
+    let sourceBlock = alreadyAdjusted ? cache[productCode]?.block : currentBlock;
+    if (found.length && !alreadyAdjusted) nextCache[productCode] = { sourceFile: targetName, block: sourceBlock };
+    if (alreadyAdjusted && !sourceBlock) {
+      throw new Error(`Pre ${productCode} chýba čistý dodávateľský záznam potrebný na opakovanie alebo ukončenie výpredaja.`);
+    }
     if (!found.length && item.quantity > 0 && cache[productCode]?.block && cache[productCode]?.sourceFile) {
       targetName = cache[productCode].sourceFile;
       sourceBlock = cache[productCode].block;
@@ -114,7 +136,7 @@ function main() {
       nextCache[productCode] = { sourceFile: targetName, block: sourceBlock };
     }
     if (sourceBlock && targetName && touched.has(targetName)) {
-      const updated = updateBlock(sourceBlock, item, productCode);
+      const updated = item.quantity > 0 ? updateBlock(sourceBlock, item, productCode) : sourceBlock;
       let replaced = false;
       touched.set(targetName, touched.get(targetName).replace(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/g, (block) => {
         if (!replaced && code(block) === productCode) { replaced = true; return updated; }
