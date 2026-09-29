@@ -124,6 +124,9 @@ jobs:
       - name: Build isolated Sklad BB feed
         run: node scripts/build-sklad-bb-feed.js
 
+      - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z ATOS feedu
+        run: node scripts/apply-missing-availability.js --supplier=atos --xml=output/atos.xml
+
       - name: Commit updated output
         run: |
           git config user.name "atos-sync-bot"

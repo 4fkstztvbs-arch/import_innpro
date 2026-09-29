@@ -1,18 +1,9 @@
-// Poistka proti useknutému feedu. Shoptet má import nastavený tak, že **produkt, ktorý v súbore
-// nie je, zmaže** — nie skryje. Keď teda dodávateľ vráti feed, ktorý je technicky platný, ale
-// neúplný (zotavujúci sa server, výpadok databázy, zmena API), transform prebehne bez chyby,
-// zapíše skrátené XML, workflow ho commitne a Shoptet zmaže presne toľko produktov, koľko vo
-// feede chýba — aj s ich URL, hodnoteniami a históriou.
-//
-// Transformy padajú len vtedy, keď sa feed vôbec nedá stiahnuť. Práve prípad "stiahol sa a je
-// krátky" je ten nebezpečný, a ten tento skript zachytáva.
+// Záverečná poistka proti veľkému poklesu hotových výstupov po transformáciách.
+// Produkty, ktoré dodávateľ vyradí, zostávajú v importe ako URL-only riadky s dostupnosťou
+// Vypredané. Samostatný helper zároveň odmietne prázdny alebo výrazne skrátený vstup.
 //
 // Porovnáva počet položiek v každom output/*.xml s verziou v poslednom commite (`git show
-// HEAD:...`) — teda finálny stav proti finálnemu stavu, po všetkých post-processing krokoch.
-// Rovnaký princíp ako poistka v apply-product-flags.js.
-//
-// Beží ako POSLEDNÝ krok pred commitom. Keď nájde prepad, skončí chybou a workflow sa zastaví
-// skôr, než sa čokoľvek zapíše.
+// HEAD:...`). Pri veľkom prepade zastaví commit, aby sa najskôr skontroloval zdrojový feed.
 //
 // Usage: node scripts/check-feed-size.js
 //   FEED_MIN_RATIO=0.7   hranica (podiel oproti predošlému behu), default 0.7
@@ -78,14 +69,14 @@ for (const p of problemy) {
     + (p.predtym !== null ? ` oproti ${p.predtym} v predošlom behu` : ''));
 }
 console.log('');
-console.log('Import do Shoptetu maže produkty, ktoré vo feede nie sú, takže by sa takýto beh');
-console.log('prejavil zmazaním tovaru. Commit sa preto nevykonal a výstup zostal nezmenený.');
+console.log('Výstupný feed výrazne klesol oproti poslednému commitu.');
+console.log('Commit sa nevykonal; skontrolujte upstream feed a kroky spracovania.');
 console.log('');
 console.log('Čo ďalej:');
-console.log('  1. Pozrite log transformu — vrátil dodávateľ celý feed?');
-console.log('  2. Ak išlo o výpadok, stačí workflow spustiť znova, keď sa feed spraví.');
-console.log('  3. Ak feed klesol naozaj (dodávateľ vyradil sortiment), spustite workflow');
-console.log('     s FEED_SIZE_OVERRIDE=1 — zmazanie tovaru je vtedy zámer.');
+console.log('  1. Skontrolujte počty položiek zdrojového feedu a výstupu v logu transformu.');
+console.log('  2. Pri dočasnom výpadku zopakujte workflow po obnovení feedu.');
+console.log('  3. Pri očakávanom poklese skontrolujte missing-product state a URL-only riadky;');
+console.log('     FEED_SIZE_OVERRIDE=1 obíde iba túto výstupnú poistku.');
 
 if (OVERRIDE) {
   console.log('');

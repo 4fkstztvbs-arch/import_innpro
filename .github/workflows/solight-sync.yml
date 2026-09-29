@@ -103,6 +103,9 @@ jobs:
       - name: Build isolated Sklad BB feed
         run: node scripts/build-sklad-bb-feed.js
 
+      - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z Solight feedu
+        run: node scripts/apply-missing-availability.js --supplier=solight --xml=output/solight.xml
+
       - name: Commit updated output
         run: |
           git config user.name "solight-sync-bot"
