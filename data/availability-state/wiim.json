@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 26,
+  "activeItemCount": 29,
   "activeProducts": [
     {
       "key": "ean:195893478101",
@@ -21,6 +21,16 @@
       "key": "ean:3700795186909",
       "code": "NORWIISOUWT",
       "ean": "3700795186909"
+    },
+    {
+      "key": "ean:3700795186916",
+      "code": "NORWIISOUWALBK",
+      "ean": "3700795186916"
+    },
+    {
+      "key": "ean:3700795186923",
+      "code": "NORWIISOUWALWT",
+      "ean": "3700795186923"
     },
     {
       "key": "ean:602581806073",
@@ -131,23 +141,12 @@
       "key": "ean:795847057231",
       "code": "WiiM_AMP_003",
       "ean": "795847057231"
-    }
-  ],
-  "missingProducts": [
-    {
-      "key": "ean:3700795186916",
-      "code": "NORWIISOUWALBK",
-      "ean": "3700795186916"
-    },
-    {
-      "key": "ean:3700795186923",
-      "code": "NORWIISOUWALWT",
-      "ean": "3700795186923"
     },
     {
       "key": "ean:795847057279",
       "code": "WiiM_VR_001",
       "ean": "795847057279"
     }
-  ]
+  ],
+  "missingProducts": []
 }
