@@ -1,6 +1,11 @@
 name: ATOS daytime availability
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/atos-daytime-availability.yml'
+      - 'scripts/update-atos-availability.js'
   schedule:
     # Refresh 15 minutes before the configured Shoptet imports at 10:05, 12:05 and 17:05.
     - cron: '50 9,11,16 * * *'
