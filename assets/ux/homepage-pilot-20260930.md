@@ -6,14 +6,14 @@ Pilot pridáva BOSE hero, dva tematické bannery, 6 obrazových vstupov do kateg
 
 ## Zdroj a zapojenie
 
-- CSS: `premiumstore-homepage-pilot-20260930-v3.css`
+- CSS: `premiumstore-homepage-pilot-20260930-v4.css`
 - JS: `premiumstore-homepage-pilot-20260930-v1.js`
 - Oba nové súbory sú skopírované cez správcu súborov Shoptetu do `/user/documents/upload/`.
 - Do HEAD v Návrhári šablón je pridaný iba nasledujúci blok, pôvodný obsah ostáva zachovaný:
 
 ```html
 <!-- PremiumStore homepage preview pilot 2026-09-30 -->
-<link rel="stylesheet" href="/user/documents/upload/premiumstore-homepage-pilot-20260930-v3.css">
+<link rel="stylesheet" href="/user/documents/upload/premiumstore-homepage-pilot-20260930-v4.css">
 <script defer src="/user/documents/upload/premiumstore-homepage-pilot-20260930-v1.js"></script>
 ```
 
@@ -26,8 +26,12 @@ JS sa spustí iba pri existencii `body.type-index main#content`; pri chýbajúce
 1. Ak v koncepte nie sú ďalšie neskoršie úpravy, použiť Zrušiť koncept v Návrhári šablón. Tým sa vráti aktuálna verejná verzia.
 2. Ak sa medzičasom pridali iné úpravy, odstrániť iba uvedený blok z HEAD a znovu načítať náhľad. Nezverejňovať len kvôli zrušeniu pilotu.
 3. Pôvodné HEAD, BODY, dokončená objednávka, robots.txt, llms.txt, celý adresár assets/ux a SHA256 manifest sú zálohované súkromne lokálne. Administratívne kódy nesmú ísť do verejného repozitára.
-4. Produkčný základ GitHubu: `a7f4d9cfc6063f22d847e24f64f162e34ec50a4e`. Žiadne existujúce súbory sa v pilote neprepisujú. Staršie pilotné CSS v1/v2 v Shoptet úložisku sú neaktívne; nebolo potrebné nič mazať.
+4. Produkčný základ GitHubu: `a7f4d9cfc6063f22d847e24f64f162e34ec50a4e`. Žiadne existujúce súbory sa v pilote neprepisujú. Staršie pilotné CSS v1/v2/v3 v Shoptet úložisku sú neaktívne; nebolo potrebné nič mazať.
 
 ## Meranie po prípadnom schválení
 
 Hypotéza: jasnejšie tematické vstupy zjednodušia cestu z homepage ku kategórii alebo produktu. Vizuálny pilot nemeria obchodný výsledok a nedokazuje zvýšenie konverzií. Pred verejným experimentom overiť baseline a meranie CTR (viditeľné zobrazenia blokov aj kliknutia), conversion rate, revenue/session a výkon stránky. V pilote sa analytika nemení.
+
+## Interakcia kategórií
+
+Na výslovné želanie používateľa pridané jemné pootočenie obrázka (-5°), zväčšenie (1.07) a posun nahor (3 px) počas 240 ms pri hover/focus-visible. Iba precise hover pointer a prefers-reduced-motion:no-preference. Dotykové zariadenia ani obmedzenie pohybu efekt neaktivujú.
