@@ -1,0 +1,401 @@
+/* PremiumStore PDP v2 pilot. Scoped to product pages; header and footer stay native. */
+body.type-detail.ps-pdp-v1 .p-detail-inner,
+body.type-detail.ps-pdp-v1 .p-image-wrapper,
+body.type-detail.ps-pdp-v1 .p-data-wrapper,
+body.type-detail.ps-pdp-v1 #product-detail-form,
+body.type-detail.ps-pdp-v1 .ps-mobile-benefits {
+  box-sizing: border-box !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+body.type-detail.ps-pdp-v1 .p-detail-inner {
+  align-items: start !important;
+  gap: clamp(24px, 4vw, 56px) !important;
+}
+
+body.type-detail.ps-pdp-v1 .p-image-wrapper .p-image img {
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+body.type-detail.ps-pdp-v1 #product-detail-form {
+  border: 1px solid #e2e8ee !important;
+  border-radius: 18px !important;
+  background: #fff !important;
+  box-shadow: 0 10px 28px rgba(23, 40, 60, .07) !important;
+}
+
+body.type-detail.ps-pdp-v1 #product-detail-form .price-final-holder,
+body.type-detail.ps-pdp-v1 #product-detail-form .price-final,
+body.type-detail.ps-pdp-v1 #product-detail-form .p-final-price-wrapper {
+  color: #17283c !important;
+  font-variant-numeric: tabular-nums;
+}
+
+body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block .btn-cart,
+body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block .btn-conversion,
+body.type-detail.ps-pdp-v1 #product-detail-form [data-testid="buttonAddToCart"],
+body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart-button {
+  background: #167450 !important;
+  border-color: #167450 !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  font-weight: 700 !important;
+}
+
+body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block .btn-cart:hover,
+body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block .btn-conversion:hover,
+body.type-detail.ps-pdp-v1 #product-detail-form [data-testid="buttonAddToCart"]:hover,
+body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart-button:hover {
+  background: #145e41 !important;
+  border-color: #145e41 !important;
+}
+
+body.type-detail.ps-pdp-v1 #product-detail-form .ps-delivery-promise {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  color: #173b2e !important;
+  font-size: 15px !important;
+  line-height: 1.45 !important;
+}
+
+body.type-detail.ps-pdp-v1 .ps-mobile-benefit:nth-child(4) {
+  display: none !important;
+}
+
+@media (min-width: 1200px) {
+  body.type-detail.ps-pdp-v1 .p-detail-inner {
+    grid-template-columns: minmax(0, 1.08fr) minmax(390px, .92fr) !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form {
+    position: sticky !important;
+    top: 18px !important;
+    padding: 24px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  body.type-detail.ps-pdp-v1 .p-detail-inner {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 26px !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-image-wrapper,
+  body.type-detail.ps-pdp-v1 .p-data-wrapper {
+    width: 100% !important;
+    max-width: 760px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form {
+    padding: 22px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  html body.type-detail.ps-pdp-v1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: clip !important;
+  }
+  body.type-detail.ps-pdp-v1 #content,
+  body.type-detail.ps-pdp-v1 .p-detail-inner,
+  body.type-detail.ps-pdp-v1 .p-image-wrapper,
+  body.type-detail.ps-pdp-v1 .p-data-wrapper,
+  body.type-detail.ps-pdp-v1 #product-detail-form,
+  body.type-detail.ps-pdp-v1 .ps-mobile-benefits {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-detail-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-image-wrapper {
+    overflow: hidden !important;
+  }
+
+  /* Bring the product identity ahead of the gallery on a phone. */
+  body.type-detail.ps-pdp-v1 .p-image-wrapper .p-detail-inner-header-mobile {
+    order: -1 !important;
+    width: 100% !important;
+    margin: 0 0 12px !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-detail-inner-header-mobile h1,
+  body.type-detail.ps-pdp-v1 .p-detail-inner-header-mobile .h1 {
+    margin: 0 0 6px !important;
+    color: #17283c !important;
+    font-size: clamp(22px, 6vw, 26px) !important;
+    line-height: 1.22 !important;
+    letter-spacing: -.025em !important;
+    overflow-wrap: anywhere !important;
+  }
+  body.type-detail.ps-pdp-v1 .ps-mobile-parent-link {
+    max-width: 100% !important;
+    margin: 0 0 10px !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-image-wrapper .p-image {
+    order: 1 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-image-wrapper .p-image img {
+    width: 100% !important;
+    max-height: min(100vw, 390px) !important;
+    object-fit: contain !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-image-wrapper .row {
+    order: 2 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 10px 0 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-thumbnails {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-data-wrapper {
+    margin-top: 10px !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form {
+    margin: 0 !important;
+    padding: clamp(14px, 4vw, 18px) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 5px 18px rgba(23, 40, 60, .06) !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .detail-parameters {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form table {
+    width: 100% !important;
+    table-layout: fixed !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form th,
+  body.type-detail.ps-pdp-v1 #product-detail-form td {
+    min-width: 0 !important;
+    overflow-wrap: anywhere !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .ps-delivery-promise {
+    margin-top: 6px !important;
+    font-size: 14.5px !important;
+    font-weight: 650 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block {
+    grid-template-columns: minmax(82px, 94px) minmax(0, 1fr) !important;
+    gap: 8px !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block .quantity {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block .btn-cart,
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block .btn-conversion,
+  body.type-detail.ps-pdp-v1 #product-detail-form [data-testid="buttonAddToCart"],
+  body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart-button {
+    min-width: 0 !important;
+    min-height: 52px !important;
+    padding: 0 12px !important;
+    font-size: 16px !important;
+    white-space: normal !important;
+  }
+  body.type-detail.ps-pdp-v1 .ps-mobile-benefits {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 9px !important;
+    margin: 14px 0 22px !important;
+  }
+  body.type-detail.ps-pdp-v1 .ps-mobile-benefit:nth-child(3) {
+    grid-column: 1 / -1 !important;
+  }
+  body.type-detail.ps-pdp-v1 .ps-mobile-benefit {
+    min-width: 0 !important;
+    padding: 11px !important;
+    border: 1px solid #e2e8ee !important;
+    border-radius: 12px !important;
+    background: #f8fafb !important;
+  }
+  body.type-detail.ps-pdp-v1 .ps-mobile-benefit-content,
+  body.type-detail.ps-pdp-v1 .ps-mobile-benefit-title,
+  body.type-detail.ps-pdp-v1 .ps-mobile-benefit-text {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere !important;
+  }
+  body.type-detail.ps-pdp-v1 .benefitBanner { display: none !important; }
+  body.type-detail.ps-pdp-v1 .ps-sticky-buy.is-visible {
+    padding-bottom: calc(10px + env(safe-area-inset-bottom)) !important;
+  }
+  body.type-detail.ps-pdp-v1 .ps-sticky-buy .ps-sticky-title {
+    max-width: 90px !important;
+    font-size: 12px !important;
+  }
+  body.type-detail.ps-pdp-v1 .ps-sticky-buy button {
+    min-width: 126px !important;
+    max-width: 45vw !important;
+    min-height: 46px !important;
+    padding: 0 12px !important;
+  }
+  body.type-detail.ps-pdp-v1 .p-detail-tabs-wrapper {
+    max-width: 100% !important;
+    margin-top: 20px !important;
+  }
+}
+
+@supports not (overflow-x: clip) {
+  @media (max-width: 767px) {
+    html body.type-detail.ps-pdp-v1 { overflow-x: hidden !important; }
+  }
+}
+
+/* Hide Shoptet's calendar estimate after the mapped delivery promise replaces it. */
+body.type-detail.ps-pdp-v1 #product-detail-form tr.ps-delivery-date-row--replaced {
+  display: none !important;
+}
+
+/* Native Shoptet availability tooltip: signal that delivery details are available. */
+body.type-detail.ps-pdp-v1 #product-detail-form .availability-label .show-tooltip[data-original-title] {
+  cursor: help;
+  text-decoration: underline dotted rgba(22, 116, 80, .7);
+  text-underline-offset: 3px;
+  border-radius: 3px;
+}
+body.type-detail.ps-pdp-v1 #product-detail-form .availability-label .show-tooltip[data-original-title]::after {
+  content: "i";
+  display: inline-grid;
+  place-items: center;
+  width: 17px;
+  height: 17px;
+  margin-left: 7px;
+  border: 1px solid #167450;
+  border-radius: 50%;
+  color: #145e41;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  vertical-align: 1px;
+}
+body.type-detail.ps-pdp-v1 #product-detail-form .availability-label .show-tooltip[data-original-title]:focus-visible {
+  outline: 3px solid rgba(22, 116, 80, .25);
+  outline-offset: 3px;
+}
+/* The Shoptet availability description is now the sole delivery tooltip. */
+body.type-detail.ps-pdp-v1 #product-detail-form .ps-delivery-promise {
+  display: none !important;
+}
+
+/* Keep product code, availability and delivery options aligned in one grid. */
+body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout {
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: fixed !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout tr {
+  display: grid !important;
+  grid-template-columns: minmax(118px, .72fr) minmax(0, 1.28fr) !important;
+  align-items: center !important;
+  min-width: 0 !important;
+}
+body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout th,
+body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout td {
+  box-sizing: border-box !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  padding: 9px 8px 9px 0 !important;
+  vertical-align: middle !important;
+  overflow-wrap: anywhere !important;
+}
+body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout th {
+  color: #56616b !important;
+  font-weight: 500 !important;
+}
+body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout tr + tr th,
+body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout tr + tr td {
+  border-top: 1px solid #edf1f3 !important;
+}
+
+/* On desktop, price, quantity and the purchase button share a centered row. */
+@media (min-width: 576px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block {
+    display: grid !important;
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.4fr) !important;
+    align-items: center !important;
+    column-gap: 16px !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-final-price-wrapper {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    align-self: center !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    display: grid !important;
+    grid-template-columns: minmax(72px, .7fr) minmax(0, 1.5fr) !important;
+    align-items: center !important;
+    gap: 10px !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart .quantity,
+  body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart [data-testid="buttonAddToCart"] {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* Small screens stack the price above the aligned quantity and button pair. */
+@media (max-width: 575px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    align-items: center !important;
+    gap: 9px !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-final-price-wrapper {
+    justify-self: center !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart {
+    display: grid !important;
+    grid-template-columns: minmax(74px, .65fr) minmax(0, 1.35fr) !important;
+    align-items: center !important;
+    gap: 8px !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart .quantity,
+  body.type-detail.ps-pdp-v1 #product-detail-form .add-to-cart [data-testid="buttonAddToCart"] {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout tr {
+    grid-template-columns: minmax(94px, .7fr) minmax(0, 1.3fr) !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout th,
+  body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout td {
+    padding-right: 5px !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .ps-delivery-promise {
+    display: none !important;
+  }
+}
