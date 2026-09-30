@@ -1,6 +1,6 @@
 # Homepage SONOS – 30. 9. 2026
 
-Schválené používateľom na publikovanie. Nahrádza iba homepage pilot CSS v5 / JS v1 za CSS v7 / JS v3. Dve originálne SONOS fotografie sú zmenšené bez retuše pre web. Natívna hlavička, footer, produktové dáta, formuláre, dodávateľské importy a analytika ostávajú zachované.
+Publikované 30. 9. 2026 približne o19:15 CEST po výslovnom schválení používateľom. Verejný web overený s CSS v7 / JS v3; zdroje zlúčené cez PR66, commit57f130e7bc03300d26bee98ea5f551939fa78bd5. Nahrádza iba homepage pilot CSS v5 / JS v1 za CSS v7 / JS v3. Dve originálne SONOS fotografie sú zmenšené bez retuše pre web. Natívna hlavička, footer, produktové dáta, formuláre, dodávateľské importy a analytika ostávajú zachované.
 
 Bannery: SONOS Beam Ultra čierny (BMULTEU1BLK), Ace Ultra Sand (ACEULWW1SAND), Superfire M9-E (SKLBBSKLBB-025661). Skladový štítok Superfire sa odvodzuje z natívnej produktovej karty; ak chýba alebo nemá Skladom na predajni, zobrazí sa neutrálny text. Novinky SONOS nepoužívajú tvrdenie o sklade na predajni.
 
