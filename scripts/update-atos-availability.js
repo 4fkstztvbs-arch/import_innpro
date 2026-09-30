@@ -13,6 +13,7 @@ const STOCK_URL = 'https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resul
 const OUT_OF_STOCK = process.env.ATOS_OUT_OF_STOCK_LABEL || 'Vypredané';
 const MIN_FEED_RECORDS = Number(process.env.ATOS_STOCK_MIN_RECORDS || '100');
 const MIN_MATCH_RATIO = Number(process.env.ATOS_STOCK_MIN_MATCH_RATIO || '0.05');
+const STOCK_AUDIT_IDENTIFIERS = new Set((process.env.ATOS_STOCK_AUDIT_IDENTIFIERS || '').split(',').map(normalized).filter(Boolean));
 
 function decodeXml(value) {
   return String(value || '')
@@ -104,7 +105,13 @@ async function fetchStock() {
     if (!rawQty || !Number.isFinite(qty) || qty < 0) {
       throw new Error(`ATOS stock record ${recordCount} has an invalid stock availability value.`);
     }
-    const entry = { code: normalized(code), ean: normalized(ean), qty };
+    const entry = {
+      code: normalized(code),
+      code2: normalized(xmlField(record, 'Code2')),
+      partNo: normalized(xmlField(record, 'PartNo')),
+      ean: normalized(ean),
+      qty,
+    };
     if (stockByCode.has(entry.code)) throw new Error(`Duplicate ATOS stock code ${entry.code}.`);
     stockByCode.set(entry.code, entry);
     if (entry.ean) stockByEan.set(entry.ean, entry);
@@ -141,7 +148,19 @@ async function main() {
     if (!code) throw new Error('ATOS output contains a product without CODE.');
     const ean = normalized(xmlField(fullItem, 'EAN'));
     const key = identity(code);
-    const record = stock.stockByCode.get(normalized(code)) || (ean ? stock.stockByEan.get(ean) : null);
+    const normalizedCode = normalized(code);
+    const codeWithoutAtosPrefix = normalizedCode.replace(/^ATO-/, '');
+    const bySupplierCode = stock.stockByCode.get(normalizedCode)
+      || (codeWithoutAtosPrefix !== normalizedCode ? stock.stockByCode.get(codeWithoutAtosPrefix) : null);
+    const byEan = ean ? stock.stockByEan.get(ean) : null;
+    const record = bySupplierCode || byEan;
+    if ([normalizedCode, codeWithoutAtosPrefix, ean].some((identifier) => STOCK_AUDIT_IDENTIFIERS.has(identifier))) {
+      const matchType = bySupplierCode ? 'supplier code' : byEan ? 'EAN' : 'no match';
+      const details = record
+        ? `QtyFreeIs=${record.qty}, matched by ${matchType}, source Code=${record.code}, Code2=${record.code2 || '—'}, PartNo=${record.partNo || '—'}, EAN=${record.ean || '—'}`
+        : 'not present in daytime stock export by code variant or EAN';
+      console.log(`ATOS stock audit ${code}: ${details}.`);
+    }
     if (record) matched++;
     const available = Boolean(record && record.qty > 0);
     if (available) inStockCount++; else outOfStockCount++;
