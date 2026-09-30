@@ -2,7 +2,9 @@ name: Solight sync
 
 on:
   schedule:
-    - cron: '50 22 * * *' # 22:50 UTC (00:50 SK) daily — inside Shoptet's 00:00–07:00 "úplný import" window
+    # Night supplier feed is processed after its source is available; finish before Shoptet's 00:05+ import window.
+    - cron: '25 21 * * *'
+      timezone: 'Europe/Bratislava' # 21:25 local time, with DST handling
   workflow_dispatch: {}
 
 permissions:
