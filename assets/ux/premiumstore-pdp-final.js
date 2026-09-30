@@ -566,13 +566,7 @@
         '</span>' +
       '</div>' +
 
-      '<div class="ps-mobile-benefit">' +
-        '<span class="ps-mobile-benefit-icon">✓</span>' +
-        '<span class="ps-mobile-benefit-content">' +
-          '<strong class="ps-mobile-benefit-title">Doručenie do 2 dní</strong>' +
-          '<span class="ps-mobile-benefit-text">na výdajné miesta alebo kuriérom</span>' +
-        '</span>' +
-      '</div>';
+      '';
 
 
     form.insertAdjacentElement(
