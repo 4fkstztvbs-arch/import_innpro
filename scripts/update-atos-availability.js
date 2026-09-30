@@ -148,17 +148,16 @@ async function main() {
 
     const beforeAvailability = xmlField(fullItem, 'AVAILABILITY');
     const beforeVisibility = xmlField(fullItem, 'VISIBILITY') || 'visible';
-    const hasName = Boolean(xmlField(fullItem, 'NAME'));
     let nextVisibility = beforeVisibility;
 
-    if (!available && hasName && ['visible', 'detailOnly'].includes(beforeVisibility)) {
+    if (!available && beforeVisibility !== 'detailOnly') {
       if (!Object.prototype.hasOwnProperty.call(oldManaged, key)) {
         nextManaged[key] = beforeVisibility;
       } else {
         nextManaged[key] = oldManaged[key];
       }
       nextVisibility = 'detailOnly';
-    } else if (available && hasName && Object.prototype.hasOwnProperty.call(oldManaged, key)) {
+    } else if (available && Object.prototype.hasOwnProperty.call(oldManaged, key)) {
       nextVisibility = oldManaged[key];
     } else if (Object.prototype.hasOwnProperty.call(oldManaged, key)) {
       nextManaged[key] = oldManaged[key];
