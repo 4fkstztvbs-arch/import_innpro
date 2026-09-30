@@ -1866,3 +1866,23 @@ body.search-window-visible #header.ps-compact-header .search-form {
     background: transparent !important; box-shadow: none !important; z-index: auto !important;
   }
 }
+
+/* Jasná, stavovo presná lehota pri dostupnosti v nákupnom bloku. */
+body.type-detail #product-detail-form .ps-delivery-promise {
+  display: block !important;
+  margin-top: 7px !important;
+  color: #17283c !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  line-height: 1.45 !important;
+  letter-spacing: 0 !important;
+}
+body.type-detail #product-detail-form .ps-delivery-promise::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0 8px 1px 0;
+  border-radius: 50%;
+  background: #167450;
+}
