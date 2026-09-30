@@ -1,11 +1,60 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-09-30 01:16 UTC.
+Kontrola z 2026-09-30 01:19 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
+
+## atos — 44 ks
+
+| Kód | Produkt |
+|---|---|
+| `3021117` |  |
+| `ABL-16-50-069` |  |
+| `ABL-30-B1-067` |  |
+| `ABL-30-B1-179` |  |
+| `ABL-30-B1-315` |  |
+| `ABL-30-B1-316` |  |
+| `ATO-2631690100` |  |
+| `ATO-38MW12KNORD` |  |
+| `ATO-K735B` |  |
+| `ATO-KMDP-105-WH` |  |
+| `ATO-T549M` |  |
+| `CMP-09229` |  |
+| `CMP-91519` |  |
+| `CMP-amK222FL` |  |
+| `CMP-TO-09332` |  |
+| `CMP-TO-25166` |  |
+| `CMP-TO-75921` |  |
+| `CMP-TO-76750` |  |
+| `CMP-YT-2305` |  |
+| `CMP-YT-24204` |  |
+| `CMP-YT-28290` |  |
+| `CMP-YT-38561` |  |
+| `ELE-1009454` |  |
+| `ELE-1009614` |  |
+| `IST-TESO00046` |  |
+| `IVSC02` |  |
+| `LEC-KM0837` |  |
+| `LEC-RBA-2326-15` |  |
+| `LEC-RBA-2330-5` |  |
+| `LEC-URZ3427-12-LFP4` |  |
+| `LEV-86481` |  |
+| `SPR-4726018` |  |
+| `TIP-04210155` |  |
+| `TIP-06424525` |  |
+| `TIP-07720168` |  |
+| `TOC-EX4780028A` |  |
+| `TOC-G00301` |  |
+| `TOC-G17152` |  |
+| `TOC-G17156` |  |
+| `TOC-SX3080` |  |
+| `TOC-SX4206` |  |
+| `TOC-TO-06940` |  |
+| `TOMD6-63DC 50A` |  |
+| `WIWAMINI` |  |
 
 ## innpro — 45 ks
 
