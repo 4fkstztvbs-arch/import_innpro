@@ -258,3 +258,8 @@ body.type-detail.ps-pdp-v1 .ps-mobile-benefit:nth-child(4) {
     html body.type-detail.ps-pdp-v1 { overflow-x: hidden !important; }
   }
 }
+
+/* The mapped promise replaces Shoptet's calendar estimate for this product. */
+body.type-detail.ps-pdp-v1 #product-detail-form:has(.ps-delivery-promise) .delivery-time-row {
+  display: none !important;
+}
