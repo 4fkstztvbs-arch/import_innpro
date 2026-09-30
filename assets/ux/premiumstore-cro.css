@@ -7,7 +7,37 @@
 
 
 /* WCAG AA: tmavšia zelená pre bežný text na primárnych akciách. */
-:root { --p: #167450 !important; }
+:root {
+  --p: #167450 !important;
+  --ph: #145e41 !important;
+  --ps-pdp-green: #167450 !important;
+  --ps-pdp-green-hover: #145e41 !important;
+}
+
+/* Textové a akčné zelené mimo hlavných CTA. */
+body ol.cart-header {
+  --color-primary: #167450 !important;
+  --color-primary-hover: #145e41 !important;
+}
+body ol.cart-header li.active,
+body ol.cart-header li.active a,
+body ol.cart-header li.active span,
+body ol.cart-header li.completed,
+body ol.cart-header li.completed a,
+body ol.cart-header li.completed span { color: #167450 !important; }
+body.type-detail #product-detail-form .ps-pdp-row-shipping-options a::after,
+body.type-detail .ps-mobile-parent-link::before { color: #167450 !important; }
+html body.type-detail .ps-sticky-buy button {
+  background: #167450 !important;
+  border-color: #167450 !important;
+}
+#fs-sheet .fs-apply-btn,
+#fs-sheet .fs-apply-btn:hover,
+#fs-sheet .fs-apply-btn:focus-visible {
+  background: #167450 !important;
+  border-color: #167450 !important;
+  color: #fff !important;
+}
 
 body, div, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4,
 p, li, a, label, input, button, textarea, select {
