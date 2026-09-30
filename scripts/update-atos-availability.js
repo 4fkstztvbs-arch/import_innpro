@@ -102,7 +102,8 @@ async function fetchStock() {
     const qty = Number(rawQty.replace(',', '.'));
     if (!code) throw new Error(`ATOS stock record ${recordCount} has no product code.`);
     if (!rawQty || !Number.isFinite(qty) || qty < 0) {
-      throw new Error(`ATOS stock record ${recordCount} has an invalid QtyFree value.`);
+      const fields = [...record.matchAll(/<(?:[\w.-]+:)?([\w.-]+)\b/g)].map((field) => field[1]);
+      throw new Error(`ATOS stock record ${recordCount} has invalid QtyFree ${JSON.stringify(rawQty)}; row fields: ${[...new Set(fields)].join(', ')}.`);
     }
     const entry = { code: normalized(code), ean: normalized(ean), qty };
     if (stockByCode.has(entry.code)) throw new Error(`Duplicate ATOS stock code ${entry.code}.`);
