@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-09-30 01:19 UTC.
+Kontrola z 2026-09-30 01:24 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -111,6 +111,19 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | Kód | Produkt |
 |---|---|
 | `100001880301` | Drosselmeyer NCGP03 |
+
+## penta — 8 ks
+
+| Kód | Produkt |
+|---|---|
+| `49907063` |  |
+| `52901904` |  |
+| `52932460` |  |
+| `554503` |  |
+| `600886` |  |
+| `600950` |  |
+| `65526000` |  |
+| `70293521` |  |
 
 ## wiim — 16 ks
 
