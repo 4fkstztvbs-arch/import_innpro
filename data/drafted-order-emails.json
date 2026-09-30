@@ -1062,5 +1062,33 @@
     "subject": "RE: [PremiumStore.sk] Objednávka 202601062",
     "orderCode": "202601062",
     "matchedBy": "code"
+  },
+  "<!&!AAAAAAAAAAAYAAAAAAAAAG0DD66R3jdPncKvcdZID+3CgAAAEAAAAGzyzXxAw71LqmMBrGZbTbgBAAAAAA==@woodb.sk>": {
+    "draftedAt": "2026-09-30T15:22:28.785Z",
+    "from": "kopanyi@woodb.sk",
+    "subject": "RE: [PremiumStore.sk] Objednávka 202601062",
+    "orderCode": "202601062",
+    "matchedBy": "code"
+  },
+  "<FAF3FD21-6A1F-43C1-B83F-2F344DBBDAA4@icloud.com>": {
+    "draftedAt": "2026-09-30T15:22:44.974Z",
+    "from": "congradymarcus@icloud.com",
+    "subject": "Re: Vaša objednávka č. 202600993 bola stornovaná",
+    "orderCode": "202600993",
+    "matchedBy": "code"
+  },
+  "<ECA415E8-9C0C-49AA-8953-616ECEEFA9FB@icloud.com>": {
+    "draftedAt": "2026-09-30T15:22:54.334Z",
+    "from": "congradymarcus@icloud.com",
+    "subject": "Re: Storno objednávky",
+    "orderCode": "202600993",
+    "matchedBy": "email"
+  },
+  "<CAFzeEg2+Eg4heDWznxdO=iqd0dYV1xUwOVYbZ5wa+Wi3g_DEKQ@mail.gmail.com>": {
+    "draftedAt": "2026-09-30T15:23:08.406Z",
+    "from": "sudovskyt@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202600948 sa práve vybavuje",
+    "orderCode": "202600948",
+    "matchedBy": "code"
   }
 }
