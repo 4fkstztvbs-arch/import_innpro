@@ -38,3 +38,13 @@
     min-width: 0 !important; width: 100% !important; margin: 0 !important;
   }
 }
+
+/* Keep delivery and code labels on one line on desktop. */
+@media (min-width: 768px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout th {
+    width: 100% !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout .row-header-label {
+    white-space: nowrap !important;
+  }
+}
