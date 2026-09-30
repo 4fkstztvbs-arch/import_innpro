@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-09-30 22:12 UTC.
+Kontrola z 2026-09-30 22:15 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -313,13 +313,6 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `600950` |  |
 | `65526000` |  |
 | `70293521` |  |
-
-## solight — 2 ks
-
-| Kód | Produkt |
-|---|---|
-| `OR01` |  |
-| `WM91` |  |
 
 ## wiim — 16 ks
 

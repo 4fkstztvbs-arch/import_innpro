@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-09-30 01:37 UTC.
+Kontrola z 2026-09-30 22:15 UTC.
 
-Solight pri **511** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **509** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -57,7 +57,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `SSC1301E` | Solight USB kábel, USB 2.0 A konektor - USB B micro konektor | 10 | 250 |
 | `WZ428-1` | Solight LED žiarovka, sviečka, 8W, E14, 4000K, 720lm | 10 | 100 |
 | `WZ412-1` | Solight LED žiarovka, miniglobe, 6W, E27, 3000K, 510lm | 10 | 100 |
-| `WZ520-2` | Solight LED žiarovka, klasický tvar, 10W, E27, 6000K, 270°,  | 10 | 100 |
 | `WZ429-1` | Solight LED žiarovka, miniglobe, 8W, E27, 4000K, 720lm | 10 | 100 |
 | `WZ504-2` | Solight LED žiarovka, klasický tvar, 7W, E27, 3000K, 270°, 8 | 10 | 100 |
 | `V22` | Solight skúšačka, LCD, AC napätie: 12 - 230V | 10 | 500 |
@@ -83,7 +82,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WM86` | Solight napájací konektor pre LED pásy, 5,5 mm zdierka - 10m | 9 | 200 |
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
-| `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -477,7 +476,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `1V255` | Solight LED vianočná hviezda, závesná, 60cm, 20x LED, časova | 2 | 12 |
 | `PS16` | Solight predlžovací prívod - spojka, 1 zásuvka, 10m, 3 x 1mm | 2 | 20 |
 | `P112B-PD20` | Solight rozbočovač 3x 16A, USB A+C rychlonabíjačka 20W PD, č | 2 | 100 |
-| `1V294` | Solight LED vianočná hviezda strieborná, závesná, časovač, 6 | 2 | 12 |
 | `PP43` | Solight predlžovací prívod, 5 zásuviek, biely, 5m | 2 | 40 |
 | `AV04` | Solight ventilátor do kúpeľne | 2 | 200 |
 | `1V295` | Solight LED vianočná hviezda zlatá, závesná, časovač, 60cm,  | 2 | 12 |
