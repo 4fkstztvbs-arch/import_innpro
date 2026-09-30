@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-09-29
+# Cenové anomálie vynechané z feedu — innpro — 2026-09-30
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -27,6 +27,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
 | 088847 | 6978794734798 | Fén MOVA Turbo 20 (biely) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091308 | 6979033600317 | SONOFF S61STPF-PM-O Matter EU vonkajšia zásuvka | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090776 | 6978794736129 | Súprava Mova DuoCare Pet | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090775 | 6978794735764 | MOVA LB10 – samočistiaca toaleta pre mačky s vzduchovým systémom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093039 | 6930444806132 | Grafický tablet HUION Kamvas Pad 12 KP1202 | nulová/neplatná cena |  | 0.00 € |  |  |

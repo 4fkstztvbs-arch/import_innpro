@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 26961,
+  "totalProducts": 26976,
   "matchedRules": 2274,
-  "changedProducts": 982,
+  "changedProducts": 984,
   "rejected": [
     {
       "supplier": "atos",
@@ -1878,19 +1878,19 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia",
-      "visibleUnique": 16,
+      "visibleUnique": 17,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory teploty a vlhkosti",
-      "visibleUnique": 19,
+      "visibleUnique": 21,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
-      "visibleUnique": 40,
+      "visibleUnique": 41,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
@@ -2040,7 +2040,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 81,
+      "visibleUnique": 82,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
@@ -2082,7 +2082,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Popruhy a postroje pre kamery",
-      "visibleUnique": 13,
+      "visibleUnique": 14,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
