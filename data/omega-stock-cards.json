@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600440,
+    "nextCardNumber": 202600447,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2636,6 +2636,48 @@
         "nazov": "Heat transfer vinyl",
         "dodavatel": "innpro",
         "code": "088947"
+      },
+      "6956116788209": {
+        "kod": "202600440",
+        "nazov": "JR-BP007 Magnetic",
+        "dodavatel": "innpro",
+        "code": "059663"
+      },
+      "6972185560942": {
+        "kod": "202600441",
+        "nazov": "Carlinkit MINI ULTRA",
+        "dodavatel": "innpro",
+        "code": "078248"
+      },
+      "6936685222670": {
+        "kod": "202600442",
+        "nazov": "GameSir X5 Lite GN",
+        "dodavatel": "innpro",
+        "code": "079691"
+      },
+      "0652726247407": {
+        "kod": "202600443",
+        "nazov": "Fanttik Slim V8 Apex Car",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "5905156103504": {
+        "kod": "202600444",
+        "nazov": "Recumbent bike MERACH",
+        "dodavatel": "innpro",
+        "code": "085822"
+      },
+      "6975532170566": {
+        "kod": "202600445",
+        "nazov": "Ramp wh",
+        "dodavatel": "innpro",
+        "code": ""
+      },
+      "6934915208494": {
+        "kod": "202600446",
+        "nazov": "Dash Cam DDPAI Z90 4G",
+        "dodavatel": "innpro",
+        "code": "093887"
       }
     }
   },
