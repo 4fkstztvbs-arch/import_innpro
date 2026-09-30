@@ -3,7 +3,7 @@
 // Read-only check of ATOS's daytime price export for one product's code variants and EAN.
 const API_URL = 'https://shop.atoselektro.cz/i6ws/Default.asmx/GetResultByCode';
 const RESULT_TYPE = 'StoItemPriceOrd_El';
-const IDENTIFIERS = ['ATO-A500004012', 'A500004012', '8594199731811'];
+const IDENTIFIERS = ['ATO-A500004012', 'A500004012', '8594199731811', 'MPU-3500-48'];
 
 function xmlField(xml, name) {
   const child = xml.match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)<\\/${name}\\s*>`, 'i'));
@@ -39,7 +39,14 @@ async function main() {
         continue;
       }
       const record = `${item[1] || ''}${item[2] || ''}`;
-      console.log(`ATOS price feed ${identifier}: found Code=${xmlField(record, 'Code') || '—'}, EAN=${xmlField(record, 'EAN') || '—'}, PriceOrd=${xmlField(record, 'PriceOrd') || '—'}, PriceEU=${xmlField(record, 'PriceEU') || '—'}.`);
+      const code = xmlField(record, 'Code');
+      const ean = xmlField(record, 'EAN');
+      const partNo = xmlField(record, 'PartNo');
+      if (!code && !ean && !partNo) {
+        console.log(`ATOS price feed ${identifier}: empty StoItem response; no product record.`);
+        continue;
+      }
+      console.log(`ATOS price feed ${identifier}: found Code=${code || '—'}, EAN=${ean || '—'}, PartNo=${partNo || '—'}, PriceOrd=${xmlField(record, 'PriceOrd') || '—'}, PriceEU=${xmlField(record, 'PriceEU') || '—'}.`);
     } catch (error) {
       console.log(`ATOS price feed ${identifier}: request failed (${error.name}).`);
     }
