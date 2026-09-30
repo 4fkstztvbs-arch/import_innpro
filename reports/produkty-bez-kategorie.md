@@ -1,18 +1,61 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-09-30 00:56 UTC.
+Kontrola z 2026-09-30 01:16 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
 
-## innpro — 2 ks
+## innpro — 45 ks
 
 | Kód | Produkt |
 |---|---|
 | `088539` | Monitor DarkFlash 9,2" IPS V92 (čierny) |
 | `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
+| `018665` |  |
+| `025663` |  |
+| `032796` |  |
+| `035190` |  |
+| `038341` |  |
+| `039232` |  |
+| `039239` |  |
+| `044698` |  |
+| `044846` |  |
+| `046017` |  |
+| `054659` |  |
+| `055617` |  |
+| `058841` |  |
+| `060074` |  |
+| `062399` |  |
+| `062461` |  |
+| `063827` |  |
+| `064292` |  |
+| `069161` |  |
+| `069449` |  |
+| `069513` |  |
+| `069805` |  |
+| `070650` |  |
+| `071273` |  |
+| `073028` |  |
+| `075428` |  |
+| `076115` |  |
+| `076202` |  |
+| `078361` |  |
+| `079018` |  |
+| `081880` |  |
+| `082201` |  |
+| `082639` |  |
+| `082665` |  |
+| `082667` |  |
+| `083185` |  |
+| `083736` |  |
+| `083739` |  |
+| `089652` |  |
+| `090987` |  |
+| `091003` |  |
+| `091004` |  |
+| `093437` |  |
 
 ## kb — 1 ks
 
