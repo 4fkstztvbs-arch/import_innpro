@@ -9,7 +9,7 @@ const FEEDS = {
 const TARGETS = ['ATO-A500004012', 'A500004012', '8594199731811', 'MPU-3500-48'];
 
 function decode(value) {
-  return String(value || '').replace(/<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>/g, '$1')
+  return String(value || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
     .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"').replace(/&apos;/g, "'").trim();
 }
@@ -35,7 +35,7 @@ async function fetchFeed(label, resultType, authorization) {
   const xml = await response.text();
   if (!/<(?:[\\w.-]+:)?Result\\b/i.test(xml)) throw new Error(`${label} export has no Result root`);
   const records = [];
-  const pattern = /<(?:[\\w.-]+:)?StoItem\\b([^>]*?)(?:\\/>|>([\\s\\S]*?)<\\/(?:[\\w.-]+:)?StoItem\\s*>)/gi;
+  const pattern = /<(?:[\w.-]+:)?StoItem\b([^>]*?)(?:\/>|>([\s\S]*?)<\/(?:[\w.-]+:)?StoItem\s*>)/gi;
   for (const match of xml.matchAll(pattern)) {
     const raw = `${match[1] || ''} ${match[2] || ''}`;
     records.push({
