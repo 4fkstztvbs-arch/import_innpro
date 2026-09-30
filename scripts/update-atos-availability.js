@@ -13,7 +13,6 @@ const STOCK_URL = 'https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resul
 const OUT_OF_STOCK = process.env.ATOS_OUT_OF_STOCK_LABEL || 'Vypredané';
 const MIN_FEED_RECORDS = Number(process.env.ATOS_STOCK_MIN_RECORDS || '100');
 const MIN_MATCH_RATIO = Number(process.env.ATOS_STOCK_MIN_MATCH_RATIO || '0.05');
-const STOCK_AUDIT_IDENTIFIERS = new Set((process.env.ATOS_STOCK_AUDIT_IDENTIFIERS || '').split(',').map(normalized).filter(Boolean));
 
 function decodeXml(value) {
   return String(value || '')
@@ -90,42 +89,38 @@ async function fetchStock() {
   if (!/<(?:[\w.-]+:)?Result\b/i.test(source)) throw new Error('ATOS stock export has no Result root.');
   const itemPattern = /<(?:[\w.-]+:)?StoItem\b([^>]*?)(?:\/>|>([\s\S]*?)<\/(?:[\w.-]+:)?StoItem\s*>)/gi;
   const stockByCode = new Map();
-  const stockByEan = new Map();
   let recordCount = 0;
-  let badQuantities = 0;
+  let missingQuantityRecords = 0;
 
   for (const match of source.matchAll(itemPattern)) {
     recordCount++;
     const record = `${match[1] || ''}${match[2] || ''}`;
     const code = xmlField(record, 'Code');
-    const ean = xmlField(record, 'EAN');
     const rawQtyIs = xmlField(record, 'QtyFreeIs');
     const rawQtyFree = xmlField(record, 'QtyFree');
-    const rawQty = rawQtyIs || rawQtyFree;
-    const qty = Number(rawQty.replace(',', '.'));
     if (!code) throw new Error(`ATOS stock record ${recordCount} has no product code.`);
-    if (!rawQty || !Number.isFinite(qty) || qty < 0) {
-      throw new Error(`ATOS stock record ${recordCount} has an invalid stock availability value.`);
+    let qty;
+    if (!rawQtyIs && !rawQtyFree) {
+      // i6ws omits QtyFree when the product has no free stock.
+      qty = 0;
+      missingQuantityRecords++;
+    } else {
+      const rawQty = rawQtyIs || rawQtyFree;
+      const normalizedQty = rawQty.toLowerCase();
+      qty = normalizedQty === 'true' ? 1 : normalizedQty === 'false' ? 0 : Number(rawQty.replace(',', '.'));
+      if (!Number.isFinite(qty) || qty < 0) {
+        throw new Error(`ATOS stock record ${recordCount} has an invalid stock availability value.`);
+      }
     }
-    const entry = {
-      code: normalized(code),
-      code2: normalized(xmlField(record, 'Code2')),
-      partNo: normalized(xmlField(record, 'PartNo')),
-      ean: normalized(ean),
-      qty,
-      qtyFreeIs: rawQtyIs,
-      qtyFree: rawQtyFree,
-    };
+    const entry = { code: normalized(code), qty };
     if (stockByCode.has(entry.code)) throw new Error(`Duplicate ATOS stock code ${entry.code}.`);
     stockByCode.set(entry.code, entry);
-    if (entry.ean) stockByEan.set(entry.ean, entry);
-    if (qty <= 0) badQuantities++;
   }
 
   if (recordCount < MIN_FEED_RECORDS) {
     throw new Error(`ATOS stock export has only ${recordCount} products; minimum is ${MIN_FEED_RECORDS}.`);
   }
-  return { stockByCode, stockByEan, recordCount, zeroQtyRecords: badQuantities };
+  return { stockByCode, recordCount, missingQuantityRecords };
 }
 
 async function main() {
@@ -150,23 +145,8 @@ async function main() {
   const output = xml.replace(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM\s*>/gi, (fullItem) => {
     const code = xmlField(fullItem, 'CODE');
     if (!code) throw new Error('ATOS output contains a product without CODE.');
-    const ean = normalized(xmlField(fullItem, 'EAN'));
     const key = identity(code);
-    const normalizedCode = normalized(code);
-    const codeWithoutAtosPrefix = normalizedCode.replace(/^ATO-/, '');
-    const prefixedCodeRecord = stock.stockByCode.get(normalizedCode);
-    const unprefixedCodeRecord = codeWithoutAtosPrefix !== normalizedCode
-      ? stock.stockByCode.get(codeWithoutAtosPrefix) : null;
-    const bySupplierCode = prefixedCodeRecord || unprefixedCodeRecord;
-    const byEan = ean ? stock.stockByEan.get(ean) : null;
-    const record = bySupplierCode || byEan;
-    if ([normalizedCode, codeWithoutAtosPrefix, ean].some((identifier) => STOCK_AUDIT_IDENTIFIERS.has(identifier))) {
-      const describe = (match) => match
-        ? `QtyFreeIs=${match.qtyFreeIs || '—'}, QtyFree=${match.qtyFree || '—'}, source Code=${match.code}`
-        : 'absent';
-      const details = `prefixed code ${describe(prefixedCodeRecord)}; unprefixed code ${describe(unprefixedCodeRecord)}; EAN ${describe(byEan)}`;
-      console.log(`ATOS stock audit ${code}: ${details}.`);
-    }
+    const record = stock.stockByCode.get(normalized(code));
     if (record) matched++;
     const available = Boolean(record && record.qty > 0);
     if (available) inStockCount++; else outOfStockCount++;
@@ -221,7 +201,7 @@ async function main() {
     fs.renameSync(tempPath, STATE_PATH);
   }
 
-  console.log(`ATOS daytime stock: ${stock.recordCount} supplier records, ${matched}/${items.length} matched; ${inStockCount} available, ${outOfStockCount} sold out; ${changedAvailability} availability and ${changedVisibility} visibility changes${xmlChanged || stateChanged ? '' : ' (no file changes)'}.`);
+  console.log(`ATOS daytime stock: ${stock.recordCount} supplier records, ${matched}/${items.length} matched; ${inStockCount} available, ${outOfStockCount} sold out; ${stock.missingQuantityRecords} records without quantity treated as zero; ${changedAvailability} availability and ${changedVisibility} visibility changes${xmlChanged || stateChanged ? '' : ' (no file changes)'}.`);
 }
 
 main().catch((error) => {
