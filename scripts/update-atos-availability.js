@@ -99,7 +99,9 @@ async function fetchStock() {
     const record = `${match[1] || ''}${match[2] || ''}`;
     const code = xmlField(record, 'Code');
     const ean = xmlField(record, 'EAN');
-    const rawQty = xmlField(record, 'QtyFreeIs') || xmlField(record, 'QtyFree');
+    const rawQtyIs = xmlField(record, 'QtyFreeIs');
+    const rawQtyFree = xmlField(record, 'QtyFree');
+    const rawQty = rawQtyIs || rawQtyFree;
     const qty = Number(rawQty.replace(',', '.'));
     if (!code) throw new Error(`ATOS stock record ${recordCount} has no product code.`);
     if (!rawQty || !Number.isFinite(qty) || qty < 0) {
@@ -111,6 +113,8 @@ async function fetchStock() {
       partNo: normalized(xmlField(record, 'PartNo')),
       ean: normalized(ean),
       qty,
+      qtyFreeIs: rawQtyIs,
+      qtyFree: rawQtyFree,
     };
     if (stockByCode.has(entry.code)) throw new Error(`Duplicate ATOS stock code ${entry.code}.`);
     stockByCode.set(entry.code, entry);
@@ -150,15 +154,17 @@ async function main() {
     const key = identity(code);
     const normalizedCode = normalized(code);
     const codeWithoutAtosPrefix = normalizedCode.replace(/^ATO-/, '');
-    const bySupplierCode = stock.stockByCode.get(normalizedCode)
-      || (codeWithoutAtosPrefix !== normalizedCode ? stock.stockByCode.get(codeWithoutAtosPrefix) : null);
+    const prefixedCodeRecord = stock.stockByCode.get(normalizedCode);
+    const unprefixedCodeRecord = codeWithoutAtosPrefix !== normalizedCode
+      ? stock.stockByCode.get(codeWithoutAtosPrefix) : null;
+    const bySupplierCode = prefixedCodeRecord || unprefixedCodeRecord;
     const byEan = ean ? stock.stockByEan.get(ean) : null;
     const record = bySupplierCode || byEan;
     if ([normalizedCode, codeWithoutAtosPrefix, ean].some((identifier) => STOCK_AUDIT_IDENTIFIERS.has(identifier))) {
-      const matchType = bySupplierCode ? 'supplier code' : byEan ? 'EAN' : 'no match';
-      const details = record
-        ? `QtyFreeIs=${record.qty}, matched by ${matchType}, source Code=${record.code}, Code2=${record.code2 || '—'}, PartNo=${record.partNo || '—'}, EAN=${record.ean || '—'}`
-        : 'not present in daytime stock export by code variant or EAN';
+      const describe = (match) => match
+        ? `QtyFreeIs=${match.qtyFreeIs || '—'}, QtyFree=${match.qtyFree || '—'}, source Code=${match.code}`
+        : 'absent';
+      const details = `prefixed code ${describe(prefixedCodeRecord)}; unprefixed code ${describe(unprefixedCodeRecord)}; EAN ${describe(byEan)}`;
       console.log(`ATOS stock audit ${code}: ${details}.`);
     }
     if (record) matched++;
