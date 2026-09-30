@@ -2,11 +2,11 @@ name: InnPro sync
 
 on:
   schedule:
-    # 4x denne, 6h od seba (4:00 / 10:00 / 16:00 / 22:00 UTC), aby boli dáta čerstvé pred
-    # každým Shoptet Automatickým importom (ten je teraz tiež nastavený na 4x denne v
-    # Shoptet administrácii). 22:00 UTC = ~00:00 SK, tesne po tom, čo InnPro regeneruje svoj
-    # vlastný full.xml.
-    - cron: '0 4,10,16,22 * * *'
+    # Daytime sync cadence stays on UTC. The supplier regenerates full.xml around midnight Slovakia time,
+    # so run the nightly sync five minutes after that, with Europe/Bratislava DST handling.
+    - cron: '0 4,10,16 * * *'
+    - cron: '5 0 * * *'
+      timezone: 'Europe/Bratislava'
   workflow_dispatch: {} # lets you trigger it manually from the Actions tab any time
 
 permissions:

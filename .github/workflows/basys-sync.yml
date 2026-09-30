@@ -2,7 +2,9 @@ name: BASYS sync
 
 on:
   schedule:
-    - cron: '0 23 * * *' # 23:00 UTC daily — after the rest of the night batch (Heureka report 22:00, ATOS 22:10, InnPro 22:20, K-B 22:30, MONACOR 22:40, Solight 22:50)
+    # Night supplier feed is processed after its source is available; finish before Shoptet's 00:05+ import window.
+    - cron: '30 21 * * *'
+      timezone: 'Europe/Bratislava' # 21:30 local time, with DST handling
   workflow_dispatch: {}
 
 permissions:

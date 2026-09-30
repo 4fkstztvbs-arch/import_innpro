@@ -2,11 +2,9 @@ name: ATOS sync
 
 on:
   schedule:
-    # ATOS's StoItemShoptet_El export is only available from ~21:00 CET/CEST onward (per ATOS's
-    # own ResultTypeInfo table). 22:10 UTC = 00:10/01:10 CET/CEST depending on DST — inside that
-    # window, and still well before Shoptet's own 00:00–07:00 "úplný import" window.
-    # Second in the tight night batch (after Heureka price report at 22:00 UTC).
-    - cron: '10 22 * * *'
+    # Night supplier feed is processed after its source is available; finish before Shoptet's 00:05+ import window.
+    - cron: '5 21 * * *'
+      timezone: 'Europe/Bratislava' # 21:05 local time, with DST handling
   workflow_dispatch: {}
 
 permissions:

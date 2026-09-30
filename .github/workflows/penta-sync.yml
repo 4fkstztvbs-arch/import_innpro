@@ -2,10 +2,9 @@ name: Penta sync
 
 on:
   schedule:
-    # StoItemShoptet_El's GetResult is only available 21:00-08:00 CET/CEST (per Penta's own
-    # ResultTypeInfo table). 22:20 UTC = 00:20/01:20 CET/CEST depending on DST — inside that
-    # window, and inside Shoptet's own 00:00-07:00 "úplný import" window.
-    - cron: '20 22 * * *'
+    # Night supplier feed is processed after its source is available; finish before Shoptet's 00:05+ import window.
+    - cron: '10 21 * * *'
+      timezone: 'Europe/Bratislava' # 21:10 local time, with DST handling
   workflow_dispatch: {}
 
 permissions:
