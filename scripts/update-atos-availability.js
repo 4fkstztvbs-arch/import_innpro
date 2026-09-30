@@ -98,12 +98,11 @@ async function fetchStock() {
     const record = `${match[1] || ''}${match[2] || ''}`;
     const code = xmlField(record, 'Code');
     const ean = xmlField(record, 'EAN');
-    const rawQty = xmlField(record, 'QtyFree');
+    const rawQty = xmlField(record, 'QtyFreeIs') || xmlField(record, 'QtyFree');
     const qty = Number(rawQty.replace(',', '.'));
     if (!code) throw new Error(`ATOS stock record ${recordCount} has no product code.`);
     if (!rawQty || !Number.isFinite(qty) || qty < 0) {
-      const fields = [...record.matchAll(/<(?:[\w.-]+:)?([\w.-]+)\b/g)].map((field) => field[1]);
-      throw new Error(`ATOS stock record ${recordCount} has invalid QtyFree ${JSON.stringify(rawQty)}; row fields: ${[...new Set(fields)].join(', ')}.`);
+      throw new Error(`ATOS stock record ${recordCount} has an invalid stock availability value.`);
     }
     const entry = { code: normalized(code), ean: normalized(ean), qty };
     if (stockByCode.has(entry.code)) throw new Error(`Duplicate ATOS stock code ${entry.code}.`);
