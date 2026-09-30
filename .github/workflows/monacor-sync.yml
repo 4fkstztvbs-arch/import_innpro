@@ -2,9 +2,9 @@ name: MONACOR sync
 
 on:
   schedule:
-    # Night supplier feed is processed after its source is available; finish before Shoptet's 00:05+ import window.
-    - cron: '20 21 * * *'
-      timezone: 'Europe/Bratislava' # 21:20 local time, with DST handling
+    # Generate this feed before 21:00 Bratislava time and ahead of the overnight Shoptet imports.
+    - cron: '10 20 * * *'
+      timezone: 'Europe/Bratislava' # 20:10 local time, with DST handling
   workflow_dispatch: {}
 
 permissions:
