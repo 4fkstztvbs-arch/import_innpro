@@ -1,11 +1,8 @@
 'use strict';
 
 const fs = require('node:fs');
-const XML_PATH = 'output/atos.xml';
-const API_URL = 'https://shop.atoselektro.cz/i6ws/Default.asmx/GetResultByCode';
-const PRICE_TYPES = ['StoItemPriceOrd', 'StoItemPriceOrd_El'];
-const STOCK_TYPE = 'StoItemQtyFree_El';
-const CONCURRENCY = 4;
+const API_URL = 'https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult';
+const RESULT_TYPE = 'StoItemPriceOrd';
 
 function decode(value) {
   return String(value || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -18,117 +15,74 @@ function field(xml, name) {
   const attrs = [...xml.matchAll(/([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')/g)].find(m => m[1].toLowerCase() === name.toLowerCase());
   return attrs ? decode(attrs[2] || attrs[3]) : '';
 }
-function norm(value) { return String(value || '').trim().toUpperCase(); }
-function shopItems(xml) {
-  const result = [];
-  const re = /<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM\s*>/gi;
-  for (const match of xml.matchAll(re)) {
+function normalizedName(value) {
+  return decode(value).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, ' ').trim().replace(/\s+/g, ' ');
+}
+function markedProducts(xml) {
+  const products = [];
+  for (const match of xml.matchAll(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM\s*>/gi)) {
     const raw = match[0];
-    if (norm(field(raw, 'AVAILABILITY')) !== 'VYPREDANÉ' || norm(field(raw, 'VISIBILITY')) !== 'DETAILONLY') continue;
-    result.push({
-      code: field(raw, 'CODE'),
-      ean: field(raw, 'EAN'),
-      partNo: field(raw, 'PART_NUMBER'),
-      name: field(raw, 'NAME'),
-    });
+    if (normalizedName(field(raw, 'AVAILABILITY')) !== 'vypredane' ||
+        normalizedName(field(raw, 'VISIBILITY')) !== 'detailonly') continue;
+    products.push({ name: field(raw, 'NAME'), code: field(raw, 'CODE'), ean: field(raw, 'EAN') });
   }
-  return result;
-}
-async function query(resultType, identifier, authorization) {
-  const url = new URL(API_URL);
-  url.searchParams.set('resultType', resultType);
-  url.searchParams.set('code', identifier);
-  const response = await fetch(url, {
-    headers: { Authorization: 'Basic ' + authorization, Accept: 'application/xml,text/xml,*/*' },
-    signal: AbortSignal.timeout(45000),
-  });
-  if (!response.ok) {
-    await response.body?.cancel();
-    return { error: 'HTTP ' + response.status };
-  }
-  const xml = await response.text();
-  if (!/<(?:[\w.-]+:)?Result\b/i.test(xml)) return { error: 'invalid XML' };
-  const m = xml.match(/<(?:[\w.-]+:)?StoItem\b([^>]*?)(?:\/>|>([\s\S]*?)<\/(?:[\w.-]+:)?StoItem\s*>)/i);
-  if (!m) return { absent: true };
-  const raw = (m[1] || '') + ' ' + (m[2] || '');
-  const item = {
-    code: field(raw, 'Code'), code2: field(raw, 'Code2'),
-    ean: field(raw, 'EAN'), partNo: field(raw, 'PartNo'),
-    priceOrd: field(raw, 'PriceOrd'), priceEU: field(raw, 'PriceEU'),
-    qtyFreeIs: field(raw, 'QtyFreeIs'), qtyFree: field(raw, 'QtyFree'),
-  };
-  if (![item.code, item.code2, item.ean, item.partNo].some(Boolean)) return { absent: true };
-  return { item };
-}
-async function auditProduct(product, authorization) {
-  const identifiers = [...new Set([
-    product.code,
-    product.code.replace(/^ATO-/i, ''),
-    product.ean,
-    product.partNo,
-  ].map(norm).filter(Boolean))];
-  let errors = 0;
-  for (const identifier of identifiers) {
-    for (const resultType of PRICE_TYPES) {
-      try {
-        const result = await query(resultType, identifier, authorization);
-        if (result.error) { errors++; continue; }
-        if (!result.item) continue;
-        const ids = new Set([result.item.code, result.item.code2, result.item.ean, result.item.partNo].map(norm).filter(Boolean));
-        if (!identifiers.some(id => ids.has(id))) continue;
-        let stock = null;
-        for (const stockIdentifier of identifiers) {
-          try {
-            const stockResult = await query(STOCK_TYPE, stockIdentifier, authorization);
-            if (stockResult.item) {
-              const stockIds = new Set([stockResult.item.code, stockResult.item.code2, stockResult.item.ean, stockResult.item.partNo].map(norm).filter(Boolean));
-              if (identifiers.some(id => stockIds.has(id))) { stock = stockResult.item; break; }
-            }
-          } catch (error) {}
-        }
-        return { product, found: true, resultType, identifier, item: result.item, stock };
-      } catch (error) {
-        errors++;
-      }
-    }
-  }
-  return { product, found: false, incomplete: errors > 0, errors };
+  return products;
 }
 async function main() {
   const username = process.env.ATOS_USERNAME;
   const password = process.env.ATOS_PASSWORD;
   if (!username || !password) throw new Error('Missing ATOS Actions credentials.');
-  const products = shopItems(fs.readFileSync(XML_PATH, 'utf8'));
-  if (!products.length) throw new Error('No Vypredané + detailOnly products found in output XML.');
-  console.log('Products selected from current output XML: ' + products.length);
+  const products = markedProducts(fs.readFileSync('output/atos.xml', 'utf8'));
+  if (!products.length) throw new Error('No sold-out detailOnly products found in current output XML.');
+  console.log('Marked products loaded from current output: ' + products.length);
+
+  const url = new URL(API_URL);
+  url.searchParams.set('resultType', RESULT_TYPE);
   const authorization = Buffer.from(username + ':' + password).toString('base64');
-  const results = new Array(products.length);
-  let next = 0;
-  async function worker() {
-    while (true) {
-      const i = next++;
-      if (i >= products.length) return;
-      results[i] = await auditProduct(products[i], authorization);
-    }
+  let response;
+  try {
+    response = await fetch(url, {
+      headers: { Authorization: 'Basic ' + authorization, Accept: 'application/xml,text/xml,*/*' },
+      signal: AbortSignal.timeout(180000),
+    });
+  } catch (error) {
+    throw new Error('Full price export request failed: ' + error.name + (error.cause && error.cause.code ? ' (' + error.cause.code + ')' : ''));
   }
-  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
-  let found = 0, absent = 0, incomplete = 0;
-  for (const r of results) {
-    const p = r.product;
-    if (r.found) {
-      found++;
-      console.log('PRICE_FOUND\\t' + p.code + '\\t' + p.ean + '\\t' + r.resultType + '\\t' + r.identifier + '\\t' + (r.item.priceOrd || r.item.priceEU || 'price-field-empty') + '\\tSTOCK=' + (r.stock ? 'QtyFreeIs:' + (r.stock.qtyFreeIs || '—') + ',QtyFree:' + (r.stock.qtyFree || '—') : 'absent'));
-    } else if (r.incomplete) {
-      incomplete++;
-      console.log('PRICE_CHECK_INCOMPLETE\t' + p.code + '\t' + p.ean + '\trequest-errors=' + r.errors);
-    } else {
-      absent++;
-      console.log('PRICE_ABSENT\t' + p.code + '\t' + p.ean);
-    }
+  if (!response.ok) {
+    await response.body?.cancel();
+    throw new Error('Full price export returned HTTP ' + response.status);
   }
-  console.log('SUMMARY\tselected=' + products.length + '\tprice-found=' + found + '\tprice-absent=' + absent + '\tincomplete=' + incomplete);
+  const feed = await response.text();
+  if (!/<(?:[\w.-]+:)?Result\b/i.test(feed)) throw new Error('Full price export has no Result root.');
+  const byName = new Map();
+  const recordPattern = /<(?:[\w.-]+:)?StoItem\b([^>]*?)(?:\/>|>([\s\S]*?)<\/(?:[\w.-]+:)?StoItem\s*>)/gi;
+  let records = 0, names = 0;
+  for (const match of feed.matchAll(recordPattern)) {
+    records++;
+    const raw = (match[1] || '') + ' ' + (match[2] || '');
+    const name = field(raw, 'Name');
+    const key = normalizedName(name);
+    if (!key) continue;
+    names++;
+    if (!byName.has(key)) byName.set(key, []);
+    byName.get(key).push({ name, priceOrd: field(raw, 'PriceOrd'), priceEU: field(raw, 'PriceEU') });
+  }
+  if (!records || !names) throw new Error('Price export contains no parsable product names.');
+
+  let found = 0, absent = 0, ambiguous = 0;
+  console.log('ATOS price export ' + RESULT_TYPE + ': ' + records + ' records; ' + names + ' with names.');
+  for (const product of products) {
+    const hits = byName.get(normalizedName(product.name)) || [];
+    if (hits.length) found++;
+    else absent++;
+    if (hits.length > 1) ambiguous++;
+    console.log((hits.length ? 'NAME_FOUND' : 'NAME_ABSENT') + '\t' + product.name + '\tmatches=' + hits.length +
+      (hits.length === 1 ? '\tPriceOrd=' + (hits[0].priceOrd || '—') + '\tPriceEU=' + (hits[0].priceEU || '—') : ''));
+  }
+  console.log('SUMMARY\tmarked=' + products.length + '\tname-found=' + found + '\tname-absent=' + absent + '\tambiguous=' + ambiguous);
 }
 main().catch(error => {
-  console.error('ATOS marked-products price audit failed: ' + error.message);
+  console.error('ATOS original-name price audit failed: ' + error.message);
   process.exitCode = 1;
 });
