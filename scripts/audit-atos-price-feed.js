@@ -33,7 +33,7 @@ async function fetchFeed(label, resultType, authorization) {
     throw new Error(`${label} export returned HTTP ${response.status}`);
   }
   const xml = await response.text();
-  if (!/<(?:[\\w.-]+:)?Result\\b/i.test(xml)) throw new Error(`${label} export has no Result root`);
+  if (!/<(?:[\w.-]+:)?Result\b/i.test(xml)) throw new Error(`${label} export has no Result root`);
   const records = [];
   const pattern = /<(?:[\w.-]+:)?StoItem\b([^>]*?)(?:\/>|>([\s\S]*?)<\/(?:[\w.-]+:)?StoItem\s*>)/gi;
   for (const match of xml.matchAll(pattern)) {
