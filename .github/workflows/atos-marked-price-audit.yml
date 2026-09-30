@@ -1,0 +1,27 @@
+name: ATOS marked products price audit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/atos-marked-price-audit.yml'
+      - 'scripts/audit-atos-marked-prices.js'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Compare marked products with ATOS price exports
+        env:
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+        run: node scripts/audit-atos-marked-prices.js
