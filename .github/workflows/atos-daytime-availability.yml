@@ -1,0 +1,57 @@
+name: ATOS daytime availability
+
+on:
+  schedule:
+    # Refresh 15 minutes before the configured Shoptet imports at 10:05, 12:05 and 17:05.
+    - cron: '50 9,11,16 * * *'
+      timezone: 'Europe/Bratislava'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Serialize against the nightly full ATOS build and the shared sold-out state workflows.
+concurrency:
+  group: premiumstore-vypredaj-state
+  queue: max
+
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh availability from ATOS daytime stock export
+        env:
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+        run: node scripts/update-atos-availability.js
+
+      - name: Commit updated availability feed
+        run: |
+          git config user.name "atos-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add output/atos.xml data/availability-state/atos-live.json
+          if git diff --cached --quiet; then
+            echo "No ATOS availability changes to publish."
+            exit 0
+          fi
+          git commit -m "Aktualizácia dostupnosti ATOS $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "Push succeeded on attempt $i"
+              break
+            fi
+            echo "Push failed on attempt $i; retrying after rebase..."
+            sleep $((i*8))
+            if [ "$i" = "5" ]; then
+              echo "::error::Push failed after 5 attempts"
+              exit 1
+            fi
+          done

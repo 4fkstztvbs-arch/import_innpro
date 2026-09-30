@@ -52,10 +52,16 @@ Rovnako ako predtým — cez "Add file → Create new file" (nie drag-and-drop u
 **Settings → Secrets and variables → Actions → New repository secret**
 
 - `ATOS_URL` = `https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet_El`
-- `ATOS_USERNAME` = `nexymne64`
-- `ATOS_PASSWORD` = `wn0296`
+- `ATOS_USERNAME` = value stored only as the GitHub Actions repository secret.
+- `ATOS_PASSWORD` = value stored only as the GitHub Actions repository secret.
 
 (Over si názvy **znak po znaku** — presne toto nám minule spôsobilo problém pri InnPro. Pozor aj na `resultType` v `ATOS_URL`: holé `StoItemShoptet` bez prípony neexistuje — server naň vráti `HTTP 500: Unknown resultType`. Platný je len `StoItemShoptet_El`, a aj ten je dostupný len v noci, cez deň vráti `HTTP 500: Unsupported Hour`.)
+
+### Denná dostupnosť
+
+Workflow `ATOS daytime availability` načítava export `StoItemQtyFree_El` o 09:50, 11:50 a 16:50 (Europe/Bratislava), vždy 15 minút pred nastavenými importmi Shoptetu o 10:05, 12:05 a 17:05. Pri zmene upraví v `output/atos.xml` iba `AVAILABILITY` a `VISIBILITY`; cenu a obsah produktu ponecháva nočnému kompletnému feedu. Pri vypredaní nastaví dostupnosť `Vypredané` a viditeľnosť `detailOnly`, pri naskladnení obnoví pôvodnú viditeľnosť, ak ju zmenil tento workflow.
+
+V Shoptete musí byť pre rovnakú URL feedu nastavený aktualizačný import iba pre existujúce produkty, ktorý aktualizuje dostupnosť a viditeľnosť. Frekvencia závisí od tarify a počet denných aktualizácií sa zdieľa medzi všetky automatické importy.
 
 ### 3. Over funkčnosť
 - **Actions** → v ľavom menu teraz uvidíš aj **"ATOS sync"** (popri "InnPro sync")
