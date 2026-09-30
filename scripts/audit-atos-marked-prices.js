@@ -14,8 +14,8 @@ function decode(value) {
 function field(xml, name) {
   const child = xml.match(new RegExp('<' + name + '\\b[^>]*>([\\s\\S]*?)<\\/' + name + '\\s*>', 'i'));
   if (child) return decode(child[1]);
-  const attr = xml.match(new RegExp('\\b' + name + '\\s*=\\s*(["\\'])(.*?)\\1', 'i'));
-  return attr ? decode(attr[2]) : '';
+  const attrs = [...xml.matchAll(/([\\w:-]+)\\s*=\\s*(?:"([^"]*)"|'([^']*)')/g)].find(m => m[1].toLowerCase() === name.toLowerCase());
+  return attrs ? decode(attrs[2] || attrs[3]) : '';
 }
 function norm(value) { return String(value || '').trim().toUpperCase(); }
 function shopItems(xml) {
