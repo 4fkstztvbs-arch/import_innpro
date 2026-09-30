@@ -2,9 +2,9 @@ name: K-B sync
 
 on:
   schedule:
-    # Night supplier feed is processed after its source is available; finish before Shoptet's 00:05+ import window.
-    - cron: '15 21 * * *'
-      timezone: 'Europe/Bratislava' # 21:15 local time, with DST handling
+    # Generate this feed before 21:00 Bratislava time and ahead of the overnight Shoptet imports.
+    - cron: '5 20 * * *'
+      timezone: 'Europe/Bratislava' # 20:05 local time, with DST handling
   workflow_dispatch: {}
 
 permissions:

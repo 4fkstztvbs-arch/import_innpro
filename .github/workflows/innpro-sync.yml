@@ -2,11 +2,10 @@ name: InnPro sync
 
 on:
   schedule:
-    # Daytime sync cadence stays on UTC. The supplier regenerates full.xml around midnight Slovakia time,
-    # so run the nightly sync five minutes after that, with Europe/Bratislava DST handling.
+    # Daytime refreshes retain their UTC cadence. Run the nightly supplier output before 21:00 Slovakia time.
     - cron: '0 4,10,16 * * *'
-    - cron: '5 0 * * *'
-      timezone: 'Europe/Bratislava'
+    - cron: '25 20 * * *'
+      timezone: 'Europe/Bratislava' # 20:25 local time, with DST handling
   workflow_dispatch: {} # lets you trigger it manually from the Actions tab any time
 
 permissions:
