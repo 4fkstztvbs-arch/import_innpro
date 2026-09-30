@@ -572,7 +572,7 @@
     var staleDeliveryItem = Array.prototype.find.call(
       banner.querySelectorAll('.benefitBanner__item'), function (item) {
         var title = item.querySelector('.benefitBanner__title');
-        return title && title.textContent.trim().toLowerCase() === 'doručenie do 2 dní';
+        return title && title.textContent.replace(/\\s+/g, ' ').trim().toLowerCase() === 'doručenie do 2 dní';
       }
     );
     if (staleDeliveryItem) staleDeliveryItem.remove();
@@ -598,6 +598,18 @@
     } else if (status === 'skladom') {
       copy = 'Doručenie približne do 72 hodín';
       stateClass = 'ps-delivery-promise--stock';
+    }
+
+    // Zobrazíme jednu dôveryhodnú lehotu namiesto systémového dátumu,
+    // ktorý pri potvrdených stavoch 24/72 h môže hovoriť niečo iné.
+    var deliveryDateRow = Array.prototype.find.call(
+      form.querySelectorAll('tr'), function (row) {
+        var labelText = row.querySelector('.row-header-label');
+        return labelText && labelText.textContent.replace(/\\s+/g, ' ').trim().toLowerCase().indexOf('môžeme doručiť do') === 0;
+      }
+    );
+    if (deliveryDateRow) {
+      deliveryDateRow.classList.toggle('ps-delivery-date-row--replaced', !!copy);
     }
 
     var promise = form.querySelector('.ps-delivery-promise');
