@@ -399,3 +399,63 @@ body.type-detail.ps-pdp-v1 #product-detail-form table.shipping-options-layout tr
     display: none !important;
   }
 }
+
+/* Shoptet renders the quantity control and submit button as siblings. */
+@media (min-width: 768px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block {
+    display: grid !important;
+    grid-template-columns: minmax(0, .95fr) minmax(76px, .7fr) minmax(0, 1.35fr) !important;
+    align-items: center !important;
+    column-gap: 10px !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-final-price-wrapper {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    align-self: center !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > .add-to-cart {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > [data-testid="buttonAddToCart"] {
+    grid-column: 3 !important;
+    grid-row: 1 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+@media (max-width: 767px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block {
+    display: grid !important;
+    grid-template-columns: minmax(74px, .65fr) minmax(0, 1.35fr) !important;
+    align-items: center !important;
+    gap: 8px !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > .p-final-price-wrapper {
+    grid-column: 1 / -1 !important;
+    grid-row: 1 !important;
+    justify-self: center !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > .add-to-cart {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > [data-testid="buttonAddToCart"] {
+    grid-column: 2 !important;
+    grid-row: 2 !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
