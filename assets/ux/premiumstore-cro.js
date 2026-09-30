@@ -566,9 +566,56 @@
     var actions = document.querySelector('.buttons-wrapper.social-buttons-wrapper');
     var banner = document.querySelector('.benefitBanner.position--benefitProduct') ||
       document.querySelector('.benefitBanner');
-    if (!actions || !banner) return;
+    if (!banner) return;
+    // Tento globálny text nedodržiava lehotu konkrétneho importovaného
+    // stavu dostupnosti. Nahrádza ho presný prísľub pri dostupnosti produktu.
+    var staleDeliveryItem = Array.prototype.find.call(
+      banner.querySelectorAll('.benefitBanner__item'), function (item) {
+        var title = item.querySelector('.benefitBanner__title');
+        return title && title.textContent.trim().toLowerCase() === 'doručenie do 2 dní';
+      }
+    );
+    if (staleDeliveryItem) staleDeliveryItem.remove();
+    if (!actions) return;
     if (banner.previousElementSibling === actions) return;
     actions.insertAdjacentElement('afterend', banner);
+  }
+
+  // --- 5b) Doručenie podľa importovaného stavu dostupnosti (PDP) ----------
+  function updateDeliveryPromise() {
+    var form = getPdpForm();
+    if (!form) return;
+    var label = form.querySelector('[data-testid="labelAvailability"].availability-label') ||
+      form.querySelector('.availability-label');
+    if (!label) return;
+    var status = label.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
+    var copy = null;
+    var stateClass = '';
+
+    if (status === 'skladom na predajni') {
+      copy = 'Odosielame ihneď · doručenie približne do 24 hodín';
+      stateClass = 'ps-delivery-promise--store';
+    } else if (status === 'skladom') {
+      copy = 'Doručenie približne do 72 hodín';
+      stateClass = 'ps-delivery-promise--stock';
+    }
+
+    var promise = form.querySelector('.ps-delivery-promise');
+    if (!copy) {
+      if (promise) promise.remove();
+      return;
+    }
+    if (!promise) {
+      promise = document.createElement('div');
+      promise.setAttribute('role', 'status');
+      promise.setAttribute('aria-live', 'polite');
+      promise.setAttribute('aria-atomic', 'true');
+      label.insertAdjacentElement('afterend', promise);
+    }
+    if (promise.className !== 'ps-delivery-promise ' + stateClass) {
+      promise.className = 'ps-delivery-promise ' + stateClass;
+    }
+    if (promise.textContent !== copy) promise.textContent = copy;
   }
 
   // --- 6) Presun tlačidla "Pokračovať" (.next-step) do karty zhrnutia
@@ -757,6 +804,7 @@
     stickyBuyBar();
     deemphasizeSecondaryActions();
     relocateBenefitBanner();
+    updateDeliveryPromise();
     relocateCheckoutNextStep();
     renameContinueButton();
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
@@ -768,6 +816,20 @@
   run();
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', run, { once: true });
+  }
+
+  // Sleduje iba produktový formulár, aby sa lehota zmenila aj po prepnutí
+  // variantu alebo po aktualizácii dostupnosti cez Shoptet AJAX.
+  var productForm = getPdpForm();
+  if (productForm && window.MutationObserver) {
+    var deliveryTimer = null;
+    new MutationObserver(function () {
+      clearTimeout(deliveryTimer);
+      deliveryTimer = setTimeout(function () {
+        relocateBenefitBanner();
+        updateDeliveryPromise();
+      }, 60);
+    }).observe(productForm, { childList: true, characterData: true, subtree: true });
   }
 
   // Only checkout summary controls can be replaced during Shoptet AJAX updates.
