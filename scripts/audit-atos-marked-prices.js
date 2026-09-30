@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const XML_PATH = 'output/atos.xml';
 const API_URL = 'https://shop.atoselektro.cz/i6ws/Default.asmx/GetResultByCode';
 const PRICE_TYPES = ['StoItemPriceOrd', 'StoItemPriceOrd_El'];
+const STOCK_TYPE = 'StoItemQtyFree_El';
 const CONCURRENCY = 4;
 
 function decode(value) {
@@ -54,6 +55,7 @@ async function query(resultType, identifier, authorization) {
     code: field(raw, 'Code'), code2: field(raw, 'Code2'),
     ean: field(raw, 'EAN'), partNo: field(raw, 'PartNo'),
     priceOrd: field(raw, 'PriceOrd'), priceEU: field(raw, 'PriceEU'),
+    qtyFreeIs: field(raw, 'QtyFreeIs'), qtyFree: field(raw, 'QtyFree'),
   };
   if (![item.code, item.code2, item.ean, item.partNo].some(Boolean)) return { absent: true };
   return { item };
@@ -74,7 +76,17 @@ async function auditProduct(product, authorization) {
         if (!result.item) continue;
         const ids = new Set([result.item.code, result.item.code2, result.item.ean, result.item.partNo].map(norm).filter(Boolean));
         if (!identifiers.some(id => ids.has(id))) continue;
-        return { product, found: true, resultType, identifier, item: result.item };
+        let stock = null;
+        for (const stockIdentifier of identifiers) {
+          try {
+            const stockResult = await query(STOCK_TYPE, stockIdentifier, authorization);
+            if (stockResult.item) {
+              const stockIds = new Set([stockResult.item.code, stockResult.item.code2, stockResult.item.ean, stockResult.item.partNo].map(norm).filter(Boolean));
+              if (identifiers.some(id => stockIds.has(id))) { stock = stockResult.item; break; }
+            }
+          } catch (error) {}
+        }
+        return { product, found: true, resultType, identifier, item: result.item, stock };
       } catch (error) {
         errors++;
       }
@@ -105,7 +117,7 @@ async function main() {
     const p = r.product;
     if (r.found) {
       found++;
-      console.log('PRICE_FOUND\t' + p.code + '\t' + p.ean + '\t' + r.resultType + '\t' + r.identifier + '\t' + (r.item.priceOrd || r.item.priceEU || 'price-field-empty'));
+      console.log('PRICE_FOUND\\t' + p.code + '\\t' + p.ean + '\\t' + r.resultType + '\\t' + r.identifier + '\\t' + (r.item.priceOrd || r.item.priceEU || 'price-field-empty') + '\\tSTOCK=' + (r.stock ? 'QtyFreeIs:' + (r.stock.qtyFreeIs || '—') + ',QtyFree:' + (r.stock.qtyFree || '—') : 'absent'));
     } else if (r.incomplete) {
       incomplete++;
       console.log('PRICE_CHECK_INCOMPLETE\t' + p.code + '\t' + p.ean + '\trequest-errors=' + r.errors);
