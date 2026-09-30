@@ -572,7 +572,7 @@
     var staleDeliveryItem = Array.prototype.find.call(
       banner.querySelectorAll('.benefitBanner__item'), function (item) {
         var title = item.querySelector('.benefitBanner__title');
-        return title && title.textContent.replace(/\\s+/g, ' ').trim().toLowerCase() === 'doručenie do 2 dní';
+        return title && title.textContent.replace(/\s+/g, ' ').trim().toLowerCase() === 'doručenie do 2 dní';
       }
     );
     if (staleDeliveryItem) staleDeliveryItem.remove();
@@ -605,7 +605,7 @@
     var deliveryDateRow = Array.prototype.find.call(
       form.querySelectorAll('tr'), function (row) {
         var labelText = row.querySelector('.row-header-label');
-        return labelText && labelText.textContent.replace(/\\s+/g, ' ').trim().toLowerCase().indexOf('môžeme doručiť do') === 0;
+        return labelText && labelText.textContent.replace(/\s+/g, ' ').trim().toLowerCase().indexOf('môžeme doručiť do') === 0;
       }
     );
     if (deliveryDateRow) {
