@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27092,
-  "matchedRules": 2262,
-  "changedProducts": 223,
+  "totalProducts": 27053,
+  "matchedRules": 2258,
+  "changedProducts": 981,
   "rejected": [
     {
       "supplier": "atos",
@@ -467,6 +467,16 @@
     {
       "supplier": "atos",
       "code": "ABL-30-B1-316",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 841151-0320",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 883848-0400",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1116,11 +1126,6 @@
     },
     {
       "supplier": "innpro",
-      "code": "085165",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
       "code": "085166",
       "reason": "Reviewed product name changed"
     },
@@ -1367,56 +1372,6 @@
     {
       "supplier": "innpro",
       "code": "082793",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "018665",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "055617",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "058841",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "069161",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "069449",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078361",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083736",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083739",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090987",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "091003",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1751,11 +1706,6 @@
     },
     {
       "supplier": "kb",
-      "code": "100002131488",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
       "code": "100002136233",
       "reason": "Reviewed product name changed"
     },
@@ -1819,7 +1769,7 @@
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
-      "visibleUnique": 22,
+      "visibleUnique": 21,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -1831,7 +1781,7 @@
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
-      "visibleUnique": 143,
+      "visibleUnique": 142,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -1861,7 +1811,7 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Bojové športy > Boxerské rukavice",
-      "visibleUnique": 120,
+      "visibleUnique": 119,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Bojové športy"
     },
@@ -1879,7 +1829,7 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Filtre pre drony",
-      "visibleUnique": 101,
+      "visibleUnique": 99,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
     },
@@ -1915,8 +1865,8 @@
     },
     {
       "path": "Chovateľské potreby > Pohlcovače zápachu",
-      "visibleUnique": 6,
-      "active": false,
+      "visibleUnique": 9,
+      "active": true,
       "parent": "Chovateľské potreby"
     },
     {
@@ -1927,7 +1877,7 @@
     },
     {
       "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače",
-      "visibleUnique": 50,
+      "visibleUnique": 49,
       "active": true,
       "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
     },
@@ -1999,7 +1949,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory teploty a vlhkosti",
-      "visibleUnique": 21,
+      "visibleUnique": 20,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
@@ -2011,7 +1961,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky",
-      "visibleUnique": 61,
+      "visibleUnique": 62,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
@@ -2113,13 +2063,13 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá",
-      "visibleUnique": 34,
+      "visibleUnique": 35,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 114,
+      "visibleUnique": 113,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2155,7 +2105,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 82,
+      "visibleUnique": 80,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
@@ -2209,7 +2159,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Statívy pre fotoaparáty a kamery",
-      "visibleUnique": 26,
+      "visibleUnique": 27,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
