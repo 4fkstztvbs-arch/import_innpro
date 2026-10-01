@@ -37,5 +37,31 @@
       "https://www.tefal.pl/pojemnik-na-zywnosc-ze-stali-nierdzewnej-tefal-masterseal-1-2-l",
       "https://shop.tefal.ua/kontejner-prjamokutnij-tefal-master-seal-stainless-steel-1-2-l-n1150510.html"
     ]
+  },
+  "100002076694": {
+    "ean": "8594186722877",
+    "model": "GZ 49G",
+    "replaceIfSourceEan": "594186722877",
+    "sourceUrls": [
+      "https://www.guzzanti.com/wine-coolers/free-standing-wine-coolers/1550-refrigerated-display-case-guzzanti-gz-49g"
+    ]
+  },
+  "100002105360": {
+    "ean": "4549292238457",
+    "model": "QX20 biela",
+    "replaceIfSourceEan": "4549292338457",
+    "sourceUrls": [
+      "https://faq.canon.jp/app/answers/detail/a_id/104842/",
+      "https://personal.canon.jp/product/printer/miniphotoprinter/lineup/qx20"
+    ]
+  },
+  "100002105364": {
+    "ean": "4549292238464",
+    "model": "QX20 červená",
+    "replaceIfSourceEan": "4549292338464",
+    "sourceUrls": [
+      "https://boulanger.scene7.com/is/content/Boulanger/8714574694887_f_0",
+      "https://www.camara.net/11911-canon-selphy-square-qx20-blanc-sable.html"
+    ]
   }
 }
