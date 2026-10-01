@@ -7,5 +7,57 @@
       "https://www.technisat.de/dab-radios/technisat-digitradio-317-schwarz-farbe-schwarz",
       "https://www.technisat.de/datasheet-pdf?productId=25398"
     ]
+  },
+  "ABT-A500004303": {
+    "ean": "0810010075864",
+    "model": "USW-Flex-XG",
+    "sourceUrls": [
+      "https://www.reichelt.de/de/de/shop/produkt/switch_5-port_10_gigabit_ethernet-319260",
+      "https://eu.store.ui.com/eu/en/products/usw-flex-xg"
+    ]
+  },
+  "ABT-A500003297": {
+    "ean": "0810010071675",
+    "model": "USW-Flex-Mini",
+    "sourceUrls": [
+      "https://www.barcodesinc.com/ubiquiti-networks/part-usw-flex-mini.htm",
+      "https://dl.ui.com/ds/usw-flex-mini_ds"
+    ]
+  },
+  "ABT-A500003056": {
+    "ean": "0817882027595",
+    "model": "USW-FLEX",
+    "sourceUrls": [
+      "https://www.assmann.com/product-pdf/aat/0817882027595?PL=en",
+      "https://www.ui.com/"
+    ]
+  },
+  "PEN-57200054": {
+    "ean": "5905555001319",
+    "model": "Halo 13x Digital Night Vision",
+    "sourceUrls": [
+      "https://de.levenhuk.com/catalogue/fernglaser/levenhuk-halo-13x-digitales-nachtsicht-fernglas/"
+    ]
+  },
+  "PEN-57200055": {
+    "ean": "5905555001951",
+    "model": "Halo 13x Digital Night Vision",
+    "sourceUrls": [
+      "https://cz.levenhuk.com/catalogue/monokularni-dalekohledy/digitalni-monokularni-dalekohled-s-nocnim-videnim-levenhuk-halo-13x/"
+    ]
+  },
+  "PEN-57200056": {
+    "ean": "5905555001333",
+    "model": "Halo 13x Wi-Fi",
+    "sourceUrls": [
+      "https://eu.levenhuk.com/catalogue/binoculars/levenhuk-halo-13x-wi-fi-digital-night-vision-binoculars/"
+    ]
+  },
+  "PEN-57200057": {
+    "ean": "5905555001326",
+    "model": "Halo 13x PLUS",
+    "sourceUrls": [
+      "https://eu.levenhuk.com/catalogue/binoculars/levenhuk-halo-13x-plus-digital-night-vision-binoculars/"
+    ]
   }
 }
