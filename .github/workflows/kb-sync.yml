@@ -125,6 +125,9 @@ jobs:
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z K-B feedu
         run: node scripts/apply-missing-availability.js --supplier=kb --xml=output/kb.xml
 
+      - name: Restore truncated leading zeroes for valid EAN-13 values
+        run: node scripts/normalize-truncated-ean.js output/kb.xml
+
       - name: Commit updated output
         run: |
           git config user.name "kb-sync-bot"
