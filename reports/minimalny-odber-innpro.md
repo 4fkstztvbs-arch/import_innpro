@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-01 21:04 UTC.
+Kontrola z 2026-10-01 22:49 UTC.
 
-InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **398** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -64,7 +64,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `038946` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `038943` | Baseus Glitter priehľadné puzdro a sada tvrdeného skla pre i | — | 2 |
 | `040287` | Prepravné puzdro Sunnylife pre DJI Osmo Mobile 6 | — | 5 |
-| `039677` | Mäkká valcová kefa pre vysávač Dreame R10 Pro / R20 | — | 5 |
 | `041716` | Držiak telefónu Puluz | — | 5 |
 | `043028` | Stojan Sonoff NSPanel (biely) | — | 5 |
 | `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 5 |
@@ -101,6 +100,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
 | `053576` | Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1, | — | 5 |
 | `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
+| `053750` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (či | — | 5 |
 | `053763` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (mo | — | 5 |
 | `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 5 |
 | `054882` | Puzdro na telefón pre iPhone 15 ProMax Baseus OS-Lucent Seri | — | 5 |
@@ -119,7 +119,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
 | `056365` | Nalepovacie termoštítky Niimbot 25 x 60 mm, 110 ks (biele) | — | 5 |
 | `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
-| `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 5 |
+| `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 4 |
 | `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
 | `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
@@ -132,6 +132,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060430` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `060431` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `058458` | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | — | 5 |
+| `060454` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 2 |
 | `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 5 |
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
 | `062227` | Niimbot termálne nálepky 12x30 mm, 195 ks (biele) | — | 5 |
@@ -147,7 +148,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063729` | Replacement filters for the Oneisall fountain | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
-| `065401` | 2 sets Tempered Glass Film Sunnylife for Insta360 X4 / X5 | — | 5 |
 | `065855` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (pur | — | 5 |
 | `063739` | DIN Rail wire connector Sonoff set (20 pcs) | — | 5 |
 | `066305` | Tempered Glass PULUZ  for Insta360 X4 / X5 | — | 5 |
@@ -168,6 +168,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `069434` | TELESIN tempered glass for DJI Osmo Pocket 3 | — | 5 |
 | `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
 | `067687` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-FW (whi | — | 5 |
+| `067677` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-F (grap | — | 5 |
 | `067686` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-FW (whi | — | 5 |
 | `067669` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-F (grap | — | 5 |
 | `068840` | Mäkká kefa pre Dreame Z20/Z30/Z20 AquaCycle™/Z30 AquaCycle™ | — | 5 |
@@ -198,8 +199,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
-| `074972` | Sunnylife OA5-BK941 ochranné puzdro proti slnku pre OSMO ACT | — | 2 |
 | `073335` | Telesin Tvrdené sklo 3 v 1 pre GoPro Hero 13 Black (S6-FLM-0 | — | 5 |
+| `073341` | Filtrácia CPL pre GoPro Hero 13 Black Telesin (S5-FLT-08-TGP | — | 5 |
 | `075568` | Filtre Rojeco pre 2,5 l bezdrôtové vodné fontány 50 | — | 5 |
 | `075569` | Rojeco Filtre pre dávkovač vody pre domáce zvieratá 2600mAh  | — | 5 |
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
@@ -268,7 +269,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083367` | Taška Sunnylife pre Action 6 (oranžová) | — | 5 |
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
-| `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
 | `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 5 |
 | `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
 | `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 5 |
@@ -354,6 +354,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088984` | Rezná podložka HTVRONT, 34,8 cm x 37 cm, balenie po 3 kusoch | — | 5 |
 | `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
 | `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 5 |
+| `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
 | `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
 | `087023` | Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 | — | 5 |
@@ -382,7 +383,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089666` | Penový ochranný kryt Puluz pre Insta360 X5, X4 a X3 (balenie | — | 5 |
 | `089669` | Tvrdené sklo Puluz pre DJI Osmo Action 5 Pro (číre) | — | 5 |
 | `089671` | Skladací statív Puluz pre mobilné telefóny | — | 5 |
-| `089594` | Držiak Puluz s nastaviteľným 1/4-palcovým závitom pre akčné  | — | 4 |
+| `089594` | Držiak Puluz s nastaviteľným 1/4-palcovým závitom pre akčné  | — | 5 |
 | `089585` | Bočná kefa MOVA pre model E40 Ultra | — | 5 |
 | `089895` | Sunnylife Insta360 GO Ultra silikónový náramok (čierny) | — | 5 |
 | `089897` | Univerzálny držiak na telefón Sunnylife s klipom | — | 5 |

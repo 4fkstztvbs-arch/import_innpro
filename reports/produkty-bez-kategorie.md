@@ -1,18 +1,19 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-01 22:42 UTC.
+Kontrola z 2026-10-01 22:50 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
 
-## innpro — 2 ks
+## innpro — 3 ks
 
 | Kód | Produkt |
 |---|---|
 | `088539` | Monitor DarkFlash 9,2" IPS V92 (čierny) |
 | `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
+| `087241` | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
 
 ## kb — 3 ks
 
