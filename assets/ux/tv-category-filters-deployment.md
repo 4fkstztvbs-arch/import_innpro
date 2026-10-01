@@ -18,7 +18,7 @@ Append this stylesheet reference to the existing HTML head code:
 Append this script reference to the existing HTML footer code:
 
 ```html
-<script defer src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/tv-category-filters.js?v=4"></script>
+<script defer src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/tv-category-filters.js?v=5"></script>
 ```
 
 ## Rollback
