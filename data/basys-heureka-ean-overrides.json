@@ -1176,4 +1176,21 @@
       "https://www.madridhifi.com/p/behringer-ucg-102-interface/"
     ]
   }
+,
+  "HPS3000": {
+    "model": "HPS3000",
+    "ean": "4033653150033",
+    "sourceUrls": [
+      "https://www.kuantokusta.pt/p/1660912/behringer-hps3000",
+      "https://woodbrass.be/products/behringer-hps3000-19520"
+    ]
+  },
+  "HPS5000": {
+    "model": "HPS5000",
+    "ean": "4033653150095",
+    "sourceUrls": [
+      "https://www.prodj.com/products/behringer-hps5000",
+      "https://midi.pl/do-studia/309-behringer-hps-5000-sluchawki-studyjne-4033653150095.html"
+    ]
+  }
 }
