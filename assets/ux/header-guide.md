@@ -29,16 +29,18 @@ Pre návrat obnoviť pôvodné CSS a JS zo záložnej vetvy a znovu publikovať 
 
 Pod 768 px sú sekcie Nakupovanie, Sortiment a Užitočné informácie predvolene zbalené. Nadpisy sú tlačidlá ovládateľné aj klávesnicou s aria-expanded a aria-controls. Kontakt zostáva viditeľný. Od 768 px sú všetky odkazy zobrazené; od 992 px zostáva pôvodné štvorstĺpcové rozloženie. Pri zmene šírky sa stav synchronizuje; mobil si zachová otvorené sekcie.
 
-## Jednoduchší vzhľad natívnej filtrácie Shoptet
+## Jednotné filtre kategórií
 
-Filtráciu riadia pôvodné formuláre a skripty Shoptetu. Tento doplnok mení iba jemné vizuálne detaily: okraje, rozostupy, typografiu a vzhľad počtov produktov. Nepridáva vlastný panel, vyhľadávanie, posúvanie ani JavaScript.
+Spoločné rozhranie kategórií zachováva natívne ovládacie prvky Shoptetu, ich odosielanie, parametre v URL a obnovu výsledkov. Na desktope ponecháva filtre v bočnom paneli s rozbaľovacími skupinami. Na mobile ponúka jedno tlačidlo „Filtre“, výsuvný panel, aktívne voľby a tlačidlo na zatvorenie. Rýchle voľby podľa uhlopriečky a technológie zostávajú špecifické pre televízory.
 
-V administrácii Shoptetu v kategóriách odstrániť staré odkazy na `category-filters.css` a `category-filters.js`. Namiesto nich pridať iba tento štýl do hlavičky:
+V administrácii Shoptetu pridávať odkazy k existujúcemu kódu, bez mazania iných položiek. CSS vložiť do hlavičky a JS do pätičky. Televízorový pilot ostáva samostatný; spoločný JS a CSS sú obmedzené na ostatné stránky kategórií.
 
 ```html
-<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters-native.css?v=3">
+<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters-unified.css?v=1">
 ```
 
-Pôvodné prvky a akcie filtra zostávajú nedotknuté. Štýl nevynucuje výšku ani vnútorné posúvanie zoznamov; používa sa prirodzené rozloženie stránky a natívne správanie Shoptetu.
+```html
+<script defer src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/category-filters-unified.js?v=1"></script>
+```
 
-Po publikovaní assetu a jeho aktivácii v Shoptete skontrolovať kategóriu na mobile, tablete a desktope, vrátane rozbalenia filtra, výberu značky, ceny a zrušenia filtrov. Po overení odstrániť staré odkazy natrvalo, aby sa vlastný panel nezapol súčasne s natívnym filtrom.
+Pred aktiváciou zálohovať presný obsah polí v administrácii. Staré odkazy na `category-filters.css`, `category-filters.js` alebo `category-filters-native.css` nepridávať súčasne s týmto rozhraním; odlišný popover alebo natívny restyle by sa prekryl. Po uložení skontrolovať desktop aj skutočné mobilné HTML, aspoň jednu kategóriu s veľa možnosťami, jednu so stručnými filtrami, aktívny filter, zrušenie filtrov a sortovanie. Návrat: odstrániť iba oba nové odkazy a obnoviť predchádzajúci obsah HTML kódu zo zálohy.
