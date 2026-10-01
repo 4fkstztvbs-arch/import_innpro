@@ -87,5 +87,37 @@
       "https://www.carrefour.es/behringer-xenyx-x1622usb-mesa-analogica/4033653021180/p",
       "https://www.prodj.com/products/behringer-xenyx-x1622usb"
     ]
+  },
+  "B115MP3": {
+    "model": "B115MP3",
+    "ean": "4033653021845",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/577.html",
+      "https://www.verkkokauppa.com/en/product/542366/Behringer-EuroLive-B115MP3-2-way-active-speaker"
+    ]
+  },
+  "QX1832USB": {
+    "model": "QX1832USB",
+    "ean": "4033653013116",
+    "sourceUrls": [
+      "https://www.musicacenter.com.br/audio/mesas-de-som/mesa-de-som-behringer-18-canais-qx1832usb",
+      "https://www.watanabe-mi.jp/brand/wp-content/uploads/2020/06/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8202006_WEB.pdf"
+    ]
+  },
+  "QX1222USB": {
+    "model": "QX1222USB",
+    "ean": "4033653013123",
+    "sourceUrls": [
+      "https://www.musicacenter.com.br/audio/mesas-de-som/mesa-de-som-behringer-xenyx-qx1222-usb-mixer",
+      "https://www.kuantokusta.pt/p/1661180/behringer-xenyx-qx1222usb"
+    ]
+  },
+  "X1204USB": {
+    "model": "X1204USB",
+    "ean": "4033653021166",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-xenyx-x1204usb/",
+      "https://www.rozetka.com.ua/ua/behringer-4033653021166/p611136074/"
+    ]
   }
 }
