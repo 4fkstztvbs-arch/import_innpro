@@ -60,6 +60,8 @@ function isEnergyEligible(defaultCategory) {
   return ENERGY_ELIGIBLE_PREFIXES.some((p) => defaultCategory === p || defaultCategory.startsWith(p + ' > '));
 }
 
+const EAN_OVERRIDES_PATH = path.join(__dirname, 'heureka-ean-overrides-kb.json');
+const EAN_OVERRIDES = JSON.parse(fs.readFileSync(EAN_OVERRIDES_PATH, 'utf8'));
 const MAPPING_PATH = path.join(__dirname, 'kb-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 const MAPPING_EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
@@ -144,6 +146,21 @@ function normalizeEan(raw) {
   const sum = candidate.slice(0, 12).split('').reduce((total, digit, index) =>
     total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
   return String((10 - (sum % 10)) % 10) === candidate[12] ? candidate : value;
+}
+
+function isValidEan13(value) {
+  if (!/^\d{13}$/.test(value)) return false;
+  const sum = value.slice(0, 12).split('').reduce((total, digit, index) =>
+    total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
+  return String((10 - (sum % 10)) % 10) === value[12];
+}
+
+function eanForProduct(code, name, rawEan) {
+  const sourceEan = normalizeEan(rawEan);
+  if (sourceEan) return sourceEan;
+  const override = EAN_OVERRIDES[code];
+  if (override && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
+  return '';
 }
 
 function buildShopitemXml(p) {
@@ -309,7 +326,7 @@ async function main() {
     const isReturnStockSale = (saleState.items[code]?.quantity || 0) > 0;
     if (EXCLUDE_UNAVAILABLE && prodAvail[pid] === '0' && !isReturnStockSale) { stats.skippedUnavailable++; return; }
     const name = field(e, 'sJmenoVyrobku');
-    const ean = normalizeEan(field(e, 'sEan'));
+    const ean = eanForProduct(code, name, field(e, 'sEan'));
     const manufacturer = field(e, 'sJmenoVyrobce');
     if (crossSupplier.shouldExclude(manufacturer, name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
     const warranty = field(e, 'nZarukaMesicu');
