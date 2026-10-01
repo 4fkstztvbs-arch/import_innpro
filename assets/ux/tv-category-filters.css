@@ -1,0 +1,801 @@
+/* Television category UX; never applies outside body.in-televizory. */
+body.in-televizory.ps-tv-category-enhanced {
+  --ps-tv-green: #24b47e;
+  --ps-tv-green-dark: #187a56;
+  --ps-tv-ink: #0e151c;
+  --ps-tv-muted: #66717a;
+  --ps-tv-line: #e1e6e4;
+  --ps-tv-soft: #f4f8f6;
+}
+
+body.in-televizory.ps-tv-category-enhanced .category-top .products-top-wrapper {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced .category-top {
+  margin-bottom: 14px;
+}
+
+body.in-televizory.ps-tv-category-enhanced .category-title {
+  margin-bottom: 12px;
+  color: var(--ps-tv-ink);
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.15;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 18px;
+  padding: 0 0 16px;
+  border-bottom: 1px solid var(--ps-tv-line);
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-label {
+  margin-right: 3px;
+  color: var(--ps-tv-ink);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 15px;
+  border: 1px solid #d7e0db;
+  border-radius: 22px;
+  background: #fff;
+  color: #25322c;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .15s ease, border-color .15s ease, color .15s ease;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-chip:hover,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-chip:focus-visible,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-chip.is-selected {
+  border-color: var(--ps-tv-green);
+  background: #effaf5;
+  color: var(--ps-tv-green-dark);
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-chip:focus-visible,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-section-toggle:focus-visible,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-filter-button:focus-visible,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-close:focus-visible,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-footer button:focus-visible {
+  outline: 3px solid #172b25;
+  outline-offset: 2px;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-chip:disabled {
+  color: #8a9398;
+  background: #f6f7f7;
+  cursor: not-allowed;
+}
+
+body.in-televizory.ps-tv-category-enhanced .category-content-wrapper {
+  min-width: 0;
+}
+
+body.in-televizory.ps-tv-category-enhanced .box-filters {
+  box-sizing: border-box;
+  padding: 16px !important;
+  border: 1px solid var(--ps-tv-line) !important;
+  border-radius: 12px !important;
+  background: #fff !important;
+  box-shadow: 0 2px 8px rgba(14, 21, 28, .035);
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-filter-title {
+  margin: 0 0 5px !important;
+  color: var(--ps-tv-ink);
+  font-size: 19px;
+  font-weight: 700;
+}
+
+body.in-televizory.ps-tv-category-enhanced .box-filters .filters-unveil-button-wrapper {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters {
+  display: block !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .slider-wrapper,
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section {
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 12px 0 !important;
+  border: 0 !important;
+  border-top: 1px solid var(--ps-tv-line) !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .slider-wrapper > h4,
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section > h4,
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section > .param-filter-top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 30px;
+  margin: 0 !important;
+  color: var(--ps-tv-ink);
+  font-size: 16px !important;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section > .param-filter-top > h4 {
+  margin: 0 !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-section-toggle {
+  display: inline-grid;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: #65716b;
+  cursor: pointer;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-section-toggle span {
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-right: 1.7px solid currentColor;
+  border-bottom: 1.7px solid currentColor;
+  transform: rotate(45deg);
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-expanded > h4 .ps-tv-section-toggle span,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-expanded > .param-filter-top .ps-tv-section-toggle span {
+  margin-top: 4px;
+  transform: rotate(225deg);
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section:not(.ps-tv-expanded) > form,
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section:not(.ps-tv-expanded) > fieldset,
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section:not(.ps-tv-expanded) > .advanced-filters-wrapper,
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section:not(.ps-tv-expanded) > .param-filter-top form,
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section:not(.ps-tv-expanded) > .param-filter-top + form,
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section:not(.ps-tv-expanded) > .ps-tv-facet-search {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .slider-wrapper:not(.ps-tv-expanded) > :not(h4) {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section-count {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section-boolean {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters #clear-filters {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section fieldset {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3px 7px;
+  margin: 9px 0 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section fieldset > div {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 7px;
+  min-width: 0;
+  min-height: 38px;
+  margin: 0 !important;
+  padding: 7px 4px !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section fieldset.ps-tv-options-collapsible:not(.ps-tv-options-expanded) > div:nth-of-type(n+7) {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .ps-tv-show-more {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  margin: 7px 0 0;
+  padding: 0 4px;
+  border: 0;
+  background: transparent;
+  color: var(--ps-tv-green-dark);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section input[type="checkbox"],
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section input[type="radio"] {
+  flex: 0 0 auto;
+  margin-top: 2px;
+  accent-color: var(--ps-tv-green-dark);
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section label {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 5px;
+  min-width: 0;
+  margin: 0 !important;
+  color: #34413b;
+  font-size: 14px !important;
+  line-height: 1.35 !important;
+  cursor: pointer;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .filter-section label .filter-count {
+  flex: 0 0 auto;
+  color: var(--ps-tv-muted);
+  font-size: 14px !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .ps-tv-facet-search {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 42px;
+  margin: 8px 0 2px;
+  padding: 8px 10px;
+  border: 1px solid #d8dfdb;
+  border-radius: 7px;
+  color: var(--ps-tv-ink);
+  font: inherit;
+  font-size: 14px;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .ps-tv-facet-search:focus-visible {
+  outline: 3px solid var(--ps-tv-green-dark);
+  outline-offset: 2px;
+}
+
+body.in-televizory.ps-tv-category-enhanced #filters .ps-tv-search-hidden {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-active-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0 0 16px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  background: var(--ps-tv-soft);
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-active-filters[hidden] {
+  display: none !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-active-label {
+  margin-right: 3px;
+  color: var(--ps-tv-muted);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-active-chip {
+  min-height: 32px;
+  padding: 4px 10px;
+  border: 1px solid #c9e7d7;
+  border-radius: 18px;
+  background: #fff;
+  color: #176446;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-active-chip:hover {
+  border-color: var(--ps-tv-green);
+  background: #f5fcf8;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-clear-filters {
+  margin-left: auto;
+  color: #59666e;
+  font-size: 14px;
+  text-underline-offset: 3px;
+}
+
+body.in-televizory.ps-tv-category-enhanced .category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  margin: 0 0 12px;
+  border: 0 !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced .category-header-pagination {
+  color: #46524c;
+  font-size: 14px;
+}
+
+body.in-televizory.ps-tv-category-enhanced #products.products-block {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 16px;
+  width: 100%;
+  margin: 0 !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #products.products-block > .product {
+  float: none !important;
+  width: auto !important;
+  min-width: 0;
+  margin: 0 !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #products .product .p {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--ps-tv-line);
+  border-radius: 12px;
+  background: #fff;
+  transition: box-shadow .15s ease, border-color .15s ease;
+}
+
+body.in-televizory.ps-tv-category-enhanced #products .product .p:hover {
+  border-color: #cad8d1;
+  box-shadow: 0 7px 20px rgba(14, 21, 28, .08);
+}
+
+body.in-televizory.ps-tv-category-enhanced #products .product a.image {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 205px;
+  padding: 12px 15px 2px;
+  box-sizing: border-box;
+}
+
+body.in-televizory.ps-tv-category-enhanced #products .product a.image img {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+}
+
+body.in-televizory.ps-tv-category-enhanced #products .product .p-in {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: 100% !important;
+  box-sizing: border-box;
+  padding: 10px 14px 14px !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced #products .product .p-in-in {
+  width: 100% !important;
+  min-width: 0;
+}
+
+body.in-televizory.ps-tv-category-enhanced #products .product .p-bottom {
+  margin-top: auto;
+  padding: 12px 0 0 !important;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-controls,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-head,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-footer,
+body.in-televizory.ps-tv-category-enhanced .ps-tv-filter-backdrop {
+  display: none;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-controls {
+  display: contents;
+}
+
+body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-filter-button {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body.in-televizory.ps-tv-category-enhanced #products.products-block {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-filter-title {
+    display: none !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .category-top {
+    margin-bottom: 10px;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .category-title {
+    margin: 3px 0 10px;
+    font-size: 28px;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-filters {
+    flex-wrap: nowrap;
+    gap: 8px;
+    margin: 0 -10px 12px;
+    padding: 2px 10px 12px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-label {
+    display: none;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-chip {
+    flex: 0 0 auto;
+    min-height: 40px;
+    padding: 0 14px;
+    font-size: 14px;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .sidebar-left {
+    display: block !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    float: none !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .sidebar-left .sidebar-inner {
+    margin: 0 !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .sidebar-left .box-categories {
+    display: none !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .box-filters {
+    display: none !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open .box-filters {
+    position: fixed !important;
+    inset: auto 0 0 !important;
+    z-index: 1200 !important;
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    max-height: min(82vh, 720px) !important;
+    max-height: min(82dvh, 720px) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    border: 0 !important;
+    border-radius: 18px 18px 0 0 !important;
+    background: #fff !important;
+    box-shadow: 0 -12px 32px rgba(14, 21, 28, .18) !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open .sidebar-left .sidebar-inner {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open #filters-wrapper,
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open .filters-wrapper,
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open #filters {
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open #filters {
+    max-height: min(82vh, 720px) !important;
+    max-height: min(82dvh, 720px) !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+    padding: 0 16px 84px !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-head {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 58px;
+    margin: 0 -16px 2px;
+    padding: 0 16px;
+    border-bottom: 1px solid var(--ps-tv-line);
+    background: #fff;
+    color: var(--ps-tv-ink);
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-head strong {
+    font-size: 18px;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-close {
+    min-height: 40px;
+    padding: 0 8px;
+    border: 0;
+    background: transparent;
+    color: var(--ps-tv-green-dark);
+    font: inherit;
+    font-weight: 700;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-footer {
+    position: sticky;
+    bottom: -84px;
+    z-index: 2;
+    display: block;
+    margin: 14px -16px -84px;
+    padding: 12px 16px max(14px, env(safe-area-inset-bottom));
+    border-top: 1px solid var(--ps-tv-line);
+    background: #fff;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-drawer-footer button {
+    width: 100%;
+    min-height: 48px;
+    border: 0;
+    border-radius: 9px;
+    background: var(--ps-tv-green-dark);
+    color: #fff;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-filter-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1199;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: rgba(14, 21, 28, .48);
+  }
+
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open .ps-tv-filter-backdrop {
+    display: block;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open {
+    overflow: hidden !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #category-header {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    gap: 9px;
+    margin: 0 0 11px !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .category-header-pagination {
+    font-size: 14px;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 9px;
+    width: 100%;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-filter-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    min-height: 46px;
+    padding: 0 10px;
+    border: 1px solid var(--ps-tv-green);
+    border-radius: 9px;
+    background: #effaf5;
+    color: #145e41;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-controls .listSorting {
+    min-width: 0;
+    margin: 0 !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-controls .sortingToggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 46px;
+    padding: 0 8px;
+    border: 1px solid var(--ps-tv-line);
+    border-radius: 9px;
+    background: #fff;
+    white-space: nowrap;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-active-filters {
+    flex-wrap: nowrap;
+    max-width: 100%;
+    margin: 0 0 12px;
+    padding: 8px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-active-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-active-label,
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-clear-filters {
+    display: none;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-clear-filters {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    min-height: 32px;
+    margin-left: 0;
+    padding: 0 6px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-active-chip {
+    flex: 0 0 auto;
+    min-height: 32px;
+    font-size: 14px;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products.products-block {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product a.image {
+    height: 145px;
+    padding: 8px 7px 0;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .p-in {
+    padding: 8px 10px 11px !important;
+    text-align: left !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .p-bottom {
+    padding-top: 8px !important;
+    text-align: left !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .name {
+    display: -webkit-box;
+    min-height: 0;
+    padding: 0 !important;
+    overflow: hidden;
+    font-size: 14px !important;
+    line-height: 1.32 !important;
+    text-align: left !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .ratings-wrapper {
+    margin-top: 7px !important;
+    font-size: 14px !important;
+    line-height: 1.3 !important;
+    text-align: left !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .prices,
+  body.in-televizory.ps-tv-category-enhanced #products .product .price-final {
+    text-align: left !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .p-tools {
+    height: auto !important;
+    min-height: 0 !important;
+    padding-top: 5px !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .pr-action {
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .btn-cart {
+    width: 100% !important;
+    min-height: 42px !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 9px 6px !important;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+  }
+
+  body.in-televizory.ps-tv-category-enhanced #products .product .p-tools .btn-cart span {
+    position: static !important;
+    display: inline !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+    clip: auto !important;
+    white-space: normal !important;
+  }
+}
+
+@media (max-width: 360px) {
+  body.in-televizory.ps-tv-category-enhanced #products .product a.image {
+    height: 126px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.in-televizory.ps-tv-category-enhanced .ps-tv-quick-chip,
+  body.in-televizory.ps-tv-category-enhanced #products .product .p {
+    transition: none;
+  }
+}
