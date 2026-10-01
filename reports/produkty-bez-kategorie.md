@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-09-30 22:15 UTC.
+Kontrola z 2026-10-01 05:41 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -55,15 +55,6 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `TOC-TO-06940` |  |
 | `TOMD6-63DC 50A` |  |
 | `WIWAMINI` |  |
-
-## basys — 4 ks
-
-| Kód | Produkt |
-|---|---|
-| `BASYS-B 840917-2100` |  |
-| `BASYS-B 841151-0320` |  |
-| `BASYS-B 883848-0400` |  |
-| `BASYS-BD 1000310` |  |
 
 ## innpro — 74 ks
 

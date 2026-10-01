@@ -1408,11 +1408,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-BD 459038",
-      "code": "BASYS-BD 459038",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-BD 459046",
       "code": "BASYS-BD 459046",
       "ean": ""
@@ -4438,6 +4433,11 @@
       "ean": "17817846912"
     },
     {
+      "key": "ean:17817846929",
+      "code": "BASYS-B 881046-0010",
+      "ean": "17817846929"
+    },
+    {
       "key": "ean:17817848275",
       "code": "BASYS-B 882963-2200",
       "ean": "17817848275"
@@ -4712,6 +4712,11 @@
     {
       "key": "code:BASYS-BD 1000310",
       "code": "BASYS-BD 1000310",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-BD 459038",
+      "code": "BASYS-BD 459038",
       "ean": ""
     },
     {

@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27174,
-  "matchedRules": 2255,
-  "changedProducts": 4,
+  "totalProducts": 27179,
+  "matchedRules": 2256,
+  "changedProducts": 224,
   "rejected": [
     {
       "supplier": "atos",
@@ -467,16 +467,6 @@
     {
       "supplier": "atos",
       "code": "ABL-30-B1-316",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 841151-0320",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 883848-0400",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2158,7 +2148,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá",
-      "visibleUnique": 35,
+      "visibleUnique": 36,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
