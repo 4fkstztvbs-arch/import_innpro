@@ -689,16 +689,11 @@ body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-filter-button {
   }
 
   body.in-televizory.ps-tv-category-enhanced .ps-tv-active-filters {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     max-width: 100%;
     margin: 0 0 12px;
     padding: 8px;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  body.in-televizory.ps-tv-category-enhanced .ps-tv-active-filters::-webkit-scrollbar {
-    display: none;
+    overflow: visible;
   }
 
   body.in-televizory.ps-tv-category-enhanced .ps-tv-active-label,
