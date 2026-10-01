@@ -60,6 +60,8 @@ const crossSupplier = createCrossSupplierFilter('basys');
 const PRICELIST_PATH = process.env.BASYS_PRICELIST || path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json');
 const CLOUD_IMAGES_PATH = process.env.BASYS_CLOUD_IMAGES || path.join(__dirname, '..', 'data', 'basys-bose-cloud-images.json');
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const BASYS_EAN_OVERRIDES_PATH = path.join(DATA_DIR, 'basys-heureka-ean-overrides.json');
+const BASYS_EAN_OVERRIDES = JSON.parse(fs.readFileSync(BASYS_EAN_OVERRIDES_PATH, 'utf-8'));
 const URL = process.env.BASYS_URL;
 const LOCAL_FILE = process.env.BASYS_LOCAL_FILE || path.join(__dirname, '..', 'data', 'basys-heureka-feed-sample.xml');
 const VAT = process.env.BASYS_VAT || '23';
@@ -263,9 +265,13 @@ async function main() {
     if (pricelistCodes.has(key)) continue;
     if (!Number.isFinite(f.priceVat) || f.priceVat <= 0) { skippedNoPrice++; continue; }
     const priceExclVat = f.priceVat / (1 + parseFloat(VAT) / 100);
+    const eanOverride = BASYS_EAN_OVERRIDES[norm(f.itemId)];
+    if (eanOverride && !String(f.productName || '').toUpperCase().includes(eanOverride.model.toUpperCase())) {
+      throw new Error(`BASYS EAN override identity mismatch for ${f.itemId}: expected model ${eanOverride.model}`);
+    }
     const mappedCategory = CATEGORY_MAP[f.categoryText];
     resolvedItems.push({
-      objKod: f.itemId, ean: '', isFromPriceList: false,
+      objKod: f.itemId, ean: eanOverride ? eanOverride.ean : '', isFromPriceList: false,
       name: f.productName,
       manufacturer: f.manufacturer,
       defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER[f.manufacturer] || 'TV, audio a video > Audio technika > Doplnky',
