@@ -10,8 +10,6 @@
 :root {
   --p: #167450 !important;
   --ph: #145e41 !important;
-  --ps-pdp-green: #167450 !important;
-  --ps-pdp-green-hover: #145e41 !important;
 }
 
 /* Textové a akčné zelené mimo hlavných CTA. */
@@ -24,13 +22,7 @@ body ol.cart-header li.active a,
 body ol.cart-header li.active span,
 body ol.cart-header li.completed,
 body ol.cart-header li.completed a,
-body ol.cart-header li.completed span { color: #167450 !important; }
-body.type-detail #product-detail-form .ps-pdp-row-shipping-options a::after,
-body.type-detail .ps-mobile-parent-link::before { color: #167450 !important; }
-html body.type-detail .ps-sticky-buy button {
-  background: #167450 !important;
-  border-color: #167450 !important;
-}
+body ol.cart-header li.completed span { color: #167450 !important; }body.type-detail .ps-mobile-parent-link::before{ color: #167450 !important; }
 #fs-sheet .fs-apply-btn,
 #fs-sheet .fs-apply-btn:hover,
 #fs-sheet .fs-apply-btn:focus-visible {
@@ -51,65 +43,6 @@ p, li, a, label, input, button, textarea, select {
   background-color: #eaf7f1 !important;
   border-radius: 12px !important;
   padding: 16px !important;
-}
-/* Konkurenčné výhody (natívny Shoptet blok .benefitBanner) - na detaile
-   produktu (body.type-detail) sa má zmestiť do jedného riadku, preto sú
-   ikonky/text menšie. Na kategórii a homepage sa nedotýka (funguje tam
-   dobre s pôvodnou veľkosťou), lebo tieto pravidlá cieli len na
-   body.type-detail. */
-/* Presunuté pod riadok Tlač/Opýtať sa/Strážiť/Zdieľať (deemphasizeSecondaryActions
-   v JS presúva .benefitBanner priamo za .social-buttons-wrapper) a preusporiadané
-   do 2 stĺpcov namiesto 1 riadku so 4 položkami, aby sa zmestilo na novú pozíciu. */
-body.type-detail .benefitBanner {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 12px 16px !important;
-  width: 100% !important;
-  flex: 0 0 100% !important;
-  margin-top: 16px !important;
-}
-/* Overené priamo v Inšpektore (2026-09-04): skutočná štruktúra je
-   .benefitBanner__item > .benefitBanner__picture (ikonka) +
-   .benefitBanner__content > .benefitBanner__title (nadpis) +
-   .benefitBanner__data (popis). Predošlé pravidlá cieľili na neexistujúcu
-   triedu .benefitBanner__icon, preto sa ikonka vôbec nezväčšila/nedotiahla. */
-body.type-detail .benefitBanner__item {
-  display: flex !important;
-  align-items: center !important;
-  flex: 1 1 calc(50% - 8px) !important;
-  min-width: 0 !important;
-  gap: 10px !important;
-}
-body.type-detail .benefitBanner__picture {
-  flex: none !important;
-  width: 34px !important;
-  height: 34px !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-body.type-detail .benefitBanner__picture img,
-body.type-detail .benefitBanner__picture svg {
-  width: 34px !important;
-  height: 34px !important;
-  max-width: none !important;
-}
-body.type-detail .benefitBanner__content {
-  flex: 1 1 auto !important;
-  min-width: 0 !important;
-}
-body.type-detail .benefitBanner__title {
-  font-size: 14.5px !important;
-  line-height: 1.25 !important;
-  margin: 0 !important;
-  display: block !important;
-}
-body.type-detail .benefitBanner__data {
-  font-size: 13px !important;
-  line-height: 1.3 !important;
-  margin: 0 !important;
 }
 
 body {
@@ -477,64 +410,6 @@ body.ordering-process #header .navigation-buttons a[data-target="navigation"] {
   content: "\2713";
   color: #1a7f37;
   font-weight: 700;
-}
-
-.ps-sticky-buy {
-  position: fixed;
-  left: 0; right: 0; bottom: 0;
-  z-index: 999;
-  background: #fff;
-  border-top: 1px solid #e0e0e0;
-  box-shadow: 0 -4px 12px rgba(0, 0, 0, .08);
-  padding: 10px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  transform: translateY(100%);
-  transition: transform .25s ease;
-}
-.ps-sticky-buy.is-visible { transform: translateY(0); }
-.ps-sticky-buy .ps-sticky-title {
-  flex: 1 1 auto;
-  min-width: 0;
-  font-size: 13px;
-  color: #444;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.ps-sticky-buy .ps-sticky-price {
-  flex: 0 0 auto;
-  font-weight: 700;
-  font-size: 18px;
-  white-space: nowrap;
-}
-.ps-sticky-buy button {
-  background: #1a7f37;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 20px;
-  font-weight: 600;
-  cursor: pointer;
-}
-@media (min-width: 1024px) {
-  .ps-sticky-buy { display: none; } /* len mobil/tablet, na desktope je CTA zvyčajne stále vidno */
-}
-
-.ps-secondary-actions {
-  opacity: .6;
-  font-size: 12px;
-  transform: scale(.9);
-  transform-origin: left center;
-}
-.ps-secondary-actions a,
-.ps-secondary-actions button {
-  font-size: 12px !important;
-}
-.ps-secondary-actions:hover {
-  opacity: 1;
 }
 
 
@@ -1603,16 +1478,11 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.p-name,.p-name a { color:#0e151c; }
 .siteCookies .siteCookies__button,.siteCookies .siteCookies__link {
   background:#fff !important; color:#0e151c !important; border:1px solid #0e151c !important; border-radius:999px !important;
 }
-.siteCookies .siteCookies__button:hover,.siteCookies .siteCookies__link:hover { background:#dce4e8 !important; }
-.benefitBanner__item { display:flex !important; align-items:center !important; gap:14px !important; }
-.benefitBanner__picture,body.type-detail .benefitBanner__picture {
+.siteCookies .siteCookies__button:hover,.siteCookies .siteCookies__link:hover { background:#dce4e8 !important; }body:not(.type-detail) .benefitBanner__item{ display:flex !important; align-items:center !important; gap:14px !important; }body:not(.type-detail) .benefitBanner__picture{
   flex:0 0 44px !important; width:44px !important; height:44px !important; margin:0 !important; padding:0 !important;
-}
-.benefitBanner__picture img,body.type-detail .benefitBanner__picture img {
+}body:not(.type-detail) .benefitBanner__picture img{
   width:44px !important; height:44px !important; max-width:none !important; object-fit:contain; filter:grayscale(1) brightness(.28);
-}
-.benefitBanner__content { flex:1; min-width:0; }
-.benefitBanner__data { color:#56616b; }
+}body:not(.type-detail) .benefitBanner__content{ flex:1; min-width:0; }body:not(.type-detail) .benefitBanner__data{ color:#56616b; }
 #header .ps-catalog-icon,#header #navigation .ps-mobile-icon { border-radius:10px; }
 #header .ps-catalog-icon img,#header #navigation .ps-mobile-icon img { object-fit:contain; padding:4px; box-sizing:border-box; }
 @media (min-width:992px) {
@@ -1867,39 +1737,12 @@ body.search-window-visible #header.ps-compact-header .search-form {
   }
 }
 
-/* Jasná, stavovo presná lehota pri dostupnosti v nákupnom bloku. */
-body.type-detail #product-detail-form .ps-delivery-promise {
-  display: block !important;
-  margin-top: 7px !important;
-  color: #17283c !important;
-  font-size: 15px !important;
-  font-weight: 600 !important;
-  line-height: 1.45 !important;
-  letter-spacing: 0 !important;
-}
-body.type-detail #product-detail-form .ps-delivery-promise::before {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin: 0 8px 1px 0;
-  border-radius: 50%;
-  background: #167450;
-}
-
-body.type-detail #product-detail-form tr.ps-delivery-date-row--replaced {
-  display: none !important;
-}
-
 /* Mobile guardrails: keep Shoptet gallery tracks and cards inside the page. */
-@media (max-width: 767px) {
-  body.type-detail,
-  body.type-detail #content,
-  body.type-detail .p-detail-inner,
-  body.type-detail .p-image-wrapper,
-  body.type-detail .p-data-wrapper,
-  body.type-detail #product-detail-form,
-  body.type-detail .ps-mobile-benefits {
+@media (max-width: 767px) {body.type-detail,
+body.type-detail #content,
+body.type-detail .p-detail-inner,
+body.type-detail .p-image-wrapper,
+body.type-detail .p-data-wrapper{
     box-sizing: border-box !important;
     min-width: 0 !important;
     max-width: 100% !important;
@@ -1908,17 +1751,9 @@ body.type-detail #product-detail-form tr.ps-delivery-date-row--replaced {
     max-width: 100% !important;
     overflow: hidden !important;
   }
-  body.type-detail .ps-mobile-benefits {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-  }
-  body.type-detail .ps-mobile-benefits > :nth-child(3) {
-    grid-column: 1 / -1 !important;
-  }
-  body.type-detail .ps-mobile-benefits > :nth-child(4) {
-    display: none !important;
-  }
   html body.type-detail { overflow-x: clip !important; }
   @supports not (overflow-x: clip) {
     html body.type-detail { overflow-x: hidden !important; }
   }
 }
+

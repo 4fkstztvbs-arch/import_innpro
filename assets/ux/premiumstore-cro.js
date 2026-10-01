@@ -57,12 +57,6 @@
     return /kosik|cart/i.test(location.pathname);
   }
 
-  // #product-detail-form existuje len raz, výhradne na skutočnej stránke
-  // produktu (súvisiace produkty/karty v zoznamoch ho nepoužívajú).
-  function getPdpForm() {
-    return document.getElementById('product-detail-form');
-  }
-
   // --- 1) Progress bar "doprava zadarmo od X €" (košík) --------------------
   // Zatiaľ VYPNUTÉ (nezavolané z run()) - hranica FREE_SHIP_THRESHOLD nie je
   // ešte potvrdená s reálnym nastavením dopravy. Zapnúť neskôr pridaním
@@ -507,129 +501,6 @@
     wrapper.classList.add('ps-catalog-ready');
   }
 
-  // --- 3) Sticky lišta názov + cena + "Do košíka" (PDP, mobil/tablet) -------
-  function stickyBuyBar() {
-    if (document.querySelector('.ps-sticky-buy')) return;
-    var form = getPdpForm();
-    if (!form) return;
-
-    var btn = form.querySelector('[data-testid="buttonAddToCart"]') || form.querySelector('.add-to-cart-button');
-    if (!btn) return;
-
-    var nameMeta = document.querySelector('.p-detail meta[itemprop="name"]');
-    var title = nameMeta ? (nameMeta.getAttribute('content') || '') : '';
-    if (!title) {
-      var h1 = document.querySelector('h1');
-      title = h1 ? h1.textContent.trim() : '';
-    }
-
-    var priceEl = form.querySelector('.price-final-holder');
-    var price = priceEl ? priceEl.textContent.trim() : '';
-
-    var bar = document.createElement('div');
-    bar.className = 'ps-sticky-buy';
-    bar.innerHTML =
-      '<span class="ps-sticky-title">' + title.replace(/</g, '&lt;') + '</span>' +
-      '<span class="ps-sticky-price">' + price + '</span>' +
-      '<button type="button">Do košíka</button>';
-    document.body.appendChild(bar);
-
-    bar.querySelector('button').addEventListener('click', function () {
-      btn.click();
-    });
-
-    window.addEventListener('scroll', function () {
-      bar.classList.toggle('is-visible', btn.getBoundingClientRect().bottom < 0);
-    });
-  }
-
-  // --- 4) Zoslabenie riadku Tlač / Opýtať sa / Strážiť / Zdieľať (PDP) ------
-  function deemphasizeSecondaryActions() {
-    var el = document.querySelector('[data-testid="productDetailActionIcons"]');
-    if (el) el.classList.add('ps-secondary-actions');
-  }
-
-  // --- 5) Presun konkurenčných výhod (.benefitBanner) za riadok ikon -------
-  // Presúva reálny natívny blok (nie kópiu) hneď za
-  // .buttons-wrapper.social-buttons-wrapper (Tlač/Opýtať sa/Strážiť/Zdieľať),
-  // len na produktovej stránke. Blok nemá žiadny stav viazaný na pôvodnú
-  // pozíciu v DOM (na rozdiel napr. od hamburger menu), takže presun cez
-  // insertAdjacentElement je bezpečný.
-  function relocateBenefitBanner() {
-    if (!getPdpForm()) return;
-    // Dôležité: cieľ je VONKAJŠÍ wrapper .buttons-wrapper.social-buttons-wrapper,
-    // nie vnútorný [data-testid="productDetailActionIcons"] div - ten obsahuje
-    // len 4 flex položky (Tlač/Opýtať sa/Strážiť/Zdieľať) a vloženie banneru
-    // priamo doňho ho urobilo 5. flex položkou tohto riadku (rozhodilo icons
-    // aj banner do stĺpcov). Vložením AŽ ZA celý wrapper zostane riadok ikon
-    // nedotknutý a banner príde ako samostatný blok pod ním.
-    var actions = document.querySelector('.buttons-wrapper.social-buttons-wrapper');
-    var banner = document.querySelector('.benefitBanner.position--benefitProduct') ||
-      document.querySelector('.benefitBanner');
-    if (!banner) return;
-    // Tento globálny text nedodržiava lehotu konkrétneho importovaného
-    // stavu dostupnosti. Nahrádza ho presný prísľub pri dostupnosti produktu.
-    var staleDeliveryItem = Array.prototype.find.call(
-      banner.querySelectorAll('.benefitBanner__item'), function (item) {
-        var title = item.querySelector('.benefitBanner__title');
-        return title && title.textContent.replace(/\s+/g, ' ').trim().toLowerCase() === 'doručenie do 2 dní';
-      }
-    );
-    if (staleDeliveryItem) staleDeliveryItem.remove();
-    if (!actions) return;
-    if (banner.previousElementSibling === actions) return;
-    actions.insertAdjacentElement('afterend', banner);
-  }
-
-  // --- 5b) Doručenie podľa importovaného stavu dostupnosti (PDP) ----------
-  function updateDeliveryPromise() {
-    var form = getPdpForm();
-    if (!form) return;
-    var label = form.querySelector('[data-testid="labelAvailability"].availability-label') ||
-      form.querySelector('.availability-label');
-    if (!label) return;
-    var status = label.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
-    var copy = null;
-    var stateClass = '';
-
-    if (status === 'skladom na predajni') {
-      copy = 'Odosielame ihneď · doručenie približne do 24 hodín';
-      stateClass = 'ps-delivery-promise--store';
-    } else if (status === 'skladom') {
-      copy = 'Doručenie približne do 72 hodín';
-      stateClass = 'ps-delivery-promise--stock';
-    }
-
-    // Zobrazíme jednu dôveryhodnú lehotu namiesto systémového dátumu,
-    // ktorý pri potvrdených stavoch 24/72 h môže hovoriť niečo iné.
-    var deliveryDateRow = Array.prototype.find.call(
-      form.querySelectorAll('tr'), function (row) {
-        var labelText = row.querySelector('.row-header-label');
-        return labelText && labelText.textContent.replace(/\s+/g, ' ').trim().toLowerCase().indexOf('môžeme doručiť do') === 0;
-      }
-    );
-    if (deliveryDateRow) {
-      deliveryDateRow.classList.toggle('ps-delivery-date-row--replaced', !!copy);
-    }
-
-    var promise = form.querySelector('.ps-delivery-promise');
-    if (!copy) {
-      if (promise) promise.remove();
-      return;
-    }
-    if (!promise) {
-      promise = document.createElement('div');
-      promise.setAttribute('role', 'status');
-      promise.setAttribute('aria-live', 'polite');
-      promise.setAttribute('aria-atomic', 'true');
-      label.insertAdjacentElement('afterend', promise);
-    }
-    if (promise.className !== 'ps-delivery-promise ' + stateClass) {
-      promise.className = 'ps-delivery-promise ' + stateClass;
-    }
-    if (promise.textContent !== copy) promise.textContent = copy;
-  }
-
   // --- 6) Presun tlačidla "Pokračovať" (.next-step) do karty zhrnutia
   // objednávky (checkout, krok "Doprava & platba") ---------------------------
   // Natívne je .next-step samostatný súrodenec za .order-summary. Aj po
@@ -813,10 +684,6 @@
     compactHeader();
     footerLayout();
     mobileMenuSupportBlock();
-    stickyBuyBar();
-    deemphasizeSecondaryActions();
-    relocateBenefitBanner();
-    updateDeliveryPromise();
     relocateCheckoutNextStep();
     renameContinueButton();
     // freeShippingBar(); // zatiaľ vypnuté, pozri poznámku vyššie
@@ -828,20 +695,6 @@
   run();
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', run, { once: true });
-  }
-
-  // Sleduje iba produktový formulár, aby sa lehota zmenila aj po prepnutí
-  // variantu alebo po aktualizácii dostupnosti cez Shoptet AJAX.
-  var productForm = getPdpForm();
-  if (productForm && window.MutationObserver) {
-    var deliveryTimer = null;
-    new MutationObserver(function () {
-      clearTimeout(deliveryTimer);
-      deliveryTimer = setTimeout(function () {
-        relocateBenefitBanner();
-        updateDeliveryPromise();
-      }, 60);
-    }).observe(productForm, { childList: true, characterData: true, subtree: true });
   }
 
   // Only checkout summary controls can be replaced during Shoptet AJAX updates.
