@@ -203,5 +203,37 @@
       "https://docs.televes.com/web/catalogo/pdf/Quick_Product_Guide_2020_Televes_2020_ME.pdf",
       "https://eshop.evercon.cz/dvb-t-anteny/308-televes-dat-hd-boss-700.html"
     ]
+  },
+  "HD-G926": {
+    "ean": "8596425124435",
+    "model": "HD-G926",
+    "sourceUrls": [
+      "https://www.hadex.cz/p/g926-solarni-regulator-mppt-lumiax-mt4010-12-24v-40a",
+      "https://www.specialni-naradi.cz/solarni-regulator-mppt-lumiax-4010-12-24v/40a"
+    ]
+  },
+  "TIGO-RSS": {
+    "ean": "5905951589954",
+    "model": "TIGO RSS",
+    "sourceUrls": [
+      "https://7sun.eu/produkt/tigo-nadajnik-rss-2/",
+      "https://megawat-elektrohurt.pl/5456938-tigo-nadajnik-rss-pl"
+    ]
+  },
+  "OS20-18MFX": {
+    "ean": "8596425100446",
+    "model": "OS20-18MFX",
+    "sourceUrls": [
+      "https://eshop.sapro.cz/fve-fotovoltaicky-solarni-panel-usb-12v-20w-os20-18mfx-monokrystal_d719628.html",
+      "https://www.jirno.eu/sk/fve-fotovoltaicky-solarni-panel-usb-12v-20w-os20-18mfx--monokrystal/"
+    ]
+  },
+  "FVS6": {
+    "ean": "4012386035077",
+    "model": "FVS6",
+    "sourceUrls": [
+      "https://www.fersay.com/es/accesorios/antenas-y-satelite/repartidores-catv/repartidor-senal-catv-1-entrada-6-salidas_E-FVS6",
+      "https://www.fersay.com/pt/acessorios/antenas-e-satelite/distribuidores-catv/repartidor-senal-catv-1-entrada-6-salidas_E-FVS6"
+    ]
   }
 }
