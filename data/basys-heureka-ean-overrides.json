@@ -226,5 +226,65 @@
       "https://www.bananamusic.it/behringer-mx400-micromix-bk.html",
       "https://hinta.fi/1133237/behringer-mx400/tuotetiedot"
     ]
+  },
+  "M-105A": {
+    "model": "M-105A",
+    "ean": "0698596028371",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf",
+      "https://www.richersounds.com/meze-105-aer-dark-walnut/"
+    ]
+  },
+  "M-105S": {
+    "model": "M-105S",
+    "ean": "0698596028715",
+    "sourceUrls": [
+      "https://bloomaudio.com/collections/headphones/products/meze-105-silva",
+      "https://simex.fi/fi/product/meze-audio-105-silva-avoimet-sankakuulokkeet/M-105S",
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hodetelefoner-og-tilbehor/hodetelefoner/meze-105-silva-hodetelefoner/952349"
+    ]
+  },
+  "LIR-2": {
+    "model": "LIR-2",
+    "ean": "0698596028364",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf",
+      "https://www.homecinesolutions.fr/p/26396-meze-audio-liric-2e-generation"
+    ]
+  },
+  "POET-SC": {
+    "model": "POET-SC",
+    "ean": "0698596028593",
+    "sourceUrls": [
+      "https://digistore.ch/en/hi-fi-open-helmets/15515-meze-audio-poet-silver-copper-0698596028593.html",
+      "https://store.shopping.yahoo.co.jp/kanjitsudirect/0698596028593.html"
+    ]
+  },
+  "STR-GC": {
+    "model": "STR-GC",
+    "ean": "0698596028722",
+    "sourceUrls": [
+      "https://cobra.fr/cdn/shop/files/FICHE_PRODUIT_MEZE_STRADA.pdf?v=9591585108431087227",
+      "https://www.fnac.com/Casque-arceau-circum-aural-filaire-Meze-audio-Strada-Vert-et-Cuivre/a22560709/w-4",
+      "https://lbs.dk/produkt/meze-strada/"
+    ]
+  },
+  "M-ARTA": {
+    "model": "M-ARTA",
+    "ean": "0698596028906",
+    "sourceUrls": [
+      "https://www.evoluzionehifi.it/amplificatori/index.php?product_id=22678&route=product%2Fproduct",
+      "https://simex.fi/fi/product/meze-audio-arta-avoimet-kuulokkeet-musta/M-ARTA",
+      "https://lbs.dk/produkt/meze-audio-arta/"
+    ]
+  },
+  "M99C-V2": {
+    "model": "M99C-V2",
+    "ean": "0698596028876",
+    "sourceUrls": [
+      "https://www.supersonido.es/media/productos/57826/docs/documento-27535.pdf",
+      "https://www.av.com/Headphones/Meze-99-Classic-2nd-Generation-Over-Ear-Headphones-Walnut-Gold/7MVJ",
+      "https://www.sofmap.com/product_detail.aspx?sku=101891614"
+    ]
   }
 }
