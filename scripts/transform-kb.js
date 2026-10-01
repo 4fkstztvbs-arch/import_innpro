@@ -157,10 +157,10 @@ function isValidEan13(value) {
 
 function eanForProduct(code, name, rawEan) {
   const sourceEan = normalizeEan(rawEan);
-  if (sourceEan) return sourceEan;
   const override = EAN_OVERRIDES[code];
-  if (override && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
-  return '';
+  if (!override || !name.includes(override.model) || !isValidEan13(override.ean)) return sourceEan;
+  if (!sourceEan || (override.replaceIfSourceEan && sourceEan === override.replaceIfSourceEan)) return override.ean;
+  return sourceEan;
 }
 
 function buildShopitemXml(p) {
