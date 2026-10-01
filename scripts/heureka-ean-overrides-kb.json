@@ -1,7 +1,41 @@
 {
+  "100002201072": {
+    "ean": "0195950667363",
+    "model": "AirTag (2. generace)",
+    "sourceUrls": [
+      "https://www.bechtle.com/shop/apple-airtag-2-gen-1er-pack--4977560--p",
+      "https://support.apple.com/sk-sk/126203"
+    ]
+  },
+  "100002202558": {
+    "ean": "6974653812447",
+    "model": "F25 ACE Combo",
+    "sourceUrls": [
+      "https://www.radiopopular.pt/produto/aspirador-vert-roborock-f25-ace-combo/",
+      "https://www.pro-bg.com/images/upload/pdf/21290350.pdf"
+    ]
+  },
   "100002203718": {
     "ean": "8059019112299",
     "model": "BR 38SBL6-S",
-    "sourceUrl": "https://www.candy-home.com/sk_SK/products/31020741-br-38sbl6-s"
+    "sourceUrls": [
+      "https://www.candy-home.com/sk_SK/products/31020741-br-38sbl6-s"
+    ]
+  },
+  "100002203540": {
+    "ean": "4168430012591",
+    "model": "N1150410",
+    "sourceUrls": [
+      "https://shop.tefal.ua/kontejner-prjamokutnij-tefal-master-seal-stainless-steel-0-8-l-n1150410.html",
+      "https://www.technopolis.bg/en/Kutii-za-sahranenie--termosi-i-butilki/KUTIYa-TEFAL-N1150410-0-8L-BLUE/p/802956"
+    ]
+  },
+  "100002203546": {
+    "ean": "4168430012607",
+    "model": "N1150510",
+    "sourceUrls": [
+      "https://www.tefal.pl/pojemnik-na-zywnosc-ze-stali-nierdzewnej-tefal-masterseal-1-2-l",
+      "https://shop.tefal.ua/kontejner-prjamokutnij-tefal-master-seal-stainless-steel-1-2-l-n1150510.html"
+    ]
   }
 }
