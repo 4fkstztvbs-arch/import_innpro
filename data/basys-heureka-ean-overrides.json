@@ -1973,5 +1973,37 @@
     "sourceUrls": [
       "https://www.homecinesolutions.fr/p/28087-meze-audio-manta-chrome-edition"
     ]
+  },
+  "L6": {
+    "model": "L6",
+    "ean": "4033653080675",
+    "sourceUrls": [
+      "https://woodbrass.com/products/midas-legend-l6-368503",
+      "https://audiopatent.eu/pl/products/midas-l6-obudowa-formatu-500-na-6-modulow-6838"
+    ]
+  },
+  "DN32-LIVE": {
+    "model": "DN32-LIVE",
+    "ean": "4033653071345",
+    "sourceUrls": [
+      "https://audiopatent.eu/pl/products/klark-teknik-dn32-live-karta-rozszerzen-6771",
+      "https://www.siluj.net/klark-teknik/19542-klark-teknik-dn32-live-tarjeta-de-expansion-sd-sdhc.html"
+    ]
+  },
+  "TS-ME650FS": {
+    "model": "TS-ME650FS",
+    "ean": "0884938429696",
+    "sourceUrls": [
+      "https://www.pioneer.com.au/shop/car/ts-me650fs/",
+      "https://www.mediamarkt.ch/fr/product/_pioneer-ts-me650fs-2061409.html"
+    ]
+  },
+  "UD-ME100LED": {
+    "model": "UD-ME100LED",
+    "ean": "0884938437851",
+    "sourceUrls": [
+      "https://pioneer-car.eu/uk/asset/installation_manuals/UPLOAD_ID_28754/2b38afde9cf0c99282c6af34b76f204e607d882e/",
+      "https://www.comelsas.it/wp-content/uploads/2025/09/Pioneer-MPA-TECH-Listino.pdf"
+    ]
   }
 }
