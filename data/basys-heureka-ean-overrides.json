@@ -1255,5 +1255,37 @@
       "https://www.siluj.net/behringer/19585-behringer-x32-producer-mezclador-digital.html",
       "https://www.altomusic.com/products/behringer-x32-producer-digital-mixer-1083472"
     ]
+  },
+  "X32_COMPACT": {
+    "model": "X32 COMPACT",
+    "ean": "4033653013802",
+    "sourceUrls": [
+      "https://www.numemusic.es/015352-mesa-de-mezclas-digital-behringer-x32-compact",
+      "https://www.orionestore.it/it/mixer-digitale-behringer-x32-compact-40in-25-bus/?file=product_pdf.html"
+    ]
+  },
+  "XR16": {
+    "model": "XR16",
+    "ean": "4033653070362",
+    "sourceUrls": [
+      "https://www.bananamusic.it/stampa/prodotto/124458",
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+    ]
+  },
+  "S32": {
+    "model": "S32",
+    "ean": "4033653070546",
+    "sourceUrls": [
+      "https://www.orionestore.it/it/stage-box-behringer-s32-digital-snake-cat5/?file=product_pdf.html",
+      "https://www.kuantokusta.pt/p/1660810/behringer-digital-snake-s32"
+    ]
+  },
+  "P1": {
+    "model": "P1",
+    "ean": "4033653055420",
+    "sourceUrls": [
+      "https://www.kuantokusta.pt/p/1661000/behringer-p1",
+      "https://skladmuzyczny.pl/powerplay-p1-wzmacniacz-do-odsluchow-dousznych-behringer.html"
+    ]
   }
 }
