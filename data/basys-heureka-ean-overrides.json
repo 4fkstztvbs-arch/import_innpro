@@ -1008,4 +1008,21 @@
       "https://www.mediamarkt.hu/hu/product/_bose-tempo-napszem%C3%BCveglencse-narancss%C3%A1rga-855582-0400-1339174.html"
     ]
   }
+,
+  "317302-0100": {
+    "model": "MA12EX",
+    "ean": "0017817500616",
+    "sourceUrls": [
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/loudspeakers/Panaray_MA12EX/Downloads/technical_information/tds_MA12EX_ltr_EN.pdf",
+      "https://www.exertis-connect.fr/fr/773848.html"
+    ]
+  },
+  "317302-0200": {
+    "model": "MA12EX",
+    "ean": "0017817500623",
+    "sourceUrls": [
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/loudspeakers/Panaray_MA12EX/Downloads/technical_information/tds_MA12EX_ltr_EN.pdf",
+      "https://www.pc21.fr/fiche/317302-0200-bose-colonne-interieure-exterieure-panaray-ma12ex-blanc-i4489478.html"
+    ]
+  }
 }
