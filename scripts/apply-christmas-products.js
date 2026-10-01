@@ -6,11 +6,7 @@ const field=(xml,tag)=>{const m=xml.match(new RegExp('<'+tag+'>([\\s\\S]*?)</'+t
 const cdata=s=>'<![CDATA['+s.replace(/]]>/g,']]]]><![CDATA[>')+']]>';
 const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 const marker=/\s*<!-- ps-christmas:start -->[\s\S]*?<!-- ps-christmas:end -->\s*/g;
-// apply-missing-availability intentionally emits minimal URL-only updates without
-// names/categories. Other suppliers' workflows read these already-published rows.
-const isUnavailableUpdate=xml=>!field(xml,'NAME')
- && field(xml,'VISIBILITY')==='detailOnly'
- && field(xml,'AVAILABILITY')===(process.env.MISSING_PRODUCT_AVAILABILITY||'Vypredané');
+const {isUnavailableUpdate}=require('./lib/unavailable-update');
 function bridge(rule,config){const url=config.groupUrls[rule.group]||config.url+'#ps-christmas-'+rule.group;return '<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="'+esc(rule.group)+'"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="'+esc(url)+'" data-christmas-link="group">'+esc(config.groups[rule.group])+' →</a><a href="'+config.url+'" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->';}
 function apply(files,config){
  const rules=new Map(config.products.map(r=>[r.supplier+'\0'+r.code.toUpperCase(),r]));if(rules.size!==config.products.length)throw Error('Duplicate identity');

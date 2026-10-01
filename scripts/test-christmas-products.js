@@ -110,3 +110,48 @@ test('current published feeds preserve identities, commerce fields and unavailab
     }
   }
 });
+
+test('full shared category pipeline preserves unavailable updates across repeated supplier passes', t => {
+  const os = require('node:os'), { spawnSync } = require('node:child_process');
+  const { isUnavailableUpdate } = require('./lib/unavailable-update');
+  const temp = fs.mkdtempSync(path.join(os.tmpdir(), 'supplier-unavailable-pipeline-'));
+  t.after(() => fs.rmSync(temp, { recursive: true, force: true }));
+  fs.cpSync(path.join(root, 'scripts'), path.join(temp, 'scripts'), { recursive: true });
+  fs.cpSync(path.join(root, 'output'), path.join(temp, 'output'), { recursive: true });
+  fs.mkdirSync(path.join(temp, 'data'));
+  fs.mkdirSync(path.join(temp, 'reports'));
+  for (const name of ['known-categories.json', 'category-urls.json', 'stary-novy-strom.json',
+    'zlozene-cesty.json', 'approved-category-migration.json', 'product-category-corrections.json', 'christmas-products.json']) {
+    fs.copyFileSync(path.join(root, 'data', name), path.join(temp, 'data', name));
+  }
+  // Even an EAN shared with a live offer must not cause dedupe to delete an update.
+  for (const supplier of ['atos', 'basys', 'innpro', 'kb', 'monacor', 'penta', 'solight', 'wiim']) {
+    const file = path.join(temp, 'output', supplier + '.xml');
+    const input = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '<SHOP></SHOP>';
+    const rule = { code: 'REGRESSION_UNAVAILABLE_' + supplier, ean: '9999999999999' };
+    let extra = unavailableItem(rule);
+    if (supplier === 'atos') extra += activeItem({ code: 'REGRESSION_ACTIVE', ean: rule.ean }).replace('<CATEGORY>Original category</CATEGORY>', '<CATEGORY><![CDATA[' + config.category + ']]></CATEGORY>');
+    fs.writeFileSync(file, input.replace('</SHOP>', extra + '</SHOP>'));
+  }
+  const snapshots = new Map();
+  for (const file of fs.readdirSync(path.join(temp, 'output')).filter(f => f.endsWith('.xml'))) {
+    const text = fs.readFileSync(path.join(temp, 'output', file), 'utf8');
+    snapshots.set(file, (text.match(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/g) || []).filter(isUnavailableUpdate));
+  }
+  const steps = ['dedupe-cross-supplier.js', 'collapse-duplicate-categories.js', 'fix-ignored-categories.js',
+    'apply-product-category-corrections.js', 'collapse-thin-categories.js', 'enforce-tree-categories.js',
+    'hide-uncategorised-products.js', 'hide-below-cost-products.js', 'apply-approved-categories.js',
+    'apply-christmas-products.js', 'finalize-solight-default-category.js', 'add-category-links.js', 'check-category-links.js'];
+  for (let pass = 1; pass <= 2; pass++) {
+    for (const script of steps) {
+      const run = spawnSync(process.execPath, [path.join(temp, 'scripts', script), '--write'], { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 });
+      assert.equal(run.status, 0, `${script}, pass ${pass}: ${run.stderr || run.stdout}`);
+      for (const [file, updates] of snapshots) {
+        const text = fs.readFileSync(path.join(temp, 'output', file), 'utf8');
+        for (const update of updates) {
+          assert.ok(text.includes(update), `${script}, pass ${pass}: modified or removed ${file}/${field(update, 'CODE')}`);
+        }
+      }
+    }
+  }
+});

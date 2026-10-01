@@ -17,6 +17,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { isUnavailableUpdate } = require('./lib/unavailable-update');
 
 const ROOT = path.join(__dirname, '..');
 const OUT_DIR = path.join(ROOT, 'output');
@@ -32,6 +33,8 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml'))) {
 
   const hidden = [];
   const out = xml.replace(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g, (item) => {
+    // Minimal unavailable updates intentionally have no categories. Keep their URL-only visibility.
+    if (isUnavailableUpdate(item)) return item;
     if (/<CATEGORY><!\[CDATA\[\s*\S/.test(item)) return item;
 
     const code = ((item.match(/<CODE>([\s\S]*?)<\/CODE>/) || [])[1] || '').trim();
