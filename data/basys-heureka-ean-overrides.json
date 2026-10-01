@@ -1587,5 +1587,41 @@
       "https://www.ceneo.pl/76017749",
       "https://woodbrass.shop/products/behringer-control2usb-250433"
     ]
+  },
+  "PSU12-EU": {
+    "model": "PSU12-EU",
+    "ean": "4033653210911",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0701-ABM",
+      "https://www.bananamusic.it/behringer-psu12-eu.html",
+      "https://techpack.com.pl/zasilacz-behringer-psu12-eu-do-cmd-mm-1-cmd-studio-4a"
+    ]
+  },
+  "X1": {
+    "model": "X1 INFINIUM",
+    "ean": "4033653130349",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0701-AAV",
+      "https://www.altomusic.com/products/behringer-x1-infinium-optical-fader-for-ddm4000-dj-mixer",
+      "https://www.beslist.nl/p/infinium-x1/35000/4033653130349/"
+    ]
+  },
+  "U-PHORIA_STUDIO": {
+    "model": "U-PHORIA STUDIO",
+    "ean": "4033653130936",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0841-AAF",
+      "https://www.behringer.com.py/produto/behringer-uphoria-studio-behringer-4033653130936.html",
+      "https://www.csmegastore.de/i/9560331/behringer-u-phoria-studio-do-homerecordingu"
+    ]
+  },
+  "BIGFOOT": {
+    "model": "BIGFOOT",
+    "ean": "4033653055635",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0507-AAG",
+      "https://www.rozetka.com.ua/behringer-27000881/p451792688/",
+      "https://watanabe-mi.jp/brand/wp-content/uploads/2020/11/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8202011_WEB.pdf"
+    ]
   }
 }
