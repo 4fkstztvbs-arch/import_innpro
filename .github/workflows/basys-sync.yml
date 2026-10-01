@@ -93,6 +93,9 @@ jobs:
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z BASYS feedu
         run: node scripts/apply-missing-availability.js --supplier=basys --xml=output/basys.xml
 
+      - name: Restore truncated leading zeroes for valid EAN-13 values
+        run: node scripts/normalize-truncated-ean.js output/basys.xml
+
       - name: Commit updated output
         run: |
           git config user.name "basys-sync-bot"
