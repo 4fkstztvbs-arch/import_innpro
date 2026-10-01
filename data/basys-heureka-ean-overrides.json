@@ -1817,5 +1817,23 @@
       "https://amexco.cl/producto/kt-dante64-klark-teknik-modulo-de-red/",
       "https://invask.kz/item/455637"
     ]
+  },
+  "DN9650": {
+    "model": "DN9650",
+    "ean": "4033653011501",
+    "sourceUrls": [
+      "https://www.klarkteknik.com/en/products/0606-AAZ",
+      "https://polar.uk.com/klark-teknik-dn9650-aes50-network-bridge-format-converter",
+      "https://amexco.cl/producto/dn9650-klark-teknik-interfaz-multicanal/"
+    ]
+  },
+  "KT-USB": {
+    "model": "KT-USB",
+    "ean": "4033653070287",
+    "sourceUrls": [
+      "https://www.klarkteknik.com/en/products/0606-ACC",
+      "https://www.rfelettronica.com/prodotto/klark-teknik-kt-usb/",
+      "https://www.audiopatent.eu/pl/products/klark-teknik-kt-usb-modul-sieciowy-6780"
+    ]
   }
 }
