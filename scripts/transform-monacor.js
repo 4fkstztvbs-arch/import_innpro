@@ -30,6 +30,13 @@ const OUT_PATH = process.env.MONACOR_OUT || path.join(__dirname, '..', 'output',
 const STORE_NAME = process.env.MONACOR_STORE_NAME || 'premiumstore.sk';
 const FOREIGN_AVAIL_TEXT = process.env.MONACOR_FOREIGN_AVAIL_TEXT || 'Dostupné na sklade dodávateľa';
 const EXCLUDE_UNAVAILABLE = process.env.MONACOR_EXCLUDE_UNAVAILABLE === '1';
+const EAN_OVERRIDES_PATH = path.join(__dirname, 'heureka-ean-overrides-monacor.json');
+const EAN_OVERRIDES = fs.existsSync(EAN_OVERRIDES_PATH) ? JSON.parse(fs.readFileSync(EAN_OVERRIDES_PATH, 'utf8')) : {};
+function isValidEan13(value) {
+  if (!/^\\d{13}$/.test(value)) return false;
+  const sum = value.slice(0, 12).split('').reduce((total, digit, index) => total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
+  return String((10 - (sum % 10)) % 10) === value[12];
+}
 const EAN_OVERRIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'heureka-ean-overrides-monacor.json'), 'utf8'));
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
@@ -139,6 +146,8 @@ async function main() {
     seenCodes.add(code);
 
     const price = roundPrice(p.basePrice * (1 + MARKUP_PCT / 100));
+    const eanOverride = EAN_OVERRIDES[code];
+    const ean = p.ean || (eanOverride && eanOverride.model === code && isValidEan13(eanOverride.ean) ? eanOverride.ean : '');
 
     // shop naming convention: "Značka Model popis"
     const name = [p.manufacturer, p.number, p.baseName].filter(Boolean).join(' ').trim() || p.baseName;
