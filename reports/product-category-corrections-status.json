@@ -1,7 +1,7 @@
 {
-  "products": 27725,
-  "matched": 614,
-  "categoryChanges": 196,
+  "products": 27745,
+  "matched": 613,
+  "categoryChanges": 0,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -2170,6 +2170,48 @@
       "reason": "Changed name or category; needs review"
     },
     {
+      "supplier": "penta",
+      "code": "7380440",
+      "ean": "8591680192175",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "44720560",
+      "ean": "8594182431322",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578046",
+      "ean": "8594182431940",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "6025405",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526000",
+      "ean": "1210002635448",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526107",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526108",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
       "supplier": "solight",
       "code": "G06",
       "ean": "8595092102067",
@@ -2762,43 +2804,13 @@
     },
     {
       "supplier": "penta",
-      "code": "6025405",
-      "ean": ""
-    },
-    {
-      "supplier": "penta",
       "code": "44720543",
       "ean": "8594182430974"
     },
     {
       "supplier": "penta",
-      "code": "65526000",
-      "ean": "1210002635448"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578046",
-      "ean": "8594182431940"
-    },
-    {
-      "supplier": "penta",
       "code": "5578047",
       "ean": "8594182431964"
-    },
-    {
-      "supplier": "penta",
-      "code": "44720560",
-      "ean": "8594182431322"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526107",
-      "ean": ""
-    },
-    {
-      "supplier": "penta",
-      "code": "65526108",
-      "ean": ""
     }
   ]
 }
