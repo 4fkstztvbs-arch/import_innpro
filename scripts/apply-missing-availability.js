@@ -6,6 +6,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+const { isUnavailableUpdate } = require('./lib/unavailable-update');
 
 const ROOT = path.join(__dirname, '..');
 const SALE_STATE_PATH = path.join(ROOT, 'data', 'vypredaj.json');
@@ -107,9 +108,7 @@ function main() {
     if (!code) throw new Error(`${supplier}: SHOPITEM ${index + 1} has no CODE.`);
     const ean = field(rows[index], 'EAN');
     const key = productIdentity(code, ean);
-    const isTombstone = !field(rows[index], 'NAME')
-      && field(rows[index], 'VISIBILITY') === DETAIL_ONLY
-      && field(rows[index], 'AVAILABILITY') === UNAVAILABLE_LABEL;
+    const isTombstone = isUnavailableUpdate(rows[index]);
     if (isTombstone) {
       existingTombstones.set(key, { key, code, ean });
       continue;

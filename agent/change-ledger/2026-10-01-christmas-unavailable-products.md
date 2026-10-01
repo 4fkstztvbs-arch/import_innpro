@@ -23,3 +23,11 @@
 - RESULT: Prepared and locally verified; production result to be reported separately after execution.
 - DECISION: Deploy after CI and verify recovery. No supplier payload or generated XML is included in the repair commit.
 - ROLLBACK / ROLLBACK_COMMIT: Revert the repair commit through a normal PR. No schema, dependency, credentials or repository permissions change. Reverting reinstates the known failure if the minimal update remains present.
+
+## Recovery follow-up within the same approved incident repair
+
+- The initial PR #68 was merged as d6f5b7969080613a4f583e0c07830aa10c90f9c5. Standalone Christmas workflow 36819872949 passed (19 tests, zero product changes, zero incorrect category links).
+- Fresh BASYS 36819929333 and InnPro 36819994266 exposed an upstream interaction: hide-uncategorised-products rewrote minimal detailOnly updates to hidden before Christmas processing. Neither recovery published a feed.
+- Extended implementation: one shared unavailable-update predicate used by the producer, Christmas enrichment, uncategorized-product hiding and cross-supplier dedupe. Availability updates cannot compete as supplier offers, disappear through dedupe or be hidden for intentionally absent categories.
+- Added an end-to-end regression over current XML plus synthetic same-EAN updates for all eight supplier names: execute all 13 shared category/dedupe/link steps twice, checking each unavailable record byte-for-byte after every step. Ordinary products remain subject to existing checks.
+- Follow-up status: prepared pending CI, merge and fresh recovery runs. The first partial deployment is not considered incident recovery.

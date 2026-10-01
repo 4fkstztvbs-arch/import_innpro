@@ -10,6 +10,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { isUnavailableUpdate } = require('./lib/unavailable-update');
 
 const OUTPUT_DIR = path.join(__dirname, '..', 'output');
 const REPORT_PATH = path.join(__dirname, '..', 'reports', 'cross-supplier-dedupe.csv');
@@ -73,7 +74,9 @@ function main() {
   const byEan = new Map(); // ean -> [{supplier, item}]
   for (const [supplier, data] of Object.entries(suppliers)) {
     for (const item of data.items) {
-      if (!item.ean) continue;
+      // An availability update is not a competing offer; deleting it loses the
+      // instruction that makes the original supplier product unavailable.
+      if (!item.ean || isUnavailableUpdate(item.block)) continue;
       if (!byEan.has(item.ean)) byEan.set(item.ean, []);
       byEan.get(item.ean).push({ supplier, item });
     }
