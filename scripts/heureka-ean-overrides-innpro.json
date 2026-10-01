@@ -16,5 +16,23 @@
       "https://www.cameraworld.co.uk/videography-products/insta360-flow-creator-kit-white.html",
       "https://www.dronshop.ro/insta360-flow-creator-kit-white"
     ]
+  },
+  "065314": {
+    "ean": "6970357855278",
+    "model": "Flow Creator Kit",
+    "replaceIfSourceEan": "065314",
+    "sourceUrls": [
+      "https://www.decathlon.es/es/p/mp/insta360-flow-creator-kit-gris/d44dcc29-2b1f-4c15-9ab8-5321440c07ca/c251",
+      "https://dronshop.ro/insta360-flow-creator-kit-grey"
+    ]
+  },
+  "065303": {
+    "ean": "6970357856992",
+    "model": "GO 3, 128 GB",
+    "replaceIfSourceEan": "065303",
+    "sourceUrls": [
+      "https://www.komputronik.pl/product/883044/insta360-go-3-128gb-czarna.html",
+      "https://dronshop.hu/insta360-go-3-128gb-black"
+    ]
   }
 }
