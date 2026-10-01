@@ -151,6 +151,9 @@
   }
 
   function createQuickFilters() {
+    categoryTop = document.querySelector('.category-top');
+    categoryTitle = categoryTop && categoryTop.querySelector('.category-title');
+    if (!categoryTop || !categoryTitle) return;
     if (categoryTop.querySelector('.ps-tv-quick-filters')) return;
     var bar = document.createElement('div');
     bar.className = 'ps-tv-quick-filters';
@@ -419,6 +422,7 @@
     var filters = getFilters();
     if (!filters) return;
     addDrawerActions();
+    root = document.querySelector('.category-content-wrapper') || root;
     returnFocusTo = button;
     body.classList.add('ps-tv-filter-sheet-open');
     root.inert = true;
@@ -432,6 +436,7 @@
 
   function closeMobileFilters(restoreFocus) {
     var filters = getFilters();
+    root = document.querySelector('.category-content-wrapper') || root;
     body.classList.remove('ps-tv-filter-sheet-open');
     root.inert = false;
     if (filters) {
@@ -445,8 +450,9 @@
   }
 
   function prepareFilters() {
+    filterBox = document.querySelector('.box-filters');
     var filters = getFilters();
-    if (!filters) return;
+    if (!filters || !filterBox) return;
     if (!filterBox.querySelector('.ps-tv-filter-title')) {
       var panelTitle = document.createElement('h2');
       panelTitle.className = 'ps-tv-filter-title';
@@ -485,33 +491,54 @@
       closeMobileFilters(true);
     }
   }, true);
-  var filterBoxObserver = new MutationObserver(function () {
-    var filters = getFilters();
-    if (!filters) return;
+  document.addEventListener('change', function (event) {
+    if (event.target && event.target.closest && event.target.closest('#filters')) updateInterface();
+  }, true);
+  document.addEventListener('input', function (event) {
+    if (event.target && event.target.closest && event.target.closest('#filters')) updateInterface();
+  }, true);
+
+  var repairTimer = null;
+  function repairReplacedCategoryUi() {
+    if (!body.classList.contains('in-televizory')) return;
+    var currentRoot = document.querySelector('.category-content-wrapper');
+    var currentTop = document.querySelector('.category-top');
+    var currentTitle = currentTop && currentTop.querySelector('.category-title');
+    var currentFilterBox = document.querySelector('.box-filters');
+    var products = document.querySelector('#products');
+    var activeBar = document.querySelector('.ps-tv-active-filters');
+    var needsRepair = root !== currentRoot || categoryTop !== currentTop || categoryTitle !== currentTitle ||
+      filterBox !== currentFilterBox || !document.querySelector('.ps-tv-quick-filters') ||
+      !document.querySelector('.ps-tv-mobile-filter-button') || !document.querySelector('.ps-tv-filter-backdrop') ||
+      (products && (!activeBar || activeBar.parentElement !== products.parentElement)) ||
+      getSections().some(function (section) {
+        var heading = section.querySelector('h4, h3, .filter-section__name');
+        return heading && !heading.querySelector('.ps-tv-section-toggle');
+      });
+    if (!needsRepair || !currentRoot || !currentTop || !currentTitle || !currentFilterBox) return;
+    root = currentRoot;
+    categoryTop = currentTop;
+    categoryTitle = currentTitle;
+    filterBox = currentFilterBox;
+    createQuickFilters();
     prepareFilters();
+    createMobileControls();
+    attachBackdrop();
     updateInterface();
     if (body.classList.contains('ps-tv-filter-sheet-open')) {
-      filters.setAttribute('role', 'dialog');
-      filters.setAttribute('aria-modal', 'true');
-      filters.setAttribute('aria-label', 'Filtre televízorov');
+      var filters = getFilters();
+      if (filters) {
+        filters.setAttribute('role', 'dialog');
+        filters.setAttribute('aria-modal', 'true');
+        filters.setAttribute('aria-label', 'Filtre televízorov');
+      }
     }
+  }
+  var categoryUiObserver = new MutationObserver(function () {
+    window.clearTimeout(repairTimer);
+    repairTimer = window.setTimeout(repairReplacedCategoryUi, 60);
   });
-  filterBoxObserver.observe(filterBox, { childList: true, subtree: true });
-  var sidebarObserver = new MutationObserver(function () {
-    prepareFilters();
-    updateInterface();
-  });
-  var sidebar = document.querySelector('.sidebar-left');
-  if (sidebar) sidebarObserver.observe(sidebar, { childList: true, subtree: true });
-  root.addEventListener('change', updateInterface);
-  root.addEventListener('input', updateInterface);
-  filterBox.addEventListener('change', updateInterface);
-  filterBox.addEventListener('input', updateInterface);
-  var rootObserver = new MutationObserver(function () {
-    createMobileControls();
-    updateInterface();
-  });
-  rootObserver.observe(root, { childList: true });
+  categoryUiObserver.observe(document.body, { childList: true, subtree: true });
 
   window.__psTvCategoryFilterUI = {
     open: openMobileFilters,
