@@ -1,0 +1,34 @@
+{
+  "BAG-12M": {
+    "model": "BAG-12M",
+    "ean": "4007754242492",
+    "sourceUrls": [
+      "https://monacor.sk/uploads/files/Components_2019.pdf",
+      "https://www.bpm-power.com/it/online/audio/prodotti-dj-giradischi/custodia-altoparlanti-img-stageline-b1374689"
+    ]
+  },
+  "EMG-600P": {
+    "model": "EMG-600P",
+    "ean": "4007754156638",
+    "sourceUrls": [
+      "https://www.monacor.com/media/FLE/EMG-610P%40BDA.pdf",
+      "https://www.bpm-power.com/it/online/audio/microfoni/microfono-vocale-collo-cigno-b1374990"
+    ]
+  },
+  "MRH-300": {
+    "model": "MRH-300",
+    "ean": "4007754232103",
+    "sourceUrls": [
+      "https://www.monacor.com/fileadmin/user_upload/PDF-Dateien/Kataloge/K19-184CO__COMPONENTS_2019__en__LowRes.pdf",
+      "https://akustyka.pl/monacor-mrh-300/"
+    ]
+  },
+  "PAB-110BAG": {
+    "model": "PAB-110BAG",
+    "ean": "4007754212150",
+    "sourceUrls": [
+      "https://www.monacor.sk/uploads/files/Components_2019.pdf",
+      "https://mirtechniki.net/shop/219419/desc/monacor-boxenschutzhulle-pab-110bag"
+    ]
+  }
+}
