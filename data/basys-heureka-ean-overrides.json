@@ -1623,5 +1623,50 @@
       "https://www.rozetka.com.ua/behringer-27000881/p451792688/",
       "https://watanabe-mi.jp/brand/wp-content/uploads/2020/11/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8202011_WEB.pdf"
     ]
+  },
+  "GUITAR_2_USB": {
+    "model": "GUITAR 2 USB",
+    "ean": "4033653130660",
+    "sourceUrls": [
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf",
+      "https://magnusmusic.eu/en/products/behringer-guitar-2-usb-usb-audio-interface-25222.html",
+      "https://www.morele.net/kolumna-behringer-behringer-guitar-2-usb-interfejs-audio-13861972/"
+    ]
+  },
+  "FLOW_CLAMP": {
+    "model": "FLOW CLAMP",
+    "ean": "4033653160940",
+    "sourceUrls": [
+      "https://www.e.leclerc/fp/behringer-flow-clamp-accessoires-console-de-mixage-4033653160940",
+      "https://www.bashsmusic.com.au/product/behringer-flow-clamp/",
+      "https://www.studiostore.pl/behringer-flow-clamp.html"
+    ]
+  },
+  "U-PHORIA_STUDIO_PRO": {
+    "model": "U-PHORIA STUDIO PRO",
+    "ean": "4033653130912",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0841-AAG",
+      "https://distrinode.pl/behringer-u-phoria-studio-pro-zestaw-do-domowego-nagrywania",
+      "https://www.madridhifi.com/p/behringer-u-phoria-studio-pro/"
+    ]
+  },
+  "PMC-150": {
+    "model": "PMC-150",
+    "ean": "4033653161343",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0009-AAH",
+      "https://riff.net.pl/kable-mikrofonowe/78288-behringer-pmc-150-kabel-mikrofonowy-xlr-f-xlr-m-15m-4033653161343.html",
+      "https://audiopatent.eu/pl/products/behringer-pmc-150-kabel-mikrofonowy-1-5-m-6135"
+    ]
+  },
+  "FC600": {
+    "model": "FC600",
+    "ean": "4033653160261",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/385.html",
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf",
+      "https://www.ebay.de/p/934093960"
+    ]
   }
 }
