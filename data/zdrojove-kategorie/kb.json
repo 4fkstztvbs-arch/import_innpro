@@ -9,7 +9,7 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 1
  },
  "Dílna a zahrada > Dílna > Elektrické nářadí > Brusky > Kotoučové": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 2
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 1
  },
  "Dílna a zahrada > Dílna > Elektrické nářadí > Brusky > Oscilační": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 1
@@ -18,7 +18,7 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 1
  },
  "Dílna a zahrada > Dílna > Elektrické nářadí > Frézy a frézky > Příslušenství": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 2
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 3
  },
  "Dílna a zahrada > Dílna > Elektrické nářadí > Pájky": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 2
@@ -101,9 +101,6 @@
  "Dílna a zahrada > Dílna > Ruční nářadí > Nože, nůžky, skalpely, řezačky": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 2
  },
- "Dílna a zahrada > Dílna > Ruční nářadí > Rudly": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 1
- },
  "Dílna a zahrada > Dílna > Ruční nářadí > Sady nářadí": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia": 4
  },
@@ -156,10 +153,10 @@
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky": 4
  },
  "Dům a Byt > Bydlení a doplňky > Sušáky na prádlo": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 45
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 49
  },
  "Dům a Byt > Bydlení a doplňky > Žehlicí prkna": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 9
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 15
  },
  "Dům a Byt > Chovatelské potřeby > Pro psy": {
   "Chovateľské potreby": 1
@@ -168,7 +165,7 @@
   "Elektro, Smart Home a osvetlenie > Smart domácnosť": 1
  },
  "Dům a Byt > Chytrá domácnost > Chytré zabezpečení > Chytré senzory": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": 1
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": 2
  },
  "Dům a Byt > Chytrá domácnost > Chytré zabezpečení > Detektor pohybu": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia": 1
@@ -176,11 +173,17 @@
  "Dům a Byt > Chytrá domácnost > Chytré zabezpečení > Kamery": {
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť": 2
  },
+ "Dům a Byt > Chytrá domácnost > Chytré žárovky": {
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť": 2
+ },
+ "Dům a Byt > Chytrá domácnost > Chytré zásuvky": {
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť": 1
+ },
  "Dům a Byt > Hračky": {
   "Cestovanie, šport a outdoor > Hračky": 1
  },
  "Dům a Byt > Hračky > Auta, letadla, lodě": {
-  "Cestovanie, šport a outdoor > Hračky": 2
+  "Cestovanie, šport a outdoor > Hračky": 3
  },
  "Dům a Byt > Hračky > Autodráhy": {
   "Cestovanie, šport a outdoor > Hračky": 18
@@ -207,7 +210,7 @@
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 1
  },
  "Dům a Byt > Kuchyňské potřeby > Kuchyňské minutky": {
-  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 1
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 2
  },
  "Dům a Byt > Kuchyňské potřeby > Kuchyňské nože a nůžky": {
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 14
@@ -227,8 +230,11 @@
  "Dům a Byt > Kuchyňské potřeby > Mlýnky na koření": {
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 6
  },
+ "Dům a Byt > Kuchyňské potřeby > Odpeckovače": {
+  "(bez pravidla)": 2
+ },
  "Dům a Byt > Kuchyňské potřeby > Ostatní kuchyňské potřeby": {
-  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 18
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 20
  },
  "Dům a Byt > Kuchyňské potřeby > Otvíráky na konzervy": {
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky": 1
@@ -267,7 +273,7 @@
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Hrnce a panvice": 2
  },
  "Dům a Byt > Nádobí > Pánve": {
-  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Hrnce a panvice": 27
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Hrnce a panvice": 26
  },
  "Dům a Byt > Nádobí > Pečící formy": {
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Formy na pečenie": 16
@@ -306,7 +312,7 @@
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky": 4
  },
  "Dům a Byt > Úklidové pomůcky > Mopy a úklidové soupravy": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky": 89
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky": 98
  },
  "Dům a Byt > Univerzální napájecí zdroje": {
   "Energia a napájanie > Napájacie zdroje": 1
@@ -318,10 +324,10 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie > Stolové a stojacie lampy": 2
  },
  "Dům a Byt > Žárovky, vypínače, svítidla > LED Žárovky": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky": 29
+  "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky": 31
  },
  "Dům a Byt > Žárovky, vypínače, svítidla > Ostatní žárovky a zářivky": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie": 7
+  "Elektro, Smart Home a osvetlenie > Osvetlenie": 8
  },
  "Dům a Byt > Žárovky, vypínače, svítidla > Svítidla": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie": 1
@@ -348,13 +354,13 @@
   "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky": 2
  },
  "Malé spotřebiče > Fritézy a hrnce > Elektrické pánve": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 9
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 10
  },
  "Malé spotřebiče > Fritézy a hrnce > Fritézy": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 55
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 58
  },
  "Malé spotřebiče > Fritézy a hrnce > Multifunkční hrnce": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 31
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 32
  },
  "Malé spotřebiče > Fritézy a hrnce > Parní hrnce": {
   "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 9
@@ -378,10 +384,10 @@
   "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 5
  },
  "Malé spotřebiče > Grily, pekárny, vařiče > Domácí pekárny": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 7
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 8
  },
  "Malé spotřebiče > Grily, pekárny, vařiče > Elektrické grily": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 23
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 24
  },
  "Malé spotřebiče > Grily, pekárny, vařiče > Elektrické vařiče": {
   "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 16
@@ -393,7 +399,7 @@
   "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče": 16
  },
  "Malé spotřebiče > Kávovary a espressa > Automatická espressa": {
-  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 12
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 14
  },
  "Malé spotřebiče > Kávovary a espressa > Káva": {
   "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 44
@@ -402,7 +408,7 @@
   "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 12
  },
  "Malé spotřebiče > Kávovary a espressa > Kávové kapsle": {
-  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 64
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 63
  },
  "Malé spotřebiče > Kávovary a espressa > Mlýnky na kávu": {
   "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 8
@@ -414,7 +420,7 @@
   "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 6
  },
  "Malé spotřebiče > Kávovary a espressa > Pákové kávovary": {
-  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 13
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 12
  },
  "Malé spotřebiče > Kávovary a espressa > Překapávače": {
   "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá": 13
@@ -432,7 +438,7 @@
   "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače": 44
  },
  "Malé spotřebiče > Kuchyňské roboty a kráječe > Mixéry a šlehače > Mixéry > Tyčové mixéry": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače": 13
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače": 14
  },
  "Malé spotřebiče > Kuchyňské roboty a kráječe > Mixéry a šlehače > Šlehače": {
   "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače": 16
@@ -468,7 +474,7 @@
   "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Vákuovačky a zváračky fólií": 12
  },
  "Malé spotřebiče > Potřeby pro domácnost > Vakuovačky a svářečky fólií > Příslušenství pro vakuovačky a svářečky": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Vákuovačky a zváračky fólií": 16
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Vákuovačky a zváračky fólií": 17
  },
  "Malé spotřebiče > Potřeby pro domácnost > Vakuovačky a svářečky fólií > Vakuovačky a svářečky": {
   "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Vákuovačky a zváračky fólií": 19
@@ -486,13 +492,13 @@
   "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 8
  },
  "Malé spotřebiče > Příprava nápojů > Odšťavňovače": {
-  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 10
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 11
  },
  "Malé spotřebiče > Příprava nápojů > Příslušenství pro filtrační konvice": {
-  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 23
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 22
  },
  "Malé spotřebiče > Příprava nápojů > Rychlovarné konvice": {
-  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 77
+  "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 78
  },
  "Malé spotřebiče > Příprava nápojů > Sirupy a lahve pro výrobníky sody": {
   "Domáce spotrebiče a domácnosť > Káva a príprava nápojov": 3
@@ -510,10 +516,10 @@
   "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom": 24
  },
  "Malé spotřebiče > Příslušenství k malým spotřebičům > Příslušenství k vysavačům": {
-  "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom": 37
+  "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom": 35
  },
  "Malé spotřebiče > Příslušenství k malým spotřebičům > Příslušenství k žehlení": {
-  "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom": 10
+  "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom": 14
  },
  "Malé spotřebiče > Příslušenství k malým spotřebičům > Příslušenství ke grilům": {
   "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom": 1
@@ -546,22 +552,22 @@
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 11
  },
  "Malé spotřebiče > Vysavače > Parní mopy a čističe": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 12
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 13
  },
  "Malé spotřebiče > Vysavače > Podlahové vysavače": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 19
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 20
  },
  "Malé spotřebiče > Vysavače > Robotické vysavače": {
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 54
  },
  "Malé spotřebiče > Vysavače > Tyčové vysavače": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 44
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 43
  },
  "Malé spotřebiče > Vysavače > Víceúčelové vysavače": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 5
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 8
  },
  "Malé spotřebiče > Vzduchotechnika > Aroma difuzéry": {
-  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry": 7
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry": 8
  },
  "Malé spotřebiče > Vzduchotechnika > Čističky vzduchu": {
   "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Čističky a zvlhčovače vzduchu": 11
@@ -597,13 +603,13 @@
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 2
  },
  "Malé spotřebiče > Žehličky > Napařovače oděvů": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 11
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 13
  },
  "Malé spotřebiče > Žehličky > Napařovací žehličky": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 27
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 31
  },
  "Malé spotřebiče > Žehličky > Parní generátory": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 4
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 6
  },
  "Malé spotřebiče > Žehličky > Šicí stroje a příslušenství > Šicí stroje": {
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 1
@@ -633,7 +639,7 @@
   "Zdravie a starostlivosť > Holiace strojčeky a epilátory": 4
  },
  "Péče o tělo, zdraví > Holicí strojky > Příslušenství k holicím strojkům": {
-  "Zdravie a starostlivosť > Holiace strojčeky a epilátory": 12
+  "Zdravie a starostlivosť > Holiace strojčeky a epilátory": 10
  },
  "Péče o tělo, zdraví > Masážní přístroje": {
   "Zdravie a starostlivosť > Starostlivosť o zdravie": 1
@@ -651,7 +657,7 @@
   "Zdravie a starostlivosť > Starostlivosť o zdravie": 3
  },
  "Péče o tělo, zdraví > Osobní váhy": {
-  "Zdravie a starostlivosť > Osobné váhy": 29
+  "Zdravie a starostlivosť > Osobné váhy": 31
  },
  "Péče o tělo, zdraví > Parfémy a kosmetika > Pánské parfémy > Pánské balzámy po holení": {
   "Zdravie a starostlivosť > Starostlivosť o zdravie": 1
@@ -669,13 +675,13 @@
   "Zdravie a starostlivosť > Monitorovanie dieťaťa": 4
  },
  "Péče o tělo, zdraví > Péče o vlasy > Fény na vlasy": {
-  "Zdravie a starostlivosť > Starostlivosť o vlasy": 62
+  "Zdravie a starostlivosť > Starostlivosť o vlasy": 68
  },
  "Péče o tělo, zdraví > Péče o vlasy > Hřebeny na vlasy": {
   "Zdravie a starostlivosť > Starostlivosť o vlasy": 3
  },
  "Péče o tělo, zdraví > Péče o vlasy > Kulmy na vlasy": {
-  "Zdravie a starostlivosť > Starostlivosť o vlasy": 55
+  "Zdravie a starostlivosť > Starostlivosť o vlasy": 56
  },
  "Péče o tělo, zdraví > Péče o vlasy > Příslušenství k péči o vlasy": {
   "Zdravie a starostlivosť > Starostlivosť o vlasy": 3
@@ -702,10 +708,10 @@
   "Zdravie a starostlivosť > Starostlivosť o zdravie": 1
  },
  "Péče o tělo, zdraví > Péče o zuby > Elektrické zubní kartáčky": {
-  "Zdravie a starostlivosť > Starostlivosť o zuby": 60
+  "Zdravie a starostlivosť > Starostlivosť o zuby": 59
  },
  "Péče o tělo, zdraví > Péče o zuby > Příslušenství k zubním kartáčkům": {
-  "Zdravie a starostlivosť > Starostlivosť o zuby": 71
+  "Zdravie a starostlivosť > Starostlivosť o zuby": 68
  },
  "Péče o tělo, zdraví > Péče o zuby > Ústní sprchy": {
   "Zdravie a starostlivosť > Starostlivosť o zuby": 10
@@ -720,13 +726,13 @@
   "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 3
  },
  "Počítače, kancelář > Herní zařízení > Herní konzole > PlayStation 5 - konzole": {
-  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 1
+  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 2
  },
  "Počítače, kancelář > Herní zařízení > Herní ovladače": {
   "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 9
  },
  "Počítače, kancelář > Herní zařízení > Herní ovladače > Gamepady": {
-  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 18
+  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 19
  },
  "Počítače, kancelář > Herní zařízení > Herní ovladače > Volanty": {
   "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 3
@@ -747,7 +753,7 @@
   "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 1
  },
  "Počítače, kancelář > Herní zařízení > Příslušenství ke konzolím": {
-  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 3
+  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 4
  },
  "Počítače, kancelář > Herní zařízení > Příslušenství ke konzolím > Nintendo DS, 2DS, 3DS - příslušenství": {
   "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly": 2
@@ -765,13 +771,13 @@
   "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 3
  },
  "Počítače, kancelář > Monitory > LCD monitory": {
-  "Počítače, mobily a tablety > Monitory a PC periférie > Monitory": 12
+  "Počítače, mobily a tablety > Monitory a PC periférie > Monitory": 13
  },
  "Počítače, kancelář > Monitory > Plátna a projektory > Projektory": {
   "Počítače, mobily a tablety > Monitory a PC periférie > Monitory": 6
  },
  "Počítače, kancelář > Notebooky": {
-  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Notebooky": 37
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Notebooky": 40
  },
  "Počítače, kancelář > Paměti RAM": {
   "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom": 1
@@ -780,19 +786,19 @@
   "Počítače, mobily a tablety > Disky a pamäťové médiá > USB kľúče": 3
  },
  "Počítače, kancelář > Paměťová média > Externí disky": {
-  "Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky": 21
+  "Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky": 20
  },
  "Počítače, kancelář > Paměťová média > Paměťové karty": {
-  "Počítače, mobily a tablety > Disky a pamäťové médiá > Pamäťové karty": 12
+  "Počítače, mobily a tablety > Disky a pamäťové médiá > Pamäťové karty": 13
  },
  "Počítače, kancelář > Paměťová média > USB flash disky": {
-  "Počítače, mobily a tablety > Disky a pamäťové médiá > USB kľúče": 7
+  "Počítače, mobily a tablety > Disky a pamäťové médiá > USB kľúče": 9
  },
  "Počítače, kancelář > PC periferie": {
   "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 1
  },
  "Počítače, kancelář > PC periferie > Klávesnice": {
-  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 13
+  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 11
  },
  "Počítače, kancelář > PC periferie > Myši": {
   "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 12
@@ -807,7 +813,7 @@
   "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 2
  },
  "Počítače, kancelář > PC periferie > Webkamery": {
-  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 2
+  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 1
  },
  "Počítače, kancelář > Příslušenství k notebookům > Brašny k notebookům": {
   "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom": 5
@@ -816,7 +822,7 @@
   "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom": 4
  },
  "Počítače, kancelář > Příslušenství k notebookům > Ostatní příslušenství k notebookům": {
-  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom": 3
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom": 4
  },
  "Počítače, kancelář > Příslušenství k tabletům > Ostatní k tabletu": {
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety": 2
@@ -825,13 +831,13 @@
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety": 4
  },
  "Počítače, kancelář > Síťové prvky > 3G/LTE modemy": {
-  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 4
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 5
  },
  "Počítače, kancelář > Síťové prvky > Extendery": {
-  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 4
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 7
  },
  "Počítače, kancelář > Síťové prvky > IP kamery": {
-  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 1
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 4
  },
  "Počítače, kancelář > Síťové prvky > Síťové karty": {
   "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 17
@@ -840,16 +846,16 @@
   "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 18
  },
  "Počítače, kancelář > Síťové prvky > WiFi routery": {
-  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 61
+  "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty": 67
  },
  "Počítače, kancelář > Skartovačky a laminovačky": {
   "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola": 1
  },
  "Počítače, kancelář > Stolní počítače": {
-  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Mini PC": 2
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Mini PC": 1
  },
  "Počítače, kancelář > Tablety": {
-  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety": 57
+  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety": 56
  },
  "Počítače, kancelář > Tiskárny a skenery": {
   "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 7
@@ -861,13 +867,13 @@
   "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 11
  },
  "Počítače, kancelář > Tiskárny a skenery > Inkousty": {
-  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 108
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 107
  },
  "Počítače, kancelář > Tiskárny a skenery > Laserové tiskárny": {
   "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 7
  },
  "Počítače, kancelář > Tiskárny a skenery > Multifunkční tiskárny > Inkoustové multifunkční tiskárny": {
-  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 43
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 44
  },
  "Počítače, kancelář > Tiskárny a skenery > Multifunkční tiskárny > Laserové multifunkční tiskárny": {
   "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 9
@@ -885,7 +891,7 @@
   "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 1
  },
  "Počítače, kancelář > Tiskárny a skenery > Tonery": {
-  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 15
+  "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál": 14
  },
  "Telefony, Foto, GPS > Digitální fotoaparáty": {
   "TV, audio, video a foto technika > Foto a príslušenstvo": 2
@@ -912,13 +918,13 @@
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Držiaky na mobily": 32
  },
  "Telefony, Foto, GPS > Příslušenství pro mobilní telefony a GPS > HandsFree": {
-  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom": 4
+  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom": 5
  },
  "Telefony, Foto, GPS > Příslušenství pro mobilní telefony a GPS > Kabely pro mobily": {
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom": 21
  },
  "Telefony, Foto, GPS > Příslušenství pro mobilní telefony a GPS > Nabíječky pro mobily": {
-  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily": 47
+  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily": 49
  },
  "Telefony, Foto, GPS > Příslušenství pro mobilní telefony a GPS > Ochranné fólie pro mobilní telefony": {
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom": 3
@@ -948,25 +954,25 @@
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika": 4
  },
  "Telefony, Foto, GPS > Telefony > Chytré telefony": {
-  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny": 188
+  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny": 191
  },
  "Telefony, Foto, GPS > Telefony > Tlačítkové telefony": {
-  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny": 10
+  "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny": 9
  },
  "Telefony, Foto, GPS > Vysílačky": {
-  "TV, audio, video a foto technika > Audio technika": 6
+  "TV, audio, video a foto technika > Audio technika": 7
  },
  "TV, audio, video > Audio - video kabely > CINCH RCA kabely": {
   "TV, audio, video a foto technika > AV káble": 1
  },
  "TV, audio, video > Audio - video kabely > Redukce": {
-  "TV, audio, video a foto technika > AV káble": 3
+  "TV, audio, video a foto technika > AV káble": 4
  },
  "TV, audio, video > Audio technika > HiFi komponenty": {
   "TV, audio, video a foto technika > Audio technika": 1
  },
  "TV, audio, video > Audio technika > HiFi komponenty > AV receivery": {
-  "TV, audio, video a foto technika > Audio technika": 10
+  "TV, audio, video a foto technika > Audio technika": 9
  },
  "TV, audio, video > Audio technika > HiFi komponenty > CD přehrávače": {
   "TV, audio, video a foto technika > Audio technika": 2
@@ -999,7 +1005,7 @@
   "TV, audio, video a foto technika > Audio technika > Rádiá": 2
  },
  "TV, audio, video > Audio technika > Radiopřijímače": {
-  "TV, audio, video a foto technika > Audio technika > Rádiá": 24
+  "TV, audio, video a foto technika > Audio technika > Rádiá": 23
  },
  "TV, audio, video > Audio technika > Soundbary": {
   "TV, audio, video a foto technika > Audio technika > Soundbary": 27
@@ -1023,7 +1029,7 @@
   "TV, audio, video a foto technika > Antény a satelity > Antény": 12
  },
  "TV, audio, video > Digitální příjem > DVB-T přijímače": {
-  "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy": 1
+  "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy": 2
  },
  "TV, audio, video > Digitální příjem > Satelitní přijímače": {
   "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy": 2
@@ -1041,13 +1047,13 @@
   "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike": 2
  },
  "TV, audio, video > Příslušenství k TV, audio, video > Dálkové ovladače": {
-  "TV, audio, video a foto technika > Diaľkové ovládače": 9
+  "TV, audio, video a foto technika > Diaľkové ovládače": 12
  },
  "TV, audio, video > Příslušenství k TV, audio, video > TV držáky": {
   "TV, audio, video a foto technika > TV stolíky a držiaky": 3
  },
  "TV, audio, video > Reproduktory > Bezdrátové reproduktory": {
-  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 66
+  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 65
  },
  "TV, audio, video > Reproduktory > Drátové reproduktory": {
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 3
@@ -1059,22 +1065,22 @@
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 2
  },
  "TV, audio, video > Reproduktory > Subwoofery": {
-  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 2
+  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 1
  },
  "TV, audio, video > Sluchátka > Bezdrátová": {
-  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 137
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 136
  },
  "TV, audio, video > Sluchátka > Drátová": {
-  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá": 41
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá": 39
  },
  "TV, audio, video > Sluchátka > Příslušenství pro sluchátka": {
   "TV, audio, video a foto technika > Audio technika > Slúchadlá": 4
  },
  "TV, audio, video > Sluchátka > True Wireless": {
-  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 41
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 39
  },
  "TV, audio, video > Televizory > LED televize": {
-  "TV, audio, video a foto technika > Televízory": 12
+  "TV, audio, video a foto technika > Televízory": 17
  },
  "TV, audio, video > Televizory > OLED televize": {
   "TV, audio, video a foto technika > Televízory": 13
@@ -1098,16 +1104,16 @@
   "TV, audio, video a foto technika > Video technika": 1
  },
  "Velké spotřebiče > Ledničky > Americké ledničky": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 4
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 5
  },
  "Velké spotřebiče > Ledničky > Chladící tašky a boxy": {
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 10
  },
  "Velké spotřebiče > Ledničky > Kombinované ledničky > Ledničky s mrazákem dole": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 50
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 51
  },
  "Velké spotřebiče > Ledničky > Kombinované ledničky > Ledničky s mrazákem nahoře": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 8
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 9
  },
  "Velké spotřebiče > Ledničky > Ledničky s mrazící přihrádkou": {
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 7
@@ -1119,16 +1125,16 @@
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky": 3
  },
  "Velké spotřebiče > Mikrovlnné trouby": {
-  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Mikrovlnné rúry": 21
+  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Mikrovlnné rúry": 22
  },
  "Velké spotřebiče > Mrazáky > Pultové mrazničky": {
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Mrazničky": 9
  },
  "Velké spotřebiče > Mrazáky > Šuplíkové mrazničky": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Mrazničky": 8
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Mrazničky": 9
  },
  "Velké spotřebiče > Myčky nádobí > Myčky nádobí 45 cm": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Umývačky riadu": 6
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Umývačky riadu": 8
  },
  "Velké spotřebiče > Myčky nádobí > Myčky nádobí 60 cm": {
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Umývačky riadu": 13
@@ -1137,16 +1143,16 @@
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Umývačky riadu": 1
  },
  "Velké spotřebiče > Pračky > Pračky s vrchním plněním": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Práčky": 18
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Práčky": 16
  },
  "Velké spotřebiče > Pračky > Pračky zepředu plněné": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Práčky": 52
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Práčky": 56
  },
  "Velké spotřebiče > Pračky > Příslušenství k pračkám a sušičkám": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Práčky": 27
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Práčky": 26
  },
  "Velké spotřebiče > Sporáky a trouby > Elektrické sporáky": {
-  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Sporáky a rúry": 11
+  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Sporáky a rúry": 12
  },
  "Velké spotřebiče > Sporáky a trouby > Kombinované sporáky": {
   "Domáce spotrebiče a domácnosť > Varenie a pečenie > Sporáky a rúry": 4
@@ -1164,10 +1170,10 @@
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Vinotéky a vitríny": 19
  },
  "Velké spotřebiče > Vytápění a ohřev vody > Ohřívače vody": {
-  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Vykurovanie a ohrev vody": 11
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Vykurovanie a ohrev vody": 12
  },
  "Vestavné spotřebiče > Digestoře > Filtry do digestoří": {
-  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Digestory": 2
+  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Digestory": 1
  },
  "Vestavné spotřebiče > Digestoře > Komínové digestoře": {
   "Domáce spotrebiče a domácnosť > Varenie a pečenie > Digestory": 11
@@ -1176,7 +1182,7 @@
   "Domáce spotrebiče a domácnosť > Varenie a pečenie > Digestory": 1
  },
  "Vestavné spotřebiče > Digestoře > Výsuvné, výklopné digestoře": {
-  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Digestory": 12
+  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Digestory": 13
  },
  "Vestavné spotřebiče > Digestoře > Závěsné digestoře": {
   "Domáce spotrebiče a domácnosť > Varenie a pečenie > Digestory": 3
@@ -1188,7 +1194,7 @@
   "Domáce spotrebiče a domácnosť > Varenie a pečenie > Varné dosky": 1
  },
  "Vestavné spotřebiče > Varné desky > Indukční varné desky": {
-  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Varné dosky": 29
+  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Varné dosky": 28
  },
  "Vestavné spotřebiče > Varné desky > Plynové varné desky": {
   "Domáce spotrebiče a domácnosť > Varenie a pečenie > Varné dosky": 12
@@ -1203,13 +1209,13 @@
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Vstavané chladenie": 2
  },
  "Vestavné spotřebiče > Vestavné chlazení > Vestavné kombinované chladničky": {
-  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Vstavané chladenie": 4
+  "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Vstavané chladenie": 5
  },
  "Vestavné spotřebiče > Vestavné chlazení > Vestavné monoklimatické chladničky": {
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Vstavané chladenie": 1
  },
  "Vestavné spotřebiče > Vestavné mikrovlnné trouby": {
-  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Mikrovlnné rúry > Vstavané mikrovlnné rúry": 13
+  "Domáce spotrebiče a domácnosť > Varenie a pečenie > Mikrovlnné rúry > Vstavané mikrovlnné rúry": 14
  },
  "Vestavné spotřebiče > Vestavné myčky nádobí > Vestavné myčky 45 cm": {
   "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Umývačky riadu > Vstavané umývačky riadu": 17
