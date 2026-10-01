@@ -1,0 +1,62 @@
+/* PremiumStore product buy box pilot: desktop only.
+   Scope: compact product purchase panel and adjacent action/benefit spacing.
+   Mobile rules are intentionally untouched. */
+@media (min-width: 768px) {
+  body.type-detail.ps-pdp-v1 #product-detail-form .shipping-options-layout {
+    margin-bottom: 12px !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form .shipping-options-layout > tbody > tr {
+    align-items: center !important;
+    padding-block: 0 !important;
+    border-bottom: 1px solid #e9eef2 !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form .shipping-options-layout > tbody > tr > th,
+  body.type-detail.ps-pdp-v1 #product-detail-form .shipping-options-layout > tbody > tr > td {
+    border-bottom: 0 !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form .shipping-options-layout > tbody > tr > th::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form .shipping-options-layout > tbody > tr:not(.shipping-options-row) {
+    grid-template-columns: minmax(0, .56fr) minmax(0, 1fr) !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form .shipping-options-layout > tbody > tr.shipping-options-row {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form .shipping-options-layout > tbody > tr.shipping-options-row > td {
+    grid-column: 1 / -1 !important;
+    width: 100% !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block {
+    grid-template-columns: minmax(0, 1fr) minmax(92px, 96px) minmax(0, 1.45fr) !important;
+    align-items: center !important;
+    gap: 12px !important;
+    margin-top: 4px !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > .p-final-price-wrapper,
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > .add-to-cart,
+  body.type-detail.ps-pdp-v1 #product-detail-form .p-to-cart-block > [data-testid="buttonAddToCart"] {
+    align-self: center !important;
+    margin: 0 !important;
+  }
+
+  body.type-detail.ps-pdp-v1 .social-buttons-wrapper {
+    margin-top: 4px !important;
+    padding-block: 8px !important;
+  }
+
+  body.type-detail.ps-pdp-v1 .benefitBanner.position--benefitProduct {
+    margin-top: 6px !important;
+  }
+}
