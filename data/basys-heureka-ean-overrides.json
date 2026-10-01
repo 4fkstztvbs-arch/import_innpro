@@ -600,5 +600,53 @@
       "https://www.axro.com/en/bose/",
       "https://www.smartech.ee/en/products/miscellaneous/bose-quietcomfort-headset-wired--wireless-head-band-musiceveryday-bluetooth-white-0/"
     ]
+  },
+  "802171-0010": {
+    "model": "802171-0010",
+    "ean": "0017817795647",
+    "sourceUrls": [
+      "https://www.nexuspalma.com/FTP/precios/acustica/Bose.pdf",
+      "https://www.visions.ca/bose-wall-mount-for-sound-bar-black"
+    ]
+  },
+  "897827-0010": {
+    "model": "897827-0010",
+    "ean": "0017817861793",
+    "sourceUrls": [
+      "https://www.elkjop.no/product/1097119",
+      "https://www.bhphotovideo.com/c/product/1959083-REG/bose_897827_0010_lifestyle_wall_bracket_nue.html"
+    ]
+  },
+  "897827-0020": {
+    "model": "897827-0020",
+    "ean": "0017817861809",
+    "sourceUrls": [
+      "https://www.bhphotovideo.com/c/product/1959084-REG/bose_897827_0020_lifestyle_wall_bracket_white.html",
+      "https://www.dell.com/en-us/shop/bose-lifestyle-wall-bracket-white-smoke/apd/ad589551/pc-accessories"
+    ]
+  },
+  "897829-0010": {
+    "model": "897829-0010",
+    "ean": "0017817861786",
+    "sourceUrls": [
+      "https://www.abt.com/Bose-Lifestyle-Floor-Stand-in-Black-8978290010/p/241230.html",
+      "https://www.visions.ca/bose-897829-0010-lifestyle-ultra-speaker-floor-stand-black-897829-0010"
+    ]
+  },
+  "722139-0010": {
+    "model": "722139-0010",
+    "ean": "0017817662581",
+    "sourceUrls": [
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/veggfeste-og-gulvstativ-til-hoyttaler/bose-ufs-20-series-ii-universalt-gulvstativ-sort/UFS202BLK",
+      "https://www.hifi.lu/en/p/UFS20B-ufs-20-ii-sol-black-speaker-stand"
+    ]
+  },
+  "722140-0010": {
+    "model": "722140-0010",
+    "ean": "0017817662710",
+    "sourceUrls": [
+      "https://microconcept.com/bose-uts-20-serie-ii-noir.html",
+      "https://www.cepro.com/wp-content/uploads/2019/09/BCS_Catalog_FY19-2.pdf"
+    ]
   }
 }
