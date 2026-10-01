@@ -74,7 +74,7 @@ const EAN_OVERRIDES_PATH = path.join(__dirname, 'heureka-ean-overrides-atos.json
 const EAN_OVERRIDES = fs.existsSync(EAN_OVERRIDES_PATH)
   ? JSON.parse(fs.readFileSync(EAN_OVERRIDES_PATH, 'utf8')) : {};
 function isValidEan13(value) {
-  if (!/^\\d{13}$/.test(value)) return false;
+  if (!/^\d{13}$/.test(value)) return false;
   const sum = value.slice(0, 12).split('').reduce((total, digit, index) =>
     total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
   return String((10 - (sum % 10)) % 10) === value[12];
