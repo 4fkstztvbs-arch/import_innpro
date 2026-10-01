@@ -181,5 +181,27 @@
     "sourceUrls": [
       "https://www.cpplus.cz/fotky61533/fotov/_ps_1083produktovy-list-CP-UNC-VD41L3E-VMD-J.pdf"
     ]
+  },
+  "OS30-18MFX": {
+    "ean": "8596425100453",
+    "model": "OS30-18MFX",
+    "sourceUrls": [
+      "https://tipa.eu/en/products/solar-panel-usb-12v30w-flexible-os3018mfx"
+    ]
+  },
+  "OS50-18MFX": {
+    "ean": "8596425100460",
+    "model": "OS50-18MFX",
+    "sourceUrls": [
+      "https://tipa.eu/en-en/products/solar-panel-usb-12v50w-flexible-os5018mfx"
+    ]
+  },
+  "TFORCE700": {
+    "ean": "8424450185056",
+    "model": "DAT HD BOSS 700",
+    "sourceUrls": [
+      "https://docs.televes.com/web/catalogo/pdf/Quick_Product_Guide_2020_Televes_2020_ME.pdf",
+      "https://eshop.evercon.cz/dvb-t-anteny/308-televes-dat-hd-boss-700.html"
+    ]
   }
 }
