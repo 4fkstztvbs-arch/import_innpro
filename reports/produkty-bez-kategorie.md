@@ -1,27 +1,11 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-01 20:39 UTC.
+Kontrola z 2026-10-01 21:01 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
-
-## atos — 11 ks
-
-| Kód | Produkt |
-|---|---|
-| `ATO-A500006298` |  |
-| `ATO-A500006299` |  |
-| `ATO-CP-E81AR` |  |
-| `ATO-KMDP-105-WH` |  |
-| `LEC-RBA-1017-PRO` |  |
-| `LEC-TSA0163.1` |  |
-| `PEN-52901202` |  |
-| `TIP-07720168` |  |
-| `VB-MPU-1200` |  |
-| `VB-WPU-300` |  |
-| `VB-WPU-500` |  |
 
 ## innpro — 2 ks
 
