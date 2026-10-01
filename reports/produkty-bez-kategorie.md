@@ -1,60 +1,11 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-01 05:44 UTC.
+Kontrola z 2026-10-01 05:47 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
-
-## atos — 44 ks
-
-| Kód | Produkt |
-|---|---|
-| `3021117` |  |
-| `ABL-16-50-069` |  |
-| `ABL-30-B1-067` |  |
-| `ABL-30-B1-179` |  |
-| `ABL-30-B1-315` |  |
-| `ABL-30-B1-316` |  |
-| `ATO-2631690100` |  |
-| `ATO-38MW12KNORD` |  |
-| `ATO-K735B` |  |
-| `ATO-KMDP-105-WH` |  |
-| `ATO-T549M` |  |
-| `CMP-09229` |  |
-| `CMP-91519` |  |
-| `CMP-amK222FL` |  |
-| `CMP-TO-09332` |  |
-| `CMP-TO-25166` |  |
-| `CMP-TO-75921` |  |
-| `CMP-TO-76750` |  |
-| `CMP-YT-2305` |  |
-| `CMP-YT-24204` |  |
-| `CMP-YT-28290` |  |
-| `CMP-YT-38561` |  |
-| `ELE-1009454` |  |
-| `ELE-1009614` |  |
-| `IST-TESO00046` |  |
-| `IVSC02` |  |
-| `LEC-KM0837` |  |
-| `LEC-RBA-2326-15` |  |
-| `LEC-RBA-2330-5` |  |
-| `LEC-URZ3427-12-LFP4` |  |
-| `LEV-86481` |  |
-| `SPR-4726018` |  |
-| `TIP-04210155` |  |
-| `TIP-06424525` |  |
-| `TIP-07720168` |  |
-| `TOC-EX4780028A` |  |
-| `TOC-G00301` |  |
-| `TOC-G17152` |  |
-| `TOC-G17156` |  |
-| `TOC-SX3080` |  |
-| `TOC-SX4206` |  |
-| `TOC-TO-06940` |  |
-| `TOMD6-63DC 50A` |  |
-| `WIWAMINI` |  |
 
 ## innpro — 2 ks
 
@@ -63,7 +14,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `088539` | Monitor DarkFlash 9,2" IPS V92 (čierny) |
 | `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
 
-## kb — 152 ks
+## kb — 150 ks
 
 | Kód | Produkt |
 |---|---|
@@ -92,7 +43,6 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `100001188937` |  |
 | `100001321502` |  |
 | `100001368451` |  |
-| `100001392444` |  |
 | `100001456314` |  |
 | `100001456326` |  |
 | `100001467867` |  |
@@ -102,7 +52,6 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `100001784234` |  |
 | `100001790328` |  |
 | `100001790329` |  |
-| `100001815989` |  |
 | `100001859458` |  |
 | `100001881113` |  |
 | `100001882221` |  |
@@ -220,12 +169,11 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `700042518980` |  |
 | `999000455098` |  |
 
-## penta — 8 ks
+## penta — 7 ks
 
 | Kód | Produkt |
 |---|---|
 | `49907063` |  |
-| `52901904` |  |
 | `52932460` |  |
 | `554503` |  |
 | `600886` |  |

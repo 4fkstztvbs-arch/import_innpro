@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-09-30 01:16 UTC.
+Kontrola z 2026-10-01 05:47 UTC.
 
 **1 ciest bez pravidla, 1 produktov bez kategórie.**
 
