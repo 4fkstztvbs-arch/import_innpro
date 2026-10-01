@@ -137,5 +137,22 @@
       "https://www.mediamarkt.de/de/product/_pioneer-ts-mr-2040-autolautsprecher-passiv-174873507.html",
       "https://www.ars24.com/en/pioneer-ts-mr2040-marine-speaker-20cm-coaxial"
     ]
+  },
+  "C-2": {
+    "model": "C-2",
+    "ean": "4033653080224",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/489.html",
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+    ]
+  },
+  "GI100": {
+    "model": "GI100",
+    "ean": "4033653050227",
+    "sourceUrls": [
+      "https://www.kuantokusta.pt/p/1660901/behringer-gi100",
+      "https://hinta.fi/820834/behringer-gi100/tuotetiedot",
+      "https://www.numemusic.es/318069-di-caja-de-inyeccin-behringer-gi100-ultra-g"
+    ]
   }
 }
