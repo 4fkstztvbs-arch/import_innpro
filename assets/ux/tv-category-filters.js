@@ -445,7 +445,9 @@
     addDrawerActions();
     returnFocusTo = button;
     body.classList.add('ps-tv-filter-sheet-open');
-    setBackgroundInertExcept(document.querySelector('#filters-wrapper') || filterBox, true);
+    // Active-filter URLs may place #filters directly in .category-content-wrapper,
+    // outside the traditional wrapper. Keep the actual dialog interactive.
+    setBackgroundInertExcept(filters, true);
     button.setAttribute('aria-expanded', 'true');
     filters.setAttribute('role', 'dialog');
     filters.setAttribute('aria-modal', 'true');
