@@ -1,10 +1,75 @@
 {
-  "024644": {
-    "model": "Model 251, pár, biele",
-    "ean": "0017817263566",
+  "DN9610": {
+    "model": "DN9610",
+    "ean": "4033653150248",
     "sourceUrls": [
-      "https://www.secel.cz/sites/default/files/obsah/produkt/Audio%20High-end/files/bose_sec_premium_cenik_k_1.3.2018.pdf",
-      "https://www.vandenborre.be/fr/enceinte-haut-parleur/251-wit-paar"
+      "https://www.stageline.no/klark-teknik-dn9610-aes50-repeater",
+      "https://www.muzikant.cz/klark-teknik-dn-9610-132595"
+    ]
+  },
+  "DL151": {
+    "model": "DL151",
+    "ean": "4033653014014",
+    "sourceUrls": [
+      "https://www.polar.uk.com/midas-dl151-24-input-stage-box-w-mic-preamps-0606-abo",
+      "https://www.zeedoshop.ro/produs_midas-dl151_51944_0"
+    ]
+  },
+  "DI4800A": {
+    "model": "DI4800A",
+    "ean": "4033653081412",
+    "sourceUrls": [
+      "https://www.musictribe.com/en/products/DI4800A",
+      "https://www.net-s.pl/produkt/behringer-di4800a-di-box-aktywny-4-kanalowy-1709432"
+    ]
+  },
+  "UCA222": {
+    "model": "UCA222",
+    "ean": "4033653030618",
+    "sourceUrls": [
+      "https://www.bol.com/nl/nl/p/behringer-uca222-aanvullende-muziekapparatuur/9200000085225768/",
+      "https://www.photopoint.ee/en/audio/5654261-audio-interface-behringer-uca222"
+    ]
+  },
+  "B-5": {
+    "model": "B-5",
+    "ean": "4033653080156",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-b-5-microfono/",
+      "https://www.distrinode.co.za/behringer-b-5-studio-microphone"
+    ]
+  },
+  "UM2": {
+    "model": "UM2",
+    "ean": "4033653170888",
+    "sourceUrls": [
+      "https://www.85cento.it/en/behringer-um2-u-phoria-audio-interface-2x2-usb-with-xenyx-microphone-preamp/",
+      "https://muzyczny.fant.swiebodzin.pl/behringer-um2-u-phoria-interfejs-kartapdf-2061.html"
+    ]
+  },
+  "B112D": {
+    "model": "B112D",
+    "ean": "4033653021890",
+    "sourceUrls": [
+      "https://www.kuantokusta.pt/p/1660842/behringer-eurolive-b112d",
+      "https://rozetka.com.ua/ua/behringer-be-0029/p560961585/"
+    ]
+  },
+  "B215D": {
+    "model": "B215D",
+    "ean": "4033653062589",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-b215d/",
+      "https://www.ox.ee/en/product/2662365",
+      "https://www.midi.pl/kolumny-aktywne/9267-behringer-eurolive-b215d-kolumna-aktywna-4033653062589.html"
+    ]
+  },
+  "X32": {
+    "model": "X32",
+    "ean": "4033653012683",
+    "sourceUrls": [
+      "https://www.siluj.net/behringer/19583-behringer-x32-mezclador-para-directo.html",
+      "https://www.orionestore.it/it/mixer-digitale-behringer-x32-32-canali-con-usb-multicanale/"
     ]
   },
   "1204USB": {
@@ -13,6 +78,230 @@
     "sourceUrls": [
       "https://www.bestbuy.com/site/behringer-xenyx-1204-12-input-2-bus-analog-mixer/3177869.p",
       "https://www.musicacenter.com.br/audio/mesas-de-som/mesa-de-som-behringer-xenyx-1204usb-bivolt"
+    ]
+  },
+  "X1622USB": {
+    "model": "X1622USB",
+    "ean": "4033653021180",
+    "sourceUrls": [
+      "https://www.carrefour.es/behringer-xenyx-x1622usb-mesa-analogica/4033653021180/p",
+      "https://www.prodj.com/products/behringer-xenyx-x1622usb"
+    ]
+  },
+  "B115MP3": {
+    "model": "B115MP3",
+    "ean": "4033653021845",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/577.html",
+      "https://www.verkkokauppa.com/en/product/542366/Behringer-EuroLive-B115MP3-2-way-active-speaker"
+    ]
+  },
+  "QX1832USB": {
+    "model": "QX1832USB",
+    "ean": "4033653013116",
+    "sourceUrls": [
+      "https://www.musicacenter.com.br/audio/mesas-de-som/mesa-de-som-behringer-18-canais-qx1832usb",
+      "https://www.watanabe-mi.jp/brand/wp-content/uploads/2020/06/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8202006_WEB.pdf"
+    ]
+  },
+  "QX1222USB": {
+    "model": "QX1222USB",
+    "ean": "4033653013123",
+    "sourceUrls": [
+      "https://www.musicacenter.com.br/audio/mesas-de-som/mesa-de-som-behringer-xenyx-qx1222-usb-mixer",
+      "https://www.kuantokusta.pt/p/1661180/behringer-xenyx-qx1222usb"
+    ]
+  },
+  "X1204USB": {
+    "model": "X1204USB",
+    "ean": "4033653021166",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-xenyx-x1204usb/",
+      "https://www.rozetka.com.ua/ua/behringer-4033653021166/p611136074/"
+    ]
+  },
+  "TS-MR1640": {
+    "model": "TS-MR1640",
+    "ean": "0012562672083",
+    "sourceUrls": [
+      "https://ifceuropa.com/files/tarifas/archivos/tarifa-pioneer-marine-sep-25-9.pdf",
+      "https://www.csmegastore.de/i/6442884/ts-mr1640-car-speaker-2-way-160-w",
+      "https://www.infotec.no/pioneer-ts-mr1640-car-speaker-2-way/cat-p/c/p1001248127"
+    ]
+  },
+  "TS-MR2040": {
+    "model": "TS-MR2040",
+    "ean": "0012562672106",
+    "sourceUrls": [
+      "https://ifceuropa.com/files/tarifas/archivos/tarifa-pioneer-marine-sep-25-9.pdf",
+      "https://www.mediamarkt.de/de/product/_pioneer-ts-mr-2040-autolautsprecher-passiv-174873507.html",
+      "https://www.ars24.com/en/pioneer-ts-mr2040-marine-speaker-20cm-coaxial"
+    ]
+  },
+  "C-2": {
+    "model": "C-2",
+    "ean": "4033653080224",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/489.html",
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+    ]
+  },
+  "GI100": {
+    "model": "GI100",
+    "ean": "4033653050227",
+    "sourceUrls": [
+      "https://www.kuantokusta.pt/p/1660901/behringer-gi100",
+      "https://hinta.fi/820834/behringer-gi100/tuotetiedot",
+      "https://www.numemusic.es/318069-di-caja-de-inyeccin-behringer-gi100-ultra-g"
+    ]
+  },
+  "B115D": {
+    "model": "B115D",
+    "ean": "4033653021852",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-b115d/",
+      "https://www.kuantokusta.pt/p/1660708/behringer-b115d",
+      "https://www.numemusic.es/013478-altavoz-de-pa-amplificado-behringer-b115d-eurolive"
+    ]
+  },
+  "C-1U": {
+    "model": "C-1U",
+    "ean": "4033653080293",
+    "sourceUrls": [
+      "https://rozetka.pl/371195724/p371195724/",
+      "https://www.djshop.pl/behringer-c-1u-usb.html",
+      "https://www.csmegastore.de/i/9560302/behringer-c-1u-usb-kondensatormikrofon"
+    ]
+  },
+  "C-3": {
+    "model": "C-3",
+    "ean": "4033653080255",
+    "sourceUrls": [
+      "https://www.teclacenter.com.br/microfone-behringer-c-3.html",
+      "https://www.bananamusic.it/stampa/prodotto/86356",
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+    ]
+  },
+  "XM1800S": {
+    "model": "XM1800S",
+    "ean": "4033653080262",
+    "sourceUrls": [
+      "https://www.rapidonline.com/behringer-ultravoice-xm1800s-35-4220",
+      "https://techpack.com.pl/behringer-xm1800s",
+      "https://watanabe-mi.jp/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8201910_HP.pdf"
+    ]
+  },
+  "PMP1680S": {
+    "model": "PMP1680S",
+    "ean": "4033653021258",
+    "sourceUrls": [
+      "https://rozetka.pl/595750375/p595750375/",
+      "https://guitarcenter.pl/catalog/naglosnienie/mixery/mixery-analogowe/behringer-pmp1680s",
+      "https://woodbrass.de/products/behringer-europower-pmp1680s-86632"
+    ]
+  },
+  "XR12": {
+    "model": "XR12",
+    "ean": "4033653070416",
+    "sourceUrls": [
+      "https://hurtowniamuzyczna.pl/offer/86/22739/behringer-x-air-xr12.html",
+      "https://hinta.fi/1677370/behringer-xr12/tuotetiedot"
+    ]
+  },
+  "C-1": {
+    "model": "C-1",
+    "ean": "4033653080187",
+    "sourceUrls": [
+      "https://guitarcenter.pl/catalog/naglosnienie/mikrofony/mikrofony-pojemnosciowe/behringer-c-1",
+      "https://www.ox.ee/en/product/3054260",
+      "https://www.e.leclerc/fp/behringer-c1-micro-statique-4033653080187"
+    ]
+  },
+  "MX400": {
+    "model": "MX400",
+    "ean": "4033653020633",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-mx400/",
+      "https://audiopatent.eu/pl/products/behringer-mx400-mikser-liniowy-6097",
+      "https://www.bananamusic.it/behringer-mx400-micromix-bk.html",
+      "https://hinta.fi/1133237/behringer-mx400/tuotetiedot"
+    ]
+  },
+  "M-105A": {
+    "model": "M-105A",
+    "ean": "0698596028371",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf",
+      "https://www.richersounds.com/meze-105-aer-dark-walnut/"
+    ]
+  },
+  "M-105S": {
+    "model": "M-105S",
+    "ean": "0698596028715",
+    "sourceUrls": [
+      "https://bloomaudio.com/collections/headphones/products/meze-105-silva",
+      "https://simex.fi/fi/product/meze-audio-105-silva-avoimet-sankakuulokkeet/M-105S",
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hodetelefoner-og-tilbehor/hodetelefoner/meze-105-silva-hodetelefoner/952349"
+    ]
+  },
+  "LIR-2": {
+    "model": "LIR-2",
+    "ean": "0698596028364",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf",
+      "https://www.homecinesolutions.fr/p/26396-meze-audio-liric-2e-generation"
+    ]
+  },
+  "POET-SC": {
+    "model": "POET-SC",
+    "ean": "0698596028593",
+    "sourceUrls": [
+      "https://digistore.ch/en/hi-fi-open-helmets/15515-meze-audio-poet-silver-copper-0698596028593.html",
+      "https://store.shopping.yahoo.co.jp/kanjitsudirect/0698596028593.html"
+    ]
+  },
+  "STR-GC": {
+    "model": "STR-GC",
+    "ean": "0698596028722",
+    "sourceUrls": [
+      "https://cobra.fr/cdn/shop/files/FICHE_PRODUIT_MEZE_STRADA.pdf?v=9591585108431087227",
+      "https://www.fnac.com/Casque-arceau-circum-aural-filaire-Meze-audio-Strada-Vert-et-Cuivre/a22560709/w-4",
+      "https://lbs.dk/produkt/meze-strada/"
+    ]
+  },
+  "M-ARTA": {
+    "model": "M-ARTA",
+    "ean": "0698596028906",
+    "sourceUrls": [
+      "https://www.evoluzionehifi.it/amplificatori/index.php?product_id=22678&route=product%2Fproduct",
+      "https://simex.fi/fi/product/meze-audio-arta-avoimet-kuulokkeet-musta/M-ARTA",
+      "https://lbs.dk/produkt/meze-audio-arta/"
+    ]
+  },
+  "M99C-V2": {
+    "model": "M99C-V2",
+    "ean": "0698596028876",
+    "sourceUrls": [
+      "https://www.supersonido.es/media/productos/57826/docs/documento-27535.pdf",
+      "https://www.av.com/Headphones/Meze-99-Classic-2nd-Generation-Over-Ear-Headphones-Walnut-Gold/7MVJ",
+      "https://www.sofmap.com/product_detail.aspx?sku=101891614"
+    ]
+  },
+  "EQP-KT": {
+    "model": "EQP-KT",
+    "ean": "4033653080613",
+    "sourceUrls": [
+      "https://www.rfelettronica.com/prodotto/klark-teknik-eqp-kt/",
+      "https://www.siluj.net/klark-teknik/19533-klark-teknik-eqp-kt-ecualizador-valvulas-de-2-bandas",
+      "https://greatecno.com/es/imagen-y-sonido/651604-klark-teknik-eqp-kt-4033653080613.html"
+    ]
+  },
+  "76-KT": {
+    "model": "76-KT",
+    "ean": "4033653080606",
+    "sourceUrls": [
+      "https://www.distrinode.co.za/klark-teknik-76-kt-fet-compressor-limiter",
+      "https://www.bhphotovideo.com/c/product/1819717-REG/klark_teknik_76_kt_classic_fet_style_compressor_with.html"
     ]
   },
   "2A-KT": {
@@ -24,523 +313,12 @@
       "https://woodbrass.com/products/klark-teknik-2a-kt-353345"
     ]
   },
-  "317302-0100": {
-    "model": "MA12EX",
-    "ean": "0017817500616",
-    "sourceUrls": [
-      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/loudspeakers/Panaray_MA12EX/Downloads/technical_information/tds_MA12EX_ltr_EN.pdf",
-      "https://www.exertis-connect.fr/fr/773848.html"
-    ]
-  },
-  "317302-0200": {
-    "model": "MA12EX",
-    "ean": "0017817500623",
-    "sourceUrls": [
-      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/loudspeakers/Panaray_MA12EX/Downloads/technical_information/tds_MA12EX_ltr_EN.pdf",
-      "https://www.pc21.fr/fiche/317302-0200-bose-colonne-interieure-exterieure-panaray-ma12ex-blanc-i4489478.html"
-    ]
-  },
-  "362538-0010": {
-    "model": "362538-0010",
-    "ean": "0017817607247",
-    "sourceUrls": [
-      "https://www.bol.com/nl/nl/p/bose-quietcomfort-20-stayhear-oordopjes-small-2-paar/9200000035776538/",
-      "https://www.mediamarkt.ch/de/product/_bose-quietcomfort-20-stayhear-s-ohreinsatze-2263920.html"
-    ]
-  },
-  "362538-0020": {
-    "model": "362538-0020",
-    "ean": "0017817607254",
-    "sourceUrls": [
-      "https://www.mediamarkt.ch/fr/product/_bose-quietcomfort-20-stayhear-m-%C3%A9couteurs-2263921.html",
-      "https://www.shoppingbag.pk/amazon-bose-medium-stayhear-with-tips/O00Q42N3FN.html"
-    ]
-  },
-  "362538-0030": {
-    "model": "362538-0030",
-    "ean": "0017817607261",
-    "sourceUrls": [
-      "https://www.adorama.com/bose-stayhear-replacement-silicone-tips-quietcomfort-20-20i-large/p/bo3625380030",
-      "https://www.global.ubuy.com/product/242MJBTI-bose-stayhear-tips-large-2-pairs"
-    ]
-  },
-  "720876-0020": {
-    "model": "720876-0020",
-    "ean": "0017817660990",
-    "sourceUrls": [
-      "https://www.elgiganten.se/product/tv-ljud-smart-hem/horlurar-tillbehor/tillbehor-till-horlurar/oronkuddar/bose-quietcomfort-25-qc25-oronkuddar-vit/61822",
-      "https://www.buycott.com/upc/017817660990"
-    ]
-  },
-  "722139-0010": {
-    "model": "722139-0010",
-    "ean": "0017817662581",
-    "sourceUrls": [
-      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/veggfeste-og-gulvstativ-til-hoyttaler/bose-ufs-20-series-ii-universalt-gulvstativ-sort/UFS202BLK",
-      "https://www.hifi.lu/en/p/UFS20B-ufs-20-ii-sol-black-speaker-stand"
-    ]
-  },
-  "722139-0020": {
-    "model": "722139-0020",
-    "ean": "0017817662604",
-    "sourceUrls": [
-      "https://www.gaplasa.com/bose/paginas/listaprecios-bose.pdf",
-      "https://www.morele.net/kolumna-bose-bose-ufs-20-ii-floor-steel-baltas-2-leg-s-965-mm-14253974/"
-    ]
-  },
-  "722140-0010": {
-    "model": "722140-0010",
-    "ean": "0017817662710",
-    "sourceUrls": [
-      "https://microconcept.com/bose-uts-20-serie-ii-noir.html",
-      "https://www.cepro.com/wp-content/uploads/2019/09/BCS_Catalog_FY19-2.pdf"
-    ]
-  },
-  "754609-0010": {
-    "model": "754609-0010",
-    "ean": "0017817768610",
-    "sourceUrls": [
-      "https://www.mediamarkt.ch/de/product/_bose-omnijewel-center-channel-kabeladapter-schwarz-2263894.html",
-      "https://nexuspalma.com/FTP/precios/acustica/Bose.pdf"
-    ]
-  },
-  "76-KT": {
-    "model": "76-KT",
-    "ean": "4033653080606",
-    "sourceUrls": [
-      "https://www.distrinode.co.za/klark-teknik-76-kt-fet-compressor-limiter",
-      "https://www.bhphotovideo.com/c/product/1819717-REG/klark_teknik_76_kt_classic_fet_style_compressor_with.html"
-    ]
-  },
-  "760858-0010": {
-    "model": "760858-0010",
-    "ean": "0017817734714",
-    "sourceUrls": [
-      "https://www.bol.com/nl/nl/p/bose-quietcomfort-35-headphones-ear-cushion-kit-black/9300000020986639/",
-      "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
-    ]
-  },
-  "760858-0020": {
-    "model": "760858-0020",
-    "ean": "0017817734707",
-    "sourceUrls": [
-      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hodetelefoner-og-tilbehor/tilbehor-til-hodetelefoner/oreputer/bose-quietcomfort-35-oreputesett-til-hodetelefoner-solv/61827",
-      "https://www.morele.net/bose-ear-cushion-kit-pair-qc35-quitecomfort-35-silver-ww-15558043/"
-    ]
-  },
-  "762817-0020": {
-    "model": "762817-0020",
-    "ean": "0017817735353",
-    "sourceUrls": [
-      "https://www.mediamarkt.ch/it/product/_bose-soundsport-pulse-stayhear-m-copriauricolari-2263963.html"
-    ]
-  },
-  "772130-0010": {
-    "model": "772130-0010",
-    "ean": "0017817745918",
-    "sourceUrls": [
-      "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/content_pages/corporate/premiums_incentives/pdf/161525_P30_XC_148x210mm_US-28p_enUS-1F_2.pdf",
-      "https://www.ebay.com/p/1773820014"
-    ]
-  },
-  "781445-0020": {
-    "model": "781445-0020",
-    "ean": "0017817758451",
-    "sourceUrls": [
-      "https://www.crutchfield.com/p_018SSFRCCN/Bose-SoundSport-Free-charging-case-Midnight-Blue.html",
-      "https://www.desertcart.in/products/86287254-bose-soundsport-free-wireless-charging-case-midnight-blue"
-    ]
-  },
-  "783342-0300": {
-    "model": "783342-0300",
-    "ean": "0017817768412",
-    "sourceUrls": [
-      "https://www.axro.com/en/bose/",
-      "https://www.topocentras.lt/garso-technika/koloneles/kolonele-bose-soundlink-micro-bluetooth-stone-blue.html"
-    ]
-  },
-  "783342-0400": {
-    "model": "783342-0400",
-    "ean": "0017817836111",
-    "sourceUrls": [
-      "https://www.axro.com/it/detail/019ed9db427673e6be7523fcc50ac1bf",
-      "https://www.pc21.fr/fiche/783342-0400-soundlink-micro-white-i5155376.html"
-    ]
-  },
-  "802171-0010": {
-    "model": "802171-0010",
-    "ean": "0017817795647",
-    "sourceUrls": [
-      "https://www.nexuspalma.com/FTP/precios/acustica/Bose.pdf",
-      "https://www.visions.ca/bose-wall-mount-for-sound-bar-black"
-    ]
-  },
-  "809281-2100": {
-    "model": "809281-2100",
-    "ean": "0017817789431",
-    "sourceUrls": [
-      "https://www.pc21.fr/fiche/809281-2100-bose-surround-speakers-haut-parleurs-de-canaux-surround-sans-fil-noir-bose-i5153026.html",
-      "https://www.bozer.cz/reproduktory-bose/bose-surround-speakers-cerny/"
-    ]
-  },
-  "809281-2200": {
-    "model": "809281-2200",
-    "ean": "0017817789455",
-    "sourceUrls": [
-      "https://www.m79.lv/p/products/125453/Skalruni/Bose/809281-2200",
-      "https://www.elgiganten.dk/product/tv-lyd-smart-home/hojtalere-hi-fi/hojttalere/bose-surround-hojtalere-hvid/10407"
-    ]
-  },
-  "831246-0060": {
-    "model": "831246-0060",
-    "ean": "0017817804882",
-    "sourceUrls": [
-      "https://www.mediamarkt.ch/de/product/_bose-stayhear-max-l-2263929.html",
-      "https://www.mediamarkt.ch/fr/product/_bose-stayhear-max-l-%C3%A9couteurs-2263929.html"
-    ]
-  },
-  "834062-0200": {
-    "model": "834062-0200",
-    "ean": "0017817806046",
-    "sourceUrls": [
-      "https://www.mediamarkt.de/de/product/_bose-lenses-2561051.html",
-      "https://www.gigantti.fi/product/terveys-ja-hyvinvointi/asusteet/aurinkolasit/bose-frames-alto-vaihtolinssit-mirrored-silver/31924"
-    ]
-  },
-  "834167-0100": {
-    "model": "834167-0100",
-    "ean": "0017817813679",
-    "sourceUrls": [
-      "https://www.elgiganten.se/product/tv-ljud-smart-hem/horlurar-tillbehor/tillbehor-till-horlurar/oronkuddar/bose-noise-cancelling-headphones-700-oronkuddar-svart/268597",
-      "https://www.bhphotovideo.com/c/product/1737462-REG/bose_834167_0100_noise_cancelling_headphones_700.html/accessories"
-    ]
-  },
-  "834167-0300": {
-    "model": "834167-0300",
-    "ean": "0017817813662",
-    "sourceUrls": [
-      "https://www.mediamarkt.ch/de/product/_bose-headphones-700-ohrpolster-2263975.html",
-      "https://allegro.pl/oferta/poduszki-do-sluchawek-bose-ear-pads-cushion-kit-do-headphones-700-srebrne-17518935540"
-    ]
-  },
-  "851220-0010": {
-    "model": "851220-0010",
-    "ean": "0017817819213",
-    "sourceUrls": [
-      "https://www.abt.com/Bose-Bass-Module-Connection-Cable-8512200010/p/151579.html",
-      "https://device.report/m/ca79b16442751c0e55973c2a1036cf4b2c09e94a29bd9e72b477c8d93eff2ded.pdf"
-    ]
-  },
-  "855582-0400": {
-    "model": "855582-0400",
-    "ean": "0017817822329",
-    "sourceUrls": [
-      "https://www.elgiganten.se/product/personvard-halsa-skonhet/mode-accessoarer/solglasogon/bose-lenses-tempo-style-glas-road-orange/206405",
-      "https://www.mediamarkt.hu/hu/product/_bose-tempo-napszem%C3%BCveglencse-narancss%C3%A1rga-855582-0400-1339174.html"
-    ]
-  },
-  "855584-0500": {
-    "model": "855584-0500",
-    "ean": "0017817822312",
-    "sourceUrls": [
-      "https://www.elgiganten.se/product/personvard-halsa-skonhet/mode-accessoarer/solglasogon/bose-lenses-tempo-style-glas-trail-blue/206397",
-      "https://www.mediamarkt.de/de/product/_bose-frames-modell-tempo-2698334.html"
-    ]
-  },
-  "855972-0100": {
-    "model": "855972-0100",
-    "ean": "0017817824453",
-    "sourceUrls": [
-      "https://www.mediamarkt.de/de/product/_bose-frames-modell-soprano-2688434.html",
-      "https://www.iwant.cz/BOSE-Lenses-Soprano-sklicka-do-bryli-fialova-p105988"
-    ]
-  },
-  "855979-0300": {
-    "model": "855979-0300",
-    "ean": "0017817824460",
-    "sourceUrls": [
-      "https://www.elkjop.no/product/personlig-pleie-skjonnhet-og-velvare/motetilbehor/solbriller/bose-brilleglass-i-tenor-stil-mirrored-silver/206403",
-      "https://www.krefel.be/fr/p/33003600-des-verres-tenor-argent"
-    ]
-  },
-  "871761-0111": {
-    "model": "871761-0111",
-    "ean": "0017817839037",
-    "sourceUrls": [
-      "https://global.channelonline.com/andrew/consumer/Products/overview/M026347107",
-      "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
-    ]
-  },
-  "871761-0211": {
-    "model": "871761-0211",
-    "ean": "0017817839020",
-    "sourceUrls": [
-      "https://www.pc21.fr/fiche/871761-0211-qc45-kit-ear-cushion-scrim-wht--i5429829.html",
-      "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
-    ]
-  },
-  "878857-0100": {
-    "model": "878857-0100",
-    "ean": "0017817844819",
-    "sourceUrls": [
-      "https://www.mediamarkt.ch/fr/product/_bose-quietcomfort-earbuds-ii-alternatif-set-tailles-2263945.html",
-      "https://device.report/bose/878857-0100"
-    ]
-  },
-  "878857-0200": {
-    "model": "878857-0200",
-    "ean": "0017817844826",
-    "sourceUrls": [
-      "https://www.desertcart.in/products/508639266-bose-alternate-sizing-kit-for-quietcomfort-earbuds-ii-soapstone",
-      "https://global.channelonline.com/andrew/consumer/Products/overview/M026347107"
-    ]
-  },
-  "880413-0110": {
-    "model": "880413-0110",
-    "ean": "0017817846134",
-    "sourceUrls": [
-      "https://www.mediamarkt.ch/de/product/_bose-quietcomfort-ultra-ohrpolster-2263987.html",
-      "https://allegro.pl/oferta/poduszki-do-sluchawek-bose-cushion-kit-do-quietcomfort-ultra-czarne-18100543206"
-    ]
-  },
-  "880413-0120": {
-    "model": "880413-0120",
-    "ean": "0017817846165",
-    "sourceUrls": [
-      "https://www.dcs.dk/en/p/1002657363",
-      "https://www.morele.net/bose-poduszki-do-sluchawek-bose-cushion-kit-do-quietcomfort-ultra-biale-15859333/"
-    ]
-  },
-  "881046-0040": {
-    "model": "881046-0040",
-    "ean": "0017817854733",
-    "sourceUrls": [
-      "https://www.harveynorman.com.au/bose-ultra-open-earbuds-diamond.html",
-      "https://www.visions.ca/bose-ultra-open-earbuds-diamond-881046-0040"
-    ]
-  },
-  "881046-0700": {
-    "model": "881046-0700",
-    "ean": "0017817857529",
-    "sourceUrls": [
-      "https://hinta.fi/5399205/bose-ultra-open-earbuds/tuotetiedot",
-      "https://www.bestbuy.com/product/bose-ultra-open-ear-true-wireless-open-earbuds-chilled-lilac/J7C5V6T5JX"
-    ]
-  },
-  "881046-0900": {
-    "model": "881046-0900",
-    "ean": "0017817857512",
-    "sourceUrls": [
-      "https://www.conrad.hu/hu/p/bose-open-earbuds-ultra-in-ear-fejhallgato-vezetek-nelkuli-bluetooth-stereo-sunset-iridescent-toltotok-hangero-szabal-3448764.html",
-      "https://www.elpalaciodehierro.com/bose-audifonos-inalambricos-bluetooth-ultra-open-earbuds-sunset-iridescent-44589580.html"
-    ]
-  },
-  "882963-2200": {
-    "model": "Smart Ultra Soundbar - biely",
-    "ean": "0017817848275",
-    "sourceUrls": [
-      "https://www.gaplasa.com/bose/paginas/listaprecios-bose.pdf",
-      "https://www.m79.lv/p/products/120313/Skanu%2Bjoslu%2Bskalruni/Bose/882963-2200"
-    ]
-  },
-  "883848-0010": {
-    "model": "883848-0010",
-    "ean": "0017817848848",
-    "sourceUrls": [
-      "https://www.elgiganten.dk/product/tv-lyd-smart-home/hojtalere-hi-fi/hojttalere/bose-soundlink-max-bluetooth-hojtaler-sort/795871",
-      "https://www.smartech.ee/en/products/miscellaneous/bose-soundlink-max-portable-wireless-speaker-12/"
-    ]
-  },
-  "883848-0020": {
-    "model": "883848-0020",
-    "ean": "0017817848831",
-    "sourceUrls": [
-      "https://supertech.pl/szukaj.html?q=883848-0020",
-      "https://www.net-s.pl/producent-lista/bose-4700"
-    ]
-  },
-  "884104-0010": {
-    "model": "Ramenný popruh Bose pre SoundLink Max, Black",
-    "ean": "0017817848855",
-    "sourceUrls": [
-      "https://www.smarty.cz/Bose-barevny-pasek-pres-rameno-pro-Soundlink-Max-cerny-4p176540",
-      "https://dcs.dk/da/p/1002667432"
-    ]
-  },
-  "884104-0020": {
-    "model": "Ramenný popruh Bose pre SoundLink Max, Blue Dusk",
-    "ean": "0017817848862",
-    "sourceUrls": [
-      "https://www.bhphotovideo.com/c/product/1931743-REG/bose_884104_0020_soundlink_max_rope_carrying.html/overview",
-      "https://hinta.fi/4975506/bose-soundlink-max-rope-carrying-strap/tuotetiedot"
-    ]
-  },
-  "884367-0100": {
-    "model": "884367-0100",
-    "ean": "0017817848961",
-    "sourceUrls": [
-      "https://www.axro.com/audio-video/bose/bose-kopfhoerer-quietcomfort-884367-0100-schwarz/bosqcbk",
-      "https://www.elgiganten.se/product/tv-ljud-smart-hem/horlurar-tillbehor/horlurar/bose-quietcomfort-tradlosa-around-ear-horlurar-svart/654216"
-    ]
-  },
-  "884367-0200": {
-    "model": "884367-0200",
-    "ean": "0017817848985",
-    "sourceUrls": [
-      "https://www.axro.com/en/bose/",
-      "https://www.smartech.ee/en/products/miscellaneous/bose-quietcomfort-headset-wired--wireless-head-band-musiceveryday-bluetooth-white-0/"
-    ]
-  },
-  "884367-0900": {
-    "model": "884367-0900",
-    "ean": "0017817849791",
-    "sourceUrls": [
-      "https://www.axro.com/en/audio-video/bose/bose-headphones-quietcomfort-sc-884367-0900-black/bosqcscbk",
-      "https://shop.media-reich.de/Datenblatt/160074_standardPdfDatasheet.pdf"
-    ]
-  },
-  "887612-0160": {
-    "model": "887612-0160",
-    "ean": "0017817866309",
-    "sourceUrls": [
-      "https://www.abt.com/Bose-SoundLink-Flex-Portable-Bluetooth-Speaker-2nd-Gen-in-Rosewood-Mauve-8876120160/p/247474.html",
-      "https://prijsalerts.nl/beeld-geluid/speakers-soundbars/bluetooth-draagbare-speakers/soundlink-flex-2-bluetooth-speaker-rosewood-mauve"
-    ]
-  },
-  "887612-0200": {
-    "model": "887612-0200",
-    "ean": "0017817852487",
-    "sourceUrls": [
-      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/hoyttalere/bose-soundlink-flex-ii-barbar-bluetooth-hoyttaler-blue-dusk/827688",
-      "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
-    ]
-  },
-  "887612-0800": {
-    "model": "887612-0800",
-    "ean": "0017817859981",
-    "sourceUrls": [
-      "https://www.bhphotovideo.com/c/product/1931756-REG/bose_887612_0800_soundlink_flex_portable_bluetooth.html",
-      "https://www.bol.com/be/nl/p/bose-soundlink-flex-feestluidspreker-grijs/9300000286477944/"
-    ]
-  },
-  "888507-0120": {
-    "model": "888507-0120",
-    "ean": "0017817867016",
-    "sourceUrls": [
-      "https://www.argos.co.uk/product/9648597",
-      "https://www.bol.com/be/nl/p/quietcomfort-earbuds-rosewood-mauve/9300000330938507/"
-    ]
-  },
-  "888507-0300": {
-    "model": "QuietComfort Earbuds - Chilled Lilac",
-    "ean": "0017817853200",
-    "sourceUrls": [
-      "https://www.axro.com/audio-video/bose/bose-kopfhoerer-quietcomfort-earbuds-888507-0300-lila/bosqceli",
-      "https://www.topbiz.fr/micro-casques/379661-bose-888507-0300-casque-sans-fil-ec-0017817853200.html"
-    ]
-  },
-  "888507-0400": {
-    "model": "888507-0400",
-    "ean": "0017817860482",
-    "sourceUrls": [
-      "https://www.argos.co.uk/product/7753817",
-      "https://www.fnac.qa/english/bose-quietcomfort-earbuds-twilight-blue.html"
-    ]
-  },
-  "888926-0010": {
-    "model": "Black/Carbon Blue",
-    "ean": "0017817853347",
-    "sourceUrls": [
-      "https://www.bestbuy.com/product/bose-rope-handle-for-soundlink-max-black-carbon-blue/J7C5V6TQL5",
-      "https://www.dell.com/en-us/shop/bose-soundlink-max-rope-handle-black-carbon-blue/apd/ad030886/audio"
-    ]
-  },
-  "888926-0020": {
-    "model": "Black/Chilled Lilac",
-    "ean": "0017817853330",
-    "sourceUrls": [
-      "https://www.bestbuy.com/product/bose-rope-handle-for-soundlink-max-black-chilled-lilac/J7C5V6TQL3",
-      "https://www.harveynorman.com.au/bose-soundlink-max-rope-handle-black-chilled-lilac.html"
-    ]
-  },
-  "888926-0030": {
-    "model": "Blue Dusk/Apricot",
-    "ean": "0017817853316",
-    "sourceUrls": [
-      "https://www.bestbuy.com/product/bose-rope-handle-for-soundlink-max-blue-dusk-apricot/J7C5V6TQGH",
-      "https://www.komplett.no/product/1308768/tv-lyd-bilde/hoeyttalere-hi-fi/veggfeste-tilbehoer-lyd/bose-soundlink-max-tau-haandtak-blaa-skumringapricot"
-    ]
-  },
-  "888926-0040": {
-    "model": "Blue Dusk/Hyper Citron",
-    "ean": "0017817853323",
-    "sourceUrls": [
-      "https://www.bestbuy.com/product/bose-rope-handle-for-soundlink-max-blue-dusk-hyper-citron/J7C5V6TQGF",
-      "https://www.bhphotovideo.com/c/product/1827552-REG/bose_888926_0040_soundlink_max_rope_handle.html"
-    ]
-  },
-  "890101-0100": {
-    "model": "890101-0100",
-    "ean": "0017817859585",
-    "sourceUrls": [
-      "https://www.axro.com/es/bose/",
-      "https://www.smartech.ee/lt/products/dadi/bosequietcomfortultra2ndgenczarne-kum/?cc=lv"
-    ]
-  },
-  "890101-0200": {
-    "model": "QuietComfort Ultra 2. gen., biele",
-    "ean": "0017817859561",
-    "sourceUrls": [
-      "https://www.axro.com/it/bose/",
-      "https://images.aafes.com/wsICSImage/clsShowImage.asmx/ShowImage?id=997117l1.pdf&type=Pog"
-    ]
-  },
-  "890101-0300": {
-    "model": "890101-0300",
-    "ean": "0017817859592",
-    "sourceUrls": [
-      "https://www.axro.com/en/bose/",
-      "https://usmb.channelonline.com/andrew/consumer/Products/overview/M026348054"
-    ]
-  },
-  "890101-0400": {
-    "model": "QuietComfort Ultra 2. gen., zlaté",
-    "ean": "0017817859516",
-    "sourceUrls": [
-      "https://www.axro.com/es/detail/5386424629609a2349d812702c85e8ae",
-      "https://www.pc21.fr/fiche/890101-0400-bose-quietcomfort-ultra-2nd-gen-ecouteurs-avec-micro-circum-aural-bluetooth-filaire-sans-fil-suppresseur-de-bruit-actif-jack-3-5mm-or-du-dese-i5998987.html"
-    ]
-  },
-  "892079-2100": {
-    "model": "892079-2100",
-    "ean": "0017817856164",
-    "sourceUrls": [
-      "https://be.ingrammicro.com/site/productdetail?id=A001-000000000006316950",
-      "https://www.pc21.fr/fiche/892079-2100-soundbar-speaker-black-i5857446.html"
-    ]
-  },
-  "892399-0010": {
-    "model": "892399-0010",
-    "ean": "0017817856560",
-    "sourceUrls": [
-      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/hoyttalere/bose-soundlink-home-barbar-hoyttaler-solv/946454",
-      "https://hinta.fi/5546815/bose-892399-0010/tuotetiedot"
-    ]
-  },
-  "892399-0020": {
-    "model": "892399-0020",
-    "ean": "0017817856553",
-    "sourceUrls": [
-      "https://www.elgiganten.dk/product/tv-lyd-smart-home/hojtalere-hi-fi/hojtalere/bose-soundlink-home-transportabel-hojttaler-kolig-gra/946453",
-      "https://www.bol.com/nl/nl/p/bose-soundlink-home-bluetooth-speaker-cool-gray/9300000242383759/"
-    ]
-  },
-  "892399-0030": {
-    "model": "Warm Wood",
-    "ean": "0017817857550",
-    "sourceUrls": [
-      "https://hinta.fi/5541732/bose-892399-0030/tuotetiedot",
-      "https://www.octo24.com/en/Bose-892399-0030-Bose-SoundLink-Home-Bluetooth-R%3A%3A859268.html"
+  "MR12": {
+    "model": "MR12",
+    "ean": "4033653071109",
+    "sourceUrls": [
+      "https://www.orionestore.it/en/--70805/?file=product_pdf.html",
+      "https://www.ronis.hr/hr/digitalni-mikser-midas-mr12"
     ]
   },
   "892930-2100": {
@@ -559,20 +337,20 @@
       "https://www.elgiganten.dk/product/tv-lyd-smart-home/hojtalere-hi-fi/soundbar/bose-lifestyle-ultra-soundbar-hvid/1097125"
     ]
   },
+  "892079-2100": {
+    "model": "892079-2100",
+    "ean": "0017817856164",
+    "sourceUrls": [
+      "https://be.ingrammicro.com/site/productdetail?id=A001-000000000006316950",
+      "https://www.pc21.fr/fiche/892079-2100-soundbar-speaker-black-i5857446.html"
+    ]
+  },
   "893955-2100": {
     "model": "893955-2100",
     "ean": "0017817858519",
     "sourceUrls": [
       "https://www.elgiganten.se/product/tv-ljud-smart-hem/hogtalare-hifi/subwoofer/bose-lifestyle-ultra-tradlos-subwoofer-svart/1097123",
       "https://vivestien21.com/catalogo/altavoces/baffles-bose-ultra-subwoofer"
-    ]
-  },
-  "893955-2200": {
-    "model": "893955-2200",
-    "ean": "0017817858557",
-    "sourceUrls": [
-      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/subwoofer/bose-lifestyle-ultra-tradlos-subwoofer-hvit/1097126",
-      "https://www.hifi.lu/en/p/32050010-bose-subwoofer-lifestyle-ultra-white"
     ]
   },
   "894001-2100": {
@@ -615,20 +393,36 @@
       "https://www.elgiganten.se/product/tv-ljud-smart-hem/hogtalare-hifi/hogtalare/bose-soundlink-plus-barbar-hogtalare-citrongul/936044"
     ]
   },
-  "895098-0200": {
-    "model": "895098-0200",
-    "ean": "0017817859219",
+  "883848-0020": {
+    "model": "883848-0020",
+    "ean": "0017817848831",
     "sourceUrls": [
-      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/hoyttalere/bose-soundlink-micro-2nd-gen-barbar-bluetooth-hoyttaler-blue-dusk/946451",
-      "https://www.electronicexpress.com/catalog/571240/bose-slnkmicro2bl-soundlink-micro-portable-bluetooth-speaker-2nd-gen-blue-dusk"
+      "https://supertech.pl/szukaj.html?q=883848-0020",
+      "https://www.net-s.pl/producent-lista/bose-4700"
     ]
   },
-  "895098-0300": {
-    "model": "895098-0300",
-    "ean": "0017817859936",
+  "892399-0010": {
+    "model": "892399-0010",
+    "ean": "0017817856560",
     "sourceUrls": [
-      "https://www.bhphotovideo.com/c/product/1936448-REG/bose_895098_0300_soundlink_micro_bluetooth_speaker.html/overview",
-      "https://www.elpalaciodehierro.com/bose-bocina-portatil-inalambrica-bluetooth-soundlink-micro-sandstone-45171992.html"
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/hoyttalere/bose-soundlink-home-barbar-hoyttaler-solv/946454",
+      "https://hinta.fi/5546815/bose-892399-0010/tuotetiedot"
+    ]
+  },
+  "892399-0020": {
+    "model": "892399-0020",
+    "ean": "0017817856553",
+    "sourceUrls": [
+      "https://www.elgiganten.dk/product/tv-lyd-smart-home/hojtalere-hi-fi/hojtalere/bose-soundlink-home-transportabel-hojttaler-kolig-gra/946453",
+      "https://www.bol.com/nl/nl/p/bose-soundlink-home-bluetooth-speaker-cool-gray/9300000242383759/"
+    ]
+  },
+  "890101-0100": {
+    "model": "890101-0100",
+    "ean": "0017817859585",
+    "sourceUrls": [
+      "https://www.axro.com/es/bose/",
+      "https://www.smartech.ee/lt/products/dadi/bosequietcomfortultra2ndgenczarne-kum/?cc=lv"
     ]
   },
   "895491-0100": {
@@ -639,28 +433,84 @@
       "https://www.bhphotovideo.com/c/product/1993087-REG/bose_895491_0100_quietcomfort_headphones_2nd_gen.html"
     ]
   },
+  "892399-0030": {
+    "model": "Warm Wood",
+    "ean": "0017817857550",
+    "sourceUrls": [
+      "https://hinta.fi/5541732/bose-892399-0030/tuotetiedot",
+      "https://www.octo24.com/en/Bose-892399-0030-Bose-SoundLink-Home-Bluetooth-R%3A%3A859268.html"
+    ]
+  },
+  "888926-0010": {
+    "model": "Black/Carbon Blue",
+    "ean": "0017817853347",
+    "sourceUrls": [
+      "https://www.bestbuy.com/product/bose-rope-handle-for-soundlink-max-black-carbon-blue/J7C5V6TQL5",
+      "https://www.dell.com/en-us/shop/bose-soundlink-max-rope-handle-black-carbon-blue/apd/ad030886/audio"
+    ]
+  },
+  "888926-0020": {
+    "model": "Black/Chilled Lilac",
+    "ean": "0017817853330",
+    "sourceUrls": [
+      "https://www.bestbuy.com/product/bose-rope-handle-for-soundlink-max-black-chilled-lilac/J7C5V6TQL3",
+      "https://www.harveynorman.com.au/bose-soundlink-max-rope-handle-black-chilled-lilac.html"
+    ]
+  },
+  "888926-0030": {
+    "model": "Blue Dusk/Apricot",
+    "ean": "0017817853316",
+    "sourceUrls": [
+      "https://www.bestbuy.com/product/bose-rope-handle-for-soundlink-max-blue-dusk-apricot/J7C5V6TQGH",
+      "https://www.komplett.no/product/1308768/tv-lyd-bilde/hoeyttalere-hi-fi/veggfeste-tilbehoer-lyd/bose-soundlink-max-tau-haandtak-blaa-skumringapricot"
+    ]
+  },
+  "888926-0040": {
+    "model": "Blue Dusk/Hyper Citron",
+    "ean": "0017817853323",
+    "sourceUrls": [
+      "https://www.bestbuy.com/product/bose-rope-handle-for-soundlink-max-blue-dusk-hyper-citron/J7C5V6TQGF",
+      "https://www.bhphotovideo.com/c/product/1827552-REG/bose_888926_0040_soundlink_max_rope_handle.html"
+    ]
+  },
+  "884104-0010": {
+    "model": "Ramenný popruh Bose pre SoundLink Max, Black",
+    "ean": "0017817848855",
+    "sourceUrls": [
+      "https://www.smarty.cz/Bose-barevny-pasek-pres-rameno-pro-Soundlink-Max-cerny-4p176540",
+      "https://dcs.dk/da/p/1002667432"
+    ]
+  },
+  "884104-0020": {
+    "model": "Ramenný popruh Bose pre SoundLink Max, Blue Dusk",
+    "ean": "0017817848862",
+    "sourceUrls": [
+      "https://www.bhphotovideo.com/c/product/1931743-REG/bose_884104_0020_soundlink_max_rope_carrying.html/overview",
+      "https://hinta.fi/4975506/bose-soundlink-max-rope-carrying-strap/tuotetiedot"
+    ]
+  },
+  "890101-0200": {
+    "model": "QuietComfort Ultra 2. gen., biele",
+    "ean": "0017817859561",
+    "sourceUrls": [
+      "https://www.axro.com/it/bose/",
+      "https://images.aafes.com/wsICSImage/clsShowImage.asmx/ShowImage?id=997117l1.pdf&type=Pog"
+    ]
+  },
+  "890101-0400": {
+    "model": "QuietComfort Ultra 2. gen., zlaté",
+    "ean": "0017817859516",
+    "sourceUrls": [
+      "https://www.axro.com/es/detail/5386424629609a2349d812702c85e8ae",
+      "https://www.pc21.fr/fiche/890101-0400-bose-quietcomfort-ultra-2nd-gen-ecouteurs-avec-micro-circum-aural-bluetooth-filaire-sans-fil-suppresseur-de-bruit-actif-jack-3-5mm-or-du-dese-i5998987.html"
+    ]
+  },
   "895491-0200": {
     "model": "QuietComfort Headphones (2nd Gen), biele",
     "ean": "0017817859707",
     "sourceUrls": [
       "https://ispot.pl/bose-quietcomfort-headphones-2nd-gen-zadymiony-bialy-bezprzewodowe-sluchawki-nauszne",
       "https://www.abt.com/Bose-QuietComfort-2nd-Gen-Wireless-Noise-Cancelling-Headphones-in-White-8954910200/p/247468.html"
-    ]
-  },
-  "895491-0300": {
-    "model": "895491-0300",
-    "ean": "0017817859745",
-    "sourceUrls": [
-      "https://www.abt.com/Bose-QuietComfort-2nd-Gen-Wireless-Noise-Cancelling-Headphones-in-Eucalyptus-Green-8954910300/p/247473.html",
-      "https://www.brandsmartusa.com/products/audio-headphones-headphones-wireless-headphones-quietcomfort-headphones-2nd-gen-eucalyptus-green?variant=48253312762114"
-    ]
-  },
-  "895491-0500": {
-    "model": "QuietComfort Headphones (2nd Gen), ružovofialové",
-    "ean": "0017817859738",
-    "sourceUrls": [
-      "https://www.mediamarkt.be/nl/product/_bose-qc-2nd-gen-over-ear-draadloze-hoofdtelefoon-rosewood-mauve-2241666.html",
-      "https://dcs.dk/en/p/1004386559"
     ]
   },
   "896637-0010": {
@@ -687,20 +537,76 @@
       "https://www.happii.dk/Hovedtelefonerheadset2/Bose-QuietComfort-Ultra-Earbuds-Gen-2-Plum/3401412"
     ]
   },
-  "896637-0040": {
-    "model": "896637-0040",
-    "ean": "0017817861212",
+  "895491-0500": {
+    "model": "QuietComfort Headphones (2nd Gen), ružovofialové",
+    "ean": "0017817859738",
     "sourceUrls": [
-      "https://www.electronicexpress.com/catalog/571235/quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-desert-gold",
-      "https://www.kuantokusta.pt/p/12037520/bose-quietcomfort-ultra-earbuds-2a-gen-tws-noise-cancelling-bluetooth-desert-gold"
+      "https://www.mediamarkt.be/nl/product/_bose-qc-2nd-gen-over-ear-draadloze-hoofdtelefoon-rosewood-mauve-2241666.html",
+      "https://dcs.dk/en/p/1004386559"
     ]
   },
-  "896637-0050": {
-    "model": "896637-0050",
-    "ean": "0017817861083",
+  "888507-0300": {
+    "model": "QuietComfort Earbuds - Chilled Lilac",
+    "ean": "0017817853200",
     "sourceUrls": [
-      "https://chipman.pt/auriculares/bose-quietcomfort-ultra-earbuds-2nd-gen-violeta",
-      "https://www.ebay.com/p/27086312246"
+      "https://www.axro.com/audio-video/bose/bose-kopfhoerer-quietcomfort-earbuds-888507-0300-lila/bosqceli",
+      "https://www.topbiz.fr/micro-casques/379661-bose-888507-0300-casque-sans-fil-ec-0017817853200.html"
+    ]
+  },
+  "882963-2200": {
+    "model": "Smart Ultra Soundbar - biely",
+    "ean": "0017817848275",
+    "sourceUrls": [
+      "https://www.gaplasa.com/bose/paginas/listaprecios-bose.pdf",
+      "https://www.m79.lv/p/products/120313/Skanu%2Bjoslu%2Bskalruni/Bose/882963-2200"
+    ]
+  },
+  "024644": {
+    "model": "Model 251, pár, biele",
+    "ean": "0017817263566",
+    "sourceUrls": [
+      "https://www.secel.cz/sites/default/files/obsah/produkt/Audio%20High-end/files/bose_sec_premium_cenik_k_1.3.2018.pdf",
+      "https://www.vandenborre.be/fr/enceinte-haut-parleur/251-wit-paar"
+    ]
+  },
+  "895098-0300": {
+    "model": "895098-0300",
+    "ean": "0017817859936",
+    "sourceUrls": [
+      "https://www.bhphotovideo.com/c/product/1936448-REG/bose_895098_0300_soundlink_micro_bluetooth_speaker.html/overview",
+      "https://www.elpalaciodehierro.com/bose-bocina-portatil-inalambrica-bluetooth-soundlink-micro-sandstone-45171992.html"
+    ]
+  },
+  "887612-0160": {
+    "model": "887612-0160",
+    "ean": "0017817866309",
+    "sourceUrls": [
+      "https://www.abt.com/Bose-SoundLink-Flex-Portable-Bluetooth-Speaker-2nd-Gen-in-Rosewood-Mauve-8876120160/p/247474.html",
+      "https://prijsalerts.nl/beeld-geluid/speakers-soundbars/bluetooth-draagbare-speakers/soundlink-flex-2-bluetooth-speaker-rosewood-mauve"
+    ]
+  },
+  "890101-0300": {
+    "model": "890101-0300",
+    "ean": "0017817859592",
+    "sourceUrls": [
+      "https://www.axro.com/en/bose/",
+      "https://usmb.channelonline.com/andrew/consumer/Products/overview/M026348054"
+    ]
+  },
+  "884367-0200": {
+    "model": "884367-0200",
+    "ean": "0017817848985",
+    "sourceUrls": [
+      "https://www.axro.com/en/bose/",
+      "https://www.smartech.ee/en/products/miscellaneous/bose-quietcomfort-headset-wired--wireless-head-band-musiceveryday-bluetooth-white-0/"
+    ]
+  },
+  "802171-0010": {
+    "model": "802171-0010",
+    "ean": "0017817795647",
+    "sourceUrls": [
+      "https://www.nexuspalma.com/FTP/precios/acustica/Bose.pdf",
+      "https://www.visions.ca/bose-wall-mount-for-sound-bar-black"
     ]
   },
   "897827-0010": {
@@ -727,301 +633,396 @@
       "https://www.visions.ca/bose-897829-0010-lifestyle-ultra-speaker-floor-stand-black-897829-0010"
     ]
   },
-  "B-5": {
-    "model": "B-5",
-    "ean": "4033653080156",
+  "722139-0010": {
+    "model": "722139-0010",
+    "ean": "0017817662581",
     "sourceUrls": [
-      "https://www.madridhifi.com/p/behringer-b-5-microfono/",
-      "https://www.distrinode.co.za/behringer-b-5-studio-microphone"
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/veggfeste-og-gulvstativ-til-hoyttaler/bose-ufs-20-series-ii-universalt-gulvstativ-sort/UFS202BLK",
+      "https://www.hifi.lu/en/p/UFS20B-ufs-20-ii-sol-black-speaker-stand"
     ]
   },
-  "B112D": {
-    "model": "B112D",
-    "ean": "4033653021890",
+  "722140-0010": {
+    "model": "722140-0010",
+    "ean": "0017817662710",
     "sourceUrls": [
-      "https://www.kuantokusta.pt/p/1660842/behringer-eurolive-b112d",
-      "https://rozetka.com.ua/ua/behringer-be-0029/p560961585/"
+      "https://microconcept.com/bose-uts-20-serie-ii-noir.html",
+      "https://www.cepro.com/wp-content/uploads/2019/09/BCS_Catalog_FY19-2.pdf"
     ]
   },
-  "B115D": {
-    "model": "B115D",
-    "ean": "4033653021852",
+  "809281-2100": {
+    "model": "809281-2100",
+    "ean": "0017817789431",
     "sourceUrls": [
-      "https://www.madridhifi.com/p/behringer-b115d/",
-      "https://www.kuantokusta.pt/p/1660708/behringer-b115d",
-      "https://www.numemusic.es/013478-altavoz-de-pa-amplificado-behringer-b115d-eurolive"
+      "https://www.pc21.fr/fiche/809281-2100-bose-surround-speakers-haut-parleurs-de-canaux-surround-sans-fil-noir-bose-i5153026.html",
+      "https://www.bozer.cz/reproduktory-bose/bose-surround-speakers-cerny/"
     ]
   },
-  "B115MP3": {
-    "model": "B115MP3",
-    "ean": "4033653021845",
+  "809281-2200": {
+    "model": "809281-2200",
+    "ean": "0017817789455",
     "sourceUrls": [
-      "https://www.electori-br.jp/products/577.html",
-      "https://www.verkkokauppa.com/en/product/542366/Behringer-EuroLive-B115MP3-2-way-active-speaker"
+      "https://www.m79.lv/p/products/125453/Skalruni/Bose/809281-2200",
+      "https://www.elgiganten.dk/product/tv-lyd-smart-home/hojtalere-hi-fi/hojttalere/bose-surround-hojtalere-hvid/10407"
     ]
   },
-  "B215D": {
-    "model": "B215D",
-    "ean": "4033653062589",
+  "720876-0020": {
+    "model": "720876-0020",
+    "ean": "0017817660990",
     "sourceUrls": [
-      "https://www.madridhifi.com/p/behringer-b215d/",
-      "https://www.ox.ee/en/product/2662365",
-      "https://www.midi.pl/kolumny-aktywne/9267-behringer-eurolive-b215d-kolumna-aktywna-4033653062589.html"
+      "https://www.elgiganten.se/product/tv-ljud-smart-hem/horlurar-tillbehor/tillbehor-till-horlurar/oronkuddar/bose-quietcomfort-25-qc25-oronkuddar-vit/61822",
+      "https://www.buycott.com/upc/017817660990"
     ]
   },
-  "C-1": {
-    "model": "C-1",
-    "ean": "4033653080187",
+  "772130-0010": {
+    "model": "772130-0010",
+    "ean": "0017817745918",
     "sourceUrls": [
-      "https://guitarcenter.pl/catalog/naglosnienie/mikrofony/mikrofony-pojemnosciowe/behringer-c-1",
-      "https://www.ox.ee/en/product/3054260",
-      "https://www.e.leclerc/fp/behringer-c1-micro-statique-4033653080187"
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/content_pages/corporate/premiums_incentives/pdf/161525_P30_XC_148x210mm_US-28p_enUS-1F_2.pdf",
+      "https://www.ebay.com/p/1773820014"
     ]
   },
-  "C-1U": {
-    "model": "C-1U",
-    "ean": "4033653080293",
+  "834167-0100": {
+    "model": "834167-0100",
+    "ean": "0017817813679",
     "sourceUrls": [
-      "https://rozetka.pl/371195724/p371195724/",
-      "https://www.djshop.pl/behringer-c-1u-usb.html",
-      "https://www.csmegastore.de/i/9560302/behringer-c-1u-usb-kondensatormikrofon"
+      "https://www.elgiganten.se/product/tv-ljud-smart-hem/horlurar-tillbehor/tillbehor-till-horlurar/oronkuddar/bose-noise-cancelling-headphones-700-oronkuddar-svart/268597",
+      "https://www.bhphotovideo.com/c/product/1737462-REG/bose_834167_0100_noise_cancelling_headphones_700.html/accessories"
     ]
   },
-  "C-2": {
-    "model": "C-2",
-    "ean": "4033653080224",
+  "834167-0300": {
+    "model": "834167-0300",
+    "ean": "0017817813662",
     "sourceUrls": [
-      "https://www.electori-br.jp/products/489.html",
-      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+      "https://www.mediamarkt.ch/de/product/_bose-headphones-700-ohrpolster-2263975.html",
+      "https://allegro.pl/oferta/poduszki-do-sluchawek-bose-ear-pads-cushion-kit-do-headphones-700-srebrne-17518935540"
     ]
   },
-  "C-3": {
-    "model": "C-3",
-    "ean": "4033653080255",
+  "881046-0700": {
+    "model": "881046-0700",
+    "ean": "0017817857529",
     "sourceUrls": [
-      "https://www.teclacenter.com.br/microfone-behringer-c-3.html",
-      "https://www.bananamusic.it/stampa/prodotto/86356",
-      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+      "https://hinta.fi/5399205/bose-ultra-open-earbuds/tuotetiedot",
+      "https://www.bestbuy.com/product/bose-ultra-open-ear-true-wireless-open-earbuds-chilled-lilac/J7C5V6T5JX"
     ]
   },
-  "DI4800A": {
-    "model": "DI4800A",
-    "ean": "4033653081412",
+  "887612-0800": {
+    "model": "887612-0800",
+    "ean": "0017817859981",
     "sourceUrls": [
-      "https://www.musictribe.com/en/products/DI4800A",
-      "https://www.net-s.pl/produkt/behringer-di4800a-di-box-aktywny-4-kanalowy-1709432"
+      "https://www.bhphotovideo.com/c/product/1931756-REG/bose_887612_0800_soundlink_flex_portable_bluetooth.html",
+      "https://www.bol.com/be/nl/p/bose-soundlink-flex-feestluidspreker-grijs/9300000286477944/"
     ]
   },
-  "DL151": {
-    "model": "DL151",
-    "ean": "4033653014014",
+  "895491-0300": {
+    "model": "895491-0300",
+    "ean": "0017817859745",
     "sourceUrls": [
-      "https://www.polar.uk.com/midas-dl151-24-input-stage-box-w-mic-preamps-0606-abo",
-      "https://www.zeedoshop.ro/produs_midas-dl151_51944_0"
+      "https://www.abt.com/Bose-QuietComfort-2nd-Gen-Wireless-Noise-Cancelling-Headphones-in-Eucalyptus-Green-8954910300/p/247473.html",
+      "https://www.brandsmartusa.com/products/audio-headphones-headphones-wireless-headphones-quietcomfort-headphones-2nd-gen-eucalyptus-green?variant=48253312762114"
     ]
   },
-  "DN9610": {
-    "model": "DN9610",
-    "ean": "4033653150248",
+  "887612-0200": {
+    "model": "887612-0200",
+    "ean": "0017817852487",
     "sourceUrls": [
-      "https://www.stageline.no/klark-teknik-dn9610-aes50-repeater",
-      "https://www.muzikant.cz/klark-teknik-dn-9610-132595"
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/hoyttalere/bose-soundlink-flex-ii-barbar-bluetooth-hoyttaler-blue-dusk/827688",
+      "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
     ]
   },
-  "EQP-KT": {
-    "model": "EQP-KT",
-    "ean": "4033653080613",
+  "883848-0010": {
+    "model": "883848-0010",
+    "ean": "0017817848848",
     "sourceUrls": [
-      "https://www.rfelettronica.com/prodotto/klark-teknik-eqp-kt/",
-      "https://www.siluj.net/klark-teknik/19533-klark-teknik-eqp-kt-ecualizador-valvulas-de-2-bandas",
-      "https://greatecno.com/es/imagen-y-sonido/651604-klark-teknik-eqp-kt-4033653080613.html"
+      "https://www.elgiganten.dk/product/tv-lyd-smart-home/hojtalere-hi-fi/hojttalere/bose-soundlink-max-bluetooth-hojtaler-sort/795871",
+      "https://www.smartech.ee/en/products/miscellaneous/bose-soundlink-max-portable-wireless-speaker-12/"
     ]
   },
-  "GI100": {
-    "model": "GI100",
-    "ean": "4033653050227",
+  "884367-0100": {
+    "model": "884367-0100",
+    "ean": "0017817848961",
     "sourceUrls": [
-      "https://www.kuantokusta.pt/p/1660901/behringer-gi100",
-      "https://hinta.fi/820834/behringer-gi100/tuotetiedot",
-      "https://www.numemusic.es/318069-di-caja-de-inyeccin-behringer-gi100-ultra-g"
+      "https://www.axro.com/audio-video/bose/bose-kopfhoerer-quietcomfort-884367-0100-schwarz/bosqcbk",
+      "https://www.elgiganten.se/product/tv-ljud-smart-hem/horlurar-tillbehor/horlurar/bose-quietcomfort-tradlosa-around-ear-horlurar-svart/654216"
     ]
   },
-  "LIR-2": {
-    "model": "LIR-2",
-    "ean": "0698596028364",
+  "896637-0040": {
+    "model": "896637-0040",
+    "ean": "0017817861212",
     "sourceUrls": [
-      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf",
-      "https://www.homecinesolutions.fr/p/26396-meze-audio-liric-2e-generation"
+      "https://www.electronicexpress.com/catalog/571235/quietcomfort-ultra-2nd-gen-true-wireless-noise-cancelling-in-ear-earbuds-desert-gold",
+      "https://www.kuantokusta.pt/p/12037520/bose-quietcomfort-ultra-earbuds-2a-gen-tws-noise-cancelling-bluetooth-desert-gold"
     ]
   },
-  "M-105A": {
-    "model": "M-105A",
-    "ean": "0698596028371",
+  "888507-0120": {
+    "model": "888507-0120",
+    "ean": "0017817867016",
     "sourceUrls": [
-      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf",
-      "https://www.richersounds.com/meze-105-aer-dark-walnut/"
+      "https://www.argos.co.uk/product/9648597",
+      "https://www.bol.com/be/nl/p/quietcomfort-earbuds-rosewood-mauve/9300000330938507/"
     ]
   },
-  "M-105S": {
-    "model": "M-105S",
-    "ean": "0698596028715",
+  "888507-0400": {
+    "model": "888507-0400",
+    "ean": "0017817860482",
     "sourceUrls": [
-      "https://bloomaudio.com/collections/headphones/products/meze-105-silva",
-      "https://simex.fi/fi/product/meze-audio-105-silva-avoimet-sankakuulokkeet/M-105S",
-      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hodetelefoner-og-tilbehor/hodetelefoner/meze-105-silva-hodetelefoner/952349"
+      "https://www.argos.co.uk/product/7753817",
+      "https://www.fnac.qa/english/bose-quietcomfort-earbuds-twilight-blue.html"
     ]
   },
-  "M-ARTA": {
-    "model": "M-ARTA",
-    "ean": "0698596028906",
+  "881046-0900": {
+    "model": "881046-0900",
+    "ean": "0017817857512",
     "sourceUrls": [
-      "https://www.evoluzionehifi.it/amplificatori/index.php?product_id=22678&route=product%2Fproduct",
-      "https://simex.fi/fi/product/meze-audio-arta-avoimet-kuulokkeet-musta/M-ARTA",
-      "https://lbs.dk/produkt/meze-audio-arta/"
+      "https://www.conrad.hu/hu/p/bose-open-earbuds-ultra-in-ear-fejhallgato-vezetek-nelkuli-bluetooth-stereo-sunset-iridescent-toltotok-hangero-szabal-3448764.html",
+      "https://www.elpalaciodehierro.com/bose-audifonos-inalambricos-bluetooth-ultra-open-earbuds-sunset-iridescent-44589580.html"
     ]
   },
-  "M99C-V2": {
-    "model": "M99C-V2",
-    "ean": "0698596028876",
+  "895098-0200": {
+    "model": "895098-0200",
+    "ean": "0017817859219",
     "sourceUrls": [
-      "https://www.supersonido.es/media/productos/57826/docs/documento-27535.pdf",
-      "https://www.av.com/Headphones/Meze-99-Classic-2nd-Generation-Over-Ear-Headphones-Walnut-Gold/7MVJ",
-      "https://www.sofmap.com/product_detail.aspx?sku=101891614"
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/hoyttalere/bose-soundlink-micro-2nd-gen-barbar-bluetooth-hoyttaler-blue-dusk/946451",
+      "https://www.electronicexpress.com/catalog/571240/bose-slnkmicro2bl-soundlink-micro-portable-bluetooth-speaker-2nd-gen-blue-dusk"
     ]
   },
-  "MR12": {
-    "model": "MR12",
-    "ean": "4033653071109",
+  "896637-0050": {
+    "model": "896637-0050",
+    "ean": "0017817861083",
     "sourceUrls": [
-      "https://www.orionestore.it/en/--70805/?file=product_pdf.html",
-      "https://www.ronis.hr/hr/digitalni-mikser-midas-mr12"
+      "https://chipman.pt/auriculares/bose-quietcomfort-ultra-earbuds-2nd-gen-violeta",
+      "https://www.ebay.com/p/27086312246"
     ]
   },
-  "MX400": {
-    "model": "MX400",
-    "ean": "4033653020633",
+  "722139-0020": {
+    "model": "722139-0020",
+    "ean": "0017817662604",
     "sourceUrls": [
-      "https://www.madridhifi.com/p/behringer-mx400/",
-      "https://audiopatent.eu/pl/products/behringer-mx400-mikser-liniowy-6097",
-      "https://www.bananamusic.it/behringer-mx400-micromix-bk.html",
-      "https://hinta.fi/1133237/behringer-mx400/tuotetiedot"
+      "https://www.gaplasa.com/bose/paginas/listaprecios-bose.pdf",
+      "https://www.morele.net/kolumna-bose-bose-ufs-20-ii-floor-steel-baltas-2-leg-s-965-mm-14253974/"
     ]
   },
-  "PMP1680S": {
-    "model": "PMP1680S",
-    "ean": "4033653021258",
+  "893955-2200": {
+    "model": "893955-2200",
+    "ean": "0017817858557",
     "sourceUrls": [
-      "https://rozetka.pl/595750375/p595750375/",
-      "https://guitarcenter.pl/catalog/naglosnienie/mixery/mixery-analogowe/behringer-pmp1680s",
-      "https://woodbrass.de/products/behringer-europower-pmp1680s-86632"
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hoyttalere-og-hi-fi/subwoofer/bose-lifestyle-ultra-tradlos-subwoofer-hvit/1097126",
+      "https://www.hifi.lu/en/p/32050010-bose-subwoofer-lifestyle-ultra-white"
     ]
   },
-  "POET-SC": {
-    "model": "POET-SC",
-    "ean": "0698596028593",
+  "884367-0900": {
+    "model": "884367-0900",
+    "ean": "0017817849791",
     "sourceUrls": [
-      "https://digistore.ch/en/hi-fi-open-helmets/15515-meze-audio-poet-silver-copper-0698596028593.html",
-      "https://store.shopping.yahoo.co.jp/kanjitsudirect/0698596028593.html"
+      "https://www.axro.com/en/audio-video/bose/bose-headphones-quietcomfort-sc-884367-0900-black/bosqcscbk",
+      "https://shop.media-reich.de/Datenblatt/160074_standardPdfDatasheet.pdf"
     ]
   },
-  "QX1222USB": {
-    "model": "QX1222USB",
-    "ean": "4033653013123",
+  "881046-0040": {
+    "model": "881046-0040",
+    "ean": "0017817854733",
     "sourceUrls": [
-      "https://www.musicacenter.com.br/audio/mesas-de-som/mesa-de-som-behringer-xenyx-qx1222-usb-mixer",
-      "https://www.kuantokusta.pt/p/1661180/behringer-xenyx-qx1222usb"
+      "https://www.harveynorman.com.au/bose-ultra-open-earbuds-diamond.html",
+      "https://www.visions.ca/bose-ultra-open-earbuds-diamond-881046-0040"
     ]
   },
-  "QX1832USB": {
-    "model": "QX1832USB",
-    "ean": "4033653013116",
+  "362538-0010": {
+    "model": "362538-0010",
+    "ean": "0017817607247",
     "sourceUrls": [
-      "https://www.musicacenter.com.br/audio/mesas-de-som/mesa-de-som-behringer-18-canais-qx1832usb",
-      "https://www.watanabe-mi.jp/brand/wp-content/uploads/2020/06/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8202006_WEB.pdf"
+      "https://www.bol.com/nl/nl/p/bose-quietcomfort-20-stayhear-oordopjes-small-2-paar/9200000035776538/",
+      "https://www.mediamarkt.ch/de/product/_bose-quietcomfort-20-stayhear-s-ohreinsatze-2263920.html"
     ]
   },
-  "STR-GC": {
-    "model": "STR-GC",
-    "ean": "0698596028722",
+  "362538-0030": {
+    "model": "362538-0030",
+    "ean": "0017817607261",
     "sourceUrls": [
-      "https://cobra.fr/cdn/shop/files/FICHE_PRODUIT_MEZE_STRADA.pdf?v=9591585108431087227",
-      "https://www.fnac.com/Casque-arceau-circum-aural-filaire-Meze-audio-Strada-Vert-et-Cuivre/a22560709/w-4",
-      "https://lbs.dk/produkt/meze-strada/"
+      "https://www.adorama.com/bose-stayhear-replacement-silicone-tips-quietcomfort-20-20i-large/p/bo3625380030",
+      "https://www.global.ubuy.com/product/242MJBTI-bose-stayhear-tips-large-2-pairs"
     ]
   },
-  "TS-MR1640": {
-    "model": "TS-MR1640",
-    "ean": "0012562672083",
+  "760858-0010": {
+    "model": "760858-0010",
+    "ean": "0017817734714",
     "sourceUrls": [
-      "https://ifceuropa.com/files/tarifas/archivos/tarifa-pioneer-marine-sep-25-9.pdf",
-      "https://www.csmegastore.de/i/6442884/ts-mr1640-car-speaker-2-way-160-w",
-      "https://www.infotec.no/pioneer-ts-mr1640-car-speaker-2-way/cat-p/c/p1001248127"
+      "https://www.bol.com/nl/nl/p/bose-quietcomfort-35-headphones-ear-cushion-kit-black/9300000020986639/",
+      "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
     ]
   },
-  "TS-MR2040": {
-    "model": "TS-MR2040",
-    "ean": "0012562672106",
+  "760858-0020": {
+    "model": "760858-0020",
+    "ean": "0017817734707",
     "sourceUrls": [
-      "https://ifceuropa.com/files/tarifas/archivos/tarifa-pioneer-marine-sep-25-9.pdf",
-      "https://www.mediamarkt.de/de/product/_pioneer-ts-mr-2040-autolautsprecher-passiv-174873507.html",
-      "https://www.ars24.com/en/pioneer-ts-mr2040-marine-speaker-20cm-coaxial"
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/hodetelefoner-og-tilbehor/tilbehor-til-hodetelefoner/oreputer/bose-quietcomfort-35-oreputesett-til-hodetelefoner-solv/61827",
+      "https://www.morele.net/bose-ear-cushion-kit-pair-qc35-quitecomfort-35-silver-ww-15558043/"
     ]
   },
-  "UCA222": {
-    "model": "UCA222",
-    "ean": "4033653030618",
+  "851220-0010": {
+    "model": "851220-0010",
+    "ean": "0017817819213",
     "sourceUrls": [
-      "https://www.bol.com/nl/nl/p/behringer-uca222-aanvullende-muziekapparatuur/9200000085225768/",
-      "https://www.photopoint.ee/en/audio/5654261-audio-interface-behringer-uca222"
+      "https://www.abt.com/Bose-Bass-Module-Connection-Cable-8512200010/p/151579.html",
+      "https://device.report/m/ca79b16442751c0e55973c2a1036cf4b2c09e94a29bd9e72b477c8d93eff2ded.pdf"
     ]
   },
-  "UM2": {
-    "model": "UM2",
-    "ean": "4033653170888",
+  "871761-0111": {
+    "model": "871761-0111",
+    "ean": "0017817839037",
     "sourceUrls": [
-      "https://www.85cento.it/en/behringer-um2-u-phoria-audio-interface-2x2-usb-with-xenyx-microphone-preamp/",
-      "https://muzyczny.fant.swiebodzin.pl/behringer-um2-u-phoria-interfejs-kartapdf-2061.html"
+      "https://global.channelonline.com/andrew/consumer/Products/overview/M026347107",
+      "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
     ]
   },
-  "X1204USB": {
-    "model": "X1204USB",
-    "ean": "4033653021166",
+  "871761-0211": {
+    "model": "871761-0211",
+    "ean": "0017817839020",
     "sourceUrls": [
-      "https://www.madridhifi.com/p/behringer-xenyx-x1204usb/",
-      "https://www.rozetka.com.ua/ua/behringer-4033653021166/p611136074/"
+      "https://www.pc21.fr/fiche/871761-0211-qc45-kit-ear-cushion-scrim-wht--i5429829.html",
+      "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
     ]
   },
-  "X1622USB": {
-    "model": "X1622USB",
-    "ean": "4033653021180",
+  "880413-0110": {
+    "model": "880413-0110",
+    "ean": "0017817846134",
     "sourceUrls": [
-      "https://www.carrefour.es/behringer-xenyx-x1622usb-mesa-analogica/4033653021180/p",
-      "https://www.prodj.com/products/behringer-xenyx-x1622usb"
+      "https://www.mediamarkt.ch/de/product/_bose-quietcomfort-ultra-ohrpolster-2263987.html",
+      "https://allegro.pl/oferta/poduszki-do-sluchawek-bose-cushion-kit-do-quietcomfort-ultra-czarne-18100543206"
     ]
   },
-  "X32": {
-    "model": "X32",
-    "ean": "4033653012683",
+  "880413-0120": {
+    "model": "880413-0120",
+    "ean": "0017817846165",
     "sourceUrls": [
-      "https://www.siluj.net/behringer/19583-behringer-x32-mezclador-para-directo.html",
-      "https://www.orionestore.it/it/mixer-digitale-behringer-x32-32-canali-con-usb-multicanale/"
+      "https://www.dcs.dk/en/p/1002657363",
+      "https://www.morele.net/bose-poduszki-do-sluchawek-bose-cushion-kit-do-quietcomfort-ultra-biale-15859333/"
     ]
   },
-  "XM1800S": {
-    "model": "XM1800S",
-    "ean": "4033653080262",
+  "783342-0300": {
+    "model": "783342-0300",
+    "ean": "0017817768412",
     "sourceUrls": [
-      "https://www.rapidonline.com/behringer-ultravoice-xm1800s-35-4220",
-      "https://techpack.com.pl/behringer-xm1800s",
-      "https://watanabe-mi.jp/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8201910_HP.pdf"
+      "https://www.axro.com/en/bose/",
+      "https://www.topocentras.lt/garso-technika/koloneles/kolonele-bose-soundlink-micro-bluetooth-stone-blue.html"
     ]
   },
-  "XR12": {
-    "model": "XR12",
-    "ean": "4033653070416",
+  "783342-0400": {
+    "model": "783342-0400",
+    "ean": "0017817836111",
     "sourceUrls": [
-      "https://hurtowniamuzyczna.pl/offer/86/22739/behringer-x-air-xr12.html",
-      "https://hinta.fi/1677370/behringer-xr12/tuotetiedot"
+      "https://www.axro.com/it/detail/019ed9db427673e6be7523fcc50ac1bf",
+      "https://www.pc21.fr/fiche/783342-0400-soundlink-micro-white-i5155376.html"
+    ]
+  },
+  "834062-0200": {
+    "model": "834062-0200",
+    "ean": "0017817806046",
+    "sourceUrls": [
+      "https://www.mediamarkt.de/de/product/_bose-lenses-2561051.html",
+      "https://www.gigantti.fi/product/terveys-ja-hyvinvointi/asusteet/aurinkolasit/bose-frames-alto-vaihtolinssit-mirrored-silver/31924"
+    ]
+  },
+  "855972-0100": {
+    "model": "855972-0100",
+    "ean": "0017817824453",
+    "sourceUrls": [
+      "https://www.mediamarkt.de/de/product/_bose-frames-modell-soprano-2688434.html",
+      "https://www.iwant.cz/BOSE-Lenses-Soprano-sklicka-do-bryli-fialova-p105988"
+    ]
+  },
+  "855979-0300": {
+    "model": "855979-0300",
+    "ean": "0017817824460",
+    "sourceUrls": [
+      "https://www.elkjop.no/product/personlig-pleie-skjonnhet-og-velvare/motetilbehor/solbriller/bose-brilleglass-i-tenor-stil-mirrored-silver/206403",
+      "https://www.krefel.be/fr/p/33003600-des-verres-tenor-argent"
+    ]
+  },
+  "855584-0500": {
+    "model": "855584-0500",
+    "ean": "0017817822312",
+    "sourceUrls": [
+      "https://www.elgiganten.se/product/personvard-halsa-skonhet/mode-accessoarer/solglasogon/bose-lenses-tempo-style-glas-trail-blue/206397",
+      "https://www.mediamarkt.de/de/product/_bose-frames-modell-tempo-2698334.html"
+    ]
+  },
+  "831246-0060": {
+    "model": "831246-0060",
+    "ean": "0017817804882",
+    "sourceUrls": [
+      "https://www.mediamarkt.ch/de/product/_bose-stayhear-max-l-2263929.html",
+      "https://www.mediamarkt.ch/fr/product/_bose-stayhear-max-l-%C3%A9couteurs-2263929.html"
+    ]
+  },
+  "762817-0020": {
+    "model": "762817-0020",
+    "ean": "0017817735353",
+    "sourceUrls": [
+      "https://www.mediamarkt.ch/it/product/_bose-soundsport-pulse-stayhear-m-copriauricolari-2263963.html"
+    ]
+  },
+  "878857-0100": {
+    "model": "878857-0100",
+    "ean": "0017817844819",
+    "sourceUrls": [
+      "https://www.mediamarkt.ch/fr/product/_bose-quietcomfort-earbuds-ii-alternatif-set-tailles-2263945.html",
+      "https://device.report/bose/878857-0100"
+    ]
+  },
+  "754609-0010": {
+    "model": "754609-0010",
+    "ean": "0017817768610",
+    "sourceUrls": [
+      "https://www.mediamarkt.ch/de/product/_bose-omnijewel-center-channel-kabeladapter-schwarz-2263894.html",
+      "https://nexuspalma.com/FTP/precios/acustica/Bose.pdf"
+    ]
+  },
+  "362538-0020": {
+    "model": "362538-0020",
+    "ean": "0017817607254",
+    "sourceUrls": [
+      "https://www.mediamarkt.ch/fr/product/_bose-quietcomfort-20-stayhear-m-%C3%A9couteurs-2263921.html",
+      "https://www.shoppingbag.pk/amazon-bose-medium-stayhear-with-tips/O00Q42N3FN.html"
+    ]
+  },
+  "781445-0020": {
+    "model": "781445-0020",
+    "ean": "0017817758451",
+    "sourceUrls": [
+      "https://www.crutchfield.com/p_018SSFRCCN/Bose-SoundSport-Free-charging-case-Midnight-Blue.html",
+      "https://www.desertcart.in/products/86287254-bose-soundsport-free-wireless-charging-case-midnight-blue"
+    ]
+  },
+  "878857-0200": {
+    "model": "878857-0200",
+    "ean": "0017817844826",
+    "sourceUrls": [
+      "https://www.desertcart.in/products/508639266-bose-alternate-sizing-kit-for-quietcomfort-earbuds-ii-soapstone",
+      "https://global.channelonline.com/andrew/consumer/Products/overview/M026347107"
+    ]
+  },
+  "855582-0400": {
+    "model": "855582-0400",
+    "ean": "0017817822329",
+    "sourceUrls": [
+      "https://www.elgiganten.se/product/personvard-halsa-skonhet/mode-accessoarer/solglasogon/bose-lenses-tempo-style-glas-road-orange/206405",
+      "https://www.mediamarkt.hu/hu/product/_bose-tempo-napszem%C3%BCveglencse-narancss%C3%A1rga-855582-0400-1339174.html"
+    ]
+  }
+,
+  "317302-0100": {
+    "model": "MA12EX",
+    "ean": "0017817500616",
+    "sourceUrls": [
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/loudspeakers/Panaray_MA12EX/Downloads/technical_information/tds_MA12EX_ltr_EN.pdf",
+      "https://www.exertis-connect.fr/fr/773848.html"
+    ]
+  },
+  "317302-0200": {
+    "model": "MA12EX",
+    "ean": "0017817500623",
+    "sourceUrls": [
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/loudspeakers/Panaray_MA12EX/Downloads/technical_information/tds_MA12EX_ltr_EN.pdf",
+      "https://www.pc21.fr/fiche/317302-0200-bose-colonne-interieure-exterieure-panaray-ma12ex-blanc-i4489478.html"
     ]
   }
 }
