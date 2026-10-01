@@ -286,5 +286,39 @@
       "https://www.av.com/Headphones/Meze-99-Classic-2nd-Generation-Over-Ear-Headphones-Walnut-Gold/7MVJ",
       "https://www.sofmap.com/product_detail.aspx?sku=101891614"
     ]
+  },
+  "EQP-KT": {
+    "model": "EQP-KT",
+    "ean": "4033653080613",
+    "sourceUrls": [
+      "https://www.rfelettronica.com/prodotto/klark-teknik-eqp-kt/",
+      "https://www.siluj.net/klark-teknik/19533-klark-teknik-eqp-kt-ecualizador-valvulas-de-2-bandas",
+      "https://greatecno.com/es/imagen-y-sonido/651604-klark-teknik-eqp-kt-4033653080613.html"
+    ]
+  },
+  "76-KT": {
+    "model": "76-KT",
+    "ean": "4033653080606",
+    "sourceUrls": [
+      "https://www.distrinode.co.za/klark-teknik-76-kt-fet-compressor-limiter",
+      "https://www.bhphotovideo.com/c/product/1819717-REG/klark_teknik_76_kt_classic_fet_style_compressor_with.html"
+    ]
+  },
+  "2A-KT": {
+    "model": "2A-KT",
+    "ean": "4033653081368",
+    "sourceUrls": [
+      "https://hinta.fi/4681602/klark-teknik-2a-kt-putkikompressori/tuotetiedot",
+      "https://audiopatent.eu/pl/products/klark-teknik-2a-kt-kompresor-limiter-6759",
+      "https://woodbrass.com/products/klark-teknik-2a-kt-353345"
+    ]
+  },
+  "MR12": {
+    "model": "MR12",
+    "ean": "4033653071109",
+    "sourceUrls": [
+      "https://www.orionestore.it/en/--70805/?file=product_pdf.html",
+      "https://www.ronis.hr/hr/digitalni-mikser-midas-mr12"
+    ]
   }
 }
