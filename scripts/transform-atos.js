@@ -70,6 +70,21 @@ const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
 const IMAGES_PATH = path.join(__dirname, '..', 'data', 'atos-image-urls.json');
 const CDN_IMAGES = fs.existsSync(IMAGES_PATH) ? JSON.parse(fs.readFileSync(IMAGES_PATH, 'utf-8')) : {};
 const IMAGE_PROXY_BASE = (process.env.ATOS_IMAGE_PROXY_BASE || '').replace(/\/+$/, '');
+const EAN_OVERRIDES_PATH = path.join(__dirname, 'heureka-ean-overrides-atos.json');
+const EAN_OVERRIDES = fs.existsSync(EAN_OVERRIDES_PATH)
+  ? JSON.parse(fs.readFileSync(EAN_OVERRIDES_PATH, 'utf8')) : {};
+function isValidEan13(value) {
+  if (!/^\d{13}$/.test(value)) return false;
+  const sum = value.slice(0, 12).split('').reduce((total, digit, index) =>
+    total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
+  return String((10 - (sum % 10)) % 10) === value[12];
+}
+function eanForProduct(code, name, sourceEan) {
+  const override = EAN_OVERRIDES[code];
+  if (override && sourceEan === override.replaceIfSourceEan && name.includes(override.model)
+      && isValidEan13(override.ean)) return override.ean;
+  return sourceEan;
+}
 // Rewrites a raw feed img.asp URL (https://shop.atoselektro.cz/img.asp?attid=NNN or ?stiid=NNN)
 // to go through the Worker proxy's /imgasp route instead — see worker.js. Leaves any other URL
 // shape (or anything when no proxy is configured) unchanged.
@@ -274,6 +289,7 @@ async function main() {
     let p;
     try { p = parseAtosItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
+    p.ean = eanForProduct(p.code, p.name, p.ean);
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
     if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
 
