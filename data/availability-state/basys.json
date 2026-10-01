@@ -1663,11 +1663,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-BQ250",
-      "code": "BASYS-BQ250",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-BR-CW-L",
       "code": "BASYS-BR-CW-L",
       "ean": ""
@@ -1753,11 +1748,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-DEQ2496",
-      "code": "BASYS-DEQ2496",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-DI 10A",
       "code": "BASYS-DI 10A",
       "ean": ""
@@ -1770,11 +1760,6 @@
     {
       "key": "code:BASYS-DI4000 V2",
       "code": "BASYS-DI4000 V2",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-DL155",
-      "code": "BASYS-DL155",
       "ean": ""
     },
     {
@@ -1803,11 +1788,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-DN32-LIVE",
-      "code": "BASYS-DN32-LIVE",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-DN4816-I",
       "code": "BASYS-DN4816-I",
       "ean": ""
@@ -1820,11 +1800,6 @@
     {
       "key": "code:BASYS-DN4888",
       "code": "BASYS-DN4888",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-DN9650",
-      "code": "BASYS-DN9650",
       "ean": ""
     },
     {
@@ -2208,43 +2183,13 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-HPM1100U",
-      "code": "BASYS-HPM1100U",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-HS-MT",
-      "code": "BASYS-HS-MT",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-HS-MT-CH",
-      "code": "BASYS-HS-MT-CH",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-HUB4",
       "code": "BASYS-HUB4",
       "ean": ""
     },
     {
-      "key": "code:BASYS-KT-DANTE64",
-      "code": "BASYS-KT-DANTE64",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-KT-USB",
-      "code": "BASYS-KT-USB",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-L1B",
       "code": "BASYS-L1B",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-L6",
-      "code": "BASYS-L6",
       "ean": ""
     },
     {
@@ -2333,11 +2278,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-LIR-2",
-      "code": "BASYS-LIR-2",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-LIR2-EP",
       "code": "BASYS-LIR2-EP",
       "ean": ""
@@ -2348,16 +2288,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-M-105A",
-      "code": "BASYS-M-105A",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-M-105S",
-      "code": "BASYS-M-105S",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-M-ALB",
       "code": "BASYS-M-ALB",
       "ean": ""
@@ -2365,11 +2295,6 @@
     {
       "key": "code:BASYS-M-ALB-WUA",
       "code": "BASYS-M-ALB-WUA",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-M-ARTA",
-      "code": "BASYS-M-ARTA",
       "ean": ""
     },
     {
@@ -2463,11 +2388,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-M99C-V2",
-      "code": "BASYS-M99C-V2",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-M99C-WS",
       "code": "BASYS-M99C-WS",
       "ean": ""
@@ -2545,11 +2465,6 @@
     {
       "key": "code:BASYS-MEM-XLR",
       "code": "BASYS-MEM-XLR",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-MH363",
-      "code": "BASYS-MH363",
       "ean": ""
     },
     {
@@ -2663,11 +2578,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-OT360",
-      "code": "BASYS-OT360",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-P16-HQ",
       "code": "BASYS-P16-HQ",
       "ean": ""
@@ -2700,21 +2610,6 @@
     {
       "key": "code:BASYS-PODCASTUDIO 2 USB",
       "code": "BASYS-PODCASTUDIO 2 USB",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-POET-SC",
-      "code": "BASYS-POET-SC",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-RD-6-GP",
-      "code": "BASYS-RD-6-GP",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-RD-6-LM",
-      "code": "BASYS-RD-6-LM",
       "ean": ""
     },
     {
@@ -2950,11 +2845,6 @@
     {
       "key": "code:BASYS-SPL 2861",
       "code": "BASYS-SPL 2861",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-STR-GC",
-      "code": "BASYS-STR-GC",
       "ean": ""
     },
     {
@@ -3568,11 +3458,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-TD-3-GP",
-      "code": "BASYS-TD-3-GP",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-TRUE BUDS",
       "code": "BASYS-TRUE BUDS",
       "ean": ""
@@ -3758,11 +3643,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-TS-ME650FS",
-      "code": "BASYS-TS-ME650FS",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-TS-MR1600",
       "code": "BASYS-TS-MR1600",
       "ean": ""
@@ -3903,11 +3783,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-UD-ME100LED",
-      "code": "BASYS-UD-ME100LED",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-ULT-S3.5-2.5",
       "code": "BASYS-ULT-S3.5-2.5",
       "ean": ""
@@ -3973,11 +3848,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-X1",
-      "code": "BASYS-X1",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-X32 COMPACT",
       "code": "BASYS-X32 COMPACT",
       "ean": ""
@@ -4018,9 +3888,64 @@
       "ean": "0012562672106"
     },
     {
+      "key": "ean:0698596028302",
+      "code": "BASYS-HS-MT",
+      "ean": "0698596028302"
+    },
+    {
+      "key": "ean:0698596028364",
+      "code": "BASYS-LIR-2",
+      "ean": "0698596028364"
+    },
+    {
+      "key": "ean:0698596028371",
+      "code": "BASYS-M-105A",
+      "ean": "0698596028371"
+    },
+    {
+      "key": "ean:0698596028562",
+      "code": "BASYS-HS-MT-CH",
+      "ean": "0698596028562"
+    },
+    {
+      "key": "ean:0698596028593",
+      "code": "BASYS-POET-SC",
+      "ean": "0698596028593"
+    },
+    {
+      "key": "ean:0698596028715",
+      "code": "BASYS-M-105S",
+      "ean": "0698596028715"
+    },
+    {
+      "key": "ean:0698596028722",
+      "code": "BASYS-STR-GC",
+      "ean": "0698596028722"
+    },
+    {
+      "key": "ean:0698596028876",
+      "code": "BASYS-M99C-V2",
+      "ean": "0698596028876"
+    },
+    {
+      "key": "ean:0698596028906",
+      "code": "BASYS-M-ARTA",
+      "ean": "0698596028906"
+    },
+    {
       "key": "ean:0713757159715",
       "code": "BASYS-B1200D-PRO",
       "ean": "0713757159715"
+    },
+    {
+      "key": "ean:0884938429696",
+      "code": "BASYS-TS-ME650FS",
+      "ean": "0884938429696"
+    },
+    {
+      "key": "ean:0884938437851",
+      "code": "BASYS-UD-ME100LED",
+      "ean": "0884938437851"
     },
     {
       "key": "ean:17817263566",
@@ -4333,6 +4258,11 @@
       "ean": "4033653011099"
     },
     {
+      "key": "ean:4033653011501",
+      "code": "BASYS-DN9650",
+      "ean": "4033653011501"
+    },
+    {
       "key": "ean:4033653012683",
       "code": "BASYS-X32",
       "ean": "4033653012683"
@@ -4351,6 +4281,11 @@
       "key": "ean:4033653014014",
       "code": "BASYS-DL151",
       "ean": "4033653014014"
+    },
+    {
+      "key": "ean:4033653014052",
+      "code": "BASYS-DL155",
+      "ean": "4033653014052"
     },
     {
       "key": "ean:4033653014342",
@@ -4428,6 +4363,16 @@
       "ean": "4033653022873"
     },
     {
+      "key": "ean:4033653024358",
+      "code": "BASYS-BQ250",
+      "ean": "4033653024358"
+    },
+    {
+      "key": "ean:4033653030243",
+      "code": "BASYS-DEQ2496",
+      "ean": "4033653030243"
+    },
+    {
       "key": "ean:4033653030502",
       "code": "BASYS-UCG102",
       "ean": "4033653030502"
@@ -4446,6 +4391,21 @@
       "key": "ean:4033653032285",
       "code": "BASYS-RD-6-BK",
       "ean": "4033653032285"
+    },
+    {
+      "key": "ean:4033653032353",
+      "code": "BASYS-TD-3-GP",
+      "ean": "4033653032353"
+    },
+    {
+      "key": "ean:4033653041171",
+      "code": "BASYS-RD-6-LM",
+      "ean": "4033653041171"
+    },
+    {
+      "key": "ean:4033653041195",
+      "code": "BASYS-RD-6-GP",
+      "ean": "4033653041195"
     },
     {
       "key": "ean:4033653050227",
@@ -4493,6 +4453,11 @@
       "ean": "4033653070065"
     },
     {
+      "key": "ean:4033653070287",
+      "code": "BASYS-KT-USB",
+      "ean": "4033653070287"
+    },
+    {
       "key": "ean:4033653070362",
       "code": "BASYS-XR16",
       "ean": "4033653070362"
@@ -4521,6 +4486,11 @@
       "key": "ean:4033653071307",
       "code": "BASYS-WING",
       "ean": "4033653071307"
+    },
+    {
+      "key": "ean:4033653071345",
+      "code": "BASYS-DN32-LIVE",
+      "ean": "4033653071345"
     },
     {
       "key": "ean:4033653080156",
@@ -4583,6 +4553,11 @@
       "ean": "4033653080644"
     },
     {
+      "key": "ean:4033653080675",
+      "code": "BASYS-L6",
+      "ean": "4033653080675"
+    },
+    {
       "key": "ean:4033653080798",
       "code": "BASYS-DS2800",
       "ean": "4033653080798"
@@ -4633,9 +4608,19 @@
       "ean": "4033653106429"
     },
     {
+      "key": "ean:4033653120821",
+      "code": "BASYS-HPM1100U",
+      "ean": "4033653120821"
+    },
+    {
       "key": "ean:4033653130240",
       "code": "BASYS-CFM-1",
       "ean": "4033653130240"
+    },
+    {
+      "key": "ean:4033653130349",
+      "code": "BASYS-X1",
+      "ean": "4033653130349"
     },
     {
       "key": "ean:4033653150033",
@@ -4651,6 +4636,21 @@
       "key": "ean:4033653150248",
       "code": "BASYS-DN9610",
       "ean": "4033653150248"
+    },
+    {
+      "key": "ean:4033653150316",
+      "code": "BASYS-KT-DANTE64",
+      "ean": "4033653150316"
+    },
+    {
+      "key": "ean:4033653150477",
+      "code": "BASYS-OT360",
+      "ean": "4033653150477"
+    },
+    {
+      "key": "ean:4033653150507",
+      "code": "BASYS-MH363",
+      "ean": "4033653150507"
     },
     {
       "key": "ean:4033653160261",
@@ -4780,6 +4780,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-BQ250",
+      "code": "BASYS-BQ250",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-C-1",
       "code": "BASYS-C-1",
       "ean": ""
@@ -4815,6 +4820,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-DEQ2496",
+      "code": "BASYS-DEQ2496",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-DI20",
       "code": "BASYS-DI20",
       "ean": ""
@@ -4840,8 +4850,23 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-DL155",
+      "code": "BASYS-DL155",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-DN32-LIVE",
+      "code": "BASYS-DN32-LIVE",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-DN9610",
       "code": "BASYS-DN9610",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-DN9650",
+      "code": "BASYS-DN9650",
       "ean": ""
     },
     {
@@ -4900,6 +4925,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-HPM1100U",
+      "code": "BASYS-HPM1100U",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-HPS3000",
       "code": "BASYS-HPS3000",
       "ean": ""
@@ -4910,6 +4940,16 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-HS-MT",
+      "code": "BASYS-HS-MT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-HS-MT-CH",
+      "code": "BASYS-HS-MT-CH",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-K5",
       "code": "BASYS-K5",
       "ean": ""
@@ -4917,6 +4957,51 @@
     {
       "key": "code:BASYS-K8",
       "code": "BASYS-K8",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-KT-DANTE64",
+      "code": "BASYS-KT-DANTE64",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-KT-USB",
+      "code": "BASYS-KT-USB",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-L6",
+      "code": "BASYS-L6",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-LIR-2",
+      "code": "BASYS-LIR-2",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-M-105A",
+      "code": "BASYS-M-105A",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-M-105S",
+      "code": "BASYS-M-105S",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-M-ARTA",
+      "code": "BASYS-M-ARTA",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-M99C-V2",
+      "code": "BASYS-M99C-V2",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MH363",
+      "code": "BASYS-MH363",
       "ean": ""
     },
     {
@@ -4960,6 +5045,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-OT360",
+      "code": "BASYS-OT360",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-P1",
       "code": "BASYS-P1",
       "ean": ""
@@ -4972,6 +5062,11 @@
     {
       "key": "code:BASYS-PMP1680S",
       "code": "BASYS-PMP1680S",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-POET-SC",
+      "code": "BASYS-POET-SC",
       "ean": ""
     },
     {
@@ -5005,6 +5100,16 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-RD-6-GP",
+      "code": "BASYS-RD-6-GP",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-RD-6-LM",
+      "code": "BASYS-RD-6-LM",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-S32",
       "code": "BASYS-S32",
       "ean": ""
@@ -5020,8 +5125,23 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-STR-GC",
+      "code": "BASYS-STR-GC",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-TD-3-BU",
       "code": "BASYS-TD-3-BU",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TD-3-GP",
+      "code": "BASYS-TD-3-GP",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TS-ME650FS",
+      "code": "BASYS-TS-ME650FS",
       "ean": ""
     },
     {
@@ -5042,6 +5162,11 @@
     {
       "key": "code:BASYS-UCG102",
       "code": "BASYS-UCG102",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-UD-ME100LED",
+      "code": "BASYS-UD-ME100LED",
       "ean": ""
     },
     {
@@ -5072,6 +5197,11 @@
     {
       "key": "code:BASYS-X-ADAT",
       "code": "BASYS-X-ADAT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-X1",
+      "code": "BASYS-X1",
       "ean": ""
     },
     {
