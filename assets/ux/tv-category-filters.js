@@ -42,6 +42,7 @@
   var searchNames = ['Uhlopriečka', 'Technológia displeja', 'Rozlíšenie', 'Obnovovacia frekvencia', 'Operačný systém', 'Značky'];
   var activeFacetSection = null;
   var returnFocusTo = null;
+  var inertedElements = [];
 
   function normalize(text) {
     return String(text || '')
@@ -418,14 +419,33 @@
     filters.appendChild(footer);
   }
 
+  function setBackgroundInertExcept(dialogHost, shouldInert) {
+    if (!shouldInert) {
+      inertedElements.forEach(function (entry) { entry.element.inert = entry.wasInert; });
+      inertedElements = [];
+      return;
+    }
+    inertedElements = [];
+    var node = dialogHost;
+    while (node && node !== body) {
+      var parent = node.parentElement;
+      if (!parent) break;
+      Array.prototype.forEach.call(parent.children, function (sibling) {
+        if (sibling === node) return;
+        inertedElements.push({ element: sibling, wasInert: sibling.inert });
+        sibling.inert = true;
+      });
+      node = parent;
+    }
+  }
+
   function openMobileFilters(button) {
     var filters = getFilters();
     if (!filters) return;
     addDrawerActions();
-    root = document.querySelector('.category-content-wrapper') || root;
     returnFocusTo = button;
     body.classList.add('ps-tv-filter-sheet-open');
-    root.inert = true;
+    setBackgroundInertExcept(document.querySelector('#filters-wrapper') || filterBox, true);
     button.setAttribute('aria-expanded', 'true');
     filters.setAttribute('role', 'dialog');
     filters.setAttribute('aria-modal', 'true');
@@ -436,9 +456,8 @@
 
   function closeMobileFilters(restoreFocus) {
     var filters = getFilters();
-    root = document.querySelector('.category-content-wrapper') || root;
     body.classList.remove('ps-tv-filter-sheet-open');
-    root.inert = false;
+    setBackgroundInertExcept(null, false);
     if (filters) {
       filters.removeAttribute('role');
       filters.removeAttribute('aria-modal');

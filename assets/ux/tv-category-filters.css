@@ -104,6 +104,10 @@ body.in-televizory.ps-tv-category-enhanced .box-filters .filters-unveil-button-w
   display: none !important;
 }
 
+body.in-televizory.ps-tv-category-enhanced .filters-unveil-button-wrapper {
+  display: none !important;
+}
+
 body.in-televizory.ps-tv-category-enhanced #filters {
   display: block !important;
   height: auto !important;
@@ -499,12 +503,16 @@ body.in-televizory.ps-tv-category-enhanced .ps-tv-mobile-filter-button {
     box-shadow: none !important;
   }
 
+  body.in-televizory.ps-tv-category-enhanced:not(.ps-tv-filter-sheet-open) #filters-wrapper {
+    display: none !important;
+  }
+
   body.in-televizory.ps-tv-category-enhanced:not(.ps-tv-filter-sheet-open) .ps-tv-drawer-head,
   body.in-televizory.ps-tv-category-enhanced:not(.ps-tv-filter-sheet-open) .ps-tv-drawer-footer {
     display: none !important;
   }
 
-  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open .box-filters {
+  body.in-televizory.ps-tv-category-enhanced.ps-tv-filter-sheet-open #filters-wrapper {
     position: fixed !important;
     inset: auto 0 0 !important;
     z-index: 1200 !important;
