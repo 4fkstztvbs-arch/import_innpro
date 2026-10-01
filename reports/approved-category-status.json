@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27488,
-  "matchedRules": 2245,
-  "changedProducts": 226,
+  "totalProducts": 27534,
+  "matchedRules": 2203,
+  "changedProducts": 983,
   "rejected": [
     {
       "supplier": "atos",
@@ -467,6 +467,331 @@
     {
       "supplier": "atos",
       "code": "ABL-30-B1-316",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895098-0100",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859226",
+      "feedEan": "0017817859226"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895098-0200",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859219",
+      "feedEan": "0017817859219"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895098-0300",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859936",
+      "feedEan": "0017817859936"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 887612-0100",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817852470",
+      "feedEan": "0017817852470"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 887612-0300",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817852616",
+      "feedEan": "0017817852616"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 887612-0160",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817852494",
+      "feedEan": "0017817852494"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 894040-0100",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817857932",
+      "feedEan": "0017817857932"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 894040-0200",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817858373",
+      "feedEan": "0017817858373"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 894040-0300",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817860017",
+      "feedEan": "0017817860017"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B  883848-0020",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817848831",
+      "feedEan": "0017817848831"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888926-0010",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817853347",
+      "feedEan": "0017817853347"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888926-0020",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817853330",
+      "feedEan": "0017817853330"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888926-0030",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817853316",
+      "feedEan": "0017817853316"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888926-0040",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817853323",
+      "feedEan": "0017817853323"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 884104-0010",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817848855",
+      "feedEan": "0017817848855"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 884104-0020",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817848862",
+      "feedEan": "0017817848862"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 890101-0100",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859585",
+      "feedEan": "0017817859585"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 890101-0200",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859561",
+      "feedEan": "0017817859561"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 890101-0300",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859592",
+      "feedEan": "0017817859592"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 890101-0400",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859516",
+      "feedEan": "0017817859516"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895491-0100",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859684",
+      "feedEan": "0017817859684"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895491-0200",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859707",
+      "feedEan": "0017817859707"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895491-0300",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859745",
+      "feedEan": "0017817859745"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895491-0500",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817859738",
+      "feedEan": "0017817859738"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 884367-0200",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817848985",
+      "feedEan": "0017817848985"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0010",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817861120",
+      "feedEan": "0017817861120"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0020",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817861076",
+      "feedEan": "0017817861076"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0030",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817861151",
+      "feedEan": "0017817861151"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0040",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817861212",
+      "feedEan": "0017817861212"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0050",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817861083",
+      "feedEan": "0017817861083"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 881046-0010",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817846929",
+      "feedEan": "0017817846929"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 881046-0020",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817846912",
+      "feedEan": "0017817846912"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888507-0100",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817853460",
+      "feedEan": "0017817853460"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B  888507-0200",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817853439",
+      "feedEan": "0017817853439"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888507-0300",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817853200",
+      "feedEan": "0017817853200"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 802171-0020",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817796514",
+      "feedEan": "0017817796514"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 897829-0010",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817861786",
+      "feedEan": "0017817861786"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 897827-0010",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817861793",
+      "feedEan": "0017817861793"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 897827-0020",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817861809",
+      "feedEan": "0017817861809"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 841151-0320",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 883848-0400",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "17817860284",
+      "feedEan": "0017817860284"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-DI4800A",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-DI600P",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-MR12",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-PMP1680S",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-X18",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-X32",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-XR12",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-XR16",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1121,17 +1446,7 @@
     },
     {
       "supplier": "innpro",
-      "code": "085165",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
       "code": "085166",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "085167",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1387,96 +1702,6 @@
     {
       "supplier": "innpro",
       "code": "082793",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "018665",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "029058",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "055617",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "058841",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "074097",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "075362",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "075477",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078336",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078348",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078361",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083355",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083736",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083739",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087515",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090987",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090988",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "091001",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "091003",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1966,7 +2191,7 @@
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
-      "visibleUnique": 142,
+      "visibleUnique": 140,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -2116,7 +2341,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače",
-      "visibleUnique": 35,
+      "visibleUnique": 36,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
@@ -2140,7 +2365,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
-      "visibleUnique": 41,
+      "visibleUnique": 39,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
@@ -2284,7 +2509,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Súpravy fotografických filtrov",
-      "visibleUnique": 60,
+      "visibleUnique": 62,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
     },
@@ -2308,7 +2533,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Batérie a nabíjačky pre kamery",
-      "visibleUnique": 27,
+      "visibleUnique": 28,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },
@@ -2320,13 +2545,13 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery",
-      "visibleUnique": 35,
+      "visibleUnique": 38,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery",
-      "visibleUnique": 113,
+      "visibleUnique": 115,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
@@ -2338,7 +2563,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Selfie tyče pre kamery",
-      "visibleUnique": 19,
+      "visibleUnique": 20,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },

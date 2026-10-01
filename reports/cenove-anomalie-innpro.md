@@ -13,21 +13,15 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
 | 079933 | 6972237683193 | Mikrofón Maono WM622 PC2 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 084680 | 6978794730943 | Fritéza MOVA FD20s Pro Air | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084865 | 6978390540472 | Robotický čistič okien MOVA N1 (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 084669 | 6978794731711 | Vysávač MOVA S7 Ultra Stick | nulová/neplatná cena |  | 0.00 € |  |  |
-| 085045 | 6977728949031 | MOVA NutriPal 10 Ultra (biela) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 085053 | 6978794730554 | MOVA LitterBot LR10 Prime (sivý) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089414 | 5905156108714 | WOLFBOX X5 WiFi 4K + 2,5K 128 GB palubná kamera | nulová/neplatná cena |  | 0.00 € |  |  |
-| 089590 | 6978794734194 | Vysávač MOVA K30 Lite | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090052 | 6923520270330 | Herné slúchadlá EDIFIER HECATE G5 Max (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090051 | 6923520270323 | Herné slúchadlá EDIFIER HECATE G5 Max BT (sivé) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089991 | 4262533461147 | Soundbar Ultimea Aura S5T | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
-| 088847 | 6978794734798 | Fén MOVA Turbo 20 (biely) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091991 | 6922572224681 | Filament eSun PLA-Wood 1.75mm 1kg (aspen) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091992 | 6922572224698 | Filament eSun PLA-Wood 1.75mm 1kg (walnut) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091993 | 6922572225329 | Filament eSun PLA-Wood 1.75mm 1kg (oak) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -449,8 +443,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092392 | 6922572221727 | Filament eSun PLA-Silk Magic 1.75mm 1kg (gold green) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092393 | 6922572221734 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092394 | 6922572221741 | Filament eSun PLA-Silk Magic 1.75mm 1kg (purple-silver) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 090776 | 6978794736129 | Súprava Mova DuoCare Pet | nulová/neplatná cena |  | 0.00 € |  |  |
-| 090775 | 6978794735764 | MOVA LB10 – samočistiaca toaleta pre mačky s vzduchovým systémom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091857 | 6942580505022 | Vozík FOSSIBOT pre model F2400 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093464 | 6975274260235 | Solar panel Allpowers SP027 100W monocrystalline | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093465 | 6975274260402 | Solar panel ALLPOWERS SF200 200W flexible | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -553,7 +545,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094052 | 6975828005206 | Nabíjacia stanica Wallbox dé  11 kW s 5 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092888 | 6975116296170 | Dávkovač potravín Rojeco PTD001 IQ Training | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092889 | 6975116296408 | Automatický dávkovač krmiva a vody pre domáce zvieratá Rojeco 2 v 1 C | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092887 | 6975116296231 | Dávkovač vody bez filtra Rojeco PTM673 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094332 | 6972792472454 | Mouse pad ATTACK SHARK CM02 (dark gray) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094333 | 6972792472447 | Mouse pad ATTACK SHARK CM02 (white contour) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094334 | 6972792470351 | Mechanical keyboard ATTACK SHARK K75 (white) | nulová/neplatná cena |  | 0.00 € |  |  |
