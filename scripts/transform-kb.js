@@ -139,7 +139,7 @@ async function checkUrlsWithConcurrency(items, concurrency, onResult) {
 // unchanged so we do not guess a replacement for a genuinely invalid EAN.
 function normalizeEan(raw) {
   const value = String(raw == null ? '' : raw).trim();
-  if (!/^\\d{11}$/.test(value)) return value;
+  if (!/^\d{11}$/.test(value)) return value;
   const candidate = '00' + value;
   const sum = candidate.slice(0, 12).split('').reduce((total, digit, index) =>
     total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
