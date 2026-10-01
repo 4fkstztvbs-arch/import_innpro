@@ -1898,5 +1898,21 @@
       "https://www.soundsrl.it/tc-electronic-bq250-testata-per-basso-250w-preamp-mosfet-e-compressore_cod120792.html",
       "https://www.photopoint.ee/audio/3579748-tc-electronic-bq250-250w-micro-head-bass-amplifier"
     ]
+  },
+  "MEM-XLR": {
+    "model": "MEM-XLR",
+    "ean": "0615517935099",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf",
+      "https://cs.homecinesolutions.fr/p/29697-meze-audio-premiovy-medeny-kabel-pcuhd-mini-xlr-na-xlr-4-piny"
+    ]
+  },
+  "MEM-S4": {
+    "model": "MEM-S4",
+    "ean": "0615517935068",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf",
+      "https://nl.homecinesolutions.fr/p/23782-meze-audio-premium-mini-xlr-naar-4-pins-xlr-kabel"
+    ]
   }
 }
