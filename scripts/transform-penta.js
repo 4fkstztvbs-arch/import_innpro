@@ -68,6 +68,20 @@ const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map
 // Penta's own customer-facing taxonomy — the other trees in <CATEGORIES> ("Dle výrobce",
 // "Koncovy shop reklamni SK", ...) are manufacturer/marketing groupings, not meant as our
 // storefront navigation, so only paths under this root are considered.
+const EAN_OVERRIDES_PATH = path.join(__dirname, 'heureka-ean-overrides-penta.json');
+const EAN_OVERRIDES = fs.existsSync(EAN_OVERRIDES_PATH)
+  ? JSON.parse(fs.readFileSync(EAN_OVERRIDES_PATH, 'utf8')) : {};
+function isValidEan13(value) {
+  if (!/^\d{13}$/.test(value)) return false;
+  const sum = value.slice(0, 12).split('').reduce((total, digit, index) =>
+    total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
+  return String((10 - (sum % 10)) % 10) === value[12];
+}
+function eanForProduct(code, name, sourceEan) {
+  const override = EAN_OVERRIDES[code];
+  if (override && !sourceEan && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
+  return sourceEan;
+}
 const TREE_ROOT = 'Koncový shop I6';
 
 // penta-mapping.json keys are hand-written and don't always match the live feed's CategoryText
@@ -264,6 +278,7 @@ async function main() {
     let p;
     try { p = parsePentaItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
+    p.ean = eanForProduct(p.code, p.name, p.ean);
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
     if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
     const trackedSale = (saleState.items[p.code]?.quantity || 0) > 0;
