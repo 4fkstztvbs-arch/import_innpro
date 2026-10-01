@@ -661,11 +661,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094445 | 6972792471440 | Mechanical Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Mechanical Keyboard ATTACK SHARK X98PRO RGB (white-grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035194 | 6930460007148 | Termoregulačný inteligentný pelech Petoneer Cozy Sofa | cena mimo 8x rozsah mediánu kategórie | 13.00 € | 109.00 € | 8.4x | 73 |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 27.75 € | 1.30 € | 1/21.3x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 27.75 € | 1.00 € | 1/27.8x | 24 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
-| 086489 | 6955974905162 | SUNSUN HW404B 9 W/UV vonkajší filter | cena mimo 8x rozsah mediánu kategórie | 13.00 € | 108.90 € | 8.4x | 73 |
-| 086503 | 6955974905520 | SUNSUN HW-704B 9 W UV externý filter | cena mimo 8x rozsah mediánu kategórie | 13.00 € | 118.90 € | 9.1x | 73 |
 | 089168 | 0810143168938 | FunWater 7-palcová plutva | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 6.40 € | 1/18.3x | 15 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |

@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-01 05:43 UTC.
+Kontrola z 2026-10-01 10:33 UTC.
 
-InnPro pri **392** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **389** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -101,7 +101,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
 | `053576` | Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1, | — | 5 |
 | `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
-| `053572` | Kábel Pioneer USB-C do USB C Joyroom SA31-CC5 / 240W / 1,2 m | — | 3 |
 | `053763` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (mo | — | 5 |
 | `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 5 |
 | `054882` | Puzdro na telefón pre iPhone 15 ProMax Baseus OS-Lucent Seri | — | 5 |
@@ -114,7 +113,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054163` | Ochranné puzdro na batérie Sunnylife pre DJI AIR 3 | — | 5 |
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action 4 | — | 5 |
 | `057079` | Kryt objektívu/gimbalu Sunnylife pre DJI Mavic 3 Pro (M3P-G5 | — | 5 |
-| `055655` | Vodotesné puzdro Sonoff R2 BOX | — | 5 |
 | `058840` | Ochranné sklo PULUZ pre objektív a obrazovku DJI OSMO Pocket | — | 5 |
 | `059067` | Herná myš ONIKUMA CW905 čierna | — | 5 |
 | `056359` | Štítky do termotlačiarne Niimbot pre B21, 50 mm x 30 mm, 230 | — | 5 |
@@ -161,7 +159,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `067767` | Anti-glare lens and gimbal cover Sunnylife for DJI Avata 2 | — | 5 |
 | `066318` | Case Nillkin Super Frosted Shield Pro for Samsung Galaxy A25 | — | 5 |
 | `066322` | Case Nillkin Super Frosted Shield Pro for Samsung Galaxy A15 | — | 5 |
-| `068199` | Maono XLR-180 Cable | — | 5 |
 | `068234` | Silicone Cover Case Set with Strap PULUZ For DJI OSMO Pocket | — | 5 |
 | `068805` | Mini Bag PULUZ for DJI Osmo Pocket 3 (Black) | — | 5 |
 | `068803` | Mini Body Bag PULUZ For DJI Osmo Action 5 Pro / 4 / 3 (Black | — | 5 |
