@@ -67,18 +67,24 @@
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
       "appliedOrderIds": []
+    },
+    "085822": {
+      "quantity": 1,
+      "activatedAt": "2026-10-01T09:33:09.000Z",
+      "appliedOrderIds": []
     }
   },
   "mail": {
     "uidValidity": "1",
-    "lastUid": 58391,
+    "lastUid": 58473,
     "activationAfter": "2026-09-25T00:00:00.000Z",
     "processedMessageKeys": [
       "message-id:<el.8kqqp.3g{nysanwzg.1gjcgb@seznam.cz>",
       "message-id:<fv.8kqtt.4hm2d49txwj.1gjczu@seznam.cz>",
       "message-id:<nq.8kqs1.4odwfhrab}s.1gjhku@seznam.cz>",
       "message-id:<na.8kqs}.4j{phldzfyx.1gjhtc@seznam.cz>",
-      "message-id:<1qo.8kqh}.3egmhxb2gyx.1gkard@seznam.cz>"
+      "message-id:<1qo.8kqh}.3egmhxb2gyx.1gkard@seznam.cz>",
+      "message-id:<3bz.8kq8z.3uqzqhfyjpm.1glyzj@seznam.cz>"
     ]
   },
   "ignoredMail": [
