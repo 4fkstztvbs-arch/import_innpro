@@ -24,6 +24,23 @@ const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { vytvorZaradovac } = require('./zarad-kategoriu');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
+const EAN_OVERRIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'heureka-ean-overrides-innpro.json'), 'utf8'));
+
+function isValidEan13(value) {
+  if (!/^\d{13}$/.test(value)) return false;
+  const sum = value.slice(0, 12).split('').reduce((total, digit, index) =>
+    total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
+  return String((10 - (sum % 10)) % 10) === value[12];
+}
+
+function eanForProduct(code, name, rawEan) {
+  const sourceEan = String(rawEan == null ? '' : rawEan).trim();
+  const override = EAN_OVERRIDES[code];
+  if (override && name.includes(override.model) && isValidEan13(override.ean)
+      && (!sourceEan || sourceEan === override.replaceIfSourceEan)) return override.ean;
+  return sourceEan;
+}
+
 const { validateState } = require('./lib/vypredaj-core');
 
 // Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
@@ -268,6 +285,8 @@ async function main() {
     let p;
     try { p = parseProduct(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
+    const productCode = p.codeOnCard || p.id;
+    p.ean = eanForProduct(productCode, p.name, p.ean);
     if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
 
     const lightEntry = lightData.get(p.id);
@@ -286,7 +305,6 @@ async function main() {
 
     let { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.category, p.name);
     if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
-    const productCode = p.codeOnCard || p.id;
     const isReturnStockSale = (saleState.items[productCode]?.quantity || 0) > 0;
     if (CATEGORY_OVERRIDES_BY_CODE[productCode]) {
       category = CATEGORY_OVERRIDES_BY_CODE[productCode];
