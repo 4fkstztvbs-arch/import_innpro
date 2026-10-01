@@ -1378,5 +1378,58 @@
       "https://www.bhphotovideo.com/c/product/803218829-USE/bose_professional_40151_freespace_360p_series_ii.html/specs",
       "https://gaplasa.com/bose/paginas/listaprecios-bose.pdf"
     ]
+  },
+  "768932-2110": {
+    "model": "CC-1",
+    "ean": "0017817739849",
+    "sourceUrls": [
+      "https://shop.konferenzraum.tv/detail/index/sArticle/1098",
+      "https://www.pure-gaming.fr/es/enceintes-hauts-parleurs/468730-bose-controlcenter-cc-1-black-0017817739849.html",
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/accessories/i_Controlcenter/Downloads/technical_information/tds_controlcenter_cc-1.pdf"
+    ]
+  },
+  "768932-2210": {
+    "model": "CC-1",
+    "ean": "0017817739894",
+    "sourceUrls": [
+      "https://www.mercateo.com/p/2753M-6219203/Bose_ControlCenter_CC_1_Zone_Controller_Bedienfeld_kabelgebunden_weiss.html",
+      "https://www.boseprofessional.com/es/products/controllers/analog/ccs-analog/controlcenter-cc-1-zone-controller"
+    ]
+  },
+  "768938-2110": {
+    "model": "CC-2",
+    "ean": "0017817739870",
+    "sourceUrls": [
+      "https://shop.konferenzraum.tv/detail/index/sArticle/1103",
+      "https://www.ebay.co.uk/p/23086451817",
+      "https://boseprofessional.com/es/products/controllers/analog/ccs-analog/controlcenter-cc-2-zone-controller"
+    ]
+  },
+  "768938-2210": {
+    "model": "CC-2",
+    "ean": "0017817739757",
+    "sourceUrls": [
+      "https://www.maison-du-cable.com/Prix/Produit-reference-773856-419902.html",
+      "https://www.mercateo.com/p/2753M-6219202/Bose_ControlCenter_CC_2_Zone_Controller_Bedienfeld_kabelgebunden_weiss.html",
+      "https://boseprofessional.com/es/products/controllers/analog/ccs-analog/controlcenter-cc-2-zone-controller"
+    ]
+  },
+  "768941-2110": {
+    "model": "CC-3",
+    "ean": "0017817739795",
+    "sourceUrls": [
+      "https://shop.konferenzraum.tv/detail/index/sArticle/1103",
+      "https://www.ebay.co.uk/itm/147356267617",
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/accessories/i_Controlcenter/Downloads/technical_information/tds_controlcenter-cc-3-acc_ja.pdf"
+    ]
+  },
+  "768941-2210": {
+    "model": "CC-3",
+    "ean": "0017817739825",
+    "sourceUrls": [
+      "https://www.pc21.fr/fiche/768941-2210-bose-controleur-de-zone-controlcenter-cc-3-blanc-i4489489.html",
+      "https://www.ebay.co.uk/itm/406876088294",
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/accessories/i_Controlcenter/Downloads/technical_information/tds_controlcenter-cc-3-acc_ja.pdf"
+    ]
   }
 }
