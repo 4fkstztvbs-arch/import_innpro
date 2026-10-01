@@ -207,5 +207,24 @@
       "https://hurtowniamuzyczna.pl/offer/86/22739/behringer-x-air-xr12.html",
       "https://hinta.fi/1677370/behringer-xr12/tuotetiedot"
     ]
+  },
+  "C-1": {
+    "model": "C-1",
+    "ean": "4033653080187",
+    "sourceUrls": [
+      "https://guitarcenter.pl/catalog/naglosnienie/mikrofony/mikrofony-pojemnosciowe/behringer-c-1",
+      "https://www.ox.ee/en/product/3054260",
+      "https://www.e.leclerc/fp/behringer-c1-micro-statique-4033653080187"
+    ]
+  },
+  "MX400": {
+    "model": "MX400",
+    "ean": "4033653020633",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-mx400/",
+      "https://audiopatent.eu/pl/products/behringer-mx400-mikser-liniowy-6097",
+      "https://www.bananamusic.it/behringer-mx400-micromix-bk.html",
+      "https://hinta.fi/1133237/behringer-mx400/tuotetiedot"
+    ]
   }
 }
