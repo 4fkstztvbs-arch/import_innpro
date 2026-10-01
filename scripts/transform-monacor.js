@@ -30,9 +30,22 @@ const OUT_PATH = process.env.MONACOR_OUT || path.join(__dirname, '..', 'output',
 const STORE_NAME = process.env.MONACOR_STORE_NAME || 'premiumstore.sk';
 const FOREIGN_AVAIL_TEXT = process.env.MONACOR_FOREIGN_AVAIL_TEXT || 'Dostupné na sklade dodávateľa';
 const EXCLUDE_UNAVAILABLE = process.env.MONACOR_EXCLUDE_UNAVAILABLE === '1';
+const EAN_OVERRIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'heureka-ean-overrides-monacor.json'), 'utf8'));
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlAttr(s) { return xmlEscape(s).replace(/"/g, '&quot;'); }
+function isValidEan13(value) {
+  if (!/^\d{13}$/.test(value)) return false;
+  const sum = value.slice(0, 12).split('').reduce((total, digit, index) =>
+    total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
+  return String((10 - (sum % 10)) % 10) === value[12];
+}
+function eanForProduct(code, name, sourceEan) {
+  const override = EAN_OVERRIDES[code];
+  if (override && !sourceEan && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
+  return sourceEan;
+}
+
 function imageAltFor(name, index, total) {
   return total > 1 ? `${name} - obrázok ${index + 1}` : name;
 }
@@ -129,6 +142,7 @@ async function main() {
 
     // shop naming convention: "Značka Model popis"
     const name = [p.manufacturer, p.number, p.baseName].filter(Boolean).join(' ').trim() || p.baseName;
+    const ean = eanForProduct(code, name, p.ean);
 
     const trackedSale = (saleState.items[code]?.quantity || 0) > 0;
     if (EXCLUDE_UNAVAILABLE && p.stock <= 0 && p.foreignstock <= 0 && !trackedSale) { stats.skippedUnavailable++; return; }
@@ -165,8 +179,8 @@ async function main() {
     const metaDescription = truncateAtWord(`${seoCore} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
 
     candidates.push({
-      code, ean: p.ean, name, category: defaultCategory, price,
-      shopitemData: { code, name, description, shortDescription, manufacturer: p.manufacturer, ean: p.ean,
+      code, ean, name, category: defaultCategory, price,
+      shopitemData: { code, name, description, shortDescription, manufacturer: p.manufacturer, ean,
         defaultCategory, extraCategories, images: p.images, availability, weightKg: p.weightKg,
         price, seoTitle, metaDescription },
     });
