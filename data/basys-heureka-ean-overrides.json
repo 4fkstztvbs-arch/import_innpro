@@ -1535,5 +1535,57 @@
       "https://www.numemusic.es/662554-di-caja-de-inyeccin-behringer-di4000-v2",
       "https://distrinode.pl/behringer-di4000-v2-active-4-kana-owa-skrzynka-di"
     ]
+  },
+  "K5": {
+    "model": "NEKKST K5",
+    "ean": "4033653022873",
+    "sourceUrls": [
+      "https://www.rozetka.pl/566768290/p566768290/",
+      "https://hinta.fi/4884850/behringer-nekkst-k5/tiedot"
+    ]
+  },
+  "K8": {
+    "model": "NEKKST K8",
+    "ean": "4033653022866",
+    "sourceUrls": [
+      "https://www.morele.net/behringer-behringer-k8-monitor-studyjny-aktywny-8-13985934/",
+      "https://shop.scavino.it/behringer-k8-nekkst-monitor-da-studio-8-pollici.1.23.1296.gp.147234.uw"
+    ]
+  },
+  "PSU-HSB-ALL": {
+    "model": "PSU-HSB-ALL",
+    "ean": "4033653190343",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0709-ADE",
+      "https://hinta.fi/4890759/behringer-psu-hsb-all/tuotetiedot",
+      "https://www.muzikant.cz/behringer-psu-hsb-all-35171"
+    ]
+  },
+  "X32_MOTOR_FADER": {
+    "model": "X32",
+    "ean": "4033653014359",
+    "sourceUrls": [
+      "https://www.atlantik.com.tr/D%C4%B0NAKORD_2025_V0226.pdf",
+      "https://www.ebay.com/itm/335211128733",
+      "https://www.bol.com/nl/nl/p/behringer-x32-motor-fader-opnamehardware-reserveonderdelen/9300000104775974/"
+    ]
+  },
+  "X-ADAT": {
+    "model": "X-ADAT",
+    "ean": "4033653014342",
+    "sourceUrls": [
+      "https://www.e.leclerc/fp/4033653014342",
+      "https://www.bananamusic.it/behringer-x-adat.html",
+      "https://watanabe-mi.jp/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8201910_HP.pdf"
+    ]
+  },
+  "CONTROL2USB": {
+    "model": "CONTROL2USB",
+    "ean": "4033653080590",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0843-AAC",
+      "https://www.ceneo.pl/76017749",
+      "https://woodbrass.shop/products/behringer-control2usb-250433"
+    ]
   }
 }
