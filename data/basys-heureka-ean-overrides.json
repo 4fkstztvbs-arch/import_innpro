@@ -1466,5 +1466,41 @@
       "https://www.orionestore.it/en/--70790/?file=product_pdf.html",
       "https://behringer.com/en/wing"
     ]
+  },
+  "FBQ6200HD": {
+    "model": "FBQ6200HD",
+    "ean": "4033653080552",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-fbq6200hd/",
+      "https://skladmuzyczny.pl/fbq6200hd-behringer.html",
+      "https://www.behringer.com.py/produto/efectos-y-procesadores-de-seal-fbq6200hd-behringer-behringer-4033653080552.html"
+    ]
+  },
+  "CT200": {
+    "model": "CT200",
+    "ean": "4033653160339",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/386.html",
+      "https://www.madridhifi.com/p/behringer-ct200-tester-cable/",
+      "https://www.bananamusic.it/stampa/prodotto/151111"
+    ]
+  },
+  "DI400P": {
+    "model": "DI400P",
+    "ean": "4033653011075",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/cajas-di-di400p-behringer-behringer-4033653011075.html",
+      "https://watanabe-mi.jp/brand/wp-content/uploads/2020/06/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8202006_WEB.pdf",
+      "https://www.wasserman.eu/en/p/behringer-di400p-audio-switch-black-1971602"
+    ]
+  },
+  "TD-3-BU": {
+    "model": "TD-3-BU",
+    "ean": "4033653031714",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/776.html",
+      "https://www.verkkokauppa.com/fi/product/591781/Behringer-TD-3-BU-syntetisaattori-sininen",
+      "https://www.shimamura.co.jp/update/digital-dj/2020/03/dl-136287/"
+    ]
   }
 }
