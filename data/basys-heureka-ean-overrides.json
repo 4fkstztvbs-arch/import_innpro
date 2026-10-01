@@ -1152,4 +1152,29 @@
       "https://www.tech-america.com/item/bose-professional-mb210-wr-outdoor-wall-mountable-ceiling-mountable-woofer/811432-0210"
     ]
   }
+,
+  "ADA8200": {
+    "model": "ADA8200",
+    "ean": "4033653054638",
+    "sourceUrls": [
+      "https://www.ox.ee/est/product/2662643",
+      "https://rozetka.com.ua/ua/behringer-ada8200/p567856978/"
+    ]
+  },
+  "FCA610": {
+    "model": "FCA610",
+    "ean": "4033653170529",
+    "sourceUrls": [
+      "https://www.mediamarkt.es/es/product/_interfase-de-audio-behringer-firepower-fca-610-1264477.html",
+      "https://shop.suonostore.com/p/behringer-fca610-scheda-audio-firewire.html"
+    ]
+  },
+  "UCG102": {
+    "model": "UCG102",
+    "ean": "4033653030502",
+    "sourceUrls": [
+      "https://www.kuantokusta.pt/p/1661104/behringer-ucg102",
+      "https://www.madridhifi.com/p/behringer-ucg-102-interface/"
+    ]
+  }
 }
