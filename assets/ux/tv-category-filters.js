@@ -12,7 +12,9 @@
   var categoryTop = document.querySelector('.category-top');
   var categoryTitle = document.querySelector('.category-title');
   var filterBox = document.querySelector('.box-filters');
-  if (!root || !categoryTop || !categoryTitle || !filterBox) return;
+  // Shoptet's real mobile response has no sidebar .box-filters element;
+  // its native #filters lives directly inside the category content instead.
+  if (!root || !categoryTop || !categoryTitle || !document.querySelector('#filters')) return;
 
   body.classList.add('ps-tv-category-enhanced');
 
@@ -473,8 +475,8 @@
   function prepareFilters() {
     filterBox = document.querySelector('.box-filters');
     var filters = getFilters();
-    if (!filters || !filterBox) return;
-    if (!filterBox.querySelector('.ps-tv-filter-title')) {
+    if (!filters) return;
+    if (filterBox && !filterBox.querySelector('.ps-tv-filter-title')) {
       var panelTitle = document.createElement('h2');
       panelTitle.className = 'ps-tv-filter-title';
       panelTitle.textContent = 'Filtre';
@@ -482,7 +484,7 @@
     }
     sortSectionsAndAddAccordions();
     addDrawerActions();
-    var sidebar = filterBox.querySelector('.filters-wrapper');
+    var sidebar = filterBox && filterBox.querySelector('.filters-wrapper');
     if (sidebar) sidebar.classList.add('ps-tv-native-filter-wrapper');
   }
 
@@ -536,7 +538,7 @@
         var heading = section.querySelector('h4, h3, .filter-section__name');
         return heading && !heading.querySelector('.ps-tv-section-toggle');
       });
-    if (!needsRepair || !currentRoot || !currentTop || !currentTitle || !currentFilterBox) return;
+    if (!needsRepair || !currentRoot || !currentTop || !currentTitle || !getFilters()) return;
     root = currentRoot;
     categoryTop = currentTop;
     categoryTitle = currentTitle;
