@@ -63,5 +63,29 @@
       "https://www.ox.ee/en/product/2662365",
       "https://www.midi.pl/kolumny-aktywne/9267-behringer-eurolive-b215d-kolumna-aktywna-4033653062589.html"
     ]
+  },
+  "X32": {
+    "model": "X32",
+    "ean": "4033653012683",
+    "sourceUrls": [
+      "https://www.siluj.net/behringer/19583-behringer-x32-mezclador-para-directo.html",
+      "https://www.orionestore.it/it/mixer-digitale-behringer-x32-32-canali-con-usb-multicanale/"
+    ]
+  },
+  "1204USB": {
+    "model": "1204USB",
+    "ean": "4033653021159",
+    "sourceUrls": [
+      "https://www.bestbuy.com/site/behringer-xenyx-1204-12-input-2-bus-analog-mixer/3177869.p",
+      "https://www.musicacenter.com.br/audio/mesas-de-som/mesa-de-som-behringer-xenyx-1204usb-bivolt"
+    ]
+  },
+  "X1622USB": {
+    "model": "X1622USB",
+    "ean": "4033653021180",
+    "sourceUrls": [
+      "https://www.carrefour.es/behringer-xenyx-x1622usb-mesa-analogica/4033653021180/p",
+      "https://www.prodj.com/products/behringer-xenyx-x1622usb"
+    ]
   }
 }
