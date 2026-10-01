@@ -1223,5 +1223,37 @@
       "https://guitarcenter.pl/catalog/naglosnienie/akcesoria-naglosnieniowe/di-boxy/behringer-di20",
       "https://audiopatent.eu/pl/products/behringer-di20-aktywny-di-box-stereo-5945"
     ]
+  },
+  "DI600P": {
+    "model": "DI600P",
+    "ean": "4033653011099",
+    "sourceUrls": [
+      "https://www.kuantokusta.pt/p/1660808/behringer-di600p",
+      "https://www.bananamusic.it/behringer-di600p.html"
+    ]
+  },
+  "DS2800": {
+    "model": "DS2800",
+    "ean": "4033653080798",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/668.html",
+      "https://www.behringer.com.py/produto/mezcladores-ds2800-behringer-behringer-4033653080798.html"
+    ]
+  },
+  "EP4000": {
+    "model": "EP4000",
+    "ean": "4033653070065",
+    "sourceUrls": [
+      "https://www.bhphotovideo.com/c/product/1821656-REG/behringer_ep4000_professional_4000w_stereo_power.html/overview",
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+    ]
+  },
+  "X32_PRODUCER": {
+    "model": "X32 PRODUCER",
+    "ean": "4033653013857",
+    "sourceUrls": [
+      "https://www.siluj.net/behringer/19585-behringer-x32-producer-mezclador-digital.html",
+      "https://www.altomusic.com/products/behringer-x32-producer-digital-mixer-1083472"
+    ]
   }
 }
