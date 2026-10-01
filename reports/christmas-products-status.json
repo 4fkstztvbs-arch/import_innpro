@@ -1,21 +1,21 @@
 {
   "matched": 234,
-  "changed": 107,
+  "changed": 3,
   "missing": [
     "AT_EMO1550000163",
     "AT_EMO1550044029",
-    "AT_EMO1550054003",
-    "AT_EMO1550054001",
     "AT_EMO1550052006",
-    "AT_EMO1550054005",
     "AT_EMO1550052003",
-    "AT_EMO1550043002",
     "AT_EMO1550044027",
-    "AT_EMO1550044019",
     "AT_EMO1550040002",
     "PEN_7821587"
   ],
   "skippedUnavailable": [
+    "AT_EMO1550043002",
+    "AT_EMO1550044019",
+    "AT_EMO1550054001",
+    "AT_EMO1550054003",
+    "AT_EMO1550054005",
     "SOL_1V294"
   ],
   "parameters": 871
