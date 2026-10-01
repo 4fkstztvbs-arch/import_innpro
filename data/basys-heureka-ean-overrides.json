@@ -1088,4 +1088,37 @@
       "https://www.maison-du-cable.com/Prix/Produit-reference-776168-419890.html"
     ]
   }
+,
+  "789175-0010": {
+    "model": "S1 Pro",
+    "ean": "0017817783521",
+    "sourceUrls": [
+      "https://www.markertek.com/product/bose-s1batterypk/bose-s1-lithium-ion-battery-pack-for-s1-pa-system",
+      "https://www.avshop.ca/sound-amp-pa-audio/replacement-parts/bose-s1-battery-pack"
+    ]
+  },
+  "809781-0010": {
+    "model": "S1 Pro System Backpack",
+    "ean": "0017817792219",
+    "sourceUrls": [
+      "https://www.boseprofessional.com/es/products/portable-pa/portable-accessories/s1-backpack",
+      "https://www.proshop.dk/Fritid-Rejser/Bose-rucksack-for-speakers/3151323"
+    ]
+  },
+  "785403-0110": {
+    "model": "T4S",
+    "ean": "0017817770910",
+    "sourceUrls": [
+      "https://boseprofessional.com/products/portable-pa/mixers/tonematch/t4s-tonematch-mixer",
+      "https://www.sound-check.co.il/product/bose-t4s-tonematch-mixer/"
+    ]
+  },
+  "785491-0110": {
+    "model": "T8S",
+    "ean": "0017817778022",
+    "sourceUrls": [
+      "https://www.boseprofessional.com/products/portable-pa/mixers/tonematch/t8s-tonematch-mixer",
+      "https://www.en.adiglobaldistribution.ca/product/1B-785491011"
+    ]
+  }
 }
