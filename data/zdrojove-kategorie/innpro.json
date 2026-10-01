@@ -33,7 +33,7 @@
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 18
  },
  "Audio > Reproduktory > Počítačové reproduktory": {
-  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 36
+  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 37
  },
  "Audio > Reproduktory > Prenosné Bluetooth reproduktory": {
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 22
@@ -180,7 +180,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 20
  },
  "Foto a video > Selfie tyče > statívy > držiaky > Statívy": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 52
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 51
  },
  "Foto a video > Skladovanie a preprava > Batohy": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava": 6
@@ -399,7 +399,7 @@
   "(bez pravidla)": 2
  },
  "IT príslušenstvo > Myši, klávesnica": {
-  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 13
+  "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie": 21
  },
  "IT príslušenstvo > Napájacie zdroje > Napájacie zdroje pre notebooky": {
   "Energia a napájanie > Napájacie zdroje": 1
@@ -441,7 +441,7 @@
   "Počítače, mobily a tablety > Disky a pamäťové médiá": 7
  },
  "IT príslušenstvo > Tablety > Grafické tablety": {
-  "Počítače, mobily a tablety > Monitory a PC periférie > Grafické tablety": 2
+  "Počítače, mobily a tablety > Monitory a PC periférie > Grafické tablety": 3
  },
  "IT príslušenstvo > Tablety > Tablety": {
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety": 16
@@ -486,7 +486,7 @@
   "3D tlač a digitálna výroba > Laserové gravírovacie a rezacie stroje": 19
  },
  "Kreatívne technológie > Laserové gravírovacie a rezacie stroje > Zariadenie": {
-  "3D tlač a digitálna výroba > Laserové gravírovacie a rezacie stroje": 42
+  "3D tlač a digitálna výroba > Laserové gravírovacie a rezacie stroje": 41
  },
  "Kreatívne technológie > Metalurgia": {
   "Dielňa, náradie a záhrada > Dielenské vybavenie": 1
@@ -894,7 +894,7 @@
   "TV, audio, video a foto technika > Televízory": 1
  },
  "Záhrada > Jazierka": {
-  "Dielňa, náradie a záhrada > Záhrada a bazén > Jazierka a jazierková technika": 25
+  "Dielňa, náradie a záhrada > Záhrada a bazén > Jazierka a jazierková technika": 1
  },
  "Záhrada > Robotické kosačky": {
   "Dielňa, náradie a záhrada > Záhrada a bazén": 12
@@ -936,7 +936,7 @@
   "Zdravie a starostlivosť > Starostlivosť o zuby": 4
  },
  "Zdravie a krása > Sonické zubné kefky > Sonické zubné kefky": {
-  "Zdravie a starostlivosť > Starostlivosť o zuby": 8
+  "Zdravie a starostlivosť > Starostlivosť o zuby": 10
  },
  "Zdravie a krása > Starostlivosť o pleť > Masażery": {
   "Zdravie a starostlivosť > Prístroje na tvár": 3
@@ -962,8 +962,32 @@
  "Zdravie a krása > Váhy": {
   "Zdravie a starostlivosť > Osobné váhy": 1
  },
- "Zvieratá > Akvaristika": {
-  "Chovateľské potreby > Akvaristika": 62
+ "Zvieratá > Akvaristika > Akváriové čerpadlá": {
+  "Chovateľské potreby > Akvaristika": 7
+ },
+ "Zvieratá > Akvaristika > Akváriové filtre": {
+  "Chovateľské potreby > Akvaristika": 14
+ },
+ "Zvieratá > Akvaristika > Filtre do jazierok": {
+  "Chovateľské potreby > Akvaristika": 10
+ },
+ "Zvieratá > Akvaristika > Fontánové čerpadlá do záhrady": {
+  "Chovateľské potreby > Akvaristika": 4
+ },
+ "Zvieratá > Akvaristika > Svetlá do jazierok": {
+  "Chovateľské potreby > Akvaristika": 8
+ },
+ "Zvieratá > Akvaristika2 > Akváriá a nádrže": {
+  "Chovateľské potreby": 3
+ },
+ "Zvieratá > Akvaristika2 > Akváriové čerpadlá": {
+  "Chovateľské potreby": 25
+ },
+ "Zvieratá > Akvaristika2 > Akváriové filtre": {
+  "Chovateľské potreby": 12
+ },
+ "Zvieratá > Akvaristika2 > Fontánové čerpadlá do záhrady": {
+  "Chovateľské potreby": 3
  },
  "Zvieratá > Dávkovače krmiva > misky": {
   "Chovateľské potreby > Misky a dávkovače krmiva": 39

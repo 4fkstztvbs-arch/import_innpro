@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27179,
-  "matchedRules": 2256,
-  "changedProducts": 224,
+  "totalProducts": 27102,
+  "matchedRules": 2249,
+  "changedProducts": 974,
   "rejected": [
     {
       "supplier": "atos",
@@ -467,6 +467,21 @@
     {
       "supplier": "atos",
       "code": "ABL-30-B1-316",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 841151-0320",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 883848-0400",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "050684",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1261,6 +1276,11 @@
     },
     {
       "supplier": "innpro",
+      "code": "083292",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "085269",
       "reason": "Reviewed product name changed"
     },
@@ -1356,87 +1376,22 @@
     },
     {
       "supplier": "innpro",
+      "code": "088155",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088156",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "092702",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "innpro",
       "code": "082793",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "018665",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "029058",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "055617",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "058841",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078336",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078348",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083355",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083736",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083739",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "085165",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087515",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090987",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090988",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "091001",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "091003",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1938,7 +1893,7 @@
     },
     {
       "path": "Chovateľské potreby > Pelechy, škrabadlá a klietky > Pelechy pre psy a mačky",
-      "visibleUnique": 16,
+      "visibleUnique": 15,
       "active": true,
       "parent": "Chovateľské potreby > Pelechy, škrabadlá a klietky"
     },
@@ -1998,7 +1953,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
-      "visibleUnique": 68,
+      "visibleUnique": 64,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
@@ -2010,7 +1965,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
-      "visibleUnique": 82,
+      "visibleUnique": 80,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
