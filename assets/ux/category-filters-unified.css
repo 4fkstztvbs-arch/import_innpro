@@ -116,7 +116,7 @@ body.type-category:not(.in-televizory).ps-category-filter-enhanced.ps-category-f
   body.type-category:not(.in-televizory).ps-category-filter-enhanced .ps-category-quick-chip { flex:0 0 auto; min-height:40px; padding:0 14px; font-size:14px; }
   body.type-category:not(.in-televizory).ps-category-filter-enhanced:not(.ps-category-filter-sheet-open) #filters-wrapper { display:none !important; }
   body.type-category:not(.in-televizory).ps-category-filter-enhanced.ps-category-filter-sheet-open #filters-wrapper {
-    position:fixed !important; inset:0 !important; z-index:1197 !important; display:block !important; width:100vw !important; height:0 !important;
+    position:fixed !important; inset:0 !important; z-index:1199 !important; display:block !important; width:100vw !important; height:0 !important;
     max-width:100vw !important; margin:0 !important; padding:0 !important; overflow:visible !important; border:0 !important; pointer-events:none !important;
   }
   body.type-category:not(.in-televizory).ps-category-filter-enhanced.ps-category-filter-sheet-open #filters-wrapper > .filters-wrapper {
