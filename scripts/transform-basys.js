@@ -253,15 +253,15 @@ async function main() {
     const mappedCategory = PRICE_LIST_CATEGORY_MAP[item.category];
     const eanOverride = BASYS_EAN_OVERRIDES[norm(item.objKod)];
     const productName = [item.name, item.color].filter(Boolean).join(' - ').replace(/\s+/g, ' ').trim();
-    if (eanOverride) {
-      const modelMatches = norm(eanOverride.model) === norm(item.objKod)
-        || productName.toUpperCase().includes(eanOverride.model.toUpperCase());
-      if (!modelMatches) {
-        throw new Error(`BASYS EAN override identity mismatch for price-list item ${item.objKod}: expected model ${eanOverride.model}`);
-      }
+    const overrideMatches = eanOverride && (
+      norm(eanOverride.model) === norm(item.objKod)
+      || productName.toUpperCase().includes(eanOverride.model.toUpperCase())
+    );
+    if (eanOverride && !overrideMatches) {
+      console.warn(`Ignoring BASYS EAN override for price-list item ${item.objKod}: expected model ${eanOverride.model}; using the official price-list EAN.`);
     }
     resolvedItems.push({
-      objKod: item.objKod, ean: eanOverride ? eanOverride.ean : item.ean, isFromPriceList: true,
+      objKod: item.objKod, ean: overrideMatches ? eanOverride.ean : item.ean, isFromPriceList: true,
       name: productName,
       manufacturer: 'Bose',
       defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER.Bose || 'TV, audio a video > Audio technika',
@@ -275,12 +275,14 @@ async function main() {
     if (!Number.isFinite(f.priceVat) || f.priceVat <= 0) { skippedNoPrice++; continue; }
     const priceExclVat = f.priceVat / (1 + parseFloat(VAT) / 100);
     const eanOverride = BASYS_EAN_OVERRIDES[norm(f.itemId)];
-    if (eanOverride && !String(f.productName || '').toUpperCase().includes(eanOverride.model.toUpperCase())) {
-      throw new Error(`BASYS EAN override identity mismatch for ${f.itemId}: expected model ${eanOverride.model}`);
+    const overrideMatches = eanOverride
+      && String(f.productName || '').toUpperCase().includes(eanOverride.model.toUpperCase());
+    if (eanOverride && !overrideMatches) {
+      console.warn(`Ignoring BASYS EAN override for ${f.itemId}: product name "${f.productName}" does not match expected model ${eanOverride.model}; leaving EAN empty.`);
     }
     const mappedCategory = CATEGORY_MAP[f.categoryText];
     resolvedItems.push({
-      objKod: f.itemId, ean: eanOverride ? eanOverride.ean : '', isFromPriceList: false,
+      objKod: f.itemId, ean: overrideMatches ? eanOverride.ean : '', isFromPriceList: false,
       name: f.productName,
       manufacturer: f.manufacturer,
       defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER[f.manufacturer] || 'TV, audio a video > Audio technika > Doplnky',
