@@ -6,7 +6,7 @@
 const fs = require('fs');
 
 function isValidEan13(value) {
-  if (!/^\\d{13}$/.test(value)) return false;
+  if (!/^\d{13}$/.test(value)) return false;
   let sum = 0;
   for (let i = 0; i < 12; i++) {
     sum += Number(value[i]) * (i % 2 === 0 ? 1 : 3);
@@ -15,7 +15,7 @@ function isValidEan13(value) {
 }
 
 function restoreLeadingZeros(value) {
-  if (!/^\\d{11}$/.test(value)) return value;
+  if (!/^\d{11}$/.test(value)) return value;
   const candidate = `00${value}`;
   return isValidEan13(candidate) ? candidate : value;
 }
@@ -29,7 +29,7 @@ if (!paths.length) {
 for (const path of paths) {
   const xml = fs.readFileSync(path, 'utf8');
   let changed = 0;
-  const normalized = xml.replace(/(<EAN>)([^<]*)(<\\/EAN>)/gi, (match, open, value, close) => {
+  const normalized = xml.replace(/(<EAN>)([^<]*)(<\/EAN>)/gi, (match, open, value, close) => {
     const restored = restoreLeadingZeros(value.trim());
     if (restored === value.trim()) return match;
     changed++;
