@@ -7284,14 +7284,17 @@
 <p>Brita Style ESS 2,4l, bílá, + 2 filtry je produkt od Brita.</p>
 <p style="text-align:center"><img alt="Brita Style ESS 2,4l, bílá, + 2 filtry" src="https://img.b2b.k-b.cz/fotocache/mid/images/orig/Brita/100002141024-202.jpg"></p>
 <p>Brita Style ESS 2,4l, bílá, + (2 filtry) PO+PL</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/priprava-napojov-filtracne-kanvice/">Filtračné kanvice</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/priprava-napojov/">Káva a príprava nápojov</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Brita]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002141024</CODE>
 <EAN>4006387140786</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Filtračné kanvice]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Brita Style ESS 2,4l, bílá, + 2 filtry">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Brita/100002141024-202.jpg</IMAGE>
 </IMAGES>
@@ -283979,6 +283982,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002203823</CODE>
+<EAN>8806097977674</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Televízory]]></CATEGORY>
   <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
@@ -310999,6 +311003,11 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   </SHOPITEM>
   <SHOPITEM>
     <CODE>100002203822</CODE>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>100002203823</CODE>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
