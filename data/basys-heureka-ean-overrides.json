@@ -190,5 +190,22 @@
       "https://techpack.com.pl/behringer-xm1800s",
       "https://watanabe-mi.jp/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8201910_HP.pdf"
     ]
+  },
+  "PMP1680S": {
+    "model": "PMP1680S",
+    "ean": "4033653021258",
+    "sourceUrls": [
+      "https://rozetka.pl/595750375/p595750375/",
+      "https://guitarcenter.pl/catalog/naglosnienie/mixery/mixery-analogowe/behringer-pmp1680s",
+      "https://woodbrass.de/products/behringer-europower-pmp1680s-86632"
+    ]
+  },
+  "XR12": {
+    "model": "XR12",
+    "ean": "4033653070416",
+    "sourceUrls": [
+      "https://hurtowniamuzyczna.pl/offer/86/22739/behringer-x-air-xr12.html",
+      "https://hinta.fi/1677370/behringer-xr12/tuotetiedot"
+    ]
   }
 }
