@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-01 20:39 UTC.
+Kontrola z 2026-10-01 21:04 UTC.
 
 Produktov v full.xml: **7145**, z toho 5703 má záznam aj v light.xml.
 Dostupnosť: Skladom 5674, ostatné 1471 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -41,7 +41,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `023125` | Inteligentný odstraňovač zápachu Petoneer | Skladom | 48 | 16.10.2026 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrát | Skladom | 249 | 27.10.2026 |
 | `024515` | Panoramatický fotografický stojan 360 Puluz DCA0871W | Skladom | 100 | 03.11.2026 |
-| `023538` | Inteligentný spínač WiFi SONOFF 4CHR3 | Skladom | 297 | 23.10.2026 |
+| `023538` | Inteligentný spínač WiFi SONOFF 4CHR3 | Skladom | 296 | 23.10.2026 |
 | `023537` | Inteligentný spínač WiFi SONOFF 4CHPROR3 | Skladom | 1101 | 23.10.2026 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW | Skladom | 1040 | 23.10.2026 |
 | `024466` | Vodná fontána pre domáce zvieratá Petoneer Fresco mini  | Skladom | 123 | 16.10.2026 |
@@ -53,7 +53,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `025922` | Panoramatický fotografický stojan Puluz 360 15cm PU3048 | Skladom | 523 | 03.11.2026 |
 | `026083` | Digitálny anemometer Habotest HT625A | Dostupné od 06.10.2026 | null | 06.10.2026 |
 | `026082` | Digitálny anemometer Habotest HT625B, USB | Skladom | 71 | 06.10.2026 |
-| `026080` | Mini detektor úniku plynu Habotest HT61 | Skladom | 204 | 06.10.2026 |
+| `026080` | Mini detektor úniku plynu Habotest HT61 | Skladom | 203 | 06.10.2026 |
 | `026079` | Digitálny laserový pyrometer Habotest HT651D, merač vlh | Skladom | 233 | 06.10.2026 |
 | `026078` | Bezkontaktný laserový teplomer Habotest HT650B | Skladom | 59 | 06.10.2026 |
 | `026077` | Detektor úniku plynu s alarmom Habotest HT601B | Skladom | 250 | 06.10.2026 |
@@ -180,7 +180,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `037405` | Sada 4 filtrov UV+CPL+ND4+ND8 Sunnylife pre DJI Mini 3  | Skladom | 48 | 17.11.2026 |
 | `037511` | Ochranný kryt ovládača a slnečná clona 2 v 1 Sunnylife  | Skladom | 133 | 10.11.2026 |
 | `038608` | Prenosný kávovar HIBREW H4A 3 v 1 s výkonom 80 W a pren | Skladom | 41 | 13.10.2026 |
-| `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1441 | 23.10.2026 |
+| `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1440 | 23.10.2026 |
 | `038339` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `038341` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `038486` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Skladom | 1237 | 23.10.2026 |
