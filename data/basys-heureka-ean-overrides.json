@@ -1191,5 +1191,37 @@
       "https://www.prodj.com/products/behringer-hps5000",
       "https://midi.pl/do-studia/309-behringer-hps-5000-sluchawki-studyjne-4033653150095.html"
     ]
+  },
+  "X1832USB": {
+    "model": "X1832USB",
+    "ean": "4033653021197",
+    "sourceUrls": [
+      "https://hinta.fi/5132085/behringer-x1832usb/tuotetiedot",
+      "https://rozetka.pl/371193753/p371193753/"
+    ]
+  },
+  "B1200D-PRO": {
+    "model": "B1200D-PRO",
+    "ean": "0713757159715",
+    "sourceUrls": [
+      "https://www.bhphotovideo.com/c/product/1821619-REG/behringer_b1200d_pro_high_performance_active_500w_12.html",
+      "https://www.adorama.com/behringer-b1200d-pro-eurolive-active-pa-subwoofer-12-inch-500-watt/p/beb1200dpro"
+    ]
+  },
+  "DEQ2496": {
+    "model": "DEQ2496",
+    "ean": "4033653030243",
+    "sourceUrls": [
+      "https://midi.pl/korektory-equalizery/670-behringer-deq2496-korektor-graficzny-4033653030243.html",
+      "https://www.behringer.com.py/produto/efectos-y-procesadores-de-seal-deq2496-behringer-behringer-4033653030243.html"
+    ]
+  },
+  "DI20": {
+    "model": "DI20",
+    "ean": "4033653100571",
+    "sourceUrls": [
+      "https://guitarcenter.pl/catalog/naglosnienie/akcesoria-naglosnieniowe/di-boxy/behringer-di20",
+      "https://audiopatent.eu/pl/products/behringer-di20-aktywny-di-box-stereo-5945"
+    ]
   }
 }
