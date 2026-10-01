@@ -1287,5 +1287,37 @@
       "https://www.kuantokusta.pt/p/1661000/behringer-p1",
       "https://skladmuzyczny.pl/powerplay-p1-wzmacniacz-do-odsluchow-dousznych-behringer.html"
     ]
+  },
+  "NX6000": {
+    "model": "NX6000",
+    "ean": "4033653090292",
+    "sourceUrls": [
+      "https://hinta.fi/4892390/behringer-nx6000/tiedot",
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+    ]
+  },
+  "NX6000D": {
+    "model": "NX6000D",
+    "ean": "4033653090308",
+    "sourceUrls": [
+      "https://hurtowniamuzyczna.pl/offer/44/32016/behringer-nx6000d.html",
+      "https://www.madridhifi.com/p/behringer-nx6000d/"
+    ]
+  },
+  "FBQ3102HD": {
+    "model": "FBQ3102HD",
+    "ean": "4033653080545",
+    "sourceUrls": [
+      "https://erli.pl/produkt/behringer-fbq3102hd-korektor-graficzny%2C316013783",
+      "https://www.musicacenter.com.br/audio/perifericos/equalizador-de-audio-behringer-ultragraph-fbq3102hd"
+    ]
+  },
+  "B15X": {
+    "model": "B15X",
+    "ean": "4033653106429",
+    "sourceUrls": [
+      "https://www.prodj.com/products/behringer-b15x",
+      "https://alteisa.com/50918-behringer-b15x-altavoz-activo-para-pa-1000w-con-dsp.html"
+    ]
   }
 }
