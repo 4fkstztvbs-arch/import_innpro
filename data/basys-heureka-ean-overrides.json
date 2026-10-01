@@ -1668,5 +1668,59 @@
       "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf",
       "https://www.ebay.de/p/934093960"
     ]
+  },
+  "CFM-1": {
+    "model": "CFM-1",
+    "ean": "4033653130240",
+    "sourceUrls": [
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
+    ]
+  },
+  "WB215": {
+    "model": "WB215",
+    "ean": "4033653190442",
+    "sourceUrls": [
+      "https://hurtowniamuzyczna.pl/offer/437/31214/behringer-wb215.html",
+      "https://www.morele.net/behringer-wb215-uchwyt-scienny-do-b115-215-14833970/"
+    ]
+  },
+  "MIC500USB": {
+    "model": "MIC500USB",
+    "ean": "4033653080644",
+    "sourceUrls": [
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf",
+      "https://www.csmegastore.no/i/21253765/behringer-mic500usb-sort-usb-type-b-1-a-12-v-1-stykker"
+    ]
+  },
+  "BB_560M": {
+    "model": "BB 560M",
+    "ean": "4033653120616",
+    "sourceUrls": [
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf",
+      "https://www.behringer.com/en/products/0400-AAD"
+    ]
+  },
+  "MX882_V2": {
+    "model": "MX882 V2",
+    "ean": "4033653071222",
+    "sourceUrls": [
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf",
+      "https://www.behringer.com/en/products/0602-AAG"
+    ]
+  },
+  "LINE_2_USB": {
+    "model": "LINE 2 USB",
+    "ean": "4033653130677",
+    "sourceUrls": [
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%89%E6%A1%88%E5%86%8520190920.pdf"
+    ]
+  },
+  "VOCODER_VC340": {
+    "model": "VOCODER VC340",
+    "ean": "4033653031370",
+    "sourceUrls": [
+      "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%89%E6%A1%88%E5%86%8520190920.pdf",
+      "https://www.behringer.mx/producto/sintetizador-behringer-vocoder-vc340-8973/?div=GEN"
+    ]
   }
 }
