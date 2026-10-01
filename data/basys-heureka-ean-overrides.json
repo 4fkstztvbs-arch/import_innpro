@@ -1502,5 +1502,38 @@
       "https://www.verkkokauppa.com/fi/product/591781/Behringer-TD-3-BU-syntetisaattori-sininen",
       "https://www.shimamura.co.jp/update/digital-dj/2020/03/dl-136287/"
     ]
+  },
+  "ULM300MIC": {
+    "model": "ULM300MIC",
+    "ean": "4033653062985",
+    "sourceUrls": [
+      "https://www.bananamusic.it/stampa/prodotto/170101",
+      "https://www.prodj.com/products/behringer-ulm300mic",
+      "https://guitarcenter.pl/catalog/naglosnienie/systemy-bezprzewodowe/mikrofonowe/behringer-ulm300mic"
+    ]
+  },
+  "RD-6-BK": {
+    "model": "RD-6-BK",
+    "ean": "4033653032285",
+    "sourceUrls": [
+      "https://www.e.leclerc/fp/behringer-rd-6-bk-boite-a-rythme-4033653032285",
+      "https://www.shimamura.co.jp/update/digital-dj/2020/01/dl-135315/"
+    ]
+  },
+  "X-TOUCH_ONE": {
+    "model": "X-TOUCH ONE",
+    "ean": "4033653130714",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0808-AAG",
+      "https://www.fnac.com/mp41452398/Behringer-X-Touch-One-controleur-DAW"
+    ]
+  },
+  "DI4000_V2": {
+    "model": "DI4000 V2",
+    "ean": "4033653080972",
+    "sourceUrls": [
+      "https://www.numemusic.es/662554-di-caja-de-inyeccin-behringer-di4000-v2",
+      "https://distrinode.pl/behringer-di4000-v2-active-4-kana-owa-skrzynka-di"
+    ]
   }
 }
