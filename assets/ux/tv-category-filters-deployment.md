@@ -12,13 +12,13 @@ This pilot is scoped to pages whose body has Shoptet's `in-televizory` class. It
 Append this stylesheet reference to the existing HTML head code:
 
 ```html
-<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/tv-category-filters.css?v=4">
+<link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/tv-category-filters.css?v=5">
 ```
 
 Append this script reference to the existing HTML footer code:
 
 ```html
-<script defer src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/tv-category-filters.js?v=3"></script>
+<script defer src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/tv-category-filters.js?v=4"></script>
 ```
 
 ## Rollback
