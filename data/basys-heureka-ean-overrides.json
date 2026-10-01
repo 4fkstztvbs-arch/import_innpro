@@ -1853,26 +1853,27 @@
     ]
   },
   "OT360": {
-    "model": "OT360",
     "ean": "4033653150477",
+    "model": "OT360",
     "sourceUrls": [
-      "https://www.fnac.com/mp46208567/Behringer-Eurolight-Octagon-Theater-OT360-projecteur-de-theatre-LED",
+      "https://distrinode.pl/behringer-octagon-theater-ot360-led-projektor",
       "https://www.bol.com/be/nl/p/behringer-eurolight-octagon-theater-ot360-led-theaterspot/9300000130346891/"
     ]
   },
   "RD-6-LM": {
-    "model": "RD-6-LM",
     "ean": "4033653041171",
+    "model": "RD-6-LM",
     "sourceUrls": [
       "https://www.shimamura.co.jp/update/digital-dj/2020/01/dl-135315/",
-      "https://www.studiostore.pl/behringer-rd-6-lm.html"
+      "https://hinta.fi/4956203/behringer-behringer-rd-6-lm-rumpukone-lapinakyvassa-vihreass/"
     ]
   },
   "RD-6-GP": {
-    "model": "RD-6-GP",
     "ean": "4033653041195",
+    "model": "RD-6-GP",
     "sourceUrls": [
-      "https://www.shimamura.co.jp/update/digital-dj/2020/01/dl-135315/"
+      "https://www.shimamura.co.jp/update/digital-dj/2020/01/dl-135315/",
+      "https://www.studiostore.pl/en/behringer-rd-6-gp-maszyna-perkusyjna-fioletowy.html"
     ]
   },
   "TD-3-GP": {
@@ -1897,6 +1898,112 @@
     "sourceUrls": [
       "https://www.soundsrl.it/tc-electronic-bq250-testata-per-basso-250w-preamp-mosfet-e-compressore_cod120792.html",
       "https://www.photopoint.ee/audio/3579748-tc-electronic-bq250-250w-micro-head-bass-amplifier"
+    ]
+  },
+  "MEM-XLR": {
+    "model": "MEM-XLR",
+    "ean": "0615517935099",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf",
+      "https://cs.homecinesolutions.fr/p/29697-meze-audio-premiovy-medeny-kabel-pcuhd-mini-xlr-na-xlr-4-piny"
+    ]
+  },
+  "MEM-S4": {
+    "model": "MEM-S4",
+    "ean": "0615517935068",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf",
+      "https://nl.homecinesolutions.fr/p/23782-meze-audio-premium-mini-xlr-naar-4-pins-xlr-kabel"
+    ]
+  },
+  "MEM-EH": {
+    "ean": "0761062120685",
+    "model": "MEM-EH",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "MEM-EAA": {
+    "ean": "0761062121194",
+    "model": "MEM-EAA",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "MEM-ELB": {
+    "ean": "0615517935174",
+    "model": "MEM-ELB",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "MEM-EV": {
+    "ean": "0615517935198",
+    "model": "MEM-EV",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "M99C-BBS": {
+    "ean": "0615517934832",
+    "model": "M99C-BBS",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf",
+      "https://www.123comparer.fr/Connectique-audio-video/gy5dnpjigr5u1c3w8y3ur.html"
+    ]
+  },
+  "CS-BK": {
+    "ean": "0761062121279",
+    "model": "CS-BK",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "HS-MT": {
+    "ean": "0698596028302",
+    "model": "Manta",
+    "sourceUrls": [
+      "https://www.voix.cz/stolky--stojany--drzaky/meze-audio-manta-stojan-na-sluchatka--cerny/",
+      "https://www.thomann.nl/meze_audio_manta_headphone_stand_black.htm"
+    ]
+  },
+  "HS-MT-CH": {
+    "ean": "0698596028562",
+    "model": "Manta",
+    "sourceUrls": [
+      "https://www.homecinesolutions.fr/p/28087-meze-audio-manta-chrome-edition"
+    ]
+  },
+  "L6": {
+    "model": "L6",
+    "ean": "4033653080675",
+    "sourceUrls": [
+      "https://woodbrass.com/products/midas-legend-l6-368503",
+      "https://audiopatent.eu/pl/products/midas-l6-obudowa-formatu-500-na-6-modulow-6838"
+    ]
+  },
+  "DN32-LIVE": {
+    "model": "DN32-LIVE",
+    "ean": "4033653071345",
+    "sourceUrls": [
+      "https://audiopatent.eu/pl/products/klark-teknik-dn32-live-karta-rozszerzen-6771",
+      "https://www.siluj.net/klark-teknik/19542-klark-teknik-dn32-live-tarjeta-de-expansion-sd-sdhc.html"
+    ]
+  },
+  "TS-ME650FS": {
+    "model": "TS-ME650FS",
+    "ean": "0884938429696",
+    "sourceUrls": [
+      "https://www.pioneer.com.au/shop/car/ts-me650fs/",
+      "https://www.mediamarkt.ch/fr/product/_pioneer-ts-me650fs-2061409.html"
+    ]
+  },
+  "UD-ME100LED": {
+    "model": "UD-ME100LED",
+    "ean": "0884938437851",
+    "sourceUrls": [
+      "https://pioneer-car.eu/uk/asset/installation_manuals/UPLOAD_ID_28754/2b38afde9cf0c99282c6af34b76f204e607d882e/",
+      "https://www.comelsas.it/wp-content/uploads/2025/09/Pioneer-MPA-TECH-Listino.pdf"
     ]
   }
 }
