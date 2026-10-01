@@ -35,7 +35,7 @@ const EAN_OVERRIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'heureka-e
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function xmlAttr(s) { return xmlEscape(s).replace(/"/g, '&quot;'); }
 function isValidEan13(value) {
-  if (!/^\\d{13}$/.test(value)) return false;
+  if (!/^\d{13}$/.test(value)) return false;
   const sum = value.slice(0, 12).split('').reduce((total, digit, index) =>
     total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
   return String((10 - (sum % 10)) % 10) === value[12];
