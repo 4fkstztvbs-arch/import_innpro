@@ -1023,5 +1023,37 @@
       "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/loudspeakers/Panaray_MA12EX/Downloads/technical_information/tds_MA12EX_ltr_EN.pdf",
       "https://www.pc21.fr/fiche/317302-0200-bose-colonne-interieure-exterieure-panaray-ma12ex-blanc-i4489478.html"
     ]
+  },
+  "317088-0100": {
+    "model": "CB-MA12EX",
+    "ean": "0017817500517",
+    "sourceUrls": [
+      "https://www.bedienungsanleitu.ng/bose/cb-ma12ex/anleitung",
+      "https://www.cherrywood-av.co.uk/bose-cb-ma12ex-ceiling-wall-black.html"
+    ]
+  },
+  "318338-0200": {
+    "model": "WMB-MA12",
+    "ean": "0017817505529",
+    "sourceUrls": [
+      "https://www.pc21.fr/fiche/318338-0200-bose-support-bi-pivot-wmb-ma12-ma12ex-blanc-i4489483.html",
+      "https://www.tech-america.com/item/bose-mounting-bracket-for-loudspeaker/318338-0200"
+    ]
+  },
+  "040143": {
+    "model": "FreeSpace 3",
+    "ean": "0017817391535",
+    "sourceUrls": [
+      "https://shop.konferenzraum.tv/detail/index/sArticle/1038",
+      "https://www.boseprofessional.com/de/products/loudspeakers/subwoofers/f1-sub/freespace-3-series-i-acoustimass-bass-module"
+    ]
+  },
+  "040144": {
+    "model": "FreeSpace 3",
+    "ean": "0017817391542",
+    "sourceUrls": [
+      "https://shop.konferenzraum.tv/detail/index/sArticle/1039",
+      "https://www.boseprofessional.com/de/products/loudspeakers/subwoofers/f1-sub/freespace-3-series-i-acoustimass-bass-module"
+    ]
   }
 }
