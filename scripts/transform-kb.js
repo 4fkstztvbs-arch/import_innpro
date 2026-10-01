@@ -133,6 +133,19 @@ async function checkUrlsWithConcurrency(items, concurrency, onResult) {
   await Promise.all(workers);
 }
 
+// K-B's product catalog sometimes sends a GTIN-13 with its two leading zeroes
+// removed (for example 23942531975 -> 0023942531975). Restore them only when the
+// resulting 13-digit value passes the GS1 check digit; keep every other source value
+// unchanged so we do not guess a replacement for a genuinely invalid EAN.
+function normalizeEan(raw) {
+  const value = String(raw == null ? '' : raw).trim();
+  if (!/^\\d{11}$/.test(value)) return value;
+  const candidate = '00' + value;
+  const sum = candidate.slice(0, 12).split('').reduce((total, digit, index) =>
+    total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
+  return String((10 - (sum % 10)) % 10) === candidate[12] ? candidate : value;
+}
+
 function buildShopitemXml(p) {
   p = require('./product-content-overrides').applyProductContent('kb', p);
   const parts = ['<SHOPITEM>'];
@@ -296,7 +309,7 @@ async function main() {
     const isReturnStockSale = (saleState.items[code]?.quantity || 0) > 0;
     if (EXCLUDE_UNAVAILABLE && prodAvail[pid] === '0' && !isReturnStockSale) { stats.skippedUnavailable++; return; }
     const name = field(e, 'sJmenoVyrobku');
-    const ean = field(e, 'sEan');
+    const ean = normalizeEan(field(e, 'sEan'));
     const manufacturer = field(e, 'sJmenoVyrobce');
     if (crossSupplier.shouldExclude(manufacturer, name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
     const warranty = field(e, 'nZarukaMesicu');
