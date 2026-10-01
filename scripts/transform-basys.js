@@ -251,9 +251,18 @@ async function main() {
   const resolvedItems = [];
   for (const item of priceList) {
     const mappedCategory = PRICE_LIST_CATEGORY_MAP[item.category];
+    const eanOverride = BASYS_EAN_OVERRIDES[norm(item.objKod)];
+    const productName = [item.name, item.color].filter(Boolean).join(' - ').replace(/\s+/g, ' ').trim();
+    if (eanOverride) {
+      const modelMatches = norm(eanOverride.model) === norm(item.objKod)
+        || productName.toUpperCase().includes(eanOverride.model.toUpperCase());
+      if (!modelMatches) {
+        throw new Error(`BASYS EAN override identity mismatch for price-list item ${item.objKod}: expected model ${eanOverride.model}`);
+      }
+    }
     resolvedItems.push({
-      objKod: item.objKod, ean: item.ean, isFromPriceList: true,
-      name: [item.name, item.color].filter(Boolean).join(' - ').replace(/\s+/g, ' ').trim(),
+      objKod: item.objKod, ean: eanOverride ? eanOverride.ean : item.ean, isFromPriceList: true,
+      name: productName,
       manufacturer: 'Bose',
       defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER.Bose || 'TV, audio a video > Audio technika',
       categoryWasMapped: !!mappedCategory,
