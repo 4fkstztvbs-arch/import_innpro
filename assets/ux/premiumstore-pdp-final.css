@@ -602,3 +602,20 @@ body.type-detail
   .ps-product-catalog .psc-help > a { font-size: 14px; }
 }
 
+
+
+/* PDP add-to-cart: match category buttons while keeping the native button geometry. */
+body.type-detail #product-detail-form .add-to-cart-button {
+  background-color: #167450 !important;
+  border-color: #167450 !important;
+  border-radius: 999px !important;
+  color: #fff !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+body.type-detail #product-detail-form .add-to-cart-button:hover,
+body.type-detail #product-detail-form .add-to-cart-button:focus-visible {
+  background-color: #145e41 !important;
+  border-color: #145e41 !important;
+}
