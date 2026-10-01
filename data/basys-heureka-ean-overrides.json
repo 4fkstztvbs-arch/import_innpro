@@ -14,5 +14,29 @@
       "https://www.polar.uk.com/midas-dl151-24-input-stage-box-w-mic-preamps-0606-abo",
       "https://www.zeedoshop.ro/produs_midas-dl151_51944_0"
     ]
+  },
+  "DI4800A": {
+    "model": "DI4800A",
+    "ean": "4033653081412",
+    "sourceUrls": [
+      "https://www.musictribe.com/en/products/DI4800A",
+      "https://www.net-s.pl/produkt/behringer-di4800a-di-box-aktywny-4-kanalowy-1709432"
+    ]
+  },
+  "UCA222": {
+    "model": "UCA222",
+    "ean": "4033653030618",
+    "sourceUrls": [
+      "https://www.bol.com/nl/nl/p/behringer-uca222-aanvullende-muziekapparatuur/9200000085225768/",
+      "https://www.photopoint.ee/en/audio/5654261-audio-interface-behringer-uca222"
+    ]
+  },
+  "B-5": {
+    "model": "B-5",
+    "ean": "4033653080156",
+    "sourceUrls": [
+      "https://www.madridhifi.com/p/behringer-b-5-microfono/",
+      "https://www.distrinode.co.za/behringer-b-5-studio-microphone"
+    ]
   }
 }
