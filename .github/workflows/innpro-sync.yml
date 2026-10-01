@@ -21,6 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # A queued run must start from the output published by the preceding run.
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
