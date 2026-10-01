@@ -1914,5 +1914,63 @@
       "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf",
       "https://nl.homecinesolutions.fr/p/23782-meze-audio-premium-mini-xlr-naar-4-pins-xlr-kabel"
     ]
+  },
+  "MEM-EH": {
+    "ean": "0761062120685",
+    "model": "MEM-EH",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "MEM-EAA": {
+    "ean": "0761062121194",
+    "model": "MEM-EAA",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "MEM-ELB": {
+    "ean": "0615517935174",
+    "model": "MEM-ELB",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "MEM-EV": {
+    "ean": "0615517935198",
+    "model": "MEM-EV",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "M99C-BBS": {
+    "ean": "0615517934832",
+    "model": "M99C-BBS",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf",
+      "https://www.123comparer.fr/Connectique-audio-video/gy5dnpjigr5u1c3w8y3ur.html"
+    ]
+  },
+  "CS-BK": {
+    "ean": "0761062121279",
+    "model": "CS-BK",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "HS-MT": {
+    "ean": "0698596028302",
+    "model": "Manta",
+    "sourceUrls": [
+      "https://www.voix.cz/stolky--stojany--drzaky/meze-audio-manta-stojan-na-sluchatka--cerny/",
+      "https://www.thomann.nl/meze_audio_manta_headphone_stand_black.htm"
+    ]
+  },
+  "HS-MT-CH": {
+    "ean": "0698596028562",
+    "model": "Manta",
+    "sourceUrls": [
+      "https://www.homecinesolutions.fr/p/28087-meze-audio-manta-chrome-edition"
+    ]
   }
 }
