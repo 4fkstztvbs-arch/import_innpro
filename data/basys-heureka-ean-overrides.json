@@ -1431,5 +1431,40 @@
       "https://www.ebay.co.uk/itm/406876088294",
       "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/accessories/i_Controlcenter/Downloads/technical_information/tds_controlcenter-cc-3-acc_ja.pdf"
     ]
+  },
+  "X-TOUCH_COMPACT": {
+    "model": "X-TOUCH COMPACT",
+    "ean": "4033653130653",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0808-AAE",
+      "https://woodbrass.shop/products/behringer-x-touch-compact-195174",
+      "https://www.rfelettronica.com/prodotto/behringer-x-touch-compact/"
+    ]
+  },
+  "NX4-6000": {
+    "model": "NX4-6000",
+    "ean": "4033653090322",
+    "sourceUrls": [
+      "https://midi.pl/wzmacniacze/60355-behringer-nx4-6000-wzmacniacz-4033653090322.html",
+      "https://watanabe-mi.jp/brand/wp-content/uploads/2020/06/behringerPA%E4%BE%A1%E6%A0%BC%E8%A1%A8202006_WEB.pdf",
+      "https://rozetka.com.ua/behringer-4033653090322/p602012596/"
+    ]
+  },
+  "DR112DSP": {
+    "model": "DR112DSP",
+    "ean": "4033653230766",
+    "sourceUrls": [
+      "https://www.csmegastore.dk/i/9560333/behringer-dr112dsp-aktiv-h%C3%B8jttaler-12-med-bluetooth",
+      "https://heliart.ee/static/custom/File/Tooteinfo/Behringer_DR_Series_QSG_WW.pdf"
+    ]
+  },
+  "WING": {
+    "model": "WING",
+    "ean": "4033653071307",
+    "sourceUrls": [
+      "https://www.orionestore.it/it/mixer-digitale-behringer-wing-48ch-con-touchscreen/?file=product_pdf.html",
+      "https://www.orionestore.it/en/--70790/?file=product_pdf.html",
+      "https://behringer.com/en/wing"
+    ]
   }
 }
