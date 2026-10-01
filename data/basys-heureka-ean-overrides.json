@@ -38,5 +38,21 @@
       "https://www.madridhifi.com/p/behringer-b-5-microfono/",
       "https://www.distrinode.co.za/behringer-b-5-studio-microphone"
     ]
+  },
+  "UM2": {
+    "model": "UM2",
+    "ean": "4033653170888",
+    "sourceUrls": [
+      "https://www.85cento.it/en/behringer-um2-u-phoria-audio-interface-2x2-usb-with-xenyx-microphone-preamp/",
+      "https://muzyczny.fant.swiebodzin.pl/behringer-um2-u-phoria-interfejs-kartapdf-2061.html"
+    ]
+  },
+  "B112D": {
+    "model": "B112D",
+    "ean": "4033653021890",
+    "sourceUrls": [
+      "https://www.kuantokusta.pt/p/1660842/behringer-eurolive-b112d",
+      "https://rozetka.com.ua/ua/behringer-be-0029/p560961585/"
+    ]
   }
 }
