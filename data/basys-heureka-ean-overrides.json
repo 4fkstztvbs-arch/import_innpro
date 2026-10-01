@@ -1799,5 +1799,23 @@
     "sourceUrls": [
       "https://watanabe-mi.jp/behringer%E5%95%86%E6%B5%81%E5%A4%89%E6%9B%B4%E6%A1%88%E5%86%8520190920.pdf"
     ]
+  },
+  "DL155": {
+    "model": "DL155",
+    "ean": "4033653014052",
+    "sourceUrls": [
+      "https://polar.uk.com/midas-dl155-16-input-16-output-stage-box-w-preamps-0606-abs",
+      "https://www.zeedoshop.ro/produs_midas-dl155_51947_0",
+      "https://mediadl.musictribe.com/media/sys_master/had/h44/8847634759710.pdf"
+    ]
+  },
+  "KT-DANTE64": {
+    "model": "KT-DANTE64",
+    "ean": "4033653150316",
+    "sourceUrls": [
+      "https://www.klarkteknik.com/en/products/0606-ABY",
+      "https://amexco.cl/producto/kt-dante64-klark-teknik-modulo-de-red/",
+      "https://invask.kz/item/455637"
+    ]
   }
 }
