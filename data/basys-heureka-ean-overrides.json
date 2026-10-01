@@ -119,5 +119,23 @@
       "https://www.madridhifi.com/p/behringer-xenyx-x1204usb/",
       "https://www.rozetka.com.ua/ua/behringer-4033653021166/p611136074/"
     ]
+  },
+  "TS-MR1640": {
+    "model": "TS-MR1640",
+    "ean": "0012562672083",
+    "sourceUrls": [
+      "https://ifceuropa.com/files/tarifas/archivos/tarifa-pioneer-marine-sep-25-9.pdf",
+      "https://www.csmegastore.de/i/6442884/ts-mr1640-car-speaker-2-way-160-w",
+      "https://www.infotec.no/pioneer-ts-mr1640-car-speaker-2-way/cat-p/c/p1001248127"
+    ]
+  },
+  "TS-MR2040": {
+    "model": "TS-MR2040",
+    "ean": "0012562672106",
+    "sourceUrls": [
+      "https://ifceuropa.com/files/tarifas/archivos/tarifa-pioneer-marine-sep-25-9.pdf",
+      "https://www.mediamarkt.de/de/product/_pioneer-ts-mr-2040-autolautsprecher-passiv-174873507.html",
+      "https://www.ars24.com/en/pioneer-ts-mr2040-marine-speaker-20cm-coaxial"
+    ]
   }
 }
