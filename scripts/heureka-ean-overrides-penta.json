@@ -22,19 +22,20 @@
       "https://support.apple.com/en-euro/109525"
     ]
   },
+  "65526107": {
+    "model": "RVA100",
+    "ean": "4895252500486",
+    "sourceUrls": [
+      "https://servelec.pt/product/kit-de-substituicao-tp-link-tapo-rva100-p-aspiradores-smart-tapo-rva100",
+      "https://www.bol.com/nl/nl/p/tapo-rva100/9300000159983204/"
+    ]
+  },
   "65526108": {
     "ean": "4895252500448",
     "model": "RVA200",
     "sourceUrls": [
       "https://be.ingrammicro.com/site/productdetail?id=A001-000000000005915134",
       "https://www.tp-link.com/uk/smart-home/robot-vacuum/tapo-rva200/"
-    ]
-  },
-  "5494112": {
-    "ean": "4002921028749",
-    "model": "BY-T290",
-    "sourceUrls": [
-      "https://www.canosa.com.hr/boya-by-t290-dead-cat-fluffy-windshield-290mm-zastita-od-vjetra-za-mikrofon-prof/44233/product"
     ]
   }
 }
