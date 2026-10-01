@@ -81,8 +81,10 @@ function isValidEan13(value) {
 }
 function eanForProduct(code, name, sourceEan) {
   const override = EAN_OVERRIDES[code];
-  if (override && sourceEan === override.replaceIfSourceEan && name.includes(override.model)
-      && isValidEan13(override.ean)) return override.ean;
+  const sourceMatches = override && (override.replaceIfSourceEan
+    ? sourceEan === override.replaceIfSourceEan
+    : !sourceEan);
+  if (sourceMatches && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
   return sourceEan;
 }
 // Rewrites a raw feed img.asp URL (https://shop.atoselektro.cz/img.asp?attid=NNN or ?stiid=NNN)
