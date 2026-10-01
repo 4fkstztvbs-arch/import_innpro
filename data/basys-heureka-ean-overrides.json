@@ -228,7 +228,7 @@
     ]
   },
   "M-105A": {
-    "model": "M-105A",
+    "model": "105 AER",
     "ean": "0698596028371",
     "sourceUrls": [
       "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf",
@@ -236,7 +236,7 @@
     ]
   },
   "M-105S": {
-    "model": "M-105S",
+    "model": "105 SILVA",
     "ean": "0698596028715",
     "sourceUrls": [
       "https://bloomaudio.com/collections/headphones/products/meze-105-silva",
@@ -245,7 +245,7 @@
     ]
   },
   "LIR-2": {
-    "model": "LIR-2",
+    "model": "LIRIC 2",
     "ean": "0698596028364",
     "sourceUrls": [
       "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf",
@@ -253,7 +253,7 @@
     ]
   },
   "POET-SC": {
-    "model": "POET-SC",
+    "model": "POET",
     "ean": "0698596028593",
     "sourceUrls": [
       "https://digistore.ch/en/hi-fi-open-helmets/15515-meze-audio-poet-silver-copper-0698596028593.html",
@@ -261,7 +261,7 @@
     ]
   },
   "STR-GC": {
-    "model": "STR-GC",
+    "model": "STRADA",
     "ean": "0698596028722",
     "sourceUrls": [
       "https://cobra.fr/cdn/shop/files/FICHE_PRODUIT_MEZE_STRADA.pdf?v=9591585108431087227",
@@ -270,7 +270,7 @@
     ]
   },
   "M-ARTA": {
-    "model": "M-ARTA",
+    "model": "ARTA",
     "ean": "0698596028906",
     "sourceUrls": [
       "https://www.evoluzionehifi.it/amplificatori/index.php?product_id=22678&route=product%2Fproduct",
@@ -279,7 +279,7 @@
     ]
   },
   "M99C-V2": {
-    "model": "M99C-V2",
+    "model": "99 Classics 2nd Gen.",
     "ean": "0698596028876",
     "sourceUrls": [
       "https://www.supersonido.es/media/productos/57826/docs/documento-27535.pdf",
@@ -1599,7 +1599,7 @@
     ]
   },
   "X1": {
-    "model": "X1 INFINIUM",
+    "model": "X1",
     "ean": "4033653130349",
     "sourceUrls": [
       "https://www.behringer.com/en/products/0701-AAV",
@@ -1835,6 +1835,68 @@
       "https://www.klarkteknik.com/en/products/0606-ACC",
       "https://www.rfelettronica.com/prodotto/klark-teknik-kt-usb/",
       "https://www.audiopatent.eu/pl/products/klark-teknik-kt-usb-modul-sieciowy-6780"
+    ]
+  },
+  "M99C-WS": {
+    "model": "M99C-WS",
+    "ean": "0700115708876",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2024/12/Meze_Audio_Headphones_Retail_11_2024_web.pdf",
+      "https://www.simex.fi/fi/product/meze-audio-99-classics-walnut-silver/M99C-WS"
+    ]
+  },
+  "MH363": {
+    "model": "MH363",
+    "ean": "4033653150507",
+    "sourceUrls": [
+      "https://www.hudebnicentrum.cz/behringer-moving-head-mh363_z17976/"
+    ]
+  },
+  "OT360": {
+    "model": "OT360",
+    "ean": "4033653150477",
+    "sourceUrls": [
+      "https://www.fnac.com/mp46208567/Behringer-Eurolight-Octagon-Theater-OT360-projecteur-de-theatre-LED",
+      "https://www.bol.com/be/nl/p/behringer-eurolight-octagon-theater-ot360-led-theaterspot/9300000130346891/"
+    ]
+  },
+  "RD-6-LM": {
+    "model": "RD-6-LM",
+    "ean": "4033653041171",
+    "sourceUrls": [
+      "https://www.shimamura.co.jp/update/digital-dj/2020/01/dl-135315/",
+      "https://www.studiostore.pl/behringer-rd-6-lm.html"
+    ]
+  },
+  "RD-6-GP": {
+    "model": "RD-6-GP",
+    "ean": "4033653041195",
+    "sourceUrls": [
+      "https://www.shimamura.co.jp/update/digital-dj/2020/01/dl-135315/"
+    ]
+  },
+  "TD-3-GP": {
+    "model": "TD-3-GP",
+    "ean": "4033653032353",
+    "sourceUrls": [
+      "https://www.shimamura.co.jp/update/digital-dj/2020/03/dl-136287/",
+      "https://www.csmegastore.de/i/21186399/behringer-behringer-td-3-gp-bass-line-synthesizer-lila"
+    ]
+  },
+  "HPM1100U": {
+    "model": "HPM1100U",
+    "ean": "4033653120821",
+    "sourceUrls": [
+      "https://www.dcs.dk/da/p/1003076640",
+      "https://cls-computer.de/cls-hardware/behringer-hpm1100u-closed-back-headphones-with-microphone-pcs9002420"
+    ]
+  },
+  "BQ250": {
+    "model": "BQ250",
+    "ean": "4033653024358",
+    "sourceUrls": [
+      "https://www.soundsrl.it/tc-electronic-bq250-testata-per-basso-250w-preamp-mosfet-e-compressore_cod120792.html",
+      "https://www.photopoint.ee/audio/3579748-tc-electronic-bq250-250w-micro-head-bass-amplifier"
     ]
   }
 }
