@@ -275,8 +275,10 @@ async function main() {
     if (!Number.isFinite(f.priceVat) || f.priceVat <= 0) { skippedNoPrice++; continue; }
     const priceExclVat = f.priceVat / (1 + parseFloat(VAT) / 100);
     const eanOverride = BASYS_EAN_OVERRIDES[norm(f.itemId)];
-    const overrideMatches = eanOverride
-      && String(f.productName || '').toUpperCase().includes(eanOverride.model.toUpperCase());
+    const overrideMatches = eanOverride && (
+      norm(eanOverride.model) === norm(f.itemId)
+      || String(f.productName || '').toUpperCase().includes(eanOverride.model.toUpperCase())
+    );
     if (eanOverride && !overrideMatches) {
       console.warn(`Ignoring BASYS EAN override for ${f.itemId}: product name "${f.productName}" does not match expected model ${eanOverride.model}; leaving EAN empty.`);
     }
