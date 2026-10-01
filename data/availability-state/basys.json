@@ -1718,11 +1718,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-CS-BK",
-      "code": "BASYS-CS-BK",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-DCT-WR204-SH",
       "code": "BASYS-DCT-WR204-SH",
       "ean": ""
@@ -2348,11 +2343,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-M99C-BBS",
-      "code": "BASYS-M99C-BBS",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-M99C-BBS4.4",
       "code": "BASYS-M99C-BBS4.4",
       "ean": ""
@@ -2388,11 +2378,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-M99C-WS",
-      "code": "BASYS-M99C-WS",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-M99C-WS3",
       "code": "BASYS-M99C-WS3",
       "ean": ""
@@ -2408,21 +2393,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-MEM-EAA",
-      "code": "BASYS-MEM-EAA",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-MEM-EH",
-      "code": "BASYS-MEM-EH",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-MEM-ELB",
-      "code": "BASYS-MEM-ELB",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-MEM-ELTG",
       "code": "BASYS-MEM-ELTG",
       "ean": ""
@@ -2430,11 +2400,6 @@
     {
       "key": "code:BASYS-MEM-ELXLR",
       "code": "BASYS-MEM-ELXLR",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-MEM-EV",
-      "code": "BASYS-MEM-EV",
       "ean": ""
     },
     {
@@ -2448,11 +2413,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-MEM-S4",
-      "code": "BASYS-MEM-S4",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-MEM-S4.4",
       "code": "BASYS-MEM-S4.4",
       "ean": ""
@@ -2460,11 +2420,6 @@
     {
       "key": "code:BASYS-MEM-S6.3",
       "code": "BASYS-MEM-S6.3",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-MEM-XLR",
-      "code": "BASYS-MEM-XLR",
       "ean": ""
     },
     {
@@ -3888,6 +3843,31 @@
       "ean": "0012562672106"
     },
     {
+      "key": "ean:0615517934832",
+      "code": "BASYS-M99C-BBS",
+      "ean": "0615517934832"
+    },
+    {
+      "key": "ean:0615517935068",
+      "code": "BASYS-MEM-S4",
+      "ean": "0615517935068"
+    },
+    {
+      "key": "ean:0615517935099",
+      "code": "BASYS-MEM-XLR",
+      "ean": "0615517935099"
+    },
+    {
+      "key": "ean:0615517935174",
+      "code": "BASYS-MEM-ELB",
+      "ean": "0615517935174"
+    },
+    {
+      "key": "ean:0615517935198",
+      "code": "BASYS-MEM-EV",
+      "ean": "0615517935198"
+    },
+    {
       "key": "ean:0698596028302",
       "code": "BASYS-HS-MT",
       "ean": "0698596028302"
@@ -3933,9 +3913,29 @@
       "ean": "0698596028906"
     },
     {
+      "key": "ean:0700115708876",
+      "code": "BASYS-M99C-WS",
+      "ean": "0700115708876"
+    },
+    {
       "key": "ean:0713757159715",
       "code": "BASYS-B1200D-PRO",
       "ean": "0713757159715"
+    },
+    {
+      "key": "ean:0761062120685",
+      "code": "BASYS-MEM-EH",
+      "ean": "0761062120685"
+    },
+    {
+      "key": "ean:0761062121194",
+      "code": "BASYS-MEM-EAA",
+      "ean": "0761062121194"
+    },
+    {
+      "key": "ean:0761062121279",
+      "code": "BASYS-CS-BK",
+      "ean": "0761062121279"
     },
     {
       "key": "ean:0884938429696",
@@ -4815,6 +4815,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-CS-BK",
+      "code": "BASYS-CS-BK",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-CT200",
       "code": "BASYS-CT200",
       "ean": ""
@@ -4995,8 +5000,48 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-M99C-BBS",
+      "code": "BASYS-M99C-BBS",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-M99C-V2",
       "code": "BASYS-M99C-V2",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-M99C-WS",
+      "code": "BASYS-M99C-WS",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MEM-EAA",
+      "code": "BASYS-MEM-EAA",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MEM-EH",
+      "code": "BASYS-MEM-EH",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MEM-ELB",
+      "code": "BASYS-MEM-ELB",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MEM-EV",
+      "code": "BASYS-MEM-EV",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MEM-S4",
+      "code": "BASYS-MEM-S4",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MEM-XLR",
+      "code": "BASYS-MEM-XLR",
       "ean": ""
     },
     {
