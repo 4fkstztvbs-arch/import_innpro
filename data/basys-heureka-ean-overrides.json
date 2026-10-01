@@ -1319,5 +1319,31 @@
       "https://www.prodj.com/products/behringer-b15x",
       "https://alteisa.com/50918-behringer-b15x-altavoz-activo-para-pa-1000w-con-dsp.html"
     ]
+  },
+  "040145": {
+    "model": "FreeSpace 3",
+    "ean": "0017817391856",
+    "sourceUrls": [
+      "https://www.markertek.com/product/bose-fs-3m-we/bose-freespace-3-series-ii-acoustimass-module-surface-mount-subwoofer-white",
+      "https://shop.konferenzraum.tv/detail/index/sArticle/1038"
+    ]
+  },
+  "040146": {
+    "model": "FreeSpace 3",
+    "ean": "0017817391863",
+    "sourceUrls": [
+      "https://shop.konferenzraum.tv/detail/index/sArticle/1034",
+      "https://www.directdial.com/us/item/bose-professional-freespace-3-indoor-surface-mount-speaker/40146",
+      "https://www.boseprofessional.com/de/products/loudspeakers/subwoofers/f1-sub/freespace-3-series-i-acoustimass-bass-module"
+    ]
+  },
+  "040188": {
+    "model": "MA12",
+    "ean": "0017817392280",
+    "sourceUrls": [
+      "https://www.adiglobaldistribution.us/product/1b-40188",
+      "https://www.bhphotovideo.com/c/product/1330021-REG/bose_professional_40188_panaray_ma12_modular_vertical.html",
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/pro/global/products/loudspeakers/Panaray_MA12/Downloads/technical_information/tds_MA12_ltr_EN.pdf"
+    ]
   }
 }
