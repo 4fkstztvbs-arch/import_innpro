@@ -1,0 +1,107 @@
+<style><!--
+#psx-hub{--psx-ink:#10201a;--psx-green:#176846;--psx-deep:#0c2a20;--psx-gold:#f4c04e;--psx-cream:#fbf6ea;--psx-line:#e3e8e4;--psx-muted:#4f5f58;margin:20px 0 28px;color:var(--psx-ink);font-size:16px;line-height:1.55;text-align:left}
+#psx-hub *{box-sizing:border-box}
+#psx-hub a{text-decoration:none;color:inherit}
+#psx-hub a:focus-visible{outline:3px solid var(--psx-gold);outline-offset:3px}
+#psx-hub .psx-hero{position:relative;overflow:hidden;border-radius:20px;background:radial-gradient(circle at 78% 30%,rgba(244,192,78,.30),transparent 46%),linear-gradient(135deg,#0c2a20 0%,#154534 58%,#1b3f52 100%);color:#fff;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:8px;padding:44px 40px 38px}
+#psx-hub .psx-garland{position:absolute;left:0;top:0;width:100%;height:46px;pointer-events:none}
+#psx-hub .psx-garland circle{animation:psx-tw 3.2s ease-in-out infinite}
+#psx-hub .psx-garland circle:nth-of-type(2n){animation-delay:.8s}
+#psx-hub .psx-garland circle:nth-of-type(3n){animation-delay:1.6s}
+@keyframes psx-tw{0%,100%{opacity:1}50%{opacity:.35}}
+#psx-hub .psx-eyebrow{margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--psx-gold)}
+#psx-hub .psx-title{margin:0 0 12px;font-size:clamp(28px,3.6vw,44px);line-height:1.12;font-weight:800;letter-spacing:-.5px;color:#fff}
+#psx-hub .psx-title em{font-style:normal;color:var(--psx-gold)}
+#psx-hub .psx-lead{margin:0 0 22px;max-width:520px;font-size:17px;line-height:1.55;color:#e6efe9}
+#psx-hub .psx-actions{display:flex;flex-wrap:wrap;gap:10px}
+#psx-hub .psx-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;border-radius:999px;font-weight:700;font-size:16px;border:2px solid transparent;transition:transform .15s,background .15s}
+#psx-hub .psx-btn--gold{background:var(--psx-gold);color:#241a00}
+#psx-hub .psx-btn--gold:hover{background:#ffd073;transform:translateY(-1px)}
+#psx-hub .psx-btn--ghost{border-color:rgba(255,255,255,.7);color:#fff}
+#psx-hub .psx-btn--ghost:hover{background:rgba(255,255,255,.12)}
+#psx-hub .psx-art{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center}
+#psx-hub .psx-plate{width:min(100%,300px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#fffdf5 0%,#fbf0d4 70%,rgba(251,240,212,.0) 72%);display:flex;align-items:center;justify-content:center;box-shadow:0 0 60px rgba(244,192,78,.35)}
+#psx-hub .psx-plate img{width:84%;height:84%;object-fit:contain;mix-blend-mode:multiply}
+#psx-hub .psx-cap{margin-top:8px;font-size:13px;color:#cfe0d6}
+#psx-hub .psx-points{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 22px;margin:14px 0 0;padding:0;list-style:none;font-size:14px;color:var(--psx-muted)}
+#psx-hub .psx-points li:before{content:"✓";color:var(--psx-green);font-weight:800;margin-right:6px}
+#psx-hub .psx-head{margin:34px 0 16px}
+#psx-hub .psx-head h2{margin:0 0 6px;font-size:clamp(23px,2.6vw,30px);line-height:1.2;font-weight:800;color:var(--psx-ink)}
+#psx-hub .psx-head p{margin:0;color:var(--psx-muted);font-size:16px}
+#psx-hub .psx-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+#psx-hub .psx-card{position:relative;display:flex;flex-direction:column;overflow:hidden;background:#fff;border:1px solid var(--psx-line);border-radius:16px;transition:transform .18s,box-shadow .18s,border-color .18s}
+#psx-hub .psx-card:hover{transform:translateY(-3px);border-color:var(--psx-green);box-shadow:0 10px 26px rgba(12,42,32,.14)}
+#psx-hub .psx-img{display:flex;align-items:center;justify-content:center;height:160px;background:var(--psx-cream);padding:10px}
+#psx-hub .psx-img img{max-width:100%;max-height:100%;width:auto;height:100%;object-fit:contain;mix-blend-mode:multiply}
+#psx-hub .psx-body{display:flex;flex-direction:column;gap:4px;padding:14px 16px 16px;flex:1}
+#psx-hub .psx-body b{font-size:17px;line-height:1.25;font-weight:800;color:var(--psx-ink)}
+#psx-hub .psx-body small{font-size:14px;line-height:1.4;color:var(--psx-muted)}
+#psx-hub .psx-tip{margin-top:6px;padding:6px 10px;border-radius:8px;background:#eef6f0;color:#14583b;font-size:13px;line-height:1.35}
+#psx-hub .psx-go{margin-top:auto;padding-top:10px;font-size:14px;font-weight:800;color:var(--psx-green)}
+#psx-hub .psx-badge{position:absolute;top:10px;left:10px;z-index:1;padding:4px 10px;border-radius:999px;background:var(--psx-gold);color:#241a00;font-size:12px;font-weight:800;letter-spacing:.03em}
+#psx-hub .psx-card--lead{grid-column:span 2}
+#psx-hub .psx-card--lead .psx-img{height:200px}
+#psx-hub .psx-card--lead .psx-body b{font-size:20px}
+#psx-hub .psx-card--wide{grid-column:1/-1;flex-direction:row;background:linear-gradient(90deg,var(--psx-cream),#fff 60%)}
+#psx-hub .psx-card--wide .psx-img{flex:0 0 260px;height:auto;min-height:150px}
+#psx-hub .psx-card--wide .psx-body{justify-content:center}
+#psx-hub .psx-card--wide .psx-go{margin-top:10px}
+#psx-hub .psx-help{margin-top:26px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 24px;padding:20px 24px;border-radius:16px;background:#eef6f0;border:1px solid #d4e6da}
+#psx-hub .psx-help h3{margin:0 0 2px;font-size:19px;font-weight:800;color:var(--psx-ink)}
+#psx-hub .psx-help p{margin:0;color:var(--psx-muted);font-size:15px}
+#psx-hub .psx-help-links{display:flex;flex-wrap:wrap;gap:10px}
+#psx-hub .psx-btn--green{background:var(--psx-green);color:#fff}
+#psx-hub .psx-btn--green:hover{background:#125a3b}
+#psx-hub .psx-btn--line{border-color:var(--psx-green);color:var(--psx-green);background:#fff}
+@media(max-width:950px){#psx-hub .psx-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#psx-hub .psx-card--lead{grid-column:span 2}}
+@media(max-width:700px){
+#psx-hub .psx-hero{grid-template-columns:1fr;padding:38px 20px 24px;border-radius:16px}
+#psx-hub .psx-art{order:-1;margin-top:6px}
+#psx-hub .psx-plate{width:150px}
+#psx-hub .psx-cap{display:none}
+#psx-hub .psx-lead{font-size:16px}
+#psx-hub .psx-actions .psx-btn{flex:1 1 100%}
+#psx-hub .psx-grid{gap:10px}
+#psx-hub .psx-img{height:110px}
+#psx-hub .psx-card--lead .psx-img{height:140px}
+#psx-hub .psx-body{padding:10px 12px 12px}
+#psx-hub .psx-body b{font-size:15px}
+#psx-hub .psx-card--lead .psx-body b{font-size:17px}
+#psx-hub .psx-body small{font-size:13px}
+#psx-hub .psx-tip{font-size:12.5px}
+#psx-hub .psx-card--wide{grid-column:span 2;flex-direction:column}
+#psx-hub .psx-card--wide .psx-img{flex:none;height:120px;min-height:0}
+#psx-hub .psx-help{padding:16px}
+}
+@media(prefers-reduced-motion:reduce){#psx-hub .psx-garland circle{animation:none}#psx-hub .psx-card,#psx-hub .psx-btn{transition:none}}
+--></style>
+<div id="psx-hub" class="psx-hub">
+<section class="psx-hero" aria-label="Vianočné osvetlenie">
+<svg class="psx-garland" viewBox="0 0 1000 46" preserveAspectRatio="none" aria-hidden="true"><path d="M0 8 Q125 40 250 8 T500 8 T750 8 T1000 8" fill="none" stroke="#2e5a47" stroke-width="2"/><circle cx="60" cy="25" r="5" fill="#f4c04e"/><circle cx="125" cy="30" r="5" fill="#ff7a6b"/><circle cx="190" cy="25" r="5" fill="#7fd6a4"/><circle cx="315" cy="25" r="5" fill="#f4c04e"/><circle cx="375" cy="30" r="5" fill="#8fc6ff"/><circle cx="440" cy="25" r="5" fill="#ff7a6b"/><circle cx="560" cy="25" r="5" fill="#f4c04e"/><circle cx="625" cy="30" r="5" fill="#7fd6a4"/><circle cx="690" cy="25" r="5" fill="#8fc6ff"/><circle cx="815" cy="25" r="5" fill="#f4c04e"/><circle cx="875" cy="30" r="5" fill="#ff7a6b"/><circle cx="940" cy="25" r="5" fill="#7fd6a4"/></svg>
+<div class="psx-copy">
+<p class="psx-eyebrow">Malé svetielka. Veľká vianočná atmosféra.</p>
+<h2 class="psx-title">Vianočné osvetlenie pre <em>váš čarovný domov</em></h2>
+<p class="psx-lead">Stromček, okná, dom aj záhrada. Vyberte si podľa toho, čo chcete rozsvietiť, a my vás navedieme na tie správne svetelné reťaze a dekorácie.</p>
+<div class="psx-actions"><a class="psx-btn psx-btn--gold" href="#druhy" data-christmas-link="hero">Vybrať podľa miesta</a><a class="psx-btn psx-btn--ghost" href="#ps-christmas-rady" data-christmas-link="hero">Ako vybrať správne</a></div>
+</div>
+<div class="psx-art"><div class="psx-plate"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/628470_solight-led-vianocna-hviezda-3d--150-led--60cm--ip44--tepla-biela--casovac-obrazok-1.jpg?6aa76479" alt="Solight 3D LED vianočná hviezda v teplej bielej farbe" fetchpriority="high" /></div><span class="psx-cap">Svetelná hviezda Solight · 60 cm</span></div>
+</section>
+<ul class="psx-points" aria-label="Čo nájdete v ponuke"><li>Do interiéru aj do záhrady</li><li>Teplé, studené aj farebné svetlo</li><li>Modely s časovačom a smart ovládaním</li><li>Dostupnosť a termín dodania pri každom produkte</li></ul>
+<section id="druhy" aria-label="Výber podľa miesta">
+<div class="psx-head"><h2>Čo chcete rozsvietiť?</h2><p>Vyberte druh osvetlenia. Farbu, napájanie a ďalšie vlastnosti doladíte filtrami pri produktoch.</p></div>
+<div class="psx-grid" id="ps-christmas-categories">
+<a class="psx-card psx-card--lead" id="ps-christmas-retaze" href="/vianocne-osvetlenie/?pv39=18693#products" data-christmas-link="tile"><span class="psx-badge">Začnite tu</span><span class="psx-img"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/642570_solight-led-vonkajsia-vanocna-retaz--100-led--10m--privod-3m--8-funkcii--casovac--ip44--tepla-biela-obrazok-1.jpg?6aa8b5eb" alt="Vonkajšia vianočná LED reťaz Solight, 100 LED, 10 m" loading="lazy" /></span><span class="psx-body"><b>Vianočné LED reťaze</b><small>Na stromček, zábradlie aj fasádu.</small><span class="psx-tip">Tip: porovnávajte osvetlenú dĺžku, nie celkovú s prívodom.</span><span class="psx-go">Zobraziť reťaze →</span></span></a>
+<a class="psx-card" id="ps-christmas-cencule" href="/vianocne-osvetlenie/?pv39=18714#products" data-christmas-link="tile"><span class="psx-img"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/628449_solight-led-vianocna-girlanda--cencule--200-led--10m--ip44--teple-biele-svetlo-obrazok-1.jpg?6aa76477" alt="Svetelná vianočná girlanda Solight v tvare cencúľov, 200 LED" loading="lazy" /></span><span class="psx-body"><b>Svetelné cencúle</b><small>Na dom a pod strechu.</small><span class="psx-tip">Vonku vyberajte model určený do exteriéru.</span><span class="psx-go">Zobraziť →</span></span></a>
+<a class="psx-card" id="ps-christmas-zavesy" href="/vianocne-osvetlenie/?pv39=18705#products" data-christmas-link="tile"><span class="psx-img"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/506313_solight-led-vianocne-zaves--hviezdy--sirka-1-8m--77led--ip20--3xaa--usb-obrazok-1.jpg?6a827a70" alt="Vianočný LED záves Solight s hviezdami, šírka 1,8 m" loading="lazy" /></span><span class="psx-body"><b>Svetelné závesy</b><small>Rozžiaria vaše okná.</small><span class="psx-tip">Zmerajte šírku okna a skontrolujte napájanie.</span><span class="psx-go">Zobraziť →</span></span></a>
+<a class="psx-card" id="ps-christmas-mikro" href="/vianocne-osvetlenie/?pv39=18741#products" data-christmas-link="tile"><span class="psx-img"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/508611_solight-vianocna-retaz-medena--50x-mini-led--5m--3-x-aa--teple-svetlo-obrazok-1.jpg?6a8e5805" alt="Medená mikro LED reťaz Solight, 50 LED, 5 m" loading="lazy" /></span><span class="psx-body"><b>Mikro LED reťaze</b><small>Jemné svetlo do dekorácií.</small><span class="psx-tip">Pri batériových modeloch skontrolujte typ batérií.</span><span class="psx-go">Zobraziť →</span></span></a>
+<a class="psx-card" id="ps-christmas-girlandy" href="/vianocne-osvetlenie/?pv39=18738#products" data-christmas-link="tile"><span class="psx-img"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/507948_solight-led-vianocna-girlanda-s-ihlicim--5m--80x-led--casovac--3xaa--ip44-obrazok-1.jpg?6a8a6383" alt="Vianočná girlanda Solight s ihličím a 80 LED, 5 m" loading="lazy" /></span><span class="psx-body"><b>Girlandy a vence</b><small>Ihličie so svetielkami.</small><span class="psx-tip">Ozdoba na dvere, schodisko či poličky.</span><span class="psx-go">Zobraziť →</span></span></a>
+<a class="psx-card" id="ps-christmas-sviecky" href="/vianocne-osvetlenie/?pv39=18747#products" data-christmas-link="tile"><span class="psx-img"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/628542_solight-sada-2x-led-sklenene-sviecky--casovac--7-5x10cm--2x-aa-obrazok-1.jpg?6aa76480" alt="Súprava dvoch sklenených LED sviečok Solight s časovačom" loading="lazy" /></span><span class="psx-body"><b>LED sviečky a svietniky</b><small>Pohoda bez plameňa.</small><span class="psx-tip">Pri sade overte, či sú batérie v balení.</span><span class="psx-go">Zobraziť →</span></span></a>
+<a class="psx-card" id="ps-christmas-dekoracie" href="/vianocne-osvetlenie/?pv39=18732#products" data-christmas-link="tile"><span class="psx-img"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/628470_solight-led-vianocna-hviezda-3d--150-led--60cm--ip44--tepla-biela--casovac-obrazok-1.jpg?6aa76479" alt="Vonkajšia 3D LED hviezda Solight, 150 LED, 60 cm" loading="lazy" /></span><span class="psx-body"><b>Svietiace dekorácie</b><small>Hviezdy, stromčeky a dedinky.</small><span class="psx-tip">Pri vonkajšej dekorácii hľadajte krytie IP44.</span><span class="psx-go">Zobraziť →</span></span></a>
+<a class="psx-card psx-card--wide" id="ps-christmas-smart" href="/vianocne-osvetlenie/?pv48=18702#products" data-christmas-link="tile"><span class="psx-badge">Smart</span><span class="psx-img"><img src="https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/507117_solight-led-wifi-smart-vonkajsia-vianocna-retaz--400-led--20m--privod-5m--tepla-biela-viacfarebny-obrazok-1.jpg?6a851d76" alt="Smart vonkajšia LED reťaz Solight, 400 LED, 20 m" loading="lazy" /></span><span class="psx-body"><b>Smart osvetlenie</b><small>Farby a ovládanie v aplikácii.</small><span class="psx-tip">Funkcie sa líšia podľa modelu, pozrite si detail.</span><span class="psx-go">Zobraziť →</span></span></a>
+</div>
+</section>
+<div class="psx-help">
+<div><h3>Neviete, ktorú reťaz vybrať?</h3><p>Prejdite si krátke rady k výberu alebo nám napíšte, poradíme.</p></div>
+<div class="psx-help-links"><a class="psx-btn psx-btn--green" href="#ps-christmas-rady" data-christmas-link="help">Rady k výberu</a><a class="psx-btn psx-btn--line" href="/kontakty/" data-christmas-link="help">Napísať nám</a><a class="psx-btn psx-btn--line" href="#products" data-christmas-link="help">Všetky produkty</a></div>
+</div>
+</div>
