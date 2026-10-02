@@ -1757,49 +1757,46 @@ body.type-detail .p-data-wrapper{
   }
 }
 
-
 /* ==========================================================================
    Kompaktné dlaždice podkategórií (nadradené kategórie, desktop aj mobil).
-   Prepisuje inline štýly #ps-cat-<id> v popise kategórie: dlaždica = malý
-   obrázok + názov v jednom riadku, bez popisu, aby sa produkty dostali hneď
-   pod prvú obrazovku. Koncové kategórie dlaždice nemajú, tie sa nemenia.
+   Prepisuje inline štýly #ps-cat-<id> v popise kategórie (vrátane starších
+   variantov .psh-*/.tile): dlaždica = malý obrázok + názov v jednom riadku,
+   bez popisu, aby sa produkty dostali hneď pod dlaždice. Selektor začína
+   #content, aby prebil inline pravidlá s ID a !important. Koncové kategórie
+   dlaždice nemajú a nemenia sa.
    ========================================================================== */
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-intro {
-  display: block !important;
-  margin: 0 0 14px !important;
-}
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-intro p {
-  max-width: 900px !important;
-  font-size: 15px !important;
-  line-height: 1.55 !important;
-}
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-skip {
-  display: none !important;
-}
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-head {
-  margin: 0 0 10px !important;
-}
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-head > span {
-  display: none !important;
-}
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) h2 {
-  font-size: 20px !important;
-}
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-intro { display: block !important; margin: 0 0 14px !important; }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-intro p { max-width: 900px !important; font-size: 15px !important; line-height: 1.55 !important; }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-skip { display: none !important; }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-head { margin: 0 0 10px !important; }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-head > span { display: none !important; }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) h2 { font-size: 20px !important; }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .grid,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)) !important;
   gap: 8px !important;
   margin: 0 0 18px !important;
 }
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-tile {
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-tile { grid-column: auto !important; margin: 0 !important; min-width: 0 !important; }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-tile,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .tile,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-main {
+  display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
   gap: 10px !important;
+  min-height: 0 !important;
   padding: 6px 10px !important;
   border-radius: 10px !important;
 }
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-photo,
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo {
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-photo,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .photo,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-photo {
+  grid-column: auto !important;
+  grid-row: auto !important;
   flex: 0 0 48px !important;
   width: 48px !important;
   height: 48px !important;
@@ -1808,10 +1805,22 @@ body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo {
   padding: 4px !important;
   border-radius: 8px !important;
 }
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo {
-  font-size: 0 !important;
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo { font-size: 0 !important; }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-copy {
+  grid-column: auto !important;
+  grid-row: auto !important;
+  display: block !important;
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  padding: 0 !important;
 }
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-label {
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-title {
+  grid-column: auto !important;
+  grid-row: auto !important;
+  display: block !important;
   flex: 1 1 auto !important;
   min-width: 0 !important;
   margin: 0 !important;
@@ -1820,32 +1829,40 @@ body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-label {
   text-decoration: none !important;
   hyphens: auto;
 }
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-arrow,
-body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-caption {
-  display: none !important;
-}
-@media (max-width: 850px) {
-  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-arrow,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-caption,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .caption,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-caption { display: none !important; }
+@media (max-width: 900px) {
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .grid,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     gap: 6px !important;
   }
-  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-tile {
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-tile,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .tile,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-main {
     display: flex !important;
+    min-height: 0 !important;
     padding: 6px 8px !important;
     gap: 8px !important;
   }
-  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-photo,
-  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo {
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-photo,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .photo,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-photo {
     flex-basis: 40px !important;
     width: 40px !important;
     height: 40px !important;
   }
-  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-label {
-    font-size: 14px !important;
-  }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-title { font-size: 14px !important; }
 }
 @media (max-width: 360px) {
-  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
-    grid-template-columns: 1fr !important;
-  }
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .grid,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-grid { grid-template-columns: 1fr !important; }
 }
