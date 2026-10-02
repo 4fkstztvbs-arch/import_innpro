@@ -1,0 +1,49 @@
+/* PremiumStore: drobné opravy z auditu 2. 10. 2026.
+   Samostatný súbor, ktorý sa načíta ako posledný (po premiumstore-cro.css). */
+
+/* Košík: tlačidlo "Odstrániť z košíka" Shoptet zobrazuje len pri hoveri
+   (tr.removeable .remove-item {opacity:0}). Zobraziť vždy. */
+.cart-table tr.removeable .remove-item {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Dlaždice podkategórií: žiadne automatické delenie slov ("zá-hradné"). */
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-tile,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .tile,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-tile,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-title,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-label,
+body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) a {
+  -webkit-hyphens: none !important;
+  hyphens: none !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+}
+
+/* Detail, mobil a tablet: lepkavý nákupný panel (.ps-buybar, ~72 px, skrytý od 1024 px)
+   nesmie zakrývať koniec stránky. */
+@media (max-width: 1023px) {
+  body.type-detail {
+    padding-bottom: 84px;
+  }
+}
+
+/* Košík a objednávka: sekundárne tlačidlo "Späť do obchodu" / "Späť" ako tlačidlo s
+   obrysom, aby nevyzeralo ako vypnutý text. */
+body.ordering-process .btn.next-step-back {
+  background: #fff !important;
+  color: #167450 !important;
+  border: 1px solid #167450 !important;
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+body.ordering-process .btn.next-step-back:hover,
+body.ordering-process .btn.next-step-back:focus-visible {
+  background: #eefaf5 !important;
+  color: #145e41 !important;
+  border-color: #145e41 !important;
+}
