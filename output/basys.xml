@@ -6196,6 +6196,7 @@
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>BASYS-TC 960807001</CODE>
+<EAN>5706622019653</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Hudobné nástroje a príslušenstvo]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="TC Electronic Mini Corona Chorus efektový pedál - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/c/o/corona-mini-front-2000pxls.png</IMAGE>
@@ -23999,12 +24000,13 @@
 <SHORT_DESCRIPTION><![CDATA[Dynamický mikrofón s pohyblivou cievkou (hyperkardioidný), vhodný pre kopáky aj vokálya a dychové nástroje, frekvenčný rozsah 30-20.000 Hz, poskytuje jasný signál aj pri extrémne vysokých akustických…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p style="text-align: justify;">Dynamický mikrofón s pohyblivou cievkou (hyperkardioidný), vhodný pre kopáky aj vokálya a dychové nástroje, frekvenčný rozsah 30-20.000 Hz, poskytuje jasný signál aj pri extrémne vysokých akustických tlakoch.</p>
 <p></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/mikrofony-a-bezdrotove-systemy/">Mikrofóny a bezdrôtové systémy</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/podium--diskoteka--dj/">Pódium, diskotéka, DJ</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Beyerdynamic]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>BASYS-BD 730092</CODE>
-<CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Mikrofóny a bezdrôtové systémy]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
+<EAN>4010118730092</EAN>
+<CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Pódium, diskotéka, DJ]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Beyerdynamic M88 dynamický mikrofón - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/r/product_picture_1_-_bd_730092.jpg</IMAGE>
   <IMAGE description="Beyerdynamic M88 dynamický mikrofón - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/r/product_picture_2_-_bd_730092.jpg</IMAGE>
@@ -24025,12 +24027,13 @@
 <SHORT_DESCRIPTION><![CDATA[Dynamický dvojitý páskový mikrofón, ideálne pred stereo, priestorové a prístrojové a orchestrálne nahrávky, vynikajúce potlačenie bočného hluku, rozsah 40-18.000 Hz, má smerový vzor osem, výnimočný…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p style="text-align: justify;">Dynamický dvojitý páskový mikrofón, ideálne pred stereo, priestorové a prístrojové a orchestrálne nahrávky, vynikajúce potlačenie bočného hluku, rozsah 40-18.000 Hz, má smerový vzor osem, výnimočný zvukový charakter.</p>
 <p></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/mikrofony-a-bezdrotove-systemy/">Mikrofóny a bezdrôtové systémy</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/podium--diskoteka--dj/">Pódium, diskotéka, DJ</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Beyerdynamic]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>BASYS-BD 730173</CODE>
-<CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Mikrofóny a bezdrôtové systémy]]></CATEGORY><CATEGORY><![CDATA[Profesionálna audio technika]]></CATEGORY></CATEGORIES>
+<EAN>4010118730177</EAN>
+<CATEGORIES><CATEGORY><![CDATA[Profesionálna audio technika > Pódium, diskotéka, DJ]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Beyerdynamic M130 dynamický páskový mikrofón - obrázok 1">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/r/product_picture_1_-_bd_730173.jpg</IMAGE>
   <IMAGE description="Beyerdynamic M130 dynamický páskový mikrofón - obrázok 2">https://www.basys.sk/media/catalog/product/cache/4/small_image/265x/9df78eab33525d08d6e5fb8d27136e95/p/r/product_picture_2_-_bd_730173.jpg</IMAGE>
@@ -29559,6 +29562,16 @@
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>BASYS-BD 730092</CODE>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>BASYS-BD 730173</CODE>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>BASYS-BD 730181</CODE>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -30240,6 +30253,11 @@
   </SHOPITEM>
   <SHOPITEM>
     <CODE>BASYS-TC 960804001</CODE>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>BASYS-TC 960807001</CODE>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>

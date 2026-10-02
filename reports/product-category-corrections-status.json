@@ -1,7 +1,7 @@
 {
   "products": 27805,
-  "matched": 657,
-  "categoryChanges": 172,
+  "matched": 655,
+  "categoryChanges": 170,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -2151,6 +2151,16 @@
     {
       "supplier": "basys",
       "code": "BASYS-BD 1000310",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 730092",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 730173",
       "ean": ""
     },
     {
