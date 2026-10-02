@@ -2040,5 +2040,32 @@
       "https://www.ceneo.pl/133589503",
       "https://www.adorama.com/bepmc300.html"
     ]
+  },
+  "PMC-500": {
+    "model": "PMC-500",
+    "ean": "4033653161367",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/cables-y-conectores-pmc500-behringer-behringer-4033653161367.html",
+      "https://distrinode.pl/behringer-pmc-500-xlr-kabel-mikrofonowy-5m-czarny",
+      "https://www.ronis.hr/hr/mikrofonski-kabel-behringer-pmc-500-xlr-f-xlr-m-duzina-5m"
+    ]
+  },
+  "PMC-1000": {
+    "model": "PMC-1000",
+    "ean": "4033653161381",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0009-AAK",
+      "https://audiopatent.eu/pl/products/behringer-pmc-1000-kabel-mikrofonowy-10-m-6134",
+      "https://www.adorama.com/bepmc1000.html"
+    ]
+  },
+  "GMC-600": {
+    "model": "GMC-600",
+    "ean": "4033653161329",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0009-AAF",
+      "https://riff.net.pl/kable-mikrofonowe/78359-behringer-gmc-600-kabel-mikrofonowy-xlr-f-xlr-m-6m-4033653161329.html",
+      "https://www.altomusic.com/products/behringer-gmc-600-19-7-gold-performance-xlr-female-to-xlr-male-microphone-cable"
+    ]
   }
 }
