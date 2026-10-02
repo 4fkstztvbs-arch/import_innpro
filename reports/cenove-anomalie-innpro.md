@@ -15,8 +15,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 079933 | 6972237683193 | Mikrofón Maono WM622 PC2 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089414 | 5905156108714 | WOLFBOX X5 WiFi 4K + 2,5K 128 GB palubná kamera | nulová/neplatná cena |  | 0.00 € |  |  |
-| 090052 | 6923520270330 | Herné slúchadlá EDIFIER HECATE G5 Max (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 090051 | 6923520270323 | Herné slúchadlá EDIFIER HECATE G5 Max BT (sivé) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 090447 | 6971131385394 | KVM prepínač GL.iNet Comet 5G | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -448,7 +447,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093467 | 6975274261072 | Solar panel Allpowers SOLAX SE100 100W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093468 | 6975274261133 | Solar panel Allpowers SOLAX SE200 200W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093469 | 6975274260266 | Solar panel Allpowers SP037 400W portable | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093470 | 6975274260457 | Solar panel Allpowers SP039 600W monocrystalline portable | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093470 | 6975274260457 | Solar panel Allpowers SP039 600W portable | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093471 | 6975274261027 | Power station Allpowers SOLAX P100 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093472 | 6975274260242 | Solar panel Allpowers SP033 200W foldable | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093473 | 6975274260174 | Power station Allpowers S2000 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -459,7 +458,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093478 | 6975274260419 | Power station Allpowers R600 299Wh | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093479 | 6975274260136 | Power bank Allpowers S200 200W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093480 | 6975274260525 | Cable Allpowers XT60 1.5m | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093481 | 6975274260570 | Solar connector ALLPOWERS T for parallel connection | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093481 | 6975274260570 | Solar connector ALLPOWERS type T for parallel connection | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093482 | 6975274260563 | Solar connector Allpowers type Y | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093483 | 6975274260532 | Cable Allpowers XT60 car charger | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093584 | 6941590016603 | SMALLRIG VB99 SE Mini V-Mount batéria | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -651,6 +650,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094855 | 6975116295722 | Filtry do fontán Rojeco SSPWF-310B | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093436 | 6971131385448 | Router GL.iNet Slate 7 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093440 | 6971131385646 | Vzdialený KVM GL.iNet Comet X | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093441 | 6971131385622 | Diaľkový KVM GL.iNet Comet Q | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 27.75 € | 1.30 € | 1/21.3x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 27.75 € | 1.00 € | 1/27.8x | 24 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
