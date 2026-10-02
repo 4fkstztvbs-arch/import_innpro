@@ -2005,5 +2005,23 @@
       "https://pioneer-car.eu/uk/asset/installation_manuals/UPLOAD_ID_28754/2b38afde9cf0c99282c6af34b76f204e607d882e/",
       "https://www.comelsas.it/wp-content/uploads/2025/09/Pioneer-MPA-TECH-Listino.pdf"
     ]
+  },
+  "HUB4": {
+    "model": "HUB4",
+    "ean": "4033653071505",
+    "sourceUrls": [
+      "https://mediadl.musictribe.com/media/PLM/data/docs/P0DM1/HUB4_QSG_EN.pdf",
+      "https://www.suonostore.com/p/midas-hub4-alimentazione-remota-per-4-monitor-personali-dp48-e-dl8-stageconnect-aes50-in-thru.html",
+      "https://www.midi.pl/inne-sprzety-naglosnieniowe/72950-midas-hub4-hub-systemu-monitorowania.html"
+    ]
+  },
+  "SWING": {
+    "model": "SWING",
+    "ean": "4033653032056",
+    "sourceUrls": [
+      "https://www.behringer.com/de/products/0715-AAL",
+      "https://www.madridhifi.com/p/behringer-swing/",
+      "https://distrinode.pl/behringer-swing-klawiatura-sterujaca-midi"
+    ]
   }
 }
