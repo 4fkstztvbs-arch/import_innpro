@@ -2063,11 +2063,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-GIC-1000",
-      "code": "BASYS-GIC-1000",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-GIC-150",
       "code": "BASYS-GIC-150",
       "ean": ""
@@ -2083,28 +2078,8 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-GIC-600",
-      "code": "BASYS-GIC-600",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-GIC-90 4SR",
       "code": "BASYS-GIC-90 4SR",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-GLC2-1000",
-      "code": "BASYS-GLC2-1000",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-GLC2-300",
-      "code": "BASYS-GLC2-300",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-GLC2-600",
-      "code": "BASYS-GLC2-600",
       "ean": ""
     },
     {
@@ -2148,21 +2123,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-GMC-1000",
-      "code": "BASYS-GMC-1000",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-GMC-300",
-      "code": "BASYS-GMC-300",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-GMC-600",
-      "code": "BASYS-GMC-600",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-GMX-500",
       "code": "BASYS-GMX-500",
       "ean": ""
@@ -2185,11 +2145,6 @@
     {
       "key": "code:BASYS-HPM1100",
       "code": "BASYS-HPM1100",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-L1B",
-      "code": "BASYS-L1B",
       "ean": ""
     },
     {
@@ -2550,21 +2505,6 @@
     {
       "key": "code:BASYS-PK110A",
       "code": "BASYS-PK110A",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-PMC-1000",
-      "code": "BASYS-PMC-1000",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-PMC-300",
-      "code": "BASYS-PMC-300",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-PMC-500",
-      "code": "BASYS-PMC-500",
       "ean": ""
     },
     {
@@ -4563,6 +4503,11 @@
       "ean": "4033653080675"
     },
     {
+      "key": "ean:4033653080781",
+      "code": "BASYS-L1B",
+      "ean": "4033653080781"
+    },
+    {
       "key": "ean:4033653080798",
       "code": "BASYS-DS2800",
       "ean": "4033653080798"
@@ -4668,9 +4613,64 @@
       "ean": "4033653160339"
     },
     {
+      "key": "ean:4033653161312",
+      "code": "BASYS-GMC-300",
+      "ean": "4033653161312"
+    },
+    {
+      "key": "ean:4033653161329",
+      "code": "BASYS-GMC-600",
+      "ean": "4033653161329"
+    },
+    {
+      "key": "ean:4033653161336",
+      "code": "BASYS-GMC-1000",
+      "ean": "4033653161336"
+    },
+    {
       "key": "ean:4033653161343",
       "code": "BASYS-PMC-150",
       "ean": "4033653161343"
+    },
+    {
+      "key": "ean:4033653161350",
+      "code": "BASYS-PMC-300",
+      "ean": "4033653161350"
+    },
+    {
+      "key": "ean:4033653161367",
+      "code": "BASYS-PMC-500",
+      "ean": "4033653161367"
+    },
+    {
+      "key": "ean:4033653161381",
+      "code": "BASYS-PMC-1000",
+      "ean": "4033653161381"
+    },
+    {
+      "key": "ean:4033653161589",
+      "code": "BASYS-GIC-600",
+      "ean": "4033653161589"
+    },
+    {
+      "key": "ean:4033653161596",
+      "code": "BASYS-GIC-1000",
+      "ean": "4033653161596"
+    },
+    {
+      "key": "ean:4033653161794",
+      "code": "BASYS-GLC2-300",
+      "ean": "4033653161794"
+    },
+    {
+      "key": "ean:4033653161800",
+      "code": "BASYS-GLC2-600",
+      "ean": "4033653161800"
+    },
+    {
+      "key": "ean:4033653161817",
+      "code": "BASYS-GLC2-1000",
+      "ean": "4033653161817"
     },
     {
       "key": "ean:4033653170529",
@@ -4930,6 +4930,46 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-GIC-1000",
+      "code": "BASYS-GIC-1000",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GIC-600",
+      "code": "BASYS-GIC-600",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GLC2-1000",
+      "code": "BASYS-GLC2-1000",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GLC2-300",
+      "code": "BASYS-GLC2-300",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GLC2-600",
+      "code": "BASYS-GLC2-600",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GMC-1000",
+      "code": "BASYS-GMC-1000",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GMC-300",
+      "code": "BASYS-GMC-300",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GMC-600",
+      "code": "BASYS-GMC-600",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-HA400",
       "code": "BASYS-HA400",
       "ean": ""
@@ -4982,6 +5022,11 @@
     {
       "key": "code:BASYS-KT-USB",
       "code": "BASYS-KT-USB",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-L1B",
+      "code": "BASYS-L1B",
       "ean": ""
     },
     {
@@ -5110,8 +5155,23 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-PMC-1000",
+      "code": "BASYS-PMC-1000",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-PMC-150",
       "code": "BASYS-PMC-150",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-PMC-300",
+      "code": "BASYS-PMC-300",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-PMC-500",
+      "code": "BASYS-PMC-500",
       "ean": ""
     },
     {
