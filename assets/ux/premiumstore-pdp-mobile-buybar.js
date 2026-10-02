@@ -24,6 +24,8 @@
     '.ps-buybar__btn{flex:0 0 auto;background:#167450;color:#fff;border:0;border-radius:999px;padding:12px 22px;',
     'font-weight:600;font-size:16px;cursor:pointer;}',
     '.ps-buybar__btn:active{background:#145e41;}',
+    /* Počas okna "Pridané do košíka" lištu skryť. */
+    'html:has(#cboxOverlay[style*="block"]) .ps-buybar,html:has(#colorbox[style*="block"]) .ps-buybar{display:none;}',
     '@media (min-width:1024px){.ps-buybar{display:none;}}',
     /* Tlačidlá mimo hlavného formulára (okno po pridaní do košíka, karty súvisiacich produktov)
        na stránke produktu: po cleanupe z 1. 10. mali predvolenú žltú. */
