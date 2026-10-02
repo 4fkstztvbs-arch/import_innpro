@@ -73,11 +73,20 @@ const IMAGE_PROXY_BASE = (process.env.ATOS_IMAGE_PROXY_BASE || '').replace(/\/+$
 const EAN_OVERRIDES_PATH = path.join(__dirname, 'heureka-ean-overrides-atos.json');
 const EAN_OVERRIDES = fs.existsSync(EAN_OVERRIDES_PATH)
   ? JSON.parse(fs.readFileSync(EAN_OVERRIDES_PATH, 'utf8')) : {};
+const MANUFACTURER_OVERRIDES_PATH = path.join(__dirname, 'heureka-manufacturer-overrides-atos.json');
+const MANUFACTURER_OVERRIDES = fs.existsSync(MANUFACTURER_OVERRIDES_PATH)
+  ? JSON.parse(fs.readFileSync(MANUFACTURER_OVERRIDES_PATH, 'utf8')) : {};
 function isValidEan13(value) {
   if (!/^\d{13}$/.test(value)) return false;
   const sum = value.slice(0, 12).split('').reduce((total, digit, index) =>
     total + Number(digit) * (index % 2 === 0 ? 1 : 3), 0);
   return String((10 - (sum % 10)) % 10) === value[12];
+}
+function isValidUpcA(value) {
+  if (!/^\\d{12}$/.test(value)) return false;
+  const sum = value.slice(0, 11).split('').reduce((total, digit, index) =>
+    total + Number(digit) * (index % 2 === 0 ? 3 : 1), 0);
+  return String((10 - (sum % 10)) % 10) === value[11];
 }
 function eanForProduct(code, name, sourceEan) {
   const override = EAN_OVERRIDES[code];
@@ -85,7 +94,15 @@ function eanForProduct(code, name, sourceEan) {
     ? sourceEan === override.replaceIfSourceEan
     : !sourceEan);
   if (sourceMatches && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
+  // Heureka expects EAN-13; a valid UPC-A has the same GTIN identity with a leading zero.
+  if (isValidUpcA(sourceEan)) return `0${sourceEan}`;
   return sourceEan;
+}
+function manufacturerForProduct(code, name, sourceManufacturer) {
+  if (sourceManufacturer) return sourceManufacturer;
+  const override = MANUFACTURER_OVERRIDES[code];
+  if (override && name.includes(override.model)) return override.manufacturer;
+  return sourceManufacturer;
 }
 // Rewrites a raw feed img.asp URL (https://shop.atoselektro.cz/img.asp?attid=NNN or ?stiid=NNN)
 // to go through the Worker proxy's /imgasp route instead — see worker.js. Leaves any other URL
@@ -292,6 +309,7 @@ async function main() {
     try { p = parseAtosItem(rawXml); } catch (e) { return; }
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
     p.ean = eanForProduct(p.code, p.name, p.ean);
+    p.manufacturer = manufacturerForProduct(p.code, p.name, p.manufacturer);
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
     if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
 
