@@ -6,6 +6,12 @@ on:
     - cron: '5 20 * * *'
       timezone: 'Europe/Bratislava' # 20:05 local time, with DST handling
   workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/kb-sync.yml"
+      - "scripts/heureka-ean-overrides-kb.json"
 
 permissions:
   contents: write

@@ -68,5 +68,21 @@
     "sourceUrls": [
       "https://muzikus.sk/en/spc-510-ws-eu-p-268530.html"
     ]
+  },
+  "MSC-1500_SW": {
+    "model": "MSC-1500/SW",
+    "ean": "4007754017076",
+    "sourceUrls": [
+      "https://www.sonepar.fr/catalog/fr-fr/products/monacor-cordon-haut-parleur-15-m-jack-6-35-male-2-x-1-5-mm2-00558401707",
+      "https://akustyka.pl/monacor-msc-1500-sw/"
+    ]
+  },
+  "SPE-110P_WS": {
+    "model": "SPE-110P/WS",
+    "ean": "4007754208313",
+    "sourceUrls": [
+      "https://www.monacor.com/fileadmin/user_upload/PDF-Dateien/Kataloge/K21-201IN__INSTALLATION_E01__en__web.pdf",
+      "https://akustyka.pl/monacor-spe-110p-ws/"
+    ]
   }
 }

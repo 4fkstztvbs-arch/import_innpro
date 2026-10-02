@@ -7,6 +7,12 @@ on:
     - cron: '25 20 * * *'
       timezone: 'Europe/Bratislava' # 20:25 local time, with DST handling
   workflow_dispatch: {} # lets you trigger it manually from the Actions tab any time
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/innpro-sync.yml"
+      - "scripts/heureka-ean-overrides-innpro.json"
 
 permissions:
   contents: write # needed to commit the generated XML into the repo (served via Pages)
