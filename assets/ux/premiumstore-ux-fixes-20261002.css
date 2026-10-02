@@ -1,49 +1,173 @@
-/* PremiumStore: drobné opravy z auditu 2. 10. 2026.
-   Samostatný súbor, ktorý sa načíta ako posledný (po premiumstore-cro.css). */
+/* PremiumStore UX fixes – 2026-10-02
+   Samostatný doplnkový súbor. Načítať ako POSLEDNÝ stylesheet (po premiumstore-cro.css / main.css).
+   Rollback = odstrániť <link>. Nemení markup ani správanie formulárov. */
 
-/* Košík: tlačidlo "Odstrániť z košíka" Shoptet zobrazuje len pri hoveri
-   (tr.removeable .remove-item {opacity:0}). Zobraziť vždy. */
-.cart-table tr.removeable .remove-item {
+/* 1) Košík (desktop): tlačidlo „Odstrániť" bolo opacity:0 -> vždy viditeľné */
+.cart-table .remove-item {
   opacity: 1 !important;
   visibility: visible !important;
+  min-width: 44px;
+  min-height: 44px;
+  cursor: pointer;
 }
 
-/* Dlaždice podkategórií: žiadne automatické delenie slov ("zá-hradné"). */
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-tile,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .tile,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-tile,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-title,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) a {
-  -webkit-hyphens: none !important;
-  hyphens: none !important;
-  overflow-wrap: normal !important;
-  word-break: normal !important;
+/* 2) Okno „Pridané do košíka" – kompaktné, jasná primárna/sekundárna akcia */
+#colorbox,
+#cboxWrapper,
+#cboxContent,
+#cboxLoadedContent {
+  max-width: calc(100vw - 32px);
+}
+@media (min-width: 768px) {
+  #colorbox,
+  #cboxWrapper,
+  #cboxContent,
+  #cboxLoadedContent {
+    width: 520px !important;
+    max-width: 520px;
+  }
+  #colorbox { left: calc(50% - 260px) !important; }
+}
+.advanced-order .extras-wrap:empty { display: none; }
+.advancedOrder__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+.advancedOrder__buttons .btn {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.advancedOrder__buttons .next-step-back {
+  background: #fff !important;
+  color: #167450 !important;
+  border: 2px solid #167450 !important;
+  border-radius: 999px;
+  font-weight: 600;
+}
+.advancedOrder__buttons .next-step-back:hover,
+.advancedOrder__buttons .next-step-back:focus-visible {
+  background: #eef6f2 !important;
+}
+@media (max-width: 767px) {
+  /* primárna akcia navrchu, sekundárna pod ňou */
+  .advancedOrder__buttons { flex-direction: column-reverse; }
+  .advancedOrder__buttons .btn { width: 100%; }
 }
 
-/* Detail, mobil a tablet: lepkavý nákupný panel (.ps-buybar, ~72 px, skrytý od 1024 px)
-   nesmie zakrývať koniec stránky. */
-@media (max-width: 1023px) {
-  body.type-detail {
-    padding-bottom: 84px;
+/* 3) Dotykové ciele (mobil) – min. 44 px */
+@media (max-width: 767px) {
+  .quantity .increase,
+  .quantity .decrease {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .navigation-buttons > a,
+  .navigation-buttons .btn-icon {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .link-icons .link-icon,
+  .link-icon.print,
+  .link-icon.chat,
+  .link-icon.watchdog,
+  .link-icon.share {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .p-detail-inner .availability-label,
+  .p-detail-info a,
+  .breadcrumbs a {
+    display: inline-block;
+    padding-block: 12px;
+  }
+  footer a {
+    display: inline-block;
+    padding-block: 10px;
   }
 }
 
-/* Košík a objednávka: sekundárne tlačidlo "Späť do obchodu" / "Späť" ako tlačidlo s
-   obrysom, aby nevyzeralo ako vypnutý text. */
-body.ordering-process .btn.next-step-back {
-  background: #fff !important;
-  color: #167450 !important;
-  border: 1px solid #167450 !important;
-  border-radius: 999px !important;
-  font-weight: 600 !important;
-  box-shadow: none !important;
+/* 4) Dlaždice podkategórií – bez automatického delenia slov, názvy produktov do 3 riadkov */
+.ps-tile,
+.ps-tile *,
+.subcategories a,
+.category-navigation a {
+  hyphens: none !important;
+  -webkit-hyphens: none !important;
+  overflow-wrap: normal;
+  word-break: normal;
 }
-body.ordering-process .btn.next-step-back:hover,
-body.ordering-process .btn.next-step-back:focus-visible {
-  background: #eefaf5 !important;
-  color: #145e41 !important;
-  border-color: #145e41 !important;
+@media (max-width: 767px) {
+  .products .product .name span,
+  .products .product a.name {
+    -webkit-line-clamp: 3 !important;
+    line-clamp: 3 !important;
+  }
+}
+
+/* 5) Krok 2 – pole Telefón na celú šírku, indikátor hotových krokov */
+.phone-combined-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+.phone-combined-input #phone,
+.phone-combined-input .js-phone-form-control {
+  flex: 1 1 auto;
+  width: auto !important;
+  max-width: none !important;
+  min-width: 0;
+}
+.cart-header .step.completed > a::before {
+  content: "✓";
+  color: #fff;
+  background: #167450;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* 6) Mobil: lepkavý CTA – košík (sticky) a krok 1 (fixný spodný panel, súhrn je až na konci stránky) */
+@media (max-width: 767px) {
+  .next-step.next-step--cart {
+    position: sticky;
+    bottom: 0;
+    z-index: 20;
+    background: #fff;
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, .08);
+  }
+  .next-step.next-step--step-1 {
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+    margin: 0;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    background: #fff;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, .12);
+  }
+  .next-step.next-step--step-1 .btn {
+    width: 100%;
+    min-height: 52px;
+    margin: 0;
+  }
+  .order-summary-inner { padding-bottom: 96px; }
+}
+
+/* 7) Detail produktu (mobil): rezerva pod lepkavým buybarom */
+@media (max-width: 767px) {
+  body.type-detail { padding-bottom: 84px; }
 }
