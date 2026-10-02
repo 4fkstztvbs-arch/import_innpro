@@ -235,5 +235,13 @@
       "https://www.fersay.com/es/accesorios/antenas-y-satelite/repartidores-catv/repartidor-senal-catv-1-entrada-6-salidas_E-FVS6",
       "https://www.fersay.com/pt/acessorios/antenas-e-satelite/distribuidores-catv/repartidor-senal-catv-1-entrada-6-salidas_E-FVS6"
     ]
+  },
+  "CPP-CP-DNW-GPU8G2F2-96": {
+    "ean": "4250593444293",
+    "model": "CP-DNW-GPU8G2F2-96",
+    "replaceIfSourceEan": "4250593400000",
+    "sourceUrls": [
+      "https://www.cpplus.cz/cp-dnw-gpu8g2f2-96-osmiportovy-10/100/1000-mbps-poe-switch-s-2x-1000-mbps-a-2x-sfp-uplinkem"
+    ]
   }
 }
