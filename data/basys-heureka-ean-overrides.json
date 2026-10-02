@@ -2023,5 +2023,112 @@
       "https://www.madridhifi.com/p/behringer-swing/",
       "https://distrinode.pl/behringer-swing-klawiatura-sterujaca-midi"
     ]
+  },
+  "L1B": {
+    "model": "L1B",
+    "ean": "4033653080781",
+    "sourceUrls": [
+      "https://aio.lv/lv/product--oem-000-br700-00010--11290864",
+      "https://allegro.pl/produkt/skrzynia-na-sprzet-midas-l1b-96e17cd6-50fe-4c48-95b9-6c478c71d573"
+    ]
+  },
+  "PMC-300": {
+    "model": "PMC-300",
+    "ean": "4033653161350",
+    "sourceUrls": [
+      "https://www.ox.ee/en/brand/Behringer",
+      "https://www.ceneo.pl/133589503",
+      "https://www.adorama.com/bepmc300.html"
+    ]
+  },
+  "PMC-500": {
+    "model": "PMC-500",
+    "ean": "4033653161367",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/cables-y-conectores-pmc500-behringer-behringer-4033653161367.html",
+      "https://distrinode.pl/behringer-pmc-500-xlr-kabel-mikrofonowy-5m-czarny",
+      "https://www.ronis.hr/hr/mikrofonski-kabel-behringer-pmc-500-xlr-f-xlr-m-duzina-5m"
+    ]
+  },
+  "PMC-1000": {
+    "model": "PMC-1000",
+    "ean": "4033653161381",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0009-AAK",
+      "https://audiopatent.eu/pl/products/behringer-pmc-1000-kabel-mikrofonowy-10-m-6134",
+      "https://www.adorama.com/bepmc1000.html"
+    ]
+  },
+  "GMC-600": {
+    "model": "GMC-600",
+    "ean": "4033653161329",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0009-AAF",
+      "https://riff.net.pl/kable-mikrofonowe/78359-behringer-gmc-600-kabel-mikrofonowy-xlr-f-xlr-m-6m-4033653161329.html",
+      "https://www.altomusic.com/products/behringer-gmc-600-19-7-gold-performance-xlr-female-to-xlr-male-microphone-cable"
+    ]
+  },
+  "GMC-300": {
+    "model": "GMC-300",
+    "ean": "4033653161312",
+    "sourceUrls": [
+      "https://www.behringer.com.py/departamento/accesorios--1.html",
+      "https://www.adorama.com/begmc300.html",
+      "https://rozetka.com.ua/ua/behringer-sup-em4683/p565658216/"
+    ]
+  },
+  "GIC-600": {
+    "model": "GIC-600",
+    "ean": "4033653161589",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/cables-y-conectores-gic600-behringer-behringer-4033653161589.html",
+      "https://www.altomusic.com/products/behringer-gic-600-19-7-gold-performance-1-4-ts-male-straight-instrument-cable",
+      "https://rozetka.com.ua/ua/behringer-sup-em4598/p565657958/"
+    ]
+  },
+  "GLC2-1000": {
+    "model": "GLC2-1000",
+    "ean": "4033653161817",
+    "sourceUrls": [
+      "https://www.studiostore.pl/behringer-glc2-1000.html",
+      "https://audiopatent.eu/pl/products/behringer-glc2-1000-kabel-glosnikowy-speakon-10-m-6005",
+      "https://www.fritz-events.nl/behringer-glc2-1000-speakon-speakerkabel-2x15mm-10.html"
+    ]
+  },
+  "GMC-1000": {
+    "model": "GMC-1000",
+    "ean": "4033653161336",
+    "sourceUrls": [
+      "https://www.behringer.com.py/departamento/accesorios--1.html",
+      "https://www.topmuzika.sk/produkt/behringer-gmc-1000-cierna-10-m-810657/",
+      "https://alteisa.com/51261-behringer-gmc-1000-cable-de-microfono-10-m.html"
+    ]
+  },
+  "GIC-1000": {
+    "model": "GIC-1000",
+    "ean": "4033653161596",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/cables-y-conectores-gic1000-behringer-behringer-4033653161596.html",
+      "https://www.altomusic.com/products/behringer-gic-1000-32-8-gold-performance-1-4-ts-male-straight-instrument-cable",
+      "https://riff.net.pl/kable-instrumentalne/78342-behringer-gic-1000-kabel-instrumentalny-1-4-mono-jack-10m-4033653161596.html"
+    ]
+  },
+  "GLC2-300": {
+    "model": "GLC2-300",
+    "ean": "4033653161794",
+    "sourceUrls": [
+      "https://riff.net.pl/kable-glosnikowe/78363-behringer-glc2-300-kabel-speakon-speakon-3m-4033653161794.html",
+      "https://www.studiostore.pl/behringer-glc2-300.html",
+      "https://www.morele.net/kabel-behringer-behringer-glc2-300-speakon-speakon-3m-15244346/"
+    ]
+  },
+  "GLC2-600": {
+    "model": "GLC2-600",
+    "ean": "4033653161800",
+    "sourceUrls": [
+      "https://www.behringer.com/en/products/0008-AAC",
+      "https://audiopatent.eu/pl/products/behringer-glc2-600-kabel-glosnikowy-speakon-6-m-6007",
+      "https://www.fritz-events.nl/behringer-glc2-600-speakon-speakerkabel-2x15mm-6m.html"
+    ]
   }
 }
