@@ -46364,7 +46364,7 @@
 <META_DESCRIPTION><![CDATA[Rowenta CV6135 – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[CANON SELPHY Square QX20 biela]]></NAME>
+<NAME><![CDATA[CANON SELPHY Square QX20 bílá]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Fototiskárna, termosublimační tisk, rozlišení 287 x 287 dpi, 3 barevné inkousty s ochrannou povrchovou úpravou, ryclost tisku 40s, WiFi, nabíjení přes rozhraní USB/C, trvanlivost výtisků až 100 let, fotografický papír XS-20L, ovládání přes aplikaci SELPHY]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Fototiskárna, termosublimační tisk, rozlišení 287 x 287 dpi, 3 barevné inkousty s ochrannou povrchovou úpravou, ryclost tisku 40s, WiFi, nabíjení přes rozhraní USB/C, trvanlivost výtisků až 100 let, fotografický papír XS-20L, ovládání přes aplikaci SELPHY Photo Layout
 <p>Ďalšie produkty nájdete v kategórii <a href="/tlaciarne-a-skenery-2/">Tlačiarne, skenery a spotrebný materiál</a>.</p>]]></DESCRIPTION>
@@ -46373,7 +46373,7 @@
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002105360</CODE>
-<EAN>4549292338457</EAN>
+<EAN>4549292238457</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál]]></CATEGORY>
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
@@ -242686,14 +242686,17 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <p>Brita Style ESS 2,4l, bílá, + 2 filtry je produkt od Brita.</p>
 <p style="text-align:center"><img alt="Brita Style ESS 2,4l, bílá, + 2 filtry" src="https://img.b2b.k-b.cz/fotocache/mid/images/orig/Brita/100002141024-202.jpg"></p>
 <p>Brita Style ESS 2,4l, bílá, + (2 filtry) PO+PL</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/priprava-napojov-filtracne-kanvice/">Filtračné kanvice</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/priprava-napojov/">Káva a príprava nápojov</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Brita]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002141024</CODE>
 <EAN>4006387140786</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Filtračné kanvice]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Brita Style ESS 2,4l, bílá, + 2 filtry">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Brita/100002141024-202.jpg</IMAGE>
 </IMAGES>
@@ -309855,6 +309858,12 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <SHOPITEM>
     <CODE>100002104536</CODE>
     <EAN>8590393377497</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>100002105360</CODE>
+    <EAN>4549292338457</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
