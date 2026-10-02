@@ -172,12 +172,14 @@ body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) [class*="title"],
   }
   .next-step.next-step--step-1 {
     position: fixed !important;
-    left: 0;
-    right: 0;
+    /* šablóna má na .next-step záporný okraj (-24 px): left:24px + width:100vw ho vyrovná */
+    left: 24px;
+    width: 100vw;
+    box-sizing: border-box;
     bottom: 0;
     z-index: 30;
     margin: 0;
-    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    padding: 10px 24px calc(10px + env(safe-area-inset-bottom)) !important;
     background: #fff;
     box-shadow: 0 -4px 12px rgba(0, 0, 0, .12);
   }
