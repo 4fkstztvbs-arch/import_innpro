@@ -17,7 +17,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 089414 | 5905156108714 | WOLFBOX X5 WiFi 4K + 2,5K 128 GB palubná kamera | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090052 | 6923520270330 | Herné slúchadlá EDIFIER HECATE G5 Max (biele) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090051 | 6923520270323 | Herné slúchadlá EDIFIER HECATE G5 Max BT (sivé) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 089991 | 4262533461147 | Soundbar Ultimea Aura S5T | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |

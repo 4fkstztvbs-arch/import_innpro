@@ -1,11 +1,64 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-02 13:43 UTC.
+Kontrola z 2026-10-02 20:15 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
+
+## atos — 48 ks
+
+| Kód | Produkt |
+|---|---|
+| `ABT-A500003056` |  |
+| `ABT-A500003297` |  |
+| `ABT-A500004303` |  |
+| `ATO-38400PG4` |  |
+| `ATO-A500004113` |  |
+| `ATO-A500006298` |  |
+| `ATO-A500006299` |  |
+| `ATO-A500006301` |  |
+| `ATO-A500007721` |  |
+| `ATO-CP-E81AR` |  |
+| `ATO-K735B` |  |
+| `CMP-04117` |  |
+| `CPP-CP-UNR-4K4162-P16V4` |  |
+| `CPP-CP-UNR-4K5082-V2` |  |
+| `DOGS7050` |  |
+| `DOSYZR300` |  |
+| `DOZIRJAZZ` |  |
+| `ELE-1008203` |  |
+| `EMO1032126090` |  |
+| `FVS6` |  |
+| `GOSDO7056P` |  |
+| `HD-G909` |  |
+| `HD-G910` |  |
+| `HD-G918B` |  |
+| `HD-G926` |  |
+| `HD-G926B` |  |
+| `MS-WS 6762` |  |
+| `OS20-18MFX` |  |
+| `OS30-18MFX` |  |
+| `OS50-18MFX` |  |
+| `PEN-52901202` |  |
+| `PEN-57200054` |  |
+| `PEN-57200055` |  |
+| `PEN-57200056` |  |
+| `PEN-57200057` |  |
+| `SPR-FVERN918C` |  |
+| `TFORCE700` |  |
+| `TIGO-RSS` |  |
+| `TIP-07720168` |  |
+| `TOC-SX4020` |  |
+| `VB-MPU-1200` |  |
+| `VB-WPU-300` |  |
+| `VB-WPU-500` |  |
+| `VUBLU` |  |
+| `VUDOB` |  |
+| `VUDOQ` |  |
+| `VUIR300` |  |
+| `WIWAMINI` |  |
 
 ## innpro — 3 ks
 
