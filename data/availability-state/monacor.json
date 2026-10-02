@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 1800,
+  "activeItemCount": 1801,
   "activeProducts": [
     {
       "key": "code:AES-7",
@@ -43,11 +43,6 @@
       "ean": ""
     },
     {
-      "key": "code:ESUB-6W/SW",
-      "code": "ESUB-6W/SW",
-      "ean": ""
-    },
-    {
       "key": "code:KM-12180",
       "code": "KM-12180",
       "ean": ""
@@ -68,11 +63,6 @@
       "ean": ""
     },
     {
-      "key": "code:MSC-1500/SW",
-      "code": "MSC-1500/SW",
-      "ean": ""
-    },
-    {
       "key": "code:NAC-3FCA",
       "code": "NAC-3FCA",
       "ean": ""
@@ -80,11 +70,6 @@
     {
       "key": "code:SP-15A/350NEO",
       "code": "SP-15A/350NEO",
-      "ean": ""
-    },
-    {
-      "key": "code:SPE-110P/WS",
-      "code": "SPE-110P/WS",
       "ean": ""
     },
     {
@@ -2056,6 +2041,11 @@
       "key": "ean:4007754016338",
       "code": "MS-4",
       "ean": "4007754016338"
+    },
+    {
+      "key": "ean:4007754017076",
+      "code": "MSC-1500/SW",
+      "ean": "4007754017076"
     },
     {
       "key": "ean:4007754017410",
@@ -5113,6 +5103,11 @@
       "ean": "4007754208221"
     },
     {
+      "key": "ean:4007754208313",
+      "code": "SPE-110P/WS",
+      "ean": "4007754208313"
+    },
+    {
       "key": "ean:4007754208764",
       "code": "NTE-1",
       "ean": "4007754208764"
@@ -7333,6 +7328,11 @@
       "ean": "4007754265385"
     },
     {
+      "key": "ean:4007754265774",
+      "code": "ESUB-6W/SW",
+      "ean": "4007754265774"
+    },
+    {
       "key": "ean:4007754266092",
       "code": "EDL-15",
       "ean": "4007754266092"
@@ -8259,7 +8259,7 @@
     },
     {
       "key": "ean:5,90824E+12",
-      "code": "SPC-510/WS-EU",
+      "code": "SPC-510/SW-EU",
       "ean": "5,90824E+12"
     },
     {
@@ -8416,6 +8416,11 @@
       "key": "ean:5905143219805",
       "code": "AMBIENT-T5/W",
       "ean": "5905143219805"
+    },
+    {
+      "key": "ean:5908239737214",
+      "code": "SPC-510/WS-EU",
+      "ean": "5908239737214"
     },
     {
       "key": "ean:710931505184",
@@ -9015,6 +9020,11 @@
       "ean": ""
     },
     {
+      "key": "code:ESUB-6W/SW",
+      "code": "ESUB-6W/SW",
+      "ean": ""
+    },
+    {
       "key": "code:KK61-200",
       "code": "KK61-200",
       "ean": ""
@@ -9025,8 +9035,18 @@
       "ean": ""
     },
     {
+      "key": "code:MSC-1500/SW",
+      "code": "MSC-1500/SW",
+      "ean": ""
+    },
+    {
       "key": "code:PAB-110BAG",
       "code": "PAB-110BAG",
+      "ean": ""
+    },
+    {
+      "key": "code:SPE-110P/WS",
+      "code": "SPE-110P/WS",
       "ean": ""
     }
   ]
