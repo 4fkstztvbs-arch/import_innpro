@@ -1,7 +1,7 @@
 {
-  "products": 27708,
-  "matched": 750,
-  "categoryChanges": 265,
+  "products": 27829,
+  "matched": 457,
+  "categoryChanges": 0,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -205,6 +205,684 @@
       "supplier": "atos",
       "code": "EMA-2773-2401",
       "ean": "4066966321630",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 802171-0010",
+      "ean": "17817785647",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 028338",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 317088-0100",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 318338-0200",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 371407-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 041761",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 809510-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 050194",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 722139-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 722139-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 722427-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 722140-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 766712-2410",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768932-2210",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768938-2110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768938-2210",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768941-2110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768941-2210",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 756491-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768928-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 751863-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 751864-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 789175-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 809781-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 772238-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 362538-0030",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 362538-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 362538-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 762817-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 772730-0030",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 781445-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 772130-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 720876-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 760858-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 760858-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 754609-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 825339-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 834062-0200",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 812896-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808461-2110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808928-2110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808928-2210",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808930-2210",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808930-2110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 774453-0050",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 774453-0060",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 718971",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 834167-0300",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 855582-0400",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 855584-0500",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 855972-0100",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 855979-0300",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856989-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856992-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856996-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856990-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856993-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856985-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856986-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 857000-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 843344-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 843364-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 863314-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 838460-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 850571-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 799376-0210",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 799376-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 000010-0300",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 831246-0060",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 851220-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 871761-0111",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 871761-0211",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-EN 454952",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-EN 454938",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 870747-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 878857-0100",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 878857-0200",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 934780",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 934798",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 880413-0110",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 880413-0120",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 869725-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 869725-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 881046-0040",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 881046-0700",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 881046-0900",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-EP-109P",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 884367-0900",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-LIR2-EP",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-SE-99",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 892122-0100",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B A00508-0100",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B A00509-0100",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 887612-0800",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 841151-0320",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 1000310",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 459038",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-C-1U",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-C-2",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-C-3",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-LIR-2",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-M-105A",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-M-105S",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-M-ARTA",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-M99C-V2",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-M99C-WS",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-MEM-EAA",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-MEM-EH",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-MEM-ELB",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-MEM-EV",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-POET-SC",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-STR-GC",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-ULM300MIC",
+      "ean": "",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1343,6 +2021,318 @@
     },
     {
       "supplier": "monacor",
+      "code": "ARM-880RC",
+      "ean": "4007754231694",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ATS-12HT",
+      "ean": "4007754222647",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "BH-009",
+      "ean": "4007754243994",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DH-95N",
+      "ean": "4007754004014",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DH-95NP",
+      "ean": "4007754186567",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-065",
+      "ean": "4007754211269",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-1100",
+      "ean": "4007754172317",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-3SET",
+      "ean": "4007754183672",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-5000LN",
+      "ean": "4007754074215",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DMG-450",
+      "ean": "4007754154078",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DMG-600",
+      "ean": "4007754035186",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DMG-700",
+      "ean": "4007754154085",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-10/SW",
+      "ean": "4007754154528",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-200",
+      "ean": "4007754005615",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-250",
+      "ean": "4007754174427",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-270",
+      "ean": "4007754194982",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-285",
+      "ean": "4007754155471",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-300L",
+      "ean": "4007754137231",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-306B/SW",
+      "ean": "4007754212723",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-306B/WS",
+      "ean": "4007754212761",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-310P",
+      "ean": "4007754140347",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-310W",
+      "ean": "4007754172744",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-402L",
+      "ean": "4007754174991",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-450",
+      "ean": "4007754173062",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-500",
+      "ean": "4007754150667",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-500L/SK",
+      "ean": "4007754182224",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-501L/SK",
+      "ean": "4007754182231",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-821LT",
+      "ean": "4007754201451",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-925P",
+      "ean": "4007754091281",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "EMG-330P",
+      "ean": "4007754190298",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "EMG-500P",
+      "ean": "4007754089769",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HF-30",
+      "ean": "4007754114478",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HF-50",
+      "ean": "4007754114461",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HF-70",
+      "ean": "4007754114447",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HM-30",
+      "ean": "4007754154139",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-100",
+      "ean": "4007754113273",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-110",
+      "ean": "4007754114102",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-130/SK",
+      "ean": "4007754241747",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-132/SK",
+      "ean": "4007754241884",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-150/SK",
+      "ean": "4007754183719",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-152/SK",
+      "ean": "4007754190366",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-152A/SK",
+      "ean": "4007754196788",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-200WP/BL",
+      "ean": "4007754241181",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-300/SK",
+      "ean": "4007754186130",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-310/SK",
+      "ean": "4007754187540",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-40/SK",
+      "ean": "4007754241198",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-70A/SK",
+      "ean": "4007754196818",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-72",
+      "ean": "4007754241754",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-80",
+      "ean": "4007754181999",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-821SX",
+      "ean": "4007754201468",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-86",
+      "ean": "4007754213584",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HSE-90",
+      "ean": "4007754183733",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "KM-24110",
       "ean": "4016842814527",
       "reason": "Changed name or category; needs review"
@@ -1351,6 +2341,600 @@
       "supplier": "monacor",
       "code": "KM-24120",
       "ean": "4016842817467",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSC-1500NP",
+      "ean": "4007754068467",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSC-220NP",
+      "ean": "4007754033335",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSC-33NP",
+      "ean": "4007754033342",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-100T",
+      "ean": "4007754066920",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-15T",
+      "ean": "4007754046908",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-22T",
+      "ean": "4007754066845",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-33T",
+      "ean": "4007754066869",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-82T",
+      "ean": "4007754066913",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-260",
+      "ean": "4007754191578",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-302",
+      "ean": "4007754226164",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-306",
+      "ean": "4007754209471",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-39",
+      "ean": "4007754012620",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-390",
+      "ean": "4007754243888",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-460",
+      "ean": "4007754252309",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MD-480",
+      "ean": "4007754228236",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-10",
+      "ean": "4007754221824",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-120",
+      "ean": "4007754221923",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-15",
+      "ean": "4007754221831",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-150",
+      "ean": "4007754221930",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-470",
+      "ean": "4007754221961",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-68",
+      "ean": "4007754221893",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-82",
+      "ean": "4007754221909",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-120",
+      "ean": "4007754222074",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-22",
+      "ean": "4007754221992",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-30",
+      "ean": "4007754222005",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-82",
+      "ean": "4007754222050",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-1120RC",
+      "ean": "4007754143188",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-4000RC",
+      "ean": "4007754218442",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-4300PTT",
+      "ean": "4007754236231",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-6000RC",
+      "ean": "4007754199574",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PDM-302",
+      "ean": "4007754205572",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SE-20",
+      "ean": "4007754186840",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SE-30",
+      "ean": "4007754243864",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SE-62",
+      "ean": "4007754202342",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXA-800HT",
+      "ean": "4007754199352",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-2402SET",
+      "ean": "4007754226836",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-611SET",
+      "ean": "4007754223743",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-631SET",
+      "ean": "4007754223750",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-812SET",
+      "ean": "4007754215175",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-900HT",
+      "ean": "4007754239126",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-500",
+      "ean": "4007754213355",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-505",
+      "ean": "4007754193978",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-508",
+      "ean": "4007754193992",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-508W",
+      "ean": "4007754194005",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-509",
+      "ean": "4007754194098",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-516",
+      "ean": "4007754194029",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-516W",
+      "ean": "4007754194012",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-520",
+      "ean": "4007754228496",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "GML-5212",
+      "ean": "4007754194500",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "GML-5218",
+      "ean": "4007754194524",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HP-535",
+      "ean": "4007754194425",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HP-565",
+      "ean": "4007754248128",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HPM-535",
+      "ean": "4007754248111",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "IE-1",
+      "ean": "4007754194920",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TK-600",
+      "ean": "4007754194302",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-500DUSET",
+      "ean": "4007754254570",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-2400RC",
+      "ean": "4007754256239",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SIP-MIC",
+      "ean": "8595159511429",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DRM-884RC",
+      "ean": "4007754261820",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECMS-60",
+      "ean": "4007754259971",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECMS-70",
+      "ean": "4007754259988",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "JSS-4B/5",
+      "ean": "4007754261110",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "R-4THA/5",
+      "ean": "4007754268690",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "RU-850LTH/5",
+      "ean": "4007754263107",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "RU-850TH/5",
+      "ean": "4007754268669",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "RU-G3TH/5",
+      "ean": "4007754268621",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HS02T",
+      "ean": "4032661416537",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ622",
+      "ean": "8051361592279",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ101",
+      "ean": "8051361592149",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ102",
+      "ean": "8051361592156",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ZZACC1VE",
+      "ean": "8000000015198",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ZZACC2NR",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-M4RC",
+      "ean": "4007754273397",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-606HT/2",
+      "ean": "4007754276183",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-606LT/2",
+      "ean": "4007754276190",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-616SET/2",
+      "ean": "4007754276206",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PM-35USB",
+      "ean": "4007754412376",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-710",
+      "ean": "4007754410921",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-720",
+      "ean": "4007754410945",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-720S",
+      "ean": "4007754410952",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-730",
+      "ean": "4007754410969",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DM-730S",
+      "ean": "4007754410976",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PDM-302PTT",
+      "ean": "4007754410914",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "EAM-17DT",
+      "ean": "4007754419900",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PA-2500RM",
+      "ean": "8588008802281",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "KSM-2406",
+      "ean": "755249415688",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SONIC-100/HT",
+      "ean": "5905143219522",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SONIC-100/HSE",
+      "ean": "5905143219515",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SONIC-200/HT",
+      "ean": "5905143219560",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SONIC-200/HSE",
+      "ean": "5905143219539",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ211",
+      "ean": "8051361594433",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ212",
+      "ean": "8051361594440",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ213",
+      "ean": "8051361594457",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ422",
+      "ean": "8051361596390",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ522",
+      "ean": "8051361592231",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ424",
+      "ean": "8051361596383",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ520",
+      "ean": "8051361592224",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXZZ103",
+      "ean": "8051361592163",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HMX-MIC",
+      "ean": "8054301338944",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1367,8 +2951,26 @@
     },
     {
       "supplier": "monacor",
-      "code": "EMG-600P",
-      "ean": "",
+      "code": "MIC100",
+      "ean": "3700752716798",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MIC300",
+      "ean": "3700752716804",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DJH40",
+      "ean": "3700752714329",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MUSB20",
+      "ean": "3700752714336",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1675,8 +3277,93 @@
   "unseen": [
     {
       "supplier": "basys",
+      "code": "BASYS-B 892930-2100",
+      "ean": "17817858601"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 892930-2200",
+      "ean": "17817858946"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 882963-2200",
+      "ean": "17817848275"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 892079-2100",
+      "ean": "17817856164"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 893955-2100",
+      "ean": "17817858519"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 893955-2200",
+      "ean": "17817858557"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 796145-2100",
+      "ean": "17817783422"
+    },
+    {
+      "supplier": "basys",
       "code": "BASYS-B 867236-2100",
       "ean": "17817834261"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895098-0100",
+      "ean": "17817859226"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895098-0200",
+      "ean": "17817859219"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895098-0300",
+      "ean": "17817859936"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 887612-0100",
+      "ean": "17817852470"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 887612-0300",
+      "ean": "17817852616"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 887612-0160",
+      "ean": "17817852494"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 894040-0100",
+      "ean": "17817857932"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 894040-0200",
+      "ean": "17817858373"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 894040-0300",
+      "ean": "17817860017"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B  883848-0020",
+      "ean": "17817848831"
     },
     {
       "supplier": "basys",
@@ -1685,8 +3372,63 @@
     },
     {
       "supplier": "basys",
+      "code": "BASYS-B 888926-0010",
+      "ean": "17817853347"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888926-0020",
+      "ean": "17817853330"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888926-0030",
+      "ean": "17817853316"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888926-0040",
+      "ean": "17817853323"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 884104-0010",
+      "ean": "17817848855"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 884104-0020",
+      "ean": "17817848862"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 890101-0100",
+      "ean": "17817859585"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 890101-0200",
+      "ean": "17817859561"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 890101-0300",
+      "ean": "17817859592"
+    },
+    {
+      "supplier": "basys",
       "code": "BASYS-B 890101-0400",
       "ean": "17817859516"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895491-0100",
+      "ean": "17817859684"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 895491-0200",
+      "ean": "17817859707"
     },
     {
       "supplier": "basys",
@@ -1695,27 +3437,87 @@
     },
     {
       "supplier": "basys",
-      "code": "BASYS-C-1U",
-      "ean": ""
+      "code": "BASYS-B 895491-0500",
+      "ean": "17817859738"
     },
     {
       "supplier": "basys",
-      "code": "BASYS-C-2",
-      "ean": ""
+      "code": "BASYS-B 884367-0200",
+      "ean": "17817848985"
     },
     {
       "supplier": "basys",
-      "code": "BASYS-C-3",
-      "ean": ""
+      "code": "BASYS-B 896637-0010",
+      "ean": "17817861120"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0020",
+      "ean": "17817861076"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0030",
+      "ean": "17817861151"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0040",
+      "ean": "17817861212"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 896637-0050",
+      "ean": "17817861083"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 881046-0010",
+      "ean": "17817846929"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 881046-0020",
+      "ean": "17817846912"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888507-0100",
+      "ean": "17817853460"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B  888507-0200",
+      "ean": "17817853439"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 888507-0300",
+      "ean": "17817853200"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 802171-0020",
+      "ean": "17817796514"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 897829-0010",
+      "ean": "17817861786"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 897827-0010",
+      "ean": "17817861793"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 897827-0020",
+      "ean": "17817861809"
     },
     {
       "supplier": "basys",
       "code": "BASYS-BD 474746",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 459038",
       "ean": ""
     },
     {
@@ -1725,62 +3527,7 @@
     },
     {
       "supplier": "basys",
-      "code": "BASYS-M99C-WS",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-M99N-BS",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-ULM300MIC",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-LIR-2",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 1000310",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-M-105A",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-POET-SC",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 841151-0320",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EH",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EAA",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-ELB",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EV",
       "ean": ""
     },
     {
@@ -1790,22 +3537,7 @@
     },
     {
       "supplier": "basys",
-      "code": "BASYS-M-105S",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-M99C-V2",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-B 888507-0400",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-STR-GC",
       "ean": ""
     },
     {
@@ -1816,11 +3548,6 @@
     {
       "supplier": "basys",
       "code": "BASYS-B 888507-0120",
-      "ean": ""
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-M-ARTA",
       "ean": ""
     },
     {
@@ -1907,6 +3634,11 @@
       "supplier": "monacor",
       "code": "ECM-302B/WS",
       "ean": "4007754178975"
+    },
+    {
+      "supplier": "monacor",
+      "code": "EMG-600P",
+      "ean": ""
     },
     {
       "supplier": "monacor",
