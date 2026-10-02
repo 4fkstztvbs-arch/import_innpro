@@ -2094,5 +2094,23 @@
       "https://audiopatent.eu/pl/products/behringer-glc2-1000-kabel-glosnikowy-speakon-10-m-6005",
       "https://www.fritz-events.nl/behringer-glc2-1000-speakon-speakerkabel-2x15mm-10.html"
     ]
+  },
+  "GMC-1000": {
+    "model": "GMC-1000",
+    "ean": "4033653161336",
+    "sourceUrls": [
+      "https://www.behringer.com.py/departamento/accesorios--1.html",
+      "https://www.topmuzika.sk/produkt/behringer-gmc-1000-cierna-10-m-810657/",
+      "https://alteisa.com/51261-behringer-gmc-1000-cable-de-microfono-10-m.html"
+    ]
+  },
+  "GIC-1000": {
+    "model": "GIC-1000",
+    "ean": "4033653161596",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/cables-y-conectores-gic1000-behringer-behringer-4033653161596.html",
+      "https://www.altomusic.com/products/behringer-gic-1000-32-8-gold-performance-1-4-ts-male-straight-instrument-cable",
+      "https://riff.net.pl/kable-instrumentalne/78342-behringer-gic-1000-kabel-instrumentalny-1-4-mono-jack-10m-4033653161596.html"
+    ]
   }
 }
