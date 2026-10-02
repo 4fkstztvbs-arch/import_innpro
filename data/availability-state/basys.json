@@ -2188,11 +2188,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-HUB4",
-      "code": "BASYS-HUB4",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-L1B",
       "code": "BASYS-L1B",
       "ean": ""
@@ -2820,11 +2815,6 @@
     {
       "key": "code:BASYS-STUDIO XL",
       "code": "BASYS-STUDIO XL",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-SWING",
-      "code": "BASYS-SWING",
       "ean": ""
     },
     {
@@ -4393,6 +4383,11 @@
       "ean": "4033653031714"
     },
     {
+      "key": "ean:4033653032056",
+      "code": "BASYS-SWING",
+      "ean": "4033653032056"
+    },
+    {
       "key": "ean:4033653032285",
       "code": "BASYS-RD-6-BK",
       "ean": "4033653032285"
@@ -4496,6 +4491,11 @@
       "key": "ean:4033653071345",
       "code": "BASYS-DN32-LIVE",
       "ean": "4033653071345"
+    },
+    {
+      "key": "ean:4033653071505",
+      "code": "BASYS-HUB4",
+      "ean": "4033653071505"
     },
     {
       "key": "ean:4033653080156",
@@ -4960,6 +4960,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-HUB4",
+      "code": "BASYS-HUB4",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-K5",
       "code": "BASYS-K5",
       "ean": ""
@@ -5177,6 +5182,11 @@
     {
       "key": "code:BASYS-STR-GC",
       "code": "BASYS-STR-GC",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-SWING",
+      "code": "BASYS-SWING",
       "ean": ""
     },
     {
