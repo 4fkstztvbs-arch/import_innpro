@@ -1757,3 +1757,95 @@ body.type-detail .p-data-wrapper{
   }
 }
 
+
+/* ==========================================================================
+   Kompaktné dlaždice podkategórií (nadradené kategórie, desktop aj mobil).
+   Prepisuje inline štýly #ps-cat-<id> v popise kategórie: dlaždica = malý
+   obrázok + názov v jednom riadku, bez popisu, aby sa produkty dostali hneď
+   pod prvú obrazovku. Koncové kategórie dlaždice nemajú, tie sa nemenia.
+   ========================================================================== */
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-intro {
+  display: block !important;
+  margin: 0 0 14px !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-intro p {
+  max-width: 900px !important;
+  font-size: 15px !important;
+  line-height: 1.55 !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-skip {
+  display: none !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-head {
+  margin: 0 0 10px !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-head > span {
+  display: none !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) h2 {
+  font-size: 20px !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)) !important;
+  gap: 8px !important;
+  margin: 0 0 18px !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-tile {
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 10px !important;
+  padding: 6px 10px !important;
+  border-radius: 10px !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-photo,
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo {
+  flex: 0 0 48px !important;
+  width: 48px !important;
+  height: 48px !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 4px !important;
+  border-radius: 8px !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo {
+  font-size: 0 !important;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-label {
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+  font-size: 15px !important;
+  line-height: 1.3 !important;
+  text-decoration: none !important;
+  hyphens: auto;
+}
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-arrow,
+body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-caption {
+  display: none !important;
+}
+@media (max-width: 850px) {
+  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 6px !important;
+  }
+  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-tile {
+    display: flex !important;
+    padding: 6px 8px !important;
+    gap: 8px !important;
+  }
+  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-photo,
+  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo {
+    flex-basis: 40px !important;
+    width: 40px !important;
+    height: 40px !important;
+  }
+  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-label {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 360px) {
+  body.type-category [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
