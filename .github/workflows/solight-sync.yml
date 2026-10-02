@@ -111,6 +111,9 @@ jobs:
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z Solight feedu
         run: node scripts/apply-missing-availability.js --supplier=solight --xml=output/solight.xml
 
+      - name: Normalize valid supplier GTINs to EAN-13
+        run: node scripts/normalize-truncated-ean.js output/solight.xml
+
       - name: Commit updated output
         run: |
           git config user.name "solight-sync-bot"

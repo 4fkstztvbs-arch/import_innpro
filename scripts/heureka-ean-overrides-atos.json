@@ -1,11 +1,26 @@
 {
-  "AT_T0000_3999": {
+  "T0000/3999": {
     "ean": "4019588039995",
     "model": "DIGITRADIO 317",
     "replaceIfSourceEan": "4019588139995",
     "sourceUrls": [
       "https://www.technisat.de/dab-radios/technisat-digitradio-317-schwarz-farbe-schwarz",
       "https://www.technisat.de/datasheet-pdf?productId=25398"
+    ]
+  },
+  "ATO-04230703": {
+    "ean": "3800156697591",
+    "model": "SUN-12K-SG05LP3-EU-SM2",
+    "sourceUrls": [
+      "https://www.optonicaled.com/hr/deye-12kw-3-phase-hybrid-inverter-low-voltage-6"
+    ]
+  },
+  "ATO-04230713": {
+    "ean": "3800170225442",
+    "model": "SUN-15K-SG05LP3-EU-SM2",
+    "sourceUrls": [
+      "https://www.vtacexports.com/poland/falownik-hybrydowy-15kw-deye-sun-15k-sg05lp3-eu-sm2-3-fazowy-niskonapieciowy-ip65.html",
+      "https://www.tim.pl/inwerter-hybrydowy-3-fazowy-niskonapieciowy-15kw-deye-sun-15k-sg05lp3-eu-sm2-ip65-10-lat-gwarancji-12184/p/0001-00020-26084"
     ]
   },
   "ABT-A500004303": {

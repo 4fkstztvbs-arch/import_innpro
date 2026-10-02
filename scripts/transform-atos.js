@@ -83,7 +83,7 @@ function isValidEan13(value) {
   return String((10 - (sum % 10)) % 10) === value[12];
 }
 function isValidUpcA(value) {
-  if (!/^\\d{12}$/.test(value)) return false;
+  if (!/^\d{12}$/.test(value)) return false;
   const sum = value.slice(0, 11).split('').reduce((total, digit, index) =>
     total + Number(digit) * (index % 2 === 0 ? 3 : 1), 0);
   return String((10 - (sum % 10)) % 10) === value[11];
@@ -93,7 +93,8 @@ function eanForProduct(code, name, sourceEan) {
   const sourceMatches = override && (override.replaceIfSourceEan
     ? sourceEan === override.replaceIfSourceEan
     : !sourceEan);
-  if (sourceMatches && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
+  const exactReplacement = override && override.replaceIfSourceEan && sourceEan === override.replaceIfSourceEan;
+  if (sourceMatches && (exactReplacement || name.includes(override.model)) && isValidEan13(override.ean)) return override.ean;
   // Heureka expects EAN-13; a valid UPC-A has the same GTIN identity with a leading zero.
   if (isValidUpcA(sourceEan)) return `0${sourceEan}`;
   return sourceEan;

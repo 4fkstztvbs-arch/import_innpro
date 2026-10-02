@@ -46,6 +46,9 @@ jobs:
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z WiiM feedu
         run: node scripts/apply-missing-availability.js --supplier=wiim --xml=output/wiim.xml
 
+      - name: Normalize valid supplier GTINs to EAN-13
+        run: node scripts/normalize-truncated-ean.js output/wiim.xml
+
       - name: Check output size
         run: node scripts/check-feed-size.js
 

@@ -113,7 +113,13 @@ function buildSeoTitle(core, storeName, maxLen) {
   if (full.length <= maxLen) return full;
   return truncateAtWord(core, maxLen - suffix.length) + suffix;
 }
-function norm(s) { return String(s || '').replace(/\s+/g, ' ').trim().toUpperCase(); }
+function norm(s) { return String(s || '').replace(/[\s_]+/g, ' ').trim().toUpperCase(); }
+const BASYS_EAN_OVERRIDES_BY_KEY = new Map(
+  Object.entries(BASYS_EAN_OVERRIDES).map(([key, value]) => [norm(key), value]),
+);
+if (BASYS_EAN_OVERRIDES_BY_KEY.size !== Object.keys(BASYS_EAN_OVERRIDES).length) {
+  throw new Error('BASYS EAN overrides contain keys that collide after normalizing spaces and underscores.');
+}
 
 // Loads every data/basys-bose-promo-*.json present and returns objKod -> promoMocInclVat for
 // only those whose [validFrom, validUntil] window includes today. A promo file left in place
@@ -251,7 +257,7 @@ async function main() {
   const resolvedItems = [];
   for (const item of priceList) {
     const mappedCategory = PRICE_LIST_CATEGORY_MAP[item.category];
-    const eanOverride = BASYS_EAN_OVERRIDES[norm(item.objKod)];
+    const eanOverride = BASYS_EAN_OVERRIDES_BY_KEY.get(norm(item.objKod));
     const productName = [item.name, item.color].filter(Boolean).join(' - ').replace(/\s+/g, ' ').trim();
     const overrideMatches = eanOverride && (
       norm(eanOverride.model) === norm(item.objKod)
@@ -274,10 +280,10 @@ async function main() {
     if (pricelistCodes.has(key)) continue;
     if (!Number.isFinite(f.priceVat) || f.priceVat <= 0) { skippedNoPrice++; continue; }
     const priceExclVat = f.priceVat / (1 + parseFloat(VAT) / 100);
-    const eanOverride = BASYS_EAN_OVERRIDES[norm(f.itemId)];
+    const eanOverride = BASYS_EAN_OVERRIDES_BY_KEY.get(norm(f.itemId));
     const overrideMatches = eanOverride && (
       norm(eanOverride.model) === norm(f.itemId)
-      || String(f.productName || '').toUpperCase().includes(eanOverride.model.toUpperCase())
+      || norm(f.productName).includes(norm(eanOverride.model))
     );
     if (eanOverride && !overrideMatches) {
       console.warn(`Ignoring BASYS EAN override for ${f.itemId}: product name "${f.productName}" does not match expected model ${eanOverride.model}; leaving EAN empty.`);

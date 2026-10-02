@@ -157,7 +157,7 @@ function isValidEan13(value) {
 
 function eanForProduct(code, name, rawEan) {
   const sourceEan = normalizeEan(rawEan);
-  const override = EAN_OVERRIDES[code];
+  const override = EAN_OVERRIDES[code] || EAN_OVERRIDES[`KB_${code}`];
   if (!override || !name.includes(override.model) || !isValidEan13(override.ean)) return sourceEan;
   if (!sourceEan || (override.replaceIfSourceEan && sourceEan === override.replaceIfSourceEan)) return override.ean;
   return sourceEan;

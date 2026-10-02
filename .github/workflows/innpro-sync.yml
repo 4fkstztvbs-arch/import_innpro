@@ -126,6 +126,9 @@ jobs:
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z InnPro feedu
         run: node scripts/apply-missing-availability.js --supplier=innpro --xml=output/innpro.xml
 
+      - name: Normalize valid supplier GTINs to EAN-13
+        run: node scripts/normalize-truncated-ean.js output/innpro.xml
+
       - name: Commit updated output
         run: |
           git config user.name "innpro-sync-bot"

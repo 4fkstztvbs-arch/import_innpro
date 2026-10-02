@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-// Restore two leading zeroes only when an 11-digit supplier value becomes a valid
-// GTIN-13. Several supplier feeds store these identifiers as numbers and drop zeros;
-// the check digit makes this a reversible formatting repair rather than a product guess.
+// Restore leading zeroes only when a truncated supplier value becomes a valid GTIN-13.
+// Eleven-digit values may have lost two zeroes; valid UPC-A values need one leading zero.
+// The check digit makes both repairs reversible formatting fixes rather than product guesses.
 const fs = require('fs');
 
 function isValidEan13(value) {
@@ -15,9 +15,15 @@ function isValidEan13(value) {
 }
 
 function restoreLeadingZeros(value) {
-  if (!/^\d{11}$/.test(value)) return value;
-  const candidate = `00${value}`;
-  return isValidEan13(candidate) ? candidate : value;
+  if (/^\d{12}$/.test(value)) {
+    const candidate = `0${value}`;
+    return isValidEan13(candidate) ? candidate : value;
+  }
+  if (/^\d{11}$/.test(value)) {
+    const candidate = `00${value}`;
+    return isValidEan13(candidate) ? candidate : value;
+  }
+  return value;
 }
 
 const paths = process.argv.slice(2);

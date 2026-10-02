@@ -113,6 +113,9 @@ jobs:
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z MONACOR feedu
         run: node scripts/apply-missing-availability.js --supplier=monacor --xml=output/monacor.xml
 
+      - name: Normalize valid supplier GTINs to EAN-13
+        run: node scripts/normalize-truncated-ean.js output/monacor.xml
+
       - name: Commit updated output
         run: |
           git config user.name "monacor-sync-bot"
