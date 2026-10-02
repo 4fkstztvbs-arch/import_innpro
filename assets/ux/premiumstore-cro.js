@@ -642,6 +642,8 @@
     var content = main && main.querySelector('.category-content-wrapper');
     var perex = main && main.querySelector('.category-top > .category-perex');
     if (!content || !perex) return;
+    // Rozcestník Vianočného osvetlenia (#psx-hub) má zostať nad produktmi.
+    if (perex.querySelector('#psx-hub')) return;
     content.appendChild(perex);
   }
 
