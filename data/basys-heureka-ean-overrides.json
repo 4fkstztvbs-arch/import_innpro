@@ -2067,5 +2067,32 @@
       "https://riff.net.pl/kable-mikrofonowe/78359-behringer-gmc-600-kabel-mikrofonowy-xlr-f-xlr-m-6m-4033653161329.html",
       "https://www.altomusic.com/products/behringer-gmc-600-19-7-gold-performance-xlr-female-to-xlr-male-microphone-cable"
     ]
+  },
+  "GMC-300": {
+    "model": "GMC-300",
+    "ean": "4033653161312",
+    "sourceUrls": [
+      "https://www.behringer.com.py/departamento/accesorios--1.html",
+      "https://www.adorama.com/begmc300.html",
+      "https://rozetka.com.ua/ua/behringer-sup-em4683/p565658216/"
+    ]
+  },
+  "GIC-600": {
+    "model": "GIC-600",
+    "ean": "4033653161589",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/cables-y-conectores-gic600-behringer-behringer-4033653161589.html",
+      "https://www.altomusic.com/products/behringer-gic-600-19-7-gold-performance-1-4-ts-male-straight-instrument-cable",
+      "https://rozetka.com.ua/ua/behringer-sup-em4598/p565657958/"
+    ]
+  },
+  "GLC2-1000": {
+    "model": "GLC2-1000",
+    "ean": "4033653161817",
+    "sourceUrls": [
+      "https://www.studiostore.pl/behringer-glc2-1000.html",
+      "https://audiopatent.eu/pl/products/behringer-glc2-1000-kabel-glosnikowy-speakon-10-m-6005",
+      "https://www.fritz-events.nl/behringer-glc2-1000-speakon-speakerkabel-2x15mm-10.html"
+    ]
   }
 }
