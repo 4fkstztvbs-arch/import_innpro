@@ -6,6 +6,13 @@ on:
     - cron: '10 20 * * *'
       timezone: 'Europe/Bratislava' # 20:10 local time, with DST handling
   workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/monacor-sync.yml"
+      - "scripts/heureka-ean-overrides-monacor.json"
+      - "scripts/transform-monacor.js"
 
 permissions:
   contents: write

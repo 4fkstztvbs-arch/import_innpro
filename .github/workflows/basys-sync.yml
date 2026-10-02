@@ -6,6 +6,12 @@ on:
     - cron: '20 20 * * *'
       timezone: 'Europe/Bratislava' # 20:20 local time, with DST handling
   workflow_dispatch: {}
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/basys-sync.yml"
+      - "data/basys-heureka-ean-overrides.json"
 
 permissions:
   contents: write
