@@ -2148,6 +2148,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-L1B",
+      "code": "BASYS-L1B",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-LG 000-D8Z01",
       "code": "BASYS-LG 000-D8Z01",
       "ean": ""
@@ -4503,11 +4508,6 @@
       "ean": "4033653080675"
     },
     {
-      "key": "ean:4033653080781",
-      "code": "BASYS-L1B",
-      "ean": "4033653080781"
-    },
-    {
       "key": "ean:4033653080798",
       "code": "BASYS-DS2800",
       "ean": "4033653080798"
@@ -5025,11 +5025,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-L1B",
-      "code": "BASYS-L1B",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-L6",
       "code": "BASYS-L6",
       "ean": ""
@@ -5378,6 +5373,11 @@
       "key": "ean:17817860284",
       "code": "BASYS-B 883848-0400",
       "ean": "17817860284"
+    },
+    {
+      "key": "ean:4033653080781",
+      "code": "BASYS-L1B",
+      "ean": "4033653080781"
     }
   ]
 }
