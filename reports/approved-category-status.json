@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 28038,
-  "matchedRules": 2199,
-  "changedProducts": 986,
+  "totalProducts": 27869,
+  "matchedRules": 2258,
+  "changedProducts": 628,
   "rejected": [
     {
       "supplier": "atos",
@@ -1268,6 +1268,13 @@
     },
     {
       "supplier": "innpro",
+      "code": "069813",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "798038994353",
+      "feedEan": "0798038994353"
+    },
+    {
+      "supplier": "innpro",
       "code": "078982",
       "reason": "Reviewed product name changed"
     },
@@ -2027,408 +2034,103 @@
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002136451",
+      "supplier": "innpro",
+      "code": "018665",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100001329674",
+      "supplier": "innpro",
+      "code": "029058",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002171249",
+      "supplier": "innpro",
+      "code": "055617",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002102621",
+      "supplier": "innpro",
+      "code": "058841",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002134526",
+      "supplier": "innpro",
+      "code": "074232",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002193620",
+      "supplier": "innpro",
+      "code": "075362",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002200822",
+      "supplier": "innpro",
+      "code": "078336",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002104389",
+      "supplier": "innpro",
+      "code": "078348",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100000474550",
+      "supplier": "innpro",
+      "code": "078361",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100000033310",
+      "supplier": "innpro",
+      "code": "083355",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002136604",
+      "supplier": "innpro",
+      "code": "083736",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002193624",
+      "supplier": "innpro",
+      "code": "083739",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002134533",
+      "supplier": "innpro",
+      "code": "087495",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002134534",
+      "supplier": "innpro",
+      "code": "087497",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002134531",
+      "supplier": "innpro",
+      "code": "087515",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100000729253",
+      "supplier": "innpro",
+      "code": "090987",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002102279",
+      "supplier": "innpro",
+      "code": "090988",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002201850",
+      "supplier": "innpro",
+      "code": "091001",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100000456589",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001714208",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002104319",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002080840",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001143309",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002130328",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136852",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002106616",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201934",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002099781",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000980758",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001786129",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136849",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001932194",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002104380",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001714207",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002104377",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002080837",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001143308",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001575230",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136851",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000375610",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136842",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002080836",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002127593",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002104386",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001143307",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201849",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136858",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001117894",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002104388",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000196881",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002104382",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136853",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002202424",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002080835",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002128468",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001117895",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002104376",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002104387",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000431999",
+      "supplier": "innpro",
+      "code": "091003",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "kb",
       "code": "100002203916",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001932195",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001456314",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001926729",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002065154",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002080841",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002103586",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002118454",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002131488",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002134398",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136233",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136235",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136675",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002200140",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201845",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201848",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201932",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002202558",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002204335",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002204387",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "648000188119",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "999012845223",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2700,13 +2402,13 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
-      "visibleUnique": 57,
+      "visibleUnique": 56,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Filtračné kanvice",
-      "visibleUnique": 13,
+      "visibleUnique": 12,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
