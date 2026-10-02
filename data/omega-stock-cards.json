@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600456,
+    "nextCardNumber": 202600463,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2732,6 +2732,48 @@
         "nazov": "Ultimea Projector Nova C40",
         "dodavatel": "innpro",
         "code": "083071"
+      },
+      "5907085523125": {
+        "kod": "202600456",
+        "nazov": "Sunnylife G3S-J867 Cap Clip",
+        "dodavatel": "innpro",
+        "code": "074204"
+      },
+      "6976831830908": {
+        "kod": "202600457",
+        "nazov": "ALUMINUM ALLOY",
+        "dodavatel": "innpro",
+        "code": "078452"
+      },
+      "6972185560980": {
+        "kod": "202600458",
+        "nazov": "Carlinkit HD2CP-PRO",
+        "dodavatel": "innpro",
+        "code": "080695"
+      },
+      "6972185561055": {
+        "kod": "202600459",
+        "nazov": "Carlinkit TBOX ULTRA",
+        "dodavatel": "innpro",
+        "code": "080696"
+      },
+      "6975515777607": {
+        "kod": "202600460",
+        "nazov": "TF02 flashlight, black",
+        "dodavatel": "innpro",
+        "code": "081945"
+      },
+      "0810098388054": {
+        "kod": "202600461",
+        "nazov": "FunWater Inflatable Body",
+        "dodavatel": "innpro",
+        "code": "083127"
+      },
+      "6936685223714": {
+        "kod": "202600462",
+        "nazov": "GameSir Pocket Taco",
+        "dodavatel": "innpro",
+        "code": "086669"
       }
     }
   },
