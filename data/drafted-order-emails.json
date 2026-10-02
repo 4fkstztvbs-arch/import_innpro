@@ -1118,5 +1118,19 @@
     "subject": "Objednávka č. 202601031 - Odstúpenie od zmluvy / Vrátenie tovaru",
     "orderCode": "202601031",
     "matchedBy": "code"
+  },
+  "<20261002065838.34B561832D5@mx-gw01.gls-slovakia.sk>": {
+    "draftedAt": "2026-10-02T08:35:37.215Z",
+    "from": "noreply@gls-slovakia.sk",
+    "subject": "GLS - Dynamické sledovanie zásielky",
+    "orderCode": null,
+    "matchedBy": "none"
+  },
+  "<CAMKqZLUXi3uJPvFLiLu=fGkpjiagj18SV7Quu9DkbxT-816QyQ@mail.gmail.com>": {
+    "draftedAt": "2026-10-02T08:35:46.117Z",
+    "from": "romanecrostislav497@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202601054 sa práve vybavuje",
+    "orderCode": "202601054",
+    "matchedBy": "code"
   }
 }
