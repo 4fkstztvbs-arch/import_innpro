@@ -1,4 +1,18 @@
 {
+  "369": {
+    "model": "369",
+    "ean": "4033653081962",
+    "sourceUrls": [
+      "https://www.ikebe-gakki.com/Form/Product/ProductDetail.aspx?bid=ec&cat=rec003002&pid=845705&shop=0"
+    ]
+  },
+  "1273": {
+    "model": "1273",
+    "ean": "4033653081450",
+    "sourceUrls": [
+      "https://www.electori-br.jp/products/1121.html"
+    ]
+  },
   "DN9610": {
     "model": "DN9610",
     "ean": "4033653150248",
@@ -2121,6 +2135,237 @@
       "https://www.behringer.com/en/products/0008-AAC",
       "https://audiopatent.eu/pl/products/behringer-glc2-600-kabel-glosnikowy-speakon-6-m-6007",
       "https://www.fritz-events.nl/behringer-glc2-600-speakon-speakerkabel-2x15mm-6m.html"
+    ]
+  },
+  "DN9680-MM": {
+    "model": "DN9680-MM",
+    "ean": "4033653071017",
+    "sourceUrls": [
+      "https://polar.uk.com/klark-teknik-dn9680-mm-multi-mode-optical-fibre-module-for-dn9680"
+    ]
+  },
+  "HD96-24-CC-IP": {
+    "model": "HD96-24-CC-IP",
+    "ean": "4033653071123",
+    "sourceUrls": [
+      "https://polar.uk.com/midas-hd96-24-cc-ip-live-digital-console-control-centre-with-144-input-channels-120-mix-buses-96-khz-sample-rate-and-21-touch-screen-0603-aee"
+    ]
+  },
+  "HPM1100": {
+    "model": "HPM1100",
+    "ean": "4033653120814",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/auriculares-hpm1100bk-behringer-behringer-4033653120814.html"
+    ]
+  },
+  "GMX-500": {
+    "model": "GMX-500",
+    "ean": "4033653161404",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/cables-y-conectores-gmx500-behringer-behringer-4033653161404.html"
+    ]
+  },
+  "SD251-BT": {
+    "model": "SD251-BT",
+    "ean": "4033653120753",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/auriculares-sd251bt-behringer-behringer-4033653120753.html"
+    ]
+  },
+  "CP3A-O": {
+    "model": "CP3A-O",
+    "ean": "4033653031905",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/sintetizadores-y-teclados-cp3ao-oscillator-controller-behringer-behringer-4033653031905.html"
+    ]
+  },
+  "903A": {
+    "model": "903A",
+    "ean": "4033653031851",
+    "sourceUrls": [
+      "https://www.ishibashi.co.jp/ec/product/4033653031851"
+    ]
+  },
+  "MU1000": {
+    "model": "MU1000",
+    "ean": "4033653160971",
+    "sourceUrls": [
+      "https://riff.net.pl/stojaki-i-statywy/78229-behringer-mu1000-pulpit-na-nuty-orkiestrowy-4033653160971.html"
+    ]
+  },
+  "DN4816-I": {
+    "model": "DN4816-I",
+    "ean": "4033653071710",
+    "sourceUrls": [
+      "https://audiopatent.eu/pl/products/midas-dn4816-i-modul-wejsc-analogowych-stageconnect-6830"
+    ]
+  },
+  "DN4888": {
+    "model": "DN4888",
+    "ean": "4033653071673",
+    "sourceUrls": [
+      "https://alteisa.com/51541-midas-dn4888-stageconnect-interfaz-con-8-entradas-y-salidas.html"
+    ]
+  },
+  "DN4816U": {
+    "model": "DN4816U",
+    "ean": "4033653131315",
+    "sourceUrls": [
+      "https://www.siluj.net/klark-teknik/19545-klark-teknik-dn4816u-stageconnect.html"
+    ]
+  },
+  "DM8500": {
+    "model": "DM8500",
+    "ean": "4033653081351",
+    "sourceUrls": [
+      "https://polar.uk.com/klark-teknik-dm8500-networked-digital-audio-processor-for-installation-applications-with-configurable-dsp-audio-networking-and-acoustic-echo-cancellation"
+    ]
+  },
+  "MS2050-L": {
+    "model": "MS2050-L",
+    "ean": "4033653161053",
+    "sourceUrls": [
+      "https://riff.net.pl/statywy-mikrofonowe/78306-behringer-ms2050-l-statyw-mikrofonowy-lamany-4033653161053.html"
+    ]
+  },
+  "DUAL-PHASE": {
+    "model": "DUAL-PHASE",
+    "ean": "4033653016544",
+    "sourceUrls": [
+      "https://riff.net.pl/efekty-do-gitary-i-basu/78057-behringer-dual-phase-efekt-typu-phaser-4033653016544.html"
+    ]
+  },
+  "BH40": {
+    "model": "BH40",
+    "ean": "4033653081702",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/auriculares-bh40-behringer-behringer-4033653081702.html"
+    ]
+  },
+  "M-ALB": {
+    "model": "M-ALB",
+    "ean": "0698596028357",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf"
+    ]
+  },
+  "99WG-BM": {
+    "model": "99WG-BM",
+    "ean": "0698596028531",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf"
+    ]
+  },
+  "99WS-BM": {
+    "model": "99WS-BM",
+    "ean": "0698596028548",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf"
+    ]
+  },
+  "M-BM": {
+    "model": "M-BM",
+    "ean": "0698596028258",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf"
+    ]
+  },
+  "EP-109P": {
+    "model": "EP-109P",
+    "ean": "0761062121088",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "P16-HQ": {
+    "model": "P16-HQ",
+    "ean": "4033653081689",
+    "sourceUrls": [
+      "https://www.shimamura.co.jp/update/dtm-recording/2025/01/dl-158521/"
+    ]
+  },
+  "LIR2-EP": {
+    "model": "LIR2-EP",
+    "ean": "0698596028432",
+    "sourceUrls": [
+      "https://shop.kanjitsu.com/product/liric2%E7%94%A8%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%91%E3%83%83%E3%83%89/"
+    ]
+  },
+  "M99C-MWS": {
+    "model": "M99C-MWS",
+    "ean": "0615517934719",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "M99C-BG": {
+    "model": "M99C-BG",
+    "ean": "0615517934726",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "M99C-BS": {
+    "model": "M99C-BS",
+    "ean": "0615517934733",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "SE-99": {
+    "model": "SE-99",
+    "ean": "0615517935075",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2023/05/Meze_Audio_Accessories_Catalogue_05_2023_web.pdf"
+    ]
+  },
+  "M-AST": {
+    "model": "M-AST",
+    "ean": "0698596029019",
+    "sourceUrls": [
+      "https://www.supersonido.es/media/productos/58702/docs/documento-28214.pdf"
+    ]
+  },
+  "MEM-ELXLR": {
+    "model": "MEM-ELXLR",
+    "ean": "0761062120630",
+    "sourceUrls": [
+      "https://www.audiotuning.com/wp-content/uploads/2025/11/Meze_Audio_Products_10_2025_web.pdf"
+    ]
+  },
+  "MEM-ELTG": {
+    "model": "MEM-ELTG",
+    "ean": "0698596028814",
+    "sourceUrls": [
+      "https://lbs.dk/produkt/meze-elite-tungsten/"
+    ]
+  },
+  "NCAT5E-50M": {
+    "model": "NCAT5E-50M",
+    "ean": "4033653070263",
+    "sourceUrls": [
+      "https://riff.net.pl/pozostale-kable/77844-klark-teknik-ncat5e-50m-kabel-lan-cat5-na-bebnie-schill-50m-4033653070263.html"
+    ]
+  },
+  "VD400": {
+    "model": "VD400",
+    "ean": "4033653053570",
+    "sourceUrls": [
+      "https://guitarcenter.pl/catalog/gitary/efekty-gitarowe/kostki/behringer-vd400-vintage-delay"
+    ]
+  },
+  "PK110A": {
+    "model": "PK110A",
+    "ean": "4033653231244",
+    "sourceUrls": [
+      "https://www.behringer.com.py/produto/loudspeakers-pk110a-behringer-behringer-4033653231244.html"
+    ]
+  },
+  "L1B": {
+    "model": "L1B",
+    "ean": "4033653080781",
+    "sourceUrls": [
+      "https://www.nakas.gr/el/proionta/epang-kos-ichos-eikona/konsoles/rack-mount-kits-kai-vaseis/midas-midas-l1b-kalymma-mias-thesis-gia-ta-l6-l10_849001/"
     ]
   }
 }

@@ -39,5 +39,34 @@
       "https://www.sfs.ch/CH/en/dl/p/706573",
       "https://www.hifiaudio.sk/kk61-200/"
     ]
+  },
+  "MSC-1500/SW": {
+    "ean": "4007754017076",
+    "model": "MSC-1500/SW",
+    "sourceUrls": [
+      "https://www.sonepar.fr/catalog/fr-fr/products/monacor-cordon-haut-parleur-15-m-jack-6-35-male-2-x-1-5-mm2-00558401707"
+    ]
+  },
+  "ESUB-6W/SW": {
+    "ean": "4007754265774",
+    "model": "ESUB-6W/SW",
+    "sourceUrls": [
+      "https://akustyka.pl/monacor-esub-6w-sw/"
+    ]
+  },
+  "SPE-110P/WS": {
+    "ean": "4007754208313",
+    "model": "SPE-110P/WS",
+    "sourceUrls": [
+      "https://www.sonepar.fr/catalog/fr-fr/products/monacor-hp-pa-encastre-4o-30w-ip65-00558420831"
+    ]
+  },
+  "SPC-510/WS-EU": {
+    "ean": "5908239737214",
+    "model": "SPC-510/WS-EU",
+    "replaceIfSourceEan": "5,90824E+12",
+    "sourceUrls": [
+      "https://muzikus.sk/en/spc-510-ws-eu-p-268530.html"
+    ]
   }
 }

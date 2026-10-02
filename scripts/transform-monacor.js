@@ -42,7 +42,8 @@ function isValidEan13(value) {
 }
 function eanForProduct(code, name, sourceEan) {
   const override = EAN_OVERRIDES[code];
-  if (override && !sourceEan && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
+  const sourceMatches = !sourceEan || (override && override.replaceIfSourceEan && sourceEan === override.replaceIfSourceEan);
+  if (override && sourceMatches && name.includes(override.model) && isValidEan13(override.ean)) return override.ean;
   return sourceEan;
 }
 
