@@ -1,0 +1,20 @@
+/* PremiumStore.sk – ochrana proti horizontálnemu pretekaniu na mobile.
+   Rieši príčiny (dlhé slová, obrázky, tabuľky, iframe), nie len symptóm. */
+@media(max-width:991px){
+  /* dlhé nezalomiteľné reťazce (formáty, kódy, URL) v popisoch a tabuľkách */
+  .p-detail-inner,.p-detail-tabs-wrapper,#description,.basic-description,.description-inner,.p-short-description,.extended-description,.p-detail-info,.table-wrapper,.pageArticleDetail,.article-detail,.content-wrapper,.category-perex,.category-description,.product-description,.cart-content,.cart-table,.checkout-box,#content{overflow-wrap:anywhere;word-break:normal;min-width:0}
+  .basic-description li,.basic-description p,.basic-description td,.basic-description th,.p-short-description li,.p-short-description p,#description li,#description p,#description td,#description th{overflow-wrap:anywhere;max-width:100%}
+  /* médiá */
+  #content img,#content video,#content canvas,#content svg:not(.icon):not([class*=icon]),.basic-description img,#description img{max-width:100%;height:auto}
+  #content iframe,#content embed,#content object{max-width:100%}
+  /* tabuľky v popisoch: horizontálny posun vnútri tabuľky, nie celej stránky */
+  .basic-description table,#description table,.p-detail-tabs-wrapper table,.pageArticleDetail table{display:block;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  /* predformátovaný text a kód */
+  .basic-description pre,#description pre,.pageArticleDetail pre{max-width:100%;overflow-x:auto;white-space:pre-wrap}
+  /* flex/grid deti sa nesmú nafúknuť nad šírku rodiča */
+  .p-data-wrapper,.p-image-wrapper,.products .product,.cart-table td{min-width:0}
+}
+/* poistka: orezať presah bez vytvorenia scroll kontajnera (nerozbije position:sticky) */
+@supports(overflow:clip){
+  @media(max-width:991px){html,body{overflow-x:clip}}
+}
