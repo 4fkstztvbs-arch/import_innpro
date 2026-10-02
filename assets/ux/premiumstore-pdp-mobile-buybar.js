@@ -27,10 +27,10 @@
     '@media (min-width:1024px){.ps-buybar{display:none;}}',
     /* Tlačidlá mimo hlavného formulára (okno po pridaní do košíka, karty súvisiacich produktov)
        na stránke produktu: po cleanupe z 1. 10. mali predvolenú žltú. */
-    'body.type-detail .btn.btn-conversion:not(.add-to-cart-button),body.type-detail a.btn.btn-cart:not(.add-to-cart-button),',
+    '#colorbox a.btn,#cboxContent a.btn,#colorbox .btn.btn-conversion,#cboxContent .btn.btn-conversion,body.type-detail .btn.btn-conversion:not(.add-to-cart-button),body.type-detail a.btn.btn-cart:not(.add-to-cart-button),',
     'body.type-detail .btn.btn-cart:not(.add-to-cart-button){background-color:#167450!important;border-color:#167450!important;',
     'border-radius:999px!important;color:#fff!important;font-weight:600!important;box-shadow:none!important;}',
-    'body.type-detail .btn.btn-conversion:not(.add-to-cart-button):hover,body.type-detail .btn.btn-cart:not(.add-to-cart-button):hover{',
+    '#colorbox a.btn:hover,#cboxContent a.btn:hover,body.type-detail .btn.btn-conversion:not(.add-to-cart-button):hover,body.type-detail .btn.btn-cart:not(.add-to-cart-button):hover{',
     'background-color:#145e41!important;border-color:#145e41!important;}',
     /* Kompaktnejšia galéria na mobile: tlačidlo Do košíka sa dostane vyššie. */
     '@media (max-width:767px){',
