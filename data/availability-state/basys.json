@@ -838,11 +838,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-BB 560M",
-      "code": "BASYS-BB 560M",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-BD 1000302",
       "code": "BASYS-BD 1000302",
       "ean": ""
@@ -1178,11 +1173,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-DI4000 V2",
-      "code": "BASYS-DI4000 V2",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-DM TCE",
       "code": "BASYS-DM TCE",
       "ean": ""
@@ -1438,11 +1428,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-FLOW CLAMP",
-      "code": "BASYS-FLOW CLAMP",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-GIC-150",
       "code": "BASYS-GIC-150",
       "ean": ""
@@ -1500,11 +1485,6 @@
     {
       "key": "code:BASYS-GM-DX874",
       "code": "BASYS-GM-DX874",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-GUITAR 2 USB",
-      "code": "BASYS-GUITAR 2 USB",
       "ean": ""
     },
     {
@@ -1590,11 +1570,6 @@
     {
       "key": "code:BASYS-LG 992313005",
       "code": "BASYS-LG 992313005",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-LINE 2 USB",
-      "code": "BASYS-LINE 2 USB",
       "ean": ""
     },
     {
@@ -1775,11 +1750,6 @@
     {
       "key": "code:BASYS-MVH-S520DAB",
       "code": "BASYS-MVH-S520DAB",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-MX882 V2",
-      "code": "BASYS-MX882 V2",
       "ean": ""
     },
     {
@@ -2873,16 +2843,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-U-PHORIA STUDIO",
-      "code": "BASYS-U-PHORIA STUDIO",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-U-PHORIA STUDIO PRO",
-      "code": "BASYS-U-PHORIA STUDIO PRO",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-ULT-S3.5-2.5",
       "code": "BASYS-ULT-S3.5-2.5",
       "ean": ""
@@ -2890,16 +2850,6 @@
     {
       "key": "code:BASYS-ULT-S4.4-2.5",
       "code": "BASYS-ULT-S4.4-2.5",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-VOCODER VC340",
-      "code": "BASYS-VOCODER VC340",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-VOICE STUDIO",
-      "code": "BASYS-VOICE STUDIO",
       "ean": ""
     },
     {
@@ -2930,31 +2880,6 @@
     {
       "key": "code:BASYS-WASP DELUXE",
       "code": "BASYS-WASP DELUXE",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-X-TOUCH COMPACT",
-      "code": "BASYS-X-TOUCH COMPACT",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-X-TOUCH ONE",
-      "code": "BASYS-X-TOUCH ONE",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-X32 COMPACT",
-      "code": "BASYS-X32 COMPACT",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-X32 MOTOR FADER",
-      "code": "BASYS-X32 MOTOR FADER",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-X32 PRODUCER",
-      "code": "BASYS-X32 PRODUCER",
       "ean": ""
     },
     {
@@ -4028,6 +3953,16 @@
       "ean": "4033653013123"
     },
     {
+      "key": "ean:4033653013802",
+      "code": "BASYS-X32 COMPACT",
+      "ean": "4033653013802"
+    },
+    {
+      "key": "ean:4033653013857",
+      "code": "BASYS-X32 PRODUCER",
+      "ean": "4033653013857"
+    },
+    {
       "key": "ean:4033653014014",
       "code": "BASYS-DL151",
       "ean": "4033653014014"
@@ -4041,6 +3976,11 @@
       "key": "ean:4033653014342",
       "code": "BASYS-X-ADAT",
       "ean": "4033653014342"
+    },
+    {
+      "key": "ean:4033653014359",
+      "code": "BASYS-X32 MOTOR FADER",
+      "ean": "4033653014359"
     },
     {
       "key": "ean:4033653014458",
@@ -4136,6 +4076,11 @@
       "key": "ean:4033653030618",
       "code": "BASYS-UCA222",
       "ean": "4033653030618"
+    },
+    {
+      "key": "ean:4033653031370",
+      "code": "BASYS-VOCODER VC340",
+      "ean": "4033653031370"
     },
     {
       "key": "ean:4033653031714",
@@ -4273,6 +4218,11 @@
       "ean": "4033653071123"
     },
     {
+      "key": "ean:4033653071222",
+      "code": "BASYS-MX882 V2",
+      "ean": "4033653071222"
+    },
+    {
       "key": "ean:4033653071307",
       "code": "BASYS-WING",
       "ean": "4033653071307"
@@ -4373,6 +4323,11 @@
       "ean": "4033653080798"
     },
     {
+      "key": "ean:4033653080972",
+      "code": "BASYS-DI4000 V2",
+      "ean": "4033653080972"
+    },
+    {
       "key": "ean:4033653081351",
       "code": "BASYS-DM8500",
       "ean": "4033653081351"
@@ -4463,6 +4418,11 @@
       "ean": "4033653107716"
     },
     {
+      "key": "ean:4033653120616",
+      "code": "BASYS-BB 560M",
+      "ean": "4033653120616"
+    },
+    {
       "key": "ean:4033653120753",
       "code": "BASYS-SD251-BT",
       "ean": "4033653120753"
@@ -4486,6 +4446,41 @@
       "key": "ean:4033653130349",
       "code": "BASYS-X1",
       "ean": "4033653130349"
+    },
+    {
+      "key": "ean:4033653130653",
+      "code": "BASYS-X-TOUCH COMPACT",
+      "ean": "4033653130653"
+    },
+    {
+      "key": "ean:4033653130660",
+      "code": "BASYS-GUITAR 2 USB",
+      "ean": "4033653130660"
+    },
+    {
+      "key": "ean:4033653130677",
+      "code": "BASYS-LINE 2 USB",
+      "ean": "4033653130677"
+    },
+    {
+      "key": "ean:4033653130714",
+      "code": "BASYS-X-TOUCH ONE",
+      "ean": "4033653130714"
+    },
+    {
+      "key": "ean:4033653130912",
+      "code": "BASYS-U-PHORIA STUDIO PRO",
+      "ean": "4033653130912"
+    },
+    {
+      "key": "ean:4033653130936",
+      "code": "BASYS-U-PHORIA STUDIO",
+      "ean": "4033653130936"
+    },
+    {
+      "key": "ean:4033653130950",
+      "code": "BASYS-VOICE STUDIO",
+      "ean": "4033653130950"
     },
     {
       "key": "ean:4033653131315",
@@ -4531,6 +4526,11 @@
       "key": "ean:4033653160339",
       "code": "BASYS-CT200",
       "ean": "4033653160339"
+    },
+    {
+      "key": "ean:4033653160940",
+      "code": "BASYS-FLOW CLAMP",
+      "ean": "4033653160940"
     },
     {
       "key": "ean:4033653160971",
@@ -5130,6 +5130,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-BB 560M",
+      "code": "BASYS-BB 560M",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-BD 1000310",
       "code": "BASYS-BD 1000310",
       "ean": ""
@@ -5425,6 +5430,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-DI4000 V2",
+      "code": "BASYS-DI4000 V2",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-DI400P",
       "code": "BASYS-DI400P",
       "ean": ""
@@ -5545,6 +5555,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-FLOW CLAMP",
+      "code": "BASYS-FLOW CLAMP",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-GI100",
       "code": "BASYS-GI100",
       "ean": ""
@@ -5592,6 +5607,11 @@
     {
       "key": "code:BASYS-GMX-500",
       "code": "BASYS-GMX-500",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GUITAR 2 USB",
+      "code": "BASYS-GUITAR 2 USB",
       "ean": ""
     },
     {
@@ -5667,6 +5687,11 @@
     {
       "key": "code:BASYS-L6",
       "code": "BASYS-L6",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-LINE 2 USB",
+      "code": "BASYS-LINE 2 USB",
       "ean": ""
     },
     {
@@ -5807,6 +5832,11 @@
     {
       "key": "code:BASYS-MX400",
       "code": "BASYS-MX400",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MX882 V2",
+      "code": "BASYS-MX882 V2",
       "ean": ""
     },
     {
@@ -6070,6 +6100,16 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-U-PHORIA STUDIO",
+      "code": "BASYS-U-PHORIA STUDIO",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-U-PHORIA STUDIO PRO",
+      "code": "BASYS-U-PHORIA STUDIO PRO",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-UCA222",
       "code": "BASYS-UCA222",
       "ean": ""
@@ -6100,6 +6140,16 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-VOCODER VC340",
+      "code": "BASYS-VOCODER VC340",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-VOICE STUDIO",
+      "code": "BASYS-VOICE STUDIO",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-VQ1500D",
       "code": "BASYS-VQ1500D",
       "ean": ""
@@ -6117,6 +6167,16 @@
     {
       "key": "code:BASYS-X-ADAT",
       "code": "BASYS-X-ADAT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-X-TOUCH COMPACT",
+      "code": "BASYS-X-TOUCH COMPACT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-X-TOUCH ONE",
+      "code": "BASYS-X-TOUCH ONE",
       "ean": ""
     },
     {
@@ -6152,6 +6212,21 @@
     {
       "key": "code:BASYS-X32",
       "code": "BASYS-X32",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-X32 COMPACT",
+      "code": "BASYS-X32 COMPACT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-X32 MOTOR FADER",
+      "code": "BASYS-X32 MOTOR FADER",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-X32 PRODUCER",
+      "code": "BASYS-X32 PRODUCER",
       "ean": ""
     },
     {
