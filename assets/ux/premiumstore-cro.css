@@ -1765,24 +1765,43 @@ body.type-detail .p-data-wrapper{
    #content, aby prebil inline pravidlá s ID a !important. Koncové kategórie
    dlaždice nemajú a nemenia sa.
    ========================================================================== */
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-intro { display: block !important; margin: 0 0 14px !important; }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-intro p { max-width: 900px !important; font-size: 15px !important; line-height: 1.55 !important; }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-skip { display: none !important; }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-head { margin: 0 0 10px !important; }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-head > span { display: none !important; }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) h2 { font-size: 20px !important; }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .grid,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-grid {
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-intro,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-intro,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-intro,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-intro,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-intro{ display: block !important; margin: 0 0 14px !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-intro p{ max-width: 900px !important; font-size: 15px !important; line-height: 1.55 !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-skip,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-skip,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-skip,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-skip,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-skip{ display: none !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-head,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-section-head,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-head,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-head,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-head{ margin: 0 0 10px !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-head > span{ display: none !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) h2{ font-size: 20px !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-grid{
   display: grid !important;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)) !important;
   gap: 8px !important;
   margin: 0 0 18px !important;
 }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-tile { grid-column: auto !important; margin: 0 !important; min-width: 0 !important; }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-tile,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .tile,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-main {
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-tile{ grid-column: auto !important; margin: 0 !important; min-width: 0 !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) a.psh-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-main{
   display: flex !important;
   flex-direction: row !important;
   align-items: center !important;
@@ -1791,10 +1810,13 @@ body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-main {
   padding: 6px 10px !important;
   border-radius: 10px !important;
 }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-photo,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .photo,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-photo {
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-no-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-photo{
   grid-column: auto !important;
   grid-row: auto !important;
   flex: 0 0 48px !important;
@@ -1805,8 +1827,8 @@ body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-photo {
   padding: 4px !important;
   border-radius: 8px !important;
 }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo { font-size: 0 !important; }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-copy {
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-no-photo{ font-size: 0 !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-copy{
   grid-column: auto !important;
   grid-row: auto !important;
   display: block !important;
@@ -1814,10 +1836,13 @@ body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-copy {
   min-width: 0 !important;
   padding: 0 !important;
 }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-title {
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-title{
   grid-column: auto !important;
   grid-row: auto !important;
   display: block !important;
@@ -1829,40 +1854,63 @@ body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-title {
   text-decoration: none !important;
   hyphens: auto;
 }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-arrow,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-caption,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .caption,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-caption { display: none !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-arrow,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-arrow,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-arrow,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-arrow,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-arrow,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-caption,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-caption,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-caption,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-caption,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .caption,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-caption{ display: none !important; }
 @media (max-width: 900px) {
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .grid,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-grid {
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-grid{
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     gap: 6px !important;
   }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-tile,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .tile,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-main {
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) a.psh-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .tile,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-main{
     display: flex !important;
     min-height: 0 !important;
     padding: 6px 8px !important;
     gap: 8px !important;
   }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-photo,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-no-photo,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .photo,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-photo {
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-no-photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .photo,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-photo{
     flex-basis: 40px !important;
     width: 40px !important;
     height: 40px !important;
   }
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-label,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-title { font-size: 14px !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-label,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-title{ font-size: 14px !important; }
 }
 @media (max-width: 360px) {
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .grid,
-body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .psh-grid { grid-template-columns: 1fr !important; }
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ps-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pw-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .pa-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .ph-grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .grid,
+body.type-category #content :is([id^="ps-cat-"]:not([id$="-help"]),#ps-tech,#psh-domacnost,[id^="psh-workshop-"],[id^="psh-automoto-"],[id^="psh-health-"]) .psh-grid{ grid-template-columns: 1fr !important; }
 }
