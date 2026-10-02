@@ -243,5 +243,13 @@
     "sourceUrls": [
       "https://www.cpplus.cz/cp-dnw-gpu8g2f2-96-osmiportovy-10/100/1000-mbps-poe-switch-s-2x-1000-mbps-a-2x-sfp-uplinkem"
     ]
+  },
+  "CPP-CP-UNC-WD21L2-VMD": {
+    "ean": "4250593430333",
+    "model": "CP-UNC-WD21L2-VMD",
+    "replaceIfSourceEan": "4250593440000",
+    "sourceUrls": [
+      "https://www.cpplus.cz/cp-unc-wd21l2-vmd-0360-2-0mpix-venkovni-ip-antivandal-dome-kamera-s-ir-wdr-starlight-a-vestavenym-mikrofonem"
+    ]
   }
 }
