@@ -12,6 +12,7 @@ on:
     paths:
       - ".github/workflows/basys-sync.yml"
       - "data/basys-heureka-ean-overrides.json"
+      - "scripts/check-feed-size.js"
 
 permissions:
   contents: write
