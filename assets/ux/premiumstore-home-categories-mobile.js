@@ -47,6 +47,7 @@
     var h1 = main.querySelector('h1');
     if (h1 && h1.parentNode === main) h1.insertAdjacentElement('afterend', ul);
     else main.insertBefore(ul, main.firstChild);
+    main.classList.add('ps-home-cats-ready');
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', build);
