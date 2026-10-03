@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 27849,
-  "matchedRules": 2168,
-  "changedProducts": 4,
+  "totalProducts": 27721,
+  "matchedRules": 2169,
+  "changedProducts": 990,
   "rejected": [
     {
       "supplier": "atos",
@@ -923,13 +923,6 @@
     },
     {
       "supplier": "innpro",
-      "code": "069813",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "798038994353",
-      "feedEan": "0798038994353"
-    },
-    {
-      "supplier": "innpro",
       "code": "078982",
       "reason": "Reviewed product name changed"
     },
@@ -1686,101 +1679,6 @@
     {
       "supplier": "innpro",
       "code": "082793",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "018665",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "029058",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "055617",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "058841",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "074232",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "075362",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078336",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078348",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078361",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083355",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083736",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083739",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087495",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087497",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087515",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090987",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090988",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "091001",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "091003",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2663,7 +2561,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
-      "visibleUnique": 56,
+      "visibleUnique": 57,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
