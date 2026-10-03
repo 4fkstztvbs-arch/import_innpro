@@ -1,9 +1,9 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-03 16:52 UTC.
+Kontrola z 2026-10-03 18:53 UTC.
 
-Produktov v full.xml: **7176**, z toho 5724 má záznam aj v light.xml.
-Dostupnosť: Skladom 5695, ostatné 1481 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
+Produktov v full.xml: **7176**, z toho 5722 má záznam aj v light.xml.
+Dostupnosť: Skladom 5693, ostatné 1483 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
 
 ## quantity="-1" — 0 produktov
 
@@ -42,7 +42,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrát | Skladom | 248 | 27.10.2026 |
 | `024515` | Panoramatický fotografický stojan 360 Puluz DCA0871W | Skladom | 100 | 05.11.2026 |
 | `023538` | Inteligentný spínač WiFi SONOFF 4CHR3 | Skladom | 294 | 23.10.2026 |
-| `023537` | Inteligentný spínač WiFi SONOFF 4CHPROR3 | Skladom | 1096 | 23.10.2026 |
+| `023537` | Inteligentný spínač WiFi SONOFF 4CHPROR3 | Skladom | 1095 | 23.10.2026 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW | Skladom | 1046 | 23.10.2026 |
 | `024466` | Vodná fontána pre domáce zvieratá Petoneer Fresco mini  | Skladom | 124 | 16.10.2026 |
 | `030799` | Inteligentný laser na hru psov/mačiek Petoneer Smart Do | Skladom | 56 | 16.10.2026 |
@@ -160,7 +160,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `035464` | Popruh na krk s držiakom Telesin pre športové kamery /  | Dostupné od 10.12.2026 | null | 10.12.2026 |
 | `034804` | Statív s 3D 360° hlavou + držiak na telefón Puluz PU309 | Skladom | 27 | 27.10.2026 |
 | `034805` | Fototaška cez rameno Puluz (čierna) | Skladom | 2 | 05.11.2026 |
-| `035816` | Inteligentné závesné svetlo Yeelight Crystal | Skladom | 2 | 16.10.2026 |
+| `035816` | Inteligentné závesné svetlo Yeelight Crystal | Skladom | 1 | 16.10.2026 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/ | Skladom | 415 | 08.10.2026 |
 | `034595` | Habotest HT122, bezkontaktný tester napätia / tester di | Dostupné od 08.10.2026 | null | 08.10.2026 |
 | `034596` | Habotest HT121, bezkontaktná skúšačka napätia / skúšačk | Skladom | 126 | 08.10.2026 |
@@ -198,7 +198,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `040908` | Joystick PXN-2119 PRO na ovládanie letu | Dostupné od 16.10.2026 | null | 16.10.2026 |
 | `040667` | CATLINK Pro-X Luxury Version – samočistiaca toaleta pre | Skladom | 208 | 25.11.2026 |
 | `041445` | Inteligentné diaľkové ovládanie SwitchBot Hub mini | Skladom | 772 | 27.10.2026 |
-| `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 1115 | 27.10.2026 |
+| `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 1113 | 27.10.2026 |
 | `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 1980 | 27.10.2026 |
 | `041280` | Detektor úniku plynu Habotest HT59 | Skladom | 1058 | 08.10.2026 |
 | `041281` | Detektor úniku plynu Habotest HT60 | Skladom | 491 | 08.10.2026 |
@@ -208,7 +208,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `041287` | Digitálny anemometer Habotest HT605 | Skladom | 64 | 08.10.2026 |
 | `040244` | Elektrický otočný stojan Puluz 30 cm USB (čierny) | Skladom | 256 | 05.11.2026 |
 | `040245` | Elektrický otočný stôl Puluz 30 cm USB (biely) | Skladom | 402 | 27.10.2026 |
-| `041706` | Fotopasca Puluz so selfie tyčou pre športové kamery (DJ | Skladom | 108 | 10.12.2026 |
+| `041706` | Fotopasca Puluz so selfie tyčou pre športové kamery (DJ | Skladom | 107 | 10.12.2026 |
 | `038160` | Solárna lampa Superfire FF10-B | Skladom | 146 | 10.12.2026 |
 | `041177` | Inteligentný samočistiaci záchod pre mačky Catlink Pro- | Skladom | 320 | 25.11.2026 |
 | `041916` | Kávovar na kapsule 5 v 1 HiBREW H2B (čierny) | Skladom | 49 | 13.10.2026 |
@@ -253,7 +253,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `053936` | Herné slúchadlá ONIKUMA K9 Pink RGB | Skladom | 955 | 19.11.2026 |
 | `053939` | Herné slúchadlá ONIKUMA K10 (čierne) | Skladom | 847 | 27.10.2026 |
 | `053941` | Herné slúchadlá ONIKUMA X15Pro Pink Cat's Ears | Skladom | 332 | 19.11.2026 |
-| `053948` | Stojan na slúchadlá ONIKUMA ST-2 čierny | Skladom | 556 | 19.11.2026 |
+| `053948` | Stojan na slúchadlá ONIKUMA ST-2 čierny | Skladom | 555 | 19.11.2026 |
 | `053951` | Herná myš ONIKUMA CW905 čierna | Skladom | 591 | 19.11.2026 |
 | `053965` | Herná myš ONIKUMA CW905 ružová | Skladom | 719 | 19.11.2026 |
 | `053975` | Inteligentný termostatický radiátorový ventil Avatto TR | Dostupné od 16.10.2026 | null | 16.10.2026 |
