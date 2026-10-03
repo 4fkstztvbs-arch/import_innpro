@@ -10,7 +10,8 @@
     padding: 0 12px;
     list-style: none;
   }
-  .ps-home-cats li { margin: 0; padding: 0; list-style: none; }
+  .ps-home-cats li { margin: 0; padding: 0; list-style: none; display: flex; }
+  .ps-home-cats li > a { flex: 1; }
   .ps-home-cats a {
     display: flex;
     flex-direction: column;
@@ -42,5 +43,19 @@
     stroke-linecap: round;
     stroke-linejoin: round;
     flex: none;
+  }
+}
+
+/* Varianta s fotkami kategórií (.ps-home-cats--img) */
+@media (max-width: 767px) {
+  body.type-index .ps-home-cats--img a { gap: 4px; padding: 8px 4px 8px; min-height: 0; background: #fff; justify-content: flex-start; }
+  body.type-index .ps-home-cats--img span { display: flex; align-items: center; min-height: 2.4em; }
+  body.type-index .ps-home-cats--img img {
+    width: 68px !important;
+    max-width: 68px !important;
+    height: 68px !important;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    display: block;
   }
 }
