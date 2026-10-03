@@ -1,7 +1,7 @@
 {
   "products": 27964,
-  "matched": 563,
-  "categoryChanges": 96,
+  "matched": 558,
+  "categoryChanges": 91,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -2157,6 +2157,11 @@
     },
     {
       "supplier": "basys",
+      "code": "BASYS-BD 708941",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
       "code": "BASYS-BD 718971",
       "ean": ""
     },
@@ -2332,6 +2337,11 @@
     },
     {
       "supplier": "basys",
+      "code": "BASYS-AM 000-F7W00",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
       "code": "BASYS-BD 737704",
       "ean": ""
     },
@@ -2347,7 +2357,22 @@
     },
     {
       "supplier": "basys",
+      "code": "BASYS-BD 718211",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
       "code": "BASYS-EN 451715",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-AM 000-F7V00",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-AM 000-F7X00",
       "ean": ""
     },
     {

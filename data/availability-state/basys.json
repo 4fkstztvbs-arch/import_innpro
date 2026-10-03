@@ -23,21 +23,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-AM 000-F7V00",
-      "code": "BASYS-AM 000-F7V00",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-AM 000-F7W00",
-      "code": "BASYS-AM 000-F7W00",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-AM 000-F7X00",
-      "code": "BASYS-AM 000-F7X00",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-AM 000-F7Z00",
       "code": "BASYS-AM 000-F7Z00",
       "ean": ""
@@ -433,11 +418,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-BD 708941",
-      "code": "BASYS-BD 708941",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-BD 713074",
       "code": "BASYS-BD 713074",
       "ean": ""
@@ -453,18 +433,8 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-BD 718211",
-      "code": "BASYS-BD 718211",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-BD 913669",
       "code": "BASYS-BD 913669",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-BD 917700",
-      "code": "BASYS-BD 917700",
       "ean": ""
     },
     {
@@ -823,16 +793,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-MIC BOOSTER CT 1",
-      "code": "BASYS-MIC BOOSTER CT 1",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-MIC2200 V2",
-      "code": "BASYS-MIC2200 V2",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-MMCX-3.5SP",
       "code": "BASYS-MMCX-3.5SP",
       "ean": ""
@@ -895,11 +855,6 @@
     {
       "key": "code:BASYS-ND-RC1",
       "code": "BASYS-ND-RC1",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-PARAMETRIC EQ 512 V2",
-      "code": "BASYS-PARAMETRIC EQ 512 V2",
       "ean": ""
     },
     {
@@ -1053,18 +1008,8 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-SPL 1902",
-      "code": "BASYS-SPL 1902",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-SPL 1907",
       "code": "BASYS-SPL 1907",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-SPL 1980",
-      "code": "BASYS-SPL 1980",
       "ean": ""
     },
     {
@@ -1100,16 +1045,6 @@
     {
       "key": "code:BASYS-SPL 2485",
       "code": "BASYS-SPL 2485",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-SPL 2612",
-      "code": "BASYS-SPL 2612",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-SPL 2861",
-      "code": "BASYS-SPL 2861",
       "ean": ""
     },
     {
@@ -1160,11 +1095,6 @@
     {
       "key": "code:BASYS-TA 000-E0Z00",
       "code": "BASYS-TA 000-E0Z00",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-TA 000-E1200",
-      "code": "BASYS-TA 000-E1200",
       "ean": ""
     },
     {
@@ -3013,6 +2943,11 @@
       "ean": "4010118708428"
     },
     {
+      "key": "ean:4010118708947",
+      "code": "BASYS-BD 708941",
+      "ean": "4010118708947"
+    },
+    {
       "key": "ean:4010118708992",
       "code": "BASYS-BD 708992",
       "ean": "4010118708992"
@@ -3031,6 +2966,11 @@
       "key": "ean:4010118717925",
       "code": "BASYS-BD 717924",
       "ean": "4010118717925"
+    },
+    {
+      "key": "ean:4010118718212",
+      "code": "BASYS-BD 718211",
+      "ean": "4010118718212"
     },
     {
       "key": "ean:4010118718359",
@@ -3833,6 +3773,11 @@
       "ean": "4033653080972"
     },
     {
+      "key": "ean:4033653080989",
+      "code": "BASYS-MIC2200 V2",
+      "ean": "4033653080989"
+    },
+    {
       "key": "ean:4033653081269",
       "code": "BASYS-DN 30T",
       "ean": "4033653081269"
@@ -3851,6 +3796,11 @@
       "key": "ean:4033653081368",
       "code": "BASYS-2A-KT",
       "ean": "4033653081368"
+    },
+    {
+      "key": "ean:4033653081399",
+      "code": "BASYS-PARAMETRIC EQ 512 V2",
+      "ean": "4033653081399"
     },
     {
       "key": "ean:4033653081412",
@@ -4253,6 +4203,11 @@
       "ean": "4033653220163"
     },
     {
+      "key": "ean:4033653220217",
+      "code": "BASYS-MIC BOOSTER CT 1",
+      "ean": "4033653220217"
+    },
+    {
       "key": "ean:4033653220286",
       "code": "BASYS-TC 000-E5I00",
       "ean": "4033653220286"
@@ -4313,6 +4268,11 @@
       "ean": "4033653231381"
     },
     {
+      "key": "ean:4033653231428",
+      "code": "BASYS-TA 000-E1200",
+      "ean": "4033653231428"
+    },
+    {
       "key": "ean:4033653232036",
       "code": "BASYS-TC 0709-AJS86",
       "ean": "4033653232036"
@@ -4338,6 +4298,31 @@
       "ean": "4033653232296"
     },
     {
+      "key": "ean:4260149320421",
+      "code": "BASYS-SPL 2612",
+      "ean": "4260149320421"
+    },
+    {
+      "key": "ean:4260149320445",
+      "code": "BASYS-SPL 2861",
+      "ean": "4260149320445"
+    },
+    {
+      "key": "ean:4260149322401",
+      "code": "BASYS-SPL 1902",
+      "ean": "4260149322401"
+    },
+    {
+      "key": "ean:4260149322562",
+      "code": "BASYS-SPL 1980",
+      "ean": "4260149322562"
+    },
+    {
+      "key": "ean:4589702693322",
+      "code": "BASYS-BD 917700",
+      "ean": "4589702693322"
+    },
+    {
       "key": "ean:5035866176700",
       "code": "BASYS-TA 980017670",
       "ean": "5035866176700"
@@ -4346,6 +4331,21 @@
       "key": "ean:5035866177103",
       "code": "BASYS-TA 980017710",
       "ean": "5035866177103"
+    },
+    {
+      "key": "ean:5060458750006",
+      "code": "BASYS-AM 000-F7W00",
+      "ean": "5060458750006"
+    },
+    {
+      "key": "ean:5060458750013",
+      "code": "BASYS-AM 000-F7V00",
+      "ean": "5060458750013"
+    },
+    {
+      "key": "ean:5060458750709",
+      "code": "BASYS-AM 000-F7X00",
+      "ean": "5060458750709"
     },
     {
       "key": "ean:5706622009500",
