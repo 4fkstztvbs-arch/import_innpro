@@ -75,7 +75,6 @@ jobs:
       - uses: ./.github/actions/finalize-feed
         with:
           supplier: innpro
-          innpro-name-quarantine: 'true'
 
       - uses: ./.github/actions/commit-output
         with:
