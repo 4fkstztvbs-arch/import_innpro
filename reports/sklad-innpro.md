@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-03 02:19 UTC.
+Kontrola z 2026-10-03 03:10 UTC.
 
 Produktov v full.xml: **7176**, z toho 5727 má záznam aj v light.xml.
 Dostupnosť: Skladom 5698, ostatné 1478 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -39,7 +39,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `021910` | Náhradné filtre + špongia + pumpička Petoneer (3 ks) | Skladom | 560 | 16.10.2026 |
 | `022610` | Inteligentný spínač WiFi + RF 433 Sonoff RF R2 (NOVINKA | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `023125` | Inteligentný odstraňovač zápachu Petoneer | Skladom | 46 | 16.10.2026 |
-| `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrát | Skladom | 249 | 27.10.2026 |
+| `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrát | Skladom | 248 | 27.10.2026 |
 | `024515` | Panoramatický fotografický stojan 360 Puluz DCA0871W | Skladom | 100 | 05.11.2026 |
 | `023538` | Inteligentný spínač WiFi SONOFF 4CHR3 | Skladom | 295 | 23.10.2026 |
 | `023537` | Inteligentný spínač WiFi SONOFF 4CHPROR3 | Skladom | 1101 | 23.10.2026 |
@@ -129,7 +129,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `029275` | Solárna lampa Superfire FF5-E, 897W, 2000lm, 20000mAh | Skladom | 130 | 22.12.2026 |
 | `030318` | Hrudný popruh Telesin s držiakom pre športové kamery (G | Dostupné od 10.12.2026 | null | 10.12.2026 |
 | `030890` | Inteligentný samočistiaci odpadkový kôš pre mačky Catli | Skladom | 656 | 25.11.2026 |
-| `030906` | Náhradné filtre pre Catlink litter box Scooper 2ks. | Skladom | 396 | 25.11.2026 |
+| `030906` | Náhradné filtre pre Catlink litter box Scooper 2ks. | Skladom | 395 | 25.11.2026 |
 | `031124` | Inteligentný prepínač WiFi WiFi Sonoff Dual R3 Lite | Dostupné od 27.10.2026 | null | 27.10.2026 |
 | `030294` | Tester zásuviek s digitálnym displejom Habotest HT107D | Skladom | 517 | 08.10.2026 |
 | `030293` | Habotest HT126A Digitálny univerzálny multimeter | Skladom | 3 | 08.10.2026 |
@@ -199,7 +199,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `040667` | CATLINK Pro-X Luxury Version – samočistiaca toaleta pre | Skladom | 208 | 25.11.2026 |
 | `041445` | Inteligentné diaľkové ovládanie SwitchBot Hub mini | Skladom | 772 | 27.10.2026 |
 | `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 1115 | 27.10.2026 |
-| `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 1984 | 27.10.2026 |
+| `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 1983 | 27.10.2026 |
 | `041280` | Detektor úniku plynu Habotest HT59 | Skladom | 1058 | 08.10.2026 |
 | `041281` | Detektor úniku plynu Habotest HT60 | Skladom | 491 | 08.10.2026 |
 | `041284` | Merač teploty a vlhkosti Habotest HT607 | Dostupné od 08.10.2026 | null | 08.10.2026 |
