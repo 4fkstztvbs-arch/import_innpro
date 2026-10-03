@@ -5,6 +5,9 @@ on:
     # Generate this feed before 21:00 Bratislava time and ahead of the overnight Shoptet imports.
     - cron: '20 20 * * *'
       timezone: 'Europe/Bratislava' # 20:20 local time, with DST handling
+    # Denné obnovenie cien a dostupnosti (BASYS) pred importmi Shoptetu o 10:05, 12:05 a 17:05.
+    - cron: '35 9,11,16 * * *'
+      timezone: 'Europe/Bratislava' # 35 minút po 9:00, 11:00 a 16:00 miestneho času
   workflow_dispatch: {}
   push:
     branches:
@@ -52,41 +55,7 @@ jobs:
           node scripts/localize-product-names.js --supplier=basys --in=output/basys.xml --out=output/basys.xml --strict=0
           node scripts/validate-product-name-localization.js --supplier=basys --before=/tmp/basys-before-name-localization.xml --after=output/basys.xml
 
-      - name: Collapse duplicate categories
-        run: node scripts/collapse-duplicate-categories.js
-
-      - name: Fix ignored categories (Heureka)
-        run: node scripts/fix-ignored-categories.js
-
-      - name: Potvrdené opravy produktov z auditu
-        run: node scripts/apply-product-category-corrections.js --write
-
-      - name: Collapse thin categories
-        run: node scripts/collapse-thin-categories.js
-
-      # Posledný krok, ktorý sa dotýka kategórií: zaručuje, že v XML nezostane kategória mimo
-      # nášho stromu, ktorú by Shoptet pri importe vytvoril
-      - name: Enforce tree categories
-        run: node scripts/enforce-tree-categories.js
-
-      - name: Skryť produkty bez kategórie
-        run: node scripts/hide-uncategorised-products.js
-
-      # Nesmieme predávať pod nákupnú cenu. Beží až za všetkými krokmi, ktoré menia cenu.
-      - name: Skryť produkty pod nákupnou cenou
-        run: node scripts/hide-below-cost-products.js
-
-      - name: Approved category tree and visible 8-product minimum
-        run: node scripts/apply-approved-categories.js --write
-
-      - name: Vianočné zaradenie, parametre a rozcestníky
-        run: node scripts/apply-christmas-products.js --write
-
-      - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
-        run: node scripts/add-category-links.js
-
-      - name: Kontrola odkazov na kategórie
-        run: node scripts/check-category-links.js
+      - uses: ./.github/actions/postprocess-categories
 
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
@@ -103,22 +72,7 @@ jobs:
       - name: Normalize valid supplier GTINs to EAN-13
         run: node scripts/normalize-truncated-ean.js output/basys.xml
 
-      - name: Commit updated output
-        run: |
-          git config user.name "basys-sync-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet && echo "No changes" || git commit -m "Automatický BASYS sync $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3 4 5; do
-            git pull --rebase origin main
-            if git push; then
-              echo "Push succeeded on attempt $i"
-              break
-            fi
-            echo "Push failed (attempt $i) — another workflow likely pushed at the same time. Retrying in $((i*8))s..."
-            sleep $((i*8))
-            if [ "$i" = "5" ]; then
-              echo "::error::Push failed after 5 attempts"
-              exit 1
-            fi
-          done
+      - uses: ./.github/actions/commit-output
+        with:
+          bot-name: basys-sync-bot
+          label: "Automatický BASYS sync"

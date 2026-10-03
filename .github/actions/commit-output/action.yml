@@ -1,0 +1,39 @@
+name: Commit output
+description: >
+  Commitne vygenerované feedy do main a pushne s opakovaním (iný workflow mohol pushnúť
+  súčasne). Rovnaká slučka ako predtým v každom *-sync.yml.
+
+inputs:
+  bot-name:
+    description: Meno autora commitu, napr. kb-sync-bot.
+    required: true
+  label:
+    description: Text v commit správe pred časovou značkou, napr. "Automatický K-B sync".
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Commit updated output
+      shell: bash
+      env:
+        BOT_NAME: ${{ inputs.bot-name }}
+        COMMIT_LABEL: ${{ inputs.label }}
+      run: |
+        git config user.name "$BOT_NAME"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        git diff --staged --quiet && echo "No changes" || git commit -m "$COMMIT_LABEL $(date -u +%Y-%m-%dT%H:%MZ)"
+        for i in 1 2 3 4 5; do
+          git pull --rebase origin main
+          if git push; then
+            echo "Push succeeded on attempt $i"
+            break
+          fi
+          echo "Push failed (attempt $i) — another workflow likely pushed at the same time. Retrying in $((i*8))s..."
+          sleep $((i*8))
+          if [ "$i" = "5" ]; then
+            echo "::error::Push failed after 5 attempts"
+            exit 1
+          fi
+        done
