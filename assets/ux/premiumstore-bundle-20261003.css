@@ -2931,3 +2931,9 @@ body.ordering-process .next-step .next-step-back {
 #header .site-name img {
   aspect-ratio: 900 / 165;
 }
+
+/* CLS: hlavička má na desktope výšku 96 px aj bez JS (natívny padding 15 px sa
+   inak odstráni až po načítaní premiumstore-cro.js a obsah poskočí o 30 px). */
+@media (min-width: 992px) {
+  body:not(.ordering-process) #header .header-top { padding-top: 0; padding-bottom: 0; }
+}
