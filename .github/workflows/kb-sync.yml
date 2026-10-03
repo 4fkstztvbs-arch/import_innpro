@@ -79,28 +79,9 @@ jobs:
         with:
           refresh-stale-intros: 'true'
 
-      - name: Poistka proti useknutému feedu
-        run: node scripts/check-feed-size.js
-
-      - name: Apply supplier-aware CTR SEO overrides (inactive by default)
-        run: node scripts/apply-seo-overrides.js --write
-
-      # SK lokalizácia NAME je pre K-B aktívna. Beží až po cenách, dedupe, kategóriách a SEO.
-      - name: Lokalizovať názvy produktov do slovenčiny (K-B)
-        run: |
-          cp output/kb.xml /tmp/kb-before-name-localization.xml
-          node scripts/localize-product-names.js --supplier=kb --in=output/kb.xml --out=output/kb.xml --strict=0
-          node scripts/validate-product-name-localization.js --supplier=kb --before=/tmp/kb-before-name-localization.xml --after=output/kb.xml
-          node scripts/check-feed-size.js
-
-      - name: Apply internal sale state to original supplier products
-        run: node scripts/apply-vypredaj-to-feeds.js
-
-      - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z K-B feedu
-        run: node scripts/apply-missing-availability.js --supplier=kb --xml=output/kb.xml
-
-      - name: Normalize valid supplier GTINs to EAN-13
-        run: node scripts/normalize-truncated-ean.js output/kb.xml
+      - uses: ./.github/actions/finalize-feed
+        with:
+          supplier: kb
 
       - uses: ./.github/actions/commit-output
         with:

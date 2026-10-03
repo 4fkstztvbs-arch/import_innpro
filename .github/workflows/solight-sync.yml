@@ -58,26 +58,9 @@ jobs:
         with:
           finalize-solight-category: 'true'
 
-      - name: Poistka proti useknutému feedu
-        run: node scripts/check-feed-size.js
-
-      - name: Apply supplier-aware CTR SEO overrides (inactive by default)
-        run: node scripts/apply-seo-overrides.js --write
-
-      - name: Lokalizovať názvy podľa spoločného registra
-        run: |
-          cp output/solight.xml /tmp/solight-before-name-localization.xml
-          node scripts/localize-product-names.js --supplier=solight --in=output/solight.xml --out=output/solight.xml --strict=0
-          node scripts/validate-product-name-localization.js --supplier=solight --before=/tmp/solight-before-name-localization.xml --after=output/solight.xml
-          node scripts/check-feed-size.js
-      - name: Apply internal sale state to original supplier products
-        run: node scripts/apply-vypredaj-to-feeds.js
-
-      - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z Solight feedu
-        run: node scripts/apply-missing-availability.js --supplier=solight --xml=output/solight.xml
-
-      - name: Normalize valid supplier GTINs to EAN-13
-        run: node scripts/normalize-truncated-ean.js output/solight.xml
+      - uses: ./.github/actions/finalize-feed
+        with:
+          supplier: solight
 
       - uses: ./.github/actions/commit-output
         with:

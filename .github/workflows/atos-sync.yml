@@ -74,28 +74,9 @@ jobs:
 
       - uses: ./.github/actions/postprocess-categories
 
-      - name: Poistka proti useknutému feedu
-        run: node scripts/check-feed-size.js
-
-      - name: Apply supplier-aware CTR SEO overrides (inactive by default)
-        run: node scripts/apply-seo-overrides.js --write
-
-      # Schválené slovenské názvy bežia po cenách, deduplikácii, kategóriách a SEO.
-      - name: Lokalizovať názvy produktov do slovenčiny (ATOS)
-        run: |
-          cp output/atos.xml /tmp/atos-before-name-localization.xml
-          node scripts/localize-product-names.js --supplier=atos --in=output/atos.xml --out=output/atos.xml --strict=0
-          node scripts/validate-product-name-localization.js --supplier=atos --before=/tmp/atos-before-name-localization.xml --after=output/atos.xml
-          node scripts/check-feed-size.js
-
-      - name: Apply internal sale state to original supplier products
-        run: node scripts/apply-vypredaj-to-feeds.js
-
-      - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z ATOS feedu
-        run: node scripts/apply-missing-availability.js --supplier=atos --xml=output/atos.xml
-
-      - name: Normalize valid supplier GTINs to EAN-13
-        run: node scripts/normalize-truncated-ean.js output/atos.xml
+      - uses: ./.github/actions/finalize-feed
+        with:
+          supplier: atos
 
       - uses: ./.github/actions/commit-output
         with:
