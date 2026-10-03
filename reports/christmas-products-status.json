@@ -1,18 +1,13 @@
 {
   "matched": 133,
-  "changed": 123,
+  "changed": 1,
   "missing": [
-    "SOL_1V403-CW",
     "AT_EMO1550000163",
-    "SOL_1V218",
     "AT_EMO1550044029",
     "AT_EMO1550052006",
     "AT_EMO1550052003",
     "AT_EMO1550044027",
     "AT_EMO1550040002",
-    "SOL_1V215",
-    "SOL_1V57-WW",
-    "SOL_1V101-M",
     "PEN_7821587"
   ],
   "skippedUnavailable": [
@@ -117,7 +112,12 @@
     "AT_EMO1550054012",
     "AT_EMO1550054013",
     "AT_EMO1550054014",
-    "AT_EMO1550054015"
+    "AT_EMO1550054015",
+    "SOL_1V101-M",
+    "SOL_1V215",
+    "SOL_1V218",
+    "SOL_1V403-CW",
+    "SOL_1V57-WW"
   ],
   "parameters": 389
 }
