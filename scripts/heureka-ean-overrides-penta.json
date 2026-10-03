@@ -34,6 +34,14 @@
       "https://www.canosa.com.hr/boya-by-t290-dead-cat-fluffy-windshield-290mm-zastita-od-vjetra-za-mikrofon-prof/44233/product/"
     ]
   },
+  "5494113": {
+    "ean": "4587040883566",
+    "model": "BY-T320",
+    "sourceUrls": [
+      "https://www.bhphotovideo.com/c/product/1632605-REG/boya_by_t320_mic_foam_windscreen_inside.html",
+      "https://www.ebay.com/p/18052187134"
+    ]
+  },
   "6025405": {
     "ean": "0195949688591",
     "model": "AirPods (4. generácia)",
@@ -41,6 +49,21 @@
       "https://uk-new.ingrammicro.com/site/productdetail?id=CL57715",
       "https://www.reichelt.com/ch/de/shop/produkt/airpods_4-387510",
       "https://support.apple.com/en-euro/109525"
+    ]
+  },
+  "6025420": {
+    "model": "AirPods Pro 3",
+    "ean": "0195950543742",
+    "sourceUrls": [
+      "https://www.reichelt.de/de/de/shop/produkt/headset_in_ear_bluetooth_apple_airpods_pro_3-414163"
+    ]
+  },
+  "52891431": {
+    "ean": "8594199732665",
+    "model": "5m",
+    "sourceUrls": [
+      "https://www.penta.cz/carspa-_d202055.html",
+      "https://www.atria-europe.com/solar-cables-one-side--1x-mc4-connector--1-pair-length-5m--4mm2/"
     ]
   },
   "65526107": {
@@ -57,22 +80,6 @@
     "sourceUrls": [
       "https://be.ingrammicro.com/site/productdetail?id=A001-000000000005915134",
       "https://www.tp-link.com/uk/smart-home/robot-vacuum/tapo-rva200/"
-    ]
-  },
-  "5494113": {
-    "ean": "4587040883566",
-    "model": "BY-T320",
-    "sourceUrls": [
-      "https://www.bhphotovideo.com/c/product/1632605-REG/boya_by_t320_mic_foam_windscreen_inside.html",
-      "https://www.ebay.com/p/18052187134"
-    ]
-  },
-  "52891431": {
-    "ean": "8594199732665",
-    "model": "5m",
-    "sourceUrls": [
-      "https://www.penta.cz/carspa-_d202055.html",
-      "https://www.atria-europe.com/solar-cables-one-side--1x-mc4-connector--1-pair-length-5m--4mm2/"
     ]
   }
 }
