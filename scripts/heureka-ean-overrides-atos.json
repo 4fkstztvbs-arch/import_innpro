@@ -298,5 +298,45 @@
     "sourceUrls": [
       "https://www.cpplus.cz/cp-anw-hpu8g2-n12-osmiportovy-10/100-mbps-poe-switch-s-2x-1000-mbps-uplinkem"
     ]
+  },
+  "ABT-A500002795": {
+    "ean": "4711232760230",
+    "model": "DRC-60B",
+    "replaceIfSourceEan": "4543438300241",
+    "sourceUrls": [
+      "https://www.tme.eu/en/details/drc-60b/din-rail-mounting-power-supplies/mean-well/"
+    ]
+  },
+  "ABT-A500003476": {
+    "ean": "4711287422428",
+    "model": "SDR-480P-24",
+    "replaceIfSourceEan": "4543438304409",
+    "sourceUrls": [
+      "https://www.fortec-power.de/detail/46797ea0718643f2b3bd9bee0887e59c"
+    ]
+  },
+  "CPP-CP-UNC-TC41ZL6C-VMD-LQ": {
+    "ean": "4250593449359",
+    "model": "CP-UNC-TC41ZL6C-VMD-LQ",
+    "replaceIfSourceEan": "4250593440000",
+    "sourceUrls": [
+      "https://www.znackovekamery.cz/cp-unc-tc41zl6c-vmd-lq-4-0-mpix-venkovni-ip-kamera-s-dualnim-prisvitem-wdr-starlight-a-mikrofonem"
+    ]
+  },
+  "ATO-A500008194": {
+    "ean": "8595684703344",
+    "model": "SXKD-5E-FTP-LSOHFR-B2ca",
+    "replaceIfSourceEan": "8592457023341",
+    "sourceUrls": [
+      "https://www.solarix.cz/db/repository.nsf/v/77F4283E2B062405C1258935003E8F45/$file/Datasheet_installation_cable_Solarix_SXKD-5E-FTP-LSOHFR-B2ca.pdf"
+    ]
+  },
+  "MS-GARNI 1NG": {
+    "ean": "8592733021428",
+    "model": "GARNI 1NG",
+    "sourceUrls": [
+      "https://www.electrise.sk/p/garni-1ng-integrovany-snimac/1452636",
+      "https://eshop.hurikan.cz/garni-technology/"
+    ]
   }
 }

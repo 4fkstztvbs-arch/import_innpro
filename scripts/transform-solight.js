@@ -235,6 +235,20 @@ function buildShopitemXml(p) {
     parts.push('</TEXT_PROPERTIES>');
   }
   parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
+  // Heureka accepts a calendar date in DELIVERY_DATE for preorder items. Solight's
+  // availability text carries an explicit "Dostupné od D.M.YYYY" date; pass it through
+  // only while it is still in the future. Do not infer dispatch time from "Skladom".
+  const deliveryDateMatch = String(p.availability || '').match(/^Dostupné od (\d{1,2})\.(\d{1,2})\.(\d{4})$/);
+  if (deliveryDateMatch) {
+    const [, day, month, year] = deliveryDateMatch;
+    const date = new Date(Date.UTC(Number(year), Number(month) - 1, Number(day)));
+    const isExactDate = date.getUTCFullYear() === Number(year)
+      && date.getUTCMonth() === Number(month) - 1
+      && date.getUTCDate() === Number(day);
+    if (isExactDate && date > new Date(new Date().toISOString().slice(0, 10))) {
+      parts.push(`<DELIVERY_DATE>${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}</DELIVERY_DATE>`);
+    }
+  }
   parts.push('<VISIBLE>1</VISIBLE>');
   parts.push('<VISIBILITY>visible</VISIBILITY>');
   parts.push(`<LOGISTIC><WEIGHT>${xmlNum(p.weightKg || 0)}</WEIGHT></LOGISTIC>`);

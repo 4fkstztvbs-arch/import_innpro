@@ -227,5 +227,13 @@
       "https://www.tekra.sk/pracky-vrchom-plnene/ti5512emtcs-vrchom-plnena-pracka-indesit/",
       "https://www.tovaryvakcii.sk/produkt/indesit-ti5512emtcs.html"
     ]
+  },
+  "100001844091": {
+    "ean": "8050147653845",
+    "model": "BTW S6240P EU/N",
+    "replaceIfSourceEan": "859991653840",
+    "sourceUrls": [
+      "https://digitalassets-cdn.thron.com/api/v1/content-delivery/shares/oolnjd/contents/do-d7d79fa9-aa94-4545-8ddb-794ba61dbaba/pdf/Technick-list-NEL.pdf"
+    ]
   }
 }
