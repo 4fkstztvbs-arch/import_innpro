@@ -1,0 +1,60 @@
+name: Finalize feed
+description: >
+  Spoločný záver dodávateľských syncov: poistka proti useknutému feedu, SEO overrides,
+  lokalizácia názvov, vypredaj, dostupnosť a EAN. Poradie je rovnaké ako predtým v každom
+  *-sync.yml. (BASYS má vlastné poradie, preto túto akciu nepoužíva.)
+
+inputs:
+  supplier:
+    description: Kód dodávateľa (kb, monacor, solight, innpro, atos, penta); určuje output/<supplier>.xml.
+    required: true
+  localize-names:
+    description: "Spustiť lokalizáciu názvov v tomto bode (MONACOR a BASYS ju robia skôr, priamo vo workflowe)."
+    default: 'true'
+  innpro-name-quarantine:
+    description: "InnPro: pred lokalizáciou ešte raz skontrolovať schválené názvy (karanténa)."
+    default: 'false'
+
+runs:
+  using: composite
+  steps:
+    - name: Poistka proti useknutému feedu
+      shell: bash
+      run: node scripts/check-feed-size.js
+
+    - name: Apply supplier-aware CTR SEO overrides (inactive by default)
+      shell: bash
+      run: node scripts/apply-seo-overrides.js --write
+
+    - name: Quarantine any remaining changed approved-name identities (InnPro)
+      if: inputs.innpro-name-quarantine == 'true'
+      shell: bash
+      run: node scripts/validate-innpro-name-overrides.js --in=output/innpro.xml --quarantine
+
+    # Schválené slovenské názvy bežia po cenách, deduplikácii, kategóriách a SEO.
+    - name: Lokalizovať názvy produktov do slovenčiny
+      if: inputs.localize-names == 'true'
+      shell: bash
+      env:
+        SUPPLIER: ${{ inputs.supplier }}
+      run: |
+        cp "output/$SUPPLIER.xml" "/tmp/$SUPPLIER-before-name-localization.xml"
+        node scripts/localize-product-names.js --supplier="$SUPPLIER" --in="output/$SUPPLIER.xml" --out="output/$SUPPLIER.xml" --strict=0
+        node scripts/validate-product-name-localization.js --supplier="$SUPPLIER" --before="/tmp/$SUPPLIER-before-name-localization.xml" --after="output/$SUPPLIER.xml"
+        node scripts/check-feed-size.js
+
+    - name: Apply internal sale state to original supplier products
+      shell: bash
+      run: node scripts/apply-vypredaj-to-feeds.js
+
+    - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z feedu dodávateľa
+      shell: bash
+      env:
+        SUPPLIER: ${{ inputs.supplier }}
+      run: node scripts/apply-missing-availability.js --supplier="$SUPPLIER" --xml="output/$SUPPLIER.xml"
+
+    - name: Normalize valid supplier GTINs to EAN-13
+      shell: bash
+      env:
+        SUPPLIER: ${{ inputs.supplier }}
+      run: node scripts/normalize-truncated-ean.js "output/$SUPPLIER.xml"

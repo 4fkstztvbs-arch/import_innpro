@@ -67,20 +67,10 @@ jobs:
 
       - uses: ./.github/actions/postprocess-categories
 
-      - name: Poistka proti useknutému feedu
-        run: node scripts/check-feed-size.js
-
-      - name: Apply supplier-aware CTR SEO overrides (inactive by default)
-        run: node scripts/apply-seo-overrides.js --write
-
-      - name: Apply internal sale state to original supplier products
-        run: node scripts/apply-vypredaj-to-feeds.js
-
-      - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z MONACOR feedu
-        run: node scripts/apply-missing-availability.js --supplier=monacor --xml=output/monacor.xml
-
-      - name: Normalize valid supplier GTINs to EAN-13
-        run: node scripts/normalize-truncated-ean.js output/monacor.xml
+      - uses: ./.github/actions/finalize-feed
+        with:
+          supplier: monacor
+          localize-names: 'false'
 
       - uses: ./.github/actions/commit-output
         with:
