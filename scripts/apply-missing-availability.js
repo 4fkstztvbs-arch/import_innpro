@@ -71,6 +71,10 @@ function productIdentity(code, ean) {
   return normalizedEan ? `ean:${normalizedEan}` : `code:${String(code).trim().toUpperCase()}`;
 }
 
+function productCodeKey(code) {
+  return String(code || '').trim().toUpperCase();
+}
+
 function readState(statePath) {
   try {
     const state = JSON.parse(fs.readFileSync(statePath, 'utf8'));
@@ -101,6 +105,7 @@ function main() {
   if (rows.length === 0) throw new Error(`${supplier}: refusing an empty supplier feed.`);
 
   const currentByIdentity = new Map();
+  const currentByCode = new Map();
   const existingTombstones = new Map();
   let activeItemCount = 0;
   for (let index = 0; index < rows.length; index++) {
@@ -115,10 +120,13 @@ function main() {
     }
     if (currentByIdentity.has(key)) throw new Error(`${supplier}: duplicate product identity ${code}${ean ? ` / EAN ${ean}` : ''}.`);
     currentByIdentity.set(key, { key, code, ean });
+    currentByCode.set(productCodeKey(code), { key, code, ean });
     activeItemCount++;
   }
   if (activeItemCount === 0) throw new Error(`${supplier}: no active product rows in supplier feed.`);
-  for (const key of currentByIdentity.keys()) existingTombstones.delete(key);
+  for (const [key, product] of existingTombstones) {
+    if (currentByIdentity.has(key) || currentByCode.has(productCodeKey(product.code))) existingTombstones.delete(key);
+  }
 
   const statePath = path.join(ROOT, 'data', 'availability-state', `${supplier}.json`);
   const saleState = fs.existsSync(SALE_STATE_PATH) ? JSON.parse(fs.readFileSync(SALE_STATE_PATH, 'utf8')) : { items: {} };
@@ -132,10 +140,10 @@ function main() {
   for (const [key, product] of existingTombstones) nextMissing.set(key, product);
   if (prior) {
     for (const product of prior.missingProducts) {
-      if (!currentByIdentity.has(product.key)) nextMissing.set(product.key, product);
+      if (!currentByIdentity.has(product.key) && !currentByCode.has(productCodeKey(product.code))) nextMissing.set(product.key, product);
     }
     for (const product of prior.activeProducts) {
-      if (!currentByIdentity.has(product.key)) nextMissing.set(product.key, product);
+      if (!currentByIdentity.has(product.key) && !currentByCode.has(productCodeKey(product.code))) nextMissing.set(product.key, product);
     }
   }
 
@@ -153,6 +161,7 @@ function main() {
       return tombstone;
     });
   let output = xml.replace(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/gi, block => {
+    if (isUnavailableUpdate(block) && currentByCode.has(productCodeKey(field(block, 'CODE')))) return '';
     const code = field(block, 'CODE');
     if (saleState.items?.[code]?.quantity !== 0 || field(block, 'VISIBILITY') !== DETAIL_ONLY
         || field(block, 'AVAILABILITY') !== UNAVAILABLE_LABEL) return block;
