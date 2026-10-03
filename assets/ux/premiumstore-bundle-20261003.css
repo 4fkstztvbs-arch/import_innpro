@@ -2925,3 +2925,9 @@ body.ordering-process .next-step .next-step-back {
     min-height: 56px;
   }
 }
+
+/* Rýchlosť (CLS): logo z Shoptetu nemá width/height v HTML, hlavička preto
+   po načítaní loga poskočí. Pomer strán 900x165 rezervuje miesto vopred. */
+#header .site-name img {
+  aspect-ratio: 900 / 165;
+}
