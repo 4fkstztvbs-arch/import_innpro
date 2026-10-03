@@ -137,7 +137,9 @@ test('inactive CLI does not need OUT files or change files',()=>{
 test('all automated OUT writers finalize SEO after product/category changes',()=>{
   const root=path.join(__dirname,'..');
   for(const name of ['innpro-sync','kb-sync','atos-sync','basys-sync','monacor-sync','penta-sync','solight-sync','heureka-price-report','product-category-corrections']){
-    const text=fs.readFileSync(path.join(root,'.github/workflows',name+'.yml'),'utf8');
+    // Zdieľané akcie (.github/actions/*) sa vložia na miesto volania, aby sa poradie kontrolovalo ako predtým.
+    const text=fs.readFileSync(path.join(root,'.github/workflows',name+'.yml'),'utf8')
+      .replace(/uses: \.\/\.github\/actions\/([\w-]+)/g,(_,a)=>fs.readFileSync(path.join(root,'.github/actions',a,'action.yml'),'utf8'));
     assert.ok(text.includes("if: github.ref == 'refs/heads/main'"),name+' must not publish from preparation branch');
     const hook=text.indexOf('node scripts/apply-seo-overrides.js --write');assert.ok(hook>=0,name);
     for(const line of ['node scripts/transform-','node scripts/apply-product-category-corrections.js --write','node scripts/apply-approved-categories.js --write']) {
