@@ -2,8 +2,9 @@
 // Produkty, ktoré dodávateľ vyradí, zostávajú v importe ako URL-only riadky s dostupnosťou
 // Vypredané. Samostatný helper zároveň odmietne prázdny alebo výrazne skrátený vstup.
 //
-// Porovnáva počet položiek v každom output/*.xml s verziou v poslednom commite (`git show
-// HEAD:...`). Pri veľkom prepade zastaví commit, aby sa najskôr skontroloval zdrojový feed.
+// Porovnáva počet aktívnych ponúk v každom output/*.xml s verziou v poslednom commite.
+// URL-only unavailable tombstones sa rátajú zvlášť: keď sa produkt vráti do feedu, jeho starý
+// tombstone zmizne a celkový počet riadkov klesne bez toho, aby sa zmenšil živý feed.
 //
 // Usage: node scripts/check-feed-size.js
 //   FEED_MIN_RATIO=0.7   hranica (podiel oproti predošlému behu), default 0.7
@@ -13,6 +14,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { isUnavailableUpdate } = require('./lib/unavailable-update');
 
 const ROOT = path.join(__dirname, '..');
 const OUT_DIR = path.join(ROOT, 'output');
@@ -22,6 +24,11 @@ const OVERRIDE = process.env.FEED_SIZE_OVERRIDE === '1';
 function count(xml) {
   const m = xml.match(/<SHOPITEM>/g);
   return m ? m.length : 0;
+}
+
+function countActive(xml) {
+  const rows = [...xml.matchAll(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/gi)];
+  return rows.filter((row) => !isUnavailableUpdate(row[0])).length;
 }
 
 function previous(file) {
@@ -35,27 +42,33 @@ function previous(file) {
 
 const problemy = [];
 for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml')).sort()) {
-  const teraz = count(fs.readFileSync(path.join(OUT_DIR, file), 'utf-8'));
+  const currentXml = fs.readFileSync(path.join(OUT_DIR, file), 'utf-8');
+  const teraz = count(currentXml);
+  const terazAktivne = countActive(currentXml);
   const prevXml = previous(file);
 
   if (teraz === 0) {
-    problemy.push({ file, teraz, predtym: prevXml ? count(prevXml) : null, preco: 'feed je prázdny' });
+    problemy.push({ file, teraz, terazAktivne, predtym: prevXml ? count(prevXml) : null,
+      predtymAktivne: prevXml ? countActive(prevXml) : null, preco: 'feed je prázdny' });
     continue;
   }
   if (prevXml === null) {
-    console.log(`${file}: ${teraz} položiek (nový súbor, niet s čím porovnať)`);
+    console.log(`${file}: ${teraz} položiek, ${terazAktivne} aktívnych (nový súbor, niet s čím porovnať)`);
     continue;
   }
 
   const predtym = count(prevXml);
-  const podiel = predtym > 0 ? teraz / predtym : 1;
-  const znak = teraz >= predtym ? '+' : '';
-  console.log(`${file}: ${teraz} položiek (predtým ${predtym}, ${znak}${teraz - predtym}, `
+  const predtymAktivne = countActive(prevXml);
+  const podiel = predtymAktivne > 0 ? terazAktivne / predtymAktivne : 1;
+  const znak = terazAktivne >= predtymAktivne ? '+' : '';
+  console.log(`${file}: ${teraz} položiek, ${terazAktivne} aktívnych (predtým ${predtym} položiek, `
+    + `${predtymAktivne} aktívnych; ${znak}${terazAktivne - predtymAktivne}, `
     + `${(podiel * 100).toFixed(1)} %)`);
 
-  if (predtym > 0 && podiel < MIN_RATIO) {
-    problemy.push({ file, teraz, predtym, preco: `pokles na ${(podiel * 100).toFixed(1)} % `
-      + `(hranica ${(MIN_RATIO * 100).toFixed(0)} %)` });
+  if (predtymAktivne > 0 && podiel < MIN_RATIO) {
+    problemy.push({ file, teraz, predtym, terazAktivne, predtymAktivne,
+      preco: `pokles na ${(podiel * 100).toFixed(1)} % aktívnych ponúk `
+        + `(hranica ${(MIN_RATIO * 100).toFixed(0)} %)` });
   }
 }
 
@@ -65,8 +78,8 @@ if (!problemy.length) {
 }
 
 for (const p of problemy) {
-  console.log(`::error::${p.file}: ${p.preco} — ${p.teraz} položiek`
-    + (p.predtym !== null ? ` oproti ${p.predtym} v predošlom behu` : ''));
+  console.log(`::error::${p.file}: ${p.preco} — ${p.terazAktivne} aktívnych položiek`
+    + (p.predtymAktivne !== null ? ` oproti ${p.predtymAktivne} v predošlom behu` : ''));
 }
 console.log('');
 console.log('Výstupný feed výrazne klesol oproti poslednému commitu.');
