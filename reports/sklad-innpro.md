@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-03 04:19 UTC.
+Kontrola z 2026-10-03 06:41 UTC.
 
 Produktov v full.xml: **7176**, z toho 5727 má záznam aj v light.xml.
 Dostupnosť: Skladom 5698, ostatné 1478 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -46,7 +46,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW | Skladom | 1048 | 23.10.2026 |
 | `024466` | Vodná fontána pre domáce zvieratá Petoneer Fresco mini  | Skladom | 124 | 16.10.2026 |
 | `030799` | Inteligentný laser na hru psov/mačiek Petoneer Smart Do | Skladom | 56 | 16.10.2026 |
-| `024468` | Náhradné filtre pre Petoneer Smart Pet Fountain mini (2 | Skladom | 414 | 16.10.2026 |
+| `024468` | Náhradné filtre pre Petoneer Smart Pet Fountain mini (2 | Skladom | 413 | 16.10.2026 |
 | `025657` | Čelovka Superfire HL51 – 160 lm, micro-USB, 4 režimy, 3 | Skladom | 177 | 22.12.2026 |
 | `025663` | Svietidlo Superfire F5, 1100lm, USB | Dostupné od 22.12.2026 | null | 22.12.2026 |
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | Skladom | 163 | 05.11.2026 |
@@ -178,7 +178,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `037402` | Sada 3 filtrov CPL+ND8+ND16 Sunnylife pre DJI Mini 3 Pr | Skladom | 27 | 17.11.2026 |
 | `037404` | Sada 4 filtrov ND 4/8/16/32 Sunnylife pre DJI Mini 3 Pr | Skladom | 69 | 08.12.2026 |
 | `037405` | Sada 4 filtrov UV+CPL+ND4+ND8 Sunnylife pre DJI Mini 3  | Skladom | 48 | 17.11.2026 |
-| `037511` | Ochranný kryt ovládača a slnečná clona 2 v 1 Sunnylife  | Skladom | 133 | 10.11.2026 |
+| `037511` | Ochranný kryt ovládača a slnečná clona 2 v 1 Sunnylife  | Skladom | 132 | 10.11.2026 |
 | `038608` | Prenosný kávovar HIBREW H4A 3 v 1 s výkonom 80 W a pren | Skladom | 42 | 13.10.2026 |
 | `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1420 | 23.10.2026 |
 | `038339` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
@@ -199,7 +199,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `040667` | CATLINK Pro-X Luxury Version – samočistiaca toaleta pre | Skladom | 208 | 25.11.2026 |
 | `041445` | Inteligentné diaľkové ovládanie SwitchBot Hub mini | Skladom | 772 | 27.10.2026 |
 | `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 1115 | 27.10.2026 |
-| `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 1983 | 27.10.2026 |
+| `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 1982 | 27.10.2026 |
 | `041280` | Detektor úniku plynu Habotest HT59 | Skladom | 1058 | 08.10.2026 |
 | `041281` | Detektor úniku plynu Habotest HT60 | Skladom | 491 | 08.10.2026 |
 | `041284` | Merač teploty a vlhkosti Habotest HT607 | Dostupné od 08.10.2026 | null | 08.10.2026 |
