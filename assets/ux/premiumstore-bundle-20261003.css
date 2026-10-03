@@ -2937,3 +2937,26 @@ body.ordering-process .next-step .next-step-back {
 @media (min-width: 992px) {
   body:not(.ordering-process) #header .header-top { padding-top: 0; padding-bottom: 0; }
 }
+
+/* CLS (desktop home): blok .welcome-wrapper (H1 + úvod, order:2) je v HTML až za produktmi.
+   Kým ho prehliadač nenaparsuje, vykreslí sa benefit lišta hore a po jeho príchode skočí o ~240 px.
+   Miesto sa rezervuje, kým blok v DOM neexistuje; ak by na stránke nebol, rezervácia sa po 5 s zruší. */
+@media (min-width: 768px) {
+  body.type-index main#content.content:not(:has(.welcome-wrapper))::before {
+    content: "";
+    display: block;
+    order: 2;
+    height: 240px;
+    animation: ps-welcome-ph-off 0s 5s forwards;
+  }
+}
+@keyframes ps-welcome-ph-off { to { height: 0; } }
+
+/* CLS (kategórie): popis kategórie (.category-perex) presúva premiumstore-cro.js pod produkty.
+   Do presunu je popis skrytý, aby produkty neskočili hore. Rozcestníky (#psx-hub) a bloky s dlaždicami
+   (.ps-grid) sa nemenia. Keby skript nebehol, popis sa po 5 s sám zobrazí. */
+body.type-category .category-top > .category-perex:not(:has(.ps-grid)):not(:has(#psx-hub)) {
+  display: none;
+  animation: ps-perex-show 0s 5s forwards;
+}
+@keyframes ps-perex-show { to { display: block; } }
