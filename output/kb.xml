@@ -7316,14 +7316,17 @@
 <p>Brita Style ESS 2,4l, bílá, + 2 filtry je produkt od Brita.</p>
 <p style="text-align:center"><img alt="Brita Style ESS 2,4l, bílá, + 2 filtry" src="https://img.b2b.k-b.cz/fotocache/mid/images/orig/Brita/100002141024-202.jpg"></p>
 <p>Brita Style ESS 2,4l, bílá, + (2 filtry) PO+PL</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/priprava-napojov-filtracne-kanvice/">Filtračné kanvice</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/priprava-napojov/">Káva a príprava nápojov</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Brita]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002141024</CODE>
 <EAN>4006387140786</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Filtračné kanvice]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Brita Style ESS 2,4l, bílá, + 2 filtry">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Brita/100002141024-202.jpg</IMAGE>
 </IMAGES>
@@ -274017,13 +274020,12 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100001844091</CODE>
-<EAN>859991653840</EAN>
+<EAN>8050147653845</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Práčky]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Indesit BTW S6240P EU/N">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Indesit/100001844091-202.jpg</IMAGE>
 </IMAGES>
@@ -313981,6 +313983,12 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <SHOPITEM>
     <CODE>100001833011</CODE>
     <EAN>5400338089022</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>100001844091</CODE>
+    <EAN>859991653840</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
