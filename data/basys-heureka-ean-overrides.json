@@ -5042,10 +5042,11 @@
     ]
   },
   "305_EQ": {
-    "model": "305_EQ",
+    "model": "305 EQ/MIXER/OUTPUT",
     "ean": "4033653032162",
     "sourceUrls": [
-      "https://audiopatent.eu/pl/products/behringer-305-eq-mixer-output-modul-eurorack-5778"
+      "https://audiopatent.eu/pl/products/behringer-305-eq-mixer-output-modul-eurorack-5778",
+      "https://www.bol.com/nl/nl/p/behringer-305-equalizer-mixer-mixer-modular-synthesizer/9300000098890223/"
     ]
   },
   "BASS_BRASSMASTER_FUZZ": {
@@ -5333,13 +5334,6 @@
     "ean": "4010118101885",
     "sourceUrls": [
       "https://www.markertek.com/product/dt-109gy-nc/beyerdynamic-dt-109-grey-headset-200-400-ohm-no-cable"
-    ]
-  },
-  "305 EQ": {
-    "model": "305 EQ/MIXER/OUTPUT",
-    "ean": "4033653032162",
-    "sourceUrls": [
-      "https://www.bol.com/nl/nl/p/behringer-305-equalizer-mixer-mixer-modular-synthesizer/9300000098890223/"
     ]
   }
 }
