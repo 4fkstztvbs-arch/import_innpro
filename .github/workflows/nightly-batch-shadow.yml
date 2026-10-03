@@ -1,0 +1,238 @@
+name: Nočná dávka feedov (skúška, nič nepublikuje)
+
+# Skúšobná verzia "jednej dávky": všetci dodávatelia sa stiahnu a prepočítajú paralelne, spoločné
+# spracovanie (dedupe, kategórie, SEO, vypredaj, dostupnosť, EAN) beží raz nad všetkými feedmi.
+# Výsledok sa NIKDY necommituje ani nepublikuje (permissions: contents: read). Len sa porovná
+# s feedmi, ktoré sú práve v main (súhrn behu) a uloží ako artifact `shadow-feeds`.
+# Po overení sa nahradí súčasné samostatné syncy; dovtedy ide vedľa nich.
+
+on:
+  schedule:
+    # Po poslednom nočnom syncu (Penta 21:10 SK), takže main už nesie čerstvé feedy na porovnanie.
+    - cron: '30 22 * * *'
+      timezone: 'Europe/Bratislava'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: premiumstore-vypredaj-state
+  queue: max
+
+jobs:
+  transform:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        supplier: [kb, monacor, solight, basys, innpro, atos, penta]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      # --- K-B ---
+      - name: Run K-B transform
+        if: matrix.supplier == 'kb'
+        env:
+          KB_ZBOZI_URL: ${{ secrets.KB_ZBOZI_URL }}
+          KB_KATEGORIE_URL: ${{ secrets.KB_KATEGORIE_URL }}
+          KB_KATEGORIZACIA_URL: ${{ secrets.KB_KATEGORIZACIA_URL }}
+          KB_CENY_URL: ${{ secrets.KB_CENY_URL }}
+          KB_DOSTUPNOSTI_URL: ${{ secrets.KB_DOSTUPNOSTI_URL }}
+          KB_MARKUP: '10'
+          KB_MIN_COST: '0.50'
+          KB_MIN_MARGIN: '10'
+          KB_EXCLUDE_UNAVAILABLE: '1'
+          KB_CHECK_ENERGY_LABELS: '1'
+          KB_OUT: output/kb.xml
+          HEUREKA_PRICE_OVERRIDE: '1'
+        run: node scripts/transform-kb.js
+
+      - name: Enrich K-B with Icecat data
+        if: matrix.supplier == 'kb'
+        env:
+          KB_XML_IN: output/kb.xml
+          ICECAT_CSV: data/icecat-full.csv
+          KB_XML_OUT: output/kb.xml
+        run: node scripts/enrich-kb-icecat.js
+
+      # --- MONACOR ---
+      - name: Run MONACOR transform
+        if: matrix.supplier == 'monacor'
+        env:
+          MONACOR_URL: ${{ secrets.MONACOR_URL }}
+          MONACOR_MARKUP: '0'
+          MONACOR_MIN_COST: '0.50'
+          MONACOR_EXCLUDE_UNAVAILABLE: '1'
+          MONACOR_OUT: output/monacor.xml
+        run: node scripts/transform-monacor.js
+
+      # --- Solight ---
+      - name: Run Solight transform
+        if: matrix.supplier == 'solight'
+        env:
+          SOLIGHT_URL: ${{ secrets.SOLIGHT_URL }}
+          SOLIGHT_MARKUP: '0'
+          SOLIGHT_MIN_COST: '0.50'
+          SOLIGHT_OUT: output/solight.xml
+          SOLIGHT_IMAGE_PROXY_BASE: ${{ secrets.SOLIGHT_IMAGE_PROXY_BASE }}
+          SOLIGHT_EXCLUDE_UNAVAILABLE: '1'
+          HEUREKA_PRICE_OVERRIDE: '1'
+        run: node scripts/transform-solight.js
+
+      # --- BASYS ---
+      - name: Run BASYS transform
+        if: matrix.supplier == 'basys'
+        env:
+          BASYS_URL: ${{ secrets.BASYS_URL }}
+          BASYS_OUT: output/basys.xml
+          BASYS_EXCLUDE_UNAVAILABLE: '1'
+          HEUREKA_PRICE_OVERRIDE: '1'
+        run: node scripts/transform-basys.js
+
+      # --- InnPro ---
+      - name: Run InnPro transform
+        if: matrix.supplier == 'innpro'
+        env:
+          INNPRO_FULL_URL: ${{ secrets.INNPRO_FULL_URL }}
+          INNPRO_LIGHT_URL: ${{ secrets.INNPRO_LIGHT_URL }}
+          INNPRO_MARKUP: '15'
+          INNPRO_MIN_COST: '0.50'
+          INNPRO_OUT: output/innpro.xml
+          INNPRO_EXCLUDE_UNAVAILABLE: '1'
+          HEUREKA_PRICE_OVERRIDE: '1'
+        run: node scripts/transform-innpro.js
+
+      # --- ATOS ---
+      - name: Fetch ATOS image URLs
+        if: matrix.supplier == 'atos'
+        env:
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+          ATOS_IMAGE_PROXY_BASE: ${{ secrets.ATOS_IMAGE_PROXY_BASE }}
+        run: node scripts/fetch-atos-images.js
+
+      - name: Run ATOS transform
+        if: matrix.supplier == 'atos'
+        env:
+          ATOS_URL: ${{ secrets.ATOS_URL }}
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+          ATOS_MARKUP: '15'
+          ATOS_MIN_COST: '0.50'
+          ATOS_OUT: output/atos.xml
+          HEUREKA_PRICE_OVERRIDE: '1'
+          ATOS_EXCLUDE_UNAVAILABLE: '1'
+          ATOS_IMAGE_PROXY_BASE: ${{ secrets.ATOS_IMAGE_PROXY_BASE }}
+        run: node scripts/transform-atos.js
+
+      - name: Enrich ATOS with Icecat data
+        if: matrix.supplier == 'atos'
+        run: |
+          if [ -f data/icecat-atos-full.csv ]; then
+            XML_IN=output/atos.xml ICECAT_CSV=data/icecat-atos-full.csv XML_OUT=output/atos.xml REPLACE_IMAGES=0 node scripts/enrich-shoptet-icecat.js
+          else
+            echo "data/icecat-atos-full.csv not found yet — skipping enrichment step"
+          fi
+
+      # --- Penta ---
+      - name: Run Penta transform
+        if: matrix.supplier == 'penta'
+        env:
+          PENTA_URL: ${{ secrets.PENTA_URL }}
+          PENTA_USERNAME: ${{ secrets.PENTA_USERNAME }}
+          PENTA_PASSWORD: ${{ secrets.PENTA_PASSWORD }}
+          PENTA_OUT: output/penta.xml
+          HEUREKA_PRICE_OVERRIDE: '1'
+          PENTA_ONLY_MAPPED_CATEGORIES: '1'
+        run: node scripts/transform-penta.js
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: feed-${{ matrix.supplier }}
+          path: output/${{ matrix.supplier }}.xml
+          retention-days: 3
+
+  postprocess:
+    needs: transform
+    # Beží aj keď niektorý dodávateľ zlyhal: jeho feed ostane taký, aký je v main.
+    if: ${{ !cancelled() && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Uložiť feedy z main ako základ na porovnanie
+        run: cp -r output /tmp/baseline
+
+      - name: Stiahnuté feedy dodávateľov
+        uses: actions/download-artifact@v4
+        with:
+          pattern: feed-*
+          path: output
+          merge-multiple: true
+
+      - name: Ktorí dodávatelia sa prepočítali
+        run: |
+          echo "Výsledok transform jobov: ${{ needs.transform.result }}" | tee -a "$GITHUB_STEP_SUMMARY"
+          ls -l output/*.xml
+
+      # Rovnaké poradie ako v samostatných syncoch, len raz nad všetkými feedmi.
+      - name: Quarantine changed approved-name identities (InnPro)
+        run: node scripts/validate-innpro-name-overrides.js --in=output/innpro.xml --quarantine
+
+      - name: Cross-supplier dedupe
+        run: node scripts/dedupe-cross-supplier.js
+
+      - uses: ./.github/actions/postprocess-categories
+        with:
+          refresh-stale-intros: 'true'
+          finalize-solight-category: 'true'
+
+      - name: Poistka proti useknutému feedu
+        run: node scripts/check-feed-size.js
+
+      - name: Apply supplier-aware CTR SEO overrides (inactive by default)
+        run: node scripts/apply-seo-overrides.js --write
+
+      - name: Apply internal sale state to original supplier products
+        run: node scripts/apply-vypredaj-to-feeds.js
+
+      - name: Nedostupnosť a URL-only, normalizácia EAN (pre každého dodávateľa)
+        run: |
+          for s in kb monacor solight basys innpro atos penta; do
+            node scripts/apply-missing-availability.js --supplier="$s" --xml="output/$s.xml"
+            node scripts/normalize-truncated-ean.js "output/$s.xml"
+          done
+
+      - name: Porovnanie so súčasnými feedmi v main
+        run: |
+          {
+            echo "## Skúšobná dávka vs. feedy v main"
+            echo
+            node scripts/compare-feeds.js --a=/tmp/baseline --b=output
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shadow-feeds
+          path: output/*.xml
+          retention-days: 3
