@@ -1,21 +1,19 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-03 13:17 UTC.
+Kontrola z 2026-10-03 13:18 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
 
-## atos — 130 ks
+## atos — 48 ks
 
 | Kód | Produkt |
 |---|---|
 | `ABT-A500003056` |  |
 | `ABT-A500003297` |  |
 | `ABT-A500004303` |  |
-| `ABT-A500007236` |  |
-| `ABT-A500007237` |  |
 | `ABT-A500008333` |  |
 | `ATO-04230703` |  |
 | `ATO-04230713` |  |
@@ -25,60 +23,13 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `ATO-A500006301` |  |
 | `ATO-A500007721` |  |
 | `ATO-CP-E81AR` |  |
-| `CP-L4C-DX40FL3` |  |
-| `CPP-AI-HRS19-4U-450G` |  |
-| `CPP-AI-JB-B170` |  |
-| `CPP-AI-KO19-1U-G` |  |
-| `CPP-AI-KO19-2U-B` |  |
-| `CPP-AI-KS-TPR6-MB` |  |
-| `CPP-AI-NC-D50L3-MW-0360` |  |
-| `CPP-AI-NC-MC40-M-0370` |  |
-| `CPP-AI-NC-MC40-VMW-0280` |  |
-| `CPP-AI-NC-T50L3-MW-0360` |  |
-| `CPP-AI-PRS19-6U-350GB` |  |
-| `CPP-AI-RP19-1U-250B` |  |
-| `CPP-AI-VRS19-2U-130B` |  |
-| `CPP-AI-VRS19-2U-130W` |  |
-| `CPP-AI-VRS19-3U-180B` |  |
 | `CPP-CP-ANW-HPU8G2-N12` |  |
 | `CPP-CP-PR-145` |  |
-| `CPP-CP-PR-32` |  |
-| `CPP-CP-PR-87` |  |
-| `CPP-CP-PR-89` |  |
 | `CPP-CP-UNR-4K4162-P16V4` |  |
 | `CPP-CP-UNR-4K5082-V2` |  |
 | `DOGS7050` |  |
 | `DOSYZR300` |  |
 | `DOZIRJAZZ` |  |
-| `EL-CEE5-3F16A-32A` |  |
-| `EL-CEE5-3M32A-16A` |  |
-| `EL-CEE5-CEE3-16-16A` |  |
-| `EL-CEE5-CEE3-32A` |  |
-| `EL-CEE5-CZSH-16-16A` |  |
-| `EL-CEE5T2-3F16A-10M` |  |
-| `EL-CEE5T2-3F16A-5M` |  |
-| `EL-CEE5T2-3F16A-5M-B` |  |
-| `EL-CEE5T2-3F16A-5M-ST2` |  |
-| `EL-CEE5T2-3F32A-10M` |  |
-| `EL-CEE5T2-3F32A-5M` |  |
-| `EL-CEE5T2-3F32A-7M` |  |
-| `EL-T2T2-3F16A-10M` |  |
-| `EL-T2T2-3F16A-10M-TC` |  |
-| `EL-T2T2-3F16A-3M` |  |
-| `EL-T2T2-3F16A-4M` |  |
-| `EL-T2T2-3F16A-4M-TC` |  |
-| `EL-T2T2-3F16A-5M` |  |
-| `EL-T2T2-3F16A-5M-TC` |  |
-| `EL-T2T2-3F16A-7M` |  |
-| `EL-T2T2-3F16A-7M-TC` |  |
-| `EL-T2T2-3F32A-10M` |  |
-| `EL-T2T2-3F32A-10M-TC` |  |
-| `EL-T2T2-3F32A-4M` |  |
-| `EL-T2T2-3F32A-4M-TC` |  |
-| `EL-T2T2-3F32A-5M` |  |
-| `EL-T2T2-3F32A-5M-TC` |  |
-| `EL-T2T2-3F32A-7M-TC` |  |
-| `EL-TES-S3XY-4-JY-25` |  |
 | `FVS6` |  |
 | `GLDOZEB` |  |
 | `GOSDO7056P` |  |
@@ -87,29 +38,6 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `HD-G918B` |  |
 | `HD-G926` |  |
 | `HD-G926B` |  |
-| `HDDWD1TB` |  |
-| `LEV-37465` |  |
-| `LEV-37623` |  |
-| `LEV-67697` |  |
-| `LEV-70075` |  |
-| `LEV-70432` |  |
-| `LEV-70751` |  |
-| `LEV-72097` |  |
-| `LEV-72610` |  |
-| `LEV-72818` |  |
-| `LEV-73901` |  |
-| `LEV-74099` |  |
-| `LEV-77104` |  |
-| `LEV-77105` |  |
-| `LEV-77107` |  |
-| `LEV-77109` |  |
-| `LEV-78382` |  |
-| `LEV-78383` |  |
-| `LEV-78768` |  |
-| `LEV-79671` |  |
-| `LEV-79674` |  |
-| `LEV-79675` |  |
-| `LEV-79676` |  |
 | `OS20-18MFX` |  |
 | `OS30-18MFX` |  |
 | `OS50-18MFX` |  |
@@ -120,18 +48,8 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `PEN-57200057` |  |
 | `SPR-FVERN918C` |  |
 | `T0000/3999` |  |
-| `TCZ-3021087` |  |
-| `TCZ-3021087A` |  |
-| `TCZ-3021087B` |  |
 | `TFORCE700` |  |
 | `TIGO-RSS` |  |
-| `TIP-06650649` |  |
-| `TIP-06650650` |  |
-| `TIP-06650653` |  |
-| `TIP-06650654` |  |
-| `TIP-06650662` |  |
-| `TIP-06650745` |  |
-| `TIP-06650760` |  |
 | `TIP-07720168` |  |
 | `TOC-SX4020` |  |
 | `VB-MPU-1200` |  |
