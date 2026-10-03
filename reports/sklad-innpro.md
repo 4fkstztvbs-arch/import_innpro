@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-03 13:26 UTC.
+Kontrola z 2026-10-03 14:28 UTC.
 
 Produktov v full.xml: **7176**, z toho 5724 má záznam aj v light.xml.
 Dostupnosť: Skladom 5695, ostatné 1481 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -30,7 +30,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `019498` | Sada nálepiek a držiakov Puluz pre bodové kamery (vráta | Skladom | 378 | 05.11.2026 |
 | `019499` | Držiak J-Hook Puluz pre športové kamery (DJI, GoPro, In | Skladom | 116 | 27.10.2026 |
 | `019506` | Fotoblesk Puluz 5w1 + puzdro | Skladom | 104 | 27.10.2026 |
-| `019507` | Dvojitý ramenný popruh Puluz pre fotoaparáty PU6002 | Skladom | 97 | 05.11.2026 |
+| `019507` | Dvojitý ramenný popruh Puluz pre fotoaparáty PU6002 | Skladom | 96 | 05.11.2026 |
 | `019954` | Príslušenstvo Puluz Ultimate Combo Kits pre športové ka | Skladom | 136 | 05.11.2026 |
 | `019957` | Sada 20 kusov príslušenstva Puluz pre športové kamery ( | Skladom | 72 | 10.12.2026 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | Skladom | 70 | 27.10.2026 |
@@ -219,7 +219,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `038163` | Záhradná solárna lampa Superfire FF16-A, 600 mAh | Skladom | 91 | 22.12.2026 |
 | `042427` | Univerzálny prísavný držiak TELESIN s držiakom na telef | Skladom | 109 | 10.12.2026 |
 | `042421` | TELESIN Vodotesné puzdro pre DJI Action 3/4/5 | Dostupné od 10.12.2026 | null | 10.12.2026 |
-| `038833` | Svetlomet Superfire HL31, typ C | Skladom | 119 | 22.12.2026 |
+| `038833` | Svetlomet Superfire HL31, typ C | Skladom | 118 | 22.12.2026 |
 | `038828` | Baterka Superfire MX16 – 600 lm, 500 mAh, USB-C, 4 reži | Skladom | 186 | 22.12.2026 |
 | `043028` | Stojan Sonoff NSPanel (biely) | Skladom | 169 | 05.11.2026 |
 | `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | Skladom | 55 | 05.11.2026 |
@@ -255,7 +255,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `053941` | Herné slúchadlá ONIKUMA X15Pro Pink Cat's Ears | Skladom | 332 | 19.11.2026 |
 | `053948` | Stojan na slúchadlá ONIKUMA ST-2 čierny | Skladom | 556 | 19.11.2026 |
 | `053951` | Herná myš ONIKUMA CW905 čierna | Skladom | 591 | 19.11.2026 |
-| `053965` | Herná myš ONIKUMA CW905 ružová | Skladom | 720 | 19.11.2026 |
+| `053965` | Herná myš ONIKUMA CW905 ružová | Skladom | 719 | 19.11.2026 |
 | `053975` | Inteligentný termostatický radiátorový ventil Avatto TR | Dostupné od 16.10.2026 | null | 16.10.2026 |
 | `053319` | Reproduktory Edifier S1000W 2.0 (hnedé) | Dostupné od 22.10.2026 | null | 22.10.2026 |
 | `052266` | Pristávacia podložka pre drony Sunnylife 110 cm šesťuho | Skladom | 403 | 08.12.2026 |
@@ -280,7 +280,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `055849` | Čistič zápachu pre mačacie toalety Rojeco 4000mAh | Skladom | 82 | 10.12.2026 |
 | `056068` | Napájadlo pre psy a mačky PetKit Eversweet 3 Pro | Skladom | 251 | 10.12.2026 |
 | `054997` | Inteligentný dávkovač krmiva CatLink F04 PRO | Skladom | 12 | 21.12.2026 |
-| `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 281 | 16.10.2026 |
+| `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 280 | 16.10.2026 |
 | `057075` | Pristávací podvozok Sunnylife pre DJI Mavic 3 Pro - siv | Skladom | 68 | 17.11.2026 |
 | `057842` | Dynamický mikrofon Maono PD200x (černý) | Skladom | 8 | 07.10.2026 |
 | `057843` | Dynamický mikrofon Maono PD200x (bílý) | Dostupné od 07.10.2026 | null | 07.10.2026 |
