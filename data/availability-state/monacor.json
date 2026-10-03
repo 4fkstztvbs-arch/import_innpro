@@ -9008,46 +9008,5 @@
       "ean": "9353345000084"
     }
   ],
-  "missingProducts": [
-    {
-      "key": "code:BAG-12M",
-      "code": "BAG-12M",
-      "ean": ""
-    },
-    {
-      "key": "code:EMG-600P",
-      "code": "EMG-600P",
-      "ean": ""
-    },
-    {
-      "key": "code:ESUB-6W/SW",
-      "code": "ESUB-6W/SW",
-      "ean": ""
-    },
-    {
-      "key": "code:KK61-200",
-      "code": "KK61-200",
-      "ean": ""
-    },
-    {
-      "key": "code:MRH-300",
-      "code": "MRH-300",
-      "ean": ""
-    },
-    {
-      "key": "code:MSC-1500/SW",
-      "code": "MSC-1500/SW",
-      "ean": ""
-    },
-    {
-      "key": "code:PAB-110BAG",
-      "code": "PAB-110BAG",
-      "ean": ""
-    },
-    {
-      "key": "code:SPE-110P/WS",
-      "code": "SPE-110P/WS",
-      "ean": ""
-    }
-  ]
+  "missingProducts": []
 }
