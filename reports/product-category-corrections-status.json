@@ -1,6 +1,6 @@
 {
-  "products": 27969,
-  "matched": 338,
+  "products": 27961,
+  "matched": 334,
   "categoryChanges": 0,
   "nameChanges": 0,
   "descriptionChanges": 0,
@@ -239,6 +239,24 @@
     },
     {
       "supplier": "basys",
+      "code": "BASYS-B 814836-0020",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 774700-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 834551-0010",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
       "code": "BASYS-B 863314-0010",
       "ean": "",
       "reason": "Changed name or category; needs review"
@@ -270,6 +288,12 @@
     {
       "supplier": "basys",
       "code": "BASYS-B 000010-0300",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 869196-0010",
       "ean": "",
       "reason": "Changed name or category; needs review"
     },
@@ -1805,8 +1829,14 @@
     },
     {
       "supplier": "monacor",
-      "code": "LSC-1500NP",
-      "ean": "4007754068467",
+      "code": "LSC-1000NP",
+      "ean": "4007754033281",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSC-150NP",
+      "ean": "4007754033304",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1817,38 +1847,14 @@
     },
     {
       "supplier": "monacor",
-      "code": "LSC-33NP",
-      "ean": "4007754033342",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "monacor",
-      "code": "LSI-100T",
-      "ean": "4007754066920",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "monacor",
-      "code": "LSI-15T",
-      "ean": "4007754046908",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "monacor",
-      "code": "LSI-22T",
-      "ean": "4007754066845",
+      "code": "LSC-680NP",
+      "ean": "4007754033397",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "monacor",
       "code": "LSI-33T",
       "ean": "4007754066869",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "monacor",
-      "code": "LSI-82T",
-      "ean": "4007754066913",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1919,26 +1925,14 @@
     },
     {
       "supplier": "monacor",
-      "code": "MKPA-470",
-      "ean": "4007754221961",
+      "code": "MKPA-33",
+      "ean": "4007754221862",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "monacor",
-      "code": "MKPA-68",
-      "ean": "4007754221893",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "monacor",
-      "code": "MKPA-82",
-      "ean": "4007754221909",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "monacor",
-      "code": "MKTA-120",
-      "ean": "4007754222074",
+      "code": "MKPA-39",
+      "ean": "4007754221879",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1955,8 +1949,8 @@
     },
     {
       "supplier": "monacor",
-      "code": "MKTA-82",
-      "ean": "4007754222050",
+      "code": "MKTA-33",
+      "ean": "4007754222012",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -4142,13 +4136,8 @@
     },
     {
       "supplier": "monacor",
-      "code": "LSC-1000NP",
-      "ean": "4007754033281"
-    },
-    {
-      "supplier": "monacor",
-      "code": "LSC-150NP",
-      "ean": "4007754033304"
+      "code": "LSC-1500NP",
+      "ean": "4007754068467"
     },
     {
       "supplier": "monacor",
@@ -4157,8 +4146,13 @@
     },
     {
       "supplier": "monacor",
-      "code": "LSC-680NP",
-      "ean": "4007754033397"
+      "code": "LSC-33NP",
+      "ean": "4007754033342"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-100T",
+      "ean": "4007754066920"
     },
     {
       "supplier": "monacor",
@@ -4167,28 +4161,53 @@
     },
     {
       "supplier": "monacor",
+      "code": "LSI-15T",
+      "ean": "4007754046908"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-22T",
+      "ean": "4007754066845"
+    },
+    {
+      "supplier": "monacor",
       "code": "LSI-47T",
       "ean": "4007754066883"
     },
     {
       "supplier": "monacor",
-      "code": "MKPA-33",
-      "ean": "4007754221862"
+      "code": "LSI-82T",
+      "ean": "4007754066913"
     },
     {
       "supplier": "monacor",
-      "code": "MKPA-39",
-      "ean": "4007754221879"
+      "code": "MKPA-470",
+      "ean": "4007754221961"
     },
     {
       "supplier": "monacor",
-      "code": "MKTA-33",
-      "ean": "4007754222012"
+      "code": "MKPA-68",
+      "ean": "4007754221893"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-82",
+      "ean": "4007754221909"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-120",
+      "ean": "4007754222074"
     },
     {
       "supplier": "monacor",
       "code": "MKTA-330",
       "ean": "4007754222104"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-82",
+      "ean": "4007754222050"
     },
     {
       "supplier": "monacor",

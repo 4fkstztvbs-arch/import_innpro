@@ -1,6 +1,6 @@
 # Kategórie mimo stromu — monacor
 
-Kontrola z 2026-10-03 07:28 UTC.
+Kontrola z 2026-10-03 07:31 UTC.
 
 Tieto kategórie feed zapisoval, ale v strome neexistujú. Shoptet by ich pri
 importe vytvoril, preto boli **skrátené na najhlbšieho existujúceho predka** (produkty
@@ -13,8 +13,9 @@ kategóriu vedome pridať do Shoptetu a obnoviť `data/known-categories.json` ce
 | Kategória mimo stromu | Produktov | Zaradené namiesto toho do | Príklad produktu |
 |---|---|---|---|
 | `Profesionálna audio technika > Nové produkty` | 93 | `Profesionálna audio technika` | Monacor PA-4125DX 4-zónový multifunkčný mixážny zosilňovač,  |
-| `Profesionálna audio technika > Svetlá` | 26 | `Profesionálna audio technika` | JAB GD-04K Vytáčacia a riadiaca jednotka GSM |
+| `Profesionálna audio technika > Svetlá` | 24 | `Profesionálna audio technika` | JAB GD-04K Vytáčacia a riadiaca jednotka GSM |
 | `Profesionálna audio technika > JTS` | 15 | `Profesionálna audio technika` | JTS CM-22G6B Závesný kondenzátorový mikrofón |
 | `Profesionálna audio technika > Svetlá > Lasery` | 13 | `Profesionálna audio technika` | BoomTone DJ KUB255RGB Multicolor laser |
 | `Profesionálna audio technika > Výpredaj` | 10 | `Profesionálna audio technika` | Monacor DT-25N Neodymový Hi-Fi výškový reproduktor, 40 W, 8  |
 | `Profesionálna audio technika > Pódium, diskotéka, DJ > Predzosilňovače audio` | 9 | `Profesionálna audio technika > Pódium, diskotéka, DJ` | IMG Stage Line HPR-6 Efektívny slúchadlový stereo zosilňovač |
+| `Profesionálna audio technika > Káble, konektory a redukcie > Neutrik` | 8 | `Profesionálna audio technika > Káble, konektory a redukcie` | Neutrik MZT-223G 6.3 mm stereo panelová zásuvka |
