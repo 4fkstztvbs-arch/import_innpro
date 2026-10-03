@@ -475,5 +475,33 @@
       "https://e4mobility.at/trina/trinasolar-vertex-s-455-wp-pv-modul/TSM-455NEG9R.28",
       "https://online-batterien.de/a/trina-vertex-s-tsm-455neg9r.28-455-watt-solarmodul-fuer-photovoltaik-anlagen-bfr-dg/9895746"
     ]
+  },
+  "IST-ACSFORDO02": {
+    "ean": "4260326982299",
+    "model": "S-Turbo",
+    "sourceUrls": [
+      "https://www.ariasat.de/formuler-original-fernbedienung-fur-z7-5g-z8-zx-5g-s-turbo-und-mehr.html"
+    ]
+  },
+  "DOGS7055": {
+    "ean": "8595563722275",
+    "model": "GS7055",
+    "sourceUrls": [
+      "https://www.emerx.eu/gosat/gosat-gs7050hdi-gs7050-gs7055-gs7056hdi-pvr-gs7060-original-remote-control/"
+    ]
+  },
+  "DOAM8550": {
+    "ean": "8588008906132",
+    "model": "8550",
+    "sourceUrls": [
+      "https://www.tesashop.cz/zircon-jazz-dalkovy-ovladac/"
+    ]
+  },
+  "DORC4875": {
+    "ean": "8586006926220",
+    "model": "RC4875",
+    "sourceUrls": [
+      "https://www.orava.eu/en/remote-control-vdo-rc-4875"
+    ]
   }
 }
