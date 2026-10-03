@@ -5304,13 +5304,6 @@
       "https://api.beyerdynamic.de/amfile/file/download/file/1800/"
     ]
   },
-  "305 EQ/MIXER/OUTPUT": {
-    "model": "305 EQ/Mixer/Output",
-    "ean": "4033653032162",
-    "sourceUrls": [
-      "https://www.bol.com/nl/nl/p/behringer-305-equalizer-mixer-mixer-modular-synthesizer/9300000098890223/"
-    ]
-  },
   "TA 980017670": {
     "model": "REVEAL 402",
     "ean": "5035866176700",
@@ -5340,6 +5333,13 @@
     "ean": "4010118101885",
     "sourceUrls": [
       "https://www.markertek.com/product/dt-109gy-nc/beyerdynamic-dt-109-grey-headset-200-400-ohm-no-cable"
+    ]
+  },
+  "305 EQ": {
+    "model": "305 EQ/MIXER/OUTPUT",
+    "ean": "4033653032162",
+    "sourceUrls": [
+      "https://www.bol.com/nl/nl/p/behringer-305-equalizer-mixer-mixer-modular-synthesizer/9300000098890223/"
     ]
   }
 }
