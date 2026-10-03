@@ -1,0 +1,115 @@
+/* PremiumStore audit fixes – 2026-10-03
+   Samostatný doplnkový súbor, načítať ako POSLEDNÝ stylesheet (po premiumstore-ux-fixes-20261002-v2.css).
+   Rollback = odstrániť <link>. Len vzhľad, nemení markup ani formuláre. Iba mobil (max-width: 767px). */
+
+@media (max-width: 767px) {
+
+  /* 1) Cookie lišta: kompaktná (bola ~31 % výšky obrazovky) */
+  .siteCookies.siteCookies--bottom {
+    max-height: none;
+  }
+  .siteCookies .siteCookies__form {
+    padding: 12px 14px !important;
+  }
+  .siteCookies .siteCookies__content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .siteCookies .siteCookies__text {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    margin: 0 0 6px !important;
+  }
+  .siteCookies .siteCookies__links {
+    margin: 0 0 6px !important;
+    padding: 0 !important;
+    text-align: left !important;
+    line-height: 1.2 !important;
+  }
+  .siteCookies .siteCookies__link {
+    background: transparent !important;
+    border: 0 !important;
+    padding: 4px 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    width: auto !important;
+    margin: 0 !important;
+    font-size: 13px !important;
+    text-decoration: underline;
+  }
+  .siteCookies .siteCookies__buttonWrap {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 8px;
+    margin: 0 !important;
+  }
+  .siteCookies .siteCookies__button {
+    flex: 1 1 0;
+    min-height: 44px;
+    height: 44px !important;
+    padding: 0 10px !important;
+    font-size: 15px !important;
+    margin: 0 !important;
+  }
+
+  /* 2) Detail produktu: vianočný rámček „Vyberáte vianočné osvetlenie?“ nezaberá miesto nad cenou */
+  .ps-christmas-bridge {
+    padding: 8px 12px !important;
+    margin: 0 0 10px !important;
+    font-size: 14px !important;
+    line-height: 1.35 !important;
+  }
+  .ps-christmas-bridge > span {
+    display: none !important;
+  }
+  .ps-christmas-bridge > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    margin-top: 4px !important;
+  }
+  .ps-christmas-bridge a {
+    display: inline-flex !important;
+    align-items: center;
+    width: auto !important;
+    margin: 0 !important;
+    min-height: 32px;
+  }
+
+  /* 3) Úvodná stránka: štyri výhody doručenia ako kompaktná mriežka 2x2 (zaberali celú obrazovku) */
+  body.in-index .benefitBanner.position--benefitHomepage {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 12px;
+    padding-inline: 16px;
+  }
+  body.in-index .benefitBanner__item {
+    padding: 0 !important;
+    margin: 0 !important;
+    gap: 8px !important;
+    align-items: flex-start !important;
+  }
+  body.in-index .benefitBanner__picture {
+    flex: 0 0 24px !important;
+    width: 24px !important;
+    height: 24px !important;
+  }
+  body.in-index .benefitBanner__picture .benefitBanner__img {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  body.in-index .benefitBanner__title {
+    display: block;
+    font-size: 13px !important;
+    line-height: 1.25 !important;
+  }
+  body.in-index .benefitBanner__data {
+    font-size: 12px !important;
+    line-height: 1.3 !important;
+  }
+
+  /* 4) Dlaždice podkategórií: názvy max 3 riadky a rovnaká výška */
+  body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) a {
+    min-height: 56px;
+  }
+}

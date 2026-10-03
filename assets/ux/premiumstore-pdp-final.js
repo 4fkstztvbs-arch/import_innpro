@@ -15,6 +15,10 @@
   var BRAND_BASE_PATH =
     '/user/documents/upload/brand-';
 
+  /* Značky, ktorých logo je skutočne nahrané (overené 2026-10-03).
+     Ostatné nevolajú neexistujúci súbor (404 na každom detaile). */
+  var BRANDS_WITH_LOGO = { 'bose': true };
+
 
   function getProductForm() {
     return document.getElementById(
@@ -281,7 +285,7 @@
     brandSlug
   ) {
 
-    if (!header) {
+    if (!header || !BRANDS_WITH_LOGO[brandSlug]) {
       return;
     }
 
@@ -388,6 +392,7 @@
 
 
     if (
+      BRANDS_WITH_LOGO[brandSlug] &&
       visibleDesktopTitle &&
       visibleDesktopTitle.parentNode &&
       !visibleDesktopTitle.parentNode.querySelector(
