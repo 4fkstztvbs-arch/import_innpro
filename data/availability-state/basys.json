@@ -423,16 +423,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-DN9652",
-      "code": "BASYS-DN9652",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-DN9680",
-      "code": "BASYS-DN9680",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-EN 451777",
       "code": "BASYS-EN 451777",
       "ean": ""
@@ -2253,9 +2243,19 @@
       "ean": "0700115708876"
     },
     {
+      "key": "ean:0713757158817",
+      "code": "BASYS-DN9680",
+      "ean": "0713757158817"
+    },
+    {
       "key": "ean:0713757159715",
       "code": "BASYS-B1200D-PRO",
       "ean": "0713757159715"
+    },
+    {
+      "key": "ean:0736211844873",
+      "code": "BASYS-DN9652",
+      "ean": "0736211844873"
     },
     {
       "key": "ean:0761062120609",
