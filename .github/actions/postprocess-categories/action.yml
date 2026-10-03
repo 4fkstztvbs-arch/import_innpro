@@ -1,0 +1,73 @@
+name: Postprocess categories
+description: >
+  Spoločný blok krokov dodávateľských syncov (kategórie, skrytie produktov, schválený strom,
+  vianočné zaradenie, prelinkovanie). Poradie je zámerne rovnaké ako predtým v každom
+  *-sync.yml. Skripty spracúvajú všetky output/*.xml, nie len feed práve bežiaceho dodávateľa.
+
+inputs:
+  refresh-stale-intros:
+    description: "K-B: obnoviť zastaralé generické úvodné vety (beží pred schváleným stromom)."
+    default: 'false'
+  finalize-solight-category:
+    description: "Solight: finalizovať hlavnú kategóriu (beží pred prelinkovaním)."
+    default: 'false'
+
+runs:
+  using: composite
+  steps:
+    - name: Collapse duplicate categories
+      shell: bash
+      run: node scripts/collapse-duplicate-categories.js
+
+    - name: Fix ignored categories (Heureka)
+      shell: bash
+      run: node scripts/fix-ignored-categories.js
+
+    - name: Potvrdené opravy produktov z auditu
+      shell: bash
+      run: node scripts/apply-product-category-corrections.js --write
+
+    - name: Collapse thin categories
+      shell: bash
+      run: node scripts/collapse-thin-categories.js
+
+    # Posledný krok, ktorý sa dotýka kategórií: zaručuje, že v XML nezostane kategória mimo
+    # nášho stromu, ktorú by Shoptet pri importe vytvoril
+    - name: Enforce tree categories
+      shell: bash
+      run: node scripts/enforce-tree-categories.js
+
+    - name: Skryť produkty bez kategórie
+      shell: bash
+      run: node scripts/hide-uncategorised-products.js
+
+    # Nesmieme predávať pod nákupnú cenu. Beží až za všetkými krokmi, ktoré menia cenu.
+    - name: Skryť produkty pod nákupnou cenou
+      shell: bash
+      run: node scripts/hide-below-cost-products.js
+
+    - name: Obnoviť zastaralé generické úvodné vety po zlúčení/premenovaní kategórií
+      if: inputs.refresh-stale-intros == 'true'
+      shell: bash
+      run: node scripts/refresh-stale-generic-intros.js --out=output/kb.xml
+
+    - name: Approved category tree and visible 8-product minimum
+      shell: bash
+      run: node scripts/apply-approved-categories.js --write
+
+    - name: Vianočné zaradenie, parametre a rozcestníky
+      shell: bash
+      run: node scripts/apply-christmas-products.js --write
+
+    - name: Finalizovať hlavnú kategóriu Solight
+      if: inputs.finalize-solight-category == 'true'
+      shell: bash
+      run: node scripts/finalize-solight-default-category.js
+
+    - name: Interné prelinkovanie na vlastnú kategóriu (SEO)
+      shell: bash
+      run: node scripts/add-category-links.js
+
+    - name: Kontrola odkazov na kategórie
+      shell: bash
+      run: node scripts/check-category-links.js

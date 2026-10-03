@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  actions: read # kontrola behov dodávateľských syncov (gh run list)
 
 jobs:
   check:
@@ -36,6 +37,14 @@ jobs:
         continue-on-error: true
         run: node scripts/check-unknown-categories.js
 
+      # continue-on-error z rovnakeho dovodu ako vyssie
+      - name: Kontrola behov dodávateľských syncov
+        id: syncs
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/check-sync-runs.sh
+
       - name: Commit reporty
         run: |
           git config user.name "morning-feed-check-bot"
@@ -61,12 +70,15 @@ jobs:
           done
 
       - name: Zhodiť job, ak niektorá kontrola našla nález
-        if: steps.duplicates.outcome == 'failure' || steps.categories.outcome == 'failure'
+        if: steps.duplicates.outcome == 'failure' || steps.categories.outcome == 'failure' || steps.syncs.outcome == 'failure'
         run: |
           if [ "${{ steps.duplicates.outcome }}" = "failure" ]; then
             echo "::error::Nové duplicity medzi dodávateľmi — viď reports/nove-duplicity-dodavatelia.md"
           fi
           if [ "${{ steps.categories.outcome }}" = "failure" ]; then
             echo "::error::Nové kategórie mimo nášho stromu — viď reports/kategorie-mimo-stromu.md"
+          fi
+          if [ "${{ steps.syncs.outcome }}" = "failure" ]; then
+            echo "::error::Niektorý dodávateľský sync dávno nebežal alebo posledný beh zlyhal — viď krok Kontrola behov dodávateľských syncov"
           fi
           exit 1
