@@ -360,5 +360,46 @@
       "https://heizung-billiger.de/422433-viessmann-wechselrichter-gw4000-sdt-20-viessmann-7986031-4054465972736.html",
       "https://www.goodwe.com/Ftp/EN/Downloads/User%20Manual/GW_SDT_GW_SDT%20G2_User%20Manual-EN.pdf"
     ]
+  },
+  "CACRIR8": {
+    "ean": "6947229037209",
+    "model": "SMIT PROFI 8",
+    "replaceIfSourceEan": "8594163272240",
+    "sourceUrls": [
+      "https://www.sat-online.ch/shop/CI-Modulo-Irdeto-Smit-Professional-8CH--19496.html?language=it"
+    ]
+  },
+  "CPP-CP-PR-160": {
+    "ean": "7636490076558",
+    "model": "ST10000VX0004",
+    "replaceIfSourceEan": "463649097973",
+    "sourceUrls": [
+      "https://www.also.com/ec/cms5/media/documents/5410_2/pdf/seagate_product.pdf",
+      "https://www.mediamarkt.de/de/product/_seagate-sky-hawk-2218950.html"
+    ]
+  },
+  "CPP-CP-UNC-DC51L5C-MDS-0360": {
+    "ean": "4250593436915",
+    "model": "CP-UNC-DC51L5C-MDS-0360",
+    "replaceIfSourceEan": "4250593430000",
+    "sourceUrls": [
+      "https://www.cpplus.cz/cp-unc-db51l5c-mds-0360-5-0-mpix-venkovni-ip-dome-kamera-s-ir-wdr-mikrofonem-a-starlight"
+    ]
+  },
+  "ATO-04230712": {
+    "ean": "3800170225459",
+    "model": "SUN-20K-SG05LP3-EU-SM2",
+    "sourceUrls": [
+      "https://www.vtacexports.com/poland/falownik-hybrydowy-20kw-deye-sun-20k-sg05lp3-eu-sm2-3-fazowy-niskonapieciowy-ip65.html",
+      "https://led-europe.pl/catalogs/Materialy/Karta_Katalogowa_V-TAC_SKU_12185.pdf"
+    ]
+  },
+  "TIGO-TS4-A-2F-1400W": {
+    "ean": "5905951580319",
+    "model": "TS4-A-2F",
+    "sourceUrls": [
+      "https://7sun.eu/produkt/rapid-shut-down-tigo-ts4-a-2f-25a-1400w-1000v-iec-012-02-22m-cable-mc4-2/",
+      "https://xml.tim.pl/urzadzenie-szybkiego-wylaczania-dla-2-modulow-solarnych-tigo-ts4-a-2f-25a-1400w-1000v-iec-0-120-22-2m-cable-mc4/p/0001-00018-53074"
+    ]
   }
 }

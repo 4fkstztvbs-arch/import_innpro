@@ -3773,26 +3773,21 @@
       "https://www.beyerdynamic.de/p/mc-930-od-b-ware"
     ]
   },
-  "BD 499862": {
-    "model": "BD 499862",
-    "ean": "4010118499869",
-    "sourceUrls": [
-      "https://europe.beyerdynamic.com/p/mc-950-od-b-stock"
-    ]
-  },
   "BD 465313": {
     "model": "BD 465313",
     "ean": "4010118465314",
     "sourceUrls": [
-      "https://www.robik-music.com/studijnoe-oborudovanie/aksessuary/ws-97-az-528835",
-      "https://www.soundstorexl.es/products/beyerdynamic-ws-97-az"
+      "https://www.beyerdynamic.de/p/ws-97",
+      "https://global.beyerdynamic.com/p/ws-97"
     ]
   },
   "BD 707198": {
     "model": "BD 707198",
     "ean": "4010118707193",
     "sourceUrls": [
-      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/mikrofoner-og-tilbehor/beyerdynamic-tg-i57c-mikrofon/707198"
+      "https://www.elkjop.no/product/tv-lyd-og-smarte-hjem/mikrofoner-og-tilbehor/mikrofon/beyerdynamic-tg-i57c/209588",
+      "https://www.musikhaus-korn.de/de/beyerdynamic-tg-i57c/pd/45356",
+      "https://www.beyerdynamic.de/media/faq/Uebersicht-Windschutz-HygienePad.pdf"
     ]
   },
   "B 809510-0010": {
@@ -4886,14 +4881,18 @@
     "model": "DI_10A",
     "ean": "4033653080767",
     "sourceUrls": [
-      "https://woodbrass.com/products/klark-teknik-di-10a-boitier-de-direct-actif-353936"
+      "https://woodbrass.com/products/klark-teknik-di-10a-boitier-de-direct-actif-353936",
+      "https://www.soundsrl.it/klark-teknik-di-10a-di-box-attiva-con-trasformatori-midas-alimentazione-phantom-batteria-9v_cod120796.html",
+      "https://www.topmuzika.cz/produkt/klark-teknik-di-10a-1813797"
     ]
   },
   "DI_10P": {
     "model": "DI_10P",
     "ean": "4033653080897",
     "sourceUrls": [
-      "https://pepita.hu/hangkartyak-c2781/klark-teknik-di-10p-di-box-passziv-1-csatornas-p31364120"
+      "https://pepita.hu/hangkartyak-c2781/klark-teknik-di-10p-di-box-passziv-1-csatornas-p31364120",
+      "https://www.numemusic.es/064615-di-caja-de-inyeccin-klark-teknik-di-10p",
+      "https://www.ebay.de/itm/198574097795"
     ]
   },
   "DW_20T": {
@@ -4984,14 +4983,18 @@
     "model": "XENYX_1002SFX",
     "ean": "4033653072281",
     "sourceUrls": [
-      "https://www.bhphotovideo.com/c/product/1819652-REG/behringer_xenyx_1002sfx_analog_10_input_mixer_with.html"
+      "https://www.bhphotovideo.com/c/product/1819652-REG/behringer_xenyx_1002sfx_analog_10_input_mixer_with.html",
+      "https://www.behringer.com/en/products/0601-AHQ",
+      "https://manuals.plus/m/aec87fbf2bd6d1d8a3102891609fb0fb398a3b83600d5dc1dc2692531ba431b3.pdf"
     ]
   },
   "XENYX_802S": {
     "model": "XENYX_802S",
     "ean": "4033653072267",
     "sourceUrls": [
-      "https://www.behringer.com/en/products/0601-AHU"
+      "https://www.behringer.com/en/products/0601-AHU",
+      "https://www.teclacenter.com.br/behringer-802s-xenyx-mixer-analogico-com-8-canais.html",
+      "https://www.verkkauppa.com/en/product/983387/Behringer-Xenyx-802S-8-channel-compact-mixer"
     ]
   },
   "XENYX_502S": {
@@ -5005,7 +5008,9 @@
     "model": "FLOW_8",
     "ean": "4033653071529",
     "sourceUrls": [
-      "https://skladmuzyczny.pl/behringer-flow-8-cyfrowy-mikser-audio.html"
+      "https://skladmuzyczny.pl/behringer-flow-8-cyfrowy-mikser-audio.html",
+      "https://www.castroelectronica.es/es/product/mesa-de-mistura-digital-8-canais--behringer",
+      "https://sklep.jkmuzyczny.pl/mikser-behringer-flow-8-cyfrowy-p-13267.html"
     ]
   },
   "STUDIO_L": {
@@ -5047,21 +5052,26 @@
     "model": "BASS_BRASSMASTER_FUZZ",
     "ean": "4033653041218",
     "sourceUrls": [
-      "https://www.csmegastore.dk/i/24134336/behringer-bass-brassmaster-fuzz-basseffekt"
+      "https://www.csmegastore.dk/i/24134336/behringer-bass-brassmaster-fuzz-basseffekt",
+      "https://woodbrass.com/products/behringer-bass-brassmaster-fuzz-403105",
+      "https://www.01.ee/en/product/3616026"
     ]
   },
   "WASP_DELUXE": {
     "model": "WASP_DELUXE",
     "ean": "4033653031547",
     "sourceUrls": [
-      "https://woodbrass.it/products/behringer-vespa-312109"
+      "https://www.electori-br.jp/products/779.html",
+      "https://www.ebay.com/p/13037223754"
     ]
   },
   "992_CTRL_VOLTAGES": {
     "model": "992_CTRL_VOLTAGES",
     "ean": "4033653031929",
     "sourceUrls": [
-      "https://www.behringer.com/en/products/992"
+      "https://www.behringer.com/en/products/992",
+      "https://www.behringer.com/en/products/0720-ABD",
+      "https://allegro.cz/produkt/behringer-992-control-voltages-eurorack-modul-0defc52a-c766-491c-9bfa-c04a67170a61"
     ]
   },
   "CP35_ATTENUATORS": {
@@ -5232,6 +5242,104 @@
     "model": "VX 5.2",
     "sourceUrls": [
       "https://polar.uk.com/tannoy-vx-52-5-dual-concentric-full-range-loudspeaker-with-low-frequency-driver-in-black"
+    ]
+  },
+  "TC 000-CN301": {
+    "ean": "4033653015141",
+    "model": "Teleport GLT",
+    "sourceUrls": [
+      "https://allegro.pl/produkt/nadajnik-systemu-tc-electronic-teleport-glt-9558685d-d346-4af2-aa13-1d16b55ae42c",
+      "https://www.musicalstore2005.com/it/tc-electronic-teleport-glt.html"
+    ]
+  },
+  "TC 000-CPP00": {
+    "ean": "4033653015158",
+    "model": "Teleport GLR",
+    "sourceUrls": [
+      "https://www.bol.com/nl/nl/p/tc-electronic-teleport-glr-di-box/9300000177183105/",
+      "https://www.mooloolabamusic.com.au/tc-electronic-glr-teleport-active-receiver"
+    ]
+  },
+  "BD 402974": {
+    "model": "DT 109",
+    "ean": "4010118402975",
+    "sourceUrls": [
+      "https://europe.beyerdynamic.com/p/dt-109-series"
+    ]
+  },
+  "BD 730084": {
+    "model": "MMX 200",
+    "ean": "4010118730085",
+    "sourceUrls": [
+      "https://api.beyerdynamic.de/amfile/file/download/file/1714/",
+      "https://www.e.leclerc/fp/beyerdynamic-mmx-200-wireless-black-casque-avec-fil-sans-fil-arceau-gaming-usb-type-c-usb-type-a-bluetooth-noir-4010118730085"
+    ]
+  },
+  "BD 730211": {
+    "model": "MC 930",
+    "ean": "4010118730214",
+    "sourceUrls": [
+      "https://global.beyerdynamic.com/p/mc-930"
+    ]
+  },
+  "BD 730238": {
+    "model": "MC 930 Stereo Set",
+    "ean": "4010118730238",
+    "sourceUrls": [
+      "https://europe.beyerdynamic.com/p/mc-930-stereo-set"
+    ]
+  },
+  "BD 730262": {
+    "model": "MC 950",
+    "ean": "4010118730269",
+    "sourceUrls": [
+      "https://global.beyerdynamic.com/p/mc-950"
+    ]
+  },
+  "BD 1000923": {
+    "model": "VERIO 200",
+    "ean": "4010118004346",
+    "sourceUrls": [
+      "https://www.saturn.de/de/product/_beyerdynamic-verio-200-open-ear-kopfhorer-bluetooth-schwarzorange-2935973.html",
+      "https://api.beyerdynamic.de/amfile/file/download/file/1800/"
+    ]
+  },
+  "305 EQ/MIXER/OUTPUT": {
+    "model": "305 EQ/Mixer/Output",
+    "ean": "4033653032162",
+    "sourceUrls": [
+      "https://www.bol.com/nl/nl/p/behringer-305-equalizer-mixer-mixer-modular-synthesizer/9300000098890223/"
+    ]
+  },
+  "TA 980017670": {
+    "model": "REVEAL 402",
+    "ean": "5035866176700",
+    "sourceUrls": [
+      "https://www.musicalstore2005.com/it/tannoy-reveal-402.html",
+      "https://www.bananamusic.it/stampa/prodotto/148507"
+    ]
+  },
+  "TA 980017710": {
+    "model": "REVEAL 802",
+    "ean": "5035866177103",
+    "sourceUrls": [
+      "https://www.musikhaus-korn.de/en/tannoy-reveal-802-studiomonitor/pd/59717",
+      "https://www.manuales.mx/tannoy/reveal-802/manual"
+    ]
+  },
+  "M32 LIVE": {
+    "model": "M32 LIVE",
+    "ean": "4033653071178",
+    "sourceUrls": [
+      "https://www.siluj.net/module/producttopdf/view?id_product=16501",
+      "https://www.fnac.com/mp42357084/Midas-M32-LIVE-table-de-mixage-numerique"
+    ]
+  },
+  "BD 101885": {
+    "model": "BD 101885",
+    "ean": "4010118101885",
+    "sourceUrls": [
+      "https://www.markertek.com/product/dt-109gy-nc/beyerdynamic-dt-109-grey-headset-200-400-ohm-no-cable"
     ]
   }
 }

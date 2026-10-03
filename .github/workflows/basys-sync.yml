@@ -87,9 +87,6 @@ jobs:
       - name: Kontrola odkazov na kategórie
         run: node scripts/check-category-links.js
 
-      - name: Poistka proti useknutému feedu
-        run: node scripts/check-feed-size.js
-
       - name: Apply supplier-aware CTR SEO overrides (inactive by default)
         run: node scripts/apply-seo-overrides.js --write
 
@@ -98,6 +95,9 @@ jobs:
 
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z BASYS feedu
         run: node scripts/apply-missing-availability.js --supplier=basys --xml=output/basys.xml
+
+      - name: Poistka proti useknutému feedu
+        run: node scripts/check-feed-size.js
 
       - name: Normalize valid supplier GTINs to EAN-13
         run: node scripts/normalize-truncated-ean.js output/basys.xml

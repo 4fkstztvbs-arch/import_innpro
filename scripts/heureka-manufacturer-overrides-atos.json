@@ -123,5 +123,10 @@
     "manufacturer": "Kaon",
     "model": "Kaon MZ-52",
     "evidence": "The exact supplier product title names this manufacturer or brand; only used when the source MANUFACTURER field is empty."
+  },
+  "TIP-04280268": {
+    "manufacturer": "CARCLEVER",
+    "model": "CARCLEVER",
+    "evidence": "The exact supplier product title and retailer listing identify the CARCLEVER 35so120 solar charger; only used when the source MANUFACTURER field is empty."
   }
 }
