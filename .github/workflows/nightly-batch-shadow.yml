@@ -207,6 +207,17 @@ jobs:
           refresh-stale-intros: 'true'
           finalize-solight-category: 'true'
 
+      # Druhý priechod je zámerný. Potvrdené opravy kategórií (apply-product-category-corrections)
+      # sa na čerstvo stiahnutom feede preskočia, lebo kategórie ešte nesedia s auditom ("Changed name
+      # or category"), a uplatnia sa až pri ďalšom priechode. Doteraz to zabezpečovalo opakované
+      # prepracovanie feedov ďalšími syncmi; skúšobná dávka (len jeden priechod) preto pri MONACOR
+      # nechala 154 produktov v starých kategóriách. Dva priechody dávajú rovnaký výsledok ako
+      # súčasná prevádzka.
+      - uses: ./.github/actions/postprocess-categories
+        with:
+          refresh-stale-intros: 'true'
+          finalize-solight-category: 'true'
+
       - name: Poistka proti useknutému feedu
         run: node scripts/check-feed-size.js
 
