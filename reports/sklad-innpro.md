@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-03 13:20 UTC.
+Kontrola z 2026-10-03 13:26 UTC.
 
 Produktov v full.xml: **7176**, z toho 5724 má záznam aj v light.xml.
 Dostupnosť: Skladom 5695, ostatné 1481 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -227,7 +227,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `044363` | Kapsulový kávovar 5 v 1 HiBREW H2B (biely) | Skladom | 2 | 13.10.2026 |
 | `045428` | Slúchadlá Oneodio Pro30 (strieborné) | Skladom | 226 | 20.10.2026 |
 | `045426` | Slúchadlá Oneodio Pro10 (modré) | Skladom | 111 | 20.10.2026 |
-| `045425` | Slúchadlá Oneodio Pro10 (čierne) | Skladom | 407 | 03.11.2026 |
+| `045425` | Slúchadlá Oneodio Pro10 (čierne) | Skladom | 406 | 03.11.2026 |
 | `044652` | Vysielač/prijímač Bluetooth 5.2 BlitzMax BT05, aptX | Skladom | 271 | 16.10.2026 |
 | `046683` | Vodotesné puzdro pre relé Sonoff IP66 | Skladom | 1411 | 23.10.2026 |
 | `089096` | Inteligentný vypínač svetla WiFi Avatto TS02-EU-B1 1 Wa | Skladom | 65 | 05.11.2026 |
