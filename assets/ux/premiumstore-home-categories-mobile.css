@@ -59,3 +59,18 @@
     display: block;
   }
 }
+
+/* Rezervované miesto (CLS): CSS ho vytvorí pred spustením skriptu, JS pridá triedu
+   .ps-home-cats-ready na main a rezervácia zmizne, keď je blok vložený (508 px = 496 px mriežka + 12 px okraj).
+   Keby skript z nejakého dôvodu nebehol, rezervácia sa po 4 s sama zruší. */
+@media (max-width: 767px) {
+  body.type-index .ps-home-cats--img { grid-auto-rows: 118px; }
+  body.type-index .ps-home-cats--img a { height: 118px; overflow: hidden; }
+  body.type-index main#content:not(.ps-home-cats-ready)::before {
+    content: "";
+    display: block;
+    height: 508px;
+    animation: ps-home-cats-ph-off 0s 4s forwards;
+  }
+}
+@keyframes ps-home-cats-ph-off { to { height: 0; } }
