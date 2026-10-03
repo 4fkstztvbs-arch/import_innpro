@@ -293,7 +293,7 @@
   },
   "CPP-CP-ANW-HPU8G2-N12": {
     "ean": "4250593442428",
-    "model": "CP-DNW-GPU8G2-96",
+    "model": "CP-ANW-HPU8G2-N12",
     "replaceIfSourceEan": "4250593441511",
     "sourceUrls": [
       "https://www.cpplus.cz/cp-anw-hpu8g2-n12-osmiportovy-10/100-mbps-poe-switch-s-2x-1000-mbps-uplinkem"
@@ -337,6 +337,20 @@
     "sourceUrls": [
       "https://www.electrise.sk/p/garni-1ng-integrovany-snimac/1452636",
       "https://eshop.hurikan.cz/garni-technology/"
+    ]
+  },
+  "FU-612": {
+    "model": "FU-612",
+    "ean": "8425988207708",
+    "sourceUrls": [
+      "https://www.hiperantena.com/catalogo/ALCAD_Tarifa_2026.pdf"
+    ]
+  },
+  "CPP-CP-UNC-VD41L3E-VMD-J": {
+    "model": "CP-UNC-VD41L3E-VMD-J",
+    "ean": "4250593430074",
+    "sourceUrls": [
+      "https://www.cpplus.cz/fotky61533/fotov/_ps_1083produktovy-list-CP-UNC-VD41L3E-VMD-J.pdf"
     ]
   }
 }
