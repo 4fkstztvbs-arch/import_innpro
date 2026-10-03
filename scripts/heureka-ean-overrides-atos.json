@@ -401,5 +401,71 @@
       "https://7sun.eu/produkt/rapid-shut-down-tigo-ts4-a-2f-25a-1400w-1000v-iec-012-02-22m-cable-mc4-2/",
       "https://xml.tim.pl/urzadzenie-szybkiego-wylaczania-dla-2-modulow-solarnych-tigo-ts4-a-2f-25a-1400w-1000v-iec-0-120-22-2m-cable-mc4/p/0001-00018-53074"
     ]
+  },
+  "SPR-47419MTW": {
+    "ean": "8594051110105",
+    "model": "Monoblok Twin",
+    "sourceUrls": [
+      "https://mtlcable.cz/konvertor-lnb-di-way-monoblok-twin-4-3-white-pro-2-tv-2-druzice-_d14801.html"
+    ]
+  },
+  "SPR-47419QW": {
+    "ean": "8594051111676",
+    "model": "LNB QUAD",
+    "sourceUrls": [
+      "https://www.ledveci.cz/di-way-lnb-quad-0-1db--white-leopard-line/"
+    ]
+  },
+  "TIP-09910845": {
+    "ean": "4068258007529",
+    "model": "S400HDi",
+    "sourceUrls": [
+      "https://www.remote-control-world.eu/sunsat-c-1406_14_802/sunsat-s400hdi-irdeto-genuine-original-remote-control-p-13173"
+    ]
+  },
+  "SPR-49154": {
+    "ean": "4260189993074",
+    "model": "SF4008",
+    "sourceUrls": [
+      "https://www.digital-sat-online.de/Original-Fernbedienung-Octagon-SF4008-4K-UHD-Linux-Receiver",
+      "https://www.satking.de/en/octagon-sf-i08-e2-hd-infrared-ir-rcu-remote-control"
+    ]
+  },
+  "SPR-49152": {
+    "ean": "4251884211679",
+    "model": "SF128",
+    "sourceUrls": [
+      "https://www.ac-sat-corner.eu/Octagon-SF128-HD-Linux-Receiver-Schwarz-Fernbedienung-Original"
+    ]
+  },
+  "SPR-491063": {
+    "ean": "8588008906149",
+    "model": "SRT 7504",
+    "sourceUrls": [
+      "https://www.emerx.eu/strong/",
+      "https://www.freetv.ie/accessories/remote-control/strong/"
+    ]
+  },
+  "SPR-AIRVOCE": {
+    "ean": "8594051111027",
+    "model": "OPENBOX VOICE",
+    "sourceUrls": [
+      "https://www.jirno.eu/de/airmouse-openbox-voice-bezdratove-dalkove-ovladani--bluetooth/"
+    ]
+  },
+  "SPR-5668008": {
+    "ean": "4260189995047",
+    "model": "SF8008",
+    "sourceUrls": [
+      "https://www.satking.de/en/octagon-2a-original-power-supply",
+      "https://www.digital-sat-online.de/Octagon-Netzteil-SF8008-4K-UHD-Single-Twin-Combo-SX88"
+    ]
+  },
+  "SPR-H11ZR": {
+    "ean": "5901890051965",
+    "model": "REBEL VOICE RED",
+    "sourceUrls": [
+      "https://www.lechpol.pl/pl/product/22099%2Crobot-rebel-voice-red"
+    ]
   }
 }

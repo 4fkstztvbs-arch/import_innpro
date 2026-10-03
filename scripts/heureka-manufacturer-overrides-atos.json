@@ -128,5 +128,15 @@
     "manufacturer": "CARCLEVER",
     "model": "CARCLEVER",
     "evidence": "The exact supplier product title and retailer listing identify the CARCLEVER 35so120 solar charger; only used when the source MANUFACTURER field is empty."
+  },
+  "TIP-06433367": {
+    "manufacturer": "WHEELZONE",
+    "model": "57087",
+    "evidence": "Exact model 57087 is identified as Wheel Zone; applied only when source MANUFACTURER is empty."
+  },
+  "ATO-D497E": {
+    "manufacturer": "AMiO",
+    "model": "Sada kabelových oček",
+    "evidence": "The exact 140-piece kit is identified as AMiO; applied only when source MANUFACTURER is empty."
   }
 }
