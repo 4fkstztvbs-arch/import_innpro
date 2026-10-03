@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 28333,
-  "matchedRules": 2169,
-  "changedProducts": 986,
+  "totalProducts": 27964,
+  "matchedRules": 2205,
+  "changedProducts": 223,
   "rejected": [
     {
       "supplier": "atos",
@@ -471,835 +471,10 @@
     },
     {
       "supplier": "basys",
-      "code": "BASYS-B 895098-0100",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859226",
-      "feedEan": "0017817859226"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895098-0200",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859219",
-      "feedEan": "0017817859219"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895098-0300",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859936",
-      "feedEan": "0017817859936"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0100",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817852470",
-      "feedEan": "0017817852470"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0300",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817852616",
-      "feedEan": "0017817852616"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0160",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817852494",
-      "feedEan": "0017817852494"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0100",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817857932",
-      "feedEan": "0017817857932"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0200",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817858373",
-      "feedEan": "0017817858373"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0300",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817860017",
-      "feedEan": "0017817860017"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B  883848-0020",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817848831",
-      "feedEan": "0017817848831"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0010",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817853347",
-      "feedEan": "0017817853347"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0020",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817853330",
-      "feedEan": "0017817853330"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0030",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817853316",
-      "feedEan": "0017817853316"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0040",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817853323",
-      "feedEan": "0017817853323"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884104-0010",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817848855",
-      "feedEan": "0017817848855"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884104-0020",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817848862",
-      "feedEan": "0017817848862"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0100",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859585",
-      "feedEan": "0017817859585"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0200",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859561",
-      "feedEan": "0017817859561"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0300",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859592",
-      "feedEan": "0017817859592"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0100",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859684",
-      "feedEan": "0017817859684"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0200",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859707",
-      "feedEan": "0017817859707"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0300",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859745",
-      "feedEan": "0017817859745"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0500",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859738",
-      "feedEan": "0017817859738"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884367-0200",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817848985",
-      "feedEan": "0017817848985"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0010",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817861120",
-      "feedEan": "0017817861120"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0020",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817861076",
-      "feedEan": "0017817861076"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0030",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817861151",
-      "feedEan": "0017817861151"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0040",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817861212",
-      "feedEan": "0017817861212"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0050",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817861083",
-      "feedEan": "0017817861083"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 881046-0020",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817846912",
-      "feedEan": "0017817846912"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888507-0100",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817853460",
-      "feedEan": "0017817853460"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B  888507-0200",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817853439",
-      "feedEan": "0017817853439"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888507-0300",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817853200",
-      "feedEan": "0017817853200"
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-B 802171-0010",
       "reason": "Reviewed EAN changed",
       "approvedEan": "17817785647",
       "feedEan": "0017817795647"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 802171-0020",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817796514",
-      "feedEan": "0017817796514"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897829-0010",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817861786",
-      "feedEan": "0017817861786"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897827-0010",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817861793",
-      "feedEan": "0017817861793"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897827-0020",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817861809",
-      "feedEan": "0017817861809"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 028338",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 041761",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 050194",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 317088-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 318338-0200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 362538-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 362538-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 362538-0030",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 371407-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 720876-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 722139-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 722139-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 722140-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 751863-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 751864-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 754609-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 760858-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 760858-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 762817-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 766712-2410",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768928-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768932-2210",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768938-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768938-2210",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768941-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 768941-2210",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 772045-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 772130-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 772238-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 772730-0030",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 781445-0020",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 783342-0300",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 783342-0400",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 785403-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 785491-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 789175-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 803286-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 803287-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 803288-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 803289-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808453-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808456-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808461-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808928-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808928-2210",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 808930-2210",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 809510-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 809781-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 812896-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 813375-2310",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 825339-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829682-0120",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829682-0210",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829682-0220",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829705-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829705-0120",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829712-0120",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829712-0210",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 829712-0220",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 831246-0060",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 834062-0200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 834167-0300",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 834315-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 841151-0320",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 851220-0010",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 855582-0400",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 855584-0500",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 855972-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 855979-0300",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856985-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856986-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856990-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 856993-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 871761-0111",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 871761-0211",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 878857-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 878857-0200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 880413-0110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 880413-0120",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 881046-0010",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817846929",
-      "feedEan": "0017817846929"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 881046-0040",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 881046-0700",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 881046-0900",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 883848-0400",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817860284",
-      "feedEan": "0017817860284"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884367-0900",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0800",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0400",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "17817859516",
-      "feedEan": "0017817859516"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 892120-2110",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B A00508-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B A01114-0100",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B A01114-0200",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 718971",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-DI4800A",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-DI600P",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-EN 454938",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-EN 454952",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-EP-109P",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-HD96-24-CC-IP",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-LIR2-EP",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EAA",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EH",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-ELB",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MEM-EV",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-MR12",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-P16-HQ",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-PMP1680S",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-SE-99",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-TC 000-DI700",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-X18",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-X32",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-XR12",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-XR16",
-      "reason": "Reviewed product name changed"
     },
     {
       "supplier": "innpro",
@@ -1460,6 +635,13 @@
       "supplier": "innpro",
       "code": "066488",
       "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069813",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "798038994353",
+      "feedEan": "0798038994353"
     },
     {
       "supplier": "innpro",
@@ -2219,6 +1401,101 @@
     {
       "supplier": "innpro",
       "code": "082793",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "018665",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "029058",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "055617",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "058841",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074232",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075362",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078336",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078348",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078361",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083355",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083736",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083739",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087495",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087497",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087515",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090987",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090988",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091001",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091003",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2986,7 +2263,542 @@
       "feedEan": "0795847057279"
     }
   ],
-  "categoryDrifts": [],
+  "categoryDrifts": [
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 028338",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 317088-0100",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 318338-0200",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 371407-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 041761",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 809510-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 050194",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 766712-2410",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768932-2210",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768938-2110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768938-2210",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768941-2110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768941-2210",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 768928-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 751863-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 751864-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 789175-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 809781-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 772238-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 825339-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 812896-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808461-2110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808928-2110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808928-2210",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 808930-2210",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Signálové procesory a ovládače"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856989-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856992-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856996-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856990-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856993-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856985-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 856986-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 857000-0110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 843344-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 843364-0010",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B A00508-0100",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B A01114-0100",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ",
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > PA reproduktory"
+      ]
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B A01114-0200",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "approvedCurrent": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ",
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ],
+      "approvedProposed": [
+        "Profesionálna audio technika > PA reproduktory"
+      ]
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
