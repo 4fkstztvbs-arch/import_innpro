@@ -1,11 +1,33 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-04 13:24 UTC.
+Kontrola z 2026-10-04 17:37 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
+
+## atos — 17 ks
+
+| Kód | Produkt |
+|---|---|
+| `ABT-A500008333` |  |
+| `ATO-A500004113` |  |
+| `ATO-A500006298` |  |
+| `ATO-A500006299` |  |
+| `ATO-A500006301` |  |
+| `ATO-A500007721` |  |
+| `ATO-CP-E81AR` |  |
+| `DOAM8550` |  |
+| `DOGS7055` |  |
+| `DOSYZR300` |  |
+| `GOSDO7056P` |  |
+| `PEN-52901202` |  |
+| `TIP-07720168` |  |
+| `TOC-SX4020` |  |
+| `VB-MPU-1200` |  |
+| `VB-WPU-300` |  |
+| `VB-WPU-500` |  |
 
 ## innpro — 3 ks
 
@@ -23,7 +45,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `100001880301` | Drosselmeyer NCGP03 |
 | `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
 
-## wiim — 24 ks
+## wiim — 26 ks
 
 | Kód | Produkt |
 |---|---|
@@ -50,5 +72,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `WiiM-Sound-Lite-White-2-pack` | WiiM Sound Lite Twin Pack White |
 | `WiiM_SUB_PRO_003` | WiiM Sub Pro Black |
 | `WiiM_SUB_PRO_013` | WiiM Sub Pro White |
+| `NORWIISOUBK` | WiiM Sound Floor Stand Black |
+| `NORWIISOUWT` | WiiM Sound Floor Stand White |
 | `WiiM_WVR_002` | WiiM Voice Remote 2 Silver |
 
