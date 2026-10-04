@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-04 19:54 UTC.
+Kontrola z 2026-10-04 20:02 UTC.
 
 Produktov v full.xml: **7174**, z toho 5718 má záznam aj v light.xml.
 Dostupnosť: Skladom 5689, ostatné 1485 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -18,7 +18,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 
 | Kód | Produkt | Dostupnosť u nás | light stock | Ďalšia dodávka |
 |---|---|---|---:|---|
-| `008177` | Nabíjačka SkyRC iMax B6AC V2 | Skladom | 205 | 16.10.2026 |
+| `008177` | Nabíjačka SkyRC iMax B6AC V2 | Skladom | 204 | 16.10.2026 |
 | `006499` | Nabíjačka SkyRC iMax B6 Mini | Skladom | 222 | 16.10.2026 |
 | `006513` | Sieťový adaptér SkyRC 15V / 4A | Dostupné od 16.10.2026 | null | 16.10.2026 |
 | `018665` | Selfie tyč Puluz pre športové fotoaparáty (DJI, GoPro,  | Dostupné od 11.12.2026 | null | 11.12.2026 |
@@ -180,7 +180,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `037405` | Sada 4 filtrov UV+CPL+ND4+ND8 Sunnylife pre DJI Mini 3  | Skladom | 48 | 17.11.2026 |
 | `037511` | Ochranný kryt ovládača a slnečná clona 2 v 1 Sunnylife  | Skladom | 132 | 10.11.2026 |
 | `038608` | Prenosný kávovar HIBREW H4A 3 v 1 s výkonom 80 W a pren | Skladom | 42 | 13.10.2026 |
-| `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1403 | 23.10.2026 |
+| `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1402 | 23.10.2026 |
 | `038339` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `038341` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `038486` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Skladom | 1226 | 23.10.2026 |
@@ -280,7 +280,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `055849` | Čistič zápachu pre mačacie toalety Rojeco 4000mAh | Skladom | 82 | 11.12.2026 |
 | `056068` | Napájadlo pre psy a mačky PetKit Eversweet 3 Pro | Skladom | 251 | 11.12.2026 |
 | `054997` | Inteligentný dávkovač krmiva CatLink F04 PRO | Skladom | 12 | 21.12.2026 |
-| `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 278 | 16.10.2026 |
+| `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 277 | 16.10.2026 |
 | `057075` | Pristávací podvozok Sunnylife pre DJI Mavic 3 Pro - siv | Skladom | 68 | 17.11.2026 |
 | `057842` | Dynamický mikrofon Maono PD200x (černý) | Skladom | 7 | 07.10.2026 |
 | `057843` | Dynamický mikrofon Maono PD200x (bílý) | Dostupné od 07.10.2026 | null | 07.10.2026 |
