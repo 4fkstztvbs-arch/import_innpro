@@ -12,6 +12,8 @@ const q = (v) => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"';
 async function main() {
   if (!process.env.PENTA_URL) { console.error('Missing PENTA_URL'); process.exit(1); }
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
+  const { PENTA_USERNAME: username, PENTA_PASSWORD: pwd } = process.env;
+  const auth = { username, password: pwd };
   const rows = [['code', 'ean', 'name', 'manufacturer', 'purchase_price', 'price_vat', 'vat', 'stock_amount', 'availability', 'default_category', 'all_categories', 'action', 'new', 'tip', 'warranty', 'weight_kg']];
   let total = 0, failed = 0;
   await streamRecords(process.env.PENTA_URL, 'SHOPITEM', (rawXml) => {
@@ -20,7 +22,7 @@ async function main() {
     try { p = parsePentaItem(rawXml); } catch (e) { failed++; return; }
     if (!p) { failed++; return; }
     rows.push([p.code, p.ean, p.name, p.manufacturer, p.purchasePrice, p.priceVat, p.vat, p.stockAmount, p.availabilityRaw, p.defaultCategoryRaw, p.categoryTexts.join(' | '), p.actionFlag, p.newFlag, p.tipFlag, p.warranty, p.weightKg]);
-  }, { username: process.env.PENTA_USERNAME, password: process.env.PENTA_PASSWORD });
+  }, auth);
   fs.writeFileSync(OUT, rows.map((r) => r.map(q).join(',')).join('\n') + '\n');
   console.log(`Penta full export: ${total} records, ${failed} failed, ${rows.length - 1} rows -> ${OUT}`);
 }
