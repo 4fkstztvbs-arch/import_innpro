@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-04 19:36 UTC.
+Kontrola z 2026-10-04 19:54 UTC.
 
 Produktov v full.xml: **7174**, z toho 5718 má záznam aj v light.xml.
 Dostupnosť: Skladom 5689, ostatné 1485 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -35,7 +35,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `019957` | Sada 20 kusov príslušenstva Puluz pre športové kamery ( | Skladom | 72 | 11.12.2026 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | Skladom | 70 | 27.10.2026 |
 | `020510` | Nočné svetlo so senzorom Yeelight Sensor Plug-in | Dostupné od 16.10.2026 | null | 16.10.2026 |
-| `022727` | Fotografický beztienový svetelný panel Puluz PU5138 100 | Skladom | 81 | 05.11.2026 |
+| `022727` | Fotografický beztienový svetelný panel Puluz PU5138 100 | Skladom | 80 | 05.11.2026 |
 | `021910` | Náhradné filtre + špongia + pumpička Petoneer (3 ks) | Skladom | 560 | 16.10.2026 |
 | `022610` | Inteligentný spínač WiFi + RF 433 Sonoff RF R2 (NOVINKA | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `023125` | Inteligentný odstraňovač zápachu Petoneer | Skladom | 46 | 16.10.2026 |
@@ -95,7 +95,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `027672` | Yeelight Svetlo do skrine 40 cm (strieborné) 2700K | Skladom | 402 | 14.10.2026 |
 | `027673` | Yeelight Svetlo do skrine strieborné 60 cm | Skladom | 14 | 16.10.2026 |
 | `027674` | Yeelight Svetlo do skrine čierne 20 cm 2700K | Dostupné od 16.10.2026 | null | 16.10.2026 |
-| `027675` | Yeelight Svetlo do skrine čierne 40 cm 2700K | Skladom | 947 | 11.12.2026 |
+| `027675` | Yeelight Svetlo do skrine čierne 40 cm 2700K | Skladom | 946 | 11.12.2026 |
 | `027676` | Yeelight Svetlo do skrine čierne 60 cm 2700K | Skladom | 400 | 08.12.2026 |
 | `028421` | Reproduktory Edifier R1280DBs 2.0 (čierne) | Skladom | 80 | 03.11.2026 |
 | `028422` | Reproduktory Edifier R1280DBs 2.0 (hnedé) | Skladom | 200 | 03.11.2026 |
@@ -180,7 +180,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `037405` | Sada 4 filtrov UV+CPL+ND4+ND8 Sunnylife pre DJI Mini 3  | Skladom | 48 | 17.11.2026 |
 | `037511` | Ochranný kryt ovládača a slnečná clona 2 v 1 Sunnylife  | Skladom | 132 | 10.11.2026 |
 | `038608` | Prenosný kávovar HIBREW H4A 3 v 1 s výkonom 80 W a pren | Skladom | 42 | 13.10.2026 |
-| `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1404 | 23.10.2026 |
+| `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1403 | 23.10.2026 |
 | `038339` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `038341` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `038486` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Skladom | 1226 | 23.10.2026 |
