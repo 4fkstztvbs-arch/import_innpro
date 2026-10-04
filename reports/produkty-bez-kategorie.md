@@ -1,33 +1,11 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-04 19:40 UTC.
+Kontrola z 2026-10-04 19:43 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
-
-## atos — 17 ks
-
-| Kód | Produkt |
-|---|---|
-| `ABT-A500008333` |  |
-| `ATO-A500004113` |  |
-| `ATO-A500006298` |  |
-| `ATO-A500006299` |  |
-| `ATO-A500006301` |  |
-| `ATO-A500007721` |  |
-| `ATO-CP-E81AR` |  |
-| `DOAM8550` |  |
-| `DOGS7055` |  |
-| `DOSYZR300` |  |
-| `GOSDO7056P` |  |
-| `PEN-52901202` |  |
-| `TIP-07720168` |  |
-| `TOC-SX4020` |  |
-| `VB-MPU-1200` |  |
-| `VB-WPU-300` |  |
-| `VB-WPU-500` |  |
 
 ## innpro — 3 ks
 
