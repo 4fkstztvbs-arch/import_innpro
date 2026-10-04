@@ -16,6 +16,7 @@ const saleState = fs.existsSync(SALE_STATE_PATH)
   : { items: {} };
 const { streamRecords } = require('./stream-records');
 const { parseMonacorProduct } = require('./parse-monacor');
+const { extractMonacorParams } = require('./monacor-params');
 const { roundPrice } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden, marginEurFor } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
@@ -95,6 +96,16 @@ function buildShopitemXml(p) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));
     parts.push('</IMAGES>');
+  }
+  if (p.params && p.params.length) {
+    parts.push('<TEXT_PROPERTIES>');
+    p.params.forEach((pv) => {
+      parts.push('  <TEXT_PROPERTY>');
+      parts.push(`    <NAME>${xmlCdata(pv.name)}</NAME>`);
+      parts.push(`    <VALUE>${xmlCdata(pv.value)}</VALUE>`);
+      parts.push('  </TEXT_PROPERTY>');
+    });
+    parts.push('</TEXT_PROPERTIES>');
   }
   parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
   parts.push('<VISIBLE>1</VISIBLE>');
@@ -183,6 +194,7 @@ async function main() {
       code, ean, name, category: defaultCategory, price,
       shopitemData: { code, name, description, shortDescription, manufacturer: p.manufacturer, ean,
         defaultCategory, extraCategories, images: p.images, availability, weightKg: p.weightKg,
+        params: extractMonacorParams(p.description, p.manufacturer),
         price, seoTitle, metaDescription },
     });
   });
