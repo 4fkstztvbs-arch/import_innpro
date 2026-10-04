@@ -64,6 +64,9 @@ const MAPPING_PATH = path.join(__dirname, 'penta-mapping.json');
 const mapping = JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'));
 const RENAMES = mapping.categoryRenamesByPath || {};
 const EXCLUSIONS = new Set(mapping.categoryExclusionsByPath || []);
+// Hand-picked products (high margin, clear category) that are imported even though their branch is
+// otherwise excluded above — but only through their explicitly mapped (renamed) category paths.
+const ALLOWLISTED_CODES = new Set((mapping.allowlistedProductCodes || []).map(String));
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
 // Penta's own customer-facing taxonomy — the other trees in <CATEGORIES> ("Dle výrobce",
 // "Koncovy shop reklamni SK", ...) are manufacturer/marketing groupings, not meant as our
@@ -131,11 +134,15 @@ function pentaAncestorPaths(pathKey) {
   }
   return chain;
 }
-function resolvePentaCategories(categoryTexts, defaultCategoryRaw) {
-  const givenPaths = categoryTexts.filter((p) => p.startsWith(TREE_ROOT));
+function resolvePentaCategories(categoryTexts, defaultCategoryRaw, allowlisted) {
+  let givenPaths = categoryTexts.filter((p) => p.startsWith(TREE_ROOT));
+  if (allowlisted) {
+    const mappedPaths = givenPaths.filter((p) => lookupRename(p));
+    if (mappedPaths.length) givenPaths = mappedPaths;
+  }
   const allPaths = new Set();
   for (const p of givenPaths) {
-    if (isExcluded(p)) continue;
+    if (isExcluded(p) && !(allowlisted && lookupRename(p))) continue;
     if (p !== TREE_ROOT) allPaths.add(p);
     if (lookupRename(p)) continue;
     for (const a of pentaAncestorPaths(p)) {
@@ -299,7 +306,7 @@ async function main() {
     price = enforcePentaGrossMarginFloor(p.ean, price, p.purchasePrice, parseFloat(p.vat));
     if (price < MIN_PRICE) { stats.skippedCheap++; return; }
 
-    const { defaultCategory, extraCategories, defaultMapped } = resolvePentaCategories(p.categoryTexts, p.defaultCategoryRaw);
+    const { defaultCategory, extraCategories, defaultMapped } = resolvePentaCategories(p.categoryTexts, p.defaultCategoryRaw, ALLOWLISTED_CODES.has(String(p.code)));
     if (!defaultCategory) { stats.skippedCategory++; return; }
     if (ONLY_MAPPED_CATEGORIES && !defaultMapped) { stats.skippedUnmapped++; return; }
 
