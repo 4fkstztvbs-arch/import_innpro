@@ -35,7 +35,7 @@ const { parseWiimPricelist } = require('./parse-wiim-pricelist');
 const { localizeXml } = require('./localize-product-names');
 const { validateXml } = require('./validate-product-name-localization');
 const { roundPrice } = require('./round-price');
-const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
+const { heurekaCategoryIdFor, isHeurekaHidden, marginEurFor } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 

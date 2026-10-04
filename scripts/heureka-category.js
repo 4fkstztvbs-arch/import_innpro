@@ -48,6 +48,17 @@ const norm = (s) => String(s).trim().replace(/\s*>\s*/g, ' > ');
 const HIDDEN_PATHS = (HIDDEN_CONFIG.categories || []).map(norm);
 const HIDDEN_EXCEPTIONS = (HIDDEN_CONFIG.exceptions || []).map(norm);
 const HIDDEN_PRICE_BELOW = Number.isFinite(HIDDEN_CONFIG.priceBelow) ? HIDDEN_CONFIG.priceBelow : 0;
+// Cenový strop sa nepoužije na produkt s dostatočnou absolútnou maržou (EUR/ks bez DPH). Marža v
+// percentách tu nestačí: pri tovare do 10 € je 20 % len ~1 €, kým CPC klik stojí ~0,32 €.
+const HIDDEN_PRICE_MIN_MARGIN = Number.isFinite(HIDDEN_CONFIG.priceBelowUnlessMarginEur) ? HIDDEN_CONFIG.priceBelowUnlessMarginEur : Infinity;
+
+// Marža na kus v EUR bez DPH = predajná cena bez DPH - nákupná cena (bez DPH). NaN, ak niečo chýba
+// (potom sa cenový strop uplatní ako doteraz).
+function marginEurFor(priceInclVat, purchasePrice, vatPct) {
+  const price = Number(priceInclVat), cost = Number(purchasePrice), vat = Number(vatPct);
+  if (!(price > 0) || !(cost > 0) || !Number.isFinite(vat)) return NaN;
+  return price / (1 + vat / 100) - cost;
+}
 
 // Najdlhšie pravidlo, ktoré je prefixom cesty (alebo sa jej rovná); null = žiadne.
 function longestMatch(list, categoryPath) {
@@ -60,8 +71,9 @@ function longestMatch(list, categoryPath) {
   return best;
 }
 
-function isHeurekaHidden(categoryPath, priceInclVat) {
-  if (Number.isFinite(priceInclVat) && HIDDEN_PRICE_BELOW > 0 && priceInclVat < HIDDEN_PRICE_BELOW) return true;
+function isHeurekaHidden(categoryPath, priceInclVat, marginEur) {
+  if (Number.isFinite(priceInclVat) && HIDDEN_PRICE_BELOW > 0 && priceInclVat < HIDDEN_PRICE_BELOW
+      && !(marginEur >= HIDDEN_PRICE_MIN_MARGIN)) return true;
   if (!categoryPath) return false;
   const p = norm(categoryPath);
   const hide = longestMatch(HIDDEN_PATHS, p);
@@ -70,4 +82,4 @@ function isHeurekaHidden(categoryPath, priceInclVat) {
   return !(keep && keep.length > hide.length);
 }
 
-module.exports = { heurekaCategoryIdFor, isHeurekaHidden };
+module.exports = { heurekaCategoryIdFor, isHeurekaHidden, marginEurFor };
