@@ -4,6 +4,8 @@
   "_comment_2026_10_04": "priceBelowUnlessMarginEur: produkt pod priceBelow sa NEVYLÚČI, ak má maržu aspoň túto sumu v EUR/ks bez DPH (nákupná cena z feedu). Test na 4 týždne od 2026-10-04 (vyhodnotiť ~2026-11-01): pri CPC ~0,32 € a konverzii ~3,5 % má zmysel len tovar s maržou okolo 2 € a viac. Dotýka sa len dodávateľov s nákupnou cenou vo feede; ostatné kategórie a CPC vylúčenia platia ďalej.",
   "priceBelow": 10,
   "priceBelowUnlessMarginEur": 2,
+  "_comment_categoryUnlessMarginEur": "Kategóriové skrytie sa neuplatní na produkt s maržou aspoň toľko EUR/ks bez DPH (test od 2026-10-04, vyhodnotiť ~2026-11-01 spolu s priceBelowUnlessMarginEur). Ostatné produkty v skrytých kategóriách ostávajú skryté.",
+  "categoryUnlessMarginEur": 10,
   "categories": [
     "Auto-moto",
     "Dielňa, náradie a záhrada",
