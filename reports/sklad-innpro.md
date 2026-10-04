@@ -1,9 +1,9 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-04 20:02 UTC.
+Kontrola z 2026-10-04 20:24 UTC.
 
-Produktov v full.xml: **7174**, z toho 5718 má záznam aj v light.xml.
-Dostupnosť: Skladom 5689, ostatné 1485 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
+Produktov v full.xml: **7174**, z toho 5717 má záznam aj v light.xml.
+Dostupnosť: Skladom 5688, ostatné 1486 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
 
 ## quantity="-1" — 0 produktov
 
@@ -25,7 +25,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `018666` | Sada 53 kusov príslušenstva Puluz pre športové kamery P | Skladom | 192 | 27.10.2026 |
 | `018671` | Čiapka Puluz s držiakom pre športovú kameru (DJI, GoPro | Skladom | 55 | 27.10.2026 |
 | `018672` | Náramok Puluz s nástavcom na športovú kameru (vrátane A | Skladom | 97 | 27.10.2026 |
-| `018690` | Vodotesný batoh na fotoaparát Puluz PU5011B (čierny) | Skladom | 482 | 27.10.2026 |
+| `018690` | Vodotesný batoh na fotoaparát Puluz PU5011B (čierny) | Skladom | 481 | 27.10.2026 |
 | `018800` | Baterka Superfire F3-L2 – 570 lm, 260 m, 5 režimov, fun | Skladom | 66 | 22.12.2026 |
 | `019498` | Sada nálepiek a držiakov Puluz pre bodové kamery (vráta | Skladom | 377 | 05.11.2026 |
 | `019499` | Držiak J-Hook Puluz pre športové kamery (DJI, GoPro, In | Skladom | 116 | 27.10.2026 |
@@ -87,7 +87,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `026531` | Inteligentný dávkovač krmiva Petoneer Nutri Mini | Skladom | 30 | 16.10.2026 |
 | `027612` | Inteligentný spínač WiFi Sonoff Dual R3 | Skladom | 1599 | 27.10.2026 |
 | `027615` | Inteligentný bezdrôtový nástenný vypínač Sonoff T2EU3C- | Dostupné od 23.10.2026 | null | 23.10.2026 |
-| `026429` | Štúdiová súprava Puluz softbox 50x70cm, statív, LED žia | Skladom | 839 | 11.12.2026 |
+| `026429` | Štúdiová súprava Puluz softbox 50x70cm, statív, LED žia | Skladom | 838 | 11.12.2026 |
 | `026430` | Podpera pozadia pre fotoštúdio Puluz PU3054B 67 cm | Skladom | 24 | 27.10.2026 |
 | `026433` | Podpora pozadia pre fotoštúdio Puluz 200x200cm DCA0975 | Skladom | 161 | 27.10.2026 |
 | `026435` | Súprava na upevnenie fotografického pozadia Puluz 2x3 m | Skladom | 99 | 11.12.2026 |
@@ -213,7 +213,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `041177` | Inteligentný samočistiaci záchod pre mačky Catlink Pro- | Skladom | 320 | 25.11.2026 |
 | `041916` | Kávovar na kapsule 5 v 1 HiBREW H2B (čierny) | Skladom | 49 | 13.10.2026 |
 | `041708` | Otočný stojan Puluz 45 cm (čierny) | Skladom | 81 | 11.12.2026 |
-| `041716` | Držiak telefónu Puluz | Skladom | 35 | 27.10.2026 |
+| `041716` | Držiak telefónu Puluz | Skladom | 34 | 27.10.2026 |
 | `041722` | Dvojitá stojacia lampa s diaľkovým ovládaním BlitzWill  | Skladom | 92 | 05.11.2026 |
 | `040791` | Zvukový zosilňovač Blitzwolf AS-22, 45 W, Bluetooth 5.0 | Skladom | 586 | 16.10.2026 |
 | `038163` | Záhradná solárna lampa Superfire FF16-A, 600 mAh | Skladom | 91 | 22.12.2026 |
@@ -271,7 +271,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `055429` | Namiot bezcieniowy Puluz 20cm LED PU5029 | Skladom | 85 | 27.10.2026 |
 | `053415` | Odparovací zvlhčovač vzduchu Smartmi 3 | Skladom | 1367 | 21.10.2026 |
 | `054078` | Statív PULUZ - flexibilný držiak s diaľkovým ovládaním  | Skladom | 30 | 27.10.2026 |
-| `054086` | Bezdrôtový mikrofón PULUZ PUL648B (USB-C) | Skladom | 716 | 05.11.2026 |
+| `054086` | Bezdrôtový mikrofón PULUZ PUL648B (USB-C) | Skladom | 711 | 05.11.2026 |
 | `054157` | Ochranné puzdro Sunnylife pre DJI RC 2 | Skladom | 49 | 10.11.2026 |
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action  | Skladom | 136 | 08.12.2026 |
 | `056767` | Ovládač na osvetlenie Yeelight | Skladom | 21 | 14.10.2026 |
@@ -282,7 +282,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `054997` | Inteligentný dávkovač krmiva CatLink F04 PRO | Skladom | 12 | 21.12.2026 |
 | `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 277 | 16.10.2026 |
 | `057075` | Pristávací podvozok Sunnylife pre DJI Mavic 3 Pro - siv | Skladom | 68 | 17.11.2026 |
-| `057842` | Dynamický mikrofon Maono PD200x (černý) | Skladom | 7 | 07.10.2026 |
+| `057842` | Dynamický mikrofon Maono PD200x (černý) | Skladom | 6 | 07.10.2026 |
 | `057843` | Dynamický mikrofon Maono PD200x (bílý) | Dostupné od 07.10.2026 | null | 07.10.2026 |
 | `057844` | Herní mikrofon Maono DM30RGB (černý) | Skladom | 237 | 07.10.2026 |
 | `057845` | Herní mikrofon Maono DM30RGB (bílý) | Skladom | 139 | 07.10.2026 |
