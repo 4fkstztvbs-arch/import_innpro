@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-03 21:37 UTC.
+Kontrola z 2026-10-04 06:56 UTC.
 
-InnPro pri **400** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **402** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -32,8 +32,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `024662` | Inteligentný spínač WiFi Gosund SW3, Tuya | — | 5 |
 | `025657` | Čelovka Superfire HL51 – 160 lm, micro-USB, 4 režimy, 300 m | — | 5 |
 | `024942` | Baseus Simple Wisdom Súprava dátového kábla USB na Lightning | — | 5 |
+| `025583` | Inteligentná žiarovka Yeelight W1 GU10 (biela) 1 kus | — | 5 |
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | — | 5 |
-| `026131` | Základňa snímača pohybu Sonoff (PIR3, SNZB-03) | — | 5 |
 | `025440` | Sada dátových káblov Baseus Simple Wisdom USB to Micro 2.1A  | — | 2 |
 | `025646` | Baseus Tungsten Gold kábel USB na iP 2,4A 2 m (čierny) | — | 5 |
 | `026651` | Súprava vodotesných filtrov Telesin pre objektív GoPro Hero  | — | 5 |
@@ -84,6 +84,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
 | `048658` | Priehľadný obal a sada tvrdeného skla Baseus Corning pre iPh | — | 5 |
 | `044419` | Fólia na objektív fotoaparátu Baseus pre iPhone 13 Pro/13 Pr | — | 3 |
+| `049242` | Baseus Tempered-Glass Screen Protector pre HUAWEI P40 | — | 5 |
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
 | `049249` | Ochranné sklo s tvrdeným sklom Baseus pre realme GT2 Master  | — | 5 |
 | `044436` | Tvrdené sklo Baseus Crystal 0,3 mm pre HUAWEI MatePad Pro 12 | — | 5 |
@@ -120,6 +121,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
 | `056365` | Nalepovacie termoštítky Niimbot 25 x 60 mm, 110 ks (biele) | — | 5 |
 | `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
+| `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 4 |
 | `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
 | `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
@@ -127,6 +129,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `058014` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `060078` | Ochranná taška / puzdro Telesin pre GoPro Hero 9 / Hero 10 / | — | 5 |
 | `060079` | Ochranná taška / puzdro Telesin pre Insta360 Ace Pro / Ace ( | — | 5 |
+| `060080` | Ochranná taška / puzdro Telesin for action cameras (GP-CPB-9 | — | 5 |
 | `058016` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 3 |
 | `058032` | Phone case Baseus Magnetic Crystal Clear for iPhone 11 Pro M | — | 5 |
 | `060195` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | — | 5 |
@@ -261,7 +264,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
 | `082642` | Tvrdené sklo Puluz pre Insta360 X4 Air | — | 5 |
-| `082686` | Súprava na určovanie veľkosti krúžkov RingConn | — | 5 |
 | `082251` | Svietidlo Superfire HL23-X | — | 5 |
 | `083025` | Sada tvrdeného skla Telesin pre DJI Osmo Action 6 (objektív  | — | 5 |
 | `083026` | Sada tvrdeného skla Telesin pre DJI Osmo Action 6 ( 2x objek | — | 5 |
