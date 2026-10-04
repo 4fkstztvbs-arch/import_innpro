@@ -66,6 +66,11 @@ jobs:
           KB_XML_OUT: output/kb.xml
         run: node scripts/enrich-kb-icecat.js
 
+      - name: Add fallback parameters (Heureka PARAM)
+        env:
+          FALLBACK_PARAMS_XML: output/kb.xml
+        run: node scripts/add-fallback-params.js
+
       - name: Pull latest before cross-supplier dedupe
         run: |
           git stash -u
