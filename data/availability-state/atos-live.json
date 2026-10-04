@@ -1,8 +1,10 @@
 {
   "version": 1,
   "managedVisibility": {
+    "code:VB-MPU-300": "visible",
     "code:8001": "visible",
     "code:13989": "visible",
+    "code:PEN-5290120": "visible",
     "code:OR-AE-13190/B": "visible",
     "code:TIP-06691719": "hidden",
     "code:3989": "visible",
