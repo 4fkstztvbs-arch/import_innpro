@@ -23,3 +23,11 @@ test('entry without a parsable date never expires', () => {
   assert.equal(isExpired({ name: 'x' }, T0 + 999 * DAY), false);
   assert.equal(isExpired({ generatedAt: 'nonsense' }, T0 + 999 * DAY), false);
 });
+
+test('EAN with a dropped leading zero still matches the zero-padded exclusion key', () => {
+  const { isCpcNonConverter, loadExclusions } = require('../heureka-cpc-exclusions');
+  const padded = Object.keys(loadExclusions()).find((k) => /^0\d{12}$/.test(k));
+  if (!padded) return;
+  assert.equal(isCpcNonConverter(padded), true);
+  assert.equal(isCpcNonConverter(padded.slice(1)), true);
+});
