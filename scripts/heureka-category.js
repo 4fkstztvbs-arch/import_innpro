@@ -52,6 +52,10 @@ const HIDDEN_PRICE_BELOW = Number.isFinite(HIDDEN_CONFIG.priceBelow) ? HIDDEN_CO
 // percentách tu nestačí: pri tovare do 10 € je 20 % len ~1 €, kým CPC klik stojí ~0,32 €.
 const HIDDEN_PRICE_MIN_MARGIN = Number.isFinite(HIDDEN_CONFIG.priceBelowUnlessMarginEur) ? HIDDEN_CONFIG.priceBelowUnlessMarginEur : Infinity;
 
+// Rovnaká výnimka pre kategóriové skrytie: produkt s maržou aspoň touto sumou sa nevylúči ani
+// kategóriou (pri CPC ~0,32 € a konverzii ~3,5 % sa klik vyplatí od ~9 € marže na kus).
+const HIDDEN_CATEGORY_MIN_MARGIN = Number.isFinite(HIDDEN_CONFIG.categoryUnlessMarginEur) ? HIDDEN_CONFIG.categoryUnlessMarginEur : Infinity;
+
 // Marža na kus v EUR bez DPH = predajná cena bez DPH - nákupná cena (bez DPH). NaN, ak niečo chýba
 // (potom sa cenový strop uplatní ako doteraz).
 function marginEurFor(priceInclVat, purchasePrice, vatPct) {
@@ -75,6 +79,7 @@ function isHeurekaHidden(categoryPath, priceInclVat, marginEur) {
   if (Number.isFinite(priceInclVat) && HIDDEN_PRICE_BELOW > 0 && priceInclVat < HIDDEN_PRICE_BELOW
       && !(marginEur >= HIDDEN_PRICE_MIN_MARGIN)) return true;
   if (!categoryPath) return false;
+  if (marginEur >= HIDDEN_CATEGORY_MIN_MARGIN) return false;
   const p = norm(categoryPath);
   const hide = longestMatch(HIDDEN_PATHS, p);
   if (!hide) return false;
