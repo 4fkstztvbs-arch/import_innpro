@@ -1,19 +1,9 @@
 {
   "minimum": 8,
-  "totalProducts": 28165,
+  "totalProducts": 27855,
   "matchedRules": 2300,
-  "changedProducts": 4,
+  "changedProducts": 469,
   "rejected": [
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-315",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-316",
-      "reason": "Reviewed product name changed"
-    },
     {
       "supplier": "basys",
       "code": "BASYS-B 895098-0100",
@@ -1863,7 +1853,36 @@
       "feedEan": "0795847057279"
     }
   ],
-  "categoryDrifts": [],
+  "categoryDrifts": [
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13PIR",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    },
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13WDS2",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",

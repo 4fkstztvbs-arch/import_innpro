@@ -1,7 +1,7 @@
 {
-  "products": 28165,
-  "matched": 527,
-  "categoryChanges": 154,
+  "products": 27855,
+  "matched": 526,
+  "categoryChanges": 25,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -1565,6 +1565,11 @@
     }
   ],
   "unseen": [
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1017-PRO",
+      "ean": "5901890130325"
+    },
     {
       "supplier": "basys",
       "code": "BASYS-B 892930-2100",
