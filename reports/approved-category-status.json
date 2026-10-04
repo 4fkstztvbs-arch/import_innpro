@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 28152,
-  "matchedRules": 2300,
-  "changedProducts": 135,
+  "totalProducts": 27937,
+  "matchedRules": 2330,
+  "changedProducts": 613,
   "rejected": [
     {
       "supplier": "atos",
@@ -1345,388 +1345,7 @@
     },
     {
       "supplier": "kb",
-      "code": "100002136667",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356295284",
-      "feedEan": "0622356295284"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136505",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356296021",
-      "feedEan": "0622356296021"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001714208",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069461217",
-      "feedEan": "0790069461217"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001714209",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069388286",
-      "feedEan": "0790069388286"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001714210",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069365690",
-      "feedEan": "0790069365690"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001952210",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069469305",
-      "feedEan": "0790069469305"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136679",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356298414",
-      "feedEan": "0622356298414"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136528",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356279758",
-      "feedEan": "0622356279758"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001714207",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069461187",
-      "feedEan": "0790069461187"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002102122",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "761318529217",
-      "feedEan": "0761318529217"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136676",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356283694",
-      "feedEan": "0622356283694"
-    },
-    {
-      "supplier": "kb",
-      "code": "999012825223",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069368202",
-      "feedEan": "0790069368202"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136680",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356285179",
-      "feedEan": "0622356285179"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002172298",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356273145",
-      "feedEan": "0622356273145"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002078658",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069472824",
-      "feedEan": "0790069472824"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136677",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356298308",
-      "feedEan": "0622356298308"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002172302",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356320474",
-      "feedEan": "0622356320474"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001929938",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069470240",
-      "feedEan": "0790069470240"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136525",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356318235",
-      "feedEan": "0622356318235"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201678",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "195951039176",
-      "feedEan": "0195951039176"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001169950",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069458576",
-      "feedEan": "0790069458576"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001949816",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069469459",
-      "feedEan": "0790069469459"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002118859",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "195949544026",
-      "feedEan": "0195949544026"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001169951",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069458583",
-      "feedEan": "0790069458583"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136527",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356274937",
-      "feedEan": "0622356274937"
-    },
-    {
-      "supplier": "kb",
       "code": "100002203916",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "999012815223",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069368189",
-      "feedEan": "0790069368189"
-    },
-    {
-      "supplier": "kb",
-      "code": "210670105223",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069365676",
-      "feedEan": "0790069365676"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002164092",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "195950543742",
-      "feedEan": "0195950543742"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002135097",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069476020",
-      "feedEan": "0790069476020"
-    },
-    {
-      "supplier": "kb",
-      "code": "210670115223",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069388262",
-      "feedEan": "0790069388262"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000375610",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000431999",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000570639",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001188937",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001188938",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001259454",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001456314",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001509093",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001743631",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001926729",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001932194",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001932195",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001947580",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002065154",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002080839",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002080840",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002080841",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002103586",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002118454",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002131488",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002134398",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136233",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136235",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136674",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356297615",
-      "feedEan": "0622356297615"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136675",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356310352",
-      "feedEan": "0622356310352"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002200140",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201845",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201848",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002201932",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "210520017798",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "648000188119",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "999012845223",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069368240",
-      "feedEan": "0790069368240"
-    },
-    {
-      "supplier": "kb",
-      "code": "999050637798",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1752,6 +1371,41 @@
     {
       "supplier": "penta",
       "code": "553768",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "penta",
+      "code": "52410008",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "penta",
+      "code": "52891377",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "penta",
+      "code": "553765",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "penta",
+      "code": "554503",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "penta",
+      "code": "6025405",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "penta",
+      "code": "6025405",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526000",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1828,176 +1482,7 @@
       "feedEan": "0795847057279"
     }
   ],
-  "categoryDrifts": [
-    {
-      "supplier": "penta",
-      "code": "65526100",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526102",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526103",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526104",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526107",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526108",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526109",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "6552611",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526110",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526111",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526112",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    },
-    {
-      "supplier": "penta",
-      "code": "65526105",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
-      ],
-      "approvedCurrent": [
-        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
-      ],
-      "approvedProposed": [
-        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
-      ]
-    }
-  ],
+  "categoryDrifts": [],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -2127,7 +1612,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače",
-      "visibleUnique": 56,
+      "visibleUnique": 55,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
