@@ -14,6 +14,8 @@
 // on >= 3 distinct days within a ~7-week window, 0 orders across the whole window - see
 // reports/prehlad-importov.md section 4.6 for the full analysis and reasoning.
 //
+// Exclusions expire after 8 weeks (see EXPIRY_DAYS).
+//
 // EAN not in this file = no exclusion, exactly like the other two mechanisms - this module never
 // invents an exclusion.
 
@@ -35,9 +37,25 @@ function loadExclusions() {
   return cache;
 }
 
-function isCpcNonConverter(ean) {
-  if (!ean) return false;
-  return !!loadExclusions()[ean];
+// An exclusion is a snapshot of past performance, so it expires: after EXPIRY_DAYS (8 weeks) from
+// `generatedAt` the product gets clicks again and can be re-evaluated from a fresh CPC report.
+// An entry may override this with its own `expiresAt` (ISO date). Entries without a parsable
+// date never expire (conservative: keep the exclusion).
+const EXPIRY_DAYS = 56;
+
+function isExpired(entry, now) {
+  if (!entry) return false;
+  const explicit = entry.expiresAt && Date.parse(entry.expiresAt);
+  if (explicit) return now >= explicit;
+  const generated = entry.generatedAt && Date.parse(entry.generatedAt);
+  if (!generated) return false;
+  return now - generated >= EXPIRY_DAYS * 86400000;
 }
 
-module.exports = { isCpcNonConverter, loadExclusions, EXCLUSIONS_PATH };
+function isCpcNonConverter(ean, now = Date.now()) {
+  if (!ean) return false;
+  const entry = loadExclusions()[ean];
+  return !!entry && !isExpired(entry, now);
+}
+
+module.exports = { isCpcNonConverter, isExpired, loadExclusions, EXCLUSIONS_PATH, EXPIRY_DAYS };

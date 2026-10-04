@@ -17,7 +17,7 @@ const saleState = fs.existsSync(SALE_STATE_PATH)
 const { streamRecords } = require('./stream-records');
 const { parseMonacorProduct } = require('./parse-monacor');
 const { roundPrice } = require('./round-price');
-const { heurekaCategoryIdFor, isHeurekaHidden } = require('./heureka-category');
+const { heurekaCategoryIdFor, isHeurekaHidden, marginEurFor } = require('./heureka-category');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 
