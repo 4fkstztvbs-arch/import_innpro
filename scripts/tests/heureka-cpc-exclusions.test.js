@@ -30,4 +30,5 @@ test('EAN with a dropped leading zero still matches the zero-padded exclusion ke
   if (!padded) return;
   assert.equal(isCpcNonConverter(padded), true);
   assert.equal(isCpcNonConverter(padded.slice(1)), true);
+  assert.equal(isCpcNonConverter(padded.replace(/^0+/, '')), true);
 });
