@@ -54,7 +54,11 @@ function isExpired(entry, now) {
 
 function isCpcNonConverter(ean, now = Date.now()) {
   if (!ean) return false;
-  const entry = loadExclusions()[ean];
+  const all = loadExclusions();
+  // Supplier feeds sometimes drop the leading zero of an EAN-13 (finalize-feed pads it back later,
+  // see normalize-truncated-ean.js), while the exclusion list is keyed by the padded EAN.
+  const key = String(ean).trim();
+  const entry = all[key] || (key.length === 12 ? all['0' + key] : undefined);
   return !!entry && !isExpired(entry, now);
 }
 
