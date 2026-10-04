@@ -217,6 +217,14 @@ metodikou (≥3 dni s klikom, 0 objednávok) a prepísať `cpc-hidden-products.j
 samostatný `scripts/process-heureka-cpc-report.js` (spracované ad-hoc) — ak sa bude opakovať
 pravidelne, oplatí sa ho podľa vzoru `process-heureka-unmatched.js` doplniť.
 
+**Aktualizácia 2026-10-04 (report 5.9.–4.10.2026, 29 dní):** 1 854 produktov, 1 437 € nákladov, 85 % nákladov na
+produkty bez objednávky. Kritérium rovnaké (klik ≥3 rôzne dni, 0 objednávok): 304 produktov, 658,9 €. Spárovaných
+cez EAN a ešte nevylúčených je 265 (568,8 €), do `cpc-hidden-products.json` pribudli (307 -> 572 EAN). 39 produktov
+nemá EAN alebo už nie je v aktuálnom feede (napr. PS5 1 TB), tie sa cez XML vylúčiť nedajú. Kontrola mechanizmu: už
+skryté produkty (HEUREKA_HIDDEN) mali v tomto období len 3 platené kliky za 0,8 €, takže vylúčenie funguje. Zoznam so
+všetkými stĺpcami je v projekte (`audit/heureka-cpc-nekonvertory-2026-10-04.csv`). Pilot z 4.7 (96 InnPro EAN) nezískal
+v tomto období žiadny klik; termín kontroly (2026-09-20) je prekročený.
+
 ### 4.7 Pilotný test — uvoľnenie cenového prahu <10 € pre vybrané InnPro kategórie (od 2026-08-23)
 
 Rozbor 4.6 ukázal, že pri InnPro kategóriové pravidlo (Auto-moto, Náradie...) skoro nič nerobí
