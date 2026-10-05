@@ -1,0 +1,30 @@
+name: InnPro zero price diagnostic
+
+# Jednorazová diagnostika nulových cien InnPro (len čítanie zdrojových feedov, výstup do data/innpro-diagnostic/).
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  diagnose:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install --omit=dev
+      - name: Diagnose
+        env:
+          INNPRO_FULL_URL: ${{ secrets.INNPRO_FULL_URL }}
+          INNPRO_LIGHT_URL: ${{ secrets.INNPRO_LIGHT_URL }}
+        run: node scripts/diagnose-innpro-zero-price.js
+      - uses: ./.github/actions/commit-output
+        with:
+          bot-name: innpro-diagnostic-bot
+          label: "InnPro diagnostika nulových cien"
