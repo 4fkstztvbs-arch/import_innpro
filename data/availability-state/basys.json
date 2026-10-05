@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 936,
+  "activeItemCount": 940,
   "activeProducts": [
     {
       "key": "code:BASYS-AD-PLF100",
@@ -245,6 +245,11 @@
     {
       "key": "code:BASYS-B 897806-0010",
       "code": "BASYS-B 897806-0010",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 897806-0030",
+      "code": "BASYS-B 897806-0030",
       "ean": ""
     },
     {
@@ -653,6 +658,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-SE-LTC5R-T",
+      "code": "BASYS-SE-LTC5R-T",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-SPH-10BT",
       "code": "BASYS-SPH-10BT",
       "ean": ""
@@ -845,6 +855,11 @@
     {
       "key": "code:BASYS-TA 000-E4700",
       "code": "BASYS-TA 000-E4700",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TC 000-C3200",
+      "code": "BASYS-TC 000-C3200",
       "ean": ""
     },
     {
@@ -1155,6 +1170,11 @@
     {
       "key": "code:BASYS-TS-X40SXT",
       "code": "BASYS-TS-X40SXT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-ULM302MIC",
+      "code": "BASYS-ULM302MIC",
       "ean": ""
     },
     {
