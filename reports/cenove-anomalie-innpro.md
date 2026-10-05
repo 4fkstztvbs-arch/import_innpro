@@ -649,14 +649,11 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094445 | 6972792471440 | Wireless Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094855 | 6975116295722 | Filtry do fontán Rojeco SSPWF-310B | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093436 | 6971131385448 | Router GL.iNet Slate 7 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093440 | 6971131385646 | Vzdialený KVM GL.iNet Comet X | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093441 | 6971131385622 | Diaľkový KVM GL.iNet Comet Q | nulová/neplatná cena |  | 0.00 € |  |  |
-| 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 27.75 € | 1.30 € | 1/21.3x | 24 |
-| 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 27.75 € | 1.00 € | 1/27.8x | 24 |
-| 078908 | 5907085524887 | Batéria Flytec V030 s kapacitou 20 000 mAh | zmena ceny > 5x oproti minulému importu | 250.50 € | 44.50 € | 1/5.6x |  |
-| 078901 | 5907085524870 | Batéria Flytec V900 12000mah | zmena ceny > 5x oproti minulému importu | 250.50 € | 16.00 € | 1/15.7x |  |
+| 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 24 |
+| 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 24 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
 | 089168 | 0810143168938 | FunWater 7-palcová plutva | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 6.40 € | 1/18.3x | 15 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 7.70 € | 1/15.2x | 15 |
