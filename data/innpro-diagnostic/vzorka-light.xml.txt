@@ -1,0 +1,9 @@
+<product id="50409">
+		<price net="0.00"></price>
+		<srp net="44.58"></srp>
+		<sizes>
+			<size id="0" name="univerzálne" panel_name="uniw" code_producer="AHD11C-pink" iaiext:code_external="6977328061973" code="50409-0" weight="730" iaiext:weight_net="0">
+			<stock id="10" quantity="60"></stock>
+			</size>
+		</sizes>
+	</product>
