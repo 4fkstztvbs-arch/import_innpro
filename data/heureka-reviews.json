@@ -1,14 +1,83 @@
 {
-  "fetchedAt": "2026-09-28T11:26:30.392Z",
+  "fetchedAt": "2026-10-05T12:02:39.232Z",
   "domain": "heureka.sk",
-  "productCount": 8,
-  "matchedProductCount": 6,
+  "productCount": 11,
+  "matchedProductCount": 10,
   "unmatchedEanCount": 0,
-  "noEanCount": 2,
+  "noEanCount": 1,
   "products": [
     {
+      "ean": "8698902064569",
+      "heurekaProductName": "Televízor Finlux 40FFI5661 SMART TV FULL HD TIVO",
+      "heurekaUrl": "https://www.premiumstore.sk/finlux-40ffi5661-smart-tv-full-hd-tivo/",
+      "ourName": "FINLUX 40FFI5661 SMART TV FULL HD TIVO",
+      "ourCode": "ATO-TVF40FFI5661",
+      "ourSource": "atos.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6986237",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "… zatiaľ funguje ,…",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1790868016
+        }
+      ]
+    },
+    {
+      "ean": "5907085524092",
+      "heurekaProductName": "Flytec V050 zavážecí návnadová loďka 12000 mAh (moro)",
+      "heurekaUrl": "https://www.premiumstore.sk/zavazacia-lodka-flytec-v050-moro--12-000-mah/",
+      "ourName": "Zavážacia loďka Flytec V050 Moro, 12 000 mAh",
+      "ourCode": "078885",
+      "ourSource": "innpro.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6973599",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "Skvelý výkon za dobrú cenu",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1790592843
+        }
+      ]
+    },
+    {
+      "ean": "8595235802519",
+      "heurekaProductName": "Filtre do kanvíc Maxxo UNI (12 ks)",
+      "heurekaUrl": "https://www.premiumstore.sk/maxxo-uni-filtry-12ks/",
+      "ourName": "Maxxo UNI filtry 12ks",
+      "ourCode": "100001755868",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6954846",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "It fits into BWT",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1790072739
+        }
+      ]
+    },
+    {
       "ean": "5060134337798",
-      "heurekaProductName": "CrockPot SCV400RD",
+      "heurekaProductName": "Pomalý hrniec CrockPot SCV400RD, 3,5 l, keramická nádoba",
       "heurekaUrl": "https://www.premiumstore.sk/crockpot-scv400rd/",
       "ourName": "CrockPot SCV400RD",
       "ourCode": "100001771971",
@@ -54,7 +123,7 @@
     },
     {
       "ean": "8698902064705",
-      "heurekaProductName": "FINLUX 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
+      "heurekaProductName": "Televízor Finlux 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
       "heurekaUrl": "https://www.premiumstore.sk/finlux-65fqk9070-ultra-hd-4k-qled-smart-android-tv/",
       "ourName": "FINLUX 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
       "ourCode": "65FQK9070",
@@ -76,31 +145,8 @@
       ]
     },
     {
-      "ean": null,
-      "heurekaProductName": "Diaľkový ovládač ALIEN AB CryptoBox 750 HD - náhrada",
-      "heurekaUrl": "https://www.premiumstore.sk/dialkovy-ovladac-alien-ab-cryptobox-750-hd-nahrada/",
-      "ourName": null,
-      "ourCode": null,
-      "ourSource": null,
-      "reviewCount": 1,
-      "avgRating": 3,
-      "reviews": [
-        {
-          "ratingId": "6900161",
-          "orderId": "",
-          "author": "",
-          "rating": 3,
-          "pros": "",
-          "cons": "",
-          "summary": "",
-          "reaction": "",
-          "unixTimestamp": 1788550083
-        }
-      ]
-    },
-    {
       "ean": "6925281996719",
-      "heurekaProductName": "JBL BAR 800",
+      "heurekaProductName": "Soundbar JBL BAR 800 (katalógový kód KB_100002203850)",
       "heurekaUrl": "https://www.premiumstore.sk/jbl-bar-800/",
       "ourName": "JBL BAR 800",
       "ourCode": "100002203850",
@@ -123,7 +169,7 @@
     },
     {
       "ean": "5901890037334",
-      "heurekaProductName": "Kruger & Matz Ozvučovací systém KRUGER MATZ KM1715, 2x bezdrátový mikrofon, 60W",
+      "heurekaProductName": "Kruger & Matz Ozvučovací systém Kruger&Matz KM1715, 60 W, 2 bezdrôtové mikrofóny",
       "heurekaUrl": "https://www.premiumstore.sk/ozvucovaci-system-kruger-matz-km1715--2x-bezdratovy-mikrofon--60w/",
       "ourName": "Ozvučovací systém KRUGER MATZ KM1715, 2x bezdrátový mikrofon, 60W",
       "ourCode": "TIP-05461064",
@@ -146,7 +192,7 @@
     },
     {
       "ean": null,
-      "heurekaProductName": "Diaľkový ovládač ALIEN Thomson THS 812",
+      "heurekaProductName": "Náhradný diaľkový ovládač Alien Thomson THS 812",
       "heurekaUrl": "https://www.premiumstore.sk/dialkovy-ovladac-alien-thomson-ths-812/",
       "ourName": null,
       "ourCode": null,
@@ -168,8 +214,31 @@
       ]
     },
     {
+      "ean": "8590393259199",
+      "heurekaProductName": "Akumulátorový vysávač ETA Verto II 1423 90000 (biely/zlatý)",
+      "heurekaUrl": "https://www.premiumstore.sk/eta-verto-ii-1423-90000-bily-zlaty/",
+      "ourName": "ETA Verto II 1423 90000 bílý/zlatý",
+      "ourCode": "100000139422",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6686751",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "Dobry pomer cena -vykon, pri pravidelnom pouzivani vydrzi bateria cca 3 roky. Aj tak je vsak v porovnani s podobnymi vysavacmi v tejto cene najlepsi. Kupene uz druhykrat",
+          "reaction": "",
+          "unixTimestamp": 1781937076
+        }
+      ]
+    },
+    {
       "ean": "8592718042530",
-      "heurekaProductName": "Sada 2 vianočných LED svetielok Solight 1V287, 15/20 cm, 30 LED, AA batérie",
+      "heurekaProductName": "Svietidlo Solight Sada 2 vianočných LED svetielok 1V287, 15/20 cm, 30 LED, AA batérie",
       "heurekaUrl": "https://www.premiumstore.sk/sada-2-vianocnych-led-svetielok-solight-1v287--15-20-cm--30-led--aa-baterie/",
       "ourName": "Sada 2 vianočných LED svetielok Solight 1V287, 15/20 cm, 30 LED, AA batérie",
       "ourCode": "1V287",
