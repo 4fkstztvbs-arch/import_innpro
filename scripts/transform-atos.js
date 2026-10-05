@@ -116,6 +116,9 @@ function proxyImgAspUrl(rawUrl) {
 }
 // Solight is also a direct supplier with better purchase prices — don't re-sell their own
 // products relabelled under ATOS.
+// Kódy, ktoré ATOS rozhranie hlási ako skladom, hoci dodávateľ predaj ukončil (ručne nahlásené).
+// Vypadnú z feedu, takže ich apply-missing-availability pošle do Shoptetu ako Vypredané/skryté.
+const MANUALLY_UNAVAILABLE = new Set(JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'atos-manually-unavailable.json'), 'utf8')).codes.map((c) => c.toUpperCase()));
 const EXCLUDED_MANUFACTURERS = new Set((mapping.excludedManufacturers || []).map((m) => m.toLowerCase()));
 
 // Pri UNI-T a MHPower je prekryv s iným dodávateľom len čiastočný – vypnúť celú značku ako pri
@@ -311,6 +314,7 @@ async function main() {
     if (!p || !p.name) { stats.skippedNoPrice++; return; }
     p.ean = eanForProduct(p.code, p.name, p.ean);
     p.manufacturer = manufacturerForProduct(p.code, p.name, p.manufacturer);
+    if (MANUALLY_UNAVAILABLE.has(String(p.code).toUpperCase())) { stats.skippedManualUnavailable = (stats.skippedManualUnavailable || 0) + 1; return; }
     if (p.manufacturer && EXCLUDED_MANUFACTURERS.has(p.manufacturer.toLowerCase())) { stats.skippedManufacturer++; return; }
     if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
 

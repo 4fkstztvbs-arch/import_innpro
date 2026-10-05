@@ -1,0 +1,6 @@
+{
+  "_note": "Produkty ATOS, ktoré dodávateľ ukončil, ale rozhranie ich hlási skladom. Pridať kód, nočný beh ich pošle ako Vypredané.",
+  "codes": [
+    "ABT-A500009126"
+  ]
+}
