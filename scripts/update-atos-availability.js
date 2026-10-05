@@ -145,6 +145,10 @@ async function main() {
   const output = xml.replace(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM\s*>/gi, (fullItem) => {
     const code = xmlField(fullItem, 'CODE');
     if (!code) throw new Error('ATOS output contains a product without CODE.');
+    // Minimal "Vypredané" rows from apply-missing-availability are products ATOS dropped from the
+    // nightly feed (ended sale, zero price). ATOS keeps reporting a free-stock flag for them, so
+    // the stock export must never turn them back into available/visible products.
+    if (!xmlField(fullItem, 'NAME')) return fullItem;
     const key = identity(code);
     const record = stock.stockByCode.get(normalized(code));
     if (record) matched++;
