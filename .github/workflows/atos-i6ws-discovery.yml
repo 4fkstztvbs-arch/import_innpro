@@ -1,0 +1,33 @@
+name: ATOS i6ws discovery (hmotnosť)
+
+# Jednorazový prieskum, ktoré výstupy ATOS i6ws ponúka a či niektorý obsahuje hmotnosť produktov.
+# Nič nezapisuje do output/. ATOS GetResult beží len v nočnom okne 21:00-07:00, preto je plán nočný.
+on:
+  schedule:
+    - cron: '30 21 * * *'
+      timezone: 'Europe/Bratislava'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Probe ATOS i6ws
+        env:
+          ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
+          ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
+        run: node scripts/atos-i6ws-discover.js
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: atos-i6ws-samples
+          path: discovery-samples/
+          if-no-files-found: ignore
