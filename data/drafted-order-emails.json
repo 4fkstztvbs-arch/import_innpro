@@ -1251,5 +1251,19 @@
     "subject": "Re: Vaša objednávka č. 202601136 sa práve vybavuje",
     "orderCode": "202601136",
     "matchedBy": "code"
+  },
+  "<BB8451C1-D1D2-4B11-8DF7-767A01264827@atlas.sk>": {
+    "draftedAt": "2026-10-05T22:03:28.214Z",
+    "from": "ivanvano@atlas.sk",
+    "subject": "Stav objednavky c.202601141",
+    "orderCode": "202601141",
+    "matchedBy": "code"
+  },
+  "<20261005194744.6D4BD7F6@centrum.sk>": {
+    "draftedAt": "2026-10-05T22:03:37.408Z",
+    "from": "ambrus.alexander@centrum.sk",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202600602",
+    "orderCode": "202600602",
+    "matchedBy": "code"
   }
 }
