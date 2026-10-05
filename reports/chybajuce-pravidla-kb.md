@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — kb
 
-Kontrola z 2026-10-04 21:16 UTC.
+Kontrola z 2026-10-05 16:15 UTC.
 
 **2 ciest bez pravidla, 3 produktov bez kategórie.**
 
@@ -9,5 +9,5 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Dům a Byt > Kuchyňské potřeby > Odpeckovače` | 2 | Leifheit Odpeckovávač třešní s nádobkou; Leifheit Odpeckovávač švestek s nádobkou |
+| `Dům a Byt > Kuchyňské potřeby > Odpeckovače` | 2 | Leifheit Odpeckovávač švestek s nádobkou; Leifheit Odpeckovávač třešní s nádobkou |
 | `Dům a Byt > Kuchyňské potřeby > Louskáčky` | 1 | Drosselmeyer NCGP03 |
