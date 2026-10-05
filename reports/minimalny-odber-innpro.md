@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-04 21:44 UTC.
+Kontrola z 2026-10-05 10:57 UTC.
 
-InnPro pri **402** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **387** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -67,7 +67,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `041716` | Držiak telefónu Puluz | — | 5 |
 | `043028` | Stojan Sonoff NSPanel (biely) | — | 5 |
 | `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 5 |
-| `038164` | Solárna lampa Superfire FF6-B, 33W, 220lm, 1200mAh | — | 5 |
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
 | `044846` | Joyroom JR-14H5 priehľadné magnetické puzdro pre iPhone 14 | — | 3 |
@@ -83,10 +82,9 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `047993` | Univerzálny diaľkový ovládač IR WiFi Avatto S16 TUYA | — | 5 |
 | `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
 | `048658` | Priehľadný obal a sada tvrdeného skla Baseus Corning pre iPh | — | 5 |
-| `044419` | Fólia na objektív fotoaparátu Baseus pre iPhone 13 Pro/13 Pr | — | 3 |
+| `044419` | Fólia na objektív fotoaparátu Baseus pre iPhone 13 Pro/13 Pr | — | 2 |
 | `049242` | Baseus Tempered-Glass Screen Protector pre HUAWEI P40 | — | 5 |
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
-| `049249` | Ochranné sklo s tvrdeným sklom Baseus pre realme GT2 Master  | — | 5 |
 | `044436` | Tvrdené sklo Baseus Crystal 0,3 mm pre HUAWEI MatePad Pro 12 | — | 5 |
 | `046655` | Baterka Superfire L28 – 121 lm, 5W, 52 m, 5 režimov | — | 5 |
 | `046656` | Baterka Superfire X18 – 55 lm, 5W, 5 režimov, 38 m | — | 5 |
@@ -100,13 +98,11 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 2 |
 | `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
 | `053576` | Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1, | — | 5 |
-| `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
 | `053750` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (či | — | 5 |
 | `053763` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (mo | — | 5 |
 | `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 5 |
 | `054882` | Puzdro na telefón pre iPhone 15 ProMax Baseus OS-Lucent Seri | — | 5 |
 | `054871` | Puzdro na telefón pre iPhone 15 Plus Baseus Fauxther Series  | — | 5 |
-| `055428` | Silikonowe etui zabezpieczające Puluz Insta360 GO 3 z osłoną | — | 5 |
 | `055429` | Namiot bezcieniowy Puluz 20cm LED PU5029 | — | 5 |
 | `054763` | Vodotesné puzdro Baseus AquaGlide s cylindrickým zámkom (čie | — | 5 |
 | `054764` | Vodotesné puzdro Baseus AquaGlide s cylindrickým zámkom (bie | — | 5 |
@@ -115,7 +111,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action 4 | — | 5 |
 | `057079` | Kryt objektívu/gimbalu Sunnylife pre DJI Mavic 3 Pro (M3P-G5 | — | 5 |
 | `055655` | Vodotesné puzdro Sonoff R2 BOX | — | 5 |
-| `058840` | Ochranné sklo PULUZ pre objektív a obrazovku DJI OSMO Pocket | — | 5 |
 | `059067` | Herná myš ONIKUMA CW905 čierna | — | 5 |
 | `056359` | Štítky do termotlačiarne Niimbot pre B21, 50 mm x 30 mm, 230 | — | 5 |
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
@@ -171,8 +166,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068808` | Mini Body Bag PULUZ For Insta360 GO 3 / GO 3S (Black) | — | 2 |
 | `068859` | Lens Cap Sunnylife for Insta360 GO3S | — | 5 |
 | `069434` | TELESIN tempered glass for DJI Osmo Pocket 3 | — | 5 |
-| `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
-| `067687` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-FW (whi | — | 5 |
 | `067677` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-F (grap | — | 5 |
 | `067686` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-FW (whi | — | 5 |
 | `067669` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-F (grap | — | 5 |
@@ -230,7 +223,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `078088` | Bočné mopovacie podložky pre vysávač MOVA Z50 Ultra [2 kusy] | — | 5 |
 | `078265` | PULUZ silikónové ochranné puzdro s krytom objektívu pre Inst | — | 5 |
 | `078359` | PetKit PURA MAX 2 vrecká na odpadky | — | 5 |
-| `078581` | Ochranné puzdro Sunnylife pre DJI Osmo Pocket 3 | — | 5 |
 | `079255` | 1-kanálový spínací modul WiFi s beznapäťovým kontaktom Avatt | — | 5 |
 | `079457` | Diaľkové ovládanie TELESIN | — | 5 |
 | `080027` | PULUZ PU4141B Video lampa čierna | — | 5 |
@@ -314,21 +306,14 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088932` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (čierna) | — | 5 |
 | `088934` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (červená) | — | 5 |
 | `088935` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (zlatá) | — | 5 |
-| `088936` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (ružové zla | — | 5 |
 | `088937` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (žltá) | — | 5 |
 | `088938` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (ružová) | — | 5 |
 | `088939` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (strieborná | — | 5 |
 | `088940` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (modrá) | — | 5 |
 | `088941` | HTVRONT – fólia na termotransfer s trblietkami, 30,5 cm x 90 | — | 5 |
-| `088942` | HTVRONT – troskavá fólia na termotransfer, 30,5 cm x 90 cm ( | — | 5 |
 | `088943` | HTVRONT – troskavá fólia na prenos tepla, 30,5 cm x 90 cm (č | — | 5 |
-| `088944` | HTVRONT – troskavá fólia na prenos tepla, 30,5 cm x 90 cm (b | — | 5 |
-| `088945` | HTVRONT – fólia na termotransfer s trblietkami, 30,5 cm × 90 | — | 5 |
-| `088946` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm x 90 cm | — | 5 |
 | `088947` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
 | `088948` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
-| `088949` | HTVRONT Chameleon – fólia na termotransfer, 30,5 cm x 90 cm  | — | 5 |
-| `088950` | Fólia na prenos tepla HTVRONT Chameleon, 30,5 cm x 90 cm (bi | — | 5 |
 | `088951` | HTVRONT Chameleon – fólia na termotransfer, 30,5 cm x 90 cm  | — | 5 |
 | `088952` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |
 | `088953` | Holografická samolepiaca fólia HTVRONT, 30,5 cm × 90 cm (tyr | — | 5 |
