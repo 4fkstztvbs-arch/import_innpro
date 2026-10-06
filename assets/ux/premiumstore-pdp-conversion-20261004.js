@@ -26,6 +26,7 @@
 
   // Najnižšia cena dopravy (potvrdil Martin 4. 10. 2026). Doprava zadarmo od sumy zatiaľ nie je.
   var SHIP_FROM = '4,90 €';
+  var SHIP_FROM_TV = '9,90 €';
   var DELIVERY_FROM = 'od 2 dní';
 
   var CSS = [
@@ -169,16 +170,19 @@
     var block = form.querySelector('.p-to-cart-block');
     if (!block) return;
     var nativeLink = form.querySelector('a.shipping-options');
+    // Televízory idú atypickou dopravou (SPS/Geis) - od 9,90 €.
+    var crumbs = document.querySelector('.breadcrumbs, #navigation, [itemtype*="BreadcrumbList"]');
+    var shipFrom = crumbs && /Telev[ií]zor/i.test(crumbs.textContent) ? SHIP_FROM_TV : SHIP_FROM;
     var table = form.querySelector('table.shipping-options-layout');
 
     var ship = document.createElement('a');
     ship.className = 'ps-ship';
     ship.setAttribute('href', nativeLink ? nativeLink.getAttribute('href') : '#');
     ship.setAttribute('aria-haspopup', 'dialog');
-    ship.setAttribute('aria-label', 'Doprava od ' + SHIP_FROM + ', doručenie ' + DELIVERY_FROM + '. Zobraziť možnosti doručenia');
+    ship.setAttribute('aria-label', 'Doprava od ' + shipFrom + ', doručenie ' + DELIVERY_FROM + '. Zobraziť možnosti doručenia');
     ship.innerHTML =
       '<svg class="ps-ship__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>' +
-      '<span class="ps-ship__text"><strong>Doprava od ' + SHIP_FROM + '</strong>, doručenie ' + DELIVERY_FROM + '</span>' +
+      '<span class="ps-ship__text"><strong>Doprava od ' + shipFrom + '</strong>, doručenie ' + DELIVERY_FROM + '</span>' +
       '<span class="ps-ship__more"><span>Možnosti</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span>';
 
     // Klik otvorí natívne okno Shoptetu; ak by odkaz chýbal, ostáva obyčajný odkaz.
