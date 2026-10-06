@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-06 08:53 UTC.
+Kontrola z 2026-10-06 08:55 UTC.
 
 Produktov v full.xml: **7229**, z toho 5755 má záznam aj v light.xml.
 Dostupnosť: Skladom 5726, ostatné 1503 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -53,11 +53,11 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `025922` | Panoramatický fotografický stojan Puluz 360 15cm PU3048 | Skladom | 508 | 03.11.2026 |
 | `026083` | Digitálny anemometer Habotest HT625A | Dostupné od 08.10.2026 | null | 08.10.2026 |
 | `026082` | Digitálny anemometer Habotest HT625B, USB | Skladom | 70 | 08.10.2026 |
-| `026080` | Mini detektor úniku plynu Habotest HT61 | Skladom | 194 | 08.10.2026 |
+| `026080` | Mini detektor úniku plynu Habotest HT61 | Skladom | 196 | 08.10.2026 |
 | `026079` | Digitálny laserový pyrometer Habotest HT651D, merač vlh | Skladom | 231 | 08.10.2026 |
 | `026078` | Bezkontaktný laserový teplomer Habotest HT650B | Skladom | 59 | 08.10.2026 |
 | `026077` | Detektor úniku plynu s alarmom Habotest HT601B | Skladom | 250 | 08.10.2026 |
-| `026076` | Detektor plynu Habotest HT601A s alarmom | Skladom | 1730 | 08.10.2026 |
+| `026076` | Detektor plynu Habotest HT601A s alarmom | Skladom | 1732 | 08.10.2026 |
 | `026075` | Digitálny kliešťový meter Habotest HT200B | Skladom | 111 | 08.10.2026 |
 | `026074` | Digitálny univerzálny multimeter True RMS Habotest HT11 | Skladom | 17 | 08.10.2026 |
 | `026072` | Digitálny kliešťový merač Habotest HT206D True RMS , NC | Skladom | 75 | 08.10.2026 |
@@ -141,7 +141,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `031745` | Inteligentný nástenný vypínač Sonoff NSPanel | Skladom | 141 | 23.10.2026 |
 | `029281` | Baterka Superfire GT60 – 2600 lm, 2 režimy, USB-C | Skladom | 22 | 13.12.2026 |
 | `030897` | Plávajúci ručný grip Puluz pre akčné a športové kamery  | Skladom | 180 | 03.11.2026 |
-| `032805` | Inteligentný odstraňovač zápachu Petoneer Pro | Skladom | 133 | 16.10.2026 |
+| `032805` | Inteligentný odstraňovač zápachu Petoneer Pro | Skladom | 134 | 16.10.2026 |
 | `031533` | Herné slúchadlá Edifier HECATE G2 II (biele) | Dostupné od 13.12.2026 | null | 13.12.2026 |
 | `031532` | Reproduktor Edifier D12 (hnedý) | Skladom | 233 | 13.12.2026 |
 | `031873` | Diaľkové ovládanie Telesin pre GoPro Hero 13 / 12 / 11  | Skladom | 263 | 13.12.2026 |
