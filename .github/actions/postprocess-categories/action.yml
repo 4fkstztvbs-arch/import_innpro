@@ -59,6 +59,11 @@ runs:
       shell: bash
       run: node scripts/apply-christmas-products.js --write
 
+    # Televízory majú len vybrané dopravy (príznak Atypická doprava). Beží, keď je kategória konečná.
+    - name: Atypická doprava pre televízory
+      shell: bash
+      run: node scripts/apply-atypical-shipping-tv.js
+
     - name: Finalizovať hlavnú kategóriu Solight
       if: inputs.finalize-solight-category == 'true'
       shell: bash
