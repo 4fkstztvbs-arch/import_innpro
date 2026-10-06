@@ -71,6 +71,11 @@ jobs:
           FALLBACK_PARAMS_XML: output/kb.xml
         run: node scripts/add-fallback-params.js
 
+      - name: Normalize parameter names and values to Slovak
+        env:
+          PARAMS_XML: output/kb.xml
+        run: node scripts/normalize-feed-params.js
+
       - name: Pull latest before cross-supplier dedupe
         run: |
           git stash -u

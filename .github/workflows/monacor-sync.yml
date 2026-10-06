@@ -50,6 +50,11 @@ jobs:
           MONACOR_OUT: output/monacor.xml
         run: node scripts/transform-monacor.js
 
+      - name: Normalize parameter names and values to Slovak
+        env:
+          PARAMS_XML: output/monacor.xml
+        run: node scripts/normalize-feed-params.js
+
       - name: Pull latest before cross-supplier dedupe
         run: |
           git stash -u
