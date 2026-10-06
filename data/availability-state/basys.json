@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 940,
+  "activeItemCount": 938,
   "activeProducts": [
     {
       "key": "code:BASYS-AD-PLF100",
@@ -158,6 +158,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B 843090-0110",
+      "code": "BASYS-B 843090-0110",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-B 843090-0210",
       "code": "BASYS-B 843090-0210",
       "ean": ""
@@ -200,6 +205,11 @@
     {
       "key": "code:BASYS-B 876599-0300",
       "code": "BASYS-B 876599-0300",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 887612-0400",
+      "code": "BASYS-B 887612-0400",
       "ean": ""
     },
     {
@@ -248,11 +258,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-B 897806-0030",
-      "code": "BASYS-B 897806-0030",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-B A00204-0100",
       "code": "BASYS-B A00204-0100",
       "ean": ""
@@ -270,11 +275,6 @@
     {
       "key": "code:BASYS-B A02195-0100",
       "code": "BASYS-B A02195-0100",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-BA 85A",
-      "code": "BASYS-BA 85A",
       "ean": ""
     },
     {
@@ -420,6 +420,11 @@
     {
       "key": "code:BASYS-DEH-S720DAB",
       "code": "BASYS-DEH-S720DAB",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-DI 20P",
+      "code": "BASYS-DI 20P",
       "ean": ""
     },
     {
@@ -658,11 +663,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-SE-LTC5R-T",
-      "code": "BASYS-SE-LTC5R-T",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-SPH-10BT",
       "code": "BASYS-SPH-10BT",
       "ean": ""
@@ -855,11 +855,6 @@
     {
       "key": "code:BASYS-TA 000-E4700",
       "code": "BASYS-TA 000-E4700",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-TC 000-C3200",
-      "code": "BASYS-TC 000-C3200",
       "ean": ""
     },
     {
@@ -1170,11 +1165,6 @@
     {
       "key": "code:BASYS-TS-X40SXT",
       "code": "BASYS-TS-X40SXT",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-ULM302MIC",
-      "code": "BASYS-ULM302MIC",
       "ean": ""
     },
     {
@@ -4725,8 +4715,18 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B 897806-0030",
+      "code": "BASYS-B 897806-0030",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-B105D",
       "code": "BASYS-B105D",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-BA 85A",
+      "code": "BASYS-BA 85A",
       "ean": ""
     },
     {
@@ -4737,6 +4737,21 @@
     {
       "key": "code:BASYS-BD 459038",
       "code": "BASYS-BD 459038",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-SE-LTC5R-T",
+      "code": "BASYS-SE-LTC5R-T",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TC 000-C3200",
+      "code": "BASYS-TC 000-C3200",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-ULM302MIC",
+      "code": "BASYS-ULM302MIC",
       "ean": ""
     },
     {
