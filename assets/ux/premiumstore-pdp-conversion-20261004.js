@@ -16,7 +16,7 @@
  *    čitateľnú farbu.
  *
  * Samostatný súbor, nemení premiumstore-cro.js ani buybar. Rollback = odstrániť jeden <script> odkaz.
- * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=7"></script>
+ * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=8"></script>
  * v pätičke za premiumstore-pdp-mobile-buybar.js.
  */
 (function () {
@@ -179,7 +179,7 @@
     if (!block) return;
     var nativeLink = form.querySelector('a.shipping-options');
     // Televízory idú atypickou dopravou (SPS/Geis) - od 9,90 €.
-    var crumbs = document.querySelector('.breadcrumbs, #navigation, [itemtype*="BreadcrumbList"]');
+    var crumbs = document.querySelector('.breadcrumbs, [itemtype*="BreadcrumbList"]');
     var shipFrom = crumbs && /Telev[ií]zor/i.test(crumbs.textContent) ? SHIP_FROM_TV : SHIP_FROM;
     var table = form.querySelector('table.shipping-options-layout');
     // Produkt s príznakom "Doprava zadarmo" v Shoptete má natívny štítok .flag-freeshipping
