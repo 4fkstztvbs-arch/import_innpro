@@ -10,11 +10,13 @@
  *    šípka) a po kliknutí otvorí natívne okno s možnosťami doručenia. Pod tlačidlom ostáva
  *    presunutý natívny blok istôt (Rýchle doručenie, Garancia, Vrátenie).
  *    Okno "Možnosti doručenia" má prepracovaný vzhľad (desktop aj mobil).
+ * 5) Desktop (od 992 px): hlavný obrázok sa zmenší presne natoľko, aby miniatúry končili v rovnakej
+ *    výške ako pravý box s cenou (popis produktu sa tým posunie vyššie). Mobil sa nemení.
  * 4) Rozšírené popisy (.ps-product): nadpisy v úvodnom bloku s nízkym kontrastom dostanú
  *    čitateľnú farbu.
  *
  * Samostatný súbor, nemení premiumstore-cro.js ani buybar. Rollback = odstrániť jeden <script> odkaz.
- * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=2"></script>
+ * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=3"></script>
  * v pätičke za premiumstore-pdp-mobile-buybar.js.
  */
 (function () {
@@ -238,6 +240,53 @@
     }
   }
 
+  /* --- 5) desktop: obrázok končí v rovnakej výške ako pravý box --- */
+  var MIN_IMG_H = 340;
+  function alignGallery() {
+    var wrap = document.querySelector('.p-image-wrapper');
+    var data = document.querySelector('.p-data-wrapper');
+    var holder = wrap && wrap.querySelector('.p-image');
+    var img = holder && holder.querySelector('img');
+    if (!wrap || !data || !img) return;
+    img.style.removeProperty('max-height');
+    holder.style.removeProperty('min-height');
+    if (window.innerWidth < 992) return;
+    var imgH = img.offsetHeight;
+    if (!imgH) return;
+    var extra = wrap.getBoundingClientRect().bottom - data.getBoundingClientRect().bottom;
+    if (extra > 4) {
+      var target = Math.max(MIN_IMG_H, Math.floor(imgH - extra));
+      if (target < imgH) {
+        // Shoptet drží kontajner na pôvodnej minimálnej výške, preto ju uvoľníme.
+        holder.style.setProperty('min-height', '0', 'important');
+        img.style.setProperty('max-height', target + 'px', 'important');
+        img.style.setProperty('width', 'auto', 'important');
+        img.style.setProperty('max-width', '100%', 'important');
+        img.style.setProperty('margin', '0 auto', 'important');
+        img.style.setProperty('display', 'block', 'important');
+      }
+    }
+  }
+  var galleryTimer = null;
+  function scheduleGallery() {
+    clearTimeout(galleryTimer);
+    galleryTimer = setTimeout(alignGallery, 80);
+  }
+  function watchGallery() {
+    alignGallery();
+    window.addEventListener('resize', scheduleGallery);
+    window.addEventListener('load', alignGallery);
+    var img = document.querySelector('.p-image-wrapper .p-image img');
+    if (img && !img.complete) img.addEventListener('load', alignGallery);
+    var data = document.querySelector('.p-data-wrapper');
+    if (data && window.ResizeObserver) new ResizeObserver(scheduleGallery).observe(data);
+    // Zmena hlavného obrázka v galérii (iný pomer strán).
+    var holder = document.querySelector('.p-image-wrapper .p-image');
+    if (holder && window.MutationObserver) {
+      new MutationObserver(scheduleGallery).observe(holder, { childList: true, subtree: true, attributes: true, attributeFilter: ['src'] });
+    }
+  }
+
   function init() {
     addStyle();
     watchCookie();
@@ -246,6 +295,7 @@
     hideEmptyRating();
     addShipping(form);
     fixHeroContrast();
+    watchGallery();
     // Shoptet dokresľuje časti stránky neskôr (lazy bloky, varianty).
     window.addEventListener('load', function () {
       hideEmptyRating();
