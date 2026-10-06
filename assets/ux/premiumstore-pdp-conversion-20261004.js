@@ -16,7 +16,7 @@
  *    čitateľnú farbu.
  *
  * Samostatný súbor, nemení premiumstore-cro.js ani buybar. Rollback = odstrániť jeden <script> odkaz.
- * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=4"></script>
+ * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=5"></script>
  * v pätičke za premiumstore-pdp-mobile-buybar.js.
  */
 (function () {
@@ -72,6 +72,7 @@
     '@media (max-width:767px){a.ps-ship{min-height:52px;padding:10px 12px;}.ps-ship__more span{display:none;}.ps-ship__more svg{width:22px;height:22px;}}',
     '@media (max-width:359px){.ps-ship__text strong{white-space:normal;}}',
     'body.type-detail .shipping-options-layout tr.ps-ship-native{display:none!important;}',
+    'a.ps-ship--free{background:#167450;color:#fff;}a.ps-ship--free:hover{background:#145e41;}a.ps-ship--free .ps-ship__icon{stroke:#fff;}a.ps-ship--free .ps-ship__more{color:#fff;}',
 
     /* --- Okno "Možnosti doručenia" --- */
     '.shipping-options-popup{padding:32px 32px 24px!important;max-width:560px;margin:0 auto;box-sizing:border-box;}',
@@ -174,15 +175,21 @@
     var crumbs = document.querySelector('.breadcrumbs, #navigation, [itemtype*="BreadcrumbList"]');
     var shipFrom = crumbs && /Telev[ií]zor/i.test(crumbs.textContent) ? SHIP_FROM_TV : SHIP_FROM;
     var table = form.querySelector('table.shipping-options-layout');
+    // Produkt s príznakom "Doprava zadarmo" v Shoptete má natívny štítok .flag-freeshipping
+    // (zadarmo je len Packeta na výdajné miesto / do Z-BOXu, ostatné dopravy ostávajú platené).
+    var isFree = !!document.querySelector('.p-image .flag-freeshipping');
 
     var ship = document.createElement('a');
-    ship.className = 'ps-ship';
+    ship.className = 'ps-ship' + (isFree ? ' ps-ship--free' : '');
     ship.setAttribute('href', nativeLink ? nativeLink.getAttribute('href') : '#');
     ship.setAttribute('aria-haspopup', 'dialog');
-    ship.setAttribute('aria-label', 'Doprava od ' + shipFrom + ', doručenie ' + DELIVERY_FROM + '. Zobraziť možnosti doručenia');
+    var shipLabel = isFree ? 'Doprava zadarmo cez Packetu na výdajné miesto, doručenie ' + DELIVERY_FROM : 'Doprava od ' + shipFrom + ', doručenie ' + DELIVERY_FROM;
+    ship.setAttribute('aria-label', shipLabel + '. Zobraziť možnosti doručenia');
     ship.innerHTML =
       '<svg class="ps-ship__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>' +
-      '<span class="ps-ship__text"><strong>Doprava od ' + shipFrom + '</strong>, doručenie ' + DELIVERY_FROM + '</span>' +
+      '<span class="ps-ship__text">' + (isFree
+        ? '<strong>Doprava zadarmo</strong> na výdajné miesto Packety, doručenie ' + DELIVERY_FROM
+        : '<strong>Doprava od ' + shipFrom + '</strong>, doručenie ' + DELIVERY_FROM) + '</span>' +
       '<span class="ps-ship__more"><span>Možnosti</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span>';
 
     // Klik otvorí natívne okno Shoptetu; ak by odkaz chýbal, ostáva obyčajný odkaz.
