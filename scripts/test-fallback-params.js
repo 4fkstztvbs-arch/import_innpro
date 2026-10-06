@@ -26,3 +26,12 @@ test('vloží blok za IMAGES', () => {
   const r = addToItem(it);
   assert.ok(r.added && r.item.indexOf('</IMAGES>') < r.item.indexOf('<TEXT_PROPERTIES>') && r.item.indexOf('<TEXT_PROPERTIES>') < r.item.indexOf('<AVAILABILITY>'));
 });
+
+// Parametre z popisu (tabuľka th/td a riadky "Kľúč: hodnota")
+{
+  const assert = require('assert');
+  const { extractDescriptionParams } = require('./lib/description-params');
+  const p = extractDescriptionParams('<table><tr><th>Hmotnosť</th><td>632 g</td></tr><tr><th>Model</th><td>X1</td></tr></table><ul><li>Materiál: hliník</li><li>Dlhá veta bez dvojbodky</li></ul>');
+  assert.deepStrictEqual(p, [{ name: 'Hmotnosť', value: '632 g' }, { name: 'Materiál', value: 'hliník' }]);
+  console.log('description params ok');
+}

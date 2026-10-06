@@ -22,6 +22,8 @@ const COLORS = [
   ['béžová', wb('béžov\\p{L}*|bezov\\p{L}*|beige|cream|krém\\p{L}*')],
 ];
 
+const { extractDescriptionParams } = require('./description-params');
+
 function decode(s) {
   return String(s || '')
     .replace(/<[^>]*>/g, ' ')
@@ -45,6 +47,7 @@ function buildFallbackParams(item) {
   const add = (n, v) => { if (v && !params.some((p) => p.name === n)) params.push({ name: n, value: v }); };
 
   add('Značka', decode(item.manufacturer));
+  for (const p of extractDescriptionParams(item.description)) add(p.name, p.value);
   add('Farba', detectColor(name));
 
   let m = name.match(/\b(\d{1,2})\s?\/\s?(\d{2,4})\s?(GB|TB)\b/i);
