@@ -16,7 +16,7 @@
  *    čitateľnú farbu.
  *
  * Samostatný súbor, nemení premiumstore-cro.js ani buybar. Rollback = odstrániť jeden <script> odkaz.
- * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=6"></script>
+ * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=7"></script>
  * v pätičke za premiumstore-pdp-mobile-buybar.js.
  */
 (function () {
@@ -100,7 +100,14 @@
 
     /* --- 4) Rozšírený popis: zalamovanie čísiel/faktov --- */
     '.ps-product .ps-facts span{overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto;}',
-    '@media (max-width:767px){.ps-product .ps-facts strong{font-size:clamp(18px,5.4vw,24px);}.ps-product .ps-facts span{font-size:14px;}}'
+    '@media (max-width:767px){.ps-product .ps-facts strong{font-size:clamp(18px,5.4vw,24px);}.ps-product .ps-facts span{font-size:14px;}}',
+    /* --- 6) Štítok "Doprava zadarmo" (výpisy, detail): zaoblený štítok namiesto kruhu 66 px. Bundle nastavuje
+          .flags-extra .flag na 13 px !important, text sa v kruhu lámal a orezával. --- */
+    '.flags-extra .flag.flag-freeshipping{display:inline-flex!important;flex-direction:row!important;align-items:center;justify-content:center;width:auto!important;height:auto!important;min-width:0!important;min-height:0!important;padding:6px 12px!important;margin:0 8px 8px 0!important;border-radius:999px!important;background:#167450!important;color:#fff!important;font-size:12px!important;font-weight:700!important;line-height:1.2!important;white-space:nowrap!important;word-break:normal!important;hyphens:none!important;box-shadow:0 1px 4px rgba(0,0,0,.18);}',
+    '.flags-extra .flag.flag-freeshipping .icon-van{display:none!important;}',
+    '.p-image-wrapper .flags-extra .flag.flag-freeshipping{padding:8px 16px!important;font-size:14px!important;min-width:0!important;min-height:0!important;}',
+    '.columns-mobile-2 .products-block>div .flags.flags-extra .flag.flag-freeshipping{min-width:0!important;flex:0 0 auto!important;margin:0 0 6px 6px!important;}',
+    '.columns-mobile-2 .products-block>div .flags.flags-extra{display:flex!important;justify-content:flex-end;width:100%;}'
   ].join('');
 
   function addStyle() {
