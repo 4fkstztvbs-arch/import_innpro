@@ -440,6 +440,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092392 | 6922572221727 | Filament eSun PLA-Silk Magic 1.75mm 1kg (gold green) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092393 | 6922572221734 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092394 | 6922572221741 | Filament eSun PLA-Silk Magic 1.75mm 1kg (purple-silver) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093057 | 6921268818579 | Vonkajšie reťazové osvetlenie NEEWER RGB, teplá biela | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093053 | 6921268837099 | Súprava osvetlenia Softbox 10102773 700 W, 3 ks | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091857 | 6942580505022 | Vozík FOSSIBOT pre model F2400 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093464 | 6975274260235 | Solar panel Allpowers SP027 100W monocrystalline | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093465 | 6975274260402 | Solar panel ALLPOWERS SF200 200W flexible | nulová/neplatná cena |  | 0.00 € |  |  |
