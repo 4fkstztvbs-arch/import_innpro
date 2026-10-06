@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 28219,
-  "matchedRules": 2284,
-  "changedProducts": 982,
+  "totalProducts": 28321,
+  "matchedRules": 2283,
+  "changedProducts": 41,
   "rejected": [
     {
       "supplier": "atos",
@@ -465,6 +465,13 @@
       "supplier": "innpro",
       "code": "066488",
       "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "069813",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "798038994353",
+      "feedEan": "0798038994353"
     },
     {
       "supplier": "innpro",
@@ -1227,6 +1234,181 @@
       "reason": "Reviewed product name changed"
     },
     {
+      "supplier": "innpro",
+      "code": "018665",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "029058",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "040236",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "041765",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "055617",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "058841",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064761",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065003",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070622",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "071080",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073341",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074232",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075362",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077386",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078336",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078348",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078361",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "082645",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083355",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083736",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083739",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084303",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087495",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087497",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087515",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088838",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089663",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090940",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090987",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090988",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090993",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091001",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "091003",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "092827",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093882",
+      "reason": "Reviewed product name changed"
+    },
+    {
       "supplier": "kb",
       "code": "100002136505",
       "reason": "Reviewed EAN changed",
@@ -1781,7 +1963,64 @@
       "feedEan": "0795847057279"
     }
   ],
-  "categoryDrifts": [],
+  "categoryDrifts": [
+    {
+      "supplier": "monacor",
+      "code": "KM-24110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    },
+    {
+      "supplier": "monacor",
+      "code": "KM-24120",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    },
+    {
+      "supplier": "monacor",
+      "code": "LIVEO-420PWH",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    },
+    {
+      "supplier": "monacor",
+      "code": "LIVEO-640PBK",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
