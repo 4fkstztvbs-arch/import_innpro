@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-06 09:05 UTC.
+Kontrola z 2026-10-06 09:06 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -15,13 +15,14 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
 | `087241` | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
 
-## kb — 3 ks
+## kb — 4 ks
 
 | Kód | Produkt |
 |---|---|
+| `100001880301` | Drosselmeyer NCGP03 |
 | `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
 | `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
-| `100001880301` | Drosselmeyer NCGP03 |
+| `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
 
 ## wiim — 24 ks
 

@@ -1,8 +1,8 @@
 # Chýbajúce pravidlá zaradenia — kb
 
-Kontrola z 2026-10-05 23:59 UTC.
+Kontrola z 2026-10-06 09:06 UTC.
 
-**2 ciest bez pravidla, 3 produktov bez kategórie.**
+**3 ciest bez pravidla, 4 produktov bez kategórie.**
 
 Doplň ich do `data/kategorie/kb.json` — kľúč je cesta z feedu, hodnota uzol
 stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
@@ -11,3 +11,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 |---|---|---|
 | `Dům a Byt > Kuchyňské potřeby > Odpeckovače` | 2 | Leifheit Odpeckovávač třešní s nádobkou; Leifheit Odpeckovávač švestek s nádobkou |
 | `Dům a Byt > Kuchyňské potřeby > Louskáčky` | 1 | Drosselmeyer NCGP03 |
+| `TV, audio, video > Drony` | 1 | Fleg Dron/Ponorka s kamerou Fleg |
