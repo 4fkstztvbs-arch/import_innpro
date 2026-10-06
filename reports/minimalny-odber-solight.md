@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-04 21:24 UTC.
+Kontrola z 2026-10-06 00:03 UTC.
 
-Solight pri **502** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **504** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -84,6 +84,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -316,6 +317,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PP62` | Solight predlžovací prívod, 6 zásuviek, biely, 3m | 3 | 40 |
 | `5B308` | Solight dvojzásuvka do vlhka IP54, sivá | 3 | 48 |
 | `PHR01` | Solight spájka hrotová 30W | 3 | 50 |
+| `PP30` | Solight predlžovací prívod, 4 zásuvky, biely, vypínač, 1,5m | 3 | 50 |
 | `PP52` | Solight predlžovací prívod, 5 zásuviek, biely, vypínač, 3m | 3 | 40 |
 | `WZ6103` | Solight LED svetelný zdroj do stropných svetiel, 18W, 1800lm | 3 | 40 |
 | `PP31` | Solight predlžovací prívod, 4 zásuvky, biely, vypínač, 2m | 3 | 50 |
