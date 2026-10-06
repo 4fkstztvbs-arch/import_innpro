@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600480,
+    "nextCardNumber": 202600482,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2876,6 +2876,18 @@
         "nazov": "Strong SRT32HF2003",
         "dodavatel": "kb",
         "code": "100001926620"
+      },
+      "4008496879922": {
+        "kod": "202600480",
+        "nazov": "Russell Hobbs 23210-70/RH Luna",
+        "dodavatel": "kb",
+        "code": "100000242060"
+      },
+      "7332543823031": {
+        "kod": "202600481",
+        "nazov": "Electrolux EB61C4DB",
+        "dodavatel": "kb",
+        "code": "100001920494"
       }
     }
   },
