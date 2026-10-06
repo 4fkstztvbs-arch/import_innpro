@@ -16,7 +16,7 @@
  *    čitateľnú farbu.
  *
  * Samostatný súbor, nemení premiumstore-cro.js ani buybar. Rollback = odstrániť jeden <script> odkaz.
- * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=3"></script>
+ * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=4"></script>
  * v pätičke za premiumstore-pdp-mobile-buybar.js.
  */
 (function () {
@@ -86,12 +86,14 @@
     '.shipping-options-popup .shipping-row .payment-shipping-price{grid-column:3;grid-row:1;font-weight:700!important;letter-spacing:0!important;font-size:16px;color:#17283c!important;white-space:nowrap;font-variant-numeric:tabular-nums;text-align:right;}',
     '.shipping-options-popup .shipping-row .payment-shipping-price.for-free{color:#167450!important;}',
     '@media (max-width:499px){.shipping-options-popup{padding:20px 14px 14px!important;}.shipping-options-popup h1{font-size:19px!important;}.shipping-options-popup .shipping-row{grid-template-columns:48px minmax(0,1fr) auto;column-gap:10px!important;padding:12px 0!important;}.shipping-options-popup .shipping-row .payment-logo{width:48px;}.shipping-options-popup .shipping-row .payment-logo img{max-width:48px!important;}.shipping-options-popup .shipping-row .payment-info b{font-size:14px;}.shipping-options-popup .shipping-row .payment-shipping-price{font-size:15px;}}',
-    'body.type-detail .benefitBanner.ps-benefit-moved{display:grid!important;grid-template-columns:1fr 1fr;gap:6px 10px;margin:10px 0 0!important;padding:0!important;width:auto!important;}',
-    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__item{display:flex!important;align-items:center;gap:8px!important;margin:0!important;padding:4px 0!important;width:auto!important;flex:none!important;min-width:0;}',
-    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__picture{flex:0 0 22px;width:22px!important;height:22px!important;margin:0!important;}',
-    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__img{width:22px!important;height:22px!important;}',
-    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__title{font-size:12.5px!important;line-height:1.2!important;display:block;}',
-    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__data{font-size:11.5px!important;line-height:1.2!important;color:#555;}',
+    'body.type-detail .benefitBanner.ps-benefit-moved{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 16px;align-items:start;margin:10px 0 0!important;padding:0!important;width:auto!important;}',
+    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__item{display:flex!important;align-items:flex-start!important;justify-content:flex-start!important;text-align:left!important;gap:10px!important;margin:0!important;padding:6px 0!important;width:auto!important;flex:none!important;min-width:0;}',
+    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__picture{flex:0 0 22px!important;width:22px!important;min-width:22px!important;max-width:22px!important;height:22px!important;margin:1px 0 0!important;padding:0!important;}',
+    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__img{width:22px!important;height:22px!important;margin:0!important;}',
+    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__content{flex:1 1 auto;min-width:0;margin:0!important;padding:0!important;text-align:left!important;}',
+    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__title{font-size:13px!important;line-height:1.25!important;display:block;width:auto!important;text-align:left!important;}',
+    'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__data{font-size:12px!important;line-height:1.3!important;color:#555;text-align:left!important;}',
+    '@media (max-width:420px){body.type-detail .benefitBanner.ps-benefit-moved{gap:2px 10px;}body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__item{gap:8px!important;}body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__item:nth-child(3){grid-column:1/-1;}body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__title{font-size:12.5px!important;}body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__data{font-size:11.5px!important;}}',
     'body.type-detail .benefitBanner.ps-benefit-moved .ps-benefit-dup{display:none!important;}',
 
     /* --- 4) Rozšírený popis: zalamovanie čísiel/faktov --- */
