@@ -16,7 +16,7 @@
  *    čitateľnú farbu.
  *
  * Samostatný súbor, nemení premiumstore-cro.js ani buybar. Rollback = odstrániť jeden <script> odkaz.
- * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=5"></script>
+ * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=6"></script>
  * v pätičke za premiumstore-pdp-mobile-buybar.js.
  */
 (function () {
@@ -72,7 +72,7 @@
     '@media (max-width:767px){a.ps-ship{min-height:52px;padding:10px 12px;}.ps-ship__more span{display:none;}.ps-ship__more svg{width:22px;height:22px;}}',
     '@media (max-width:359px){.ps-ship__text strong{white-space:normal;}}',
     'body.type-detail .shipping-options-layout tr.ps-ship-native{display:none!important;}',
-    'a.ps-ship--free{background:#167450;color:#fff;}a.ps-ship--free:hover{background:#145e41;}a.ps-ship--free .ps-ship__icon{stroke:#fff;}a.ps-ship--free .ps-ship__more{color:#fff;}',
+    'a.ps-ship.ps-ship--free,a.ps-ship.ps-ship--free:visited{background:#167450!important;color:#fff!important;}a.ps-ship.ps-ship--free:hover,a.ps-ship.ps-ship--free:active{background:#145e41!important;color:#fff!important;}a.ps-ship--free .ps-ship__text,a.ps-ship--free .ps-ship__text strong,a.ps-ship--free .ps-ship__more{color:#fff!important;}a.ps-ship--free .ps-ship__icon{stroke:#fff;}',
 
     /* --- Okno "Možnosti doručenia" --- */
     '.shipping-options-popup{padding:32px 32px 24px!important;max-width:560px;margin:0 auto;box-sizing:border-box;}',
