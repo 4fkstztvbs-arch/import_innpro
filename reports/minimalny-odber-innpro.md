@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-06 10:53 UTC.
+Kontrola z 2026-10-06 20:39 UTC.
 
-InnPro pri **379** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **377** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -31,7 +31,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `024736` | Kempingová lampa Superfire T20, 180lm, USB | — | 5 |
 | `024662` | Inteligentný spínač WiFi Gosund SW3, Tuya | — | 5 |
 | `025657` | Čelovka Superfire HL51 – 160 lm, micro-USB, 4 režimy, 300 m | — | 5 |
-| `024942` | Baseus Simple Wisdom Súprava dátového kábla USB na Lightning | — | 5 |
 | `025583` | Inteligentná žiarovka Yeelight W1 GU10 (biela) 1 kus | — | 5 |
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | — | 5 |
 | `025646` | Baseus Tungsten Gold kábel USB na iP 2,4A 2 m (čierny) | — | 5 |
@@ -61,7 +60,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 5 |
 | `038947` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `038946` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
-| `038943` | Baseus Glitter priehľadné puzdro a sada tvrdeného skla pre i | — | 2 |
 | `040287` | Prepravné puzdro Sunnylife pre DJI Osmo Mobile 6 | — | 5 |
 | `041716` | Držiak telefónu Puluz | — | 5 |
 | `043028` | Stojan Sonoff NSPanel (biely) | — | 5 |
@@ -108,7 +106,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054163` | Ochranné puzdro na batérie Sunnylife pre DJI AIR 3 | — | 5 |
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action 4 | — | 5 |
 | `057079` | Kryt objektívu/gimbalu Sunnylife pre DJI Mavic 3 Pro (M3P-G5 | — | 5 |
-| `055655` | Vodotesné puzdro Sonoff R2 BOX | — | 4 |
 | `059067` | Herná myš ONIKUMA CW905 čierna | — | 5 |
 | `056359` | Štítky do termotlačiarne Niimbot pre B21, 50 mm x 30 mm, 230 | — | 5 |
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
@@ -377,6 +374,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
+| `093563` | Popruh na prilbu SJCAM | — | 5 |
 | `093576` | Držiak SJCAM C100 Pro | — | 4 |
 | `093577` | Držiak SJCAM C300 POCKET | — | 5 |
 | `093578` | Malý statív SJCAM | — | 5 |
