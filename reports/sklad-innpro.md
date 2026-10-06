@@ -1,9 +1,9 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-06 08:55 UTC.
+Kontrola z 2026-10-06 09:08 UTC.
 
-Produktov v full.xml: **7229**, z toho 5755 má záznam aj v light.xml.
-Dostupnosť: Skladom 5726, ostatné 1503 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
+Produktov v full.xml: **7229**, z toho 5753 má záznam aj v light.xml.
+Dostupnosť: Skladom 5724, ostatné 1505 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
 
 ## quantity="-1" — 0 produktov
 
@@ -54,7 +54,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `026083` | Digitálny anemometer Habotest HT625A | Dostupné od 08.10.2026 | null | 08.10.2026 |
 | `026082` | Digitálny anemometer Habotest HT625B, USB | Skladom | 70 | 08.10.2026 |
 | `026080` | Mini detektor úniku plynu Habotest HT61 | Skladom | 196 | 08.10.2026 |
-| `026079` | Digitálny laserový pyrometer Habotest HT651D, merač vlh | Skladom | 231 | 08.10.2026 |
+| `026079` | Digitálny laserový pyrometer Habotest HT651D, merač vlh | Skladom | 230 | 08.10.2026 |
 | `026078` | Bezkontaktný laserový teplomer Habotest HT650B | Skladom | 59 | 08.10.2026 |
 | `026077` | Detektor úniku plynu s alarmom Habotest HT601B | Skladom | 250 | 08.10.2026 |
 | `026076` | Detektor plynu Habotest HT601A s alarmom | Skladom | 1732 | 08.10.2026 |
@@ -126,14 +126,14 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `029288` | UV svietidlo Superfire A5, 365NM | Skladom | 199 | 13.12.2026 |
 | `029278` | Solárna lampa Superfire FF5-A, 63W, 500lm, 5000mAh | Skladom | 121 | 13.12.2026 |
 | `029276` | Solárna lampa Superfire FF5-D – 486W, 1400 lm, 20000 mA | Skladom | 118 | 22.12.2026 |
-| `029275` | Solárna lampa Superfire FF5-E, 897W, 2000lm, 20000mAh | Skladom | 126 | 22.12.2026 |
+| `029275` | Solárna lampa Superfire FF5-E, 897W, 2000lm, 20000mAh | Skladom | 125 | 22.12.2026 |
 | `030318` | Hrudný popruh Telesin s držiakom pre športové kamery (G | Dostupné od 13.12.2026 | null | 13.12.2026 |
 | `030890` | Inteligentný samočistiaci odpadkový kôš pre mačky Catli | Skladom | 655 | 26.11.2026 |
 | `030906` | Náhradné filtre pre Catlink litter box Scooper 2ks. | Skladom | 391 | 26.11.2026 |
 | `031124` | Inteligentný prepínač WiFi WiFi Sonoff Dual R3 Lite | Dostupné od 27.10.2026 | null | 27.10.2026 |
 | `030294` | Tester zásuviek s digitálnym displejom Habotest HT107D | Skladom | 509 | 08.10.2026 |
 | `030293` | Habotest HT126A Digitálny univerzálny multimeter | Skladom | 3 | 08.10.2026 |
-| `030292` | Habotest HT2302 Digitálny tester zemného odporu | Skladom | 95 | 27.10.2026 |
+| `030292` | Habotest HT2302 Digitálny tester zemného odporu | Skladom | 94 | 27.10.2026 |
 | `030291` | Bezkontaktná skúšačka napätia a fáz Habotest HT101 | Skladom | 182 | 27.10.2026 |
 | `030473` | Baterka Superfire L6-H – 750 lm, 15W, USB-C, 5 režimov | Skladom | 131 | 13.12.2026 |
 | `030533` | Reproduktory Edifier MR4 2.0 (čierne) | Skladom | 31 | 23.10.2026 |
@@ -168,7 +168,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `036280` | Ultrazvukový čistič pokožky ANLAN ALCPJ07-02 (biely) | Skladom | 97 | 16.10.2026 |
 | `037026` | Ambientné svetlo Yeelight Candela | Dostupné od 16.10.2026 | null | 16.10.2026 |
 | `036062` | UV baterka Superfire Z01, 365NM, USB | Skladom | 765 | 22.12.2026 |
-| `036073` | Čelovka Superfire HL58 – 350 lm, USB, 3 režimy, 200 m | Skladom | 138 | 13.12.2026 |
+| `036073` | Čelovka Superfire HL58 – 350 lm, USB, 3 režimy, 200 m | Skladom | 130 | 13.12.2026 |
 | `036077` | Čelovka Superfire HL23 – 220 lm, USB-C, powerbanka | Skladom | 264 | 22.12.2026 |
 | `037393` | Pristávacia podložka Sunnylife pre drony 75 cm (DJI-TJP | Skladom | 275 | 17.11.2026 |
 | `037394` | Pristávacia podložka Sunnylife pre drony 50 cm geografi | Skladom | 135 | 10.11.2026 |
@@ -180,7 +180,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `037405` | Sada 4 filtrov UV+CPL+ND4+ND8 Sunnylife pre DJI Mini 3  | Skladom | 48 | 17.11.2026 |
 | `037511` | Ochranný kryt ovládača a slnečná clona 2 v 1 Sunnylife  | Skladom | 130 | 10.11.2026 |
 | `038608` | Prenosný kávovar HIBREW H4A 3 v 1 s výkonom 80 W a pren | Skladom | 41 | 13.10.2026 |
-| `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1247 | 23.10.2026 |
+| `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 1240 | 23.10.2026 |
 | `038339` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `038341` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 23.10.2026 | null | 23.10.2026 |
 | `038486` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Skladom | 1215 | 23.10.2026 |
@@ -196,9 +196,9 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `038805` | Stropné svetlo Yeelight C2201C400 | Skladom | 214 | 14.10.2026 |
 | `040286` | Puzdro Sunnylife pre DJI Osmo Action 5 PRO/4/3 Adventur | Skladom | 329 | 10.11.2026 |
 | `040908` | Joystick PXN-2119 PRO na ovládanie letu | Dostupné od 16.10.2026 | null | 16.10.2026 |
-| `040667` | CATLINK Pro-X Luxury Version – samočistiaca toaleta pre | Skladom | 206 | 26.11.2026 |
+| `040667` | CATLINK Pro-X Luxury Version – samočistiaca toaleta pre | Skladom | 207 | 26.11.2026 |
 | `041445` | Inteligentné diaľkové ovládanie SwitchBot Hub mini | Skladom | 770 | 27.10.2026 |
-| `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 1095 | 27.10.2026 |
+| `041446` | Teplomer a vlhkomer SwitchBot | Skladom | 1096 | 27.10.2026 |
 | `041447` | Teplomer a vlhkomer SwitchBot Plus | Skladom | 1565 | 27.10.2026 |
 | `041280` | Detektor úniku plynu Habotest HT59 | Skladom | 1055 | 08.10.2026 |
 | `041281` | Detektor úniku plynu Habotest HT60 | Skladom | 480 | 08.10.2026 |
@@ -286,7 +286,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `057843` | Dynamický mikrofon Maono PD200x (bílý) | Dostupné od 07.10.2026 | null | 07.10.2026 |
 | `057844` | Herní mikrofon Maono DM30RGB (černý) | Skladom | 235 | 07.10.2026 |
 | `057845` | Herní mikrofon Maono DM30RGB (bílý) | Skladom | 139 | 07.10.2026 |
-| `057846` | Herní mikrofon Maono DGM20 (černý) | Skladom | 79 | 07.10.2026 |
+| `057846` | Herní mikrofon Maono DGM20 (černý) | Skladom | 80 | 07.10.2026 |
 | `057847` | Herní mikrofon Maono DGM20 S (černý) | Skladom | 356 | 07.10.2026 |
 | `057849` | Zvukový mixér a zvuková karta AMC2 Neo | Skladom | 64 | 07.10.2026 |
 | `035793` | Inteligentný dávkovač krmiva Petoneer NutriSpin | Skladom | 148 | 16.10.2026 |
