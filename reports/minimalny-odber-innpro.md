@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-05 22:15 UTC.
+Kontrola z 2026-10-06 00:13 UTC.
 
-InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **381** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -48,7 +48,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 4 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `033419` | Mäkká kefa pre Dreame V10 Pro | — | 5 |
-| `032796` | Počítačový ventilátor Darkflash CL12 LED (120x120) | — | 5 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
@@ -110,13 +109,12 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054163` | Ochranné puzdro na batérie Sunnylife pre DJI AIR 3 | — | 5 |
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action 4 | — | 5 |
 | `057079` | Kryt objektívu/gimbalu Sunnylife pre DJI Mavic 3 Pro (M3P-G5 | — | 5 |
-| `055655` | Vodotesné puzdro Sonoff R2 BOX | — | 5 |
+| `055655` | Vodotesné puzdro Sonoff R2 BOX | — | 4 |
 | `059067` | Herná myš ONIKUMA CW905 čierna | — | 5 |
 | `056359` | Štítky do termotlačiarne Niimbot pre B21, 50 mm x 30 mm, 230 | — | 5 |
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
 | `056365` | Nalepovacie termoštítky Niimbot 25 x 60 mm, 110 ks (biele) | — | 5 |
 | `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
-| `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 4 |
 | `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
@@ -172,7 +170,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `067669` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-F (grap | — | 5 |
 | `068840` | Mäkká kefa pre Dreame Z20/Z30/Z20 AquaCycle™/Z30 AquaCycle™ | — | 5 |
 | `070385` | Puluz headband with sports camera mount (including Osmo Acti | — | 5 |
-| `070386` | PULUZ backpack mount for sports cameras (including Osmo Acti | — | 2 |
 | `069447` | TELESIN flexible mount for phones (gray) | — | 3 |
 | `070758` | Thermal labels Niimbot stickers 40x30 mm - 900 pcs. White | — | 5 |
 | `070768` | Thermal labels Niimbot stickers 50x70 mm - 100 pcs. White | — | 5 |
@@ -211,7 +208,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `077966` | Svetlo Superfire BTL05 na bicykli | — | 5 |
 | `077873` | Ochranná fólia Puluz 3 v 1 pre Insta 360 Ace Pro 2 | — | 5 |
 | `077868` | Ochranné puzdro Puluz pre DJI Mic Mini (čierne) | — | 5 |
-| `077869` | Ochranné puzdro Puluz pre DJI Mic 2 (čierne) | — | 2 |
+| `077869` | Ochranné puzdro Puluz pre DJI Mic 2 (čierne) | — | 5 |
 | `077820` | Dvojfarebné štítky do tlačiarne T50*30-230 (biele) | — | 5 |
 | `077821` | T50*30-230 Dvojfarebné štítky do tlačiarne (žlté) | — | 5 |
 | `078020` | Tvrdené sklo Sunnylife pre RC PRO 2 (2 kusy) | — | 5 |
@@ -313,7 +310,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088943` | HTVRONT – troskavá fólia na prenos tepla, 30,5 cm x 90 cm (č | — | 5 |
 | `088947` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
 | `088948` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
-| `088951` | HTVRONT Chameleon – fólia na termotransfer, 30,5 cm x 90 cm  | — | 5 |
 | `088952` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |
 | `088953` | Holografická samolepiaca fólia HTVRONT, 30,5 cm × 90 cm (tyr | — | 5 |
 | `088954` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |

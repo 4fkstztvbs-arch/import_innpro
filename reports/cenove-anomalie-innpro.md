@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-10-05
+# Cenové anomálie vynechané z feedu — innpro — 2026-10-06
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -649,9 +649,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094445 | 6972792471440 | Wireless Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093436 | 6971131385448 | Router GL.iNet Slate 7 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093440 | 6971131385646 | Vzdialený KVM GL.iNet Comet X | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093441 | 6971131385622 | Diaľkový KVM GL.iNet Comet Q | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 24 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 116.90 € | 11.00 € | 1/10.6x | 15 |
