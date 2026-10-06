@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600464,
+    "nextCardNumber": 202600471,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2780,6 +2780,48 @@
         "nazov": "YAMAHA NS-AW392 WHITE 1 karton",
         "dodavatel": "kb",
         "code": "130281164555"
+      },
+      "5905316140806": {
+        "kod": "202600464",
+        "nazov": "Puluz 30cm USB Electric",
+        "dodavatel": "innpro",
+        "code": "040244"
+      },
+      "6934399223235": {
+        "kod": "202600465",
+        "nazov": "Automatic pet feeder",
+        "dodavatel": "innpro",
+        "code": "060149"
+      },
+      "6923520247851": {
+        "kod": "202600466",
+        "nazov": "Edifier W800BT Pro",
+        "dodavatel": "innpro",
+        "code": "065951"
+      },
+      "5906168439100": {
+        "kod": "202600467",
+        "nazov": "Ancel AD530 Diagnostic",
+        "dodavatel": "innpro",
+        "code": "069087"
+      },
+      "6972436986484": {
+        "kod": "202600468",
+        "nazov": "Colmi V89 Smartwatch Silver",
+        "dodavatel": "innpro",
+        "code": "079595"
+      },
+      "4779060890147": {
+        "kod": "202600469",
+        "nazov": "OBDeleven 3",
+        "dodavatel": "innpro",
+        "code": "082270"
+      },
+      "6935750561201": {
+        "kod": "202600470",
+        "nazov": "Uni-T LCR Meter UT612",
+        "dodavatel": "innpro",
+        "code": "084972"
       }
     }
   },
