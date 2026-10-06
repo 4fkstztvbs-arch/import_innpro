@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — monacor — 2026-10-04
+# Cenové anomálie vynechané z feedu — monacor — 2026-10-06
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -82,7 +82,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | RM/MXR-80 | 4007754275858 | IMG Stage Line RM/MXR-80 482 mm sada montážnych konzol pre MXR-80 | cena mimo 8x rozsah mediánu kategórie | 195.00 € | 22.50 € | 1/8.7x | 26 |
 | IT-400DTM | 4007754417647 | Monacor IT-400DTM Weatherproof active 2-way horn speaker (music horn) with integ | cena mimo 8x rozsah mediánu kategórie | 106.45 € | 873.00 € | 8.2x | 14 |
 | NPA-12/24I | 4007754031423 | Yuasa NPA-12/24I Rechargeable lead-acid battery, 12 V, 24 Ah, VRLA | cena mimo 8x rozsah mediánu kategórie | 23.20 € | 225.00 € | 9.7x | 10 |
-| R-H6200T/SW | 8588008802427 | ARVOX R-H6200T/SW Štadiónový reproduktor | cena mimo 8x rozsah mediánu kategórie | 58.50 € | 712.50 € | 12.2x | 15 |
+| R-H6200T/SW | 8588008802427 | ARVOX R-H6200T/SW Štadiónový reproduktor | cena mimo 8x rozsah mediánu kategórie | 62.25 € | 712.50 € | 11.4x | 16 |
 | RM-4125DX | 4007754428261 | Monacor RM-4125DX 482 mm (19") mounting bracket kit for PA-4125DX and PA-4125DX/ | cena mimo 8x rozsah mediánu kategórie | 834.00 € | 41.90 € | 1/19.9x | 10 |
 | WM-4125DX | 4007754428278 | Monacor WM-4125DX Wall mounting bracket for PA-4125DX and PA-4125DX/DT | cena mimo 8x rozsah mediánu kategórie | 834.00 € | 22.00 € | 1/37.9x | 10 |
 | MZZX300 | 8051361591432 | ZZIPP MZZX300 Mikrofónový kábel | cena mimo 8x rozsah mediánu kategórie | 148.50 € | 15.00 € | 1/9.9x | 14 |
