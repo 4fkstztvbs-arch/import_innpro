@@ -12,8 +12,15 @@
 
 const HAS_WHITESPACE_OR_NON_ASCII_RE = /[ \t]|[^\x00-\x7F]/;
 
+// InnPro posiela v popisoch cast obrazkov ako relativnu cestu "/data/include/cms/..." (obrazky ich
+// B2B servera). V nasom shope sa taka cesta rozlisi na premiumstore.sk a vrati 404, preto ju
+// prepiseme na absolutnu URL ich servera (overene 2026-10-06: b2b.innpro.pl vracia 200).
+const INNPRO_CMS_RELATIVE_RE = /(<img\b[^>]*\bsrc=")(\/data\/include\/cms\/[^"]+)(")/gi;
+const INNPRO_IMAGE_HOST = 'https://b2b.innpro.pl';
+
 function fixDescriptionImageUrls(html) {
   if (!html) return html;
+  html = html.replace(INNPRO_CMS_RELATIVE_RE, (full, pre, path, post) => pre + INNPRO_IMAGE_HOST + path + post);
   return html.replace(/(<img\b[^>]*\bsrc=")([^"]+)(")/gi, (full, pre, url, post) => {
     if (!/^https?:\/\//i.test(url)) return full;
     if (!HAS_WHITESPACE_OR_NON_ASCII_RE.test(url)) return full; // ziadne medzery/nie-ASCII - v poriadku
