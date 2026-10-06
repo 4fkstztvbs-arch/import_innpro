@@ -1,18 +1,18 @@
 {
- "file": "premiumstore-sk_2026-10-06_08-32.csv",
- "ts": "202610060832",
- "fingerprint": "688b2def5eba5904a4898e084c6a888b0b2b80f903287d49fec053c73f590fe6",
+ "file": "premiumstore-sk_2026-10-06_14-56.csv",
+ "ts": "202610061456",
+ "fingerprint": "0d8d99e4b79318b2bf95a4eff4c5687d9e2395dbc5a87667c52d701cc8f5c25f",
  "pricingVersion": 2,
- "processedAt": "2026-10-06T06:36:24.098Z",
+ "processedAt": "2026-10-06T13:09:08.046Z",
  "reportPath": "reports/heureka-cenovy-navrh-2026-10-06.md",
  "targetsPath": "data/heureka-reports/price-targets.json",
- "priceTargetsCount": 6432,
+ "priceTargetsCount": 6404,
  "stats": {
-  "total": 7488,
-  "zvysit": 280,
-  "znizit": 297,
-  "bezZmeny": 6911,
-  "floorLimited": 33,
-  "bezPosunuPozicie": 762
+  "total": 7499,
+  "zvysit": 250,
+  "znizit": 191,
+  "bezZmeny": 7058,
+  "floorLimited": 10,
+  "bezPosunuPozicie": 790
  }
 }
