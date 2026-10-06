@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600471,
+    "nextCardNumber": 202600479,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2822,6 +2822,54 @@
         "nazov": "Uni-T LCR Meter UT612",
         "dodavatel": "innpro",
         "code": "084972"
+      },
+      "6924922219590": {
+        "kod": "202600471",
+        "nazov": "Yeelight Smart Wireless",
+        "dodavatel": "innpro",
+        "code": "051642"
+      },
+      "6975746636803": {
+        "kod": "202600472",
+        "nazov": "Thermal Label T50*30-230",
+        "dodavatel": "innpro",
+        "code": "054844"
+      },
+      "6957141408483": {
+        "kod": "202600473",
+        "nazov": "QCY T13x TWS Bluetooth",
+        "dodavatel": "innpro",
+        "code": "055234"
+      },
+      "5906168437823": {
+        "kod": "202600474",
+        "nazov": "HUANUO SINGLE",
+        "dodavatel": "innpro",
+        "code": "069263"
+      },
+      "843367135356": {
+        "kod": "202600475",
+        "nazov": "Memory card Lexar",
+        "dodavatel": "innpro",
+        "code": "076040"
+      },
+      "6978061957103": {
+        "kod": "202600476",
+        "nazov": "B21 Pro Portable Label",
+        "dodavatel": "innpro",
+        "code": "080526"
+      },
+      "5907085524870": {
+        "kod": "202600477",
+        "nazov": "Flytec RC Boat Battery",
+        "dodavatel": "innpro",
+        "code": "078901"
+      },
+      "6936685223004": {
+        "kod": "202600478",
+        "nazov": "GameSir Controller G8 (gray)",
+        "dodavatel": "innpro",
+        "code": "081127"
       }
     }
   },
