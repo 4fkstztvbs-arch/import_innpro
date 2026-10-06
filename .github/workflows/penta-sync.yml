@@ -44,6 +44,11 @@ jobs:
           PENTA_ONLY_MAPPED_CATEGORIES: '1'
         run: node scripts/transform-penta.js
 
+      - name: Normalize parameter names and values to Slovak
+        env:
+          PARAMS_XML: output/penta.xml
+        run: node scripts/normalize-feed-params.js
+
       - name: Pull latest before cross-supplier dedupe
         run: |
           git stash -u
