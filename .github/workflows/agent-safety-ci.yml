@@ -25,6 +25,9 @@ jobs:
       - name: Run product name localization tests
         run: node --test scripts/tests/product-name-localization.test.js
 
+      - name: Run TV atypical shipping tests
+        run: node --test scripts/tests/atypical-shipping-tv.test.js
+
       - name: Run pricing policy tests
         run: node --test scripts/tests/heureka-pricing.test.js
 
