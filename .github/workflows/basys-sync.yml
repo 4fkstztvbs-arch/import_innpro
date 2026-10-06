@@ -66,6 +66,11 @@ jobs:
       - name: Normalize valid supplier GTINs to EAN-13
         run: node scripts/normalize-truncated-ean.js output/basys.xml
 
+      - name: Add fallback parameters (Heureka PARAM)
+        env:
+          FALLBACK_PARAMS_XML: output/basys.xml
+        run: node scripts/add-fallback-params.js
+
       - uses: ./.github/actions/commit-output
         with:
           bot-name: basys-sync-bot

@@ -63,6 +63,11 @@ jobs:
             echo "data/icecat-atos-full.csv not found yet — skipping enrichment step"
           fi
 
+      - name: Add fallback parameters (Heureka PARAM)
+        env:
+          FALLBACK_PARAMS_XML: output/atos.xml
+        run: node scripts/add-fallback-params.js
+
       - name: Pull latest before cross-supplier dedupe
         run: |
           git stash -u
