@@ -16,7 +16,7 @@
  *    čitateľnú farbu.
  *
  * Samostatný súbor, nemení premiumstore-cro.js ani buybar. Rollback = odstrániť jeden <script> odkaz.
- * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=8"></script>
+ * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=9"></script>
  * v pätičke za premiumstore-pdp-mobile-buybar.js.
  */
 (function () {
@@ -307,7 +307,17 @@
     }
   }
 
+  /* --- 7) obrázky v popise od InnPro: relatívna cesta /data/include/cms/... vedie na náš shop (404),
+         reálne ležia na b2b.innpro.pl --- */
+  function fixInnproDescriptionImages() {
+    var imgs = document.querySelectorAll('img[src^="/data/include/cms/"]');
+    for (var i = 0; i < imgs.length; i++) {
+      imgs[i].setAttribute('src', 'https://b2b.innpro.pl' + imgs[i].getAttribute('src'));
+    }
+  }
+
   function init() {
+    fixInnproDescriptionImages();
     addStyle();
     watchCookie();
     var form = document.getElementById('product-detail-form');
@@ -318,6 +328,7 @@
     watchGallery();
     // Shoptet dokresľuje časti stránky neskôr (lazy bloky, varianty).
     window.addEventListener('load', function () {
+      fixInnproDescriptionImages();
       hideEmptyRating();
       addShipping(form);
       fixHeroContrast();
