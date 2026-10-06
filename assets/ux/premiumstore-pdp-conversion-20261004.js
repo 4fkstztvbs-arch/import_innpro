@@ -5,13 +5,16 @@
  *    (predtým ho lišta s vyšším z-indexom úplne zakrývala).
  * 2) Detail produktu: kompaktnejší blok nad zhybom (miniatúry, dostupnosť), prázdne hviezdičky
  *    "Neohodnotené" sa skryjú, hviezdy sa ukážu hneď ako produkt hodnotenie má.
- * 3) Pod tlačidlom "Do košíka": riadok s cenou dopravy a termínom, pod ním presunutý natívny
- *    blok istôt (Rýchle doručenie, Garancia, Vrátenie).
+ * 3) Riadok "Doprava od 4,90 €, doručenie od 2 dní" je hneď pod dostupnosťou (nad cenou a tlačidlom
+ *    "Do košíka") a nahrádza natívny odkaz "Možnosti doručenia". Je klikateľný (zvýraznený rámik,
+ *    šípka) a po kliknutí otvorí natívne okno s možnosťami doručenia. Pod tlačidlom ostáva
+ *    presunutý natívny blok istôt (Rýchle doručenie, Garancia, Vrátenie).
+ *    Okno "Možnosti doručenia" má prepracovaný vzhľad (desktop aj mobil).
  * 4) Rozšírené popisy (.ps-product): nadpisy v úvodnom bloku s nízkym kontrastom dostanú
  *    čitateľnú farbu.
  *
  * Samostatný súbor, nemení premiumstore-cro.js ani buybar. Rollback = odstrániť jeden <script> odkaz.
- * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=1"></script>
+ * V Shoptete: <script src="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-pdp-conversion-20261004.js?v=2"></script>
  * v pätičke za premiumstore-pdp-mobile-buybar.js.
  */
 (function () {
@@ -52,9 +55,35 @@
     '}',
 
     /* --- 3) Doprava a istoty pod tlačidlom --- */
-    '.ps-ship{display:flex;align-items:center;gap:8px;margin:10px 0 0;padding:8px 10px;background:#f2f8f5;border-radius:8px;font-size:14px;line-height:1.3;color:#1b3a2c;}',
-    '.ps-ship svg{flex:0 0 20px;width:20px;height:20px;fill:none;stroke:#167450;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}',
-    '.ps-ship strong{font-weight:700;white-space:nowrap;}',
+    'a.ps-ship{display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;min-height:48px;margin:8px 0 12px;padding:10px 12px;background:#f2f8f5;border:1.5px solid #167450;border-radius:10px;font-size:14px;line-height:1.3;color:#1b3a2c!important;text-decoration:none!important;cursor:pointer;transition:background-color .15s ease,box-shadow .15s ease;-webkit-tap-highlight-color:transparent;}',
+    'a.ps-ship:hover{background:#e3f1ea;box-shadow:0 2px 8px rgba(22,116,80,.18);}',
+    'a.ps-ship:active{background:#d6eadf;}',
+    'a.ps-ship:focus-visible{outline:3px solid #145e41;outline-offset:2px;}',
+    '.ps-ship__icon{flex:0 0 22px;width:22px;height:22px;fill:none;stroke:#167450;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}',
+    '.ps-ship__text{flex:1 1 auto;min-width:0;}',
+    '.ps-ship__text strong{font-weight:700;white-space:nowrap;}',
+    '.ps-ship__more{flex:0 0 auto;display:inline-flex;align-items:center;gap:2px;font-size:13px;font-weight:600;color:#167450;white-space:nowrap;}',
+    '.ps-ship__more svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round;transition:transform .15s ease;}',
+    'a.ps-ship:hover .ps-ship__more{text-decoration:underline;}',
+    'a.ps-ship:hover .ps-ship__more svg{transform:translateX(3px);}',
+    '@media (max-width:767px){a.ps-ship{min-height:52px;padding:10px 12px;}.ps-ship__more span{display:none;}.ps-ship__more svg{width:22px;height:22px;}}',
+    '@media (max-width:359px){.ps-ship__text strong{white-space:normal;}}',
+    'body.type-detail .shipping-options-layout tr.ps-ship-native{display:none!important;}',
+
+    /* --- Okno "Možnosti doručenia" --- */
+    '.shipping-options-popup{padding:32px 32px 24px!important;max-width:560px;margin:0 auto;box-sizing:border-box;}',
+    '.shipping-options-popup h1{text-align:left!important;font-size:22px!important;line-height:1.25!important;margin:0 0 6px!important;}',
+    '.shipping-options-popup>p{margin:0 0 14px!important;font-size:13.5px!important;line-height:1.45!important;color:#5b6670!important;}',
+    '.shipping-options-popup .shipping-row{display:grid!important;grid-template-columns:64px minmax(0,1fr) auto;align-items:center!important;column-gap:12px!important;padding:14px 0!important;border-top:1px solid #e3e9ee!important;}',
+    '.shipping-options-popup .shipping-row .payment-logo{grid-column:1;grid-row:1;order:0!important;margin:0!important;display:flex;align-items:center;justify-content:center;width:64px;height:40px;}',
+    '.shipping-options-popup .shipping-row .payment-logo img{max-width:64px!important;max-height:34px!important;width:auto;height:auto;object-fit:contain;}',
+    '.shipping-options-popup .shipping-row .payment-info{grid-column:2;grid-row:1;width:auto!important;max-width:none!important;flex:none!important;display:flex;align-items:center;gap:6px;min-width:0;}',
+    '.shipping-options-popup .shipping-row:not(:has(.payment-logo)) .payment-info{grid-column:1/3;}',
+    '.shipping-options-popup .shipping-row .payment-info b{display:inline!important;width:auto!important;font-weight:600!important;letter-spacing:0!important;font-size:15px;line-height:1.3;overflow-wrap:normal;word-break:normal;}',
+    '.shipping-options-popup .question-tooltip{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:#e8eef2;color:#4a5560;font-size:11px;font-weight:700;cursor:help;}',
+    '.shipping-options-popup .shipping-row .payment-shipping-price{grid-column:3;grid-row:1;font-weight:700!important;letter-spacing:0!important;font-size:16px;color:#17283c!important;white-space:nowrap;font-variant-numeric:tabular-nums;text-align:right;}',
+    '.shipping-options-popup .shipping-row .payment-shipping-price.for-free{color:#167450!important;}',
+    '@media (max-width:499px){.shipping-options-popup{padding:20px 14px 14px!important;}.shipping-options-popup h1{font-size:19px!important;}.shipping-options-popup .shipping-row{grid-template-columns:48px minmax(0,1fr) auto;column-gap:10px!important;padding:12px 0!important;}.shipping-options-popup .shipping-row .payment-logo{width:48px;}.shipping-options-popup .shipping-row .payment-logo img{max-width:48px!important;}.shipping-options-popup .shipping-row .payment-info b{font-size:14px;}.shipping-options-popup .shipping-row .payment-shipping-price{font-size:15px;}}',
     'body.type-detail .benefitBanner.ps-benefit-moved{display:grid!important;grid-template-columns:1fr 1fr;gap:6px 10px;margin:10px 0 0!important;padding:0!important;width:auto!important;}',
     'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__item{display:flex!important;align-items:center;gap:8px!important;margin:0!important;padding:4px 0!important;width:auto!important;flex:none!important;min-width:0;}',
     'body.type-detail .benefitBanner.ps-benefit-moved .benefitBanner__picture{flex:0 0 22px;width:22px!important;height:22px!important;margin:0!important;}',
@@ -130,17 +159,38 @@
     }
   }
 
-  /* --- 3) riadok dopravy + presun istôt --- */
+  /* --- 3) riadok dopravy (klikateľný, nahrádza "Možnosti doručenia") + presun istôt --- */
   function addShipping(form) {
     if (document.querySelector('.ps-ship')) return;
     var block = form.querySelector('.p-to-cart-block');
     if (!block) return;
-    var ship = document.createElement('div');
+    var nativeLink = form.querySelector('a.shipping-options');
+    var table = form.querySelector('table.shipping-options-layout');
+
+    var ship = document.createElement('a');
     ship.className = 'ps-ship';
+    ship.setAttribute('href', nativeLink ? nativeLink.getAttribute('href') : '#');
+    ship.setAttribute('aria-haspopup', 'dialog');
+    ship.setAttribute('aria-label', 'Doprava od ' + SHIP_FROM + ', doručenie ' + DELIVERY_FROM + '. Zobraziť možnosti doručenia');
     ship.innerHTML =
-      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>' +
-      '<span><strong>Doprava od ' + SHIP_FROM + '</strong>, doručenie ' + DELIVERY_FROM + '</span>';
-    block.parentNode.insertBefore(ship, block.nextSibling);
+      '<svg class="ps-ship__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v10H3zM14 9h4l3 3v4h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>' +
+      '<span class="ps-ship__text"><strong>Doprava od ' + SHIP_FROM + '</strong>, doručenie ' + DELIVERY_FROM + '</span>' +
+      '<span class="ps-ship__more"><span>Možnosti</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></span>';
+
+    // Klik otvorí natívne okno Shoptetu; ak by odkaz chýbal, ostáva obyčajný odkaz.
+    ship.addEventListener('click', function (e) {
+      var nl = form.querySelector('a.shipping-options');
+      if (nl) { e.preventDefault(); nl.click(); }
+    });
+
+    // Vyššie: hneď pod tabuľkou s dostupnosťou (nad cenou a tlačidlom "Do košíka").
+    if (table && table.parentNode) {
+      table.parentNode.insertBefore(ship, table.nextSibling);
+      var row = nativeLink && nativeLink.closest ? nativeLink.closest('tr') : null;
+      if (row) row.classList.add('ps-ship-native');
+    } else {
+      block.parentNode.insertBefore(ship, block);
+    }
 
     var benefit = document.querySelector('.benefitBanner.position--benefitProduct') || document.querySelector('.benefitBanner');
     if (benefit && !benefit.classList.contains('ps-benefit-moved')) {
@@ -150,7 +200,7 @@
         if (t && /doru[čc]enie\s+u[žz]\s+od/i.test(t.textContent)) items[i].classList.add('ps-benefit-dup');
       }
       benefit.classList.add('ps-benefit-moved');
-      ship.parentNode.insertBefore(benefit, ship.nextSibling);
+      block.parentNode.insertBefore(benefit, block.nextSibling);
     }
   }
 
