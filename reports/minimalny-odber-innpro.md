@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-06 00:13 UTC.
+Kontrola z 2026-10-06 08:53 UTC.
 
-InnPro pri **381** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **380** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -142,7 +142,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
 | `061362` | Side brush for Roidmi EVE CC | — | 5 |
 | `061363` | Mopping pads for Roidmi EVE CC | — | 5 |
-| `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `063729` | Replacement filters for the Oneisall fountain | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
