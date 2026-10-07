@@ -1293,5 +1293,40 @@
     "subject": "objednávka č. 202601142",
     "orderCode": "202601142",
     "matchedBy": "code"
+  },
+  "<179137453244.31284.1373331507533912999@mail-fe-06.idc.rintech.sk>": {
+    "draftedAt": "2026-10-07T13:59:38.935Z",
+    "from": "patriick18@azet.sk",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202601215",
+    "orderCode": "202601215",
+    "matchedBy": "code"
+  },
+  "<179137456904.2972.13325855465991354699@mail-fe-09.idc.rintech.sk>": {
+    "draftedAt": "2026-10-07T13:59:45.745Z",
+    "from": "patriick18@azet.sk",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202601214",
+    "orderCode": "202601214",
+    "matchedBy": "code"
+  },
+  "<179137460148.6392.4066083527577462188@mail-fe-10.idc.rintech.sk>": {
+    "draftedAt": "2026-10-07T13:59:51.524Z",
+    "from": "patriick18@azet.sk",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202601214",
+    "orderCode": "202601214",
+    "matchedBy": "code"
+  },
+  "<179137500149.3356.3884093592556210006@mail-fe-09.idc.rintech.sk>": {
+    "draftedAt": "2026-10-07T14:00:01.966Z",
+    "from": "patriick18@azet.sk",
+    "subject": "Re: [PremiumStore.sk] Dodatočná platba za objednávku 202601214 .",
+    "orderCode": "202601214",
+    "matchedBy": "code"
+  },
+  "<179137503445.6457.8897439425140444040@mail-fe-10.idc.rintech.sk>": {
+    "draftedAt": "2026-10-07T14:00:11.070Z",
+    "from": "patriick18@azet.sk",
+    "subject": "Re: [PremiumStore.sk] Dodatočná platba za objednávku 202601215 .",
+    "orderCode": "202601215",
+    "matchedBy": "code"
   }
 }
