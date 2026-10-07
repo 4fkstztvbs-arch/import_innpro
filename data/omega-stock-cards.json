@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600482,
+    "nextCardNumber": 202600486,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2888,6 +2888,30 @@
         "nazov": "Electrolux EB61C4DB",
         "dodavatel": "kb",
         "code": "100001920494"
+      },
+      "5907085528939": {
+        "kod": "202600482",
+        "nazov": "Flytec RC Boat V802 PRO",
+        "dodavatel": "innpro",
+        "code": "079985"
+      },
+      "6975377551308": {
+        "kod": "202600483",
+        "nazov": "RCA-01 Smart Ring Gen 2",
+        "dodavatel": "innpro",
+        "code": "082712"
+      },
+      "6975377555313": {
+        "kod": "202600484",
+        "nazov": "SPR-03 Ring Protector L",
+        "dodavatel": "innpro",
+        "code": "082738"
+      },
+      "6975116296118": {
+        "kod": "202600485",
+        "nazov": "ROJECO PD511 Dog",
+        "dodavatel": "innpro",
+        "code": "089081"
       }
     }
   },
