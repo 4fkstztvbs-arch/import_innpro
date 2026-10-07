@@ -1,9 +1,9 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-07 20:53 UTC.
+Kontrola z 2026-10-07 21:13 UTC.
 
-Produktov v full.xml: **7249**, z toho 5770 má záznam aj v light.xml.
-Dostupnosť: Skladom 5741, ostatné 1508 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
+Produktov v full.xml: **7249**, z toho 5768 má záznam aj v light.xml.
+Dostupnosť: Skladom 5739, ostatné 1510 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
 
 ## quantity="-1" — 0 produktov
 
@@ -227,7 +227,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `044363` | Kapsulový kávovar 5 v 1 HiBREW H2B (biely) | Dostupné od 13.10.2026 | null | 13.10.2026 |
 | `045428` | Slúchadlá Oneodio Pro30 (strieborné) | Skladom | 218 | 20.10.2026 |
 | `045426` | Slúchadlá Oneodio Pro10 (modré) | Skladom | 107 | 20.10.2026 |
-| `045425` | Slúchadlá Oneodio Pro10 (čierne) | Skladom | 386 | 30.10.2026 |
+| `045425` | Slúchadlá Oneodio Pro10 (čierne) | Skladom | 385 | 30.10.2026 |
 | `044652` | Vysielač/prijímač Bluetooth 5.2 BlitzMax BT05, aptX | Skladom | 200 | 16.10.2026 |
 | `046683` | Vodotesné puzdro pre relé Sonoff IP66 | Skladom | 1388 | 23.10.2026 |
 | `089096` | Inteligentný vypínač svetla WiFi Avatto TS02-EU-B1 1 Wa | Skladom | 66 | 03.11.2026 |
@@ -252,7 +252,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `051689` | Habotest MY6238 Viacúčelový detektor 4v1 | Skladom | 246 | 27.10.2026 |
 | `053936` | Herné slúchadlá ONIKUMA K9 Pink RGB | Skladom | 939 | 24.11.2026 |
 | `053939` | Herné slúchadlá ONIKUMA K10 (čierne) | Skladom | 831 | 27.10.2026 |
-| `053941` | Herné slúchadlá ONIKUMA X15Pro Pink Cat's Ears | Skladom | 323 | 24.11.2026 |
+| `053941` | Herné slúchadlá ONIKUMA X15Pro Pink Cat's Ears | Skladom | 322 | 24.11.2026 |
 | `053948` | Stojan na slúchadlá ONIKUMA ST-2 čierny | Skladom | 550 | 24.11.2026 |
 | `053951` | Herná myš ONIKUMA CW905 čierna | Skladom | 588 | 24.11.2026 |
 | `053965` | Herná myš ONIKUMA CW905 ružová | Skladom | 685 | 24.11.2026 |
@@ -278,7 +278,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `055833` | Automatické kŕmidlo pre domáce zvieratá - 6 jedál / 360 | Skladom | 503 | 26.11.2026 |
 | `055848` | Automatické kŕmidlo pre domáce zvieratá WiFi s kamerou  | Skladom | 158 | 11.11.2026 |
 | `055849` | Čistič zápachu pre mačacie toalety Rojeco 4000mAh | Skladom | 76 | 26.11.2026 |
-| `056068` | Napájadlo pre psy a mačky PetKit Eversweet 3 Pro | Skladom | 248 | 14.12.2026 |
+| `056068` | Napájadlo pre psy a mačky PetKit Eversweet 3 Pro | Skladom | 247 | 14.12.2026 |
 | `054997` | Inteligentný dávkovač krmiva CatLink F04 PRO | Skladom | 11 | 21.12.2026 |
 | `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 248 | 16.10.2026 |
 | `057075` | Pristávací podvozok Sunnylife pre DJI Mavic 3 Pro - siv | Skladom | 67 | 24.11.2026 |
