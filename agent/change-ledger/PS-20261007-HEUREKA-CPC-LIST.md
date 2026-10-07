@@ -5,7 +5,7 @@
 - ACTOR: Claude (agent), na pokyn majiteľa
 - AREA: Heureka – CPC vylúčenia (HEUREKA_HIDDEN)
 - URL/PAGE/SCOPE: data/heureka-reports/cpc-hidden-products.json
-- AFFECTED_PRODUCTS/PAGES: 19 produktov vrátených do Heureky, 8 nových vylúčení (zoznam nižšie)
+- AFFECTED_PRODUCTS/PAGES: 535 produktov s maržou pod 3 € (druhá časť nižšie); 19 produktov vrátených do Heureky, 8 nových vylúčení (zoznam nižšie)
 - DESCRIPTION: Odstránenie ziskových produktov zo zoznamu CPC vylúčení a pridanie aktívnych produktov s nákladom bez objednávky.
 - REASON: Dávka vylúčení zo 4.10. sa pozerala len na okno 5.9.–4.10., takže vylúčila aj produkty s augustovými objednávkami. Rozbor celého obdobia 10.8.–7.10. ukázal 19 vylúčených produktov, ktoré zarobili viac, ako stáli ich prekliky (spolu ~272 € po prekliky).
 - HYPOTHESIS: Vrátené produkty prinesú objednávky so ziskom nad náklad na prekliky; nové vylúčenia znížia náklad bez objednávok (~32 € za obdobie).
@@ -58,3 +58,548 @@ Poznámka: 6 ďalších navrhnutých produktov (AT_DONCRY6, AT_DONTH812, AT_DOLG
 - 6939093016268 `KB_100002204355` POCO F9 Ultra 12/256GB Black
 - 8595616500492 `AT_TIP-06560465` Impregnace na obuv INPRODUCTS 400 ml
 - 5905156108165 `089331` LCR tester FNIRSI LCR-ST2Plus
+## Druhá časť: marža pod 3 € (schválený rozsah „len produkty s preklikmi“)
+
+Plošné pravidlo by skrylo 6 308 produktov (vrátane 837 Solight a 2 635 produktov s cenou z Heureka reportu), preto majiteľ zvolil užší rozsah: do zoznamu sa pridali produkty s maržou pod 3 €/ks bez DPH, ktoré mali v období 10.8.–7.10. platené prekliky a zisk z objednávok ich nepokryl.
+
+- Pridané: 535 (náklad 116.33 € bez DPH, 2 objednávky)
+- Ponechané na Heureke (prekliky pokryté ziskom): 45
+- Bez EAN, nedajú sa vylúčiť cez zoznam: 69 (AT_DOBN01247AR, AT_DONCRY6, AT_DON800, AT_DOSENSLE32S600TCS, AT_TH50B, AT_TIP-04280257, AT_DOSENSLE2810M4N, AT_DONSUN300, AT_DON5100, AT_DOPHN164N, AT_SP7, AT_DOLGAKB73756565N, AT_DONIN3, AT_DOJVCRMC1223N, AT_DONTH812, AT_DOOR1205N, AT_DOJVCRMC3184N, AT_DOPAN328N, AT_DOPHN112N, AT_DONSONYED060N, AT_DON8150, AT_DONTE3000, AT_DOLGAKB35840202N, AT_DOPHRC282430, AT_DONSUN400, AT_PAMA80FE, AT_DOLGMKJ40653802N, AT_SPR-4722U22MV2, AT_DONAMIKOVIPERCO, AT_DOSAMEVOS, AT_DON7010, AT_DOSENSLE39F09M4N, AT_DOBN5901015AN, AT_DOLGAAKB72914202N, AT_DONTH813, AT_DOSENSLT1611N, AT_DOSENSLE39F14TCS, AT_DOEC40LED722N, AT_DOPAN753N, AT_DOOVP2819N, AT_SPR-AIRMOU, AT_DOSENSLT3229, AT_DON138, AT_DON250S, AT_DORMED019N, AT_PAMA80FES, AT_DON7050, AT_DON8209, AT_DOSENSLE43F11M4N, AT_DOHITA4862N, AT_DOHDBOX9105N, AT_H40X40X3600M10, AT_DONINZX4, AT_DOEM180N, AT_DOGOG132, AT_DONCRY752, AT_DORC802N2, AT_DOLGMKJ32022835N, AT_UNIDOZ077, AT_DOTOSHIBA1910N, AT_DONX402, AT_DOLGAKB72914293N, AT_VBMASSEN, AT_DON7060, AT_KRA-MERX, AT_DORC3000E01, AT_DOTECH1912N, AT_TCZ-3021410, AT_DOMC720T2)
+
+### Pridané (marža pod 3 €)
+
+- 5901890127332 `AT_LEC-KM0924-2G` Kruger & Matz Kruger&Matz Simple 924 GSM mobilní tlačítkový telefon pro seniory
+- 6972470562781 `063047` Herný reproduktor ONIKUMA L16 (čierny)
+- 3149330003354 `KB_100002128221` Les Cafés Sati Sati Décafeinated 500 g zrno
+- 8592920130780 `AT_ATO-2104105000` EMOS P56400S GoSmart detektor oxidu uhelnatého TCS0101W s Wi-Fi
+- 5908254846953 `AT_ATO-OR-CR-255_B` PIR senzor a přítomnosti (pohybové čidlo) ORNO OR-CR-255/B
+- 5901890127554 `AT_LEC-KM0831` Rádio KRUGER & MATZ KM0831 analogové přenosné solární
+- 8592718034122 `SOL_IR02` Solight infražiarič - vykurovací výkon 1200 W, 2 nastaviteľné úrovne vykurovania
+- 5901890126199 `AT_LEC-KM0923-2G` Kruger & Matz Telefon GSM Kruger&Matz Simple 923 pro seniory
+- 8591022336755 `KB_100001049414` Banquet Termohrnec LAVENDER 2,5 l
+- 4711527001376 `079096` Počítačová skriňa Darkflash C275P bez ventilátorov (čierna)
+- 6972185560720 `073937` Bezdrôtový adaptér Carlinkit MINI PRO Carplay/Android Auto
+- 8592718020569 `SOL_1V47` Solight LED vonkajšie cencúle, 50LED, časovač, 8 funkcií, IP44, 3xAA batérie
+- 6957141408544 `064656` Slúchadlá TWS QCY T13 ANC2, ANC
+- 6920075743593 `084496` Sonoff AirGuard TH SNZB-02DR2 ZigBee LCD senzor teploty a vlhkosti
+- 5901436795322 `AT_LEC-KM0334` Kabel reproduktorový KRUGER & MATZ KM0334 3m konektory typu banánek
+- 8592718042042 `SOL_TR01` Solight lokátor na bicykel, Find My kompatibilný
+- 8592718041427 `SOL_AV06` Solight ventilátor do kúpeľne
+- 1200130011160 `KB_100002160444` JBL TUNE 310 USB-C Blue
+- 6977031210965 `069131` Niimbot D110M Portable Label Printer White
+- 8592718039899 `SOL_DT36` Solight digitálny časový spínač
+- 8592718020361 `SOL_P99` Solight rozbočovač, 3 x 10A, biely, vypínač
+- 5907489603379 `022738` Fotografické štúdio Puluz PU5030 LED 30cm
+- 5901890127578 `AT_LEC-KM0832` Rádio KRUGER & MATZ KM0832 analogové přenosné solární
+- 8591022381267 `KB_100001049048` Banquet Hrnec nepř. GRAN. PR 24x11cm
+- 6972470561579 `053943` Ružové herné slúchadlá ONIKUMA B90
+- 8595235801406 `KB_491400095652` MAXXO VC 1800
+- 8592718034047 `SOL_PS20` Solight 1z pohyblivý prívod - spojka, 10m, 2 x 1,5mm2, oranžová
+- 4905524937794 `KB_440311425730` SONY sluchátka MDR-ZX110P, růžová
+- 8591680177967 `KB_100002136331` Fixed Powerbanka 10 000 FIXZEN2-10-BK
+- 8594182427394 `KB_100002063313` Niceboy PILOT S5 GPS + WIFI
+- 4006501815101 `KB_100000033320` LEIFHEIT Pegasus 180 Solid Classic 81510
+- 6972436986132 `072076` Inteligentné hodinky Colmi V73 (zlaté)
+- 8596426112417 `KB_100002164344` Aligator Reproduktor pro MagSafe ABSMB01
+- 8592718026325 `SOL_PB30` Solight predlžovací prívod na bubne, 1 zásuvka, vonkajší, 25m gumový kábel, 3x 1,5mm2, IP44
+- 8591022436332 `KB_100001284801` Banquet Termohrnec AVANZA 3,5 l, bílá
+- 5901890066549 `AT_LEC-TSA-AKC1` Keramický kámen TEESA TSA-AKC1 do pece na pizzu TSA3231
+- 8003705121263 `KB_100002102483` Ariete Breakfast Citrus Juicer 417 černý
+- 4033653020633 `BAS_BASYS-MX400` Behringer MX400
+- 4006501725837 `KB_342030118119` LEIFHEIT Žehlící deska COMPACT Table
+- 8591686092790 `AT_CMP-09279` Compass Držák UNI LIFT stropní TÜV/GS
+- 0023942439622 `KB_700001255039` VERBATIM 43962 SDHC 16GB class 10
+- 5901436750963 `AT_TIP-04250125` Baterie olověná 12V/ 7,5 Ah REBEL bezúdržbová
+- 8592718010911 `SOL_PP141` Solight predlžovací prívod, 7 zásuviek, biely, vypínač, 2m
+- 3221616001350 `KB_100001188839` Rowenta ZR009008
+- 8592718019310 `SOL_WO44` Solight LED stolná lampička nabíjacia, 5W, RGB podsvietenie, stmievateľná, USB napájanie
+- 8592718041540 `SOL_V60` Solight profesionálny multimeter
+- 5907085524399 `074474` Digitálny multimeter Habotest HT86B
+- 8592718025847 `SOL_HN60` Solight vonkajšia anténa, DVB-T2, 47dB
+- 8592718047924 `SOL_WO820-W` Solight LED osvetlenie Gari, 26W, 2340lm, 3CCT, IP65, 30cm, biela
+- 4029665004631 `AT_MS-WT_463R` Budík digitální TechnoLine WT 463R s FM radiopřijímačem
+- 8592718016531 `SOL_WO203` Solight LED kuchynské svietidlo T5, vypínač, 9W, 4100K, 54cm
+- 5907489609432 `037078` Digitálny univerzálny multimeter Habotest HT113
+- 8596425124411 `AT_HD-G909` Solární regulátor MPPT Lumiax MT1050EU, 12V/10A
+- 5901890135061 `AT_LEC-KM1304-1` TV držák Kruger & Matz KM1304-1 (32-45'' 35kg) černý
+- 5907489601917 `019954` Puluz 20in1 sada príslušenstva pre športové kamery PKT18
+- 6975515777812 `077963` Čelová baterka Superfire TH06, 600 lm, USB-C
+- 6972237682103 `063462` Mikrofón Maono DGM20 (biely)
+- 6975515772756 `060693` Čelovka 2v1 Superfire TH04 – 600 lm, USB-C, 5 režimov, 127 m
+- 8432426454976 `BAS_BASYS-EN_454976` Energy Sistem Detský reproduktor Lol&Roll Bluetooth, ružový
+- 4710343794899 `057378` Počítačová skrinka Darkflash B351
+- 6976021764419 `077388` Vlákno ASA ELEGOO (biele)
+- 8595616500584 `AT_TIP-06560510` Impregnace na textilní sedačky INPRODUCTS 1l
+- 8592718036553 `SOL_TE87` Solight meteostanica, farebný LCD, vnútorná/vonkajšia teplota a vlhkosť, tlak, RCC, čierna
+- 5900804003311 `AT_BL-82-219` Baterie olověná 12V / 7,5Ah XTREME / Enerwell bezúdržbový akumulátor
+- 8592718042295 `SOL_TE110S` Solight senzor pre meteostanice TE110
+- 8595092107994 `SOL_PP73` Solight predlžovací prívod, 6 zásuviek, biely, vypínač, 5m
+- 8591680190324 `KB_100002197420` Fixed pouzdro XRN15Pro 4G FIXOP3-1645-BK
+- 4006501832016 `KB_648000228119` LEIFHEIT Sušák Telegant Plus 70 bílý
+- 8592718033330 `SOL_WO20-W` Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva
+- 8592718010959 `SOL_PF32` Solight flexo šnúra, 2x 1,5mm2, gumová, čierna, 2,5m
+- 4548736161436 `KB_100002104086` SONY WFC510B černá
+- 8592718042165 `SOL_TE110W` Solight meteostanica, farba biela
+- 5411397015051 `KB_340920034421` DOMO DO8709P
+- 6956362941823 `029289` UV baterka Superfire UV06, 395NM
+- 5060134334285 `KB_100001775864` FoodSaver FSR2002
+- 5901890124829 `AT_LEC-RBA-2330-2` Činky REBEL ACTIVE RBA-2330-2 litinové neoprenové HEX 2x2kg
+- 4897143170433 `075952` Sada 6 denných filtrov Freewell Standard pre DJI Flip
+- 8592718016234 `SOL_WZ413-1` Solight LED žiarovka reflektorová, R50, 5W, E14, 3000K, 440lm, biele prevedenie
+- 8592718012366 `SOL_1L67TB` Solight bezdrôtové tlačidlo pre 1L67B, 200m, čierne, learning code, kryt na menovku
+- 5905316145214 `044652` BliTZWOlF Vysielač/prijímač Bluetooth 5.2 BlitzMax BT05, aptX
+- 5706622021847 `BAS_BASYS-TC_966111001` TC Electronic PolyTune Clip clip-on polyphonic tuner, silver
+- 4006501814098 `KB_100000033297` Leifheit Sušák Classic 250 Flex
+- 6940056184627 `KB_100000841265` Rapoo 9300M set klávesnice a myši černý
+- 8591680182107 `KB_100002143591` Fixed VR Protective Case FIXMQ-PC-GR
+- 5901436755289 `AT_LEC-UCH0129` CABLETECH UCH0129
+- 6976037361091 `058467` Avatto ZWT198 ZigBee TUYA
+- 6936685221406 `070689` GameSir Nova Lite Multiplatform Domino White HRG7109
+- 8717703564280 `KB_150220039868` RICATECH PR1980 Ghettoblaster
+- 8595092115371 `SOL_SSP0102E` Solight napájací kábel 2-pin, 230V, 2,5 A, 2m
+- 4006501716088 `KB_491200098119` Leifheit Thermo Reflect Universal 71608
+- 5900779936300 `AT_ISO-00010179` Malatec 10179 sivo-tyrkysový
+- 8592718038731 `SOL_DSP-DYV8MS` Solight samočistiaca mäkká prachová kefa pre Dyson V7, V8, V10, V11, V15
+- 6956362932975 `025653` Multifunkčná baterka SuperFire G20, 470 lm, USB
+- 4006501816207 `KB_100002136234` Leifheit Sušák na prádlo Pegasus 160 Sol
+- 8590274984462 `KB_100002101847` Powerton chytrý prsten Black velikost 10
+- 6972436985548 `069207` Colmi P81 Smartwatch (Black)
+- 8592920140703 `AT_EMO1613056100` Powerbanka EMOS NTBF30 /B0561B/, 27 000 mAh, 100 W PD, černá
+- 5901890104586 `AT_LEC-TSA8903-1` TEESA Pikniková deka s izoláciou sivá kocka 200x200
+- 6972884750903 `052013` Catlink Scooper Schodíky do odpadkového koša
+- 5908269350957 `KB_100002099647` Zelmer ZKS1500N
+- 5907489607131 `028633` LED lampa RGB Puluz pre fotoaparát PU560B
+- 5411397010513 `KB_340330034421` DOMO DO436BL
+- 6957141408148 `055228` Bezdrôtové slúchadlá QCY H2 (čierne)
+- 6936685221680 `086667` Ovládač GameSir T4n Nova Lite (sivý)
+- 3149330003316 `KB_100002128222` Les Cafés Sati Sati Perou Inca Bio Fairtrade 500 g zrno
+- 4006501716156 `KB_100002136173` Leifheit Perfect Steam Universal 71615
+- 6976021769261 `082843` Elegoo PLA+ 1.75mm 1Kg Black 4260198
+- 5908269355563 `KB_100002099616` Zelmer ZCK7650
+- 5900804003366 `AT_BL-82-218` Baterie olověná 12V / 20Ah XTREME bezúdržbový akumulátor
+- 6972860179162 `031873` Telesin T10 Bluetooth diaľkový ovládač pre GoPro Hero 9 / 8 GP-RMT-T10
+- 4029665007571 `AT_MS-WT757W` Budík analogový TechnoLine WT 757W
+- 6975755964379 `084212` Prenosná pumpa Flextail Tiny Pump X (oranžová)
+- 6976021764266 `075365` Filament ELEGOO Rapid PLA+ (biely)
+- 8592718041403 `SOL_AV05` SOLIGHT AV05
+- 8056420221176 `KB_100001405190` Beper BEP-P206RAF200
+- 6946639812949 `062446` Zeblaze GTS 3 PRO Smartwatch (White)
+- 8425988903860 `AT_ALAL100` Alcad AL-100
+- 6959033844713 `KB_100000287818` Philips SQM3642
+- 6935750565100 `084967` Uni-T UT658
+- 8033224603773 `KB_100001947296` Laica VT3509
+- 8592718015084 `SOL_WM604` Solight LED svetelný pás, 5m, SMD5050 60LED/m, 14,4W/m, IP65, studená biela
+- 6935750565896 `077500` UNI-T UT658DUAL tester zásuviek USB
+- 4033653055659 `BAS_BASYS-SL_85S` Behringer SL 85S mikrofón
+- 6972391282324 `024664` Gosund SL3 Smart LED pás 2x5m (SL3)
+- 6935750550113 `077515` UNI-T UT501A tester izolačného odporu
+- 5901890123808 `AT_LEC-KM0914` Powerbanka KRUGER & MATZ KM0914 20000 mAh Li-ion 65W QuickCharge, Power Delivery
+- 6935750538302 `077491` Uni-T UT383
+- 6946639812826 `058330` Inteligentné hodinky Zeblaze GTR 3 Pro (striebro)
+- 5901436716402 `AT_LP-BAT1126` VIPOW BAT1126 12V, 4 - 7,5Ah
+- 8592417769950 `KB_999000455098` ETA Gratus 0028 00860
+- 4023103213579 `AT_TIP-06426151` Vileda Steam XXL 161717 náhrada
+- 8592718032289 `SOL_WL911` Solight WL911
+- 0023942322016 `KB_100002069769` Verbatim 32200 GaN nabíječka 65 W
+- 8595703506987 `KB_100002134271` Eldonex EWS-1010-BK meteostanice
+- 8592718012229 `SOL_TE44` Solight bezdrôtový teplomer, teplota, čas, budík, biely
+- 8592718026936 `SOL_P104` Solight P104
+- 5038061150933 `KB_100002076232` Russell Hobbs 26800-56/RH
+- 3168430337503 `KB_100001740213` Tefal B817S255
+- 5904665714607 `AT_ITR-00018066` Xtrobb 25242 Súprava na odvzdušnenie bŕzd bicykla, univerzálna
+- 8592718037208 `SOL_WO3102` Solight WO3102
+- 6976100482449 `056047` PGYTECH Chránič pro DJI RC/RC2 P-45A-020
+- 6976037360384 `047928` Inteligentný vypínač svetla ZigBee Avatto ZTS02-EU-B2 2 Way TUYA (čierny)
+- 4006501814135 `KB_648000128119` Leifheit Quartett 81413
+- 5901890123020 `AT_LEC-RBA-6013-GL` REBEL Akupresúrna podložka RBA-6013-GL 130x50cm
+- 8595092122850 `SOL_1MF20` Solight stredný fixný držiak pre ploché TV, 66cm - 140cm (26'' - 55'')
+- 8592718023324 `SOL_PS30` Solight predlžovací prívod - spojka, 1 zásuvka, 5m, 3 x 1,5mm2, gumová, čierna
+- 3045387295202 `KB_100002131625` Tefal KO5S08E0
+- 6935750533321 `077487` Merač teploty a vlhkosti UNI-T UT333S
+- 8592718027452 `SOL_AV-K` Dalap Plastová spätná klapka so sľudou pre ventilátory průměr 100 mm
+- 6946639813953 `083521` Inteligentné hodinky Zeblaze GTS 4 (čierne)
+- 5905156108264 `089341` Sonda FNIRSI P4100
+- 6930460008145 `069259` Petoneer Fresco Ez chytrá fontána
+- 6920075740257 `063732` Sonoff TX T5 3C
+- 5453002615140 `AT_IST-LNBINTWUL02` Inverto LNB Twin Black Ultra 0,2 dB
+- 4006501727008 `KB_100002136223` Leifheit Sušák Classic 100 Easy
+- 5908254846144 `AT_ATO-OR-DC-635` Detektor plynu LPG ORNO OR-DC-635
+- 0195950667363 `KB_100002201072` Apple AirTag (2. generace)
+- 5906168435430 `066155` BliTZWOlF Wireless Microphone BlitzWolf, BW-SX63, 1000mAh (black)
+- 5905156101227 `082765` Arzopa 17,3" puzdro na monitor
+- 6974662353191 `086692` Anycubic ASA White 1,75 mm 1000 g
+- 8592718017965 `SOL_WM501` Solight 8592718017965
+- 6939119045814 `072816` Bezdrôtové slúchadlá Havit E529BT (čierne)
+- 8595627420543 `PEN_600970` Vákuovacia dóza G21 2 L, marinovacia
+- 7621800033246 `KB_100002129455` Roadstar SB-820BT Soundbar
+- 6920075743890 `083570` Sonoff S60ZBTPF Inteligentná zásuvka ZigBee (2ks)
+- 8594182426441 `KB_100001915402` Niceboy OFFICE M40 Vertical
+- 6977254871509 `070510` Elektrický masážny prístroj na krk EMS ANLAN 09-AMJY42-02A
+- 8595092107093 `SOL_PP12` Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 3m
+- 5906168433535 `063562` Držiak s popruhom Sunnylife pre ovládač DJI RC / RC 2 (ZJ764-D)
+- 6976037362654 `089096` Avatto TS02-EU-B1
+- 8592718042660 `SOL_DSP-DYHD08KFZ` Solight difuzér pre Dyson Supersonic
+- 6976297860693 `083110` Cycplus AS210 MAX AT1 Max Anoutway – mini pumpa na bicykel
+- 0010942123163 `KB_100000030854` Krups XS600010
+- 8594199730166 `AT_ATO-A500001747` Baterie olověná 12V / 7,0 Ah MHPower MS7-12
+- 6975515775573 `072344` Čelovka Superfire HE11 – 640 lm, 20W, 6 režimov, 100 m
+- 8592718038298 `SOL_WO8011` Solight LED osvětlení s dálkový ovladačem Jamil, 48W, 3360lm, 40cm, změna chromatičnosti, stmívatelné
+- 6972391289491 `037132` Inteligentná zástrčka WiFi Gosund SP111 3680W 16A, Tuya
+- 6920075743104 `079050` ZigBee LCD senzor teploty Sonoff SNZB-02LD (so sondou)
+- 5907085528687 `079589` RAINPOINT ICD047
+- 6936685223714 `086669` Vertikálny mobilný ovládač GameSir Pocket Taco
+- 8058150117682 `KB_100002142361` Girmi YG0200 Jogurtovač
+- 8595022047802 `KB_100001090431` Bravo Adria B-4780 bílá
+- 4029665504636 `AT_MS-WT_463B` Budík digitální TechnoLine WT 463B s FM radiopřijímačem
+- 5907085524405 `074475` Detektor úniku plynu Habotest HT609PRO
+- 6920075743432 `080590` Sonoff MINI-RBS-E SONOFF-MINI-RBS-E-2071
+- 6972470563733 `083244` Herné slúchadlá ONIKUMA GT811 (čierne)
+- 5906168439131 `069084` Ancel AS100/AC100
+- 8592718041397 `SOL_AV04` Solight AV04
+- 8592718042158 `SOL_TE110B` SOLIGHT TE110B
+- 5902221624254 `KB_100002201612` Noveen N'oveen IWH480
+- 5908269350254 `KB_100002101298` Zelmer ZCK7921G
+- 6937267000204 `054631` BOBOVR B2 náhradné batérie k VR popruhu na hlavu
+- 5901890060738 `AT_LP-KM0903` KRUGER & MATZ KM0903 Powerbanka 10000 mAh Li-pol
+- 5907695540000 `AT_ABL-16-50-418` Koloběžka NILS Extreme HM0107 bílo-růžová
+- 8592718030049 `SOL_1V001-G` Solight prodlužovací prívodný kábel k vianočným reťaziam, 5m
+- 8594182431926 `PEN_5578045` Slúchadlá Niceboy Pins 4 Arctic White
+- 4006501831071 `KB_100002136244` Leifheit Sušák na prádlo Rolfix 150 Trip
+- 6920075742916 `081370` Inteligentný mini spínač ZigBee SONOFF ZBMINIR2
+- 6974760350320 `029288` Superfire A5
+- 6972185561079 `088004` Carlinkit CP2A-PRO
+- 5901890137416 `AT_LEC-UCH0222` Univerzální držák na soundbar CABLETECH UCH0222
+- 8595092107369 `SOL_PS01` Solight predlžovací prívod - spojka, 1 zásuvka, 1,5m, 3 x 1mm2, biela
+- 6928493309056 `065056` Gens ace G-Tech Soaring 1300mAh 11.1V 30C 3S1P Lipo Battery
+- 6932704900284 `079520` Elegoo Rapid PLA+ 1.75, 1kg, šedá RPLAP1G
+- 8592718047511 `SOL_1D23T` Solight bezdrôtový magnetický senzor pre gong 1D23, 1D23WIFI
+- 8592718034412 `SOL_WO20-ND` SOLIGHT Napájací zdroj LIFUD 9-40V k 40W LED panelom
+- 5901890099660 `AT_LEC-RBA-3151-BK` Rebel RBA-3151
+- 8592718031510 `SOL_WN903` EFEST batéria 18650 3000mAh/35A
+- 6935750510704 `077482` Ručný multimeter do auta UNI-T UT107
+- 3838942524479 `KB_330500075590` GORENJE Mělký plech 222709/242132
+- 8006447001558 `KB_100002067662` Nutribullet NB614.DG
+- 6920075743043 `079053` Sonoff ZBM5-2C-80W (2-kanálový) inteligentný dotykový nástenný spínač Zigbee
+- 6976037362258 `079540` Dotykový vypínač svetla ZigBee Avatto TS60-EU-W1 Single TUYA (biely).
+- 5901890136877 `AT_LEC-TSA3241-R` Pec na pizzu TEESA TSA3241-R SUPREME FUN 1200W, 400 st. červená
+- 8591680190744 `KB_100002172283` Fixed pouzdro Samsung G Tab FIXTOT-1649
+- 6979033600089 `083908` Dvojkanálový nástenný spínač SONOFF MINI-2GS-E Matter.
+- 0843367124565 `076117` Čítačka pamäťových kariet Lexar RW330U USB 3.2 micro SD, UHS-I
+- 4010118004216 `BAS_BASYS-BD_1000887` beyerdynamic EDT 770 VB ear pad, black
+- 8592718034337 `SOL_SSC1802` Solight USB-C kábel s displejom, USB-C konektor - USB-C konektor, 100W, 2m
+- 8595006150719 `KB_100002126763` REMOSKA Remoska® Europa Pánev 26 cm
+- 5901890124713 `AT_LEC-RBA-6014-9` Rebel Zátěžová deka RBA-6014 9kg 150x200
+- 5905156108158 `089330` LCR tester FNIRSI LCR-ST2
+- 8591686131239 `PEN_63603341` LED čelovka Cattara 570lm ZOOM nabíjecí
+- 8594199731743 `AT_ABT-A500005481` Baterie olověná 12V / 9,0 Ah MHPower GE9-12 GEL
+- 8592718017224 `SOL_1L42T` Solight 1L42T
+- 8592718042097 `SOL_CA08B-M` Solight CA08B-M
+- 4061504000879 `068354` Vibrating ring Satisfyer Rocket Ring (dark blue)
+- 4710343798583 `061680` Počítačová skriňa Darkflash DRX70 MESH + 4 RGB ventilátory (biela)
+- 5901890098816 `AT_LEC-RBA-3008-3` Rebel ACTIVE TRX P3-3
+- 5907489605557 `026429` Štúdiová súprava Puluz softbox 50x70cm, statív, LED žiarovka 1 ks PU5070EU
+- 4010118004223 `BAS_BASYS-BD_1000896` beyerdynamic EDT 990V
+- 8596426109370 `KB_100002127549` Aligator ALI PB Magsafe+USB-C, 10000mAh AMS04WT
+- 8592220017255 `PEN_1090823` Oem Kábel PremiumCord prodlužovací přívod 230 V 1,5 m, 5 zásuvek + vypínač + 2 x USB 2A
+- 6972403827796 `065287` Smart Visual Ear-Clean Rod Bebird R1 black
+- 5905156108127 `089327` Tester USB FNIRSI FNB-C2
+- 5060569672341 `KB_100001775852` FoodSaver FVB016X
+- 5902802911810 `AT_ITR-00013694` BelacioArtCollection No.8643 Sada na maľovanie a kreslenie 258 ks
+- 1200130030000 `KB_100002200818` JBL Tune 530BT Lavender
+- 8592718023171 `SOL_5B110` Vypínač SOLIGHT 5B110 Slim č.6
+- 4008496986279 `KB_100000485411` Russell Hobbs 25570-56/RH
+- 4019588750388 `AT_T76-5038-00` Meteorologická stanice TechniSat IMETEO 400
+- 5900779955639 `AT_ITR-00018250` Cyklotaška na zadní nosič 3in1 Trizand 25516
+- 1200130034299 `KB_100002202595` JBL GO5 Blue
+- 4711527000669 `075754` Počítačová skriňa Darkflash TH285M (biela)
+- 8592718035600 `SOL_WO807` Solight WO807
+- 6974760350726 `040417` Kempingová lampa Superfire T26-S – 500 lm, solárna, 18W, 3 režimy
+- 4260403577370 `KB_100001368316` Resto 92002 Hrnec s pokl. Libra, 2,6 l
+- 6979033600133 `086042` Sonoff WS01TPF-E-2179
+- 8592718012212 `SOL_TE09` Solight teplomer, teplota, veľký displej, dátum, čas, biely
+- 8592718010874 `SOL_P77` Solight P77
+- 8592718020323 `SOL_DT27` Solight digitálny merač spotreby el. energie, veľký displej
+- 8592718036812 `SOL_PP105C-PD20` Solight 3z + USB A+C prenosné stolné zásuvky, 2m, biela, USB rýchlonabíjačka 20W PD
+- 8592718027179 `SOL_V30` SOLIGHT V30
+- 8594182431933 `PEN_5578041` Slúchadlá Niceboy Pins 4 Sakura Pink
+- 1200130018602 `KB_100002136360` JBL GO Essential 2, červený
+- 8592718034276 `SOL_1V55-WW` Solight vianočná reťaz medená, 30x mini LED, 3m, 3 x AA, teplé svetlo
+- 5905316141384 `041718` Puluz s duálnym LED osvetlením 041718
+- 4006501811516 `KB_648000238119` Leifheit Classic Siena 180 Easy
+- 6975116295333 `077915` Hračka/laser pre zvieratá Rojeco
+- 8592718036577 `SOL_CA06` Solight CA06
+- 6935750518045 `PEN_50698123` Skúšačka UNI-T UT18D vadaska
+- 8592718042080 `SOL_CA07W` Solight CA07W
+- 4032661274533 `KB_100002203802` Albrecht DR 451 DAB+ alarm clock, black
+- 5060569672389 `KB_100001775828` FoodSaver FFC022X
+- 8592718025939 `SOL_PZ11` Solight viacnásobná zásuvka, 3 zásuvky
+- 8595094081353 `SOL_1P29` Solight 1P29 Sťahovacie pásky 3.6 x 300mm 100ks
+- 8054242080124 `KB_700000099431` Superior FREEDOM 4v1 USB
+- 6935364010911 `PEN_52932346` Kamera TP-Link Tapo C310 vonkajšia, IP, FHD, WiFi, prísvit
+- 6972436984794 `053151` Colmi P71 Smartwatch (Gold)
+- 6946639814127 `087712` Športové okuliare ZEBLAZE Q01 Green AI
+- 6946639814134 `087713` Športové okuliare ZEBLAZE Q01 s umelou inteligenciou – oranžové
+- 6936685221727 `086665` GameSir Nova Lite Multiplatform Domino White HRG7109
+- 5907695539998 `AT_ABL-16-50-417` Koloběžka NILS Extreme HM0107 bílo-oranžová
+- 4010118004209 `BAS_BASYS-BD_1000886` beyerdynamic EDT 770 V ear pad, grey
+- 8595563729861 `AT_TIP-04250662` Baterie olověná 12V / 12Ah GETI bezúdržbový akumulátor Trakční
+- 8596426112516 `KB_100002164488` Aligator Ali Pouzdro Mag-Skin iPhon17 PAS0026
+- 6972436985593 `069168` Smartring Colmi R03 18.9MM 9 (black)
+- 8590393325344 `PEN_6008181` Rýchlovarná kanvica Hyundai VK770 nerez
+- 6946639814110 `087711` ZEBLAZE Q01
+- 4033653055420 `BAS_BASYS-P1` Behringer POWERPLAY P1 personal In-Ear monitor amplifier
+- 6975515776082 `081947` Čelovka Superfire HE10
+- 8592718014995 `SOL_HP26` Solight digitálna izbová anténa, DVB-T2, 45dB
+- 8433766920077 `KB_100002104277` Solac Q609
+- 5901890101790 `AT_LEC-RBA-5000-M` Nesmeky na boty REBEL ACTIVE RBA-5000-M ( 36 - 40 )
+- 8595627426880 `PEN_6009712` Vákuovacia dóza G21 1480 ml, sklenená
+- 8592718036584 `SOL_TE45` Solight teplomer
+- 8592718033194 `SOL_1L69T` Solight 1L69T
+- 8594199730296 `AT_PEN-52350025` Baterie olověná 12V / 40 Ah MHPower MS40-12
+- 6971071551873 `070682` Hohom MIC-01
+- 6935750521038 `084914` UNI-T UT210C
+- 5901890115452 `AT_LEC-RBA-1016` REBEL RBA-1016
+- 8013679518204 `AT_TIP-14460766` Anténa Emme Esse 216 FM
+- 8592718037215 `SOL_WO3103` Solight WO3103
+- 8592718023331 `SOL_PS31` Solight predlžovací prívod - spojka, 1 zásuvka, 10m, 3 x 1,5mm2, gumová, čierna
+- 8595235803585 `KB_341220035652` MAXXO VM 3550
+- 6972971865695 `072052` Freewell CPL filter pre DJI Osmo Action 5 Pro FW-OA5-CPL
+- 6956362995628 `029280` Zadná bicyklová lampa Superfire BTL02 – USB, 330 mAh, 3 režimy
+- 8592718036492 `SOL_1D80` Solight vonkajšia IP kamera s LED světlom
+- 5411397011671 `KB_341010044421` DOMO DO461FR
+- 4033653130660 `BAS_BASYS-GUITAR_2_USB` Behringer GUITAR 2 USB
+- 8592718018955 `SOL_1T07` Solight alkohol tester, 0,0 - 1,5‰ BAC, citlivosť 0,2‰
+- 8591680189939 `KB_100002200738` Fixed Opus Samsung Galaxy S26 Ultra čierne FIXOP3-1706-BK
+- 5907489609425 `037072` Digitálny univerzálny multimeter Habotest HT127B
+- 8591680190751 `KB_100002197830` Fixed Topic Tab na Samsung Galaxy Tab A11/A9 FIXTOT-1650 čierne
+- 8591680177455 `KB_100002127972` Fixed pouzdro SG A26 5G FIXOP3-1501-BK
+- 8592718001612 `SOL_DA32` Solight 48W DA32 - neoriginálny
+- 8595022050536 `KB_100001117968` Bravo B-5053 digitální teploměr stříbrný
+- 4008496835447 `KB_700010427393` RUSSELL HOBBS 22280-56/RH
+- 6957141410387 `078257` Slúchadlá do uší TWS QCY Buds HT15 ANC (biele)
+- 4006501817020 `KB_100002136237` Leifheit Sušák na prádlo Pegasus Bath 19
+- 8592718022396 `SOL_PA01-UK` Solight PA01-UK
+- 5906168433917 `064297` Ottocast CA400-S 4 in 1 Carplay&Andorid
+- 5900804003359 `AT_BL-82-212` Baterie olověná 12V / 17Ah XTREME / Enerwell bezúdržbový akumulátor
+- 5901890124164 `AT_LEC-UCH0220` Držák monitoru Cabletech UCH0220 (13-32'' 2x10kg) černý
+- 6972971865862 `072627` Filtrácia CPL Freewell do DJI Air 3S
+- 0860038001703 `041438` SwitchBot Bezdrôtový diaľkový spínač SwitchBot-S1 (biely)
+- 4029665001821 `AT_MS-WT182` Budík digitální TechnoLine WT 182
+- 8592718036409 `SOL_V31` Solight V31
+- 6953156301535 `050845` Elektrická vyhrievaná kulma na riasy ANLAN 04-AJMJ14-001 (biela)
+- 5905156107816 `089917` Sunnylife pro Osmo Nano / Action 6
+- 8595235801208 `KB_100002104273` Maxxo Teapot 1400 ml
+- 4006501817204 `KB_648000248119` LEIFHEIT Sušák PEGASUS 120 Compact
+- 5901890131032 `AT_LEC-RBA-3159-2PU` Podložka na cvičení Rebel Active RBA-3159-2PU na jógu, pilates a fitness 1cm, 200x90cm TPE modrá
+- 8056095878422 `KB_100002127038` Girmi BL0301
+- 8592718036898 `SOL_P69` Solight P69
+- 6935364030988 `KB_100001091774` TP-LINK Tapo L530E
+- 3023372018623 `KB_362900315022` Electrolux EF 26 (EFH 12 W)
+- 5901890119719 `AT_LEC-KM0818_1` Kruger & Matz Kruger&Matz KM0818.1 internetové rádio s DAB+, Wi-Fi, Bluetooth, USB
+- 8592718047887 `SOL_CA08B-B` Solight CA08B-B
+- 8594182431957 `KB_100002141044` Niceboy Podsie 4 POP White
+- 3149330003330 `KB_100002128215` Les Cafés Sati Sati Rwanda Mushonyi 500 g zrno
+- 8592718035082 `SOL_GL05-38N` Solight GL05-38N
+- 5411397160775 `KB_100002066317` DOMO DO42602S
+- 8592718025205 `SOL_P84` Solight P84
+- 6972470564501 `082190` Herná myš ONIKUMA DM02 (čierna)
+- 6935750560259 `077510` Digitálny multimeter UNI-T UT60BT s Bluetooth
+- 6953156301269 `039400` Ultrazvukový masážny prístroj na tvár so svetelnou terapiou ANLAN 01-ADRY15-001
+- 8594182425161 `KB_100001392601` Niceboy PILOT Q2 WiFi
+- 6975515770431 `044356` Kempingová lampa Superfire T57 – 7 režimov
+- 8592718036454 `SOL_PG04` Solight PG04
+- 8595092107109 `SOL_PP13` Solight PP13
+- 8592718020040 `SOL_WM56` Solight SL0020
+- 8592718010492 `SOL_WPIR01` Solight WPIR01
+- 6933582315290 `085120` Vysokorýchlostné matné vlákno Sunlu PETG (čierne)
+- 5907489601085 `018666` Sada 53 kusov príslušenstva Puluz pre športové kamery PKT16
+- 8003705119130 `KB_100002129922` Ariete Vintage 808/05 modrý
+- 8595235806586 `KB_491500034462` Maxxo Uni 4 ks
+- 8592718026912 `SOL_PZ17` Solight viacnásobná zásuvka, 6 zásuviek
+- 8592718027230 `SOL_WPIR04-W` Solight PIR senzor nástenný, vonkajší, biely
+- 0850007706944 `041447` Teplomer a vlhkomer SwitchBot Plus
+- 1200130029981 `KB_100002200817` JBL Tune 530BT Blue
+- 6972470564518 `082191` Herná myš ONIKUMA DM02 (sivá)
+- 8422160055447 `KB_100001879464` Ufesa Steam Travel PV0500
+- 4006501514264 `KB_100002127020` Leifheit Stěrka Window Slider 40 cm s hliníkovou tyčí 51426
+- 8595627407117 `PEN_782128` Samolepiace hodiny G21 Classic Style
+- 8592718041588 `SOL_WO66-W` SOLIGHT WO66-W
+- 8591680194629 `KB_100002204132` FIXED Mini nabíječka 45W FIXCG45M-CA-WH
+- 8592718041724 `SOL_WN53` Solight LED čelové nabíjacie svietidlo, 100lm, sensor, Li-Ion
+- 8596426112363 `KB_100002164673` Aligator TWS sluchátka Pods ANC TWS08WT
+- 5907489607117 `028635` Puluz 028635
+- 4710343790723 `041322` Počítačové puzdro Darkflash Aquarius Acrylic
+- 8592718043285 `SOL_WO828-CR` Solight WO828-BLK
+- 0810194780011 `079328` Detektor oxidu uhoľnatého X-Sense CO-3D-W Link+
+- 4006501833051 `KB_100000800044` Leifheit Telegant 72 Protect
+- 1200130016547 `KB_100002136478` JBL JR470 modrá
+- 8594051111553 `AT_SPR-42000P11SOLAR` Rádio Openbox DAB-P11-SOLAR DAB+/FM rádio s BT, MP3, nabíjení USB-C/solární panel
+- 4033653016995 `BAS_BASYS-TC_000-EBX00` TC Electronic MAGUS PRO
+- 5905316147874 `053477` Blitzwolf BW-VF3
+- 8592718019952 `SOL_WZ318A-1` Solight LED žiarovka, bodová , 7W, GU10, 3000K, 595lm, biela
+- 8595627423988 `PEN_60022404` Termoska G21 na pitie, 1000 ml, zelená s rukoväťou
+- 4548736142428 `KB_100001937701` SONY WHCH720NB.CE7 černá
+- 8594051111027 `AT_SPR-AIRVOCE` Airmouse OPENBOX VOICE bezdrátové dálkové ovládání, bluetooth
+- 8592718040703 `SOL_WL915` SOLIGHT WL915
+- 8595616500607 `AT_TIP-06560459` Impregnace na kožené oděvy INPRODUCTS WAX 200 ml
+- 8595689812041 `AT_IST-DOVTE00102` Diaľkový ovládač TESLA MEDIABOX XT850
+- 9022001921079 `KB_100001959441` BWT náhradní filtry Mg2 + VIDA MEI bílá
+- 5706622022141 `BAS_BASYS-TC_966111101` TC Electronic PolyTune Clip black clip-on tuner, black
+- 8592718031893 `SOL_1V256` Drevená LED vianočná dedinka Solight 1V256, 34 × 17 cm, 4 LED, 2 × AA
+- 6974246470788 `087531` MOES BHT-002 Wi-Fi LCD termostat
+- 8592718028763 `SOL_1L68` Solight bezdrôtový zvonček, batériový, 200m, biely, learning code
+- 8595092108335 `SOL_PP09` Solight predlžovací prívod, 3 zásuvky, čierny, 3m
+- 3045386366170 `KB_491400034838` TEFAL XA 800512
+- 8592718010942 `SOL_PF31` Solight flexo šnúra, 2x 1mm2, gumová, čierna, 5m
+- 6971636405634 `064739` Creality Hyper PLA 1,75 mm 1 kg biela
+- 4168430001229 `KB_100002203567` Tefal K3028912
+- 5999056766556 `PEN_600228` Hrniec Berlingerhaus s mramorovým povrchom a pokrievkou 20 cm Burgundy Metallic Line BH-1256
+- 5905156102453 `084457` FNIRSI DMT-99 Inteligentný digitálny multimeter
+- 8592718036690 `SOL_KP09` Solight KP09
+- 8592718027254 `SOL_WPIR06` Solight PIR senzor pro E27 žiarovku, biely
+- 4897143171881 `084298` Magnetické filtre Freewell NEO 2 „Everyday“ – 3 ks.
+- 5901890132602 `AT_LEC-KM0835` Rádio KRUGER & MATZ KM0835 SOS FM/ AM, Bluetooth, powerbanka 2000mAh, svítilna, solar, dynamo
+- 5905156102187 `084428` Vysoko presný ručný LCR meter FNIRSI LC1020E
+- 8592718025229 `SOL_1V220` Solight LED projekčná guľa, multicolor, 9 režimov, otáčanie, USB, 4x AAA
+- 8594175359411 `KB_100002065118` Lamax Clips1 ANC White
+- 5412810407408 `AT_NED-WIFIZBT10CWT` NEDIS WIFIZBT10CWT ZigBee Tuya
+- 5905316148765 `057063` Puzdro pre DJI Mini 4 Sunnylife N4P-B697
+- 8592718043445 `SOL_WZ434-1` V-TAC PRO LED žiarovka E14 R50 4,8W 3000K
+- 8590669322640 `PEN_3610375` Slúchadlá Buxton BHP 7300 čierny BT
+- 4897098681633 `PEN_52410002` Múdra zásuvka TP-Link Tapo P100(1-pack) regulácia 230V cez IP, Cloud, WiFi
+- 8592718038618 `SOL_DSP-DYHS01QJS` Solight kefka na čistenie filtra pre Dyson Airwrap
+- 8592718024369 `SOL_5B172` Solight 5B172
+- 8595022060412 `KB_100001117948` Bravo B-6039 digitálne rádio SAM čierne
+- 5907489606622 `026069` Digitálny multimeter so svietidlom Habotest HT118A, True RMS, NCV
+- 8594196538178 `PEN_7822007` Aróma difuzér Sixtol Vulcan svetlé drevo 350 ml
+- 4006501117007 `KB_700000018119` LEIFHEIT Zametač koberců REGULUS
+- 4895252501575 `PEN_52932358` Kamera TP-Link Tapo C510W 3MPx, vonkajšia, IP, WiFi, prísvit
+- 4033653055673 `BAS_BASYS-SL_75C` Behringer SL 75C microphone
+- 6948052900692 `040907` Joystick PXN-2113
+- 6974028140021 `045438` Bezdrôtové slúchadlá Oneodio Fusion A70 (čierne)
+- 8592718034115 `SOL_IR01` Infračervený ohrievač Solight IR01, 1 200 W, 3 nastaviteľné stupne ohrevu
+- 8592718036331 `SOL_WN49` Solight LED nabíjacie vreckové svietidlo so zoomom, 100lm + 70lm, Li-Ion, USB, čierna
+- 8592718042615 `SOL_1V295` Zlatá závesná LED vianočná hviezda Solight 1V295, 60 cm, 20 LED, časovač, 2 × AA
+- 6976037360001 `043027` Inteligentný termostatický radiátorový ventil Avatto TRV06 Zigbee 3.0 TUYA
+- 8595006112724 `KB_100002126767` REMOSKA Remoska® Europa panvica 28 cm
+- 6971636405566 `064738` Creality Hyper PLA sivý 1,75 mm, 1 kg
+- 5038061135152 `KB_100001444342` Russell Hobbs 26280-56/RH Multi Raclette
+- 5056635611741 `KB_100002118731` Warner Bros PS5 Minecraft
+- 8592718033613 `SOL_WZ6105` Solight WZ6105
+- 6920075743067 `079055` Sonoff ZBM5-1C-86W (1 kanál) Inteligentný dotykový nástenný spínač Zigbee
+- 8592718044312 `SOL_WM-50W-T` Solight LED prenosný reflektor 100W/230V/4000K/9000Lm/IP65, sklopný stojan
+- 8592718024307 `SOL_WN30` Solight LED čelové nabíjacie svietidlo, 3W + COB, 150lm + 60lm, Li-Ion
+- 5907085520346 `071851` SUNNYLIFE Combo Bag for DJI Neo (grey)
+- 8592718046842 `SOL_WL920` Solight WL920
+- 8592718027285 `SOL_1V232` Drevený lampáš s LED sviečkou Solight 1V232, 3 × AAA
+- 6972470564402 `080573` Herné slúchadlá ONIKUMA X89 (čierne)
+- 6972470563566 `083248` Herné slúchadlá ONIKUMA X13 (ružové)
+- 5901890124690 `AT_LEC-RBA-6014-8` Rebel ACTIVE Záťažová prikrývka 150x200 8kg
+- 8595092122232 `SOL_PF41` Solight flexo šnúra, 3x 0,75mm2, pletená, 3m
+- 8590977051607 `KB_100002102502` CUBE1 Smart Ring White velikost 8
+- 8055176404000 `KB_100002142389` G3ferrari G2016901 Stolní mixér Giro
+- 5901890127974 `AT_LEC-TSA3226` Sendvičovač TEESA TSA3226 XXL toaster, 900 W
+- 6977328062628 `078075` Vrecko na prach pre vysávač MOVA E20 Plus, E20 Pro Plus 4L [3 ks].
+- 5900779958975 `AT_ITR-00018511` Nástěnné keramické topidlo Airo Kaminer 26388 s Wi-Fi a dálkovým ovládáním
+- 8885020629439 `PEN_52932446` Kamera TP-Link Tapo C236 IP, 5MPx, WiFi, prisvetlenie, vonkajšie/vnútorné
+- 5900804003298 `AT_BL-82-210` Baterie olověná 12V / 4,0Ah XTREME bezúdržbový akumulátor
+- 6974246475462 `087518` Ovládač MOES UFO-R11 ZigBee IR
+- 5905316147591 `055034` Selfie tyč Puluz pre Insta360 One RS / X2 / X3 / X4 / X5 - 3 m (PU642B)
+- 3838782176524 `KB_100000612391` Gorenje MO 20 A3B
+- 1200130015380 `KB_100002136466` JBL Wave Buds 2 bílá
+- 5907489607766 `030003` Počítačová skriňa Darkflash LEO (čierna)
+- 0790069405983 `KB_700000285223` Dlink D-LINK Mobile WiFi 4G Hotspot (DWR-932)
+- 8592718038151 `SOL_DC64BW-PD20` Solight DC64BW-PD20
+- 8595181137550 `KB_100000474392` Aligator ALI PB, PB1000,10000 mAh,čierna PB1000BK
+- 8592718022532 `SOL_PB21B` Solight PB21
+- 8422160051807 `KB_100001879485` Ufesa Easy Chop
+- 8592718013363 `SOL_WM701` Solight sieťový adaptér pre LED pásiky, 230V - 12V, 2A, 24W, biela farba
+- 6924922219590 `051642` Bezdrôtový inteligentný ovládač Yeelight
+- 4260664875819 `PEN_10911011` Oem Batéria AAA MediaRange nabíjateľné USB-C Li-Ion, 1,5V, 500 mAh, 4ks
+- 8595235818749 `KB_100001541081` Maxxo FF0500A
+- 1200130013898 `KB_100002160443` JBL TUNE 305 USB-C Black
+- 5907695592054 `AT_ABL-17-63-083` Ochranná puzzle podložka ONE FItness MP10 modro-šedá
+- 8592718044275 `SOL_WO7204` Solight WO785-1
+- 4006501830401 `KB_100002136242` Leifheit Sušák na prádlo Rollfix 210 Lon
+- 6928819525474 `089466` Vzdelávacia sada xTool mBot Ranger na výučbu programovania
+- 6936685224032 `087056` Káblový herný ovládač GameSir T3 Lite, USB-A
+- 5900779933828 `AT_ITR-00013830` Krbové náradie so stojanom Kaminer PK012, lopatka, metlička, pohrabáč
+- 8594221080108 `KB_100002141256` Rixon AirShots
+- 6955974930010 `086541` Elektrický čistič dna akvária SUNSUN HXS-02, 16 W
+- 6972436987191 `079596` Colmi V89
+- 8591680138289 `KB_100001857067` Selfie tyč a statív Fixed Snap XL FIXSN-XL-BK, teleskopická, čierna
+- 8592718031732 `SOL_1V227-4` Svietidlo Solight Vonkajší LED svetelný záves - hviezdy 1V227-4, šírka 3 m, teplá biela, 123 LED, 3 × AA, IP44
+- 6978763360232 `089536` Súprava na opravu pneumatík Etenwolf R1, 6978763360232
+- 8018080386220 `KB_100001115644` Bezdrôtový headset Cellularline Bold, BTBOLDK, čierny
+- 5905156108745 `089415` Ventilátor WOLFBOX MegaFlow 50
+- 5412810444175 `AT_ATO-RDDBCR2000GN` Núdzové rádio Nedis RDDBCR2000GN, DAB+/FM
+- 3168430276567 `KB_100001740148` Tefal J1640574
+- 4548736161788 `KB_100002104089` Bezdrôtové slúchadlá do uší Sony WFC510Y žltá
+- 3016667201022 `KB_100002201929` Stolný mixér Tefal BL410BF0, 450 W, svetlosivý
+- 8594016903049 `AT_MCM4S01UHD` LNB monoblok Mascom MC M4-S01 UHD, 1 výstup, 0,1 dB
+- 8590393325900 `PEN_7208385` Rýchlovarná kanvica Hyundai VK309, 1,7 l, čierna
+- 8592718041601 `SOL_IR04` Závesný terasový infražiarič Solight IR04, 2000 W, vyžarovanie 360°
+- 8592718037703 `SOL_PP120CW-PD20` Výsuvný blok zásuviek Solight PP120CW-PD20, 3 zásuvky, USB A+C 20 W PD, Wireless 10 W, 2 m, strieborný
+- 6952918344339 `AT_LEC-BAT1151-1` Nabíjačka pre akumulátory XTAR VC4SL 18650
+- 6973137270490 `073688` Moza Quick Release / Rýchloupináč pre volant / guličkové ložiská / pre modely R9 R16 R21 (RS07)
+- 6935750560327 `085042` UNI-T LM60Mi
+- 8595627429300 `PEN_60022453` Termohrnček G21 FlowCup 1200 ml - grafitovo modrý
+- 8592718041564 `SOL_V52` Kliešťový multimeter Solight V52, AC 10 mA – 1 000 A, True RMS
+- 8426709106256 `AT_ELE-1000854` Orbis OB134112
+- 5901890099509 `AT_LEC-RBA-3108-3` Rebel Medicimbal 3 kg
+- 4895252503807 `KB_100002118452` TP-LINK Archer AX17 WiFi Router
+- 6979033600317 `091308` SONOFF S61STPF-PM-O Matter EU vonkajšia zásuvka
+- 5905156105188 `087731` RainPoint Merací prístroj Wi-Fi termohygrometer BALDRTHERM HCS802ARF (senzor + rozbočovač)
+- 5905316141186 `040798` Inteligentná zásuvka BliTZWOlF BW-SHP15, ZigBee, 3680 W
+- 8592718042493 `SOL_OR02` SOLIGHT OR02
+- 6955974904332 `087059` Akvárium pre korytnačky Sunsun FG-U6, najväčší model
+- 6956362941939 `036073` Čelovka Superfire HL58, 350 lm, USB, 3 režimy, 200 m
+- 6976037361169 `058469` Smart termostat Avatto WT410-16A-B pre elektrické vykurovanie, 16 A, Wi-Fi, čierny
+- 5411397013835 `KB_340810064421` Hriankovač DOMO DO961T na štyri krajce chleba
+- 8592718034078 `SOL_PS23` Predlžovací prívod Solight PS23, 1 zásuvka, 25 m, 2 × 1,5 mm² (oranžový)
+- 6977728945286 `088333` MOVA prahová rampa pre modely V50U/Mobius60
+- 8592718041649 `SOL_KP13` Stĺpový teplovzdušný ventilátor Solight KP13, 2000 W, diaľkové ovládanie
+- 5901890101370 `AT_LEC-RBA-2402` Nastaviteľné stojany na činky Rebel Active RBA-2402
+- 6957939004644 `PEN_52932496` Tp-Link IP kamera Mercusys MC500 2 Mpx, vonkajšia, IP PTZ, Wi-Fi, prísvit
+- 5999883022535 `AT_IST-DOVAM00022` Diaľkový ovládač Amiko Univerzálny, HD/SD
+- 8595235803059 `KB_340520055652` Maxxo SKLENICE EXTRA TEA 480 ml
+- 6975515776037 `081948` Baterka Superfire TH04-U, 5 W
+- 8056095872321 `KB_100002127036` Elektrická platnička Girmi PE1600, 11 cm, 500 W
+- 6975116294145 `064817` Parná kefa na srsť pre mačky Rojeco (biela)
+- 4006501257956 `KB_100002136203` LEIFHEIT Rolly Mobil Držiak roliek a fólií 25795
+- 6974662353146 `086701` Canon Selphy Square QX20 červená
+- 8885020624984 `PEN_52932339` IP kamera TP-Link Tapo C530WS 5 MPx, vonkajšia, IP PTZ, Wi-Fi, prísvit
+- 5060569672402 `KB_100001775967` Vákuovacia dóza FoodSaver New Fresh, 2,3 l
+- 8592718018825 `SOL_DA24` Univerzálny sieťový adaptér Solight DA24, 3–12 V, 600 mA
+- 4960999782409 `KB_410210295221` Atramentová kazeta Canon PG-540BK čierny
+- 5901890101356 `AT_LEC-RBA-2400` Hrazda na zhyby Rebel Active RBA-2400 na domáce cvičenie
+- 4006501119414 `KB_100002136160` Náhradné poťahy hlavice Leifheit pre parný čistič CleanTenso Power, 2 ks
+- 6920075743289 `091318` Zigbee spínač na nulovú žilu Sonoff ZBMINIR2-E (1-kanálový)
+- 8003705111028 `KB_342200107779` Jogurtovač Ariete Yogurella 621
+- 4006501515230 `KB_100002136204` Leifheit 51523 Power Slide Click System stierka na okná s teleskopickou tyčou 40 cm
+- 6978763360225 `089535` Súprava na opravu pneumatík Etenwolf R0
+- 5905156102217 `084431` Merací prístroj FNIRSI FNB48P BT Tester USB portov s modrýtooth
+- 8595022060207 `KB_100001117931` Prenosné rádio Bravo B-6010, FM/AM, čierne
+- 8592718025090 `SOL_WD140` Podhľadový LED mini panel Solight WD140, okrúhly, 12 W, 900 lm, 3CCT
+- 6932554464233 `KB_100002201668` Čierne bezdrôtové slúchadlá Xiaomi Redmi Buds 8 Active s výdržou až 37 h
+- 4006501257710 `KB_100002063685` LEIFHEIT Parat F2 Držiak kuchynských roliek, bílý 25771
+- 8592718034764 `SOL_P109PD20` Baseus Metal Gleam 2 Series B00061802813-00
+- 8004032110005 `KB_100001020865` Teplovzdušný ohrievač Ardes 449TI Tepo Time s 24-hodinovým časovačom
+- 8592718042011 `SOL_SD01` V0100909 InnovaGoods Elektrický sušič topánok
+- 4712900107968 `KB_700070747340` Príslušenstvo k počítaču Asus SDRW-08U7M-U BLACK + 2× M-Disk
+- 8592718036430 `SOL_PP161` Predlžovací prívod Solight PP161, 6 zásuviek, 3 m, 3 × 1 mm², biely, vypínače
+- 6975116294169 `064819` Interaktívna laserová hračka pre mačky Rojeco
+- 8595627429348 `PEN_60022457` Termoska na jedlo G21 750 ml – eukalyptovo zelená
+- 6956362901797 `018788` Čelovka Superfire HL06, 500 lm, USB
+- 8595181137987 `KB_100000473375` Čierno-zelené bezdrôtové slúchadlá Aligator AH02 s FM rádiom a microSD
+- 8595697701542 `PEN_7822027` Aróma difuzér do auta Sixtol Car Flame, 100 ml, USB-C, čierny
+- 8595683203746 `KB_100002078754` Rýchlovarná kanvica Salente Stripeglass, 1,8 l, červená
+- 4548736161733 `KB_100002104087` Modré bezdrôtové slúchadlá do uší Sony WF-C510 s výdržou až 22 hodín
+- 6979033600508 `094218` Termostatický radiátorový ventil SONOFF TRV Gen2 ZigBee
+- 3168430311800 `KB_100001188994` Panvica Tefal Unlimited G2550672, 28 cm, Titanium Anti-Scratch, čierna
+- 5907489605182 `025329` Bluetooth vysielač a prijímač BlitzWolf BW-BL2, Bluetooth 5.0
+- 8595627423964 `PEN_60022402` Termoska G21 na pitie, 500 ml, khaki zelená
+- 8885020627510 `PEN_65526105` Súprava príslušenstva TP-Link Tapo RVA105 pre RV30 Max a RV20 Max
+- 9003150143321 `KB_100002096261` Carrera CAT Adventní kalendář 85970
+- 6974246479194 `087501` Wi-Fi ovládač garážových brán MOES WM-102
+- 5901890122979 `AT_LEC-RBA-2407` Rebel RBA-2407 ACTIVE
