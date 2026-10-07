@@ -1,7 +1,7 @@
 {
-  "products": 28619,
-  "matched": 520,
-  "categoryChanges": 151,
+  "products": 28617,
+  "matched": 581,
+  "categoryChanges": 79,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -73,132 +73,6 @@
       "supplier": "atos",
       "code": "LEC-RBA-1017-PRO",
       "ean": "5901890130325",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 722427-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 756491-0110",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 774453-0050",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 774453-0060",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 814836-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 774700-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 834551-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 863314-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 838460-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 000010-0300",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 869196-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 870747-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 934780",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 934798",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 869725-0010",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 869725-0020",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 892122-0100",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B A00509-0100",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 841151-0320",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 1000310",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-BD 459038",
-      "ean": "",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1621,93 +1495,8 @@
   "unseen": [
     {
       "supplier": "basys",
-      "code": "BASYS-B 892930-2100",
-      "ean": "17817858601"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 892930-2200",
-      "ean": "17817858946"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 882963-2200",
-      "ean": "17817848275"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 892079-2100",
-      "ean": "17817856164"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 893955-2100",
-      "ean": "17817858519"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 893955-2200",
-      "ean": "17817858557"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 796145-2100",
-      "ean": "17817783422"
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-B 867236-2100",
       "ean": "17817834261"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895098-0100",
-      "ean": "17817859226"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895098-0200",
-      "ean": "17817859219"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895098-0300",
-      "ean": "17817859936"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0100",
-      "ean": "17817852470"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0300",
-      "ean": "17817852616"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 887612-0160",
-      "ean": "17817852494"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0100",
-      "ean": "17817857932"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0200",
-      "ean": "17817858373"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 894040-0300",
-      "ean": "17817860017"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B  883848-0020",
-      "ean": "17817848831"
     },
     {
       "supplier": "basys",
@@ -1716,63 +1505,8 @@
     },
     {
       "supplier": "basys",
-      "code": "BASYS-B 888926-0010",
-      "ean": "17817853347"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0020",
-      "ean": "17817853330"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0030",
-      "ean": "17817853316"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888926-0040",
-      "ean": "17817853323"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884104-0010",
-      "ean": "17817848855"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884104-0020",
-      "ean": "17817848862"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0100",
-      "ean": "17817859585"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0200",
-      "ean": "17817859561"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 890101-0300",
-      "ean": "17817859592"
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-B 890101-0400",
       "ean": "17817859516"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0100",
-      "ean": "17817859684"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 895491-0200",
-      "ean": "17817859707"
     },
     {
       "supplier": "basys",
@@ -1781,88 +1515,13 @@
     },
     {
       "supplier": "basys",
-      "code": "BASYS-B 895491-0500",
-      "ean": "17817859738"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 884367-0200",
-      "ean": "17817848985"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0010",
-      "ean": "17817861120"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0020",
-      "ean": "17817861076"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0030",
-      "ean": "17817861151"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0040",
-      "ean": "17817861212"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 896637-0050",
-      "ean": "17817861083"
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-B 881046-0010",
       "ean": "17817846929"
     },
     {
       "supplier": "basys",
-      "code": "BASYS-B 881046-0020",
-      "ean": "17817846912"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888507-0100",
-      "ean": "17817853460"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B  888507-0200",
-      "ean": "17817853439"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 888507-0300",
-      "ean": "17817853200"
-    },
-    {
-      "supplier": "basys",
       "code": "BASYS-B 802171-0010",
       "ean": "17817785647"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 802171-0020",
-      "ean": "17817796514"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897829-0010",
-      "ean": "17817861786"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897827-0010",
-      "ean": "17817861793"
-    },
-    {
-      "supplier": "basys",
-      "code": "BASYS-B 897827-0020",
-      "ean": "17817861809"
     },
     {
       "supplier": "basys",
@@ -1947,6 +1606,11 @@
     {
       "supplier": "basys",
       "code": "BASYS-BD 490970",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 459038",
       "ean": ""
     },
     {
@@ -2711,6 +2375,11 @@
     },
     {
       "supplier": "basys",
+      "code": "BASYS-BD 1000310",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
       "code": "BASYS-BD 730092",
       "ean": ""
     },
@@ -2777,6 +2446,11 @@
     {
       "supplier": "basys",
       "code": "BASYS-B 841151-0420",
+      "ean": ""
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 841151-0320",
       "ean": ""
     },
     {
