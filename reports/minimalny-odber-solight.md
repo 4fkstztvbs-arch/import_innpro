@@ -1,6 +1,6 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-07 21:09 UTC.
+Kontrola z 2026-10-07 23:05 UTC.
 
 Solight pri **502** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
