@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — solight — 2026-10-06
+# Cenové anomálie vynechané z feedu — solight — 2026-10-07
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -18,6 +18,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | RNP100-B2 | 8592718030926 | Solight batéria Li-Ion 21V 2Ah pre RNP100/A | cena mimo 8x rozsah mediánu kategórie | 53.50 € | 4.70 € | 1/11.4x | 37 |
 | RNP255-L | 8592718032517 | Solight lišta pre akumulátorovú pílu RNP255 | cena mimo 8x rozsah mediánu kategórie | 53.50 € | 3.10 € | 1/17.3x | 37 |
 | WM90 | 8592718031312 | Solight prepojovací konektor pevný pre COB LED pásy, balenie 1ks, sáčok | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 1.30 € | 1/8.5x | 75 |
+| WM91 | 8592718031329 | Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 1.30 € | 1/8.5x | 75 |
 | RNP150-R | 8592718036522 | Solight reťaz pre akumulátorovú pílu RNP150 | cena mimo 8x rozsah mediánu kategórie | 53.50 € | 4.20 € | 1/12.7x | 37 |
 | WM63-50M-WW | 8592718047641 | Solight LED COB pásik, 50m, teplá biela, 10W/m, 1000lm/m, 8mm | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 135.50 € | 12.3x | 75 |
 | WPH-ND-009 | 8592718032579 | Solight 90° výmenná šošovka pre high bay radu 006 | cena mimo 8x rozsah mediánu kategórie | 49.90 € | 3.50 € | 1/14.3x | 11 |
