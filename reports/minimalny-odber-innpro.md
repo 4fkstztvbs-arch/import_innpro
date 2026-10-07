@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-07 21:13 UTC.
+Kontrola z 2026-10-07 23:14 UTC.
 
-InnPro pri **372** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **379** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -40,6 +40,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `027504` | Počítačový ventilátor ARGB Darkflash DR12 Pro (120x120) | — | 5 |
 | `027505` | Počítačový ventilátor RGB Darkflash D1 (120x120) | — | 5 |
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
+| `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
 | `029279` | Zadné svetlo na bicykel Superfire BTL01, USB, 230 mAh | — | 5 |
 | `029282` | Baterka Superfire S33-A – USB, čierna, 4 režimy | — | 5 |
 | `030322` | Baseus Crystal Shine kábel USB na Lightning, 2,4A, 1,2 m (mo | — | 5 |
@@ -47,6 +48,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 4 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `033419` | Mäkká kefa pre Dreame V10 Pro | — | 5 |
+| `035753` | Kryt kefy pre vysávač Dreame Z10 Pro | — | 2 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
@@ -80,6 +82,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `047993` | Univerzálny diaľkový ovládač IR WiFi Avatto S16 TUYA | — | 5 |
 | `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
 | `048658` | Priehľadný obal a sada tvrdeného skla Baseus Corning pre iPh | — | 5 |
+| `044435` | Baseus Crystal Tempered Glass 0,3 mm pre tablet Huawei MateP | — | 5 |
 | `044419` | Fólia na objektív fotoaparátu Baseus pre iPhone 13 Pro/13 Pr | — | 2 |
 | `049242` | Baseus Tempered-Glass Screen Protector pre HUAWEI P40 | — | 5 |
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
@@ -92,7 +95,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
 | `053641` | Sieťová nabíjačka Joyroom JR-TCF05, 20 W + kábel C-L 1 m (bi | — | 5 |
 | `053691` | Joyroom držiak na palubnú dosku auta JR-ZS350 (strieborný) | — | 5 |
-| `053788` | Kabel Flash Charge USB do Lightning Joyroom SA26-AL3 /3A / 1 | — | 5 |
+| `053788` | Kabel Flash Charge USB do Lightning Joyroom SA26-AL3 /3A / 1 | — | 3 |
 | `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
 | `053576` | Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1, | — | 5 |
 | `053750` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (či | — | 5 |
@@ -164,7 +167,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `069447` | TELESIN flexible mount for phones (gray) | — | 3 |
 | `070758` | Thermal labels Niimbot stickers 40x30 mm - 900 pcs. White | — | 5 |
 | `070768` | Thermal labels Niimbot stickers 50x70 mm - 100 pcs. White | — | 5 |
-| `070769` | Thermal labels Niimbot stickers 60x40 mm - 690 pcs. White | — | 5 |
+| `070769` | Thermal labels Niimbot stickers 60x40 mm - 690 pcs. White | — | 2 |
 | `069478` | EVA protective case for Insta360 X4 / X5 | — | 5 |
 | `070619` | Telesin plastic mounting frame for Insta360 X4 | — | 5 |
 | `070827` | Superfire HL96 headlamp flashlight | — | 5 |
@@ -174,6 +177,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
 | `071869` | SUNNYLIFE propeller guard for DJI Neo (gray) | — | 5 |
 | `071870` | SUNNYLIFE propeller guard for DJI Neo (red) | — | 5 |
+| `071865` | SUNNYLIFE protective battery case for DJI Neo | — | 5 |
 | `071867` | Sunnylife protective case for 3 batteries for DJI Neo | — | 5 |
 | `071893` | Sunnylife tempered glass for DJI Action 5 Pro | — | 5 |
 | `072355` | Chladiaci ventilátor Darkflash DR08 (čierny) | — | 5 |
@@ -219,6 +223,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 5 |
 | `080658` | Tvrdené sklo puluz DJI Osmo 360 (číre) | — | 5 |
 | `080661` | PULUZ DJI Osmo 360 silikónový stojan (čierny) | — | 5 |
+| `080663` | Silikónový kryt s objektívom PULUZ DJI Osmo 360 (sivý) | — | 5 |
 | `080664` | PULUZ silikónový kryt objektívu DJI Osmo 360 (čierny) | — | 5 |
 | `080679` | Telesin DJI Osmo 360 sada ochranných skiel | — | 5 |
 | `080742` | Sunnylife BK03 rýchloupínač pre OP 3 (čierny) | — | 5 |
@@ -233,6 +238,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `081549` | Sunnylife G031 plastový kryt objektívu pre OSMO 360 | — | 5 |
 | `081550` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 | — | 5 |
 | `081553` | Sunnylife SN027 polootvorené plastové ochranné puzdro (čiern | — | 5 |
+| `081555` | Silikónový ochranný kryt kompatibilný so Sunnylife SG034 | — | 5 |
 | `081532` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (žlt | — | 5 |
 | `082306` | Ochranné sklo 2 v 1 (displej + objektív) PULUZ pre Insta360  | — | 5 |
 | `082307` | Puzdro EVA PULUZ Mini pre Insta360 GO Ultra (čierne) | — | 5 |
@@ -246,6 +252,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
 | `082642` | Tvrdené sklo Puluz pre Insta360 X4 Air | — | 5 |
+| `082686` | Súprava na určovanie veľkosti krúžkov RingConn | — | 5 |
 | `082251` | Svietidlo Superfire HL23-X | — | 5 |
 | `083025` | Sada tvrdeného skla Telesin pre DJI Osmo Action 6 (objektív  | — | 5 |
 | `083026` | Sada tvrdeného skla Telesin pre DJI Osmo Action 6 ( 2x objek | — | 5 |
@@ -372,7 +379,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
 | `093563` | Popruh na prilbu SJCAM | — | 4 |
 | `093577` | Držiak SJCAM C300 POCKET | — | 5 |
-| `093578` | Malý statív SJCAM | — | 5 |
+| `093578` | Malý statív SJCAM | — | 4 |
 | `093581` | SJCAM Floaty Bobber – držiak na zvýšenie vztlaku | — | 5 |
 | `093705` | Držiak na rám SJCAM C200 Pro | — | 5 |
 | `093700` | Zadná lišta SJCAM C100 Pro | — | 2 |

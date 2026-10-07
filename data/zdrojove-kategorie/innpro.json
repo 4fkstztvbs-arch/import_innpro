@@ -90,13 +90,13 @@
   "Energia a napájanie > Prenosné elektrické stanice": 6
  },
  "Energia > Elektrické stanice > Príslušenstvo": {
-  "Energia a napájanie > Prenosné elektrické stanice": 17
+  "Energia a napájanie > Prenosné elektrické stanice": 18
  },
  "Energia > Fotovoltaické panely > Balkónové systémy": {
   "Energia a napájanie > Fotovoltaika": 1
  },
  "Energia > Fotovoltaické panely > Fotovoltaické panely": {
-  "Energia a napájanie > Fotovoltaika > Solárne panely": 2
+  "Energia a napájanie > Fotovoltaika > Solárne panely": 3
  },
  "Energia > Fotovoltaické panely > Príslušenstvo": {
   "Energia a napájanie > Fotovoltaika": 1
@@ -195,7 +195,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava": 14
  },
  "Foto a video > Súpravy": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Súpravy príslušenstva pre akčné kamery": 15
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Súpravy príslušenstva pre akčné kamery": 14
  },
  "Foto a video > Wysięgniki > Selfie Stiki > Statywy > Mocowania > Adaptery i przejściówki": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery": 2
@@ -449,6 +449,9 @@
  "IT príslušenstvo > Tablety > Tablety": {
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety": 16
  },
+ "IT príslušenstvo > Tašky, obaly, batohy": {
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom": 2
+ },
  "IT príslušenstvo > Webkamery": {
   "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery": 46
  },
@@ -495,7 +498,7 @@
   "Dielňa, náradie a záhrada > Dielenské vybavenie": 1
  },
  "Kreatívne technológie > Potlač textilu": {
-  "3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu": 78
+  "3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu": 79
  },
  "Malé domáce spotrebiče > AGD małe": {
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Ostatné domáce spotrebiče": 5
@@ -582,7 +585,7 @@
   "Zdravie a starostlivosť > Matka a dieťa": 4
  },
  "Matka a dieťa > Kŕmenie dieťaťa": {
-  "Zdravie a starostlivosť > Matka a dieťa": 7
+  "Zdravie a starostlivosť > Matka a dieťa": 6
  },
  "Matka a dieťa > Odsávačky mlieka a masážne prístroje > Odsávačky mlieka": {
   "Zdravie a starostlivosť > Matka a dieťa": 3
@@ -705,7 +708,7 @@
   "Energia a napájanie > Nabíjačky batérií a akumulátorov": 8
  },
  "Príslušenstvo GSM > Nabíjačky > sieťové nabíjačky": {
-  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily": 27
+  "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily": 28
  },
  "Príslušenstvo GSM > Obaly na telefóny > Ochranné puzdrá pre smartfóny": {
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom": 216
@@ -909,7 +912,7 @@
   "Dielňa, náradie a záhrada > Záhrada a bazén > Zariadenia na čistenie bazénov": 31
  },
  "Záhrada > Zavlažovacie systémy": {
-  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy": 54
+  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy": 55
  },
  "Zdravie a krása > Erotika > Vibrátory": {
   "Zdravie a starostlivosť > Starostlivosť o zdravie": 2
@@ -969,10 +972,10 @@
   "Zdravie a starostlivosť > Osobné váhy": 1
  },
  "Zvieratá > Akvaristika > Akváriové čerpadlá": {
-  "Chovateľské potreby > Akvaristika": 13
+  "Chovateľské potreby > Akvaristika": 14
  },
  "Zvieratá > Akvaristika > Akváriové filtre": {
-  "Chovateľské potreby > Akvaristika": 23
+  "Chovateľské potreby > Akvaristika": 24
  },
  "Zvieratá > Akvaristika > Filtre do jazierok": {
   "Chovateľské potreby > Akvaristika": 10
@@ -987,10 +990,10 @@
   "Chovateľské potreby": 3
  },
  "Zvieratá > Akvaristika2 > Akváriové čerpadlá": {
-  "Chovateľské potreby": 19
+  "Chovateľské potreby": 18
  },
  "Zvieratá > Akvaristika2 > Akváriové filtre": {
-  "Chovateľské potreby": 3
+  "Chovateľské potreby": 2
  },
  "Zvieratá > Akvaristika2 > Fontánové čerpadlá do záhrady": {
   "Chovateľské potreby": 3
