@@ -3050,7 +3050,9 @@ body.type-detail #product-detail-form .add-to-cart-button:focus-visible,
   #categories .topic > a,
   #categories li.active > a { font-weight: 700; }
   #categories .topic > a,
-  #categories li > a { padding: 9px 12px; min-height: 40px; border-radius: 8px; }
+  /* vľavo ostáva miesto pre šípku (span.cat-trigger je absolútne pozicovaný) */
+  #categories li > a { padding: 9px 12px 9px 32px; min-height: 40px; border-radius: 8px; }
+  #categories span.cat-trigger { left: 8px; }
   #categories li > a:hover,
   #categories .topic > a:hover { background: #eff4f6; }
   #categories span.cat-trigger::before { border-color: #5b6b76 !important; }
