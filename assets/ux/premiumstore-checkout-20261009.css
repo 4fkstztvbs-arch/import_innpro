@@ -1,0 +1,90 @@
+/*
+ * PremiumStore: objednávkový proces, krok 1 návrhu (9. 10. 2026).
+ * Platí len pre košík a kroky objednávky (body.ordering-process).
+ *
+ * 1) Mobil: krok 3 (Informácie o Vás) bol 418 px široký pri okne 390 px, pretože fieldset má
+ *    v prehliadačoch min-width: min-content. Okraje polí sa orezali a telefón sa lámal.
+ * 2) Cookie lišta v objednávke je nižšia, aby nezakrývala voľby dopravy a platby.
+ * 3) Polia a tlačidlá podľa návrhu: zaoblenie 10 px, výraznejší okraj, zelený focus,
+ *    písmo 16 px (iOS neprilieha pri kliknutí), tlačidlá bez rozostupov medzi písmenami.
+ *
+ * V Shoptete (Hlavička): <link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-checkout-20261009.css?v=1">
+ * Rollback = odstrániť jeden <link>.
+ */
+body.ordering-process {
+  --ps-ck-green: #167450;
+  --ps-ck-green-soft: #e6f2ec;
+  --ps-ck-line: #c5d3d6;
+  --ps-ck-ink: #0e151c;
+}
+
+/* --- 1) Šírka formulára --- */
+body.ordering-process fieldset,
+body.ordering-process fieldset.co-box { min-width: 0 !important; max-width: 100%; }
+body.ordering-process .cart-inner { max-width: 100%; box-sizing: border-box; }
+body.ordering-process .co-box .form-group,
+body.ordering-process .co-box .form-control { min-width: 0; max-width: 100%; box-sizing: border-box; }
+body.ordering-process .co-box .iti,
+body.ordering-process .co-box .intl-tel-input { max-width: 100%; }
+
+/* --- 2) Cookie lišta v objednávke --- */
+@media (max-width: 767px) {
+  body.ordering-process .siteCookies .siteCookies__form { padding: 8px 12px !important; gap: 4px 8px !important; }
+  body.ordering-process .siteCookies .siteCookies__text { font-size: 11.5px !important; line-height: 1.3 !important; }
+  body.ordering-process .siteCookies .siteCookies__button { height: 40px !important; min-height: 40px !important; font-size: 13px !important; }
+  body.ordering-process .siteCookies .siteCookies__link { padding: 2px !important; font-size: 12px !important; }
+}
+
+/* --- 3) Polia --- */
+html body.ordering-process #order-form .co-box input.form-control:not([type="checkbox"]):not([type="radio"]),
+html body.ordering-process #order-form .co-box select.form-control,
+html body.ordering-process .cart-content input.form-control:not([type="checkbox"]):not([type="radio"]) {
+  min-height: 48px !important;
+  font-size: 16px !important;
+  border: 1.5px solid var(--ps-ck-line) !important;
+  border-radius: 10px !important;
+  color: var(--ps-ck-ink);
+  box-shadow: none !important;
+  background-clip: padding-box;
+}
+html body.ordering-process #order-form .co-box textarea.form-control { border-radius: 10px !important; border: 1.5px solid var(--ps-ck-line) !important; font-size: 16px !important; min-height: 96px; }
+body.ordering-process .co-box .form-control:focus {
+  border-color: var(--ps-ck-green) !important;
+  outline: 3px solid rgba(22, 116, 80, .22);
+  outline-offset: 0;
+}
+/* Telefón: predvoľba (+421) na jednom riadku vedľa poľa */
+body.ordering-process .phone-combined-input { display: flex !important; align-items: center; gap: 8px; min-width: 0; }
+body.ordering-process .phone-combined-input .country-flags { flex: 0 0 auto; }
+body.ordering-process .phone-combined-input .country-flags-inner { display: flex !important; align-items: center; gap: 4px; white-space: nowrap !important; width: auto !important; }
+body.ordering-process .phone-combined-input .country-flags-inner * { white-space: nowrap !important; }
+body.ordering-process .phone-combined-input input { flex: 1 1 auto; min-width: 0; width: auto !important; }
+@media (max-width: 767px) {
+  body.ordering-process .co-box .form-group label,
+  body.ordering-process .co-box .form-group .control-label { font-size: 13px; }
+}
+
+/* --- 3) Voľby dopravy a platby --- */
+body.ordering-process .co-delivery-method .radio-wrapper,
+body.ordering-process .co-payment-method .radio-wrapper { border-radius: 10px; }
+body.ordering-process .co-delivery-method input[type="radio"]:checked + label,
+body.ordering-process .co-payment-method input[type="radio"]:checked + label { border-color: var(--ps-ck-green); }
+
+/* --- 3) Tlačidlá --- */
+body.ordering-process .next-step .btn,
+body.ordering-process .next-step a.btn,
+body.ordering-process .order-summary .btn,
+body.ordering-process #submit-order,
+body.ordering-process .cart-content .btn-conversion {
+  border-radius: 10px !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  font-weight: 700;
+  min-height: 52px;
+}
+html body.ordering-process #submit-order .order-button-text { font-size: 16px; text-transform: none !important; letter-spacing: 0 !important; }
+body.ordering-process #submit-order .order-button-suffix { display: block; font-size: 12px; font-weight: 500; opacity: .9; letter-spacing: 0; }
+body.ordering-process .next-step .btn-conversion,
+body.ordering-process .next-step .btn-primary,
+body.ordering-process .order-summary .btn-conversion,
+body.ordering-process .order-summary .btn-primary { background: var(--ps-ck-green); border-color: var(--ps-ck-green); }
