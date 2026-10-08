@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-07 23:05 UTC.
+Kontrola z 2026-10-08 19:52 UTC.
 
-Solight pri **502** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **507** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -84,12 +84,14 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
 | `WM81` | Solight prepojovací pravouhlý konektor pre LED pásy, 8mm zac | 8 | 150 |
 | `WM82` | Solight prepojovací pravouhlý konektor pre LED pásy, 10mm za | 8 | 100 |
 | `1T4A6-T2` | Solight náhradné trubičky pro alkohol tester Solight 1T04A,  | 8 | 200 |
+| `RNP100-L` | Solight lišta pre akumulátorovú pílu RNP100/A/A1 | 8 | 50 |
 | `P75B` | Solight zástrčka uhlová, s priebežnou zásuvkou, IP20 čierna | 8 | 100 |
 | `P75` | Solight zástrčka uhlová, s priebežnou zásuvkou | 8 | 100 |
 | `WM93` | Solight prepojovací pravouhlý konektor pre COB LED pásy, 1ks | 8 | 150 |
@@ -204,8 +206,10 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `P79` | Solight zásuvka gumová do vlhka a prachu, priama, IP65, čier | 4 | 50 |
 | `1V54-WW` | Solight vianočná reťaz medená, 100x mini LED, 10m, 3 x AA, t | 4 | 40 |
 | `WZ328` | Solight LED žiarovka G9, 6,0W, 3000K, 600lm | 4 | 100 |
+| `RNP150-L` | Solight lišta pre akumulátorovú pílu RNP150 | 4 | 100 |
 | `WW002` | Solight káblová vodotesná spojka uni, IP68,4-11mm, max 2,5mm | 4 | 400 |
 | `WZ535` | Solight LED žiarovka, klasický tvar, 22W, E27, 3000K, 270°,  | 4 | 100 |
+| `RNP100-R` | Solight reťaz pre akumulátorovú pílu RNP100/A/A1 | 4 | 50 |
 | `WZ536` | Solight LED žiarovka, klasický tvar, 22W, E27, 4000K, 270°,  | 4 | 100 |
 | `PZ16` | Solight viacnásobná zásuvka, 5 zásuviek, vypínač | 4 | 50 |
 | `GN13` | Solight koaxiálny kábel CC120, sáčok, 15m | 4 | 20 |
@@ -296,6 +300,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PS03X` | Solight predlžovací prívod 3m, 1 zásuvka, 16A/3680W, PVC, bi | 3 | 50 |
 | `WT132-A` | Solight LED žiarivka lineárna T8, 22W, 3080lm, 4000K, 150cm, | 3 | 25 |
 | `PP42` | Solight predlžovací prívod, 5 zásuviek, biely, 3m | 3 | 40 |
+| `RNP150-R` | Solight reťaz pre akumulátorovú pílu RNP150 | 3 | 100 |
 | `PF21` | Solight flexo šnúra, 3x 1,5mm2, biela, 3m | 3 | 50 |
 | `1V249` | Solight LED závesná dekorácia - les s jeleňami, 14x LED, 2x  | 3 | 20 |
 | `PP60` | Solight predlžovací prívod, 6 zásuviek, biely, 1,5 m | 3 | 50 |
