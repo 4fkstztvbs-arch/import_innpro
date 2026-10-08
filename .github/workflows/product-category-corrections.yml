@@ -25,6 +25,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - name: Nainštalovať závislosti
+        run: npm install --omit=dev
       - name: Overiť presné opravy a zachovanie ostatných údajov
         run: node --test scripts/test-product-category-corrections.js
       - name: Zapracovať potvrdené opravy do existujúcich feedov
