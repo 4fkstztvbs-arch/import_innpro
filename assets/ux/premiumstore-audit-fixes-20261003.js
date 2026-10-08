@@ -25,3 +25,18 @@
     markEmptyBrandNoindex();
   }
 })();
+
+/* Prístupnosť: prihlasovacie tlačidlo bez textu dostane názov. */
+(function () {
+  function labelControls() {
+    var login = document.querySelector('.top-nav-button-login');
+    if (login && !login.getAttribute('aria-label') && !(login.textContent || '').trim()) {
+      login.setAttribute('aria-label', 'Prihlásenie');
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', labelControls);
+  } else {
+    labelControls();
+  }
+})();
