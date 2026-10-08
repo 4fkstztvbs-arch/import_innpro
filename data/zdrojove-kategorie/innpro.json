@@ -36,7 +36,7 @@
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 37
  },
  "Audio > Reproduktory > Prenosné Bluetooth reproduktory": {
-  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 22
+  "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 26
  },
  "Audio > Reproduktory > Sady reproduktorov": {
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 11
@@ -48,13 +48,13 @@
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 4
  },
  "Audio > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné slúchadlá": {
-  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 66
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 69
  },
  "Audio > Slúchadlá > Bezdrôtové slúchadlá > Šport": {
   "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 12
  },
  "Audio > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá": {
-  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 93
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 95
  },
  "Audio > Slúchadlá > Drôtové slúchadlá": {
   "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá": 48
@@ -90,7 +90,7 @@
   "Energia a napájanie > Prenosné elektrické stanice": 6
  },
  "Energia > Elektrické stanice > Príslušenstvo": {
-  "Energia a napájanie > Prenosné elektrické stanice": 18
+  "Energia a napájanie > Prenosné elektrické stanice": 19
  },
  "Energia > Fotovoltaické panely > Balkónové systémy": {
   "Energia a napájanie > Fotovoltaika": 1
@@ -99,7 +99,7 @@
   "Energia a napájanie > Fotovoltaika > Solárne panely": 3
  },
  "Energia > Fotovoltaické panely > Príslušenstvo": {
-  "Energia a napájanie > Fotovoltaika": 1
+  "Energia a napájanie > Fotovoltaika": 2
  },
  "Energia > Powerbanky": {
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky": 13
@@ -321,7 +321,7 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie": 27
  },
  "Inteligentná domácnosť > Osvetlenie > Svietidlá": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie": 4
+  "Elektro, Smart Home a osvetlenie > Osvetlenie": 3
  },
  "Inteligentná domácnosť > Príslušenstvo": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť": 37
@@ -477,7 +477,7 @@
   "3D tlač a digitálna výroba > 3D tlačiarne a materiály": 6
  },
  "Kreatívne technológie > 3D tlač > Príslušenstvo pre 3D tlačiarne": {
-  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam": 104
+  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam": 103
  },
  "Kreatívne technológie > 3D tlač > Vlákna": {
   "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna": 278
@@ -971,35 +971,26 @@
  "Zdravie a krása > Váhy": {
   "Zdravie a starostlivosť > Osobné váhy": 1
  },
+ "Zvieratá > Akvaristika > Akváriá a nádrže": {
+  "Chovateľské potreby > Akvaristika": 3
+ },
  "Zvieratá > Akvaristika > Akváriové čerpadlá": {
-  "Chovateľské potreby > Akvaristika": 14
+  "Chovateľské potreby > Akvaristika": 32
  },
  "Zvieratá > Akvaristika > Akváriové filtre": {
-  "Chovateľské potreby > Akvaristika": 24
+  "Chovateľské potreby > Akvaristika": 26
  },
  "Zvieratá > Akvaristika > Filtre do jazierok": {
   "Chovateľské potreby > Akvaristika": 10
  },
  "Zvieratá > Akvaristika > Fontánové čerpadlá do záhrady": {
-  "Chovateľské potreby > Akvaristika": 4
+  "Chovateľské potreby > Akvaristika": 7
  },
  "Zvieratá > Akvaristika > Svetlá do jazierok": {
   "Chovateľské potreby > Akvaristika": 8
  },
- "Zvieratá > Akvaristika2 > Akváriá a nádrže": {
-  "Chovateľské potreby": 3
- },
- "Zvieratá > Akvaristika2 > Akváriové čerpadlá": {
-  "Chovateľské potreby": 18
- },
- "Zvieratá > Akvaristika2 > Akváriové filtre": {
-  "Chovateľské potreby": 2
- },
- "Zvieratá > Akvaristika2 > Fontánové čerpadlá do záhrady": {
-  "Chovateľské potreby": 3
- },
  "Zvieratá > Dávkovače krmiva > misky": {
-  "Chovateľské potreby > Misky a dávkovače krmiva": 43
+  "Chovateľské potreby > Misky a dávkovače krmiva": 42
  },
  "Zvieratá > Dozowniki karmy > Miski": {
   "Chovateľské potreby > Misky a dávkovače krmiva": 4
