@@ -35,8 +35,9 @@ for (const [supplier, prefix] of Object.entries(cfg.prefixy)) {
     if (Object.keys(row).length) rows.push({ code: shoptetCode(prefix, unwrap(code.trim())), row });
   }
 }
-const lines = [['code', ...columns.map((c) => `filteringProperty:${c}`)].map(csv).join(';')];
-for (const r of rows) lines.push([csv(r.code), ...columns.map((c) => csv(r.row[c] || ''))].join(';'));
+// Shoptet vyžaduje pairCode ako druhý stĺpec (prázdny pri produktoch bez variantov).
+const lines = [['code', 'pairCode', ...columns.map((c) => `filteringProperty:${c}`)].map(csv).join(';')];
+for (const r of rows) lines.push([csv(r.code), csv(''), ...columns.map((c) => csv(r.row[c] || ''))].join(';'));
 const out = process.argv[2] || 'filter-params-import.csv';
 fs.writeFileSync(out, '﻿' + lines.join('\n') + '\n');
 console.log(`Riadkov: ${rows.length}, stĺpce: ${columns.join(', ')} -> ${out}`);
