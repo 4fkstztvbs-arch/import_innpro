@@ -1,0 +1,55 @@
+/*
+ * PremiumStore: košík v hlavičke po pridaní produktu (8. 10. 2026).
+ * Predtým: čierny kruh s nečitateľným číslom prekrýval ikonu. Teraz: ikona, malý oranžový
+ * odznak s počtom kusov v pravom hornom rohu a na desktope (od 1200 px) vedľa nej suma košíka.
+ * Prázdny košík: bez odznaku a bez sumy (ako doteraz).
+ *
+ * V Shoptete (Hlavička): <link rel="stylesheet" href="https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-header-cart-20261008.css?v=1">
+ * Rollback = odstrániť jeden <link>.
+ */
+#header .navigation-buttons > a.cart-count { position: relative; }
+#header .navigation-buttons > a.cart-count > i[data-testid="headerCartCount"] {
+  display: none !important;
+}
+#header .navigation-buttons > a.cart-count.full > i[data-testid="headerCartCount"] {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  position: absolute !important;
+  top: 2px !important;
+  right: -4px !important;
+  left: auto !important;
+  width: auto !important;
+  min-width: 18px;
+  height: 18px !important;
+  padding: 0 5px !important;
+  box-sizing: border-box;
+  border-radius: 9px !important;
+  background: #ee5a2f !important;
+  color: #fff !important;
+  font: 700 11px/18px "Inter", system-ui, sans-serif !important;
+  font-style: normal !important;
+  letter-spacing: 0;
+  text-align: center;
+  box-shadow: 0 0 0 2px #fff;
+  pointer-events: none;
+}
+@media (min-width: 1200px) {
+  #header.ps-compact-header .navigation-buttons > a.cart-count.full {
+    width: auto !important;
+    padding: 0 6px 0 4px !important;
+    gap: 6px;
+  }
+  #header.ps-compact-header .navigation-buttons > a.cart-count.full .cart-price {
+    display: inline-block !important;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    color: var(--ps-ink, #0e151c);
+  }
+  #header .navigation-buttons > a.cart-count.full > i[data-testid="headerCartCount"] {
+    right: auto !important;
+    left: 22px !important;
+  }
+}
