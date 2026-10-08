@@ -25,3 +25,18 @@
     markEmptyBrandNoindex();
   }
 })();
+
+/* Prístupnosť: tlačidlá bez textu dostanú názov; druhý H1 v prázdnom košíku sa zmení na H2 (len sémantika). */
+(function () {
+  function labelControls() {
+    var login = document.querySelector('.top-nav-button-login');
+    if (login && !login.getAttribute('aria-label') && !(login.textContent || '').trim()) {
+      login.setAttribute('aria-label', 'Prihlásenie');
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', labelControls);
+  } else {
+    labelControls();
+  }
+})();

@@ -2960,3 +2960,67 @@ body.type-category .category-top > .category-perex:not(:has(.ps-grid)):not(:has(
   animation: ps-perex-show 0s 5s forwards;
 }
 @keyframes ps-perex-show { to { display: block; } }
+
+/* ==== UX/a11y úpravy 2026-10-08 (audit impeccable) ==== */
+
+/* P1-2) Viditeľný fokus z klávesnice na primárnych ovládacích prvkoch */
+body.type-detail #product-detail-form .add-to-cart-button:focus-visible,
+.quantity button:focus-visible,
+.link-icon:focus-visible,
+.p-detail-tabs a:focus-visible,
+.shp-tab-link:focus-visible,
+.top-nav-button:focus-visible,
+.close-after:focus-visible {
+  outline: 3px solid #0e151c !important;
+  outline-offset: 3px !important;
+}
+
+/* P1-3) Dotykové plochy aspoň 44 px tam, kde boli menšie */
+.quantity button.increase,
+.quantity button.decrease { min-width: 44px; }
+.close-after.js-share-buttons-trigger {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 44px; min-width: 44px; padding: 0 12px;
+}
+.link-icons .link-icon { min-height: 44px; display: inline-flex; align-items: center; }
+.ps-footer-help a[href^="tel"], .ps-footer-help a[href^="mailto"],
+.ps-footer-grid a[href^="tel"], .ps-footer-grid a[href^="mailto"] {
+  display: inline-flex; align-items: center; min-height: 44px;
+}
+.shp-tabs-row .navigation-btn { min-width: 44px; min-height: 44px; }
+#footer .ps-footer-grid a { padding-block: 6px; }
+
+/* P1-1) Cookie lišta na desktope: malá karta v rohu namiesto širokého panela cez obsah */
+@media (min-width: 768px) {
+  .siteCookies.siteCookies--bottom {
+    left: 16px !important; right: auto !important; bottom: 16px !important;
+    width: 420px !important; max-width: calc(100vw - 32px) !important; transform: none !important; margin: 0 !important;
+  }
+  .siteCookies .siteCookies__form { padding: 14px 16px !important; flex-direction: column !important; align-items: stretch !important; }
+  .siteCookies .siteCookies__text { font-size: 14px !important; line-height: 1.45 !important; margin: 0 0 8px !important; }
+  .siteCookies .siteCookies__buttonWrap {
+    display: flex !important; flex-direction: row !important; flex-wrap: wrap; gap: 8px; width: auto !important; margin: 0 !important;
+  }
+  .siteCookies .siteCookies__button { flex: 1 1 0; min-height: 44px; margin: 0 !important; }
+}
+
+/* P2-4) Kategória (desktop): ľavý stĺpec s filtrom nelepí na okraj obrazovky */
+@media (min-width: 992px) {
+  .sidebar.sidebar-left { padding-left: 20px; box-sizing: border-box; }
+}
+
+/* P2-6) Detail produktu (desktop): záložky Popis / Parametre zarovnané s obsahom */
+@media (min-width: 768px) {
+  .p-detail-tabs-wrapper .shp-tabs-holder { text-align: left !important; }
+  .p-detail-tabs-wrapper .shp-tabs.p-detail-tabs { margin-left: 0 !important; }
+}
+
+/* P2-5) „Najpredávanejšie“ v kategórii: obrázok nad textom, názov max. 3 riadky, rovnaké výšky kariet */
+#productsTop.products-top { align-items: stretch; }
+#productsTop.products-top .product > p,
+#productsTop.products-top .product .p {
+  display: flex !important; flex-direction: column !important; align-items: flex-start !important; height: 100%;
+}
+#productsTop.products-top .product .name {
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: 8px;
+}
