@@ -1,6 +1,6 @@
 {
   "minimum": 8,
-  "totalProducts": 28503,
+  "totalProducts": 28501,
   "matchedRules": 2240,
   "changedProducts": 989,
   "rejected": [
@@ -2126,7 +2126,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
-      "visibleUnique": 40,
+      "visibleUnique": 39,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
