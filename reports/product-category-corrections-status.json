@@ -1,10 +1,10 @@
 {
-  "products": 28754,
-  "matched": 824,
-  "categoryChanges": 199,
-  "nameChanges": 0,
+  "products": 28501,
+  "matched": 886,
+  "categoryChanges": 356,
+  "nameChanges": 9,
   "descriptionChanges": 0,
-  "automaticCategoryChanges": 0,
+  "automaticCategoryChanges": 209,
   "automaticCategoryUnclassified": [
     {
       "supplier": "innpro",
@@ -215,48 +215,6 @@
     },
     {
       "supplier": "innpro",
-      "code": "019498",
-      "ean": "5907489601849",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "029090",
-      "ean": "6973734689732",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "033419",
-      "ean": "6972086390389",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "035753",
-      "ean": "6973734689404",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "039677",
-      "ean": "6973734686748",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "038163",
-      "ean": "6956362971554",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "048201",
-      "ean": "6972971860959",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
       "code": "050684",
       "ean": "6973734687318",
       "reason": "Changed name or category; needs review"
@@ -269,206 +227,14 @@
     },
     {
       "supplier": "innpro",
-      "code": "059286",
-      "ean": "6976233670256",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "063488",
-      "ean": "5906168432392",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "063489",
-      "ean": "5906168432408",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
       "code": "061537",
       "ean": "6976233672816",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "innpro",
-      "code": "063866",
-      "ean": "5906168432293",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "067558",
-      "ean": "6972971865176",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "068840",
-      "ean": "6976233678931",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "070830",
-      "ean": "5906168439209",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "071368",
-      "ean": "6955578044649",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
       "code": "073522",
       "ean": "5907085523224",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "076175",
-      "ean": "5907085525037",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "072604",
-      "ean": "6974944463419",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "077866",
-      "ean": "5907085526461",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078067",
-      "ean": "6977328062604",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078068",
-      "ean": "6977328063687",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078070",
-      "ean": "6977728942612",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078071",
-      "ean": "6977728947662",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078077",
-      "ean": "6977728944098",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078081",
-      "ean": "6977728944036",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078082",
-      "ean": "6977728941721",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078091",
-      "ean": "6977728944050",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078098",
-      "ean": "6977728943084",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078088",
-      "ean": "6977728944081",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078416",
-      "ean": "6974944464652",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "080729",
-      "ean": "5907085529264",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "080728",
-      "ean": "5907085529257",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "081117",
-      "ean": "6923520216772",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "081118",
-      "ean": "6923520216796",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "081119",
-      "ean": "6923520216789",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "081513",
-      "ean": "5905156100640",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "081515",
-      "ean": "5905156100718",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "082308",
-      "ean": "5905156100947",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "082310",
-      "ean": "5905156100961",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "082317",
-      "ean": "5905156101036",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -485,12 +251,6 @@
     },
     {
       "supplier": "innpro",
-      "code": "083790",
-      "ean": "6974028141868",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
       "code": "083439",
       "ean": "6978515257513",
       "reason": "Changed name or category; needs review"
@@ -499,12 +259,6 @@
       "supplier": "innpro",
       "code": "083292",
       "ean": "6979181921784",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "083762",
-      "ean": "6976831839680",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -563,24 +317,6 @@
     },
     {
       "supplier": "innpro",
-      "code": "088694",
-      "ean": "5905156105638",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "088695",
-      "ean": "5905156105645",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "088696",
-      "ean": "5905156105652",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
       "code": "088155",
       "ean": "6977328065544",
       "reason": "Changed name or category; needs review"
@@ -589,282 +325,6 @@
       "supplier": "innpro",
       "code": "088156",
       "ean": "6977328065551",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "088161",
-      "ean": "6977328060952",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "086996",
-      "ean": "6977728943107",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "086999",
-      "ean": "6977728947525",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087006",
-      "ean": "6977728947242",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087007",
-      "ean": "6977728945460",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087008",
-      "ean": "6977728942841",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087009",
-      "ean": "6978794730998",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087015",
-      "ean": "6978794731308",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087016",
-      "ean": "6978794731315",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087017",
-      "ean": "6978794731377",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087019",
-      "ean": "6978794731469",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087020",
-      "ean": "6977728947686",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087021",
-      "ean": "6977328063519",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087022",
-      "ean": "6977728940434",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087023",
-      "ean": "6977728941554",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087027",
-      "ean": "6978794731391",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087245",
-      "ean": "6977728946948",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "087997",
-      "ean": "6976233679723",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089569",
-      "ean": "6978794733371",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089576",
-      "ean": "6978794731612",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089577",
-      "ean": "6977728945835",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089578",
-      "ean": "6977728945828",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089580",
-      "ean": "6977728945842",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089615",
-      "ean": "5905156106925",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089636",
-      "ean": "5905156106475",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089594",
-      "ean": "5905156106888",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089579",
-      "ean": "6977728948607",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089581",
-      "ean": "6977728947754",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089583",
-      "ean": "6977728944067",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "089585",
-      "ean": "6977728947648",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090567",
-      "ean": "6979181923108",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090569",
-      "ean": "6979181923115",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "090469",
-      "ean": "4897143172307",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "091951",
-      "ean": "5905156110113",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "088337",
-      "ean": "6977728942537",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "028538",
-      "ean": "6923520267705",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "038943",
-      "ean": "6932172615468",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "039208",
-      "ean": "6956116733919",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "039232",
-      "ean": "6956116717049",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "039239",
-      "ean": "6956116716868",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "044829",
-      "ean": "6956116732523",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "044844",
-      "ean": "6956116728571",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "058016",
-      "ean": "6956116788827",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "058841",
-      "ean": "5905316149311",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "070908",
-      "ean": "6922794787346",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "innpro",
-      "code": "078075",
-      "ean": "6977328062628",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1337,6 +797,12 @@
     },
     {
       "supplier": "monacor",
+      "code": "GD-04K",
+      "ean": "8595614112956",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "KM-24110",
       "ean": "4016842814527",
       "reason": "Changed name or category; needs review"
@@ -1345,6 +811,12 @@
       "supplier": "monacor",
       "code": "KM-24120",
       "ean": "4016842817467",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SAM-80WIFI",
+      "ean": "8588008802168",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1607,6 +1079,12 @@
     },
     {
       "supplier": "solight",
+      "code": "LLM-S",
+      "ean": "8592718026462",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
       "code": "SSC1301E",
       "ean": "8592718014667",
       "reason": "Changed name or category; needs review"
@@ -1619,8 +1097,26 @@
     },
     {
       "supplier": "solight",
+      "code": "PAP01",
+      "ean": "8592718030841",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
+      "code": "SSWC02",
+      "ean": "8592718042035",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
       "code": "GN14",
       "ean": "8595092102272",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
+      "code": "SSWC01",
+      "ean": "8592718042028",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1631,8 +1127,38 @@
     },
     {
       "supplier": "solight",
+      "code": "SSPB01",
+      "ean": "8592718035211",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
       "code": "1D76S",
       "ean": "8592718047986",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
+      "code": "UR02",
+      "ean": "8595092128654",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
+      "code": "DSP-DYVRTL",
+      "ean": "8592718038724",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
+      "code": "KP07B",
+      "ean": "8592718041632",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
+      "code": "DSP-DYV12ZJ",
+      "ean": "8592718038755",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1655,6 +1181,12 @@
     },
     {
       "supplier": "solight",
+      "code": "DSP-DYV8ZJTW",
+      "ean": "8592718038786",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
       "code": "1D80",
       "ean": "8592718036492",
       "reason": "Changed name or category; needs review"
@@ -1663,6 +1195,18 @@
       "supplier": "solight",
       "code": "SSN1203E",
       "ean": "8595092115401",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
+      "code": "SSWC03",
+      "ean": "8592718044121",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "solight",
+      "code": "DSP-DYV8RG",
+      "ean": "8592718038793",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -3036,6 +2580,41 @@
     },
     {
       "supplier": "innpro",
+      "code": "028538",
+      "ean": "6923520267705"
+    },
+    {
+      "supplier": "innpro",
+      "code": "039208",
+      "ean": "6956116733919"
+    },
+    {
+      "supplier": "innpro",
+      "code": "039239",
+      "ean": "6956116716868"
+    },
+    {
+      "supplier": "innpro",
+      "code": "039232",
+      "ean": "6956116717049"
+    },
+    {
+      "supplier": "innpro",
+      "code": "038943",
+      "ean": "6932172615468"
+    },
+    {
+      "supplier": "innpro",
+      "code": "044844",
+      "ean": "6956116728571"
+    },
+    {
+      "supplier": "innpro",
+      "code": "044829",
+      "ean": "6956116732523"
+    },
+    {
+      "supplier": "innpro",
       "code": "050687",
       "ean": "6973734683792"
     },
@@ -3043,6 +2622,16 @@
       "supplier": "innpro",
       "code": "054874",
       "ean": "6932172641191"
+    },
+    {
+      "supplier": "innpro",
+      "code": "058841",
+      "ean": "5905316149311"
+    },
+    {
+      "supplier": "innpro",
+      "code": "058016",
+      "ean": "6956116788827"
     },
     {
       "supplier": "innpro",
@@ -3076,11 +2665,6 @@
     },
     {
       "supplier": "innpro",
-      "code": "067143",
-      "ean": "689323786701"
-    },
-    {
-      "supplier": "innpro",
       "code": "069973",
       "ean": "6970592331711"
     },
@@ -3088,6 +2672,16 @@
       "supplier": "innpro",
       "code": "071236",
       "ean": "6902048286566"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070908",
+      "ean": "6922794787346"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078075",
+      "ean": "6977328062628"
     },
     {
       "supplier": "innpro",
@@ -3253,6 +2847,26 @@
       "supplier": "basys",
       "code": "BASYS-M99C-cpB",
       "ean": ""
+    },
+    {
+      "supplier": "innpro",
+      "code": "090614",
+      "ean": "0810150549775"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093318",
+      "ean": "0786156007598"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076105",
+      "ean": "0843367133031"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088131",
+      "ean": "0810150546163"
     }
   ]
 }
