@@ -35,3 +35,9 @@ runs:
       env:
         SUPPLIER: ${{ inputs.supplier }}
       run: node scripts/normalize-truncated-ean.js "output/$SUPPLIER.xml"
+
+    - name: Hlavná fotka podľa data/image-overrides.json
+      shell: bash
+      env:
+        SUPPLIER: ${{ inputs.supplier }}
+      run: node scripts/apply-image-overrides.js --supplier="$SUPPLIER"

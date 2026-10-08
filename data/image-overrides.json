@@ -1,0 +1,178 @@
+{
+ "_comment": "Výber hlavnej (prvej) fotky produktu pre Google/Meta reklamy. Kľúč = CODE v output/<dodávateľ>.xml, primary = názov súboru fotky z galérie produktu, ktorá sa presunie na prvé miesto. Fotka musí už byť v galérii od dodávateľa; ak ju dodávateľ odstráni, override sa neuplatní (skript to vypíše). Zdroj: odporúčania reklamného nástroja Shoptet 8.10.2026 (vodoznak/logo na fotke, rozlíšenie pod 250 px).",
+ "atos": {
+  "CMP-11030": {
+   "primary": "x_ies148096958.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 350mm"
+  },
+  "CMP-11031": {
+   "primary": "x_ies148096961.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 380mm"
+  },
+  "CMP-11032": {
+   "primary": "x_ies402265709.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x500",
+   "name": "Stěrač HELLA Cleantech 400mm"
+  },
+  "CMP-11033": {
+   "primary": "x_ies148096964.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 425mm"
+  },
+  "CMP-11034": {
+   "primary": "x_ies402265712.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x500",
+   "name": "Stěrač HELLA Cleantech 450mm"
+  },
+  "CMP-11035": {
+   "primary": "x_ies148096967.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 475mm"
+  },
+  "CMP-11036": {
+   "primary": "x_ies148096970.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 500mm"
+  },
+  "CMP-11037": {
+   "primary": "x_ies148096973.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 530mm"
+  },
+  "CMP-11038": {
+   "primary": "x_ies148096976.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 550mm"
+  },
+  "CMP-11039": {
+   "primary": "x_ies148096979.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 580mm"
+  },
+  "CMP-11040": {
+   "primary": "x_ies148096982.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 600mm"
+  },
+  "CMP-11042": {
+   "primary": "x_ies148096985.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač HELLA Cleantech 700mm"
+  },
+  "CMP-YT-22360": {
+   "primary": "x_ies402266411.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 305x999",
+   "name": "Odhrotovač univerzální"
+  },
+  "CMP-10180": {
+   "primary": "x_ies148096562.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Stěrač zadní FLAT 16\"/410 mm OCT2 (04-)/ FAB2 combi (08-)"
+  },
+  "CMP-YT-44751": {
+   "primary": "x_ies860309.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Vrták na kov TITAN 1/4\" 2mm"
+  },
+  "CMP-YT-44768": {
+   "primary": "x_ies860354.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Vrták na kov TITAN 1/4\" 8mm"
+  },
+  "CMP-YT-21652": {
+   "primary": "x_ies402266962.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 352x999",
+   "name": "Klíč nastavitelný 250mm"
+  },
+  "CMP-TO-73341": {
+   "primary": "x_ies402265988.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x258",
+   "name": "Letovací souprava pokrývačská, hořák s regulací, hadice"
+  },
+  "CMP-TO-99568": {
+   "primary": "x_ies22373996.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Vidlice na opékání 98 cm"
+  },
+  "TOC-YT-0046": {
+   "primary": "x_ies223873591.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Klíč očkoplochý 46 mm YATO"
+  },
+  "CMP-YT-01906": {
+   "primary": "x_ies675335.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Klíč očkoplochý ráčnový 6 mm"
+  },
+  "CMP-YT-01907": {
+   "primary": "x_ies682597.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Klíč očkoplochý ráčnový 7 mm"
+  },
+  "CMP-YT-1676": {
+   "primary": "x_ies683780.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x800",
+   "name": "Klíč očkoplochý ráčnový 10 mm s kloubem"
+  },
+  "CMP-05969": {
+   "primary": "x_ies677773.jpg",
+   "reason": "prvá fotka má logo/ikonku alebo text; nová 800x800",
+   "name": "Ochranná plachta FULL KOMBI 485x180x116cm NYLON"
+  }
+ },
+ "kb": {
+  "100001786191": {
+   "primary": "140e536a16fd15e75a8b587cb81ff242.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 441x444",
+   "name": "Bellissima 11769 MyPro Twist&Style"
+  },
+  "100001785533": {
+   "primary": "c24e2116acc5896a23720ce089d54413.jpg",
+   "reason": "prvá fotka má menej ako 250 px; nová 458x458",
+   "name": "Bellissima 11772 MyPro Twist&Style"
+  }
+ },
+ "penta": {
+  "549356": {
+   "primary": "img.asp?attid=18965977",
+   "reason": "prvá fotka má menej ako 250 px; nová 800x630",
+   "name": "Držiak BOYA BY-PB25A 2,5m teleskopická tyč závit 1/4”"
+  }
+ },
+ "innpro": {
+  "076753": {
+   "primary": "53931_2.jpg",
+   "reason": "prvá fotka má logo/ikonku alebo text; nová 800x800",
+   "name": "Reproduktory Edifier MR5 (čierne)"
+  },
+  "078281": {
+   "primary": "54118_2.jpg",
+   "reason": "prvá fotka má logo/ikonku alebo text; nová 800x800",
+   "name": "Reproduktor Edifier S300 (hnedý)"
+  },
+  "069175": {
+   "primary": "46885_2.jpg",
+   "reason": "prvá fotka má logo/ikonku alebo text; nová 800x800",
+   "name": "Smartring Colmi R03 18.9MM 9 (Złoty)"
+  },
+  "069176": {
+   "primary": "46886_2.jpg",
+   "reason": "prvá fotka má logo/ikonku alebo text; nová 800x800",
+   "name": "Smartring Colmi R03 19.8MM 10 (Złoty)"
+  },
+  "075395": {
+   "primary": "51354_2.jpg",
+   "reason": "prvá fotka má logo/ikonku alebo text; nová 800x800",
+   "name": "Otočná vonkajšia WiFi kamera so solárnym panelom IMOU Cell PT kit lite (typ C)"
+  }
+ },
+ "solight": {
+  "1D78": {
+   "primary": "1D78_001.jpg?v2",
+   "reason": "prvá fotka má logo/ikonku alebo text; nová 550x550",
+   "name": "Solight batériová kamera WiFi so solárnym panelom"
+  }
+ }
+}
