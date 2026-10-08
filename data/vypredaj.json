@@ -49,9 +49,11 @@
       "appliedOrderIds": []
     },
     "025661": {
-      "quantity": 1,
+      "quantity": 0,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [
+        "202601227"
+      ]
     },
     "038728": {
       "quantity": 1,
@@ -76,7 +78,7 @@
   },
   "mail": {
     "uidValidity": "1",
-    "lastUid": 59241,
+    "lastUid": 59337,
     "activationAfter": "2026-09-25T00:00:00.000Z",
     "processedMessageKeys": [
       "message-id:<el.8kqqp.3g{nysanwzg.1gjcgb@seznam.cz>",
