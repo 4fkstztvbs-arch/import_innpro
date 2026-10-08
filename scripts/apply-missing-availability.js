@@ -16,8 +16,8 @@ const UNAVAILABLE_LABEL = process.env.MISSING_PRODUCT_AVAILABILITY || 'Vypredan�
 const DETAIL_ONLY = 'detailOnly';
 // Shoptet s riadením skladu zobrazuje pri vypredanom produkte pole "Dostupnosť pri vypredaní",
 // ktoré plní iba AVAILABILITY_OUT_OF_STOCK. Pre týchto dodávateľov ho pridáme do URL-only záznamov
-// (overené importom 8. 10. 2026 na K-B produktoch; ATOS funguje aj bez neho).
-const OUT_OF_STOCK_TAG_SUPPLIERS = (process.env.MISSING_PRODUCT_OOS_TAG_SUPPLIERS || 'kb')
+// (overené importom 8. 10. 2026 na K-B produktoch; ATOS mal na webe rovnaký rozpor).
+const OUT_OF_STOCK_TAG_SUPPLIERS = (process.env.MISSING_PRODUCT_OOS_TAG_SUPPLIERS || 'kb,atos')
   .split(',').map(value => value.trim().toLowerCase()).filter(Boolean);
 
 function arg(name) {

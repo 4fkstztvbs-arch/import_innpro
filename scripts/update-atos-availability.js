@@ -66,6 +66,19 @@ function replaceTag(item, name, value) {
   return item.replace(/<\/SHOPITEM\s*>/i, `  ${replacement}\n</SHOPITEM>`);
 }
 
+// Shoptet s riadením skladu zobrazuje pri vypredanom produkte pole "Dostupnosť pri vypredaní",
+// ktoré plní iba AVAILABILITY_OUT_OF_STOCK (overené importom na K-B produktoch 8. 10. 2026).
+// Pri vypredaní tag nastavíme, pri naskladnení ho odstránime.
+function setOutOfStockTag(item, value) {
+  const tag = /[ \t]*<AVAILABILITY_OUT_OF_STOCK\b[^>]*>[\s\S]*?<\/AVAILABILITY_OUT_OF_STOCK\s*>\n?/i;
+  if (value === null) return item.replace(tag, '');
+  const replacement = `<AVAILABILITY_OUT_OF_STOCK>${value}</AVAILABILITY_OUT_OF_STOCK>`;
+  if (tag.test(item)) return item.replace(tag, `${replacement}\n`);
+  const availability = /<AVAILABILITY\b[^>]*>[\s\S]*?<\/AVAILABILITY\s*>/i;
+  if (availability.test(item)) return item.replace(availability, match => `${match}\n${replacement}`);
+  return item.replace(/<\/SHOPITEM\s*>/i, `  ${replacement}\n</SHOPITEM>`);
+}
+
 async function fetchStock() {
   const username = process.env.ATOS_USERNAME;
   const password = process.env.ATOS_PASSWORD;
@@ -182,6 +195,7 @@ async function main() {
       updated = replaceTag(updated, 'VISIBILITY', nextVisibility);
       changedVisibility++;
     }
+    updated = setOutOfStockTag(updated, available ? null : OUT_OF_STOCK);
     return updated;
   });
 
