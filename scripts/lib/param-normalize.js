@@ -52,13 +52,16 @@ function translateColor(v) {
   });
 }
 
+// "Biela" a "biela" by Shoptet viedol ako dve hodnoty filtra; farby sa píšu malými písmenami.
+const lowerFirstWord = (s) => (/^\p{Lu}\p{Ll}+(?:[\s,/-]\p{Ll}+)*$/u.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s);
+
 function normalizeValue(name, raw) {
   let v = String(raw === undefined || raw === null ? '' : raw).trim();
   if (!v) return '';
   const l = v.toLowerCase();
   if (l === 'ano' || l === 'áno' || l === 'yes' || l === 'tak') return 'Áno';
   if (l === 'ne' || l === 'nie' || l === 'no' || l === 'nei') return 'Nie';
-  if (isColorName(name)) return translateColor(v);
+  if (isColorName(name)) return lowerFirstWord(translateColor(v));
   return translateWords(v, WORDS);
 }
 

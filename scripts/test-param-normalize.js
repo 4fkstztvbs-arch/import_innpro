@@ -26,3 +26,8 @@ test('prepíše blok vo feede', () => {
   const out = normalizeItem(it, { before: 0, after: 0 });
   assert.ok(out.includes('<![CDATA[Farba]]>') && out.includes('<![CDATA[biela]]>'));
 });
+
+test('farby sa píšu malými písmenami', () => {
+  assert.strictEqual(normalizeValue('Farba', 'Biela'), 'biela');
+  assert.strictEqual(normalizeValue('Farba', 'RGBW'), 'RGBW');
+});
