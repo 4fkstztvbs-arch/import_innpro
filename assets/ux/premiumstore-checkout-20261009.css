@@ -88,3 +88,114 @@ body.ordering-process .next-step .btn-conversion,
 body.ordering-process .next-step .btn-primary,
 body.ordering-process .order-summary .btn-conversion,
 body.ordering-process .order-summary .btn-primary { background: var(--ps-ck-green); border-color: var(--ps-ck-green); }
+
+/* ===== Lišta krokov 1-2-3 podľa návrhu: kolieska s číslom + popis vedľa, spojnice ===== */
+html body.ordering-process #content ol.cart-header {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0 !important;
+  padding: 12px 8px !important;
+  margin: 0 !important;
+  list-style: none !important;
+}
+html body.ordering-process #content ol.cart-header li {
+  display: flex !important;
+  align-items: center !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+}
+html body.ordering-process #content ol.cart-header li::after { display: none !important; content: none !important; }
+html body.ordering-process #content ol.cart-header li + li::before {
+  content: "" !important;
+  display: block !important;
+  position: static !important;
+  width: 22px !important;
+  height: 0 !important;
+  margin: 0 8px !important;
+  border: 0 !important;
+  border-top: 1.5px solid #c5d3d6 !important;
+  background: none !important;
+  transform: none !important;
+}
+html body.ordering-process #content ol.cart-header li a,
+html body.ordering-process #content ol.cart-header li strong {
+  display: flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0 !important;
+  white-space: nowrap !important;
+  text-decoration: none !important;
+}
+html body.ordering-process #content ol.cart-header li a::before,
+html body.ordering-process #content ol.cart-header li strong::before {
+  display: inline-grid !important;
+  place-items: center !important;
+  position: static !important;
+  flex: 0 0 22px !important;
+  width: 22px !important;
+  height: 22px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1.5px solid #167450 !important;
+  border-radius: 50% !important;
+  background: #fff !important;
+  color: #167450 !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  box-sizing: border-box !important;
+}
+html body.ordering-process #content ol.cart-header li.active a::before,
+html body.ordering-process #content ol.cart-header li.active strong::before {
+  background: #167450 !important;
+  color: #fff !important;
+}
+html body.ordering-process #content ol.cart-header li.completed a::before {
+  background: #167450 !important;
+  color: #fff !important;
+  content: "✓" !important;
+}
+html body.ordering-process #content ol.cart-header li:not(.active):not(.completed) strong,
+html body.ordering-process #content ol.cart-header li:not(.active):not(.completed) strong span {
+  color: #56616b !important;
+}
+html body.ordering-process #content ol.cart-header li:not(.active):not(.completed) strong::before {
+  border-color: #c5d3d6 !important;
+  color: #56616b !important;
+}
+html body.ordering-process #content ol.cart-header li.completed a span { text-decoration: underline !important; }
+@media (max-width: 480px) {
+  html body.ordering-process #content ol.cart-header li:not(.active) a span,
+  html body.ordering-process #content ol.cart-header li:not(.active) strong span { display: none !important; }
+  html body.ordering-process #content ol.cart-header li a span,
+  html body.ordering-process #content ol.cart-header li strong span { letter-spacing: 0 !important; font-size: 14px !important; white-space: nowrap !important; width: auto !important; max-width: none !important; flex: 0 0 auto !important; }
+  html body.ordering-process #content ol.cart-header li + li::before { width: 10px !important; margin: 0 5px !important; }
+  html body.ordering-process #content ol.cart-header li a,
+  html body.ordering-process #content ol.cart-header li strong { font-size: 12px !important; gap: 5px !important; }
+}
+@media (min-width: 768px) {
+  html body.ordering-process #content ol.cart-header li a,
+  html body.ordering-process #content ol.cart-header li strong { font-size: 15px !important; gap: 8px !important; }
+  html body.ordering-process #content ol.cart-header li + li::before { width: 56px !important; margin: 0 14px !important; }
+}
+
+/* Tučný text hlavných tlačidiel */
+html body.ordering-process .btn-conversion,
+html body.ordering-process .btn-conversion span,
+html body.ordering-process #submit-order,
+html body.ordering-process #submit-order span,
+html body.ordering-process #continue-order-button span { font-weight: 700 !important; }
+html body.ordering-process .next-step .btn-conversion,
+html body.ordering-process .next-step .btn-conversion span {
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-size: 16px !important;
+}

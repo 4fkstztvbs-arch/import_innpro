@@ -20,12 +20,116 @@
     '#ps-sum-body{display:none;margin-top:8px;padding:12px 14px;border:1px solid #e0e0e0;border-radius:10px;background:#fff;font-size:14px}' +
     '#ps-sum.is-open #ps-sum-body{display:block}' +
     '#ps-sum-body h2{display:none}' +
-    '@media (max-width:767px){#ps-sum.is-on{display:block}body.ordering-process{padding-bottom:84px}}' +
+    '@media (max-width:767px){body.ps-has-sum #summary-box>*:not(.next-step):not(.next-step-wrapper){display:none!important}body.ps-has-sum #summary-box{padding-top:0!important;border:0!important;background:none!important;box-shadow:none!important}#ps-sum.is-on{display:block}body.ordering-process{padding-bottom:84px}}' +
     'body.ordering-process #submit-order .order-button-text,body.ordering-process #submit-order .order-button-suffix{font-weight:700}' +
     'body.ordering-process .next-step .btn,body.ordering-process #orderFormButton,body.ordering-process #continue-order-button{font-weight:700}';
   var st = document.createElement('style');
   st.textContent = css;
   document.head.appendChild(st);
+
+  var css2 = '' +
+    '#ps-cart-extra{order:2}#ps-rel{order:3}.ps-note{display:block;margin:10px 0;padding:10px 12px;border-radius:10px;background:#eef6f2;color:#0e3d2b;font-size:13.5px;line-height:1.4}' +
+    '.ps-trust{display:flex;flex-wrap:wrap;gap:8px 18px;margin:14px 0;padding:0;list-style:none;font-size:13px;color:#33424a}' +
+    '.ps-trust li{display:flex;align-items:center;gap:6px;margin:0;padding:0}' +
+    '.ps-trust li::before{content:"\\2713";display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:#167450;color:#fff;font-size:11px;font-weight:700}' +
+    '#ps-rel{margin:22px 0}#ps-rel h2{font-size:18px;margin:0 0 10px}' +
+    '#ps-rel .ps-rel-list{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}' +
+    '#ps-rel .ps-rel-item{flex:0 0 160px;scroll-snap-align:start;border:1px solid #e0e0e0;border-radius:12px;padding:10px;background:#fff;font-size:13px;line-height:1.3}' +
+    '#ps-rel .ps-rel-item img{display:block;width:100%;height:110px;object-fit:contain;margin-bottom:8px}' +
+    '#ps-rel .ps-rel-item a{color:#111;text-decoration:none}#ps-rel .ps-rel-item b{display:block;margin-top:6px;font-size:15px}' +
+    '.ps-more-btn{display:block;width:100%;margin:8px 0 0;padding:12px;border:1.5px dashed #c5d3d6;border-radius:10px;background:#fff;color:#167450;font-size:14px;font-weight:600;cursor:pointer}' +
+    'html body.ordering-process #order-form .radio-wrapper.ps-hidden-opt{display:none!important}';
+  var st2 = document.createElement('style');
+  st2.textContent = css2;
+  document.head.appendChild(st2);
+
+  var NOTE = '<b>Skladom na predajni</b> odosielame v ten istý deň, ostatný tovar zvyčajne do 48–72 hodín.';
+
+  /* Košík: doprava od, poznámka o odoslaní, dôvody dôvery, súvisiaci tovar */
+  var cartDone = false;
+  function buildCart() {
+    if (cartDone || location.pathname.indexOf('/kosik') !== 0) return;
+    var c = document.getElementById('continue-order-button');
+    if (!c) return;
+    cartDone = true;
+    var box = document.createElement('div');
+    box.id = 'ps-cart-extra';
+    box.innerHTML = '<div class="ps-note">Doprava od <b>4,90 €</b>, presnú cenu uvidíte v ďalšom kroku. ' + NOTE + '</div>' +
+      '<ul class="ps-trust"><li>Bezpečná platba</li><li>Vrátenie tovaru do 14 dní</li><li>Poradíme na 0484151999</li></ul>';
+    var anchor = c.closest('.cart-content') || c.parentNode;
+    var sumRow = c.closest('.row.summary');
+    var row = sumRow || document.querySelector('table.cart-table') || c.parentNode;
+    row.parentNode.insertBefore(box, row);
+    loadRelated(anchor);
+  }
+
+  function loadRelated(anchor) {
+    var link = document.querySelector('table.cart-table tr.removeable a.main-link');
+    if (!link || !window.fetch) return;
+    fetch(link.getAttribute('href'), { credentials: 'same-origin' }).then(function (r) { return r.text(); }).then(function (html) {
+      var doc = new DOMParser().parseFromString(html, 'text/html');
+      var items = doc.querySelectorAll('.products-related .product, #productsRelated .product, .p-related .product');
+      if (!items.length) return;
+      var wrap = document.createElement('section');
+      wrap.id = 'ps-rel';
+      wrap.innerHTML = '<h2>Mohlo by vám chýbať</h2><div class="ps-rel-list"></div>';
+      var list = wrap.lastChild, n = 0;
+      for (var i = 0; i < items.length && n < 6; i++) {
+        var a = items[i].querySelector('a[href]'), img = items[i].querySelector('img'), nm = items[i].querySelector('.name, [data-testid="productCardName"]'), pr = items[i].querySelector('.price-final, .price');
+        if (!a || !nm) continue;
+        var d = document.createElement('div');
+        d.className = 'ps-rel-item';
+        var im = img ? '<img loading="lazy" alt="" src="' + (img.getAttribute('data-src') || img.getAttribute('src') || '') + '">' : '';
+        d.innerHTML = '<a href="' + a.getAttribute('href') + '">' + im + '<span></span></a><b></b>';
+        d.querySelector('span').textContent = nm.textContent.replace(/\s+/g, ' ').trim();
+        d.querySelector('b').textContent = pr ? pr.textContent.replace(/\s+/g, ' ').trim() : '';
+        list.appendChild(d);
+        n++;
+      }
+      if (n) {
+        var ex = document.getElementById('ps-cart-extra');
+        if (ex) ex.parentNode.insertBefore(wrap, ex.nextSibling);
+      }
+    }).catch(function () {});
+  }
+
+  /* Krok Doprava & platba: skrátený zoznam + „Ďalšie spôsoby“, poznámka o odoslaní */
+  function shortlist(id, keep, label) {
+    var cont = document.getElementById(id);
+    if (!cont || cont.getAttribute('data-ps-short')) return;
+    var opts = [].slice.call(cont.querySelectorAll('.radio-wrapper')).filter(function (o) { return getComputedStyle(o).display !== 'none' || o.classList.contains('ps-hidden-opt'); });
+    if (opts.length <= keep + 1) return;
+    cont.setAttribute('data-ps-short', '1');
+    var shown = 0, hid = 0;
+    opts.forEach(function (o) {
+      var checked = o.querySelector('input:checked') || o.classList.contains('active');
+      if (checked) return;
+      if (shown < keep) { shown++; } else { o.classList.add('ps-hidden-opt'); hid++; }
+    });
+    if (!hid) return;
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'ps-more-btn';
+    btn.textContent = label + ' (' + hid + ')';
+    btn.addEventListener('click', function () {
+      opts.forEach(function (o) { o.classList.remove('ps-hidden-opt'); });
+      btn.remove();
+    });
+    cont.parentNode.insertBefore(btn, cont.nextSibling);
+  }
+  function buildStep1() {
+    if (!document.getElementById('orderFormButton')) return;
+    shortlist('order-shipping-methods', 3, 'Ďalšie spôsoby dopravy');
+    shortlist('order-billing-methods', 3, 'Ďalšie spôsoby platby');
+    var h = document.querySelector('.co-delivery-method h2');
+    if (h && !document.getElementById('ps-dispatch')) {
+      var n = document.createElement('div');
+      n.id = 'ps-dispatch';
+      n.className = 'ps-note';
+      n.innerHTML = NOTE;
+      h.parentNode.insertBefore(n, h.nextSibling);
+    }
+  }
 
   var bar = document.createElement('div');
   bar.id = 'ps-bar';
@@ -57,6 +161,7 @@
     sum.id = 'ps-sum';
     sum.innerHTML = '<button type="button" id="ps-sum-head"><span>Zhrnutie objednávky<i>▾</i></span><span></span></button><div id="ps-sum-body"></div>';
     row.parentNode.insertBefore(sum, row);
+    document.body.classList.add('ps-has-sum');
     sumHead = sum.querySelector('#ps-sum-head');
     sumBody = sum.querySelector('#ps-sum-body');
     sumHead.addEventListener('click', function () {
@@ -88,6 +193,8 @@
     bar.style.bottom = h + 'px';
     bar.classList.toggle('is-on', on);
     buildSummary();
+    buildCart();
+    buildStep1();
     if (sum) {
       sum.classList.toggle('is-on', mq.matches);
       if (sumHead.lastChild.textContent !== t) sumHead.lastChild.textContent = t;
