@@ -1,0 +1,988 @@
+{
+ "prefixy": {
+  "innpro": "",
+  "atos": "AT_",
+  "solight": "SOL_",
+  "basys": "BAS_",
+  "penta": "PEN_"
+ },
+ "kategorie": [
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice",
+   "filtre": {
+    "Stupeň krytia (IP)": "Stupeň krytia IP",
+    "Farba": "Farba",
+    "Vypínač": "Vypínač"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Osvetlenie",
+   "filtre": {
+    "Stupeň krytia (IP)": "Stupeň krytia IP"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky",
+   "filtre": {
+    "Mat. prip. vodičov (meď/hliník)": "Mat. prip. vodičov (meď/hliník)",
+    "Počet pólov svorky": "Počet pólov svorky",
+    "Stupeň krytia (IP)": "Stupeň krytia IP",
+    "Určené pre montáž": "Určené pre montáž"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie",
+   "filtre": {
+    "Farba svetla": "Farba svetla",
+    "Napätie": "Napätie",
+    "Zdroj napájanie": "Zdroj napájanie",
+    "Teplota chromatičnosti": "Teplota chromatičnosti"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Diaľkové ovládače > Televízne ovládače",
+   "filtre": {
+    "Pre zariadenie": "Pre zariadenie",
+    "Kompatibilná značka": "Kompatibilná značka"
+   }
+  },
+  {
+   "kategoria": "Profesionálna audio technika > 100 V rozhlasové ozvučenie",
+   "filtre": {
+    "Prevádzková teplota": "Prevádzková teplota",
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Montážne skrine a rozvádzače",
+   "filtre": {
+    "Stupeň krytia (IP)": "Stupeň krytia IP",
+    "Spôsob montáže": "Spôsob montáže",
+    "Počet modulov": "Počet modulov"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Diaľkové ovládače > Satelitné ovládače",
+   "filtre": {
+    "Typ batérie": "Typ batérie"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky",
+   "filtre": {
+    "Materiál": "Materiál"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Akumulátory a batérie > Káblové očká, fastóny a dutinky",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna",
+   "filtre": {
+    "Druh": "Druh"
+   }
+  },
+  {
+   "kategoria": "Profesionálna audio technika > Káble, konektory a redukcie",
+   "filtre": {
+    "Dĺžka": "Dĺžka",
+    "Materiál": "Materiál",
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+   "filtre": {
+    "Smerová charakteristika": "Smerová charakteristika",
+    "Spôsob prenosu": "Spôsob prenosu"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky",
+   "filtre": {
+    "Farba": "Farba",
+    "Spôsob montáže": "Spôsob montáže",
+    "Stupeň krytia (IP)": "Stupeň krytia IP",
+    "Menovité napätie [V]": "Menovité napätie [V]",
+    "Materiál": "Materiál"
+   }
+  },
+  {
+   "kategoria": "Profesionálna audio technika > PA reproduktory",
+   "filtre": {
+    "Farba": "Farba",
+    "Výkon RMS": "Výkon RMS",
+    "Impedancia": "Impedancia",
+    "Citlivosť (SPL)": "Citlivosť (SPL)"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny",
+   "filtre": {
+    "Pamäť RAM": "Pamäť RAM",
+    "Úložisko": "Úložisko",
+    "Farba": "Farba",
+    "Uhlopriečka": "Uhlopriečka"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Diaľkové ovládače > Ovládače k DVB-T2",
+   "filtre": {
+    "Pre zariadenie": "Pre zariadenie"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie",
+   "filtre": {
+    "Priemer": "Priemer"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika",
+   "filtre": {
+    "Farba": "Farba",
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Vzduchotechnika > Domové ventilátory",
+   "filtre": {
+    "Čidlo vlhkosti (hygrostat)": "Čidlo vlhkosti (hygrostat)",
+    "Napájanie [V/Hz]": "Napájanie [V/Hz]",
+    "Stupeň krytia (IP)": "Stupeň krytia IP"
+   }
+  },
+  {
+   "kategoria": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače",
+   "filtre": {
+    "Odpor": "Odpor",
+    "Vyhotovenie": "Vyhotovenie",
+    "Kapacita": "Kapacita"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Autožiarovky a osvetlenie",
+   "filtre": {
+    "Patice": "Patice",
+    "Farba": "Farba",
+    "Napätie": "Napätie"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér",
+   "filtre": {
+    "Nastaviteľná intenzita": "Nastaviteľná intenzita"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Televízory",
+   "filtre": {
+    "Typ HD rozlíšenia": "Typ HD rozlíšenia",
+    "Poskytovaný OS": "Poskytovaný OS",
+    "RMS výkon": "RMS výkon",
+    "Uhlopriečka displeja": "Uhlopriečka displeja",
+    "Technológia zobrazenia": "Technológia zobrazenia"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre",
+   "filtre": {
+    "Kompatibilita": "Kompatibilita"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Bojové športy",
+   "filtre": {
+    "Materiál": "Materiál",
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Bojové športy > Boxerské rukavice",
+   "filtre": {
+    "Materiál": "Materiál",
+    "Výplň rukavic": "Výplň rukavic",
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky",
+   "filtre": {
+    "Klimatická trieda": "Klimatická trieda",
+    "Farba": "Farba",
+    "Počet zásuviek na zeleninu": "Počet zásuviek na zeleninu",
+    "Úroveň hluku": "Úroveň hluku",
+    "Trieda emisie hluku": "Trieda emisie hluku"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
+   "filtre": {
+    "Farba": "Farba",
+    "Montáž": "Montáž",
+    "Rozlíšenie": "Rozlíšenie",
+    "Smart aplikácie": "Smart aplikácie",
+    "Dĺžka záruky (mesiace)": "Dĺžka záruky (mesiace)"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá",
+   "filtre": {
+    "Farba": "Farba",
+    "Materiál": "Materiál",
+    "Napájanie": "Napájanie",
+    "Zdroj svetla": "Zdroj svetla",
+    "Fokus": "Fokus"
+   }
+  },
+  {
+   "kategoria": "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory",
+   "filtre": {
+    "Napätie": "Napätie",
+    "Kapacita": "Kapacita"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Fotovoltaika > Konštrukcie pre solárne panely",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie",
+   "filtre": {
+    "Druh vianočného osvetlenia": "Druh vianočného osvetlenia",
+    "Farba svetla": "Farba svetla",
+    "Napájanie osvetlenia": "Napájanie osvetlenia",
+    "Počet LED": "Počet LED",
+    "Časovač": "Časovač"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice",
+   "filtre": {
+    "Počet kanálov": "Počet kanálov",
+    "Budík": "Budík"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely",
+   "filtre": {
+    "Aplikácia": "Aplikácia",
+    "Pripojenie": "Pripojenie",
+    "Kategória": "Kategória"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Filtre pre drony",
+   "filtre": {
+    "Kompatibilita": "Kompatibilita"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Počítačové skrine",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Káble a vodiče",
+   "filtre": {
+    "Typ kábla": "Typ kábla"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory",
+   "filtre": {
+    "Pripojenie": "Pripojenie",
+    "Aplikácia": "Aplikácia",
+    "Druh": "Druh"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Príslušenstvo do auta > Cestovné doplnky",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Monitory a PC periférie > Monitory",
+   "filtre": {
+    "Vstavané reproduktory": "Vstavané reproduktory",
+    "Obnovovacia frekvencia (Hz)": "Obnovovacia frekvencia (Hz)"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Elektroinštalácia",
+   "filtre": {
+    "Stupeň krytia (IP)": "Stupeň krytia IP",
+    "Farba": "Farba",
+    "Dĺžka (m)": "Dĺžka (m)",
+    "Typ predlžovacieho prívodu": "Typ predlžovacieho prívodu",
+    "Bezdrôtové nabíjanie": "Bezdrôtové nabíjanie"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Ďalekohľady",
+   "filtre": {
+    "Zväčšenie": "Zväčšenie"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Audio technika > Rádiá",
+   "filtre": {
+    "Farba": "Farba",
+    "Typ rádia": "Typ rádia",
+    "Vyhotovenie": "Vyhotovenie",
+    "Napájanie": "Napájanie"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily",
+   "filtre": {
+    "Výkon": "Výkon"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+   "filtre": {
+    "Farba": "Farba",
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Záložné zdroje a UPS",
+   "filtre": {
+    "Výstupné napätie": "Výstupné napätie",
+    "Počet zásuvek": "Počet zásuvek",
+    "Sinusovka": "Sinusovka",
+    "Výkon trvalý": "Výkon trvalý",
+    "Vstupné napätie": "Vstupné napätie"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Karavany a obytné autá",
+   "filtre": {
+    "USB": "USB",
+    "Vstupné napätie (V)": "Vstupné napätie (V)"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Antény a satelity > Zosilňovače",
+   "filtre": {
+    "Počet výstupov": "Počet výstupov",
+    "Typ konektora": "Typ konektora",
+    "Počet vstupov": "Počet vstupov",
+    "Vyhotovenie": "Vyhotovenie"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety",
+   "filtre": {
+    "Konektivita": "Konektivita",
+    "Uhlopriečka": "Uhlopriečka",
+    "Pamäť RAM": "Pamäť RAM",
+    "Farba": "Farba",
+    "Úložisko": "Úložisko"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika",
+   "filtre": {
+    "Konektory": "Konektory",
+    "Typ kábla": "Typ kábla",
+    "Dĺžka (m)": "Dĺžka (m)"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku",
+   "filtre": {
+    "Farba": "Farba",
+    "Napätie (V)": "Napätie (V)",
+    "Priemer (mm2)": "Priemer (mm2)",
+    "Dĺžka (m)": "Dĺžka (m)"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Sendvičovače, hriankovače, vaflovače",
+   "filtre": {
+    "Výkon": "Výkon"
+   }
+  },
+  {
+   "kategoria": "3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky",
+   "filtre": {
+    "Možnosť postavenie - zavesenie": "Možnosť postavenie - zavesenie",
+    "Farba": "Farba",
+    "Budík": "Budík"
+   }
+  },
+  {
+   "kategoria": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam",
+   "filtre": {
+    "Kompatibilita": "Kompatibilita"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy",
+   "filtre": {
+    "USB port": "USB port",
+    "Počet tunerov": "Počet tunerov",
+    "Typ tuneru": "Typ tuneru",
+    "Zabudovaný dekodér": "Zabudovaný dekodér",
+    "Harddisk príprava": "Harddisk príprava"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy",
+   "filtre": {
+    "Farba": "Farba",
+    "Stupeň krytia tlačidla": "Stupeň krytia tlačidla",
+    "Dosah (m)": "Dosah (m)",
+    "Napájanie tlačidla": "Napájanie tlačidla",
+    "Prídavné (náhradné) tlačidlo": "Prídavné (náhradné) tlačidlo"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > TV stolíky a držiaky",
+   "filtre": {
+    "Umiestnenie": "Umiestnenie",
+    "Vyhotovenie": "Vyhotovenie",
+    "Možnosť náklonu": "Možnosť náklonu"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart vypínače a relé",
+   "filtre": {
+    "Aplikácia": "Aplikácia",
+    "Pripojenie": "Pripojenie"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Mini PC",
+   "filtre": {
+    "Úložisko": "Úložisko",
+    "Konektivita": "Konektivita",
+    "Pamäť RAM": "Pamäť RAM"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Projektory",
+   "filtre": {
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "Dielňa, náradie a záhrada > Spájkovacia technika > Spájkovačky a trafospájkovačky",
+   "filtre": {
+    "Výkon": "Výkon"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Bojové športy > Chrániče pre bojové športy",
+   "filtre": {
+    "Materiál": "Materiál",
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Chovateľské potreby > Akvaristika",
+   "filtre": {
+    "Výkon": "Výkon",
+    "Príkon": "Príkon",
+    "Maximálny prietok": "Maximálny prietok"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
+   "filtre": {
+    "Kompatibilita": "Kompatibilita"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Príslušenstvo do auta",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Varenie a pečenie > Varné dosky",
+   "filtre": {
+    "Farba": "Farba",
+    "Počet varných zón": "Počet varných zón",
+    "Typ varnej dosky": "Typ varnej dosky",
+    "Počet elektrických varných zón": "Počet elektrických varných zón"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
+   "filtre": {
+    "Farba": "Farba",
+    "Prenosová frekvencia": "Prenosová frekvencia"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Antény a satelity > Antény",
+   "filtre": {
+    "Príjem signálu": "Príjem signálu",
+    "Typ konektora": "Typ konektora",
+    "Vyhotovenie": "Vyhotovenie"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Smart domácnosť",
+   "filtre": {
+    "Kategória": "Kategória"
+   }
+  },
+  {
+   "kategoria": "Zdravie a starostlivosť > Starostlivosť o zuby > Elektrické zubné kefky",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > 3D tlačiarne",
+   "filtre": {
+    "Typ tlačiarne": "Typ tlačiarne",
+    "Podporované filamenty": "Podporované filamenty",
+    "Rýchlosť tlače (mm/h)": "Rýchlosť tlače (mm/h)"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Vzduchotechnika > Priemyselné ventilátory",
+   "filtre": {
+    "Priemer": "Priemer",
+    "Priemer [mm]": "Priemer [mm]",
+    "Napájanie [V/Hz]": "Napájanie [V/Hz]",
+    "Teplota vzduchu max. [°C]": "Teplota vzduchu max. [°C]"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Umývačky riadu",
+   "filtre": {
+    "Umiestnenie spotrebiča": "Umiestnenie spotrebiča",
+    "Farba dverí": "Farba dverí",
+    "Počet miest": "Počet miest",
+    "Úroveň hluku": "Úroveň hluku",
+    "Trieda emisie hluku": "Trieda emisie hluku"
+   }
+  },
+  {
+   "kategoria": "Zdravie a starostlivosť > Starostlivosť o zuby",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry",
+   "filtre": {
+    "Farba": "Farba",
+    "Materiál": "Materiál"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Garáž, dielňa, servis > Heváky a zdviháky",
+   "filtre": {
+    "Farba": "Farba",
+    "Materiál": "Materiál"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Chovateľské potreby",
+   "filtre": {
+    "Príkon": "Príkon"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Audio technika > Soundbary",
+   "filtre": {
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Fotovoltaika > Solárne regulátory",
+   "filtre": {
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače",
+   "filtre": {
+    "Počet výstupov": "Počet výstupov",
+    "Typ konektora": "Typ konektora"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky",
+   "filtre": {
+    "Pripojenie": "Pripojenie",
+    "Aplikácia": "Aplikácia",
+    "Druh": "Druh"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Posilňovanie a fitness > Elektrické bežecké pásy",
+   "filtre": {
+    "Farba": "Farba",
+    "Maximálne zaťaženie": "Maximálne zaťaženie"
+   }
+  },
+  {
+   "kategoria": "Zdravie a starostlivosť > Holiace strojčeky a epilátory",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Akumulátory a batérie",
+   "filtre": {
+    "Napätie": "Napätie",
+    "Prevádzková teplota": "Prevádzková teplota"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > AV káble",
+   "filtre": {
+    "Dĺžka": "Dĺžka"
+   }
+  },
+  {
+   "kategoria": "Dielňa, náradie a záhrada > Dielenské vybavenie > Ochranné pomôcky a odevy",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky",
+   "filtre": {
+    "Materiál": "Materiál"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Foto a príslušenstvo > Gimbály a stabilizátory",
+   "filtre": {
+    "Farba": "Farba",
+    "Konektivita": "Konektivita",
+    "Účel": "Účel"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Antény a satelity > Satelitné príslušenstvo",
+   "filtre": {
+    "Spotreba z prijímača": "Spotreba z prijímača"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Chladenie počítača",
+   "filtre": {
+    "Farba": "Farba",
+    "Podsvietenie": "Podsvietenie"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
+   "filtre": {
+    "Farba": "Farba",
+    "Materiál": "Materiál"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Elektronika do auta > Kamery do auta",
+   "filtre": {
+    "Konektivita": "Konektivita",
+    "Uhlopriečka": "Uhlopriečka",
+    "Formát videa": "Formát videa"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články",
+   "filtre": {
+    "Napätie": "Napätie",
+    "Prevádzková teplota": "Prevádzková teplota"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Notebooky",
+   "filtre": {
+    "Pamäť RAM": "Pamäť RAM",
+    "Konektivita": "Konektivita",
+    "Uhlopriečka": "Uhlopriečka"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Posilňovanie a fitness > Fitness náradie a vybavenie",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery",
+   "filtre": {
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Cyklistika",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Video technika",
+   "filtre": {
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
+   "filtre": {
+    "Farba": "Farba",
+    "Verzia Bluetooth": "Verzia Bluetooth",
+    "Frekvenčný rozsah": "Frekvenčný rozsah",
+    "Odporúčané použitie": "Odporúčané použitie",
+    "Technológia prepojenia": "Technológia prepojenia"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Bojové športy > MMA rukavice",
+   "filtre": {
+    "Farba": "Farba",
+    "Výplň rukavic": "Výplň rukavic",
+    "Materiál": "Materiál"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Batérie pre drony a RC modely",
+   "filtre": {
+    "Kapacita (mAh)": "Kapacita (mAh)",
+    "Napätie (V)": "Napätie (V)",
+    "Váha netto (g)": "Váha netto (g)"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Monitory a PC periférie > Grafické tablety",
+   "filtre": {
+    "Pracovná plocha": "Pracovná plocha",
+    "Konektivita": "Konektivita",
+    "Farba": "Farba",
+    "Rozlíšenie": "Rozlíšenie"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Antény a satelity > LNB konvertory",
+   "filtre": {
+    "Počet výstupov": "Počet výstupov",
+    "Typ LNB": "Typ LNB",
+    "Šumové číslo": "Šumové číslo",
+    "LNB typ": "LNB typ"
+   }
+  },
+  {
+   "kategoria": "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle",
+   "filtre": {
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "Chovateľské potreby > Misky a dávkovače krmiva",
+   "filtre": {
+    "Kategória": "Kategória",
+    "Aplikácia na ovládanie": "Aplikácia na ovládanie"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Foto a príslušenstvo",
+   "filtre": {
+    "Konektivita": "Konektivita",
+    "Formát videa": "Formát videa",
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Varenie a pečenie > Mikrovlnné rúry",
+   "filtre": {
+    "Mikrovlnný výkon": "Mikrovlnný výkon",
+    "Farba": "Farba",
+    "Typ produktu": "Typ produktu",
+    "Vnútorná kapacita": "Vnútorná kapacita",
+    "Umiestnenie spotrebiča": "Umiestnenie spotrebiča"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Varenie a pečenie > Vstavané rúry",
+   "filtre": {
+    "Farba": "Farba",
+    "Celková vnútorná kapacita rúry": "Celková vnútorná kapacita rúry",
+    "Systém ovládania": "Systém ovládania",
+    "Čistý objem rúry": "Čistý objem rúry",
+    "Veľkosť rúry": "Veľkosť rúry"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike",
+   "filtre": {
+    "Farba": "Farba",
+    "Šírka balenia": "Šírka balenia",
+    "Hĺbka balenia": "Hĺbka balenia",
+    "Maximálna veľkosť obrazovky": "Maximálna veľkosť obrazovky"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Varenie a pečenie > Digestory",
+   "filtre": {
+    "Farba": "Farba",
+    "Trieda účinnosti filtrácie mastnoty": "Trieda účinnosti filtrácie mastnoty",
+    "Trieda účinnosti dynamiky kvapalín": "Trieda účinnosti dynamiky kvapalín",
+    "Trieda účinnosti osvetlenia": "Trieda účinnosti osvetlenia",
+    "Maximálny výkon odsávania": "Maximálny výkon odsávania"
+   }
+  },
+  {
+   "kategoria": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
+   "filtre": {
+    "Pripojenie": "Pripojenie",
+    "Aplikácia": "Aplikácia"
+   }
+  },
+  {
+   "kategoria": "3D tlač a digitálna výroba > 3D skenery",
+   "filtre": {
+    "Konektivita": "Konektivita"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Napájacie zdroje",
+   "filtre": {
+    "Výkon": "Výkon"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti",
+   "filtre": {
+    "Farba": "Farba",
+    "Stmievateľné": "Stmievateľné"
+   }
+  },
+  {
+   "kategoria": "Profesionálna audio technika > Tlmočnícke a konferenčné systémy",
+   "filtre": {
+    "Počet kanálov": "Počet kanálov"
+   }
+  },
+  {
+   "kategoria": "Auto-moto > Garáž, dielňa, servis > Autoplachty a ochranné kryty",
+   "filtre": {
+    "Materiál": "Materiál"
+   }
+  },
+  {
+   "kategoria": "Chovateľské potreby > Venčenie a transport",
+   "filtre": {
+    "Kategória": "Kategória"
+   }
+  },
+  {
+   "kategoria": "Počítače, mobily a tablety > Disky a pamäťové médiá > Pamäťové karty",
+   "filtre": {
+    "Úložisko": "Úložisko",
+    "Kapacita": "Kapacita"
+   }
+  },
+  {
+   "kategoria": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k slúchadlám",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry",
+   "filtre": {
+    "Farba": "Farba"
+   }
+  },
+  {
+   "kategoria": "Energia a napájanie > Akumulátory a batérie > LiFePO4 akumulátory",
+   "filtre": {
+    "Kapacita": "Kapacita",
+    "Napätie": "Napätie"
+   }
+  },
+  {
+   "kategoria": "Chovateľské potreby > Mačacie toalety a príslušenstvo",
+   "filtre": {
+    "Kategória": "Kategória"
+   }
+  },
+  {
+   "kategoria": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Živice pre 3D tlač",
+   "filtre": {
+    "Farba": "Farba",
+    "Vlnová dĺžka": "Vlnová dĺžka"
+   }
+  }
+ ]
+}

@@ -1,11 +1,13 @@
 // Zostaví CSV pre Shoptet import "Parametre na filtrovanie" (stĺpce filteringProperty:Názov) z výstupných feedov.
 // Konfigurácia: data/filter-params/filters.json (kategória -> { názov parametra vo feede: názov filtra v Shoptete }).
+// FILTERS_CONFIG=data/filter-params/filters-all.json prepne na úplný zoznam kategórií.
 // Usage: node scripts/build-filter-params-import.js [out.csv]
 const fs = require('fs');
 const path = require('path');
 
 const root = path.join(__dirname, '..');
-const cfg = JSON.parse(fs.readFileSync(path.join(root, 'data/filter-params/filters.json'), 'utf8'));
+const cfgFile = process.env.FILTERS_CONFIG || 'data/filter-params/filters.json';
+const cfg = JSON.parse(fs.readFileSync(path.join(root, cfgFile), 'utf8'));
 const unwrap = (s) => { const m = s.match(/^<!\[CDATA\[([\s\S]*?)\]\]>$/); return m ? m[1] : s; };
 const csv = (v) => `"${String(v).replace(/"/g, '""')}"`;
 const lowerFirst = (s) => (/^\p{Lu}\p{Ll}+(?:[\s,/-]\p{Ll}+)*$/u.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s);
