@@ -3024,3 +3024,6 @@ body.type-detail #product-detail-form .add-to-cart-button:focus-visible,
 #productsTop.products-top .product .name {
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin-top: 8px;
 }
+#productsTop.products-top .product .p-in { width: 100% !important; padding: 8px 0 0 !important; }
+#productsTop.products-top .product .p-in-in { padding-right: 0 !important; }
+#productsTop.products-top .product .p-bottom { width: 100%; }
