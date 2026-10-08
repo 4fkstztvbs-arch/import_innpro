@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600496,
+    "nextCardNumber": 202600500,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2972,6 +2972,30 @@
         "nazov": "Termokamera UNI-T UTi720A | MIE0489",
         "dodavatel": "atos",
         "code": "ATO-MIE0489"
+      },
+      "8595142719320": {
+        "kod": "202600496",
+        "nazov": "Boffin II Zelená Energie",
+        "dodavatel": "kb",
+        "code": "100001392573"
+      },
+      "1200130029967": {
+        "kod": "202600497",
+        "nazov": "JBL Tune 530BT Black",
+        "dodavatel": "kb",
+        "code": "100002200827"
+      },
+      "1200130029837": {
+        "kod": "202600498",
+        "nazov": "JBL Tune 730BT Black",
+        "dodavatel": "kb",
+        "code": "100002200820"
+      },
+      "1200130034282": {
+        "kod": "202600499",
+        "nazov": "JBL GO5 Black",
+        "dodavatel": "kb",
+        "code": "100002202594"
       }
     }
   },
