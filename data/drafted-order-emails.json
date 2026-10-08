@@ -1342,5 +1342,19 @@
     "subject": "Re: Vaša objednávka č. 202601190 sa práve vybavuje",
     "orderCode": "202601190",
     "matchedBy": "code"
+  },
+  "<CAHo4gHvbgJNwbc47quEooHj5wfDca4dTqSQTZMxX79mgw7SDLA@mail.gmail.com>": {
+    "draftedAt": "2026-10-08T13:35:54.973Z",
+    "from": "stefanmarik55@gmail.com",
+    "subject": "Re: Vaša objednávka č. 202601103 bola úspešne vybavená a odoslaná",
+    "orderCode": "202601103",
+    "matchedBy": "code"
+  },
+  "<c7cc5943-fc31-4480-998f-c32cb0f8b7da@secomp.sk>": {
+    "draftedAt": "2026-10-08T13:36:02.133Z",
+    "from": "hajdu@secomp.sk",
+    "subject": "Re: Storno objednávky",
+    "orderCode": "202601208",
+    "matchedBy": "email"
   }
 }
