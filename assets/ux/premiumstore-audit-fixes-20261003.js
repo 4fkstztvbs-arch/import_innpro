@@ -26,7 +26,7 @@
   }
 })();
 
-/* Prístupnosť: tlačidlá bez textu dostanú názov; druhý H1 v prázdnom košíku sa zmení na H2 (len sémantika). */
+/* Prístupnosť: prihlasovacie tlačidlo bez textu dostane názov. */
 (function () {
   function labelControls() {
     var login = document.querySelector('.top-nav-button-login');
