@@ -15,12 +15,18 @@ const path = require('node:path');
 const AVAILABILITY = /<AVAILABILITY(?:\s[^>]*)?>([\s\S]*?)<\/AVAILABILITY\s*>/i;
 const OUT_OF_STOCK = /[ \t]*<AVAILABILITY_OUT_OF_STOCK(?:\s[^>]*)?>[\s\S]*?<\/AVAILABILITY_OUT_OF_STOCK\s*>\n?/gi;
 
+const plain = value => value.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim();
+
 function syncItem(item) {
   const match = item.match(AVAILABILITY);
   if (!match) return item;
   const tag = `<AVAILABILITY_OUT_OF_STOCK>${match[1]}</AVAILABILITY_OUT_OF_STOCK>`;
   const existing = item.match(/<AVAILABILITY_OUT_OF_STOCK(?:\s[^>]*)?>[\s\S]*?<\/AVAILABILITY_OUT_OF_STOCK\s*>/i);
-  if (existing && existing[0] === tag) return item;
+  // Rovnaká hodnota s CDATA alebo bez nej nie je zmena (ATOS denný skript zapisuje čistý text).
+  if (existing) {
+    const current = existing[0].replace(/^<[^>]*>/, '').replace(/<\/[^>]*>$/, '');
+    if (plain(current) === plain(match[1])) return item;
+  }
   const cleaned = item.replace(OUT_OF_STOCK, '');
   return cleaned.replace(AVAILABILITY, found => `${found}\n${tag}`);
 }

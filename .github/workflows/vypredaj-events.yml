@@ -49,6 +49,9 @@ jobs:
       - name: Aktualizovať pôvodné dodávateľské produkty podľa stavu výpredaja
         run: node scripts/apply-vypredaj-to-feeds.js
 
+      - name: Dostupnosť pri vypredaní vždy rovnaká ako dostupnosť
+        run: node scripts/sync-out-of-stock-availability.js output/*.xml
+
       - name: Uložiť stav a feedy na ďalší Shoptet import
         run: |
           git config user.name "vypredajovy-agent"

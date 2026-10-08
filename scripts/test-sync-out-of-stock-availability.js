@@ -29,3 +29,8 @@ test('položku bez AVAILABILITY nechá bez zmeny', () => {
   const item = '<SHOPITEM><CODE>1</CODE></SHOPITEM>';
   assert.equal(syncItem(item), item);
 });
+
+test('rovnaká hodnota s CDATA a bez CDATA sa nepovažuje za zmenu', () => {
+  const item = '<SHOPITEM><AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>\n<AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK></SHOPITEM>';
+  assert.equal(syncItem(item), item);
+});
