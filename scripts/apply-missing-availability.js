@@ -14,6 +14,11 @@ const SALE_SOURCE_CACHE_PATH = path.join(ROOT, 'data', 'sklbb-source-items.json'
 const MIN_COUNT_RATIO = Number(process.env.MISSING_PRODUCT_MIN_RATIO || '0.70');
 const UNAVAILABLE_LABEL = process.env.MISSING_PRODUCT_AVAILABILITY || 'Vypredané';
 const DETAIL_ONLY = 'detailOnly';
+// Shoptet s riadením skladu zobrazuje pri vypredanom produkte pole "Dostupnosť pri vypredaní",
+// ktoré plní iba AVAILABILITY_OUT_OF_STOCK. Pre týchto dodávateľov ho pridáme do URL-only záznamov
+// (overené importom 8. 10. 2026 na K-B produktoch; ATOS funguje aj bez neho).
+const OUT_OF_STOCK_TAG_SUPPLIERS = (process.env.MISSING_PRODUCT_OOS_TAG_SUPPLIERS || 'kb')
+  .split(',').map(value => value.trim().toLowerCase()).filter(Boolean);
 
 function arg(name) {
   const prefix = `--${name}=`;
@@ -171,6 +176,14 @@ function main() {
     const restoredPrice = supplierAction > 0 && supplierAction < regular ? supplierAction : regular;
     return clearSaleState(block, Number.isFinite(restoredPrice) && restoredPrice > 0 ? restoredPrice.toFixed(2) : '');
   });
+  if (OUT_OF_STOCK_TAG_SUPPLIERS.includes(supplier)) {
+    const outOfStockTag = `<AVAILABILITY_OUT_OF_STOCK>${xmlText(UNAVAILABLE_LABEL)}</AVAILABILITY_OUT_OF_STOCK>`;
+    const withTag = block => (isUnavailableUpdate(block) && !/<AVAILABILITY_OUT_OF_STOCK\b/i.test(block)
+      ? block.replace(/(<AVAILABILITY\b[^>]*>[\s\S]*?<\/AVAILABILITY>)/i, `$1\n    ${outOfStockTag}`)
+      : block);
+    output = output.replace(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/gi, withTag);
+    for (let i = 0; i < tombstones.length; i++) tombstones[i] = withTag(tombstones[i]);
+  }
   if (tombstones.length) output = output.replace(/\s*<\/SHOP>\s*$/i, `\n${tombstones.join('\n')}\n</SHOP>\n`);
   if (output === xml && tombstones.length) throw new Error(`${supplier}: could not append tombstones to XML.`);
 
