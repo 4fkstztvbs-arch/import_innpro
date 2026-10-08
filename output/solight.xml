@@ -3125,10 +3125,7 @@ Balenie: sáčok</p>
   <MINIMAL_AMOUNT>10</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718022808</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>2769</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sáčok - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ssv5310e.jpg?v2</IMAGE>
@@ -10837,17 +10834,14 @@ Univerzálna nabíjačka pre Li-Ion, LiFePO4 a Ni-MH/CD batérie rôznych veľko
 <LI>maximálne ochranné napätie Ni-MH batérií je 1,55 V ± 0,05 V</LI>
 <LI>vstup: 5 V / 2 A (adaptér súčasťou balenia)</LI>
 </UL><p><a href="https://www.solight.sk/documents/dn27_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/dn27_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/dn27_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/dn27_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/napajacie-zdroje-2/">Napájacie zdroje</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky/">Nabíjačky batérií a akumulátorov</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>DN27</CODE>
 <EAN>8592718026424</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Napájacie zdroje]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka batérií Li-Ion, LiFePO4, Ni-MH/CD, AA, AAA, 18650, 2000mA, 2 kanály, LCD displej - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn27.jpg?v2</IMAGE>
@@ -17092,17 +17086,14 @@ Táto mikroprocesorom riadená nabíjačka ponúka 4 samostatné nabíjacie kan�
 <LI>napájanie: AC 100–240 V, 50/60 Hz</LI>
 <LI>balenie: blistr</LI>
 </UL><p><a href="https://www.solight.sk/documents/dn25_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/dn25_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/dn25_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/dn25_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/napajacie-zdroje-2/">Napájacie zdroje</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky/">Nabíjačky batérií a akumulátorov</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>DN25</CODE>
 <EAN>8592718015886</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Napájacie zdroje]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka s LCD displejom, AC 230V, 450mA, 4 kanály, AA/AAA, riadená mikroprocesorom - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn25.jpg?v2</IMAGE>
@@ -21043,7 +21034,7 @@ Osvetlenie je vybavené flicker-free technológiou, ktorá zabezpečuje kvalitn�
 <LI>statívový závit 1/4”</LI>
 <LI>farba čierna</LI>
 </UL><p><a href="https://www.solight.sk/documents/llm-s_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/meracie-technika/">Meracia technika</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-k-meracej-technike/">Príslušenstvo k meracej technike</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -21053,10 +21044,7 @@ Osvetlenie je vybavené flicker-free technológiou, ktorá zabezpečuje kvalitn�
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718026462</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Príslušenstvo k meracej technike]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight stojanček pre laserovú vodováhu LLM - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/llm-s.jpg?v2</IMAGE>
   <IMAGE description="Solight stojanček pre laserovú vodováhu LLM - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/llm-s_1.jpg?v2</IMAGE>
@@ -24389,18 +24377,14 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálnym 
 <LI>napájanie: 3 × AAA batérie (nie sú súčasťou balenia) alebo zdroj 5 V, 300 mA (nie je súčasťou balenia)</LI>
 <LI>možnosť napájania z USB portu, napájací kábel je súčasťou balenia</LI>
 </UL><p><a href="https://www.solight.sk/documents/ca01b_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/ca01b_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/ca01b_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/ca01b_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/meteostanice/">Meteostanice</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/hodiny-2/">Hodiny a budíky</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>CA01B</CODE>
 <EAN>8592718023690</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b.jpg?v2</IMAGE>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b_1.jpg?v2</IMAGE>
@@ -45639,18 +45623,14 @@ Nástavec pre automatický ventil (schrader) je predvolený spôsob, ostatné n�
 <LI>nabíjací kábel</LI>
 <LI>užívateľská príručka</LI>
 </UL><p><a href="https://www.solight.sk/documents/pap01_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/pap01_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/pap01_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/pap01_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/ostatne-domace-spotrebice/">Ostatné domáce spotrebiče</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/autonaradie-a-doplnky/">Autonáradie a doplnky</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>PAP01</CODE>
 <EAN>8592718030841</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Ostatné domáce spotrebiče]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky]]></CATEGORY><CATEGORY><![CDATA[Auto-moto]]></CATEGORY><CATEGORY><![CDATA[Auto-moto > Garáž, dielňa, servis]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight digitálny vreckový kompresor - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/pap01.jpg?v2</IMAGE>
   <IMAGE description="Solight digitálny vreckový kompresor - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/pap01_1.jpg?v2</IMAGE>
@@ -49818,17 +49798,14 @@ Obávate sa, že vám smartfón vykĺzne? Bezdrôtová nabíjačka MagSafe je vy
 <LI>hmotnosť: 0,303 kg<br>
 <LI>rozmery produktu: 113*86*173 mm
 </UL><p><a href="https://www.solight.sk/documents/sswc02_cz%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (CZ)</a></p><p><a href="https://www.solight.sk/documents/sswc02_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/sswc02_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/sswc02_sk%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/napajacie-zdroje-2/">Napájacie zdroje</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky-pre-mobily/">Nabíjačky pre mobily</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>SSWC02</CODE>
 <EAN>8592718042035</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Napájacie zdroje]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight stolová nabíjačka 3v1, Qi2, MagSafe kompatibilná - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/sswc02.jpg?v2</IMAGE>
@@ -52910,17 +52887,14 @@ Táto cestovná nabíjačka 3v1 je ideálnym spoločníkom pre moderných užív
 <LI>rozmery: 270×82×40 mm </LI>
 <LI>hmotnosť: 196 g </LI>
 </UL><p><a href="https://www.solight.sk/documents/sswc01_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/sswc01_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/sswc01_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/sswc01_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/napajacie-zdroje-2/">Napájacie zdroje</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky-pre-mobily/">Nabíjačky pre mobily</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>SSWC01</CODE>
 <EAN>8592718042028</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Napájacie zdroje]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight cestovná nabíjačka 3v1, MagSafe kompatibilná - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/sswc01.jpg?v2</IMAGE>
@@ -62693,17 +62667,14 @@ Napájanie cez USB-C – rýchle a univerzálne (kábel súčasťou balenia)<br>
 <LI>Stav nabíjania indikuje LED indikátor</LI>
 <LI>Napájanie pomocou kábla USB-C (je súčasťou balenia)</LI>
 </UL><p><a href="https://www.solight.sk/documents/sspb01_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/napajacie-zdroje-2/">Napájacie zdroje</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/powerbanky/">Powerbanky</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>SSPB01</CODE>
 <EAN>8592718035211</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Napájacie zdroje]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight powerbanka, 5000 mAh, kompatibilná s MagSafe - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/sspb01.jpg?v2</IMAGE>
@@ -78688,7 +78659,7 @@ Corato ponúka špeciálny prepínač, ktorým možno jednoducho voliť teplotu 
 <li> rozsah: 5 - 1000MHz</li>
 <li> útlm: <3,5dB</li>
 </ul><p><a href="https://www.solight.sk/documents/ur02_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/anteny-a-satelity/">Antény a satelity</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pasivne-prvky/">Pasívne prvky a rozbočovače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -78698,10 +78669,7 @@ Corato ponúka špeciálny prepínač, ktorým možno jednoducho voliť teplotu 
   <MINIMAL_AMOUNT>10</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8595092128654</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[TV, audio, video a foto technika > Antény a satelity]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Antény a satelity]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight anténny rozbočovač hybridný priamy - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ur02.jpg?v2</IMAGE>
   <IMAGE description="Solight anténny rozbočovač hybridný priamy - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ur02_a.jpg?v2</IMAGE>
@@ -80014,7 +79982,7 @@ Ovládací klip s tlačidlom je vyrobený z odolného materiálu ABS - ľahký a
 Kompatibilita s modelmi <b>V6, V7, V8, V10, V11</b><br>
 <br><br>
 <b>UPOZORNENIE:</b> Jedná sa o neoriginálne príslušenstvo.
-<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-k-malym-spotrebicom/">Príslušenstvo k spotrebičom</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/domace-spotrebice-prislusenstvo-k-vysavacom/">Príslušenstvo k vysávačom</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -80024,10 +79992,7 @@ Kompatibilita s modelmi <b>V6, V7, V8, V10, V11</b><br>
   <MINIMAL_AMOUNT>10</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718038724</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight zámok spúšte pre Dyson V6, V7, V8, V10, V11 (červený) - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyvrtl.jpg?v2</IMAGE>
   <IMAGE description="Solight zámok spúšte pre Dyson V6, V7, V8, V10, V11 (červený) - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyvrtl_1.jpg?v2</IMAGE>
@@ -84549,17 +84514,14 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <LI>farebné prevedenie: čierna</LI>
 <LI>napájanie: AC 230 V / 50 Hz</LI>
 </UL><p><a href="https://www.solight.sk/documents/kp07b_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/kp07b_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/kp07b_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/kp07b_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/kp07b_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vzduchotechnika/">Klíma, vzduch a vykurovanie</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vykurovacie-telesa/">Ohrievače a vykurovacie telesá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>KP07B</CODE>
 <EAN>8592718041632</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Vykurovanie a ohrev vody]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Solight nástenný keramický ohrievač, 2000 W, čierne - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/kp07b.jpg?v2</IMAGE>
@@ -85121,17 +85083,14 @@ Kompatibilita s modelmi <b>V7, V8, V10, V11, V12, V15, Gen5</b><br>
 <br><br>
 
 <b>UPOZORNENIE:</b> Jedná sa o neoriginálne príslušenstvo.
-<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-k-malym-spotrebicom/">Príslušenstvo k spotrebičom</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/domace-spotrebice-prislusenstvo-k-vysavacom/">Príslušenstvo k vysávačom</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>DSP-DYV12ZJ</CODE>
 <EAN>8592718038755</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj.jpg?v2</IMAGE>
   <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj_1.jpg?v2</IMAGE>
@@ -89598,17 +89557,14 @@ Inštalácia tohto adaptéra je jednoduchá.<br> Pripojte ho k vysávaču, stla�
 Kompatibilita: <b>V7, V8, V10 Cyclone, V11 Outsize, V15 Detect</b><br>
 <br><br>
 <b>UPOZORNENIE:</b> Jedná sa o neoriginálne príslušenstvo.
-<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-k-malym-spotrebicom/">Príslušenstvo k spotrebičom</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/domace-spotrebice-prislusenstvo-k-vysavacom/">Príslušenstvo k vysávačom</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>DSP-DYV8ZJTW</CODE>
 <EAN>8592718038786</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight spodný kĺbový nadstavec pre Dyson V7, V8, V10, V11, V15 - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv8zjtw.jpg?v2</IMAGE>
   <IMAGE description="Solight spodný kĺbový nadstavec pre Dyson V7, V8, V10, V11, V15 - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv8zjtw_1.jpg?v2</IMAGE>
@@ -90893,17 +90849,14 @@ Domácnosti, kancelárie aj cestovanie – bez nutnosti hľadať káble<br><br>
 <LI> Vstup: DC 5V/3A, 9V/3A, 12V/2,5A </LI>
 <LI> Výstup: 15W (max) </LI> 
 </UL><p><a href="https://www.solight.sk/documents/sswc03_cz%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (CZ)</a></p><p><a href="https://www.solight.sk/documents/SSWC03_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/SSWC03_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/napajacie-zdroje-2/">Napájacie zdroje</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky-pre-mobily/">Nabíjačky pre mobily</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>SSWC03</CODE>
 <EAN>8592718044121</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Napájacie zdroje]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight bezdrôtová nabíjačka, Qi2, MagSafe kompatibilná - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/sswc03.jpg?v2</IMAGE>
@@ -91123,17 +91076,14 @@ Možno ho použiť na čistenie interiérov automobilov, schodov, vetracích otv
 Kompatibilita: <b>V8, V7, V10, V11, V12, V15</b><br>
 <br><br>
 <b>UPOZORNENIE:</b> Jedná sa o neoriginálne príslušenstvo.
-<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-k-malym-spotrebicom/">Príslušenstvo k spotrebičom</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/domace-spotrebice-prislusenstvo-k-vysavacom/">Príslušenstvo k vysávačom</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>DSP-DYV8RG</CODE>
 <EAN>8592718038793</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom]]></DEFAULT_CATEGORY>
-</CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Solight predlžovacia trubica pre Dyson V7, V8, V10, V11, V12, V15 - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv8rg.jpg?v2</IMAGE>
