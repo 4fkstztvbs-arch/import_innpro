@@ -9,6 +9,8 @@ const cfg = JSON.parse(fs.readFileSync(path.join(root, 'data/filter-params/filte
 const unwrap = (s) => { const m = s.match(/^<!\[CDATA\[([\s\S]*?)\]\]>$/); return m ? m[1] : s; };
 const csv = (v) => `"${String(v).replace(/"/g, '""')}"`;
 const lowerFirst = (s) => (/^\p{Lu}\p{Ll}+(?:[\s,/-]\p{Ll}+)*$/u.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s);
+// Do filtra nepatria dlhá voľná veta ani "neuvedené": zákazník by videl nepoužiteľné hodnoty.
+const usable = (v) => v.length <= 30 && !/neuv[aáe]d|nezad[aá]n|neuveden/i.test(v);
 const shoptetCode = (prefix, code) => prefix + code.trim().replace(/\s+/g, '_');
 
 const columns = [...new Set(cfg.kategorie.flatMap((k) => Object.values(k.filtre)))];
@@ -30,7 +32,7 @@ for (const [supplier, prefix] of Object.entries(cfg.prefixy)) {
     const row = {};
     for (const k of cfg.kategorie) {
       if (!cats.includes(k.kategoria)) continue;
-      for (const [feedName, filterName] of Object.entries(k.filtre)) if (params[feedName]) row[filterName] = filterName === 'Farba' ? lowerFirst(params[feedName]) : params[feedName];
+      for (const [feedName, filterName] of Object.entries(k.filtre)) if (params[feedName] && usable(params[feedName])) row[filterName] = filterName === 'Farba' ? lowerFirst(params[feedName]) : params[feedName];
     }
     if (Object.keys(row).length) rows.push({ code: shoptetCode(prefix, unwrap(code.trim())), row });
   }
