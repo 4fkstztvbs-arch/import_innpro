@@ -1,6 +1,6 @@
 # Kategórie mimo nášho stromu
 
-Kontrola z 2026-10-07 11:23 UTC, proti `data/known-categories.json` (580 kategórií).
+Kontrola z 2026-10-08 11:39 UTC, proti `data/known-categories.json` (580 kategórií).
 
 Žiadna **nová** oproti základnej čiare — nižšie uvedené sú už známe.
 
