@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 933,
+  "activeItemCount": 934,
   "activeProducts": [
     {
       "key": "code:BASYS-AD-PLF100",
@@ -440,6 +440,11 @@
     {
       "key": "code:BASYS-EN 455249",
       "code": "BASYS-EN 455249",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GB3002-A",
+      "code": "BASYS-GB3002-A",
       "ean": ""
     },
     {
