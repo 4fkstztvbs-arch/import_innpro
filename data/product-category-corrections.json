@@ -17454,6 +17454,5142 @@
       "rule": "reviewed-meze-accessory",
       "cleanGeneratedIntro": true,
       "sourceKey": "feed:basys:850"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03390298",
+      "ean": "",
+      "name": "Redukce faston 4,8 / 6,3",
+      "current": [
+        "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Káblové očká, fastóny a dutinky"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Káblové očká, fastóny a dutinky",
+      "rule": "faston",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-09336",
+      "ean": "8591686093360",
+      "name": "Měřič tlaku v pneumatikách SILVER",
+      "current": [
+        "Auto-moto > Garáž, dielňa, servis"
+      ],
+      "proposed": [
+        "Auto-moto > Kolesá a pneumatiky"
+      ],
+      "desiredTarget": "Auto-moto > Kolesá a pneumatiky",
+      "rule": "tlak-pneu",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "ITR-00016889",
+      "ean": "5900779944763",
+      "name": "Digitální fotoaparát Kruzzel AC22296 růžový",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Foto a príslušenstvo"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Foto a príslušenstvo",
+      "rule": "foto",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03390181",
+      "ean": "8596425205899",
+      "name": "Redukce faston 6,3 / 4,8",
+      "current": [
+        "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Káblové očká, fastóny a dutinky"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Káblové očká, fastóny a dutinky",
+      "rule": "faston",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO1524115012",
+      "ean": "8592920149263",
+      "name": "Žárovka EMOS Z6915 do pečicí trouby T22 / E14 / 15 W / 58 lm / 300 °C",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky",
+      "rule": "zarovka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3069052050",
+      "ean": "8592920156506",
+      "name": "GoSmart bezdrátový dveřní senzor EMOS IP-2011Z, ZigBee",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy",
+      "rule": "smart-senzor",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3132510900",
+      "ean": "8595209900944",
+      "name": "Žárovka EMOS C5109 do digestoře 240V 40W E14",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky",
+      "rule": "zarovka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "PEN-52901262",
+      "ean": "8594199731538",
+      "name": "Záložní zdroj MHPower DL181-9 Mini UPS 9V 1,2A",
+      "current": [
+        "Energia a napájanie > Napájacie zdroje"
+      ],
+      "proposed": [
+        "Energia a napájanie > Záložné zdroje a UPS"
+      ],
+      "desiredTarget": "Energia a napájanie > Záložné zdroje a UPS",
+      "rule": "ups",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "PEN-52901264",
+      "ean": "8594199731552",
+      "name": "Záložní zdroj MHPower DL181-24 Mini UPS 24V 0,5A",
+      "current": [
+        "Energia a napájanie > Napájacie zdroje"
+      ],
+      "proposed": [
+        "Energia a napájanie > Záložné zdroje a UPS"
+      ],
+      "desiredTarget": "Energia a napájanie > Záložné zdroje a UPS",
+      "rule": "ups",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "PEN-52901263",
+      "ean": "8594199731545",
+      "name": "Záložní zdroj MHPower DL181-12 Mini UPS 12V 1A",
+      "current": [
+        "Energia a napájanie > Napájacie zdroje"
+      ],
+      "proposed": [
+        "Energia a napájanie > Záložné zdroje a UPS"
+      ],
+      "desiredTarget": "Energia a napájanie > Záložné zdroje a UPS",
+      "rule": "ups",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04250590",
+      "ean": "",
+      "name": "Baterie olověno uhlíková 12V / 200 Ah SOLARFAM JPC12-200",
+      "current": [
+        "Energia a napájanie > Akumulátory a batérie"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory",
+      "rule": "olovo",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04250527",
+      "ean": "",
+      "name": "Baterie olověno uhlíková 12V / 100 Ah SOLARFAM JPC12-100",
+      "current": [
+        "Energia a napájanie > Akumulátory a batérie"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory",
+      "rule": "olovo",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04250589",
+      "ean": "",
+      "name": "Baterie olověno uhlíková 12V / 150 Ah SOLARFAM JPC12-150",
+      "current": [
+        "Energia a napájanie > Akumulátory a batérie"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Olovené akumulátory",
+      "rule": "olovo",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 884367-0100",
+      "ean": "0017817848961",
+      "name": "BOSE QuietComfort headphones - čierna",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Slúchadlá",
+      "rule": "sluchadla",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-TS-MR1640",
+      "ean": "0012562672083",
+      "name": "Pioneer TS-MR1640 lodný reproduktor",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory"
+      ],
+      "proposed": [
+        "Auto-moto > Elektronika do auta"
+      ],
+      "desiredTarget": "Auto-moto > Elektronika do auta",
+      "rule": "auto-audio",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-TS-MR2040",
+      "ean": "0012562672106",
+      "name": "Pioneer TS-MR2040 lodný reproduktor",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory"
+      ],
+      "proposed": [
+        "Auto-moto > Elektronika do auta"
+      ],
+      "desiredTarget": "Auto-moto > Elektronika do auta",
+      "rule": "auto-audio",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-TS-ME650FS",
+      "ean": "0884938429696",
+      "name": "Pioneer TS-ME650FS  lodný reproduktor",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory"
+      ],
+      "proposed": [
+        "Auto-moto > Elektronika do auta"
+      ],
+      "desiredTarget": "Auto-moto > Elektronika do auta",
+      "rule": "auto-audio",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-UD-ME100LED",
+      "ean": "0884938437851",
+      "name": "Pioneer UD-ME100LED Súprava LED pre námorné reproduktory",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory"
+      ],
+      "proposed": [
+        "Auto-moto > Elektronika do auta"
+      ],
+      "desiredTarget": "Auto-moto > Elektronika do auta",
+      "rule": "auto-audio",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 869583-2100",
+      "ean": "0017817837316",
+      "name": "BOSE S1 Pro+ Prenosný reproduktor",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
+      "rule": "prenosne-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-EN 458790",
+      "ean": "8432426458790",
+      "name": "Energy Sistem Kovové slúchadlá typu C káblové, modré",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá",
+      "rule": "sluchadla-drot",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 887612-0400",
+      "ean": "",
+      "name": "BOSE SoundLink Flex II bluetooth reproduktor, alpine sage",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
+      "rule": "prenosne-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-EN 459339",
+      "ean": "8432426459339",
+      "name": "Energy Sistem KaraokeStar Bluetooth Karaoke reproduktor s mikrofónmi",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
+      "rule": "prenosne-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B 897806-0010",
+      "ean": "",
+      "name": "Bose Ultra Open 2. generácie otvorené slúchadlá - čierna",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá",
+      "rule": "sluchadla-open",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "040791",
+      "ean": "5905316141117",
+      "name": "Zvukový zosilňovač Blitzwolf AS-22, 45 W, Bluetooth 5.0, USB + diaľkové ovládanie (čierny)",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > HiFi zosilňovače a receivery",
+      "rule": "hifi-zosil",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "043028",
+      "ean": "6920075778250",
+      "name": "Stojan Sonoff NSPanel (biely)",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely",
+      "rule": "smart-panel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "043032",
+      "ean": "6920075778151",
+      "name": "Stojanová základňa vypínača Sonoff NSPanel (čierny)",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely",
+      "rule": "smart-panel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "051607",
+      "ean": "6976100482203",
+      "name": "Puzdro PGYTECH For Mavic 3 Pro/Mavic 3 Classic/Mavic 3/Mavic 3E",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
+      "rule": "drony-taska",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "054791",
+      "ean": "6976037361046",
+      "name": "Smart Switch WiFi + RF 433 Sonoff T3 EU TX (3-channels)",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart vypínače a relé"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart vypínače a relé",
+      "rule": "smart-vypinac",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076215",
+      "ean": "6971889230311",
+      "name": "Diaľkové ovládanie kamery OBSBOT Tiny 2",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery",
+      "rule": "webkamera",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076216",
+      "ean": "6971889230335",
+      "name": "Diaľkové ovládanie kamery OBSBOT Tail Air",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery",
+      "rule": "webkamera",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076219",
+      "ean": "6971889230175",
+      "name": "Skladací statív OBSBOT",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Statívy pre fotoaparáty a kamery"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Statívy pre fotoaparáty a kamery",
+      "rule": "stativ",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075771",
+      "ean": "6976391036734",
+      "name": "IMOU SG108C 8-portový prepínač LAN",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche",
+      "rule": "switch",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077517",
+      "ean": "6935750567302",
+      "name": "Tester autobatérií UNI-T UT673A",
+      "current": [
+        "Auto-moto > Garáž, dielňa, servis"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky",
+      "rule": "tester",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073033",
+      "ean": "4711527000690",
+      "name": "Počítačový zdroj Darkflash PMT 80 Plus Gold 850 W",
+      "current": [
+        "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty",
+      "rule": "pc-zdroj",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075755",
+      "ean": "4711527000683",
+      "name": "Počítačový zdroj Darkflash PMT 80 Plus Gold 750 W",
+      "current": [
+        "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty",
+      "rule": "pc-zdroj",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079855",
+      "ean": "0652726293244",
+      "name": "Cyklistická pumpa Fanttik X9 Ace",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle",
+      "rule": "bike-pump",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "080585",
+      "ean": "6920075743371",
+      "name": "Kryt nástenného spínača SONOFF E1GSL (bez N)",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely",
+      "rule": "smart-panel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084208",
+      "ean": "6975755967455",
+      "name": "Prenosná cyklistická pumpa Flextail Tiny Bike Pump Pro (sivá)",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle",
+      "rule": "bike-pump",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084426",
+      "ean": "5905156102163",
+      "name": "Digitálny osciloskop FNIRSI DPOS350P 4 v 1",
+      "current": [
+        "Auto-moto > Garáž, dielňa, servis"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje",
+      "rule": "oscil",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084441",
+      "ean": "5905156102316",
+      "name": "FNIRSI DSO-TC3 SigGen 3-v-1 tester tranzistorov – ručný digitálny osciloskop",
+      "current": [
+        "Auto-moto > Garáž, dielňa, servis"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje",
+      "rule": "oscil",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084456",
+      "ean": "5905156102446",
+      "name": "FNIRSI DPOX180H 2-v-1 ručný digitálny fosforový osciloskop",
+      "current": [
+        "Auto-moto > Garáž, dielňa, servis"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje",
+      "rule": "oscil",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084927",
+      "ean": "6935750526125",
+      "name": "Uni-T UT261B – tester fáz a smeru otáčania motora",
+      "current": [
+        "Auto-moto > Garáž, dielňa, servis"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky",
+      "rule": "tester",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085707",
+      "ean": "6971337721552",
+      "name": "Konferenčný reproduktor EMEET OfficeCore M1A",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "konf-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085708",
+      "ean": "6971337722610",
+      "name": "Konferenčný reproduktor EMEET OfficeCore M0 Plus",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "konf-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085710",
+      "ean": "6971337722603",
+      "name": "Konferenčný systém EMEET OfficeCore Luna Plus Kit",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "konf-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085711",
+      "ean": "6971337722740",
+      "name": "Konferenčný reproduktor EMEET OfficeCore Luna Plus",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "konf-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085712",
+      "ean": "6971337726687",
+      "name": "Bezdrôtový konferenčný reproduktor EMEET OfficeCore M220",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "konf-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085713",
+      "ean": "6971337720159",
+      "name": "Bezdrôtový konferenčný reproduktor EMEET OfficeCore M2 (čierny)",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "konf-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085714",
+      "ean": "6971337721255",
+      "name": "Konferenčný reproduktor EMEET OfficeCore M3",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "konf-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085715",
+      "ean": "6971337720289",
+      "name": "Konferenčný reproduktor EMEET OfficeCore M2 Max",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > Webkamery"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "konf-repro",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090614",
+      "ean": "0810150549775",
+      "name": "Klávesnica pre SwitchBot Keypad Vision Pro",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely",
+      "rule": "smart-panel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093060",
+      "ean": "6921268818623",
+      "name": "Vonkajšie osvetlenie NEEWER",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie",
+      "rule": "osvetlenie-neewer",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093055",
+      "ean": "6921268818609",
+      "name": "Vonkajšie osvetlenie NEEWER – Trvalé vonkajšie svietidlá",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie",
+      "rule": "osvetlenie-neewer",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093054",
+      "ean": "6921268818593",
+      "name": "Vonkajšie osvetlenie NEEWER",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie",
+      "rule": "osvetlenie-neewer",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093318",
+      "ean": "0786156007598",
+      "name": "Pinpointer GARRETT Pro-Pointer AT Blackline",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory",
+      "rule": "detektor",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "093439",
+      "ean": "6971131385530",
+      "name": "Bramka GL.iNet GL-MT5000",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > WiFi routery"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > WiFi routery",
+      "rule": "router",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "095146",
+      "ean": "6976972041775",
+      "name": "Prenosný multimediálny prehrávač RAYNEO Pocket TV Pro",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy",
+      "rule": "tv-prehravac",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520458043",
+      "ean": "7613034365774",
+      "name": "Nescafé Dolce Gusto CAFE AU LAIT 30Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000852585",
+      "ean": "7613036303033",
+      "name": "Nescafé Dolce Gusto CAPPUCCINO 30 cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700000188909",
+      "ean": "8595126962438",
+      "name": "EXTOL 8703081 kotouč dia. řez. na BETON",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie",
+      "rule": "rez-kotuc",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002204851",
+      "ean": "8591680194674",
+      "name": "FIXED kabel USB-C/C 2 m FIXDBP2-CC2-BK",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble",
+      "rule": "usb-kabel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002142469",
+      "ean": "8445291733756",
+      "name": "STARBUCKS Hazelnut Macchiato DG 12 kap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002203803",
+      "ean": "8011869208522",
+      "name": "Midland ER Lantern LED camping lamp",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá",
+      "rule": "baterka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002074065",
+      "ean": "4006501724854",
+      "name": "Leifheit Air Board M Black Plus NF",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky",
+      "rule": "zehlicky-potah",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002131711",
+      "ean": "9022001901484",
+      "name": "BWT náhradní vodní filtr 3+1ks REFILL",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "999016457136",
+      "ean": "8005438006909",
+      "name": "KONIG ST4800800 Sněhové řetězy",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Auto-moto > Kolesá a pneumatiky"
+      ],
+      "desiredTarget": "Auto-moto > Kolesá a pneumatiky",
+      "rule": "snehove-retaze",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000474544",
+      "ean": "8595235806388",
+      "name": "Maxxo vodní filtry 5+1",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002202248",
+      "ean": "6970995787566",
+      "name": "Roborock Dust Bag Qrevo / QR798",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
+      "rule": "robot-prisl",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000476000",
+      "ean": "3258950315058",
+      "name": "Britool E031505 3/8\" 6hranná hlavice 10",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice",
+      "rule": "hlavice",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700014397822",
+      "ean": "4015671840981",
+      "name": "Güde 84098 Sada pneu adaptérů, 8-dílná",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky"
+      ],
+      "desiredTarget": "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky",
+      "rule": "pneu-sada",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002074139",
+      "ean": "8594182428186",
+      "name": "Niceboy ION Sonic a SmartSonic stanice W",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
+      "rule": "robot-prisl",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700014827822",
+      "ean": "4015671940797",
+      "name": "Güde 94079 Brusný kotouč k ostřičce pil",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie",
+      "rule": "rez-kotuc",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520288043",
+      "ean": "7613033590146",
+      "name": "Nescafé Dolce Gusto LUNGO INTENSO 16Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001937520",
+      "ean": "8445290156075",
+      "name": "Starbucks BUCKS Creamy Vanilla Coffee",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002075022",
+      "ean": "8445290870537",
+      "name": "NESCAFÉ® DG® Ristretto Ardenza 16ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001773134",
+      "ean": "8445290183439",
+      "name": "Starbucks® Blonde Espresso Roast 450 g",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000158873",
+      "ean": "7613036595735",
+      "name": "Nescafé Dolce Gusto FLAT WHITE 16Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700001205770",
+      "ean": "0884938340274",
+      "name": "Pioneer GM-A6704 zesilovač",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "Auto-moto > Elektronika do auta"
+      ],
+      "desiredTarget": "Auto-moto > Elektronika do auta",
+      "rule": "auto-audio",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002130319",
+      "ean": "8445291452657",
+      "name": "STARBUCKS® Dark roast 10ks kapsle",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002104275",
+      "ean": "8595235804476",
+      "name": "Maxxo+ vodní filtr 1ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520128043",
+      "ean": "7613032827014",
+      "name": "Nescafé Dolce Gusto CORTADO 16Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001959307",
+      "ean": "8445290537683",
+      "name": "Nescafé DG Grande New York kapsle 18 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520188043",
+      "ean": "7613033160141",
+      "name": "Nescafé Dolce Gusto NESQUIK 16Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001937521",
+      "ean": "8445290154422",
+      "name": "Starbucks Smooth Caramel Coffee 10 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002075023",
+      "ean": "8445290869531",
+      "name": "NESCAFÉ® DG® Ristretto Barista 16 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520038043",
+      "ean": "7613037931136",
+      "name": "Nescafé Dolce Gusto ESPRESSO 16Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001919313",
+      "ean": "4897098685860",
+      "name": "TP-Link Tapo C500",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
+      "rule": "ip-kamera",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001882492",
+      "ean": "8445290422200",
+      "name": "NESCAFÉ Dolce Gusto Espresso Palermo16ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000476582",
+      "ean": "7613036989305",
+      "name": "Starbucks CAPPUCCINO 120g 12Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520468043",
+      "ean": "7613034374264",
+      "name": "Nescafé Dolce Gusto CORTADO 30cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002130411",
+      "ean": "8595697703553",
+      "name": "Sixtol CAR TIRE REPAIR SET 1",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky"
+      ],
+      "desiredTarget": "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky",
+      "rule": "pneu-sada",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002204825",
+      "ean": "8591680194667",
+      "name": "FIXED kabel USB-C/USB-C FIXDBP2-CC035-BK",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble",
+      "rule": "usb-kabel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002104274",
+      "ean": "8595235803776",
+      "name": "Maxxo vodní filtr UNI 1ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700014517822",
+      "ean": "4015671850744",
+      "name": "Güde 85074 Nabíječka baterií PROFI V 421",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Energia a napájanie > Nabíjačky batérií a akumulátorov"
+      ],
+      "desiredTarget": "Energia a napájanie > Nabíjačky batérií a akumulátorov",
+      "rule": "nabijacka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001882490",
+      "ean": "8445290421456",
+      "name": "NESCAFÉ Dolce Gusto Espresso Napoli 16ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002070640",
+      "ean": "8592359251001",
+      "name": "MKF Car Jump Starter A16 startovací box",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy"
+      ],
+      "desiredTarget": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy",
+      "rule": "startovaci-box",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002204814",
+      "ean": "8591680194568",
+      "name": "FIXED Clip Cable USB-C/USB-C FIXDC-BK",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble",
+      "rule": "usb-kabel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001118727",
+      "ean": "5400338078989",
+      "name": "Powerplus POWX146 Lepící pistole 25 W",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Lepiace a horúcovzdušné pištole"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Lepiace a horúcovzdušné pištole",
+      "rule": "lepiaca-pistola",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001368397",
+      "ean": "4006501716033",
+      "name": "Leifheit 71603 Potah Heat Reflect S/M",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky",
+      "rule": "zehlicky-potah",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001356170",
+      "ean": "7613287355584",
+      "name": "Starbucks Madagask Van. Latte Macc 12cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000371972",
+      "ean": "7613036867436",
+      "name": "NESCAFÉ® Dolce Gusto® Espresso Inte 16ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000892514",
+      "ean": "8595235803332",
+      "name": "Maxxo Stojánek na kapsle Nespresso 40ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-prisl",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001178513",
+      "ean": "7613039853153",
+      "name": "STARBUCKS Caffe Latte 12cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001959303",
+      "ean": "8445290500304",
+      "name": "Starbucks Breakfast Blend káva 450g",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001882488",
+      "ean": "8445290422170",
+      "name": "NESCAFÉ Dolce Gusto Espresso Roma 16 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000052789",
+      "ean": "0011120232714",
+      "name": "BISSELL Čistící prostředek na podlahy",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky",
+      "rule": "upratovanie",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000612079",
+      "ean": "7613037290875",
+      "name": "Starbucks Colombia Nespresso 10 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002131005",
+      "ean": "4012074049287",
+      "name": "ScanPart vodní filtr kompatibilní s kávo",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000476581",
+      "ean": "7613036989282",
+      "name": "Starbucks LATTE MACCHIATO 129g12Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002130332",
+      "ean": "8445291430778",
+      "name": "NESCAFÉ® DG Flat White kapsle 30 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002075280",
+      "ean": "8445290815880",
+      "name": "STARBUCKS® Blonde Espr. Roast Dec 10ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000476214",
+      "ean": "3414970403681",
+      "name": "Legrand 416436 stykač CTX3 4P 40A",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Elektromery a spínacia technika"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Elektromery a spínacia technika",
+      "rule": "stykac",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520028043",
+      "ean": "7613036306270",
+      "name": "Nescafé Dolce Gusto CAPPUCCINO 16Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001937517",
+      "ean": "8445290446244",
+      "name": "Nescafé Dolce Gusto Grande 16 kapslí",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002131006",
+      "ean": "4012074051563",
+      "name": "ScanPart Vodní filtr pro  DeLonghi",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520478043",
+      "ean": "7613037934526",
+      "name": "Nescafé Dolce Gusto ESPRESSO 30 cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000476590",
+      "ean": "7613036989329",
+      "name": "Starbucks CARAMEL MACCHIATO 12Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001937519",
+      "ean": "8445290398222",
+      "name": "Starbucks White Mocha 12 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000065749",
+      "ean": "3258951132128",
+      "name": "TONA EXPERT klíč očkoplochý metrický 17m",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Kľúče"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Kľúče",
+      "rule": "kluc",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001945298",
+      "ean": "6941812713211",
+      "name": "Xiaomi Multi-function Flashlight",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá",
+      "rule": "baterka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520148043",
+      "ean": "7613033174711",
+      "name": "NESCAFÉ® Dolce Gusto® Café au Lait 16 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002142468",
+      "ean": "8445291756649",
+      "name": "NESCAFÉ® DG® KitKat kapsle 16 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700011487822",
+      "ean": "4015671405395",
+      "name": "Güde 40539 Pilový kotouč k pile GMK 350",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie",
+      "rule": "rez-kotuc",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001882487",
+      "ean": "8445290422149",
+      "name": "NESCAFÉ Dolce Gusto Espresso Milano 16ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001937518",
+      "ean": "8445290448668",
+      "name": "Nescafé Dolce Gusto Grande Intens 16 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002199525",
+      "ean": "8445291786240",
+      "name": "STARBUCKS® CHOCOLATE HAZELNUT Blonde",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "537000575080",
+      "ean": "8595025309662",
+      "name": "Emos P0111 Prodluž.kabel 1,5 m, 1 mm2",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble",
+      "rule": "usb-kabel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520058043",
+      "ean": "7613037491159",
+      "name": "NESCAFÉ® Dolce Gusto® Latte Macch 16ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000729185",
+      "ean": "7613036072229",
+      "name": "Nescafé Dolce Gusto Au Lait Intenso 16",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002074462",
+      "ean": "8445290871992",
+      "name": "NESCAFÉ® Dolce Gusto® Lungo kapsle 16 ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "491500034462",
+      "ean": "8595235806586",
+      "name": "Maxxo vodní filtry 3+1",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000852593",
+      "ean": "8595022047307",
+      "name": "Rooma Nádoba na mléko",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-prisl",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002100761",
+      "ean": "4012074052430",
+      "name": "ScanPart SCA8890000569 vodní filtr Phli",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002201375",
+      "ean": "8594182431087",
+      "name": "Niceboy Charles i4 Plus mop. utěrka",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
+      "rule": "robot-prisl",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001959516",
+      "ean": "4012074059149",
+      "name": "ScanPart vodní filtr kompatibilní 4ks",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002203916",
+      "ean": "3045387297985",
+      "name": "Tefal Sense KO6921E0 rychlovarná konvice",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice",
+      "rule": "kanvica",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001740128",
+      "ean": "7613037498141",
+      "name": "Nescafé Dolce Gusto Latte Macchiato 30ca",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700013738910",
+      "ean": "8595126939416",
+      "name": "EXTOL 8831100 nůž na odizolování kabelů",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble",
+      "rule": "usb-kabel",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002203784",
+      "ean": "4032661270009",
+      "name": "Albrecht DR 1000",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Rádiá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Rádiá",
+      "rule": "radio-dab",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000841019",
+      "ean": "7613039676646",
+      "name": "Starbucks Toffee Nut Latte 12cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001937516",
+      "ean": "7613033494765",
+      "name": "Nescafé Dolce Gusto Cortado Decaffeinato",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002131001",
+      "ean": "4012074060138",
+      "name": "ScanPart Čistící tablety 10 ks pro láhve",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "kava-filter",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001773136",
+      "ean": "8445290183507",
+      "name": "Starbucks®Pike Place Espress Roast 450 g",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001937522",
+      "ean": "8445290183637",
+      "name": "Starbucks Colombia Medium Roast 450 g",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001911902",
+      "ean": "3380743084725",
+      "name": "LEXIBOOK Set Tlapková patrola-vysílačky",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Hračky"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Hračky",
+      "rule": "hracky",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001392524",
+      "ean": "8594163277406",
+      "name": "Tesla AirCook Q10",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce",
+      "rule": "airfryer",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "999147297961",
+      "ean": "4042146102657",
+      "name": "KS 918.1325 nástrčná hlavice 6-hran 19mm",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice",
+      "rule": "hlavice",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "491200118119",
+      "ean": "4006501715982",
+      "name": "LEIFHEIT Potah Cotton Classic M",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky",
+      "rule": "zehlicky-potah",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340520238043",
+      "ean": "7613037788884",
+      "name": "Nescafé Dolce Gusto CARAMEL LATTE 16Cap",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Kávovary a espressá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov",
+      "rule": "kava-kapsule",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001444286",
+      "ean": "8595685530031",
+      "name": "IN Výsuvná lišta 2str.,3 zásuvky + 2 USB",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody",
+      "rule": "predlzovak",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "63604070",
+      "ean": "8590163873747",
+      "name": "Rádio Narex BT 02 pracovné, USB, BT, powerbank",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Rádiá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Rádiá",
+      "rule": "radio",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "120574",
+      "ean": "8595159843148",
+      "name": "LED svetlo MAARS MR 701D na bicykel, predné",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre bicykle",
+      "rule": "bike-pump",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "63603369",
+      "ean": "8591686131291",
+      "name": "LED čelovka Cattara STRIP SENSOR 350lm nabíjacia",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá",
+      "rule": "celovka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "63750",
+      "ean": "5902490787131",
+      "name": "LED svetlo NAC CL-50-LI-20V",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá",
+      "rule": "baterka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "63722215",
+      "ean": "5905842520165",
+      "name": "Rádio NAC  aku RJ-LI-20V",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Rádiá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Rádiá",
+      "rule": "radio",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578040",
+      "ean": "8594182431919",
+      "name": "Slúchadlá Niceboy Pins 4 Onyx Black",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
+      "rule": "sluchadla-tws",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578042",
+      "ean": "8594182430981",
+      "name": "Slúchadlá Niceboy Pins 4 PRO Onyx Black",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
+      "rule": "sluchadla-tws",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578044",
+      "ean": "8594182431193",
+      "name": "Slúchadlá Niceboy Pins 4 PRO Arctic White",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
+      "rule": "sluchadla-tws",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "638747",
+      "ean": "8595042792676",
+      "name": "LED čelovka Acra LAMP1",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá",
+      "rule": "celovka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "637501",
+      "ean": "5902490743588",
+      "name": "Svietidlo NAC CL-50-LI-20V",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá",
+      "rule": "baterka",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "054163",
+      "ean": "5905316148208",
+      "name": "Ochranné puzdro na batérie Sunnylife pre DJI AIR 3",
+      "current": [
+        "Cestovanie, šport a outdoor > Nabíjačky pre drony a RC modely"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "035846",
+      "ean": "6941565913470",
+      "name": "DJI RoboMaster TT celoplošný ochranný kryt vrtule",
+      "current": [
+        "Cestovanie, šport a outdoor > Hračky"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre drony",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000029225",
+      "ean": "8590393058686",
+      "name": "ETA - ND Nástavec na tvrdé ETA141787104",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700000268980",
+      "ean": "4047443279781",
+      "name": "Xavax 111723 čistič pro pračky",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Práčky"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001456331",
+      "ean": "4897098682586",
+      "name": "TP-LINK Tapo L900-5 LED pásek, Smart, RG",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED pásiky a príslušenstvo"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED pásiky a príslušenstvo",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TPE-TG80G",
+      "ean": "0710931505191",
+      "name": "ORG TPE-TG80G Gigabit Power over Ethernet switch",
+      "current": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-CRDRU3110BK",
+      "ean": "5412810415625",
+      "name": "Čtečka paměťových karet NEDIS CRDRU31 USB 3.2 Gen1",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Disky a pamäťové médiá > Čítačky pamäťových kariet"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Disky a pamäťové médiá > Čítačky pamäťových kariet",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-05953",
+      "ean": "8591686059533",
+      "name": "Clona SIMPLE na čelní sklo 150 x 90cm",
+      "current": [
+        "Auto-moto > Bezpečnostné a núdzové vybavenie > Zimné vybavenie"
+      ],
+      "proposed": [
+        "Auto-moto > Príslušenstvo do auta > Clony, roletky a poistky"
+      ],
+      "desiredTarget": "Auto-moto > Príslušenstvo do auta > Clony, roletky a poistky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CST-5",
+      "ean": "4007754084047",
+      "name": "Monacor CST-5 Odizolovacie kliešte",
+      "current": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Kliešte"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Kliešte",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002202045",
+      "ean": "8594232610035",
+      "name": "BLUETOUCH nab. bat. ; typ AAA, 1200 mWh",
+      "current": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-68",
+      "ean": "4007754222043",
+      "name": "Monacor MKTA-68 Fóliový kondenzátor MKT, 250 V",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "VUWIFI1300ANT",
+      "ean": "4260704120121",
+      "name": "USB WiFi adaptér duální VU+ 2,4/5GHz/1300Mbps s ANTÉNOU 6dBi, USB 3.0",
+      "current": [
+        "TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001091774",
+      "ean": "6935364030988",
+      "name": "TP-LINK Tapo L530E",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart osvetlenie"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart osvetlenie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085053",
+      "ean": "6978794730554",
+      "name": "MOVA LitterBot LR10 Prime (sivý)",
+      "current": [
+        "Chovateľské potreby > Starostlivosť o zvieratá"
+      ],
+      "proposed": [
+        "Chovateľské potreby > Inteligentné toalety pre zvieratá"
+      ],
+      "desiredTarget": "Chovateľské potreby > Inteligentné toalety pre zvieratá",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087904",
+      "ean": "6971915323055",
+      "name": "Lovecký ďalekohľad Mileseey IONJET2",
+      "current": [
+        "TV, audio, video a foto technika > Foto a príslušenstvo"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Ďalekohľady"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Ďalekohľady",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084442",
+      "ean": "5905156102477",
+      "name": "Multifunkčný generátor signálu FNIRSI SG-002",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABT-52451501",
+      "ean": "6935364022013",
+      "name": "TP-Link TL-SG2210P PoE Switch",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "SET-RBA5006",
+      "ean": "",
+      "name": "Akumulátorové nůžky REBEL TOOLS RB-5006 SET+ baterie + nabíječka",
+      "current": [
+        "Dielňa, náradie a záhrada > Záhrada a bazén > Náhradné diely pre záhradné stroje"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné náradie"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné náradie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "SSPB01",
+      "ean": "8592718035211",
+      "name": "Solight powerbanka, 5000 mAh, kompatibilná s MagSafe",
+      "current": [
+        "Energia a napájanie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-MS2050-L",
+      "ean": "4033653161053",
+      "name": "BEHRINGER MS2050-L profesionálny statív s duálnym mikrofónovým stojanom s ramenom",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ > Mikrofónové a reproduktorové stojany"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Pódium, diskotéka, DJ > Mikrofónové a reproduktorové stojany",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "SSWC01",
+      "ean": "8592718042028",
+      "name": "Solight cestovná nabíjačka 3v1, MagSafe kompatibilná",
+      "current": [
+        "Energia a napájanie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077721",
+      "ean": "6978281190052",
+      "name": "Tester obvodov Ancel PB500",
+      "current": [
+        "Auto-moto > Garáž, dielňa, servis"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TXS-606HSE/2",
+      "ean": "4007754276176",
+      "name": "IMG Stage Line TXS-606HSE/2 Multifrequency pocket transmitter, 672.000-691.975 MHz",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078687",
+      "ean": "5907085527239",
+      "name": "FNIRSI DPS150 DC programovateľný mini laboratórny napájací zdroj",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000235489",
+      "ean": "4716123315476",
+      "name": "NOCTUA NF-A8 PWM",
+      "current": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Mini PC"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Chladenie počítača"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Chladenie počítača",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "082575",
+      "ean": "6978258900035",
+      "name": "Podložka pod fitness zariadenia Urevo, 160 cm x 65 cm (čierna)",
+      "current": [
+        "Cestovanie, šport a outdoor > Posilňovanie a fitness > Elektrické bežecké pásy"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Posilňovanie a fitness > Posilňovacie lavice a podložky"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Posilňovanie a fitness > Posilňovacie lavice a podložky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "DSP-DYV12ZJ",
+      "ean": "8592718038755",
+      "name": "Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks)",
+      "current": [
+        "Domáce spotrebiče a domácnosť"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-EN 422517",
+      "ean": "8432426422517",
+      "name": "Energy Sistem Extra Battery 5000 portable battery, čierna",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "038163",
+      "ean": "6956362971554",
+      "name": "Záhradná solárna lampa Superfire FF16-A, 600 mAh",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Vonkajšie a záhradné osvetlenie"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Vonkajšie a záhradné osvetlenie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "RU-901G3/5",
+      "ean": "4007754268638",
+      "name": "JTS RU-901G3/5 True diverzitný UHF PLL širokopásmový prijímač",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "SSV5310E",
+      "ean": "8592718022808",
+      "name": "Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sáčok",
+      "current": [
+        "TV, audio, video a foto technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > AV káble"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > AV káble",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700015277822",
+      "ean": "4015671944627",
+      "name": "Güde 94462 Předsazený filtr pro vodárny",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné zavlažovacie systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070687",
+      "ean": "6977328061966",
+      "name": "Vysokorýchlostný sušič vlasov MOVA powered by Dreame Turbo, biely",
+      "current": [
+        "Zdravie a starostlivosť > Starostlivosť o vlasy"
+      ],
+      "proposed": [
+        "Zdravie a starostlivosť > Starostlivosť o vlasy > Fény a teplovzdušné kefy"
+      ],
+      "desiredTarget": "Zdravie a starostlivosť > Starostlivosť o vlasy > Fény a teplovzdušné kefy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002134434",
+      "ean": "8058150119266",
+      "name": "Girmi RC0200 Zastřihovač chloupků",
+      "current": [
+        "Zdravie a starostlivosť > Starostlivosť o vlasy"
+      ],
+      "proposed": [
+        "Zdravie a starostlivosť > Holiace strojčeky a epilátory"
+      ],
+      "desiredTarget": "Zdravie a starostlivosť > Holiace strojčeky a epilátory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "UR-816GSET",
+      "ean": "8588008802342",
+      "name": "JTS UR-816GSET UR-816GSET, gitarová sada",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KAB0607",
+      "ean": "5901436708155",
+      "name": "Kabel mikrofonní Cabletech KAB0607 stereo 6mm PROFI metráž",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Káble a vodiče"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Káble, konektory a redukcie"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Káble, konektory a redukcie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "061364",
+      "ean": "6941762401657",
+      "name": "Dust bag for Roidmi EVE CC",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086522",
+      "ean": "6955974968006",
+      "name": "UV-C lampa SUNSUN CUV-224",
+      "current": [
+        "Dielňa, náradie a záhrada > Záhrada a bazén"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Záhrada a bazén > Jazierka a jazierková technika"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Záhrada a bazén > Jazierka a jazierková technika",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "CX-500F",
+      "ean": "4007754225877",
+      "name": "JTS CX-500F Miniatúrny elektretový inštrumentálny mikrofón",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087828",
+      "ean": "6976391034709",
+      "name": "IMOU CE2P Smart Plug",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "999000016680",
+      "ean": "8592920007839",
+      "name": "Raver BAT. SOLAR NIMH HR6 2BL",
+      "current": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "071478",
+      "ean": "6976297860020",
+      "name": "Cycplus T2 smart bike trainer",
+      "current": [
+        "Cestovanie, šport a outdoor > Posilňovanie a fitness > Fitness náradie a vybavenie"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Elektrické bicykle a cyklotrenažéry"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Elektrické bicykle a cyklotrenažéry",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKPA-330",
+      "ean": "4007754221954",
+      "name": "Monacor MKPA-330 Filmový kondenzátor MKP, 33 µF, 250 V",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079955",
+      "ean": "5907085528915",
+      "name": "Pásik na krk Sunnylife pre RC2/1 / RC PRO2/1 / RC PLUS2/1 / Smart Controller.",
+      "current": [
+        "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre drony",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "SSWC03",
+      "ean": "8592718044121",
+      "name": "Solight bezdrôtová nabíjačka, Qi2, MagSafe kompatibilná",
+      "current": [
+        "Energia a napájanie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RB-2001-CH",
+      "ean": "5901890052313",
+      "name": "Ładowarka akumulatora 20V 2Ah/4Ah Rebel Tools",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Lepiace a horúcovzdušné pištole"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "DC-100",
+      "ean": "4007754003840",
+      "name": "Monacor DC-100 Antistatická kefa na LP s uhlíkovými vláknami",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "5289140",
+      "ean": "",
+      "name": "Kábel Sunpulse SMC4-4Y solárny rozbočovací, 1 pár, k fotovoltickým panelom, MC4 T 1 na 4",
+      "current": [
+        "Energia a napájanie > Akumulátory a batérie"
+      ],
+      "proposed": [
+        "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické konektory"
+      ],
+      "desiredTarget": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické konektory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "HDR-60/24",
+      "ean": "4007754249552",
+      "name": "ORG HDR-60/24 Switch-mode power supply, 60 W, 24 V, 2.5 A, DIN rail",
+      "current": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "proposed": [
+        "Energia a napájanie > Napájacie zdroje"
+      ],
+      "desiredTarget": "Energia a napájanie > Napájacie zdroje",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "080484",
+      "ean": "6937224123151",
+      "name": "Inteligentná batéria pre DJI Mini 5 Pro",
+      "current": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Batérie pre drony a RC modely"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Batérie pre drony a RC modely",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "DN25",
+      "ean": "8592718015886",
+      "name": "Solight nabíjačka s LCD displejom, AC 230V, 450mA, 4 kanály, AA/AAA, riadená mikroprocesorom",
+      "current": [
+        "Energia a napájanie"
+      ],
+      "proposed": [
+        "Energia a napájanie > Nabíjačky batérií a akumulátorov"
+      ],
+      "desiredTarget": "Energia a napájanie > Nabíjačky batérií a akumulátorov",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "DSP-DYVRTL",
+      "ean": "8592718038724",
+      "name": "Solight zámok spúšte pre Dyson V6, V7, V8, V10, V11 (červený)",
+      "current": [
+        "Domáce spotrebiče a domácnosť"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "DSP-DYV8RG",
+      "ean": "8592718038793",
+      "name": "Solight predlžovacia trubica pre Dyson V7, V8, V10, V11, V12, V15",
+      "current": [
+        "Domáce spotrebiče a domácnosť"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "5068158",
+      "ean": "8592220006181",
+      "name": "Kábel PremiumCord Predlžovací 230V 50 m na bubnu",
+      "current": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Predlžovacie a rozbočovacie zásuvky k PC"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "413603",
+      "ean": "8424450174197",
+      "name": "Kabel koaxiální Televes SK100PLUS Cu 413603 / 500m / 6,7 mm",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Káble a vodiče"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083429",
+      "ean": "6978515255663",
+      "name": "Čistiaca podložka s nylonovými štetinami pre Dreame Matrix10 Ultra",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Čističky a zvlhčovače vzduchu"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "340320144838",
+      "ean": "3221616044371",
+      "name": "Rowenta RH1239WO",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "068677",
+      "ean": "5906168437502",
+      "name": "Wireless charger 3in1 BW-IW30 Blitzwolf",
+      "current": [
+        "Energia a napájanie > Nabíjačky batérií a akumulátorov"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "082176",
+      "ean": "6928819532021",
+      "name": "LINOGY AA Li-ion Pro batéria sada - sada 8 ks",
+      "current": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Akumulátory a batérie do elektroniky"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001185399",
+      "ean": "6935364010911",
+      "name": "TP-LINK Tapo C310 Outdoor Wi-Fi Camera",
+      "current": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "035436",
+      "ean": "6973696563859",
+      "name": "Inteligentný Wi-Fi difuzér esenciálnych olejov Meross MOD150HK(EU) (HomeKit)",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Čističky a zvlhčovače vzduchu"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000027484",
+      "ean": "8591022350614",
+      "name": "Banquet Plech nepř. CUL. 42 s víkem",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Varenie a pečenie > Sporáky a rúry"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Formy na pečenie"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Formy na pečenie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076175",
+      "ean": "5907085525037",
+      "name": "Blitzwolf BW-TA1 Cestovný adaptér 4 v 1 2xUSB + C + PD 20 W",
+      "current": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Cestovné adaptéry"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Cestovné adaptéry",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088748",
+      "ean": "6977658980050",
+      "name": "Termovízna kamera THERMAL MASTER X3",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000858525",
+      "ean": "8595235813256",
+      "name": "Maxxo FF0300A",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče > Chladničky"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "54988057",
+      "ean": "8718503027630",
+      "name": "Adaptér Jupio Travel Adapter 2x USB-A 1x USB-C 15.5W univerzálny cestovný",
+      "current": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Cestovné adaptéry"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Cestovné adaptéry",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "071777",
+      "ean": "6956116727703",
+      "name": "Magnetický držiak telefónu Joyroom JR-ZS418 čierny",
+      "current": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Selfie tyče a statívy pre telefóny"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Držiaky na mobily"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Držiaky na mobily",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002203807",
+      "ean": "8011869208829",
+      "name": "Midland ER Emergency Backpack",
+      "current": [
+        "Cestovanie, šport a outdoor > Posilňovanie a fitness"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Turistika a outdoor",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001324685",
+      "ean": "4897098682777",
+      "name": "TP-LINK Tapo C210 Home Sec. Wi-Fi Camera",
+      "current": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-GIC-1000",
+      "ean": "4033653161596",
+      "name": "Behringer GIC-1000",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Káble, konektory a redukcie"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Káble, konektory a redukcie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABT-A500003433",
+      "ean": "9120101780043",
+      "name": "ADEX ADS108GRP-1PO Reverzní PoE Switch 8x Gbit Port (1x poe out), Web Managed, Metal",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076944",
+      "ean": "6920075742961",
+      "name": "SONOFF MPS01 Grilovací teplomer na mäso",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Teplomery"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Teplomery",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SAM-80WIFI",
+      "ean": "8588008802168",
+      "name": "MONSK SAM-80WIFI Modul aktívneho reproduktora 2 x 40W/4 Ω, trieda D",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Multi-room ozvučenie"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Multi-room ozvučenie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "UR02",
+      "ean": "8595092128654",
+      "name": "Solight anténny rozbočovač hybridný priamy",
+      "current": [
+        "TV, audio, video a foto technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Antény a satelity > Pasívne prvky a rozbočovače",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076105",
+      "ean": "0843367133031",
+      "name": "Prenosný SSD Lexar SL500,2 TB",
+      "current": [
+        "Počítače, mobily a tablety > Disky a pamäťové médiá"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SA-200",
+      "ean": "4007754249903",
+      "name": "Monacor SA-200 Univerzálny stereo zosilňovač, 100 W",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Výkonové a inštalačné zosilňovače"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Výkonové a inštalačné zosilňovače",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "DN27",
+      "ean": "8592718026424",
+      "name": "Solight nabíjačka batérií Li-Ion, LiFePO4, Ni-MH/CD, AA, AAA, 18650, 2000mA, 2 kanály, LCD displej",
+      "current": [
+        "Energia a napájanie"
+      ],
+      "proposed": [
+        "Energia a napájanie > Nabíjačky batérií a akumulátorov"
+      ],
+      "desiredTarget": "Energia a napájanie > Nabíjačky batérií a akumulátorov",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM0924-2G",
+      "ean": "5901890127332",
+      "name": "Kruger&Matz Simple 924 GSM mobilní tlačítkový telefon pro seniory",
+      "current": [
+        "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "52800048",
+      "ean": "8595563735305",
+      "name": "Regulátor Geti GWH04W solárny MPPT 5 kW na ohrev vody, výstup 230V, vstup 450V, WiFi monitoring",
+      "current": [
+        "Auto-moto > Karavany a obytné autá"
+      ],
+      "proposed": [
+        "Energia a napájanie > Fotovoltaika > Solárne regulátory"
+      ],
+      "desiredTarget": "Energia a napájanie > Fotovoltaika > Solárne regulátory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM0923-4G",
+      "ean": "5901890126212",
+      "name": "Telefon GSM Kruger&Matz KM0923-4G Simple 923 4G pro seniory",
+      "current": [
+        "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "084427",
+      "ean": "5905156102170",
+      "name": "FNIRSI IPS3608 Inteligentný digitálny napájací zdroj AC-DC",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-100",
+      "ean": "4007754222067",
+      "name": "Monacor MKTA-100 Fóliový kondenzátor MKT, 250 V",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086249",
+      "ean": "0850077828218",
+      "name": "Akumulátorová pumpa na pneumatiky Fanttik X10 Pro",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Skrutkovače, bity a imbusy"
+      ],
+      "proposed": [
+        "Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky"
+      ],
+      "desiredTarget": "Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073522",
+      "ean": "5907085523224",
+      "name": "Skladovacie vrecko Sunnylife DJI NEO",
+      "current": [
+        "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001049158",
+      "ean": "8591022335369",
+      "name": "Banquet Šlehač na ml.ruční CUL. Gour",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Poháre a fľaše"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "LSI-56T",
+      "ean": "4007754066890",
+      "name": "Monacor LSI-56T Cievka s transformátorovým jadrom, 5,6 mH",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088637",
+      "ean": "5905156105560",
+      "name": "Puzdro Sunnylife Mini s karabínou pre NEO 2 – ČIERNE",
+      "current": [
+        "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-K953",
+      "ean": "8595118827387",
+      "name": "Patice GU10 keramická s přívodními vodiči",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Komponenty pre svietidlá"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Komponenty pre svietidlá",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "LLM-S",
+      "ean": "8592718026462",
+      "name": "Solight stojanček pre laserovú vodováhu LLM",
+      "current": [
+        "Dielňa, náradie a záhrada"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Príslušenstvo k meracej technike"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Príslušenstvo k meracej technike",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002172164",
+      "ean": "4062172395601",
+      "name": "OSRAM H4 12V 60/55W ORIG LINE 64193-1BL",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED žiarovky"
+      ],
+      "proposed": [
+        "Auto-moto > Autožiarovky a osvetlenie"
+      ],
+      "desiredTarget": "Auto-moto > Autožiarovky a osvetlenie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "PAP01",
+      "ean": "8592718030841",
+      "name": "Solight digitálny vreckový kompresor",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti"
+      ],
+      "proposed": [
+        "Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky"
+      ],
+      "desiredTarget": "Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KM0467",
+      "ean": "5901890105200",
+      "name": "Telefon GSM Kruger&Matz IRON 4 4G odolný",
+      "current": [
+        "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "086265",
+      "ean": "6937224131668",
+      "name": "Skladací solárny panel DJI POWER 100 W",
+      "current": [
+        "Energia a napájanie > Prenosné elektrické stanice"
+      ],
+      "proposed": [
+        "Energia a napájanie > Fotovoltaika > Solárne panely"
+      ],
+      "desiredTarget": "Energia a napájanie > Fotovoltaika > Solárne panely",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABT-A500003056",
+      "ean": "0817882027595",
+      "name": "Ubiquiti UniFi Switch USW-FLEX",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "54980630",
+      "ean": "8719743931602",
+      "name": "Nabíjačka Jupio USB 4-slots Ultra Fast Battery Charger LCD pre 1 až 4ks AA/ AAA baterií",
+      "current": [
+        "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Batérie a nabíjačky pre kamery"
+      ],
+      "proposed": [
+        "Energia a napájanie > Nabíjačky batérií a akumulátorov"
+      ],
+      "desiredTarget": "Energia a napájanie > Nabíjačky batérií a akumulátorov",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "52800042",
+      "ean": "",
+      "name": "Regulátor Epever EPsolar XTRA4210N G3 BLE solárny MPPT, 12/24V, 40A, vstup 100V, Bluetooth",
+      "current": [
+        "Auto-moto > Karavany a obytné autá"
+      ],
+      "proposed": [
+        "Energia a napájanie > Fotovoltaika > Solárne regulátory"
+      ],
+      "desiredTarget": "Energia a napájanie > Fotovoltaika > Solárne regulátory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-220",
+      "ean": "4007754222098",
+      "name": "Monacor MKTA-220 Fóliový kondenzátor MKT, 250 V",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "54988061",
+      "ean": "8719743935334",
+      "name": "Adaptér Jupio Triple USB (2C1A) GaN Charger 65W",
+      "current": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-EN 452996",
+      "ean": "8432426452996",
+      "name": "Energy Sistem Office Mouse 5 Comfy kancelárska myš",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "LG601988",
+      "ean": "3245066019888",
+      "name": "Rozvaděč Legrand Plexo 601988 IP65 plastový 4x18 nástěnný / průhledné dveře",
+      "current": [
+        "Energia a napájanie > Fotovoltaika > Rozvádzače a ochrana FV inštalácií"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Montážne skrine a rozvádzače > Rozvádzače prázdne"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Montážne skrine a rozvádzače > Rozvádzače prázdne",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "ECM-302B",
+      "ean": "4007754137200",
+      "name": "Monacor ECM-302B Boundary mikrofón",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002076097",
+      "ean": "8596426108441",
+      "name": "ALI Chytrá zásuvka Wi-Fi WAL001",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074212",
+      "ean": "5907085523040",
+      "name": "Torba Adventure Sunnylife OA5-B894-D do ACTION 5 PRO/OSMO Action 4/3 (čierna)",
+      "current": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Foto a príslušenstvo > Skladovanie a preprava",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "068199",
+      "ean": "6972237681120",
+      "name": "Maono XLR-180 Cable",
+      "current": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Káble, konektory a redukcie"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Káble, konektory a redukcie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-BD 455970",
+      "ean": "4010118455971",
+      "name": "beyerdynamic DT 150 250 Ohm",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "074144",
+      "ean": "6977132450055",
+      "name": "isEasy LT2V-15 Two-Zones electric ceramic stove",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Varenie a pečenie > Varné dosky"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Varenie a pečenie > Varné dosky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "KA-10/1PACK",
+      "ean": "4007754218619",
+      "name": "JTS KA-10/1PACK Bezdrôtový 16-kanálový PLL audio prenosný systém pre kamery",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2512000100",
+      "ean": "8595025366467",
+      "name": "UTP datová zásuvka RJ45",
+      "current": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Vypínače a zásuvky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088723",
+      "ean": "6972470564846",
+      "name": "Herná myš ONIKUMA DM03 RGB (čierna)",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001953707",
+      "ean": "4897098681367",
+      "name": "TP-Link Tapo L930-5",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart osvetlenie"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart osvetlenie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "071276",
+      "ean": "6924922255093",
+      "name": "Yeelight Cube 4-Matrix (4 balenia)",
+      "current": [
+        "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart osvetlenie"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart osvetlenie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "FLY-16R",
+      "ean": "4007754266474",
+      "name": "IMG Stage Line FLY-16R 16-kanálový bezdrôtový PA audio prijímač",
+      "current": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "700075769140",
+      "ean": "8711500055460",
+      "name": "Philips R5W",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie"
+      ],
+      "proposed": [
+        "Auto-moto > Autožiarovky a osvetlenie"
+      ],
+      "desiredTarget": "Auto-moto > Autožiarovky a osvetlenie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-MU1000",
+      "ean": "4033653160971",
+      "name": "Behringer MU1000 music stand",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Hudobné nástroje a príslušenstvo"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Hudobné nástroje a príslušenstvo",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-27",
+      "ean": "4007754238655",
+      "name": "Monacor MKTA-27 Fóliový kondenzátor MKT, 250 V",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001519318",
+      "ean": "8590393324521",
+      "name": "ETA AquaCare Power 2708 90000, bílá",
+      "current": [
+        "Zdravie a starostlivosť > Starostlivosť o zuby"
+      ],
+      "proposed": [
+        "Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy"
+      ],
+      "desiredTarget": "Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "V49IP",
+      "ean": "5901436702856",
+      "name": "Redukce 3x Cinch, S-VIDEO - SCART s přepínačem",
+      "current": [
+        "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > AV káble"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > AV káble",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000661734",
+      "ean": "6935364088095",
+      "name": "TP-LINK Tapo C200 HomeWi-Fi Camera",
+      "current": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002201233",
+      "ean": "8591680188468",
+      "name": "FIXED MagClick 2 s MgSf 15W FIXMCLI2-BK",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Držiaky na mobily"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Držiaky na mobily",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088071",
+      "ean": "6920075777406",
+      "name": "Funkcjonalny klucz sprzętowy Sonoff ZigBee 3.0 USB Dongle Plus",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Zámky a prístupové systémy"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "030019",
+      "ean": "6926170086948",
+      "name": "Ovládací box ventilátora pre počítač Darkflash RC2 RGB PWM (čierny)",
+      "current": [
+        "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Chladenie počítača"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Chladenie počítača",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000109445",
+      "ean": "4260403573204",
+      "name": "RIVA CASE Batoh na dron, NTB 13.3\",černý",
+      "current": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom"
+      ],
+      "proposed": [
+        "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony"
+      ],
+      "desiredTarget": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KPO2756-5",
+      "ean": "5901436713890",
+      "name": "Kabel mikrofonní XLR samice - XLR samec 5m",
+      "current": [
+        "TV, audio, video a foto technika > AV káble"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Káble, konektory a redukcie"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Káble, konektory a redukcie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000236908",
+      "ean": "4029665080055",
+      "name": "TechnoLine WS 8005 digitální budík",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > Rádiá"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002079522",
+      "ean": "0197531544216",
+      "name": "LENOVO adaptér TAB 68W AC USB ZG38C05739",
+      "current": [
+        "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "50698123",
+      "ean": "6935750518045",
+      "name": "Skúšačka UNI-T UT18D vadaska",
+      "current": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Testery a skúšačky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088722",
+      "ean": "6972470564945",
+      "name": "Herná myš ONIKUMA DM07 RGB (čierna)",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "070830",
+      "ean": "5906168439209",
+      "name": "BlitzWolf BW-AL1 LED RGBx2 desk lamp",
+      "current": [
+        "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Stolové a stojacie lampy"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Stolové a stojacie lampy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "penta",
+      "code": "52800046",
+      "ean": "8719076049845",
+      "name": "Regulátor Victron energy BlueSolar 100/20 MPPT solárny, 12/24/48 V, 20 A, vstup 100 V",
+      "current": [
+        "Auto-moto > Karavany a obytné autá"
+      ],
+      "proposed": [
+        "Energia a napájanie > Fotovoltaika > Solárne regulátory"
+      ],
+      "desiredTarget": "Energia a napájanie > Fotovoltaika > Solárne regulátory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "KK61-200",
+      "ean": "5412386705090",
+      "name": "KON KK61-200 Kontakt 61, sprej, 200 ml",
+      "current": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Dielenské vybavenie > Chémia pre dielňu"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Dielenské vybavenie > Chémia pre dielňu",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "081500",
+      "ean": "5905156100732",
+      "name": "Ergonomická myš Delux M618Mini Gold (USB / Bluetooth / 2,4 GHz)",
+      "current": [
+        "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000148025",
+      "ean": "0088381417556",
+      "name": "Makita BL1815N baterie 18V/1,5Ah LTX",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Sady náradia"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Aku náradie a batérie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-SPL 1600",
+      "ean": "",
+      "name": "SPL Performer s800 výkonový zosilňovač, čierny",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Výkonové a inštalačné zosilňovače"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Výkonové a inštalačné zosilňovače",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "KP07B",
+      "ean": "8592718041632",
+      "name": "Solight nástenný keramický ohrievač, 2000 W, čierne",
+      "current": [
+        "Domáce spotrebiče a domácnosť"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Vykurovanie a ohrev vody > Ohrievače a vykurovacie telesá",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-B112D",
+      "ean": "4033653021890",
+      "name": "Behringer EUROLIVE B112D aktívny PA reproduktorový systém",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "desiredTarget": "Profesionálna audio technika > PA reproduktory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000109569",
+      "ean": "8590393259038",
+      "name": "ETA Fenité 3337 90000, bílá",
+      "current": [
+        "Zdravie a starostlivosť > Starostlivosť o vlasy > Fény a teplovzdušné kefy"
+      ],
+      "proposed": [
+        "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy"
+      ],
+      "desiredTarget": "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "T212604",
+      "ean": "8424450151693",
+      "name": "Kabel koaxiální Televes T-100 Cu 212604 / 250m / 6,6 mm",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Káble a vodiče"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Antény a satelity > Koaxiálne káble a konektory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-47",
+      "ean": "4007754222036",
+      "name": "Monacor MKTA-47 Fóliový kondenzátor MKT, 250 V",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "067558",
+      "ean": "6972971865176",
+      "name": "Pro card reader FREEWELL CF A/B, SD, TF",
+      "current": [
+        "Počítače, mobily a tablety"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Disky a pamäťové médiá > Čítačky pamäťových kariet"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Disky a pamäťové médiá > Čítačky pamäťových kariet",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-06442516",
+      "ean": "8592957012943",
+      "name": "Nabíječka přenosná IMMAX NEO EV/PHEV AC Type 2 22kW WiFi Tuya cestovní",
+      "current": [
+        "Energia a napájanie > Fotovoltaika"
+      ],
+      "proposed": [
+        "Auto-moto > Elektromobilita"
+      ],
+      "desiredTarget": "Auto-moto > Elektromobilita",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088751",
+      "ean": "6977658980159",
+      "name": "Termovízna kamera THERMAL MASTER DV2",
+      "current": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "067836",
+      "ean": "6932172661892",
+      "name": "Adapter WiFi Baseus FastJoy 1800Mbps (black)",
+      "current": [
+        "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "BAG-12M",
+      "ean": "4007754242492",
+      "name": "IMG Stage Line BAG-12M Ochranný obal pre MEGA-112MK2, MEGA-DSP12, MOVE-12",
+      "current": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "GD-04K",
+      "ean": "8595614112956",
+      "name": "JAB GD-04K Vytáčacia a riadiaca jednotka GSM",
+      "current": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Príslušenstvo pre zabezpečovacie systémy"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Príslušenstvo pre zabezpečovacie systémy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "SSWC02",
+      "ean": "8592718042035",
+      "name": "Solight stolová nabíjačka 3v1, Qi2, MagSafe kompatibilná",
+      "current": [
+        "Energia a napájanie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "CA01B",
+      "ean": "8592718023690",
+      "name": "Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088724",
+      "ean": "6972470564853",
+      "name": "Herná myš ONIKUMA DM05 RGB (čierna)",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Monitory a PC periférie > PC periférie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "PAB-810/SW",
+      "ean": "8588008802502",
+      "name": "ARVOX PAB-810/SW Profesionálny reproduktor",
+      "current": [
+        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "desiredTarget": "Profesionálna audio technika > PA reproduktory",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "TPE-TG44G",
+      "ean": "0710931505184",
+      "name": "ORG TPE-TG44G Power over Ethernet Gigabit switch",
+      "current": [
+        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "330500087111",
+      "ean": "8594043280496",
+      "name": "KOMA OL10 - Olejový filtr 1000x420mm",
+      "current": [
+        "Domáce spotrebiče a domácnosť > Varenie a pečenie > Sporáky a rúry"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "065130",
+      "ean": "6975515771162",
+      "name": "UV Superfire HZ01 head flashlight",
+      "current": [
+        "Cestovanie, šport a outdoor > Turistika a outdoor"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "BK-4MCDE/2BE",
+      "ean": "5410853064268",
+      "name": "Panasonic BK-4MCDE/2BE Eneloop rechargeable batteries, AAA size, pack of 2, PANASONIC",
+      "current": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "proposed": [
+        "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články"
+      ],
+      "desiredTarget": "Energia a napájanie > Akumulátory a batérie > Nabíjacie batérie a gombíkové články",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "088131",
+      "ean": "0810150546163",
+      "name": "Inteligentný videozvonček SwitchBot",
+      "current": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť"
+      ],
+      "proposed": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky"
+      ],
+      "desiredTarget": "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "solight",
+      "code": "DSP-DYV8ZJTW",
+      "ean": "8592718038786",
+      "name": "Solight spodný kĺbový nadstavec pre Dyson V7, V8, V10, V11, V15",
+      "current": [
+        "Domáce spotrebiče a domácnosť"
+      ],
+      "proposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ],
+      "desiredTarget": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "044436",
+      "ean": "6932172624811",
+      "name": "Tvrdené sklo Baseus Crystal 0,3 mm pre HUAWEI MatePad Pro 12,6\"",
+      "current": [
+        "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Tvrdené sklá a fólie"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Tvrdené sklá a fólie",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001519273",
+      "ean": "8590274766150",
+      "name": "Marvo Volant GT-903 volant s pedály",
+      "current": [
+        "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "basys",
+      "code": "BASYS-HPM1100U",
+      "ean": "4033653120821",
+      "name": "Behringer HPM1100U",
+      "current": [
+        "TV, audio, video a foto technika > Audio technika"
+      ],
+      "proposed": [
+        "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá"
+      ],
+      "desiredTarget": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090469",
+      "ean": "4897143172307",
+      "name": "Súprava príslušenstva Freewell: Čítačka pamäťových kariet Pro Card Plus + adaptér na SSD",
+      "current": [
+        "Počítače, mobily a tablety"
+      ],
+      "proposed": [
+        "Počítače, mobily a tablety > Disky a pamäťové médiá > Čítačky pamäťových kariet"
+      ],
+      "desiredTarget": "Počítače, mobily a tablety > Disky a pamäťové médiá > Čítačky pamäťových kariet",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000969020",
+      "ean": "8590393320844",
+      "name": "ETA 170890000",
+      "current": [
+        "Zdravie a starostlivosť > Starostlivosť o zuby"
+      ],
+      "proposed": [
+        "Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy"
+      ],
+      "desiredTarget": "Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "monacor",
+      "code": "MKTA-470",
+      "ean": "4007754222111",
+      "name": "Monacor MKTA-470 Fóliový kondenzátor MKT, 250 V",
+      "current": [
+        "Profesionálna audio technika > PA reproduktory"
+      ],
+      "proposed": [
+        "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio"
+      ],
+      "desiredTarget": "Profesionálna audio technika > Súčiastky, meracia technika a DIY pre audio",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
+    },
+    {
+      "supplier": "atos",
+      "code": "TOC-SX1114",
+      "ean": "8595697701634",
+      "name": "Rázové hlavice MECHANIC IMPACT 1, 1/2\", 3ks SIXTOL",
+      "current": [
+        "Auto-moto > Kolesá a pneumatiky"
+      ],
+      "proposed": [
+        "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice"
+      ],
+      "desiredTarget": "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie > Gola sady a nástrčné hlavice",
+      "rule": "audit-2026-10-08-faza2",
+      "cleanGeneratedIntro": false,
+      "sourceKey": "audit:2026-10-08"
     }
   ],
   "automaticCategoryRules": [
