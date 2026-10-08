@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600500,
+    "nextCardNumber": 202600504,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3008,6 +3008,30 @@
         "nazov": "Gorenje GI6432BSCWF",
         "dodavatel": "kb",
         "code": "100002130864"
+      },
+      "8592920083987": {
+        "kod": "202600500",
+        "nazov": "DVBT2 EMOS EM190-S HD (IR čidlo, USB, HDMI, SCART, displej, H.265)",
+        "dodavatel": "atos",
+        "code": "EMOJ190S"
+      },
+      "8595563725184": {
+        "kod": "202600501",
+        "nazov": "Kondenzátor rozběhový motorový 12uF 450V GETI GMC 12C",
+        "dodavatel": "atos",
+        "code": "TIP-02020026"
+      },
+      "5901436797159": {
+        "kod": "202600502",
+        "nazov": "Autoadaptér KRUGER & MATZ KM0018, 2x USB, Qualcomm 3A",
+        "dodavatel": "atos",
+        "code": "ATO-KM0018"
+      },
+      "9120045510218": {
+        "kod": "202600503",
+        "nazov": "VENTS zdvihač žaluzie 240V - náhradní díl pro VENTS MA 1099048",
+        "dodavatel": "atos",
+        "code": "ELE-1099048"
       }
     }
   },
