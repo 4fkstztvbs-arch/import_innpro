@@ -28,7 +28,7 @@
   document.head.appendChild(st);
 
   var css2 = '' +
-    '#ps-cart-extra{order:2}#ps-rel{order:3}.ps-note{display:block;margin:10px 0;padding:10px 12px;border-radius:10px;background:#eef6f2;color:#0e3d2b;font-size:13.5px;line-height:1.4}' +
+    '#ps-cart-extra{order:2}#ps-rel{order:5}.ps-note{display:block;margin:10px 0;padding:10px 12px;border-radius:10px;background:#eef6f2;color:#0e3d2b;font-size:13.5px;line-height:1.4}' +
     '.ps-trust{display:flex;flex-wrap:wrap;gap:8px 18px;margin:14px 0;padding:0;list-style:none;font-size:13px;color:#33424a}' +
     '.ps-trust li{display:flex;align-items:center;gap:6px;margin:0;padding:0}' +
     '.ps-trust li::before{content:"\\2713";display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:#167450;color:#fff;font-size:11px;font-weight:700}' +
@@ -66,10 +66,28 @@
   function loadRelated(anchor) {
     var link = document.querySelector('table.cart-table tr.removeable a.main-link');
     if (!link || !window.fetch) return;
+    var self = link;
     fetch(link.getAttribute('href'), { credentials: 'same-origin' }).then(function (r) { return r.text(); }).then(function (html) {
       var doc = new DOMParser().parseFromString(html, 'text/html');
       var items = doc.querySelectorAll('.products-related .product, #productsRelated .product, .p-related .product');
-      if (!items.length) return;
+      if (items.length) return render(items, link.getAttribute('href'));
+      /* záloha: produkty z poslednej kategórie v omrvinkovej navigácii */
+      var crumbs = doc.querySelectorAll('#navigation .breadcrumbs a[href], .breadcrumbs a[href], [data-testid="breadcrumbs"] a[href]');
+      var cat = null;
+      for (var k = crumbs.length - 1; k >= 0; k--) {
+        var h = crumbs[k].getAttribute('href');
+        if (h && h !== '/' && h.indexOf('/' ) === 0 && h !== link.getAttribute('href')) { cat = h; break; }
+      }
+      if (!cat) return;
+      return fetch(cat, { credentials: 'same-origin' }).then(function (r) { return r.text(); }).then(function (ch) {
+        var cd = new DOMParser().parseFromString(ch, 'text/html');
+        var cards = [].slice.call(cd.querySelectorAll('#products .product, .products-block .product'));
+        var own = link.getAttribute('href');
+        cards = cards.filter(function (c) { var a1 = c.querySelector('a[href]'); return a1 && a1.getAttribute('href') !== own; });
+        render(cards, own);
+      });
+    }).catch(function () {});
+    function render(items, own) {
       var wrap = document.createElement('section');
       wrap.id = 'ps-rel';
       wrap.innerHTML = '<h2>Mohlo by vám chýbať</h2><div class="ps-rel-list"></div>';
@@ -90,7 +108,7 @@
         var ex = document.getElementById('ps-cart-extra');
         if (ex) ex.parentNode.insertBefore(wrap, ex.nextSibling);
       }
-    }).catch(function () {});
+    }
   }
 
   /* Krok Doprava & platba: skrátený zoznam + „Ďalšie spôsoby“, poznámka o odoslaní */
