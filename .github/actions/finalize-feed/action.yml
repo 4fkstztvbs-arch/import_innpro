@@ -30,6 +30,12 @@ runs:
         SUPPLIER: ${{ inputs.supplier }}
       run: node scripts/apply-missing-availability.js --supplier="$SUPPLIER" --xml="output/$SUPPLIER.xml"
 
+    - name: Dostupnosť pri vypredaní vždy rovnaká ako dostupnosť (vypnutie aj znovu zapnutie v Shoptete)
+      shell: bash
+      env:
+        SUPPLIER: ${{ inputs.supplier }}
+      run: node scripts/sync-out-of-stock-availability.js "output/$SUPPLIER.xml"
+
     - name: Normalize valid supplier GTINs to EAN-13
       shell: bash
       env:

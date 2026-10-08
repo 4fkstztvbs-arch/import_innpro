@@ -60,6 +60,9 @@ jobs:
       - name: Nastaviť nedostupnosť a URL-only pre produkty vypadnuté z BASYS feedu
         run: node scripts/apply-missing-availability.js --supplier=basys --xml=output/basys.xml
 
+      - name: Dostupnosť pri vypredaní vždy rovnaká ako dostupnosť
+        run: node scripts/sync-out-of-stock-availability.js output/basys.xml
+
       - name: Poistka proti useknutému feedu
         run: node scripts/check-feed-size.js
 

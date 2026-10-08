@@ -67,8 +67,8 @@ function replaceTag(item, name, value) {
 }
 
 // Shoptet s riadením skladu zobrazuje pri vypredanom produkte pole "Dostupnosť pri vypredaní",
-// ktoré plní iba AVAILABILITY_OUT_OF_STOCK (overené importom na K-B produktoch 8. 10. 2026).
-// Pri vypredaní tag nastavíme, pri naskladnení ho odstránime.
+// ktoré plní iba AVAILABILITY_OUT_OF_STOCK (overené importom 8. 10. 2026). Tag musí byť vždy
+// rovnaký ako AVAILABILITY (aj pri naskladnení), inak štítok "Vypredané" po naskladnení zostane.
 function setOutOfStockTag(item, value) {
   const tag = /[ \t]*<AVAILABILITY_OUT_OF_STOCK\b[^>]*>[\s\S]*?<\/AVAILABILITY_OUT_OF_STOCK\s*>\n?/i;
   if (value === null) return item.replace(tag, '');
@@ -195,7 +195,7 @@ async function main() {
       updated = replaceTag(updated, 'VISIBILITY', nextVisibility);
       changedVisibility++;
     }
-    updated = setOutOfStockTag(updated, available ? null : OUT_OF_STOCK);
+    updated = setOutOfStockTag(updated, nextAvailability);
     return updated;
   });
 

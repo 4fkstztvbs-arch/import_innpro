@@ -5,6 +5,7 @@
   "main": "scripts/transform-monacor.js",
   "scripts": {
     "sync": "node scripts/transform-monacor.js",
+    "test:out-of-stock-availability": "node --test scripts/test-sync-out-of-stock-availability.js",
     "test:seo-overrides": "node --test scripts/test-seo-overrides.js",
     "test:pagespeed-refactor": "node --test scripts/test-pagespeed-refactor.js",
     "test:innpro-name-overrides": "node --test scripts/test-innpro-name-overrides.js",

@@ -231,6 +231,7 @@ jobs:
         run: |
           for s in kb monacor solight basys innpro atos penta; do
             node scripts/apply-missing-availability.js --supplier="$s" --xml="output/$s.xml"
+            node scripts/sync-out-of-stock-availability.js "output/$s.xml"
             node scripts/normalize-truncated-ean.js "output/$s.xml"
           done
 
