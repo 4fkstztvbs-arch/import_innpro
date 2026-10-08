@@ -13,8 +13,8 @@ const csv = (v) => `"${String(v).replace(/"/g, '""')}"`;
 const lowerFirst = (s) => (/^\p{Lu}\p{Ll}+(?:[\s,/-]\p{Ll}+)*$/u.test(s) ? s.charAt(0).toLowerCase() + s.slice(1) : s);
 // Do filtra nepatria dlhá voľná veta ani "neuvedené": zákazník by videl nepoužiteľné hodnoty.
 const usable = (v) => v.length <= 30 && !/neuv[aáe]d|nezad[aá]n|neuveden/i.test(v);
-// Atos kódy so medzerou Shoptet zachováva (AT_MS-WT 235S); ostatní dodávatelia medzeru menia na _.
-const shoptetCode = (prefix, code) => prefix + (prefix === 'AT_' ? code.trim() : code.trim().replace(/\s+/g, '_'));
+// Atos a Basys kódy so medzerou Shoptet zachováva (AT_MS-WT 235S); ostatní dodávatelia medzeru menia na _.
+const shoptetCode = (prefix, code) => prefix + ((prefix === 'AT_' || prefix === 'BAS_') ? code.trim() : code.trim().replace(/\s+/g, '_'));
 
 const columns = [...new Set(cfg.kategorie.flatMap((k) => Object.values(k.filtre)))];
 const rows = [];
