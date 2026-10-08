@@ -20,6 +20,7 @@
 //
 // Pouzitie:
 //   node scripts/transform-omega-prijemka.js <faktura.pdf> [--supplier=atos|kb|innpro|basys|solight]
+//   (--force-cards: vygeneruje T03 karty aj pre EAN, ktore databaza uz pozna - ak boli rezervovane, ale v Omege nikdy neboli zalozene)
 
 const fs = require('fs');
 const path = require('path');
@@ -342,7 +343,7 @@ async function main() {
     for (const item of inv.physicalItems) {
       const card = assigned[item.ean];
       if (!card) continue;
-      if (card.isNew && !newCardEans.has(item.ean)) {
+      if ((card.isNew || process.argv.includes('--force-cards')) && !newCardEans.has(item.ean)) {
         const feedMatch = matchItem(item, feedIndex);
         newCards.push({ ...item, cardCode: card.kod, feedPriceVat: feedMatch ? feedMatch.priceVat : null });
         newCardEans.add(item.ean);
