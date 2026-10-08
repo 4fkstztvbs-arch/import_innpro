@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600489,
+    "nextCardNumber": 202600496,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -2930,6 +2930,48 @@
         "nazov": "Leifheit Sada 2 náhradních potahů",
         "dodavatel": "kb",
         "code": "100002136160"
+      },
+      "5901560500564": {
+        "kod": "202600489",
+        "nazov": "Ventilátor DOSPEL POLO 4 100 S 1020001",
+        "dodavatel": "atos",
+        "code": "ELE-1020001"
+      },
+      "8426709104849": {
+        "kod": "202600490",
+        "nazov": "Hodiny spínací ORBIS ASTRO NOVA CITY, dig., ASTRONOM., 2kan., 2mod., se záloh",
+        "dodavatel": "atos",
+        "code": "ELE-1000859"
+      },
+      "8592920085738": {
+        "kod": "202600491",
+        "nazov": "Kabel pp Jack 3,5mm - Jack 3,5mm 1,5m stereo | SM5001 EMOS",
+        "dodavatel": "atos",
+        "code": "EMO2335050010"
+      },
+      "8594199732825": {
+        "kod": "202600492",
+        "nazov": "FVE Kabelová střešní průchodka s MC4 konektory, černá OBDELNÍK - DOUBLE",
+        "dodavatel": "atos",
+        "code": "ABT-A500009315"
+      },
+      "4823016218360": {
+        "kod": "202600493",
+        "nazov": "Ventilátor VENTS 100 MTL Turbo 1009038",
+        "dodavatel": "atos",
+        "code": "ELE-1009038"
+      },
+      "8591686086447": {
+        "kod": "202600494",
+        "nazov": "Autožárovka 12V P21/5W 21/5W BaY15d RED blister 2ks 08644",
+        "dodavatel": "atos",
+        "code": "CMP-08644"
+      },
+      "5901890095280": {
+        "kod": "202600495",
+        "nazov": "Termokamera UNI-T UTi720A | MIE0489",
+        "dodavatel": "atos",
+        "code": "ATO-MIE0489"
       }
     }
   },
