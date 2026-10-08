@@ -177,6 +177,10 @@
         <input type="checkbox" id="genPricesCheckbox" checked>
         Generovať aj súbor s predajnými cenami pre nové karty (.xlsx) — prednostne skutočná cena z eshopu (feed), inak odhad z nákupnej ceny × 15 %
       </label>
+      <label style="display:flex;align-items:center;gap:8px;margin-bottom:12px;cursor:pointer;font-size:0.92rem">
+        <input type="checkbox" id="forceCardsCheckbox">
+        Karty v Omege ešte nie sú (už boli raz rezervované, ale súbor kariet sa nenaimportoval) — vygenerovať súbor kariet aj pre položky, ktoré databáza už pozná
+      </label>
       <button class="primary" id="generateBtn">Vygenerovať súbory pre Omegu</button>
       <div id="omegaBoxes"></div>
       <a class="download" id="omegaDownloadLink" download style="display:none">⬇ Stiahnuť príjemku pre Omegu</a>
@@ -696,6 +700,7 @@ const fname = document.getElementById('fname');
 const convertBtn = document.getElementById('convertBtn');
 const generateBtn = document.getElementById('generateBtn');
 const genPricesCheckbox = document.getElementById('genPricesCheckbox');
+const forceCardsCheckbox = document.getElementById('forceCardsCheckbox');
 const resultBox = document.getElementById('result');
 const boxes = document.getElementById('boxes');
 const tableWrap = document.getElementById('tableWrap');
@@ -935,7 +940,7 @@ generateBtn.addEventListener('click', async () => {
     for (const item of inv.physicalItems) {
       const card = assigned[item.ean];
       if (!card) continue;
-      if (card.isNew && !newCardEans.has(item.ean)) {
+      if ((card.isNew || forceCardsCheckbox.checked) && !newCardEans.has(item.ean)) {
         const feedMatch = matchItem(item, feedIndex);
         newCards.push({ ...item, cardCode: card.kod, feedPriceVat: feedMatch ? feedMatch.priceVat : null });
         newCardEans.add(item.ean);
@@ -990,6 +995,12 @@ generateBtn.addEventListener('click', async () => {
     const priceSourceNote = newCards.length > 0
       ? ` Predajná cena: ${fromFeedCount}/${newCards.length} zo skutočnej ceny na eshope (feed), ${newCards.length - fromFeedCount} odhadom (nákup ×1.15).`
       : '';
+    if (newCards.length === 0) {
+      const hBox = document.createElement('div');
+      hBox.className = 'box warn';
+      hBox.textContent = 'Všetky karty už databáza pozná (boli rezervované pri skoršom generovaní). Ak ich v Omege ešte nemáš založené (príjemka sa naimportuje prázdna), zaškrtni voľbu „Karty v Omege ešte nie sú" a vygeneruj súbory znova.';
+      omegaBoxes.appendChild(hBox);
+    }
     const okBox2 = document.createElement('div');
     okBox2.className = 'box ok';
     okBox2.textContent = `Sklad "Eshop": ${totalToReceive} položiek na príjemku${invoiceCountNote}, z toho ${newCards.length} nových kariet (${newCards.length > 0 ? `čísla ${newCards[0].cardCode}–${newCards[newCards.length - 1].cardCode}` : 'žiadne nové'}). Databáza kariet je už uložená automaticky.${priceSourceNote}`;
