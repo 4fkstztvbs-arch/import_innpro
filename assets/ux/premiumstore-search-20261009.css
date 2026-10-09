@@ -111,7 +111,7 @@ html body.type-search #search-group-articles li a { white-space: normal; }
 @media (min-width: 992px) {
   html body .searchWhisperer { display: grid !important; grid-template-columns: 280px minmax(0, 1fr); grid-template-rows: auto auto; padding: 0 !important; border-radius: 0 0 18px 18px; overflow: hidden; box-shadow: 0 24px 60px rgba(14,21,28,.28); }
   html body .searchWhisperer > .ps-sr-rule, html body .searchWhisperer > .searchWhisperer__content--empty { grid-column: 1 / -1; }
-  html body .searchWhisperer > .ps-sr-rule { margin: 16px 20px 0; }
+  html body .searchWhisperer > .ps-sr-rule { margin: 16px 20px 18px; }
   html body .searchWhisperer__additionalResults { grid-column: 1; grid-row: 2 / span 2; background: #eef4f0; padding: 28px 24px !important; width: auto !important; }
   html body .searchWhisperer__products { grid-column: 2; grid-row: 2; padding: 26px 30px 6px !important; width: auto !important; }
   html body .searchWhisperer__buttonWrapper { grid-column: 2; grid-row: 3; justify-content: center !important; padding: 8px 30px 28px !important; width: auto !important; }
@@ -152,3 +152,12 @@ html body .searchWhisperer__product__availability .availability-label::before { 
 html body .searchWhisperer__product__price { width: 100%; text-align: center !important; font-size: 15px; font-weight: 700; margin-top: auto !important; padding-top: 4px; }
 html body .searchWhisperer__button { background: #1b5e45 !important; border: 0 !important; color: #fff !important; border-radius: 999px !important; padding: 14px 38px !important; font-size: 13px !important; font-weight: 700 !important; letter-spacing: .08em; text-transform: uppercase; width: auto; height: auto !important; }
 html body .searchWhisperer__button:hover { background: #134735 !important; }
+
+/* Našeptávač bez výsledkov: rovnaký panel (okraje, zaoblenie, tieň) ako pri výsledkoch */
+html body .searchWhisperer__content--empty { padding: 22px 24px 24px !important; margin: 0 !important; font-size: 16px; line-height: 1.5; color: #16231d; background: #fff; }
+html body .searchWhisperer__content--empty .ps-did { margin: 14px 0 0; }
+html body .searchWhisperer:has(> .searchWhisperer__content--empty) { border: 1px solid #cfe3d8 !important; border-radius: 0 0 18px 18px; overflow: hidden; box-shadow: 0 24px 60px rgba(14,21,28,.28); }
+@media (max-width: 991px) {
+  html body .searchWhisperer:has(> .searchWhisperer__content--empty) { padding: 0 !important; border-radius: 14px; }
+  html body .searchWhisperer__content--empty { padding: 16px 16px 18px !important; }
+}
