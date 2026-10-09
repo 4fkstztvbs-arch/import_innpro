@@ -1,0 +1,50 @@
+/* PremiumStore – úvodná stránka na desktope (2026-10-09): kategórie hore, skrátený úvod,
+   kompaktnejšie produkty, pás výhod pod produktmi. Mobil (<768 px) sa nemení.
+   Vyžaduje premiumstore-home-categories-mobile.js (vkladá .ps-home-cats). Rollback = odstrániť <link> a <script>. */
+@media (min-width: 768px) {
+  /* poradie: úvod, kategórie, produkty, pás výhod na konci */
+  html body.type-index main#content.content > .welcome-wrapper { order: 2 !important; margin: 4px auto 0 !important; }
+  html body.type-index main#content.content > .ps-home-cats { order: 3 !important; }
+  html body.type-index main#content.content > .benefitBanner { order: 9 !important; margin-top: 8px; border-top: 1px solid #e2e6e4; }
+
+  /* úvod: nadpis vľavo, text na dva riadky, „Zobraziť viac“ */
+  html body.type-index .welcome-wrapper .welcome { display: flex; align-items: baseline; gap: 24px; }
+  html body.type-index .welcome-wrapper .welcome .h1 { flex: none; font-size: 24px; line-height: 1.2; margin: 0; }
+  html body.type-index .welcome-wrapper .welcome > div:not(.h1) { flex: 1; min-width: 0; }
+  html body.type-index .welcome-wrapper .welcome p { margin: 0; font-size: 14px; line-height: 1.5; color: #5f6b66; }
+  html body.type-index .welcome-wrapper .welcome p:nth-of-type(n+2):not(:has(span:not(:empty))) { display: none; }
+  html body.type-index .welcome-wrapper .welcome:not(.ps-open) p:first-of-type {
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  html body.type-index .welcome-wrapper .welcome .ps-more {
+    flex: none; border: 0; background: none; padding: 0; font: inherit; font-size: 14px; font-weight: 600; color: #1d6b4a; cursor: pointer;
+  }
+
+  /* kategórie: 12 kariet v dvoch radoch */
+  html body.type-index .ps-home-cats {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px;
+    list-style: none; margin: 14px 0 22px; padding: 0 15px;
+  }
+  html body.type-index .ps-home-cats li { margin: 0; padding: 0; list-style: none; display: flex; }
+  html body.type-index .ps-home-cats a {
+    flex: 1; display: flex; align-items: center; gap: 12px; min-width: 0;
+    padding: 8px 12px 8px 8px; border: 1px solid #e2e6e4; border-radius: 12px; background: #fff;
+    font-size: 14.5px; font-weight: 600; line-height: 1.25; color: inherit; text-decoration: none;
+    transition: border-color .15s, background-color .15s;
+  }
+  html body.type-index .ps-home-cats a:hover, html body.type-index .ps-home-cats a:focus-visible { border-color: #24b47e; background: #f3faf6; }
+  html body.type-index .ps-home-cats img { width: 60px; height: 60px; flex: none; object-fit: contain; border-radius: 8px; }
+  html body.type-index .ps-home-cats svg { width: 28px; height: 28px; flex: none; }
+
+  /* nadpisy sekcií a karty produktov */
+  html body.type-index .homepage-group-title { font-size: 24px !important; margin: 4px 0 16px !important; }
+  html body.type-index .homepage-group-title + .products-wrapper { margin-top: -22px; }
+  html body.type-index .products-wrapper .product .image { height: 150px; display: flex; align-items: center; justify-content: center; }
+  html body.type-index .products-wrapper .product .image img { max-height: 150px; width: auto; max-width: 100%; object-fit: contain; }
+  html body.type-index .products-wrapper .product .stars-placeholder { display: none; }
+  html body.type-index .products-wrapper .product .p-bottom { padding-top: 8px; }
+  html body.type-index .products-wrapper .product .p-tools { padding-top: 10px; padding-bottom: 10px; }
+}
+@media (min-width: 1100px) {
+  html body.type-index .ps-home-cats { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
