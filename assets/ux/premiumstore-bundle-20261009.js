@@ -1,5 +1,5 @@
 /* PremiumStore – spoločný skript (generované: node scripts/build-ux-js-bundle.js). Neupravovať ručne, upravuj zdrojové súbory.
-   Zdroje: premiumstore-cro.js, premiumstore-pdp-final.js, premiumstore-pdp-mobile-buybar.js, premiumstore-pdp-conversion-20261004.js, premiumstore-pdp-polish-20261008.js, premiumstore-audit-fixes-20261003.js, premiumstore-home-desktop-20261009.js, premiumstore-home-categories-mobile.js, premiumstore-checkout-20261009.js, premiumstore-category-20261009.js */
+   Zdroje: premiumstore-cro.js, premiumstore-pdp-final.js, premiumstore-pdp-mobile-buybar.js, premiumstore-pdp-conversion-20261004.js, premiumstore-pdp-polish-20261008.js, premiumstore-audit-fixes-20261003.js, premiumstore-home-desktop-20261009.js, premiumstore-home-categories-mobile.js, premiumstore-checkout-20261009.js, premiumstore-category-20261009.js, premiumstore-search-20261009.js */
 
 /* ---- premiumstore-cro.js ---- */
 try {
@@ -2246,7 +2246,9 @@ try {
 try {
 /* PremiumStore – stránka kategórie (2026-10-09): presun "Najpredávanejšie" pod zoznam, stav skladu, alt texty. */
 (function () {
-  if (!document.body || !document.body.classList.contains('type-category')) return;
+  if (!document.body) return;
+  var isCat = document.body.classList.contains('type-category');
+  if (!isCat && !document.body.classList.contains('type-search')) return;
 
   function moveTop() {
     var top = document.querySelector('.category-top > .products-top-wrapper');
@@ -2287,7 +2289,7 @@ try {
     }
   }
 
-  function run() { moveTop(); stock(); alts(); }
+  function run() { if (isCat) moveTop(); stock(); alts(); }
   run();
   var list = document.getElementById('products');
   if (list && window.MutationObserver) {
@@ -2296,3 +2298,53 @@ try {
 })();
 
 } catch (e) { if (window.console) console.error("PS bundle: premiumstore-category-20261009.js", e); }
+
+/* ---- premiumstore-search-20261009.js ---- */
+try {
+/* PremiumStore – výsledky vyhľadávania (2026-10-09): sezónny banner (vianočné osvetlenie) a pomoc pri nulových výsledkoch. */
+(function () {
+  if (!document.body || !document.body.classList.contains('type-search')) return;
+  var h2 = document.querySelector('#content > h2');
+  if (!h2) return;
+
+  var q = '';
+  try { q = (new URLSearchParams(location.search).get('string') || '').toLowerCase(); } catch (e) {}
+  var plain = q.normalize ? q.normalize('NFD').replace(/[̀-ͯ]/g, '') : q;
+
+  // Sezónny banner do 24. 12. 2026; skrytý, ak už zákazník hľadá vianočné veci.
+  var now = new Date();
+  var seasonOn = now < new Date(2026, 11, 25) && !/vianoc|retaz|cencul|girland|osvetlen/.test(plain);
+  if (seasonOn) {
+    var a = document.createElement('a');
+    a.className = 'ps-season';
+    a.href = '/vianocne-osvetlenie/';
+    a.innerHTML = '<span><span class="ps-season__eyebrow">Vianoce sú za dverami</span>' +
+      '<span class="ps-season__title">Vianočné osvetlenie a dekorácie</span>' +
+      '<span class="ps-season__text">Rozsvieťte stromček, okná aj záhradu: LED reťaze, cencúle, závesy a svietiace dekorácie.</span>' +
+      '<span class="ps-season__btn">Pozrieť ponuku</span></span>' +
+      '<span class="ps-season__imgs" aria-hidden="true"><span class="ps-season__img ps-season__img--a"></span><span class="ps-season__img ps-season__img--b"></span><span class="ps-season__img ps-season__img--c"></span></span>' +
+      '<span class="ps-season__scene" aria-hidden="true"></span>';
+    var base = 'https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/';
+    var pics = { a: '628470_solight-led-vianocna-hviezda-3d--150-led--60cm--ip44--tepla-biela--casovac-obrazok-1.jpg',
+      b: '642570_solight-led-vonkajsia-vanocna-retaz--100-led--10m--privod-3m--8-funkcii--casovac--ip44--tepla-biela-obrazok-1.jpg',
+      c: '628449_solight-led-vianocna-girlanda--cencule--200-led--10m--ip44--teple-biele-svetlo-obrazok-1.jpg' };
+    for (var k in pics) a.querySelector('.ps-season__img--' + k).style.backgroundImage = 'url(' + base + pics[k] + ')';
+    h2.parentNode.insertBefore(a, h2.nextSibling);
+  }
+
+  // Žiadne výsledky: čo skúsiť a kam ďalej.
+  var found = document.getElementById('products-found');
+  var none = found && !found.querySelector('.product');
+  if (none) {
+    var d = document.createElement('div');
+    d.className = 'ps-noresults';
+    d.innerHTML = '<h3>Skúste to inak</h3>' +
+      '<p>Skontrolujte preklepy, použite kratší výraz alebo značku a model. Alebo začnite v niektorej z kategórií:</p>' +
+      '<ul><li><a href="/televizory/">Televízory</a></li><li><a href="/sluchadla/">Slúchadlá</a></li><li><a href="/powerbanky/">Powerbanky</a></li>' +
+      '<li><a href="/domace-spotrebice/">Domáce spotrebiče</a></li><li><a href="/vianocne-osvetlenie/">Vianočné osvetlenie</a></li></ul>' +
+      '<p>Produkt nevidíte? <a href="/kontakty/">Napíšte nám</a> alebo zavolajte na +421 48 4151999 (Po–Pia 9:00–17:00), poradíme a zistíme dostupnosť.</p>';
+    found.appendChild(d);
+  }
+})();
+
+} catch (e) { if (window.console) console.error("PS bundle: premiumstore-search-20261009.js", e); }

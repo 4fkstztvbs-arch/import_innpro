@@ -39,25 +39,25 @@ html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps
 }
 
 /* B: kompaktná karta produktu v zozname */
-html body.type-category #products .product .image {
+html body:is(.type-category, .type-search) #products .product .image {
   display: flex !important; align-items: center; justify-content: center; background: #fff; height: 190px; overflow: hidden;
 }
-html body.type-category #products .product .image img { max-width: 100% !important; max-height: 190px !important; width: auto !important; height: auto !important; object-fit: contain !important; }
-html body.type-category #products .product .stars-placeholder { display: none !important; }
-html body.type-category #products .product .ratings-wrapper { min-height: 0 !important; margin: 0 !important; }
-html body.type-category #products .product .p-in-in { min-height: 0 !important; }
-html body.type-category #products .product .p-in { min-height: 0 !important; height: auto !important; }
-html body.type-category #products .product .name { min-height: 0 !important; margin-bottom: 4px !important; }
-html body.type-category #products .product .availability { margin: 2px 0 6px !important; font-size: 13px; }
-html body.type-category #products .product .availability.ps-stock::before {
+html body:is(.type-category, .type-search) #products .product .image img { max-width: 100% !important; max-height: 190px !important; width: auto !important; height: auto !important; object-fit: contain !important; }
+html body:is(.type-category, .type-search) #products .product .stars-placeholder { display: none !important; }
+html body:is(.type-category, .type-search) #products .product .ratings-wrapper { min-height: 0 !important; margin: 0 !important; }
+html body:is(.type-category, .type-search) #products .product .p-in-in { min-height: 0 !important; }
+html body:is(.type-category, .type-search) #products .product .p-in { min-height: 0 !important; height: auto !important; }
+html body:is(.type-category, .type-search) #products .product .name { min-height: 0 !important; margin-bottom: 4px !important; }
+html body:is(.type-category, .type-search) #products .product .availability { margin: 2px 0 6px !important; font-size: 13px; }
+html body:is(.type-category, .type-search) #products .product .availability.ps-stock::before {
   content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #1b9a5f; margin-right: 6px; vertical-align: middle;
 }
-html body.type-category #products .product .availability.ps-stock-low::before { background: #d9822b; }
-html body.type-category #products .product .availability.ps-stock-low { color: #9a5612; }
-html body.type-category #products .product .p-bottom { margin-top: 0 !important; padding-top: 0 !important; }
+html body:is(.type-category, .type-search) #products .product .availability.ps-stock-low::before { background: #d9822b; }
+html body:is(.type-category, .type-search) #products .product .availability.ps-stock-low { color: #9a5612; }
+html body:is(.type-category, .type-search) #products .product .p-bottom { margin-top: 0 !important; padding-top: 0 !important; }
 @media (max-width: 767px) {
-  html body.type-category #products .product .image { height: 150px; }
-  html body.type-category #products .product .image img { max-height: 150px !important; }
+  html body:is(.type-category, .type-search) #products .product .image { height: 150px; }
+  html body:is(.type-category, .type-search) #products .product .image img { max-height: 150px !important; }
 }
 
 /* C: kontrast "Ďalšie možnosti" vo filtri */
