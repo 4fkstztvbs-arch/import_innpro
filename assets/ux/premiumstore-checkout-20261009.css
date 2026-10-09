@@ -246,3 +246,8 @@ html body.ordering-process #order-form .radio-wrapper label::after {
 /* Obsah kariet výberu presne uprostred (rovnaký odstup hore aj dole) */
 html body.ordering-process #order-form .radio-wrapper { padding-top: 16px !important; padding-bottom: 16px !important; align-items: center !important; }
 html body.ordering-process #order-form .radio-wrapper label { margin-bottom: 0 !important; }
+
+/* Kroky 1-2: ľavý stĺpec začína na úrovni horného okraja boxu so zhrnutím (desktop) */
+@media (min-width: 768px) {
+  html body.ordering-process #order-form h2.order-icon:first-of-type { margin-top: 0 !important; }
+}
