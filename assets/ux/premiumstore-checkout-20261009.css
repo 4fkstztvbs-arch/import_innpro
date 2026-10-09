@@ -222,3 +222,27 @@ html body.ordering-process .next-step--cart { display: flex !important; gap: 12p
 html body.ordering-process .next-step--cart .btn { margin: 0 !important; }
 @media (max-width: 767px) { html body.ordering-process .next-step--cart { justify-content: stretch; } html body.ordering-process .next-step--cart .btn { flex: 1 1 100%; } }
 html body.ordering-process .next-step--cart .btn { min-height: 54px !important; display: inline-flex !important; align-items: center; justify-content: center; }
+
+/* Kolieska výberu dopravy a platby: kruh aj bodka presne na stred (hore/dole aj dnu) */
+html body.ordering-process #order-form .radio-wrapper label::before {
+  box-sizing: border-box !important;
+  width: 22px !important;
+  height: 22px !important;
+  left: 0 !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  margin: 0 !important;
+}
+html body.ordering-process #order-form .radio-wrapper label::after {
+  box-sizing: border-box !important;
+  width: 12px !important;
+  height: 12px !important;
+  left: 5px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
+/* Obsah kariet výberu presne uprostred (rovnaký odstup hore aj dole) */
+html body.ordering-process #order-form .radio-wrapper { padding-top: 16px !important; padding-bottom: 16px !important; align-items: center !important; }
+html body.ordering-process #order-form .radio-wrapper label { margin-bottom: 0 !important; }
