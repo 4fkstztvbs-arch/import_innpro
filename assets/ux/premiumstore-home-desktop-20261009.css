@@ -3,9 +3,10 @@
    Vyžaduje premiumstore-home-categories-mobile.js (vkladá .ps-home-cats). Rollback = odstrániť <link> a <script>. */
 @media (min-width: 768px) {
   /* poradie: úvod, kategórie, produkty, pás výhod na konci */
-  html body.type-index main#content.content > .welcome-wrapper { order: 2 !important; margin: 4px auto 0 !important; }
+  html body.type-index main#content.content > .welcome-wrapper { order: 2 !important; margin: 4px 0 0 !important; }
   html body.type-index main#content.content > .ps-home-cats { order: 3 !important; }
-  html body.type-index main#content.content > .benefitBanner { order: 9 !important; margin-top: 8px; border-top: 1px solid #e2e6e4; }
+  html body.type-index main#content.content > .benefitBanner { order: 9 !important; margin: 12px 15px 0 !important; padding-top: 28px !important; padding-bottom: 8px !important; border-top: 1px solid #e2e6e4; }
+  html body.type-index main#content.content > .welcome-wrapper { max-width: none !important; padding-left: 15px !important; padding-right: 15px !important; }
 
   /* úvod: nadpis vľavo, text na dva riadky, „Zobraziť viac“ */
   html body.type-index .welcome-wrapper .welcome { display: flex; align-items: baseline; gap: 24px; }
