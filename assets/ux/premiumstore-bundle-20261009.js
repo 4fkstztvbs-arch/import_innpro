@@ -2318,9 +2318,9 @@ try {
     var a = document.createElement('a');
     a.className = 'ps-season';
     a.href = '/vianocne-osvetlenie/';
-    a.innerHTML = '<span><span class="ps-season__eyebrow">Sezóna Vianoc</span>' +
+    a.innerHTML = '<span><span class="ps-season__eyebrow">Vianoce sú za dverami</span>' +
       '<span class="ps-season__title">Vianočné osvetlenie a dekorácie</span>' +
-      '<span class="ps-season__text">LED reťaze, cencúle, závesy a svietiace dekorácie do interiéru aj na záhradu.</span>' +
+      '<span class="ps-season__text">Rozsvieťte stromček, okná aj záhradu: LED reťaze, cencúle, závesy a svietiace dekorácie.</span>' +
       '<span class="ps-season__btn">Pozrieť ponuku</span></span>' +
       '<span class="ps-season__img" role="img" aria-label="Svetelná hviezda"></span>';
     a.querySelector('.ps-season__img').style.backgroundImage =

@@ -22,21 +22,36 @@ html body.type-search .search-products-heading { font-size: 18px; margin: 18px 0
   html body.type-search #search-group-articles ul { flex-wrap: wrap; overflow: visible; }
 }
 
-/* Sezónny banner */
-.ps-season { position: relative; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) 150px; align-items: center; gap: 16px; margin: 0 0 18px; padding: 18px 22px; border-radius: 14px; color: #fff; text-decoration: none !important;
-  background: radial-gradient(circle at 85% 30%, rgba(244,192,78,.30), rgba(0,0,0,0) 48%), linear-gradient(135deg, #0c2a20 0%, #1a4a3c 100%); }
-.ps-season:hover { filter: brightness(1.06); }
-.ps-season__eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #f4c04e; font-weight: 700; }
-.ps-season__title { display: block; font-size: 22px; line-height: 1.2; font-weight: 700; margin: 4px 0 6px; color: #fff; }
-.ps-season__text { display: block; font-size: 14px; line-height: 1.45; color: #dbe9e2; max-width: 52ch; }
-.ps-season__btn { display: inline-block; margin-top: 12px; padding: 9px 18px; border-radius: 999px; background: #f4c04e; color: #1a2a22; font-weight: 700; font-size: 14px; }
-.ps-season__img { width: 130px; height: 130px; border-radius: 50%; background: #fff7e0 center / contain no-repeat; justify-self: end; box-shadow: 0 0 0 6px rgba(244,192,78,.25); }
-.ps-season:focus-visible { outline: 3px solid #f4c04e; outline-offset: 3px; }
+/* Sezónny banner (vianočný motív: svetelná reťaz, sneh, hviezdy, teplé svetlo) */
+.ps-season { position: relative; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) 170px; align-items: center; gap: 16px; margin: 0 0 18px; padding: 46px 26px 20px; border-radius: 16px; color: #fff; text-decoration: none !important; isolation: isolate;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='46' viewBox='0 0 150 46'%3E%3Cpath d='M0 6 Q37 26 75 6 T150 6' fill='none' stroke='%230a1712' stroke-width='1.6'/%3E%3Cg%3E%3Ccircle cx='19' cy='17' r='9' fill='%23ff5a4e' opacity='.28'/%3E%3Crect x='15.5' y='15' width='7' height='11' rx='3.5' fill='%23ff5a4e'/%3E%3Ccircle cx='56' cy='20' r='9' fill='%23ffd36b' opacity='.30'/%3E%3Crect x='52.5' y='18' width='7' height='11' rx='3.5' fill='%23ffd36b'/%3E%3Ccircle cx='94' cy='18' r='9' fill='%236fe0a8' opacity='.28'/%3E%3Crect x='90.5' y='16' width='7' height='11' rx='3.5' fill='%236fe0a8'/%3E%3Ccircle cx='131' cy='15' r='9' fill='%237cc4ff' opacity='.30'/%3E%3Crect x='127.5' y='13' width='7' height='11' rx='3.5' fill='%237cc4ff'/%3E%3C/g%3E%3C/svg%3E") repeat-x 0 0 / 150px 46px,
+    radial-gradient(circle at 88% 55%, rgba(255,205,110,.40), rgba(255,205,110,0) 42%),
+    radial-gradient(circle at 12% 110%, rgba(255,90,78,.20), rgba(255,90,78,0) 40%),
+    linear-gradient(135deg, #0b2230 0%, #123a3a 55%, #1b4a3a 100%); }
+.ps-season::before { content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: .85;
+  background:
+    radial-gradient(3px 3px at 8% 30%, #fff, transparent 60%), radial-gradient(3px 3px at 21% 62%, #fff, transparent 60%),
+    radial-gradient(3px 3px at 33% 24%, #fff, transparent 60%), radial-gradient(4px 4px at 47% 78%, #fff, transparent 60%),
+    radial-gradient(3px 3px at 58% 40%, #fff, transparent 60%), radial-gradient(3px 3px at 69% 18%, #fff, transparent 60%),
+    radial-gradient(3px 3px at 77% 70%, #fff, transparent 60%), radial-gradient(4px 4px at 93% 28%, #fff, transparent 60%),
+    radial-gradient(2.5px 2.5px at 40% 50%, #fff, transparent 60%), radial-gradient(2.5px 2.5px at 85% 88%, #fff, transparent 60%); }
+.ps-season::after { content: "\2726"; position: absolute; right: 190px; top: 54px; font-size: 22px; color: #ffd36b; text-shadow: 0 0 12px rgba(255,211,107,.9); animation: ps-twinkle 3.2s ease-in-out infinite; }
+@keyframes ps-twinkle { 0%, 100% { opacity: .45; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.1); } }
+@media (prefers-reduced-motion: reduce) { .ps-season::after { animation: none; } }
+.ps-season:hover { filter: brightness(1.07); }
+.ps-season__eyebrow { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: #ffd36b; font-weight: 700; }
+.ps-season__title { display: block; font-size: 26px; line-height: 1.15; font-weight: 700; margin: 4px 0 6px; color: #fff; text-shadow: 0 2px 10px rgba(0,0,0,.35); }
+.ps-season__text { display: block; font-size: 14px; line-height: 1.45; color: #e3efe9; max-width: 52ch; }
+.ps-season__btn { display: inline-block; margin-top: 12px; padding: 10px 20px; border-radius: 999px; background: linear-gradient(180deg, #ffd978, #f2b23e); color: #2a1d06; font-weight: 700; font-size: 14px; box-shadow: 0 4px 14px rgba(242,178,62,.45); }
+.ps-season__img { width: 150px; height: 150px; border-radius: 50%; background: #fff4d6 center / contain no-repeat; justify-self: end; box-shadow: 0 0 0 5px rgba(255,211,107,.45), 0 0 46px 12px rgba(255,200,100,.55); }
+.ps-season:focus-visible { outline: 3px solid #ffd36b; outline-offset: 3px; }
 @media (max-width: 575px) {
-  .ps-season { grid-template-columns: minmax(0, 1fr) 84px; padding: 14px 16px; gap: 10px; }
-  .ps-season__title { font-size: 18px; }
+  .ps-season { grid-template-columns: minmax(0, 1fr) 92px; padding: 46px 16px 16px; gap: 10px; }
+  .ps-season::after { right: 108px; top: 50px; font-size: 18px; }
+  .ps-season__title { font-size: 20px; }
   .ps-season__text { font-size: 13px; }
-  .ps-season__img { width: 84px; height: 84px; box-shadow: 0 0 0 4px rgba(244,192,78,.25); }
+  .ps-season__img { width: 88px; height: 88px; box-shadow: 0 0 0 4px rgba(255,211,107,.45), 0 0 28px 8px rgba(255,200,100,.5); }
 }
 
 /* Žiadne výsledky */
