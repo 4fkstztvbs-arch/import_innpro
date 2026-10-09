@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-09 11:00 UTC.
+Kontrola z 2026-10-09 20:24 UTC.
 
-InnPro pri **379** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **378** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -144,7 +144,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `061363` | Mopping pads for Roidmi EVE CC | — | 5 |
 | `063729` | Replacement filters for the Oneisall fountain | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
-| `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
 | `065855` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (pur | — | 5 |
 | `063739` | DIN Rail wire connector Sonoff set (20 pcs) | — | 5 |
 | `066305` | Tempered Glass PULUZ  for Insta360 X4 / X5 | — | 5 |
