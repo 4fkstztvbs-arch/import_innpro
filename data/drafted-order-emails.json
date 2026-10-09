@@ -1363,5 +1363,19 @@
     "subject": "Re: [PremiumStore.sk] Objednávka 202601148",
     "orderCode": "202601148",
     "matchedBy": "code"
+  },
+  "seq:59405": {
+    "draftedAt": "2026-10-09T12:07:24.422Z",
+    "from": "info@ensun.sk",
+    "subject": "RE: Vaša objednávka č. 202601130 sa práve vybavuje",
+    "orderCode": "202601130",
+    "matchedBy": "code"
+  },
+  "<DB4P194MB2679BB8A6F2A5F010BE1DC46AC922@DB4P194MB2679.EURP194.PROD.OUTLOOK.COM>": {
+    "draftedAt": "2026-10-09T12:07:31.319Z",
+    "from": "ihelleb@hotmail.com",
+    "subject": "Re: Dotaz",
+    "orderCode": null,
+    "matchedBy": "none"
   }
 }
