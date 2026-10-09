@@ -1,6 +1,8 @@
 /* PremiumStore – stránka kategórie (2026-10-09): presun "Najpredávanejšie" pod zoznam, stav skladu, alt texty. */
 (function () {
-  if (!document.body || !document.body.classList.contains('type-category')) return;
+  if (!document.body) return;
+  var isCat = document.body.classList.contains('type-category');
+  if (!isCat && !document.body.classList.contains('type-search')) return;
 
   function moveTop() {
     var top = document.querySelector('.category-top > .products-top-wrapper');
@@ -41,7 +43,7 @@
     }
   }
 
-  function run() { moveTop(); stock(); alts(); }
+  function run() { if (isCat) moveTop(); stock(); alts(); }
   run();
   var list = document.getElementById('products');
   if (list && window.MutationObserver) {

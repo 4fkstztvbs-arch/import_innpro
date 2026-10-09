@@ -1,0 +1,50 @@
+/* PremiumStore – výsledky vyhľadávania (2026-10-09). Len body.type-search. */
+html body.type-search #content > h2 { font-size: 24px; line-height: 1.25; margin: 4px 0 14px; }
+html body.type-search .search-results-groups { display: grid; gap: 12px; margin: 0 0 16px; }
+html body.type-search .search-results-group { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
+html body.type-search .search-results-group h4 { flex: 0 0 84px; margin: 0; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: #5b6b63; font-weight: 700; }
+html body.type-search .search-results-group-list { flex: 1 1 0; min-width: 0; }
+html body.type-search .search-results-group-list ul { list-style: none !important; margin: 0 !important; padding: 0 !important; display: flex; flex-wrap: wrap; gap: 8px; }
+html body.type-search .search-results-group-list li { margin: 0 !important; padding: 0 !important; list-style: none !important; }
+html body.type-search .search-results-group-list li a {
+  display: inline-block; padding: 7px 14px; border: 1px solid #d9e2dd; border-radius: 999px; background: #fff; color: #16231d; font-size: 14px; line-height: 1.25; text-decoration: none;
+}
+html body.type-search .search-results-group-list li a:hover { border-color: #1b7a52; color: #145c3e; }
+html body.type-search #search-group-articles li a { border-radius: 10px; }
+html body.type-search .search-results-group .display-results-group { flex: 0 0 auto; font-size: 13px; color: #145c3e; text-decoration: underline; text-underline-offset: 3px; }
+html body.type-search .search-products-heading { font-size: 18px; margin: 18px 0 12px; }
+@media (max-width: 767px) {
+  html body.type-search .search-results-group h4, html body.type-search .search-results-group-list { flex: 1 1 100%; }
+  html body.type-search #content > h2 { font-size: 21px; }
+  html body.type-search .search-results-group-list ul { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-right: -15px !important; padding-right: 15px !important; }
+  html body.type-search .search-results-group-list ul::-webkit-scrollbar { display: none; }
+  html body.type-search .search-results-group-list li { flex: 0 0 auto; }
+  html body.type-search #search-group-articles ul { flex-wrap: wrap; overflow: visible; }
+}
+
+/* Sezónny banner */
+.ps-season { position: relative; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) 150px; align-items: center; gap: 16px; margin: 0 0 18px; padding: 18px 22px; border-radius: 14px; color: #fff; text-decoration: none !important;
+  background: radial-gradient(circle at 85% 30%, rgba(244,192,78,.30), rgba(0,0,0,0) 48%), linear-gradient(135deg, #0c2a20 0%, #1a4a3c 100%); }
+.ps-season:hover { filter: brightness(1.06); }
+.ps-season__eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: #f4c04e; font-weight: 700; }
+.ps-season__title { display: block; font-size: 22px; line-height: 1.2; font-weight: 700; margin: 4px 0 6px; color: #fff; }
+.ps-season__text { display: block; font-size: 14px; line-height: 1.45; color: #dbe9e2; max-width: 52ch; }
+.ps-season__btn { display: inline-block; margin-top: 12px; padding: 9px 18px; border-radius: 999px; background: #f4c04e; color: #1a2a22; font-weight: 700; font-size: 14px; }
+.ps-season__img { width: 130px; height: 130px; border-radius: 50%; background: #fff7e0 center / contain no-repeat; justify-self: end; box-shadow: 0 0 0 6px rgba(244,192,78,.25); }
+.ps-season:focus-visible { outline: 3px solid #f4c04e; outline-offset: 3px; }
+@media (max-width: 575px) {
+  .ps-season { grid-template-columns: minmax(0, 1fr) 84px; padding: 14px 16px; gap: 10px; }
+  .ps-season__title { font-size: 18px; }
+  .ps-season__text { font-size: 13px; }
+  .ps-season__img { width: 84px; height: 84px; box-shadow: 0 0 0 4px rgba(244,192,78,.25); }
+}
+
+/* Žiadne výsledky */
+.ps-noresults { margin: 8px 0 24px; padding: 18px 20px; border: 1px solid #d9e2dd; border-radius: 14px; background: #f6f9f7; }
+.ps-noresults h3 { margin: 0 0 6px; font-size: 18px; }
+.ps-noresults p { margin: 0 0 12px; font-size: 14px; color: #3b4a43; }
+.ps-noresults ul { list-style: none; margin: 0 0 12px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.ps-noresults li { margin: 0; padding: 0; }
+.ps-noresults li a { display: inline-block; padding: 8px 14px; border: 1px solid #d9e2dd; border-radius: 999px; background: #fff; color: #16231d; font-size: 14px; text-decoration: none; }
+.ps-noresults li a:hover { border-color: #1b7a52; color: #145c3e; }
+html body.type-search #search-group-articles li a { white-space: normal; }
