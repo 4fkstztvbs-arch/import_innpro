@@ -648,6 +648,36 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094445 | 6972792471440 | Wireless Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095292 | 6952344248829 | Pamäťová karta GODOX microSD s kapacitou 8 GB | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095293 | 6952344248836 | Pamäťová karta GODOX microSD 16 GB | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095294 | 6952344248843 | Pamäťová karta GODOX microSD 32 GB | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095296 | 6952344244081 | LED fotografické svetlo GODOX RS100Bi 1K Bi-Color | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095297 | 6952344244050 | LED fotografické svetlo GODOX RS100R RGB | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095298 | 6952344244067 | LED fotografické svetlo GODOX RS100R | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095299 | 6952344242193 | LED videolampa GODOX ML80Bi | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095300 | 6952344244951 | LED videolampa GODOX ML150Bi | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095306 | 6952344244517 | LED svietidlo GODOX Litemons LE300Bi | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095310 | 6952344237960 | LED svetelný panel GODOX Litemons LP400R RGB | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095312 | 6952344237991 | LED svetelný panel GODOX Litemons LP600Bi s dvojfarebným osvetlením | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095317 | 6952344247761 | Retro blesk GODOX Lux Junior II S | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095318 | 6952344245729 | TTL blesk GODOX iFlash iT32 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095319 | 6952344245828 | Bezdrôtová TTL spúšť GODOX X5 pre Canon | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095320 | 6952344245835 | Bezdrôtová TTL spúšť GODOX X5 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095321 | 6952344245811 | Bezdrôtová TTL spúšť GODOX X5 pre Sony | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095324 | 6952344243671 | Blesk GODOX iFlash iT20 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095328 | 6952344242438 | Makro blesk s dvojitou hlavou GODOX MF-T76 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095329 | 6952344242421 | Makro blesk s dvojitou hlavou GODOX MF-T76 pre Sony | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095441 | 6979127740363 | Prenosná elektráreň VTOMAN Jump 2200 2000 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095442 | 6979127740356 | Prenosná elektráreň VTOMAN FlashSpeed300 300 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095443 | 6979127740349 | Prenosná elektráreň VTOMAN FlashSpeed600 600 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095444 | 6979127740875 | Prenosná elektráreň VTOMAN FlashSpeed1500 1500 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095445 | 6979127740417 | Prenosná elektráreň VTOMAN FlashSpeed2400 2400 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095447 | 6979127740295 | Akumulátor VTOMAN Jump 1500 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095448 | 6979127740288 | Batéria VTOMAN FlashSpeed 1500 (sivá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095449 | 6979127740271 | Prenosný solárny panel VTOMAN VS110 110 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095450 | 6979127740004 | Prenosný solárny panel VTOMAN VS200 s výkonom 200 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095451 | 6979127740264 | Solárny panel VTOMAN VS200 Pro 200 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095452 | 6979127740257 | Prenosný solárny panel VTOMAN VS400 400 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 24 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 24 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 11.00 € | 1/12.6x | 15 |
