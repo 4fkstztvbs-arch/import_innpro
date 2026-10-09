@@ -8,9 +8,17 @@
   try { q = (new URLSearchParams(location.search).get('string') || '').toLowerCase(); } catch (e) {}
   var plain = q.normalize ? q.normalize('NFD').replace(/[̀-ͯ]/g, '') : q;
 
-  // Sezónny banner do 24. 12. 2026; skrytý, ak už zákazník hľadá vianočné veci.
+  // Pravidlo pre konkrétny výraz (rozcestník), okrem vianočných, tie rieši sezónny banner nižšie.
+  var A = window.PSSearchAssist, rl = A && A.rule(q);
+  if (rl && !rl.xmas) {
+    var rh = document.createElement('div');
+    rh.innerHTML = A.ruleHtml(rl, false);
+    h2.parentNode.insertBefore(rh.firstChild, h2.nextSibling);
+  }
+
+  // Sezónny banner do 24. 12. 2026 (aj pri vianočných dopytoch ako rozcestník).
   var now = new Date();
-  var seasonOn = now < new Date(2026, 11, 25) && !/vianoc|retaz|cencul|girland|osvetlen/.test(plain);
+  var seasonOn = now < new Date(2026, 11, 25);
   if (seasonOn) {
     var a = document.createElement('a');
     a.className = 'ps-season';
@@ -41,5 +49,9 @@
       '<li><a href="/domace-spotrebice/">Domáce spotrebiče</a></li><li><a href="/vianocne-osvetlenie/">Vianočné osvetlenie</a></li></ul>' +
       '<p>Produkt nevidíte? <a href="/kontakty/">Napíšte nám</a> alebo zavolajte na +421 48 4151999 (Po–Pia 9:00–17:00), poradíme a zistíme dostupnosť.</p>';
     found.appendChild(d);
+    if (A) A.withDict(function (dict) {
+      var html = A.suggestHtml(A.suggest(q, dict));
+      if (html) d.insertAdjacentHTML('afterbegin', html);
+    });
   }
 })();
