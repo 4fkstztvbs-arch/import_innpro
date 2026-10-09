@@ -19,9 +19,13 @@
       '<span class="ps-season__title">Vianočné osvetlenie a dekorácie</span>' +
       '<span class="ps-season__text">Rozsvieťte stromček, okná aj záhradu: LED reťaze, cencúle, závesy a svietiace dekorácie.</span>' +
       '<span class="ps-season__btn">Pozrieť ponuku</span></span>' +
-      '<span class="ps-season__img" role="img" aria-label="Svetelná hviezda"></span>';
-    a.querySelector('.ps-season__img').style.backgroundImage =
-      'url(https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/628470_solight-led-vianocna-hviezda-3d--150-led--60cm--ip44--tepla-biela--casovac-obrazok-1.jpg)';
+      '<span class="ps-season__imgs" aria-hidden="true"><span class="ps-season__img ps-season__img--a"></span><span class="ps-season__img ps-season__img--b"></span><span class="ps-season__img ps-season__img--c"></span></span>' +
+      '<span class="ps-season__scene" aria-hidden="true"></span>';
+    var base = 'https://cdn.myshoptet.com/usr/www.premiumstore.sk/user/shop/big/';
+    var pics = { a: '628470_solight-led-vianocna-hviezda-3d--150-led--60cm--ip44--tepla-biela--casovac-obrazok-1.jpg',
+      b: '642570_solight-led-vonkajsia-vanocna-retaz--100-led--10m--privod-3m--8-funkcii--casovac--ip44--tepla-biela-obrazok-1.jpg',
+      c: '628449_solight-led-vianocna-girlanda--cencule--200-led--10m--ip44--teple-biele-svetlo-obrazok-1.jpg' };
+    for (var k in pics) a.querySelector('.ps-season__img--' + k).style.backgroundImage = 'url(' + base + pics[k] + ')';
     h2.parentNode.insertBefore(a, h2.nextSibling);
   }
 
