@@ -37,6 +37,9 @@
   html body.type-index .ps-home-cats img { width: 60px; height: 60px; flex: none; object-fit: contain; border-radius: 8px; }
   html body.type-index .ps-home-cats svg { width: 28px; height: 28px; flex: none; }
 
+  /* rezervované miesto pre kategórie, kým ich doplní skript (bez posunu obsahu / CLS) */
+  html body.type-index main#content.content:not(.ps-home-cats-ready)::before { content: ""; display: block; order: 3; flex: 0 0 294px; height: 294px; width: 100%; }
+
   /* nadpisy sekcií a karty produktov */
   html body.type-index .homepage-group-title { font-size: 24px !important; margin: 4px 0 16px !important; }
   html body.type-index .homepage-group-title + .products-wrapper { margin-top: -22px; }
@@ -47,5 +50,6 @@
   html body.type-index .products-wrapper .product .p-tools { padding-top: 10px; padding-bottom: 10px; }
 }
 @media (min-width: 1100px) {
+  html body.type-index main#content.content:not(.ps-home-cats-ready)::before { flex-basis: 204px; height: 204px; }
   html body.type-index .ps-home-cats { grid-template-columns: repeat(6, minmax(0, 1fr)); }
 }
