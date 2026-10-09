@@ -2475,7 +2475,7 @@ try {
 
   // Sezónny banner do 24. 12. 2026 (aj pri vianočných dopytoch ako rozcestník).
   var now = new Date();
-  var seasonOn = now < new Date(2026, 11, 25);
+  var seasonOn = now < new Date(2026, 11, 25) && !(rl && !rl.xmas);
   if (seasonOn) {
     var a = document.createElement('a');
     a.className = 'ps-season';
