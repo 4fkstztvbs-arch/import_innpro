@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-08 23:20 UTC.
+Kontrola z 2026-10-09 22:38 UTC.
 
-Solight pri **507** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **505** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -84,7 +84,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
-| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -429,7 +428,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WW004` | Solight vodeodolná prepojovací krabička IP68, 1x vstup, 2x v | 2 | 125 |
 | `PF33` | Solight flexo šnúra, 2x 1,5mm2, gumová, čierna, 5m | 2 | 10 |
 | `WM701` | Solight sieťový adaptér pre LED pásiky, 230V - 12V, 2A, 24W, | 2 | 100 |
-| `5O10` | Solight držiak DVB-T a internetové antény na stenu, dĺžka 25 | 2 | 1 |
 | `PP04` | Solight predlžovací prívod, 3 zásuvky, biely, 5m | 2 | 40 |
 | `WL09` | Solight LED kovové svietidlo, 150lm, 3W CREE LED, čierna, fo | 2 | 48 |
 | `WM-30W-Q` | Solight LED reflektor Quick, 30W, 2550lm, 4000K, IP65, čiern | 2 | 40 |

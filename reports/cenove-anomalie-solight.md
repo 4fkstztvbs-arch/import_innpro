@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — solight — 2026-10-08
+# Cenové anomálie vynechané z feedu — solight — 2026-10-09
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -12,6 +12,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | WM79 | 8592718012731 | Solight prepojovací kábel pre LED pásy, 8mm zacvakávací konektor na oboch straná | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 1.30 € | 1/8.5x | 75 |
 | WM80 | 8592718012748 | Solight prepojovací kábel pre LED pásy, 10mm zacvakávací konektor na oboch stran | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 1.30 € | 1/8.5x | 75 |
 | WM90 | 8592718031312 | Solight prepojovací konektor pevný pre COB LED pásy, balenie 1ks, sáčok | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 1.30 € | 1/8.5x | 75 |
+| WM91 | 8592718031329 | Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 1.30 € | 1/8.5x | 75 |
 | WM63-50M-WW | 8592718047641 | Solight LED COB pásik, 50m, teplá biela, 10W/m, 1000lm/m, 8mm | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 135.50 € | 12.3x | 75 |
 | WPH-ND-009 | 8592718032579 | Solight 90° výmenná šošovka pre high bay radu 006 | cena mimo 8x rozsah mediánu kategórie | 49.90 € | 3.50 € | 1/14.3x | 11 |
 | WM63-50M-NW | 8592718047658 | Solight LED COB pásik, 50m, neutrálna biela, 10W/m, 1000lm/m, 8mm | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 135.50 € | 12.3x | 75 |
@@ -20,7 +21,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | WM64-50M-WW | 8592718047672 | Solight LED SMD pásik, 50m, teplá biela, 16W/m, 1500lm/m, 10mm | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 108.50 € | 9.9x | 75 |
 | WM64-50M-NW | 8592718047689 | Solight LED SMD pásik, 50m, neutrálna biela, 16W/m, 1500lm/m, 10mm | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 108.50 € | 9.9x | 75 |
 | WM64-50M-CW | 8592718047696 | Solight LED SMD pásik, 50m, studená biela, 16W/m, 1500lm/m, 10mm | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 108.50 € | 9.9x | 75 |
-| WD1000-ND1-B | 8592718051358 | Solight rovný konektor pre lištový systém Solight, čierna | cena mimo 8x rozsah mediánu kategórie | 16.50 € | 1.60 € | 1/10.3x | 20 |
-| WD1000-ND2-B | 8592718051365 | Solight pravoúhlý konektor pre lištový systém Solight, čierna | cena mimo 8x rozsah mediánu kategórie | 16.50 € | 1.80 € | 1/9.2x | 20 |
-| WD1000-ND1-W | 8592718051372 | Solight rovný konektor pre lištový systém Solight, biela | cena mimo 8x rozsah mediánu kategórie | 16.50 € | 1.60 € | 1/10.3x | 20 |
-| WD1000-ND2-W | 8592718051389 | Solight pravoúhlý konektor pre lištový systém Solight, biela | cena mimo 8x rozsah mediánu kategórie | 16.50 € | 1.80 € | 1/9.2x | 20 |
+| WD1000-ND1-B | 8592718051358 | Solight rovný konektor pre lištový systém Solight, čierna | cena mimo 8x rozsah mediánu kategórie | 16.75 € | 1.60 € | 1/10.5x | 20 |
+| WD1000-ND2-B | 8592718051365 | Solight pravoúhlý konektor pre lištový systém Solight, čierna | cena mimo 8x rozsah mediánu kategórie | 16.75 € | 1.80 € | 1/9.3x | 20 |
+| WD1000-ND1-W | 8592718051372 | Solight rovný konektor pre lištový systém Solight, biela | cena mimo 8x rozsah mediánu kategórie | 16.75 € | 1.60 € | 1/10.5x | 20 |
+| WD1000-ND2-W | 8592718051389 | Solight pravoúhlý konektor pre lištový systém Solight, biela | cena mimo 8x rozsah mediánu kategórie | 16.75 € | 1.80 € | 1/9.3x | 20 |
