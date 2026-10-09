@@ -1,0 +1,28 @@
+/* PremiumStore – ikony platieb a opravy prístupnosti (2026-10-09). */
+.ps-pay { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 12px 0 0; }
+.ps-pay__label { font-size: 12px; font-weight: 600; color: #4a5a52; }
+.ps-pay__list { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.ps-pay__item { display: inline-flex; align-items: center; gap: 5px; margin: 0; padding: 3px 9px; min-height: 26px; border: 1px solid #d9e1dd; border-radius: 7px; background: #fff; font-size: 11.5px; font-weight: 700; line-height: 1; color: #26332d; white-space: nowrap; }
+.ps-pay__item--visa span { color: #1a1f71; font-style: italic; font-weight: 800; letter-spacing: .02em; text-transform: uppercase; }
+.ps-pay__mc { position: relative; width: 20px; height: 12px; flex: none; }
+.ps-pay__mc::before, .ps-pay__mc::after { content: ""; position: absolute; top: 0; width: 12px; height: 12px; border-radius: 50%; }
+.ps-pay__mc::before { left: 0; background: #eb001b; }
+.ps-pay__mc::after { left: 8px; background: #f79e1b; mix-blend-mode: multiply; }
+.ps-pay__item--qr span::before { content: "▦ "; }
+.next-step--cart + .ps-pay { justify-content: center; margin-top: 10px; }
+@media (max-width: 575px) { .p-to-cart-block + .ps-pay { margin-top: 10px; } }
+
+/* prístupnosť */
+html body .add-to-cart-button:focus-visible, html body .btn-conversion:focus-visible { outline: 3px solid #0b57d0 !important; outline-offset: 3px !important; }
+html body .ps-noresults p a, html body .ps-did a:not(.ps-did__a) { text-decoration: underline; }
+html body #manufacturer-filter .filter-more--more, html body .filter-more--more { color: #7a5800; }
+html body a.ps-kt-btn.ps-kt-btn-primary { background: #0a7a50 !important; border-color: #0a7a50 !important; }
+html body a[href*="openstreetmap.org/?mlat"] { color: #595959 !important; }
+
+/* Lightweight catalogue description (psc-lite): photo hero, key facts, parameter groups.
+   Base .ps-product-catalog / .psc-* styles come from the 20261003 bundle. */
+.ps-product-catalog.psc-lite > * + * { margin-top: 14px; }
+.ps-product-catalog.psc-lite .psc-hero img { padding: 10px; background: #fff; }
+.ps-product-catalog.psc-lite .psc-soft h3 { margin-top: 0; }
+.ps-product-catalog.psc-lite .psc-note strong { display: block; margin-bottom: 4px; }
+.ps-product-catalog.psc-lite .psc-specs strong { font-weight: 600; }
