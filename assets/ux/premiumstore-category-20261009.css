@@ -19,7 +19,7 @@ html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps
 }
 html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-photo { width: 38px !important; height: 38px !important; flex: 0 0 38px !important; }
 html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-photo img { width: 100% !important; height: 100% !important; object-fit: contain !important; }
-html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-label { font-size: 14px !important; white-space: nowrap; }
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-label { font-size: 14px !important; white-space: normal !important; min-width: 0 !important; overflow: visible !important; text-overflow: clip !important; line-height: 1.25 !important; }
 html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-arrow { display: none !important; }
 @media (max-width: 767px) {
   html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
