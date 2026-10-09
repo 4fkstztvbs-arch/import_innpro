@@ -20,7 +20,7 @@
     '#ps-sum-body{display:none;margin-top:8px;padding:12px 14px;border:1px solid #e0e0e0;border-radius:10px;background:#fff;font-size:14px}' +
     '#ps-sum.is-open #ps-sum-body{display:block}' +
     '#ps-sum-body h2{display:none}' +
-    '@media (max-width:767px){body.ps-has-sum #summary-box>*:not(.next-step):not(.next-step-wrapper){display:none!important}body.ps-has-sum #summary-box{padding-top:0!important;border:0!important;background:none!important;box-shadow:none!important}#ps-sum.is-on{display:block}body.ordering-process{padding-bottom:84px}}' +
+    '@media (max-width:767px){body.ps-has-sum #checkoutSidebar{display:none!important}#ps-sum.is-on{display:block}body.ordering-process{padding-bottom:84px}}' +
     'body.ordering-process #submit-order .order-button-text,body.ordering-process #submit-order .order-button-suffix{font-weight:700}' +
     'body.ordering-process .next-step .btn,body.ordering-process #orderFormButton,body.ordering-process #continue-order-button{font-weight:700}';
   var st = document.createElement('style');
@@ -204,7 +204,7 @@
     var h = ck && getComputedStyle(ck).position === 'fixed' && ck.offsetHeight ? ck.offsetHeight : 0;
     var r = c ? c.getBoundingClientRect() : null;
     var visible = !!r && r.height > 0 && r.top >= 0 && r.bottom <= window.innerHeight - h;
-    var on = mq.matches && !!t && !!c && !visible && !modalOpen();
+    var on = mq.matches && !!t && !!c && (!visible || document.body.classList.contains('ps-has-sum')) && !modalOpen();
     if (barTotal.textContent !== t) barTotal.textContent = t;
     var ct = ctaText();
     if (barBtn.textContent !== ct) barBtn.textContent = ct;
