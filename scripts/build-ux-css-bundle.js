@@ -5,5 +5,10 @@ const sources = ['premiumstore-bundle-20261003.css', 'premiumstore-home-categori
   'premiumstore-home-desktop-20261009.css', 'premiumstore-checkout-20261009.css', 'premiumstore-category-20261009.css', 'premiumstore-search-20261009.css'];
 const out = '/* PremiumStore – spojené CSS (generované: node scripts/build-ux-css-bundle.js) */\n' +
   sources.map(f => '\n/* ===== ' + f + ' ===== */\n' + fs.readFileSync(path.join(dir, f), 'utf8')).join('');
-fs.writeFileSync(path.join(dir, 'premiumstore-all-20261009.css'), out);
-console.log('premiumstore-all-20261009.css', out.length, 'B');
+const target = path.join(dir, 'premiumstore-all-20261009.css');
+fs.writeFileSync(target, out);
+// minifikácia (npm i -g csso-cli); bez csso zostane nezmenšený súbor
+try {
+  require('child_process').execFileSync('csso', [target, '-o', target], { stdio: 'inherit' });
+} catch (e) { console.log('csso nie je nainštalované, súbor nie je minifikovaný'); }
+console.log('premiumstore-all-20261009.css', fs.statSync(target).size, 'B');
