@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-08 23:30 UTC.
+Kontrola z 2026-10-09 11:00 UTC.
 
-InnPro pri **381** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **379** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -161,7 +161,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068234` | Silicone Cover Case Set with Strap PULUZ For DJI OSMO Pocket | — | 5 |
 | `068805` | Mini Bag PULUZ for DJI Osmo Pocket 3 (Black) | — | 5 |
 | `068803` | Mini Body Bag PULUZ For DJI Osmo Action 5 Pro / 4 / 3 (Black | — | 5 |
-| `068808` | Mini Body Bag PULUZ For Insta360 GO 3 / GO 3S (Black) | — | 2 |
 | `069434` | TELESIN tempered glass for DJI Osmo Pocket 3 | — | 5 |
 | `067687` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-FW (whi | — | 5 |
 | `067677` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-F (grap | — | 5 |
@@ -198,7 +197,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `075569` | Rojeco Filtre pre dávkovač vody pre domáce zvieratá 2600mAh  | — | 5 |
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
 | `076565` | Sunnylife mini B977-GY ochranné puzdro pre RC ovládače DJI ( | — | 5 |
-| `075790` | Oneisall PW04 filtre do fontány/napájačky (6 ks) | — | 4 |
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
 | `077573` | Ochranné puzdro Sunnylife s popruhom pre Osmo Pocket 3 (čier | — | 5 |
 | `077579` | Sunnylife anti-shock spona pre DJI Flip | — | 5 |
