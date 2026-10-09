@@ -1,0 +1,64 @@
+/* PremiumStore – stránka kategórie (2026-10-09). Všetko len pre body.type-category.
+   A: zoznam produktov hore, B: kompaktná karta, C: detaily. */
+
+/* A1: "Najpredávanejšie" sa presúva pod zoznam (JS pridá .ps-moved). Bez JS sa po 4 s zobrazí samo. */
+@keyframes ps-cat-show { to { display: block; } }
+body.type-category .category-top > .products-top-wrapper:not(.ps-moved) { display: none; animation: ps-cat-show 0s 4s forwards; }
+body.type-category .products-top-wrapper.ps-moved { margin: 28px 0 8px; }
+
+/* A2: dlaždice podkategórií – kompaktné */
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-head { margin: 8px 0 6px !important; }
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-head span { display: none !important; }
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-head h2 { font-size: 18px !important; margin: 0 !important; }
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
+  display: flex !important; flex-wrap: wrap !important; gap: 8px !important; margin: 0 0 12px !important; grid-template-columns: none !important;
+}
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-caption { display: none !important; }
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-tile {
+  flex: 0 0 auto !important; width: auto !important; min-height: 0 !important; padding: 4px 12px 4px 4px !important; gap: 8px !important; align-items: center !important;
+}
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-photo { width: 38px !important; height: 38px !important; flex: 0 0 38px !important; }
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-photo img { width: 100% !important; height: 100% !important; object-fit: contain !important; }
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-label { font-size: 14px !important; white-space: nowrap; }
+html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-arrow { display: none !important; }
+@media (max-width: 767px) {
+  html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid {
+    flex-wrap: nowrap !important; overflow-x: auto !important; -webkit-overflow-scrolling: touch; scroll-snap-type: x proximity;
+    margin-right: -15px !important; padding-right: 15px !important; scrollbar-width: none;
+  }
+  html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid::-webkit-scrollbar { display: none; }
+  html body.type-category #content [id^="ps-cat-"]:not([id$="-help"]) .ps-grid .ps-tile { scroll-snap-align: start; }
+}
+
+/* A3: tlačidlo filtra na mobile – celá šírka, zreteľné */
+@media (max-width: 991px) {
+  html body.type-category .filters-unveil-button-wrapper { margin: 0 0 12px !important; }
+  html body.type-category .filters-unveil-button-wrapper .unveil-button {
+    width: 100% !important; text-align: center !important; font-weight: 600 !important; border: 1.5px solid #1b7a52 !important; color: #145c3e !important; background: #fff !important; border-radius: 999px !important; padding: 9px 16px !important;
+  }
+}
+
+/* B: kompaktná karta produktu v zozname */
+html body.type-category #products .product .image {
+  display: flex !important; align-items: center; justify-content: center; background: #fff; height: 190px; overflow: hidden;
+}
+html body.type-category #products .product .image img { max-width: 100% !important; max-height: 190px !important; width: auto !important; height: auto !important; object-fit: contain !important; }
+html body.type-category #products .product .stars-placeholder { display: none !important; }
+html body.type-category #products .product .ratings-wrapper { min-height: 0 !important; margin: 0 !important; }
+html body.type-category #products .product .p-in-in { min-height: 0 !important; }
+html body.type-category #products .product .p-in { min-height: 0 !important; height: auto !important; }
+html body.type-category #products .product .name { min-height: 0 !important; margin-bottom: 4px !important; }
+html body.type-category #products .product .availability { margin: 2px 0 6px !important; font-size: 13px; }
+html body.type-category #products .product .availability.ps-stock::before {
+  content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #1b9a5f; margin-right: 6px; vertical-align: middle;
+}
+html body.type-category #products .product .availability.ps-stock-low::before { background: #d9822b; }
+html body.type-category #products .product .availability.ps-stock-low { color: #9a5612; }
+html body.type-category #products .product .p-bottom { margin-top: 0 !important; padding-top: 0 !important; }
+@media (max-width: 767px) {
+  html body.type-category #products .product .image { height: 150px; }
+  html body.type-category #products .product .image img { max-height: 150px !important; }
+}
+
+/* C: kontrast "Ďalšie možnosti" vo filtri */
+html body.type-category .filter-section a[class*="more"], html body.type-category .dkLab-more, html body.type-category [class*="filter"] a[class*="show-more"], html body.type-category [class*="filter"] a[class*="more"] { color: #1b7a52 !important; }
