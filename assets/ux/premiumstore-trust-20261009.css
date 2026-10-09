@@ -26,3 +26,9 @@ html body a[href*="openstreetmap.org/?mlat"] { color: #595959 !important; }
 .ps-product-catalog.psc-lite .psc-soft h3 { margin-top: 0; }
 .ps-product-catalog.psc-lite .psc-note strong { display: block; margin-bottom: 4px; }
 .ps-product-catalog.psc-lite .psc-specs strong { font-weight: 600; }
+
+/* Popisy produktov: rozostupy medzi blokmi a nadpis poznámky na vlastnom riadku */
+.ps-product-catalog > * + * { margin-top: 28px; }
+.ps-product-catalog .psc-note strong { display: block; margin-bottom: 4px; }
+.ps-product-catalog #psc-dalsie ul, .ps-product-catalog #psc-suvisiace ul { margin: 0; padding-left: 20px; }
+.ps-product-catalog #psc-dalsie li, .ps-product-catalog #psc-suvisiace li { margin: 0 0 8px; }
