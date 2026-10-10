@@ -104,25 +104,25 @@ Základný odkaz na CSV: `https://4fkstztvbs-arch.github.io/import_innpro/migrat
 
 ## A) HOTOVÉ – CSV vytvorené (tieto kategórie NEROBIŤ znova)
 
-Stĺpec „Import“: ✔ = Martin potvrdil import; ? = CSV je hotový, ale Martin import zatiaľ nepotvrdil (overiť s ním, nepísať znova).
+Stĺpec „Import“: ✔ = Martin potvrdil import (10.10. večer: „všetky, ktoré si poslal, som importoval“). Nič z tabuľky sa už nerobí znova.
 
 | Kategória (slug na webe) | Produktov v CSV | Súbor (platný / posledný) | Import |
 |---|---|---|---|
-| Televízory (`televizory`) | 136 | televizory-popisy-2026-10-09-v2.csv (v1 už importovaná, v2 = bez nevýhod, nahrádza v1) | v1 ✔, v2 ? |
+| Televízory (`televizory`) | 136 | televizory-popisy-2026-10-09-v2.csv (v1 už importovaná, v2 = bez nevýhod, nahrádza v1) | ✔ (v1 aj v2) |
 | Práčky (`pracky`) | 95 | import-pracky-2026-10-09.csv | ✔ |
-| Chladničky (`chladnicky`) | 111 | import-chladnicky-2026-10-10.csv (nahrádza 2026-10-09, 108) | 10-09 ✔, 10-10 ? |
+| Chladničky (`chladnicky`) | 111 | import-chladnicky-2026-10-10.csv (nahrádza 2026-10-09, 108) | ✔ |
 | Mrazničky (`mraznicky`) | 20 | import-mraznicky-2026-10-09.csv | ✔ |
-| Soundbary (`soundbary`) | 50 | import-soundbary-2026-10-10.csv (nahrádza 2026-10-09, 29) | 10-09 ✔, 10-10 ? |
-| Varné dosky (`varne-dosky`) | 58 | import-varne-dosky-2026-10-10.csv (nahrádza 2026-10-09, 52) | 10-09 ✔, 10-10 ? |
-| Monitory (`monitory`) | 12 | import-monitory-2026-10-10.csv | ? |
-| Projektory (`projektory-4`) | 66 | import-projektory-4-2026-10-10.csv | ? |
-| Športové vybavenie (`sportove-vybavenie`) | 142 | import-sportove-vybavenie-2026-10-10.csv | ? |
-| Satelitné prijímače (`satelitne-prijimace`) | 67 | import-satelitne-prijimace-2026-10-10.csv | ? |
-| Fritézy a hrnce (`fritezy-a-hrnce`) | 136 | import-fritezy-a-hrnce-2026-10-10.csv | ? |
-| Kávovary a espressá (`kavovary-a-espressa`) | 221 | import-kavovary-a-espressa-2026-10-10.csv | ? |
-| Fotovoltaika (`fotovoltaika`) | 546 | import-fotovoltaika-kompletne-2026-10-10.csv (nahrádza čiastkový s 274) | ? |
-| Prenosné Bluetooth reproduktory (`audio-technika-prenosne-bluetooth-reproduktory`) | 44 | import-audio-technika-prenosne-bluetooth-reproduktory-2026-10-10.csv | ? |
-| Slúchadlá (`sluchadla`) | 459 | import-sluchadla-2026-10-10.csv | ? |
+| Soundbary (`soundbary`) | 50 | import-soundbary-2026-10-10.csv (nahrádza 2026-10-09, 29) | ✔ |
+| Varné dosky (`varne-dosky`) | 58 | import-varne-dosky-2026-10-10.csv (nahrádza 2026-10-09, 52) | ✔ |
+| Monitory (`monitory`) | 12 | import-monitory-2026-10-10.csv | ✔ |
+| Projektory (`projektory-4`) | 66 | import-projektory-4-2026-10-10.csv | ✔ |
+| Športové vybavenie (`sportove-vybavenie`) | 142 | import-sportove-vybavenie-2026-10-10.csv | ✔ |
+| Satelitné prijímače (`satelitne-prijimace`) | 67 | import-satelitne-prijimace-2026-10-10.csv | ✔ |
+| Fritézy a hrnce (`fritezy-a-hrnce`) | 136 | import-fritezy-a-hrnce-2026-10-10.csv | ✔ |
+| Kávovary a espressá (`kavovary-a-espressa`) | 221 | import-kavovary-a-espressa-2026-10-10.csv | ✔ |
+| Fotovoltaika (`fotovoltaika`) | 546 | import-fotovoltaika-kompletne-2026-10-10.csv (nahrádza čiastkový s 274) | ✔ |
+| Prenosné Bluetooth reproduktory (`audio-technika-prenosne-bluetooth-reproduktory`) | 44 | import-audio-technika-prenosne-bluetooth-reproduktory-2026-10-10.csv | ✔ |
+| Slúchadlá (`sluchadla`) | 459 | import-sluchadla-2026-10-10.csv | ✔ |
 
 Poznámka: súbory `*-2026-10-09.csv` sú staršie verzie (len produkty z feedov ATOS a K-B); súbory `*-2026-10-10.csv` sú ÚPLNÉ (obsahujú aj produkty InnPro, Penta, Basys...) a majú sa importovať namiesto nich.
 
