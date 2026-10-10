@@ -1,0 +1,462 @@
+﻿Zvyšujeme konverzní poměr, obrat a ranking webu
+v době AI | Kvasnička Jan
+
+
+1. Základní informace
+Kontakt 
+* Tento dokument vytvořil Jan Kvasnička
+   * http://www.kvasnickajan.cz/ (web je z roku 2012, od té doby je neaktuální, na novém se konečně pracuje 😍)
+   * info@kvasnickajan.cz 
+   * 732 822 838
+* Pokud máte jakékoliv dotazy, připomínky nebo vylepšení, prosím pište mi na e-mail. Dokument budu dle vaší zpětné vazby upravovat a budu se jej snažit držet aktuální. 
+Aktualizace
+Tento dokument berte jako první výkop opravdu těch nejdůležitějších témat okolo AI a zvyšování obratu/konverzního poměru webu a celkově jak zvýšit ranking webu. Postupně jej v rámci času budu doplňovat, abyste mohli svůj proces co nejlépe řídit a rozšiřovat. 
+* 24. 2. 2026 - Dokončena fáze 1 tohoto dokumentu a nasdílena do světa. Budu moc rád, když jej budete dále šířit těm, kterým může pomoci. 
+* 16. 5. 2026 - Dokument jsem doplnil dle aktuálních informací, které mám z workshopů a mohu je sdílet. Tyto informace začínají ikonou 2️⃣
+Jak nad tímto dokumentem uvažovat
+Tento dokument slouží pro kontrolu vašeho aktuálního stavu práce s AI, jak si správně nastavit základní procesy, definovat si základní kodex firmy, jak funguje pohledem Google důvěryhodnostní matice v době AI a jaké prvky vám pomohou v rámci hodnocení stránky, ať už z pohledu skóre kvality vstupní stránky nebo z pohledu AI mode/AI overview. 
+
+
+Pokud sami nevíte, kde začít, stačí jet podle tohoto dokumentu. Tím, že zde máte ukázky, můžete svou firmu posunout skokově opravdu rychle. 
+
+
+Celý dokument vznikl ve spolupráci s lidmi z Google, kteří mi dávali tipy a informace, jak to nyní funguje. Bohužel nemám ke všemu podrobné informace, jak bych si přál, ale i tak vám to pomůže. Hodně ukázek bude z e-shopu denatura.cz, který jsme si v rámci workshopů (mám s nimi pravidelné workshopy díky statusu Google Trainer) opakovaně ukazovali a kde jsme rovnou potřebné změny zpracovávali a opakovaně vyhodnocovali. 
+Proces práce s tímto dokumentem
+1. Vytvořte si kopii tohoto vzoru a uložte si ji u sebe na disku. 
+2. Udělejte ve firmě první schůzku na téma využívání AI, a snažte se tento dokument projít a psát si do něj poznámky a hlavně úkoly, které z toho pro vás plynou. 
+3. Každý úkol nebo téma k řešení by mělo mít určenou prioritu, aby se vám lépe fungovalo v celém projektovém řízení a neřešili jste až příliš moc témat najednou. 
+4. Poté, když máte tento dokument finální, zadáváte úkoly do nástroje na projektové řízení, kde se snažíte definovat návaznosti jednotlivých úkolů vzhledem k tématům, aby byl vidět správně celý postup, co máte nyní dělat, viz zkrácená ukázka: https://tinyurl.com/2aqvps3y. Snažte se v rámci zadání úkolů nespěchat, abyste nejprve měli opravdu finální výstup a až poté se vrhněte do realizace.
+5. Poté členové týmu plní úkoly, a jednou za kvartál děláte revizi celého tohoto dokumentu, ať vidíte, co už je finálně dokončeno, co ještě nikoli, a jak jste se celkově posunuli kupředu. 
+Statusy
+Statusy se dávají jednotlivým tématům, abyste dlouhodobě viděli, co už máte hotovo, na čem se pracuje a kde se ještě nezačalo
+* ✅ Úkol je dokončen
+* 🟧 Aktuálně na tomto úkolu pracujeme
+* 🟥 Úkol odložen
+* ⬛️ Ještě jsme práci nezačali 
+Priority
+* URGENT 
+* HIGH
+* MEDIUM
+* LOW
+* UNDEFINED - používáme především pro úkoly, které se nyní řešit nebudou, tak jim ani nedáváme prioritu, abychom nad tím netrávili zbytečně čas. 
+
+
+2. Skóre kvality vstupní stránky - pravidla
+Skóre kvality vstupní stránky je poměrně nová metrika Google, na kterou se potřebujeme mnohem více zaměřit. Bohužel její data nejsou veřejná, pouze víme, že je důležitá a z jakých prvků se skládá. 
+
+
+Toto skóre je určeno hodnotu 1-99 a máme dva pohledy, jeden je na hlavní URL webu, druhý je pak na jakoukoliv vstupní stránku na webu. 
+
+
+Dopady této metriky jsou jednoznačně dané: Pokud máte skóre kvality vysoké, tak máte lepší pozice v rámci SEO a levnější prokliky v rámci výkonnostní reklamy. Těch efektů je zde více, ale toto je to hlavní, co byste si měli zapamatovat. 
+
+
+Níže jsou vypsané hlavní body, které byste si měli u sebe na webu zkontrolovat, abyste měli jistotu, že budete mít co nejvyšší skóre kvality vstupní stránky: 
+2.1 ⬛️ Velikost písma na stránce nesmí být menší než 13px
+* Zadání:
+   * Google se snaží o co nejlepší čitelnost obsahu a máme od nich potvrzeno, že pokud máte na webu písmo menší než 13px, tak za to máte menší postih. 
+   * Doporučuji projít všechny texty, které na webu máte a zkontrolujte jejich velikost, i v prvcích jako jsou tlačítka, štítky, badge nebo jiné malé prvky. 
+   * Obecně doporučuji mít obsah, delší texty, ve velikosti minimálně 15-17px, podle toho, jaké písmo používáte. Obsah je pak mnohem lépe čitelný. 
+* Ukázky: 
+   * Zde je ukázka, kde je to špatně, text konkurenčních výhod je hodně malým písmem https://www.naradionline.cz/ (screen). Pozor celkově na responzivitu a jak s ní pracujete. 
+  
+
+2.2 ⬛️ Čitelnost obsahu a hodnocení Google
+* Zadání:
+   * Od konce roku 2023 má Google nová pravidla pro vyhodnocování čitelnosti obsahu, kdy chtějí, aby byl obsah vždy správně čitelný. A to i v případě, že na displej mobilního telefonu svítí sluníčko, nebo má někdo špatně nastaven jas nebo jiné parametry. Nástroj, kde si můžete ověřit, jak na tom aktuálně jste, je https://color.review/, který ukazuje hodnocení pro barvu textu a jeho barevný podklad, a jakou čitelnost vzájemně mají. 
+   * Vyhodnocuje se: 
+      * Textace/obsah
+      * Tlačítka
+      * Štítky
+      * Bannery
+      * Rozcestníky
+      * V podstatě jakýkoliv obsah, kde je psaný text
+   * Pozor si dejte i na obsah, kdy je text v popředí fotografie, a díky tomu je tento text špatně čitelný, zde platí stejný postih. 
+   * Postihem je pak nižší skóre kvality vstupní stránky a snižuje se rank domény. 
+   * Doporučuji se na to zaměřit a udělat úpravy v rámci celého webu, případně rovnou v rámci celého DesignSystému, který používáte. Sociální sítě mají podobné vyhodnocení a je potřeba to dodržovat i na nich. 
+   * Pokud máte problém s doplněním vhodné barevnosti, doporučuji využít nástroj https://color.adobe.com/cs/create/color-wheel 
+* Ukázky: 
+   * Tlačítko v ukázce níže má špatné skóre pro čitelnost obsahu, dává nám výstupní status FAIL: https://color.review/check/FFFFFF-FC9FC1 
+  
+
+2.3 ⬛️ Vykreslení obsahu na mobilu
+* Zadání:
+   * Pokud se nám obsah na webu nevykresluje nebo obsahuje chyby v rámci vykreslení, tak máme nižší skóre kvality vstupní stránky. 
+   * Hlavní kontrolu dělejte hlavně na mobilu, kde jsou problémy s vykreslením častější. 
+   * Kontrolujte jak Apple zařízení, tak Android. 
+* Ukázky: 
+   * Příklad chybného vykreslení obsahu https://www.comfor.cz/ (screen). 
+   * Stejnou chybu měl například https://www.b2bpartner.cz/ (screen). 
+  
+
+2.4 ⬛️ Obsah mimo základní části e-shopu na mobilu 
+* Zadání:
+   * Další bod, za který se dává Google postih pro weby na mobilu, je stav, kdy se nějaký prvek vykresluje mimo základní zobrazení webu (mimo viditelnou část ve které scrollujete). Například pokud máte příliš dlouhé texty do strany, neresponzivní obsah, špatně vložené embed video, které je větší než zobrazený obsah a další možnosti. 
+   * Vždy si projděte váš web na nejčastějších zařízeních a prohlížečích, jak se v nich vykresluje a proveďte kontrolu, zda máte vše v pořádku. 
+* Ukázky: 
+   * Zde je například ukázka, kde to bylo špatně https://www.tssgroup.cz/ (screen).
+  
+
+2.5 ⬛️ Dodržení touch zón
+* Zadání:
+   * Stále větší tlak je kladen na touch zóny aktivních prvků na webu na mobilu. Touch zónou je myšleno okolí aktivního prvku (odkaz, tlačítko, stránkování, …), kdy Google chce, aby v tomto okolí nebyly další prvky nebo aby aktivní prvky na sebe nebyly příliš namačkané. V takovém případě by pak bylo složité se na daný prvek trefit prstem (tapnout).
+   * Snažte se mít vždy okolo aktivních prvků alespoň nějakou vzdušnost, aby vše na sebe nebylo příliš namačkané. 
+   * Bohužel nejde říci, kolik px přesně má být volné okolí okolo aktivního prvku, jelikož to Google nikdy nedefinoval do jasných pravidel.
+* Ukázky: 
+   * Příliš nahuštěné checkboxy vedle sebe malým písmem a s malým odsazením
+  
+
+   * Prvky jsou příliš blízko u sebe, dotýkají se nebo jsou kolikrát přes sebe
+  
+
+2.6 ⬛️ Mediální obsah na vstupní stránce  
+* Zadání:
+   * Pokud máte na dané vstupní stránce (homepage, kategorie, detail produktu, detail služby nebo kampaňová vstupní stránka) mediální obsah (fotografie, video, gify, infografiky, …), tak za to máte body nahoru od Google. 
+   * Důležitým pravidlem jsou body nahoru na detailu produktu, kdy pokud tento mediální obsah máte v popisu produktu, nebo tam máte jiné prvky, než jen základní galerii produktu. Pokud nyní návštěvník přescrolluje hlavní fotografii produktu na mobilu, tak níže kolikrát nenajde nic, co by ukázalo, jak produkt funguje, vypadá, jaké má technické parametry nebo nějaké další mediální informace o něm. Vše většina e-shopů dává do základní galerie, což je špatně. Jde jim o to, aby návštěvník, pokud proscrolluje tu první galerii, tak aby i tak viděl důležité informace o produktu. Obecně storytelling je na vzestupu, jelikož vás dokáže hodně odlišit od vaší konkurence a pokud jej máte v obsahu zpracován dobře, máte za to body nahoru. 
+      * Stejně to platí pro jakékoliv vstupní stránky na webu. 
+* Ukázky: 
+   * Pěkným příkladem je detail produktu https://www.denatura.cz/serum-na-rasy-denatura/, kde je opravdu hodně mediálního obsahu, který pomáhá lépe pochopit produkt samotný a jeho účinky. 
+2.7 ⬛️ Aktivní prvky obsahují motion efekt nebo hover efekt  
+* Zadání:
+   * 2️⃣Potřebujeme na celém webu dodržet toto pravidlo, aby všechny aktivní prvky měly motion efekt (zoom, přiblížení, probliknutí, najetí) nebo hover efekt. Návštěvník by měl vždy poznat, na co lze kliknout a na co nikoli, především pak na mobilu. Pokud to poznat nejde, tak snižuje rozpoznatelnost aktivních prvků na stránce a tím snižujete intuitivní chování návštěvníka, za což máme body dolů. 
+   * 2️⃣Snažte se pro odkazy vybrat jednoznačnou barvu, aby to bylo v celém designu na první pohled poznat, co jsou aktivní prvky, případně je dávejte jako podtržené nebo se speciální ikonou, například šipkou do strany. 
+   * 2️⃣Dejte si pozor na šedou barvu pro aktivní prvky, na to vám Google automaticky dává body dolů. 
+* Ukázky: 
+   * 2️⃣Pěkným příkladem je detail produktu https://www.denatura.cz/serum-na-rasy-denatura/, kde jsme si dávali pozor, aby všechny aktivní prvky byly opravdu na první pohled poznat, ať jsme na desktopu nebo na mobilu. 
+… a další prvky
+* Vstupují zde i signature prvky značky, které máme rozepsané níže. 
+* Hodně dalších prvků je pak popsaných v Checklistu Největší chyby na CZ/SK e-shopech
+
+
+3. Důvěryhodnostní matice pohledem Google
+Google zpřísňuje hodnocení webů/e-shopů právě díky tomu, že v rámci AI vzniká spoustu obsahu, který není reálný, je lživý, je duplicitní nebo jen zkopírovaný z AI nástroje, nebo ukazuje daný produkt/službu v úplně jiném světle, než je realita. 
+
+
+Proto vytvořili systém hodnocení webu právě pohledem důvěryhodnosti, aby projekty, které vše dělají správně, nelžou, jsou autentické, transparentní a dají si na tvorbě obsahu záležet, tak aby byly zvýhodnění oproti těm, co vše v rychlosti naklikají skrze AI. Díky AI totiž bude za chvilku hodně projektů působit úplně stejně, ne-li budou úplně stejné, jelikož jim AI vytvoří “aktuálně nejlepší výsledky, co může”. Google má do budoucna obavu, aby pak všechny weby, služby, e-shopy nevypadaly stejně, jelikož budou plně generované skrze AI a firmy ztratí svou tvář. Proto budou dávat body nahoru těm, kteří nebudou jen AI generování. 
+
+
+Celý algoritmus byl spuštěn v roce 2025 a začátkem ledna 2026 proběhl velký update, který jej více zpřísnil, kde máme více informací, jak to celé funguje. 
+
+
+Níže nebudeme mít vypsané všechny prvky, kterých se to týká, ale máte tam vypsané hlavní prvky, které byste si nyní měli zkontrolovat nebo začít dělat, ty, které mají nyní velký vliv. Mým cílem není vás zahltit, ale abyste nad tímto tématem začali přemýšlet. 
+
+
+3.1 ⬛️ Osobní kontakt [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Velký vliv má prezentace osobního kontaktu, za který získáme plusové body. Tím, že zde máme reálné lidi, ukazujeme, že si našeho návštěvníka vážíme a nejsme jen další AI webová stránka, kde pokud bude mít návštěvník jakýkoliv problém, tak jej bude muset vyřešit sám a nemá se komu ozvat.  
+   * Pokud tento typ kontaktu budete mít, máte plusové body nahoru. Není to tak, že pokud tam není, že by za to byly body do mínusu, to nikoli. 
+   * Není přesně řečeno, co má jaký vliv, ale největší vliv má, pokud máte osobní kontakt v hlavičce webu nebo v patičce webu. Poté je to určitě osobní kontakt na stránce “Kontakty”, případně na jiných místech webu, kde vyzýváme návštěvníka, aby se nám s čímkoliv ozval.  
+   * Osobní kontakt by měl splňovat prvky: 
+      * Fotografie
+      * Jméno a příjmení
+      * Název pozice člověka
+      * Telefonní číslo nebo E-mail
+      * -> Obsah těchto prvků by měl být definován dle místa, kde jej prezentujeme, tedy v hlavičce je jasné, že tam nebudou všechny tyto informace atd. 
+   * Příklady správného zpracování: 
+      * Osobní kontakt v hlavičce (screen)
+  
+
+      * Osobní kontakt v patičce (screen)
+  
+
+      * Osobní kontakt na stránce “Kontakty” (screen)
+  
+
+   * Pokud máte služby nebo jste e-shop, zvažte umístění kontaktu i na stránky detailu služby nebo detailu produktu, jelikož budete více ti, kdo má osobní přístup k návštěvníkovi a budete za to mít také body nahoru. 
+   * Pokud máte více lidí na zákaznické podpoře, vždy prezentujte alespoň jednoho z nich, nebo to udělejte trochu kreativněji jako to má https://www.cistedrevo.cz/ (screen).
+  
+
+* Úkoly: 
+   * 1. Zkontrolujte, jakým způsobem prezentujete kontakty na vašem webu a na jakých vstupních stránkách tak děláte.
+   * 2. Definujte stránky, kde by měl být ve vašem případě osobní kontakt doplněn.  
+   * 3. Doplňte osobní kontakt tam, kde to je potřeba.
+3.2 ⬛️ Signature prvky značky [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Aby byl web co nejvíce zapamatovatelný, měl by obsahovat signature prvky značky, což jsou prvky, které máme na webu ideálně jen my, jako naše značka, a jiné weby to nemají ve 100% stejném zpracování. Což je, v dnešní době a při počtech webů, hodně velký oříšek. 
+   * Díky AI totiž bude v blízké době většina webů v dané kategorii vypadat stejně, jelikož přijdou se zadáním “vygeneruj mi nejkonverznější e-shop na téma prodej potravin” a AI na základě nejlepších dat bude generovat hodně podobné výstupy. 
+   * Mezi signature prvky se řadí různé prvky, kde i jejich kombinace může znamenat to, že dostanete na webu body nahoru v rámci jeho hodnocení, jelikož to zpracování u vás bude unikátní. Může tam patřit kombinace:   
+      * Barevnost 
+      * Písma 
+      * Práce s logem v rámci celého webu - pěkným příkladem je Bellarose.cz, kde prvky loga (screen) využívají v pozadí obsahu (screen), nebo v podobném stylu mají své vlastní mini ikony (screen) na webu. Toto mám potvrzeno jako kladné body pro tento e-shop přímo z workshopu s Google. 
+
+
+Logo:
+  
+
+Prvek na pozadí: 
+  
+
+Vlastní ikona: 
+  
+
+
+
+      * Grafické komponenty, které budou charakteristické pro vaši značku
+      * Vlastní styl ikon 
+      * Typ obsahu, který moc konkurence mít nebude (podcast, před a po, příběhy zákazníků, ukázky realizace služby krok za krokem, návrh domu ve 3D jako ukázka ve vlastním stylu zpracování atd.)
+      * Styl videa
+         * Úvodní část videa nebo konečná rozlučková část videa
+         * Zde bude hrát svou roli i úvodní znělka, jingle nebo zvuk, který se pro vaší značku bude opakovat 
+   * Všechny signature prvky by měly být ideálně rozepsané v DesignSystému vaší značky, kde byste měli provádět dlouhodobou správu. 
+* Úkoly: 
+   * 1. Definujte si své signature prvky, které vás budou dlouhodobě charakterizovat.
+   * 2. Vytvořte jejich vizuální ukázky, příklady použití, definujte vzory pro posty na sociální sítě, bannery a další části, aby vše působilo co nejvíce jednotným dojmem. Vytvořte si DesignSystém na pozadí, který to celé zastřeší. 
+   * 3. Dlouhodobě držte tento systém a jednou měsíčně kontrolujte své výstupy, zda plní původní zadání
+3.3 ⬛️ Vlastní fotografie/videa [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Tím, že AI výstupů přibývá, tak velký vliv bude mít pro vyhodnocení míra vlastních fotografií/videí. 
+   * Ano, je složité technicky rozpoznat, který výstup byl tvořen pomocí AI a který nikoli, na tom nyní pracuje velké množství nástrojů a zasahuje do toho i legislativa. Naproti tomu jdou i sociální sítě, kde snad skoro všechny nyní potřebují mít co nejvíce dat, aby dokázali poznat, co je realita a co nikoli. 
+   * Existuje hodně nástrojů, ale ty jsou stále nepřesné. Příkladem je: https://sightengine.com/detect-ai-generated-images 
+      * V ukázkách je vidět správné vyhodnocení, ale když jsem to testoval, tak to určitě nebylo 100% správně vyhodnoceno (ukázka1 a ukázka2)
+  
+
+
+
+  
+
+   * Čím více vlastních fotografií/videí budete dlouhodobě používat, tím lépe pro vás. Google zpřísňuje hodnocení počtu AI výstupů na doménu: 
+      * 09/2025 - více jak 80% AI obsahu = penalizace 
+      * 01/2026 - více jak 60% AI obsahu = penalizace 
+      * Budoucnost? Ano, bude se zpřísňovat
+* Úkoly: 
+   * 1. Definujte, jaké výstupy chcete mít tvořeny pomocí AI, a jaké části obsahu zůstanou původní nebo se budou vytvářet klasicky, tedy budou se fotit nebo natáčet. 
+   * 2. Zkontrolujte, jak to bude procentuálně tento poměr na webu, zda bude počet AI výstupů vs klasická tvorba aktuálně v poměru 60% ku 40%. Pokud by AI obsahu bylo více, jsou za to body dolů v rámci hodnocení. 
+3.4 ⬛️ Autentický obsah [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Vzhledem k bodu výše pak budou kladné body přiřazeny těm projektům, které mají vlastní autentický obsah. 
+   * Může se jednat o vlastní videa/fotografie: příběhy zákazníků, ukázky z realizace domu krok za krokem, podcasty, webináře, a mnoho dalších formátů. 
+   * Autenticita a transparentnost jsou slova, která se na workshopech s lidmi z Google opakovala opravdu často a chtějí aby projekty neztratily svou tvář. 
+* Úkoly: 
+   * 1. Definujte, který obsah je u vás ten nejvíce autentický. Pokud takový nemáte, snažte se udělat si analýzu konkurence a najděte svou cestu, která vás jako značku bude charakterizovat. 
+   * 2. Pravidelně tento obsah vytvářejte 
+3.5 ⬛️ Authority rank, lidé v projektu/firmě [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Mnohem větší tlak bude dáván na výstupy lidí, kteří jsou odborníci na dané téma. Pokud například já, jako Jan Kvasnička, napíšu článek na téma “Jak upéct dort”, tak se nikdy na první stránku v rámci vyhledávání nedostanu, jelikož Google ke mě nemá žádné signály, že bych byl cukrář nebo pekař nebo měl s tímto tématem něco společného. Pokud ale napíšu článek na téma “Co je to UX”, tak mám velkou pravděpodobnost, že se na tu první stranu dostanu, jelikož o mě má hodně signálů, že UX dělám a že mám výsledky. Tento ranking už nyní existuje. 
+   * Pokud podobné lidi budete mít na svém webu, kdo jsou autority, a jejich fotografie, vyjádření, hodnocení, názory a další obsah, budete prezentovat napříč webem, budete za to mít body nahoru. Pěkným příkladem může být https://www.denatura.cz/honza-kvasnicka/. 
+   * Pokud specialisty v týmu nemáte, nevadí, vytvářejte je postupně. Příklad e-shopu s kosmetikou: definujte si role, kdo se má pod jaký obsah podepsat nebo kdo má být u jakého typu obsahu vidět: 
+      * Alena - parfémy
+      * Lenka - vše k pleti
+      * Michaela - testování produktů a výzkum
+      * …
+      * Pokud toto budete dlouhodobě dodržovat, dostanete body nahoru za to, že tito lidé u vás pracují, jsou tam dlouhodobě, budou vnímání jako osobnost, autorita, v rámci vašeho projektu. 
+   * Google chce, aby co nejvíce zůstali prezentování reální lidé, nikoli AI generated lidé. Pokud je takto budete prezentovat i na sítích a na dalších místech, jsou to pro vás body navíc, jelikož Google si to vše spojí. 
+   * Příklady: 
+      * Vyjádření specialisty na detailu produktu (screen)
+      * Tip pro ostatní od kuchaře na detailu produktu (screen)
+  
+
+  
+
+* Úkoly: 
+   * 1. Definujte si lidi v týmu, které můžete prezentovat na webu
+   * 2. Určete jim roli, jakou na webu a v rámci komunikace značky mají mít. 
+   * 3. Dělejte si dlouhodobou kontrolu, že to tak stále děláte. 
+3.6 ⬛️ Příběh značky/O nás [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Jakýkoliv co nejvíce autentický obsah na webu bude znamenat body nahoru. Mezi něj patří stránky typu Příběh značky/O nás, kdy pokud tuto stránku na webu máte, tak za to máte body nahoru. Značky, které se jednoznačně prezentují, dávají do světa o sobě informace a nejsou anonymní, budou mít body nahoru. 
+   * Příklady pro vás: 
+      * https://www.denatura.cz/nas-pribeh/ 
+      * https://www.svihej.cz/nas-pribeh/
+      * https://www.bellarose.cz/o-nas/ 
+* Úkoly: 
+   * 1. Vytvořte vstupní stránku o vás, o vaší značce, a mějte na ní umístěný mediální obsah, videa, fotky, které vás budou charakterizovat. 
+   * 2. Dlouhodobě na tuto stránku přidávejte další obsah, aby si získali pravidelnou návštěvnost robotů. 
+3.7 ⬛️ Recenze a hodnocení [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Recenze se díky AI více fejkují, najednou jich vzniká opravdu hodně. Historické reference a hodnocení budou mít větší váhu, naučte se je více prezentovat. 
+   * Nové reference budou mít velkou váhu na portálech třetích stran a pokud se je z tama naučíte využívat u sebe na webu (heuréka, Zboží, Mapy, Google, Facebook, atd.). Bohužel vlastní reference a hodnocení budu mít sníženou váhu, především pokud jsou jen textové, i takové mohou být dopady AI. 
+      * Příkladem může být pruh posledních hodnocení z podobných portálů (screen)
+  
+
+   * Snažte se vytvářet se zákazníky či klienty fotografie, videa, UGC obsah, který je hodně autentický a který by vám mohl opravdu hodně pomoci. Na tom budou recenze ve velkém stát. 
+      * Video recenze na detailu produktu (screen1 a screen2)
+      * Příběhy zákazníků (screen)
+      * Před a po hodnocení (screen)
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+* Úkoly: 
+   * 1. Určete si, jak u vašeho projektu můžete ještě více získávat hodnocení a reference, a jak s nimi pak budete pracovat. 
+   * 2. Určete, kde všude budou na webu a následně v rámci marketingu využity. 
+3.8 ⬛️ Certifikace, platební metody, možnosti dopravy, … [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * I drobné prvky, jako jsou certifikace, členství v asociacích nebo různé odznaky (badge), nyní dostávají větší váhu. Pokud je na webu vhodně prezentujete (nejčastěji v patičce a na obsahových stránkách), získáte za ně od Google body navíc.
+   * Můžete využívat:
+      * https://www.apek.cz/
+      * https://www.spolecenskaodpovednost.cz/ 
+      * atd. 
+   * Stejně tak výpis log platebních bran nebo dopravců v patičce má svůj vliv (screen)
+  
+
+* Úkoly: 
+   * 1. Zvažte, zda ve vašem oboru jsou certifikace nebo důvěryhodné asociace, kterých byste měli být členem. 
+3.9 ⬛️ Unikátní textace [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Zde se jedná především o hodnocení jakékoliv vstupní stránky, kdy pokud ta má unikátní obsah, který není duplicitní s jinými weby nebo vstupními stránkami, tak taková stránka získává body nahoru. Ano, toto je klasika v rámci SEO, ale ten efekt je vyšší, než tomu bývalo. 
+   * Tím, že hodně projektů generuje ve velkém obsah skrze AI, tak vzniká hodně obecných textů nebo duplicitních textů, a ten, který bude mít více unikátní nebo praktický obsah, tak bude vyhrávat. 
+   * Celkově se hodnotí i odbornost, znalost v daném oboru, propracovanost obsahu, což je opět něco, co známe roky, jen to má větší vliv. 
+* Úkoly: 
+   * 1. Vytvořte si dlouhodobou strategii, jak pracovat s obsahem tak, abyste měli tvorbu unikátního obsahu v rámci vašich procesů. 
+   * 2. Všechny vstupní stránky vyhodnocujte, abyste věděli, jak u vás tento unikátní obsah funguje a zda vám přináší návštěvnost nebo jak plní další KPI, která máte definována. 
+3.10 ⬛️ FAQ [Jméno osoby] - UNDEFINED - Nezadáno
+* Zadání:
+   * Velký vliv na důvěryhodnost mají odpovědi na konkrétní otázky zákazníků okolo daného produktu nebo služby. Pokud tedy na svém webu máte sekci FAQ, tak máte ve velkém plusové body. 
+   * Tím na první dobrou návštěvníkovi i robotovi ukazujete, že produktům rozumíte. Snažte se mít FAQ sekci i na detailu produktu nebo služby, aby zde byla co nejvyšší míra relevance. 
+   * 2️⃣ V měsíci 04/2026 pak nastala změna v hodnocení, kdy vyšší efekt má FAQ v rámci kategorie, než na detailu produktu. To bude velká změna v rámci optimalizace. 
+   * Pokud nevíte, jak nasbírat dotazy k produktům nebo ke službě, tak doporučuji zavést tyto procesy: 
+      * 1) Zákaznická podpora zapisuje všechny dotazy na jedno místo, a z toho pak určujete, jaký by měl být obsah do sekce FAQ, co by měla být vlastní vstupní stránka, článek na blogu atd. Těch variant je zde hodně, jak s obsahem pracovat. 
+      * 2) Pravidelná kontrola referencí nebo recenzí, které vám lidé píšou. Můžete si stahovat všechny recenze na jedno místo a nechat AI vyhodnotit, jaké nejčastější otázky zákazníci mají. 
+      * 3) Dotazy pod reklamou je místo, na které se často zapomíná. Pod reklamou můžeme najít super připomínky nebo hodnocení produktu/služby, a často zde jsou i hodně relevantní otázky. Doporučuji zapisovat všechny tyto připomínky na jedno místo.  
+      * 4) Prodejna - pokud máte prodejnu nebo fungujete v offline světě, na eventech, různých akcích, tak je to ideální místo, kde sbírat zpětnou vazbu a nacházet správné otázky. 
+      * 5) Dotazníky a výzkum jsou další cestou, jak zjistit problémová místa vašich produktů nebo služeb. 
+   * Příkladem může být tento detail produktu (screen). 
+  
+
+* Úkoly: 
+   * 1. Definujte, jak budete s FAQ pracovat a kde je budete prezentovat. 
+   * 2. Naučte se sbírat otázky a definujte roli ve firmě, kdo na tyto otázky bude odpovídat a kdo je pak bude vkládat na web. 
+   * 3. Vyhodnocujte vliv sekce FAQ na celém webu. 
+
+
+4. Pravidla pro co nejlepší hodnocení obsahu pro AI overview a AI mode
+Pokud chcete mít u vlastního obsahu co nejlepší viditelnost v rámci AI Overview a AI mode, tak potřebujete myslet trochu jinak, než jsme v rámci SEO byli zvyklí. Ano, základ je hodně podobný, ale je tam spousta věcí jinak, především aby byl obsah pochopitelný pro LLM modely (Large Language Models – velké jazykové modely). 
+
+
+Tady vám nechci psát výčet možností, které se vám vypíší na dotaz “jak co nejlépe na webové stránce připravit obsah tak, abych měl co nejlepší hodnocení od Google pro AI overview a pro AI mode?” v ChatGPT, ale rád bych vám ukázal v praxi to, co víme z workshopů s lidmi z Google, že funguje. Vše jsou ukázky z e-shopu denatura.cz, kde jsem měl možnost si to ověřit a vidět výsledky v praxi. 
+
+
+Nejsou zde všechny možnosti pro co nejlepší viditelnost v rámci AI overview nebo AI mode. Vybral jsem hlavně to, co jsem měl možnost si otestovat a vyzkoušet v praxi. 
+
+
+4.1 ⬛️ Citace specialistů
+* Zadání:
+   * Velký vliv mají citace, názory nebo tipy specialistů. Snažte se mít v rámci authority ranku dlouhodobě budované specialisty a odborníky, jak jsem si psali výše, a dávejte do obsahu jejich vyjádření nebo odpovědi na důležité otázky.  
+   * Tyto citace vkládejte na detail služby, produktu, do landing pages, do detailu článků a na další pro vás důležité vstupní stránky. Nejen že si Google tento obsah správně převezme pro AI overview, ale budete za něj mít i body nahoru v rámci skóre kvality vstupní stránky. 
+   * 2️⃣Ideálně byste měli mít ve jméně člověka odkaz na jeho vstupní stránku, kde budou základní infromace o něm, viz například https://www.denatura.cz/honza-kvasnicka/. Toto je část, kterou ještě nemáme dotaženou správně a na které teprve budeme pracovat. 
+* Ukázky: 
+   * Pokud máte v týmu specialisty, prezentujte jejich důležité know-how odlišným způsobem na stránce (screen).
+  
+
+4.2 ⬛️ Specialista odpovídá na otázky
+* Zadání:
+   * Pokud už umíte prezentovat specialisty ve vašem projektu, přidejte nový prvek, kde budou přímo psát odpovědi na konkrétní dotazy. Toto je formát, který má opravdu velké dopady, jelikož přímo odpovídá na konkrétní otázku, a pokud je pod odpovědí podepsán někdo, kdo mý vysoký authoriry ranking, tak máte velkou pravděpodobnost, že se dostanete přímo do AI overview.  
+* Ukázky: 
+   * Dotaz i s citací/odpovědí od specialisty (screen).
+  
+
+4.3 ⬛️ FAQ
+* Zadání:
+   * Tuto sekci už jsme si popisovali výše: pokud máte v rámci obsahu konkrétní otázky a přímo na ně odpovídáte, tak je vysoká šance, že někdo tuto konkrétní otázku položí a vy se na ni pak zobrazíte v rámci AI overview. 
+   * Snažte se dlouhodobě mít co nejvíce odpovědí na různé otázky okolo vašich služeb a produktů. Znalostní báze vám dává vysokou důvěryhodnost. 
+   * 2️⃣ Jak jsme si říkali, aktuálně má vyšší efekt výpis FAQ v rámci kategorie nebo v článku než v rámci detailu produktu, doporučuji se na to zaměřit. Na detailu produktu by určitě měl výpis FAQ zůstat. 
+* Ukázky: 
+   * Příklad FAQ na detailu produktu (screen).
+  
+
+4.4 ⬛️ Věděli jste, že… / Tip od deNatury
+* Zadání:
+   * Jakékoliv speciální tipy, rady, obsah navíc, který právě působí jako by to byl ten obsah navíc, co nikdo jiný nemá, má poměrně velký vliv. V rámci obsahových stránek se snažte na každé pro vás důležité vstupní stránce mít něco, co upoutá větší pozornost a co není úplně obecně známý fakt, který se vyskytuje na spoustě dalších webů. Buďte jedni z prvních, kdo ten obsah má a podle toho jej označte. 
+   * Důležitá je jak obsahová odlišnost na stránce, tak i grafická. Pokud byste to měli jen tak vloženo do odstavec textu mezi další text, tak to ten kýžený efekt mít nebude.
+* Ukázky: 
+   * Snažíme se vybírat dlouhodobě ty nejvíce důležité informace a zvýrazňovat je skrze speciální sekce na stránce, například do sekce “Věděli jste, že…” (screen). 
+  
+
+* Druhá varianta, kterou využíváme, je “Tip od deNatury” (screen). 
+  
+
+4.5 ⬛️ Obsah sekcí na stránce
+* Zadání:
+   * Čím více máte strukturovaný obsah do sekcí, tím lépe pro hodnocení celé stránky i pro jednotlivé sekce. Velký vliv má správné uvození sekcí na stránce, například pokud máte článek, tak má mít prezentaci obsahu (rozcestníku) na začátku stránky, kde jsou odkazy formou kotvy na stránce. Díky tomu robot mnohem lépe ví, jaký obsah se kde nachází a jak vše na sebe navazuje. 
+* Ukázky: 
+   * Příkladem může být toto zpracování obsahu na detailu článku (screen). 
+  
+
+4.6 ⬛️ Vizuální odlišnost důležitých informací na stránce
+* Zadání:
+   * Pokud máte na stránce důležitý obsah, zvýrazněte jej graficky, dejte mu odlišení od ostatního obsahu, který tam máte. Může se jednat o jemné pozadí, ikonu nebo jiný grafický prvek. Díky tomu dáváte signál, že toto je obsah, který je důležitější než základní text na stránce. 
+   * 2️⃣V rámci posledního update tento efekt dostává vyšší prioritu, tedy hodně záleží, jak vypadá vaše základní vizuální prostředí, co jste graficky zvýraznili, a to, co bude výraznější, tak bude mít automaticky vyšší prioritu v rámci hodnocení obsahu. 
+* Ukázky: 
+   * Pěkným příkladem je zvýraznění obsahu jiným pozadím, kdy to ještě kombinujeme i s ikonou, která spadá pod naše signature prvky na stránce (screen).
+  
+
+4.7 ⬛️ Postupy krok za krokem
+* Zadání:
+   * Pokud máte v rámci obsahu postupy, dejte jim větší jednoznačnost tím, že jednotlivé kroky budou očíslované, každý krok bude mít svou fotografii, ukázku nebo video, aby měl návštěvník i robot co nejlepší kontext. 
+   * Tyto postupy se pak často umisťují do AI overview jako ukázka toho, jak daný proces může vypadat. 
+* Ukázky: 
+   * Na e-shopu máme dlouhé návody, jak s daným produktem pracovat, které obsahují fotografie nebo videa (screen).
+  
+
+* Postup s fotografií vedle sebe (screen).
+  
+
+* Využíváme i rychlé postupy bez fotografií, které jsou ale výrazné v rámci obsahu stránky (screen). 
+  
+
+* I klasické postupy jako základní text, jen do číslovaného seznamu, vždy podle důležitosti na stránce (screen). 
+  
+
+4.8 ⬛️ Odrážky s důležitými informacemi o produktu/službě
+* Zadání:
+   * Obecně platí, že styl odrážkových výpisů mají LLM modely hodně rády, jelikož je to něco, co sami využívají a dost odpovědí dávají právě v krátkých odrážkách. Pokud jim takto obsah připravíte, je vyšší pravděpodobnost, že jej pak i takto přeberou. 
+* Ukázky: 
+   * Snažte se odpovídat na otázky ohledně vašich produktů/služeb (screen).
+
+
+  
+
+4.9 ⬛️ Důvěryhodný zdroj
+* Zadání:
+   * Buďte důvěryhodný zdroj, případně uveďte jiné zdroje, odkud jste čerpali znalosti. Díky tomu dostanete body nahoru, jelikož jste transparentní, dáváte do obsahu něco více ze sebe, ale i něco, co je obecně platné. 
+* Ukázky: 
+   * Pokud jste čerpali z již existujících zdrojů, uveďte z jakých (screen).
+  
+
+4.10 ⬛️ Vlastní studie, statistiky, čísla a zase ta čísla
+* Zadání:
+   * 2️⃣AI má ráda statistiky, čísla, vyhodnocení, shrnutí, vlastní studie, celkově obsah, který je na první dobrou hodně zajímavý a dokáže návštěvníkovi odpovědět na jeho otázky. 
+   * 2️⃣Snažte se celkově zamyslet nad tím, zda podobný obsah umíte vytvořit, případně jak jej vhodně dostat k vám na web, klidně i pokud uvedete vlastní zdroje a napíšete k tomu vlastní vyjádření. 
+* Ukázky: 
+   * 2️⃣Vytvořili jsme vlastní zákaznickou studii, kterou pak prezentujeme navene (screen). 
+  
+
+
+
+4.11 ⬛️ Seriály nebo navazující obsah tvořený se specialistou
+* Zadání:
+   * 2️⃣Pokud máte ve svém týmu specialistu, vyberte vaše stěžejní téma, a společně s ním jej zpracujte jako seriál nebo navazující články. Díky tomu mu na toto téma vytváříte větší vliv v rámci jeho autority. 
+* Ukázky: 
+   * 2️⃣Pěkným příkladem je Rumový kompas na e-shopu Alkohol.cz, kde je 17 článků specialisty na této téma. Další specialista pak zpracovat Whisky kompas a Gin kompas. 
+  
+
+
+
+5. Doporučené nástroje 
+* Tvorba aplikací, webu a kódu
+   * https://lovable.dev/ 
+   * https://www.macaly.com/
+   * https://www.pencil.dev/ 
+   * https://cursor.com/ 
+   * https://base44.com/ 
+   * https://antigravity.google/ 
+* Data Analyst
+   * https://julius.ai/ 
+* Optimization engine
+   * https://antigravity.google/
