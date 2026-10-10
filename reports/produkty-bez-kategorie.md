@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-10 21:39 UTC.
+Kontrola z 2026-10-10 21:43 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -24,6 +24,12 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
 | `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
 | `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
+
+## solight — 1 ks
+
+| Kód | Produkt |
+|---|---|
+| `DSP-TF01` | Solight turbo fukár |
 
 ## wiim — 24 ks
 
