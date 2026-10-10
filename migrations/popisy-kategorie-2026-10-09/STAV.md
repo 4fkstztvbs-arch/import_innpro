@@ -26,3 +26,6 @@ Súbory *-2026-10-10.csv nahrádzajú *-2026-10-09.csv (obsahujú všetko z 9.10
 - Projektory (66), Kávovary a káva (221), Soundbary (50), Chladničky (111), Varné dosky (58), Monitory (12), Satelitné (67), Fritézy (136), Športové vybavenie (142): CSV *-2026-10-10 čaká na import.
 - Fotovoltaika: 1. časť (274 z 546 produktov): CSV čaká na import, zvyšok (drobný materiál, káble) sa píše.
 - Fotovoltaika kompletne (546 produktov): import-fotovoltaika-kompletne-2026-10-10.csv nahrádza 1. časť (274), čaká na import. 37 produktov nie je v našich feedoch (bez popisu).
+
+## BT reproduktory 2026-10-10
+- audio-technika-prenosne-bluetooth-reproduktory: 44 produktov, import-audio-technika-prenosne-bluetooth-reproduktory-2026-10-10.csv, čaká na import (14 produktov, napr. Sonos, nie je v žiadnom feede).
