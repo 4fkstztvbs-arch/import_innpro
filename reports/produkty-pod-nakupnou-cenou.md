@@ -1,6 +1,6 @@
 # Produkty pod nákupnou cenou (skryté)
 
-Kontrola z 2026-10-10 01:26 UTC.
+Kontrola z 2026-10-10 08:28 UTC.
 
 Týchto **201** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
 na každom predanom kuse prerobili. Sú preto nastavené ako **skryté** a v e-shope sa
