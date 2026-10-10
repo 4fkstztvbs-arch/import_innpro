@@ -29,3 +29,6 @@ Súbory *-2026-10-10.csv nahrádzajú *-2026-10-09.csv (obsahujú všetko z 9.10
 
 ## BT reproduktory 2026-10-10
 - audio-technika-prenosne-bluetooth-reproduktory: 44 produktov, import-audio-technika-prenosne-bluetooth-reproduktory-2026-10-10.csv, čaká na import (14 produktov, napr. Sonos, nie je v žiadnom feede).
+
+## Slúchadlá 2026-10-10
+- sluchadla: 459 produktov (+1 komunikačná súprava bez feedu), import-sluchadla-2026-10-10.csv, čaká na import.
