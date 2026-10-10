@@ -18,3 +18,4 @@ Pravidlá: bez nevýhod/spotreby/energetickej triedy, bez zmienok o feede a o to
 
 ## Dávka 2026-10-10
 - Monitory (7), Projektory (4), Športové vybavenie (136): CSV hotový, čaká na import.
+- Satelitné prijímače (66), Fritézy a hrnce (134): CSV hotový, čaká na import (10.10.).
