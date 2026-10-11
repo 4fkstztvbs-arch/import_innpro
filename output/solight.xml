@@ -3163,7 +3163,10 @@ Balenie: sáčok</p>
   <MINIMAL_AMOUNT>10</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718022808</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>2769</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sáčok - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ssv5310e.jpg?v2</IMAGE>
@@ -8124,10 +8127,10 @@ Panel ponúka svetelný tok 450 lm pri spotrebe len 6 W, čo zaisťuje efektívn
 <HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_4.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_5.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_a.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_1.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_2.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_4.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -10118,10 +10121,10 @@ Osvetlenie Star ponúka nielen moderné funkcie, ale aj vysokú účinnosť a dl
 <HEUREKA_CATEGORY_ID>1663</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_2.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -10976,7 +10979,10 @@ Univerzálna nabíjačka pre Li-Ion, LiFePO4 a Ni-MH/CD batérie rôznych veľko
 <UNIT>ks</UNIT>
 <CODE>DN27</CODE>
 <EAN>8592718026424</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka batérií Li-Ion, LiFePO4, Ni-MH/CD, AA, AAA, 18650, 2000mA, 2 kanály, LCD displej - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn27.jpg?v2</IMAGE>
@@ -13010,9 +13016,9 @@ Panel využíva backlit systém, kde sú LED diódy umiestnené na zadnej strane
 <IMAGES>
   <IMAGE description="Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo20-w.jpg?v2</IMAGE>
   <IMAGE description="Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo20-w_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo20-w_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo20-w_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo20-w_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo20-w_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo20-w_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED svetelný panel Backlit, 40W, 3600lm, 4000K, Lifud, 60x60cm, 3 roky záruka, bílá barva - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo20-w_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -16810,10 +16816,10 @@ S príkonom 12 W a svetelným tokom 900 lm poskytuje panel dostatok svetla pre b
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140_5.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 12W, 900lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd140_a.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -17238,7 +17244,10 @@ Táto mikroprocesorom riadená nabíjačka ponúka 4 samostatné nabíjacie kan�
 <UNIT>ks</UNIT>
 <CODE>DN25</CODE>
 <EAN>8592718015886</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka s LCD displejom, AC 230V, 450mA, 4 kanály, AA/AAA, riadená mikroprocesorom - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn25.jpg?v2</IMAGE>
@@ -24625,7 +24634,11 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálnym 
 <UNIT>ks</UNIT>
 <CODE>CA01B</CODE>
 <EAN>8592718023690</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b.jpg?v2</IMAGE>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b_1.jpg?v2</IMAGE>
@@ -26163,7 +26176,7 @@ Svietidlo ponúka vysokú svetelnú účinnosť s užitočným svetelným tokom 
   <IMAGE description="Solight LED vonkajšie osvetlenie guľaté, 13W, 910lm, 4000K, IP54, 17cm - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo745_1.jpg?v2</IMAGE>
   <IMAGE description="Solight LED vonkajšie osvetlenie guľaté, 13W, 910lm, 4000K, IP54, 17cm - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo745_2.jpg?v2</IMAGE>
   <IMAGE description="Solight LED vonkajšie osvetlenie guľaté, 13W, 910lm, 4000K, IP54, 17cm - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo745_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vonkajšie osvetlenie guľaté, 13W, 910lm, 4000K, IP54, 17cm - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo745_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED vonkajšie osvetlenie guľaté, 13W, 910lm, 4000K, IP54, 17cm - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo745_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -28589,10 +28602,10 @@ S príkonom 18 W a svetelným tokom 1530 lm poskytuje panel dostatok svetla pre 
 <HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142_5.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd142_a.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -28740,10 +28753,10 @@ Panel ponúka vysoký svetelný tok 1800 lm pri spotrebe iba 24 W, čo zaručuje
 <HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144_5.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 24W, 1800lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd144_a.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -30070,7 +30083,7 @@ LED pásik je možné jednoducho skrátiť podľa potreby a zvyšné časti ďal
   <IMAGE description="Solight LED svetelný pás s testrom, 5m, sada s 12V adaptérom, 4,8W/m, IP65, studená biela - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm50-65t_1.jpg?v2</IMAGE>
   <IMAGE description="Solight LED svetelný pás s testrom, 5m, sada s 12V adaptérom, 4,8W/m, IP65, studená biela - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm50-65t_2.jpg?v2</IMAGE>
   <IMAGE description="Solight LED svetelný pás s testrom, 5m, sada s 12V adaptérom, 4,8W/m, IP65, studená biela - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm50-65t_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED svetelný pás s testrom, 5m, sada s 12V adaptérom, 4,8W/m, IP65, studená biela - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm50-65t_a.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED svetelný pás s testrom, 5m, sada s 12V adaptérom, 4,8W/m, IP65, studená biela - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm50-65t_e.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -31578,10 +31591,10 @@ LED mini panel ponúka vysokú svetelnú účinnosť s príkonom iba 12 W a svet
 <HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171_2.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, prisazený, 12W, 900lm, 3000K, 4000K, 6000K, štvorcový - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd171_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -36590,7 +36603,12 @@ Inštaluje sa do otvoru 50 mm v pracovnej doske. Modul je napájaný sieťovým 
 <UNIT>ks</UNIT>
 <CODE>V50</CODE>
 <EAN>8592718027186</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, max. AC 600V/600A, max. DC 600V, test diódy, bzučiak, odpor, teplota - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v50.jpg?v2</IMAGE>
@@ -51216,24 +51234,40 @@ Prívod je navrhnutý na maximálne zaťaženie 2300 W, tzn. prúdové zaťažen
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet zásuviek]]></NAME>
-    <VALUE><![CDATA[3]]></VALUE>
+    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
+    <VALUE><![CDATA[IP20]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Napätie (V)]]></NAME>
-    <VALUE><![CDATA[230 V]]></VALUE>
+    <NAME><![CDATA[Počet zásuviek]]></NAME>
+    <VALUE><![CDATA[3]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
     <VALUE><![CDATA[Predlžovací prívod]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Bezdrôtové nabíjanie]]></NAME>
+    <NAME><![CDATA[Prierez (mm2)]]></NAME>
+    <VALUE><![CDATA[1]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Vypínač]]></NAME>
     <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálna záťaž (W)]]></NAME>
+    <VALUE><![CDATA[2300]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Uzemnený]]></NAME>
     <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bezdrôtové nabíjanie]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Napätie (V)]]></NAME>
+    <VALUE><![CDATA[230 V]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Dĺžka (m)]]></NAME>
@@ -51244,24 +51278,8 @@ Prívod je navrhnutý na maximálne zaťaženie 2300 W, tzn. prúdové zaťažen
     <VALUE><![CDATA[čierna]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
-    <VALUE><![CDATA[IP20]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Prierez (mm2)]]></NAME>
-    <VALUE><![CDATA[1]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
     <NAME><![CDATA[USB nabíjanie]]></NAME>
     <VALUE><![CDATA[Nie]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Vypínač]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálna záťaž (W)]]></NAME>
-    <VALUE><![CDATA[2300]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
@@ -52269,7 +52287,11 @@ Tradičné biele prevedenie s klasickým vzhľadom sa hodí do každej domácnos
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718033101</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>5879</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight WIFI zásuvka s meraním spotreby - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dty01wifi.jpg?v2</IMAGE>
@@ -53748,8 +53770,8 @@ Sviečky ponúkajú jednoduché ovládanie s možnosťou zapnutia, vypnutia aleb
     <VALUE><![CDATA[Áno]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 27.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 27.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 29.10.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 29.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>11.60</WEIGHT></LOGISTIC>
@@ -53759,7 +53781,7 @@ Sviečky ponúkajú jednoduché ovládanie s možnosťou zapnutia, vypnutia aleb
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight kúpeľňový radiátor 500W | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight kúpeľňový radiátor 500W – dostupné od 27.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight kúpeľňový radiátor 500W – dostupné od 29.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Drevený LED betlehem Solight 1V275, 25 cm, 5 LED, 2 × AA]]></NAME>
@@ -54570,10 +54592,10 @@ Krytie IP65 zabezpečuje, že svietidlo je prachotesné a vodotesné, takže je 
 <HEUREKA_CATEGORY_ID>1663</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001_2.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED osvetlenie prachotesné, IP65, 60W, 7800lm, 4000K, 155cm, Lifud, 5 rokov záruka - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wpt-60w-001_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -57185,6 +57207,108 @@ LED pásik ponúka príkon 8W/m a svetelný tok až 600lm/m, čo zabezpečuje do
 <META_DESCRIPTION><![CDATA[Solight flexo šnúra, 3x 1,5mm2, gumová, čierna, 5m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Predlžovací prívod na každodenné použitie Praktický biely predlžovací kábel s dĺžkou 2 metre a tromi zásuvkami umožňuje priviesť elektrickú energiu tam, kde nie je k dispozícii pevná zásuvka.…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<p><b>Predlžovací prívod na každodenné použitie</b><br>
+Praktický biely predlžovací kábel s dĺžkou 2 metre a tromi zásuvkami umožňuje priviesť elektrickú energiu tam, kde nie je k dispozícii pevná zásuvka. Podsvietený vypínač umožňuje pohodlné ovládanie všetkých pripojených zariadení. Ideálny pre domáce aj kancelárske využitie.</p>
+<p><b>Bezpečný a spoľahlivý výkon</b><br>
+Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaženie 16 A pri napätí v sieti 230 V~. Zabezpečuje stabilný prenos energie pre bežné elektrospotrebiče. Zásuvky sú vybavené detskými poistkami pre maximálnu bezpečnosť.</p>
+<UL>
+<LI>počet zásuvek: 3</LI>
+<LI>prieřez vodičov: 3 x 1 mm2</LI>
+<LI>typ kábla: PVC H05VV-F 3G</LI>
+<LI>uhlová vidlica</LI>
+<LI>farba: biela</LI>
+<LI>dĺžka: 2 m</LI>
+<LI>max. 3680 W, 16 A / 230 V~</LI>
+<LI>vypínač</LI>
+</UL><p><a href="https://www.solight.sk/documents/pp11_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/pp11_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/pp11_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/pp11_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/predlzovacie-privody/">Predlžovacie prívody</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>PP11</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
+<EAN>8595092107086</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody]]></DEFAULT_CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/pp11.jpg?v2</IMAGE>
+  <IMAGE description="Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/pp11_1.jpg?v2</IMAGE>
+  <IMAGE description="Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/pp11_2.jpg?v2</IMAGE>
+  <IMAGE description="Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/pp11_a.jpg?v2</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Prierez (mm2)]]></NAME>
+    <VALUE><![CDATA[1]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Dĺžka (m)]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Napätie (V)]]></NAME>
+    <VALUE><![CDATA[230 V]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálna záťaž (W)]]></NAME>
+    <VALUE><![CDATA[2300]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
+    <VALUE><![CDATA[IP20]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Vypínač]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uzemnený]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[USB nabíjanie]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[biela]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet zásuviek]]></NAME>
+    <VALUE><![CDATA[3]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bezdrôtové nabíjanie]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
+    <VALUE><![CDATA[Predlžovací prívod]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.28</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>5.40</PRICE_VAT>
+<PURCHASE_PRICE>2.96</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely,… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod, 5 zásuviek, biely, 3m]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Predlžovací prívod na každodenné použitie Praktický biely predlžovací kábel s dĺžkou 3 metre a piatimi zásuvkami umožní priviesť elektrickú energiu tam, kde nie je k dispozícii pevná zásuvka. Ideálny…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>Predlžovací prívod na každodenné použitie</b><br>
@@ -57330,9 +57454,9 @@ Osvetlenie Grey ponúka maximálny svetelný tok až 3360 lm a vysoký index pod
 <IMAGES>
   <IMAGE description="Solight LED osvetlenie s diaľkovým ovládačom Grey, 48W, 3360lm, 38cm, zmena chromatickosti, stmievateľné - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo8001.jpg?v2</IMAGE>
   <IMAGE description="Solight LED osvetlenie s diaľkovým ovládačom Grey, 48W, 3360lm, 38cm, zmena chromatickosti, stmievateľné - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo8001_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED osvetlenie s diaľkovým ovládačom Grey, 48W, 3360lm, 38cm, zmena chromatickosti, stmievateľné - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo8001_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED osvetlenie s diaľkovým ovládačom Grey, 48W, 3360lm, 38cm, zmena chromatickosti, stmievateľné - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo8001_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED osvetlenie s diaľkovým ovládačom Grey, 48W, 3360lm, 38cm, zmena chromatickosti, stmievateľné - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo8001_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED osvetlenie s diaľkovým ovládačom Grey, 48W, 3360lm, 38cm, zmena chromatickosti, stmievateľné - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo8001_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED osvetlenie s diaľkovým ovládačom Grey, 48W, 3360lm, 38cm, zmena chromatickosti, stmievateľné - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo8001_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED osvetlenie s diaľkovým ovládačom Grey, 48W, 3360lm, 38cm, zmena chromatickosti, stmievateľné - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo8001_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -72211,8 +72335,7 @@ Rozmer hlavy svetla 100 x 55 mm a základne 60 x 25 mm zabezpečuje kompaktné p
   <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 1x GU10, biela - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8900-W.jpg?v2</IMAGE>
   <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 1x GU10, biela - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8900-W_1.jpg?v2</IMAGE>
   <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 1x GU10, biela - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8900-W_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 1x GU10, biela - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8900-W_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 1x GU10, biela - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8900-W_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 1x GU10, biela - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8900-W_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -76562,8 +76685,6 @@ Svietidlo je dodávané bez svetelného zdroja, čo vám dáva možnosť zvoliť
   <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 3x GU10, 39cm, biela - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8902-W.jpg?v2</IMAGE>
   <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 3x GU10, 39cm, biela - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8902-W_1.jpg?v2</IMAGE>
   <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 3x GU10, 39cm, biela - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8902-W_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 3x GU10, 39cm, biela - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8902-W_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight GU10 bodové osvetlenie Enzo, 3x GU10, 39cm, biela - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/WO8902-W_4.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -78463,7 +78584,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <UNIT>ks</UNIT>
 <CODE>V52</CODE>
 <EAN>8592718041564</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
@@ -80266,7 +80392,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718041557</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, 20 - 200A - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v51.jpg?v2</IMAGE>
@@ -82164,8 +82295,8 @@ Tento ventilátor s časovačom je ideálny pre sprchy, kúpeľne, kuchyne a WC.
     <VALUE><![CDATA[24 mesiacov]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 4.12.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 4.12.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 27.11.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 27.11.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.45</WEIGHT></LOGISTIC>
@@ -82175,7 +82306,7 @@ Tento ventilátor s časovačom je ideálny pre sprchy, kúpeľne, kuchyne a WC.
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight ventilátor do kúpeľne s časovačom | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight ventilátor do kúpeľne s časovačom – dostupné od 4.12.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight ventilátor do kúpeľne s časovačom – dostupné od 27.11.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight profesionálny multimeter]]></NAME>
@@ -86168,8 +86299,8 @@ Kompatibilita s modelmi <b>V7, V8, V10, V11, V12, V15, Gen5</b><br>
   <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj.jpg?v2</IMAGE>
   <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj_1.jpg?v2</IMAGE>
   <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight držiak príslušenstva pre Dyson V7, V8, V10, V11, V12, V15 (2 ks) - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv12zj_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -88021,9 +88152,6 @@ Kompatibilita: <b>V6, V7, V8, V10, V11</b><br>
 <IMAGES>
   <IMAGE description="Solight rotačná kefa pre DysonV6, V7, V8, V10, V11 - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv8cbs.jpg?v2</IMAGE>
   <IMAGE description="Solight rotačná kefa pre DysonV6, V7, V8, V10, V11 - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv8cbs_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight rotačná kefa pre DysonV6, V7, V8, V10, V11 - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv8cbs_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight rotačná kefa pre DysonV6, V7, V8, V10, V11 - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv8cbs_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight rotačná kefa pre DysonV6, V7, V8, V10, V11 - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dsp-dyv8cbs_4.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -102559,8 +102687,8 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 27.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 27.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 29.10.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 29.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -102570,7 +102698,7 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight digitálny časový spínač | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight digitálny časový spínač – dostupné od 27.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight digitálny časový spínač – dostupné od 29.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
   <SHOPITEM>
     <CODE>1V215</CODE>
@@ -102673,13 +102801,6 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
   <SHOPITEM>
     <CODE>OR01</CODE>
     <EAN>8592718032814</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>PP11</CODE>
-    <EAN>8595092107086</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
