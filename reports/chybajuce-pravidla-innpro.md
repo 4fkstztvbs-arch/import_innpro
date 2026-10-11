@@ -1,8 +1,8 @@
 # Chýbajúce pravidlá zaradenia — innpro
 
-Kontrola z 2026-10-10 21:55 UTC.
+Kontrola z 2026-10-11 10:25 UTC.
 
-**3 ciest bez pravidla, 4 produktov bez kategórie.**
+**4 ciest bez pravidla, 5 produktov bez kategórie.**
 
 Doplň ich do `data/kategorie/innpro.json` — kľúč je cesta z feedu, hodnota uzol
 stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
@@ -10,5 +10,6 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
 | `IT príslušenstvo > Monitory` | 2 | Monitor DarkFlash 9,2" IPS V92 (čierny); Monitor Darkflash 9,2" IPS V92 (biely) |
+| `Náradie > Stavebné náradie` | 1 | Deli Tools sponky typu T EDL238010, 2000 kusov |
 | `Príslušenstvo GSM > Lokátory Bluetooth` | 1 | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
 | `Foto a video > Pamäťové karty` | 1 | Pamäťová karta GODOX microSD 4 GB |

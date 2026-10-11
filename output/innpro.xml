@@ -62845,6 +62845,9 @@ Rozmery
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>060290</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6932172627706</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Puzdrá na mobilné telefóny]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
@@ -82509,180 +82512,6 @@ IP66
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vodotesné puzdro pre relé Sonoff IP66 | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Vodotesné puzdro pre relé Sonoff IP66 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Stylus na hladké písanie s LED indikátormi (aktívny) biely]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Aktívne pero Baseus Stylus s indikátorom batérie (biele) Popustite uzdu svojej kreativite a kreslite ako profesionál! Stylusové pero od spoločnosti Baseus vám umožní pohodlné ovládanie iPadu a umožní…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<div class="long_desc">
-<h3>
-Aktívne pero Baseus Stylus s indikátorom batérie (biele)
-</h3>
-<p>
-Popustite uzdu svojej kreativite a kreslite ako profesionál! Stylusové pero od spoločnosti Baseus vám umožní pohodlné ovládanie iPadu a umožní vám kresliť a písať ako na skutočný papier. Výrobok je plne kompatibilný s väčšinou iPadov, vyniká robustným dizajnom a podporuje magnetické nabíjanie. Jeho ovládanie si môžete prispôsobiť - stylus ponúka až 14 funkcií nastavenia. Je veľmi presný a pracuje bez oneskorenia, a keď sa rozpozná, obrazovka automaticky prestane reagovať na vašu ruku, takže môžete voľne písať a kresliť. V balení nájdete vymeniteľný hrot.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/-Baseus/SXBC060402/3.jpg"/>
-<h3>
-Presný výkon
-</h3>
-<p>
-Stylus vyniká vysokou presnosťou a výnimočne silným signálom - to vďaka hrotu so zlatou povrchovou úpravou. Vďaka tomu si môžete vychutnať dokonalú reprodukciu vašich pohybov v akomkoľvek uhle nastavenia. Navyše tablet automaticky rozpozná činnosť stylusu. Vtedy prestane reagovať na dotyk vašej ruky, takže môžete voľne kresliť a písať bez obáv, že niečo omylom prepnete alebo vypnete.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/-Baseus/SXBC060402/9.jpg"/>
-<h3>
-Pohodlné používanie
-</h3>
-<p>
-Zariadenie Baseus Smooth Writing 2 sa pripája k aplikácii Baseus APP a ponúka až 14 rôznych nastavení na rýchle používanie tabletu. Jediným kliknutím môžete zmeniť jas, hlasitosť, urobiť fotografiu alebo snímku obrazovky a prejsť na ďalšiu stránku. Nastavenie stylusu v správnom uhle k tabletu vám pomôže pohodlne nastaviť hrúbku čiar.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/-Baseus/SXBC060402/2.jpg"/>
-<h3>
-Jednoduché nabíjanie
-</h3>
-<p>
-Stylus Baseus je dokonalou náhradou za originálnu ceruzku Apple Pencil. Výrobok je vybavený portom USB-C, ktorý umožňuje rýchle doplnenie energie. Jedno nabitie zaručuje až 11 hodín používania alebo 12 mesiacov pohotovostného režimu. Informácie o stave nabitia vám poskytne príslušný počet svietiacich LED diód.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/-Baseus/SXBC060402/5.jpg"/>
-<h3>
-Robustná konštrukcia
-</h3>
-<p>
-Vo výrobku sú použité vysokokvalitné materiály. Jadro stylusu bolo potiahnuté zlatom, čo zaručuje stabilnú a spoľahlivú prevádzku bez oneskorenia. Vyniká odolnosťou, je mimoriadne ľahký a bol povrchovo upravený protišmykovým materiálom príjemným na dotyk, ktorý poskytuje bezkonkurenčný komfort, takže ho môžete voľne používať celé hodiny. V balení nájdete náhradnú špičku.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/-Baseus/SXBC060402/4.jpg"/>
-<h3>
-Súčasťou balenia je:
-</h3>
-<ul>
-<li>
-Stylus pero x 1
-</li>
-<li>
-Hrot stylusu x 1
-</li>
-<li>
-Kábel USB-C x 1
-</li>
-</ul>
-<div class="table-wrapper">
-<table>
-<tbody>
-<tr>
-<th>
-Výrobca
-</th>
-<td>
-Baseus
-</td>
-</tr>
-<tr>
-<th>
-Číslo produktu
-</th>
-<td>
-SXBC060402
-</td>
-</tr>
-<tr>
-<th>
-Typ pripojenia
-</th>
-<td>
-Bezdrôtové pripojenie/prostredníctvom aplikácie
-</td>
-</tr>
-<tr>
-<th>
-Kapacita batérie
-</th>
-<td>
-130 mAh
-</td>
-</tr>
-<tr>
-<th>
-Doba prevádzky
-</th>
-<td>
-11 h na jedno nabitie/ 12 mesiacov v pohotovostnom režime
-</td>
-</tr>
-<tr>
-<th>
-Materiál
-</th>
-<td>
-ABS + PC
-</td>
-</tr>
-<tr>
-<th>
-Kompatibilita
-</th>
-<td>
-iPad mini série 6, Air 4, 5 a iPad Pro série 0-6
-</td>
-</tr>
-<tr>
-<th>
-Rozmery
-</th>
-<td>
-165 x 9 mm
-</td>
-</tr>
-<tr>
-<th>
-Hmotnosť
-</th>
-<td>
-13.5 g
-</td>
-</tr>
-<tr>
-<th>Kompatibilita</th>
-<td>ipad (6,7,8,9,10, mini 5. mini 6, air 3, air 4, air 5, Pro, Pro 3, Pro 2, Pro 4, Pro 5, Pro 6)</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=68788_29982_pol_027d442cf62e685baf5b040afee77b2f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tablety-4/">Tablety</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[baseus]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>044430</CODE>
-<EAN>6932172624606</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Stylus na hladké písanie s LED indikátormi (aktívny) biely - obrázok 1">https://b2b.innpro.sk/hpeciai/1f25068486461cf2eb9cfb6cdfb146c0/29982_1.jpg</IMAGE>
-  <IMAGE description="Stylus na hladké písanie s LED indikátormi (aktívny) biely - obrázok 2">https://b2b.innpro.sk/hpeciai/a7ddd537b42a27bb12315b45baeb7a22/29982_2.jpg</IMAGE>
-  <IMAGE description="Stylus na hladké písanie s LED indikátormi (aktívny) biely - obrázok 3">https://b2b.innpro.sk/hpeciai/f84e261b24e705c5f00e5c87d06dd68a/29982_3.jpg</IMAGE>
-  <IMAGE description="Stylus na hladké písanie s LED indikátormi (aktívny) biely - obrázok 4">https://b2b.innpro.sk/hpeciai/7834ff153ac2d72399a0951e9a30b6bf/29982_4.jpg</IMAGE>
-  <IMAGE description="Stylus na hladké písanie s LED indikátormi (aktívny) biely - obrázok 5">https://b2b.innpro.sk/hpeciai/7721398cad18970191fa0281e27d03da/29982_5.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[strieborná]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>18.90</PRICE_VAT>
-<PURCHASE_PRICE>12.66</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Stylus na hladké písanie s LED indikátormi… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Stylus na hladké písanie s LED indikátormi (aktívny) biely od baseus – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Zámok vrtule Sunnylife pre DJI Mini 3 (čierny) MM3-SJ552]]></NAME>
@@ -102460,9 +102289,6 @@ USB-C na USB-C
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>053576</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6941237111609</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble]]></CATEGORY>
@@ -144016,7 +143842,7 @@ Dancing Circle
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>4.70</PRICE_VAT>
+<PRICE_VAT>3.50</PRICE_VAT>
 <PURCHASE_PRICE>2.44</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -161486,9 +161312,6 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>063739</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6920075740981</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
@@ -166716,6 +166539,9 @@ Obsah balenia:
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>067770</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>5906168437120</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY>
@@ -193167,9 +192993,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>071040</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>4823089313801</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Chovateľské potreby > Venčenie a transport]]></CATEGORY>
@@ -205417,99 +205240,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Robotický vysávač MOVA E20, biely – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W). SONOFF ZBMicro is a state-of-the-art Zigbee USB adapter that allows you to fully automate and remotely control USB devices in your smart…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W).</h3>
-<p>SONOFF ZBMicro is a state-of-the-art Zigbee USB adapter that allows you to fully automate and remotely control USB devices in your smart home. With app integration, you can set schedules, create smart scenes and use voice control capabilities. The product also allows you to charge your devices and works perfectly as a Zigbee signal booster. Note: the adapter requires a Zigbee hub (not included) for proper operation.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10803/12727/3.jpg"/>
-</p><h3>Fast charging of up to 36 watts</h3>
-<p>ZBMicro supports fast charging with up to 36 watts of power using compatible adapters. This will have your devices ready to go in no time! In addition, the ability to set schedules avoids overcharging, protecting your equipment's batteries and increasing their lifespan. Note: the product itself does not support fast charging - an additional adapter is required.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10803/12727/1.jpg"/>
-</p><h3>Efficient data transmission thanks to USB 2.0</h3>
-<p>Thanks to the Hi-Speed USB 2.0, the SONOFF ZBMicro adapter significantly improves data transfer efficiency. This is especially useful when working with devices that require high transmission speeds. Now you can transfer all the necessary files in no time!</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10803/12727/2.jpg"/>
-</p><h3>Smart control</h3>
-<p>With the help of the adapter you can easily turn your ordinary USB devices into smart equipment! When you plug them in, you gain the ability to control them with apps and set timers. You can also control them using voice commands! It is also possible to connect them with other devices and create complex automations. Make it so that when the temperature in the room rises, the fan will spontaneously start, and when you enter the bathroom the light will immediately turn on. The adapter is compatible with Amazon Alexa, Google Home, Alice, IFTTT and SmartThings.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10803/12727/7.jpg"/>
-</p><h3>Wide compatibility</h3>
-<p>ZBMicro works with Zigbee hubs that support Zigbee 3.0, such as SONOFF iHost, NSPanel Pro, ZB Bridge Pro, as well as Echo Plus 2nd, Echo 4th Gen, Echo Show 2nd, Philips Hue, AeoTec Smart Home Hub V3 and SmartThings hub V3. It is also compatible with open automation platforms such as Home Assistant, Zigbee2MQTT and openHAB, enabling full personalization of home automation.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10803/12727/6.jpg"/>
-</p><h3>Advanced signal boosting with Turbo mode</h3>
-<p>The adapter also acts as a Zigbee router, providing a stable and reliable connection throughout the home. This is made possible by advanced Turbo Mode technology, which increases range and signal strength. Forget about transmission problems! It's ideal for places with a large number of Zigbee devices, where connection stability is very important.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10803/12727/4.jpg"/>
-</p><h3>Durable and easy to configure</h3>
-<p>The ZBMicro is made of durable, damage-resistant materials. As a result, it is very durable - even falls and bumps will not frighten it. It will serve you perfectly for a long time! Configuration of the adapter will also not cause you any problems. Just download the eWeLink app and follow a few simple steps.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10803/12727/5.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Manufacturer</th><td>SONOFF</td></tr><tr><th>Model</th><td>ZBMicro</td></tr><tr><th>MCU</th><td>EFR32MG21</td></tr><tr><th>Rated current</th><td>5-22 V ⎓ 4.6 A max.</td></tr><tr><th>Rated power</th><td>36 W max (using QC 3.0 adapter)</td></tr><tr><th>Wireless connectivity</th><td>Zigbee 3.0</td></tr><tr><th>Interface</th><td>USB-A</td></tr><tr><th>Data transmission</th><td>USB 2.0</td></tr><tr><th>Weight</th><td>17,6 g</td></tr><tr><th>Dimensions</th><td>33 x 31 x 26.5 mm</td></tr><tr><th>Housing material</th><td>PC</td></tr><tr><th>Application</th><td>Indoors</td></tr><tr><th>Working temperature</th><td>From -10°C to 40°C</td></tr><tr><th>Working environment humidity</th><td>5-95% RH, no condensation</td></tr><tr><th>Supported fast charging standards</th><td>QC 3.0, FCP, SCP, PE, AFC, Apple 2.4A *Requires a fast charging adapter. The product itself does not support fast charging.</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73359_48386_pol_0b17a2d832f8e84669ff36e998705367" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost-zariadenia-smart-zasuvky/">Smart zásuvky</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Sonoff]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>069078</CODE>
-<EAN>6920075741964</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5879</HEUREKA_CATEGORY_ID>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W) - obrázok 1">https://b2b.innpro.sk/hpeciai/24ea57e0cfbceb371b6c3fed101d407b/48386_1.jpg</IMAGE>
-  <IMAGE description="Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W) - obrázok 2">https://b2b.innpro.sk/hpeciai/4e73575c81aed7ae4b87468a98b60df3/48386_2.jpg</IMAGE>
-  <IMAGE description="Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W) - obrázok 3">https://b2b.innpro.sk/hpeciai/4650d664046510f421b0c4404f76751b/48386_3.jpg</IMAGE>
-  <IMAGE description="Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W) - obrázok 4">https://b2b.innpro.sk/hpeciai/1a2f6110e328ed69aad60f5ac76ad16d/48386_4.jpg</IMAGE>
-  <IMAGE description="Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W) - obrázok 5">https://b2b.innpro.sk/hpeciai/d58f27a92c254b1749272e030c2417e5/48386_5.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Druh]]></NAME>
-    <VALUE><![CDATA[Plug-in]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pripojenie]]></NAME>
-    <VALUE><![CDATA[ZigBee 3.0]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Aplikácia]]></NAME>
-    <VALUE><![CDATA[Google Home]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Komunikacja]]></NAME>
-    <VALUE><![CDATA[ZigBee 3.0]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>9.20</PRICE_VAT>
-<PURCHASE_PRICE>6.50</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Smart adapter, USB ZigBee switch SONOFF ZBMicro… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Smart adapter, USB ZigBee switch SONOFF ZBMicro (max 36W) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Uperfect UXbox E4 M185T08 18'' 1920x1080 120Hz prenosný monitor]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Uperfect UXbox E4 M185T08 18'' 1920x1080 120Hz prenosný monitor Prenosný monitor Uperfect UXbox E4 M185T08 je spoľahlivou voľbou pre tých, ktorí hľadajú mobilný monitor, ktorý kombinuje vysokú…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Uperfect UXbox E4 M185T08 18'' 1920x1080 120Hz prenosný monitor</h3>
@@ -209120,14 +208850,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -226372,9 +226102,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073335</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6974944463990</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
@@ -230901,14 +230628,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -323360,9 +323090,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>082637</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>5905156101135</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné kryty a klietky pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
@@ -354547,85 +354274,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Počítačová skriňa DarkFlash AIRNOVA (biela) + 3… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Počítačová skriňa DarkFlash AIRNOVA (biela) + 3 ventilátory – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Počítačová skriňa DarkFlash DS950 (čierna)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Počítačová skriňa DarkFlash DS950 (čierna) DarkFlash DS950 je počítačová skriňa ATX, ktorá vám umožňuje zostaviť výkonnú konfiguráciu pre hranie hier a ďalšie účely. Konštrukcia ponúka 270°…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Počítačová skriňa DarkFlash DS950 (čierna)</h3>
-<p>DarkFlash DS950 je počítačová skriňa ATX, ktorá vám umožňuje zostaviť výkonnú konfiguráciu pre hranie hier a ďalšie účely. Konštrukcia ponúka 270° panoramatický výhľad, vďaka čomu je vnútro počítača úplne viditeľné z dvoch strán – takže môžete zaujímavým spôsobom prezentovať vybrané komponenty, napríklad tie s RGB osvetlením. K dispozícii máte aj bohatú sadu portov, vrátane USB-C 3.2 Gen 2. Skriňa podporuje základné dosky ATX, Micro-ATX a ITX a má rozmery 450 × 222 × 465 mm. Je vyrobená z plechu SPCC s hrúbkou 0,5 mm, ktorý poskytuje stabilný a pevný základ pre pokročilé konfigurácie.</p>
-<p>
-<img alt="Čierna skriňa PC s ventilátormi RGB v futuristickej tmavej chodbe" border="0" src="https://assets.innpro.pl/19377/25819/Obudowa-komputerowa-DarkFlash-DS950-czarna-lifestyle-1.jpg"/>
-</p><h3>270° panoramatický dizajn</h3>
-<p>Skriňa je vybavená dvoma priehľadnými panelmi bez vertikálneho profilu, ktoré poskytujú široký výhľad na komponenty. Tento dizajn umožňuje zaujímavé vizuálne efekty – napríklad môžete predviesť RGB ventilátory alebo vodné chladenie s displejom. Dajte svojmu počítaču jedinečný charakter!</p>
-<p>
-<img alt="Záber-Detail čiernej skrine PC s farebnými ventilátormi RGB na svetlom pozadí" border="0" src="https://assets.innpro.pl/19377/25819/Obudowa-komputerowa-DarkFlash-DS950-czarna-lifestyle-3.jpg"/>
-</p><h3>Efektívne odvádzanie tepla a ochrana proti prachu</h3>
-<p>Model DS950 využíva systém hustých sietí, ktoré zabezpečujú efektívne odvádzanie tepla a zároveň chránia pred prachom. Ventilačné otvory sa nachádzajú v zadnej, bočnej a spodnej časti konštrukcie, čo umožňuje voľný prietok vzduchu v celom interiéri. Okrem toho prachové filtre pomáhajú udržať komponenty dlhšie čisté.</p>
-<p>
-<img alt="Dve čierne skrine PC s ventilátormi RGB v rôznych veľkostiach na svetlom pozadí" border="0" src="https://assets.innpro.pl/19377/25819/Obudowa-komputerowa-DarkFlash-DS950-czarna-lifestyle-8.jpg"/>
-</p><h3>Vytvorte efektívny chladiaci systém</h3>
-<p>Skriňa umožňuje inštaláciu vodného chladenia s rozmermi 240, 280 alebo 360 mm na hornom paneli. Môžete do nej nainštalovať aj 9 ventilátorov. Vďaka tomu je jednoduché vytvoriť efektívny chladiaci systém prispôsobený potrebám moderných procesorov a grafických kariet. Hrajte najnovšie hry a používajte náročný softvér bez obáv z prehriatia počítača!</p>
-<p>
-<img alt="Čierna skriňa PC s osvetlenými ventilátormi RGB v futuristickom bielom interiéri" border="0" src="https://assets.innpro.pl/19377/25819/Obudowa-komputerowa-DarkFlash-DS950-czarna-lifestyle-2.jpg"/>
-</p><h3>Premyslený priestor pre komponenty</h3>
-<p>Vnútro skrine je navrhnuté tak, aby umožňovalo pohodlné rozširovanie a jednoduchú správu komponentov. Konštrukcia umožňuje inštaláciu grafickej karty s dĺžkou až 400 mm a chladiča CPU s výškou až 180 mm. Je tu tiež priestor pre jeden SSD alebo dva HDD, takže si môžete flexibilne nakonfigurovať svoj úložný priestor. DS950 je tiež kompatibilný so základnými doskami ITX, M-ATX a ATX.</p>
-<p>
-<img alt="Čierna skriňa PC videná z boku s ventilátormi a priestorom pre komponenty na sivom pozadí" border="0" src="https://assets.innpro.pl/19377/25819/Obudowa-komputerowa-DarkFlash-DS950-czarna-lifestyle-5.jpg"/>
-</p><h3>Užitočné porty a tlačidlá</h3>
-<p>Ovládací panel umiestnený v spodnej časti skrinky poskytuje pohodlný prístup k najdôležitejším portom a tlačidlám. K dispozícii máte konektory USB-A 2.0, USB-A 3.0 a USB-C 3.2 Gen 2, ktoré poskytujú prenosové rýchlosti až 10 Gbit/s. Takže potrebné súbory môžete prenášať v okamihu! K dispozícii je aj HD audio konektor, tlačidlo resetovania a tlačidlo napájania.</p>
-<p>
-<img alt="Grafika zobrazujúca kompatibilitu rozmerov komponentov v čiernej skrini PC" border="0" src="https://assets.innpro.pl/19377/25819/Obudowa-komputerowa-DarkFlash-DS950-czarna-lifestyle-4.jpg"/>
-</p><h3>Rýchly prístup do vnútra</h3>
-<p>Skriňa DS950 je navrhnutá tak, aby poskytovala maximálne pohodlie pri inštalácii a modernizácii komponentov. Bočné panely využívajú mechanizmus rýchleho uvoľnenia Snap-Fit, ktorý vám umožňuje efektívne otvoriť skriňu bez použitia náradia. Okrem toho dodatočné ručne dotiahnuté skrutky zvyšujú stabilitu konštrukcie a uľahčujú akékoľvek modernizácie.</p>
-<p>
-<img alt="Čierna skriňa počítača s rozloženými panelmi na sivom pozadí" border="0" src="https://assets.innpro.pl/19377/25819/Obudowa-komputerowa-DarkFlash-DS950-czarna-lifestyle-6.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>DarkFlash</td></tr><tr><th>Model</th><td>DS950</td></tr><tr><th>Typ skrinky</th><td>Midi tower</td></tr><tr><th>Bočný panel</th><td>Tvrdené sklo</td></tr><tr><th>Štandard základnej dosky</th><td>ATX / M-ATX / ITX</td></tr><tr><th>Štandard napájania</th><td>ATX</td></tr><tr><th>Vnútorné pozície pre disky</th><td>SSD x1 / HDD x2</td></tr><tr><th>Sloty pre rozširujúce karty</th><td>7</td></tr><tr><th>Maximálna dĺžka napájacieho zdroja</th><td>200 mm</td></tr><tr><th>Maximálna dĺžka grafickej karty</th><td>400 mm</td></tr><tr><th>Maximálna výška chladiča CPU</th><td>180 mm</td></tr><tr><th>Maximálny počet ventilátorov</th><td>9</td></tr><tr><th>Možnosti montáže ventilátorov</th><td>Hore: 120 mm x3 / 140 mm x2<br/>Bočne: 120 mm x2<br/>Zadná strana: 120 mm x1<br/>Spodná strana: 120 mm x3</td></tr><tr><th>Možnosti montáže vodného chladenia</th><td>Horná strana: 360 mm / 280 mm / 240 mm<br/>Zadná strana 120 mm</td></tr><tr><th>Počet nainštalovaných ventilátorov</th><td>Žiadne ventilátory nainštalované</td></tr><tr><th>Typ ventilátora</th><td>Žiadne ventilátory nainštalované</td></tr><tr><th>Tlačidlá a ovládacie prvky</th><td>Napájanie, Reset</td></tr><tr><th>Konektory</th><td>USB-C 3.2 Gen 2 x1, USB-A 3.0 x1, USB-A 2.0 x1, HD Audio</td></tr><tr><th>Materiál</th><td>0,5 mm SPCC</td></tr><tr><th>Farba</th><td>Čierna</td></tr><tr><th>Výška</th><td>465 mm</td></tr><tr><th>Šírka</th><td>222 mm</td></tr><tr><th>Hĺbka</th><td>450 mm</td></tr><tr><th>Hmotnosť</th><td>Približne 6,3 kg</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76737_56884_pol_102cf2b6aa80415a61a5731a644e3995" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/pocitacove-skrine/">Počítačové skrine</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[darkFlash]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>082903</CODE>
-<EAN>4711527008405</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > Počítačové skrine]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (čierna) - obrázok 1">https://b2b.innpro.sk/hpeciai/e8b9d6e938518036be6cd2ce5e17bc9f/56884_1.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (čierna) - obrázok 2">https://b2b.innpro.sk/hpeciai/c32074e0d2a57816c8ebb3369815e3b0/56884_2.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (čierna) - obrázok 3">https://b2b.innpro.sk/hpeciai/995b53d0d04676e7ab4fab5e3955c71d/56884_3.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (čierna) - obrázok 4">https://b2b.innpro.sk/hpeciai/e513b6a5dc3644cd351556cd1eacdfb5/56884_4.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (čierna) - obrázok 5">https://b2b.innpro.sk/hpeciai/162e3beade0988c1af1732cc24df3baf/56884_5.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[čierna]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>17.43</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>42.00</PRICE_VAT>
-<PURCHASE_PRICE>29.36</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Počítačová skriňa DarkFlash DS950 (čierna) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Počítačová skriňa DarkFlash DS950 (čierna) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Počítačová skriňa DarkFlash DS950 (čierna) + 6 ventilátorov]]></NAME>
@@ -466244,7 +465892,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -472733,14 +472384,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -543960,14 +543615,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -601848,13 +601506,16 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87897_64814_pol_24ad3eefdfd9e4458b86ab5cd5d1eacd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/detektory/">Detektory a lokátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093318</CODE>
 <EAN>0786156007598</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 1">https://b2b.innpro.sk/hpeciai/f177506e358e8ba9d52ced99d614d344/64814_1_1.webp</IMAGE>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 2">https://b2b.innpro.sk/hpeciai/ad6c696968907fc4cc7a65260ff6287f/64814_2_1.webp</IMAGE>
@@ -618545,6 +618206,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>044430</CODE>
+    <EAN>6932172624606</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>044829</CODE>
     <EAN>6956116732523</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -618897,6 +618565,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>069065</CODE>
     <EAN>6920075740646</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>069078</CODE>
+    <EAN>6920075741964</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -619665,6 +619340,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>082903</CODE>
+    <EAN>4711527008405</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>083081</CODE>
     <EAN>4262533460119</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -620034,7 +619716,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088688</CODE>
     <EAN>5905156105577</EAN>
@@ -620076,7 +619758,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088871</CODE>
     <EAN>6942580504940</EAN>
