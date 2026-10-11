@@ -1384,5 +1384,19 @@
     "subject": "Re: [PremiumStore.sk]Výzva k platbe za objednávku PremiumStore.sk",
     "orderCode": "202601230",
     "matchedBy": "code"
+  },
+  "<0051B0B6-7E32-4868-9881-3433FD1C7C70@kabac.sk>": {
+    "draftedAt": "2026-10-11T22:57:28.139Z",
+    "from": "milos@kabac.sk",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202601154",
+    "orderCode": "202601154",
+    "matchedBy": "code"
+  },
+  "<CAGNuc1SepinAPkCF+qmMVxTGRCnQUsFCwqCx0VP7QenmubNTJA@mail.gmail.com>": {
+    "draftedAt": "2026-10-11T22:57:37.247Z",
+    "from": "monikasaboova1@gmail.com",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202601148",
+    "orderCode": "202601148",
+    "matchedBy": "code"
   }
 }
