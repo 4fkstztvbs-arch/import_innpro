@@ -1,14 +1,14 @@
 {
   "version": 1,
   "managedVisibility": {
-    "code:3001": "visible",
-    "code:3006": "visible",
     "code:13989": "visible",
+    "code:3001": "visible",
+    "code:3989": "visible",
     "code:3008": "visible",
     "code:8009": "visible",
     "code:8006": "visible",
-    "code:9122830": "visible",
-    "code:3989": "visible",
-    "code:8001": "visible"
+    "code:3006": "visible",
+    "code:8001": "visible",
+    "code:9122830": "visible"
   }
 }
