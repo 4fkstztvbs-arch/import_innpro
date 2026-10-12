@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600506,
+    "nextCardNumber": 202600513,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3032,6 +3032,48 @@
         "nazov": "VENTS zdvihač žaluzie 240V - náhradní díl pro VENTS MA 1099048",
         "dodavatel": "atos",
         "code": "ELE-1099048"
+      },
+      "8592718023423": {
+        "kod": "202600506",
+        "nazov": "Profesionálny multimeter, tru RMS",
+        "dodavatel": "solight",
+        "code": "V40"
+      },
+      "8592718034252": {
+        "kod": "202600507",
+        "nazov": "LED vonkajšia vianočná reťaz, 100LED, 10m, 3m prívod, 8 funkcií, IP44,",
+        "dodavatel": "solight",
+        "code": "1V57-W"
+      },
+      "8592718026103": {
+        "kod": "202600508",
+        "nazov": "LED bezdotykové podlinkové a nábytkové svietidlo stmívateľné, IR",
+        "dodavatel": "solight",
+        "code": "WO217"
+      },
+      "8592718025717": {
+        "kod": "202600509",
+        "nazov": "LED reflektor PRO,",
+        "dodavatel": "solight",
+        "code": "WM-100W-L"
+      },
+      "8592718024079": {
+        "kod": "202600510",
+        "nazov": "Káblová vodotesná spojka uni, IP68, 4-",
+        "dodavatel": "solight",
+        "code": "WW002"
+      },
+      "8592718018061": {
+        "kod": "202600511",
+        "nazov": "Vonkajšia anténa, DVB- T2, 22dB",
+        "dodavatel": "solight",
+        "code": "HN55-LTE"
+      },
+      "8592718042493": {
+        "kod": "202600512",
+        "nazov": "Olejový radiátor 2500W",
+        "dodavatel": "solight",
+        "code": "OR02"
       }
     }
   },
