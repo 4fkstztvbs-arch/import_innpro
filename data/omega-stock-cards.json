@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600513,
+    "nextCardNumber": 202600517,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3074,6 +3074,30 @@
         "nazov": "Olejový radiátor 2500W",
         "dodavatel": "solight",
         "code": "OR02"
+      },
+      "5904665712726": {
+        "kod": "202600513",
+        "nazov": "Bruska pilových řetězů Bigstreen 26297 ruční",
+        "dodavatel": "atos",
+        "code": "ITR-00018349"
+      },
+      "4823016217271": {
+        "kod": "202600514",
+        "nazov": "Ventilátor VENTS 100 MATH s automat. žaluzií 1009016",
+        "dodavatel": "atos",
+        "code": "ELE-1009016"
+      },
+      "5908254840241": {
+        "kod": "202600515",
+        "nazov": "Elektroměr 3F na DIN lištu třífázový VIRONE EM-6 digitální, RESET",
+        "dodavatel": "atos",
+        "code": "OR-EM-6"
+      },
+      "4823016213624": {
+        "kod": "202600516",
+        "nazov": "Ventilátor VENTS 125 MAV s automat. žaluzií",
+        "dodavatel": "atos",
+        "code": "ELE-1009215"
       }
     }
   },
