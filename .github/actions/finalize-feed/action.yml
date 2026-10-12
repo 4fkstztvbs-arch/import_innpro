@@ -53,3 +53,9 @@ runs:
       env:
         SUPPLIER: ${{ inputs.supplier }}
       run: node scripts/apply-heureka-conversion-rules.js --xml="output/$SUPPLIER.xml"
+
+    - name: Doprava zdarma pre drahé malé produkty (data/free-shipping-rules.json)
+      shell: bash
+      env:
+        SUPPLIER: ${{ inputs.supplier }}
+      run: node scripts/apply-free-shipping.js --xml="output/$SUPPLIER.xml"

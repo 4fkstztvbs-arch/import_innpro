@@ -20,6 +20,10 @@
   "_comment_heurekaCategories": "Listové Heureka kategórie (stĺpec Kategória v sortiment reporte) z vetiev Fotovoltaika a Hi-Fi komponenty. 30 dní: 83 klikov, 0 objednávok.",
   "hideWithoutPurchasePrice": true,
   "_comment_hideWithoutPurchasePrice": "Produkt bez <PURCHASE_PRICE> (MONACOR, WiiM) — maržu ani cenové dno nevieme spočítať. 30 dní: CR 0,9 %.",
+  "estimatedMarginPctBySupplier": { "monacor.xml": 20 },
+  "_comment_estimatedMarginPctBySupplier": "Dodávateľ bez nákupnej ceny vo feede, ktorého maržu poznáme (majiteľ 2026-10-12: MONACOR ~20 % z predajnej ceny bez DPH) — pravidlo bez nákupnej ceny sa naň nevzťahuje.",
+  "skipSuppliers": ["wiim.xml"],
+  "_comment_skipSuppliers": "Feedy, na ktoré sa pravidlá vôbec neuplatnia (WiiM: pevné ceny, ostáva na Heureke — majiteľ 2026-10-12).",
   "keepEans": {
     "4007754220995": "Monacor SPM-205/4 — objednávka z Heureky v septembri 2026"
   }

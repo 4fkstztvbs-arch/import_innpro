@@ -49,7 +49,8 @@ function hideReason(item, rules, ctx) {
   const price = parseFloat(tag(item, 'PRICE_VAT'));
   if (!(price > 0)) return null;
   if (rules.priceAtLeast > 0 && price >= rules.priceAtLeast) return 'cena';
-  if (rules.hideWithoutPurchasePrice && !(parseFloat(tag(item, 'PURCHASE_PRICE')) > 0)) return 'bezNakupnej';
+  if (rules.hideWithoutPurchasePrice && !(parseFloat(tag(item, 'PURCHASE_PRICE')) > 0)
+    && !(rules.estimatedMarginPctBySupplier?.[ctx.supplier] > 0)) return 'bezNakupnej';
   if (!ean) return null;
   if (ctx.categories.has(ean) && rules.heurekaCategories?.includes(ctx.categories.get(ean))) return 'kategoria';
   const cheapest = ctx.cheapest.get(ean);
@@ -75,10 +76,12 @@ function main() {
   const outDir = path.join(ROOT, 'output');
   const files = arg ? [arg] : fs.readdirSync(outDir).filter((f) => f.endsWith('.xml')).sort().map((f) => path.join(outDir, f));
   const rules = JSON.parse(fs.readFileSync(RULES_PATH, 'utf-8'));
-  const ctx = { cheapest: loadCheapest(), categories: loadCategories(), isPilot: isPilotUnhidden };
+  const base = { cheapest: loadCheapest(), categories: loadCategories(), isPilot: isPilotUnhidden };
   for (const f of files) {
     if (!fs.existsSync(f)) continue;
-    const { xml, stats } = applyConversionRules(fs.readFileSync(f, 'utf-8'), rules, ctx);
+    const supplier = path.basename(f);
+    if (rules.skipSuppliers?.includes(supplier)) { console.log(`Heureka konverzné pravidlá (${supplier}): vynechané`); continue; }
+    const { xml, stats } = applyConversionRules(fs.readFileSync(f, 'utf-8'), rules, { ...base, supplier });
     const total = Object.values(stats).reduce((a, b) => a + b, 0);
     if (total && !nasucho) fs.writeFileSync(f, xml, 'utf-8');
     console.log(`Heureka konverzné pravidlá (${path.basename(f)}): skrytých ${total}${nasucho ? ' (nasucho)' : ''}`

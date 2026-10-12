@@ -5,7 +5,7 @@
 - ACTOR: Claude (agent), na pokyn majiteľa
 - AREA: Heureka CPC feed (HEUREKA_HIDDEN), konverzný pomer
 - URL/PAGE/SCOPE: output/*.xml, data/heureka-reports/cpc-hidden-products.json
-- AFFECTED_PRODUCTS/PAGES: A) pri prvom suchom behu ~2 900 produktov (z toho ~1 450 MONACOR bez nákupnej ceny, ~700 drahších o >20 %, ~500 nad 1 000 €, ~65 v kategóriách Fotovoltika/Hi-Fi komponenty, 26 WiiM); B) 290 položiek zoznamu CPC vylúčení
+- AFFECTED_PRODUCTS/PAGES: A) ~1 350 produktov (drahší o >20 %, nad 1 000 €, kategórie Fotovoltika/Hi-Fi komponenty, ATOS bez nákupnej ceny); MONACOR počíta s odhadom marže 20 % a WiiM je z pravidiel vyňatý (majiteľ 2026-10-12, pevné ceny); B) 290 položiek zoznamu CPC vylúčení
 - DESCRIPTION:
   A) Nový krok scripts/apply-heureka-conversion-rules.js (pravidlá v scripts/heureka-conversion-rules.json) skryje z Heureka CPC: naša cena o >20 % nad najlacnejším iným predajcom (podľa posledného reportu), cena od 1 000 €, Heureka kategórie Fotovoltika a Hi-Fi komponenty, produkty bez nákupnej ceny. Výnimky: keepEans, pilot InnPro. Beží po každom spracovaní Heureka reportu a na konci každého behu dodávateľa (finalize-feed, BASYS, WiiM). Len pridáva HEUREKA_HIDDEN; návrat pri nočnom behu dodávateľa.
   B) Vylúčenia z 22.8., 26.8. a 3.9. (platnosť 17.10./21.10./29.10.) bez objednávky v Shoptete od vylúčenia predĺžené cez expiresAt do 2026-12-28 (290). 12 produktov s objednávkou necháme vypršať (vrátia sa na Heureku).
