@@ -30,7 +30,7 @@
 
   /* ---------- značky v ponuke ---------- */
   html body.type-index .ps-v2-brands { margin: 0 15px 24px; padding: 0; }
-  html body.type-index .ps-v2-brands h2 { margin: 0 0 12px; font-size: 20px; line-height: 26px; font-weight: 800; letter-spacing: -.4px; color: var(--v2-ink); }
+  html body.type-index .ps-v2-brands h2 { margin: 0 0 16px; font-size: 24px; line-height: 1.2; font-weight: 700; text-align: center; color: inherit; }
   html body.type-index .ps-v2-brand-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
   html body.type-index .ps-v2-brand {
     display: flex; align-items: center; justify-content: center; height: 72px; padding: 0 8px;
