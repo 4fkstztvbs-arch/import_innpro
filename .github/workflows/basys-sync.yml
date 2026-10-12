@@ -69,6 +69,9 @@ jobs:
       - name: Normalize valid supplier GTINs to EAN-13
         run: node scripts/normalize-truncated-ean.js output/basys.xml
 
+      - name: Heureka konverzné pravidlá (scripts/heureka-conversion-rules.json)
+        run: node scripts/apply-heureka-conversion-rules.js --xml=output/basys.xml
+
       - name: Add fallback parameters (Heureka PARAM)
         env:
           FALLBACK_PARAMS_XML: output/basys.xml

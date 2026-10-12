@@ -52,6 +52,9 @@ jobs:
       - name: Normalize valid supplier GTINs to EAN-13
         run: node scripts/normalize-truncated-ean.js output/wiim.xml
 
+      - name: Heureka konverzné pravidlá (scripts/heureka-conversion-rules.json)
+        run: node scripts/apply-heureka-conversion-rules.js --xml=output/wiim.xml
+
       - name: Check output size
         run: node scripts/check-feed-size.js
 

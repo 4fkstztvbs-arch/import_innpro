@@ -1,0 +1,26 @@
+{
+  "_comment": "Skrytie z plateného Heureka CPC feedu (HEUREKA_HIDDEN=1) podľa konverzie — analýza CPC reportu 13.9.–12.10.2026 (agent/change-ledger/PS-20261012-HEUREKA-CONVERSION-RULES.md). Vyhodnocuje scripts/apply-heureka-conversion-rules.js po každom spracovaní Heureka reportu aj pri každom nočnom behu dodávateľa. Pravidlá len pridávajú HEUREKA_HIDDEN; produkt sa vráti pri najbližšom nočnom behu dodávateľa, keď už pravidlo neplatí.",
+  "maxAboveCheapestPct": 20,
+  "_comment_maxAboveCheapestPct": "Naša cena o viac ako toľko % nad najlacnejším iným predajcom z posledného Heureka reportu (data/heureka-reports/price-targets.json). 30 dní: CR 2,5 % oproti 6,0 % priemeru.",
+  "priceAtLeast": 1000,
+  "_comment_priceAtLeast": "PRICE_VAT od tejto sumy (EUR s DPH). 30 dní: 65 klikov, 0 objednávok.",
+  "heurekaCategories": [
+    "Fotovoltaické a solárne panely",
+    "Solárne a fotovoltaické komponenty",
+    "Solárne meniče napätia",
+    "Solárne regulátory",
+    "Solárne zostavy",
+    "AV prijímače",
+    "CD prehrávače",
+    "Gramofóny",
+    "Subwoofery",
+    "Tunery",
+    "Zosilňovače"
+  ],
+  "_comment_heurekaCategories": "Listové Heureka kategórie (stĺpec Kategória v sortiment reporte) z vetiev Fotovoltaika a Hi-Fi komponenty. 30 dní: 83 klikov, 0 objednávok.",
+  "hideWithoutPurchasePrice": true,
+  "_comment_hideWithoutPurchasePrice": "Produkt bez <PURCHASE_PRICE> (MONACOR, WiiM) — maržu ani cenové dno nevieme spočítať. 30 dní: CR 0,9 %.",
+  "keepEans": {
+    "4007754220995": "Monacor SPM-205/4 — objednávka z Heureky v septembri 2026"
+  }
+}

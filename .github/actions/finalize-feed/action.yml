@@ -47,3 +47,9 @@ runs:
       env:
         SUPPLIER: ${{ inputs.supplier }}
       run: node scripts/apply-image-overrides.js --supplier="$SUPPLIER"
+
+    - name: Heureka konverzné pravidlá (scripts/heureka-conversion-rules.json)
+      shell: bash
+      env:
+        SUPPLIER: ${{ inputs.supplier }}
+      run: node scripts/apply-heureka-conversion-rules.js --xml="output/$SUPPLIER.xml"

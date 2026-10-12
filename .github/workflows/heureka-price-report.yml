@@ -13,6 +13,8 @@ on:
       - 'scripts/apply-price-targets.js'
       - 'scripts/round-price.js'
       - 'scripts/tests/heureka-pricing.test.js'
+      - 'scripts/apply-heureka-conversion-rules.js'
+      - 'scripts/heureka-conversion-rules.json'
       - '.github/workflows/heureka-price-report.yml'
   schedule:
     - cron: '0 22 * * *' # 22:00 UTC (00:00 SK) daily — first in the tight night batch, before ATOS at 22:10 UTC
@@ -55,6 +57,11 @@ jobs:
         run: node scripts/apply-price-targets.js
         env:
           HEUREKA_PRICE_OVERRIDE: '1'
+
+      # Skrytie produktov so slabou konverziou podľa nového reportu (napr. o >20 % drahší než
+      # najlacnejší konkurent) — rovnaký krok beží aj na konci každého behu dodávateľa.
+      - name: Heureka konverzné pravidlá
+        run: node scripts/apply-heureka-conversion-rules.js
 
       # Heureka cena ma marzove dno, ale poistka ma stat za kazdym, kto cenu meni.
       - name: Skryť produkty pod nákupnou cenou
