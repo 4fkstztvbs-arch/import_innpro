@@ -32,3 +32,6 @@ Súbory *-2026-10-10.csv nahrádzajú *-2026-10-09.csv (obsahujú všetko z 9.10
 
 ## Slúchadlá 2026-10-10
 - sluchadla: 459 produktov (+1 komunikačná súprava bez feedu), import-sluchadla-2026-10-10.csv, čaká na import.
+
+## Heureka – krátke popisy 2026-10-12
+- import-heureka-kratke-popisy-2026-10-12.csv: 78 produktov (KB 44, BASYS 30, ATOS 2, InnPro 2), ktoré mali v CPC reporte 13.9.–12.10. kliky z Heureky a popis kratší ako 300 znakov (CR 3,8 % oproti 6,5 % pri dlhých popisoch). Fakty z feedov dodávateľov a Icecatu, pri 6 produktoch (beyerdynamic TG D71, Blue BYRD, Tannoy GOLD 7, Polk ES30, PGYTECH P-GM-223, PetKit AIRSALON MAX Pro) doplnené z webu výrobcov/predajcov. Bez sekcie „Ďalšie modely“ (len súvisiace kategórie). Čaká na import.
