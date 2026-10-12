@@ -2170,20 +2170,20 @@ try {
 
   function wide() {
     return el('<section class="ps-v2-wide" aria-label="3D tlač"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">3D tlač a digitálna výroba</span>' +
-      '<h2>Od nápadu k hotovému dielu.</h2><p>Tlačiarne, filamenty a živice na jednom mieste. Začnite s Anycubic živicou a prvý model máte za večer.</p>' +
+      '<h2>Od nápadu k hotovému dielu.</h2><p>Tlačiarne, filamenty a živice na jednom mieste. Začnite s živicou Anycubic a prvý model máte za večer.</p>' +
       '<a class="ps-v2-btn brand" href="/3d-tlac-a-digitalna-vyroba/" data-ps-track="banner-3d">Vstúpiť do sveta 3D tlače →</a></div>' +
       '<div class="ps-v2-media"><img src="' + BASE + 'bambu-x1-carbon.png" alt="3D tlačiareň Bambu Lab X1 Carbon Combo" width="400" height="400" loading="lazy" decoding="async">' +
       '<img src="' + BASE + 'anycubic-zivica.jpg" alt="Živica Anycubic" width="200" height="300" loading="lazy" decoding="async">' +
-      '<span class="ps-v2-chip"><small>Živica od</small>10,93 €</span></div></section>');
+      '</div></section>');
   }
 
   function duo() {
     return el('<section class="ps-v2-duo" aria-label="Smart Home a Dielňa">' +
       '<a class="ps-v2-promo ice" href="/elektro-smart-home-a-osvetlenie/" data-ps-track="banner-smart-home"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Smart Home</span>' +
-      '<h3>Bezpečný domov bez kompromisov</h3><p>Kamerový set TP-Link Tapo s hubom H500 už za 345,50 €.</p><span class="ps-v2-btn brand">Pozrieť set</span></div>' +
+      '<h3>Bezpečný domov bez kompromisov</h3><p>Kamerové sety TP-Link Tapo s hubom H500. Dohľad nad domom z mobilu.</p><span class="ps-v2-btn brand">Pozrieť set</span></div>' +
       '<img src="' + BASE + 'tapo-kamerovy-set.jpg" alt="Kamerový set TP-Link Tapo" width="300" height="300" loading="lazy" decoding="async"></a>' +
       '<a class="ps-v2-promo cream" href="/dielna-a-zahrada/" data-ps-track="banner-dielna"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Dielňa a náradie</span>' +
-      '<h3>Meranie bez hádania</h3><p>Multimeter UNI-T UT133A s testom diód a NCV za 20,90 €.</p><span class="ps-v2-btn ghost">Do dielne</span></div>' +
+      '<h3>Meranie bez hádania</h3><p>Multimetre a testery pre dielňu aj domácnosť.</p><span class="ps-v2-btn ghost">Do dielne</span></div>' +
       '<img src="' + BASE + 'uni-t-ut133a.jpg" alt="Multimeter UNI-T UT133A" width="300" height="300" loading="lazy" decoding="async"></a></section>');
   }
 
