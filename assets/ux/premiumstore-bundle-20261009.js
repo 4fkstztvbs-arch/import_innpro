@@ -2136,7 +2136,7 @@ try {
    bannerov Smart Home + Dielňa do main#content. Poradie blokov a vzhľad riadi premiumstore-home-v2-20261012.css
    (iba od 992 px; pod touto šírkou skript nič nevkladá). Idempotentné, nemení produkty, ceny ani košík.
    Meranie: odkazy majú data-ps-track (brand-<slug>, brands-all, banner-3d, banner-smart-home, banner-dielna);
-   skript pri kliknutí pošle udalosť ps_home_click do dataLayer, ak existuje. Rollback = odstrániť zdroj z build skriptov. */
+   skript pri kliknutí pošle udalosť ps_home_click (parameter ps_block) do GA4 cez gtag a do dataLayer. Rollback = odstrániť zdroj z build skriptov. */
 (function () {
   'use strict';
   if (!window.matchMedia || !window.matchMedia('(min-width: 992px)').matches) return;
@@ -2190,8 +2190,11 @@ try {
   function track(e) {
     var a = e.target.closest && e.target.closest('[data-ps-track]');
     if (!a) return;
+    var block = a.getAttribute('data-ps-track');
+    // GA4 beží cez gtag (bez GTM); gtag rešpektuje nastavenie súhlasu s cookies
+    if (typeof window.gtag === 'function') window.gtag('event', 'ps_home_click', { ps_block: block, transport_type: 'beacon' });
     window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: 'ps_home_click', ps_block: a.getAttribute('data-ps-track') });
+    window.dataLayer.push({ event: 'ps_home_click', ps_block: block });
   }
 
   function init() {
