@@ -115,3 +115,7 @@
   html body.type-index .ps-v2-brand, html body.type-index .products-wrapper .product .p, html body.type-index .ps-v2-promo { transition: none; }
   html body.type-index .ps-v2-brand:hover, html body.type-index .products-wrapper .product .p:hover, html body.type-index .ps-v2-promo:hover { transform: none; }
 }
+/* ak sa okno zúži pod 992 px po načítaní, vložené bloky sa skryjú (mobil a tablet ostávajú bez zmeny) */
+@media (max-width: 991.98px) {
+  html body.type-index .ps-v2-brands, html body.type-index .ps-v2-wide, html body.type-index .ps-v2-duo { display: none !important; }
+}
