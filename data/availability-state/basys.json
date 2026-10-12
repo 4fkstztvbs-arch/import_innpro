@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 935,
+  "activeItemCount": 939,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -168,16 +168,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-B 841154-0310",
-      "code": "BASYS-B 841154-0310",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-B 841154-0320",
-      "code": "BASYS-B 841154-0320",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-B 841165-0120",
       "code": "BASYS-B 841165-0120",
       "ean": ""
@@ -238,6 +228,16 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B 890101-0110",
+      "code": "BASYS-B 890101-0110",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 890101-0120",
+      "code": "BASYS-B 890101-0120",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-B 892117-0200",
       "code": "BASYS-B 892117-0200",
       "ean": ""
@@ -280,6 +280,26 @@
     {
       "key": "code:BASYS-B 897806-0010",
       "code": "BASYS-B 897806-0010",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 897806-0020",
+      "code": "BASYS-B 897806-0020",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 897806-0030",
+      "code": "BASYS-B 897806-0030",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 897806-0040",
+      "code": "BASYS-B 897806-0040",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 901067-2100",
+      "code": "BASYS-B 901067-2100",
       "ean": ""
     },
     {
@@ -435,6 +455,11 @@
     {
       "key": "code:BASYS-COBALT",
       "code": "BASYS-COBALT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-CT100",
+      "code": "BASYS-CT100",
       "ean": ""
     },
     {
@@ -1351,11 +1376,6 @@
       "key": "ean:0017817734707",
       "code": "BASYS-B 760858-0020",
       "ean": "0017817734707"
-    },
-    {
-      "key": "ean:0017817734714",
-      "code": "BASYS-B 760858-0010",
-      "ean": "0017817734714"
     },
     {
       "key": "ean:0017817735353",
@@ -2578,6 +2598,11 @@
       "ean": "17817859226"
     },
     {
+      "key": "ean:17817859547",
+      "code": "BASYS-B 890101-0500",
+      "ean": "17817859547"
+    },
+    {
       "key": "ean:17817859561",
       "code": "BASYS-B 890101-0200",
       "ean": "17817859561"
@@ -3506,11 +3531,6 @@
       "key": "ean:4033653055659",
       "code": "BASYS-SL 85S",
       "ean": "4033653055659"
-    },
-    {
-      "key": "ean:4033653055673",
-      "code": "BASYS-SL 75C",
-      "ean": "4033653055673"
     },
     {
       "key": "ean:4033653055680",
@@ -4685,6 +4705,16 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B 841154-0310",
+      "code": "BASYS-B 841154-0310",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 841154-0320",
+      "code": "BASYS-B 841154-0320",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-B 887612-0400",
       "code": "BASYS-B 887612-0400",
       "ean": ""
@@ -4692,11 +4722,6 @@
     {
       "key": "code:BASYS-B 893797-0100",
       "code": "BASYS-B 893797-0100",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-B 897806-0030",
-      "code": "BASYS-B 897806-0030",
       "ean": ""
     },
     {
@@ -4765,6 +4790,11 @@
       "ean": ""
     },
     {
+      "key": "ean:0017817734714",
+      "code": "BASYS-B 760858-0010",
+      "ean": "0017817734714"
+    },
+    {
       "key": "ean:0017817803724",
       "code": "BASYS-B 829708-0210",
       "ean": "0017817803724"
@@ -4803,6 +4833,11 @@
       "key": "ean:4033653024341",
       "code": "BASYS-TC 000-CQS01",
       "ean": "4033653024341"
+    },
+    {
+      "key": "ean:4033653055673",
+      "code": "BASYS-SL 75C",
+      "ean": "4033653055673"
     },
     {
       "key": "ean:4033653071529",
