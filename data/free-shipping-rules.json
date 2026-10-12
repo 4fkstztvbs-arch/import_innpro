@@ -1,0 +1,23 @@
+{
+  "_comment": "Doprava zdarma (<FREE_SHIPPING>1</FREE_SHIPPING>) pre drahé malé produkty, ktoré sa dajú poslať Packetou (~5 €). Schválené majiteľom 2026-10-12 (agent/change-ledger/PS-20261012-FREE-SHIPPING-SMALL.md). Produkt v týchto kategóriách, ktorý podmienky nesplní (napr. po zlacnení), dostane <FREE_SHIPPING>0</FREE_SHIPPING>; produktov mimo kategórií sa skript nedotýka. Nadrozmerné (ATYPICAL_SHIPPING) a vypredané sa vynechajú. Rozhoduje hlavná (prvá) kategória produktu. MONACOR nemá nákupnú cenu, marža sa odhaduje na 20 % z ceny bez DPH.",
+  "minPriceVat": 100,
+  "minMarginEur": 15,
+  "estimatedMarginPctBySupplier": { "monacor.xml": 20 },
+  "categories": [
+    "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny",
+    "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika",
+    "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety",
+    "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty",
+    "Počítače, mobily a tablety > Monitory a PC periférie > Grafické tablety",
+    "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Mini PC",
+    "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Notebooky",
+    "TV, audio, video a foto technika > Audio technika > Slúchadlá",
+    "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
+    "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery",
+    "Cestovanie, šport a outdoor > Ďalekohľady",
+    "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače",
+    "Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery",
+    "Profesionálna audio technika > Mikrofóny a bezdrôtové systémy",
+    "Auto-moto > Elektronika do auta"
+  ]
+}

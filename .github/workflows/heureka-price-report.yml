@@ -15,6 +15,8 @@ on:
       - 'scripts/tests/heureka-pricing.test.js'
       - 'scripts/apply-heureka-conversion-rules.js'
       - 'scripts/heureka-conversion-rules.json'
+      - 'scripts/apply-free-shipping.js'
+      - 'data/free-shipping-rules.json'
       - '.github/workflows/heureka-price-report.yml'
   schedule:
     - cron: '0 22 * * *' # 22:00 UTC (00:00 SK) daily — first in the tight night batch, before ATOS at 22:10 UTC
@@ -62,6 +64,10 @@ jobs:
       # najlacnejší konkurent) — rovnaký krok beží aj na konci každého behu dodávateľa.
       - name: Heureka konverzné pravidlá
         run: node scripts/apply-heureka-conversion-rules.js
+
+      # Doprava zdarma závisí od ceny, ktorú tento beh mohol zmeniť.
+      - name: Doprava zdarma pre drahé malé produkty
+        run: node scripts/apply-free-shipping.js --xml=output/atos.xml && node scripts/apply-free-shipping.js --xml=output/basys.xml && node scripts/apply-free-shipping.js --xml=output/innpro.xml && node scripts/apply-free-shipping.js --xml=output/kb.xml && node scripts/apply-free-shipping.js --xml=output/monacor.xml && node scripts/apply-free-shipping.js --xml=output/penta.xml && node scripts/apply-free-shipping.js --xml=output/solight.xml
 
       # Heureka cena ma marzove dno, ale poistka ma stat za kazdym, kto cenu meni.
       - name: Skryť produkty pod nákupnou cenou

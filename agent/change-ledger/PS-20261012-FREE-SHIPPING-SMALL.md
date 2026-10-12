@@ -1,0 +1,22 @@
+# PS-20261012-FREE-SHIPPING-SMALL
+
+- CHANGE_ID: PS-20261012-FREE-SHIPPING-SMALL
+- DATE: 2026-10-12
+- ACTOR: Claude (agent), na pokyn majiteľa
+- AREA: Doprava zdarma (Shoptet pole „Doprava zdarma“, prenáša sa aj do Heureky)
+- URL/PAGE/SCOPE: output/*.xml, <FREE_SHIPPING>
+- AFFECTED_PRODUCTS/PAGES: pri prvom suchom behu ~840 produktov s dopravou zdarma (smartfóny, tablety, nositeľná elektronika, grafické tablety, routery, slúchadlá, notebooky, mini PC, BT reproduktory, ďalekohľady, foto príslušenstvo, multimetre, termokamery, mikrofóny, elektronika do auta); ostatné produkty v týchto kategóriách dostanú <FREE_SHIPPING>0</FREE_SHIPPING>
+- DESCRIPTION: scripts/apply-free-shipping.js podľa data/free-shipping-rules.json: hlavná kategória v zozname, cena ≥ 100 € s DPH, marža ≥ 15 € bez DPH (MONACOR odhad 20 %), nie nadrozmerný (ATYPICAL_SHIPPING), nie vypredaný. Beží na konci behov dodávateľov a po spracovaní Heureka reportu.
+- REASON: Drahé malé produkty sa dajú poslať Packetou za ~4,90 €; doprava zdarma zvyšuje konverziu (Heureka, web). Veľké spotrebiče sú vylúčené (doprava ~40 €).
+- HYPOTHESIS: Vyšší konverzný pomer produktov 100+ € v týchto kategóriách na Heureke aj webe.
+- BASELINE: CPC report 13.9.–12.10.2026: produkty 100–300 € CR 6,2 %, 300–1000 € CR 1,9 %.
+- PRIMARY_METRIC: CR a počet objednávok produktov s dopravou zdarma (Heureka + web).
+- GUARDRAIL_METRICS: Hrubý zisk na objednávku po odpočte dopravy.
+- IMPLEMENTATION: viď DESCRIPTION; krok v .github/actions/finalize-feed/action.yml, basys-sync.yml, heureka-price-report.yml.
+- FILES_CHANGED: data/free-shipping-rules.json, scripts/apply-free-shipping.js, scripts/tests/apply-free-shipping.test.js, workflowy
+- COMMIT / PR: priamo do main (tento commit)
+- APPROVAL / APPROVER: majiteľ, 2026-10-12 (doprava zdarma pre drahé malé veci; import „Doprava zdarma“ v Shoptete zapnutý)
+- PRE_DEPLOY_VALIDATION: testy 3/3, suchý beh a kontrola vzorky produktov po kategóriách
+- POST_DEPLOY_VALIDATION: po importe skontrolovať v Shoptete príznak na vzorke produktov (napr. smartfón, chladnička bez)
+- RESULT: zatiaľ nevyhodnotené
+- ROLLBACK / ROLLBACK_COMMIT: revert; aby Shoptet dopravu zdarma aj zrušil, pred odstránením skriptu nastaviť minPriceVat na vysokú hodnotu a nechať prebehnúť jeden import (pošle <FREE_SHIPPING>0</FREE_SHIPPING>).

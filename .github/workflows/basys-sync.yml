@@ -72,6 +72,9 @@ jobs:
       - name: Heureka konverzné pravidlá (scripts/heureka-conversion-rules.json)
         run: node scripts/apply-heureka-conversion-rules.js --xml=output/basys.xml
 
+      - name: Doprava zdarma pre drahé malé produkty (data/free-shipping-rules.json)
+        run: node scripts/apply-free-shipping.js --xml=output/basys.xml
+
       - name: Add fallback parameters (Heureka PARAM)
         env:
           FALLBACK_PARAMS_XML: output/basys.xml

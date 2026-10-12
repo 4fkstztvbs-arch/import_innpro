@@ -28,3 +28,10 @@ test('výnimky, pilot a už skryté produkty nechá tak; je idempotentný', () =
   const once = applyConversionRules(item('0000000000004', 1500), RULES, ctx).xml;
   assert.equal(applyConversionRules(once, RULES, ctx).xml, once);
 });
+
+test('odhad marže dodávateľa vypne pravidlo bez nákupnej ceny', () => {
+  const r = { ...RULES, estimatedMarginPctBySupplier: { 'monacor.xml': 20 } };
+  const x = item('0000000000008', 50, 0);
+  assert.equal(applyConversionRules(x, r, { ...ctx, supplier: 'monacor.xml' }).stats.bezNakupnej, 0);
+  assert.equal(applyConversionRules(x, r, { ...ctx, supplier: 'kb.xml' }).stats.bezNakupnej, 1);
+});
