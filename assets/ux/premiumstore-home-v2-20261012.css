@@ -1,0 +1,117 @@
+/* PremiumStore – úvodná stránka, desktop (2026-10-12): značky v ponuke, nové karty produktov, banner 3D tlač,
+   dvojica bannerov Smart Home + Dielňa, poradie Akciová ponuka → banner → Novinky → bannery.
+   Iba šírka od 992 px; mobil a tablet sa nemenia. Vyžaduje premiumstore-home-v2-20261012.js (vkladá bloky).
+   Zdroj návrhu: design system PremiumStore.sk (komponenty Brands, ProductCard, PromoBanner).
+   Rollback = odstrániť tento súbor a skript zo zoznamov build-ux-*-bundle.js a znovu zbuildovať. */
+@media (min-width: 992px) {
+  html body.type-index {
+    --v2-ink: #17283c; --v2-soft: #536477; --v2-brand: #285a98; --v2-brand-h: #1c467b;
+    --v2-line: #e6e9ed; --v2-line2: #dce3ec; --v2-ice: #f0f5fa; --v2-ice2: #eaf0f5; --v2-cream: #efece4;
+    --v2-deal: #b93d0d; --v2-tip: #00747f; --v2-new: #3b7d0f;
+    --v2-lift: 0 12px 28px rgba(23, 40, 60, .14);
+  }
+
+  /* ---------- poradie blokov (flex order v main#content) ----------
+     úvod 2, kategórie 3, značky 4, Akciová ponuka 5–6, banner 3D 7, Novinky 8–9, bannery 10, výhody 11 */
+  html body.type-index main#content.content > .ps-v2-brands { order: 4 !important; }
+  html body.type-index main#content.content > .homepage-products-heading-2 { order: 5 !important; }
+  html body.type-index main#content.content > .homepage-products-heading-2 + .products-wrapper { order: 6 !important; }
+  html body.type-index main#content.content > .ps-v2-wide { order: 7 !important; }
+  html body.type-index main#content.content > .homepage-products-heading-6 { order: 8 !important; }
+  html body.type-index main#content.content > .homepage-products-heading-6 + .products-wrapper { order: 9 !important; }
+  html body.type-index main#content.content > .ps-v2-duo { order: 10 !important; }
+  html body.type-index main#content.content > .benefitBanner { order: 11 !important; }
+
+  /* rezervované miesto pre značky, kým ich vloží skript (bez posunu obsahu) */
+  html body.type-index main#content.content:not(.ps-v2-ready)::after { content: ""; display: block; order: 4; flex: 0 0 134px; height: 134px; width: 100%; }
+
+  /* ---------- značky v ponuke ---------- */
+  html body.type-index .ps-v2-brands { margin: 0 15px 24px; padding: 0; }
+  html body.type-index .ps-v2-brands h2 { margin: 0 0 12px; font-size: 20px; line-height: 26px; font-weight: 800; letter-spacing: -.4px; color: var(--v2-ink); }
+  html body.type-index .ps-v2-brand-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+  html body.type-index .ps-v2-brand {
+    display: flex; align-items: center; justify-content: center; height: 72px; padding: 0 8px;
+    border: 1px solid var(--v2-line); border-radius: 14px; background: #fff; color: var(--v2-soft); text-decoration: none;
+    transition: color .2s, transform .2s, box-shadow .2s, border-color .2s;
+  }
+  html body.type-index .ps-v2-brand svg { fill: currentColor; opacity: .62; transition: opacity .2s; max-width: 100%; }
+  html body.type-index .ps-v2-brand:hover, html body.type-index .ps-v2-brand:focus-visible {
+    color: var(--bc, var(--v2-ink)); transform: translateY(-3px); box-shadow: var(--v2-lift); border-color: var(--v2-line2);
+  }
+  html body.type-index .ps-v2-brand:hover svg, html body.type-index .ps-v2-brand:focus-visible svg { opacity: 1; }
+  html body.type-index .ps-v2-brand:focus-visible { outline: 2px solid var(--v2-brand); outline-offset: 2px; }
+  html body.type-index .ps-v2-brand.all { background: var(--v2-ice); border-color: transparent; color: var(--v2-brand); font-size: 13px; font-weight: 700; line-height: 16px; text-align: center; }
+  html body.type-index .ps-v2-brand.all:hover { background: var(--v2-ice2); transform: translateY(-3px); }
+
+  /* ---------- karty produktov ---------- */
+  html body.type-index .products-wrapper .product .p {
+    position: relative; height: calc(100% - 4px); margin: 2px; padding: 16px 16px 14px; text-align: center;
+    border: 1px solid var(--v2-line); border-radius: 14px; background: #fff; box-shadow: 0 1px 2px rgba(23, 40, 60, .06);
+    transition: transform .2s, box-shadow .2s;
+  }
+  html body.type-index .products-wrapper .product .p:hover { transform: translateY(-3px); box-shadow: var(--v2-lift); }
+  html body.type-index .products-wrapper .product .image { margin: 8px 0 12px; }
+  html body.type-index .products-wrapper .product .image img { mix-blend-mode: multiply; }
+  html body.type-index .products-wrapper .product .flags { position: absolute; top: 0; left: 0; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; margin: 0; z-index: 2; }
+  html body.type-index .products-wrapper .product .flags .flag {
+    position: static; margin: 0; padding: 3px 8px; border-radius: 4px; color: #fff;
+    font-size: 11px; line-height: 14px; font-weight: 700; letter-spacing: .4px; text-transform: uppercase;
+  }
+  html body.type-index .products-wrapper .product .flags .flag-tip { background: var(--v2-tip); }
+  html body.type-index .products-wrapper .product .flags .flag-new { background: var(--v2-new); }
+  html body.type-index .products-wrapper .product .flags .flag-action, html body.type-index .products-wrapper .product .flags .flag-discount { background: var(--v2-deal); }
+  html body.type-index .products-wrapper .product .name { font-size: 14px; line-height: 20px; font-weight: 500; color: var(--v2-ink); }
+  html body.type-index .products-wrapper .product .availability { font-size: 12px; line-height: 16px; font-weight: 600; margin-top: 4px; }
+  html body.type-index .products-wrapper .product .price-final strong { font-size: 18px; line-height: 24px; font-weight: 800; color: var(--v2-ink); }
+  html body.type-index .products-wrapper .product .price-standard { font-size: 13px; color: var(--v2-soft); }
+  html body.type-index .products-wrapper .product .price-save { color: var(--v2-deal); font-weight: 700; }
+  html body.type-index .products-wrapper .product:has(.price-standard) .price-final strong { color: var(--v2-deal); }
+  html body.type-index .products-wrapper .product .p-tools { padding-top: 12px; padding-bottom: 0; }
+  html body.type-index .products-wrapper .product .btn-cart, html body.type-index .products-wrapper .product .add-to-cart-button {
+    width: 100%; min-height: 44px; border-radius: 999px; font-size: 14px; font-weight: 700;
+  }
+
+  /* ---------- banner 3D tlač ---------- */
+  html body.type-index .ps-v2-wide {
+    position: relative; margin: 8px 15px 28px; border-radius: 24px; overflow: hidden; background: var(--v2-cream); color: var(--v2-ink);
+    display: grid; grid-template-columns: 1fr 1fr; align-items: center; min-height: 300px;
+  }
+  html body.type-index .ps-v2-wide .ps-v2-copy { padding: 32px 32px 32px 40px; }
+  html body.type-index .ps-v2-eyebrow { display: block; margin-bottom: 12px; font-size: 12px; line-height: 16px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--v2-brand); }
+  html body.type-index .ps-v2-wide h2 { margin: 0 0 12px; font-size: 34px; line-height: 38px; font-weight: 800; letter-spacing: -1.1px; color: var(--v2-ink); }
+  html body.type-index .ps-v2-wide p { margin: 0 0 24px; max-width: 420px; font-size: 16px; line-height: 24px; color: var(--v2-soft); }
+  html body.type-index .ps-v2-btn {
+    display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 22px; border-radius: 999px;
+    font-size: 14px; font-weight: 700; line-height: 20px; text-decoration: none; transition: background .15s;
+  }
+  html body.type-index .ps-v2-btn.brand { background: var(--v2-brand); color: #fff; }
+  html body.type-index .ps-v2-btn.brand:hover { background: var(--v2-brand-h); color: #fff; }
+  html body.type-index .ps-v2-btn.ghost { background: transparent; color: var(--v2-ink); box-shadow: inset 0 0 0 1.5px var(--v2-ink); }
+  html body.type-index .ps-v2-btn.ghost:hover { background: var(--v2-ink); color: #fff; }
+  html body.type-index .ps-v2-wide .ps-v2-media { position: relative; display: flex; align-items: center; justify-content: center; gap: 24px; height: 100%; min-height: 300px; padding: 24px; }
+  html body.type-index .ps-v2-wide .ps-v2-media img { width: auto; height: auto; max-height: 250px; max-width: 46%; object-fit: contain; mix-blend-mode: multiply; }
+  html body.type-index .ps-v2-wide .ps-v2-media img + img { max-height: 170px; }
+  html body.type-index .ps-v2-chip { position: absolute; right: 24px; top: 24px; padding: 10px 16px; border-radius: 999px; background: var(--v2-deal); color: #fff; font-size: 15px; font-weight: 800; line-height: 18px; text-align: center; }
+  html body.type-index .ps-v2-chip small { display: block; font-size: 11px; font-weight: 600; opacity: .92; }
+
+  /* ---------- dvojica bannerov Smart Home + Dielňa ---------- */
+  html body.type-index .ps-v2-duo { margin: 8px 15px 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  html body.type-index .ps-v2-promo {
+    position: relative; min-height: 240px; padding: 32px; border-radius: 24px; overflow: hidden; color: var(--v2-ink);
+    display: flex; flex-direction: column; justify-content: center; text-decoration: none; transition: transform .2s, box-shadow .2s;
+  }
+  html body.type-index .ps-v2-promo:hover { transform: translateY(-2px); box-shadow: var(--v2-lift); color: var(--v2-ink); }
+  html body.type-index .ps-v2-promo.ice { background: var(--v2-ice); }
+  html body.type-index .ps-v2-promo.cream { background: var(--v2-cream); }
+  html body.type-index .ps-v2-promo .ps-v2-copy { position: relative; z-index: 2; max-width: 56%; }
+  html body.type-index .ps-v2-promo h3 { margin: 0 0 8px; font-size: 24px; line-height: 28px; font-weight: 800; letter-spacing: -.6px; color: var(--v2-ink); }
+  html body.type-index .ps-v2-promo p { margin: 0 0 16px; font-size: 14px; line-height: 20px; color: var(--v2-soft); }
+  html body.type-index .ps-v2-promo img { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); width: 40%; max-height: 80%; object-fit: contain; mix-blend-mode: multiply; }
+}
+@media (min-width: 1200px) {
+  html body.type-index .ps-v2-brand-row { grid-template-columns: repeat(9, minmax(0, 1fr)) 1.15fr; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html body.type-index .ps-v2-brand, html body.type-index .products-wrapper .product .p, html body.type-index .ps-v2-promo { transition: none; }
+  html body.type-index .ps-v2-brand:hover, html body.type-index .products-wrapper .product .p:hover, html body.type-index .ps-v2-promo:hover { transform: none; }
+}

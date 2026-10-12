@@ -14,6 +14,7 @@ const SOURCES = [
   'premiumstore-pdp-soldout-20261008.js',
   'premiumstore-audit-fixes-20261003.js',
   'premiumstore-home-desktop-20261009.js',
+  'premiumstore-home-v2-20261012.js',
   'premiumstore-home-categories-mobile.js',
   'premiumstore-checkout-20261009.js',
   'premiumstore-category-20261009.js',
