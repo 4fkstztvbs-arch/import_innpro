@@ -25,6 +25,9 @@
   /* rezervované miesto pre značky, kým ich vloží skript (bez posunu obsahu) */
   html body.type-index main#content.content:not(.ps-v2-ready)::after { content: ""; display: block; order: 4; flex: 0 0 134px; height: 134px; width: 100%; }
 
+  /* oprava: úvodný text presahoval okno pri šírke 992–cca 1250 px (vodorovný posun) kvôli max-width: none v home-desktop */
+  html body.type-index main#content.content > .welcome-wrapper { max-width: 100% !important; box-sizing: border-box; }
+
   /* ---------- značky v ponuke ---------- */
   html body.type-index .ps-v2-brands { margin: 0 15px 24px; padding: 0; }
   html body.type-index .ps-v2-brands h2 { margin: 0 0 12px; font-size: 20px; line-height: 26px; font-weight: 800; letter-spacing: -.4px; color: var(--v2-ink); }
