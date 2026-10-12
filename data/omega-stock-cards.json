@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600517,
+    "nextCardNumber": 202600519,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3098,6 +3098,18 @@
         "nazov": "Ventilátor VENTS 125 MAV s automat. žaluzií",
         "dodavatel": "atos",
         "code": "ELE-1009215"
+      },
+      "0810102267511": {
+        "kod": "202600517",
+        "nazov": "Instant Pot Plus WiFi (5,7 L)",
+        "dodavatel": "kb",
+        "code": "100002142413"
+      },
+      "8055176401627": {
+        "kod": "202600518",
+        "nazov": "G3Ferrari G2016201",
+        "dodavatel": "kb",
+        "code": "100002144216"
       }
     }
   },
