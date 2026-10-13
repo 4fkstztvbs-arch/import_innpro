@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600523,
+    "nextCardNumber": 202600531,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3134,6 +3134,54 @@
         "nazov": "Router GL.iNet GL-AX1800",
         "dodavatel": "innpro",
         "code": "090440"
+      },
+      "6976037360056": {
+        "kod": "202600523",
+        "nazov": "Thermostat Control Panel",
+        "dodavatel": "innpro",
+        "code": "043141"
+      },
+      "6976021764266": {
+        "kod": "202600524",
+        "nazov": "ELEGOO Rapid PLA+",
+        "dodavatel": "innpro",
+        "code": "075365"
+      },
+      "6936685222359": {
+        "kod": "202600525",
+        "nazov": "GameSir-T3 Lite GY",
+        "dodavatel": "innpro",
+        "code": "079690"
+      },
+      "6972436987191": {
+        "kod": "202600526",
+        "nazov": "Colmi V89 Smartwatch Black",
+        "dodavatel": "innpro",
+        "code": "079596"
+      },
+      "6933582314859": {
+        "kod": "202600527",
+        "nazov": "Filament PLA+ 2.0 1.75mm",
+        "dodavatel": "innpro",
+        "code": "085159"
+      },
+      "6977341740008": {
+        "kod": "202600528",
+        "nazov": "OTTOAIBOX P3P Android",
+        "dodavatel": "innpro",
+        "code": "087844"
+      },
+      "4897143173571": {
+        "kod": "202600529",
+        "nazov": "Insta360 Luna Ultra Filters -",
+        "dodavatel": "innpro",
+        "code": "091594"
+      },
+      "6924843237956": {
+        "kod": "202600530",
+        "nazov": "Cordless Vacuum",
+        "dodavatel": "innpro",
+        "code": "092830"
       }
     }
   },
