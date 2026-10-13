@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600531,
+    "nextCardNumber": 202600539,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3182,6 +3182,54 @@
         "nazov": "Cordless Vacuum",
         "dodavatel": "innpro",
         "code": "092830"
+      },
+      "5906168439162": {
+        "kod": "202600531",
+        "nazov": "Ancel BA101 Battery Tester",
+        "dodavatel": "innpro",
+        "code": "069079"
+      },
+      "6975462650077": {
+        "kod": "202600532",
+        "nazov": "Truthear Zero Red",
+        "dodavatel": "innpro",
+        "code": "073483"
+      },
+      "6936685220409": {
+        "kod": "202600533",
+        "nazov": "GameSir-G7 Pro BK",
+        "dodavatel": "innpro",
+        "code": "079688"
+      },
+      "6972467711680": {
+        "kod": "202600534",
+        "nazov": "Gimbal AOCHUAN M3 Pro",
+        "dodavatel": "innpro",
+        "code": "085550"
+      },
+      "6971337722610": {
+        "kod": "202600535",
+        "nazov": "Speakerphone EMEET",
+        "dodavatel": "innpro",
+        "code": "085708"
+      },
+      "5905156103610": {
+        "kod": "202600536",
+        "nazov": "Recumbent bike MERACH",
+        "dodavatel": "innpro",
+        "code": "085823"
+      },
+      "6976058151077": {
+        "kod": "202600537",
+        "nazov": "Projector AURZEN Eazze D1",
+        "dodavatel": "innpro",
+        "code": "086154"
+      },
+      "4897143172918": {
+        "kod": "202600538",
+        "nazov": "Osmo Pocket 4P Filters -",
+        "dodavatel": "innpro",
+        "code": "091600"
       }
     }
   },
