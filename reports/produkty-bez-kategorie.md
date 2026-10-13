@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-13 11:16 UTC.
+Kontrola z 2026-10-13 15:11 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -19,10 +19,11 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `095293` | Pamäťová karta GODOX microSD 16 GB |
 | `095294` | Pamäťová karta GODOX microSD 32 GB |
 
-## kb — 4 ks
+## kb — 5 ks
 
 | Kód | Produkt |
 |---|---|
+| `100001405220` | Beper BEP-P206ZAN200 |
 | `100001880301` | Drosselmeyer NCGP03 |
 | `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
 | `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
