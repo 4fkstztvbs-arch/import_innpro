@@ -12,7 +12,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 011632X |  | Monitor 5,5" DJI CrystalSky | nulová/neplatná cena |  | 0.00 € |  |  |
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
-| 079933 | 6972237683193 | Mikrofón Maono WM622 PC2 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089414 | 5905156108714 | WOLFBOX X5 WiFi 4K + 2,5K 128 GB palubná kamera | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090447 | 6971131385394 | KVM prepínač GL.iNet Comet 5G | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -648,17 +647,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094445 | 6972792471440 | Wireless Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095306 | 6952344244517 | LED svietidlo GODOX Litemons LE300Bi | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095310 | 6952344237960 | LED svetelný panel GODOX Litemons LP400R RGB | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095312 | 6952344237991 | LED svetelný panel GODOX Litemons LP600Bi s dvojfarebným osvetlením | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095317 | 6952344247761 | Retro blesk GODOX Lux Junior II S | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095318 | 6952344245729 | TTL blesk GODOX iFlash iT32 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095319 | 6952344245828 | Bezdrôtová TTL spúšť GODOX X5 pre Canon | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095320 | 6952344245835 | Bezdrôtová TTL spúšť GODOX X5 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095321 | 6952344245811 | Bezdrôtová TTL spúšť GODOX X5 pre Sony | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095324 | 6952344243671 | Blesk GODOX iFlash iT20 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095328 | 6952344242438 | Makro blesk s dvojitou hlavou GODOX MF-T76 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095329 | 6952344242421 | Makro blesk s dvojitou hlavou GODOX MF-T76 pre Sony | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095441 | 6979127740363 | Prenosná elektráreň VTOMAN Jump 2200 2200W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095442 | 6979127740356 | Prenosná elektráreň VTOMAN FlashSpeed300 300 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095443 | 6979127740349 | Prenosná elektráreň VTOMAN FlashSpeed600 600 W | nulová/neplatná cena |  | 0.00 € |  |  |
