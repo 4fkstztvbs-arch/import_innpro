@@ -3163,7 +3163,10 @@ Balenie: sáčok</p>
   <MINIMAL_AMOUNT>10</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718022808</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>2769</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sáčok - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ssv5310e.jpg?v2</IMAGE>
@@ -5402,80 +5405,6 @@ LED pásik je vybavený krytím IP65, čo znamená, že je prachotesný a odoln�
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED pásik pre TV, 100cm, USB, vypínač,… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Solight LED pásik pre TV, 100cm, USB, vypínač, studená biela – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Vonkajšia vianočná LED reťaz Solight 1V53-WW, 5 m, teplá biela, 50 LED, 8 funkcií, 3 × AA, IP44]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="retaze"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18693" data-christmas-link="group">Vianočné LED reťaze →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-Svetelný reťaz s 50 LED diódami na dekoráciu interiéru aj exteriéru Tento svetelný reťaz s 50 LED diódami v teplej bielej (žltej) farbe je ideálnou voľbou na vytvorenie príjemnej atmosféry doma aj na…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="retaze"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18693" data-christmas-link="group">Vianočné LED reťaze →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-<p><b>Svetelný reťaz s 50 LED diódami na dekoráciu interiéru aj exteriéru</b><br>
-Tento svetelný reťaz s 50 LED diódami v teplej bielej (žltej) farbe je ideálnou voľbou na vytvorenie príjemnej atmosféry doma aj na záhrade. Vďaka dĺžke osvetleného kábla 5 m a zelenému prevedeniu kábla sa ľahko prispôsobí rôznym dekoráciám, či už ho použijete na vianočný stromček, zábradlie, pergolu alebo okno. Vzdialenosť medzi jednotlivými diódami je 10 cm, čo zaručuje rovnomerné rozloženie svetla. Reťaz je napájaný tromi AA batériami, ktoré vydržia svietiť približne 72 hodín v závislosti od ich kvality, a vďaka stupňu krytia IP44 je vhodný aj na vonkajšie použitie.</p>
-<p><b>Osem svetelných módov a praktický časovač pre pohodlné ovládanie</b><br>
-Svetelný reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete napríklad blikanie, prelínanie svetla alebo stmievanie, takže si ľahko vyberiete efekt podľa nálady alebo príležitosti. Integrovaný 8-hodinový časovač zabezpečí, že sa reťaz po ôsmich hodinách automaticky vypne a po ďalších 16 hodinách opäť sám zapne, čo šetrí batérie a zvyšuje komfort používania. Vďaka dĺžke prívodného kábla 30 cm je inštalácia jednoduchá a balenie v farebnej krabici poteší aj ako darček.</p>
-<UL>
-<LI>počet LED diód: 50</LI>
-<LI>8 svetelných módov (blikanie, prelínanie svetla, stmievanie atď.)</LI>
-<LI>vonkajšie i vnútorné použitie</LI>
-<LI>časovač po 8hod. svetlo vypne a po 16hod. znovu automaticky zapne</LI>
-<LI>farba svetla: teplá biela (žltá)</LI>
-<LI>vzdialenosť diód: 10cm</LI>
-<LI>dĺžka osvetleného kábla: 5m</LI>
-<LI>farba kábla: zelená</LI>
-<LI>dĺžka prívodného kábla: 30cm</LI>
-<LI>napájanie: 3x AA batérie</LI>
-<LI>výdrž batérií: cca 72 hodín (v závislosti na kvalite batérií)</LI>
-<LI>stupeň krytia: IP44 (vonkajšie použitie)</LI>
-<LI>balenie: farebná krabica</LI>
-<LI>vhodné na vianočný stromček</LI>
-</UL><p><a href="https://www.solight.sk/documents/1v53-ww_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/1v53-ww_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vianocne-osvetlenie/">Vianočné osvetlenie a dekorácie</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>1V53-WW</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
-</STOCK>
-<EAN>8592718018658</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight LED vonkajšia vianočná reťaz, 50LED, 5m, 8 funkcií, IP44, 3x AA, teplá biela - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v53-ww.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vonkajšia vianočná reťaz, 50LED, 5m, 8 funkcií, IP44, 3x AA, teplá biela - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v53-ww_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vonkajšia vianočná reťaz, 50LED, 5m, 8 funkcií, IP44, 3x AA, teplá biela - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v53-ww_a.jpg?v2</IMAGE>
-</IMAGES>
-<INFORMATION_PARAMETERS><INFORMATION_PARAMETER><NAME><![CDATA[Druh vianočného osvetlenia]]></NAME><VALUE><![CDATA[Vianočné LED reťaze]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Použitie osvetlenia]]></NAME><VALUE><![CDATA[Vonkajšie aj vnútorné]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Farba vianočného svetla]]></NAME><VALUE><![CDATA[Teplá biela]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Napájanie osvetlenia]]></NAME><VALUE><![CDATA[Batérie]]></VALUE></INFORMATION_PARAMETER></INFORMATION_PARAMETERS>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ napájanie]]></NAME>
-    <VALUE><![CDATA[Batériové]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
-    <VALUE><![CDATA[IP44]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farva svetla]]></NAME>
-    <VALUE><![CDATA[Teplá biela]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>3.20</PRICE_VAT>
-<PURCHASE_PRICE>1.83</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Vonkajšia vianočná LED reťaz Solight 1V53-WW, 5 m, teplá biela, 50 LED, 8 funkcií]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED vonkajšia vianočná reťaz, 50LED, 5m, 8 funkcií, IP44, 3x AA, teplá biela – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight PIR interiérový senzor, do krabičky od vypínačov, funkcia zapnutia-vypnutia senzoru, biely]]></NAME>
@@ -10980,7 +10909,10 @@ Univerzálna nabíjačka pre Li-Ion, LiFePO4 a Ni-MH/CD batérie rôznych veľko
 <UNIT>ks</UNIT>
 <CODE>DN27</CODE>
 <EAN>8592718026424</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka batérií Li-Ion, LiFePO4, Ni-MH/CD, AA, AAA, 18650, 2000mA, 2 kanály, LCD displej - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn27.jpg?v2</IMAGE>
@@ -13181,8 +13113,8 @@ Svetelný reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete 
     <VALUE><![CDATA[24 mesiacov]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 19.10.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 19.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.69</WEIGHT></LOGISTIC>
@@ -13192,7 +13124,7 @@ Svetelný reťaz ponúka 8 rôznych svetelných módov, medzi ktorými nájdete 
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight ochranný box na káble a predlžovacie… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight ochranný box na káble a predlžovacie prívody IP54 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight ochranný box na káble a predlžovacie prívody IP54 – dostupné od 19.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight UTP CAT.5E kábel, RJ45 konektor - RJ45 konektor, sáčok, 3m]]></NAME>
@@ -13649,80 +13581,6 @@ Ovládanie je maximálne pohodlné vďaka priloženému diaľkovému ovládaču,
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED svetielka s diaľkovým ovládaním, 3x… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Solight LED svetielka s diaľkovým ovládaním, 3x 50lm, časovač, batériové napájanie – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Vonkajšia vianočná LED reťaz Solight 1V101-M, 10 m, viacfarebná, 100 LED, časovač, 8 funkcií, prívod 3 m, IP44]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="retaze"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18693" data-christmas-link="group">Vianočné LED reťaze →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-Viacfarebný LED svetelný reťaz pre vnútorné aj vonkajšie dekorácie Tento viacfarebný LED svetelný reťaz so 100 diódami je ideálnou voľbou na vytvorenie slávnostnej atmosféry doma aj na záhrade. Vďaka…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="retaze"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18693" data-christmas-link="group">Vianočné LED reťaze →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-<p><b>Viacfarebný LED svetelný reťaz pre vnútorné aj vonkajšie dekorácie</b><br>
-Tento viacfarebný LED svetelný reťaz so 100 diódami je ideálnou voľbou na vytvorenie slávnostnej atmosféry doma aj na záhrade. Vďaka dĺžke osvetleného kábla 10 m a prívodnému káblu 3 m ľahko ozdobíte stromček, pergolu, zábradlie alebo okná. Zelený kábel nenápadne splynie s vetvami či okolím a podčiarkne farebný efekt svetiel. Reťaz je určený na napájanie zo siete 230 V AC a s príkonom iba 2 W je energeticky úsporný. Stupeň krytia IP44 zaručuje bezpečné použitie ako v interiéri, tak vo vonkajšom prostredí, a to aj pri teplotách od -20 °C do +50 °C.</p>
-<p><b>Osem svetelných módov, pamäť a časovač pre maximálne pohodlie</b><br>
-Užite si osem rôznych svetelných efektov, medzi ktoré patrí napríklad blikanie, prelínanie svetla alebo stmievanie. Vďaka pamäťovej funkcii sa po zapnutí automaticky aktivuje naposledy zvolený mód, čo šetrí čas pri každodennom používaní. Praktický časovač umožňuje nastaviť automatické vypnutie po 6 hodinách a opätovné zapnutie po 18 hodinách, takže sa nemusíte starať o ručné ovládanie. Vzdialenosť medzi jednotlivými diódami je 10 cm, čo zaisťuje rovnomerné rozloženie svetla a pôsobivý vizuálny efekt v každom priestore.</p>
-<UL>
-<LI>počet LED diód: 100</LI>
-<LI>farba svetla: viacfarebná</LI>
-<LI>8 svetelných módov (blikanie, prelínanie svetla, stmievanie atď...)</LI>
-<LI>pamäťová funkcia - po zapnutia sa aktivuje naposledy použitý svetelný mód</LI>
-<LI>časovač 6h/18h - po 6h od zapnutia sa automaticky vypne a znovu zapne po 18h</LI>
-<LI>vnútorné i vonkajšie použitie</LI>
-<LI>vzdialenosť diód: 10cm</LI>
-<LI>dĺžka osvetleného kábla: 10m</LI>
-<LI>dĺžka prívodného kábla: 3m</LI>
-<LI>farba kábla: zelená</LI>
-<LI>príkon: 2W</LI>
-<LI>napájanie: 230V AC</LI>
-<LI>stupeň krytia: IP44 (vonkajšie i vnútorné použitie)</LI>
-<LI>pracovná teplota: -20°C až +50°C</LI>
-<LI>vhodné na vianočný stromček</LI>
-</UL><p><a href="https://www.solight.sk/documents/1v101-m_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/1v101-m_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vianocne-osvetlenie/">Vianočné osvetlenie a dekorácie</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>1V101-M</CODE>
-<EAN>8592718020521</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight LED vonkajšia vánočná reťaz, 100 LED, 10m, prívod 3m, 8 funkcií, časovač, IP44, viacfarebný - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v101-m.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vonkajšia vánočná reťaz, 100 LED, 10m, prívod 3m, 8 funkcií, časovač, IP44, viacfarebný - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v101-m_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vonkajšia vánočná reťaz, 100 LED, 10m, prívod 3m, 8 funkcií, časovač, IP44, viacfarebný - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v101-m_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vonkajšia vánočná reťaz, 100 LED, 10m, prívod 3m, 8 funkcií, časovač, IP44, viacfarebný - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v101-m_4.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vonkajšia vánočná reťaz, 100 LED, 10m, prívod 3m, 8 funkcií, časovač, IP44, viacfarebný - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v101-m_5.jpg?v2</IMAGE>
-</IMAGES>
-<INFORMATION_PARAMETERS><INFORMATION_PARAMETER><NAME><![CDATA[Druh vianočného osvetlenia]]></NAME><VALUE><![CDATA[Vianočné LED reťaze]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Použitie osvetlenia]]></NAME><VALUE><![CDATA[Vonkajšie aj vnútorné]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Farba vianočného svetla]]></NAME><VALUE><![CDATA[Farebné / RGB]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Časovač osvetlenia]]></NAME><VALUE><![CDATA[Áno]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Napájanie osvetlenia]]></NAME><VALUE><![CDATA[Sieťové]]></VALUE></INFORMATION_PARAMETER></INFORMATION_PARAMETERS>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
-    <VALUE><![CDATA[IP44]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ napájanie]]></NAME>
-    <VALUE><![CDATA[Sieťové]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farva svetla]]></NAME>
-    <VALUE><![CDATA[Viacfarebná]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.28</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>7.70</PRICE_VAT>
-<PURCHASE_PRICE>4.05</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Vonkajšia vianočná LED reťaz Solight 1V101-M, 10 m, viacfarebná, 100 LED, časovač]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED vonkajšia vánočná reťaz, 100 LED, 10m, prívod 3m, 8 funkcií, časovač, IP44, viacfarebný – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight napájací konektor pre LED pásy, 5,5 mm, rozbočka, 1x zdierka - 2x konektor, sáčok 1 pár]]></NAME>
@@ -17242,7 +17100,10 @@ Táto mikroprocesorom riadená nabíjačka ponúka 4 samostatné nabíjacie kan�
 <UNIT>ks</UNIT>
 <CODE>DN25</CODE>
 <EAN>8592718015886</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka s LCD displejom, AC 230V, 450mA, 4 kanály, AA/AAA, riadená mikroprocesorom - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn25.jpg?v2</IMAGE>
@@ -18057,8 +17918,8 @@ Tento LED pásik ponúka možnosť prepínania medzi 15 farbami a 4 farebnými e
     <VALUE><![CDATA[IP20]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 5.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 5.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -18068,7 +17929,7 @@ Tento LED pásik ponúka možnosť prepínania medzi 15 farbami a 4 farebnými e
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED svetelný pás, RGB, 3m, sada s 12V… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED svetelný pás, RGB, 3m, sada s 12V adaptérom a DO, 7,2W/m, IP20 – dostupné od 5.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED svetelný pás, RGB, 3m, sada s 12V adaptérom a DO, 7,2W/m, IP20 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight zástrčka gumová do vlhka a prachu, priama, IP65, čierna]]></NAME>
@@ -23843,8 +23704,8 @@ Lampička ponúka možnosť voľby teploty svetla medzi teplou, neutrálnou a st
     <VALUE><![CDATA[čierna]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.35</WEIGHT></LOGISTIC>
@@ -23854,7 +23715,7 @@ Lampička ponúka možnosť voľby teploty svetla medzi teplou, neutrálnou a st
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED stmievateľná stolná lampička s klipom,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED stmievateľná stolná lampička s klipom, 300lm, nastaviteľná teplota svetla, USB – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED stmievateľná stolná lampička s klipom, 300lm, nastaviteľná teplota svetla, USB – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED venkovné osvetlenie, prisadené, guľaté, IP54, 15W, 1150lm, 4000K, 22cm]]></NAME>
@@ -24631,7 +24492,11 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálnym 
 <UNIT>ks</UNIT>
 <CODE>CA01B</CODE>
 <EAN>8592718023690</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b.jpg?v2</IMAGE>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b_1.jpg?v2</IMAGE>
@@ -28618,8 +28483,8 @@ S príkonom 18 W a svetelným tokom 1530 lm poskytuje panel dostatok svetla pre 
     <VALUE><![CDATA[G]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -28629,7 +28494,7 @@ S príkonom 18 W a svetelným tokom 1530 lm poskytuje panel dostatok svetla pre 
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED mini panel CCT, podhľadový, 18W,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED mini panel CCT, podhľadový, 18W, 1530lm, 3000K, 4000K, 6000K, okrúhly – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight bezdrôtové bezbatériové tlačidlo pre 1L51, 150m, biele, learning code]]></NAME>
@@ -33082,124 +32947,6 @@ Pripravený na súčasné aj budúce AV technológie.</b></p>
 <META_DESCRIPTION><![CDATA[Solight HDMI kábel s Ethernetom, HDMI 2.0 A konektor - HDMI 2.0 A konektor, blister, 1,5m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Vianočné LED cencúle Solight 1V403-WW, 15 m, teplá biela, 300 LED, IP44]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="cencule"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18714" data-christmas-link="group">Svetelné cencúle →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-LED vianočná girlanda cencúle pre štýlové osvetlenie exteriéru aj interiéru Táto LED vianočná girlanda v tvare cencúľov je ideálnou voľbou na vytvorenie čarovnej atmosféry počas zimných sviatkov. S…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="cencule"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18714" data-christmas-link="group">Svetelné cencúle →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-<p><b>LED vianočná girlanda cencúle pre štýlové osvetlenie exteriéru aj interiéru</b><br>
-Táto LED vianočná girlanda v tvare cencúľov je ideálnou voľbou na vytvorenie čarovnej atmosféry počas zimných sviatkov. S celkovo 300 LED diódami v teplej bielej farbe 3000 K a vodorovnou dĺžkou osvetleného kábla 15 m krásne ozdobí fasádu domu, pergolu, balkón alebo interiér. Visiace cencúle sú rozmiestnené po 20 cm a ich dĺžky sa striedajú v usporiadaní 2/6/3/5/4 LED (20/60/30/50/40 cm), čo vytvára prirodzený efekt padajúceho ľadu. Transparentný kábel nenarúša celkový vzhľad dekorácie a vďaka dĺžke prívodného kábla 3 m je inštalácia veľmi flexibilná.</p>
-<p><b>Praktické funkcie a bezpečné použitie v každom počasí</b><br>
-Girlanda ponúka 8 nastaviteľných módov svietenia a blikania, ktoré možno ľahko prispôsobiť aktuálnej nálade alebo príležitosti. Praktický časovač 6 h/18 h zabezpečí automatické vypnutie po 6 hodinách prevádzky a opätovné zapnutie po 18 hodinách, čo šetrí energiu aj starosti. S príkonom 3,2 W a svetelným tokom 256 lm je girlanda úsporná a zároveň dostatočne jasná. Vďaka stupňu krytia IP44 je vhodná na vonkajšie aj vnútorné použitie a odolá teplotám od -20 °C do +50 °C. Napájanie je riešené vstupom 230 V AC a výstupom 31 V, čo zaisťuje bezpečnú prevádzku. Energetická trieda G zodpovedá moderným štandardom pre dekoratívne osvetlenie.</p>
-<UL>
-<LI>LED vianočná girlanda - cencúle</LI>
-<LI>počet LED diód: 300</LI>
-<LI>farba svetla: teplá biela 3000 K</LI>
-<LI>štýl usporiadania: visiace cencúle</LI>
-<LI>vodorovná dĺžka osvetleného kábla: 15 m</LI>
-<LI>celková dĺžka kábla: 18 m</LI>
-<LI>dĺžka prívodného kábla: 3 m (od zdroja k prvej žiarovke)</LI>
-<LI>rozostupy zvislých cencúľov: 20 cm</LI>
-<LI>zvislé usporiadanie žiaroviek: 2/6/3/5/4 LED (20/60/30/50/40 cm)</LI>
-<LI>na vonkajšie aj vnútorné použitie</LI>
-<LI>8 nastaviteľných módov svietenia/blikania</LI>
-<LI>časovač 6 h/18 h - po 6 h od zapnutia sa automaticky vypne a znovu zapne po 18 h</LI>
-<LI>farba kábla: transparentná</LI>
-<LI>príkon: 3,2 W</LI>
-<LI>svetelný tok: 256 lm</LI>
-<LI>napájanie: vstup 230 V AC / výstup 31 V</LI>
-<LI>stupeň krytia: IP44</LI>
-<LI>pracovná teplota: -20 °C až +50 °C</LI>
-<LI>energetická trieda: G</LI>
-</UL><p><a href="https://www.solight.sk/documents/1v403-WW_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/1v403-WW_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/1v403-WW_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vianocne-osvetlenie/">Vianočné osvetlenie a dekorácie</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>1v403-WW</CODE>
-<EAN>8592718049744</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww_4.jpg?v2</IMAGE>
-</IMAGES>
-<INFORMATION_PARAMETERS><INFORMATION_PARAMETER><NAME><![CDATA[Druh vianočného osvetlenia]]></NAME><VALUE><![CDATA[Svetelné cencúle]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Použitie osvetlenia]]></NAME><VALUE><![CDATA[Vonkajšie aj vnútorné]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Farba vianočného svetla]]></NAME><VALUE><![CDATA[Teplá biela]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Napájanie osvetlenia]]></NAME><VALUE><![CDATA[Sieťové]]></VALUE></INFORMATION_PARAMETER></INFORMATION_PARAMETERS>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Solight]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet LED diód]]></NAME>
-    <VALUE><![CDATA[300]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba svetla]]></NAME>
-    <VALUE><![CDATA[teplá biela 3000 K]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Štýl usporiadania]]></NAME>
-    <VALUE><![CDATA[visiace cencúle]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Celková dĺžka kábla]]></NAME>
-    <VALUE><![CDATA[18 m]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Dĺžka prívodného kábla]]></NAME>
-    <VALUE><![CDATA[3 m (od zdroja k prvej žiarovke)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozostupy zvislých cencúľov]]></NAME>
-    <VALUE><![CDATA[20 cm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Zvislé usporiadanie žiaroviek]]></NAME>
-    <VALUE><![CDATA[2/6/3/5/4 LED (20/60/30/50/40 cm)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba kábla]]></NAME>
-    <VALUE><![CDATA[transparentná]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Príkon]]></NAME>
-    <VALUE><![CDATA[3,2 W]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Svetelný tok]]></NAME>
-    <VALUE><![CDATA[256 lm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[biela]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.19</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>19.00</PRICE_VAT>
-<PURCHASE_PRICE>10.06</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Vianočné LED cencúle Solight 1V403-WW, 15 m, teplá biela, 300 LED, IP44]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod 3m, 4 zásuvky, vypínač, 16A/3680W, PVC, biely]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Predlžovací prívod na každodenné použitie Praktický biely predlžovací kábel s dĺžkou 3 metre a štyrmi zásuvkami umožní priviesť elektrickú energiu tam, kde nie je k dispozícii pevná zásuvka.…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>Predlžovací prívod na každodenné použitie</b><br>
@@ -35732,8 +35479,8 @@ LED pásik SMD3528 ponúka životnosť až 50 000 hodín a svetelný uhol 120°,
     <VALUE><![CDATA[G]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.40</WEIGHT></LOGISTIC>
@@ -35743,7 +35490,7 @@ LED pásik SMD3528 ponúka životnosť až 50 000 hodín a svetelný uhol 120°,
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED svetelný pás s testrom, 5m, sada s 12V… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED svetelný pás s testrom, 5m, sada s 12V adaptérom, 4,8W/m, IP65, teplá biela – dostupné od 30.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED svetelný pás s testrom, 5m, sada s 12V adaptérom, 4,8W/m, IP65, teplá biela – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight bezdrôtové tlačidlo pre 1L67, 1L68, 200m, biele, learning code, kryt na menovku]]></NAME>
@@ -36598,7 +36345,12 @@ Inštaluje sa do otvoru 50 mm v pracovnej doske. Modul je napájaný sieťovým 
 <UNIT>ks</UNIT>
 <CODE>V50</CODE>
 <EAN>8592718027186</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, max. AC 600V/600A, max. DC 600V, test diódy, bzučiak, odpor, teplota - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v50.jpg?v2</IMAGE>
@@ -36650,7 +36402,6 @@ Inštaluje sa do otvoru 50 mm v pracovnej doske. Modul je napájaný sieťovým 
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>12.50</PRICE_VAT>
 <PURCHASE_PRICE>7.46</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -42198,8 +41949,8 @@ Konštrukcia z kvalitného hliníka a PMMA zaručuje dlhú životnosť až 30 00
     <VALUE><![CDATA[Áno]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.85</WEIGHT></LOGISTIC>
@@ -42209,7 +41960,7 @@ Konštrukcia z kvalitného hliníka a PMMA zaručuje dlhú životnosť až 30 00
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED mini panel CCT, prisazený, 18W, 1530lm,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED mini panel CCT, prisazený, 18W, 1530lm, 3000K, 4000K, 6000K, štvorcový – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED mini panel CCT, prisazený, 18W, 1530lm, 3000K, 4000K, 6000K, štvorcový – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight prepäťová ochrana, 150J, 5 zásuviek, 1,5m, biela]]></NAME>
@@ -51279,8 +51030,8 @@ Prívod je navrhnutý na maximálne zaťaženie 2300 W, tzn. prúdové zaťažen
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.34</WEIGHT></LOGISTIC>
@@ -51290,7 +51041,7 @@ Prívod je navrhnutý na maximálne zaťaženie 2300 W, tzn. prúdové zaťažen
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight predlžovací prívod, 3 zásuvky, čierny, 3m | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, čierny, 3m – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, čierny, 3m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight koaxiálny kábel CC120, sáčok, 20m]]></NAME>
@@ -51520,8 +51271,8 @@ Zvonček ponúka výber z 36 melódií a možnosť nastavenia 4 úrovní hlasito
     <VALUE><![CDATA[1L67T]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 5.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 5.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
@@ -51531,7 +51282,7 @@ Zvonček ponúka výber z 36 melódií a možnosť nastavenia 4 úrovní hlasito
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 200m,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 200m, čierny, learning code – dostupné od 5.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček, do zásuvky, 200m, čierny, learning code – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight detektor dymu a oxidu uhoľnatého, LCD displej, 2x AA batérie]]></NAME>
@@ -52285,7 +52036,11 @@ Tradičné biele prevedenie s klasickým vzhľadom sa hodí do každej domácnos
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718033101</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>5879</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight WIFI zásuvka s meraním spotreby - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dty01wifi.jpg?v2</IMAGE>
@@ -52944,65 +52699,6 @@ Reflektor je vybavený pohybovým senzorom s detekčným uhlom 120° a dosahom a
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight elektrický sušiak uterákov 130W | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Solight elektrický sušiak uterákov 130W – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Konektor pre COB LED pásy 8 mm – jednoduché prepojenie s napájaním Tento konektor je určený na rýchle a bezpečné pripojenie COB LED pásov so šírkou 8 mm. Na jednej strane je vybavený konektorom,…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>Konektor pre COB LED pásy 8 mm – jednoduché prepojenie s napájaním</b><br>
-Tento konektor je určený na rýchle a bezpečné pripojenie COB LED pásov so šírkou 8 mm. Na jednej strane je vybavený konektorom, ktorý umožňuje jednoduché a pevné spojenie s LED pásom bez nutnosti spájkovania. Druhá strana je opatrená vodičmi, ktoré slúžia na pripojenie k napájaciemu zdroju, čo zabezpečuje spoľahlivý prenos energie a stabilnú prevádzku osvetlenia. Vďaka tomuto riešeniu je inštalácia LED pásikov výrazne jednoduchšia a zvládne ju aj menej skúsený používateľ.</p>
-<p><b>Praktické balenie a univerzálne využitie</b><br>
-Konektor je dodávaný v praktickom balení po 1 kuse v sáčku, čo umožňuje jednoduché skladovanie aj manipuláciu pri montáži. Je ideálnou voľbou pre domáce aj profesionálne inštalácie, kde je potrebné rýchlo a efektívne prepojiť COB LED pásy s napájacím zdrojom. Tento konektor šetrí čas, zvyšuje bezpečnosť a prispieva k dlhej životnosti celého LED systému.</p>
-<UL>
-<LI>prepojovací konektor pre COB LED pásy 8mm</LI>
-<LI>na jednej strane konektor, na druhej strane vodiče pre pripojenie na napájací zdroj</LI>
-<LI>balenie: sáčok 1ks</LI>
-</UL><p><a href="https://www.solight.sk/documents/wm91_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/led-pasiky/">LED pásiky a príslušenstvo</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>WM91</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>9</MINIMAL_AMOUNT>
-</STOCK>
-<EAN>8592718031329</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED pásiky a príslušenstvo]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm91.jpg?v2</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Solight]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Balenie]]></NAME>
-    <VALUE><![CDATA[sáčok 1ks]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>1.30</PRICE_VAT>
-<PURCHASE_PRICE>0.78</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Solight napájací konektor pre COB LED pásy,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod - na bubne, 4 zásuvky, 25m kábel guma-neoprén, 3x 2,5mm2, IP44]]></NAME>
@@ -55724,70 +55420,6 @@ Reflektor je vyrobený z kvalitného tlakovo liateho hliníka v elegantnej čier
 <META_DESCRIPTION><![CDATA[Solight LED reflektor Quick so senzorom, 20W, 1700lm, 4000K, IP44, čierny – dostupné od 3.11.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Solight LED ratanové srdce, 30x LED, 2x AA, 30cm]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[ratanové srdce s LED diódami počet LED diód: 30 farba svetla: teplá biela (žltá) napájanie: 2 x AA batérie (nie sú súčasťou) výdrž batérií: cca 100hodín (v závislosti na kvalite batérií) trieda…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<UL>
-<LI> ratanové srdce s LED diódami</LI>
-<LI> počet LED diód: 30</LI>
-<LI> farba svetla: teplá biela (žltá)</LI>
-<LI> napájanie: 2 x AA batérie (nie sú súčasťou)</LI>
-<LI> výdrž batérií: cca 100hodín (v závislosti na kvalite batérií)</LI>
-<LI> trieda ochrany: IP20 (vnútorné použitie)</LI>
-<LI> rozmer: 30 x 7 x 30cm</LI>
-<LI> farba: šedá</LI>
-<LI> balenie: farebná krabica</LI>
-</UL><p><a href="https://www.solight.sk/documents/1v245_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/1v245_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/1v245_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/1v245_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/1v245_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vianocne-osvetlenie/">Vianočné osvetlenie a dekorácie</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>1V245</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
-</STOCK>
-<EAN>8592718031787</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight LED ratanové srdce, 30x LED, 2x AA, 30cm - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v245.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED ratanové srdce, 30x LED, 2x AA, 30cm - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v245_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED ratanové srdce, 30x LED, 2x AA, 30cm - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v245_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED ratanové srdce, 30x LED, 2x AA, 30cm - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v245_4.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED ratanové srdce, 30x LED, 2x AA, 30cm - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v245_5.jpg?v2</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
-    <VALUE><![CDATA[IP20]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farva svetla]]></NAME>
-    <VALUE><![CDATA[Teplá biela]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ napájanie]]></NAME>
-    <VALUE><![CDATA[Batériové]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.38</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>3.90</PRICE_VAT>
-<PURCHASE_PRICE>2.24</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Solight LED ratanové srdce, 30x LED, 2x AA, 30cm | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED ratanové srdce, 30x LED, 2x AA, 30cm – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Solight LED kuchynské svietidlo T5, vypínač, 4W, 400lm, 4100K, 28cm]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[LED trubica T5 pre efektívne osvetlenie kuchynských liniek LED trubica T5 je ideálnou voľbou pre osvetlenie kuchynských liniek, kde oceníte jej neutrálne biele svetlo s teplotou chromatickosti 4100…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>LED trubica T5 pre efektívne osvetlenie kuchynských liniek</b><br>
@@ -57290,8 +56922,8 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
     <VALUE><![CDATA[Predlžovací prívod]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.28</WEIGHT></LOGISTIC>
@@ -57301,7 +56933,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod, 5 zásuviek, biely, 3m]]></NAME>
@@ -59424,8 +59056,8 @@ Každá z desiatich LED žiaroviek je od seba vzdialená 55 cm, čo zabezpečuje
     <VALUE><![CDATA[IP44]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 16.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 16.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 11.11.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 11.11.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.77</WEIGHT></LOGISTIC>
@@ -59435,7 +59067,7 @@ Každá z desiatich LED žiaroviek je od seba vzdialená 55 cm, čo zabezpečuje
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED vonkajšia reťaz s žiarovkami, 10… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED vonkajšia reťaz s žiarovkami, 10 žiaroviek, 5m +3m, 500lm, teplá biela – dostupné od 16.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED vonkajšia reťaz s žiarovkami, 10 žiaroviek, 5m +3m, 500lm, teplá biela – dostupné od 11.11.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 
 <SHOPITEM>
@@ -61351,8 +60983,8 @@ Biele prevedenie s čistými líniami pôsobí nenápadne a zároveň elegantne.
     <VALUE><![CDATA[1x CR2032]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 5.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 5.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
@@ -61362,7 +60994,7 @@ Biele prevedenie s čistými líniami pôsobí nenápadne a zároveň elegantne.
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight bezdrôtový zvonček, batériový, 200m, biely,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček, batériový, 200m, biely, learning code – dostupné od 5.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight bezdrôtový zvonček, batériový, 200m, biely, learning code – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight rozbočovač s USB A+C rychlonabíjačkou 20W PD, 2 x 10A, čierny, vypínač]]></NAME>
@@ -61510,8 +61142,8 @@ LED pásik je vybavený LED SMD5050 a SMD2835 s hustotou 90 LED/m, maximálnym p
     <VALUE><![CDATA[IP20]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.43</WEIGHT></LOGISTIC>
@@ -61521,7 +61153,7 @@ LED pásik je vybavený LED SMD5050 a SMD2835 s hustotou 90 LED/m, maximálnym p
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight wifi Smart LED svetelný pás, RGB, 5m, sada… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight wifi Smart LED svetelný pás, RGB, 5m, sada s adaptérom a dialkovým ovladačom – dostupné od 30.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight wifi Smart LED svetelný pás, RGB, 5m, sada s adaptérom a dialkovým ovladačom – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight vstavaná podlahová zásuvka, IP55, okrúhle viečko]]></NAME>
@@ -70759,8 +70391,8 @@ LED pásik vyniká nízkym príkonom 8 W/m a vysokou životnosťou až 50 000 ho
     <VALUE><![CDATA[4000 K]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -70770,7 +70402,7 @@ LED pásik vyniká nízkym príkonom 8 W/m a vysokou životnosťou až 50 000 ho
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED COB pásik, sada s adaptérom, vypínač,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED COB pásik, sada s adaptérom, vypínač, 5m, 8W/m, 800lm/m, neutrálna biela – dostupné od 30.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED COB pásik, sada s adaptérom, vypínač, 5m, 8W/m, 800lm/m, neutrálna biela – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod 20m, 1 zásuvka IP44, 3 x 2.5mm2, kábel guma-neoprén H07RN-F]]></NAME>
@@ -72171,8 +71803,8 @@ Lampa je vybavená kvalitným Li-Ion akumulátorom 3,7 V s kapacitou 2 x 1200 mA
     <VALUE><![CDATA[300]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 30.1.2027]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 30.1.2027]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.40</WEIGHT></LOGISTIC>
@@ -72182,7 +71814,7 @@ Lampa je vybavená kvalitným Li-Ion akumulátorom 3,7 V s kapacitou 2 x 1200 mA
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED nabíjacia kempingová lampa, 400lm,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED nabíjacia kempingová lampa, 400lm, Li-Ion, teplá biela – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED nabíjacia kempingová lampa, 400lm, Li-Ion, teplá biela – dostupné od 30.1.2027. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Sada 3 svietiacich LED vianočných darčekov Solight 1V304, 48 LED, IP44, 230 V]]></NAME>
@@ -72506,8 +72138,8 @@ Lampička umožňuje voľbu teploty svetla medzi 3000 K, 4000 K a 6500 K, takže
     <VALUE><![CDATA[3000-6000 K]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 2.10.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 2.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.35</WEIGHT></LOGISTIC>
@@ -72517,7 +72149,7 @@ Lampička umožňuje voľbu teploty svetla medzi 3000 K, 4000 K a 6500 K, takže
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED nabíjacia lampička Lucca, 120lm, zmena… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED nabíjacia lampička Lucca, 120lm, zmena CCT, stmievanie, čierna – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED nabíjacia lampička Lucca, 120lm, zmena CCT, stmievanie, čierna – dostupné od 2.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight LED čelové nabíjacie svietidlo, 3W, 150lm, zoom, Li-Ion]]></NAME>
@@ -74175,8 +73807,8 @@ Prívod je navrhnutý na maximálne zaťaženie 2300 W, t.j. prúdové zaťažen
     <VALUE><![CDATA[čierna]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.36</WEIGHT></LOGISTIC>
@@ -74186,7 +73818,7 @@ Prívod je navrhnutý na maximálne zaťaženie 2300 W, t.j. prúdové zaťažen
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight predlžovací prívod, 4 zásuvky, čierny, 3m | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 4 zásuvky, čierny, 3m – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 4 zásuvky, čierny, 3m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod, 6 zásuviek, biely, 3m]]></NAME>
@@ -75127,8 +74759,8 @@ Svietidlo je navrhnuté pre outdoorové použitie a spĺňa stupeň krytia IP44,
     <VALUE><![CDATA[IP44]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 25.10.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 25.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.51</WEIGHT></LOGISTIC>
@@ -75138,7 +74770,7 @@ Svietidlo je navrhnuté pre outdoorové použitie a spĺňa stupeň krytia IP44,
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED nabíjacie svietidlo, 1400lm, zoom,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED nabíjacie svietidlo, 1400lm, zoom, power bank, darčekové balenie, Li-Ion – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED nabíjacie svietidlo, 1400lm, zoom, power bank, darčekové balenie, Li-Ion – dostupné od 25.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod 5 zásuviek, USB A+C 20W PD, 3m, 3 x 1mm2, biely, vypínač]]></NAME>
@@ -76819,8 +76451,8 @@ S príkonom iba 20 W a svetelným tokom 1500 lm ponúka svietidlo vysokú účin
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 12.10.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 12.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -76830,7 +76462,7 @@ S príkonom iba 20 W a svetelným tokom 1500 lm ponúka svietidlo vysokú účin
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED vonkajšie osvetlenie oválne, 20W,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED vonkajšie osvetlenie oválne, 20W, 1500lm, 4000K, IP54, 26cm, sivá farba – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED vonkajšie osvetlenie oválne, 20W, 1500lm, 4000K, IP54, 26cm, sivá farba – dostupné od 12.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight ventilátor do kúpeľne]]></NAME>
@@ -76890,7 +76522,7 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.45</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>10.90</PRICE_VAT>
+<PRICE_VAT>12.50</PRICE_VAT>
 <PURCHASE_PRICE>8.33</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -77692,8 +77324,8 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
     <VALUE><![CDATA[1.5]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
@@ -77703,7 +77335,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight predlžovací prívod, 4 zásuvky, biely,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 4 zásuvky, biely, vypínač, 1,5m – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 4 zásuvky, biely, vypínač, 1,5m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod, 6 zásuviek, biely, 5m]]></NAME>
@@ -78453,18 +78085,18 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
     <VALUE><![CDATA[24 mesiacov]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 27.11.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 27.11.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.45</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
+<PRICE_VAT>12.90</PRICE_VAT>
 <PURCHASE_PRICE>8.72</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight ventilátor do kúpeľne | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight ventilátor do kúpeľne – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight ventilátor do kúpeľne – dostupné od 27.11.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight nepriamy germicidný UV žiarič]]></NAME>
@@ -78583,7 +78215,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <UNIT>ks</UNIT>
 <CODE>V52</CODE>
 <EAN>8592718041564</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
@@ -78649,13 +78286,84 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>8.90</PRICE_VAT>
 <PURCHASE_PRICE>6.04</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight profesionálný kliešťový multimeter, 10mA -… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Solight profesionálný kliešťový multimeter, 10mA - 1000A – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Solight rozbočovač s USB A+C nabíjačkou, 2 x 10A, biely, vypínač]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Rozbočovač a USB nabíjačka v jednom Tento praktický rozbočovač s integrovanou USB nabíjačkou je ideálne riešenie pre domácnosti, kde potrebujete pripojiť viac zariadení na jednom mieste – napríklad…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<p><b>Rozbočovač a USB nabíjačka v jednom</b><br>
+Tento praktický rozbočovač s integrovanou USB nabíjačkou je ideálne riešenie pre domácnosti, kde potrebujete pripojiť viac zariadení na jednom mieste – napríklad televízor, set-top box a zároveň nabíjať telefóny alebo tablety. Podsvietený vypínač umožňuje jednoduché vypnutie napájania všetkým zásuvkám a USB portom naraz. Vhodný všade tam, kde chcete mať rýchlu kontrolu a prehľad. Vďaka kompaktnému prevedeniu nezaberá zbytočne miesto.</p>
+<p><b>Bezpečné a inteligentné riešenie pre elektrické spotrebiče</b><br>
+Rozbočovač s vypínačom sa hodí všade tam, kde je z bezpečnostných dôvodov vhodné prerušiť napájanie spotrebičov pri odchode alebo dlhšej prestávke v používaní. Dve zásuvky zvládnu celkovú záťaž až 3680 W a umožnia pripojiť akýkoľvek spotrebič v kuchyni, obývačke, spálni alebo dielni. Vďaka natočeniu horných zásuviek je možné jednoducho manipulovať s USB káblami v spodnej zásuvke. Obe káble spotrebičov smerujú nadol a netrčia rôzne v priestore. Zásuvky sú navyše vybavené detskými poistkami, ktoré zabezpečia bezpečnú prevádzku aj v domácnostiach s malými členmi rodiny. Vďaka USB-A a USB-C portom môžete pohodlne nabíjať aj dve zariadenia súčasne – s celkovým výkonom až 17 W. Ideálne pre všetku USB elektroniku.</p>
+<UL>
+<LI>zásuvky 2 x 10 A / 230 V~</LI>
+<LI>max. 3680 W, 16 A</LI>
+<LI>detské poistky v zásuvkách</LI>
+<LI>USB A+C nabíjací adaptér2,4 A max. 12 W</LI>
+<LI>farba: biela</LI>
+<LI>vypínač</LI>
+</UL><p><a href="https://www.solight.sk/documents/p99usbc_cz%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (CZ)</a></p><p><a href="https://www.solight.sk/documents/p99usbc_en%20manual.pdf" target="_blank" rel="noopener">Stiahnuť: Manual (EN)</a></p><p><a href="https://www.solight.sk/documents/p99usbc_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/p99usbc_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p><p><a href="https://www.solight.sk/documents/p99usbc_sk%20n%C3%A1vod.pdf" target="_blank" rel="noopener">Stiahnuť: Návod (SK)</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vidlice-zasuvky-a-redukcie/">Vidlice, zásuvky a redukcie</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>P99USBC</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
+</STOCK>
+<EAN>8592718033118</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Vidlice, zásuvky a redukcie]]></DEFAULT_CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Solight rozbočovač s USB A+C nabíjačkou, 2 x 10A, biely, vypínač - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/p99usbc.jpg?v2</IMAGE>
+  <IMAGE description="Solight rozbočovač s USB A+C nabíjačkou, 2 x 10A, biely, vypínač - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/p99usbc_1.jpg?v2</IMAGE>
+  <IMAGE description="Solight rozbočovač s USB A+C nabíjačkou, 2 x 10A, biely, vypínač - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/p99usbc_2.jpg?v2</IMAGE>
+  <IMAGE description="Solight rozbočovač s USB A+C nabíjačkou, 2 x 10A, biely, vypínač - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/p99usbc_a.jpg?v2</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Vypínač]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
+    <VALUE><![CDATA[IP20]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[USB nabíjanie]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[biela]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet zásuviek]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>7.00</PRICE_VAT>
+<PURCHASE_PRICE>3.86</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Solight rozbočovač s USB A+C nabíjačkou, 2 x 10A,… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Solight rozbočovač s USB A+C nabíjačkou, 2 x 10A, biely, vypínač – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight vstavaná podlahová zásuvka, IP55, matná biela, obdĺžnikové viečko]]></NAME>
@@ -80388,7 +80096,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718041557</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, 20 - 200A - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v51.jpg?v2</IMAGE>
@@ -80452,7 +80165,6 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>6.40</PRICE_VAT>
 <PURCHASE_PRICE>3.89</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -81964,8 +81676,8 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, tzn. prúdové zaťaže
     <VALUE><![CDATA[1]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
@@ -81975,7 +81687,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, tzn. prúdové zaťaže
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight predlžovací prívod, 3 zásuvky, čierny, 2m | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, čierny, 2m – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod, 3 zásuvky, čierny, 2m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod, 4 zásuvky, biely, vypínač, 2m]]></NAME>
@@ -82653,8 +82365,8 @@ Napájací zdroj je vybavený stupňom krytia IP65, čo znamená, že je vodeodo
     <VALUE><![CDATA[24 mesiacov]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 30.9.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.44</WEIGHT></LOGISTIC>
@@ -82664,7 +82376,7 @@ Napájací zdroj je vybavený stupňom krytia IP65, čo znamená, že je vodeodo
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight LED napájací zdroj, 230V - 12V, 5A, 60W,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED napájací zdroj, 230V - 12V, 5A, 60W, IP65 – dostupné od 30.9.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight LED napájací zdroj, 230V - 12V, 5A, 60W, IP65 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight lightning kábel, USB 2.0 A konektor - Lightning konektor, silikón, 1m]]></NAME>
@@ -84301,8 +84013,8 @@ Prívod je navrhnutý na maximálne zaťaženie 3680 W, tzn. prúdové zaťažen
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.57</WEIGHT></LOGISTIC>
@@ -84312,7 +84024,7 @@ Prívod je navrhnutý na maximálne zaťaženie 3680 W, tzn. prúdové zaťažen
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight 1z predlžovací prívod - spojka, 15m, 3 x… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight 1z predlžovací prívod - spojka, 15m, 3 x 1,5mm2, oranžová – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight 1z predlžovací prívod - spojka, 15m, 3 x 1,5mm2, oranžová – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight teplomer]]></NAME>
@@ -88440,8 +88152,8 @@ Stĺpik môžete upevniť dvoma spôsobmi – pomocou montážnych otvorov na pe
     <VALUE><![CDATA[čierna]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 30.11.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 30.11.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 1.12.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 1.12.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.83</WEIGHT></LOGISTIC>
@@ -88451,7 +88163,7 @@ Stĺpik môžete upevniť dvoma spôsobmi – pomocou montážnych otvorov na pe
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight záhradný stĺpik IP44 s LED osvetlením,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight záhradný stĺpik IP44 s LED osvetlením, plast, 2 zásuvky, hranol, čierny – dostupné od 30.11.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight záhradný stĺpik IP44 s LED osvetlením, plast, 2 zásuvky, hranol, čierny – dostupné od 1.12.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight flexo šnúra, 2x 0,75mm2, biela, plochá, 2m]]></NAME>
@@ -89504,8 +89216,8 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, tzn. prúdové zaťaže
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.70</WEIGHT></LOGISTIC>
@@ -89515,7 +89227,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, tzn. prúdové zaťaže
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight 1z pohyblivý prívod - spojka, 20m, 2 x… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight 1z pohyblivý prívod - spojka, 20m, 2 x 1,5mm2, oranžová – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight 1z pohyblivý prívod - spojka, 20m, 2 x 1,5mm2, oranžová – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight 2z + USB A+C 17W, cestovný predlžovací prívod 1.5m, biely]]></NAME>
@@ -97617,8 +97329,8 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
     <VALUE><![CDATA[230 V]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 9.10.2026]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>2.02</WEIGHT></LOGISTIC>
@@ -97628,7 +97340,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight predlžovací prívod - spojka, 1 zásuvka,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod - spojka, 1 zásuvka, 20m, 3 x 1,5mm2, oranžová – dostupné od 9.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight predlžovací prívod - spojka, 1 zásuvka, 20m, 3 x 1,5mm2, oranžová – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Vianočná mikro LED reťaz Solight 1V55-W, 3 m, studená biela, 30 mini LED, 3 × AA, strieborný drôt]]></NAME>
@@ -102456,8 +102168,8 @@ Navrhnutý pre záťaž do 2300 W (10 A pri 230 V~). Vďaka 2-metrovému káblu 
     <VALUE><![CDATA[Nie]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[Dostupné od 30.11.2026]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Dostupné od 30.11.2026]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.15</WEIGHT></LOGISTIC>
@@ -102467,7 +102179,7 @@ Navrhnutý pre záťaž do 2300 W (10 A pri 230 V~). Vďaka 2-metrovému káblu 
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight infražiarič - vykurovací výkon 1200 W, 2… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight infražiarič - vykurovací výkon 1200 W, 2 nastaviteľné úrovne vykurovania – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<META_DESCRIPTION><![CDATA[Solight infražiarič - vykurovací výkon 1200 W, 2 nastaviteľné úrovne vykurovania – dostupné od 30.11.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight kovový oválny lampáš so žiarovkou s micro LED, teplá biela, medená, 3xAA, 18cm]]></NAME>
@@ -102698,6 +102410,13 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
 <META_DESCRIPTION><![CDATA[Solight digitálny časový spínač – dostupné od 29.10.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
   <SHOPITEM>
+    <CODE>1V101-M</CODE>
+    <EAN>8592718020521</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>1V215</CODE>
     <EAN>8592718023096</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -102707,6 +102426,13 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
   <SHOPITEM>
     <CODE>1V218</CODE>
     <EAN>8592718023102</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>1V245</CODE>
+    <EAN>8592718031787</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -102740,8 +102466,22 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>1v403-WW</CODE>
+    <EAN>8592718049744</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>1v404-CW</CODE>
     <EAN>8592718049751</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>1V53-WW</CODE>
+    <EAN>8592718018658</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -102805,6 +102545,13 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
   <SHOPITEM>
     <CODE>WD214</CODE>
     <EAN>8592718024628</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>WM91</CODE>
+    <EAN>8592718031329</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
