@@ -1461,5 +1461,19 @@
     "subject": "Re: Vaša objednávka č. 202601190 sa práve vybavuje",
     "orderCode": "202601190",
     "matchedBy": "code"
+  },
+  "<6ac0259e-2e25-434d-a988-341816c0cc58@seles.sk>": {
+    "draftedAt": "2026-10-13T21:30:17.782Z",
+    "from": "robert@seles.sk",
+    "subject": "Re: Vaša objednávka č. 202601266 sa práve vybavuje",
+    "orderCode": "202601266",
+    "matchedBy": "code"
+  },
+  "<98398E6E-E549-4C74-A91E-DF0F0AF965DD@gmail.com>": {
+    "draftedAt": "2026-10-13T21:30:25.477Z",
+    "from": "norbert.kovac.e60@gmail.com",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202601232",
+    "orderCode": "202601232",
+    "matchedBy": "code"
   }
 }
