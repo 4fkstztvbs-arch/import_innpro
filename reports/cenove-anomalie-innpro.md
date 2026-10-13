@@ -18,6 +18,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
+| 89056 | 5905156108318 | Nabíjačka Besen BS40 11 kW pre elektromobily s aplikáciou | nulová/neplatná cena |  | 0.00 € |  |  |
+| 89057 | 5905156108325 | Nabíjačka Besen BS40 22 kW pre elektromobily s aplikáciou | nulová/neplatná cena |  | 0.00 € |  |  |
+| 89058 | 5905156108332 | Solárna nabíjačka pre elektromobily Besen BS40 11 kW | nulová/neplatná cena |  | 0.00 € |  |  |
+| 89059 | 5905156108349 | Nabíjačka pre elektromobily Besen BS40 22 kW SOLAR-APP | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091991 | 6922572224681 | Filament eSun PLA-Wood 1.75mm 1kg (aspen) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091992 | 6922572224698 | Filament eSun PLA-Wood 1.75mm 1kg (walnut) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091993 | 6922572225329 | Filament eSun PLA-Wood 1.75mm 1kg (oak) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -450,10 +454,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093472 | 6975274260242 | Solar panel Allpowers SP033 200W foldable | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093473 | 6975274260174 | Elektráreň Allpowers S2000 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093474 | 6975274261065 | Elektráreň Allpowers VOLIX P300 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093475 | 6975274260198 | Power station Allpowers R4000 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093476 | 6975274260877 | Power station ALLPOWERS R1500 LITE | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093477 | 6975274260341 | Power station ALLPOWERS R2500 V2 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093478 | 6975274260419 | Power station Allpowers R600 299Wh | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093475 | 6975274260198 | Elektráreň Allpowers R4000 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093476 | 6975274260877 | Elektráreň ALLPOWERS R1500 LITE | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093477 | 6975274260341 | Elektráreň ALLPOWERS R2500 V2 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093478 | 6975274260419 | Napájací zdroj Allpowers R600 299 Wh | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093479 | 6975274260136 | Power bank Allpowers S200 200W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093480 | 6975274260525 | Cable Allpowers XT60 1.5m | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093481 | 6975274260570 | Solar connector ALLPOWERS type T for parallel connection | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -647,7 +651,13 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094445 | 6972792471440 | Wireless Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095441 | 6979127740363 | Prenosná elektráreň VTOMAN Jump 2200 2200W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094928 | 6924922272373 | Inteligentná LED žiarovka Yeelight D1 – balenie po 4 kusoch | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094929 | 6924922271253 | Inteligentné stropné svietidlo Yeelight S1 320 mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094930 | 6924922271260 | Inteligentné stropné svietidlo Yeelight S1 450 mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094931 | 6924922272137 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095441 | 6979127740363 | Prenosná elektráreň VTOMAN Jump 2200, 2200 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095442 | 6979127740356 | Prenosná elektráreň VTOMAN FlashSpeed300 300 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095443 | 6979127740349 | Prenosná elektráreň VTOMAN FlashSpeed600 600 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095444 | 6979127740875 | Prenosná elektráreň VTOMAN FlashSpeed1500 1500 W | nulová/neplatná cena |  | 0.00 € |  |  |
