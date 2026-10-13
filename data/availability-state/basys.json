@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 939,
+  "activeItemCount": 941,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -40,6 +40,11 @@
     {
       "key": "code:BASYS-AM 0504-ABD44",
       "code": "BASYS-AM 0504-ABD44",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-AVH-A240BT",
+      "code": "BASYS-AVH-A240BT",
       "ean": ""
     },
     {
@@ -465,6 +470,11 @@
     {
       "key": "code:BASYS-DCT-WR204-SH",
       "code": "BASYS-DCT-WR204-SH",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-DEH-4800FD",
+      "code": "BASYS-DEH-4800FD",
       "ean": ""
     },
     {
