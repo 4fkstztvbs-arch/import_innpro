@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600540,
+    "nextCardNumber": 202600548,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3236,6 +3236,54 @@
         "nazov": "Cellularline headset Bold černý,",
         "dodavatel": "kb",
         "code": "100001115644"
+      },
+      "4007486640313": {
+        "kod": "202600540",
+        "nazov": "Carrera Auto GO/GO+ 64031",
+        "dodavatel": "kb",
+        "code": "100000243725"
+      },
+      "5906006211431": {
+        "kod": "202600541",
+        "nazov": "Amica DRP 6412 DB",
+        "dodavatel": "kb",
+        "code": "100002062757"
+      },
+      "8445290870537": {
+        "kod": "202600542",
+        "nazov": "NESCAFÉ® DG® Ristretto Ardenza",
+        "dodavatel": "kb",
+        "code": "100002075022"
+      },
+      "8595689803711": {
+        "kod": "202600543",
+        "nazov": "TESLA SlowJuicer SJ770 XXL Deluxe",
+        "dodavatel": "kb",
+        "code": "100002101888"
+      },
+      "3149330009745": {
+        "kod": "202600544",
+        "nazov": "Sati Chocolat Chaud x10 caps",
+        "dodavatel": "kb",
+        "code": "100002128243"
+      },
+      "8445291452657": {
+        "kod": "202600545",
+        "nazov": "STARBUCKS® Dark roast 10ks",
+        "dodavatel": "kb",
+        "code": "100002130319"
+      },
+      "4006501726971": {
+        "kod": "202600546",
+        "nazov": "Leifheit Žehlicí prkno Air Board",
+        "dodavatel": "kb",
+        "code": "100002136221"
+      },
+      "8445291786240": {
+        "kod": "202600547",
+        "nazov": "STARBUCKS® CHOCOLATE",
+        "dodavatel": "kb",
+        "code": "100002199525"
       }
     }
   },
