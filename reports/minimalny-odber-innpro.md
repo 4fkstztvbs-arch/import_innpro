@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-14 09:08 UTC.
+Kontrola z 2026-10-14 14:47 UTC.
 
-InnPro pri **365** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **362** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -38,7 +38,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `026662` | Hlavový popruh Telesin pre športové kamery (GP-HMS-T04) | — | 5 |
 | `026663` | Dvojitý držiak Telesin J-Hook pre športové kamery (GP-MTB-T0 | — | 5 |
 | `027504` | Počítačový ventilátor ARGB Darkflash DR12 Pro (120x120) | — | 5 |
-| `027505` | Počítačový ventilátor RGB Darkflash D1 (120x120) | — | 5 |
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
 | `029279` | Zadné svetlo na bicykel Superfire BTL01, USB, 230 mAh | — | 5 |
@@ -129,7 +128,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060454` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 2 |
 | `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 5 |
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
-| `062330` | Štítky do termotlačiarne Niimbot 15x50 mm, 130 ks | — | 2 |
 | `062437` | Niimbot termálne nálepky 50x80 mm, 95 ks (biele) | — | 5 |
 | `055643` | Vodotesný snímač teploty Sonoff WTS01, RJ9 4P4C (THR316/320) | — | 5 |
 | `060927` | Main brush for MOVA M1 | — | 5 |
@@ -141,7 +139,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `065622` | Storage Bag Sunnylife for Insta360 X4 / X5 | — | 5 |
 | `065855` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (pur | — | 5 |
-| `063739` | DIN Rail wire connector Sonoff set (20 pcs) | — | 3 |
 | `066305` | Tempered Glass PULUZ  for Insta360 X4 / X5 | — | 5 |
 | `066277` | Housing Case PULUZ for GoPro Hero 9 / Hero 10 / Hero 11 / He | — | 5 |
 | `066397` | Magnetic Quick Release Mount PULUZ For DJI Osmo Action 5 Pro | — | 5 |
