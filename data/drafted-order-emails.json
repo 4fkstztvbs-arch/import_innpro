@@ -1496,5 +1496,12 @@
     "subject": "RE: Objednávka",
     "orderCode": null,
     "matchedBy": "none"
+  },
+  "<web-17248794@cgp-back-6.mail.zoznam.sk>": {
+    "draftedAt": "2026-10-14T19:44:14.722Z",
+    "from": "miroslav.sulko@zoznam.sk",
+    "subject": "Re: [PremiumStore.sk] Objednávka 202601222",
+    "orderCode": "202601222",
+    "matchedBy": "code"
   }
 }
