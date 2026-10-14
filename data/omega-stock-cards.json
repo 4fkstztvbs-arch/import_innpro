@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600550,
+    "nextCardNumber": 202600552,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3296,6 +3296,18 @@
         "nazov": "Hodiny spínací na DIN lištu ORNO OR-PRE-450 ASTRONOMIC",
         "dodavatel": "atos",
         "code": "SPR-2KZORPRE450"
+      },
+      "8595235807736": {
+        "kod": "202600550",
+        "nazov": "MAXXO rolky 2x28cmx3m",
+        "dodavatel": "kb",
+        "code": "491400015652"
+      },
+      "3838783100092": {
+        "kod": "202600551",
+        "nazov": "Gorenje WG2PS72A12",
+        "dodavatel": "kb",
+        "code": "100002204870"
       }
     }
   },
