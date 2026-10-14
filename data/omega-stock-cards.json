@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600548,
+    "nextCardNumber": 202600550,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3284,6 +3284,18 @@
         "nazov": "STARBUCKS® CHOCOLATE",
         "dodavatel": "kb",
         "code": "100002199525"
+      },
+      "5901890012935": {
+        "kod": "202600548",
+        "nazov": "Vysílač DO Univerzální ALIEN/Longer 2 CLR-79834-E4",
+        "dodavatel": "atos",
+        "code": "DOALIEN2"
+      },
+      "5908254824586": {
+        "kod": "202600549",
+        "nazov": "Hodiny spínací na DIN lištu ORNO OR-PRE-450 ASTRONOMIC",
+        "dodavatel": "atos",
+        "code": "SPR-2KZORPRE450"
       }
     }
   },
