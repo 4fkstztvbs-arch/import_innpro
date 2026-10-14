@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 941,
+  "activeItemCount": 936,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -175,11 +175,6 @@
     {
       "key": "code:BASYS-B 841165-0120",
       "code": "BASYS-B 841165-0120",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-B 843090-0110",
-      "code": "BASYS-B 843090-0110",
       "ean": ""
     },
     {
@@ -448,11 +443,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-CD-R33",
-      "code": "BASYS-CD-R33",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-CD-SR110",
       "code": "BASYS-CD-SR110",
       "ean": ""
@@ -460,11 +450,6 @@
     {
       "key": "code:BASYS-COBALT",
       "code": "BASYS-COBALT",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-CT100",
-      "code": "BASYS-CT100",
       "ean": ""
     },
     {
@@ -1175,11 +1160,6 @@
     {
       "key": "code:BASYS-TS-W32S4",
       "code": "BASYS-TS-W32S4",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-TS-W3820PRO",
-      "code": "BASYS-TS-W3820PRO",
       "ean": ""
     },
     {
@@ -4228,11 +4208,6 @@
       "ean": "4033653220163"
     },
     {
-      "key": "ean:4033653220217",
-      "code": "BASYS-MIC BOOSTER CT 1",
-      "ean": "4033653220217"
-    },
-    {
       "key": "ean:4033653220286",
       "code": "BASYS-TC 000-E5I00",
       "ean": "4033653220286"
@@ -4725,6 +4700,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B 843090-0110",
+      "code": "BASYS-B 843090-0110",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-B 887612-0400",
       "code": "BASYS-B 887612-0400",
       "ean": ""
@@ -4747,6 +4727,16 @@
     {
       "key": "code:BASYS-BD 1000310",
       "code": "BASYS-BD 1000310",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-CD-R33",
+      "code": "BASYS-CD-R33",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-CT100",
+      "code": "BASYS-CT100",
       "ean": ""
     },
     {
@@ -4777,6 +4767,11 @@
     {
       "key": "code:BASYS-TC 000-C3200",
       "code": "BASYS-TC 000-C3200",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TS-W3820PRO",
+      "code": "BASYS-TS-W3820PRO",
       "ean": ""
     },
     {
@@ -4863,6 +4858,11 @@
       "key": "ean:4033653080897",
       "code": "BASYS-DI 10P",
       "ean": "4033653080897"
+    },
+    {
+      "key": "ean:4033653220217",
+      "code": "BASYS-MIC BOOSTER CT 1",
+      "ean": "4033653220217"
     },
     {
       "key": "ean:8432426449149",
