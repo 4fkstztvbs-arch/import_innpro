@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600558,
+    "nextCardNumber": 202600563,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3344,6 +3344,36 @@
         "nazov": "BRANY Pohon EXTEL XV250 pro 2 křídlá vrata/brány, max 250cm/250kg, Wi-Fi",
         "dodavatel": "atos",
         "code": "ATO-761003P"
+      },
+      "6974760350450": {
+        "kod": "202600558",
+        "nazov": "HL31 Headlight 2200lm",
+        "dodavatel": "innpro",
+        "code": "038833"
+      },
+      "6972436985548": {
+        "kod": "202600559",
+        "nazov": "Colmi Smartwatch P81 Black",
+        "dodavatel": "innpro",
+        "code": "069207"
+      },
+      "5905156101104": {
+        "kod": "202600560",
+        "nazov": "PULUZ 50cm Folding",
+        "dodavatel": "innpro",
+        "code": "082634"
+      },
+      "6975116294138": {
+        "kod": "202600561",
+        "nazov": "Rojeco Pet Feeder Feeder",
+        "dodavatel": "innpro",
+        "code": "092699"
+      },
+      "6923520248544": {
+        "kod": "202600562",
+        "nazov": "Edifier W830NB Ivory",
+        "dodavatel": "innpro",
+        "code": "082792"
       }
     }
   },
