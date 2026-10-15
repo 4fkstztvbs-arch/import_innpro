@@ -2,7 +2,7 @@
 
 - CHANGE_ID: PS-20261015-HEUREKA-VLNA-4-INNPRO-SOLIGHT
 - DATE: 2026-10-15
-- STATUS: PREPARED, NOT DEPLOYED (čaká na schválenie pushu do main)
+- STATUS: DEPLOYED (pushnuté do main 2026-10-15; efekt v XML po nočných behoch dodávateľov)
 - ACTOR: Claude (agent), na pokyn majiteľa
 - AREA: Heureka CPC feed (HEUREKA_HIDDEN), InnPro a Solight
 - SCOPE: data/heureka-reports/cpc-hidden-products.json (+123 položiek, vlna 4)
@@ -15,11 +15,11 @@
 - GUARDRAIL_METRICS: počet objednávok z Heureky za týždeň (nesmie klesnúť o viac ako ~10 %), hrubý zisk z Heureky.
 - IMPLEMENTATION: skript v scratchpade porovnal CPC reporty 10.8.–9.10. a 1.–15.10. (bez 15.10., deduplikované po dňoch), spároval produkty s output/*.xml cez CODE (bez prefixov KB_, AT_, PEN_, SOL_) a vybral kandidátov; EAN doplnené na 13 miest.
 - FILES_CHANGED: data/heureka-reports/cpc-hidden-products.json, agent/change-ledger/PS-20261015-HEUREKA-VLNA-4-INNPRO-SOLIGHT.md
-- COMMIT / PR: vetva heureka-vlna-4-innpro-solight, nepushnuté
-- APPROVAL / APPROVER: čaká na majiteľa (pokyn „vylúčme tiež“ z 2026-10-15 chápaný ako zadanie, nie ako schválenie pushu)
+- COMMIT / PR: 73a5d18 priamo do main
+- APPROVAL / APPROVER: majiteľ, 2026-10-15 („Schvaľujem vlnu 4, pushni vetvu … do main“)
 - EXPERIMENT_ID: —
 - PRE_DEPLOY_VALIDATION: JSON validný, 123 nových kľúčov, žiadny nekoliduje s existujúcim; diff obsahuje len pridané záznamy; formát rovnaký ako vlna 1.
-- DEPLOYED_AT: —
+- DEPLOYED_AT: push 2026-10-15; HEUREKA_HIDDEN sa zapíše pri najbližších behoch InnPro/Solight
 - POST_DEPLOY_VALIDATION: po nočných behoch InnPro/Solight skontrolovať, že 123 EAN má HEUREKA_HIDDEN; po 7 dňoch skontrolovať, že kliky na nich ustali.
 - RESULT: —
 - DECISION: 12.11. vyhodnotiť uvoľnenie (viď týždenná kontrola).
