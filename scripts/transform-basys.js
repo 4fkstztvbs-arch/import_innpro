@@ -215,8 +215,8 @@ function buildShopitemXml(p) {
   }
   if (p.onPromo) parts.push('<FLAGS><ACTION>1</ACTION><NEW>0</NEW><TIP>0</TIP></FLAGS>');
   // Zrušenie starej akcie v e-shope (Shoptet neexistujúci ACTION_PRICE sám nevymaže): produkt z cenníka bez aktívnej akcie
-  // dostane príznak Akcia 0 a ACTION_PRICE = regulárna cena (rovnaký princíp ako clearSaleState v apply-missing-availability.js).
-  else if (p.resetAction) parts.push('<FLAGS><ACTION>0</ACTION></FLAGS>');
+  // dostane príznak Akcia 0 (formát FLAG/CODE/ACTIVE ako v exporte Shoptetu; skrátený <ACTION>0</ACTION> import 15. 10. 2026 pri existujúcich kartách ignoroval) a ACTION_PRICE = regulárna cena (rovnaký princíp ako clearSaleState v apply-missing-availability.js).
+  else if (p.resetAction) parts.push('<FLAGS><FLAG><CODE>action</CODE><ACTIVE>0</ACTIVE></FLAG></FLAGS>');
   parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
   parts.push(`<VISIBLE>${p.hidden ? 0 : 1}</VISIBLE>`);
   parts.push(`<VISIBILITY>${p.hidden ? 'hidden' : 'visible'}</VISIBILITY>`);
