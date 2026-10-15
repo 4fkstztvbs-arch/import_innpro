@@ -8496,6 +8496,7 @@
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="GUZZANTI GZ 102A">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Guzzanti/100002076695-202.jpg</IMAGE>
 </IMAGES>
@@ -15836,6 +15837,7 @@
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>706</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Albrecht DR 54">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Albrecht/100001189059-202.jpg</IMAGE>
 </IMAGES>
@@ -24917,6 +24919,7 @@
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="G3Ferrari Dvouplotýnka, G10047 dvouplotý">https://img.b2b.k-b.cz/fotocache/mid/images/orig/g3ferrari/100002144008-202.jpg</IMAGE>
 </IMAGES>
@@ -27726,6 +27729,7 @@
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Domo DO42323PC">https://img.b2b.k-b.cz/fotocache/mid/images/orig/DOMO/100000431965-202.jpg</IMAGE>
 </IMAGES>
@@ -36290,14 +36294,17 @@
 <NAME><![CDATA[Pioneer GM-A6704 zesilovač]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[MAX 1000W, 4-kanálový, RMS 4x60W(4?) nebo 2x190W(4? do můstku) nebo 4x95W(2?), Frekvence 10Hz - 70kHz, THD <0.05%, SN Ratio > 95dB,A-Ch HPF 40-500Hz / LPF 80Hz, B-Ch HPF 80Hz / LPF 80Hz, BassBoost 50Hz/0/6/12 dB, rozměr 326x215x60]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[MAX 1000W, 4-kanálový, RMS 4x60W(4?) nebo 2x190W(4? do můstku) nebo 4x95W(2?), Frekvence 10Hz - 70kHz, THD <0.05%, SN Ratio > 95dB,A-Ch HPF 40-500Hz / LPF 80Hz, B-Ch HPF 80Hz / LPF 80Hz, BassBoost 50Hz/0/6/12 dB, rozměr 326x215x60
-<p>Ďalšie produkty nájdete v kategórii <a href="/elektronika-do-auta/">Elektronika do auta</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/audio-technika/">Audio technika</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Pioneer]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>700001205770</CODE>
 <EAN>0884938340274</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Auto-moto > Elektronika do auta]]></CATEGORY><CATEGORY><![CDATA[Auto-moto]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pioneer GM-A6704 zesilovač">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Pioneer/700001205770-202.jpg</IMAGE>
 </IMAGES>
@@ -40065,6 +40072,7 @@
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="G3Ferrari G1019900">https://img.b2b.k-b.cz/fotocache/mid/images/orig/g3ferrari/100002127138-202.jpg</IMAGE>
 </IMAGES>
@@ -43459,6 +43467,7 @@
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="DOMO DO42326PC">https://img.b2b.k-b.cz/fotocache/mid/images/orig/DOMO/100000286038-202.jpg</IMAGE>
 </IMAGES>
@@ -44123,6 +44132,7 @@
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Superior Wheel Wash Slim">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Superior/100002200370-202.jpg</IMAGE>
 </IMAGES>
@@ -53075,6 +53085,7 @@
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="G3Ferrari G2014800 Elektrický nůž">https://img.b2b.k-b.cz/fotocache/mid/images/orig/g3ferrari/100002127071-202.jpg</IMAGE>
 </IMAGES>
@@ -61182,6 +61193,7 @@
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="LIMO BAR TWIN - Black/Silver">https://img.b2b.k-b.cz/fotocache/mid/images/orig/LimoBar/100000729324-202.jpg</IMAGE>
 </IMAGES>
@@ -62612,6 +62624,7 @@
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
   <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="YAMAHA R-S202D SILVER">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Yamaha/130212734555-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/32741370_2114.jpg</IMAGE>
@@ -76415,6 +76428,7 @@
   <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>2873</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Samsung OLED QE65S85H">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Samsung/100002203102-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/28878d5857a273f3ed646f268ef4d9041e62c1cb.jpg</IMAGE>
@@ -76593,7 +76607,6 @@
 <LOGISTIC><WEIGHT>24.00</WEIGHT></LOGISTIC>
 <ATYPICAL_PRODUCT><ATYPICAL_SHIPPING>1</ATYPICAL_SHIPPING></ATYPICAL_PRODUCT>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <PRICE_VAT>1353.50</PRICE_VAT>
 <PURCHASE_PRICE>1000.06</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -84073,6 +84086,7 @@
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>706</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Maxxo rádio DAB+/FM PB01">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Maxxo/100000729210-202.jpg</IMAGE>
 </IMAGES>
@@ -99199,6 +99213,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Girmi FG2701">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Girmi/100002202141-202.jpg</IMAGE>
 </IMAGES>
@@ -105834,6 +105849,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>706</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Maxxo CD03 rádio">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Maxxo/100001807476-202.jpg</IMAGE>
 </IMAGES>
@@ -115259,6 +115275,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>706</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Philips TAR4600 Rádiobudík">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Philips/100002141553-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/3826edce6a3fff30adae17b11c09134a7195af80.jpg</IMAGE>
@@ -116408,6 +116425,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Beko BDFN26540XP">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Beko/100002164682-202.jpg</IMAGE>
 </IMAGES>
@@ -124213,6 +124231,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Varenie a pečenie]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Electrolux EHF6547FXK">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Electrolux/100002064998-202.jpg</IMAGE>
 </IMAGES>
@@ -129226,6 +129245,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Rowenta RO4B75EA">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Rowenta/100001932359-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/107935467_9933733130.jpg</IMAGE>
@@ -135964,6 +135984,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Beko BDFS26046XQ">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Beko/100001947413-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/101856067_2186236138.jpg</IMAGE>
@@ -137183,6 +137204,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Domo DO 264 AP">https://img.b2b.k-b.cz/fotocache/mid/images/orig/DOMO/100000708685-202.jpg</IMAGE>
 </IMAGES>
@@ -142840,6 +142862,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Ariete Pizzeria 927/01, černá">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Ariete/100002130476-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/b6cccd14eb97db54d65dda8229bbb5a7.jpg</IMAGE>
@@ -143056,6 +143079,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="GUZZANTI GZ 220A">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Guzzanti/100000190763-202.jpg</IMAGE>
 </IMAGES>
@@ -162066,6 +162090,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="LG F4A10S7NWH">https://img.b2b.k-b.cz/fotocache/mid/images/orig/LG/100002202679-202.jpg</IMAGE>
 </IMAGES>
@@ -167172,6 +167197,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="DOMO DO353VD">https://img.b2b.k-b.cz/fotocache/mid/images/orig/DOMO/100000159692-202.jpg</IMAGE>
 </IMAGES>
@@ -176960,6 +176986,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>719</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Strong LEAP-NEVE 4K UHD Streaming Dongle">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Strong/100002129680-202.jpg</IMAGE>
 </IMAGES>
@@ -189944,6 +189971,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="G3Ferrari G2017500">https://img.b2b.k-b.cz/fotocache/mid/images/orig/g3ferrari/100002202091-202.jpg</IMAGE>
 </IMAGES>
@@ -209258,6 +209286,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Aligator Watch GPS Silver">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Aligator/100002137072-202.jpg</IMAGE>
 </IMAGES>
@@ -219400,6 +219429,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="POCO F9 PRO 12/256GB White">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Poco/100002204343-202.jpg</IMAGE>
 </IMAGES>
@@ -219507,6 +219537,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Guzzanti GZ 06A1">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Guzzanti/100002130322-202.jpg</IMAGE>
 </IMAGES>
@@ -223496,6 +223527,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Varenie a pečenie]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Gorenje GECS5C70XPA">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Gorenje/100001916452-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/4b20acd24c0ccef602b9c771b5716ac03009446e.jpg</IMAGE>
@@ -224238,6 +224270,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>719</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Strong SRT 420 Android TV box">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Strong/100001950904-202.jpg</IMAGE>
 </IMAGES>
@@ -224639,6 +224672,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Maxxo Chamber Line 40">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Maxxo/100001377306-202.jpg</IMAGE>
 </IMAGES>
@@ -228132,6 +228166,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <CODE>100002203374</CODE>
 <EAN>8594182433449</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače]]></CATEGORY></CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Niceboy Hurricane H7 Plus">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Niceboy/100002203374-202.jpg</IMAGE>
 </IMAGES>
@@ -234532,14 +234567,14 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[Marvo Volant GT-903 volant s pedály]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Volant s pedály a řadící pákou; 16 tlačítek; Plug and Play; připojení: kabelové USB; délka kabelu: 1,9m; velikost volantu cca 220x270x230mm; velikost pedálů cca 210x200x130mm; kompatibilní s: PC/PS3/PS4/XBOX ONE/XBOX 360/Android/NINTENDO SWITCH/Windows Vi]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Volant s pedály a řadící pákou; 16 tlačítek; Plug and Play; připojení: kabelové USB; délka kabelu: 1,9m; velikost volantu cca 220x270x230mm; velikost pedálů cca 210x200x130mm; kompatibilní s: PC/PS3/PS4/XBOX ONE/XBOX 360/Android/NINTENDO SWITCH/Windows Vista/7/8/8.1/10. *nutnost zapojení kabelem.
-<p>Ďalšie produkty nájdete v kategórii <a href="/herne-simulatory/">Herné simulátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/volanty-a-pretekarske-ovladace/">Volanty a pretekárske ovládače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Marvo]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100001519273</CODE>
 <EAN>8590274766150</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Marvo Volant GT-903 volant s pedály">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Marvo/100001519273-202.jpg</IMAGE>
 </IMAGES>
@@ -239456,6 +239491,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Ariete Capri Citrusovač 413/CA">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Ariete/100002136640-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/1915dded31bdcf05a0a96e9f9ee7c0214bbec846.jpg</IMAGE>
@@ -255322,6 +255358,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Tefal MY700BF0">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Tefal/100002171996-202.jpg</IMAGE>
 </IMAGES>
@@ -255568,6 +255605,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Indesit BTW S6240P EU/N">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Indesit/100001844091-202.jpg</IMAGE>
 </IMAGES>
@@ -258412,6 +258450,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Vykurovanie a ohrev vody]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Domo DO7345H">https://img.b2b.k-b.cz/fotocache/mid/images/orig/DOMO/100000392652-202.jpg</IMAGE>
 </IMAGES>
@@ -259199,6 +259238,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Tefal VC139810">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Tefal/100001411595-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/d8781d18bf8688a4ee1b167d38bd759e23299cab.jpg</IMAGE>
@@ -262784,6 +262824,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Tefal B864SA74">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Tefal/100002003148-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/101929622_5775669925.jpg</IMAGE>
@@ -271398,6 +271439,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="ETA Ambo III 5075 90000 šedý/bílá">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Eta/100001259470-202.jpg</IMAGE>
 </IMAGES>
@@ -275218,14 +275260,18 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[LENOVO adaptér TAB 68W AC USB ZG38C05739]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Lenovo adaptér TAB 68W AC USB-C Wall-Mount , nabíječka USB-C pro všechny tablety kompatibilní s USB-C power deliverydélka kabelu:1,5m; hmotnost: 89,9g]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Lenovo adaptér TAB 68W AC USB-C Wall-Mount , nabíječka USB-C pro všechny tablety kompatibilní s USB-C power deliverydélka kabelu:1,5m; hmotnost: 89,9g
-<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky-pre-mobily/">Nabíjačky pre mobily</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/tablety-4/">Tablety</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lenovo]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002079522</CODE>
 <EAN>0197531544216</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="LENOVO adaptér TAB 68W AC USB ZG38C05739">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Lenovo/100002079522-202.jpg</IMAGE>
@@ -294446,6 +294492,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="TP-LINK Tapo C320WS">https://img.b2b.k-b.cz/fotocache/mid/images/orig/TP-Link/100001575421-202.png</IMAGE>
 </IMAGES>
@@ -304171,6 +304218,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Tesla GSM-LTE zesil. sig. 900/1800 MHz">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Tesla/100000219769-202.jpg</IMAGE>
 </IMAGES>
@@ -311343,6 +311391,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Beko B3BCNA324HS">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Beko/100002201158-202.jpg</IMAGE>
 </IMAGES>
@@ -314744,6 +314793,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Vykurovanie a ohrev vody]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Ardes 4C05">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Ardes/100001881355-202.jpg</IMAGE>
 </IMAGES>
@@ -318378,6 +318428,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>706</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Albrecht DR 760">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Albrecht/100002164103-202.jpg</IMAGE>
 </IMAGES>
@@ -329275,6 +329326,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Beko HSM14540">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Beko/100002201684-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/3d031b109beb73f31b3d8958a8743cd372a9e77d.jpg</IMAGE>
@@ -335256,6 +335308,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Značka]]></NAME>
@@ -340379,6 +340432,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Varenie a pečenie]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Varenie a pečenie > Mikrovlnné rúry]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="BEKO BMGB25332BG">https://img.b2b.k-b.cz/fotocache/mid/images/orig/BEKO/100001483432-202.jpg</IMAGE>
 </IMAGES>
@@ -341678,6 +341732,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Candy GD 49B8G-S">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Candy/100002203030-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/2f484a2f5919675ea2b0130841680f6f86ba3760.jpg</IMAGE>
@@ -343715,6 +343770,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="POCO F9 Ultra 16/512GB Black">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Poco/100002204356-202.jpg</IMAGE>
 </IMAGES>
@@ -343753,7 +343809,6 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>1022.50</PRICE_VAT>
 <PURCHASE_PRICE>755.47</PURCHASE_PRICE>
@@ -344781,6 +344836,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Tefal OptiGrill GC7P0810">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Tefal/100002196718-202.jpg</IMAGE>
   <IMAGE>https://images.icecat.biz/img/gallery/c1a74f5df94c9efc0c56b0cef9cd5e7a.jpg</IMAGE>
@@ -355335,6 +355391,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Veľké domáce spotrebiče]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Gorenje NRK620EABK4">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Gorenje/100002202001-202.jpg</IMAGE>
 </IMAGES>
@@ -361740,6 +361797,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
   <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
 </CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Thomson MIC201IBT">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Thomson/100001010569-202.jpg</IMAGE>
 </IMAGES>
