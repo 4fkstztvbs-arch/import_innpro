@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600563,
+    "nextCardNumber": 202600572,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3374,6 +3374,60 @@
         "nazov": "Edifier W830NB Ivory",
         "dodavatel": "innpro",
         "code": "082792"
+      },
+      "5905316141506": {
+        "kod": "202600563",
+        "nazov": "HiBrew H2B-black coffe",
+        "dodavatel": "innpro",
+        "code": "041916"
+      },
+      "6975114120149": {
+        "kod": "202600564",
+        "nazov": "Arzopa Potrable Monitor",
+        "dodavatel": "innpro",
+        "code": "066844"
+      },
+      "6923520247868": {
+        "kod": "202600565",
+        "nazov": "Edifier W800BT Pro",
+        "dodavatel": "innpro",
+        "code": "065952"
+      },
+      "6975377554941": {
+        "kod": "202600566",
+        "nazov": "RCA-02 Gen 2 Air #13",
+        "dodavatel": "innpro",
+        "code": "082724"
+      },
+      "6976297860570": {
+        "kod": "202600567",
+        "nazov": "Mini Air Pump Cycplus",
+        "dodavatel": "innpro",
+        "code": "083105"
+      },
+      "6928819536708": {
+        "kod": "202600568",
+        "nazov": "xTool WonderPress",
+        "dodavatel": "innpro",
+        "code": "092223"
+      },
+      "6971131385158": {
+        "kod": "202600569",
+        "nazov": "Router GL.iNet GL-BE6500",
+        "dodavatel": "innpro",
+        "code": "093438"
+      },
+      "6975069308944": {
+        "kod": "202600570",
+        "nazov": "Cat Litter Mat for PURA",
+        "dodavatel": "innpro",
+        "code": "094202"
+      },
+      "6971131385622": {
+        "kod": "202600571",
+        "nazov": "Remote KVM GL.iNet",
+        "dodavatel": "innpro",
+        "code": "093441"
       }
     }
   },
