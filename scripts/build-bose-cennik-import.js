@@ -318,6 +318,7 @@ if (WRITE_DATA) {
     _comment: 'Bose produkty z e-shopu, ktoré NIE sú v cenníku BaSys/Bose (stav 2026-10-15). BASYS feed ich vždy exportuje ako "Na objednávku", cena zostáva z BASYS feedu (tu je posledná známa z e-shopu pre prípad, že ich feed prestane posielať). Generuje scripts/build-bose-cennik-import.js --write-data.',
     generated: TODAY, items: onOrderManifest.map(({ id, ...r }) => r),
   }, null, 1) + '\n');
+  fs.writeFileSync(path.join(ROOT, 'data/basys-bose-shop-skus.json'), JSON.stringify({ _comment: 'SKU z cenníka, ktoré už majú kartu v e-shope (stav 2026-10-15); ostatné SKU z cenníka feed zakladá skryté, kým nemajú fotky.', skus: [...usedSkus].sort() }, null, 1) + '\n');
   Object.assign(contentRegistry, newOverrides);
   fs.writeFileSync(contentPath, JSON.stringify(contentRegistry, null, 2) + '\n');
 }

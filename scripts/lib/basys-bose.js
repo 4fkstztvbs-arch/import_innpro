@@ -39,4 +39,26 @@ function loadOnOrder() {
   return onOrder;
 }
 
-module.exports = { normCode, weightKgFor, loadOnOrder };
+const CATALOG_PATH = path.join(DATA_DIR, 'basys-bose-catalog.json');
+const SHOP_SKUS_PATH = path.join(DATA_DIR, 'basys-bose-shop-skus.json');
+let catalog, shopSkus;
+const escH = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+// Popis z katalógu BaSys/Bose (PDF) + cenníka (xlsx) pre produkt z cenníka: nadpis, odstavec, odrážky, technický popis.
+function catalogDescription(objKod) {
+  if (!catalog) catalog = fs.existsSync(CATALOG_PATH) ? JSON.parse(fs.readFileSync(CATALOG_PATH, 'utf8')).items : {};
+  const e = catalog[objKod] || Object.entries(catalog).find(([k]) => normCode(k) === normCode(objKod))?.[1];
+  if (!e) return '';
+  const parts = [];
+  if (e.headline) parts.push(`<p><strong>${escH(e.headline)}</strong></p>`);
+  if (e.paragraph) parts.push(`<p>${escH(e.paragraph)}</p>`);
+  if (e.bullets && e.bullets.length) parts.push(`<ul>${e.bullets.map((b) => `<li>${escH(b)}</li>`).join('')}</ul>`);
+  if (e.xlsxDescription) parts.push(`<p>${escH(e.xlsxDescription)}</p>`);
+  return parts.join('\n');
+}
+// SKU, ktoré už majú kartu v e-shope (zapisuje build-bose-cennik-import.js --write-data).
+function isInShop(objKod) {
+  if (!shopSkus) shopSkus = new Set((fs.existsSync(SHOP_SKUS_PATH) ? JSON.parse(fs.readFileSync(SHOP_SKUS_PATH, 'utf8')).skus : []).map(normCode));
+  return shopSkus.has(normCode(objKod));
+}
+
+module.exports = { normCode, weightKgFor, loadOnOrder, catalogDescription, isInShop };

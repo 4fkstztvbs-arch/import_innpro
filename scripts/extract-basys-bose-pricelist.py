@@ -77,11 +77,34 @@ def parse_pdf(path):
                 break
         if not title:
             continue
+        # text katalógu: nadpis, odstavec (ľavý stĺpec) a 3 odrážky (pravý stĺpec)
+        if not any(re.match(r"^\s*Farba\s+SKU", l) for l in lines):
+            continue
+        ti = next(i for i, l in enumerate(lines) if clean(l) == title)
+        headline = clean(lines[ti + 1])
+        left, right = [], []
+        for l in lines[ti + 2:]:
+            if re.match(r"^\s*Farba\s+SKU", l):
+                break
+            m = re.match(r"^(.{0,70}?\S)\s{3,}(\S.*)$", l)
+            if m and len(m.group(1)) < 75 and len(l) - len(l.lstrip()) < 20:
+                left.append(clean(m.group(1))); right.append(clean(m.group(2)))
+            elif len(l) - len(l.lstrip()) >= 60:
+                right.append(clean(l))
+            else:
+                left.append(clean(l))
+        bullets = []
+        for r in right:
+            if bullets and r[:1].islower():
+                bullets[-1] += " " + r
+            else:
+                bullets.append(r)
         for l in lines:
             m = re.match(r"^\s*(.+?)\s{2,}(B \d{6}(?:-\d{4})?)\s+(\d{11})\s+([\d ]+,\d{2}) €", l)
             if m:
                 rows.append(dict(title=title, color=clean(m.group(1)), objKod=m.group(2), ean=m.group(3),
-                                 dmoc=float(m.group(4).replace(" ", "").replace(",", "."))))
+                                 dmoc=float(m.group(4).replace(" ", "").replace(",", ".")),
+                                 headline=headline, paragraph=" ".join(left), bullets=bullets))
     return rows
 
 def main():
@@ -198,6 +221,15 @@ def main():
     items = voc + extra
     valid_from = opts.get("valid-from", "2026-10-15")
     json.dump(items, open(out, "w"), ensure_ascii=False, indent=1)
+    moc_desc = {norm_code(m["objKod"]): m["description"] for m in moc if m.get("description")}
+    catalog = {}
+    for r in items:
+        p = pdf_by_ean.get(r["ean"])
+        entry = dict(xlsxDescription=moc_desc.get(norm_code(r["objKod"]), ""))
+        if p:
+            entry.update(pdfTitle=p["title"], headline=p["headline"], paragraph=p["paragraph"], bullets=p["bullets"], dmocPdf=p["dmoc"])
+        catalog[r["objKod"]] = entry
+    json.dump(dict(validFrom=valid_from, items=catalog), open(os.path.join(os.path.dirname(out) or ".", "basys-bose-catalog.json"), "w"), ensure_ascii=False, indent=1)
     json.dump(dict(validFrom=valid_from, notes=notes, pdfRows=pdf_rows), open(out.replace(".json", "-notes.json"), "w"), ensure_ascii=False, indent=1)
     print(f"{len(voc)} VOC + {len(extra)} doplnených (MOC/PDF) -> {out}")
     for n in notes:

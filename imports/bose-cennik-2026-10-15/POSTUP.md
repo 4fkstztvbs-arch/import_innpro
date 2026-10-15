@@ -52,3 +52,11 @@ Nočný feed (`scripts/transform-basys.js`, `.github/workflows/basys-sync.yml`) 
 * Workflow sa spustí aj po zmene týchto súborov (`paths`).
 
 Nový cenník v budúcnosti: `python3 scripts/extract-basys-bose-pricelist.py cennik.xlsx katalog.pdf`, potom `node scripts/build-bose-cennik-import.js export.xml --write-data`.
+
+## Cenník aj katalóg priamo vo feede (`output/basys.xml`)
+Feed už nesie celý cenník, takže ručný import je len jednorazový štart:
+* **Všetkých 90 SKU z cenníka** je vo feede vždy – nedostupné u BaSys ako „Na objednávku", nie ako „Vypredané" (predtým sa vynechali).
+* **Popis** produktu z cenníka: ručný override → text z katalógu PDF (nadpis, odstavec, 3 odrážky) + technický popis z xlsx (`data/basys-bose-catalog.json`) → až potom popis z BASYS feedu.
+* **Nové SKU** bez karty v e-shope a bez fotiek (13 ks: Sport Open, Wired Earbuds, OmniJewel, puzdro) feed zakladá **skryté** (`hidden`), kým nepribudnú fotky; existujúce karty ostávajú viditeľné (`data/basys-bose-shop-skus.json`).
+* Poistka vo workflow zastaví beh, ak by ktorýkoľvek SKU z cenníka vo feede chýbal.
+* Nový cenník: `extract-basys-bose-pricelist.py` vytvorí pricelist aj katalóg (JSON), `build-bose-cennik-import.js --write-data` obnoví ostatné dáta.

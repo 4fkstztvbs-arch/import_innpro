@@ -56,7 +56,7 @@ const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
-const { weightKgFor, loadOnOrder } = require('./lib/basys-bose');
+const { weightKgFor, loadOnOrder, catalogDescription, isInShop } = require('./lib/basys-bose');
 
 // Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
 const crossSupplier = createCrossSupplierFilter('basys');
@@ -215,8 +215,8 @@ function buildShopitemXml(p) {
   }
   if (p.onPromo) parts.push('<FLAGS><ACTION>1</ACTION><NEW>0</NEW><TIP>0</TIP></FLAGS>');
   parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
-  parts.push('<VISIBLE>1</VISIBLE>');
-  parts.push('<VISIBILITY>visible</VISIBILITY>');
+  parts.push(`<VISIBLE>${p.hidden ? 0 : 1}</VISIBLE>`);
+  parts.push(`<VISIBILITY>${p.hidden ? 'hidden' : 'visible'}</VISIBILITY>`);
   parts.push('<CURRENCY>EUR</CURRENCY>');
   parts.push(`<PRICE_VAT>${xmlNum(p.price)}</PRICE_VAT>`);
   // ACTION_PRICE — shown instead of PRICE_VAT while present. Only emitted while our own promo
@@ -337,9 +337,10 @@ async function main() {
 
     const name = item.name;
     if (crossSupplier.shouldExclude(item.manufacturer, name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; continue; }
-    const description = hasEnrichment && enrich.description
-      ? enrich.description
-      : (item.fallbackDescription || `<p>${xmlEscape(name)}</p>`);
+    // Poradie: ručný override (product-content) > katalóg/cenník BaSys (len produkty z cenníka) > popis z BASYS feedu > názov.
+    const catalogDesc = item.isFromPriceList ? catalogDescription(item.objKod) : '';
+    const description = catalogDesc
+      || (hasEnrichment && enrich.description ? enrich.description : (item.fallbackDescription || `<p>${xmlEscape(name)}</p>`));
     const cloudImgs = cloudImages[item.objKod];
     const images = (cloudImgs && cloudImgs.length) ? cloudImgs : (hasEnrichment ? enrich.images : []);
     if (cloudImgs && cloudImgs.length) stats.cloudImages++;
@@ -352,7 +353,8 @@ async function main() {
     const supplierAvailability = !item.forceOnOrder && hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
     const availability = isReturnStockSale ? 'Skladom' : supplierAvailability;
     if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
-    const keepOnOrder = item.forceOnOrder && loadOnOrder().has(norm(item.objKod));
+    // Produkty z cenníka sa exportujú vždy (nedostupné ako "Na objednávku"), rovnako Bose mimo cenníka z data/basys-bose-on-order.json.
+    const keepOnOrder = item.isFromPriceList || (item.forceOnOrder && loadOnOrder().has(norm(item.objKod)));
     if (EXCLUDE_UNAVAILABLE && supplierAvailability !== 'Skladom' && !isReturnStockSale && !keepOnOrder) {
       stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; continue;
     }
@@ -436,6 +438,8 @@ async function main() {
         code: 'BASYS-' + item.objKod, ean: item.ean, name, manufacturer: item.manufacturer, description, shortDescription, availability,
         defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
         weightKg: weightKgFor(name, item.objKod),
+        // Nová SKU z cenníka bez karty v e-shope a bez fotiek zostane skrytá, kým nepribudnú fotky.
+        hidden: item.isFromPriceList && !isInShop(item.objKod) && images.length === 0,
       },
     });
   }

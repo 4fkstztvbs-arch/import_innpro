@@ -24,6 +24,11 @@ for (const [key, item] of loadOnOrder()) {
   if (tag(b, 'AVAILABILITY') !== 'Na objednávku') problems.push(`${item.objKod}: dostupnosť "${tag(b, 'AVAILABILITY')}" namiesto "Na objednávku"`);
   if (tag(b, 'VISIBILITY') && tag(b, 'VISIBILITY') !== 'visible') problems.push(`${item.objKod}: viditeľnosť "${tag(b, 'VISIBILITY')}"`);
 }
+const pricelist = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json'), 'utf8'));
+for (const p of pricelist) {
+  const b = feed.get(normCode(p.objKod));
+  if (!b || !tag(b, 'NAME')) problems.push(`${p.objKod}: produkt z cenníka chýba vo feede`);
+}
 if (problems.length) {
   console.error(`BASYS Bose "Na objednávku" poistka zlyhala (${problems.length}):\n - ${problems.join('\n - ')}`);
   process.exit(1);
