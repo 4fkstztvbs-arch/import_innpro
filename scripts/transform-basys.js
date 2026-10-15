@@ -214,6 +214,9 @@ function buildShopitemXml(p) {
     parts.push('</IMAGES>');
   }
   if (p.onPromo) parts.push('<FLAGS><ACTION>1</ACTION><NEW>0</NEW><TIP>0</TIP></FLAGS>');
+  // Zrušenie starej akcie v e-shope (Shoptet neexistujúci ACTION_PRICE sám nevymaže): produkt z cenníka bez aktívnej akcie
+  // dostane príznak Akcia 0 a ACTION_PRICE = regulárna cena (rovnaký princíp ako clearSaleState v apply-missing-availability.js).
+  else if (p.resetAction) parts.push('<FLAGS><ACTION>0</ACTION></FLAGS>');
   parts.push(`<AVAILABILITY>${xmlCdata(p.availability)}</AVAILABILITY>`);
   parts.push(`<VISIBLE>${p.hidden ? 0 : 1}</VISIBLE>`);
   parts.push(`<VISIBILITY>${p.hidden ? 'hidden' : 'visible'}</VISIBILITY>`);
@@ -224,6 +227,7 @@ function buildShopitemXml(p) {
   // always stays the real regular price, never swapped, so nothing needs to be "reverted" once
   // the promo ends: the element just stops being written.
   if (p.onPromo) parts.push(`<ACTION_PRICE>${xmlNum(p.actionPrice)}</ACTION_PRICE>`);
+  else if (p.resetAction) parts.push(`<ACTION_PRICE>${xmlNum(p.price)}</ACTION_PRICE>`);
   parts.push(`<PURCHASE_PRICE>${xmlNum(p.purchasePrice)}</PURCHASE_PRICE>`);
   parts.push(`<PURCHASE_VAT>${VAT}</PURCHASE_VAT>`);
   parts.push('<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>');
@@ -441,6 +445,7 @@ async function main() {
         code: 'BASYS-' + item.objKod, ean: item.ean, name, manufacturer: item.manufacturer, description, shortDescription, availability,
         defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
         weightKg: weightKgFor(name, item.objKod),
+        resetAction: item.isFromPriceList && !onPromo,
         // Nová SKU z cenníka bez karty v e-shope a bez fotiek zostane skrytá, kým nepribudnú fotky.
         hidden: item.isFromPriceList && !isInShop(item.objKod) && images.length === 0,
       },

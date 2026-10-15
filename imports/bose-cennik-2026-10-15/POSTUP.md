@@ -63,3 +63,6 @@ Feed už nesie celý cenník, takže ručný import je len jednorazový štart:
 
 ## Fotky z webu výrobcu
 `node scripts/fetch-bose-official-images.js` stiahne zo stránok bose.com galérie (assets.bosecreative.com) podľa farby a uloží ich do `data/basys-bose-official-images.json` (22 SKU: TV Speaker 2, QC Ultra Headphones Cherry/Olive, Ultra Open 2 ×4, Sport Open ×3, Wired Earbuds ×3, puzdrá, OmniJewel/UB-20/soundbar držiaky; fotky inej farby sa zahodia). Feed ich používa len tam, kde produkt nemá overené fotky z BaSys cloudu ani ručný override; poradie: override → BaSys cloud → bose.com → BASYS feed. Importný XML ich nesie len na nových kartách (existujúce karty majú fotky v Shoptete). Bez fotiek ostali: OmniJewel Table Stand, Soundbar Wall Bracket čierny (bose.com stránku nevrátila), Lifestyle Floor Stand biely.
+
+## Zrušenie akcií priamo vo feede
+Feed posiela každému produktu z cenníka bez aktívnej akcie `ACTION_PRICE` = regulárna cena a príznak Akcia 0 (rovnaký princíp ako pri výpredaji). Stará akcia v Shoptete sa tak pri importe feedu zruší bez ručného importu. Platí to pre všetky SKU z cenníka; ručne v Shoptete nastavená akcia na takom produkte sa pri ďalšom importe feedu prepíše. Akcia z `basys-mapping.json` (QC Ultra Earbuds čierne) a promo z `basys-bose-promo-*.json` ostávajú.
