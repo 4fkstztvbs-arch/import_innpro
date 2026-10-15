@@ -22,9 +22,9 @@ const exportPath = args.find((a) => !a.startsWith('--'));
 const opt = (n, d) => (args.find((a) => a.startsWith(`--${n}=`)) || '').slice(n.length + 3) || d;
 const OUT_DIR = path.resolve(ROOT, opt('out', 'imports/bose-cennik-2026-10-15'));
 const WRITE_DATA = args.includes('--write-data');
-// Existujúce akciové ceny (ACTION_PRICE) sa štandardne ponechajú; po expirovaní promo BaSys (31. 8. 2026) ostali v e-shope staré.
-// Prepínač ich zruší (okrem ručne overených v basys-mapping.json) a vráti produkty na regulárnu cenu z cenníka.
-const CLEAR_ACTIONS = args.includes('--clear-expired-actions');
+// Existujúce akciové ceny (ACTION_PRICE): po expirovaní promo BaSys (31. 8. 2026) ostali v e-shope staré.
+// Štandardne sa zrušia (okrem ručne overených v basys-mapping.json) a produkt ide na aktuálnu cenu z cenníka; --keep-actions ich ponechá.
+const CLEAR_ACTIONS = !args.includes('--keep-actions');
 const VAT = 23;
 const MIN_ACTION_MARGIN_PCT = 0;
 const STORE = 'PremiumStore.sk';
@@ -153,6 +153,19 @@ const blocks = xml.match(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/g);
 const byEan = new Map(), byCode = new Map();
 for (const p of pricelist) { byEan.set(eanKey(p.ean), p); byCode.set(normCode(p.objKod), p); }
 const shopCode = (b) => getTag(b.replace(/<VARIANTS>[\s\S]*<\/VARIANTS>/, '').replace(/<FLAGS>[\s\S]*?<\/FLAGS>/, ''), 'CODE');
+// Bose produkt "existuje u BaSys", ak je v BASYS Heureka feede (vzorka) alebo v poslednom výstupe output/basys.xml.
+const normK = (c) => normCode(String(c).replace(/^(BAS_)?BASYS-/i, ''));
+const basysPresent = new Set();
+for (const f of ['data/basys-heureka-feed-sample.xml', 'output/basys.xml']) {
+  const fp = path.join(ROOT, f); if (!fs.existsSync(fp)) continue;
+  const t = fs.readFileSync(fp, 'utf8');
+  for (const m of t.matchAll(/<ITEM_ID>([^<]*)<\/ITEM_ID>/g)) basysPresent.add(normK(m[1]));
+  // v output/basys.xml sa počítajú len plné záznamy (s <NAME>), nie "Vypredané" záznamy pre chýbajúce produkty
+  for (const it of t.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g) || []) {
+    const c = it.match(/<CODE>(?:<!\[CDATA\[)?(BASYS-[^<\]]*)/);
+    if (c && /<NAME>/.test(it)) basysPresent.add(normK(c[1]));
+  }
+}
 const feedCode = (code) => normCode(code.replace(/^(BAS_)?BASYS-/i, ''));
 
 const report = { matched: [], onOrder: [], skippedVariantCards: [], contentFrozen: [], contentGenerated: [], actionCleared: [], priceChanges: [], newCards: [] };
@@ -177,6 +190,9 @@ function actionFor(item, price, purchase) {
 for (let block of blocks) {
   const id = block.match(/<SHOPITEM id="(\d+)"/)[1];
   if (/<VARIANTS>/.test(block)) { report.skippedVariantCards.push({ id, name: getTag(block, 'NAME') }); outBlocks.push(null); continue; }
+  if (getTag(block.replace(/<VARIANTS>[\s\S]*<\/VARIANTS>/, ''), 'MANUFACTURER') !== 'Bose') { report.skippedOtherManufacturer = (report.skippedOtherManufacturer || []).concat(id); outBlocks.push(null); continue; }
+  // Bose Professional je iný cenník a iný tovar - nikdy sa nemení
+  if (getTag(block, 'MANUFACTURER') !== 'Bose') { report.skippedOtherManufacturer = (report.skippedOtherManufacturer || []).concat(id); outBlocks.push(null); continue; }
   const code = shopCode(block), ean = getTag(block, 'EAN'), name = getTag(block, 'NAME');
   const item = byEan.get(eanKey(ean)) || byCode.get(feedCode(code));
   const oldPrice = Number(getTag(block, 'PRICE_VAT')), oldAction = getTag(block, 'ACTION_PRICE'), oldPurchase = Number(getTag(block, 'PURCHASE_PRICE')) || null;
@@ -225,11 +241,19 @@ for (let block of blocks) {
     }
     report.matched.push({ id, code, name, sku: item.objKod, ean: ean13(item.ean), oldEan: ean, oldPrice, price, oldPurchase, purchase, oldAction: oldAction || '', action: finalAction || '', weight: w || '', content: contentNote });
   } else {
-    // mimo cenníka -> Na objednávku, viditeľné; cena (vrátane existujúcej akciovej) sa NEMENÍ - cena ostáva z feedu
+    const objKodOo = code.replace(/^(BAS_)?BASYS-/i, '');
+    if (!basysPresent.has(normK(code))) {
+      // mimo cenníka a BaSys ho už nevedie -> skryť: Vypredané, dostupný len cez URL
+      block = setTag(block, 'AVAILABILITY_OUT_OF_STOCK', 'Vypredané');
+      block = setTag(block, 'VISIBILITY', 'detailOnly');
+      report.discontinued = (report.discontinued || []).concat({ id, code, name });
+      outBlocks.push(block); continue;
+    }
+    // mimo cenníka, ale BaSys ho ešte vedie -> Na objednávku, viditeľné; cena (aj existujúca akciová) sa NEMENÍ - ostáva z feedu
     block = setTag(block, 'AVAILABILITY_OUT_OF_STOCK', 'Na objednávku');
     block = setTag(block, 'VISIBILITY', 'visible');
     block = setTag(block, 'VISIBLE', '1');
-    const w0 = weightKgFor(name, code.replace(/^(BAS_)?BASYS-/i, ''));
+    const w0 = weightKgFor(name, objKodOo);
     if (w0 && !(Number(getTag(block, 'WEIGHT')) > 0)) block = setWeight(block, w0);
     report.onOrder.push({ id, code, name, price: oldPrice, oldAvailability: getTag(block.replace(/<AVAILABILITY_OUT_OF_STOCK>[\s\S]*/, ''), 'VISIBILITY') });
     const purchase = Number(getTag(block, 'PURCHASE_PRICE')), incl = getTag(block, 'PURCHASE_PRICE_INCL_VAT') === '1';

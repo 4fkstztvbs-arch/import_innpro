@@ -12,7 +12,8 @@ Prehľad zmien po produktoch: `zmeny-cenník.csv`, detaily v `report.json`.
 | Skupina | Počet | Zmena |
 |---|---|---|
 | Produkty v cenníku | 71 kariet | MOC → `PRICE_VAT`, VOC bez DPH → `PURCHASE_PRICE` (bez DPH, DPH 23 %), EAN v tvare EAN-13, hmotnosť (kde ju poznáme), popis + SEO názov + meta popis tam, kde karta ešte nemala vlastný text |
-| Bose mimo cenníka | 44 kariet | dostupnosť **Na objednávku**, viditeľné; cena (aj existujúca akciová) sa nemení |
+| Bose mimo cenníka, BaSys ich ešte vedie | 43 kariet | dostupnosť **Na objednávku**, viditeľné; cena sa nemení |
+| Bose mimo cenníka, BaSys ich už nevedie | 1 karta (677424 SoundLink Flex II Alpine Sage) | **Vypredané** + `detailOnly` (skryté, dostupné len cez URL) |
 | Variantové karty 621573 (Bass Module 700) a 621249 (Smart Ultra – Skladom BB) | 2 | nemenené (ručný výpredaj, viď `migrations/final-category-tree-2026-09-18/po-kontrole/BOSE-AKCIA-MANUALNE.md`); v súbore nie sú |
 | NEW položky cenníka, ktoré v e-shope neboli | 7 | nové karty so stavom **hidden** a „Na objednávku" (Sport Open Earbuds ×3, Noise Cancelling Wired Earbuds ×3, Lifestyle Floor Stand biely) – bez fotiek, treba doplniť a zviditeľniť |
 
@@ -26,8 +27,14 @@ Ostatné NEW/nové SKU z cenníka (OmniJewel, puzdrá, UB/UTS-20 II biele, Model
 * **Bez VOC v cenníku:** UB-20/UTS-20/UFS-20 II a QC Earbuds Rosewood Mauve – nákupka odhadnutá (MOC/1,23/1,15, QC Earbuds prevzatá od súrodenca). **UTS-20 II:** xlsx 37 € vs PDF 33 € → použité 37 € (karta 616791 zdražie z 33 €) – overte.
 * **S1 Pro+ (Bose Professional)** v PDF je mimo tohto cenníka (bez VOC) – nezmenené.
 
-## ⚠ Na rozhodnutie: staré akciové ceny
-V e-shope ostalo 17 kariet s akciovou cenou z promo BaSys (1. 7. – 31. 8. 2026, už skončilo) – napr. QC Ultra Headphones 390 €, Smart Soundbar 449 €, SoundLink Home 200 €. Pri vypnutej podpore BaSys majú marže 2–10 %. Import ich **ponecháva** (nič neprepisuje). Ak majú skončiť: `node scripts/build-bose-cennik-import.js export.xml --clear-expired-actions`. Zoznam: `report.json` → `actionKept`. Ručne zadaná akcia QC Ultra Earbuds čierne (258,90 €) ostáva v oboch prípadoch.
+## Staré akciové ceny – zrušené
+17 kariet malo v e-shope akciovú cenu z promo BaSys (1. 7. – 31. 8. 2026, skončilo). Import `ACTION_PRICE` vyprázdni, vypne príznak Akcia a produkt ide na aktuálnu cenu z cenníka (zoznam v `report.json` → `actionCleared`, CSV stĺpce `akcia_stara`/`akcia_nova`). Ručne overená akcia QC Ultra Earbuds čierne (258,90 €, `basys-mapping.json`) ostáva. `--keep-actions` by akcie ponechal.
+
+## Bose Professional
+Mimo rozsahu: S1 Pro+ a ostatné Bose Pro sa neimportujú, v cenníku nie sú a skript mení len karty s výrobcom presne „Bose".
+
+## Produkt, ktorý BaSys už nevedie
+Bose karta mimo cenníka, ktorú BaSys nemá ani v feede ani vo výstupe `output/basys.xml`, sa skryje (Vypredané, dostupná len cez URL). Rovnako to robí feed: keď BaSys prestane Bose produkt mimo cenníka posielať, `apply-missing-availability.js` ho nastaví na Vypredané + detailOnly a poistka to akceptuje.
 
 ## Duplicitné karty
 `615909`, `615912`, `615915` (kódy `BASYS-B 895491-…` bez predpony `BAS_`) majú rovnaké EAN ako `616113`, `616116`, `616119`. Aktualizované rovnako, ale odporúčam jednu z dvojice skryť/zmazať.
@@ -40,7 +47,7 @@ Nočný feed (`scripts/transform-basys.js`, `.github/workflows/basys-sync.yml`) 
 * `data/basys-bose-pricelist.json` – nový cenník (90 SKU) → rovnaké ceny, nákupky, EAN; položky bez VOC majú odhad nákupky.
 * `data/basys-bose-weights.json` → `<LOGISTIC><WEIGHT>` vo feede.
 * `data/product-content/basys.json` – popisy/SEO nových a doteraz nechránených kariet (značka `_src`), takže ich feed neprepíše.
-* `data/basys-bose-on-order.json` – 44 Bose kariet mimo cenníka: feed ich vždy vydá ako **Na objednávku**, nikdy nie „Vypredané"/detailOnly, cena zostáva z BASYS feedu (resp. posledná známa), skutočná nákupka z e-shopu má prednosť pred odhadom. Ak ich BASYS prestane posielať, doplnia sa z tohto súboru.
+* `data/basys-bose-on-order.json` – 43 Bose kariet mimo cenníka: feed ich vydáva ako **Na objednávku** (aj keď sú u BaSys vypredané), kým ich BaSys vedie; cena zostáva z BASYS feedu, skutočná nákupka z e-shopu má prednosť pred odhadom. Keď ich BaSys prestane posielať, skryjú sa (Vypredané + detailOnly).
 * Nová poistka `scripts/check-basys-bose-on-order.js` vo workflow zastaví beh, ak by niektorá z nich vypadla alebo nebola „Na objednávku".
 * Workflow sa spustí aj po zmene týchto súborov (`paths`).
 

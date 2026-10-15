@@ -1,17 +1,17 @@
 id;kod;nazov;sku;ean_stary;ean_novy;cena_stara;cena_nova;nakupka_nova;akcia_stara;akcia_nova;hmotnost_kg;obsah
 673644;BAS_BASYS-B 884367-0100;Bezdrôtové slúchadlá Bose QuietComfort (čierne);B 884367-0100;0017817848961;0017817848961;239;239;167.5;;;0.236;živý obsah zamknutý do overrides
 620154;BAS_BASYS-B 895491-0300;Bezdrôtové slúchadlá Bose QuietComfort Headphones 2. gen., Eucalyptus zelené;B 895491-0300;0017817859745;0017817859745;349;349;230;;;0.227;override už existuje
-616101;BAS_BASYS-B 890101-0200;Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., biele;B 890101-0200;0017817859561;0017817859561;449;449;288.4;390;390;0.25;override už existuje
-616098;BAS_BASYS-B 890101-0100;Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., čierne;B 890101-0100;0017817859585;0017817859585;449;449;288.4;390;390;0.25;override už existuje
+616101;BAS_BASYS-B 890101-0200;Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., biele;B 890101-0200;0017817859561;0017817859561;449;449;288.4;390;;0.25;override už existuje
+616098;BAS_BASYS-B 890101-0100;Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., čierne;B 890101-0100;0017817859585;0017817859585;449;449;288.4;390;;0.25;override už existuje
 672078;BAS_BASYS-B 890101-0300;Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., modré;B 890101-0300;0017817859592;0017817859592;449;449;288.4;;;0.25;override už existuje
 616107;BAS_BASYS-B 890101-0400;Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., zlaté;B 890101-0400;0017817859516;0017817859516;449;449;288.4;;;0.25;override už existuje
 672081;BAS_BASYS-B 884367-0200;Bezdrôtové slúchadlá Bose QuietComfort, biele, ANC;B 884367-0200;0017817848985;0017817848985;239;239;167.5;;;0.236;override už existuje
-616152;BAS_BASYS-B  888507-0200;Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds - biele;B  888507-0200;0017817853439;0017817853439;199;199;131;165;165;;override už existuje
-616155;BAS_BASYS-B 888507-0300;Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds - Chilled Lilac;B 888507-0300;0017817853200;0017817853200;199;199;131;165;165;;override už existuje
+616152;BAS_BASYS-B  888507-0200;Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds - biele;B  888507-0200;0017817853439;0017817853439;199;199;131;165;;;override už existuje
+616155;BAS_BASYS-B 888507-0300;Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds - Chilled Lilac;B 888507-0300;0017817853200;0017817853200;199;199;131;165;;;override už existuje
 672177;BAS_BASYS-B 888507-0120;Bezdrôtové slúchadlá do uší Bose quietcomfort Earbuds, Bezdrôtové slhúchadlá do uší, rosewood maueve;B 888507-0120;0017817867016;0017817867016;199.9;199;131;;;;override už existuje
-616149;BAS_BASYS-B 888507-0100;Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds, čierne;B 888507-0100;0017817853460;0017817853460;199;199;131;165;165;;override už existuje
-616131;BAS_BASYS-B 896637-0020;Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - biela - white smoke;B 896637-0020;0017817861076;0017817861076;299;299;196.4;260;260;0.076;override už existuje
-616134;BAS_BASYS-B 896637-0030;Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - deep plum;B 896637-0030;0017817861151;0017817861151;299;299;196.4;260;260;0.076;override už existuje
+616149;BAS_BASYS-B 888507-0100;Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds, čierne;B 888507-0100;0017817853460;0017817853460;199;199;131;165;;;override už existuje
+616131;BAS_BASYS-B 896637-0020;Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - biela - white smoke;B 896637-0020;0017817861076;0017817861076;299;299;196.4;260;;0.076;override už existuje
+616134;BAS_BASYS-B 896637-0030;Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - deep plum;B 896637-0030;0017817861151;0017817861151;299;299;196.4;260;;0.076;override už existuje
 672084;BAS_BASYS-B 896637-0040;Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - desert zlatý;B 896637-0040;0017817861212;0017817861212;299;299;196.4;;;0.076;override už existuje
 672087;BAS_BASYS-B 896637-0050;Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - midnight violet;B 896637-0050;0017817861083;0017817861083;299;299;196.4;;;0.076;override už existuje
 616128;BAS_BASYS-B 896637-0010;Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds (2. generácia), čierne;B 896637-0010;0017817861120;0017817861120;299;299;196.4;258.9;258.9;0.076;override už existuje
@@ -43,16 +43,16 @@ id;kod;nazov;sku;ean_stary;ean_novy;cena_stara;cena_nova;nakupka_nova;akcia_star
 616770;BAS_BASYS-B 722139-0020;Držiak reproduktora Bose UFS-20 II podlahový stojan, biely;B 722139-0020;0017817662604;0017817662604;133;133;94.03;;;;override už existuje
 616767;BAS_BASYS-B 722139-0010;Držiak reproduktora Bose UFS-20 II, podlahový stojan, čierny;B 722139-0010;0017817662581;0017817662581;133;133;94.03;;;;override už existuje
 616791;BAS_BASYS-B 722140-0010;Držiak reproduktora Bose UTS-20 II, regálový stojan, čierny;B 722140-0010;0017817662710;0017817662710;33;37;26.16;;;;override už existuje
-616041;BAS_BASYS-B 887612-0100;Prenosný Bluetooth reproduktor Bose SoundLink Flex II, čierny;B 887612-0100;0017817852470;0017817852470;179;179;115;145;145;0.59;override už existuje
-616047;BAS_BASYS-B 887612-0300;Prenosný Bluetooth reproduktor Bose SoundLink Flex II, pieskový;B 887612-0300;0017817852616;0017817852616;179;179;115;145;145;0.59;override už existuje
+616041;BAS_BASYS-B 887612-0100;Prenosný Bluetooth reproduktor Bose SoundLink Flex II, čierny;B 887612-0100;0017817852470;0017817852470;179;179;115;145;;0.59;override už existuje
+616047;BAS_BASYS-B 887612-0300;Prenosný Bluetooth reproduktor Bose SoundLink Flex II, pieskový;B 887612-0300;0017817852616;0017817852616;179;179;115;145;;0.59;override už existuje
 672075;BAS_BASYS-B 887612-0160;Prenosný Bluetooth reproduktor Bose SoundLink Flex II, Rosewood Mauve;B 887612-0160;0017817852494;0017817866309;179;179;115;;;0.59;override už existuje
 673641;BAS_BASYS-B 883848-0010;Prenosný Bluetooth reproduktor Bose SoundLink Max (čierny);B 883848-0010;0017817848848;0017817848848;399;399;257.9;;;2.13;nový popis + SEO
-616065;BAS_BASYS-B  883848-0020;Prenosný Bluetooth reproduktor Bose SoundLink Max, modrý;B  883848-0020;0017817848831;0017817848831;399;399;257.9;330;330;2.13;override už existuje
-616032;BAS_BASYS-B 895098-0100;Prenosný Bluetooth reproduktor Bose SoundLink Micro, 2. generácia, čierny;B 895098-0100;0017817859226;0017817859226;129;129;81.8;105;105;0.33;override už existuje
+616065;BAS_BASYS-B  883848-0020;Prenosný Bluetooth reproduktor Bose SoundLink Max, modrý;B  883848-0020;0017817848831;0017817848831;399;399;257.9;330;;2.13;override už existuje
+616032;BAS_BASYS-B 895098-0100;Prenosný Bluetooth reproduktor Bose SoundLink Micro, 2. generácia, čierny;B 895098-0100;0017817859226;0017817859226;129;129;81.8;105;;0.33;override už existuje
 672072;BAS_BASYS-B 895098-0300;Prenosný Bluetooth reproduktor Bose SoundLink Micro, 2. generácia, pieskový;B 895098-0300;0017817859936;0017817859936;129;129;81.8;;;0.33;override už existuje
 616059;BAS_BASYS-B 894040-0300;Prenosný Bluetooth reproduktor Bose SoundLink Plus, citrónovožltý;B 894040-0300;0017817860017;0017817860017;279;279;180.3;;;1.45;override už existuje
-616053;BAS_BASYS-B 894040-0100;Prenosný Bluetooth reproduktor Bose SoundLink Plus, čierny;B 894040-0100;0017817857932;0017817857932;279;279;180.3;240;240;1.45;override už existuje
-616056;BAS_BASYS-B 894040-0200;Prenosný Bluetooth reproduktor Bose SoundLink Plus, modrý;B 894040-0200;0017817858373;0017817858373;279;279;180.3;240;240;1.45;override už existuje
+616053;BAS_BASYS-B 894040-0100;Prenosný Bluetooth reproduktor Bose SoundLink Plus, čierny;B 894040-0100;0017817857932;0017817857932;279;279;180.3;240;;1.45;override už existuje
+616056;BAS_BASYS-B 894040-0200;Prenosný Bluetooth reproduktor Bose SoundLink Plus, modrý;B 894040-0200;0017817858373;0017817858373;279;279;180.3;240;;1.45;override už existuje
 616092;BAS_BASYS-B 884104-0010;Ramenný popruh Bose pre SoundLink Max, Black;B 884104-0010;0017817848855;0017817848855;55;55;35.8;;;;override už existuje
 616095;BAS_BASYS-B 884104-0020;Ramenný popruh Bose pre SoundLink Max, Blue Dusk;B 884104-0020;0017817848862;0017817848862;55;55;35.8;;;;override už existuje
 616080;BAS_BASYS-B 888926-0010;Rukoväť Bose pre SoundLink Max, Black/Carbon Blue;B 888926-0010;0017817853347;0017817853347;30;30;19.5;;;;override už existuje
@@ -61,11 +61,11 @@ id;kod;nazov;sku;ean_stary;ean_novy;cena_stara;cena_nova;nakupka_nova;akcia_star
 616089;BAS_BASYS-B 888926-0040;Rukoväť Bose pre SoundLink Max, Blue Dusk/Hyper Citron;B 888926-0040;0017817853323;0017817853323;30;30;19.5;;;;override už existuje
 615990;BAS_BASYS-B 892930-2200;Soundbar Bose Lifestyle Ultra Soundbar - biely;B 892930-2200;0017817858946;0017817858946;999;999;634.2;;;6.7;override už existuje
 615987;BAS_BASYS-B 892930-2100;Soundbar Bose Lifestyle Ultra Soundbar, čierny;B 892930-2100;0017817858601;0017817858601;999;999;634.2;;;6.7;override už existuje
-615999;BAS_BASYS-B 892079-2100;Soundbar Bose Smart Soundbar, čierny (katalógový kód BAS_BASYS-B 892079-2100);B 892079-2100;0017817856164;0017817856164;549;549;348.8;449;449;3.13;override už existuje
+615999;BAS_BASYS-B 892079-2100;Soundbar Bose Smart Soundbar, čierny (katalógový kód BAS_BASYS-B 892079-2100);B 892079-2100;0017817856164;0017817856164;549;549;348.8;449;;3.13;override už existuje
 672066;BAS_BASYS-B 882963-2200;Soundbar Bose Smart Ultra Soundbar - biely;B 882963-2200;0017817848275;0017817848275;999;899;592;;;5.75;override už existuje
-616074;BAS_BASYS-B 892399-0020;Stolný Bluetooth reproduktor Bose SoundLink Home (Cool Grey);B 892399-0020;0017817856553;0017817856553;229;229;145.8;200;200;0.9;override už existuje
-616071;BAS_BASYS-B 892399-0010;Stolný Bluetooth reproduktor Bose SoundLink Home (Light Silver);B 892399-0010;0017817856560;0017817856560;229;229;145.8;200;200;0.9;override už existuje
-616077;BAS_BASYS-B 892399-0030;Stolný Bluetooth reproduktor Bose SoundLink Home (Warm Wood);B 892399-0030;0017817857550;0017817857550;229;229;145.8;200;200;0.9;override už existuje
+616074;BAS_BASYS-B 892399-0020;Stolný Bluetooth reproduktor Bose SoundLink Home (Cool Grey);B 892399-0020;0017817856553;0017817856553;229;229;145.8;200;;0.9;override už existuje
+616071;BAS_BASYS-B 892399-0010;Stolný Bluetooth reproduktor Bose SoundLink Home (Light Silver);B 892399-0010;0017817856560;0017817856560;229;229;145.8;200;;0.9;override už existuje
+616077;BAS_BASYS-B 892399-0030;Stolný Bluetooth reproduktor Bose SoundLink Home (Warm Wood);B 892399-0030;0017817857550;0017817857550;229;229;145.8;200;;0.9;override už existuje
 621312;BAS_BASYS-B 893955-2200;Subwoofer Bose Lifestyle Ultra pre soundbar Lifestyle Ultra, biely;B 893955-2200;0017817858557;0017817858557;899;899;576.6;;;15.3;override už existuje
 616005;BAS_BASYS-B 893955-2100;Subwoofer Bose Lifestyle Ultra pre soundbar Lifestyle Ultra, čierny;B 893955-2100;0017817858519;0017817858519;899;899;576.6;;;15.3;override už existuje
 672069;BAS_BASYS-B 024644;Vonkajšie pasívne reproduktory Bose Model 251, pár, biele;B 024644;0017817263566;0017817263566;599;599;379.9;;;7.2;override už existuje

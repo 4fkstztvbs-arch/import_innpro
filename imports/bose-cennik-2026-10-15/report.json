@@ -45,7 +45,7 @@
    "oldPurchase": 288.4,
    "purchase": 288.4,
    "oldAction": "390",
-   "action": 390,
+   "action": "",
    "weight": 0.25,
    "content": "override už existuje"
   },
@@ -61,7 +61,7 @@
    "oldPurchase": 288.4,
    "purchase": 288.4,
    "oldAction": "390",
-   "action": 390,
+   "action": "",
    "weight": 0.25,
    "content": "override už existuje"
   },
@@ -125,7 +125,7 @@
    "oldPurchase": 131,
    "purchase": 131,
    "oldAction": "165",
-   "action": 165,
+   "action": "",
    "weight": "",
    "content": "override už existuje"
   },
@@ -141,7 +141,7 @@
    "oldPurchase": 131,
    "purchase": 131,
    "oldAction": "165",
-   "action": 165,
+   "action": "",
    "weight": "",
    "content": "override už existuje"
   },
@@ -173,7 +173,7 @@
    "oldPurchase": 131,
    "purchase": 131,
    "oldAction": "165",
-   "action": 165,
+   "action": "",
    "weight": "",
    "content": "override už existuje"
   },
@@ -189,7 +189,7 @@
    "oldPurchase": 196.4,
    "purchase": 196.4,
    "oldAction": "260",
-   "action": 260,
+   "action": "",
    "weight": 0.076,
    "content": "override už existuje"
   },
@@ -205,7 +205,7 @@
    "oldPurchase": 196.4,
    "purchase": 196.4,
    "oldAction": "260",
-   "action": 260,
+   "action": "",
    "weight": 0.076,
    "content": "override už existuje"
   },
@@ -717,7 +717,7 @@
    "oldPurchase": 115,
    "purchase": 115,
    "oldAction": "145",
-   "action": 145,
+   "action": "",
    "weight": 0.59,
    "content": "override už existuje"
   },
@@ -733,7 +733,7 @@
    "oldPurchase": 115,
    "purchase": 115,
    "oldAction": "145",
-   "action": 145,
+   "action": "",
    "weight": 0.59,
    "content": "override už existuje"
   },
@@ -781,7 +781,7 @@
    "oldPurchase": 257.9,
    "purchase": 257.9,
    "oldAction": "330",
-   "action": 330,
+   "action": "",
    "weight": 2.13,
    "content": "override už existuje"
   },
@@ -797,7 +797,7 @@
    "oldPurchase": 81.8,
    "purchase": 81.8,
    "oldAction": "105",
-   "action": 105,
+   "action": "",
    "weight": 0.33,
    "content": "override už existuje"
   },
@@ -845,7 +845,7 @@
    "oldPurchase": 180.3,
    "purchase": 180.3,
    "oldAction": "240",
-   "action": 240,
+   "action": "",
    "weight": 1.45,
    "content": "override už existuje"
   },
@@ -861,7 +861,7 @@
    "oldPurchase": 180.3,
    "purchase": 180.3,
    "oldAction": "240",
-   "action": 240,
+   "action": "",
    "weight": 1.45,
    "content": "override už existuje"
   },
@@ -1005,7 +1005,7 @@
    "oldPurchase": 348.8,
    "purchase": 348.8,
    "oldAction": "449",
-   "action": 449,
+   "action": "",
    "weight": 3.13,
    "content": "override už existuje"
   },
@@ -1037,7 +1037,7 @@
    "oldPurchase": 145.8,
    "purchase": 145.8,
    "oldAction": "200",
-   "action": 200,
+   "action": "",
    "weight": 0.9,
    "content": "override už existuje"
   },
@@ -1053,7 +1053,7 @@
    "oldPurchase": 145.8,
    "purchase": 145.8,
    "oldAction": "200",
-   "action": 200,
+   "action": "",
    "weight": 0.9,
    "content": "override už existuje"
   },
@@ -1069,7 +1069,7 @@
    "oldPurchase": 145.8,
    "purchase": 145.8,
    "oldAction": "200",
-   "action": 200,
+   "action": "",
    "weight": 0.9,
    "content": "override už existuje"
   },
@@ -1151,13 +1151,6 @@
    "code": "BAS_BASYS-B 884367-0900",
    "name": "Bezdrôtové slúchadlá s potlačením hluku Bose QuietComfort Headphones Club SC (čierne)",
    "price": 185,
-   "oldAvailability": "visible"
-  },
-  {
-   "id": "677424",
-   "code": "BAS_BASYS-B 887612-0400",
-   "name": "BOSE SoundLink Flex II bluetooth reproduktor, alpine sage",
-   "price": 179,
    "oldAvailability": "visible"
   },
   {
@@ -1531,7 +1524,127 @@
    "seoTitle": "Bose SoundLink Max, čierna | PremiumStore.sk"
   }
  ],
- "actionCleared": [],
+ "actionCleared": [
+  {
+   "id": "616101",
+   "code": "BAS_BASYS-B 890101-0200",
+   "name": "Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., biele",
+   "oldAction": 390,
+   "price": 449
+  },
+  {
+   "id": "616098",
+   "code": "BAS_BASYS-B 890101-0100",
+   "name": "Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., čierne",
+   "oldAction": 390,
+   "price": 449
+  },
+  {
+   "id": "616152",
+   "code": "BAS_BASYS-B  888507-0200",
+   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds - biele",
+   "oldAction": 165,
+   "price": 199
+  },
+  {
+   "id": "616155",
+   "code": "BAS_BASYS-B 888507-0300",
+   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds - Chilled Lilac",
+   "oldAction": 165,
+   "price": 199
+  },
+  {
+   "id": "616149",
+   "code": "BAS_BASYS-B 888507-0100",
+   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds, čierne",
+   "oldAction": 165,
+   "price": 199
+  },
+  {
+   "id": "616131",
+   "code": "BAS_BASYS-B 896637-0020",
+   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - biela - white smoke",
+   "oldAction": 260,
+   "price": 299
+  },
+  {
+   "id": "616134",
+   "code": "BAS_BASYS-B 896637-0030",
+   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - deep plum",
+   "oldAction": 260,
+   "price": 299
+  },
+  {
+   "id": "616041",
+   "code": "BAS_BASYS-B 887612-0100",
+   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Flex II, čierny",
+   "oldAction": 145,
+   "price": 179
+  },
+  {
+   "id": "616047",
+   "code": "BAS_BASYS-B 887612-0300",
+   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Flex II, pieskový",
+   "oldAction": 145,
+   "price": 179
+  },
+  {
+   "id": "616065",
+   "code": "BAS_BASYS-B  883848-0020",
+   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Max, modrý",
+   "oldAction": 330,
+   "price": 399
+  },
+  {
+   "id": "616032",
+   "code": "BAS_BASYS-B 895098-0100",
+   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Micro, 2. generácia, čierny",
+   "oldAction": 105,
+   "price": 129
+  },
+  {
+   "id": "616053",
+   "code": "BAS_BASYS-B 894040-0100",
+   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Plus, čierny",
+   "oldAction": 240,
+   "price": 279
+  },
+  {
+   "id": "616056",
+   "code": "BAS_BASYS-B 894040-0200",
+   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Plus, modrý",
+   "oldAction": 240,
+   "price": 279
+  },
+  {
+   "id": "615999",
+   "code": "BAS_BASYS-B 892079-2100",
+   "name": "Soundbar Bose Smart Soundbar, čierny (katalógový kód BAS_BASYS-B 892079-2100)",
+   "oldAction": 449,
+   "price": 549
+  },
+  {
+   "id": "616074",
+   "code": "BAS_BASYS-B 892399-0020",
+   "name": "Stolný Bluetooth reproduktor Bose SoundLink Home (Cool Grey)",
+   "oldAction": 200,
+   "price": 229
+  },
+  {
+   "id": "616071",
+   "code": "BAS_BASYS-B 892399-0010",
+   "name": "Stolný Bluetooth reproduktor Bose SoundLink Home (Light Silver)",
+   "oldAction": 200,
+   "price": 229
+  },
+  {
+   "id": "616077",
+   "code": "BAS_BASYS-B 892399-0030",
+   "name": "Stolný Bluetooth reproduktor Bose SoundLink Home (Warm Wood)",
+   "oldAction": 200,
+   "price": 229
+  }
+ ],
  "priceChanges": [],
  "newCards": [
   {
@@ -1584,159 +1697,11 @@
    "purchase": 98.9
   }
  ],
- "actionKept": [
+ "discontinued": [
   {
-   "id": "616101",
-   "code": "BAS_BASYS-B 890101-0200",
-   "name": "Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., biele",
-   "action": 390,
-   "price": 449,
-   "purchase": 288.4,
-   "marginPct": 9
-  },
-  {
-   "id": "616098",
-   "code": "BAS_BASYS-B 890101-0100",
-   "name": "Bezdrôtové slúchadlá Bose QuietComfort Ultra 2. gen., čierne",
-   "action": 390,
-   "price": 449,
-   "purchase": 288.4,
-   "marginPct": 9
-  },
-  {
-   "id": "616152",
-   "code": "BAS_BASYS-B  888507-0200",
-   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds - biele",
-   "action": 165,
-   "price": 199,
-   "purchase": 131,
-   "marginPct": 2.3
-  },
-  {
-   "id": "616155",
-   "code": "BAS_BASYS-B 888507-0300",
-   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds - Chilled Lilac",
-   "action": 165,
-   "price": 199,
-   "purchase": 131,
-   "marginPct": 2.3
-  },
-  {
-   "id": "616149",
-   "code": "BAS_BASYS-B 888507-0100",
-   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Earbuds, čierne",
-   "action": 165,
-   "price": 199,
-   "purchase": 131,
-   "marginPct": 2.3
-  },
-  {
-   "id": "616131",
-   "code": "BAS_BASYS-B 896637-0020",
-   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - biela - white smoke",
-   "action": 260,
-   "price": 299,
-   "purchase": 196.4,
-   "marginPct": 7.1
-  },
-  {
-   "id": "616134",
-   "code": "BAS_BASYS-B 896637-0030",
-   "name": "Bezdrôtové slúchadlá do uší Bose QuietComfort Ultra Earbuds ( 2.Gen ) - deep plum",
-   "action": 260,
-   "price": 299,
-   "purchase": 196.4,
-   "marginPct": 7.1
-  },
-  {
-   "id": "616041",
-   "code": "BAS_BASYS-B 887612-0100",
-   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Flex II, čierny",
-   "action": 145,
-   "price": 179,
-   "purchase": 115,
-   "marginPct": 2.4
-  },
-  {
-   "id": "616047",
-   "code": "BAS_BASYS-B 887612-0300",
-   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Flex II, pieskový",
-   "action": 145,
-   "price": 179,
-   "purchase": 115,
-   "marginPct": 2.4
-  },
-  {
-   "id": "616065",
-   "code": "BAS_BASYS-B  883848-0020",
-   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Max, modrý",
-   "action": 330,
-   "price": 399,
-   "purchase": 257.9,
-   "marginPct": 3.9
-  },
-  {
-   "id": "616032",
-   "code": "BAS_BASYS-B 895098-0100",
-   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Micro, 2. generácia, čierny",
-   "action": 105,
-   "price": 129,
-   "purchase": 81.8,
-   "marginPct": 4.2
-  },
-  {
-   "id": "616053",
-   "code": "BAS_BASYS-B 894040-0100",
-   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Plus, čierny",
-   "action": 240,
-   "price": 279,
-   "purchase": 180.3,
-   "marginPct": 7.6
-  },
-  {
-   "id": "616056",
-   "code": "BAS_BASYS-B 894040-0200",
-   "name": "Prenosný Bluetooth reproduktor Bose SoundLink Plus, modrý",
-   "action": 240,
-   "price": 279,
-   "purchase": 180.3,
-   "marginPct": 7.6
-  },
-  {
-   "id": "615999",
-   "code": "BAS_BASYS-B 892079-2100",
-   "name": "Soundbar Bose Smart Soundbar, čierny (katalógový kód BAS_BASYS-B 892079-2100)",
-   "action": 449,
-   "price": 549,
-   "purchase": 348.8,
-   "marginPct": 4.4
-  },
-  {
-   "id": "616074",
-   "code": "BAS_BASYS-B 892399-0020",
-   "name": "Stolný Bluetooth reproduktor Bose SoundLink Home (Cool Grey)",
-   "action": 200,
-   "price": 229,
-   "purchase": 145.8,
-   "marginPct": 10.3
-  },
-  {
-   "id": "616071",
-   "code": "BAS_BASYS-B 892399-0010",
-   "name": "Stolný Bluetooth reproduktor Bose SoundLink Home (Light Silver)",
-   "action": 200,
-   "price": 229,
-   "purchase": 145.8,
-   "marginPct": 10.3
-  },
-  {
-   "id": "616077",
-   "code": "BAS_BASYS-B 892399-0030",
-   "name": "Stolný Bluetooth reproduktor Bose SoundLink Home (Warm Wood)",
-   "action": 200,
-   "price": 229,
-   "purchase": 145.8,
-   "marginPct": 10.3
+   "id": "677424",
+   "code": "BAS_BASYS-B 887612-0400",
+   "name": "BOSE SoundLink Flex II bluetooth reproduktor, alpine sage"
   }
  ]
 }

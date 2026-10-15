@@ -15,9 +15,12 @@ for (const b of xml.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g) || []) {
   if (!feed.has(code) || tag(b, 'NAME')) feed.set(code, b);
 }
 const problems = [];
+let hidden = 0;
 for (const [key, item] of loadOnOrder()) {
   const b = feed.get(key);
   if (!b) { problems.push(`${item.objKod}: chýba vo feede`); continue; }
+  // Produkt, ktorý BaSys prestal viesť, je legitímne skrytý záznamom "Vypredané" + detailOnly (apply-missing-availability).
+  if (!tag(b, 'NAME') && tag(b, 'AVAILABILITY') === 'Vypredané' && tag(b, 'VISIBILITY') === 'detailOnly') { hidden++; continue; }
   if (tag(b, 'AVAILABILITY') !== 'Na objednávku') problems.push(`${item.objKod}: dostupnosť "${tag(b, 'AVAILABILITY')}" namiesto "Na objednávku"`);
   if (tag(b, 'VISIBILITY') && tag(b, 'VISIBILITY') !== 'visible') problems.push(`${item.objKod}: viditeľnosť "${tag(b, 'VISIBILITY')}"`);
 }
@@ -25,4 +28,4 @@ if (problems.length) {
   console.error(`BASYS Bose "Na objednávku" poistka zlyhala (${problems.length}):\n - ${problems.join('\n - ')}`);
   process.exit(1);
 }
-console.log(`BASYS Bose "Na objednávku": ${loadOnOrder().size} produktov mimo cenníka je vo feede ako "Na objednávku".`);
+console.log(`BASYS Bose "Na objednávku": ${loadOnOrder().size} produktov mimo cenníka: ${loadOnOrder().size - hidden} "Na objednávku", ${hidden} skrytých (BaSys ich už nevedie).`);

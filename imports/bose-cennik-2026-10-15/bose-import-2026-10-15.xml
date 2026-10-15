@@ -351,7 +351,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -501,7 +501,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>390</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -525,7 +525,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -675,7 +675,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>390</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -1408,7 +1408,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -1557,7 +1557,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>165</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -1581,7 +1581,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -1730,7 +1730,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>165</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -1927,7 +1927,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -2076,7 +2076,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>165</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -2100,7 +2100,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -2250,7 +2250,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>260</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -2274,7 +2274,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -2423,7 +2423,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>260</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -5842,7 +5842,7 @@
 
         
         
-        <VISIBILITY>visible</VISIBILITY>
+        <VISIBILITY>detailOnly</VISIBILITY>
 
                 
                 
@@ -5886,7 +5886,7 @@
 
 
 <LOGISTIC>
-                        <WEIGHT>0.59</WEIGHT>
+                        <WEIGHT>0</WEIGHT>
                     <BOX_RESTRICTION>0</BOX_RESTRICTION>
     </LOGISTIC>
 
@@ -5914,7 +5914,7 @@
     <MAXIMAL_AMOUNT></MAXIMAL_AMOUNT>
 </STOCK>
 
-    <AVAILABILITY_OUT_OF_STOCK>Na objednávku</AVAILABILITY_OUT_OF_STOCK>
+    <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
 
 
 
@@ -12916,7 +12916,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -13065,7 +13065,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>145</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -13089,7 +13089,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -13238,7 +13238,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>145</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -13974,7 +13974,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -14124,7 +14124,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>330</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -14148,7 +14148,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -14297,7 +14297,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>105</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -15013,7 +15013,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -15162,7 +15162,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>240</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -15186,7 +15186,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -15335,7 +15335,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>240</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -17707,7 +17707,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -17857,7 +17857,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>449</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -18071,7 +18071,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -18220,7 +18220,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>200</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -18260,7 +18260,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -18410,7 +18410,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>200</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     
@@ -18450,7 +18450,7 @@
     <FLAGS>
                     <FLAG>
                 <CODE>action</CODE>
-                                    <ACTIVE>1</ACTIVE>
+                                    <ACTIVE>0</ACTIVE>
                                                             </FLAG>
                     <FLAG>
                 <CODE>tip</CODE>
@@ -18599,7 +18599,7 @@
 
     <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
 
-    <ACTION_PRICE>200</ACTION_PRICE>
+    <ACTION_PRICE></ACTION_PRICE>
 
     
     

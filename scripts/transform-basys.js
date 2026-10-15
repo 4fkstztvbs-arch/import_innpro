@@ -39,7 +39,7 @@
 // promo price (Shoptet shows this instead of PRICE_VAT while it's present), and FLAGS>ACTION is
 // set so it's also marked as an "akcia".
 //
-// Bose produkty mimo cenníka (data/basys-bose-on-order.json): vždy "Na objednávku", nikdy nevyradené z feedu,
+// Bose produkty mimo cenníka (data/basys-bose-on-order.json): vždy "Na objednávku", kým ich BaSys vedie; inak skryté (Vypredané + detailOnly),
 // cena z BASYS feedu. Hmotnosť z data/basys-bose-weights.json. Viď imports/bose-cennik-2026-10-15/POSTUP.md.
 //
 // Usage: node transform-basys.js
@@ -309,20 +309,9 @@ async function main() {
       ...(loadOnOrder().get(norm(f.itemId))?.purchasePriceExclVat > 0 ? { purchasePriceExclVat: loadOnOrder().get(norm(f.itemId)).purchasePriceExclVat } : {}),
     });
   }
-  // Bose produkty z e-shopu mimo cenníka, ktoré BASYS feed už neposiela: doplníme ich z posledných známych údajov,
-  // aby ich nenahradil záznam "Vypredané" a stále sa zobrazovali ako "Na objednávku".
-  const resolvedKeys = new Set(resolvedItems.map((r) => norm(r.objKod)));
-  let onOrderSynthesized = 0;
-  for (const [key, o] of loadOnOrder()) {
-    if (resolvedKeys.has(key) || pricelistCodes.has(key)) continue;
-    resolvedItems.push({
-      objKod: o.objKod, ean: o.ean || '', isFromPriceList: false, name: o.name, manufacturer: 'Bose',
-      defaultCategory: o.category || FALLBACK_BY_MANUFACTURER.Bose || 'TV, audio a video > Audio technika > Doplnky',
-      categoryWasMapped: !!o.category, mocInclVat: o.priceVat, purchasePriceExclVat: o.purchasePriceExclVat,
-      forceOnOrder: true, fallbackDescription: o.description || '',
-    });
-    onOrderSynthesized++;
-  }
+  // Bose produkt mimo cenníka, ktorý BASYS feed už neposiela, sa nedopĺňa: apply-missing-availability ho nastaví na
+  // "Vypredané" + detailOnly (skrytý, dostupný len cez URL).
+  const onOrderSynthesized = 0;
   console.log(`Bose mimo cenníka "Na objednávku": ${resolvedItems.filter((r) => r.forceOnOrder).length} (z toho ${onOrderSynthesized} doplnených z data/basys-bose-on-order.json, lebo ich feed neposiela).`);
   console.log(`Skipped ${skippedNoPrice} feed products with no usable price.`);
   console.log(`Total products to import: ${resolvedItems.length} (${priceList.length} z oficiálneho cenníka, ${resolvedItems.length - priceList.length} s odhadovanou nákupnou cenou z feedu).`);
