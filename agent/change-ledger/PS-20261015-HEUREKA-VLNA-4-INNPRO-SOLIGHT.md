@@ -1,0 +1,26 @@
+# PS-20261015-HEUREKA-VLNA-4-INNPRO-SOLIGHT
+
+- CHANGE_ID: PS-20261015-HEUREKA-VLNA-4-INNPRO-SOLIGHT
+- DATE: 2026-10-15
+- STATUS: PREPARED, NOT DEPLOYED (čaká na schválenie pushu do main)
+- ACTOR: Claude (agent), na pokyn majiteľa
+- AREA: Heureka CPC feed (HEUREKA_HIDDEN), InnPro a Solight
+- SCOPE: data/heureka-reports/cpc-hidden-products.json (+123 položiek, vlna 4)
+- AFFECTED_PRODUCTS/PAGES: 109 InnPro a 14 Solight produktov, ktoré sú dnes viditeľné (v XML bez HEUREKA_HIDDEN, nie v aktívnom zozname), majú v CPC reporte 10.8.–14.10.2026 aspoň 3 kliky a 0 objednávok za celé obdobie a majú EAN.
+- DESCRIPTION: Pridanie EAN do zoznamu CPC vylúčení. Solight aj InnPro tento zoznam uplatňujú (transform-solight.js, transform-innpro.js), Solight je inak vyňatý z kategóriového a cenového pravidla. Skrytie platí do 2026-11-12 (4 týždne), potom sa produkt vráti na Heureku a znovu sa vyhodnotí.
+- REASON: Platené kliky bez jedinej objednávky za ~9 týždňov. InnPro: 129 € s DPH, Solight: 11 €. Produkty, ktoré mali objednávku (InnPro 138 produktov: 271 € nákladov, obrat 18 012 €; Solight 19 produktov), sa nevylučujú.
+- HYPOTHESIS: Úspora ~14 €/týždeň (cca 12 % týždenných nákladov na Heureku) bez straty objednávok; PNO sa zlepší o ~1 p. b.
+- BASELINE: Heureka 1.–14.10.: 652 € s DPH, 51 objednávok, PNO 12,8 %; týždeň 8.–14.10.: 332 €, PNO 11,4 %.
+- PRIMARY_METRIC: PNO a náklad na objednávku z CPC reportu; nové kliky na vylúčených produktoch (mali by klesnúť na ~0).
+- GUARDRAIL_METRICS: počet objednávok z Heureky za týždeň (nesmie klesnúť o viac ako ~10 %), hrubý zisk z Heureky.
+- IMPLEMENTATION: skript v scratchpade porovnal CPC reporty 10.8.–9.10. a 1.–15.10. (bez 15.10., deduplikované po dňoch), spároval produkty s output/*.xml cez CODE (bez prefixov KB_, AT_, PEN_, SOL_) a vybral kandidátov; EAN doplnené na 13 miest.
+- FILES_CHANGED: data/heureka-reports/cpc-hidden-products.json, agent/change-ledger/PS-20261015-HEUREKA-VLNA-4-INNPRO-SOLIGHT.md
+- COMMIT / PR: vetva heureka-vlna-4-innpro-solight, nepushnuté
+- APPROVAL / APPROVER: čaká na majiteľa (pokyn „vylúčme tiež“ z 2026-10-15 chápaný ako zadanie, nie ako schválenie pushu)
+- EXPERIMENT_ID: —
+- PRE_DEPLOY_VALIDATION: JSON validný, 123 nových kľúčov, žiadny nekoliduje s existujúcim; diff obsahuje len pridané záznamy; formát rovnaký ako vlna 1.
+- DEPLOYED_AT: —
+- POST_DEPLOY_VALIDATION: po nočných behoch InnPro/Solight skontrolovať, že 123 EAN má HEUREKA_HIDDEN; po 7 dňoch skontrolovať, že kliky na nich ustali.
+- RESULT: —
+- DECISION: 12.11. vyhodnotiť uvoľnenie (viď týždenná kontrola).
+- ROLLBACK / ROLLBACK_COMMIT: odstrániť položky s "wave": 4 z cpc-hidden-products.json alebo revert commitu.
