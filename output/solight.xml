@@ -3163,7 +3163,10 @@ Balenie: sáčok</p>
   <MINIMAL_AMOUNT>10</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718022808</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>2769</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sáčok - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ssv5310e.jpg?v2</IMAGE>
@@ -10839,7 +10842,10 @@ Univerzálna nabíjačka pre Li-Ion, LiFePO4 a Ni-MH/CD batérie rôznych veľko
 <UNIT>ks</UNIT>
 <CODE>DN27</CODE>
 <EAN>8592718026424</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka batérií Li-Ion, LiFePO4, Ni-MH/CD, AA, AAA, 18650, 2000mA, 2 kanály, LCD displej - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn27.jpg?v2</IMAGE>
@@ -17104,7 +17110,10 @@ Táto mikroprocesorom riadená nabíjačka ponúka 4 samostatné nabíjacie kan�
 <UNIT>ks</UNIT>
 <CODE>DN25</CODE>
 <EAN>8592718015886</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka s LCD displejom, AC 230V, 450mA, 4 kanály, AA/AAA, riadená mikroprocesorom - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn25.jpg?v2</IMAGE>
@@ -24298,124 +24307,6 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálnym 
 <META_DESCRIPTION><![CDATA[Solight cestovný adaptér s USB A+C 20W PD do Veľkej Británie, typ G – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Vianočné LED cencúle Solight 1V403-CW, 15 m, studená biela, 300 LED, IP44]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="cencule"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18714" data-christmas-link="group">Svetelné cencúle →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-LED vianočná girlanda cencúle pre štýlové osvetlenie exteriéru aj interiéru LED vianočná girlanda v tvare visiacej cencúľov je ideálnou voľbou pre slávnostnú výzdobu domov, záhrad, terás aj…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="cencule"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18714" data-christmas-link="group">Svetelné cencúle →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-<p><b>LED vianočná girlanda cencúle pre štýlové osvetlenie exteriéru aj interiéru</b><br>
-LED vianočná girlanda v tvare visiacej cencúľov je ideálnou voľbou pre slávnostnú výzdobu domov, záhrad, terás aj interiérov. S celkovo 300 LED diódami v studenej bielej farbe 6500 K vytvára pôsobivý svetelný efekt, ktorý podčiarkne zimnú atmosféru a dodá vášmu priestoru jedinečný vzhľad. Osvetlený kábel má dĺžku 15 m, pričom celková dĺžka vrátane prívodného kábla je 18 m. Vďaka transparentnému káblu pôsobí girlanda nenápadne a elegantne, či ju zavesíte na strechu, plot alebo do okna. Rozostupy zvislých cencúľov sú 20 cm, pričom jednotlivé cencúle majú rôznu dĺžku a počet LED (2/6/3/5/4 LED – 20/60/30/50/40 cm), čo vytvára dynamický a prirodzený efekt padajúceho ľadu.</p>
-<p><b>Praktické funkcie a bezpečné použitie v každom počasí</b><br>
-Girlanda ponúka 8 nastaviteľných módov svietenia a blikania, ktoré ľahko prispôsobíte svojej nálade alebo príležitosti. Praktický časovač umožňuje automatické zapnutie na 6 hodín a následné vypnutie na 18 hodín, čo šetrí energiu a zabezpečuje bezstarostnú prevádzku. S príkonom 3,2 W a svetelným tokom 256 lm je girlanda úsporná a zároveň dostatočne jasná. Vďaka stupňu krytia IP44 je vhodná na vonkajšie aj vnútorné použitie a odolá dažďu aj mrazu v rozmedzí teplôt -20 °C až +50 °C. Napájanie je riešené bezpečne cez adaptér (vstup 230 V AC / výstup 31 V), čo zabezpečuje maximálnu bezpečnosť pri prevádzke. Energetická trieda G zodpovedá moderným štandardom pre dekoratívne osvetlenie.</p>
-<UL>
-<LI>LED vianočná girlanda - cencúle</LI>
-<LI>počet LED diód: 300</LI>
-<LI>farba svetla: studená biela 6500 K</LI>
-<LI>štýl usporiadania: visiace cencúle</LI>
-<LI>vodorovná dĺžka osvetleného kábla: 15 m</LI>
-<LI>celková dĺžka kábla: 18 m</LI>
-<LI>dĺžka prívodného kábla: 3 m (od zdroja k prvej žiarovke)</LI>
-<LI>rozostupy zvislých cencúľov: 20 cm</LI>
-<LI>zvislé usporiadanie žiaroviek: 2/6/3/5/4 LED (20/60/30/50/40 cm)</LI>
-<LI>na vonkajšie aj vnútorné použitie</LI>
-<LI>8 nastaviteľných módov svietenia/blikania</LI>
-<LI>časovač 6 h/18 h - po 6 h od zapnutia sa automaticky vypne a znovu zapne po 18 h</LI>
-<LI>farba kábla: transparentná</LI>
-<LI>príkon: 3,2 W</LI>
-<LI>svetelný tok: 256 lm</LI>
-<LI>napájanie: vstup 230 V AC / výstup 31 V</LI>
-<LI>stupeň krytia: IP44</LI>
-<LI>pracovná teplota: -20 °C až +50 °C</LI>
-<LI>energetická trieda: G</LI>
-</UL><p><a href="https://www.solight.sk/documents/1v403-CW_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/1v403-CW_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/1v403-CW_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vianocne-osvetlenie/">Vianočné osvetlenie a dekorácie</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>1v403-CW</CODE>
-<EAN>8592718049737</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, studené biele svetlo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-cw.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, studené biele svetlo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-cw_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, studené biele svetlo - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-cw_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, studené biele svetlo - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-cw_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, studené biele svetlo - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-cw_4.jpg?v2</IMAGE>
-</IMAGES>
-<INFORMATION_PARAMETERS><INFORMATION_PARAMETER><NAME><![CDATA[Druh vianočného osvetlenia]]></NAME><VALUE><![CDATA[Svetelné cencúle]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Použitie osvetlenia]]></NAME><VALUE><![CDATA[Vonkajšie aj vnútorné]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Farba vianočného svetla]]></NAME><VALUE><![CDATA[Studená biela]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Napájanie osvetlenia]]></NAME><VALUE><![CDATA[Sieťové]]></VALUE></INFORMATION_PARAMETER></INFORMATION_PARAMETERS>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Solight]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet LED diód]]></NAME>
-    <VALUE><![CDATA[300]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba svetla]]></NAME>
-    <VALUE><![CDATA[studená biela 6500 K]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Štýl usporiadania]]></NAME>
-    <VALUE><![CDATA[visiace cencúle]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Celková dĺžka kábla]]></NAME>
-    <VALUE><![CDATA[18 m]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Dĺžka prívodného kábla]]></NAME>
-    <VALUE><![CDATA[3 m (od zdroja k prvej žiarovke)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozostupy zvislých cencúľov]]></NAME>
-    <VALUE><![CDATA[20 cm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Zvislé usporiadanie žiaroviek]]></NAME>
-    <VALUE><![CDATA[2/6/3/5/4 LED (20/60/30/50/40 cm)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba kábla]]></NAME>
-    <VALUE><![CDATA[transparentná]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Príkon]]></NAME>
-    <VALUE><![CDATA[3,2 W]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Svetelný tok]]></NAME>
-    <VALUE><![CDATA[256 lm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[biela]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.19</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>19.00</PRICE_VAT>
-<PURCHASE_PRICE>10.06</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Vianočné LED cencúle Solight 1V403-CW, 15 m, studená biela, 300 LED, IP44]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, studené biele svetlo – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Solight 33 W GaN fast charge USB-C adaptér, modrý]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[33W GaN rýchlonabíjací USB-C adaptér, modrý USB-C adaptér s výkonom 33 W rýchlo a spoľahlivo nabije väčšinu vašich zariadení. Využíva modernú GaN technológiu, vďaka ktorej je účinnejší a zároveň…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>33W GaN rýchlonabíjací USB-C adaptér, modrý</b><br>USB-C adaptér s výkonom 33 W rýchlo a spoľahlivo nabije väčšinu vašich zariadení. Využíva modernú GaN technológiu, vďaka ktorej je účinnejší a zároveň kompaktný. Podporuje najnovšie štandardy rýchleho nabíjania, ako Power Delivery 3.0, PPS alebo Quick Charge 4+, takže si poradí s telefónmi, tabletmi, slúchadlami aj inteligentnými hodinkami od značiek Apple, Samsung, Xiaomi, Huawei a ďalších. Rôzne úrovne výstupného napätia zabezpečujú bezpečné nabíjanie rôznych typov zariadení, samozrejmosťou sú ochrany proti preťaženiu a skratu. Adaptér je vyrobený z odolného plastu, má certifikáciu CE a jeho modré prevedenie zaujme na prvý pohľad.</p>
@@ -24537,7 +24428,11 @@ Girlanda ponúka 8 nastaviteľných módov svietenia a blikania, ktoré ľahko p
 <UNIT>ks</UNIT>
 <CODE>CA01B</CODE>
 <EAN>8592718023690</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b.jpg?v2</IMAGE>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b_1.jpg?v2</IMAGE>
@@ -32911,124 +32806,6 @@ Pripravený na súčasné aj budúce AV technológie.</b></p>
 <META_DESCRIPTION><![CDATA[Solight HDMI kábel s Ethernetom, HDMI 2.0 A konektor - HDMI 2.0 A konektor, blister, 1,5m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Vianočné LED cencúle Solight 1V403-WW, 15 m, teplá biela, 300 LED, IP44]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="cencule"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18714" data-christmas-link="group">Svetelné cencúle →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-LED vianočná girlanda cencúle pre štýlové osvetlenie exteriéru aj interiéru Táto LED vianočná girlanda v tvare cencúľov je ideálnou voľbou na vytvorenie čarovnej atmosféry počas zimných sviatkov. S…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<!-- ps-christmas:start --><div class="ps-christmas-bridge" data-christmas-group="cencule"><strong>Vyberáte vianočné osvetlenie?</strong><span>Porovnajte svetielka podľa druhu, farby a miesta použitia.</span><div><a href="/vianocne-osvetlenie/?pv39=18714" data-christmas-link="group">Svetelné cencúle →</a><a href="/vianocne-osvetlenie/" data-christmas-link="all">Všetko vianočné osvetlenie →</a></div></div><!-- ps-christmas:end -->
-<p><b>LED vianočná girlanda cencúle pre štýlové osvetlenie exteriéru aj interiéru</b><br>
-Táto LED vianočná girlanda v tvare cencúľov je ideálnou voľbou na vytvorenie čarovnej atmosféry počas zimných sviatkov. S celkovo 300 LED diódami v teplej bielej farbe 3000 K a vodorovnou dĺžkou osvetleného kábla 15 m krásne ozdobí fasádu domu, pergolu, balkón alebo interiér. Visiace cencúle sú rozmiestnené po 20 cm a ich dĺžky sa striedajú v usporiadaní 2/6/3/5/4 LED (20/60/30/50/40 cm), čo vytvára prirodzený efekt padajúceho ľadu. Transparentný kábel nenarúša celkový vzhľad dekorácie a vďaka dĺžke prívodného kábla 3 m je inštalácia veľmi flexibilná.</p>
-<p><b>Praktické funkcie a bezpečné použitie v každom počasí</b><br>
-Girlanda ponúka 8 nastaviteľných módov svietenia a blikania, ktoré možno ľahko prispôsobiť aktuálnej nálade alebo príležitosti. Praktický časovač 6 h/18 h zabezpečí automatické vypnutie po 6 hodinách prevádzky a opätovné zapnutie po 18 hodinách, čo šetrí energiu aj starosti. S príkonom 3,2 W a svetelným tokom 256 lm je girlanda úsporná a zároveň dostatočne jasná. Vďaka stupňu krytia IP44 je vhodná na vonkajšie aj vnútorné použitie a odolá teplotám od -20 °C do +50 °C. Napájanie je riešené vstupom 230 V AC a výstupom 31 V, čo zaisťuje bezpečnú prevádzku. Energetická trieda G zodpovedá moderným štandardom pre dekoratívne osvetlenie.</p>
-<UL>
-<LI>LED vianočná girlanda - cencúle</LI>
-<LI>počet LED diód: 300</LI>
-<LI>farba svetla: teplá biela 3000 K</LI>
-<LI>štýl usporiadania: visiace cencúle</LI>
-<LI>vodorovná dĺžka osvetleného kábla: 15 m</LI>
-<LI>celková dĺžka kábla: 18 m</LI>
-<LI>dĺžka prívodného kábla: 3 m (od zdroja k prvej žiarovke)</LI>
-<LI>rozostupy zvislých cencúľov: 20 cm</LI>
-<LI>zvislé usporiadanie žiaroviek: 2/6/3/5/4 LED (20/60/30/50/40 cm)</LI>
-<LI>na vonkajšie aj vnútorné použitie</LI>
-<LI>8 nastaviteľných módov svietenia/blikania</LI>
-<LI>časovač 6 h/18 h - po 6 h od zapnutia sa automaticky vypne a znovu zapne po 18 h</LI>
-<LI>farba kábla: transparentná</LI>
-<LI>príkon: 3,2 W</LI>
-<LI>svetelný tok: 256 lm</LI>
-<LI>napájanie: vstup 230 V AC / výstup 31 V</LI>
-<LI>stupeň krytia: IP44</LI>
-<LI>pracovná teplota: -20 °C až +50 °C</LI>
-<LI>energetická trieda: G</LI>
-</UL><p><a href="https://www.solight.sk/documents/1v403-WW_Produktov%C3%BD%20list%20full.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list full</a></p><p><a href="https://www.solight.sk/documents/1v403-WW_Produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/1v403-WW_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/vianocne-osvetlenie/">Vianočné osvetlenie a dekorácie</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>1v403-WW</CODE>
-<EAN>8592718049744</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > Vianočné osvetlenie a dekorácie]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5551</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/1v403-ww_4.jpg?v2</IMAGE>
-</IMAGES>
-<INFORMATION_PARAMETERS><INFORMATION_PARAMETER><NAME><![CDATA[Druh vianočného osvetlenia]]></NAME><VALUE><![CDATA[Svetelné cencúle]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Použitie osvetlenia]]></NAME><VALUE><![CDATA[Vonkajšie aj vnútorné]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Farba vianočného svetla]]></NAME><VALUE><![CDATA[Teplá biela]]></VALUE></INFORMATION_PARAMETER><INFORMATION_PARAMETER><NAME><![CDATA[Napájanie osvetlenia]]></NAME><VALUE><![CDATA[Sieťové]]></VALUE></INFORMATION_PARAMETER></INFORMATION_PARAMETERS>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Solight]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet LED diód]]></NAME>
-    <VALUE><![CDATA[300]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba svetla]]></NAME>
-    <VALUE><![CDATA[teplá biela 3000 K]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Štýl usporiadania]]></NAME>
-    <VALUE><![CDATA[visiace cencúle]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Celková dĺžka kábla]]></NAME>
-    <VALUE><![CDATA[18 m]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Dĺžka prívodného kábla]]></NAME>
-    <VALUE><![CDATA[3 m (od zdroja k prvej žiarovke)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozostupy zvislých cencúľov]]></NAME>
-    <VALUE><![CDATA[20 cm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Zvislé usporiadanie žiaroviek]]></NAME>
-    <VALUE><![CDATA[2/6/3/5/4 LED (20/60/30/50/40 cm)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba kábla]]></NAME>
-    <VALUE><![CDATA[transparentná]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Príkon]]></NAME>
-    <VALUE><![CDATA[3,2 W]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Svetelný tok]]></NAME>
-    <VALUE><![CDATA[256 lm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[biela]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.19</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>19.00</PRICE_VAT>
-<PURCHASE_PRICE>10.06</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Vianočné LED cencúle Solight 1V403-WW, 15 m, teplá biela, 300 LED, IP44]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight LED vianočná girlanda, cencúle, 300 LED, 15m, IP44, teplé biele svetlo – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod 3m, 4 zásuvky, vypínač, 16A/3680W, PVC, biely]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Predlžovací prívod na každodenné použitie Praktický biely predlžovací kábel s dĺžkou 3 metre a štyrmi zásuvkami umožní priviesť elektrickú energiu tam, kde nie je k dispozícii pevná zásuvka.…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>Predlžovací prívod na každodenné použitie</b><br>
@@ -36427,7 +36204,12 @@ Inštaluje sa do otvoru 50 mm v pracovnej doske. Modul je napájaný sieťovým 
 <UNIT>ks</UNIT>
 <CODE>V50</CODE>
 <EAN>8592718027186</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, max. AC 600V/600A, max. DC 600V, test diódy, bzučiak, odpor, teplota - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v50.jpg?v2</IMAGE>
@@ -36479,7 +36261,6 @@ Inštaluje sa do otvoru 50 mm v pracovnej doske. Modul je napájaný sieťovým 
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>12.50</PRICE_VAT>
 <PURCHASE_PRICE>7.46</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -41293,7 +41074,6 @@ LED pásik SMD2835 ponúka životnosť až 30 000 hodín a index podania farieb 
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
   <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Meteostanice]]></DEFAULT_CATEGORY>
 </CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Solight profesionálna meteostanica, prehľadný a dizajnový displej, tlak, teplota, vlhkosť, zrážky, hodnoty vetra - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/te90.jpg?v2</IMAGE>
   <IMAGE description="Solight profesionálna meteostanica, prehľadný a dizajnový displej, tlak, teplota, vlhkosť, zrážky, hodnoty vetra - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/te90_001.jpg?v2</IMAGE>
@@ -52129,7 +51909,11 @@ Tradičné biele prevedenie s klasickým vzhľadom sa hodí do každej domácnos
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718033101</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>5879</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight WIFI zásuvka s meraním spotreby - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dty01wifi.jpg?v2</IMAGE>
@@ -78531,7 +78315,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <UNIT>ks</UNIT>
 <CODE>V52</CODE>
 <EAN>8592718041564</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
@@ -78597,7 +78386,6 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>8.90</PRICE_VAT>
 <PURCHASE_PRICE>6.04</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -80338,7 +80126,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718041557</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, 20 - 200A - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v51.jpg?v2</IMAGE>
@@ -80402,7 +80195,6 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>6.40</PRICE_VAT>
 <PURCHASE_PRICE>3.89</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -102562,6 +102354,20 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
   <SHOPITEM>
     <CODE>1V262</CODE>
     <EAN>8592718033958</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>1v403-CW</CODE>
+    <EAN>8592718049737</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>1v403-WW</CODE>
+    <EAN>8592718049744</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
