@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600572,
+    "nextCardNumber": 202600575,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3428,6 +3428,24 @@
         "nazov": "Remote KVM GL.iNet",
         "dodavatel": "innpro",
         "code": "093441"
+      },
+      "6976037360865": {
+        "kod": "202600572",
+        "nazov": "Zigbee Switch Module 2 gang",
+        "dodavatel": "innpro",
+        "code": "047980"
+      },
+      "5907085528922": {
+        "kod": "202600573",
+        "nazov": "Flytec RC Boat V802 black",
+        "dodavatel": "innpro",
+        "code": "079986"
+      },
+      "6930444806132": {
+        "kod": "202600574",
+        "nazov": "Huion Kamvas Pad 12",
+        "dodavatel": "innpro",
+        "code": "093039"
       }
     }
   },
