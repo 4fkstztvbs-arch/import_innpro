@@ -1,11 +1,103 @@
 {
-  "fetchedAt": "2026-10-05T12:02:39.232Z",
+  "fetchedAt": "2026-10-12T12:45:05.118Z",
   "domain": "heureka.sk",
-  "productCount": 11,
-  "matchedProductCount": 10,
+  "productCount": 15,
+  "matchedProductCount": 14,
   "unmatchedEanCount": 0,
   "noEanCount": 1,
   "products": [
+    {
+      "ean": "4262533460058",
+      "heurekaProductName": "Projektor Ultimea Nova C40 s natívnym Full HD rozlíšením",
+      "heurekaUrl": "https://www.premiumstore.sk/projektor-ultima-nova-c40/",
+      "ourName": "Projektor Ultima Nova C40",
+      "ourCode": "083071",
+      "ourSource": "innpro.xml",
+      "reviewCount": 1,
+      "avgRating": 4.5,
+      "reviews": [
+        {
+          "ratingId": "7015735",
+          "orderId": "",
+          "author": "",
+          "rating": 4.5,
+          "pros": "",
+          "cons": "Chýba pripojenie na optický kábel",
+          "summary": "Chýba pripojenie na optický kábel",
+          "reaction": "",
+          "unixTimestamp": 1791661002
+        }
+      ]
+    },
+    {
+      "ean": "5901890101301",
+      "heurekaProductName": "Lavica na cvičenie brucha Rebel Active RBA-2004",
+      "heurekaUrl": "https://www.premiumstore.sk/posilovaci-lavice-rebel-active-rba-2004/",
+      "ourName": "Posilovací lavice REBEL ACTIVE RBA-2004",
+      "ourCode": "LEC-RBA-2004",
+      "ourSource": "atos.xml",
+      "reviewCount": 1,
+      "avgRating": 3,
+      "reviews": [
+        {
+          "ratingId": "7009614",
+          "orderId": "",
+          "author": "",
+          "rating": 3,
+          "pros": "",
+          "cons": "v mieste sadenia pri cvičení  sa koženka - poťah krčí",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1791467449
+        }
+      ]
+    },
+    {
+      "ean": "6928819532021",
+      "heurekaProductName": "Nabíjateľné batérie Linogy AA Li-ion Pro, 1,5 V, 8 ks",
+      "heurekaUrl": "https://www.premiumstore.sk/linogy-aa-li-ion-pro-bateria-sada-sada-8-ks/",
+      "ourName": "LINOGY AA Li-ion Pro batéria sada - sada 8 ks",
+      "ourCode": "082176",
+      "ourSource": "innpro.xml",
+      "reviewCount": 1,
+      "avgRating": 1,
+      "reviews": [
+        {
+          "ratingId": "7007738",
+          "orderId": "",
+          "author": "",
+          "rating": 1,
+          "pros": "",
+          "cons": "",
+          "summary": "tovar som nedostal, bez udania dovodu zrusili objednavku, peniaze zatial nemam spat.",
+          "reaction": "",
+          "unixTimestamp": 1791354457
+        }
+      ]
+    },
+    {
+      "ean": "6935750525081",
+      "heurekaProductName": "UNI-T UT25CL",
+      "heurekaUrl": "https://www.premiumstore.sk/detektor-drotov-uni-t-ut25cl/",
+      "ourName": "Detektor drôtov UNI-T UT25CL",
+      "ourCode": "077518",
+      "ourSource": "innpro.xml",
+      "reviewCount": 1,
+      "avgRating": 0.5,
+      "reviews": [
+        {
+          "ratingId": "6997952",
+          "orderId": "",
+          "author": "",
+          "rating": 0.5,
+          "pros": "",
+          "cons": "",
+          "summary": "Neviem posúdiť, nakoľko tovar skladom nedorazil ani po 7 dní",
+          "reaction": "",
+          "unixTimestamp": 1791187307
+        }
+      ]
+    },
     {
       "ean": "8698902064569",
       "heurekaProductName": "Televízor Finlux 40FFI5661 SMART TV FULL HD TIVO",
@@ -99,6 +191,29 @@
       ]
     },
     {
+      "ean": "6939093038420",
+      "heurekaProductName": "POCO F9 Ultra 16/512GB Black",
+      "heurekaUrl": "https://www.premiumstore.sk/poco-f9-ultra-16-512gb-black/",
+      "ourName": "POCO F9 Ultra 16/512GB Black",
+      "ourCode": "100002204356",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6937058",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "vyborny zapory ziadne",
+          "reaction": "",
+          "unixTimestamp": 1789539045
+        }
+      ]
+    },
+    {
       "ean": "5908261687204",
       "heurekaProductName": "Freestyle kolobežka NILS Extreme HS221 Spider",
       "heurekaUrl": "https://www.premiumstore.sk/freestyle-kolobezka-nils-extreme-hs221-spider/",
@@ -118,29 +233,6 @@
           "summary": "",
           "reaction": "",
           "unixTimestamp": 1789366170
-        }
-      ]
-    },
-    {
-      "ean": "8698902064705",
-      "heurekaProductName": "Televízor Finlux 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
-      "heurekaUrl": "https://www.premiumstore.sk/finlux-65fqk9070-ultra-hd-4k-qled-smart-android-tv/",
-      "ourName": "FINLUX 65FQK9070 ULTRA HD 4K QLED SMART ANDROID TV",
-      "ourCode": "65FQK9070",
-      "ourSource": "atos.xml",
-      "reviewCount": 1,
-      "avgRating": 5,
-      "reviews": [
-        {
-          "ratingId": "6920540",
-          "orderId": "",
-          "author": "",
-          "rating": 5,
-          "pros": "",
-          "cons": "",
-          "summary": "",
-          "reaction": "",
-          "unixTimestamp": 1788766854
         }
       ]
     },

@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 28886,
-  "matchedRules": 2233,
-  "changedProducts": 40,
+  "totalProducts": 29223,
+  "matchedRules": 2184,
+  "changedProducts": 5,
   "rejected": [
     {
       "supplier": "atos",
@@ -31,7 +31,17 @@
     },
     {
       "supplier": "atos",
+      "code": "ABL-30-B1-415",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
       "code": "ABL-30-B1-431",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ABL-30-B1-494",
       "reason": "Reviewed product name changed"
     },
     {
@@ -46,7 +56,27 @@
     },
     {
       "supplier": "atos",
+      "code": "ABL-30-B4-031",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
       "code": "ATO-04240702",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "CMP-TO-70490",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "ITR-00018345",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-07720230",
       "reason": "Reviewed product name changed"
     },
     {
@@ -322,6 +352,11 @@
     },
     {
       "supplier": "basys",
+      "code": "BASYS-B 760858-0010",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "basys",
       "code": "BASYS-B 881046-0010",
       "reason": "Reviewed EAN changed",
       "approvedEan": "17817846929",
@@ -474,16 +509,6 @@
     {
       "supplier": "innpro",
       "code": "064756",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "064757",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "064758",
       "reason": "Reviewed product name changed"
     },
     {
@@ -700,11 +725,6 @@
     },
     {
       "supplier": "innpro",
-      "code": "085101",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
       "code": "085102",
       "reason": "Reviewed product name changed"
     },
@@ -831,11 +851,6 @@
     {
       "supplier": "innpro",
       "code": "085127",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "085128",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1020,6 +1035,11 @@
     },
     {
       "supplier": "innpro",
+      "code": "085165",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "085166",
       "reason": "Reviewed product name changed"
     },
@@ -1061,11 +1081,6 @@
     {
       "supplier": "innpro",
       "code": "085202",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "085203",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1146,11 +1161,6 @@
     {
       "supplier": "innpro",
       "code": "085227",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "innpro",
-      "code": "085237",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1305,12 +1315,27 @@
     },
     {
       "supplier": "innpro",
+      "code": "023125",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "028538",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "innpro",
+      "code": "030245",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "035194",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "038335",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1335,6 +1360,16 @@
     },
     {
       "supplier": "innpro",
+      "code": "064757",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "064758",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "064761",
       "reason": "Reviewed product name changed"
     },
@@ -1350,12 +1385,12 @@
     },
     {
       "supplier": "innpro",
-      "code": "069065",
+      "code": "069449",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "innpro",
-      "code": "069449",
+      "code": "070463",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1390,7 +1425,32 @@
     },
     {
       "supplier": "innpro",
+      "code": "074748",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "075362",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "075478",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076813",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076835",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "076836",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1401,6 +1461,11 @@
     {
       "supplier": "innpro",
       "code": "077386",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "077388",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1430,7 +1495,27 @@
     },
     {
       "supplier": "innpro",
+      "code": "078443",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "078446",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "078452",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079051",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "079072",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1445,6 +1530,16 @@
     },
     {
       "supplier": "innpro",
+      "code": "079515",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "080475",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "081474",
       "reason": "Reviewed product name changed"
     },
@@ -1455,12 +1550,22 @@
     },
     {
       "supplier": "innpro",
+      "code": "081502",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "082424",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "innpro",
       "code": "082645",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083189",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1476,6 +1581,21 @@
     {
       "supplier": "innpro",
       "code": "083355",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083572",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083724",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "083731",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1515,12 +1635,37 @@
     },
     {
       "supplier": "innpro",
-      "code": "085165",
+      "code": "085101",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085128",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "innpro",
       "code": "085167",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085203",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085237",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "085867",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "087403",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1535,6 +1680,11 @@
     },
     {
       "supplier": "innpro",
+      "code": "087556",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "088688",
       "reason": "Reviewed product name changed"
     },
@@ -1545,12 +1695,37 @@
     },
     {
       "supplier": "innpro",
+      "code": "089594",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "089624",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "innpro",
+      "code": "089653",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "089663",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "089669",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090567",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
+      "code": "090569",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1585,15 +1760,18 @@
     },
     {
       "supplier": "innpro",
+      "code": "093563",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "innpro",
       "code": "093576",
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100001714209",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069388286",
-      "feedEan": "0790069388286"
+      "supplier": "innpro",
+      "code": "093882",
+      "reason": "Reviewed product name changed"
     },
     {
       "supplier": "kb",
@@ -1611,10 +1789,10 @@
     },
     {
       "supplier": "kb",
-      "code": "100001714208",
+      "code": "100001714209",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "790069461217",
-      "feedEan": "0790069461217"
+      "approvedEan": "790069388286",
+      "feedEan": "0790069388286"
     },
     {
       "supplier": "kb",
@@ -1622,6 +1800,13 @@
       "reason": "Reviewed EAN changed",
       "approvedEan": "790069365690",
       "feedEan": "0790069365690"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001714208",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "790069461217",
+      "feedEan": "0790069461217"
     },
     {
       "supplier": "kb",
@@ -1653,6 +1838,20 @@
     },
     {
       "supplier": "kb",
+      "code": "100002102122",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "761318529217",
+      "feedEan": "0761318529217"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002078658",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "790069472824",
+      "feedEan": "0790069472824"
+    },
+    {
+      "supplier": "kb",
       "code": "100002136676",
       "reason": "Reviewed EAN changed",
       "approvedEan": "622356283694",
@@ -1660,10 +1859,10 @@
     },
     {
       "supplier": "kb",
-      "code": "100002102122",
+      "code": "210670105223",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "761318529217",
-      "feedEan": "0761318529217"
+      "approvedEan": "790069365676",
+      "feedEan": "0790069365676"
     },
     {
       "supplier": "kb",
@@ -1681,38 +1880,10 @@
     },
     {
       "supplier": "kb",
-      "code": "210670105223",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069365676",
-      "feedEan": "0790069365676"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002078658",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069472824",
-      "feedEan": "0790069472824"
-    },
-    {
-      "supplier": "kb",
       "code": "100002164092",
       "reason": "Reviewed EAN changed",
       "approvedEan": "195950543742",
       "feedEan": "0195950543742"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002172298",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356273145",
-      "feedEan": "0622356273145"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001929938",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069470240",
-      "feedEan": "0790069470240"
     },
     {
       "supplier": "kb",
@@ -1723,17 +1894,10 @@
     },
     {
       "supplier": "kb",
-      "code": "100001949816",
+      "code": "100002172298",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "790069469459",
-      "feedEan": "0790069469459"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002135097",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069476020",
-      "feedEan": "0790069476020"
+      "approvedEan": "622356273145",
+      "feedEan": "0622356273145"
     },
     {
       "supplier": "kb",
@@ -1744,6 +1908,13 @@
     },
     {
       "supplier": "kb",
+      "code": "100001929938",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "790069470240",
+      "feedEan": "0790069470240"
+    },
+    {
+      "supplier": "kb",
       "code": "100002136525",
       "reason": "Reviewed EAN changed",
       "approvedEan": "622356318235",
@@ -1751,17 +1922,10 @@
     },
     {
       "supplier": "kb",
-      "code": "100002201678",
+      "code": "100001949816",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "195951039176",
-      "feedEan": "0195951039176"
-    },
-    {
-      "supplier": "kb",
-      "code": "210670115223",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069388262",
-      "feedEan": "0790069388262"
+      "approvedEan": "790069469459",
+      "feedEan": "0790069469459"
     },
     {
       "supplier": "kb",
@@ -1772,6 +1936,13 @@
     },
     {
       "supplier": "kb",
+      "code": "100002135097",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "790069476020",
+      "feedEan": "0790069476020"
+    },
+    {
+      "supplier": "kb",
       "code": "100001169950",
       "reason": "Reviewed EAN changed",
       "approvedEan": "790069458576",
@@ -1779,20 +1950,24 @@
     },
     {
       "supplier": "kb",
-      "code": "100002203916",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002118859",
+      "code": "210670115223",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "195949544026",
-      "feedEan": "0195949544026"
+      "approvedEan": "790069388262",
+      "feedEan": "0790069388262"
     },
     {
       "supplier": "kb",
-      "code": "100002203429",
-      "reason": "Reviewed product name changed"
+      "code": "100002201678",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "195951039176",
+      "feedEan": "0195951039176"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001169951",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "790069458583",
+      "feedEan": "0790069458583"
     },
     {
       "supplier": "kb",
@@ -1803,10 +1978,15 @@
     },
     {
       "supplier": "kb",
-      "code": "100001169951",
+      "code": "100002203429",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002118859",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "790069458583",
-      "feedEan": "0790069458583"
+      "approvedEan": "195949544026",
+      "feedEan": "0195949544026"
     },
     {
       "supplier": "kb",
@@ -1832,12 +2012,17 @@
     },
     {
       "supplier": "kb",
-      "code": "100000980758",
+      "code": "100000661731",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "kb",
-      "code": "100001089158",
+      "code": "100000800044",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000980758",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1867,17 +2052,12 @@
     },
     {
       "supplier": "kb",
-      "code": "100001392520",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
       "code": "100001434520",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "kb",
-      "code": "100001743631",
+      "code": "100001444262",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1892,7 +2072,7 @@
     },
     {
       "supplier": "kb",
-      "code": "100001881378",
+      "code": "100001920494",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1922,7 +2102,17 @@
     },
     {
       "supplier": "kb",
+      "code": "100001937702",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
       "code": "100001937703",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001947445",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1933,11 +2123,6 @@
     {
       "supplier": "kb",
       "code": "100002065154",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002067334",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1957,12 +2142,22 @@
     },
     {
       "supplier": "kb",
-      "code": "100002103586",
+      "code": "100002106629",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002113106",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "kb",
       "code": "100002117852",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002118454",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1982,6 +2177,11 @@
     },
     {
       "supplier": "kb",
+      "code": "100002136241",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
       "code": "100002136242",
       "reason": "Reviewed product name changed"
     },
@@ -1992,7 +2192,67 @@
     },
     {
       "supplier": "kb",
+      "code": "100002136360",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136368",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136373",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136450",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136451",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
       "code": "100002136467",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136608",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136609",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136610",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136612",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136613",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136614",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136615",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2016,16 +2276,6 @@
     },
     {
       "supplier": "kb",
-      "code": "100002136816",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136831",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
       "code": "100002136859",
       "reason": "Reviewed product name changed"
     },
@@ -2036,7 +2286,27 @@
     },
     {
       "supplier": "kb",
+      "code": "100002142393",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002143043",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
       "code": "100002143502",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002164156",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002164673",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2046,12 +2316,27 @@
     },
     {
       "supplier": "kb",
+      "code": "100002200140",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
       "code": "100002201932",
       "reason": "Reviewed product name changed"
     },
     {
       "supplier": "kb",
+      "code": "100002201934",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
       "code": "100002203081",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002203916",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2080,6 +2365,11 @@
       "reason": "Reviewed product name changed"
     },
     {
+      "supplier": "monacor",
+      "code": "KM-210/9",
+      "reason": "Reviewed product name changed"
+    },
+    {
       "supplier": "penta",
       "code": "5537663",
       "reason": "Reviewed product name changed"
@@ -2087,6 +2377,11 @@
     {
       "supplier": "penta",
       "code": "5537664",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "penta",
+      "code": "553765",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2126,17 +2421,7 @@
     },
     {
       "supplier": "penta",
-      "code": "553765",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "5545060",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "5545064",
+      "code": "554503",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2162,11 +2447,6 @@
     {
       "supplier": "penta",
       "code": "65526109",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "7380440",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2243,80 +2523,23 @@
       "feedEan": "0795847057279"
     }
   ],
-  "categoryDrifts": [
-    {
-      "supplier": "monacor",
-      "code": "KM-24110",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Profesionálna audio technika > Pódium, diskotéka, DJ"
-      ],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
-      ]
-    },
-    {
-      "supplier": "monacor",
-      "code": "KM-24120",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Profesionálna audio technika > Pódium, diskotéka, DJ"
-      ],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
-      ]
-    },
-    {
-      "supplier": "monacor",
-      "code": "LIVEO-420PWH",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
-      ],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
-      ]
-    },
-    {
-      "supplier": "monacor",
-      "code": "LIVEO-640PBK",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
-      ],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
-      ]
-    }
-  ],
+  "categoryDrifts": [],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
-      "visibleUnique": 21,
+      "visibleUnique": 19,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PETG filamenty",
-      "visibleUnique": 42,
+      "visibleUnique": 38,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
-      "visibleUnique": 146,
+      "visibleUnique": 144,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -2328,19 +2551,19 @@
     },
     {
       "path": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy > Nabíjačky autobatérií",
-      "visibleUnique": 26,
+      "visibleUnique": 30,
       "active": true,
       "parent": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy"
     },
     {
       "path": "Auto-moto > Elektronika do auta > Autorádiá",
-      "visibleUnique": 21,
+      "visibleUnique": 22,
       "active": true,
       "parent": "Auto-moto > Elektronika do auta"
     },
     {
       "path": "Auto-moto > Elektronika do auta > Kamery do auta",
-      "visibleUnique": 41,
+      "visibleUnique": 40,
       "active": true,
       "parent": "Auto-moto > Elektronika do auta"
     },
@@ -2352,7 +2575,7 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Bojové športy > Chrániče pre bojové športy",
-      "visibleUnique": 61,
+      "visibleUnique": 57,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Bojové športy"
     },
@@ -2370,7 +2593,7 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
-      "visibleUnique": 48,
+      "visibleUnique": 49,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
     },
@@ -2382,7 +2605,7 @@
     },
     {
       "path": "Chovateľské potreby > Fontány a napájačky > Fontány pre psy a mačky",
-      "visibleUnique": 16,
+      "visibleUnique": 15,
       "active": true,
       "parent": "Chovateľské potreby > Fontány a napájačky"
     },
@@ -2400,19 +2623,19 @@
     },
     {
       "path": "Chovateľské potreby > Pohlcovače zápachu",
-      "visibleUnique": 8,
-      "active": true,
+      "visibleUnique": 6,
+      "active": false,
       "parent": "Chovateľské potreby"
     },
     {
       "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Digitálne multimetre",
-      "visibleUnique": 65,
+      "visibleUnique": 66,
       "active": true,
       "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
     },
     {
       "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače",
-      "visibleUnique": 49,
+      "visibleUnique": 51,
       "active": true,
       "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
     },
@@ -2424,7 +2647,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Kuchynské roboty",
-      "visibleUnique": 21,
+      "visibleUnique": 20,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače"
     },
@@ -2442,61 +2665,61 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice",
-      "visibleUnique": 28,
+      "visibleUnique": 27,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
-      "visibleUnique": 61,
+      "visibleUnique": 63,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Sušiaky na bielizeň",
-      "visibleUnique": 42,
+      "visibleUnique": 40,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače",
-      "visibleUnique": 83,
+      "visibleUnique": 79,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače",
-      "visibleUnique": 31,
+      "visibleUnique": 32,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Vreckové a bezvreckové vysávače",
-      "visibleUnique": 9,
+      "visibleUnique": 11,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia",
-      "visibleUnique": 16,
+      "visibleUnique": 17,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory teploty a vlhkosti",
-      "visibleUnique": 20,
+      "visibleUnique": 16,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
-      "visibleUnique": 38,
+      "visibleUnique": 34,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky",
-      "visibleUnique": 60,
+      "visibleUnique": 59,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
@@ -2514,25 +2737,25 @@
     },
     {
       "path": "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače",
-      "visibleUnique": 45,
+      "visibleUnique": 44,
       "active": true,
       "parent": "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory"
     },
     {
       "path": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > Sieťové switche",
-      "visibleUnique": 106,
+      "visibleUnique": 105,
       "active": true,
       "parent": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
     },
     {
       "path": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > WiFi routery",
-      "visibleUnique": 121,
+      "visibleUnique": 116,
       "active": true,
       "parent": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
     },
     {
       "path": "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu",
-      "visibleUnique": 34,
+      "visibleUnique": 35,
       "active": true,
       "parent": "Profesionálna audio technika"
     },
@@ -2562,7 +2785,7 @@
     },
     {
       "path": "Profesionálna audio technika > Výkonové a inštalačné zosilňovače",
-      "visibleUnique": 16,
+      "visibleUnique": 17,
       "active": true,
       "parent": "Profesionálna audio technika"
     },
@@ -2574,37 +2797,37 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Prenosné Bluetooth reproduktory",
-      "visibleUnique": 43,
+      "visibleUnique": 37,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike",
-      "visibleUnique": 14,
+      "visibleUnique": 15,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k slúchadlám",
-      "visibleUnique": 31,
+      "visibleUnique": 30,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 59,
+      "visibleUnique": 58,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Otvorené bezdrôtové slúchadlá",
-      "visibleUnique": 37,
+      "visibleUnique": 35,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 111,
+      "visibleUnique": 101,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2634,13 +2857,13 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Súpravy fotografických filtrov",
-      "visibleUnique": 61,
+      "visibleUnique": 62,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 96,
+      "visibleUnique": 105,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
@@ -2670,37 +2893,37 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery",
-      "visibleUnique": 35,
+      "visibleUnique": 34,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery",
-      "visibleUnique": 116,
+      "visibleUnique": 113,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Popruhy a postroje pre kamery",
-      "visibleUnique": 13,
+      "visibleUnique": 11,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Selfie tyče pre kamery",
-      "visibleUnique": 19,
+      "visibleUnique": 18,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Statívy pre fotoaparáty a kamery",
-      "visibleUnique": 40,
+      "visibleUnique": 37,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Fény a teplovzdušné kefy",
-      "visibleUnique": 28,
+      "visibleUnique": 27,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
@@ -2718,7 +2941,7 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Elektrické zubné kefky",
-      "visibleUnique": 51,
+      "visibleUnique": 52,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     },
@@ -2730,7 +2953,7 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy",
-      "visibleUnique": 6,
+      "visibleUnique": 7,
       "active": false,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     }

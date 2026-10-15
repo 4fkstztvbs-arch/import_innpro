@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-10-11
+# Cenové anomálie vynechané z feedu — innpro — 2026-10-15
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -12,13 +12,16 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 011632X |  | Monitor 5,5" DJI CrystalSky | nulová/neplatná cena |  | 0.00 € |  |  |
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
-| 079933 | 6972237683193 | Mikrofón Maono WM622 PC2 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089414 | 5905156108714 | WOLFBOX X5 WiFi 4K + 2,5K 128 GB palubná kamera | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090447 | 6971131385394 | KVM prepínač GL.iNet Comet 5G | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
+| 89056 | 5905156108318 | Nabíjačka Besen BS40 11 kW pre elektromobily s aplikáciou | nulová/neplatná cena |  | 0.00 € |  |  |
+| 89057 | 5905156108325 | Nabíjačka Besen BS40 22 kW pre elektromobily s aplikáciou | nulová/neplatná cena |  | 0.00 € |  |  |
+| 89058 | 5905156108332 | Solárna nabíjačka pre elektromobily Besen BS40 11 kW | nulová/neplatná cena |  | 0.00 € |  |  |
+| 89059 | 5905156108349 | Nabíjačka pre elektromobily Besen BS40 22 kW SOLAR-APP | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091991 | 6922572224681 | Filament eSun PLA-Wood 1.75mm 1kg (aspen) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091992 | 6922572224698 | Filament eSun PLA-Wood 1.75mm 1kg (walnut) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091993 | 6922572225329 | Filament eSun PLA-Wood 1.75mm 1kg (oak) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -441,20 +444,20 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092393 | 6922572221734 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092394 | 6922572221741 | Filament eSun PLA-Silk Magic 1.75mm 1kg (purple-silver) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093464 | 6975274260235 | Solar panel Allpowers SP027 100W monocrystalline | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093465 | 6975274260402 | Solar panel ALLPOWERS SF200 200W flexible | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093466 | 6975274260396 | Solar panel Allpowers SF100 100W flexible | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093467 | 6975274261072 | Solar panel Allpowers SOLAX SE100 100W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093468 | 6975274261133 | Solar panel Allpowers SOLAX SE200 200W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093469 | 6975274260266 | Solar panel Allpowers SP037 400W portable | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093470 | 6975274260457 | Solar panel Allpowers SP039 600W portable | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093465 | 6975274260402 | Solárny panel ALLPOWERS SF200 200 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093466 | 6975274260396 | Solárny panel Allpowers SF100 100 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093467 | 6975274261072 | Solárny panel Allpowers SOLAX SE100 100 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093468 | 6975274261133 | Solárny panel Allpowers SOLAX SE200 200 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093469 | 6975274260266 | Prenosný solárny panel Allpowers SP037 400 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093470 | 6975274260457 | Solárny panel Allpowers SP039 600 W, monokryštalický, prenosný | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093471 | 6975274261027 | Power station Allpowers SOLAX P100 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093472 | 6975274260242 | Solar panel Allpowers SP033 200W foldable | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093473 | 6975274260174 | Power station Allpowers S2000 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093474 | 6975274261065 | Power station Allpowers VOLIX P300 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093475 | 6975274260198 | Power station Allpowers R4000 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093476 | 6975274260877 | Power station ALLPOWERS R1500 LITE | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093477 | 6975274260341 | Power station ALLPOWERS R2500 V2 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093478 | 6975274260419 | Power station Allpowers R600 299Wh | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093473 | 6975274260174 | Elektráreň Allpowers S2000 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093474 | 6975274261065 | Elektráreň Allpowers VOLIX P300 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093475 | 6975274260198 | Elektráreň Allpowers R4000 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093476 | 6975274260877 | Elektráreň ALLPOWERS R1500 LITE | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093477 | 6975274260341 | Elektráreň ALLPOWERS R2500 V2 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 093478 | 6975274260419 | Napájací zdroj Allpowers R600 299 Wh | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093479 | 6975274260136 | Power bank Allpowers S200 200W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093480 | 6975274260525 | Cable Allpowers XT60 1.5m | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093481 | 6975274260570 | Solar connector ALLPOWERS type T for parallel connection | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -648,26 +651,13 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094445 | 6972792471440 | Wireless Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095292 | 6952344248829 | Pamäťová karta GODOX microSD s kapacitou 8 GB | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095293 | 6952344248836 | Pamäťová karta GODOX microSD 16 GB | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095294 | 6952344248843 | Pamäťová karta GODOX microSD 32 GB | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095296 | 6952344244081 | LED fotografické svetlo GODOX RS100Bi 1K Bi-Color | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095297 | 6952344244050 | LED fotografické svetlo GODOX RS100R RGB | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095298 | 6952344244067 | LED fotografické svetlo GODOX RS100R | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095299 | 6952344242193 | LED videolampa GODOX ML80Bi | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095300 | 6952344244951 | LED videolampa GODOX ML150Bi | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095306 | 6952344244517 | LED svietidlo GODOX Litemons LE300Bi | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095310 | 6952344237960 | LED svetelný panel GODOX Litemons LP400R RGB | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095312 | 6952344237991 | LED svetelný panel GODOX Litemons LP600Bi s dvojfarebným osvetlením | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095317 | 6952344247761 | Retro blesk GODOX Lux Junior II S | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095318 | 6952344245729 | TTL blesk GODOX iFlash iT32 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095319 | 6952344245828 | Bezdrôtová TTL spúšť GODOX X5 pre Canon | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095320 | 6952344245835 | Bezdrôtová TTL spúšť GODOX X5 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095321 | 6952344245811 | Bezdrôtová TTL spúšť GODOX X5 pre Sony | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095324 | 6952344243671 | Blesk GODOX iFlash iT20 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095328 | 6952344242438 | Makro blesk s dvojitou hlavou GODOX MF-T76 pre Nikon | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095329 | 6952344242421 | Makro blesk s dvojitou hlavou GODOX MF-T76 pre Sony | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095441 | 6979127740363 | Prenosná elektráreň VTOMAN Jump 2200 2000 W | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094928 | 6924922272373 | Inteligentná LED žiarovka Yeelight D1 – balenie po 4 kusoch | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094929 | 6924922271253 | Inteligentné stropné svietidlo Yeelight S1 320 mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094930 | 6924922271260 | Inteligentné stropné svietidlo Yeelight S1 450 mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094931 | 6924922272137 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095441 | 6979127740363 | Prenosná elektráreň VTOMAN Jump 2200, 2200 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095442 | 6979127740356 | Prenosná elektráreň VTOMAN FlashSpeed300 300 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095443 | 6979127740349 | Prenosná elektráreň VTOMAN FlashSpeed600 600 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095444 | 6979127740875 | Prenosná elektráreň VTOMAN FlashSpeed1500 1500 W | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -678,8 +668,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 095450 | 6979127740004 | Prenosný solárny panel VTOMAN VS200 s výkonom 200 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095451 | 6979127740264 | Solárny panel VTOMAN VS200 Pro 200 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 095452 | 6979127740257 | Prenosný solárny panel VTOMAN VS400 400 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.30 € | 1/21.9x | 24 |
-| 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 28.45 € | 1.00 € | 1/28.4x | 24 |
-| 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 11.00 € | 1/12.6x | 15 |
-| 089168 | 0810143168938 | FunWater 7-palcová plutva | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 6.40 € | 1/21.6x | 15 |
-| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 7.70 € | 1/18.0x | 15 |
+| 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 25.50 € | 1.30 € | 1/19.6x | 23 |
+| 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 25.50 € | 1.00 € | 1/25.5x | 23 |
+| 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 11.00 € | 1/12.4x | 16 |
+| 089168 | 0810143168938 | FunWater 7-palcová plutva | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 6.40 € | 1/21.3x | 16 |
+| 089169 | 0810143168945 | FunWater 4-palcová plutva | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 5.00 € | 1/27.3x | 16 |
+| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 7.70 € | 1/17.7x | 16 |

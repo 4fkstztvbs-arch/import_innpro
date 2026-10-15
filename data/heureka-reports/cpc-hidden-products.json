@@ -3389,14 +3389,6 @@
   "reason": "CPC report 2026-09-05..2026-10-04: klik >=3 dni, 0 objednavok",
   "generatedAt": "2026-10-04T00:00:00.000Z"
  },
- "1230000282161": {
-  "name": "Okuliare VITURE Pro 2 XR",
-  "cost": 7.74,
-  "visits": 21,
-  "days": 11,
-  "reason": "CPC report 2026-09-05..2026-10-04: klik >=3 dni, 0 objednavok",
-  "generatedAt": "2026-10-04T00:00:00.000Z"
- },
  "3838782029400": {
   "name": "Gorenje SVC144FBK",
   "cost": 5.64,
@@ -10171,5 +10163,845 @@
   "margin": 2.84,
   "reason": "CPC report 2026-08-10..2026-10-07: marza pod 3 EUR/ks, platene kliky nepokryte ziskom z objednavok",
   "generatedAt": "2026-10-07T00:00:00.000Z"
+ },
+ "6975462650107": {
+  "name": "Drôtové slúchadlá do uší Truthear Gate s mikrofónom, biele",
+  "cost": 0.79,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "8003437046650": {
+  "name": "Práčka Whirlpool TDLRB 65242BS EU/N s vrchným plnením, 6,5 kg",
+  "cost": 2.36,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5905156107991": {
+  "name": "Spájkovacia stanica FNIRSI DWS-200F s výkonom 200 W",
+  "cost": 1.36,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "6976297860013": {
+  "name": "Mini elektrická pumpa Cycplus AS2, tlak do 100 PSI",
+  "cost": 1.67,
+  "visits": 12,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "3838782624971": {
+  "name": "Sporák Gorenje GECS5B70CLI (katalógový kód KB_100001915657)",
+  "cost": 3.16,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "4007754194029": {
+  "name": "Elektretový nástrojový mikrofón JTS CX-516, XLR, husí krk",
+  "cost": 0.64,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "8594186720958": {
+  "name": "Pultová mraznička Guzzanti GZ 101, 98 l, energetická trieda E",
+  "cost": 0.89,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "0757047110468": {
+  "name": "Projektor Magcubic HY450, Full HD, 900 ANSI lm",
+  "cost": 0.66,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "4957812671125": {
+  "name": "CD prehrávač Yamaha CD-S303, čierny",
+  "cost": 2.06,
+  "visits": 6,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "9120072379208": {
+  "name": "Strong LEAP-S3+ V2 Google TV 4K UHD Android TV multimediální přehrávač",
+  "cost": 1.93,
+  "visits": 10,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6948052903945": {
+  "name": "PXN Herná súprava PXN-V10 Ultra - volant + pedál + svorky + montážne príslušenst",
+  "cost": 0.65,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8592718026332": {
+  "name": "Predlžovací prívod na bubne Solight PB31, 1 zásuvka, 50 m, gumový kábel, 3 × 1,5",
+  "cost": 0.85,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "4262533460034": {
+  "name": "Soundbar Ultimea Poseidon D70 Soundbar (katalógový kód 083079)",
+  "cost": 1.6,
+  "visits": 7,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6977905740116": {
+  "name": "Creality Falcon A1 10W laserový gravírovací stroj",
+  "cost": 1.12,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5905156108066": {
+  "name": "Nástrojová skrinka FNIRSI pre spájkovačku HS-02B",
+  "cost": 2.91,
+  "visits": 13,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "3838782619274": {
+  "name": "Sporák Gorenje GEC5C41SG (katalógový kód KB_100001911823)",
+  "cost": 8.03,
+  "visits": 15,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8059019116143": {
+  "name": "Candy GDS 7N2B-S",
+  "cost": 1.67,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6971398602234": {
+  "name": "Fototlačiareň Liene Amber M110, 4 × 6\", sublimačná, Bluetooth",
+  "cost": 0.64,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5906168436819": {
+  "name": "Premietacie plátno BlitzWolf BW-VS4, 100 palcov",
+  "cost": 0.45,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6978281190076": {
+  "name": "Diagnostický skener OBD2 Ancel DS200, pre všetky systémy vozidla",
+  "cost": 2.24,
+  "visits": 7,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8594186721689": {
+  "name": "Olejový radiátor Guzzanti GZ 409BT, 2 000 W, 9 rebier",
+  "cost": 0.81,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6932704931721": {
+  "name": "3D tlačiareň ELEGOO Centauri Carbon 2",
+  "cost": 8.23,
+  "visits": 24,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6974760350153": {
+  "name": "UV baterka Superfire Z01, 365 nm, USB",
+  "cost": 0.34,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "4262533460201": {
+  "name": "Soundbar Ultimea Poseidon D50 Soundbar (katalógový kód 083075)",
+  "cost": 0.64,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8690842765544": {
+  "name": "Práčka Beko BM1 WFU3622 WBB, 6 kg, 1 200 ot./min",
+  "cost": 1.26,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "5907085521077": {
+  "name": "Digitálny kliešťový merač FNIRSI DMC-100, čeľuste 25 mm",
+  "cost": 0.52,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "5901890129527": {
+  "name": "Soundbar Kruger & Matz Kruger&Matz KM0576 Universe 2.1",
+  "cost": 0.52,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "4897098687031": {
+  "name": "Vonkajšia IP kamera TP-Link Tapo C320WS, 4 MP, Wi-Fi, IP66, biela",
+  "cost": 0.52,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "5902429925153": {
+  "name": "GUZZANTI GZ ORW ECO Inox",
+  "cost": 2.58,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "3838782386978": {
+  "name": "Tyčový vysávač Gorenje SVC180FW 2v1, 18 V",
+  "cost": 0.93,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5944008923129": {
+  "name": "Skriňová mraznička Beko RFSA240M43WN, 215 l, 6 zásuviek, biela",
+  "cost": 4.16,
+  "visits": 11,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6978258900387": {
+  "name": "Zdravotnícka pomôcka Urevo UCRM003 (katalógový kód 082001)",
+  "cost": 2.15,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "3838782640292": {
+  "name": "Jednodverová chladnička Gorenje R619EAW6, 398 l, biela",
+  "cost": 2.22,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8595689805951": {
+  "name": "Digitálne rádio TESLA Sound DAB65 s DAB+ a Bluetooth",
+  "cost": 2.84,
+  "visits": 17,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "8592718013226": {
+  "name": "Sada LED pásika SMD3528 s adaptérom Solight WM50-65T, 5 m, IP65, studená biela",
+  "cost": 0.8,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8592718033934": {
+  "name": "Solight WN44",
+  "cost": 0.29,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6971131385158": {
+  "name": "Wi-Fi 7 router GL.iNet Flint 3e (GL-BE6500), dual-band",
+  "cost": 0.79,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "1230000282161": {
+  "name": "XR okuliare VITURE Pro 2",
+  "cost": 0.86,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6935750511718": {
+  "name": "UNI-T UT117C",
+  "cost": 1.16,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5905316140721": {
+  "name": "Prenosný kávovar HiBREW H4A 3 v 1, 80 W, 15 bar, s puzdrom",
+  "cost": 1.21,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "8055176402082": {
+  "name": "Sekáčik potravín G3Ferrari G2016301, 500 W, 500 ml",
+  "cost": 0.51,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "4262533460362": {
+  "name": "Soundbar Ultimea Ultima Apollo S90 Soundbar",
+  "cost": 1.08,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "1200130024047": {
+  "name": "JBL Tuner 3 Black Přenosné rádio",
+  "cost": 0.74,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "4897118837224": {
+  "name": "Minis Forum NAS server Minisforum N5 Air, AMD Ryzen 7 255, bez RAM, 64 GB úložis",
+  "cost": 1.3,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "0757047110420": {
+  "name": "Projektor Magcubic HY350MAX, 0757047110420",
+  "cost": 0.63,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "6975462650022": {
+  "name": "Káblové slúchadlá Truthear Gate s 10 mm meničom (čierne)",
+  "cost": 0.64,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "4548736164260": {
+  "name": "Modré bezdrôtové slúchadlá Sony WF-C710N s ANC a výdržou až 30 h",
+  "cost": 1.12,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "5901890103817": {
+  "name": "Kruger & Matz Digitálne piano Kruger&Matz KMDP-105-BK, čierne, 3 pedále",
+  "cost": 2.58,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6971915322836": {
+  "name": "Laserový diaľkomer Mileseey D9 Pro, dosah 100 m",
+  "cost": 1.16,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8059019112299": {
+  "name": "Práčka Candy BR 38SBL6-S, 8 kg, 1 400 ot./min",
+  "cost": 2.17,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "3838782406263": {
+  "name": "Americká chladnička Gorenje NRS8182KX, 441 l, NoFrost, nerez",
+  "cost": 6.23,
+  "visits": 14,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5902135133323": {
+  "name": "Klimatizácia MW Power ALFA 12K WiFi V1, 12000 BTU, R32",
+  "cost": 1.3,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "8059019106069": {
+  "name": "Vstavaná mikrovlnná rúra s grilom Candy CA38F2K7NXBB (20 l)",
+  "cost": 1.08,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "0699838106260": {
+  "name": "Fanttik F2 Master akumulátorová rotačná multifunkčná brúska",
+  "cost": 1.0,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "6975062110858": {
+  "name": "Interaktívny robot Loona Premium, rozpoznáva tváre a gestá",
+  "cost": 3.99,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5900779959040": {
+  "name": "Teplovzdušný keramický ventilátor Kaminer 26401, 1000/2000 W, diaľkové ovládanie",
+  "cost": 0.96,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "8690842522567": {
+  "name": "Voľne stojaca mraznička Beko Beyond B5RMFNE314X, 286 l, NoFrost",
+  "cost": 3.52,
+  "visits": 8,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "4957812661461": {
+  "name": "AV receiver Yamaha RX-A4A, 7.2 kanálov, čierny",
+  "cost": 2.07,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "3016661181443": {
+  "name": "Automatický kávovar Krups EA201BE0",
+  "cost": 2.36,
+  "visits": 6,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8595235807101": {
+  "name": "Sušička potravín Maxxo NIR Rapid Dry (katalógový kód KB_100002202939)",
+  "cost": 1.1,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6924843229234": {
+  "name": "Vysávač PROSCENIC P11 Ultra – bezdrôtový vertikálny",
+  "cost": 3.07,
+  "visits": 10,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8003437051227": {
+  "name": "Práčka Whirlpool TDLR 6240S EU/N s vrchným plnením, 6 kg",
+  "cost": 1.32,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "6975462650039": {
+  "name": "Káblové slúchadlá do uší TRUTHEAR HEXA s hybridnými meničmi 1DD + 3BA (čierne)",
+  "cost": 1.14,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8059019115351": {
+  "name": "Chladnička Candy CCH1S518EW, výška 180 cm, biela",
+  "cost": 1.89,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8690842565144": {
+  "name": "Beko BDIN38641Q",
+  "cost": 1.4,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5999883023525": {
+  "name": "Satelitný prijímač Amiko Mini HD265 DVB-S2",
+  "cost": 0.64,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "3838782460852": {
+  "name": "Umývačka riadu Gorenje GS620C10W, 60 cm",
+  "cost": 1.67,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8592718035952": {
+  "name": "SOLIGHT WM59-CW",
+  "cost": 0.6,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "4001627010003": {
+  "name": "Vaflovač v tvare srdiečok Graef WA 80, nerez",
+  "cost": 1.83,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "0843367129058": {
+  "name": "USB kľúč Lexar Dual Drive D400, 32 GB, Type-C a Type-A, USB 3.1",
+  "cost": 0.3,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "5901890116992": {
+  "name": "LCD displej KRUGER & MATZ KM2021 Android Auto Apple Carplay s DVR a couvací kame",
+  "cost": 0.85,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "3838783024411": {
+  "name": "Gorenje NRM819E61X",
+  "cost": 1.41,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "4897118831949": {
+  "name": "Minis Forum Mini PC Minisforum MS-01-S1390, Intel Core i9-13900H, barebone",
+  "cost": 1.83,
+  "visits": 5,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "3838782648748": {
+  "name": "Gorenje GKS5C71CLI",
+  "cost": 3.95,
+  "visits": 6,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "8690842605949": {
+  "name": "Kombinovaná chladnička Beko RCSA240K40SN, 229 l, strieborná",
+  "cost": 1.54,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8595235800867": {
+  "name": "Internetové rádio Maxxo HiFi Tuner TR05, DAB+, Bluetooth, Wi-Fi",
+  "cost": 0.85,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-12-28",
+  "wave": 1,
+  "priceRank1": false
+ },
+ "8690842449086": {
+  "name": "Mikrovlnná rúra Beko MOC20100SFB, 20 l, 5 úrovní výkonu",
+  "cost": 0.61,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5906168439285": {
+  "name": "Blitzwolf BW-VF4",
+  "cost": 0.26,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6977658980487": {
+  "name": "Termovízna kamera Thermal Master P4 USB-C Mini",
+  "cost": 1.09,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "6977254876078": {
+  "name": "Liftingový RF masážny prístroj ANLAN 01-ADRY51-02A na tvár",
+  "cost": 0.68,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "3838783100337": {
+  "name": "Gorenje DG2P7D",
+  "cost": 1.72,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8592718030773": {
+  "name": "Profesionálna meteostanica Solight TE90 s meraním vetra a zrážok",
+  "cost": 0.72,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "8055176405045": {
+  "name": "Rýchlovarná kanvica Girmi BL9101 Incanto s reguláciou teploty",
+  "cost": 0.75,
+  "visits": 3,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
+ },
+ "5905156108752": {
+  "name": "Fúkač WOLFBOX MegaFlow 100",
+  "cost": 1.1,
+  "visits": 4,
+  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
+  "generatedAt": "2026-10-15T00:00:00.000Z",
+  "expiresAt": "2026-10-18",
+  "wave": 1,
+  "priceRank1": true
  }
 }

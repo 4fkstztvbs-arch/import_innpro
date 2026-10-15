@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600513,
+    "nextCardNumber": 202600575,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -961,7 +961,7 @@
         "kod": "202600160",
         "nazov": "BEHRINGER U-Control 2in/2out USB Audio Interface",
         "dodavatel": "basys",
-        "code": ""
+        "code": "BASYS-UCA222"
       },
       "017817813679": {
         "kod": "202600161",
@@ -3074,6 +3074,378 @@
         "nazov": "Olejový radiátor 2500W",
         "dodavatel": "solight",
         "code": "OR02"
+      },
+      "5904665712726": {
+        "kod": "202600513",
+        "nazov": "Bruska pilových řetězů Bigstreen 26297 ruční",
+        "dodavatel": "atos",
+        "code": "ITR-00018349"
+      },
+      "4823016217271": {
+        "kod": "202600514",
+        "nazov": "Ventilátor VENTS 100 MATH s automat. žaluzií 1009016",
+        "dodavatel": "atos",
+        "code": "ELE-1009016"
+      },
+      "5908254840241": {
+        "kod": "202600515",
+        "nazov": "Elektroměr 3F na DIN lištu třífázový VIRONE EM-6 digitální, RESET",
+        "dodavatel": "atos",
+        "code": "OR-EM-6"
+      },
+      "4823016213624": {
+        "kod": "202600516",
+        "nazov": "Ventilátor VENTS 125 MAV s automat. žaluzií",
+        "dodavatel": "atos",
+        "code": "ELE-1009215"
+      },
+      "0810102267511": {
+        "kod": "202600517",
+        "nazov": "Instant Pot Plus WiFi (5,7 L)",
+        "dodavatel": "kb",
+        "code": "100002142413"
+      },
+      "8055176401627": {
+        "kod": "202600518",
+        "nazov": "G3Ferrari G2016201",
+        "dodavatel": "kb",
+        "code": "100002144216"
+      },
+      "5905316141049": {
+        "kod": "202600519",
+        "nazov": "Wood Moisture Meter HT633",
+        "dodavatel": "innpro",
+        "code": "041288"
+      },
+      "6974662350909": {
+        "kod": "202600520",
+        "nazov": "Anycubic DLP Craftsman",
+        "dodavatel": "innpro",
+        "code": "065345"
+      },
+      "6971398601404": {
+        "kod": "202600521",
+        "nazov": "Liene Pearl 2x3 Adhesive",
+        "dodavatel": "innpro",
+        "code": "084698"
+      },
+      "6971131382362": {
+        "kod": "202600522",
+        "nazov": "Router GL.iNet GL-AX1800",
+        "dodavatel": "innpro",
+        "code": "090440"
+      },
+      "6976037360056": {
+        "kod": "202600523",
+        "nazov": "Thermostat Control Panel",
+        "dodavatel": "innpro",
+        "code": "043141"
+      },
+      "6976021764266": {
+        "kod": "202600524",
+        "nazov": "ELEGOO Rapid PLA+",
+        "dodavatel": "innpro",
+        "code": "075365"
+      },
+      "6936685222359": {
+        "kod": "202600525",
+        "nazov": "GameSir-T3 Lite GY",
+        "dodavatel": "innpro",
+        "code": "079690"
+      },
+      "6972436987191": {
+        "kod": "202600526",
+        "nazov": "Colmi V89 Smartwatch Black",
+        "dodavatel": "innpro",
+        "code": "079596"
+      },
+      "6933582314859": {
+        "kod": "202600527",
+        "nazov": "Filament PLA+ 2.0 1.75mm",
+        "dodavatel": "innpro",
+        "code": "085159"
+      },
+      "6977341740008": {
+        "kod": "202600528",
+        "nazov": "OTTOAIBOX P3P Android",
+        "dodavatel": "innpro",
+        "code": "087844"
+      },
+      "4897143173571": {
+        "kod": "202600529",
+        "nazov": "Insta360 Luna Ultra Filters -",
+        "dodavatel": "innpro",
+        "code": "091594"
+      },
+      "6924843237956": {
+        "kod": "202600530",
+        "nazov": "Cordless Vacuum",
+        "dodavatel": "innpro",
+        "code": "092830"
+      },
+      "5906168439162": {
+        "kod": "202600531",
+        "nazov": "Ancel BA101 Battery Tester",
+        "dodavatel": "innpro",
+        "code": "069079"
+      },
+      "6975462650077": {
+        "kod": "202600532",
+        "nazov": "Truthear Zero Red",
+        "dodavatel": "innpro",
+        "code": "073483"
+      },
+      "6936685220409": {
+        "kod": "202600533",
+        "nazov": "GameSir-G7 Pro BK",
+        "dodavatel": "innpro",
+        "code": "079688"
+      },
+      "6972467711680": {
+        "kod": "202600534",
+        "nazov": "Gimbal AOCHUAN M3 Pro",
+        "dodavatel": "innpro",
+        "code": "085550"
+      },
+      "6971337722610": {
+        "kod": "202600535",
+        "nazov": "Speakerphone EMEET",
+        "dodavatel": "innpro",
+        "code": "085708"
+      },
+      "5905156103610": {
+        "kod": "202600536",
+        "nazov": "Recumbent bike MERACH",
+        "dodavatel": "innpro",
+        "code": "085823"
+      },
+      "6976058151077": {
+        "kod": "202600537",
+        "nazov": "Projector AURZEN Eazze D1",
+        "dodavatel": "innpro",
+        "code": "086154"
+      },
+      "4897143172918": {
+        "kod": "202600538",
+        "nazov": "Osmo Pocket 4P Filters -",
+        "dodavatel": "innpro",
+        "code": "091600"
+      },
+      "8018080386220": {
+        "kod": "202600539",
+        "nazov": "Cellularline headset Bold černý,",
+        "dodavatel": "kb",
+        "code": "100001115644"
+      },
+      "4007486640313": {
+        "kod": "202600540",
+        "nazov": "Carrera Auto GO/GO+ 64031",
+        "dodavatel": "kb",
+        "code": "100000243725"
+      },
+      "5906006211431": {
+        "kod": "202600541",
+        "nazov": "Amica DRP 6412 DB",
+        "dodavatel": "kb",
+        "code": "100002062757"
+      },
+      "8445290870537": {
+        "kod": "202600542",
+        "nazov": "NESCAFÉ® DG® Ristretto Ardenza",
+        "dodavatel": "kb",
+        "code": "100002075022"
+      },
+      "8595689803711": {
+        "kod": "202600543",
+        "nazov": "TESLA SlowJuicer SJ770 XXL Deluxe",
+        "dodavatel": "kb",
+        "code": "100002101888"
+      },
+      "3149330009745": {
+        "kod": "202600544",
+        "nazov": "Sati Chocolat Chaud x10 caps",
+        "dodavatel": "kb",
+        "code": "100002128243"
+      },
+      "8445291452657": {
+        "kod": "202600545",
+        "nazov": "STARBUCKS® Dark roast 10ks",
+        "dodavatel": "kb",
+        "code": "100002130319"
+      },
+      "4006501726971": {
+        "kod": "202600546",
+        "nazov": "Leifheit Žehlicí prkno Air Board",
+        "dodavatel": "kb",
+        "code": "100002136221"
+      },
+      "8445291786240": {
+        "kod": "202600547",
+        "nazov": "STARBUCKS® CHOCOLATE",
+        "dodavatel": "kb",
+        "code": "100002199525"
+      },
+      "5901890012935": {
+        "kod": "202600548",
+        "nazov": "Vysílač DO Univerzální ALIEN/Longer 2 CLR-79834-E4",
+        "dodavatel": "atos",
+        "code": "DOALIEN2"
+      },
+      "5908254824586": {
+        "kod": "202600549",
+        "nazov": "Hodiny spínací na DIN lištu ORNO OR-PRE-450 ASTRONOMIC",
+        "dodavatel": "atos",
+        "code": "SPR-2KZORPRE450"
+      },
+      "8595235807736": {
+        "kod": "202600550",
+        "nazov": "MAXXO rolky 2x28cmx3m",
+        "dodavatel": "kb",
+        "code": "491400015652"
+      },
+      "3838783100092": {
+        "kod": "202600551",
+        "nazov": "Gorenje WG2PS72A12",
+        "dodavatel": "kb",
+        "code": "100002204870"
+      },
+      "4033653070416": {
+        "kod": "202600552",
+        "nazov": "BEHRINGER Remote controlled Digital mixer X AIR 1",
+        "dodavatel": "basys",
+        "code": "BASYS-XR12"
+      },
+      "9639639639639": {
+        "kod": "202600553",
+        "nazov": "FV solární panel Trina TSM-NEG9R.28 Vertex S+ 455WP - černý rám 1762 × 1134 × 30",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "5901890057073": {
+        "kod": "202600554",
+        "nazov": "Klešťový multimetr UNI-T UT204+ | MIE0403",
+        "dodavatel": "atos",
+        "code": "LP-MIE0403"
+      },
+      "8592920064016": {
+        "kod": "202600555",
+        "nazov": "Termostat EMOS P5614 pokojový bezdrátový",
+        "dodavatel": "atos",
+        "code": "EMO2101106010"
+      },
+      "8595685530192": {
+        "kod": "202600556",
+        "nazov": "BRANY IN ND Dálkový ovladač 4-kan. k pohonu vrat IN SL-600, 1000 / IN SW-220, 250",
+        "dodavatel": "atos",
+        "code": "DOSWSL"
+      },
+      "5908254846359": {
+        "kod": "202600557",
+        "nazov": "BRANY Pohon EXTEL XV250 pro 2 křídlá vrata/brány, max 250cm/250kg, Wi-Fi",
+        "dodavatel": "atos",
+        "code": "ATO-761003P"
+      },
+      "6974760350450": {
+        "kod": "202600558",
+        "nazov": "HL31 Headlight 2200lm",
+        "dodavatel": "innpro",
+        "code": "038833"
+      },
+      "6972436985548": {
+        "kod": "202600559",
+        "nazov": "Colmi Smartwatch P81 Black",
+        "dodavatel": "innpro",
+        "code": "069207"
+      },
+      "5905156101104": {
+        "kod": "202600560",
+        "nazov": "PULUZ 50cm Folding",
+        "dodavatel": "innpro",
+        "code": "082634"
+      },
+      "6975116294138": {
+        "kod": "202600561",
+        "nazov": "Rojeco Pet Feeder Feeder",
+        "dodavatel": "innpro",
+        "code": "092699"
+      },
+      "6923520248544": {
+        "kod": "202600562",
+        "nazov": "Edifier W830NB Ivory",
+        "dodavatel": "innpro",
+        "code": "082792"
+      },
+      "5905316141506": {
+        "kod": "202600563",
+        "nazov": "HiBrew H2B-black coffe",
+        "dodavatel": "innpro",
+        "code": "041916"
+      },
+      "6975114120149": {
+        "kod": "202600564",
+        "nazov": "Arzopa Potrable Monitor",
+        "dodavatel": "innpro",
+        "code": "066844"
+      },
+      "6923520247868": {
+        "kod": "202600565",
+        "nazov": "Edifier W800BT Pro",
+        "dodavatel": "innpro",
+        "code": "065952"
+      },
+      "6975377554941": {
+        "kod": "202600566",
+        "nazov": "RCA-02 Gen 2 Air #13",
+        "dodavatel": "innpro",
+        "code": "082724"
+      },
+      "6976297860570": {
+        "kod": "202600567",
+        "nazov": "Mini Air Pump Cycplus",
+        "dodavatel": "innpro",
+        "code": "083105"
+      },
+      "6928819536708": {
+        "kod": "202600568",
+        "nazov": "xTool WonderPress",
+        "dodavatel": "innpro",
+        "code": "092223"
+      },
+      "6971131385158": {
+        "kod": "202600569",
+        "nazov": "Router GL.iNet GL-BE6500",
+        "dodavatel": "innpro",
+        "code": "093438"
+      },
+      "6975069308944": {
+        "kod": "202600570",
+        "nazov": "Cat Litter Mat for PURA",
+        "dodavatel": "innpro",
+        "code": "094202"
+      },
+      "6971131385622": {
+        "kod": "202600571",
+        "nazov": "Remote KVM GL.iNet",
+        "dodavatel": "innpro",
+        "code": "093441"
+      },
+      "6976037360865": {
+        "kod": "202600572",
+        "nazov": "Zigbee Switch Module 2 gang",
+        "dodavatel": "innpro",
+        "code": "047980"
+      },
+      "5907085528922": {
+        "kod": "202600573",
+        "nazov": "Flytec RC Boat V802 black",
+        "dodavatel": "innpro",
+        "code": "079986"
+      },
+      "6930444806132": {
+        "kod": "202600574",
+        "nazov": "Huion Kamvas Pad 12",
+        "dodavatel": "innpro",
+        "code": "093039"
       }
     }
   },
