@@ -657,17 +657,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094931 | 6924922272137 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095441 | 6979127740363 | Prenosná elektráreň VTOMAN Jump 2200, 2200 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095442 | 6979127740356 | Prenosná elektráreň VTOMAN FlashSpeed300 300 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095443 | 6979127740349 | Prenosná elektráreň VTOMAN FlashSpeed600 600 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095444 | 6979127740875 | Prenosná elektráreň VTOMAN FlashSpeed1500 1500 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095445 | 6979127740417 | Prenosná elektráreň VTOMAN FlashSpeed2400 2400 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095447 | 6979127740295 | Akumulátor VTOMAN Jump 1500 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095448 | 6979127740288 | Batéria VTOMAN FlashSpeed 1500 (sivá) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095449 | 6979127740271 | Prenosný solárny panel VTOMAN VS110 110 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095450 | 6979127740004 | Prenosný solárny panel VTOMAN VS200 s výkonom 200 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095451 | 6979127740264 | Solárny panel VTOMAN VS200 Pro 200 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 095452 | 6979127740257 | Prenosný solárny panel VTOMAN VS400 400 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 25.50 € | 1.30 € | 1/19.6x | 23 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 25.50 € | 1.00 € | 1/25.5x | 23 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 11.00 € | 1/12.4x | 16 |
