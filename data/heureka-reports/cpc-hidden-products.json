@@ -8859,15 +8859,6 @@
   "reason": "CPC report 2026-08-10..2026-10-07: marza pod 3 EUR/ks, platene kliky nepokryte ziskom z objednavok",
   "generatedAt": "2026-10-07T00:00:00.000Z"
  },
- "5901890132602": {
-  "name": "Rádio KRUGER & MATZ KM0835 SOS FM/ AM, Bluetooth, powerbanka 2000mAh, svítilna, solar, dynamo",
-  "cost": 0.88,
-  "visits": 7,
-  "days": 6,
-  "margin": 0.84,
-  "reason": "CPC report 2026-08-10..2026-10-07: marza pod 3 EUR/ks, platene kliky nepokryte ziskom z objednavok",
-  "generatedAt": "2026-10-07T00:00:00.000Z"
- },
  "5905156102187": {
   "name": "Vysoko presný ručný LCR meter FNIRSI LC1020E",
   "cost": 0.29,
@@ -10194,16 +10185,6 @@
   "wave": 1,
   "priceRank1": false
  },
- "6976297860013": {
-  "name": "Mini elektrická pumpa Cycplus AS2, tlak do 100 PSI",
-  "cost": 1.67,
-  "visits": 12,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-10-18",
-  "wave": 1,
-  "priceRank1": true
- },
  "3838782624971": {
   "name": "Sporák Gorenje GECS5B70CLI (katalógový kód KB_100001915657)",
   "cost": 3.16,
@@ -10253,16 +10234,6 @@
   "expiresAt": "2026-12-28",
   "wave": 1,
   "priceRank1": false
- },
- "9120072379208": {
-  "name": "Strong LEAP-S3+ V2 Google TV 4K UHD Android TV multimediální přehrávač",
-  "cost": 1.93,
-  "visits": 10,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-10-18",
-  "wave": 1,
-  "priceRank1": true
  },
  "6948052903945": {
   "name": "PXN Herná súprava PXN-V10 Ultra - volant + pedál + svorky + montážne príslušenst",
@@ -10314,16 +10285,6 @@
   "wave": 1,
   "priceRank1": true
  },
- "3838782619274": {
-  "name": "Sporák Gorenje GEC5C41SG (katalógový kód KB_100001911823)",
-  "cost": 8.03,
-  "visits": 15,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-10-18",
-  "wave": 1,
-  "priceRank1": true
- },
  "8059019116143": {
   "name": "Candy GDS 7N2B-S",
   "cost": 1.67,
@@ -10337,16 +10298,6 @@
  "6971398602234": {
   "name": "Fototlačiareň Liene Amber M110, 4 × 6\", sublimačná, Bluetooth",
   "cost": 0.64,
-  "visits": 3,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-10-18",
-  "wave": 1,
-  "priceRank1": true
- },
- "5906168436819": {
-  "name": "Premietacie plátno BlitzWolf BW-VS4, 100 palcov",
-  "cost": 0.45,
   "visits": 3,
   "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
   "generatedAt": "2026-10-15T00:00:00.000Z",
@@ -10378,16 +10329,6 @@
   "name": "3D tlačiareň ELEGOO Centauri Carbon 2",
   "cost": 8.23,
   "visits": 24,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-10-18",
-  "wave": 1,
-  "priceRank1": true
- },
- "6974760350153": {
-  "name": "UV baterka Superfire Z01, 365 nm, USB",
-  "cost": 0.34,
-  "visits": 4,
   "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
   "generatedAt": "2026-10-15T00:00:00.000Z",
   "expiresAt": "2026-10-18",
@@ -10434,16 +10375,6 @@
   "wave": 1,
   "priceRank1": true
  },
- "4897098687031": {
-  "name": "Vonkajšia IP kamera TP-Link Tapo C320WS, 4 MP, Wi-Fi, IP66, biela",
-  "cost": 0.52,
-  "visits": 3,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-12-28",
-  "wave": 1,
-  "priceRank1": false
- },
  "5902429925153": {
   "name": "GUZZANTI GZ ORW ECO Inox",
   "cost": 2.58,
@@ -10458,16 +10389,6 @@
   "name": "Tyčový vysávač Gorenje SVC180FW 2v1, 18 V",
   "cost": 0.93,
   "visits": 3,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-10-18",
-  "wave": 1,
-  "priceRank1": true
- },
- "5944008923129": {
-  "name": "Skriňová mraznička Beko RFSA240M43WN, 215 l, 6 zásuviek, biela",
-  "cost": 4.16,
-  "visits": 11,
   "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
   "generatedAt": "2026-10-15T00:00:00.000Z",
   "expiresAt": "2026-10-18",
@@ -10597,16 +10518,6 @@
  "4897118837224": {
   "name": "Minis Forum NAS server Minisforum N5 Air, AMD Ryzen 7 255, bez RAM, 64 GB úložis",
   "cost": 1.3,
-  "visits": 3,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-12-28",
-  "wave": 1,
-  "priceRank1": false
- },
- "0757047110420": {
-  "name": "Projektor Magcubic HY350MAX, 0757047110420",
-  "cost": 0.63,
   "visits": 3,
   "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
   "generatedAt": "2026-10-15T00:00:00.000Z",
@@ -10784,16 +10695,6 @@
   "wave": 1,
   "priceRank1": false
  },
- "6975462650039": {
-  "name": "Káblové slúchadlá do uší TRUTHEAR HEXA s hybridnými meničmi 1DD + 3BA (čierne)",
-  "cost": 1.14,
-  "visits": 5,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-10-18",
-  "wave": 1,
-  "priceRank1": true
- },
  "8059019115351": {
   "name": "Chladnička Candy CCH1S518EW, výška 180 cm, biela",
   "cost": 1.89,
@@ -10914,16 +10815,6 @@
   "wave": 1,
   "priceRank1": true
  },
- "8595235800867": {
-  "name": "Internetové rádio Maxxo HiFi Tuner TR05, DAB+, Bluetooth, Wi-Fi",
-  "cost": 0.85,
-  "visits": 4,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-12-28",
-  "wave": 1,
-  "priceRank1": false
- },
  "8690842449086": {
   "name": "Mikrovlnná rúra Beko MOC20100SFB, 20 l, 5 úrovní výkonu",
   "cost": 0.61,
@@ -10968,16 +10859,6 @@
   "name": "Gorenje DG2P7D",
   "cost": 1.72,
   "visits": 4,
-  "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
-  "generatedAt": "2026-10-15T00:00:00.000Z",
-  "expiresAt": "2026-10-18",
-  "wave": 1,
-  "priceRank1": true
- },
- "8592718030773": {
-  "name": "Profesionálna meteostanica Solight TE90 s meraním vetra a zrážok",
-  "cost": 0.72,
-  "visits": 3,
   "reason": "CPC report 1.-15.10.2026: >=3 kliky, 0 objednavok (vlna 1, 3-dnove skrytie)",
   "generatedAt": "2026-10-15T00:00:00.000Z",
   "expiresAt": "2026-10-18",

@@ -25,6 +25,7 @@
   "skipSuppliers": ["wiim.xml"],
   "_comment_skipSuppliers": "Feedy, na ktoré sa pravidlá vôbec neuplatnia (WiiM: pevné ceny, ostáva na Heureke — majiteľ 2026-10-12).",
   "keepEans": {
-    "4007754220995": "Monacor SPM-205/4 — objednávka z Heureky v septembri 2026"
+    "4007754220995": "Monacor SPM-205/4 — objednávka z Heureky v septembri 2026",
+    "6928819531550": "xTool M1 Ultra (InnPro 077140) — objednávka 1 778 € pri 4 € nákladoch (10.8.–14.10.2026), uvoľnené 15.10.2026"
   }
 }

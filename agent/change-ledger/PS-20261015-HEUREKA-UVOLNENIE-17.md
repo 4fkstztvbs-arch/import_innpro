@@ -1,0 +1,27 @@
+# PS-20261015-HEUREKA-UVOLNENIE-17
+
+- CHANGE_ID: PS-20261015-HEUREKA-UVOLNENIE-17
+- DATE: 2026-10-15
+- STATUS: DEPLOYED (pushnuté do main 2026-10-15; efekt po nočnom behu dodávateľa a úplnom importe v Shoptete)
+- ACTOR: Claude (agent), na pokyn majiteľa
+- AREA: Heureka CPC feed (HEUREKA_HIDDEN), uvoľnenie ziskových produktov
+- SCOPE: data/heureka-reports/cpc-hidden-products.json (−12 EAN), scripts/heureka-conversion-rules.json (keepEans +1 EAN)
+- AFFECTED_PRODUCTS/PAGES: 13 z 17 produktov, ktoré boli dnes skryté a v období 10.8.–14.10.2026 zarobili viac, než stáli ich prekliky (pri marži 12 %): 12 EAN odstránených zo zoznamu CPC vylúčení (11 z vlny 1 z 15.10., 1 starší bez vlny), 1 EAN (xTool M1 Ultra, InnPro 077140, cena 2 327 €) pridaný do keepEans pravidla ceny od 1 000 €.
+- NEUVOĽNENÉ (4): AT_ATO-04280487 Trina solárna zostava (bez EAN, nedá sa pridať do keepEans, ostáva skrytý cenou od 1 000 €); 078684 a 072034 (cantCompete, cena nad najlacnejším); 064292 (kategória Auto-moto je vylúčená kategóriovým pravidlom).
+- DESCRIPTION: Vlna 1 z 15.10. posudzovala produkty len podľa okna 1.–15.10., ktoré neobsahuje objednávky z augusta a septembra (rovnaká chyba ako v ledgeri PS-20261007-HEUREKA-CPC-LIST). Rozbor celého obdobia 10.8.–14.10. ukázal produkty so ziskom pri skrytí.
+- REASON: 17 skrytých produktov s objednávkou v období 10.8.–14.10.: obrat 3 553 €, 21 objednávok, zisk (marža 12 %) spolu ~359 €; najväčší xTool M1 Ultra (1 778 € obratu, 4 € nákladov).
+- HYPOTHESIS: Uvoľnené produkty prinesú ďalšie objednávky so ziskom nad náklad na prekliky; náklad na ne ostane malý.
+- BASELINE: Heureka 1.–14.10.: 652 € s DPH, 51 objednávok, PNO 12,8 %; skryté produkty so spendom 10.8.–14.10.: 1 529 € nákladov, 27 objednávok, PNO 37 %.
+- PRIMARY_METRIC: Hrubý zisk z objednávok uvoľnených produktov mínus ich náklad na prekliky (sledovať týždenne).
+- GUARDRAIL_METRICS: Celkový týždenný náklad a PNO Heureky; počet objednávok z Heureky.
+- IMPLEMENTATION: odstránenie záznamov z cpc-hidden-products.json; pridanie EAN do keepEans v heureka-conversion-rules.json (jednoriadkový zásah do JSON, formát zachovaný).
+- FILES_CHANGED: data/heureka-reports/cpc-hidden-products.json, scripts/heureka-conversion-rules.json, agent/change-ledger/PS-20261015-HEUREKA-UVOLNENIE-17.md
+- COMMIT / PR: priamo do main
+- APPROVAL / APPROVER: majiteľ, 2026-10-15 („uvoľnime tých 17 produktov, zatiaľ bez stropu a budeme ich sledovať. pushni do main“)
+- EXPERIMENT_ID: —
+- PRE_DEPLOY_VALIDATION: JSON validný; odstránené len určené EAN; test scripts/tests/heureka-conversion-rules.test.js nepoužíva reálny keepEans zo súboru (v prostredí nebol `node`, test nespustený).
+- DEPLOYED_AT: push 2026-10-15; HEUREKA_HIDDEN sa odoberie pri najbližšom behu InnPro/K-B/Solight/Atos, v Shoptete pri nočnom úplnom importe.
+- POST_DEPLOY_VALIDATION: po behu skontrolovať, že 13 produktov nemá HEUREKA_HIDDEN a o deň sú vo feede https://www.premiumstore.sk/heureka/export/products.xml; týždenne vyhodnotiť v pondelkovej kontrole.
+- RESULT: —
+- DECISION: po 14 dňoch zvážiť strop CPC alebo opätovné skrytie pri nulovom predaji.
+- ROLLBACK / ROLLBACK_COMMIT: vrátiť záznamy do cpc-hidden-products.json a odstrániť EAN 6928819531550 z keepEans, alebo revert commitu.
