@@ -1,84 +1,9 @@
 {
   "minimum": 8,
-  "totalProducts": 29306,
+  "totalProducts": 28903,
   "matchedRules": 2179,
-  "changedProducts": 8,
+  "changedProducts": 463,
   "rejected": [
-    {
-      "supplier": "atos",
-      "code": "ABL-17-44-372",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-307",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-315",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-316",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-383",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-415",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-431",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B1-494",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B4-015",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B4-021",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ABL-30-B4-031",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-04240702",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ATO-RA-1004",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "ITR-00018345",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-07720230",
-      "reason": "Reviewed product name changed"
-    },
     {
       "supplier": "basys",
       "code": "BASYS-B 895098-0100",
@@ -2554,7 +2479,60 @@
       "feedEan": "0795847057279"
     }
   ],
-  "categoryDrifts": [],
+  "categoryDrifts": [
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13WDS2",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    },
+    {
+      "supplier": "atos",
+      "code": "IST-SECQI13PIR",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Detektory a alarmy"
+      ],
+      "approvedCurrent": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť"
+      ],
+      "approvedProposed": [
+        "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory pohybu a otvorenia"
+      ]
+    },
+    {
+      "supplier": "wiim",
+      "code": "NORWIISOUBK",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    },
+    {
+      "supplier": "wiim",
+      "code": "NORWIISOUWT",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [],
+      "approvedCurrent": [
+        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+      ],
+      "approvedProposed": [
+        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+      ]
+    }
+  ],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -2702,7 +2680,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom",
-      "visibleUnique": 63,
+      "visibleUnique": 59,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
@@ -2756,13 +2734,13 @@
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické konektory",
-      "visibleUnique": 13,
+      "visibleUnique": 12,
       "active": true,
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické káble",
-      "visibleUnique": 50,
+      "visibleUnique": 51,
       "active": true,
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
