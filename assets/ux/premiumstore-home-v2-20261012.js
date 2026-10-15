@@ -57,8 +57,9 @@
     var a = e.target.closest && e.target.closest('[data-ps-track]');
     if (!a) return;
     var block = a.getAttribute('data-ps-track');
-    // GA4 beží cez gtag (bez GTM); gtag rešpektuje nastavenie súhlasu s cookies
-    if (typeof window.gtag === 'function') window.gtag('event', 'ps_home_click', { ps_block: block, transport_type: 'beacon' });
+    // GA4 beží cez gtag (bez GTM); gtag rešpektuje nastavenie súhlasu s cookies.
+    // send_to je nutné: bez neho udalosť odíde len k reklamným značkám AW a do GA4 (G-D0V10RN09V) nedorazí.
+    if (typeof window.gtag === 'function') window.gtag('event', 'ps_home_click', { ps_block: block, send_to: 'G-D0V10RN09V', transport_type: 'beacon' });
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event: 'ps_home_click', ps_block: block });
   }
