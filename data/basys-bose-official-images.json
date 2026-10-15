@@ -1,0 +1,167 @@
+{
+ "_comment": "Oficiálne fotky z bose.com (assets.bosecreative.com) pre SKU z cenníka BaSys/Bose, ktoré nemajú fotky z BaSys cloudu. Generuje scripts/fetch-bose-official-images.js.",
+ "fetched": "2026-10-15",
+ "items": {
+  "B 901067-2100": [
+   "https://assets.bosecreative.com/transform/333bc5d6-ecb9-4562-9a90-7f43a7b802b3/BTVSII-Blk_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/386b63fa-eaa6-45b6-a51f-524d47f25e3f/BTVSII-Blk_PDP_EcomGal2_Situ_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/ff1fe6fc-2371-4e44-a9df-26c53586c0fe/BTVSII-Blk_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/c4b2e3d5-b02d-4972-a4ba-2e51688a9d6d/BTVSII-Blk_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/de29595a-b5c2-42f9-9439-891c98d85959/BTVSII-Blk_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/2683a991-81c0-45eb-9c96-ec3e5e9d1585/BTVSII-Blk_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/a78bafe8-0ddf-4986-b16c-f9c4a97b0626/BTVSII-Blk_PDP_EcomGal7_Situ_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/3ea1eb4e-dd68-4660-b2f9-93aeee3f2f8b/BTVSII-Blk_PDP_EcomGal8_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 890101-0110": [
+   "https://assets.bosecreative.com/transform/69de3d90-3cc5-4f7c-ac71-d03a030e4154/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal1_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/79e9ec8b-ac22-4a89-acc4-5966ba698b34/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal2_Life_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/af951059-f674-4237-9a00-e0fa72c95813/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal3_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/e36744fe-09e4-4841-bcfb-8e0aa8a3d1f8/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal4_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/abc8eaa2-fcb6-44ba-a10f-bf411bae34e2/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal5_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/66dccce3-c429-4c67-9c3a-8ccb749c3b0e/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal6_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/a049c242-6b0a-4b58-ae15-610c0081b7e0/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal7_Life_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/1bffd271-77d7-4a6e-83a6-3b14c18531d4/FY27_QCUHIILE27-ChryChoc_CREA-1174_PDP_EcomGal8_Silo_1500x1120?format=jpg&quality=95"
+  ],
+  "B 890101-0120": [
+   "https://assets.bosecreative.com/transform/739c40d2-12f4-41bb-932e-4c47a39eaeb4/FY27_QCUHIILE27-OlvGrn_CREA-1174_PDP_EcomGal1_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/fdf6eb8c-fb5f-492e-b3ef-4e0552809e8b/FY27_QCUHIILE27-OlvGrn_CREA-1174_PDP_EcomGal2_Life_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/e1538216-e7df-4123-9dcf-9062a383dee5/FY27_QCUHIILE27-OlvGrn_CREA-1174_PDP_EcomGal3_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/2505dbaa-4eab-4ade-80d1-c0cf055dc832/FY27_QCUHIILE27-OlvGrn_CREA-1174_PDP_EcomGal4_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/12bee2ea-6a18-458d-9203-c306df08cd6f/FY27_QCUHIILE27-OlvGrn_CREA-1174_PDP_EcomGal5_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/4e49b8dc-fbe9-41ce-9c7c-0095f206f3a5/FY27_QCUHIILE27-OlvGrn_CREA-1174_PDP_EcomGal6_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/8a972925-97c6-4dee-a31c-fdce3c999751/FY27_QCUHIILE27-OlvGrn_CREA-1174_PDP_EcomGal7_Life_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/6a93e199-48d4-4418-8832-090a8a1cad83/FY27_QCUHIILE27-OlvGrn_CREA-1174_PDP_EcomGal8_Silo_1500x1120?format=jpg&quality=95"
+  ],
+  "B 897806-0010": [
+   "https://assets.bosecreative.com/transform/83cea5c8-af27-4e09-986e-41e160bcfa80/FY27_UOEBII27-Blk_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/4fec6363-ba7f-4d83-a338-d6a02d32ded5/FY27_UOEBII27-Blk_PDP_EcomGal2_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/6c491e2c-02d3-4d08-b520-ad1b3873c11b/FY27_UOEBII27-Blk_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/a07cba88-d159-4db6-8d05-205ab1800ebf/FY27_UOEBII27-Blk_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/5603b4b5-04b3-4bb5-995b-30abe7daa78c/FY27_UOEBII27-Blk_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/75926609-b2bb-4aa7-921d-77be0b76578a/FY27_UOEBII27-Blk_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/192fc0c4-742b-4105-9e1d-d9bde0027b07/FY27_UOEBII27-Blk_PDP_EcomGal7_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/34ebc947-274e-4d33-a881-29c2154e7874/FY27_UOEBII27-Blk_PDP_EcomGal8_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 897806-0020": [
+   "https://assets.bosecreative.com/transform/21629d63-1654-445b-93b6-9ef6cdfaaf16/FY27_UOEBII27-WhtSmk_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/6a6b346a-a776-4bc6-b62a-a65f0a3c182d/FY27_UOEBII27-WhtSmk_PDP_EcomGal2_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/9dce0eb2-db3c-4079-b2b0-710bf1fc0259/FY27_UOEBII27-WhtSmk_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/2892a38b-a294-4172-8e4b-db330bd378c0/FY27_UOEBII27-WhtSmk_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/cabe317d-dc3c-4f69-8766-5b231ddbc375/FY27_UOEBII27-WhtSmk_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/9231a94b-334f-439d-8fa3-01daf973a3f0/FY27_UOEBII27-WhtSmk_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/69535a0f-69e7-4eb1-92aa-699eb2c1183a/FY27_UOEBII27-WhtSmk_PDP_EcomGal7_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/61c7ac46-f588-4426-b828-3a9d64dc7186/FY27_UOEBII27-WhtSmk_PDP_EcomGal8_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 897806-0030": [
+   "https://assets.bosecreative.com/transform/84c1c531-8456-49e6-9bfb-b0d6553d64a6/FY27_UOEBIILE27-ChryChoc_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/c1e139b1-f91c-4135-8e76-3e14ba52041d/FY27_UOEBIILE27-ChryChoc_PDP_EcomGal2_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/3e6c80d5-ede3-45b8-b58f-d4d4fe404a4e/FY27_UOEBIILE27-ChryChoc_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/6d2c7148-9892-4c51-abf7-796c3d968baf/FY27_UOEBIILE27-ChryChoc_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/f9d52e89-9224-4db1-bd56-5589aea6e91a/FY27_UOEBIILE27-ChryChoc_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/419a2ee4-b14d-41b9-8ce0-719a14065e60/FY27_UOEBIILE27-ChryChoc_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/46ead24b-57b9-4054-860f-9612aada9419/FY27_UOEBIILE27-ChryChoc_PDP_EcomGal7_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/cb75ba96-b2f2-4a0f-a1c9-0e3bd71f9a81/FY27_UOEBIILE27-ChryChoc_PDP_EcomGal8_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 897806-0040": [
+   "https://assets.bosecreative.com/transform/8e914ae5-1f7a-4cf3-98b0-3647199d31ed/FY27_UOEBIILE27-OlvGrn_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/d0786c25-3e4d-4a70-b138-c42fb9a2697e/FY27_UOEBIILE27-OlvGrn_PDP_EcomGal2_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/03f6c507-0c5d-43a4-a2c4-908c52ba56d5/FY27_UOEBIILE27-OlvGrn_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/5b36aca2-67cc-40e4-bd42-c31ff8c6bd32/FY27_UOEBIILE27-OlvGrn_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/0cdf0a2c-e565-4024-92e7-9ad8a3b41555/FY27_UOEBIILE27-OlvGrn_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/d998eb50-373d-403c-ba2c-5aaeada4c03a/FY27_UOEBIILE27-OlvGrn_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/0bea8c58-4507-4527-8104-6a420f97c3c6/FY27_UOEBIILE27-OlvGrn_PDP_EcomGal7_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/56a5453f-e2a5-4a41-9387-f60e0bd76c41/FY27_UOEBIILE27-OlvGrn_PDP_EcomGal8_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 901149-0010": [
+   "https://assets.bosecreative.com/transform/3a66aa9b-c19f-49ea-9ca7-bc51fc2bfd93/FY27_OE27-Blk_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/60ca15ad-9fe4-490b-bf56-e33d0abb29fe/FY27_OE27-Blk_PDP_EcomGal1_3D_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/c5715f9c-3674-4977-8b5e-53de6aa73c4c/FY27_OE27-Blk_PDP_EcomGal2_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/c0eda38d-5008-4095-90f8-929aa3a47721/FY27_OE27-Blk_PDP_EcomGal2_3D_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/c79ea335-daba-48a9-b292-9a0b8e347d1a/FY27_OE27-Blk_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/b2667d0e-65a4-45fb-afb9-9787ddeb763f/FY27_OE27-Blk_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/4a2fca78-972f-4e67-8a3d-8dbfd96c9d3f/FY27_OE27-Blk_PDP_EcomGal5_Situ_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/f5da9380-f089-4bc2-9481-2bd3107d1d59/FY27_OE27-Blk_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 901149-0020": [
+   "https://assets.bosecreative.com/transform/aa577b46-1868-468c-8bd5-f0f6a91377bb/FY27_OE27-WhtSmk_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/9523361f-96dc-4a00-80d8-ac124d8b2534/FY27_OE27-WhtSmk_PDP_EcomGal1_3D_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/283ddcb4-0d5b-458e-8c5e-f43faa8d732d/FY27_OE27-WhtSmk_PDP_EcomGal2_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/766dda00-39d8-4ac1-8f25-fa22d0d85a5d/FY27_OE27-WhtSmk_PDP_EcomGal2_3D_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/f1f56ab8-d812-4438-8678-2aaaa5ccaeaf/FY27_OE27-WhtSmk_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/dfb63e34-0599-4003-a5b9-e29538a77a03/FY27_OE27-WhtSmk_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/aec74f1c-2d28-43ab-8708-2fdb19cb8140/FY27_OE27-WhtSmk_PDP_EcomGal5_Situ_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/982a09b8-4846-4943-b2d3-5c3e58dca50f/FY27_OE27-WhtSmk_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 901149-0030": [
+   "https://assets.bosecreative.com/transform/03a2b5cd-f5ff-42e8-a757-957205e928b9/FY27_OELE27-EucaGrn_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/99912d39-3569-417d-b697-b5ad8b49214d/FY27_OELE27-EucaGrn_PDP_EcomGal2_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/4f0ac39d-e665-46cb-9f40-7a1793e0cc96/FY27_OELE27-EucaGrn_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/0944ad7f-aec1-440b-ab5e-bfc8b905f469/FY27_OELE27-EucaGrn_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/ba1b85e0-c669-417e-816c-4e8b17c0c6de/FY27_OELE27-EucaGrn_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/a0ee288f-fa79-49fb-800a-4513516c63a4/FY27_OELE27-EucaGrn_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/f56f2248-f12e-402e-9d29-04467f3131b4/FY27_OELE27-EucaGrn_PDP_EcomGal7_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/c554c48c-99cf-478c-968d-7040526bf898/FY27_OELE27-EucaGrn_PDP_EcomGal8_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 906940-0010": [
+   "https://assets.bosecreative.com/transform/66a721ef-9a18-4e4d-bc5a-c3f4c6aa61e0/FY27_NCWE27-Blk_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/3244746b-7c0b-458e-bdb7-47ab96133758/FY27_NCWE27-Blk_PDP_EcomGal2_Life_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/1037ce6a-237f-459b-a5c8-e125b5b5825b/FY27_NCWE27-Blk_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/d9bcdea6-2b2c-4e73-8e55-b183ffcc2686/FY27_NCWE27-Blk_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/cc8d6a5c-16fa-4718-8b63-f15bd009ee32/FY27_NCWE27-Blk_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/5b946390-3eba-4164-83a2-e3c15b8abdc0/FY27_NCWE27-Blk_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/d703057f-55f6-4c4d-94a3-2b67f1e766ca/FY27_NCWE27-Blk_PDP_EcomGal7_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/39a95500-4481-46ff-a34f-5642bf6bf08a/FY27_NCWE27-Blk_PDP_EcomGal8_3D_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 906940-0020": [
+   "https://assets.bosecreative.com/transform/061cd6a5-2543-4d04-adb4-2a2940f9b046/FY27_NCWE27-WhtSmk_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/c8dc3e11-aade-4b2e-afe7-c9bbeceadcb7/FY27_NCWE27-WhtSmk_PDP_EcomGal2_Life_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/07eb92e8-71ce-43b5-89d3-a06c486435f4/FY27_NCWE27-WhtSmk_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/ae0cb4c5-a2df-4928-95a6-a2d8febd35a1/FY27_NCWE27-WhtSmk_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/1673c4e5-45cd-4c56-8fd7-32838462eff1/FY27_NCWE27-WhtSmk_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/3e1c126d-c35f-46c1-b859-44954bf9dcf2/FY27_NCWE27-WhtSmk_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/37f68f7a-740e-4c19-921e-7bca46dd0726/FY27_NCWE27-WhtSmk_PDP_EcomGal7_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/de519503-5e60-485a-a912-bfaeef2cf2fd/FY27_NCWE27-WhtSmk_PDP_EcomGal8_Life_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 906940-0030": [
+   "https://assets.bosecreative.com/transform/7cd72a47-a802-45a3-9144-2981411cdcb0/FY27_NCWELE27-DewMint_PDP_EcomGal1_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/0733b34a-ab5b-4b10-a7c9-45315c5e8f6e/FY27_QCEBLE27-DewdropMint_PDP_EcomGal1_Silo_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/528a252e-e6d4-4353-ab74-5a01ce3811f7/FY27_NCWELE27-DewMint_PDP_EcomGal2_Life_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/2c8dfd68-33d6-488b-93be-174379f95f5b/FY27_NCWELE27-DewMint_PDP_EcomGal3_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/59b1653e-9c39-4e8a-b782-98e4a35033a3/FY27_NCWELE27-DewMint_PDP_EcomGal4_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/2efe2c9f-0603-4257-b777-bcac09974fce/FY27_NCWELE27-DewMint_PDP_EcomGal5_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/fd669455-5a31-46bf-aa1d-d53252e85cf8/FY27_NCWELE27-DewMint_PDP_EcomGal6_Silo_D_1500x1120?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/0114369d-23a1-4f7c-8a50-5661298a6616/FY27_NCWELE27-DewMint_PDP_EcomGal7_Silo_D_1500x1120?format=jpg&quality=95"
+  ],
+  "B 880416-0140": [
+   "https://assets.bosecreative.com/transform/2fdd524e-0b01-41f1-aa1b-1f5f297c4dd2/CREA-1001_QCUH24_ClosedCaseFront_Black_1M-F_x3_CMYK?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/4fff5225-3c7e-4473-b5eb-b327abba4f8f/CREA-1001_QCUH24_OpenCaseFront_Black_1M-F_x3_RGB?format=jpg&quality=95"
+  ],
+  "B 880416-0150": [
+   "https://assets.bosecreative.com/transform/05dde8b8-fbff-4c65-99c6-a7b698232f86/CREA-1001_QCUH24_ClosedCaseFront_White_1M-F_x2_RGB?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/5de99389-6053-4837-9d6e-6128016821b6/CREA-1001_QCUH24_OpenCaseFront_White_1M-F_x3a_RGB?format=jpg&quality=95"
+  ],
+  "B 752341-0010": [
+   "https://assets.bosecreative.com/transform/222edbcf-6481-4be5-a39c-ff31979f8ab0/omnijewel_wall_brackets_omnijewel_wall_bracket_black_black_double?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/12e835ef-de03-4a53-8d20-6281d1b9d81c/omnijewel_wall_brackets_omnijewel_wall_bracket_black_white_double?format=jpg&quality=95"
+  ],
+  "B 752341-0020": [
+   "https://assets.bosecreative.com/transform/12e835ef-de03-4a53-8d20-6281d1b9d81c/omnijewel_wall_brackets_omnijewel_wall_bracket_black_white_double?format=jpg&quality=95"
+  ],
+  "B 757658-0010": [
+   "https://assets.bosecreative.com/transform/b7be69c8-031a-4f79-b4d7-a8716e3842f8/omnijewel_center_channel_wall_bracket_black_EC?format=jpg&quality=95"
+  ],
+  "B 757658-0020": [
+   "https://assets.bosecreative.com/transform/7ffb3d7e-126e-4908-a43a-6c1130e94ba6/omnijewel_center_channel_wall_bracket_white_EC?format=jpg&quality=95"
+  ],
+  "B 722141-0010": [
+   "https://assets.bosecreative.com/transform/0c94f56e-8865-4ace-bd89-0ab20aa77fb8/UB20_wall_ceiling_bracket_product_silo_images_ub20_acc_black_png?format=jpg&quality=95"
+  ],
+  "B 722141-0020": [
+   "https://assets.bosecreative.com/transform/ae84eb7b-03bc-45ae-a872-a3d9fdd210a7/ub_20_wall_ceiling_bracket_product_silo_images_ub20_acc_white_png?format=jpg&quality=95"
+  ],
+  "B 802171-0020": [
+   "https://assets.bosecreative.com/transform/d117880c-ea74-4bb7-a527-378922616478/bose_soundbar_wall_bracket_productsiloimage_bose_soundbar_wall_bracket_white_EC_hero?format=jpg&quality=95",
+   "https://assets.bosecreative.com/transform/6bf0a9c7-a85e-4757-88bc-b4f80da6d83f/ITHFamily-WhiteSmoke_SF_PDP_Desktop_FullWidthBanner_2880x1920?format=jpg&quality=95"
+  ]
+ }
+}

@@ -61,4 +61,15 @@ function isInShop(objKod) {
   return shopSkus.has(normCode(objKod));
 }
 
-module.exports = { normCode, weightKgFor, loadOnOrder, catalogDescription, isInShop };
+const OFFICIAL_IMAGES_PATH = path.join(DATA_DIR, 'basys-bose-official-images.json');
+let officialImages;
+// Oficiálne fotky z bose.com (scripts/fetch-bose-official-images.js) pre SKU z cenníka; prázdne pole, keď ich nemáme.
+function officialImagesFor(objKod) {
+  if (!officialImages) {
+    const items = fs.existsSync(OFFICIAL_IMAGES_PATH) ? JSON.parse(fs.readFileSync(OFFICIAL_IMAGES_PATH, 'utf8')).items : {};
+    officialImages = new Map(Object.entries(items).map(([k, v]) => [normCode(k), v]));
+  }
+  return officialImages.get(normCode(objKod)) || [];
+}
+
+module.exports = { normCode, weightKgFor, loadOnOrder, catalogDescription, isInShop, officialImagesFor };

@@ -15,7 +15,7 @@ Prehľad zmien po produktoch: `zmeny-cenník.csv`, detaily v `report.json`.
 | Bose mimo cenníka, BaSys ich ešte vedie | 43 kariet | dostupnosť **Na objednávku**, viditeľné; cena sa nemení |
 | Bose mimo cenníka, BaSys ich už nevedie | 1 karta (677424 SoundLink Flex II Alpine Sage) | **Vypredané** + `detailOnly` (skryté, dostupné len cez URL) |
 | Variantové karty 621573 (Bass Module 700) a 621249 (Smart Ultra – Skladom BB) | 2 | nemenené (ručný výpredaj, viď `migrations/final-category-tree-2026-09-18/po-kontrole/BOSE-AKCIA-MANUALNE.md`); v súbore nie sú |
-| NEW položky cenníka, ktoré v e-shope neboli | 7 | nové karty so stavom **hidden** a „Na objednávku" (Sport Open Earbuds ×3, Noise Cancelling Wired Earbuds ×3, Lifestyle Floor Stand biely) – bez fotiek, treba doplniť a zviditeľniť |
+| NEW položky cenníka, ktoré v e-shope neboli | 7 | nové karty „Na objednávku": Sport Open Earbuds ×3 a Noise Cancelling Wired Earbuds ×3 **viditeľné** s oficiálnymi fotkami z bose.com; Lifestyle Floor Stand biely **hidden** (bez fotky) |
 
 Ostatné NEW/nové SKU z cenníka (OmniJewel, puzdrá, UB/UTS-20 II biele, Model 791 II, Smart Ultra čierny ako samostatná karta) sa nezakladajú; zatiaľ ich vytvorí len nočný feed, keď ich BaSys vykáže ako skladom.
 
@@ -57,6 +57,9 @@ Nový cenník v budúcnosti: `python3 scripts/extract-basys-bose-pricelist.py ce
 Feed už nesie celý cenník, takže ručný import je len jednorazový štart:
 * **Všetkých 90 SKU z cenníka** je vo feede vždy – nedostupné u BaSys ako „Na objednávku", nie ako „Vypredané" (predtým sa vynechali).
 * **Popis** produktu z cenníka: ručný override → text z katalógu PDF (nadpis, odstavec, 3 odrážky) + technický popis z xlsx (`data/basys-bose-catalog.json`) → až potom popis z BASYS feedu.
-* **Nové SKU** bez karty v e-shope a bez fotiek (13 ks: Sport Open, Wired Earbuds, OmniJewel, puzdro) feed zakladá **skryté** (`hidden`), kým nepribudnú fotky; existujúce karty ostávajú viditeľné (`data/basys-bose-shop-skus.json`).
+* **Nové SKU** bez karty v e-shope a bez fotiek (po doplnení fotiek už len 2 ks: OmniJewel Table Stand) feed zakladá **skryté** (`hidden`), kým nepribudnú fotky; existujúce karty ostávajú viditeľné (`data/basys-bose-shop-skus.json`).
 * Poistka vo workflow zastaví beh, ak by ktorýkoľvek SKU z cenníka vo feede chýbal.
 * Nový cenník: `extract-basys-bose-pricelist.py` vytvorí pricelist aj katalóg (JSON), `build-bose-cennik-import.js --write-data` obnoví ostatné dáta.
+
+## Fotky z webu výrobcu
+`node scripts/fetch-bose-official-images.js` stiahne zo stránok bose.com galérie (assets.bosecreative.com) podľa farby a uloží ich do `data/basys-bose-official-images.json` (22 SKU: TV Speaker 2, QC Ultra Headphones Cherry/Olive, Ultra Open 2 ×4, Sport Open ×3, Wired Earbuds ×3, puzdrá, OmniJewel/UB-20/soundbar držiaky; fotky inej farby sa zahodia). Feed ich používa len tam, kde produkt nemá overené fotky z BaSys cloudu ani ručný override; poradie: override → BaSys cloud → bose.com → BASYS feed. Importný XML ich nesie len na nových kartách (existujúce karty majú fotky v Shoptete). Bez fotiek ostali: OmniJewel Table Stand, Soundbar Wall Bracket čierny (bose.com stránku nevrátila), Lifestyle Floor Stand biely.

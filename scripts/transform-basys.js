@@ -56,7 +56,7 @@ const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
-const { weightKgFor, loadOnOrder, catalogDescription, isInShop } = require('./lib/basys-bose');
+const { weightKgFor, loadOnOrder, catalogDescription, isInShop, officialImagesFor } = require('./lib/basys-bose');
 
 // Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
 const crossSupplier = createCrossSupplierFilter('basys');
@@ -342,8 +342,11 @@ async function main() {
     const description = catalogDesc
       || (hasEnrichment && enrich.description ? enrich.description : (item.fallbackDescription || `<p>${xmlEscape(name)}</p>`));
     const cloudImgs = cloudImages[item.objKod];
-    const images = (cloudImgs && cloudImgs.length) ? cloudImgs : (hasEnrichment ? enrich.images : []);
+    // Poradie fotiek: BaSys cloud (overené) > oficiálne fotky bose.com (len produkty z cenníka) > fotky z BASYS feedu.
+    const officialImgs = item.isFromPriceList ? officialImagesFor(item.objKod) : [];
+    const images = (cloudImgs && cloudImgs.length) ? cloudImgs : (officialImgs.length ? officialImgs : (hasEnrichment ? enrich.images : []));
     if (cloudImgs && cloudImgs.length) stats.cloudImages++;
+    else if (officialImgs.length) stats.officialImages = (stats.officialImages || 0) + 1;
     else if (images.length) stats.feedImages++;
     else stats.noImages++;
     // "0" = BASYS ships it immediately (in stock); any other number of days, or no match at all

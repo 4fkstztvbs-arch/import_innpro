@@ -14,7 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const { roundPrice, roundPriceDown } = require('./round-price');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
-const { weightKgFor, normCode } = require('./lib/basys-bose');
+const { weightKgFor, normCode, officialImagesFor } = require('./lib/basys-bose');
 
 const ROOT = path.join(__dirname, '..');
 const args = process.argv.slice(2);
@@ -276,13 +276,18 @@ for (const item of newSkus) {
   const { price, purchase } = priceFor(item);
   const c = buildContent(model, item.color);
   const fullName = `${model.label} – ${colorSk(item.color)}`;
-  let b = template.replace(/<SHOPITEM id="\d+"[^>]*>/, '<SHOPITEM>').replace(/<GUID>[\s\S]*?<\/GUID>/, '').replace(/<IMAGES>[\s\S]*?<\/IMAGES>/, '').replace(/<IMAGE_REF>[\s\S]*?<\/IMAGE_REF>/, '<IMAGE_REF></IMAGE_REF>');
+  const fullNameForAlt = fullName.replace(/"/g, '');
+  const hasImgs = officialImagesFor(item.objKod).length > 0;
+  let b = template.replace(/<SHOPITEM id="\d+"[^>]*>/, '<SHOPITEM>').replace(/<GUID>[\s\S]*?<\/GUID>/, '').replace(/<IMAGES>[\s\S]*?<\/IMAGES>/, () => {
+    const imgs = officialImagesFor(item.objKod);
+    return imgs.length ? `<IMAGES>${imgs.map((u, i) => `<IMAGE description="${esc(fullNameForAlt)} - obrázok ${i + 1}">${esc(u)}</IMAGE>`).join('')}</IMAGES>` : '';
+  }).replace(/<IMAGE_REF>[\s\S]*?<\/IMAGE_REF>/, '<IMAGE_REF></IMAGE_REF>');
   b = setTag(b, 'NAME', esc(fullName));
   b = setTag(b, 'SHORT_DESCRIPTION', `<![CDATA[${c.shortDescription}]]>`);
   b = setTag(b, 'DESCRIPTION', `<![CDATA[${c.description}]]>`);
   b = b.replace(/<TEXT_PROPERTIES>[\s\S]*?<\/TEXT_PROPERTIES>/, `<TEXT_PROPERTIES><TEXT_PROPERTY><NAME>Značka</NAME><VALUE>Bose</VALUE><DESCRIPTION/></TEXT_PROPERTY><TEXT_PROPERTY><NAME>Farba</NAME><VALUE>${esc(colorShort(item.color))}</VALUE><DESCRIPTION/></TEXT_PROPERTY></TEXT_PROPERTIES>`);
   b = b.replace(/<CODE>new<\/CODE>\s*<VALID_UNTIL>[^<]*<\/VALID_UNTIL>/, `<CODE>new</CODE><ACTIVE>1</ACTIVE>`);
-  b = setTag(b, 'VISIBILITY', 'hidden');
+  b = setTag(b, 'VISIBILITY', hasImgs ? 'visible' : 'hidden');
   b = setTag(b, 'SEO_TITLE', esc(c.seoTitle));
   b = setTag(b, 'META_DESCRIPTION', esc(c.metaDescription));
   b = b.replace(/(<UNIT>[^<]*<\/UNIT>\s*)<CODE>[^<]*<\/CODE>/, (_, u) => `${u}<CODE>${esc('BAS_BASYS-' + item.objKod)}</CODE>`);
