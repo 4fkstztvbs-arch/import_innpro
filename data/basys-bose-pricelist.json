@@ -8,7 +8,9 @@
   "mocInclVat": 999.0,
   "mocExclVat": 812.2,
   "purchasePriceExclVat": 634.2,
-  "isNew": true
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 999.95
  },
  {
   "objKod": "B 892930-2200",
@@ -19,7 +21,9 @@
   "mocInclVat": 999.0,
   "mocExclVat": 812.2,
   "purchasePriceExclVat": 634.2,
-  "isNew": true
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 999.95
  },
  {
   "objKod": "B 882963-2100",
@@ -27,10 +31,11 @@
   "name": "BOSE Smart Ultra Soundbar",
   "color": "čierna",
   "category": "SOUNDBAR",
-  "mocInclVat": 999.0,
-  "mocExclVat": 812.2,
-  "purchasePriceExclVat": 634.2,
-  "isNew": false
+  "mocInclVat": 899.0,
+  "mocExclVat": 730.89,
+  "purchasePriceExclVat": 592.0,
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 882963-2200",
@@ -38,10 +43,11 @@
   "name": "BOSE Smart Ultra Soundbar",
   "color": "biela",
   "category": "SOUNDBAR",
-  "mocInclVat": 999.0,
-  "mocExclVat": 812.2,
-  "purchasePriceExclVat": 634.2,
-  "isNew": false
+  "mocInclVat": 899.0,
+  "mocExclVat": 730.89,
+  "purchasePriceExclVat": 592.0,
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 892079-2100",
@@ -52,18 +58,22 @@
   "mocInclVat": 549.0,
   "mocExclVat": 446.34,
   "purchasePriceExclVat": 348.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 579.95
  },
  {
-  "objKod": "B 838309-2100",
-  "ean": "17817808651",
-  "name": "BOSE TV Speaker",
+  "objKod": "B 901067-2100",
+  "ean": "17817866538",
+  "name": "TV Speaker (2nd Gen)",
   "color": "čierna",
   "category": "SOUNDBAR",
   "mocInclVat": 299.0,
   "mocExclVat": 243.09,
-  "purchasePriceExclVat": 190.8,
-  "isNew": false
+  "purchasePriceExclVat": 195.0,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 299.95
  },
  {
   "objKod": "B 893955-2100",
@@ -74,7 +84,9 @@
   "mocInclVat": 899.0,
   "mocExclVat": 730.89,
   "purchasePriceExclVat": 576.6,
-  "isNew": true
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 899.95
  },
  {
   "objKod": "B 893955-2200",
@@ -85,7 +97,9 @@
   "mocInclVat": 899.0,
   "mocExclVat": 730.89,
   "purchasePriceExclVat": 576.6,
-  "isNew": true
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 899.95
  },
  {
   "objKod": "B 796145-2100",
@@ -96,18 +110,35 @@
   "mocInclVat": 499.0,
   "mocExclVat": 405.69,
   "purchasePriceExclVat": 316.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 499.95
  },
  {
-  "objKod": "B 829393-2300",
-  "ean": "17817801843",
-  "name": "BOSE Home Speaker Portable EU SLV",
-  "color": "strieborná",
-  "category": "STREAMING SPEAKER",
-  "mocInclVat": 419.0,
-  "mocExclVat": 340.65,
-  "purchasePriceExclVat": 272.5,
-  "isNew": false
+  "objKod": "B 809281-2100",
+  "ean": "17817789431",
+  "name": "Bose Surround Speakers",
+  "color": "čierna",
+  "category": "SOUNDBAR",
+  "mocInclVat": 399.0,
+  "mocExclVat": 332.5,
+  "purchasePriceExclVat": 254.0,
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 399.95
+ },
+ {
+  "objKod": "B 809281-2200",
+  "ean": "17817789455",
+  "name": "Bose Surround Speakers",
+  "color": "biela",
+  "category": "SOUNDBAR",
+  "mocInclVat": 399.0,
+  "mocExclVat": 332.5,
+  "purchasePriceExclVat": 254.0,
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 399.95
  },
  {
   "objKod": "B 894001-2100",
@@ -118,7 +149,9 @@
   "mocInclVat": 349.0,
   "mocExclVat": 283.74,
   "purchasePriceExclVat": 222.0,
-  "isNew": true
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 349.95
  },
  {
   "objKod": "B 894001-2200",
@@ -129,18 +162,9 @@
   "mocInclVat": 349.0,
   "mocExclVat": 283.74,
   "purchasePriceExclVat": 222.0,
-  "isNew": true
- },
- {
-  "objKod": "B 867236-2100",
-  "ean": "17817834261",
-  "name": "BOSE Music Amplifier",
-  "color": "čierna",
-  "category": "STREAMING SPEAKER",
-  "mocInclVat": 829.0,
-  "mocExclVat": 673.98,
-  "purchasePriceExclVat": 519.0,
-  "isNew": false
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 349.95
  },
  {
   "objKod": "B 742897-0200",
@@ -151,7 +175,8 @@
   "mocInclVat": 649.0,
   "mocExclVat": 527.64,
   "purchasePriceExclVat": 411.6,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 024644",
@@ -162,7 +187,8 @@
   "mocInclVat": 599.0,
   "mocExclVat": 486.99,
   "purchasePriceExclVat": 379.9,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 895098-0100",
@@ -173,7 +199,9 @@
   "mocInclVat": 129.0,
   "mocExclVat": 104.88,
   "purchasePriceExclVat": 81.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 129.95
  },
  {
   "objKod": "B 895098-0200",
@@ -184,7 +212,9 @@
   "mocInclVat": 129.0,
   "mocExclVat": 104.88,
   "purchasePriceExclVat": 81.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 129.95
  },
  {
   "objKod": "B 895098-0300",
@@ -195,7 +225,9 @@
   "mocInclVat": 129.0,
   "mocExclVat": 104.88,
   "purchasePriceExclVat": 81.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 129.95
  },
  {
   "objKod": "B 887612-0100",
@@ -206,7 +238,9 @@
   "mocInclVat": 179.0,
   "mocExclVat": 145.53,
   "purchasePriceExclVat": 115.0,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 179.95
  },
  {
   "objKod": "B 887612-0200",
@@ -217,7 +251,9 @@
   "mocInclVat": 179.0,
   "mocExclVat": 145.53,
   "purchasePriceExclVat": 115.0,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 179.95
  },
  {
   "objKod": "B 887612-0300",
@@ -228,18 +264,23 @@
   "mocInclVat": 179.0,
   "mocExclVat": 145.53,
   "purchasePriceExclVat": 115.0,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 179.95
  },
  {
   "objKod": "B 887612-0160",
-  "ean": "17817852494",
+  "ean": "17817866309",
   "name": "BOSE SoundLink Flex II",
-  "color": "rosewood maueve",
+  "color": "Rosewood Mauve",
   "category": "BT SPEAKERS",
   "mocInclVat": 179.0,
   "mocExclVat": 145.53,
   "purchasePriceExclVat": 115.0,
-  "isNew": true
+  "isNew": false,
+  "colorXlsx": "rosewood maueve",
+  "source": "xlsx-voc",
+  "dmocPdf": 179.95
  },
  {
   "objKod": "B 894040-0100",
@@ -250,18 +291,23 @@
   "mocInclVat": 279.0,
   "mocExclVat": 226.83,
   "purchasePriceExclVat": 180.3,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 279.95
  },
  {
   "objKod": "B 894040-0200",
   "ean": "17817858373",
   "name": "BOSE SoundLink Plus",
-  "color": "modrá - dusk blue",
+  "color": "Blue Dusk",
   "category": "BT SPEAKERS",
   "mocInclVat": 279.0,
   "mocExclVat": 226.83,
   "purchasePriceExclVat": 180.3,
-  "isNew": false
+  "isNew": false,
+  "colorXlsx": "modrá - dusk blue",
+  "source": "xlsx-voc",
+  "dmocPdf": 279.95
  },
  {
   "objKod": "B 894040-0300",
@@ -272,7 +318,8 @@
   "mocInclVat": 279.0,
   "mocExclVat": 226.83,
   "purchasePriceExclVat": 180.3,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 883848-0010",
@@ -283,106 +330,118 @@
   "mocInclVat": 399.0,
   "mocExclVat": 324.39,
   "purchasePriceExclVat": 257.9,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 399.95
  },
  {
   "objKod": "B  883848-0020",
   "ean": "17817848831",
   "name": "BOSE Soundlink Max",
-  "color": "modrá - dusk blue",
+  "color": "Blue Dusk",
   "category": "BT SPEAKERS",
   "mocInclVat": 399.0,
   "mocExclVat": 324.39,
   "purchasePriceExclVat": 257.9,
-  "isNew": false
- },
- {
-  "objKod": "B 883848-0400",
-  "ean": "17817860284",
-  "name": "BOSE Soundlink Max",
-  "color": "Citrus Yellow",
-  "category": "BT SPEAKERS",
-  "mocInclVat": 399.0,
-  "mocExclVat": 324.39,
-  "purchasePriceExclVat": 257.9,
-  "isNew": false
+  "isNew": false,
+  "colorXlsx": "modrá - dusk blue",
+  "source": "xlsx-voc",
+  "dmocPdf": 399.95
  },
  {
   "objKod": "B 892399-0010",
   "ean": "17817856560",
-  "name": "Bose SoundLink Home Bluetooth speaker",
+  "name": "BOSE SoundLink Home Bluetooth speaker",
   "color": "light silver",
   "category": "BT SPEAKERS",
   "mocInclVat": 229.0,
   "mocExclVat": 186.18,
   "purchasePriceExclVat": 145.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 229.95
  },
  {
   "objKod": "B 892399-0020",
   "ean": "17817856553",
-  "name": "Bose SoundLink Home Bluetooth speaker",
+  "name": "BOSE SoundLink Home Bluetooth speaker",
   "color": "cool grey",
   "category": "BT SPEAKERS",
   "mocInclVat": 229.0,
   "mocExclVat": 186.18,
   "purchasePriceExclVat": 145.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 229.95
  },
  {
   "objKod": "B 892399-0030",
   "ean": "17817857550",
-  "name": "Bose SoundLink Home Bluetooth speaker",
+  "name": "BOSE SoundLink Home Bluetooth speaker",
   "color": "warm wood",
   "category": "BT SPEAKERS",
   "mocInclVat": 229.0,
   "mocExclVat": 186.18,
   "purchasePriceExclVat": 145.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 229.95
  },
  {
   "objKod": "B 888926-0010",
   "ean": "17817853347",
   "name": "BOSE farebná rukoväť pre Soundlink Max",
-  "color": "Black/Carbon Blue",
+  "color": "Black / Carbon Blue",
   "category": "BT SPEAKERS",
   "mocInclVat": 29.99,
   "mocExclVat": 24.38,
   "purchasePriceExclVat": 19.5,
-  "isNew": false
+  "isNew": false,
+  "colorXlsx": "Black/Carbon Blue",
+  "source": "xlsx-voc",
+  "dmocPdf": 29.95
  },
  {
   "objKod": "B 888926-0020",
   "ean": "17817853330",
   "name": "BOSE farebná rukoväť pre Soundlink Max",
-  "color": "Black/Chilled Lilac",
+  "color": "Black / Chilled Lilac",
   "category": "BT SPEAKERS",
   "mocInclVat": 29.99,
   "mocExclVat": 24.38,
   "purchasePriceExclVat": 19.5,
-  "isNew": false
+  "isNew": false,
+  "colorXlsx": "Black/Chilled Lilac",
+  "source": "xlsx-voc",
+  "dmocPdf": 29.95
  },
  {
   "objKod": "B 888926-0030",
   "ean": "17817853316",
   "name": "BOSE farebná rukoväť pre Soundlink Max",
-  "color": "Blue Dusk/Apricot",
+  "color": "Blue Dusk / Apricot",
   "category": "BT SPEAKERS",
   "mocInclVat": 29.99,
   "mocExclVat": 24.38,
   "purchasePriceExclVat": 19.5,
-  "isNew": false
+  "isNew": false,
+  "colorXlsx": "Blue Dusk/Apricot",
+  "source": "xlsx-voc",
+  "dmocPdf": 29.95
  },
  {
   "objKod": "B 888926-0040",
   "ean": "17817853323",
   "name": "BOSE farebná rukoväť pre Soundlink Max",
-  "color": "Blue Dusk/Hyper Citron",
+  "color": "Blue Dusk / Hyper Citron",
   "category": "BT SPEAKERS",
   "mocInclVat": 29.99,
   "mocExclVat": 24.38,
   "purchasePriceExclVat": 19.5,
-  "isNew": false
+  "isNew": false,
+  "colorXlsx": "Blue Dusk/Hyper Citron",
+  "source": "xlsx-voc",
+  "dmocPdf": 29.95
  },
  {
   "objKod": "B 884104-0010",
@@ -393,7 +452,9 @@
   "mocInclVat": 54.99,
   "mocExclVat": 44.71,
   "purchasePriceExclVat": 35.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 54.95
  },
  {
   "objKod": "B 884104-0020",
@@ -404,7 +465,9 @@
   "mocInclVat": 54.99,
   "mocExclVat": 44.71,
   "purchasePriceExclVat": 35.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 54.95
  },
  {
   "objKod": "B 890101-0100",
@@ -415,7 +478,9 @@
   "mocInclVat": 449.0,
   "mocExclVat": 365.04,
   "purchasePriceExclVat": 288.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 449.95
  },
  {
   "objKod": "B 890101-0200",
@@ -426,7 +491,9 @@
   "mocInclVat": 449.0,
   "mocExclVat": 365.04,
   "purchasePriceExclVat": 288.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 449.95
  },
  {
   "objKod": "B 890101-0300",
@@ -437,7 +504,8 @@
   "mocInclVat": 449.0,
   "mocExclVat": 365.04,
   "purchasePriceExclVat": 288.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 890101-0400",
@@ -448,7 +516,8 @@
   "mocInclVat": 449.0,
   "mocExclVat": 365.04,
   "purchasePriceExclVat": 288.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 890101-0500",
@@ -459,7 +528,34 @@
   "mocInclVat": 449.0,
   "mocExclVat": 365.04,
   "purchasePriceExclVat": 288.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
+ },
+ {
+  "objKod": "B 890101-0110",
+  "ean": "17817867030",
+  "name": "BOSE QC Ultra Headphones 2nd Gen",
+  "color": "Cherry chocolate",
+  "category": "HEADPHONES",
+  "mocInclVat": 449.0,
+  "mocExclVat": 365.04,
+  "purchasePriceExclVat": 288.4,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 449.95
+ },
+ {
+  "objKod": "B 890101-0120",
+  "ean": "17817867023",
+  "name": "BOSE QC Ultra Headphones 2nd Gen",
+  "color": "Olive green",
+  "category": "HEADPHONES",
+  "mocInclVat": 449.0,
+  "mocExclVat": 365.04,
+  "purchasePriceExclVat": 288.4,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 449.95
  },
  {
   "objKod": "B 895491-0100",
@@ -468,9 +564,11 @@
   "color": "Black",
   "category": "HEADPHONES",
   "mocInclVat": 349.0,
-  "mocExclVat": 283.739837398374,
+  "mocExclVat": 283.74,
   "purchasePriceExclVat": 230.0,
-  "isNew": true
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 349.95
  },
  {
   "objKod": "B 895491-0200",
@@ -479,31 +577,36 @@
   "color": "White Smoke",
   "category": "HEADPHONES",
   "mocInclVat": 349.0,
-  "mocExclVat": 283.739837398374,
+  "mocExclVat": 283.74,
   "purchasePriceExclVat": 230.0,
-  "isNew": true
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 895491-0300",
   "ean": "17817859745",
-  "name": "Bose Quietcomfort Headphones 2nd Gen",
+  "name": "BOSE Quietcomfort Headphones 2nd Gen",
   "color": "Eucalyptus green",
   "category": "HEADPHONES",
   "mocInclVat": 349.0,
-  "mocExclVat": 283.739837398374,
+  "mocExclVat": 283.74,
   "purchasePriceExclVat": 230.0,
-  "isNew": true
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 349.95
  },
  {
   "objKod": "B 895491-0500",
   "ean": "17817859738",
-  "name": "Bose Quietcomfort Headphones 2nd Gen",
+  "name": "BOSE Quietcomfort Headphones 2nd Gen",
   "color": "Rosewood mauve",
   "category": "HEADPHONES",
   "mocInclVat": 349.0,
-  "mocExclVat": 283.739837398374,
+  "mocExclVat": 283.74,
   "purchasePriceExclVat": 230.0,
-  "isNew": true
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 349.95
  },
  {
   "objKod": "B 884367-0100",
@@ -512,9 +615,11 @@
   "color": "čierna",
   "category": "HEADPHONES",
   "mocInclVat": 239.0,
-  "mocExclVat": 194.3089430894309,
+  "mocExclVat": 194.31,
   "purchasePriceExclVat": 167.5,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 239.95
  },
  {
   "objKod": "B 884367-0200",
@@ -523,86 +628,166 @@
   "color": "biela",
   "category": "HEADPHONES",
   "mocInclVat": 239.0,
-  "mocExclVat": 194.3089430894309,
+  "mocExclVat": 194.31,
   "purchasePriceExclVat": 167.5,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 239.95
  },
  {
   "objKod": "B 896637-0010",
   "ean": "17817861120",
-  "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
+  "name": "BOSE QuietComfort Ultra Earbuds ( 2.Gen )",
   "color": "čierna",
   "category": "HEADPHONES",
   "mocInclVat": 299.0,
   "mocExclVat": 243.09,
   "purchasePriceExclVat": 196.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 299.95
  },
  {
   "objKod": "B 896637-0020",
   "ean": "17817861076",
-  "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
+  "name": "BOSE QuietComfort Ultra Earbuds ( 2.Gen )",
   "color": "biela - white smoke",
   "category": "HEADPHONES",
   "mocInclVat": 299.0,
   "mocExclVat": 243.09,
   "purchasePriceExclVat": 196.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 299.95
  },
  {
   "objKod": "B 896637-0030",
   "ean": "17817861151",
-  "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
+  "name": "BOSE QuietComfort Ultra Earbuds ( 2.Gen )",
   "color": "deep plum",
   "category": "HEADPHONES",
   "mocInclVat": 299.0,
   "mocExclVat": 243.09,
   "purchasePriceExclVat": 196.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 896637-0040",
   "ean": "17817861212",
-  "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
+  "name": "BOSE QuietComfort Ultra Earbuds ( 2.Gen )",
   "color": "desert gold",
   "category": "HEADPHONES",
   "mocInclVat": 299.0,
   "mocExclVat": 243.09,
   "purchasePriceExclVat": 196.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 896637-0050",
   "ean": "17817861083",
-  "name": "Bose QuietComfort Ultra Earbuds ( 2.Gen )",
+  "name": "BOSE QuietComfort Ultra Earbuds ( 2.Gen )",
   "color": "midnight violet",
   "category": "HEADPHONES",
   "mocInclVat": 299.0,
   "mocExclVat": 243.09,
   "purchasePriceExclVat": 196.4,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
-  "objKod": "B 881046-0010",
-  "ean": "17817846929",
-  "name": "BOSE Ultra Open Earbuds",
+  "objKod": "B 897806-0010",
+  "ean": "17817862714",
+  "name": "BOSE Ultra Open Earbuds 2nd Gen",
   "color": "čierna",
   "category": "HEADPHONES",
-  "mocInclVat": 349.0,
-  "mocExclVat": 283.74,
-  "purchasePriceExclVat": 229.8,
-  "isNew": false
+  "mocInclVat": 299.0,
+  "mocExclVat": 243.09,
+  "purchasePriceExclVat": 196.4,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 299.95
  },
  {
-  "objKod": "B 881046-0020",
-  "ean": "17817846912",
-  "name": "BOSE Ultra Open Earbuds",
+  "objKod": "B 897806-0020",
+  "ean": "17817862721",
+  "name": "BOSE Ultra Open Earbuds 2nd Gen",
   "color": "biela",
   "category": "HEADPHONES",
-  "mocInclVat": 349.0,
-  "mocExclVat": 283.74,
-  "purchasePriceExclVat": 229.8,
-  "isNew": false
+  "mocInclVat": 299.0,
+  "mocExclVat": 243.09,
+  "purchasePriceExclVat": 196.4,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 299.95
+ },
+ {
+  "objKod": "B 897806-0030",
+  "ean": "17817862929",
+  "name": "BOSE Ultra Open Earbuds 2nd Gen",
+  "color": "Cherry Chocolate",
+  "category": "HEADPHONES",
+  "mocInclVat": 299.0,
+  "mocExclVat": 243.09,
+  "purchasePriceExclVat": 196.4,
+  "isNew": true,
+  "colorXlsx": "Olive Green",
+  "source": "xlsx-voc",
+  "dmocPdf": 299.95
+ },
+ {
+  "objKod": "B 897806-0040",
+  "ean": "17817862905",
+  "name": "BOSE Ultra Open Earbuds 2nd Gen",
+  "color": "Olive Green",
+  "category": "HEADPHONES",
+  "mocInclVat": 299.0,
+  "mocExclVat": 243.09,
+  "purchasePriceExclVat": 196.4,
+  "isNew": true,
+  "colorXlsx": "Cherry Chocolate",
+  "source": "xlsx-voc",
+  "dmocPdf": 299.95
+ },
+ {
+  "objKod": "B 901149-0010",
+  "ean": "17817864787",
+  "name": "BOSE Sport Open Earbuds",
+  "color": "čierne",
+  "category": "HEADPHONES",
+  "mocInclVat": 199.0,
+  "mocExclVat": 161.79,
+  "purchasePriceExclVat": 131.0,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 199.95
+ },
+ {
+  "objKod": "B 901149-0020",
+  "ean": "17817865418",
+  "name": "BOSE Sport Open Earbuds",
+  "color": "white",
+  "category": "HEADPHONES",
+  "mocInclVat": 199.0,
+  "mocExclVat": 161.79,
+  "purchasePriceExclVat": 131.0,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 199.95
+ },
+ {
+  "objKod": "B 901149-0030",
+  "ean": "17817865449",
+  "name": "BOSE Sport Open Earbuds",
+  "color": "Eucalyptus green",
+  "category": "HEADPHONES",
+  "mocInclVat": 199.0,
+  "mocExclVat": 161.79,
+  "purchasePriceExclVat": 131.0,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 199.95
  },
  {
   "objKod": "B 888507-0100",
@@ -613,7 +798,9 @@
   "mocInclVat": 199.0,
   "mocExclVat": 161.79,
   "purchasePriceExclVat": 131.0,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 199.95
  },
  {
   "objKod": "B  888507-0200",
@@ -624,7 +811,9 @@
   "mocInclVat": 199.0,
   "mocExclVat": 161.79,
   "purchasePriceExclVat": 131.0,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 199.95
  },
  {
   "objKod": "B 888507-0300",
@@ -635,18 +824,61 @@
   "mocInclVat": 199.0,
   "mocExclVat": 161.79,
   "purchasePriceExclVat": 131.0,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 199.95
+ },
+ {
+  "objKod": "B 906940-0010",
+  "ean": "17817871143",
+  "name": "BOSE Noise Cancelling Wired Earbuds",
+  "color": "čierna",
+  "category": "HEADPHONES",
+  "mocInclVat": 99.0,
+  "mocExclVat": 80.49,
+  "purchasePriceExclVat": 65.0,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 99.95
+ },
+ {
+  "objKod": "B 906940-0020",
+  "ean": "17817871136",
+  "name": "BOSE Noise Cancelling Wired Earbuds",
+  "color": "biela",
+  "category": "HEADPHONES",
+  "mocInclVat": 99.0,
+  "mocExclVat": 80.49,
+  "purchasePriceExclVat": 65.0,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 99.95
+ },
+ {
+  "objKod": "B 906940-0030",
+  "ean": "17817871129",
+  "name": "BOSE Noise Cancelling Wired Earbuds",
+  "color": "Dewdrop mint",
+  "category": "HEADPHONES",
+  "mocInclVat": 99.0,
+  "mocExclVat": 80.49,
+  "purchasePriceExclVat": 65.0,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 99.95
  },
  {
   "objKod": "B 802171-0010",
-  "ean": "17817785647",
+  "ean": "17817795647",
   "name": "BOSE Soundbar Wall Bracket",
   "color": "čierna",
   "category": "HOME ACCESSORIES",
   "mocInclVat": 39.0,
   "mocExclVat": 31.71,
   "purchasePriceExclVat": 24.7,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 39.95
  },
  {
   "objKod": "B 802171-0020",
@@ -657,51 +889,61 @@
   "mocInclVat": 39.0,
   "mocExclVat": 31.71,
   "purchasePriceExclVat": 24.7,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc",
+  "dmocPdf": 39.95
  },
  {
   "objKod": "B 897829-0010",
   "ean": "17817861786",
-  "name": "BOSE  Lifestyle Floor Stand",
+  "name": "BOSE Lifestyle Floor Stand",
   "color": "čierna",
   "category": "HOME ACCESSORIES",
   "mocInclVat": 159.0,
   "mocExclVat": 129.27,
-  "purchasePriceExclVat": 98.89999999999999,
-  "isNew": true
+  "purchasePriceExclVat": 98.9,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 159.95
  },
  {
   "objKod": "B 897829-0020",
   "ean": "17817862011",
-  "name": "BOSE  Lifestyle Floor Stand",
+  "name": "BOSE Lifestyle Floor Stand",
   "color": "biela",
   "category": "HOME ACCESSORIES",
   "mocInclVat": 159.0,
   "mocExclVat": 129.27,
-  "purchasePriceExclVat": 98.89999999999999,
-  "isNew": true
+  "purchasePriceExclVat": 98.9,
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 159.95
  },
  {
   "objKod": "B 897827-0010",
   "ean": "17817861793",
-  "name": "BOSE  Lifestyle Ultra Speaker  Wall Bracket",
+  "name": "BOSE Lifestyle Ultra Speaker Wall Bracket",
   "color": "čierna",
   "category": "HOME ACCESSORIES",
   "mocInclVat": 89.0,
   "mocExclVat": 72.36,
   "purchasePriceExclVat": 55.6,
-  "isNew": true
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 89.95
  },
  {
   "objKod": "B 897827-0020",
   "ean": "17817861809",
-  "name": "BOSE  Lifestyle Ultra Speaker  Wall Bracket",
+  "name": "BOSE Lifestyle Ultra Speaker Wall Bracket",
   "color": "biela",
   "category": "HOME ACCESSORIES",
   "mocInclVat": 89.0,
   "mocExclVat": 72.36,
   "purchasePriceExclVat": 55.6,
-  "isNew": true
+  "isNew": true,
+  "source": "xlsx-voc",
+  "dmocPdf": 89.95
  },
  {
   "objKod": "B 764522-0010",
@@ -712,7 +954,8 @@
   "mocInclVat": 80.0,
   "mocExclVat": 65.04,
   "purchasePriceExclVat": 50.7,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 764522-0020",
@@ -723,7 +966,8 @@
   "mocInclVat": 80.0,
   "mocExclVat": 65.04,
   "purchasePriceExclVat": 50.7,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 752341-0010",
@@ -734,7 +978,8 @@
   "mocInclVat": 50.0,
   "mocExclVat": 40.65,
   "purchasePriceExclVat": 31.7,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 752341-0020",
@@ -745,7 +990,8 @@
   "mocInclVat": 50.0,
   "mocExclVat": 40.65,
   "purchasePriceExclVat": 31.7,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 757658-0010",
@@ -756,7 +1002,8 @@
   "mocInclVat": 33.0,
   "mocExclVat": 26.83,
   "purchasePriceExclVat": 20.9,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 757658-0020",
@@ -767,29 +1014,8 @@
   "mocInclVat": 33.0,
   "mocExclVat": 26.83,
   "purchasePriceExclVat": 20.9,
-  "isNew": false
- },
- {
-  "objKod": "B 882556-0010",
-  "ean": "17817847834",
-  "name": "BOSE Ultra Open Earbuds Charging Case",
-  "color": "čierna",
-  "category": "HEADPHONESS ACCESSORIES",
-  "mocInclVat": 99.0,
-  "mocExclVat": 80.49,
-  "purchasePriceExclVat": 62.8,
-  "isNew": false
- },
- {
-  "objKod": "B 882556-0020",
-  "ean": "17817847827",
-  "name": "BOSE Ultra Open Earbuds Charging Case",
-  "color": "biela",
-  "category": "HEADPHONESS ACCESSORIES",
-  "mocInclVat": 99.0,
-  "mocExclVat": 80.49,
-  "purchasePriceExclVat": 62.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 882827-0010",
@@ -800,7 +1026,8 @@
   "mocInclVat": 99.0,
   "mocExclVat": 80.49,
   "purchasePriceExclVat": 62.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 882827-0020",
@@ -811,7 +1038,8 @@
   "mocInclVat": 99.0,
   "mocExclVat": 80.49,
   "purchasePriceExclVat": 62.8,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 880416-0140",
@@ -822,7 +1050,8 @@
   "mocInclVat": 30.0,
   "mocExclVat": 24.39,
   "purchasePriceExclVat": 19.0,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
  },
  {
   "objKod": "B 880416-0150",
@@ -833,6 +1062,92 @@
   "mocInclVat": 30.0,
   "mocExclVat": 24.39,
   "purchasePriceExclVat": 19.0,
-  "isNew": false
+  "isNew": false,
+  "source": "xlsx-voc"
+ },
+ {
+  "objKod": "B 722141-0010",
+  "ean": "17817662598",
+  "name": "UB 20 II",
+  "color": "čierna",
+  "category": "HOME ACCESSORIES",
+  "mocInclVat": 36.0,
+  "mocExclVat": 29.27,
+  "purchasePriceExclVat": null,
+  "isNew": false,
+  "source": "xlsx-moc+pdf"
+ },
+ {
+  "objKod": "B 722141-0020",
+  "ean": "17817662574",
+  "name": "UB 20 II",
+  "color": "biela",
+  "category": "HOME ACCESSORIES",
+  "mocInclVat": 36.0,
+  "mocExclVat": 29.27,
+  "purchasePriceExclVat": null,
+  "isNew": false,
+  "source": "xlsx-moc+pdf"
+ },
+ {
+  "objKod": "B 722140-0010",
+  "ean": "17817662710",
+  "name": "UTS 20 II",
+  "color": "čierna",
+  "category": "HOME ACCESSORIES",
+  "mocInclVat": 37.0,
+  "mocExclVat": 30.08,
+  "purchasePriceExclVat": null,
+  "isNew": false,
+  "source": "xlsx-moc+pdf"
+ },
+ {
+  "objKod": "B 722140-0020",
+  "ean": "17817662642",
+  "name": "UTS 20 II",
+  "color": "biela",
+  "category": "HOME ACCESSORIES",
+  "mocInclVat": 37.0,
+  "mocExclVat": 30.08,
+  "purchasePriceExclVat": null,
+  "isNew": false,
+  "source": "xlsx-moc+pdf"
+ },
+ {
+  "objKod": "B 888507-0120",
+  "ean": "17817867016",
+  "name": "BOSE QuietComfort Earbuds",
+  "color": "Rosewood Mauve",
+  "category": "HEADPHONES",
+  "mocInclVat": 199.0,
+  "mocExclVat": 161.79,
+  "purchasePriceExclVat": 131.0,
+  "isNew": false,
+  "source": "pdf+sibling",
+  "dmocPdf": 199.95
+ },
+ {
+  "objKod": "B 722139-0010",
+  "ean": "17817662581",
+  "name": "UFS-20 II Universal Floorstand",
+  "color": "Black",
+  "category": "HOME ACCESSORIES",
+  "mocInclVat": 133.0,
+  "mocExclVat": 108.13,
+  "purchasePriceExclVat": null,
+  "isNew": false,
+  "source": "pdf"
+ },
+ {
+  "objKod": "B 722139-0020",
+  "ean": "17817662604",
+  "name": "UFS-20 II Universal Floorstand",
+  "color": "White",
+  "category": "HOME ACCESSORIES",
+  "mocInclVat": 133.0,
+  "mocExclVat": 108.13,
+  "purchasePriceExclVat": null,
+  "isNew": false,
+  "source": "pdf"
  }
 ]

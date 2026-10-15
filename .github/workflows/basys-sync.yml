@@ -15,6 +15,12 @@ on:
     paths:
       - ".github/workflows/basys-sync.yml"
       - "data/basys-heureka-ean-overrides.json"
+      - "data/basys-bose-pricelist.json"
+      - "data/basys-bose-on-order.json"
+      - "data/basys-bose-weights.json"
+      - "data/product-content/basys.json"
+      - "scripts/transform-basys.js"
+      - "scripts/lib/basys-bose.js"
       - "scripts/check-feed-size.js"
 
 permissions:
@@ -62,6 +68,10 @@ jobs:
 
       - name: Dostupnosť pri vypredaní vždy rovnaká ako dostupnosť
         run: node scripts/sync-out-of-stock-availability.js output/basys.xml
+
+      # Bose produkty mimo cenníka (data/basys-bose-on-order.json) musia zostať vo feede ako "Na objednávku".
+      - name: Poistka - Bose mimo cenníka vždy "Na objednávku"
+        run: node scripts/check-basys-bose-on-order.js output/basys.xml
 
       - name: Poistka proti useknutému feedu
         run: node scripts/check-feed-size.js

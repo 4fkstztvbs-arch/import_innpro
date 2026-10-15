@@ -39,6 +39,9 @@
 // promo price (Shoptet shows this instead of PRICE_VAT while it's present), and FLAGS>ACTION is
 // set so it's also marked as an "akcia".
 //
+// Bose produkty mimo cenníka (data/basys-bose-on-order.json): vždy "Na objednávku", nikdy nevyradené z feedu,
+// cena z BASYS feedu. Hmotnosť z data/basys-bose-weights.json. Viď imports/bose-cennik-2026-10-15/POSTUP.md.
+//
 // Usage: node transform-basys.js
 // Optional: BASYS_URL (feed URL) or BASYS_LOCAL_FILE (local path) for the enrichment source;
 //           falls back to data/basys-heureka-feed-sample.xml if neither is set.
@@ -53,6 +56,7 @@ const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
+const { weightKgFor, loadOnOrder } = require('./lib/basys-bose');
 
 // Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
 const crossSupplier = createCrossSupplierFilter('basys');
@@ -199,6 +203,7 @@ function buildShopitemXml(p) {
   parts.push(`<CODE>${xmlEscape(p.code)}</CODE>`);
   if (p.ean) parts.push(`<EAN>${xmlEscape(p.ean)}</EAN>`);
 
+  if (p.weightKg) parts.push(`<LOGISTIC><WEIGHT>${p.weightKg}</WEIGHT></LOGISTIC>`);
   parts.push(`<CATEGORIES><CATEGORY>${xmlCdata(p.defaultCategory)}</CATEGORY></CATEGORIES>`);
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
@@ -272,7 +277,9 @@ async function main() {
       manufacturer: 'Bose',
       defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER.Bose || 'TV, audio a video > Audio technika',
       categoryWasMapped: !!mappedCategory,
-      mocInclVat: item.mocInclVat, purchasePriceExclVat: item.purchasePriceExclVat,
+      mocInclVat: item.mocInclVat,
+      // Položky len z katalógu/MOC listu nemajú VOC - nákupka sa odhadne rovnako ako pri položkách mimo cenníka (15 % prirážka).
+      purchasePriceExclVat: item.purchasePriceExclVat != null ? item.purchasePriceExclVat : item.mocInclVat / (1 + parseFloat(VAT) / 100) / ESTIMATED_MARKUP_MULTIPLIER,
     });
   }
   let skippedNoPrice = 0;
@@ -296,8 +303,27 @@ async function main() {
       defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER[f.manufacturer] || 'TV, audio a video > Audio technika > Doplnky',
       categoryWasMapped: !!mappedCategory,
       mocInclVat: f.priceVat, purchasePriceExclVat: priceExclVat / ESTIMATED_MARKUP_MULTIPLIER,
+      // Bose produkty mimo cenníka: vždy "Na objednávku", cena z feedu (viď data/basys-bose-on-order.json).
+      forceOnOrder: /^bose$/i.test(f.manufacturer),
+      // Skutočná nákupka z e-shopu (napr. z pôvodného cenníka) má prednosť pred odhadom z feedu.
+      ...(loadOnOrder().get(norm(f.itemId))?.purchasePriceExclVat > 0 ? { purchasePriceExclVat: loadOnOrder().get(norm(f.itemId)).purchasePriceExclVat } : {}),
     });
   }
+  // Bose produkty z e-shopu mimo cenníka, ktoré BASYS feed už neposiela: doplníme ich z posledných známych údajov,
+  // aby ich nenahradil záznam "Vypredané" a stále sa zobrazovali ako "Na objednávku".
+  const resolvedKeys = new Set(resolvedItems.map((r) => norm(r.objKod)));
+  let onOrderSynthesized = 0;
+  for (const [key, o] of loadOnOrder()) {
+    if (resolvedKeys.has(key) || pricelistCodes.has(key)) continue;
+    resolvedItems.push({
+      objKod: o.objKod, ean: o.ean || '', isFromPriceList: false, name: o.name, manufacturer: 'Bose',
+      defaultCategory: o.category || FALLBACK_BY_MANUFACTURER.Bose || 'TV, audio a video > Audio technika > Doplnky',
+      categoryWasMapped: !!o.category, mocInclVat: o.priceVat, purchasePriceExclVat: o.purchasePriceExclVat,
+      forceOnOrder: true, fallbackDescription: o.description || '',
+    });
+    onOrderSynthesized++;
+  }
+  console.log(`Bose mimo cenníka "Na objednávku": ${resolvedItems.filter((r) => r.forceOnOrder).length} (z toho ${onOrderSynthesized} doplnených z data/basys-bose-on-order.json, lebo ich feed neposiela).`);
   console.log(`Skipped ${skippedNoPrice} feed products with no usable price.`);
   console.log(`Total products to import: ${resolvedItems.length} (${priceList.length} z oficiálneho cenníka, ${resolvedItems.length - priceList.length} s odhadovanou nákupnou cenou z feedu).`);
 
@@ -324,7 +350,7 @@ async function main() {
     if (crossSupplier.shouldExclude(item.manufacturer, name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; continue; }
     const description = hasEnrichment && enrich.description
       ? enrich.description
-      : `<p>${xmlEscape(name)}</p>`;
+      : (item.fallbackDescription || `<p>${xmlEscape(name)}</p>`);
     const cloudImgs = cloudImages[item.objKod];
     const images = (cloudImgs && cloudImgs.length) ? cloudImgs : (hasEnrichment ? enrich.images : []);
     if (cloudImgs && cloudImgs.length) stats.cloudImages++;
@@ -334,10 +360,11 @@ async function main() {
     // in the feed, falls back to "Na objednávku" — the only honest default when we have no real
     // stock signal for a product.
     const isReturnStockSale = (saleState.items['BASYS-' + item.objKod]?.quantity || 0) > 0;
-    const supplierAvailability = hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
+    const supplierAvailability = !item.forceOnOrder && hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
     const availability = isReturnStockSale ? 'Skladom' : supplierAvailability;
     if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
-    if (EXCLUDE_UNAVAILABLE && supplierAvailability !== 'Skladom' && !isReturnStockSale) {
+    const keepOnOrder = item.forceOnOrder && loadOnOrder().has(norm(item.objKod));
+    if (EXCLUDE_UNAVAILABLE && supplierAvailability !== 'Skladom' && !isReturnStockSale && !keepOnOrder) {
       stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; continue;
     }
 
@@ -419,6 +446,7 @@ async function main() {
       shopitemData: {
         code: 'BASYS-' + item.objKod, ean: item.ean, name, manufacturer: item.manufacturer, description, shortDescription, availability,
         defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
+        weightKg: weightKgFor(name, item.objKod),
       },
     });
   }

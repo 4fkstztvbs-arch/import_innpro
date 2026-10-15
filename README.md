@@ -17,6 +17,12 @@ Po zmene DNS treba v Shoptet administrácii (Nastavenia → Prepojenie → Presu
 
 ---
 
+## Bose — cenník BaSys (15. 10. 2026)
+
+Nový cenník + katalóg Bose, ručný importný súbor a úprava BASYS feedu (Bose mimo cenníka vždy „Na objednávku", ceny/EAN/hmotnosť/obsah zdieľané medzi importom a feedom) — postup a rozhodnutia v `imports/bose-cennik-2026-10-15/POSTUP.md`.
+
+---
+
 ## WiiM — cenník (PDF) + obrázky/popisy z audio.sk
 
 WiiM (distribútor Perfect Sound Group) posiela len ručne rozposielaný PDF cenník (`data/wiim-pricelist.pdf`), bez obrázkov, bez skladovej dostupnosti — `scripts/transform-wiim.js` z neho postaví `output/wiim.xml` (29 produktov, kategórie namapované do existujúceho stromu cez `scripts/wiim-mapping.json`, dostupnosť napevno "Na objednávku"). Keďže nejde o live feed, spúšťa sa ručne (`workflow_dispatch`), nie na crone — po novej verzii PDF stačí nahradiť súbor a znova spustiť skript.

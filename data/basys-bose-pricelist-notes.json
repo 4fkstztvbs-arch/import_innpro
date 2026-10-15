@@ -1,0 +1,534 @@
+{
+ "validFrom": "2026-10-15",
+ "notes": [
+  "SKU B 809281-2100 (Bose Surround Speakers biela): duplicitný v xlsx, opravené na B 809281-2200 podľa PDF",
+  "SKU konflikt B 895098-0100 (xlsx) vs B 783342-0100 (PDF) pre EAN 17817859226: ponechané xlsx",
+  "SKU konflikt B 895098-0200 (xlsx) vs B 783342-0300 (PDF) pre EAN 17817859219: ponechané xlsx",
+  "SKU konflikt B 895098-0300 (xlsx) vs B 783342-0400 (PDF) pre EAN 17817859936: ponechané xlsx",
+  "SKU B 890101-0110 (BOSE QC Ultra Headphones 2nd Gen Olive green): duplicitný v xlsx, opravené na B 890101-0120 podľa PDF",
+  "SKU B 895491-0200 (BOSE Quietcomfort Headphones 2nd Gen Eucalyptus green): duplicitný v xlsx, opravené na B 895491-0300 podľa PDF",
+  "EAN 17817785647 (B 802171-0010) má zlý kontrolný súčet, opravené na 17817795647 podľa PDF",
+  "EAN konflikt B 895491-0200: xlsx 17817859707 (OK) vs PDF 17817850707 (zlý súčet) -> 17817859707",
+  "Názov B 895491-0100: 'BOSE QC Ultra Headphones 2nd Gen' -> 'Bose Quietcomfort Headphones 2nd Gen' (SKU/cena patria QC Headphones 2nd Gen)",
+  "Názov B 895491-0200: 'BOSE QC Ultra Headphones 2nd Gen' -> 'Bose Quietcomfort Headphones 2nd Gen' (SKU/cena patria QC Headphones 2nd Gen)",
+  "Farba B 887612-0160 / EAN 17817866309: xlsx 'rosewood maueve' vs PDF 'Rosewood Mauve' -> PDF",
+  "Farba B 894040-0200 / EAN 17817858373: xlsx 'modrá - dusk blue' vs PDF 'Blue Dusk' -> PDF",
+  "Farba B  883848-0020 / EAN 17817848831: xlsx 'modrá - dusk blue' vs PDF 'Blue Dusk' -> PDF",
+  "Farba B 888926-0010 / EAN 17817853347: xlsx 'Black/Carbon Blue' vs PDF 'Black / Carbon Blue' -> PDF",
+  "Farba B 888926-0020 / EAN 17817853330: xlsx 'Black/Chilled Lilac' vs PDF 'Black / Chilled Lilac' -> PDF",
+  "Farba B 888926-0030 / EAN 17817853316: xlsx 'Blue Dusk/Apricot' vs PDF 'Blue Dusk / Apricot' -> PDF",
+  "Farba B 888926-0040 / EAN 17817853323: xlsx 'Blue Dusk/Hyper Citron' vs PDF 'Blue Dusk / Hyper Citron' -> PDF",
+  "Farba B 897806-0030 / EAN 17817862929: xlsx 'Olive Green' vs PDF 'Cherry Chocolate' -> PDF",
+  "Farba B 897806-0040 / EAN 17817862905: xlsx 'Cherry Chocolate' vs PDF 'Olive Green' -> PDF",
+  "B 888507-0120 QuietComfort Earbuds Rosewood Mauve: len v PDF (199.95 EUR), cena a nákupka prevzaté zo súrodenca B 888507-0100",
+  "B 869583-2100 S1 Pro+: Bose Professional, mimo tohto cenníka (bez VOC) - preskočené",
+  "B 869722-0010 S1 Pro+ Wireless Instrument Transmitter: Bose Professional, mimo tohto cenníka (bez VOC) - preskočené",
+  "B 869721-0010 S1 Pro+ Wireless Mic/Line Transmitter: Bose Professional, mimo tohto cenníka (bez VOC) - preskočené"
+ ],
+ "pdfRows": [
+  {
+   "title": "Lifestyle Ultra Soundbar",
+   "color": "Black",
+   "objKod": "B 892930-2100",
+   "ean": "17817858601",
+   "dmoc": 999.95
+  },
+  {
+   "title": "Lifestyle Ultra Soundbar",
+   "color": "White Smoke",
+   "objKod": "B 892930-2200",
+   "ean": "17817858946",
+   "dmoc": 999.95
+  },
+  {
+   "title": "Lifestyle Ultra Subwoofer",
+   "color": "Black",
+   "objKod": "B 893955-2100",
+   "ean": "17817858519",
+   "dmoc": 899.95
+  },
+  {
+   "title": "Lifestyle Ultra Subwoofer",
+   "color": "White Smoke",
+   "objKod": "B 893955-2200",
+   "ean": "17817858557",
+   "dmoc": 899.95
+  },
+  {
+   "title": "Smart Soundbar",
+   "color": "Black",
+   "objKod": "B 892079-2100",
+   "ean": "17817856164",
+   "dmoc": 579.95
+  },
+  {
+   "title": "TV Speaker (2. generácia)",
+   "color": "Black",
+   "objKod": "B 901067-2100",
+   "ean": "17817866538",
+   "dmoc": 299.95
+  },
+  {
+   "title": "Bass Module 500",
+   "color": "Black",
+   "objKod": "B 796145-2100",
+   "ean": "17817783422",
+   "dmoc": 499.95
+  },
+  {
+   "title": "Surround Speakers",
+   "color": "Black",
+   "objKod": "B 809281-2100",
+   "ean": "17817789431",
+   "dmoc": 399.95
+  },
+  {
+   "title": "Surround Speakers",
+   "color": "White",
+   "objKod": "B 809281-2200",
+   "ean": "17817789455",
+   "dmoc": 399.95
+  },
+  {
+   "title": "Lifestyle Ultra Speaker",
+   "color": "Black",
+   "objKod": "B 894001-2100",
+   "ean": "17817858311",
+   "dmoc": 349.95
+  },
+  {
+   "title": "Lifestyle Ultra Speaker",
+   "color": "White Smoke",
+   "objKod": "B 894001-2200",
+   "ean": "17817858304",
+   "dmoc": 349.95
+  },
+  {
+   "title": "SoundLink Micro (2. generácia)",
+   "color": "Black",
+   "objKod": "B 783342-0100",
+   "ean": "17817859226",
+   "dmoc": 129.95
+  },
+  {
+   "title": "SoundLink Micro (2. generácia)",
+   "color": "Blue Dusk",
+   "objKod": "B 783342-0300",
+   "ean": "17817859219",
+   "dmoc": 129.95
+  },
+  {
+   "title": "SoundLink Micro (2. generácia)",
+   "color": "Sandstone",
+   "objKod": "B 783342-0400",
+   "ean": "17817859936",
+   "dmoc": 129.95
+  },
+  {
+   "title": "SoundLink Flex (2. generácia)",
+   "color": "Black",
+   "objKod": "B 887612-0100",
+   "ean": "17817852470",
+   "dmoc": 179.95
+  },
+  {
+   "title": "SoundLink Flex (2. generácia)",
+   "color": "Blue Dusk",
+   "objKod": "B 887612-0200",
+   "ean": "17817852487",
+   "dmoc": 179.95
+  },
+  {
+   "title": "SoundLink Flex (2. generácia)",
+   "color": "Sandstone",
+   "objKod": "B 887612-0300",
+   "ean": "17817852616",
+   "dmoc": 179.95
+  },
+  {
+   "title": "SoundLink Flex (2. generácia)",
+   "color": "Rosewood Mauve",
+   "objKod": "B 887612-0160",
+   "ean": "17817866309",
+   "dmoc": 179.95
+  },
+  {
+   "title": "SoundLink Plus",
+   "color": "Black",
+   "objKod": "B 894040-0100",
+   "ean": "17817857932",
+   "dmoc": 279.95
+  },
+  {
+   "title": "SoundLink Plus",
+   "color": "Blue Dusk",
+   "objKod": "B 894040-0200",
+   "ean": "17817858373",
+   "dmoc": 279.95
+  },
+  {
+   "title": "SoundLink Max",
+   "color": "Black",
+   "objKod": "B 883848-0010",
+   "ean": "17817848848",
+   "dmoc": 399.95
+  },
+  {
+   "title": "SoundLink Max",
+   "color": "Blue Dusk",
+   "objKod": "B 883848-0020",
+   "ean": "17817848831",
+   "dmoc": 399.95
+  },
+  {
+   "title": "SoundLink Home",
+   "color": "Light Silver",
+   "objKod": "B 892399-0010",
+   "ean": "17817856560",
+   "dmoc": 229.95
+  },
+  {
+   "title": "SoundLink Home",
+   "color": "Cool Grey",
+   "objKod": "B 892399-0020",
+   "ean": "17817856553",
+   "dmoc": 229.95
+  },
+  {
+   "title": "SoundLink Home",
+   "color": "Warm Wood",
+   "objKod": "B 892399-0030",
+   "ean": "17817857550",
+   "dmoc": 229.95
+  },
+  {
+   "title": "QuietComfort Earbuds",
+   "color": "Black",
+   "objKod": "B 888507-0100",
+   "ean": "17817853460",
+   "dmoc": 199.95
+  },
+  {
+   "title": "QuietComfort Earbuds",
+   "color": "White Smoke",
+   "objKod": "B 888507-0200",
+   "ean": "17817853439",
+   "dmoc": 199.95
+  },
+  {
+   "title": "QuietComfort Earbuds",
+   "color": "Chilled Lilac",
+   "objKod": "B 888507-0300",
+   "ean": "17817853200",
+   "dmoc": 199.95
+  },
+  {
+   "title": "QuietComfort Earbuds",
+   "color": "Rosewood Mauve",
+   "objKod": "B 888507-0120",
+   "ean": "17817867016",
+   "dmoc": 199.95
+  },
+  {
+   "title": "QuietComfort Ultra Earbuds (2. generácia)",
+   "color": "Black",
+   "objKod": "B 896637-0010",
+   "ean": "17817861120",
+   "dmoc": 299.95
+  },
+  {
+   "title": "QuietComfort Ultra Earbuds (2. generácia)",
+   "color": "White Smoke",
+   "objKod": "B 896637-0020",
+   "ean": "17817861076",
+   "dmoc": 299.95
+  },
+  {
+   "title": "QuietComfort Headphones",
+   "color": "Black",
+   "objKod": "B 884367-0100",
+   "ean": "17817848961",
+   "dmoc": 239.95
+  },
+  {
+   "title": "QuietComfort Headphones",
+   "color": "White Smoke",
+   "objKod": "B 884367-0200",
+   "ean": "17817848985",
+   "dmoc": 239.95
+  },
+  {
+   "title": "QuietComfort Headphones (2. generácia)",
+   "color": "Black",
+   "objKod": "B 895491-0100",
+   "ean": "17817859684",
+   "dmoc": 349.95
+  },
+  {
+   "title": "QuietComfort Headphones (2. generácia)",
+   "color": "White Smoke",
+   "objKod": "B 895491-0200",
+   "ean": "17817850707",
+   "dmoc": 349.95
+  },
+  {
+   "title": "QuietComfort Headphones (2. generácia)",
+   "color": "Eucalyptus Green",
+   "objKod": "B 895491-0300",
+   "ean": "17817859745",
+   "dmoc": 349.95
+  },
+  {
+   "title": "QuietComfort Headphones (2. generácia)",
+   "color": "Rosewood Mauve",
+   "objKod": "B 895491-0500",
+   "ean": "17817859738",
+   "dmoc": 349.95
+  },
+  {
+   "title": "QuietComfort Ultra Headphones (2. generácia)",
+   "color": "Black",
+   "objKod": "B 890101-0100",
+   "ean": "17817859585",
+   "dmoc": 449.95
+  },
+  {
+   "title": "QuietComfort Ultra Headphones (2. generácia)",
+   "color": "White Smoke",
+   "objKod": "B 890101-0200",
+   "ean": "17817859561",
+   "dmoc": 449.95
+  },
+  {
+   "title": "QuietComfort Ultra Headphones (2. generácia)",
+   "color": "Cherry Chocolate",
+   "objKod": "B 890101-0110",
+   "ean": "17817867030",
+   "dmoc": 449.95
+  },
+  {
+   "title": "QuietComfort Ultra Headphones (2. generácia)",
+   "color": "Olive Green",
+   "objKod": "B 890101-0120",
+   "ean": "17817867023",
+   "dmoc": 449.95
+  },
+  {
+   "title": "Ultra Open Earbuds (2. generácia)",
+   "color": "Black",
+   "objKod": "B 897806-0010",
+   "ean": "17817862714",
+   "dmoc": 299.95
+  },
+  {
+   "title": "Ultra Open Earbuds (2. generácia)",
+   "color": "White Smoke",
+   "objKod": "B 897806-0020",
+   "ean": "17817862721",
+   "dmoc": 299.95
+  },
+  {
+   "title": "Ultra Open Earbuds (2. generácia)",
+   "color": "Cherry Chocolate",
+   "objKod": "B 897806-0030",
+   "ean": "17817862929",
+   "dmoc": 299.95
+  },
+  {
+   "title": "Ultra Open Earbuds (2. generácia)",
+   "color": "Olive Green",
+   "objKod": "B 897806-0040",
+   "ean": "17817862905",
+   "dmoc": 299.95
+  },
+  {
+   "title": "Sport Open Earbuds (2. generácia)",
+   "color": "Black",
+   "objKod": "B 901149-0010",
+   "ean": "17817864787",
+   "dmoc": 199.95
+  },
+  {
+   "title": "Sport Open Earbuds (2. generácia)",
+   "color": "White Smoke",
+   "objKod": "B 901149-0020",
+   "ean": "17817865418",
+   "dmoc": 199.95
+  },
+  {
+   "title": "Sport Open Earbuds (2. generácia)",
+   "color": "Eucalyptus Green",
+   "objKod": "B 901149-0030",
+   "ean": "17817865449",
+   "dmoc": 199.95
+  },
+  {
+   "title": "Noise Cancelling Wired Earbuds",
+   "color": "Black",
+   "objKod": "B 906940-0010",
+   "ean": "17817871143",
+   "dmoc": 99.95
+  },
+  {
+   "title": "Noise Cancelling Wired Earbuds",
+   "color": "White Smoke",
+   "objKod": "B 906940-0020",
+   "ean": "17817871136",
+   "dmoc": 99.95
+  },
+  {
+   "title": "Noise Cancelling Wired Earbuds",
+   "color": "Dewdrop Mint",
+   "objKod": "B 906940-0030",
+   "ean": "17817871129",
+   "dmoc": 99.95
+  },
+  {
+   "title": "S1 Pro+",
+   "color": "Black",
+   "objKod": "B 869583-2100",
+   "ean": "17817837316",
+   "dmoc": 699.0
+  },
+  {
+   "title": "S1 Pro+ Wireless Instrument Transmitter",
+   "color": "Black",
+   "objKod": "B 869722-0010",
+   "ean": "17817837217",
+   "dmoc": 195.0
+  },
+  {
+   "title": "S1 Pro+ Wireless Mic/Line Transmitter",
+   "color": "Black",
+   "objKod": "B 869721-0010",
+   "ean": "17817837248",
+   "dmoc": 195.0
+  },
+  {
+   "title": "Lifestyle Floor Stand",
+   "color": "Black",
+   "objKod": "B 897829-0010",
+   "ean": "17817861786",
+   "dmoc": 159.95
+  },
+  {
+   "title": "Lifestyle Floor Stand",
+   "color": "White Smoke",
+   "objKod": "B 897829-0020",
+   "ean": "17817862011",
+   "dmoc": 159.95
+  },
+  {
+   "title": "Lifestyle Wall Bracket",
+   "color": "Black",
+   "objKod": "B 897827-0010",
+   "ean": "17817861793",
+   "dmoc": 89.95
+  },
+  {
+   "title": "Lifestyle Wall Bracket",
+   "color": "White Smoke",
+   "objKod": "B 897827-0020",
+   "ean": "17817861809",
+   "dmoc": 89.95
+  },
+  {
+   "title": "Soundbar Wall Bracket",
+   "color": "Black",
+   "objKod": "B 802171-0010",
+   "ean": "17817795647",
+   "dmoc": 39.95
+  },
+  {
+   "title": "Soundbar Wall Bracket",
+   "color": "White",
+   "objKod": "B 802171-0020",
+   "ean": "17817796514",
+   "dmoc": 39.95
+  },
+  {
+   "title": "UB-20 II Universal Bracket",
+   "color": "Black",
+   "objKod": "B 722141-0010",
+   "ean": "17817662598",
+   "dmoc": 36.0
+  },
+  {
+   "title": "UB-20 II Universal Bracket",
+   "color": "White",
+   "objKod": "B 722141-0020",
+   "ean": "17817662574",
+   "dmoc": 36.0
+  },
+  {
+   "title": "UTS-20 II Universal Table Stand",
+   "color": "Black",
+   "objKod": "B 722140-0010",
+   "ean": "17817662710",
+   "dmoc": 33.0
+  },
+  {
+   "title": "UTS-20 II Universal Table Stand",
+   "color": "White",
+   "objKod": "B 722140-0020",
+   "ean": "17817662642",
+   "dmoc": 33.0
+  },
+  {
+   "title": "UFS-20 II Universal Floorstand",
+   "color": "Black",
+   "objKod": "B 722139-0010",
+   "ean": "17817662581",
+   "dmoc": 133.0
+  },
+  {
+   "title": "UFS-20 II Universal Floorstand",
+   "color": "White",
+   "objKod": "B 722139-0020",
+   "ean": "17817662604",
+   "dmoc": 133.0
+  },
+  {
+   "title": "SoundLink Max - farebná rukoväť",
+   "color": "Black / Carbon Blue",
+   "objKod": "B 888926-0010",
+   "ean": "17817853347",
+   "dmoc": 29.95
+  },
+  {
+   "title": "SoundLink Max - farebná rukoväť",
+   "color": "Black / Chilled Lilac",
+   "objKod": "B 888926-0020",
+   "ean": "17817853330",
+   "dmoc": 29.95
+  },
+  {
+   "title": "SoundLink Max - farebná rukoväť",
+   "color": "Blue Dusk / Apricot",
+   "objKod": "B 888926-0030",
+   "ean": "17817853316",
+   "dmoc": 29.95
+  },
+  {
+   "title": "SoundLink Max - farebná rukoväť",
+   "color": "Blue Dusk / Hyper Citron",
+   "objKod": "B 888926-0040",
+   "ean": "17817853323",
+   "dmoc": 29.95
+  },
+  {
+   "title": "SoundLink Max - ramenný popruh",
+   "color": "Black",
+   "objKod": "B 884104-0010",
+   "ean": "17817848855",
+   "dmoc": 54.95
+  },
+  {
+   "title": "SoundLink Max - ramenný popruh",
+   "color": "Blue Dusk",
+   "objKod": "B 884104-0020",
+   "ean": "17817848862",
+   "dmoc": 54.95
+  }
+ ]
+}

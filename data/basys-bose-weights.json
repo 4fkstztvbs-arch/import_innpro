@@ -1,0 +1,110 @@
+{
+ "_comment": "Hmotnosť produktu v kg (nie balenia) podľa názvu z cenníka BaSys; prvé zhodné pravidlo vyhráva. Zdroje v poli note (cenník 15.10.2026, Bose špecifikácie, predajcovia). Produkty bez pravidla hmotnosť nedostanú (nikdy 0).",
+ "rules": [
+  {
+   "pattern": "Lifestyle Ultra Speaker\\s+Wall Bracket",
+   "kg": 0.41,
+   "note": "MediaMarkt BE: 0,41 kg (držiak)"
+  },
+  {
+   "pattern": "Lifestyle Floor Stand",
+   "kg": 3.53,
+   "note": "Harvey Norman NZ: produkt 3,53 kg"
+  },
+  {
+   "pattern": "Lifestyle Ultra Soundbar",
+   "kg": 6.7,
+   "note": "retailer/Staples: 6,67 kg (6,5-6,7 kg podľa predajcov)"
+  },
+  {
+   "pattern": "Lifestyle Ultra Subwoofer",
+   "kg": 15.3,
+   "note": "cenník BaSys 15.10.2026: 15,3 kg"
+  },
+  {
+   "pattern": "Lifestyle Ultra Speaker",
+   "kg": 1.6,
+   "note": "cenník BaSys 15.10.2026: 1,6 kg"
+  },
+  {
+   "pattern": "Smart Ultra Soundbar",
+   "kg": 5.75,
+   "note": "distribútorské špecifikácie: 5,75 kg"
+  },
+  {
+   "pattern": "Smart Soundbar",
+   "kg": 3.13,
+   "note": "6,91 lb podľa špecifikácií (EU testy uvádzajú 2,9 kg)"
+  },
+  {
+   "pattern": "TV Speaker",
+   "kg": 2.0,
+   "note": "4,41 lb (Target/Connection)"
+  },
+  {
+   "pattern": "Bass Module 500",
+   "kg": 5.0,
+   "note": "cenník BaSys 15.10.2026: 5 kg"
+  },
+  {
+   "pattern": "Surround Speakers",
+   "kg": 1.08,
+   "note": "cenník BaSys: 0,54 kg/ks, v balení 2 ks"
+  },
+  {
+   "pattern": "Model 251",
+   "kg": 7.2,
+   "note": "Bose manuál: 3,63 kg/ks, v balení pár"
+  },
+  {
+   "pattern": "Soundlink Micro",
+   "kg": 0.33,
+   "note": "cenník BaSys 15.10.2026: 0,33 kg"
+  },
+  {
+   "pattern": "SoundLink Flex II",
+   "kg": 0.59,
+   "note": "cenník BaSys 15.10.2026: 0,59 kg"
+  },
+  {
+   "pattern": "SoundLink Plus",
+   "kg": 1.45,
+   "note": "cenník BaSys 15.10.2026: 1,45 kg"
+  },
+  {
+   "pattern": "^BOSE Soundlink Max(\\s*-.*)?$",
+   "kg": 2.13,
+   "note": "cenník BaSys 15.10.2026: 2,13 kg"
+  },
+  {
+   "pattern": "SoundLink Home",
+   "kg": 0.9,
+   "note": "cenník BaSys 15.10.2026: 0,9 kg"
+  },
+  {
+   "pattern": "QC Ultra Headphones 2nd Gen",
+   "kg": 0.25,
+   "note": "cenník BaSys 15.10.2026: 250 g"
+  },
+  {
+   "pattern": "Quietcomfort Headphones 2nd Gen",
+   "kg": 0.227,
+   "note": "cenník BaSys 15.10.2026: 227 g"
+  },
+  {
+   "pattern": "QuietComfort headphones",
+   "kg": 0.236,
+   "note": "iFixit: 235,9 g"
+  },
+  {
+   "pattern": "QuietComfort Ultra Earbuds",
+   "kg": 0.076,
+   "note": "2 x 8 g slúchadlá + 60 g puzdro (Bose špecifikácie)"
+  },
+  {
+   "pattern": "Ultra Open Earbuds 2nd Gen",
+   "kg": 0.062,
+   "note": "2 x 5,9 g slúchadlá + 49,9 g puzdro"
+  }
+ ]
+}
