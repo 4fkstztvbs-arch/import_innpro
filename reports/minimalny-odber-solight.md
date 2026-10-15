@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-14 21:41 UTC.
+Kontrola z 2026-10-15 10:54 UTC.
 
-Solight pri **500** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **502** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -282,6 +282,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WN51` | Solight LED nabíjacia žiarovka Camping, 100lm, Li-Ion, displ | 3 | 72 |
 | `PP50` | Solight predlžovací prívod, 5 zásuviek, biely, vypínač, 1,5m | 3 | 50 |
 | `SSV1203` | Solight HDMI kábel s Ethernetom, HDMI 1.4 A konektor - HDMI  | 3 | 100 |
+| `WL911` | Solight nočné LED svetielko so svetelným senzorom, 3000K, 23 | 3 | 60 |
 | `SSV1223` | Solight HDMI kábel s Ethernetom, HDMI 2.0 A konektor - HDMI  | 3 | 40 |
 | `1V272` | Solight LED vianočná reťaz rolničky, 10x LED, zlatá, 1,5m, 2 | 3 | 24 |
 | `TE8S` | Solight bezdrôtový senzor k meteostaniciam TE81, TE81W, TE81 | 3 | 50 |
@@ -421,6 +422,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WM-20W-Q` | Solight LED reflektor Quick, 20W, 1700lm, 4000K, IP65, čiern | 2 | 40 |
 | `1V47` | Solight LED vonkajšie cencúle, 50LED, časovač, 8 funkcií, IP | 2 | 10 |
 | `WW004` | Solight vodeodolná prepojovací krabička IP68, 1x vstup, 2x v | 2 | 125 |
+| `PF33` | Solight flexo šnúra, 2x 1,5mm2, gumová, čierna, 5m | 2 | 10 |
 | `WM701` | Solight sieťový adaptér pre LED pásiky, 230V - 12V, 2A, 24W, | 2 | 100 |
 | `5O10` | Solight držiak DVB-T a internetové antény na stenu, dĺžka 25 | 2 | 1 |
 | `PP04` | Solight predlžovací prívod, 3 zásuvky, biely, 5m | 2 | 40 |

@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — solight — 2026-10-14
+# Cenové anomálie vynechané z feedu — solight — 2026-10-15
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
