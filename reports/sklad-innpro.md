@@ -1,6 +1,6 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-15 21:08 UTC.
+Kontrola z 2026-10-15 21:36 UTC.
 
 Produktov v full.xml: **7311**, z toho 5729 má záznam aj v light.xml.
 Dostupnosť: Skladom 5701, ostatné 1610 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
@@ -34,7 +34,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `019954` | Príslušenstvo Puluz Ultimate Combo Kits pre športové ka | Skladom | 130 | 03.11.2026 |
 | `019957` | Sada 20 kusov príslušenstva Puluz pre športové kamery ( | Skladom | 57 | 24.11.2026 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | Skladom | 64 | 27.10.2026 |
-| `020510` | Nočné svetlo so senzorom Yeelight Sensor Plug-in | Skladom | 6951 | 24.11.2026 |
+| `020510` | Nočné svetlo so senzorom Yeelight Sensor Plug-in | Skladom | 6949 | 24.11.2026 |
 | `022727` | Fotografický beztienový svetelný panel Puluz PU5138 100 | Skladom | 77 | 03.11.2026 |
 | `021910` | Náhradné filtre + špongia + pumpička Petoneer (3 ks) | Skladom | 528 | 20.10.2026 |
 | `022610` | Inteligentný spínač WiFi + RF 433 Sonoff RF R2 (NOVINKA | Dostupné od 23.10.2026 | null | 23.10.2026 |
@@ -190,7 +190,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `041722` | Dvojitá stojacia lampa s diaľkovým ovládaním BlitzWill  | Skladom | 86 | 03.11.2026 |
 | `040791` | Zvukový zosilňovač Blitzwolf AS-22, 45 W, Bluetooth 5.0 | Skladom | 536 | 20.10.2026 |
 | `038163` | Záhradná solárna lampa Superfire FF16-A, 600 mAh | Skladom | 44 | 22.12.2026 |
-| `042427` | Univerzálny prísavný držiak TELESIN s držiakom na telef | Skladom | 106 | 20.11.2026 |
+| `042427` | Univerzálny prísavný držiak TELESIN s držiakom na telef | Skladom | 105 | 20.11.2026 |
 | `042421` | TELESIN Vodotesné puzdro pre DJI Action 3/4/5 | Dostupné od 20.11.2026 | null | 20.11.2026 |
 | `038833` | Svetlomet Superfire HL31, typ C | Skladom | 103 | 22.12.2026 |
 | `038828` | Baterka Superfire MX16 – 600 lm, 500 mAh, USB-C, 4 reži | Skladom | 181 | 22.12.2026 |
