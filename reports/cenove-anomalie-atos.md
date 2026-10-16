@@ -1,25 +1,23 @@
-# Cenové anomálie vynechané z feedu — atos — 2026-10-15
+# Cenové anomálie vynechané z feedu — atos — 2026-10-16
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
 | Kód | EAN | Názov | Dôvod | Referenčná cena | Nová cena | Pomer | Vzorka |
 |---|---|---|---|---:|---:|---:|---:|
-| IST-DBSKAIR0011 | 8595689802837 | Kaon MZ-52 - DOTOVANÝ PŘIJÍMAČ | nulová/neplatná cena |  | 0.00 € |  |  |
-| TIP-03040092 | 8595563712887 | Pásek stahovací standard  200x3.5mm  bílá | nulová/neplatná cena |  | 0.00 € |  |  |
-| ELE-1000427 | 8595177500108 | Vrut (ZH) kříž 3x13 zapuštěná hlava | nulová/neplatná cena |  | 0.00 € |  |  |
-| ELE-1000426 | 8592679617884 | Vrut (PH) combi 3x16 půlkulatá hlava | nulová/neplatná cena |  | 0.00 € |  |  |
-| TIP-03040081 | 8595563712832 | Pásek stahovací standard  150x3.5mm  černý | nulová/neplatná cena |  | 0.00 € |  |  |
-| TIP-03040082 | 8595563716595 | Pásek stahovací standard  150x3.5mm  přírodní | nulová/neplatná cena |  | 0.00 € |  |  |
 | ELE-1000428 | 8595177530136 | Vrut (PZ) kříž 3x13 půlkulatá hlava | nulová/neplatná cena |  | 0.00 € |  |  |
-| TOC-SX1182 | 8595697702914 | Multifunkční sada k demontáži čalounění a interiéru MECHANIC TRIM SET 38, 38ks S | nulová/neplatná cena |  | 0.00 € |  |  |
-| TIP-03040090 | 8595563712870 | Pásek stahovací standard  200x3.5mm  černý * | nulová/neplatná cena |  | 0.00 € |  |  |
 | INSPRICH6 | 8595563712993 | Příchytka kabelová 6 mm bílá | nulová/neplatná cena |  | 0.00 € |  |  |
 | INSPRICH7 | 8595563716526 | Příchytka kabelová 7 mm bílá | nulová/neplatná cena |  | 0.00 € |  |  |
-| TIP-08851033 | 2990101036139 | Autodiagnostika SIXTOL V302 V-checker profi VW group | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 125.00 € | 9.7x | 52 |
-| ATO-N350I | 8596425212491 | Solární kabel 2m prodlužovací H1Z2Z2-K, 4mm2, červený+černý s konektory MC4 | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 8.30 € | 8.3x | 31 |
+| IST-DBSKAIR0011 | 8595689802837 | Kaon MZ-52 - DOTOVANÝ PŘIJÍMAČ | nulová/neplatná cena |  | 0.00 € |  |  |
+| TIP-03040082 | 8595563716595 | Pásek stahovací standard  150x3.5mm  přírodní | nulová/neplatná cena |  | 0.00 € |  |  |
+| ELE-1000427 | 8595177500108 | Vrut (ZH) kříž 3x13 zapuštěná hlava | nulová/neplatná cena |  | 0.00 € |  |  |
+| TOC-SX1182 | 8595697702914 | Multifunkční sada k demontáži čalounění a interiéru MECHANIC TRIM SET 38, 38ks S | nulová/neplatná cena |  | 0.00 € |  |  |
+| TIP-03040081 | 8595563712832 | Pásek stahovací standard  150x3.5mm  černý | nulová/neplatná cena |  | 0.00 € |  |  |
+| ELE-1000426 | 8592679617884 | Vrut (PH) combi 3x16 půlkulatá hlava | nulová/neplatná cena |  | 0.00 € |  |  |
+| ATO-N350 | 8596425124480 | Solární kabel  H1Z2Z2-K, 4mm2, červený+černý s konektory MC-4, 2m | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 8.30 € | 8.3x | 31 |
 | SPR-FVEBB31AB | 5901122682608 | Konektor MC4 pro solární panely, rozbočení 3 panely, pár /T4/ | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 13.00 € | 13.0x | 31 |
 | SPR-FVEBB41AB | 5901122682615 | Konektor MC4 pro solární panely, rozbočení 4 panely, pár /T5/ | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 15.50 € | 15.5x | 31 |
-| ATO-N350 | 8596425124480 | Solární kabel  H1Z2Z2-K, 4mm2, červený+černý s konektory MC-4, 2m | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 8.30 € | 8.3x | 31 |
+| ATO-N350I | 8596425212491 | Solární kabel 2m prodlužovací H1Z2Z2-K, 4mm2, červený+černý s konektory MC4 | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 8.30 € | 8.3x | 31 |
+| TIP-08851033 | 2990101036139 | Autodiagnostika SIXTOL V302 V-checker profi VW group | cena mimo 8x rozsah mediánu kategórie | 12.90 € | 125.50 € | 9.7x | 52 |
 | ATO-N350J | 8596425212507 | Solární kabel 3m prodlužovací H1Z2Z2-K, 4mm2, červený+černý s konektory MC4 | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 11.00 € | 11.0x | 31 |
 | ATO-N350K | 8596425212514 | Solární kabel 5m prodlužovací H1Z2Z2-K, 4mm2, červený+černý s konektory MC4 | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 15.50 € | 15.5x | 31 |
 | ATO-N350L | 8596425212521 | Solární kabel 10m prodlužovací H1Z2Z2-K, 4mm2, červený+černý s konektory MC4 | cena mimo 8x rozsah mediánu kategórie | 1.00 € | 27.00 € | 27.0x | 31 |
