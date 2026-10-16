@@ -1,0 +1,24 @@
+/* PremiumStore – objednávka krok 1: zvýraznenie dopravy, kde chýba výdajné miesto. */
+body.in-krok-1 #order-shipping-methods .radio-wrapper.ps-pickup-needed {
+  border-color: #c0392b !important;
+  box-shadow: 0 0 0 3px rgba(192, 57, 43, .18);
+}
+body.in-krok-1 .ps-pickup-hint {
+  margin: 8px 14px 12px;
+  color: #a5281b;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* Odkaz na výber miesta ako zreteľné tlačidlo (väčšia plocha pre dotyk). */
+body.in-krok-1 #order-shipping-methods .sublabel.new-widget-choose a {
+  display: inline-block;
+  min-height: 36px;
+  line-height: 36px;
+  padding: 0 14px;
+  margin-top: 4px;
+  border: 1.5px solid #167450;
+  border-radius: 8px;
+  color: #167450;
+  font-weight: 700;
+  text-decoration: none;
+}
