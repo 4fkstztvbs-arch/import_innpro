@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — wiim — 2026-10-15
+# Cenové anomálie vynechané z feedu — wiim — 2026-10-16
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
