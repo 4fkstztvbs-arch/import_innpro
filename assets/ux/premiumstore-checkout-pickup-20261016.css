@@ -92,3 +92,11 @@ html body.ordering-process #order-form .radio-wrapper input[type="radio"] + labe
 body.in-krok-1 #order-shipping-methods .sublabel a.ps-pickup-btn { min-height: 26px; line-height: 26px; }
 /* Okno „Pridané do košíka“: odznak „Doprava zadarmo“ prekrýval fotky ďalších produktov. */
 #colorbox .flag-freeshipping { display: none !important; }
+/* Mobil: voľby dopravy a platby bez log a bez ? ikony (názov a odkaz na výber miesta sa nezalamujú do troch riadkov). */
+@media (max-width: 767px) {
+  html body.ordering-process #order-form .radio-wrapper > label .payment-logo { display: none !important; }
+  html body.ordering-process #order-form .radio-wrapper .payment-info .question-tooltip { display: none !important; }
+  html body.ordering-process #order-form .radio-wrapper .payment-info .sublabel a { white-space: nowrap !important; }
+  html body.ordering-process #order-form .radio-wrapper input[type="radio"] + label { padding-left: 30px !important; }
+  html body.ordering-process #order-form .radio-wrapper .payment-shipping-price { white-space: nowrap; }
+}
