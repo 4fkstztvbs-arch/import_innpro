@@ -23,19 +23,43 @@ const MAX_SPECS = parseInt(process.env.KB_MAX_SPECS || '40', 10);
 // threshold is far safer for shipping-cost matching than leaving them unweighted (which would
 // otherwise fall into a lighter, cheaper tier than what the carrier will actually charge for).
 const DEFAULT_WEIGHT_KG = parseFloat(process.env.KB_DEFAULT_WEIGHT_KG || '16');
-const DEFAULT_WEIGHT_CATEGORIES = ['Veľké spotrebiče', 'Vstavané spotrebiče'];
+// 'Veľké domáce spotrebiče' je aktuálny názov stromu (po zjednotení kategórií, "Domáce spotrebiče
+// a domácnosť > Veľké domáce spotrebiče"); staré názvy ostávajú pre prípad starších feedov.
+// Bez nového názvu sa 16 kg prestalo dopĺňať a produkty zostali bez hmotnosti.
+const DEFAULT_WEIGHT_CATEGORIES = ['Veľké domáce spotrebiče', 'Veľké spotrebiče', 'Vstavané spotrebiče'];
 // Small accessory/spare-part sub-branches under those two categories (hoses, filters, anti-
 // vibration pads...) are excluded — they weigh grams, not kilos, and a blanket 16kg would badly
 // overcharge shipping on them.
 const ACCESSORY_BRANCH_WORDS = ['príslušenstvo', 'filtre', 'chladiace tašky a boxy'];
 
+// Príslušenstvo býva zaradené priamo v kategóriách Práčky/Chladničky/..., takže ho nepoznáme
+// podľa kategórie, ale podľa názvu (hadice, podložky, filtre, gule do sušičky, medzikusy...).
+const ACCESSORY_NAME_RE = /\bhadic|\bhadice|podložk|podlozk|podstavec|\bfiltre?\b|\bguľ|\bgule\b|\bloptič|medzikus|stohovac|stohovan|\bvreck|čistič|cistic|odvápň|doštičk|upevň|set odtok|antivibra|tlmiac|tlumic/i;
+
 function needsDefaultWeight(item) {
   if (item.includes('<LOGISTIC>')) return false;
+  const nameMatch = item.match(/<NAME>(?:<!\[CDATA\[)?([^<\]]*)/);
+  if (nameMatch && ACCESSORY_NAME_RE.test(nameMatch[1])) return false;
   const categoryLines = [...item.matchAll(/<CATEGORY><!\[CDATA\[([^\]]*)\]\]><\/CATEGORY>/g)].map((m) => m[1]);
   const relevant = categoryLines.filter((c) => DEFAULT_WEIGHT_CATEGORIES.some((cat) => c.includes(`> ${cat} >`) || c.endsWith(`> ${cat}`)));
   if (relevant.length === 0) return false;
   const isAccessory = categoryLines.some((c) => ACCESSORY_BRANCH_WORDS.some((w) => c.toLowerCase().includes(w)));
   return !isAccessory;
+}
+
+// data/kb-weight-overrides.csv (code;weight_kg;...): ručne overené hmotnosti (kg) podľa <CODE>
+// v kb.xml (kód bez prefixu "KB_"). Chýbajúci súbor nie je chyba.
+function loadWeightOverrides() {
+  const file = process.env.KB_WEIGHT_OVERRIDES || 'data/kb-weight-overrides.csv';
+  const map = new Map();
+  if (!fs.existsSync(file)) return map;
+  const lines = fs.readFileSync(file, 'utf8').replace(/^﻿/, '').split(/\r?\n/).slice(1);
+  for (const line of lines) {
+    const [code, kg] = line.split(';');
+    const n = parseFloat(String(kg || '').replace(',', '.'));
+    if (code && n > 0) map.set(code.trim(), n);
+  }
+  return map;
 }
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
@@ -53,11 +77,21 @@ async function main() {
   console.log(`  -> ${icecat.size} products with usable Icecat data (matched, free tier)`);
 
   console.log('Streaming existing kb.xml and enriching by EAN...');
-  const stats = { total: 0, matched: 0, weightAdded: 0, imagesAdded: 0, energyLabelAdded: 0, specsAdded: 0, defaultWeightApplied: 0 };
+  const stats = { total: 0, matched: 0, weightAdded: 0, weightOverridden: 0, imagesAdded: 0, energyLabelAdded: 0, specsAdded: 0, defaultWeightApplied: 0 };
   const outParts = ['<?xml version="1.0" encoding="utf-8"?>', '<SHOP>'];
+
+  const weightOverrides = loadWeightOverrides();
+  console.log(`  -> ${weightOverrides.size} manual weight overrides`);
 
   await streamRecords(XML_IN, 'SHOPITEM', (rawXml) => {
     stats.total++;
+    // Manuálne overená hmotnosť má prednosť pred Icecatom aj pred štandardnými 16 kg.
+    const codeMatch = rawXml.match(/<CODE>([^<]*)<\/CODE>/);
+    const overrideKg = codeMatch ? weightOverrides.get(codeMatch[1].trim()) : null;
+    if (overrideKg && !rawXml.includes('<LOGISTIC>')) {
+      rawXml = rawXml.replace('<CURRENCY>', `<LOGISTIC><WEIGHT>${xmlNum(overrideKg)}</WEIGHT></LOGISTIC>\n<CURRENCY>`);
+      stats.weightOverridden++;
+    }
     const eanMatch = rawXml.match(/<EAN>([^<]*)<\/EAN>/);
     const ean = eanMatch ? eanMatch[1].trim() : '';
     const data = ean ? icecat.get(ean) : null;
@@ -76,7 +110,7 @@ async function main() {
 
     // 1) weight — K-B's own output never includes LOGISTIC/WEIGHT, so insert a new block
     //    right before <CURRENCY> (a tag every SHOPITEM always has).
-    if (data.weightKg > 0) {
+    if (data.weightKg > 0 && !item.includes('<LOGISTIC>')) {
       item = item.replace('<CURRENCY>', `<LOGISTIC><WEIGHT>${xmlNum(data.weightKg)}</WEIGHT></LOGISTIC>\n<CURRENCY>`);
       stats.weightAdded++;
     } else if (needsDefaultWeight(item)) {
