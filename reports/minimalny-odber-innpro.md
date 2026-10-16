@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-15 21:48 UTC.
+Kontrola z 2026-10-16 08:35 UTC.
 
-InnPro pri **369** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **370** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -43,10 +43,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
 | `029282` | Baterka Superfire S33-A – USB, čierna, 4 režimy | — | 5 |
 | `030322` | Baseus Crystal Shine kábel USB na Lightning, 2,4A, 1,2 m (mo | — | 5 |
+| `030381` | Baseus Dynamic kábel USB na Lightning, 2,4 A, 2 m (fialový) | — | 5 |
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 4 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `033419` | Mäkká kefa pre Dreame V10 Pro | — | 5 |
-| `032796` | Počítačový ventilátor Darkflash CL12 LED (120x120) | — | 5 |
 | `035753` | Kryt kefy pre vysávač Dreame Z10 Pro | — | 2 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
@@ -67,6 +67,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `041716` | Držiak telefónu Puluz | — | 5 |
 | `043028` | Stojan Sonoff NSPanel (biely) | — | 5 |
 | `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 5 |
+| `038164` | Solárna lampa Superfire FF6-B, 33W, 220lm, 1200mAh | — | 5 |
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
 | `044846` | Joyroom JR-14H5 priehľadné magnetické puzdro pre iPhone 14 | — | 3 |
@@ -168,7 +169,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `070768` | Thermal labels Niimbot stickers 50x70 mm - 100 pcs. White | — | 5 |
 | `069478` | EVA protective case for Insta360 X4 / X5 | — | 5 |
 | `070619` | Telesin plastic mounting frame for Insta360 X4 | — | 5 |
-| `070827` | Superfire HL96 headlamp flashlight | — | 5 |
 | `070636` | TELESIN Stand for DJI Osmo Pocket 3 | — | 5 |
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
@@ -184,7 +184,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `069351` | Decorative cover / cap for T5 SONOFF Star 1C touch switch | — | 5 |
 | `069352` | Decorative cover / cap for T5 SONOFF Star 2C touch switch | — | 5 |
 | `071272` | Senzorové nočné svetlo Yeelight Lite | — | 5 |
-| `073741` | Butterfly Sunnylife NE-SN908 ochranné puzdro pre NEO s karab | — | 5 |
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
 | `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
@@ -194,6 +193,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `075568` | Filtre Rojeco pre 2,5 l bezdrôtové vodné fontány 50 | — | 5 |
 | `075569` | Rojeco Filtre pre dávkovač vody pre domáce zvieratá 2600mAh  | — | 5 |
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
+| `076536` | Sunnylife mini ochranné puzdro FP-SN953-C pre DJI FLIP (oran | — | 5 |
 | `076565` | Sunnylife mini B977-GY ochranné puzdro pre RC ovládače DJI ( | — | 5 |
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
 | `077573` | Ochranné puzdro Sunnylife s popruhom pre Osmo Pocket 3 (čier | — | 5 |
@@ -224,6 +224,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080664` | PULUZ silikónový kryt objektívu DJI Osmo 360 (čierny) | — | 5 |
 | `080679` | Telesin DJI Osmo 360 sada ochranných skiel | — | 5 |
 | `080742` | Sunnylife BK03 rýchloupínač pre OP 3 (čierny) | — | 5 |
+| `080739` | Ochranné puzdro Sunnylife s popruhom a šnúrkou pre Osmo Pock | — | 5 |
 | `080731` | Torba Sunnylife pre OSMO 360 | — | 5 |
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
 | `080587` | Rám pre trojitý prepínač Orb SONOFF EF3G | — | 5 |
@@ -232,7 +233,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `081548` | Silikónový opasok Sunnylife pre zariadenie Osmo Nano (čierny | — | 5 |
 | `081528` | Etui na batérii Sunnylife Mini 5 Pro (na 3 batérie) | — | 5 |
 | `081549` | Sunnylife G031 plastový kryt objektívu pre OSMO 360 | — | 5 |
-| `081550` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 | — | 5 |
 | `081553` | Sunnylife SN027 polootvorené plastové ochranné puzdro (čiern | — | 5 |
 | `082306` | Ochranné sklo 2 v 1 (displej + objektív) PULUZ pre Insta360  | — | 5 |
 | `082307` | Puzdro EVA PULUZ Mini pre Insta360 GO Ultra (čierne) | — | 5 |
@@ -254,6 +254,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083367` | Taška Sunnylife pre Action 6 (oranžová) | — | 5 |
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
+| `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
 | `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 5 |
 | `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
 | `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 5 |
