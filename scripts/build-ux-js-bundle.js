@@ -19,7 +19,7 @@ const SOURCES = [
   'premiumstore-checkout-20261009.js',
   'premiumstore-category-20261009.js',
   'premiumstore-search-assist-20261009.js',
-  'premiumstore-search-20261009.js', 'premiumstore-trust-20261009.js',
+  'premiumstore-search-20261009.js', 'premiumstore-search-bestseller-20261016.js', 'premiumstore-trust-20261009.js',
   'premiumstore-checkout-pickup-20261016.js',
   'premiumstore-pdp-pilot-20261016.js'
 ];
