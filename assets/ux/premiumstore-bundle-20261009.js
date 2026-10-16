@@ -2989,7 +2989,8 @@ try {
 try {
 /* PremiumStore – pilot produktovej stránky „Svetlý retail“ (návrh 1).
    Zapína sa len s ?ps_pilot=1 (zapamätá sa v prehliadači; ?ps_pilot=0 ho vypne), alebo pre všetkých,
-   ak je PILOT_ALL = true. Mení iba vzhľad a poradie: kľúčové parametre pri cene, jeden riadok istôt
+   ak je PILOT_ALL = true. Trieda html.ps-pilot-on sa nastavuje už v HEAD (malý skript), aby sa vzhľad
+   nemenil až po načítaní; html.ps-pilot-ready zruší rezervované miesto pre vložené bloky. Mení iba vzhľad a poradie: kľúčové parametre pri cene, jeden riadok istôt
    namiesto štyroch blokov, kontakt (telefón, e-mail) a „V balení“ ako zbaliteľný blok.
    Nahrádza, nepridáva: pôvodný blok istôt a odznak „Doprava zadarmo“ na fotke sa v pilote skryjú. */
 (function () {
@@ -3009,6 +3010,9 @@ try {
   }
   if (!on) return;
   document.body.classList.add('ps-pilot-pdp');
+  document.documentElement.classList.add('ps-pilot-on');
+  var ready = function () { document.documentElement.classList.add('ps-pilot-ready'); };
+  setTimeout(ready, 3000);
 
   var SKIP = /^(v[ýy]robca|model|k[óo]d|ean|zna[čc]ka|kateg[óo]ria|hmotnos[ťt]|rozmery|materi[áa]l|farba|z[áa]ruka|jazyk|obsah|balenie|rozmer)/i;
   var ICON = {
@@ -3080,8 +3084,8 @@ try {
       k.innerHTML = kp.map(function (p) {
         return '<div role="listitem"><b>' + esc(p[1]) + '</b><span>' + esc(p[0]) + '</span></div>';
       }).join('');
-      if (ship && ship.parentNode) ship.parentNode.insertBefore(k, ship.nextSibling);
-      else cart.parentNode.insertBefore(k, cart);
+      // Pod tlačidlom, aby sa tlačidlo „Do košíka“ po načítaní neposúvalo.
+      cart.parentNode.insertBefore(k, pay || cart.nextSibling);
     }
 
     var anchor = pay || cart;
@@ -3113,9 +3117,9 @@ try {
 
   var tries = 0;
   (function run() {
-    if (build() && document.querySelector('.ps-ship')) return;
+    if (build() && document.querySelector('.ps-ship')) { ready(); return; }
     if (++tries < 12) setTimeout(run, 250);
-    else build();
+    else { build(); ready(); }
   })();
 })();
 

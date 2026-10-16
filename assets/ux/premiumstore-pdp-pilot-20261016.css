@@ -1,45 +1,48 @@
-/* PremiumStore – pilot produktovej stránky „Svetlý retail“. Platí len s triedou body.ps-pilot-pdp. */
-body.ps-pilot-pdp .p-detail-inner-header h1 { font-size: 28px; line-height: 1.15; letter-spacing: -.01em; }
-body.ps-pilot-pdp .p-image .flag-freeshipping { display: none !important; }
-body.ps-pilot-pdp .p-image-wrapper { border-radius: 16px; }
+/* PremiumStore – pilot produktovej stránky „Svetlý retail“. Platí len s triedou html.ps-pilot-on body.type-detail. */
+html.ps-pilot-on body.type-detail .p-detail-inner-header h1 { font-size: 28px; line-height: 1.15; letter-spacing: -.01em; }
+html.ps-pilot-on body.type-detail .p-image .flag-freeshipping { display: none !important; }
+html.ps-pilot-on body.type-detail .p-image-wrapper { border-radius: 16px; }
+/* Rezerva pre vložené bloky (pod tlačidlom), kým sa nevytvoria: bez posunu obsahu */
+html.ps-pilot-on:not(.ps-pilot-ready) body.type-detail #product-detail-form { padding-bottom: 250px; }
+@media (max-width: 767px) { html.ps-pilot-on:not(.ps-pilot-ready) body.type-detail #product-detail-form { padding-bottom: 340px; } }
 /* Istoty: jeden riadok namiesto štyroch blokov */
-body.ps-pilot-pdp .benefitBanner.position--benefitProduct { display: none !important; }
-body.ps-pilot-pdp .ps-trust { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 12px 0 0; padding-top: 12px; border-top: 1px solid #dbe4e2; font-size: 12.5px; color: #0e151c; }
-body.ps-pilot-pdp .ps-trust span { display: inline-flex; align-items: center; gap: 6px; }
-body.ps-pilot-pdp .ps-pic { width: 16px; height: 16px; flex: none; fill: none; stroke: #167450; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+html.ps-pilot-on body.type-detail .benefitBanner.position--benefitProduct { display: none !important; }
+html.ps-pilot-on body.type-detail .ps-trust { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 12px 0 0; padding-top: 12px; border-top: 1px solid #dbe4e2; font-size: 12.5px; color: #0e151c; }
+html.ps-pilot-on body.type-detail .ps-trust span { display: inline-flex; align-items: center; gap: 6px; }
+html.ps-pilot-on body.type-detail .ps-pic { width: 16px; height: 16px; flex: none; fill: none; stroke: #167450; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
 /* Platby: obyčajný text namiesto odznakov */
-body.ps-pilot-pdp .ps-pay { margin: 10px 0 0; gap: 2px 8px; }
-body.ps-pilot-pdp .ps-pay__label { font-size: 12px; font-weight: 500; color: #5a6a6e; }
-body.ps-pilot-pdp .ps-pay__list { gap: 2px 8px; }
-body.ps-pilot-pdp .ps-pay__item { min-height: 0; padding: 0; border: 0; border-radius: 0; background: none; font-size: 12px; font-weight: 600; color: #26332d; }
-body.ps-pilot-pdp .ps-pay__item:not(:last-child)::after { content: "·"; margin-left: 8px; color: #8a9a97; font-weight: 400; }
-body.ps-pilot-pdp .ps-pay__mc { display: none; }
-body.ps-pilot-pdp .ps-pay__item--visa span { font-style: normal; text-transform: none; color: inherit; letter-spacing: 0; font-weight: 600; }
-body.ps-pilot-pdp .ps-pay__item--qr span::before { content: none; }
+html.ps-pilot-on body.type-detail .ps-pay { margin: 10px 0 0; gap: 2px 8px; }
+html.ps-pilot-on body.type-detail .ps-pay__label { font-size: 12px; font-weight: 500; color: #5a6a6e; }
+html.ps-pilot-on body.type-detail .ps-pay__list { gap: 2px 8px; }
+html.ps-pilot-on body.type-detail .ps-pay__item { min-height: 0; padding: 0; border: 0; border-radius: 0; background: none; font-size: 12px; font-weight: 600; color: #26332d; }
+html.ps-pilot-on body.type-detail .ps-pay__item:not(:last-child)::after { content: "·"; margin-left: 8px; color: #8a9a97; font-weight: 400; }
+html.ps-pilot-on body.type-detail .ps-pay__mc { display: none; }
+html.ps-pilot-on body.type-detail .ps-pay__item--visa span { font-style: normal; text-transform: none; color: inherit; letter-spacing: 0; font-weight: 600; }
+html.ps-pilot-on body.type-detail .ps-pay__item--qr span::before { content: none; }
 /* Kľúčové parametre pri cene */
-body.ps-pilot-pdp .ps-kp { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 0 0 14px; }
-body.ps-pilot-pdp .ps-kp div { background: #f4f8f6; border-radius: 10px; padding: 9px 10px; line-height: 1.25; min-width: 0; }
-body.ps-pilot-pdp .ps-kp b { display: block; font-size: 14px; color: #0e151c; overflow-wrap: anywhere; }
-body.ps-pilot-pdp .ps-kp span { font-size: 11.5px; color: #5a6a6e; }
+html.ps-pilot-on body.type-detail .ps-kp { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 0 0 14px; }
+html.ps-pilot-on body.type-detail .ps-kp div { background: #f4f8f6; border-radius: 10px; padding: 9px 10px; line-height: 1.25; min-width: 0; }
+html.ps-pilot-on body.type-detail .ps-kp b { display: block; font-size: 14px; color: #0e151c; overflow-wrap: anywhere; }
+html.ps-pilot-on body.type-detail .ps-kp span { font-size: 11.5px; color: #5a6a6e; }
 /* Cena, množstvo a tlačidlo */
-body.ps-pilot-pdp .p-to-cart-block { background: transparent; padding: 0; }
-body.ps-pilot-pdp .price-final { font-size: 30px; letter-spacing: -.02em; }
-body.ps-pilot-pdp .add-to-cart-button { border-radius: 12px; box-shadow: 0 6px 16px rgba(22, 116, 80, .28); }
-body.ps-pilot-pdp .add-to-cart .quantity { border-radius: 10px; overflow: hidden; }
+html.ps-pilot-on body.type-detail .p-to-cart-block { background: transparent; padding: 0; }
+html.ps-pilot-on body.type-detail .price-final { font-size: 30px; letter-spacing: -.02em; }
+html.ps-pilot-on body.type-detail .add-to-cart-button { border-radius: 12px; box-shadow: 0 6px 16px rgba(22, 116, 80, .28); }
+html.ps-pilot-on body.type-detail .add-to-cart .quantity { border-radius: 10px; overflow: hidden; }
 /* Kontakt a V balení */
-body.ps-pilot-pdp .ps-exp { display: flex; align-items: center; gap: 12px; margin: 14px 0 0; padding: 12px 14px; border: 1.5px solid #dbe4e2; border-radius: 12px; }
-body.ps-pilot-pdp .ps-exp__av { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border-radius: 50%; background: #e6f2ec; }
-body.ps-pilot-pdp .ps-exp__av .ps-pic { width: 18px; height: 18px; }
-body.ps-pilot-pdp .ps-exp b { display: block; font-size: 14px; }
-body.ps-pilot-pdp .ps-exp small { display: block; color: #5a6a6e; font-size: 12.5px; }
-body.ps-pilot-pdp .ps-exp a { color: inherit; text-decoration: none; }
-body.ps-pilot-pdp .ps-exp small a { text-decoration: underline; }
-body.ps-pilot-pdp .ps-pack { margin: 10px 0 0; border: 1.5px solid #dbe4e2; border-radius: 12px; padding: 0 14px; font-size: 13px; }
-body.ps-pilot-pdp .ps-pack summary { cursor: pointer; padding: 11px 0; font-weight: 700; }
-body.ps-pilot-pdp .ps-pack ul { margin: 0 0 12px; padding-left: 18px; color: #34454a; }
+html.ps-pilot-on body.type-detail .ps-exp { display: flex; align-items: center; gap: 12px; margin: 14px 0 0; padding: 12px 14px; border: 1.5px solid #dbe4e2; border-radius: 12px; }
+html.ps-pilot-on body.type-detail .ps-exp__av { display: grid; place-items: center; flex: none; width: 38px; height: 38px; border-radius: 50%; background: #e6f2ec; }
+html.ps-pilot-on body.type-detail .ps-exp__av .ps-pic { width: 18px; height: 18px; }
+html.ps-pilot-on body.type-detail .ps-exp b { display: block; font-size: 14px; }
+html.ps-pilot-on body.type-detail .ps-exp small { display: block; color: #5a6a6e; font-size: 12.5px; }
+html.ps-pilot-on body.type-detail .ps-exp a { color: inherit; text-decoration: none; }
+html.ps-pilot-on body.type-detail .ps-exp small a { text-decoration: underline; }
+html.ps-pilot-on body.type-detail .ps-pack { margin: 10px 0 0; border: 1.5px solid #dbe4e2; border-radius: 12px; padding: 0 14px; font-size: 13px; }
+html.ps-pilot-on body.type-detail .ps-pack summary { cursor: pointer; padding: 11px 0; font-weight: 700; }
+html.ps-pilot-on body.type-detail .ps-pack ul { margin: 0 0 12px; padding-left: 18px; color: #34454a; }
 @media (max-width: 767px) {
-  body.ps-pilot-pdp .p-detail-inner-header h1 { font-size: 22px; }
-  body.ps-pilot-pdp .ps-kp { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  body.ps-pilot-pdp .price-final { font-size: 26px; }
+  html.ps-pilot-on body.type-detail .p-detail-inner-header h1 { font-size: 22px; }
+  html.ps-pilot-on body.type-detail .ps-kp { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  html.ps-pilot-on body.type-detail .price-final { font-size: 26px; }
 }
-@media (prefers-reduced-motion: reduce) { body.ps-pilot-pdp * { scroll-behavior: auto !important; } }
+@media (prefers-reduced-motion: reduce) { html.ps-pilot-on body.type-detail * { scroll-behavior: auto !important; } }
