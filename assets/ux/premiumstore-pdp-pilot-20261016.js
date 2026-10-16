@@ -25,7 +25,7 @@
   var ready = function () { document.documentElement.classList.add('ps-pilot-ready'); };
   setTimeout(ready, 3000);
 
-  var SKIP = /^(v[ýy]robca|model|k[óo]d|ean|zna[čc]ka|kateg[óo]ria|hmotnos[ťt]|rozmery|materi[áa]l|farba|z[áa]ruka|jazyk|obsah|balenie|rozmer|typ|druh)/i;
+  var ALLOW = /^(procesor|cpu|ram|pam[äa][ťt]|[úu]lo[žz]isko|displej|uhlopriečka|rozl[ií]senie|v[ýy]kon|kapacita|bat[ée]ria|pripojenie|wi-?fi|bluetooth|[šs]tandard|trieda|frekvencia|nap[äa]tie|pr[ií]kon|dosah|sn[ií]ma[čc]|opera[čc]n[ýy] syst[ée]m|syst[ée]m|rozhranie|podpora)/i;
   var ICON = {
     shield: '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/>',
     ret: '<path d="M4 8h11a5 5 0 0 1 0 10H8"/><path d="M8 4 4 8l4 4"/>',
@@ -57,7 +57,7 @@
       if (c.length < 2) continue;
       var label = c[0].textContent.replace(/\s+/g, ' ').trim().replace(/:$/, '');
       var val = c[1].textContent.replace(/\([^)]*\)/g, '').replace(/\s+/g, ' ').trim();
-      if (!label || !val || SKIP.test(label) || val.length > 26 || val.length < 2) continue;
+      if (!label || !val || !ALLOW.test(label) || val.length > 26 || val.length < 2) continue;
       out.push([label, val]);
     }
     return out;
@@ -112,8 +112,7 @@
     exp.className = 'ps-exp';
     exp.innerHTML =
       '<span class="ps-exp__av">' + ic('phone') + '</span>' +
-      '<span><b>Poradíme: <a href="tel:+421484151999">048 415 1999</a></b>' +
-      '<small>Po–Pia 9:00–17:00 · <a href="mailto:obchod@premiumstore.sk">obchod@premiumstore.sk</a></small></span>';
+      '<span><b>Poradíme: <a href="mailto:obchod@premiumstore.sk">obchod@premiumstore.sk</a></b></span>';
     trust.parentNode.insertBefore(exp, trust.nextSibling);
 
     var pack = packItems();
