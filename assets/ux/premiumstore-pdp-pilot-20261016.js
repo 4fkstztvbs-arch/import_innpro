@@ -30,7 +30,8 @@
     shield: '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/>',
     ret: '<path d="M4 8h11a5 5 0 0 1 0 10H8"/><path d="M8 4 4 8l4 4"/>',
     store: '<path d="M4 9l1.5-5h13L20 9M4 9v10h16V9M4 9c0 2 3 2 4 0 1 2 3 2 4 0 1 2 3 2 4 0 1 2 4 2 4 0"/>',
-    phone: '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>'
+    phone: '<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/>',
+    chat: '<path d="M4 5h16v11H10l-4 4v-4H4z"/>'
   };
   function ic(n) {
     return '<svg class="ps-pic" viewBox="0 0 24 24" aria-hidden="true">' + ICON[n] + '</svg>';
@@ -108,11 +109,19 @@
       '<span>' + ic('store') + 'Predajňa Banská Bystrica</span>';
     anchor.parentNode.insertBefore(trust, anchor.nextSibling);
 
-    var exp = document.createElement('div');
+    // Jeden box „Poradíme / Opýtať sa“: otvorí natívne okno „Otázka na predajcu“ (rovnaké ako odkaz Opýtať sa).
+    var exp = document.createElement('a');
     exp.className = 'ps-exp';
+    exp.href = '#';
+    exp.setAttribute('role', 'button');
     exp.innerHTML =
-      '<span class="ps-exp__av">' + ic('phone') + '</span>' +
-      '<span><b>Poradíme: <a href="mailto:obchod@premiumstore.sk">obchod@premiumstore.sk</a></b></span>';
+      '<span class="ps-exp__av">' + ic('chat') + '</span>' +
+      '<span><b>Potrebujete poradiť?</b><small>Opýtajte sa nás</small></span>';
+    exp.addEventListener('click', function (e) {
+      e.preventDefault();
+      var n = document.querySelector('.link-icon.chat');
+      if (n) n.click(); else location.href = 'mailto:obchod@premiumstore.sk';
+    });
     trust.parentNode.insertBefore(exp, trust.nextSibling);
 
     var pack = packItems();
