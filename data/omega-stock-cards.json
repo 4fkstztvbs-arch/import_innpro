@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600575,
+    "nextCardNumber": 202600578,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3446,6 +3446,24 @@
         "nazov": "Huion Kamvas Pad 12",
         "dodavatel": "innpro",
         "code": "093039"
+      },
+      "8592718018948": {
+        "kod": "202600575",
+        "nazov": "Alkohol tester Fuel-cell, profesionálny, 0,00 - 4,",
+        "dodavatel": "solight",
+        "code": "1T06"
+      },
+      "8592718043285": {
+        "kod": "202600576",
+        "nazov": "LED kúpeľňové osvetlenie nad zrkadlo",
+        "dodavatel": "solight",
+        "code": "WO828-CR"
+      },
+      "8592718033736": {
+        "kod": "202600577",
+        "nazov": "LED reflektor Quick so senzorom, 30W, 2550lm,",
+        "dodavatel": "solight",
+        "code": "WM-30WS-Q"
       }
     }
   },
