@@ -148165,62 +148165,6 @@
   "sourceReport": "premiumstore-sk_2026-10-16_07-43.csv",
   "cantCompete": false
  },
- "5907085524887": {
-  "pricingVersion": 2,
-  "policy": {
-   "version": 2,
-   "minMarkupPct": 5,
-   "maxMarkupPct": null,
-   "competitorDiscountPct": 0,
-   "soleOfferMarkupBySupplier": {
-    "innpro.xml": 15
-   }
-  },
-  "mode": "market",
-  "action": "ZVÝŠIŤ",
-  "targetPriceInclVat": 223.9,
-  "referencePriceInclVat": 44.5,
-  "source": "innpro.xml",
-  "competitorPrices": [
-   224,
-   279
-  ],
-  "completeRanking": true,
-  "sellerCount": 3,
-  "heurekaNajnizsia": 224,
-  "heurekaUrl": "https://zavazacie-lodky.heureka.sk/flytec-v066-18-000-mah-lodna-bateria",
-  "generatedAt": "2026-10-16T05:48:50.481Z",
-  "sourceReport": "premiumstore-sk_2026-10-16_07-43.csv",
-  "cantCompete": false
- },
- "5907085524870": {
-  "pricingVersion": 2,
-  "policy": {
-   "version": 2,
-   "minMarkupPct": 5,
-   "maxMarkupPct": null,
-   "competitorDiscountPct": 0,
-   "soleOfferMarkupBySupplier": {
-    "innpro.xml": 15
-   }
-  },
-  "mode": "market",
-  "action": "ZVÝŠIŤ",
-  "targetPriceInclVat": 223.9,
-  "referencePriceInclVat": 16,
-  "source": "innpro.xml",
-  "competitorPrices": [
-   224,
-   279
-  ],
-  "completeRanking": true,
-  "sellerCount": 3,
-  "heurekaNajnizsia": 224,
-  "heurekaUrl": "https://zavazacie-lodky.heureka.sk/flytec-v066-18-000-mah-lodna-bateria",
-  "generatedAt": "2026-10-16T05:48:50.481Z",
-  "sourceReport": "premiumstore-sk_2026-10-16_07-43.csv",
-  "cantCompete": false
- },
  "8592718044169": {
   "pricingVersion": 2,
   "policy": {
