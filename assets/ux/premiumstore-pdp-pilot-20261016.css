@@ -4,7 +4,19 @@ html.ps-pilot-on body.type-detail .p-image .flag-freeshipping { display: none !i
 html.ps-pilot-on body.type-detail .p-image-wrapper { border-radius: 16px; }
 /* Rezerva pre vložené bloky (pod tlačidlom), kým sa nevytvoria: bez posunu obsahu */
 html.ps-pilot-on:not(.ps-pilot-ready) body.type-detail #product-detail-form { padding-bottom: 320px; }
-@media (max-width: 767px) { html.ps-pilot-on:not(.ps-pilot-ready) body.type-detail #product-detail-form { padding-bottom: 420px; } }
+@media (max-width: 767px) {
+  /* Mobil: menej prvkov pred popisom (parametre, platby, balenie, kód, Tlač/Zdieľať a tretia istota sa skryjú). */
+  html.ps-pilot-on body.type-detail .ps-kp,
+  html.ps-pilot-on body.type-detail .ps-pay,
+  html.ps-pilot-on body.type-detail .ps-pack,
+  html.ps-pilot-on body.type-detail .ps-trust span:nth-child(3),
+  html.ps-pilot-on body.type-detail .link-icon.print,
+  html.ps-pilot-on body.type-detail .link-icon.share,
+  html.ps-pilot-on body.type-detail .ps-code-row { display: none !important; }
+  html.ps-pilot-on body.type-detail .ps-trust { margin-top: 8px; padding-top: 8px; }
+  html.ps-pilot-on body.type-detail .ps-exp { margin-top: 8px; padding: 8px 12px; }
+  html.ps-pilot-on:not(.ps-pilot-ready) body.type-detail #product-detail-form { padding-bottom: 110px; }
+}
 /* Istoty: jeden riadok namiesto štyroch blokov */
 html.ps-pilot-on body.type-detail .benefitBanner.position--benefitProduct { display: none !important; }
 html.ps-pilot-on body.type-detail .ps-trust { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 12px 0 0; padding-top: 12px; border-top: 1px solid #dbe4e2; font-size: 12.5px; color: #0e151c; }
