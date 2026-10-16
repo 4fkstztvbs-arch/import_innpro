@@ -3004,6 +3004,28 @@ body.type-detail #product-detail-form .add-to-cart-button:focus-visible,
   .siteCookies .siteCookies__button { flex: 1 1 0; min-height: 44px; margin: 0 !important; }
 }
 
+/* Cookie lišta od 992 px: pás v strede dole (pod 992 px ostáva karta vyššie) */
+@media (min-width: 992px) {
+  .siteCookies.siteCookies--bottom {
+    left: 50% !important; right: auto !important; bottom: 20px !important;
+    transform: translateX(-50%) !important;
+    width: min(980px, calc(100vw - 48px)) !important; max-width: none !important; margin: 0 !important;
+    box-shadow: 0 10px 40px rgba(14, 21, 28, .22) !important;
+  }
+  .siteCookies .siteCookies__form {
+    flex-direction: row !important; align-items: center !important; justify-content: space-between !important;
+    gap: 28px !important; padding: 18px 24px !important;
+    width: 100% !important; max-width: none !important; margin: 0 !important; box-sizing: border-box !important;
+  }
+  .siteCookies .siteCookies__content { flex: 1 1 auto !important; min-width: 0; background: transparent !important; border-radius: 0 !important; }
+  .siteCookies .siteCookies__links { margin: 0 !important; }
+  .siteCookies .siteCookies__text { font-size: 15px !important; line-height: 1.5 !important; margin: 0 0 4px !important; }
+  .siteCookies .siteCookies__buttonWrap {
+    flex: 0 0 auto !important; flex-wrap: nowrap !important; width: auto !important; gap: 12px !important;
+  }
+  .siteCookies .siteCookies__button { flex: 0 0 auto !important; width: auto !important; min-width: 140px; height: 48px !important; padding: 0 28px !important; font-size: 15px !important; }
+}
+
 /* P2-4) Kategória (desktop): ľavý stĺpec s filtrom nelepí na okraj obrazovky */
 @media (min-width: 992px) {
   .sidebar.sidebar-left { padding-left: 20px; box-sizing: border-box; }
