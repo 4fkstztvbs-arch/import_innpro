@@ -35,24 +35,22 @@
   html body.type-index .ps-v2-brand {
     display: flex; align-items: center; justify-content: center; height: 72px; padding: 0 8px;
     border: 1px solid var(--v2-line); border-radius: 14px; background: #fff; color: var(--v2-soft); text-decoration: none;
-    transition: color .2s, transform .2s, box-shadow .2s, border-color .2s;
+    transition: color .2s, transform .2s cubic-bezier(.23, 1, .32, 1), box-shadow .2s, border-color .2s;
   }
   html body.type-index .ps-v2-brand svg { fill: currentColor; opacity: .62; transition: opacity .2s; max-width: 100%; }
-  html body.type-index .ps-v2-brand:hover, html body.type-index .ps-v2-brand:focus-visible {
+  html body.type-index .ps-v2-brand:focus-visible {
     color: var(--bc, var(--v2-ink)); transform: translateY(-3px); box-shadow: var(--v2-lift); border-color: var(--v2-line2);
   }
-  html body.type-index .ps-v2-brand:hover svg, html body.type-index .ps-v2-brand:focus-visible svg { opacity: 1; }
+  html body.type-index .ps-v2-brand:focus-visible svg { opacity: 1; }
   html body.type-index .ps-v2-brand:focus-visible { outline: 2px solid var(--v2-brand); outline-offset: 2px; }
   html body.type-index .ps-v2-brand.all { background: var(--v2-ice); border-color: transparent; color: var(--v2-brand); font-size: 13px; font-weight: 700; line-height: 16px; text-align: center; }
-  html body.type-index .ps-v2-brand.all:hover { background: var(--v2-ice2); transform: translateY(-3px); }
 
   /* ---------- karty produktov ---------- */
   html body.type-index .products-wrapper .product .p {
     position: relative; height: calc(100% - 4px); margin: 2px; padding: 16px 16px 14px; text-align: center;
     border: 1px solid var(--v2-line); border-radius: 14px; background: #fff; box-shadow: 0 1px 2px rgba(23, 40, 60, .06);
-    transition: transform .2s, box-shadow .2s;
+    transition: transform .2s cubic-bezier(.23, 1, .32, 1), box-shadow .2s;
   }
-  html body.type-index .products-wrapper .product .p:hover { transform: translateY(-3px); box-shadow: var(--v2-lift); }
   html body.type-index .products-wrapper .product .image { margin: 8px 0 12px; }
   html body.type-index .products-wrapper .product .image img { mix-blend-mode: multiply; }
   html body.type-index .products-wrapper .product .flags { position: absolute; top: 0; left: 0; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; margin: 0; z-index: 2; }
@@ -101,22 +99,37 @@
   html body.type-index .ps-v2-duo { margin: 8px 15px 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   html body.type-index .ps-v2-promo {
     position: relative; min-height: 240px; padding: 32px; border-radius: 24px; overflow: hidden; color: var(--v2-ink);
-    display: flex; flex-direction: column; justify-content: center; text-decoration: none; transition: transform .2s, box-shadow .2s;
+    display: flex; flex-direction: column; justify-content: center; text-decoration: none; transition: transform .2s cubic-bezier(.23, 1, .32, 1), box-shadow .2s;
   }
-  html body.type-index .ps-v2-promo:hover { transform: translateY(-2px); box-shadow: var(--v2-lift); color: var(--v2-ink); }
+  html body.type-index .ps-v2-promo:focus-visible { transform: translateY(-2px); box-shadow: var(--v2-lift); color: var(--v2-ink); outline: 2px solid var(--v2-brand); outline-offset: 2px; }
   html body.type-index .ps-v2-promo.ice { background: var(--v2-ice); }
   html body.type-index .ps-v2-promo.cream { background: var(--v2-cream); }
   html body.type-index .ps-v2-promo .ps-v2-copy { position: relative; z-index: 2; max-width: 56%; }
   html body.type-index .ps-v2-promo h3 { margin: 0 0 8px; font-size: 24px; line-height: 28px; font-weight: 800; letter-spacing: -.6px; color: var(--v2-ink); }
   html body.type-index .ps-v2-promo p { margin: 0 0 16px; font-size: 14px; line-height: 20px; color: var(--v2-soft); }
   html body.type-index .ps-v2-promo img { position: absolute; right: 16px; top: 50%; transform: translateY(-50%); width: 40%; max-height: 80%; object-fit: contain; mix-blend-mode: multiply; }
+  /* Zdvih pri prejdení myšou len na zariadeniach s myšou (na dotyku by ostal po klepnutí) */
+  @media (hover: hover) and (pointer: fine) {
+    html body.type-index .ps-v2-brand:hover { color: var(--bc, var(--v2-ink)); transform: translateY(-3px); box-shadow: var(--v2-lift); border-color: var(--v2-line2); }
+    html body.type-index .ps-v2-brand:hover svg { opacity: 1; }
+    html body.type-index .ps-v2-brand.all:hover { background: var(--v2-ice2); }
+    html body.type-index .products-wrapper .product .p:hover { transform: translateY(-3px); box-shadow: var(--v2-lift); }
+    html body.type-index .ps-v2-promo:hover { transform: translateY(-2px); box-shadow: var(--v2-lift); color: var(--v2-ink); }
+  }
+  /* Spätná väzba pri stlačení */
+  html body.type-index .ps-v2-brand:active, html body.type-index .ps-v2-promo:active { transform: scale(.97); }
+  html body.type-index .products-wrapper .product .add-to-cart-button, html body.type-index .products-wrapper .product .btn-cart { transition: transform 160ms cubic-bezier(.23, 1, .32, 1), background-color .15s, border-color .15s, color .15s; }
+  html body.type-index .products-wrapper .product .add-to-cart-button:active, html body.type-index .products-wrapper .product .btn-cart:active { transform: scale(.97); }
 }
 @media (min-width: 1200px) {
   html body.type-index .ps-v2-brand-row { grid-template-columns: repeat(9, minmax(0, 1fr)) 1.15fr; }
 }
 @media (min-width: 992px) and (prefers-reduced-motion: reduce) {
-  html body.type-index .ps-v2-brand, html body.type-index .products-wrapper .product .p, html body.type-index .ps-v2-promo { transition: none; }
-  html body.type-index .ps-v2-brand:hover, html body.type-index .products-wrapper .product .p:hover, html body.type-index .ps-v2-promo:hover { transform: none; }
+  html body.type-index .ps-v2-brand, html body.type-index .products-wrapper .product .p, html body.type-index .ps-v2-promo { transition: color .2s, box-shadow .2s, border-color .2s; }
+  html body.type-index .products-wrapper .product .add-to-cart-button, html body.type-index .products-wrapper .product .btn-cart { transition: background-color .15s, border-color .15s, color .15s; }
+  html body.type-index .ps-v2-brand:hover, html body.type-index .ps-v2-brand:focus-visible, html body.type-index .ps-v2-brand:active, html body.type-index .ps-v2-brand.all:hover,
+  html body.type-index .products-wrapper .product .p:hover, html body.type-index .ps-v2-promo:hover, html body.type-index .ps-v2-promo:focus-visible, html body.type-index .ps-v2-promo:active,
+  html body.type-index .products-wrapper .product .add-to-cart-button:active, html body.type-index .products-wrapper .product .btn-cart:active { transform: none; }
 }
 /* ak sa okno zúži pod 992 px po načítaní, vložené bloky sa skryjú (mobil a tablet ostávajú bez zmeny) */
 @media (max-width: 991.98px) {

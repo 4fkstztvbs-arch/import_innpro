@@ -251,3 +251,27 @@ html body.ordering-process #order-form .radio-wrapper label { margin-bottom: 0 !
 @media (min-width: 768px) {
   html body.ordering-process #order-form h2.order-icon:first-of-type { margin-top: 0 !important; }
 }
+
+/* Spätná väzba pri stlačení tlačidiel v košíku a objednávke (len transform, 160 ms) */
+body.ordering-process .next-step .btn,
+body.ordering-process .next-step--cart .btn,
+body.ordering-process .order-summary .btn,
+body.ordering-process #submit-order,
+body.ordering-process #continue-order-button,
+body.ordering-process .cart-content .btn-conversion {
+  transition: transform 160ms cubic-bezier(.23, 1, .32, 1), background-color .15s, border-color .15s, color .15s;
+}
+body.ordering-process .next-step .btn:active,
+body.ordering-process .next-step--cart .btn:active,
+body.ordering-process .order-summary .btn:active,
+body.ordering-process #submit-order:active,
+body.ordering-process #continue-order-button:active,
+body.ordering-process .cart-content .btn-conversion:active { transform: scale(.97); }
+@media (prefers-reduced-motion: reduce) {
+  body.ordering-process .next-step .btn:active,
+  body.ordering-process .next-step--cart .btn:active,
+  body.ordering-process .order-summary .btn:active,
+  body.ordering-process #submit-order:active,
+  body.ordering-process #continue-order-button:active,
+  body.ordering-process .cart-content .btn-conversion:active { transform: none; }
+}
