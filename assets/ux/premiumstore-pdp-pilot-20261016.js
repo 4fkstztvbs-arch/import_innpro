@@ -1,6 +1,6 @@
 /* PremiumStore – pilot produktovej stránky „Svetlý retail“ (návrh 1).
-   Zapína sa len s ?ps_pilot=1 (zapamätá sa v prehliadači; ?ps_pilot=0 ho vypne), alebo pre všetkých,
-   ak je PILOT_ALL = true. Trieda html.ps-pilot-on sa nastavuje už v HEAD (malý skript), aby sa vzhľad
+   Zapnuté pre všetkých (PILOT_ALL = true, 16. 10. 2026). Pri PILOT_ALL = false sa zapína len s ?ps_pilot=1
+   (zapamätá sa v prehliadači; ?ps_pilot=0 ho vypne). Trieda html.ps-pilot-on sa nastavuje už v HEAD (malý skript), aby sa vzhľad
    nemenil až po načítaní; html.ps-pilot-ready zruší rezervované miesto pre vložené bloky. Mení iba vzhľad a poradie: kľúčové parametre pri cene, jeden riadok istôt
    namiesto štyroch blokov, kontakt (telefón, e-mail) a „V balení“ ako zbaliteľný blok.
    Nahrádza, nepridáva: pôvodný blok istôt a odznak „Doprava zadarmo“ na fotke sa v pilote skryjú. */
@@ -8,7 +8,7 @@
   'use strict';
   if (!document.body || !document.body.classList.contains('type-detail')) return;
 
-  var PILOT_ALL = false;
+  var PILOT_ALL = true;
   var on = PILOT_ALL;
   try {
     var m = /[?&]ps_pilot=(\d)/.exec(location.search);
@@ -25,7 +25,7 @@
   var ready = function () { document.documentElement.classList.add('ps-pilot-ready'); };
   setTimeout(ready, 3000);
 
-  var SKIP = /^(v[ýy]robca|model|k[óo]d|ean|zna[čc]ka|kateg[óo]ria|hmotnos[ťt]|rozmery|materi[áa]l|farba|z[áa]ruka|jazyk|obsah|balenie|rozmer)/i;
+  var SKIP = /^(v[ýy]robca|model|k[óo]d|ean|zna[čc]ka|kateg[óo]ria|hmotnos[ťt]|rozmery|materi[áa]l|farba|z[áa]ruka|jazyk|obsah|balenie|rozmer|typ|druh)/i;
   var ICON = {
     shield: '<path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m8.5 12 2.5 2.5 4.5-5"/>',
     ret: '<path d="M4 8h11a5 5 0 0 1 0 10H8"/><path d="M8 4 4 8l4 4"/>',
