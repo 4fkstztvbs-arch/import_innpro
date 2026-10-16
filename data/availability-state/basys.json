@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 961,
+  "activeItemCount": 970,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -170,6 +170,11 @@
     {
       "key": "code:BASYS-B 841153-0320",
       "code": "BASYS-B 841153-0320",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 841154-0310",
+      "code": "BASYS-B 841154-0310",
       "ean": ""
     },
     {
@@ -438,6 +443,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-DEH-S120UBA",
+      "code": "BASYS-DEH-S120UBA",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-DEH-S120UBB",
       "code": "BASYS-DEH-S120UBB",
       "ean": ""
@@ -460,6 +470,16 @@
     {
       "key": "code:BASYS-DM TCE",
       "code": "BASYS-DM TCE",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-DMH-A240DAB",
+      "code": "BASYS-DMH-A240DAB",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-DMH-AF555BT",
+      "code": "BASYS-DMH-AF555BT",
       "ean": ""
     },
     {
@@ -490,6 +510,11 @@
     {
       "key": "code:BASYS-GM-A5702",
       "code": "BASYS-GM-A5702",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GM-A6704",
+      "code": "BASYS-GM-A6704",
       "ean": ""
     },
     {
@@ -613,8 +638,18 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-MVH-230BT",
+      "code": "BASYS-MVH-230BT",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-MVH-280FD",
       "code": "BASYS-MVH-280FD",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MVH-S120UBA",
+      "code": "BASYS-MVH-S120UBA",
       "ean": ""
     },
     {
@@ -625,6 +660,11 @@
     {
       "key": "code:BASYS-MVH-S120UI",
       "code": "BASYS-MVH-S120UI",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MVH-S220DAB",
+      "code": "BASYS-MVH-S220DAB",
       "ean": ""
     },
     {
@@ -708,8 +748,18 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-SPH-DA160DAB",
+      "code": "BASYS-SPH-DA160DAB",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-SPH-DA250DAB",
       "code": "BASYS-SPH-DA250DAB",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-SPH-DA77DAB",
+      "code": "BASYS-SPH-DA77DAB",
       "ean": ""
     },
     {
@@ -915,6 +965,11 @@
     {
       "key": "code:BASYS-TS-A1081F",
       "code": "BASYS-TS-A1081F",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TS-A1301C",
+      "code": "BASYS-TS-A1301C",
       "ean": ""
     },
     {
@@ -2258,11 +2313,6 @@
       "ean": "0713757158817"
     },
     {
-      "key": "ean:0713757159715",
-      "code": "BASYS-B1200D-PRO",
-      "ean": "0713757159715"
-    },
-    {
       "key": "ean:0736211844873",
       "code": "BASYS-DN9652",
       "ean": "0736211844873"
@@ -3361,11 +3411,6 @@
       "key": "ean:4033653015745",
       "code": "BASYS-TC 000-DHS01",
       "ean": "4033653015745"
-    },
-    {
-      "key": "ean:4033653015813",
-      "code": "BASYS-TC 000-DHR00",
-      "ean": "4033653015813"
     },
     {
       "key": "ean:4033653015936",
@@ -4815,11 +4860,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-B 841154-0310",
-      "code": "BASYS-B 841154-0310",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-B 841154-0320",
       "code": "BASYS-B 841154-0320",
       "ean": ""
@@ -4935,6 +4975,11 @@
       "ean": "0017817818896"
     },
     {
+      "key": "ean:0713757159715",
+      "code": "BASYS-B1200D-PRO",
+      "ean": "0713757159715"
+    },
+    {
       "key": "ean:17817846929",
       "code": "BASYS-B 881046-0010",
       "ean": "17817846929"
@@ -4943,6 +4988,11 @@
       "key": "ean:4010118004209",
       "code": "BASYS-BD 1000886",
       "ean": "4010118004209"
+    },
+    {
+      "key": "ean:4033653015813",
+      "code": "BASYS-TC 000-DHR00",
+      "ean": "4033653015813"
     },
     {
       "key": "ean:4033653024341",

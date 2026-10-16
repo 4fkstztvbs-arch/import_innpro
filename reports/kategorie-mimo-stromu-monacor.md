@@ -1,5 +1,5 @@
 # Kategórie mimo stromu — monacor
 
-Kontrola z 2026-10-16 12:36 UTC.
+Kontrola z 2026-10-16 12:40 UTC.
 
 Žiadne — všetky kategórie v tomto feede existujú v našom strome.
