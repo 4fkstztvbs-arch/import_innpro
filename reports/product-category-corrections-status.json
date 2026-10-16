@@ -1,7 +1,7 @@
 {
-  "products": 29298,
-  "matched": 795,
-  "categoryChanges": 244,
+  "products": 29403,
+  "matched": 803,
+  "categoryChanges": 23,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -1475,6 +1475,12 @@
     },
     {
       "supplier": "monacor",
+      "code": "GD-04K",
+      "ean": "8595614112956",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
       "code": "KM-24110",
       "ean": "4016842814527",
       "reason": "Changed name or category; needs review"
@@ -1483,6 +1489,12 @@
       "supplier": "monacor",
       "code": "KM-24120",
       "ean": "4016842817467",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "monacor",
+      "code": "SAM-80WIFI",
+      "ean": "8588008802168",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1589,6 +1601,12 @@
     },
     {
       "supplier": "penta",
+      "code": "54988057",
+      "ean": "8718503027630",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
       "code": "5578791",
       "ean": "8594182427318",
       "reason": "Changed name or category; needs review"
@@ -1637,6 +1655,12 @@
     },
     {
       "supplier": "penta",
+      "code": "7380440",
+      "ean": "8591680192175",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
       "code": "6552611",
       "ean": "1210002618915",
       "reason": "Changed name or category; needs review"
@@ -1672,6 +1696,66 @@
       "reason": "Changed name or category; needs review"
     },
     {
+      "supplier": "penta",
+      "code": "44720560",
+      "ean": "8594182431322",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "50698123",
+      "ean": "6935750518045",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578044",
+      "ean": "8594182431193",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578046",
+      "ean": "8594182431940",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "55787933",
+      "ean": "8594182428124",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "55787934",
+      "ean": "8594182428131",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "6025405",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "63603369",
+      "ean": "8591686131291",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526000",
+      "ean": "1210002635448",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526109",
+      "ean": "8885020627596",
+      "reason": "Changed name or category; needs review"
+    },
+    {
       "supplier": "solight",
       "code": "G06",
       "ean": "8595092102067",
@@ -1703,12 +1787,6 @@
     },
     {
       "supplier": "solight",
-      "code": "LLM-S",
-      "ean": "8592718026462",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
       "code": "SSC1301E",
       "ean": "8592718014667",
       "reason": "Changed name or category; needs review"
@@ -1721,26 +1799,8 @@
     },
     {
       "supplier": "solight",
-      "code": "PAP01",
-      "ean": "8592718030841",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
-      "code": "SSWC02",
-      "ean": "8592718042035",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
       "code": "GN14",
       "ean": "8595092102272",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
-      "code": "SSWC01",
-      "ean": "8592718042028",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1751,38 +1811,8 @@
     },
     {
       "supplier": "solight",
-      "code": "SSPB01",
-      "ean": "8592718035211",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
       "code": "1D76S",
       "ean": "8592718047986",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
-      "code": "UR02",
-      "ean": "8595092128654",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
-      "code": "DSP-DYVRTL",
-      "ean": "8592718038724",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
-      "code": "KP07B",
-      "ean": "8592718041632",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
-      "code": "DSP-DYV12ZJ",
-      "ean": "8592718038755",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1805,12 +1835,6 @@
     },
     {
       "supplier": "solight",
-      "code": "DSP-DYV8ZJTW",
-      "ean": "8592718038786",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
       "code": "1D80",
       "ean": "8592718036492",
       "reason": "Changed name or category; needs review"
@@ -1819,18 +1843,6 @@
       "supplier": "solight",
       "code": "SSN1203E",
       "ean": "8595092115401",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
-      "code": "SSWC03",
-      "ean": "8592718044121",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "solight",
-      "code": "DSP-DYV8RG",
-      "ean": "8592718038793",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -3347,36 +3359,6 @@
     },
     {
       "supplier": "penta",
-      "code": "6025405",
-      "ean": ""
-    },
-    {
-      "supplier": "penta",
-      "code": "65526000",
-      "ean": "1210002635448"
-    },
-    {
-      "supplier": "penta",
-      "code": "55787933",
-      "ean": "8594182428124"
-    },
-    {
-      "supplier": "penta",
-      "code": "55787934",
-      "ean": "8594182428131"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578046",
-      "ean": "8594182431940"
-    },
-    {
-      "supplier": "penta",
-      "code": "44720560",
-      "ean": "8594182431322"
-    },
-    {
-      "supplier": "penta",
       "code": "65526107",
       "ean": ""
     },
@@ -3384,11 +3366,6 @@
       "supplier": "penta",
       "code": "65526108",
       "ean": ""
-    },
-    {
-      "supplier": "penta",
-      "code": "65526109",
-      "ean": "8885020627596"
     },
     {
       "supplier": "wiim",
@@ -3419,21 +3396,6 @@
       "supplier": "basys",
       "code": "BASYS-B 897806-0010",
       "ean": ""
-    },
-    {
-      "supplier": "penta",
-      "code": "63603369",
-      "ean": "8591686131291"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578044",
-      "ean": "8594182431193"
-    },
-    {
-      "supplier": "penta",
-      "code": "50698123",
-      "ean": "6935750518045"
     }
   ]
 }
