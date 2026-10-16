@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 29266,
-  "matchedRules": 2128,
-  "changedProducts": 41,
+  "totalProducts": 29298,
+  "matchedRules": 2129,
+  "changedProducts": 113,
   "rejected": [
     {
       "supplier": "atos",
@@ -2651,8 +2651,8 @@
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "penta",
-      "code": "5537663",
+      "supplier": "monacor",
+      "code": "KM-210/9",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2678,61 +2678,6 @@
     {
       "supplier": "penta",
       "code": "5537661",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "52410003",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "52410008",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "52410019",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "5241002",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "554503",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "55450700",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578861",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "6025405",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "6025405",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526000",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526109",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2811,73 +2756,157 @@
   ],
   "categoryDrifts": [
     {
-      "supplier": "innpro",
-      "code": "073522",
+      "supplier": "penta",
+      "code": "65526105",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
       ],
       "approvedCurrent": [
-        "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
       ],
       "approvedProposed": [
-        "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
       ]
     },
     {
-      "supplier": "monacor",
-      "code": "KM-24110",
+      "supplier": "penta",
+      "code": "65526102",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
       ],
       "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
       ],
       "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
       ]
     },
     {
-      "supplier": "monacor",
-      "code": "KM-24120",
+      "supplier": "penta",
+      "code": "65526103",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Profesionálna audio technika > Pódium, diskotéka, DJ"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
       ],
       "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
       ],
       "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
       ]
     },
     {
-      "supplier": "monacor",
-      "code": "LIVEO-420PWH",
+      "supplier": "penta",
+      "code": "65526104",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
       ],
       "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
       ],
       "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
       ]
     },
     {
-      "supplier": "monacor",
-      "code": "LIVEO-640PBK",
+      "supplier": "penta",
+      "code": "65526100",
       "reason": "Reviewed product moved outside its approved scope",
       "feedCategories": [
-        "Profesionálna audio technika > 100 V rozhlasové ozvučenie"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
       ],
       "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
       ],
       "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "6552611",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526110",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526111",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526112",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526107",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
+      ]
+    },
+    {
+      "supplier": "penta",
+      "code": "65526108",
+      "reason": "Reviewed product moved outside its approved scope",
+      "feedCategories": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Robotické vysávače"
+      ],
+      "approvedCurrent": [
+        "Domáce spotrebiče a domácnosť > Príslušenstvo k spotrebičom"
+      ],
+      "approvedProposed": [
+        "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom"
       ]
     }
   ],
@@ -2908,7 +2937,7 @@
     },
     {
       "path": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy > Nabíjačky autobatérií",
-      "visibleUnique": 28,
+      "visibleUnique": 29,
       "active": true,
       "parent": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy"
     },
@@ -3076,19 +3105,19 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky",
-      "visibleUnique": 61,
+      "visibleUnique": 60,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické konektory",
-      "visibleUnique": 12,
+      "visibleUnique": 13,
       "active": true,
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
     {
       "path": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku > Fotovoltaické káble",
-      "visibleUnique": 51,
+      "visibleUnique": 50,
       "active": true,
       "parent": "Energia a napájanie > Fotovoltaika > Káble a konektory pre fotovoltaiku"
     },
@@ -3106,13 +3135,13 @@
     },
     {
       "path": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty > WiFi routery",
-      "visibleUnique": 114,
+      "visibleUnique": 111,
       "active": true,
       "parent": "Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty"
     },
     {
       "path": "Profesionálna audio technika > Príslušenstvo k profesionálnemu audiu",
-      "visibleUnique": 34,
+      "visibleUnique": 35,
       "active": true,
       "parent": "Profesionálna audio technika"
     },
@@ -3142,7 +3171,7 @@
     },
     {
       "path": "Profesionálna audio technika > Výkonové a inštalačné zosilňovače",
-      "visibleUnique": 16,
+      "visibleUnique": 17,
       "active": true,
       "parent": "Profesionálna audio technika"
     },
@@ -3160,7 +3189,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Príslušenstvo k audio technike",
-      "visibleUnique": 10,
+      "visibleUnique": 11,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika"
     },
