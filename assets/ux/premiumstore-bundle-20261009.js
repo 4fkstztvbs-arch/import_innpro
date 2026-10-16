@@ -2891,7 +2891,7 @@ try {
   'use strict';
   if (!document.body || !document.body.classList.contains('in-krok-1')) return;
 
-  var CHOOSE_SEL = '.sublabel.new-widget-choose';
+  var CHOOSE_SEL = '.sublabel'; // Packeta (new-widget-choose), Balíkobox/Pošta (pickup-point-choose), SPS (externý widget)
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   function activeWrapper() {
@@ -2901,10 +2901,11 @@ try {
 
   function chooseLink(wrapper) {
     if (!wrapper) return null;
-    var box = wrapper.querySelector(CHOOSE_SEL);
-    if (!box) return null;
-    var link = box.querySelector('a');
-    return link && /Zvoľte odberné miesto/i.test(link.textContent) ? link : null;
+    var links = wrapper.querySelectorAll(CHOOSE_SEL + ' a');
+    for (var i = 0; i < links.length; i++) {
+      if (/Zvoľte odberné miesto/i.test(links[i].textContent)) return links[i];
+    }
+    return null;
   }
 
   function needsPoint() {
@@ -2969,12 +2970,17 @@ try {
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', onLoad);
   else onLoad();
 
-  // Po výbere miesta zrušiť zvýraznenie (text odkazu sa zmení).
-  new MutationObserver(function () {
+  // Odkaz „Zvoľte odberné miesto“ ako tlačidlo; po výbere miesta zrušiť zvýraznenie (text odkazu sa zmení).
+  function sync() {
+    document.querySelectorAll('#order-shipping-methods .sublabel a').forEach(function (a) {
+      a.classList.toggle('ps-pickup-btn', /Zvoľte odberné miesto/i.test(a.textContent));
+    });
     document.querySelectorAll('.ps-pickup-needed').forEach(function (w) {
       if (!chooseLink(w)) clearHint(w);
     });
-  }).observe(document.body, { childList: true, subtree: true, characterData: true });
+  }
+  sync();
+  new MutationObserver(sync).observe(document.body, { childList: true, subtree: true, characterData: true });
 })();
 
 } catch (e) { if (window.console) console.error("PS bundle: premiumstore-checkout-pickup-20261016.js", e); }
