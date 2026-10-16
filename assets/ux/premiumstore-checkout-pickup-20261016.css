@@ -1,24 +1,57 @@
-/* PremiumStore – objednávka krok 1: zvýraznenie dopravy, kde chýba výdajné miesto. */
+/* PremiumStore – objednávka krok 1: výber výdajného miesta, voľby dopravy a platby (kompaktnejšie). */
 body.in-krok-1 #order-shipping-methods .radio-wrapper.ps-pickup-needed {
   border-color: #c0392b !important;
   box-shadow: 0 0 0 3px rgba(192, 57, 43, .18);
 }
 body.in-krok-1 .ps-pickup-hint {
-  margin: 8px 14px 12px;
+  margin: 6px 0 2px 32px;
   color: #a5281b;
   font-size: 14px;
   font-weight: 600;
+  flex-basis: 100%;
 }
-/* Odkaz na výber miesta ako zreteľné tlačidlo (väčšia plocha pre dotyk). */
-body.in-krok-1 #order-shipping-methods .sublabel.new-widget-choose a {
+/* Odkaz na výber miesta ako tlačidlo (len kým miesto nie je vybrané). */
+body.in-krok-1 #order-shipping-methods .sublabel a.ps-pickup-btn {
   display: inline-block;
-  min-height: 36px;
-  line-height: 36px;
-  padding: 0 14px;
-  margin-top: 4px;
+  min-height: 28px;
+  line-height: 28px;
+  padding: 0 12px;
+  margin-top: 2px;
   border: 1.5px solid #167450;
   border-radius: 8px;
   color: #167450;
   font-weight: 700;
   text-decoration: none;
+}
+/* Bodka len pri zvolenej možnosti (nezvolené majú prázdny kruh). */
+html body.ordering-process #order-form .radio-wrapper input[type="radio"]:not(:checked) + label::after {
+  background: transparent !important;
+}
+/* Kompaktnejšie karty dopravy a platby: menej prázdneho miesta, menšie logá a kolieska. */
+html body.ordering-process #order-form .radio-wrapper {
+  padding: 8px 16px !important;
+}
+html body.ordering-process #order-form .radio-wrapper > label .payment-logo {
+  width: 72px !important;
+  height: 32px !important;
+  margin: 0 12px 0 0 !important;
+}
+html body.ordering-process #order-form .radio-wrapper > label .payment-logo img {
+  max-height: 28px !important;
+  max-width: 64px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain;
+}
+html body.ordering-process #order-form .radio-wrapper label::before {
+  width: 18px !important;
+  height: 18px !important;
+}
+html body.ordering-process #order-form .radio-wrapper label::after {
+  width: 10px !important;
+  height: 10px !important;
+  left: 4px !important;
+}
+html body.ordering-process #order-form .radio-wrapper input[type="radio"] + label {
+  padding-left: 32px !important;
 }
