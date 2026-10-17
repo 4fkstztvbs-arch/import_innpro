@@ -1,0 +1,13 @@
+/* PremiumStore – info okienko dostupnosti (pilot). */
+.ps-av-info { position: relative; display: inline-block; margin-left: 8px; vertical-align: middle; }
+.ps-av-btn { display: inline-grid; place-items: center; width: 22px; height: 22px; padding: 0; border: 0; border-radius: 50%; background: #e6f2ec; color: #167450; font: 800 12px/1 inherit; cursor: pointer; }
+.ps-av-btn:hover { background: #d3e9dd; }
+.ps-av-btn:focus-visible { outline: 3px solid #145e41; outline-offset: 2px; }
+.ps-av-bubble { position: absolute; left: -8px; top: 32px; z-index: 30; width: 290px; max-width: calc(100vw - 32px); padding: 10px 14px; border-radius: 12px; background: #10201f; color: #e8f1ee; font-size: 12.5px; font-weight: 500; line-height: 1.45; text-align: left; box-shadow: 0 10px 30px rgba(0, 0, 0, .25); }
+.ps-av-bubble[hidden] { display: none; }
+.ps-av-bubble::before { content: ""; position: absolute; left: 14px; top: -6px; width: 12px; height: 12px; background: #10201f; transform: rotate(45deg); }
+.ps-av-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 5px 0; }
+.ps-av-row + .ps-av-row { border-top: 1px solid rgba(255, 255, 255, .14); }
+.ps-av-row small { display: block; color: #9fb8b1; font-size: 11.5px; font-weight: 400; }
+.ps-av-row b { white-space: nowrap; font-weight: 700; }
+@media (max-width: 767px) { .ps-av-bubble { left: -60px; } .ps-av-bubble::before { left: 66px; } }
