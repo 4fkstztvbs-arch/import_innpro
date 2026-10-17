@@ -68,9 +68,18 @@
     var btn = wrap.querySelector('.ps-av-btn');
     var bub = wrap.querySelector('.ps-av-bubble');
     var opened = false;
+    function place() {
+      // okienko ostane celé v okne: posun doľava, ak by presiahlo pravý okraj; šípka ukazuje na ikonu
+      bub.style.left = '-8px';
+      var b = btn.getBoundingClientRect(), w = bub.getBoundingClientRect().width, wr = wrap.getBoundingClientRect();
+      var left = Math.max(16, Math.min(b.left - 8, window.innerWidth - 16 - w));
+      bub.style.left = (left - wr.left) + 'px';
+      bub.style.setProperty('--ps-arrow', Math.max(10, b.left + b.width / 2 - left - 6) + 'px');
+    }
     function set(open) {
       bub.hidden = !open;
       btn.setAttribute('aria-expanded', String(open));
+      if (open) place();
       if (open && !opened) { opened = true; track('ps_avail_info_open', { ps_band: supplier || 'store' }); }
     }
     var inside = false; // kurzor je nad ikonou (zariadenie s myšou): kliknutie okienko nechá otvorené
