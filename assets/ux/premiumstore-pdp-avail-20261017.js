@@ -73,9 +73,14 @@
       btn.setAttribute('aria-expanded', String(open));
       if (open && !opened) { opened = true; track('ps_avail_info_open', { ps_band: supplier || 'store' }); }
     }
-    btn.addEventListener('click', function (e) { e.stopPropagation(); set(bub.hidden); });
-    wrap.addEventListener('mouseenter', function () { if (window.matchMedia('(hover: hover)').matches) set(true); });
-    wrap.addEventListener('mouseleave', function () { if (window.matchMedia('(hover: hover)').matches) set(false); });
+    var inside = false; // kurzor je nad ikonou (zariadenie s myšou): kliknutie okienko nechá otvorené
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      if (inside) { set(true); return; }
+      set(bub.hidden);
+    });
+    wrap.addEventListener('mouseenter', function () { if (window.matchMedia('(hover: hover)').matches) { inside = true; set(true); } });
+    wrap.addEventListener('mouseleave', function () { inside = false; if (window.matchMedia('(hover: hover)').matches) set(false); });
     document.addEventListener('click', function (e) { if (!wrap.contains(e.target)) set(false); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') set(false); });
     return true;
