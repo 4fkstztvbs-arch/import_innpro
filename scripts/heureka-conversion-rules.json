@@ -1,9 +1,9 @@
 {
-  "_comment": "Skrytie z plateného Heureka CPC feedu (HEUREKA_HIDDEN=1) podľa konverzie — analýza CPC reportu 13.9.–12.10.2026 (agent/change-ledger/PS-20261012-HEUREKA-CONVERSION-RULES.md). Vyhodnocuje scripts/apply-heureka-conversion-rules.js po každom spracovaní Heureka reportu aj pri každom nočnom behu dodávateľa. Pravidlá len pridávajú HEUREKA_HIDDEN; produkt sa vráti pri najbližšom nočnom behu dodávateľa, keď už pravidlo neplatí.",
+  "_comment": "Heureka CPC optimalizácia: cieľom sú ziskové objednávky, nie počet spárovaných produktov. Pôvodná analýza: agent/change-ledger/PS-20261012-HEUREKA-CONVERSION-RULES.md. Oprava podľa majiteľa 2026-10-14: BASYS neskrývať; samotná cena nad 1000 EUR nestačí na skrytie. Ostatné schválené výluky nepredajných ponúk zostávajú. Vyhodnocuje scripts/apply-heureka-conversion-rules.js po cenovom reporte a pri behu dodávateľa. Okrem explicitnej dodávateľskej výnimky existujúce HEUREKA_HIDDEN neodoberá; zmenu starého skrytia prepočíta nový dodávateľský feed.",
   "maxAboveCheapestPct": 20,
-  "_comment_maxAboveCheapestPct": "Naša cena o viac ako toľko % nad najlacnejším iným predajcom z posledného Heureka reportu (data/heureka-reports/price-targets.json). 30 dní: CR 2,5 % oproti 6,0 % priemeru.",
-  "priceAtLeast": 1000,
-  "_comment_priceAtLeast": "PRICE_VAT od tejto sumy (EUR s DPH). 30 dní: 65 klikov, 0 objednávok.",
+  "_comment_maxAboveCheapestPct": "Naša cena o viac ako toľko % nad najlacnejším iným predajcom z platných údajov posledného spracovaného Heureka reportu. Zachované samostatné pravidlo pre neefektívne ponuky.",
+  "priceAbove": 1000,
+  "_comment_priceAbove": "Len PRICE_VAT striktne NAD 1000 EUR s DPH a zároveň naša výsledná cena po existujúcom prepočte cien je vyššia než najlacnejšia známa konkurenčná ponuka v tom istom spracovanom Sortiment reporte. Zhodná najnižšia cena sa považuje za spoločné 1. miesto. Chýbajúce/neplatné dáta, jediný predajca ani samotná vysoká cena tento filter nespustia. Cenotvorba a maržové dno sa nemenia. Kategóriové/CPC výluky zostávajú nezávislé.",
   "heurekaCategories": [
     "Fotovoltaické a solárne panely",
     "Solárne a fotovoltaické komponenty",
@@ -17,13 +17,15 @@
     "Tunery",
     "Zosilňovače"
   ],
-  "_comment_heurekaCategories": "Listové Heureka kategórie (stĺpec Kategória v sortiment reporte) z vetiev Fotovoltaika a Hi-Fi komponenty. 30 dní: 83 klikov, 0 objednávok.",
+  "_comment_heurekaCategories": "Zachované schválené listové Heureka kategórie z vetiev Fotovoltaika a Hi-Fi komponenty podľa pôvodnej analýzy; BASYS má nadradenú výnimku. Samotné zobrazenia alebo malá vzorka bez objednávky nie sú novým automatickým dôvodom na výluku.",
   "hideWithoutPurchasePrice": true,
-  "_comment_hideWithoutPurchasePrice": "Produkt bez <PURCHASE_PRICE> (MONACOR, WiiM) — maržu ani cenové dno nevieme spočítať. 30 dní: CR 0,9 %.",
+  "_comment_hideWithoutPurchasePrice": "Zachované pravidlo pre produkt bez PURCHASE_PRICE, s nižšie definovanými dodávateľskými výnimkami.",
   "estimatedMarginPctBySupplier": { "monacor.xml": 20 },
-  "_comment_estimatedMarginPctBySupplier": "Dodávateľ bez nákupnej ceny vo feede, ktorého maržu poznáme (majiteľ 2026-10-12: MONACOR ~20 % z predajnej ceny bez DPH) — pravidlo bez nákupnej ceny sa naň nevzťahuje.",
+  "_comment_estimatedMarginPctBySupplier": "MONACOR: existujúci odhad marže 20 % podľa majiteľa 2026-10-12; pravidlo chýbajúcej nákupnej ceny sa naň nevzťahuje.",
   "skipSuppliers": ["wiim.xml"],
-  "_comment_skipSuppliers": "Feedy, na ktoré sa pravidlá vôbec neuplatnia (WiiM: pevné ceny, ostáva na Heureke — majiteľ 2026-10-12).",
+  "_comment_skipSuppliers": "Existujúca výnimka WiiM (pevné ceny) sa nemení.",
+  "forceVisibleSuppliers": ["basys.xml"],
+  "_comment_forceVisibleSuppliers": "Majiteľ 2026-10-14: BASYS neskrývame. Nadradená výnimka pre všetky Heureka komerčné filtre vrátane starších kategóriových a CPC príznakov: konečný krok zapíše HEUREKA_HIDDEN=0 aj na už skryté BASYS položky. Nemení e-shopovú viditeľnosť, dostupnosť, ceny ani bezpečnostné kontroly.",
   "keepEans": {
     "4007754220995": "Monacor SPM-205/4 — objednávka z Heureky v septembri 2026",
     "6928819531550": "xTool M1 Ultra (InnPro 077140) — objednávka 1 778 € pri 4 € nákladoch (10.8.–14.10.2026), uvoľnené 15.10.2026"
