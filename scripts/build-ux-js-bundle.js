@@ -21,7 +21,8 @@ const SOURCES = [
   'premiumstore-search-assist-20261009.js',
   'premiumstore-search-20261009.js', 'premiumstore-search-bestseller-20261016.js', 'premiumstore-trust-20261009.js',
   'premiumstore-checkout-pickup-20261016.js',
-  'premiumstore-pdp-pilot-20261016.js'
+  'premiumstore-pdp-pilot-20261016.js',
+  'premiumstore-pdp-avail-20261017.js'
 ];
 let out = '/* PremiumStore – spoločný skript (generované: node scripts/build-ux-js-bundle.js). Neupravovať ručne, upravuj zdrojové súbory.\n   Zdroje: ' + SOURCES.join(', ') + ' */\n';
 for (const f of SOURCES) {
