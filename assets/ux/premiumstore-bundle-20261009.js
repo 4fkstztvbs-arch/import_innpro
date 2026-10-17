@@ -3264,13 +3264,13 @@ try {
 /* PremiumStore – info okienko dostupnosti na produkte (pilot, produkty od KB).
    Hlavný text dostupnosti („21 a viac ks skladom“) sa nemení. Vedľa neho pribudne ikona „i“, ktorá otvorí
    okienko: Na predajni (0 ks / skladom) a U dodávateľa (1–2, 3–5, > 5 ks, odoslanie do 48–72 h).
-   Zapína sa len s ?ps_avail=1 (zapamätá sa v prehliadači; ?ps_avail=0 ho vypne), alebo pre všetkých, ak PS_AVAIL_ALL = true.
+   Zapnuté pre všetkých (PS_AVAIL_ALL = true, 17. 10. 2026). Pri PS_AVAIL_ALL = false sa zapína len s ?ps_avail=1 (zapamätá sa v prehliadači; ?ps_avail=0 ho vypne).
    Údaje berie z textu dostupnosti, ktorý posiela feed KB (pásma 1–2, 3–5, 6–20, 21+), nič nedoťahuje zo servera. */
 (function () {
   'use strict';
   if (!document.body || !document.body.classList.contains('type-detail')) return;
 
-  var PS_AVAIL_ALL = false;
+  var PS_AVAIL_ALL = true;
   var on = PS_AVAIL_ALL;
   try {
     var m = /[?&]ps_avail=(\d)/.exec(location.search);
