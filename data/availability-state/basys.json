@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 971,
+  "activeItemCount": 972,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -495,6 +495,11 @@
     {
       "key": "code:BASYS-EN 455249",
       "code": "BASYS-EN 455249",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-GB3002-A",
+      "code": "BASYS-GB3002-A",
       "ean": ""
     },
     {
@@ -4917,11 +4922,6 @@
     {
       "key": "code:BASYS-DI 20P",
       "code": "BASYS-DI 20P",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-GB3002-A",
-      "code": "BASYS-GB3002-A",
       "ean": ""
     },
     {
