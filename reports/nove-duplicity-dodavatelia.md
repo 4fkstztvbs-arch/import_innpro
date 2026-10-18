@@ -1,6 +1,6 @@
 # Nové duplicity medzi dodávateľmi
 
-Kontrola z 2026-10-17 08:53 UTC.
+Kontrola z 2026-10-18 09:11 UTC.
 
 Tieto značky dodáva viac dodávateľov naraz a **ešte nie sú v**
 `scripts/cross-supplier-preferences.json`, takže ten istý produkt sa môže v e-shope
