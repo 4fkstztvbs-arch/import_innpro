@@ -1,9 +1,9 @@
 # Sklad — InnPro
 
-Kontrola z 2026-10-18 18:21 UTC.
+Kontrola z 2026-10-18 20:56 UTC.
 
-Produktov v full.xml: **7310**, z toho 5755 má záznam aj v light.xml.
-Dostupnosť: Skladom 5727, ostatné 1583 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
+Produktov v full.xml: **7310**, z toho 5751 má záznam aj v light.xml.
+Dostupnosť: Skladom 5723, ostatné 1587 (tie sa do XML nezapisujú, INNPRO_EXCLUDE_UNAVAILABLE=1).
 
 ## quantity="-1" — 0 produktov
 
@@ -35,7 +35,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `019954` | Príslušenstvo Puluz Ultimate Combo Kits pre športové ka | Skladom | 129 | 03.11.2026 |
 | `019957` | Sada 20 kusov príslušenstva Puluz pre športové kamery ( | Skladom | 56 | 24.11.2026 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | Skladom | 64 | 27.10.2026 |
-| `020510` | Nočné svetlo so senzorom Yeelight Sensor Plug-in | Skladom | 6794 | 24.11.2026 |
+| `020510` | Nočné svetlo so senzorom Yeelight Sensor Plug-in | Skladom | 6785 | 24.11.2026 |
 | `022727` | Fotografický beztienový svetelný panel Puluz PU5138 100 | Skladom | 76 | 03.11.2026 |
 | `021910` | Náhradné filtre + špongia + pumpička Petoneer (3 ks) | Skladom | 517 | 21.10.2026 |
 | `022610` | Inteligentný spínač WiFi + RF 433 Sonoff RF R2 (NOVINKA | Dostupné od 22.10.2026 | null | 22.10.2026 |
@@ -44,7 +44,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `024515` | Panoramatický fotografický stojan 360 Puluz DCA0871W | Skladom | 53 | 03.11.2026 |
 | `023538` | Inteligentný spínač WiFi SONOFF 4CHR3 | Skladom | 172 | 22.10.2026 |
 | `023537` | Inteligentný spínač WiFi SONOFF 4CHPROR3 | Skladom | 1012 | 22.10.2026 |
-| `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW | Skladom | 884 | 22.10.2026 |
+| `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW | Skladom | 880 | 22.10.2026 |
 | `024466` | Vodná fontána pre domáce zvieratá Petoneer Fresco mini  | Skladom | 119 | 21.10.2026 |
 | `030799` | Inteligentný laser na hru psov/mačiek Petoneer Smart Do | Skladom | 29 | 21.10.2026 |
 | `024468` | Náhradné filtre pre Petoneer Smart Pet Fountain mini (2 | Skladom | 363 | 21.10.2026 |
@@ -53,7 +53,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `025663` | Svietidlo Superfire F5, 1100lm, USB | Dostupné od 25.12.2026 | null | 25.12.2026 |
 | `025651` | Baterka Superfire C8-H – 1200 lm, USB, 250 m, 5 režimov | Skladom | 108 | 15.12.2026 |
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | Skladom | 147 | 03.11.2026 |
-| `025922` | Panoramatický fotografický stojan Puluz 360 15cm PU3048 | Skladom | 390 | 03.11.2026 |
+| `025922` | Panoramatický fotografický stojan Puluz 360 15cm PU3048 | Skladom | 389 | 03.11.2026 |
 | `026080` | Mini detektor úniku plynu Habotest HT61 | Skladom | 417 | 27.10.2026 |
 | `026078` | Bezkontaktný laserový teplomer Habotest HT650B | Skladom | 145 | 27.10.2026 |
 | `026077` | Detektor úniku plynu s alarmom Habotest HT601B | Skladom | 1219 | 27.10.2026 |
@@ -76,14 +76,14 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `026663` | Dvojitý držiak Telesin J-Hook pre športové kamery (GP-M | Skladom | 137 | 20.11.2026 |
 | `026665` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre | Skladom | 83 | 20.11.2026 |
 | `026531` | Inteligentný dávkovač krmiva Petoneer Nutri Mini | Dostupné od 21.10.2026 | null | 21.10.2026 |
-| `027612` | Inteligentný spínač WiFi Sonoff Dual R3 | Skladom | 1210 | 27.10.2026 |
+| `027612` | Inteligentný spínač WiFi Sonoff Dual R3 | Skladom | 1206 | 27.10.2026 |
 | `027615` | Inteligentný bezdrôtový nástenný vypínač Sonoff T2EU3C- | Dostupné od 22.10.2026 | null | 22.10.2026 |
-| `026429` | Štúdiová súprava Puluz softbox 50x70cm, statív, LED žia | Skladom | 669 | 24.11.2026 |
+| `026429` | Štúdiová súprava Puluz softbox 50x70cm, statív, LED žia | Skladom | 667 | 24.11.2026 |
 | `026430` | Podpera pozadia pre fotoštúdio Puluz PU3054B 67 cm | Skladom | 240 | 27.10.2026 |
 | `026431` | Podpera pozadia pre fotoštúdio Puluz 70x200cm + pozadia | Skladom | 192 | 25.12.2026 |
 | `026433` | Podpora pozadia pre fotoštúdio Puluz 200x200cm DCA0975 | Skladom | 147 | 27.10.2026 |
 | `026435` | Súprava na upevnenie fotografického pozadia Puluz 2x3 m | Skladom | 81 | 24.11.2026 |
-| `027671` | Yeelight Svetlo do skrine strieborné 20 cm 2700K | Skladom | 376 | 08.12.2026 |
+| `027671` | Yeelight Svetlo do skrine strieborné 20 cm 2700K | Skladom | 374 | 08.12.2026 |
 | `027672` | Yeelight Svetlo do skrine 40 cm (strieborné) 2700K | Skladom | 491 | 08.12.2026 |
 | `027674` | Yeelight Svetlo do skrine čierne 20 cm 2700K | Skladom | 1044 | 24.11.2026 |
 | `027675` | Yeelight Svetlo do skrine čierne 40 cm 2700K | Skladom | 774 | 24.11.2026 |
@@ -111,15 +111,15 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `028759` | Držiak na bicykel Telesin pre športové kamery 360° (DJ- | Skladom | 96 | 03.11.2026 |
 | `029058` | Digitálny kliešťový merač Habotest HT208D | Skladom | 168 | 27.10.2026 |
 | `029016` | 3-slotový nabíjací box Telesin pre GoPro Hero 5/6/7/8 + | Skladom | 8 | 20.11.2026 |
-| `029289` | UV baterka Superfire UV06, 395NM | Skladom | 631 | 15.12.2026 |
+| `029289` | UV baterka Superfire UV06, 395NM | Skladom | 630 | 15.12.2026 |
 | `029286` | Kempingová lampa Superfire T25 – 400 lm, USB, 3 režimy | Skladom | 91 | 25.12.2026 |
 | `029279` | Zadné svetlo na bicykel Superfire BTL01, USB, 230 mAh | Dostupné od 15.12.2026 | null | 15.12.2026 |
-| `030465` | Smart Hub WiFi/RF 433MHz Sonoff RF BridgeR2 | Skladom | 124 | 22.10.2026 |
-| `029288` | UV svietidlo Superfire A5, 365NM | Skladom | 65 | 25.12.2026 |
+| `030465` | Smart Hub WiFi/RF 433MHz Sonoff RF BridgeR2 | Skladom | 123 | 22.10.2026 |
+| `029288` | UV svietidlo Superfire A5, 365NM | Skladom | 64 | 25.12.2026 |
 | `029278` | Solárna lampa Superfire FF5-A, 63W, 500lm, 5000mAh | Dostupné od 15.12.2026 | null | 15.12.2026 |
 | `029277` | Solárna lampa Superfire FF5-C, 263W, 1200lm, 15000mAh | Skladom | 164 | 15.12.2026 |
 | `029276` | Solárna lampa Superfire FF5-D – 486W, 1400 lm, 20000 mA | Skladom | 110 | 15.12.2026 |
-| `029275` | Solárna lampa Superfire FF5-E, 897W, 2000lm, 20000mAh | Skladom | 46 | 15.12.2026 |
+| `029275` | Solárna lampa Superfire FF5-E, 897W, 2000lm, 20000mAh | Skladom | 42 | 15.12.2026 |
 | `030318` | Hrudný popruh Telesin s držiakom pre športové kamery (G | Dostupné od 20.11.2026 | null | 20.11.2026 |
 | `030890` | Inteligentný samočistiaci odpadkový kôš pre mačky Catli | Skladom | 572 | 01.12.2026 |
 | `030906` | Náhradné filtre pre Catlink litter box Scooper 2ks. | Skladom | 335 | 01.12.2026 |
@@ -131,9 +131,9 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `030533` | Reproduktory Edifier MR4 2.0 (čierne) | Dostupné od 21.10.2026 | null | 21.10.2026 |
 | `030534` | Reproduktory Edifier MR4 2.0 (biele) | Skladom | 63 | 21.10.2026 |
 | `031745` | Inteligentný nástenný vypínač Sonoff NSPanel | Skladom | 105 | 22.10.2026 |
-| `029281` | Baterka Superfire GT60 – 2600 lm, 2 režimy, USB-C | Skladom | 7 | 25.12.2026 |
+| `029281` | Baterka Superfire GT60 – 2600 lm, 2 režimy, USB-C | Skladom | 6 | 25.12.2026 |
 | `030897` | Plávajúci ručný grip Puluz pre akčné a športové kamery  | Skladom | 172 | 03.11.2026 |
-| `032805` | Inteligentný odstraňovač zápachu Petoneer Pro | Skladom | 98 | 21.10.2026 |
+| `032805` | Inteligentný odstraňovač zápachu Petoneer Pro | Skladom | 97 | 21.10.2026 |
 | `031533` | Herné slúchadlá Edifier HECATE G2 II (biele) | Dostupné od 24.11.2026 | null | 24.11.2026 |
 | `031532` | Reproduktor Edifier D12 (hnedý) | Skladom | 233 | 24.11.2026 |
 | `031873` | Diaľkové ovládanie Telesin pre GoPro Hero 13 / 12 / 11  | Skladom | 252 | 20.11.2026 |
@@ -154,7 +154,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `034295` | Čelovka Superfire HL65 – 120 lm, USB-C, 5 režimov, 30 m | Dostupné od 15.12.2026 | null | 15.12.2026 |
 | `036334` | Montážna konzola na lištu DIN Sonoff DR | Dostupné od 03.11.2026 | null | 03.11.2026 |
 | `036280` | Ultrazvukový čistič pokožky ANLAN ALCPJ07-02 (biely) | Skladom | 34 | 20.10.2026 |
-| `036062` | UV baterka Superfire Z01, 365NM, USB | Skladom | 618 | 25.12.2026 |
+| `036062` | UV baterka Superfire Z01, 365NM, USB | Skladom | 616 | 25.12.2026 |
 | `036073` | Čelovka Superfire HL58 – 350 lm, USB, 3 režimy, 200 m | Skladom | 131 | 25.12.2026 |
 | `036077` | Čelovka Superfire HL23 – 220 lm, USB-C, powerbanka | Skladom | 255 | 25.12.2026 |
 | `036059` | Baterka Superfire L6-U – 1480 lm, 330 m, 5 režimov, 20W | Skladom | 87 | 15.12.2026 |
@@ -170,9 +170,9 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `038333` | ZigBee 3.0 Gateway Plus-E SONOFF ZBDongle-E Dongle (Hom | Skladom | 755 | 22.10.2026 |
 | `038339` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 22.10.2026 | null | 22.10.2026 |
 | `038341` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Dostupné od 22.10.2026 | null | 22.10.2026 |
-| `038486` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Skladom | 1117 | 22.10.2026 |
+| `038486` | Inteligentný WiFi spínač na monitorovanie teploty a vlh | Skladom | 1115 | 22.10.2026 |
 | `038489` | Inteligentný spínač/merač spotreby WiFi Sonoff POWR316D | Skladom | 99 | 22.10.2026 |
-| `038491` | Inteligentný spínač/merač spotreby WiFi Sonoff POWR320D | Skladom | 111 | 22.10.2026 |
+| `038491` | Inteligentný spínač/merač spotreby WiFi Sonoff POWR320D | Skladom | 110 | 22.10.2026 |
 | `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | Dostupné od 22.10.2026 | null | 22.10.2026 |
 | `037078` | Digitálny univerzálny multimeter Habotest HT113 | Skladom | 48 | 27.10.2026 |
 | `040041` | Powerbanka / skokový štartér 5v1 Lokithor AW401 | Dostupné od 19.10.2026 | null | 19.10.2026 |
@@ -188,7 +188,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `040244` | Elektrický otočný stojan Puluz 30 cm USB (čierny) | Skladom | 184 | 03.11.2026 |
 | `040245` | Elektrický otočný stôl Puluz 30 cm USB (biely) | Dostupné od 27.10.2026 | null | 27.10.2026 |
 | `041706` | Fotopasca Puluz so selfie tyčou pre športové kamery (DJ | Skladom | 92 | 24.11.2026 |
-| `038160` | Solárna lampa Superfire FF10-B | Skladom | 127 | 15.12.2026 |
+| `038160` | Solárna lampa Superfire FF10-B | Skladom | 126 | 15.12.2026 |
 | `041177` | Inteligentný samočistiaci záchod pre mačky Catlink Pro- | Skladom | 308 | 01.12.2026 |
 | `041708` | Otočný stojan Puluz 45 cm (čierny) | Skladom | 73 | 24.11.2026 |
 | `041716` | Držiak telefónu Puluz | Skladom | 33 | 27.10.2026 |
@@ -203,7 +203,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `038828` | Baterka Superfire MX16 – 600 lm, 500 mAh, USB-C, 4 reži | Skladom | 183 | 25.12.2026 |
 | `041433` | Powerbanka / štartér Lokithor J401 - 2500A 12V 74Wh | Skladom | 17 | 19.10.2026 |
 | `043028` | Stojan Sonoff NSPanel (biely) | Skladom | 155 | 03.11.2026 |
-| `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | Skladom | 35 | 03.11.2026 |
+| `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | Skladom | 34 | 03.11.2026 |
 | `042422` | Súprava filtrov TELESIN CPL/ND8/ND16/ND32 pre DJI Actio | Dostupné od 20.11.2026 | null | 20.11.2026 |
 | `044363` | Kapsulový kávovar 5 v 1 HiBREW H2B (biely) | Skladom | 292 | 28.10.2026 |
 | `045428` | Slúchadlá Oneodio Pro30 (strieborné) | Skladom | 199 | 21.10.2026 |
@@ -231,9 +231,9 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `051642` | Bezdrôtový inteligentný ovládač Yeelight | Skladom | 191 | 08.12.2026 |
 | `053151` | Colmi P71 Smartwatch (Gold) | Skladom | 48 | 25.10.2026 |
 | `051689` | Habotest MY6238 Viacúčelový detektor 4v1 | Skladom | 236 | 27.10.2026 |
-| `053904` | Bezdrôtový adaptér Carlinkit CP2A | Skladom | 129 | 25.10.2026 |
+| `053904` | Bezdrôtový adaptér Carlinkit CP2A | Skladom | 127 | 25.10.2026 |
 | `053936` | Herné slúchadlá ONIKUMA K9 Pink RGB | Skladom | 883 | 24.11.2026 |
-| `053939` | Herné slúchadlá ONIKUMA K10 (čierne) | Skladom | 751 | 27.10.2026 |
+| `053939` | Herné slúchadlá ONIKUMA K10 (čierne) | Skladom | 750 | 27.10.2026 |
 | `053941` | Herné slúchadlá ONIKUMA X15Pro Pink Cat's Ears | Skladom | 310 | 24.11.2026 |
 | `053948` | Stojan na slúchadlá ONIKUMA ST-2 čierny | Skladom | 537 | 24.11.2026 |
 | `053951` | Herná myš ONIKUMA CW905 čierna | Skladom | 556 | 24.11.2026 |
@@ -249,11 +249,11 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `055417` | Držiak na motocykel PULUZ pre športové kamery (DJI, GoP | Dostupné od 27.10.2026 | null | 27.10.2026 |
 | `055419` | Držiak Puluz pre športové kamery a telefóny (DJI, GoPro | Dostupné od 27.10.2026 | null | 27.10.2026 |
 | `055429` | Namiot bezcieniowy Puluz 20cm LED PU5029 | Skladom | 65 | 27.10.2026 |
-| `055287` | Bezdrôtový adaptér Carlinkit CCPA Apple Carplay/Android | Skladom | 245 | 25.10.2026 |
+| `055287` | Bezdrôtový adaptér Carlinkit CCPA Apple Carplay/Android | Skladom | 244 | 25.10.2026 |
 | `053415` | Odparovací zvlhčovač vzduchu Smartmi 3 | Skladom | 1293 | 22.10.2026 |
 | `054078` | Statív PULUZ - flexibilný držiak s diaľkovým ovládaním  | Skladom | 17 | 27.10.2026 |
 | `054086` | Bezdrôtový mikrofón PULUZ PUL648B (USB-C) | Skladom | 607 | 03.11.2026 |
-| `054157` | Ochranné puzdro Sunnylife pre DJI RC 2 | Skladom | 43 | 12.11.2026 |
+| `054157` | Ochranné puzdro Sunnylife pre DJI RC 2 | Skladom | 42 | 12.11.2026 |
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action  | Skladom | 109 | 25.12.2026 |
 | `055833` | Automatické kŕmidlo pre domáce zvieratá - 6 jedál / 360 | Skladom | 504 | 20.11.2026 |
 | `055848` | Automatické kŕmidlo pre domáce zvieratá WiFi s kamerou  | Skladom | 122 | 11.11.2026 |
@@ -262,7 +262,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `054997` | Inteligentný dávkovač krmiva CatLink F04 PRO | Skladom | 11 | 04.12.2026 |
 | `055043` | Slúchadlá s kostným vedením Haylou PurFree BC01 (čierne | Skladom | 200 | 20.10.2026 |
 | `057075` | Pristávací podvozok Sunnylife pre DJI Mavic 3 Pro - siv | Skladom | 66 | 24.11.2026 |
-| `035793` | Inteligentný dávkovač krmiva Petoneer NutriSpin | Skladom | 75 | 21.10.2026 |
+| `035793` | Inteligentný dávkovač krmiva Petoneer NutriSpin | Skladom | 74 | 21.10.2026 |
 | `058283` | Prenosné projekčné plátno BlitzWolf BW-VS6 120" | Skladom | 355 | 20.10.2026 |
 | `058437` | Prenosný monitor Arzopa A1 MAX 17,3" | Skladom | 197 | 05.11.2026 |
 | `058410` | Indukčná varná doska AMZCHEF CB16-BK | Dostupné od 27.10.2026 | null | 27.10.2026 |
@@ -281,7 +281,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `057375` | Inteligentný senzor teploty a vlhkosti Zigbee Sonoff SN | Dostupné od 22.10.2026 | null | 22.10.2026 |
 | `057376` | Inteligentný termostatický radiátorový ventil Sonoff TR | Dostupné od 22.10.2026 | null | 22.10.2026 |
 | `057924` | Inteligentný nástenný vypínač WiFi Sonoff NSPanel (biel | Skladom | 48 | 27.10.2026 |
-| `057627` | Nabíjačka SkyRC D100neo | Skladom | 273 | 21.10.2026 |
+| `057627` | Nabíjačka SkyRC D100neo | Skladom | 272 | 21.10.2026 |
 | `057927` | Inteligentný prepínač WiFi Sonoff S-MATE2 (bez neutrálu | Dostupné od 22.10.2026 | null | 22.10.2026 |
 | `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | Dostupné od 22.10.2026 | null | 22.10.2026 |
 | `059381` | Snímač prítomnosti človeka ZigBee Sonoff SNZB-06P | Skladom | 642 | 22.10.2026 |
@@ -294,7 +294,7 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `060080` | Ochranná taška / puzdro Telesin for action cameras (GP- | Skladom | 40 | 20.11.2026 |
 | `060081` | Ochranná taška / puzdro Telesin pre GoPro Hero 9 / Hero | Skladom | 52 | 20.11.2026 |
 | `060145` | Súprava na starostlivosť o srsť domácich zvierat Petkit | Skladom | 43 | 27.10.2026 |
-| `060147` | Zastrihávač / zastrihávač domácich zvierat Oneisall P2  | Skladom | 258 | 27.10.2026 |
+| `060147` | Zastrihávač / zastrihávač domácich zvierat Oneisall P2  | Skladom | 255 | 27.10.2026 |
 | `060149` | Inteligentný dávkovač krmiva PetKit Fresh Element Mini  | Dostupné od 27.10.2026 | null | 27.10.2026 |
 | `060193` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | Skladom | 82 | 27.10.2026 |
 | `060195` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | Skladom | 104 | 24.11.2026 |
@@ -317,4 +317,4 @@ a podmienka v transform-innpro.js sa musí zmeniť.
 | `061188` | Bezdrôtový adaptér Carlinkit TBOX-Plus 4+64 GB | Skladom | 93 | 03.11.2026 |
 | `062995` | TricutBrush 2.0 – hlavný kefový nástavec pre robotické  | Skladom | 205 | 30.10.2026 |
 | `061988` | Silicone case TELESIN for Insta360 Ace Pro | Dostupné od 20.11.2026 | null | 20.11.2026 |
-| `059292` | Interaktívne hračky pre mačky 3 v 1 | Skladom | 60 | 10.11.2026 |
+| `059292` | Interaktívne hračky pre mačky 3 v 1 | Skladom | 59 | 10.11.2026 |
