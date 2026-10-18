@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-17 20:36 UTC.
+Kontrola z 2026-10-18 20:42 UTC.
 
-Solight pri **503** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **502** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -364,7 +364,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WH27` | Solight LED čelové svietidlo, 3W + červené svetlo, 3x AAA | 2 | 72 |
 | `CN05` | Solight anténny zdroj 300mA stab. s napájacou výhybkou | 2 | 100 |
 | `P105` | Solight rozbočovač, 2x 10A, biely-sivý, vypínač | 2 | 24 |
-| `P106` | Solight rozbočovač, 3x 15A, biely-sivý, vypínač | 2 | 10 |
 | `P110C` | Solight rozbočka kocka, 3x 16A + USB A+C, biela, vypínač | 2 | 36 |
 | `PP12X` | Solight predlžovací prívod 3m, 3 zásuvky, vypínač, 16A/3680W | 2 | 40 |
 | `CA09B` | Solight digitálne hodiny s budíkom | 2 | 20 |
