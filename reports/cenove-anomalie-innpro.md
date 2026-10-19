@@ -12,6 +12,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 011632X |  | Monitor 5,5" DJI CrystalSky | nulová/neplatná cena |  | 0.00 € |  |  |
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
+| 076023 | 843367130146 | Pamäťová karta Lexar Professional 800x Pro SDXC 128 GB | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084687 | 6978986650004 | Elektrický holiaci strojček MOVA W3000 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084681 | 6978977330052 | Reproduktor MOVA TPEAK S1mini | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084682 | 6978977330069 | Reproduktor MOVA TPEAK S1 | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -467,22 +468,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093481 | 6975274260570 | Solar connector ALLPOWERS type T for parallel connection | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093482 | 6975274260563 | Solar connector Allpowers type Y | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093483 | 6975274260532 | Cable Allpowers XT60 car charger | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093584 | 6941590016603 | SMALLRIG VB99 SE Mini V-Mount batéria | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093585 | 6941590008301 | Nabíjačka batérií SMALLRIG NP-F970 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093586 | 6941590025643 | Batéria do fotoaparátu SMALLRIG NP-FZ100 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093587 | 6941590024042 | Batéria do kamery SMALLRIG E6P-C26 (oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093588 | 6941590015750 | Batéria do fotoaparátu SMALLRIG NP-F970 (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093589 | 6941590025728 | Batéria do kamery SMALLRIG DMW-BLK22 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093590 | 6941590019154 | Batéria do fotoaparátu SMALLRIG NP-FZ100 (oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093591 | 6941590019109 | Batéria do kamery SMALLRIG DMW-BLK22 (oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093592 | 6941590026213 | Bezdrôtový mikrofón SMALLRIG S 70 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093593 | 6941590022703 | Powerbanka SMALLRIG X99 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093594 | 6941590014173 | Batéria s konektorom V-Mount SMALLRIG VB99 Pro mini | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093595 | 6941590018805 | Nabíjačka batérií SMALLRIG NP-F970 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093596 | 6941590018386 | Batéria V-Mount SMALLRIG VB50 mini | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093597 | 6941590008288 | Nabíjačka batérií SMALLRIG LP-E6NH | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093598 | 6941590016023 | Batéria do fotoaparátu SMALLRIG NP-F970 (zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093599 | 6941590019123 | Batéria do fotoaparátu SMALLRIG EN-EL15c (oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093601 | 6941590014593 | Držiak na telefón SMALLRIG 4382 s upínacím držiakom „Cold Shoe“ | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093603 | 6941590016610 | LED videolampa SMALLRIG RF 10C | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093604 | 6941590008738 | Držiak na monitor SMALLRIG 2905B | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -661,7 +647,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094931 | 6924922272137 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 25.50 € | 1.30 € | 1/19.6x | 23 |
-| 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 25.50 € | 1.00 € | 1/25.5x | 23 |
+| 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 25.90 € | 1.30 € | 1/19.9x | 23 |
+| 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 25.90 € | 1.00 € | 1/25.9x | 23 |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 11.00 € | 1/12.6x | 14 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 7.70 € | 1/18.0x | 14 |
