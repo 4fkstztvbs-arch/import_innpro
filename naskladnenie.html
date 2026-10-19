@@ -340,7 +340,7 @@ function extractInvoiceNumber(rows, supplier) {
   }
   if (supplier === 'solight') {
     for (const line of flatRows) {
-      const m = line.match(/(FV-\d+\/\d+)/i);
+      const m = line.match(/((?:FV|OPB)-\d+\/\d+)/i);
       if (m) return m[1];
     }
   }
@@ -626,6 +626,12 @@ function parseSolight(rows) {
       items.push({ code: '', ean: '', name: cells[0].replace(/:$/, ''), quantity: 1, unitPriceNet: toFloat(cells[1]) });
       continue;
     }
+    // "Objednavka prijata" (OPB-...) nema stlpec EAN: kod, nazov, mnozstvo, jednotka, cena za jedn., cena celkom, sadzba.
+    // Nazov je v PDF orezany, preto sa taka polozka parovanim hlada podla kodu.
+    if (cells.length === 7 && /^(ks|pc\.?|kus)$/i.test(cells[3]) && /^[\d\s]+(,\d+)?$/.test(cells[2])) {
+      items.push({ code: cells[0], ean: '', name: cells[1], quantity: toFloat(cells[2]) || 1, unitPriceNet: toFloat(cells[4]) });
+      continue;
+    }
     if (cells.length < 8) continue;
     if (!/^\d{8,14}$/.test(cells[1] || '')) continue; // stlpec EAN identifikuje riadok polozky
     const code = cells[0];
@@ -688,6 +694,7 @@ async function loadFeedIndex(supplier) {
 }
 function matchItem(item, index) {
   if (item.ean && index.byEan.has(normalizeEan(item.ean))) return { ...index.byEan.get(normalizeEan(item.ean)), matchedBy: 'EAN' };
+  if (!item.ean && item.code && index.byCode.has(item.code)) return { ...index.byCode.get(item.code), matchedBy: 'kód' };
   const byName = index.byName.get(normalize(item.name));
   if (byName) return { ...byName, matchedBy: byName.sourceNameAlias ? 'pôvodný názov dodávateľa' : 'názov' };
   return null;
