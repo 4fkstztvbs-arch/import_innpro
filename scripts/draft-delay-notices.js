@@ -18,6 +18,7 @@
 // DRY_RUN=1 nepripája IMAP a len vypíše, čo by sa vytvorilo.
 
 const { ImapFlow } = require('imapflow');
+const nodemailer = require('nodemailer');
 const MailComposer = require('nodemailer/lib/mail-composer');
 const { fetchOrders, field } = require('./fetch-orders');
 
@@ -34,6 +35,9 @@ const MAX_DRAFTS_PER_RUN = Number(process.env.MAX_DRAFTS_PER_RUN || 100);
 const DRY_RUN = process.env.DRY_RUN === '1';
 const PHONE = process.env.CONTACT_PHONE || '+421 48 4151999';
 const HOURS = process.env.CONTACT_HOURS || 'Po–Pi 9:00–17:00';
+const SMTP_HOST = process.env.SEZNAM_SMTP_HOST || 'smtp.seznam.cz';
+const SMTP_PORT = Number(process.env.SEZNAM_SMTP_PORT || 465);
+const URGENT_REPORT_TO = process.env.URGENT_REPORT_TO || IMAP_USER;
 const SIGNATURE_NAME = process.env.SIGNATURE_NAME || 'V. Trokšiar';
 
 const OPEN_STATUS = /^(Objednané|Vybavuje sa$|Nevybavená$)/;
@@ -88,7 +92,7 @@ function selectOrders(orders, now) {
     const email = field(o.CUSTOMER, 'EMAIL');
     const code = field(o, 'CODE');
     if (!email || !code) continue;
-    if (age > MAX_AGE_DAYS) { tooOld.push({ code, status, age }); continue; }
+    if (age > MAX_AGE_DAYS) { tooOld.push({ code, status, age, order: o }); continue; }
     picked.push({ code, email, status, age, order: o });
   }
   return { picked, tooOld, unknownStatuses: [...unknownStatuses] };
@@ -167,6 +171,84 @@ async function hasMailWithCode(client, mailboxPath, code) {
   }
 }
 
+// ---------- Ranný report: objednávky staršie ako MAX_AGE_DAYS (na ručné riešenie) ----------
+// Posiela sa do schránky obchod@premiumstore.sk (alebo na URGENT_REPORT_TO), len ak je čo riešiť.
+// Bez mien a emailov zákazníkov - objednávku si kolega otvorí v Shoptete podľa čísla.
+
+function esc(v) {
+  return String(v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+function plural(n, one, few, many) { return n === 1 ? one : n >= 2 && n <= 4 ? few : many; }
+function euro(v) { return `${(parseFloat(v) || 0).toFixed(2).replace('.', ',')} €`; }
+
+function urgentRows(tooOld) {
+  return [...tooOld]
+    .sort((a, b) => b.age - a.age)
+    .map((t) => {
+      const o = t.order;
+      const paid = field(o.TOTAL_PRICE, 'PAID') === '1';
+      const billing = asArray(o.ORDER_ITEMS?.ITEM).find((it) => it.TYPE === 'billing');
+      const cod = billing && /dobierk/i.test(String(billing.NAME || ''));
+      const items = asArray(o.ORDER_ITEMS?.ITEM).filter((it) => it.TYPE === 'product')
+        .map((it) => `${Number(it.AMOUNT) || 1}× ${String(it.NAME || '').trim()}`).join('; ');
+      return {
+        date: field(o, 'DATE').slice(0, 10).split('-').reverse().map(Number).join('. '),
+        code: t.code,
+        age: t.age,
+        status: t.status,
+        items,
+        price: euro(field(o.TOTAL_PRICE, 'WITH_VAT')),
+        paid: paid ? 'áno' : cod ? 'nie (dobierka)' : 'nie',
+      };
+    });
+}
+
+function tier(age) {
+  if (age >= 30) return { label: 'KRITICKÉ', color: '#c62828' };
+  if (age >= 20) return { label: 'Veľmi staré', color: '#ef6c00' };
+  return { label: 'Staré', color: '#f9a825' };
+}
+
+function buildUrgentReport(tooOld, now) {
+  const rows = urgentRows(tooOld);
+  const n = rows.length;
+  const day = `${now.getDate()}. ${now.getMonth() + 1}. ${now.getFullYear()}`;
+  const subject = `URGENTNÉ: ${n} ${plural(n, 'objednávka', 'objednávky', 'objednávok')} staršie ako ${MAX_AGE_DAYS} dní na riešenie (${day})`;
+  const text = [
+    `Objednávky staršie ako ${MAX_AGE_DAYS} dní, ktoré ešte nie sú vybavené (stav k ${day}):`,
+    '',
+    ...rows.map((r) => `${tier(r.age).label.padEnd(11)} | ${r.age} d | ${r.date} | ${r.code} | ${r.status} | ${r.items} | ${r.price} | zaplatená: ${r.paid}`),
+    '',
+    'Zákazníkom sa na ne automatický koncept nevytvára - treba ich riešiť ručne (kontakt, storno alebo nový termín).',
+  ].join('\n');
+  const th = 'style="text-align:left;padding:6px 8px;background:#333;color:#fff;font-size:13px"';
+  const td = 'style="padding:6px 8px;border-bottom:1px solid #ddd;font-size:13px;vertical-align:top"';
+  const html = `<div style="font-family:Arial,sans-serif;color:#222">
+<h2 style="margin:0 0 4px">URGENTNÉ: ${n} ${plural(n, 'objednávka', 'objednávky', 'objednávok')} staršie ako ${MAX_AGE_DAYS} dní</h2>
+<p style="margin:0 0 12px;color:#555">Stav k ${esc(day)}. Zoradené od najstaršej. Automatický koncept sa na ne nevytvára - treba ich riešiť ručne (kontakt so zákazníkom, storno alebo nový termín).</p>
+<table style="border-collapse:collapse;width:100%"><tr><th ${th}>Priorita</th><th ${th}>Dní</th><th ${th}>Dátum</th><th ${th}>Číslo</th><th ${th}>Stav</th><th ${th}>Tovar</th><th ${th}>Cena</th><th ${th}>Zaplatená</th></tr>
+${rows.map((r) => { const t = tier(r.age); return `<tr><td ${td}><b style="color:${t.color}">${esc(t.label)}</b></td><td ${td}>${r.age}</td><td ${td}>${esc(r.date)}</td><td ${td}><b>${esc(r.code)}</b></td><td ${td}>${esc(r.status)}</td><td ${td}>${esc(r.items)}</td><td ${td}>${esc(r.price)}</td><td ${td}>${esc(r.paid)}</td></tr>`; }).join('\n')}
+</table></div>`;
+  return { subject, text, html, count: n };
+}
+
+async function sendUrgentReport(client, tooOld, now) {
+  if (!tooOld.length) { console.log('Report: žiadne objednávky nad limit, e-mail sa neposiela.'); return; }
+  const rep = buildUrgentReport(tooOld, now);
+  const mailOpts = { from: `${FROM_NAME} <${IMAP_USER}>`, to: URGENT_REPORT_TO, subject: rep.subject, text: rep.text, html: rep.html, priority: 'high' };
+  try {
+    const transport = nodemailer.createTransport({ host: SMTP_HOST, port: SMTP_PORT, secure: true, auth: { user: IMAP_USER, pass: IMAP_PASSWORD } });
+    await transport.sendMail(mailOpts);
+    console.log(`Report odoslaný (${rep.count} objednávok).`);
+    return;
+  } catch (err) {
+    console.warn(`Report cez SMTP sa nepodarilo odoslať (${err.message}) - ukladám ho do INBOX ako neprečítaný.`);
+  }
+  const mime = await new Promise((resolve, reject) => new MailComposer(mailOpts).compile().build((e, m) => (e ? reject(e) : resolve(m))));
+  await client.append('INBOX', mime, []);
+  console.log(`Report uložený do INBOX (${rep.count} objednávok).`);
+}
+
 async function main() {
   const now = new Date();
   const orders = await fetchOrders(ORDERS_XML_URL);
@@ -178,6 +260,7 @@ async function main() {
   if (unknownStatuses.length) console.log(`Neznáme stavy (preskočené): ${unknownStatuses.join(', ')}`);
 
   if (DRY_RUN) {
+    console.log(`DRY_RUN: urgentný report by obsahoval ${tooOld.length} objednávok.`);
     console.log(`DRY_RUN: vytvorili by sa koncepty pre: ${picked.map((p) => p.code).join(', ') || '(žiadne)'}`);
     console.log('--- ukážka ---\nPredmet: ' + buildSubject(picked[0]?.code || '2026XXXXXX') + '\n\n' + (picked[0] ? buildBody(picked[0], deliveryDate) : '(žiadna objednávka na ukážku)'));
     return;
@@ -191,6 +274,11 @@ async function main() {
     await client.connect();
     const drafts = await findMailbox(client, '\\Drafts', /^drafts$/i);
     const sent = await findMailbox(client, '\\Sent', /^(sent|odeslan)/i);
+    try {
+      await sendUrgentReport(client, tooOld, now);
+    } catch (err) {
+      console.error(`Urgentný report sa nepodarilo vytvoriť: ${err.message}`);
+    }
     for (const p of picked) {
       if (created >= MAX_DRAFTS_PER_RUN) { console.log(`Dosiahnutý limit ${MAX_DRAFTS_PER_RUN} konceptov na jeden beh.`); break; }
       if ((await hasMailWithCode(client, drafts, p.code)) || (await hasMailWithCode(client, sent, p.code))) { already += 1; continue; }
@@ -205,7 +293,7 @@ async function main() {
   console.log(`Hotovo: ${created} nových konceptov, ${already} už existovalo (Drafts/Sent).`);
 }
 
-module.exports = { selectOrders, addWorkingDays, buildBody, buildSubject };
+module.exports = { selectOrders, addWorkingDays, buildBody, buildSubject, buildUrgentReport };
 
 if (require.main === module) {
   main().catch((err) => { console.error('Chyba:', err.message); process.exit(1); });
