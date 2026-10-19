@@ -113,9 +113,8 @@ function paymentLine(order) {
 }
 
 function buildBody(p, deliveryDate) {
-  const { code, status, order } = p;
+  const { code, order } = p;
   const date = formatDate(deliveryDate);
-  const onTheWay = /^Objednané/.test(status);
   const lines = [
     'Dobrý deň,',
     '',
@@ -124,7 +123,7 @@ function buildBody(p, deliveryDate) {
     'Váš tovar:',
     ...productLines(order),
     '',
-    `Chceme Vás ubezpečiť, že je všetko v poriadku. ${onTheWay ? 'Váš tovar je už na ceste k nám a objednávka je u nás v spracovaní.' : 'Vaša objednávka je u nás v spracovaní.'} Vzhľadom na zvýšený počet objednávok trvá príprava Vašej zásielky o niečo dlhšie, ako by sme si obaja priali.`,
+    `Chceme Vás ubezpečiť, že je všetko v poriadku. Vaša objednávka je u nás v spracovaní. Vzhľadom na zvýšený počet objednávok trvá príprava Vašej zásielky o niečo dlhšie, ako by sme si obaja priali.`,
   ];
   const pay = paymentLine(order);
   if (pay) lines.push('', pay);
