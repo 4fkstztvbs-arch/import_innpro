@@ -34,6 +34,7 @@ const MAX_DRAFTS_PER_RUN = Number(process.env.MAX_DRAFTS_PER_RUN || 100);
 const DRY_RUN = process.env.DRY_RUN === '1';
 const PHONE = process.env.CONTACT_PHONE || '+421 48 4151999';
 const HOURS = process.env.CONTACT_HOURS || 'Po–Pi 9:00–17:00';
+const SIGNATURE_NAME = process.env.SIGNATURE_NAME || 'V. Trokšiar';
 
 const OPEN_STATUS = /^(Objednané|Vybavuje sa$|Nevybavená$)/;
 // Pevné slovenské sviatky (MM-DD). Veľkonočný piatok/pondelok sa dopĺňa ručne cez EXTRA_HOLIDAYS.
@@ -88,7 +89,7 @@ function selectOrders(orders, now) {
     const code = field(o, 'CODE');
     if (!email || !code) continue;
     if (age > MAX_AGE_DAYS) { tooOld.push({ code, status, age }); continue; }
-    picked.push({ code, email, status, age });
+    picked.push({ code, email, status, age, order: o });
   }
   return { picked, tooOld, unknownStatuses: [...unknownStatuses] };
 }
@@ -97,24 +98,52 @@ function buildSubject(code) {
   return `Vaša objednávka č. ${code} – všetko prebieha podľa plánu`;
 }
 
-function buildBody(code, deliveryDate) {
-  return [
+function productLines(order) {
+  const items = asArray(order.ORDER_ITEMS?.ITEM).filter((it) => it.TYPE === 'product');
+  const lines = items.slice(0, 6).map((it) => `• ${Number(it.AMOUNT) || 1}× ${String(it.NAME || '').trim()}`);
+  if (items.length > 6) lines.push('• …a ďalšie položky');
+  return lines;
+}
+
+function paymentLine(order) {
+  if (field(order.TOTAL_PRICE, 'PAID') === '1') return 'Vašu platbu máme v poriadku zaevidovanú, o nič sa starať nemusíte.';
+  const billing = asArray(order.ORDER_ITEMS?.ITEM).find((it) => it.TYPE === 'billing');
+  if (billing && /dobierk/i.test(String(billing.NAME || ''))) return 'Platíte až pri prevzatí zásielky, takže zatiaľ nič neriskujete.';
+  return null;
+}
+
+function buildBody(p, deliveryDate) {
+  const { code, status, order } = p;
+  const date = formatDate(deliveryDate);
+  const onTheWay = /^Objednané/.test(status);
+  const lines = [
     'Dobrý deň,',
     '',
     `ďakujeme Vám za objednávku č. ${code} a za trpezlivosť.`,
     '',
-    'Chceme Vás ubezpečiť, že je všetko v poriadku a Vaša objednávka je u nás v spracovaní. Vzhľadom na zvýšený počet objednávok trvá príprava Vašej zásielky o niečo dlhšie, ako by sme si obaja priali.',
+    'Váš tovar:',
+    ...productLines(order),
     '',
-    `Predpokladaný termín doručenia: do ${formatDate(deliveryDate)}`,
+    `Chceme Vás ubezpečiť, že je všetko v poriadku. ${onTheWay ? 'Váš tovar je už na ceste k nám a objednávka je u nás v spracovaní.' : 'Vaša objednávka je u nás v spracovaní.'} Vzhľadom na zvýšený počet objednávok trvá príprava Vašej zásielky o niečo dlhšie, ako by sme si obaja priali.`,
+  ];
+  const pay = paymentLine(order);
+  if (pay) lines.push('', pay);
+  lines.push(
+    '',
+    `Predpokladaný termín doručenia: do ${date}`,
+    '',
+    `Ak by sa termín z akéhokoľvek dôvodu menil, ozveme sa Vám sami, najneskôr do ${date}.`,
     '',
     'Hneď ako zásielku odovzdáme prepravcovi, pošleme Vám e-mail s číslom na sledovanie balíka. Z Vašej strany už nie je potrebné nič robiť.',
     '',
     `Ak by ste mali akúkoľvek otázku, stačí odpovedať na tento e-mail alebo nám zavolať na ${PHONE} (${HOURS}). Radi Vám pomôžeme.`,
     '',
     'S pozdravom',
-    'tím PremiumStore.sk',
-    '',
-  ].join('\n');
+    SIGNATURE_NAME,
+    'PremiumStore.sk',
+    ''
+  );
+  return lines.join('\n');
 }
 
 function compose(to, subject, text) {
@@ -151,7 +180,7 @@ async function main() {
 
   if (DRY_RUN) {
     console.log(`DRY_RUN: vytvorili by sa koncepty pre: ${picked.map((p) => p.code).join(', ') || '(žiadne)'}`);
-    console.log('--- ukážka ---\nPredmet: ' + buildSubject(picked[0]?.code || '2026XXXXXX') + '\n\n' + buildBody(picked[0]?.code || '2026XXXXXX', deliveryDate));
+    console.log('--- ukážka ---\nPredmet: ' + buildSubject(picked[0]?.code || '2026XXXXXX') + '\n\n' + (picked[0] ? buildBody(picked[0], deliveryDate) : '(žiadna objednávka na ukážku)'));
     return;
   }
   if (!IMAP_USER || !IMAP_PASSWORD) throw new Error('Chýba SEZNAM_IMAP_USER / SEZNAM_IMAP_PASSWORD.');
@@ -166,7 +195,7 @@ async function main() {
     for (const p of picked) {
       if (created >= MAX_DRAFTS_PER_RUN) { console.log(`Dosiahnutý limit ${MAX_DRAFTS_PER_RUN} konceptov na jeden beh.`); break; }
       if ((await hasMailWithCode(client, drafts, p.code)) || (await hasMailWithCode(client, sent, p.code))) { already += 1; continue; }
-      const mime = await compose(p.email, buildSubject(p.code), buildBody(p.code, deliveryDate));
+      const mime = await compose(p.email, buildSubject(p.code), buildBody(p, deliveryDate));
       await client.append(drafts, mime, ['\\Draft']);
       created += 1;
       console.log(`Koncept uložený: objednávka ${p.code}`);
