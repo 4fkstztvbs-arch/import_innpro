@@ -58,11 +58,18 @@ function readCsvRows(csvPath) {
 
 // Retain valid market targets even when the current feed is already at target.
 // Otherwise the next supplier transform would fall back to cost+markup again.
+function loadTargetBlocklist() {
+  const p = path.join(REPO_ROOT, 'data', 'heureka-reports', 'price-target-blocklist.json');
+  if (!fs.existsSync(p)) return new Set();
+  return new Set(Object.keys(JSON.parse(fs.readFileSync(p, 'utf-8')).eans || {}));
+}
+
 function buildPriceTargets(rows, sourceCsvName, policy = POLICY) {
   const targets = {};
+  const blocked = loadTargetBlocklist();
   const generatedAt = new Date().toISOString();
   for (const r of rows) {
-    if (!r.EAN || r.KonkurenciaPlatna !== '1' || !(fnum(r.NakupnaCenaBezDphEUR) > 0)) continue;
+    if (!r.EAN || blocked.has(r.EAN) || r.KonkurenciaPlatna !== '1' || !(fnum(r.NakupnaCenaBezDphEUR) > 0)) continue;
     const soleOffer = fnum(r.PocetPredajcov) === 1;
     if (!soleOffer && !(fnum(r.SurovyCielEUR) > 0)) continue;
     targets[r.EAN] = {

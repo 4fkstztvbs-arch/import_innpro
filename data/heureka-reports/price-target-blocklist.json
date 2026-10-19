@@ -1,0 +1,7 @@
+{
+ "_comment": "EAN, ktorým sa nikdy nevytvorí cieľová cena z Heureka reportu (chybné párovanie na Heureke). Dôvod ku každému EAN.",
+ "eans": {
+  "5907085524870": "078901 Batéria Flytec V900: Heureka ju páruje s lodným setom V066 (224 €); pôvodná cena 16 € je správna (majiteľ 2026-10-16)",
+  "5907085524887": "078908 Batéria Flytec V030: Heureka ju páruje s lodným setom V066 (224 €); pôvodná cena 44,50 € je správna (majiteľ 2026-10-16)"
+ }
+}
