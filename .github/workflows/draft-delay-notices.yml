@@ -4,10 +4,18 @@ name: Draft delay notices
 # Emaily sa ukladajú LEN do priečinka Drafts na obchod@premiumstore.sk - nič sa
 # neodosiela automaticky, kolega ich skontroluje a odošle. Opakovanie rieši skript sám
 # (ak už v Drafts/Sent existuje správa s číslom objednávky, preskočí ju), takže workflow
-# nič nezapisuje do repozitára. Zatiaľ len ručné spustenie; plán (cron) sa zapne až po
-# overení prvého behu.
+# nič nezapisuje do repozitára. Beží automaticky každý deň o 8:00 slovenského času
+# a dá sa spustiť aj ručne.
+#
+# GitHub počíta cron v UTC, Slovensko má letný (UTC+2) aj zimný (UTC+1) čas, preto sú
+# naplánované dva časy (06:05 a 07:05 UTC) a krok "Local time check" nechá prejsť len ten,
+# ktorý zodpovedá 8. hodine v Europe/Bratislava. Aj keby prešli oba, skript duplicity
+# nevytvorí (kontroluje Drafts a Sent).
 
 on:
+  schedule:
+    - cron: '5 6 * * *'
+    - cron: '5 7 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -22,16 +30,32 @@ jobs:
   draft:
     runs-on: ubuntu-latest
     steps:
+      - name: Local time check
+        id: tz
+        run: |
+          H=$(TZ=Europe/Bratislava date +%H)
+          echo "Miestny čas v Bratislave: $(TZ=Europe/Bratislava date +%H:%M)"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$H" != "08" ]; then
+            echo "go=false" >> "$GITHUB_OUTPUT"
+            echo "Nie je 8. hodina - plánovaný beh sa preskakuje."
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.tz.outputs.go == 'true'
 
       - uses: actions/setup-node@v4
+        if: steps.tz.outputs.go == 'true'
         with:
           node-version: '20'
 
       - name: Install dependencies
+        if: steps.tz.outputs.go == 'true'
         run: npm install --omit=dev
 
       - name: Create delay-notice drafts
+        if: steps.tz.outputs.go == 'true'
         env:
           SEZNAM_IMAP_USER: ${{ secrets.SEZNAM_IMAP_USER }}
           SEZNAM_IMAP_PASSWORD: ${{ secrets.SEZNAM_IMAP_PASSWORD }}
