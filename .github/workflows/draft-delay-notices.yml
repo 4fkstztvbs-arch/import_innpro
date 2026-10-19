@@ -1,0 +1,40 @@
+name: Draft delay notices
+
+# Upokojujúce emaily o "drobnom zdržaní" pre otvorené objednávky staršie ako 3 dni.
+# Emaily sa ukladajú LEN do priečinka Drafts na obchod@premiumstore.sk - nič sa
+# neodosiela automaticky, kolega ich skontroluje a odošle. Opakovanie rieši skript sám
+# (ak už v Drafts/Sent existuje správa s číslom objednávky, preskočí ju), takže workflow
+# nič nezapisuje do repozitára. Zatiaľ len ručné spustenie; plán (cron) sa zapne až po
+# overení prvého behu.
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Len vypísať, čo by sa vytvorilo (bez IMAP)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --omit=dev
+
+      - name: Create delay-notice drafts
+        env:
+          SEZNAM_IMAP_USER: ${{ secrets.SEZNAM_IMAP_USER }}
+          SEZNAM_IMAP_PASSWORD: ${{ secrets.SEZNAM_IMAP_PASSWORD }}
+          ORDERS_XML_URL: ${{ secrets.ORDERS_XML_URL }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: node scripts/draft-delay-notices.js
