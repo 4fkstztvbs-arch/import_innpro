@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600579,
+    "nextCardNumber": 202600582,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3470,6 +3470,24 @@
         "nazov": "Sloupek zásuvkový zs2963 IP54 3x230V s ochr. kolíkem, 1x400V/16A/5",
         "dodavatel": "atos",
         "code": "FAM-zs2963"
+      },
+      "8592718035945": {
+        "kod": "202600579",
+        "nazov": "LED COB pásik, sada s adaptérom, vypínač, 5m,",
+        "dodavatel": "solight",
+        "code": "WM59-NW"
+      },
+      "8592718026844": {
+        "kod": "202600580",
+        "nazov": "Stolná lampa Falun, E27, biela",
+        "dodavatel": "solight",
+        "code": "WO57-W"
+      },
+      "8592718042141": {
+        "kod": "202600581",
+        "nazov": "Profesionálna smart WIFI meteostanica",
+        "dodavatel": "solight",
+        "code": "TE93WiFi"
       }
     }
   },
