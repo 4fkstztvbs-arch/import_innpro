@@ -60,5 +60,6 @@ jobs:
           SEZNAM_IMAP_USER: ${{ secrets.SEZNAM_IMAP_USER }}
           SEZNAM_IMAP_PASSWORD: ${{ secrets.SEZNAM_IMAP_PASSWORD }}
           ORDERS_XML_URL: ${{ secrets.ORDERS_XML_URL }}
+          URGENT_REPORT_TO: ${{ vars.URGENT_REPORT_TO }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
         run: node scripts/draft-delay-notices.js
