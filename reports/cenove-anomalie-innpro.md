@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-10-18
+# Cenové anomálie vynechané z feedu — innpro — 2026-10-19
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -663,7 +663,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 051202 | 4099702002555 | Targeted Lip Volumizer & Booster Geske with APP (gray) | cena mimo 8x rozsah mediánu kategórie | 25.50 € | 1.30 € | 1/19.6x | 23 |
 | 053078 | 4099702002234 | Face & Body Roller Head Geske (pink) | cena mimo 8x rozsah mediánu kategórie | 25.50 € | 1.00 € | 1/25.5x | 23 |
-| 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 11.00 € | 1/12.4x | 16 |
-| 089168 | 0810143168938 | FunWater 7-palcová plutva | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 6.40 € | 1/21.3x | 16 |
-| 089169 | 0810143168945 | FunWater 4-palcová plutva | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 5.00 € | 1/27.3x | 16 |
-| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 136.50 € | 7.70 € | 1/17.7x | 16 |
+| 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 11.00 € | 1/12.6x | 15 |
+| 089168 | 0810143168938 | FunWater 7-palcová plutva | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 6.40 € | 1/21.6x | 15 |
+| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 7.70 € | 1/18.0x | 15 |
