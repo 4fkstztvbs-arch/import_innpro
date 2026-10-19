@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-19 09:25 UTC.
+Kontrola z 2026-10-19 16:42 UTC.
 
-InnPro pri **362** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **360** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -50,7 +50,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
-| `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
 | `037421` | Hliníkové paličky na ovládače Sunnylife pre  DJI RC / DJI RC | — | 5 |
 | `037456` | Držiak Sunnylife AirTag pre drony | — | 5 |
 | `037507` | Puzdro na batérie Sunnylife pre DJI Mini 3 Pro/Mini 4 Pro  M | — | 5 |
@@ -284,7 +283,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `086450` | Filtračné čerpadlo SUNSUN JP-092 | — | 5 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
-| `086457` | Filtračné čerpadlo SUNSUN JP-022F | — | 5 |
 | `086461` | Filtračné čerpadlo SUNSUN JP-032F | — | 5 |
 | `086462` | Filtračné čerpadlo SUNSUN JP-033F | — | 5 |
 | `086463` | Filtračné čerpadlo SUNSUN CHJ-502 | — | 5 |
