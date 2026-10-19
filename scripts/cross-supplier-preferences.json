@@ -8,7 +8,8 @@
     "TP-Link": "penta",
     "Tesla": "atos",
     "EPEVER": "penta",
-    "Amiko": "atos"
+    "Amiko": "atos",
+    "BESEN": "innpro"
   },
   "_comment3": "Vitaza urcuje NASA NAKUPNA CENA (PURCHASE_PRICE), model po modeli; pri znacke vyhrava dodavatel, ktory je lacnejsi pri vacsine spolocnych modelov. Prepocet: node scripts/compare-supplier-purchase-prices.js"
 }
