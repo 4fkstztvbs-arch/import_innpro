@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — kb
 
-Kontrola z 2026-10-19 14:49 UTC.
+Kontrola z 2026-10-19 22:17 UTC.
 
 **5 ciest bez pravidla, 6 produktov bez kategórie.**
 
