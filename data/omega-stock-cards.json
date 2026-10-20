@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600589,
+    "nextCardNumber": 202600595,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3530,6 +3530,42 @@
         "nazov": "Gorenje WG2PS74A2W",
         "dodavatel": "kb",
         "code": "100002202821"
+      },
+      "8595235807798": {
+        "kod": "202600589",
+        "nazov": "Maxxo vakuovací sáčky 50ks 22 x",
+        "dodavatel": "kb",
+        "code": "100000892515"
+      },
+      "8004032114027": {
+        "kod": "202600590",
+        "nazov": "Ardes 4R09BTTE",
+        "dodavatel": "kb",
+        "code": "100001411843"
+      },
+      "8595235802120": {
+        "kod": "202600591",
+        "nazov": "Maxxo náhradní sáčky 30ks 28x35cm",
+        "dodavatel": "kb",
+        "code": "100001502508"
+      },
+      "4006501726162": {
+        "kod": "202600592",
+        "nazov": "LEIFHEIT Žehlicí prkno Compact M",
+        "dodavatel": "kb",
+        "code": "342030038119"
+      },
+      "8034073171260": {
+        "kod": "202600593",
+        "nazov": "LIMO BAR - Soda bottle 1l - White",
+        "dodavatel": "kb",
+        "code": "342200117780"
+      },
+      "7350007792662": {
+        "kod": "202600594",
+        "nazov": "Alligator 3094",
+        "dodavatel": "kb",
+        "code": "100001880345"
       }
     }
   },
