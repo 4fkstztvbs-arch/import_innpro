@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — monacor — 2026-10-19
+# Cenové anomálie vynechané z feedu — monacor — 2026-10-20
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -86,11 +86,12 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | WM-4125DX | 4007754428278 | Monacor WM-4125DX Wall mounting bracket for PA-4125DX and PA-4125DX/DT | cena mimo 8x rozsah mediánu kategórie | 834.00 € | 22.00 € | 1/37.9x | 11 |
 | MZZX300 | 8051361591432 | ZZIPP MZZX300 Mikrofónový kábel | cena mimo 8x rozsah mediánu kategórie | 148.50 € | 15.00 € | 1/9.9x | 12 |
 | MZZX500 | 8051361591449 | ZZIPP MZZX500 Mikrofónový kábel | cena mimo 8x rozsah mediánu kategórie | 148.50 € | 17.90 € | 1/8.3x | 12 |
-| SPZZ515 | 8051361591890 | ZZIPP SPZZ515 Reproduktorový kábel | cena mimo 8x rozsah mediánu kategórie | 195.00 € | 2.00 € | 1/97.5x | 23 |
+| SPZZ515 | 8051361591890 | ZZIPP SPZZ515 Reproduktorový kábel | cena mimo 8x rozsah mediánu kategórie | 209.00 € | 2.00 € | 1/104.5x | 22 |
 | FOGFLUIDPRO20L | 3700752712431 | Evoli FOGFLUIDPRO20L Fluids | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 112.00 € | 10.2x | 19 |
 | FOGJETCO2IP | 3700752719973 | Evoli FOGJETCO2IP Smoke Machine | cena mimo 8x rozsah mediánu kategórie | 97.00 € | 3074.00 € | 31.7x | 14 |
 | LUMINAH200SET | 3700752717894 | Evoli LUMINAH200SET Moving Heads Spot | cena mimo 8x rozsah mediánu kategórie | 513.00 € | 5617.00 € | 10.9x | 10 |
 | THUNDERKOLORSET | 3700752717726 | Evoli THUNDERKOLORSET Moving Heads Wash | cena mimo 8x rozsah mediánu kategórie | 410.00 € | 3578.00 € | 8.7x | 9 |
 | SC2288BAT | 3700752715692 | HPA SC2288BAT Conferencing System | cena mimo 8x rozsah mediánu kategórie | 318.00 € | 27.50 € | 1/11.6x | 5 |
-| BOBHP15MM10M0 | 3700752706904 | Plugg BOBHP15MM10M0 Speaker Cable | cena mimo 8x rozsah mediánu kategórie | 195.00 € | 13.90 € | 1/14.0x | 23 |
-| BOBHP25MM10M0 | 3700752706942 | Plugg BOBHP25MM10M0 Speaker Cable | cena mimo 8x rozsah mediánu kategórie | 195.00 € | 21.00 € | 1/9.3x | 23 |
+| BOBHP15MM10M0 | 3700752706904 | Plugg BOBHP15MM10M0 Speaker Cable | cena mimo 8x rozsah mediánu kategórie | 209.00 € | 13.90 € | 1/15.0x | 22 |
+| BOBHP15MM20M0 | 3700752706911 | Plugg BOBHP15MM20M0 Speaker Cable | cena mimo 8x rozsah mediánu kategórie | 209.00 € | 25.50 € | 1/8.2x | 22 |
+| BOBHP25MM10M0 | 3700752706942 | Plugg BOBHP25MM10M0 Speaker Cable | cena mimo 8x rozsah mediánu kategórie | 209.00 € | 21.00 € | 1/10.0x | 22 |

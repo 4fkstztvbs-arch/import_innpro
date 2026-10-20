@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 1773,
+  "activeItemCount": 1772,
   "activeProducts": [
     {
       "key": "code:AES-7",
@@ -451,11 +451,6 @@
       "key": "ean:3700752705907",
       "code": "EPRO10A",
       "ean": "3700752705907"
-    },
-    {
-      "key": "ean:3700752706911",
-      "code": "BOBHP15MM20M0",
-      "ean": "3700752706911"
     },
     {
       "key": "ean:3700752706928",
@@ -8139,7 +8134,7 @@
     },
     {
       "key": "ean:5,90824E+12",
-      "code": "SPC-510/SW-EU",
+      "code": "SPC-515/WS-EU",
       "ean": "5,90824E+12"
     },
     {
@@ -8873,6 +8868,11 @@
       "key": "code:CR-2016",
       "code": "CR-2016",
       "ean": ""
+    },
+    {
+      "key": "ean:3700752706911",
+      "code": "BOBHP15MM20M0",
+      "ean": "3700752706911"
     },
     {
       "key": "ean:4007754004434",
