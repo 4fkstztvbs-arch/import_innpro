@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600585,
+    "nextCardNumber": 202600589,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3506,6 +3506,30 @@
         "nazov": "Zes. EVERCON AM-838 5G 2x UHF / 3x výstup",
         "dodavatel": "atos",
         "code": "SPR-322AM838"
+      },
+      "8594186721689": {
+        "kod": "202600585",
+        "nazov": "Guzzanti GZ 409BT",
+        "dodavatel": "kb",
+        "code": "100000924964"
+      },
+      "8690842522567": {
+        "kod": "202600586",
+        "nazov": "Beko Beyond B5RMFNE314X",
+        "dodavatel": "kb",
+        "code": "100001916266"
+      },
+      "9120137872118": {
+        "kod": "202600587",
+        "nazov": "Strong SRT32HH5553",
+        "dodavatel": "kb",
+        "code": "100002196827"
+      },
+      "3838783169532": {
+        "kod": "202600588",
+        "nazov": "Gorenje WG2PS74A2W",
+        "dodavatel": "kb",
+        "code": "100002202821"
       }
     }
   },
