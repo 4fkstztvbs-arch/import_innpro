@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 970,
+  "activeItemCount": 972,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -463,6 +463,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-DEH-S320BT",
+      "code": "BASYS-DEH-S320BT",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-DEH-S420BT",
       "code": "BASYS-DEH-S420BT",
       "ean": ""
@@ -675,6 +680,11 @@
     {
       "key": "code:BASYS-MVH-S220DAB",
       "code": "BASYS-MVH-S220DAB",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-MVH-S320BT",
+      "code": "BASYS-MVH-S320BT",
       "ean": ""
     },
     {
