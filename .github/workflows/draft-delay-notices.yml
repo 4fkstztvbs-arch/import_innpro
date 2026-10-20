@@ -4,24 +4,31 @@ name: Draft delay notices
 # Emaily sa ukladajú LEN do priečinka Drafts na obchod@premiumstore.sk - nič sa
 # neodosiela automaticky, kolega ich skontroluje a odošle. Opakovanie rieši skript sám
 # (ak už v Drafts/Sent existuje správa s číslom objednávky, preskočí ju), takže workflow
-# nič nezapisuje do repozitára. Beží automaticky každý deň o 8:00 slovenského času
-# a dá sa spustiť aj ručne.
+# nič nezapisuje do repozitára. Beží automaticky každý deň ráno od 4:00 slovenského času
+# a dá sa spustiť aj ručne (naostro; dry_run je voliteľný).
 #
-# GitHub počíta cron v UTC, Slovensko má letný (UTC+2) aj zimný (UTC+1) čas, preto sú
-# naplánované dva časy (06:05 a 07:05 UTC) a krok "Local time check" nechá prejsť len ten,
-# ktorý zodpovedá 8. hodine v Europe/Bratislava. Aj keby prešli oba, skript duplicity
-# nevytvorí (kontroluje Drafts a Sent).
+# GitHub plánované behy často oneskoruje alebo vynechá, preto je ranných pokusov viac
+# (každých 30 minút v UTC hodinách 02-05, spolu 8 cronov). Krok "Local time check" nechá
+# prejsť len behy, ktoré pripadnú na 4:00-7:59 miestneho času Europe/Bratislava (letný aj
+# zimný čas). Opakované behy nerobia škodu: koncepty sa nezdvojujú (kontrola Drafts a Sent)
+# a ranný report sa pošle len raz za deň (kontrola značky [URG-RRRR-MM-DD] v INBOX/Sent).
 
 on:
   schedule:
-    - cron: '5 6 * * *'
-    - cron: '5 7 * * *'
+    - cron: '7 2 * * *'
+    - cron: '37 2 * * *'
+    - cron: '7 3 * * *'
+    - cron: '37 3 * * *'
+    - cron: '7 4 * * *'
+    - cron: '37 4 * * *'
+    - cron: '7 5 * * *'
+    - cron: '37 5 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
         description: 'Len vypísať, čo by sa vytvorilo (bez IMAP)'
         type: boolean
-        default: true
+        default: false
 
 permissions:
   contents: read
@@ -35,9 +42,9 @@ jobs:
         run: |
           H=$(TZ=Europe/Bratislava date +%H)
           echo "Miestny čas v Bratislave: $(TZ=Europe/Bratislava date +%H:%M)"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "$H" != "08" ]; then
+          if [ "${{ github.event_name }}" = "schedule" ] && { [ "$H" -lt 4 ] || [ "$H" -gt 7 ]; }; then
             echo "go=false" >> "$GITHUB_OUTPUT"
-            echo "Nie je 8. hodina - plánovaný beh sa preskakuje."
+            echo "Mimo rannej schémy 4:00-7:59 - plánovaný beh sa preskakuje."
           else
             echo "go=true" >> "$GITHUB_OUTPUT"
           fi

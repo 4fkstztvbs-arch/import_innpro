@@ -209,11 +209,17 @@ function tier(age) {
   return { label: 'Staré', color: '#f9a825' };
 }
 
+function localYmd(now) {
+  return now.toLocaleDateString('sv-SE', { timeZone: 'Europe/Bratislava' }); // RRRR-MM-DD
+}
+function reportMarker(now) { return `URG-${localYmd(now)}`; }
+
 function buildUrgentReport(tooOld, now) {
   const rows = urgentRows(tooOld);
   const n = rows.length;
-  const day = `${now.getDate()}. ${now.getMonth() + 1}. ${now.getFullYear()}`;
-  const subject = `URGENTNÉ: ${n} ${plural(n, 'objednávka', 'objednávky', 'objednávok')} staršie ako ${MAX_AGE_DAYS} dní na riešenie (${day})`;
+  const [yy, mm, dd] = localYmd(now).split('-').map(Number);
+  const day = `${dd}. ${mm}. ${yy}`;
+  const subject = `URGENTNÉ: ${n} ${plural(n, 'objednávka', 'objednávky', 'objednávok')} staršie ako ${MAX_AGE_DAYS} dní na riešenie (${day}) [${reportMarker(now)}]`;
   const text = [
     `Objednávky staršie ako ${MAX_AGE_DAYS} dní, ktoré ešte nie sú vybavené (stav k ${day}):`,
     '',
@@ -234,6 +240,12 @@ ${rows.map((r) => { const t = tier(r.age); return `<tr><td ${td}><b style="color
 
 async function sendUrgentReport(client, tooOld, now) {
   if (!tooOld.length) { console.log('Report: žiadne objednávky nad limit, e-mail sa neposiela.'); return; }
+  const marker = reportMarker(now);
+  const sentBox = await findMailbox(client, '\\Sent', /^(sent|odeslan)/i).catch(() => null);
+  if ((await hasMailWithCode(client, 'INBOX', marker)) || (sentBox && (await hasMailWithCode(client, sentBox, marker)))) {
+    console.log('Report: dnešný report už bol odoslaný, preskakujem.');
+    return;
+  }
   const rep = buildUrgentReport(tooOld, now);
   const mailOpts = { from: `${FROM_NAME} <${IMAP_USER}>`, to: URGENT_REPORT_TO, subject: rep.subject, text: rep.text, html: rep.html, priority: 'high' };
   try {
