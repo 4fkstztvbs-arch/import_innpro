@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-20 14:34 UTC.
+Kontrola z 2026-10-20 19:43 UTC.
 
-InnPro pri **352** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **351** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -133,7 +133,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
 | `061362` | Side brush for Roidmi EVE CC | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
-| `063729` | Replacement filters for the Oneisall fountain | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
 | `065622` | Storage Bag Sunnylife for Insta360 X4 / X5 | — | 5 |
@@ -239,6 +238,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `082251` | Svietidlo Superfire HL23-X | — | 5 |
 | `083025` | Sada tvrdeného skla Telesin pre DJI Osmo Action 6 (objektív  | — | 5 |
 | `083026` | Sada tvrdeného skla Telesin pre DJI Osmo Action 6 ( 2x objek | — | 5 |
+| `083027` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (či | — | 5 |
 | `083028` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (or | — | 5 |
 | `083029` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (si | — | 5 |
 | `083367` | Taška Sunnylife pre Action 6 (oranžová) | — | 5 |
@@ -357,5 +357,4 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `093701` | SJCAM C110+ Zadná lišta | — | 4 |
 | `093702` | Zadná lišta pre SJCAM C200 Pro | — | 4 |
 | `093704` | Držiak na rám pre SJCAM C110 Plus | — | 5 |
-| `095291` | Pamäťová karta GODOX microSD 4 GB | — | 5 |
 | `095292` | Pamäťová karta GODOX microSD s kapacitou 8 GB | — | 5 |
