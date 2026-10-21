@@ -13,6 +13,7 @@ const fs = require('fs');
 const path = require('path');
 const { parse } = require('csv-parse/sync');
 const { isPilotUnhidden } = require('./heureka-pilot-unhidden');
+const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
 
 const ROOT = path.join(__dirname, '..');
 const RULES_PATH = path.join(__dirname, 'heureka-conversion-rules.json');
@@ -45,6 +46,7 @@ function loadCategories() {
 
 function hideReason(item, rules, ctx) {
   const ean = normEan(tag(item, 'EAN'));
+  if (isBlackFridayAllowed(ean, tag(item, 'CODE'))) return null;
   if (ean && (rules.keepEans?.[ean] || ctx.isPilot(ean))) return null;
   const price = parseFloat(tag(item, 'PRICE_VAT'));
   if (!(price > 0)) return null;
@@ -61,6 +63,9 @@ function hideReason(item, rules, ctx) {
 function applyConversionRules(xml, rules, ctx) {
   const stats = { cena: 0, bezNakupnej: 0, kategoria: 0, drahsi: 0 };
   const out = xml.replace(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g, (item) => {
+    if (isBlackFridayAllowed(tag(item, 'EAN'), tag(item, 'CODE'))) {
+      return item.replace(/<HEUREKA_HIDDEN>1<\/HEUREKA_HIDDEN>\s*/g, '');
+    }
     if (/<HEUREKA_HIDDEN>1<\/HEUREKA_HIDDEN>/.test(item)) return item;
     const reason = hideReason(item, rules, ctx);
     if (!reason) return item;

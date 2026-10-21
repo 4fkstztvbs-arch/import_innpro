@@ -25,6 +25,7 @@ const { heurekaCategoryIdFor } = require('./heureka-category');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
 const { createProductNameResolver } = require('./localize-product-names');
 
 // Mobilné klimatizácie (portable AC units) explicitly hidden from the Heureka feed on request
@@ -297,7 +298,7 @@ async function main() {
     }
 
     const { category, extraCategories, excluded, unmatchedCategory } = resolveCategory(p.categoryRaw, p.name);
-    const heurekaHidden = isCpcNonConverter(p.ean) || MOBILE_AC_CATEGORY_RE.test(p.categoryRaw || '');
+    const heurekaHidden = !isBlackFridayAllowed(p.ean, p.code) && (isCpcNonConverter(p.ean) || MOBILE_AC_CATEGORY_RE.test(p.categoryRaw || ''));
     if (excluded) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedByCategory++; return; }
 
     let availability, isAvailable;

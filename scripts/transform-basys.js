@@ -55,6 +55,7 @@ const { streamRecords } = require('./stream-records');
 const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
+const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
 const { weightKgFor, loadOnOrder, catalogDescription, isInShop, officialImagesFor } = require('./lib/basys-bose');
 
@@ -207,7 +208,7 @@ function buildShopitemXml(p) {
   parts.push(`<CATEGORIES><CATEGORY>${xmlCdata(p.defaultCategory)}</CATEGORY></CATEGORIES>`);
   const heurekaCategoryId = heurekaCategoryIdFor(p.defaultCategory);
   if (heurekaCategoryId) parts.push(`<HEUREKA_CATEGORY_ID>${heurekaCategoryId}</HEUREKA_CATEGORY_ID>`);
-  if (isHeurekaHidden(p.defaultCategory, p.price, marginEurFor(p.price, p.purchasePrice, VAT)) || isCpcNonConverter(p.ean)) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
+  if (!isBlackFridayAllowed(p.ean, p.code) && (isHeurekaHidden(p.defaultCategory, p.price, marginEurFor(p.price, p.purchasePrice, VAT)) || isCpcNonConverter(p.ean))) parts.push('<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>');
   if (p.images.length) {
     parts.push('<IMAGES>');
     p.images.forEach((img, i) => parts.push(`  <IMAGE description="${xmlAttr(imageAltFor(p.name, i, p.images.length))}">${xmlEscape(img)}</IMAGE>`));
