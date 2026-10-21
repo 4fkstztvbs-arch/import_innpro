@@ -20,7 +20,7 @@ function loadAllowlist() {
 }
 function normalizeEan(ean) {
   const value = String(ean || '').trim();
-  return /^\\d{1,12}$/.test(value) ? value.padStart(13, '0') : value;
+  return /^\d{1,12}$/.test(value) ? value.padStart(13, '0') : value;
 }
 function isBlackFridayAllowed(ean, code, now = Date.now()) {
   const list = loadAllowlist();
