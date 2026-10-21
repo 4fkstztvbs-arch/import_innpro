@@ -63,6 +63,9 @@ function hideReason(item, rules, ctx) {
 function applyConversionRules(xml, rules, ctx) {
   const stats = { cena: 0, bezNakupnej: 0, kategoria: 0, drahsi: 0 };
   const out = xml.replace(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g, (item) => {
+    if (isBlackFridayAllowed(tag(item, 'EAN'), tag(item, 'CODE'))) {
+      return item.replace(/<HEUREKA_HIDDEN>1<\/HEUREKA_HIDDEN>\s*/g, '');
+    }
     if (/<HEUREKA_HIDDEN>1<\/HEUREKA_HIDDEN>/.test(item)) return item;
     const reason = hideReason(item, rules, ctx);
     if (!reason) return item;
