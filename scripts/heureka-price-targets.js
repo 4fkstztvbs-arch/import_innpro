@@ -4,12 +4,14 @@
 // Targets retain market observations and a stable reference price, including products
 // already at their target. Recompute the 5% minimum markup from the current purchase
 // price on every import. Single-offer INNPRO products use the standard 15% markup.
+// Black Friday allowlisted products keep their campaign price unchanged through campaign end.
 // Set HEUREKA_PRICE_OVERRIDE=1 to enable price overrides.
 
 const fs = require('fs');
 const path = require('path');
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { POLICY, priceDecision } = require('./heureka-pricing');
+const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
 
 const TARGETS_PATH = path.join(__dirname, '..', 'data', 'heureka-reports', 'price-targets.json');
 const DEFAULT_MIN_MARGIN_PCT = 5;
@@ -35,6 +37,8 @@ function loadTargets() {
 // Returns computedPriceInclVat unchanged if there's no target for this EAN or no purchase price
 // to safely derive a floor from.
 //
+// Black Friday prices are campaign prices supplied by the merchant. Do not overwrite them with
+// the daily Heureka target or apply the ordinary 5% markup floor while the allowlist is active.
 function resolveTargetPrice(target, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct) {
   if (!target || !(Number.isFinite(purchasePriceExclVat) && purchasePriceExclVat > 0)
       || !Number.isFinite(vatPct) || vatPct < 0) return computedPriceInclVat;
@@ -62,9 +66,10 @@ function resolveTargetPrice(target, computedPriceInclVat, purchasePriceExclVat, 
   return computedPriceInclVat;
 }
 
-function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct) {
+function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct, code) {
   if (!OVERRIDE_ENABLED) return computedPriceInclVat;
   if (!ean || !purchasePriceExclVat) return computedPriceInclVat;
+  if (isBlackFridayAllowed(ean, code)) return computedPriceInclVat;
   const target = loadTargets()[ean];
   return resolveTargetPrice(target, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct);
 }
