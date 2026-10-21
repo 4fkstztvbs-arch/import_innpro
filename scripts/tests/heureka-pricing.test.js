@@ -141,9 +141,10 @@ test('CSV report through comparison, target map and direct XML application', () 
     assert.equal(resolveTargetPrice(t, 199.5, 141.04, 23), 276.9);
     fs.mkdirSync(path.join(dir, 'scripts'));
     fs.mkdirSync(path.join(dir, 'data/heureka-reports'), { recursive: true });
-    for (const file of ['apply-price-targets.js', 'heureka-price-targets.js', 'heureka-pricing.js', 'heureka-pricing-policy.json', 'round-price.js', 'heureka-hidden-categories.json']) {
+    for (const file of ['apply-price-targets.js', 'heureka-price-targets.js', 'heureka-pricing.js', 'heureka-pricing-policy.json', 'round-price.js', 'heureka-hidden-categories.json', 'heureka-black-friday-allowlist.js']) {
       fs.copyFileSync(path.join(__dirname, '..', file), path.join(dir, 'scripts', file));
     }
+    fs.copyFileSync(path.join(__dirname, '../../data/heureka-reports/black-friday-allowlist.json'), path.join(dir, 'data/heureka-reports/black-friday-allowlist.json'));
     fs.writeFileSync(path.join(dir, 'data/heureka-reports/price-targets.json'), JSON.stringify({ '123': t }));
     const apply = () => spawnSync(process.execPath, [path.join(dir, 'scripts/apply-price-targets.js'), `--xml=${xmlPath}`], { encoding: 'utf8', env: { ...process.env, HEUREKA_PRICE_OVERRIDE: '1' } });
     const applied = apply(); assert.equal(applied.status, 0, applied.stderr);
