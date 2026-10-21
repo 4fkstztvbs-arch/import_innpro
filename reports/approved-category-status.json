@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 29037,
-  "matchedRules": 2100,
-  "changedProducts": 972,
+  "totalProducts": 29036,
+  "matchedRules": 2099,
+  "changedProducts": 971,
   "rejected": [
     {
       "supplier": "atos",
@@ -2788,7 +2788,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery",
-      "visibleUnique": 109,
+      "visibleUnique": 108,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery"
     },
