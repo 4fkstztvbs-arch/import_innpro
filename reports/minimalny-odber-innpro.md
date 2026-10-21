@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-21 14:45 UTC.
+Kontrola z 2026-10-21 19:46 UTC.
 
-InnPro pri **353** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **358** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -37,6 +37,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `026651` | Súprava vodotesných filtrov Telesin pre objektív GoPro Hero  | — | 5 |
 | `026662` | Hlavový popruh Telesin pre športové kamery (GP-HMS-T04) | — | 5 |
 | `026663` | Dvojitý držiak Telesin J-Hook pre športové kamery (GP-MTB-T0 | — | 5 |
+| `027615` | Inteligentný bezdrôtový nástenný vypínač Sonoff T2EU3C-RF 43 | — | 5 |
 | `027504` | Počítačový ventilátor ARGB Darkflash DR12 Pro (120x120) | — | 5 |
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
@@ -53,6 +54,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `037456` | Držiak Sunnylife AirTag pre drony | — | 5 |
 | `037507` | Puzdro na batérie Sunnylife pre DJI Mini 3 Pro/Mini 4 Pro  M | — | 5 |
 | `038492` | Sonoff 5V USB Zasilacz (Type-E/ F) | — | 5 |
+| `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | — | 5 |
 | `060290` | Baseus Matné puzdro pre iPhone 13 PRO (čierne) + tvrdené skl | — | 5 |
 | `039235` | Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " | — | 5 |
 | `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 5 |
@@ -101,11 +103,14 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054163` | Ochranné puzdro na batérie Sunnylife pre DJI AIR 3 | — | 5 |
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action 4 | — | 5 |
 | `057079` | Kryt objektívu/gimbalu Sunnylife pre DJI Mavic 3 Pro (M3P-G5 | — | 5 |
+| `055655` | Vodotesné puzdro Sonoff R2 BOX | — | 5 |
 | `058840` | Ochranné sklo PULUZ pre objektív a obrazovku DJI OSMO Pocket | — | 5 |
 | `059067` | Herná myš ONIKUMA CW905 čierna | — | 5 |
 | `056359` | Štítky do termotlačiarne Niimbot pre B21, 50 mm x 30 mm, 230 | — | 5 |
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
 | `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
+| `057927` | Inteligentný prepínač WiFi Sonoff S-MATE2 (bez neutrálu) | — | 5 |
+| `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 4 |
 | `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
@@ -133,7 +138,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `063729` | Replacement filters for the Oneisall fountain | — | 2 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
-| `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
 | `065622` | Storage Bag Sunnylife for Insta360 X4 / X5 | — | 5 |
 | `066305` | Tempered Glass PULUZ  for Insta360 X4 / X5 | — | 5 |
 | `066277` | Housing Case PULUZ for GoPro Hero 9 / Hero 10 / Hero 11 / He | — | 5 |
@@ -220,6 +224,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080739` | Ochranné puzdro Sunnylife s popruhom a šnúrkou pre Osmo Pock | — | 5 |
 | `080731` | Torba Sunnylife pre OSMO 360 | — | 5 |
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
+| `080584` | Kryt nástenného spínača SONOFF E1GS (s N) | — | 5 |
+| `080586` | Rám pre dvojitý spínač Orb SONOFF EF2G | — | 5 |
 | `080587` | Rám pre trojitý prepínač Orb SONOFF EF3G | — | 5 |
 | `081353` | Sonoff Basic R5 Gen5 WiFi Smart Switch (10A, Matter) | — | 5 |
 | `081547` | Sunnylife tvrdené sklo (2 kusy) pre Osmo Nano | — | 5 |
@@ -242,7 +248,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083027` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (či | — | 5 |
 | `083028` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (or | — | 5 |
 | `083029` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (si | — | 5 |
-| `057987` | Magnetický organizér káblov Joyroom JR-ZS368, 3 kusy (čierny | — | 5 |
 | `083367` | Taška Sunnylife pre Action 6 (oranžová) | — | 5 |
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
