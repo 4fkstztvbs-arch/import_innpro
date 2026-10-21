@@ -2,7 +2,7 @@
   "minimum": 8,
   "totalProducts": 29561,
   "matchedRules": 2130,
-  "changedProducts": 212,
+  "changedProducts": 211,
   "rejected": [
     {
       "supplier": "atos",
@@ -3299,20 +3299,6 @@
       ],
       "approvedProposed": [
         "Profesionálna audio technika > PA reproduktory"
-      ]
-    },
-    {
-      "supplier": "innpro",
-      "code": "073522",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony"
-      ],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery"
       ]
     }
   ],

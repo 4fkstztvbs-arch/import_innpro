@@ -1,7 +1,7 @@
 {
   "products": 29561,
-  "matched": 821,
-  "categoryChanges": 92,
+  "matched": 820,
+  "categoryChanges": 87,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -277,6 +277,12 @@
       "supplier": "innpro",
       "code": "071368",
       "ean": "6955578044649",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073522",
+      "ean": "5907085523224",
       "reason": "Changed name or category; needs review"
     },
     {
