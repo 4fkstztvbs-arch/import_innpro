@@ -35,9 +35,9 @@
 // file present is loaded automatically; a product's promo price applies only while today falls
 // inside that file's [validFrom, validUntil] window, so an expired promo silently stops applying
 // on its own without needing anyone to remember to revert it — just leave the JSON file in place.
-// When a promo is active: PRICE_VAT stays the real regular price (MOC), ACTION_PRICE carries the
-// promo price (Shoptet shows this instead of PRICE_VAT while it's present), and FLAGS>ACTION is
-// set so it's also marked as an "akcia".
+// When a promo or approved manual price applies to Bose, that price is promoted to PRICE_VAT;
+// Bose ACTION_PRICE is always empty and the action flag is cleared to prevent the nightly feed
+// from restoring sale pricing. Other manufacturers retain the standard promo behavior.
 //
 // Bose produkty mimo cenníka (data/basys-bose-on-order.json): vždy "Na objednávku", kým ich BaSys vedie; inak skryté (Vypredané + detailOnly),
 // cena z BASYS feedu. Hmotnosť z data/basys-bose-weights.json. Viď imports/bose-cennik-2026-10-15/POSTUP.md.
@@ -222,10 +222,8 @@ function buildShopitemXml(p) {
   parts.push(`<VISIBILITY>${p.hidden ? 'hidden' : 'visible'}</VISIBILITY>`);
   parts.push('<CURRENCY>EUR</CURRENCY>');
   parts.push(`<PRICE_VAT>${xmlNum(p.price)}</PRICE_VAT>`);
-  // ACTION_PRICE — shown instead of PRICE_VAT while present. Only emitted while our own promo
-  // JSON's [validFrom, validUntil] window is active (see loadActivePromos()) — PRICE_VAT itself
-  // always stays the real regular price, never swapped, so nothing needs to be "reverted" once
-  // the promo ends: the element just stops being written.
+  // Non-Bose promos keep ACTION_PRICE. For Bose, clearActionPrice emits an empty field after
+  // promoting any approved promo/override value to PRICE_VAT.
   if (p.onPromo) parts.push(`<ACTION_PRICE>${xmlNum(p.actionPrice)}</ACTION_PRICE>`);
   else if (p.clearActionPrice) parts.push('<ACTION_PRICE></ACTION_PRICE>');
   else if (p.resetAction) parts.push(`<ACTION_PRICE>${xmlNum(p.price)}</ACTION_PRICE>`);
