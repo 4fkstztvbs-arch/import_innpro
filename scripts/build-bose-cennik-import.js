@@ -2,7 +2,7 @@
 // Pripraví importný XML pre Shoptet z úplného exportu produktov Bose (productsComplete.xml)
 // a nového cenníka BaSys/Bose (data/basys-bose-pricelist.json):
 //   * produkty z cenníka: cena (MOC), nákupná cena (VOC), EAN, hmotnosť, SEO/popisy tam, kde ešte chýbajú
-//   * Bose produkty mimo cenníka: dostupnosť "Na objednávku", viditeľné, cena sa nemení
+//   * Bose produkty mimo cenníka: dostupnosť podľa cenníka BaSys; stará akčná cena sa povýši na štandardnú
 //   * nové NEW položky z cenníka, ktoré v e-shope ešte nie sú: skryté karty (bez fotiek)
 //   * rovnaké údaje sa zapíšu do data/basys-bose-on-order.json a data/product-content/basys.json,
 //     aby ich nočný BASYS feed (scripts/transform-basys.js) nevrátil späť.
