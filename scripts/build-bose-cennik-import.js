@@ -22,9 +22,8 @@ const exportPath = args.find((a) => !a.startsWith('--'));
 const opt = (n, d) => (args.find((a) => a.startsWith(`--${n}=`)) || '').slice(n.length + 3) || d;
 const OUT_DIR = path.resolve(ROOT, opt('out', 'imports/bose-cennik-2026-10-15'));
 const WRITE_DATA = args.includes('--write-data');
-// Existujúce akciové ceny (ACTION_PRICE): po expirovaní promo BaSys (31. 8. 2026) ostali v e-shope staré.
-// Štandardne sa zrušia (okrem ručne overených v basys-mapping.json) a produkt ide na aktuálnu cenu z cenníka; --keep-actions ich ponechá.
-const CLEAR_ACTIONS = !args.includes('--keep-actions');
+// Akčná cena sa pri Bose importe nikdy neexportuje: platná ručne nastavená cena z cenníka
+// sa povýši na štandardnú cenu a ACTION_PRICE zostane prázdne. Staré akcie sa vymažú.
 const VAT = 23;
 const MIN_ACTION_MARGIN_PCT = 0;
 const STORE = 'PremiumStore.sk';
@@ -199,23 +198,18 @@ for (let block of blocks) {
 
   if (item) {
     usedSkus.add(item.objKod);
-    const { price, purchase } = priceFor(item);
-    const action = actionFor(item, price, purchase);
+    const { price: listPrice, purchase } = priceFor(item);
+    const configuredActionPrice = actionFor(item, listPrice, purchase);
+    // Ak cenu doteraz považujeme za akčnú (napr. ručný cenový override), importuj ju ako bežnú.
+    const price = configuredActionPrice || listPrice;
     block = setTag(block, 'PRICE_VAT', num(price));
     block = setTag(block, 'PURCHASE_PRICE', num(purchase));
     block = setTag(block, 'PURCHASE_VAT', String(VAT));
     block = setTag(block, 'PURCHASE_PRICE_INCL_VAT', '0');
     const oldActionNum = Number(oldAction) || 0;
-    const keepOld = !CLEAR_ACTIONS && oldActionNum > 0 && oldActionNum < price
-      && ((oldActionNum / (1 + VAT / 100) - purchase) / (oldActionNum / (1 + VAT / 100))) >= 0;
-    const finalAction = action || (keepOld ? oldActionNum : null);
-    if (oldActionNum > 0 && !action && !keepOld && !CLEAR_ACTIONS) report.actionBelowCost = (report.actionBelowCost || []).concat({ id, code, name, oldAction: oldActionNum });
-    if (action || !keepOld) {
-      block = setTag(block, 'ACTION_PRICE', action ? num(action) : '');
-      block = setActionFlag(block, !!action);
-    }
-    if (oldActionNum > 0 && !action && keepOld) report.actionKept = (report.actionKept || []).concat({ id, code, name, action: oldActionNum, price, purchase, marginPct: Math.round(((oldActionNum / (1 + VAT / 100) - purchase) / (oldActionNum / (1 + VAT / 100))) * 1000) / 10 });
-    if (oldAction && !finalAction) report.actionCleared.push({ id, code, name, oldAction: oldActionNum, price });
+    block = setTag(block, 'ACTION_PRICE', '');
+    block = setActionFlag(block, false);
+    if (oldActionNum > 0) report.actionCleared.push({ id, code, name, oldAction: oldActionNum, price });
     block = setEan(block, ean13(item.ean));
     const w = weightKgFor([item.name, item.color].join(' - '), item.objKod);
     if (w) block = setWeight(block, w);
@@ -239,7 +233,7 @@ for (let block of blocks) {
         contentNote = 'nový popis + SEO'; report.contentGenerated.push({ id, code, name, seoTitle: c.seoTitle });
       }
     }
-    report.matched.push({ id, code, name, sku: item.objKod, ean: ean13(item.ean), oldEan: ean, oldPrice, price, oldPurchase, purchase, oldAction: oldAction || '', action: finalAction || '', weight: w || '', content: contentNote });
+    report.matched.push({ id, code, name, sku: item.objKod, ean: ean13(item.ean), oldEan: ean, oldPrice, price, oldPurchase, purchase, oldAction: oldAction || '', action: '', weight: w || '', content: contentNote });
   } else {
     const objKodOo = code.replace(/^(BAS_)?BASYS-/i, '');
     if (!basysPresent.has(normK(code))) {
@@ -249,7 +243,11 @@ for (let block of blocks) {
       report.discontinued = (report.discontinued || []).concat({ id, code, name });
       outBlocks.push(block); continue;
     }
-    // mimo cenníka, ale BaSys ho ešte vedie -> Na objednávku, viditeľné; cena (aj existujúca akciová) sa NEMENÍ - ostáva z feedu
+    // Mimo cenníka, ale BaSys ho ešte vedie -> Na objednávku, viditeľné.
+    // Ak má starú akčnú cenu, povýš ju na štandardnú a vymaž pole akčnej ceny.
+    if (Number(oldAction) > 0) block = setTag(block, 'PRICE_VAT', num(Number(oldAction)));
+    block = setTag(block, 'ACTION_PRICE', '');
+    block = setActionFlag(block, false);
     block = setTag(block, 'AVAILABILITY_OUT_OF_STOCK', 'Na objednávku');
     block = setTag(block, 'VISIBILITY', 'visible');
     block = setTag(block, 'VISIBLE', '1');
