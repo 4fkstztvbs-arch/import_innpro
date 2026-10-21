@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-10-20
+# Cenové anomálie vynechané z feedu — innpro — 2026-10-21
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -12,7 +12,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 011632X |  | Monitor 5,5" DJI CrystalSky | nulová/neplatná cena |  | 0.00 € |  |  |
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
-| 076023 | 843367130146 | Pamäťová karta Lexar Professional 800x Pro SDXC 128 GB | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084687 | 6978986650004 | Elektrický holiaci strojček MOVA W3000 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084681 | 6978977330052 | Reproduktor MOVA TPEAK S1mini | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084682 | 6978977330069 | Reproduktor MOVA TPEAK S1 | nulová/neplatná cena |  | 0.00 € |  |  |
