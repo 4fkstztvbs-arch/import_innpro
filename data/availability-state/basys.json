@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 972,
+  "activeItemCount": 971,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -490,11 +490,6 @@
     {
       "key": "code:BASYS-DMH-AF555BT",
       "code": "BASYS-DMH-AF555BT",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-DW 20BR",
-      "code": "BASYS-DW 20BR",
       "ean": ""
     },
     {
@@ -4922,6 +4917,11 @@
     {
       "key": "code:BASYS-DI 20P",
       "code": "BASYS-DI 20P",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-DW 20BR",
+      "code": "BASYS-DW 20BR",
       "ean": ""
     },
     {
