@@ -237,7 +237,11 @@ for (let block of blocks) {
   } else {
     const objKodOo = code.replace(/^(BAS_)?BASYS-/i, '');
     if (!basysPresent.has(normK(code))) {
-      // mimo cenníka a BaSys ho už nevedie -> skryť: Vypredané, dostupný len cez URL
+      // Mimo cenníka a BaSys ho už nevedie -> Vypredané, dostupný len cez URL.
+      // Aj tu sa prípadná stará akčná cena povýši na štandardnú a pole akčnej ceny sa vyprázdni.
+      if (Number(oldAction) > 0) block = setTag(block, 'PRICE_VAT', num(Number(oldAction)));
+      block = setTag(block, 'ACTION_PRICE', '');
+      block = setActionFlag(block, false);
       block = setTag(block, 'AVAILABILITY_OUT_OF_STOCK', 'Vypredané');
       block = setTag(block, 'VISIBILITY', 'detailOnly');
       report.discontinued = (report.discontinued || []).concat({ id, code, name });
