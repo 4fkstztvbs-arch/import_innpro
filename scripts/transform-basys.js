@@ -227,6 +227,7 @@ function buildShopitemXml(p) {
   // always stays the real regular price, never swapped, so nothing needs to be "reverted" once
   // the promo ends: the element just stops being written.
   if (p.onPromo) parts.push(`<ACTION_PRICE>${xmlNum(p.actionPrice)}</ACTION_PRICE>`);
+  else if (p.clearActionPrice) parts.push('<ACTION_PRICE></ACTION_PRICE>');
   else if (p.resetAction) parts.push(`<ACTION_PRICE>${xmlNum(p.price)}</ACTION_PRICE>`);
   parts.push(`<PURCHASE_PRICE>${xmlNum(p.purchasePrice)}</PURCHASE_PRICE>`);
   parts.push(`<PURCHASE_VAT>${VAT}</PURCHASE_VAT>`);
@@ -377,7 +378,7 @@ async function main() {
     // floor derived from purchasePriceExclVat (the real cost from the official price list, never
     // estimated). Note this can in principle push the price above Bose's own MOC if we're
     // currently the cheapest seller by a wide margin.
-    const price = applyHeurekaPriceTarget(item.ean, roundPrice(item.mocInclVat), purchasePrice, parseFloat(VAT));
+    let price = applyHeurekaPriceTarget(item.ean, roundPrice(item.mocInclVat), purchasePrice, parseFloat(VAT));
 
     if (price === 0) {
       anomalies.push({ code: 'BASYS-' + item.objKod, ean: item.ean, name: item.name, reason: 'zero-price', newPrice: 0 });
@@ -435,6 +436,15 @@ async function main() {
     }
     if (onPromo) stats.onPromo++;
 
+    // Pri Bose importe sa žiadna ACTION_PRICE neexportuje: schválenú promo/override cenu
+    // povýšime na štandardnú PRICE_VAT, aby ju následný nočný feed nevrátil späť ako akciu.
+    const promoteActionToRegular = /^bose$/i.test(item.manufacturer);
+    if (promoteActionToRegular) {
+      if (onPromo && actionPrice != null) price = actionPrice;
+      onPromo = false;
+      actionPrice = null;
+    }
+
     const shortDescription = truncateAtWord(stripTags(description), 200);
     const seoTitle = buildSeoTitle(name, STORE_NAME, 70);
     const metaDescription = truncateAtWord(`${name} – ${availability.toLowerCase()}. Kúpte na ${STORE_NAME}.`, 155);
@@ -446,6 +456,7 @@ async function main() {
         defaultCategory, images, price, actionPrice, onPromo, purchasePrice, seoTitle, metaDescription,
         weightKg: weightKgFor(name, item.objKod),
         resetAction: item.isFromPriceList && !onPromo,
+        clearActionPrice: promoteActionToRegular,
         // Nová SKU z cenníka bez karty v e-shope a bez fotiek zostane skrytá, kým nepribudnú fotky.
         hidden: item.isFromPriceList && !isInShop(item.objKod) && images.length === 0,
       },
