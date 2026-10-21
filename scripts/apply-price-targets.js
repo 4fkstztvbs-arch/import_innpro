@@ -21,6 +21,7 @@
 const fs = require('fs');
 const path = require('path');
 const { applyHeurekaPriceTarget, OVERRIDE_ENABLED, TARGETS_PATH } = require('./heureka-price-targets');
+const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
 
 const OUT_DIR = path.join(__dirname, '..', 'output');
 const ARG_XML = process.argv.find((a) => a.startsWith('--xml='))?.slice('--xml='.length);
@@ -69,7 +70,7 @@ function spracuj(xmlPath) {
     // alebo kategória/CPC pravidlo, a ponechať tovar vylúčený je lacnejšia chyba než ho začať
     // propagovať proti rozhodnutiu, ktoré tu nevidíme. Pri najbližšom behu dodávateľa sa to
     // aj tak prepočíta nanovo.
-    if (cenovePravidlo && PRICE_BELOW > 0 && nova < PRICE_BELOW && !/<HEUREKA_HIDDEN>/.test(novy)) {
+    if (cenovePravidlo && !isBlackFridayAllowed(ean, tag(rest, 'CODE')) && PRICE_BELOW > 0 && nova < PRICE_BELOW && !/<HEUREKA_HIDDEN>/.test(novy)) {
       novy = novy.replace(/<PRICE_VAT>/, '<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>\n<PRICE_VAT>');
       skryte++;
     }
