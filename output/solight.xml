@@ -3163,7 +3163,10 @@ Balenie: sáčok</p>
   <MINIMAL_AMOUNT>10</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718022808</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>2769</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sáčok - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ssv5310e.jpg?v2</IMAGE>
@@ -10839,7 +10842,10 @@ Univerzálna nabíjačka pre Li-Ion, LiFePO4 a Ni-MH/CD batérie rôznych veľko
 <UNIT>ks</UNIT>
 <CODE>DN27</CODE>
 <EAN>8592718026424</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka batérií Li-Ion, LiFePO4, Ni-MH/CD, AA, AAA, 18650, 2000mA, 2 kanály, LCD displej - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn27.jpg?v2</IMAGE>
@@ -17105,7 +17111,10 @@ Táto mikroprocesorom riadená nabíjačka ponúka 4 samostatné nabíjacie kan�
 <UNIT>ks</UNIT>
 <CODE>DN25</CODE>
 <EAN>8592718015886</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka s LCD displejom, AC 230V, 450mA, 4 kanály, AA/AAA, riadená mikroprocesorom - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn25.jpg?v2</IMAGE>
@@ -24420,7 +24429,11 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálnym 
 <UNIT>ks</UNIT>
 <CODE>CA01B</CODE>
 <EAN>8592718023690</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b.jpg?v2</IMAGE>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b_1.jpg?v2</IMAGE>
@@ -34755,104 +34768,6 @@ Lampička je vybavená 3-stupňovým stmievaním, ktoré umožňuje jednoducho r
 <META_DESCRIPTION><![CDATA[Solight doplnkový diaľkový ovládač pre GSM alarmy 1D11 a 1D12 – dostupné od 2.12.2026. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Solight predlžovací prívod - spojka, 1 zásuvka, čierna, 15m]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Skutočný pomocník pre náročné stroje Odolný predlžovací kábel s dĺžkou 15 metrov a 5-pólovou zásuvkou je ideálny na použitie na stavbách, v priemyselných prevádzkach a všade tam, kde sú výkonné…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>Skutočný pomocník pre náročné stroje</b><br>
-Odolný predlžovací kábel s dĺžkou 15 metrov a 5-pólovou zásuvkou je ideálny na použitie na stavbách, v priemyselných prevádzkach a všade tam, kde sú výkonné stroje na 400 V~ prívod. Vďaka gumovému plášťu je určený na spoľahlivé fungovanie aj v náročnom prostredí.</p>
-<p><b>Spoľahlivá a robustná konštrukcia</b><br>
-Odolný gumový kábel s prierezom vodičov 2,5 mm2 odoláva strednému mechanickému namáhaniu aj zhoršeným klimatickým podmienkam. Robustná konštrukcia pripojovacích vidlíc zaručuje dlhú životnosť. Samozatváracie viečko chráni zásuvku pred vodou a prachom.</p>
-<p><b>Bezpečný a spoľahlivý výkon</b><br>
-Prívod je navrhnutý pre maximálne prúdové zaťaženie 32 A pri napätí v sieti 400 V~. Zabezpečuje stabilný prenos energie pre stroje a zariadenia aj na veľkú vzdialenosť. Stupeň krytia IP44 zaručuje odolnosť proti striekajúcej vode zo všetkých smerov.</p>
-<UL>
-<LI>červeno-šedá plastová zásuvka i zástrčka</LI>
-<LI>zásuvka krytá samozavírací krytkou</LI>
-<LI>gumový kábel</LI>
-<LI>prierez vodičov: 5 x 2,5 mm2</LI>
-<LI>typ kábla: H05RR-F 5G 2,5 mm2</LI>
-<LI>farba: čierna</LI>
-<LI>dĺžka: 15 m</LI>
-<LI>400 V / 32 A</LI>
-</UL><p><a href="https://www.solight.sk/documents/ps62-32a_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p><p><a href="https://www.solight.sk/documents/ps62-32a_prohl%C3%A1%C5%A1en%C3%AD%20o%20shod%C4%9B.pdf" target="_blank" rel="noopener">Stiahnuť: Prohlášení o shodě</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/priemyselne-vidlice-a-zasuvky/">Priemyselné vidlice a zásuvky</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>PS62-32A</CODE>
-<EAN>8592718024871</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Priemyselné vidlice a zásuvky]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Solight predlžovací prívod - spojka, 1 zásuvka, čierna, 15m">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ps62-32a.jpg?v2</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Dĺžka (m)]]></NAME>
-    <VALUE><![CDATA[15]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ predlžovacieho prívodu]]></NAME>
-    <VALUE><![CDATA[Predlžovací prívod]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Vypínač]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Uzemnený]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
-    <VALUE><![CDATA[IP44]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Napätie (V)]]></NAME>
-    <VALUE><![CDATA[400 V]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Prierez (mm2)]]></NAME>
-    <VALUE><![CDATA[2.5]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálna záťaž (W)]]></NAME>
-    <VALUE><![CDATA[12000]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Bezdrôtové nabíjanie]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet zásuviek]]></NAME>
-    <VALUE><![CDATA[1]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[čierna]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[USB nabíjanie]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>5.00</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>78.90</PRICE_VAT>
-<PURCHASE_PRICE>52.08</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Solight predlžovací prívod - spojka, 1 zásuvka,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight predlžovací prívod - spojka, 1 zásuvka, čierna, 15m – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Solight USB nabíjací adaptér, 1x USB, 2400mA, AC 230V, čierny]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[USB nabíjací adaptér USB nabíjací adaptér ponúka spoľahlivé a rýchle nabíjanie pre vaše zariadenia doma aj na cestách. Vďaka štandardnému USB výstupu typu A jednoducho dobijete mobilný telefón, GPS…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<p><b>USB nabíjací adaptér</b><br>USB nabíjací adaptér ponúka spoľahlivé a rýchle nabíjanie pre vaše zariadenia doma aj na cestách. Vďaka štandardnému USB výstupu typu A jednoducho dobijete mobilný telefón, GPS navigáciu alebo MP3 prehrávač. Adaptér podporuje vstupné napätie 100–240 V, takže ho môžete bez obáv využiť aj v zahraničí. Zabudované ochrany proti prebíjaniu, prehriatiu aj skratu zabezpečia bezpečnú prevádzku. LED kontrolka vás navyše informuje o priebehu nabíjania a kompaktné čierne prevedenie sa hodí do každej domácnosti či kancelárie.</p>
@@ -36268,7 +36183,12 @@ LED žiarovka GX53 je ideálnou voľbou pre moderné domácnosti aj komerčné p
 <UNIT>ks</UNIT>
 <CODE>V50</CODE>
 <EAN>8592718027186</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, max. AC 600V/600A, max. DC 600V, test diódy, bzučiak, odpor, teplota - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v50.jpg?v2</IMAGE>
@@ -36320,7 +36240,6 @@ LED žiarovka GX53 je ideálnou voľbou pre moderné domácnosti aj komerčné p
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>12.50</PRICE_VAT>
 <PURCHASE_PRICE>7.46</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -39686,8 +39605,7 @@ Osvetlenie ponúka 8 rôznych svetelných módov, vrátane blikania, prelínania
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.89</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>19.00</PRICE_VAT>
+<PRICE_VAT>22.00</PRICE_VAT>
 <PURCHASE_PRICE>11.64</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -52276,7 +52194,11 @@ Tradičné biele prevedenie s klasickým vzhľadom sa hodí do každej domácnos
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718033101</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>5879</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight WIFI zásuvka s meraním spotreby - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dty01wifi.jpg?v2</IMAGE>
@@ -68197,8 +68119,7 @@ Prívod je navrhnutý na maximálne zaťaženie 2300 W, t.j. prúdové zaťažen
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.36</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>5.60</PRICE_VAT>
+<PRICE_VAT>6.10</PRICE_VAT>
 <PURCHASE_PRICE>3.37</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -79709,7 +79630,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <UNIT>ks</UNIT>
 <CODE>V52</CODE>
 <EAN>8592718041564</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
@@ -79775,7 +79701,6 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>8.50</PRICE_VAT>
 <PURCHASE_PRICE>6.04</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -80865,8 +80790,7 @@ Corato ponúka špeciálny prepínač, ktorým možno jednoducho voliť teplotu 
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.03</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>1.80</PRICE_VAT>
+<PRICE_VAT>2.20</PRICE_VAT>
 <PURCHASE_PRICE>1.14</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -81457,7 +81381,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718041557</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, 20 - 200A - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v51.jpg?v2</IMAGE>
@@ -81521,7 +81450,6 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>6.40</PRICE_VAT>
 <PURCHASE_PRICE>3.89</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -87487,8 +87415,7 @@ Kompatibilita s modelmi <b>V7, V8, V10, V11, V12, V15, Gen5</b><br>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.42</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>39.00</PRICE_VAT>
+<PRICE_VAT>52.50</PRICE_VAT>
 <PURCHASE_PRICE>28.37</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -104120,6 +104047,13 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
   <SHOPITEM>
     <CODE>P99USBC</CODE>
     <EAN>8592718033118</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>PS62-32A</CODE>
+    <EAN>8592718024871</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
