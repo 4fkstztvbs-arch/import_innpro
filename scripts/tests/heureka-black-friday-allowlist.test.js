@@ -1,7 +1,7 @@
 'use strict';
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { isBlackFridayAllowed, loadAllowlist } = require('../heureka-black-friday-allowlist');
+const { isBlackFridayAllowed, isInnproBlackFridayPriceLocked, loadAllowlist } = require('../heureka-black-friday-allowlist');
 
 test('all Black Friday EANs are temporarily exempt from Heureka exclusions', () => {
   const allowlist = loadAllowlist();
@@ -24,4 +24,10 @@ test('allowlist expires after the campaign ends', () => {
 
 test('active fixed-price sale items stay visible on Heureka after the campaign date', () => {
   assert.equal(isBlackFridayAllowed('', '079284', Date.parse('2027-01-01T00:00:00.000Z')), true);
+});
+
+test('InnPro Black Friday prices are locked against Heureka targets only during the campaign window', () => {
+  assert.equal(isInnproBlackFridayPriceLocked('6930460000798', '2026-10-22'), true);
+  assert.equal(isInnproBlackFridayPriceLocked('6930460000798', '2026-12-01'), false);
+  assert.equal(isInnproBlackFridayPriceLocked('9999999999999', '2026-10-22'), false);
 });

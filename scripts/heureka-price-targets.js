@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { POLICY, priceDecision } = require('./heureka-pricing');
-const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
+const { isBlackFridayAllowed, isInnproBlackFridayPriceLocked } = require('./heureka-black-friday-allowlist');
 
 const TARGETS_PATH = path.join(__dirname, '..', 'data', 'heureka-reports', 'price-targets.json');
 const DEFAULT_MIN_MARGIN_PCT = 5;
@@ -70,6 +70,7 @@ function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat
   if (!OVERRIDE_ENABLED) return computedPriceInclVat;
   if (!ean || !purchasePriceExclVat) return computedPriceInclVat;
   if (isBlackFridayAllowed(ean, code)) return computedPriceInclVat;
+  if (isInnproBlackFridayPriceLocked(ean)) return computedPriceInclVat;
   const target = loadTargets()[ean];
   return resolveTargetPrice(target, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct);
 }

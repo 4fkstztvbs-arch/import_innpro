@@ -49,4 +49,24 @@ function isBlackFridayAllowed(ean, code, now = Date.now()) {
   const normalizedCode = String(code || '').trim().toUpperCase();
   return !!normalizedCode && (list.codes || []).some((item) => String(item).trim().toUpperCase() === normalizedCode);
 }
-module.exports = { isBlackFridayAllowed, loadAllowlist, ALLOWLIST_PATH, normalizeEan };
+
+// InnPro Black Friday: ceny (bežná aj akciová) zapisuje apply-innpro-black-friday.js z
+// data/innpro-black-friday.json počas okna validFrom..validUntil. Heureka cieľové ceny ich
+// v tom čase nesmú prepísať. Na rozdiel od allowlistu to nemení viditeľnosť na Heureke.
+const INNPRO_BF_PATH = path.join(__dirname, '..', 'data', 'innpro-black-friday.json');
+let innproBf;
+function loadInnproBf() {
+  if (innproBf !== undefined) return innproBf;
+  try {
+    innproBf = JSON.parse(fs.readFileSync(INNPRO_BF_PATH, 'utf-8'));
+  } catch (e) {
+    innproBf = { items: {} };
+  }
+  return innproBf;
+}
+function isInnproBlackFridayPriceLocked(ean, today = new Date().toISOString().slice(0, 10)) {
+  const data = loadInnproBf();
+  if (!data.validFrom || !data.validUntil || today < data.validFrom || today > data.validUntil) return false;
+  return !!ean && Object.prototype.hasOwnProperty.call(data.items || {}, String(ean).trim());
+}
+module.exports = { isBlackFridayAllowed, isInnproBlackFridayPriceLocked, loadAllowlist, ALLOWLIST_PATH, normalizeEan };
