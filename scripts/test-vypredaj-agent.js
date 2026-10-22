@@ -71,3 +71,12 @@ test('blocks missing or duplicated products and discounts below supplier cost', 
   const expensive = feed.replace('<PURCHASE_PRICE>60.00</PURCHASE_PRICE>', '<PURCHASE_PRICE>90.00</PURCHASE_PRICE>');
   assert.throws(() => applyVypredajToXml(expensive, active), /pod nákupnú cenu/);
 });
+
+test('an item with a fixed salePrice is not ended by orders', () => {
+  const state = addItems(createEmptyState(), [{ code: 'RET-001', quantity: 1 }], '2026-10-01T00:00:00Z');
+  state.items['RET-001'].salePrice = 70;
+  const orders = [{ CODE: 'O-9', DATE: '2026-10-02 10:00:00', ORDER_ITEMS: { ITEM: [{ CODE: 'RET-001', AMOUNT: 1 }] } }];
+  const result = applyOrders(state, orders);
+  assert.equal(result.changes.length, 0);
+  assert.equal(result.state.items['RET-001'].quantity, 1);
+});

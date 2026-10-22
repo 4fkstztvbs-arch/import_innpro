@@ -2,78 +2,281 @@
   "schemaVersion": 1,
   "items": {
     "085534": {
-      "quantity": 0,
+      "quantity": 1,
       "activatedAt": "2026-09-25T12:35:24.000Z",
       "appliedOrderIds": [
         "202601084"
-      ]
+      ],
+      "salePrice": 38.99,
+      "purchasePrice": 31.26
     },
     "085535": {
       "quantity": 1,
       "activatedAt": "2026-09-25T12:35:24.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 43.99,
+      "purchasePrice": 35.06
     },
     "065094": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 29.99,
+      "purchasePrice": 23.77
     },
     "085718": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 70.99,
+      "purchasePrice": 57.71
     },
     "079284": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 26.99,
+      "purchasePrice": 21.5
     },
     "065095": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 48.99,
+      "purchasePrice": 39.42
     },
     "087519": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 14.99,
+      "purchasePrice": 11.82
     },
     "LEC-KM0292": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 57.99,
+      "purchasePrice": 46.71
     },
     "083111": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 40.99,
+      "purchasePrice": 33.29
     },
     "025661": {
-      "quantity": 0,
+      "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
       "appliedOrderIds": [
         "202601227"
-      ]
+      ],
+      "salePrice": 18.99,
+      "purchasePrice": 15.22
     },
     "038728": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 19.99,
+      "purchasePrice": 16.22
     },
     "065108": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 9.46,
+      "purchasePrice": 7.69
     },
     "072034": {
       "quantity": 1,
       "activatedAt": "2026-09-25T18:02:53.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 29.99,
+      "purchasePrice": 24.17
     },
     "085822": {
       "quantity": 1,
       "activatedAt": "2026-10-01T09:33:09.000Z",
-      "appliedOrderIds": []
+      "appliedOrderIds": [],
+      "salePrice": 181.99,
+      "purchasePrice": 147.29
+    },
+    "100001947297": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 3.97,
+      "purchasePrice": 3.22
+    },
+    "055043": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 34.99,
+      "purchasePrice": 28.39
+    },
+    "063492": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 2.69,
+      "purchasePrice": 2.18
+    },
+    "071873": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 6.77,
+      "purchasePrice": 5.5
+    },
+    "074257": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 7.36,
+      "purchasePrice": 5.98
+    },
+    "073822": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 3.15,
+      "purchasePrice": 2.56
+    },
+    "081072": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 62.99,
+      "purchasePrice": 50.7
+    },
+    "081527": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 4.06,
+      "purchasePrice": 3.3
+    },
+    "085159": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 10.99,
+      "purchasePrice": 8.64
+    },
+    "090356": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 22.99,
+      "purchasePrice": 18.03
+    },
+    "090390": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 25.99,
+      "purchasePrice": 20.56
+    },
+    "088932": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 3.83,
+      "purchasePrice": 3.11
+    },
+    "088959": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 2.59,
+      "purchasePrice": 2.1
+    },
+    "088979": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 2.67,
+      "purchasePrice": 2.17
+    },
+    "088983": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 2.43,
+      "purchasePrice": 1.97
+    },
+    "BASYS-B112D2": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 195.99,
+      "purchasePrice": 159.07
+    },
+    "999147297962": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 43.99,
+      "purchasePrice": 35.63
+    },
+    "MS-GARNI 1NG3": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 165.99,
+      "purchasePrice": 134.31
+    },
+    "070189": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 5.92,
+      "purchasePrice": 4.81
+    },
+    "089663": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 2.75,
+      "purchasePrice": 2.23
+    },
+    "062224": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 3.82,
+      "purchasePrice": 3.1
+    },
+    "089389": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 4.95,
+      "purchasePrice": 4.02
+    },
+    "083356": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 15.99,
+      "purchasePrice": 12.4
+    },
+    "081528": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 4.74,
+      "purchasePrice": 3.85
+    },
+    "082724": {
+      "appliedOrderIds": [],
+      "quantity": 1,
+      "activatedAt": "2026-10-22T05:30:00.000Z",
+      "salePrice": 154.99,
+      "purchasePrice": 125.93
     }
   },
   "mail": {

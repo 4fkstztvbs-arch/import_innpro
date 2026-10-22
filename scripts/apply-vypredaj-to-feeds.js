@@ -82,8 +82,17 @@ function updateBlock(block, item, productCode) {
     const purchaseNet = incl ? purchase / (1 + vat / 100) : purchase;
     const saleNet = discount / (1 + vat / 100);
     const safePrice = !purchase || saleNet + 0.000001 >= purchaseNet;
-    const actionPrice = safePrice ? discount : reference;
-    if (!safePrice) console.warn(`Výpredaj ${productCode}: zľava 5 % by bola pod nákupnou cenou; ponechávam dodávateľskú cenu a nastavujem interný príznak.`);
+    let actionPrice = safePrice ? discount : reference;
+    if (item.salePrice != null) {
+      // Pevná výpredajová cena (napr. na nákupnej cene) nahrádza 5 % zľavu; pod nákupnú cenu nikdy nejde.
+      // Nákupná cena kusov na predajni (item.purchasePrice, bez DPH) môže byť nižšia ako aktuálna dodávateľská.
+      const stockCost = item.purchasePrice != null ? item.purchasePrice : purchaseNet;
+      if (stockCost && item.salePrice / (1 + vat / 100) + 0.01 < stockCost) {
+        throw new Error(`Pevná výpredajová cena ${item.salePrice} pre ${productCode} je pod nákupnou cenou.`);
+      }
+      actionPrice = item.salePrice;
+    }
+    if (item.salePrice == null && !safePrice) console.warn(`Výpredaj ${productCode}: zľava 5 % by bola pod nákupnou cenou; ponechávam dodávateľskú cenu a nastavujem interný príznak.`);
     updated = setTag(updated, 'STANDARD_PRICE', reference.toFixed(2));
     updated = setTag(updated, 'ACTION_PRICE', actionPrice.toFixed(2));
     // Sale stock is held at the shop. This Shoptet availability already carries
@@ -121,8 +130,10 @@ function main() {
     let targetName = found[0]?.name;
     const currentBlock = found[0]?.block;
     const alreadyAdjusted = currentBlock ? isSaleAdjusted(currentBlock) : false;
-    let sourceBlock = alreadyAdjusted ? cache[productCode]?.block : currentBlock;
-    if (found.length && !alreadyAdjusted) nextCache[productCode] = { sourceFile: targetName, block: sourceBlock };
+    // Dodávateľ produkt už neposiela cenu (náhrobný záznam bez PRICE_VAT): použije sa uložený blok.
+    const stubBlock = currentBlock && !alreadyAdjusted && !tag(currentBlock, 'PRICE_VAT') && cache[productCode]?.block;
+    let sourceBlock = alreadyAdjusted || stubBlock ? cache[productCode]?.block : currentBlock;
+    if (found.length && !alreadyAdjusted && !stubBlock) nextCache[productCode] = { sourceFile: targetName, block: sourceBlock };
     if (alreadyAdjusted && !sourceBlock) {
       throw new Error(`Pre ${productCode} chýba čistý dodávateľský záznam potrebný na opakovanie alebo ukončenie výpredaja.`);
     }

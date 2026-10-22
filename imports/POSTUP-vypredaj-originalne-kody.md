@@ -17,3 +17,7 @@ Pred importom musí byť v Shoptete vlastný príznak č. 1 pomenovaný **Výpre
 Kód `065095` dostane označenie výpredaja, ale cenové polia sú vynechané v pôvodnom migračnom súbore: 5 % zľava by ho dostala pod nákupnú cenu.
 
 Automatický import Sklad BB je vypnutý. Nezapínať ho znova: jeho pravidlo pre položky chýbajúce vo feede maže produkt.
+
+## Pevná výpredajová cena (od 22. 10. 2026)
+
+Položka v `data/vypredaj.json` môže mať `salePrice` (akčná cena s DPH) a `purchasePrice` (nákupná cena kusov na predajni bez DPH). Feed ju potom nastaví ako `ACTION_PRICE` namiesto 5 % zľavy, `STANDARD_PRICE` zostáva z dodávateľského feedu a poistka „nie pod nákupnú cenu" sa kontroluje voči `purchasePrice`. Objednávky takú položku neukončia; výpredaj skončí až odstránením kódu z `items`. Ak dodávateľ produkt už neposiela (náhrobný záznam bez ceny), použije sa blok z `data/sklbb-source-items.json`.
