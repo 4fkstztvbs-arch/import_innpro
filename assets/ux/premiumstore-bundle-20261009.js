@@ -3406,7 +3406,7 @@ try {
   function send(name,p){
     if(internal)return;
     var n=Date.now();if(last[name]&&n-last[name]<500)return;last[name]=n;   /* ps-menu-trigger vyvolá aj druhý klik na natívne tlačidlo */
-    p=p||{};p.menu_variant=v;
+    p=p||{};p.menu_variant=v;p.send_to='GA4';   /* skupina GA4 (G-D0V10RN09V), nie Google Ads */
     try{(typeof window.gtag==='function'?window.gtag:g)('event',name,p);}catch(e){}
   }
   function tagClarity(){try{if(typeof window.clarity==='function'){window.clarity('set','menu_variant',v);}}catch(e){}}
