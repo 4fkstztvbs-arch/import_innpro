@@ -31,8 +31,10 @@
   /* ===== meranie ===== */
   window.dataLayer=window.dataLayer||[];
   function g(){window.dataLayer.push(arguments);}
+  var last={};
   function send(name,p){
     if(internal)return;
+    var n=Date.now();if(last[name]&&n-last[name]<500)return;last[name]=n;   /* ps-menu-trigger vyvolá aj druhý klik na natívne tlačidlo */
     p=p||{};p.menu_variant=v;
     try{(typeof window.gtag==='function'?window.gtag:g)('event',name,p);}catch(e){}
   }
