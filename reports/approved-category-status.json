@@ -1,6 +1,6 @@
 {
   "minimum": 8,
-  "totalProducts": 29090,
+  "totalProducts": 29093,
   "matchedRules": 2102,
   "changedProducts": 974,
   "rejected": [
@@ -2611,7 +2611,7 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory teploty a vlhkosti",
-      "visibleUnique": 17,
+      "visibleUnique": 18,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },

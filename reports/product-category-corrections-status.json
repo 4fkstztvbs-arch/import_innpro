@@ -1,7 +1,7 @@
 {
-  "products": 29090,
-  "matched": 846,
-  "categoryChanges": 328,
+  "products": 29093,
+  "matched": 845,
+  "categoryChanges": 326,
   "nameChanges": 8,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 210,
@@ -493,6 +493,12 @@
       "supplier": "kb",
       "code": "100001959281",
       "ean": "4006501816900",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001519273",
+      "ean": "8590274766150",
       "reason": "Changed name or category; needs review"
     },
     {
