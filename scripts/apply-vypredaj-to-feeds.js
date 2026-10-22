@@ -104,7 +104,9 @@ function updateBlock(block, item, productCode) {
     // A fresh supplier transform restores its current price; explicitly cancel our old sale price.
     updated = setTag(updated, 'ACTION_PRICE', (supplierAction > 0 && supplierAction < regular ? supplierAction : regular).toFixed(2));
   }
-  updated = setFlag(updated, 'ACTION', false);
+  // Pevná výpredajová cena = verejná akcia: príznak Akcia zaradí produkt do kategórie Black Friday
+  // (Shoptet kategória s automatickým výberom podľa príznaku Akcia). 5 % interný výpredaj ostáva bez príznaku.
+  updated = setFlag(updated, 'ACTION', item.quantity > 0 && item.salePrice != null);
   updated = setFlag(updated, SALE_FLAG, item.quantity > 0);
   return updated;
 }
