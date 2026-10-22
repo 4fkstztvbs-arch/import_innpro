@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-21 21:42 UTC.
+Kontrola z 2026-10-22 13:44 UTC.
 
-Solight pri **500** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **503** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -84,6 +84,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -239,6 +240,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PF11` | Solight flexo šnúra, 2x 0,75mm2, biela, plochá, 5m | 4 | 100 |
 | `P67` | Solight zástrčka do vlhka, priama, IP44, čierna-oranžová | 4 | 50 |
 | `SSN12X0E` | Solight anténny koaxiálny kábel, kombinované konektory, 10m, | 4 | 50 |
+| `P68` | Solight zásuvka do vlhka, priama, IP40, čierna-oranžová | 4 | 50 |
 | `SSN12X5E` | Solight anténny koaxiálny kábel, kombinované konektory, 15m, | 4 | 50 |
 | `PP40` | Solight predlžovací prívod, 5 zásuviek, biely, 1,5m | 4 | 50 |
 | `PP20` | Solight predlžovací prívod, 4 zásuvky, biely, 1,5m | 4 | 50 |
@@ -402,6 +404,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `1V223-A` | Solight LED dekorácie závesná, les a jeleň, biela a hnedá, 2 | 2 | 50 |
 | `PS15O` | Solight predlžovací prívod - spojka, 1 zásuvka, 7m, 3 x 1mm2 | 2 | 20 |
 | `WL909` | Solight nočné LED svetielko s pohybovým a svetelným sensorom | 2 | 60 |
+| `WPIR04-B` | Solight PIR senzor nástenný, vonkajší, čierny | 2 | 100 |
 | `WN904` | Solight náhradný akumulátor typ 18650, 3,7 V, Li-Ion 3350mAh | 2 | 400 |
 | `PP32X` | Solight predlžovací prívod 3m, 4 zásuvky, vypínač, 16A/3680W | 2 | 40 |
 | `WO746` | Solight LED vonkajšie osvetlenie Siena, sivé, 13W, 910lm, 40 | 2 | 24 |
