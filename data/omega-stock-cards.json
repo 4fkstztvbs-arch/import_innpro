@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600619,
+    "nextCardNumber": 202600628,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3710,6 +3710,60 @@
         "nazov": "Guzzanti GZ 340A",
         "dodavatel": "kb",
         "code": "100001959520"
+      },
+      "5908254848070": {
+        "kod": "202600619",
+        "nazov": "Hodiny spínací na DIN lištu ORNO OR-PRE-468",
+        "dodavatel": "atos",
+        "code": "ATO-OR-PRE-468"
+      },
+      "5908254815713": {
+        "kod": "202600620",
+        "nazov": "ORNO OR-AE-1398MB Zapuštěná dvojzásuvka s víčky, 2x 230V, nerez, IP55 v",
+        "dodavatel": "atos",
+        "code": "SPR-2KZAE1398MB"
+      },
+      "5908254815706": {
+        "kod": "202600621",
+        "nazov": "ORNO OR-AE-1397MB Zapuštěná zásuvka s víčkem",
+        "dodavatel": "atos",
+        "code": "SPR-2KZAE1397MB"
+      },
+      "8424450103500": {
+        "kod": "202600622",
+        "nazov": "Kabel koax. Televes 215501 Cu / 100m / 6,6 mm / ČERNÝ",
+        "dodavatel": "atos",
+        "code": "2155"
+      },
+      "8590109046716": {
+        "kod": "202600623",
+        "nazov": "Rozbočovač Ivo I133 aktivní 8x výst.\"F\" 18 dB + zdroj 12V/155mA (1-69.kanál)",
+        "dodavatel": "atos",
+        "code": "IVO-I133-F"
+      },
+      "5901890049771": {
+        "kod": "202600624",
+        "nazov": "F konektor 6.8 mm FF0 | WTY0450-3.1",
+        "dodavatel": "atos",
+        "code": "FF0S"
+      },
+      "5901890049818": {
+        "kod": "202600625",
+        "nazov": "F konektor 7,2 mm FF0A | WTY0450-5.1",
+        "dodavatel": "atos",
+        "code": "FF0AL"
+      },
+      "4012386031505": {
+        "kod": "202600626",
+        "nazov": "F konektor krimpovací 7 mm FF7",
+        "dodavatel": "atos",
+        "code": "FF7"
+      },
+      "5901436730118": {
+        "kod": "202600627",
+        "nazov": "F konektor zakončovací FF20 | WTY0611",
+        "dodavatel": "atos",
+        "code": "FF20"
       }
     }
   },
