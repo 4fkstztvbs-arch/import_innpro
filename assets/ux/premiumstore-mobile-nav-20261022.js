@@ -81,7 +81,7 @@
     function saveRecent(q){try{var r=getRecent().filter(function(x){return x!==q;});r.unshift(q);localStorage.setItem('pmb_recent',JSON.stringify(r.slice(0,5)));}catch(e){}}
     function go(q){q=(q||'').trim();if(!q)return;saveRecent(q);location.href='/vyhladavanie/?string='+encodeURIComponent(q);}
     var nat=document.querySelector('.search'),home=null,homeNext=null;
-    function releaseSearch(){if(nat&&home&&nat.parentNode!==home){var rp=nat.querySelector('.js-search-input');if(rp&&rp.getAttribute('data-pmb-ph')!==null)rp.placeholder=rp.getAttribute('data-pmb-ph');home.insertBefore(nat,homeNext);}}
+    function releaseSearch(){if(nat&&home&&nat.parentNode!==home)home.insertBefore(nat,homeNext);}
     function buildSearch(){
       var h='<div class="pmb-grab"></div><div class="pmb-top"><h3>Hľadať</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div><div class="pmb-body">';
       h+=nat?'<div id="pmb-slot"></div>':
@@ -96,7 +96,7 @@
       }
       h+='</div></div>';
       sh.innerHTML=h;
-      if(nat){home=nat.parentNode;homeNext=nat.nextSibling;sh.querySelector('#pmb-slot').appendChild(nat);var pi=nat.querySelector('.js-search-input');if(pi){if(pi.getAttribute('data-pmb-ph')===null)pi.setAttribute('data-pmb-ph',pi.placeholder);pi.placeholder='Hľadať produkt, značku alebo kód';pi.setAttribute('enterkeyhint','search');}}
+      if(nat){home=nat.parentNode;homeNext=nat.nextSibling;sh.querySelector('#pmb-slot').appendChild(nat);var pi=nat.querySelector('.js-search-input');if(pi)pi.setAttribute('enterkeyhint','search');}
     }
     function searchInput(){return sh.querySelector('.js-search-input')||sh.querySelector('input[type=search]');}
     function fillSearch(q){
