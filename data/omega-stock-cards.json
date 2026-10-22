@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600602,
+    "nextCardNumber": 202600609,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3608,6 +3608,48 @@
         "nazov": "ELEGOO Rapid PLA+",
         "dodavatel": "innpro",
         "code": "085269"
+      },
+      "6974028140069": {
+        "kod": "202600602",
+        "nazov": "OneOdio Pro 10",
+        "dodavatel": "innpro",
+        "code": "045425"
+      },
+      "6972237681823": {
+        "kod": "202600603",
+        "nazov": "Maono BA92 Boom Arm",
+        "dodavatel": "innpro",
+        "code": "068198"
+      },
+      "6972237682387": {
+        "kod": "202600604",
+        "nazov": "Maono PD300X Microphone",
+        "dodavatel": "innpro",
+        "code": "075413"
+      },
+      "6975377554811": {
+        "kod": "202600605",
+        "nazov": "RCA-02 Gen 2 Air #7 Dune",
+        "dodavatel": "innpro",
+        "code": "082727"
+      },
+      "6975377554897": {
+        "kod": "202600606",
+        "nazov": "RCA-02 Gen 2 Air #11 Dune",
+        "dodavatel": "innpro",
+        "code": "082731"
+      },
+      "6977905743148": {
+        "kod": "202600607",
+        "nazov": "SpacePi X4L Filament Dryer",
+        "dodavatel": "innpro",
+        "code": "085925"
+      },
+      "6930460009494": {
+        "kod": "202600608",
+        "nazov": "SkyRC MC5000 Battery",
+        "dodavatel": "innpro",
+        "code": "095025"
       }
     }
   },
