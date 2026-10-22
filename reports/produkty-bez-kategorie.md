@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-22 18:45 UTC.
+Kontrola z 2026-10-22 19:37 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -12,6 +12,12 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | Kód | Produkt |
 |---|---|
 | `MS-GARNI 1NG3` | Integrované čidlo Garni 1NG pre meteostanice Garni (AT_MS-GARNI 1NG3) |
+
+## basys — 1 ks
+
+| Kód | Produkt |
+|---|---|
+| `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
 
 ## innpro — 6 ks
 

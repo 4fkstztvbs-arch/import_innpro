@@ -7696,6 +7696,7 @@ CE
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>5860</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Komunikacja]]></NAME>
@@ -7712,7 +7713,6 @@ CE
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <PRICE_VAT>9.90</PRICE_VAT>
 <PURCHASE_PRICE>7.49</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -23091,8 +23091,8 @@ Rozmery
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>8.70</PRICE_VAT>
-<PURCHASE_PRICE>6.15</PURCHASE_PRICE>
+<PRICE_VAT>8.30</PRICE_VAT>
+<PURCHASE_PRICE>5.84</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vodotesné puzdro Telesin pre GoPro Hero 9 / Hero 10… | premiumstore.sk]]></SEO_TITLE>
@@ -23681,8 +23681,8 @@ AUX 3,5 mm
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.90</PRICE_VAT>
-<PURCHASE_PRICE>8.33</PURCHASE_PRICE>
+<PRICE_VAT>10.00</PRICE_VAT>
+<PURCHASE_PRICE>7.12</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vysielač / prijímač BlitzWolf BW-BL2, Bluetooth 5.0 | premiumstore.sk]]></SEO_TITLE>
@@ -90692,7 +90692,6 @@ IEEE 802.11b/g/n 2,4 GHz
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.03</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <PRICE_VAT>8.60</PRICE_VAT>
 <PURCHASE_PRICE>6.64</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -107770,6 +107769,7 @@ Hmotnosť
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -124286,6 +124286,7 @@ zložený: 200 x 118 x 93 mm, rozložené: 198 x 92 x 13 mm
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY>
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 (ZG73) - obrázok 1">https://b2b.innpro.sk/hpeciai/cb6e43fc138f96b4924d37b7a3dd215a/36994_1.jpg</IMAGE>
   <IMAGE description="Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 (ZG73) - obrázok 2">https://b2b.innpro.sk/hpeciai/71763bc5a36c42d205b7086fa7b6d41c/36994_2.jpg</IMAGE>
@@ -127839,7 +127840,6 @@ TPU+PC+PU
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <PRICE_VAT>58.50</PRICE_VAT>
 <PURCHASE_PRICE>41.19</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -143183,6 +143183,7 @@ Dancing Circle
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.10</PRICE_VAT>
 <PURCHASE_PRICE>2.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -148829,73 +148830,6 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[LED svetelný panel Neewer GL1 Pro 2900–7000 K | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[LED svetelný panel Neewer GL1 Pro 2900–7000 K – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Kit Neewer ZC-10S two lamps LED + filters + tripods]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Neewer ZC-10S studio kit two LED lights + filters + tripods. Create a professional studio in your home. The Neewer ZC-10S kit offers 2 lamps, 2 tripods, color filters and extension rods, so you can…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Neewer ZC-10S studio kit two LED lights + filters + tripods.</h3>
-<p>Create a professional studio in your home. The Neewer ZC-10S kit offers 2 lamps, 2 tripods, color filters and extension rods, so you can easily prepare your chosen location for photo shoots or live broadcasts. You can adjust the height of the tripods and the brightness of the lamps (10%-100%), so you can customize their performance. In turn, operation is facilitated by a switch integrated into the lamp cord - quickly and conveniently increase or decrease the brightness level.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/6086/7146/1.jpg"/>
-</p><h3>Power supply from a USB port</h3>
-<p>LED lamps can be powered by a USB wall charger (5V 2A) or a USB power strip. For continuous, long-term use, avoid powering the lamp with a laptop, tablet or powerbank. This can cause the equipment to discharge quickly and not produce enough output power.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/6086/7146/2.jpg"/>
-</p><h3>Freedom of use</h3>
-<p>Create unique shots and materials. The kit comes with 8 filters in 4 colors (white, yellow, blue, red), which provide the ability to create colorful lighting effects. You will successfully use them when creating photos, video interviews, or live streaming on YouTube, etc.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/6086/7146/3.jpg"/>
-</p><h3>Foldable tripod</h3>
-<p>With a standard ¼" thread, the tripod can be mounted directly on the lighting panel - so you can illuminate the lower part of the frame. What's more, the tripod is easy to unfold/fold. Its height can be adjusted from 22.5 cm to 116 cm using an extension rod (included).</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/6086/7146/9.jpg"/>
-</p>
-<h3>Included</h3>
-<ul class="list-disc pl-5"><li>LED lamps x2</li><li>tripods x2</li><li>extension rods x2</li><li>filters (x2 white, x2 yellow, x2 blue, x2 red)</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Manufacturer</th><td>Neewer</td></tr><tr><th>Model</th><td>ZC-10S</td></tr><tr><th>Color rendering index</th><td>90+ CRI</td></tr><tr><th>Brightness</th><td>1000 lux</td></tr><tr><th>Color temperature</th><td>5600 K</td></tr><tr><th>Output power</th><td>15 W</td></tr><tr><th>Number of LED beads</th><td>66</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=71821_42310_pol_6b234643577b980671d7aab0aeb0f066" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/fotograficke-a-video-svetla/">Fotografické a video svetlá</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Neewer]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>065005</CODE>
-<EAN>6976831830212</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér]]></CATEGORY></CATEGORIES>
-<HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="Kit Neewer ZC-10S two lamps LED + filters + tripods">https://b2b.innpro.sk/hpeciai/8bf17d6f10aef32414cd386894ab1057/42310_1.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[So stojanom]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Nastaviteľná intenzita]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.17</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>25.50</PRICE_VAT>
-<PURCHASE_PRICE>18.01</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Kit Neewer ZC-10S two lamps LED + filters + tripods | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Kit Neewer ZC-10S two lamps LED + filters + tripods – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Lamp LED Neewer MS150B Bi Color 130W 2700-6500K]]></NAME>
@@ -161788,72 +161722,6 @@ Inteligentná fontána pre zvieratá Eversweet Max Petkit
 <META_DESCRIPTION><![CDATA[Automatic double pet feeder  WiFi Oneisall – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Pet trimmer 4 in 1 Oneisall]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Oneisall 4-in-1 Pet Trimmer The Oneisall N12 pet trimmer is the ideal solution for small and medium-sized pet owners who want to take care of their pets' hygiene and appearance at home. The trimmer…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Oneisall 4-in-1 Pet Trimmer</h3>
-<p>The Oneisall N12 pet trimmer is the ideal solution for small and medium-sized pet owners who want to take care of their pets' hygiene and appearance at home. The trimmer is characterized by low noise and efficient operation, which makes clipping comfortable for both pets and their caregivers. The device will work well for both coat grooming and claw trimming. Thanks to the interchangeable attachments, you can adapt the trimmer to your pet's different grooming needs.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/7107/8273/5.jpg"/>
-</p><h3>Quiet operation</h3>
-<p>The Oneisall N12 trimmer operates at a noise level of less than 60 dB, which significantly reduces stress for pets during shearing. This allows even the most noise-sensitive pets to feel at ease during grooming.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/7107/8273/2.jpg"/>
-</p><h3>Powerful battery</h3>
-<p>Equipped with a 600 mAh lithium-ion battery, the Oneisall N12 trimmer provides up to 90 minutes of use on a single charge. The charging time is only 60 minutes, allowing you to quickly prepare the device for your next haircutting session. The included USB cable will allow you to renew the device's power.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/7107/8273/7.jpg"/>
-</p><h3>Adjustable motor speed</h3>
-<p>The trimmer has two motor speeds: 5500 and 6200 rpm. This allows you to adjust the speed of the device according to your pet's needs and the type of its coat, ensuring accurate and safe clipping.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/7107/8273/8.jpg"/>
-</p>
-<h3>Included</h3>
-<ul class="list-disc pl-5"><li>trimmer</li><li>3/1.5mm comb attachments</li><li>x4 heads (standard, medium, small/claw grinding)</li><li>DC to USB charging cable</li><li>cleaning brush</li><li>blade oil</li><li>user manual</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Manufacturer</th><td>Oneisall</td></tr><tr><th>Model</th><td>N12</td></tr><tr><th>Color</th><td>white</td></tr><tr><th>Noise level</th><td><60db</td></tr><tr><th>Rechargeable battery</th><td>lithium-ion</td></tr><tr><th>Rechargeable battery capacity</th><td>600 mAh</td></tr><tr><th>Operating time</th><td>90 minutes</td></tr><tr><th>Charging time</th><td>60 minutes</td></tr><tr><th>Motor speed</th><td>5500/6200 rpm</td></tr><tr><th>Purpose</th><td>small/medium animals</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=72270_43776_pol_2a8aa0f244765833c7e3db5b5284f510" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/starostlivost-o-zvierata/">Starostlivosť o zvieratá</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Oneisall]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>065832</CODE>
-<EAN>6934399223242</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Chovateľské potreby > Starostlivosť o zvieratá]]></CATEGORY>
-  <CATEGORY><![CDATA[Chovateľské potreby]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="Pet trimmer 4 in 1 Oneisall - obrázok 1">https://b2b.innpro.sk/hpeciai/9bbbd02850aa65ee7a4f21b64918e4d7/43776_1.jpg</IMAGE>
-  <IMAGE description="Pet trimmer 4 in 1 Oneisall - obrázok 2">https://b2b.innpro.sk/hpeciai/ad65999d314cf0eb7e348efd3f463a0d/43776_2.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Kategória]]></NAME>
-    <VALUE><![CDATA[Zastrihávače a holiace strojčeky]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.50</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>21.00</PRICE_VAT>
-<PURCHASE_PRICE>14.89</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Pet trimmer 4 in 1 Oneisall | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Pet trimmer 4 in 1 Oneisall – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Selfie stick TELESIN with ball head for action cameras]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[TELESIN selfie holder with round head for sports cameras Take your filming skills to a new level with the TELESIN selfie holder with round head. This practical accessory is ideal for dynamic shots,…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>TELESIN selfie holder with round head for sports cameras</h3>
@@ -173213,8 +173081,7 @@ Obsah balenia
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>2.31</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>78.00</PRICE_VAT>
+<PRICE_VAT>85.50</PRICE_VAT>
 <PURCHASE_PRICE>60.38</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -174815,8 +174682,8 @@ Obsah balenia
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>14.00</PRICE_VAT>
-<PURCHASE_PRICE>10.05</PURCHASE_PRICE>
+<PRICE_VAT>13.90</PRICE_VAT>
+<PURCHASE_PRICE>9.71</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Telesin magnetic mount for sports cameras | premiumstore.sk]]></SEO_TITLE>
@@ -176508,8 +176375,8 @@ Obsah balenia:
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.23</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>9.30</PRICE_VAT>
-<PURCHASE_PRICE>6.61</PURCHASE_PRICE>
+<PRICE_VAT>9.10</PRICE_VAT>
+<PURCHASE_PRICE>6.41</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[TELESIN chest mount for sports cameras | premiumstore.sk]]></SEO_TITLE>
@@ -180395,7 +180262,7 @@ Obsah balenia:
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.28</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>22.90</PRICE_VAT>
+<PRICE_VAT>18.50</PRICE_VAT>
 <PURCHASE_PRICE>13.11</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -181778,14 +181645,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -204813,14 +204680,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -210816,127 +210683,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Držiak PULUZ pre Insta360 X4 (čierny) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Držiak PULUZ pre Insta360 X4 (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Dvojzónový indukčný sporák IsEasy LI2V-22]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Dvojzónový indukčný sporák IsEasy LI2V-22 Indukčný sporák IsEasy LI2V-22 je ideálny do každej kuchyne. Vďaka dvom vykurovacím zónam s výkonom až 2 000 W (každá) je príprava jedla rýchla a pohodlná.…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Dvojzónový indukčný sporák IsEasy LI2V-22</h3>
-<p>Indukčný sporák IsEasy LI2V-22 je ideálny do každej kuchyne. Vďaka dvom vykurovacím zónam s výkonom až 2 000 W (každá) je príprava jedla rýchla a pohodlná. Elegantný sklenený povrch dodáva sporáku štýlový vzhľad, ktorý sa hodí k interiéru vašej kuchyne. Okrem toho vám dotykový panel umožní nastaviť parametre varenia podľa vašich potrieb. K dispozícii je aj funkcia časovača (99 minút).</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/11972/14191/6.jpg"/>
-</p><h3>Efektívne a rýchle varenie</h3>
-<p>Vďaka vykurovacím zónam s výkonom od 1800 do 2000 W vám sporák IsEasy LI2V-22 umožňuje variť dva rôzne pokrmy súčasne. Indukcia funguje na princípe rýchleho ohrevu pokrmov pomocou magnetického poľa, čo výrazne skracuje čas varenia v porovnaní s tradičnými elektrickými alebo plynovými sporákmi. Maximálny príkon zariadenia je 3 400 W, čo znamená, že obe zóny môžu pracovať pri vysokom výkone súčasne bez poklesu výkonu.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/11972/14191/3.jpg"/>
-</p><h3>Jednoduché ovládanie a pohodlné používanie</h3>
-<p>Sporák IsEasy LI2V-22 je vybavený intuitívnym dotykovým panelom na pohodlné ovládanie zariadenia. Vďaka 9 úrovniam výkonu môžete presne nastaviť intenzitu ohrevu podľa rôznych potrieb. Smaženie s vysokou teplotou, ohrievanie alebo rýchle varenie vody - to všetko je možné vďaka širokému rozsahu výkonu. Ďalším bonusom je funkcia časovača, ktorá umožňuje naprogramovať čas varenia až na 99 minút. Vďaka tomu sa môžete venovať iným činnostiam bez obáv z pripálenia jedla.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/11972/14191/2.jpg"/>
-</p><h3>Bezpečnosť na prvom mieste</h3>
-<p>Indukčný varič IsEasy LI2V-22 dbá na bezpečnosť používateľa na niekoľkých úrovniach. Detská poistka zabraňuje náhodnému zapnutiu spotrebiča najmladšími členmi domácnosti, čo je dôležité najmä v rodinách s deťmi. Funkcia automatického vypnutia chráni pred prehriatím sporáka tým, že ho v prípade potreby vypne.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/11972/14191/4.jpg"/>
-</p><h3>Tichá prevádzka a jednoduché čistenie</h3>
-<p>Sporák IsEasy LI2V-22 počas prevádzky generuje nízku hladinu hluku. Vďaka ventilátoru s 9 lopatkami zariadenie účinne odvádza teplo, vďaka čomu je varenie menej namáhavé, najmä v malých priestoroch. Okrem toho sa sklenený povrch sporáka veľmi ľahko čistí. Stačí ho utrieť mäkkou vlhkou handričkou, aby ste odstránili všetky nečistoty.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/11972/14191/1.jpg"/>
-</p><h3>Kompaktné rozmery a všestrannosť</h3>
-<p>Vďaka kompaktnému dizajnu sa sporák ľahko zmestí do menších kuchýň. Vďaka optimálnemu priemeru 12 až 26 cm si sporák rozumie s väčšinou štandardných hrncov a panvíc. Je potrebné pripomenúť, že zariadenie funguje len s liatinovým, smaltovaným a nerezovým riadom. Nepoužívajte keramický, sklenený alebo hliníkový riad, pretože nie sú kompatibilné s indukciou.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/11972/14191/5.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>IsEasy</td></tr><tr><th>Model</th><td>LI2V-22</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Zóna 1</th><td>1800-2000W</td></tr><tr><th>Zóna 2</th><td>1800-2000W</td></tr><tr><th>Povrchová úprava</th><td>sklo</td></tr><tr><th>Šírka</th><td>295 mm</td></tr><tr><th>Indikátor tepla</th><td>Áno</td></tr><tr><th>Ovládanie</th><td>dotykový panel</td></tr><tr><th>Úrovne výkonu</th><td>9</td></tr><tr><th>Časovač</th><td>99 min.</td></tr><tr><th>Poistka</th><td>15,5 A</td></tr><tr><th>Maximálny menovitý výkon</th><td>3400 W</td></tr><tr><th>Rozmery sporáka</th><td>51 x 29,5 x 6,9 cm</td></tr><tr><th>Inštalačné rozmery (výklenky v pracovnej doske)</th><td>49 x 27 cm</td></tr><tr><th>Hmotnosť</th><td>4,3 kg</td></tr><tr><th>Optimálny priemer misky</th><td>12-26 cm</td></tr><tr><th>Materiál riadu</th><td>Nerezová oceľ, liatina, smaltovaná liatina (nepoužívajte keramický, sklenený alebo hliníkový riad)</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73757_49539_pol_1f01979546b9d73442f5d26d7a647326" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-potreby/">Kuchynské pomôcky</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[IsEasy]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>074141</CODE>
-<EAN>6977132450031</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky]]></CATEGORY>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
-  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Dvojzónový indukčný sporák IsEasy LI2V-22 - obrázok 1">https://b2b.innpro.sk/hpeciai/ddd61ac952bbb70e46705f884ce26dab/49539_1.jpg</IMAGE>
-  <IMAGE description="Dvojzónový indukčný sporák IsEasy LI2V-22 - obrázok 2">https://b2b.innpro.sk/hpeciai/9f9a84b0e62b26ff8dae299ab7b77df9/49539_2.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[IsEasy]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[čierna]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Zóna 1]]></NAME>
-    <VALUE><![CDATA[1800-2000W]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Zóna 2]]></NAME>
-    <VALUE><![CDATA[1800-2000W]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Povrchová úprava]]></NAME>
-    <VALUE><![CDATA[sklo]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Šírka]]></NAME>
-    <VALUE><![CDATA[295 mm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Ovládanie]]></NAME>
-    <VALUE><![CDATA[dotykový panel]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Úrovne výkonu]]></NAME>
-    <VALUE><![CDATA[9]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Časovač]]></NAME>
-    <VALUE><![CDATA[99 min]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Poistka]]></NAME>
-    <VALUE><![CDATA[15,5 A]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálny menovitý výkon]]></NAME>
-    <VALUE><![CDATA[3400 W]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Výkon]]></NAME>
-    <VALUE><![CDATA[3400 W]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[12 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>5.44</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>98.90</PRICE_VAT>
-<PURCHASE_PRICE>58.10</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Dvojzónový indukčný sporák IsEasy LI2V-22 | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Dvojzónový indukčný sporák IsEasy LI2V-22 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[isEasy LT2V-15 Two-Zones electric ceramic stove]]></NAME>
@@ -221641,7 +221387,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>15.50</PRICE_VAT>
-<PURCHASE_PRICE>10.65</PURCHASE_PRICE>
+<PURCHASE_PRICE>10.45</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Nabíjačka troch batérií pre GoPro Hero 13 Black… | premiumstore.sk]]></SEO_TITLE>
@@ -225773,14 +225519,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -246599,7 +246348,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>24.00</PRICE_VAT>
-<PURCHASE_PRICE>14.53</PURCHASE_PRICE>
+<PURCHASE_PRICE>13.08</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Diaľkové ovládanie GoPro Hero 13/12/11/10/9/8/MAX –… | premiumstore.sk]]></SEO_TITLE>
@@ -272039,8 +271788,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.29</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>18.50</PRICE_VAT>
-<PURCHASE_PRICE>12.97</PURCHASE_PRICE>
+<PRICE_VAT>16.50</PRICE_VAT>
+<PURCHASE_PRICE>10.24</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Automatický hadicový časovač Rainpoint ITV152 | premiumstore.sk]]></SEO_TITLE>
@@ -272152,8 +271901,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.34</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>21.90</PRICE_VAT>
-<PURCHASE_PRICE>15.46</PURCHASE_PRICE>
+<PRICE_VAT>19.50</PRICE_VAT>
+<PURCHASE_PRICE>13.73</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[1-zónový hadicový časovač Rainpoint ITV105 | premiumstore.sk]]></SEO_TITLE>
@@ -272321,7 +272070,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>0.55</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>27.50</PRICE_VAT>
-<PURCHASE_PRICE>18.28</PURCHASE_PRICE>
+<PURCHASE_PRICE>19.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[2-zónový hadicový časovač Rainpoint ITV205 | premiumstore.sk]]></SEO_TITLE>
@@ -272442,7 +272191,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>0.83</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>45.50</PRICE_VAT>
-<PURCHASE_PRICE>30.03</PURCHASE_PRICE>
+<PURCHASE_PRICE>32.55</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[3-zónový hadicový časovač RainPoint ITV305 | premiumstore.sk]]></SEO_TITLE>
@@ -272572,8 +272321,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.52</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>39.90</PRICE_VAT>
-<PURCHASE_PRICE>28.16</PURCHASE_PRICE>
+<PRICE_VAT>38.00</PRICE_VAT>
+<PURCHASE_PRICE>27.02</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[RainPoint Wifi 1-zónový ovládač zavlažovania s… | premiumstore.sk]]></SEO_TITLE>
@@ -272684,8 +272433,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>47.50</PRICE_VAT>
-<PURCHASE_PRICE>33.50</PURCHASE_PRICE>
+<PRICE_VAT>44.50</PRICE_VAT>
+<PURCHASE_PRICE>31.37</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[2-zónový zavlažovací regulátor s bránou RainPoint… | premiumstore.sk]]></SEO_TITLE>
@@ -272847,8 +272596,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.12</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>60.90</PRICE_VAT>
-<PURCHASE_PRICE>43.08</PURCHASE_PRICE>
+<PRICE_VAT>59.90</PRICE_VAT>
+<PURCHASE_PRICE>42.23</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[RainPoint WiFi 4-zónový ovládač zavlažovania | premiumstore.sk]]></SEO_TITLE>
@@ -272939,8 +272688,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.67</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>18.50</PRICE_VAT>
-<PURCHASE_PRICE>13.03</PURCHASE_PRICE>
+<PRICE_VAT>17.50</PRICE_VAT>
+<PURCHASE_PRICE>12.32</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Brána riadiacej jednotky zavlažovania RainPoint WiFi | premiumstore.sk]]></SEO_TITLE>
@@ -273139,8 +272888,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.85</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>48.50</PRICE_VAT>
-<PURCHASE_PRICE>34.12</PURCHASE_PRICE>
+<PRICE_VAT>46.50</PRICE_VAT>
+<PURCHASE_PRICE>32.70</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[2-zónový ovládač zavlažovania RainPoint s aplikáciou | premiumstore.sk]]></SEO_TITLE>
@@ -273425,8 +273174,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.61</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>45.50</PRICE_VAT>
-<PURCHASE_PRICE>32.22</PURCHASE_PRICE>
+<PRICE_VAT>43.00</PRICE_VAT>
+<PURCHASE_PRICE>30.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[2-zónový ovládač zavlažovania RainPoint s aplikáciou | premiumstore.sk]]></SEO_TITLE>
@@ -273548,7 +273297,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>1.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>61.00</PRICE_VAT>
-<PURCHASE_PRICE>43.59</PURCHASE_PRICE>
+<PURCHASE_PRICE>45.77</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Súprava inteligentného solárneho vodného čerpadla s… | premiumstore.sk]]></SEO_TITLE>
@@ -273604,8 +273353,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.55</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>17.00</PRICE_VAT>
-<PURCHASE_PRICE>12.02</PURCHASE_PRICE>
+<PRICE_VAT>16.50</PRICE_VAT>
+<PURCHASE_PRICE>11.76</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Príslušenstvo pre kvapkovú závlahu RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -273721,8 +273470,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.84</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>24.00</PRICE_VAT>
-<PURCHASE_PRICE>16.97</PURCHASE_PRICE>
+<PRICE_VAT>23.90</PRICE_VAT>
+<PURCHASE_PRICE>16.88</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[RainPoint 4-zónový regulátor zavlažovania s… | premiumstore.sk]]></SEO_TITLE>
@@ -273848,7 +273597,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>1.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>60.00</PRICE_VAT>
-<PURCHASE_PRICE>41.40</PURCHASE_PRICE>
+<PURCHASE_PRICE>39.69</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[RainPoint WiFi 8-zónový regulátor zavlažovania | premiumstore.sk]]></SEO_TITLE>
@@ -274032,7 +273781,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>0.51</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>16.50</PRICE_VAT>
-<PURCHASE_PRICE>10.47</PURCHASE_PRICE>
+<PURCHASE_PRICE>10.74</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Záhradné elektromagnetické ventily AC 1 " RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -274127,8 +273876,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.49</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>15.90</PRICE_VAT>
-<PURCHASE_PRICE>11.15</PURCHASE_PRICE>
+<PRICE_VAT>16.50</PRICE_VAT>
+<PURCHASE_PRICE>11.70</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Záhradné elektromagnetické ventily DC 1" RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -274236,8 +273985,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>8.60</PRICE_VAT>
-<PURCHASE_PRICE>6.08</PURCHASE_PRICE>
+<PRICE_VAT>9.00</PRICE_VAT>
+<PURCHASE_PRICE>6.39</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Digitálny prietokomer RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -274332,8 +274081,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.41</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>14.50</PRICE_VAT>
-<PURCHASE_PRICE>10.26</PURCHASE_PRICE>
+<PRICE_VAT>14.00</PRICE_VAT>
+<PURCHASE_PRICE>10.00</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Dvojité záhradné nohavice Splitter RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -282039,8 +281788,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.97</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>30.90</PRICE_VAT>
+<PRICE_VAT>33.90</PRICE_VAT>
 <PURCHASE_PRICE>23.88</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -296010,6 +295758,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.70</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -308707,6 +308456,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <EAN>5905156100640</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Magnetický držiak Sunnylife MJ033 pre (OSMO 360, Insta360 GO Ultra)">https://b2b.innpro.sk/hpeciai/7c99472667063f6c7a5bb81610fe9fcb/55655_1.jpg</IMAGE>
 </IMAGES>
@@ -317022,6 +316772,71 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Slúchadlá TWS ONIUKMA TX603 (ružové) od ONIKUMA – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Arzopa 17,3" puzdro na monitor]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Puzdro na monitor Arzopa 17,3&quot; Puzdro na monitor Arzopa je minimalistické a elegantné riešenie na bezpečnú prepravu prenosných monitorov, notebookov a tabletov s uhlopriečkou obrazovky od…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Puzdro na monitor Arzopa 17,3&quot;</h3>
+<p>Puzdro na monitor Arzopa je minimalistické a elegantné riešenie na bezpečnú prepravu prenosných monitorov, notebookov a tabletov s uhlopriečkou obrazovky od 16,1&quot; do 17,3&quot;. Kombinuje PU kožu s praktickým formátom, ktorý je ideálny na každodenné použitie a cestovanie. Jednoduchý, elegantný dizajn robí z puzdra dobrého spoločníka pre kancelárske zariadenia aj mobilné súpravy na prácu na diaľku.</p>
+<p>
+<img alt="Sivé puzdro na notebook stojace na bielom pozadí" border="0" src="https://assets.innpro.pl/19443/25918/Etui-na-monitor-Arzopa-3.jpg"/>
+</p><h3>Univerzálne použitie pre rôzne zariadenia</h3>
+<p>S rozmermi 41 x 27,5 cm je puzdro vhodné pre prenosné monitory, notebooky a tablety s uhlopriečkou obrazovky od 16,1&quot; do 17,3&quot;. Je to praktické riešenie pre ľudí, ktorí používajú rôzne zariadenia a chcú ich chrániť jedným univerzálnym puzdrom.</p>
+<p>
+<img alt="Tablet a puzdro ležiace vedľa seba" border="0" src="https://assets.innpro.pl/19443/25918/Etui-na-monitor-Arzopa-2.jpg"/>
+</p><h3>Pohodlie v každej situácii</h3>
+<p>Vďaka tenkému dizajnu môžete puzdro ľahko vložiť do batohu alebo tašky bez toho, aby ste zvýšili objem svojho batožiny. Puzdro je určené pre mobilných používateľov, ktorí ocenia kombináciu funkčnosti, estetiky a spoľahlivej ochrany svojho zariadenia.</p>
+<p>
+<img alt="Puzdro na notebook Arzopa otočené smerom k fotoaparátu" border="0" src="https://assets.innpro.pl/19443/25918/Etui-na-monitor-Arzopa-1.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Arzopa</td></tr><tr><th>Model</th><td>17,3&quot; taška na puzdro</td></tr><tr><th>Farba</th><td>Sivá</td></tr><tr><th>Kompatibilita</th><td>Notebooky, tablety a prenosné monitory s uhlopriečkou obrazovky od 16,1&quot; do 17,3&quot;</td></tr><tr><th>Rozmery</th><td>41 x 27,5 cm</td></tr><tr><th>Materiál</th><td>PU koža</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76435_56255_pol_a50ce8f9bab39aae254d3f9cdc5f1ffd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/tablety-4/">Tablety</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[ARZOPA]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>082765</CODE>
+<EAN>5905156101227</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="Arzopa 17,3&quot; puzdro na monitor">https://b2b.innpro.sk/hpeciai/b90a56c60304ebe70a63ff371f22c1bc/56255_1.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[Ostatné]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[S klávesnicou]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.38</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
+<PRICE_VAT>11.50</PRICE_VAT>
+<PURCHASE_PRICE>8.20</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Arzopa 17,3" puzdro na monitor | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Arzopa 17,3" puzdro na monitor – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Detektor kovov Garrett ACE 150]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Detektor kovov Garrett ACE 150 Garrett ACE 150 je inovatívny model z vysoko cenenej série ACE, ktorý kombinuje jednoduché používanie s pokročilými funkciami, aby ponúkol efektívny a užitočný zážitok…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Detektor kovov Garrett ACE 150</h3>
@@ -321811,6 +321626,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -327933,7 +327749,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>8.50</PRICE_VAT>
-<PURCHASE_PRICE>6.04</PURCHASE_PRICE>
+<PURCHASE_PRICE>6.01</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Telesin DisAdv EVA univerzálna mini transportná… | premiumstore.sk]]></SEO_TITLE>
@@ -350025,8 +349841,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.25</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>8.50</PRICE_VAT>
-<PURCHASE_PRICE>6.00</PURCHASE_PRICE>
+<PRICE_VAT>9.00</PRICE_VAT>
+<PURCHASE_PRICE>6.39</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Dažďový senzor RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -350267,8 +350083,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.41</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>13.50</PRICE_VAT>
-<PURCHASE_PRICE>9.44</PURCHASE_PRICE>
+<PRICE_VAT>14.00</PRICE_VAT>
+<PURCHASE_PRICE>9.88</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Ovládač zavlažovania RainPoint ITV121 | premiumstore.sk]]></SEO_TITLE>
@@ -350602,8 +350418,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>46.50</PRICE_VAT>
-<PURCHASE_PRICE>32.94</PURCHASE_PRICE>
+<PRICE_VAT>42.90</PRICE_VAT>
+<PURCHASE_PRICE>30.24</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solárna zavlažovacia súprava RainPoint IK15P | premiumstore.sk]]></SEO_TITLE>
@@ -350709,7 +350525,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>0.65</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>27.50</PRICE_VAT>
-<PURCHASE_PRICE>15.50</PURCHASE_PRICE>
+<PURCHASE_PRICE>14.79</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Súprava na polievanie kvetín v črepníkoch RainPoint… | premiumstore.sk]]></SEO_TITLE>
@@ -350826,8 +350642,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.86</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>24.90</PRICE_VAT>
-<PURCHASE_PRICE>17.58</PURCHASE_PRICE>
+<PRICE_VAT>26.00</PRICE_VAT>
+<PURCHASE_PRICE>18.39</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[4-zónový digitálny regulátor zavlažovania na… | premiumstore.sk]]></SEO_TITLE>
@@ -350930,8 +350746,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.41</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>14.50</PRICE_VAT>
-<PURCHASE_PRICE>10.33</PURCHASE_PRICE>
+<PRICE_VAT>15.50</PRICE_VAT>
+<PURCHASE_PRICE>10.85</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[1" elektronický zavlažovací ventil na jednosmerný… | premiumstore.sk]]></SEO_TITLE>
@@ -351026,8 +350842,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.41</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>16.00</PRICE_VAT>
-<PURCHASE_PRICE>11.32</PURCHASE_PRICE>
+<PRICE_VAT>15.50</PRICE_VAT>
+<PURCHASE_PRICE>10.85</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[1" elektronický zavlažovací ventil na striedavý… | premiumstore.sk]]></SEO_TITLE>
@@ -351146,8 +350962,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.21</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>12.00</PRICE_VAT>
-<PURCHASE_PRICE>8.59</PURCHASE_PRICE>
+<PRICE_VAT>13.00</PRICE_VAT>
+<PURCHASE_PRICE>9.26</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Digitálny prietokomer RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -351466,8 +351282,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.09</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>5.10</PRICE_VAT>
-<PURCHASE_PRICE>3.63</PURCHASE_PRICE>
+<PRICE_VAT>5.50</PRICE_VAT>
+<PURCHASE_PRICE>3.91</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Inteligentný termohygrometer Rainpoint Smart+ | premiumstore.sk]]></SEO_TITLE>
@@ -351655,8 +351471,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>3.39</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>33.90</PRICE_VAT>
-<PURCHASE_PRICE>23.88</PURCHASE_PRICE>
+<PRICE_VAT>38.00</PRICE_VAT>
+<PURCHASE_PRICE>26.94</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Súprava na zavlažovanie postrekovačmi – RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -351741,7 +351557,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>6.20</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>46.50</PRICE_VAT>
-<PURCHASE_PRICE>26.41</PURCHASE_PRICE>
+<PURCHASE_PRICE>28.23</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Systémy kvapkového a rozprašovacieho zavlažovania –… | premiumstore.sk]]></SEO_TITLE>
@@ -351857,8 +351673,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>3.17</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>72.00</PRICE_VAT>
-<PURCHASE_PRICE>51.01</PURCHASE_PRICE>
+<PRICE_VAT>71.50</PRICE_VAT>
+<PURCHASE_PRICE>50.44</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Hydroponická pestovateľská súprava RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -354155,7 +353971,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>12.93</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>52.90</PRICE_VAT>
-<PURCHASE_PRICE>38.70</PURCHASE_PRICE>
+<PURCHASE_PRICE>34.76</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Počítačová skriňa DarkFlash B275 PRO (biela) + 6… | premiumstore.sk]]></SEO_TITLE>
@@ -363688,8 +363504,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.34</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>93.00</PRICE_VAT>
+<PRICE_VAT>84.50</PRICE_VAT>
 <PURCHASE_PRICE>59.66</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -376011,6 +375826,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <EAN>6933582314071</EAN>
 <CATEGORIES><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Filament Sunlu PLA Classic Black 1.75mm 1KG - obrázok 1">https://b2b.innpro.sk/hpeciai/aa9e97da65f62842d5cb9dbd6f3b160e/57717_1.jpg</IMAGE>
   <IMAGE description="Filament Sunlu PLA Classic Black 1.75mm 1KG - obrázok 2">https://b2b.innpro.sk/hpeciai/3b41e7bcfc92b24295adb42e5d4edf2f/57717_2.jpg</IMAGE>
@@ -376856,7 +376672,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>1.31</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>16.50</PRICE_VAT>
-<PURCHASE_PRICE>9.15</PURCHASE_PRICE>
+<PURCHASE_PRICE>9.22</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vysokorýchlostné čierne vlákno Sunlu PLA+ | premiumstore.sk]]></SEO_TITLE>
@@ -376919,8 +376735,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.31</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>10.90</PRICE_VAT>
-<PURCHASE_PRICE>7.60</PURCHASE_PRICE>
+<PRICE_VAT>11.50</PRICE_VAT>
+<PURCHASE_PRICE>8.13</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vysokorýchlostné biele vlákno Sunlu PLA+ | premiumstore.sk]]></SEO_TITLE>
@@ -377051,8 +376867,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.32</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>13.00</PRICE_VAT>
-<PURCHASE_PRICE>9.28</PURCHASE_PRICE>
+<PRICE_VAT>13.50</PRICE_VAT>
+<PURCHASE_PRICE>9.37</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vysokorýchlostná modrá vláknitá niť Sunlu PLA+ | premiumstore.sk]]></SEO_TITLE>
@@ -377115,8 +376931,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>15.50</PRICE_VAT>
-<PURCHASE_PRICE>11.04</PURCHASE_PRICE>
+<PRICE_VAT>13.50</PRICE_VAT>
+<PURCHASE_PRICE>9.63</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vysokorýchlostná červená vlákna Sunlu PLA+ | premiumstore.sk]]></SEO_TITLE>
@@ -377180,7 +376996,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>13.00</PRICE_VAT>
-<PURCHASE_PRICE>9.27</PURCHASE_PRICE>
+<PURCHASE_PRICE>9.35</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vysokorýchlostné žlté vlákno Sunlu PLA+ | premiumstore.sk]]></SEO_TITLE>
@@ -377244,7 +377060,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>1.31</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>13.50</PRICE_VAT>
-<PURCHASE_PRICE>9.55</PURCHASE_PRICE>
+<PURCHASE_PRICE>9.64</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu PLA+ High-Speed Zelený | premiumstore.sk]]></SEO_TITLE>
@@ -377308,7 +377124,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>1.29</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>13.50</PRICE_VAT>
-<PURCHASE_PRICE>9.54</PURCHASE_PRICE>
+<PURCHASE_PRICE>9.63</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vysokorýchlostná oranžová vlákna Sunlu PLA+ | premiumstore.sk]]></SEO_TITLE>
@@ -377372,7 +377188,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <LOGISTIC><WEIGHT>1.29</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>13.50</PRICE_VAT>
-<PURCHASE_PRICE>9.54</PURCHASE_PRICE>
+<PURCHASE_PRICE>9.63</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vysokorýchlostné ružové vlákno Sunlu PLA+ | premiumstore.sk]]></SEO_TITLE>
@@ -386102,8 +385918,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.29</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.00</PRICE_VAT>
-<PURCHASE_PRICE>7.76</PURCHASE_PRICE>
+<PRICE_VAT>12.50</PRICE_VAT>
+<PURCHASE_PRICE>8.94</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu PLA+ (žltý) | premiumstore.sk]]></SEO_TITLE>
@@ -386490,8 +386306,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.00</PRICE_VAT>
-<PURCHASE_PRICE>7.76</PURCHASE_PRICE>
+<PRICE_VAT>12.50</PRICE_VAT>
+<PURCHASE_PRICE>8.95</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu PLA+ (čokoládová farba) | premiumstore.sk]]></SEO_TITLE>
@@ -387967,8 +387783,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.33</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
-<PURCHASE_PRICE>8.21</PURCHASE_PRICE>
+<PRICE_VAT>11.00</PRICE_VAT>
+<PURCHASE_PRICE>7.82</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu PETG (biely) | premiumstore.sk]]></SEO_TITLE>
@@ -388027,8 +387843,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.34</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
-<PURCHASE_PRICE>8.22</PURCHASE_PRICE>
+<PRICE_VAT>11.00</PRICE_VAT>
+<PURCHASE_PRICE>7.82</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[PETG vlákno Sunlu (červené) | premiumstore.sk]]></SEO_TITLE>
@@ -388828,113 +388644,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Tvrdomer Uni-T Leed UT347A | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Tvrdomer Uni-T Leed UT347A – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Uni-T UT345C Snímač hladiny paliva v nádrži na LPG]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Meradlo hladiny paliva v LPG fľaši Uni-T UT345C Meradlo hladiny paliva v LPG fľaši Uni-T UT345C je prenosné ultrazvukové zariadenie v kompaktnom puzdre v tvare pera, ktoré rýchlo zisťuje hladinu…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Meradlo hladiny paliva v LPG fľaši Uni-T UT345C</h3>
-<p>Meradlo hladiny paliva v LPG fľaši Uni-T UT345C je prenosné ultrazvukové zariadenie v kompaktnom puzdre v tvare pera, ktoré rýchlo zisťuje hladinu plynu v LPG fľašiach (propán/bután) s priemerom približne 200–350 mm. Meranie sa vykonáva bez premiestňovania fľaše – stačí umiestniť sondu v uhle 90° na požadované miesto a odčítať výsledok z LED diód. Zelená LED dióda signalizuje prítomnosť kvapalného plynu, červená LED dióda signalizuje jeho absenciu a blikajúca LED dióda signalizuje, že prebieha meranie. UT345C pracuje v širokom teplotnom rozsahu, je odolný voči menším pádom a je vybavený vstavanou baterkou, čo uľahčuje prácu v podmienkach so slabým osvetlením. Vďaka tomu je ideálny na kempovanie, grilovanie, v stravovacích zariadeniach alebo v predajniach fliaš.</p>
-<p>
-<img alt="Meradlo hladiny LPG Uni-T priložené k fľaši" border="0" src="https://assets.innpro.pl/21244/28160/1.jpg"/>
-</p><h3>Jednoduché meranie bez zbytočných krokov</h3>
-<p>Zariadenie nevyžaduje žiadne ďalšie príslušenstvo ani zložité nastavenie, takže môžete začať merať ihneď po zapnutí. Vďaka kompaktnému dizajnu a napájaniu z AAA batérií ho môžete mať vždy po ruke a rýchla LED indikácia skracuje čas potrebný na kontrolu hladiny plynu. To znamená pohodlie a väčšiu kontrolu nad spotrebou paliva.</p>
-<p>
-<img alt="Meradlo hladiny LPG Uni-T s baterkou vedľa fľaše" border="0" src="https://assets.innpro.pl/21244/28160/2.jpg"/>
-</p><h3>Praktické riešenia pre každodenné použitie</h3>
-<p>Vstavaná baterka pomáha pri práci po zotmení alebo v slabo osvetlených priestoroch a odolná konštrukcia umožňuje bezproblémové použitie v teréne. Široký rozsah prevádzkových teplôt a jednoduchá obsluha robia z UT345C nástroj, ktorý skutočne zjednodušuje používanie LPG fliaš v rôznych podmienkach.</p>
-<p>
-<img alt="Meradlo hladiny LPG Uni-T držané v ruke a priložené k fľaši" border="0" src="https://assets.innpro.pl/21244/28160/3.jpg"/>
-</p>
-<h3>Súčasť balenia</h3>
-<ul class="list-disc pl-5"><li>Merač hladiny LPG Uni-T UT345C</li><li>Návod na použitie</li><li>Bezpečnostné pokyny</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Uni-T</td></tr><tr><th>Model</th><td>UT345C</td></tr><tr><th>Typ zariadenia</th><td>ultrazvukový merač hladiny LPG</td></tr><tr><th>Displej</th><td>LED diódy</td></tr><tr><th>Ďalšie funkcie</th><td>vstavaná baterka, zvukový alarm</td></tr><tr><th>Prevádzková teplota</th><td>-15 °C až 40 °C (≤85 % relatívnej vlhkosti)</td></tr><tr><th>Skladovacia teplota</th><td>-10 °C až 60 °C (≤75 % relatívnej vlhkosti)</td></tr><tr><th>Odolnosť proti pádu</th><td>do 0,5 m</td></tr><tr><th>Napájanie</th><td>2 × AAA (LR03) 1,5 V</td></tr><tr><th>Rozmery</th><td>28 × 32 × 143 mm</td></tr><tr><th>Certifikáty</th><td>CE, UKCA</td></tr><tr><th>Jazyky návodu</th><td>EN, FR, DE, IT, ES, SV, PL, CZ</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/meranie-neelektrickych-velicin/">Meranie neelektrických veličín</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[UNI-T]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>085000</CODE>
-<EAN>6935750534533</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Meranie neelektrických veličín]]></CATEGORY>
-  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
-  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>3053</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Uni-T UT345C Snímač hladiny paliva v nádrži na LPG - obrázok 1">https://b2b.innpro.sk/hpeciai/43112ce0b3ea6c2a8c6a448760a82169/58061_1.jpg</IMAGE>
-  <IMAGE description="Uni-T UT345C Snímač hladiny paliva v nádrži na LPG - obrázok 2">https://b2b.innpro.sk/hpeciai/2f4e3d30651f9fd802b632b90761bc98/58061_2.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[UNI-T]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ zariadenia]]></NAME>
-    <VALUE><![CDATA[ultrazvukový merač hladiny LPG]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Displej]]></NAME>
-    <VALUE><![CDATA[LED diódy]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Ďalšie funkcie]]></NAME>
-    <VALUE><![CDATA[vstavaná baterka, zvukový alarm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Prevádzková teplota]]></NAME>
-    <VALUE><![CDATA[-15 °C až 40 °C (≤85 % relatívnej vlhkosti)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Skladovacia teplota]]></NAME>
-    <VALUE><![CDATA[-10 °C až 60 °C (≤75 % relatívnej vlhkosti)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Odolnosť proti pádu]]></NAME>
-    <VALUE><![CDATA[do 0,5 m]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Napájanie]]></NAME>
-    <VALUE><![CDATA[2 × AAA (LR03) 1,5 V]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozmery]]></NAME>
-    <VALUE><![CDATA[28 × 32 × 143 mm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Certifikáty]]></NAME>
-    <VALUE><![CDATA[CE, UKCA]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Jazyky návodu]]></NAME>
-    <VALUE><![CDATA[EN, FR, DE, IT, ES, SV, PL, CZ]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>28.50</PRICE_VAT>
-<PURCHASE_PRICE>20.16</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Uni-T UT345C Snímač hladiny paliva v nádrži na LPG | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Uni-T UT345C Snímač hladiny paliva v nádrži na LPG – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Meradlo hrúbky povlaku Uni-T UT343A]]></NAME>
@@ -391135,8 +390844,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.32</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
-<PURCHASE_PRICE>8.22</PURCHASE_PRICE>
+<PRICE_VAT>11.00</PRICE_VAT>
+<PURCHASE_PRICE>7.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[PETG vlákno Sunlu (zelené) | premiumstore.sk]]></SEO_TITLE>
@@ -391255,8 +390964,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.34</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
-<PURCHASE_PRICE>8.22</PURCHASE_PRICE>
+<PRICE_VAT>11.00</PRICE_VAT>
+<PURCHASE_PRICE>7.82</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu PETG (levanduľovo fialová) | premiumstore.sk]]></SEO_TITLE>
@@ -391315,8 +391024,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.33</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
-<PURCHASE_PRICE>8.22</PURCHASE_PRICE>
+<PRICE_VAT>11.00</PRICE_VAT>
+<PURCHASE_PRICE>7.82</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu PETG (béžový) | premiumstore.sk]]></SEO_TITLE>
@@ -391375,72 +391084,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.31</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
-<PURCHASE_PRICE>8.22</PURCHASE_PRICE>
+<PRICE_VAT>11.00</PRICE_VAT>
+<PURCHASE_PRICE>7.80</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[PETG vlákno Sunlu (sivé) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[PETG vlákno Sunlu (sivé) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Filament Sunlu PETG (slnečná oranžová)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Filament Sunlu PETG (Sunny Orange) Filament Sunlu PETG v bielej farbe je vynikajúcou voľbou pre tých, ktorí od 3D tlače očakávajú nielen esteticky príťažlivé výsledky, ale aj vysokú odolnosť hotových…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Filament Sunlu PETG (Sunny Orange)</h3>
-<p>Filament Sunlu PETG v bielej farbe je vynikajúcou voľbou pre tých, ktorí od 3D tlače očakávajú nielen esteticky príťažlivé výsledky, ale aj vysokú odolnosť hotových modelov. Materiál sa vyznačuje vynikajúcou priľnavosťou medzi vrstvami, čo sa prejavuje hladkými, konzistentnými a pevnými výtlačkami s veľmi dobrou štrukturálnou integritou. To znižuje riziko deformácie, čím sa celý proces tlače stáva predvídateľnejším a pohodlnejším. Toto vlákno je ideálne pre akúkoľvek aplikáciu, kde záleží na kvalite, odolnosti a istote konečného výsledku.</p>
-<p>
-<img alt="Farebné vlákna a hotové figúrky robotov a dekoratívne vázy na svetlom pozadí." border="0" src="https://assets.innpro.pl/20638/27449/1.jpg"/>
-</p><h3>Odolnosť, ktorá obstojí v skúške času</h3>
-<p>PETG je známy svojou odolnosťou a v tomto ohľade prekonáva mnoho iných populárnych vlákien. Sunlu PETG vám umožňuje vytvárať odolné, robustné diely, ktoré vydržia každodenné používanie, čo ho robí ideálnym pre tlač komponentov vystavených veľkým zaťaženiam a intenzívnemu používaniu. Vysoká odolnosť proti nárazom znamená, že výtlačky lepšie odolávajú nárazom, otrasom alebo náhodným pádom a zachovávajú si svoj tvar bez prasklín alebo poškodenia. Je to ideálna voľba pre projekty, kde záleží na vzhľade, funkčnosti aj životnosti.</p>
-<p>
-<img alt="Cievky tmavohnedého, fialového a modrého vlákna spolu s modelom pretekárskeho auta na pozadí balónov." border="0" src="https://assets.innpro.pl/20638/27449/2.jpg"/>
-</p><h3>Vždy odolné výtlačky</h3>
-<p>Hotové modely vyrobené z PETG si dlho zachovávajú svoje vlastnosti, vďaka čomu je tento materiál veľmi univerzálny v použití. Filament Sunlu PETG je vhodný na vytváranie funkčných interiérových prvkov aj dielov určených na vonkajšie použitie, kde je odolnosť voči poveternostným vplyvom nevyhnutná. Je to riešenie pre používateľov, ktorí chcú tlačiť odolné, pružné modely pripravené na použitie v náročnejších prostrediach.</p>
-<p>
-<img alt="Biela 3D tlačiareň vedľa veľkého čierneho ozubeného kolesa a cievok materiálu na drevenej pracovnej doske v dielni." border="0" src="https://assets.innpro.pl/20638/27449/3.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Sunlu</td></tr><tr><th>Model</th><td>PETG SO</td></tr><tr><th>Farba</th><td>Sunny Orange</td></tr><tr><th>Hustota</th><td>1,27 g/cm³</td></tr><tr><th>Teplota zmäkčenia podľa Vicata</th><td>68 °C</td></tr><tr><th>Teplota tepelnej deformácie</th><td>68 °C</td></tr><tr><th>Teplota topenia</th><td>195 °C</td></tr><tr><th>Rýchlosť toku taveniny</th><td>5,3 g/10 min</td></tr><tr><th>Pevnosť v ťahu</th><td>53 MPa</td></tr><tr><th>Predĺženie pri zlome</th><td>17,3 %</td></tr><tr><th>Pevnosť v ohybe</th><td>77 MPa</td></tr><tr><th>Modul ohybu</th><td>2226 MPa</td></tr><tr><th>Rázová pevnosť</th><td>2,7 kJ/m</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/petg-filamenty/">PETG filamenty</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Sunlu]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>085190</CODE>
-<EAN>6933582319977</EAN>
-<CATEGORIES><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PETG filamenty]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna]]></CATEGORY></CATEGORIES>
-<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Filament Sunlu PETG (slnečná oranžová) - obrázok 1">https://b2b.innpro.sk/hpeciai/bb46da13bfb5f8017e187542a3f3f007/58100_1.jpg</IMAGE>
-  <IMAGE description="Filament Sunlu PETG (slnečná oranžová) - obrázok 2">https://b2b.innpro.sk/hpeciai/593fe9e9a467bca143d5886ef56dffdf/58100_2.jpg</IMAGE>
-  <IMAGE description="Filament Sunlu PETG (slnečná oranžová) - obrázok 3">https://b2b.innpro.sk/hpeciai/d9dbdecc315410723e39f4fcb6022acf/58100_3.jpg</IMAGE>
-  <IMAGE description="Filament Sunlu PETG (slnečná oranžová) - obrázok 4">https://b2b.innpro.sk/hpeciai/5a683656941f70aa4385534aa4adf558/58100_4.jpg</IMAGE>
-  <IMAGE description="Filament Sunlu PETG (slnečná oranžová) - obrázok 5">https://b2b.innpro.sk/hpeciai/a9056bdfac4d85ef8543059502c0dbaf/58100_5.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Druh]]></NAME>
-    <VALUE><![CDATA[PETG]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.34</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
-<PURCHASE_PRICE>8.22</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Filament Sunlu PETG (slnečná oranžová) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Filament Sunlu PETG (slnečná oranžová) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Filament Sunlu PETG (ružový)]]></NAME>
@@ -391556,8 +391205,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.34</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>11.50</PRICE_VAT>
-<PURCHASE_PRICE>8.22</PURCHASE_PRICE>
+<PRICE_VAT>11.00</PRICE_VAT>
+<PURCHASE_PRICE>7.82</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu PETG (priehľadný) | premiumstore.sk]]></SEO_TITLE>
@@ -410959,8 +410608,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>17.90</PRICE_VAT>
-<PURCHASE_PRICE>12.63</PURCHASE_PRICE>
+<PRICE_VAT>17.50</PRICE_VAT>
+<PURCHASE_PRICE>12.41</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu ASA (modrý) | premiumstore.sk]]></SEO_TITLE>
@@ -411019,8 +410668,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>17.90</PRICE_VAT>
-<PURCHASE_PRICE>12.63</PURCHASE_PRICE>
+<PRICE_VAT>17.50</PRICE_VAT>
+<PURCHASE_PRICE>12.41</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu ASA (červený) | premiumstore.sk]]></SEO_TITLE>
@@ -411079,8 +410728,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>17.90</PRICE_VAT>
-<PURCHASE_PRICE>12.63</PURCHASE_PRICE>
+<PRICE_VAT>17.50</PRICE_VAT>
+<PURCHASE_PRICE>12.41</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Filament Sunlu ASA (zelený) | premiumstore.sk]]></SEO_TITLE>
@@ -431126,8 +430775,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>3.12</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>70.50</PRICE_VAT>
-<PURCHASE_PRICE>49.87</PURCHASE_PRICE>
+<PRICE_VAT>69.50</PRICE_VAT>
+<PURCHASE_PRICE>49.01</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Hydroponická pestovateľská súprava RainPoint | premiumstore.sk]]></SEO_TITLE>
@@ -435405,85 +435054,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Doska s 3D efektom (Phantom + guľa) pre modely Kobra 3/3 Combo/3 V2/3 V2 Combo od ANYCUBIC – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm pre sériu Kobra S1]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm pre sériu Kobra S1 Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm, kompatibilná s tlačiarňami Kobra S1 a Kobra S1 Combo, je komponent…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm pre sériu Kobra S1</h3>
-<p>Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm, kompatibilná s tlačiarňami Kobra S1 a Kobra S1 Combo, je komponent zodpovedný za roztavenie filamentu a jeho presné nanášanie na tlačovú podložku, čo vám umožňuje vytvárať 3D modely vrstvu po vrstve. Je vyrobený výlučne z tvrdenej ocele (All Metal Hardened Steel), čo zaručuje vysokú odolnosť a odolnosť proti opotrebeniu aj pri intenzívnom používaní. Jeho kompaktné rozmery 114 × 91 × 26 mm a nízka hmotnosť 45 g uľahčujú inštaláciu bez preťaženia mechanizmu tlačiarne, zatiaľ čo priemer trysky 0,6 mm umožňuje kombinovať presné detaily s rýchlym vyplňovaním väčších prvkov, čím ponúka všestrannosť a pohodlie pre každý tlačový projekt.</p>
-<p>
-<img alt="Rýchlo vymeniteľný hotend Anycubic s medenou tryskou, čiernym ohrievacím blokom a káblom s bielou zástrčkou." border="0" src="https://assets.innpro.pl/20801/27626/1.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Anycubic</td></tr><tr><th>Kompatibilita</th><td>Kobra S1, Kobra S1 Combo</td></tr><tr><th>Priemer trysky</th><td>0,6 mm</td></tr><tr><th>Materiál trysky</th><td>Kalená oceľ (All Metal Hardened Steel)</td></tr><tr><th>Hmotnosť</th><td>45 g</td></tr><tr><th>Rozmery</th><td>114 × 91 × 26 mm</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-pre-3d-tlaciarne/">Príslušenstvo k 3D tlačiarňam</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[ANYCUBIC]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>086303</CODE>
-<EAN>5905156103887</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam]]></CATEGORY>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm pre sériu Kobra S1 - obrázok 1">https://b2b.innpro.sk/hpeciai/7eb522ddabdfb201d5f9f1e594da7c52/59651_1.jpg</IMAGE>
-  <IMAGE description="Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm pre sériu Kobra S1 - obrázok 2">https://b2b.innpro.sk/hpeciai/2ef8437fdf40b9e2380cd299d0428db9/59651_2.jpg</IMAGE>
-  <IMAGE description="Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm pre sériu Kobra S1 - obrázok 3">https://b2b.innpro.sk/hpeciai/1e1e0fe2b027309d1ccc5bd065cdf77c/59651_3.jpg</IMAGE>
-  <IMAGE description="Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm pre sériu Kobra S1 - obrázok 4">https://b2b.innpro.sk/hpeciai/919973a3c638a3c3bf0937d3aca5bc49/59651_4.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[ANYCUBIC]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Kompatibilita]]></NAME>
-    <VALUE><![CDATA[Kobra S1, Kobra S1 Combo]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Priemer trysky]]></NAME>
-    <VALUE><![CDATA[0,6 mm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Materiál trysky]]></NAME>
-    <VALUE><![CDATA[Kalená oceľ (All Metal Hardened Steel)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Hmotnosť]]></NAME>
-    <VALUE><![CDATA[45 g]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozmery]]></NAME>
-    <VALUE><![CDATA[114 × 91 × 26 mm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[12 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.09</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>13.00</PRICE_VAT>
-<PURCHASE_PRICE>9.27</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,6 mm pre sériu Kobra S1 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Rýchlovýmenná hlavica Anycubic s tryskou 0,8 mm pre sériu Kobra S1]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,8 mm pre sériu Kobra S1 Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,8 mm, kompatibilná s tlačiarňami Kobra S1 a Kobra S1 Combo, je komponent…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Rýchlo vymeniteľná hlavica Anycubic s tryskou 0,8 mm pre sériu Kobra S1</h3>
@@ -438546,8 +438116,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.44</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>17.90</PRICE_VAT>
-<PURCHASE_PRICE>12.60</PURCHASE_PRICE>
+<PRICE_VAT>17.00</PRICE_VAT>
+<PURCHASE_PRICE>12.03</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[RainPoint MZ255-2 – tryska na záhradnú hadicu | premiumstore.sk]]></SEO_TITLE>
@@ -439330,8 +438900,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>3.80</PRICE_VAT>
-<PURCHASE_PRICE>2.69</PURCHASE_PRICE>
+<PRICE_VAT>3.90</PRICE_VAT>
+<PURCHASE_PRICE>2.74</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[BALDRTHERM E0587TH – termohygrometer napájaný… | premiumstore.sk]]></SEO_TITLE>
@@ -439538,8 +439108,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.28</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>9.00</PRICE_VAT>
-<PURCHASE_PRICE>6.37</PURCHASE_PRICE>
+<PRICE_VAT>8.80</PRICE_VAT>
+<PURCHASE_PRICE>6.21</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[BALDRTHERM B0707 – termo-hygrometer napájaný… | premiumstore.sk]]></SEO_TITLE>
@@ -439932,8 +439502,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.36</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>19.50</PRICE_VAT>
-<PURCHASE_PRICE>13.83</PURCHASE_PRICE>
+<PRICE_VAT>20.50</PRICE_VAT>
+<PURCHASE_PRICE>14.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Meteorologická stanica BALDRTHERM B0389WST2H2-V1 s… | premiumstore.sk]]></SEO_TITLE>
@@ -445018,125 +444588,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Termostatická hlavica MOES TRV 801 s Wi-Fi | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Termostatická hlavica MOES TRV 801 s Wi-Fi – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Termostat MOES ZHT-SR-GA s technológiou ZigBee pre vodné vykurovanie]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Termostat MOES ZHT-SR-GA s protokolom ZigBee pre vodné vykurovanie Termostat MOES Smart Star Series ZHT-SR-GA je zariadenie s protokolom ZigBee 3.0 určené na reguláciu vodného vykurovania, ktoré…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Termostat MOES ZHT-SR-GA s protokolom ZigBee pre vodné vykurovanie</h3>
-<p>Termostat MOES Smart Star Series ZHT-SR-GA je zariadenie s protokolom ZigBee 3.0 určené na reguláciu vodného vykurovania, ktoré spája presnú reguláciu teploty s pohodlným diaľkovým ovládaním. Podporuje teplotný rozsah od 5 do 35 °C s presnosťou ±1 °C a vďaka napájaniu 95–240 VAC a prúdovému zaťaženiu 5 A je vhodný pre systémy vodného vykurovania. Pohodlný podsvietený gombík a prehľadné rozhranie zjednodušujú obsluhu a konektivita ZigBee (vyžaduje sa brána) umožňuje integráciu do inteligentnej domácnosti.</p>
-<p>
-<img alt="Biely termostat s okrúhlym displejom zobrazujúcim 28,5 °C namontovaný na čiernej stene" border="0" src="https://assets.innpro.pl/21217/28114/2.jpg"/>
-</p><h3>Presná regulácia teploty a stabilná prevádzka</h3>
-<p>Termostat využíva senzor NTC3950 (10K), ktorý zabezpečuje presné meranie teploty a udržiava ju na nastavenej úrovni. Rozsah teploty v miestnosti a na displeji je od 5 do 70 °C, čo umožňuje široké spektrum použitia v rôznych podmienkach. Zariadenie pracuje stabilne pri okolitej teplote v rozmedzí od 0 do 45 °C a pri vlhkosti vzduchu 5–95 % RH (bez kondenzácie), pričom presnosť časovača menšia ako 1 % zaručuje presné vykonávanie programu.</p>
-<p>
-<img alt="Dva termostaty Moes – jeden biely, jeden čierny – namontované vedľa seba na tmavej stene" border="0" src="https://assets.innpro.pl/21217/28114/4.jpg"/>
-</p><h3>Inteligentné ovládanie a integrácia s aplikáciami</h3>
-<p>Vďaka podpore ZigBee 3.0 termostat spolupracuje s aplikáciami MOES, Tuya Smart a Smart Life, čím ponúka plnú kontrolu z vášho smartfónu. Používatelia môžu na diaľku meniť nastavenia, monitorovať teplotu a vytvárať automatizačné scény prispôsobené ich dennej rutine. Funkcia zdieľania zariadenia vám umožňuje spravovať teplotu spoločne s ostatnými členmi domácnosti, čím je systém pohodlnejší na používanie.</p>
-<p>
-<img alt="Biely termostat na stene a smartfón s aplikáciou Zigbee Star Ring Thermostat zobrazujúcou 28,5 °C" border="0" src="https://assets.innpro.pl/21217/28114/1.jpg"/>
-</p><h3>Hlasové ovládanie a užívateľsky prívetivá obsluha</h3>
-<p>Model ZHT-SR-GA spolupracuje s Amazon Alexa a Google Assistant, čo vám umožňuje ovládať teplotu pomocou hlasových príkazov. Okrem toho je zariadenie vybavené kapacitnými dotykovými tlačidlami a intuitívnym otočným ovládačom, vďaka čomu môžete rýchlo upravovať nastavenia bez nutnosti používať telefón. Podsvietenie v tvare prstena mení farbu v závislosti od prevádzkového režimu, vďaka čomu je stav kúrenia viditeľný na prvý pohľad.</p>
-<p>
-<img alt="Čierno-strieborný termostat s podsvietenými krúžkami, umiestnený pod uhlom na tmavom geometrickom pozadí" border="0" src="https://assets.innpro.pl/21217/28114/5.jpg"/>
-</p><h3>Týždenné plánovanie a bezpečnostné funkcie</h3>
-<p>Termostat ponúka režim plánovania 5+1+1, ktorý vám umožňuje nastaviť až 6 časových intervalov denne, čím vám pomáha optimalizovať spotrebu energie a prispôsobiť kúrenie vášmu životnému štýlu. Funkcia rodičovskej zámky chráni nastavenia pred náhodnými zmenami a pamäť výpadku napájania automaticky obnoví predchádzajúce konfigurácie, čím eliminuje potrebu opätovnej konfigurácie zariadenia.</p>
-<p>
-<img alt="Malé dieťa siaha po termostate s ikonou modrého visiaceho zámku, namontovanom na stene vedľa radiátora" border="0" src="https://assets.innpro.pl/21217/28114/8.jpg"/>
-</p><h3>Robustná konštrukcia a jednoduchá inštalácia</h3>
-<p>Puzdro vyrobené z nehorľavého materiálu PC + ABS zaisťuje odolnosť a bezpečné používanie a stupeň krytia IP20 je vhodný pre bežné domáce podmienky. Termostat je kompatibilný s inštalačnými krabicami 86 × 86 mm alebo európskymi okrúhlymi krabicami 60 mm, čo uľahčuje inštaláciu.</p>
-<p>
-<img alt="Štyri zábery termostatov: dva z čelného pohľadu a dva z boku, zobrazujúce bielu a čiernu farebnú verziu" border="0" src="https://assets.innpro.pl/21217/28114/6.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Moes</td></tr><tr><th>Model</th><td>ZHT-SR-GB</td></tr><tr><th>Napätie / Frekvencia</th><td>95 ~ 245 V AC, 50/60 Hz</td></tr><tr><th>Zaťaženie</th><td>5 A</td></tr><tr><th>Spôsob komunikácie</th><td>ZigBee 3.0</td></tr><tr><th>Model modulu</th><td>ZT3L</td></tr><tr><th>Maximálny RF výkon</th><td>+20 dBm</td></tr><tr><th>Prevádzková frekvencia</th><td>2,405 ~ 2,480 GHz</td></tr><tr><th>Štandard ZigBee</th><td>IEEE 802.15.4</td></tr><tr><th>Senzor</th><td>NTC3950, 10K</td></tr><tr><th>Presnosť</th><td>±1 °C</td></tr><tr><th>Rozsah nastaviteľnej teploty</th><td>5 ~ 35 °C</td></tr><tr><th>Rozsah zobrazovanej teploty</th><td>5 ~ 99 °C</td></tr><tr><th>Skladovacia teplota</th><td>0 ~ 45 °C</td></tr><tr><th>Spotreba energie</th><td>&lt;1,5 W</td></tr><tr><th>Presnosť časovača</th><td>&lt;1 %</td></tr><tr><th>Materiál puzdra</th><td>PC + ABS (požiarne odolný)</td></tr><tr><th>Trieda ochrany</th><td>IP20</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87630_59881_pol_29a72ac53b95dad9299a3437f7df6cb9" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-termostaty-a-hlavice/">Smart termostaty a hlavice</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Moes]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>087554</CODE>
-<EAN>6974246478494</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>3936</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Termostat MOES ZHT-SR-GA s technológiou ZigBee pre vodné vykurovanie - obrázok 1">https://b2b.innpro.sk/hpeciai/db24452deed01d99f6f5e7298bf52ae4/59881_1.jpg</IMAGE>
-  <IMAGE description="Termostat MOES ZHT-SR-GA s technológiou ZigBee pre vodné vykurovanie - obrázok 2">https://b2b.innpro.sk/hpeciai/312e3ddbb9189592a5023a7ce939f639/59881_2.jpg</IMAGE>
-  <IMAGE description="Termostat MOES ZHT-SR-GA s technológiou ZigBee pre vodné vykurovanie - obrázok 3">https://b2b.innpro.sk/hpeciai/f1b4c2d723b68fcc73412a48d16c4165/59881_3.jpg</IMAGE>
-  <IMAGE description="Termostat MOES ZHT-SR-GA s technológiou ZigBee pre vodné vykurovanie - obrázok 4">https://b2b.innpro.sk/hpeciai/bd47cab3255a74c9e7006f544234c339/59881_4.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Moes]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Napätie / Frekvencia]]></NAME>
-    <VALUE><![CDATA[95 ~ 245 V AC, 50/60 Hz]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Zaťaženie]]></NAME>
-    <VALUE><![CDATA[5 A]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Spôsob komunikácie]]></NAME>
-    <VALUE><![CDATA[ZigBee 3.0]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Model modulu]]></NAME>
-    <VALUE><![CDATA[ZT3L]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálny RF výkon]]></NAME>
-    <VALUE><![CDATA[+20 dBm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Prevádzková frekvencia]]></NAME>
-    <VALUE><![CDATA[2,405 ~ 2,480 GHz]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Štandard ZigBee]]></NAME>
-    <VALUE><![CDATA[IEEE 802.15.4]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Senzor]]></NAME>
-    <VALUE><![CDATA[NTC3950, 10K]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Presnosť]]></NAME>
-    <VALUE><![CDATA[±1 °C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozsah nastaviteľnej teploty]]></NAME>
-    <VALUE><![CDATA[5 ~ 35 °C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[12 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>55.90</PRICE_VAT>
-<PURCHASE_PRICE>37.47</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Termostat MOES ZHT-SR-GA s technológiou ZigBee pre… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Termostat MOES ZHT-SR-GA s technológiou ZigBee pre vodné vykurovanie – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Termostat MOES ZHT-SR-GB s protokolom ZigBee pre elektrické kúrenie]]></NAME>
@@ -455835,7 +455286,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -461978,14 +461432,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -464015,99 +463473,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Mini LED svietidlo Neewer HB80C RGB COB | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Mini LED svietidlo Neewer HB80C RGB COB – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Stativ pre tablet NEEWER X12II]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Tabletový teleprompter NEEWER X12II NEEWER X12 II je pokročilý teleprompter s 12-palcovým displejom a priepustnosťou svetla 71 %, ktorý umožňuje pohodlné čítanie textu zo vzdialenosti až 3 metrov.…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Tabletový teleprompter NEEWER X12II</h3>
-<p>NEEWER X12 II je pokročilý teleprompter s 12-palcovým displejom a priepustnosťou svetla 71 %, ktorý umožňuje pohodlné čítanie textu zo vzdialenosti až 3 metrov. Vďaka konštrukcii bez nutnosti montáže môžete začať pracovať ihneď po vybalení, čo výrazne zjednodušuje váš pracovný postup pri nahrávaní. Robustné hliníkové puzdro a priložené prenosné puzdro zaručujú pohodlné používanie v štúdiu aj v exteriéri.</p>
-<p>
-<img alt="Teleprompter s tabletom na statíve; vedľa neho obrázok zobrazujúci diaľkové ovládanie a pevné puzdro." border="0" src="https://assets.innpro.pl/21520/28456/1.jpg"/>
-</p>
-<h3>Rýchla montáž kamery a presné polohovanie</h3>
-<p>Teleprompter je vybavený rýchloupínacou doskou typu Arca so štvorsmerovým uchytením, čo umožňuje okamžité pripevnenie a odstránenie kamery bez potreby neustáleho nastavovania. Platforma umožňuje horizontálne nastavenie až o 14,6 cm a vertikálne nastavenie až o 2,6 cm, čo uľahčuje presné komponovanie záberu. Podpora zariadení s hmotnosťou až 10 kg robí tento model kompatibilným s širokou škálou profesionálnych fotoaparátov a videokamier.</p>
-<p>
-<img alt="Fotoaparát namontovaný na teleprompteri počas nahrávania usmievajúceho sa muža v štúdiu." border="0" src="https://assets.innpro.pl/21520/28456/3.jpg"/>
-</p>
-<h3>Diaľkové ovládanie a pohodlná obsluha</h3>
-<p>Súprava obsahuje diaľkové ovládanie RT113, ktoré funguje s aplikáciou NEEWER Teleprompter cez Bluetooth. To umožňuje pohodlné ovládanie textu – posúvanie, pozastavenie, nastavenie rýchlosti a zmenu veľkosti písma za behu. Tiché tlačidlá nerušia nahrávky, čo je obzvlášť dôležité pri práci s vysoko citlivým zvukovým zariadením.</p>
-<p>
-<img alt="Žena ovláda teleprompter Neewer namontovaný na statíve pomocou diaľkového ovládača; v pozadí je svetlý interiér s rastlinou." border="0" src="https://assets.innpro.pl/21520/28456/5.jpg"/>
-</p>
-<h3>Rozširovateľnosť a široká kompatibilita</h3>
-<p>Konštrukcia ponúka množstvo upevňovacích bodov – závity 1/4” a 3/8” – ako aj tri držiaky typu cold shoe, ktoré umožňujú pripojiť ďalšie príslušenstvo, ako je mikrofón alebo LED osvetlenie. Vďaka tomu je možné teleprompter ľahko prispôsobiť rôznym pracovným scenárom, od jednoduchých vlogov až po profesionálne videoprodukcie.</p>
-<p>
-<img alt="Muž nesie čierne puzdro Neewer so zosilnenými striebornými okrajmi a pevnou rukoväťou." border="0" src="https://assets.innpro.pl/21520/28456/4.jpg"/>
-</p>
-<h3>Obsah balenia</h3>
-<ul class="list-disc pl-5"><li>Teleprompter X12 II x1</li><li>Diaľkové ovládanie RT113 x1</li><li>Čistiaca utierka x1</li><li>Prenosné puzdro x1</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3>Špecifikácie</h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Neewer</td></tr>
-<tr><th>Model</th><td>X12II</td></tr>
-<tr><th>Kompatibilita</th><td>Fotoaparáty, tablety</td></tr>
-<tr><th>Upevnenia</th><td>Cold shoe, 1/4&quot;, 3/8&quot;</td></tr>
-<tr><th>Materiál</th><td>Hliníková zliatina</td></tr>
-<tr><th>Maximálna nosnosť</th><td>10 kg</td></tr>
-<tr><th>Rozmery</th><td>355 × 285 × 115 mm</td></tr>
-<tr><th>Hmotnosť</th><td>1,7 kg</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=78650_60202_pol_f0ba43fa8fc634455fac35c3de54a9d3" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/graficke-tablety-3/">Grafické tablety</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Neewer]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>083765</CODE>
-<EAN>6921268812539</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Monitory a PC periférie > Grafické tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Monitory a PC periférie]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Stativ pre tablet NEEWER X12II - obrázok 1">https://b2b.innpro.sk/hpeciai/d2ee830ab99479aeb794bc7015153d34/60202_1.jpg</IMAGE>
-  <IMAGE description="Stativ pre tablet NEEWER X12II - obrázok 2">https://b2b.innpro.sk/hpeciai/668fc5de7ca97521ed598847d00078cc/60202_2.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Druh]]></NAME>
-    <VALUE><![CDATA[Iný]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Spôsob uchytenia]]></NAME>
-    <VALUE><![CDATA[Ostatné]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Účel]]></NAME>
-    <VALUE><![CDATA[Ostatné]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Huawei]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[So zabudovaným osvetlením]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>2.94</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
-<PRICE_VAT>125.90</PRICE_VAT>
-<PURCHASE_PRICE>88.89</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Stativ pre tablet NEEWER X12II | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Stativ pre tablet NEEWER X12II – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[NEEWER GR18C Okrúhly LED panel pre bočné osvetlenie]]></NAME>
@@ -479982,8 +479347,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>14.50</PRICE_VAT>
-<PURCHASE_PRICE>10.12</PURCHASE_PRICE>
+<PRICE_VAT>14.00</PRICE_VAT>
+<PURCHASE_PRICE>9.88</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[BALDRTHERM B0596WT2H2P-V1 – meteorologická stanica… | premiumstore.sk]]></SEO_TITLE>
@@ -501018,8 +500383,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.55</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>30.50</PRICE_VAT>
+<PRICE_VAT>24.90</PRICE_VAT>
 <PURCHASE_PRICE>17.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -506026,7 +505390,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CODE>089578</CODE>
 <EAN>6977728945828</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY></CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Kefa MOVA na rôzne povrchy pre detektor S2">https://b2b.innpro.sk/hpeciai/39b81cafe77a0d7c7d9824fb478f6645/61419_1_1.webp</IMAGE>
 </IMAGES>
@@ -506054,7 +505417,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>9.80</PRICE_VAT>
+<PRICE_VAT>10.90</PRICE_VAT>
 <PURCHASE_PRICE>7.57</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -506117,8 +505480,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.55</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>106.90</PRICE_VAT>
+<PRICE_VAT>82.50</PRICE_VAT>
 <PURCHASE_PRICE>58.16</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -515722,6 +515084,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -527528,6 +526891,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>18.03</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -527855,127 +527219,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[NAS server TERRAMASTER F2-425 Plus s procesorom… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[NAS server TERRAMASTER F2-425 Plus s procesorom Intel N5095, 4 GB RAM, 2 pozície – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Súborový server NAS TERRAMASTER F4-425 Plus s procesorom Intel N95,8 GB RAM a 4 pozíciami]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[NAS súborový server TERRAMASTER F4-425 Plus s procesorom Intel N95, 8 GB RAM a 4 pozíciami TerraMaster F4-425 Plus je moderný NAS server vybavený štvorjadrovým procesorom Intel N95 s taktom až 3,4…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>NAS súborový server TERRAMASTER F4-425 Plus s procesorom Intel N95, 8 GB RAM a 4 pozíciami</h3>
-<p>TerraMaster F4-425 Plus je moderný NAS server vybavený štvorjadrovým procesorom Intel N95 s taktom až 3,4 GHz, 8 GB pamäte DDR4 a 4 pozíciami pre disky SATA. Konštrukcia bola ďalej vylepšená o 3 sloty M.2 NVMe, dva sieťové porty 5GbE a rozsiahle funkcie správy a zálohovania dát. Vďaka podpore viacerých úrovní RAID, hardvérovému šifrovaniu AES-NI a pokročilému systému TOS je toto zariadenie ideálne nielen ako centrálne riešenie na ukladanie súborov pre firmy, ale aj ako súkromný cloud pre domácich používateľov. Model F4-425 Plus spája veľkú kapacitu, vysoký výkon a rozsiahle možnosti rozšírenia v jednej kompaktnej skrinke.</p>
-<p>
-<img alt="Biela skriňa NAS so štyrmi pozíciami pre disky vyniká na svetlom pozadí s jemným obrázkom vlka" border="0" src="https://assets.innpro.pl/22600/29655/1.jpg"/>
-</p><h3>Moderná hardvérová platforma Intel N95</h3>
-<p>Srdcom zariadenia je procesor Intel N95 založený na architektúre Alder Lake, ktorý disponuje 4 jadrami a 4 vláknami. Procesor dosahuje v režime Turbo frekvenciu až 3,4 GHz, čím zabezpečuje plynulú prevádzku pri súčasnom zdieľaní súborov, vytváraní záloh alebo spúšťaní serverových aplikácií. Integrovaný grafický čip podporuje hardvérové dekódovanie a transkódovanie obsahu vo formátoch H.264, H.265, MPEG-4 a VC-1 pri maximálnom rozlíšení 4K Ultra HD (4096 × 2160) pri 60 fps, čím znižuje zaťaženie procesora pri spúšťaní aplikácií, ako sú Plex, EMBY alebo Jellyfin. Predinštalovaná 8 GB pamäť DDR4 umožňuje plynulú prevádzku viacerých služieb súčasne a pamäť je možné rozšíriť až na 32 GB.</p>
-<p>
-<img alt="Grafika procesora Intel N95 namontovaného na podsvietenej základnej doske" border="0" src="https://assets.innpro.pl/22600/29655/3.jpg"/>
-</p><h3>Rýchla sieťová komunikácia vďaka dvojici 5GbE</h3>
-<p>TerraMaster F4-425 Plus je vybavený dvoma sieťovými portmi 5GbE, ktoré podporujú pokročilé sieťové konfigurácie, vrátane Link Aggregation a SMB Multichannel. So správnou infraštruktúrou môže zariadenie dosiahnuť lineárne rýchlosti zápisu až 1010 MB/s pomocou SMB Multichannel. Takáto vysoká šírka pásma je ideálna pre súčasné používanie viacerými používateľmi, úpravu veľkých multimediálnych súborov alebo vykonávanie rýchlych zálohov. Ďalšou výhodou sú porty USB 3.2 Gen 2 so šírkou pásma až 10 Gb/s, ktoré umožňujú pohodlné pripojenie externých úložných zariadení.</p>
-<p>
-<img alt="Biela skriňa NAS so štyrmi pozíciami pre disky vedľa modrej ikony štítu so zámkom, symbolizujúcej bezpečnosť údajov" border="0" src="https://assets.innpro.pl/22600/29655/2.jpg"/>
-</p><h3>Súkromný cloud a inteligentná správa fotografií</h3>
-<p>Systém TNAS vám umožňuje vytvoriť si vlastný súkromný cloud bez nutnosti platiť za predplatné alebo využívať externé služby ukladania dát. Vďaka technológii vzdialeného prístupu máte prístup k svojim súborom odkiaľkoľvek na svete. Vstavané algoritmy umelej inteligencie analyzujú fotografie priamo na zariadení, čím eliminujú potrebu nahrávať súkromné dáta do verejného cloudu. Systém automaticky rozpoznáva ľudí, zvieratá, predmety a scény, čím uľahčuje organizáciu rozsiahlych fotogalérií a rýchle vyhľadávanie požadovaného obsahu.</p>
-<p>
-<img alt="Rodina sedí na gauči a pozerá animovaný film premietaný na veľkú obrazovku" border="0" src="https://assets.innpro.pl/22600/29655/4.jpg"/>
-</p><h3>Pokročilá ochrana údajov a komplexné systémové funkcie</h3>
-<p>Model F4-425 Plus ponúka širokú škálu nástrojov na ochranu údajov pred stratou a neoprávneným prístupom. Zariadenie podporuje šifrovanie AES, funkciu Snapshot, overovanie OTP, SSL certifikáty, ochranu firewallom a systém HyperLock. K dispozícii sú aj rozsiahle mechanizmy zálohovania, ako napríklad Time Machine, Rsync Backup, CloudSync, USB Backup, Duple Backup a Centralized Backup. Vďaka podpore Dockeru, Plex Media Serveru, EMBY, Surveillance Manageru a VPN Serveru môže server fungovať ako mediálne centrum, monitorovacia platforma, kontajnerové prostredie alebo bezpečný server pre vzdialený prístup.</p>
-<p>
-<img alt="Biela skriňa NAS stojí na stole vedľa monitora, nad zariadením sú viditeľné ikony súborov a médií" border="0" src="https://assets.innpro.pl/22600/29655/6.jpg"/>
-</p>
-<h3>Obsah balenia</h3>
-<ul class="list-disc pl-5"><li>NAS server TerraMaster F4-425 Plus</li><li>Napájací adaptér</li><li>Napájací kábel</li><li>Sieťový kábel RJ-45</li><li>Rýchly sprievodca</li><li>Informácie o záruke</li><li>Sada montážnych skrutiek</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>TerraMaster</td></tr><tr><th>Model</th><td>F4-425 Plus</td></tr><tr><th>Procesor</th><td>Intel N95, 4 jadrá / 4 vlákna</td></tr><tr><th>Taktovacia frekvencia procesora</th><td>až 3,4 GHz Turbo</td></tr><tr><th>Architektúra</th><td>x86 64-bitová</td></tr><tr><th>RAM</th><td>8 GB DDR4</td></tr><tr><th>Maximálna kapacita RAM</th><td>32 GB</td></tr><tr><th>Počet pozícií pre disky</th><td>4</td></tr><tr><th>Podporované disky</th><td>3,5&quot; SATA HDD, 2,5&quot; SATA HDD, 2,5&quot; SATA SSD</td></tr><tr><th>Maximálna kapacita SATA</th><td>120 TB (4 × 30 TB)</td></tr><tr><th>Hardvérové dekódovanie a transkódovanie videa</th><td>H.264, H.265, MPEG-4, VC-1</td></tr><tr><th>Maximálne rozlíšenie hardvérového transkódovania</th><td>4K Ultra HD (4096 × 2160)</td></tr><tr><th>Maximálna snímková frekvencia</th><td>60 FPS</td></tr><tr><th>Sloty M.2</th><td>3 × M.2 2280 NVMe PCIe 3.0 x1</td></tr><tr><th>Hot Swap</th><td>Áno</td></tr><tr><th>Podporované konfigurácie RAID</th><td>RAID, Single, JBOD, RAID 0, RAID 1, RAID 5, RAID 6, RAID 10</td></tr><tr><th>Sieťové porty</th><td>2 × RJ-45 5GbE</td></tr><tr><th>USB</th><td>3 × USB 3.2 Gen 2 Type-A (10 Gb/s)</td></tr><tr><th>USB-C</th><td>1 × USB 3.2 Gen 2 Type-C (10 Gb/s)</td></tr><tr><th>HDMI</th><td>1</td></tr><tr><th>Súborový systém</th><td>Btrfs, EXT4</td></tr><tr><th>Podpora Dockeru</th><td>Áno</td></tr><tr><th>Podpora Plex Media Serveru</th><td>Áno</td></tr><tr><th>Podpora EMBY</th><td>Áno</td></tr><tr><th>Podpora VPN servera</th><td>Áno</td></tr><tr><th>Podpora Surveillance Manageru</th><td>Áno</td></tr><tr><th>Rozmery</th><td>150 × 181 × 219 mm</td></tr><tr><th>Hmotnosť</th><td>2,9 kg</td></tr><tr><th>Hlučnosť</th><td>20,9 dB(A)</td></tr><tr><th>Napájanie</th><td>90 W</td></tr><tr></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/sietove-zariadenia-2/">NAS servery a sieťové úložiská</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Terramaster]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>090318</CODE>
-<EAN>6939236148436</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská > NAS servery a sieťové úložiská]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Súborový server NAS TERRAMASTER F4-425 Plus s procesorom Intel N95, 8 GB RAM a 4 pozíciami">https://b2b.innpro.sk/hpeciai/56104332aff4af791460a747f3fac7fb/61998_1_1.webp</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Terramaster]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Procesor]]></NAME>
-    <VALUE><![CDATA[Intel N95, 4 jadrá / 4 vlákna]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Taktovacia frekvencia procesora]]></NAME>
-    <VALUE><![CDATA[až 3,4 GHz Turbo]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Architektúra]]></NAME>
-    <VALUE><![CDATA[x86 64-bitová]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[RAM]]></NAME>
-    <VALUE><![CDATA[8 GB DDR4]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálna kapacita RAM]]></NAME>
-    <VALUE><![CDATA[32 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet pozícií pre disky]]></NAME>
-    <VALUE><![CDATA[4]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Podporované disky]]></NAME>
-    <VALUE><![CDATA[3,5" SATA HDD, 2,5" SATA HDD, 2,5" SATA SSD]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálna kapacita SATA]]></NAME>
-    <VALUE><![CDATA[120 TB (4 × 30 TB)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálna snímková frekvencia]]></NAME>
-    <VALUE><![CDATA[60 FPS]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Sloty M.2]]></NAME>
-    <VALUE><![CDATA[3 × M.2 2280 NVMe PCIe 3.0 x1]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pamäť RAM]]></NAME>
-    <VALUE><![CDATA[8 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[USB-C, HDMI]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[12 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>4.14</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>650.00</PRICE_VAT>
-<PURCHASE_PRICE>427.01</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Súborový server NAS TERRAMASTER F4-425 Plus s… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Súborový server NAS TERRAMASTER F4-425 Plus s procesorom Intel N95, 8 GB RAM a 4 pozíciami – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Súborový server TERRAMASTER F6-424 NAS s procesorom Intel Celeron N95,8 GB RAM, 6 pozícií]]></NAME>
@@ -529479,6 +528722,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>29.00</PRICE_VAT>
 <PURCHASE_PRICE>20.56</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -530850,8 +530094,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.53</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>189.90</PRICE_VAT>
-<PURCHASE_PRICE>134.13</PURCHASE_PRICE>
+<PRICE_VAT>184.00</PRICE_VAT>
+<PURCHASE_PRICE>130.15</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[KVM prepínač GL.iNet Comet Pro | premiumstore.sk]]></SEO_TITLE>
@@ -531080,14 +530324,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -534363,7 +533610,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>24.60</PRICE_VAT>
-<PURCHASE_PRICE>13.77</PURCHASE_PRICE>
+<PURCHASE_PRICE>13.95</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Herné slúchadlá ONIKUMA X20 (čierne) | premiumstore.sk]]></SEO_TITLE>
@@ -547301,9 +546548,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.34</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <FREE_SHIPPING>0</FREE_SHIPPING>
-<PRICE_VAT>93.00</PRICE_VAT>
+<PRICE_VAT>86.50</PRICE_VAT>
 <PURCHASE_PRICE>61.26</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -552115,9 +551361,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.34</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <FREE_SHIPPING>0</FREE_SHIPPING>
-<PRICE_VAT>90.90</PRICE_VAT>
+<PRICE_VAT>86.50</PRICE_VAT>
 <PURCHASE_PRICE>61.26</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -569952,8 +569197,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>21.06</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>196.50</PRICE_VAT>
+<PRICE_VAT>177.00</PRICE_VAT>
 <PURCHASE_PRICE>125.20</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -587698,13 +586942,16 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87897_64814_pol_24ad3eefdfd9e4458b86ab5cd5d1eacd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/detektory/">Detektory a lokátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093318</CODE>
 <EAN>0786156007598</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 1">https://b2b.innpro.sk/hpeciai/f177506e358e8ba9d52ced99d614d344/64814_1_1.webp</IMAGE>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 2">https://b2b.innpro.sk/hpeciai/ad6c696968907fc4cc7a65260ff6287f/64814_2_1.webp</IMAGE>
@@ -604185,117 +603432,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[LED videolampa GODOX ML80Bi – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[LED videolampa GODOX ML150Bi]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[LED svetlo GODOX ML150Bi GODOX ML150Bi je LED svetlo, ktoré ponúka veľkú flexibilitu pri fotografovaní a nahrávaní videa. Umožňuje nastavenie farebnej teploty v rozmedzí 2800–6500 K a pri nastavení…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>LED svetlo GODOX ML150Bi</h3>
-<p>GODOX ML150Bi je LED svetlo, ktoré ponúka veľkú flexibilitu pri fotografovaní a nahrávaní videa. Umožňuje nastavenie farebnej teploty v rozmedzí 2800–6500 K a pri nastavení na 5600 K dosahuje intenzitu osvetlenia až 61 054 lx vo vzdialenosti 1 m. Hodnoty CRI a TLCI približne 96 pomáhajú zachovať prirodzené podanie farieb, vďaka čomu je toto svetlo ideálne pre profesionálnu fotografiu a filmovú produkciu.</p>
-<p>
-<img alt="Dve biele LED svietidlá Godox namontované na statívoch, vyžarujúce studené a teplé svetlo." border="0" src="https://assets.innpro.pl/25116/33209/2-bde0539e-6062-4eac-9663-630a36180a15.jpg"/>
-</p><h3>Nastavte farbu a intenzitu svetla</h3>
-<p>Rozsah farebnej teploty 2 800–6 500 K umožňuje plynulý prechod od teplejšieho k chladnejšiemu osvetleniu a uľahčuje prispôsobenie svietidla charakteru scény a ostatným svetelným zdrojom. Osvetlenosť až 61 054 lx pri 5 600 K a vzdialenosti 1 m zaručuje vysoký svetelný výkon aj pri náročnejších natáčaniach. Vysoké hodnoty CRI/TLCI približne 96 zabezpečujú presnú reprodukciu odtieňov pleti, produktov a ďalších prvkov v zábere.</p>
-<p>
-<img alt="Fotokoláž prezentujúca využitie prenosného LED svietidla Godox počas nočného kempovania a posedení pri táboráku." border="0" src="https://assets.innpro.pl/25116/33209/14-fc0ceccf-fc9f-4dac-b3f7-d2c2ef53b174.jpg"/>
-</p><h3>11 efektov FX pre kreatívne projekty</h3>
-<p>Model ML150Bi ponúka 11 vstavaných efektov FX, ktoré vám umožňujú rýchlo vytvoriť rôzne scenáre osvetlenia bez nutnosti ručného nastavovania parametrov lampy. Medzi dostupné efekty patria: Blesk, Blesková búrka, Zamračené, Rozbitá žiarovka, TV, Sviečka, Oheň, Ohňostroj, Zváranie a SOS. Každý efekt vám umožňuje nastaviť rýchlosť a jas v rozmedzí 0–100 %, čo vám poskytuje väčšiu kontrolu pri vytváraní dynamických fotografických a video scén.</p>
-<p>
-<img alt="Porovnanie bieleho LED svietidla Godox pri použití v nahrávacom štúdiu a vonku v blízkosti stanu, napájaného z powerbanky." border="0" src="https://assets.innpro.pl/25116/33209/5-e320d5c5-8dba-4be2-8ae5-a05d3fdfc9e2.jpg"/>
-</p><h3>Magnetické príslušenstvo</h3>
-<p>GODOX ML150Bi je kompatibilný s rozsiahlym systémom príslušenstva, ktoré vám umožňuje zvýšiť intenzitu, tvarovať lúč, zjemniť svetlo alebo vytvoriť pôsobivejšie efekty. Magnetický upevňovací systém je navrhnutý okrem iného na spoluprácu s reflektorom s priblížením ML-Z. Príslušenstvo je možné pripojiť rýchlo a bez použitia náradia, čo zjednodušuje zmenu konfigurácií osvetlenia pri práci na pľaci.</p>
-<p>
-<img alt="Pohľad na modulárnu konštrukciu bieleho LED svietidla Godox s odnímateľným difúzorom a batériou s indikátorom nabitia." border="0" src="https://assets.innpro.pl/25116/33209/6-a07c3440-b84a-4214-a140-187927f8f436.jpg"/>
-</p><h3>Ovládanie cez aplikáciu, NFC a DMX</h3>
-<p>Parametre osvetlenia je možné ovládať zo smartfónu, čo uľahčuje úpravu nastavení bez nutnosti priblížiť sa k svietidlu. Podpora NFC zjednodušuje nastavenie pripojenia s aplikáciou a pripojenie cez Bluetooth umožňuje bezdrôtové ovládanie. Model ML150Bi podporuje aj systém DMX, vďaka čomu je možné svietidlo integrovať do zložitejších profesionálnych osvetľovacích zostáv.</p>
-<p>
-<img alt="Bezdrôtové ovládanie a nastavenie parametrov bieleho LED svietidla Godox prostredníctvom aplikácie v smartfóne." border="0" src="https://assets.innpro.pl/25116/33209/1-0c99e270-4799-4a54-aabb-be21244b476e.jpg"/>
-</p>
-<h3>Súčasťou sady je</h3>
-<ul>
-<li>Svietidlo GODOX ML150Bi</li><li>Reflektor s priblížením ML-Z</li><li>Napájací adaptér</li><li>Doska adaptéra batérie ML-VMA s uchytením V-Mount</li><li>Uchytenie AD-E2</li><li>Napájací kábel</li><li>Ochranný kryt</li><li>Taška na uloženie</li>
-</ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>GODOX</td></tr><tr><th>Model</th><td>ML150Bi</td></tr><tr><th>Vstup DC</th><td>36 V ⎓ 4,6 A max.</td></tr><tr><th>Rozsah farebnej teploty</th><td>2800–6500 K</td></tr><tr><th>Rozsah nastavenia jasu</th><td>0–100 %</td></tr><tr><th>Počet efektov FX</th><td>11</td></tr><tr><th>CRI/TLCI</th><td>Približne 96</td></tr><tr><th>Spôsoby ovládania</th><td>Káblové DMX/RDM, aplikácia cez Bluetooth, ovládací panel na svietidle</td></tr><tr><th>Dosah ovládania cez Bluetooth</th><td>30 m</td></tr><tr><th>Prevádzková teplota</th><td>-10 °C až 40 °C</td></tr><tr><th>Rozmery svietidla</th><td>Približne 9,09 × 11,51 × 9,09 cm</td></tr><tr><th>Hmotnosť svietidla</th><td>Približne 770 g</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/fotograficke-a-video-svetla/">Fotografické a video svetlá</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[GODOX]]></MANUFACTURER>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>095300</CODE>
-<EAN>6952344244951</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér]]></CATEGORY></CATEGORIES>
-<HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="LED videolampa GODOX ML150Bi">https://b2b.innpro.sk/hpeciai/38c86a486df925b8023326f03904e968/65926_1_1.webp</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[GODOX]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Vstup DC]]></NAME>
-    <VALUE><![CDATA[36 V ⎓ 4,6 A max]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozsah farebnej teploty]]></NAME>
-    <VALUE><![CDATA[2800–6500 K]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozsah nastavenia jasu]]></NAME>
-    <VALUE><![CDATA[0–100 %]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet efektov FX]]></NAME>
-    <VALUE><![CDATA[11]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[CRI/TLCI]]></NAME>
-    <VALUE><![CDATA[Približne 96]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Spôsoby ovládania]]></NAME>
-    <VALUE><![CDATA[Káblové DMX/RDM, aplikácia cez Bluetooth, ovládací panel na svietidle]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Dosah ovládania cez Bluetooth]]></NAME>
-    <VALUE><![CDATA[30 m]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Prevádzková teplota]]></NAME>
-    <VALUE><![CDATA[-10 °C až 40 °C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozmery svietidla]]></NAME>
-    <VALUE><![CDATA[Približne 9,09 × 11,51 × 9,09 cm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Hmotnosť svietidla]]></NAME>
-    <VALUE><![CDATA[Približne 770 g]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[Bluetooth, NFC]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>2.97</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>256.50</PRICE_VAT>
-<PURCHASE_PRICE>181.46</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[LED videolampa GODOX ML150Bi | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[LED videolampa GODOX ML150Bi – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[LED kruhové osvetlenie GODOX LR150 Air]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[LED kruhové svetlo Godox LR150 Air GODOX LR150 Air je prenosné LED kruhové svetlo s nafukovateľnou hlavicou, ktoré poskytuje mäkké a rovnomerné osvetlenie pre fotografovanie, nahrávanie videa a živé…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>LED kruhové svetlo Godox LR150 Air</h3>
@@ -608547,6 +607683,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -609377,8 +608514,22 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>065005</CODE>
+    <EAN>6976831830212</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>065129</CODE>
     <EAN>6975515774132</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>065832</CODE>
+    <EAN>6934399223242</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -609897,6 +609048,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>074097</CODE>
     <EAN>6977728942285</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>074141</CODE>
+    <EAN>6977132450031</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -610945,13 +610103,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
-    <CODE>082765</CODE>
-    <EAN>5905156101227</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
     <CODE>082850</CODE>
     <EAN>4897118833851</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -611176,6 +610327,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>083765</CODE>
+    <EAN>6921268812539</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>083778</CODE>
     <EAN>6976831838416</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -611344,6 +610502,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>085000</CODE>
+    <EAN>6935750534533</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>085013</CODE>
     <EAN>6935750532553</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -611395,6 +610560,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>085167</CODE>
     <EAN>6933582316709</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>085190</CODE>
+    <EAN>6933582319977</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -611493,6 +610665,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>086302</CODE>
     <EAN>5905156103870</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>086303</CODE>
+    <EAN>5905156103887</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -611750,6 +610929,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>087554</CODE>
+    <EAN>6974246478494</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>087556</CODE>
     <EAN>6974246478531</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -611811,7 +610997,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088508</CODE>
     <EAN>6975577881977</EAN>
@@ -611909,7 +611095,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
@@ -612144,6 +611330,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>090315</CODE>
     <EAN>6939236147347</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>090318</CODE>
+    <EAN>6939236148436</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -612669,6 +611862,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>095291</CODE>
     <EAN>6952344248812</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>095300</CODE>
+    <EAN>6952344244951</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
