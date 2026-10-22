@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600616,
+    "nextCardNumber": 202600618,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3691,6 +3691,18 @@
         "kod": "202600615",
         "nazov": "Even R1 with Charger (#10)",
         "dodavatel": "innpro",
+        "code": ""
+      },
+      "4033653080545": {
+        "kod": "202600616",
+        "nazov": "BEHRINGER Ultragraph Pro",
+        "dodavatel": "basys",
+        "code": "BASYS-FBQ3102HD"
+      },
+      "8432426451777": {
+        "kod": "202600617",
+        "nazov": "ENERGY Earphones Bluetooth Sport 1+ Dark",
+        "dodavatel": "basys",
         "code": ""
       }
     }
