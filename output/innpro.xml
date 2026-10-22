@@ -108148,6 +108148,7 @@ Hmotnosť
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>39.50</PRICE_VAT>
 <PURCHASE_PRICE>27.79</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -144128,6 +144129,7 @@ Dancing Circle
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.10</PRICE_VAT>
 <PURCHASE_PRICE>2.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -205807,14 +205809,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -226539,14 +226541,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -265984,6 +265989,84 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Inteligentný obojsmerný merač energie Avatto WiFi WPM16-1 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Inteligentný obojsmerný merač energie Avatto WiFi WPM16-2]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Inteligentný obojsmerný merač energie Avatto WiFi WPM16-2 Avatto WPM16-2 je kompaktný a ľahko inštalovateľný obojsmerný merač energie s modulom Wi-Fi, ktorý umožňuje diaľkové meranie spotreby a…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Inteligentný obojsmerný merač energie Avatto WiFi WPM16-2</h3>
+<p>Avatto WPM16-2 je kompaktný a ľahko inštalovateľný obojsmerný merač energie s modulom Wi-Fi, ktorý umožňuje diaľkové meranie spotreby a výroby energie v reálnom čase. Funguje dobre pre domáce inštalácie aj fotovoltické systémy - umožňuje presné monitorovanie toku energie zo siete a fotovoltických panelov.</p>
+<p>
+<img alt="Inteligentný obojsmerný merač energie so snímačom CT na oranžovom pozadí" border="0" src="https://assets.innpro.pl/18499/25644/dwukierunkowy-licznik-energii-Avatto-lifestyle-6.jpg"/>
+</p><h3>Obojsmerné meranie energie</h3>
+<p>Merač podporuje dva meracie kanály a je navrhnutý tak, aby fungoval obojsmerne - môže merať spotrebu energie zo siete (import) a výrobu energie z fotovoltických panelov (export). To je užitočné najmä v inštaláciách so striedačom, kde je kontrola množstva vyprodukovanej a spotrebovanej energie kľúčová.</p>
+<p>
+<img alt="Inteligentný obojsmerný merač energie so snímačom CT, vedľa smartfónu s grafom spotreby energie" border="0" src="https://assets.innpro.pl/18499/25644/dwukierunkowy-licznik-energii-Avatto-lifestyle-2.jpg"/>
+</p><h3>Zobrazenie údajov v aplikácii</h3>
+<p>Zariadenie sa pripojí k domácej sieti Wi-Fi a odosiela údaje do mobilnej aplikácie Tuya alebo Smart Life. Používateľ má prístup k štatistikám spotreby energie v reálnom čase - môže kontrolovať napätie, prúd, výkon, ako aj zobraziť hodinovú, dennú, mesačnú a ročnú spotrebu. Ide o pohodlný spôsob kontroly účtov a optimalizácie výkonu domácej inštalácie.</p>
+<p>
+<img alt="Inteligentný obojsmerný merač energie a snímač CT namontovaný na stene, vedľa smartfónu držaného v ruke" border="0" src="https://assets.innpro.pl/18499/25644/dwukierunkowy-licznik-energii-Avatto-lifestyle-5.jpg"/>
+</p><h3>Bezpečná a jednoduchá inštalácia</h3>
+<p>Súprava obsahuje snímač (CT), ktorý sa jednoducho pripne na káble - nie je potrebné ich strihať. Inštalácia sa vykonáva bez zásahu do elektrického systému. Samotný modul je kompaktný a zmestí sa do štandardného rozvádzača. Podmienkou správneho merania je prietok prúdu väčší ako 10 W.</p>
+<p>
+<img alt="Inteligentný obojsmerný merač energie a snímač CT v rozvádzači" border="0" src="https://assets.innpro.pl/18499/25644/dwukierunkowy-licznik-energii-Avatto-lifestyle-4.jpg"/>
+</p><h3>Prispôsobiteľné nastavenia</h3>
+<p>V aplikácii môže používateľ nastaviť minimálne a maximálne prahové hodnoty výkonu, čo umožňuje rýchlu reakciu v prípade abnormálneho odberu alebo nadmernej výroby. Je to užitočná funkcia pre tých, ktorí chcú chrániť zariadenia alebo monitorovať výkon fotovoltických inštalácií.</p>
+<p>
+<img alt="Inteligentný obojsmerný merač energie a CT snímač na drevenom pozadí" border="0" src="https://assets.innpro.pl/18499/25644/dwukierunkowy-licznik-energii-Avatto-lifestyle-1.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Avatto</td></tr><tr><th>Model</th><td>WPM16-2</td></tr><tr><th>Napätie</th><td>AC 100-240 V, 50/60 Hz</td></tr><tr><th>Rozsah merania</th><td>0.2-80 A</td></tr><tr><th>Pracovná teplota</th><td>-10 - 50°C</td></tr><tr><th>Použitie</th><td>Tuya Smart, Smart Life</td></tr><tr><th>Rozmery</th><td>38,5 x 38,5 x 19 mm (meter), 40 x 25,6 mm (CT)</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=75218_53998_pol_7578b3913a28fff9f3ff882f7ba302ca" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[AVATTO]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>079252</CODE>
+<EAN>6976037362296</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>5860</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Inteligentný obojsmerný merač energie Avatto WiFi WPM16-2 - obrázok 1">https://b2b.innpro.sk/hpeciai/8b6ff683115c7f64e533ed8b20a1038e/53998_1.jpg</IMAGE>
+  <IMAGE description="Inteligentný obojsmerný merač energie Avatto WiFi WPM16-2 - obrázok 2">https://b2b.innpro.sk/hpeciai/69b494c7165ce9f056534c8209eec1bd/53998_2.jpg</IMAGE>
+  <IMAGE description="Inteligentný obojsmerný merač energie Avatto WiFi WPM16-2 - obrázok 3">https://b2b.innpro.sk/hpeciai/2e4685d95cc242df0c831834e541f68c/53998_3.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pripojenie]]></NAME>
+    <VALUE><![CDATA[Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kategória]]></NAME>
+    <VALUE><![CDATA[Spínače]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Aplikácia]]></NAME>
+    <VALUE><![CDATA[Tuya Smart Life]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>17.50</PRICE_VAT>
+<PURCHASE_PRICE>12.40</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Inteligentný obojsmerný merač energie Avatto WiFi… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Inteligentný obojsmerný merač energie Avatto WiFi WPM16-2 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Inteligentný obojsmerný merač energie Avatto ZigBee ZWPM16-1]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Inteligentný obojsmerný merač energie Avatto ZigBee ZWPM16-1 Inteligentný obojsmerný merač energie Avatto ZigBee ZWPM16-1 vám umožňuje monitorovať spotrebu a výrobu energie v reálnom čase. Vďaka…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Inteligentný obojsmerný merač energie Avatto ZigBee ZWPM16-1</h3>
@@ -297205,6 +297288,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.70</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -323047,6 +323131,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -457088,7 +457173,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -463225,14 +463313,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -516850,6 +516942,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -528630,6 +528723,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>18.03</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -530581,6 +530675,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>29.00</PRICE_VAT>
 <PURCHASE_PRICE>20.56</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -532117,14 +532212,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -588940,13 +589038,16 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87897_64814_pol_24ad3eefdfd9e4458b86ab5cd5d1eacd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/detektory/">Detektory a lokátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093318</CODE>
 <EAN>0786156007598</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 1">https://b2b.innpro.sk/hpeciai/f177506e358e8ba9d52ced99d614d344/64814_1_1.webp</IMAGE>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 2">https://b2b.innpro.sk/hpeciai/ad6c696968907fc4cc7a65260ff6287f/64814_2_1.webp</IMAGE>
@@ -592024,6 +592125,117 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[DDPAI N5 Dual 2026 – palubná kamera – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[DDPAI N5 Pro – palubná kamera]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Autokamera DDPAI N5 Pro DDPAI N5 Pro je dvojkanálová autokamera, ktorá zaznamenáva zábery z prednej aj zadnej časti vozidla, čo umožňuje lepšiu dokumentáciu situácií na ceste. Predná kamera ponúka…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Autokamera DDPAI N5 Pro</h3>
+<p>DDPAI N5 Pro je dvojkanálová autokamera, ktorá zaznamenáva zábery z prednej aj zadnej časti vozidla, čo umožňuje lepšiu dokumentáciu situácií na ceste. Predná kamera ponúka tri režimy nahrávania: 4K@30 HDR, 4K@25 HDR a 3K@60, pričom objektív s clonou F1.8 poskytuje široké zorné pole 143°. Zariadenie podporuje microSD karty s kapacitou až 512 GB, Wi-Fi 6 na frekvencii 5,8 GHz, Bluetooth 5.4, multisystémový GNSS a funkcie ADAS. Balík dopĺňa 3-osový G-senzor a superkondenzátor, pričom možnosť použitia voliteľných modulov vám umožňuje rozšíriť funkcie kamery do auta.</p>
+<p>
+<img alt="Čierna palubná kamera DDPAI N5 s medeným krúžkom objektívu umiestnená na tmavej polici" border="0" src="https://assets.innpro.pl/24342/31996/1-iop-1479e6c9-866a-436f-9b28-14512ee34354.jpg"/>
+</p><h3>4K HDR alebo 3K pri 60 fps</h3>
+<p>V závislosti od situácie vám DDPAI N5 Pro umožňuje prispôsobiť nastavenia nahrávania potrebám vodiča. Režimy 4K@30 HDR a 4K@25 HDR uprednostňujú vysoké rozlíšenie obrazu, vďaka čomu je pri neskoršom prezeraní záznamu ľahšie rozoznať detaily. Režim 3K@60 naopak nahráva rýchlosťou 60 snímok za sekundu, čím sa výborne hodí na zachytávanie dynamickejších situácií na ceste. Objektív F1.8 so zorným uhlom 143° zachytáva širokú oblasť pred vozidlom a záznam sa ukladá vo formáte MP4 s kódovaním AI.265 alebo H.264.</p>
+<p>
+<img alt="Dve čierne palubné kamery DDPAI na svetlom pozadí, znázorňujúce pohľad na zariadenie z prednej a bočnej strany" border="0" src="https://assets.innpro.pl/24342/31996/2-iop-ea1e8269-8b03-463e-8864-10f34aa05287.jpg"/>
+</p><h3>Funkcie GNSS a asistencie vodiča</h3>
+<p>DDPAI N5 Pro podporuje päť satelitných navigačných systémov: GPS, BDS, GLONASS, GALILEO a QZSS. Kamera do auta ponúka aj funkcie ADAS, vrátane upozornenia, ktoré vás informuje, keď sa vozidlo pred vami začne pohybovať, čo môže byť užitočné pri čakaní na semafore alebo v dopravnej zápche. Ďalšou funkciou je upozornenie na únavu vodiča, ktoré poskytuje dodatočnú podporu počas dlhších ciest. Vstavaný 3-osový G-senzor reaguje na zmeny zrýchlenia súvisiace s náhlymi udalosťami počas jazdy.</p>
+<p>
+<img alt="Autokamera DDPAI N5 namontovaná na čelnom skle vo vnútri auta, s pohľadom na interiér" border="0" src="https://assets.innpro.pl/24342/31996/3-iop-296cb691-34f3-4cdd-aa3a-dde0456b0d81.jpg"/>
+</p><h3>Rýchle pripojenie a úložisko pre nahrávky</h3>
+<p>Podpora Wi-Fi 6 v pásme 5,8 GHz zabezpečuje rýchlu bezdrôtovú komunikáciu s palubnou kamerou a uľahčuje prístup k nahratým záznamom. DDPAI N5 Pro využíva aj bezdrôtový komunikačný štandard Bluetooth 5.4 (BLE). Záznamy je možné ukladať na microSD kartu s kapacitou až 512 GB, čo vám umožňuje zvoliť si veľkosť dostupného úložného priestoru podľa toho, ako často kameru používate.</p>
+<p>
+<img alt="Čierna autokamera DDPAI N5 s montážnym držiakom zobrazená zhora na sivom pozadí" border="0" src="https://assets.innpro.pl/24342/31996/4-iop-e5c2c1e3-5be5-4e62-8afc-32aa46104e2d.jpg"/>
+</p><h3>Superkondenzátor a rozširovateľnosť</h3>
+<p>Kamera DDPAI N5 Pro je vybavená superkondenzátorom a je navrhnutá na prevádzku pri teplotách v rozmedzí od -20 °C do 70 °C, čo jej umožňuje fungovať v rôznych podmienkach vnútri vozidla. Rozmery puzdra sú 102 × 62,5 × 31,3 mm a štandardné napájanie zabezpečuje automobilová nabíjačka a 3,5-metrový kábel. Kameru do auta je možné doplniť voliteľnou sadou na pevné zapojenie, ktorá rozširuje možnosti pripojenia zariadenia k elektrickému systému vozidla. Tento model je tiež kompatibilný s voliteľným systémom riadenia spotreby IPS, 4G modulom a radarovým modulom, čo používateľom umožňuje prispôsobiť konfiguráciu podľa vlastných potrieb.</p>
+<p>
+<img alt="Autokamera DDPAI N5 s viditeľným USB portom a tlačidlom na resetovanie umiestneným na držiaku" border="0" src="https://assets.innpro.pl/24342/31996/5-iop-b128114f-e220-4bd2-9376-9d8ad5557ee8.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>DDPAI</td></tr><tr><th>Model</th><td>N5 Pro</td></tr><tr><th>Počet kanálov</th><td>predný + zadný</td></tr><tr><th>Rozlíšenie prednej kamery</th><td>4K@30 HDR / 4K@25 HDR / 3K@60</td></tr><tr><th>Clona objektívu</th><td>F1,8</td></tr><tr><th>Zorné pole</th><td>143°</td></tr><tr><th>Konštrukcia objektívu</th><td>2G4P</td></tr><tr><th>Kódovanie videa</th><td>AI.265 / H.264</td></tr><tr><th>Formát videa</th><td>MP4</td></tr><tr><th>G-senzor</th><td>3-osový</td></tr><tr><th>Podporované pamäťové karty</th><td>microSD až do 512 GB</td></tr><tr><th>Wi-Fi</th><td>Wi-Fi 6, 5,8 GHz</td></tr><tr><th>Bluetooth</th><td>5.4 (BLE)</td></tr><tr><th>GNSS</th><td>GPS, BDS, GLONASS, GALILEO, QZSS</td></tr><tr><th>ADAS</th><td>Upozornenie na odchod vozidla vpredu, upozornenie na únavu vodiča</td></tr><tr><th>Superkondenzátor</th><td>Áno</td></tr><tr><th>Správa napájania IPS</th><td>Podporované, voliteľné</td></tr><tr><th>Modul 4G</th><td>Podporované, voliteľné</td></tr><tr><th>Radarový modul</th><td>Podporované, voliteľné</td></tr><tr><th>Prevádzková teplota</th><td>-20 °C až 70 °C</td></tr><tr><th>Skladovacia teplota</th><td>-40 °C až 85 °C</td></tr><tr><th>Rozmery</th><td>102 × 62,5 × 31,3 mm</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87920_64898_pol_60710e6b1bf076e0c623db0060631793" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/elektronika-do-auta-kamery-do-auta/">Kamery do auta</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[DDPAI]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>093882</CODE>
+<EAN>6934915208166</EAN>
+<CATEGORIES><CATEGORY><![CDATA[Auto-moto > Elektronika do auta > Kamery do auta]]></CATEGORY><CATEGORY><![CDATA[Auto-moto]]></CATEGORY><CATEGORY><![CDATA[Auto-moto > Elektronika do auta]]></CATEGORY></CATEGORIES>
+<IMAGES>
+  <IMAGE description="DDPAI N5 Pro – palubná kamera - obrázok 1">https://b2b.innpro.sk/hpeciai/5408dd7a4bfd5af467efdd9741b2c113/64898_1_1.webp</IMAGE>
+  <IMAGE description="DDPAI N5 Pro – palubná kamera - obrázok 2">https://b2b.innpro.sk/hpeciai/dc1e709f589abcd3333d5657682b2761/64898_2_1.webp</IMAGE>
+  <IMAGE description="DDPAI N5 Pro – palubná kamera - obrázok 3">https://b2b.innpro.sk/hpeciai/75f4ed1d5be384fe467261d0f98d3122/64898_3_1.webp</IMAGE>
+  <IMAGE description="DDPAI N5 Pro – palubná kamera - obrázok 4">https://b2b.innpro.sk/hpeciai/0a42e834460ab54955ace59828e6033b/64898_4_1.webp</IMAGE>
+  <IMAGE description="DDPAI N5 Pro – palubná kamera - obrázok 5">https://b2b.innpro.sk/hpeciai/df5fdf987ece1fb2d81892c367edc925/64898_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[DDPAI]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet kanálov]]></NAME>
+    <VALUE><![CDATA[predný + zadný]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozlíšenie prednej kamery]]></NAME>
+    <VALUE><![CDATA[4K@30 HDR / 4K@25 HDR / 3K@60]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Clona objektívu]]></NAME>
+    <VALUE><![CDATA[F1,8]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zorné pole]]></NAME>
+    <VALUE><![CDATA[143°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konštrukcia objektívu]]></NAME>
+    <VALUE><![CDATA[2G4P]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kódovanie videa]]></NAME>
+    <VALUE><![CDATA[AI.265 / H.264]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Formát videa]]></NAME>
+    <VALUE><![CDATA[MP4]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[G-senzor]]></NAME>
+    <VALUE><![CDATA[3-osový]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Podporované pamäťové karty]]></NAME>
+    <VALUE><![CDATA[microSD až do 512 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Wi-Fi]]></NAME>
+    <VALUE><![CDATA[Wi-Fi 6, 5,8 GHz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Bluetooth, Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>1.44</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
+<PRICE_VAT>127.90</PRICE_VAT>
+<PURCHASE_PRICE>90.37</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[DDPAI N5 Pro – palubná kamera | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[DDPAI N5 Pro – palubná kamera – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[DDPAI N5 Pro 4G palubná kamera]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Autokamera DDPAI N5 Pro 4G DDPAI N5 Pro 4G je dvojkanálová autokamera, ktorá vám umožňuje sledovať priestor pred aj za vozidlom, pričom predná kamera podporuje nahrávanie v rozlíšení až 4K s…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Autokamera DDPAI N5 Pro 4G</h3>
@@ -593133,6 +593345,113 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[DDPAI Z90 Master – palubná kamera – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[DDPAI Ranger M1 – palubná kamera]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Autokamera DDPAI Ranger M1 DDPAI Ranger M1 je kompaktná autokamera, ktorá dokáže nahrávať video v rozlíšení 3K (2880 × 1620) pri 30 fps alebo v rozlíšení 2K (2560 × 1440) pri 30 fps. Kamera je…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Autokamera DDPAI Ranger M1</h3>
+<p>DDPAI Ranger M1 je kompaktná autokamera, ktorá dokáže nahrávať video v rozlíšení 3K (2880 × 1620) pri 30 fps alebo v rozlíšení 2K (2560 × 1440) pri 30 fps. Kamera je vybavená objektívom so svetelnou clonou F1,55 a širokým uhlom záberu 145°, ako aj šesťosovým gyroskopom a technológiou stabilizácie založenou na aplikácii. Ponúka tiež Wi-Fi v pásme 5 GHz s technológiou Wi-Fi Turbo, Bluetooth BLE 5.4 a podporu microSD kariet s kapacitou až 256 GB, pričom stupeň krytia IP67 zaručuje odolnosť proti prachu a vode.</p>
+<p>
+<img alt="Čierna motocyklová kamera DDPAI Ranger M1 sa vznáša medzi dvoma čiernymi skalami" border="0" src="https://assets.innpro.pl/24350/32011/1-iop-3dee55ca-26a7-4704-93d1-d1a2612c631e.jpg"/>
+</p><h3>Podrobné nahrávanie videa v rozlíšení 3K</h3>
+<p>Rozlíšenie 2880 × 1620 umožňuje veľmi detailné nahrávanie videa, čo je nevyhnutné pri dokumentovaní udalostí na trase. Nahrávanie prebieha rýchlosťou 30 snímok za sekundu a alternatívne môžete zvoliť rozlíšenie 2K (2560 × 1440) pri rovnakej snímkovej frekvencii. Zorné pole 145° zachytáva širokú oblasť pred objektívom, čo umožňuje kamere zaznamenať viac prvkov v jej dosahu.</p>
+<p>
+<img alt="Čierno-strieborná motocyklová kamera DDPAI Ranger M1 namontovaná na držiaku pred tmavým pozadím" border="0" src="https://assets.innpro.pl/24350/32011/2-iop-2eb35ad0-c05c-4698-aea6-3d4d4aafe6da.jpg"/>
+</p><h3>Svetelná clona F1,55 a stabilizácia obrazu</h3>
+<p>Objektív kamery DDPAI Ranger M1 je vybavený svetelnou clonou F1,55, ktorá prepúšťa viac svetla, čím zlepšuje kvalitu videa za zhoršených svetelných podmienok. Táto funkcia je obzvlášť dôležitá pri jazde za súmraku alebo pri používaní kamery v slabo osvetlených priestoroch, ako sú napríklad podzemné parkoviská. Kamera je tiež vybavená šesťosovým gyroskopom a technológia stabilizácie založená na aplikácii pomáha minimalizovať vplyv vibrácií na zaznamenaný záznam.</p>
+<p>
+<img alt="Motocyklová kamera DDPAI Ranger M1 namontovaná vpredu na čiernom motocykli v blízkosti riadidiel" border="0" src="https://assets.innpro.pl/24350/32011/3-iop-09289d18-c821-403e-899d-702b155c34cf.jpg"/>
+</p><h3>Wi-Fi 5 GHz a podpora kariet s kapacitou až 256 GB</h3>
+<p>Kamera DDPAI Ranger M1 využíva Wi-Fi v pásme 5 GHz s technológiou Wi-Fi Turbo a podporuje aj štandard Bluetooth BLE 5.4. Záznamy je možné ukladať na microSD kartu s kapacitou až 256 GB, čo vám umožňuje prispôsobiť veľkosť dostupného úložného priestoru vašim potrebám. Veľká maximálna kapacita podporovanej karty je obzvlášť užitočná pre ľudí, ktorí kameru pravidelne používajú a nahrávajú veľké množstvo záznamov.</p>
+<p>
+<img alt="Motocyklová kamera DDPAI Ranger M1 namontovaná pod zadným kufrom skútra alebo motocykla" border="0" src="https://assets.innpro.pl/24350/32011/4-iop-b325997e-428d-4355-856a-db374d38477f.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>DDPAI</td></tr><tr><th>Model</th><td>Ranger M1</td></tr><tr><th>Rozlíšenie 3K</th><td>2880 × 1620, 30 fps</td></tr><tr><th>Rozlíšenie 2K</th><td>2560 × 1440, 30 fps</td></tr><tr><th>Clona</th><td>F1,55</td></tr><tr><th>Zorné pole</th><td>145°</td></tr><tr><th>Stabilizácia</th><td>technológia stabilizácie prostredníctvom aplikácie</td></tr><tr><th>G-senzor</th><td>šesťosový gyroskop</td></tr><tr><th>Wi-Fi</th><td>5 GHz s technológiou Wi-Fi Turbo</td></tr><tr><th>Bluetooth</th><td>BLE 5.4</td></tr><tr><th>Podporované pamäťové karty</th><td>microSD až do 256 GB</td></tr><tr><th>Napájanie</th><td>USB-A / Inteligentná sada na pripojenie káblom</td></tr><tr><th>Batéria</th><td>Super Lithium 80 mAh</td></tr><tr><th>Ochrana proti výpadku napájania</th><td>Ochrana nahrávania</td></tr><tr><th>Stupeň krytia</th><td>IP67</td></tr><tr><th>Prevádzková teplota</th><td>-20 °C až 45 °C</td></tr><tr><th>Rozmery</th><td>63 × 30,5 × 29,6 mm</td></tr><tr><th>Hmotnosť</th><td>91 g</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87927_64909_pol_dce345f27d3c6efc8b75e2eb551a8f84" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/elektronika-do-auta-kamery-do-auta/">Kamery do auta</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[DDPAI]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>093893</CODE>
+<EAN>6934915204571</EAN>
+<CATEGORIES><CATEGORY><![CDATA[Auto-moto > Elektronika do auta > Kamery do auta]]></CATEGORY><CATEGORY><![CDATA[Auto-moto]]></CATEGORY><CATEGORY><![CDATA[Auto-moto > Elektronika do auta]]></CATEGORY></CATEGORIES>
+<IMAGES>
+  <IMAGE description="DDPAI Ranger M1 – palubná kamera - obrázok 1">https://b2b.innpro.sk/hpeciai/1903a291e449a1ad4cfce7be1facb4f8/64909_1_1.webp</IMAGE>
+  <IMAGE description="DDPAI Ranger M1 – palubná kamera - obrázok 2">https://b2b.innpro.sk/hpeciai/2a2b39cfae06afc367c40f161e34bd94/64909_2_1.webp</IMAGE>
+  <IMAGE description="DDPAI Ranger M1 – palubná kamera - obrázok 3">https://b2b.innpro.sk/hpeciai/5ceb1c390e8af781f87e625a40b50a27/64909_3_1.webp</IMAGE>
+  <IMAGE description="DDPAI Ranger M1 – palubná kamera - obrázok 4">https://b2b.innpro.sk/hpeciai/c1cf6a8a442217ad319ff5f995e628e6/64909_4_1.webp</IMAGE>
+  <IMAGE description="DDPAI Ranger M1 – palubná kamera - obrázok 5">https://b2b.innpro.sk/hpeciai/896cad5ae57f6aaaaa4e3293326bd279/64909_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[DDPAI]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozlíšenie 3K]]></NAME>
+    <VALUE><![CDATA[2880 × 1620, 30 fps]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozlíšenie 2K]]></NAME>
+    <VALUE><![CDATA[2560 × 1440, 30 fps]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Clona]]></NAME>
+    <VALUE><![CDATA[F1,55]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zorné pole]]></NAME>
+    <VALUE><![CDATA[145°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Stabilizácia]]></NAME>
+    <VALUE><![CDATA[technológia stabilizácie prostredníctvom aplikácie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[G-senzor]]></NAME>
+    <VALUE><![CDATA[šesťosový gyroskop]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Wi-Fi]]></NAME>
+    <VALUE><![CDATA[5 GHz s technológiou Wi-Fi Turbo]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bluetooth]]></NAME>
+    <VALUE><![CDATA[BLE 5.4]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Podporované pamäťové karty]]></NAME>
+    <VALUE><![CDATA[microSD až do 256 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Napájanie]]></NAME>
+    <VALUE><![CDATA[USB-A / Inteligentná sada na pripojenie káblom]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Bluetooth, Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.32</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
+<PRICE_VAT>59.50</PRICE_VAT>
+<PURCHASE_PRICE>41.95</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[DDPAI Ranger M1 – palubná kamera | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[DDPAI Ranger M1 – palubná kamera – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[DDPAI Ranger M1 Pro – palubná kamera]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Autokamera DDPAI Ranger M1 Pro DDPAI Ranger M1 Pro je autokamera pozostávajúca z dvoch kompaktných modulov, z ktorých každý dokáže nahrávať video v rozlíšení až 3K (2880 × 1620) pri 30 fps. Objektívy…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Autokamera DDPAI Ranger M1 Pro</h3>
@@ -593194,6 +593513,87 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[DDPAI Ranger M1 Pro – palubná kamera | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[DDPAI Ranger M1 Pro – palubná kamera – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Cloudový modul DDPAI 4G]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Cloudový modul DDPAI 4G Cloud Box Cloudový modul DDPAI 4G Cloud Box umožňuje vzdialené pripojenie ku kompatibilnej palubnej kamere prostredníctvom siete 4G. Zariadenie podporuje kartu Nano-SIM určenú…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Cloudový modul DDPAI 4G Cloud Box</h3>
+<p>Cloudový modul DDPAI 4G Cloud Box umožňuje vzdialené pripojenie ku kompatibilnej palubnej kamere prostredníctvom siete 4G. Zariadenie podporuje kartu Nano-SIM určenú pre IoT a je vybavené portom USB typu C. Vďaka kompaktnému puzdru s rozmermi 58 × 43 × 55 mm a nízkej hmotnosti 69 g je ľahké nájsť pre modul vhodné umiestnenie vo vozidle.</p>
+<p>
+<img alt="Čierny cloudový modul DDPAI na šedom pozadí s farebným prechodom" border="0" src="https://assets.innpro.pl/24360/32022/2-iop-d3aa03ee-ee25-4444-ab9e-107d3853bd42.jpg"/>
+</p><h3>Pripojenie 4G</h3>
+<p>Podpora siete 4G umožňuje diaľkovú komunikáciu medzi modulom a kompatibilnou palubnou kamerou DDPAI. Vďaka tomu Cloud Box rozširuje komunikačné možnosti kompatibilnej palubnej kamery a umožňuje vzdialené pripojenie k nej. Prenos dát cez sieť 4G zabezpečuje karta Nano-SIM IoT.</p>
+<p>
+<img alt="Čierny cloudový modul DDPAI zobrazený pod uhlom na šedom pozadí s farebným prechodom" border="0" src="https://assets.innpro.pl/24360/32022/3-iop-6f0e6b4a-3911-4572-ad8b-1f8f1742e113.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>DDPAI</td></tr><tr><th>Model</th><td>4G Cloud Box</td></tr><tr><th>Rozmery</th><td>58 × 43 × 55 mm</td></tr><tr><th>Hmotnosť</th><td>69 g</td></tr><tr><th>Sieť</th><td>4G</td></tr><tr><th>Funkcia siete 4G</th><td>Diaľkové pripojenie ku kompatibilným palubným kamerám</td></tr><tr><th>Karta IoT</th><td>Nano-SIM</td></tr><tr><th>USB</th><td>Typ C</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87928_64913_pol_3540e281bb156ba91848b6230c695e95" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/elektronika-do-auta/">Elektronika do auta</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[DDPAI]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>093897</CODE>
+<EAN>6934915204519</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Auto-moto > Elektronika do auta]]></CATEGORY>
+  <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Cloudový modul DDPAI 4G - obrázok 1">https://b2b.innpro.sk/hpeciai/201c4a80eadb5d3bebc7a76796f22f94/64913_1_1.webp</IMAGE>
+  <IMAGE description="Cloudový modul DDPAI 4G - obrázok 2">https://b2b.innpro.sk/hpeciai/4a6d2838d3478ba17e1093832c51ea36/64913_2_1.webp</IMAGE>
+  <IMAGE description="Cloudový modul DDPAI 4G - obrázok 3">https://b2b.innpro.sk/hpeciai/11acd818c7c1cbc88a02acc7e84f8566/64913_3_1.webp</IMAGE>
+  <IMAGE description="Cloudový modul DDPAI 4G - obrázok 4">https://b2b.innpro.sk/hpeciai/0c8f3b63cf7298fbd8fa537304aee37a/64913_4_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[DDPAI]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery]]></NAME>
+    <VALUE><![CDATA[58 × 43 × 55 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hmotnosť]]></NAME>
+    <VALUE><![CDATA[69 g]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Sieť]]></NAME>
+    <VALUE><![CDATA[4G]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Funkcia siete 4G]]></NAME>
+    <VALUE><![CDATA[Diaľkové pripojenie ku kompatibilným palubným kamerám]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Karta IoT]]></NAME>
+    <VALUE><![CDATA[Nano-SIM]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[USB]]></NAME>
+    <VALUE><![CDATA[Typ C]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
+<PRICE_VAT>51.90</PRICE_VAT>
+<PURCHASE_PRICE>36.63</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Cloudový modul DDPAI 4G | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Cloudový modul DDPAI 4G – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Absorbér vlhkosti pre dávkovač potravín ROJECO]]></NAME>
@@ -599069,6 +599469,80 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Otoskop s kamerou BEBIRD EarSight Plus (ružový) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Otoskop s kamerou BEBIRD EarSight Plus (ružový) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Radarový modul pre palubnú kameru N5 DDPAI]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Radarový modul pre palubnú kameru N5 DDPAI Radarový modul DDPAI DC001 je príslušenstvo určené na použitie s palubnými kamerami DDPAI N5 Dual 2026, N5 Pro a N5 Pro 4G. Tento produkt kombinuje radarový…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Radarový modul pre palubnú kameru N5 DDPAI</h3>
+<p>Radarový modul DDPAI DC001 je príslušenstvo určené na použitie s palubnými kamerami DDPAI N5 Dual 2026, N5 Pro a N5 Pro 4G. Tento produkt kombinuje radarový modul so sadou OBD Hardwire Kit, vďaka čomu môžete rozšíriť konfiguráciu kompatibilnej palubnej kamery. Na pripojenie ku kamere sa používa konektor USB typu C a napájanie je zabezpečené cez OBD, čo vám umožňuje používať sadu bez toho, aby ste obsadzovali zásuvku zapaľovača v aute.</p>
+<p>
+<img alt="Čierny radarový modul DDPAI s konektorom USB-C, zobrazený uprostred na čiernom pozadí s modrými svetelnými pruhmi" border="0" src="https://assets.innpro.pl/24358/32019/1-60f7678b-0534-47b6-9b06-dd00e9642673.jpg"/>
+</p><h3>Radarový modul so sadou OBD Hardwire Kit</h3>
+<p>DDPAI DC001 kombinuje radarový modul so sadou OBD Hardwire Kit. Využitie napájania z konektora OBD umožňuje napájať palubnú kameru bez toho, aby ste museli obsadiť zásuvku zapaľovača v aute. Ide o praktické riešenie určené na rozšírenie kompatibilných sád série DDPAI N5.</p>
+<p>
+<img alt="Čierny radarový modul DDPAI položený na drevenom stole vedľa notebooku, kľúčov od auta a kvetináča" border="0" src="https://assets.innpro.pl/24358/32019/2-bcbf2173-2596-4a2e-8c33-57fd4ce1fd47.jpg"/>
+</p><h3>Kompatibilita s palubnými kamerami DDPAI N5</h3>
+<p>Model DC001 je určený na použitie s konkrétnymi palubnými kamerami DDPAI. Toto príslušenstvo je kompatibilné s modelmi N5 Dual 2026, N5 Pro a N5 Pro 4G. Pred nákupom preto odporúčame skontrolovať číslo modelu vašej palubnej kamery, aby ste sa uistili, že je na zozname podporovaných zariadení.</p>
+<p>
+<img alt="Radarový modul DDPAI s konektorom USB-C umiestnený na pravej strane na tmavom pozadí s vlnitými pruhmi svetla" border="0" src="https://assets.innpro.pl/24358/32019/3-a841e53e-e9f2-458a-88f8-09f43396fed4.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>DDPAI</td></tr><tr><th>Model</th><td>DC001</td></tr><tr><th>Produkt</th><td>Radarový modul pre palubnú kameru N5</td></tr><tr><th>Kompatibilita</th><td>DDPAI N5 Dual 2026, N5 Pro, N5 Pro 4G</td></tr><tr><th>USB konektor</th><td>Type-C</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87929_65285_pol_bdc4fdc2208453f770b100f6b6ff4bbc" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/elektronika-do-auta/">Elektronika do auta</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[DDPAI]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>093896</CODE>
+<EAN>6934915204298</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Auto-moto > Elektronika do auta]]></CATEGORY>
+  <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Radarový modul pre palubnú kameru N5 DDPAI - obrázok 1">https://b2b.innpro.sk/hpeciai/1b364c4550724563e89d27e93fb356cd/65285_1_1.webp</IMAGE>
+  <IMAGE description="Radarový modul pre palubnú kameru N5 DDPAI - obrázok 2">https://b2b.innpro.sk/hpeciai/9cb9ffb42a5c3afebc64ac6d2009fd8b/65285_2_1.webp</IMAGE>
+  <IMAGE description="Radarový modul pre palubnú kameru N5 DDPAI - obrázok 3">https://b2b.innpro.sk/hpeciai/33892632674209be4a34f2218c63d103/65285_3_1.webp</IMAGE>
+  <IMAGE description="Radarový modul pre palubnú kameru N5 DDPAI - obrázok 4">https://b2b.innpro.sk/hpeciai/fe98829564af040b06cddee850f26ba9/65285_4_1.webp</IMAGE>
+  <IMAGE description="Radarový modul pre palubnú kameru N5 DDPAI - obrázok 5">https://b2b.innpro.sk/hpeciai/3dfa8c9c4416ea97c25387592fa4a93c/65285_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[DDPAI]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Produkt]]></NAME>
+    <VALUE><![CDATA[Radarový modul pre palubnú kameru N5]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[DDPAI N5 Dual 2026, N5 Pre, N5 Pre 4G]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[USB konektor]]></NAME>
+    <VALUE><![CDATA[Type-C]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.23</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
+<PRICE_VAT>52.00</PRICE_VAT>
+<PURCHASE_PRICE>36.82</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Radarový modul pre palubnú kameru N5 DDPAI | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Radarový modul pre palubnú kameru N5 DDPAI – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Barebone PC MINIS FORUM MS-03 s procesorom Intel Core Ultra 5 336H]]></NAME>
@@ -609542,6 +610016,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -611380,13 +611855,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
-    <CODE>079252</CODE>
-    <EAN>6976037362296</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
     <CODE>079271</CODE>
     <EAN>6976037362401</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -612687,7 +613155,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088508</CODE>
     <EAN>6975577881977</EAN>
@@ -612785,7 +613253,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
@@ -613438,36 +613906,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
-    <CODE>093882</CODE>
-    <EAN>6934915208166</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>093893</CODE>
-    <EAN>6934915204571</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
     <CODE>093895</CODE>
     <EAN>6934915204458</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>093896</CODE>
-    <EAN>6934915204298</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>093897</CODE>
-    <EAN>6934915204519</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>

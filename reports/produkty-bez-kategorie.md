@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-22 08:25 UTC.
+Kontrola z 2026-10-22 09:01 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -13,6 +13,12 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `MS-GARNI 1NG3` | Integrované čidlo Garni 1NG pre meteostanice Garni (AT_MS-GARNI 1NG3) |
 
+## basys — 1 ks
+
+| Kód | Produkt |
+|---|---|
+| `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
+
 ## innpro — 6 ks
 
 | Kód | Produkt |
@@ -24,7 +30,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `095293` | Pamäťová karta GODOX microSD 16 GB |
 | `095294` | Pamäťová karta GODOX microSD 32 GB |
 
-## kb — 8 ks
+## kb — 7 ks
 
 | Kód | Produkt |
 |---|---|
@@ -35,7 +41,6 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `100001049401` | Banquet Hmoždíř keramický COLLEZIONE B |
 | `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
 | `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
-| `999147297962` | Krájač potravín Zelmer ZFS0917, 150 W |
 
 ## solight — 1 ks
 
