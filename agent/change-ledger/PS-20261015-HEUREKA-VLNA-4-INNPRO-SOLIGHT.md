@@ -21,6 +21,6 @@
 - PRE_DEPLOY_VALIDATION: JSON validný, 123 nových kľúčov, žiadny nekoliduje s existujúcim; diff obsahuje len pridané záznamy; formát rovnaký ako vlna 1.
 - DEPLOYED_AT: push 2026-10-15; HEUREKA_HIDDEN sa zapíše pri najbližších behoch InnPro/Solight
 - POST_DEPLOY_VALIDATION: po nočných behoch InnPro/Solight skontrolovať, že 123 EAN má HEUREKA_HIDDEN; po 7 dňoch skontrolovať, že kliky na nich ustali.
-- RESULT: —
+- RESULT: Kontrola 2026-10-19: vlna 4 (123 EAN) mala 1.–15.10. 29,1 € nákladov (84 klikov), 16.–19.10. 0,55 € (1 klik); vlna 5 (106 EAN, bez vlastného ledger záznamu) 42,8 € → 0 €. Hypotéza úspory ~14 €/týždeň sa potvrdzuje (spolu ~72 € za 15 dní pred skrytím). Objednávky skrytých produktov po nasadení: 0.
 - DECISION: 12.11. vyhodnotiť uvoľnenie (viď týždenná kontrola).
 - ROLLBACK / ROLLBACK_COMMIT: odstrániť položky s "wave": 4 z cpc-hidden-products.json alebo revert commitu.
