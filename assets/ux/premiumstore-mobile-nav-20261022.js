@@ -26,6 +26,7 @@
 
   function init(){
     if(document.getElementById('pmb-bar'))return;
+    if(window.__pmbVariant==='A')return;               /* A/B test: variant A = pôvodné menu */
     var path=location.pathname;
     if(HIDE_ON.test(path))return;
     document.body.classList.add('pmb-on');
