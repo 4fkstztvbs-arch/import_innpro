@@ -72,7 +72,7 @@
   body.pmb-on .ps-buybar{bottom:calc(92px + var(--pmb-b,0px) + env(safe-area-inset-bottom));transition:transform .25s ease,bottom .2s ease}
   body.pmb-on.pmb-hid .ps-buybar{bottom:var(--pmb-b,0px)}
   /* Black Friday v pôvodnom menu (variant A) */
-  #navigation .menu-level-1 > li > a[href*="black-friday"]{display:flex;align-items:center;gap:10px;margin:8px 12px;padding:12px 14px;border-radius:14px;background:linear-gradient(100deg,#ff8a3d,#ee5a2f 55%,#d93a22);color:#fff;box-shadow:0 6px 16px rgba(238,90,47,.32)}
-  #navigation .menu-level-1 > li > a[href*="black-friday"] b{color:#fff;font-weight:700;font-size:17px}
-  #navigation .menu-level-1 > li > a[href*="black-friday"]::before{content:"";width:22px;height:22px;flex:0 0 auto;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 12c2-2.96 0-7-1-8 0 3.038-1.773 4.741-3 6-1.226 1.26-2 3.24-2 5a6 6 0 1 0 12 0c0-1.532-1.056-3.94-2-5-1.786 3-2.791 3-4 2z'/%3E%3C/svg%3E") center/contain no-repeat}
+  #navigation .menu-level-1 > li > a[href*="black-friday"],.ps-mobile-rows a[href*="black-friday"]{display:flex;align-items:center;gap:10px;margin:8px 12px;padding:12px 14px;border-radius:14px;background:linear-gradient(100deg,#ff8a3d,#ee5a2f 55%,#d93a22);color:#fff;box-shadow:0 6px 16px rgba(238,90,47,.32)}
+  #navigation .menu-level-1 > li > a[href*="black-friday"] b,.ps-mobile-rows a[href*="black-friday"],.ps-mobile-rows a[href*="black-friday"] *{color:#fff;font-weight:700;font-size:17px}
+  #navigation .menu-level-1 > li > a[href*="black-friday"]::before,.ps-mobile-rows a[href*="black-friday"]::before{content:"";width:22px;height:22px;flex:0 0 auto;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 12c2-2.96 0-7-1-8 0 3.038-1.773 4.741-3 6-1.226 1.26-2 3.24-2 5a6 6 0 1 0 12 0c0-1.532-1.056-3.94-2-5-1.786 3-2.791 3-4 2z'/%3E%3C/svg%3E") center/contain no-repeat}
 }
