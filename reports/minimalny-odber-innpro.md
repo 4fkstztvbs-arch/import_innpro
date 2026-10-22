@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-21 21:53 UTC.
+Kontrola z 2026-10-22 08:21 UTC.
 
-InnPro pri **358** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **362** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -30,6 +30,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `023349` | Organizér / držiak nabíjačky AppleWatch (čierny) | — | 5 |
 | `024736` | Kempingová lampa Superfire T20, 180lm, USB | — | 5 |
 | `024662` | Inteligentný spínač WiFi Gosund SW3, Tuya | — | 5 |
+| `025657` | Čelovka Superfire HL51 – 160 lm, micro-USB, 4 režimy, 300 m | — | 5 |
 | `025583` | Inteligentná žiarovka Yeelight W1 GU10 (biela) 1 kus | — | 5 |
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | — | 5 |
 | `026131` | Základňa snímača pohybu Sonoff (PIR3, SNZB-03) | — | 5 |
@@ -46,7 +47,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 4 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `033419` | Mäkká kefa pre Dreame V10 Pro | — | 5 |
-| `035753` | Kryt kefy pre vysávač Dreame Z10 Pro | — | 2 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
@@ -108,7 +108,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `059067` | Herná myš ONIKUMA CW905 čierna | — | 5 |
 | `056359` | Štítky do termotlačiarne Niimbot pre B21, 50 mm x 30 mm, 230 | — | 5 |
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
-| `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
 | `057927` | Inteligentný prepínač WiFi Sonoff S-MATE2 (bez neutrálu) | — | 5 |
 | `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
@@ -136,7 +135,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
 | `061362` | Side brush for Roidmi EVE CC | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
-| `063729` | Replacement filters for the Oneisall fountain | — | 2 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `065622` | Storage Bag Sunnylife for Insta360 X4 / X5 | — | 5 |
 | `066305` | Tempered Glass PULUZ  for Insta360 X4 / X5 | — | 5 |
@@ -168,6 +166,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `070769` | Thermal labels Niimbot stickers 60x40 mm - 690 pcs. White | — | 5 |
 | `069478` | EVA protective case for Insta360 X4 / X5 | — | 5 |
 | `070619` | Telesin plastic mounting frame for Insta360 X4 | — | 5 |
+| `070827` | Superfire HL96 headlamp flashlight | — | 5 |
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
 | `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 4 |
@@ -187,6 +186,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
+| `071777` | Magnetický držiak telefónu Joyroom JR-ZS418 čierny | — | 5 |
 | `073335` | Telesin Tvrdené sklo 3 v 1 pre GoPro Hero 13 Black (S6-FLM-0 | — | 5 |
 | `075568` | Filtre Rojeco pre 2,5 l bezdrôtové vodné fontány 50 | — | 5 |
 | `075569` | Rojeco Filtre pre dávkovač vody pre domáce zvieratá 2600mAh  | — | 5 |
@@ -209,6 +209,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `078092` | Podložky na vysávanie pre vysávač MOVA E10, E20, E20 Plus, E | — | 5 |
 | `078265` | PULUZ silikónové ochranné puzdro s krytom objektívu pre Inst | — | 5 |
 | `078359` | PetKit PURA MAX 2 vrecká na odpadky | — | 5 |
+| `078581` | Ochranné puzdro Sunnylife pre DJI Osmo Pocket 3 | — | 5 |
 | `078658` | Puzdro Sunnylife s remienkom na zápästie pre Insta360 X5 | — | 5 |
 | `079255` | 1-kanálový spínací modul WiFi s beznapäťovým kontaktom Avatt | — | 5 |
 | `079457` | Diaľkové ovládanie TELESIN | — | 5 |
@@ -248,6 +249,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083027` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (či | — | 5 |
 | `083028` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (or | — | 5 |
 | `083029` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (si | — | 5 |
+| `057987` | Magnetický organizér káblov Joyroom JR-ZS368, 3 kusy (čierny | — | 5 |
 | `083367` | Taška Sunnylife pre Action 6 (oranžová) | — | 5 |
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
@@ -307,6 +309,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088956` | Samolepiaca fólia HTVRONT v odtieni Chrome Metallic, 30,5 cm | — | 5 |
 | `088957` | Samolepiaca fólia HTVRONT v odtieni Chrome Metallic, 30,5 cm | — | 5 |
 | `088958` | Samolepiaca fólia HTVRONT Chrome, 30,5 cm x 90 cm (ružové zl | — | 5 |
+| `088959` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (čierna) | — | 5 |
 | `088960` | Samolepiaca matná fólia HTVRONT, 30,5 cm × 180 cm (biela) | — | 5 |
 | `088961` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (červená) | — | 5 |
 | `088962` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (ružová) | — | 5 |
@@ -322,7 +325,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088979` | HTVRONT Sublimation Tape, 20 m x 33 m (modrá) | — | 5 |
 | `088982` | Súprava nástrojov na odstránenie fólie HTVRONT | — | 5 |
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |
-| `088984` | Rezná podložka HTVRONT, 34,8 cm x 37 cm, balenie po 3 kusoch | — | 5 |
+| `088984` | Rezná podložka HTVRONT, 34,8 cm x 37 cm, balenie po 3 kusoch | — | 4 |
 | `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
 | `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 5 |
 | `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
@@ -342,6 +345,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089659` | Odolný kryt objektívu Puluz pre GoPro HERO13 Black (čierny) | — | 5 |
 | `089660` | Dokovacia stanica Puluz pre DJI Osmo Pocket 3 (čierna) | — | 5 |
 | `089661` | Ochranná fólia na objektív Puluz pre GoPro HERO12, HERO11, H | — | 5 |
+| `089663` | Tvrdené sklo Puluz pre DJI Osmo Action 4 (číre) | — | 5 |
 | `089664` | Držiak na telefón Puluz na statív | — | 4 |
 | `089666` | Penový ochranný kryt Puluz pre Insta360 X5, X4 a X3 (balenie | — | 5 |
 | `089671` | Skladací statív Puluz pre mobilné telefóny | — | 5 |

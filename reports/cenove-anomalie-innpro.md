@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-10-21
+# Cenové anomálie vynechané z feedu — innpro — 2026-10-22
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -468,64 +468,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093482 | 6975274260563 | Solar connector Allpowers type Y | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093483 | 6975274260532 | Cable Allpowers XT60 car charger | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093596 | 6941590018386 | Batéria V-Mount SMALLRIG VB50 mini | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093601 | 6941590014593 | Držiak na telefón SMALLRIG 4382 s upínacím držiakom „Cold Shoe“ | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093603 | 6941590016610 | LED videolampa SMALLRIG RF 10C | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093604 | 6941590008738 | Držiak na monitor SMALLRIG 2905B | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093605 | 6941590017389 | Súprava SMALLRIG Magic Arm s krabovou svorkou na upevnenie kamery | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093606 | 6941590024233 | LED svietidlo SMALLRIG RM 03 Macro | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093607 | 6941590015095 | Mini statív SMALLRIG VT-20 z hliníka | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093608 | 6941590017945 | LED štúdiové osvetlenie SMALLRIG RC 220B 220 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093609 | 6941590014920 | Náhradná batéria SMALLRIG NP-FZ100 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093610 | 6941590016191 | Softbox SMALLRIG RA-D60 60 cm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093611 | 6941590030838 | Držiak na monitor SMALLRIG 2903B | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093612 | 6941590016160 | Softbox SMALLRIG LA-O90 90 cm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093613 | 6941590003634 | Batériová doska SMALLRIG 3016 V-Mount 15 mm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093614 | 6941590028712 | LED videolampa SMALLRIG RF 05B Zoom | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093616 | 6941590001791 | Držiak kamery SMALLRIG Magic Arm 2066B | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093617 | 6941590016917 | LED videolampa SMALLRIG Vibe P108 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093618 | 6941590007632 | Parabolický softbox SMALLRIG RA-D85 85 cm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093619 | 6941590008899 | Hliníkový statív SMALLRIG CT-10 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093620 | 6941590007410 | Svetelný statív SMALLRIG RA-S280, 280 cm, s vzduchovým odpružením | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093621 | 6941590002958 | Klietka na kameru SMALLRIG 2918 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093622 | 6941590021539 | Držiak SMALLRIG 5123 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093623 | 6941590013381 | Stativ SMALLRIG AD-80 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093624 | 6941590013763 | Klietka na fotoaparát SMALLRIG pre Canon R6 MkII | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093626 | 6941590007625 | Softbox SMALLRIG RA-D55 55 cm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093615 | 6941590020990 | Klietka na kameru SMALLRIG 4183B pre Sony FX3/FX30 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093627 | 6941590013862 | Klietka na fotoaparát SMALLRIG pre Sony A6700 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093628 | 6941590007427 | Svetelný statív SMALLRIG RA-S280A s ramenom 280 cm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093629 | 6941590009643 | Univerzálny vozík na statív SMALLRIG 3986 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093630 | 6941590024349 | Držiak SMALLRIG 5448 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093631 | 6941590021362 | Stativ SMALLRIG AD-Pro8 s hlavou s olejovým tlmením | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093632 | 6941590018058 | SMALLRIG RC 100B 100 W LED štúdiové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093633 | 6941590027159 | Sada makro LED svetiel SMALLRIG RM 03 (2 ks) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093634 | 6941590026633 | SMALLRIG RC 60B 60 W LED štúdiové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093635 | 6941590023137 | SMALLRIG CT25 – stativ na zavesenie nad hlavou | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093636 | 6941590024752 | SMALLRIG 5227 – doska na batérie s uchytením typu V-Mount | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093637 | 6941590012810 | Klietka na fotoaparát SMALLRIG pre Sony A7III/A7RIII | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093638 | 6941590012506 | Držiak na monitor SMALLRIG 3026B | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093639 | 6941590008431 | SMALLRIG 3764 – montáž zhora | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093640 | 6941590011806 | Softbox SMALLRIG RA-D120 120 cm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093641 | 6941590017570 | Kruhový držiak SMALLRIG pre DJI RS | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093642 | 6941590015132 | Súprava batériových dosiek SMALLRIG 4064B V-Mount | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093643 | 6941590003580 | Držiak na tablet SMALLRIG 2930 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093644 | 6941590024967 | Videostativ SMALLRIG 5474 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093645 | 6941590010021 | Kryt kamery SMALLRIG Sony ZV-E10 Grip | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093646 | 6941590024288 | Hydraulický statív SMALLRIG TRIBEX SE | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093647 | 6941590026701 | Stativ SMALLRIG TRIBEX Carbon II z uhlíkových vlákien | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093648 | 6941590021867 | Držiak na telefón SMALLRIG 5156 s uchytením typu „cold shoe“ | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093649 | 6941590028101 | Kryt pre kameru SMALLRIG OSMO Action 6 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093650 | 6941590022567 | Držiak na monitor SMALLRIG 5337 DJI RS | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093651 | 6941590021607 | Kryt pre kameru SMALLRIG Osmo Action 5 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093652 | 6941590016344 | Filter SMALLRIG CPL 67 mm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093653 | 6941590022574 | Držiak na telefón SMALLRIG 5338 Arca-Standard | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093654 | 6941590024097 | Súprava ND filtrov SMALLRIG pre Osmo Action 5 Pro/4 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093655 | 6941590028088 | Puzdro SMALLRIG Basic pre DJI OSMO Action 6 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093656 | 6941590003207 | Upevňovacia doska SMALLRIG NATO Rail pre DJI Ronin-S/SC | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093657 | 6941590017617 | Držiak na telefón SMALLRIG 4299B s rýchlouzáverom | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093658 | 6941590022581 | Držiak na telefón SMALLRIG 5339 Cold Shoe Arca-Std | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093659 | 6941590027388 | UV filter SMALLRIG pre DJI Osmo Pocket 4/3 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093660 | 6941590016788 | Držiak na telefón SMALLRIG 4611 typu Arca | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094048 | 6975828005169 | Prenosná nabíjačka pre elektromobily dé 22 kW s 7 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -639,7 +582,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094444 | 6972792470559 | Wireless Keyboard ATTACK SHARK X98PRO (white and black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094445 | 6972792471440 | Wireless Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093625 | 6941590003122 | SMALLRIG 3027 Dvojité držadlo pre DJI RS 2, RSC 2, RS 3 a RS 3 PRO | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094928 | 6924922272373 | Inteligentná LED žiarovka Yeelight D1 – balenie po 4 kusoch | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094929 | 6924922271253 | Inteligentné stropné svietidlo Yeelight S1 320 mm | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094930 | 6924922271260 | Inteligentné stropné svietidlo Yeelight S1 450 mm | nulová/neplatná cena |  | 0.00 € |  |  |
