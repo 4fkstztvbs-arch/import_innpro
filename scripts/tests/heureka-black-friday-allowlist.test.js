@@ -21,3 +21,7 @@ test('unknown products are not exempted', () => {
 test('allowlist expires after the campaign ends', () => {
   assert.equal(isBlackFridayAllowed('8013240890142', '', Date.parse('2026-10-31T00:00:00.000Z')), false);
 });
+
+test('active fixed-price sale items stay visible on Heureka after the campaign date', () => {
+  assert.equal(isBlackFridayAllowed('', '079284', Date.parse('2027-01-01T00:00:00.000Z')), true);
+});
