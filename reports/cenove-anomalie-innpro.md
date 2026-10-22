@@ -447,6 +447,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092392 | 6922572221727 | Filament eSun PLA-Silk Magic 1.75mm 1kg (gold green) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092393 | 6922572221734 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092394 | 6922572221741 | Filament eSun PLA-Silk Magic 1.75mm 1kg (purple-silver) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091845 | 5905156111004 | Čítačka kariet BlitzWolf BW-CR2 5 v 1 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091848 | 5905156111042 | Parkovacie kúrenie Hcalory HBS-3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093464 | 6975274260235 | Solar panel Allpowers SP027 100W monocrystalline | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093465 | 6975274260402 | Solárny panel ALLPOWERS SF200 200 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093466 | 6975274260396 | Solárny panel Allpowers SF100 100 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -582,6 +584,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094444 | 6972792470559 | Wireless Keyboard ATTACK SHARK X98PRO (white and black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094445 | 6972792471440 | Wireless Keyboard ATTACK SHARK X98PRO (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094446 | 6972792471433 | Wireless Keyboard ATTACK SHARK X98PRO (white and grey) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 089264 | 6937452751379 | Rukoväť s batériou PGY | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094928 | 6924922272373 | Inteligentná LED žiarovka Yeelight D1 – balenie po 4 kusoch | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094929 | 6924922271253 | Inteligentné stropné svietidlo Yeelight S1 320 mm | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094930 | 6924922271260 | Inteligentné stropné svietidlo Yeelight S1 450 mm | nulová/neplatná cena |  | 0.00 € |  |  |
