@@ -1,12 +1,12 @@
 # Produkty pod nákupnou cenou (skryté)
 
-Kontrola z 2026-10-19 05:25 UTC.
+Kontrola z 2026-10-22 08:39 UTC.
 
-Týchto **208** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
+Týchto **207** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
 na každom predanom kuse prerobili. Sú preto nastavené ako **skryté** a v e-shope sa
 nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám od seba.
 
-## atos — 204 ks
+## atos — 203 ks
 
 | Kód | Produkt | Predaj s DPH | Predaj bez DPH | Nákup | Marža |
 |---|---|---:|---:|---:|---:|
@@ -197,7 +197,6 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `CPP-CP-LNC-VC51L4-MD` | CP PLUS CP-LNC-VC51L4-MD 5.0 Mpix venkovní antivandal dome IP kamera s | 202.00 € | 164.23 € | 164.43 € | -0.1 % |
 | `CMP-am00452` | Leštící a brusná pasta tuba 150ml | 10.00 € | 8.13 € | 8.14 € | -0.1 % |
 | `SP7` | Konfigurace + Software do přijímače s OS Linux Enigma 2 | 62.50 € | 50.81 € | 50.87 € | -0.1 % |
-| `CPP-CP-UNC-TC41L5C-VMD-LQ` | CP PLUS CP-UNC-TC41L5C-VMD-LQ 4.0 Mpix venkovní kompaktní IP kamera s  | 284.50 € | 231.30 € | 231.48 € | -0.1 % |
 | `LEV-86485` | Wi-Fi fotookulár Levenhuk Kelvin WFP25 | 83.00 € | 67.48 € | 67.53 € | -0.1 % |
 | `LEV-86482` | Ruční fotomikroskop Levenhuk Kelvin HPM25 | 83.00 € | 67.48 € | 67.53 € | -0.1 % |
 | `TIP-06443349` | Náhradní tableta ORION 1x450g Citrón | 5.20 € | 4.23 € | 4.23 € | -0.1 % |
