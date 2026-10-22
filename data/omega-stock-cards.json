@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600609,
+    "nextCardNumber": 202600616,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3650,6 +3650,48 @@
         "nazov": "SkyRC MC5000 Battery",
         "dodavatel": "innpro",
         "code": "095025"
+      },
+      "6971636405580": {
+        "kod": "202600609",
+        "nazov": "Hyper PLA Black Filament",
+        "dodavatel": "innpro",
+        "code": "064735"
+      },
+      "6975462650084": {
+        "kod": "202600610",
+        "nazov": "Truthear Nova earphones",
+        "dodavatel": "innpro",
+        "code": "073486"
+      },
+      "6972436986385": {
+        "kod": "202600611",
+        "nazov": "Colmi R10 Smartring Black",
+        "dodavatel": "innpro",
+        "code": "079615"
+      },
+      "6970076588754": {
+        "kod": "202600612",
+        "nazov": "Jump Starter UTRAI JS5",
+        "dodavatel": "innpro",
+        "code": "087168"
+      },
+      "6932704903803": {
+        "kod": "202600613",
+        "nazov": "ELEGOO Standard Resin 2.0",
+        "dodavatel": "innpro",
+        "code": "089484"
+      },
+      "6932704904381": {
+        "kod": "202600614",
+        "nazov": "ELEGOO Standard Resin 2.0",
+        "dodavatel": "innpro",
+        "code": "089485"
+      },
+      "16977390120646": {
+        "kod": "202600615",
+        "nazov": "Even R1 with Charger (#10)",
+        "dodavatel": "innpro",
+        "code": ""
       }
     }
   },
