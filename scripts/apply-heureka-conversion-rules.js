@@ -48,8 +48,11 @@ function hideReason(item, rules, ctx) {
   const ean = normEan(tag(item, 'EAN'));
   if (isBlackFridayAllowed(ean, tag(item, 'CODE'))) return null;
   if (ean && (rules.keepEans?.[ean] || ctx.isPilot(ean))) return null;
-  const price = parseFloat(tag(item, 'PRICE_VAT'));
-  if (!(price > 0)) return null;
+  const regularPrice = parseFloat(tag(item, 'PRICE_VAT'));
+  if (!(regularPrice > 0)) return null;
+  // InnPro Black Friday: PRICE_VAT je doporučená cena, zákazník platí ACTION_PRICE (apply-innpro-black-friday.js).
+  const actionPrice = String(ctx.supplier).startsWith('innpro') ? parseFloat(tag(item, 'ACTION_PRICE')) : NaN;
+  const price = actionPrice > 0 && actionPrice < regularPrice ? actionPrice : regularPrice;
   if (rules.priceAtLeast > 0 && price >= rules.priceAtLeast) return 'cena';
   if (rules.hideWithoutPurchasePrice && !(parseFloat(tag(item, 'PURCHASE_PRICE')) > 0)
     && !(rules.estimatedMarginPctBySupplier?.[ctx.supplier] > 0)) return 'bezNakupnej';

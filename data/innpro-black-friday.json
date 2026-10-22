@@ -1,0 +1,1957 @@
+{
+ "_comment": "InnPro Black Friday: standardPrice = doporučená cena s DPH (prečiarknutá, PRICE_VAT), actionPrice = akciová cena (ACTION_PRICE). Kľúč = EAN. Akcia platí validFrom..validUntil (vrátane); po termíne skript akciu zruší (ACTION_PRICE = PRICE_VAT, príznak Akcia 0). Ručné zrušenie: vymazať položky/súbor alebo skrátiť validUntil. Zdroj: premiumstore-black-friday-390-ceny-v1-tier.csv",
+ "validFrom": "2026-10-22",
+ "validUntil": "2026-11-30",
+ "items": {
+  "5907489601221": {
+   "name": "Fotoštúdio Puluz 40 cm LED 2400 lúmenov PU5040EU",
+   "standardPrice": 37.42,
+   "actionPrice": 31.9
+  },
+  "6956362903227": {
+   "name": "Čelovka Superfire X30 – 340 lm, USB, 5 režimov, 130 m",
+   "standardPrice": 11.28,
+   "actionPrice": 9.8
+  },
+  "5907489603386": {
+   "name": "Fotografický beztienový svetelný panel Puluz PU5138 1000LM LED",
+   "standardPrice": null,
+   "actionPrice": 31.5
+  },
+  "6930460006042": {
+   "name": "Vodná fontána pre domáce zvieratá Petoneer Fresco mini plus",
+   "standardPrice": 33.31,
+   "actionPrice": 28.0
+  },
+  "5907489606684": {
+   "name": "Digitálny kliešťový meter Habotest HT200B",
+   "standardPrice": 17.43,
+   "actionPrice": 13.5
+  },
+  "5907489605595": {
+   "name": "Podpora pozadia pre fotoštúdio Puluz 200x200cm DCA0975",
+   "standardPrice": 27.16,
+   "actionPrice": 24.0
+  },
+  "5907489607100": {
+   "name": "Súprava na živé vysielanie Puluz držiak na statív + LED lampa + mikrofón + svorka na telefón",
+   "standardPrice": 32.29,
+   "actionPrice": 21.0
+  },
+  "5907489607773": {
+   "name": "Počítačová skriňa Darkflash Aquarius Mesh (čierna)",
+   "standardPrice": 29.73,
+   "actionPrice": 22.9
+  },
+  "6948052901231": {
+   "name": "Pretekársky volant  PXN-V3 (PC / PS3 / PS4 / XBOX ONE / SWITCH)",
+   "standardPrice": 62.52,
+   "actionPrice": 53.9
+  },
+  "4710343793922": {
+   "name": "Počítačová skriňa Darkflash DK151 LED s 3 ventilátormi (biela)",
+   "standardPrice": 39.98,
+   "actionPrice": 33.0
+  },
+  "4710343793915": {
+   "name": "Počítačová skriňa Darkflash DK151 LED s 3 ventilátormi (čierna)",
+   "standardPrice": 42.53,
+   "actionPrice": 33.5
+  },
+  "5907489609159": {
+   "name": "Habotest HT121, bezkontaktná skúšačka napätia / skúšačka diód, NCV, True RMS",
+   "standardPrice": 17.43,
+   "actionPrice": 11.9
+  },
+  "4710343794509": {
+   "name": "Počítačová skriňa Darkflash DK431 Mesh (čierna)",
+   "standardPrice": 59.96,
+   "actionPrice": 51.0
+  },
+  "5907489609692": {
+   "name": "Pristávacia podložka pre drony Sunnylife 55 cm šesťhran (TY-TJP08)",
+   "standardPrice": 17.43,
+   "actionPrice": 13.9
+  },
+  "5907489609753": {
+   "name": "Sada 3 filtrov CPL+ND8+ND16 Sunnylife pre DJI Mini 3 Pro (MM3-FI415)",
+   "standardPrice": 24.6,
+   "actionPrice": 18.5
+  },
+  "5907489609777": {
+   "name": "Sada 4 filtrov ND 4/8/16/32 Sunnylife pre DJI Mini 3 Pro (MM3-FI417)",
+   "standardPrice": 27.16,
+   "actionPrice": 20.9
+  },
+  "5907489609784": {
+   "name": "Sada 4 filtrov UV+CPL+ND4+ND8 Sunnylife pre DJI Mini 3 Pro (MM3-FI418)",
+   "standardPrice": 24.6,
+   "actionPrice": 18.5
+  },
+  "4710343795025": {
+   "name": "Počítačová skriňa Darkflash C285 (čierna)",
+   "standardPrice": 44.59,
+   "actionPrice": 38.9
+  },
+  "4710343794028": {
+   "name": "Počítačová skrinka Darkflash DK351 + 4 ventilátory (čierna)",
+   "standardPrice": 49.72,
+   "actionPrice": 39.5
+  },
+  "5905316141018": {
+   "name": "Merač hladiny zvuku Habotest HT602B",
+   "standardPrice": 25.12,
+   "actionPrice": 21.9
+  },
+  "6975069301389": {
+   "name": "Inteligentná sušička pre domáce zvieratá PetKit AIRSALON MAX",
+   "standardPrice": 357.72,
+   "actionPrice": 298.5
+  },
+  "6974760350689": {
+   "name": "Solárna lampa Superfire FF13-C, 22 W, 300 lm, 2400 mAh",
+   "standardPrice": 16.4,
+   "actionPrice": 12.0
+  },
+  "5905316141308": {
+   "name": "Otočný stojan Puluz s napájacou zásuvkou 45 cm (čierny)",
+   "standardPrice": 92.25,
+   "actionPrice": 76.5
+  },
+  "6975515770219": {
+   "name": "Čelovka Superfire HL60 – 2300 lm, 4 režimy, 330 m, 36W LED",
+   "standardPrice": 38.95,
+   "actionPrice": 30.9
+  },
+  "6972391289552": {
+   "name": "Podwójne inteligentne gniazdko WiFi Gosund SP211, 2 sztuki 3500W (dwupak) Tuya",
+   "standardPrice": 30.23,
+   "actionPrice": 22.0
+  },
+  "4710343794561": {
+   "name": "Sklenená počítačová skriňa Darkflash DK431 + 4 ventilátory (čierna)",
+   "standardPrice": 64.58,
+   "actionPrice": 54.0
+  },
+  "6973293808629": {
+   "name": "Cestovný batoh pre domáce zvieratá PetKit Breezy 2 (zelený)",
+   "standardPrice": 74.82,
+   "actionPrice": 66.9
+  },
+  "6976037360308": {
+   "name": "Inteligentný vypínač svetla WiFi Avatto TS02-EU-W3 3 Way TUYA (biely)",
+   "standardPrice": 14.86,
+   "actionPrice": 11.0
+  },
+  "5905316146662": {
+   "name": "Fotoštúdio Puluz 30cm LED 24-26lm (PU5032B)",
+   "standardPrice": 21.52,
+   "actionPrice": 17.5
+  },
+  "5905316147195": {
+   "name": "Habotest MY6238 Viacúčelový detektor 4v1",
+   "standardPrice": 22.55,
+   "actionPrice": 14.9
+  },
+  "6972470560893": {
+   "name": "Herná myš ONIKUMA CW905 čierna",
+   "standardPrice": 12.3,
+   "actionPrice": 10.9
+  },
+  "5905316147478": {
+   "name": "Pristávacia podložka pre drony Sunnylife 110 cm šesťuholník - obojstranná (TJP10)",
+   "standardPrice": 42.03,
+   "actionPrice": 36.0
+  },
+  "5905316147485": {
+   "name": "Pristávacia podložka pre drony Sunnylife 80 cm šesťuholník - obojstranná (TJP11)",
+   "standardPrice": 34.85,
+   "actionPrice": 27.0
+  },
+  "5905316148642": {
+   "name": "Plastikowe wodoodporne etui Puluz na iPhone 15 Plus/15 Pro Max/14 Plus/14 Pro Max/13 Pro Max/12 Pro Max/11 Pro Max (biały)",
+   "standardPrice": 39.98,
+   "actionPrice": 26.9
+  },
+  "6975116293407": {
+   "name": "Automatické kŕmidlo pre domáce zvieratá - 6 jedál / 3600 mAh",
+   "standardPrice": 64.58,
+   "actionPrice": 53.9
+  },
+  "6957141408483": {
+   "name": "Bezdrôtové slúchadlá TWS QCY T13x (čierne)",
+   "standardPrice": 19.99,
+   "actionPrice": 17.5
+  },
+  "5905316148789": {
+   "name": "Kombinovaná taška Sunnylife pre DJI Mini 4 Pro (N4P-B698)",
+   "standardPrice": 24.6,
+   "actionPrice": 19.5
+  },
+  "5905316148468": {
+   "name": "Držiak na bicykel Sunnylife pre ovládač DJI RC 2 (ZJ669)",
+   "standardPrice": 18.97,
+   "actionPrice": 13.0
+  },
+  "6972237681670": {
+   "name": "Herní mikrofon Maono DM30RGB (černý)",
+   "standardPrice": 51.25,
+   "actionPrice": 37.5
+  },
+  "6972971864919": {
+   "name": "14 filtrov Voľne použiteľné pre DJI Osmo Pocket 3",
+   "standardPrice": null,
+   "actionPrice": 114.9
+  },
+  "6972971864902": {
+   "name": "Sada 8 filtrov Freewell DJI Osmo Pocket 3",
+   "standardPrice": null,
+   "actionPrice": 75.5
+  },
+  "6972971864582": {
+   "name": "Filtre Freewell pre DJI Mini 4 Pro Mega Pack (16 kusov)",
+   "standardPrice": 116.85,
+   "actionPrice": 95.9
+  },
+  "6972971864575": {
+   "name": "Filtre Freewell Bright Day pre DJI Mini 4 Pro (6 balení)",
+   "standardPrice": null,
+   "actionPrice": 51.9
+  },
+  "6972971864599": {
+   "name": "Filtre GND 0.9 + 1.2 Freewell pre DJI Mini 4 Pro",
+   "standardPrice": 34.85,
+   "actionPrice": 26.0
+  },
+  "5905316149243": {
+   "name": "Prenosné projekčné plátno BlitzWolf BW-VS6 120\"",
+   "standardPrice": null,
+   "actionPrice": 70.5
+  },
+  "4710343797920": {
+   "name": "Počítačová skriňa Darkflash C305 ATX (biela)",
+   "standardPrice": 52.27,
+   "actionPrice": 43.0
+  },
+  "6972403822470": {
+   "name": "Odstraňovač čiernych bodiek s kamerou inFace CF-05E (čierny)",
+   "standardPrice": 24.6,
+   "actionPrice": 18.5
+  },
+  "6972403826454": {
+   "name": "Inteligentná vizuálna tyč na čistenie uší Bebird Note 5 pro (biela)",
+   "standardPrice": 47.15,
+   "actionPrice": 38.9
+  },
+  "5905316149861": {
+   "name": "Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 (ZG73)",
+   "standardPrice": 13.32,
+   "actionPrice": 8.7
+  },
+  "850007706388": {
+   "name": "Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny)",
+   "standardPrice": 16.4,
+   "actionPrice": 12.9
+  },
+  "6974760352362": {
+   "name": "Nočná lampička pre deti SuperFire RAB-02 Little Rabbit – 2 režimy, farba 4000K",
+   "standardPrice": 16.91,
+   "actionPrice": 11.5
+  },
+  "5906168431029": {
+   "name": "Počítačová skriňa Darkflash A290 (čierna)",
+   "standardPrice": 27.16,
+   "actionPrice": 21.9
+  },
+  "5906168432361": {
+   "name": "Držiak na spätné zrkadlo PULUZ pre akčné kamery (vrátane Osmo Action 5 Pro, Insta360 X5 / X4 / X3)(PU3211)",
+   "standardPrice": 24.6,
+   "actionPrice": 21.9
+  },
+  "6972971863653": {
+   "name": "Sada 5 magnetických filtrov Freewell série M2 II 82 mm",
+   "standardPrice": 134.28,
+   "actionPrice": 110.5
+  },
+  "6972971863646": {
+   "name": "Súprava piatich filtrov Freewell M2 Series Quick Swap 77mm",
+   "standardPrice": 140.43,
+   "actionPrice": 119.5
+  },
+  "6930460000798": {
+   "name": "Nabíjačka SkyRC iMax B6 Mini",
+   "standardPrice": 37.42,
+   "actionPrice": 31.9
+  },
+  "6977038680303": {
+   "name": "Gosund Smart Zigbee/WiFi/BLE Gateway ST21 Tuya",
+   "standardPrice": 22.55,
+   "actionPrice": 16.5
+  },
+  "6976297860235": {
+   "name": "Cycplus G1 bicycle computer",
+   "standardPrice": 29.73,
+   "actionPrice": 24.5
+  },
+  "6971636401247": {
+   "name": "Hyper PLA Filament Creality (Beige)",
+   "standardPrice": 16.4,
+   "actionPrice": 13.0
+  },
+  "6971636401094": {
+   "name": "Hyper PLA Filament Creality (Yellow)",
+   "standardPrice": 17.43,
+   "actionPrice": 11.5
+  },
+  "6971636401254": {
+   "name": "Hyper PLA Filament Creality (Orange)",
+   "standardPrice": 17.43,
+   "actionPrice": 13.9
+  },
+  "6971636401285": {
+   "name": "Hyper PLA Filament Creality (Brown)",
+   "standardPrice": 14.86,
+   "actionPrice": 12.5
+  },
+  "6971636405573": {
+   "name": "Hyper PLA Filament Creality (Blue)",
+   "standardPrice": 14.86,
+   "actionPrice": 12.5
+  },
+  "6971636403609": {
+   "name": "Hyper ABS Filament Creality (White)",
+   "standardPrice": 16.4,
+   "actionPrice": 12.5
+  },
+  "6971636403647": {
+   "name": "Hyper ABS Filament Creality (Grey)",
+   "standardPrice": 17.43,
+   "actionPrice": 13.9
+  },
+  "6971636408895": {
+   "name": "CR-Silk PLA Filament Creality (Gold)",
+   "standardPrice": 21.52,
+   "actionPrice": 17.0
+  },
+  "6971636408901": {
+   "name": "CR-Silk PLA Filament Creallity (Silver)",
+   "standardPrice": 21.52,
+   "actionPrice": 17.0
+  },
+  "6971636405832": {
+   "name": "CR-Silk PLA Filament Creality (Rainbow)",
+   "standardPrice": 16.4,
+   "actionPrice": 14.5
+  },
+  "6971636405559": {
+   "name": "CR-Silk PLA Filament Creality (Pink-purple)",
+   "standardPrice": 19.99,
+   "actionPrice": 15.5
+  },
+  "6974662350343": {
+   "name": "AnyCubic Wash & Cure 3 Plus - Print cleaning and drying device",
+   "standardPrice": 185.52,
+   "actionPrice": 157.0
+  },
+  "6974662350336": {
+   "name": "AnyCubic Wash & Cure 3 - Print cleaning and drying device",
+   "standardPrice": 99.94,
+   "actionPrice": 84.5
+  },
+  "6972971865343": {
+   "name": "UV Filter Freewell for DJI Avata 2",
+   "standardPrice": 18.97,
+   "actionPrice": 16.5
+  },
+  "6972971865350": {
+   "name": "Polarizer Filter Freewell for DJI Avata 2",
+   "standardPrice": 18.97,
+   "actionPrice": 16.5
+  },
+  "6920075743722": {
+   "name": "Inteligentný WiFi nástenný vypínač Sonoff M5 2C, sivý (2-kanálový)",
+   "standardPrice": 19.99,
+   "actionPrice": 14.0
+  },
+  "6920075777116": {
+   "name": "Smart Scene Wall Switch WiFi Sonoff M5 3C (3-channel)",
+   "standardPrice": 17.43,
+   "actionPrice": 15.5
+  },
+  "5906168437885": {
+   "name": "TV mount 26-60\" Perlesmith PSMFK12",
+   "standardPrice": 18.97,
+   "actionPrice": 15.9
+  },
+  "5906168437892": {
+   "name": "TV mount 26-60\" Perlesmith PSMFK1-EU",
+   "standardPrice": 14.35,
+   "actionPrice": 11.5
+  },
+  "5906168437915": {
+   "name": "Perlesmith TV 37–82\" držiaky na stenu PSLTK1",
+   "standardPrice": 17.93,
+   "actionPrice": 14.5
+  },
+  "5906168437946": {
+   "name": "32-82\" TV mount Perlesmith PSTVMC05-US",
+   "standardPrice": 112.75,
+   "actionPrice": 89.0
+  },
+  "5906168437960": {
+   "name": "42-82\" TV mount Perlegear PGLF12-EU",
+   "standardPrice": 32.29,
+   "actionPrice": 27.0
+  },
+  "5906168438004": {
+   "name": "TV mount 26-60\" Perlegear PGMF3",
+   "standardPrice": 16.91,
+   "actionPrice": 13.5
+  },
+  "5906168438011": {
+   "name": "Perlegear PGTVMC06 Držiak na televízor pre televízory s uhlopriečkou 23–60\"",
+   "standardPrice": 46.12,
+   "actionPrice": 38.9
+  },
+  "5906168439155": {
+   "name": "Battery Tester with printer Ancel BST600",
+   "standardPrice": 129.15,
+   "actionPrice": 106.9
+  },
+  "6920075777901": {
+   "name": "SONOFF M5-3C-86W WiFi Matter smart wall switch (3-channel)",
+   "standardPrice": 23.47,
+   "actionPrice": 16.5
+  },
+  "6976831830458": {
+   "name": "Neewer wide angle lens for Sony ZV1 (black)",
+   "standardPrice": 76.36,
+   "actionPrice": 48.9
+  },
+  "5906168439865": {
+   "name": "Blitzwolf BW-S28 260W, 2xUSB-A, 3xUSB-C, 15W wireless charger (black)",
+   "standardPrice": 89.69,
+   "actionPrice": 68.9
+  },
+  "6972971865480": {
+   "name": "Freewell FujiX100 filter set with lens hood (silver)",
+   "standardPrice": 66.11,
+   "actionPrice": 52.0
+  },
+  "5907085520117": {
+   "name": "TV mount 24-55'' Perlegear PGMT7",
+   "standardPrice": 13.84,
+   "actionPrice": 9.5
+  },
+  "6974028140175": {
+   "name": "Bezdrôtové slúchadlá Oneodio Fusion A70 (čierno-červené)",
+   "standardPrice": 37.42,
+   "actionPrice": 32.5
+  },
+  "6972971865626": {
+   "name": "Filters ND8/16/32 Freewell for DJI Neo",
+   "standardPrice": 18.97,
+   "actionPrice": 16.9
+  },
+  "6926170073627": {
+   "name": "Počítačová skriňa Darflash FT350 + 5 ventilátorov aRGB (čierna)",
+   "standardPrice": 62.52,
+   "actionPrice": 50.9
+  },
+  "6926170073610": {
+   "name": "Počítačová skriňa Darflash FT350 + 5 ventilátorov aRGB (biela)",
+   "standardPrice": 67.13,
+   "actionPrice": 51.5
+  },
+  "6926170048229": {
+   "name": "Počítačová skriňa Darflash FT418 + 6 ventilátorov aRGB (čierna)",
+   "standardPrice": 67.13,
+   "actionPrice": 56.9
+  },
+  "6926170048342": {
+   "name": "Počítačová skriňa Darflash FT418 + 6 ventilátorov aRGB (biela)",
+   "standardPrice": 69.7,
+   "actionPrice": 59.5
+  },
+  "5907085520353": {
+   "name": "SUNNYLIFE Combo Bag for DJI Neo (orange)",
+   "standardPrice": 20.5,
+   "actionPrice": 16.0
+  },
+  "6928493311820": {
+   "name": "Battery Gens Ace G-Tech 5500mAh 22.2V 60C 6S1P LIPO with XT90 connector",
+   "standardPrice": 142.47,
+   "actionPrice": 115.0
+  },
+  "6926170096619": {
+   "name": "Počítačová skriňa Darkflash C218M + 6 ventilátorov ARGB (čierne)",
+   "standardPrice": 54.83,
+   "actionPrice": 44.5
+  },
+  "4710343798316": {
+   "name": "Chladič počítača Darkflash Z4 PRO MIST BLACK",
+   "standardPrice": 29.73,
+   "actionPrice": 22.0
+  },
+  "4710343798323": {
+   "name": "Chladič počítača Darkflash Z4 PRO MIST WHITE",
+   "standardPrice": 24.6,
+   "actionPrice": 20.0
+  },
+  "4711527000508": {
+   "name": "Počítačový chladič Darkflash DN-D240 WHITE",
+   "standardPrice": 74.82,
+   "actionPrice": 65.5
+  },
+  "4711527000515": {
+   "name": "Chladič počítača Darkflash DN-D360 BLACK",
+   "standardPrice": 99.94,
+   "actionPrice": 77.5
+  },
+  "4711527000522": {
+   "name": "Počítačový chladič Darkflash DN-D360 WHITE",
+   "standardPrice": 99.94,
+   "actionPrice": 77.9
+  },
+  "4710343796749": {
+   "name": "Počítačová skriňa Darkflash C285MP (čierna)",
+   "standardPrice": 57.4,
+   "actionPrice": 44.5
+  },
+  "4711527000638": {
+   "name": "Počítačová skriňa Darkflash TH285 4 ventilátory (čierna)",
+   "standardPrice": 79.95,
+   "actionPrice": 67.0
+  },
+  "6972971865947": {
+   "name": "Sada 4 delených ND filtrov Freewell pre DJI Air 3S",
+   "standardPrice": null,
+   "actionPrice": 38.9
+  },
+  "5907085523224": {
+   "name": "Skladovacie vrecko Sunnylife DJI NEO",
+   "standardPrice": 21.52,
+   "actionPrice": 17.5
+  },
+  "5907085523309": {
+   "name": "Etui Sunnylife dla NEO Motion Fly More Combo (073535)",
+   "standardPrice": 39.98,
+   "actionPrice": 27.5
+  },
+  "6928493312476": {
+   "name": "Lipo Gens ace G-Tech 1100mAh 11.1V 3S1P 60C GRP-76 Hardcase batéria s konektorom XT60",
+   "standardPrice": 22.55,
+   "actionPrice": 15.5
+  },
+  "6977132450253": {
+   "name": "IsEasy MGBG-312S2C dvojzónový sklenený plynový sporák (štvorcový)",
+   "standardPrice": 89.69,
+   "actionPrice": 69.5
+  },
+  "6974662351043": {
+   "name": "3D tlačiareň Anycubic Photon Mono 4 Ultra",
+   "standardPrice": 309.55,
+   "actionPrice": 260.5
+  },
+  "5907085529004": {
+   "name": "Projektor BlitzWolf BW-V11",
+   "standardPrice": 375.15,
+   "actionPrice": 308.9
+  },
+  "6937267000389": {
+   "name": "Nabíjacia stanica BOBOVR BD3 pre batérie B100",
+   "standardPrice": 42.53,
+   "actionPrice": 33.0
+  },
+  "843367128990": {
+   "name": "Pamäťová karta Lexar High-Endurance microSDHC/microSDXC 128 GB",
+   "standardPrice": null,
+   "actionPrice": 66.9
+  },
+  "5907085524313": {
+   "name": "Besen LX30 22 kW APP – nástenná nabíjačka pre elektromobily",
+   "standardPrice": 299.3,
+   "actionPrice": 235.5
+  },
+  "810150543780": {
+   "name": "Detektor úniku vody SwitchBot",
+   "standardPrice": 17.43,
+   "actionPrice": 14.0
+  },
+  "5907085525211": {
+   "name": "BlitzWolf BW-HDC8 240W kábel USB-C na USB-C, 0,.5m (čierny)",
+   "standardPrice": 19.99,
+   "actionPrice": 15.5
+  },
+  "6930444801519": {
+   "name": "Grafický tablet Huion HS611",
+   "standardPrice": 91.23,
+   "actionPrice": 73.0
+  },
+  "6942349216527": {
+   "name": "Inteligentný nástenný vypínač Meross MSS815MA-UN WiFi (Matter)",
+   "standardPrice": null,
+   "actionPrice": 11.5
+  },
+  "4711527002595": {
+   "name": "Počítačová skriňa Darkflash DB460M (biela)",
+   "standardPrice": 37.42,
+   "actionPrice": 29.0
+  },
+  "4711527002434": {
+   "name": "Počítačová skriňa Darkflash DB330M Mesh (biela)",
+   "standardPrice": 37.42,
+   "actionPrice": 29.0
+  },
+  "4711527004575": {
+   "name": "Počítačová skriňa Darkflash DS900WS (čierna) + 4 ventilátory",
+   "standardPrice": null,
+   "actionPrice": 48.9
+  },
+  "5907085526966": {
+   "name": "FNIRSI LCR-ST1 mini inteligentný digitálny pinzetový tester",
+   "standardPrice": 25.62,
+   "actionPrice": 20.9
+  },
+  "5907085527079": {
+   "name": "Meter hluku FNIRSI FDM01",
+   "standardPrice": 22.55,
+   "actionPrice": 19.5
+  },
+  "6920075743074": {
+   "name": "Sonoff ZBM5-2C-86W (2-kanálový) inteligentný dotykový nástenný spínač Zigbee",
+   "standardPrice": 27.16,
+   "actionPrice": 22.0
+  },
+  "4711527003936": {
+   "name": "Počítačová skriňa Darkflash DS900WD ATX (čierna)",
+   "standardPrice": 62.52,
+   "actionPrice": 49.9
+  },
+  "4711527004629": {
+   "name": "Počítačová skriňa Darkflash DS900WD ATX (biela) + 4 ventilátory",
+   "standardPrice": 74.82,
+   "actionPrice": 58.0
+  },
+  "6974662352064": {
+   "name": "Vysokorýchlostné vlákno PLA Anycubic 1 KG (Szary)",
+   "standardPrice": 16.4,
+   "actionPrice": 12.5
+  },
+  "6976021769575": {
+   "name": "Filament PLA Marble ELEGOO",
+   "standardPrice": 14.86,
+   "actionPrice": 11.5
+  },
+  "6972470564259": {
+   "name": "Profesionálne herné slúchadlá ONIKUMA GT828",
+   "standardPrice": 27.16,
+   "actionPrice": 21.9
+  },
+  "6972470563528": {
+   "name": "Herné slúchadlá ONIKUMA X12",
+   "standardPrice": 17.93,
+   "actionPrice": 13.9
+  },
+  "4711527005329": {
+   "name": "Počítačová skriňa Darkflash M305 bez ventilátorov (biela)",
+   "standardPrice": 27.16,
+   "actionPrice": 21.5
+  },
+  "4711527003868": {
+   "name": "Počítačová skriňa Darkflash DS900 Mesh bez ventilátorov (biela)",
+   "standardPrice": 39.98,
+   "actionPrice": 34.5
+  },
+  "4711527003851": {
+   "name": "Počítačová skriňa Darkflash DS900 Mesh bez ventilátorov (čierna)",
+   "standardPrice": null,
+   "actionPrice": 32.5
+  },
+  "4711527003301": {
+   "name": "Počítačová skriňa Darkflash DS900W bez ventilátorov (biela)",
+   "standardPrice": 49.72,
+   "actionPrice": 42.0
+  },
+  "4711527003981": {
+   "name": "Počítačová skriňa Darkflash DS900WS ATX bez ventilátorov (biela)",
+   "standardPrice": 44.59,
+   "actionPrice": 37.5
+  },
+  "4711527004582": {
+   "name": "Počítačová skriňa Darkflash DS900WS (biela) + 4 ventilátory ARGB",
+   "standardPrice": 69.7,
+   "actionPrice": 52.9
+  },
+  "6920075743357": {
+   "name": "Sonoff CAM-B1P 2K vonkajšia WiFi inteligentná kamera",
+   "standardPrice": 32.29,
+   "actionPrice": 27.5
+  },
+  "5907085529233": {
+   "name": "Taška Sunnylife pre OSMO 360/ Insta360 GO Ultra/ OP 3/ športovú kameru/ smartfón/ OSMO (žltá)",
+   "standardPrice": 14.86,
+   "actionPrice": 10.0
+  },
+  "6920075743302": {
+   "name": "Inteligentný nástenný vypínač SONOFF MINIR4M-E Matter.",
+   "standardPrice": 19.99,
+   "actionPrice": 15.5
+  },
+  "4897143170839": {
+   "name": "Slnečná clona Freewell pre fotoaparáty Fuji radu X100 (čierna)",
+   "standardPrice": 123.0,
+   "actionPrice": 90.5
+  },
+  "4897143170624": {
+   "name": "Súprava celodenných filtrov Freewell Real Locking s variabilným ND/CPL",
+   "standardPrice": 244.98,
+   "actionPrice": 191.0
+  },
+  "4897143170747": {
+   "name": "Základný krúžok Freewell 62 mm s vekom pre Real Locking VND",
+   "standardPrice": 29.73,
+   "actionPrice": 19.9
+  },
+  "5907085529493": {
+   "name": "Blitzwolf 60-palcové projekčné plátno BW-VS12",
+   "standardPrice": 47.15,
+   "actionPrice": 32.0
+  },
+  "5907085529530": {
+   "name": "Blitzwolf 100-palcové elektrické premietacie plátno BW-VS13 na strop/stenu",
+   "standardPrice": null,
+   "actionPrice": 194.5
+  },
+  "5907085523880": {
+   "name": "Flytec 2011-5 Loď na návnadu, 12 000 mAh",
+   "standardPrice": 99.94,
+   "actionPrice": 80.0
+  },
+  "6972436987238": {
+   "name": "Inteligentné hodinky Colmi P86 (zlaté)",
+   "standardPrice": 22.55,
+   "actionPrice": 17.5
+  },
+  "6972436987245": {
+   "name": "Inteligentné hodinky Colmi P86 (strieborné)",
+   "standardPrice": 22.55,
+   "actionPrice": 19.5
+  },
+  "6942349203237": {
+   "name": "Inteligentný spínač garážových brán Meross MSG200HK (HomeKit)",
+   "standardPrice": 56.37,
+   "actionPrice": 51.5
+  },
+  "6942349203305": {
+   "name": "Inteligentný senzor prítomnosti WiFi Meross MS600MA-EU (Matter)",
+   "standardPrice": 29.73,
+   "actionPrice": 23.5
+  },
+  "6971636408833": {
+   "name": "Vlákno Creality TPU (biele)",
+   "standardPrice": 19.99,
+   "actionPrice": 15.9
+  },
+  "6971636407331": {
+   "name": "Vlákno Creality TPU (červené)",
+   "standardPrice": 19.99,
+   "actionPrice": 15.9
+  },
+  "6971636407621": {
+   "name": "Vlákno Creality TPU (modré)",
+   "standardPrice": 19.99,
+   "actionPrice": 15.9
+  },
+  "6971636408499": {
+   "name": "Vlákno Creality TPU (zelené)",
+   "standardPrice": 19.99,
+   "actionPrice": 13.5
+  },
+  "0810150546088": {
+   "name": "Inteligentný LED pásik 3 SwitchBot",
+   "standardPrice": 37.42,
+   "actionPrice": 29.0
+  },
+  "6957141410578": {
+   "name": "Slúchadlá QCY Crossky Clip C30S (biele)",
+   "standardPrice": 37.42,
+   "actionPrice": 29.0
+  },
+  "4897143171386": {
+   "name": "Sada filtrov Freewell pre DJI Mini 5 Pro Soft Edge Gradient",
+   "standardPrice": 39.98,
+   "actionPrice": 34.5
+  },
+  "4897143171331": {
+   "name": "Súbor filtrov Freewell do DJI Mavic 4 Pro Super Bright Sunny Day",
+   "standardPrice": 86.1,
+   "actionPrice": 65.9
+  },
+  "4897143171348": {
+   "name": "Rýchloupínacia doska Freewell",
+   "standardPrice": 22.55,
+   "actionPrice": 18.5
+  },
+  "5905156100497": {
+   "name": "Sada 4 filtrov Sunnylife ND8 + ND16 + ND32 + ND64 pre MINI 5 Pro",
+   "standardPrice": 17.93,
+   "actionPrice": 12.0
+  },
+  "5905156100503": {
+   "name": "Sada 4 filtrov Sunnylife ND8/PL + ND16/PL + ND32/PL + ND64/PL pre MINI 5 Pro",
+   "standardPrice": 27.68,
+   "actionPrice": 19.0
+  },
+  "5905156100510": {
+   "name": "Sada 4 filtrov Sunnylife MCUV + CPL + ND32 + ND64 pre MINI 5 Pro",
+   "standardPrice": 19.99,
+   "actionPrice": 13.5
+  },
+  "5905156100640": {
+   "name": "Magnetický držiak Sunnylife MJ033 pre (OSMO 360, Insta360 GO Ultra)",
+   "standardPrice": 14.86,
+   "actionPrice": 9.0
+  },
+  "6942349202100": {
+   "name": "Inteligentný termostat WiFi Meross MTS215MA(EU) (Matter)",
+   "standardPrice": 61.5,
+   "actionPrice": 51.5
+  },
+  "4711527003943": {
+   "name": "Počítačová skriňa DarkFlash DS900WD (biela)",
+   "standardPrice": 62.52,
+   "actionPrice": 50.9
+  },
+  "6972470564464": {
+   "name": "Herné slúchadlá ONIKUMA X92 (čierne)",
+   "standardPrice": 19.99,
+   "actionPrice": 11.5
+  },
+  "6975377551032": {
+   "name": "Smartring RingConn Gen 2 (veľkosť 11, strieborná)",
+   "standardPrice": 300.33,
+   "actionPrice": 238.5
+  },
+  "6975377551209": {
+   "name": "Smartring RingConn Gen 2 (veľkosť 13, strieborná)",
+   "standardPrice": 300.33,
+   "actionPrice": 238.9
+  },
+  "6975377550905": {
+   "name": "Smartring RingConn Gen 2 (veľkosť 8, zlatá)",
+   "standardPrice": 300.33,
+   "actionPrice": 238.9
+  },
+  "6975377551025": {
+   "name": "Smartring RingConn Gen 2 (veľkosť 11, zlatá)",
+   "standardPrice": 300.33,
+   "actionPrice": 225.5
+  },
+  "6975377551100": {
+   "name": "Smartring RingConn Gen 2 (veľkosť 13, zlatá)",
+   "standardPrice": 300.33,
+   "actionPrice": 226.5
+  },
+  "6975377551414": {
+   "name": "Smartring RingConn Gen 2 (veľkosť 14, zlatá)",
+   "standardPrice": 300.33,
+   "actionPrice": 225.5
+  },
+  "6975377550967": {
+   "name": "Smartring RingConn Gen 2 (veľkosť 9, čierna)",
+   "standardPrice": 300.33,
+   "actionPrice": 238.9
+  },
+  "6975377554934": {
+   "name": "Smartring RingConn Air Gen 2 (veľkosť 13, zlatá)",
+   "standardPrice": 212.17,
+   "actionPrice": 173.0
+  },
+  "6975377554958": {
+   "name": "Smartring RingConn Air Gen 2 (veľkosť 14, zlatá)",
+   "standardPrice": 212.17,
+   "actionPrice": 173.5
+  },
+  "6977328069955": {
+   "name": "Súprava Dreame D20",
+   "standardPrice": 57.4,
+   "actionPrice": 44.5
+  },
+  "0810143165296": {
+   "name": "Funwater Feath-R Lite SUP doska Koi 3,5m SUPFR01E",
+   "standardPrice": 185.52,
+   "actionPrice": 148.5
+  },
+  "0810143167924": {
+   "name": "FunWater SUP paddleboard SUPFW70A 3,5m (tyrkysová)",
+   "standardPrice": 165.03,
+   "actionPrice": 138.0
+  },
+  "6976297860808": {
+   "name": "Držiak na počítač na bicykel Cycplus Z3",
+   "standardPrice": 14.86,
+   "actionPrice": 11.9
+  },
+  "6976297860297": {
+   "name": "Cyklotrenažér Cycplus T3",
+   "standardPrice": 972.72,
+   "actionPrice": 827.9
+  },
+  "6977254876764": {
+   "name": "IPL epilátor ANLAN 02-ATMY52-0RE",
+   "standardPrice": 124.02,
+   "actionPrice": 107.5
+  },
+  "6977254877150": {
+   "name": "Vyrovnávač s ionizáciou a infračerveným žiarením ANLAN 05-AJB51-02E",
+   "standardPrice": 39.98,
+   "actionPrice": 30.5
+  },
+  "0630130439571": {
+   "name": "Čistič bazénov Bublue Bubot 800P",
+   "standardPrice": 575.02,
+   "actionPrice": 461.5
+  },
+  "0630130439564": {
+   "name": "BUBLUE VORTEX V5 – bezdrôtový robot na čistenie bazénov Bublue Vortex V5",
+   "standardPrice": 225.5,
+   "actionPrice": 185.0
+  },
+  "0796520461338": {
+   "name": "Čistič bazénov Bublue Bubot 500P",
+   "standardPrice": 250.1,
+   "actionPrice": 171.5
+  },
+  "0785366322309": {
+   "name": "Čistič bazénov Bublue Bubot 700P",
+   "standardPrice": 500.2,
+   "actionPrice": 342.9
+  },
+  "0630130439595": {
+   "name": "Čistič bazénov Bublue BuHybrid L6",
+   "standardPrice": 774.9,
+   "actionPrice": 509.0
+  },
+  "5905156101517": {
+   "name": "Sada filtrov pre DJI Action 6 (CPL/ND8/16/32)",
+   "standardPrice": 29.73,
+   "actionPrice": 24.5
+  },
+  "6937267000501": {
+   "name": "Nabíjacia základňa BoboVR CD3",
+   "standardPrice": 49.72,
+   "actionPrice": 37.9
+  },
+  "6972470563900": {
+   "name": "Herné slúchadlá ONIKUMA GT820 (sivé)",
+   "standardPrice": 19.99,
+   "actionPrice": 13.9
+  },
+  "6972470564136": {
+   "name": "Herné slúchadlá ONIKUMA X81 (čierne)",
+   "standardPrice": 17.43,
+   "actionPrice": 13.0
+  },
+  "6972470564082": {
+   "name": "Herné slúchadlá ONIKUMA GT802 (biele)",
+   "standardPrice": 32.29,
+   "actionPrice": 24.5
+  },
+  "6972470564099": {
+   "name": "Herné slúchadlá ONIKUMA GT802 (čierne)",
+   "standardPrice": 34.85,
+   "actionPrice": 25.5
+  },
+  "6972436988280": {
+   "name": "Inteligentné slnečné okuliare COLMI V03 s okrúhlymi rámami",
+   "standardPrice": null,
+   "actionPrice": 51.5
+  },
+  "6972436988273": {
+   "name": "Inteligentné okuliare COLMI V03 Okrúhly rám, blokovanie modrého svetla",
+   "standardPrice": 57.4,
+   "actionPrice": 48.9
+  },
+  "4711527005206": {
+   "name": "Počítačový napájací zdroj DarkFlash PMT1050 (čierny)",
+   "standardPrice": 121.98,
+   "actionPrice": 108.0
+  },
+  "4711527005220": {
+   "name": "Počítačový napájací zdroj DarkFlash PMT1250 (čierny)",
+   "standardPrice": 141.45,
+   "actionPrice": 115.0
+  },
+  "4711527007286": {
+   "name": "Aktívne chladenie CPU Darkflash E400 PLUS (čierna)",
+   "standardPrice": 29.73,
+   "actionPrice": 24.9
+  },
+  "4711527005886": {
+   "name": "Vodné chladenie pre procesor DE360 (čierne)",
+   "standardPrice": 107.62,
+   "actionPrice": 91.0
+  },
+  "4711527005893": {
+   "name": "Vodné chladenie pre procesor DE360 (biely)",
+   "standardPrice": 112.75,
+   "actionPrice": 94.5
+  },
+  "4711527003813": {
+   "name": "Počítačová skriňa DarkFlash DS900G (čierna)",
+   "standardPrice": 57.4,
+   "actionPrice": 48.0
+  },
+  "4711527007026": {
+   "name": "Počítačová skriňa DarkFlash AIRNOVA (čierna) + 3 ventilátory",
+   "standardPrice": 87.12,
+   "actionPrice": 67.0
+  },
+  "4711527008450": {
+   "name": "Počítačová skriňa DarkFlash DS950 (biela) + 6 ventilátorov",
+   "standardPrice": 74.82,
+   "actionPrice": 61.5
+  },
+  "4711527008535": {
+   "name": "Počítačová skrinka darkFlash DS950V s 6-palcovým displejom, biela",
+   "standardPrice": 104.55,
+   "actionPrice": 86.5
+  },
+  "4711527007507": {
+   "name": "Počítačová skriňa darkFlash C280, biela v bielom vyhotovení",
+   "standardPrice": 49.72,
+   "actionPrice": 42.0
+  },
+  "4711527007675": {
+   "name": "Počítačová skriňa darkFlash C365, biela v bielom vyhotovení",
+   "standardPrice": 39.98,
+   "actionPrice": 30.9
+  },
+  "4711527002151": {
+   "name": "Vodný chladič procesora Darkflash DH360D, 360 mm, biely",
+   "standardPrice": 79.95,
+   "actionPrice": 68.5
+  },
+  "6975755966632": {
+   "name": "Flextail Tiny",
+   "standardPrice": 104.55,
+   "actionPrice": 82.0
+  },
+  "6975755965840": {
+   "name": "Flextail AVS Capsule",
+   "standardPrice": 27.68,
+   "actionPrice": 18.5
+  },
+  "6975755965611": {
+   "name": "LED baterka Flextail Zero 1200 (čierna)",
+   "standardPrice": 32.29,
+   "actionPrice": 28.0
+  },
+  "6975755962160": {
+   "name": "Nafukovacia podložka Flextail Zero Seat R02 (oranžová)",
+   "standardPrice": 18.97,
+   "actionPrice": 15.9
+  },
+  "4897143171782": {
+   "name": "Freewell Osmo 360 Neutral Density ND32 Filter FW-OS360-ND32",
+   "standardPrice": 67.13,
+   "actionPrice": 58.9
+  },
+  "4897143171904": {
+   "name": "Freewell Osmo Action 6 Light Pollution Reduction Filter FW-OA6-LPR",
+   "standardPrice": 18.97,
+   "actionPrice": 12.9
+  },
+  "4897143171768": {
+   "name": "Freewell Osmo Action 5 Pro Filters - Standard Day 4Pack FW-OA6-MEGA",
+   "standardPrice": null,
+   "actionPrice": 115.5
+  },
+  "4897143171737": {
+   "name": "Freewell Sada filtrov pre OSMO NANO Mega Kit 12 ks IN-FW-OSN-MEGA",
+   "standardPrice": 137.35,
+   "actionPrice": 102.9
+  },
+  "4897143171614": {
+   "name": "Freewell Osmo 360 Neutral Density ND16 Filter FW-OS360-ND16",
+   "standardPrice": 62.52,
+   "actionPrice": 46.5
+  },
+  "4897143171683": {
+   "name": "Freewell Osmo Nano Black Glow Mist Filter FW-OSN-GMIST1/4",
+   "standardPrice": 17.43,
+   "actionPrice": 13.0
+  },
+  "4897143171799": {
+   "name": "Freewell Osmo 360 Neutral Density ND64 Filter FW-OS360-ND64",
+   "standardPrice": 64.58,
+   "actionPrice": 57.9
+  },
+  "6976037363262": {
+   "name": "Avatto WOT20-FR",
+   "standardPrice": 24.6,
+   "actionPrice": 16.5
+  },
+  "6930460008824": {
+   "name": "SKY RC Type35 2-4S nabíječ 35W",
+   "standardPrice": 12.82,
+   "actionPrice": 10.0
+  },
+  "6971593179654": {
+   "name": "Odolný tablet HOTWAV TAB R9 Plus (čierny)",
+   "standardPrice": 312.63,
+   "actionPrice": 258.5
+  },
+  "6971593179661": {
+   "name": "Odolný tablet HOTWAV TAB R9 Plus (červený)",
+   "standardPrice": 300.33,
+   "actionPrice": 262.9
+  },
+  "6933582314071": {
+   "name": "Filament Sunlu PLA Classic (čierny), 1,75 mm, 1 kg",
+   "standardPrice": 10.76,
+   "actionPrice": 9.1
+  },
+  "6935750515259": {
+   "name": "UNI-T UT15B MAX",
+   "standardPrice": 74.82,
+   "actionPrice": 59.0
+  },
+  "6935750518090": {
+   "name": "UNI-T UT18B MAX",
+   "standardPrice": 94.81,
+   "actionPrice": 82.9
+  },
+  "6935750520185": {
+   "name": "UNI-T UT201R",
+   "standardPrice": 24.6,
+   "actionPrice": 18.5
+  },
+  "6935750521311": {
+   "name": "UNI-T UT213A",
+   "standardPrice": 37.42,
+   "actionPrice": 27.5
+  },
+  "6935750522080": {
+   "name": "UNI-T UT220",
+   "standardPrice": 52.27,
+   "actionPrice": 39.0
+  },
+  "6935750502211": {
+   "name": "UNI-T UT221",
+   "standardPrice": null,
+   "actionPrice": 86.5
+  },
+  "6935750551257": {
+   "name": "UNI-T UT512D",
+   "standardPrice": 250.1,
+   "actionPrice": 205.9
+  },
+  "6935750551202": {
+   "name": "UNI-T UT512",
+   "standardPrice": 165.03,
+   "actionPrice": 125.9
+  },
+  "6935750537206": {
+   "name": "UNI-T UT372",
+   "standardPrice": 72.26,
+   "actionPrice": 52.9
+  },
+  "6935750536230": {
+   "name": "UNI-T UT362H",
+   "standardPrice": 199.88,
+   "actionPrice": 159.0
+  },
+  "6935750535202": {
+   "name": "UNI-T UT352",
+   "standardPrice": 137.35,
+   "actionPrice": 96.5
+  },
+  "6935750533635": {
+   "name": "Digitálny termohygrometer Uni-T UT330THC, USB, záznam údajov",
+   "standardPrice": 42.53,
+   "actionPrice": 36.5
+  },
+  "6935750532508": {
+   "name": "UNI-T UT325",
+   "standardPrice": 92.25,
+   "actionPrice": 76.0
+  },
+  "6935750531136": {
+   "name": "UNI-T UT311A",
+   "standardPrice": 250.1,
+   "actionPrice": 195.0
+  },
+  "6935750530399": {
+   "name": "Teploměr bezkontaktní UNI-T UT303D+ (07810269)",
+   "standardPrice": 99.94,
+   "actionPrice": 73.5
+  },
+  "6933582316587": {
+   "name": "Drevený filament Sunlu Wood (orech)",
+   "standardPrice": 28.7,
+   "actionPrice": 13.9
+  },
+  "6935750511602": {
+   "name": "UNI-T UT116A",
+   "standardPrice": 27.16,
+   "actionPrice": 23.5
+  },
+  "6935750580738": {
+   "name": "Laserový diaľkomer Uni-T LM800G, golfový režim, 6× zväčšenie",
+   "standardPrice": 89.69,
+   "actionPrice": 70.9
+  },
+  "6935750560273": {
+   "name": "UNI-T LM 60T",
+   "standardPrice": 32.8,
+   "actionPrice": 27.0
+  },
+  "6935750520499": {
+   "name": "Laserový diaľkomer Uni-T LM2000, dosah 2000 m, 8× zoom",
+   "standardPrice": 675.48,
+   "actionPrice": 505.0
+  },
+  "6935750550267": {
+   "name": "Laserový diaľkomer Uni-T LM1500G, 6× zväčšenie, golfový režim",
+   "standardPrice": 225.5,
+   "actionPrice": 174.0
+  },
+  "6935750520680": {
+   "name": "Laserový diaľkomer Uni-T LM1200G, 6× zoom, golfový režim",
+   "standardPrice": 154.77,
+   "actionPrice": 118.5
+  },
+  "6935750510568": {
+   "name": "Laserový diaľkomer Uni-T LM1000G, golfový režim, zamerenie vlajky",
+   "standardPrice": 112.75,
+   "actionPrice": 83.5
+  },
+  "6935750510117": {
+   "name": "Laserový diaľkomer Uni-T LM1000, vzdialenosť, výška, rýchlosť, uhol",
+   "standardPrice": 107.62,
+   "actionPrice": 91.0
+  },
+  "6935750525050": {
+   "name": "UNI-T A25D",
+   "standardPrice": 57.4,
+   "actionPrice": 44.0
+  },
+  "6935750513293": {
+   "name": "UNI-T A13T",
+   "standardPrice": 12.3,
+   "actionPrice": 8.4
+  },
+  "4897143171966": {
+   "name": "Slnečná clona Freewell pre objektív Fujifilm XF 23 mm F2.8, čierna",
+   "standardPrice": 92.25,
+   "actionPrice": 80.5
+  },
+  "4897143172024": {
+   "name": "Freewell Osmo Action 6 Creator Pro Cage FW-OA6-PROCAGE",
+   "standardPrice": 74.82,
+   "actionPrice": 65.5
+  },
+  "6972570964614": {
+   "name": "Mini PC GMKtec K15, Core Ultra 5 125U, 16 GB RAM, 1 TB SSD, Windows 11 Pro",
+   "standardPrice": 700.08,
+   "actionPrice": 612.5
+  },
+  "6972467712694": {
+   "name": "Gimbal AOCHUAN S3 s AI senzorom, 3-osový, čierny",
+   "standardPrice": 150.68,
+   "actionPrice": 112.5
+  },
+  "6972467710706": {
+   "name": "Gimbal AOCHUAN XE s AI senzorom, 3-osový, čierny",
+   "standardPrice": 62.52,
+   "actionPrice": 55.5
+  },
+  "6972467718597": {
+   "name": "Gimbal AOCHUAN P2 s AI senzorom, 3-osový, MagSafe, biely",
+   "standardPrice": 87.64,
+   "actionPrice": 73.0
+  },
+  "6972467710065": {
+   "name": "Gimbal AOCHUAN X Pro Standard, 3-osový, sivý",
+   "standardPrice": 65.09,
+   "actionPrice": 50.9
+  },
+  "6972467710300": {
+   "name": "Gimbal AOCHUAN X Pro s RGB osvetlením, 3-osový, čierny",
+   "standardPrice": 62.52,
+   "actionPrice": 54.5
+  },
+  "6972467710270": {
+   "name": "Gimbal AOCHUAN X Pro s AI senzorom, 3-osový, čierny",
+   "standardPrice": 74.82,
+   "actionPrice": 66.5
+  },
+  "6972467719679": {
+   "name": "Gimbal AOCHUAN X2 s RGB osvetlením, 3-osový, biely",
+   "standardPrice": 70.21,
+   "actionPrice": 56.0
+  },
+  "6972467714698": {
+   "name": "Gimbal AOCHUAN X2 s AI senzorom, 3-osový, biely",
+   "standardPrice": 79.95,
+   "actionPrice": 63.5
+  },
+  "6972467711680": {
+   "name": "Gimbal AOCHUAN M3 Pro mini s AI senzorom, 4 v 1, čierny",
+   "standardPrice": 50.22,
+   "actionPrice": 40.0
+  },
+  "6972467714865": {
+   "name": "Gimbal AOCHUAN M3 Pro mini s AI senzorom, 4 v 1, biely",
+   "standardPrice": 50.22,
+   "actionPrice": 43.5
+  },
+  "6978642440079": {
+   "name": "Aurzen Powerplay s powerbankou 10000 mAh",
+   "standardPrice": 127.1,
+   "actionPrice": 104.9
+  },
+  "6971337720159": {
+   "name": "Bezdrôtový konferenčný reproduktor EMEET OfficeCore M2 (čierny)",
+   "standardPrice": 110.7,
+   "actionPrice": 97.0
+  },
+  "6971337725284": {
+   "name": "Webová kamera EMEET Piko+ (čierna)",
+   "standardPrice": 70.21,
+   "actionPrice": 59.5
+  },
+  "6979033600058": {
+   "name": "SONOFF Orb-DIM Matter over WiFi Dimmer Wall Switch MINI-DIM-E",
+   "standardPrice": 29.73,
+   "actionPrice": 22.0
+  },
+  "6957141411520": {
+   "name": "Bezdrôtové slúchadlá QCY MeloBuds N70 Lite s ANC a LDAC (titánové)",
+   "standardPrice": 49.72,
+   "actionPrice": 38.5
+  },
+  "6957141411537": {
+   "name": "Bezdrôtové slúchadlá do uší QCY MeloBuds N70 Lite HT18, ANC, fialové",
+   "standardPrice": 49.72,
+   "actionPrice": 37.5
+  },
+  "4897118836272": {
+   "name": "Minis Forum Mini PC Minisforum UM870 Plus, AMD Ryzen 7 8745H, 16 GB RAM, 512 GB SSD",
+   "standardPrice": null,
+   "actionPrice": 705.5
+  },
+  "6976058151077": {
+   "name": "Projektor Aurzen Eazze D1 Pro, model 086154",
+   "standardPrice": null,
+   "actionPrice": 191.5
+  },
+  "6978642440314": {
+   "name": "Prepravné puzdro Aurzen BOOM pre miniprojektor",
+   "standardPrice": null,
+   "actionPrice": 269.5
+  },
+  "6979181921784": {
+   "name": "Mäkká valcová kefa Dreame VVV63C pre vysávač V30 Essential",
+   "standardPrice": 137.35,
+   "actionPrice": 102.9
+  },
+  "6972436987009": {
+   "name": "Inteligentné hodinky COLMI C28, 7 mm, 39 g, hnedý kožený remienok (086904)",
+   "standardPrice": 32.29,
+   "actionPrice": 26.0
+  },
+  "5905156104488": {
+   "name": "Premietacie plátno Blitzwolf BW-VS10, 100 palcov",
+   "standardPrice": 222.42,
+   "actionPrice": 171.5
+  },
+  "6946639813861": {
+   "name": "Zeblaze Eyewear",
+   "standardPrice": 82.51,
+   "actionPrice": 72.5
+  },
+  "6977132450390": {
+   "name": "Odsávač pár Iseasy TV1390D4-CC-I2 na zabudovanie",
+   "standardPrice": 175.28,
+   "actionPrice": 133.9
+  },
+  "6972570964775": {
+   "name": "Mini PC GMKtec K13, Intel Core Ultra 7 256V, 16 GB RAM, 512 GB SSD, Windows 11 Pro",
+   "standardPrice": 774.9,
+   "actionPrice": 640.5
+  },
+  "6975532171181": {
+   "name": "Neakasa Náhradná gumová vložka do mačacieho záchoda M1",
+   "standardPrice": 29.73,
+   "actionPrice": 22.9
+  },
+  "6928819530102": {
+   "name": "xTool SafetyPro™ AP2 ultra hustý uhlíkový filter",
+   "standardPrice": 47.15,
+   "actionPrice": 38.0
+  },
+  "6975532171440": {
+   "name": "Neakasa Náhradná gumová vložka do mačacieho záchoda M1",
+   "standardPrice": 27.16,
+   "actionPrice": 18.5
+  },
+  "6972470564532": {
+   "name": "Mechanická herná klávesnica Onikuma MT707, žltá",
+   "standardPrice": 47.15,
+   "actionPrice": 38.5
+  },
+  "6974065452439": {
+   "name": "Zeuslap Z14P",
+   "standardPrice": 109.68,
+   "actionPrice": 94.9
+  },
+  "6974065451906": {
+   "name": "ZEUSLAP P16BT",
+   "standardPrice": null,
+   "actionPrice": 194.5
+  },
+  "6924922259701": {
+   "name": "Inteligentný LED pásik Yeelight D1 RGBIC, 10 m, Matter",
+   "standardPrice": 89.69,
+   "actionPrice": 70.9
+  },
+  "6924922259718": {
+   "name": "Inteligentný LED pásik Yeelight D1 RGBIC, 20 m, Matter",
+   "standardPrice": 125.05,
+   "actionPrice": 103.5
+  },
+  "6974065451876": {
+   "name": "Prenosný monitor Zeuslap P16 Plus, 16 palcov",
+   "standardPrice": 149.65,
+   "actionPrice": 118.9
+  },
+  "6974065452309": {
+   "name": "Zeuslap P16A",
+   "standardPrice": 135.3,
+   "actionPrice": 108.5
+  },
+  "6974065451586": {
+   "name": "Zeuslap Z14Lite",
+   "standardPrice": null,
+   "actionPrice": 96.5
+  },
+  "6974065452378": {
+   "name": "Zeuslap P16 Ultra",
+   "standardPrice": 135.3,
+   "actionPrice": 112.0
+  },
+  "6974065450015": {
+   "name": "Zeuslap AP156",
+   "standardPrice": 112.75,
+   "actionPrice": 96.5
+  },
+  "6974065452361": {
+   "name": "Zeuslap ZB156",
+   "standardPrice": 92.25,
+   "actionPrice": 76.0
+  },
+  "6974065452415": {
+   "name": "Zeuslap Z23Lite",
+   "standardPrice": 199.88,
+   "actionPrice": 157.0
+  },
+  "6974065450985": {
+   "name": "Prenosný monitor Zeuslap P16 – prenosný 16-palcový monitor",
+   "standardPrice": 137.35,
+   "actionPrice": 109.5
+  },
+  "6974065450022": {
+   "name": "Zeuslap AT156",
+   "standardPrice": 135.3,
+   "actionPrice": 111.5
+  },
+  "6974065455898": {
+   "name": "Zeuslap Z16H",
+   "standardPrice": 274.7,
+   "actionPrice": 228.9
+  },
+  "6974065450305": {
+   "name": "ZEUSLAP P15AT",
+   "standardPrice": 150.68,
+   "actionPrice": 111.5
+  },
+  "6974662353207": {
+   "name": "Anycubic ASA Grey 1,75 mm 1000 g",
+   "standardPrice": 21.52,
+   "actionPrice": 14.5
+  },
+  "6972570964898": {
+   "name": "Mini PC GMKtec K17, Intel Core Ultra 5 226V, 16 GB RAM, 1 TB SSD, Windows 11 Pro",
+   "standardPrice": 800.52,
+   "actionPrice": 692.0
+  },
+  "6979147470035": {
+   "name": "Anlan 02-AGSY53-02A",
+   "standardPrice": 49.72,
+   "actionPrice": 37.0
+  },
+  "6979147470004": {
+   "name": "Anlan 02-AGSY51-0RA",
+   "standardPrice": 112.75,
+   "actionPrice": 84.9
+  },
+  "6977254878669": {
+   "name": "Zdravotnícka pomôcka Anlan 01-AAMY51-02 Akupresúrny masážny prístroj 3 v 1",
+   "standardPrice": 67.13,
+   "actionPrice": 53.5
+  },
+  "6972971866418": {
+   "name": "Súprava magnetických filtrov Freewell pre iPhone, 3 ks",
+   "standardPrice": 125.05,
+   "actionPrice": 91.9
+  },
+  "6971915322218": {
+   "name": "Laserový diaľkomer Mileseey XTAPE1 s meracím pásom, dosah 100 m",
+   "standardPrice": null,
+   "actionPrice": 241.9
+  },
+  "6971915322942": {
+   "name": "Laserový diaľkomer Mileseey DTX 10 s meracím pásom, dosah 100 m",
+   "standardPrice": 187.57,
+   "actionPrice": 148.5
+  },
+  "6971915321860": {
+   "name": "Laserový diaľkomer Mileseey DP 20 Pro 100, OLED displej, mobilná aplikácia",
+   "standardPrice": 137.35,
+   "actionPrice": 119.5
+  },
+  "6971915322140": {
+   "name": "Termovízna kamera Mileseey TR256A, 256 × 192 px, -20 až 550 °C",
+   "standardPrice": 370.02,
+   "actionPrice": 315.9
+  },
+  "6971915320047": {
+   "name": "Mini termokamera Mileseey TR256i pre iPhone a iPad, USB-C",
+   "standardPrice": 237.8,
+   "actionPrice": 195.5
+  },
+  "6971915322980": {
+   "name": "Termovízna kamera Mileseey TP2 Plus s Wi-Fi pre smartfón",
+   "standardPrice": 293.15,
+   "actionPrice": 259.5
+  },
+  "6924922270065": {
+   "name": "Stolná lampa Yeelight D1 Matter, nastaviteľná",
+   "standardPrice": 74.82,
+   "actionPrice": 65.0
+  },
+  "6942349220999": {
+   "name": "Meross MRS100MA(EU)",
+   "standardPrice": 99.94,
+   "actionPrice": 81.5
+  },
+  "6942349221712": {
+   "name": "Senzor prítomnosti Meross MS605MAT-EU pre inteligentnú domácnosť",
+   "standardPrice": 39.98,
+   "actionPrice": 30.0
+  },
+  "6976831838140": {
+   "name": "RGB LED panel Neewer AP150C, 150 W, 1800 LED diód",
+   "standardPrice": null,
+   "actionPrice": 292.9
+  },
+  "6976831837860": {
+   "name": "NEEWER APC100C",
+   "standardPrice": 300.33,
+   "actionPrice": 223.5
+  },
+  "6976831838874": {
+   "name": "Neewer CB300B",
+   "standardPrice": 370.02,
+   "actionPrice": 273.5
+  },
+  "6921268813611": {
+   "name": "Neewer RGB1200",
+   "standardPrice": 215.25,
+   "actionPrice": 173.9
+  },
+  "6921268817381": {
+   "name": "Neewer HS200B ručné Bi-Color LED video svetlo 10106508",
+   "standardPrice": 282.9,
+   "actionPrice": 247.9
+  },
+  "6976831831233": {
+   "name": "Prenosný monitor Neewer F100 + USB nabíjačka + súprava batérií",
+   "standardPrice": 132.22,
+   "actionPrice": 114.5
+  },
+  "6921268811594": {
+   "name": "Mini systém follow focus Neewer PG001 s dorazmi A/B",
+   "standardPrice": 94.81,
+   "actionPrice": 69.9
+  },
+  "6976831838942": {
+   "name": "Makro kruhový blesk Neewer RF1-C pre Canon",
+   "standardPrice": 124.02,
+   "actionPrice": 91.0
+  },
+  "6976831830397": {
+   "name": "Kompaktný blesk Neewer Z160 do sánok fotoaparátu",
+   "standardPrice": 74.82,
+   "actionPrice": 52.0
+  },
+  "6976831830366": {
+   "name": "Blesk Neewer Z880-C s lítiovou batériou, 76 Ws, HSS 1/8000 s",
+   "standardPrice": 147.6,
+   "actionPrice": 107.9
+  },
+  "6976831830373": {
+   "name": "Blesk Neewer Z880-N TTL pre fotoaparáty Nikon, 76 Ws",
+   "standardPrice": 159.9,
+   "actionPrice": 111.5
+  },
+  "6976831839826": {
+   "name": "Blesk Neewer Z880-S TTL pre fotoaparáty Sony, 76 Ws",
+   "standardPrice": 157.85,
+   "actionPrice": 107.0
+  },
+  "6946639814097": {
+   "name": "ZEBLAZE Q01",
+   "standardPrice": null,
+   "actionPrice": 64.0
+  },
+  "6974662353160": {
+   "name": "Anycubic TPU Clear Green 1,75 mm 1000 g",
+   "standardPrice": 21.01,
+   "actionPrice": 16.5
+  },
+  "6974662353115": {
+   "name": "Anycubic TPU Clear 1,75 mm 1000 g",
+   "standardPrice": 24.6,
+   "actionPrice": 19.9
+  },
+  "6974662353139": {
+   "name": "Anycubic TPU Clear Orange 1,75 mm 1000 g",
+   "standardPrice": 24.6,
+   "actionPrice": 20.0
+  },
+  "6974662353122": {
+   "name": "Filament Anycubic TPU (priehľadný fialový), 1 kg",
+   "standardPrice": 21.01,
+   "actionPrice": 16.5
+  },
+  "786156002906": {
+   "name": "Kovová lopatka na piesok Garrett Metal Sand Scoop",
+   "standardPrice": 64.58,
+   "actionPrice": 47.5
+  },
+  "6921268811426": {
+   "name": "Statív Neewer TP09 - 50 cm mini statív z uhlíkových vlákien",
+   "standardPrice": 74.82,
+   "actionPrice": 58.5
+  },
+  "6921268811457": {
+   "name": "Osemhranný softbox Neewer NS4P s upevňovacím systémom NEEWER",
+   "standardPrice": 29.73,
+   "actionPrice": 24.0
+  },
+  "6976391039506": {
+   "name": "Bezdrôtový videozvonček IMOU Doorbell 2S Kit, 3 MP, 2K",
+   "standardPrice": 79.95,
+   "actionPrice": 55.0
+  },
+  "6975293677762": {
+   "name": "Navee Elektrický skúter NAVEE UT3 Max, 1638 W",
+   "standardPrice": 863.05,
+   "actionPrice": 703.9
+  },
+  "6975293679162": {
+   "name": "Navee V45i",
+   "standardPrice": 350.55,
+   "actionPrice": 285.5
+  },
+  "5905156104617": {
+   "name": "Nabíjačka pre elektromobily Besen SQW45-BC-22KW-APP, 22 kW, s aplikáciou",
+   "standardPrice": 314.67,
+   "actionPrice": 278.0
+  },
+  "6977658980494": {
+   "name": "Mini termovízna kamera Thermal Master X2 USB-C",
+   "standardPrice": 250.1,
+   "actionPrice": 214.5
+  },
+  "6977658980050": {
+   "name": "Termovízny monokulár Thermal Master X3 pre Android",
+   "standardPrice": null,
+   "actionPrice": 485.5
+  },
+  "6957141411667": {
+   "name": "Bezdrôtové herné slúchadlá QCY Heroad VT200, čierno-červené",
+   "standardPrice": 39.98,
+   "actionPrice": 35.5
+  },
+  "6976831830359": {
+   "name": "Neewer Z2PRO-F TTL so guľatou hlavou a kapacitou 3000 mA",
+   "standardPrice": 157.85,
+   "actionPrice": 121.0
+  },
+  "6977328065544": {
+   "name": "Súprava príslušenstva Dreame VFB10 pre Z20 Aquacycle Station, Z20 a Z30 Aquacycle",
+   "standardPrice": 54.83,
+   "actionPrice": 37.5
+  },
+  "6977328065551": {
+   "name": "Mäkká kefa s hadicou Dreame VFB3 pre Z20 Aquacycle Station, Z20 a Z30 Aquacycle",
+   "standardPrice": 42.53,
+   "actionPrice": 32.0
+  },
+  "6977328060952": {
+   "name": "Súprava príslušenstva Dreame HCK3 pre vysávače H12S AE, H12S, G10 a G10 Combo",
+   "standardPrice": 29.73,
+   "actionPrice": 23.9
+  },
+  "4711527002731": {
+   "name": "Vodný chladič procesora Darkflash DG360, 360 mm, čierny",
+   "standardPrice": 64.58,
+   "actionPrice": 51.9
+  },
+  "4711527002748": {
+   "name": "Vodný chladič procesora Darkflash DG360, 360 mm, biely",
+   "standardPrice": 67.13,
+   "actionPrice": 50.0
+  },
+  "6972467711567": {
+   "name": "Gimbal AOCHUAN V3 s AI senzorom, 3-osový, čierny",
+   "standardPrice": 90.2,
+   "actionPrice": 70.5
+  },
+  "6972467711260": {
+   "name": "Gimbal AOCHUAN S3 s doplnkovým displejom, 3-osový, čierny",
+   "standardPrice": 175.28,
+   "actionPrice": 145.5
+  },
+  "6972467710348": {
+   "name": "Gimbal AOCHUAN K1L-C so statívom pre smartfóny, čierny",
+   "standardPrice": 22.55,
+   "actionPrice": 18.9
+  },
+  "6977728947525": {
+   "name": "Súprava príslušenstva MOVA Z60 Ultra Roller pre robotický vysávač",
+   "standardPrice": null,
+   "actionPrice": 38.9
+  },
+  "6977728947228": {
+   "name": "Náhradná utierka MOVA pre robot Z60 Ultra Roller",
+   "standardPrice": null,
+   "actionPrice": 10.9
+  },
+  "6937267000556": {
+   "name": "Nabíjacia stanica BOBOVR CG2 pre inteligentné okuliare",
+   "standardPrice": 49.72,
+   "actionPrice": 37.0
+  },
+  "5905156105720": {
+   "name": "Projektor Blitzwolf BW-V12, 5905156105720",
+   "standardPrice": 274.7,
+   "actionPrice": 209.0
+  },
+  "6977254877877": {
+   "name": "Anlan 01-AMFY52-02A",
+   "standardPrice": 24.6,
+   "actionPrice": 19.0
+  },
+  "6979147470097": {
+   "name": "Elektrická kulma na mihalnice ANLAN 04-AJMJ51-01A",
+   "standardPrice": 19.99,
+   "actionPrice": 15.5
+  },
+  "5905156109636": {
+   "name": "Amzchef CE-FS-I72S-FFDD07",
+   "standardPrice": 180.4,
+   "actionPrice": 139.5
+  },
+  "5905156109643": {
+   "name": "AMZCHEF CE-FS-I72S-FFDD06",
+   "standardPrice": 172.2,
+   "actionPrice": 135.9
+  },
+  "5905156109667": {
+   "name": "Amzchef CE-T-74IB3xyzf-CS",
+   "standardPrice": 135.3,
+   "actionPrice": 111.5
+  },
+  "9331911828744": {
+   "name": "Amzchef CE-FS-I74S-FFDD10",
+   "standardPrice": 169.12,
+   "actionPrice": 128.9
+  },
+  "5905156109681": {
+   "name": "Amzchef CE-FS-I95S-GFFDD0",
+   "standardPrice": 247.02,
+   "actionPrice": 199.9
+  },
+  "810150549799": {
+   "name": "Inteligentný LED pásik SwitchBot LED Strip Light RGBICWW, 5 m, Bluetooth",
+   "standardPrice": 44.59,
+   "actionPrice": 36.0
+  },
+  "810150549812": {
+   "name": "Inteligentný neónový LED pásik SwitchBot Neon Wire Rope Light, 5 m (090618)",
+   "standardPrice": 69.7,
+   "actionPrice": 59.5
+  },
+  "6972470563368": {
+   "name": "Herné slúchadlá Onikuma X20 pre PC, konzoly a mobily, čierne",
+   "standardPrice": 24.6,
+   "actionPrice": 19.0
+  },
+  "5905156108172": {
+   "name": "Osciloskop Funkčný generátor FNIRSI TSG3020",
+   "standardPrice": 199.88,
+   "actionPrice": 147.9
+  },
+  "5905156108189": {
+   "name": "Osciloskop Funkčný generátor FNIRSI TSG6020",
+   "standardPrice": 225.5,
+   "actionPrice": 171.0
+  },
+  "6920233414211": {
+   "name": "Prenosný monitor ANMITE A140 W04,14', 6920233414211",
+   "standardPrice": 99.94,
+   "actionPrice": 85.0
+  },
+  "6920233416581": {
+   "name": "Prenosný monitor ANMITE A160 W04,16', 6920233416581",
+   "standardPrice": 97.38,
+   "actionPrice": 79.9
+  },
+  "6920233421547": {
+   "name": "ANMITE A215W03",
+   "standardPrice": 185.52,
+   "actionPrice": 162.5
+  },
+  "6920233423879": {
+   "name": "ANMITE A238W05",
+   "standardPrice": 220.38,
+   "actionPrice": 174.0
+  },
+  "4897143170815": {
+   "name": "Puzdro Freewell Pro Filmmaker pre Apple iPhone 16 Plus",
+   "standardPrice": null,
+   "actionPrice": 29.9
+  },
+  "6972971861635": {
+   "name": "Variabilný ND filter Freewell s difúznym filtrom Mist, 2–5 stupňov, sivý",
+   "standardPrice": 109.68,
+   "actionPrice": 72.9
+  },
+  "4897143171591": {
+   "name": "Freewell iPhone 17 Pro Genius Rig FW-IP17P-GVK",
+   "standardPrice": 125.05,
+   "actionPrice": 94.0
+  },
+  "6972971865749": {
+   "name": "Freewell Freewell 1,7x Teleobjektiv závit 17 mm",
+   "standardPrice": 127.1,
+   "actionPrice": 111.9
+  },
+  "4897143173618": {
+   "name": "Freewell CPL pro Insta360 Luna Ultra",
+   "standardPrice": 26.14,
+   "actionPrice": 17.0
+  },
+  "4897143173649": {
+   "name": "Freewell Insta360 Luna pro snížení světelného znečištění",
+   "standardPrice": 18.97,
+   "actionPrice": 13.0
+  },
+  "4897143173656": {
+   "name": "Ultra Glow Mist pro Freewell Insta360 Luna 1/4",
+   "standardPrice": 22.55,
+   "actionPrice": 14.0
+  },
+  "4897143173663": {
+   "name": "ND filtr Freewell Insta360 Luna Ultra ND8",
+   "standardPrice": 22.55,
+   "actionPrice": 13.0
+  },
+  "4897143173670": {
+   "name": "ND filtr Freewell pro Insta360 Luna Ultra ND16",
+   "standardPrice": 22.55,
+   "actionPrice": 14.0
+  },
+  "4897143173694": {
+   "name": "ND filtr Freewell Insta360 Luna Ultra ND64",
+   "standardPrice": 23.58,
+   "actionPrice": 14.5
+  },
+  "4897143173700": {
+   "name": "ND/PL filter Freewell ND8/PL pre kameru Insta360 Luna Ultra",
+   "standardPrice": 27.16,
+   "actionPrice": 16.5
+  },
+  "4897143173717": {
+   "name": "Freewell pro Insta360 Luna Ultra ND16/PL",
+   "standardPrice": 27.16,
+   "actionPrice": 17.0
+  },
+  "4897143173724": {
+   "name": "Freewell Insta360 Luna Ultra ND32/PL ND/PL",
+   "standardPrice": 27.16,
+   "actionPrice": 22.9
+  },
+  "4897143173731": {
+   "name": "Freewell ND/PL pro Insta360 Luna Ultra ND64/PL",
+   "standardPrice": 27.16,
+   "actionPrice": 16.5
+  },
+  "4897143173038": {
+   "name": "ND filtr Freewell pro Osmo Pocket ND64",
+   "standardPrice": 24.6,
+   "actionPrice": 19.5
+  },
+  "4897143172796": {
+   "name": "Freewell Osmo Pocket 4/3 Xtra Muse",
+   "standardPrice": 47.15,
+   "actionPrice": 40.5
+  },
+  "4897143172789": {
+   "name": "Filter Freewell s neutrálnou hustotou 3 v 1, ND8/ND32/ND64",
+   "standardPrice": 82.51,
+   "actionPrice": 51.0
+  },
+  "4897143172758": {
+   "name": "Magnetický difúzny filter Freewell Sherpa Magnetic Mist 3 v 1",
+   "standardPrice": 82.51,
+   "actionPrice": 51.0
+  },
+  "4897143172802": {
+   "name": "Difúzny filter Freewell Brandon Li Glow Mist 1/8",
+   "standardPrice": 47.15,
+   "actionPrice": 28.9
+  },
+  "4897143173557": {
+   "name": "Freewell pro Insta360 Luna Ultra All Day (8dílná sada)",
+   "standardPrice": 99.94,
+   "actionPrice": 86.0
+  },
+  "6928819530096": {
+   "name": "Filter s aktívnym uhlím xTool SafetyPro™ AP2",
+   "standardPrice": 59.96,
+   "actionPrice": 48.5
+  },
+  "6974662354020": {
+   "name": "3D tlačiareň Anycubic Kobra X Combo, 7-farebná",
+   "standardPrice": 599.62,
+   "actionPrice": 509.5
+  },
+  "6975755967486": {
+   "name": "batéria Flextail ZERO 1200 (čierna), Flextail 6975755967486",
+   "standardPrice": 50.22,
+   "actionPrice": 31.9
+  },
+  "6977341740305": {
+   "name": "Bezdrôtový adaptér Ottocast Cabin Care CA520-T200 pre CarPlay, s kamerou",
+   "standardPrice": 70.21,
+   "actionPrice": 53.9
+  }
+ }
+}

@@ -82,6 +82,11 @@ jobs:
 
       - uses: ./.github/actions/postprocess-categories
 
+      # Black Friday: PRICE_VAT = doporučená, ACTION_PRICE = BF cena (pred Heureka pravidlami vo finalize-feed)
+      - name: InnPro Black Friday ceny
+        continue-on-error: true
+        run: node scripts/apply-innpro-black-friday.js output/innpro.xml
+
       - uses: ./.github/actions/finalize-feed
         with:
           supplier: innpro

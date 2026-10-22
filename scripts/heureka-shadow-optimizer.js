@@ -81,6 +81,11 @@ function num(value, empty = 0) {
   return Number.isFinite(n) ? n : empty;
 }
 
+// Zákazník platí ACTION_PRICE, ak je nižšia než PRICE_VAT (InnPro Black Friday)
+function effectivePrice(regular, action) {
+  return action > 0 && regular > 0 && action < regular ? action : regular;
+}
+
 function med(xs) {
   xs = xs.filter(Number.isFinite).sort((a, b) => a - b);
   if (!xs.length) return null;
@@ -255,7 +260,8 @@ function economics(dir, vatDefault, codePrefixes = {}) {
         source: file,
         name: tag(block, ['PRODUCTNAME', 'NAME']),
         ean: tag(block, ['EAN']),
-        price: num(tag(block, ['PRICE_VAT', 'PRICE']), null),
+        // InnPro Black Friday: zákazník platí ACTION_PRICE, nie doporučenú PRICE_VAT
+        price: effectivePrice(num(tag(block, ['PRICE_VAT', 'PRICE']), null), num(tag(block, ['ACTION_PRICE']), null)),
         buy: num(tag(block, ['PURCHASE_PRICE']), null),
         vat: num(tag(block, ['VAT', 'PURCHASE_VAT']), vatDefault),
         amb: false,
