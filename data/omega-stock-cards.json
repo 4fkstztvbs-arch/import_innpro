@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600598,
+    "nextCardNumber": 202600602,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3584,6 +3584,30 @@
         "nazov": "Guzzanti GZ 411BD",
         "dodavatel": "kb",
         "code": "100000925213"
+      },
+      "5905156103221": {
+        "kod": "202600598",
+        "nazov": "Longer Laser Engraver RAY5",
+        "dodavatel": "innpro",
+        "code": "085446"
+      },
+      "6979127740011": {
+        "kod": "202600599",
+        "nazov": "Jump Starter GOOLOO",
+        "dodavatel": "innpro",
+        "code": "087300"
+      },
+      "6942349220296": {
+        "kod": "202600600",
+        "nazov": "Smart Wi-Fi Roller Shutter",
+        "dodavatel": "innpro",
+        "code": "085436"
+      },
+      "6932704908372": {
+        "kod": "202600601",
+        "nazov": "ELEGOO Rapid PLA+",
+        "dodavatel": "innpro",
+        "code": "085269"
       }
     }
   },
