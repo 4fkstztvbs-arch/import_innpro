@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600628,
+    "nextCardNumber": 202600631,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3764,6 +3764,24 @@
         "nazov": "F konektor zakončovací FF20 | WTY0611",
         "dodavatel": "atos",
         "code": "FF20"
+      },
+      "8595235806708": {
+        "kod": "202600628",
+        "nazov": "Maxxo UNI filtry 8ks",
+        "dodavatel": "kb",
+        "code": "100001755867"
+      },
+      "8690842466595": {
+        "kod": "202600629",
+        "nazov": "BEKO MGC20130BFB",
+        "dodavatel": "kb",
+        "code": "100002065364"
+      },
+      "8596426111397": {
+        "kod": "202600630",
+        "nazov": "Aligator Watch GPS Black",
+        "dodavatel": "kb",
+        "code": "100002137071"
       }
     }
   },
