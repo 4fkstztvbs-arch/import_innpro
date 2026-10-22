@@ -24,6 +24,9 @@ function validateState(state) {
       || !Number.isFinite(Date.parse(item.activatedAt || ''))) {
       throw new Error(`Neplatný záznam výpredaja pre kód ${code || '(prázdny)'}.`);
     }
+    if (item.salePrice != null && !(Number.isFinite(item.salePrice) && item.salePrice > 0)) {
+      throw new Error(`Neplatná výpredajová cena pre kód ${code}.`);
+    }
     if (!Array.isArray(item.appliedOrderIds)) item.appliedOrderIds = [];
   }
   if (!state.mail) state.mail = { uidValidity: null, lastUid: 0 };
@@ -116,7 +119,8 @@ function applyOrders(stateInput, orders) {
       const orderCode = text(line.CODE);
       const code = orderCode.startsWith('SKLBB-') ? orderCode.slice('SKLBB-'.length) : orderCode;
       const item = state.items[code];
-      if (!item || item.quantity <= 0) continue;
+      // Položka s pevnou cenou (salePrice) platí do ručného odstránenia zo stavu, objednávky ju neukončia.
+      if (!item || item.quantity <= 0 || item.salePrice != null) continue;
       const amount = Number(text(line.AMOUNT ?? line.QUANTITY));
       if (!Number.isSafeInteger(amount) || amount <= 0) {
         throw new Error(`Objednávka ${text(order.CODE) || '(bez čísla)'} obsahuje neplatné množstvo pre výpredajový kód ${code}.`);
