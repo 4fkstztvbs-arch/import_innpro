@@ -1,0 +1,51 @@
+/* Black Friday: výraznejší štítok (A) a koliesko so zľavou (B). Platí do 30. 11. 2026 – potom súbor odpojiť. */
+
+/* A: štítok „Akcia“ -> „BLACK FRIDAY“ */
+.flags.flags-default{width:auto!important;height:auto!important;max-width:none!important;max-height:none!important}
+.flags-default .flag.flag-action{
+  background:#0e151c!important;color:#fff!important;
+  font-size:0!important;line-height:1;
+  display:inline-flex;align-items:center;gap:6px;
+  width:auto!important;height:auto;max-width:none!important;max-height:none!important;writing-mode:horizontal-tb!important;white-space:nowrap;min-height:44px;padding:8px 14px 8px 12px;
+  border-radius:0 0 14px 0;
+}
+.flags-default .flag.flag-action::before{
+  content:"BLACK FRIDAY";font-size:14px;font-weight:800;letter-spacing:.04em;color:#fff;
+}
+@media (max-width:480px){
+  .flags-default .flag.flag-action{min-height:36px;padding:6px 10px}
+  .flags-default .flag.flag-action::before{font-size:12px}
+}
+
+/* B: koliesko so zľavou */
+.flags-extra .flag.flag-discount{
+  width:112px;height:112px;border-radius:50%;
+  background:#ee5a2f!important;color:#fff!important;
+  border:3px solid #fff;box-shadow:0 4px 14px rgba(14,21,28,.25);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;line-height:1;padding:0;
+}
+.flags-extra .flag.flag-discount::before{
+  content:"BLACK FRIDAY";font-size:10px;font-weight:800;letter-spacing:.08em;order:0;
+}
+.flags-extra .flag.flag-discount .price-save{
+  font-size:30px!important;font-weight:800;margin:3px 0 2px;color:#fff;height:auto!important;width:auto!important;
+}
+.flags-extra .flag.flag-discount .price-standard{
+  font-size:11px!important;opacity:.9;color:#fff;height:auto!important;width:auto!important;
+}
+.flags-extra .flag.flag-discount .price-save{order:1}
+.flags-extra .flag.flag-discount .price-standard{order:2}
+.flags-extra .flag.flag-discount .price-standard span{color:#fff}
+@media (max-width:480px){
+  .flags-extra .flag.flag-discount{width:100px;height:100px}
+  .flags-extra .flag.flag-discount::before{font-size:8px;letter-spacing:.03em;white-space:nowrap}
+  .flags-extra .flag.flag-discount .price-save{font-size:24px!important}
+  .products .flags-default .flag.flag-action{min-height:30px;padding:5px 9px}
+  .products .flags-default .flag.flag-action::before{font-size:11px}
+}
+
+/* výpis produktov: menšie koliesko, aby neprekrývalo fotku */
+.products .flags-extra .flag.flag-discount{width:76px;height:76px}
+.products .flags-extra .flag.flag-discount::before{font-size:8px}
+.products .flags-extra .flag.flag-discount .price-save{font-size:19px!important}
