@@ -57,12 +57,16 @@
     function buildMenu(){
       var h='<div class="pmb-grab"></div><div class="pmb-top"><h3>Produkty</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div><div class="pmb-body">';
       var items=document.querySelectorAll('#navigation .menu-level-1 > li');
-      var links='';
+      var links='',hotLink='';
       [].forEach.call(items,function(li){
         var a=li.querySelector(':scope > a');if(!a)return;
         var href=a.getAttribute('href'),name=a.textContent.replace(/\s+/g,' ').trim();
         var subs=li.querySelectorAll(':scope > ul > li > div > a, :scope > ul > li > a:not(.menu-image)');
         var hot=/black-friday/.test(href);
+        if(!subs.length&&hot){
+          hotLink='<a class="pmb-cat hot" href="'+esc(href)+'"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';
+          return;
+        }
         if(!subs.length){
           links+='<a class="pmb-cat'+(hot?' hot':'')+'" href="'+esc(href)+'"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';
           return;
@@ -74,6 +78,7 @@
         h+='<button class="pmb-cat" type="button" aria-expanded="false"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-down').replace('<svg','<svg class="pmb-ch"')+'</button><div class="pmb-subs">'+sl+'</div>';
       });
       h+='<div class="pmb-gap"></div>'+links+'</div>';
+      if(hotLink)h=h.replace('<div class="pmb-body">','<div class="pmb-body">'+hotLink);   /* Black Friday na prvom mieste */
       sh.innerHTML=h;
     }
 
