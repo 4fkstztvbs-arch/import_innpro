@@ -63,6 +63,7 @@
   #pmb-sheet .search-form .js-search-input::placeholder{color:transparent!important;opacity:0!important}
   #pmb-sheet .search-form::after{content:"Hľadať produkt,\00a0značku alebo kód";position:absolute;left:48px;right:16px;top:50%;transform:translateY(-50%);font-size:16px;color:#6b7780;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}
   #pmb-sheet .search-form:has(.js-search-input:not(:placeholder-shown))::after{display:none}
+  #pmb-sheet .searchWhisperer{top:64px!important;box-shadow:none!important;border-top:0!important}
   .pmb-extra.hide{display:none}
   .pmb-clear{border:0;background:none;color:var(--pmb-blue);font:inherit;font-size:13px;padding:8px 0}
   body.pmb-on .ps-buybar{bottom:calc(92px + var(--pmb-b,0px) + env(safe-area-inset-bottom));transition:transform .25s ease,bottom .2s ease}
