@@ -54,6 +54,7 @@
     var c;
     if((c=t.closest('#pmb-bar [data-k]'))){
       var k=c.getAttribute('data-k');
+      if((k==='menu'||k==='search')&&c.classList.contains('on')&&document.getElementById('pmb-sheet').classList.contains('open'))return;   /* zatvorenie panela nie je otvorenie */
       send(k==='menu'?'pmb_menu_open':k==='search'?'pmb_search_open':k==='cart'?'pmb_cart_click':k==='home'?'pmb_home_click':'pmb_account_click');
       return;
     }
@@ -65,8 +66,9 @@
       return;
     }
     /* pôvodné menu (a spoločné prvky) */
-    if(t.closest('.ps-menu-trigger, a.toggle-window[data-target="navigation"]'))return send('pmb_menu_open');
-    if(t.closest('a.toggle-window[data-target="search"]'))return send('pmb_search_open');
+    var bc=document.body.classList;
+    if(t.closest('.ps-menu-trigger, a.toggle-window[data-target="navigation"]'))return bc.contains('navigation-window-visible')?0:send('pmb_menu_open');
+    if(t.closest('a.toggle-window[data-target="search"]'))return bc.contains('search-window-visible')?0:send('pmb_search_open');
     if(t.closest('a.cart-count'))return send('pmb_cart_click');
     if((c=t.closest('.searchWhisperer a')))return send('pmb_search_result_click',{item_name:txt(c)});
     if((c=t.closest('#navigation a[href]:not([href="#"])')))return send('pmb_category_click',{item_name:txt(c),link_url:(c.getAttribute('href')||'').slice(0,120)});
