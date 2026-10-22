@@ -61,7 +61,7 @@
   #pmb-sheet .search-form .search-button,#pmb-sheet .search-form .search-input-icon{display:none!important}
   #pmb-sheet .search-form::before{content:"";position:absolute;left:16px;top:50%;width:20px;height:20px;margin-top:-10px;z-index:2;pointer-events:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230757a5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0'/%3E%3Cpath d='M21 21l-6 -6'/%3E%3C/svg%3E") center/contain no-repeat}
   #pmb-sheet .search-form .js-search-input::placeholder{color:transparent!important;opacity:0!important}
-  #pmb-sheet .search-form::after{content:"Hľadať produkt, značku alebo kód";position:absolute;left:48px;right:16px;top:50%;transform:translateY(-50%);font-size:16px;color:#6b7780;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}
+  #pmb-sheet .search-form::after{content:"Hľadať produkt,\00a0značku alebo kód";position:absolute;left:48px;right:16px;top:50%;transform:translateY(-50%);font-size:16px;color:#6b7780;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none}
   #pmb-sheet .search-form:has(.js-search-input:not(:placeholder-shown))::after{display:none}
   .pmb-extra.hide{display:none}
   .pmb-clear{border:0;background:none;color:var(--pmb-blue);font:inherit;font-size:13px;padding:8px 0}
