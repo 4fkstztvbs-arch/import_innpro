@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-22 09:01 UTC.
+Kontrola z 2026-10-22 11:40 UTC.
 
-InnPro pri **362** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **363** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -128,6 +128,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
 | `062226` | Etykiety Termiczne Niimbot naklejki T 15x30mm 195 sztuk (bie | — | 5 |
 | `062227` | Niimbot termálne nálepky 12x30 mm, 195 ks (biele) | — | 5 |
+| `062330` | Štítky do termotlačiarne Niimbot 15x50 mm, 130 ks | — | 5 |
 | `062437` | Niimbot termálne nálepky 50x80 mm, 95 ks (biele) | — | 5 |
 | `055643` | Vodotesný snímač teploty Sonoff WTS01, RJ9 4P4C (THR316/320) | — | 5 |
 | `060927` | Main brush for MOVA M1 | — | 5 |
