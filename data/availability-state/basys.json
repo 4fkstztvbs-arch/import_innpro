@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 971,
+  "activeItemCount": 968,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -173,11 +173,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-B 841154-0310",
-      "code": "BASYS-B 841154-0310",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-B 841165-0120",
       "code": "BASYS-B 841165-0120",
       "ean": ""
@@ -303,6 +298,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B112D2",
+      "code": "BASYS-B112D2",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-BD 1000302",
       "code": "BASYS-BD 1000302",
       "ean": ""
@@ -380,11 +380,6 @@
     {
       "key": "code:BASYS-BD 714399",
       "code": "BASYS-BD 714399",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-BD 717657",
-      "code": "BASYS-BD 717657",
       "ean": ""
     },
     {
@@ -1183,11 +1178,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-TS-R1750S",
-      "code": "BASYS-TS-R1750S",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-TS-R6951S",
       "code": "BASYS-TS-R6951S",
       "ean": ""
@@ -1245,6 +1235,11 @@
     {
       "key": "code:BASYS-TS-X150",
       "code": "BASYS-TS-X150",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-ULM302MIC",
+      "code": "BASYS-ULM302MIC",
       "ean": ""
     },
     {
@@ -2888,11 +2883,6 @@
       "ean": "4010118004179"
     },
     {
-      "key": "ean:4010118004193",
-      "code": "BASYS-BD 1000893",
-      "ean": "4010118004193"
-    },
-    {
       "key": "ean:4010118004209",
       "code": "BASYS-BD 1000886",
       "ean": "4010118004209"
@@ -3661,11 +3651,6 @@
       "key": "ean:4033653041218",
       "code": "BASYS-BASS BRASSMASTER FUZZ",
       "ean": "4033653041218"
-    },
-    {
-      "key": "ean:4033653050227",
-      "code": "BASYS-GI100",
-      "ean": "4033653050227"
     },
     {
       "key": "ean:4033653051156",
@@ -4865,6 +4850,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B 841154-0310",
+      "code": "BASYS-B 841154-0310",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-B 841154-0320",
       "code": "BASYS-B 841154-0320",
       "ean": ""
@@ -4897,6 +4887,11 @@
     {
       "key": "code:BASYS-BD 1000310",
       "code": "BASYS-BD 1000310",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-BD 717657",
+      "code": "BASYS-BD 717657",
       "ean": ""
     },
     {
@@ -4945,6 +4940,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-TS-R1750S",
+      "code": "BASYS-TS-R1750S",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-TS-W3820PRO",
       "code": "BASYS-TS-W3820PRO",
       "ean": ""
@@ -4957,11 +4957,6 @@
     {
       "key": "code:BASYS-TS-X40SXT",
       "code": "BASYS-TS-X40SXT",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-ULM302MIC",
-      "code": "BASYS-ULM302MIC",
       "ean": ""
     },
     {
@@ -5000,6 +4995,11 @@
       "ean": "17817846929"
     },
     {
+      "key": "ean:4010118004193",
+      "code": "BASYS-BD 1000893",
+      "ean": "4010118004193"
+    },
+    {
       "key": "ean:4010118445316",
       "code": "BASYS-BD 445312",
       "ean": "4010118445316"
@@ -5013,6 +5013,11 @@
       "key": "ean:4033653024341",
       "code": "BASYS-TC 000-CQS01",
       "ean": "4033653024341"
+    },
+    {
+      "key": "ean:4033653050227",
+      "code": "BASYS-GI100",
+      "ean": "4033653050227"
     },
     {
       "key": "ean:4033653055673",
