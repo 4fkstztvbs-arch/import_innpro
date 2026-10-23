@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600631,
+    "nextCardNumber": 202600638,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3782,6 +3782,48 @@
         "nazov": "Aligator Watch GPS Black",
         "dodavatel": "kb",
         "code": "100002137071"
+      },
+      "6924922217879": {
+        "kod": "202600631",
+        "nazov": "CEILING LIGHT",
+        "dodavatel": "innpro",
+        "code": "056767"
+      },
+      "6923520249756": {
+        "kod": "202600632",
+        "nazov": "Edifier X5 Pro V25 TWS",
+        "dodavatel": "innpro",
+        "code": "078283"
+      },
+      "6972436986811": {
+        "kod": "202600633",
+        "nazov": "Colmi R12 Smartring Black",
+        "dodavatel": "innpro",
+        "code": "079619"
+      },
+      "6971131385042": {
+        "kod": "202600634",
+        "nazov": "Remote KVM GL.iNet",
+        "dodavatel": "innpro",
+        "code": "090445"
+      },
+      "6952344209684": {
+        "kod": "202600635",
+        "nazov": "Flash Trigger GODOX",
+        "dodavatel": "innpro",
+        "code": "090974"
+      },
+      "6977905743131": {
+        "kod": "202600636",
+        "nazov": "Creality Space Pi Plus V2",
+        "dodavatel": "innpro",
+        "code": "092695"
+      },
+      "6928819515871": {
+        "kod": "202600637",
+        "nazov": "Smart World add-on for",
+        "dodavatel": "innpro",
+        "code": "089460"
       }
     }
   },
