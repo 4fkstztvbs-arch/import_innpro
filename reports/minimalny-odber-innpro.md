@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-22 21:49 UTC.
+Kontrola z 2026-10-23 08:55 UTC.
 
 InnPro pri **405** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -246,6 +246,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079457` | Diaľkové ovládanie TELESIN | — | 5 |
 | `080027` | PULUZ PU4141B Video lampa čierna | — | 5 |
 | `080532` | Niimbot T50*70-110 tepelné nálepky (biele) | — | 5 |
+| `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 5 |
 | `080658` | Tvrdené sklo puluz DJI Osmo 360 (číre) | — | 5 |
 | `080661` | PULUZ DJI Osmo 360 silikónový stojan (čierny) | — | 5 |
 | `080663` | Silikónový kryt s objektívom PULUZ DJI Osmo 360 (sivý) | — | 5 |
@@ -288,7 +289,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083027` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (či | — | 5 |
 | `083028` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (or | — | 5 |
 | `083029` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (si | — | 5 |
-| `057987` | Magnetický organizér káblov Joyroom JR-ZS368, 3 kusy (čierny | — | 5 |
 | `083367` | Taška Sunnylife pre Action 6 (oranžová) | — | 5 |
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
