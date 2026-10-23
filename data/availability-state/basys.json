@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 968,
+  "activeItemCount": 971,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -430,6 +430,11 @@
     {
       "key": "code:BASYS-COBALT",
       "code": "BASYS-COBALT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-CT100",
+      "code": "BASYS-CT100",
       "ean": ""
     },
     {
@@ -943,6 +948,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-TC 000-DC800",
+      "code": "BASYS-TC 000-DC800",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-TS-1002I",
       "code": "BASYS-TS-1002I",
       "ean": ""
@@ -1238,8 +1248,8 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-ULM302MIC",
-      "code": "BASYS-ULM302MIC",
+      "key": "code:BASYS-VQ1800D",
+      "code": "BASYS-VQ1800D",
       "ean": ""
     },
     {
@@ -4418,6 +4428,11 @@
       "ean": "4033653230766"
     },
     {
+      "key": "ean:4033653230858",
+      "code": "BASYS-B105D",
+      "ean": "4033653230858"
+    },
+    {
       "key": "ean:4033653231244",
       "code": "BASYS-PK110A",
       "ean": "4033653231244"
@@ -4875,11 +4890,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-B105D",
-      "code": "BASYS-B105D",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-BA 85A",
       "code": "BASYS-BA 85A",
       "ean": ""
@@ -4897,11 +4907,6 @@
     {
       "key": "code:BASYS-CD-R33",
       "code": "BASYS-CD-R33",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-CT100",
-      "code": "BASYS-CT100",
       "ean": ""
     },
     {
@@ -4957,6 +4962,11 @@
     {
       "key": "code:BASYS-TS-X40SXT",
       "code": "BASYS-TS-X40SXT",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-ULM302MIC",
+      "code": "BASYS-ULM302MIC",
       "ean": ""
     },
     {
