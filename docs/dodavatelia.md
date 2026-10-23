@@ -1,0 +1,135 @@
+# Dodávatelia – nastavenie a špecifiká
+
+# ATOS → Shoptet automatický import
+
+## Bose — cenník BaSys (15. 10. 2026)
+
+Nový cenník + katalóg Bose, ručný importný súbor a úprava BASYS feedu (Bose mimo cenníka vždy „Na objednávku", ceny/EAN/hmotnosť/obsah zdieľané medzi importom a feedom) — postup a rozhodnutia v `imports/bose-cennik-2026-10-15/POSTUP.md`.
+
+---
+
+## WiiM — cenník (PDF) + obrázky/popisy z audio.sk
+
+WiiM (distribútor Perfect Sound Group) posiela len ručne rozposielaný PDF cenník (`data/wiim-pricelist.pdf`), bez obrázkov, bez skladovej dostupnosti — `scripts/transform-wiim.js` z neho postaví `output/wiim.xml` (29 produktov, kategórie namapované do existujúceho stromu cez `scripts/wiim-mapping.json`, dostupnosť napevno "Na objednávku"). Keďže nejde o live feed, spúšťa sa ručne (`workflow_dispatch`), nie na crone — po novej verzii PDF stačí nahradiť súbor a znova spustiť skript.
+
+**Obrázky a popisy (2026-08-10):** doplnené pre 16 z 29 produktov (tie, čo audio.sk skutočne predáva) ručným zoškrabaním z ich produktových stránok (`scripts/enrich-wiim-audiosk.js` + `data/wiim-audiosk-enrichment.json`) — vedomé rozhodnutie napriek tomu, že **audio.sk je priamy konkurenčný e-shop**, nie výrobca/distribútor, takže ide o použitie cudzieho (možno chráneného) obsahu. Obrázky sa neťahajú priamo — prechádzajú cez vlastný Cloudflare Worker (`cloudflare-worker-wiim-audiosk/`, rovnaký princíp ako ATOS/Solight proxy, len s explicitným whitelistom presných ciest namiesto vzoru podľa mena súboru, keďže `cdn.myshoptet.com` je zdieľaná infraštruktúra naprieč všetkými Shoptet shopmi). `WIIM_AUDIOSK_PROXY_BASE` treba nastaviť na URL nasadeného Workera pred spustením `enrich-wiim-audiosk.js`, inak skript len upozorní a linkuje rovno na audio.sk.
+
+Zvyšných 13 produktov (príslušenstvo, Vibelink, Sound Lite Twin Pack, pár farebných variant) audio.sk nepredáva — tie ostávajú bez obrázkov a s pôvodným (českým) popisom z cenníka.
+
+---
+
+Odporúčam toto do **toho istého repozitára**, čo už máš pre InnPro (`import_innpro`) — ušetríš si opakovanie nastavenia GitHub Pages. Package.json závislosti (`sax`, `fast-xml-parser`) sú rovnaké, netreba nič duplicitne inštalovať.
+
+## Čo pridať do existujúceho repozitára
+
+Skopíruj tieto súbory do svojho repozitára (zachovaj presne túto štruktúru):
+
+```
+scripts/stream-records.js       (nový)
+scripts/parse-atos.js           (nový)
+scripts/transform-atos.js       (nový)
+scripts/atos-mapping.json       (nový)
+.github/workflows/atos-sync.yml (nový)
+```
+
+**Nemusíš meniť** `package.json` ani `scripts/transform-innpro.js` a ostatné InnPro súbory — ATOS beží úplne nezávisle, len pridáva ďalšie súbory vedľa existujúcich.
+
+## Nastavenie (urob raz)
+
+### 1. Nahraj vyššie uvedené súbory
+Rovnako ako predtým — cez "Add file → Create new file" (nie drag-and-drop upload, kvôli skrytému `.github` priečinku — presne to nás minule zaseklo).
+
+### 2. Pridaj tri nové Secrets
+**Settings → Secrets and variables → Actions → New repository secret**
+
+- `ATOS_URL` = `https://shop.atoselektro.cz/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet_El`
+- `ATOS_USERNAME` = value stored only as the GitHub Actions repository secret.
+- `ATOS_PASSWORD` = value stored only as the GitHub Actions repository secret.
+
+(Over si názvy **znak po znaku** — presne toto nám minule spôsobilo problém pri InnPro. Pozor aj na `resultType` v `ATOS_URL`: holé `StoItemShoptet` bez prípony neexistuje — server naň vráti `HTTP 500: Unknown resultType`. Platný je len `StoItemShoptet_El`, a aj ten je dostupný len v noci, cez deň vráti `HTTP 500: Unsupported Hour`.)
+
+### Denná dostupnosť
+
+Workflow `ATOS daytime availability` načítava export `StoItemQtyFree_El` o 09:50, 11:50 a 16:50 (Europe/Bratislava), vždy 15 minút pred nastavenými importmi Shoptetu o 10:05, 12:05 a 17:05. Pri zmene upraví v `output/atos.xml` iba `AVAILABILITY` a `VISIBILITY`; cenu a obsah produktu ponecháva nočnému kompletnému feedu. Pri vypredaní nastaví dostupnosť `Vypredané` a viditeľnosť `detailOnly`, pri naskladnení obnoví pôvodnú viditeľnosť, ak ju zmenil tento workflow.
+
+V Shoptete musí byť pre rovnakú URL feedu nastavený aktualizačný import iba pre existujúce produkty, ktorý aktualizuje dostupnosť a viditeľnosť. Frekvencia závisí od tarify a počet denných aktualizácií sa zdieľa medzi všetky automatické importy.
+
+### 3. Over funkčnosť
+- **Actions** → v ľavom menu teraz uvidíš aj **"ATOS sync"** (popri "InnPro sync")
+- Klikni naň → **Run workflow**
+- Počkaj 1-3 minúty, sleduj zelenú fajočku
+- V repozitári by sa mal objaviť/aktualizovať `output/atos.xml`
+
+### 4. Nastav v Shoptete automatický import
+Rovnaká GitHub Pages adresa ako pri InnPro, len iný súbor na konci:
+```
+https://tvoje-meno.github.io/nazov-repozitara/output/atos.xml
+```
+
+## Dôležité — obrázky
+
+**História:** ATOS-ov vlastný feed (`StoItemShoptet_El`) posiela obrázky ako `img.asp?attid=...` — dynamický skript, ktorý Shoptetov automatický import spoľahlivo neustál (potvrdené priamo v Shoptet import logu: `Status code '403'` aj `Host connection timeout` pre `shop.atoselektro.cz`, opakovane 6.8. aj 8.8.2026). Skúšali sme nahradiť Icecat obrázkami (`enrich-shoptet-icecat.js`, `REPLACE_IMAGES=1`), no `data/icecat-atos-full.csv` je z bezplatného "Open Icecat" účtu, ktorý vráti reálne dáta len pre malý zlomok produktov (14 z 1101 vyžiadaných EAN) — takže to prakticky nič neriešilo.
+
+**Stav (2026-08-08): statické CDN URL namiesto `img.asp`.** ATOS-ov verejný e-shop (`shop.atoselektro.cz`) servíruje obrázky produktov cez `img0`–`img3.atoselektro.cz` — štyri vzájomne zameniteľné statické CDN zrkadlá, úplne mimo `img.asp`. Cesta k obrázku sa dá zostaviť priamo z dát, bez nutnosti sťahovať jednotlivé produktové stránky:
+
+- `https://img0.atoselektro.cz/x_ien<StoItem.Id>.jpg` — hlavný obrázok produktu (v kvalite "enlargement", nie zmenšenina)
+- `https://img0.atoselektro.cz/x_ies<ImgGal.Id>.jpg` — každá ďalšia galériová fotka (len záznamy s `Tag=sys-gal-enl`, thumbnail varianty sa preskakujú)
+
+(SEO časť v ceste pred `_ien.../ _ies...` je kozmetická — server smeruje výhradne podľa koncového ID, overené priamo na živých URL.)
+
+`scripts/fetch-atos-images.js` stiahne tieto `Id`/`ImgGal` dáta z `resultType=StoItemBase_El` (dostupné len v noci, rovnaké okno ako `StoItemShoptet_El`) a uloží mapu `kód produktu → zoznam CDN URL` do `data/atos-image-urls.json`. `transform-atos.js` ju použije namiesto pôvodných `img.asp` URL — pre produkty bez záznamu v mape (skript ešte nebežal, alebo produkt v `StoItemBase_El` chýba) ostáva pôvodné ATOS URL ako fallback. Icecat enrichment (`REPLACE_IMAGES=0`) beží ďalej len pre váhu/špecifikácie, obrázky už nemení.
+
+**Stav (2026-08-09): zistené, že aj `img0`–`img3.atoselektro.cz` je pre Shoptet blokovaný.** Shoptet import log ukázal `Status code '403'` aj `Host connection timeout` opakovane aj na nových CDN URL — teda nie je zablokovaný konkrétny endpoint (`img.asp`), ale **Shoptetova odchádzajúca IP adresa má blokovaný/rate-limitovaný celý `atoselektro.cz`** (potvrdené aj nepriamo: na starej platforme SHOPTEC ten istý ATOS feed funguje bez problémov — teda problém je špecificky na strane Shoptetovej IP, nie u ATOS-u všeobecne).
+
+### Riešenie: Cloudflare Worker ako caching proxy (`cloudflare-worker/`)
+
+Namiesto priameho sťahovania z `atoselektro.cz` bude Shoptet sťahovať obrázky z vlastnej domény (Cloudflare Worker), ktorá funguje ako medzičlánok — stiahne obrázok z ATOS-u (z Cloudflare edge IP, nie z blokovanej Shoptetovej) a servíruje ho ďalej s 30-dňovou cache. Kód: `cloudflare-worker/worker.js`, nasadzuje sa automaticky cez `.github/workflows/deploy-atos-image-proxy.yml` pri každej zmene v `cloudflare-worker/`.
+
+**Stav (2026-08-09): Worker nasadený, funkčný a otestovaný naostro v Shoptete.** Beží na `https://atos-image-proxy.dt7vy7byn2.workers.dev`. GitHub Secrets (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ATOS_IMAGE_PROXY_BASE`) sú doplnené a overené — `.github/workflows/deploy-atos-image-proxy.yml` nasadzuje Worker automaticky pri zmene kódu, `atos-sync.yml` automaticky generuje obrázkové URL cez proxy pri každom nočnom behu.
+
+## Solight — obrázky cez rovnaký princíp (Cloudflare Worker)
+
+Podobný problém ako pri ATOS-e, iná príčina: keď sa celý Solight katalóg vytvorí odznova naraz (napr. po zmazaní všetkých produktov), Shoptet musí stiahnuť veľa obrázkov v krátkom čase a `solight.sk` odpovie `Status code '429'` (rate limit), potvrdené priamo v Shoptet import logu. Riešenie je rovnaký princíp ako pri ATOS-e — Cloudflare Worker ako caching proxy (`cloudflare-worker-solight/`), ktorý žiada obrázky z Cloudflare siete namiesto Shoptetovej jedinej IP a cachuje ich na 30 dní (opakované importy sa už vôbec nepýtajú `solight.sk`).
+
+**Stav (2026-08-09): Worker nasadený a funkčný**, beží na `https://solight-image-proxy.dt7vy7byn2.workers.dev` (rovnaký Cloudflare účet ako ATOS, netreba nič nové zakladať). Doplň ešte jeden GitHub Secret:
+
+| Secret | Hodnota |
+|---|---|
+| `SOLIGHT_IMAGE_PROXY_BASE` | `https://solight-image-proxy.dt7vy7byn2.workers.dev` |
+
+Bez tohto secretu `transform-solight.js` funguje ako doteraz (priame URL zo `solight.sk`) — nič sa nepokazí, kým ho nepridáš.
+
+Kým `ATOS_IMAGE_PROXY_BASE` nie je nastavený, `fetch-atos-images.js` sa správa presne ako doteraz (priame CDN URL) — nič sa nepokazí, kým sa to nedokončí.
+
+## ATOS — filter podľa kompatibilného modelu (diaľkové ovládače)
+
+ATOS píše zoznam kompatibilných zariadení (TV, DVB-T/satelitné prijímače, Blu-ray prehrávače) len ako text v popise produktu ("Ovladač je kompatibilní s těmito modely televizorů: MODEL1, MODEL2, ..."), nie ako skutočný parameter feedu. `scripts/extract-compatible-models.js` tieto zoznamy z popisu vyparsuje a `transform-atos.js` ich pridá ako **`<INFORMATION_PARAMETERS>`** — Shoptetom natívne podporovaný element pre viachodnotový parameter (jeden `<NAME>` + viac `<VALUE>` v jednom bloku, presne na tento účel, potvrdené priamo v oficiálnej RELAX NG schéme `products-supplier-v10.rng` aj testom cez `xmllint`). Vznikne napr. parameter **"Kompatibilný model TV"** s hodnotou pre každý model (LT24VH42, LT24VH52, ...). Rovnako aj pre prijímače (DVB-T, DVB-T2, satelitné) a Blu-ray prehrávače.
+
+**Aby sa to prejavilo ako filter v kategórii "Diaľkové ovládače" (ako na `/televizne-ovladace/`), treba v Shoptet administrácii:**
+1. **Nastavenia → Produkty → Parametrické filtre** — nájdi parameter **"Kompatibilný model TV"** (vznikne automaticky po prvom importe s touto zmenou)
+2. Vytvor z neho filter (vyber parameter v roletovom menu)
+3. Priraď ho ku kategórii (kategóriám) s diaľkovými ovládačmi — ak má kategória podkategórie (napr. podľa značky), zaškrtni aj tie, kde má byť filter viditeľný
+
+Momentálne pokrýva **254 produktov / 1136 unikátnych TV modelov** (plus prijímače/Blu-ray). Pri satelitných prijímačoch je občas v zdrojovom texte značka uvedená len raz pred viacerými číslami modelov oddelenými čiarkou (napr. "AB Cryptobox 600, 650, 652 HD") — rozdelí sa to na 3 samostatné hodnoty, z ktorých druhá a tretia stratia predponu značky. Pri TV zozname (hlavný prípad) sa tento problém nevyskytuje — každý kód je samostatný a jednoznačný.
+
+## Penta — priama odporúčaná cena (bez vlastnej prirážky)
+
+Penta CZ/SK beží na tej istej i6ws webservice platforme ako ATOS (Cybersoft I6, HTTP Basic Auth, `StoItemShoptet_El` export) — `scripts/parse-penta.js`/`transform-penta.js` sú postavené na rovnakom princípe (`scripts/stream-records.js`, sax streaming). Rozdiely oproti ATOS-u:
+
+- **Cena:** žiadny prepočet kurzu ani vlastná prirážka — priamo sa použije Pentina vlastná `PRICE_VAT` (odporúčaná maloobchodná cena s DPH v EUR, overené 2026-08-24 že sa zhoduje s `SipPriceSTORETotVatEUR` z `X-SipPriceSTORECurAll`). Penta o to výslovne žiada (email Michal Blatný, IT manager, kvôli cenovej disciplíne najmä pri G21 produktoch). Cena len prejde `roundPrice()` kvôli konzistentnému koncovku (.00/.50/.90). Celý katalóg po prvom importe prejdeme cez bežný Heureka cenový report (`process-heureka-report.js`) a prípadne doladíme — rovnaký cyklus ako pri ostatných dodávateľoch.
+- **Obrázky:** Pentine `img.asp?attid=...` URL sú verejne dostupné bez autentifikácie (overené) — na rozdiel od ATOS-u netreba Cloudflare Worker proxy.
+- **Kategórie:** Penta posiela vlastný `<DEFAULT_CATEGORY>` a viacero stromov v `<CATEGORIES>` naraz (`Koncový shop I6` — zákaznícka navigácia, `Dle výrobce` — podľa výrobcu, `Koncovy shop reklamni SK` — marketingové akcie). Používa sa len strom `Koncový shop I6`, mapovanie/výnimky sú v `scripts/penta-mapping.json` (zatiaľ prázdne — dopĺňať podľa potreby, keď sa objavia kategórie vyžadujúce úpravu).
+- **Časové okno:** `GetResult` pre `StoItemShoptet_El` (celý katalóg) je dostupný len 21:00-08:00 SEČ/SELČ — `.github/workflows/penta-sync.yml` beží o 22:20 UTC.
+- **Sklad:** importujú sa len produkty s `AVAILABILITY=skladem` u Penty — všetko ostatné (na objednávku, vypredané) sa preskočí (na rozdiel od ATOS-u, kde sa "Na objednávku" importuje tiež).
+- **Manuály:** Shoptetov natívny XML import nemá tag na prílohy/dokumenty (súvisiace súbory sú platený doplnok) — odkaz na Pentin manuál (`RELATED_FILES`) sa preto pridáva ako obyčajný PDF link na koniec popisu produktu.
+- **Secrets:** `PENTA_URL` (`https://dealer.pentask.sk/i6ws/Default.asmx/GetResult?resultType=StoItemShoptet_El`), `PENTA_USERNAME`, `PENTA_PASSWORD`.
+
+## Čo sa importuje
+
+Rovnaká logika ako v prehliadačovom nástroji:
+- Ceny prepočítané z CZK na EUR podľa aktuálneho kurzu (ECB, cez frankfurter.app), + prirážka (15 %, dá sa zmeniť v `env:` sekcii workflow súboru) + DPH (23 %, slovenská sadzba)
+- Nákupná cena označená príznakom "bez DPH" (`PURCHASE_PRICE_INCL_VAT=0`)
+- Kategórie podľa schváleného mapovania (`scripts/atos-mapping.json`) — Druhy-stromu, so zaradením do všetkých nadradených úrovní
+- Skutočné príznaky Akcia/Novinka/Tip priamo z feedu
+- Recyklačný poplatok (kde je vo feede uvedený)
+- Alternatívne produkty

@@ -1,7 +1,7 @@
 {
-  "name": "monacor-shoptet-sync",
+  "name": "import_innpro",
   "version": "1.0.0",
-  "description": "Automaticky import MONACOR feedu do Shoptet-kompatibilneho XML",
+  "description": "Importy dodávateľov (InnPro, ATOS, K+B, Solight, MONACOR, BASYS, Penta, WiiM) do Shoptetu a súvisiace nástroje",
   "main": "scripts/transform-monacor.js",
   "scripts": {
     "sync": "node scripts/transform-monacor.js",
