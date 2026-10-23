@@ -10421,7 +10421,7 @@
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>26.90</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>227.50</PRICE_VAT>
+<PRICE_VAT>233.50</PRICE_VAT>
 <PURCHASE_PRICE>172.28</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -25064,7 +25064,7 @@
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>171.00</PRICE_VAT>
+<PRICE_VAT>173.50</PRICE_VAT>
 <PURCHASE_PRICE>127.99</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -26126,6 +26126,7 @@
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
@@ -40348,7 +40349,7 @@
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>6.03</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>295.90</PRICE_VAT>
+<PRICE_VAT>309.90</PRICE_VAT>
 <PURCHASE_PRICE>228.85</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -41862,7 +41863,7 @@
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>2.11</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>117.50</PRICE_VAT>
+<PRICE_VAT>122.90</PRICE_VAT>
 <PURCHASE_PRICE>90.68</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -46713,7 +46714,7 @@
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>101.50</PRICE_VAT>
+<PRICE_VAT>100.90</PRICE_VAT>
 <PURCHASE_PRICE>74.51</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -53256,7 +53257,7 @@
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>262.00</PRICE_VAT>
+<PRICE_VAT>268.50</PRICE_VAT>
 <PURCHASE_PRICE>198.43</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -58982,7 +58983,6 @@
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>194.00</PRICE_VAT>
 <PURCHASE_PRICE>143.36</PURCHASE_PRICE>
@@ -72103,7 +72103,6 @@
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <PRICE_VAT>78.50</PRICE_VAT>
 <PURCHASE_PRICE>57.67</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -94731,7 +94730,7 @@
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>46.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>248.00</PRICE_VAT>
+<PRICE_VAT>255.50</PRICE_VAT>
 <PURCHASE_PRICE>188.54</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -102161,7 +102160,6 @@
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY>
 </CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="FIXED 2 skla SG A57 5G FIXGFADA-1703-BK">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Fixed/100002201899-202.jpg</IMAGE>
 </IMAGES>
@@ -116506,7 +116504,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>35.00</PRICE_VAT>
+<PRICE_VAT>35.50</PRICE_VAT>
 <PURCHASE_PRICE>26.16</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -123872,14 +123870,14 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[ETA 170890000]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[5 režimů čištění, Otočné čistící trysky o 360°, Ultrajemný vodní paprsek 0,6 mm, Provozní tlak 0,68 - 6,89 bar, Časovač 2,5 minuty, Doba provozu 60 minut, 3,7V Li-ion akumulátor, Nádržka o objemu 500 ml, IPX7, Univerzální napětí (100 - 240V), USB nabíjení]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[5 režimů čištění, Otočné čistící trysky o 360°, Ultrajemný vodní paprsek 0,6 mm, Provozní tlak 0,68 - 6,89 bar, Časovač 2,5 minuty, Doba provozu 60 minut, 3,7V Li-ion akumulátor, Nádržka o objemu 500 ml, IPX7, Univerzální napětí (100 - 240V), USB nabíjení
-<p>Ďalšie produkty nájdete v kategórii <a href="/starostlivost-o-zuby-ustne-sprchy/">Ústne sprchy</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/starostlivost-o-zuby/">Starostlivosť o zuby</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[ETA]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100000969020</CODE>
 <EAN>8590393320844</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy]]></CATEGORY><CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY><CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby]]></CATEGORY><CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY><CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="ETA 170890000">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Eta/100000969020-202.jpg</IMAGE>
@@ -144643,7 +144641,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>79.50</PRICE_VAT>
+<PRICE_VAT>83.00</PRICE_VAT>
 <PURCHASE_PRICE>61.29</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -147699,7 +147697,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>16.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>282.00</PRICE_VAT>
+<PRICE_VAT>290.50</PRICE_VAT>
 <PURCHASE_PRICE>214.61</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -150014,7 +150012,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>248.90</PRICE_VAT>
+<PRICE_VAT>248.50</PRICE_VAT>
 <PURCHASE_PRICE>183.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -168849,7 +168847,6 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>8.20</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <PRICE_VAT>197.50</PRICE_VAT>
 <PURCHASE_PRICE>152.91</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -182463,7 +182460,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>60.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>424.50</PRICE_VAT>
+<PRICE_VAT>438.90</PRICE_VAT>
 <PURCHASE_PRICE>324.39</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -186974,7 +186971,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>393.00</PRICE_VAT>
+<PRICE_VAT>404.50</PRICE_VAT>
 <PURCHASE_PRICE>298.90</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -194753,7 +194750,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>54.30</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>318.00</PRICE_VAT>
+<PRICE_VAT>307.90</PRICE_VAT>
 <PURCHASE_PRICE>227.31</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -216573,8 +216570,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>28.50</PRICE_VAT>
+<PRICE_VAT>29.90</PRICE_VAT>
 <PURCHASE_PRICE>21.92</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -241860,7 +241856,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>54.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>319.50</PRICE_VAT>
+<PRICE_VAT>328.90</PRICE_VAT>
 <PURCHASE_PRICE>242.88</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -245631,7 +245627,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>49.60</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>530.00</PRICE_VAT>
+<PRICE_VAT>550.50</PRICE_VAT>
 <PURCHASE_PRICE>406.74</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -252474,7 +252470,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>57.60</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>353.50</PRICE_VAT>
+<PRICE_VAT>363.90</PRICE_VAT>
 <PURCHASE_PRICE>268.79</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -255292,6 +255288,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
@@ -257047,8 +257044,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>312.00</PRICE_VAT>
+<PRICE_VAT>326.90</PRICE_VAT>
 <PURCHASE_PRICE>241.55</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -266488,7 +266484,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>130.00</PRICE_VAT>
+<PRICE_VAT>126.50</PRICE_VAT>
 <PURCHASE_PRICE>93.13</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -284698,7 +284694,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>169.00</PRICE_VAT>
+<PRICE_VAT>174.50</PRICE_VAT>
 <PURCHASE_PRICE>128.76</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -288950,7 +288946,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>385.50</PRICE_VAT>
+<PRICE_VAT>402.00</PRICE_VAT>
 <PURCHASE_PRICE>297.07</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -292483,14 +292479,14 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[Marvo Volant GT-903 volant s pedály]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Volant s pedály a řadící pákou; 16 tlačítek; Plug and Play; připojení: kabelové USB; délka kabelu: 1,9m; velikost volantu cca 220x270x230mm; velikost pedálů cca 210x200x130mm; kompatibilní s: PC/PS3/PS4/XBOX ONE/XBOX 360/Android/NINTENDO SWITCH/Windows Vi]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Volant s pedály a řadící pákou; 16 tlačítek; Plug and Play; připojení: kabelové USB; délka kabelu: 1,9m; velikost volantu cca 220x270x230mm; velikost pedálů cca 210x200x130mm; kompatibilní s: PC/PS3/PS4/XBOX ONE/XBOX 360/Android/NINTENDO SWITCH/Windows Vista/7/8/8.1/10. *nutnost zapojení kabelem.
-<p>Ďalšie produkty nájdete v kategórii <a href="/herne-simulatory/">Herné simulátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/volanty-a-pretekarske-ovladace/">Volanty a pretekárske ovládače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Marvo]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100001519273</CODE>
 <EAN>8590274766150</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Marvo Volant GT-903 volant s pedály">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Marvo/100001519273-202.jpg</IMAGE>
 </IMAGES>
@@ -296777,7 +296773,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>68.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>477.00</PRICE_VAT>
+<PRICE_VAT>494.90</PRICE_VAT>
 <PURCHASE_PRICE>365.66</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -298228,7 +298224,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>10.60</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>55.00</PRICE_VAT>
+<PRICE_VAT>52.90</PRICE_VAT>
 <PURCHASE_PRICE>39.01</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -304667,7 +304663,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>168.90</PRICE_VAT>
+<PRICE_VAT>174.50</PRICE_VAT>
 <PURCHASE_PRICE>128.76</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -315493,14 +315489,18 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[LENOVO adaptér TAB 68W AC USB ZG38C05739]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Lenovo adaptér TAB 68W AC USB-C Wall-Mount , nabíječka USB-C pro všechny tablety kompatibilní s USB-C power deliverydélka kabelu:1,5m; hmotnost: 89,9g]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Lenovo adaptér TAB 68W AC USB-C Wall-Mount , nabíječka USB-C pro všechny tablety kompatibilní s USB-C power deliverydélka kabelu:1,5m; hmotnost: 89,9g
-<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky-pre-mobily/">Nabíjačky pre mobily</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/tablety-4/">Tablety</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lenovo]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002079522</CODE>
 <EAN>0197531544216</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="LENOVO adaptér TAB 68W AC USB ZG38C05739">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Lenovo/100002079522-202.jpg</IMAGE>
