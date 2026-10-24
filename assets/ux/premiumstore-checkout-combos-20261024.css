@@ -16,6 +16,13 @@ body.in-krok-1 #order-billing-methods .radio-wrapper.inactive-child.ps-combo-swi
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+/* Mobil: Shoptet drží zablokovaný riadok na pevnej výške, vysvetľujúci text by sa orezal. */
+body.in-krok-1 #order-billing-methods .radio-wrapper.inactive-child.ps-combo-switchable {
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
 /* Vysvetlenie po automatickej zmene dopravy. */
 body.in-krok-1 .ps-combo-note {
   margin: 0 0 10px;
