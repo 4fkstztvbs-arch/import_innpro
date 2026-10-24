@@ -4,8 +4,8 @@
   body.ps-rb.ordering-process .cart-wrapper { padding: 0 0 24px !important; }
 
   /* ---- Indikátor krokov: tenký tri-segmentový pruh + jedna veta ---- */
-  html body.ps-rb.ordering-process main#content ol.cart-header { max-width: none !important; margin: 0 !important; padding: 14px 16px 10px !important; gap: 6px !important; position: relative !important; flex-wrap: wrap !important; align-items: flex-start !important; justify-content: flex-start !important; background: #fff !important; }
-  html body.ps-rb.ordering-process main#content ol.cart-header::before { content: attr(data-ps-step); order: -1; flex: 0 0 100%; font-size: 13px; font-weight: 700; color: var(--ink); margin-bottom: 4px; }
+  html body.ps-rb.ordering-process main#content ol.cart-header { max-width: none !important; margin: 0 !important; padding: 14px 16px 10px !important; gap: 6px !important; position: relative !important; flex-wrap: nowrap !important; align-items: flex-start !important; justify-content: flex-start !important; background: #fff !important; }
+  body.ps-rb .ps-stepline { padding: 14px 16px 0; font-size: 13px; font-weight: 700; color: var(--ink); background: #fff; }
   html body.ps-rb.ordering-process main#content ol.cart-header > li.step { flex: 1 1 0 !important; height: 5px !important; min-height: 0 !important; border-radius: 3px !important; background: var(--line) !important; overflow: hidden !important; font-size: 0 !important; gap: 0 !important; }
   html body.ps-rb.ordering-process main#content ol.cart-header > li.step::before, html body.ps-rb.ordering-process main#content ol.cart-header > li.step::after { display: none !important; content: none !important; }
   html body.ps-rb.ordering-process main#content ol.cart-header > li.step > * { display: none !important; }
@@ -18,19 +18,21 @@
   html body.ps-rb.ordering-process .co-box > h2::before, html body.ps-rb.ordering-process .co-box h2.order-icon::before { display: none !important; content: none !important; }
 
   /* ---- Doprava a platba: jeden zoznam, rádio vľavo, cena vpravo ---- */
-  html body.ps-rb.ordering-process #order-form .radio-wrapper { margin: 0 !important; border: 0 !important; border-bottom: 1px solid var(--line) !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper:last-of-type { border-bottom: 0 !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper > label { padding: 14px 4px !important; min-height: 64px !important; border: 0 !important; background: transparent !important; border-radius: 0 !important; gap: 12px !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper > label::after { order: -1 !important; margin: 0 !important; flex: 0 0 22px !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper > label .payment-logo, html body.ps-rb.ordering-process #order-form .radio-wrapper > label .ps-ico { width: 44px !important; height: 34px !important; flex: 0 0 44px !important; border: 0 !important; background: transparent !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper > label .ps-ico { color: var(--g) !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper > label .shipping-billing-name { font-size: 15px !important; font-weight: 700 !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper > label .payment-shipping-price { font-size: 14px !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper > label .payment-shipping-price.ps-free { color: var(--g) !important; }
-  /* vybraná položka: jemné zelené podfarbenie a zelený pruh vľavo (žiadny rám okolo) */
-  html body.ps-rb.ordering-process #order-form .radio-wrapper.active, html body.ps-rb.ordering-process #order-form .radio-wrapper:has(input:checked) { background: var(--gs) !important; box-shadow: inset 4px 0 0 var(--g) !important; border-color: var(--gline) !important; margin: 0 -16px !important; padding: 0 12px !important; }
-  html body.ps-rb.ordering-process #order-form .radio-wrapper:has(input:checked) > label { border: 0 !important; background: transparent !important; }
-  html body.ps-rb.ordering-process #order-form .ps-more-btn { border: 0 !important; background: transparent !important; color: var(--g) !important; justify-content: flex-start !important; padding: 14px 4px !important; text-decoration: underline; text-underline-offset: 3px; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper { margin: 0 !important; border: 0 !important; border-bottom: 1px solid var(--line) !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > label { padding: 13px 2px !important; min-height: 60px !important; border: 0 !important; background: transparent !important; border-radius: 0 !important; box-shadow: none !important; gap: 12px !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { order: -1 !important; margin: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-logo, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .ps-ico { width: 44px !important; height: 34px !important; flex: 0 0 44px !important; border: 0 !important; background: transparent !important; padding: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-logo img { max-width: 44px !important; max-height: 30px !important; object-fit: contain; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .ps-ico { color: var(--g) !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .shipping-billing-name { font-size: 15px !important; font-weight: 700 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-shipping-price { font-size: 14px !important; white-space: nowrap; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-shipping-price.ps-free { color: var(--g) !important; }
+  /* odberné miesto: obyčajný zelený odkaz namiesto tlačidla */
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { border: 0 !important; background: transparent !important; padding: 2px 0 0 !important; font-size: 13px !important; font-weight: 700 !important; text-decoration: underline !important; text-underline-offset: 2px; border-radius: 0 !important; }
+  /* vybraná položka: zelené podfarbenie a pruh vľavo */
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper.active, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper:has(> input:checked) { background: var(--gs) !important; box-shadow: inset 4px 0 0 var(--g) !important; margin: 0 -16px !important; padding: 0 16px !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper.active > label, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > input:checked + label { background: transparent !important; box-shadow: none !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .ps-more-btn { border: 0 !important; background: transparent !important; color: var(--g) !important; justify-content: flex-start !important; padding: 14px 2px !important; text-decoration: underline; text-underline-offset: 3px; }
 
   /* ---- Súhrn: sivá plocha dole, veľké tlačidlo nahradí pevná lišta ---- */
   body.ps-rb.ordering-process .order-summary-inner, body.ps-rb.ordering-process #summary-box { box-shadow: none !important; border-radius: 0 !important; background: var(--bg) !important; border: 0 !important; margin: 8px 0 0 !important; padding: 18px 16px !important; }
@@ -48,6 +50,6 @@
   body.ps-rb .ps-bar-sum { display: flex; flex-direction: column; line-height: 1.15; min-width: 92px; }
   body.ps-rb .ps-bar-sum span { font-size: 12px; color: var(--mut); font-weight: 600; }
   body.ps-rb .ps-bar-sum strong { font-size: 19px; font-weight: 800; color: var(--ink); }
-  body.ps-rb .ps-bar-btn { flex: 1; height: 50px; border: 0; border-radius: 12px; background: var(--g); color: #fff; font-size: 16px; font-weight: 800; font-family: inherit; }
+  body.ps-rb .ps-bar-btn { flex: 1; white-space: nowrap; padding: 0 8px; height: 50px; border: 0; border-radius: 12px; background: var(--g); color: #fff; font-size: 16px; font-weight: 800; font-family: inherit; }
   body.ps-rb .ps-bar-btn:active { background: #0f5a3d; }
 }

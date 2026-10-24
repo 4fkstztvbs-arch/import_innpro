@@ -15,11 +15,14 @@
     var idx = steps.findIndex(function (x) { return x.classList.contains('active'); });
     if (idx < 0) return;
     var label = ($('span', steps[idx]) || {}).textContent || '';
-    h.setAttribute('data-ps-step', 'Krok ' + (idx + 1) + ' z 3 · ' + label.trim());
+    var line = $('.ps-stepline');
+    if (!line) { line = document.createElement('div'); line.className = 'ps-stepline'; h.parentNode.insertBefore(line, h); }
+    var txt = 'Krok ' + (idx + 1) + ' z 3 · ' + label.trim();
+    if (line.textContent !== txt) line.textContent = txt;
   }
 
   function total() {
-    var p = $('.order-summary-inner .price-wrapper .price-primary, #summary-box .price-primary');
+    var p = $('.order-summary-inner strong.price-primary, #summary-box strong.price-primary');
     return p ? p.textContent.replace(/\s+/g, ' ').trim() : '';
   }
 
