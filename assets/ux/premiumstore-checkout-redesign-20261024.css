@@ -528,7 +528,7 @@ html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-in
 @keyframes ps-rd-reveal { to { opacity: 1; } }
 body.ordering-process:not(.ps-rd) main#content { opacity: 0; animation: ps-rd-reveal 0s linear .6s forwards; }
 
-/* Texty hlavných tlačidiel cez CSS (JS ich neprepisuje, Shoptet ich vracal späť a tlačidlo blikalo) */
-html body.ps-rd.in-krok-1 #orderFormButton .order-button-text, html body.ps-rd.in-kosik #continue-order-button .order-button-text { font-size: 0 !important; line-height: 0 !important; }
-html body.ps-rd.in-krok-1 #orderFormButton .order-button-text::before { content: 'Pokračovať k údajom'; font-size: 16px; line-height: 20px; font-weight: 700; }
-html body.ps-rd.in-kosik #continue-order-button .order-button-text::before { content: 'Pokračovať k doprave a platbe'; font-size: 16px; line-height: 20px; font-weight: 700; }
+/* Texty hlavných tlačidiel cez CSS (JS ich neprepisuje, Shoptet ich vracal späť a tlačidlo blikalo). Pôvodný span sa skryje, text je v ::before tlačidla (::after je šípka). */
+html body.ps-rd.in-krok-1 #orderFormButton .order-button-text, html body.ps-rd.in-kosik #continue-order-button .order-button-text { display: none !important; }
+html body.ps-rd.in-krok-1 #orderFormButton::before { content: 'Pokračovať k údajom'; }
+html body.ps-rd.in-kosik #continue-order-button::before { content: 'Pokračovať k doprave a platbe'; }
