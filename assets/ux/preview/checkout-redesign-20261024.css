@@ -93,7 +93,8 @@ html body.ps-rd.ordering-process .shipping-billing-table .payment-logo img { max
 html body.ps-rd.ordering-process .shipping-billing-table .ps-ico { color: var(--g); background: var(--gs) !important; border-color: var(--gline); }
 html body.ps-rd.ordering-process .shipping-billing-table .ps-ico svg { width: 26px; height: 26px; }
 html body.ps-rd.ordering-process .shipping-billing-table .payment-info { order: 1; flex: 1 1 auto; min-width: 0; display: block !important; text-align: left !important; padding: 0 !important; margin: 0; }
-html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label, html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label * { text-align: left; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label, html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label * { text-align: left !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.ps-hidden-opt { display: none !important; }
 html body.ps-rd.ordering-process .shipping-billing-table .payment-shipping-price { text-align: right !important; }
 html body.ps-rd.ordering-process .shipping-billing-table .shipping-billing-name { font-size: 17px; font-weight: 700; color: var(--ink); line-height: 1.25; display: inline; }
 html body.ps-rd.ordering-process .shipping-billing-table .payment-info .question-tooltip { margin-left: 6px; }
@@ -134,8 +135,8 @@ html body.ps-rd.ordering-process .recapitulation-single { display: flex; flex-di
 html body.ps-rd.ordering-process .recapitulation-single .recapitulation-shipping-billing-label { color: var(--mut); font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
 html body.ps-rd.ordering-process .recapitulation-single .recapitulation-shipping-billing-info { display: flex; justify-content: space-between; gap: 12px; font-weight: 700; flex-direction: row-reverse; text-align: left; }
 html body.ps-rd.ordering-process .order-summary-item.price, html body.ps-rd.in-kosik .price-wrapper { border-bottom: 0; padding-top: 6px; background: none !important; }
-html body.ps-rd.ordering-process .order-summary-inner * { background-color: transparent; }
-html body.ps-rd.ordering-process .order-summary-inner .btn-conversion, html body.ps-rd.ordering-process .order-summary-inner #submit-order { background-color: var(--g) !important; }
+html body.ps-rd.ordering-process .order-summary-inner * { background-color: transparent !important; }
+html body.ps-rd.ordering-process .order-summary-inner .next-step .btn-conversion, html body.ps-rd.ordering-process .order-summary-inner #submit-order { background-color: var(--g) !important; }
 html body.ps-rd.ordering-process .order-summary-inner .order-summary-item.price { margin: 0; padding: 12px 0 0; border-top: 2px solid #edf2f4; }
 html body.ps-rd.ordering-process .price-wrapper { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: baseline; width: 100%; margin: 0; padding: 0; background: none; border: 0; }
 html body.ps-rd.ordering-process .price-wrapper .price-label.price-primary { font-size: 16px; font-weight: 700; color: var(--ink); }
