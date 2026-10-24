@@ -21,6 +21,8 @@ const SOURCES = [
   'premiumstore-search-assist-20261009.js',
   'premiumstore-search-20261009.js', 'premiumstore-search-bestseller-20261016.js', 'premiumstore-trust-20261009.js',
   'premiumstore-checkout-pickup-20261016.js',
+  'premiumstore-checkout-combos-20261024.js',
+  'premiumstore-checkout-redesign-20261024.js',
   'premiumstore-pdp-pilot-20261016.js',
   'premiumstore-pdp-avail-20261017.js',
   'premiumstore-menu-ab-20261022.js',
