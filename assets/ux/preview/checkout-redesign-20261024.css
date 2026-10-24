@@ -115,7 +115,7 @@ body.ps-rd.in-krok-1 .ps-combo-note { border-radius: 12px; margin: 0 0 14px; }
 body.ps-rd.in-krok-1 .co-box a.toggle-link, body.ps-rd.in-krok-1 .show-more-billing, body.ps-rd.in-krok-1 [class*="show-more"] { color: var(--g); font-weight: 600; }
 
 /* ---------- Súhrn (pravý panel) ---------- */
-html body.ps-rd.ordering-process .order-summary-inner, html body.ps-rd.in-kosik .summary .col-md-4 > .price-wrapper {
+html body.ps-rd.ordering-process .order-summary-inner {
   background: #fff; border-radius: 18px; box-shadow: var(--sh); padding: 24px 24px 22px; border: 0; margin: 0;
 }
 html body.ps-rd.ordering-process .checkout-box { display: none !important; }
