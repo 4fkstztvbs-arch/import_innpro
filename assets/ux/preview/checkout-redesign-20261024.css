@@ -321,3 +321,8 @@ html body.ps-rd.ordering-process .cart-wrapper { padding-left: 32px !important; 
 html body.ps-rd.ordering-process main#content > .content-inner { max-width: 1240px !important; margin: 0 auto !important; padding: 0 32px 48px !important; box-sizing: border-box !important; width: 100% !important; }
 html body.ps-rd.ordering-process .cart-wrapper { padding-left: 0 !important; padding-right: 0 !important; padding-bottom: 0 !important; max-width: none !important; }
 @media (max-width: 991px) { html body.ps-rd.ordering-process main#content > .content-inner { padding: 0 14px 120px !important; } }
+
+/* Všetky možnosti ostávajú viditeľné – žiadne „Vybrať iný druh dopravy/platby“ (zbytočný klik navyše) */
+html body.ps-rd.ordering-process #order-form .cart-toggle-unselected-options { display: none !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper:not(.ps-hidden-opt) { max-height: none !important; height: auto !important; overflow: visible !important; opacity: 1 !important; visibility: visible !important; transform: none !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper.ps-hidden-opt { max-height: 0 !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; }
