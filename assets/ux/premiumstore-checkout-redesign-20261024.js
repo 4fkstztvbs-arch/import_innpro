@@ -146,6 +146,8 @@
 
   function run() { stepText(); bar(); }
   run();
+  /* Shoptet prepíše sumu bez zmeny štruktúry, ktorú pozoruje MutationObserver – spodná lišta preto sumu pravidelne dopočíta. */
+  setInterval(bar, 400);
   var t = null;
   new MutationObserver(function () { clearTimeout(t); t = setTimeout(run, 120); })
     .observe(document.body, { childList: true, subtree: true });
