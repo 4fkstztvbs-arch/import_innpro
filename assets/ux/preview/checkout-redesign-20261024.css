@@ -363,3 +363,7 @@ html body.ps-rd.ordering-process #order-form .shipping-billing-table .sublabel a
   html body.ps-rd.ordering-process #order-form .shipping-billing-table .ps-ico svg { width: 22px !important; height: 22px !important; }
   html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info { min-width: 0 !important; }
 }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info { display: block !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info .sublabel { display: block !important; margin-top: 6px !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { display: inline-flex !important; width: auto !important; max-width: 100% !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info > span:not(.sublabel) { display: inline-block !important; }
