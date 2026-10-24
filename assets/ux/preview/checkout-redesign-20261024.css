@@ -284,3 +284,19 @@ html body.ps-rd.in-krok-2 #order-form .co-box input.form-control, html body.ps-r
 html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input, html body.ps-rd.in-krok-2 #order-form .co-box .form-control-wrapper { max-width: none !important; }
 html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input { width: 100% !important; box-sizing: border-box !important; }
 html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input input#phone { flex: 1 1 auto !important; min-width: 0 !important; width: auto !important; }
+
+/* ---------- Krok 2: doladenie ---------- */
+html body.ps-rd.ordering-process #summary-box .price-wrapper { grid-template-columns: minmax(0, 1fr) auto !important; }
+html body.ps-rd.ordering-process #summary-box .price-wrapper > * { width: auto !important; max-width: 100% !important; margin: 0 !important; padding: 0 !important; min-width: 0; }
+html body.ps-rd.ordering-process #summary-box .price-wrapper strong.price { text-align: right !important; white-space: nowrap; }
+html body.ps-rd.in-krok-2 #order-form .co-box h2, html body.ps-rd.in-krok-2 #order-form .co-box h2.header-billing { margin: 0 0 18px !important; padding: 0 !important; line-height: 1.25 !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box fieldset.box, html body.ps-rd.in-krok-2 #order-form .co-box .box { margin: 0 !important; padding: 0 !important; box-shadow: none !important; background: none !important; border: 0 !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group.company-shopping, html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(input[type=checkbox]) { display: flex !important; align-items: center !important; gap: 10px !important; margin: 0 0 12px !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] { position: static !important; opacity: 1 !important; appearance: auto !important; -webkit-appearance: checkbox !important; width: 22px !important; height: 22px !important; margin: 0 !important; flex: none; accent-color: var(--g); cursor: pointer; }
+html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] + label, html body.ps-rd.in-krok-2 #order-form .co-box label.whole-width { padding: 0 !important; margin: 0 !important; font-size: 15px !important; font-weight: 600 !important; cursor: pointer; flex: 1; min-height: 0; line-height: 1.35; }
+html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] + label::before, html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] + label::after,
+html body.ps-rd.in-krok-2 #order-form .co-box label.whole-width::before, html body.ps-rd.in-krok-2 #order-form .co-box label.whole-width::after { display: none !important; content: none !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input input#phone.form-control { border: 0 !important; box-shadow: none !important; outline: 0 !important; min-height: 49px !important; background: transparent !important; border-radius: 0 !important; }
+html body.ps-rd.in-krok-2 #submit-order { flex-direction: row !important; flex-wrap: wrap !important; gap: 0 6px !important; text-align: center !important; line-height: 1.25 !important; padding: 14px 18px !important; }
+html body.ps-rd.in-krok-2 #submit-order::after { content: none !important; display: none !important; }
+html body.ps-rd.in-krok-2 #submit-order .order-button-suffix, html body.ps-rd.in-krok-2 #submit-order .order-button-text { display: inline !important; }
