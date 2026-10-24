@@ -1,6 +1,6 @@
 {
   "minimum": 8,
-  "totalProducts": 29129,
+  "totalProducts": 29139,
   "matchedRules": 2101,
   "changedProducts": 976,
   "rejected": [
@@ -1356,10 +1356,10 @@
     },
     {
       "supplier": "kb",
-      "code": "100002136667",
+      "code": "100001714209",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "622356295284",
-      "feedEan": "0622356295284"
+      "approvedEan": "790069388286",
+      "feedEan": "0790069388286"
     },
     {
       "supplier": "kb",
@@ -1370,10 +1370,10 @@
     },
     {
       "supplier": "kb",
-      "code": "100001714209",
+      "code": "100001714210",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "790069388286",
-      "feedEan": "0790069388286"
+      "approvedEan": "790069365690",
+      "feedEan": "0790069365690"
     },
     {
       "supplier": "kb",
@@ -1384,17 +1384,17 @@
     },
     {
       "supplier": "kb",
-      "code": "100001714210",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069365690",
-      "feedEan": "0790069365690"
-    },
-    {
-      "supplier": "kb",
       "code": "100001952210",
       "reason": "Reviewed EAN changed",
       "approvedEan": "790069469305",
       "feedEan": "0790069469305"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136667",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "622356295284",
+      "feedEan": "0622356295284"
     },
     {
       "supplier": "kb",
@@ -1412,17 +1412,17 @@
     },
     {
       "supplier": "kb",
-      "code": "100001714207",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069461187",
-      "feedEan": "0790069461187"
-    },
-    {
-      "supplier": "kb",
       "code": "100002102122",
       "reason": "Reviewed EAN changed",
       "approvedEan": "761318529217",
       "feedEan": "0761318529217"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001714207",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "790069461187",
+      "feedEan": "0790069461187"
     },
     {
       "supplier": "kb",
@@ -1440,6 +1440,13 @@
     },
     {
       "supplier": "kb",
+      "code": "100002172298",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "622356273145",
+      "feedEan": "0622356273145"
+    },
+    {
+      "supplier": "kb",
       "code": "210670105223",
       "reason": "Reviewed EAN changed",
       "approvedEan": "790069365676",
@@ -1451,13 +1458,6 @@
       "reason": "Reviewed EAN changed",
       "approvedEan": "195950543742",
       "feedEan": "0195950543742"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002172298",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "622356273145",
-      "feedEan": "0622356273145"
     },
     {
       "supplier": "kb",
@@ -1475,10 +1475,10 @@
     },
     {
       "supplier": "kb",
-      "code": "100002135097",
+      "code": "100002136525",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "790069476020",
-      "feedEan": "0790069476020"
+      "approvedEan": "622356318235",
+      "feedEan": "0622356318235"
     },
     {
       "supplier": "kb",
@@ -1489,10 +1489,10 @@
     },
     {
       "supplier": "kb",
-      "code": "100002136525",
+      "code": "100002135097",
       "reason": "Reviewed EAN changed",
-      "approvedEan": "622356318235",
-      "feedEan": "0622356318235"
+      "approvedEan": "790069476020",
+      "feedEan": "0790069476020"
     },
     {
       "supplier": "kb",
@@ -1510,20 +1510,6 @@
     },
     {
       "supplier": "kb",
-      "code": "100002201678",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "195951039176",
-      "feedEan": "0195951039176"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001169951",
-      "reason": "Reviewed EAN changed",
-      "approvedEan": "790069458583",
-      "feedEan": "0790069458583"
-    },
-    {
-      "supplier": "kb",
       "code": "100002118859",
       "reason": "Reviewed EAN changed",
       "approvedEan": "195949544026",
@@ -1531,8 +1517,22 @@
     },
     {
       "supplier": "kb",
+      "code": "100002201678",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "195951039176",
+      "feedEan": "0195951039176"
+    },
+    {
+      "supplier": "kb",
       "code": "100002203429",
       "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001169951",
+      "reason": "Reviewed EAN changed",
+      "approvedEan": "790069458583",
+      "feedEan": "0790069458583"
     },
     {
       "supplier": "kb",
@@ -1557,11 +1557,6 @@
     {
       "supplier": "kb",
       "code": "100000729253",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000800044",
       "reason": "Reviewed product name changed"
     },
     {
@@ -1843,7 +1838,7 @@
     },
     {
       "supplier": "kb",
-      "code": "100002136241",
+      "code": "100002134534",
       "reason": "Reviewed product name changed"
     },
     {
@@ -2261,6 +2256,11 @@
     },
     {
       "supplier": "kb",
+      "code": "648000248119",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
       "code": "999012815223",
       "reason": "Reviewed EAN changed",
       "approvedEan": "790069368189",
@@ -2460,7 +2460,7 @@
     },
     {
       "path": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy > Nabíjačky autobatérií",
-      "visibleUnique": 28,
+      "visibleUnique": 27,
       "active": true,
       "parent": "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy"
     },
@@ -2586,7 +2586,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Sušiaky na bielizeň",
-      "visibleUnique": 40,
+      "visibleUnique": 41,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
@@ -2736,7 +2736,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 74,
+      "visibleUnique": 73,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2850,7 +2850,7 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Elektrické zubné kefky",
-      "visibleUnique": 48,
+      "visibleUnique": 47,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     },

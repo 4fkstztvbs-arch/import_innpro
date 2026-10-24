@@ -1,7 +1,7 @@
 {
-  "products": 29129,
-  "matched": 842,
-  "categoryChanges": 321,
+  "products": 29139,
+  "matched": 844,
+  "categoryChanges": 323,
   "nameChanges": 8,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 211,
@@ -329,14 +329,26 @@
     },
     {
       "supplier": "kb",
-      "code": "648000118119",
-      "ean": "4006501814104",
+      "code": "100000800044",
+      "ean": "4006501833051",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "kb",
       "code": "100002102279",
       "ean": "4006501815897",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001942312",
+      "ean": "4006501853592",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000118119",
+      "ean": "4006501814104",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -353,12 +365,6 @@
     },
     {
       "supplier": "kb",
-      "code": "100001942312",
-      "ean": "4006501853592",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
       "code": "100000033320",
       "ean": "4006501815101",
       "reason": "Changed name or category; needs review"
@@ -371,20 +377,20 @@
     },
     {
       "supplier": "kb",
-      "code": "100000800045",
-      "ean": "4006501833068",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
       "code": "100000461883",
       "ean": "4006501853608",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "kb",
-      "code": "100002136233",
-      "ean": "4006501815408",
+      "code": "100000800045",
+      "ean": "4006501833068",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002136232",
+      "ean": "4006501815392",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -395,14 +401,14 @@
     },
     {
       "supplier": "kb",
-      "code": "648000188119",
-      "ean": "4006501814548",
+      "code": "100002136233",
+      "ean": "4006501815408",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "kb",
-      "code": "100002136232",
-      "ean": "4006501815392",
+      "code": "648000188119",
+      "ean": "4006501814548",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -419,6 +425,12 @@
     },
     {
       "supplier": "kb",
+      "code": "100002136214",
+      "ean": "4006501815347",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
       "code": "100002136224",
       "ean": "4006501727060",
       "reason": "Changed name or category; needs review"
@@ -431,8 +443,8 @@
     },
     {
       "supplier": "kb",
-      "code": "100002136214",
-      "ean": "4006501815347",
+      "code": "100002136242",
+      "ean": "4006501830401",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -443,14 +455,8 @@
     },
     {
       "supplier": "kb",
-      "code": "100002136237",
-      "ean": "4006501817020",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136242",
-      "ean": "4006501830401",
+      "code": "100002136223",
+      "ean": "4006501727008",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -461,8 +467,8 @@
     },
     {
       "supplier": "kb",
-      "code": "100002136223",
-      "ean": "4006501727008",
+      "code": "340320144838",
+      "ean": "3221616044371",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -473,14 +479,8 @@
     },
     {
       "supplier": "kb",
-      "code": "100001319334",
-      "ean": "4006501852823",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
-      "code": "340320144838",
-      "ean": "3221616044371",
+      "code": "100001456331",
+      "ean": "4897098682586",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -491,20 +491,8 @@
     },
     {
       "supplier": "kb",
-      "code": "100001456331",
-      "ean": "4897098682586",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
       "code": "648000208119",
       "ean": "4006501815163",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
-      "code": "648000248119",
-      "ean": "4006501817204",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -521,20 +509,14 @@
     },
     {
       "supplier": "kb",
+      "code": "648000218119",
+      "ean": "4006501831002",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
       "code": "648000098119",
       "ean": "4006501814357",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
-      "code": "100000033292",
-      "ean": "4006501814081",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136240",
-      "ean": "4006501821003",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -545,14 +527,8 @@
     },
     {
       "supplier": "kb",
-      "code": "100001519273",
-      "ean": "8590274766150",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
-      "code": "648000218119",
-      "ean": "4006501831002",
+      "code": "100002136240",
+      "ean": "4006501821003",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -575,20 +551,32 @@
     },
     {
       "supplier": "kb",
+      "code": "100002136241",
+      "ean": "4006501825001",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
       "code": "100002136235",
       "ean": "4006501816351",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "kb",
-      "code": "100000570731",
-      "ean": "4210101922538",
+      "code": "100002136237",
+      "ean": "4006501817020",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "kb",
-      "code": "100000800044",
-      "ean": "4006501833051",
+      "code": "100001319334",
+      "ean": "4006501852823",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100000033292",
+      "ean": "4006501814081",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -611,6 +599,12 @@
     },
     {
       "supplier": "kb",
+      "code": "100001091774",
+      "ean": "6935364030988",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
       "code": "100001124213",
       "ean": "6925281979293",
       "reason": "Changed name or category; needs review"
@@ -625,12 +619,6 @@
       "supplier": "kb",
       "code": "100001188813",
       "ean": "6925281977480",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
-      "code": "100001368397",
-      "ean": "4006501716033",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -721,12 +709,6 @@
       "supplier": "kb",
       "code": "100002113106",
       "ean": "6925281953859",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002136241",
-      "ean": "4006501825001",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -847,6 +829,12 @@
       "supplier": "kb",
       "code": "342030058119",
       "ean": "4006501725790",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "648000248119",
+      "ean": "4006501817204",
       "reason": "Changed name or category; needs review"
     },
     {
