@@ -1,0 +1,29 @@
+/* PremiumStore – objednávka krok 1: nedostupné kombinácie dopravy a platby (pozri premiumstore-checkout-combos-20261024.js). */
+/* Nedostupná platba, ktorú vieme po kliknutí sprístupniť zmenou dopravy: pôsobí „tlmene“, ale je klikateľná. */
+body.in-krok-1 #order-billing-methods .radio-wrapper.inactive-child.ps-combo-switchable,
+body.in-krok-1 #order-billing-methods .radio-wrapper.inactive-child.ps-combo-switchable label {
+  cursor: pointer;
+}
+body.in-krok-1 #order-billing-methods .radio-wrapper.inactive-child.ps-combo-switchable > label .shipping-billing-name,
+body.in-krok-1 #order-billing-methods .radio-wrapper.inactive-child.ps-combo-switchable > label .payment-logo {
+  opacity: .6;
+}
+body.in-krok-1 #order-billing-methods .radio-wrapper.inactive-child.ps-combo-switchable .not-possible-info {
+  color: #167450;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+/* Vysvetlenie po automatickej zmene dopravy. */
+body.in-krok-1 .ps-combo-note {
+  margin: 0 0 10px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #eaf4ef;
+  border: 1px solid #b9dccb;
+  color: #14543b;
+  font-size: 14px;
+  line-height: 1.35;
+}
