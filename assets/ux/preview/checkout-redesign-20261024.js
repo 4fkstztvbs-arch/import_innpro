@@ -62,7 +62,7 @@
     var s2 = $('ol.cart-header li.step-2 span'); if (s2 && /Doprava/.test(s2.textContent)) s2.textContent = 'Doprava a platba';
     var s1 = $('ol.cart-header li.step-1 span'); if (s1 && /košík/i.test(s1.textContent)) s1.textContent = 'Košík';
     var cta = $('body.in-kosik #continue-order-button .order-button-text');
-    if (cta && cta.textContent.trim() === 'Pokračovať') cta.textContent = 'Pokračovať k doprave a platbe';
+    if (cta && /^Pokračovať/.test(cta.textContent.trim())) cta.textContent = window.innerWidth <= 991 ? 'Pokračovať' : 'Pokračovať k doprave a platbe';
     var cta1 = $('body.in-krok-1 #orderFormButton .order-button-text');
     if (cta1 && /Pokračovať v objednávke/.test(cta1.textContent)) cta1.textContent = 'Pokračovať k údajom';
   }

@@ -339,3 +339,4 @@ html body.ps-rd.ordering-process .shipping-billing-table .question-tooltip { wid
 }
 html body.ps-rd.in-kosik .cart-table .p-total > form, html body.ps-rd.in-kosik .cart-table .p-total > form .inline { display: block !important; visibility: visible !important; opacity: 1 !important; height: auto !important; }
 html body.ps-rd.in-kosik .cart-table .p-total .remove-item { display: inline-flex !important; width: auto !important; height: auto !important; }
+@media (max-width: 991px) { html body.ps-rd.ordering-process .next-step .btn-conversion::after { display: none !important; } }
