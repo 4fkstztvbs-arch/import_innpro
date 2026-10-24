@@ -375,3 +375,13 @@ html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-in
   html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-shipping-price { font-size: 14px !important; }
   html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { margin-left: 0 !important; }
 }
+
+/* ---------- Mobil: krok 2 ---------- */
+@media (max-width: 991px) {
+  html body.ps-rd.in-krok-2 #order-form fieldset.co-box, html body.ps-rd.in-krok-2 #order-form .co-box fieldset { grid-template-columns: minmax(0, 1fr) !important; column-gap: 0 !important; }
+  html body.ps-rd.in-krok-2 #order-form .co-box .form-group { grid-column: 1 / -1 !important; }
+  html body.ps-rd.in-krok-2 #order-form .co-box .form-group.company-shopping, html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(input[type=checkbox]) { flex-direction: row !important; justify-content: flex-start !important; text-align: left !important; }
+  html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] + label, html body.ps-rd.in-krok-2 #order-form .co-box label.whole-width { text-align: left !important; }
+  html body.ps-rd.in-krok-2 #submit-order { font-size: 15px !important; min-height: 52px !important; padding: 8px 12px !important; line-height: 1.2 !important; }
+  html body.ps-rd.in-krok-2 #submit-order .order-button-text, html body.ps-rd.in-krok-2 #submit-order .order-button-suffix { font-size: 15px !important; display: inline !important; visibility: visible !important; width: auto !important; height: auto !important; position: static !important; clip: auto !important; }
+}
