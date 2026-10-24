@@ -74,17 +74,14 @@ html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label 
   transition: border-color .15s, background .15s, box-shadow .15s; font-weight: 400;
 }
 html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label::before { display: none !important; content: none !important; }
-html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label::after {
-  content: '' !important; display: block !important; order: 5; flex: none; width: 24px; height: 24px; border-radius: 50%; box-sizing: border-box;
-  border: 2px solid #b4c3c9; background: #fff; position: static !important; transform: none !important; margin-left: 2px;
-}
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { content: '' !important; display: block !important; order: 5 !important; flex: none !important; width: 24px !important; height: 24px !important; border-radius: 50% !important; box-sizing: border-box !important; border: 2px solid #b4c3c9 !important; background: #fff !important; position: static !important; transform: none !important; margin-left: 2px !important; }
 html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper:not(.inactive-child) > label:hover { border-color: #8fb8a6; }
 html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.active > label,
 html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > input:checked + label {
   border-color: var(--g) !important; background: var(--gs) !important; box-shadow: 0 0 0 3px rgba(22,116,80,.13);
 }
-html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.active > label::after,
-html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > input:checked + label::after { border: 7px solid var(--g); background: #fff; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper.active > label::after,
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > input:checked + label::after { border: 7px solid var(--g) !important; background: #fff !important; }
 html body.ps-rd.ordering-process .shipping-billing-table .payment-logo, html body.ps-rd.ordering-process .shipping-billing-table .ps-ico {
   order: 0; flex: none; width: 68px; height: 46px; display: grid !important; place-items: center; background: #fff !important; border: 1px solid var(--line);
   border-radius: 12px; padding: 6px; box-sizing: border-box; margin: 0; position: static; float: none;
@@ -110,7 +107,7 @@ html body.ps-rd.ordering-process .shipping-billing-table .sublabel a.ps-pickup-b
 html body.ps-rd.ordering-process .shipping-billing-table .sublabel a::before { content: ''; width: 14px; height: 14px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z'/%3E%3Ccircle cx='12' cy='9.5' r='2.5'/%3E%3C/svg%3E") center/contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z'/%3E%3Ccircle cx='12' cy='9.5' r='2.5'/%3E%3C/svg%3E") center/contain no-repeat; }
 html body.ps-rd.ordering-process .shipping-billing-table .sublabel a, html body.ps-rd.ordering-process .shipping-billing-table .sublabel a:focus { outline: 0 !important; box-shadow: none !important; border: 1.5px solid var(--g) !important; background: #fff !important; }
 html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.inactive-child > label { border-style: dashed !important; background: #fafcfc !important; box-shadow: none; }
-html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.inactive-child > label::after { opacity: .45; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper.inactive-child > label::after { opacity: .45 !important; }
 html body.ps-rd.ordering-process .shipping-billing-table .not-possible-info { font-size: 13px; line-height: 1.35; margin-top: 2px; }
 body.ps-rd.in-krok-1 .ps-more-btn {
   width: 100%; border: 1.5px dashed #9ab9ad; border-radius: 14px; background: transparent; color: var(--g); font-weight: 700; font-size: 15px; padding: 14px; margin: 0 0 4px; cursor: pointer;
@@ -134,7 +131,7 @@ html body.ps-rd.ordering-process .order-recapitulation { margin: 0; padding: 4px
 html body.ps-rd.ordering-process .recapitulation-single { display: flex; flex-direction: column; gap: 2px; padding: 8px 0; border: 0; margin: 0; font-size: 14px; }
 html body.ps-rd.ordering-process .recapitulation-single .recapitulation-shipping-billing-label { color: var(--mut); font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
 html body.ps-rd.ordering-process .recapitulation-single .recapitulation-shipping-billing-info { display: flex; justify-content: space-between; gap: 12px; font-weight: 700; flex-direction: row-reverse; text-align: left; }
-html body.ps-rd.ordering-process .order-summary-item.price, html body.ps-rd.in-kosik .price-wrapper { border-bottom: 0; padding-top: 6px; background: none !important; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.price, html body.ps-rd.in-kosik .price-wrapper { border-bottom: 0; padding-top: 6px; background: none !important; background-color: transparent !important; }
 html body.ps-rd.ordering-process .order-summary-inner * { background-color: transparent !important; }
 html body.ps-rd.ordering-process .order-summary-inner .next-step .btn-conversion, html body.ps-rd.ordering-process .order-summary-inner #submit-order { background-color: var(--g) !important; }
 html body.ps-rd.ordering-process .order-summary-inner .order-summary-item.price { margin: 0; padding: 12px 0 0; border-top: 2px solid #edf2f4; }
