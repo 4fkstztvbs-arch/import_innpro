@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-23 21:24 UTC.
+Kontrola z 2026-10-24 20:48 UTC.
 
-Solight pri **501** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **503** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -84,6 +84,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -279,6 +280,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `1T4A6-T10` | Solight náhradné trubičky pro alkohol tester Solight 1T04A,  | 3 | 200 |
 | `WM-10W-Q` | Solight LED reflektor Quick, 10W, 850lm, 4000K, IP65, čierny | 3 | 60 |
 | `SSV1222` | Solight HDMI kábel s Ethernetom, HDMI 2.0 A konektor - HDMI  | 3 | 100 |
+| `WN51` | Solight LED nabíjacia žiarovka Camping, 100lm, Li-Ion, displ | 3 | 72 |
 | `PP50` | Solight predlžovací prívod, 5 zásuviek, biely, vypínač, 1,5m | 3 | 50 |
 | `SSV1203` | Solight HDMI kábel s Ethernetom, HDMI 1.4 A konektor - HDMI  | 3 | 100 |
 | `WL911` | Solight nočné LED svetielko so svetelným senzorom, 3000K, 23 | 3 | 60 |
