@@ -300,3 +300,6 @@ html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input input#phone.
 html body.ps-rd.in-krok-2 #submit-order { flex-direction: row !important; flex-wrap: wrap !important; gap: 0 6px !important; text-align: center !important; line-height: 1.25 !important; padding: 14px 18px !important; }
 html body.ps-rd.in-krok-2 #submit-order::after { content: none !important; display: none !important; }
 html body.ps-rd.in-krok-2 #submit-order .order-button-suffix, html body.ps-rd.in-krok-2 #submit-order .order-button-text { display: inline !important; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.price { display: block !important; }
+html body.ps-rd.ordering-process #summary-box .price-wrapper { min-width: 0 !important; }
+html body.ps-rd.ordering-process .order-button-suffix { font-size: inherit !important; vertical-align: baseline !important; position: static !important; margin: 0 !important; top: auto !important; opacity: 1 !important; font-weight: inherit !important; display: inline !important; }
