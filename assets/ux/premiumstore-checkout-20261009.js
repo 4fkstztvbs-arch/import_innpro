@@ -125,10 +125,13 @@
     var opts = [].slice.call(cont.querySelectorAll('.radio-wrapper')).filter(function (o) { return getComputedStyle(o).display !== 'none' || o.classList.contains('ps-hidden-opt'); });
     if (opts.length <= keep + 1) return;
     cont.setAttribute('data-ps-short', '1');
-    var shown = 0, hid = 0;
+    /* Osobný odber (zadarmo) sa nikdy neschová pod „Ďalšie spôsoby“ a počíta sa do viditeľných možností:
+       zákazník, ktorý chce platiť hotovosťou na predajni, ho inak nenájde (Clarity 22.–24. 10., dead kliky). */
+    var isPin = function (o) { return !!o.querySelector('input[data-code="personal-collection"]'); };
+    var isChecked = function (o) { return !!(o.querySelector('input:checked') || o.classList.contains('active')); };
+    var shown = opts.filter(function (o) { return isPin(o) && !isChecked(o); }).length, hid = 0;
     opts.forEach(function (o) {
-      var checked = o.querySelector('input:checked') || o.classList.contains('active');
-      if (checked) return;
+      if (isChecked(o) || isPin(o)) return;
       if (shown < keep) { shown++; } else { o.classList.add('ps-hidden-opt'); hid++; }
     });
     if (!hid) return;

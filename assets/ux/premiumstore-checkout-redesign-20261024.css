@@ -1,0 +1,515 @@
+/* PremiumStore – NÁVRH nového vzhľadu objednávky (košík, krok 1, krok 2). Nasadenie: PS-20261024-CHECKOUT-REDESIGN.
+   Všetko je pod body.ps-rd, takže rollback = odstrániť súbor / triedu. Polia a Shoptet logika ostávajú. */
+body.ps-rd.ordering-process {
+  --g: #167450; --g2: #24b47e; --gs: #e9f5ef; --gline: #b9dccb;
+  --ink: #0e151c; --mut: #5b6a72; --line: #dce5e8; --bg: #f1f5f6;
+  --sh: 0 1px 2px rgba(14,21,28,.05), 0 10px 28px rgba(14,21,28,.06);
+  background: var(--bg) !important; color: var(--ink);
+}
+body.ps-rd.ordering-process #content-wrapper, body.ps-rd.ordering-process .content-wrapper,
+body.ps-rd.ordering-process .content-wrapper-in, body.ps-rd.ordering-process main#content { background: transparent !important; }
+body.ps-rd.ordering-process .cart-wrapper { max-width: 1180px; margin: 0 auto; padding: 0 20px 48px; }
+body.ps-rd.ordering-process .cart-inner { max-width: none; padding: 0; background: transparent; }
+
+/* ---------- Stepper ---------- */
+html body.ps-rd.ordering-process main#content ol.cart-header {
+  display: flex !important; align-items: center !important; justify-content: center !important; gap: 0 !important; list-style: none !important;
+  margin: 8px auto 28px !important; padding: 0 !important; max-width: 720px !important; background: none !important; border: 0 !important; box-shadow: none !important; counter-reset: st;
+}
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step { flex: 1 1 0 !important; display: flex !important; flex-direction: column !important; align-items: center !important; gap: 8px !important; position: relative !important; margin: 0 !important; padding: 0 !important; background: none !important; border: 0 !important; font-size: 14px !important; counter-increment: st !important; text-align: center !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step::before { content: counter(st) !important; width: 34px !important; height: 34px !important; border-radius: 50% !important; display: grid !important; place-items: center !important; z-index: 1 !important; background: #fff !important; border: 2px solid var(--line) !important; color: var(--mut) !important; font-weight: 700 !important; font-size: 15px !important; position: static !important; transform: none !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step::after { content: '' !important; position: absolute !important; top: 16px !important; left: calc(-50% + 22px) !important; right: calc(50% + 22px) !important; height: 2px !important; background: var(--line) !important; display: block !important; border: 0 !important; width: auto !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step-1::after { display: none !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.completed::before { content: '✓' !important; background: var(--g) !important; border-color: var(--g) !important; color: #fff !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.completed::after, html body.ps-rd.ordering-process main#content ol.cart-header > li.active::after { background: var(--g) !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.active::before { border-color: var(--g) !important; color: var(--g) !important; box-shadow: 0 0 0 5px rgba(22,116,80,.14) !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step a, html body.ps-rd.ordering-process main#content ol.cart-header > li.step strong { color: var(--mut) !important; font-weight: 600 !important; text-decoration: none !important; background: none !important; padding: 0 !important; display: block !important; font-size: 14px !important; line-height: 1.2 !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.active strong { color: var(--ink) !important; font-weight: 700 !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step span { background: none !important; padding: 0 !important; font-size: inherit !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step span::before, html body.ps-rd.ordering-process main#content ol.cart-header > li.step span::after,
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step a::before, html body.ps-rd.ordering-process main#content ol.cart-header > li.step a::after,
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step strong::before, html body.ps-rd.ordering-process main#content ol.cart-header > li.step strong::after { display: none !important; content: none !important; }
+
+/* ---------- Karty ---------- */
+body.ps-rd.ordering-process .co-box, body.ps-rd.ordering-process #order-form .box-bg-default.co-box {
+  background: #fff !important; border: 0 !important; border-radius: 18px !important; box-shadow: var(--sh);
+  padding: 26px 28px !important; margin: 0 0 20px !important;
+}
+body.ps-rd.ordering-process #order-form { counter-reset: ps; }
+html body.ps-rd.ordering-process .co-box > h2, html body.ps-rd.ordering-process .co-box h2.order-icon, html body.ps-rd.ordering-process .co-box legend {
+  display: flex; align-items: center; gap: 12px; font-size: 21px; font-weight: 800; letter-spacing: -.01em; color: var(--ink);
+  margin: 0 0 18px; padding: 0 !important; background: none !important; border: 0; width: auto; float: none; line-height: 1.2;
+}
+html body.ps-rd.ordering-process .co-box > h2::before, html body.ps-rd.ordering-process .co-box h2.order-icon::before {
+  counter-increment: ps; content: counter(ps); flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--g); color: #fff; font-size: 15px; font-weight: 700; position: static; transform: none; mask: none; -webkit-mask: none;
+}
+html body.ps-rd.ordering-process .co-box > h2::after { display: none; }
+body.ps-rd.in-krok-2 .co-box > h2::before { display: none; }
+body.ps-rd.in-krok-2 .co-box > h2 { font-size: 20px; margin-bottom: 20px; }
+body.ps-rd.in-krok-1 #ps-dispatch, body.ps-rd.in-kosik #ps-cart-extra .ps-note {
+  background: var(--gs); border: 1px solid var(--gline); color: #14543b; border-radius: 12px; padding: 12px 14px; font-size: 14px; line-height: 1.45; margin: 0 0 16px;
+}
+
+/* ---------- Dvojstĺpcové rozloženie (krok 1 + 2) ---------- */
+@media (min-width: 992px) {
+  body.ps-rd.in-krok-1 .cart-row, body.ps-rd.in-krok-2 .cart-row {
+    display: grid !important; grid-template-columns: minmax(0, 1fr) 390px; gap: 28px; align-items: start; margin: 0 !important;
+  }
+  body.ps-rd.in-krok-1 .cart-row::before, body.ps-rd.in-krok-1 .cart-row::after,
+  body.ps-rd.in-krok-2 .cart-row::before, body.ps-rd.in-krok-2 .cart-row::after { display: none !important; }
+  body.ps-rd.ordering-process #checkoutContent, body.ps-rd.ordering-process #checkoutSidebar { width: auto !important; float: none !important; padding: 0 !important; max-width: none !important; }
+  body.ps-rd.ordering-process #checkoutSidebar { position: sticky; top: 16px; }
+}
+
+/* ---------- Dlaždice dopravy a platby ---------- */
+html body.ps-rd.ordering-process .shipping-billing-table { margin: 0; padding: 0; border: 0; background: none; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper {
+  margin: 0 0 12px !important; padding: 0 !important; border: 0 !important; background: none !important; box-shadow: none !important; position: relative; min-height: 0;
+}
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > input[type=radio] { position: absolute; opacity: 0; pointer-events: none; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label {
+  display: flex !important; align-items: center; gap: 16px; min-height: 76px; padding: 14px 18px !important; margin: 0 !important; width: 100%; box-sizing: border-box;
+  border: 1.5px solid var(--line) !important; border-radius: 16px !important; background: #fff !important; cursor: pointer; position: relative;
+  transition: border-color .15s, background .15s, box-shadow .15s; font-weight: 400;
+}
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label::before { display: none !important; content: none !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { content: '' !important; display: block !important; order: 5 !important; flex: none !important; width: 24px !important; height: 24px !important; border-radius: 50% !important; box-sizing: border-box !important; border: 2px solid #b4c3c9 !important; background: #fff !important; position: static !important; transform: none !important; margin-left: 2px !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper:not(.inactive-child) > label:hover { border-color: #8fb8a6; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.active > label,
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > input:checked + label {
+  border-color: var(--g) !important; background: var(--gs) !important; box-shadow: 0 0 0 3px rgba(22,116,80,.13);
+}
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper.active > label::after,
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > input:checked + label::after { border: 7px solid var(--g) !important; background: #fff !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-logo, html body.ps-rd.ordering-process .shipping-billing-table .ps-ico {
+  order: 0; flex: none; width: 68px; height: 46px; display: grid !important; place-items: center; background: #fff !important; border: 1px solid var(--line);
+  border-radius: 12px; padding: 6px; box-sizing: border-box; margin: 0; position: static; float: none;
+}
+html body.ps-rd.ordering-process .shipping-billing-table .payment-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block; }
+html body.ps-rd.ordering-process .shipping-billing-table .ps-ico { color: var(--g); background: var(--gs) !important; border-color: var(--gline); }
+html body.ps-rd.ordering-process .shipping-billing-table .ps-ico svg { width: 26px; height: 26px; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-info { order: 1; flex: 1 1 auto; min-width: 0; display: block !important; text-align: left !important; padding: 0 !important; margin: 0; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label, html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label * { text-align: left !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.ps-hidden-opt { display: none !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-shipping-price { text-align: right !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .shipping-billing-name { font-size: 17px; font-weight: 700; color: var(--ink); line-height: 1.25; display: inline; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-info .question-tooltip { margin-left: 6px; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-info > span:not(.sublabel) { display: inline-block; vertical-align: middle; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-info small, html body.ps-rd.ordering-process .shipping-billing-table .payment-info .payment-description { font-size: 13px; color: var(--mut); line-height: 1.35; display: block; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-shipping-price { order: 2; flex: none; font-size: 16px; font-weight: 800; color: var(--ink); white-space: nowrap; margin: 0; padding: 0; width: auto; text-align: right; position: static; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-shipping-price.ps-free { color: var(--g); letter-spacing: .02em; }
+html body.ps-rd.ordering-process .shipping-billing-table .sublabel { display: block; margin: 2px 0 0; padding: 0; font-size: 14px; }
+html body.ps-rd.ordering-process .shipping-billing-table .sublabel a.ps-pickup-btn, html body.ps-rd.ordering-process .shipping-billing-table .sublabel a {
+  display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 999px; background: #fff; color: var(--g); border: 1.5px solid var(--g);
+  font-weight: 700; font-size: 13.5px; text-decoration: none; line-height: 1.2;
+}
+html body.ps-rd.ordering-process .shipping-billing-table .sublabel a::before { content: ''; width: 14px; height: 14px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z'/%3E%3Ccircle cx='12' cy='9.5' r='2.5'/%3E%3C/svg%3E") center/contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z'/%3E%3Ccircle cx='12' cy='9.5' r='2.5'/%3E%3C/svg%3E") center/contain no-repeat; }
+html body.ps-rd.ordering-process .shipping-billing-table .sublabel a, html body.ps-rd.ordering-process .shipping-billing-table .sublabel a:focus { outline: 0 !important; box-shadow: none !important; border: 1.5px solid var(--g) !important; background: #fff !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.inactive-child > label { border-style: dashed !important; background: #fafcfc !important; box-shadow: none; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper.inactive-child > label::after { opacity: .45 !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .not-possible-info { font-size: 13px; line-height: 1.35; margin-top: 2px; }
+body.ps-rd.in-krok-1 .ps-more-btn {
+  width: 100%; border: 1.5px dashed #9ab9ad; border-radius: 14px; background: transparent; color: var(--g); font-weight: 700; font-size: 15px; padding: 14px; margin: 0 0 4px; cursor: pointer;
+}
+body.ps-rd.in-krok-1 .ps-combo-note { border-radius: 12px; margin: 0 0 14px; }
+body.ps-rd.in-krok-1 .co-box a.toggle-link, body.ps-rd.in-krok-1 .show-more-billing, body.ps-rd.in-krok-1 [class*="show-more"] { color: var(--g); font-weight: 600; }
+
+/* ---------- Súhrn (pravý panel) ---------- */
+html body.ps-rd.ordering-process .order-summary-inner {
+  background: #fff; border-radius: 18px; box-shadow: var(--sh); padding: 24px 24px 22px; border: 0; margin: 0;
+}
+html body.ps-rd.ordering-process .checkout-box { display: none !important; }
+html body.ps-rd.ordering-process .order-summary-inner h2 { font-size: 19px; font-weight: 800; margin: 0 0 14px; color: var(--ink); }
+html body.ps-rd.ordering-process .order-summary-item { display: flex; justify-content: space-between; gap: 14px; padding: 10px 0; margin: 0; border: 0; border-bottom: 1px solid #edf2f4; font-size: 14px; align-items: baseline; }
+html body.ps-rd.ordering-process .order-summary-item .cart-item-name { flex: 1; min-width: 0; }
+html body.ps-rd.ordering-process .order-summary-item .cart-item-name a { color: var(--ink); font-weight: 600; text-decoration: none; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+html body.ps-rd.ordering-process .order-summary-item .cart-item-amount { color: var(--mut); white-space: nowrap; }
+html body.ps-rd.ordering-process .order-summary-item .cart-item-price { font-weight: 700; white-space: nowrap; }
+html body.ps-rd.ordering-process .order-summary-item.helper { border-bottom: 0; padding-top: 12px; font-size: 15px; }
+html body.ps-rd.ordering-process .order-recapitulation { margin: 0; padding: 4px 0 6px; }
+html body.ps-rd.ordering-process .recapitulation-single { display: flex; flex-direction: column; gap: 2px; padding: 8px 0; border: 0; margin: 0; font-size: 14px; }
+html body.ps-rd.ordering-process .recapitulation-single .recapitulation-shipping-billing-label { color: var(--mut); font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+html body.ps-rd.ordering-process .recapitulation-single .recapitulation-shipping-billing-info { display: flex; justify-content: space-between; gap: 12px; font-weight: 700; flex-direction: row-reverse; text-align: left; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.price, html body.ps-rd.in-kosik .price-wrapper { border-bottom: 0; padding-top: 6px; background: none !important; background-color: transparent !important; }
+html body.ps-rd.ordering-process .order-summary-inner * { background-color: transparent !important; }
+html body.ps-rd.ordering-process .order-summary-inner .next-step .btn-conversion, html body.ps-rd.ordering-process .order-summary-inner #submit-order { background-color: var(--g) !important; }
+html body.ps-rd.ordering-process .order-summary-inner .order-summary-item.price { margin: 0; padding: 12px 0 0; border-top: 2px solid #edf2f4; }
+html body.ps-rd.ordering-process .price-wrapper { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: baseline; width: 100%; margin: 0; padding: 0; background: none; border: 0; }
+html body.ps-rd.ordering-process .price-wrapper .price-label.price-primary { font-size: 16px; font-weight: 700; color: var(--ink); }
+html body.ps-rd.ordering-process .price-wrapper strong.price.price-primary { font-size: 30px; font-weight: 800; letter-spacing: -.02em; color: var(--g); text-align: right; line-height: 1.1; }
+html body.ps-rd.ordering-process .price-wrapper .price-secondary { font-size: 13px; color: var(--mut); font-weight: 500; }
+html body.ps-rd.ordering-process .price-wrapper strong.price.price-secondary { text-align: right; }
+html body.ps-rd.ordering-process .next-step { display: flex; flex-direction: column-reverse; gap: 12px; margin: 18px 0 0; padding: 0; background: none; border: 0; width: 100%; }
+html body.ps-rd.ordering-process .next-step .btn-conversion, html body.ps-rd.ordering-process #submit-order {
+  width: 100%; min-height: 58px; border-radius: 14px !important; background: var(--g) !important; color: #fff !important; border: 0 !important;
+  font-size: 17px; font-weight: 800; letter-spacing: 0; display: flex; align-items: center; justify-content: center; gap: 10px; text-decoration: none; box-shadow: 0 8px 20px rgba(22,116,80,.28);
+  transition: background .15s, transform .15s; margin: 0;
+}
+html body.ps-rd.ordering-process .next-step .btn-conversion:hover, html body.ps-rd.ordering-process #submit-order:hover { background: #115c40 !important; transform: translateY(-1px); }
+html body.ps-rd.ordering-process .next-step .btn-conversion::after { content: '→'; font-size: 20px; line-height: 1; }
+html body.ps-rd.ordering-process .next-step .next-step-back {
+  width: 100%; background: none !important; border: 0 !important; color: var(--mut) !important; font-weight: 600; font-size: 14px; min-height: 0; padding: 2px; text-decoration: underline; text-underline-offset: 3px; text-align: center; box-shadow: none; display: block;
+}
+html body.ps-rd.ordering-process .next-step .next-step-back::before { content: '← '; }
+body.ps-rd.ordering-process .ps-trust2 { list-style: none; margin: 16px 0 0; padding: 14px 0 0; border-top: 1px solid #edf2f4; display: grid; gap: 9px; font-size: 13.5px; color: var(--mut); }
+body.ps-rd.ordering-process .ps-trust2 li { display: flex; align-items: center; gap: 9px; margin: 0; padding: 0; }
+body.ps-rd.ordering-process .ps-trust2 li::before { content: ''; width: 18px; height: 18px; flex: none; border-radius: 50%; background: var(--gs) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23167450' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/11px no-repeat; }
+body.ps-rd.ordering-process .ps-trust2 a { color: var(--g); font-weight: 700; text-decoration: none; }
+
+/* ---------- Košík ---------- */
+@media (min-width: 992px) {
+  body.ps-rd.in-kosik .cart-inner { display: grid; grid-template-columns: minmax(0, 1fr) 390px; gap: 20px 28px; align-items: start; }
+  body.ps-rd.in-kosik .cart-table { grid-column: 1; grid-row: 1; }
+  body.ps-rd.in-kosik #ps-cart-extra { grid-column: 1; grid-row: 2; }
+  body.ps-rd.in-kosik .summary { display: contents !important; }
+  body.ps-rd.in-kosik .summary > .col-md-8 { grid-column: 1; grid-row: 3; width: auto; padding: 0; float: none; }
+  body.ps-rd.in-kosik .summary > .col-md-4 { grid-column: 2; grid-row: 1 / span 3; width: auto; float: none; padding: 0; position: sticky; top: 16px; background: #fff; border-radius: 18px; box-shadow: var(--sh); padding: 24px !important; }
+  body.ps-rd.in-kosik .summary > .col-md-4 > .price-wrapper { box-shadow: none; padding: 0; border-radius: 0; }
+}
+body.ps-rd.in-kosik .summary > .col-md-4::before { content: 'Súhrn objednávky'; display: block; font-size: 19px; font-weight: 800; margin: 0 0 14px; }
+html body.ps-rd.in-kosik .cart-table { display: block; width: 100%; border: 0; background: none; margin: 0; }
+html body.ps-rd.in-kosik .cart-table tbody { display: flex; flex-direction: column; gap: 14px; }
+html body.ps-rd.in-kosik .cart-table .cart-table-header { display: none; }
+html body.ps-rd.in-kosik .cart-table tr.removeable {
+  display: grid; grid-template-columns: 104px minmax(0, 1fr) 150px; grid-template-areas: "img name total" "img avail total" "img qty unit";
+  gap: 6px 22px; align-items: center; background: #fff; border-radius: 18px; box-shadow: var(--sh); padding: 18px 22px; border: 0; position: relative;
+}
+html body.ps-rd.in-kosik .cart-table tr.removeable > td { display: block; padding: 0 !important; border: 0 !important; background: none; width: auto; text-align: left; }
+html body.ps-rd.in-kosik .cart-table .cart-p-image { grid-area: img; }
+html body.ps-rd.in-kosik .cart-table .cart-p-image img { width: 104px; height: 104px; object-fit: contain; border: 1px solid var(--line); border-radius: 14px; background: #fff; padding: 6px; box-sizing: border-box; display: block; }
+html body.ps-rd.in-kosik .cart-table .p-name { grid-area: name; align-self: end; position: static; }
+html body.ps-rd.in-kosik .cart-table .p-name .main-link { font-size: 17px; font-weight: 700; color: var(--ink); text-decoration: none; line-height: 1.3; display: block; }
+html body.ps-rd.in-kosik .cart-table .p-name .delete-cart-item, html body.ps-rd.in-kosik .cart-table .p-name .product-table-name-footer { display: none !important; }
+html body.ps-rd.in-kosik .cart-table .p-availability { grid-area: avail; align-self: start; }
+html body.ps-rd.in-kosik .cart-table .p-label { display: none !important; }
+html body.ps-rd.in-kosik .cart-table .availability-label { color: var(--g) !important; font-weight: 700; font-size: 14px; display: inline-flex; align-items: center; gap: 7px; }
+html body.ps-rd.in-kosik .cart-table .availability-label::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--g2); box-shadow: 0 0 0 3px rgba(36,180,126,.2); }
+html body.ps-rd.in-kosik .cart-table .p-quantity { grid-area: qty; justify-self: start; margin-top: 8px; }
+html body.ps-rd.in-kosik .cart-table .quantity { display: inline-flex !important; align-items: center; border: 1.5px solid var(--line); border-radius: 999px; height: 44px; overflow: hidden; background: #fff; position: relative; width: auto; }
+html body.ps-rd.in-kosik .cart-table .quantity label { margin: 0; display: block; }
+html body.ps-rd.in-kosik .cart-table .quantity input.amount { width: 44px; height: 42px; border: 0 !important; text-align: center; font-size: 16px; font-weight: 700; background: none; padding: 0; box-shadow: none !important; -moz-appearance: textfield; appearance: textfield; min-height: 0 !important; border-radius: 0 !important; }
+html body.ps-rd.in-kosik .cart-table .quantity button { position: static !important; width: 40px; height: 42px; border: 0; background: none; color: var(--g); font-size: 20px; font-weight: 700; cursor: pointer; padding: 0; display: grid; place-items: center; transform: none; }
+html body.ps-rd.in-kosik .cart-table .quantity button.decrease { order: -1; }
+html body.ps-rd.in-kosik .cart-table .quantity button:hover { background: var(--gs); }
+html body.ps-rd.in-kosik .cart-table .p-price { grid-area: unit; justify-self: end; align-self: start; font-size: 13px; color: var(--mut); white-space: nowrap; }
+html body.ps-rd.in-kosik .cart-table .p-price strong { font-weight: 600; color: var(--mut); }
+html body.ps-rd.in-kosik .cart-table .p-total { display: contents; }
+html body.ps-rd.in-kosik .cart-table .p-total > strong.price-final { grid-area: total; justify-self: end; align-self: end; font-size: 21px; font-weight: 800; white-space: nowrap; color: var(--ink); }
+html body.ps-rd.in-kosik .cart-table .p-total > form { grid-area: remove; justify-self: end; align-self: end; margin: 0; }
+html body.ps-rd.in-kosik .cart-table .p-total .remove-item {
+  all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: var(--mut); font-size: 13px; text-decoration: underline; text-underline-offset: 3px; position: static;
+}
+html body.ps-rd.in-kosik .cart-table .p-total .remove-item::before { content: '✕'; font-size: 11px; text-decoration: none; }
+html body.ps-rd.in-kosik .cart-table .p-total .remove-item::after { content: 'Odstrániť'; }
+html body.ps-rd.in-kosik .cart-table .p-total .remove-item .sr-only { display: none; }
+html body.ps-rd.in-kosik .cart-table .p-total .remove-item:hover { color: #b3261e; }
+body.ps-rd.in-kosik #ps-cart-extra { margin: 0; }
+body.ps-rd.in-kosik #ps-cart-extra .ps-trust { display: flex; flex-wrap: wrap; gap: 8px 20px; list-style: none; margin: 4px 0 0; padding: 0; font-size: 14px; color: var(--mut); }
+body.ps-rd.in-kosik #ps-cart-extra .ps-trust li { margin: 0; padding: 0; display: flex; align-items: center; gap: 8px; }
+body.ps-rd.in-kosik #ps-cart-extra .ps-trust li::before { content: '✓'; color: var(--g); font-weight: 800; }
+body.ps-rd.in-kosik #ps-rel { margin-top: 8px; }
+body.ps-rd.in-kosik #ps-rel h2 { font-size: 18px; font-weight: 800; margin: 14px 0 12px; }
+body.ps-rd.in-kosik .ps-rel-list { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 6px; }
+body.ps-rd.in-kosik .ps-rel-item { background: #fff; border-radius: 14px; box-shadow: var(--sh); padding: 12px; min-width: 150px; flex: 1 1 0; }
+body.ps-rd.in-kosik .ps-pay { margin-top: 16px; padding-top: 14px; border-top: 1px solid #edf2f4; }
+body.ps-rd.in-kosik .ps-pay__label { display: block; font-size: 12.5px; color: var(--mut); font-weight: 600; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 8px; }
+
+/* ---------- Krok 2: formulár ---------- */
+body.ps-rd.in-krok-2 .cart-content > .helper {
+  background: var(--gs); border: 1px solid var(--gline); border-radius: 14px; padding: 13px 18px !important; margin: 0 0 20px !important; font-size: 14.5px; color: #14543b;
+}html body.ps-rd.in-krok-2 #order-form .cart-content > .helper a { color: var(--g) !important; font-weight: 800 !important; }html body.ps-rd.in-krok-2 #order-form fieldset.co-box,
+html body.ps-rd.in-krok-2 #order-form .co-box fieldset { min-width: 0 !important; border: 0 !important; margin: 0 !important; padding: 0 !important; }html body.ps-rd.in-krok-2 #order-form fieldset.co-box { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; column-gap: 18px !important; align-content: start !important; padding: 26px 28px !important; }html body.ps-rd.in-krok-2 #order-form .co-box fieldset { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; column-gap: 18px !important; padding: 0 !important; background: none !important; box-shadow: none !important; }html body.ps-rd.in-krok-2 #order-form .co-box > h2,
+html body.ps-rd.in-krok-2 #order-form .co-box .form-legend,
+html body.ps-rd.in-krok-2 #order-form .co-box fieldset > h2 { grid-column: 1 / -1 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-legend { margin: -10px 0 16px !important; font-size: 12.5px !important; color: var(--mut) !important; text-align: left !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-legend .required-asterisk { padding: 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-group { grid-column: auto !important; margin: 0 0 16px !important; display: block !important; width: auto !important; float: none !important; padding: 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#billFullName),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#billStreet),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#company-shopping),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#billCompany),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#remark),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#add-note),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#billCountryId),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(input[type=checkbox]) { grid-column: 1 / -1 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-group > label { display: block !important; width: auto !important; float: none !important; padding: 0 !important; margin: 0 0 7px !important; font-size: 14px !important; font-weight: 700 !important; color: var(--ink) !important; text-align: left !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-group > label .required-asterisk::after,
+html body.ps-rd.in-krok-2 #order-form .co-box .required-asterisk--before::before { color: #c0392b !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-control-wrapper { width: 100% !important; float: none !important; padding: 0 !important; margin: 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box input.form-control:not([type=checkbox]):not([type=radio]),
+html body.ps-rd.in-krok-2 #order-form .co-box select.form-control { min-height: 52px !important; border: 1.5px solid var(--line) !important; border-radius: 12px !important; background: #fff !important; font-size: 16px !important; padding: 0 16px !important; width: 100% !important; box-sizing: border-box !important; color: var(--ink) !important; }html body.ps-rd.in-krok-2 #order-form .co-box input.form-control:focus,
+html body.ps-rd.in-krok-2 #order-form .co-box textarea.form-control:focus { border-color: var(--g) !important; outline: 3px solid rgba(22,116,80,.18) !important; outline-offset: 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box textarea.form-control { border-radius: 12px !important; border: 1.5px solid var(--line) !important; min-height: 110px !important; padding: 12px 16px !important; width: 100% !important; box-sizing: border-box !important; }html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input { display: flex !important; align-items: center !important; gap: 10px !important; border: 1.5px solid var(--line) !important; border-radius: 12px !important; background: #fff !important; padding-left: 12px !important; }html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input input.form-control { border: 0 !important; min-height: 49px !important; flex: 1 !important; border-radius: 0 12px 12px 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input:focus-within { border-color: var(--g) !important; outline: 3px solid rgba(22,116,80,.18) !important; }html body.ps-rd.in-krok-2 #order-form .co-box .stay-in-touch,
+html body.ps-rd.in-krok-2 #order-form .co-box-additional fieldset { grid-column: 1 / -1 !important; }
+/* zaškrtávacie polia */
+body.ps-rd.in-krok-2 .co-box .checkbox, body.ps-rd.in-krok-2 .co-box .form-group--checkbox, body.ps-rd.in-krok-2 .co-box .custom-control { margin: 0 0 10px; }html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] { accent-color: var(--g) !important; width: 20px !important; height: 20px !important; }html body.ps-rd.in-krok-2 #order-form .co-box label[for="company-shopping"],
+html body.ps-rd.in-krok-2 #order-form .co-box label[for="add-note"],
+html body.ps-rd.in-krok-2 #order-form .co-box label[for="set-registration"] { font-weight: 600 !important; font-size: 15px !important; cursor: pointer !important; }html body.ps-rd.in-krok-2 #order-form .co-box-additional { padding-top: 22px !important; }html body.ps-rd.in-krok-2 #submit-order { font-size: 18px !important; min-height: 62px !important; }html body.ps-rd.in-krok-2 .order-summary-inner .consents,
+html body.ps-rd.in-krok-2 .order-summary-inner p,
+html body.ps-rd.in-krok-2 .order-summary-inner .terms { font-size: 12.5px !important; color: var(--mut) !important; line-height: 1.5 !important; }html body.ps-rd.in-krok-2 .ps-change { margin-left: auto !important; color: var(--g) !important; font-weight: 700 !important; font-size: 13px !important; text-decoration: none !important; }
+
+/* ---------- Mobil ---------- */
+@media (max-width: 991px) {
+  body.ps-rd.ordering-process .cart-wrapper { padding: 0 14px 120px; }
+  body.ps-rd.in-krok-1 .cart-row, body.ps-rd.in-krok-2 .cart-row { display: block !important; margin: 0 !important; }
+  body.ps-rd.ordering-process #checkoutContent, body.ps-rd.ordering-process #checkoutSidebar { width: auto !important; padding: 0 !important; float: none !important; }
+  body.ps-rd.ordering-process .co-box { padding: 18px 16px !important; border-radius: 16px !important; }
+  html body.ps-rd.ordering-process .co-box > h2 { font-size: 19px; }
+  html body.ps-rd.ordering-process main#content ol.cart-header { margin: 4px auto 18px; }
+  html body.ps-rd.ordering-process main#content ol.cart-header > li.step { font-size: 12px; }
+  html body.ps-rd.ordering-process main#content ol.cart-header > li.step a, html body.ps-rd.ordering-process main#content ol.cart-header > li.step strong { font-size: 12px; }
+  html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label { gap: 12px; padding: 12px 14px !important; min-height: 68px; }
+  html body.ps-rd.ordering-process .shipping-billing-table .payment-logo, html body.ps-rd.ordering-process .shipping-billing-table .ps-ico { width: 54px; height: 40px; padding: 5px; }
+  html body.ps-rd.ordering-process .shipping-billing-table .shipping-billing-name { font-size: 15.5px; }
+  html body.ps-rd.ordering-process .shipping-billing-table .payment-shipping-price { font-size: 15px; }
+  body.ps-rd.in-krok-2 #order-form fieldset.co-box, body.ps-rd.in-krok-2 #order-form .co-box fieldset { grid-template-columns: minmax(0, 1fr); }
+  body.ps-rd.in-krok-2 #order-form fieldset.co-box { padding: 18px 16px !important; }
+  html body.ps-rd.in-kosik .cart-table tr.removeable { grid-template-columns: 78px minmax(0, 1fr); grid-template-areas: "img name" "img avail" "qty total" "unit remove"; gap: 6px 14px; padding: 14px; }
+  html body.ps-rd.in-kosik .cart-table .cart-p-image img { width: 78px; height: 78px; }
+  html body.ps-rd.in-kosik .cart-table .p-name .main-link { font-size: 15px; }
+  html body.ps-rd.in-kosik .cart-table .p-quantity { justify-self: start; margin-top: 8px; }
+  html body.ps-rd.in-kosik .cart-table .p-price { justify-self: start; }
+  html body.ps-rd.in-kosik .cart-table .p-total > strong.price-final { align-self: center; margin-top: 8px; }
+  body.ps-rd.in-kosik .summary > .col-md-4 { background: #fff; border-radius: 16px; box-shadow: var(--sh); padding: 18px !important; margin-top: 16px; }
+  body.ps-rd.in-kosik .summary > .col-md-8 { padding: 0; }
+  body.ps-rd.ordering-process .ps-trust2 { display: none; }
+}
+
+/* ---------- Doladenie súhrnu ---------- */
+html body.ps-rd.ordering-process #summary-box .next-step, html body.ps-rd.ordering-process #summary-box .order-summary-item.helper,
+html body.ps-rd.ordering-process #summary-box .order-recapitulation, html body.ps-rd.ordering-process #summary-box .price-wrapper { background: none !important; background-color: transparent !important; box-shadow: none !important; }
+html body.ps-rd.ordering-process #summary-box .next-step { padding: 0 !important; margin: 18px 0 0 !important; border: 0 !important; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.helper { border: 0 !important; border-top: 1px solid #edf2f4 !important; margin-top: 4px; }
+html body.ps-rd.ordering-process #summary-box .order-recapitulation { border: 0 !important; margin: 0 !important; padding: 2px 0 8px !important; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.price { padding: 12px 0 0 !important; margin: 0 !important; border: 0 !important; border-top: 2px solid #edf2f4 !important; }
+
+/* Šírky v súhrne */
+html body.ps-rd.ordering-process .order-summary-inner, html body.ps-rd.ordering-process .order-summary-inner .next-step, html body.ps-rd.ordering-process .order-summary-inner .price-wrapper,
+html body.ps-rd.ordering-process .order-summary-inner .btn-conversion, html body.ps-rd.ordering-process #submit-order { box-sizing: border-box !important; max-width: 100% !important; }
+html body.ps-rd.ordering-process .order-summary-inner { width: 100% !important; }
+html body.ps-rd.ordering-process #summary-box .price-wrapper { padding: 0 !important; width: 100% !important; margin: 0 !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box input.form-control, html body.ps-rd.in-krok-2 #order-form .co-box select.form-control, html body.ps-rd.in-krok-2 #order-form .co-box textarea.form-control,
+html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input, html body.ps-rd.in-krok-2 #order-form .co-box .form-control-wrapper { max-width: none !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input { width: 100% !important; box-sizing: border-box !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input input#phone { flex: 1 1 auto !important; min-width: 0 !important; width: auto !important; }
+
+/* ---------- Krok 2: doladenie ---------- */
+html body.ps-rd.ordering-process #summary-box .price-wrapper { grid-template-columns: minmax(0, 1fr) auto !important; }
+html body.ps-rd.ordering-process #summary-box .price-wrapper > * { width: auto !important; max-width: 100% !important; margin: 0 !important; padding: 0 !important; min-width: 0; }
+html body.ps-rd.ordering-process #summary-box .price-wrapper strong.price { text-align: right !important; white-space: nowrap; }
+html body.ps-rd.in-krok-2 #order-form .co-box h2, html body.ps-rd.in-krok-2 #order-form .co-box h2.header-billing { margin: 0 0 18px !important; padding: 0 !important; line-height: 1.25 !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box fieldset.box, html body.ps-rd.in-krok-2 #order-form .co-box .box { margin: 0 !important; padding: 0 !important; box-shadow: none !important; background: none !important; border: 0 !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group.company-shopping, html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(input[type=checkbox]) { display: flex !important; align-items: center !important; gap: 10px !important; margin: 0 0 12px !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] { position: static !important; opacity: 1 !important; appearance: auto !important; -webkit-appearance: checkbox !important; width: 22px !important; height: 22px !important; margin: 0 !important; flex: none; accent-color: var(--g); cursor: pointer; }
+html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] + label, html body.ps-rd.in-krok-2 #order-form .co-box label.whole-width { padding: 0 !important; margin: 0 !important; font-size: 15px !important; font-weight: 600 !important; cursor: pointer; flex: 1; min-height: 0; line-height: 1.35; }
+html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] + label::before, html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] + label::after,
+html body.ps-rd.in-krok-2 #order-form .co-box label.whole-width::before, html body.ps-rd.in-krok-2 #order-form .co-box label.whole-width::after { display: none !important; content: none !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input input#phone.form-control { border: 0 !important; box-shadow: none !important; outline: 0 !important; min-height: 49px !important; background: transparent !important; border-radius: 0 !important; }
+html body.ps-rd.in-krok-2 #submit-order { flex-direction: row !important; flex-wrap: wrap !important; gap: 0 6px !important; text-align: center !important; line-height: 1.25 !important; padding: 14px 18px !important; }
+html body.ps-rd.in-krok-2 #submit-order::after { content: none !important; display: none !important; }
+html body.ps-rd.in-krok-2 #submit-order .order-button-suffix, html body.ps-rd.in-krok-2 #submit-order .order-button-text { display: inline !important; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.price { display: block !important; }
+html body.ps-rd.ordering-process #summary-box .price-wrapper { min-width: 0 !important; }
+html body.ps-rd.ordering-process .order-button-suffix { font-size: inherit !important; vertical-align: baseline !important; position: static !important; margin: 0 !important; top: auto !important; opacity: 1 !important; font-weight: inherit !important; display: inline !important; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.price, html body.ps-rd.ordering-process #summary-box .order-summary-item { width: 100% !important; max-width: 100% !important; margin-left: 0 !important; margin-right: 0 !important; left: 0 !important; box-sizing: border-box !important; }
+html body.ps-rd.in-krok-2 #submit-order { align-items: baseline !important; justify-content: center !important; }
+html body.ps-rd.in-krok-2 #submit-order .order-button-text, html body.ps-rd.in-krok-2 #submit-order .order-button-suffix { font-size: 17px !important; font-weight: 800 !important; line-height: 1.25 !important; vertical-align: baseline !important; color: #fff !important; transform: none !important; }
+
+/* Šírka obsahu aj na menších desktopoch (Bootstrap .container je tam úzky) */
+html body.ps-rd.ordering-process #content-wrapper.container { width: 100% !important; max-width: 1240px !important; margin-left: auto !important; margin-right: auto !important; padding-left: 0 !important; padding-right: 0 !important; }
+html body.ps-rd.ordering-process main#content { padding-left: 0 !important; padding-right: 0 !important; }
+
+/* Košík: súčet + Odstrániť v jednom stĺpci (téma vynucuje table-cell, preto bez display:contents) */
+html body.ps-rd.in-kosik .cart-table tr.removeable > td.p-total { grid-area: total !important; display: flex !important; flex-direction: column !important; align-items: flex-end !important; align-self: start !important; gap: 8px !important; }
+html body.ps-rd.in-kosik .cart-table tr.removeable > td.p-total > strong.price-final { grid-area: auto !important; justify-self: auto !important; align-self: auto !important; }
+html body.ps-rd.in-kosik .cart-table tr.removeable > td.p-total > form { grid-area: auto !important; justify-self: auto !important; align-self: auto !important; }
+html body.ps-rd.in-kosik .cart-table .p-price { align-self: end !important; justify-self: end !important; }
+html body.ps-rd.ordering-process .cart-wrapper { padding-left: 32px !important; padding-right: 32px !important; max-width: 1240px; box-sizing: border-box; }
+@media (max-width: 991px) { html body.ps-rd.ordering-process .cart-wrapper { padding-left: 14px !important; padding-right: 14px !important; } }
+html body.ps-rd.ordering-process main#content > .content-inner { max-width: 1240px !important; margin: 0 auto !important; padding: 0 32px 48px !important; box-sizing: border-box !important; width: 100% !important; }
+html body.ps-rd.ordering-process .cart-wrapper { padding-left: 0 !important; padding-right: 0 !important; padding-bottom: 0 !important; max-width: none !important; }
+@media (max-width: 991px) { html body.ps-rd.ordering-process main#content > .content-inner { padding: 0 14px 120px !important; } }
+
+/* Všetky možnosti ostávajú viditeľné – žiadne „Vybrať iný druh dopravy/platby“ (zbytočný klik navyše) */
+html body.ps-rd.ordering-process #order-form .cart-toggle-unselected-options { display: none !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper:not(.ps-hidden-opt) { max-height: none !important; height: auto !important; overflow: visible !important; opacity: 1 !important; visibility: visible !important; transform: none !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper.ps-hidden-opt { max-height: 0 !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; }
+html body.ps-rd.ordering-process .shipping-billing-table .question-tooltip { width: 18px !important; height: 18px !important; min-width: 18px !important; border-radius: 50% !important; background: #dbe5e9 !important; color: #41525a !important; font-size: 11px !important; font-weight: 800 !important; line-height: 18px !important; display: inline-grid !important; place-items: center !important; margin: 0 0 0 8px !important; padding: 0 !important; border: 0 !important; vertical-align: middle; text-align: center !important; }
+
+/* ---------- Mobil: položka košíka ---------- */
+@media (max-width: 991px) {
+  html body.ps-rd.in-kosik .cart-table tr.removeable { grid-template-columns: 78px minmax(0, 1fr) !important; grid-template-areas: "img name" "img avail" "qty total" "unit total" !important; gap: 4px 14px !important; padding: 14px !important; }
+  html body.ps-rd.in-kosik .cart-table tr.removeable > td.p-total { align-self: center !important; justify-self: end !important; align-items: flex-end !important; margin-top: 8px; }
+  html body.ps-rd.in-kosik .cart-table .p-quantity { justify-self: start !important; margin-top: 8px !important; }
+  html body.ps-rd.in-kosik .cart-table .p-price { justify-self: start !important; align-self: start !important; padding-left: 6px; }
+  html body.ps-rd.in-kosik .cart-table tr.removeable > td { min-width: 0; }
+  html body.ps-rd.in-kosik .cart-table .p-total > strong.price-final { font-size: 19px !important; }
+}
+html body.ps-rd.in-kosik .cart-table .p-total > form, html body.ps-rd.in-kosik .cart-table .p-total > form .inline { display: block !important; visibility: visible !important; opacity: 1 !important; height: auto !important; }
+html body.ps-rd.in-kosik .cart-table .p-total .remove-item { display: inline-flex !important; width: auto !important; height: auto !important; }
+@media (max-width: 991px) { html body.ps-rd.ordering-process .next-step .btn-conversion::after { display: none !important; } }
+
+/* ---------- Mobil: dlaždice (téma tam prebíja odsadenie) ---------- */
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper { padding: 0 !important; margin: 0 0 12px !important; border: 0 !important; background: none !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label { padding: 14px 18px !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .sublabel a, html body.ps-rd.ordering-process #order-form .shipping-billing-table .sublabel a.ps-pickup-btn { display: inline-flex !important; width: auto !important; padding: 7px 14px !important; margin: 0 !important; min-height: 0 !important; height: auto !important; line-height: 1.2 !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .sublabel { display: block !important; width: auto !important; }
+@media (max-width: 991px) {
+  html body.ps-rd.ordering-process #order-form .co-box, html body.ps-rd.ordering-process #order-form .box-bg-default.co-box { padding: 18px 14px !important; margin: 0 0 14px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label { padding: 12px 12px !important; gap: 11px !important; min-height: 64px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info { flex: 1 1 0 !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-shipping-price { font-size: 14.5px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { width: 22px !important; height: 22px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper.active > label::after, html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > input:checked + label::after { border-width: 6px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .shipping-billing-name { font-size: 15.5px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .sublabel a { font-size: 13px !important; padding: 6px 12px !important; }
+}
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-logo { display: grid !important; visibility: visible !important; width: 68px !important; height: 46px !important; margin: 0 !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .sublabel a, html body.ps-rd.ordering-process #order-form .shipping-billing-table .sublabel a.ps-pickup-btn { border-radius: 999px !important; white-space: normal !important; max-width: 100% !important; border: 1.5px solid var(--g) !important; background: #fff !important; color: var(--g) !important; box-shadow: none !important; outline: 0 !important; text-decoration: none !important; }
+@media (max-width: 991px) {
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-logo, html body.ps-rd.ordering-process #order-form .shipping-billing-table .ps-ico { width: 46px !important; height: 36px !important; padding: 4px !important; border-radius: 10px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .ps-ico svg { width: 22px !important; height: 22px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info { min-width: 0 !important; }
+}
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info { display: block !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info .sublabel { display: block !important; margin-top: 6px !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { display: inline-flex !important; width: auto !important; max-width: 100% !important; }
+html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info > span:not(.sublabel) { display: inline-block !important; }
+@media (max-width: 991px) {
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label { gap: 10px !important; padding: 12px 11px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-logo, html body.ps-rd.ordering-process #order-form .shipping-billing-table .ps-ico { width: 40px !important; height: 32px !important; padding: 3px !important; border-radius: 9px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .ps-ico svg { width: 20px !important; height: 20px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { font-size: 12.5px !important; padding: 5px 10px !important; border-radius: 14px !important; gap: 4px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-shipping-price { font-size: 14px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { margin-left: 0 !important; }
+}
+
+/* ---------- Mobil: krok 2 ---------- */
+@media (max-width: 991px) {
+  html body.ps-rd.in-krok-2 #order-form fieldset.co-box, html body.ps-rd.in-krok-2 #order-form .co-box fieldset { grid-template-columns: minmax(0, 1fr) !important; column-gap: 0 !important; }
+  html body.ps-rd.in-krok-2 #order-form .co-box .form-group { grid-column: 1 / -1 !important; }
+  html body.ps-rd.in-krok-2 #order-form .co-box .form-group.company-shopping, html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(input[type=checkbox]) { flex-direction: row !important; justify-content: flex-start !important; text-align: left !important; }
+  html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] + label, html body.ps-rd.in-krok-2 #order-form .co-box label.whole-width { text-align: left !important; }
+  html body.ps-rd.in-krok-2 #submit-order { font-size: 15px !important; min-height: 52px !important; padding: 8px 12px !important; line-height: 1.2 !important; }
+  html body.ps-rd.in-krok-2 #submit-order .order-button-text, html body.ps-rd.in-krok-2 #submit-order .order-button-suffix { font-size: 15px !important; display: inline !important; visibility: visible !important; width: auto !important; height: auto !important; position: static !important; clip: auto !important; }
+}
+
+/* PremiumStore – NÁVRH B (mobile-first, plochý zoznam): vrstva nad dizajnom A, platí len ≤991 px, desktop ostáva ako A. */
+@media (max-width: 991px) {
+  html body.ps-rd.ps-rb.ordering-process { background: #fff !important; padding-bottom: 88px; }
+  body.ps-rb.ordering-process .cart-wrapper { padding: 0 0 24px !important; }
+
+  /* ---- Indikátor krokov: tenký tri-segmentový pruh + jedna veta ---- */
+  html body.ps-rb.ordering-process main#content ol.cart-header { max-width: none !important; margin: 0 !important; padding: 14px 16px 10px !important; gap: 6px !important; position: relative !important; flex-wrap: nowrap !important; align-items: flex-start !important; justify-content: flex-start !important; background: #fff !important; }
+  body.ps-rb .ps-stepline { padding: 14px 16px 0; font-size: 13px; font-weight: 700; color: var(--ink); background: #fff; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step { flex: 1 1 0 !important; height: 5px !important; min-height: 0 !important; border-radius: 3px !important; background: var(--line) !important; overflow: hidden !important; font-size: 0 !important; gap: 0 !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step::before, html body.ps-rb.ordering-process main#content ol.cart-header > li.step::after { display: none !important; content: none !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step > * { display: none !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.completed, html body.ps-rb.ordering-process main#content ol.cart-header > li.active { background: var(--g) !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.active { background: linear-gradient(90deg, var(--g) 55%, var(--line) 55%) !important; }
+
+  /* ---- Sekcie: bez kariet a tieňov, len deliace čiary ---- */
+  body.ps-rb.ordering-process .co-box, body.ps-rb.ordering-process #order-form .box-bg-default.co-box { box-shadow: none !important; border-radius: 0 !important; background: #fff !important; padding: 18px 16px 8px !important; margin: 0 !important; border-top: 8px solid var(--bg) !important; }
+  html body.ps-rb.ordering-process .co-box > h2, html body.ps-rb.ordering-process .co-box h2.order-icon, html body.ps-rb.ordering-process .co-box legend { font-size: 18px !important; margin: 0 0 6px !important; }
+  html body.ps-rb.ordering-process .co-box > h2::before, html body.ps-rb.ordering-process .co-box h2.order-icon::before { display: none !important; content: none !important; }
+
+  /* ---- Doprava a platba: jeden zoznam, rádio vľavo, cena vpravo ---- */
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper { margin: 0 !important; border: 0 !important; border-bottom: 1px solid var(--line) !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > label { padding: 13px 2px !important; min-height: 60px !important; border: 0 !important; background: transparent !important; border-radius: 0 !important; box-shadow: none !important; gap: 12px !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { order: -1 !important; margin: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-logo, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .ps-ico { width: 44px !important; height: 34px !important; flex: 0 0 44px !important; border: 0 !important; background: transparent !important; padding: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-logo img { max-width: 44px !important; max-height: 30px !important; object-fit: contain; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .ps-ico { color: var(--g) !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .shipping-billing-name { font-size: 15px !important; font-weight: 700 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-shipping-price { font-size: 14px !important; white-space: nowrap; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-shipping-price.ps-free { color: var(--g) !important; }
+  /* odberné miesto: obyčajný zelený odkaz namiesto tlačidla */
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { border: 0 !important; background: transparent !important; padding: 2px 0 0 !important; font-size: 13px !important; font-weight: 700 !important; text-decoration: underline !important; text-underline-offset: 2px; border-radius: 0 !important; }
+  /* vybraná položka: zelené podfarbenie a pruh vľavo */
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper.active, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper:has(> input:checked) { background: var(--gs) !important; box-shadow: inset 4px 0 0 var(--g) !important; margin: 0 -16px !important; padding: 0 16px !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper.active > label, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > input:checked + label { background: transparent !important; box-shadow: none !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .ps-more-btn { border: 0 !important; background: transparent !important; color: var(--g) !important; justify-content: flex-start !important; padding: 14px 2px !important; text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ---- Súhrn: sivá plocha dole, veľké tlačidlo nahradí pevná lišta ---- */
+  body.ps-rb.ordering-process .order-summary-inner, body.ps-rb.ordering-process #summary-box { box-shadow: none !important; border-radius: 0 !important; background: var(--bg) !important; border: 0 !important; margin: 8px 0 0 !important; padding: 18px 16px !important; }
+  body.ps-rb.ordering-process .order-summary-inner .next-step, body.ps-rb.ordering-process #summary-box .next-step { display: none !important; }
+
+  /* ---- Krok 2: plochý formulár, vyššie polia, popisky nad poľom ---- */
+  body.ps-rb.ordering-process #order-form input[type=text], body.ps-rb.ordering-process #order-form input[type=email], body.ps-rb.ordering-process #order-form input[type=tel], body.ps-rb.ordering-process #order-form select, body.ps-rb.ordering-process #order-form textarea { height: 52px !important; border-radius: 10px !important; border: 1.5px solid #cfd9dd !important; background: #fff !important; font-size: 16px !important; box-shadow: none !important; }
+  body.ps-rb.ordering-process #order-form textarea { height: auto !important; min-height: 90px; }
+  body.ps-rb.ordering-process #order-form input:focus, body.ps-rb.ordering-process #order-form select:focus { border-color: var(--g) !important; box-shadow: 0 0 0 3px rgba(22,116,80,.15) !important; outline: 0 !important; }
+  body.ps-rb.ordering-process #order-form label { font-size: 13px !important; font-weight: 700 !important; color: var(--mut) !important; }
+
+  /* ---- Pevná spodná lišta (košík a krok 1) ---- */
+  .ps-bar { display: none; }
+  body.ps-rb .ps-bar { display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 9000; align-items: center; gap: 14px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); background: #fff; box-shadow: 0 -6px 20px rgba(14,21,28,.12); }
+  body.ps-rb .ps-bar-sum { display: flex; flex-direction: column; line-height: 1.15; min-width: 92px; }
+  body.ps-rb .ps-bar-sum span { font-size: 12px; color: var(--mut); font-weight: 600; }
+  body.ps-rb .ps-bar-sum strong { font-size: 19px; font-weight: 800; color: var(--ink); }
+  body.ps-rb .ps-bar-btn { flex: 1; white-space: nowrap; padding: 0 8px; height: 50px; border: 0; border-radius: 12px; background: var(--g); color: #fff; font-size: 16px; font-weight: 800; font-family: inherit; }
+  body.ps-rb .ps-bar-btn:active { background: #0f5a3d; }
+
+  /* doladenie: biele pozadie, menšie medzery, bez zvyškov ozdôb v indikátore */
+  html body.ps-rd.ps-rb.ordering-process, html body.ps-rd.ps-rb.ordering-process main#content, html body.ps-rd.ps-rb.ordering-process #content-wrapper, html body.ps-rd.ps-rb.ordering-process .cart-wrapper, html body.ps-rd.ps-rb.ordering-process .cart-inner { background: #fff !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header { margin: 0 !important; padding: 8px 16px 14px !important; background: #fff !important; list-style: none !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step { font-size: 0 !important; line-height: 0 !important; color: transparent !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step::marker { content: '' !important; font-size: 0 !important; }
+  html body.ps-rb.ordering-process .cart-wrapper > *:first-child, html body.ps-rb.ordering-process .cart-inner > *:first-child { margin-top: 0 !important; }
+  body.ps-rb.ordering-process .co-box:first-of-type { border-top: 0 !important; }
+  body.ps-rb.ordering-process .cart-content > .co-box .alert, body.ps-rb.ordering-process #order-form .co-box .shipping-info, body.ps-rb.ordering-process #order-form .co-box [class*=info-box] { background: transparent !important; border: 0 !important; padding: 0 0 8px !important; color: var(--mut) !important; font-size: 13.5px !important; }
+
+  html body.ps-rb.ordering-process main#content ol.cart-header::before, html body.ps-rb.ordering-process main#content ol.cart-header::after { display: none !important; content: none !important; }
+  html body.ps-rd.ps-rb.ordering-process .ps-note { background: transparent !important; border: 0 !important; padding: 0 0 6px !important; margin: 0 !important; color: var(--mut) !important; font-size: 13.5px !important; border-radius: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process .ps-note strong { color: var(--g) !important; }
+  html body.ps-rb.ordering-process .content-inner { padding: 0 !important; }
+  html body.ps-rb.ordering-process #order-form { margin-top: 0 !important; }
+
+  /* košík: plochý riadok položky, skryté duplicitné tlačidlo (nahrádza ho spodná lišta), kompaktné výhody */
+  html body.ps-rd.ps-rb.in-kosik .next-step .btn-conversion.next-step-forward, html body.ps-rd.ps-rb.in-krok-1 .next-step .btn-conversion.next-step-forward, html body.ps-rd.ps-rb.in-kosik #continue-order-button, html body.ps-rd.ps-rb.in-krok-1 #orderFormButton { display: none !important; }
+  html body.ps-rd.ps-rb.in-kosik .cart-table, html body.ps-rd.ps-rb.in-kosik .cart-table tr, html body.ps-rd.ps-rb.in-kosik .cart-table .cart-item { box-shadow: none !important; border-radius: 0 !important; border-left: 0 !important; border-right: 0 !important; background: #fff !important; }
+  html body.ps-rd.ps-rb.in-kosik .cart-table tr { border-bottom: 1px solid var(--line) !important; border-top: 0 !important; }
+  html body.ps-rd.ps-rb.in-kosik .cart-content { padding: 0 16px !important; }
+  html body.ps-rd.ps-rb.in-kosik .cart-summary, html body.ps-rd.ps-rb.in-kosik .order-summary-inner, html body.ps-rd.ps-rb.in-kosik #summary-box { box-shadow: none !important; border-radius: 12px !important; background: var(--bg) !important; padding: 14px 16px !important; margin: 12px 0 !important; }
+  html body.ps-rd.ps-rb.in-kosik .order-summary-inner h2, html body.ps-rd.ps-rb.in-kosik .cart-summary h2 { display: none !important; }
+}
+
+/* ===== Variant B aj na desktope (nad 991 px): rovnaký plochý štýl, rozloženie do dvoch stĺpcov ostáva z A. Spodná lišta sa nepoužíva, tlačidlo je v súhrne. ===== */
+@media (min-width: 992px) {
+  html body.ps-rb.ordering-process main#content ol.cart-header { max-width: none !important; margin: 0 0 6px !important; padding: 6px 0 14px !important; gap: 8px !important; flex-wrap: nowrap !important; align-items: flex-start !important; justify-content: flex-start !important; background: transparent !important; list-style: none !important; }
+  body.ps-rb .ps-stepline { padding: 10px 0 0; font-size: 14px; font-weight: 700; color: var(--ink); background: transparent; }
+  body.ps-rb.ordering-process .cart-wrapper { max-width: 1180px; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step { flex: 1 1 0 !important; height: 5px !important; min-height: 0 !important; border-radius: 3px !important; background: var(--line) !important; overflow: hidden !important; font-size: 0 !important; gap: 0 !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step::before, html body.ps-rb.ordering-process main#content ol.cart-header > li.step::after { display: none !important; content: none !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step > * { display: none !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.completed, html body.ps-rb.ordering-process main#content ol.cart-header > li.active { background: var(--g) !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.active { background: linear-gradient(90deg, var(--g) 55%, var(--line) 55%) !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step { font-size: 0 !important; line-height: 0 !important; color: transparent !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step::marker { content: '' !important; font-size: 0 !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header::before, html body.ps-rb.ordering-process main#content ol.cart-header::after { display: none !important; content: none !important; }
+  /* sekcie: bez kariet, len deliaca čiara */
+  body.ps-rb.ordering-process .co-box, body.ps-rb.ordering-process #order-form .box-bg-default.co-box { box-shadow: none !important; border-radius: 0 !important; background: transparent !important; padding: 22px 0 8px !important; margin: 0 !important; border: 0 !important; border-top: 1px solid var(--line) !important; }
+  body.ps-rb.ordering-process #order-form .co-box:first-of-type { border-top: 0 !important; }
+  html body.ps-rb.ordering-process .co-box > h2::before, html body.ps-rb.ordering-process .co-box h2.order-icon::before { display: none !important; content: none !important; }
+  /* súhrn: sivý panel vpravo */
+  body.ps-rb.ordering-process .order-summary-inner, body.ps-rb.ordering-process #summary-box { box-shadow: none !important; background: var(--bg) !important; border: 0 !important; border-radius: 14px !important; }
+  /* ---- Doprava a platba: jeden zoznam, rádio vľavo, cena vpravo ---- */
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper { margin: 0 !important; border: 0 !important; border-bottom: 1px solid var(--line) !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > label { padding: 13px 2px !important; min-height: 60px !important; border: 0 !important; background: transparent !important; border-radius: 0 !important; box-shadow: none !important; gap: 12px !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { order: -1 !important; margin: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-logo, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .ps-ico { width: 44px !important; height: 34px !important; flex: 0 0 44px !important; border: 0 !important; background: transparent !important; padding: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-logo img { max-width: 44px !important; max-height: 30px !important; object-fit: contain; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .ps-ico { color: var(--g) !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .shipping-billing-name { font-size: 15px !important; font-weight: 700 !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-shipping-price { font-size: 14px !important; white-space: nowrap; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-shipping-price.ps-free { color: var(--g) !important; }
+  /* odberné miesto: obyčajný zelený odkaz namiesto tlačidla */
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { border: 0 !important; background: transparent !important; padding: 2px 0 0 !important; font-size: 13px !important; font-weight: 700 !important; text-decoration: underline !important; text-underline-offset: 2px; border-radius: 0 !important; }
+  /* vybraná položka: zelené podfarbenie a pruh vľavo */
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper.active, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper:has(> input:checked) { background: var(--gs) !important; box-shadow: inset 4px 0 0 var(--g) !important; margin: 0 -14px !important; padding: 0 14px !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper.active > label, html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .radio-wrapper > input:checked + label { background: transparent !important; box-shadow: none !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .ps-more-btn { border: 0 !important; background: transparent !important; color: var(--g) !important; justify-content: flex-start !important; padding: 14px 2px !important; text-decoration: underline; text-underline-offset: 3px; }
+  body.ps-rb.ordering-process #order-form input[type=text], body.ps-rb.ordering-process #order-form input[type=email], body.ps-rb.ordering-process #order-form input[type=tel], body.ps-rb.ordering-process #order-form select, body.ps-rb.ordering-process #order-form textarea { height: 52px !important; border-radius: 10px !important; border: 1.5px solid #cfd9dd !important; background: #fff !important; font-size: 16px !important; box-shadow: none !important; }
+  body.ps-rb.ordering-process #order-form textarea { height: auto !important; min-height: 90px; }
+  body.ps-rb.ordering-process #order-form input:focus, body.ps-rb.ordering-process #order-form select:focus { border-color: var(--g) !important; box-shadow: 0 0 0 3px rgba(22,116,80,.15) !important; outline: 0 !important; }
+  body.ps-rb.ordering-process #order-form label { font-size: 13px !important; font-weight: 700 !important; color: var(--mut) !important; }
+  body.ps-rb.ordering-process .cart-content > .co-box .alert, body.ps-rb.ordering-process #order-form .co-box .shipping-info, body.ps-rb.ordering-process #order-form .co-box [class*=info-box] { background: transparent !important; border: 0 !important; padding: 0 0 8px !important; color: var(--mut) !important; font-size: 13.5px !important; }
+  html body.ps-rd.ps-rb.ordering-process .ps-note { background: transparent !important; border: 0 !important; padding: 0 0 6px !important; margin: 0 !important; color: var(--mut) !important; font-size: 13.5px !important; border-radius: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process .ps-note strong { color: var(--g) !important; }
+  html body.ps-rb.ordering-process .ps-bar, html body.ps-rb .ps-bar { display: none !important; }
+}
+
+/* Bez bliknutia starého vzhľadu: kým JS nepridá triedu ps-rd, obsah je krátko skrytý. Ak by JS zlyhal, obsah sa sám zobrazí po 0,6 s. */
+@keyframes ps-rd-reveal { to { opacity: 1; } }
+body.ordering-process:not(.ps-rd) main#content { opacity: 0; animation: ps-rd-reveal 0s linear .6s forwards; }
