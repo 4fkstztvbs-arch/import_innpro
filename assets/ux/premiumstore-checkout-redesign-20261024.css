@@ -424,7 +424,7 @@ html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-in
 
   /* ---- Súhrn: sivá plocha dole, veľké tlačidlo nahradí pevná lišta ---- */
   body.ps-rb.ordering-process .order-summary-inner, body.ps-rb.ordering-process #summary-box { box-shadow: none !important; border-radius: 0 !important; background: var(--bg) !important; border: 0 !important; margin: 8px 0 0 !important; padding: 18px 16px !important; }
-  body.ps-rb.ordering-process .order-summary-inner .next-step, body.ps-rb.ordering-process #summary-box .next-step { display: none !important; }
+  body.ps-rb.in-kosik .order-summary-inner .next-step, body.ps-rb.in-krok-1 .order-summary-inner .next-step, body.ps-rb.in-kosik #summary-box .next-step, body.ps-rb.in-krok-1 #summary-box .next-step { display: none !important; }
 
   /* ---- Krok 2: plochý formulár, vyššie polia, popisky nad poľom ---- */
   body.ps-rb.ordering-process #order-form input[type=text], body.ps-rb.ordering-process #order-form input[type=email], body.ps-rb.ordering-process #order-form input[type=tel], body.ps-rb.ordering-process #order-form select, body.ps-rb.ordering-process #order-form textarea { height: 52px !important; border-radius: 10px !important; border: 1.5px solid #cfd9dd !important; background: #fff !important; font-size: 16px !important; box-shadow: none !important; }
@@ -463,6 +463,18 @@ html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-in
   html body.ps-rd.ps-rb.in-kosik .cart-content { padding: 0 16px !important; }
   html body.ps-rd.ps-rb.in-kosik .cart-summary, html body.ps-rd.ps-rb.in-kosik .order-summary-inner, html body.ps-rd.ps-rb.in-kosik #summary-box { box-shadow: none !important; border-radius: 12px !important; background: var(--bg) !important; padding: 14px 16px !important; margin: 12px 0 !important; }
   html body.ps-rd.ps-rb.in-kosik .order-summary-inner h2, html body.ps-rd.ps-rb.in-kosik .cart-summary h2 { display: none !important; }
+
+  /* Spodná lišta témy v kroku 2: text vždy „Objednať s povinnosťou platby“ cez CSS (bez blikania pri prepisovaní textu témou). */
+  html body.ps-rd.ps-rb.in-krok-2 div.is-on > button { font-size: 0 !important; line-height: 0 !important; white-space: nowrap !important; }
+  html body.ps-rd.ps-rb.in-krok-2 div.is-on > button::after { content: 'Objednať s povinnosťou platby'; font-size: 15px; line-height: 1.2; font-weight: 800; display: block; }
+}
+/* Veľmi úzke displeje (do 360 px): menšie ovládanie množstva v košíku a kompaktnejší odkaz na odberné miesto */
+@media (max-width: 360px) {
+  html body.ps-rd.in-kosik .cart-table .quantity { max-width: 132px !important; }
+  html body.ps-rd.in-kosik .cart-table .quantity button { width: 34px !important; }
+  html body.ps-rd.in-kosik .cart-table .quantity input.amount { width: 36px !important; }
+  html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { font-size: 12px !important; }
+  body.ps-rb .ps-bar-btn { font-size: 15px; }
 }
 
 /* ===== Variant B aj na desktope (nad 991 px): rovnaký plochý štýl, rozloženie do dvoch stĺpcov ostáva z A. Spodná lišta sa nepoužíva, tlačidlo je v súhrne. ===== */
