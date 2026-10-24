@@ -279,3 +279,8 @@ html body.ps-rd.ordering-process #summary-box .order-summary-item.price { paddin
 html body.ps-rd.ordering-process .order-summary-inner, html body.ps-rd.ordering-process .order-summary-inner .next-step, html body.ps-rd.ordering-process .order-summary-inner .price-wrapper,
 html body.ps-rd.ordering-process .order-summary-inner .btn-conversion, html body.ps-rd.ordering-process #submit-order { box-sizing: border-box !important; max-width: 100% !important; }
 html body.ps-rd.ordering-process .order-summary-inner { width: 100% !important; }
+html body.ps-rd.ordering-process #summary-box .price-wrapper { padding: 0 !important; width: 100% !important; margin: 0 !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box input.form-control, html body.ps-rd.in-krok-2 #order-form .co-box select.form-control, html body.ps-rd.in-krok-2 #order-form .co-box textarea.form-control,
+html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input, html body.ps-rd.in-krok-2 #order-form .co-box .form-control-wrapper { max-width: none !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input { width: 100% !important; box-sizing: border-box !important; }
+html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input input#phone { flex: 1 1 auto !important; min-width: 0 !important; width: auto !important; }
