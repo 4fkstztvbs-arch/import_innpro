@@ -286,4 +286,3 @@ html body.ps-rd.ordering-process #summary-box .next-step { padding: 0 !important
 html body.ps-rd.ordering-process #summary-box .order-summary-item.helper { border: 0 !important; border-top: 1px solid #edf2f4 !important; margin-top: 4px; }
 html body.ps-rd.ordering-process #summary-box .order-recapitulation { border: 0 !important; margin: 0 !important; padding: 2px 0 8px !important; }
 html body.ps-rd.ordering-process #summary-box .order-summary-item.price { padding: 12px 0 0 !important; margin: 0 !important; border: 0 !important; border-top: 2px solid #edf2f4 !important; }
-html body.ps-rd.ordering-process #summary-box .preauthorization-box { display: none; }
