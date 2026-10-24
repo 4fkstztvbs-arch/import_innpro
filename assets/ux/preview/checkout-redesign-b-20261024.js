@@ -22,7 +22,7 @@
   }
 
   function total() {
-    var p = $('.order-summary-inner strong.price-primary, #summary-box strong.price-primary');
+    var p = $('strong.price-primary');
     return p ? p.textContent.replace(/\s+/g, ' ').trim() : '';
   }
 

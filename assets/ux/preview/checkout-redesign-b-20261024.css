@@ -67,4 +67,12 @@
   html body.ps-rd.ps-rb.ordering-process .ps-note strong { color: var(--g) !important; }
   html body.ps-rb.ordering-process .content-inner { padding: 0 !important; }
   html body.ps-rb.ordering-process #order-form { margin-top: 0 !important; }
+
+  /* košík: plochý riadok položky, skryté duplicitné tlačidlo (nahrádza ho spodná lišta), kompaktné výhody */
+  body.ps-rb.in-kosik .next-step-forward, body.ps-rb.in-krok-1 .next-step-forward { display: none !important; }
+  html body.ps-rd.ps-rb.in-kosik .cart-table, html body.ps-rd.ps-rb.in-kosik .cart-table tr, html body.ps-rd.ps-rb.in-kosik .cart-table .cart-item { box-shadow: none !important; border-radius: 0 !important; border-left: 0 !important; border-right: 0 !important; background: #fff !important; }
+  html body.ps-rd.ps-rb.in-kosik .cart-table tr { border-bottom: 1px solid var(--line) !important; border-top: 0 !important; }
+  html body.ps-rd.ps-rb.in-kosik .cart-content { padding: 0 16px !important; }
+  html body.ps-rd.ps-rb.in-kosik .cart-summary, html body.ps-rd.ps-rb.in-kosik .order-summary-inner, html body.ps-rd.ps-rb.in-kosik #summary-box { box-shadow: none !important; border-radius: 12px !important; background: var(--bg) !important; padding: 14px 16px !important; margin: 12px 0 !important; }
+  html body.ps-rd.ps-rb.in-kosik .order-summary-inner h2, html body.ps-rd.ps-rb.in-kosik .cart-summary h2 { display: none !important; }
 }
