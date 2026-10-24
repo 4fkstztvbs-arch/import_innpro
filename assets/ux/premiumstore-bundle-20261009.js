@@ -3440,7 +3440,7 @@ try {
   'use strict';
   var b = document.body;
   if (!b || !b.classList.contains('ordering-process')) return;
-  var v = 'redesign-20261024-' + (window.innerWidth <= 991 ? 'B-mobil' : 'A-desktop');
+  var v = 'redesign-20261024-' + (window.innerWidth <= 991 ? 'B-mobil' : 'B-desktop');
   try { if (typeof window.clarity === 'function') { window.clarity('set', 'checkout_design', v); } } catch (e) {}
   try { if (typeof window.gtag === 'function') { window.gtag('set', 'user_properties', { checkout_design: v }); } } catch (e) {}
 })();
