@@ -218,39 +218,27 @@ body.ps-rd.in-kosik .ps-pay__label { display: block; font-size: 12.5px; color: v
 /* ---------- Krok 2: formulár ---------- */
 body.ps-rd.in-krok-2 .cart-content > .helper {
   background: var(--gs); border: 1px solid var(--gline); border-radius: 14px; padding: 13px 18px !important; margin: 0 0 20px !important; font-size: 14.5px; color: #14543b;
-}
-body.ps-rd.in-krok-2 .cart-content > .helper a { color: var(--g); font-weight: 800; }
-body.ps-rd.in-krok-2 #order-form fieldset.co-box, body.ps-rd.in-krok-2 #order-form .co-box fieldset { min-width: 0; border: 0; margin: 0; padding: 0; }
-body.ps-rd.in-krok-2 #order-form fieldset.co-box { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 18px; align-content: start; padding: 26px 28px !important; }
-body.ps-rd.in-krok-2 #order-form .co-box fieldset { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 18px; padding: 0 !important; background: none; box-shadow: none; }
-body.ps-rd.in-krok-2 .co-box > h2, body.ps-rd.in-krok-2 .co-box .form-legend, body.ps-rd.in-krok-2 .co-box fieldset > h2 { grid-column: 1 / -1; }
-body.ps-rd.in-krok-2 .co-box .form-legend { margin: -10px 0 16px; font-size: 12.5px; color: var(--mut); text-align: left; }
-body.ps-rd.in-krok-2 .co-box .form-legend .required-asterisk { padding: 0; }
-body.ps-rd.in-krok-2 .co-box .form-group { grid-column: auto; margin: 0 0 16px !important; display: block !important; width: auto !important; float: none !important; padding: 0 !important; }
-body.ps-rd.in-krok-2 .co-box .form-group:has(#billFullName), body.ps-rd.in-krok-2 .co-box .form-group:has(#billStreet),
-body.ps-rd.in-krok-2 .co-box .form-group:has(#company-shopping), body.ps-rd.in-krok-2 .co-box .form-group:has(#billCompany),
-body.ps-rd.in-krok-2 .co-box .form-group:has(#remark), body.ps-rd.in-krok-2 .co-box .form-group:has(#add-note),
-body.ps-rd.in-krok-2 .co-box .form-group:has(#billCountryId), body.ps-rd.in-krok-2 .co-box .form-group:has(input[type=checkbox]) { grid-column: 1 / -1; }
-body.ps-rd.in-krok-2 .co-box .form-group > label { display: block !important; width: auto !important; float: none !important; padding: 0 !important; margin: 0 0 7px !important; font-size: 14px; font-weight: 700; color: var(--ink); text-align: left; }
-body.ps-rd.in-krok-2 .co-box .form-group > label .required-asterisk::after, body.ps-rd.in-krok-2 .co-box .required-asterisk--before::before { color: #c0392b; }
-body.ps-rd.in-krok-2 .co-box .form-control-wrapper { width: 100% !important; float: none !important; padding: 0 !important; margin: 0 !important; }
-html body.ps-rd.in-krok-2 #order-form .co-box input.form-control:not([type=checkbox]):not([type=radio]), html body.ps-rd.in-krok-2 #order-form .co-box select.form-control {
-  min-height: 52px !important; border: 1.5px solid var(--line) !important; border-radius: 12px !important; background: #fff; font-size: 16px !important; padding: 0 16px; width: 100%; box-sizing: border-box; color: var(--ink);
-}
-html body.ps-rd.in-krok-2 #order-form .co-box input.form-control:focus, html body.ps-rd.in-krok-2 #order-form .co-box textarea.form-control:focus { border-color: var(--g) !important; outline: 3px solid rgba(22,116,80,.18); outline-offset: 0; }
-html body.ps-rd.in-krok-2 #order-form .co-box textarea.form-control { border-radius: 12px !important; border: 1.5px solid var(--line) !important; min-height: 110px; padding: 12px 16px; width: 100%; box-sizing: border-box; }
-body.ps-rd.in-krok-2 .co-box .phone-combined-input { display: flex !important; align-items: center; gap: 10px; border: 1.5px solid var(--line); border-radius: 12px; background: #fff; padding-left: 12px; }
-body.ps-rd.in-krok-2 .co-box .phone-combined-input input.form-control { border: 0 !important; min-height: 49px !important; flex: 1; border-radius: 0 12px 12px 0 !important; }
-body.ps-rd.in-krok-2 .co-box .phone-combined-input:focus-within { border-color: var(--g); outline: 3px solid rgba(22,116,80,.18); }
-body.ps-rd.in-krok-2 .co-box .stay-in-touch, body.ps-rd.in-krok-2 .co-box-additional fieldset { grid-column: 1 / -1; }
+}html body.ps-rd.in-krok-2 #order-form .cart-content > .helper a { color: var(--g) !important; font-weight: 800 !important; }html body.ps-rd.in-krok-2 #order-form fieldset.co-box,
+html body.ps-rd.in-krok-2 #order-form .co-box fieldset { min-width: 0 !important; border: 0 !important; margin: 0 !important; padding: 0 !important; }html body.ps-rd.in-krok-2 #order-form fieldset.co-box { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; column-gap: 18px !important; align-content: start !important; padding: 26px 28px !important; }html body.ps-rd.in-krok-2 #order-form .co-box fieldset { display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)) !important; column-gap: 18px !important; padding: 0 !important; background: none !important; box-shadow: none !important; }html body.ps-rd.in-krok-2 #order-form .co-box > h2,
+html body.ps-rd.in-krok-2 #order-form .co-box .form-legend,
+html body.ps-rd.in-krok-2 #order-form .co-box fieldset > h2 { grid-column: 1 / -1 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-legend { margin: -10px 0 16px !important; font-size: 12.5px !important; color: var(--mut) !important; text-align: left !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-legend .required-asterisk { padding: 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-group { grid-column: auto !important; margin: 0 0 16px !important; display: block !important; width: auto !important; float: none !important; padding: 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#billFullName),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#billStreet),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#company-shopping),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#billCompany),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#remark),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#add-note),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(#billCountryId),
+html body.ps-rd.in-krok-2 #order-form .co-box .form-group:has(input[type=checkbox]) { grid-column: 1 / -1 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-group > label { display: block !important; width: auto !important; float: none !important; padding: 0 !important; margin: 0 0 7px !important; font-size: 14px !important; font-weight: 700 !important; color: var(--ink) !important; text-align: left !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-group > label .required-asterisk::after,
+html body.ps-rd.in-krok-2 #order-form .co-box .required-asterisk--before::before { color: #c0392b !important; }html body.ps-rd.in-krok-2 #order-form .co-box .form-control-wrapper { width: 100% !important; float: none !important; padding: 0 !important; margin: 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box input.form-control:not([type=checkbox]):not([type=radio]),
+html body.ps-rd.in-krok-2 #order-form .co-box select.form-control { min-height: 52px !important; border: 1.5px solid var(--line) !important; border-radius: 12px !important; background: #fff !important; font-size: 16px !important; padding: 0 16px !important; width: 100% !important; box-sizing: border-box !important; color: var(--ink) !important; }html body.ps-rd.in-krok-2 #order-form .co-box input.form-control:focus,
+html body.ps-rd.in-krok-2 #order-form .co-box textarea.form-control:focus { border-color: var(--g) !important; outline: 3px solid rgba(22,116,80,.18) !important; outline-offset: 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box textarea.form-control { border-radius: 12px !important; border: 1.5px solid var(--line) !important; min-height: 110px !important; padding: 12px 16px !important; width: 100% !important; box-sizing: border-box !important; }html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input { display: flex !important; align-items: center !important; gap: 10px !important; border: 1.5px solid var(--line) !important; border-radius: 12px !important; background: #fff !important; padding-left: 12px !important; }html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input input.form-control { border: 0 !important; min-height: 49px !important; flex: 1 !important; border-radius: 0 12px 12px 0 !important; }html body.ps-rd.in-krok-2 #order-form .co-box .phone-combined-input:focus-within { border-color: var(--g) !important; outline: 3px solid rgba(22,116,80,.18) !important; }html body.ps-rd.in-krok-2 #order-form .co-box .stay-in-touch,
+html body.ps-rd.in-krok-2 #order-form .co-box-additional fieldset { grid-column: 1 / -1 !important; }
 /* zaškrtávacie polia */
-body.ps-rd.in-krok-2 .co-box .checkbox, body.ps-rd.in-krok-2 .co-box .form-group--checkbox, body.ps-rd.in-krok-2 .co-box .custom-control { margin: 0 0 10px; }
-body.ps-rd.in-krok-2 .co-box input[type=checkbox] { accent-color: var(--g); width: 20px; height: 20px; }
-body.ps-rd.in-krok-2 .co-box label[for="company-shopping"], body.ps-rd.in-krok-2 .co-box label[for="add-note"], body.ps-rd.in-krok-2 .co-box label[for="set-registration"] { font-weight: 600; font-size: 15px; cursor: pointer; }
-body.ps-rd.in-krok-2 .co-box-additional { padding-top: 22px !important; }
-body.ps-rd.in-krok-2 #submit-order { font-size: 18px; min-height: 62px; }
-body.ps-rd.in-krok-2 .order-summary-inner .consents, body.ps-rd.in-krok-2 .order-summary-inner p, body.ps-rd.in-krok-2 .order-summary-inner .terms { font-size: 12.5px; color: var(--mut); line-height: 1.5; }
-body.ps-rd.in-krok-2 .ps-change { margin-left: auto; color: var(--g); font-weight: 700; font-size: 13px; text-decoration: none; }
+body.ps-rd.in-krok-2 .co-box .checkbox, body.ps-rd.in-krok-2 .co-box .form-group--checkbox, body.ps-rd.in-krok-2 .co-box .custom-control { margin: 0 0 10px; }html body.ps-rd.in-krok-2 #order-form .co-box input[type=checkbox] { accent-color: var(--g) !important; width: 20px !important; height: 20px !important; }html body.ps-rd.in-krok-2 #order-form .co-box label[for="company-shopping"],
+html body.ps-rd.in-krok-2 #order-form .co-box label[for="add-note"],
+html body.ps-rd.in-krok-2 #order-form .co-box label[for="set-registration"] { font-weight: 600 !important; font-size: 15px !important; cursor: pointer !important; }html body.ps-rd.in-krok-2 #order-form .co-box-additional { padding-top: 22px !important; }html body.ps-rd.in-krok-2 #submit-order { font-size: 18px !important; min-height: 62px !important; }html body.ps-rd.in-krok-2 .order-summary-inner .consents,
+html body.ps-rd.in-krok-2 .order-summary-inner p,
+html body.ps-rd.in-krok-2 .order-summary-inner .terms { font-size: 12.5px !important; color: var(--mut) !important; line-height: 1.5 !important; }html body.ps-rd.in-krok-2 .ps-change { margin-left: auto !important; color: var(--g) !important; font-weight: 700 !important; font-size: 13px !important; text-decoration: none !important; }
 
 /* ---------- Mobil ---------- */
 @media (max-width: 991px) {
@@ -286,3 +274,8 @@ html body.ps-rd.ordering-process #summary-box .next-step { padding: 0 !important
 html body.ps-rd.ordering-process #summary-box .order-summary-item.helper { border: 0 !important; border-top: 1px solid #edf2f4 !important; margin-top: 4px; }
 html body.ps-rd.ordering-process #summary-box .order-recapitulation { border: 0 !important; margin: 0 !important; padding: 2px 0 8px !important; }
 html body.ps-rd.ordering-process #summary-box .order-summary-item.price { padding: 12px 0 0 !important; margin: 0 !important; border: 0 !important; border-top: 2px solid #edf2f4 !important; }
+
+/* Šírky v súhrne */
+html body.ps-rd.ordering-process .order-summary-inner, html body.ps-rd.ordering-process .order-summary-inner .next-step, html body.ps-rd.ordering-process .order-summary-inner .price-wrapper,
+html body.ps-rd.ordering-process .order-summary-inner .btn-conversion, html body.ps-rd.ordering-process #submit-order { box-sizing: border-box !important; max-width: 100% !important; }
+html body.ps-rd.ordering-process .order-summary-inner { width: 100% !important; }
