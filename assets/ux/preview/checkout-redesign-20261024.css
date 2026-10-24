@@ -172,7 +172,7 @@ html body.ps-rd.in-kosik .cart-table { display: block; width: 100%; border: 0; b
 html body.ps-rd.in-kosik .cart-table tbody { display: flex; flex-direction: column; gap: 14px; }
 html body.ps-rd.in-kosik .cart-table .cart-table-header { display: none; }
 html body.ps-rd.in-kosik .cart-table tr.removeable {
-  display: grid; grid-template-columns: 104px minmax(0, 1fr) 150px; grid-template-areas: "img name total" "img avail unit" "img qty remove";
+  display: grid; grid-template-columns: 104px minmax(0, 1fr) 150px; grid-template-areas: "img name total" "img avail total" "img qty unit";
   gap: 6px 22px; align-items: center; background: #fff; border-radius: 18px; box-shadow: var(--sh); padding: 18px 22px; border: 0; position: relative;
 }
 html body.ps-rd.in-kosik .cart-table tr.removeable > td { display: block; padding: 0 !important; border: 0 !important; background: none; width: auto; text-align: left; }
@@ -310,3 +310,11 @@ html body.ps-rd.in-krok-2 #submit-order .order-button-text, html body.ps-rd.in-k
 /* Šírka obsahu aj na menších desktopoch (Bootstrap .container je tam úzky) */
 html body.ps-rd.ordering-process #content-wrapper.container { width: 100% !important; max-width: 1240px !important; margin-left: auto !important; margin-right: auto !important; padding-left: 0 !important; padding-right: 0 !important; }
 html body.ps-rd.ordering-process main#content { padding-left: 0 !important; padding-right: 0 !important; }
+
+/* Košík: súčet + Odstrániť v jednom stĺpci (téma vynucuje table-cell, preto bez display:contents) */
+html body.ps-rd.in-kosik .cart-table tr.removeable > td.p-total { grid-area: total !important; display: flex !important; flex-direction: column !important; align-items: flex-end !important; align-self: start !important; gap: 8px !important; }
+html body.ps-rd.in-kosik .cart-table tr.removeable > td.p-total > strong.price-final { grid-area: auto !important; justify-self: auto !important; align-self: auto !important; }
+html body.ps-rd.in-kosik .cart-table tr.removeable > td.p-total > form { grid-area: auto !important; justify-self: auto !important; align-self: auto !important; }
+html body.ps-rd.in-kosik .cart-table .p-price { align-self: end !important; justify-self: end !important; }
+html body.ps-rd.ordering-process .cart-wrapper { padding-left: 32px !important; padding-right: 32px !important; max-width: 1240px; box-sizing: border-box; }
+@media (max-width: 991px) { html body.ps-rd.ordering-process .cart-wrapper { padding-left: 14px !important; padding-right: 14px !important; } }
