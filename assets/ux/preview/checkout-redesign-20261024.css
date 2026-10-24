@@ -367,3 +367,11 @@ html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-in
 html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info .sublabel { display: block !important; margin-top: 6px !important; }
 html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { display: inline-flex !important; width: auto !important; max-width: 100% !important; }
 html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info > span:not(.sublabel) { display: inline-block !important; }
+@media (max-width: 991px) {
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label { gap: 10px !important; padding: 12px 11px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-logo, html body.ps-rd.ordering-process #order-form .shipping-billing-table .ps-ico { width: 40px !important; height: 32px !important; padding: 3px !important; border-radius: 9px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .ps-ico svg { width: 20px !important; height: 20px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { font-size: 12.5px !important; padding: 5px 10px !important; border-radius: 14px !important; gap: 4px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-shipping-price { font-size: 14px !important; }
+  html body.ps-rd.ordering-process #order-form .shipping-billing-table .radio-wrapper > label::after { margin-left: 0 !important; }
+}
