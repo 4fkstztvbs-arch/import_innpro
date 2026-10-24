@@ -306,3 +306,7 @@ html body.ps-rd.ordering-process .order-button-suffix { font-size: inherit !impo
 html body.ps-rd.ordering-process #summary-box .order-summary-item.price, html body.ps-rd.ordering-process #summary-box .order-summary-item { width: 100% !important; max-width: 100% !important; margin-left: 0 !important; margin-right: 0 !important; left: 0 !important; box-sizing: border-box !important; }
 html body.ps-rd.in-krok-2 #submit-order { align-items: baseline !important; justify-content: center !important; }
 html body.ps-rd.in-krok-2 #submit-order .order-button-text, html body.ps-rd.in-krok-2 #submit-order .order-button-suffix { font-size: 17px !important; font-weight: 800 !important; line-height: 1.25 !important; vertical-align: baseline !important; color: #fff !important; transform: none !important; }
+
+/* Šírka obsahu aj na menších desktopoch (Bootstrap .container je tam úzky) */
+html body.ps-rd.ordering-process #content-wrapper.container { width: 100% !important; max-width: 1240px !important; margin-left: auto !important; margin-right: auto !important; padding-left: 0 !important; padding-right: 0 !important; }
+html body.ps-rd.ordering-process main#content { padding-left: 0 !important; padding-right: 0 !important; }
