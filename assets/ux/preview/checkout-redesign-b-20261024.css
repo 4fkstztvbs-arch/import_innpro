@@ -69,7 +69,7 @@
   html body.ps-rb.ordering-process #order-form { margin-top: 0 !important; }
 
   /* košík: plochý riadok položky, skryté duplicitné tlačidlo (nahrádza ho spodná lišta), kompaktné výhody */
-  body.ps-rb.in-kosik .next-step-forward, body.ps-rb.in-krok-1 .next-step-forward { display: none !important; }
+  html body.ps-rd.ps-rb.in-kosik .next-step .btn-conversion.next-step-forward, html body.ps-rd.ps-rb.in-krok-1 .next-step .btn-conversion.next-step-forward, html body.ps-rd.ps-rb.in-kosik #continue-order-button, html body.ps-rd.ps-rb.in-krok-1 #orderFormButton { display: none !important; }
   html body.ps-rd.ps-rb.in-kosik .cart-table, html body.ps-rd.ps-rb.in-kosik .cart-table tr, html body.ps-rd.ps-rb.in-kosik .cart-table .cart-item { box-shadow: none !important; border-radius: 0 !important; border-left: 0 !important; border-right: 0 !important; background: #fff !important; }
   html body.ps-rd.ps-rb.in-kosik .cart-table tr { border-bottom: 1px solid var(--line) !important; border-top: 0 !important; }
   html body.ps-rd.ps-rb.in-kosik .cart-content { padding: 0 16px !important; }
