@@ -13,8 +13,8 @@ body.ps-rd.ordering-process .cart-inner { max-width: none; padding: 0; backgroun
 
 /* ---------- Stepper ---------- */
 html body.ps-rd.ordering-process main#content ol.cart-header {
-  display: flex; align-items: center; justify-content: center; gap: 0; list-style: none;
-  margin: 8px auto 28px; padding: 0; max-width: 720px; background: none; border: 0; counter-reset: st;
+  display: flex !important; align-items: center !important; justify-content: center !important; gap: 0 !important; list-style: none !important;
+  margin: 8px auto 28px !important; padding: 0 !important; max-width: 720px !important; background: none !important; border: 0 !important; box-shadow: none !important; counter-reset: st;
 }
 html body.ps-rd.ordering-process main#content ol.cart-header > li.step { flex: 1 1 0 !important; display: flex !important; flex-direction: column !important; align-items: center !important; gap: 8px !important; position: relative !important; margin: 0 !important; padding: 0 !important; background: none !important; border: 0 !important; font-size: 14px !important; counter-increment: st !important; text-align: center !important; }
 html body.ps-rd.ordering-process main#content ol.cart-header > li.step::before { content: counter(st) !important; width: 34px !important; height: 34px !important; border-radius: 50% !important; display: grid !important; place-items: center !important; z-index: 1 !important; background: #fff !important; border: 2px solid var(--line) !important; color: var(--mut) !important; font-weight: 700 !important; font-size: 15px !important; position: static !important; transform: none !important; }
@@ -92,10 +92,12 @@ html body.ps-rd.ordering-process .shipping-billing-table .payment-logo, html bod
 html body.ps-rd.ordering-process .shipping-billing-table .payment-logo img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block; }
 html body.ps-rd.ordering-process .shipping-billing-table .ps-ico { color: var(--g); background: var(--gs) !important; border-color: var(--gline); }
 html body.ps-rd.ordering-process .shipping-billing-table .ps-ico svg { width: 26px; height: 26px; }
-html body.ps-rd.ordering-process .shipping-billing-table .payment-info { order: 1; flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 4px; padding: 0 !important; margin: 0; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-info { order: 1; flex: 1 1 auto; min-width: 0; display: block !important; text-align: left !important; padding: 0 !important; margin: 0; }
+html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label, html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label * { text-align: left; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-shipping-price { text-align: right !important; }
 html body.ps-rd.ordering-process .shipping-billing-table .shipping-billing-name { font-size: 17px; font-weight: 700; color: var(--ink); line-height: 1.25; display: inline; }
 html body.ps-rd.ordering-process .shipping-billing-table .payment-info .question-tooltip { margin-left: 6px; }
-html body.ps-rd.ordering-process .shipping-billing-table .payment-info > span:not(.sublabel) { display: inline-flex; align-items: center; flex-wrap: wrap; }
+html body.ps-rd.ordering-process .shipping-billing-table .payment-info > span:not(.sublabel) { display: inline-block; vertical-align: middle; }
 html body.ps-rd.ordering-process .shipping-billing-table .payment-info small, html body.ps-rd.ordering-process .shipping-billing-table .payment-info .payment-description { font-size: 13px; color: var(--mut); line-height: 1.35; display: block; }
 html body.ps-rd.ordering-process .shipping-billing-table .payment-shipping-price { order: 2; flex: none; font-size: 16px; font-weight: 800; color: var(--ink); white-space: nowrap; margin: 0; padding: 0; width: auto; text-align: right; position: static; }
 html body.ps-rd.ordering-process .shipping-billing-table .payment-shipping-price.ps-free { color: var(--g); letter-spacing: .02em; }
@@ -104,7 +106,8 @@ html body.ps-rd.ordering-process .shipping-billing-table .sublabel a.ps-pickup-b
   display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; border-radius: 999px; background: #fff; color: var(--g); border: 1.5px solid var(--g);
   font-weight: 700; font-size: 13.5px; text-decoration: none; line-height: 1.2;
 }
-html body.ps-rd.ordering-process .shipping-billing-table .sublabel a::before { content: '⌖'; font-size: 15px; line-height: 1; }
+html body.ps-rd.ordering-process .shipping-billing-table .sublabel a::before { content: ''; width: 14px; height: 14px; background: currentColor; -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z'/%3E%3Ccircle cx='12' cy='9.5' r='2.5'/%3E%3C/svg%3E") center/contain no-repeat; mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.800 12 21 12 21z'/%3E%3Ccircle cx='12' cy='9.5' r='2.5'/%3E%3C/svg%3E") center/contain no-repeat; }
+html body.ps-rd.ordering-process .shipping-billing-table .sublabel a, html body.ps-rd.ordering-process .shipping-billing-table .sublabel a:focus { outline: 0 !important; box-shadow: none !important; border: 1.5px solid var(--g) !important; background: #fff !important; }
 html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.inactive-child > label { border-style: dashed !important; background: #fafcfc !important; box-shadow: none; }
 html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper.inactive-child > label::after { opacity: .45; }
 html body.ps-rd.ordering-process .shipping-billing-table .not-possible-info { font-size: 13px; line-height: 1.35; margin-top: 2px; }
@@ -130,7 +133,10 @@ html body.ps-rd.ordering-process .order-recapitulation { margin: 0; padding: 4px
 html body.ps-rd.ordering-process .recapitulation-single { display: flex; flex-direction: column; gap: 2px; padding: 8px 0; border: 0; margin: 0; font-size: 14px; }
 html body.ps-rd.ordering-process .recapitulation-single .recapitulation-shipping-billing-label { color: var(--mut); font-size: 12.5px; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
 html body.ps-rd.ordering-process .recapitulation-single .recapitulation-shipping-billing-info { display: flex; justify-content: space-between; gap: 12px; font-weight: 700; flex-direction: row-reverse; text-align: left; }
-html body.ps-rd.ordering-process .order-summary-item.price, html body.ps-rd.in-kosik .price-wrapper { border-bottom: 0; padding-top: 6px; }
+html body.ps-rd.ordering-process .order-summary-item.price, html body.ps-rd.in-kosik .price-wrapper { border-bottom: 0; padding-top: 6px; background: none !important; }
+html body.ps-rd.ordering-process .order-summary-inner * { background-color: transparent; }
+html body.ps-rd.ordering-process .order-summary-inner .btn-conversion, html body.ps-rd.ordering-process .order-summary-inner #submit-order { background-color: var(--g) !important; }
+html body.ps-rd.ordering-process .order-summary-inner .order-summary-item.price { margin: 0; padding: 12px 0 0; border-top: 2px solid #edf2f4; }
 html body.ps-rd.ordering-process .price-wrapper { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: baseline; width: 100%; margin: 0; padding: 0; background: none; border: 0; }
 html body.ps-rd.ordering-process .price-wrapper .price-label.price-primary { font-size: 16px; font-weight: 700; color: var(--ink); }
 html body.ps-rd.ordering-process .price-wrapper strong.price.price-primary { font-size: 30px; font-weight: 800; letter-spacing: -.02em; color: var(--g); text-align: right; line-height: 1.1; }
