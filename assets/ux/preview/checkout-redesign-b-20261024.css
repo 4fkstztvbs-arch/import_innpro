@@ -61,4 +61,10 @@
   html body.ps-rb.ordering-process .cart-wrapper > *:first-child, html body.ps-rb.ordering-process .cart-inner > *:first-child { margin-top: 0 !important; }
   body.ps-rb.ordering-process .co-box:first-of-type { border-top: 0 !important; }
   body.ps-rb.ordering-process .cart-content > .co-box .alert, body.ps-rb.ordering-process #order-form .co-box .shipping-info, body.ps-rb.ordering-process #order-form .co-box [class*=info-box] { background: transparent !important; border: 0 !important; padding: 0 0 8px !important; color: var(--mut) !important; font-size: 13.5px !important; }
+
+  html body.ps-rb.ordering-process main#content ol.cart-header::before, html body.ps-rb.ordering-process main#content ol.cart-header::after { display: none !important; content: none !important; }
+  html body.ps-rd.ps-rb.ordering-process .ps-note { background: transparent !important; border: 0 !important; padding: 0 0 6px !important; margin: 0 !important; color: var(--mut) !important; font-size: 13.5px !important; border-radius: 0 !important; }
+  html body.ps-rd.ps-rb.ordering-process .ps-note strong { color: var(--g) !important; }
+  html body.ps-rb.ordering-process .content-inner { padding: 0 !important; }
+  html body.ps-rb.ordering-process #order-form { margin-top: 0 !important; }
 }
