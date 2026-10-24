@@ -278,3 +278,12 @@ body.ps-rd.in-krok-2 .ps-change { margin-left: auto; color: var(--g); font-weigh
   body.ps-rd.in-kosik .summary > .col-md-8 { padding: 0; }
   body.ps-rd.ordering-process .ps-trust2 { display: none; }
 }
+
+/* ---------- Doladenie súhrnu ---------- */
+html body.ps-rd.ordering-process #summary-box .next-step, html body.ps-rd.ordering-process #summary-box .order-summary-item.helper,
+html body.ps-rd.ordering-process #summary-box .order-recapitulation, html body.ps-rd.ordering-process #summary-box .price-wrapper { background: none !important; background-color: transparent !important; box-shadow: none !important; }
+html body.ps-rd.ordering-process #summary-box .next-step { padding: 0 !important; margin: 18px 0 0 !important; border: 0 !important; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.helper { border: 0 !important; border-top: 1px solid #edf2f4 !important; margin-top: 4px; }
+html body.ps-rd.ordering-process #summary-box .order-recapitulation { border: 0 !important; margin: 0 !important; padding: 2px 0 8px !important; }
+html body.ps-rd.ordering-process #summary-box .order-summary-item.price { padding: 12px 0 0 !important; margin: 0 !important; border: 0 !important; border-top: 2px solid #edf2f4 !important; }
+html body.ps-rd.ordering-process #summary-box .preauthorization-box { display: none; }
