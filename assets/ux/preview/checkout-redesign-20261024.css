@@ -318,3 +318,6 @@ html body.ps-rd.in-kosik .cart-table tr.removeable > td.p-total > form { grid-ar
 html body.ps-rd.in-kosik .cart-table .p-price { align-self: end !important; justify-self: end !important; }
 html body.ps-rd.ordering-process .cart-wrapper { padding-left: 32px !important; padding-right: 32px !important; max-width: 1240px; box-sizing: border-box; }
 @media (max-width: 991px) { html body.ps-rd.ordering-process .cart-wrapper { padding-left: 14px !important; padding-right: 14px !important; } }
+html body.ps-rd.ordering-process main#content > .content-inner { max-width: 1240px !important; margin: 0 auto !important; padding: 0 32px 48px !important; box-sizing: border-box !important; width: 100% !important; }
+html body.ps-rd.ordering-process .cart-wrapper { padding-left: 0 !important; padding-right: 0 !important; padding-bottom: 0 !important; max-width: none !important; }
+@media (max-width: 991px) { html body.ps-rd.ordering-process main#content > .content-inner { padding: 0 14px 120px !important; } }
