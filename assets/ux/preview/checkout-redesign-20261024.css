@@ -36,6 +36,9 @@ html body.ps-rd.ordering-process ol.cart-header > li.step a, html body.ps-rd.ord
 }
 html body.ps-rd.ordering-process ol.cart-header > li.active strong { color: var(--ink); font-weight: 700; }
 html body.ps-rd.ordering-process ol.cart-header > li.step span { background: none !important; padding: 0 !important; font-size: inherit; }
+html body.ps-rd.ordering-process ol.cart-header > li.step span::before, html body.ps-rd.ordering-process ol.cart-header > li.step span::after,
+html body.ps-rd.ordering-process ol.cart-header > li.step a::before, html body.ps-rd.ordering-process ol.cart-header > li.step a::after,
+html body.ps-rd.ordering-process ol.cart-header > li.step strong::before, html body.ps-rd.ordering-process ol.cart-header > li.step strong::after { display: none !important; content: none !important; }
 
 /* ---------- Karty ---------- */
 body.ps-rd.ordering-process .co-box, body.ps-rd.ordering-process #order-form .box-bg-default.co-box {
@@ -175,7 +178,7 @@ html body.ps-rd.in-kosik .cart-table { display: block; width: 100%; border: 0; b
 html body.ps-rd.in-kosik .cart-table tbody { display: flex; flex-direction: column; gap: 14px; }
 html body.ps-rd.in-kosik .cart-table .cart-table-header { display: none; }
 html body.ps-rd.in-kosik .cart-table tr.removeable {
-  display: grid; grid-template-columns: 104px minmax(0, 1fr) 132px 118px; grid-template-areas: "img name qty total" "img avail unit remove";
+  display: grid; grid-template-columns: 104px minmax(0, 1fr) 150px; grid-template-areas: "img name total" "img avail unit" "img qty remove";
   gap: 6px 22px; align-items: center; background: #fff; border-radius: 18px; box-shadow: var(--sh); padding: 18px 22px; border: 0; position: relative;
 }
 html body.ps-rd.in-kosik .cart-table tr.removeable > td { display: block; padding: 0 !important; border: 0 !important; background: none; width: auto; text-align: left; }
@@ -188,18 +191,18 @@ html body.ps-rd.in-kosik .cart-table .p-availability { grid-area: avail; align-s
 html body.ps-rd.in-kosik .cart-table .p-label { display: none !important; }
 html body.ps-rd.in-kosik .cart-table .availability-label { color: var(--g) !important; font-weight: 700; font-size: 14px; display: inline-flex; align-items: center; gap: 7px; }
 html body.ps-rd.in-kosik .cart-table .availability-label::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--g2); box-shadow: 0 0 0 3px rgba(36,180,126,.2); }
-html body.ps-rd.in-kosik .cart-table .p-quantity { grid-area: qty; justify-self: center; }
+html body.ps-rd.in-kosik .cart-table .p-quantity { grid-area: qty; justify-self: start; margin-top: 8px; }
 html body.ps-rd.in-kosik .cart-table .quantity { display: inline-flex !important; align-items: center; border: 1.5px solid var(--line); border-radius: 999px; height: 44px; overflow: hidden; background: #fff; position: relative; width: auto; }
 html body.ps-rd.in-kosik .cart-table .quantity label { margin: 0; display: block; }
 html body.ps-rd.in-kosik .cart-table .quantity input.amount { width: 44px; height: 42px; border: 0 !important; text-align: center; font-size: 16px; font-weight: 700; background: none; padding: 0; box-shadow: none !important; -moz-appearance: textfield; appearance: textfield; min-height: 0 !important; border-radius: 0 !important; }
 html body.ps-rd.in-kosik .cart-table .quantity button { position: static !important; width: 40px; height: 42px; border: 0; background: none; color: var(--g); font-size: 20px; font-weight: 700; cursor: pointer; padding: 0; display: grid; place-items: center; transform: none; }
 html body.ps-rd.in-kosik .cart-table .quantity button.decrease { order: -1; }
 html body.ps-rd.in-kosik .cart-table .quantity button:hover { background: var(--gs); }
-html body.ps-rd.in-kosik .cart-table .p-price { grid-area: unit; justify-self: center; font-size: 13px; color: var(--mut); white-space: nowrap; }
+html body.ps-rd.in-kosik .cart-table .p-price { grid-area: unit; justify-self: end; align-self: start; font-size: 13px; color: var(--mut); white-space: nowrap; }
 html body.ps-rd.in-kosik .cart-table .p-price strong { font-weight: 600; color: var(--mut); }
 html body.ps-rd.in-kosik .cart-table .p-total { display: contents; }
-html body.ps-rd.in-kosik .cart-table .p-total > strong.price-final { grid-area: total; justify-self: end; font-size: 21px; font-weight: 800; white-space: nowrap; color: var(--ink); }
-html body.ps-rd.in-kosik .cart-table .p-total > form { grid-area: remove; justify-self: end; margin: 0; }
+html body.ps-rd.in-kosik .cart-table .p-total > strong.price-final { grid-area: total; justify-self: end; align-self: end; font-size: 21px; font-weight: 800; white-space: nowrap; color: var(--ink); }
+html body.ps-rd.in-kosik .cart-table .p-total > form { grid-area: remove; justify-self: end; align-self: end; margin: 0; }
 html body.ps-rd.in-kosik .cart-table .p-total .remove-item {
   all: unset; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; color: var(--mut); font-size: 13px; text-decoration: underline; text-underline-offset: 3px; position: static;
 }
