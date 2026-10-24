@@ -52,4 +52,13 @@
   body.ps-rb .ps-bar-sum strong { font-size: 19px; font-weight: 800; color: var(--ink); }
   body.ps-rb .ps-bar-btn { flex: 1; white-space: nowrap; padding: 0 8px; height: 50px; border: 0; border-radius: 12px; background: var(--g); color: #fff; font-size: 16px; font-weight: 800; font-family: inherit; }
   body.ps-rb .ps-bar-btn:active { background: #0f5a3d; }
+
+  /* doladenie: biele pozadie, menšie medzery, bez zvyškov ozdôb v indikátore */
+  html body.ps-rd.ps-rb.ordering-process, html body.ps-rd.ps-rb.ordering-process main#content, html body.ps-rd.ps-rb.ordering-process #content-wrapper, html body.ps-rd.ps-rb.ordering-process .cart-wrapper, html body.ps-rd.ps-rb.ordering-process .cart-inner { background: #fff !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header { margin: 0 !important; padding: 8px 16px 14px !important; background: #fff !important; list-style: none !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step { font-size: 0 !important; line-height: 0 !important; color: transparent !important; }
+  html body.ps-rb.ordering-process main#content ol.cart-header > li.step::marker { content: '' !important; font-size: 0 !important; }
+  html body.ps-rb.ordering-process .cart-wrapper > *:first-child, html body.ps-rb.ordering-process .cart-inner > *:first-child { margin-top: 0 !important; }
+  body.ps-rb.ordering-process .co-box:first-of-type { border-top: 0 !important; }
+  body.ps-rb.ordering-process .cart-content > .co-box .alert, body.ps-rb.ordering-process #order-form .co-box .shipping-info, body.ps-rb.ordering-process #order-form .co-box [class*=info-box] { background: transparent !important; border: 0 !important; padding: 0 0 8px !important; color: var(--mut) !important; font-size: 13.5px !important; }
 }
