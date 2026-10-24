@@ -186,7 +186,7 @@ html body.ps-rd.in-kosik .cart-table .p-label { display: none !important; }
 html body.ps-rd.in-kosik .cart-table .availability-label { color: var(--g) !important; font-weight: 700; font-size: 14px; display: inline-flex; align-items: center; gap: 7px; }
 html body.ps-rd.in-kosik .cart-table .availability-label::before { content: ''; width: 9px; height: 9px; border-radius: 50%; background: var(--g2); box-shadow: 0 0 0 3px rgba(36,180,126,.2); }
 html body.ps-rd.in-kosik .cart-table .p-quantity { grid-area: qty; justify-self: start; margin-top: 8px; }
-html body.ps-rd.in-kosik .cart-table .quantity { display: inline-flex !important; align-items: center; border: 1.5px solid var(--line); border-radius: 999px; height: 44px; overflow: hidden; background: #fff; position: relative; width: auto; }
+html body.ps-rd.in-kosik .cart-table .quantity { display: inline-flex !important; align-items: center; border: 1.5px solid var(--line); border-radius: 999px; height: 44px; overflow: hidden; background: #fff; position: relative; width: auto; padding: 0 !important; }
 html body.ps-rd.in-kosik .cart-table .quantity label { margin: 0; display: block; }
 html body.ps-rd.in-kosik .cart-table .quantity input.amount { width: 44px; height: 42px; border: 0 !important; text-align: center; font-size: 16px; font-weight: 700; background: none; padding: 0; box-shadow: none !important; -moz-appearance: textfield; appearance: textfield; min-height: 0 !important; border-radius: 0 !important; }
 html body.ps-rd.in-kosik .cart-table .quantity button { position: static !important; width: 40px; height: 42px; border: 0; background: none; color: var(--g); font-size: 20px; font-weight: 700; cursor: pointer; padding: 0; display: grid; place-items: center; transform: none; }
@@ -470,9 +470,9 @@ html body.ps-rd.ordering-process #order-form .shipping-billing-table .payment-in
 }
 /* Veľmi úzke displeje (do 360 px): menšie ovládanie množstva v košíku a kompaktnejší odkaz na odberné miesto */
 @media (max-width: 360px) {
-  html body.ps-rd.in-kosik .cart-table .quantity { max-width: 132px !important; }
-  html body.ps-rd.in-kosik .cart-table .quantity button { width: 34px !important; }
-  html body.ps-rd.in-kosik .cart-table .quantity input.amount { width: 36px !important; }
+  html body.ps-rd.in-kosik .cart-table .quantity button { width: 34px !important; min-width: 34px !important; flex: 0 0 34px !important; }
+  html body.ps-rd.in-kosik .cart-table .quantity input.amount { width: 36px !important; min-width: 0 !important; }
+  html body.ps-rd.in-kosik .cart-table .quantity label { flex: 0 0 36px !important; }
   html body.ps-rd.ps-rb.ordering-process #order-form .shipping-billing-table .payment-info .sublabel a { font-size: 12px !important; }
   body.ps-rb .ps-bar-btn { font-size: 15px; }
 }
