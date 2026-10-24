@@ -3130,7 +3130,6 @@ try {
   var BILL = '#order-billing-methods';
   var busy = false;
   var lastAddressShipping = null; // naposledy zvolená doprava, ktorá nie je osobný odber
-  var noteTimer = null;
 
   function $(s, r) { return (r || document).querySelector(s); }
   function $$(s, r) { return [].slice.call((r || document).querySelectorAll(s)); }
@@ -3175,10 +3174,11 @@ try {
     return plain[0] || cand[0];
   }
 
-  /* Poznámka nad zoznamom platieb. Shoptet po prepočte ceny prekreslí box platby, preto si text pamätáme
-     a v sync() ho (kým neuplynie čas) vykreslíme znova. */
+  /* Poznámka nad zoznamom platieb. Zostáva, kým zákazník sám nezmení dopravu (žiadne časované mizenie –
+     posun obsahu by zákazníkovi „ušiel“ pod prstom). Shoptet po prepočte ceny prekreslí box platby, preto
+     si text pamätáme a v sync() ho podľa potreby vykreslíme znova. */
   var noteText = null;
-  var noteUntil = 0;
+  var noteShipId = null;
   function renderNote() {
     var bill = $(BILL);
     if (!bill || !noteText) return;
@@ -3191,15 +3191,14 @@ try {
     }
     if (n.textContent !== noteText) n.textContent = noteText;
   }
-  function showNote(text) {
+  function showNote(text, shipId) {
     noteText = text;
-    noteUntil = Date.now() + 9000;
+    noteShipId = shipId;
     renderNote();
-    clearTimeout(noteTimer);
-    noteTimer = setTimeout(clearNote, 9000);
   }
   function clearNote() {
     noteText = null;
+    noteShipId = null;
     var n = $('.ps-combo-note');
     if (n) n.remove();
   }
@@ -3221,7 +3220,7 @@ try {
       var w = b && b.closest('.radio-wrapper');
       if (b && !b.disabled && w && !w.classList.contains('inactive-child')) {
         press(w);
-        showNote('Dopravu sme zmenili na „' + nameOf(ship) + '“, lebo platbu „' + payName.trim() + '“ nemožno kombinovať s predchádzajúcou dopravou.');
+        showNote('Dopravu sme zmenili na „' + nameOf(ship) + '“, lebo platbu „' + payName.trim() + '“ nemožno kombinovať s predchádzajúcou dopravou.', ship.id);
         busy = false;
         return;
       }
@@ -3249,19 +3248,15 @@ try {
     var c = $(SHIP + ' input[name="shippingId"]:checked');
     if (c && !isPickup(c)) lastAddressShipping = c;
   }
-  /* Poznámku skryť, keď zákazník sám zmení dopravu (Shoptet vyberá na mousedown, klávesnicou na change). */
-  document.addEventListener('mousedown', function (e) {
-    if (!busy && e.isTrusted && e.target && e.target.closest && e.target.closest(SHIP + ' .radio-wrapper')) clearNote();
-  }, true);
-  document.addEventListener('change', function (e) {
-    if (e.target && e.target.name === 'shippingId' && !busy) clearNote();
-    remember();
-  });
+  document.addEventListener('change', remember);
 
   /* Text pri nedostupnej platbe: povie, čo sa stane po kliknutí. */
   function sync() {
     remember();
-    if (noteText && Date.now() < noteUntil) renderNote();
+    if (noteText) {
+      var cur = $(SHIP + ' input[name="shippingId"]:checked');
+      if (!cur || cur.id !== noteShipId) clearNote(); else renderNote();
+    }
     $$(BILL + ' .radio-wrapper.inactive-child').forEach(function (w) {
       var bill = $('input[name="billingId"]', w);
       var info = $('.not-possible-info', w);
