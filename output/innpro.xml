@@ -100429,6 +100429,9 @@ Dĺžka
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>053726</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6941237101228</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble]]></CATEGORY>
@@ -100695,7 +100698,7 @@ PC
 <UNIT>ks</UNIT>
 <CODE>054883</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6932172640996</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Puzdrá na mobilné telefóny]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
@@ -106658,6 +106661,7 @@ Hmotnosť
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -140227,7 +140231,7 @@ Dancing Circle
 <UNIT>ks</UNIT>
 <CODE>061854</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6976788020216</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Puzdrá na mobilné telefóny]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
@@ -142501,6 +142505,7 @@ Dancing Circle
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.10</PRICE_VAT>
 <PURCHASE_PRICE>2.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -203856,14 +203861,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -223691,6 +223696,73 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Zigbee Gosund ST17 LCD inteligentný senzor teploty a vlhkosti Tuya – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[BOBOVR P4U Battery Relief Strap pre Pico 4 Ultra/Ultra Enterprise [10000mAh].]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[BOBOVR P4U Battery Relief Strap pre batériu Pico 4 Ultra/Ultra Enterprise 10000mAh. Odľahčovací remienok na batériu BOBOVR P4U je pokročilé riešenie napájania pre okuliare PICO 4 Ultra a Ultra…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>BOBOVR P4U Battery Relief Strap pre batériu Pico 4 Ultra/Ultra Enterprise 10000mAh.</h3>
+<p>Odľahčovací remienok na batériu BOBOVR P4U je pokročilé riešenie napájania pre okuliare PICO 4 Ultra a Ultra Enterprise, ktoré poskytuje až o 120 % dlhší čas prevádzky s batériou s kapacitou 10 000 mAh. Inovatívny magnetický systém vyberania batérie za horúca umožňuje pohodlnú výmenu batérie bez prerušenia relácie a podpora 22,5W rýchleho nabíjania zaručuje, že náhradné články budú pripravené v okamihu. Zabudovaný indikátor nabíjania so spodným osvetlením uľahčuje kontrolu úrovne energie a ergonomický dizajn s pamäťovou penou a optimalizovaným popruhom poskytuje výnimočné pohodlie pri nosení. Kompatibilita s dokovacou stanicou BD3 umožňuje efektívnu správu batérie, vďaka čomu je BOBOVR P4U ideálnou voľbou pre každého nadšenca VR.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/13245/16259/2.jpg"/>
+</p><h3>Dlhá doba prevádzky a rýchle nabíjanie</h3>
+<p>BOBOVR P4U je vybavený systémom batérií B100 s celkovou kapacitou 10 000 mAh (2 články po 5 000 mAh), vďaka čomu môže PICO 4 Ultra predĺžiť čas používania až o 120 %. Či už hráte hry, sledujete VR videá alebo prednášate profesionálne prezentácie - teraz si môžete užívať dlhšie sedenia bez obáv, že sa zariadenie náhle vybije. Okrem toho vďaka inovatívnej technológii magnetickej výmeny batérie BOBOVR P4U umožňuje bezproblémovú výmenu batérie bez toho, aby ste museli zariadenie vypnúť. Vďaka podpore rýchleho nabíjania s výkonom 22,5 W sú náhradné batérie pripravené na použitie v okamihu, čo umožňuje nepretržité hranie bez prerušenia.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/13245/16259/5.jpg"/>
+</p><h3>Inteligentný indikátor stavu nabíjania</h3>
+<p>Zariadenie BOBOVR P4U sa vyznačuje spodným podsvietením indikátora stavu nabitia, ktoré vám umožňuje rýchlo skontrolovať stav batérie počas používania. Rôzne režimy podsvietenia indikujú úroveň energie - trvalé svetlo znamená plné nabitie, blikanie znamená nízku úroveň energie, zatiaľ čo žiadne svetlo indikuje úplne vybitú batériu. Toto intuitívne riešenie poskytuje pohodlnú správu energie, najmä počas intenzívnych relácií VR.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/13245/16259/1.jpg"/>
+</p><h3>Viac možností pre vaše pohodlie</h3>
+<p>Výnimočné pohodlie pri nosení je zásluhou zväčšeného penového vankúša s tvarovou pamäťou a optimalizovaného horného popruhu. Ergonomický dizajn rovnomerne rozkladá hmotnosť, čím minimalizuje tlak na hlavu a krk. Navyše v spojení s dokovacou stanicou BD3 môžete počas používania okuliarov nabíjať náhradné batérie. Rýchle nabíjanie umožňuje nabiť batériu na 80 % už za jednu hodinu, čím vám zabezpečí, že budete mať vždy energiu na ďalšie dobrodružstvá vo virtuálnom svete.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/13245/16259/6.jpg"/>
+</p>
+<h3>Priložené stránky</h3>
+<ul class="list-disc pl-5"><li>Dokovacia stanica</li><li>flexibilná podpora</li><li>PU vankúše</li><li>vankúše vo forme včelieho plástu</li><li>Nabíjateľná batéria B100</li><li>PU mäkký vrchný popruh</li><li>kovový sťahovací krúžok</li><li>držiak kábla</li><li>odnímateľná tyč</li><li>kábel USB-C</li><li>používateľská príručka</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>BOBOVR</td></tr><tr><th>Model</th><td>P4U</td></tr><tr><th>Kompatibilita</th><td>PICO 4 Ultra, PICO 4 Ultra Enterprise</td></tr><tr><th>Model batérie</th><td>BOBOVR B100</td></tr><tr><th>Kapacita batérie</th><td>10 000 mAh</td></tr><tr><th>Rýchle nabíjanie</th><td>Podporované, 22,5 W</td></tr><tr><th>Svetelné indikátory</th><td>Zabudované (indikujú plné nabitie, nízku energiu a úplné vybitie)</td></tr><tr><th>Materiál remienka</th><td>Penový vankúš</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74238_51022_pol_d3a91a952474a63649d03a76bb1812ca" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[BOBOVR]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>075769</CODE>
+<EAN>6937267000488</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="BOBOVR P4U Battery Relief Strap pre Pico 4 Ultra/Ultra Enterprise [10000mAh]. - obrázok 1">https://b2b.innpro.sk/hpeciai/a12608ce37fc30b22bec2b9c0d2d6a51/51022_1.jpg</IMAGE>
+  <IMAGE description="BOBOVR P4U Battery Relief Strap pre Pico 4 Ultra/Ultra Enterprise [10000mAh]. - obrázok 2">https://b2b.innpro.sk/hpeciai/f71a05eb660da7166ac24237bd610357/51022_2.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[Pico 4 Ultra]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.64</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>56.90</PRICE_VAT>
+<PURCHASE_PRICE>40.09</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[BOBOVR P4U Battery Relief Strap pre Pico 4… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[BOBOVR P4U Battery Relief Strap pre Pico 4 Ultra/Ultra Enterprise [10000mAh]. – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Systém riadenia vlákien Creality CFS]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Viacvláknový systém Creality CFS Creality CFS je pokročilý multifilamentový systém, ktorý umožňuje 3D tlač až v 16 farbách súčasne, čím sa eliminuje potreba následného maľovania modelov. Vďaka…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Viacvláknový systém Creality CFS</h3>
@@ -224789,14 +224861,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -239023,6 +239098,329 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Grafický tablet Huion Slate 10 | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Grafický tablet Huion Slate 10 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Predvolený názov]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Unitree Go2 Air – Skutočná robotika vo vašej domácnosti. Toto je váš prvý krok do sveta skutočnej robotiky. Unitree Go2 Air je pokročilý štvornohý robot, ktorý spája futuristický dizajn s…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Unitree Go2 Air – Skutočná robotika vo vašej domácnosti.</h3>
+<p>Toto je váš prvý krok do sveta skutočnej robotiky. Unitree Go2 Air je pokročilý štvornohý robot, ktorý spája futuristický dizajn s neuveriteľnou dynamikou. Vytvorený pre nadšencov technológií a budúcich inovátorov, Go2 Air je ideálnou platformou na objavovanie, učenie sa a zažívanie toho, čo bolo donedávna výsadou výskumných laboratórií.</p>
+<p>
+<img alt="Domáce prostredie: majiteľ kľačí vedľa robota Unitree v miestnosti s veľkým oknom." border="0" src="https://assets.innpro.pl/19497/25980/Unitree-Go2-Air-lifestyle-8.jpg"/>
+</p><h3>Vníma svet v 3D.</h3>
+<p>Srdcom vnímačského systému Go2 Air je panoramatický 3D LiDAR. Robot nepretržite skenuje svoje okolie v zornom poli 360° x 90° a vytvára trojrozmernú mapu priestoru. To mu umožňuje obchádzať prekážky – od nôh stola až po rozhádzané hračky – s chirurgickou presnosťou. Robot jednoducho vie, kam má ísť. Pohybuje sa plynulo a nenaráža do stien.</p>
+<p>
+<img alt="Unitree Go2 v parku: 3D vizualizácia znázorňuje detekciu stromov a mapovanie terénu." border="0" src="https://assets.innpro.pl/19497/25980/Unitree-Go2-Air-lifestyle-6.jpg"/>
+</p><h3>Tvorivosť máte vo svojich rukách!</h3>
+<p>Sila Go2 Air spočíva vo vašej tvorivosti. Vďaka grafickému programovaciemu rozhraniu sa robot stáva platformou na neustále objavovanie nových možností. Pomocou intuitívnej aplikácie typu „drag-and-drop“ (podobne ako v programe Scratch) sa môže stať tvorcom naozaj každý. Naučte robota podávať ruku, tancovať na vašu obľúbenú pieseň alebo vítať hostí. Je to brána do sveta programovania, ktorá podporuje kreativitu a zaručuje nekonečnú zábavu.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/19497/25980/Unitree-Go2-Air-lifestyle-2.jpg"/>
+</p><h3>Presnosť v každom pohybe.</h3>
+<p>Srdcom robota Go2 Air sú výkonné motory, ktoré sú zodpovedné za jeho neuveriteľnú obratnosť. Robot je skutočný akrobat: s ľahkosťou predvádza spektakulárne triky, stojí na dvoch nohách, skáče a dynamicky reaguje na príkazy. Tá istá sila mu tiež umožňuje behať rýchlosťou až 10 km/h, bez námahy prekonávať prekážky, ako sú schodové stupne, a šplhať po strmých svahoch s sklonom až 30°.</p>
+<p>
+<img alt="Strieborný robotický pes Unitree Go2 balansuje vo vzpriamenej polohe v skateparku, pričom v pozadí sú viditeľné mestské mrakodrapy." border="0" src="https://assets.innpro.pl/19497/25980/Unitree-Go2-Air-lifestyle-4.jpg"/>
+</p><h3>Kedykoľvek pripravený na dobrodružstvo.</h3>
+<p>Vybavený HD kamerou a jasným predným svetlom je Go2 Air pripravený na prieskum za akýchkoľvek podmienok. Vysielajte živé video priamo do svojho telefónu, nahrávajte jedinečné zábery z pohľadu robota alebo nazrite do ťažko dostupných, tmavých kútov. Štandardná batéria s kapacitou 8 000 mAh zabezpečuje 1 až 2 hodiny nepretržitej prevádzky (s voliteľnou batériou s kapacitou 15 000 mAh* môžete túto dobu predĺžiť na 3–4 hodiny), čo vám poskytuje dostatok času na domáce výpravy a kreatívnu hru.</p><p>* Vysokokapacitná batéria (15 000 mAh) sa predáva samostatne.</p>
+<p>
+<img alt="Ateliérová fotografia prednej časti robota Unitree v dymovom opare, zdôrazňujúca jeho senzory a dizajn." border="0" src="https://assets.innpro.pl/19497/25980/Unitree-Go2-Air-lifestyle-11.jpg"/>
+</p>
+<h3>Čo je súčasťou sady?</h3>
+<ul class="list-disc pl-5"><li>Robot Unitree Go2 Air</li><li>Batéria (štandardná 8 000 mAh)</li><li>Štandardná nabíjačka</li><li>Náhradné podložky pod nohy (4 kusy)</li><li>Stojan na robota</li><li>Kalibračný nástroj</li><li>Prenosné puzdro</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3>Technické špecifikácie robota</h3>
+<table>
+<tbody>
+<tr><th>Rozmery</th><td>70 × 31 × 40 cm</td></tr><tr><th>Materiály</th><td>hliníková zliatina + vysoko pevné technické plasty</td></tr><tr><th>Celková hmotnosť</th><td>cca 15 kg (s batériou)</td></tr><tr><th>Napájacie napätie</th><td>28–33,6 V</td></tr><tr><th>Maximálny prevádzkový výkon</th><td>cca 3 000 W</td></tr><tr><th>Nosnosť</th><td>cca 7 kg (max. ~10 kg)</td></tr><tr><th>Rýchlosť pohybu</th><td>0–2,5 m/s</td></tr><tr><th>Max. výška schodu</th><td>cca 15 cm</td></tr><tr><th>Max. sklon terénu</th><td>30°</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Motory kĺbov</h3>
+<table>
+<tbody>
+<tr><th>Materiál</th><td>hliníková zliatina</td></tr><tr><th>Počet</th><td>12</td></tr><tr><th>Vnútorné vyrovnanie kolenných kĺbov</th><td>áno</td></tr><tr><th>Asistované chladenie kĺbov prostredníctvom tepelných trubíc</th><td>áno</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Rozsahy pohybu kĺbov</h3>
+<table>
+<tbody>
+<tr><th>Trup</th><td>–48° až +48°</td></tr><tr><th>Stehno</th><td>–200° až +90°</td></tr><tr><th>Holenná kosť</th><td>–156° až –48°</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Senzory a vnímanie</h3>
+<table>
+<tbody>
+<tr><th>Ultraširokouhlý 3D LiDAR</th><td>Áno</td></tr><tr><th>Širokouhlá kamera</th><td>Áno</td></tr><tr><th>Senzory na vyhýbanie sa prekážkam</th><td>Áno</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Funkcie a softvér</h3>
+<table>
+<tbody>
+<tr><th>Základné pohybové a tanečné režimy</th><td>Áno</td></tr><tr><th>Inteligentné aktualizácie OTA</th><td>Áno</td></tr><tr><th>Mobilná aplikácia s HD streamovaním videa</th><td>Áno</td></tr><tr><th>Diaľkové ovládanie a náhľad všetkých systémových údajov</th><td>Áno</td></tr><tr><th>Grafické programovanie v aplikácii</th><td>Áno</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Osvetlenie</h3>
+<table>
+<tbody>
+<tr><th>Predné svetlo</th><td>3 W LED</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Pripojenie</h3>
+<table>
+<tbody>
+<tr><th>Wi-Fi</th><td>6 (802.11ax, dual-band)</td></tr><tr><th>Bluetooth</th><td>5.2 / 4.2 / 2.1</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Napájanie</h3>
+<table>
+<tbody>
+<tr><th>Typ batérie</th><td>Štandardná</td></tr><tr><th>Kapacita</th><td>8000 mAh</td></tr><tr><th>Prevádzková doba</th><td>1–2 hodiny</td></tr><tr><th>Nabíjačka</th><td>33,6 V / 3,5 A</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Ovládanie</h3>
+<table>
+<tbody>
+<tr><th>Ručný ovládač</th><td>voliteľné</td></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/dielna-a-zahrada/">Dielňa, náradie a záhrada</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[UNITREE]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>077225</CODE>
+<EAN>5907085525372</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Predvolený názov - obrázok 1">https://b2b.innpro.sk/hpeciai/3f9cf1af500fc7a7c5a3e4057d1c1eae/52159_1.jpg</IMAGE>
+  <IMAGE description="Predvolený názov - obrázok 2">https://b2b.innpro.sk/hpeciai/84692bfec6b8e1ff98ad7a1cae62b556/52159_2.jpg</IMAGE>
+  <IMAGE description="Predvolený názov - obrázok 3">https://b2b.innpro.sk/hpeciai/19ec0f365ff6c61405f27b1cbaa85dea/52159_3.jpg</IMAGE>
+  <IMAGE description="Predvolený názov - obrázok 4">https://b2b.innpro.sk/hpeciai/eaf41b0e07576442036619fe70757e67/52159_4.jpg</IMAGE>
+  <IMAGE description="Predvolený názov - obrázok 5">https://b2b.innpro.sk/hpeciai/258061edf486c7e319a2e16e1e2ccbe7/52159_5.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[UNITREE]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery]]></NAME>
+    <VALUE><![CDATA[70 × 31 × 40 cm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiály]]></NAME>
+    <VALUE><![CDATA[hliníková zliatina + vysoko pevné technické plasty]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celková hmotnosť]]></NAME>
+    <VALUE><![CDATA[cca 15 kg (s batériou)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Napájacie napätie]]></NAME>
+    <VALUE><![CDATA[28–33,6 V]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálny prevádzkový výkon]]></NAME>
+    <VALUE><![CDATA[cca 3 000 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rýchlosť pohybu]]></NAME>
+    <VALUE><![CDATA[0–2,5 m/s]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Max. výška schodu]]></NAME>
+    <VALUE><![CDATA[cca 15 cm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Max. sklon terénu]]></NAME>
+    <VALUE><![CDATA[30°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiál]]></NAME>
+    <VALUE><![CDATA[hliníková zliatina]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet]]></NAME>
+    <VALUE><![CDATA[12]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Bluetooth, Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[12 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>30.18</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<PRICE_VAT>2836.50</PRICE_VAT>
+<PURCHASE_PRICE>2005.30</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Predvolený názov – UNITREE | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Predvolený názov od UNITREE – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Unitree G1]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Unitree G1 Basic Unitree G1 Basic je najmodernejší humanoidný robot, ktorý sa dá použiť na výskum pohybu, riadiacich systémov, 3D vnímania a interakcie človeka so strojom. Jeho rozsiahle pohybové…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Unitree G1 Basic</h3>
+<p>Unitree G1 Basic je najmodernejší humanoidný robot, ktorý sa dá použiť na výskum pohybu, riadiacich systémov, 3D vnímania a interakcie človeka so strojom. Jeho rozsiahle pohybové schopnosti z neho zároveň robia atraktívny demonštračný nástroj. S rozmermi približne 130 cm a hmotnosťou 35 kg zaujme svojimi pohybovými schopnosťami napriek kompaktným rozmerom. Vďaka 23 stupňom voľnosti a rýchlosti až 2 m/s ľahko vykonáva zložité sekvencie - dokáže tancovať, skákať, bežať a reagovať na okolie v reálnom čase.</p>
+<div class="inn_video">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="100%" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/I8obT3yYSjo?autoplay=1&amp;mute=1&amp;loop=1&amp;controls=0&amp;color=white&amp;modestbranding=0&amp;rel=0&amp;playsinline=1&amp;enablejsapi=1&amp;playlist=I8obT3yYSjo" title="YouTube video player" width="100%">
+</iframe>
+</div><h3>Prirodzený a expresívny pohyb</h3>
+<p>Jednou z hlavných vlastností stroja G1 Basic je jeho výnimočná voľnosť pohybu, ktorá ďaleko presahuje možnosti klasických priemyselných strojov. Tento humanoid bez námahy beží, skáče, stúpa po schodoch, vykonáva dynamické pohyby inšpirované tancom a bojovými umeniami a dokáže okamžite zmeniť polohu bez straty rovnováhy. Vďaka 23 stupňom voľnosti a širokému rozsahu pohybu sú jeho akcie plynulé, prirodzené a dokonale synchronizované. To otvára nové možnosti pri testoch, demonštráciách a výskumných projektoch, ktoré si vyžadujú realistickú dynamiku a presné riadenie pohybu.</p>
+<p>
+<img alt="Robotické rameno drží panvicu s krajcom chleba na indukčnom sporáku" border="0" src="https://assets.innpro.pl/19223/25627/Unitree-G1-lifestyle-7.jpg"/>
+</p><h3>Rovnováha za všetkých podmienok</h3>
+<p>Robot Unitree G1 Basic je navrhnutý tak, aby zostal stabilný nielen na hladkom povrchu, ale aj v náročnejšom teréne. Každá z jeho nôh má šesť stupňov voľnosti, čo umožňuje presný prenos hmotnosti a okamžité prispôsobenie sa meniacemu sa terénu. Konštrukcia mu umožňuje plynulý pohyb po nerovnom povrchu, napríklad po kameňoch - bez straty kontroly nad rovnováhou alebo smerom. Výsledkom je, že zariadenie dobre funguje v interiéri aj exteriéri, čo dobre ilustruje praktické možnosti humanoidných konštrukcií.</p>
+<p>
+<img alt="Detailný záber humanoidnej robotickej ruky s čiernou ochrannou rukavicou" border="0" src="https://assets.innpro.pl/19223/25627/Unitree-G1-lifestyle-2.jpg"/>
+</p><h3>Zdokonalená mechanika pohonu</h3>
+<p>Pohybový systém robota je založený na motoroch PMSM s vnútorným rotorom s nízkou zotrvačnosťou, ktoré sú zodpovedné za rýchle reakcie a stabilné riadenie krútiaceho momentu. Maximálny krútiaci moment kolena 90 N-m umožňuje realizáciu dynamických pohybov, ako sú drepy, skoky a rýchle zmeny polohy tela. Ramená ponúkajú každé päť stupňov voľnosti a nosnosť do približne 2 kg, čo umožňuje presnú manipuláciu s predmetmi a zložité gestá. Priemyselné krížové ložiská a dvojité snímače v kĺboch zabezpečujú vysokú presnosť prevádzky a opakovateľnosť pohybu.</p>
+<p>
+<img alt="Robotické rameno spájkuje malý elektronický komponent upevnený na statíve" border="0" src="https://assets.innpro.pl/19223/25627/Unitree-G1-lifestyle-5.jpg"/>
+</p><h3>Pokročilé vnímanie prostredia</h3>
+<p>Systém videnia G1 Basic je založený na kombinácii hĺbkovej kamery Intel RealSense D435i a 3D senzora Livox-MID360 LiDAR, ktoré poskytujú podrobné informácie o okolitom priestore. Široký rozsah videnia a vysoká presnosť údajov umožňujú autonómnu navigáciu a presné plánovanie pohybu. Vďaka tomu robot efektívne reaguje na prekážky, interpretuje zmeny v prostredí a vykonáva úlohy, ktoré si vyžadujú priestorové povedomie.</p>
+<p>
+<img alt="Robotická ruka jemne drží vajce nad sklenenou miskou" border="0" src="https://assets.innpro.pl/19223/25627/Unitree-G1-lifestyle-8.jpg"/>
+</p><h3>Prirodzená komunikácia s používateľom</h3>
+<p>Za výmenu hlasových informácií je zodpovedný výkonný zvukový systém, ktorý umožňuje voľnú a intuitívnu interakciu s používateľmi. Štyri mikrofóny s aktívnym potláčaním šumu a ozveny účinne zachytávajú hlasové príkazy aj v náročných akustických podmienkach, zatiaľ čo 5 W stereo reproduktor poskytuje jasnú spätnú väzbu. Vďaka tejto forme interakcie sa robot stáva plnohodnotným účastníkom dialógu medzi človekom a strojom.</p>
+<p>
+<img alt="Humanoidný robot Unitree sedí na pohovke v miestnosti s náradím" border="0" src="https://assets.innpro.pl/19223/25627/Unitree-G1-lifestyle-3.jpg"/>
+</p><h3>Umelá inteligencia pracujúca v reálnom svete</h3>
+<p>G1 Basic je viac ako robot, ktorý vykonáva vopred naprogramované sekvencie pohybov. Je navrhnutý ako platforma pripravená na prácu s algoritmami umelej inteligencie. Podporuje učenie napodobňovaním aj posilňovaním, takže môže rozvíjať svoje schopnosti na základe pozorovania a získaných skúseností. V kombinácii s konceptom UnifoLM - vlastným rozsiahlym modelom spoločnosti Unitree - sa zariadenie stáva nositeľom umelej inteligencie, ktorá funguje priamo vo fyzickom prostredí. Ide o pevný základ pre vývoj budúcich generácií inteligentných robotov a autonómnych asistentov.</p>
+<p>
+<img alt="Robotická ruka vykonáva spájkovanie elektronickej súčiastky na statíve" border="0" src="https://assets.innpro.pl/19223/25627/Unitree-G1-lifestyle-6.jpg"/>
+</p><h3>Energia, ktorá drží krok</h3>
+<p>Inteligentná batéria s kapacitou 9 000 mAh je navrhnutá na intenzívnu a dynamickú prevádzku. Jedno nabitie poskytuje až približne 2 hodiny prevádzky, čo umožňuje voľne testovať schopnosti robota alebo ich prezentovať na predvádzacích akciách. Premyslený systém rýchlej montáže umožňuje efektívnu výmenu súčiastok, vďaka čomu sú prestávky obmedzené na úplné minimum.</p>
+<p>
+<img alt="Detailný záber na telo a kĺby humanoidného robota v kovovom puzdre" border="0" src="https://assets.innpro.pl/19223/25627/Unitree-G1-lifestyle-1.jpg"/>
+</p><h3>Mobilita bez kompromisov</h3>
+<p>Konštrukcia robota je navrhnutá tak, aby uľahčovala nielen prácu, ale aj prepravu a skladovanie. V zloženom stave má zariadenie rozmery len 69 × 45 × 30 cm. Takéto malé rozmery výrazne zjednodušujú premiestňovanie robota medzi pracoviskami, laboratóriami alebo prezentačnými priestormi, ako aj jeho bezpečné skladovanie.</p>
+<p>
+<img alt="Osoba drží v náručí humanoidného robota Unitree s osvetlenou tvárou" border="0" src="https://assets.innpro.pl/19223/25627/Unitree-G1-lifestyle-4.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3>Všeobecne</h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Unitree</td></tr><tr><th>Model</th><td>G1 Basic</td></tr><tr><th>Rozmery v stojacej polohe</th><td>1320 × 450 × 200 mm</td></tr><tr><th>Rozmery v zloženej polohe</th><td>690 × 450 × 300 mm</td></tr><tr><th>Hmotnosť (vrátane batérie)</th><td>približne 35 kg</td></tr><tr><th>Základný výpočtový výkon</th><td>8-jadrový vysoko výkonný procesor</td></tr><tr><th>Senzory a komunikácia</th><td>Hĺbková kamera + 3D LIDAR</td></tr><tr><th>Smerové mikrofóny</th><td>áno</td></tr><tr><th>5W stereo reproduktor</th><td>áno</td></tr><tr><th>WiFi 6, Bluetooth 5.2</th><td>áno</td></tr><tr><th>Modul s vysokým výpočtovým výkonom</th><td>nie</td></tr><tr><th>Manuálny ovládač</th><td>áno</td></tr><tr><th>OTA aktualizácie</th><td>áno</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Stupne voľnosti</h3>
+<table>
+<tbody>
+<tr><th>Celkový počet stupňov voľnosti</th><td>23</td></tr><tr><th>Jedna noha</th><td>6</td></tr><tr><th>Pás</th><td>1</td></tr><tr><th>Jedno rameno</th><td>5</td></tr><tr><th>Jedna ruka</th><td>žiadne</td></tr><tr><th>Kĺbové ložiská</th><td>Priemyselné krížové valčekové ložiská (vysoká presnosť, vysoká nosnosť)</td></tr><tr><th>Kĺbové motory</th><td>Synchrónne motory s permanentnými magnetmi a vnútorným rotorom s nízkou zotrvačnosťou (lepšia rýchlosť odozvy a odvod tepla)</td></tr><tr><th>Krútiaci moment kolenného kĺbu</th><td>90 N-m</td></tr><tr><th>Maximálne zaťaženie ramena</th><td>približne 2 kg</td></tr><tr><th>Dĺžka lýtka + stehna</th><td>0,6 m</td></tr><tr><th>Rozpätie ramena</th><td>približne 0,45 m</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Rozsah pohybu kĺbov</h3>
+<table>
+<tbody>
+<tr><th>Pás</th><td>Z ±155°</td></tr><tr><th>Koleno</th><td>0~165°</td></tr><tr><th>Bedro</th><td>P ±154°, R -30~+170°, Y ±158°</td></tr><tr><th>Úplné vnútorné vedenie kabeláže</th><td>Áno</td></tr><tr><th>Kĺbový snímač</th><td>Dvojitý snímač</td></tr><tr><th>Chladiaci systém</th><td>Miestne vzduchové chladenie</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Napájanie</h3>
+<table>
+<tbody>
+<tr><th>Typ batérie</th><td>Lítiová (13 článkov)</td></tr><tr><th>Možnosť rýchlej výmeny</th><td>Áno</td></tr><tr><th>Kapacita</th><td>9000 mAh</td></tr><tr><th>Nabíjačka</th><td>54 V 5 A</td></tr><tr><th>Prevádzkový čas</th><td>približne 2 hodiny</td></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/hracky/">Hračky</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[UNITREE]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>077284</CODE>
+<EAN>5907085525600</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Hračky]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>1306</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Unitree G1 - obrázok 1">https://b2b.innpro.sk/hpeciai/17f8bb383e0f3ea3c3811da1e9312ad4/52164_1.jpg</IMAGE>
+  <IMAGE description="Unitree G1 - obrázok 2">https://b2b.innpro.sk/hpeciai/6587d57208c86265526367af5420c00c/52164_5.jpg</IMAGE>
+  <IMAGE description="Unitree G1 - obrázok 3">https://b2b.innpro.sk/hpeciai/a719fa749923652ad2b51aaa1158bdd9/52164_2.jpg</IMAGE>
+  <IMAGE description="Unitree G1 - obrázok 4">https://b2b.innpro.sk/hpeciai/10cfd872a7899fe052f5a05f3aa0ed93/52164_3.jpg</IMAGE>
+  <IMAGE description="Unitree G1 - obrázok 5">https://b2b.innpro.sk/hpeciai/554d55030f6c2e3193434d684a35773f/52164_4.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[UNITREE]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery v stojacej polohe]]></NAME>
+    <VALUE><![CDATA[1320 × 450 × 200 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery v zloženej polohe]]></NAME>
+    <VALUE><![CDATA[690 × 450 × 300 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hmotnosť (vrátane batérie)]]></NAME>
+    <VALUE><![CDATA[približne 35 kg]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Základný výpočtový výkon]]></NAME>
+    <VALUE><![CDATA[8-jadrový vysoko výkonný procesor]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Senzory a komunikácia]]></NAME>
+    <VALUE><![CDATA[Hĺbková kamera + 3D LIDAR]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový počet stupňov voľnosti]]></NAME>
+    <VALUE><![CDATA[23]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Jedna noha]]></NAME>
+    <VALUE><![CDATA[6]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pás]]></NAME>
+    <VALUE><![CDATA[1]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Jedno rameno]]></NAME>
+    <VALUE><![CDATA[5]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Jedna ruka]]></NAME>
+    <VALUE><![CDATA[žiadne]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Bluetooth, Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[12 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>72.50</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<PRICE_VAT>23715.50</PRICE_VAT>
+<PURCHASE_PRICE>16766.01</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Unitree G1 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Unitree G1 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Ventilátor Cooler Master SickleFlow Edge 120 ARGB (biely)]]></NAME>
@@ -283898,7 +284296,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>080533</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6978642808022</EAN>
 <CATEGORIES>
@@ -294669,6 +295067,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.70</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -296467,33 +296866,33 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Inteligentná WiFi zásuvka Gosund SP112-M s 2 USB portmi (Xiaomi) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Inteligentná zásuvka Gosund EP8-M 16A WiFi (Xiaomi)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Kontrola spotreby energie Vďaka zabudovanému monitorovaniu spotreby energie vám zásuvka Gosund Smart Plug EP8-M umožňuje kontrolovať náklady a efektívne riadiť domáci rozpočet. Získate prehľad o…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Kontrola spotreby energie</h3>
-<p>Vďaka zabudovanému monitorovaniu spotreby energie vám zásuvka Gosund Smart Plug EP8-M umožňuje kontrolovať náklady a efektívne riadiť domáci rozpočet. Získate prehľad o aktuálnej spotrebe energie a môžete sa vedome rozhodnúť, ktoré zariadenia sa oplatí vypnúť, aby ste znížili svoje účty. Spolupráca s 2,4 GHz Wi-Fi zabezpečuje stabilné pripojenie a možnosť hlasového ovládania pomocou aplikácie Xiaomi Assistant robí zapínanie spotrebičov ešte pohodlnejším - stačí hlasový príkaz.</p>
+<NAME><![CDATA[Inteligentná zásuvka WiFi Gosund EP8-M 16 A (Xiaomi)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Inteligentná WiFi zásuvka Gosund EP8-M 16A (Xiaomi) Zásuvka Gosund EP8-M vám umožňuje pohodlne ovládať napájanie vašich elektrických zariadení prostredníctvom aplikácie Xiaomi Home. Vďaka podpore…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Inteligentná WiFi zásuvka Gosund EP8-M 16A (Xiaomi)</h3>
+<p>Zásuvka Gosund EP8-M vám umožňuje pohodlne ovládať napájanie vašich elektrických zariadení prostredníctvom aplikácie Xiaomi Home. Vďaka podpore systému Xiaomi HyperOS a pripojeniu cez Wi-Fi 2,4 GHz môžete pripojené zariadenia diaľkovo zapínať a vypínať, aj keď nie ste doma. Inteligentná zásuvka ponúka aj funkcie plánovania a časovačov, ktoré uľahčujú automatizáciu každodenných úloh. Ďalším pohodlným prvkom je hlasové ovládanie prostredníctvom kompatibilného asistenta Xiaomi.</p>
 <p>
-<img alt="Kávovar pripojený k inteligentnej zásuvke na kuchynskej linke, s obrázkom spiacej ženy prekrývajúcim sa v spodnej časti a veľkým smartfónom s prázdnou obrazovkou" border="0" src="https://assets.innpro.pl/18216/24187/2.jpg"/>
+<img alt="Na gauči v kuchyni sedí usmiata rodina, obklopená ikonami Wi-Fi, ktoré symbolizujú diaľkové ovládanie zariadení prostredníctvom aplikácie viditeľnej na smartfóne" border="0" src="https://assets.innpro.pl/18216/24187/1-kopia-e6b0c568-023c-478b-b8ae-aadc831b749c.jpg"/>
+</p><h3>Automatické riadenie napájania</h3>
+<p>Gosund EP8-M vám umožňuje prispôsobiť prevádzku pripojených zariadení každodennému režimu vašej domácnosti. Vďaka časovým plánom môžete naplánovať automatické zapínanie a vypínanie zariadení v zvolených časoch – napríklad vypnutie nočného osvetlenia pred spaním. Dostupné časovače vám tiež umožňujú nastaviť čas, po uplynutí ktorého sa zariadenie zapne alebo vypne. Táto funkcia zvyšuje pohodlie a pomáha znižovať zbytočnú spotrebu energie.</p>
+<p>
+<img alt="Kávovar zapojený do inteligentnej zásuvky na kuchynskej linke, s obrázkom spiacej ženy v spodnej časti a veľkým smartfónom s prázdnou obrazovkou" border="0" src="https://assets.innpro.pl/18216/24187/2-kopia-3a4d7f0e-7fa2-4f91-9713-7ef1098597d8.jpg"/>
 </p><h3>Bezpečnosť a pohodlie</h3>
-<p>Gosund EP8-M je navrhnutý s ohľadom na bezpečnosť celej rodiny. Bezpečnostné prvky chránia deti pred náhodným kontaktom so zásuvkou a možnosť uzamknutia fyzických tlačidiel zabraňuje nechceným zmenám nastavení. Možnosť skupinového ovládania viacerých zásuviek súčasne a zdieľania zariadenia s ostatnými členmi domácnosti uľahčuje ovládanie domácich spotrebičov všetkým členom rodiny.</p>
+<p>Gosund EP8-M je vybavený detskou bezpečnostnou poistkou, ktorá znižuje riziko náhodného kontaktu s elektrickými komponentmi. K dispozícii je aj funkcia fyzického uzamknutia tlačidiel, ktorá zabraňuje neúmyselným zmenám stavu napájania. Zásuvka tiež umožňuje skupinové ovládanie viacerých zariadení a zdieľanie prístupu s ostatnými členmi domácnosti. Vďaka tomu je správa elektrických spotrebičov pohodlnejšia pre celú rodinu.</p>
 <p>
-<img alt="Šteňa pije vodu z automatickej napájačky zapojenej do inteligentnej zásuvky v stene" border="0" src="https://assets.innpro.pl/18216/24187/3.jpg"/>
-</p><h3>Kompaktný a účinný</h3>
-<p>Kompaktný dizajn zariadenia Gosund EP8-M neblokuje susedné zásuvky a jeho výkon až 16 A (3680 W) ho robí vhodným pre nočné lampy, ako aj väčšie spotrebiče, napríklad práčky a kávovary. Je to ideálna voľba pre tých, ktorí si chcú vytvoriť inteligentnú domácnosť bez zložitých inštalácií a dodatočných nákladov.</p>
+<img alt="Šteniatko pije vodu z automatického dávkovača vody zapojeného do inteligentnej zásuvky v stene" border="0" src="https://assets.innpro.pl/18216/24187/3-kopia-20ff4fd0-7789-49df-858c-c3b1f657c556.jpg"/>
+</p><h3>Kompaktná a efektívna</h3>
+<p>Malé rozmery zariadenia Gosund EP8-M zaručujú, že zásuvka neblokuje susedné otvory v dvojitej nástenné zásuvke. Vďaka maximálnemu zaťaženiu 16 A (3680 W) môžete pripojiť aj malé zariadenia, ako sú nočné svetlá, aj spotrebiče s vyššou spotrebou energie, ako sú napríklad kávovary. Inštalácia je jednoduchá – stačí zapojiť inteligentnú zásuvku do zásuvky a nastaviť ju v aplikácii Xiaomi Home. Je to praktický spôsob, ako obohatiť vaše domáce zariadenia o funkcie inteligentného ovládania.</p>
 <p>
-<img alt="Inteligentná zásuvka zapojená do jednej z dvoch dvojitých zásuviek na svetlej stene" border="0" src="https://assets.innpro.pl/18216/24187/4.jpg"/>
-</p><h3>Gosund EP8-M 16A WiFi smart zásuvka (Xiaomi)</h3>
-<p>Inteligentná zásuvka Gosund EP8-M WiFi je moderným riešením pre každého, kto si chce užívať komfort plne automatizovanej domácnosti. Vďaka podpore systému Xiaomi HyperOS a aplikácie Xiaomi Home môžete jednoducho ovládať zariadenia odkiaľkoľvek na svete, čím ušetríte čas a energiu. Gosund EP8-M umožňuje nastaviť časové plány, časovače a funkcie odloženého zapnutia/vypnutia, vďaka čomu bude váš deň ešte organizovanejší - kávovar sa spustí ráno a svetlo v detskej izbe sa automaticky vypne pred spaním.</p>
-<p>
-<img alt="Usmievajúca sa rodina sedí na pohovke v kuchyni, obklopená ikonami Wi-Fi označujúcimi diaľkové ovládanie spotrebičov prostredníctvom aplikácie viditeľnej na smartfóne" border="0" src="https://assets.innpro.pl/18216/24187/1.jpg"/>
+<img alt="Inteligentná zásuvka zapojená do jednej z dvoch dvojitých zásuviek na svetlej stene" border="0" src="https://assets.innpro.pl/18216/24187/4-kopia-d767d40b-20bf-4bba-9c60-32115c08c5ed.jpg"/>
 </p>
-<h3>Súčasťou balenia je .</h3>
-<ul class="list-disc pl-5"><li>inteligentná zásuvka</li><li>návod na použitie</li></ul>
+<h3>Obsah balenia</h3>
+<ul class="list-disc pl-5"><li>inteligentná zásuvka</li><li>užívateľská príručka</li></ul>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Gosund</td></tr><tr><th>Model</th><td>Inteligentná zásuvka EP8-M</td></tr><tr><th>Pripojiteľnosť</th><td>Wi-Fi 2,4 GHz</td></tr><tr><th>Kompatibilita</th><td>Xiaomi Home, Xiaomi HyperOS</td></tr><tr><th>Maximálna záťaž</th><td>16A/3680W</td></tr><tr><th>Funkcie</th><td>Plány, časovače, odpočítavanie, monitorovanie energie, hlasové ovládanie</td></tr><tr><th>Zabezpečenie</th><td>Fyzický zámok tlačidiel, detská ochrana</td></tr><tr><th>Ovládanie</th><td>Mobilná aplikácia, hlasové príkazy, skupinové ovládanie</td></tr><tr><th>Napájanie</th><td>230V~/50Hz</td></tr>
+<tr><th>Výrobca</th><td>Gosund</td></tr><tr><th>Model</th><td>Smart Plug EP8-M</td></tr><tr><th>Pripojenie</th><td>Wi-Fi 2,4 GHz</td></tr><tr><th>Kompatibilita</th><td>Xiaomi Home, Xiaomi HyperOS</td></tr><tr><th>Maximálne zaťaženie</th><td>16 A/3680 W</td></tr><tr><th>Funkcie</th><td>Plány, časovače, hlasové ovládanie</td></tr><tr><th>Bezpečnosť</th><td>Fyzické uzamknutie tlačidiel, detská poistka</td></tr><tr><th>Ovládanie</th><td>Mobilná aplikácia, hlasové príkazy, skupinové ovládanie</td></tr><tr><th>Napájanie</th><td>230 V~/50 Hz</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=67652_55259_pol_a948b1ee58fac4b9e74f7b8e8cb83b42" target="_blank" rel="noopener">Stiahnuť dokument 1</a></p><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=75845_55259_pol_b5265fd79ece757c3b0ceebcb4b2ad0f" target="_blank" rel="noopener">Stiahnuť dokument 2</a></p>
@@ -296512,9 +296911,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <HEUREKA_CATEGORY_ID>5879</HEUREKA_CATEGORY_ID>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="Inteligentná zásuvka Gosund EP8-M 16A WiFi (Xiaomi) - obrázok 1">https://b2b.innpro.sk/hpeciai/9d8e5a36b724f41e7c6b21ae13462400/55259_1.jpg</IMAGE>
-  <IMAGE description="Inteligentná zásuvka Gosund EP8-M 16A WiFi (Xiaomi) - obrázok 2">https://b2b.innpro.sk/hpeciai/a96c66558163e2d39a5d43037e46b981/55259_2.jpg</IMAGE>
-  <IMAGE description="Inteligentná zásuvka Gosund EP8-M 16A WiFi (Xiaomi) - obrázok 3">https://b2b.innpro.sk/hpeciai/b14b1b1dcfd2039ac4f093cb8e993395/55259_3.jpg</IMAGE>
+  <IMAGE description="Inteligentná zásuvka WiFi Gosund EP8-M 16 A (Xiaomi) - obrázok 1">https://b2b.innpro.sk/hpeciai/9d8e5a36b724f41e7c6b21ae13462400/55259_1.jpg</IMAGE>
+  <IMAGE description="Inteligentná zásuvka WiFi Gosund EP8-M 16 A (Xiaomi) - obrázok 2">https://b2b.innpro.sk/hpeciai/a96c66558163e2d39a5d43037e46b981/55259_2.jpg</IMAGE>
+  <IMAGE description="Inteligentná zásuvka WiFi Gosund EP8-M 16 A (Xiaomi) - obrázok 3">https://b2b.innpro.sk/hpeciai/b14b1b1dcfd2039ac4f093cb8e993395/55259_3.jpg</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -296536,8 +296935,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>6.47</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Inteligentná zásuvka Gosund EP8-M 16A WiFi (Xiaomi) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Inteligentná zásuvka Gosund EP8-M 16A WiFi (Xiaomi) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Inteligentná zásuvka WiFi Gosund EP8-M 16 A (Xiaomi) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Inteligentná zásuvka WiFi Gosund EP8-M 16 A (Xiaomi) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Inteligentné hodinky Colmi P86 (čierne)]]></NAME>
@@ -320393,6 +320792,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -325525,8 +325925,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Latarka Superfire L3 P90 - obrázok 1">https://b2b.innpro.sk/hpeciai/c51919dfe210e3450bf80404ba2ab0ec/56465_2.webp</IMAGE>
-  <IMAGE description="Latarka Superfire L3 P90 - obrázok 2">https://b2b.innpro.sk/hpeciai/4c54af9f25dd4d4aca05f47b78d40b40/56465_1.webp</IMAGE>
+  <IMAGE description="Latarka Superfire L3 P90 - obrázok 1">https://b2b.innpro.sk/hpeciai/4e01551c1d82a5d38958223866914de3/56465_2.webp</IMAGE>
+  <IMAGE description="Latarka Superfire L3 P90 - obrázok 2">https://b2b.innpro.sk/hpeciai/ab60fd4b7518b3e31c5ebc08494be9f7/56465_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -336019,10 +336419,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="Okuliare RayNeo X3 Pro AR - obrázok 1">https://b2b.innpro.sk/hpeciai/352359feb53d4203ec607b5f23b68147/56758_1.jpg</IMAGE>
-  <IMAGE description="Okuliare RayNeo X3 Pro AR - obrázok 2">https://b2b.innpro.sk/hpeciai/41614f1d76f8875a1a6ef7dcd6b4ca24/56758_2.jpg</IMAGE>
-  <IMAGE description="Okuliare RayNeo X3 Pro AR - obrázok 3">https://b2b.innpro.sk/hpeciai/7f0f87188f5cf7967f0535d2255463e8/56758_3.jpg</IMAGE>
-  <IMAGE description="Okuliare RayNeo X3 Pro AR - obrázok 4">https://b2b.innpro.sk/hpeciai/c1357fc71a10774ed94c7b2301dee0b4/56758_4.jpg</IMAGE>
+  <IMAGE description="Okuliare RayNeo X3 Pro AR - obrázok 1">https://b2b.innpro.sk/hpeciai/f615c6e66b69d55d6b81d3c043b0d77f/56758_1.webp</IMAGE>
+  <IMAGE description="Okuliare RayNeo X3 Pro AR - obrázok 2">https://b2b.innpro.sk/hpeciai/691eab933f6bf65f6de6c85ddf2aa427/56758_2.webp</IMAGE>
+  <IMAGE description="Okuliare RayNeo X3 Pro AR - obrázok 3">https://b2b.innpro.sk/hpeciai/33336efd1e080b706237ea61b990d303/56758_3.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -372422,10 +372821,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 1">https://b2b.innpro.sk/hpeciai/d4e573731aa75851ce7b07429b1f4f62/57599_2.jpg</IMAGE>
-  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 2">https://b2b.innpro.sk/hpeciai/c76b569f1f79363e979eee004d831037/57599_1.jpg</IMAGE>
-  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 3">https://b2b.innpro.sk/hpeciai/42fe26f7225f0c76e851b6cb600f12cd/57599_3.jpg</IMAGE>
-  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 4">https://b2b.innpro.sk/hpeciai/322dfbefe988d8b8f59f81dac4edd496/57599_4.jpg</IMAGE>
+  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 1">https://b2b.innpro.sk/hpeciai/f7b4eaeebfbb82a3ea4fcd8ee00c095d/57599_2.webp</IMAGE>
+  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 2">https://b2b.innpro.sk/hpeciai/35186f8e61fc6d8211717bb0251ecb82/57599_1.webp</IMAGE>
+  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 3">https://b2b.innpro.sk/hpeciai/41df81c5a51b4e49fd1cf2575c3dc075/57599_3.webp</IMAGE>
+  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 4">https://b2b.innpro.sk/hpeciai/05bd175f998adc47adbf38ff65bc1f35/57599_4.webp</IMAGE>
+  <IMAGE description="Okuliare RayNeo Air 4 Pro AR - obrázok 5">https://b2b.innpro.sk/hpeciai/794c4a3f9ba625acb31ce6613c81e767/57599_5_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -428208,152 +428608,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Prenosný monitor Minix SF16T s uhlopriečkou 16" – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty) IMOU AOV PT KIT 5MP je vonkajšia kamera s funkciou otáčania a naklápania, ktorá kombinuje rozlíšenie 5 MP (2880 × 1620), plný rozsah pohybu 340°…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty)</h3>
-<p>IMOU AOV PT KIT 5MP je vonkajšia kamera s funkciou otáčania a naklápania, ktorá kombinuje rozlíšenie 5 MP (2880 × 1620), plný rozsah pohybu 340° horizontálne a 90° vertikálne a nezávislé napájanie vďaka batérii s kapacitou 10 000 mAh a solárnemu panelu s výkonom 5 W. Podpora Wi-Fi 2,4 GHz a 4G LTE zabezpečuje konektivitu aj v oblastiach bez prístupu k pevnému internetu. Vďaka technológii AOV umožňuje zariadenie nepretržité monitorovanie s optimalizovanou spotrebou energie. Zariadenie podporuje microSD karty s kapacitou až 512 GB. Záznamy sa ukladajú lokálne – toto riešenie poskytuje plnú kontrolu nad údajmi a eliminuje potrebu dodatočných poplatkov.</p>
-<p>
-<img alt="Biela kamera s funkciou otáčania a nakláňania a solárny panel namontované na šedej stene v daždi, so zelenými stromami v pozadí" border="0" src="https://assets.innpro.pl/21407/28335/1.jpg"/>
-</p><h3>Nepretržité monitorovanie</h3>
-<p>Využitie funkcie Always-on Video (AOV) umožňuje nepretržité monitorovanie okolia pri súčasnom znížení spotreby energie. Kamera vytvára časozberné záznamy z pravidelne snímaných fotografií a pri detekcii udalosti automaticky prejde na plné video nahrávanie. Toto riešenie vám umožňuje mať kompletný prehľad o situácii a zároveň predĺžiť výdrž batérie.</p>
-<p>
-<img alt="Záber zblízka na objektív kamery s dvoma svietiacimi bielymi svetlami a jednou ružovo-modrou LED diódou pod ním" border="0" src="https://assets.innpro.pl/21407/28335/2.jpg"/>
-</p><h3>Energetická nezávislosť a prevádzka mimo siete</h3>
-<p>Vstavaná batéria s kapacitou 10 000 mAh v kombinácii s 5 W solárnym panelom umožňuje prevádzku bez nutnosti pripojenia k elektrickej sieti. Už približne 2 hodiny denného slnečného svitu dokážu pokryť energetické potreby kamery pri bežnom používaní, čím sa eliminuje potreba častého nabíjania. Okrem toho vás systém upozornení upozorní, keď je batéria vybitá.</p>
-<p>
-<img alt="Kamera namontovaná pod clonou s viditeľnou modrou batériou vo vnútri; nad ňou solárny panel a žlté šípky" border="0" src="https://assets.innpro.pl/21407/28335/3.jpg"/>
-</p><h3>Stabilné pripojenie za všetkých podmienok</h3>
-<p>Kamera ponúka dva prevádzkové režimy – Wi-Fi 2,4 GHz a 4G LTE – vďaka čomu je vhodná na použitie doma aj na miestach bez stályho prístupu k internetu. Podpora európskych LTE pásiem (B1/3/5/7/8/20/28/38/40/41) zabezpečuje širokú kompatibilitu s operátormi. Toto riešenie je obzvlášť užitočné na pozemkoch, staveniskách alebo na miestach vzdialených od sieťovej infraštruktúry.</p>
-<p>
-<img alt="Rez kamerou zobrazujúci objektív a modro svietiaci procesor" border="0" src="https://assets.innpro.pl/21407/28335/4.jpg"/>
-</p><h3>Inteligentná detekcia a aktívna reakcia</h3>
-<p>Algoritmy IMOU SENSE umožňujú detekciu osôb a vozidiel. V prípade ohrozenia kamera aktivuje sirénu a svetelný alarm (reflektory a červené a modré svetlá). Okrem toho funkcia Režim súkromia umožňuje zakryť objektív na ochranu súkromia.</p>
-<p>
-<img alt="Biela kamera so solárnym panelom namontovaná na drevenom stĺpe na pozadí polí, viníc a modrej oblohy" border="0" src="https://assets.innpro.pl/21407/28335/5.jpg"/>
-</p><h3>Čistý obraz</h3>
-<p>Kamera je vybavená 1/3” CMOS senzorom a 3,6 mm objektívom, ktorý ponúka uhol záberu 76° (H), 41° (V) a 91° (D). Dosah nočného videnia až 25 m vám umožňuje monitorovať oblasť aj po zotmení a funkcia Smart Full-Color Night Vision poskytuje farebný obraz pri detekcii pohybu. Otočná konštrukcia eliminuje slepé miesta a umožňuje úplné pokrytie monitorovanej oblasti.</p>
-<p>
-<img alt="Kamera so solárnym panelom na drevenej fasáde pokrytej kvapkami vody, s rozmazanými mestskými budovami v pozadí" border="0" src="https://assets.innpro.pl/21407/28335/6.jpg"/>
-</p><h3>Dvojcestná komunikácia v reálnom čase</h3>
-<p>Vstavaný mikrofón a reproduktor umožňujú dvojcestnú komunikáciu, vďaka čomu môžete okamžite reagovať na situácie pred kamerou. Toto praktické riešenie vám umožňuje nielen monitorovať, ale aj komunikovať s členmi domácnosti alebo odradiť nežiaducich návštevníkov.</p>
-<p>
-<img alt="Ruka držiaca smartfón s obrazovkou „Nový vlastný zvonenie“ a tlačidlom mikrofónu na nahrávanie zvuku" border="0" src="https://assets.innpro.pl/21407/28335/7.jpg"/>
-</p>
-<h3>Súčasťou sady:</h3>
-<ul class="list-disc pl-5"><li>Kamera</li><li>Solárny panel</li><li>Montážny držiak (pre kameru)</li><li>Montážny držiak (pre panel)</li><li>Inštalačná šablóna</li><li>Napájací kábel (1 m)</li><li>Sada skrutiek a hmoždiniek (pre kameru)</li><li>Sada skrutiek a hmoždiniek (pre panel)</li><li>Návod na použitie</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3>Všeobecné informácie</h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>IMOU</td></tr><tr><th>Model</th><td>IPC-B7ED-5M0TEA-EU</td></tr><tr><th>Materiál</th><td>Plast</td></tr><tr><th>Napájanie</th><td>DC 5 V 2 A</td></tr><tr><th>Prevádzková teplota</th><td>-20 °C až +50 °C</td></tr><tr><th>Teplota nabíjania</th><td>-10 °C až +45 °C</td></tr><tr><th>Rozmery</th><td>177 × 110 × 142 mm</td></tr><tr><th>Certifikáty</th><td>CE, MSDS</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Kamera</h3>
-<table>
-<tbody>
-<tr><th>Snímač</th><td>1/3” Progressive CMOS</td></tr><tr><th>Rozlíšenie</th><td>5 MP (2880 × 1620)</td></tr><tr><th>Dosah nočného videnia</th><td>25 m</td></tr><tr><th>Objektív</th><td>3,6 mm</td></tr><tr><th>Uhol záberu</th><td>76° (H), 41° (V), 91° (D)</td></tr><tr><th>Rozsah otáčania/naklápania</th><td>340° / 90°</td></tr><tr><th>Batéria</th><td>10 000 mAh</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Video a audio</h3>
-<table>
-<tbody>
-<tr><th>Kompresia videa</th><td>H.265</td></tr><tr><th>Rýchlosť snímok</th><td>Až 15 fps</td></tr><tr><th>Digitálny zoom</th><td>8×</td></tr><tr><th>Audio</th><td>Dvojcestné</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Správa upozornení</h3>
-<table>
-<tbody>
-<tr><th>Detekcia osôb</th><td>Áno</td></tr><tr><th>Detekcia vozidiel:</th><td>Áno</td></tr><tr><th>Upozornenie na nízky stav batérie</th><td>Áno</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Úložisko</h3>
-<table>
-<tbody>
-<tr><th>Lokálne úložisko</th><td>MicroSD až do 512 GB</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Sieť</h3>
-<table>
-<tbody>
-<tr><th>Wi-Fi</th><td>IEEE802.11 b/g/n, 2,4 GHz</td></tr><tr><th>4G LTE</th><td>B1/3/5/7/8/20/28/38/40/41</td></tr><tr><th>Aplikácia</th><td>Imou (iOS, Android)</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Ďalšie rozhrania</h3>
-<table>
-<tbody>
-<tr><th>Mikrofón a reproduktor</th><td>Vstavané</td></tr><tr><th>Tlačidlo resetovania</th><td>Áno</td></tr><tr><th>Slot na pamäťovú kartu</th><td>Áno</td></tr><tr></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77614_59566_pol_353921b520773505975cc3c391fbce1f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[IMOU]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>087353</CODE>
-<EAN>6976391032484</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty) - obrázok 1">https://b2b.innpro.sk/hpeciai/aa9f2e212417ce53e09ba41883ced0b1/59566_1.jpg</IMAGE>
-  <IMAGE description="Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty) - obrázok 2">https://b2b.innpro.sk/hpeciai/765a87c9fb9904aeb4b46757d74456e6/59566_2.jpg</IMAGE>
-  <IMAGE description="Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty) - obrázok 3">https://b2b.innpro.sk/hpeciai/f4a234b67f21d1b292bf5df25826a61d/59566_3.jpg</IMAGE>
-  <IMAGE description="Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty) - obrázok 4">https://b2b.innpro.sk/hpeciai/22f3820a9bb4e833dc8ab3d378a62f7a/59566_4.jpg</IMAGE>
-  <IMAGE description="Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty) - obrázok 5">https://b2b.innpro.sk/hpeciai/2d52187bf3648518264613d93bf11a11/59566_5.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Druh]]></NAME>
-    <VALUE><![CDATA[Vonkajší]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Zasilanie]]></NAME>
-    <VALUE><![CDATA[Bezprzewodowe]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pripojenie]]></NAME>
-    <VALUE><![CDATA[Wi-Fi]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Aplikácia]]></NAME>
-    <VALUE><![CDATA[Ostatné]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Ďalšie funkcie]]></NAME>
-    <VALUE><![CDATA[LED svetlo]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Kvalita nahrávania]]></NAME>
-    <VALUE><![CDATA[3K]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rotačný]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Úložisko nahrávok]]></NAME>
-    <VALUE><![CDATA[Pamäťová karta + cloud]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.34</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>142.50</PRICE_VAT>
-<PURCHASE_PRICE>100.68</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Vonkajšia IP kamera IMOU AOV PT KIT 4G (bez karty) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Zavážacia loďka Flytec V066, 18 000 mAh]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Flytec V066 18000 mAh – loďka na návnadu Moderný rybolov by mal byť založený na pohodlí, presnosti a vysokej efektivite – a práve tieto vlastnosti odlišujú loďku na návnadu Flytec V066 s jej výkonnou…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Flytec V066 18000 mAh – loďka na návnadu</h3>
@@ -453576,7 +453830,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -459719,14 +459976,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -480674,29 +480935,29 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Externý filter SUNSUN HW404B 9 W/UV – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[SUNSUN HW503 Vonkajší filter]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Externý filter SUNSUN HW503 Externý filter SunSun HW-503 je kompaktné riešenie určené pre akváriá s nízkou hladinou vody. Je vybavený čerpadlom s výkonom 6 W a dosahuje prietok 600 l/h, čím účinne…]]></SHORT_DESCRIPTION>
+<NAME><![CDATA[Externý filter SUNSUN HW503]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Externý filter SUNSUN HW503 Externý filter SunSun HW-503 je kompaktné riešenie určené pre akváriá s nízkou hladinou vody. Je vybavený čerpadlom s výkonom 6 W, ktoré zabezpečuje prietok 600 l/h, čím…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Externý filter SUNSUN HW503</h3>
-<p>Externý filter SunSun HW-503 je kompaktné riešenie určené pre akváriá s nízkou hladinou vody. Je vybavený čerpadlom s výkonom 6 W a dosahuje prietok 600 l/h, čím účinne prispieva k udržaniu čistej a priezračnej vody. Vďaka malým rozmerom 212 × 172 × 287 mm a hmotnosti 1,9 kg sa dá ľahko umiestniť vedľa akvária a jeho kompaktný dizajn uľahčuje každodennú prevádzku a údržbu. Informácie týkajúce sa výkonu, spotreby energie a rozmerov sú potvrdené dokumentáciou výrobcu.</p>
+<p>Externý filter SunSun HW-503 je kompaktné riešenie určené pre akváriá s nízkou hladinou vody. Je vybavený čerpadlom s výkonom 6 W, ktoré zabezpečuje prietok 600 l/h, čím účinne prispieva k udržaniu čistej a priezračnej vody. Vďaka malým rozmerom 212 × 172 × 287 mm a hmotnosti 1,9 kg sa dá ľahko umiestniť vedľa akvária a jeho kompaktná konštrukcia zjednodušuje každodennú prevádzku a údržbu. Informácie o prietoku, výkone a rozmeroch sú potvrdené v dokumentácii výrobcu.</p>
 <p>
-<img alt="Biely vedrový filter do akvária so zelenými hadicami, rúrkami a ručnou pumpou na svetlom pozadí." border="0" src="https://assets.innpro.pl/22341/29377/1.jpg"/>
+<img alt="Biely valcovitý kanystrový filter SunSun HW-503 s čiernymi ventilmi a svorkami na modrom pozadí." border="0" src="https://assets.innpro.pl/22341/29377/1-a733cf7b-11e8-436c-96a3-31ac1dcfe4a3.jpg"/>
 </p><h3>Účinná filtrácia s nízkou spotrebou energie</h3>
-<p>Model HW-503 je navrhnutý pre efektívnu prevádzku s nízkou spotrebou energie. Vstavané čerpadlo zabezpečuje konštantný prietok vody a viacstupňový filtračný systém umožňuje postupné odstraňovanie nečistôt. Filter je možné použiť v sladkovodných aj morských akváriách a maximálna výška zdvihu 0,9 m zabezpečuje správnu cirkuláciu vody za vhodných inštalačných podmienok. Konštrukcia neobsahuje UV lampu, čo z neho robí verziu bez UV.</p>
+<p>Model HW-503 je navrhnutý na efektívnu prevádzku s nízkou spotrebou energie. Vstavané čerpadlo zabezpečuje konštantný prietok vody a viacstupňový filtračný systém postupne odstraňuje nečistoty z vody. Filter je možné používať v sladkovodných aj morských akváriách a jeho maximálna výška zdvihu 0,9 m zabezpečuje správnu cirkuláciu vody za vhodných inštalačných podmienok. Konštrukcia neobsahuje UV lampu, čo z neho robí verziu bez UV žiarenia.</p>
 <p>
-<img alt="Vedrový filter do akvária zobrazený pod uhlom s rozmazaným pozadím po bokoch rámu." border="0" src="https://assets.innpro.pl/22341/29377/3.jpg"/>
+<img alt="Biely kanistrový filter HW-503 s ventilmi na drevenej skrinke vedľa akvária s rastlinami a rybami." border="0" src="https://assets.innpro.pl/22341/29377/2-cb4d241f-5374-45f6-879e-e339cb3dfd26.jpg"/>
 </p><h3>Pohodlná obsluha a rýchla inštalácia</h3>
-<p>Zariadenie je vybavené praktickou rukoväťou a robustnými zacvakávacími svorkami, ktoré uľahčujú otváranie a zatváranie krytu počas údržby. Jednoduchá inštalácia a kompaktná, prenosná konštrukcia vám umožňujú pohodlne premiestňovať filter a rýchlo ho pripraviť na prevádzku. Dlhý napájací kábel s dĺžkou 1,5 m poskytuje väčšiu voľnosť pri inštalácii v blízkosti akvária.</p>
+<p>Zariadenie je vybavené praktickou rukoväťou a robustnými zacvakávacími svorkami, ktoré uľahčujú otváranie a zatváranie krytu počas údržby. Jednoduchá inštalácia a kompaktná, prenosná konštrukcia uľahčujú presun filtra a jeho rýchle pripravenie na použitie. Dlhý napájací kábel s dĺžkou 1,5 metra poskytuje väčšiu flexibilitu pri inštalácii v blízkosti akvária.</p>
 <p>
-<img alt="Biely vedrový filter do akvária s príslušenstvom a jeho rozmazanou kópiou na pravej strane." border="0" src="https://assets.innpro.pl/22341/29377/2.jpg"/>
+<img alt="Biely akvarijný filter HW-503 s čiernymi uzáverovými ventilmi na svetlom štúdiovom pozadí." border="0" src="https://assets.innpro.pl/22341/29377/5-746406c2-17ae-4167-a539-d9cef5220edf.jpg"/>
 </p>
 <h3>Súčasťou balenia</h3>
-<ul class="list-disc pl-5"><li>Externý filter SunSun HW-503 x1</li><li>Akvarijná hadica x1</li><li>Rozprašovacia tyč x1</li><li>Vstupná rúrka so sacím košíkom x1</li><li>Regulačný ventil prietoku x1</li><li>Spojovacie kolená x2</li><li>Montážne prísavky</li><li>Filtračné vložky</li></ul><p> </p>
+<ul class="list-disc pl-5"><li>Externý filter SunSun HW-503 x1</li><li>Akvarijná hadica x1</li><li>Rozprašovacia tyč x1</li><li>Vstupná rúrka so sacím košíkom x1</li><li>Regulačný ventil prietoku x1</li><li>Pripojovacie kolená x2</li><li>Montážne prísavky</li><li>Filtračné vložky</li></ul><p> </p>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>SunSun</td></tr><tr><th>Model</th><td>HW-503</td></tr><tr><th>Typ</th><td>Externý filter (bez UV)</td></tr><tr><th>Napätie</th><td>220 V</td></tr><tr><th>Frekvencia</th><td>50 Hz</td></tr><tr><th>Výkon čerpadla</th><td>6 W</td></tr><tr><th>UV lampa</th><td>Žiadna</td></tr><tr><th>Prúdenie</th><td>600 l/h</td></tr><tr><th>Maximálna výška zdvihu</th><td>0,9 m</td></tr><tr><th>Dĺžka kábla</th><td>1,5 m</td></tr><tr><th>Rozmery</th><td>212 × 172 × 287 mm</td></tr><tr><th>Hmotnosť</th><td>1,9 kg</td></tr><tr><th>Použitie</th><td>Sladkovodné a morské akváriá s nízkou hladinou vody</td></tr>
+<tr><th>Výrobca</th><td>SunSun</td></tr><tr><th>Model</th><td>HW-503</td></tr><tr><th>Typ</th><td>Externý filter (bez UV)</td></tr><tr><th>Napätie</th><td>220 V</td></tr><tr><th>Frekvencia</th><td>50 Hz</td></tr><tr><th>Príkon čerpadla</th><td>6 W</td></tr><tr><th>UV lampa</th><td>Žiadna</td></tr><tr><th>Prúdenie</th><td>600 l/h</td></tr><tr><th>Maximálna výška zdvihu</th><td>0,9 m</td></tr><tr><th>Dĺžka kábla</th><td>1,5 m</td></tr><tr><th>Rozmery</th><td>212 × 172 × 287 mm</td></tr><tr><th>Hmotnosť</th><td>1,9 kg</td></tr><tr><th>Použitie</th><td>Sladkovodné a morské akváriá s nízkou hladinou vody</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88150_60904_pol_665afe402b6799ca9691bdccb882f35b" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -480712,7 +480973,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Chovateľské potreby]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="SUNSUN HW503 Vonkajší filter">https://b2b.innpro.sk/hpeciai/e5da0d1553b24500c30fd0e3d13ccc00/60904_1_1.webp</IMAGE>
+  <IMAGE description="Externý filter SUNSUN HW503">https://b2b.innpro.sk/hpeciai/1f6c727d584123b4e0539f09daef8fc5/60904_2.jpg</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -480732,7 +480993,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[50 Hz]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Výkon čerpadla]]></NAME>
+    <NAME><![CDATA[Príkon čerpadla]]></NAME>
     <VALUE><![CDATA[6 W]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
@@ -480774,8 +481035,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>16.24</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[SUNSUN HW503 Vonkajší filter | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[SUNSUN HW503 Vonkajší filter – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Externý filter SUNSUN HW503 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Externý filter SUNSUN HW503 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Externý filter SUNSUN HW-704B 9 W UV]]></NAME>
@@ -512976,6 +513237,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -524782,6 +525044,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>18.03</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -526733,6 +526996,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>29.00</PRICE_VAT>
 <PURCHASE_PRICE>20.56</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -528269,14 +528533,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -560130,7 +560397,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Baterka Superfire A22S, 2300 LM">https://b2b.innpro.sk/hpeciai/301f7888b099b28711eab20ea97888d2/63808_1_1.webp</IMAGE>
+  <IMAGE description="Baterka Superfire A22S, 2300 LM">https://b2b.innpro.sk/hpeciai/8bdc464b49245f95bb629d1f906c5720/63808_1_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -576435,7 +576702,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>089389</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6977502518804</EAN>
 <CATEGORIES>
@@ -578384,6 +578651,810 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Nabíjačka FOSSIBOT FAC580 DC-DC 580 W | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Nabíjačka FOSSIBOT FAC580 DC-DC 580 W – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Elektrický gril AMZCHEF CE-LS-GC02C-H-WP]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Elektrický gril AMZCHEF CE-LS-GC02C-H-WP Elektrický gril AMZCHEF CE-LS-GC02C-H-WP je spotrebič s výkonom 2000 W, vybavený dvoma nepriľnavými grilovacími platňami s rozmermi 32 × 22 cm. Spotrebič…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Elektrický gril AMZCHEF CE-LS-GC02C-H-WP</h3>
+<p>Elektrický gril AMZCHEF CE-LS-GC02C-H-WP je spotrebič s výkonom 2000 W, vybavený dvoma nepriľnavými grilovacími platňami s rozmermi 32 × 22 cm. Spotrebič ponúka reguláciu teploty v rozmedzí 80–230 °C, časovač nastaviteľný od 30 sekúnd do 60 minút a prehľadný LED displej, na ktorom môžete sledovať zvolené nastavenia. Možnosť používať obe platne súčasne alebo len hornú či dolnú platňu vám umožňuje prispôsobiť spôsob ohrevu pripravovanému jedlu a konštrukcia s otvorením o 180° zvyšuje dostupnú plochu na varenie.</p>
+<p>
+<img alt="Otvorený elektrický gril Amzchef položený na rovnej ploche s grilovaným mäsom a špízmi" border="0" src="https://assets.innpro.pl/24804/32578/2-df9bbe7f-df17-48b8-aa99-05c8a055dc35.jpg"/>
+</p><h3>Výkon 2000 W a presná regulácia teploty</h3>
+<p>Výkon 2000 W umožňuje rýchle dosiahnutie nastavenej teploty a zabezpečuje rýchle a rovnomerné zahrievanie grilovacích plôch. Rozsah teplôt od 80 do 230 °C uľahčuje výber správnych podmienok pre rôzne potraviny – od chleba a zeleniny až po mäso, hamburgery a špízy. Vstavaný časovač vám umožňuje nastaviť prevádzkový čas od 30 sekúnd do 60 minút, čo uľahčuje kontrolu celého procesu prípravy jedla.</p>
+<p>
+<img alt="Grafická ilustrácia vstavaných vykurovacích prvkov s výkonom 2000 W v elektrickom grile Amzchef" border="0" src="https://assets.innpro.pl/24804/32578/9-fa437e27-bdd5-40cc-9d3f-b8fa21034691.jpg"/>
+</p><h3>Kontaktný gril alebo veľká plocha po rozložení</h3>
+<p>Model AMZCHEF CE-LS-GC02C-H-WP môže fungovať ako klasický kontaktný gril, ktorý ohrieva potraviny súčasne zhora aj zdola. Spotrebič je možné otvoriť až do uhla 180°, čím vzniká viac priestoru na prípravu viacerých pokrmov naraz. Dosky s rozmermi 32 × 22 cm sú ideálne na grilovanie steakov, klobás, zeleniny, slaniny, sendvičov a špízov, okrem iného.</p>
+<p>
+<img alt="Osoba otáčajúca mäso a zeleninu pomocou kuchynského náradia na rozloženom elektrickom grile Amzchef" border="0" src="https://assets.innpro.pl/24804/32578/3-f5f2849e-9dc1-4b20-be02-8ad4637de1fb.jpg"/>
+</p><h3>Nastaviteľná výška hornej dosky</h3>
+<p>Konštrukcia hornej časti grilu umožňuje nastaviť vzdialenosť medzi doskami tak, aby zodpovedala výške pripravovaných potravín. Dostupné nastavenia približne 2, 4 a 7 cm uľahčujú grilovanie tenkých surovín aj hrubších hamburgerov či vysokých sendvičov. Vďaka tomu horná platňa nemusí na potraviny silno tlačiť, čo pomáha zachovať ich tvar a poskytuje väčšiu flexibilitu pri príprave rôznych jedál.</p>
+<p>
+<img alt="Ruka držiaca kovovú rukoväť otváracieho veka elektrického grilu Amzchef" border="0" src="https://assets.innpro.pl/24804/32578/6-b38165d6-6895-4887-9cae-501686f34d57.jpg"/>
+</p><h3>Nepríľnavý povrch a jednoduchšie čistenie</h3>
+<p>Dosky sú potiahnuté nepriľnavým povrchom, vďaka čomu sa uvarené jedlo ľahšie vyberá z grilu a skracuje sa čas potrebný na následné čistenie. Prebytočný tuk vznikajúci počas varenia odteká do vyberateľnej misky, čo pomáha udržať spotrebič aj vašu pracovnú dosku čistejšie. Konštrukcia tiež uľahčuje čistenie grilovacích plôch po použití.</p>
+<p>
+<img alt="Ručné umývanie vyberateľnej ohrevnej platne elektrického grilu utierkou pod tečúcou vodou" border="0" src="https://assets.innpro.pl/24804/32578/8-67839cd0-4ea1-411e-926d-a0bea45182e8.jpg"/>
+</p><h3>Rukoväť, ktorá zostáva chladná na dotyk, a odolná povrchová úprava</h3>
+<p>Telo grilu je vyrobené z nehrdzavejúcej ocele s brúseným povrchom, čo zariadeniu dodáva jednoduchý, moderný vzhľad, ktorý dokonale zapadne na vašu kuchynskú pracovnú dosku. Rukoväť je vyrobená z hliníkovej zliatiny a jej konštrukcia minimalizuje prenos tepla, vďaka čomu zostáva chladnejšia na dotyk počas prevádzky zariadenia. Toto riešenie zvyšuje komfort pri otváraní a zatváraní hornej platne a znižuje riziko náhodného popálenia počas používania.</p>
+<p>
+<img alt="Žena stojaca vedľa otvoreného vaflovača Amzchef s upečenými vafľami na kuchynskej linke" border="0" src="https://assets.innpro.pl/24804/32578/4-a382d2bc-981a-4ba8-854a-37471e2a57aa.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>AMZCHEF</td></tr><tr><th>Model</th><td>CE-LS-GC02C-H-WP</td></tr><tr><th>Typ</th><td>elektrický gril</td></tr><tr><th>Napájanie</th><td>220–240 V~, 50–60 Hz</td></tr><tr><th>Príkon</th><td>2000 W</td></tr><tr><th>Teplotný rozsah</th><td>80–230 °C</td></tr><tr><th>Časovač</th><td>30 sekúnd až 60 minút</td></tr><tr><th>Prevádzkové režimy</th><td>obe platne / horná platňa / spodná platňa</td></tr><tr><th>Displej</th><td>LED</td></tr><tr><th>Uhol sklopenia</th><td>až 180°</td></tr><tr><th>Nastavenie výšky hornej platne</th><td>cca 2 / 4 / 7 cm</td></tr><tr><th>Rozmery zariadenia</th><td>33 × 35 × 17 cm</td></tr><tr><th>Rozmery platne</th><td>32 × 22 cm</td></tr><tr><th>Materiál povrchu</th><td>nehrdzavejúca oceľ</td></tr><tr><th>Materiál rukoväte</th><td>hliníková zliatina</td></tr><tr><th>Povrch grilovacej platne</th><td>nepríľnavá vrstva</td></tr><tr><th>Povrchová úprava</th><td>brúsená</td></tr><tr><th>Zásobník na tuk</th><td>vyberateľný</td></tr><tr></tr>
+</tbody>
+</table>
+</div>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090418</CODE>
+<EAN>5905156109698</EAN>
+<IMAGES>
+  <IMAGE description="Elektrický gril AMZCHEF CE-LS-GC02C-H-WP">https://b2b.innpro.sk/hpeciai/dcc2778ac8a6c7f529c64c541eaedf01/64452_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[amzchef]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[elektrický gril]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Napájanie]]></NAME>
+    <VALUE><![CDATA[220–240 V~, 50–60 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Príkon]]></NAME>
+    <VALUE><![CDATA[2000 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Teplotný rozsah]]></NAME>
+    <VALUE><![CDATA[80–230 °C]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Časovač]]></NAME>
+    <VALUE><![CDATA[30 sekúnd až 60 minút]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Prevádzkové režimy]]></NAME>
+    <VALUE><![CDATA[obe platne / horná platňa / spodná platňa]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Displej]]></NAME>
+    <VALUE><![CDATA[LED]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uhol sklopenia]]></NAME>
+    <VALUE><![CDATA[až 180°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nastavenie výšky hornej platne]]></NAME>
+    <VALUE><![CDATA[cca 2 / 4 / 7 cm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery zariadenia]]></NAME>
+    <VALUE><![CDATA[33 × 35 × 17 cm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[2000 W]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>0</VISIBLE>
+<VISIBILITY>hidden</VISIBILITY>
+<LOGISTIC><WEIGHT>8.10</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>109.90</PRICE_VAT>
+<PURCHASE_PRICE>77.57</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Elektrický gril AMZCHEF CE-LS-GC02C-H-WP | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Elektrický gril AMZCHEF CE-LS-GC02C-H-WP – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Indukčná varná doska AMZCHEF Domino]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF Domino Indukčná varná doska AMZCHEF Domino je kompaktný model s dvoma varnými zónami, celkovým výkonom 3 700 W, 10 stupňami nastavenia výkonu a funkciou Boost. V režime…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Indukčná varná doska AMZCHEF Domino</h3>
+<p>Indukčná varná doska AMZCHEF Domino je kompaktný model s dvoma varnými zónami, celkovým výkonom 3 700 W, 10 stupňami nastavenia výkonu a funkciou Boost. V režime Boost dosahuje predná zóna výkon až 2 600 W, zatiaľ čo zadná zóna až 2 000 W, čo vám umožňuje rýchlo priviesť vodu do varu alebo intenzívne zohriať jedlo. Spotrebič je tiež vybavený dotykovým LED panelom, časovačom s nastavením až na 99 minút, detskou poistkou a ochranou proti prehriatiu a vďaka svojmu dizajnu pre voľné umiestnenie na pracovnú dosku alebo pre zabudovanie ho možno používať buď ako voľne stojaci spotrebič na pracovnej doske, alebo ako zabudovaný spotrebič.</p>
+<p>
+<img alt="Dvojzónová indukčná varná doska Amzchef na pracovnej doske s panvicou obsahujúcou vyprážané jedlo a rukami krájajúcimi zeleninu" border="0" src="https://assets.innpro.pl/24806/32581/1-e56c37ae-6e87-4a27-bc6e-0a123117d097.jpg"/>
+</p><h3>10 úrovní výkonu pre rôzne jedlá</h3>
+<p>AMZCHEF Domino vám umožňuje prispôsobiť intenzitu ohrevu typu pripravovaného jedla pomocou 10 nastavení výkonu. Nižšie úrovne sú ideálne na jemné ohrievanie, roztápanie alebo pomalé varenie, zatiaľ čo vyššie úrovne možno použiť na vyprážanie a rýchle dosiahnutie vysokých teplôt pri príprave jedál. Varná doska využíva kontinuálne ohrievanie pri nízkom výkone, čo uľahčuje udržanie stabilných podmienok pri príprave jedál, ktoré vyžadujú jemné ohrievanie.</p>
+<p>
+<img alt="Pár varí v svetlej kuchyni vedľa čiernej indukčnej varné dosky Amzchef s viditeľným riadom" border="0" src="https://assets.innpro.pl/24806/32581/2-ec12f09f-c951-43e1-98a0-d78c48ffa306.jpg"/>
+</p><h3>Funkcia Boost – extra výkon, keď ide o čas</h3>
+<p>Režim Boost vám umožňuje dočasne zvýšiť výkon vybranej varné zóny. V tomto režime môže predná zóna dosiahnuť výkon až 2 600 W a zadná zóna až 2 000 W, vďaka čomu je táto funkcia obzvlášť užitočná na rýchle dovedenie vody do varu alebo intenzívne ohrievanie hrnca. Vzhľadom na celkový výkon spotrebiča 3 700 W sa pri súčasnej aktivácii funkcie Boost na oboch zónach jedna z nich automaticky prestane v tomto režime fungovať.</p>
+<p>
+<img alt="Červený hrniec s jedlom na dvojzónovej indukčnej varné doske Amzchef a ruka držiaca lyžicu" border="0" src="https://assets.innpro.pl/24806/32581/3-919bd998-db34-4ef8-9437-3221fa748f29.jpg"/>
+</p><h3>Dotykové ovládanie a časovač až na 99 minút</h3>
+<p>Prehľadný LED dotykový panel vám umožňuje pohodlne ovládať obe zóny bez použitia tradičných otočných gombíkov. Môžete ho použiť na výber varného poľa, nastavenie úrovne výkonu, aktiváciu funkcie Boost, nastavenie časovača a uzamknutie ovládacieho panela. Časovač je možné nastaviť v rozmedzí od 1 do 99 minút, čo uľahčuje sledovanie času varenia bez nutnosti neustáleho kontrolovania hodín.</p>
+<p>
+<img alt="Žena a dievča v kuchyni vedľa indukčnej varné dosky Amzchef, na ktorej sa v hrnci varí polievka" border="0" src="https://assets.innpro.pl/24806/32581/4-63e9d169-6667-47f5-a4e6-1b74d40baaa6.jpg"/>
+</p><h3>Funkcie pre bezpečné používanie</h3>
+<p>Bezpečnostná poistka znižuje riziko náhodnej zmeny nastavení panelu, čo je obzvlášť praktické v domácnosti s deťmi. Varná doska je tiež vybavená ochranou proti prehriatiu a bezpečnostnou funkciou, ktorá zabraňuje jej prevádzke bez príslušného riadu na povrchu. Hladký sklenený povrch sa tiež ľahko utiera, takže rozliate tekutiny a bežné škvrny možno po varení rýchlo odstrániť.</p>
+<p>
+<img alt="Dvojzónová indukčná varná doska Amzchef na kuchynskej doske s hrncom polievky a panvicou s mäsom" border="0" src="https://assets.innpro.pl/24806/32581/5-bc145991-8f5c-4725-a3b1-276429c4eb23.jpg"/>
+</p><h3>Na pracovnú dosku alebo na zabudovanie</h3>
+<p>Varnú dosku AMZCHEF Domino možno používať ako voľne stojacu jednotku umiestnenú priamo na pracovnej doske, keďže je dodávaná s továrensky namontovanými nožičkami, vďaka čomu nie je potrebné vyrezávať montážny otvor. Ak má byť varná doska zabudovaná do kuchynských skríň, môže sa inštalovať do výrezu s rozmermi 48,6–48,8 × 26,1–26,3 cm. Vonkajšie rozmery spotrebiča sú približne 52 × 29 × 5,8 cm, vďaka čomu je model Domino priestorovo úsporný a vhodný aj do menších kuchýň.</p>
+<p>
+<img alt="Žena smažiaca jedlo na indukčnej varné doske Amzchef, vedľa nej pri kuchynskom stole sedí jej manžel a syn" border="0" src="https://assets.innpro.pl/24806/32581/6-487dd840-88c7-4ddd-aef2-c1cc5ee24488.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>AMZCHEF</td></tr><tr><th>Model</th><td>CE-T-37IB2xyzf-CS</td></tr><tr><th>Typ výrobku</th><td>Indukčná varná doska Domino</td></tr><tr><th>Počet varných zón</th><td>2</td></tr><tr><th>Celkový výkon</th><td>3700 W</td></tr><tr><th>Boost výkon (predná zóna)</th><td>až 2600 W</td></tr><tr><th>Boost výkon (zadná zóna)</th><td>až 2000 W</td></tr><tr><th>Počet výkonových úrovní</th><td>10</td></tr><tr><th>Funkcia Boost</th><td>áno</td></tr><tr><th>Časovač</th><td>1–99 minút</td></tr><tr><th>Ovládanie</th><td>LED dotykový displej</td></tr><tr><th>Bezpečnostná poistka</th><td>áno</td></tr><tr><th>Ochrana proti prehriatiu</th><td>áno</td></tr><tr><th>Vstupné napätie</th><td>220–240 V~</td></tr><tr><th>Frekvencia</th><td>50/60 Hz</td></tr><tr><th>Rozmery výrobku</th><td>cca 52 × 29 × 5,8 cm</td></tr><tr><th>Rozmery výrezu</th><td>48,6–48,8 × 26,1–26,3 cm</td></tr><tr><th>Spôsob inštalácie</th><td>voľne stojaca na pracovnej doske / vstavaná</td></tr><tr><th>Nôžky na umiestnenie na pracovnej doske</th><td>Áno</td></tr><tr><th>Povrch</th><td>Hladký sklenený panel</td></tr><tr><th>Kompatibilný riad</th><td>Nerezová oceľ s magnetickým dnom, smaltované železo, železo a liatina.</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/grily--pekarne--varice/">Grily, pekárne, variče</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090420</CODE>
+<EAN>5905156109711</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Indukčná varná doska AMZCHEF Domino">https://b2b.innpro.sk/hpeciai/bd5bee2c7b5528d8a681cf47a88d3b6c/64454_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[amzchef]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ výrobku]]></NAME>
+    <VALUE><![CDATA[Indukčná varná doska Domino]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet varných zón]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový výkon]]></NAME>
+    <VALUE><![CDATA[3700 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Boost výkon (predná zóna)]]></NAME>
+    <VALUE><![CDATA[až 2600 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Boost výkon (zadná zóna)]]></NAME>
+    <VALUE><![CDATA[až 2000 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet výkonových úrovní]]></NAME>
+    <VALUE><![CDATA[10]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Časovač]]></NAME>
+    <VALUE><![CDATA[1–99 minút]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ovládanie]]></NAME>
+    <VALUE><![CDATA[LED dotykový displej]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Vstupné napätie]]></NAME>
+    <VALUE><![CDATA[220–240 V~]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Frekvencia]]></NAME>
+    <VALUE><![CDATA[50/60 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[3700 W]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>5.00</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>78.50</PRICE_VAT>
+<PURCHASE_PRICE>55.54</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Indukčná varná doska AMZCHEF Domino | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF Domino – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC119B33]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC119B33 AMZCHEF CE-FS-IRC119B33 je dvojzónová indukčná varná doska s celkovým výkonom 3 300 W, ktorá môže fungovať ako dve nezávislé varné zóny alebo ako jedna…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Indukčná varná doska AMZCHEF CE-FS-IRC119B33</h3>
+<p>AMZCHEF CE-FS-IRC119B33 je dvojzónová indukčná varná doska s celkovým výkonom 3 300 W, ktorá môže fungovať ako dve nezávislé varné zóny alebo ako jedna väčšia zóna Flex Zone. Jednotlivé zóny ponúkajú výstupný výkon až 1 800 W a 1 500 W a 10 nastavení výkonu – od P1 po P9 – spolu s režimom rýchleho varenia „B“ vám umožňujú prispôsobiť intenzitu ohrevu tak, aby vyhovovala pripravovanému jedlu. Model pracuje pri napätí 220–240 V a frekvencii 50/60 Hz, má rozmery 52 × 30 × 7,2 cm a je možné ho používať ako voľne stojacu varnú dosku alebo zabudovať do skrinky.</p>
+<p>
+<img alt="Čierna indukčná varná doska Amzchef s obdĺžnikovou grilovacou platňou na prípravu steakov a zeleniny" border="0" src="https://assets.innpro.pl/24807/32582/1-5ba0084c-8eab-4cec-897e-c6b5d8759bd5.jpg"/>
+</p><h3>Flex Zone – väčšia varná plocha</h3>
+<p>Funkcia Flex Zone vám umožňuje využívať väčšiu varnú plochu, čo je užitočné pri varení vo veľkom, širokom alebo podlhovastom riade. V závislosti od vašich potrieb môžete tiež použiť dve samostatné zóny na súčasnú prípravu dvoch jedál s rôznymi nastaveniami. Toto riešenie ponúka väčšiu flexibilitu tak pri rýchlej príprave každodenných jedál, ako aj pri náročnejšom varení.</p>
+<p>
+<img alt="Čierna dvojzónová indukčná varná doska Amzchef s veľkým hrncom plným morských plodov na svetlej kuchynskej doske" border="0" src="https://assets.innpro.pl/24807/32582/2-e3baf672-fa16-44cc-9f81-8a77fdda9216.jpg"/>
+</p><h3>10 úrovní výkonu</h3>
+<p>Varná doska ponúka 10 úrovní výkonu v rozmedzí od P1 do P9, ako aj režim rýchleho varenia „B“. Nižšie úrovne sú ideálne na úlohy, ako je roztápanie, ohrievanie a jemné dusenie, zatiaľ čo vyššie úrovne umožňujú intenzívne vyprážanie alebo rýchlu prípravu jedál vyžadujúcich vysoké teploty. Režim „B“ je určený na rýchle dovedenie vody do varu a na situácie, keď je potrebná maximálna intenzita ohrevu.</p>
+<p>
+<img alt="Čierna indukčná varná doska Amzchef s kovovým grilovacím roštom na grilovanie steakov s kosťou a húb" border="0" src="https://assets.innpro.pl/24807/32582/4-88bd543c-6099-4ff8-9846-a9d6e31fd4ec.jpg"/>
+</p><h3>Stabilná regulácia teploty</h3>
+<p>Použitá technológia IGBT umožňuje presnú reguláciu teploty a udržiava stabilnejšiu úroveň ohrevu počas prevádzky. Minimalizácia veľkých výkyvov teploty uľahčuje kontrolu procesu varenia, najmä pri vyprážaní alebo príprave jedál, ktoré vyžadujú rovnomerné zahrievanie. To umožňuje používateľom pohodlnejšie prispôsobiť prevádzku varného panela rôznym typom jedál.</p>
+<p>
+<img alt="Ruka miešajúca jedlo špachtľou v panvici umiestnenej na čiernej indukčnej varné doske Amzchef" border="0" src="https://assets.innpro.pl/24807/32582/5-d44ec2d7-e183-4b65-9bf1-045ab3039115.jpg"/>
+</p><h3>Časovač a bezpečnostné funkcie</h3>
+<p>Vstavaný časovač umožňuje nastaviť čas varenia až na 99 minút, čo uľahčuje kontrolu dĺžky varenia bez neustáleho sledovania hodín. Varná doska je tiež vybavená zámkom ovládacieho panela, ochranou proti prehriatiu, automatickou detekciou riadu a indikátorom zvyškového tepla v tvare písmena „H“. Tieto funkcie pomáhajú znížiť riziko náhodného zapnutia alebo zmeny nastavení a upozornia vás, ak povrch zostane horúci aj po ukončení prevádzky varná dosky.</p>
+<p>
+<img alt="Čierna indukčná varná doska Amzchef s panvicou plnou cestovín s krevetami na bielej kuchynskej doske" border="0" src="https://assets.innpro.pl/24807/32582/9-9fb7cf55-6481-4500-9ff9-42b44387d5c6.jpg"/>
+</p><h3>Vstavaná alebo voľne stojaca inštalácia</h3>
+<p>Model AMZCHEF CE-FS-IRC119B33 je možné nainštalovať pod pracovnú dosku alebo používať ako voľne stojacu varnú dosku, vďaka čomu sa ľahko prispôsobí rôznym usporiadaniam kuchyne. Jeho rozmery sú 52 × 30 × 7,2 cm, pričom požadovaný výrez by mal mať dĺžku 48,8 až 49 cm a šírku 26,8 až 27 cm. Čierny panel z mikrokryštalického skla má hladký povrch, takže typické kuchynské škvrny sa po varení dajú ľahko odstrániť.</p>
+<p>
+<img alt="Čierna dvojitá indukčná varná doska Amzchef mierne vyvýšená nad bielou kuchynskou doskou v modernej kuchyni" border="0" src="https://assets.innpro.pl/24807/32582/8-e875b45b-47b9-4bba-a4ae-ded933e8908f.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>AMZCHEF</td></tr><tr><th>Model</th><td>CE-FS-IRC119B33</td></tr><tr><th>Typ</th><td>indukčná varná doska</td></tr><tr><th>Počet varných zón</th><td>2</td></tr><tr><th>Flex Zone</th><td>áno</td></tr><tr><th>Celkový výkon</th><td>3300 W</td></tr><tr><th>Výkon zóny</th><td>až 1800 W + 1500 W</td></tr><tr><th>Počet nastavení výkonu</th><td>10</td></tr><tr><th>Rozsah nastavení</th><td>P1–P9 + režim „B“</td></tr><tr><th>Časovač</th><td>až 99 minút</td></tr><tr><th>Riadiaca technológia</th><td>IGBT</td></tr><tr><th>Detekcia riadu</th><td>áno</td></tr><tr><th>Zámok ovládacieho panela</th><td>áno</td></tr><tr><th>Ochrana proti prehriatiu</th><td>áno</td></tr><tr><th>Indikátor zvyškového tepla</th><td>Áno, označený písmenom „H“</td></tr><tr><th>Vstupné napätie</th><td>220–240 V~</td></tr><tr><th>Frekvencia</th><td>50/60 Hz</td></tr><tr><th>Rozmery výrobku</th><td>52 × 30 × 7,2 cm</td></tr><tr><th>Rozmery výrezu</th><td>48,8–49 × 26,8–27 cm</td></tr><tr><th>Spôsob inštalácie</th><td>na pracovnú dosku alebo vstavaná</td></tr><tr><th>Typ povrchu</th><td>čierne mikrokryštalické sklo</td></tr><tr><th>Zástrčka</th><td>VDE</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/grily--pekarne--varice/">Grily, pekárne, variče</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090421</CODE>
+<EAN>5905156109728</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Indukčná varná doska AMZCHEF CE-FS-IRC119B33">https://b2b.innpro.sk/hpeciai/aceb6f5e2b5aa701b50a01f898c6b0da/64455_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[amzchef]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[indukčná varná doska]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet varných zón]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový výkon]]></NAME>
+    <VALUE><![CDATA[3300 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon zóny]]></NAME>
+    <VALUE><![CDATA[až 1800 W + 1500 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet nastavení výkonu]]></NAME>
+    <VALUE><![CDATA[10]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah nastavení]]></NAME>
+    <VALUE><![CDATA[P1–P9 + režim „B“]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Časovač]]></NAME>
+    <VALUE><![CDATA[až 99 minút]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Riadiaca technológia]]></NAME>
+    <VALUE><![CDATA[IGBT]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Indikátor zvyškového tepla]]></NAME>
+    <VALUE><![CDATA[Áno, označený písmenom „H“]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Vstupné napätie]]></NAME>
+    <VALUE><![CDATA[220–240 V~]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[3300 W]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>6.00</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>104.50</PRICE_VAT>
+<PURCHASE_PRICE>73.94</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC119B33 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC119B33 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Indukčná varná doska AMZCHEF Domino CE-FS-IRC119B33]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC119B33 AMZCHEF CE-FS-IRC119B33 je dvojzónová indukčná varná doska s celkovým výkonom 3 300 W, ktorá môže fungovať ako dve nezávislé varné zóny alebo ako jedna…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Indukčná varná doska AMZCHEF CE-FS-IRC119B33</h3>
+<p>AMZCHEF CE-FS-IRC119B33 je dvojzónová indukčná varná doska s celkovým výkonom 3 300 W, ktorá môže fungovať ako dve nezávislé varné zóny alebo ako jedna väčšia zóna Flex Zone. Jednotlivé zóny ponúkajú výkony až 1 800 W a 1 500 W a 10 nastavení výkonu – od P1 po P9 – spolu s režimom rýchleho varenia „B“, vďaka čomu si môžete prispôsobiť intenzitu ohrevu podľa pripravovaného jedla. Model pracuje pri napätí 220–240 V a frekvencii 50/60 Hz, má rozmery 52 × 30 × 7,2 cm a možno ho používať ako voľne stojacu jednotku alebo zabudovať do kuchynskej linky.</p>
+<p>
+<img alt="Čierna indukčná varná doska Amzchef s obdĺžnikovou grilovacou platňou na prípravu steakov a zeleniny" border="0" src="https://assets.innpro.pl/24810/32586/1-850d1b09-28db-4bb7-8611-97de52b262f6.jpg"/>
+</p><h3>Flex Zone – väčšia varná plocha</h3>
+<p>Funkcia Flex Zone vám umožňuje využívať väčšiu varnú plochu, čo je užitočné pri varení vo veľkom, širokom alebo podlhovastom riade. V závislosti od vašich potrieb môžete tiež použiť dve samostatné zóny na súčasnú prípravu dvoch jedál s rôznymi nastaveniami. Toto riešenie ponúka väčšiu flexibilitu tak pri rýchlej príprave každodenných jedál, ako aj pri náročnejšom varení.</p>
+<p>
+<img alt="Čierna dvojzónová indukčná varná doska Amzchef s veľkým hrncom plným morských plodov na svetlej kuchynskej doske" border="0" src="https://assets.innpro.pl/24810/32586/4-7197b116-5370-4b62-81bd-9ce3963fa32a.jpg"/>
+</p><h3>10 úrovní výkonu</h3>
+<p>Varná doska ponúka 10 úrovní výkonu v rozmedzí od P1 do P9, ako aj režim rýchleho varenia „B“. Nižšie nastavenia sú ideálne na úlohy, ako je roztápanie, ohrievanie a jemné varenie, zatiaľ čo vyššie nastavenia umožňujú intenzívne vyprážanie alebo rýchlu prípravu jedál vyžadujúcich vysoké teploty. Režim „B“ je určený na rýchle dovedenie vody do varu a situácie, kde je potrebná maximálna intenzita ohrevu.</p>
+<p>
+<img alt="Čierna indukčná varná doska Amzchef s kovovým grilovacím roštom na grilovanie steakov s kosťou a húb" border="0" src="https://assets.innpro.pl/24810/32586/5-4ccb82bd-ac95-4aa7-bfc6-e0fcf3d10bf1.jpg"/>
+</p><h3>Stabilná regulácia teploty</h3>
+<p>Použitá technológia IGBT podporuje presnú reguláciu teploty a pomáha udržiavať stabilnejšiu úroveň ohrevu počas prevádzky spotrebiča. Minimalizácia veľkých výkyvov teploty uľahčuje kontrolu procesu varenia, najmä pri vyprážaní alebo príprave jedál, ktoré vyžadujú rovnomerné zahrievanie. To umožňuje používateľovi pohodlnejšie prispôsobiť prevádzku varného panela rôznym typom jedál.</p>
+<p>
+<img alt="Ruka miešajúca jedlo špachtľou v panvici umiestnenej na šedej indukčnej varné doske Amzchef" border="0" src="https://assets.innpro.pl/24810/32586/6-2d675146-d9ca-4bd2-a4a5-ff07dfc9b0a4.jpg"/>
+</p><h3>Časovač a bezpečnostné funkcie</h3>
+<p>Vstavaný časovač umožňuje nastaviť prevádzkový čas až na 99 minút, čo uľahčuje kontrolu dĺžky varenia bez neustáleho sledovania hodín. Varná doska je tiež vybavená zámkom ovládacieho panela, ochranou proti prehriatiu, automatickou detekciou riadu a indikátorom zvyškového tepla „H“. Tieto funkcie pomáhajú znížiť riziko náhodného zapnutia alebo zmeny nastavení a upozornia vás, ak povrch zostane horúci po ukončení prevádzky varné dosky.</p>
+<p>
+<img alt="Šedá indukčná varná doska Amzchef s panvicou plnou cestovín s krevetami na bielej kuchynskej doske" border="0" src="https://assets.innpro.pl/24810/32586/12-585bd136-8c29-4d9b-88bf-711051cd897b.jpg"/>
+</p><h3>Vstavaná alebo voľne stojaca inštalácia</h3>
+<p>Model AMZCHEF CE-FS-IRC119B33 je možné zabudovať do pracovnej dosky alebo používať ako voľne stojacu varnú dosku, vďaka čomu sa ľahko prispôsobí rôznym usporiadaniam kuchyne. Jeho rozmery sú 52 × 30 × 7,2 cm, pričom požadovaný výrez by mal mať dĺžku medzi 48,8 a 49 cm a šírku medzi 26,8 a 27 cm. Čierny panel z mikrokryštalického skla má hladký povrch, takže typické kuchynské škvrny sa po varení dajú ľahko odstrániť.</p>
+<p>
+<img alt="Šedá dvojitá indukčná varná doska Amzchef mierne vyvýšená nad bielou kuchynskou doskou v modernej kuchyni" border="0" src="https://assets.innpro.pl/24810/32586/11-3ca1386a-df49-4e6a-a2d3-918c27316c59.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>AMZCHEF</td></tr><tr><th>Model</th><td>CE-FS-IRC119B33</td></tr><tr><th>Typ</th><td>indukčná varná doska</td></tr><tr><th>Farba</th><td>sivá</td></tr><tr><th>Počet varných zón</th><td>2</td></tr><tr><th>Flex Zone</th><td>áno</td></tr><tr><th>Celkový výkon</th><td>3300 W</td></tr><tr><th>Výkon zóny</th><td>až 1800 W + 1500 W</td></tr><tr><th>Počet nastavení výkonu</th><td>10</td></tr><tr><th>Rozsah nastavení</th><td>P1–P9 + režim „B“</td></tr><tr><th>Časovač</th><td>až 99 minút</td></tr><tr><th>Technológia riadenia</th><td>IGBT</td></tr><tr><th>Detekcia riadu</th><td>áno</td></tr><tr><th>Zámok ovládacieho panela</th><td>áno</td></tr><tr><th>Ochrana proti prehriatiu</th><td>áno</td></tr><tr><th>Indikátor zvyškového tepla</th><td>Áno, označený ako „H“</td></tr><tr><th>Vstupné napätie</th><td>220–240 V~</td></tr><tr><th>Frekvencia</th><td>50/60 Hz</td></tr><tr><th>Rozmery výrobku</th><td>52 × 30 × 7,2 cm</td></tr><tr><th>Rozmery výrezu</th><td>48,8–49 × 26,8–27 cm</td></tr><tr><th>Spôsob inštalácie</th><td>na pracovnú dosku alebo vstavaná</td></tr><tr><th>Typ povrchu</th><td>čierne mikrokryštalické sklo</td></tr><tr><th>Zástrčka</th><td>VDE</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/grily--pekarne--varice/">Grily, pekárne, variče</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090422</CODE>
+<EAN>5905156109735</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Indukčná varná doska AMZCHEF Domino CE-FS-IRC119B33">https://b2b.innpro.sk/hpeciai/a4c5ef6c481f8f0f6ad05f6cbb71768a/64456_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[amzchef]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[indukčná varná doska]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[sivá]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet varných zón]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový výkon]]></NAME>
+    <VALUE><![CDATA[3300 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon zóny]]></NAME>
+    <VALUE><![CDATA[až 1800 W + 1500 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet nastavení výkonu]]></NAME>
+    <VALUE><![CDATA[10]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah nastavení]]></NAME>
+    <VALUE><![CDATA[P1–P9 + režim „B“]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Časovač]]></NAME>
+    <VALUE><![CDATA[až 99 minút]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Technológia riadenia]]></NAME>
+    <VALUE><![CDATA[IGBT]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Indikátor zvyškového tepla]]></NAME>
+    <VALUE><![CDATA[Áno, označený ako „H“]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[3300 W]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>6.00</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>112.50</PRICE_VAT>
+<PURCHASE_PRICE>79.58</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Indukčná varná doska AMZCHEF Domino CE-FS-IRC119B33 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF Domino CE-FS-IRC119B33 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Keramická varná doska AMZCHEF CE-T-32CB2xyP200-AC]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Keramická varná doska AMZCHEF Keramická varná doska AMZCHEF CE-T-32CB2xyP200-AC je kompaktným riešením pre každodenné varenie. Disponuje 2 nezávisle ovládateľnými varnými zónami, 9 úrovňami výkonu,…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Keramická varná doska AMZCHEF</h3>
+<p>Keramická varná doska AMZCHEF CE-T-32CB2xyP200-AC je kompaktným riešením pre každodenné varenie. Disponuje 2 nezávisle ovládateľnými varnými zónami, 9 úrovňami výkonu, časovačom do 99 minút, blokáciou ovládacieho panela a indikátorom zvyškového tepla. Celkový výkon spotrebiča je 3200 W a vďaka napájaniu 220–240 V~, 50–60 Hz ho možno používať v štandardnej elektrickej inštalácii, ktorá spĺňa požiadavky spotrebiča. Model má rozmery 52 × 29 × 4,5 cm a dá sa namontovať v jednej rovine s pracovnou doskou, vďaka čomu sa skvele hodí do kuchýň, kde je prioritou efektívne využitie priestoru.</p>
+<p>
+<img alt="Dvojzónová keramická varná doska AMZCHEF so skleneným hrncom a červeno svietiacou varnou zónou" border="0" src="https://assets.innpro.pl/24814/32590/1-6c4415df-e929-452c-a5ad-2c3154c9bedc.jpg"/>
+</p><h3>Dve varné zóny pre pohodlnú prípravu jedál</h3>
+<p>Dve varné zóny vám umožňujú pripravovať viacero zložiek večere súčasne, napríklad variť polievku a restovať prílohy. Väčšia zóna má priemer približne 200 mm, zatiaľ čo menšia má asi 165 mm, čo uľahčuje prispôsobenie varnej plochy rôznym hrncami a panvicami. Nezávislé ovládacie prvky vám umožňujú nastaviť pre každú zónu odlišné prevádzkové parametre.</p>
+<p>
+<img alt="Čierna dvojzónová keramická varná doska AMZCHEF umiestnená na svetlej pracovnej doske v modernej kuchyni" border="0" src="https://assets.innpro.pl/24814/32590/2-0d08d87d-4829-4192-b515-15e2d04b43ae.jpg"/>
+</p><h3>9 úrovní výkonu</h3>
+<p>K dispozícii je 9-stupňové nastavenie výkonu, vďaka čomu si môžete vybrať intenzitu ohrevu vhodnú pre dané jedlo, ktoré pripravujete. Nižšie nastavenia sú užitočné na udržanie teploty alebo jemné ohrievanie, stredné nastavenia na každodenné varenie a vyššie nastavenia na intenzívne vyprážanie alebo rýchle dosiahnutie vysokých teplôt.</p>
+<p>
+<img alt="Usmievajúci sa muž v okuliaroch, ktorý varí jedlá v dvoch panviciach na varnej doske AMZCHEF" border="0" src="https://assets.innpro.pl/24814/32590/3-91fdaedc-3fb2-4b43-9c52-c80535527807.jpg"/>
+</p><h3>Dotykové ovládanie a časovač až na 99 minút</h3>
+<p>Prehľadný dotykový panel vám umožňuje vybrať varnú zónu, zmeniť úroveň výkonu, nastaviť čas a použiť funkciu pauzy. Časovač s rozsahom až 99 minút uľahčuje sledovanie času varenia bez nutnosti neustáleho kontrolovania hodín. Funkcia pauzy vám zase umožňuje rýchlo prerušiť varenie, keď to situácia vyžaduje.</p>
+<p>
+<img alt="Dvojzónová keramická varná doska AMZCHEF na bielo-sivej kuchynskej pracovnej doske s hrncom a riadom" border="0" src="https://assets.innpro.pl/24814/32590/8-c601df68-4c57-4cda-a0da-908e0737451e.jpg"/>
+</p><h3>Indikátor zvyškového tepla a zámok ovládacieho panelu</h3>
+<p>Po použití sa na paneli môže objaviť písmeno „H“, ktoré signalizuje, že povrch je stále horúci. Pomáha to predísť náhodnému kontaktu s horúcou varnou zónou a slúži ako pripomienka, aby ste na ňu nekladli predmety citlivé na teplo. Varná doska je tiež vybavená zámkom ovládania, ktorý zabraňuje náhodnej zmene nastavení.</p>
+<p>
+<img alt="Ruka dotýkajúca sa dotykového ovládacieho panela na čiernej keramickej varné doske AMZCHEF" border="0" src="https://assets.innpro.pl/24814/32590/9-05ecd507-3eba-4e1f-997c-a68357c37a5b.jpg"/>
+</p><h3>Pre rôzne typy riadu</h3>
+<p>Na rozdiel od indukčnej varné dosky keramický model nevyžaduje výhradné používanie hrncov a panvíc s feromagnetickým dnom. Môžete používať mnoho bežných typov riadu, vrátane tých z ocele, liatiny, hliníka, medi, keramiky alebo skla. To znamená, že pri prechode na túto varnú dosku nemusíte vymeniť celú svoju sadu hrncov a panvíc.</p>
+<p>
+<img alt="Oceľový hrniec s pariacou polievkou na vyhrievanej zóne dvojzónovej keramickej varné dosky AMZCHEF" border="0" src="https://assets.innpro.pl/24814/32590/10-47187521-8a9a-4535-a009-b4047957332c.jpg"/>
+</p><h3>Sklenený povrch a možnosť vstavania</h3>
+<p>Čierny sklenený povrch dodáva spotrebiču jednoduchý, moderný vzhľad a vďaka hladkému povrchu sa z neho ľahko odstraňujú škvrny vzniknuté pri varení. Varná doska má rozmery 52 × 29 × 4,5 cm, pričom požadovaný výrez pre inštaláciu by mal mať rozmery približne 49,3–49,5 × 26,3–26,5 cm. Vďaka kompaktným rozmerom je model AMZCHEF CE-T-32CB2xyP200-AC praktickou voľbou nielen do menších kuchýň, ale aj ako dodatočná varná plocha.</p>
+<p>
+<img alt="Panvica so steakom na varné doske AMZCHEF s grafickým znázornením rozloženia tepla" border="0" src="https://assets.innpro.pl/24814/32590/12-ae5dc77c-4653-41cb-8fda-9354cbc77319.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>AMZCHEF</td></tr><tr><th>Model</th><td>CE-T-32CB2xyP200-AC</td></tr><tr><th>Typ</th><td>keramická varná doska</td></tr><tr><th>Počet varných zón</th><td>2</td></tr><tr><th>Celkový výkon</th><td>3200 W</td></tr><tr><th>Napájanie</th><td>220–240 V~, 50–60 Hz</td></tr><tr><th>Počet výkonových úrovní</th><td>9</td></tr><tr><th>Časovač</th><td>0–99 minút</td></tr><tr><th>Priemer väčšej varnej zóny</th><td>cca 200 mm</td></tr><tr><th>Priemer menšej varné zóny</th><td>cca 165 mm</td></tr><tr><th>Ovládanie</th><td>dotykové</td></tr><tr><th>Funkcia pozastavenia</th><td>áno</td></tr><tr><th>Zámok ovládacieho panela / detská poistka</th><td>áno</td></tr><tr><th>Indikátor zvyškového tepla „H“</th><td>Áno</td></tr><tr><th>Možnosť vstavanej inštalácie</th><td>Áno</td></tr><tr><th>Možnosť použitia ako voľne stojaca jednotka</th><td>Áno, po nasadení nožičiek</td></tr><tr><th>Rozmery výrobku</th><td>52 × 29 × 4,5 cm</td></tr><tr><th>Rozmery výrezu</th><td>49,3–49,5 × 26,3–26,5 cm</td></tr><tr><th>Farba</th><td>Čierna</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/grily--pekarne--varice/">Grily, pekárne, variče</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090424</CODE>
+<EAN>5905156109742</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Keramická varná doska AMZCHEF CE-T-32CB2xyP200-AC">https://b2b.innpro.sk/hpeciai/ca5b9649bf623cfbb2c8b4ca05323c63/64457_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[amzchef]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[keramická varná doska]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet varných zón]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový výkon]]></NAME>
+    <VALUE><![CDATA[3200 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Napájanie]]></NAME>
+    <VALUE><![CDATA[220–240 V~, 50–60 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet výkonových úrovní]]></NAME>
+    <VALUE><![CDATA[9]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Časovač]]></NAME>
+    <VALUE><![CDATA[0–99 minút]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Priemer väčšej varnej zóny]]></NAME>
+    <VALUE><![CDATA[cca 200 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Priemer menšej varné zóny]]></NAME>
+    <VALUE><![CDATA[cca 165 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ovládanie]]></NAME>
+    <VALUE><![CDATA[dotykové]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery výrobku]]></NAME>
+    <VALUE><![CDATA[52 × 29 × 4,5 cm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[3200 W]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>4.80</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>52.00</PRICE_VAT>
+<PURCHASE_PRICE>36.82</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Keramická varná doska AMZCHEF CE-T-32CB2xyP200-AC | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Keramická varná doska AMZCHEF CE-T-32CB2xyP200-AC – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Indukčná varná doska AMZCHEF FYM35-S16, 2 zóny]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Dvojzónová indukčná varná doska AMZCHEF FYM35-S16 AMZCHEF FYM35-S16 je dvojzónová indukčná varná doska vybavená funkciou „Power Sharing“, ktorá automaticky rozdeľuje dostupný výkon medzi varné zóny.…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Dvojzónová indukčná varná doska AMZCHEF FYM35-S16</h3>
+<p>AMZCHEF FYM35-S16 je dvojzónová indukčná varná doska vybavená funkciou „Power Sharing“, ktorá automaticky rozdeľuje dostupný výkon medzi varné zóny. Pri používaní jednej varné zóny je maximálny výkon až 1 800 W; ak sú v prevádzke obe zóny, výkon sa rozdeľuje napríklad v pomere 1 350 W + 450 W alebo 900 W + 900 W. Ponúka 20 úrovní výkonu, 20 nastavení teploty v rozmedzí od 50 °C do 240 °C, časovač s maximálnou dĺžkou 4 hodiny, dotykové ovládanie a uzamknutie ovládacieho panela. Spotrebič je určený pre napájanie 220–240 V, 50/60 Hz.</p>
+<p>
+<img alt="Dvojzónová indukčná varná doska Amzchef s panvicami na smaženie rýb a zeleniny" border="0" src="https://assets.innpro.pl/24818/32594/2-e9ee9ef2-0ded-409d-8c0c-996d462a6bfe.jpg"/>
+</p><h3>Rozdelenie výkonu – inteligentné rozdelenie výkonu</h3>
+<p>Pri súčasnom varení na dvoch zónach varná doska primerane rozdeľuje výkon medzi obe zóny. Zvýšením výkonu jednej zóny sa automaticky prispôsobí výkon druhej zóny, čo spotrebiču umožňuje regulovať celkové zaťaženie počas prevádzky. Vďaka tomu môžete súčasne variť, smažiť alebo ohrievať dve jedlá bez nutnosti ručného nastavovania celkového výkonu spotrebiča.</p>
+<p>
+<img alt="Dvojzónová indukčná varná doska Amzchef na svetlej pracovnej doske s vriacou polievkou a rybou na panvici" border="0" src="https://assets.innpro.pl/24818/32594/3-e629c83d-b395-4793-8789-c11ed519f54c.jpg"/>
+</p><h3>20 úrovní výkonu</h3>
+<p>Varná doska ponúka 20 úrovní výkonu, vďaka čomu je jednoduché prispôsobiť intenzitu ohrevu jedlu, ktoré pripravujete. Nižšie nastavenia môžete použiť na jemné zahrievanie alebo dusenie, zatiaľ čo vyššie nastavenia sú ideálne na rýchle varenie a smaženie. Pri prevádzke jednej varné zóny je maximálny dostupný výkon 1 800 W.</p>
+<p>
+<img alt="Čierne dvojzónové indukčné varné dosky Amzchef s hrncom s morskými plodmi a panvicou s mäsom" border="0" src="https://assets.innpro.pl/24818/32594/5-c7ce7c88-f3dc-4702-b588-834a515d63fa.jpg"/>
+</p><h3>Regulácia teploty od 50 °C do 240 °C</h3>
+<p>Na výber je tiež 20 nastavení teploty v rozmedzí od 50 °C do 240 °C. Takýto široký rozsah nastavení vám umožňuje zvoliť správnu teplotu pre všetko od jemného ohrievania až po intenzívne vyprážanie, vďaka čomu je varná doska ideálna pre mnohé bežné spôsoby varenia.</p>
+<p>
+<img alt="Indukčná varná doska Amzchef na kuchynskej doske s riadom a oblúkom s ilustráciami jedál" border="0" src="https://assets.innpro.pl/24818/32594/6-6bfd6003-db92-4dd2-bad4-800950284311.jpg"/>
+</p><h3>Časovač až na 4 hodiny</h3>
+<p>Vstavaný časovač vám umožňuje nastaviť čas varenia až na 4 hodiny. Táto funkcia je užitočná pri príprave jedál, ktoré vyžadujú dlhodobé zahrievanie, dusenie alebo varenie na konkrétnej úrovni výkonu, pretože uľahčuje kontrolu času prípravy.</p>
+<p>
+<img alt="Dvojzónová indukčná varná doska Amzchef na čiernej doske s hrncom s polievkou a panvicou s mušľami" border="0" src="https://assets.innpro.pl/24818/32594/8-0f1c8409-3363-49ac-9c1b-8abdd9bf20fc.jpg"/>
+</p><h3>Dotykové ovládanie a uzamknutie panela</h3>
+<p>Každá varná zóna je vybavená prehľadným dotykovým panelom s digitálnym displejom, ktorý umožňuje nastaviť výkon, teplotu a čas varenia. Funkcia uzamknutia znižuje riziko náhodnej zmeny nastavení, čo je obzvlášť praktické pri dlhšom varení a v domácnostiach s deťmi.</p>
+<p>
+<img alt="Dvojhoráková indukčná varná doska Amzchef na svetlej pracovnej doske s pariacou sa polievkou v hrnci a panvicou" border="0" src="https://assets.innpro.pl/24818/32594/9-ffc9b8cd-08f1-4370-b808-d0961fc975ba.jpg"/>
+</p><h3>Ľahké čistenie a kompatibilný riad</h3>
+<p>Hladký povrch varného panela uľahčuje odstraňovanie zvyškov po varení, keďže na ňom nie sú žiadne vyčnievajúce horáky ani rošty. Model AMZCHEF FYM35-S16 je určený pre riad s plochým magnetickým dnom, vrátane vhodných liatinových a nerezových hrncov a panvíc. Na varnú dosku je možné používať riad s priemerom približne 12–26 cm.</p>
+<p>
+<img alt="Usmievajúca sa žena v svetlej blúzke varí v hrnci na indukčnej varnej doske Amzchef" border="0" src="https://assets.innpro.pl/24818/32594/15-1c161d7f-73ca-4951-9e5e-66abe8d0f187.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>AMZCHEF</td></tr><tr><th>Model</th><td>FYM35-S16</td></tr><tr><th>Typ</th><td>indukčná varná doska</td></tr><tr><th>Počet varných zón</th><td>2</td></tr><tr><th>Menovité napätie</th><td>220–240 V~</td></tr><tr><th>Frekvencia</th><td>50/60 Hz</td></tr><tr><th>Menovitý výkon podľa špecifikácie</th><td>3500 W</td></tr><tr><th>Maximálny výkon na varnú zónu</th><td>1800 W</td></tr><tr><th>Systém rozdelenia výkonu</th><td>Power Sharing</td></tr><tr><th>Počet úrovní výkonu</th><td>20</td></tr><tr><th>Počet úrovní teploty</th><td>20</td></tr><tr><th>Teplotný rozsah</th><td>50–240 °C / 122–464 °F</td></tr><tr><th>Časovač</th><td>až 4 hodiny</td></tr><tr><th>Ovládanie</th><td>dotykový displej</td></tr><tr><th>Zámok ovládacieho panela</th><td>áno</td></tr><tr><th>Kompatibilný typ riadu</th><td>riad s plochým magnetickým dnom</td></tr><tr><th>Odporúčaný priemer riadu</th><td>cca 12–26 cm</td></tr><tr><th>Systém chladenia</th><td>chladenie ventilátorom</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/grily--pekarne--varice/">Grily, pekárne, variče</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090425</CODE>
+<EAN>5905156109759</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Indukčná varná doska AMZCHEF FYM35-S16, 2 zóny">https://b2b.innpro.sk/hpeciai/8465ee06aed93aebc985ff08a8f7cfd1/64458_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[amzchef]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[indukčná varná doska]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet varných zón]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Menovité napätie]]></NAME>
+    <VALUE><![CDATA[220–240 V~]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Frekvencia]]></NAME>
+    <VALUE><![CDATA[50/60 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Menovitý výkon podľa špecifikácie]]></NAME>
+    <VALUE><![CDATA[3500 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Systém rozdelenia výkonu]]></NAME>
+    <VALUE><![CDATA[Power Sharing]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet úrovní výkonu]]></NAME>
+    <VALUE><![CDATA[20]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet úrovní teploty]]></NAME>
+    <VALUE><![CDATA[20]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Teplotný rozsah]]></NAME>
+    <VALUE><![CDATA[50–240 °C / 122–464 °F]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Časovač]]></NAME>
+    <VALUE><![CDATA[až 4 hodiny]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>5.20</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>112.90</PRICE_VAT>
+<PURCHASE_PRICE>79.75</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Indukčná varná doska AMZCHEF FYM35-S16, 2 zóny | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF FYM35-S16, 2 zóny – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC128D35]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC128D35 AMZCHEF CE-FS-IRC128D35 je indukčná varná doska s dvoma varnými zónami a celkovým výkonom 3 500 W. Ľavá varná zóna ponúka výkon až 2 000 W a 20 úrovní…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Indukčná varná doska AMZCHEF CE-FS-IRC128D35</h3>
+<p>AMZCHEF CE-FS-IRC128D35 je indukčná varná doska s dvoma varnými zónami a celkovým výkonom 3 500 W. Ľavá varná zóna ponúka výkon až 2 000 W a 20 úrovní výkonu, zatiaľ čo pravá dosahuje výkon až 1 500 W a ponúka 15 úrovní výkonu. K dispozícii je tiež 20 nastavení teploty, vďaka čomu môžete presne prispôsobiť parametre ohrevu podľa pripravovaného jedla. Každá zóna má samostatné dotykové ovládanie a varná doska funguje s kompatibilným indukčným riadom s plochým dnom a priemerom od 12 do 24 cm.</p>
+<p>
+<img alt="Dvojzónová indukčná varná doska Amzchef s hrncom na polievku a panvicou s mäsom, pohľad zhora" border="0" src="https://assets.innpro.pl/24823/32599/2-a9dbd03b-78a2-464e-81dc-10d3400bd065.jpg"/>
+</p><h3>Nezávislé ovládanie oboch zón</h3>
+<p>Samostatné ovládacie prvky pre každú zónu vám umožňujú pripravovať dve jedlá súčasne s použitím rôznych nastavení. Napríklad na jednej zóne môžete variť polievku, zatiaľ čo na druhej môžete vyprážať alebo pripravovať omáčku. Široký rozsah nastavení výkonu uľahčuje prispôsobenie intenzity ohrevu typu jedla a fáze jeho prípravy.</p>
+<p>
+<img alt="Prenosná dvojzónová indukčná varná doska Amzchef umiestnená na svetlej pracovnej doske v modernej kuchyni" border="0" src="https://assets.innpro.pl/24823/32599/3-3473eb38-0a6f-4f08-b9dd-e6a9db753fc5.jpg"/>
+</p><h3>Presné ovládanie výkonu a teploty</h3>
+<p>Ľavá varná zóna ponúka 20 úrovní výkonu, zatiaľ čo pravá 15. Okrem toho spotrebič poskytuje 20 nastavení teploty. Takýto široký rozsah nastavení vám umožňuje používať varnú dosku na všetko – od jemného roztápania surovín až po varenie, smaženie alebo prípravu jedál, ktoré vyžadujú intenzívne zahrievanie.</p>
+<p>
+<img alt="Žena pripravujúca jedlo na indukčnej varné doske Amzchef počas rodinného posedenia v záhrade" border="0" src="https://assets.innpro.pl/24823/32599/4-e9424ce3-5537-43bc-bbbd-2c91c4283a00.jpg"/>
+</p><h3>Stabilná prevádzka vďaka obvodu IGBT</h3>
+<p>Spotrebič využíva obvod IGBT nemeckej výroby na riadenie indukčného procesu. Toto riešenie zaisťuje stabilnú prevádzku varného panela, rovnomernú tvorbu magnetického poľa a efektívny prenos energie na dno riadu. To sa prejavuje efektívnym a rovnomerným ohrevom pri každodennom varení.</p>
+<p>
+<img alt="Indukčná varná doska Amzchef s dvoma varnými zónami, na ktorej sa varí jedlo na kuchynskej pracovnej doske" border="0" src="https://assets.innpro.pl/24823/32599/5-d0218bc8-d048-4130-b4ee-36805297ba2e.jpg"/>
+</p><h3>Časovač až na 4 hodiny</h3>
+<p>Vstavaný časovač umožňuje nastaviť prevádzkovú dobu až na 4 hodiny. Po uplynutí zvoleného času sa ohrev zastaví, čo uľahčuje kontrolu trvania prípravy jedla. Táto funkcia je obzvlášť užitočná pri varení jedál, ktoré vyžadujú dlhodobé a rovnomerné zahrievanie.</p>
+<p>
+<img alt="Čierna dvojzónová indukčná varná doska Amzchef na kuchynskej pracovnej doske, s detailným záberom na napájací kábel" border="0" src="https://assets.innpro.pl/24823/32599/7-97419ebf-4221-4846-a428-b6b4f6098550.jpg"/>
+</p><h3>Dva chladiace ventilátory</h3>
+<p>Varná doska je vybavená dvoma ventilátormi, ktoré pomáhajú odvádzať teplo z vnútra spotrebiča. Chladiaci systém pomáha udržiavať optimálne prevádzkové podmienky pre komponenty aj pri použití vyšších nastavení výkonu alebo pri súčasnom používaní oboch varných zón.</p>
+<p>
+<img alt="Rez dvojzónovou indukčnou varnou doskou Amzchef znázorňujúci ohrievacie špirály a riadiace procesory" border="0" src="https://assets.innpro.pl/24823/32599/9-90a1b5b5-d37e-467e-8f8e-81faa84b1d28.jpg"/>
+</p><h3>Hladký sklenený povrch</h3>
+<p>Hladký sklenený povrch uľahčuje udržiavanie spotrebiča v čistote. Bežné zvyšky po varení možno rýchlo zotrieť, akonáhle spotrebič dokončí prevádzku a varná doska vychladne. Spotrebič má rozmery 538 × 310 × 68 mm a ponúka dve varné zóny v relatívne kompaktnom vyhotovení.</p>
+<p>
+<img alt="Ruka ovládajúca ovládací panel a utierajúca povrch indukčnej varnej dosky Amzchef handričkou" border="0" src="https://assets.innpro.pl/24823/32599/6-6b3a85ee-85d8-4a7b-8f3b-36c8e71f6a2e.jpg"/>
+</p><h3>Vhodný riad na indukčné varenie</h3>
+<p>Model AMZCHEF CE-FS-IRC128D35 je kompatibilný s riadom, ktorý má ploché magnetické dno s priemerom od 12 do 24 cm. Medzi vhodný riad patrí okrem iného riad z magnetickej nehrdzavejúcej ocele, liatiny a smaltovanej ocele.</p>
+<p>
+<img alt="Čierna indukčná varná doska Amzchef s červenými šípkami symbolizujúcimi rýchle zahrievanie zón" border="0" src="https://assets.innpro.pl/24823/32599/8-9e13c533-4900-40df-a036-3b2b554eb92c.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>AMZCHEF</td></tr><tr><th>Model</th><td>CE-FS-IRC128D35</td></tr><tr><th>Typ</th><td>indukčná varná doska s dvoma varnými zónami</td></tr><tr><th>Menovité napätie</th><td>220–240 V~</td></tr><tr><th>Frekvencia</th><td>50/60 Hz</td></tr><tr><th>Celkový príkon</th><td>3500 W</td></tr><tr><th>Maximálny príkon ľavej varné zóny</th><td>2000 W</td></tr><tr><th>Maximálny príkon pravej varné zóny</th><td>1500 W</td></tr><tr><th>Počet výkonových stupňov ľavej varné zóny</th><td>20</td></tr><tr><th>Počet výkonových stupňov pravej varné zóny</th><td>15</td></tr><tr><th>Počet teplotných stupňov</th><td>20</td></tr><tr><th>Ovládacie prvky</th><td>Nezávislé dotykové ovládacie prvky pre každú varnú zónu</td></tr><tr><th>Riadiaci systém</th><td>IGBT</td></tr><tr><th>Časovač</th><td>Až 4 hodiny</td></tr><tr><th>Chladiaci systém</th><td>2 ventilátory</td></tr><tr><th>Povrch</th><td>Hladké sklo</td></tr><tr><th>Priemmer dna podporovaného riadu</th><td>12–24 cm</td></tr><tr><th>Kompatibilný riad</th><td>magnetická nehrdzavejúca oceľ, liatina, smaltovaná oceľ</td></tr><tr><th>Rozmery</th><td>538 × 310 × 68 mm</td></tr><tr><th>Dĺžka napájacieho kábla</th><td>1,2 m</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/grily--pekarne--varice/">Grily, pekárne, variče</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090426</CODE>
+<EAN>5905156109766</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Grily, pekárne, variče]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Indukčná varná doska AMZCHEF CE-FS-IRC128D35">https://b2b.innpro.sk/hpeciai/b0d363722a4b9fe6359c82563e0317a7/64460_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[amzchef]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[indukčná varná doska s dvoma varnými zónami]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Menovité napätie]]></NAME>
+    <VALUE><![CDATA[220–240 V~]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Frekvencia]]></NAME>
+    <VALUE><![CDATA[50/60 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový príkon]]></NAME>
+    <VALUE><![CDATA[3500 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet teplotných stupňov]]></NAME>
+    <VALUE><![CDATA[20]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ovládacie prvky]]></NAME>
+    <VALUE><![CDATA[Nezávislé dotykové ovládacie prvky pre každú varnú zónu]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Riadiaci systém]]></NAME>
+    <VALUE><![CDATA[IGBT]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Časovač]]></NAME>
+    <VALUE><![CDATA[Až 4 hodiny]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Chladiaci systém]]></NAME>
+    <VALUE><![CDATA[2 ventilátory]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Povrch]]></NAME>
+    <VALUE><![CDATA[Hladké sklo]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[3500 W]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>4.89</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>93.50</PRICE_VAT>
+<PURCHASE_PRICE>65.99</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC128D35 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Indukčná varná doska AMZCHEF CE-FS-IRC128D35 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Akčná kamera SJCAM S10, 64GB (čierny)]]></NAME>
@@ -585219,13 +586290,16 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87897_64814_pol_24ad3eefdfd9e4458b86ab5cd5d1eacd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/detektory/">Detektory a lokátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093318</CODE>
 <EAN>0786156007598</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 1">https://b2b.innpro.sk/hpeciai/f177506e358e8ba9d52ced99d614d344/64814_1_1.webp</IMAGE>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 2">https://b2b.innpro.sk/hpeciai/ad6c696968907fc4cc7a65260ff6287f/64814_2_1.webp</IMAGE>
@@ -605199,6 +606273,232 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Makro blesk s dvojitou hlavou GODOX MF-T76 pre Sony – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Prístroj na starostlivosť o pleť ANLAN RoseLumi]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Prístroj na starostlivosť o pleť ANLAN RoseLumi ANLAN RoseLumi kombinuje viacero metód starostlivosti o pleť, vďaka čomu môžete zlepšiť vzhľad svojej pleti a zvýšiť účinnosť kozmetických procedúr.…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Prístroj na starostlivosť o pleť ANLAN RoseLumi</h3>
+<p>ANLAN RoseLumi kombinuje viacero metód starostlivosti o pleť, vďaka čomu môžete zlepšiť vzhľad svojej pleti a zvýšiť účinnosť kozmetických procedúr. Svetelná technológia EVOLUMINA™ využíva kontinuálne spektrum 450–1100 nm a jej účinky dopĺňajú technológie 2 MHz RF a HEPulse™. K dispozícii sú 3 režimy: FIP, ktorý pomáha pri vstrebávaní produktov na starostlivosť o pleť; režim IMP, ktorý sa zameriava na redukciu jemných vrások a podporuje produkciu kolagénu; a režim HEP, ktorý spevňuje pleť a vymedzuje kontúry tváre. Každá procedúra trvá 5 minút, takže ošetrenie nezaberie veľa času. Prístroj váži približne 112 g, čo zaručuje pohodlie pri vedení ošetrovacej hlavice po rôznych častiach tváre.</p>
+<p>
+<img alt="Žena držiaca ružové kozmetické zariadenie ANLAN s červeným svetlom pri tvári" border="0" src="https://assets.innpro.pl/24982/33035/3-1a8fd6b8-ad8d-4184-9f7d-576a3727b716.jpg"/>
+</p><h3>Využite svoju rutinu starostlivosti o pleť na maximum s režimom FIP</h3>
+<p>Svoju rutinu starostlivosti o pleť s prístrojom ANLAN RoseLumi môžete začať v režime FIP, ktorý počas masáže tváre zlepšuje vstrebávanie nanesených produktov na starostlivosť o pleť, čím vám pomáha maximálne využiť ich prínosy. V štúdii, ktorú vykonalo laboratórium ANLAN Lab s využitím profesionálnych zariadení na analýzu pleti, bol zaznamenaný 273 % nárast vstrebávania po 15-minútovej masáži zariadením RoseLumi v režime FIP na úrovni 3. Tento režim je preto ideálny pri nanášaní produktov na starostlivosť o pleť, keďže podporuje ich vstrebávanie a pomáha udržať vašu pleť hydratovanú.</p>
+<p>
+<img alt="Žena držiaca ružovo-biele zariadenie na starostlivosť o pleť s výstupkami pri tvári, na ružovom pozadí" border="0" src="https://assets.innpro.pl/24982/33035/6-6ec56621-f1bc-45e1-b3f6-5f44716058ac.jpg"/>
+</p><h3>Vyhlaďte jemné vrásky v režime IMP</h3>
+<p>Režim IMP vám umožňuje zamerať starostlivosť o pleť na jemné vrásky viditeľné na čele, pod očami a okolo úst, ako aj na ďalších miestach. Podporuje tvorbu kolagénu, čím pomáha zabezpečiť hladší vzhľad pleti. Po 25 dňoch používania testy vykonané s profesionálnymi zariadeniami na analýzu pleti preukázali 72 % zníženie jemných vrások, hoci výsledky sa môžu u jednotlivých osôb líšiť.</p>
+<p>
+<img alt="Dve ženy vedľa ružového zariadenia ANLAN na starostlivosť o pleť na svetlom pozadí" border="0" src="https://assets.innpro.pl/24982/33035/5-d9ab9f3f-3ed7-44f9-8d68-e87b6bcdb909.jpg"/>
+</p><h3>Vydefinujte svoje kontúry pomocou technológie HEPulse™</h3>
+<p>Režim HEP, ktorý využíva technológiu HEPulse™ Dual-Frequency, pomáha dosiahnuť väčšiu pevnosť a výraznejšie kontúry tváre. Kombinuje elektrickú stimuláciu s tepelnou energiou na podporu spevnenia pokožky a vydefinovania kontúr. V nezávislej laboratórnej štúdii bolo po 15 minútach používania zariadenia RoseLumi v režime HEP na úrovni 3 zaznamenané zvýšenie elastínu o 206 % v oblasti vrások pri úsmeve, o 136 % v oblasti čeľuste a o 111 % pod očami a na lícach. Tento účinok vám umožňuje zamerať starostlivosť o pleť na oblasti, kde chcete obzvlášť zlepšiť pevnosť a dosiahnuť výraznejší vzhľad tváre.</p>
+<p>
+<img alt="Ružové, zaoblené zariadenie ANLAN na podstavci s podsvietením na ružovom pozadí" border="0" src="https://assets.innpro.pl/24982/33035/1-6ffa8006-7064-4af6-80bd-95a93f75675b.jpg"/>
+</p><h3>Presné prispôsobenie kontúram tváre</h3>
+<p>Špeciálne tvarovaná 3D ošetrovacia hlavica má zakrivený povrch, ktorý sa prispôsobuje kontúram tváre, čím podporuje tesnejší kontakt s pokožkou, stabilnejší prenos energie a väčší komfort počas ošetrenia. Jej povrch je naklonený pod uhlom 45° a viacbodová energetická matica obsahuje 45 bodov a 20 LED prvkov. Táto konštrukcia umožňuje rozložiť ošetrenie na rôzne oblasti tváre, namiesto toho, aby bolo obmedzené na jediný bod. Vďaka vodotesnej ošetrovacej hlavici je tiež jednoduchšie používať zariadenie ako súčasť vašej pravidelnej starostlivosti o pleť.</p>
+<p>
+<img alt="Záber zblízka na špičku ružového prístroja ANLAN so svetelnými bodkami a šípkami na tmavom pozadí" border="0" src="https://assets.innpro.pl/24982/33035/4-4497a56e-37d9-4770-9d3f-cb1740790005.jpg"/>
+</p><h3>Viac smerová starostlivosť o pleť s technológiou EVOLUMINA™</h3>
+<p>Technológia EVOLUMINA™ s nepretržitým spektrom pracuje v rozsahu 450–1100 nm a je navrhnutá tak, aby podporovala stabilitu kožných buniek a pomáhala udržiavať zdravší vzhľad. Široké, nepretržité spektrum je jedným zo základných pilierov fungovania zariadenia RoseLumi a v rámci multidirekčného prístupu k starostlivosti o pleť spolupracuje s ďalšími funkciami zariadenia. ANLAN RoseLumi ponúka aj svetelnú terapiu s viacerými vlnovými dĺžkami a je navrhnuté pre šetrnú starostlivosť aj o citlivú pleť.</p>
+<p>
+<img alt="Ružový prístroj ANLAN umiestnený na ružovej konštrukcii so svetelnými slučkami" border="0" src="https://assets.innpro.pl/24982/33035/7-a3d4d64c-8bac-4279-9bc5-712179cca548.jpg"/>
+</p><h3>Používajte ho pravidelne bez akejkoľvek špeciálnej prípravy</h3>
+<p>Starostlivosť o pleť nemusí znamenať dlhé ošetrenie – štandardná procedúra s ANLAN RoseLumi trvá 5 minút. Batéria s kapacitou 1500 mAh zabezpečuje približne jednu hodinu prevádzky, pričom nabíjanie trvá asi 2,5 hodiny. Vďaka hmotnosti približne 112 g sa hlavica zariadenia ľahko vedie po rôznych častiach tváre.</p>
+<p>
+<img alt="Ružový prístroj ANLAN na stojane a záber zblízka na hlavicu vyžarujúcu svetelné oblúky na ružovom pozadí" border="0" src="https://assets.innpro.pl/24982/33035/2-f17cc832-7944-4ff2-9ae1-cb344b0e73f5.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>ANLAN</td></tr><tr><th>Model</th><td>RoseLumi</td></tr><tr><th>Kód výrobcu</th><td>01-APMRY53-04A</td></tr><tr><th>Svetelná technológia</th><td>Technológia EVOLUMINA™ s kontinuálnym spektrom 450–1100 nm</td></tr><tr><th>RF frekvencia</th><td>2 MHz</td></tr><tr><th>Kapacita batérie</th><td>1500 mAh</td></tr><tr><th>Doba nabíjania</th><td>Približne 2,5 hodiny</td></tr><tr><th>Doba prevádzky</th><td>Približne 1 hodina</td></tr><tr><th>Doba ošetrenia</th><td>5 minút na jedno ošetrenie</td></tr><tr><th>Režimy</th><td>Absorpčný režim / Kolagénový režim / Zpevňovací režim</td></tr><tr><th>Energetická matica</th><td>45-bodová energetická matica + 20 LED diód</td></tr><tr><th>Ošetrovacia hlavica</th><td>Zakrivená 3D ošetrovacia hlavica Full-Fit</td></tr><tr><th>Vodoodolnosť</th><td>Vodoodolná ošetrovacia hlavica</td></tr><tr><th>Hmotnosť</th><td>Približne 112 g</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88189_65956_pol_83a58435f87e71d3bf660fe8e2ff6ed8" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pristroje-na-tvar/">Prístroje na tvár</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[ANLAN]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>092764</CODE>
+<EAN>6979147470134</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť > Prístroje na tvár]]></CATEGORY>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>1024</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Prístroj na starostlivosť o pleť ANLAN RoseLumi - obrázok 1">https://b2b.innpro.sk/hpeciai/9828520d7e1c777d11a35236e09d9f54/65956_1_1.webp</IMAGE>
+  <IMAGE description="Prístroj na starostlivosť o pleť ANLAN RoseLumi - obrázok 2">https://b2b.innpro.sk/hpeciai/014416385bd19ff6e0688695de5883ff/65956_2_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[ANLAN]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kód výrobcu]]></NAME>
+    <VALUE><![CDATA[01-APMRY53-04A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Svetelná technológia]]></NAME>
+    <VALUE><![CDATA[Technológia EVOLUMINA™ s kontinuálnym spektrom 450–1100 nm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[RF frekvencia]]></NAME>
+    <VALUE><![CDATA[2 MHz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kapacita batérie]]></NAME>
+    <VALUE><![CDATA[1500 mAh]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Doba nabíjania]]></NAME>
+    <VALUE><![CDATA[Približne 2,5 hodiny]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Doba prevádzky]]></NAME>
+    <VALUE><![CDATA[Približne 1 hodina]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Doba ošetrenia]]></NAME>
+    <VALUE><![CDATA[5 minút na jedno ošetrenie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Režimy]]></NAME>
+    <VALUE><![CDATA[Absorpčný režim / Kolagénový režim / Zpevňovací režim]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Energetická matica]]></NAME>
+    <VALUE><![CDATA[45-bodová energetická matica + 20 LED diód]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ošetrovacia hlavica]]></NAME>
+    <VALUE><![CDATA[Zakrivená 3D ošetrovacia hlavica Full-Fit]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.28</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>104.90</PRICE_VAT>
+<PURCHASE_PRICE>74.04</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Prístroj na starostlivosť o pleť ANLAN RoseLumi | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Prístroj na starostlivosť o pleť ANLAN RoseLumi – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Fén ANLAN Platinum Series]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Fén ANLAN zo série Platinum Fén ANLAN zo série Platinum spája rýchle sušenie s funkciami určenými na starostlivosť o vaše vlasy a pokožku hlavy. Technológia 200 miliónov plazmových iónov pracuje v…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Fén ANLAN zo série Platinum</h3>
+<p>Fén ANLAN zo série Platinum spája rýchle sušenie s funkciami určenými na starostlivosť o vaše vlasy a pokožku hlavy. Technológia 200 miliónov plazmových iónov pracuje v spojení s 8 červenými LED diódami a inteligentný systém detekcie teploty pomáha predchádzať prehriatiu. Ponúka tiež režim na úpravu účesu s automatickým prepínaním medzi teplým a chladným vzduchom, ako aj špeciálny detský režim, ktorý udržiava teplotu približne 39 °C ±3 °C. Celé zariadenie je umiestnené v štíhlom tele so šírkou 63 mm a hlučnosť pri prevádzke dosahuje maximálne 58 dB.</p>
+<p>
+<img alt="Žena s dlhými tmavými vlasmi drží biele zariadenie s medeným povrchom a červeným svetlom" border="0" src="https://assets.innpro.pl/24980/33033/2-34f4116b-ccfe-482f-877b-fac4de4c8d9d.jpg"/>
+</p><h3>Rýchle sušenie, keď záleží na každej minúte</h3>
+<p>Séria ANLAN Platinum urýchľuje sušenie vlasov, vďaka čomu vám príprava vlasov na styling zaberie menej času. Krátke vlasy je možné vysušiť za približne 1–2 minúty, stredne dlhé vlasy za 2–4 minúty a dlhé vlasy za 4–8 minút – presný čas závisí od typu vlasov, ako aj od okolitej teploty a vlhkosti. Po osušení uterákom je najlepšie smerovať prúd vzduchu postupne od korienkov cez stredné časti až po končeky a sušenie ukončiť, keď sú vlasy suché na približne 80–90 %. Vďaka tomu sa ľahšie pracuje s ďalšími časťami a vlasy sa ľahšie pripravujú na ďalšie úpravy.</p>
+<p>
+<img alt="Žena s dlhými tmavými vlasmi používa biele zariadenie, pričom prúd vzduchu smeruje na jej krk a tvár" border="0" src="https://assets.innpro.pl/24980/33033/4-44af84b0-a34c-4e43-8302-8f865c04b908.jpg"/>
+</p><h3>Plazma a červené svetlo pre hladký výsledok</h3>
+<p>Kombinácia 200 miliónov plazmových iónov a 8 červených LED diód zabezpečuje, že sušič vlasov ANLAN Platinum Series sa počas sušenia súčasne stará o vaše vlasy aj pokožku hlavy. Plazmová technológia znižuje statickú elektrinu až o 98 %, pomáha vyhladzovať pramene a redukuje krepatenie suchých vlasov, vďaka čomu sú vlasy mäkké, hladké a ľahšie sa rozčesávajú. Ióny prenikajú hlboko do vlasov a vytvárajú na pramenoch ochrannú proteínovú vrstvu, ktorej účinky môžu trvať viac ako 72 hodín. Toto riešenie tak kombinuje rýchle sušenie so starostlivosťou navrhnutou tak, aby boli vlasy hladšie a ľahšie sa upravovali.</p>
+<p>
+<img alt="Biele zariadenie s medeným lemom, červeným svetlom a viditeľným prúdom vzduchu na svetlom pozadí" border="0" src="https://assets.innpro.pl/24980/33033/3-8e630920-275f-4eda-8aa0-7ae4b300868b.jpg"/>
+</p><h3>Inteligentná regulácia teploty pre väčšiu kontrolu</h3>
+<p>Systém Smart Care nepretržite monitoruje teplotu v okolí vlasov a pokožky hlavy, čím pomáha chrániť ich pred nadmerným teplom. Ak teplota stúpne príliš vysoko, sušič sa automaticky prepne do režimu ECO, čím sa znižuje riziko prehriatia počas sušenia. To znamená, že nemusíte neustále ručne regulovať teplotu a môžete si vlasy sušiť za šetrnejších podmienok. Funkcia detekcie teploty funguje bez nasadenej trysky – akonáhle je tryska nasadená, laserový senzor už signál nezaznamenáva.</p>
+<p>
+<img alt="Žena sedí v izbe a smeruje biele zariadenie s prúdom vzduchu na svoj krk" border="0" src="https://assets.innpro.pl/24980/33033/5-41b7e357-c024-4de1-a1b2-99752797edbd.jpg"/>
+</p><h3>Styling s teplým a studeným vzduchom</h3>
+<p>Režim stylingu automaticky strieda teplý a studený vzduch, čím minimalizuje poškodenie vlasov a pomáha udržať vlhkosť. Namiesto toho, aby boli pramene vlasov po celý čas vystavené jednému typu prúdu vzduchu, sušička počas prevádzky prispôsobuje teplotu. Táto funkcia sa výborne hodí na dokončenie účesu po počiatočnom vysušení, keď sa nesnažíte len odstrániť vlhkosť, ale chcete dosiahnuť aj hladší vzhľad. Súčasťou sady je aj magnetická tryska, ktorú môžete použiť na nasmerovanie prúdu vzduchu počas sušenia a stylingu.</p>
+<p>
+<img alt="Žena sedí na podlahe, hladká psa a drží biele zariadenie s červeným svetlom" border="0" src="https://assets.innpro.pl/24980/33033/6-c2dca9bc-896d-411b-983b-72df8b6f7278.jpg"/>
+</p><h3>Detský režim s teplotou približne 39 °C</h3>
+<p>Špeciálny detský režim vám umožňuje nastaviť zariadenie na šetrnejšie sušenie detských vlasov. Po aktivácii sa teplota vzduchu zafixuje na približne 39 °C ±3 °C a režim využíva nízky prietok vzduchu a pracuje pri nízkej hladine hluku. Funkciu aktivujete podržaním príslušného tlačidla po dobu 3 sekúnd. Nízka teplota znižuje intenzitu tepla pôsobiaceho na citlivú detskú pokožku, zatiaľ čo jemnejší prúd vzduchu a tichší chod zaisťujú pohodlnejšie sušenie.</p>
+<p>
+<img alt="Dve biele zariadenia s medenými prvkami a okrúhlym displejom na tmavom pozadí" border="0" src="https://assets.innpro.pl/24980/33033/7-347d0d34-10a8-469c-a999-6324bfaebbfb.jpg"/>
+</p><h3>Pohodlné sušenie bez nadmerného hluku</h3>
+<p>Dýza sušiča má šírku 63 mm, čo umožňuje štíhly dizajn. Magnetická dýza sa ľahko nasadzuje a umožňuje zamerať prúd vzduchu na konkrétnu časť vlasov, čím zabezpečuje presnosť pri sušení a úprave účesu. Nastavenia je možné regulovať pomocou ovládačov na rukoväti a kruhového panela na prednej strane sušiča. Konštrukcia s nízkou hlučnosťou vám umožňuje používať sušič ANLAN Platinum Series ako ráno, tak aj neskoro v noci bez vytvárania nadmerného hluku. Hladina hluku dosahuje maximálne 58 dB, hoci sa líši v závislosti od rýchlosti prúdu vzduchu.</p>
+<p>
+<img alt="Biely fén Anlan s dvoma nástavcami, návodom na použitie a fialovou krabicou" border="0" src="https://assets.innpro.pl/24980/33033/1-886ee643-bfbf-4511-88b2-14399ddbacbd.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>Fén</li><li>Násadky x2</li><li>Návod na použitie</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>ANLAN</td></tr><tr><th>Kód výrobcu</th><td>05-ACFJ43-0VE</td></tr><tr><th>Séria</th><td>Platinum Series</td></tr><tr><th>Iónová technológia</th><td>200 miliónov plazmových iónov</td></tr><tr><th>Červené LED svetlo</th><td>8 LED diód</td></tr><tr><th>Ochrana proti prehriatiu</th><td>Automatické prepnutie do režimu ECO</td></tr><tr><th>Detský režim</th><td>Áno</td></tr><tr><th>Teplota v detskom režime</th><td>Približne 39 °C ±3 °C</td></tr><tr><th>Hlučnosť</th><td>≤58 dB</td></tr><tr><th>Šírka trysky</th><td>63 mm</td></tr><tr><th>Približná doba sušenia krátkych vlasov</th><td>1–2 min</td></tr><tr><th>Približná doba sušenia stredne dlhých vlasov</th><td>2–4 min</td></tr><tr><th>Približná doba sušenia dlhých vlasov</th><td>4–8 min</td></tr><tr><th>Odporúčaná úroveň vysušenia pred ďalším stylingom</th><td>80–90 %</td></tr><tr><th>Násada</th><td>Magnetická</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88190_65957_pol_fbe6b2bf5115c96bef494ab5e53f9417" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/starostlivost-o-vlasy/">Starostlivosť o vlasy</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[ANLAN]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>092763</CODE>
+<EAN>6979147470394</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o vlasy]]></CATEGORY>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Fén ANLAN Platinum Series">https://b2b.innpro.sk/hpeciai/dacc573103bffabd9f38e4247fea0fe4/65957_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[ANLAN]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kód výrobcu]]></NAME>
+    <VALUE><![CDATA[05-ACFJ43-0VE]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Séria]]></NAME>
+    <VALUE><![CDATA[Platinum Series]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Iónová technológia]]></NAME>
+    <VALUE><![CDATA[200 miliónov plazmových iónov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Červené LED svetlo]]></NAME>
+    <VALUE><![CDATA[8 LED diód]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ochrana proti prehriatiu]]></NAME>
+    <VALUE><![CDATA[Automatické prepnutie do režimu ECO]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Teplota v detskom režime]]></NAME>
+    <VALUE><![CDATA[Približne 39 °C ±3 °C]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hlučnosť]]></NAME>
+    <VALUE><![CDATA[≤58 dB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Šírka trysky]]></NAME>
+    <VALUE><![CDATA[63 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Násada]]></NAME>
+    <VALUE><![CDATA[Magnetická]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>1.04</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>77.00</PRICE_VAT>
+<PURCHASE_PRICE>54.53</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Fén ANLAN Platinum Series | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Fén ANLAN Platinum Series – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Súprava na úpravu vlasov ANLAN Miracle]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Súprava na úpravu vlasov ANLAN Miracle ANLAN Miracle ponúka tri spôsoby úpravy vlasov vďaka vymeniteľným nástavcom s priemermi 25 mm, 32 mm a 38 mm. Automatická rotácia o 360°, dva prevádzkové režimy…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Súprava na úpravu vlasov ANLAN Miracle</h3>
@@ -607273,6 +608573,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -610602,6 +611903,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>087353</CODE>
+    <EAN>6976391032484</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>087354</CODE>
     <EAN>6937479641752</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -610747,7 +612055,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088508</CODE>
     <EAN>6975577881977</EAN>
@@ -610852,7 +612160,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
@@ -611251,7 +612559,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>VITURE Pro 2 XR – okuliare | PremiumStore.sk</SEO_TITLE><META_DESCRIPTION>Okuliare VITURE Pro 2 XR. Pozrite si parametre obrazu, možnosti pripojenia a kompatibilitu so zariadeniami pred výberom.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>091762</CODE>
     <EAN>6973137271619</EAN>

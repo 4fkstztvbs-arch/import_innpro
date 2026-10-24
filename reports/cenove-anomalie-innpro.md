@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-10-23
+# Cenové anomálie vynechané z feedu — innpro — 2026-10-24
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -451,24 +451,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 091848 | 5905156111042 | Parkovacie kúrenie Hcalory HBS-3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093464 | 6975274260235 | Solar panel Allpowers SP027 100W monocrystalline | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093465 | 6975274260402 | Solárny panel ALLPOWERS SF200 200 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093466 | 6975274260396 | Solárny panel Allpowers SF100 100 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093467 | 6975274261072 | Solárny panel Allpowers SOLAX SE100 100 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093468 | 6975274261133 | Solárny panel Allpowers SOLAX SE200 200 W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093469 | 6975274260266 | Prenosný solárny panel Allpowers SP037 400 W | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093470 | 6975274260457 | Solárny panel Allpowers SP039 600 W, monokryštalický, prenosný | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093471 | 6975274261027 | Power station Allpowers SOLAX P100 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093472 | 6975274260242 | Solar panel Allpowers SP033 200W foldable | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093473 | 6975274260174 | Elektráreň Allpowers S2000 Pro | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093474 | 6975274261065 | Elektráreň Allpowers VOLIX P300 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093475 | 6975274260198 | Elektráreň Allpowers R4000 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093476 | 6975274260877 | Elektráreň ALLPOWERS R1500 LITE | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093477 | 6975274260341 | Elektráreň ALLPOWERS R2500 V2 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093478 | 6975274260419 | Napájací zdroj Allpowers R600 299 Wh | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093479 | 6975274260136 | Power bank Allpowers S200 200W | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093480 | 6975274260525 | Cable Allpowers XT60 1.5m | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093481 | 6975274260570 | Solar connector ALLPOWERS type T for parallel connection | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093482 | 6975274260563 | Solar connector Allpowers type Y | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093483 | 6975274260532 | Cable Allpowers XT60 car charger | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093596 | 6941590018386 | Batéria V-Mount SMALLRIG VB50 mini | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093659 | 6941590027388 | UV filter SMALLRIG pre DJI Osmo Pocket 4/3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |

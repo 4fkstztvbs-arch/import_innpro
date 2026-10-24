@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-23 21:34 UTC.
+Kontrola z 2026-10-24 08:29 UTC.
 
-InnPro pri **404** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **405** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -98,8 +98,9 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 5 |
 | `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
 | `053576` | Kábel Star-Light USB C do USB-C Joyroom SA27-CC5 / 100W / 1, | — | 5 |
+| `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
 | `053750` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (či | — | 5 |
-| `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 5 |
+| `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 2 |
 | `054882` | Puzdro na telefón pre iPhone 15 ProMax Baseus OS-Lucent Seri | — | 5 |
 | `054871` | Puzdro na telefón pre iPhone 15 Plus Baseus Fauxther Series  | — | 4 |
 | `055429` | Namiot bezcieniowy Puluz 20cm LED PU5029 | — | 5 |
@@ -144,7 +145,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
 | `061362` | Side brush for Roidmi EVE CC | — | 5 |
 | `061363` | Mopping pads for Roidmi EVE CC | — | 5 |
-| `061854` | Joyroom PN-15L4 puzdro Dancing Circle pre iPhone 15 Pro Max  | — | 5 |
+| `061854` | Joyroom PN-15L4 puzdro Dancing Circle pre iPhone 15 Pro Max  | — | 3 |
 | `061859` | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (zelené) | — | 5 |
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
@@ -246,7 +247,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079457` | Diaľkové ovládanie TELESIN | — | 5 |
 | `080027` | PULUZ PU4141B Video lampa čierna | — | 5 |
 | `080532` | Niimbot T50*70-110 tepelné nálepky (biele) | — | 5 |
-| `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 5 |
+| `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 4 |
 | `080658` | Tvrdené sklo puluz DJI Osmo 360 (číre) | — | 5 |
 | `080661` | PULUZ DJI Osmo 360 silikónový stojan (čierny) | — | 5 |
 | `080663` | Silikónový kryt s objektívom PULUZ DJI Osmo 360 (sivý) | — | 5 |
@@ -398,7 +399,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089382` | Tepelná etiketa NIIMBOT EW50*30-225 | — | 5 |
 | `093248` | Sada veľkostí EVEN REALITIES R1 | — | 5 |
 | `088334` | Spojka prahovej rampy MOVA pre modely V50U/Mobius60 | — | 5 |
-| `089389` | Čelovka SUPERFIRE HL106 | — | 5 |
+| `089389` | Čelovka SUPERFIRE HL106 | — | 4 |
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
