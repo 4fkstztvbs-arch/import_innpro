@@ -1,0 +1,94 @@
+/* PremiumStore – NÁVRH nového vzhľadu objednávky (preview). Len vizuálna vrstva: ikony, štítky, odkazy.
+   Neprepisuje polia ani logiku Shoptetu. */
+(function () {
+  'use strict';
+  var b = document.body;
+  if (!b || !b.classList.contains('ordering-process')) return;
+  b.classList.add('ps-rd');
+
+  function $(s, r) { return (r || document).querySelector(s); }
+  function $$(s, r) { return [].slice.call((r || document).querySelectorAll(s)); }
+  function svg(p) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + p + '</svg>'; }
+  var ICON = {
+    store: svg('<path d="M4 9.5 5.5 4h13L20 9.5"/><path d="M4 9.5a2.7 2.7 0 0 0 5.3 0 2.7 2.7 0 0 0 5.4 0 2.7 2.7 0 0 0 5.3 0"/><path d="M5.5 12.5V20h13v-7.5"/><path d="M10 20v-4.5h4V20"/>'),
+    home: svg('<path d="M3.5 11 12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5h4v5"/>'),
+    truck: svg('<path d="M3 6.5h11v10H3z"/><path d="M14 10h4l3 3.2v3.3h-7"/><circle cx="7.5" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/>'),
+    locker: svg('<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 12h16M12 4v16"/><path d="M8 8h.01M16 8h.01M8 16h.01M16 16h.01"/>'),
+    pallet: svg('<path d="M4 8h16v7H4z"/><path d="M3 15h18v3H3z"/><path d="M8 8v7M12 8v7M16 8v7"/>'),
+    cash: svg('<rect x="3" y="6.5" width="18" height="11" rx="2"/><circle cx="12" cy="12" r="2.6"/><path d="M6.5 9.5h.01M17.5 14.5h.01"/>'),
+    cod: svg('<path d="M12 3 20 7.2v9.6L12 21l-8-4.2V7.2z"/><path d="M4 7.2 12 11.4 20 7.2M12 11.4V21"/>'),
+    bank: svg('<path d="M3.5 9 12 4l8.5 5"/><path d="M5 9.5h14M6.5 12v5M10.2 12v5M13.8 12v5M17.5 12v5M4 19.5h16"/>'),
+    card: svg('<rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/>'),
+    wallet: svg('<path d="M4 7.5A2.5 2.5 0 0 1 6.5 5H18v3"/><path d="M4 7.5V17a2 2 0 0 0 2 2h13V8H6.5A2.5 2.5 0 0 1 4 7.5z"/><circle cx="16" cy="13.5" r="1"/>')
+  };
+
+  function iconFor(wrapper) {
+    var inp = $('input', wrapper); if (!inp) return null;
+    var code = inp.getAttribute('data-code') || '';
+    var type = inp.getAttribute('data-payment-type') || '';
+    var name = (($('.shipping-billing-name', wrapper) || {}).textContent || '').toLowerCase();
+    if (code === 'personal-collection') return ICON.store;
+    if (/geis|paleta|pallet/.test(code + name)) return ICON.pallet;
+    if (/balíkobox|alzabox|box/.test(name)) return ICON.locker;
+    if (/pošta na adresu|kuri|doručenie na adresu|na adresu/.test(name)) return ICON.truck;
+    if (type === 'cash') return ICON.cash;
+    if (type === 'cashOnDelivery') return ICON.cod;
+    if (/prevod|bank/.test(type + name)) return ICON.bank;
+    if (/kart|card/.test(type + name)) return ICON.card;
+    if (/pošta|sps|packeta|balík|zásiel/.test(code + name)) return ICON.truck;
+    return inp.name === 'billingId' ? ICON.wallet : ICON.truck;
+  }
+
+  function decorate() {
+    $$('#order-shipping-methods .radio-wrapper, #order-billing-methods .radio-wrapper').forEach(function (w) {
+      var label = $('label', w); if (!label) return;
+      var hasLogo = !!$('.payment-logo img', w);
+      var ico = $('.ps-ico', w);
+      if (hasLogo) { if (ico) ico.remove(); }
+      else if (!ico) {
+        var html = iconFor(w);
+        if (html) {
+          ico = document.createElement('span'); ico.className = 'ps-ico'; ico.innerHTML = html;
+          label.insertBefore(ico, label.firstChild);
+        }
+      }
+      var pr = $('.payment-shipping-price', w);
+      if (pr) pr.classList.toggle('ps-free', /zadarmo|0\s?€/i.test(pr.textContent.trim()) && !/[1-9]/.test(pr.textContent.replace(/0[,.]?0*\s?€/, '')));
+    });
+  }
+
+  function labels() {
+    var s3 = $('ol.cart-header li.step-3 span'); if (s3 && /Informácie/.test(s3.textContent)) s3.textContent = 'Vaše údaje';
+    var s2 = $('ol.cart-header li.step-2 span'); if (s2 && /Doprava/.test(s2.textContent)) s2.textContent = 'Doprava a platba';
+    var s1 = $('ol.cart-header li.step-1 span'); if (s1 && /košík/i.test(s1.textContent)) s1.textContent = 'Košík';
+    var cta = $('body.in-kosik #continue-order-button .order-button-text');
+    if (cta && cta.textContent.trim() === 'Pokračovať') cta.textContent = 'Pokračovať k doprave a platbe';
+    var cta1 = $('body.in-krok-1 #orderFormButton .order-button-text');
+    if (cta1 && /Pokračovať v objednávke/.test(cta1.textContent)) cta1.textContent = 'Pokračovať k údajom';
+  }
+
+  function trust() {
+    if ($('.ps-trust2')) return;
+    var host = $('.order-summary-inner') || null; if (!host) return;
+    var ul = document.createElement('ul'); ul.className = 'ps-trust2';
+    ul.innerHTML = '<li>Bezpečná platba a šifrované spojenie</li><li>Vrátenie tovaru do 14 dní</li><li>Poradíme: <a href="tel:0484151999">0484 151 999</a></li>';
+    host.appendChild(ul);
+  }
+
+  function change() {
+    if (!b.classList.contains('in-krok-2')) return;
+    $$('.order-recapitulation .recapitulation-single, .order-summary-inner .order-summary-item').forEach(function () {});
+    var recap = $('#shipping-billing-summary') || $('.order-recapitulation');
+    if (recap && !$('.ps-change', recap.parentNode)) {
+      var a = document.createElement('a'); a.href = '/objednavka/krok-1/'; a.className = 'ps-change'; a.textContent = 'Zmeniť dopravu a platbu';
+      a.style.cssText = 'display:block;margin:2px 0 8px;color:#167450;font-weight:700;font-size:13px;text-decoration:none';
+      recap.parentNode.insertBefore(a, recap.nextSibling);
+    }
+  }
+
+  function run() { decorate(); labels(); trust(); change(); }
+  run();
+  var t = null;
+  new MutationObserver(function () { clearTimeout(t); t = setTimeout(run, 120); })
+    .observe(document.body, { childList: true, subtree: true });
+})();
