@@ -12,23 +12,23 @@ body.ps-rd.ordering-process .cart-wrapper { max-width: 1180px; margin: 0 auto; p
 body.ps-rd.ordering-process .cart-inner { max-width: none; padding: 0; background: transparent; }
 
 /* ---------- Stepper ---------- */
-html body.ps-rd.ordering-process ol.cart-header {
+html body.ps-rd.ordering-process main#content ol.cart-header {
   display: flex; align-items: center; justify-content: center; gap: 0; list-style: none;
   margin: 8px auto 28px; padding: 0; max-width: 720px; background: none; border: 0; counter-reset: st;
 }
-html body.ps-rd.ordering-process ol.cart-header > li.step { flex: 1 1 0 !important; display: flex !important; flex-direction: column !important; align-items: center !important; gap: 8px !important; position: relative !important; margin: 0 !important; padding: 0 !important; background: none !important; border: 0 !important; font-size: 14px !important; counter-increment: st !important; text-align: center !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.step::before { content: counter(st) !important; width: 34px !important; height: 34px !important; border-radius: 50% !important; display: grid !important; place-items: center !important; z-index: 1 !important; background: #fff !important; border: 2px solid var(--line) !important; color: var(--mut) !important; font-weight: 700 !important; font-size: 15px !important; position: static !important; transform: none !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.step::after { content: '' !important; position: absolute !important; top: 16px !important; left: calc(-50% + 22px) !important; right: calc(50% + 22px) !important; height: 2px !important; background: var(--line) !important; display: block !important; border: 0 !important; width: auto !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.step-1::after { display: none !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.completed::before { content: '✓' !important; background: var(--g) !important; border-color: var(--g) !important; color: #fff !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.completed::after, html body.ps-rd.ordering-process ol.cart-header > li.active::after { background: var(--g) !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.active::before { border-color: var(--g) !important; color: var(--g) !important; box-shadow: 0 0 0 5px rgba(22,116,80,.14) !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.step a, html body.ps-rd.ordering-process ol.cart-header > li.step strong { color: var(--mut) !important; font-weight: 600 !important; text-decoration: none !important; background: none !important; padding: 0 !important; display: block !important; font-size: 14px !important; line-height: 1.2 !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.active strong { color: var(--ink) !important; font-weight: 700 !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.step span { background: none !important; padding: 0 !important; font-size: inherit !important; }
-html body.ps-rd.ordering-process ol.cart-header > li.step span::before, html body.ps-rd.ordering-process ol.cart-header > li.step span::after,
-html body.ps-rd.ordering-process ol.cart-header > li.step a::before, html body.ps-rd.ordering-process ol.cart-header > li.step a::after,
-html body.ps-rd.ordering-process ol.cart-header > li.step strong::before, html body.ps-rd.ordering-process ol.cart-header > li.step strong::after { display: none !important; content: none !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step { flex: 1 1 0 !important; display: flex !important; flex-direction: column !important; align-items: center !important; gap: 8px !important; position: relative !important; margin: 0 !important; padding: 0 !important; background: none !important; border: 0 !important; font-size: 14px !important; counter-increment: st !important; text-align: center !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step::before { content: counter(st) !important; width: 34px !important; height: 34px !important; border-radius: 50% !important; display: grid !important; place-items: center !important; z-index: 1 !important; background: #fff !important; border: 2px solid var(--line) !important; color: var(--mut) !important; font-weight: 700 !important; font-size: 15px !important; position: static !important; transform: none !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step::after { content: '' !important; position: absolute !important; top: 16px !important; left: calc(-50% + 22px) !important; right: calc(50% + 22px) !important; height: 2px !important; background: var(--line) !important; display: block !important; border: 0 !important; width: auto !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step-1::after { display: none !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.completed::before { content: '✓' !important; background: var(--g) !important; border-color: var(--g) !important; color: #fff !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.completed::after, html body.ps-rd.ordering-process main#content ol.cart-header > li.active::after { background: var(--g) !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.active::before { border-color: var(--g) !important; color: var(--g) !important; box-shadow: 0 0 0 5px rgba(22,116,80,.14) !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step a, html body.ps-rd.ordering-process main#content ol.cart-header > li.step strong { color: var(--mut) !important; font-weight: 600 !important; text-decoration: none !important; background: none !important; padding: 0 !important; display: block !important; font-size: 14px !important; line-height: 1.2 !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.active strong { color: var(--ink) !important; font-weight: 700 !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step span { background: none !important; padding: 0 !important; font-size: inherit !important; }
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step span::before, html body.ps-rd.ordering-process main#content ol.cart-header > li.step span::after,
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step a::before, html body.ps-rd.ordering-process main#content ol.cart-header > li.step a::after,
+html body.ps-rd.ordering-process main#content ol.cart-header > li.step strong::before, html body.ps-rd.ordering-process main#content ol.cart-header > li.step strong::after { display: none !important; content: none !important; }
 
 /* ---------- Karty ---------- */
 body.ps-rd.ordering-process .co-box, body.ps-rd.ordering-process #order-form .box-bg-default.co-box {
@@ -255,9 +255,9 @@ body.ps-rd.in-krok-2 .ps-change { margin-left: auto; color: var(--g); font-weigh
   body.ps-rd.ordering-process #checkoutContent, body.ps-rd.ordering-process #checkoutSidebar { width: auto !important; padding: 0 !important; float: none !important; }
   body.ps-rd.ordering-process .co-box { padding: 18px 16px !important; border-radius: 16px !important; }
   html body.ps-rd.ordering-process .co-box > h2 { font-size: 19px; }
-  html body.ps-rd.ordering-process ol.cart-header { margin: 4px auto 18px; }
-  html body.ps-rd.ordering-process ol.cart-header > li.step { font-size: 12px; }
-  html body.ps-rd.ordering-process ol.cart-header > li.step a, html body.ps-rd.ordering-process ol.cart-header > li.step strong { font-size: 12px; }
+  html body.ps-rd.ordering-process main#content ol.cart-header { margin: 4px auto 18px; }
+  html body.ps-rd.ordering-process main#content ol.cart-header > li.step { font-size: 12px; }
+  html body.ps-rd.ordering-process main#content ol.cart-header > li.step a, html body.ps-rd.ordering-process main#content ol.cart-header > li.step strong { font-size: 12px; }
   html body.ps-rd.ordering-process .shipping-billing-table .radio-wrapper > label { gap: 12px; padding: 12px 14px !important; min-height: 68px; }
   html body.ps-rd.ordering-process .shipping-billing-table .payment-logo, html body.ps-rd.ordering-process .shipping-billing-table .ps-ico { width: 54px; height: 40px; padding: 5px; }
   html body.ps-rd.ordering-process .shipping-billing-table .shipping-billing-name { font-size: 15.5px; }
