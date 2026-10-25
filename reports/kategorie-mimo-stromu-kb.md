@@ -1,5 +1,5 @@
 # Kategórie mimo stromu — kb
 
-Kontrola z 2026-10-25 08:49 UTC.
+Kontrola z 2026-10-25 13:17 UTC.
 
 Žiadne — všetky kategórie v tomto feede existujú v našom strome.
