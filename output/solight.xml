@@ -3061,7 +3061,10 @@ Balenie: sáčok</p>
   <MINIMAL_AMOUNT>10</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718022808</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[TV, audio, video a foto technika > AV káble]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>2769</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sáčok - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ssv5310e.jpg?v2</IMAGE>
@@ -5811,8 +5814,7 @@ LED pásik SMD3528 ponúka životnosť až 50 000 hodín a svetelný uhol 120°,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.25</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>11.00</PRICE_VAT>
+<PRICE_VAT>11.50</PRICE_VAT>
 <PURCHASE_PRICE>6.25</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -7884,10 +7886,10 @@ Panel ponúka svetelný tok 450 lm pri spotrebe len 6 W, čo zaisťuje efektívn
 <HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_4.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_5.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_a.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_1.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_2.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED mini panel CCT, podhľadový, 6W, 450lm, 3000K, 4000K, 6000K, okrúhly - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wd146_4.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -9879,10 +9881,10 @@ Osvetlenie Star ponúka nielen moderné funkcie, ale aj vysokú účinnosť a dl
 <HEUREKA_CATEGORY_ID>1663</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_1.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_2.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_3.jpg?v2</IMAGE>
-  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_2.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 3">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_3.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 4">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_4.jpg?v2</IMAGE>
+  <IMAGE description="Solight LED stropné svetlo Star, okrúhle, 24W, 2400lm, diaľkové ovládanie, 37cm - obrázok 5">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wo763_5.jpg?v2</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -9997,8 +9999,7 @@ Svietidlo disponuje siedmimi režimami svietenia: 100 %, 75 %, 25 %, blikanie, �
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>5.60</PRICE_VAT>
+<PRICE_VAT>6.30</PRICE_VAT>
 <PURCHASE_PRICE>3.30</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -10336,8 +10337,7 @@ Táto LED žiarovka sa pýši dlhou životnosťou až 35 000 hodín a zvládne a
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>2.20</PRICE_VAT>
+<PRICE_VAT>2.30</PRICE_VAT>
 <PURCHASE_PRICE>1.24</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -10740,7 +10740,10 @@ Univerzálna nabíjačka pre Li-Ion, LiFePO4 a Ni-MH/CD batérie rôznych veľko
 <UNIT>ks</UNIT>
 <CODE>DN27</CODE>
 <EAN>8592718026424</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka batérií Li-Ion, LiFePO4, Ni-MH/CD, AA, AAA, 18650, 2000mA, 2 kanály, LCD displej - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn27.jpg?v2</IMAGE>
@@ -17004,7 +17007,10 @@ Táto mikroprocesorom riadená nabíjačka ponúka 4 samostatné nabíjacie kan�
 <UNIT>ks</UNIT>
 <CODE>DN25</CODE>
 <EAN>8592718015886</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></CATEGORY><CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Energia a napájanie]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Energia a napájanie > Nabíjačky batérií a akumulátorov]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>4206</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight nabíjačka s LCD displejom, AC 230V, 450mA, 4 kanály, AA/AAA, riadená mikroprocesorom - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dn25.jpg?v2</IMAGE>
@@ -17532,8 +17538,7 @@ Táto praktická rozbočka so štyrmi zásuvkami pripojí bežné neuzemnené sp
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.09</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>5.10</PRICE_VAT>
+<PRICE_VAT>5.50</PRICE_VAT>
 <PURCHASE_PRICE>3.05</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -24320,7 +24325,11 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálnym 
 <UNIT>ks</UNIT>
 <CODE>CA01B</CODE>
 <EAN>8592718023690</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Hodiny a budíky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b.jpg?v2</IMAGE>
   <IMAGE description="Solight hodiny s budíkom, biele LED podsvietenie, tri budíky, nastaviteľná intenzita podsvietenia, teplomer, dekor: čierne drevo - obrázok 2">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/ca01b_1.jpg?v2</IMAGE>
@@ -31751,8 +31760,7 @@ Táto LED žiarovka sa pýši životnosťou až 35 000 hodín a zvládne až 30 
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>3.60</PRICE_VAT>
+<PRICE_VAT>3.70</PRICE_VAT>
 <PURCHASE_PRICE>2.05</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -36169,7 +36177,12 @@ LED žiarovka GX53 je ideálnou voľbou pre moderné domácnosti aj komerčné p
 <UNIT>ks</UNIT>
 <CODE>V50</CODE>
 <EAN>8592718027186</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, max. AC 600V/600A, max. DC 600V, test diódy, bzučiak, odpor, teplota - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v50.jpg?v2</IMAGE>
@@ -36221,7 +36234,6 @@ LED žiarovka GX53 je ideálnou voľbou pre moderné domácnosti aj komerčné p
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>12.50</PRICE_VAT>
 <PURCHASE_PRICE>7.46</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -38991,8 +39003,7 @@ Táto LED žiarovka je vyrobená z kombinácie hliníka a PC, čo zaručuje vyso
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>1.00</PRICE_VAT>
+<PRICE_VAT>1.10</PRICE_VAT>
 <PURCHASE_PRICE>0.57</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -52251,7 +52262,11 @@ Tradičné biele prevedenie s klasickým vzhľadom sa hodí do každej domácnos
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718033101</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>5879</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight WIFI zásuvka s meraním spotreby - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/dty01wifi.jpg?v2</IMAGE>
@@ -52910,65 +52925,6 @@ Reflektor je vybavený pohybovým senzorom s detekčným uhlom 120° a dosahom a
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Solight elektrický sušiak uterákov 130W | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Solight elektrický sušiak uterákov 130W – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Konektor pre COB LED pásy 8 mm – jednoduché prepojenie s napájaním Tento konektor je určený na rýchle a bezpečné pripojenie COB LED pásov so šírkou 8 mm. Na jednej strane je vybavený konektorom,…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<p><b>Konektor pre COB LED pásy 8 mm – jednoduché prepojenie s napájaním</b><br>
-Tento konektor je určený na rýchle a bezpečné pripojenie COB LED pásov so šírkou 8 mm. Na jednej strane je vybavený konektorom, ktorý umožňuje jednoduché a pevné spojenie s LED pásom bez nutnosti spájkovania. Druhá strana je opatrená vodičmi, ktoré slúžia na pripojenie k napájaciemu zdroju, čo zabezpečuje spoľahlivý prenos energie a stabilnú prevádzku osvetlenia. Vďaka tomuto riešeniu je inštalácia LED pásikov výrazne jednoduchšia a zvládne ju aj menej skúsený používateľ.</p>
-<p><b>Praktické balenie a univerzálne využitie</b><br>
-Konektor je dodávaný v praktickom balení po 1 kuse v sáčku, čo umožňuje jednoduché skladovanie aj manipuláciu pri montáži. Je ideálnou voľbou pre domáce aj profesionálne inštalácie, kde je potrebné rýchlo a efektívne prepojiť COB LED pásy s napájacím zdrojom. Tento konektor šetrí čas, zvyšuje bezpečnosť a prispieva k dlhej životnosti celého LED systému.</p>
-<UL>
-<LI>prepojovací konektor pre COB LED pásy 8mm</LI>
-<LI>na jednej strane konektor, na druhej strane vodiče pre pripojenie na napájací zdroj</LI>
-<LI>balenie: sáčok 1ks</LI>
-</UL><p><a href="https://www.solight.sk/documents/wm91_produktov%C3%BD%20list.pdf" target="_blank" rel="noopener">Stiahnuť: Produktový list</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/led-pasiky/">LED pásiky a príslušenstvo</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Solight]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>WM91</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>9</MINIMAL_AMOUNT>
-</STOCK>
-<EAN>8592718031329</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie]]></CATEGORY>
-  <DEFAULT_CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED pásiky a príslušenstvo]]></DEFAULT_CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/wm91.jpg?v2</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Solight]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Balenie]]></NAME>
-    <VALUE><![CDATA[sáčok 1ks]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>1.30</PRICE_VAT>
-<PURCHASE_PRICE>0.78</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Solight napájací konektor pre COB LED pásy,… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Solight napájací konektor pre COB LED pásy, opasok-napájacie vodiče, balenie 1ks, sáčok – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Solight predlžovací prívod - na bubne, 4 zásuvky, 25m kábel guma-neoprén, 3x 2,5mm2, IP44]]></NAME>
@@ -60338,8 +60294,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, tzn. prúdové zaťaže
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.35</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>10.00</PRICE_VAT>
+<PRICE_VAT>11.90</PRICE_VAT>
 <PURCHASE_PRICE>6.45</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -79682,7 +79637,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <UNIT>ks</UNIT>
 <CODE>V52</CODE>
 <EAN>8592718041564</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
@@ -79748,7 +79708,6 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>8.50</PRICE_VAT>
 <PURCHASE_PRICE>6.04</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -81429,7 +81388,12 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
   <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>8592718041557</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY>
+  <DEFAULT_CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></DEFAULT_CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Solight kliešťový multimeter, 20 - 200A - obrázok 1">https://solight-image-proxy.dt7vy7byn2.workers.dev/userdata/cache/images/storecards/550/v51.jpg?v2</IMAGE>
@@ -81493,7 +81457,6 @@ Tento ventilátor s guľôčkovými kovovými ložiskami je ideálny pre sprchy,
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>6.50</PRICE_VAT>
 <PURCHASE_PRICE>3.89</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -83116,8 +83079,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 3680 W, t.j. prúdové zaťaže
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.31</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>5.20</PRICE_VAT>
+<PRICE_VAT>5.70</PRICE_VAT>
 <PURCHASE_PRICE>3.13</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -84920,8 +84882,7 @@ Prívod je navrhnutý pre maximálne zaťaženie 2300 W, t.j. prúdové zaťaže
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.50</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>8.50</PRICE_VAT>
+<PRICE_VAT>9.30</PRICE_VAT>
 <PURCHASE_PRICE>5.09</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -89072,8 +89033,7 @@ Tento moderný budík kombinuje projekciu času a teploty, FM rádio (87,5–108
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>3.90</PRICE_VAT>
+<PRICE_VAT>4.10</PRICE_VAT>
 <PURCHASE_PRICE>2.28</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -102649,8 +102609,7 @@ Je ideálny na cestovanie – jeho kompaktné skladovanie šetrí miesto a jeho 
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<PRICE_VAT>4.20</PRICE_VAT>
+<PRICE_VAT>4.70</PRICE_VAT>
 <PURCHASE_PRICE>2.46</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
@@ -104101,6 +104060,13 @@ Vďaka nízkej hmotnosti nezaberie v batožine takmer žiadne miesto. Ideálny s
   <SHOPITEM>
     <CODE>WM-50W-L</CODE>
     <EAN>8592718024239</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>WM91</CODE>
+    <EAN>8592718031329</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
