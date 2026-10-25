@@ -106661,6 +106661,7 @@ Hmotnosť
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -142452,6 +142453,7 @@ Dancing Circle
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.10</PRICE_VAT>
 <PURCHASE_PRICE>2.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -180732,14 +180734,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -203806,14 +203808,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -223354,94 +223356,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Laserový gravírovací stroj 2 v 1 xTool M1 10W + pohlcovač dymu xTool SafetyPro™ AP2 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[3D tlačiareň Anycubic Kobra 3 Max]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[3D tlačiareň Anycubic Kobra 3 Max Anycubic Kobra 3 Max je najmodernejšia 3D tlačiareň určená pre kreatívcov, ktorí potrebujú veľký pracovný priestor, presnosť a rýchlosť. Vďaka inovatívnym…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>3D tlačiareň Anycubic Kobra 3 Max</h3>
-<p>Anycubic Kobra 3 Max je najmodernejšia 3D tlačiareň určená pre kreatívcov, ktorí potrebujú veľký pracovný priestor, presnosť a rýchlosť. Vďaka inovatívnym technológiám a inteligentným funkciám zariadenie umožňuje realizovať aj tie najnáročnejšie projekty bez ohľadu na ich veľkosť. Je ideálnym riešením pre profesionálov aj nadšencov 3D tlače.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/13247/16263/1.jpg"/>
-</p><h3>Priestranný pracovný priestor</h3>
-<p>Jednou z kľúčových výhod zariadenia Anycubic Kobra 3 Max je jeho obrovský tlačový priestor s rozmermi 420 x 420 x 500 mm. Umožňuje vytvárať veľké modely v jednej sérii, čím sa eliminuje potreba kombinovať menšie diely. To je ideálne pre tých, ktorí robia architektonické projekty, priemyselné prototypy alebo dekoratívne prvky.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/13247/16263/3.jpg"/>
-</p><h3>Bezkonkurenčná rýchlosť a výkon</h3>
-<p>Tlačiareň dosahuje maximálnu rýchlosť tlače 600 mm/s, čo v kombinácii so zrýchlením až 10 000 mm/s² výrazne skracuje čas realizácie projektu. Pokročilý systém LeviQ 3.0 umožňuje automatické vyrovnanie pracovného stola a funkcia Anti-Step Lost zabraňuje preskakovaniu vrstiev, čo vedie k mimoriadne presným a stabilným výtlačkom.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/13247/16263/7.jpg"/>
-</p><h3>Presnosť v každej fáze</h3>
-<p>Tlačiareň Cobra 3 Max je vybavená rýchlospojkou Hotend, ktorá umožňuje tlač pri teplotách až do 300 °C. Horúca doska sa zahreje na 90 °C len za 125 sekúnd, čo urýchľuje začiatok práce. Vďaka vylepšenému umiestneniu rezačky filamentu a systému proti zamotaniu sa môžu používatelia sústrediť výlučne na dokončenie svojich projektov.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/13247/16263/8.jpg"/>
-</p><h3>Priestranná stránka</h3>
-<p>Tlačiareň využíva pokročilé systémy, ako je kompenzácia rezonancie a dynamický tok, ktoré eliminujú vibrácie a zabezpečujú ešte väčšiu presnosť tlače. Dva motory osi Y s dvojitými jadrovými hriadeľmi a ložiskami SG15 eliminujú nesúosovosť vrstiev a motor osi Z s dvojitou skrutkou zvyšuje stabilitu konštrukcie.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/13247/16263/9.jpg"/>
-</p><h3>Automatizácia a bezpečnosť</h3>
-<p>Vďaka detekcii zamotania pomocou umelej inteligencie Kobra 3 Max okamžite zastaví tlač, ak sa vyskytne problém s vláknom.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/13247/16263/12.jpg"/>
-</p><h3>Jednoduchá obsluha a softvérová podpora</h3>
-<p>Anycubic Kobra 3 Max pracuje s intuitívnym softvérom Anycubic Slicer Next, ktorý je založený na platforme Orca. Aplikácia Anycubic APP umožňuje diaľkové ovládanie, monitorovanie priebehu v reálnom čase a časozberné fotografovanie. Režim LAN a podpora Wi-Fi navyše uľahčujú integráciu do domácej alebo podnikovej siete.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/13247/16263/4.jpg"/>
-</p>
-<h3>Súčasťou balenia je</h3>
-<ul class="list-disc pl-5"><li>Rám žeriavu</li><li>Spodná tlačiareň</li><li>Tlačová hlava</li><li>Dotykový displej</li><li>Držiak cievky</li><li>Držiak kábla</li><li>Súprava 1 - Pre montáž na žeriav</li><li>Sada 2 - Na montáž nosnej tyče</li><li>Súprava 3 - Pre kábel tlačovej hlavy</li><li>Súprava 4 - Na inštaláciu tlačovej hlavy</li><li>Súprava 5 - Na inštaláciu obrazovky</li><li>Súprava 6 - Na inštaláciu držiaka cievky</li><li>Napájací kábel (2 ks)</li><li>Organizátor káblov (6 ks)</li><li>U disk (1 ks)</li><li>Rúrka na vlákna (5 ks)</li><li>4.0/3.0/2.5/2.0/1.5</li><li>Testovacie vlákno</li><li>Čistič trysiek</li><li>Mazivo</li><li>Sada kľúčov</li><li>Podporná tyč</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Anycubic</td></tr><tr><th>Model</th><td>KB3M-IP-O</td></tr><tr><th>Objem tlače</th><td>420*420*500 mm</td></tr><tr><th>Dotyková obrazovka</th><td>4,3-palcový</td></tr><tr><th>Maximálna rýchlosť tlače</th><td>600 mm/sekundu</td></tr><tr><th>Maximálne zrýchlenie</th><td>10000 mm/s²</td></tr><tr><th>Priemer trysky</th><td>0,4 mm (k dispozícii 0,2/0,6/0,8 mm)</td></tr><tr><th>Automatické vyrovnávanie</th><td>LeviQ3.0 Automatické vyrovnávanie</td></tr><tr><th>Tlač na lavici</th><td>17 min 18 min</td></tr><tr><th>Šum</th><td>60 dB (štandardný režim)</td></tr><tr><th>Motory osi X</th><td>Dvojjadrový hriadeľ + ložisko SG15</td></tr><tr><th>Motory osi Y</th><td>Dvojitý jadrový hriadeľ + ložisko SG15 + dvojitý motor</td></tr><tr><th>Motory osi Z</th><td>Dvojitý motor s dvojitou skrutkou</td></tr><tr><th>Maximálna teplota dýzy</th><td>300°C</td></tr><tr><th>Maximálna teplota horúcej dosky</th><td>90°C</td></tr><tr><th>Napnutie remeňa</th><td>Automatické</td></tr><tr><th>Rýchloupínacie ohrievacie zariadenie</th><td>Áno</td></tr><tr><th>Režim LAN</th><td>Podpora</td></tr><tr><th>WiFi</th><td>Podpora</td></tr><tr><th>Ovládanie aplikácií</th><td>Podpora</td></tr><tr><th>Rezací softvér</th><td>Anycubic Slicer Next, externý</td></tr><tr><th>Automatické pokračovanie</th><td>Podpora</td></tr><tr><th>Detekcia umelej inteligencie</th><td>Detekcia rezancov AI, detekcia vynechaných objektov</td></tr><tr><th>Kompenzácia rezonancie</th><td>Podpora</td></tr><tr><th>Dynamická kompenzácia toku</th><td>Podpora</td></tr><tr><th>Hmotnosť zariadenia</th><td>19g</td></tr><tr><th>Rozmery zariadenia</th><td>706 x 640 x 753 mm</td></tr><tr><th>Rýchlosť tlače</th><td>Odporúčaná rýchlosť 300 mm/s; maximálna rýchlosť 600 mm/s</td></tr><tr><th>Konštrukčná platforma</th><td>Pružinová oceľ PEI</td></tr><tr><th>Materiál</th><td>Kobra 3 Max podporuje PLA, PETG, ABS a TPU</td></tr><tr><th>Napájanie</th><td>300W</td></tr><tr><th>Spôsob pripojenia</th><td>Wi-Fi, AC Cloud, miestna sieť</td></tr><tr><th>Otáčanie chladiaceho ventilátora</th><td>7000 OTÁČOK ZA MINÚTU.</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/3d-tlaciarne/">3D tlačiarne</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[ANYCUBIC]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>075446</CODE>
-<EAN>6974662351067</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > 3D tlačiarne]]></CATEGORY>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="3D tlačiareň Anycubic Kobra 3 Max - obrázok 1">https://b2b.innpro.sk/hpeciai/2b88a2862d9c48d3b79c83cfa990d48a/50887_1.webp</IMAGE>
-  <IMAGE description="3D tlačiareň Anycubic Kobra 3 Max - obrázok 2">https://b2b.innpro.sk/hpeciai/bcd3dbeabb53896f68fd125bdb14324f/50887_2.webp</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rýchlosť tlače (mm/h)]]></NAME>
-    <VALUE><![CDATA[600]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Podporované filamenty]]></NAME>
-    <VALUE><![CDATA[PLA]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ tlačiarne]]></NAME>
-    <VALUE><![CDATA[FDM]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>22.11</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>428.00</PRICE_VAT>
-<PURCHASE_PRICE>302.75</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[3D tlačiareň Anycubic Kobra 3 Max | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[3D tlačiareň Anycubic Kobra 3 Max – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Sušič vlasov Gosund SuperWind HD21 (ružový)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Sušič vlasov Gosund SuperWind HD21 (ružový) Zoznámte sa s fénom na vlasy Gosund SuperWind HD21 - ľahkým, štýlovým a účinným. Rýchlo suší a zároveň upravuje vlasy pre ich zdravý vzhľad, hladkosť a…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Sušič vlasov Gosund SuperWind HD21 (ružový)</h3>
@@ -224806,14 +224720,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -294911,6 +294828,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.70</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -320638,6 +320556,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -454053,7 +453972,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -460196,14 +460118,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -513351,6 +513277,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -525157,6 +525084,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>18.03</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -527108,6 +527036,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>29.00</PRICE_VAT>
 <PURCHASE_PRICE>20.56</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -528790,14 +528719,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -586544,13 +586476,16 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87897_64814_pol_24ad3eefdfd9e4458b86ab5cd5d1eacd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/detektory/">Detektory a lokátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093318</CODE>
 <EAN>0786156007598</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 1">https://b2b.innpro.sk/hpeciai/f177506e358e8ba9d52ced99d614d344/64814_1_1.webp</IMAGE>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 2">https://b2b.innpro.sk/hpeciai/ad6c696968907fc4cc7a65260ff6287f/64814_2_1.webp</IMAGE>
@@ -594767,158 +594702,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Inteligentný vypínač SONOFF BASIC-ZB1GSP ZigBee | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Inteligentný vypínač SONOFF BASIC-ZB1GSP ZigBee – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Senzor teploty a vlhkosti SONOFF AirGuard SNZB-02M Zlepšite podmienky vo svojom prostredí pomocou inteligentného senzora SONOFF AirGuard SNZB-02M, ktorý monitoruje teplotu, vlhkosť a tlak vzduchu.…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Senzor teploty a vlhkosti SONOFF AirGuard SNZB-02M</h3>
-<p>Zlepšite podmienky vo svojom prostredí pomocou inteligentného senzora SONOFF AirGuard SNZB-02M, ktorý monitoruje teplotu, vlhkosť a tlak vzduchu. Zariadenie ponúka meranie 5 v 1, vrátane výpočtov rosného bodu a VPD, čím poskytuje podrobné informácie o aktuálnom vnútornom klíme. Komunikácia Zigbee 3.0 vám umožňuje integrovať senzor do vášho systému inteligentnej domácnosti a vytvárať automatizované scenáre, ktoré reagujú na zmeny podmienok prostredia.</p>
-<p>
-<img alt="Kruhový senzor Sonoff s oranžovým akcentom a symbolom teplomera na sivom pozadí." border="0" src="https://assets.innpro.pl/24615/32355/8-aebdfb56-705a-420f-956f-8eb52ff07159.jpg"/>
-</p>
-<h3>Komplexné monitorovanie podmienok prostredia</h3>
-<p>SONOFF AirGuard SNZB-02M vám umožňuje monitorovať kľúčové parametre prostredia v reálnom čase. Senzor meria teplotu, vlhkosť a atmosférický tlak a navyše vypočítava hodnoty rosného bodu a VPD, čím poskytuje ucelenejší obraz o podmienkach vo vnútorných priestoroch. Monitorovanie atmosférického tlaku vám tiež umožňuje sledovať zmeny, ktoré môžu naznačovať zmeny poveternostných podmienok.</p>
-<p>
-<img alt="Biely senzor teploty a vlhkosti Sonoff videný z prednej strany na svetlom pozadí." border="0" src="https://assets.innpro.pl/24615/32355/2-3ab20fe3-49eb-45fa-b2f7-282f4dd0b049.jpg"/>
-</p>
-<h3>Presné merania a rýchle upozornenia</h3>
-<p>Vysoká presnosť merania vám umožňuje zaznamenať aj nepatrné zmeny v prostredí. Senzor meria teplotu s presnosťou ±0,2 °C, vlhkosť s presnosťou ±2 % RH a tlak s presnosťou ±0,1 hPa. Používatelia si môžu nastaviť preferované rozsahy teploty, vlhkosti a tlaku a v aplikácii dostávať okamžité upozornenia pri prekročení týchto limitov, čo im umožňuje rýchlo reagovať na meniace sa podmienky.</p>
-<p>
-<img alt="Kompaktný, kruhový senzor Sonoff s otvormi, videný z uhla." border="0" src="https://assets.innpro.pl/24615/32355/3-70d1f38f-cea9-4195-bbc8-d0dfa89b03a7.jpg"/>
-</p>
-<h3>Inteligentná automatizácia cez Zigbee</h3>
-<p>Podpora štandardu Zigbee 3.0 umožňuje senzoru pripojiť sa k iným zariadeniam inteligentnej domácnosti prostredníctvom rozbočovača Zigbee. Na základe aktuálnych nameraných hodnôt môžete vytvárať automatizované scenáre, ako je zapnutie ventilátora, zvlhčovača, klimatizácie alebo otvárača okien pri zistení špecifických podmienok. Toto riešenie vám umožňuje automaticky prispôsobiť prostredie vašim aktuálnym potrebám.</p>
-<p>
-<img alt="Senzor Sonoff namontovaný na stene v svetlej, modernej obývačke." border="0" src="https://assets.innpro.pl/24615/32355/9-b5f2f88b-4fc1-4076-9023-008552fa021f.jpg"/>
-</p>
-<h3>Stabilná komunikácia a dlhá výdrž batérie</h3>
-<p>Bezdrôtová komunikácia Zigbee 3.0 zaisťuje stabilnú prevádzku s kompatibilnými zariadeniami a umožňuje flexibilné umiestnenie senzora na akékoľvek požadované miesto. Napájaný jednou batériou typu CR2477 poskytuje prevádzku po dobu viac ako 2 rokov, takže zariadenie nevyžaduje častú výmenu batérie. Absencia káblov umožňuje inštaláciu na rôznych miestach, napríklad na policiach, v rohoch, v blízkosti okien alebo na stropoch.</p>
-<p>
-<img alt="Senzor Sonoff zobrazený vedľa oranžovej krabice." border="0" src="https://assets.innpro.pl/24615/32355/6-5d13f7b0-f556-46a0-a7b0-5d7ad3c4dbf3.jpg"/>
-</p>
-<h3>Široké spektrum využitia v rôznych miestnostiach</h3>
-<p>SONOFF AirGuard SNZB-02M je ideálny pre akékoľvek prostredie, kde je dôležité monitorovanie podmienok vnútorného prostredia. Môže sa používať v obývacej izbe, detskej izbe, kúpeľni alebo v skleníku, kde pomáha udržiavať primeranú teplotu a vlhkosť. Vďaka svojim automatizačným funkciám môže tiež podporovať riadenie zariadení zodpovedných za vetranie, kúrenie alebo reguláciu vlhkosti.</p>
-<p>
-<img alt="Kruhový senzor Sonoff s QR kódom umiestnený na svetlomodrom povrchu." border="0" src="https://assets.innpro.pl/24615/32355/7-d3121b7e-c6cd-42a1-b30f-8a8bb532eccf.jpg"/>
-</p>
-<h3>Kompaktný dizajn a jednoduchá inštalácia</h3>
-<p>Malé puzdro s rozmermi 45 × 45 × 17,6 mm umožňuje umiestniť senzor na mnohých miestach bez toho, aby zaberal veľa priestoru. Zariadenie váži 27,3 g vrátane batérie a je vyrobené z PC plastu. Súčasťou sady je montážne príslušenstvo, ako napríklad kovová montážna doska, obojstranná lepiaca páska 3M a montážny skrutka, vďaka čomu si môžete spôsob inštalácie prispôsobiť zvolenému miestu.</p>
-<p>
-<img alt="Zadná strana puzdra senzora Sonoff s technickými špecifikáciami a označeniami." border="0" src="https://assets.innpro.pl/24615/32355/5-68808f58-d6bf-4af6-bf37-2f8ea1f8d5fc.jpg"/>
-</p>
-<h3>Obsah balenia</h3>
-<ul class="list-disc pl-5">
-<li>Senzor teploty a vlhkosti SONOFF</li>
-<li>Batéria CR2477</li>
-<li>Kovová montážna doska</li>
-<li>Obojstranná lepiaca páska 3M</li>
-<li>Upevňovací skrutka</li>
-<li>Kľúč</li>
-<li>Návod na použitie</li>
-</ul>
-<div class="table-wrapper">
-<p> </p>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>SONOFF</td></tr>
-<tr><th>Séria produktov</th><td>Séria AirGuard</td></tr>
-<tr><th>Model</th><td>SNZB-02M</td></tr>
-<tr><th>Bezdrôtová konektivita</th><td>Zigbee 3.0 IEEE 802.15.4</td></tr>
-<tr><th>Potrebné príslušenstvo</th><td>Zigbee hub</td></tr>
-<tr><th>Batéria</th><td>CR2477</td></tr>
-<tr><th>Napájacie napätie</th><td>3,0 V ⎓</td></tr>
-<tr><th>Čistá hmotnosť</th><td>27,3 g (s batériou)</td></tr>
-<tr><th>Materiál puzdra</th><td>PC</td></tr>
-<tr><th>Farba</th><td>Biela</td></tr>
-<tr><th>Rozmery</th><td>45 × 45 × 17,6 mm</td></tr>
-<tr><th>Presnosť merania teploty</th><td>±0,2 °C</td></tr>
-<tr><th>Presnosť merania vlhkosti</th><td>±2 % RH</td></tr>
-<tr><th>Presnosť merania tlaku</th><td>±0,1 hPa</td></tr>
-<tr><th>Rozsah prevádzkového tlaku</th><td>700–1100 hPa</td></tr>
-<tr><th>Prevádzková teplota</th><td>-20 °C až 60 °C</td></tr>
-<tr><th>Prevádzková vlhkosť</th><td>5–95 % RH, bez kondenzácie</td></tr>
-<tr><th>Prevádzkové prostredie</th><td>Vnútorné priestory</td></tr>
-<tr><th>Certifikáty</th><td>CE / FCC / RoHS</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87747_65056_pol_b6ea861f8e7043f878935b79f01370aa" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/senzory-teploty-a-vlhkosti/">Senzory teploty a vlhkosti</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Sonoff]]></MANUFACTURER>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>094215</CODE>
-<EAN>6979033600706</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory teploty a vlhkosti]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M - obrázok 1">https://b2b.innpro.sk/hpeciai/b01c28d00f453b4cfdc2db18f0442e84/65056_1_1.webp</IMAGE>
-  <IMAGE description="Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M - obrázok 2">https://b2b.innpro.sk/hpeciai/4f045c0eae23385ca0895b8168b03e32/65056_2_1.webp</IMAGE>
-  <IMAGE description="Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M - obrázok 3">https://b2b.innpro.sk/hpeciai/040e11d85622b807f59f01f0ac743c6d/65056_3_1.webp</IMAGE>
-  <IMAGE description="Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M - obrázok 4">https://b2b.innpro.sk/hpeciai/f18a746a218a830df91bcf84c24d9f55/65056_4_1.webp</IMAGE>
-  <IMAGE description="Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M - obrázok 5">https://b2b.innpro.sk/hpeciai/1c1e99a130402d6de35c1dea321ab519/65056_5_1.webp</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Sonoff]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Séria produktov]]></NAME>
-    <VALUE><![CDATA[Séria AirGuard]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Bezdrôtová konektivita]]></NAME>
-    <VALUE><![CDATA[Zigbee 3.0 IEEE 802.15.4]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Potrebné príslušenstvo]]></NAME>
-    <VALUE><![CDATA[Zigbee hub]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Batéria]]></NAME>
-    <VALUE><![CDATA[CR2477]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Napájacie napätie]]></NAME>
-    <VALUE><![CDATA[3,0 V ⎓]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Čistá hmotnosť]]></NAME>
-    <VALUE><![CDATA[27,3 g (s batériou)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Materiál puzdra]]></NAME>
-    <VALUE><![CDATA[PC]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[biela]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozmery]]></NAME>
-    <VALUE><![CDATA[45 × 45 × 17,6 mm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Presnosť merania teploty]]></NAME>
-    <VALUE><![CDATA[±0,2 °C]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.05</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>19.50</PRICE_VAT>
-<PURCHASE_PRICE>13.67</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Termostatický radiátorový ventil SONOFF TRV Gen2 ZigBee]]></NAME>
@@ -608824,6 +608607,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -610377,6 +610161,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>075428</CODE>
     <EAN>6972237682653</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>075446</CODE>
+    <EAN>6974662351067</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -612305,7 +612096,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088508</CODE>
     <EAN>6975577881977</EAN>
@@ -612410,7 +612201,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
@@ -612802,7 +612593,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>VITURE Pro 2 XR – okuliare | PremiumStore.sk</SEO_TITLE><META_DESCRIPTION>Okuliare VITURE Pro 2 XR. Pozrite si parametre obrazu, možnosti pripojenia a kompatibilitu so zariadeniami pred výberom.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>091762</CODE>
     <EAN>6973137271619</EAN>
@@ -613093,6 +612884,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>094061</CODE>
     <EAN>5905156112230</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>094215</CODE>
+    <EAN>6979033600706</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
