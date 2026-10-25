@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-24 21:02 UTC.
+Kontrola z 2026-10-25 08:48 UTC.
 
-InnPro pri **405** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **408** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -121,6 +121,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 4 |
 | `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
+| `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058014` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `060078` | Ochranná taška / puzdro Telesin pre GoPro Hero 9 / Hero 10 / | — | 5 |
@@ -266,6 +267,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `081548` | Silikónový opasok Sunnylife pre zariadenie Osmo Nano (čierny | — | 5 |
 | `081527` | Etui na batérii Sunnylife Mini 5 Pro (na 2 batérie) | — | 5 |
 | `081528` | Etui na batérii Sunnylife Mini 5 Pro (na 3 batérie) | — | 5 |
+| `081549` | Sunnylife G031 plastový kryt objektívu pre OSMO 360 | — | 5 |
 | `081550` | Silikónový kryt šošoviek Sunnylife SG034 pre OSMO 360 | — | 5 |
 | `081553` | Sunnylife SN027 polootvorené plastové ochranné puzdro (čiern | — | 5 |
 | `081555` | Silikónový ochranný kryt kompatibilný so Sunnylife SG034 | — | 5 |
@@ -372,6 +374,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
 | `087023` | Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 | — | 5 |
 | `087027` | Filter MOVA pre stanicu G70 | — | 5 |
+| `087997` | Hlavná kefa pre modely MOVA P10 Ultra/E30 Ultra/S10/S10 Plus | — | 5 |
 | `089577` | Filter MOVA pre S2 Detect | — | 5 |
 | `089623` | Ochranná fólia z tvrdeného skla Puluz 9H pre GoPro HERO 12/1 | — | 5 |
 | `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 5 |

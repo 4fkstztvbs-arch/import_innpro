@@ -106662,6 +106662,7 @@ Hmotnosť
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -120347,6 +120348,9 @@ Modrá
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>058012</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6956116788919</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Puzdrá na mobilné telefóny]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
@@ -142450,6 +142454,7 @@ Dancing Circle
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.10</PRICE_VAT>
 <PURCHASE_PRICE>2.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -203805,14 +203810,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -224805,14 +224810,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -295009,6 +295017,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.70</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -307132,6 +307141,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>081549</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>5905156100565</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY>
@@ -320734,6 +320746,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -413630,6 +413643,149 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Štartér LOKITHOR J701HD, 207,2Wh, 4 000 A – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Projektor Magcubic HY350MAX]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Projektor Magcubic HY350MAX Magcubic HY350MAX je univerzálny projektor, ktorý spája natívne rozlíšenie 1080p, jas až 600 ANSI lúmenov a podporu 8K signálov, čím poskytuje ostrý a detailný obraz. Beží…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Projektor Magcubic HY350MAX</h3>
+<p>Magcubic HY350MAX je univerzálny projektor, ktorý spája natívne rozlíšenie 1080p, jas až 600 ANSI lúmenov a podporu 8K signálov, čím poskytuje ostrý a detailný obraz. Beží na systéme Android 14 a využíva výkonný procesor Allwinner H726, ktorý zaručuje plynulý chod aplikácií a multimédií. Okrem toho automatické zaostrovanie a korekcia lichobežníka, Wi-Fi 6, Bluetooth 5.4 a vstavaný 15 W reproduktor robia z tohto zariadenia komplexné riešenie pre domáce zábavu.</p>
+<p>
+<img alt="Záber zblízka na prednú časť bieleho projektora s objektívom a ventilačnými otvormi na svetlom pozadí" border="0" src="https://assets.innpro.pl/20320/27053/9.jpg"/>
+</p><h3>Obraz v rozlíšení Full HD s podporou 8K – detaily, ktoré robia rozdiel</h3>
+<p>Projektor zobrazuje obraz v natívnom rozlíšení 1080p, čím zabezpečuje dobrú ostrosť a jasnosť detailov pri sledovaní filmov, televíznych programov alebo športových prenosov. Zároveň podpora 8K signálu umožňuje používať moderné video zdroje bez straty kvality a obnovovacia frekvencia 60 Hz zaručuje výnimočnú plynulosť – aj počas dynamických scén. Vďaka jasu 600 ANSI lúmenov a podpore HDR zostáva obraz jasne viditeľný a farby sú živé a sýte. Vďaka tomu je projektor ideálny na použitie ako večer, tak aj cez deň! K tomu pridajte vysoký kontrastný pomer 2000:1, až 1,07 miliardy farieb s 10-bitovou hĺbkou a presné reprodukovanie farieb. To všetko sa prejavuje vo fantastickej kvalite obrazu.</p>
+<p>
+<img alt="Projektor premietajúci farebný, detailný obraz hlavy leoparda v fantastickom štýle na veľkú stenu" border="0" src="https://assets.innpro.pl/20320/27053/8.jpg"/>
+</p><h3>Android 14 – prístup k tisícom aplikácií</h3>
+<p>HY350MAX beží na systéme Android 14, ktorý umožňuje plynulé a intuitívne využívanie inteligentných funkcií bez potreby pripájania ďalších zariadení. To vám poskytuje prístup k viac ako 6 000 aplikáciám a umožňuje sledovať obsah z populárnych streamovacích platforiem priamo z projektora. Rozhranie je prehľadné a ľahko použiteľné a presné ovládacie prvky vám umožňujú rýchlo sa pohybovať v ponukách a aplikáciách.</p>
+<p>
+<img alt="Biely projektor na stole premietajúci menu Netflixu na stenu a ruku držiacu diaľkové ovládanie" border="0" src="https://assets.innpro.pl/20320/27053/Magcubic-Projektor-HY350MAX-2.jpg"/>
+</p><h3>Výkonný procesor Allwinner H726</h3>
+<p>Projektor je vybavený procesorom Allwinner H726 so štvorjadrovou architektúrou ARM Cortex-A53 a grafickým čipom Mali-G31, čo zaisťuje plynulý výkon a efektívne spracovanie multimédií. V kombinácii s 2 GB RAM a 16 GB ROM vám to umožňuje pohodlne používať streamovacie aplikácie a ukladať dôležité dáta bez obáv z poklesu výkonu.</p>
+<p>
+<img alt="Porovnanie kvality obrazu z projektora, ukazujúce rozdiel medzi jasnými detailmi a viditeľnými pixelmi" border="0" src="https://assets.innpro.pl/20320/27053/7.jpg"/>
+</p><h3>Automatické nastavenie obrazu – rýchle a jednoduché nastavenie</h3>
+<p>Projektor je vybavený súborom funkcií, ktoré zjednodušujú jeho prevádzku. Automatické zaostrovanie zabezpečuje rýchle zaostrenie, zatiaľ čo automatická korekcia skreslenia zachováva správne proporcie obrazu aj v prípade, že zariadenie nie je umiestnené úplne rovno. Okrem toho vám možnosť nastavenia obrazu, vyhýbanie sa prekážkam a rozsah priblíženia 80–100 % umožňujú ľahko prispôsobiť veľkosť projekcie priestoru. Vďaka tomuto riešeniu trvá spustenie len chvíľu a nevyžaduje žiadne zložité ručné nastavenie.</p>
+<p>
+<img alt="Skupina ľudí na kempingu spievajúca karaoke pred obrazovkou premietanou bielym projektorom" border="0" src="https://assets.innpro.pl/20320/27053/Magcubic-Projektor-HY350MAX-4.jpg"/>
+</p><h3>Veľká obrazovka na malom priestore – projekčný pomer 1:1</h3>
+<p>Vďaka pomeru projekcie 1:1 vám model HY350MAX umožňuje dosiahnuť veľký obraz aj z krátkej vzdialenosti. Zo vzdialenosti približne 1,5 m môžete dosiahnuť veľkosť obrazovky približne 70 palcov a pri väčších vzdialenostiach až 140 palcov. To je obrovská výhoda v bytoch a menších miestnostiach, kde nie je možné umiestniť projektor ďaleko od steny.</p>
+<p>
+<img alt="Biely projektor na stole v konferenčnej miestnosti zobrazujúci mapu sveta a grafy počas obchodného stretnutia" border="0" src="https://assets.innpro.pl/20320/27053/10.jpg"/>
+</p><h3>Vstavaný 15 W reproduktor – skvelá kvalita zvuku</h3>
+<p>Projektor je vybavený 15 W reproduktorom, ktorý poskytuje čistý a dostatočne hlasný zvuk pre každodenné použitie. To vám umožňuje sledovať filmy alebo televízne programy bez nutnosti pripájania ďalšieho audio zariadenia. Ide o obzvlášť praktické riešenie, ak plánujete zariadenie používať na rôznych miestach – napríklad v obývačke a spálni.</p>
+<p>
+<img alt="Biely projektor zobrazujúci karaoke videoklip na stene s grafickou vizualizáciou šíriacich sa zvukových vĺn" border="0" src="https://assets.innpro.pl/20320/27053/11.jpg"/>
+</p><h3>Stabilné pripojenie – Wi-Fi 6, Bluetooth 5.4 a HDMI</h3>
+<p>Projektor podporuje moderné štandardy bezdrôtovej konektivity, ako sú Wi-Fi 6 (2,4 GHz + 5 GHz) a Bluetooth 5.4, čo zaisťuje rýchly a stabilný prenos dát. To vám umožňuje ľahko streamovať filmy, používať online aplikácie alebo prenášať obsah zo smartfónu. Bluetooth tiež umožňuje jednoduché pripojenie slúchadiel alebo externých reproduktorov, čím sa zlepšuje používateľský zážitok. Projektor navyše podporuje káblové pripojenie s nízkou latenciou cez HDMI.</p>
+<p>
+<img alt="Biely projektor na konferenčnom stolíku v modernej obývačke, bezdrôtovo pripojený cez Bluetooth k reproduktoru" border="0" src="https://assets.innpro.pl/20320/27053/Magcubic-Projektor-HY350MAX-5.jpg"/>
+</p><h3>Tichšia a efektívnejšia prevádzka</h3>
+<p>Projektor Magcubic HY350MAX bol optimalizovaný pre pohodlie používateľa a energetickú účinnosť. Ponúka nízku hlučnosť a spotrebu energie, čo znamená pokojnejší zážitok zo sledovania bez rušivého hluku. Vďaka tomu je ideálny na večerné alebo nočné premietanie, keď je pokoj a pohodlie najdôležitejšie.</p>
+<p>
+<img alt="Biely projektor s vertikálnym dizajnom stojací na drevenej polici vedľa niekoľkých kníh" border="0" src="https://assets.innpro.pl/20320/27053/Magcubic-Projektor-HY350MAX-3.jpg"/>
+</p><h3>Flexibilné nastavenie – sledujte, ako chcete</h3>
+<p>Model HY350MAX ponúka veľkú flexibilitu – môžete ho ľahko prispôsobiť rôznym priestorom a scenárom použitia. Projektor umožňuje nastavenie sklonu až do 180°, vďaka čomu môžete premietať obraz na steny aj stropy – skvelé riešenie napríklad na sledovanie filmov v posteli. Podpora bočnej projekcie poskytuje dodatočnú flexibilitu pri inštalácii a kompaktné rozmery (približne 18,3 × 22,1 × 10,9 cm) a hmotnosť okolo 1,4 kg robia zariadenie ľahko prenosným a použiteľným presne tam, kde je to potrebné – v obývačke, spálni alebo dokonca vonku.</p>
+<p>
+<img alt="Biely projektor premietajúci akčný film na strop spálne, pred ktorým leží žena s dieťaťom" border="0" src="https://assets.innpro.pl/20320/27053/Magcubic-Projektor-HY350MAX-1.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Magcubic</td></tr><tr><th>Model</th><td>HY350MAX</td></tr><tr><th>Max. natívne rozlíšenie</th><td>1080p</td></tr><tr><th>Max. jas</th><td>600 ANSI</td></tr><tr><th>Podpora signálu</th><td>Až 8K</td></tr><tr><th>Systém</th><td>Android 14</td></tr><tr><th>Procesor</th><td>Allwinner H726</td></tr><tr><th>Grafický čip</th><td>Mali-G31</td></tr><tr><th>RAM</th><td>2 GB</td></tr><tr><th>ROM</th><td>16 GB</td></tr><tr><th>Korekcia lichobežníka</th><td>Automatická</td></tr><tr><th>Nastavenie zaostrenia</th><td>Automatické</td></tr><tr><th>Vyrovnanie obrazu</th><td>Automatické</td></tr><tr><th>Vyhýbanie sa prekážkam</th><td>Áno</td></tr><tr><th>Pripojenie</th><td>Wi-Fi 6, Bluetooth 5.4, HDMI</td></tr><tr><th>Vstavaný reproduktor</th><td>Áno</td></tr><tr><th>Výkon reproduktora</th><td>15 W</td></tr><tr><th>Pomer projekcie</th><td>1:1</td></tr><tr><th>Podpora HDR</th><td>Áno</td></tr><tr><th>Hĺbka farieb</th><td>10-bitová, 1,07 miliardy farieb</td></tr><tr><th>Kontrastný pomer</th><td>2000:1</td></tr><tr><th>Obnovovacia frekvencia</th><td>Až 60 Hz</td></tr><tr><th>Zoom</th><td>80–100 %</td></tr><tr><th>Uhol naklonenia</th><td>Až 180°</td></tr><tr><th>Bočná projekcia</th><td>Áno</td></tr><tr><th>Uhlopriečka projekcie</th><td>40–140″</td></tr><tr><th>Odporúčaná vzdialenosť projekcie</th><td>1–2 m</td></tr><tr><th>Rozmery</th><td>Približne 18,3 × 22,1 × 10,9 cm</td></tr><tr><th>Hmotnosť</th><td>Približne 1,4 kg</td></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/projektory-4/">Projektory</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Magcubic]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>086336</CODE>
+<EAN>0757047110420</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Projektory]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>699</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="Projektor Magcubic HY350MAX - obrázok 1">https://b2b.innpro.sk/hpeciai/453912ac4ff9244211a948bb108deca9/58888_1.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic HY350MAX - obrázok 2">https://b2b.innpro.sk/hpeciai/6ce04fdd039f29751006e400dcd69fd1/58888_2.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic HY350MAX - obrázok 3">https://b2b.innpro.sk/hpeciai/ee16e4910ab764674edfe4001e41d990/58888_3.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic HY350MAX - obrázok 4">https://b2b.innpro.sk/hpeciai/8199a459a443f0fb9c50a6b24bb192fa/58888_4.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Magcubic]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Max. natívne rozlíšenie]]></NAME>
+    <VALUE><![CDATA[1080p]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Max. jas]]></NAME>
+    <VALUE><![CDATA[600 ANSI]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Podpora signálu]]></NAME>
+    <VALUE><![CDATA[Až 8K]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Systém]]></NAME>
+    <VALUE><![CDATA[Android 14]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Procesor]]></NAME>
+    <VALUE><![CDATA[Allwinner H726]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Grafický čip]]></NAME>
+    <VALUE><![CDATA[Mali-G31]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[RAM]]></NAME>
+    <VALUE><![CDATA[2 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[ROM]]></NAME>
+    <VALUE><![CDATA[16 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Korekcia lichobežníka]]></NAME>
+    <VALUE><![CDATA[Automatická]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nastavenie zaostrenia]]></NAME>
+    <VALUE><![CDATA[Automatické]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pamäť RAM]]></NAME>
+    <VALUE><![CDATA[2 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Bluetooth, Wi-Fi, HDMI]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[12 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>1.75</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>113.50</PRICE_VAT>
+<PURCHASE_PRICE>80.24</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Projektor Magcubic HY350MAX | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Projektor Magcubic HY350MAX – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Projektor Magcubic X7]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Projektor Magcubic X7 Magcubic X7 je vysoko výkonný projektor, ktorý spája natívne rozlíšenie 1080p, vysoký jas 800 ANSI lúmenov a podporu signálu 8K, čím poskytuje ostrý a detailný obraz aj v…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Projektor Magcubic X7</h3>
@@ -414094,6 +414250,95 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Projektor Magcubic HY310 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Projektor Magcubic HY310X]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Projektor Magcubic HY310X Magcubic HY310X je univerzálny projektor, ktorý spája natívne rozlíšenie Full HD 1080p, podporu obsahu v rozlíšení 4K a jas 420 ANSI lúmenov, čím poskytuje jasný a detailný…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Projektor Magcubic HY310X</h3>
+<p>Magcubic HY310X je univerzálny projektor, ktorý spája natívne rozlíšenie Full HD 1080p, podporu obsahu v rozlíšení 4K a jas 420 ANSI lúmenov, čím poskytuje jasný a detailný obraz aj na plátne s uhlopriečkou až 150 palcov. Vďaka mimoriadne krátkemu premietaciemu pomeru 0,8:1 môžete premietať obrovský obraz z krátkej vzdialenosti (napr. 150&quot; z iba 2,6 m), čo z neho robí ideálne riešenie pre menšie miestnosti. Vstavaný systém Android 11, poháňaný procesorom Allwinner H726, spolu s pripojením Wi-Fi 6 a Bluetooth 5.2, premení zariadenie na plynulo fungujúce zábavné centrum, ideálne na filmy a hranie hier bez oneskorenia.</p>
+<p>
+<img alt="Súbor elektronických zariadení, ako napríklad projektor, notebook, konzola a slúchadlá, usporiadaných na tmavých, geometrických platformách pod fialovým osvetlením" border="0" src="https://assets.innpro.pl/20337/27090/Magcubic-projektor-HY310X-4.jpg"/>
+</p><h3>Obraz v kinovej kvalite doma aj vonku</h3>
+<p>Natívne rozlíšenie 1080p Full HD v kombinácii s podporou 4K obsahu zaručuje ostrý a detailný obraz. Vďaka unikátnemu objektívu s dvojitou vrstvou je projekcia ešte jasnejšia a čistejšia. Jas 420 ANSI lúmenov zaručuje pohodlné sledovanie vášho obľúbeného obsahu. Projektor dokáže premietať obrazy s uhlopriečkou od 60” do 150”, čím zaručuje skutočne kinematografický zážitok – či už v obývačke, alebo pri večerných premietaniach vonku.</p>
+<p>
+<img alt="Biely projektor premieta na stenu detail tváre ženy s futuristickou prilbou a rozhraním automatického zaostrovania" border="0" src="https://assets.innpro.pl/20337/27090/11.jpg"/>
+</p><h3>Perfektný obraz bez nastavovania</h3>
+<p>Projektor Magcubic HY310X automaticky zaostruje pomocou funkcie Auto Focus, čím eliminuje potrebu manuálneho nastavovania a zabezpečuje okamžitú ostrosť obrazu. Systém je podporený automatickou vertikálnou korekciou lichobežníka (Auto Vertical Keystone / 4D), ktorá automaticky vyrovnáva obraz pozdĺž vertikálnej osi. Okrem toho manuálna korekcia 4P Keystone umožňuje presné manuálne nastavenie každého zo štyroch rohov individuálne, čím zabezpečuje perfektnú geometriu aj pri bočnej projekcii.</p>
+<p>
+<img alt="Interiér obývacej izby, kde projektor namontovaný na strope premieta na veľkú stenu obraz ženy v slnečných okuliaroch na pozadí mestských svetiel" border="0" src="https://assets.innpro.pl/20337/27090/Magcubic-projektor-HY310X-2.jpg"/>
+</p><h3>Plynulá prevádzka – WiFi 6 a Bluetooth</h3>
+<p>Využitie dual-band WiFi 6 (2,4G + 5G) zabezpečuje stabilné a bleskovo rýchle sieťové pripojenie, zaručujúce plynulé streamovanie videa a hranie hier bez oneskorenia. Modul Bluetooth 5.2 umožňuje bezdrôtové a pohodlné pripojenie externých audio systémov, ako sú slúchadlá alebo reproduktory. Projektor ponúka úplnú slobodu pri bezdrôtovom prenose obrazu vďaka podpore štandardov DLNA, AirPlay a Miracast. Okrem toho funkcia Wired Precision umožňuje stabilné káblové zdieľanie obrazovky zo zariadení s iOS a Androidom, čím eliminuje rušenie signálu za všetkých podmienok.</p>
+<p>
+<img alt="Biely projektor stojí na stole vedľa notebooku a smartfónu a premieta na veľkú obrazovku dynamickú scénu s animovaným pretekárskym autom" border="0" src="https://assets.innpro.pl/20337/27090/7.jpg"/>
+</p><h3>Android 11 – Vaše centrum zábavy bez ďalších zariadení</h3>
+<p>Vstavaný systém Android 11, poháňaný vysokovýkonným procesorom Allwinner H726, premení projektor na samostatné multimediálne zariadenie. To vám umožňuje používať obľúbené streamovacie aplikácie, ako je Netflix alebo YouTube, priamo z projektora – bez nutnosti pripájať notebook alebo TV dongle. Vychutnajte si svoje obľúbené filmy, televízne programy a online obsah s úplnou nezávislosťou a jednoduchosťou používania.</p>
+<p>
+<img alt="Biely projektor umiestnený na okrúhlom kovovom stole premieta na stenu obraz dvoch ľudí so surfovými doskami na pláži pri západe slnka" border="0" src="https://assets.innpro.pl/20337/27090/10.jpg"/>
+</p><h3>Prispôsobte obraz svojim potrebám</h3>
+<p>Môžete ľahko prepínať pomer strán obrazovky medzi 4:3 a 16:9, čo vám umožňuje dokonale prispôsobiť zobrazenie pre filmy, prezentácie alebo hry. Vďaka funkcii digitálneho priblíženia v rozsahu od 80 % do 100 % môžete presne priblížiť alebo oddialiť obraz bez nutnosti fyzického presúvania zariadenia. Model HY310X vám navyše umožňuje vybrať si zo špeciálnych režimov obrazu: Štandardný, Zvýraznenie a Úspora energie, čím získate plnú kontrolu nad štýlom a jasom projekcie.</p>
+<p>
+<img alt="Na nočnej terase premieta projektor futbalový zápas na veľkej vonkajšej obrazovke, zatiaľ čo dvaja ľudia sedia v kreslách" border="0" src="https://assets.innpro.pl/20337/27090/Magcubic-projektor-HY310X-5.jpg"/>
+</p><h3>Vstavaný reproduktor – sledujte a počúvajte ihneď</h3>
+<p>5 W reproduktor poskytuje zvuk, ktorý je pripravený hneď po zapnutí zariadenia. Ide o mimoriadne praktické riešenie pri premietaní, cestách alebo pri používaní projektora vonku, čím sa eliminuje potreba nosiť so sebou ďalšie zvukové zariadenia. Vďaka tomu sa Magcubic HY310X stáva úplne sebestačným prenosným kinom.</p>
+<p>
+<img alt="Projektor umiestnený na stole premieta na televíznu obrazovku dynamický obraz horského cyklistu prechádzajúceho oblakmi prachu" border="0" src="https://assets.innpro.pl/20337/27090/Magcubic-projektor-HY310X-3.jpg"/>
+</p><h3>Plynulé pripojenie – používajte ho, ako sa vám páči</h3>
+<p>Projektor je vybavený sadou základných portov, vrátane HDMI, USB a 3,5 mm audio konektora. Táto konfigurácia umožňuje bezproblémové pripojenie rôznych zariadení, ako sú herné konzoly, notebooky, USB pamäťové zariadenia alebo slúchadlá. To vám umožňuje voľne využívať rôzne video a audio zdroje a prispôsobiť HY310X vašim individuálnym potrebám v oblasti zábavy.</p>
+<p>
+<img alt="V popredí stojí biely projektor Magcubic a v pozadí je vidieť rockovú kapelu, ktorá hrá koncert v modrofialovom svetle" border="0" src="https://assets.innpro.pl/20337/27090/8.jpg"/>
+</p><h3>Flexibilné umiestnenie vďaka otočnému dizajnu o 180°</h3>
+<p>Projektor je vybavený flexibilným integrovaným stojanom, ktorý umožňuje otočenie o 180°. Tento dizajn vám umožňuje okamžite zmeniť smer premietania zo steny na strop (uhol 90°), čo vám okrem iného umožňuje pohodlne sledovať filmy v ľahu. Toto riešenie poskytuje úplnú voľnosť usporiadania, umožňuje premietanie takmer v akomkoľvek uhle a dokonale sa prispôsobí špecifickým charakteristikám akejkoľvek miestnosti – od obývacej izby až po spálňu v podkroví.</p>
+<p>
+<img alt="Tri biele projektory umiestnené v rôznych uhloch na stupňovitej plošine premietajú obrazy na zakrivenú plochu v pozadí" border="0" src="https://assets.innpro.pl/20337/27090/9.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Magcubic</td></tr><tr><th>Model</th><td>HY310X</td></tr><tr><th>Max. natívne rozlíšenie</th><td>1080P</td></tr><tr><th>Max. jas</th><td>420 ANSI</td></tr><tr><th>Podpora signálu</th><td>Až 4K</td></tr><tr><th>Systém</th><td>Android 11</td></tr><tr><th>Procesor</th><td>Allwinner H726</td></tr><tr><th>Korekcia lichobežníka</th><td>Automatická (vertikálna)</td></tr><tr><th>Nastavenie zaostrenia</th><td>Automatické</td></tr><tr><th>Pripojenie</th><td>Wi-Fi 6 (dvojité pásmo), Bluetooth 5.2, HDMI, USB</td></tr><tr><th>Vstavaný reproduktor</th><td>Áno</td></tr><tr><th>Výkon reproduktora</th><td>5 W</td></tr><tr><th>Zoom</th><td>80–100 %</td></tr><tr><th>Korekcia 4P</th><td>Ručná</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=78360_58897_pol_7fc66bb3ff0f2e3b4b166b0fec94a979" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/projektory-4/">Projektory</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Magcubic]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>086344</CODE>
+<EAN>0757047110505</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Projektory]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>699</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Projektor Magcubic HY310X - obrázok 1">https://b2b.innpro.sk/hpeciai/d99bfabdc798d4b05a3ef40f47057237/58897_1.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic HY310X - obrázok 2">https://b2b.innpro.sk/hpeciai/f935b7f6821cb14b0ff7951c5121e989/58897_2.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic HY310X - obrázok 3">https://b2b.innpro.sk/hpeciai/ef8851e0332c6ba159daf0389f8e1d62/58897_3.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bluetooth]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Wi-Fi]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>1.12</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>83.50</PRICE_VAT>
+<PURCHASE_PRICE>59.11</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Projektor Magcubic HY310X | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Projektor Magcubic HY310X – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Projektor Magcubic HY300PRO]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Projektor Magcubic HY300PRO Magcubic HY300PRO je kompaktný projektor veľkosti smartfónu, vybavený najnovším systémom Android 14 a vylepšeným procesorom Allwinner H726. Zariadenie ponúka jas 200 ANSI…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Projektor Magcubic HY300PRO</h3>
@@ -414171,6 +414416,94 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Projektor Magcubic HY300PRO | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Projektor Magcubic HY300PRO – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Projektor Magcubic HY300PRO+]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Projektor Magcubic HY300PRO+ Magcubic HY300PRO+ je kompaktný prenosný projektor s natívnym rozlíšením 720p (1280 × 720), podporou 4K obsahu a jasom 200 ANSI lúmenov, ktorý dokáže premietať obraz s…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Projektor Magcubic HY300PRO+</h3>
+<p>Magcubic HY300PRO+ je kompaktný prenosný projektor s natívnym rozlíšením 720p (1280 × 720), podporou 4K obsahu a jasom 200 ANSI lúmenov, ktorý dokáže premietať obraz s uhlopriečkou až 130 palcov. Vďaka procesoru Allwinner H726 a najnovšiemu systému Android 14 beží plynule a poskytuje pohodlný prístup k zábave bez potreby pripájania ďalších zariadení. Konektivita Wi-Fi 6 a Bluetooth 5.4, vstavaný 5W reproduktor v podstavci (Speaker Base) a otočný dizajn o 180° robia z tohto zariadenia ideálny produkt pre domáce použitie aj premietanie vonku.</p>
+<p>
+<img alt="Biely valcovitý projektor smerujúci nahor proti ružovo-fialovej oblohe pri západe slnka" border="0" src="https://assets.innpro.pl/20331/27082/1.jpg"/>
+</p><h3>Veľký obraz a flexibilné nastavenie projekcie</h3>
+<p>Projektor dokáže premietať obrazy s uhlopriečkou od 80 do 130 palcov, čo vám umožňuje prispôsobiť ho rôznym priestorom a potrebám. Odporúčaná vzdialenosť 1,6 m poskytuje obrazovku s uhlopriečkou 80 palcov. Pri vzdialenosti 2,0 m získate 100-palcovú obrazovku a pri 2,6 m dosiahnete maximálnu veľkosť 130 palcov, čo uľahčuje usporiadanie filmového večera vo vašej obývačke alebo vonku. Digitálny zoom 80–100 % vám umožňuje presne nastaviť veľkosť obrazu bez nutnosti meniť nastavenia projektora, čo výrazne zvyšuje použiteľnosť v menších miestnostiach.</p>
+<p>
+<img alt="Dva biele projektory, jeden na statíve a druhý na plošine, premietajú panoramatický obraz horského jazera na širokú stenu" border="0" src="https://assets.innpro.pl/20331/27082/8.jpg"/>
+</p><h3>Presné nastavenie obrazu bez zbytočnej námahy</h3>
+<p>Model HY300PRO+ ponúka duálny systém zaostrovania: manuálne nastavenie pomocou otočného ovládača a digitálny režim (Digital Focus), vďaka čomu môžete okamžite dosiahnuť krištáľovo čistý obraz. Funkcia Auto Vertical Keystone automaticky vyrovná obraz pri premietaní na stenu pod uhlom, zatiaľ čo manuálna horizontálna korekcia poskytuje plnú kontrolu nad geometriou premietania. Vďaka týmto funkciám môžete projektor nainštalovať takmer kdekoľvek a vychutnať si obraz s dokonalými proporciami bez časovo náročného nastavovania.</p>
+<p>
+<img alt="Pár sedí v noci na ležadlách pred stanom a pozerá animovaný film s tučniakom premietaný projektorom" border="0" src="https://assets.innpro.pl/20331/27082/4.jpg"/>
+</p><h3>Smart TV vždy na dosah ruky</h3>
+<p>Vďaka najnovšiemu systému Android 14 a výkonnému procesoru Allwinner H726 funguje projektor ako samostatné zábavné centrum. To vám umožňuje priamy prístup k aplikáciám, ako sú YouTube, Netflix, Disney+, Prime Video a Hulu, bez potreby pripájania externých zariadení. Funkcia bezdrôtového prenosu umožňuje okamžitý bezdrôtový prenos obrazu zo zariadení s iOS, Androidom a Windowsom, čo z neho robí univerzálny nástroj pre domáce filmové večery aj profesionálne prezentácie.</p>
+<p>
+<img alt="Grafické rozhranie menu projektora Magcubic s ikonami aplikácií, ako sú YouTube, Disney+ a systémové nastavenia" border="0" src="https://assets.innpro.pl/20331/27082/3.jpg"/>
+</p><h3>Rýchle pripojenie a široká kompatibilita</h3>
+<p>Podpora moderného štandardu Wi-Fi 6 (dvojpásmové 2,4G/5G) zabezpečuje stabilné a rýchle pripojenie, čím zaručuje plynulé prehrávanie videí vo vysokej kvalite bez vyrovnávacej pamäte. Bluetooth 5.4 umožňuje okamžité a energeticky úsporné spárovanie slúchadiel, externých audio systémov alebo ovládacích príslušenstiev. Projektor sa vyznačuje širokou kompatibilitou vďaka portom HDMI a USB, ako aj 3,5 mm audio výstupu, čo umožňuje plynulé pripojenie notebooku, hernej konzoly, TV Sticku alebo USB kľúča a súčasné využívanie viacerých zdrojov obsahu.</p>
+<p>
+<img alt="Žena cvičí jogu na podložke a napodobňuje pohyby inštruktora viditeľného na veľkom obraze premietanom na stenu" border="0" src="https://assets.innpro.pl/20331/27082/5.jpg"/>
+</p><h3>Vstavaný zvuk pre každodenné použitie</h3>
+<p>Projektor je vybavený 5 W reproduktorom integrovaným do základne pomocou technológie Speaker Base, vďaka čomu si môžete vychutnať čistý zvuk bez nutnosti pripájania ďalších reproduktorov. Ide o praktické riešenie pre premietanie, prezentácie alebo sledovanie filmov vonku. Vďaka modulu Bluetooth 5.4 môžete projektor tiež okamžite pripojiť k externým slúchadlám alebo výkonnejšiemu zvukovému systému pre ešte intenzívnejší filmový zážitok.</p>
+<p>
+<img alt="Biely projektor umiestnený na tmavomodrej geometrickej plošine na pozadí jednoliatej modrej oblohy" border="0" src="https://assets.innpro.pl/20331/27082/2.jpg"/>
+</p><h3>Kompaktný a pripravený na prenášanie kamkoľvek</h3>
+<p>Projektor sa vyznačuje mimoriadne kompaktným dizajnom s výškou 177 mm a šírkou základne 94,8 mm. Váži len asi 400 g, vďaka čomu sa ľahko zmestí do tašky alebo batohu. Integrovaná rukoväť na základni uľahčuje prenášanie a jeho ľahká konštrukcia z neho robí vynikajúce a praktické riešenie pre mobilné použitie.</p>
+<p>
+<img alt="Biely projektor, smartfón a letenka sa vznášajú nad otvorenou hnedou koženou taškou na svetlom pozadí" border="0" src="https://assets.innpro.pl/20331/27082/7.jpg"/>
+</p><h3>Dizajn s otočením o 180° – úplná voľnosť umiestnenia</h3>
+<p>Funkcia otáčania o 180° vám umožňuje voľne premietať obraz na stenu, strop alebo akýkoľvek iný povrch bez potreby statívov alebo dodatočných držiakov. Ide o praktické riešenie, najmä pri večerných premietaniach, keď si môžete pohodlne pozerať film v ľahu a obraz smerovať priamo nad seba. Integrovaný stojan s rukoväťou ďalej uľahčuje stabilné umiestnenie projektora kdekoľvek a rýchle nastavenie uhla premietania podľa vašich potrieb.</p>
+<p>
+<img alt="Pohľad zozadu na projektor premietajúci film s bielym medveďom, s vyznačeným ovládačom zaostrenia a grafikou zvukových vĺn okolo základne" border="0" src="https://assets.innpro.pl/20331/27082/6.jpg"/>
+</p>
+<h3>Súčasťou balenia:</h3>
+<ul class="list-disc pl-5"><li>Projektor</li><li>Diaľkové ovládanie</li><li>Napájací kábel</li><li>Návod na použitie</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Magcubic</td></tr><tr><th>Model</th><td>HY300PRO+</td></tr><tr><th>Max. natívne rozlíšenie</th><td>720P (1280 × 720p)</td></tr><tr><th>Max. jas</th><td>200 ANSI lúmenov</td></tr><tr><th>Podpora signálu</th><td>Až 4K</td></tr><tr><th>Systém</th><td>Android 14</td></tr><tr><th>Procesor</th><td>Allwinner H726</td></tr><tr><th>Korekcia lichobežníka</th><td>Automatická vertikálna, manuálna horizontálna</td></tr><tr><th>Nastavenie zaostrenia</th><td>Manuálne (gombík) a digitálne</td></tr><tr><th>Pripojenie</th><td>Wi-Fi 6 (dvojité pásmo), Bluetooth 5.4, HDMI, USB</td></tr><tr><th>Vstavaný reproduktor</th><td>Áno</td></tr><tr><th>Výkon reproduktora</th><td>5 W</td></tr><tr><th>Zoom</th><td>80 % – 100 % (digitálny)</td></tr><tr><th>Nastavenie uhla</th><td>Až 180°</td></tr><tr><th>Diagonála projekcie</th><td>Až 130″</td></tr><tr><th>Odporúčaná vzdialenosť projekcie</th><td>1,6–2,6 m</td></tr><tr><th>Rozmery</th><td>177 × 94,8 mm</td></tr><tr><th>Hmotnosť</th><td>Približne 400 g</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=78367_58899_pol_e79fc920bcc679454704286b055c04f4" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/projektory-4/">Projektory</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Magcubic]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>086346</CODE>
+<EAN>0757047110529</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Projektory]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>699</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Projektor Magcubic HY300PRO+ - obrázok 1">https://b2b.innpro.sk/hpeciai/184e96c767df053d15801a7a2b999e7a/58899_1.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic HY300PRO+ - obrázok 2">https://b2b.innpro.sk/hpeciai/0d4ab04030378d1b2156a4244d03178b/58899_2.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic HY300PRO+ - obrázok 3">https://b2b.innpro.sk/hpeciai/0fc6a27ce43dbc7f1ed71728a5da71dd/58899_3.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic HY300PRO+ - obrázok 4">https://b2b.innpro.sk/hpeciai/dacaf5c1d07fe3db11f2d9da4db530f7/58899_4.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bluetooth]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Wi-Fi]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.74</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>56.90</PRICE_VAT>
+<PURCHASE_PRICE>40.22</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Projektor Magcubic HY300PRO+ | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Projektor Magcubic HY300PRO+ – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Projektor Magcubic HY300X-2]]></NAME>
@@ -414256,6 +414589,99 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Projektor Magcubic HY300X-2 | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Projektor Magcubic HY300X-2 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Projektor Magcubic L018]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Projektor Magcubic L018 Magcubic L018 je univerzálny prenosný projektor, ktorý ponúka natívne rozlíšenie 1080p, jas 400 ANSI lúmenov, podporu signálu 8K a operačný systém Android 14. Vďaka…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Projektor Magcubic L018</h3>
+<p>Magcubic L018 je univerzálny prenosný projektor, ktorý ponúka natívne rozlíšenie 1080p, jas 400 ANSI lúmenov, podporu signálu 8K a operačný systém Android 14. Vďaka automatickému nastaveniu zaostrenia a korekcii skreslenia, ako aj pripojeniu cez Wi-Fi 6 a Bluetooth 5.2, vám toto zariadenie umožňuje pohodlne premietať obraz v rôznych podmienkach a na rôznych miestach. K dispozícii máte aj tri prevádzkové režimy: Štandardný, Zvýraznenie a Úspora energie. Kompaktný dizajn a široká škála možností nastavenia robia z modelu L018 ideálny prístroj pre domáce použitie aj na cestovanie.</p>
+<p>
+<img alt="Biely, moderný projektor s veľkým objektívom namontovaným na otočnej základni" border="0" src="https://assets.innpro.pl/20327/27072/Magcubic-Projektor-L018-1.jpg"/>
+</p><h3>Čistý obraz v rozlíšení Full HD a podpora 8K</h3>
+<p>Projektor ponúka natívne rozlíšenie 1080p, čo znamená dobrú ostrosť a jasnosť detailov pri sledovaní filmov alebo hraní hier. Podpora obsahu v rozlíšení 8K vám umožňuje vychutnávať si moderné video zdroje bez obmedzení. K tomu pridajte kontrastný pomer 1500:1, ktorý zabezpečuje, že obraz zostane ostrý a detaily sú jasne viditeľné v jasných aj tmavších scénach.</p>
+<p>
+<img alt="Ľudia sledujúci film premietaný na stenu stanu počas nočného kempovania" border="0" src="https://assets.innpro.pl/20327/27072/9.jpg"/>
+</p><h3>Android 14 – užite si svoje obľúbené aplikácie</h3>
+<p>Vstavaný systém Android 14 vám umožňuje pohodlne používať vaše obľúbené aplikácie a streamovacie platformy. To vám umožňuje sledovať svoj obľúbený obsah priamo z projektora pomocou intuitívneho rozhrania a pohodlnej navigácie. Súčasťou balenia je aj kompaktné diaľkové ovládanie, ktoré uľahčuje ovládanie zariadenia.</p>
+<p>
+<img alt="Projektor na stojane zobrazuje na veľkej obrazovke menu s ikonami populárnych streamovacích aplikácií" border="0" src="https://assets.innpro.pl/20327/27072/12.jpg"/>
+</p><h3>Automatické nastavenie obrazu a pohodlná obsluha</h3>
+<p>Projektor je vybavený funkciami, ktoré eliminujú potrebu manuálnej konfigurácie. Funkcia Auto Focus automaticky nastavuje zaostrenie a automatická korekcia lichobežníka zabezpečuje správny pomer strán. Za zmienku stoja aj možnosti vyhýbania sa prekážkam a nastavenia obrazu. Všetko toto znamená, že môžete začať sledovať obsah v okamihu – nemusíte všetko nastavovať sami.</p>
+<p>
+<img alt="Projektor zobrazuje portrét ženy, ilustrujúci funkciu automatickej korekcie lichobežníka" border="0" src="https://assets.innpro.pl/20327/27072/11.jpg"/>
+</p><h3>Premietajte kdekoľvek</h3>
+<p>Magcubic L018 vyniká nastaviteľným uhlom premietania, vďaka čomu môžete obraz premietať nielen na stenu, ale napríklad aj na strop. Vďaka kompaktnej a ľahkej konštrukcii sa zariadenie dá ľahko premiestňovať a nastaviť kdekoľvek – na stôl, poličku alebo vonku. Toto riešenie ponúka veľkú flexibilitu a umožňuje prispôsobiť zážitok zo sledovania vašim preferenciám.</p>
+<p>
+<img alt="Skupina ľudí sleduje film na veľkej vonkajšej obrazovke osvetlenej oranžovým svetlom stanu" border="0" src="https://assets.innpro.pl/20327/27072/Magcubic-Projektor-L018-2.jpg"/>
+</p><h3>Rôzne možnosti pripojenia</h3>
+<p>Projektor podporuje Wi-Fi 6 (2,4 GHz + 5 GHz) a Bluetooth 5.2, čím zabezpečuje stabilné a rýchle pripojenie. Podpora technológií ako Miracast, AirPlay a DLNA rozširuje kompatibilitu a umožňuje jednoduché streamovanie obsahu zo smartfónu, tabletu alebo notebooku. Vybrané zariadenia môžete pripojiť aj pomocou káblov – k dispozícii sú USB-A, HDMI a 3,5 mm audio konektor.</p>
+<p>
+<img alt="Smartfón v ruke bezdrôtovo prenáša obraz usmievajúcich sa žien do projektora" border="0" src="https://assets.innpro.pl/20327/27072/6.jpg"/>
+</p><h3>Výkonný procesor a plynulý výkon</h3>
+<p>Projektor využíva procesor Allwinner H726 s štvorjadrovou architektúrou ARM Cortex-A53 a grafickým čipom Mali-G31. V kombinácii s 1 GB RAM a 8 GB ROM zabezpečuje stabilnú prevádzku systému a plynulý výkon aplikácií. Vďaka tomu je používanie zariadenia pohodlné a bezproblémové.</p>
+<p>
+<img alt="Projektor v modernej obývačke zobrazuje dynamickú scénu s lietadlom na celej stene" border="0" src="https://assets.innpro.pl/20327/27072/Magcubic-Projektor-L018-4.jpg"/>
+</p><h3>Vstavaný stereo reproduktor a vylepšený zvukový zážitok</h3>
+<p>Model L018 je vybavený Hi-Fi stereo reproduktorom, vďaka čomu môžete zariadenie používať bez ďalšieho zvukového vybavenia. Ide o praktické riešenie pri sledovaní filmov, hraní hier alebo používaní projektora na rôznych miestach. V prípade potreby môžete zariadenie pripojiť aj k externému zvukovému systému cez Bluetooth.</p>
+<p>
+<img alt="Biely projektor vedľa bezdrôtového reproduktora, slúchadiel a puzdra s TWS slúchadlami" border="0" src="https://assets.innpro.pl/20327/27072/Magcubic-Projektor-L018-3.jpg"/>
+</p><h3>Obraz prispôsobený vašim potrebám</h3>
+<p>Projektor ponúka maximálnu veľkosť obrazovky 200 palcov a poskytuje veľký obraz aj z krátkej vzdialenosti. Vďaka tomu je ideálny do menších miestností! Model L018 disponuje tiež rozsahom zoomu 50–100 %, čo vám umožňuje prispôsobiť veľkosť projekcie bez nutnosti premiestňovania projektora. Okrem toho sú k dispozícii rôzne režimy obrazu, ako napríklad Štandardný, Zvýraznenie a Úspora energie, vďaka čomu môžete výkon zariadenia prispôsobiť aktuálnym podmienkam a preferenciám používateľa.</p>
+<p>
+<img alt="Projektor zobrazuje rozprávkovú postavu na stene s viditeľnými bodmi nastavenia geometrie obrazu" border="0" src="https://assets.innpro.pl/20327/27072/8.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>Projektor</li><li>Diaľkové ovládanie</li><li>Napájací kábel</li><li>Návod na použitie</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Magcubic</td></tr><tr><th>Model</th><td>L018</td></tr><tr><th>Max. natívne rozlíšenie</th><td>1080p</td></tr><tr><th>Max. jas</th><td>400 ANSI</td></tr><tr><th>Podpora signálu</th><td>Až 8K</td></tr><tr><th>Systém</th><td>Android 14</td></tr><tr><th>Procesor</th><td>Allwinner H726</td></tr><tr><th>Grafický čip</th><td>Mali-G31</td></tr><tr><th>RAM</th><td>1 GB</td></tr><tr><th>ROM</th><td>8 GB</td></tr><tr><th>Korekcia lichobežníka</th><td>Automatická</td></tr><tr><th>Zaostrenie</th><td>Automatické</td></tr><tr><th>Úprava obrazu</th><td>Automatická</td></tr><tr><th>Vyhýbanie sa prekážkam</th><td>Áno</td></tr><tr><th>Pripojenie</th><td>Wi-Fi 6, Bluetooth 5.2, HDMI, USB-A, 3,5 mm audio konektor</td></tr><tr><th>Vstavaný reproduktor</th><td>Áno</td></tr><tr><th>Kontrast</th><td>1500:1</td></tr><tr><th>Zoom</th><td>50–100 %</td></tr><tr><th>Max. uhlopriečka projekcie</th><td>200″</td></tr><tr><th>Režimy obrazu</th><td>Štandardný, Zvýraznenie, Úspora energie</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=78357_58903_pol_fd43cca8679f017fe5c6c293487d228f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/projektory-4/">Projektory</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Magcubic]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>086338</CODE>
+<EAN>0757047110444</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Projektory]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>699</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="Projektor Magcubic L018 - obrázok 1">https://b2b.innpro.sk/hpeciai/48c9c456294cd91f806bb004b22109ab/58903_1.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic L018 - obrázok 2">https://b2b.innpro.sk/hpeciai/f1a358b4e71e6ec803a52bfdce71d4df/58903_2.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic L018 - obrázok 3">https://b2b.innpro.sk/hpeciai/5aacf776e1daa6c28f0895de144c3e11/58903_3.jpg</IMAGE>
+  <IMAGE description="Projektor Magcubic L018 - obrázok 4">https://b2b.innpro.sk/hpeciai/7b888784e310cbaf71043eec63beb5ee/58903_4.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bluetooth]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Wi-Fi]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>2.04</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>95.00</PRICE_VAT>
+<PURCHASE_PRICE>67.14</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Projektor Magcubic L018 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Projektor Magcubic L018 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Laserový gravírovací stroj LaserPecker LP2 Plus]]></NAME>
@@ -453650,7 +454076,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -459793,14 +460222,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -467448,111 +467881,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Neewer LS-300 – bodové svetlo s výkonom 300 W a… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Neewer LS-300 – bodové svetlo s výkonom 300 W a uchytením Bowens – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Slúchadlá GARRETT Z-LYNK MS-3]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Slúchadlá GARRETT Z-LYNK MS-3 Prijímanie signálov z detektora kovov môže byť oveľa presnejšie, keď vás nič neobmedzuje – žiadne káble, žiadne oneskorenia. Slúchadlá GARRETT Z-LYNK MS-3 spájajú…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Slúchadlá GARRETT Z-LYNK MS-3</h3>
-<p>Prijímanie signálov z detektora kovov môže byť oveľa presnejšie, keď vás nič neobmedzuje – žiadne káble, žiadne oneskorenia. Slúchadlá GARRETT Z-LYNK MS-3 spájajú pohodlie bezdrôtového pripojenia s vysokokvalitným zvukom a okamžitým prenosom, čím zaručujú, že každý signál dorazí presne včas. Vďaka pohodlnému dizajnu, dlhej výdrži batérie a odolnej konštrukcii sú ideálne pre dlhé vyhľadávacie akcie v teréne. Navyše, ovládanie hlasitosti a skladací dizajn uľahčujú každodenné používanie. Toto je vybavenie, ktoré vám umožní sústrediť sa na signály, nie na obmedzenia.</p>
-<p>
-<img alt="Bezdrôtové slúchadlá Garrett s mäkkými náušníkmi a hlavovým mostíkom, pohľad zpredu na svetlom pozadí." border="0" src="https://assets.innpro.pl/21153/28048/1.jpg"/>
-</p><h3>Technológia Z-Lynk – výhoda, ktorú počujete</h3>
-<p>Vstavaný bezdrôtový prijímač Z-Lynk pracuje s pôsobivo nízkou latenciou len 17 milisekúnd, čo znamená až šesťnásobne rýchlejšiu odozvu ako u klasických slúchadiel Bluetooth. Táto doba prenosu zaručuje, že zvukový signál dorazí presne v okamihu, keď je cievka detektora umiestnená nad cieľom. To sa prejavuje väčšou presnosťou a istotou pri lokalizácii nálezov, najmä v náročnom teréne, kde záleží na každej sekunde a každom detaile.</p>
-<p>
-<img alt="Dva páry čiernych bezdrôtových slúchadiel zobrazené pod uhlom, s viditeľným tlačidlom napájania a ovládačom hlasitosti." border="0" src="https://assets.innpro.pl/21153/28048/2.jpg"/>
-</p><h3>Čistý zvuk bez rušenia</h3>
-<p>Pokročilá technológia 2,4 GHz s dynamickým skákaním frekvencií eliminuje riziko rušenia a presluchu s inými bezdrôtovými zariadeniami. To vám umožňuje sústrediť sa výlučne na signály z vášho vlastného detektora. Široký frekvenčný rozsah od 30 do 18 000 Hz a impedancia 8 ohmov zabezpečujú čistý, detailný zvuk, ktorý uľahčuje rozlišovanie jemných rozdielov medzi signálmi.</p>
-<p>
-<img alt="Zložené bezdrôtové slúchadlá videné zhora, s viditeľným kompaktným dizajnom a skladacím mechanizmom." border="0" src="https://assets.innpro.pl/21153/28048/3.jpg"/>
-</p><h3>Prispôsobte zvuk podľa svojich preferencií</h3>
-<p>Individuálne ovládanie hlasitosti vám umožňuje presne nastaviť úroveň signálu podľa vašich individuálnych potrieb a podmienok prostredia. To uľahčuje zachytávanie slabších signálov a znižuje vplyv vonkajšieho hluku. V praxi to znamená väčšiu kontrolu nad tým, čo počujete, a lepšiu interpretáciu signálov generovaných detektorom kovov.</p>
-<p>
-<img alt="Bezdrôtové slúchadlá v strede s dvoma rozmazanými pármi v pozadí, zdôrazňujúce hĺbku obrazu." border="0" src="https://assets.innpro.pl/21153/28048/4.jpg"/>
-</p><h3>Pohodlie pri dlhých hodinách práce</h3>
-<p>Mäkký hlavový most a pohodlné náušníky sú navrhnuté pre dlhodobé používanie v teréne. Konštrukcia dobre sedí na hlave bez vyvolávania nadmerného tlaku, čo vám umožňuje sústrediť sa na vyhľadávanie bez pocitu únavy. Ďalšou výhodou je skladací dizajn, ktorý uľahčuje skladovanie a prepravu zariadenia.</p>
-<p>
-<img alt="Bezdrôtové slúchadlá visiace vo vzduchu, pohľad zboku s viditeľnými náušníkmi a logom výrobcu." border="0" src="https://assets.innpro.pl/21153/28048/5.jpg"/>
-</p><h3>Pripravené na akúkoľvek expedíciu</h3>
-<p>Slúchadlá ponúkajú až 30 hodín výdrže batérie na jedno nabitie, čo vám umožňuje vykonávať aj dlhé vyhľadávacie relácie bez prerušenia. Súprava obsahuje USB kábel pre rýchle a pohodlné nabíjanie. Telo spĺňa normu IP52, čo poskytuje ochranu proti ľahkému dažďu a prachu. Zariadenie zvládne rôznorodé terénne podmienky, hoci nie je navrhnuté na ponorenie do vody.</p>
-<p>
-<img alt="Bezdrôtové slúchadlá Garrett s mäkkými náušníkmi a hlavovým mostíkom, pohľad zpredu na svetlom pozadí." border="0" src="https://assets.innpro.pl/21153/28048/1.jpg"/>
-</p><h3>Sloboda, ktorá robí rozdiel</h3>
-<p>Absencia káblov znamená nielen pohodlie, ale aj väčšiu mobilitu a bezpečnosť pri pohybe v náročnom teréne. Slúchadlá GARRETT Z-LYNK MS-3 odstraňujú obmedzenia tradičných riešení a zároveň ponúkajú vysokokvalitný zvuk a stabilné pripojenie. Je to voľba pre tých, ktorí chcú pracovať rýchlejšie, počuť viac a mať plnú kontrolu nad každým signálom.</p>
-<p>
-<img alt="Dva páry čiernych bezdrôtových slúchadiel zobrazené pod uhlom, s viditeľným tlačidlom napájania a ovládačom hlasitosti." border="0" src="https://assets.innpro.pl/21153/28048/2.jpg"/>
-</p>
-<h3>Súčasť balenia</h3>
-<ul class="list-disc pl-5"><li>slúchadlá</li><li>nabíjací kábel</li><li>užívateľská príručka</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>GARRETT</td></tr><tr><th>Model</th><td>MS-3</td></tr><tr><th>Ovládanie hlasitosti</th><td>Áno</td></tr><tr><th>Impedancia</th><td>8 ohmov</td></tr><tr><th>Frekvenčný rozsah</th><td>30 až 18 000 Hz</td></tr><tr><th>Výdrž batérie</th><td>30 hodín</td></tr><tr><th>Stupeň ochrany</th><td>IP52</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/bezdrotove-sluchadla/">Bezdrôtové slúchadlá</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>088099</CODE>
-<EAN>0786156005211</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá]]></CATEGORY>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika > Slúchadlá]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Slúchadlá GARRETT Z-LYNK MS-3 - obrázok 1">https://b2b.innpro.sk/hpeciai/af6f7de529bc750e42c95f456a88d6cf/60303_1.jpg</IMAGE>
-  <IMAGE description="Slúchadlá GARRETT Z-LYNK MS-3 - obrázok 2">https://b2b.innpro.sk/hpeciai/d93bb77b47fcf5dba48d46d0280ef704/60303_2.jpg</IMAGE>
-  <IMAGE description="Slúchadlá GARRETT Z-LYNK MS-3 - obrázok 3">https://b2b.innpro.sk/hpeciai/bdfd5f40cb759546e13c68209689bfff/60303_3.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[GARRETT]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Impedancia]]></NAME>
-    <VALUE><![CDATA[8 ohmov]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Frekvenčný rozsah]]></NAME>
-    <VALUE><![CDATA[30 až 18 000 Hz]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Výdrž batérie]]></NAME>
-    <VALUE><![CDATA[30 hodín]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Stupeň krytia (IP)]]></NAME>
-    <VALUE><![CDATA[IP52]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[Bluetooth]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.44</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
-<PRICE_VAT>123.00</PRICE_VAT>
-<PURCHASE_PRICE>86.95</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Slúchadlá GARRETT Z-LYNK MS-3 | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Slúchadlá GARRETT Z-LYNK MS-3 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[GARRETT Nôž-lopata]]></NAME>
@@ -498436,6 +498764,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>087997</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6976233679723</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
@@ -513050,6 +513381,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -524856,6 +525188,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>18.03</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -526807,6 +527140,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>29.00</PRICE_VAT>
 <PURCHASE_PRICE>20.56</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -527065,6 +527399,152 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Bezdrôtové slúchadlá QCY Melobuds N65 (biele) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Bezdrôtové slúchadlá QCY Melobuds N65 (biele) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Projektor Magcubic HY320PRO]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Projektor Magcubic HY320Pro Predstavujeme Magcubic HY320Pro – moderný multimediálny projektor, ktorý premení akúkoľvek miestnosť na súkromné kino. Je vybavený systémom Android 14, natívnym rozlíšením…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Projektor Magcubic HY320Pro</h3>
+<p>Predstavujeme Magcubic HY320Pro – moderný multimediálny projektor, ktorý premení akúkoľvek miestnosť na súkromné kino. Je vybavený systémom Android 14, natívnym rozlíšením Full HD 1080p, podporou 8K, jasom 400 ANSI lúmenov, ultrarýchlym Wi-Fi 6, Bluetooth 5.4, 180° projekciou, automatickým zaostrovaním a inteligentnou korekciou obrazu. Vďaka bezdrôtovému zrkadleniu obrazovky zo zariadení s operačnými systémami Android, iOS a Windows, hlasovému ovládaniu a diaľkovému ovládaču Air Mouse s gyroskopom je používanie projektora mimoriadne pohodlné. Jeho kompaktný dizajn vám umožňuje vziať si ho kamkoľvek a veľkosť obrazu až 135 palcov poskytuje skutočne kinematografický zážitok.</p>
+<p>
+<img alt="Projektor Magcubic HY320Pro umiestnený na stole, pohľad na produkt z uhla." border="0" src="https://assets.innpro.pl/22766/29829/12.jpg"/>
+</p><h3>Domáce kino na veľkej obrazovke s uhlopriečkou až 135 palcov</h3>
+<p>Zabudnite na obmedzenia tradičnej televízie. Magcubic HY320Pro zobrazuje obraz s uhlopriečkou od 35 do 135 palcov, čo vám umožňuje vytvoriť pôsobivú zónu zábavy aj v malej miestnosti. Sledujte filmy, televízne programy, športové podujatia a živé prenosy na obrazovke, ktorá ponúka oveľa viac vzrušenia ako bežný televízor. Je to ideálne riešenie pre nadšencov domáceho kina, rodinné filmové večery a spoločné hranie hier.</p>
+<p>
+<img alt="Projektor Magcubic premietajúci obraz na stenu, stojací vedľa iného projektora premietajúceho menší obraz" border="0" src="https://assets.innpro.pl/22766/29829/3.jpg"/>
+</p><h3>Nativná podpora Full HD 1080p a 8K – obraz, ktorý poteší svojimi detailmi</h3>
+<p>Nativné rozlíšenie 1920 × 1080 px zaručuje jasný, detailný a prirodzený obraz. Podpora obsahu v rozlíšení 8K vám umožňuje vychutnávať si moderný obsah bez obmedzení kompatibility. V kombinácii s jasom 400 ANSI lúmenov a kontrastným pomerom 2000:1 poskytuje projektor živé farby, hlbokú čiernu a vysokú čistotu obrazu, vďaka čomu každá scéna vyzerá pôsobivo, či už sledujete filmy alebo hráte hry.</p>
+<p>
+<img alt="Projektor Magcubic s automatickou korekciou obrazu premietaný na stenu." border="0" src="https://assets.innpro.pl/22766/29829/8.jpg"/>
+</p><h3>Inteligentné nastavenie – dokonalý obraz za pár sekúnd</h3>
+<p>Magcubic HY320Pro je vybavený pokročilými funkciami automatického kalibrovania obrazu. Funkcia automatického zaostrovania okamžite upraví zaostrenie, zatiaľ čo automatická korekcia lichobežníka zabezpečí dokonalé proporcie obrazu. Okrem toho funkcia vyrovnania obrazovky a inteligentné vyhýbanie sa prekážkam umožňujú projektoru automaticky prispôsobiť projekciu podmienkam v miestnosti. Výsledok? Perfektný obraz bez manuálneho nastavovania alebo straty času.</p>
+<p>
+<img alt="Projektor Magcubic premietajúci obraz auta v showroome, bezdrôtové pripojenie označené ikonami." border="0" src="https://assets.innpro.pl/22766/29829/4.jpg"/>
+</p><h3>180° projekcia – úplná sloboda pri sledovaní</h3>
+<p>Unikátny dizajn, ktorý sa dá otočiť až o 180°, vám umožňuje nasmerovať obraz presne tam, kam chcete. Premietajte filmy na stenu, strop alebo pod akýmkoľvek uhlom bez nutnosti presúvať nábytok alebo inštalovať dodatočné držiaky. Je to praktické riešenie, ktoré zvyšuje komfort používateľa a umožňuje vám vytvoriť perfektné podmienky na relax kdekoľvek.</p>
+<p>
+<img alt="Premietanie obrazu na strop vedľa postele." border="0" src="https://assets.innpro.pl/22766/29829/5.jpg"/>
+</p><h3>Android 14 – vaše obľúbené aplikácie vždy na dosah ruky</h3>
+<p>Vďaka systému Android 14 funguje projektor ako samostatné mediálne centrum. Používajte streamovacie aplikácie, prehliadajte web, inštalujte nové programy a spravujte svoje médiá bez nutnosti pripájať ďalšie zariadenia. Vstavaná 8 GB pamäť a 1 GB RAM zabezpečujú plynulú prevádzku kľúčových funkcií a rýchly prístup k zábave.</p>
+<p>
+<img alt="Projektor Magcubic s diaľkovým ovládačom a ikonami pre multimediálne funkcie a aplikácie." border="0" src="https://assets.innpro.pl/22766/29829/11.jpg"/>
+</p><h3>Bezdrôtové zrkadlenie obrazovky z telefónu, tabletu a počítača</h3>
+<p>Magcubic HY320Pro podporuje bezdrôtové vysielanie pre systémy Android, iOS a Windows, čo vám umožňuje okamžite zobraziť fotografie, prezentácie, videá alebo obrazovku smartfónu na veľkej projekčnej ploche. Ak potrebujete stabilné káblové pripojenie, projektor ponúka aj porty na pripojenie notebooku, hernej konzoly, TV boxu alebo iných multimediálnych zariadení.</p>
+<p>
+<img alt="Projektor Magcubic premietajúci obraz na stenu, vedľa smartfónu pripojeného bezdrôtovo" border="0" src="https://assets.innpro.pl/22766/29829/7.jpg"/>
+</p><h3>Wi-Fi 6 a Bluetooth 5.4 – rýchlejšie, stabilnejšie a pohodlnejšie</h3>
+<p>Moderné dual-band moduly Wi-Fi 6 a Bluetooth 5.4 zabezpečujú rýchly prenos dát, plynulé streamovanie online obsahu a stabilné pripojenie k bezdrôtovým príslušenstvám. Pripojte slúchadlá, reproduktory, ovládače alebo iné Bluetooth zariadenia a užite si úplnú slobodu používania bez zbytočných káblov.</p>
+<p>
+<img alt="Projektor Magcubic používaný pri sledovaní filmu vonku." border="0" src="https://assets.innpro.pl/22766/29829/1.jpg"/>
+</p><h3>Hlasové ovládanie a diaľkový ovládač Air Mouse s 6-osovým gyroskopom</h3>
+<p>Ovládanie projektora je mimoriadne intuitívne vďaka diaľkovému ovládaču vybavenému funkciou Air Mouse a 6-osovým gyroskopickým senzorom. Ovládajte kurzor gestami rúk, rýchlo sa pohybujte v ponukách a používajte hlasové príkazy bez nutnosti písania. Toto riešenie výrazne zvyšuje každodennú použiteľnosť a robí navigáciu rýchlou a prirodzenou.</p>
+<p>
+<img alt="Diaľkové ovládanie pre projektor Magcubic s funkciami hlasového ovládania a vzduchového kurzora." border="0" src="https://assets.innpro.pl/22766/29829/6.jpg"/>
+</p><h3>Kompaktná veľkosť, ktorú si môžete vziať kamkoľvek</h3>
+<p>S hmotnosťou len asi 0,6 kg a kompaktnými rozmermi sa projektor ľahko zmestí do tašky alebo batohu. Je ideálny na domáce použitie, výlety, stretnutia s priateľmi, prezentácie alebo letné večery. Jeho malé rozmery idú ruka v ruke s veľkými schopnosťami, takže môžete mať svoje vlastné kino vždy na dosah ruky.</p>
+<p>
+<img alt="Projektor Magcubic umiestnený v taške." border="0" src="https://assets.innpro.pl/22766/29829/10.jpg"/>
+</p><h3>Vstavaný reproduktor a široká kompatibilita so zariadeniami</h3>
+<p>Projektor je vybavený 5 W reproduktorom, ktorý poskytuje čistý zvuk pre každodenné sledovanie. Široká kompatibilita so zariadeniami pripojenými cez HDMI, USB a audio mu umožňuje pracovať s konzolami PS4 a PS5, počítačmi, notebookmi, TV stickmi, TV boxmi, smartfónmi a USB kľúčmi. Bez ohľadu na zdroj obrazu sa Magcubic HY320Pro ľahko stane stredobodom vašej domácej zábavy.</p>
+<p>
+<img alt="Projektor Magcubic v prevádzke v rôznych miestnostiach domu." border="0" src="https://assets.innpro.pl/22766/29829/9.jpg"/>
+</p>
+<h3>Obsah balenia:</h3>
+<ul class="list-disc pl-5"><li>Projektor Magcubic HY320Pro</li><li>Diaľkové ovládanie Air Mouse</li><li>Napájací adaptér</li><li>Návod na použitie</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Magcubic</td></tr><tr><th>Model</th><td>HY320Pro</td></tr><tr><th>Typ zariadenia</th><td>LCD multimediálny projektor</td></tr><tr><th>Operačný systém</th><td>Android 14</td></tr><tr><th>RAM</th><td>1 GB</td></tr><tr><th>Vnútorná pamäť</th><td>8 GB</td></tr><tr><th>Natívne rozlíšenie</th><td>1920 × 1080 px (Full HD)</td></tr><tr><th>Podpora videa</th><td>Až 8K</td></tr><tr><th>Jas</th><td>400 ANSI lúmenov</td></tr><tr><th>Kontrastný pomer</th><td>2000:1</td></tr><tr><th>Veľkosť obrazovky</th><td>35–135 palcov</td></tr><tr><th>Pomer strán</th><td>16:9</td></tr><tr><th>Vzdialenosť premietania</th><td>0,6–2,5 m</td></tr><tr><th>Projekcia</th><td>Predná a zadná</td></tr><tr><th>Nastavenie uhla projekcie</th><td>180°</td></tr><tr><th>Nastavenie zaostrenia</th><td>Automatické</td></tr><tr><th>Korekcia lichobežníka</th><td>Automatická a manuálna</td></tr><tr><th>Korekcia obrazu</th><td>4-bodová</td></tr><tr><th>Vyrovnanie obrazovky</th><td>Áno</td></tr><tr><th>Vyhýbanie sa prekážkam</th><td>Áno</td></tr><tr><th>Bezdrôtová konektivita</th><td>Wi-Fi 6 Dual Band</td></tr><tr><th>Bluetooth</th><td>5.4</td></tr><tr><th>Streamovanie obrazu</th><td>Android, iOS, Windows (Wireless Casting)</td></tr><tr><th>Hlasové ovládanie</th><td>Áno</td></tr><tr><th>Diaľkový ovládač Air Mouse</th><td>Áno</td></tr><tr><th>Snímač pohybu</th><td>6-osový gyroskop</td></tr><tr><th>Reproduktor</th><td>Vstavaný</td></tr><tr><th>Výkon reproduktora</th><td>5 W</td></tr><tr><th>Konektory</th><td>HDMI<br/>USB<br/>3,5 mm audio výstup</td></tr><tr><th>Napájanie</th><td>DC</td></tr><tr><th>Hmotnosť</th><td>0,593 kg</td></tr><tr><th>Rozmery</th><td>198,85 × 116 × 100 mm</td></tr><tr><th>Farba</th><td>Biela</td></tr><tr><th>Aplikácie</th><td>Filmy, televízne programy, hry, prezentácie, domáce a mobilné multimédiá</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87061_62047_pol_92f93e0dc557bc3a7f77166a0ad7c091" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/projektory-4/">Projektory</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Magcubic]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090294</CODE>
+<EAN>0757047110567</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Projektory]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>699</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="Projektor Magcubic HY320PRO">https://b2b.innpro.sk/hpeciai/5344fe8a7d403dd8178cc15b3052fa6d/62047_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Magcubic]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ zariadenia]]></NAME>
+    <VALUE><![CDATA[LCD multimediálny projektor]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Operačný systém]]></NAME>
+    <VALUE><![CDATA[Android 14]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[RAM]]></NAME>
+    <VALUE><![CDATA[1 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Vnútorná pamäť]]></NAME>
+    <VALUE><![CDATA[8 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Natívne rozlíšenie]]></NAME>
+    <VALUE><![CDATA[1920 × 1080 px (Full HD)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Podpora videa]]></NAME>
+    <VALUE><![CDATA[Až 8K]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Jas]]></NAME>
+    <VALUE><![CDATA[400 ANSI lúmenov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kontrastný pomer]]></NAME>
+    <VALUE><![CDATA[2000:1]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Veľkosť obrazovky]]></NAME>
+    <VALUE><![CDATA[35–135 palcov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pomer strán]]></NAME>
+    <VALUE><![CDATA[16:9]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pamäť RAM]]></NAME>
+    <VALUE><![CDATA[1 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Bluetooth, Wi-Fi, HDMI]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[24 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>1.10</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>85.50</PRICE_VAT>
+<PURCHASE_PRICE>60.37</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Projektor Magcubic HY320PRO | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Projektor Magcubic HY320PRO – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Router GL.iNet Mango s podporou Wi-Fi 4]]></NAME>
@@ -528343,14 +528823,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -586097,13 +586580,16 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87897_64814_pol_24ad3eefdfd9e4458b86ab5cd5d1eacd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/detektory/">Detektory a lokátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093318</CODE>
 <EAN>0786156007598</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 1">https://b2b.innpro.sk/hpeciai/f177506e358e8ba9d52ced99d614d344/64814_1_1.webp</IMAGE>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 2">https://b2b.innpro.sk/hpeciai/ad6c696968907fc4cc7a65260ff6287f/64814_2_1.webp</IMAGE>
@@ -608377,6 +608863,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -611538,34 +612025,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
-    <CODE>086336</CODE>
-    <EAN>0757047110420</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>086338</CODE>
-    <EAN>0757047110444</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>086344</CODE>
-    <EAN>0757047110505</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>086346</CODE>
-    <EAN>0757047110529</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
     <CODE>086457</CODE>
     <EAN>6955974958267</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -611853,6 +612312,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>088099</CODE>
+    <EAN>0786156005211</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>088102</CODE>
     <EAN>0786156005846</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -611872,7 +612338,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088508</CODE>
     <EAN>6975577881977</EAN>
@@ -611977,7 +612443,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
@@ -612170,13 +612636,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>090208</CODE>
     <EAN>6974662350954</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>090294</CODE>
-    <EAN>0757047110567</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -612376,7 +612835,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>VITURE Pro 2 XR – okuliare | PremiumStore.sk</SEO_TITLE><META_DESCRIPTION>Okuliare VITURE Pro 2 XR. Pozrite si parametre obrazu, možnosti pripojenia a kompatibilitu so zariadeniami pred výberom.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>091762</CODE>
     <EAN>6973137271619</EAN>
