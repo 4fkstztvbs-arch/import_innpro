@@ -5,7 +5,7 @@ const { applyConversionRules } = require('../apply-heureka-conversion-rules');
 
 const RULES = { maxAboveCheapestPct: 20, priceAtLeast: 1000, heurekaCategories: ['Solárne zostavy'], hideWithoutPurchasePrice: true, keepEans: { '0000000000005': 'x' } };
 const ctx = {
-  cheapest: new Map([['0000000000001', 100], ['0000000000002', 100]]),
+  cheapest: new Map([['0000000000001', 100], ['0000000000002', 100], ['0000000000004', 990]]),
   categories: new Map([['0000000000003', 'Solárne zostavy']]),
   isPilot: (e) => e === '0000000000006',
 };
@@ -34,4 +34,14 @@ test('odhad marže dodávateľa vypne pravidlo bez nákupnej ceny', () => {
   const x = item('0000000000008', 50, 0);
   assert.equal(applyConversionRules(x, r, { ...ctx, supplier: 'monacor.xml' }).stats.bezNakupnej, 0);
   assert.equal(applyConversionRules(x, r, { ...ctx, supplier: 'kb.xml' }).stats.bezNakupnej, 1);
+});
+
+test('drahá ponuka: skryje len ak report ukazuje lacnejšieho predajcu; BASYS nikdy', () => {
+  const r = { ...RULES, priceRuleSkipSuppliers: ['basys.xml'] };
+  const c = { ...ctx, cheapest: new Map([['0000000000009', 1150], ['0000000000010', 1300]]) };
+  const s = (ean, p, sup = 'kb.xml') => applyConversionRules(item(ean, p), r, { ...c, supplier: sup }).stats.cena;
+  assert.equal(s('0000000000009', 1200), 1);
+  assert.equal(s('0000000000010', 1200), 0);
+  assert.equal(s('0000000000011', 1200), 0);
+  assert.equal(s('0000000000009', 1200, 'basys.xml'), 0);
 });

@@ -3,7 +3,9 @@
   "maxAboveCheapestPct": 20,
   "_comment_maxAboveCheapestPct": "Naša cena o viac ako toľko % nad najlacnejším iným predajcom z posledného Heureka reportu (data/heureka-reports/price-targets.json). 30 dní: CR 2,5 % oproti 6,0 % priemeru.",
   "priceAtLeast": 1000,
-  "_comment_priceAtLeast": "PRICE_VAT od tejto sumy (EUR s DPH). 30 dní: 65 klikov, 0 objednávok.",
+  "_comment_priceAtLeast": "PRICE_VAT od tejto sumy (EUR s DPH). 30 dní: 65 klikov, 0 objednávok. Skryje sa LEN ak sortiment report ukazuje ponuku ako nekonkurencieschopnú (iný predajca v price-targets.json je lacnejší); bez údaja z reportu sa neskrýva (Martin 2026-10-25).",
+  "priceRuleSkipSuppliers": ["basys.xml"],
+  "_comment_priceRuleSkipSuppliers": "Feedy, na ktoré sa pravidlo priceAtLeast neuplatní vôbec (BASYS — Martin 2026-10-25). Ostatné pravidlá platia.",
   "heurekaCategories": [
     "Fotovoltaické a solárne panely",
     "Solárne a fotovoltaické komponenty",

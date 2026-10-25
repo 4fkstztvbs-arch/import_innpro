@@ -53,12 +53,15 @@ function hideReason(item, rules, ctx) {
   // InnPro Black Friday: PRICE_VAT je doporučená cena, zákazník platí ACTION_PRICE (apply-innpro-black-friday.js).
   const actionPrice = String(ctx.supplier).startsWith('innpro') ? parseFloat(tag(item, 'ACTION_PRICE')) : NaN;
   const price = actionPrice > 0 && actionPrice < regularPrice ? actionPrice : regularPrice;
-  if (rules.priceAtLeast > 0 && price >= rules.priceAtLeast) return 'cena';
+  const cheapest = ean ? ctx.cheapest.get(ean) : undefined;
+  // Drahá ponuka sa skryje len vtedy, keď ju sortiment report ukazuje ako nekonkurencieschopnú
+  // (iný predajca je lacnejší). Bez údaja z reportu sa samotná cena na skrytie nepoužije.
+  if (rules.priceAtLeast > 0 && price >= rules.priceAtLeast && !rules.priceRuleSkipSuppliers?.includes(ctx.supplier)
+    && cheapest > 0 && price > cheapest) return 'cena';
   if (rules.hideWithoutPurchasePrice && !(parseFloat(tag(item, 'PURCHASE_PRICE')) > 0)
     && !(rules.estimatedMarginPctBySupplier?.[ctx.supplier] > 0)) return 'bezNakupnej';
   if (!ean) return null;
   if (ctx.categories.has(ean) && rules.heurekaCategories?.includes(ctx.categories.get(ean))) return 'kategoria';
-  const cheapest = ctx.cheapest.get(ean);
   if (rules.maxAboveCheapestPct > 0 && cheapest > 0 && price > cheapest * (1 + rules.maxAboveCheapestPct / 100)) return 'drahsi';
   return null;
 }
@@ -93,7 +96,7 @@ function main() {
     const total = Object.values(stats).reduce((a, b) => a + b, 0);
     if (total && !nasucho) fs.writeFileSync(f, xml, 'utf-8');
     console.log(`Heureka konverzné pravidlá (${path.basename(f)}): skrytých ${total}${nasucho ? ' (nasucho)' : ''}`
-      + ` — drahší o >${rules.maxAboveCheapestPct} % ${stats.drahsi}, cena ≥${rules.priceAtLeast} € ${stats.cena},`
+      + ` — drahší o >${rules.maxAboveCheapestPct} % ${stats.drahsi}, cena ≥${rules.priceAtLeast} € a nie najlacnejší ${stats.cena},`
       + ` kategória ${stats.kategoria}, bez nákupnej ceny ${stats.bezNakupnej}`);
   }
 }
