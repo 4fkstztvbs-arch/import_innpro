@@ -11771,6 +11771,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -60582,6 +60583,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -106654,10 +106656,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -129898,6 +129902,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -142443,10 +142448,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.10</PRICE_VAT>
 <PURCHASE_PRICE>2.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -149214,6 +149221,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -149309,6 +149317,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -154459,6 +154468,7 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -180722,14 +180732,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -191900,6 +191910,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -203123,6 +203134,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -203794,14 +203806,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -224697,14 +224709,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -239443,6 +239458,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -244871,6 +244887,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -265257,6 +265274,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -294771,10 +294789,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.70</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -306770,6 +306790,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -306846,6 +306867,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -320488,10 +320510,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -345042,85 +345066,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <STANDARD_PRICE>87.12</STANDARD_PRICE>
 <ACTION_PRICE>67.00</ACTION_PRICE>
 <FLAGS><FLAG><CODE>action</CODE><ACTIVE>1</ACTIVE></FLAG></FLAGS>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Počítačová skriňa DarkFlash DS950 (biela)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Počítačová skriňa DarkFlash DS950 (biela) DarkFlash DS950 je počítačová skriňa ATX, ktorá vám umožňuje zostaviť výkonnú konfiguráciu pre hranie hier a ďalšie účely. Konštrukcia ponúka 270°…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Počítačová skriňa DarkFlash DS950 (biela)</h3>
-<p>DarkFlash DS950 je počítačová skriňa ATX, ktorá vám umožňuje zostaviť výkonnú konfiguráciu pre hranie hier a ďalšie účely. Konštrukcia ponúka 270° panoramatický výhľad, vďaka čomu je vnútro počítača úplne viditeľné z dvoch strán – takže môžete zaujímavým spôsobom prezentovať vybrané komponenty, napríklad tie s RGB osvetlením. K dispozícii máte aj bohatú sadu portov, vrátane USB-C 3.2 Gen 2. Skriňa podporuje základné dosky ATX, Micro-ATX a ITX a má rozmery 450 × 222 × 465 mm. Je vyrobená z plechu SPCC s hrúbkou 0,5 mm, ktorý poskytuje stabilný a pevný základ pre pokročilé konfigurácie.</p>
-<p>
-<img alt="Biela skriňa PC s ventilátormi RGB v futuristickej čiernej chodbe" border="0" src="https://assets.innpro.pl/19379/25821/Obudowa-komputerowa-DarkFlash-DS950-biala-lifestyle-1.jpg"/>
-</p><h3>270° panoramatický dizajn</h3>
-<p>Skriňa je vybavená dvoma priehľadnými panelmi bez vertikálneho profilu, ktoré poskytujú široký výhľad na komponenty. Tento dizajn umožňuje zaujímavé vizuálne efekty – napríklad môžete predviesť RGB ventilátory alebo vodné chladenie s displejom. Dajte svojmu počítaču jedinečný charakter!</p>
-<p>
-<img alt="Záber-zväčšený detail bielej skrine počítača s farebnými ventilátormi RGB na svetlom pozadí" border="0" src="https://assets.innpro.pl/19379/25821/Obudowa-komputerowa-DarkFlash-DS950-biala-lifestyle-3.jpg"/>
-</p><h3>Efektívne odvádzanie tepla a ochrana proti prachu</h3>
-<p>Model DS950 využíva systém hustých sietí, ktoré zabezpečujú efektívne odvádzanie tepla a zároveň chránia pred prachom. Ventilačné otvory sa nachádzajú v zadnej, bočnej a spodnej časti konštrukcie, čo umožňuje voľný prietok vzduchu v celom interiéri. Okrem toho prachové filtre pomáhajú udržať komponenty dlhšie čisté.</p>
-<p>
-<img alt="Biela skriňa počítača s osvetlenými ventilátormi RGB v futuristickom bielom interiéri" border="0" src="https://assets.innpro.pl/19379/25821/Obudowa-komputerowa-DarkFlash-DS950-biala-lifestyle-2.jpg"/>
-</p><h3>Vytvorte efektívny chladiaci systém</h3>
-<p>Skriňa umožňuje inštaláciu vodného chladenia s rozmermi 240, 280 alebo 360 mm na hornom paneli. Môžete do nej nainštalovať aj 9 ventilátorov. Vďaka tomu je jednoduché vytvoriť efektívny chladiaci systém prispôsobený potrebám moderných procesorov a grafických kariet. Hrajte najnovšie hry a používajte náročný softvér bez obáv z prehriatia počítača!</p>
-<p>
-<img alt="Schéma prúdenia vzduchu v bielej skrini počítača s označenými ventilátormi" border="0" src="https://assets.innpro.pl/19379/25821/Obudowa-komputerowa-DarkFlash-DS950-biala-lifestyle-4.jpg"/>
-</p><h3>Premyslený priestor pre komponenty</h3>
-<p>Vnútro skrine je navrhnuté tak, aby umožňovalo pohodlné rozširovanie a jednoduchú správu komponentov. Konštrukcia umožňuje inštaláciu grafickej karty s dĺžkou až 400 mm a chladiča CPU s výškou až 180 mm. K dispozícii je tiež priestor pre jeden SSD alebo dva HDD, takže si môžete flexibilne nakonfigurovať úložný priestor pre dáta. DS950 je kompatibilný aj so základnými doskami ITX, M-ATX a ATX.</p>
-<p>
-<img alt="Rez bielej skrini počítača s viditeľnými ventilátormi a priestorom pre komponenty" border="0" src="https://assets.innpro.pl/19379/25821/Obudowa-komputerowa-DarkFlash-DS950-biala-lifestyle-6.jpg"/>
-</p><h3>Užitočné porty a tlačidlá</h3>
-<p>Ovládací panel umiestnený v spodnej časti skrinky poskytuje pohodlný prístup k najdôležitejším portom a tlačidlám. K dispozícii máte konektory USB-A 2.0, USB-A 3.0 a USB-C 3.2 Gen 2, ktoré poskytujú prenosové rýchlosti až 10 Gbit/s. Takže potrebné súbory môžete prenášať v okamihu! K dispozícii je aj HD audio konektor, tlačidlo resetovania a tlačidlo napájania.</p>
-<p>
-<img alt="Grafika znázorňujúca kompatibilitu rozmerov komponentov v bielej skrini počítača" border="0" src="https://assets.innpro.pl/19379/25821/Obudowa-komputerowa-DarkFlash-DS950-biala-lifestyle-5.jpg"/>
-</p><h3>Rýchly prístup do vnútra</h3>
-<p>Skriňa DS950 je navrhnutá tak, aby poskytovala maximálne pohodlie pri inštalácii a modernizácii komponentov. Bočné panely využívajú mechanizmus rýchleho uvoľnenia Snap-Fit, ktorý vám umožňuje efektívne otvoriť skriňu bez použitia náradia. Okrem toho dodatočné ručne dotiahnuté skrutky zvyšujú stabilitu konštrukcie a uľahčujú akékoľvek modernizácie.</p>
-<p>
-<img alt="Biela skriňa počítača s rozloženými panelmi na sivom pozadí" border="0" src="https://assets.innpro.pl/19379/25821/Obudowa-komputerowa-DarkFlash-DS950-biala-lifestyle-7.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>DarkFlash</td></tr><tr><th>Model</th><td>DS950</td></tr><tr><th>Typ skrinky</th><td>Midi tower</td></tr><tr><th>Bočný panel</th><td>Tvrdené sklo</td></tr><tr><th>Štandard základnej dosky</th><td>ATX / M-ATX / ITX</td></tr><tr><th>Štandard napájania</th><td>ATX</td></tr><tr><th>Vnútorné pozície pre disky</th><td>SSD x1 / HDD x2</td></tr><tr><th>Sloty pre rozširujúce karty</th><td>7</td></tr><tr><th>Maximálna dĺžka napájacieho zdroja</th><td>200 mm</td></tr><tr><th>Maximálna dĺžka grafickej karty</th><td>400 mm</td></tr><tr><th>Maximálna výška chladiča CPU</th><td>180 mm</td></tr><tr><th>Maximálny počet ventilátorov</th><td>9</td></tr><tr><th>Možnosti montáže ventilátorov</th><td>Hore: 120 mm x3 / 140 mm x2<br/>Bočne: 120 mm x2<br/>Zadná strana: 120 mm x1<br/>Spodná strana: 120 mm x3</td></tr><tr><th>Možnosti montáže vodného chladenia</th><td>Horná strana: 360 mm / 280 mm / 240 mm<br/>Zadná strana 120 mm</td></tr><tr><th>Počet nainštalovaných ventilátorov</th><td>Žiadne ventilátory nainštalované</td></tr><tr><th>Typ ventilátora</th><td>Žiadne ventilátory nainštalované</td></tr><tr><th>Tlačidlá a ovládacie prvky</th><td>Napájanie, Reset</td></tr><tr><th>Konektory</th><td>USB-C 3.2 Gen 2 x1, USB-A 3.0 x1, USB-A 2.0 x1, HD Audio</td></tr><tr><th>Materiál</th><td>0,5 mm SPCC</td></tr><tr><th>Farba</th><td>Biela</td></tr><tr><th>Výška</th><td>465 mm</td></tr><tr><th>Šírka</th><td>222 mm</td></tr><tr><th>Hĺbka</th><td>450 mm</td></tr><tr><th>Hmotnosť</th><td>Približne 6,3 kg</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76740_56887_pol_16af0cb8587de00d4e4d3c6b712dbbdd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/pocitacove-skrine/">Počítačové skrine</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[darkFlash]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>082905</CODE>
-<EAN>4711527008412</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > Počítačové skrine]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (biela) - obrázok 1">https://b2b.innpro.sk/hpeciai/dbc832ac7b3eabd05827f2f092d0ec32/56887_2.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (biela) - obrázok 2">https://b2b.innpro.sk/hpeciai/fbc57caa0a6ce7ec60348d714de195da/56887_1.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (biela) - obrázok 3">https://b2b.innpro.sk/hpeciai/67b29bf950f6a6929d3c15f548c3a2ee/56887_3.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (biela) - obrázok 4">https://b2b.innpro.sk/hpeciai/961d436b89c8000fc3f216ef92e51a42/56887_4.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa DarkFlash DS950 (biela) - obrázok 5">https://b2b.innpro.sk/hpeciai/0f912e0f2e1f2f9a1184c006e3a3ee8c/56887_5.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[biela]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>17.27</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>45.00</PRICE_VAT>
-<PURCHASE_PRICE>30.67</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Počítačová skriňa DarkFlash DS950 (biela) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Počítačová skriňa DarkFlash DS950 (biela) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Počítačová skriňa DarkFlash DS950 (biela) + 6 ventilátorov]]></NAME>
@@ -370450,6 +370395,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -386140,6 +386086,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -396839,6 +396786,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -396929,6 +396877,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -402958,6 +402907,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -407029,6 +406979,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -417541,6 +417492,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -444805,6 +444757,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -453877,7 +453830,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -460020,14 +459976,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -484727,6 +484687,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -486741,6 +486702,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -488287,6 +488249,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -488604,6 +488567,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -513148,10 +513112,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -524953,10 +524919,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>18.03</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -526899,10 +526867,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>29.00</PRICE_VAT>
 <PURCHASE_PRICE>20.56</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -528585,14 +528555,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -576801,6 +576774,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -586327,13 +586301,16 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87897_64814_pol_24ad3eefdfd9e4458b86ab5cd5d1eacd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/detektory/">Detektory a lokátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093318</CODE>
 <EAN>0786156007598</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 1">https://b2b.innpro.sk/hpeciai/f177506e358e8ba9d52ced99d614d344/64814_1_1.webp</IMAGE>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 2">https://b2b.innpro.sk/hpeciai/ad6c696968907fc4cc7a65260ff6287f/64814_2_1.webp</IMAGE>
@@ -601240,148 +601217,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Mini PC GMKTEC M8 s procesorom AMD Ryzen 5 PRO 6650H, 16 GB a 1 TB – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Mini PC GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB Mini PC Počítač GMKTEC EVO-X3 bol navrhnutý pre používateľov, ktorí hľadajú kompaktný počítač schopný zvládnuť tak profesionálne úlohy v oblasti umelej…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB Mini PC</h3>
-<p>Počítač GMKTEC EVO-X3 bol navrhnutý pre používateľov, ktorí hľadajú kompaktný počítač schopný zvládnuť tak profesionálne úlohy v oblasti umelej inteligencie, ako aj zábavu. Procesor AMD Ryzen AI Max+ 395 kombinuje 16 jadier, integrovanú NPU XDNA 2 a grafickú kartu Radeon 8060S, čím poskytuje celkový výpočtový výkon v oblasti umelej inteligencie až 126 TOPS. Je vybavený až 128 GB rýchlej pamäte LPDDR5X s frekvenciou 8000 MT/s a 4 TB SSD s rozhraním PCIe 4.0, čo poskytuje slobodu pracovať na zložitých projektoch, jazykových modeloch a viacerých aplikáciách súčasne. Vďaka pokročilému chladiacemu systému, Wi-Fi 7, Bluetooth 5.4, sieťovému pripojeniu 2,5 GbE a širokej škále rozhraní môžete tento počítač využívať ako stredobod pokročilej pracovnej stanice alebo hernej zostavy. Celok dopĺňa podpora systémov Windows 11 Pro, Linux alebo Ubuntu spolu so softvérom Claw určeným na spracovanie umelej inteligencie priamo v zariadení.</p>
-<p>
-<img alt="Sivé mini PC pripojené prostredníctvom kábla OCuLink k externej grafickej stanici vybavené tromi ventilátormi." border="0" src="https://assets.innpro.pl/24794/32568/3-04feba8b-0e94-4092-bef8-ed8f13a08cb5.jpg"/>
-</p><h3>Ryzen AI: Pripravený na veľké modely</h3>
-<p>Srdcom modelu EVO-X3 je procesor AMD Ryzen AI Max+ 395, ktorý ponúka 16 jadier a 32 vlákien, taktovaciu frekvenciu dosahujúcu 5,1 GHz a 64 MB vyrovnávacej pamäte L3. Procesor poskytuje celkový výpočtový výkon umelej inteligencie až 126 TOPS, pričom integrovaná jednotka XDNA 2 NPU prispieva až 50 TOPS, čo umožňuje efektívne vykonávanie generatívnych úloh umelej inteligencie bez potreby presúvania výpočtov do cloudu. AMD Ryzen AI Max+ 395 je prvý počítačový procesor Copilot+ na svete, ktorý je schopný lokálne spúšťať modely LLM s 70 miliardami parametrov v prostredí počítača s Windows 11 AI+, čím otvára širokú škálu možností pre vývojárov, tvorcov a používateľov profesionálnych nástrojov umelej inteligencie.</p>
-<p>
-<img alt="Procesor s označením „AMD RYZEN AI“ obklopený menšími integrovanými obvodmi a modrými vodivými linkami." border="0" src="https://assets.innpro.pl/24794/32568/8-7f2107ae-a8e0-4d10-88b6-636a63bc36b7.jpg"/>
-</p><h3>Premyslená architektúra</h3>
-<p>Pri lokálnej inferencii v profesionálnom prostredí LM Studio dokáže Ryzen AI Max+ 395 dosiahnuť až 2,2-násobne vyšší výkon umelej inteligencie ako NVIDIA GeForce RTX 4090, pričom v porovnateľnom scenári ponúka až o 87 % nižšiu spotrebu energie. Architektúra je tiež navrhnutá tak, aby zvládala vysoko komplexné modely umelej inteligencie, vrátane riešení s biliónmi parametrov. Vďaka tomu je možné náročné operácie vykonávať lokálne, čo znižuje potrebu prenosu dát mimo počítač, znižuje spotrebu energie a umožňuje vytvorenie vysokovýkonného výpočtového prostredia pre prácu s umelou inteligenciou.</p>
-<p>
-<img alt="Osem čiernych integrovaných obvodov so zeleným podsvietením usporiadaných do dvoch radov na doske s plošnými spojmi." border="0" src="https://assets.innpro.pl/24794/32568/10-9ebaf512-e46a-4563-b39f-ecc53b03604b.jpg"/>
-</p><h3>128 GB pamäte bez kompromisov</h3>
-<p>Vďaka obrovskej kapacite 128 GB je EVO-X3 pripravený zvládnuť náročné procesy – od lokálnych modelov umelej inteligencie a spracovania veľkých dát až po multitasking s profesionálnym softvérom. Použitá pamäť LPDDR5X dosahuje rýchlosť až 8 000 MT/s, čo zaisťuje mimoriadne efektívny prenos dát a plynulé prepínanie medzi viacerými aplikáciami aj pri vysokom zaťažení systému. Zároveň bolo toto riešenie optimalizované z hľadiska energetickej účinnosti a dokáže spotrebovať až o 30 % menej energie, čím kombinuje vysokú šírku pásma s energeticky úspornejšou prevádzkou. Konfiguráciu dopĺňa SSD PCIe 4.0 M.2 2280 s kapacitou až 4 TB, ktorý poskytuje dostatok priestoru pre projekty, hry, aplikácie a lokálne modely umelej inteligencie.</p>
-<p>
-<img alt="Šedý mini PC značky GMKtec vo vertikálnej polohe, vedľa ktorého stoja dva pamäťové moduly so zeleným podsvietením." border="0" src="https://assets.innpro.pl/24794/32568/2-e764c575-d4b3-47f6-9489-05207cac42b4.jpg"/>
-</p><h3>Radeon 8060S pre prácu aj hranie</h3>
-<p>Integrovaná grafická karta AMD Radeon 8060S, založená na architektúre RDNA 3.5, dokazuje, že kompaktný počítač nemusí znamenať obetovanie vysokého grafického výkonu. Čip disponuje 40 výpočtovými jednotkami (CU) a taktovacou frekvenciou až 2900 MHz, čím poskytuje výkon potrebný nielen na prácu s vizuálnym obsahom, ale aj na spúšťanie náročných AAA hier. Vďaka tomu môže EVO-X3 slúžiť súčasne ako profesionálna pracovná stanica, platforma pre vývoj umelej inteligencie aj ako vysokovýkonný počítač na zábavu – a to všetko bez potreby tradičnej, veľkej stolnej skrine.</p>
-<p>
-<img alt="Grafický procesor s označením „AMD RADEON“, namontovaný na čiernej doske s plošnými spojmi so zeleným podsvietením." border="0" src="https://assets.innpro.pl/24794/32568/7-a086e0e7-f168-4106-885c-1002b5416081.jpg"/>
-</p><h3>Chladenie navrhnuté pre výkon 140 W</h3>
-<p>Špičkové komponenty vyžadujú efektívne odvádzanie tepla, preto je konštrukcia vybavená inteligentne riadeným chladiacim systémom s dvoma ventilátormi a tromi medenými tepelnými trubicami. Systém pokrýva celú plochu procesora a je navrhnutý pre stabilnú prevádzku pri špičkovom výkone až 140 W, čím pomáha udržiavať správnu teplotu aj počas dlhých a intenzívnych pracovných úloh. Používatelia si môžu vybrať medzi tromi výkonovými profilmi – Výkon, Vyvážený a Úspora energie – a prispôsobiť tak prevádzku počítača svojim aktuálnym potrebám. Inteligentné riadenie ventilátorov pomáha udržiavať optimálnu rovnováhu medzi účinnosťou chladenia a tichou prevádzkou.</p>
-<p>
-<img alt="Otvorená skriňa mini PC odhaľujúca dva ventilátory a medený chladiaci systém s viditeľným prúdom vzduchu." border="0" src="https://assets.innpro.pl/24794/32568/4-5ca10bcf-9f18-4a4b-aa50-922bace7eb1c.jpg"/>
-</p><h3>Sieťové pripojenie Wi-Fi 7 a 2,5 GbE</h3>
-<p>Vysokorýchlostné bezdrôtové pripojenie zabezpečuje modul RZ717, ktorý podporuje Wi-Fi 7 a Bluetooth 5.4. Rýchlosť Wi-Fi pripojenia môže dosiahnuť až 2,9 Gb/s, čo zaručuje nízku latenciu, silný signál a stabilný prenos pri sťahovaní veľkých súborov, práci v sieti, hraní hier alebo využívaní zdrojov umelej inteligencie. Pre používateľov, ktorí uprednostňujú káblové pripojenie, je k dispozícii port 2,5 GbE RJ45 využívajúci sieťový čip 8125BG. Priepustnosť až 2,5 Gb/s je až 2,5-krát vyššia ako v prípade štandardnej siete Gigabit Ethernet, čo môže byť obzvlášť dôležité pri prenose zložitých projektov a veľkých dátových súborov.</p>
-<p>
-<img alt="Šedý mini PC GMKtec vo vertikálnej skrinke na podstavci, zobrazený z prednej a zadnej strany s portami." border="0" src="https://assets.innpro.pl/24794/32568/1-b222faff-c10f-4e02-91d1-b02f713b53db.jpg"/>
-</p><h3>Rozhrania pre náročných používateľov</h3>
-<p>Bohatá ponuka portov vám umožňuje ľahko rozšíriť vašu pracovnú stanicu bez obmedzenia na základné príslušenstvo. OCuLink PCIe Gen4 x4 umožňuje rýchlu komunikáciu s kompatibilnými externými zariadeniami, zatiaľ čo USB4 ponúka šírku pásma až 40 Gb/s. K dispozícii je aj rozhranie HDMI 2.1, káblové sieťové pripojenie 2,5 GbE RJ45 a 3,5 mm audio konektor, vďaka čomu môže EVO-X3 slúžiť ako stredobod pokročilej pracovnej stanice s monitorom, vysokorýchlostným úložiskom dát a ďalšími zariadeniami.</p>
-<p>
-<img alt="Vertikálna skrinka mini PC so zapojeným zeleným ethernetovým káblom RJ-45." border="0" src="https://assets.innpro.pl/24794/32568/9-e6b40347-6c4c-4431-954d-722237d9ea7d.jpg"/>
-</p><h3>Vstavaná umelá inteligencia s softvérom Claw</h3>
-<p>EVO-X3 je ideálny na tvorbu a vývoj projektov umelej inteligencie, využívanie generatívnej umelej inteligencie, analýzu finančných údajov, kreatívnu prácu a hranie AAA titulov. Počítač bol optimalizovaný pre spoluprácu s lokálnym softvérom Claw, ktorý je navrhnutý tak, aby zefektívnil prevádzku nástrojov umelej inteligencie a poskytoval prístup k funkciám, ktoré zvyšujú produktivitu, podporujú tvorbu obsahu a umožňujú interakciu s inteligentným asistentom. Toto riešenie tiež umožňuje vzdialený prístup z mobilných zariadení prostredníctvom aplikácie WhatsApp, čím rozširuje prístup k lokálnemu prostrediu umelej inteligencie aj mimo samotnej počítačovej pracovnej stanice. Kompatibilita s Windows 11 Pro, Linuxom a Ubuntu vám umožňuje prispôsobiť systém pre obchodné, vývojárske, kreatívne alebo zábavné účely.</p>
-<p>
-<img alt="Šesť grafických rozhraní znázorňujúcich okrem iného robota, editáciu videa, 3D grafiku a grafy." border="0" src="https://assets.innpro.pl/24794/32568/5-106a484a-36ca-4e39-a106-8e73867a7dfe.jpg"/>
-</p>
-<h3>Obsah balenia</h3>
-<ul class="list-disc pl-5"><li>Mini PC GMKTEC EVO-X3</li><li>napájací kábel</li><li>HDMI kábel</li><li>užívateľská príručka</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>GMKtec</td></tr><tr><th>Model</th><td>EVO-X3</td></tr><tr><th>Procesor</th><td>AMD Ryzen™ AI Max+ 395; 16 jadier, 32 vlákien, technológia TSMC 4 nm FinFET, až 5,1 GHz; 16 MB vyrovnávacia pamäť L2 / 64 MB vyrovnávacia pamäť L3, až 126 TOPS</td></tr><tr><th>Model procesora</th><td>AMD Ryzen™ AI Max+ 395</td></tr><tr><th>Technológia procesora</th><td>TSMC 4 nm FinFET</td></tr><tr><th>Grafická karta</th><td>Radeon 8060S; 40 jadier, 2900 MHz</td></tr><tr><th>NPU</th><td>Nová architektúra XDNA 2, až 50 TOPS</td></tr><tr><th>RAM</th><td>64 GB/128 GB LPDDR5X, 8 000 MT/s (8 GB × 8 alebo 16 GB × 8) v balení</td></tr><tr><th>ROM</th><td>1 TB / 4 TB M.2 2280 PCIe 4.0 × 4 SSD v balení</td></tr><tr><th>Maximálna úložná kapacita</th><td>2 × SSD M.2 2280 PCIe 4.0 × 4, max. 8 TB × 2 = 16 TB</td></tr><tr><th>Displej</th><td>Žiadny</td></tr><tr><th>Grafický výstup</th><td>HDMI 2.1 × 1 + USB4 × 1</td></tr><tr><th>Wi-Fi</th><td>RZ717 (MT7925)</td></tr><tr><th>Rýchlosť Wi-Fi</th><td>Až 2,9 Gb/s</td></tr><tr><th>Bluetooth</th><td>BT 5.4</td></tr><tr><th>Batéria</th><td>Vstavaná článková batéria</td></tr><tr><th>Nabíjačka</th><td>Vstup DC 19,5 V 11,8 A</td></tr><tr><th>Audio</th><td>1x kombinovaný konektor Ø3,5 mm</td></tr><tr><th>USB</th><td>Typ A: 2 x USB-A 3.2 Gen1 (5 Gb/s)</td></tr><tr><th>Tlačidlo napájania</th><td>Tlačidlo napájania s bielou LED diódou</td></tr><tr><th>Nabíjací port</th><td>1x Ø5,5 × 2,5 mm</td></tr><tr><th>HDMI</th><td>1 x HDMI 2.1 typ A FRL</td></tr><tr><th>OCulink</th><td>1x PCIe Gen4 x4 – funkcia hot-plug nie je podporovaná</td></tr><tr><th>USB typ A</th><td>1 x USB 3.2 Gen2 (10 Gb/s)</td></tr><tr><th>USB Type-C</th><td>1× USB4 (vstup PD 3.0 až 100 W / výstup DP 4K pri 60 Hz / prenos dát až 40 Gb/s)</td></tr><tr><th>RJ45</th><td>1× 2,5 Gb LAN 8125BG</td></tr><tr><th>Indikátor</th><td>Biela LED</td></tr><tr><th>Použitie</th><td>Klávesnica a myš</td></tr><tr><th>Operačný systém</th><td>Podporuje Windows 11 Pro</td></tr><tr><th>Jazyk</th><td>Predvolene angličtina (zjednodušená čínština, tradičná čínština, angličtina, francúzština, thajčina, španielčina, kórejčina, japončina, nemčina, hebrejčina, ruština, portugalčina, arabčina)</td></tr><tr><th>Výdrž batérie</th><td>Externý zdroj napájania</td></tr><tr><th>Nastavenia systému</th><td>Stlačením tlačidla napájania zapnete zariadenie</td></tr><tr><th>Aplikácie</th><td>Pracovná stanica pre superpočítačové výpočty s využitím umelej inteligencie, domáce a osobné použitie, malé a stredné podniky, inteligentná výroba, kreatívny dizajn, inteligentný maloobchod, zdravotníctvo, vzdelávanie, živé vysielanie atď.</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87873_65463_pol_10b69a95a6e5351cc1d09abadaf81598" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/mini-pc-2/">Mini PC</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[GMKtec]]></MANUFACTURER>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>094779</CODE>
-<EAN>6972570965277</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > Mini PC]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Mini PC GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/624bb00e1b4bd34d05fdaa124d43e9cc/65463_1_1.webp</IMAGE>
-  <IMAGE description="Mini PC GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ba4e9a7fddff647a2eab487fb6021443/65463_2_1.webp</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[GMKtec]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Model procesora]]></NAME>
-    <VALUE><![CDATA[AMD Ryzen™ AI Max+ 395]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Technológia procesora]]></NAME>
-    <VALUE><![CDATA[TSMC 4 nm FinFET]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Grafická karta]]></NAME>
-    <VALUE><![CDATA[Radeon 8060S; 40 jadier, 2900 MHz]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[NPU]]></NAME>
-    <VALUE><![CDATA[Nová architektúra XDNA 2, až 50 TOPS]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[RAM]]></NAME>
-    <VALUE><![CDATA[64 GB/128 GB LPDDR5X, 8 000 MT/s (8 GB × 8 alebo 16 GB × 8) v balenia]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[ROM]]></NAME>
-    <VALUE><![CDATA[1 TB / 4 TB M.2 2280 PCIe 4.0 × 4 SSD v balenia]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Displej]]></NAME>
-    <VALUE><![CDATA[Žiadny]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Grafický výstup]]></NAME>
-    <VALUE><![CDATA[HDMI 2.1 × 1 + USB4 × 1]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Wi-Fi]]></NAME>
-    <VALUE><![CDATA[RZ717 (MT7925)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rýchlosť Wi-Fi]]></NAME>
-    <VALUE><![CDATA[Až 2,9 Gb/s]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Úložisko]]></NAME>
-    <VALUE><![CDATA[128 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pamäť RAM]]></NAME>
-    <VALUE><![CDATA[64 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Výkon]]></NAME>
-    <VALUE><![CDATA[140 W]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[Bluetooth, Wi-Fi, HDMI]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>4.95</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>1</FREE_SHIPPING>
-<PRICE_VAT>5048.90</PRICE_VAT>
-<PURCHASE_PRICE>3569.26</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Mini PC GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Mini PC GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Mini PC GMKTEC EVO-T2S s procesorom Intel PantherLake X7 358H, 64 GB a 1 TB]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Mini PC GMKTEC EVO-T2S s procesorom Intel Panther Lake X7-358H, 64 GB, 1 TB GMKTEC EVO-T2S spája kompaktný dizajn s výkonom prispôsobeným náročnej práci, zábave a lokálnym úlohám využívajúcim umelú…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Mini PC GMKTEC EVO-T2S s procesorom Intel Panther Lake X7-358H, 64 GB, 1 TB</h3>
@@ -608444,10 +608279,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -611042,6 +610879,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>082905</CODE>
+    <EAN>4711527008412</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>083023</CODE>
     <EAN>6974944467066</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -611936,7 +611780,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088508</CODE>
     <EAN>6975577881977</EAN>
@@ -612041,7 +611885,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
@@ -612433,7 +612277,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>VITURE Pro 2 XR – okuliare | PremiumStore.sk</SEO_TITLE><META_DESCRIPTION>Okuliare VITURE Pro 2 XR. Pozrite si parametre obrazu, možnosti pripojenia a kompatibilitu so zariadeniami pred výberom.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>091762</CODE>
     <EAN>6973137271619</EAN>
@@ -612773,6 +612617,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>094776</CODE>
     <EAN>6972570965727</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>094779</CODE>
+    <EAN>6972570965277</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
