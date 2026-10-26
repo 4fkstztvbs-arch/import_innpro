@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-25 21:58 UTC.
+Kontrola z 2026-10-26 09:28 UTC.
 
-InnPro pri **407** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **408** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -71,6 +71,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
 | `044828` | Joyroom JR-14S1 čierne puzdro pre iPhone 14 | — | 5 |
+| `044830` | Joyroom JR-14S3 čierne puzdro pre iPhone 14 Plus | — | 5 |
 | `044806` | Joyroom JR-G04 Glass iPhone 14 Pro Max 6.7 (ochrana očí) | — | 5 |
 | `044876` | Kábel USB HDMI-HDMI / 4K 60Hz / 2m Joyroom SY-20H1 (sivý) | — | 5 |
 | `044441` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 5 |
@@ -88,6 +89,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `044436` | Tvrdené sklo Baseus Crystal 0,3 mm pre HUAWEI MatePad Pro 12 | — | 5 |
 | `046655` | Baterka Superfire L28 – 121 lm, 5W, 52 m, 5 režimov | — | 5 |
 | `046656` | Baterka Superfire X18 – 55 lm, 5W, 5 režimov, 38 m | — | 5 |
+| `051431` | Tvrdené sklo 5,5" Sunnylife pre RC ovládač DJI (M2-GHM9172) | — | 5 |
 | `051608` | UV filter PGYTECH DJI Mavic 3 Pro (profesionálny) | — | 5 |
 | `044439` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 3 |
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
@@ -247,7 +249,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079457` | Diaľkové ovládanie TELESIN | — | 5 |
 | `080027` | PULUZ PU4141B Video lampa čierna | — | 5 |
 | `080532` | Niimbot T50*70-110 tepelné nálepky (biele) | — | 5 |
-| `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 4 |
+| `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 3 |
 | `080658` | Tvrdené sklo puluz DJI Osmo 360 (číre) | — | 5 |
 | `080661` | PULUZ DJI Osmo 360 silikónový stojan (čierny) | — | 5 |
 | `080663` | Silikónový kryt s objektívom PULUZ DJI Osmo 360 (sivý) | — | 5 |
@@ -391,7 +393,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089660` | Dokovacia stanica Puluz pre DJI Osmo Pocket 3 (čierna) | — | 5 |
 | `089661` | Ochranná fólia na objektív Puluz pre GoPro HERO12, HERO11, H | — | 5 |
 | `089663` | Tvrdené sklo Puluz pre DJI Osmo Action 4 (číre) | — | 5 |
-| `089664` | Držiak na telefón Puluz na statív | — | 4 |
 | `089666` | Penový ochranný kryt Puluz pre Insta360 X5, X4 a X3 (balenie | — | 5 |
 | `089671` | Skladací statív Puluz pre mobilné telefóny | — | 5 |
 | `089585` | Bočná kefa MOVA pre model E40 Ultra | — | 5 |
@@ -401,7 +402,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089382` | Tepelná etiketa NIIMBOT EW50*30-225 | — | 5 |
 | `093248` | Sada veľkostí EVEN REALITIES R1 | — | 5 |
 | `088334` | Spojka prahovej rampy MOVA pre modely V50U/Mobius60 | — | 5 |
-| `089389` | Čelovka SUPERFIRE HL106 | — | 4 |
+| `089389` | Čelovka SUPERFIRE HL106 | — | 3 |
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
