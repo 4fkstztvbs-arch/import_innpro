@@ -1,11 +1,17 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-26 23:42 UTC.
+Kontrola z 2026-10-26 23:51 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
 kategória (pravidlo v `categoryRenamesByPath` daného dodávateľa alebo priradenie ručne
 v Shoptete), skript ich prestane skrývať sám od seba.
+
+## atos — 1 ks
+
+| Kód | Produkt |
+|---|---|
+| `MS-GARNI 1NG3` | Integrované čidlo Garni 1NG pre meteostanice Garni (AT_MS-GARNI 1NG3) |
 
 ## basys — 1 ks
 
