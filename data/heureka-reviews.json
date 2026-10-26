@@ -1,18 +1,41 @@
 {
-  "fetchedAt": "2026-10-19T10:30:40.537Z",
+  "fetchedAt": "2026-10-26T10:46:08.252Z",
   "domain": "heureka.sk",
-  "productCount": 9,
-  "matchedProductCount": 7,
+  "productCount": 12,
+  "matchedProductCount": 10,
   "unmatchedEanCount": 0,
   "noEanCount": 2,
   "products": [
     {
+      "ean": "6923520247868",
+      "heurekaProductName": "Bezdrôtové slúchadlá Edifier W800BT Pro s ANC a výdržou až 45 h (sivé)",
+      "heurekaUrl": "https://www.premiumstore.sk/bezdrotove-sluchadla-edifier-w800bt-pro--anc--sive/",
+      "ourName": "Bezdrôtové slúchadlá Edifier W800BT Pro, ANC (sivé)",
+      "ourCode": "065952",
+      "ourSource": "innpro.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "7059118",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1792677869
+        }
+      ]
+    },
+    {
       "ean": "8595689803087",
-      "heurekaProductName": "Set-top box DVB-T2 Tesla TE-222 Dongle, H.265",
-      "heurekaUrl": "https://www.premiumstore.sk/tesla-te-222-dongle-set-top-box-dvb-t2-h-265/",
-      "ourName": "TESLA TE-222 Dongle - set-top box DVB-T2 H.265",
-      "ourCode": "IST-DBTTEH11D22",
-      "ourSource": "atos.xml",
+      "heurekaProductName": "Tesla TE-222 Dongle, DVB-T2 přijímač",
+      "heurekaUrl": "https://www.premiumstore.sk/tesla-te-222-dongle--dvb-t2-prijimac/",
+      "ourName": "Tesla TE-222 Dongle, DVB-T2 přijímač",
+      "ourCode": "100001815989",
+      "ourSource": "kb.xml",
       "reviewCount": 1,
       "avgRating": 5,
       "reviews": [
@@ -26,6 +49,29 @@
           "summary": "",
           "reaction": "",
           "unixTimestamp": 1792071273
+        }
+      ]
+    },
+    {
+      "ean": "6976297860006",
+      "heurekaProductName": "Elektrická pumpa Cycplus A8, 150 PSI, kovové telo",
+      "heurekaUrl": "https://www.premiumstore.sk/cycplus-a8-electric-pump/",
+      "ourName": "Cycplus A8 electric pump",
+      "ourCode": "065094",
+      "ourSource": "innpro.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "7025259",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1791911530
         }
       ]
     },
@@ -95,6 +141,29 @@
           "summary": "",
           "reaction": "",
           "unixTimestamp": 1790592843
+        }
+      ]
+    },
+    {
+      "ean": "5060134337798",
+      "heurekaProductName": "Pomalý hrniec CrockPot SCV400RD, 3,5 l, keramická nádoba",
+      "heurekaUrl": "https://www.premiumstore.sk/crockpot-scv400rd/",
+      "ourName": "CrockPot SCV400RD",
+      "ourCode": "100001771971",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6944563",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "Jednoduché ovládanie (prehľadné tlačidlá)",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1789760946
         }
       ]
     },
