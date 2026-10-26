@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-26 09:28 UTC.
+Kontrola z 2026-10-26 16:22 UTC.
 
-InnPro pri **408** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **406** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -91,7 +91,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `046656` | Baterka Superfire X18 – 55 lm, 5W, 5 režimov, 38 m | — | 5 |
 | `051431` | Tvrdené sklo 5,5" Sunnylife pre RC ovládač DJI (M2-GHM9172) | — | 5 |
 | `051608` | UV filter PGYTECH DJI Mavic 3 Pro (profesionálny) | — | 5 |
-| `044439` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 3 |
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
 | `053078` | Face & Body Roller Head Geske (pink) | — | 5 |
 | `053641` | Sieťová nabíjačka Joyroom JR-TCF05, 20 W + kábel C-L 1 m (bi | — | 5 |
@@ -248,7 +247,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079255` | 1-kanálový spínací modul WiFi s beznapäťovým kontaktom Avatt | — | 5 |
 | `079457` | Diaľkové ovládanie TELESIN | — | 5 |
 | `080027` | PULUZ PU4141B Video lampa čierna | — | 5 |
-| `080532` | Niimbot T50*70-110 tepelné nálepky (biele) | — | 5 |
 | `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 3 |
 | `080658` | Tvrdené sklo puluz DJI Osmo 360 (číre) | — | 5 |
 | `080661` | PULUZ DJI Osmo 360 silikónový stojan (čierny) | — | 5 |
