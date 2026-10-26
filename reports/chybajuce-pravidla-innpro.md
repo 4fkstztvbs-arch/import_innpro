@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — innpro
 
-Kontrola z 2026-10-26 16:22 UTC.
+Kontrola z 2026-10-26 23:14 UTC.
 
 **5 ciest bez pravidla, 10 produktov bez kategórie.**
 
