@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600638,
+    "nextCardNumber": 202600646,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3824,6 +3824,54 @@
         "nazov": "Smart World add-on for",
         "dodavatel": "innpro",
         "code": "089460"
+      },
+      "8592718049768": {
+        "kod": "202600638",
+        "nazov": "LED vianočná girlanda, cencúle, 400 LED, 20m, IP44, teplé biele svetlo",
+        "dodavatel": "solight",
+        "code": "1v404-WW"
+      },
+      "8595092122836": {
+        "kod": "202600639",
+        "nazov": "Veľký fixný držiak pre ploché TV, 94cm -",
+        "dodavatel": "solight",
+        "code": "1MF40"
+      },
+      "8592718034412": {
+        "kod": "202600640",
+        "nazov": "Náhradné trafo Lifud k LED panelom WO20/1/3/",
+        "dodavatel": "solight",
+        "code": "WO20-ND"
+      },
+      "8592718042547": {
+        "kod": "202600641",
+        "nazov": "LED vianočný lampáš biely, 20cm, časovač,",
+        "dodavatel": "solight",
+        "code": "1V288"
+      },
+      "8592718026479": {
+        "kod": "202600642",
+        "nazov": "Vonkajšia anténa, DVB- T2, 49dB",
+        "dodavatel": "solight",
+        "code": "HN66"
+      },
+      "8592718042479": {
+        "kod": "202600643",
+        "nazov": "LED žiarivka lineárna T8,",
+        "dodavatel": "solight",
+        "code": "WT131-B"
+      },
+      "8592718022853": {
+        "kod": "202600644",
+        "nazov": "LED lineárne svietidlo podlinkové, 15W, 4100K,",
+        "dodavatel": "solight",
+        "code": "WO212"
+      },
+      "8592718025854": {
+        "kod": "202600645",
+        "nazov": "4z výsuvný blok zásuviek, kruhový tvar nízky, čierny",
+        "dodavatel": "solight",
+        "code": "PP100-B"
       }
     }
   },
