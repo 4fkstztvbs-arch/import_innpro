@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-10-26 23:42 UTC.
+Kontrola z 2026-10-27 23:41 UTC.
 
 **1 ciest bez pravidla, 13 produktov bez kategórie.**
 
@@ -9,4 +9,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 13 | Herní křeslo KRUGER & MATZ GX-150  černo šedé; Herní křeslo KRUGER & MATZ GX-150  bílo růžové; Hoverboard Rebel Cruiser Black; Hoverboard Rebel Cruiser Joy; Hoverboard Rebel Cruiser Paint |
+| `Druhy > BLACK FRIDAY` | 13 | Herní křeslo KRUGER & MATZ GX-150  bílo růžové; Hoverboard Rebel Cruiser Carbon; Herní křeslo KRUGER & MATZ GX-150 KM0790-BLED+ masážní s LED podsvícením; Herní křeslo KRUGER & MATZ GX-150  černo zelené; Hoverboard Rebel Cruiser Joy |
