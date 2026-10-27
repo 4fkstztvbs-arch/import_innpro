@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600646,
+    "nextCardNumber": 202600649,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3872,6 +3872,24 @@
         "nazov": "4z výsuvný blok zásuviek, kruhový tvar nízky, čierny",
         "dodavatel": "solight",
         "code": "PP100-B"
+      },
+      "8590393254620": {
+        "kod": "202600646",
+        "nazov": "ETA Decalco 5180 00201",
+        "dodavatel": "kb",
+        "code": "100000615327"
+      },
+      "3838782813504": {
+        "kod": "202600647",
+        "nazov": "Gorenje FH43EAW",
+        "dodavatel": "kb",
+        "code": "100002074247"
+      },
+      "883336412064": {
+        "kod": "202600648",
+        "nazov": "Pedrini MyMoka Indukce modrá 3",
+        "dodavatel": "kb",
+        "code": "100002164145"
       }
     }
   },
