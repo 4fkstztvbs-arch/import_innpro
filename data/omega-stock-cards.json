@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600650,
+    "nextCardNumber": 202600654,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3896,6 +3896,30 @@
         "nazov": "Guzzanti GZ 91",
         "dodavatel": "kb",
         "code": "100001942538"
+      },
+      "4006501832016": {
+        "kod": "202600650",
+        "nazov": "LEIFHEIT Sušák Telegant Plus 70",
+        "dodavatel": "kb",
+        "code": "648000228119"
+      },
+      "4007486625846": {
+        "kod": "202600651",
+        "nazov": "Carrera autodráha GO Škoda Rally",
+        "dodavatel": "kb",
+        "code": "100002096260"
+      },
+      "5906006578121": {
+        "kod": "202600652",
+        "nazov": "AMICA SIS 512 TCX",
+        "dodavatel": "kb",
+        "code": "100001738413"
+      },
+      "8011869202445": {
+        "kod": "202600653",
+        "nazov": "Midland G9 Pro, PMR+LPD, single",
+        "dodavatel": "kb",
+        "code": "100002203801"
       }
     }
   },
