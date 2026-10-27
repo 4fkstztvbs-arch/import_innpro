@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-27 15:37 UTC.
+Kontrola z 2026-10-27 20:18 UTC.
 
-InnPro pri **403** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **401** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -93,7 +93,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `051608` | UV filter PGYTECH DJI Mavic 3 Pro (profesionálny) | — | 5 |
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
 | `053078` | Face & Body Roller Head Geske (pink) | — | 5 |
-| `053641` | Sieťová nabíjačka Joyroom JR-TCF05, 20 W + kábel C-L 1 m (bi | — | 4 |
 | `053691` | Joyroom držiak na palubnú dosku auta JR-ZS350 (strieborný) | — | 5 |
 | `053788` | Kabel Flash Charge USB do Lightning Joyroom SA26-AL3 /3A / 1 | — | 2 |
 | `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 5 |
@@ -121,7 +120,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 4 |
-| `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
 | `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058014` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |

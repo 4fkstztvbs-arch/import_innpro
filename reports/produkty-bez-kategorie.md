@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-27 20:12 UTC.
+Kontrola z 2026-10-27 20:19 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -13,7 +13,13 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `MS-GARNI 1NG3` | Integrované čidlo Garni 1NG pre meteostanice Garni (AT_MS-GARNI 1NG3) |
 
-## innpro — 7 ks
+## basys — 1 ks
+
+| Kód | Produkt |
+|---|---|
+| `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
+
+## innpro — 9 ks
 
 | Kód | Produkt |
 |---|---|
@@ -21,6 +27,8 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
 | `087241` | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
 | `090418` | Elektrický gril AMZCHEF CE-LS-GC02C-H-WP |
+| `093068` | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) |
+| `093069` | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) |
 | `095292` | Pamäťová karta GODOX microSD s kapacitou 8 GB |
 | `095293` | Pamäťová karta GODOX microSD 16 GB |
 | `095294` | Pamäťová karta GODOX microSD 32 GB |

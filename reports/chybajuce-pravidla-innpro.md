@@ -1,8 +1,8 @@
 # Chýbajúce pravidlá zaradenia — innpro
 
-Kontrola z 2026-10-27 15:37 UTC.
+Kontrola z 2026-10-27 20:18 UTC.
 
-**5 ciest bez pravidla, 10 produktov bez kategórie.**
+**6 ciest bez pravidla, 12 produktov bez kategórie.**
 
 Doplň ich do `data/kategorie/innpro.json` — kľúč je cesta z feedu, hodnota uzol
 stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
@@ -12,5 +12,6 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 | `Foto a video > Pamäťové karty` | 4 | Pamäťová karta GODOX microSD 4 GB; Pamäťová karta GODOX microSD s kapacitou 8 GB; Pamäťová karta GODOX microSD 16 GB; Pamäťová karta GODOX microSD 32 GB |
 | `Malé domáce spotrebiče > Grily > Toastovače` | 2 | Elektrický gril MOVA IG20 Pro; Elektrický gril AMZCHEF CE-LS-GC02C-H-WP |
 | `IT príslušenstvo > Monitory` | 2 | Monitor DarkFlash 9,2" IPS V92 (čierny); Monitor Darkflash 9,2" IPS V92 (biely) |
+| `Drony > Priemyselné drony > Drony` | 2 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík); DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) |
 | `Náradie > Stavebné náradie` | 1 | Deli Tools sponky typu T EDL238010, 2000 kusov |
 | `Príslušenstvo GSM > Lokátory Bluetooth` | 1 | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |

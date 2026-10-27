@@ -22,10 +22,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
-| 89056 | 5905156108318 | Nabíjačka Besen BS40 11 kW pre elektromobily s aplikáciou | nulová/neplatná cena |  | 0.00 € |  |  |
-| 89057 | 5905156108325 | Nabíjačka Besen BS40 22 kW pre elektromobily s aplikáciou | nulová/neplatná cena |  | 0.00 € |  |  |
-| 89058 | 5905156108332 | Solárna nabíjačka pre elektromobily Besen BS40 11 kW | nulová/neplatná cena |  | 0.00 € |  |  |
-| 89059 | 5905156108349 | Nabíjačka pre elektromobily Besen BS40 22 kW SOLAR-APP | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091991 | 6922572224681 | Filament eSun PLA-Wood 1.75mm 1kg (aspen) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091992 | 6922572224698 | Filament eSun PLA-Wood 1.75mm 1kg (walnut) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091993 | 6922572225329 | Filament eSun PLA-Wood 1.75mm 1kg (oak) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -456,8 +452,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 093472 | 6975274260242 | Solar panel Allpowers SP033 200W foldable | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093596 | 6941590018386 | Batéria V-Mount SMALLRIG VB50 mini | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093659 | 6941590027388 | UV filter SMALLRIG pre DJI Osmo Pocket 4/3 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093068 | 6937224153035 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 093069 | 6937224153097 | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094048 | 6975828005169 | Prenosná nabíjačka pre elektromobily dé 22 kW s 7 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094050 | 6975828005183 | Prenosná nabíjačka pre elektromobily dé 22 kW s káblom 15 m | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094052 | 6975828005206 | Nabíjacia stanica Wallbox dé  11 kW s 5 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
