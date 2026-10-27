@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600654,
+    "nextCardNumber": 202600660,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3920,6 +3920,42 @@
         "nazov": "Midland G9 Pro, PMR+LPD, single",
         "dodavatel": "kb",
         "code": "100002203801"
+      },
+      "5904100450121": {
+        "kod": "202600654",
+        "nazov": "Záložní zdroj VOLT POLSKA SINUS UPS 800 + AKU 55Ah / 800VA / 500W",
+        "dodavatel": "atos",
+        "code": "VOLT-3SR800WA55"
+      },
+      "8596425210565": {
+        "kod": "202600655",
+        "nazov": "Oko kabelové 5,3mm žluté (RV 5,5-5), balení 100ks L878-100",
+        "dodavatel": "atos",
+        "code": "ATO-L878-100"
+      },
+      "8596425210619": {
+        "kod": "202600656",
+        "nazov": "Oko kabelové 3,7mm červené (RVS 1,25-3), balení 100ks L872-100",
+        "dodavatel": "atos",
+        "code": "ATO-L872-100"
+      },
+      "8595697705052": {
+        "kod": "202600657",
+        "nazov": "Gumová podložka JACK PAD 11 pro nízkoprofilový zvedák SX JACK 3T -",
+        "dodavatel": "atos",
+        "code": "TOC-SX306503"
+      },
+      "8596425147366": {
+        "kod": "202600658",
+        "nazov": "Světlocitlivý senzor s relé, modul XH-M131, napájení 5V M465C",
+        "dodavatel": "atos",
+        "code": "TIP-09830131"
+      },
+      "5901890013093": {
+        "kod": "202600659",
+        "nazov": "Zdroj záložní KEMOT PROsinus 800 URZ3405 500W 12V --BÍLÝ--",
+        "dodavatel": "atos",
+        "code": "LP-URZ3405"
       }
     }
   },
