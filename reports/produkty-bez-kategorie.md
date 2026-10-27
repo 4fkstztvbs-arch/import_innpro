@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-26 23:51 UTC.
+Kontrola z 2026-10-27 09:26 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -19,10 +19,11 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
 
-## innpro — 6 ks
+## innpro — 7 ks
 
 | Kód | Produkt |
 |---|---|
+| `088539` | Monitor DarkFlash 9,2" IPS V92 (čierny) |
 | `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
 | `087241` | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
 | `090418` | Elektrický gril AMZCHEF CE-LS-GC02C-H-WP |

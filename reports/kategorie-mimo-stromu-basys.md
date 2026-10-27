@@ -1,5 +1,5 @@
 # Kategórie mimo stromu — basys
 
-Kontrola z 2026-10-26 23:51 UTC.
+Kontrola z 2026-10-27 09:26 UTC.
 
 Žiadne — všetky kategórie v tomto feede existujú v našom strome.
