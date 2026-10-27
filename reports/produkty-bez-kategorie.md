@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-27 20:19 UTC.
+Kontrola z 2026-10-27 22:56 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -38,12 +38,12 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | Kód | Produkt |
 |---|---|
 | `100001405220` | Beper BEP-P206ZAN200 |
+| `100002204242` | GLOX Sprchová hadice silik. 180 cm bílá |
 | `100001880301` | Drosselmeyer NCGP03 |
 | `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
-| `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
-| `100002204242` | GLOX Sprchová hadice silik. 180 cm bílá |
 | `100001049401` | Banquet Hmoždíř keramický COLLEZIONE B |
 | `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
+| `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
 
 ## solight — 1 ks
 
