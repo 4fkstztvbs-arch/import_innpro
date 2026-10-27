@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600660,
+    "nextCardNumber": 202600661,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3956,6 +3956,12 @@
         "nazov": "Zdroj záložní KEMOT PROsinus 800 URZ3405 500W 12V --BÍLÝ--",
         "dodavatel": "atos",
         "code": "LP-URZ3405"
+      },
+      "9876543211598": {
+        "kod": "202600660",
+        "nazov": "Termostat AT TEMP 3680 (URZ4055 E6185) zásuvkový s čidlem, podsvícený displej",
+        "dodavatel": "atos",
+        "code": ""
       }
     }
   },
