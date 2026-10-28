@@ -1,6 +1,6 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-27 22:59 UTC.
+Kontrola z 2026-10-28 23:13 UTC.
 
 Solight pri **501** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -85,7 +85,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
-| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -132,6 +131,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `1P09` | Solight viazacie nylonové pásky, 3,6 x 300mm, natural, 100ks | 6 | 100 |
 | `1P29` | Solight viazacie nylonové pásky, 3,6 x 300mm, čierna, 100ks | 6 | 150 |
 | `5B303` | Solight vypínač do vlhka IP54, č. 1 jednopólový, sivý | 6 | 48 |
+| `5B304` | Solight zásuvka do vlhka IP54, sivá | 6 | 48 |
 | `P73B` | Solight zásuvka priama, IP20, čierna | 6 | 100 |
 | `1V55-W` | Solight vianočná reťaz strieborná, 30x mini LED, 3m, 3 x AA, | 6 | 40 |
 | `1V55-WW` | Solight vianočná reťaz medená, 30x mini LED, 3m, 3 x AA, tep | 6 | 40 |
