@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-28 10:08 UTC.
+Kontrola z 2026-10-28 20:41 UTC.
 
 InnPro pri **399** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -119,6 +119,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
 | `057599` | TELESIN Sada tvrdeného skla pre DJI Osmo Action 3 | — | 4 |
+| `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
 | `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058014` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
@@ -244,7 +245,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079255` | 1-kanálový spínací modul WiFi s beznapäťovým kontaktom Avatt | — | 5 |
 | `079457` | Diaľkové ovládanie TELESIN | — | 5 |
 | `080027` | PULUZ PU4141B Video lampa čierna | — | 5 |
-| `080533` | Niimbot T100*100-75 tepelné nálepky (biele) | — | 4 |
 | `080658` | Tvrdené sklo puluz DJI Osmo 360 (číre) | — | 5 |
 | `080661` | PULUZ DJI Osmo 360 silikónový stojan (čierny) | — | 5 |
 | `080663` | Silikónový kryt s objektívom PULUZ DJI Osmo 360 (sivý) | — | 5 |
