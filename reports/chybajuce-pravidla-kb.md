@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — kb
 
-Kontrola z 2026-10-28 15:16 UTC.
+Kontrola z 2026-10-28 20:25 UTC.
 
 **6 ciest bez pravidla, 7 produktov bez kategórie.**
 
@@ -9,9 +9,9 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Dům a Byt > Kuchyňské potřeby > Odpeckovače` | 2 | Leifheit Odpeckovávač švestek s nádobkou; Leifheit Odpeckovávač třešní s nádobkou |
-| `Dům a Byt > Kuchyňské potřeby > Hmoždíře` | 1 | Banquet Hmoždíř keramický COLLEZIONE B |
-| `TV, audio, video > Drony` | 1 | Fleg Dron/Ponorka s kamerou Fleg |
+| `Dům a Byt > Kuchyňské potřeby > Odpeckovače` | 2 | Leifheit Odpeckovávač třešní s nádobkou; Leifheit Odpeckovávač švestek s nádobkou |
 | `Dílna a zahrada > Zahrada > Lapače, odpuzovače hmyzu a škůdců` | 1 | Beper BEP-P206ZAN200 |
 | `Dům a Byt > Kuchyňské potřeby > Louskáčky` | 1 | Drosselmeyer NCGP03 |
 | `Dům a Byt` | 1 | GLOX Sprchová hadice silik. 180 cm bílá |
+| `TV, audio, video > Drony` | 1 | Fleg Dron/Ponorka s kamerou Fleg |
+| `Dům a Byt > Kuchyňské potřeby > Hmoždíře` | 1 | Banquet Hmoždíř keramický COLLEZIONE B |
