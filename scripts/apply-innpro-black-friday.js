@@ -47,7 +47,19 @@ function main() {
     const price = Number(tag(b, 'PRICE_VAT'));
     if (!(price > 0)) { st.skipped++; return b; }
     seen.add(ean);
-    if (!active) { st.reset++; return setActionFlag(setTag(b, 'ACTION_PRICE', price.toFixed(2)), false); }
+    if (!active) {
+      st.reset++;
+      let r = setTag(b, 'ACTION_PRICE', price.toFixed(2));
+      // Marža platí stále: mimo akcie sa nákup počíta z bežnej predajnej ceny.
+      if (data.marginPct > 0 && data.marginPct < 100) {
+        const rv = Number(tag(b, 'PURCHASE_VAT') || 23);
+        r = setTag(r, 'PURCHASE_PRICE', (price / (1 + rv / 100) * (1 - data.marginPct / 100)).toFixed(2));
+        r = setTag(r, 'PURCHASE_VAT', String(rv));
+        r = setTag(r, 'PURCHASE_PRICE_INCL_VAT', '0');
+        st.purchase++;
+      }
+      return setActionFlag(r, false);
+    }
     const action = it.actionPrice;
     const standard = it.standardPrice || action;
     const purchase = Number(tag(b, 'PURCHASE_PRICE') || 0);
@@ -58,9 +70,8 @@ function main() {
       st.skipped++; return b;
     }
     let u = setTag(b, 'PRICE_VAT', standard.toFixed(2));
-    // Nákupná cena z garantovanej marže dodávateľa (percentá z predajnej ceny bez DPH, počas akcie):
-    // nákup bez DPH = akciová cena bez DPH × (1 − marža). Feed ju inak nemá (WiiM PDF obsahuje len DMOC).
-    // Mimo okna sa nákupná cena nemení (import ju nevymaže a regulárna nákupná cena nie je známa).
+    // Nákupná cena = predajná cena bez DPH × (1 − marža); počas akcie z akciovej ceny, inak z bežnej.
+    // Feed ju inak nemá (WiiM PDF obsahuje len DMOC).
     if (data.marginPct > 0 && data.marginPct < 100 && !(purchase > 0)) {
       const buyNet = action / (1 + vat / 100) * (1 - data.marginPct / 100);
       u = setTag(u, 'PURCHASE_PRICE', buyNet.toFixed(2));

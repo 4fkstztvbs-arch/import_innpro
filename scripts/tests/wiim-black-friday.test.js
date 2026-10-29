@@ -65,7 +65,7 @@ test('before the campaign the feed carries no discount', () => {
   }
 });
 
-test('during the campaign PURCHASE_PRICE = action price ex VAT × (1 − 20 % margin), outside it is not written', () => {
+test('during the campaign PURCHASE_PRICE = action price ex VAT × (1 − 20 % margin), outside it 20 % margin from the regular price', () => {
   const expected = { '0741365254621': '147.58', '0741365254638': '147.58', '0741365254560': '192.46', '0741365254577': '192.46', '0741365254539': '292.62', '0741365254607': '292.62' };
   for (const b of blocks(run('2026-11-15'))) {
     const ean = tag(b, 'EAN');
@@ -76,7 +76,9 @@ test('during the campaign PURCHASE_PRICE = action price ex VAT × (1 − 20 % ma
     const sellNet = bf.items[ean].actionPrice / 1.23;
     assert.ok(Math.abs((sellNet - Number(tag(b, 'PURCHASE_PRICE'))) / sellNet - 0.2) < 0.0005, ean);
   }
-  for (const day of ['2026-10-31', '2026-12-01']) for (const b of blocks(run(day))) assert.equal(tag(b, 'PURCHASE_PRICE'), undefined);
+  // mimo akcie: 20 % marža z bežnej predajnej ceny (279/355/510 s DPH)
+  const regular = { '0741365254621': '181.46', '0741365254638': '181.46', '0741365254560': '230.89', '0741365254577': '230.89', '0741365254539': '331.71', '0741365254607': '331.71' };
+  for (const day of ['2026-10-31', '2026-12-01']) for (const b of blocks(run(day))) assert.equal(tag(b, 'PURCHASE_PRICE'), regular[tag(b, 'EAN')]);
 });
 
 test('Heureka conversion rules judge WiiM items by ACTION_PRICE, not by the struck-through price', () => {
