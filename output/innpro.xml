@@ -11592,6 +11592,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -61445,6 +61446,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -107283,10 +107285,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>40.00</PRICE_VAT>
 <PURCHASE_PRICE>28.38</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -130570,6 +130574,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -142775,10 +142780,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -149526,6 +149533,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -149621,6 +149629,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -154647,6 +154656,7 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -154964,160 +154974,6 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[AnyCubic ABS-Like Resin Pro 2 (Black) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[AnyCubic ABS-Like Resin Pro 2 (Black) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Živica Anycubic ABS-Like Pro 2 (sivá)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[AnyCubic ABS-Like Resin 2 Pro (Gray) The new formulation of AnyCubic ABS-Like Resin Pro 2 offers exceptional tensile strength and flexibility, increasing elongation at break by more than 100%…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>AnyCubic ABS-Like Resin 2 Pro (Gray)</h3>
-<p>The new formulation of AnyCubic ABS-Like Resin Pro 2 offers exceptional tensile strength and flexibility, increasing elongation at break by more than 100% compared to the previous version. These results make it ideal for printing high-strength components such as structural components, industrial prototypes and even fittings. The resin is also distinguished by its high durability, color saturation and low odor, making it comfortable to work with even in poorly ventilated areas.</p>
-<p><img src="https://assets.innpro.pl/6109/7171/1.jpg" border="0" /></p>
-<h3>Increased durability</h3>
-<p>ABS-Like Resin Pro 2 features increased bending resistance, making it more resistant to cracking and mechanical damage. It is also easy to work with, allowing for precise molding of complex models and details.</p>
-<p><img src="https://assets.innpro.pl/6109/7171/2.jpg" border="0" /></p>
-<h3>High precision and minimal shrinkage</h3>
-<p>Thanks to reduced shrinkage, the resin ensures high precision and retains sharp details during printing. Modeling shrinkage is much lower than with other resins, minimizing the risk of distortion.</p>
-<p><img src="https://assets.innpro.pl/6109/7171/5.jpg" border="0" /></p>
-<h3>Wide compatibility</h3>
-<p>The resin is compatible with a wide range of 3D printers operating in the UV wavelength range from 365 to 405 nm. This makes it easy to integrate with most DLP and LCD printers on the market. AnyCubic 2 Pro is also user- and environment-friendly - it provides a comfortable working environment as it does not emit an intense odor.</p>
-<p><img src="https://assets.innpro.pl/6109/7171/3.jpg" border="0" /></p>
-<h3>High fluidity and lower viscosity</h3>
-<p>The resin's low viscosity leads to shorter curing times and makes it easier to form models, which promotes a faster and more efficient printing process. Improved adhesion to the printing platform effectively reduces the risk of printing failures. Enjoy greater precision and even better productivity in your work with AnyCubic!</p>
-<p><img src="https://assets.innpro.pl/6109/7171/4.jpg" border="0" /></p>
-<div class="table-wrapper">
-<p> </p>
-<h3> </h3>
-<table>
-<tbody>
-<tr><th>Manufacturer</th>
-<td>AnyCubic</td>
-</tr>
-<tr><th>Model</th>
-<td>2Pro</td>
-</tr>
-<tr><th>UV wavelength:</th>
-<td>365-405 nm</td>
-</tr>
-<tr><th>Density:</th>
-<td>1.05-1.25 g/cm³</td>
-</tr>
-<tr><th>Viscosity:</th>
-<td>300-400 cPimPa-s</td>
-</tr>
-<tr><th>Hardness:</th>
-<td>82-84D</td>
-</tr>
-<tr><th>Tensile strength:</th>
-<td>35-40 MPa</td>
-</tr>
-<tr><th>Elongation at break:</th>
-<td>35-40%</td>
-</tr>
-<tr><th>Shrinkage formability:</th>
-<td>4.3-5.6%</td>
-</tr>
-<tr><th>Bending strength:</th>
-<td>35-40 MPa</td>
-</tr>
-<tr><th>Flexural modulus:</th>
-<td>1400-1800 MPa</td>
-</tr>
-<tr><th>Heat resistance temperature:</th>
-<td>60-65°C</td>
-</tr>
-<tr><th>Resin washing:</th>
-<td>Alcohol</td>
-</tr>
-<tr><th>Shelf life:</th>
-<td>1.5 years</td>
-</tr>
-</tbody>
-</table>
-<br /><br /><strong>Download:<br /><a href="https://cdn-files.innpro.pl/anycubic/6974662350947/karta_charakterystyki/6974662350947_karta_charakterystyki_sds_en_pl.pdf">Safety Data Sheet</a><br /></strong></div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76223_42885_pol_c7de1baaff06f882276fabc77947f2ad" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zivice-pre-3d-tlac/">Živice pre 3D tlač</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[ANYCUBIC]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>065342</CODE>
-<EAN>6974662350947</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Živice pre 3D tlač]]></CATEGORY>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY>
-  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="AnyCubic ABS-Like Resin Pro 2 (Grey) - obrázok 1">https://b2b.innpro.sk/hpeciai/0507d46a64fae84074db3451c0360bf6/42885_1.jpg</IMAGE>
-  <IMAGE description="AnyCubic ABS-Like Resin Pro 2 (Grey) - obrázok 2">https://b2b.innpro.sk/hpeciai/a85f0662c10e961ab5320e22a4380ef1/42885_2.jpg</IMAGE>
-  <IMAGE description="AnyCubic ABS-Like Resin Pro 2 (Grey) - obrázok 3">https://b2b.innpro.sk/hpeciai/93e48e22d39adda66c459a712eeacac2/42885_3.jpg</IMAGE>
-  <IMAGE description="AnyCubic ABS-Like Resin Pro 2 (Grey) - obrázok 4">https://b2b.innpro.sk/hpeciai/9a8dc8c07df880b2102c9faed2606c33/42885_4.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[ANYCUBIC]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[UV wavelength]]></NAME>
-    <VALUE><![CDATA[365-405 nm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Density]]></NAME>
-    <VALUE><![CDATA[1.05-1.25 g/cm³]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Viscosity]]></NAME>
-    <VALUE><![CDATA[300-400 cPimPa-s]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Hardness]]></NAME>
-    <VALUE><![CDATA[82-84D]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Tensile strength]]></NAME>
-    <VALUE><![CDATA[35-40 MPa]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Elongation at break]]></NAME>
-    <VALUE><![CDATA[35-40%]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Shrinkage formability]]></NAME>
-    <VALUE><![CDATA[4.3-5.6%]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Bending strength]]></NAME>
-    <VALUE><![CDATA[35-40 MPa]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Flexural modulus]]></NAME>
-    <VALUE><![CDATA[1400-1800 MPa]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Heat resistance temperature]]></NAME>
-    <VALUE><![CDATA[60-65°C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[sivá]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[12 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.21</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>15.50</PRICE_VAT>
-<PURCHASE_PRICE>11.04</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[AnyCubic ABS-Like Resin Pro 2 (Grey) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[AnyCubic ABS-Like Resin Pro 2 (Grey) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Živica Anycubic DLP Craftsman (biela)]]></NAME>
@@ -181027,14 +180883,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -192463,6 +192319,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -203926,6 +203783,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -204682,14 +204540,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -225734,14 +225592,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -240245,6 +240106,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -245755,6 +245617,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -266356,6 +266219,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -295497,10 +295361,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -308676,6 +308542,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -308752,6 +308619,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -321777,10 +321645,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -370819,7 +370689,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77342_57550_pol_475adf0a0c13e9bca93424f8de34655b" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/cestovanie-sport-a-outdoor/">Cestovanie, šport a outdoor</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/stacionarne-bicykle/">Stacionárne bicykle</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[DeerRun]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -370827,6 +370697,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CODE>084625</CODE>
 <EAN>5905156103122</EAN>
 <CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Stacionárne bicykle]]></CATEGORY>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
@@ -371676,6 +371547,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -387246,6 +387118,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -399017,6 +398890,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -399107,6 +398981,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -405664,6 +405539,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -409495,6 +409371,127 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <FLAGS><FLAG><CODE>action</CODE><ACTIVE>1</ACTIVE></FLAG></FLAGS>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[MERACH spinningové kolo MR-S26B2-EU (čierne)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Spinningové kolo MERACH MR-S26B2 (čierne) MERACH MR-S26B2 je moderné spinningové kolo navrhnuté pre maximálnu efektivitu, pohodlie a stabilitu. Odolná konštrukcia s nosnosťou až 136 kg, tiché…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Spinningové kolo MERACH MR-S26B2 (čierne)</h3>
+<p>MERACH MR-S26B2 je moderné spinningové kolo navrhnuté pre maximálnu efektivitu, pohodlie a stabilitu. Odolná konštrukcia s nosnosťou až 136 kg, tiché magnetické nastavenie odporu, 4 utesnené ložiská, hnací remeň generujúci len cca 25 dB, ergonomické sedadlo s penou 80D, plné nastavenie pre výšky 148-188 cm a 2,4 GHz konektivita s fitness aplikáciami – všetko preto, aby ste mohli trénovať presne tak, ako chcete. Nech už práve začínate svoje kardio dobrodružstvo alebo budujete svoju kondíciu na pokročilej úrovni, tento model sa prispôsobí vašim cieľom.</p>
+<p>
+<img alt="Muž cvičí na stacionárnom bicykli v obývacej izbe, vedľa neho sedí žena a neďaleko stojí dieťa" border="0" src="https://assets.innpro.pl/19923/26536/1.jpg"/>
+</p><h3>Trénujte od jemného spaľovania tukov po intenzívnu silu</h3>
+<p>Ručné nastavenie odporu vám umožňuje plynulý prechod od ľahkej regenerácie po náročný intervalový tréning. Pri nižších záťažiach spálite 220-300 kcal/h, čím chránite svoje kĺby a znížite namáhanie kolien až o 60 %. Pri vyššom zaťažení dosiahnete 500–650 kcal/h, čím zvýšite rýchlosť spaľovania tukov až o 85 %. Vy rozhodnete, či sa dnes chcete zamerať na jemné vytrvalostné cvičenie alebo dynamický „vysokoenergetický výbuch“.</p>
+<p>
+<img alt="Žena intenzívne cvičí na stacionárnom bicykli v obývacej izbe" border="0" src="https://assets.innpro.pl/19923/26536/2.jpg"/>
+</p><h3>Stabilita a istota pri každom otočení</h3>
+<p>Pevný rám s rúrkou s hrúbkou 4 mm a širokou základňou (priemer rúrky 85 mm) zaručuje bezkompromisnú stabilitu aj pri intenzívnych šprintoch. Konštrukcia, testovaná na zaťaženie 136 kg, vám poskytuje úplnú bezpečnosť a žiadne nežiaduce kolísanie. Rozmery 1083 × 490 × 1234 mm zaisťujú kompaktný tvar, ktorý sa zmestí do vašej domácnosti a zároveň ponúka profesionálny zážitok z jazdy.</p>
+<p>
+<img alt="Žena cvičí na stacionárnom bicykli večer doma, vedľa nej spí pes" border="0" src="https://assets.innpro.pl/19923/26536/3.jpg"/>
+</p><h3>Cvičte bez toho, aby ste zobudili svoju rodinu</h3>
+<p>Vďaka bezodporovému magnetickému odporovému systému a tichému remeňovému pohonu pracuje bicykel pri hladine hluku okolo 25 dB. To znamená, že môžete trénovať za úsvitu alebo neskoro večer bez toho, aby ste rušili spánok svojho dieťaťa alebo odpočinok svojho partnera. Štyri utesnené ložiská zvyšujú plynulosť pohybu a odolnosť mechanizmu – menej hluku, menej opotrebenia, väčší komfort.</p>
+<p>
+<img alt="Muž cvičí na stacionárnom bicykli pred televíziou, zatiaľ čo hrá hru" border="0" src="https://assets.innpro.pl/19923/26536/4.jpg"/>
+</p><h3>Ergonomika, ktorú pocítite už po prvom tréningu</h3>
+<p>Sedlo s odolným povrchom a penou s vysokou hustotou 80D minimalizuje nepohodlie aj počas dlhších tréningov. 3D ventilačný kanál zlepšuje cirkuláciu vzduchu a systém tlmenia nárazov znižuje otrasy a únavu. Nastavenie výšky sedla (dĺžka nohavíc 28&quot;-38&quot;) a nastavenie výšky 4&#x27;8&quot;-6&#x27;2&quot; (približne 148-188 cm) robia bicykel vhodným pre celú rodinu.</p>
+<p>
+<img alt="Muž cvičí na stacionárnom bicykli a sleduje zápas v televízii" border="0" src="https://assets.innpro.pl/19923/26536/5.jpg"/>
+</p><h3>Inteligentná konektivita a sledovanie pokroku</h3>
+<p>MERACH MR-S26B2 sa synchronizuje s fitness aplikáciami (vrátane Apple Health, Google Fit, Zwift, Kinomap) na analýzu spálených kalórií, vzdialenosti, času a pokroku. Monitor napájaný batériou vám umožňuje sledovať vaše tréningové údaje v reálnom čase a konektivita 2,4 GHz (2402–2480 MHz, max. 5,40 dBm) zaisťuje stabilné pripojenie. Trénujte vedome a sledujte, ako sa vaša kondícia týždeň po týždni zlepšuje.</p>
+<p>
+<img alt="Estetický záber stacionárneho bicykla na bielom pozadí" border="0" src="https://assets.innpro.pl/19923/26536/6.jpg"/>
+</p>
+<h3>Súčasť balenia:</h3>
+<ul class="list-disc pl-5"><li>Hlavný rám x1</li><li>Zadný stabilizátor x1</li><li>Predný stabilizátor x1</li><li>Rúrka riadidiel x1</li><li>Riadidlá x1</li><li>Sedlovka x1</li><li>Mechanizmus nastavenia sedadla (posúvač) x1</li><li>Sedadlo x1</li><li>Pedále x2</li><li>Trénovací monitor x1</li><li>Držiak tabletu (iPad) x1</li><li>Podporná rúrka držiaka tabletu x1</li><li>Držiaky na fľaše s vodou x2</li><li>Stojan na činky x1</li><li>Sada nastavovacích gombíkov (L-tvarový gombík Pop Pin) x2</li><li>Skrutka s okom x1</li><li>Podložka x1</li><li>Zaisťovací gombík x1</li><li>Batérie do monitora</li><li>Kľúč na matice x1</li><li>Súprava náradia (súprava skrutiek) x1</li><li>Návod na použitie x1</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Merach</td></tr><tr><th>Model</th><td>MR-S26B2</td></tr><tr><th>Typ odporu</th><td>Magnetický (ručné nastavenie)</td></tr><tr><th>Pohonný systém</th><td>Pás (tichý remeňový pohon)</td></tr><tr><th>Hlučnosť</th><td>cca 25 dB</td></tr><tr><th>Maximálna hmotnosť používateľa</th><td>136 kg (300 lbs)</td></tr><tr><th>Hmotnosť zariadenia</th><td>27 kg (59,5 lbs)</td></tr><tr><th>Rozmery (D × Š × V)</th><td>1083 × 490 × 1234 mm (42,6&quot; × 19,3&quot; × 48,6&quot;)</td></tr><tr><th>Hrúbka rámovej rúrky</th><td>4 mm</td></tr><tr><th>Priemer základnej rúrky</th><td>85 mm</td></tr><tr><th>Odporúčaný rozsah výšky používateľa</th><td>148–188 cm (4&#x27;8&quot;–6&#x27;2&quot;)</td></tr><tr><th>Rozsah nastavenia výšky sedadla (dĺžka nohavíc)</th><td>28&quot;–38&quot;</td></tr><tr><th>Bezdrôtové pripojenie</th><td>2,4 GHz</td></tr><tr><th>Systém ložísk</th><td>4 utesnené ložiská</td></tr><tr><th>Konštrukcia sedadla</th><td>80D pena s vysokou hustotou, 3D ventilačný kanál, systém tlmenia nárazov</td></tr><tr><th>Kompatibilita s aplikáciami</th><td>Apple Health, Google Fit, Zwift, Kinomap</td></tr><tr><th>Funkcie monitora</th><td>Čas, vzdialenosť, kalórie, štatistiky tréningu</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77311_58502_pol_d02d573bf4e1e37c2c42c12624f80aeb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/stacionarne-bicykle/">Stacionárne bicykle</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[MERACH]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>085821</CODE>
+<EAN>5905156103498</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Stacionárne bicykle]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="MERACH spinningové kolo MR-S26B2-EU (čierne)">https://b2b.innpro.sk/hpeciai/420cb1785381354c77cb4d87f1001731/58502_1.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[MERACH]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ odporu]]></NAME>
+    <VALUE><![CDATA[Magnetický (ručné nastavenie)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pohonný systém]]></NAME>
+    <VALUE><![CDATA[Pás (tichý remeňový pohon)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hlučnosť]]></NAME>
+    <VALUE><![CDATA[cca 25 dB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálna hmotnosť používateľa]]></NAME>
+    <VALUE><![CDATA[136 kg (300 lbs)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hmotnosť zariadenia]]></NAME>
+    <VALUE><![CDATA[27 kg (59,5 lbs)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hrúbka rámovej rúrky]]></NAME>
+    <VALUE><![CDATA[4 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Priemer základnej rúrky]]></NAME>
+    <VALUE><![CDATA[85 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Odporúčaný rozsah výšky používateľa]]></NAME>
+    <VALUE><![CDATA[148–188 cm (4 8"–6 2")]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bezdrôtové pripojenie]]></NAME>
+    <VALUE><![CDATA[2,4 GHz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Systém ložísk]]></NAME>
+    <VALUE><![CDATA[4 utesnené ložiská]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[čierna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[12 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>30.76</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>183.50</PRICE_VAT>
+<PURCHASE_PRICE>129.66</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[MERACH spinningové kolo MR-S26B2-EU (čierne) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[MERACH spinningové kolo MR-S26B2-EU (čierne) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Ležadlový rotoped MERACH MR-S08B1-EU (čierny)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Ležadlo MERACH MR-S08B1 (čierne) MERACH MR-S08B1 je moderné ležadlo s Bluetooth, navrhnuté pre maximálny komfort, bezpečnosť a efektívny domáci tréning. Magnetický odporový systém s 8 úrovňami…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Ležadlo MERACH MR-S08B1 (čierne)</h3>
@@ -409541,7 +409538,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77308_58503_pol_b7b34c4be479209e8d29a9b37fb2d71b" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/cestovanie-sport-a-outdoor/">Cestovanie, šport a outdoor</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/stacionarne-bicykle/">Stacionárne bicykle</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[MERACH]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -409549,6 +409546,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CODE>085822</CODE>
 <EAN>5905156103504</EAN>
 <CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Stacionárne bicykle]]></CATEGORY>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
@@ -409613,6 +409611,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -409682,7 +409681,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77309_58504_pol_21f36272a9195ac5e6d4bf5d88dfa5fe" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/cestovanie-sport-a-outdoor/">Cestovanie, šport a outdoor</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/stacionarne-bicykle/">Stacionárne bicykle</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[MERACH]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -409690,6 +409689,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CODE>085823</CODE>
 <EAN>5905156103610</EAN>
 <CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Stacionárne bicykle]]></CATEGORY>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
@@ -420668,6 +420668,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -447149,6 +447150,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -456638,7 +456640,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -462792,14 +462797,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -487626,6 +487635,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -489640,6 +489650,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -491186,6 +491197,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -491503,6 +491515,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -499477,7 +499490,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/cestovanie-sport-a-outdoor/">Cestovanie, šport a outdoor</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/stacionarne-bicykle/">Stacionárne bicykle</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[MERACH]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -499485,6 +499498,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CODE>088741</CODE>
 <EAN>5905156105799</EAN>
 <CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Stacionárne bicykle]]></CATEGORY>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
@@ -515986,10 +516000,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -527285,10 +527301,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>26.50</PRICE_VAT>
 <PURCHASE_PRICE>18.59</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -529097,10 +529115,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -530702,14 +530722,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -533440,7 +533463,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/cestovanie-sport-a-outdoor/">Cestovanie, šport a outdoor</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/stacionarne-bicykle/">Stacionárne bicykle</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[MERACH]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -533448,6 +533471,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CODE>090798</CODE>
 <EAN>5905156109438</EAN>
 <CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Stacionárne bicykle]]></CATEGORY>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
@@ -557868,7 +557892,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/cestovanie-sport-a-outdoor/">Cestovanie, šport a outdoor</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/stacionarne-bicykle/">Stacionárne bicykle</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[MERACH]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -557876,6 +557900,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <CODE>090134</CODE>
 <EAN>5905156109025</EAN>
 <CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Stacionárne bicykle]]></CATEGORY>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
@@ -570068,13 +570093,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/cestovanie-sport-a-outdoor/">Cestovanie, šport a outdoor</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/stacionarne-bicykle/">Stacionárne bicykle</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[MERACH]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>092880</CODE>
 <EAN>5905156111554</EAN>
 <CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Stacionárne bicykle]]></CATEGORY>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
@@ -579880,6 +579906,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -592114,13 +592141,16 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87897_64814_pol_24ad3eefdfd9e4458b86ab5cd5d1eacd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/detektory/">Detektory a lokátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GARRETT]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093318</CODE>
 <EAN>0786156007598</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 1">https://b2b.innpro.sk/hpeciai/f177506e358e8ba9d52ced99d614d344/64814_1_1.webp</IMAGE>
   <IMAGE description="Pinpointer GARRETT Pro-Pointer AT Blackline - obrázok 2">https://b2b.innpro.sk/hpeciai/ad6c696968907fc4cc7a65260ff6287f/64814_2_1.webp</IMAGE>
@@ -614629,10 +614659,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -615582,6 +615614,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>065342</CODE>
+    <EAN>6974662350947</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>065544</CODE>
     <EAN>6928493309148</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -615850,6 +615889,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>070671</CODE>
     <EAN>6976233677835</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>070689</CODE>
+    <EAN>6936685221406</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -617836,13 +617882,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
-    <CODE>085821</CODE>
-    <EAN>5905156103498</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
     <CODE>085914</CODE>
     <EAN>6975293673122</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -618282,7 +618321,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088502</CODE>
     <EAN>5905156105713</EAN>
@@ -618422,7 +618461,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
