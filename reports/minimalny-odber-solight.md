@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-28 23:13 UTC.
+Kontrola z 2026-10-29 23:17 UTC.
 
-Solight pri **501** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **499** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -85,6 +85,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -237,7 +238,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `SSC1701-S` | Solight USB-C 3.1 kábel, USB-C konektor - USB-C konektor, si | 4 | 100 |
 | `P104B` | Solight rozbočovač, 2x 10A, čierny | 4 | 60 |
 | `PF11` | Solight flexo šnúra, 2x 0,75mm2, biela, plochá, 5m | 4 | 100 |
-| `P67` | Solight zástrčka do vlhka, priama, IP44, čierna-oranžová | 4 | 50 |
 | `SSN12X0E` | Solight anténny koaxiálny kábel, kombinované konektory, 10m, | 4 | 50 |
 | `P68` | Solight zásuvka do vlhka, priama, IP40, čierna-oranžová | 4 | 50 |
 | `SSN12X5E` | Solight anténny koaxiálny kábel, kombinované konektory, 15m, | 4 | 50 |
@@ -412,9 +412,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `P151` | Solight zásuvka priama, 5-pólová, 400v/16A, IP44 | 2 | 20 |
 | `1D14` | Solight doplnkový diaľkový ovládač pre GSM alarmy 1D11 a 1D1 | 2 | 50 |
 | `WPIR06` | Solight PIR senzor pro E27 žiarovku, biely | 2 | 50 |
-| `PO47` | Solight prepäťová ochrana, 150J, 4 zásuvky, 3m, biela | 2 | 30 |
 | `GNZ-T` | Solight náhradné trubice 36W pre GNZ01 | 2 | — |
-| `V29` | Solight multimeter, max. AC 600V, max. DC 600V/10A, NCV | 2 | 60 |
 | `1V271` | Solight LED vianočná reťaz hviezdy, 10x LED, drevo, 1,5m, 2x | 2 | 6 |
 | `WW003` | Solight vodeodolná prepojovací krabička IP68, 4-11mm, max 2, | 2 | 150 |
 | `WM70` | Solight sieťový adaptér pre LED pásiky, 230V - 12V, 1A, 12W, | 2 | 100 |
