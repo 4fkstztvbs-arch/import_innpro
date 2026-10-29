@@ -65,6 +65,20 @@ test('before the campaign the feed carries no discount', () => {
   }
 });
 
+test('during the campaign PURCHASE_PRICE = action price ex VAT × (1 − 20 % margin), outside it is not written', () => {
+  const expected = { '0741365254621': '147.58', '0741365254638': '147.58', '0741365254560': '192.46', '0741365254577': '192.46', '0741365254539': '292.62', '0741365254607': '292.62' };
+  for (const b of blocks(run('2026-11-15'))) {
+    const ean = tag(b, 'EAN');
+    assert.equal(tag(b, 'PURCHASE_PRICE'), expected[ean], ean);
+    assert.equal(tag(b, 'PURCHASE_VAT'), '23');
+    assert.equal(tag(b, 'PURCHASE_PRICE_INCL_VAT'), '0');
+    // marža z predajnej ceny bez DPH je presne 20 %
+    const sellNet = bf.items[ean].actionPrice / 1.23;
+    assert.ok(Math.abs((sellNet - Number(tag(b, 'PURCHASE_PRICE'))) / sellNet - 0.2) < 0.0005, ean);
+  }
+  for (const day of ['2026-10-31', '2026-12-01']) for (const b of blocks(run(day))) assert.equal(tag(b, 'PURCHASE_PRICE'), undefined);
+});
+
 test('Heureka conversion rules judge WiiM items by ACTION_PRICE, not by the struck-through price', () => {
   const rules = { priceAtLeast: 100, maxAboveCheapestPct: 0 };
   const ean = '0741365254621';

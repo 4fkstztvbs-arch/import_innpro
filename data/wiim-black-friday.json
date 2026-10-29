@@ -1,5 +1,7 @@
 {
  "_comment": "WiiM Black Friday 2026 (Perfect Sound Group, PDF '1-BF Wiim'). Kľúč = EAN-13 z feedu. standardPrice = aktuálna predajná cena premiumstore.sk (prečiarknutá, PRICE_VAT) = referenčná cena podľa Omnibus (najnižšia cena za 30 dní pred akciou; ceny 279/355/510 € nemenné minimálne od 20. 10. 2026). actionPrice = 'Akční DMOC EUR' z dodávateľského PDF (s DPH, dodávateľ garantuje marzu 20 % počas akcie). Akcia platí validFrom..validUntil vrátane (dátum v UTC); po termíne ju apply-innpro-black-friday.js (BF_LABEL=WiiM) zruší (ACTION_PRICE = PRICE_VAT, príznak Akcia 0). Spúšťa sa v wiim-sync.yml denne po polnoci UTC. Ručné zrušenie: skrátiť validUntil alebo vymazať položky.",
+ "marginPct": 20,
+ "_comment_marginPct": "Marža dodávateľa počas akcie (20 % z predajnej ceny bez DPH, rovnaká konvencia ako pri MONACOR v heureka-conversion-rules.json). Nákupná cena bez DPH = actionPrice / 1,23 × 0,8 sa zapíše do PURCHASE_PRICE len počas akcie; po akcii sa už nemení, lebo regulárna nákupná cena nie je známa (doplniť ručne).",
  "validFrom": "2026-11-01",
  "validUntil": "2026-11-30",
  "items": {

@@ -39,7 +39,7 @@ function main() {
   const active = today >= data.validFrom && today <= data.validUntil;
   const xml = fs.readFileSync(feedPath, 'utf8');
   const seen = new Set();
-  const st = { applied: 0, reset: 0, noStrike: 0, skipped: 0 };
+  const st = { applied: 0, reset: 0, noStrike: 0, skipped: 0, purchase: 0 };
   const out = xml.replace(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g, (b) => {
     const ean = (tag(b, 'EAN') || '').trim();
     const it = data.items[ean];
@@ -58,6 +58,16 @@ function main() {
       st.skipped++; return b;
     }
     let u = setTag(b, 'PRICE_VAT', standard.toFixed(2));
+    // Nákupná cena z garantovanej marže dodávateľa (percentá z predajnej ceny bez DPH, počas akcie):
+    // nákup bez DPH = akciová cena bez DPH × (1 − marža). Feed ju inak nemá (WiiM PDF obsahuje len DMOC).
+    // Mimo okna sa nákupná cena nemení (import ju nevymaže a regulárna nákupná cena nie je známa).
+    if (data.marginPct > 0 && data.marginPct < 100 && !(purchase > 0)) {
+      const buyNet = action / (1 + vat / 100) * (1 - data.marginPct / 100);
+      u = setTag(u, 'PURCHASE_PRICE', buyNet.toFixed(2));
+      u = setTag(u, 'PURCHASE_VAT', String(vat));
+      u = setTag(u, 'PURCHASE_PRICE_INCL_VAT', '0');
+      st.purchase++;
+    }
     u = setTag(u, 'STANDARD_PRICE', standard.toFixed(2));
     u = setTag(u, 'ACTION_PRICE', action.toFixed(2));
     const strike = it.standardPrice && action < standard - 1e-9;
@@ -69,6 +79,6 @@ function main() {
   fs.writeFileSync(tmp, out, 'utf8');
   fs.renameSync(tmp, feedPath);
   const missing = Object.keys(data.items).filter((e) => !seen.has(e)).length;
-  console.log(`${label} BF (${active ? 'aktívna' : 'neaktívna'}, dnes ${today}): zapísané ${st.applied}, bez prečiarknutia ${st.noStrike}, reset ${st.reset}, preskočené ${st.skipped}, nenájdené vo feede ${missing}.`);
+  console.log(`${label} BF (${active ? 'aktívna' : 'neaktívna'}, dnes ${today}): zapísané ${st.applied}, bez prečiarknutia ${st.noStrike}, nákupná cena z marže ${st.purchase}, reset ${st.reset}, preskočené ${st.skipped}, nenájdené vo feede ${missing}.`);
 }
 try { main(); } catch (e) { console.error(`BF krok zlyhal: ${e.message}`); process.exit(1); }
