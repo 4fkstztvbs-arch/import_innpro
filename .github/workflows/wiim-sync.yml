@@ -7,7 +7,13 @@ on:
       - 'data/wiim-pricelist.pdf'
       - 'scripts/transform-wiim.js'
       - 'scripts/parse-wiim-pricelist.js'
+      - 'scripts/apply-innpro-black-friday.js'
+      - 'data/wiim-black-friday.json'
       - '.github/workflows/wiim-sync.yml'
+  schedule:
+    # Denne krátko po polnoci UTC (01:05 CET): zapne WiiM Black Friday od 1. 11. a po 30. 11. ju
+    # vypne. Bez plánu by sa feed pregeneroval len pri novom PDF a akcia by sa sama nezrušila.
+    - cron: '5 0 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -51,6 +57,14 @@ jobs:
 
       - name: Normalize valid supplier GTINs to EAN-13
         run: node scripts/normalize-truncated-ean.js output/wiim.xml
+
+      # Black Friday: PRICE_VAT = pôvodná cena, ACTION_PRICE = akčná cena (pred Heureka pravidlami).
+      # Bez continue-on-error: pri zlyhaní sa feed necommitne, aby nezostala visieť stará akčná cena.
+      - name: WiiM Black Friday ceny
+        env:
+          INNPRO_BF_DATA: data/wiim-black-friday.json
+          BF_LABEL: WiiM
+        run: node scripts/apply-innpro-black-friday.js output/wiim.xml
 
       - name: Heureka konverzné pravidlá (scripts/heureka-conversion-rules.json)
         run: node scripts/apply-heureka-conversion-rules.js --xml=output/wiim.xml

@@ -50,8 +50,8 @@ function hideReason(item, rules, ctx) {
   if (ean && (rules.keepEans?.[ean] || ctx.isPilot(ean))) return null;
   const regularPrice = parseFloat(tag(item, 'PRICE_VAT'));
   if (!(regularPrice > 0)) return null;
-  // InnPro Black Friday: PRICE_VAT je doporučená cena, zákazník platí ACTION_PRICE (apply-innpro-black-friday.js).
-  const actionPrice = String(ctx.supplier).startsWith('innpro') ? parseFloat(tag(item, 'ACTION_PRICE')) : NaN;
+  // InnPro/WiiM Black Friday: PRICE_VAT je doporučená cena, zákazník platí ACTION_PRICE (apply-innpro-black-friday.js).
+  const actionPrice = /^(innpro|wiim)/.test(String(ctx.supplier)) ? parseFloat(tag(item, 'ACTION_PRICE')) : NaN;
   const price = actionPrice > 0 && actionPrice < regularPrice ? actionPrice : regularPrice;
   const cheapest = ean ? ctx.cheapest.get(ean) : undefined;
   // Drahá ponuka sa skryje len vtedy, keď ju sortiment report ukazuje ako nekonkurencieschopnú

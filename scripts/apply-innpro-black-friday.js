@@ -11,6 +11,8 @@ const path = require('path');
 const feedPath = process.argv[2] || path.join(__dirname, '..', 'output', 'innpro.xml');
 const dataPath = process.env.INNPRO_BF_DATA || path.join(__dirname, '..', 'data', 'innpro-black-friday.json');
 const today = process.env.INNPRO_BF_TODAY || new Date().toISOString().slice(0, 10);
+// Skript je zdieľaný: WiiM ho volá s INNPRO_BF_DATA=data/wiim-black-friday.json a BF_LABEL=WiiM.
+const label = process.env.BF_LABEL || 'InnPro';
 
 const tag = (b, t) => (b.match(new RegExp(`<${t}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${t}>`)) || [])[1];
 function setTag(b, t, v) {
@@ -52,7 +54,7 @@ function main() {
     const vat = Number(tag(b, 'PURCHASE_VAT') || 23);
     const purchaseNet = Number(tag(b, 'PURCHASE_PRICE_INCL_VAT')) === 1 ? purchase / (1 + vat / 100) : purchase;
     if (!(action > 0) || action > standard + 1e-9 || (purchaseNet > 0 && action / (1 + vat / 100) < purchaseNet)) {
-      console.warn(`BF ${ean}: neplatná akciová cena ${action} (štandard ${standard}, nákup ${purchaseNet}); preskakujem.`);
+      console.warn(`${label} BF ${ean}: neplatná akciová cena ${action} (štandard ${standard}, nákup ${purchaseNet}); preskakujem.`);
       st.skipped++; return b;
     }
     let u = setTag(b, 'PRICE_VAT', standard.toFixed(2));
@@ -67,6 +69,6 @@ function main() {
   fs.writeFileSync(tmp, out, 'utf8');
   fs.renameSync(tmp, feedPath);
   const missing = Object.keys(data.items).filter((e) => !seen.has(e)).length;
-  console.log(`InnPro BF (${active ? 'aktívna' : 'neaktívna'}, dnes ${today}): zapísané ${st.applied}, bez prečiarknutia ${st.noStrike}, reset ${st.reset}, preskočené ${st.skipped}, nenájdené vo feede ${missing}.`);
+  console.log(`${label} BF (${active ? 'aktívna' : 'neaktívna'}, dnes ${today}): zapísané ${st.applied}, bez prečiarknutia ${st.noStrike}, reset ${st.reset}, preskočené ${st.skipped}, nenájdené vo feede ${missing}.`);
 }
 try { main(); } catch (e) { console.error(`BF krok zlyhal: ${e.message}`); process.exit(1); }

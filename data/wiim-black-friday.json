@@ -1,0 +1,13 @@
+{
+ "_comment": "WiiM Black Friday 2026 (Perfect Sound Group, PDF '1-BF Wiim'). Kľúč = EAN-13 z feedu. standardPrice = aktuálna predajná cena premiumstore.sk (prečiarknutá, PRICE_VAT) = referenčná cena podľa Omnibus (najnižšia cena za 30 dní pred akciou; ceny 279/355/510 € nemenné minimálne od 20. 10. 2026). actionPrice = 'Akční DMOC EUR' z dodávateľského PDF (s DPH, dodávateľ garantuje marzu 20 % počas akcie). Akcia platí validFrom..validUntil vrátane (dátum v UTC); po termíne ju apply-innpro-black-friday.js (BF_LABEL=WiiM) zruší (ACTION_PRICE = PRICE_VAT, príznak Akcia 0). Spúšťa sa v wiim-sync.yml denne po polnoci UTC. Ručné zrušenie: skrátiť validUntil alebo vymazať položky.",
+ "validFrom": "2026-11-01",
+ "validUntil": "2026-11-30",
+ "items": {
+  "0741365254621": { "name": "Smart reproduktor WiiM Sound Lite, čierny", "code": "WiiM_Sound_Lite_003", "standardPrice": 279.0, "actionPrice": 226.9 },
+  "0741365254638": { "name": "Smart reproduktor WiiM Sound Lite, biely", "code": "WiiM_Sound_Lite_013", "standardPrice": 279.0, "actionPrice": 226.9 },
+  "0741365254560": { "name": "Reproduktor WiiM Sound, čierny", "code": "WIIM_SPK_003", "standardPrice": 355.0, "actionPrice": 295.9 },
+  "0741365254577": { "name": "Smart reproduktor WiiM Sound, Wi-Fi, biely", "code": "WiiM_SPK_013", "standardPrice": 355.0, "actionPrice": 295.9 },
+  "0741365254539": { "name": "Bezdrôtový subwoofer WiiM Sub Pro, čierny", "code": "WiiM_SUB_PRO_003", "standardPrice": 510.0, "actionPrice": 449.9 },
+  "0741365254607": { "name": "Bezdrôtový subwoofer WiiM Sub Pro, biely", "code": "WiiM_SUB_PRO_013", "standardPrice": 510.0, "actionPrice": 449.9 }
+ }
+}
