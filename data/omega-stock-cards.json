@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600661,
+    "nextCardNumber": 202600663,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3962,6 +3962,18 @@
         "nazov": "Termostat AT TEMP 3680 (URZ4055 E6185) zásuvkový s čidlem, podsvícený displej",
         "dodavatel": "atos",
         "code": ""
+      },
+      "0810050910323": {
+        "kod": "202600661",
+        "nazov": "Hori PS5/PS4/PC RWA: Racing",
+        "dodavatel": "kb",
+        "code": "100001575259"
+      },
+      "8594176930053": {
+        "kod": "202600662",
+        "nazov": "EZIDRI Síťka pro FD1000 ULTRA",
+        "dodavatel": "kb",
+        "code": "100001771948"
       }
     }
   },
