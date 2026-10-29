@@ -32667,6 +32667,7 @@
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
@@ -121629,14 +121630,14 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[ETA 170890000]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[5 režimů čištění, Otočné čistící trysky o 360°, Ultrajemný vodní paprsek 0,6 mm, Provozní tlak 0,68 - 6,89 bar, Časovač 2,5 minuty, Doba provozu 60 minut, 3,7V Li-ion akumulátor, Nádržka o objemu 500 ml, IPX7, Univerzální napětí (100 - 240V), USB nabíjení]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[5 režimů čištění, Otočné čistící trysky o 360°, Ultrajemný vodní paprsek 0,6 mm, Provozní tlak 0,68 - 6,89 bar, Časovač 2,5 minuty, Doba provozu 60 minut, 3,7V Li-ion akumulátor, Nádržka o objemu 500 ml, IPX7, Univerzální napětí (100 - 240V), USB nabíjení
-<p>Ďalšie produkty nájdete v kategórii <a href="/starostlivost-o-zuby-ustne-sprchy/">Ústne sprchy</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/starostlivost-o-zuby/">Starostlivosť o zuby</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[ETA]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100000969020</CODE>
 <EAN>8590393320844</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy]]></CATEGORY><CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY><CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby]]></CATEGORY><CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY><CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="ETA 170890000">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Eta/100000969020-202.jpg</IMAGE>
@@ -179606,7 +179607,52 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <SEO_TITLE><![CDATA[Electrolux EW9F7617SC | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Electrolux EW9F7617SC – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
-
+<SHOPITEM>
+<NAME><![CDATA[GameSir Nova Lite Multiplat. White]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[GameSir Nova Lite je vybaven Hall Effect páčkami, které zajišťují dlouhou životnost ovladače. Rozlučte se s driftováním páček. Díky analogovým triggerům, funkci 20Hz Turbo a 2 motorům v rukojetích se Nova Lite zavazuje uspokojit požadavky hráčů .]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[GameSir Nova Lite je vybaven Hall Effect páčkami, které zajišťují dlouhou životnost ovladače. Rozlučte se s driftováním páček. Díky analogovým triggerům, funkci 20Hz Turbo a 2 motorům v rukojetích se Nova Lite zavazuje uspokojit požadavky hráčů .
+<p>Ďalšie produkty nájdete v kategórii <a href="/herne-zariadenia-2/">Herné konzoly</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[GameSir]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>100002096301</CODE>
+<EAN>6936685221406</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné konzoly]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="GameSir Nova Lite Multiplat. White">https://img.b2b.k-b.cz/fotocache/mid/images/orig/GameSir/100002096301-202.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[GameSir]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[biela]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[24 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[3-5 ks skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[3-5 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>19.90</PRICE_VAT>
+<PURCHASE_PRICE>14.54</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[GameSir Nova Lite Multiplat. White | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[GameSir Nova Lite Multiplat. White – 3-5 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[ALI GLASS Xiaomi Redmi 14C GLA0286]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Ochrana displeje GLASS Xiaomi Redmi 14C - Toto ochranné sklo, které chrání celý displej, včetně všech zaoblení, se skládá ze dvou vrstev. Jednu vrstvu tvoří odolné tvrzené sklo, druhou speciální fólie, která zajistí perfektní přilnutí k displeji.; ;]]></SHORT_DESCRIPTION>
@@ -254141,6 +254187,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
@@ -271925,14 +271972,14 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[Marvo Volant GT-903 volant s pedály]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Volant s pedály a řadící pákou; 16 tlačítek; Plug and Play; připojení: kabelové USB; délka kabelu: 1,9m; velikost volantu cca 220x270x230mm; velikost pedálů cca 210x200x130mm; kompatibilní s: PC/PS3/PS4/XBOX ONE/XBOX 360/Android/NINTENDO SWITCH/Windows Vi]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Volant s pedály a řadící pákou; 16 tlačítek; Plug and Play; připojení: kabelové USB; délka kabelu: 1,9m; velikost volantu cca 220x270x230mm; velikost pedálů cca 210x200x130mm; kompatibilní s: PC/PS3/PS4/XBOX ONE/XBOX 360/Android/NINTENDO SWITCH/Windows Vista/7/8/8.1/10. *nutnost zapojení kabelem.
-<p>Ďalšie produkty nájdete v kategórii <a href="/herne-simulatory/">Herné simulátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/volanty-a-pretekarske-ovladace/">Volanty a pretekárske ovládače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Marvo]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100001519273</CODE>
 <EAN>8590274766150</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Marvo Volant GT-903 volant s pedály">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Marvo/100001519273-202.jpg</IMAGE>
 </IMAGES>
@@ -326347,14 +326394,18 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[LENOVO adaptér TAB 68W AC USB ZG38C05739]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Lenovo adaptér TAB 68W AC USB-C Wall-Mount , nabíječka USB-C pro všechny tablety kompatibilní s USB-C power deliverydélka kabelu:1,5m; hmotnost: 89,9g]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Lenovo adaptér TAB 68W AC USB-C Wall-Mount , nabíječka USB-C pro všechny tablety kompatibilní s USB-C power deliverydélka kabelu:1,5m; hmotnost: 89,9g
-<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky-pre-mobily/">Nabíjačky pre mobily</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/tablety-4/">Tablety</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lenovo]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002079522</CODE>
 <EAN>0197531544216</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="LENOVO adaptér TAB 68W AC USB ZG38C05739">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Lenovo/100002079522-202.jpg</IMAGE>
