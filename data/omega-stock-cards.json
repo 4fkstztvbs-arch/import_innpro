@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600675,
+    "nextCardNumber": 202600682,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4046,6 +4046,48 @@
         "nazov": "TTL wireless flash trigger",
         "dodavatel": "innpro",
         "code": "095320"
+      },
+      "4006501565532": {
+        "kod": "202600675",
+        "nazov": "LEIFHEIT Mop 56553 Picobello XL",
+        "dodavatel": "kb",
+        "code": "100000033261"
+      },
+      "4006501566096": {
+        "kod": "202600676",
+        "nazov": "LEIFHEIT Návlek na mop 56609 Pi",
+        "dodavatel": "kb",
+        "code": "100000033323"
+      },
+      "4006501566089": {
+        "kod": "202600677",
+        "nazov": "LEIFHEIT Návlek na mop 56608 Pi",
+        "dodavatel": "kb",
+        "code": "100000033326"
+      },
+      "4006501551177": {
+        "kod": "202600678",
+        "nazov": "LEIFHEIT Návlek na mop 55117 Ha",
+        "dodavatel": "kb",
+        "code": "100000033331"
+      },
+      "8595006123867": {
+        "kod": "202600679",
+        "nazov": "Remoska R302001 Maria",
+        "dodavatel": "kb",
+        "code": "100002129541"
+      },
+      "4006501511041": {
+        "kod": "202600680",
+        "nazov": "Leifheit Stěrka na okna s kartáčem a",
+        "dodavatel": "kb",
+        "code": "100002136161"
+      },
+      "4003790001970": {
+        "kod": "202600681",
+        "nazov": "VILEDA F10383 Drátěnka,2",
+        "dodavatel": "kb",
+        "code": "700000036503"
       }
     }
   },
