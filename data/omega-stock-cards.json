@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600663,
+    "nextCardNumber": 202600675,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -3974,6 +3974,78 @@
         "nazov": "EZIDRI Síťka pro FD1000 ULTRA",
         "dodavatel": "kb",
         "code": "100001771948"
+      },
+      "6971636405573": {
+        "kod": "202600663",
+        "nazov": "Hyper PLA Blue Filament",
+        "dodavatel": "innpro",
+        "code": "064737"
+      },
+      "5906168432989": {
+        "kod": "202600664",
+        "nazov": "Ancel BM200 Battery Tester",
+        "dodavatel": "innpro",
+        "code": "069362"
+      },
+      "6977132450253": {
+        "kod": "202600665",
+        "nazov": "IsEasy Two-head glass gas",
+        "dodavatel": "innpro",
+        "code": "073840"
+      },
+      "5907085524313": {
+        "kod": "202600666",
+        "nazov": "Besen LX30 Wall EV",
+        "dodavatel": "innpro",
+        "code": "075465"
+      },
+      "6976831839833": {
+        "kod": "202600667",
+        "nazov": "NEEWER LED VIDEO",
+        "dodavatel": "innpro",
+        "code": "078444"
+      },
+      "5905156102101": {
+        "kod": "202600668",
+        "nazov": "Flytec RC Boat V803-Basic",
+        "dodavatel": "innpro",
+        "code": "083982"
+      },
+      "6974065452316": {
+        "kod": "202600669",
+        "nazov": "ZEUSLAP Portable Monitor",
+        "dodavatel": "innpro",
+        "code": "087455"
+      },
+      "6921268815653": {
+        "kod": "202600670",
+        "nazov": "NEEWER BASICS NL48B",
+        "dodavatel": "innpro",
+        "code": "083190"
+      },
+      "6921268812102": {
+        "kod": "202600671",
+        "nazov": "NEEWER BASICS",
+        "dodavatel": "innpro",
+        "code": "089373"
+      },
+      "9331911052910": {
+        "kod": "202600672",
+        "nazov": "Amzchef Slow Juicer",
+        "dodavatel": "innpro",
+        "code": "090375"
+      },
+      "9331911052941": {
+        "kod": "202600673",
+        "nazov": "Amzchef Baby Food Maker",
+        "dodavatel": "innpro",
+        "code": "090377"
+      },
+      "6952344245835": {
+        "kod": "202600674",
+        "nazov": "TTL wireless flash trigger",
+        "dodavatel": "innpro",
+        "code": "095320"
       }
     }
   },
