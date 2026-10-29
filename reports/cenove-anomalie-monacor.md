@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — monacor — 2026-10-28
+# Cenové anomálie vynechané z feedu — monacor — 2026-10-29
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -53,39 +53,43 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | CRY-250v4-1.86-GOB | 1111111111114 | GOB LED module for composite screens for fixed installations, 1.86mm pitch | nulová/neplatná cena |  | 0.00 € |  |  |
 | CX-608W | 4007754429381 | Electret instrument microphone | nulová/neplatná cena |  | 0.00 € |  |  |
 | CQ-18T | 6938122251434 | Digitálny mixpult | nulová/neplatná cena |  | 0.00 € |  |  |
-| T-208A | 4007754026047 | Monacor T-208A 6.3 mm mono zástrčka | cena mimo 8x rozsah mediánu kategórie | 5.00 € | 0.60 € | 1/8.3x | 32 |
-| AIRMT-130 | 4007754250268 | Monacor AIRMT-130 Špičkový výškový reproduktor AIR MOTION TRANSFORMER, 60 W, 8 Ω | cena mimo 8x rozsah mediánu kategórie | 34.40 € | 305.00 € | 8.9x | 26 |
+| AIRMT-130 | 4007754250268 | Monacor AIRMT-130 Špičkový výškový reproduktor AIR MOTION TRANSFORMER, 60 W, 8 Ω | cena mimo 8x rozsah mediánu kategórie | 34.90 € | 305.00 € | 8.7x | 25 |
+| ATT-20 | 4007754146288 | Monacor ATT-20 Otočný gombík, biely | cena mimo 8x rozsah mediánu kategórie | 47.50 € | 2.80 € | 1/17.0x | 25 |
 | CAT-1TEST | 4007754232011 | Monacor CAT-1TEST Tester liniek | cena mimo 8x rozsah mediánu kategórie | 247.25 € | 12.00 € | 1/20.6x | 6 |
-| CR-2016 |  | Panasonic CR-2016 Lítiové batérie CR2016 | cena mimo 8x rozsah mediánu kategórie | 35.95 € | 1.90 € | 1/18.9x | 10 |
+| DBA-1/SW | 7613187010750 | Neutrik DBA-1/SW Krytka | cena mimo 8x rozsah mediánu kategórie | 27.20 € | 2.10 € | 1/13.0x | 4 |
 | DM-70/SW | 4007754094039 | Monacor DM-70/SW Dynamický mikrofón | cena mimo 8x rozsah mediánu kategórie | 67.20 € | 7.90 € | 1/8.5x | 26 |
 | LKB-1 | 4007754185027 | Monacor LKB-1 Pripájací terminál | cena mimo 8x rozsah mediánu kategórie | 53.50 € | 6.60 € | 1/8.1x | 11 |
 | LST-6 | 4007754176872 | Monacor LST-6 Pár univerzálnych držiakov | cena mimo 8x rozsah mediánu kategórie | 4.40 € | 45.50 € | 10.3x | 8 |
 | MCS-180 | 4007754166415 | Monacor MCS-180 Zásuvková lišta pre montáž do racku | cena mimo 8x rozsah mediánu kategórie | 3.50 € | 165.00 € | 47.1x | 8 |
-| NA-2MJTX | 4007754192490 | Neutrik NA-2MJTX NEUTRIK XLR/6.3 mm vyrovnávací adaptér/uzemňovací izolátor | cena mimo 8x rozsah mediánu kategórie | 5.00 € | 56.00 € | 11.2x | 32 |
-| OLA-35JT | 4051366119246 | ORG OLA-35JT Toslink adaptér | cena mimo 8x rozsah mediánu kategórie | 15.20 € | 1.40 € | 1/10.9x | 6 |
-| OLA-35T | 4051366119222 | ORG OLA-35T Toslink adaptér | cena mimo 8x rozsah mediánu kategórie | 15.20 € | 1.60 € | 1/9.5x | 6 |
-| RBT-35SR | 4007754239737 | Monacor RBT-35SR Vysokokvalitné stuhové výškové reproduktory, v páre, 12 W, 7 Ω | cena mimo 8x rozsah mediánu kategórie | 34.40 € | 340.00 € | 9.9x | 26 |
+| OLA-20T | 4051366119260 | ORG OLA-20T Toslink konektor | cena mimo 8x rozsah mediánu kategórie | 19.90 € | 1.60 € | 1/12.4x | 7 |
+| OLA-35JT | 4051366119246 | ORG OLA-35JT Toslink adaptér | cena mimo 8x rozsah mediánu kategórie | 19.90 € | 1.40 € | 1/14.2x | 7 |
+| RBT-35SR | 4007754239737 | Monacor RBT-35SR Vysokokvalitné stuhové výškové reproduktory, v páre, 12 W, 7 Ω | cena mimo 8x rozsah mediánu kategórie | 34.90 € | 340.00 € | 9.7x | 25 |
 | SP-39 | 4007754226379 | Monacor SP-39 Slúchadlový reproduktor, 32 Ω | cena mimo 8x rozsah mediánu kategórie | 34.50 € | 3.60 € | 1/9.6x | 10 |
+| SPS-30/SC | 4007754179392 | Monacor SPS-30/SC Sada reproduktorových hrotov (4 ks) | cena mimo 8x rozsah mediánu kategórie | 4.70 € | 66.00 € | 14.0x | 10 |
+| ST-950 | 4007754025798 | Monacor ST-950 Pružinový reproduktorový terminál | cena mimo 8x rozsah mediánu kategórie | 12.00 € | 1.00 € | 1/12.0x | 15 |
 | TXA-1000BAG | 4007754208948 | Monacor TXA-1000BAG Ochranné puzdro | cena mimo 8x rozsah mediánu kategórie | 410.00 € | 49.00 € | 1/8.4x | 21 |
 | TXA-1015ACCU | 4007754217254 | ORG TXA-1015ACCU Nabíjateľná olovená batéria, 12 V | cena mimo 8x rozsah mediánu kategórie | 410.00 € | 34.50 € | 1/11.9x | 21 |
 | TXA-815ACCU | 4007754210262 | ORG TXA-815ACCU Nabíjateľná olovená batéria, 12 V | cena mimo 8x rozsah mediánu kategórie | 410.00 € | 42.00 € | 1/9.8x | 21 |
 | SPEECH-500/GR | 4007754256161 | Monacor SPEECH-500/GR Profesionálny pultík s elektrickým nastavením výšky a inte | cena mimo 8x rozsah mediánu kategórie | 410.00 € | 5829.00 € | 14.2x | 21 |
 | ST-5000T | 4007754256352 | JTS ST-5000T Pultový mikrofón na husom krku | cena mimo 8x rozsah mediánu kategórie | 13.00 € | 177.00 € | 13.6x | 36 |
 | USP-124 | 4007754256345 | JTS USP-124 4-cestný rozbočovač antény | cena mimo 8x rozsah mediánu kategórie | 13.00 € | 439.00 € | 33.8x | 36 |
-| ATT-300C | 4007754260083 | Monacor ATT-300C Krabica pod omietku | cena mimo 8x rozsah mediánu kategórie | 47.50 € | 4.30 € | 1/11.0x | 25 |
-| DPVEN-03 | 4007754262919 | ORG DPVEN-03 482 mm (19") ventilačný modul, 1 U, s 3 ventilátormi | cena mimo 8x rozsah mediánu kategórie | 31.25 € | 468.00 € | 15.0x | 24 |
-| DPVEN-04 | 4007754262926 | ORG DPVEN-04 482 mm (19") ventilačný modul, 1 U, so 4 ventilátormi | cena mimo 8x rozsah mediánu kategórie | 31.25 € | 570.00 € | 18.2x | 24 |
-| CH-8 | 4007754261134 | JTS CH-8 Transportný kufrík s funkciou nabíjania | cena mimo 8x rozsah mediánu kategórie | 32.90 € | 1263.00 € | 38.4x | 15 |
+| TXA-1802CD | 4007754261547 | Monacor TXA-1802CD Modul CD prehrávača | cena mimo 8x rozsah mediánu kategórie | 27.20 € | 458.00 € | 16.8x | 4 |
+| DPVEN-03 | 4007754262919 | ORG DPVEN-03 482 mm (19") ventilačný modul, 1 U, s 3 ventilátormi | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 468.00 € | 23.4x | 23 |
+| DPVEN-04 | 4007754262926 | ORG DPVEN-04 482 mm (19") ventilačný modul, 1 U, so 4 ventilátormi | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 570.00 € | 28.5x | 23 |
+| CH-8 | 4007754261134 | JTS CH-8 Transportný kufrík s funkciou nabíjania | cena mimo 8x rozsah mediánu kategórie | 34.70 € | 1263.00 € | 36.4x | 16 |
 | DRM-882LAN | 4007754272468 | Monacor DRM-882LAN Digitálny 8x8 matrix router | cena mimo 8x rozsah mediánu kategórie | 209.00 € | 2452.00 € | 11.7x | 6 |
-| ATS-80EM | 4007754273793 | Monacor ATS-80EM Earphone microphone for ATS 80T | cena mimo 8x rozsah mediánu kategórie | 376.50 € | 26.50 € | 1/14.2x | 6 |
+| ATS-80EM | 4007754273793 | Monacor ATS-80EM Earphone microphone for ATS 80T | cena mimo 8x rozsah mediánu kategórie | 429.50 € | 26.50 € | 1/16.2x | 7 |
 | RM/MXR-60 | 4007754275841 | IMG Stage Line RM/MXR-60 482 mm (19") sada montážnych konzol pre MXR-60 | cena mimo 8x rozsah mediánu kategórie | 195.00 € | 22.50 € | 1/8.7x | 26 |
 | RM/MXR-80 | 4007754275858 | IMG Stage Line RM/MXR-80 482 mm sada montážnych konzol pre MXR-80 | cena mimo 8x rozsah mediánu kategórie | 195.00 € | 22.50 € | 1/8.7x | 26 |
 | IT-400DTM | 4007754417647 | Monacor IT-400DTM Weatherproof active 2-way horn speaker (music horn) with integ | cena mimo 8x rozsah mediánu kategórie | 95.20 € | 873.00 € | 9.2x | 12 |
+| RCS-52/SW | 4007754414745 | Monacor RCS-52/SW 482 mm (19") document drawer, 2 RU | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 219.00 € | 10.9x | 23 |
+| RCS-53/SW | 4007754414738 | Monacor RCS-53/SW 482 mm (19") document drawer, 3 RU | cena mimo 8x rozsah mediánu kategórie | 20.00 € | 250.00 € | 12.5x | 23 |
+| NPA-12/24I | 4007754031423 | Yuasa NPA-12/24I Rechargeable lead-acid battery, 12 V, 24 Ah, VRLA | cena mimo 8x rozsah mediánu kategórie | 10.50 € | 225.00 € | 21.4x | 13 |
 | R-H6200T/SW | 8588008802427 | ARVOX R-H6200T/SW Štadiónový reproduktor | cena mimo 8x rozsah mediánu kategórie | 62.25 € | 712.50 € | 11.4x | 14 |
 | RM-4125DX | 4007754428261 | Monacor RM-4125DX 482 mm (19") mounting bracket kit for PA-4125DX and PA-4125DX/ | cena mimo 8x rozsah mediánu kategórie | 834.00 € | 41.90 € | 1/19.9x | 11 |
 | WM-4125DX | 4007754428278 | Monacor WM-4125DX Wall mounting bracket for PA-4125DX and PA-4125DX/DT | cena mimo 8x rozsah mediánu kategórie | 834.00 € | 22.00 € | 1/37.9x | 11 |
-| MZZX300 | 8051361591432 | ZZIPP MZZX300 Mikrofónový kábel | cena mimo 8x rozsah mediánu kategórie | 148.50 € | 15.00 € | 1/9.9x | 12 |
-| MZZX500 | 8051361591449 | ZZIPP MZZX500 Mikrofónový kábel | cena mimo 8x rozsah mediánu kategórie | 148.50 € | 17.90 € | 1/8.3x | 12 |
+| MZZX300 | 8051361591432 | ZZIPP MZZX300 Mikrofónový kábel | cena mimo 8x rozsah mediánu kategórie | 149.00 € | 15.00 € | 1/9.9x | 13 |
+| MZZX500 | 8051361591449 | ZZIPP MZZX500 Mikrofónový kábel | cena mimo 8x rozsah mediánu kategórie | 149.00 € | 17.90 € | 1/8.3x | 13 |
 | SPZZ515 | 8051361591890 | ZZIPP SPZZ515 Reproduktorový kábel | cena mimo 8x rozsah mediánu kategórie | 209.00 € | 2.00 € | 1/104.5x | 22 |
 | FOGFLUIDPRO20L | 3700752712431 | Evoli FOGFLUIDPRO20L Fluids | cena mimo 8x rozsah mediánu kategórie | 11.00 € | 112.00 € | 10.2x | 19 |
 | FOGJETCO2IP | 3700752719973 | Evoli FOGJETCO2IP Smoke Machine | cena mimo 8x rozsah mediánu kategórie | 97.00 € | 3074.00 € | 31.7x | 14 |
