@@ -582,6 +582,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096162 | 6934915203642 | Pamäťová karta DDPAI 64 GB [microSD] U3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096163 | 6934915203659 | Pamäťová karta DDPAI 128G microSD 128 GB U3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096164 | 6934915203666 | Pamäťová karta DDPAI 256 GB [microSD] U3 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 074746 | 6977728940212 | Elektrická zubná kefka MOVA Fresh Pro (čierna) | zmena ceny > 5x oproti minulému importu | 125.90 € | 24.50 € | 1/5.1x |  |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 11.00 € | 1/12.8x | 14 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 8.10 € | 1/17.4x | 14 |
