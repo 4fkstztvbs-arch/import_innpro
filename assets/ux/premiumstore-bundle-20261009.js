@@ -3827,7 +3827,7 @@ try {
     var bar=document.createElement('nav');bar.id='pmb-bar';bar.setAttribute('aria-label','Rýchla navigácia');
     bar.innerHTML=
       '<a class="pmb-it" data-k="home" href="/">'+ic('home')+'<span>Domov</span></a>'+
-      '<button class="pmb-it" data-k="menu" type="button" aria-haspopup="dialog">'+ic('layout-grid')+'<span>Menu</span></button>'+
+      '<button class="pmb-it" data-k="menu" type="button" aria-haspopup="dialog">'+ic('layout-grid')+'<span>Kategórie</span></button>'+
       '<a class="pmb-cart" data-k="cart" href="/kosik/" aria-label="Košík">'+ic('shopping-cart')+'<span class="pmb-cl">Košík</span><i class="pmb-badge"></i></a>'+
       '<button class="pmb-it" data-k="search" type="button" aria-haspopup="dialog">'+ic('search')+'<span>Hľadať</span></button>'+
       '<a class="pmb-it" data-k="user" href="/klient/">'+ic('user')+'<span>Účet</span></a>';
@@ -3880,7 +3880,14 @@ try {
       var h='<div class="pmb-grab"></div><div class="pmb-top"><h3>Hľadať</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div><div class="pmb-body">';
       h+=nat?'<div id="pmb-slot"></div>':
         '<form class="pmb-sf" action="/vyhladavanie/" method="get">'+ic('search')+'<input type="search" name="string" placeholder="Značka, produkt alebo kód" autocomplete="off" enterkeyhint="search" aria-label="Vyhľadávanie"><button type="submit">Hľadať</button></form>';
-      h+='<div class="pmb-extra"><div class="pmb-h">Obľúbené značky</div><div>';
+      var tops=[].slice.call(document.querySelectorAll('#navigation .menu-level-1 > li > a')).slice(0,8);
+      h+='<div class="pmb-extra">';
+      if(tops.length){
+        h+='<div class="pmb-h">Kategórie</div><div>';
+        tops.forEach(function(a){h+='<a class="pmb-tc" href="'+esc(a.getAttribute('href'))+'">'+esc(a.textContent.replace(/\s+/g,' ').trim())+'</a>';});
+        h+='</div>';
+      }
+      h+='<div class="pmb-h">Obľúbené značky</div><div>';
       BRANDS.forEach(function(b){h+='<button class="pmb-chip" type="button" data-q="'+esc(b)+'">'+esc(b)+'</button>';});
       h+='</div>';
       var rec=getRecent();

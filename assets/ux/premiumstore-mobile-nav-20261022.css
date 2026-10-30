@@ -83,3 +83,5 @@
   #header .ps-catalog-nav a[href*="black-friday"]::before{content:"";width:16px;height:16px;flex:0 0 auto;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 12c2-2.96 0-7-1-8 0 3.038-1.773 4.741-3 6-1.226 1.26-2 3.24-2 5a6 6 0 1 0 12 0c0-1.532-1.056-3.94-2-5-1.786 3-2.791 3-4 2z'/%3E%3C/svg%3E") center/contain no-repeat}
   #header .ps-catalog-nav a[href*="black-friday"]:hover{color:#fff;transform:translateY(-1px);box-shadow:0 6px 16px rgba(238,90,47,.42)}
 }
+
+  .pmb-tc{display:inline-block;background:var(--pmb-light);border-radius:18px;padding:10px 14px;font-size:13px;color:var(--pmb-navy);margin:0 6px 8px 0;text-decoration:none;min-height:44px;box-sizing:border-box;line-height:24px}
