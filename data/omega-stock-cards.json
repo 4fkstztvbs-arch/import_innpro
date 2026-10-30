@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600695,
+    "nextCardNumber": 202600705,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4166,6 +4166,66 @@
         "nazov": "PGYTECH RetroVa Grip Kit",
         "dodavatel": "innpro",
         "code": "089280"
+      },
+      "6923520268597": {
+        "kod": "202600695",
+        "nazov": "Edifier R1855DB speakers",
+        "dodavatel": "innpro",
+        "code": "028510"
+      },
+      "5905316146662": {
+        "kod": "202600696",
+        "nazov": "PULUZ 30cm Folding Photo",
+        "dodavatel": "innpro",
+        "code": "046569"
+      },
+      "4779060890161": {
+        "kod": "202600697",
+        "nazov": "OBDeleven 3 PRO Pack",
+        "dodavatel": "innpro",
+        "code": "082273"
+      },
+      "0757047110505": {
+        "kod": "202600698",
+        "nazov": "Projector Magcubic HY310X",
+        "dodavatel": "innpro",
+        "code": "086344"
+      },
+      "4897016411199": {
+        "kod": "202600699",
+        "nazov": "Minix Portable Monitor",
+        "dodavatel": "innpro",
+        "code": "086798"
+      },
+      "6978763360577": {
+        "kod": "202600700",
+        "nazov": "Digital tire pressure gauge",
+        "dodavatel": "innpro",
+        "code": "089548"
+      },
+      "5905156105461": {
+        "kod": "202600701",
+        "nazov": "Tube label 80m",
+        "dodavatel": "innpro",
+        "code": "087981"
+      },
+      "5905156105454": {
+        "kod": "202600702",
+        "nazov": "Heat shrink label 200m",
+        "dodavatel": "innpro",
+        "code": "087980"
+      },
+      "6971131385110": {
+        "kod": "202600703",
+        "nazov": "Remote KVM GL.iNet",
+        "dodavatel": "innpro",
+        "code": "090446"
+      },
+      "6978061958827": {
+        "kod": "202600704",
+        "nazov": "Red ribbon for C1",
+        "dodavatel": "innpro",
+        "code": "089380"
       }
     }
   },
