@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600685,
+    "nextCardNumber": 202600695,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4106,6 +4106,66 @@
         "nazov": "Beko EnergySpin",
         "dodavatel": "kb",
         "code": "100002196970"
+      },
+      "6974662351043": {
+        "kod": "202600685",
+        "nazov": "Anycubic Photon Mono 4",
+        "dodavatel": "innpro",
+        "code": "074612"
+      },
+      "6930444805524": {
+        "kod": "202600686",
+        "nazov": "Graphic Tablet Inspiroy",
+        "dodavatel": "innpro",
+        "code": "077174"
+      },
+      "6930460008558": {
+        "kod": "202600687",
+        "nazov": "SkyRC e3S 2s/3s Charger",
+        "dodavatel": "innpro",
+        "code": "084513"
+      },
+      "6971593170965": {
+        "kod": "202600688",
+        "nazov": "Rugged Smartphone",
+        "dodavatel": "innpro",
+        "code": "084349"
+      },
+      "6932704920312": {
+        "kod": "202600689",
+        "nazov": "ELEGOO PLA Special",
+        "dodavatel": "innpro",
+        "code": "083359"
+      },
+      "6978061959022": {
+        "kod": "202600690",
+        "nazov": "Niimbot C1 Smart Tube",
+        "dodavatel": "innpro",
+        "code": "087890"
+      },
+      "6972410024157": {
+        "kod": "202600691",
+        "nazov": "Peladn S-1 eGPU Docking",
+        "dodavatel": "innpro",
+        "code": "087717"
+      },
+      "6952344233030": {
+        "kod": "202600692",
+        "nazov": "Stick Light GODOX LC500R",
+        "dodavatel": "innpro",
+        "code": "091035"
+      },
+      "6974662353580": {
+        "kod": "202600693",
+        "nazov": "Anycubic Standard Resin",
+        "dodavatel": "innpro",
+        "code": "090197"
+      },
+      "6937452751423": {
+        "kod": "202600694",
+        "nazov": "PGYTECH RetroVa Grip Kit",
+        "dodavatel": "innpro",
+        "code": "089280"
       }
     }
   },
