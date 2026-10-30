@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-29 23:28 UTC.
+Kontrola z 2026-10-30 10:32 UTC.
 
-InnPro pri **400** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **401** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -87,7 +87,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
 | `051202` | Targeted Lip Volumizer & Booster Geske with APP (gray) | — | 5 |
 | `044436` | Tvrdené sklo Baseus Crystal 0,3 mm pre HUAWEI MatePad Pro 12 | — | 5 |
-| `046655` | Baterka Superfire L28 – 121 lm, 5W, 52 m, 5 režimov | — | 2 |
+| `046655` | Baterka Superfire L28 – 121 lm, 5W, 52 m, 5 režimov | — | 5 |
 | `046656` | Baterka Superfire X18 – 55 lm, 5W, 5 režimov, 38 m | — | 5 |
 | `051608` | UV filter PGYTECH DJI Mavic 3 Pro (profesionálny) | — | 5 |
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
@@ -130,6 +130,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060195` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | — | 5 |
 | `060430` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `060431` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
+| `060434` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `058458` | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | — | 5 |
 | `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 5 |
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
@@ -209,6 +210,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071238` | Etui do iPhone 16 Plus Nillkin Super Frosted Pro (čierne) | — | 5 |
 | `073741` | Butterfly Sunnylife NE-SN908 ochranné puzdro pre NEO s karab | — | 5 |
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
+| `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
 | `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
@@ -223,7 +225,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `077573` | Ochranné puzdro Sunnylife s popruhom pre Osmo Pocket 3 (čier | — | 5 |
 | `077579` | Sunnylife anti-shock spona pre DJI Flip | — | 5 |
 | `077580` | Kryt objektívu Sunnylife pre DJI Flip (čierny) | — | 5 |
-| `077581` | Ochranné kryty vrtúľ Sunnylife pre DJI Flip (čierne) | — | 2 |
 | `073822` | Súprava nálepiek Telesin pre držiak J-Hook pre športové kame | — | 5 |
 | `077873` | Ochranná fólia Puluz 3 v 1 pre Insta 360 Ace Pro 2 | — | 5 |
 | `077868` | Ochranné puzdro Puluz pre DJI Mic Mini (čierne) | — | 5 |
@@ -234,7 +235,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `078077` | Vrecko na prach do vysávača MOVA Z50 Ultra 4L [3 ks]. | — | 5 |
 | `078081` | Prachový filter pre vysávač MOVA Z50 Ultra [2 kusy]. | — | 5 |
 | `078082` | Filter vysávača MOVA K30/K30Mix/X4/X4Pro/X4Mix [1 ks]. | — | 5 |
-| `078092` | Podložky na vysávanie pre vysávač MOVA E10, E20, E20 Plus, E | — | 5 |
+| `078092` | Utierky na podlahu pre vysávače MOVA E10, E20, E20 Plus, E20 | — | 5 |
 | `078265` | PULUZ silikónové ochranné puzdro s krytom objektívu pre Inst | — | 5 |
 | `078270` | Silikónový stojan PULUZ pre kameru Insta360 X5 | — | 5 |
 | `078359` | PetKit PURA MAX 2 vrecká na odpadky | — | 5 |
@@ -321,7 +322,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
 | `086461` | Filtračné čerpadlo SUNSUN JP-032F | — | 5 |
 | `086537` | Vnútorný filter SUNSUN HN-011 | — | 5 |
-| `086477` | Povrchový filter SUNSUN JY-03 | — | 5 |
+| `086477` | Povrchový skimmer SUNSUN JY-03 | — | 5 |
 | `086551` | Vlnový generátor SUNSUN JVP-110 | — | 5 |
 | `088616` | Tvrdené sklo Sunnylife pre Insta360 GO Ultra (2 ks) | — | 5 |
 | `088932` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (čierna) | — | 5 |
@@ -393,7 +394,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089382` | Tepelná etiketa NIIMBOT EW50*30-225 | — | 5 |
 | `093248` | Sada veľkostí EVEN REALITIES R1 | — | 5 |
 | `088334` | Spojka prahovej rampy MOVA pre modely V50U/Mobius60 | — | 5 |
-| `089389` | Čelovka SUPERFIRE HL106 | — | 3 |
+| `089389` | Čelovka SUPERFIRE HL106 | — | 5 |
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
