@@ -252,7 +252,7 @@
   "Auto-moto > Autokozmetika a chémia": 29
  },
  "Druhy > AUTO MOTO > Autokosmetika, Chemie > Interier": {
-  "Auto-moto > Autokozmetika a chémia": 31
+  "Auto-moto > Autokozmetika a chémia": 30
  },
  "Druhy > AUTO MOTO > Autokosmetika, Chemie > Mycí a čistící pomůcky": {
   "Auto-moto > Autokozmetika a chémia": 29
@@ -261,7 +261,7 @@
   "Auto-moto > Autokozmetika a chémia": 10
  },
  "Druhy > AUTO MOTO > Autokosmetika, Chemie > Oleje, maziva": {
-  "Auto-moto > Autokozmetika a chémia": 6
+  "Auto-moto > Autokozmetika a chémia": 5
  },
  "Druhy > AUTO MOTO > Autokosmetika, Chemie > Renovace": {
   "Auto-moto > Autokozmetika a chémia": 6
@@ -288,13 +288,13 @@
   "Auto-moto > Bezpečnostné a núdzové vybavenie > Zimné vybavenie": 50
  },
  "Druhy > AUTO MOTO > Elektromobilita > AC nabíjecí stanice Wallbox": {
-  "Auto-moto > Elektromobilita": 5
+  "Auto-moto > Elektromobilita": 6
  },
  "Druhy > AUTO MOTO > Elektromobilita > Nabíjecí kabely pro elektromobily": {
   "Auto-moto > Elektromobilita": 23
  },
  "Druhy > AUTO MOTO > Elektromobilita > Přenosné nabíječky a redukce": {
-  "Auto-moto > Elektromobilita": 20
+  "Auto-moto > Elektromobilita": 21
  },
  "Druhy > AUTO MOTO > Elektromobilita > Příslušenství k elektromobilitě": {
   "Auto-moto > Elektromobilita": 6
@@ -309,7 +309,7 @@
   "Auto-moto > Garáž, dielňa, servis > Autonáradie a doplnky": 62
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Autoplachty": {
-  "Auto-moto > Garáž, dielňa, servis > Autoplachty a ochranné kryty": 49
+  "Auto-moto > Garáž, dielňa, servis > Autoplachty a ochranné kryty": 48
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Čerpadla": {
   "Auto-moto > Garáž, dielňa, servis": 8
@@ -342,13 +342,13 @@
   "Auto-moto > Garáž, dielňa, servis": 4
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Hevery": {
-  "Auto-moto > Garáž, dielňa, servis > Heváky a zdviháky": 55
+  "Auto-moto > Garáž, dielňa, servis > Heváky a zdviháky": 60
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Kanystry": {
   "Auto-moto > Garáž, dielňa, servis": 6
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Kompresory, hustilky": {
-  "Auto-moto > Garáž, dielňa, servis": 24
+  "Auto-moto > Garáž, dielňa, servis": 25
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Parkovací zábrany": {
   "Auto-moto > Garáž, dielňa, servis": 10
@@ -453,7 +453,7 @@
   "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky": 25
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Speciální nářadí a přípravky > Podvozek > Hevery a zvedáky": {
-  "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky": 31
+  "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky": 36
  },
  "Druhy > AUTO MOTO > Garáž, Dílna, Servis > Speciální nářadí a přípravky > Podvozek > Hevery a zvedáky > Náhradní díly k heverům": {
   "Auto-moto > Garáž, dielňa, servis > Špeciálne náradie a prípravky": 6
@@ -504,7 +504,7 @@
   "Auto-moto > Karavany a obytné autá": 32
  },
  "Druhy > AUTO MOTO > Karavany a obytná auta > Ostatní doplňky": {
-  "Auto-moto > Karavany a obytné autá": 31
+  "Auto-moto > Karavany a obytné autá": 30
  },
  "Druhy > AUTO MOTO > Karavany a obytná auta > Parkovací asistenti": {
   "Auto-moto > Karavany a obytné autá": 9
@@ -528,7 +528,7 @@
   "Auto-moto > Kolesá a pneumatiky": 9
  },
  "Druhy > AUTO MOTO > Kola > Poklice na kola": {
-  "Auto-moto > Kolesá a pneumatiky": 14
+  "Auto-moto > Kolesá a pneumatiky": 13
  },
  "Druhy > AUTO MOTO > Kola > Sněhové řetězy": {
   "Auto-moto > Kolesá a pneumatiky": 16
@@ -584,10 +584,22 @@
  "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Dacia > Dokker": {
   "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
  },
+ "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Ford > Explorer": {
+  "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
+ },
+ "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Hyundai > Sonata": {
+  "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
+ },
  "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Jeep > Cherokee": {
   "Auto-moto > Príslušenstvo do auta > Autokoberce": 2
  },
  "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Jeep > Liberty": {
+  "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
+ },
+ "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Kia > Cerato": {
+  "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
+ },
+ "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Kia > Optima": {
   "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
  },
  "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Mercedes-Benz > Sprinter": {
@@ -597,6 +609,12 @@
   "Auto-moto > Príslušenstvo do auta > Autokoberce": 2
  },
  "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Mercedes-Benz > Třída G": {
+  "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
+ },
+ "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Nissan > Pathfinder": {
+  "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
+ },
+ "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Opel > Zafira": {
   "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
  },
  "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Peugeot > 408": {
@@ -612,6 +630,9 @@
   "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
  },
  "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce SsangYong": {
+  "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
+ },
+ "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Toyota > Land Cruiser": {
   "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
  },
  "Druhy > AUTO MOTO > Vybavení auta > Autokoberce > Auto koberce Volkswagen > Amarok": {
@@ -630,7 +651,7 @@
   "Auto-moto > Príslušenstvo do auta > Autokoberce": 1
  },
  "Druhy > AUTO MOTO > Vybavení auta > Autopotahy": {
-  "Auto-moto > Príslušenstvo do auta > Autopoťahy a ochrana sedadiel": 36
+  "Auto-moto > Príslušenstvo do auta > Autopoťahy a ochrana sedadiel": 35
  },
  "Druhy > AUTO MOTO > Vybavení auta > Autopotahy > Ochrany sedadel": {
   "Auto-moto > Príslušenstvo do auta > Autopoťahy a ochrana sedadiel": 20
@@ -675,7 +696,7 @@
   "Auto-moto > Autožiarovky a osvetlenie": 44
  },
  "Druhy > AUTO MOTO > Vybavení auta > Cestovní doplňky": {
-  "Auto-moto > Príslušenstvo do auta > Cestovné doplnky": 100
+  "Auto-moto > Príslušenstvo do auta > Cestovné doplnky": 99
  },
  "Druhy > AUTO MOTO > Vybavení auta > Clony a roletky": {
   "Auto-moto > Príslušenstvo do auta > Clony, roletky a poistky": 25
@@ -693,7 +714,7 @@
   "Auto-moto > Príslušenstvo do auta": 15
  },
  "Druhy > AUTO MOTO > Vybavení auta > Osvěžovače vzduchu": {
-  "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 46
+  "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 44
  },
  "Druhy > AUTO MOTO > Vybavení auta > Osvěžovače vzduchu > Různé": {
   "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 4
@@ -702,7 +723,7 @@
   "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 7
  },
  "Druhy > AUTO MOTO > Vybavení auta > Osvěžovače vzduchu > Vůně CAR CITY": {
-  "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 5
+  "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 4
  },
  "Druhy > AUTO MOTO > Vybavení auta > Osvěžovače vzduchu > Vůně CITY": {
   "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 4
@@ -711,7 +732,7 @@
   "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 10
  },
  "Druhy > AUTO MOTO > Vybavení auta > Osvěžovače vzduchu > Vůně FRESH POINT": {
-  "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 5
+  "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 4
  },
  "Druhy > AUTO MOTO > Vybavení auta > Osvěžovače vzduchu > Vůně INTENSO": {
   "Auto-moto > Príslušenstvo do auta > Osviežovače vzduchu": 1
@@ -762,7 +783,7 @@
   "Auto-moto > Príslušenstvo do auta > Stierače": 150
  },
  "Druhy > AUTO MOTO > Vybavení auta > Stěrače > Stěrače BULK": {
-  "Auto-moto > Príslušenstvo do auta > Stierače": 77
+  "Auto-moto > Príslušenstvo do auta > Stierače": 78
  },
  "Druhy > AUTO MOTO > Vybavení auta > Stěrače > Stěrače HYBRID": {
   "Auto-moto > Príslušenstvo do auta > Stierače": 7
@@ -771,16 +792,19 @@
   "Auto-moto > Príslušenstvo do auta > Stierače": 11
  },
  "Druhy > AUTO MOTO > Vybavení auta > Světla": {
-  "Auto-moto > Autožiarovky a osvetlenie": 9
+  "Auto-moto > Autožiarovky a osvetlenie": 8
  },
  "Druhy > AUTO MOTO > Vybavení auta > Ventilátory": {
   "Auto-moto > Príslušenstvo do auta": 1
  },
  "Druhy > BLACK FRIDAY": {
-  "(bez pravidla)": 13
+  "(bez pravidla)": 14
  },
  "Druhy > DŮM ZAHRADA > BRÁNY A BRANKY > Bezdrátové zvonky": {
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky": 44
+ },
+ "Druhy > DŮM ZAHRADA > BRÁNY A BRANKY > GSM ovládání": {
+  "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy": 1
  },
  "Druhy > DŮM ZAHRADA > BRÁNY A BRANKY > Parkovací zábrany": {
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Pohony brán a vrát": 11
@@ -834,7 +858,7 @@
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry": 8
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Doplňky do domácnosti > Ostatní doplňky do domácnosti": {
-  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry": 14
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Triedenie odpadu a domáce organizéry": 13
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Efekty a dekorace > Do bytu": {
   "Domáce spotrebiče a domácnosť": 2
@@ -870,7 +894,7 @@
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky": 2
  },
  "Druhy > DŮM ZAHRADA > DOMÁCNOST > Vonné oleje": {
-  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry": 8
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Aróma difuzéry": 7
  },
  "Druhy > DŮM ZAHRADA > KAMEROVÉ SYSTÉMY > Akční kamery": {
   "TV, audio, video a foto technika > Foto a príslušenstvo": 2
@@ -930,7 +954,7 @@
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > IP sieťové kamery": 3
  },
  "Druhy > DŮM ZAHRADA > KAMEROVÉ SYSTÉMY > IP síťové kamery > 8.0 Mpix. (4K)": {
-  "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > IP sieťové kamery": 6
+  "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > IP sieťové kamery": 5
  },
  "Druhy > DŮM ZAHRADA > KAMEROVÉ SYSTÉMY > IP síťové kamery > PTZ kamery": {
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > IP sieťové kamery": 4
@@ -972,7 +996,7 @@
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Kamery 4v1": 1
  },
  "Druhy > DŮM ZAHRADA > KAMEROVÉ SYSTÉMY > PŘÍSLUŠENSTVÍ > Držáky a montážní krabice": {
-  "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom": 37
+  "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom": 36
  },
  "Druhy > DŮM ZAHRADA > KAMEROVÉ SYSTÉMY > PŘÍSLUŠENSTVÍ > Interní pevné disky": {
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom": 12
@@ -999,7 +1023,7 @@
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom": 3
  },
  "Druhy > DŮM ZAHRADA > KAMEROVÉ SYSTÉMY > PŘÍSLUŠENSTVÍ > PoE switche": {
-  "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom": 11
+  "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom": 12
  },
  "Druhy > DŮM ZAHRADA > KAMEROVÉ SYSTÉMY > PŘÍSLUŠENSTVÍ > Převodníky": {
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Kamerové systémy > Príslušenstvo ku kamerovým systémom": 2
@@ -1029,13 +1053,13 @@
   "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 3
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Klimatizace": {
-  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Klimatizácia": 13
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Klimatizácia": 14
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Odvlhčovače vzduchu": {
   "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Odvlhčovače vzduchu": 9
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Příslušenství": {
-  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 12
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 13
  },
  "Druhy > DŮM ZAHRADA > Klimatizace, topení, ventilátory > Topení": {
   "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie": 28
@@ -1155,7 +1179,7 @@
   "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky": 9
  },
  "Druhy > DŮM ZAHRADA > ZAHRADNÍ DOPLŇKY > Plachty a textilie": {
-  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky": 16
+  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky": 17
  },
  "Druhy > DŮM ZAHRADA > ZAHRADNÍ DOPLŇKY > Přenosná ohniště": {
   "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky": 2
@@ -1191,7 +1215,7 @@
   "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky": 3
  },
  "Druhy > DŮM ZAHRADA > ZAHRADNÍ DOPLŇKY > Zavlažování > Zavlažovače": {
-  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky": 4
+  "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné doplnky": 5
  },
  "Druhy > DŮM ZAHRADA > ZAHRADNÍ NÁŘADÍ > Hrábě": {
   "Dielňa, náradie a záhrada > Záhrada a bazén > Záhradné náradie": 2
@@ -1245,7 +1269,7 @@
   "TV, audio, video a foto technika > Audio technika": 1
  },
  "Druhy > ELEKTRO > AUDIO > Rádia": {
-  "TV, audio, video a foto technika > Audio technika > Rádiá": 47
+  "TV, audio, video a foto technika > Audio technika > Rádiá": 48
  },
  "Druhy > ELEKTRO > AUDIO > Řečnické systémy": {
   "TV, audio, video a foto technika > Audio technika": 3
@@ -1329,7 +1353,7 @@
   "Auto-moto > Karavany a obytné autá": 3
  },
  "Druhy > ELEKTRO > Chytrá domácnost a SMART elektronika > Příslušenství": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť": 6
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť": 8
  },
  "Druhy > ELEKTRO > Chytrá domácnost a SMART elektronika > Rádia": {
   "TV, audio, video a foto technika > Audio technika > Rádiá": 1
@@ -2370,7 +2394,7 @@
   "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Montážne skrine a rozvádzače": 22
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Montážní skříně a rozvaděče > Zásuvkové skříně": {
-  "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Montážne skrine a rozvádzače > Zásuvkové skrine": 72
+  "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Montážne skrine a rozvádzače > Zásuvkové skrine": 75
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Montážní skříně a rozvaděče > Zásuvkové sloupky": {
   "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Montážne skrine a rozvádzače": 1
@@ -2430,7 +2454,7 @@
   "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody": 5
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Prodlužky, zásuvky, vidlice > Prodlužovací přívody > Délka 3m": {
-  "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody": 29
+  "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody": 28
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Prodlužky, zásuvky, vidlice > Prodlužovací přívody > Délka 40m": {
   "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Predlžovacie káble a vidlice > Predlžovacie prívody": 4
@@ -2499,7 +2523,7 @@
   "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky": 10
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Rozvaděčové prvky > Modulární komponenty": {
-  "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > DIN lišty a modulárne komponenty": 36
+  "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > DIN lišty a modulárne komponenty": 35
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Rozvaděčové prvky > Můstky na nosnou lištu > Bezšroubové kryté můstky (IP20)": {
   "Elektro, Smart Home a osvetlenie > Elektroinštalácia > Rozvádzačové prvky > Prepojovacie lišty a mostíky": 6
@@ -2649,7 +2673,7 @@
   "Elektro, Smart Home a osvetlenie > Vzduchotechnika > Mriežky, žalúzie a klapky": 1
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Ventilační technika > Gravitační žaluzie a klapky > Gravitační žaluzie bez nástavce (na omítku)": {
-  "Elektro, Smart Home a osvetlenie > Vzduchotechnika > Mriežky, žalúzie a klapky": 14
+  "Elektro, Smart Home a osvetlenie > Vzduchotechnika > Mriežky, žalúzie a klapky": 13
  },
  "Druhy > ELEKTROINSTALAČNÍ MATERIÁL > Ventilační technika > Gravitační žaluzie a klapky > Gravitační žaluzie s nástavcem (na omítku)": {
   "Elektro, Smart Home a osvetlenie > Vzduchotechnika > Mriežky, žalúzie a klapky": 4
@@ -2997,10 +3021,10 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie": 3
  },
  "Druhy > ENERGIE > SVĚTLO > LED reflektory > Bílé světlo": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED reflektory": 33
+  "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED reflektory": 32
  },
  "Druhy > ENERGIE > SVĚTLO > LED reflektory > Přenosné": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED reflektory": 11
+  "Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie > LED reflektory": 10
  },
  "Druhy > ENERGIE > SVĚTLO > LED svíčky": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie": 10
@@ -3033,7 +3057,7 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie": 1
  },
  "Druhy > ENERGIE > SVĚTLO > Stolní lampy": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie": 16
+  "Elektro, Smart Home a osvetlenie > Osvetlenie": 17
  },
  "Druhy > ENERGIE > SVĚTLO > SVÍTILNY > Čelovky": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá": 54
@@ -3042,13 +3066,13 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá": 4
  },
  "Druhy > ENERGIE > SVĚTLO > SVÍTILNY > Nabíjecí": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá": 44
+  "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá": 43
  },
  "Druhy > ENERGIE > SVĚTLO > SVÍTILNY > Ruční": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie > Baterky a ručné svietidlá": 35
  },
  "Druhy > ENERGIE > SVĚTLO > Vánoční dekorace": {
-  "Elektro, Smart Home a osvetlenie > Osvetlenie": 159
+  "Elektro, Smart Home a osvetlenie > Osvetlenie": 184
  },
  "Druhy > ENERGIE > SVĚTLO > Zahradní svítidla": {
   "Elektro, Smart Home a osvetlenie > Osvetlenie": 20
@@ -3069,7 +3093,7 @@
   "Energia a napájanie > Záložné zdroje a UPS": 10
  },
  "Druhy > ENERGIE > Záložní zdroje a UPS > Záložní zdroje pro oběhová čerpadla": {
-  "Energia a napájanie > Záložné zdroje a UPS": 59
+  "Energia a napájanie > Záložné zdroje a UPS": 60
  },
  "Druhy > FOTOVOLTAIKA > Elektroměry > 1 fázové elektroměry": {
   "Energia a napájanie > Fotovoltaika > Elektromery pre fotovoltiku": 15
@@ -3114,7 +3138,7 @@
   "Energia a napájanie > Fotovoltaika > Konštrukcie pre solárne panely": 43
  },
  "Druhy > FOTOVOLTAIKA > Nabíjecí stanice": {
-  "Energia a napájanie > Fotovoltaika": 9
+  "Energia a napájanie > Fotovoltaika": 10
  },
  "Druhy > FOTOVOLTAIKA > Nářadí pro fotovoltaiku": {
   "Energia a napájanie > Fotovoltaika": 10
@@ -3198,7 +3222,7 @@
   "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 9
  },
  "Druhy > KONZOLY  STOŽÁRY  UZEMNĚNÍ > Konzole na tepelná čerpadla a klimatizace": {
-  "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 1
+  "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 2
  },
  "Druhy > KONZOLY  STOŽÁRY  UZEMNĚNÍ > Konzoly na plastové okno": {
   "TV, audio, video a foto technika > Antény a satelity > Stožiare, konzoly a uzemnenie": 3
@@ -3573,7 +3597,7 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Mechanické náradie": 1
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > Ampérmetry a voltmetry": {
-  "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače": 123
+  "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače": 124
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > Detektory": {
   "Dielňa, náradie a záhrada > Meracia technika > Detektory a lokátory": 37
@@ -3591,7 +3615,7 @@
   "Dielňa, náradie a záhrada > Meracia technika > Osciloskopy, generátory a laboratórne zdroje": 10
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > Měření neelektrických veličin": {
-  "Dielňa, náradie a záhrada > Meracia technika > Meranie neelektrických veličín": 58
+  "Dielňa, náradie a záhrada > Meracia technika > Meranie neelektrických veličín": 57
  },
  "Druhy > NÁŘADÍ  DÍLNA > MĚŘÍCÍ TECHNIKA > Měření vody, plynu, topení, elektřiny": {
   "Dielňa, náradie a záhrada > Meracia technika": 6
@@ -3843,7 +3867,7 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Stavebné a maliarske náradie": 2
  },
  "Druhy > NÁŘADÍ  DÍLNA > Stavební a malířské nářadí > Zednické práce > Špachtle, stěrky": {
-  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Stavebné a maliarske náradie": 2
+  "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Stavebné a maliarske náradie": 3
  },
  "Druhy > SPORT HRAČKY": {
   "Cestovanie, šport a outdoor": 1
@@ -3852,22 +3876,22 @@
   "Cestovanie, šport a outdoor > Bojové športy": 107
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Boxovací pytle - plné": {
-  "Cestovanie, šport a outdoor > Bojové športy": 10
+  "Cestovanie, šport a outdoor > Bojové športy": 9
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Boxovací pytle - prázdné": {
   "Cestovanie, šport a outdoor > Bojové športy": 7
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Chrániče": {
-  "Cestovanie, šport a outdoor > Bojové športy": 45
+  "Cestovanie, šport a outdoor > Bojové športy": 49
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Chrániče holení": {
   "Cestovanie, šport a outdoor > Bojové športy": 31
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Hrušky a speedbagy": {
-  "Cestovanie, šport a outdoor > Bojové športy": 9
+  "Cestovanie, šport a outdoor > Bojové športy": 10
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Lapy a bloky": {
-  "Cestovanie, šport a outdoor > Bojové športy": 26
+  "Cestovanie, šport a outdoor > Bojové športy": 27
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > MMA rukavice": {
   "Cestovanie, šport a outdoor > Bojové športy": 40
@@ -3879,7 +3903,7 @@
   "Cestovanie, šport a outdoor > Bojové športy": 11
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Pytlovky": {
-  "Cestovanie, šport a outdoor > Bojové športy": 1
+  "Cestovanie, šport a outdoor > Bojové športy": 2
  },
  "Druhy > SPORT HRAČKY > Bojové sporty > Rukavice na karate": {
   "Cestovanie, šport a outdoor > Bojové športy": 9
@@ -3903,10 +3927,10 @@
   "Cestovanie, šport a outdoor > Cyklistika": 5
  },
  "Druhy > SPORT HRAČKY > Cyklistika > Ostatní cyklo doplňky": {
-  "Cestovanie, šport a outdoor > Cyklistika": 7
+  "Cestovanie, šport a outdoor > Cyklistika": 6
  },
  "Druhy > SPORT HRAČKY > Cyklistika > Pumpy na kolo": {
-  "Cestovanie, šport a outdoor > Cyklistika": 5
+  "Cestovanie, šport a outdoor > Cyklistika": 6
  },
  "Druhy > SPORT HRAČKY > Cyklistika > Reflexní prvky": {
   "Cestovanie, šport a outdoor > Cyklistika": 14
@@ -3953,9 +3977,6 @@
  "Druhy > SPORT HRAČKY > Hračky > Auta, bagry, traktory pro děti": {
   "Cestovanie, šport a outdoor > Hračky": 5
  },
- "Druhy > SPORT HRAČKY > Hračky > Dětské hudební nástroje > Sady": {
-  "Cestovanie, šport a outdoor > Hračky": 1
- },
  "Druhy > SPORT HRAČKY > Hračky > Hlavolamy a puzzle > Hlavolamy": {
   "Cestovanie, šport a outdoor > Hračky": 1
  },
@@ -3994,9 +4015,6 @@
  },
  "Druhy > SPORT HRAČKY > Hračky > Zvířátka, farmy": {
   "Cestovanie, šport a outdoor > Hračky": 1
- },
- "Druhy > SPORT HRAČKY > Hudební nástroje": {
-  "Profesionálna audio technika > Hudobné nástroje a príslušenstvo": 1
  },
  "Druhy > SPORT HRAČKY > Hudební nástroje > Digitální piana": {
   "Profesionálna audio technika > Hudobné nástroje a príslušenstvo": 8
@@ -4086,7 +4104,7 @@
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry": 9
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Trenažéry > Rotopedy": {
-  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry": 23
+  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry": 22
  },
  "Druhy > SPORT HRAČKY > Posilování a fitness > Trenažéry > Spinningová kola": {
   "Cestovanie, šport a outdoor > Posilňovanie a fitness > Trenažéry": 3
@@ -4107,7 +4125,7 @@
   "Cestovanie, šport a outdoor > Športové vybavenie": 4
  },
  "Druhy > SPORT HRAČKY > Sportovní vybavení > Koloběžky": {
-  "Cestovanie, šport a outdoor > Športové vybavenie": 33
+  "Cestovanie, šport a outdoor > Športové vybavenie": 34
  },
  "Druhy > SPORT HRAČKY > Sportovní vybavení > Odrážedla": {
   "Cestovanie, šport a outdoor > Športové vybavenie": 9
@@ -4173,6 +4191,6 @@
   "Cestovanie, šport a outdoor > Zdravotné a rehabilitačné pomôcky": 2
  },
  "Druhy > SPORT HRAČKY > Zdravotní potřeby > Zátěžové deky": {
-  "Cestovanie, šport a outdoor > Zdravotné a rehabilitačné pomôcky": 15
+  "Cestovanie, šport a outdoor > Zdravotné a rehabilitačné pomôcky": 14
  }
 }
