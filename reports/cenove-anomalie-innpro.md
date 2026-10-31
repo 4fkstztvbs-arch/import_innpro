@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-10-30
+# Cenové anomálie vynechané z feedu — innpro — 2026-10-31
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -568,19 +568,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094931 | 6924922272137 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096047 | 6934915206858 | Autokamera DDPAI MINI Pro Wi-Fi 3K | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096052 | 6934915208579 | Autokamera DDPAI MINI Pro 4K | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096054 | 6934915216116 | Dash Cam DDPAI N4T Pro Wi-Fi 4K + 1080p + 1080p | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096055 | 6934915208548 | Autokamera DDPAI N5 Dual | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096056 | 6934915208623 | Dash Cam DDPAI Z50 Pro s dvojitým GPS, Wi-Fi, 4K + 1080p | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096057 | 6934915208661 | Autokamera DDPAI Z50 Pro Dual 4G | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096058 | 6934915208081 | Autokamera DDPAI Z60 2026 Dual | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096060 | 6934915208098 | Autokamera DDPAI Z60 2026 s Wi-Fi, 4K + 1080p | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096059 | 6934915208395 | Autokamera DDPAI Z60 Pro 2026, 3-kanálová | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096062 | 6934915206865 | Autokamera DDPAI E3 Wi-Fi 2K + 1080p | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096162 | 6934915203642 | Pamäťová karta DDPAI 64 GB [microSD] U3 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096163 | 6934915203659 | Pamäťová karta DDPAI 128G microSD 128 GB U3 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096164 | 6934915203666 | Pamäťová karta DDPAI 256 GB [microSD] U3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 11.00 € | 1/12.8x | 14 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 8.10 € | 1/17.4x | 14 |

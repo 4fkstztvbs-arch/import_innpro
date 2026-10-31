@@ -1,15 +1,15 @@
 # Chýbajúce pravidlá zaradenia — innpro
 
-Kontrola z 2026-10-30 23:05 UTC.
+Kontrola z 2026-10-31 10:01 UTC.
 
-**6 ciest bez pravidla, 12 produktov bez kategórie.**
+**6 ciest bez pravidla, 15 produktov bez kategórie.**
 
 Doplň ich do `data/kategorie/innpro.json` — kľúč je cesta z feedu, hodnota uzol
 stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Foto a video > Pamäťové karty` | 4 | Pamäťová karta GODOX microSD 4 GB; Pamäťová karta GODOX microSD s kapacitou 8 GB; Pamäťová karta GODOX microSD 16 GB; Pamäťová karta GODOX microSD 32 GB |
+| `Foto a video > Pamäťové karty` | 7 | Pamäťová karta GODOX microSD 4 GB; Pamäťová karta GODOX microSD s kapacitou 8 GB; Pamäťová karta GODOX microSD 16 GB; Pamäťová karta GODOX microSD 32 GB; Pamäťová karta DDPAI 64 GB [microSD] U3 |
 | `Malé domáce spotrebiče > Grily > Toastovače` | 2 | Elektrický gril MOVA IG20 Pro; Elektrický gril AMZCHEF CE-LS-GC02C-H-WP |
 | `IT príslušenstvo > Monitory` | 2 | Monitor DarkFlash 9,2" IPS V92 (čierny); Monitor Darkflash 9,2" IPS V92 (biely) |
 | `Drony > Priemyselné drony > Drony` | 2 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík); DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) |
