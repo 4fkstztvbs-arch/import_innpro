@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-30 22:58 UTC.
+Kontrola z 2026-10-31 22:29 UTC.
 
-Solight pri **501** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **503** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -121,6 +121,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `SSN1205E` | Solight anténny koaxiálny kábel, kombinované konektory, 5m,  | 7 | 50 |
 | `PF15` | Solight flexo šnúra, 2x 0,75mm2, čierna, plochá, 2m | 7 | 100 |
 | `WZ322-1` | Solight LED žiarovka G9, 3,5W, 3000K, 300lm | 6 | 100 |
+| `P78` | Solight zástrčka gumová do vlhka a prachu, priama, IP65, čie | 6 | 50 |
 | `P100` | Solight rozbočovač, 3 x 10A, biely | 6 | 100 |
 | `PZ13` | Solight viacnásobná zásuvka, 4 zásuvky | 6 | 50 |
 | `WZ533` | Solight LED žiarovka, klasický tvar, 18W, E27, 3000K, 270°,  | 6 | 100 |
@@ -380,6 +381,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PA21` | Solight cestovný adaptér, univerzálny, neuzemnený | 2 | 40 |
 | `V15` | Solight multimeter, max. AC 600V, max. DC 600V / 10A, test d | 2 | 60 |
 | `WL95` | Solight LED svetielko s diaľkovým ovládaním, 5 LED, 3x AA ba | 2 | 48 |
+| `PO39` | Solight prepäťová ochrana, 3z, 1,5m, biela | 2 | 40 |
 | `DT26` | Solight digitálny merač spotreby el. energie | 2 | 24 |
 | `WO751` | Solight LED vonkajšie osvetlenie štvorcové, 13W, 910lm, 4000 | 2 | 36 |
 | `1V201` | Solight LED reťaz vianočné gule bavlnené, 10LED, 1m, 2x AA,  | 2 | 12 |
