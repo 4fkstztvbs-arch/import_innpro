@@ -2132,10 +2132,10 @@ try {
 
 /* ---- premiumstore-home-v2-20261012.js ---- */
 try {
-/* PremiumStore – úvodná stránka, desktop (2026-10-12): vkladá blok „Značky v ponuke“, banner 3D tlač a dvojicu
-   bannerov Smart Home + Dielňa do main#content. Poradie blokov a vzhľad riadi premiumstore-home-v2-20261012.css
+/* PremiumStore – úvodná stránka, desktop (2026-10-12): vkladá blok „Značky v ponuke“, banner Zimná výbava do auta a dvojicu
+   bannerov Smart vykurovanie + Vianočné osvetlenie (2026-10-31, bez cien) do main#content. Poradie blokov a vzhľad riadi premiumstore-home-v2-20261012.css
    (iba od 992 px; pod touto šírkou skript nič nevkladá). Idempotentné, nemení produkty, ceny ani košík.
-   Meranie: odkazy majú data-ps-track (brand-<slug>, brands-all, banner-3d, banner-smart-home, banner-dielna);
+   Meranie: odkazy majú data-ps-track (brand-<slug>, brands-all, banner-winter, banner-smart-heating, banner-christmas-lights);
    skript pri kliknutí pošle udalosť ps_home_click (parameter ps_block) do GA4 cez gtag a do dataLayer. Rollback = odstrániť zdroj z build skriptov. */
 (function () {
   'use strict';
@@ -2169,22 +2169,23 @@ try {
   }
 
   function wide() {
-    return el('<section class="ps-v2-wide" aria-label="3D tlač"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">3D tlač a digitálna výroba</span>' +
-      '<h2>Od nápadu k hotovému dielu.</h2><p>Tlačiarne, filamenty a živice na jednom mieste. Začnite s živicou Anycubic a prvý model máte za večer.</p>' +
-      '<a class="ps-v2-btn brand" href="/3d-tlac-a-digitalna-vyroba/" data-ps-track="banner-3d">Vstúpiť do sveta 3D tlače →</a></div>' +
-      '<div class="ps-v2-media"><img src="' + BASE + 'bambu-x1-carbon.png" alt="3D tlačiareň Bambu Lab X1 Carbon Combo" width="400" height="400" loading="lazy" decoding="async">' +
-      '<img src="' + BASE + 'anycubic-zivica.jpg" alt="Živica Anycubic" width="200" height="300" loading="lazy" decoding="async">' +
+    return el('<section class="ps-v2-wide winter" aria-label="Zimná výbava do auta"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Zimná výbava do auta</span>' +
+      '<h2>Naštartujte aj v zime.</h2><p>Štartér s powerbankou pre benzín do 7,0 l aj diesel do 5,0 l. Do kufra k nemu patria snehové reťaze.</p>' +
+      '<a class="ps-v2-btn light" href="/autobaterie-nabijacky-a-startovacie-boxy/" data-ps-track="banner-winter">Pozrieť produkty</a></div>' +
+      '<div class="ps-v2-cards">' +
+      '<a class="ps-v2-card a" href="/fanttik-potent-t10-1800-a-starter/" data-ps-track="banner-winter-starter"><span class="pic"><img src="' + BASE + 'fanttik-starter.png" alt="Štartér Fanttik Potent T10 s powerbankou" width="300" height="225" loading="lazy" decoding="async"></span><span class="nm">Fanttik Potent T10, 1800 A</span></a>' +
+      '<a class="ps-v2-card b" href="/snehove-retezy-winter-onorm-x110-nylon-bag/" data-ps-track="banner-winter-chains"><span class="pic"><img src="' + BASE + 'snehove-retaze.jpg" alt="Snehové reťaze Compass WINTER ÖNORM X 110" width="300" height="225" loading="lazy" decoding="async"></span><span class="nm">Snehové reťaze Compass X 110</span></a>' +
       '</div></section>');
   }
 
   function duo() {
-    return el('<section class="ps-v2-duo" aria-label="Smart Home a Dielňa">' +
-      '<a class="ps-v2-promo ice" href="/elektro-smart-home-a-osvetlenie/" data-ps-track="banner-smart-home"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Smart Home</span>' +
-      '<h3>Bezpečný domov bez kompromisov</h3><p>Kamerové sety TP-Link Tapo s hubom H500. Dohľad nad domom z mobilu.</p><span class="ps-v2-btn brand">Pozrieť set</span></div>' +
-      '<img src="' + BASE + 'tapo-kamerovy-set.jpg" alt="Kamerový set TP-Link Tapo" width="300" height="300" loading="lazy" decoding="async"></a>' +
-      '<a class="ps-v2-promo cream" href="/dielna-a-zahrada/" data-ps-track="banner-dielna"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Dielňa a náradie</span>' +
-      '<h3>Meranie bez hádania</h3><p>Multimetre a testery pre dielňu aj domácnosť.</p><span class="ps-v2-btn ghost">Do dielne</span></div>' +
-      '<img src="' + BASE + 'uni-t-ut133a.jpg" alt="Multimeter UNI-T UT133A" width="300" height="300" loading="lazy" decoding="async"></a></section>');
+    return el('<section class="ps-v2-duo" aria-label="Smart vykurovanie a Vianočné osvetlenie">' +
+      '<a class="ps-v2-promo ice" href="/smart-termostaty-a-hlavice/" data-ps-track="banner-smart-heating"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Smart Home · Vykurovanie</span>' +
+      '<h3>Kúrte len tam, kde ste.</h3><p>Termostatické hlavice SONOFF ZigBee ovládate z mobilu. Potrebujú ZigBee bránu.</p><span class="ps-v2-btn brand">Pozrieť produkty</span></div>' +
+      '<img src="' + BASE + 'sonoff-trvzb.jpg" alt="Termostatická hlavica SONOFF ZigBee TRVZB" width="300" height="225" loading="lazy" decoding="async"></a>' +
+      '<a class="ps-v2-promo sand" href="/vianocne-osvetlenie/" data-ps-track="banner-christmas-lights"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Vianočné osvetlenie</span>' +
+      '<h3>Rozsvieťte dom pred sviatkami.</h3><p>Vonkajšia LED reťaz Solight, 10 m, teplá biela, IP44, s časovačom a 8 funkciami.</p><span class="ps-v2-btn brand">Pozrieť produkty</span></div>' +
+      '<img src="' + BASE + 'solight-retaz.jpg" alt="Vonkajšia vianočná LED reťaz Solight, 10 m" width="300" height="225" loading="lazy" decoding="async"></a></section>');
   }
 
   function track(e) {
