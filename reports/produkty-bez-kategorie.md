@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-11-01 10:54 UTC.
+Kontrola z 2026-11-01 15:22 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -38,13 +38,13 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 
 | Kód | Produkt |
 |---|---|
-| `100001405220` | Beper BEP-P206ZAN200 |
-| `100002204242` | GLOX Sprchová hadice silik. 180 cm bílá |
-| `100001880301` | Drosselmeyer NCGP03 |
-| `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
-| `100001049401` | Banquet Hmoždíř keramický COLLEZIONE B |
 | `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
+| `100001405220` | Beper BEP-P206ZAN200 |
+| `100001049401` | Banquet Hmoždíř keramický COLLEZIONE B |
 | `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
+| `100001880301` | Drosselmeyer NCGP03 |
+| `100002204242` | GLOX Sprchová hadice silik. 180 cm bílá |
+| `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
 
 ## solight — 1 ks
 
@@ -52,7 +52,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `DSP-TF01` | Solight turbo fukár |
 
-## wiim — 24 ks
+## wiim — 26 ks
 
 | Kód | Produkt |
 |---|---|
@@ -79,5 +79,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `WiiM-Sound-Lite-White-2-pack` | WiiM Sound Lite Twin Pack White |
 | `WiiM_SUB_PRO_003` | WiiM Sub Pro Black |
 | `WiiM_SUB_PRO_013` | WiiM Sub Pro White |
+| `NORWIISOUBK` | WiiM Sound Floor Stand Black |
+| `NORWIISOUWT` | WiiM Sound Floor Stand White |
 | `WiiM_WVR_002` | WiiM Voice Remote 2 Silver |
 
