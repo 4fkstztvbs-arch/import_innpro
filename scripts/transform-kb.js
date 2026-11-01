@@ -209,8 +209,11 @@ function buildShopitemXml(p) {
     parts.push('<RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>');
     parts.push('<RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>');
   }
-  if (p.seoTitle) parts.push(`<SEO_TITLE>${xmlCdata(p.seoTitle)}</SEO_TITLE>`);
-  if (p.metaDescription) parts.push(`<META_DESCRIPTION>${xmlCdata(p.metaDescription)}</META_DESCRIPTION>`);
+  // Šablónové SEO_TITLE/META_DESCRIPTION z K-B sa už nezapisujú do feedu (prepisovali by ručne
+  // napísané meta údaje v Shoptete). Zapnutie: KB_EMIT_SEO_META=1.
+  const emitSeoMeta = process.env.KB_EMIT_SEO_META === '1';
+  if (emitSeoMeta && p.seoTitle) parts.push(`<SEO_TITLE>${xmlCdata(p.seoTitle)}</SEO_TITLE>`);
+  if (emitSeoMeta && p.metaDescription) parts.push(`<META_DESCRIPTION>${xmlCdata(p.metaDescription)}</META_DESCRIPTION>`);
   parts.push('</SHOPITEM>');
   return parts.join('\n');
 }
