@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-31 22:29 UTC.
+Kontrola z 2026-11-01 22:49 UTC.
 
-Solight pri **503** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **502** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -388,7 +388,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `1D40` | Solight maketa bezpečnostnej kamery, na stenu, LED dióda, 2  | 2 | 20 |
 | `PA01-UK` | Solight cestovný adaptér do Veľkej Británie, typ G | 2 | 100 |
 | `P153` | Solight zásuvka nástenná, 5-pólová, 400v/16A, IP44 | 2 | 20 |
-| `PS16O` | Solight predlžovací prívod - spojka, 1 zásuvka, 10m, 3 x 1mm | 2 | 20 |
 | `WPIR02` | Solight PIR stropný senzor, interiérový, biely | 2 | 50 |
 | `PS30` | Solight predlžovací prívod - spojka, 1 zásuvka, 5m, 3 x 1,5m | 2 | 16 |
 | `LLM-S` | Solight stojanček pre laserovú vodováhu LLM | 2 | 32 |
