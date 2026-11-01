@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-10-29 10:33 UTC.
+Kontrola z 2026-11-01 10:54 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -19,7 +19,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
 
-## innpro — 9 ks
+## innpro — 10 ks
 
 | Kód | Produkt |
 |---|---|
@@ -29,6 +29,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `090418` | Elektrický gril AMZCHEF CE-LS-GC02C-H-WP |
 | `093068` | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík) |
 | `093069` | DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) |
+| `095291` | Pamäťová karta GODOX microSD 4 GB |
 | `095292` | Pamäťová karta GODOX microSD s kapacitou 8 GB |
 | `095293` | Pamäťová karta GODOX microSD 16 GB |
 | `095294` | Pamäťová karta GODOX microSD 32 GB |
@@ -37,13 +38,13 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 
 | Kód | Produkt |
 |---|---|
-| `100002204242` | GLOX Sprchová hadice silik. 180 cm bílá |
-| `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
-| `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
-| `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
 | `100001405220` | Beper BEP-P206ZAN200 |
+| `100002204242` | GLOX Sprchová hadice silik. 180 cm bílá |
 | `100001880301` | Drosselmeyer NCGP03 |
+| `100002136154` | Leifheit Odpeckovávač třešní s nádobkou |
 | `100001049401` | Banquet Hmoždíř keramický COLLEZIONE B |
+| `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
+| `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
 
 ## solight — 1 ks
 

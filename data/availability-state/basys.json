@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 959,
+  "activeItemCount": 953,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -443,11 +443,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-DEH-S320BT",
-      "code": "BASYS-DEH-S320BT",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-DEH-S420BT",
       "code": "BASYS-DEH-S420BT",
       "ean": ""
@@ -665,11 +660,6 @@
     {
       "key": "code:BASYS-MVH-S220DAB",
       "code": "BASYS-MVH-S220DAB",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-MVH-S320BT",
-      "code": "BASYS-MVH-S320BT",
       "ean": ""
     },
     {
@@ -938,11 +928,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-TC 000-DC800",
-      "code": "BASYS-TC 000-DC800",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-TS-1002I",
       "code": "BASYS-TS-1002I",
       "ean": ""
@@ -1140,11 +1125,6 @@
     {
       "key": "code:BASYS-TS-Q160C-FT",
       "code": "BASYS-TS-Q160C-FT",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-TS-Q160C-PC",
-      "code": "BASYS-TS-Q160C-PC",
       "ean": ""
     },
     {
@@ -2031,11 +2011,6 @@
       "key": "ean:0017817855563",
       "code": "BASYS-B 829679-0220",
       "ean": "0017817855563"
-    },
-    {
-      "key": "ean:0017817855570",
-      "code": "BASYS-B 841156-0320",
-      "ean": "0017817855570"
     },
     {
       "key": "ean:0017817855600",
@@ -3061,11 +3036,6 @@
       "key": "ean:4010118707018",
       "code": "BASYS-BD 707015",
       "ean": "4010118707018"
-    },
-    {
-      "key": "ean:4010118707025",
-      "code": "BASYS-BD 707023",
-      "ean": "4010118707025"
     },
     {
       "key": "ean:4010118707155",
@@ -4875,6 +4845,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-DEH-S320BT",
+      "code": "BASYS-DEH-S320BT",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-DF1000",
       "code": "BASYS-DF1000",
       "ean": ""
@@ -4900,6 +4875,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-MVH-S320BT",
+      "code": "BASYS-MVH-S320BT",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-SE-LTC5R-T",
       "code": "BASYS-SE-LTC5R-T",
       "ean": ""
@@ -4907,6 +4887,16 @@
     {
       "key": "code:BASYS-TC 000-C3200",
       "code": "BASYS-TC 000-C3200",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TC 000-DC800",
+      "code": "BASYS-TC 000-DC800",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TS-Q160C-PC",
+      "code": "BASYS-TS-Q160C-PC",
       "ean": ""
     },
     {
@@ -4960,6 +4950,11 @@
       "ean": "0017817818896"
     },
     {
+      "key": "ean:0017817855570",
+      "code": "BASYS-B 841156-0320",
+      "ean": "0017817855570"
+    },
+    {
       "key": "ean:0017817855648",
       "code": "BASYS-B 829705-0120",
       "ean": "0017817855648"
@@ -4998,6 +4993,11 @@
       "key": "ean:4010118455971",
       "code": "BASYS-BD 455970",
       "ean": "4010118455971"
+    },
+    {
+      "key": "ean:4010118707025",
+      "code": "BASYS-BD 707023",
+      "ean": "4010118707025"
     },
     {
       "key": "ean:4010118707247",

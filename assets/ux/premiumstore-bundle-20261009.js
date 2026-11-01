@@ -2132,10 +2132,10 @@ try {
 
 /* ---- premiumstore-home-v2-20261012.js ---- */
 try {
-/* PremiumStore – úvodná stránka, desktop (2026-10-12): vkladá blok „Značky v ponuke“, banner 3D tlač a dvojicu
-   bannerov Smart Home + Dielňa do main#content. Poradie blokov a vzhľad riadi premiumstore-home-v2-20261012.css
+/* PremiumStore – úvodná stránka, desktop (2026-10-12): vkladá blok „Značky v ponuke“, banner Zimná výbava do auta a dvojicu
+   bannerov Smart vykurovanie + Vianočné osvetlenie (2026-10-31, bez cien) do main#content. Poradie blokov a vzhľad riadi premiumstore-home-v2-20261012.css
    (iba od 992 px; pod touto šírkou skript nič nevkladá). Idempotentné, nemení produkty, ceny ani košík.
-   Meranie: odkazy majú data-ps-track (brand-<slug>, brands-all, banner-3d, banner-smart-home, banner-dielna);
+   Meranie: odkazy majú data-ps-track (brand-<slug>, brands-all, banner-winter, banner-smart-heating, banner-christmas-lights);
    skript pri kliknutí pošle udalosť ps_home_click (parameter ps_block) do GA4 cez gtag a do dataLayer. Rollback = odstrániť zdroj z build skriptov. */
 (function () {
   'use strict';
@@ -2169,22 +2169,23 @@ try {
   }
 
   function wide() {
-    return el('<section class="ps-v2-wide" aria-label="3D tlač"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">3D tlač a digitálna výroba</span>' +
-      '<h2>Od nápadu k hotovému dielu.</h2><p>Tlačiarne, filamenty a živice na jednom mieste. Začnite s živicou Anycubic a prvý model máte za večer.</p>' +
-      '<a class="ps-v2-btn brand" href="/3d-tlac-a-digitalna-vyroba/" data-ps-track="banner-3d">Vstúpiť do sveta 3D tlače →</a></div>' +
-      '<div class="ps-v2-media"><img src="' + BASE + 'bambu-x1-carbon.png" alt="3D tlačiareň Bambu Lab X1 Carbon Combo" width="400" height="400" loading="lazy" decoding="async">' +
-      '<img src="' + BASE + 'anycubic-zivica.jpg" alt="Živica Anycubic" width="200" height="300" loading="lazy" decoding="async">' +
+    return el('<section class="ps-v2-wide winter" aria-label="Zimná výbava do auta"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Zimná výbava do auta</span>' +
+      '<h2>Naštartujte aj v zime.</h2><p>Štartér s powerbankou pre benzín do 7,0 l aj diesel do 5,0 l. Do kufra k nemu patria snehové reťaze.</p>' +
+      '<a class="ps-v2-btn light" href="/autobaterie-nabijacky-a-startovacie-boxy/" data-ps-track="banner-winter">Pozrieť produkty</a></div>' +
+      '<div class="ps-v2-cards">' +
+      '<a class="ps-v2-card a" href="/fanttik-potent-t10-1800-a-starter/" data-ps-track="banner-winter-starter"><span class="pic"><img src="' + BASE + 'fanttik-starter.png" alt="Štartér Fanttik Potent T10 s powerbankou" width="300" height="225" loading="lazy" decoding="async"></span><span class="nm">Fanttik Potent T10, 1800 A</span></a>' +
+      '<a class="ps-v2-card b" href="/snehove-retezy-winter-onorm-x110-nylon-bag/" data-ps-track="banner-winter-chains"><span class="pic"><img src="' + BASE + 'snehove-retaze.jpg" alt="Snehové reťaze Compass WINTER ÖNORM X 110" width="300" height="225" loading="lazy" decoding="async"></span><span class="nm">Snehové reťaze Compass X 110</span></a>' +
       '</div></section>');
   }
 
   function duo() {
-    return el('<section class="ps-v2-duo" aria-label="Smart Home a Dielňa">' +
-      '<a class="ps-v2-promo ice" href="/elektro-smart-home-a-osvetlenie/" data-ps-track="banner-smart-home"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Smart Home</span>' +
-      '<h3>Bezpečný domov bez kompromisov</h3><p>Kamerové sety TP-Link Tapo s hubom H500. Dohľad nad domom z mobilu.</p><span class="ps-v2-btn brand">Pozrieť set</span></div>' +
-      '<img src="' + BASE + 'tapo-kamerovy-set.jpg" alt="Kamerový set TP-Link Tapo" width="300" height="300" loading="lazy" decoding="async"></a>' +
-      '<a class="ps-v2-promo cream" href="/dielna-a-zahrada/" data-ps-track="banner-dielna"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Dielňa a náradie</span>' +
-      '<h3>Meranie bez hádania</h3><p>Multimetre a testery pre dielňu aj domácnosť.</p><span class="ps-v2-btn ghost">Do dielne</span></div>' +
-      '<img src="' + BASE + 'uni-t-ut133a.jpg" alt="Multimeter UNI-T UT133A" width="300" height="300" loading="lazy" decoding="async"></a></section>');
+    return el('<section class="ps-v2-duo" aria-label="Smart vykurovanie a Vianočné osvetlenie">' +
+      '<a class="ps-v2-promo ice" href="/smart-termostaty-a-hlavice/" data-ps-track="banner-smart-heating"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Smart Home · Vykurovanie</span>' +
+      '<h3>Kúrte len tam, kde ste.</h3><p>Termostatické hlavice SONOFF ZigBee ovládate z mobilu. Potrebujú ZigBee bránu.</p><span class="ps-v2-btn brand">Pozrieť produkty</span></div>' +
+      '<img src="' + BASE + 'sonoff-trvzb.jpg" alt="Termostatická hlavica SONOFF ZigBee TRVZB" width="300" height="225" loading="lazy" decoding="async"></a>' +
+      '<a class="ps-v2-promo sand" href="/vianocne-osvetlenie/" data-ps-track="banner-christmas-lights"><div class="ps-v2-copy"><span class="ps-v2-eyebrow">Vianočné osvetlenie</span>' +
+      '<h3>Rozsvieťte dom pred sviatkami.</h3><p>Vonkajšia LED reťaz Solight, 10 m, teplá biela, IP44, s časovačom a 8 funkciami.</p><span class="ps-v2-btn brand">Pozrieť produkty</span></div>' +
+      '<img src="' + BASE + 'solight-retaz.jpg" alt="Vonkajšia vianočná LED reťaz Solight, 10 m" width="300" height="225" loading="lazy" decoding="async"></a></section>');
   }
 
   function track(e) {
@@ -3786,10 +3787,10 @@ try {
 
 /* ---- premiumstore-mobile-nav-20261022.js ---- */
 try {
-/* PremiumStore – mobilná spodná lišta (Domov, Menu, Košík, Hľadať, Účet), 2026-10-22.
-   Menu = spodný panel s kategóriami z #navigation (harmonika). Hľadať = natívny .search (našepkávač a vlastné skripty
+/* PremiumStore – mobilná spodná lišta (Domov, Kategórie, Košík, Hľadať, Účet), 2026-10-31.
+   Kategórie = spodný panel s dlaždicami z #navigation, po kliknutí podkategórie so Späť. Hľadať = natívny .search (našepkávač a vlastné skripty
    premiumstore-search-*.js fungujú ďalej) presunutý do spodného panela. Skryje sa na /kosik/ a /objednavka/.
-   Nastavenia sú hore v súbore. Zodpovedajúce CSS: premiumstore-mobile-nav-20261022.css. Len mobil (max-width:767px). */
+   Nastavenia sú hore v súbore. Zodpovedajúce CSS: premiumstore-mobile-nav-20261031.css. Len mobil (max-width:767px). */
 (function(){
   if(window.__pmb)return;window.__pmb=1;
 
@@ -3797,7 +3798,7 @@ try {
   var PHONE='+421484151999';
   var HIDE_ON=/^\/(kosik|objednavka)(\/|$)/;       /* na týchto stránkach sa lišta skryje */
   var HIDE_ON_SCROLL=true;                          /* skryť lištu pri skrolovaní nadol */
-  var MAX_SUBS=8;                                   /* koľko podkategórií ukázať v harmonike */
+  var MAX_SUBS=14;                                  /* koľko podkategórií ukázať v druhej úrovni */
   var BRANDS=['Samsung','Sonos','JBL','Xiaomi','TP-Link','Bose','Creality','HP'];
   var CAT_ICONS={                                   /* časť adresy kategórie -> ikona */
     'pocitace':'device-laptop','tv-foto':'device-tv','domace-spotrebice':'wash-machine',
@@ -3827,7 +3828,7 @@ try {
     var bar=document.createElement('nav');bar.id='pmb-bar';bar.setAttribute('aria-label','Rýchla navigácia');
     bar.innerHTML=
       '<a class="pmb-it" data-k="home" href="/">'+ic('home')+'<span>Domov</span></a>'+
-      '<button class="pmb-it" data-k="menu" type="button" aria-haspopup="dialog">'+ic('layout-grid')+'<span>Menu</span></button>'+
+      '<button class="pmb-it" data-k="menu" type="button" aria-haspopup="dialog">'+ic('layout-grid')+'<span>Kategórie</span></button>'+
       '<a class="pmb-cart" data-k="cart" href="/kosik/" aria-label="Košík">'+ic('shopping-cart')+'<span class="pmb-cl">Košík</span><i class="pmb-badge"></i></a>'+
       '<button class="pmb-it" data-k="search" type="button" aria-haspopup="dialog">'+ic('search')+'<span>Hľadať</span></button>'+
       '<a class="pmb-it" data-k="user" href="/klient/">'+ic('user')+'<span>Účet</span></a>';
@@ -3841,33 +3842,50 @@ try {
     var pageKey=path==='/'?'home':(/^\/klient/.test(path)?'user':'');
     setActive(pageKey);
 
-    /* ---- Menu ---- */
-    function buildMenu(){
-      var h='<div class="pmb-grab"></div><div class="pmb-top"><h3>Produkty</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div><div class="pmb-body">';
-      var items=document.querySelectorAll('#navigation .menu-level-1 > li');
-      var links='',hotLink='';
-      [].forEach.call(items,function(li){
+    /* ---- Kategórie (dlaždice + podkategórie) ---- */
+    var cats=[],rootScroll=0;
+    function collect(){
+      cats=[];
+      [].forEach.call(document.querySelectorAll('#navigation .menu-level-1 > li'),function(li){
         var a=li.querySelector(':scope > a');if(!a)return;
-        var href=a.getAttribute('href'),name=a.textContent.replace(/\s+/g,' ').trim();
-        var subs=li.querySelectorAll(':scope > ul > li > div > a, :scope > ul > li > a:not(.menu-image)');
-        var hot=/black-friday/.test(href);
-        if(!subs.length&&hot){
-          hotLink='<a class="pmb-cat hot" href="'+esc(href)+'"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';
-          return;
-        }
-        if(!subs.length){
-          links+='<a class="pmb-cat'+(hot?' hot':'')+'" href="'+esc(href)+'"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';
-          return;
-        }
-        var sl='<a href="'+esc(href)+'">Zobraziť všetko</a>';
-        [].slice.call(subs,0,MAX_SUBS).forEach(function(s){
-          var t=s.textContent.replace(/\s+/g,' ').trim();if(t)sl+='<a href="'+esc(s.getAttribute('href'))+'">'+esc(t)+'</a>';
+        var href=a.getAttribute('href'),name=a.textContent.replace(/\s+/g,' ').trim();if(!href||!name)return;
+        var subs=[];
+        [].forEach.call(li.querySelectorAll(':scope > ul > li > div > a, :scope > ul > li > a:not(.menu-image)'),function(s){
+          var t=s.textContent.replace(/\s+/g,' ').trim(),u=s.getAttribute('href');if(t&&u&&subs.length<MAX_SUBS)subs.push({t:t,h:u});
         });
-        h+='<button class="pmb-cat" type="button" aria-expanded="false"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-down').replace('<svg','<svg class="pmb-ch"')+'</button><div class="pmb-subs">'+sl+'</div>';
+        cats.push({h:href,t:name,s:subs,hot:/black-friday/.test(href)});
       });
-      h+='<div class="pmb-gap"></div>'+links+'</div>';
-      if(hotLink)h=h.replace('<div class="pmb-body">','<div class="pmb-body">'+hotLink);   /* Black Friday na prvom mieste */
+      cats.sort(function(x,y){return (y.hot?1:0)-(x.hot?1:0);});   /* Black Friday na prvom mieste */
+    }
+    function head(title,back){
+      return '<div class="pmb-grab"></div><div class="pmb-top">'+(back?'<button class="pmb-back" type="button" aria-label="Späť">'+ic('arrow-right').replace('<svg','<svg style="transform:scaleX(-1)"')+'</button>':'')+'<h3>'+esc(title)+'</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div>';
+    }
+    function buildMenu(){
+      collect();
+      var h=head('Kategórie',false)+'<div class="pmb-body"><div class="pmb-grid">';
+      cats.forEach(function(c,i){
+        var inner='<span class="pmb-ic">'+ic(iconFor(c.h))+'</span><span class="pmb-t">'+esc(c.t)+'</span>';
+        var cl='pmb-tile'+(c.hot?' hot':'');
+        if(c.s.length)h+='<button class="'+cl+'" type="button" data-i="'+i+'">'+inner+'</button>';
+        else h+='<a class="'+cl+' pmb-cat" href="'+esc(c.h)+'">'+inner+'</a>';
+      });
+      h+='</div></div>';
       sh.innerHTML=h;
+    }
+    function showSub(i){
+      var c=cats[i];if(!c)return;
+      var b=sh.querySelector('.pmb-body');if(b)rootScroll=b.scrollTop;
+      var h=head(c.t,true)+'<div class="pmb-body"><div class="pmb-subs"><a class="pmb-all" href="'+esc(c.h)+'">Zobraziť všetko<span>'+esc(c.t)+'</span>'+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';
+      c.s.forEach(function(s){h+='<a class="pmb-sub" href="'+esc(s.h)+'">'+esc(s.t)+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';});
+      h+='</div></div>';
+      sh.innerHTML=h;
+      sh.setAttribute('data-view','sub');
+      var nb=sh.querySelector('.pmb-body');if(nb)nb.scrollTop=0;
+      var bk=sh.querySelector('.pmb-back');if(bk)bk.focus();
+    }
+    function showRoot(){
+      buildMenu();sh.removeAttribute('data-view');
+      var b=sh.querySelector('.pmb-body');if(b)b.scrollTop=rootScroll;
     }
 
     /* ---- Hľadanie ---- */
@@ -3880,7 +3898,14 @@ try {
       var h='<div class="pmb-grab"></div><div class="pmb-top"><h3>Hľadať</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div><div class="pmb-body">';
       h+=nat?'<div id="pmb-slot"></div>':
         '<form class="pmb-sf" action="/vyhladavanie/" method="get">'+ic('search')+'<input type="search" name="string" placeholder="Značka, produkt alebo kód" autocomplete="off" enterkeyhint="search" aria-label="Vyhľadávanie"><button type="submit">Hľadať</button></form>';
-      h+='<div class="pmb-extra"><div class="pmb-h">Obľúbené značky</div><div>';
+      var tops=[].slice.call(document.querySelectorAll('#navigation .menu-level-1 > li > a')).sort(function(x,y){return (/black-friday/.test(y.getAttribute('href'))?1:0)-(/black-friday/.test(x.getAttribute('href'))?1:0);}).slice(0,8);
+      h+='<div class="pmb-extra">';
+      if(tops.length){
+        h+='<div class="pmb-h">Kategórie</div><div>';
+        tops.forEach(function(a){var hr=a.getAttribute('href');h+='<a class="pmb-tc'+(/black-friday/.test(hr)?' hot':'')+'" href="'+esc(hr)+'">'+esc(a.textContent.replace(/\s+/g,' ').trim())+'</a>';});
+        h+='</div>';
+      }
+      h+='<div class="pmb-h">Obľúbené značky</div><div>';
       BRANDS.forEach(function(b){h+='<button class="pmb-chip" type="button" data-q="'+esc(b)+'">'+esc(b)+'</button>';});
       h+='</div>';
       var rec=getRecent();
@@ -3904,7 +3929,7 @@ try {
     var cur='';
     function open(k){
       if(cur===k){close();return;}
-      releaseSearch();
+      releaseSearch();sh.removeAttribute('data-view');
       if(k==='menu')buildMenu();else buildSearch();
       cur=k;setActive(k);
       ov.classList.add('open');sh.classList.add('open');
@@ -3926,11 +3951,12 @@ try {
       else if(cur){close();}
     });
     ov.addEventListener('click',close);
-    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&cur)close();});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&cur){if(sh.getAttribute('data-view')==='sub')showRoot();else close();}});
     sh.addEventListener('click',function(e){
       if(e.target.closest('.pmb-x')){close();return;}
-      var c=e.target.closest('button.pmb-cat');
-      if(c){var s=c.nextElementSibling,o=!s.classList.contains('open');s.classList.toggle('open',o);c.classList.toggle('open',o);c.setAttribute('aria-expanded',o);return;}
+      var t=e.target.closest('button.pmb-tile');
+      if(t){showSub(+t.getAttribute('data-i'));return;}
+      if(e.target.closest('.pmb-back')){showRoot();return;}
       var q=e.target.closest('[data-q]');if(q){fillSearch(q.getAttribute('data-q'));return;}
       if(e.target.closest('[data-clear]')){try{localStorage.removeItem('pmb_recent');}catch(x){}releaseSearch();buildSearch();return;}
     });

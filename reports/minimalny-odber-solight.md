@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-10-28 23:13 UTC.
+Kontrola z 2026-10-31 22:29 UTC.
 
-Solight pri **501** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **503** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -85,6 +85,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -482,6 +483,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WO745-G` | Solight LED vonkajšie osvetlenie guľaté, 13W, 910lm, 4000K,  | 2 | 20 |
 | `WZ6105` | Solight LED svetelný zdroj do stropných svetiel, 24W, 2400lm | 2 | 40 |
 | `PP53` | Solight predlžovací prívod, 5 zásuviek, biely, vypínač, 5m | 2 | 40 |
+| `TE45` | Solight teplomer | 2 | 40 |
 | `PO29` | Solight prepäťová ochrana do zásuvky, 570J, 3 zásuvky | 2 | 20 |
 | `PS20` | Solight 1z pohyblivý prívod - spojka, 10m, 2 x 1,5mm2, oranž | 2 | 20 |
 | `PP05` | Solight predlžovací prívod, 3 zásuvky, biely, 7m | 2 | 20 |

@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-10-29
+# Cenové anomálie vynechané z feedu — innpro — 2026-11-01
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -568,5 +568,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094931 | 6924922272137 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 11.00 € | 1/12.6x | 14 |
-| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 138.50 € | 7.70 € | 1/18.0x | 14 |
+| 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G | nulová/neplatná cena |  | 0.00 € |  |  |
+| 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 11.00 € | 1/12.8x | 14 |
+| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 8.10 € | 1/17.4x | 14 |

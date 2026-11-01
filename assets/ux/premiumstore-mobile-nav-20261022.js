@@ -1,7 +1,7 @@
-/* PremiumStore – mobilná spodná lišta (Domov, Menu, Košík, Hľadať, Účet), 2026-10-22.
-   Menu = spodný panel s kategóriami z #navigation (harmonika). Hľadať = natívny .search (našepkávač a vlastné skripty
+/* PremiumStore – mobilná spodná lišta (Domov, Kategórie, Košík, Hľadať, Účet), 2026-10-31.
+   Kategórie = spodný panel s dlaždicami z #navigation, po kliknutí podkategórie so Späť. Hľadať = natívny .search (našepkávač a vlastné skripty
    premiumstore-search-*.js fungujú ďalej) presunutý do spodného panela. Skryje sa na /kosik/ a /objednavka/.
-   Nastavenia sú hore v súbore. Zodpovedajúce CSS: premiumstore-mobile-nav-20261022.css. Len mobil (max-width:767px). */
+   Nastavenia sú hore v súbore. Zodpovedajúce CSS: premiumstore-mobile-nav-20261031.css. Len mobil (max-width:767px). */
 (function(){
   if(window.__pmb)return;window.__pmb=1;
 
@@ -9,7 +9,7 @@
   var PHONE='+421484151999';
   var HIDE_ON=/^\/(kosik|objednavka)(\/|$)/;       /* na týchto stránkach sa lišta skryje */
   var HIDE_ON_SCROLL=true;                          /* skryť lištu pri skrolovaní nadol */
-  var MAX_SUBS=8;                                   /* koľko podkategórií ukázať v harmonike */
+  var MAX_SUBS=14;                                  /* koľko podkategórií ukázať v druhej úrovni */
   var BRANDS=['Samsung','Sonos','JBL','Xiaomi','TP-Link','Bose','Creality','HP'];
   var CAT_ICONS={                                   /* časť adresy kategórie -> ikona */
     'pocitace':'device-laptop','tv-foto':'device-tv','domace-spotrebice':'wash-machine',
@@ -39,7 +39,7 @@
     var bar=document.createElement('nav');bar.id='pmb-bar';bar.setAttribute('aria-label','Rýchla navigácia');
     bar.innerHTML=
       '<a class="pmb-it" data-k="home" href="/">'+ic('home')+'<span>Domov</span></a>'+
-      '<button class="pmb-it" data-k="menu" type="button" aria-haspopup="dialog">'+ic('layout-grid')+'<span>Menu</span></button>'+
+      '<button class="pmb-it" data-k="menu" type="button" aria-haspopup="dialog">'+ic('layout-grid')+'<span>Kategórie</span></button>'+
       '<a class="pmb-cart" data-k="cart" href="/kosik/" aria-label="Košík">'+ic('shopping-cart')+'<span class="pmb-cl">Košík</span><i class="pmb-badge"></i></a>'+
       '<button class="pmb-it" data-k="search" type="button" aria-haspopup="dialog">'+ic('search')+'<span>Hľadať</span></button>'+
       '<a class="pmb-it" data-k="user" href="/klient/">'+ic('user')+'<span>Účet</span></a>';
@@ -53,33 +53,50 @@
     var pageKey=path==='/'?'home':(/^\/klient/.test(path)?'user':'');
     setActive(pageKey);
 
-    /* ---- Menu ---- */
-    function buildMenu(){
-      var h='<div class="pmb-grab"></div><div class="pmb-top"><h3>Produkty</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div><div class="pmb-body">';
-      var items=document.querySelectorAll('#navigation .menu-level-1 > li');
-      var links='',hotLink='';
-      [].forEach.call(items,function(li){
+    /* ---- Kategórie (dlaždice + podkategórie) ---- */
+    var cats=[],rootScroll=0;
+    function collect(){
+      cats=[];
+      [].forEach.call(document.querySelectorAll('#navigation .menu-level-1 > li'),function(li){
         var a=li.querySelector(':scope > a');if(!a)return;
-        var href=a.getAttribute('href'),name=a.textContent.replace(/\s+/g,' ').trim();
-        var subs=li.querySelectorAll(':scope > ul > li > div > a, :scope > ul > li > a:not(.menu-image)');
-        var hot=/black-friday/.test(href);
-        if(!subs.length&&hot){
-          hotLink='<a class="pmb-cat hot" href="'+esc(href)+'"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';
-          return;
-        }
-        if(!subs.length){
-          links+='<a class="pmb-cat'+(hot?' hot':'')+'" href="'+esc(href)+'"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';
-          return;
-        }
-        var sl='<a href="'+esc(href)+'">Zobraziť všetko</a>';
-        [].slice.call(subs,0,MAX_SUBS).forEach(function(s){
-          var t=s.textContent.replace(/\s+/g,' ').trim();if(t)sl+='<a href="'+esc(s.getAttribute('href'))+'">'+esc(t)+'</a>';
+        var href=a.getAttribute('href'),name=a.textContent.replace(/\s+/g,' ').trim();if(!href||!name)return;
+        var subs=[];
+        [].forEach.call(li.querySelectorAll(':scope > ul > li > div > a, :scope > ul > li > a:not(.menu-image)'),function(s){
+          var t=s.textContent.replace(/\s+/g,' ').trim(),u=s.getAttribute('href');if(t&&u&&subs.length<MAX_SUBS)subs.push({t:t,h:u});
         });
-        h+='<button class="pmb-cat" type="button" aria-expanded="false"><span class="pmb-ic">'+ic(iconFor(href))+'</span><span class="pmb-t">'+esc(name)+'</span>'+ic('chevron-down').replace('<svg','<svg class="pmb-ch"')+'</button><div class="pmb-subs">'+sl+'</div>';
+        cats.push({h:href,t:name,s:subs,hot:/black-friday/.test(href)});
       });
-      h+='<div class="pmb-gap"></div>'+links+'</div>';
-      if(hotLink)h=h.replace('<div class="pmb-body">','<div class="pmb-body">'+hotLink);   /* Black Friday na prvom mieste */
+      cats.sort(function(x,y){return (y.hot?1:0)-(x.hot?1:0);});   /* Black Friday na prvom mieste */
+    }
+    function head(title,back){
+      return '<div class="pmb-grab"></div><div class="pmb-top">'+(back?'<button class="pmb-back" type="button" aria-label="Späť">'+ic('arrow-right').replace('<svg','<svg style="transform:scaleX(-1)"')+'</button>':'')+'<h3>'+esc(title)+'</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div>';
+    }
+    function buildMenu(){
+      collect();
+      var h=head('Kategórie',false)+'<div class="pmb-body"><div class="pmb-grid">';
+      cats.forEach(function(c,i){
+        var inner='<span class="pmb-ic">'+ic(iconFor(c.h))+'</span><span class="pmb-t">'+esc(c.t)+'</span>';
+        var cl='pmb-tile'+(c.hot?' hot':'');
+        if(c.s.length)h+='<button class="'+cl+'" type="button" data-i="'+i+'">'+inner+'</button>';
+        else h+='<a class="'+cl+' pmb-cat" href="'+esc(c.h)+'">'+inner+'</a>';
+      });
+      h+='</div></div>';
       sh.innerHTML=h;
+    }
+    function showSub(i){
+      var c=cats[i];if(!c)return;
+      var b=sh.querySelector('.pmb-body');if(b)rootScroll=b.scrollTop;
+      var h=head(c.t,true)+'<div class="pmb-body"><div class="pmb-subs"><a class="pmb-all" href="'+esc(c.h)+'">Zobraziť všetko<span>'+esc(c.t)+'</span>'+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';
+      c.s.forEach(function(s){h+='<a class="pmb-sub" href="'+esc(s.h)+'">'+esc(s.t)+ic('chevron-right').replace('<svg','<svg class="pmb-ch"')+'</a>';});
+      h+='</div></div>';
+      sh.innerHTML=h;
+      sh.setAttribute('data-view','sub');
+      var nb=sh.querySelector('.pmb-body');if(nb)nb.scrollTop=0;
+      var bk=sh.querySelector('.pmb-back');if(bk)bk.focus();
+    }
+    function showRoot(){
+      buildMenu();sh.removeAttribute('data-view');
+      var b=sh.querySelector('.pmb-body');if(b)b.scrollTop=rootScroll;
     }
 
     /* ---- Hľadanie ---- */
@@ -92,7 +109,14 @@
       var h='<div class="pmb-grab"></div><div class="pmb-top"><h3>Hľadať</h3><button class="pmb-x" type="button" aria-label="Zavrieť">'+ic('x')+'</button></div><div class="pmb-body">';
       h+=nat?'<div id="pmb-slot"></div>':
         '<form class="pmb-sf" action="/vyhladavanie/" method="get">'+ic('search')+'<input type="search" name="string" placeholder="Značka, produkt alebo kód" autocomplete="off" enterkeyhint="search" aria-label="Vyhľadávanie"><button type="submit">Hľadať</button></form>';
-      h+='<div class="pmb-extra"><div class="pmb-h">Obľúbené značky</div><div>';
+      var tops=[].slice.call(document.querySelectorAll('#navigation .menu-level-1 > li > a')).sort(function(x,y){return (/black-friday/.test(y.getAttribute('href'))?1:0)-(/black-friday/.test(x.getAttribute('href'))?1:0);}).slice(0,8);
+      h+='<div class="pmb-extra">';
+      if(tops.length){
+        h+='<div class="pmb-h">Kategórie</div><div>';
+        tops.forEach(function(a){var hr=a.getAttribute('href');h+='<a class="pmb-tc'+(/black-friday/.test(hr)?' hot':'')+'" href="'+esc(hr)+'">'+esc(a.textContent.replace(/\s+/g,' ').trim())+'</a>';});
+        h+='</div>';
+      }
+      h+='<div class="pmb-h">Obľúbené značky</div><div>';
       BRANDS.forEach(function(b){h+='<button class="pmb-chip" type="button" data-q="'+esc(b)+'">'+esc(b)+'</button>';});
       h+='</div>';
       var rec=getRecent();
@@ -116,7 +140,7 @@
     var cur='';
     function open(k){
       if(cur===k){close();return;}
-      releaseSearch();
+      releaseSearch();sh.removeAttribute('data-view');
       if(k==='menu')buildMenu();else buildSearch();
       cur=k;setActive(k);
       ov.classList.add('open');sh.classList.add('open');
@@ -138,11 +162,12 @@
       else if(cur){close();}
     });
     ov.addEventListener('click',close);
-    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&cur)close();});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&cur){if(sh.getAttribute('data-view')==='sub')showRoot();else close();}});
     sh.addEventListener('click',function(e){
       if(e.target.closest('.pmb-x')){close();return;}
-      var c=e.target.closest('button.pmb-cat');
-      if(c){var s=c.nextElementSibling,o=!s.classList.contains('open');s.classList.toggle('open',o);c.classList.toggle('open',o);c.setAttribute('aria-expanded',o);return;}
+      var t=e.target.closest('button.pmb-tile');
+      if(t){showSub(+t.getAttribute('data-i'));return;}
+      if(e.target.closest('.pmb-back')){showRoot();return;}
       var q=e.target.closest('[data-q]');if(q){fillSearch(q.getAttribute('data-q'));return;}
       if(e.target.closest('[data-clear]')){try{localStorage.removeItem('pmb_recent');}catch(x){}releaseSearch();buildSearch();return;}
     });
