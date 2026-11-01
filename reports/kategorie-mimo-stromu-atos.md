@@ -1,5 +1,5 @@
 # Kategórie mimo stromu — atos
 
-Kontrola z 2026-11-01 22:57 UTC.
+Kontrola z 2026-11-01 23:29 UTC.
 
 Žiadne — všetky kategórie v tomto feede existujú v našom strome.
