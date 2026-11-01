@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-10-31 22:40 UTC.
+Kontrola z 2026-11-01 10:53 UTC.
 
-InnPro pri **400** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -305,6 +305,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `082348` | Chladiaci ventilátor Darkflash DE8 (čierny) | — | 5 |
 | `082349` | Chladiaci ventilátor Darkflash DE8 (biely) | — | 5 |
 | `083944` | Inteligentný termohygrometer Rainpoint Smart+ | — | 5 |
+| `084240` | Hubový tienidlo pre lampu Flextail Tiny Pump 2X (oranžové) | — | 5 |
 | `084241` | Huba ako tienidlo pre lampu Flextail Tiny Pump 2X (biela) | — | 5 |
 | `084784` | Uni-T UT12D-EU Bezkontaktný tester napätia | — | 5 |
 | `085297` | Avatto 2 zásuvka TS20 rám vypínača (biely) | — | 5 |
@@ -333,6 +334,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088940` | HTVRONT Pure Heat Transfer Film, 30,5 cm x 1,8 m (modrá) | — | 5 |
 | `088941` | HTVRONT – fólia na termotransfer s trblietkami, 30,5 cm x 90 | — | 5 |
 | `088943` | HTVRONT – troskavá fólia na prenos tepla, 30,5 cm x 90 cm (č | — | 5 |
+| `088945` | HTVRONT – fólia na termotransfer s trblietkami, 30,5 cm × 90 | — | 5 |
+| `088946` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm x 90 cm | — | 5 |
 | `088947` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
 | `088948` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
 | `088952` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |
@@ -392,7 +395,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089897` | Univerzálny držiak na telefón Sunnylife s klipom | — | 5 |
 | `089382` | Tepelná etiketa NIIMBOT EW50*30-225 | — | 5 |
 | `093248` | Sada veľkostí EVEN REALITIES R1 | — | 5 |
-| `088334` | Spojka prahovej rampy MOVA pre modely V50U/Mobius60 | — | 5 |
 | `089389` | Čelovka SUPERFIRE HL106 | — | 5 |
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
@@ -400,10 +402,5 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `093577` | Držiak SJCAM C300 POCKET | — | 5 |
 | `093578` | Malý statív SJCAM | — | 5 |
 | `093581` | SJCAM Floaty Bobber – držiak na zvýšenie vztlaku | — | 4 |
-| `093705` | Držiak na rám SJCAM C200 Pro | — | 5 |
-| `093700` | Zadná lišta SJCAM C100 Pro | — | 2 |
-| `093701` | SJCAM C110+ Zadná lišta | — | 4 |
-| `093702` | Zadná lišta pre SJCAM C200 Pro | — | 4 |
-| `093704` | Držiak na rám pre SJCAM C110 Plus | — | 5 |
 | `095291` | Pamäťová karta GODOX microSD 4 GB | — | 5 |
 | `095292` | Pamäťová karta GODOX microSD s kapacitou 8 GB | — | 5 |
