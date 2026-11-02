@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600705,
+    "nextCardNumber": 202600712,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4226,6 +4226,48 @@
         "nazov": "Red ribbon for C1",
         "dodavatel": "innpro",
         "code": "089380"
+      },
+      "8021098270689": {
+        "kod": "202600705",
+        "nazov": "Braun SI3042VI",
+        "dodavatel": "kb",
+        "code": "100002066962"
+      },
+      "8590393257690": {
+        "kod": "202600706",
+        "nazov": "ETA Pečenka MINI 1133 90000,",
+        "dodavatel": "kb",
+        "code": "341030025098"
+      },
+      "3838782838385": {
+        "kod": "202600707",
+        "nazov": "Gorenje NRKI519E41",
+        "dodavatel": "kb",
+        "code": "100002130862"
+      },
+      "3045387249410": {
+        "kod": "202600708",
+        "nazov": "Tefal Coppertinto KI280G10",
+        "dodavatel": "kb",
+        "code": "100002196724"
+      },
+      "5906006541392": {
+        "kod": "202600709",
+        "nazov": "Amica SHM 51071 W",
+        "dodavatel": "kb",
+        "code": "100000029681"
+      },
+      "0711719444596": {
+        "kod": "202600710",
+        "nazov": "PS5 - Stick Module",
+        "dodavatel": "kb",
+        "code": "100002204939"
+      },
+      "8806099322083": {
+        "kod": "202600711",
+        "nazov": "Samsung Soundbar HW-B420F",
+        "dodavatel": "kb",
+        "code": "100002204963"
       }
     }
   },
