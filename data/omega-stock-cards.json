@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600713,
+    "nextCardNumber": 202600725,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4274,6 +4274,78 @@
         "nazov": "Odšťavňovač Tefal ZC605D38",
         "dodavatel": "kb",
         "code": "100002204904"
+      },
+      "5901890025362": {
+        "kod": "202600713",
+        "nazov": "Zdroj záložní KEMOT PROsinus 500 URZ3404B 300W 12V",
+        "dodavatel": "atos",
+        "code": "TIP-08840225"
+      },
+      "5252525252525": {
+        "kod": "202600714",
+        "nazov": "Držák anténní pod střešní tašku 50 cm S NÁKLONEM, průměr 35 mm, zinek Ga",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "5908312598510": {
+        "kod": "202600715",
+        "nazov": "Relé elektromagnetické F&F PP-1P/230, 1× NO/NC, 230V, 16A, do krabice",
+        "dodavatel": "atos",
+        "code": "FIR-1613215"
+      },
+      "8596425224203": {
+        "kod": "202600716",
+        "nazov": "Průchodka M20 s koncovkou pro husí krk 18,5mm (AD18.5) O487D",
+        "dodavatel": "atos",
+        "code": "ATO-O487D"
+      },
+      "5907813652394": {
+        "kod": "202600717",
+        "nazov": "FVE Střešní hák 300mm pro šikmé střechy - nerez H17 (Bobrovka)",
+        "dodavatel": "atos",
+        "code": "WIDEHOOK"
+      },
+      "5902560329759": {
+        "kod": "202600718",
+        "nazov": "ORNO OR-GM-9005/W-G Zásuvka rohová, 2x 230V, bílo-stříbrná, kabel bez vidlic",
+        "dodavatel": "atos",
+        "code": "SPR-2KZGM9005WG"
+      },
+      "8426709020125": {
+        "kod": "202600719",
+        "nazov": "Hodiny spínací ORBIS ILUMATIC 248 D, analog., denní, bez zálohy, šedé, montá",
+        "dodavatel": "atos",
+        "code": "ELE-1000847"
+      },
+      "5904665712108": {
+        "kod": "202600720",
+        "nazov": "Kamera endoskopická Bigstren 19376 5m",
+        "dodavatel": "atos",
+        "code": "ITR-00016095"
+      },
+      "8596425197620": {
+        "kod": "202600721",
+        "nazov": "Kabel pp USB-C - Lightning HDX N506G 1.5m bílý /N506G/",
+        "dodavatel": "atos",
+        "code": "ATO-N506G"
+      },
+      "8596425197576": {
+        "kod": "202600722",
+        "nazov": "Kabel pp USB-A/M 2.0 - Lighting HDX N505B 1.5 m, bílý /N505B/",
+        "dodavatel": "atos",
+        "code": "ATO-N505B"
+      },
+      "8592847001620": {
+        "kod": "202600723",
+        "nazov": "LSI LL 36W (230V/50Hz) EEI = B2 tlumivka, NÁHRADNÍ DÍL",
+        "dodavatel": "atos",
+        "code": "ELE-1000581"
+      },
+      "8596425165896": {
+        "kod": "202600724",
+        "nazov": "Sada kabelových oček 3-8mm lisovacích, 102ks D497",
+        "dodavatel": "atos",
+        "code": "ATO-D497"
       }
     }
   },
