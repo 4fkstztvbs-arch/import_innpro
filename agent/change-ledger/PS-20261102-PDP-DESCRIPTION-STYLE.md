@@ -23,3 +23,4 @@
 - RESULT: zatiaľ nevyhodnotené.
 - DECISION: čaká na schválenie PR.
 - ROLLBACK / ROLLBACK_COMMIT: revert PR a zvýšenie `?v=` v Shoptete (alebo vrátiť predchádzajúcu verziu `?v=`).
+- UPDATE 2026-11-02 (PR po #304): odstránený `max-width: 760px` (popis zaberal len ľavú časť kontajnera); popis je na celú šírku `.description-inner`, zoznam vlastností má od 1100 px tri stĺpce. Overené na E12X pri 390, 1024, 1280 a 1920 px bez pretekania. Zmergované PR #304 bolo nasadené s `?v=36`.
