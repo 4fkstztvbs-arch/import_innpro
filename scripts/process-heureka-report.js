@@ -88,6 +88,7 @@ function buildPriceTargets(rows, sourceCsvName, policy = POLICY) {
       generatedAt,
       sourceReport: sourceCsvName,
       cantCompete: r.NemozemeVyhrat === '1',
+      ...(fnum(r.PredchPocetPredajcov) > 0 ? { prevSellerCount: fnum(r.PredchPocetPredajcov), prevCheapest: fnum(r.PredchNajnizsiaEUR) } : {}),
     };
   }
   return targets;

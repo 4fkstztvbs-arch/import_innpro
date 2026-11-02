@@ -60,6 +60,30 @@ function loadOurProducts(xmlPaths) {
   return { byEan, byCode, dupes };
 }
 
+// Seller count and cheapest competitor per EAN from the report just before this one
+// (by filename timestamp), so a sudden seller drop can be held until confirmed.
+function loadPreviousReport(csvPath) {
+  const map = new Map();
+  const { extractTimestamp } = require('./process-heureka-report');
+  const dir = path.dirname(csvPath);
+  const ts = extractTimestamp(path.basename(csvPath));
+  if (!ts) return map;
+  let prev = null;
+  for (const f of fs.readdirSync(dir)) {
+    const t = f.toLowerCase().endsWith('.csv') && extractTimestamp(f);
+    if (t && t < ts && (!prev || t > prev.ts)) prev = { f, ts: t };
+  }
+  if (!prev) return map;
+  const rows = parse(fs.readFileSync(path.join(dir, prev.f), 'utf-8'), { bom: true, columns: true, skip_empty_lines: true, relax_column_count: true });
+  for (const row of rows) {
+    const ean = String(row.EAN || '').trim();
+    const c = readCompetition(row);
+    if (ean && c.valid && c.cheapest > 0) map.set(ean, { sellerCount: c.sellerCount, cheapest: c.cheapest });
+  }
+  console.log(`Predchádzajúci report pre kontrolu výpadku predajcov: ${prev.f} (${map.size} EAN)`);
+  return map;
+}
+
 function num(s) {
   const v = parseFloat(String(s || '').replace(',', '.'));
   return Number.isFinite(v) ? v : null;
@@ -79,6 +103,7 @@ function main() {
   const marginArg = args.find((a) => a.startsWith('--min-margin='));
   const MIN_MARGIN_PCT = marginArg ? Number(marginArg.slice('--min-margin='.length)) : POLICY.minMarkupPct;
   const policy = validatePolicy({ ...POLICY, minMarkupPct: MIN_MARGIN_PCT });
+  const previousByEan = loadPreviousReport(csvPath);
   const xmlPaths = fs.readdirSync(outputDir)
     .filter((f) => f.endsWith('.xml'))
     .map((f) => path.join(outputDir, f));
@@ -127,6 +152,8 @@ function main() {
     const ean = ours.ean;
 
     const competition = readCompetition(row);
+    const prev = previousByEan.get(reportEan) || previousByEan.get(ean);
+    if (competition.valid && prev) competition.previous = prev;
     const decision = priceDecision(ours.price, ours.purchasePrice, ours.purchaseVat, competition, policy, ours.source);
     if (!(ours.purchasePrice > 0) || !Number.isFinite(ours.purchaseVat)) noPurchasePrice++;
     const heurekaMin = competition.cheapest;
@@ -177,6 +204,8 @@ function main() {
       completeRanking: competition.complete ? '1' : '0',
       reportPrice: num(row['Vaša cena']),
       competitionValid: competition.valid ? '1' : '0',
+      prevSellerCount: prev?.sellerCount ?? '',
+      prevCheapest: prev?.cheapest ?? '',
     });
   }
 
@@ -184,7 +213,7 @@ function main() {
 
   const header = ['EAN', 'Nazov', 'Kategoria', 'Dodavatel', 'NasaCenaEUR', 'NakupnaCenaBezDphEUR', 'FloorCenaEUR',
     'MarzaTerazPct', 'MarzaPoUpravePct', 'HeurekaNajnizsiaEUR', 'HeurekaDruhaNajnizsiaEUR', 'HeurekaNajvyssiaEUR',
-    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'SurovyCielEUR', 'Poznamka', 'NemozemeVyhrat', 'HeurekaURL', 'KonkurencneCeny', 'UplnyRebricek', 'NasaCenaVReporteEUR', 'KonkurenciaPlatna'];
+    'PocetPredajcov', 'OdhadovanaPozicia', 'RozdielEUR', 'RozdielPct', 'Akcia', 'OdporucanaCenaEUR', 'SurovyCielEUR', 'Poznamka', 'NemozemeVyhrat', 'HeurekaURL', 'KonkurencneCeny', 'UplnyRebricek', 'NasaCenaVReporteEUR', 'KonkurenciaPlatna', 'PredchPocetPredajcov', 'PredchNajnizsiaEUR'];
   const lines = [header.join(',')];
   for (const m of matched) {
     lines.push([
@@ -193,7 +222,7 @@ function main() {
       m.marzaTerazPct ?? '', m.marzaPoUpravePct ?? '',
       m.heurekaNajnizsia ?? '', m.heurekaDruhaNajnizsia ?? '', m.heurekaNajvyssia ?? '', m.pocetPredajcov ?? '',
       m.odhadovanaPozicia ?? '', m.rozdielEur ?? '', m.rozdielPct ?? '', m.akcia, m.odporucanaCena ?? '', m.surovyCiel ?? '',
-      `"${m.poznamka.replace(/"/g, '""')}"`, m.nemozemeVyhrat ? '1' : '0', m.heurekaUrl, m.competitorPrices, m.completeRanking, m.reportPrice ?? '', m.competitionValid,
+      `"${m.poznamka.replace(/"/g, '""')}"`, m.nemozemeVyhrat ? '1' : '0', m.heurekaUrl, m.competitorPrices, m.completeRanking, m.reportPrice ?? '', m.competitionValid, m.prevSellerCount, m.prevCheapest,
     ].join(','));
   }
   fs.mkdirSync(path.dirname(outPath), { recursive: true });

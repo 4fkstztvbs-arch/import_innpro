@@ -8,6 +8,8 @@ const { spawnSync } = require('node:child_process');
 const { POLICY, readCompetition, priceDecision } = require('../heureka-pricing');
 const { resolveTargetPrice } = require('../heureka-price-targets');
 const { buildPriceTargets, processingFingerprint, readCsvRows } = require('../process-heureka-report');
+// Market targeting without the raise guards (buffer, step limit, markup cap).
+const LEGACY = { ...POLICY, maxMarkupPct: null, raise: undefined };
 
 function report(prices, ownIndex = 0) {
   const row = {
@@ -22,7 +24,7 @@ function report(prices, ownIndex = 0) {
   return row;
 }
 function targetFor(competition, reference = 100, source = 'innpro.xml') {
-  return { pricingVersion: POLICY.version, policy: POLICY, mode: competition.sellerCount === 1 ? 'supplier' : 'market',
+  return { pricingVersion: POLICY.version, policy: LEGACY, mode: competition.sellerCount === 1 ? 'supplier' : 'market',
     referencePriceInclVat: reference, source, competitorPrices: competition.prices,
     completeRanking: competition.complete, sellerCount: competition.sellerCount, heurekaNajnizsia: competition.cheapest };
 }
@@ -30,7 +32,7 @@ function targetFor(competition, reference = 100, source = 'innpro.xml') {
 test('two sellers: coalesce mirrored ranks and remove our offer once (Edifier)', () => {
   const c = readCompetition(report([199.5, 277]));
   assert.deepEqual(c.prices, [277]);
-  assert.equal(priceDecision(199.5, 141.04, 23, c).price, 276.9);
+  assert.equal(priceDecision(199.5, 141.04, 23, c, LEGACY).price, 276.9);
 });
 test('real ties at different ranks remain competitors', () => {
   const c = readCompetition(report([100, 100, 120]));
@@ -39,7 +41,7 @@ test('real ties at different ranks remain competitors', () => {
 });
 test('remove the REPORT own price, even after our feed price changes', () => {
   const c = readCompetition(report([100, 150]));
-  assert.equal(priceDecision(160, 50, 23, c).price, 149.9);
+  assert.equal(priceDecision(160, 50, 23, c, LEGACY).price, 149.9);
 });
 test('own offer need not be cheapest', () => {
   const c = readCompetition(report([90, 100, 120], 1));
@@ -80,13 +82,27 @@ test('missing purchase price or VAT never changes a price', () => {
 });
 test('no cap on increases; round strictly below competitor and above floor', () => {
   const c = readCompetition(report([100, 500]));
-  const d = priceDecision(100, 50, 23, c);
+  const d = priceDecision(100, 50, 23, c, LEGACY);
   assert.equal(d.price, 499.9);
   for (const competitor of [0.5, 0.99, 9.9, 10, 10.01, 10.5, 10.9, 11, 99.99, 100, 277, 2537]) {
-    const d = priceDecision(competitor / 2, 0.1, 23, readCompetition(report([competitor / 2, competitor])));
+    const d = priceDecision(competitor / 2, 0.1, 23, readCompetition(report([competitor / 2, competitor])), LEGACY);
     assert(d.price < competitor);
     assert(d.price >= 0.1 * 1.05 * 1.23);
   }
+});
+test('raise guards: gap below competitor, +10 % per report, 60 % markup cap, hold on seller drop', () => {
+  const c = readCompetition(report([480.5, 675.27]));
+  assert.equal(priceDecision(480.5, 300, 23, c).price, 528.5);
+  assert.equal(priceDecision(640, 400, 23, c).price, 661.5);
+  assert.equal(priceDecision(100, 50, 23, readCompetition(report([100, 102]))).price, 100);
+  assert.equal(priceDecision(300, 200, 23, readCompetition(report([300, 500])), { ...POLICY, raise: { ...POLICY.raise, maxStepPct: 1000 } }).price, 393.5);
+  const dropped = { ...c, previous: { sellerCount: 3, cheapest: 480.9 } };
+  const held = priceDecision(480.5, 300, 23, dropped);
+  assert.equal(held.price, 480.5);
+  assert.match(held.reason, /potvrdenie/);
+  assert.equal(priceDecision(480.5, 300, 23, { ...c, previous: { sellerCount: 2, cheapest: 675.27 } }).price, 528.5);
+  assert.equal(priceDecision(80, 100, 23, readCompetition(report([80, 300]))).price, 129.5);
+  assert.equal(priceDecision(100, 50, 23, readCompetition(report([90, 100], 1))).price, 89.9);
 });
 test('margin floor is recomputed when purchase price changes', () => {
   const c = readCompetition(report([100, 150]));
@@ -135,10 +151,10 @@ test('CSV report through comparison, target map and direct XML application', () 
     const run = spawnSync(process.execPath, [path.join(__dirname, '../compare-heureka-prices.js'), csvPath, `--xml=${dir}`, `--out=${out}`], { encoding: 'utf8' });
     assert.equal(run.status, 0, run.stderr);
     const rows = readCsvRows(out);
-    assert.equal(rows[0].OdporucanaCenaEUR, '276.9');
+    assert.equal(rows[0].OdporucanaCenaEUR, '219');
     assert.equal(rows[0].Akcia, 'ZVÝŠIŤ');
     const t = buildPriceTargets(rows, 'report.csv')['123'];
-    assert.equal(resolveTargetPrice(t, 199.5, 141.04, 23), 276.9);
+    assert.equal(resolveTargetPrice(t, 199.5, 141.04, 23), 219);
     fs.mkdirSync(path.join(dir, 'scripts'));
     fs.mkdirSync(path.join(dir, 'data/heureka-reports'), { recursive: true });
     for (const file of ['apply-price-targets.js', 'heureka-price-targets.js', 'heureka-pricing.js', 'heureka-pricing-policy.json', 'round-price.js', 'heureka-hidden-categories.json', 'heureka-black-friday-allowlist.js']) {
@@ -148,7 +164,7 @@ test('CSV report through comparison, target map and direct XML application', () 
     fs.writeFileSync(path.join(dir, 'data/heureka-reports/price-targets.json'), JSON.stringify({ '123': t }));
     const apply = () => spawnSync(process.execPath, [path.join(dir, 'scripts/apply-price-targets.js'), `--xml=${xmlPath}`], { encoding: 'utf8', env: { ...process.env, HEUREKA_PRICE_OVERRIDE: '1' } });
     const applied = apply(); assert.equal(applied.status, 0, applied.stderr);
-    assert.match(fs.readFileSync(xmlPath, 'utf8'), /<PRICE_VAT>276\.90<\/PRICE_VAT>/);
+    assert.match(fs.readFileSync(xmlPath, 'utf8'), /<PRICE_VAT>219\.00<\/PRICE_VAT>/);
     const repeated = apply(); assert.equal(repeated.status, 0, repeated.stderr);
     assert.match(repeated.stdout, /Spolu prepísaných cien: 0/);
   } finally { fs.rmSync(dir, { recursive: true }); }

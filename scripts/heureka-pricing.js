@@ -19,6 +19,9 @@ function validatePolicy(policy) {
   for (const markup of Object.values(policy.soleOfferMarkupBySupplier || {})) {
     if (!Number.isFinite(markup) || markup < policy.minMarkupPct) throw new Error('Invalid sole-offer markup');
   }
+  const r = policy.raise;
+  if (r !== undefined && (!r || ![r.bufferPct, r.bufferMinEur, r.bufferMaxEur, r.maxStepPct].every((v) => Number.isFinite(v) && v >= 0)
+      || r.bufferMinEur > r.bufferMaxEur)) throw new Error('Invalid Heureka raise rules');
   return policy;
 }
 validatePolicy(POLICY);
@@ -83,6 +86,21 @@ function priceDecision(referencePrice, purchasePrice, vatPct, competition, polic
   result.reason = 'cena podľa najlacnejšieho iného predajcu';
   if (result.cap !== null && result.cap < market) result.reason += '; obmedzené maximálnou prirážkou';
   if (result.floor > Math.min(market, result.cap ?? Infinity)) result.reason += '; obmedzené min. prirážkou (floor)';
+  // Raises only: keep a real gap below the competitor (shipping or other perks can
+  // beat a few cents), climb at most maxStepPct per report, and do not raise at all
+  // when a seller vanished since the previous report until the next report confirms it.
+  const rr = policy.raise;
+  if (rr && result.price > referencePrice && result.price > result.floor) {
+    const buffer = Math.min(rr.bufferMaxEur, Math.max(rr.bufferMinEur, competition.cheapest * rr.bufferPct / 100));
+    const prev = competition.previous;
+    let raised = Math.min(result.price, roundPriceDown(competition.cheapest - buffer), roundPriceDown(referencePrice * (1 + rr.maxStepPct / 100)));
+    if (raised < result.price) result.reason += `; zdraženie obmedzené (odstup ${rr.bufferPct} % od konkurenta, max +${rr.maxStepPct} % za report)`;
+    if (prev && prev.sellerCount > competition.sellerCount && prev.cheapest > 0 && competition.cheapest > prev.cheapest + 0.005) {
+      raised = referencePrice;
+      result.reason = 'predajca ubudol od minulého reportu; zdraženie čaká na potvrdenie v ďalšom reporte';
+    }
+    result.price = Math.max(result.floor, referencePrice, raised);
+  }
   // Do not discount an existing market leader just to introduce a buffer or
   // enforce a cap on a margin it already earns. The cap limits new increases.
   if (result.price < referencePrice && referencePrice < competition.cheapest && referencePrice >= result.floor) {

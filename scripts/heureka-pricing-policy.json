@@ -1,7 +1,8 @@
 {
   "version": 2,
   "minMarkupPct": 5,
-  "maxMarkupPct": null,
+  "maxMarkupPct": 60,
   "competitorDiscountPct": 0,
-  "soleOfferMarkupBySupplier": { "innpro.xml": 15 }
+  "soleOfferMarkupBySupplier": { "innpro.xml": 15 },
+  "raise": { "bufferPct": 2, "bufferMinEur": 1, "bufferMaxEur": 15, "maxStepPct": 10 }
 }

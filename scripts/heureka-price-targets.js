@@ -56,6 +56,7 @@ function resolveTargetPrice(target, computedPriceInclVat, purchasePriceExclVat, 
     return priceDecision(target.referencePriceInclVat, purchasePriceExclVat, vatPct, {
       valid: true, sellerCount: target.sellerCount, cheapest: target.heurekaNajnizsia,
       prices: target.competitorPrices, complete: target.completeRanking,
+      ...(target.prevSellerCount > 0 ? { previous: { sellerCount: target.prevSellerCount, cheapest: target.prevCheapest } } : {}),
     }, policy, target.source).price;
   }
   // Compatibility for the previous targets during the first migration run.
