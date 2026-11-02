@@ -1,6 +1,6 @@
 /* PremiumStore.sk – štýl popisu produktu (PS-20261102-PDP-DESCRIPTION)
    Platí len na detaile produktu pre dlhý popis (body.type-detail .basic-description); HTML obsahu sa nemení. */
-body.type-detail .basic-description{max-width:760px;font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',sans-serif;color:#17283c}
+body.type-detail .basic-description{max-width:none;font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',sans-serif;color:#17283c}
 body.type-detail .basic-description>p:first-child{font-size:17px;line-height:26px;font-weight:500;margin:0 0 12px}
 body.type-detail .basic-description h2{font-size:28px;line-height:34px;font-weight:700;letter-spacing:-.8px;margin:48px 0 12px;color:#17283c}
 body.type-detail .basic-description>h2:first-of-type{margin-top:32px}
@@ -16,6 +16,9 @@ body.type-detail .basic-description tbody tr:nth-child(even) td{background:#f0f5
 body.type-detail .basic-description td:first-child{width:38%;color:#536477}
 body.type-detail .basic-description a{color:#285a98}
 body.type-detail .basic-description a:hover{color:#1c467b}
+@media (min-width:1100px){
+ body.type-detail .basic-description ul{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
 @media (max-width:767px){
  body.type-detail .basic-description{max-width:none;overflow-wrap:anywhere}
  body.type-detail .basic-description>p:first-child{font-size:16px;line-height:25px}
