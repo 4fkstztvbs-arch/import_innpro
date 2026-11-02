@@ -1,16 +1,62 @@
 {
-  "fetchedAt": "2026-10-26T10:46:08.252Z",
+  "fetchedAt": "2026-11-02T13:05:10.146Z",
   "domain": "heureka.sk",
-  "productCount": 12,
+  "productCount": 13,
   "matchedProductCount": 10,
-  "unmatchedEanCount": 0,
+  "unmatchedEanCount": 1,
   "noEanCount": 2,
   "products": [
+    {
+      "ean": "6976037360865",
+      "heurekaProductName": "Smart Switch Module AVATTO LZWSM16-W2 ZigBee Tuya",
+      "heurekaUrl": "https://www.premiumstore.sk/inteligentny-spinaci-modul-zigbee-avatto-lzwsm16-w2-bez-neutralu-tuya/",
+      "ourName": "Inteligentný spínací modul ZigBee Avatto LZWSM16-W2 Bez neutrálu TUYA",
+      "ourCode": "047980",
+      "ourSource": "innpro.xml",
+      "reviewCount": 1,
+      "avgRating": 4.5,
+      "reviews": [
+        {
+          "ratingId": "7087869",
+          "orderId": "",
+          "author": "",
+          "rating": 4.5,
+          "pros": "Spoľahlivé ovládanie",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1793355007
+        }
+      ]
+    },
+    {
+      "ean": "8432426451777",
+      "heurekaProductName": "Športové bezdrôtové slúchadlá Energy Sistem Sport 1+ Secure-Fit (tmavé)",
+      "heurekaUrl": "https://www.premiumstore.sk/energy-sistem-earphones-sport-1--bluetooth--dark/",
+      "ourName": null,
+      "ourCode": null,
+      "ourSource": null,
+      "reviewCount": 1,
+      "avgRating": 1,
+      "reviews": [
+        {
+          "ratingId": "7080699",
+          "orderId": "",
+          "author": "",
+          "rating": 1,
+          "pros": "",
+          "cons": "Produkt som vôbec nedostal!",
+          "summary": "Produkt som od nich ani po pladbe vopred nedostal.!!!",
+          "reaction": "",
+          "unixTimestamp": 1793169319
+        }
+      ]
+    },
     {
       "ean": "6923520247868",
       "heurekaProductName": "Bezdrôtové slúchadlá Edifier W800BT Pro s ANC a výdržou až 45 h (sivé)",
       "heurekaUrl": "https://www.premiumstore.sk/bezdrotove-sluchadla-edifier-w800bt-pro--anc--sive/",
-      "ourName": "Bezdrôtové slúchadlá Edifier W800BT Pro, ANC (sivé)",
+      "ourName": "",
       "ourCode": "065952",
       "ourSource": "innpro.xml",
       "reviewCount": 1,
@@ -33,9 +79,9 @@
       "ean": "8595689803087",
       "heurekaProductName": "Tesla TE-222 Dongle, DVB-T2 přijímač",
       "heurekaUrl": "https://www.premiumstore.sk/tesla-te-222-dongle--dvb-t2-prijimac/",
-      "ourName": "Tesla TE-222 Dongle, DVB-T2 přijímač",
-      "ourCode": "100001815989",
-      "ourSource": "kb.xml",
+      "ourName": "",
+      "ourCode": "IST-DBTTEH11D22",
+      "ourSource": "atos.xml",
       "reviewCount": 1,
       "avgRating": 5,
       "reviews": [
@@ -72,29 +118,6 @@
           "summary": "",
           "reaction": "",
           "unixTimestamp": 1791911530
-        }
-      ]
-    },
-    {
-      "ean": "4262533460058",
-      "heurekaProductName": "Projektor Ultimea Nova C40 s natívnym Full HD rozlíšením",
-      "heurekaUrl": "https://www.premiumstore.sk/projektor-ultima-nova-c40/",
-      "ourName": "Projektor Ultima Nova C40",
-      "ourCode": "083071",
-      "ourSource": "innpro.xml",
-      "reviewCount": 1,
-      "avgRating": 4.5,
-      "reviews": [
-        {
-          "ratingId": "7015735",
-          "orderId": "",
-          "author": "",
-          "rating": 4.5,
-          "pros": "",
-          "cons": "Chýba pripojenie na optický kábel",
-          "summary": "Chýba pripojenie na optický kábel",
-          "reaction": "",
-          "unixTimestamp": 1791661002
         }
       ]
     },
