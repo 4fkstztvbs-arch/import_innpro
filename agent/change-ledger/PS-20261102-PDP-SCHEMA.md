@@ -1,0 +1,25 @@
+# PS-20261102-PDP-SCHEMA
+
+- CHANGE_ID: PS-20261102-PDP-SCHEMA
+- DATE: 2026-11-02
+- ACTOR: Claude (agent), na pokyn majiteľa
+- AREA: SEO – štrukturované dáta Product (rich snippets) na detaile produktu
+- URL/PAGE/SCOPE: všetky detaily produktov (`body.type-detail`); overené na /whirlpool-wp-e12x-wbs-ee/
+- AFFECTED_PRODUCTS/PAGES: žiadne produktové ani importné polia, cena a dostupnosť sa nemenia.
+- DESCRIPTION: Shoptet generuje Product ako microdata (name, image, brand, gtin13, sku, offers, shippingDetails, warranty). Nový skript `premiumstore-pdp-schema-20261102.js` doplní do toho istého bloku `description` (prvý viditeľný odsek popisu) a `hasMerchantReturnPolicy` (SK, 14 dní, poštou, náklady na vrátenie hradí zákazník). Nepridáva druhý Product ani JSON-LD, žiadne hodnotenia (produkt ich nemá), žiadne `priceValidUntil`.
+- REASON: Google (Merchant listings) odporúča `description` a údaje o vrátení; Shoptet šablóna ich negeneruje.
+- HYPOTHESIS: úplnejšie značky zvýšia oprávnenosť na obchodné výpisy a zobrazenie vrátenia vo výsledkoch. LIKELY IMPACT, bez merania.
+- BASELINE: Product microdata bez `description` a `hasMerchantReturnPolicy`.
+- PRIMARY_METRIC: Search Console → Vylepšenia → Obchodníkove zoznamy (počet platných položiek, upozornenia).
+- GUARDRAIL_METRICS: chyby v Rich Results Test, duplicitné Product entity, chyby JS v konzole.
+- IMPLEMENTATION: DOM doplnenie microdata (JS); Google značky zo spracovaného DOM číta, ale podľa dokumentácie môže byť JS značkovanie crawlované menej často ako to v pôvodnom HTML. Trvalejšie riešenie je Shoptet šablóna.
+- FILES_CHANGED: assets/ux/premiumstore-pdp-schema-20261102.js, assets/ux/premiumstore-bundle-20261009.js (build), scripts/build-ux-js-bundle.js, tento záznam.
+- COMMIT / PR: viď PR.
+- APPROVAL / APPROVER: majiteľ (Martin) 2. 11. 2026 zvolil doplnenie cez JS v repozitári a podmienky vrátenia „platí zákazník“. Potrebné overiť, že to zodpovedá obchodným podmienkam (reklamačný poriadok / VOP).
+- EXPERIMENT_ID: žiadny.
+- PRE_DEPLOY_VALIDATION: skript spustený na živej stránke E12X (2×, idempotentný) a výsledok spracovaný parserom microdata (extruct): jeden Product s `description`, Offer obsahuje `hasMerchantReturnPolicy` s očakávanými hodnotami; pôvodné vlastnosti nezmenené. Neoverené: Rich Results Test (nedostupný z prostredia agenta), iné šablóny produktov.
+- DEPLOYED_AT: nenasadené (pripravené).
+- POST_DEPLOY_VALIDATION: po nasadení spustiť Rich Results Test na E12X a 2 ďalších produktoch (https://search.google.com/test/rich-results), skontrolovať, že je jeden Product a bez chýb; po týždni Search Console.
+- RESULT: zatiaľ nevyhodnotené.
+- DECISION: čaká na schválenie PR.
+- ROLLBACK / ROLLBACK_COMMIT: revert PR a zvýšenie `?v=` pri premiumstore-bundle.
