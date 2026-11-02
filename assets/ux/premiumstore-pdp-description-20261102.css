@@ -1,0 +1,30 @@
+/* PremiumStore.sk – štýl popisu produktu (PS-20261102-PDP-DESCRIPTION)
+   Platí len na detaile produktu pre dlhý popis (body.type-detail .basic-description); HTML obsahu sa nemení. */
+body.type-detail .basic-description{max-width:760px;font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',sans-serif;color:#17283c}
+body.type-detail .basic-description>p:first-child{font-size:17px;line-height:26px;font-weight:500;margin:0 0 12px}
+body.type-detail .basic-description h2{font-size:28px;line-height:34px;font-weight:700;letter-spacing:-.8px;margin:48px 0 12px;color:#17283c}
+body.type-detail .basic-description>h2:first-of-type{margin-top:32px}
+body.type-detail .basic-description h3{font-size:17px;line-height:22px;font-weight:700;margin:24px 0 6px;color:#17283c}
+body.type-detail .basic-description p{font-size:15px;line-height:24px;margin:0 0 12px;color:#17283c;text-align:left}
+body.type-detail .basic-description ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}
+body.type-detail .basic-description ul li{font-size:15px;line-height:24px;color:#17283c;padding:12px 0;border-bottom:1px solid #e6e9ed;margin:0}
+body.type-detail .basic-description ul li::before{content:none}
+body.type-detail .basic-description table{width:100%;border-collapse:collapse;font-size:15px;line-height:22px;border:0}
+body.type-detail .basic-description th{text-align:left;background:#f0f5fa;color:#17283c;font-weight:700;font-size:13px;padding:12px 16px;border:0}
+body.type-detail .basic-description td{padding:12px 16px;color:#17283c;border:0;border-bottom:1px solid #e6e9ed;vertical-align:top}
+body.type-detail .basic-description tbody tr:nth-child(even) td{background:#f0f5fa}
+body.type-detail .basic-description td:first-child{width:38%;color:#536477}
+body.type-detail .basic-description a{color:#285a98}
+body.type-detail .basic-description a:hover{color:#1c467b}
+@media (max-width:767px){
+ body.type-detail .basic-description{max-width:none;overflow-wrap:anywhere}
+ body.type-detail .basic-description>p:first-child{font-size:16px;line-height:25px}
+ body.type-detail .basic-description h2{font-size:22px;line-height:28px;letter-spacing:-.4px;margin:32px 0 8px}
+ body.type-detail .basic-description>h2:first-of-type{margin-top:24px}
+ body.type-detail .basic-description h3{font-size:16px;line-height:22px}
+ body.type-detail .basic-description ul{grid-template-columns:1fr}
+ body.type-detail .basic-description table{table-layout:fixed;width:100%}
+ body.type-detail .basic-description th,body.type-detail .basic-description td{padding:10px 12px;font-size:14px;line-height:20px}
+ body.type-detail .basic-description td:first-child,body.type-detail .basic-description th:first-child{width:44%}
+ body.type-detail .basic-description img,body.type-detail .basic-description iframe{max-width:100%;height:auto}
+}

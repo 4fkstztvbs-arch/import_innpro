@@ -1,0 +1,25 @@
+# PS-20261102-PDP-DESCRIPTION-STYLE
+
+- CHANGE_ID: PS-20261102-PDP-DESCRIPTION-STYLE
+- DATE: 2026-11-02
+- ACTOR: Claude (agent), na pokyn majiteľa
+- AREA: Detail produktu – vizuálny štýl dlhého popisu (nadpisy, zoznam vlastností, tabuľka parametrov, FAQ, odkazy)
+- URL/PAGE/SCOPE: detail produktu, len `body.type-detail .basic-description`. Pilotný produkt: /whirlpool-wp-e12x-wbs-ee/ (jediný s novým čistým HTML popisom). Ostatné produkty sa zmenia až po prepise popisu, ale zdedia aj nový základ štýlu (nadpisy, tabuľky, zoznamy).
+- AFFECTED_PRODUCTS/PAGES: žiadne produktové ani importné polia, žiadna cenová logika, nemení sa HTML popisu.
+- DESCRIPTION: nový zdroj `premiumstore-pdp-description-20261102.css` (dizajn „A“ PremiumStore.sk: nadpisy 28/34, telo 15/24, zoznam vlastností v 2 stĺpcoch na desktope a v 1 na mobile, pruhovaná tabuľka parametrov bez vnoreného posuvníka, `table-layout: fixed`, prvý stĺpec 44 %, zalamovanie dlhých slov). Pridaný na koniec `premiumstore-all-20261009.css` (minifikovaný) a do `scripts/build-ux-css-bundle.js`.
+- REASON: nové popisy produktov (skill eshop-product-content) sú čisté HTML bez tried a inline štýlov; potrebujú jednotný vzhľad a čitateľnosť na mobile.
+- HYPOTHESIS: prehľadnejšie sekcie a tabuľka zlepšia čitateľnosť popisov a znížia odchody z detailu. Bez merania zatiaľ, LIKELY IMPACT.
+- BASELINE: bez merania (vizuálna úprava).
+- PRIMARY_METRIC: scroll hĺbka a čas na detaile produktu (Clarity), pilotný produkt.
+- GUARDRAIL_METRICS: pridanie do košíka, chyby JS (žiadny JS sa nepridáva), rýchlosť načítania (+~2,6 kB CSS).
+- IMPLEMENTATION: čisté CSS, všetky pravidlá pod `body.type-detail .basic-description`.
+- FILES_CHANGED: assets/ux/premiumstore-pdp-description-20261102.css, assets/ux/premiumstore-all-20261009.css (pripojené na koniec), scripts/build-ux-css-bundle.js, tento záznam.
+- COMMIT / PR: viď PR (draft, bez nasadenia).
+- APPROVAL / APPROVER: povolenie zmeny súborov od majiteľa (Martin) 2. 11. 2026. Nasadenie (merge a zvýšenie `?v=` v Shoptete) vykoná majiteľ.
+- EXPERIMENT_ID: žiadny.
+- PRE_DEPLOY_VALIDATION: CSS vložené do živej stránky E12X v prehliadači na šírkach 320, 375, 390, 768 a 1280 px: bez horizontálneho pretekania stránky aj popisu (žiadny prvok mimo okna). Vizuálna kontrola 320 a 390 px: tabuľka a zoznam čitateľné. Neoverené: iné produkty so starým popisom (`ps-product-catalog`), iPhone Safari.
+- DEPLOYED_AT: nenasadené (pripravené).
+- POST_DEPLOY_VALIDATION: po nasadení otvoriť E12X a dva produkty so starým popisom na mobile a desktope, skontrolovať tabuľku, zoznam a odkazy.
+- RESULT: zatiaľ nevyhodnotené.
+- DECISION: čaká na schválenie PR.
+- ROLLBACK / ROLLBACK_COMMIT: revert PR a zvýšenie `?v=` v Shoptete (alebo vrátiť predchádzajúcu verziu `?v=`).
