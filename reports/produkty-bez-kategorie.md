@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-11-01 23:34 UTC.
+Kontrola z 2026-11-02 11:48 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -19,11 +19,10 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
 
-## innpro — 10 ks
+## innpro — 12 ks
 
 | Kód | Produkt |
 |---|---|
-| `088539` | Monitor DarkFlash 9,2" IPS V92 (čierny) |
 | `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
 | `087241` | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
 | `090418` | Elektrický gril AMZCHEF CE-LS-GC02C-H-WP |
@@ -33,6 +32,9 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `095292` | Pamäťová karta GODOX microSD s kapacitou 8 GB |
 | `095293` | Pamäťová karta GODOX microSD 16 GB |
 | `095294` | Pamäťová karta GODOX microSD 32 GB |
+| `096162` | Pamäťová karta DDPAI 64 GB [microSD] U3 |
+| `096163` | Pamäťová karta DDPAI 128G microSD 128 GB U3 |
+| `096164` | Pamäťová karta DDPAI 256 GB [microSD] U3 |
 
 ## kb — 7 ks
 
@@ -52,7 +54,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `DSP-TF01` | Solight turbo fukár |
 
-## wiim — 24 ks
+## wiim — 26 ks
 
 | Kód | Produkt |
 |---|---|
@@ -79,5 +81,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `WiiM-Sound-Lite-White-2-pack` | WiiM Sound Lite Twin Pack White |
 | `WiiM_SUB_PRO_003` | WiiM Sub Pro Black |
 | `WiiM_SUB_PRO_013` | WiiM Sub Pro White |
+| `NORWIISOUBK` | WiiM Sound Floor Stand Black |
+| `NORWIISOUWT` | WiiM Sound Floor Stand White |
 | `WiiM_WVR_002` | WiiM Voice Remote 2 Silver |
 

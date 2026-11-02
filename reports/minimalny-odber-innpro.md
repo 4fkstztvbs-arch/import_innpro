@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-01 22:57 UTC.
+Kontrola z 2026-11-02 11:47 UTC.
 
-InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -143,7 +143,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
 | `061362` | Side brush for Roidmi EVE CC | — | 5 |
 | `061363` | Mopping pads for Roidmi EVE CC | — | 5 |
-| `061854` | Joyroom PN-15L4 puzdro Dancing Circle pre iPhone 15 Pro Max  | — | 3 |
 | `061859` | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (zelené) | — | 5 |
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
@@ -164,7 +163,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `066276` | Lens Protector Nillkin for Samsung Galaxy S24+ (3 Pieces) | — | 5 |
 | `067767` | Anti-glare lens and gimbal cover Sunnylife for DJI Avata 2 | — | 5 |
 | `067770` | Protective case Sunnylife for Insta360 X4 | — | 5 |
-| `066318` | Case Nillkin Super Frosted Shield Pro for Samsung Galaxy A25 | — | 3 |
 | `066322` | Case Nillkin Super Frosted Shield Pro for Samsung Galaxy A15 | — | 5 |
 | `068199` | Maono XLR-180 Cable | — | 5 |
 | `068234` | Silicone Cover Case Set with Strap PULUZ For DJI OSMO Pocket | — | 5 |
@@ -374,7 +372,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089623` | Ochranná fólia z tvrdeného skla Puluz 9H pre GoPro HERO 12/1 | — | 5 |
 | `089627` | Silikónové puzdro Puluz pre GoPro HERO 4K 2024 | — | 5 |
 | `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 5 |
-| `089635` | Držiak Puluz Jaws Flex pre akčné kamery | — | 3 |
 | `089639` | Silikónové puzdro Puluz pre DJI Osmo 360 (čierne) | — | 5 |
 | `089643` | Silikónové puzdro Puluz pre Insta360 GO 3S (čierne) | — | 5 |
 | `089645` | Držiak Puluz Mini s 1/4" závitom pre akčné kamery, otvor 3,9 | — | 5 |
