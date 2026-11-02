@@ -18,8 +18,8 @@
 - APPROVAL / APPROVER: majiteľ (Martin) 2. 11. 2026 zvolil doplnenie cez JS v repozitári a podmienky vrátenia „platí zákazník“. Potrebné overiť, že to zodpovedá obchodným podmienkam (reklamačný poriadok / VOP).
 - EXPERIMENT_ID: žiadny.
 - PRE_DEPLOY_VALIDATION: skript spustený na živej stránke E12X (2×, idempotentný) a výsledok spracovaný parserom microdata (extruct): jeden Product s `description`, Offer obsahuje `hasMerchantReturnPolicy` s očakávanými hodnotami; pôvodné vlastnosti nezmenené. Neoverené: Rich Results Test (nedostupný z prostredia agenta), iné šablóny produktov.
-- DEPLOYED_AT: nenasadené (pripravené).
+- DEPLOYED_AT: 2026-11-02 (PR #306, bundle JS ?v=34).
 - POST_DEPLOY_VALIDATION: po nasadení spustiť Rich Results Test na E12X a 2 ďalších produktoch (https://search.google.com/test/rich-results), skontrolovať, že je jeden Product a bez chýb; po týždni Search Console.
-- RESULT: zatiaľ nevyhodnotené.
-- DECISION: čaká na schválenie PR.
+- RESULT: Rich Results Test na E12X (2. 11. 2026, majiteľ): hasMerchantReturnPolicy rozpoznané; jediné upozornenie je nepovinné returnShippingFeesAmount (suma za vrátenie nie je zadaná). Majiteľ potvrdil „vyzerá ok, považujme za vyriešené“.
+- DECISION: ponechať. Voliteľne doplniť returnShippingFeesAmount po zadaní sumy.
 - ROLLBACK / ROLLBACK_COMMIT: revert PR a zvýšenie `?v=` pri premiumstore-bundle.
