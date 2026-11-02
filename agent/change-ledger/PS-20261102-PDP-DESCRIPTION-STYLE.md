@@ -18,9 +18,9 @@
 - APPROVAL / APPROVER: povolenie zmeny súborov od majiteľa (Martin) 2. 11. 2026. Nasadenie (merge a zvýšenie `?v=` v Shoptete) vykoná majiteľ.
 - EXPERIMENT_ID: žiadny.
 - PRE_DEPLOY_VALIDATION: CSS vložené do živej stránky E12X v prehliadači na šírkach 320, 375, 390, 768 a 1280 px: bez horizontálneho pretekania stránky aj popisu (žiadny prvok mimo okna). Vizuálna kontrola 320 a 390 px: tabuľka a zoznam čitateľné. Neoverené: iné produkty so starým popisom (`ps-product-catalog`), iPhone Safari.
-- DEPLOYED_AT: nenasadené (pripravené).
+- DEPLOYED_AT: 2026-11-02 (PR #304 s ?v=36, oprava šírky PR #305 s ?v=37).
 - POST_DEPLOY_VALIDATION: po nasadení otvoriť E12X a dva produkty so starým popisom na mobile a desktope, skontrolovať tabuľku, zoznam a odkazy.
 - RESULT: zatiaľ nevyhodnotené.
-- DECISION: čaká na schválenie PR.
+- DECISION: ponechať. Majiteľ potvrdil, že vzhľad je v poriadku.
 - ROLLBACK / ROLLBACK_COMMIT: revert PR a zvýšenie `?v=` v Shoptete (alebo vrátiť predchádzajúcu verziu `?v=`).
 - UPDATE 2026-11-02 (PR po #304): odstránený `max-width: 760px` (popis zaberal len ľavú časť kontajnera); popis je na celú šírku `.description-inner`, zoznam vlastností má od 1100 px tri stĺpce. Overené na E12X pri 390, 1024, 1280 a 1920 px bez pretekania. Zmergované PR #304 bolo nasadené s `?v=36`.
