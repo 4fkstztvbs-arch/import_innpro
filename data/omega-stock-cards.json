@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600725,
+    "nextCardNumber": 202600729,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4346,6 +4346,30 @@
         "nazov": "Sada kabelových oček 3-8mm lisovacích, 102ks D497",
         "dodavatel": "atos",
         "code": "ATO-D497"
+      },
+      "8592718037017": {
+        "kod": "202600725",
+        "nazov": "LED stolná lampička, 4,",
+        "dodavatel": "solight",
+        "code": "WO3000-B"
+      },
+      "8592718015084": {
+        "kod": "202600726",
+        "nazov": "LED svetelný pás, 5m, SMD5050 60LED/m, 14,",
+        "dodavatel": "solight",
+        "code": "WM604"
+      },
+      "8592718016913": {
+        "kod": "202600727",
+        "nazov": "LED svetelný pás, 5m, SMD5050 60LED/m, 14,",
+        "dodavatel": "solight",
+        "code": "WM605"
+      },
+      "8592718017347": {
+        "kod": "202600728",
+        "nazov": "LED vianočná reťaz,",
+        "dodavatel": "solight",
+        "code": "1V04-WW"
       }
     }
   },
