@@ -88,6 +88,8 @@ const PRICE_LIST_CATEGORY_MAP = mapping.priceListCategoryMap || {};
 const CATEGORY_MAP = mapping.categoryMap || {};
 const FALLBACK_BY_MANUFACTURER = mapping.fallbackByManufacturer || {};
 const MANUAL_PRICE_OVERRIDES = mapping.manualPriceOverridesByCode || {};
+// SKU s vedome schválenou cenou pod nákupkou (výpredaj / Black Friday) - obchádzajú maržovú poistku manuálnej ceny.
+const BELOW_COST_ALLOWED = mapping.belowCostAllowedByCode || {};
 // Assumed markup used to back out an estimated purchase price from the feed's own PRICE_VAT for
 // every product that has no entry in the official price list (see file header, tier 2). Same
 // basis as the original pre-official-pricelist Bose estimate.
@@ -423,7 +425,8 @@ async function main() {
       if (manualOverride >= price) {
         stats.manualOverrideAboveRegular = (stats.manualOverrideAboveRegular || 0) + 1;
         console.log(`  Preskakujem manuálnu cenu pre ${item.objKod} (${item.name}): ${manualOverride}€ nie je lacnejšia než aktuálna regulárna cena ${price}€.`);
-      } else if (overrideMarginPct >= 0) {
+      } else if (overrideMarginPct >= 0 || BELOW_COST_ALLOWED[item.objKod] === true) {
+        if (overrideMarginPct < 0) console.log(`  Manuálna cena pre ${item.objKod} (${item.name}): ${manualOverride}€ je pod nákupnou cenou (${overrideMarginPct.toFixed(1)}% marža), ale je schválená v belowCostAllowedByCode.`);
         onPromo = true;
         // roundPriceDown, not roundPrice: this is meant to undercut a specific competitor price
         // (e.g. "258.99 to beat their 259.00") — rounding to nearest could snap back up to a tie.

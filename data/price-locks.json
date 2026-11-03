@@ -1,0 +1,7 @@
+{
+  "_comment": "Ručne zamknuté ceny: EAN tu znamená, že denné Heureka cieľové ceny (heureka-price-targets.js, apply-price-targets.js) cenu neprepíšu. Platí bez termínu, kým EAN nevymažeš. Samotnú cenu určuje dodávateľský transform (pre BaSys scripts/basys-mapping.json -> manualPriceOverridesByCode).",
+  "items": {
+    "0017817848305": { "name": "BOSE Smart Ultra Soundbar - čierna (B 882963-2100)", "price": 649, "note": "Black Friday, schválil Martin 2026-11-03" },
+    "0017817848275": { "name": "BOSE Smart Ultra Soundbar - biela (B 882963-2200)", "price": 649, "note": "Black Friday, schválil Martin 2026-11-03" }
+  }
+}

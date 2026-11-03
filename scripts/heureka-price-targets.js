@@ -67,9 +67,21 @@ function resolveTargetPrice(target, computedPriceInclVat, purchasePriceExclVat, 
   return computedPriceInclVat;
 }
 
+// Ručne zamknuté ceny (data/price-locks.json, kľúč = EAN-13): Heureka cieľ ich nikdy neprepíše.
+const PRICE_LOCKS_PATH = path.join(__dirname, '..', 'data', 'price-locks.json');
+let priceLocks;
+function isPriceLocked(ean) {
+  if (priceLocks === undefined) {
+    try { priceLocks = JSON.parse(fs.readFileSync(PRICE_LOCKS_PATH, 'utf-8')).items || {}; } catch (e) { priceLocks = {}; }
+    priceLocks = new Set(Object.keys(priceLocks).map((k) => String(k).trim().padStart(13, '0')));
+  }
+  return !!ean && priceLocks.has(String(ean).trim().padStart(13, '0'));
+}
+
 function applyHeurekaPriceTarget(ean, computedPriceInclVat, purchasePriceExclVat, vatPct, minMarginPct, code) {
   if (!OVERRIDE_ENABLED) return computedPriceInclVat;
   if (!ean || !purchasePriceExclVat) return computedPriceInclVat;
+  if (isPriceLocked(ean)) return computedPriceInclVat;
   if (isBlackFridayAllowed(ean, code)) return computedPriceInclVat;
   if (isInnproBlackFridayPriceLocked(ean)) return computedPriceInclVat;
   const target = loadTargets()[ean];
