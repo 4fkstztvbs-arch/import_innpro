@@ -1,8 +1,8 @@
 # Produkty pod nákupnou cenou (skryté)
 
-Kontrola z 2026-11-03 09:35 UTC.
+Kontrola z 2026-11-03 09:38 UTC.
 
-Týchto **217** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
+Týchto **215** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
 na každom predanom kuse prerobili. Sú preto nastavené ako **skryté** a v e-shope sa
 nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám od seba.
 
@@ -221,13 +221,6 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `CMP-01748` | Batoh reflexní S.O.R. oranžový | 2.30 € | 1.87 € | 1.87 € | -0.0 % |
 | `TIP-08852465` | Reflexní set samolepky S.O.R. | 2.30 € | 1.87 € | 1.87 € | -0.0 % |
 | `CMP-01747` | Batoh reflexní S.O.R. zelený | 2.30 € | 1.87 € | 1.87 € | -0.0 % |
-
-## basys — 2 ks
-
-| Kód | Produkt | Predaj s DPH | Predaj bez DPH | Nákup | Marža |
-|---|---|---:|---:|---:|---:|
-| `BASYS-B 882963-2100` | BOSE Smart Ultra Soundbar - čierna | 649.00 € | 527.64 € | 592.00 € | -10.9 % |
-| `BASYS-B 882963-2200` | BOSE Smart Ultra Soundbar - biela | 649.00 € | 527.64 € | 592.00 € | -10.9 % |
 
 ## penta — 3 ks
 
