@@ -90,6 +90,11 @@
     "B 882963-2100": 649,
     "B 882963-2200": 649
   },
+  "availabilityOverrideByCode": {
+    "_comment": "Ručne nastavená dostupnosť (prebije dostupnosť z BASYS). 2026-11-03: Bose Smart Ultra Soundbar čierna + biela sú fyzicky na predajni. Zmaž riadok a SKU sa vráti na dostupnosť podľa BASYS.",
+    "B 882963-2100": "Skladom na predajni",
+    "B 882963-2200": "Skladom na predajni"
+  },
   "belowCostAllowedByCode": {
     "_comment": "Ručne schválené ceny POD nákupnou cenou (výpredaj / Black Friday). Poistka 'manuálna cena nesmie byť stratová' sa pre tieto SKU obchádza. Platí, kým sa SKU neodstráni z tohto zoznamu a z manualPriceOverridesByCode. 2026-11-03: Bose Smart Ultra Soundbar čierna + biela, 649 € s DPH (nákupka 592 € bez DPH), schválil Martin.",
     "B 882963-2100": true,

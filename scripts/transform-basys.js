@@ -90,6 +90,8 @@ const FALLBACK_BY_MANUFACTURER = mapping.fallbackByManufacturer || {};
 const MANUAL_PRICE_OVERRIDES = mapping.manualPriceOverridesByCode || {};
 // SKU s vedome schválenou cenou pod nákupkou (výpredaj / Black Friday) - obchádzajú maržovú poistku manuálnej ceny.
 const BELOW_COST_ALLOWED = mapping.belowCostAllowedByCode || {};
+// Ručne nastavená dostupnosť pre SKU (napr. 'Skladom na predajni'); prebíja dostupnosť z BASYS.
+const AVAILABILITY_OVERRIDE = mapping.availabilityOverrideByCode || {};
 // Assumed markup used to back out an estimated purchase price from the feed's own PRICE_VAT for
 // every product that has no entry in the official price list (see file header, tier 2). Same
 // basis as the original pre-official-pricelist Bose estimate.
@@ -360,7 +362,7 @@ async function main() {
     // stock signal for a product.
     const isReturnStockSale = (saleState.items['BASYS-' + item.objKod]?.quantity || 0) > 0;
     const supplierAvailability = !item.forceOnOrder && hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
-    const availability = isReturnStockSale ? 'Skladom' : supplierAvailability;
+    const availability = typeof AVAILABILITY_OVERRIDE[item.objKod] === 'string' ? AVAILABILITY_OVERRIDE[item.objKod] : (isReturnStockSale ? 'Skladom' : supplierAvailability);
     if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
     // Produkty z cenníka sa exportujú vždy (nedostupné ako "Na objednávku"), rovnako Bose mimo cenníka z data/basys-bose-on-order.json.
     const keepOnOrder = item.isFromPriceList || (item.forceOnOrder && loadOnOrder().has(norm(item.objKod)));
