@@ -33,6 +33,17 @@ const tag = (item, t) => {
 };
 const num = (v) => { const n = parseFloat(v); return Number.isFinite(n) ? n : null; };
 
+// Vedome schválené ceny pod nákupkou (data/price-locks.json, kľúč = EAN-13): skryjú sa až vtedy,
+// keď sa cena vo feede líši od schválenej. Zmena ceny (napr. 899 €) teda poistku opäť zapne.
+let schvalene = {};
+try { schvalene = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'price-locks.json'), 'utf-8')).items || {}; } catch (e) { schvalene = {}; }
+const schvaleneEan = new Map(Object.entries(schvalene).map(([k, v]) => [String(k).trim().padStart(13, '0'), v]));
+const jeSchvalena = (item, cena) => {
+  const ean = tag(item, 'EAN');
+  const lock = ean && schvaleneEan.get(ean.trim().padStart(13, '0'));
+  return !!lock && Number.isFinite(lock.price) && Math.abs(lock.price - cena) < 0.01;
+};
+
 let spolu = 0;
 const podlaDodavatela = [];
 
@@ -50,6 +61,7 @@ for (const file of fs.readdirSync(OUT_DIR).filter((f) => f.endsWith('.xml'))) {
     if (cenaSDph === null || nakup === null || dph === null || nakup <= 0 || cenaSDph <= 0) return item;
     const cenaBezDph = cenaSDph / (1 + dph / 100);
     if (cenaBezDph >= nakup) return item;
+    if (jeSchvalena(item, cenaSDph)) return item;
 
     skryte.push({
       code: tag(item, 'CODE') || '',
