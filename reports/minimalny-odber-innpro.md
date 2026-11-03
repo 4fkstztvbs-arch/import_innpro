@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-02 23:16 UTC.
+Kontrola z 2026-11-03 01:43 UTC.
 
-InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **396** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -40,6 +40,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `026663` | Dvojitý držiak Telesin J-Hook pre športové kamery (GP-MTB-T0 | — | 5 |
 | `027615` | Inteligentný bezdrôtový nástenný vypínač Sonoff T2EU3C-RF 43 | — | 5 |
 | `027504` | Počítačový ventilátor ARGB Darkflash DR12 Pro (120x120) | — | 5 |
+| `027355` | Mopová podložka pre vysávač Dreame F9 / D9 / D9 Pro / D9 Max | — | 5 |
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
 | `029282` | Baterka Superfire S33-A – USB, čierna, 4 režimy | — | 5 |
@@ -47,6 +48,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 4 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `033419` | Mäkká kefa pre Dreame V10 Pro | — | 5 |
+| `035799` | Súprava príslušenstva DREAME pre modely D9 Pro/D9 Max/L10 Pr | — | 5 |
+| `035742` | Vertikálny úložný držiak pre vysávač Dreame P10/P10Pro | — | 5 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
@@ -71,9 +74,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
 | `044828` | Joyroom JR-14S1 čierne puzdro pre iPhone 14 | — | 5 |
-| `044830` | Joyroom JR-14S3 čierne puzdro pre iPhone 14 Plus | — | 5 |
 | `044806` | Joyroom JR-G04 Glass iPhone 14 Pro Max 6.7 (ochrana očí) | — | 5 |
-| `044876` | Kábel USB HDMI-HDMI / 4K 60Hz / 2m Joyroom SY-20H1 (sivý) | — | 4 |
+| `044876` | Kábel USB HDMI-HDMI / 4K 60Hz / 2m Joyroom SY-20H1 (sivý) | — | 2 |
 | `044441` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 5 |
 | `046683` | Vodotesné puzdro pre relé Sonoff IP66 | — | 5 |
 | `047961` | Inteligentný spínací modul WiFi Avatto WSM16-W1 TUYA | — | 5 |
@@ -87,7 +89,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
 | `051202` | Targeted Lip Volumizer & Booster Geske with APP (gray) | — | 5 |
 | `044436` | Tvrdené sklo Baseus Crystal 0,3 mm pre HUAWEI MatePad Pro 12 | — | 5 |
-| `046655` | Baterka Superfire L28 – 121 lm, 5W, 52 m, 5 režimov | — | 5 |
+| `046655` | Baterka Superfire L28 – 121 lm, 5W, 52 m, 5 režimov | — | 2 |
 | `046656` | Baterka Superfire X18 – 55 lm, 5W, 5 režimov, 38 m | — | 5 |
 | `051608` | UV filter PGYTECH DJI Mavic 3 Pro (profesionálny) | — | 5 |
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
@@ -130,7 +132,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060430` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `060431` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `058458` | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | — | 5 |
-| `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 5 |
+| `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 4 |
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
 | `062226` | Etykiety Termiczne Niimbot naklejki T 15x30mm 195 sztuk (bie | — | 5 |
 | `062227` | Niimbot termálne nálepky 12x30 mm, 195 ks (biele) | — | 5 |
@@ -290,7 +292,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
 | `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
-| `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 5 |
+| `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 2 |
 | `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
 | `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 5 |
 | `083387` | Šasi Sunnylife pre Mini 5 Pro (sivé) | — | 5 |
@@ -398,6 +400,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
 | `093577` | Držiak SJCAM C300 POCKET | — | 5 |
 | `093578` | Malý statív SJCAM | — | 5 |
-| `093581` | SJCAM Floaty Bobber – držiak na zvýšenie vztlaku | — | 4 |
+| `093581` | SJCAM Floaty Bobber – držiak na zvýšenie vztlaku | — | 5 |
 | `095291` | Pamäťová karta GODOX microSD 4 GB | — | 5 |
 | `095292` | Pamäťová karta GODOX microSD s kapacitou 8 GB | — | 5 |

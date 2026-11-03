@@ -27,7 +27,7 @@
   "TV, audio, video a foto technika > Audio technika": 4
  },
  "Audio > Ostatné": {
-  "TV, audio, video a foto technika > Audio technika": 5
+  "TV, audio, video a foto technika > Audio technika": 6
  },
  "Audio > Reproduktory > Aktívne reproduktory": {
   "TV, audio, video a foto technika > Audio technika > HiFi a domáce reproduktory": 19
@@ -78,13 +78,13 @@
   "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 89
  },
  "Drony > Príslušenstvo pre drony > Filtre pre drony": {
-  "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 111
+  "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 116
  },
  "Drony > Príslušenstvo pre drony > Pristátie": {
   "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 9
  },
  "Drony > Príslušenstvo pre drony > Tašky a kufre": {
-  "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 48
+  "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 49
  },
  "Energia > Elektrické stanice > Elektrické stanice": {
   "Energia a napájanie > Prenosné elektrické stanice": 19
@@ -123,7 +123,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 89
  },
  "Foto a video > Filtre > Pre zrkadlovky": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 30
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre": 31
  },
  "Foto a video > Fotoateliér > Fotografické pozadia": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér": 11
@@ -141,7 +141,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér": 13
  },
  "Foto a video > Fotoateliér > Svietidlá": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér": 135
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér": 136
  },
  "Foto a video > Gimbály a stabilizátory": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Gimbály a stabilizátory": 46
@@ -168,7 +168,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 164
  },
  "Foto a video > Príslušenstvo > Pre športové kamery": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 265
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 266
  },
  "Foto a video > Príslušenstvo > Pre stabilizátory": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 30
@@ -330,16 +330,16 @@
   "Elektro, Smart Home a osvetlenie > Smart domácnosť": 37
  },
  "Inteligentná domácnosť > Prvky výkonu > Senzory": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": 91
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": 95
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart kúrenie > Ovládače klimatizácie > tepelného čerpadla": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť": 2
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart kúrenie > Termostatické hlavice": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice": 9
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice": 10
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart kúrenie > Termostaty": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice": 30
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice": 31
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart zámky": {
   "Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Zámky a prístupové systémy": 23
@@ -354,10 +354,10 @@
   "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely": 6
  },
  "Inteligentná domácnosť > Riadiace jednotky > Prepínače": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart vypínače a relé": 74
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart vypínače a relé": 75
  },
  "Inteligentná domácnosť > Riadiace jednotky > Smart centrály": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky": 26
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky": 27
  },
  "Inteligentná domácnosť > Riadiace jednotky > Smart ovládače": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely": 118
@@ -498,13 +498,13 @@
   "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Ostatné domáce spotrebiče": 7
  },
  "Malé domáce spotrebiče > Čistenie": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky": 14
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Upratovacie pomôcky": 16
  },
  "Malé domáce spotrebiče > Čističky vzduchu": {
-  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Čističky a zvlhčovače vzduchu": 11
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Čističky a zvlhčovače vzduchu": 12
  },
  "Malé domáce spotrebiče > Fritézy": {
-  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 6
+  "Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Horúcovzdušné fritézy a multifunkčné hrnce": 5
  },
  "Malé domáce spotrebiče > Grily > Toastovače": {
   "(bez pravidla)": 2
@@ -531,7 +531,7 @@
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Žehličky": 1
  },
  "Malé domáce spotrebiče > Ostatné": {
-  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Ostatné domáce spotrebiče": 8
+  "Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Ostatné domáce spotrebiče": 9
  },
  "Malé domáce spotrebiče > Płyty gazowe": {
   "Domáce spotrebiče a domácnosť > Varenie a pečenie > Varné dosky": 5
@@ -549,22 +549,22 @@
   "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Ventilátory": 5
  },
  "Malé domáce spotrebiče > Vysávače > Náhradné diely": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 122
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 175
  },
  "Malé domáce spotrebiče > Vysávače > Ostatné": {
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 3
  },
  "Malé domáce spotrebiče > Vysávače > Robotické vysávače": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 46
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 45
  },
  "Malé domáce spotrebiče > Vysávače > Ručné vysávače": {
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 1
  },
  "Malé domáce spotrebiče > Vysávače > Tyčové vysávače": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 27
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 26
  },
  "Malé domáce spotrebiče > Zvlhčovače vzduchu > Náhradné diely": {
-  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Čističky a zvlhčovače vzduchu": 7
+  "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Čističky a zvlhčovače vzduchu": 15
  },
  "Malé domáce spotrebiče > Zvlhčovače vzduchu > Zvlhčovače vzduchu": {
   "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Čističky a zvlhčovače vzduchu": 3
@@ -720,7 +720,7 @@
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom": 15
  },
  "Príslušenstvo GSM > Pamäťové karty": {
-  "Počítače, mobily a tablety > Disky a pamäťové médiá > Pamäťové karty": 27
+  "Počítače, mobily a tablety > Disky a pamäťové médiá > Pamäťové karty": 29
  },
  "Príslušenstvo GSM > Powerbanky": {
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Powerbanky": 8
@@ -905,6 +905,9 @@
  "Zdravie a krása > Holiace strojčeky a zastrihávače > Holiace strojčeky": {
   "Zdravie a starostlivosť > Holiace strojčeky a epilátory": 1
  },
+ "Zdravie a krása > Holiace strojčeky a zastrihávače > Príslušenstvo": {
+  "Zdravie a starostlivosť > Holiace strojčeky a epilátory": 1
+ },
  "Zdravie a krása > Holiace strojčeky a zastrihávače > Zastrihávače": {
   "Zdravie a starostlivosť > Holiace strojčeky a epilátory": 1
  },
@@ -918,7 +921,7 @@
   "Zdravie a starostlivosť > Otoskopy a prístroje na čistenie pokožky": 13
  },
  "Zdravie a krása > Predlžovanie rias": {
-  "Zdravie a starostlivosť > Prístroje na tvár": 3
+  "Zdravie a starostlivosť > Prístroje na tvár": 4
  },
  "Zdravie a krása > Prístroje na tvár > Iné": {
   "Zdravie a starostlivosť > Prístroje na tvár": 3
@@ -987,7 +990,7 @@
   "Chovateľské potreby > Fontány a napájačky": 31
  },
  "Zvieratá > Hračky": {
-  "Chovateľské potreby": 10
+  "Chovateľské potreby": 11
  },
  "Zvieratá > Inteligentne kuwety": {
   "Chovateľské potreby > Inteligentné toalety pre zvieratá": 4
@@ -996,7 +999,7 @@
   "Chovateľské potreby > Inteligentné toalety pre zvieratá": 22
  },
  "Zvieratá > Ostatné príslušenstvo": {
-  "Chovateľské potreby": 29
+  "Chovateľské potreby": 30
  },
  "Zvieratá > Pohlcovače zápachu": {
   "Chovateľské potreby > Pohlcovače zápachu": 10
