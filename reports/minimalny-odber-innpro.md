@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-03 11:28 UTC.
+Kontrola z 2026-11-03 21:21 UTC.
 
-InnPro pri **396** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **399** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -103,6 +103,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 2 |
 | `054882` | Puzdro na telefón pre iPhone 15 ProMax Baseus OS-Lucent Seri | — | 5 |
 | `054871` | Puzdro na telefón pre iPhone 15 Plus Baseus Fauxther Series  | — | 4 |
+| `055419` | Držiak Puluz pre športové kamery a telefóny (DJI, GoPro, Ins | — | 5 |
 | `055429` | Namiot bezcieniowy Puluz 20cm LED PU5029 | — | 5 |
 | `054764` | Vodotesné puzdro Baseus AquaGlide s cylindrickým zámkom (bie | — | 5 |
 | `054765` | Vodotesné puzdro Baseus AquaGlide s cylindrickým zámkom (mod | — | 5 |
@@ -116,6 +117,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `059067` | Herná myš ONIKUMA CW905 čierna | — | 5 |
 | `056359` | Štítky do termotlačiarne Niimbot pre B21, 50 mm x 30 mm, 230 | — | 5 |
 | `056360` | Termálne etikety Niimbot 12x22 mm, 260 ks | — | 5 |
+| `056143` | Teleso na bradu motocyklovej prilby + držiak J-Hook pre špor | — | 5 |
 | `057927` | Inteligentný prepínač WiFi Sonoff S-MATE2 (bez neutrálu) | — | 5 |
 | `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
@@ -135,7 +137,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 4 |
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
 | `062226` | Etykiety Termiczne Niimbot naklejki T 15x30mm 195 sztuk (bie | — | 5 |
-| `062227` | Niimbot termálne nálepky 12x30 mm, 195 ks (biele) | — | 5 |
 | `062330` | Štítky do termotlačiarne Niimbot 15x50 mm, 130 ks | — | 5 |
 | `062437` | Niimbot termálne nálepky 50x80 mm, 95 ks (biele) | — | 5 |
 | `055643` | Vodotesný snímač teploty Sonoff WTS01, RJ9 4P4C (THR316/320) | — | 5 |
@@ -170,6 +171,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068234` | Silicone Cover Case Set with Strap PULUZ For DJI OSMO Pocket | — | 5 |
 | `068805` | Mini Bag PULUZ for DJI Osmo Pocket 3 (Black) | — | 5 |
 | `068803` | Mini Body Bag PULUZ For DJI Osmo Action 5 Pro / 4 / 3 (Black | — | 5 |
+| `068808` | Mini Body Bag PULUZ For Insta360 GO 3 / GO 3S (Black) | — | 5 |
 | `069434` | TELESIN tempered glass for DJI Osmo Pocket 3 | — | 4 |
 | `068238` | Silicone stand PULUZ for Insta360 X4 camera | — | 5 |
 | `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
@@ -280,6 +282,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
 | `082638` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
+| `082641` | Sada tvrdeného skla Puluz pre DJI Osmo Action 6 (3 ks). | — | 5 |
 | `082642` | Tvrdené sklo Puluz pre Insta360 X4 Air | — | 5 |
 | `082686` | Súprava na určovanie veľkosti krúžkov RingConn | — | 5 |
 | `082251` | Svietidlo Superfire HL23-X | — | 5 |
