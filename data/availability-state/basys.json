@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 954,
+  "activeItemCount": 953,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -410,11 +410,6 @@
     {
       "key": "code:BASYS-CD-SR110",
       "code": "BASYS-CD-SR110",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-CD-U5210CC",
-      "code": "BASYS-CD-U5210CC",
       "ean": ""
     },
     {
@@ -4842,6 +4837,11 @@
     {
       "key": "code:BASYS-BD 937673",
       "code": "BASYS-BD 937673",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-CD-U5210CC",
+      "code": "BASYS-CD-U5210CC",
       "ean": ""
     },
     {
