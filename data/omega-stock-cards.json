@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600729,
+    "nextCardNumber": 202600735,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4370,6 +4370,42 @@
         "nazov": "LED vianočná reťaz,",
         "dodavatel": "solight",
         "code": "1V04-WW"
+      },
+      "8595118834422": {
+        "kod": "202600729",
+        "nazov": "Termostat KT3100 | Zásuvkový termostat s časovým spínačem T328",
+        "dodavatel": "atos",
+        "code": "ATO-T328"
+      },
+      "8596425222339": {
+        "kod": "202600730",
+        "nazov": "Autodiagnostika Vgate iCar Pro 2S OBD II Bluetooth, pro Apple, Android, Windo",
+        "dodavatel": "atos",
+        "code": "ATO-R288H"
+      },
+      "0764460249170": {
+        "kod": "202600731",
+        "nazov": "Redukce SECTRON CEE 5pin 16A - CEE 5pin 32A 400V 0,4m",
+        "dodavatel": "atos",
+        "code": "EL-CEE5-3M32A-16A"
+      },
+      "5905951589954": {
+        "kod": "202600732",
+        "nazov": "Tigo vysílač RSS Transmitter (Rapid Shutdown System) 1x vysílač + 2x jádro (cívky)",
+        "dodavatel": "atos",
+        "code": "TIGO-RSS"
+      },
+      "8595685530116": {
+        "kod": "202600733",
+        "nazov": "BRANY IN Pohon SW-250 pro 2 křídlá vrata/brány (max 250cm/220kg)",
+        "dodavatel": "atos",
+        "code": "INSW250"
+      },
+      "8592733021473": {
+        "kod": "202600734",
+        "nazov": "Meteostanice GARNI 2060 Arcus s 24hod /7denní předpovědí a Wi-Fi",
+        "dodavatel": "atos",
+        "code": "MS-GARNI 2060 Arcus"
       }
     }
   },
