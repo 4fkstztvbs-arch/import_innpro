@@ -402,6 +402,7 @@ async function main() {
     }
     let onPromo = false;
     let actionPrice = null;
+    let exactPromoPrice = null;
     if (promoEntry !== undefined) {
       const promoMarginPct = marginPctWithSupport(promoEntry.promoMocInclVat);
       if (promoEntry.promoMocInclVat >= price) {
@@ -413,6 +414,7 @@ async function main() {
       } else if (promoMarginPct >= MIN_PROMO_MARGIN_PCT) {
         onPromo = true;
         actionPrice = roundPrice(promoEntry.promoMocInclVat);
+        exactPromoPrice = promoEntry.promoMocInclVat; // BaSys promo cena sa používa presne podľa cenníka, bez zaokrúhlenia
       } else {
         stats.promoBelowFloor = (stats.promoBelowFloor || 0) + 1;
         console.log(`  Preskakujem promo cenu pre ${item.objKod} (${item.name}): ${promoEntry.promoMocInclVat}€ (+ ${supportExclVat}€ podpora) by dalo len ${promoMarginPct.toFixed(1)}% marže (min ${MIN_PROMO_MARGIN_PCT}%). Ostáva regulárna cena ${price}€.`);
@@ -425,13 +427,14 @@ async function main() {
     if (manualOverride !== undefined) {
       const overrideMarginPct = marginPctWithSupport(manualOverride);
       // Manuálna cena sa porovnáva s aktuálne najnižšou cenou (aj s aktívnou promo cenou) - promo nikdy nesmie prehrať drahšia manuálna cena.
-      const currentBest = (onPromo && actionPrice != null) ? Math.min(price, actionPrice) : price;
+      const currentBest = (onPromo && actionPrice != null) ? Math.min(price, exactPromoPrice != null ? exactPromoPrice : actionPrice) : price;
       if (manualOverride >= currentBest) {
         stats.manualOverrideAboveRegular = (stats.manualOverrideAboveRegular || 0) + 1;
         console.log(`  Preskakujem manuálnu cenu pre ${item.objKod} (${item.name}): ${manualOverride}€ nie je lacnejšia než aktuálna cena ${currentBest}€.`);
       } else if (overrideMarginPct >= 0 || BELOW_COST_ALLOWED[item.objKod] === true) {
         if (overrideMarginPct < 0) console.log(`  Manuálna cena pre ${item.objKod} (${item.name}): ${manualOverride}€ je pod nákupnou cenou (${overrideMarginPct.toFixed(1)}% marža), ale je schválená v belowCostAllowedByCode.`);
         onPromo = true;
+        exactPromoPrice = null; // ručná cena (nižšia než promo) sa zaokrúhľuje dole ako doteraz
         // roundPriceDown, not roundPrice: this is meant to undercut a specific competitor price
         // (e.g. "258.99 to beat their 259.00") — rounding to nearest could snap back up to a tie.
         actionPrice = roundPriceDown(manualOverride);
@@ -446,7 +449,7 @@ async function main() {
     // povýšime na štandardnú PRICE_VAT, aby ju následný nočný feed nevrátil späť ako akciu.
     const promoteActionToRegular = /^bose$/i.test(item.manufacturer);
     if (promoteActionToRegular) {
-      if (onPromo && actionPrice != null) price = actionPrice;
+      if (onPromo && actionPrice != null) price = exactPromoPrice != null ? exactPromoPrice : actionPrice;
       onPromo = false;
       actionPrice = null;
     }
