@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-04 11:43 UTC.
+Kontrola z 2026-11-04 21:37 UTC.
 
 InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -35,6 +35,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `025924` | LED lampa Puluz pre fotoaparát 860 lúmenov | — | 5 |
 | `026131` | Základňa snímača pohybu Sonoff (PIR3, SNZB-03) | — | 5 |
 | `025646` | Baseus Tungsten Gold kábel USB na iP 2,4A 2 m (čierny) | — | 5 |
+| `026648` | Ochranná taška / puzdro Telesin pre GoPro Hero 9 / Hero 10 / | — | 5 |
 | `026651` | Súprava vodotesných filtrov Telesin pre objektív GoPro Hero  | — | 5 |
 | `026662` | Hlavový popruh Telesin pre športové kamery (GP-HMS-T04) | — | 5 |
 | `026663` | Dvojitý držiak Telesin J-Hook pre športové kamery (GP-MTB-T0 | — | 5 |
@@ -204,7 +205,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071867` | Sunnylife protective case for 3 batteries for DJI Neo | — | 5 |
 | `071893` | Sunnylife tempered glass for DJI Action 5 Pro | — | 5 |
 | `072355` | Chladiaci ventilátor Darkflash DR08 (čierny) | — | 5 |
-| `072356` | Chladiaci ventilátor Darkflash DR08 (biely) | — | 5 |
 | `069351` | Decorative cover / cap for T5 SONOFF Star 1C touch switch | — | 5 |
 | `069352` | Decorative cover / cap for T5 SONOFF Star 2C touch switch | — | 5 |
 | `071272` | Senzorové nočné svetlo Yeelight Lite | — | 5 |

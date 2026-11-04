@@ -744721,7 +744721,7 @@ Bez ohledu na to, jak dynamické nebo náročné vaše aktivity jsou, díky při
 
 <FLAGS><FLAG><CODE>action</CODE><ACTIVE>1</ACTIVE></FLAG><FLAG><CODE>new</CODE><ACTIVE>0</ACTIVE></FLAG><FLAG><CODE>tip</CODE><ACTIVE>0</ACTIVE></FLAG><FLAG><CODE>custom1</CODE><ACTIVE>1</ACTIVE></FLAG></FLAGS>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.00</WEIGHT></LOGISTIC>
@@ -1081921,127 +1081921,7 @@ procentuální hodnoty<br />
 <SEO_TITLE><![CDATA[GARNI 071S Bezdrátové čidlo pro měření teploty a… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[GARNI 071S Bezdrátové čidlo pro měření teploty a relativní vlhkosti půdy – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Teploměr bezkontaktní UNI-T  UT306C]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Digitální infračervený teploměr, nastavitelná emisivita, Rozsah -50°C až 500°C, Přepínání °C/°F, laserové zaměřování]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h2>Teploměr bezkontaktní UNI-T UT306C</h2>
 
-<p><br />
-Profesionální bezkontaktní infračervený teploměr UT306C dokáže rychle a přesně určit povrchovou teplotu v rozmezí -50&deg;C až +500&deg;C změřením infračervené energie vyzařované z cílového povrchu. Pro snazší a intuitivní zaměření přístroje na cílový povrch je zabudován prstencový laser, který indikuje správné zaměření teploměru. Poměr vzdálenosti k průměru měřeného povrchu je u tohoto přístroje 12 :1.</p>
-
-<p>Tento teploměr je odolný proti pádu z výšky 1 metru. Je možné přednastavit emisivitu měřeného povrchu v rozmezí 0,1 až 1,0. Indikaci přednastavených funkcí a naměřených hodnot zajišťuje jasný a vysoce kontrastní EBTN barevný displej a hraniční hodnoty jsou indikovány bzučákem a na displeji. Je možná indikace minimálních, maximálních a průměrných teplot a odchylek od průměru (MIN, MAX, AVG, DIF).</p>
-
-<p>Teploměr se automaticky vypíná, kvůli snížení spotřeby, pokud je bez použití po dobu 15 s v režimu HOLD a po 10 s v ostatních režimech. Doba změření teploty je v 95% případů do 250msec. Napájení přístroje dvěma zinko-manganovými nebo nebo alkalickými bateriemi AAA 1,5V.<br />
-<br />
-Tento bezkontaktní infračervený teploměr může být použit v různých oblastech, jako je potravinářský průmysl, údržba strojů, obrábění kovů, chladírny a další průmyslové obory.<br />
-<br />
-&bull; Infračervený teploměr pro bezkontaktní měření povrchových teplot<br />
-&bull; Teplotní rozsah - 50&deg;C až + 500&deg;C, možno přepnout na &deg;Farenheita<br />
-&bull; Vytyčení měřeného povrchu kruhovou laserovou indikací<br />
-&bull; Pontrastní barevný displej EBTN o rozměrech 25 x 26 mm<br />
-&bull; Indikace hraničních hodnot pomocí bzučáku a na displeji<br />
-&bull; Napájení dvěma bateriemi ZnMn nebo alkalickými 1,5V AAA<br />
-<br />
-<strong>TECHNICKÉ SPECIFIKACE:</strong><br />
-<br />
-&bull; Teplotní rozsah: -50&deg;C až +500&deg;C (-58&deg;F až 932&deg;F)<br />
-&bull; Přesnost měření v intervalu -50&deg;C až 0&deg;C: &plusmn;(2&deg;C + 0,1&deg;C/&deg;C)<br />
-&bull; Přesnost měření v intervalu 0&deg;C až 500&deg;C: &plusmn;2&deg;C nebo &plusmn;2% (podle toho, co je větší)<br />
-&bull; Přesnost měření v intervalu -58&deg;F až 32&deg;F: &plusmn;(4,0&deg;F + 0,1&deg;F/&deg;F)<br />
-&bull; Přesnost měření v intervalu 32&deg;F až 932&deg;F: &plusmn;4,0&deg;F nebo &plusmn;2% (podle toho, co je větší)<br />
-&bull; Rozlišení: 0,1&deg;C / 0,1&deg;F<br />
-&bull; Spektrální odezva: 8&micro;m až 14&micro;m<br />
-&bull; Doba odezvy v 95% případů: &le;250 ms<br />
-&bull; Poměr vzdálenosti k průměru měřeného povrchu: 12 :1<br />
-&bull; Vytyčení kruhové oblasti měření laserem: ano<br />
-&bull; Prstencový laser třídy 2: vlnová délka 630nm až 670nm, výstupní výkon ?1mW<br />
-&bull; Displej: kontrastní barevný EBTN se zadním podsvícením o rozměrech 25 x 26 mm<br />
-&bull; Nastavení emisivity měřeného povrchu: v rozmezí 0,1 až 1,0; výchozí 0,95<br />
-&bull; Uzamčení měření: ano<br />
-&bull; Napájení dvěma bateriemi 1,5V AAA: ZnMn nebo alkalickými<br />
-&bull; Životnost baterie ZnMn: nepřetržité měření teploty &le;6 hodin (zapnutý laser + posvícení displeje)<br />
-&bull; Automatické vypínání při nečinnosti: ano<br />
-&bull; Indikace slabé baterie: ano<br />
-&bull; Pádový test z výšky: 1 m<br />
-&bull; Režim s teplotním alarmem: HI/LO (High/Low alarm s akustickou indikací)<br />
-&bull; Pozastavení hodnoty MAX / MIN / AVG / DIF: ano<br />
-&bull; Provozní teplota: 0&deg;C až 50&deg;C (32&deg;F až 122&deg;F)<br />
-&bull; Provozní vlhkost: &lt;90% RH (nekondenzující)<br />
-&bull; Skladovací teplota: -20&deg;C až 60&deg;C (-4&deg;F až 140&deg;F)<br />
-&bull; Barva výrobku: červená a šedá<br />
-&bull; Čistá hmotnost výrobku: 161,5 g<br />
-&bull; Rozměry výrobku: 146 x 94,5 x 46 mm<br />
-<br />
-<strong>OBSAH BALENÍ:</strong><br />
-<br />
-&bull; Teploměr UT306C<br />
-&bull; 2x 1,5V baterie AAA<br />
-&bull; Návod k použití</p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/infrateplomery-a-termokamery/">Infrateplomery a termokamery</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[UNI-T]]></MANUFACTURER>
-<WARRANTY>36</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>TIP-07810227</CODE>
-<EAN>6935750530634</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery]]></CATEGORY>
-  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
-  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="Teploměr bezkontaktní UNI-T  UT306C - obrázok 1">https://atos-image-proxy.dt7vy7byn2.workers.dev/x_ien511448.jpg</IMAGE>
-  <IMAGE description="Teploměr bezkontaktní UNI-T  UT306C - obrázok 2">https://atos-image-proxy.dt7vy7byn2.workers.dev/x_ies242030280.jpg</IMAGE>
-  <IMAGE description="Teploměr bezkontaktní UNI-T  UT306C - obrázok 3">https://atos-image-proxy.dt7vy7byn2.workers.dev/x_ies242030281.jpg</IMAGE>
-  <IMAGE description="Teploměr bezkontaktní UNI-T  UT306C - obrázok 4">https://atos-image-proxy.dt7vy7byn2.workers.dev/x_ies242030282.jpg</IMAGE>
-  <IMAGE description="Teploměr bezkontaktní UNI-T  UT306C - obrázok 5">https://atos-image-proxy.dt7vy7byn2.workers.dev/x_ies242030284.jpg</IMAGE>
-  <IMAGE description="Teploměr bezkontaktní UNI-T  UT306C - obrázok 6">https://atos-image-proxy.dt7vy7byn2.workers.dev/x_ies242030285.jpg</IMAGE>
-  <IMAGE description="Teploměr bezkontaktní UNI-T  UT306C - obrázok 7">https://atos-image-proxy.dt7vy7byn2.workers.dev/x_ies242030286.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Infrateplomer]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Min. teplotní rozsah]]></NAME>
-    <VALUE><![CDATA[- 50 °C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Max. teplotní rozsah]]></NAME>
-    <VALUE><![CDATA[+ 500 °C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Odolnosť proti pádu]]></NAME>
-    <VALUE><![CDATA[1 m]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<ALTERNATIVE_PRODUCTS>
-  <CODE>TIP-07810166</CODE>
-  <CODE>TIP-07810167</CODE>
-  <CODE>TIP-07810197</CODE>
-  <CODE>TIP-07810198</CODE>
-  <CODE>TIP-07810203</CODE>
-  <CODE>TIP-07810211</CODE>
-  <CODE>TIP-07810224</CODE>
-  <CODE>TIP-07810240</CODE>
-</ALTERNATIVE_PRODUCTS>
-<FLAGS><ACTION>0</ACTION><NEW>0</NEW><TIP>0</TIP></FLAGS>
-<AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>detailOnly</VISIBILITY>
-<LOGISTIC><WEIGHT>0.00</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
-<PRICE_VAT>15.90</PRICE_VAT>
-<PURCHASE_PRICE>12.19</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Teploměr bezkontaktní UNI-T  UT306C | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Teploměr bezkontaktní UNI-T  UT306C – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Šroub M8x20 imbus DIN 912, A2 nerez]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Imbusový šroub (válcový, metrický závit) M8x20, nerezová ocel A2. Používá se v mnoha průmyslových odvětvích, zejména pro fotovoltaické instalace.]]></SHORT_DESCRIPTION>
@@ -1401677,7 +1401557,7 @@ Pracovní podmínky:<br />
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <STANDARD_PRICE>165.99</STANDARD_PRICE>
