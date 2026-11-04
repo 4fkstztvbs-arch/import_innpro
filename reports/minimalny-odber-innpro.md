@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-03 21:21 UTC.
+Kontrola z 2026-11-04 00:03 UTC.
 
-InnPro pri **399** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -134,7 +134,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060430` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `060431` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `058458` | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | — | 5 |
-| `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 4 |
+| `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 5 |
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
 | `062226` | Etykiety Termiczne Niimbot naklejki T 15x30mm 195 sztuk (bie | — | 5 |
 | `062330` | Štítky do termotlačiarne Niimbot 15x50 mm, 130 ks | — | 5 |
@@ -255,7 +255,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080743` | Sunnylife BK03 rýchloupínač pre OP 3 (ružový) | — | 4 |
 | `080742` | Sunnylife BK03 rýchloupínač pre OP 3 (čierny) | — | 5 |
 | `080739` | Ochranné puzdro Sunnylife s popruhom a šnúrkou pre Osmo Pock | — | 5 |
-| `080731` | Torba Sunnylife pre OSMO 360 | — | 4 |
+| `080731` | Torba Sunnylife pre OSMO 360 | — | 3 |
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
 | `080584` | Kryt nástenného spínača SONOFF E1GS (s N) | — | 5 |
 | `080586` | Rám pre dvojitý spínač Orb SONOFF EF2G | — | 5 |
@@ -295,7 +295,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
 | `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
-| `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 2 |
 | `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
 | `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 5 |
 | `083387` | Šasi Sunnylife pre Mini 5 Pro (sivé) | — | 5 |
@@ -376,9 +375,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089577` | Filter MOVA pre S2 Detect | — | 5 |
 | `089623` | Ochranná fólia z tvrdeného skla Puluz 9H pre GoPro HERO 12/1 | — | 5 |
 | `089627` | Silikónové puzdro Puluz pre GoPro HERO 4K 2024 | — | 5 |
-| `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 5 |
 | `089639` | Silikónové puzdro Puluz pre DJI Osmo 360 (čierne) | — | 5 |
-| `089643` | Silikónové puzdro Puluz pre Insta360 GO 3S (čierne) | — | 5 |
+| `089643` | Silikónové puzdro Puluz pre Insta360 GO 3S (čierne) | — | 3 |
 | `089645` | Držiak Puluz Mini s 1/4" závitom pre akčné kamery, otvor 3,9 | — | 5 |
 | `089647` | Príslušenstvo Puluz pre GoPro HERO 12/11/10 Black | — | 5 |
 | `089648` | Pena Puluz pre GoPro HERO13 Black | — | 5 |

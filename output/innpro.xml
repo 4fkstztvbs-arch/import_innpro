@@ -11347,6 +11347,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -60388,6 +60389,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -106996,10 +106998,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>40.50</PRICE_VAT>
 <PURCHASE_PRICE>28.67</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -130548,7 +130552,7 @@ Niimbot D110/D11
 <UNIT>ks</UNIT>
 <CODE>062224</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6977031210613</EAN>
 <CATEGORIES>
@@ -130586,6 +130590,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -142568,10 +142573,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.80</PRICE_VAT>
 <PURCHASE_PRICE>2.33</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -149432,6 +149439,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -149527,6 +149535,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -154553,6 +154562,7 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -179907,6 +179917,214 @@ Obsah balenia:
 <META_DESCRIPTION><![CDATA[Zeblaze GTR 3 Pro Smartwatch (Gold) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Zeblaze Btalk 3 Plus Smartwatch (Black)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Zeblaze Btalk 3 Plus Smartwatch (Black) The Zeblaze Btalk 3 Plus smartwatch is designed to become your reliable daily companion. With advanced health monitoring features, extensive personalization…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Zeblaze Btalk 3 Plus Smartwatch (Black)</h3>
+<p>The Zeblaze Btalk 3 Plus smartwatch is designed to become your reliable daily companion. With advanced health monitoring features, extensive personalization options and precise activity monitoring, the Zeblaze Btalk 3 Plus will become not only a practical tool, but also a stylish accessory that fits perfectly with your needs and lifestyle.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/8958/10485/1.jpg"/>
+</p><h3>A display that impresses</h3>
+<p>The smartwatch features a 1.39-inch HD color display that provides sharp images with a resolution of 360x360 pixels. The subtly curved 2.5D glass makes the screen look sleek and modern, while providing a clear, vivid image that is perfectly visible even in bright sunlight. The watch also offers the ability to personalize the watch face with more than 300 available designs, as well as the option to upload your own photos.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/8958/10485/8.jpg"/>
+</p><h3>Your health under control</h3>
+<p>Take care of your health with the Zeblaze Btalk 3 Plus! The watch is equipped with health monitoring features, such as 24-hour heart rate measurement and SpO2 (blood oxygen level) saturation monitoring. The available sleep monitoring function will allow you to control the phases of your sleep and its length, so you can improve the quality of your night's rest. The Zeblaze Btalk 3 Plus also features respiratory training and women's health monitoring, helping you maintain optimal fitness every day.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/8958/10485/4.jpg"/>
+</p><h3>Workouts tailored to your needs</h3>
+<p>Whether you're a runner, cyclist or yoga enthusiast, this smartwatch is designed to support you in any type of physical activity. With more than 100 available sports modes, you can easily tailor workouts to your individual goals and preferences. What's more, you can continuously monitor the number of steps, the number of calories burned and the distance traveled.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/8958/10485/5.jpg"/>
+</p><h3>Seamless communication</h3>
+<p>Forget about missed calls or messages. The Btalk 3 Plus allows you to easily answer calls and manage notifications from your wrist. With Bluetooth, built-in voice assistant and app integration, your smartwatch will become the center of your communication.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/8958/10485/3.jpg"/>
+</p><h3>Long runtime for uninterrupted activity</h3>
+<p>Forget about daily charging! The Btalk 3 Plus offers up to 14 days of standard use on a single charge, so you can enjoy your activity without downtime. On the other hand, during heavy use, you can enjoy its features for about 7 days.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/8958/10485/6.jpg"/>
+</p><h3>Additional capabilities</h3>
+<p>Zeblaze Btalk 3 Plus is a versatile assistant for your daily chores. Thanks to the weather forecast function, you will always be up to date with weather conditions. The timer and timekeeper allow you to accurately keep track of time during cooking, workouts or other activities. The built-in music controller allows you to manage the playback of your favorite songs without having to reach for your phone, and the calendar and alarm will help you organize your day and not forget important events. In addition, the camera controller function allows you to take pictures remotely, which is perfect for capturing the moment without having to hold your phone.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/8958/10485/7.jpg"/>
+</p>
+<h3>Included:</h3>
+<ul class="list-disc pl-5"><li>smartwatch</li><li>magnetic charging cable</li><li>user manual</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3>General</h3>
+<table>
+<tbody>
+<tr><th>Manufacturer</th><td>Zeblaze</td></tr><tr><th>Model</th><td>Btalk 3 Plus</td></tr><tr><th>Color</th><td>Black</td></tr>
+</tbody>
+</table><p> </p>
+<h3>DISPLAY</h3>
+<table>
+<tbody>
+<tr><th>Type</th><td>IPS</td></tr><tr><th>Size</th><td>1,39''</td></tr><tr><th>Screen resolution</th><td>360x360 pixels</td></tr><tr><th>Touch screen</th><td>Yes</td></tr>
+</tbody>
+</table><p> </p>
+<h3>SENSORS</h3>
+<table>
+<tbody>
+<tr><th>Health monitoring</th><td>Wrist heart rate monitor, pulse oximeter, proximity sensor, accelerometer</td></tr>
+</tbody>
+</table><p> </p>
+<h3>BLUETOOTH</h3>
+<table>
+<tbody>
+<tr><th>Bluetooth version</th><td>5.2</td></tr><tr><th>Compatibility</th><td>Android 5.0 and later, iOS 10.0 and later</td></tr>
+</tbody>
+</table><p> </p>
+<h3>ACUMULATOR</h3>
+<table>
+<tbody>
+<tr><th>Battery capacity</th><td>260 mAh</td></tr><tr><th>Battery type</th><td>Lithium-polymer</td></tr><tr><th>Operating time</th><td>Daily use: up to 14 days; Intensive use: up to 7 days; continuous phone calls: up to 365 minutes</td></tr><tr><th>Charging time</th><td>approximately 1.5 hours</td></tr>
+</tbody>
+</table><p> </p>
+<h3>APPLICATION</h3>
+<table>
+<tbody>
+<tr><th>Name</th><td>FitCloudPro</td></tr><tr><th>Compatibility</th><td>Android 5.0 and above, iOS 10.0 and above</td></tr>
+</tbody>
+</table><p> </p>
+<h3>LANGUAGES</h3>
+<table>
+<tbody>
+<tr><th>System</th><td>Simplified Chinese, Traditional Chinese, English, German, Russian, Spanish, Portuguese, French, Japanese, Arabic, Dutch, Italian, Czech, Greek, Hebrew, Indonesian, Korean, Malay, Polish, Thai, Vietnamese, Finnish, Romanian, Turkish, Croatian</td></tr><tr><th>Supported by FitCloudPro app</th><td>English, Portuguese, German, Spanish, French, Russian, Italian, Polish, Turkish, Japanese, Korean, Arabic, Hebrew, Thai, Croatian, Czech, Indonesian, Malay, Greek, Romanian, Simplified Chinese</td></tr><tr><th>Push notifications</th><td>English, Portuguese, German, Spanish, French, Russian, Italian, Polish, Turkish, Japanese, Korean, Arabic, Hebrew, Thai, Croatian, Czech, Indonesian, Malay, Greek, Romanian, Simplified Chinese</td></tr>
+</tbody>
+</table><p> </p>
+<h3>FEATURES</h3>
+<table>
+<tbody>
+<tr><th>Clock</th><td>Time/date, automatic daylight saving time, stopwatch, timer, alarm and time settings</td></tr><tr><th>Health monitoring</th><td>Wrist heart rate (steady, every minute), daily resting heart rate, SpO2 (blood oxygen) measurement, blood pressure, respiratory training, women's health, sleep scores and insights, and calorie burn tracking</td></tr><tr><th>Smart features</th><td>Smart notifications (call, SMS, Gmail and smartphone app notifications), weather synchronization, smartphone music and camera control, find my phone and watch, do not disturb modes, sedentary lifestyle alert. Water drink reminder, calendar, calculator, business card, app downloading</td></tr><tr><th>Activity monitoring</th><td>Activity log, step counter, standing, movement bar (displays on the device after a period of inactivity; walk around for a few minutes to reset it), automatic goal (learns activity level and assigns a daily step goal), calories burned, pace and distance in real time</td></tr><tr><th>Voice call features</th><td>One-touch call, voice calls, voice assistant, dial panel, last call, contact, reject calls</td></tr>
+</tbody>
+</table><p> </p>
+<h3>TARKS</h3>
+<table>
+<tbody>
+<tr><th>Systemically</th><td>5</td></tr><tr><th>App synchronization</th><td>300+ to choose from</td></tr><tr><th>Customizable watch face</th><td>Yes</td></tr><tr><th>Theme style</th><td>Cellular, list, tile</td></tr>
+</tbody>
+</table><p> </p>
+<h3>SPORT</h3>
+<table>
+<tbody>
+<tr><th>System sport modes</th><td>Walking, running, climbing, outdoor cycling, basketball, soccer, badminton, yoga, skipping.</td></tr><tr><th>Sport modes when connected to the app</th><td>Indoor running, weight training, elliptical machine, table tennis, rowing, tennis, baseball, rugby, cricket, lazy car, stationary bike, treadmill, free training, aerobics, indoor walking, indoor cycling, dancing, abdominals, hula-hop, golf, long jump, volleyball, stepping, horseback riding, field field hockey, tai chi, comet, boxing, walking outdoors, cross-country skiing, skiing, gymnastics, ice hockey, taekwondo, maximal oxygen uptake, walking, hiking, athletics, waist and abdominal training, karate, finishing and relaxation, cross-training, Pilates, crossfit, functional training, physical training, archery, flexibility, mixed aerobics, Latin dance, street dance, free combat, ballet, Australian soccer, martial arts, stair climbing, handball, bowling, squash, curling, hunting, snowboarding, recreational sports, American soccer, hand biking, fishing, frisbee, folk dancing, alpine skiing, winter sports, soothing meditation, core training, ice skating, fitness games, aerobics, group exercise, combat gymnastics, lacrosse, axial foam shoulder, wrestling, fencing, softball, single game, bars, rollerblading, darts, pickleball, HIIT, shooting, jiu-jitsu, skateboarding, balance bike, rollerblading, parkour, scuba diving, surfing, snorkeling, pull-ups, push-ups, planes, rock climbing, high jump, bungee jumping, marathon</td></tr>
+</tbody>
+</table><p> </p>
+<h3>MATERIAL</h3>
+<table>
+<tbody>
+<tr><th>Housing material</th><td>Plastic</td></tr><tr><th>Button material</th><td>Aluminum alloy</td></tr><tr><th>Buckle material</th><td>Plastic</td></tr>
+</tbody>
+</table><p> </p>
+<h3>BELT</h3>
+<table>
+<tbody>
+<tr><th>Strap material</th><td>Fluoroelastomer</td></tr><tr><th>Strap width</th><td>22 mm</td></tr><tr><th>Compatibility</th><td>Standard straps with a width of 22 mm</td></tr><tr><th>Compatible wrist circumference</th><td>130 to 235 mm</td></tr>
+</tbody>
+</table><p> </p>
+<h3>DIMENSIONS</h3>
+<table>
+<tbody>
+<tr><th>Dial dimensions</th><td>45.5 x 45.5 x 12.1 mm</td></tr><tr><th>Weight</th><td>38 g with strap, 22.7 g without strap</td></tr>
+</tbody>
+</table><p> </p>
+<h3>DURABILITY</h3>
+<table>
+<tbody>
+<tr><th>Operating temperature</th><td>-40°C to 55°C (temperatures below -40°C may affect battery life)</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=72763_46501_pol_4e566a8fd6fa828880c0c287e2bc9d28" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/nositelna-elektronika-2/">Nositeľná elektronika</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[zeblaze]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>069112</CODE>
+<EAN>6946639813151</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Zeblaze Btalk 3 Plus Smartwatch (Black) - obrázok 1">https://b2b.innpro.sk/hpeciai/67907ff013c9fb33ce2c3c9e39e8efb9/46501_1.jpg</IMAGE>
+  <IMAGE description="Zeblaze Btalk 3 Plus Smartwatch (Black) - obrázok 2">https://b2b.innpro.sk/hpeciai/3f7b0b2737b41fe409c35abe8e68df98/46501_7.jpg</IMAGE>
+  <IMAGE description="Zeblaze Btalk 3 Plus Smartwatch (Black) - obrázok 3">https://b2b.innpro.sk/hpeciai/d44b84ead8762e2934e23a6e22a566e4/46501_2.jpg</IMAGE>
+  <IMAGE description="Zeblaze Btalk 3 Plus Smartwatch (Black) - obrázok 4">https://b2b.innpro.sk/hpeciai/de573328c70c79a6c1de58a8c419210a/46501_3.jpg</IMAGE>
+  <IMAGE description="Zeblaze Btalk 3 Plus Smartwatch (Black) - obrázok 5">https://b2b.innpro.sk/hpeciai/495e6a44e8138b31d2d32f53e69b32c1/46501_4.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[zeblaze]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[čierna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Type]]></NAME>
+    <VALUE><![CDATA[IPS]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Size]]></NAME>
+    <VALUE><![CDATA[1,39'']]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Screen resolution]]></NAME>
+    <VALUE><![CDATA[360x360 pixels]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Touch screen]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Health monitoring]]></NAME>
+    <VALUE><![CDATA[Wrist heart rate monitor, pulse oximeter, proximity sensor, accelerometer]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bluetooth version]]></NAME>
+    <VALUE><![CDATA[5.2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[Android 5.0 and later, iOS 10.0 and later]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Battery capacity]]></NAME>
+    <VALUE><![CDATA[260 mAh]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Battery type]]></NAME>
+    <VALUE><![CDATA[Lithium-polymer]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Bluetooth]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[12 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
+<PRICE_VAT>21.90</PRICE_VAT>
+<PURCHASE_PRICE>15.43</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Zeblaze Btalk 3 Plus Smartwatch (Black) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Zeblaze Btalk 3 Plus Smartwatch (Black) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Zeblaze Btalk 3 Plus Smartwatch (Gold)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Zeblaze Btalk 3 Plus Smartwatch (Gold) The Zeblaze Btalk 3 Plus smartwatch is designed to become your reliable daily companion. With advanced health monitoring features, extensive personalization…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Zeblaze Btalk 3 Plus Smartwatch (Gold)</h3>
@@ -180421,14 +180639,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -191616,6 +191834,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -203131,6 +203350,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -203741,14 +203961,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -224985,14 +225205,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -239213,6 +239436,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -244721,6 +244945,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -265306,6 +265531,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -288081,7 +288307,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>080731</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5907085529271</EAN>
 <CATEGORIES>
@@ -294906,10 +295132,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -308100,6 +308328,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -308176,6 +308405,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -321118,10 +321348,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -334625,9 +334857,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>083382</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>5905156101548</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY>
@@ -371492,6 +371721,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -375036,7 +375266,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>48.64</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>47.39</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>576.50</PRICE_VAT>
 <PURCHASE_PRICE>407.51</PURCHASE_PRICE>
@@ -387372,6 +387602,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -399144,6 +399375,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -399234,6 +399466,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -405650,6 +405883,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -409595,6 +409829,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -420347,6 +420582,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -429960,9 +430196,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="GOOLOO GT6000 99,9 Wh štartér - obrázok 1">https://b2b.innpro.sk/hpeciai/93bd0e199950700c24f643fa3a82cf7f/59540_3.webp</IMAGE>
-  <IMAGE description="GOOLOO GT6000 99,9 Wh štartér - obrázok 2">https://b2b.innpro.sk/hpeciai/9992196e14af4dadaee2ef83bf6cc7e6/59540_1.webp</IMAGE>
-  <IMAGE description="GOOLOO GT6000 99,9 Wh štartér - obrázok 3">https://b2b.innpro.sk/hpeciai/39e20eaa57cf36f83ba8c0fe5763210e/59540_2.webp</IMAGE>
+  <IMAGE description="GOOLOO GT6000 99,9 Wh štartér - obrázok 1">https://b2b.innpro.sk/hpeciai/28b54c6c075b9a117eaa05b72d11b882/59540_3.webp</IMAGE>
+  <IMAGE description="GOOLOO GT6000 99,9 Wh štartér - obrázok 2">https://b2b.innpro.sk/hpeciai/219ff1afe279b7714fc6d327c35bd5ea/59540_1.webp</IMAGE>
+  <IMAGE description="GOOLOO GT6000 99,9 Wh štartér - obrázok 3">https://b2b.innpro.sk/hpeciai/610aa618df6ede34164bcc6c02dd8b9f/59540_2.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -430079,7 +430315,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="GOOLOO GT4000S 74 Wh štartér">https://b2b.innpro.sk/hpeciai/6d06816806a29c1e60847bad0e85ac54/59541_1.webp</IMAGE>
+  <IMAGE description="GOOLOO GT4000S 74 Wh štartér">https://b2b.innpro.sk/hpeciai/b9939d2d9f5517ed57d432cf8d7f2c9b/59541_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -430192,10 +430428,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 1">https://b2b.innpro.sk/hpeciai/873a5b9d8aaf6419601897dfa71b5df3/59542_3.webp</IMAGE>
-  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 2">https://b2b.innpro.sk/hpeciai/4ee01a4b35aed122229122425bd2a80d/59542_1.webp</IMAGE>
-  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 3">https://b2b.innpro.sk/hpeciai/32a6f3ac7abe7d69969fc3987c03fbd2/59542_2.webp</IMAGE>
-  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 4">https://b2b.innpro.sk/hpeciai/72f9585d44cfb6019e81c9eb50511cdb/59542_4.webp</IMAGE>
+  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 1">https://b2b.innpro.sk/hpeciai/aa7549161bd178390c2ab6393525f420/59542_3.webp</IMAGE>
+  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 2">https://b2b.innpro.sk/hpeciai/9a87f1912ed2d84ef1cac4a6294172a9/59542_1.webp</IMAGE>
+  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 3">https://b2b.innpro.sk/hpeciai/0ff2cb26728c8da904e04158aa1d92ff/59542_2.webp</IMAGE>
+  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 4">https://b2b.innpro.sk/hpeciai/e9177ae0450ba882475fa5af5efc9243/59542_4.webp</IMAGE>
+  <IMAGE description="GOOLOO GT4000 74 Wh štartér - obrázok 5">https://b2b.innpro.sk/hpeciai/352f70d299e2f978735605ef02659a25/59542_5_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -430315,8 +430552,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="GOOLOO GT3000 44,4 Wh štartér - obrázok 1">https://b2b.innpro.sk/hpeciai/590454c422c2856f8e40b4079291f2ca/59543_1.webp</IMAGE>
-  <IMAGE description="GOOLOO GT3000 44,4 Wh štartér - obrázok 2">https://b2b.innpro.sk/hpeciai/fa82ff143c25b22fcd74dfeb19f01bbf/59543_2.webp</IMAGE>
+  <IMAGE description="GOOLOO GT3000 44,4 Wh štartér - obrázok 1">https://b2b.innpro.sk/hpeciai/5d11404ae6e07b43037c8ae684d2de2f/59543_1.webp</IMAGE>
+  <IMAGE description="GOOLOO GT3000 44,4 Wh štartér - obrázok 2">https://b2b.innpro.sk/hpeciai/c0b9ac8ec6dd8951b2be72f40d7dfdf2/59543_2.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -430437,7 +430674,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="GOOLOO GP4000 74 Wh štartér">https://b2b.innpro.sk/hpeciai/8e6b12dbf0629f78a11215aca78f8380/59544_1.webp</IMAGE>
+  <IMAGE description="GOOLOO GP4000 74 Wh štartér">https://b2b.innpro.sk/hpeciai/f51bd2c1ef3d0ce882c78eec3cfa82e9/59544_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -430562,7 +430799,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="GOOLOO GP2000 37 Wh štartér">https://b2b.innpro.sk/hpeciai/91aeb0a397d94abe7a73398712828e09/59546_1.webp</IMAGE>
+  <IMAGE description="GOOLOO GP2000 37 Wh štartér">https://b2b.innpro.sk/hpeciai/b8457f4f736dda069b3eefd6f5e6aa7a/59546_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -430674,9 +430911,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="GOOLOO G7 44,4 Wh štartér - obrázok 1">https://b2b.innpro.sk/hpeciai/6b5659dc9246b1c6617bc8ce036596ff/59547_1.webp</IMAGE>
-  <IMAGE description="GOOLOO G7 44,4 Wh štartér - obrázok 2">https://b2b.innpro.sk/hpeciai/9627d6dcf955c6560efc4a0cd89dfc12/59547_2.webp</IMAGE>
-  <IMAGE description="GOOLOO G7 44,4 Wh štartér - obrázok 3">https://b2b.innpro.sk/hpeciai/73fa5bfb63f628eaa0054c9203985163/59547_3.webp</IMAGE>
+  <IMAGE description="GOOLOO G7 44,4 Wh štartér - obrázok 1">https://b2b.innpro.sk/hpeciai/b818379181aa4f725498008e3a82b6b2/59547_1.webp</IMAGE>
+  <IMAGE description="GOOLOO G7 44,4 Wh štartér - obrázok 2">https://b2b.innpro.sk/hpeciai/166fec3e28a4d2291de18fe44afc1f62/59547_2.webp</IMAGE>
+  <IMAGE description="GOOLOO G7 44,4 Wh štartér - obrázok 3">https://b2b.innpro.sk/hpeciai/c8f7e680a0645038bc474dace56ad5d8/59547_3.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -430788,7 +431025,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="GOOLOO A7 88,8 Wh štartér s vzduchovou pumpou">https://b2b.innpro.sk/hpeciai/92134c4c7e549a58bc926dd94ad28a79/59548_1.webp</IMAGE>
+  <IMAGE description="GOOLOO A7 88,8 Wh štartér s vzduchovou pumpou">https://b2b.innpro.sk/hpeciai/6d26648af04afeac5e6e368017df8626/59548_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -430916,7 +431153,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="GOOLOO A5 – štartér 2 v 1 s kompresorom">https://b2b.innpro.sk/hpeciai/059b22e3534ec4641008590465998a8f/59549_1.webp</IMAGE>
+  <IMAGE description="GOOLOO A5 – štartér 2 v 1 s kompresorom">https://b2b.innpro.sk/hpeciai/2fb1064e48865209a6e6d42c301f5ba7/59549_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -431038,6 +431275,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <IMAGES>
   <IMAGE description="GOOLOO A3 – štartér 2 v 1 s kompresorom - obrázok 1">https://b2b.innpro.sk/hpeciai/3874715379700d5687a576269628ef41/59550_1.webp</IMAGE>
   <IMAGE description="GOOLOO A3 – štartér 2 v 1 s kompresorom - obrázok 2">https://b2b.innpro.sk/hpeciai/ba6b6f7448089a0d8fed5b00a922beb3/59550_2.webp</IMAGE>
+  <IMAGE description="GOOLOO A3 – štartér 2 v 1 s kompresorom - obrázok 3">https://b2b.innpro.sk/hpeciai/d41e5573f88511d3c48baa8c442dea34/59550_3_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -444062,24 +444300,24 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <NAME><![CDATA[Anamorfný objektív Freewell 1,33X s bajonetom 17 mm]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Anamorfný objektív Freewell 1,33x s bajonetom 17 mm Anamorfný objektív Freewell 1,33x s bajonetom 17 mm vám umožní dosiahnuť skutočne filmový efekt bez potreby profesionálnej kamery. Vďaka…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Anamorfný objektív Freewell 1,33x s bajonetom 17 mm</h3>
-<p>Anamorfný objektív Freewell 1,33x s bajonetom 17 mm vám umožní dosiahnuť skutočne filmový efekt bez potreby profesionálnej kamery. Vďaka kompresnému pomeru 1,33x môžete natáčať zábery v kinematografickom pomere strán 2,35:1, čo vašim záberom dodá širokouhlý a dynamický vzhľad. Objektív vytvára charakteristické svetelné pruhy a pôsobivé rozostrenie pozadia (bokeh), čím dodáva každému záznamu ohromujúcu hĺbku a štýl typický pre filmovú produkciu.</p>
+<p>Anamorfný objektív Freewell 1,33x s bajonetom 17 mm vám umožní dosiahnuť skutočne filmový efekt bez potreby profesionálnej kamery. Vďaka kompresnému pomeru 1,33x môžete natáčať zábery v kinematografickom pomere strán 2,35:1, čo vašim záberom dodá širokouhlý a dynamický vzhľad. Objektív vytvára charakteristické svetelné pruhy a pôsobivé rozostrenie pozadia (bokeh), čím dodáva každému záberu ohromujúcu hĺbku a štýl typický pre filmové produkcie.</p>
 <p>
-<img alt="Anamorfný objektív namontovaný na smartfóne v profesionálnom držiaku so spúšťou a káblom." border="0" src="https://assets.innpro.pl/20823/27649/2.jpg"/>
+<img alt="Anamorfný objektív namontovaný na smartfóne v profesionálnom držiaku so spúšťou a káblom." border="0" src="https://assets.innpro.pl/20823/27649/2-e05bf309-422e-437d-8ca1-a930ef1d4c0f.jpg"/>
 </p>
 <h3>Presnosť a jednoduchosť použitia</h3>
-<p>Integrovaný 17 mm bajonet zaisťuje bezpečné a stabilné upevnenie objektívu na váš smartfón, zatiaľ čo vstavaná vodováha uľahčuje presné komponovanie záberov. Toto riešenie ocenia najmä tvorcovia videí, ktorí chcú mať istotu, že obraz je dokonale vyrovnaný už vo fáze nahrávania. Podpora funkcie desqueeze v aplikáciách tretích strán vám umožňuje rýchlo zmeniť rozmery záberov na správny pomer strán pri zachovaní plného filmového efektu.</p>
+<p>Integrovaný 17 mm bajonet zabezpečuje stabilné a bezpečné upevnenie objektívu na váš smartfón, zatiaľ čo vstavaná vodováha uľahčuje presné komponovanie záberov. Toto riešenie ocenia najmä tvorcovia videí, ktorí chcú mať istotu, že obraz je dokonale vyrovnaný už vo fáze nahrávania. Podpora funkcie desqueeze v aplikáciách tretích strán vám umožňuje rýchlo zmeniť rozmery záberov na správny pomer strán pri zachovaní plného filmového efektu.</p>
 <p>
-<img alt="Záber zblízka na ruky držiace smartfón s čiernym anamorfným objektívom s obdĺžnikovým sklom." border="0" src="https://assets.innpro.pl/20823/27649/4.jpg"/>
+<img alt="Záber zblízka na ruky držiace smartfón s čiernym anamorfným objektívom s obdĺžnikovým sklom." border="0" src="https://assets.innpro.pl/20823/27649/4-5da338b7-3199-4f4c-84e0-bf7495816a6e.jpg"/>
 </p>
-<h3>Všestrannosť a profesionálne výsledky</h3>
+<h3>Všestrannosť a profesionálne efekty</h3>
 <p>Objektív bol navrhnutý s ohľadom na širokú kompatibilitu. Funguje s mnohými modelmi smartfónov, vrátane iPhoneov, zariadení Samsung a ďalších mobilných zariadení. Je to prvý neutrálny anamorfný objektív pre smartfóny na svete, ktorý prirodzene reaguje na svetlo, vytvára realistické odlesky a zvyšuje kvalitu vašich záberov na úroveň porovnateľnú s profesionálnymi produkciami. To vám umožňuje vytvárať pôsobivé zábery kdekoľvek – bez kompromisov.</p>
 <p>
-<img alt="Anamorfný objektív na smartfóne s nasadeným kruhovým filtrom na stlmenie svetla." border="0" src="https://assets.innpro.pl/20823/27649/7.jpg"/>
+<img alt="Puzdro na telefón s uchytením pre objektív a magnetickým fotografickým filtrom Freewell na tmavom pozadí." border="0" src="https://assets.innpro.pl/20823/27649/5-d46d8437-2858-48fe-a9bb-5761a5becbcc.jpg"/>
 </p>
 <h3>Premyslené detaily, ktoré robia rozdiel</h3>
-<p>Spoločnosť Freewell kládla dôraz nielen na kvalitu obrazu, ale aj na pohodlie pri každodennom používaní. Súčasťou balenia sú predný a zadný kryt objektívu, ktoré sú navrhnuté tak, aby do seba zapadali, čím je zaistené, že zostanú vždy pripevnené a počas prepravy sa nestratia. Je to malý, ale nesmierne praktický detail, ktorý ešte viac uľahčuje používanie objektívu, či už natáčate doma alebo v exteriéri.</p>
+<p>Spoločnosť Freewell kládla dôraz nielen na kvalitu obrazu, ale aj na pohodlie pri každodennom používaní. Súčasťou balenia sú predný a zadný kryt objektívu, ktoré sú navrhnuté tak, aby do seba zapadali, čím je zaistené, že vždy zostanú pripevnené a počas prepravy sa nestratia. Je to malý, ale nesmierne praktický detail, ktorý ešte viac uľahčuje používanie objektívu, či už natáčate doma alebo v teréne.</p>
 <p>
-<img alt="Čierny anamorfný objektív Freewell namontovaný na puzdre smartfónu s textúrou z uhlíkových vlákien." border="0" src="https://assets.innpro.pl/20823/27649/6.jpg"/>
+<img alt="Čierny anamorfný objektív Freewell namontovaný na puzdre na smartfón s textúrou z uhlíkových vlákien." border="0" src="https://assets.innpro.pl/20823/27649/6-965e4611-8bfe-4152-be20-ce703aec70a8.jpg"/>
 </p>
 <h3>Súčasťou sady</h3>
 <ul class="list-disc pl-5">
@@ -444102,7 +444340,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>Freewell</td></tr>
 <tr><th>Model</th><td>FW-PROANM-1.33X</td></tr>
 <tr><th>Rozmery</th><td>Ø64,3 × 34,5 mm (vrátane predného a zadného krytu objektívu)</td></tr>
-<tr><th>Bajonetový upevňovací systém</th><td>17 mm</td></tr>
+<tr><th>Bajonetový uzáver</th><td>17 mm</td></tr>
 <tr><th>Závit na filter</th><td>58 mm</td></tr>
 <tr><th>Zväčšenie</th><td>1,33x</td></tr>
 <tr><th>Zorné pole (diagonálne)</th><td>111°</td></tr>
@@ -444124,8 +444362,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Anamorfný objektív Freewell 1,33X s bajonetom 17 mm - obrázok 1">https://b2b.innpro.sk/hpeciai/e36d53151ca42247e06ab3b18e43f4d9/59837_1.jpg</IMAGE>
-  <IMAGE description="Anamorfný objektív Freewell 1,33X s bajonetom 17 mm - obrázok 2">https://b2b.innpro.sk/hpeciai/791aca54dc3f39deae081bafe74e9c59/59837_2.jpg</IMAGE>
+  <IMAGE description="Anamorfný objektív Freewell 1,33X s bajonetom 17 mm - obrázok 1">https://b2b.innpro.sk/hpeciai/35093e7a003733f7037fb0c20139d556/59837_1.webp</IMAGE>
+  <IMAGE description="Anamorfný objektív Freewell 1,33X s bajonetom 17 mm - obrázok 2">https://b2b.innpro.sk/hpeciai/42cd74d46fd66729192197f9167b0fd1/59837_2.webp</IMAGE>
+  <IMAGE description="Anamorfný objektív Freewell 1,33X s bajonetom 17 mm - obrázok 3">https://b2b.innpro.sk/hpeciai/d22c8cdc7b5bcd4b2cc63e5aed2b72ca/59837_3_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -447386,6 +447625,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -456657,7 +456897,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -462824,14 +463067,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -487913,6 +488160,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -489933,6 +490181,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -491478,6 +491727,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -491795,6 +492045,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -514893,9 +515144,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>089630</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>5905156106444</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>855</HEUREKA_CATEGORY_ID>
@@ -515818,7 +516066,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>089643</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5905156106529</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné kryty a klietky pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
@@ -517286,10 +517534,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -526304,19 +526554,25 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Tlačiareň na označovanie káblov NIIMBOT C1 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[80-metrová hadica NIIMBOT pre tlačiarne C1]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Zúžiteľná hadica NIIMBOT pre tlačiarne C1, 80 m Tepelne zmrštiteľná hadica NIIMBOT určená pre tlačiarne C1 vám umožňuje jednoducho vytvárať trvalé označenia káblov. Dĺžka 80 m zaručuje vysokú…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Zúžiteľná hadica NIIMBOT pre tlačiarne C1, 80 m</h3>
-<p>Tepelne zmrštiteľná hadica NIIMBOT určená pre tlačiarne C1 vám umožňuje jednoducho vytvárať trvalé označenia káblov. Dĺžka 80 m zaručuje vysokú efektivitu, vďaka čomu je tento produkt ideálny pre inštalačné práce a organizáciu kabeláže v rozvádzačoch, sieťach alebo elektrických inštaláciách. Variant s prierezom 1,5 mm² je určený pre káble s vonkajším priemerom 3,2 až 3,4 mm. Po zmrštení sa hadica perfektne prispôsobí káblu a vytvorí estetické a čitateľné označenie, ktoré je odolné voči posunutiu.</p>
+<NAME><![CDATA[Trubica NIIMBOT pre tlačiarne C1]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Tepelne zmrštiteľná hadica NIIMBOT pre tlačiarne C1, 80 m Tepelne zmrštiteľné rúrky NIIMBOT určené pre tlačiarne C1 vám umožňujú pohodlne vytvárať trvalé označenia káblov. Dĺžka 80 metrov zaručuje…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Tepelne zmrštiteľná hadica NIIMBOT pre tlačiarne C1, 80 m</h3>
+<p>Tepelne zmrštiteľné rúrky NIIMBOT určené pre tlačiarne C1 vám umožňujú pohodlne vytvárať trvalé označenia káblov. Dĺžka 80 metrov zaručuje vysokú produktivitu, vďaka čomu je tento produkt ideálny pre inštalačné práce a pre organizáciu kabeláže v rozvádzačoch, sieťach alebo elektrických inštaláciách. Variant s prierezom 0,5 mm² je určený pre vodiče s vonkajším priemerom v rozmedzí 3,2 až 3,4 mm. Po zmrštení sa hadica presne prispôsobí káblu, čím vznikne estetické a čitateľné označenie, ktoré odoláva posunu.</p>
 <p>
-<img alt="Biely vodič navinutý na plochú cievku z hnedého kartónu, zobrazený na svetlom pozadí" border="0" src="https://assets.innpro.pl/22777/29841/1.jpg"/>
+<img alt="Biely vodič navinutý na plochom hnedom kartónovom navijaku, zobrazený na svetlom pozadí" border="0" src="https://assets.innpro.pl/22777/29841/1.jpg"/>
 </p>
 <div class="table-wrapper">
-<p> </p>
-<h3></h3>
+<p> </p>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>NIIMBOT</td></tr><tr><th>Model</th><td>TL-80m</td></tr><tr><th>Kompatibilita</th><td>Tlačiareň NIIMBOT C1</td></tr><tr><th>Typ</th><td>Zmršťovacia hadica</td></tr><tr><th>Dĺžka role</th><td>80 m</td></tr><tr><th>Veľkosť</th><td>1,5 mm²</td></tr><tr><th>Priemer vodiča</th><td>Φ3,2–3,4 mm</td></tr><tr><th>Farba</th><td>Biela</td></tr>
+<tr><th>Výrobca</th><td>Niimbot</td></tr>
+<tr><th>Model</th><td>TL-80m</td></tr>
+<tr><th>Kompatibilita</th><td>Tlačiareň Niimbot C1</td></tr>
+<tr><th>Typ</th><td>Tepelne zmrštiteľná hadica</td></tr>
+<tr><th>Dĺžka role</th><td>80 m</td></tr>
+<tr><th>Veľkosť</th><td>0,5 mm²</td></tr>
+<tr><th>Priemer vodiča</th><td>Ø 3,2–3,4 mm</td></tr>
+<tr><th>Farba</th><td>Biela</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=78698_61907_pol_52eb683cb98135e021082ebe95928baa" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -526333,7 +526589,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="80-metrová hadica NIIMBOT pre tlačiarne C1">https://b2b.innpro.sk/hpeciai/2d7fe7398437ffd068db71bbae904ed2/61907_1_1.webp</IMAGE>
+  <IMAGE description="Trubica NIIMBOT pre tlačiarne C1">https://b2b.innpro.sk/hpeciai/2d7fe7398437ffd068db71bbae904ed2/61907_1_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -526342,11 +526598,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Kompatibilita]]></NAME>
-    <VALUE><![CDATA[Tlačiareň NIIMBOT C1]]></VALUE>
+    <VALUE><![CDATA[Tlačiareň Niimbot C1]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Typ]]></NAME>
-    <VALUE><![CDATA[Zmršťovacia hadica]]></VALUE>
+    <VALUE><![CDATA[Tepelne zmrštiteľná hadica]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Dĺžka role]]></NAME>
@@ -526354,11 +526610,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Veľkosť]]></NAME>
-    <VALUE><![CDATA[1,5 mm²]]></VALUE>
+    <VALUE><![CDATA[0,5 mm²]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Priemer vodiča]]></NAME>
-    <VALUE><![CDATA[Φ3,2–3,4 mm]]></VALUE>
+    <VALUE><![CDATA[Ø 3,2–3,4 mm]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Farba]]></NAME>
@@ -526379,8 +526635,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>12.04</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[80-metrová hadica NIIMBOT pre tlačiarne C1 | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[80-metrová hadica NIIMBOT pre tlačiarne C1 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Trubica NIIMBOT pre tlačiarne C1 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Trubica NIIMBOT pre tlačiarne C1 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Tepelne zmrštiteľná hadica NIIMBOT pre tlačiarne C1,200 m]]></NAME>
@@ -529055,10 +529311,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -530617,10 +530875,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>31.50</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -532141,14 +532401,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -546635,37 +546898,64 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Blesk GODOX TT685II TTL pre Sony – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Blesk GODOX TT350 TTL pre Sony]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Blesk GODOX TT350S Blesk GODOX TT350S pre Sony je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Sony. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Blesk GODOX TT350S</h3>
-<p>Blesk GODOX TT350S pre Sony je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Sony. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do 1/8000 s a bezdrôtový systém Godox X s funkciami Master a Slave. Váži len 210 g a pri sklopenej hlave dopredu má výšku iba 9,5 cm, vďaka čomu sa skvele hodí k kompaktným fotoaparátom a udrží vašu fotografickú výbavu ľahkú. Súprava obsahuje difúzor, statív, prenosné puzdro a originálne balenie. Na začiatok si budete musieť zakúpiť dve batérie typu AA (R6), ktoré nie sú súčasťou sady.</p>
+<NAME><![CDATA[Blesk GODOX TT350S pre Sony]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Blesk Godox TT350S Blesk GODOX TT350S pre Sony je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Sony. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do 1/8…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Blesk Godox TT350S</h3>
+<p>Blesk GODOX TT350S pre Sony je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Sony. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do 1/8 000 s a bezdrôtový systém Godox X s funkciami Master a Slave. Váži len 210 g a pri sklopenej hlave dopredu má výšku iba 9,5 cm, vďaka čomu sa skvele hodí k kompaktným fotoaparátom a udrží vašu fotografickú výbavu ľahkú. Súčasťou sady je difúzor, statív a prenosné puzdro. Na začatie budete potrebovať dve batérie typu AA (R6), ktoré nie sú súčasťou sady.</p>
 <p>
-<img alt="Pohľad z prednej strany na čierny blesk Godox TT350 namontovaný na plastovom stojane s hlavou smerujúcou priamo dopredu" border="0" src="https://assets.innpro.pl/23307/30536/5.jpg"/>
-</p><h3>Kompaktný dizajn pre každodenné fotografovanie</h3>
-<p>Blesk Godox TT350S bol navrhnutý s ohľadom na používateľov bezzrkadloviek, takže jeho malé rozmery dobre ladia s kompaktnými telami fotoaparátov. Blesk má rozmery 14 × 6 × 3,5 cm a váži 210 g, takže v taške na fotoaparát zaberá veľmi málo miesta. Keď je nasadený na fotoaparát a hlava je otočená dopredu, dosahuje výšku len 9,5 cm, čo zaisťuje pohodlnejšie používanie pri fotografovaní v teréne. Ľahká konštrukcia zvyšuje komfort pri dlhodobom používaní fotoaparátu a samotná súprava zostáva dobre vyvážená.</p>
+<img alt="Blesk Godox s vyklopenou hlavou namontovaný na statíve pred svetlým pozadím." border="0" src="https://assets.innpro.pl/23307/30536/5-iop-f420edde-b20e-48ba-b7ff-02dff846c247.jpg"/>
+</p>
+<h3>Kompaktný dizajn pre každodenné fotografovanie</h3>
+<p>Godox TT350S bol navrhnutý s ohľadom na používateľov bezzrkadloviek, takže jeho malé rozmery dobre ladia s kompaktnými telami fotoaparátov. Blesk má rozmery 14 × 6 × 3,5 cm a váži 210 g, takže v taške na fotoaparát zaberá veľmi málo miesta. Keď je namontovaný na fotoaparáte a hlavica smeruje dopredu, je vysoký len 9,5 cm, vďaka čomu je jeho používanie pri fotografovaní v teréne pohodlnejšie. Ľahká konštrukcia zvyšuje komfort pri dlhodobom používaní fotoaparátu a samotná súprava zostáva dobre vyvážená.</p>
 <p>
 <img alt="Čierny blesk Godox TT350 zobrazený z prednej a bočnej strany, s viditeľnou hlavou blesku a bielym logom výrobcu" border="0" src="https://assets.innpro.pl/23307/30536/1.jpg"/>
-</p><h3>Nastaviteľná hlava a ovládanie osvetlenia</h3>
-<p>Hlava blesku sa otáča horizontálne o 270° a vertikálne v rozmedzí od -7° do +90°, čo uľahčuje odraz svetla od stien a stropu. Vďaka tomu môžete dosiahnuť mäkšie a prirodzenejšie osvetlenie bez potreby ďalšieho príslušenstva. Vstavaný zoom pracuje v rozsahu 24–105 mm a môže fungovať v automatickom aj manuálnom režime, pričom uhol lúča sa prispôsobuje ohniskovej vzdialenosti objektívu. Hlava je tiež vybavená širokouhlým difúzorom zodpovedajúcim ohniskovej vzdialenosti približne 15 mm a reflektorom, pričom súčasťou sady je aj dodatočný difúzor na zjemnenie svetla.</p>
-<p>
-<img alt="Blesk Godox TT350 namontovaný na stojane, s hlavou naklonenou dozadu a viditeľným zadným panelom a displejom" border="0" src="https://assets.innpro.pl/23307/30536/2.jpg"/>
-</p><h3>Rôzne prevádzkové režimy a bezdrôtový systém Godox X</h3>
-<p>Blesk ponúka režim TTL, ktorý automaticky prispôsobuje výkon blesku, čím uľahčuje fotografovanie v rôznych svetelných podmienkach. K dispozícii je aj manuálny režim s funkciami S1 a S2, ako aj režim Multi-strobe, ktorý umožňuje viacnásobné blesky počas jednej expozície. Vstavaný vysielač systému Godox X vám umožňuje ovládať iné kompatibilné blesky ako hlavná jednotka (Master) alebo fungovať ako podriadená jednotka (Slave) ovládaná externým spúšťačom. Vďaka tomu je možné model TT350S používať ako samostatný blesk, tak aj ako súčasť rozsiahlejšieho osvetľovacieho systému.</p>
-<p>
-<img alt="Pohľad zozadu na blesk Godox TT350 s LCD displejom s červeným podsvietením a ovládacími tlačidlami" border="0" src="https://assets.innpro.pl/23307/30536/3.jpg"/>
-</p><h3>Synchronizácia HSS a efektívna prevádzka</h3>
-<p>Podpora synchronizácie HSS až do 1/8000 s vám umožňuje používať blesk aj pri fotografovaní za jasného denného svetla s krátkymi časmi uzávierky. Maximálna doba dobíjania je približne 2,2 sekundy, čo vám umožňuje efektívne pořizovat sériové snímky. Blesk je napájaný dvoma batériami typu AA (R6) a v závislosti od kvality použitých batérií poskytuje minimálne 200 plných zábleskov na sadu. Okrem toho výrobca vybavil blesk portom micro USB, ktorý umožňuje aktualizovať interný firmvér a využívať najnovšie vylepšenia.</p>
-<p>
-<img alt="Zadný panel blesku Godox TT350 s vypnutým LCD displejom, na ktorom sú viditeľné funkčné tlačidlá a otočný volič" border="0" src="https://assets.innpro.pl/23307/30536/4.jpg"/>
 </p>
-<h3>Súčasťou sady</h3>
-<ul class="list-disc pl-5"><li>Blesk Godox TT350S</li><li>Difúzor</li><li>Stojan</li><li>Prenosné puzdro</li><li>Obal výrobcu</li></ul>
+<h3>Pohyblivá hlava a ovládanie osvetlenia</h3>
+<p>Hlava blesku sa otáča horizontálne o 270° a vertikálne v rozmedzí od -7° do +90°, čo uľahčuje odraz svetla od stien a stropu. Vďaka tomu môžete dosiahnuť mäkšie a prirodzenejšie osvetlenie bez potreby ďalšieho príslušenstva. Vstavaný zoom pracuje v rozsahu 24–105 mm a môže fungovať v automatickom aj manuálnom režime, pričom uhol lúča sa prispôsobuje ohniskovej vzdialenosti objektívu. Hlava je tiež vybavená širokouhlým difúzorom zodpovedajúcim ohniskovej vzdialenosti približne 15 mm a reflektorom, pričom súčasťou sady je aj dodatočný difúzor na zmäkčenie svetla.</p>
+<p>
+<img alt="Blesk Godox TT350 umiestnený na statíve, s hlavou naklonenou dozadu a viditeľnou zadnou časťou a displejom" border="0" src="https://assets.innpro.pl/23307/30536/2-iop-dec65e97-1f27-4740-8cf0-3aa8adbe2cf4.jpg"/>
+</p>
+<h3>Rôzne prevádzkové režimy a bezdrôtový systém Godox X</h3>
+<p>Blesk ponúka režim TTL, ktorý automaticky prispôsobuje výkon blesku, čím uľahčuje fotografovanie v rôznych svetelných podmienkach. K dispozícii je aj manuálny režim s funkciami S1 a S2, ako aj režim Multi-strobe, ktorý umožňuje viacnásobné záblesky počas jednej expozície. Vstavaný vysielač systému Godox X vám umožňuje ovládať iné kompatibilné blesky ako hlavná jednotka (Master) alebo fungovať ako podriadená jednotka (Slave) spúšťaná externým spúšťačom. Vďaka tomu je možné model TT350S používať ako samostatný blesk, tak aj ako súčasť rozsiahlejšieho osvetľovacieho systému.</p>
+<p>
+<img alt="Pohľad zozadu na blesk Godox TT350 s LCD displejom s červeným podsvietením a ovládacími tlačidlami" border="0" src="https://assets.innpro.pl/23307/30536/3-iop-baf6d4c2-b67d-4a64-b7e8-dbf169cd065c.jpg"/>
+</p>
+<h3>Synchronizácia HSS a efektívna prevádzka</h3>
+<p>Podpora synchronizácie HSS až do 1/8 000 s vám umožňuje používať blesk aj pri fotografovaní za jasného denného svetla s krátkymi časmi uzávierky. Maximálny čas dobíjania je približne 2,2 sekundy, čo vám umožňuje efektívne pořizovat sériové zábery. Blesk je napájaný dvoma batériami typu AA (R6) a v závislosti od kvality použitých batérií poskytuje minimálne 200 plných zábleskov na jednu sadu. Okrem toho výrobca vybavil blesk portom micro USB, ktorý umožňuje aktualizovať firmvér a využívať najnovšie vylepšenia.</p>
+<p>
+<img alt="Blesk Godox TT350, pohľad z prednej a zadnej strany, s ovládacím panelom na svetlom pozadí." border="0" src="https://assets.innpro.pl/23307/30536/4-iop-6af44be0-2149-4b5a-90ee-b8289902e3bc.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5">
+<li>Blesk Godox TT350S</li>
+<li>Difúzor</li>
+<li>Stojan</li>
+<li>Puzdro na prenášanie</li>
+</ul>
 <div class="table-wrapper">
-<p> </p>
-<h3></h3>
+<p> </p>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Godox</td></tr><tr><th>Model</th><td>TT350S</td></tr><tr><th>Určenie</th><td>Fotoaparáty Sony MIS</td></tr><tr><th>Vodcovské číslo</th><td>36 (ISO 100, 105 mm)</td></tr><tr><th>Teplota farby</th><td>5600 K ±200 K</td></tr><tr><th>Synchronizácia HSS</th><td>až 1/8000 s</td></tr><tr><th>Prevádzkové režimy</th><td>TTL, M, Multi, S1, S2, Master, Slave</td></tr><tr><th>Zoom</th><td>24–105 mm</td></tr><tr><th>Rozsah pohybu hlavy</th><td>-7° až +90° (vertikálne), 0° až 270° (horizontálne)</td></tr><tr><th>Trvanie záblesku</th><td>1/350–1/20 000 s</td></tr><tr><th>Maximálny čas dobíjania</th><td>2,2 s</td></tr><tr><th>Displej</th><td>LCD</td></tr><tr><th>Počet skupín/kanálov</th><td>3/16</td></tr><tr><th>Spúšťanie</th><td>pätica, testovacie tlačidlo, systém Godox X</td></tr><tr><th>Napájanie</th><td>2 × AA (R6), nie sú súčasťou balenia</td></tr><tr><th>Kapacita</th><td>minimálne 200 plných zábleskov</td></tr><tr><th>Aktualizácia softvéru</th><td>micro USB</td></tr><tr><th>Slot na batériový modul</th><td>Nie</td></tr><tr><th>Rozmery</th><td>14 × 6 × 3,5 cm</td></tr><tr><th>Hmotnosť</th><td>210 g</td></tr><tr></tr>
+<tr><th>Výrobca</th><td>Godox</td></tr>
+<tr><th>Model</th><td>TT350S</td></tr>
+<tr><th>Kompatibilita</th><td>Fotoaparáty Sony MIS</td></tr>
+<tr><th>Vodcovské číslo</th><td>36 (ISO 100, 105 mm)</td></tr>
+<tr><th>Teplota farby</th><td>5 600 K ± 200 K</td></tr>
+<tr><th>Synchronizácia HSS</th><td>Až 1/8 000 s</td></tr>
+<tr><th>Prevádzkové režimy</th><td>TTL, M, Multi, S1, S2, Master, Slave</td></tr>
+<tr><th>Zoom</th><td>24–105 mm</td></tr>
+<tr><th>Rozsah pohybu hlavy</th><td>-7° až +90° (vertikálne), 0° až 270° (horizontálne)</td></tr>
+<tr><th>Trvanie záblesku</th><td>1/350–1/20 000 s</td></tr>
+<tr><th>Maximálna doba nabíjania</th><td>2,2 s</td></tr>
+<tr><th>Displej</th><td>LCD</td></tr>
+<tr><th>Počet skupín/kanálov</th><td>3/16</td></tr>
+<tr><th>Spúšťanie</th><td>Pätica, testovacie tlačidlo, systém Godox X</td></tr>
+<tr><th>Napájanie</th><td>2 × AA (R6), nie sú súčasťou balenia</td></tr>
+<tr><th>Kapacita</th><td>Min. 200 zábleskov pri plnom výkone</td></tr>
+<tr><th>Aktualizácia firmvéru</th><td>Micro USB</td></tr>
+<tr><th>Slot na batériový modul</th><td>Nie</td></tr>
+<tr><th>Rozmery</th><td>14 × 6 × 3,5 cm</td></tr>
+<tr><th>Hmotnosť</th><td>210 g</td></tr>
 </tbody>
 </table>
 </div>
@@ -546684,11 +546974,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Sony - obrázok 1">https://b2b.innpro.sk/hpeciai/378549d8330f18d844125b8312433d4b/62787_1_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Sony - obrázok 2">https://b2b.innpro.sk/hpeciai/95b1d408b3836c058031c6c5141559af/62787_2_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Sony - obrázok 3">https://b2b.innpro.sk/hpeciai/f2191baed6ab03652039b85abbe59743/62787_3_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Sony - obrázok 4">https://b2b.innpro.sk/hpeciai/9cba7f392671868c0f19c6aa6dd8c826/62787_4_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Sony - obrázok 5">https://b2b.innpro.sk/hpeciai/039283e250f7018e3d97b70297b0321b/62787_5_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350S pre Sony - obrázok 1">https://b2b.innpro.sk/hpeciai/843b6750f7b1a8b631875d8de406a87e/62787_1_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350S pre Sony - obrázok 2">https://b2b.innpro.sk/hpeciai/2ca87a13cf1290129cc8cc0e13e381f2/62787_2_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350S pre Sony - obrázok 3">https://b2b.innpro.sk/hpeciai/43767f76f591bf6941a57293c1b24790/62787_3_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350S pre Sony - obrázok 4">https://b2b.innpro.sk/hpeciai/3b0158bbd479df370e7fe28a99a0e574/62787_4_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350S pre Sony - obrázok 5">https://b2b.innpro.sk/hpeciai/54a7e951a88b55d8b5dc307611f62deb/62787_5_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -546715,8 +547005,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>62.45</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Blesk GODOX TT350 TTL pre Sony | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Blesk GODOX TT350 TTL pre Sony – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Blesk GODOX TT350S pre Sony | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Blesk GODOX TT350S pre Sony – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Blesk GODOX TT685II TTL pre Nikon]]></NAME>
@@ -548047,37 +548337,64 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Blesk GODOX iT30Pro pre Nikon – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Blesk GODOX TT350 TTL pre Fujifilm]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Blesk GODOX TT350F pre Fujifilm Blesk GODOX TT350F pre Fujifilm je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Fujifilm. Podporuje automatický režim TTL, synchronizáciu…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Blesk GODOX TT350F pre Fujifilm</h3>
-<p>Blesk GODOX TT350F pre Fujifilm je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Fujifilm. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do 1/8000 s a bezdrôtový systém Godox X s funkciami Master a Slave. Váži len 210 g a pri sklopenej hlave dopredu má výšku iba 9,5 cm, vďaka čomu sa skvele hodí k kompaktným fotoaparátom a udrží vašu fotografickú výbavu ľahkú. Súprava obsahuje difúzor, statív, prenosné puzdro a originálne balenie. Na začatie budete potrebovať dve batérie typu AA (R6), ktoré nie sú súčasťou sady.</p>
+<NAME><![CDATA[Blesk GODOX TT350F pre Fujifilm]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Blesk Godox TT350F pre Fujifilm Blesk GODOX TT350F pre Fujifilm je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Fujifilm. Podporuje automatický režim TTL, synchronizáciu…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Blesk Godox TT350F pre Fujifilm</h3>
+<p>Blesk GODOX TT350F pre Fujifilm je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Fujifilm. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do 1/8 000 s a bezdrôtový systém Godox X s funkciami Master a Slave. Váži len 210 g a pri sklopenej hlave dopredu má výšku iba 9,5 cm, vďaka čomu sa skvele hodí k kompaktným fotoaparátom a udrží vašu fotografickú výbavu ľahkú. Súprava obsahuje difúzor, statív a prenosné puzdro. Na začatie budete potrebovať dve batérie typu AA (R6), ktoré nie sú súčasťou sady.</p>
 <p>
 <img alt="Čierny blesk Godox TT350 videný z prednej strany, namontovaný na priloženom stojane s chladnou päticou" border="0" src="https://assets.innpro.pl/23302/30531/2.jpg"/>
-</p><h3>Kompaktný dizajn pre každodenné fotografovanie</h3>
-<p>Blesk Godox TT350F bol navrhnutý s ohľadom na používateľov bezzrkadloviek, takže jeho malé rozmery dobre ladia s kompaktnými telami fotoaparátov. Blesk má rozmery 14 × 6 × 3,5 cm a váži 210 g, takže v taške na fotoaparát zaberá veľmi málo miesta. Keď je nasadený na fotoaparát a hlava je otočená dopredu, dosahuje výšku len 9,5 cm, čo zaisťuje pohodlnejšie používanie pri fotografovaní v teréne. Ľahká konštrukcia zvyšuje komfort pri dlhodobom používaní fotoaparátu a samotná súprava zostáva dobre vyvážená.</p>
+</p>
+<h3>Kompaktný dizajn pre každodenné fotografovanie</h3>
+<p>Godox TT350F bol navrhnutý s ohľadom na používateľov bezzrkadloviek, takže jeho malé rozmery sa dobre hodia ku kompaktným telám fotoaparátov. Blesk má rozmery 14 × 6 × 3,5 cm a váži 210 g, takže v taške na fotoaparát zaberá veľmi málo miesta. Keď je namontovaný na fotoaparáte a hlava je otočená dopredu, dosahuje výšku len 9,5 cm, čo zaisťuje pohodlnejšie používanie pri fotografovaní v teréne. Ľahká konštrukcia zvyšuje komfort pri dlhodobom používaní fotoaparátu a samotná súprava zostáva dobre vyvážená.</p>
 <p>
 <img alt="Blesk Godox TT350 videný z prednej strany pod uhlom, s hlavou blesku mierne nasmerovanou nahor" border="0" src="https://assets.innpro.pl/23302/30531/1.jpg"/>
-</p><h3>Nastaviteľná hlava a ovládanie osvetlenia</h3>
-<p>Hlava blesku sa otáča horizontálne o 270° a vertikálne v rozmedzí od -7° do +90°, čo uľahčuje odraz svetla od stien a stropu. Vďaka tomu môžete dosiahnuť mäkšie a prirodzenejšie osvetlenie bez potreby ďalšieho príslušenstva. Vstavaný zoom pracuje v rozsahu 24–105 mm a môže fungovať v automatickom aj manuálnom režime, pričom uhol lúča sa prispôsobuje ohniskovej vzdialenosti objektívu. Hlava je tiež vybavená širokouhlým difúzorom zodpovedajúcim ohniskovej vzdialenosti približne 15 mm a reflektorom, pričom súčasťou sady je aj dodatočný difúzor na zjemnenie svetla.</p>
+</p>
+<h3>Nastaviteľná hlava a regulácia osvetlenia</h3>
+<p>Hlava blesku sa otáča horizontálne o 270° a vertikálne v rozmedzí od -7° do +90°, čo uľahčuje odraz svetla od stien a stropu. Vďaka tomu môžete dosiahnuť mäkšie a prirodzenejšie osvetlenie bez potreby ďalšieho príslušenstva. Vstavaný zoom pracuje v rozsahu 24–105 mm a môže fungovať v automatickom aj manuálnom režime, pričom uhol lúča sa prispôsobuje ohniskovej vzdialenosti objektívu. Hlava je tiež vybavená širokouhlým difúzorom zodpovedajúcim ohniskovej vzdialenosti približne 15 mm a reflektorom, pričom súčasťou sady je aj dodatočný difúzor na zmäkčenie svetla.</p>
 <p>
-<img alt="Zadný panel blesku Godox TT350 s LCD displejom, ovládacími tlačidlami a otočným voličom" border="0" src="https://assets.innpro.pl/23302/30531/3.jpg"/>
-</p><h3>Rôzne prevádzkové režimy a bezdrôtový systém Godox X</h3>
-<p>Blesk ponúka režim TTL, ktorý automaticky prispôsobuje výkon blesku, čím uľahčuje fotografovanie v rôznych svetelných podmienkach. K dispozícii je aj manuálny režim s funkciami S1 a S2, ako aj režim Multi-strobe, ktorý umožňuje viacero zábleskov počas jednej expozície. Vstavaný vysielač systému Godox X vám umožňuje ovládať iné kompatibilné blesky ako hlavná jednotka (Master) alebo fungovať ako podriadená jednotka (Slave) ovládaná externým spúšťačom. Vďaka tomu je možné model TT350F používať ako samostatný blesk, tak aj ako súčasť rozsiahlejšieho osvetľovacieho systému.</p>
+<img alt="Zadný panel blesku Godox TT350 s LCD displejom, ovládacími tlačidlami a otočným voličom" border="0" src="https://assets.innpro.pl/23302/30531/6-iop-bf7d609f-74e7-40b6-9944-f22490f912a9.jpg"/>
+</p>
+<h3>Rôzne prevádzkové režimy a bezdrôtový systém Godox X</h3>
+<p>Blesk ponúka režim TTL, ktorý automaticky prispôsobuje výkon blesku, čím uľahčuje fotografovanie v rôznych svetelných podmienkach. K dispozícii je aj manuálny režim s funkciami S1 a S2, ako aj režim Multi-strobe, ktorý umožňuje viacnásobné blesky počas jednej expozície. Vstavaný vysielač systému Godox X vám umožňuje ovládať iné kompatibilné blesky ako hlavná jednotka (Master) alebo fungovať ako podriadená jednotka (Slave) ovládaná externým spúšťačom. Vďaka tomu je možné blesk TT350F používať ako samostatný blesk, tak aj ako súčasť rozsiahlejšieho osvetľovacieho systému.</p>
 <p>
-<img alt="Blesk Godox TT350 na stojane, pohľad zozadu z pravej strany s hlavou naklonenou dozadu" border="0" src="https://assets.innpro.pl/23302/30531/4.jpg"/>
-</p><h3>Synchronizácia HSS a efektívna prevádzka</h3>
-<p>Podpora synchronizácie HSS až do 1/8000 s vám umožňuje používať blesk aj pri fotografovaní za jasného denného svetla s krátkymi časmi uzávierky. Maximálny čas dobíjania je približne 2,2 sekundy, čo vám umožňuje efektívne pořizovat sériové zábery. Blesk je napájaný dvoma batériami typu AA (R6) a v závislosti od kvality použitých batérií poskytuje minimálne 200 plných zábleskov na jednu sadu. Okrem toho výrobca vybavil blesk portom micro USB, ktorý umožňuje aktualizovať firmvér a využívať najnovšie vylepšenia.</p>
+<img alt="Blesk s displejom a ovládacími tlačidlami namontovaný na stojane pred svetlým pozadím." border="0" src="https://assets.innpro.pl/23302/30531/5-iop-d362d604-be23-4f73-864c-52d4e9cb6f17.jpg"/>
+</p>
+<h3>Synchronizácia HSS a efektívna prevádzka</h3>
+<p>Podpora synchronizácie HSS až do 1/8 000 s vám umožňuje používať blesk aj pri fotografovaní za jasného denného svetla s krátkymi časmi uzávierky. Maximálny čas dobíjania je približne 2,2 sekundy, čo vám umožňuje efektívne pořizovat sériové zábery. Blesk je napájaný dvoma batériami typu AA (R6) a v závislosti od kvality použitých batérií poskytuje minimálne 200 plných zábleskov na jednu sadu. Okrem toho výrobca vybavil blesk portom micro USB, ktorý umožňuje aktualizovať vnútorný softvér a využívať najnovšie vylepšenia.</p>
 <p>
-<img alt="Blesk Godox TT350 namontovaný na plastovom stojane, pohľad zozadu z ľavej strany" border="0" src="https://assets.innpro.pl/23302/30531/5.jpg"/>
+<img alt="Čierny blesk Godox s montážnou päticou a nálepkou kontroly kvality ležiaci na svetlom pozadí." border="0" src="https://assets.innpro.pl/23302/30531/2-iop-d56f5d8c-ae21-42e5-9e25-ce550ca209b3.jpg"/>
 </p>
 <h3>Súčasťou balenia</h3>
-<ul class="list-disc pl-5"><li>Blesk Godox TT350</li><li>Difúzor</li><li>Stojan</li><li>Puzdro na prenášanie</li><li>Obal výrobcu</li></ul>
+<ul class="list-disc pl-5">
+<li>Blesk Godox TT350F</li>
+<li>Difúzor</li>
+<li>Stojan</li>
+<li>Prenosné puzdro</li>
+</ul>
 <div class="table-wrapper">
-<p> </p>
-<h3></h3>
+<p> </p>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Godox</td></tr><tr><th>Model</th><td>TT350</td></tr><tr><th>Kompatibilita</th><td>Fotoaparáty Fujifilm</td></tr><tr><th>Vodcovské číslo</th><td>36 (ISO 100, 105 mm)</td></tr><tr><th>Teplota farby</th><td>5600 K ±200 K</td></tr><tr><th>Synchronizácia HSS</th><td>až 1/8000 s</td></tr><tr><th>Prevádzkové režimy</th><td>TTL, M, Multi, S1, S2, Master, Slave</td></tr><tr><th>Zoom</th><td>24–105 mm</td></tr><tr><th>Rozsah pohybu hlavy</th><td>-7° až +90° (vertikálne), 0° až 270° (horizontálne)</td></tr><tr><th>Trvanie záblesku</th><td>1/350–1/20 000 s</td></tr><tr><th>Maximálny čas nabíjania</th><td>2,2 s</td></tr><tr><th>Displej</th><td>LCD</td></tr><tr><th>Počet skupín/kanálov</th><td>3/16</td></tr><tr><th>Spúšťanie</th><td>horúca pätica, testovacie tlačidlo, systém Godox X</td></tr><tr><th>Napájanie</th><td>2 × AA (R6), nie sú súčasťou balenia</td></tr><tr><th>Kapacita</th><td>minimálne 200 plných zábleskov</td></tr><tr><th>Aktualizácia softvéru</th><td>micro USB</td></tr><tr><th>Slot na batériový modul</th><td>Nie</td></tr><tr><th>Rozmery</th><td>14 × 6 × 3,5 cm</td></tr><tr><th>Hmotnosť</th><td>210 g</td></tr><tr></tr>
+<tr><th>Výrobca</th><td>Godox</td></tr>
+<tr><th>Model</th><td>TT350F</td></tr>
+<tr><th>Kompatibilita</th><td>Fotoaparáty Fujifilm</td></tr>
+<tr><th>Vodcovské číslo</th><td>36 (ISO 100, 105 mm)</td></tr>
+<tr><th>Teplota farby</th><td>5 600 K ± 200 K</td></tr>
+<tr><th>Synchronizácia HSS</th><td>Až 1/8 000 s</td></tr>
+<tr><th>Prevádzkové režimy</th><td>TTL, M, Multi, S1, S2, Master, Slave</td></tr>
+<tr><th>Zoom</th><td>24–105 mm</td></tr>
+<tr><th>Rozsah pohybu hlavy</th><td>-7° až +90° (vertikálne), 0° až 270° (horizontálne)</td></tr>
+<tr><th>Trvanie záblesku</th><td>1/350–1/20 000 s</td></tr>
+<tr><th>Maximálna doba nabíjania</th><td>2,2 s</td></tr>
+<tr><th>Displej</th><td>LCD</td></tr>
+<tr><th>Počet skupín/kanálov</th><td>3/16</td></tr>
+<tr><th>Spúšťanie</th><td>Pätica, testovacie tlačidlo, systém Godox X</td></tr>
+<tr><th>Napájanie</th><td>2 × AA (R6), nie sú súčasťou balenia</td></tr>
+<tr><th>Kapacita</th><td>Min. 200 zábleskov pri plnom výkone</td></tr>
+<tr><th>Aktualizácia firmvéru</th><td>Micro USB</td></tr>
+<tr><th>Slot pre batériový modul</th><td>Nie</td></tr>
+<tr><th>Rozmery</th><td>14 × 6 × 3,5 cm</td></tr>
+<tr><th>Hmotnosť</th><td>210 g</td></tr>
 </tbody>
 </table>
 </div>
@@ -548095,11 +548412,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Fujifilm - obrázok 1">https://b2b.innpro.sk/hpeciai/0b7351ebbfce9418f37e80c2b6b4280d/62808_1_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Fujifilm - obrázok 2">https://b2b.innpro.sk/hpeciai/28faaec6086bc4ea3440869efae036ce/62808_2_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Fujifilm - obrázok 3">https://b2b.innpro.sk/hpeciai/e55766cdb052a958fcdfe20e5efd90dc/62808_3_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Fujifilm - obrázok 4">https://b2b.innpro.sk/hpeciai/ebeede6f9f46465724eefc7152367fa0/62808_4_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Fujifilm - obrázok 5">https://b2b.innpro.sk/hpeciai/e1ec16473f91c6cdf6b59f61fbaad95f/62808_5_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350F pre Fujifilm - obrázok 1">https://b2b.innpro.sk/hpeciai/e5ccbed7a36a37d9dc65befdffff0b37/62808_1_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350F pre Fujifilm - obrázok 2">https://b2b.innpro.sk/hpeciai/a78608b96a4e4dfa7a50267f1e319105/62808_2_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350F pre Fujifilm - obrázok 3">https://b2b.innpro.sk/hpeciai/43f5523d72f549885b9906c95c23753f/62808_3_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350F pre Fujifilm - obrázok 4">https://b2b.innpro.sk/hpeciai/145075ffb0a4713fef6c082964b6c472/62808_4_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350F pre Fujifilm - obrázok 5">https://b2b.innpro.sk/hpeciai/42d74aef620cc132216f97415c5758e0/62808_5_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -548126,8 +548443,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>62.45</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Blesk GODOX TT350 TTL pre Fujifilm | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Blesk GODOX TT350 TTL pre Fujifilm – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Blesk GODOX TT350F pre Fujifilm | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Blesk GODOX TT350F pre Fujifilm – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Súprava farebných efektov GODOX V-11C]]></NAME>
@@ -553409,50 +553726,80 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Farebné filtre GODOX CF-07 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Blesk GODOX TT350 TTL pre Nikon]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Blesk GODOX TT350N Blesk GODOX TT350N pre Nikon je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Nikon. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Blesk GODOX TT350N</h3>
-<p>Blesk GODOX TT350N pre Nikon je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Nikon. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do 1/8000 s a bezdrôtový systém Godox X s funkciami Master a Slave. Váži len 210 g a pri sklopenej hlave dopredu má výšku iba 9,5 cm, vďaka čomu sa skvele hodí k kompaktným fotoaparátom a udrží vašu fotografickú výbavu ľahkú. Súčasťou sady je difúzor, statív, prenosné puzdro a originálne balenie. Na začatie budete potrebovať dve batérie typu AA (R6), ktoré nie sú súčasťou sady.</p>
+<NAME><![CDATA[Blesk GODOX TT350N pre Nikon]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Blesk Godox TT350N Blesk GODOX TT350N pre Nikon je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Nikon. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do 1/8…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Blesk Godox TT350N</h3>
+<p>Blesk GODOX TT350N pre Nikon je kompaktný model s vodicím číslom 36, určený pre bezzrkadlové fotoaparáty Nikon. Podporuje automatický režim TTL, synchronizáciu blesku HSS až do 1/8 000 s a bezdrôtový systém Godox X s funkciami Master a Slave. Váži len 210 g a keď je hlava naklonená dopredu, jej výška je iba 9,5 cm, vďaka čomu sa skvele hodí ku kompaktným fotoaparátom a udrží vašu fotografickú výbavu ľahkú. Súčasťou sady je difúzor, statív a prenosné puzdro. Na začiatok si budete musieť zakúpiť dve batérie typu AA (R6), ktoré nie sú súčasťou sady.</p>
 <p>
-<img alt="Blesk Godox TT350 s hlavou otočenou doľava, zobrazený pod uhlom na svetlom pozadí" border="0" src="https://assets.innpro.pl/23303/30532/1.jpg"/>
-</p><h3>Kompaktný dizajn pre každodenné fotografovanie</h3>
-<p>Blesk Godox TT350N bol navrhnutý s ohľadom na používateľov bezzrkadloviek, takže jeho malé rozmery dobre ladia s kompaktnými telami fotoaparátov. Blesk má rozmery 14 × 6 × 3,5 cm a váži 210 g, takže v taške na fotoaparát zaberá veľmi málo miesta. Keď je nasadený na fotoaparát a hlava smeruje dopredu, je vysoký len 9,5 cm, vďaka čomu je jeho používanie pri fotografovaní v teréne pohodlnejšie. Ľahká konštrukcia zvyšuje pohodlie pri dlhších fotografických seansách a samotná súprava zostáva dobre vyvážená.</p>
-<p>
-<img alt="Čierny blesk Godox TT350 namontovaný na plastovom stojane, pohľad zpredu na svetlom pozadí" border="0" src="https://assets.innpro.pl/23303/30532/2.jpg"/>
-</p><h3>Nastaviteľná hlava a ovládanie osvetlenia</h3>
-<p>Hlava blesku sa otáča horizontálne o 270° a vertikálne v rozmedzí od -7° do +90°, čo uľahčuje odraz svetla od stien a stropu. Vďaka tomu dosiahnete mäkšie a prirodzenejšie osvetlenie bez potreby ďalšieho príslušenstva. Vstavaný zoom pracuje v rozsahu 24–105 mm a môže fungovať v automatickom aj manuálnom režime, pričom uhol lúča sa prispôsobuje ohniskovej vzdialenosti objektívu. Hlava je tiež vybavená širokouhlým difúzorom zodpovedajúcim ohniskovej vzdialenosti približne 15 mm a reflektorom, pričom súčasťou sady je aj dodatočný difúzor na zjemnenie svetla.</p>
-<p>
-<img alt="Pohľad zozadu na blesk Godox TT350 s LCD displejom s oranžovým podsvietením a ovládacími tlačidlami" border="0" src="https://assets.innpro.pl/23303/30532/3.jpg"/>
-</p><h3>Rôzne prevádzkové režimy a bezdrôtový systém Godox X</h3>
-<p>Blesk ponúka režim TTL, ktorý automaticky prispôsobuje výkon blesku, čím uľahčuje fotografovanie v rôznych svetelných podmienkach. K dispozícii je aj manuálny režim s funkciami S1 a S2, ako aj režim Multi-stroboscopic, ktorý umožňuje viacero zábleskov počas jednej expozície. Vstavaný vysielač systému Godox X vám umožňuje ovládať iné kompatibilné blesky ako hlavná jednotka (Master) alebo fungovať ako podriadená jednotka (Slave) ovládaná externým spúšťačom. Vďaka tomu je možné model TT350N používať ako samostatný blesk, tak aj ako súčasť rozsiahlejšieho osvetľovacieho systému.</p>
-<p>
-<img alt="Bočný pohľad na blesk Godox TT350 s naklonenou hlavou, namontovaný na stojane, na svetlom pozadí" border="0" src="https://assets.innpro.pl/23303/30532/4.jpg"/>
+<img alt="Kompaktný blesk TT350 s displejom a ovládacími tlačidlami stojí vedľa fotoaparátu na drevenom stole." border="0" src="https://assets.innpro.pl/23303/30532/2-af20c807-7f5e-4bcf-a79a-7910647d1259.jpg"/>
 </p>
-<h3>Súčasť balenia</h3>
-<ul class="list-disc pl-5"><li>Blesk Godox TT350N</li><li>Difúzor</li><li>Stojan</li><li>Prenosné puzdro</li><li>Obal výrobcu</li></ul>
+<h3>Kompaktný dizajn pre každodenné fotografovanie</h3>
+<p>Blesk Godox TT350N bol navrhnutý s ohľadom na používateľov bezzrkadloviek, takže jeho malé rozmery sa dobre hodia ku kompaktným telám fotoaparátov. Blesk má rozmery 14 × 6 × 3,5 cm a váži 210 g, takže v taške na fotoaparát zaberá veľmi málo miesta. Keď je namontovaný na fotoaparáte a hlavica smeruje dopredu, je vysoký len 9,5 cm, čo zaisťuje pohodlnejšie používanie pri fotografovaní v teréne. Ľahká konštrukcia zvyšuje pohodlie pri dlhodobom používaní fotoaparátu a samotná súprava zostáva dobre vyvážená.</p>
+<p>
+<img alt="Blesk TT350 namontovaný na fotoaparáte Nikon, ktorý stojí na drevenom stole vedľa šálky." border="0" src="https://assets.innpro.pl/23303/30532/1-57bbf32f-2caa-4d59-afb8-fe3f46cf6601.jpg"/>
+</p>
+<h3>Nastaviteľná hlava a ovládanie osvetlenia</h3>
+<p>Hlava blesku sa otáča horizontálne o 270° a vertikálne v rozsahu od -7° do +90°, čo uľahčuje odraz svetla od stien a stropu. Vďaka tomu môžete dosiahnuť mäkšie a prirodzenejšie osvetlenie bez potreby ďalšieho príslušenstva. Vstavaný zoom pracuje v rozsahu 24–105 mm a môže fungovať v automatickom aj manuálnom režime, pričom uhol lúča sa prispôsobuje ohniskovej vzdialenosti objektívu. Hlava je tiež vybavená širokouhlým difúzorom zodpovedajúcim ohniskovej vzdialenosti približne 15 mm a reflektorom, pričom súčasťou sady je aj dodatočný difúzor na zmäkčenie svetla.</p>
+<p>
+<img alt="Blesk Godox namontovaný na fotoaparáte Nikon D500, ktorý stojí na stole v exteriéri." border="0" src="https://assets.innpro.pl/23303/30532/4-53f7d367-15de-44c6-81b2-3ba1f09c5fa4.jpg"/>
+</p>
+<h3>Rôzne prevádzkové režimy a bezdrôtový systém Godox X</h3>
+<p>Blesk ponúka režim TTL, ktorý automaticky prispôsobuje výkon blesku, čím uľahčuje fotografovanie v rôznych svetelných podmienkach. K dispozícii je aj manuálny režim s funkciami S1 a S2, ako aj režim Multi-strobe, ktorý umožňuje viacnásobné blesky počas jednej expozície. Vstavaný vysielač systému Godox X vám umožňuje ovládať iné kompatibilné blesky ako hlavná jednotka (Master) alebo fungovať ako podriadená jednotka (Slave) ovládaná externým spúšťačom. Vďaka tomu je možné model TT350N používať ako samostatný blesk, tak aj ako súčasť rozsiahlejšieho osvetľovacieho systému.</p>
+<p>
+<img alt="Blesk TT350 s vyklopenou hlavou, namontovaný na fotoaparáte Nikon na stole v exteriéri." border="0" src="https://assets.innpro.pl/23303/30532/5-c429c22e-4102-4c23-8017-5a1162816471.jpg"/>
+</p>
+<h3>Súčasťou sady</h3>
+<ul class="list-disc pl-5">
+<li>Blesk Godox TT350N</li>
+<li>Difúzor</li>
+<li>Stojan</li>
+<li>Prenosné puzdro</li>
+</ul>
 <div class="table-wrapper">
-<p> </p>
-<h3></h3>
+<p> </p>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Godox</td></tr><tr><th>Model</th><td>TT350N</td></tr><tr><th>Kompatibilita</th><td>Fotoaparáty Nikon</td></tr><tr><th>Vodcovské číslo</th><td>36 (ISO 100, 105 mm)</td></tr><tr><th>Teplota farby</th><td>5600 K ±200 K</td></tr><tr><th>Synchronizácia HSS</th><td>až 1/8000 s</td></tr><tr><th>Prevádzkové režimy</th><td>TTL, M, Multi, S1, S2, Master, Slave</td></tr><tr><th>Zoom</th><td>24–105 mm</td></tr><tr><th>Rozsah pohybu hlavy</th><td>-7° až +90° (vertikálne), 0° až 270° (horizontálne)</td></tr><tr><th>Trvanie záblesku</th><td>1/350–1/20 000 s</td></tr><tr><th>Maximálny čas dobíjania</th><td>2,2 s</td></tr><tr><th>Displej</th><td>LCD</td></tr><tr><th>Počet skupín/kanálov</th><td>3/16</td></tr><tr><th>Spúšťanie</th><td>pätica, testovacie tlačidlo, systém Godox X</td></tr><tr><th>Napájanie</th><td>2 × AA (R6), nie sú súčasťou balenia</td></tr><tr><th>Kapacita</th><td>minimálne 200 plných zábleskov</td></tr><tr><th>Aktualizácia softvéru</th><td>micro USB</td></tr><tr><th>Slot na batériový modul</th><td>Nie</td></tr><tr><th>Rozmery</th><td>14 × 6 × 3,5 cm</td></tr><tr><th>Hmotnosť</th><td>210 g</td></tr><tr></tr>
+<tr><th>Výrobca</th><td>Godox</td></tr>
+<tr><th>Model</th><td>TT350N</td></tr>
+<tr><th>Kompatibilita</th><td>Fotoaparáty Nikon</td></tr>
+<tr><th>Vodivé číslo</th><td>36 (ISO 100, 105 mm)</td></tr>
+<tr><th>Teplota farby</th><td>5 600 K ± 200 K</td></tr>
+<tr><th>Synchronizácia HSS</th><td>Až 1/8 000 s</td></tr>
+<tr><th>Prevádzkové režimy</th><td>TTL, M, Multi, S1, S2, Master, Slave</td></tr>
+<tr><th>Zoom</th><td>24–105 mm</td></tr>
+<tr><th>Rozsah pohybu hlavy</th><td>-7° až +90° (vertikálne), 0° až 270° (horizontálne)</td></tr>
+<tr><th>Trvanie záblesku</th><td>1/350–1/20 000 s</td></tr>
+<tr><th>Maximálna doba nabíjania</th><td>2,2 s</td></tr>
+<tr><th>Displej</th><td>LCD</td></tr>
+<tr><th>Počet skupín/kanálov</th><td>3/16</td></tr>
+<tr><th>Spúšťanie</th><td>Hot shoe, testovacie tlačidlo, systém Godox X</td></tr>
+<tr><th>Napájanie</th><td>2 × AA (R6), nie sú súčasťou balenia</td></tr>
+<tr><th>Kapacita</th><td>Min. 200 zábleskov pri plnom výkone</td></tr>
+<tr><th>Aktualizácia firmvéru</th><td>Micro USB</td></tr>
+<tr><th>Slot na batériový modul</th><td>Nie</td></tr>
+<tr><th>Rozmery</th><td>14 × 6 × 3,5 cm</td></tr>
+<tr><th>Hmotnosť</th><td>210 g</td></tr>
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/fotograficke-a-video-svetla/">Fotografické a video svetlá</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/fotoatelier-2/">Fotoateliér</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[GODOX]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>091001</CODE>
 <EAN>6952344211076</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Nikon - obrázok 1">https://b2b.innpro.sk/hpeciai/02b68a8be2eb776e81af33e5412617c9/62887_1_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Nikon - obrázok 2">https://b2b.innpro.sk/hpeciai/dc26eb0ff2dac4f95b6abc7d5cf06bda/62887_2_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Nikon - obrázok 3">https://b2b.innpro.sk/hpeciai/bcb9652c177cfc5f79ded2ae2b1f3989/62887_3_1.webp</IMAGE>
-  <IMAGE description="Blesk GODOX TT350 TTL pre Nikon - obrázok 4">https://b2b.innpro.sk/hpeciai/9631026282b9f6cac3a71f3fdf922372/62887_4_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350N pre Nikon - obrázok 1">https://b2b.innpro.sk/hpeciai/a7de4cfa51cfd466fba6c7e2e5c958fd/62887_1_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350N pre Nikon - obrázok 2">https://b2b.innpro.sk/hpeciai/7d6fd42cc881a63c76f57964d1db2812/62887_2_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350N pre Nikon - obrázok 3">https://b2b.innpro.sk/hpeciai/5fe7bd4ba8502af2900fd883cc794fd6/62887_3_1.webp</IMAGE>
+  <IMAGE description="Blesk GODOX TT350N pre Nikon - obrázok 4">https://b2b.innpro.sk/hpeciai/58d96eb06bad0eac90f47c75b4945fd2/62887_4_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -553478,8 +553825,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>62.45</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Blesk GODOX TT350 TTL pre Nikon | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Blesk GODOX TT350 TTL pre Nikon – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Blesk GODOX TT350N pre Nikon | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Blesk GODOX TT350N pre Nikon – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Diaľkový spúšťač GODOX X1R TTL pre Sony]]></NAME>
@@ -566236,8 +566583,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Elektrický ventilátor GOOLOO F3 (biely) - obrázok 1">https://b2b.innpro.sk/hpeciai/9ef004bdf027e4187de79ccc7c924991/63878_1_1.webp</IMAGE>
-  <IMAGE description="Elektrický ventilátor GOOLOO F3 (biely) - obrázok 2">https://b2b.innpro.sk/hpeciai/703799f3f59fc1b321f2aa95e2010325/63878_2_1.webp</IMAGE>
+  <IMAGE description="Elektrický ventilátor GOOLOO F3 (biely) - obrázok 1">https://b2b.innpro.sk/hpeciai/5a4de99f08a0c620d9fa9ea6d8cecd80/63878_1_1.webp</IMAGE>
+  <IMAGE description="Elektrický ventilátor GOOLOO F3 (biely) - obrázok 2">https://b2b.innpro.sk/hpeciai/2161d66e24850745c3241529a0cee1b7/63878_2_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -573688,7 +574035,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>45.60</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>43.70</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>824.50</PRICE_VAT>
 <PURCHASE_PRICE>627.50</PURCHASE_PRICE>
@@ -579661,6 +580008,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -599880,7 +600228,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.03</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>7.40</PRICE_VAT>
@@ -602924,8 +603272,38 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Mini PC MINIS FORUM X1-470 Ryzen AI 9 HX 470 barebone – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Grownsy Nasal Aspirator on Newborn]]></NAME>
-<DESCRIPTION><![CDATA[
+<NAME><![CDATA[Použitie nosného odsávača Grownsy u novorodenca]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Nosný odsávač Grownsy pre novorodencov Elektrický nosný odsávač Grownsy 610 pomáha jemne a účinne odstraňovať nosné sekréty u novorodencov a dojčiat, čím uľahčuje vášmu dieťaťu voľné dýchanie.…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Nosný odsávač Grownsy pre novorodencov</h3>
+<p>Elektrický nosný odsávač Grownsy 610 pomáha jemne a účinne odstraňovať nosné sekréty u novorodencov a dojčiat, čím uľahčuje vášmu dieťaťu voľné dýchanie. Prístroj ponúka 9 úrovní sily odsávania, vďaka čomu môžete intenzitu prispôsobiť potrebám vášho dieťatka. Aspirátor je vybavený mäkkými silikónovými nástavcami bez obsahu BPA, funkciou prehrávania uspávanky a bieleho šumu a jemným nočným osvetlením. Vďaka nabíjateľnej batérii USB-C, prehľadnému displeju a kompaktnému dizajnu je zariadenie vhodné na každodenné používanie doma aj na cestách.</p>
+<p>
+<img alt="Elektrický nosný odsávač s podsvieteným displejom na nočnom stolíku vedľa ženy, ktorá kŕmi svoje dieťa z fľašky." border="0" src="https://assets.innpro.pl/25476/33711/1-c0671e4b-e766-43af-8967-0018c015714d.jpg"/>
+</p><h3>9 úrovní sania a mäkké silikónové nástavce</h3>
+<p>Nosný odsávač Grownsy vám umožňuje vybrať si z 9 úrovní sania, takže môžete prispôsobiť výkon zariadenia potrebám vášho dieťaťa a hustote hlienu. Toto nastavenie vám umožňuje začať čistenie na najnižšej úrovni a podľa potreby postupne zvyšovať intenzitu. Mäkké, koži šetrné silikónové nástavce zabezpečujú jemný kontakt s citlivým nosom dieťaťa. Sú vyrobené z potravinárskeho silikónu bez obsahu BPA.</p>
+<p>
+<img alt="Základňa odsávača s ovládacím panelom, ikonami melódií a osvetlenia a USB káblom na drevenej doske stola." border="0" src="https://assets.innpro.pl/25476/33711/3-cb794a23-f097-4840-9a67-fb0bc807f045.jpg"/>
+</p><h3>Ukludňujúce melódie a nočné svetielko</h3>
+<p>Vstavaná funkcia prehrávania uspávaniek a bieleho šumu pomáha vytvoriť pokojnejšiu atmosféru počas čistenia nosa. Zvuky môžu dieťa odpútať od samotného postupu a uľahčiť tak rodičom jeho vykonanie. Vďaka ovládaniu hlasitosti môžete úroveň zvuku prispôsobiť okolitému prostrediu. Aspirátor je tiež vybavený jemným nočným osvetlením, ktoré uľahčuje starostlivosť o vaše dieťa po zotmení, bez nutnosti zapínať hlavné osvetlenie v izbe.</p>
+<p>
+<img alt="Matka ovláda ručný odsávač s podsvieteným ovládacím panelom, zatiaľ čo jej dieťa leží vedľa nej." border="0" src="https://assets.innpro.pl/25476/33711/4-f78165a7-cf97-47c3-96e5-98a04eff0459.jpg"/>
+</p><h3>Nabíjanie cez USB-C a pohodlné ovládanie</h3>
+<p>Nosný aspirátor Grownsy je vybavený dobíjateľnou batériou, ktorá sa nabíja cez port USB-C, takže nepotrebujete jednorazové batérie. Kompaktné rozmery zariadenia uľahčujú jeho uskladnenie a prenášanie na cestách. Ovládací panel je vybavený displejom, ktorý zobrazuje zvolenú úroveň sania, stav nabitia batérie a aktívne funkcie. Pomocou tlačidiel môžete rýchlo nastaviť sací výkon, nastaviť hlasitosť zvuku a zapnúť osvetlenie.</p>
+<p>
+<img alt="Priehľadná komora odsávača so silikónovou špičkou a hadičkou a náhradná špička ležiaca vedľa nej." border="0" src="https://assets.innpro.pl/25476/33711/5-8363b644-8bed-4839-ac24-b2017f441f37.jpg"/>
+</p><h3>Ľahké čistenie a hygienické používanie</h3>
+<p>Časti odsávačky, ktoré prichádzajú do kontaktu s sekrétmi – vrátane silikónových nástavcov a priehľadnej zbernej komory – je možné odňať a umyť pod tečúcou vodou. Niektoré časti zariadenia sú vhodné do umývačky riadu, čo uľahčuje ich udržiavanie v čistote. Priehľadná komora vám umožňuje sledovať nahromadené sekréty v reálnom čase a vďaka možnosti rozobratia častí je ich dôkladné umytie po každom použití veľmi jednoduché.</p>
+<p>
+<img alt="Lekárka v bielom plášti drží v ruke nosný odsávač GROWNSY s LED displejom." border="0" src="https://assets.innpro.pl/25476/33711/6-d6786f09-81f1-4fe1-8cfd-0204a7544e13.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Grownsy</td></tr><tr><th>Model</th><td>610</td></tr><tr><th>Typ</th><td>elektrický nosný odsávač</td></tr><tr><th>Určené použitie</th><td>novorodenci a dojčatá</td></tr><tr><th>Počet úrovní sania</th><td>9</td></tr><tr><th>Materiál špičky</th><td>silikón vhodný pre styk s potravinami</td></tr><tr><th>Bez BPA</th><td>áno</td></tr><tr><th>Zvukové funkcie</th><td>ukolébavky a biely šum</td></tr><tr><th>Regulácia hlasitosti</th><td>áno</td></tr><tr><th>Nočné osvetlenie</th><td>áno</td></tr><tr><th>Displej</th><td>digitálny</td></tr><tr><th>Indikátor stavu batérie</th><td>áno</td></tr><tr><th>Zdroj napájania</th><td>nabíjateľná batéria</td></tr><tr><th>Nabíjanie</th><td>USB-C</td></tr><tr><th>Čistenie</th><td>ručné umývanie; vybrané odnímateľné časti možno umývať v umývačke riadu</td></tr><tr><th>Farba</th><td>biela a sivá</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
 <p>Ďalšie produkty nájdete v kategórii <a href="/matka-a-dieta/">Matka a dieťa</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Grownsy]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -602936,10 +603314,57 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Zdravie a starostlivosť > Matka a dieťa]]></CATEGORY>
   <CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY>
 </CATEGORIES>
+<IMAGES>
+  <IMAGE description="Použitie nosného odsávača Grownsy u novorodenca">https://b2b.innpro.sk/hpeciai/b9b6d756448afb493ed60cb0594323da/65323_1_1.webp</IMAGE>
+</IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Značka]]></NAME>
     <VALUE><![CDATA[Grownsy]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[elektrický nosný odsávač]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Určené použitie]]></NAME>
+    <VALUE><![CDATA[novorodenci a dojčatá]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet úrovní sania]]></NAME>
+    <VALUE><![CDATA[9]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiál špičky]]></NAME>
+    <VALUE><![CDATA[silikón vhodný pre styk s potravinami]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zvukové funkcie]]></NAME>
+    <VALUE><![CDATA[ukolébavky a biely šum]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Displej]]></NAME>
+    <VALUE><![CDATA[digitálny]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zdroj napájania]]></NAME>
+    <VALUE><![CDATA[nabíjateľná batéria]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nabíjanie]]></NAME>
+    <VALUE><![CDATA[USB-C]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Čistenie]]></NAME>
+    <VALUE><![CDATA[ručné umývanie; vybrané odnímateľné časti možno umývať v umývačke riadu]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[biela a sivá]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[USB-C]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
@@ -602952,8 +603377,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>28.26</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Grownsy Nasal Aspirator on Newborn | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Grownsy Nasal Aspirator on Newborn – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Použitie nosného odsávača Grownsy u novorodenca | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Použitie nosného odsávača Grownsy u novorodenca – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Nosný odsávač Ggorwnsy s funkciou automatického čistenia]]></NAME>
@@ -614964,7 +615389,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.66</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.67</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>188.50</PRICE_VAT>
 <PURCHASE_PRICE>133.26</PURCHASE_PRICE>
@@ -615994,7 +616419,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.31</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.28</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>42.90</PRICE_VAT>
@@ -616090,7 +616515,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.31</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>58.50</PRICE_VAT>
@@ -616198,7 +616623,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.72</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.67</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>120.90</PRICE_VAT>
@@ -616313,7 +616738,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.83</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.77</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <FREE_SHIPPING>0</FREE_SHIPPING>
@@ -616427,7 +616852,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.67</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>107.50</PRICE_VAT>
@@ -616745,7 +617170,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.70</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>124.50</PRICE_VAT>
@@ -616913,7 +617338,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.87</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.81</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>162.50</PRICE_VAT>
@@ -617080,7 +617505,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.54</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.25</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>199.00</PRICE_VAT>
@@ -617218,7 +617643,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.78</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.74</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>103.90</PRICE_VAT>
@@ -617281,7 +617706,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>0</VISIBLE>
 <VISIBILITY>hidden</VISIBILITY>
-<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.03</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>29.00</PRICE_VAT>
 <PURCHASE_PRICE>20.47</PURCHASE_PRICE>
@@ -617343,7 +617768,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>0</VISIBLE>
 <VISIBILITY>hidden</VISIBILITY>
-<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.03</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>35.50</PRICE_VAT>
 <PURCHASE_PRICE>25.07</PURCHASE_PRICE>
@@ -617405,7 +617830,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>0</VISIBLE>
 <VISIBILITY>hidden</VISIBILITY>
-<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.03</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>76.50</PRICE_VAT>
 <PURCHASE_PRICE>54.06</PURCHASE_PRICE>
@@ -617632,6 +618057,222 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Bezdrôtový tyčový vysávač VEXILAR V18 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Názalný odsávač GROWNSY – odsávacie nástavce BC024]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Elektrický nosný odsávač GROWNSY + 3 nástavce BC024 Elektrický nosný aspirátor GROWNSY BC024 účinne odstraňuje hlien z detského nosa, čím pomáha vyčistiť dýchacie cesty a uľahčiť dýchanie. Prístroj…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Elektrický nosný odsávač GROWNSY + 3 nástavce BC024</h3>
+<p>Elektrický nosný aspirátor GROWNSY BC024 účinne odstraňuje hlien z detského nosa, čím pomáha vyčistiť dýchacie cesty a uľahčiť dýchanie. Prístroj ponúka 3 úrovne sily odsávania, 3 vymeniteľné nástavce, podsvietený displej a funkciu prehrávania hudby. Vďaka ergonomickej konštrukcii, prehľadnému displeju a intuitívnym tlačidlám je každodenné používanie hračkou. Aspirátor je vybavený aj vstavanou dobíjateľnou batériou, ktorú možno nabíjať cez USB-C, a odnímateľnými časťami, ktoré sa po použití dajú ľahko vyčistiť.</p>
+<p>
+<img alt="Biely elektrický nosný odsávač pre dojčatá s displejom a vymeniteľnými silikónovými nástavcami." border="0" src="https://assets.innpro.pl/25474/33709/1-cef5045d-f9b5-4118-9c67-e56188546357.jpg"/>
+</p><h3>3 úrovne sily odsávania a vymeniteľné nástavce</h3>
+<p>Nosný odsávač GROWNSY ponúka 3 úrovne sily odsávania – jemnú, strednú a silnú –, čo vám umožňuje prispôsobiť intenzitu odsávania množstvu a konzistencii hlienu. Jemnejší režim je ideálny na šetrné čistenie nosa, zatiaľ čo silnejší režim pomôže pri odstraňovaní odolnejšieho hlienu. Tri vymeniteľné nástavce vám umožňujú prispôsobiť odsávačku potrebám vášho dieťaťa, čím zvyšujú komfort každodennej starostlivosti.</p>
+<p>
+<img alt="Používanie elektrického nosného odsávača s osvetleným nástavcom v blízkosti nosa dojčaťa, s grafickým motívom hudobnej noty" border="0" src="https://assets.innpro.pl/25474/33709/3-ab0929d9-dda3-4f15-aacd-2aef27bd95ab.jpg"/>
+</p><h3>Osvetlenie a hudba pre pokojnejší priebeh starostlivosti</h3>
+<p>Vstavané osvetlenie a funkcia prehrávania hudby pomáhajú odlákať pozornosť vášho dieťaťa počas čistenia nosa. Farebné svetlo upúta pozornosť dieťaťa a hudba môže zmierniť jeho obavy z tohto postupu. Táto funkcia uľahčuje rodičom vykonávanie rutinných starostlivostných činností, najmä ak je dieťa nepokojné alebo sa bráni odsávaniu nosných sekrétov.</p>
+<p>
+<img alt="Biely nosný odsávač GROWNSY s LCD displejom a osvetleným priehľadným nástavcom." border="0" src="https://assets.innpro.pl/25474/33709/2-4dfbe9ed-19d4-4d19-a2b8-f19c4815799a.jpg"/>
+</p><h3>Ergonomický dizajn a jednoduché čistenie</h3>
+<p>Tvarované telo zariadenia zaisťuje pevný úchop a umožňuje pohodlnú obsluhu odsávačky jednou rukou. Tlačidlá na tele zariadenia umožňujú rýchle prepínanie medzi funkciami a digitálny displej zobrazuje zvolený prevádzkový režim. Po dokončení odsávania je možné časti, ktoré prichádzajú do kontaktu s sekrétmi, rozobrať a dôkladne umyť. Vďaka tomu je zariadenie ľahko udržiavať v čistote a pripravené na ďalšie použitie.</p>
+<p>
+<img alt="Kábel USB-C zapojený do nabíjacieho portu na spodnej strane ergonomického puzdra odsávačky." border="0" src="https://assets.innpro.pl/25474/33709/4-9fc88188-3140-4485-83ab-f27a06f7b84d.jpg"/>
+</p><h3>Vstavaná batéria a nabíjanie cez USB-C</h3>
+<p>Odsávačka GROWNSY BC024 je napájaná vstavanou batériou, ktorú je možné nabíjať cez port USB-C. To vám umožňuje používať zariadenie bez pripojenia k napájaciemu káblu. Vďaka kompaktnému dizajnu sa zariadenie ľahko skladuje a prenáša, takže je ideálne ako na každodennú starostlivosť doma, tak aj na cestách.</p>
+<p>
+<img alt="Biela nosná odsávačka s portom USB-C položená na stole, v pozadí spiace dieťa v detskej postieľke." border="0" src="https://assets.innpro.pl/25474/33709/5-09bc6ea2-d190-4e4f-9e5c-7931d8de4f72.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>Elektrický nosný odsávač GROWNSY BC024</li><li>Vymeniteľné nosné nástavce x 3</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>GROWNSY</td></tr><tr><th>Model</th><td>BC024</td></tr><tr><th>Typ</th><td>elektrický nosný odsávač</td></tr><tr><th>Farba</th><td>biela</td></tr><tr><th>Počet úrovní sania</th><td>3</td></tr><tr><th>Režimy sania</th><td>jemný, stredný, silný</td></tr><tr><th>Displej</th><td>digitálny</td></tr><tr><th>Ďalšie funkcie</th><td>LED podsvietenie, prehrávanie hudby</td></tr><tr><th>Zdroj napájania</th><td>vstavaná dobíjateľná batéria</td></tr><tr><th>Nabíjací port</th><td>USB-C</td></tr><tr><th>Dizajn</th><td>ergonomický, bezdrôtový</td></tr><tr><th>Čistenie</th><td>odnímateľné časti, ktoré prichádzajú do kontaktu s sekrétmi</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/matka-a-dieta/">Matka a dieťa</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Grownsy]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>089162</CODE>
+<EAN>6979923130221</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť > Matka a dieťa]]></CATEGORY>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Názalný odsávač GROWNSY – odsávacie nástavce BC024">https://b2b.innpro.sk/hpeciai/e6d3ecbd05792dec79ad854b9bda2a9d/66760_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Grownsy]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[elektrický nosný odsávač]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[biela]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet úrovní sania]]></NAME>
+    <VALUE><![CDATA[3]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Režimy sania]]></NAME>
+    <VALUE><![CDATA[jemný, stredný, silný]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Displej]]></NAME>
+    <VALUE><![CDATA[digitálny]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ďalšie funkcie]]></NAME>
+    <VALUE><![CDATA[LED podsvietenie, prehrávanie hudby]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zdroj napájania]]></NAME>
+    <VALUE><![CDATA[vstavaná dobíjateľná batéria]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nabíjací port]]></NAME>
+    <VALUE><![CDATA[USB-C]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Dizajn]]></NAME>
+    <VALUE><![CDATA[ergonomický, bezdrôtový]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Čistenie]]></NAME>
+    <VALUE><![CDATA[odnímateľné časti, ktoré prichádzajú do kontaktu s sekrétmi]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[USB-C]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.35</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>29.50</PRICE_VAT>
+<PURCHASE_PRICE>20.68</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Názalný odsávač GROWNSY – odsávacie nástavce BC024 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Názalný odsávač GROWNSY – odsávacie nástavce BC024 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Ohrievač fliaš GROWNSY s nočným osvetlením K301]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Ohrievač fľašiek GROWNSY s nočným osvetlením K301 Ohrievač fľašiek GROWNSY K301 je zariadenie určené na rýchle ohrievanie a dávkovanie vody potrebnej na prípravu detskej výživy. Vďaka 4 nastaveniam…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Ohrievač fľašiek GROWNSY s nočným osvetlením K301</h3>
+<p>Ohrievač fľašiek GROWNSY K301 je zariadenie určené na rýchle ohrievanie a dávkovanie vody potrebnej na prípravu detskej výživy. Vďaka 4 nastaveniam teploty (37 °C, 40 °C, 50 °C a 70 °C) a inteligentnému termostatu dokáže voda udržať zvolenú teplotu až 72 hodín. Dávkovač vám umožňuje naliať vodu do fľašky za približne 25 sekúnd, bez toho, aby ste museli zakaždým používať rýchlovarnú kanvicu. Zariadenie je vybavené aj LED nočným osvetlením, nepretekajúcou nádržou a systémom proti odkvapkávaniu. Je kompatibilné s väčšinou bežných detských fľašiek a vďaka jednoduchému otočnému ovládaču je každodenné používanie hračkou.</p>
+<p>
+<img alt="Ohrievač fľašiek GROWNSY s nočným osvetlením na svetlej kuchynskej doske" border="0" src="https://assets.innpro.pl/25475/33710/1-01ea9b22-f9a1-4f69-8086-87d54507a7aa.jpg"/>
+</p><h3>4 nastavenia teploty – od 37 °C do 70 °C</h3>
+<p>GROWNSY K301 vám umožňuje vybrať si zo 4 teplôt vody: 37 °C, 40 °C, 50 °C alebo 70 °C. Nižšie nastavenia poskytujú vodu s teplotou blížiacou sa telesnej teplote, zatiaľ čo vyššie nastavenia sú užitočné pri príprave umelého mlieka, ktoré vyžaduje teplejšiu vodu. Teplotu nastavujete pomocou praktického otočného ovládača, bez potreby ručného miešania teplej a studenej vody. Pri príprave umelého mlieka vždy postupujte podľa odporúčaní výrobcu týkajúcich sa teploty vody.</p>
+<p>
+<img alt="Dávkovač vody Grownsy s otočným ovládačom teploty nalieva vodu do fľašky; v pozadí žena kŕmi dieťa." border="0" src="https://assets.innpro.pl/25475/33710/2-414537f2-b081-44d4-8377-45497a0f21bd.jpg"/>
+</p><h3>Konštantná teplota až 72 hodín</h3>
+<p>Inteligentný termostat udržiava zvolenú teplotu vody až 72 hodín, vďaka čomu môže ohrievač medzi kŕmeniami zostať v pohotovostnom režime. Stačí umiestniť fľašu pod výtok a stlačiť tlačidlo, aby sa nalialo príslušné množstvo vody. Potom pridajte detskú výživu a zamiešajte ju podľa pokynov na obale. Z hygienických dôvodov sa odporúča pravidelne vymieňať vodu a čistiť zásobník, a to bez ohľadu na maximálnu dobu prevádzky termostatu.</p>
+<p>
+<img alt="Ovládací panel ohrievača s otočným ovládačom teploty vody a páčkou dávkovača." border="0" src="https://assets.innpro.pl/25475/33710/3-88ea51cc-a6bf-4087-95ad-b8e0e3e1eb8b.jpg"/>
+</p><h3>LED nočné osvetlenie – pohodlné kŕmenie po zotmení</h3>
+<p>LED nočné osvetlenie osvetľuje priestor, kde je umiestnená fľaša, vďaka čomu môžete pohodlne nalievať vodu bez zapínania hlavného osvetlenia. To je obzvlášť užitočné pri nočnom kŕmení, keď nechcete zbytočne budiť svoje dieťa. Okrem toho systém proti odkvapkávaniu zabraňuje vytekaniu zvyšnej vody z dávkovača po dokončení nalievania. Pomáha to udržiavať pracovnú dosku čistú a zabraňuje tvorbe mokrých škvŕn pod zariadením.</p>
+<p>
+<img alt="Dávkovač vody GROWNSY na nočnom stolíku so zapnutým LED podsvietením, z ktorého tečie voda do detskej fľašky." border="0" src="https://assets.innpro.pl/25475/33710/4-0b29cd74-cc4b-4623-a7f9-b8c9da833dec.jpg"/>
+</p><h3>Nádrž odolná proti úniku a kompatibilita s bežnými fľašami</h3>
+<p>Ohrievač fliaš GROWNSY K301 je vybavený odnímateľnou nádržou na vodu odolnou proti úniku, ktorú možno ľahko naplniť a vyčistiť. Materiály použité v zariadení neobsahujú BPA. Priestor pod dávkovačom pojme väčšinu bežných detských fliaš, takže nemusíte používať nádoby len jednej konkrétnej značky. Ovládanie pomocou otočného gombíka a tlačidla vám umožňuje efektívne nalievať vodu aj jednou rukou.</p>
+<p>
+<img alt="Priehľadná nádrž na vodu ohrievača vody Grownsy s otočným ovládačom teploty a páčkou dávkovača." border="0" src="https://assets.innpro.pl/25475/33710/5-d6e79bf2-fec7-4914-8f82-32bc0cab6291.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>GROWNSY</td></tr><tr><th>Model</th><td>K301</td></tr><tr><th>Typ</th><td>ohrev a dávkovanie vody na prípravu detskej výživy</td></tr><tr><th>Farba</th><td>biela</td></tr><tr><th>Nastavenia teploty</th><td>37 °C, 40 °C, 50 °C, 70 °C</td></tr><tr><th>Udržanie teploty</th><td>až 72 hodín</td></tr><tr><th>Doba dávkovania vody</th><td>približne 25 sekúnd</td></tr><tr><th>Ovládanie teploty</th><td>otočný gombík</td></tr><tr><th>Nočné osvetlenie</th><td>áno, LED</td></tr><tr><th>Systém proti odkvapkávaniu</th><td>áno</td></tr><tr><th>Nádrž na vodu</th><td>nepretekajúca, odnímateľná</td></tr><tr><th>Materiál</th><td>plast bez obsahu BPA</td></tr><tr><th>Kompatibilita</th><td>s väčšinou bežných detských fliaš</td></tr><tr><th>Napájanie</th><td>sieťové napájanie</td></tr><tr><th>Rozmery</th><td>približne 28,4 × 19,5 × 19,4 cm</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/matka-a-dieta/">Matka a dieťa</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Grownsy]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>089165</CODE>
+<EAN>6979923130023</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť > Matka a dieťa]]></CATEGORY>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Ohrievač fliaš GROWNSY s nočným osvetlením K301">https://b2b.innpro.sk/hpeciai/0d222b61e1b4e32ffbeeff134d5063d2/66761_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Grownsy]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[ohrev a dávkovanie vody na prípravu detskej výživy]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[biela]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nastavenia teploty]]></NAME>
+    <VALUE><![CDATA[37 °C, 40 °C, 50 °C, 70 °C]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Udržanie teploty]]></NAME>
+    <VALUE><![CDATA[až 72 hodín]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Doba dávkovania vody]]></NAME>
+    <VALUE><![CDATA[približne 25 sekúnd]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ovládanie teploty]]></NAME>
+    <VALUE><![CDATA[otočný gombík]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nočné osvetlenie]]></NAME>
+    <VALUE><![CDATA[áno, LED]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nádrž na vodu]]></NAME>
+    <VALUE><![CDATA[nepretekajúca, odnímateľná]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiál]]></NAME>
+    <VALUE><![CDATA[plast bez obsahu BPA]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[s väčšinou bežných detských fliaš]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>1.92</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>36.90</PRICE_VAT>
+<PURCHASE_PRICE>26.06</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Ohrievač fliaš GROWNSY s nočným osvetlením K301 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Ohrievač fliaš GROWNSY s nočným osvetlením K301 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[EJEAS E1PRO Bluetooth Helmet Mounted Headphone]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[EJEAS E1PRO Bluetooth Helmet Mounted Headphone The EJEAS E1PRO is the ideal choice for motorcyclists who want reliable communication without sacrificing riding comfort and safety. Equipped with…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>EJEAS E1PRO Bluetooth Helmet Mounted Headphone</h3>
@@ -617723,10 +618364,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -621866,7 +622509,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088502</CODE>
     <EAN>5905156105713</EAN>
@@ -621992,7 +622635,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
