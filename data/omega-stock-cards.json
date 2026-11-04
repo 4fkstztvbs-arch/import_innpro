@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600735,
+    "nextCardNumber": 202600738,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4406,6 +4406,24 @@
         "nazov": "Meteostanice GARNI 2060 Arcus s 24hod /7denní předpovědí a Wi-Fi",
         "dodavatel": "atos",
         "code": "MS-GARNI 2060 Arcus"
+      },
+      "8594199731545": {
+        "kod": "202600735",
+        "nazov": "Zdroj záložní MHPower DL181-12 Mini UPS 12V 1A",
+        "dodavatel": "atos",
+        "code": "PEN-52901263"
+      },
+      "5905440090022": {
+        "kod": "202600736",
+        "nazov": "Přep. ochrana VCX L1-4-C AC třída T2 (C) 4P 20kA Professional",
+        "dodavatel": "atos",
+        "code": "VCX-C4P-PROF"
+      },
+      "8595563735381": {
+        "kod": "202600737",
+        "nazov": "Baterie LiFePO4 12,8V 100Ah GETI GBL-12-100DV2 Displej",
+        "dodavatel": "atos",
+        "code": "ATO-04250913"
       }
     }
   },
