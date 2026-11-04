@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-03 01:35 UTC.
+Kontrola z 2026-11-04 00:00 UTC.
 
-Solight pri **502** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **501** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -190,7 +190,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `P98` | Solight zásuvka priebežná IP44, 16A, čierna, vypínač | 4 | 50 |
 | `P99B` | Solight rozbočovač, 3 x 10A, čierny, vypínač | 4 | 100 |
 | `1P41` | Solight viazacie nylonové pásky, 4,8 x 350mm, natural, 100ks | 4 | 100 |
-| `WD210` | Solight LED podhľadové svietidlo bodové, 5W, 400lm, 3000K, o | 4 | 100 |
 | `P104` | Solight rozbočovač, 2x 10A, biely-sivý | 4 | 60 |
 | `SSC11X5E` | Solight UTP CAT.5E kábel, RJ45 konektor - RJ45 konektor, 15m | 4 | 50 |
 | `P102` | Solight rozbočovač s podperou, 3 x 10A, biely, vypínač | 4 | 100 |
