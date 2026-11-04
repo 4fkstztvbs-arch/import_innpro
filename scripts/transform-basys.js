@@ -424,9 +424,11 @@ async function main() {
     const manualOverride = MANUAL_PRICE_OVERRIDES[item.objKod];
     if (manualOverride !== undefined) {
       const overrideMarginPct = marginPctWithSupport(manualOverride);
-      if (manualOverride >= price) {
+      // Manuálna cena sa porovnáva s aktuálne najnižšou cenou (aj s aktívnou promo cenou) - promo nikdy nesmie prehrať drahšia manuálna cena.
+      const currentBest = (onPromo && actionPrice != null) ? Math.min(price, actionPrice) : price;
+      if (manualOverride >= currentBest) {
         stats.manualOverrideAboveRegular = (stats.manualOverrideAboveRegular || 0) + 1;
-        console.log(`  Preskakujem manuálnu cenu pre ${item.objKod} (${item.name}): ${manualOverride}€ nie je lacnejšia než aktuálna regulárna cena ${price}€.`);
+        console.log(`  Preskakujem manuálnu cenu pre ${item.objKod} (${item.name}): ${manualOverride}€ nie je lacnejšia než aktuálna cena ${currentBest}€.`);
       } else if (overrideMarginPct >= 0 || BELOW_COST_ALLOWED[item.objKod] === true) {
         if (overrideMarginPct < 0) console.log(`  Manuálna cena pre ${item.objKod} (${item.name}): ${manualOverride}€ je pod nákupnou cenou (${overrideMarginPct.toFixed(1)}% marža), ale je schválená v belowCostAllowedByCode.`);
         onPromo = true;
