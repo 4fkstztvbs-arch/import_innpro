@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600739,
+    "nextCardNumber": 202600744,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4430,6 +4430,36 @@
         "nazov": "Ventilátor DOSPEL POLO 4 100 AZWC s automat. žaluzií 1020010",
         "dodavatel": "atos",
         "code": "ELE-1020010"
+      },
+      "5907489601252": {
+        "kod": "202600739",
+        "nazov": "PU5080EU Photo Studio",
+        "dodavatel": "innpro",
+        "code": "018684"
+      },
+      "0725423005158": {
+        "kod": "202600740",
+        "nazov": "OBDeleven Extension",
+        "dodavatel": "innpro",
+        "code": "083996"
+      },
+      "6971915322126": {
+        "kod": "202600741",
+        "nazov": "MILESEEY Laser Distance",
+        "dodavatel": "innpro",
+        "code": "087887"
+      },
+      "6978763360348": {
+        "kod": "202600742",
+        "nazov": "Digital tire pressure gauge",
+        "dodavatel": "innpro",
+        "code": "089546"
+      },
+      "6975274261072": {
+        "kod": "202600743",
+        "nazov": "ALLPOWERS SOLAX",
+        "dodavatel": "innpro",
+        "code": "093467"
       }
     }
   },
