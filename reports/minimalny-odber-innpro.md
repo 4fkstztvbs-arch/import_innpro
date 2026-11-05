@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-05 11:43 UTC.
+Kontrola z 2026-11-05 21:40 UTC.
 
-InnPro pri **395** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -268,7 +268,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `081555` | Silikónový ochranný kryt kompatibilný so Sunnylife SG034 | — | 5 |
 | `081529` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (ruž | — | 4 |
 | `082306` | Ochranné sklo 2 v 1 (displej + objektív) PULUZ pre Insta360  | — | 5 |
-| `082307` | Puzdro EVA PULUZ Mini pre Insta360 GO Ultra (čierne) | — | 3 |
 | `082309` | Silikónový kryt objektívu + puzdro PULUZ pre Insta360 GO Ult | — | 5 |
 | `082311` | Puzdro - PC adaptér PULUZ pre Insta360 GO Ultra (čierne) | — | 5 |
 | `082312` | Silikónové puzdro s krytom objektívu PULUZ pre DJI Osmo 360  | — | 5 |
