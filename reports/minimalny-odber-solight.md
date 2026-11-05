@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-04 00:00 UTC.
+Kontrola z 2026-11-05 00:22 UTC.
 
-Solight pri **501** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **499** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -20,7 +20,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `1T07-T2` | Solight náhradné trubičky pre alkohol tester Solight 1T07, 2 | 11 | 200 |
 | `1P24` | Solight viazacie nylonové pásky, 3,6 x 150mm, čierna, 100ks | 11 | 250 |
 | `P70` | Solight zástrčka uhlová, IP20, biela | 11 | 100 |
-| `5e+61` | Solight bezpečnostná zátka - sada 5ks+1 kľúčik | 10 | 100 |
 | `SSV5310E` | Solight HDMI spojka, HDMI zdierka - HDMI zdierka, priama, sá | 10 | 500 |
 | `P50` | Solight zástrčka uhlová, nízky profil od steny, IP20, biela | 10 | 200 |
 | `P50B` | Solight zástrčka uhlová, nízky profil od steny, IP20, čierna | 10 | 200 |
@@ -162,7 +161,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ432-3` | ECOLUX LED žiarovka Ecolux 3-pack, miniglobe, 6W, E27, 3000K | 5 | 40 |
 | `WZ433-3` | ECOLUX LED žiarovka Ecolux 3-pack, miniglobe, 6W, E14, 3000K | 5 | 40 |
 | `WO2000-ND1` | Solight závesné príslušenstvo pre lineárne osvetlenie, dĺžka | 5 | 120 |
-| `1V001-G` | Solight prodlužovací prívodný kábel k vianočným reťaziam, 5m | 5 | 100 |
 | `PP11` | Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 2m | 5 | 50 |
 | `1V52-W` | Solight LED vianočná reťaz, hviezdy, 1,5m, 10x LED, 2x AA, b | 5 | 40 |
 | `PP02` | Solight predlžovací prívod, 3 zásuvky, biely, 2m | 5 | 50 |
