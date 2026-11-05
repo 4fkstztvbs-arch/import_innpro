@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-04 21:37 UTC.
+Kontrola z 2026-11-05 00:28 UTC.
 
 InnPro pri **397** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -122,7 +122,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `057927` | Inteligentný prepínač WiFi Sonoff S-MATE2 (bez neutrálu) | — | 5 |
 | `059380` | Inteligentný spínač WiFi Sonoff BASICR4 | — | 5 |
 | `057999` | Ochranné puzdro na telefón Joyroom pre iPhone 15 Pro (priehľ | — | 5 |
-| `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 4 |
+| `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
 | `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `058014` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
@@ -135,7 +135,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060430` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `060431` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `058458` | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | — | 5 |
-| `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 5 |
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
 | `062226` | Etykiety Termiczne Niimbot naklejki T 15x30mm 195 sztuk (bie | — | 5 |
 | `062330` | Štítky do termotlačiarne Niimbot 15x50 mm, 130 ks | — | 5 |
@@ -143,6 +142,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `055643` | Vodotesný snímač teploty Sonoff WTS01, RJ9 4P4C (THR316/320) | — | 5 |
 | `060927` | Main brush for MOVA M1 | — | 5 |
 | `059286` | Vysávačová kefa DREAME U10 | — | 5 |
+| `061835` | Puzdro Joyroom PN-15F1 Starry Case pre iPhone 15 Pro (zelené | — | 5 |
 | `063431` | Silikónové bezpečnostné puzdro pre Puluz Insta360 GO 3 s kry | — | 5 |
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
 | `061362` | Side brush for Roidmi EVE CC | — | 5 |
@@ -163,7 +163,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `067143` | Aukey PC-GJ10B case for iPhone 15 Plus (storm blue) | — | 3 |
 | `067464` | Silicone Protective Case PULUZ for DJI RC 2 (grey) | — | 5 |
 | `067463` | Silicone protective case PULUZ for DJI RC 2 (black) | — | 5 |
-| `067462` | Case with Lens Cap and Neck Strap PULUZ for GoPro Hero 9 / 1 | — | 5 |
+| `067462` | Case with Lens Cap and Neck Strap PULUZ for GoPro Hero 9 / 1 | — | 4 |
 | `066276` | Lens Protector Nillkin for Samsung Galaxy S24+ (3 Pieces) | — | 5 |
 | `067767` | Anti-glare lens and gimbal cover Sunnylife for DJI Avata 2 | — | 5 |
 | `067770` | Protective case Sunnylife for Insta360 X4 | — | 5 |
@@ -177,7 +177,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068238` | Silicone stand PULUZ for Insta360 X4 camera | — | 5 |
 | `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
 | `067687` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-FW (whi | — | 5 |
-| `067677` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-F (grap | — | 5 |
 | `067686` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-FW (whi | — | 5 |
 | `067669` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-F (grap | — | 5 |
 | `068840` | Mäkká kefa pre Dreame Z20/Z30/Z20 AquaCycle™/Z30 AquaCycle™ | — | 5 |
@@ -271,7 +270,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `081555` | Silikónový ochranný kryt kompatibilný so Sunnylife SG034 | — | 5 |
 | `081529` | Multifunkčný popruh na krk Sunnylife GS022 pre Pocket 3 (ruž | — | 4 |
 | `082306` | Ochranné sklo 2 v 1 (displej + objektív) PULUZ pre Insta360  | — | 5 |
-| `082307` | Puzdro EVA PULUZ Mini pre Insta360 GO Ultra (čierne) | — | 5 |
+| `082307` | Puzdro EVA PULUZ Mini pre Insta360 GO Ultra (čierne) | — | 3 |
 | `082309` | Silikónový kryt objektívu + puzdro PULUZ pre Insta360 GO Ult | — | 5 |
 | `082311` | Puzdro - PC adaptér PULUZ pre Insta360 GO Ultra (čierne) | — | 5 |
 | `082312` | Silikónové puzdro s krytom objektívu PULUZ pre DJI Osmo 360  | — | 5 |
@@ -290,11 +289,12 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083026` | Sada tvrdeného skla Telesin pre DJI Osmo Action 6 ( 2x objek | — | 5 |
 | `083027` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (či | — | 5 |
 | `083028` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (or | — | 5 |
-| `083029` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (si | — | 4 |
+| `083029` | Silikónové ochranné puzdro Telesin pre DJI Osmo Action 6 (si | — | 5 |
 | `083367` | Taška Sunnylife pre Action 6 (oranžová) | — | 5 |
 | `083376` | Torba v prístroji Sunnylife zariadenia Osmo Nano (szara) | — | 5 |
 | `083377` | Torba v prístroji Sunnylife spoločnosti Osmo Nano (tsarna) | — | 5 |
 | `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
+| `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 5 |
 | `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
 | `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 5 |
 | `083387` | Šasi Sunnylife pre Mini 5 Pro (sivé) | — | 5 |
@@ -316,7 +316,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
-| `087727` | BALDRTHERM B0590TH-V6 – termohygrometer napájaný solárnou en | — | 5 |
 | `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086450` | Filtračné čerpadlo SUNSUN JP-092 | — | 5 |
@@ -375,6 +374,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089577` | Filter MOVA pre S2 Detect | — | 5 |
 | `089623` | Ochranná fólia z tvrdeného skla Puluz 9H pre GoPro HERO 12/1 | — | 5 |
 | `089627` | Silikónové puzdro Puluz pre GoPro HERO 4K 2024 | — | 5 |
+| `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 5 |
 | `089639` | Silikónové puzdro Puluz pre DJI Osmo 360 (čierne) | — | 5 |
 | `089643` | Silikónové puzdro Puluz pre Insta360 GO 3S (čierne) | — | 3 |
 | `089645` | Držiak Puluz Mini s 1/4" závitom pre akčné kamery, otvor 3,9 | — | 5 |

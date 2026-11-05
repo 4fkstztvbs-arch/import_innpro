@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-11-04
+# Cenové anomálie vynechané z feedu — innpro — 2026-11-05
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -12,6 +12,10 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 011632X |  | Monitor 5,5" DJI CrystalSky | nulová/neplatná cena |  | 0.00 € |  |  |
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
+| 084203 | 6975755966342 | Flextail Tiny Tire Pump 200 (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 084217 | 6971670130851 | Flextail Portable Hookah Pump (black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 084223 | 6975755962559 | Flextail Portable Evo Lantern 2in1 (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 084220 | 6975755965949 | Flextail Tiny Repeller S 2in1 (sand) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084687 | 6978986650004 | Elektrický holiaci strojček MOVA W3000 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084681 | 6978977330052 | Reproduktor MOVA TPEAK S1mini | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084682 | 6978977330069 | Reproduktor MOVA TPEAK S1 | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -271,49 +275,15 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092401 | 6922572223387 | Filament eSun PLA-Silk Magic 1.75mm 1kg (blue-gold) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092402 | 6922572223394 | Filament eSun PLA-Silk Magic 1.75mm (black coral pink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092403 | 6922572221888 | Filament eSun PLA-Silk Magic 1.75mm 1kg (green-purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092404 | 6922572205369 | Filament eSun PLA-Silk Mystic 1.75mm (red-black-gold) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092405 | 6922572205376 | Filament eSun PLA-Silk Mystic 1.75mm (red-green-blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092406 | 6922572203006 | Filament eSun PLA-Silk Mystic 1.75mm (gold-red-green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092407 | 6922572203013 | Filament eSun PLA-Silk Mystic 1.75mm (gold-green-black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092408 | 6922572205338 | Filament eSun PLA-Silk Mystic 1.75mm (gold-silver-copper) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092409 | 6922572203020 | Filament eSun PLA-Silk Mystic 1.75mm (blue-orange-green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092410 | 6922572202993 | Filament eSun PLA-Silk Mystic 1.75mm (copper purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092411 | 6922572202795 | Filament eSun PLA-Metal 1.75mm 1kg (antique brass) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092412 | 6922572202788 | Filament eSun PLA-Metal 1.75mm 1kg (silver) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092413 | 6922572202771 | Filament eSun PLA-Metal 1.75mm 1kg (gold) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092414 | 6922572201859 | Filament eSun PLA-Matte 1.75mm 1kg (mint green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092415 | 6922572203358 | Filament eSun PLA-Matte 1.75mm 1kg (red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092416 | 6922572203334 | Filament eSun PLA-Matte 1.75mm 1kg (lilac) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092417 | 6922572201798 | Filament eSun PLA Matte 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092418 | 6922572203341 | Filament eSun PLA-Matte 1.75mm 1kg (tangerine) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092419 | 6922572203365 | Filament eSun PLA-Matte 1.75mm 1kg (matcha green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092420 | 6922572203389 | Filament eSun PLA-Matte 1.75mm 1kg (morandi green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092421 | 6922572203372 | Filament eSun PLA-Matte 1.75mm 1kg (morandi purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092422 | 6922572201811 | Filament eSun PLA-Matte 1.75mm 1kg (milky white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092423 | 6922572202092 | Filament eSun PLA-Matte 1.75mm 1kg (light khaki) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092424 | 6922572202085 | Filament eSun PLA-Matte 1.75mm 1kg (light blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092425 | 6922572201828 | Filament eSun PLA-Matte 1.75mm 1kg (dark grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092426 | 6922572201842 | Filament eSun PLA-Matte 1.75mm 1kg (peach pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092427 | 6922572209220 | Filament eSun PLA-Matte 1.75mm 1kg (red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092428 | 6922572201835 | Filament eSun PLA-Matte 1.75mm 1kg (almond yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092429 | 6922572215900 | Filament eSun PLA-Matte 1.75mm 1kg (olive green) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092430 | 6922572223349 | Filament eSun PLA-Matte 1.75mm 1kg (aqua) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092431 | 6922572223301 | Filament eSun PLA-Matte 1.75mm 1kg (concrete grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092432 | 6922572225343 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (rainbow b) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092433 | 6922572215368 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (paddy field) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092434 | 6922572215320 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (macaron) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092435 | 6922572215351 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (ocean) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092436 | 6922572215344 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (sunrise) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092437 | 6922572223400 | Filament eSun PLA-Matte Rainbow 1.75mm (yellow-white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092438 | 6922572223417 | Filament eSun PLA-Matte Rainbow 1.75mm (yellow-pink-purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092439 | 6922572226715 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (bloom) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092440 | 6922572224841 | Filament eSun PLA-Matte Rainbow 1.75mm (blue-green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092441 | 6922572208018 | Filament eSun PLA-Matte Dual 1.75mm 1kg (black-red) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092442 | 6922572208032 | Filament eSun PLA-Matte Dual 1.75mm 1kg (red-yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092443 | 6922572207950 | Filament eSun PLA-Matte Dual 1.75mm 1kg (red-blue) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092444 | 6922572207998 | Filament eSun PLA-Matte Dual 1.75mm 1kg (blue purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092445 | 6922572207974 | Filament eSun PLA-Matte Dual 1.75mm 1kg (green-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092446 | 6922572207967 | Filament eSun PLA-Matte Dual 1.75mm 1kg (green-purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092282 | 6922572219106 | Filament eSun PLA+ 1.75mm 1kg (green) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092347 | 6922572204461 | Filament eSun PLA-Luminous 1.75mm (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092348 | 6922572204447 | Filament eSun PLA-Luminous 1.75mm (blue) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -327,17 +297,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092370 | 6922572218239 | Filament eSun PLA-Silk Rainbow 1.75mm (flaming mountain) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092371 | 6922572218246 | Filament eSun PLA-Silk Rainbow 1.75mm 1kg (jade pool) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092372 | 6922572218253 | Filament eSun PLA-Silk Rainbow 1.75mm (dragon palace) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092381 | 6922572205260 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092382 | 6922572205253 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black gold) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092383 | 6922572205277 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-green) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092384 | 6922572205321 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092385 | 6922572221710 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black silver) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092386 | 6922572205284 | Filament eSun PLA-Silk Magic 1.75mm 1kg (red gold) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092387 | 6922572202412 | Filament eSun PLA-Silk Magic 1.75mm 1kg (blue-green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092388 | 6922572205314 | Filament eSun PLA-Silk Magic 1.75mm 1kg (silver blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092389 | 6922572205291 | Filament eSun PLA-Silk Magic 1.75mm 1kg (purple gold) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092390 | 6922572202436 | Filament eSun PLA-Silk Magic 1.75mm 1kg (red-blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092391 | 6922572202429 | Filament eSun PLA-Silk Magic 1.75mm 1kg (gold-silver) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092392 | 6922572221727 | Filament eSun PLA-Silk Magic 1.75mm 1kg (gold green) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092393 | 6922572221734 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092394 | 6922572221741 | Filament eSun PLA-Silk Magic 1.75mm 1kg (purple-silver) | nulová/neplatná cena |  | 0.00 € |  |  |

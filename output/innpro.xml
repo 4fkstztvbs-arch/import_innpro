@@ -11488,6 +11488,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -61708,6 +61709,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -108543,10 +108545,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>40.50</PRICE_VAT>
 <PURCHASE_PRICE>28.67</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -122651,7 +122655,7 @@ Rozmery skla pre zadnú obrazovku
 <UNIT>ks</UNIT>
 <CODE>057603</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6974944461200</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
@@ -132439,9 +132443,6 @@ Niimbot D110/D11
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>062224</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6977031210613</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola]]></CATEGORY>
@@ -132478,6 +132479,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -137430,6 +137432,9 @@ Puzdro Joyroom PN-15F2 Hviezdne puzdro pre iPhone 15 Pro (ružové)
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>061835</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6976788020506</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Puzdrá na mobilné telefóny]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
@@ -144513,10 +144518,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.80</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -151439,6 +151446,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -151534,6 +151542,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -156560,6 +156569,7 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -164512,7 +164522,7 @@ Obsah balenia:
 <UNIT>ks</UNIT>
 <CODE>067462</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5906168436994</EAN>
 <CATEGORIES>
@@ -175243,9 +175253,6 @@ Obsah balenia
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>067677</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6920075777147</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
@@ -182573,14 +182580,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -193992,6 +193999,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -205283,6 +205291,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -205893,14 +205902,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -207013,6 +207022,101 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Elektrický bežecký pás UREVO Spacewalk SP1  Lite… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Elektrický bežecký pás UREVO Spacewalk SP1  Lite (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny). Elektrický bežecký pás UREVO Strol 2E Smart je moderné riešenie 2 v 1 pre každého, kto oceňuje pohodlie a efektivitu tréningu. Vďaka…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny).</h3>
+<p>Elektrický bežecký pás UREVO Strol 2E Smart je moderné riešenie 2 v 1 pre každého, kto oceňuje pohodlie a efektivitu tréningu. Vďaka kompatibilite s aplikáciami, ako sú Zwift, UREVO a Kinomap, vám zariadenie umožňuje prispôsobiť si tréningové plány a sledovať svoj pokrok. Bežecký pás UREVO navyše spolupracuje s ekosystémom Xiaomi, čo vám otvára ešte viac možností. Je to skvelý spôsob, ako vniesť technológie do každodenného tréningu a urobiť ho pútavejším.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/6.jpg"/>
+</p><h3>Žiadne nepohodlie</h3>
+<p>Zdravie vašich kĺbov je prioritou, preto je bežecký pás UREVO Strol 2E vybavený 5-vrstvovým bežeckým pásom, ktorý je vybavený 2 mäkkými vankúšmi a 8 silikónovými tlmičmi nárazov. Táto technológia výrazne znižuje nárazy pri behu, čím minimalizuje riziko zranenia. Je ideálnou voľbou pre začiatočníkov aj skúsených používateľov, ktorí chcú pohodlný tréning.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/2.jpg"/>
+</p><h3>2 v 1 - bežecký pás a chodítko v jednom</h3>
+<p>Vďaka svojej konštrukcii 2 v 1 bude bežecký pás UREVO Strol 2E skvele fungovať ako bežecký pás na behanie aj ako stolový bežecký pás na chôdzu. Rýchlosť chôdze sa pohybuje v rozmedzí od 1 do 6,4 km/h a rýchlosť behu od 1 do 10 km/h, čo vám umožní prispôsobiť intenzitu tréningu vašim potrebám a preferenciám.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/1.jpg"/>
+</p><h3>Kompaktný dizajn a tichá prevádzka</h3>
+<p>Bežecký pás UREVO Strol 2E sa vyznačuje premyslenou skladacou konštrukciou, ktorá umožňuje jednoduché uskladnenie bežeckého pásu aj v malom byte. Výkonný motor s výkonom 2,5 HP zabezpečuje plynulú prevádzku a zároveň generuje nízku hladinu hluku, takže môžete trénovať kedykoľvek počas dňa bez obáv, že budete rušiť členov domácnosti. Bežecký pás sa dodáva aj s diaľkovým ovládaním s funkciou stlmenia zvuku, čo ešte viac zvyšuje vaše pohodlie.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/5.jpg"/>
+</p><h3>Odolnosť a bezpečnosť</h3>
+<p>Bežecký pás je určený pre používateľov s hmotnosťou do 120 kg, čo zaručuje stabilitu a bezpečnosť. Ide o ideálne zariadenie na domáci tréning, ktoré v sebe spája moderné funkcie, pohodlie pri používaní a pozornosť venovanú zdraviu a bezpečnosti používateľov. Stavte na trenažér UREVO Strol 2E a získajte plnú kontrolu nad svojím tréningom - bez toho, aby ste museli opustiť domov.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/9.jpg"/>
+</p>
+<h3></h3>
+<ul class="list-disc pl-5"><li>Bežecký pás</li><li>diaľkové ovládanie</li><li>napájací kábel</li><li>3V pastilková batéria CR2032</li><li>šesťhranné náradie</li><li>motorový olej 2x</li><li>posilňovací kľúč</li><li>držiak na tablet</li><li>Kľúč M13 - 15</li><li>návod na použitie</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>UREVO</td></tr><tr><th>Model</th><td>Strol 2E Smart 2 v 1</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Nastaviteľný uhol</th><td>Áno</td></tr><tr><th>Výkon motora</th><td>2,50 HP</td></tr><tr><th>Otáčky</th><td>1-6,4 km/h (chôdza), 1-10 km/h (beh)</td></tr><tr><th>Rozmery</th><td>130 x 57,3 x 11,7 cm (v zloženom stave), 122 x 57,3 x 98,7 cm (v rozloženom stave)</td></tr><tr><th>Rozmery bežeckej podložky</th><td>38 x 102 cm</td></tr><tr><th>Hmotnosť</th><td>24,8 kg</td></tr><tr><th>Napätie</th><td>220-240V</td></tr><tr><th>Napájanie</th><td>550W</td></tr><tr><th>Maximálna kapacita zaťaženia</th><td>120 kg</td></tr><tr><th>Displej</th><td>LED</td></tr><tr><th>Kompatibilita</th><td>Ekosystém Xiaomi</td></tr><tr><th>Špecializovaná aplikácia</th><td>Aplikácia UREVO</td></tr><tr><th>Diaľkové ovládanie</th><td>Áno</td></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/elektricke-bezecke-pasy/">Elektrické bežecké pásy</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[UREVO]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>073494</CODE>
+<EAN>6975165000599</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness > Elektrické bežecké pásy]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>1317</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 1">https://b2b.innpro.sk/hpeciai/3979fe4ddd2f663eb2da525ec3195efa/49042_1.jpg</IMAGE>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 2">https://b2b.innpro.sk/hpeciai/f29e6ef399ad37daabc112325d0a6f4d/49042_2.jpg</IMAGE>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 3">https://b2b.innpro.sk/hpeciai/904d0ca3a89b068c330f0c79c26bbf71/49042_3.jpg</IMAGE>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 4">https://b2b.innpro.sk/hpeciai/e039bb3e456a99fdacda23eb6b4d95d1/49042_4.jpg</IMAGE>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 5">https://b2b.innpro.sk/hpeciai/87003fa491466c0a911ab1affac4ad20/49042_5.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[inna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Model]]></NAME>
+    <VALUE><![CDATA[inny]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Druh]]></NAME>
+    <VALUE><![CDATA[elektryczna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maksymalna waga użytkownika]]></NAME>
+    <VALUE><![CDATA[120]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pomiary]]></NAME>
+    <VALUE><![CDATA[czas trwania treningu]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ďalšie funkcie]]></NAME>
+    <VALUE><![CDATA[Bluetooth]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>24.80</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>272.90</PRICE_VAT>
+<PURCHASE_PRICE>192.96</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Lipo Gens ace G-Tech 2200mAh 7.4V 2S1P 60C GRP-76 Hardcase batéria s XT60 konektorom]]></NAME>
@@ -227101,14 +227205,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74285_51144_pol_78a7ebb8fe06ba1b2323be25837b517e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/pamatove-media-2/">Disky a pamäťové médiá</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lexar]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076105</CODE>
 <EAN>0843367133031</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/d2743c8e4e1c5739c2ad0248adf80d85/51144_4.jpg</IMAGE>
   <IMAGE description="Prenosný disk SSD Lexar SL500 2 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/ab68c40a76c9db6dcab5deed29d46d77/51144_1.jpg</IMAGE>
@@ -241535,6 +241642,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -247149,6 +247257,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -267685,6 +267794,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -297072,7 +297182,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Cechy szczególne]]></NAME>
-    <VALUE><![CDATA[Mikrofon/_Regulacja_głośności/_Mikrofon/_Regulacja_głośności]]></VALUE>
+    <VALUE><![CDATA[Mikrofon]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
@@ -297322,10 +297432,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -310387,6 +310499,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -310463,6 +310576,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -316197,7 +316311,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>082307</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5905156100930</EAN>
 <CATEGORIES>
@@ -323379,10 +323493,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -329547,7 +329663,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>083029</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6974944466816</EAN>
 <CATEGORIES>
@@ -336741,6 +336857,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>083382</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>5905156101548</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY>
@@ -373643,6 +373762,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -389715,6 +389835,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -401595,6 +401716,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -401685,6 +401807,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -408220,6 +408343,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -412164,6 +412288,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -422918,6 +423043,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -443315,9 +443441,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>087727</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>5905156105140</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Teplomery]]></CATEGORY>
@@ -449664,6 +449787,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -456255,24 +456379,24 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <NAME><![CDATA[Externý filter SUNSUN HW502]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Externý filter SUNSUN HW502 SUNSUN HW-502 je kompaktný externý filter určený pre sladkovodné aj morské akváriá. Je vybavený vstavaným čerpadlom s výkonom 6 W a prietokom až 600 l/h, ktoré účinne…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Externý filter SUNSUN HW502</h3>
-<p>SUNSUN HW-502 je kompaktný externý filter určený pre sladkovodné aj morské akváriá. Je vybavený vstavaným čerpadlom s výkonom 6 W a prietokom až 600 l/h, ktoré účinne čistí vodu a udržiava optimálne podmienky pre ryby. Filter má objem 2 l a vďaka svojmu valcovému tvaru zaberá veľmi málo miesta, čím je vhodný pre malé aj stredne veľké akváriá. Odporúčaný objem akvária je 30–60 l.</p>
+<p>SUNSUN HW-502 je kompaktný externý filter určený pre sladkovodné aj morské akváriá. Je vybavený vstavaným čerpadlom s výkonom 6 W a prietokom až 600 l/h, ktoré účinne čistí vodu a udržiava optimálne podmienky pre ryby. Filter má objem 2 l a vďaka svojmu valcovému tvaru zaberá veľmi málo miesta, vďaka čomu je vhodný pre malé aj stredne veľké akváriá. Odporúčaný objem akvária je 30–60 l.</p>
 <p>
-<img alt="Biely valcovitý vedrový filter do akvária s dvoma čiernymi ventilmi na hornom kryte." border="0" src="https://assets.innpro.pl/22521/29571/1.jpg"/>
+<img alt="Biely externý akvarijný filter s čiernymi uzávermi, umiestnený na drevenej komode vedľa kvetín v črepníkoch." border="0" src="https://assets.innpro.pl/22521/29571/2-0a9f7b73-3e46-4984-871f-efe7d5b05c1e.jpg"/>
 </p><h3>Viacstupňový systém filtrácie vody</h3>
-<p>Filter využíva niekoľko vrstiev filtračného materiálu, ktorými voda preteká, pričom postupuje od najhrubšej po najjemnejšiu štruktúru. Štandardná konfigurácia zahŕňa filtračnú vatu s hrubými, strednými a jemnými pórmi, ako aj biologickú filtračnú vložku, ktorá podporuje účinné odstraňovanie nečistôt z vody. Konštrukcia tiež umožňuje prispôsobiť obsah filtračnej nádoby konkrétnym potrebám vášho akvária pomocou rôznych filtračných médií.</p>
+<p>Filter využíva niekoľko vrstiev filtračných médií, ktorými voda preteká, pričom postupuje od najhrubšej po najjemnejšiu štruktúru. Štandardná konfigurácia zahŕňa filtračnú vlnu s hrubými, strednými a jemnými pórmi, ako aj biologickú filtračnú vložku, ktorá podporuje účinné odstraňovanie nečistôt z vody. Konštrukcia tiež umožňuje prispôsobiť obsah filtračnej nádoby konkrétnym potrebám vášho akvária použitím rôznych filtračných médií.</p>
 <p>
-<img alt="Dva biele akvarijné filtre na svetlom pozadí, jeden v popredí a druhý rozmazaný v pozadí." border="0" src="https://assets.innpro.pl/22521/29571/2.jpg"/>
+<img alt="Biely externý akvarijný filter s čiernymi pripojkami ventilov a bezpečnostnými sponami na pozadí s bielo-modrým prechodom" border="0" src="https://assets.innpro.pl/22521/29571/1-a0866ca3-5bdf-4f1d-ade6-ac0519189986.jpg"/>
 </p><h3>Jednoduchá inštalácia a pohodlná obsluha</h3>
 <p>Model HW-502 vyniká elegantným dizajnom, praktickou rukoväťou a jednoduchým systémom inštalácie. Filter je vybavený reguláciou prietoku na vstupe aj výstupe, čo vám umožňuje ľahko prispôsobiť jeho prevádzku požiadavkám akvária. Vďaka premyslenému dizajnu je každodenná prevádzka, čistenie a údržba rýchla a pohodlná.</p>
 <p>
-<img alt="Biely akvarijný filter typu vedro v pohybe, s druhým, menším filtrom viditeľným v diaľke vľavo." border="0" src="https://assets.innpro.pl/22521/29571/3.jpg"/>
+<img alt="Externý akvarijný filter v bielom puzdre s pripojkami ventilov, umiestnený na okrúhlom konferenčnom stolíku v svetlej obývačke." border="0" src="https://assets.innpro.pl/22521/29571/6-a9f3a669-d158-4d81-aff0-7a0015e1d8a4.jpg"/>
 </p><h3>Všestranné využitie v akváriách</h3>
 <p>SUNSUN HW-502 bol navrhnutý na udržanie čistej a priezračnej vody v akváriách s rybami. Môže pracovať v sladkovodnom aj morskom prostredí, pričom zabezpečuje stabilnú filtráciu a správnu cirkuláciu vody. Vďaka kompaktným rozmerom 194 × 153 × 259 mm a hmotnosti 1,75 kg je možné zariadenie ľahko umiestniť vedľa akvária a napájanie 220–240 V / 50 Hz umožňuje bezproblémové používanie v domácnosti.</p>
 <p>
-<img alt="Biely externý akvarijný filter na svetlom pozadí, s rozmazaným efektom vľavo a miniatúrou vpravo." border="0" src="https://assets.innpro.pl/22521/29571/4.jpg"/>
+<img alt="Biely externý akvarijný filter s čiernymi ventilmi a západkami, stojací na kuchynskej pracovnej doske." border="0" src="https://assets.innpro.pl/22521/29571/4-2b851525-8463-4b8c-9e6f-5a61a4521ce4.jpg"/>
 </p>
-<h3>Obsah balenia</h3>
-<ul class="list-disc pl-5"><li>Externý filter SUNSUN HW-502 × 1</li><li>Súprava na prívod vody × 1</li><li>Súprava na odvod vody × 1</li><li>Kompletná sada hadíc na prívod a odvod vody<br/></li></ul>
+<h3>Súčasťou sady je</h3>
+<ul class="list-disc pl-5"><li>Externý filter SUNSUN HW-502 × 1</li><li>Súprava na prívod vody × 1</li><li>Súprava na výtok vody × 1</li><li>Kompletná sada hadíc na prívod a odtok vody<br/></li></ul>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
@@ -456477,27 +456601,23 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Externý filter SUNSUN HW-603B]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Externý filter SUNSUN HW-603B Externý filter SUNSUN HW-603B je kompaktné riešenie určené pre akváriá s dĺžkou alebo výškou menšou ako 0,6 m. Jednotka je vybavená čerpadlom s výkonom 6 W a prietokom…]]></SHORT_DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Externý filter SUNSUN HW-603B Externý filter SUNSUN HW-603B je kompaktné riešenie určené pre akváriá s dĺžkou alebo výškou menšou ako 0,6 m. Zariadenie je vybavené čerpadlom s výkonom 6 W a prietokom…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Externý filter SUNSUN HW-603B</h3>
-<p>Externý filter SUNSUN HW-603B je kompaktné riešenie určené pre akváriá s dĺžkou alebo výškou menšou ako 0,6 m. Jednotka je vybavená čerpadlom s výkonom 6 W a prietokom až 400 l/h, čo zaisťuje efektívnu cirkuláciu a filtráciu vody. Päťstupňový systém filtračných médií, priehľadné puzdro, ktoré umožňuje sledovať stupeň zanesenia filtračných vložiek, a kompletná sada inštalačného príslušenstva robia z tohto filtra praktický systém, ktorý zabezpečuje čistotu a priehľadnosť vody v akváriu.</p>
+<p>Externý filter SUNSUN HW-603B je kompaktné riešenie určené pre akváriá s dĺžkou alebo výškou menšou ako 0,6 m. Zariadenie je vybavené čerpadlom s výkonom 6 W a prietokom až 400 l/h, čo zabezpečuje efektívnu cirkuláciu a filtráciu vody. Päťstupňový systém filtračných médií a kompletná sada inštalačného príslušenstva robia z tohto filtra praktické riešenie na udržanie čistej a priezračnej vody vo vašom akváriu.</p>
 <p>
 <img alt="Externý filter SUNSUN HW-603B na modrom pozadí" border="0" src="https://assets.innpro.pl/22338/29374/1-529fe99f-6752-47d4-97ee-53c68e3660ac.jpg"/>
 </p><h3>Päťstupňová filtrácia pre čistú vodu</h3>
 <p>Model HW-603B využíva vertikálny tok vody cez päť po sebe idúcich filtračných zón. Nad filtračnými vložkami sa nachádza priestor určený na rast nitrifikačných baktérií, ktoré podporujú biologickú rovnováhu v akváriu. Voda následne preteká cez modrú hubku, ktorá zachytáva usadeniny, žltú hubku, ktorá zachytáva jemné častice, čiernu hubku, ktorá odfiltruje koloidné zvyšky, a bielu netkanú textíliu, ktorá odstraňuje zvyškové zafarbenie vody. Táto konštrukcia účinne čistí vodu v rôznych fázach filtrácie.</p>
 <p>
-<img alt="Externý filter SUNSUN HW-603B na drevenej doske v pozadí akvária" border="0" src="https://assets.innpro.pl/22338/29374/2-0122a88c-eaa6-4d61-a0b6-fb150e30e0dd.jpg"/>
+<img alt="Externý filter SUNSUN HW-603B na drevenej doske s akváriom v pozadí" border="0" src="https://assets.innpro.pl/22338/29374/2-0122a88c-eaa6-4d61-a0b6-fb150e30e0dd.jpg"/>
 </p><h3>Vysoko výkonné čerpadlo a stabilná prevádzka</h3>
-<p>O cirkuláciu vody sa stará externé čerpadlo JP-450G s menovitým výkonom 6 W. Maximálny prietok 400 l/h umožňuje účinnú filtráciu vody a výtlak až 0,85 m zabezpečuje správnu prevádzku zariadenia v akváriách, pre ktoré je určené. 12-mm konektory zabezpečujú kompatibilitu s priloženým príslušenstvom a efektívny prietok vody v celom systéme.</p>
+<p>O cirkuláciu vody sa stará externé čerpadlo JP-450G s menovitým výkonom 6 W. Maximálny prietok 400 l/h umožňuje účinnú filtráciu vody a výtlak až 0,85 m zabezpečuje správnu prevádzku zariadenia v akváriách, pre ktoré je určené. 12-mm konektory zabezpečujú kompatibilitu s priloženým príslušenstvom a plynulý tok vody v celom systéme.</p>
 <p>
 <img alt="Biely vedrový filter SunSun HW-603B s namontovaným čerpadlom a ventilom na veku." border="0" src="https://assets.innpro.pl/22338/29374/3-410a510b-e0ea-4eba-9e8a-7521308a79b1.jpg"/>
-</p><h3>Priehľadná konštrukcia pre jednoduché sledovanie</h3>
-<p>Priehľadné puzdro filtra vám umožňuje sledovať stav filtračných vložiek v reálnom čase bez nutnosti rozoberať zariadenie. Vďaka tomu je jednoduchšie určiť, kedy je potrebné čistenie alebo údržba. Odnímateľné veko poskytuje pohodlný prístup do vnútra filtra počas údržby.</p>
-<p>
-<img alt="Biely externý akvarijný filter s uzávermi na veku a čerpadlom, stojací na doske vedľa akvária." border="0" src="https://assets.innpro.pl/22338/29374/4-be57fed2-985f-4c13-9cad-288bd1a33138.jpg"/>
 </p><h3>Kompletná sada pripravená na inštaláciu</h3>
-<p>Súprava obsahuje všetky základné komponenty potrebné na zriadenie filtračného systému. Okrem puzdra a čerpadla dostane používateľ dve ohybné hadice s dĺžkou 1,5 metra, uzávery s reguláciou prietoku, sadu prívodných a odvodných rúrok, rozstrekovač s viacerými otvormi, sploštenú trysku a montážne prísavky. Vďaka tomu je inštalácia filtra rýchla a nie je potrebné dokupovať ďalšie príslušenstvo.</p>
+<p>Súprava obsahuje všetky základné komponenty potrebné na zriadenie filtračného systému. Okrem skrine a čerpadla dostane používateľ dve ohybné hadice s dĺžkou 1,5 metra, uzávery s reguláciou prietoku, sadu prívodných a odvodných rúrok, rozstrekovač s viacerými otvormi, sploštenú trysku a montážne prísavky. Vďaka tomu je inštalácia filtra rýchla a nie je potrebné dokupovať ďalšie príslušenstvo.</p>
 <p>
-<img alt="Biely vedrový filter HW-603B s nainštalovaným externým čerpadlom a uzáverovým ventilom na veku." border="0" src="https://assets.innpro.pl/22338/29374/5-fd9d742e-6f77-45fd-919d-876f3b210162.jpg"/>
+<img alt="Biely vedrový filter HW-603B s namontovaným externým čerpadlom a uzáverovým ventilom na veku." border="0" src="https://assets.innpro.pl/22338/29374/5-fd9d742e-6f77-45fd-919d-876f3b210162.jpg"/>
 </p>
 <h3>Obsah súpravy</h3>
 <ul class="list-disc pl-5"><li>Vonkajší filter SUNSUN HW-603B x1</li><li>Vonkajšie vodné čerpadlo x1</li><li>Ohybná hadica 12 mm, 1,5 m x2</li><li>Uzáverový ventil 12 mm s reguláciou prietoku x2</li><li>Sací trubica s ochranným košíkom x1</li><li>Rozprašovacia hlavica s viacerými otvormi x1</li><li>Plochá tryska x1</li><li>Upevňovacie prísavky</li><li>Návod na použitie x1</li></ul><p> </p>
@@ -456506,7 +456626,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Model</th><td>HW-603B</td></tr><tr><th>Určenie</th><td>Akváriá s dĺžkou alebo výškou menšou ako 0,6 m</td></tr><tr><th>Napájacie napätie</th><td>AC 220–240 V</td></tr><tr><th>Frekvencia</th><td>50 Hz</td></tr><tr><th>Príkon</th><td>6 W</td></tr><tr><th>Maximálny prietok</th><td>400 l/h</td></tr><tr><th>Maximálna výška zdvihu</th><td>0,85 m</td></tr><tr><th>Priemer pripojenia</th><td>12 mm</td></tr><tr><th>Rozmery</th><td>190 × 165 × 330 mm</td></tr><tr><th>Puzdro</th><td>Priehľadné</td></tr><tr><th>Dĺžka hadice</th><td>1,5 m</td></tr><tr><th>Počet hadíc v balení</th><td>2</td></tr><tr><th>Hmotnosť</th><td>1,5 kg</td></tr><tr><th>Certifikácia</th><td>CE</td></tr>
+<tr><th>Model</th><td>HW-603B</td></tr><tr><th>Určenie</th><td>Akváriá s dĺžkou alebo výškou menšou ako 0,6 m</td></tr><tr><th>Napájacie napätie</th><td>AC 220–240 V</td></tr><tr><th>Frekvencia</th><td>50 Hz</td></tr><tr><th>Príkon</th><td>6 W</td></tr><tr><th>Maximálny prietok</th><td>400 l/h</td></tr><tr><th>Maximálna výška zdvihu</th><td>0,85 m</td></tr><tr><th>Priemer pripojenia</th><td>12 mm</td></tr><tr><th>Rozmery</th><td>190 × 165 × 330 mm</td></tr><tr><th>Dĺžka hadice</th><td>1,5 m</td></tr><tr><th>Počet hadíc v balení</th><td>2</td></tr><tr><th>Hmotnosť</th><td>1,5 kg</td></tr><tr><th>Certifikácia</th><td>CE</td></tr>
 </tbody>
 </table>
 </div>
@@ -456562,12 +456682,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[190 × 165 × 330 mm]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Puzdro]]></NAME>
-    <VALUE><![CDATA[Priehľadné]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
     <NAME><![CDATA[Dĺžka hadice]]></NAME>
     <VALUE><![CDATA[1,5 m]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet hadíc v balenia]]></NAME>
+    <VALUE><![CDATA[2]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Záruka]]></NAME>
@@ -459045,7 +459165,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -465212,14 +465335,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -490368,6 +490495,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -492388,6 +492516,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -493933,6 +494062,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -494250,6 +494380,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -517470,6 +517601,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>089630</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>5905156106444</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>855</HEUREKA_CATEGORY_ID>
@@ -519860,10 +519994,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -531606,10 +531742,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -533168,10 +533306,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>31.50</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -534604,14 +534744,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -574839,7 +574982,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.20</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.21</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>18.00</PRICE_VAT>
 <PURCHASE_PRICE>12.71</PURCHASE_PRICE>
@@ -577982,6 +578125,97 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Bezdrôtové slúchadlá QCY Melobuds A30 (zlaté) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Bezdrôtové slúchadlá QCY Melobuds A30 (zlaté) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[LED žiarovka LEPRO 100094-WW-EU E27 s vláknom 7,2 W (100 W) 1521 lm 2700 K trieda A]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[LED žiarovka LEPRO 100094-WW-EU LED žiarovka LEPRO 100094-WW-EU s menovitým výkonom 7,2 W—čo zodpovedá tradičnej 100 W žiarovke—má svetelný tok 1 521 lumenov a vyžaruje teplé svetlo s farebnou…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>LED žiarovka LEPRO 100094-WW-EU</h3>
+<p>LED žiarovka LEPRO 100094-WW-EU s menovitým výkonom 7,2 W—čo zodpovedá tradičnej 100 W žiarovke—má svetelný tok 1 521 lumenov a vyžaruje teplé svetlo s farebnou teplotou 2 700 K. Model je vybavený obľúbenou päticou E27 a širokým uhlom vyžarovania 300°.</p>
+<p>
+<img alt="Rozsvietená dekoratívna LED žiarovka na drevenej podstavke umiestnená na pracovnej doske vedľa vázy so sušenými ružami" border="0" src="https://assets.innpro.pl/23953/31377/3.jpg"/>
+</p>
+<h3>Teplá farba svetla a prirodzené podanie farieb</h3>
+<p>Žiarovka vyžaruje teplé biele svetlo s farebnou teplotou 2 700 K, čím pomáha vytvoriť útulnú atmosféru, ktorá napomáha relaxácii a každodenným činnostiam. Vďaka jasu 1 521 lumenov je miestnosť efektívne osvetlená a svetlo je rovnomerne rozložené po celom priestore. Index podania farieb (CRI) 85 zabezpečuje, že farby pôsobia prirodzenejšie, čo zvyšuje komfort používateľov.</p>
+<p>
+<img alt="Priehľadná LED žiarovka s viditeľnými žltými vláknami, umiestnená zvisle na zelenej tráve" border="0" src="https://assets.innpro.pl/23953/31377/4.jpg"/>
+</p>
+<h3>Široký uhol vyžarovania a jednoduchá inštalácia</h3>
+<p>Uhol vyžarovania 300° pomáha minimalizovať tiene a zabezpečuje lepšie rozloženie svetla. Vďaka tomu dokáže jedna žiarovka efektívne osvetliť väčší priestor, či už je nainštalovaná v stropnom svietidle, nástennom svietidle alebo stojacom svietidle. Inštalácia je veľmi jednoduchá – stačí žiarovku zašraubovať do štandardnej pätice E27 a hneď si môžete začať užívať jej výhody.</p>
+<p>
+<img alt="Drevená a kovová stolná lampa so zavesenou svietiacou LED žiarovkou, vedľa kvetináča a knihy" border="0" src="https://assets.innpro.pl/23953/31377/1.jpg"/>
+</p>
+<h3>Dlhotrvajúci výkon</h3>
+<p>Model LEPRO je navrhnutý na mnohoročné používanie, preto má životnosť až 50 000 hodín. Takáto dlhá životnosť znižuje potrebu častých výmen žiaroviek, čo znamená väčšie pohodlie a nižšie prevádzkové náklady. Upozorňujeme, že táto žiarovka nie je kompatibilná so stmievačmi; je však navrhnutá na prevádzku pri napätí 220–240 V, vďaka čomu je pripravená na každodenné použitie ihneď po inštalácii.</p>
+<p>
+<img alt="Päť zavesených LED žiaroviek s teplým svetlom nad drevenou komodou s šálkou kávy a rozloženými novinami" border="0" src="https://assets.innpro.pl/23953/31377/6.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5">
+<li>LED žiarovka LEPRO 100094-WW-EU</li>
+<li>Návod na použitie</li>
+</ul>
+<div class="table-wrapper">
+<p> </p>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Lepro</td></tr>
+<tr><th>Model</th><td>100094-WW-EU</td></tr>
+<tr><th>Typ osvetlenia</th><td>LED</td></tr>
+<tr><th>Príkon</th><td>7,2 W</td></tr>
+<tr><th>Pätica žiarovky</th><td>E27</td></tr>
+<tr><th>Farba svetla</th><td>Teplá biela</td></tr>
+<tr><th>Teplota farby</th><td>2 700 K</td></tr>
+<tr><th>Index podania farieb</th><td>Ra ≥ 85</td></tr>
+<tr><th>Uhol vyžarovania</th><td>300°</td></tr>
+<tr><th>Povolený rozsah napätia</th><td>220–240 V AC</td></tr>
+<tr><th>Životnosť svetelného zdroja</th><td>50 000 h</td></tr>
+<tr><th>Jas bieleho svetla</th><td>1 521 lm</td></tr>
+<tr><th>Trieda energetickej účinnosti</th><td>A</td></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/led-osvetlenie/">LED osvetlenie</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[LEPRO]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>092957</CODE>
+<EAN>4894495045990</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie > LED osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Osvetlenie]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>2890</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="LED žiarovka LEPRO 100094-WW-EU E27 s vláknom 7,2 W (100 W) 1521 lm 2700 K trieda A">https://b2b.innpro.sk/hpeciai/71836dc8c8e4cb4489ddefd17bea1b81/64085_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[EPREL]]></NAME>
+    <VALUE><![CDATA[...2342547]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Energy certificate]]></NAME>
+    <VALUE><![CDATA[EC:EPREL:2342554:A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[ENERG]]></NAME>
+    <VALUE><![CDATA[...2342547]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>7.80</PRICE_VAT>
+<PURCHASE_PRICE>5.49</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[LED žiarovka LEPRO 100094-WW-EU E27 s vláknom 7,2 W… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[LED žiarovka LEPRO 100094-WW-EU E27 s vláknom 7,2 W (100 W) 1521 lm 2700 K trieda A – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Laserový gravír Creality Falcon T1 40 W]]></NAME>
@@ -583124,6 +583358,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -621569,10 +621804,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -623154,13 +623391,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>073486</CODE>
     <EAN>6975462650084</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>073494</CODE>
-    <EAN>6975165000599</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -625677,7 +625907,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088502</CODE>
     <EAN>5905156105713</EAN>
@@ -625810,7 +626040,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
