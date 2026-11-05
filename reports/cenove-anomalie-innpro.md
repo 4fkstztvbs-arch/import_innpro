@@ -16,11 +16,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 084217 | 6971670130851 | Flextail Portable Hookah Pump (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084223 | 6975755962559 | Flextail Portable Evo Lantern 2in1 (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084220 | 6975755965949 | Flextail Tiny Repeller S 2in1 (sand) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 084687 | 6978986650004 | Elektrický holiaci strojček MOVA W3000 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 084681 | 6978977330052 | Reproduktor MOVA TPEAK S1mini | nulová/neplatná cena |  | 0.00 € |  |  |
-| 084682 | 6978977330069 | Reproduktor MOVA TPEAK S1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
-| 087240 | 6978794733487 | Zubná kefka MOVA Air Wave | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089414 | 5905156108714 | WOLFBOX X5 WiFi 4K + 2,5K 128 GB palubná kamera | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090447 | 6971131385394 | KVM prepínač GL.iNet Comet 5G | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
