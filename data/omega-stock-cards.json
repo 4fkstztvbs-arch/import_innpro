@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600745,
+    "nextCardNumber": 202600749,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4466,6 +4466,30 @@
         "nazov": "Indoor Smart Bike Cycplus",
         "dodavatel": "innpro",
         "code": "082897"
+      },
+      "6973734680647": {
+        "kod": "202600745",
+        "nazov": "W10/L10Ultra/L10Prime/L10s",
+        "dodavatel": "innpro",
+        "code": "060954"
+      },
+      "6970403203459": {
+        "kod": "202600746",
+        "nazov": "Smartmi Evaporative",
+        "dodavatel": "innpro",
+        "code": "072132"
+      },
+      "6955974902567": {
+        "kod": "202600747",
+        "nazov": "External Filter SUNSUN",
+        "dodavatel": "innpro",
+        "code": "086490"
+      },
+      "6972467711567": {
+        "kod": "202600748",
+        "nazov": "Gimbal AOCHUAN V3 With",
+        "dodavatel": "innpro",
+        "code": "089015"
       }
     }
   },
