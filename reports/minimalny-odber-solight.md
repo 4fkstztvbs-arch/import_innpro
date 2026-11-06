@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-06 00:16 UTC.
+Kontrola z 2026-11-06 23:47 UTC.
 
-Solight pri **497** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **498** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -88,7 +88,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
-| `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
 | `WM81` | Solight prepojovací pravouhlý konektor pre LED pásy, 8mm zac | 8 | 150 |
 | `WM82` | Solight prepojovací pravouhlý konektor pre LED pásy, 10mm za | 8 | 100 |
 | `1T4A6-T2` | Solight náhradné trubičky pro alkohol tester Solight 1T04A,  | 8 | 200 |
@@ -185,7 +184,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PX04` | Solight vonkajšie ochranné puzdro na káble, IP44 | 5 | 50 |
 | `1V56-W` | Solight vianočná reťaz strieborná, 50x mini LED, 5m, 3 x AA, | 5 | 40 |
 | `P101B` | Solight rozbočovač s podperou, 3 x 10A, matný čierny | 5 | 4 |
-| `1V56-WW` | Solight vianočná reťaz medená, 50x mini LED, 5m, 3 x AA, tep | 5 | 40 |
 | `P98` | Solight zásuvka priebežná IP44, 16A, čierna, vypínač | 4 | 50 |
 | `P99B` | Solight rozbočovač, 3 x 10A, čierny, vypínač | 4 | 100 |
 | `1P41` | Solight viazacie nylonové pásky, 4,8 x 350mm, natural, 100ks | 4 | 100 |
@@ -253,6 +251,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `SSC1402` | Solight USB kábel, USB 2.0 A konektor - USB B micro konektor | 3 | 120 |
 | `SSC2301` | Solight magnetický USB-C kábel, USB 2.0 A konektor - USB-C k | 3 | 100 |
 | `V24` | Solight skúšačka, 6V - 380V AC/DC, LED diódy | 3 | 120 |
+| `5B172` | Solight dvojzásuvka Slim, pootočená horná zásuvka, biela | 3 | 100 |
 | `WO901` | Solight závesné príslušenstvo pre LED panely 60x60, 30x120,  | 3 | 100 |
 | `WH25` | Solight LED čelové svietidlo, 3W COB, 3x AAA | 3 | 72 |
 | `1T92` | Solight náhradné trubičky pre alkohol tester Solight 1T04, 1 | 3 | 200 |
@@ -377,6 +376,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PA21` | Solight cestovný adaptér, univerzálny, neuzemnený | 2 | 40 |
 | `V15` | Solight multimeter, max. AC 600V, max. DC 600V / 10A, test d | 2 | 60 |
 | `WL95` | Solight LED svetielko s diaľkovým ovládaním, 5 LED, 3x AA ba | 2 | 48 |
+| `PO39` | Solight prepäťová ochrana, 3z, 1,5m, biela | 2 | 40 |
 | `DT26` | Solight digitálny merač spotreby el. energie | 2 | 24 |
 | `WO751` | Solight LED vonkajšie osvetlenie štvorcové, 13W, 910lm, 4000 | 2 | 36 |
 | `1V201` | Solight LED reťaz vianočné gule bavlnené, 10LED, 1m, 2x AA,  | 2 | 12 |
@@ -402,6 +402,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WL909` | Solight nočné LED svetielko s pohybovým a svetelným sensorom | 2 | 60 |
 | `WPIR04-B` | Solight PIR senzor nástenný, vonkajší, čierny | 2 | 100 |
 | `WN904` | Solight náhradný akumulátor typ 18650, 3,7 V, Li-Ion 3350mAh | 2 | 400 |
+| `PP32X` | Solight predlžovací prívod 3m, 4 zásuvky, vypínač, 16A/3680W | 2 | 40 |
 | `WO746` | Solight LED vonkajšie osvetlenie Siena, sivé, 13W, 910lm, 40 | 2 | 24 |
 | `WO753` | Solight LED vonkajšie osvetlenie guľaté s mriežkou, 13W, 910 | 2 | 24 |
 | `P151` | Solight zásuvka priama, 5-pólová, 400v/16A, IP44 | 2 | 20 |
