@@ -4,4 +4,4 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 
 | Kód | EAN | Názov | Dôvod | Referenčná cena | Nová cena | Pomer | Vzorka |
 |---|---|---|---|---:|---:|---:|---:|
-| 700041018980 | 4047443295231 | Xavax 111725 čistič myčky, svěží vůně | cena mimo 8x rozsah mediánu kategórie | 369.50 € | 3.80 € | 1/97.2x | 26 |
+| 700041018980 | 4047443295231 | Xavax 111725 čistič myčky, svěží vůně | cena mimo 8x rozsah mediánu kategórie | 371.50 € | 3.80 € | 1/97.8x | 25 |
