@@ -262,42 +262,42 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092214 | 6922572232730 | Filament eSun ABS-ESD 1.75mm 0.8kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092215 | 6922572231290 | Filament eSun PET-FR 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092216 | 6922572230910 | Filament eSun PC-ESD 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092395 | 6922572222939 | Filament eSun PLA-Silk Magic 1.75mm 1kg (gold pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092396 | 6922572203686 | Filament eSun PLA-Silk Magic 1.75mm 1kg (lime cyan) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092397 | 6922572203198 | Filament eSun PLA-Silk Magic 1.75mm 1kg (fuchsia green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092398 | 6922572223356 | Filament eSun PLA-Silk Magic 1.75mm 1kg (green silver) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092399 | 6922572223363 | Filament eSun PLA-Silk Magic 1.75mm 1kg (green-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092400 | 6922572223370 | Filament eSun PLA-Silk Magic 1.75mm 1kg (red-silver) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092395 | 6922572222939 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (zlatá ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092396 | 6922572203686 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (limetkovo-cyanová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092397 | 6922572203198 | Filament eSun PLA-Silk Magic 1,75 mm, 1 kg (fuchsiovo-zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092398 | 6922572223356 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (zelená so strieborným odleskom) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092399 | 6922572223363 | Filament eSun PLA-Silk Magic 1,75 mm, 1 kg (zeleno-ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092400 | 6922572223370 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (červeno-strieborné) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092401 | 6922572223387 | Filament eSun PLA-Silk Magic 1.75mm 1kg (blue-gold) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092402 | 6922572223394 | Filament eSun PLA-Silk Magic 1.75mm (black coral pink) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092403 | 6922572221888 | Filament eSun PLA-Silk Magic 1.75mm 1kg (green-purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092430 | 6922572223349 | Filament eSun PLA-Matte 1.75mm 1kg (aqua) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092431 | 6922572223301 | Filament eSun PLA-Matte 1.75mm 1kg (concrete grey) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092433 | 6922572215368 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (paddy field) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092435 | 6922572215351 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (ocean) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092436 | 6922572215344 | Filament eSun PLA-Matte Rainbow 1.75mm 1kg (sunrise) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092442 | 6922572208032 | Filament eSun PLA-Matte Dual 1.75mm 1kg (red-yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092443 | 6922572207950 | Filament eSun PLA-Matte Dual 1.75mm 1kg (red-blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092444 | 6922572207998 | Filament eSun PLA-Matte Dual 1.75mm 1kg (blue purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092445 | 6922572207974 | Filament eSun PLA-Matte Dual 1.75mm 1kg (green-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092282 | 6922572219106 | Filament eSun PLA+ 1.75mm 1kg (green) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092430 | 6922572223349 | Filament eSun PLA-Matte 1,75 mm, 1 kg (aqua) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092431 | 6922572223301 | Filament eSun PLA-Matte 1,75 mm, 1 kg (betónovo šedá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092433 | 6922572215368 | Filament eSun PLA-Matte Rainbow 1,75 mm 1 kg (ryžové polia) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092435 | 6922572215351 | Filament eSun PLA-Matte Rainbow 1,75 mm 1 kg (oceán) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092436 | 6922572215344 | Filament eSun PLA-Matte Rainbow 1,75 mm 1 kg (sunrise) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092442 | 6922572208032 | Vlákno eSun PLA-Matte Dual 1,75 mm 1 kg (červeno-žlté) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092443 | 6922572207950 | Vlákno eSun PLA-Matte Dual 1,75 mm 1 kg (červeno-modré) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092444 | 6922572207998 | Filament eSun PLA-Matte Dual 1,75 mm 1 kg (modro-fialová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092445 | 6922572207974 | Filament eSun PLA-Matte Dual 1,75 mm 1 kg (zelená-ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092282 | 6922572219106 | Sun Filament PLA+ 1,75 mm 1 kg (zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092347 | 6922572204461 | Filament eSun PLA-Luminous 1.75mm (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092348 | 6922572204447 | Filament eSun PLA-Luminous 1.75mm (blue) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092349 | 6922572204478 | Filament eSun PLA-Luminous 1.75mm (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092363 | 6922572204171 | Filament eSun PLA-Silk 1.75mm 1kg (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092364 | 6922572220386 | Filament eSun PLA-Silk 1.75mm 1kg (aqua) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092365 | 6922572223981 | Filament eSun PLA-Silk 1.75mm 1kg (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092366 | 6922572224001 | Filament eSun PLA-Silk 1.75mm 1kg (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092364 | 6922572220386 | Sun Filament PLA-Silk 1,75 mm 1 kg (aqua) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092365 | 6922572223981 | Sun Filament PLA-Silk 1,75 mm 1 kg (oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092366 | 6922572224001 | Sun Filament PLA-Silk 1,75 mm 1 kg (sivá) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092368 | 6922572218215 | Filament eSun PLA-Silk Rainbow 1.75mm (huaguo mountain) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092369 | 6922572218222 | Filament eSun PLA-Silk Rainbow 1.75mm 1kg (moon palace) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092370 | 6922572218239 | Filament eSun PLA-Silk Rainbow 1.75mm (flaming mountain) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092371 | 6922572218246 | Filament eSun PLA-Silk Rainbow 1.75mm 1kg (jade pool) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092372 | 6922572218253 | Filament eSun PLA-Silk Rainbow 1.75mm (dragon palace) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092384 | 6922572205321 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092385 | 6922572221710 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black silver) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092392 | 6922572221727 | Filament eSun PLA-Silk Magic 1.75mm 1kg (gold green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092393 | 6922572221734 | Filament eSun PLA-Silk Magic 1.75mm 1kg (black-pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092394 | 6922572221741 | Filament eSun PLA-Silk Magic 1.75mm 1kg (purple-silver) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092384 | 6922572205321 | Filament eSun PLA-Silk Magic 1,75 mm, 1 kg (čierno-fialový) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092385 | 6922572221710 | Vlákno eSun PLA-Silk Magic 1,75 mm 1 kg (čierna so strieborným odleskom) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092392 | 6922572221727 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (zlatozelená) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092393 | 6922572221734 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (čierno-ružové) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092394 | 6922572221741 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (fialovo-strieborná) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091845 | 5905156111004 | Čítačka kariet BlitzWolf BW-CR2 5 v 1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091848 | 5905156111042 | Parkovacie kúrenie Hcalory HBS-3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093465 | 6975274260402 | Solárny panel ALLPOWERS SF200 200 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -421,5 +421,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G | nulová/neplatná cena |  | 0.00 € |  |  |
-| 083142 | 0810098388061 | Sedadlo pre FunWater SUP dosku | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 11.00 € | 1/12.8x | 14 |
+| 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 11.00 € | 1/12.8x | 14 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 8.10 € | 1/17.4x | 14 |
