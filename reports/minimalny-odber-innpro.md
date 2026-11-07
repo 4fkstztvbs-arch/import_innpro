@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-07 19:43 UTC.
+Kontrola z 2026-11-07 22:53 UTC.
 
-InnPro pri **386** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **392** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -160,8 +160,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `067464` | Silicone Protective Case PULUZ for DJI RC 2 (grey) | — | 5 |
 | `067463` | Silicone protective case PULUZ for DJI RC 2 (black) | — | 5 |
 | `067462` | Case with Lens Cap and Neck Strap PULUZ for GoPro Hero 9 / 1 | — | 4 |
+| `066276` | Lens Protector Nillkin for Samsung Galaxy S24+ (3 Pieces) | — | 5 |
 | `067767` | Anti-glare lens and gimbal cover Sunnylife for DJI Avata 2 | — | 5 |
 | `067770` | Protective case Sunnylife for Insta360 X4 | — | 5 |
+| `066322` | Case Nillkin Super Frosted Shield Pro for Samsung Galaxy A15 | — | 5 |
 | `068199` | Maono XLR-180 Cable | — | 5 |
 | `068234` | Silicone Cover Case Set with Strap PULUZ For DJI OSMO Pocket | — | 5 |
 | `068805` | Mini Bag PULUZ for DJI Osmo Pocket 3 (Black) | — | 5 |
@@ -196,9 +198,14 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071867` | Sunnylife protective case for 3 batteries for DJI Neo | — | 5 |
 | `071893` | Sunnylife tempered glass for DJI Action 5 Pro | — | 5 |
 | `072355` | Chladiaci ventilátor Darkflash DR08 (čierny) | — | 5 |
+| `069348` | Decorative cover / cap for T5 SONOFF Cartoon 1C touch switch | — | 5 |
+| `069349` | Decorative cover / cap for T5 SONOFF Cartoon 2C touch switch | — | 5 |
+| `069350` | Decorative cover / cap for T5 SONOFF Cartoon 3C touch switch | — | 5 |
 | `069351` | Decorative cover / cap for T5 SONOFF Star 1C touch switch | — | 5 |
 | `069352` | Decorative cover / cap for T5 SONOFF Star 2C touch switch | — | 5 |
+| `069353` | Decorative cover / cap for T5 SONOFF Star 3C touch switch | — | 5 |
 | `071272` | Senzorové nočné svetlo Yeelight Lite | — | 5 |
+| `071238` | Etui do iPhone 16 Plus Nillkin Super Frosted Pro (čierne) | — | 4 |
 | `073741` | Butterfly Sunnylife NE-SN908 ochranné puzdro pre NEO s karab | — | 5 |
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
@@ -356,7 +363,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
 | `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 5 |
 | `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
-| `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
 | `087023` | Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 | — | 5 |
 | `087027` | Filter MOVA pre stanicu G70 | — | 5 |
