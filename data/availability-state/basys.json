@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 953,
+  "activeItemCount": 954,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -263,6 +263,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B 906",
+      "code": "BASYS-B 906",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-B A00204-0100",
       "code": "BASYS-B A00204-0100",
       "ean": ""
@@ -340,11 +345,6 @@
     {
       "key": "code:BASYS-BD 484679",
       "code": "BASYS-BD 484679",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-BD 701610",
-      "code": "BASYS-BD 701610",
       "ean": ""
     },
     {
@@ -485,11 +485,6 @@
     {
       "key": "code:BASYS-DM TCE",
       "code": "BASYS-DM TCE",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-DMH-A240BT",
-      "code": "BASYS-DMH-A240BT",
       "ean": ""
     },
     {
@@ -725,6 +720,11 @@
     {
       "key": "code:BASYS-RD-HWK200",
       "code": "BASYS-RD-HWK200",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-S16",
+      "code": "BASYS-S16",
       "ean": ""
     },
     {
@@ -2016,6 +2016,11 @@
       "key": "ean:0017817855624",
       "code": "BASYS-B 841156-0420",
       "ean": "0017817855624"
+    },
+    {
+      "key": "ean:0017817855648",
+      "code": "BASYS-B 829705-0120",
+      "ean": "0017817855648"
     },
     {
       "key": "ean:0017817855754",
@@ -4830,6 +4835,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-BD 701610",
+      "code": "BASYS-BD 701610",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-BD 717657",
       "code": "BASYS-BD 717657",
       "ean": ""
@@ -4857,6 +4867,11 @@
     {
       "key": "code:BASYS-DI 20P",
       "code": "BASYS-DI 20P",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-DMH-A240BT",
+      "code": "BASYS-DMH-A240BT",
       "ean": ""
     },
     {
@@ -4988,11 +5003,6 @@
       "key": "ean:0017817855570",
       "code": "BASYS-B 841156-0320",
       "ean": "0017817855570"
-    },
-    {
-      "key": "ean:0017817855648",
-      "code": "BASYS-B 829705-0120",
-      "ean": "0017817855648"
     },
     {
       "key": "ean:0713757159715",
