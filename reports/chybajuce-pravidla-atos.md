@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-11-07 00:05 UTC.
+Kontrola z 2026-11-07 23:35 UTC.
 
 **1 ciest bez pravidla, 155 produktov bez kategórie.**
 
@@ -9,4 +9,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 155 | Sada pro přežití SURVIVAL 32v1 Trizand 19920; LED svíčky Ruhhy 26382 15 x 5 cm; Kruger&Matz KM0818.1 internetové rádio s DAB+, Wi-Fi, Bluetooth, USB; Skicovací sada Maaleo 26134 27dílná; INFRAPANEL DREAM HEAT CC 600 W /100x60x1.2cm/ |
+| `Druhy > BLACK FRIDAY` | 155 | Budík digitální TechnoLine WT 235BK; MEGASAT HD7 COMBO DVB-S/S2/T/T2/C/C2/DAB/DAB+; Svářečka plastů X-TREME ZD-8905G 60W HQ BOX - sada; EMOS P4537 COB LED + SMD LED nabíjecí svítilna, 330 lm, 1200 mAh; Meteorologická stanice GARNI 291 Line |
