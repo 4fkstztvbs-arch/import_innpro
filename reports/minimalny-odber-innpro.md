@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-08 20:02 UTC.
+Kontrola z 2026-11-08 23:00 UTC.
 
-InnPro pri **389** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **391** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -68,7 +68,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `039677` | Mäkká valcová kefa pre vysávač Dreame R10 Pro / R20 | — | 5 |
 | `041716` | Držiak telefónu Puluz | — | 5 |
 | `043028` | Stojan Sonoff NSPanel (biely) | — | 5 |
-| `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 5 |
+| `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 3 |
 | `038164` | Solárna lampa Superfire FF6-B, 33W, 220lm, 1200mAh | — | 5 |
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
@@ -172,6 +172,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068238` | Silicone stand PULUZ for Insta360 X4 camera | — | 5 |
 | `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
 | `067687` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-FW (whi | — | 5 |
+| `067677` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-F (grap | — | 5 |
 | `067686` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-FW (whi | — | 5 |
 | `067669` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-F (grap | — | 5 |
 | `068840` | Mäkká kefa pre Dreame Z20/Z30/Z20 AquaCycle™/Z30 AquaCycle™ | — | 5 |
@@ -190,7 +191,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
 | `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 4 |
 | `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
-| `071869` | SUNNYLIFE propeller guard for DJI Neo (gray) | — | 5 |
+| `071869` | SUNNYLIFE propeller guard for DJI Neo (gray) | — | 4 |
 | `071860` | Sunnylife landing gear upgrade for DJI Neo (orange) | — | 5 |
 | `071853` | SUNNYLIFE lens hoods for DJI Neo | — | 5 |
 | `071865` | SUNNYLIFE protective battery case for DJI Neo | — | 5 |
@@ -311,6 +312,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
+| `087500` | Diaľkový ovládač MOES YK2169 | — | 5 |
 | `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086450` | Filtračné čerpadlo SUNSUN JP-092 | — | 5 |
