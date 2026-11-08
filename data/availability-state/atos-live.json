@@ -1,21 +1,22 @@
 {
   "version": 1,
   "managedVisibility": {
-    "code:MASDO720": "visible",
-    "code:0000": "visible",
-    "code:R-DHN-54R18/DG(BW)455WPBF": "visible",
+    "code:5:5 -> 6:6": "visible",
+    "code:LEC-TSA0153": "hidden",
     "code:3989": "visible",
-    "code:3001": "visible",
-    "code:9122830": "visible",
+    "code:PWDGOTČAS#": "visible",
+    "code:DEVICES.JSON": "visible",
     "code:3006": "visible",
     "code:3008": "visible",
     "code:8009": "visible",
-    "code:PWDGOTČAS#": "visible",
-    "code:13989": "visible",
-    "code:DEVICES.JSON": "visible",
-    "code:3007": "visible",
-    "code:5:5 -> 6:6": "visible",
+    "code:3001": "visible",
     "code:8001": "visible",
+    "code:0000": "visible",
+    "code:9122830": "visible",
+    "code:TIP-06426799": "hidden",
+    "code:LP-URZ0036": "hidden",
+    "code:3007": "visible",
+    "code:13989": "visible",
     "code:MS-GARNI 1NG3": "visible"
   }
 }
