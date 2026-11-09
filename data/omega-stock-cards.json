@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600768,
+    "nextCardNumber": 202600773,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4604,6 +4604,36 @@
         "nazov": "Pojistka vložka VCX NH00C průmyslová zpožděná / 500V / 50A / 120kA",
         "dodavatel": "atos",
         "code": "VCX-NH00C50A"
+      },
+      "8590419035660": {
+        "kod": "202600768",
+        "nazov": "Banquet Jídlonosič ner., 4 díly",
+        "dodavatel": "kb",
+        "code": "100000027538"
+      },
+      "5038061101331": {
+        "kod": "202600769",
+        "nazov": "Russell Hobbs 25630-56",
+        "dodavatel": "kb",
+        "code": "100002126593"
+      },
+      "7621800033277": {
+        "kod": "202600770",
+        "nazov": "Roadstar PCD-499 BT Discman",
+        "dodavatel": "kb",
+        "code": "100002129451"
+      },
+      "8595683205467": {
+        "kod": "202600771",
+        "nazov": "Evolveo StrongVision LTE CLOUD",
+        "dodavatel": "kb",
+        "code": "100002134243"
+      },
+      "8595658400811": {
+        "kod": "202600772",
+        "nazov": "GLOX Elektrický čistící kartáč s tyčí",
+        "dodavatel": "kb",
+        "code": "100002204091"
       }
     }
   },
