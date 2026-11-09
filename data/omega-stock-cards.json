@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600757,
+    "nextCardNumber": 202600768,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4538,6 +4538,72 @@
         "nazov": "GLOX Dávkovač mýdla Gel bílý",
         "dodavatel": "kb",
         "code": "100002204092"
+      },
+      "4823059380659": {
+        "kod": "202600757",
+        "nazov": "Ventilátor VENTS VVR 180 s možností zpětného chodu 1009639",
+        "dodavatel": "atos",
+        "code": "ELE-1009639"
+      },
+      "4824032042144": {
+        "kod": "202600758",
+        "nazov": "VENTS GRM 635 kovová gravitační žaluzie 635x635",
+        "dodavatel": "atos",
+        "code": "ELE-1009763"
+      },
+      "5901752488359": {
+        "kod": "202600759",
+        "nazov": "Zásuvka kabelová ORNO OR-AE-1370 gumová přímá s rukojetí, IP44, černá",
+        "dodavatel": "atos",
+        "code": "ORAE1370"
+      },
+      "5908254827846": {
+        "kod": "202600760",
+        "nazov": "Elektroměr 1F na DIN lištu digitální ORNO OR-WE-525, MID, RS-485 vícetarifový",
+        "dodavatel": "atos",
+        "code": "OR-OR-WE-525"
+      },
+      "8592920140031": {
+        "kod": "202600761",
+        "nazov": "Nabíječka USB EMOS V01B10 BASIC univerzální 2A (10W) max.",
+        "dodavatel": "atos",
+        "code": "EMO1704022600"
+      },
+      "8592848010140": {
+        "kod": "202600762",
+        "nazov": "Náhradní plastový klíč ke skříním MAGNA IP65 (kompatibilní se všemi typy)",
+        "dodavatel": "atos",
+        "code": "FAM-391014"
+      },
+      "1234123412341": {
+        "kod": "202600763",
+        "nazov": "FV solární panel Trina TSM-NEG9R.28 Vertex S+ 455WP - černý rám 1762 × 1134 × 30",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "4016138987140": {
+        "kod": "202600764",
+        "nazov": "Teploměr bezkontaktní Voltcraft MINI IR 10 tužkový",
+        "dodavatel": "atos",
+        "code": "ATO-1367583"
+      },
+      "4025221395083": {
+        "kod": "202600765",
+        "nazov": "Krabice instalační HAD 4-S, sporáková, bezšroub. svorkovnice 5x6 mm2, bílá, IP",
+        "dodavatel": "atos",
+        "code": "ATO-1000703"
+      },
+      "5900779943155": {
+        "kod": "202600766",
+        "nazov": "Hygienická absorbční podložka Purlov 21601 60x60cm 100 ks",
+        "dodavatel": "atos",
+        "code": "ITR-00016714"
+      },
+      "5901122680819": {
+        "kod": "202600767",
+        "nazov": "Pojistka vložka VCX NH00C průmyslová zpožděná / 500V / 50A / 120kA",
+        "dodavatel": "atos",
+        "code": "VCX-NH00C50A"
       }
     }
   },
