@@ -1,31 +1,123 @@
 {
-  "fetchedAt": "2026-11-02T13:05:10.146Z",
+  "fetchedAt": "2026-11-09T13:37:29.675Z",
   "domain": "heureka.sk",
-  "productCount": 13,
-  "matchedProductCount": 10,
+  "productCount": 18,
+  "matchedProductCount": 13,
   "unmatchedEanCount": 1,
-  "noEanCount": 2,
+  "noEanCount": 4,
   "products": [
     {
-      "ean": "6976037360865",
-      "heurekaProductName": "Smart Switch Module AVATTO LZWSM16-W2 ZigBee Tuya",
-      "heurekaUrl": "https://www.premiumstore.sk/inteligentny-spinaci-modul-zigbee-avatto-lzwsm16-w2-bez-neutralu-tuya/",
-      "ourName": "Inteligentný spínací modul ZigBee Avatto LZWSM16-W2 Bez neutrálu TUYA",
-      "ourCode": "047980",
+      "ean": "6937267000372",
+      "heurekaProductName": "BOBOVR S3 Pro| Popruh s batériou Meta Quest 3S & Quest 3",
+      "heurekaUrl": "https://www.premiumstore.sk/bobovr-s3-pro---popruh-s-bateriou-a-ventilatorom-pre-meta-quest-3-3s/",
+      "ourName": "BOBOVR S3 Pro – popruh s batériou a ventilátorom pre Meta Quest 3/3S",
+      "ourCode": "064837",
       "ourSource": "innpro.xml",
       "reviewCount": 1,
-      "avgRating": 4.5,
+      "avgRating": 5,
       "reviews": [
         {
-          "ratingId": "7087869",
+          "ratingId": "7121409",
           "orderId": "",
           "author": "",
-          "rating": 4.5,
-          "pros": "Spoľahlivé ovládanie",
+          "rating": 5,
+          "pros": "Pohodlné používanie\nStabilné fungovanie",
           "cons": "",
           "summary": "",
           "reaction": "",
-          "unixTimestamp": 1793355007
+          "unixTimestamp": 1794118429
+        }
+      ]
+    },
+    {
+      "ean": "8595235806708",
+      "heurekaProductName": "Maxxo Uni 8 ks",
+      "heurekaUrl": "https://www.premiumstore.sk/maxxo-uni-filtry-8ks/",
+      "ourName": "Maxxo UNI filtry 8ks",
+      "ourCode": "100001755867",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "7107742",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "Jednoduchá inštalácia\nOk",
+          "cons": "Nic",
+          "summary": "Všetko",
+          "reaction": "",
+          "unixTimestamp": 1793794238
+        }
+      ]
+    },
+    {
+      "ean": null,
+      "heurekaProductName": "Náhradný diaľkový ovládač Alien Thomson THS 812",
+      "heurekaUrl": "https://www.premiumstore.sk/dialkovy-ovladac-alien-thomson-ths-812/",
+      "ourName": null,
+      "ourCode": null,
+      "ourSource": null,
+      "reviewCount": 1,
+      "avgRating": 4,
+      "reviews": [
+        {
+          "ratingId": "7106411",
+          "orderId": "",
+          "author": "",
+          "rating": 4,
+          "pros": "Univerzálne použitie",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1793776366
+        }
+      ]
+    },
+    {
+      "ean": null,
+      "heurekaProductName": "Záložný zdroj Zdroj záložní Kemot PROsinus 500 URZ3404B 300 W 12 V + AKU 40Ah",
+      "heurekaUrl": "https://www.premiumstore.sk/zdroj-zalozni-kemot-prosinus--500-urz3404b-300w-12v-aku-40ah/",
+      "ourName": null,
+      "ourCode": null,
+      "ourSource": null,
+      "reviewCount": 1,
+      "avgRating": 1,
+      "reviews": [
+        {
+          "ratingId": "7105574",
+          "orderId": "",
+          "author": "",
+          "rating": 1,
+          "pros": "",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1793688596
+        }
+      ]
+    },
+    {
+      "ean": "3121040078099",
+      "heurekaProductName": "Naparovacia žehlička Tefal FV6840E0",
+      "heurekaUrl": "https://www.premiumstore.sk/tefal-fv6840e0/",
+      "ourName": "Tefal FV6840E0",
+      "ourCode": "100001188855",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 1,
+      "reviews": [
+        {
+          "ratingId": "7098801",
+          "orderId": "",
+          "author": "",
+          "rating": 1,
+          "pros": "",
+          "cons": "",
+          "summary": "Zehlicka zial nedosla, cakanie skoro mesiac. Spojila som sa s obchodom, najprv, ze nieje tovar na sklade, ze naskladnia a hned poslu. Potom isiel dalsi e-mail, no nikto sa neozval. Cakam na vratenie penazi, ak nevratia budem kontaktovat banku.",
+          "reaction": "",
+          "unixTimestamp": 1793642683
         }
       ]
     },
@@ -53,25 +145,25 @@
       ]
     },
     {
-      "ean": "6923520247868",
-      "heurekaProductName": "Bezdrôtové slúchadlá Edifier W800BT Pro s ANC a výdržou až 45 h (sivé)",
-      "heurekaUrl": "https://www.premiumstore.sk/bezdrotove-sluchadla-edifier-w800bt-pro--anc--sive/",
-      "ourName": "",
-      "ourCode": "065952",
-      "ourSource": "innpro.xml",
+      "ean": "8592718030773",
+      "heurekaProductName": "Profesionálna meteostanica Solight TE90 s meraním vetra a zrážok",
+      "heurekaUrl": "https://www.premiumstore.sk/solight-profesionalna-meteostanica--prehladny-a-dizajnovy-displej--tlak--teplota--vlhkost--zrazky--hodnoty-vetra/",
+      "ourName": "Solight profesionálna meteostanica, prehľadný a dizajnový displej, tlak, teplota, vlhkosť, zrážky, hodnoty vetra",
+      "ourCode": "TE90",
+      "ourSource": "solight.xml",
       "reviewCount": 1,
-      "avgRating": 5,
+      "avgRating": 4.5,
       "reviews": [
         {
-          "ratingId": "7059118",
+          "ratingId": "7054163",
           "orderId": "",
           "author": "",
-          "rating": 5,
+          "rating": 4.5,
           "pros": "",
           "cons": "",
           "summary": "",
           "reaction": "",
-          "unixTimestamp": 1792677869
+          "unixTimestamp": 1792592040
         }
       ]
     },
@@ -122,25 +214,25 @@
       ]
     },
     {
-      "ean": "6935750525081",
-      "heurekaProductName": "UNI-T UT25CL",
-      "heurekaUrl": "https://www.premiumstore.sk/detektor-drotov-uni-t-ut25cl/",
-      "ourName": "Detektor drôtov UNI-T UT25CL",
-      "ourCode": "077518",
+      "ean": "4262533460058",
+      "heurekaProductName": "Projektor Ultimea Nova C40 s natívnym Full HD rozlíšením",
+      "heurekaUrl": "https://www.premiumstore.sk/projektor-ultima-nova-c40/",
+      "ourName": "Projektor Ultima Nova C40",
+      "ourCode": "083071",
       "ourSource": "innpro.xml",
       "reviewCount": 1,
-      "avgRating": 0.5,
+      "avgRating": 4.5,
       "reviews": [
         {
-          "ratingId": "6997952",
+          "ratingId": "7015735",
           "orderId": "",
           "author": "",
-          "rating": 0.5,
+          "rating": 4.5,
           "pros": "",
-          "cons": "",
-          "summary": "Neviem posúdiť, nakoľko tovar skladom nedorazil ani po 7 dní",
+          "cons": "Chýba pripojenie na optický kábel",
+          "summary": "Chýba pripojenie na optický kábel",
           "reaction": "",
-          "unixTimestamp": 1791187307
+          "unixTimestamp": 1791661002
         }
       ]
     },
@@ -164,6 +256,29 @@
           "summary": "",
           "reaction": "",
           "unixTimestamp": 1790592843
+        }
+      ]
+    },
+    {
+      "ean": "8595235802519",
+      "heurekaProductName": "Univerzálne filtre do kanvíc Maxxo UNI, 12 ks",
+      "heurekaUrl": "https://www.premiumstore.sk/maxxo-uni-filtry-12ks/",
+      "ourName": "Maxxo UNI filtry 12ks",
+      "ourCode": "100001755868",
+      "ourSource": "kb.xml",
+      "reviewCount": 1,
+      "avgRating": 5,
+      "reviews": [
+        {
+          "ratingId": "6954846",
+          "orderId": "",
+          "author": "",
+          "rating": 5,
+          "pros": "It fits into BWT",
+          "cons": "",
+          "summary": "",
+          "reaction": "",
+          "unixTimestamp": 1790072739
         }
       ]
     },
