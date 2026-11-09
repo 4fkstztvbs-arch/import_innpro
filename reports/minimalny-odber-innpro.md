@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-09 12:18 UTC.
+Kontrola z 2026-11-09 23:54 UTC.
 
-InnPro pri **390** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **386** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -22,7 +22,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `019505` | Skladacie mäkké svetlo s bleskom Puluz PU5120 20cm | — | 5 |
 | `019506` | Fotoblesk Puluz 5w1 + puzdro | — | 5 |
 | `020113` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (červený+čierny) | — | 5 |
-| `020112` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (sivý+čierny) | — | 5 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | — | 5 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrátane O | — | 5 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW2 WiF | — | 5 |
@@ -67,6 +66,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `039677` | Mäkká valcová kefa pre vysávač Dreame R10 Pro / R20 | — | 5 |
 | `041716` | Držiak telefónu Puluz | — | 5 |
 | `043028` | Stojan Sonoff NSPanel (biely) | — | 5 |
+| `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 3 |
 | `038164` | Solárna lampa Superfire FF6-B, 33W, 220lm, 1200mAh | — | 5 |
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
@@ -140,8 +140,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `061835` | Puzdro Joyroom PN-15F1 Starry Case pre iPhone 15 Pro (zelené | — | 5 |
 | `063431` | Silikónové bezpečnostné puzdro pre Puluz Insta360 GO 3 s kry | — | 5 |
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
-| `061362` | Side brush for Roidmi EVE CC | — | 5 |
-| `061363` | Mopping pads for Roidmi EVE CC | — | 5 |
 | `061859` | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (zelené) | — | 5 |
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
@@ -188,7 +186,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071040` | WAUDOG natural leather dog leash 20 mm wide, 122 cm long pin | — | 5 |
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
-| `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 4 |
 | `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
 | `071869` | SUNNYLIFE propeller guard for DJI Neo (gray) | — | 4 |
 | `071860` | Sunnylife landing gear upgrade for DJI Neo (orange) | — | 5 |
@@ -209,7 +206,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
-| `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `071777` | Magnetický držiak telefónu Joyroom JR-ZS418 čierny | — | 5 |
