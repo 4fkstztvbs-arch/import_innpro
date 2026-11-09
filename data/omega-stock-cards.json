@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600749,
+    "nextCardNumber": 202600757,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4490,6 +4490,54 @@
         "nazov": "Gimbal AOCHUAN V3 With",
         "dodavatel": "innpro",
         "code": "089015"
+      },
+      "3016661155109": {
+        "kod": "202600749",
+        "nazov": "Tefal HB453138",
+        "dodavatel": "kb",
+        "code": "100000570698"
+      },
+      "4023103201262": {
+        "kod": "202600750",
+        "nazov": "Vileda Ultramax Microfibre",
+        "dodavatel": "kb",
+        "code": "100000913200"
+      },
+      "3597320107856": {
+        "kod": "202600751",
+        "nazov": "ANTALIS Image Volume papír A4",
+        "dodavatel": "kb",
+        "code": "100001929344"
+      },
+      "4012074000707": {
+        "kod": "202600752",
+        "nazov": "ScanPart Univerzální tekutý",
+        "dodavatel": "kb",
+        "code": "340520148401"
+      },
+      "5411397013934": {
+        "kod": "202600753",
+        "nazov": "DOMO DO42324PC",
+        "dodavatel": "kb",
+        "code": "341050034421"
+      },
+      "4006501725639": {
+        "kod": "202600754",
+        "nazov": "Leifheit Air Board M Solid",
+        "dodavatel": "kb",
+        "code": "100000033223"
+      },
+      "8711902040842": {
+        "kod": "202600755",
+        "nazov": "Lenco KCR-150 white",
+        "dodavatel": "kb",
+        "code": "100000708679"
+      },
+      "8595658401375": {
+        "kod": "202600756",
+        "nazov": "GLOX Dávkovač mýdla Gel bílý",
+        "dodavatel": "kb",
+        "code": "100002204092"
       }
     }
   },
