@@ -28,7 +28,7 @@ Cieľ: aby systém vedel, čo naozaj funguje. Rola meria nezávisle od tých, kt
 2. **Poistky** (prahy v `config.json`):
    - stránka v skupine TEST, ktorej pozícia klesla o viac ako prah alebo zobrazenia klesli o viac ako prah oproti skupine KONTROLA: vrátiť pôvodné hodnoty z `changelog/`, zapísať návrat,
    - pokles zobrazení celého webu alebo konverzie nad prah týždeň na týždeň: nič nevracať automaticky, zapísať do handoffu ako prvú vec s označením POISTKA. Hlavný agent zastaví nové zmeny triedy B, kým sa príčina nevyjasní.
-3. **Trvanlivosť zápisov**: vybrať vzorku najviac `meranieVzorkaTrvanlivostiDenne` produktov zo záznamov `changelog/` za posledné 3 dni, rozloženú medzi dodávateľov, ktorých sa zmeny týkali. Ak za 3 dni nie sú žiadne zmeny, krok sa preskočí a cez `product_detail` porovnať s hodnotami `po`. Výsledok zapísať do záznamu (`trvanlivost`). Ak import pole prepísal, založiť úlohu s dodávateľom a poľom.
+3. **Trvanlivosť zápisov**: vybrať vzorku najviac `meranieVzorkaTrvanlivostiDenne` produktov zo záznamov `changelog/` za posledné 3 dni, rozloženú medzi dodávateľov, ktorých sa zmeny týkali, a cez `product_detail` porovnať s hodnotami `po`. Ak za 3 dni nie sú žiadne zmeny, krok sa preskočí. Výsledok zapísať do záznamu (`trvanlivost`). Ak import pole prepísal, založiť úlohu s dodávateľom a poľom.
 4. **Experimenty** s dátumom vyhodnotenia dnes alebo skôr: stiahnuť dáta po stránkach za obdobie pred a po, spustiť `experiment-stats.js`, zapísať výsledok a verdikt do súboru experimentu. Verdikty: `ponechat-a-rozsirit`, `vratit`, `nerozhodne`.
 5. Handoff: čísla v percentách oproti priemeru 7 dní, zásahy poistiek, výsledky kontrol, vyhodnotené experimenty. Absolútne tržby a objednávky len v súkromnom súbore.
 
