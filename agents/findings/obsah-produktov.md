@@ -73,12 +73,12 @@ Zdroj poradia: GA4 (zobrazenia, košík, nákupy) a Search Console (kliky/zobraz
 2. **Vlna 1 ručne cez agenta pre obsah** (Sonnet 5.5, skill `eshop-product-content`): napísať popis + FAQ + meta + alt texty. Zápis do eshopu cez `product_update` (len name/popisy/meta/parametre/obrázky, nie ceny/viditeľnosť/sklad). Záloha pôvodného obsahu do `backups/` pred každou zmenou.
 3. **A/B test** na 2 skupinách z vlny 1: 10 produktov nový obsah vs. 10 kontrolných (podobné tržby), 4 týždne, metriky GSC CTR + GA4 add-to-cart rate + konverzný pomer. Výsledky do `agents/findings/ab-obsah.md`.
 4. **Oprava šablóny „psc“** (zdroj šablóny je v repozitári; nájsť generátor): odstrániť duplicity v parametroch, generické texty zamieňať kategóriovými blokmi (nie vata), prepojiť „súvisiace“ len v rámci rovnakej kategórie, obrázok len z CDN Shoptetu.
-5. **Hromadný preklad CZ → SK** pre D produkty (názov, popis, URL ponechať a pridať presmerovanie len ak to Shoptet podporuje; inak nemeniť URL).
+5. **Hromadný preklad CZ → SK** pre D produkty (názov a popis; URL sa nemení, rozhodnutie Martina).
 6. **Meta šablóny**: odstrániť „skladom“, doplniť parameter a výzvu; kratšie title.
 7. **Parametre a filtre**: doplniť 5–8 kľúčových parametrov pre top kategórie; zapnúť filtrovacie parametre.
 8. **Obrázky**: doplniť 2. a 3. obrázok z dodávateľských galérií, opisné alt texty (hromadne cez `product_images_add`), presunúť hotlink obrázky na Shoptet CDN.
 9. **Kategórie**: audit zobrazeného textu, vyčistiť CSS bloky z popisov (presunúť do témy, ak je možné), doplniť texty podkategóriám s <300 znakmi, FAQ + odkazy na podkategórie.
-10. **Varianty**: zlúčiť farebné/veľkostné duplikáty do variantných produktov (po schválení – dotýka sa viditeľnosti/URL).
+10. **Varianty**: zlúčiť farebné duplikáty do variantných produktov (schválené, po malých skupinách so zálohou).
 
 ## 5. KPI a meranie
 - Pokrytie: % produktov v triedach A/B (cieľ 70 % do 90 dní pre vlnu 1+2).
@@ -86,9 +86,9 @@ Zdroj poradia: GA4 (zobrazenia, košík, nákupy) a Search Console (kliky/zobraz
 - Počet produktov s ≥3 obrázkami, ≥5 parametrami, bez češtiny.
 - Týždenná správa do reportu o 7:30 s počtom upravených produktov a A/B výsledkom.
 
-## 6. Otvorené otázky pre Martina
-- Môžem pri CZ produktoch meniť aj názov a URL (s presmerovaním)? Defaultne meniť názov/popis, URL nechať.
-- Zlučovanie farebných duplicitov do variantov je zásah do viditeľnosti/URL – schváliš?
+## 6. Rozhodnutia Martina (2026-11-10)
+- České produkty: meniť sa smie **iba názov**; **URL sa nemení** (žiadne presmerovania).
+- Zlučovanie farebných duplicít do variantov: **schválené**, skúšať postupne (najprv malá skupina, záloha pôvodných produktov, kontrola, až potom ďalšie).
 
 ## 7. Navrhované úlohy
 Formát: názov · prečo · očakávaný dopad · náročnosť · komu patrí.
@@ -97,11 +97,11 @@ Formát: názov · prečo · očakávaný dopad · náročnosť · komu patrí.
 2. Prepis obsahu vlny 1 (~50 produktov s návštevnosťou) · najrýchlejší vplyv na konverzie a CTR · vysoký · stredná · obsah
 3. Úprava title a meta description pre URL s pozíciou 4–9 a nízkym CTR · rýchle výhry bez prepisu stránky · stredný až vysoký · nízka · seo
 4. Oprava šablóny „psc“ (duplicity parametrov, nerelevantné súvisiace kategórie, hotlink obrázkov, generické texty) · plošne zlepší tisíce stránok · vysoký · stredná · obsah
-5. Hromadný preklad CZ → SK pre importy z elektromateriálu · české texty znižujú dôveru a SEO · stredný · vysoká · obsah
+5. Hromadný preklad CZ → SK pre importy z elektromateriálu (mení sa názov a popis, URL zostáva) · české texty znižujú dôveru a SEO · stredný · vysoká · obsah
 6. Odstránenie „skladom“ z meta šablón · nepravdivé tvrdenie pri sklade u dodávateľa · stredný (dôvera) · nízka · seo
 7. Doplnenie parametrov a filtrov v top kategóriách · lepšie filtrovanie a porovnanie · stredný · stredná · ux-cro
 8. Doplnenie obrázkov a opisných alt textov · produkty majú väčšinou 1 obrázok · stredný · stredná · obsah
 9. Audit viditeľného textu kategórií a doplnenie textov podkategóriám · časť textu je CSS, podkategórie majú minimum textu · stredný · stredná · seo
 10. A/B test nového obsahu (10 vs. 10 produktov, 4 týždne) · overenie vplyvu pred plošným nasadením · rozhodovací · nízka · meranie
-11. Zlučovanie farebných a veľkostných duplicitov do variantov · duplicitný obsah · stredný · vysoká (vyžaduje schválenie, dotýka sa viditeľnosti) · obsah
+11. Zlučovanie farebných a veľkostných duplicitov do variantov · duplicitný obsah · stredný · vysoká (schválené Martinom, robiť po malých skupinách) · obsah
 12. Zistiť, prečo má Gorenje WG2PS72A12 veľa košíkov a málo nákupov · možný problém v pokladni alebo dôvere · vysoký · nízka · ux-cro
