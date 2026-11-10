@@ -38,3 +38,14 @@ Návrhy úloh (doplnenie):
 | Zvýšiť CPC v kategóriách s najvyšším ROAS | Vysoká návratnosť | Viac objednávok (schvaľuje Martin) | nízka | reklama |
 | Zosúladiť Heureka vs. GA4 atribúciu | Rozdiel tržieb | Dôveryhodné meranie | stredná | meranie |
 | Prešetriť pokles od augusta | Klesá ROAS aj návštevy | Obnova výkonu | stredná | reklama |
+
+## Doplnenie: Google kampane cez Shoptet (relatívne)
+- Návratnosť je veľmi vysoká (PNO rádovo 2 %), kanál je najefektívnejší; náklady a objednávky od polovice októbra rastú.
+- AI optimalizácia Googlu dáva merateľne lepšie výsledky než kampaň bez nej.
+- Anomálie: ~6 dní začiatkom októbra bez tržieb pri bežiacich nákladoch a jednodňový výkyv PNO v novembri – úloha pre meranie.
+- Atribúcia Shoptet Kampane vs. GA4 sa líši (~2×).
+
+| Názov | Prečo | Dopad | Náročnosť | Komu |
+|---|---|---|---|---|
+| Postupne navýšiť rozpočet Google kampaní | PNO ďaleko pod prahom | Viac objednávok (schvaľuje Martin) | nízka | reklama |
+| Prešetriť nulové tržby začiatkom októbra | Náklady bez objednávok | Meranie / oprava | nízka | meranie |
