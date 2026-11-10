@@ -1,5 +1,5 @@
 # Kategórie mimo stromu — innpro
 
-Kontrola z 2026-11-10 02:08 UTC.
+Kontrola z 2026-11-10 02:09 UTC.
 
 Žiadne — všetky kategórie v tomto feede existujú v našom strome.
