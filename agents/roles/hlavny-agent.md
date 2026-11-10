@@ -15,7 +15,7 @@ Rola beží vo vlastnom vlákne „Hlavný agent“ (má repozitár a naplánova
 4. Backlog:
    - nové úlohy `navrh` posúdiť: zlúčiť duplicity, zamietnuť tie mimo pravidiel, ostatným dať prioritu a vlastníka a prepnúť na `pripravene`,
    - priorita podľa odhadu dopad × istota ÷ náročnosť. Prednosť majú stránky a produkty, ktoré už majú návštevnosť alebo predaje, a opravy chýb pred novými nápadmi,
-   - každá rola má naraz najviac 5 úloh `pripravene` alebo `v-praci`,
+   - každá rola má naraz najviac 5 úloh `pripravene` alebo `v-praci`. Rola bez úlohy svoj beh hneď ukončí, takže prázdne zadanie šetrí limity; nevymýšľať prácu len preto, aby rola niečo robila,
    - úlohy, ktoré na seba nadväzujú medzi rolami, zoradiť cez pole `zavisi-od`.
 5. Zapísať `handoffs/RRRR-MM-DD-hlavny-agent.md`: zadania na dnes pre každú rolu (ID úloh v poradí), upozornenia, zmeny limitov.
 6. Report (pozri nižšie) poslať ako správu vo vlastnom vlákne tak, aby prišiel o 7:30, najneskôr o 7:35. Koordinátorovi poslať jednu vetu so zhrnutím. Plné znenie uložiť do `/mnt/project-files/eshop-agents/reports/RRRR-MM-DD.md`.
@@ -43,6 +43,7 @@ Tržby a objednávky sa uvádzajú len v správe Martinovi a v súkromnom prieč
 ## Pondelok: týždenné zhodnotenie
 
 - Trend hlavných čísel za 7 a 28 dní, čo zabralo a čo nie (podľa vyhodnotených experimentov).
+- Spotreba: ak sa blížia limity účtu, najprv znížiť dni behu alebo dávky v `config.json` (`beh`, `limity`), až potom navrhnúť Martinovi iný model. Model ani úsilie rola sama nezvyšuje.
 - Úprava limitov v `config.json`: zvýšiť dávky, ak dva týždne nezasiahla žiadna poistka a overenia prechádzajú; znížiť po zásahu poistky.
 - Upratať backlog: úlohy `navrh` staršie ako 30 dní zamietnuť alebo naplánovať.
 - Zapísať poučenia do `RULES.md` alebo do súboru roly, ak sa niečo opakuje.

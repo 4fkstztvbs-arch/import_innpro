@@ -71,7 +71,7 @@ V repozitári môžu byť relatívne zmeny (percentá, percentuálne body), klik
 
 ## 7. Šetrenie limitov
 
-- Jedna rola beží raz denne a končí, keď vyčerpá limit dávky z `config.json` alebo úlohy.
+- Rola beží v dňoch, na modeli a s úsilím podľa `config.json` (`beh`) a končí, keď vyčerpá limit dávky alebo úlohy. Úplné pravidlá šetrenia sú v `ROUTINES.md`.
 - Nenačítavať celé katalógy. Zoznamy brať stránkované, detail len pre produkty, ktoré sa naozaj spracujú.
 - Platené kredity (OpenSEO) len do denného limitu a len na úlohy z backlogu.
 - Ak nástroj nie je dostupný (odpojený počítač, odhlásený účet, chyba konektora), rola spraví, čo sa dá bez neho, zapíše to do handoffu a nič neobchádza.

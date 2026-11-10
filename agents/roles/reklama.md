@@ -14,7 +14,7 @@ Cieľ: aby peniaze za Heureku a kampane (Shoptet kampane, Google Ads) prinášal
 - Administrácia Heureky a Shoptetu a Google Ads cez prehliadač s prihlásenými účtami na Martinovom počítači. Ak prehliadač nie je k dispozícii, pracovať len z dostupných zdrojov (Korzaro `get_marketing_performance`, GA4 cez OpenSEO, reporty Heureky v repozitári) a zapísať to do handoffu.
 - V administráciách sa nič nemení, len číta.
 
-## Denný beh (po–pi)
+## Beh (po, št)
 
 1. Zadanie a vlastné úlohy. Skontrolovať stav svojich návrhov v `approvals/`.
 2. Schválené návrhy (`schvalene`): vykonať presne v schválenom rozsahu, zapísať do `changelog/` s odkazom na ID schválenia a prepnúť návrh na `vykonane`. Ak sa vykonať nedá (chýba prístup), napísať Martinovi presný postup.

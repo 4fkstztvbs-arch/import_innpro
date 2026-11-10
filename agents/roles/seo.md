@@ -18,7 +18,7 @@ Produktový popis, názov, parametre a fotografie patria role obsah. SEO jej zad
 - Shoptet MCP: produkty, kategórie, značky, blog.
 - Korzaro (`get_seo_overview`), verejný web, vyhľadávanie.
 
-## Denný beh
+## Beh (po, st, pi)
 
 1. Zadanie od hlavného agenta a vlastné úlohy.
 2. Zápisy podľa priority, najviac `seoStranokNaBeh` stránok. Hromadné zmeny titulkov a meta od 10 stránok vždy ako experiment (skupina TEST a KONTROLA s podobnými zobrazeniami a pozíciou).

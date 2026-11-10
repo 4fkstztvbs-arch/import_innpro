@@ -19,6 +19,7 @@ const config = {
   experimenty: { minDni: 14, minStranokTest: 2, minStranokKontrola: 2, alfa: 0.05 },
   zakazanePolia: ['price', 'cena', 'visibility', 'availability', 'stock'],
 };
+config.beh = Object.fromEntries(config.roly.map((r) => [r, { model: 'claude-sonnet-5-5', effort: 'medium', cron: '10 9 * * *', dni: [0, 1, 2, 3, 4, 5, 6] }]));
 
 function sandbox(files) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'agents-'));
@@ -137,4 +138,14 @@ test('prehľad stavu ukáže roly bez handoffu a experimenty na vyhodnotenie', (
   assert.match(out, /- obsah/);
   assert.doesNotMatch(out, /\n- seo/);
   assert.match(out, /\| seo \| 1 \| 0 /);
+});
+
+test('prehľad stavu rešpektuje dni behu roly', () => {
+  const dir = sandbox({ 'handoffs/2026-11-09-reklama.md': '---\ndatum: 2026-11-09\nrola: reklama\n---\n' });
+  const file = path.join(dir, 'config.json');
+  fs.writeFileSync(file, JSON.stringify({ ...config, beh: { reklama: { dni: [1, 4] } } }));
+  // 2026-11-11 je streda: posledný plánovaný beh reklamy bol v pondelok 9. 11., handoff existuje.
+  assert.doesNotMatch(status(dir, '2026-11-11'), /\n- reklama/);
+  // V piatok 13. 11. už chýba handoff za štvrtok 12. 11.
+  assert.match(status(dir, '2026-11-13'), /\n- reklama/);
 });

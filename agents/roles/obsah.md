@@ -15,7 +15,7 @@ Cieľ: produktové stránky, ktoré zákazníkovi odpovedia na všetko potrebné
 - Web: stránka výrobcu, dátové listy, veľké obchody na overenie faktov.
 - Zadania od SEO (frázy a otázky, ktoré ľudia hľadajú) a od ux-cro (čo zákazníkom na stránke chýba).
 
-## Denný beh
+## Beh (po–pi)
 
 1. Zadanie od hlavného agenta a vlastné úlohy. Poradie produktov: najprv tie s návštevnosťou a predajmi, potom nové produkty bez obsahu, potom zvyšok kategórie.
 2. Dávka najviac `obsahProduktovNaBeh` produktov. Pri každom:

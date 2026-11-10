@@ -44,6 +44,13 @@ function check(dir = AGENTS_DIR) {
     if (!SYSTEM_STATES.includes(config.stav)) err(configFile, `stav musí byť jeden z: ${SYSTEM_STATES.join(', ')}`);
     if (!roles.length) err(configFile, 'chýba zoznam roly');
     if (!forbidden.length) err(configFile, 'chýba zoznam zakazanePolia');
+    for (const role of roles) {
+      const run = config.beh && config.beh[role];
+      if (!run) { err(configFile, `chýba beh.${role} (model, effort, cron, dni)`); continue; }
+      if (!/^claude-(haiku|sonnet)-/.test(run.model || '')) err(configFile, `beh.${role}.model musí byť Haiku alebo Sonnet (bežný systém nebeží na drahších modeloch)`);
+      if (!['low', 'medium'].includes(run.effort)) err(configFile, `beh.${role}.effort musí byť low alebo medium`);
+      if (!run.cron || !Array.isArray(run.dni) || !run.dni.length) err(configFile, `beh.${role} potrebuje cron a dni`);
+    }
   }
   const author = (value) => roles.includes(value) || value === 'kostra' || value === 'martin';
 

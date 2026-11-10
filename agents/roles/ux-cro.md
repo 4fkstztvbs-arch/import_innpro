@@ -27,10 +27,10 @@ Shoptet nemá vstavané testovanie, preto sa test robí skriptom v `assets/ux/`:
 
 Prvou úlohou roly je tento rámec postaviť a overiť testom A/A (úloha v backlogu). Naraz beží najviac jeden test na jednom type stránky.
 
-## Denný beh
+## Beh (ut, št)
 
 1. Zadanie a vlastné úlohy.
-2. Jedna analýza denne do hĺbky (jeden typ stránky alebo jeden krok lievika), nie plošný prehľad.
+2. Jedna analýza na beh do hĺbky (jeden typ stránky alebo jeden krok lievika), nie plošný prehľad.
 3. Zmeny: najviac `uxZmienSablonyNaTyzden` zmien šablóny týždenne, každá ako experiment. Po nasadení skontrolovať web na mobile aj počítači a košík až po posledný krok pred odoslaním objednávky.
 4. Zistenia o obsahu (chýbajúce informácie, slabé fotografie) zapísať ako úlohy pre obsah, o vstupných stránkach pre SEO.
 5. Handoff.

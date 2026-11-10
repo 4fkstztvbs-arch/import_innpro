@@ -9,9 +9,6 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { AGENTS_DIR, readConfig, parseFrontmatter, listFiles, today, addDays } = require('./lib');
 
-// Dni v týždni, v ktoré rola podľa rozvrhu beží (0 = nedeľa).
-const WEEKDAYS_ONLY = ['reklama'];
-
 function status(dir = AGENTS_DIR, date = today()) {
   const config = readConfig(dir);
   const read = (sub, ext) => listFiles(path.join(dir, sub), ext);
@@ -40,11 +37,19 @@ function status(dir = AGENTS_DIR, date = today()) {
   const overwritten = changes.filter((c) => c.trvanlivost && c.trvanlivost.ok === false && c.datum >= addDays(date, -7));
 
   const handoffs = new Set(read('handoffs', '.md').map((f) => path.basename(f, '.md')));
-  const weekday = new Date(`${yesterday}T12:00:00Z`).getUTCDay();
+  // Posledný deň pred dnešným, v ktorý mala rola podľa rozvrhu bežať (config.beh[rola].dni, 0 = nedeľa).
+  const lastRunDay = (role) => {
+    const days = (config.beh && config.beh[role] && config.beh[role].dni) || [0, 1, 2, 3, 4, 5, 6];
+    for (let back = 1; back <= 7; back += 1) {
+      const day = addDays(date, -back);
+      if (days.includes(new Date(`${day}T12:00:00Z`).getUTCDay())) return day;
+    }
+    return yesterday;
+  };
   const missing = config.roly.filter((role) => {
     if (role === 'hlavny-agent') return false;
-    if (WEEKDAYS_ONLY.includes(role) && (weekday === 0 || weekday === 6)) return false;
-    return !handoffs.has(`${yesterday}-${role}`) && !handoffs.has(`${date}-${role}`);
+    const expected = lastRunDay(role);
+    return ![...handoffs].some((name) => name.endsWith(`-${role}`) && name.slice(0, 10) >= expected);
   });
 
   const lines = [];
