@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-08 22:53 UTC.
+Kontrola z 2026-11-10 02:08 UTC.
 
-Solight pri **499** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **497** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -408,9 +408,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WO753` | Solight LED vonkajšie osvetlenie guľaté s mriežkou, 13W, 910 | 2 | 24 |
 | `P151` | Solight zásuvka priama, 5-pólová, 400v/16A, IP44 | 2 | 20 |
 | `1D14` | Solight doplnkový diaľkový ovládač pre GSM alarmy 1D11 a 1D1 | 2 | 50 |
-| `WPIR06` | Solight PIR senzor pro E27 žiarovku, biely | 2 | 50 |
 | `PO47` | Solight prepäťová ochrana, 150J, 4 zásuvky, 3m, biela | 2 | 30 |
-| `GNZ-T` | Solight náhradné trubice 36W pre GNZ01 | 2 | — |
 | `V29` | Solight multimeter, max. AC 600V, max. DC 600V/10A, NCV | 2 | 60 |
 | `1V271` | Solight LED vianočná reťaz hviezdy, 10x LED, drevo, 1,5m, 2x | 2 | 6 |
 | `WW003` | Solight vodeodolná prepojovací krabička IP68, 4-11mm, max 2, | 2 | 150 |
