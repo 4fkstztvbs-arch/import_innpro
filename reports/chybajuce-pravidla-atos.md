@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-11-08 23:33 UTC.
+Kontrola z 2026-11-10 02:39 UTC.
 
 **1 ciest bez pravidla, 153 produktov bez kategórie.**
 
@@ -9,4 +9,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 153 | INFRAPANEL DREAM HEAT CC 1200 W /115x95x1.2cm/; INFRAPANEL DREAM HEAT CC 480 W /80x60x1.2cm/; INFRAPANEL DREAM HEAT CC 720 W /120x60x1.2cm/; Horkovzdušná vyfoukávačka ZD-8908; Paddleboard SUP REBEL ACTIVE RBA-4500 11'6" 350x81x15cm |
+| `Druhy > BLACK FRIDAY` | 153 | Zkoušečka napětí UNI-T UT15C; INFRAPANEL DREAM HEAT CC 600 W /100x60x1.2cm/; INFRAPANEL DREAM HEAT CC 960 W /120x80x1.2cm/; Čerpadlo zavlažovací NEDIS WIFIWP10GY SmartLife automatické Wi-Fi; Meteorologická stanice GARNI 612 Precise |
