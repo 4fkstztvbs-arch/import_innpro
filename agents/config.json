@@ -1,9 +1,16 @@
 {
-  "stav": "pripraveny",
+  "stav": "bezi",
   "stavZmeneny": "2026-11-10",
-  "stavPoznamka": "Kostra je pripravená. Na bezi prepína hlavný agent po Martinovom ZACNI, na pozastaveny po STOP.",
+  "stavPoznamka": "Martin napísal ZACNI 10. 11. 2026. Na pozastaveny prepína hlavný agent po STOP.",
   "casovaZona": "Europe/Bratislava",
-  "roly": ["hlavny-agent", "seo", "obsah", "ux-cro", "reklama", "meranie"],
+  "roly": [
+    "hlavny-agent",
+    "seo",
+    "obsah",
+    "ux-cro",
+    "reklama",
+    "meranie"
+  ],
   "limity": {
     "zmenenychProduktovDenneSpolu": 60,
     "obsahProduktovNaBeh": 20,
@@ -26,9 +33,25 @@
     "alfa": 0.05
   },
   "zakazanePolia": [
-    "price", "cena", "vat", "dph", "currency", "discount", "zlava", "actionprice", "standardprice", "purchaseprice",
-    "visibility", "visible", "viditelnost",
-    "availability", "dostupnost", "stock", "sklad", "amount", "mnozstvo"
+    "price",
+    "cena",
+    "vat",
+    "dph",
+    "currency",
+    "discount",
+    "zlava",
+    "actionprice",
+    "standardprice",
+    "purchaseprice",
+    "visibility",
+    "visible",
+    "viditelnost",
+    "availability",
+    "dostupnost",
+    "stock",
+    "sklad",
+    "amount",
+    "mnozstvo"
   ],
   "sukromnyPriecinok": "/mnt/project-files/eshop-agents/"
 }
