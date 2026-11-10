@@ -6,11 +6,11 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: 'discover (všetky resultType) alebo bycode (GetResultByCode / ByFromTo)'
+        description: 'discover (všetky resultType), bycode (GetResultByCode / ByFromTo) alebo packing (StiPacking_El -> data/atos-packing.json, commit do vetvy)'
         default: discover
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   discover:
@@ -21,15 +21,25 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - run: npm install --omit=dev
       - name: Probe ATOS i6ws
         env:
           ATOS_USERNAME: ${{ secrets.ATOS_USERNAME }}
           ATOS_PASSWORD: ${{ secrets.ATOS_PASSWORD }}
         run: |
-          if [ "${{ github.event.inputs.mode }}" = "bycode" ]; then node scripts/atos-i6ws-bycode.js; else node scripts/atos-i6ws-discover.js; fi
+          if [ "${{ github.event.inputs.mode }}" = "packing" ]; then node scripts/fetch-atos-packing.js | tee packing-log.txt; elif [ "${{ github.event.inputs.mode }}" = "bycode" ]; then node scripts/atos-i6ws-bycode.js; else node scripts/atos-i6ws-discover.js; fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: atos-i6ws-samples
           path: discovery-samples/
           if-no-files-found: ignore
+      - name: Commit packing result
+        if: github.event.inputs.mode == 'packing'
+        run: |
+          mkdir -p data/atos-packing-log && cp packing-log.txt data/atos-packing-log/last-run.txt
+          git config user.name "atos-packing-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/atos-packing.json data/atos-packing-log/last-run.txt
+          git diff --staged --quiet && echo "No changes" || git commit -m "ATOS packing: hmotnosť a rozmery balenia"
+          git push
