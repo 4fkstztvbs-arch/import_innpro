@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600780,
+    "nextCardNumber": 202600784,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4676,6 +4676,30 @@
         "nazov": "Dash Cam DDPAI N5 Dual",
         "dodavatel": "innpro",
         "code": "093881"
+      },
+      "4711527000249": {
+        "kod": "202600780",
+        "nazov": "Darkflash DR08 Black Fan (1",
+        "dodavatel": "innpro",
+        "code": "072355"
+      },
+      "6975377555009": {
+        "kod": "202600781",
+        "nazov": "RingConn Sizing Kit",
+        "dodavatel": "innpro",
+        "code": "082686"
+      },
+      "5905156102156": {
+        "kod": "202600782",
+        "nazov": "Flytec RC Boat V803-Pro",
+        "dodavatel": "innpro",
+        "code": "083987"
+      },
+      "5905156109650": {
+        "kod": "202600783",
+        "nazov": "Amzchef 4-Zone Ceramic",
+        "dodavatel": "innpro",
+        "code": "089355"
       }
     }
   },
