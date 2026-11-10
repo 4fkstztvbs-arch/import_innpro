@@ -76,7 +76,8 @@
       <Wrap></Wrap>
     </StiPacking>
   </StoItem>
-StiPacking_El: 12358 záznamov, 1855 s údajmi o balení
+StiPacking_El: 12358 záznamov, 1854 s údajmi o balení
 Tagy: Id=27652, Wrap=15117, StiPacking=15070, StiId=15070, PatUsdId=15070, PatId=15070, PatCode=15070, PatName=15070, PauUsdId=15070, PauId=15070, PauCode=15070, PauName=15070, Qty=15070, StoItem=12358, Code=12358, EAN=11381, Code2=11357, PartNo=3552, Weight=2651, Length=921, Height=921, Width=921, Volume=801, PartNo2=416, WeightW=286, WrtId=224, WrtName=224
-- Weight: nenulových 1841, medián 1.92, nad 15: 379
-- WeightW: nenulových 275, medián 0.035, nad 15: 2
+Hmotnosť na jednotku: 1842 produktov, medián 0.564 kg, nad 15 kg: 112
+- tag Weight sa vyskytuje
+- tag WeightW sa vyskytuje
