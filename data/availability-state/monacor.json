@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 1789,
+  "activeItemCount": 1788,
   "activeProducts": [
     {
       "key": "code:AES-7",
@@ -8748,11 +8748,6 @@
       "ean": "8054301338418"
     },
     {
-      "key": "ean:8054301338715",
-      "code": "OMNIS-100",
-      "ean": "8054301338715"
-    },
-    {
       "key": "ean:8054301338937",
       "code": "HMX-44APLAY",
       "ean": "8054301338937"
@@ -10023,6 +10018,11 @@
       "key": "ean:8054301337534",
       "code": "EVOCA30H",
       "ean": "8054301337534"
+    },
+    {
+      "key": "ean:8054301338715",
+      "code": "OMNIS-100",
+      "ean": "8054301338715"
     },
     {
       "key": "ean:9353345000022",
