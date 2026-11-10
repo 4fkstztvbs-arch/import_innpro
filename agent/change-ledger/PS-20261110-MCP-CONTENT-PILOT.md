@@ -5,7 +5,7 @@
 - DATE: 2026-11-10
 - ACTOR: Claude (agent), priamy zápis cez pripojenie Shoptet (`product_update`)
 - AREA: obsah produktov – `name`, `metaTitle`, `metaDescription`, váha variantu
-- URL/PAGE/SCOPE: 8 produktov (5 nových K-B so surovým názvom dodávateľa, 3 ATOS bez váhy)
+- URL/PAGE/SCOPE: 12 produktov (5 nových K-B so surovým názvom dodávateľa, 7 produktov bez váhy vrátane najpredávanejších)
 - DESCRIPTION: pilot zápisu cez pripojenie Shoptet namiesto CSV importu. Fakty len z existujúceho popisu produktu v e-shope. URL, kódy, EAN, ceny, dostupnosť, kategórie a popisy sa nemenili.
 - REASON: audit exportu 10. 11. 2026 – 17 072 produktov bez váhy, 106 nových produktov K-B bez meta popisu a so surovým názvom.
 - HYPOTHESIS: zápis cez pripojenie vydrží nočný import (názov a SEO podľa doterajšej skúsenosti áno; váha je neoverená).
@@ -33,12 +33,15 @@
 | KB_100002141055 | Niceboy Sora Black | Bezdrôtové slúchadlá na uši Niceboy Sora, AUX, čierne | 0 → 0,176 |
 | AT_ABL-16-51-098 | bez zmeny | – | 0 → 2,1 |
 | AT_TIP-08811161 | bez zmeny | – | 0 → 0,27 |
-| AT_EMO1013302001 | bez zmeny | – | 0 → 0,068 |
+| AT_EMO1013302001 | bez zmeny | – | 0 → 0,136 (2 ks po 68 g; pôvodne zapísané 0,068, opravené v ten istý deň) |
+| AT_2155 | bez zmeny | – | 0 → 4,6 |
+| AT_ELE-1020001 | bez zmeny | – | 0 → 0,55 |
+| AT_TOC-SX306503 | bez zmeny | – | 0 → 0,024 |
+| KB_100002134243 | bez zmeny | – | 0 → 0,35 (zdroj: alza.hu, nie je isté, či s batériami) |
 
 Pri piatich produktoch K-B boli `metaTitle` aj `metaDescription` pôvodne prázdne.
 
 ## Otvorené body
 
-- `AT_EMO1013302001` (batérie GP LR14, 2 ks): popis uvádza 68 g bez určenia, či ide o kus alebo balenie. Ak je to jeden kus, správna váha je 0,136 kg.
 - Váhy sú hmotnosti výrobku z popisu, nie hmotnosti zásielky s obalom.
 - `KB_100001937696` nemá v e-shope žiadny obrázok.
