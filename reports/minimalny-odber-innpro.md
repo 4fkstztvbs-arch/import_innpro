@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-10 02:20 UTC.
+Kontrola z 2026-11-10 11:56 UTC.
 
-InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **386** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -142,7 +142,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
-| `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
 | `065622` | Storage Bag Sunnylife for Insta360 X4 / X5 | — | 5 |
 | `065855` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (pur | — | 5 |
 | `065860` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (blu | — | 2 |
@@ -185,6 +184,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071040` | WAUDOG natural leather dog leash 20 mm wide, 122 cm long pin | — | 5 |
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
+| `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
 | `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
 | `071869` | SUNNYLIFE propeller guard for DJI Neo (gray) | — | 4 |
 | `071860` | Sunnylife landing gear upgrade for DJI Neo (orange) | — | 5 |
@@ -205,6 +205,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
+| `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `071777` | Magnetický držiak telefónu Joyroom JR-ZS418 čierny | — | 5 |
