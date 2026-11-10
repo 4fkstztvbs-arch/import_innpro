@@ -5,7 +5,7 @@ Stav: len prieskum, nič sa nezapisovalo do eshopu. Rozsah: názvy, krátke a dl
 ## 0. Metodika a limity (dôležité)
 - Katalóg: **27 160 viditeľných produktov**, 769 kategórií, jazyk sk, Shoptet MCP v režime `core` (bez cenníkov, dodávateľov, parametrických kategórií).
 - Obsah som zhodnotil na **vzorke 10 produktov** (rôzni dodávatelia, rôzne obdobia importu, najpredávanejšie aj bežné) a na **prvých 50 kategóriách**. **Čísla nižšie preto sú odhad z vzorky, nie sčítanie celého katalógu.** Presné počty prinesie skript z kapitoly 5 (úloha č. 1 plánu).
-- Predaj/návštevnosť: GA4 za 13.10.–9.11.2026 (cez OpenSEO/Korzaro, údaje označené ako čiastočné): 3 937 zobrazení položiek, 843 do košíka, 478 kusov, 17,4 tis. € tržieb. Search Console (3 mesiace): domovská stránka 379 klikov, produktové stránky typicky 5–40 klikov.
+- Predaj a návštevnosť: použité GA4 (28 dní) a Search Console (3 mesiace) len na zoradenie priorít; konkrétne tržby a počty objednávok sú zámerne mimo verejného repozitára (súkromná kópia v priečinku projektu).
 - Clarity, administráciu Heureky a Chrome som dnes nepoužil; ich dáta patria do ďalších kôl.
 
 ## 1. Štandard obsahu produktovej stránky (návrh)
@@ -59,13 +59,13 @@ Podrobne (s príkladmi):
 14. **Interné odkazy** v dobrých popisoch smerujú na existujúce stránky (OK), v šablóne B/C na nerelevantné kategórie; v D len „Ďalšie produkty nájdete v kategórii“.
 
 ## 3. Prioritizácia
-Zdroj poradia: GA4 (tržby, zobrazenia, košík) a Search Console (kliky/zobrazenia). Prioritizačné skóre = tržby + 3× kliky GSC + zobrazenia/10; produkty s vysokým počtom zobrazení a nízkou konverziou idú pred ostatné.
+Zdroj poradia: GA4 (zobrazenia, košík, nákupy) a Search Console (kliky/zobrazenia). Prioritizačné skóre sa vypočíta skriptom z týchto metrík; produkty s vysokým počtom zobrazení a nízkou konverziou idú pred ostatné.
 
 **Vlna 1 – produkty s reálnou návštevnosťou** (~50 položiek, ručná kontrola cez Shoptet MCP):
-- Cycplus T7 (kód 082897, 17 zobr./7 košík/1 nákup, 1 306 € – najvyššie tržby), Beko B5RMFNE314X (KB_100001916266), ELEGOO Jupiter 2 (085805), VITURE Pro 2 (091439, aj GSC), Merach MR-S26B4 (086620), NIIMBOT C1 (087890), Godox LC500R (091035), Edifier R1855DB (028510), Meross MRS100MA (085436 – 13 nákupov!), Ottocast P3 Pro (087844; aj 25 klikov GSC), Flytec V802 PRO (079985), Gorenje WG2PS72A12 (KB_100002204870 – 79 zobrazení, 21 košík, len 2 nákupy → skontrolovať CTA/dôveru, popis je už dobrý).
+- Cycplus T7 (kód 082897), Beko B5RMFNE314X (KB_100001916266), ELEGOO Jupiter 2 (085805), VITURE Pro 2 (091439, aj GSC), Merach MR-S26B4 (086620), NIIMBOT C1 (087890), Godox LC500R (091035), Edifier R1855DB (028510), Meross MRS100MA (085436, vysoká konverzia), Ottocast P3 Pro (087844; aj GSC), Flytec V802 PRO (079985), Gorenje WG2PS72A12 (KB_100002204870 – veľa zobrazení a košíkov, nízka konverzia na nákup → skontrolovať CTA/dôveru, popis je už dobrý).
 - GSC stránky s polohou 4–9 a nízkym CTR (rýchle výhry cez title/meta): POCO F9 Ultra (38 klikov/674 zobr., CTR 5,6 %), Viture Pro 2 XR, GL.iNet Flint 2, MOES BHT-002, Stronglift SL500X (CTR 2,7 %), Aligator A8 (2,8 %), MOVA V70 Ultra (2,7 %), Creality Pika (4,7 %), Ultimea Skywave F40, GMKtec EVO-X2, Samsung QE65QN990F.
 - Rodina CarLinkit/Ottocast adaptérov (7 URL v top 40 GSC) – spoločný obsahový blok + porovnanie modelov.
-**Vlna 2 – top kategórie** (podľa tržieb a počtu produktov): Práčky/chladničky (KB_ import, 2 500+ položiek), Elektronika do auta, 3D tlač, Fitness/rotopedy, Kávovary a kapsuly, Príslušenstvo k spotrebičom.
+**Vlna 2 – top kategórie** (podľa predaja a počtu produktov): Práčky/chladničky (KB_ import, 2 500+ položiek), Elektronika do auta, 3D tlač, Fitness/rotopedy, Kávovary a kapsuly, Príslušenstvo k spotrebičom.
 **Vlna 3 – dlhý chvost** (hromadná oprava šablónou + preklad): Atos Elektro/AT_ elektromateriál (české texty), Koma/Scanpart príslušenstvo, nové importy.
 
 ## 4. Plán úprav (zoradený)
@@ -82,10 +82,26 @@ Zdroj poradia: GA4 (tržby, zobrazenia, košík) a Search Console (kliky/zobraze
 
 ## 5. KPI a meranie
 - Pokrytie: % produktov v triedach A/B (cieľ 70 % do 90 dní pre vlnu 1+2).
-- CTR a pozícia v GSC pre upravené URL (týždenne), tržby a add-to-cart rate z GA4.
+- CTR a pozícia v GSC pre upravené URL (týždenne), konverzný pomer a add-to-cart rate z GA4.
 - Počet produktov s ≥3 obrázkami, ≥5 parametrami, bez češtiny.
 - Týždenná správa do reportu o 7:30 s počtom upravených produktov a A/B výsledkom.
 
 ## 6. Otvorené otázky pre Martina
 - Môžem pri CZ produktoch meniť aj názov a URL (s presmerovaním)? Defaultne meniť názov/popis, URL nechať.
 - Zlučovanie farebných duplicitov do variantov je zásah do viditeľnosti/URL – schváliš?
+
+## 7. Navrhované úlohy
+Formát: názov · prečo · očakávaný dopad · náročnosť · komu patrí.
+
+1. Skriptový audit celého katalógu (27 tis. produktov, triedy A–D) · bez presných čísel nejde plánovať ani merať · základ pre všetko ostatné · stredná · meranie
+2. Prepis obsahu vlny 1 (~50 produktov s návštevnosťou) · najrýchlejší vplyv na konverzie a CTR · vysoký · stredná · obsah
+3. Úprava title a meta description pre URL s pozíciou 4–9 a nízkym CTR · rýchle výhry bez prepisu stránky · stredný až vysoký · nízka · seo
+4. Oprava šablóny „psc“ (duplicity parametrov, nerelevantné súvisiace kategórie, hotlink obrázkov, generické texty) · plošne zlepší tisíce stránok · vysoký · stredná · obsah
+5. Hromadný preklad CZ → SK pre importy z elektromateriálu · české texty znižujú dôveru a SEO · stredný · vysoká · obsah
+6. Odstránenie „skladom“ z meta šablón · nepravdivé tvrdenie pri sklade u dodávateľa · stredný (dôvera) · nízka · seo
+7. Doplnenie parametrov a filtrov v top kategóriách · lepšie filtrovanie a porovnanie · stredný · stredná · ux-cro
+8. Doplnenie obrázkov a opisných alt textov · produkty majú väčšinou 1 obrázok · stredný · stredná · obsah
+9. Audit viditeľného textu kategórií a doplnenie textov podkategóriám · časť textu je CSS, podkategórie majú minimum textu · stredný · stredná · seo
+10. A/B test nového obsahu (10 vs. 10 produktov, 4 týždne) · overenie vplyvu pred plošným nasadením · rozhodovací · nízka · meranie
+11. Zlučovanie farebných a veľkostných duplicitov do variantov · duplicitný obsah · stredný · vysoká (vyžaduje schválenie, dotýka sa viditeľnosti) · obsah
+12. Zistiť, prečo má Gorenje WG2PS72A12 veľa košíkov a málo nákupov · možný problém v pokladni alebo dôvere · vysoký · nízka · ux-cro
