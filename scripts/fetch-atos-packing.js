@@ -30,20 +30,28 @@ const WEIGHTISH = /weight|wght|hmotn|brutto|netto|gross|net\b|mass/i;
     if (shown < SAMPLE && /Weight|Hmotn/i.test(raw)) { shown++; console.log(`--- vzorka ${shown}\n${raw.slice(0, 3000)}`); }
     const code = leaf(raw, 'Code');
     if (!code) return;
-    const fields = {};
-    for (const m of raw.matchAll(/<([A-Za-z_][\w.-]*)>([^<]{1,30})<\/\1>/g)) {
-      if (WEIGHTISH.test(m[1]) || /width|height|depth|length|dimens|sirk|vys|hlb|dlz|volume|obj/i.test(m[1])) fields[m[1]] = m[2].trim();
+    // Záznam môže mať viac balení (jednotka, kartón...). Preferuje sa balenie "UNI" s množstvom 1,
+    // inak sa hmotnosť balenia vydelí jeho množstvom.
+    let best = null;
+    for (const blk of raw.match(/<StiPacking>[\s\S]*?<\/StiPacking>/g) || []) {
+      const w = num(leaf(blk, 'Weight')); const q = num(leaf(blk, 'Qty')) || 1;
+      if (!(w > 0)) continue;
+      const unit = leaf(blk, 'PauCode') === 'UNI' && q === 1;
+      const cand = { weightKg: unit ? w : w / q, perUnit: unit, pack: leaf(blk, 'PauCode'), qty: q };
+      if (!best || (cand.perUnit && !best.perUnit)) best = cand;
     }
-    if (Object.keys(fields).length) items[code] = fields;
+    const dims = {};
+    for (const t of ['Length', 'Width', 'Height', 'Volume']) { const v = num(leaf(raw, t)); if (v > 0) dims[t.toLowerCase()] = v; }
+    if (best || Object.keys(dims).length) items[code] = { ...(best || {}), ...dims };
   }, { username: USER, password: PASS });
 
   console.log(`StiPacking_El: ${total} záznamov, ${Object.keys(items).length} s údajmi o balení`);
   console.log('Tagy:', [...tagCount.entries()].sort((a, b) => b[1] - a[1]).slice(0, 60).map(([k, v]) => `${k}=${v}`).join(', '));
   const wTags = [...tagCount.keys()].filter((k) => WEIGHTISH.test(k));
+  const kg = Object.values(items).map((f) => f.weightKg).filter((v) => v > 0).sort((a, b) => a - b);
+  console.log(`Hmotnosť na jednotku: ${kg.length} produktov, medián ${kg[Math.floor(kg.length / 2)] || 0} kg, nad 15 kg: ${kg.filter((v) => v > 15).length}`);
   for (const t of wTags) {
-    const vals = Object.values(items).map((f) => num(f[t])).filter((v) => v > 0);
-    vals.sort((a, b) => a - b);
-    console.log(`- ${t}: nenulových ${vals.length}, medián ${vals[Math.floor(vals.length / 2)] || 0}, nad 15: ${vals.filter((v) => v > 15).length}`);
+    console.log(`- tag ${t} sa vyskytuje`);
   }
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(items));
