@@ -1,0 +1,82 @@
+--- vzorka 1
+<StoItem>
+    <Id>122063</Id>
+    <Code>03008</Code>
+    <Code2>5907813655197</Code2>
+    <EAN>5907813655197</EAN>
+    <StiPacking>
+      <Id>438356</Id>
+      <StiId>122063</StiId>
+      <PatUsdId>441</PatUsdId>
+      <PatId>2</PatId>
+      <PatCode>COM</PatCode>
+      <PatName>Kompletní</PatName>
+      <PauUsdId>1062</PauUsdId>
+      <PauId>0</PauId>
+      <PauCode>UNI</PauCode>
+      <PauName>Jednotka</PauName>
+      <Qty>1.000</Qty>
+      <Weight>2.00000</Weight>
+      <Wrap></Wrap>
+    </StiPacking>
+  </StoItem>
+--- vzorka 2
+<StoItem>
+    <Id>509268</Id>
+    <Code>09122830</Code>
+    <Code2>8033518030735</Code2>
+    <EAN>8033518030735</EAN>
+    <StiPacking>
+      <Id>332176</Id>
+      <StiId>509268</StiId>
+      <PatUsdId>439</PatUsdId>
+      <PatId>0</PatId>
+      <PatCode>???</PatCode>
+      <PatName>???</PatName>
+      <PauUsdId>1062</PauUsdId>
+      <PauId>0</PauId>
+      <PauCode>UNI</PauCode>
+      <PauName>Jednotka</PauName>
+      <Qty>1.000</Qty>
+      <Weight>0.01400</Weight>
+      <Wrap></Wrap>
+    </StiPacking>
+  </StoItem>
+--- vzorka 3
+<StoItem>
+    <Id>508133</Id>
+    <Code>1141024001</Code>
+    <StiPacking>
+      <Id>331045</Id>
+      <StiId>508133</StiId>
+      <PatUsdId>439</PatUsdId>
+      <PatId>0</PatId>
+      <PatCode>???</PatCode>
+      <PatName>???</PatName>
+      <PauUsdId>1062</PauUsdId>
+      <PauId>0</PauId>
+      <PauCode>UNI</PauCode>
+      <PauName>Jednotka</PauName>
+      <Qty>1.000</Qty>
+      <Weight>0.02400</Weight>
+      <Wrap></Wrap>
+    </StiPacking>
+    <StiPacking>
+      <Id>390603</Id>
+      <StiId>508133</StiId>
+      <PatUsdId>441</PatUsdId>
+      <PatId>2</PatId>
+      <PatCode>COM</PatCode>
+      <PatName>Kompletní</PatName>
+      <PauUsdId>1063</PauUsdId>
+      <PauId>1</PauId>
+      <PauCode>CAR</PauCode>
+      <PauName>Kartón</PauName>
+      <Qty>250.000</Qty>
+      <Wrap></Wrap>
+    </StiPacking>
+  </StoItem>
+StiPacking_El: 12358 záznamov, 1855 s údajmi o balení
+Tagy: Id=27652, Wrap=15117, StiPacking=15070, StiId=15070, PatUsdId=15070, PatId=15070, PatCode=15070, PatName=15070, PauUsdId=15070, PauId=15070, PauCode=15070, PauName=15070, Qty=15070, StoItem=12358, Code=12358, EAN=11381, Code2=11357, PartNo=3552, Weight=2651, Length=921, Height=921, Width=921, Volume=801, PartNo2=416, WeightW=286, WrtId=224, WrtName=224
+- Weight: nenulových 1841, medián 1.92, nad 15: 379
+- WeightW: nenulových 275, medián 0.035, nad 15: 2
