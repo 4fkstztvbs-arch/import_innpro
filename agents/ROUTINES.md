@@ -52,8 +52,9 @@ Martin napíše ZACNI do chatu projektu. Hlavný agent potom:
 2. Prepne v `agents/config.json` pole `stav` na `bezi`, doplní `stavZmeneny` a pushne do `main`.
 3. Zabezpečí vlákno pre každú rolu. Prieskumné vlákna z prvého dňa pokračujú ako roly seo, obsah, ux-cro a reklama. Pre rolu meranie založí nové vlákno. Každému vláknu pošle: „ZACNI. Si rola `<rola>`. Prečítaj `agents/README.md`, `agents/RULES.md`, `agents/roles/<rola>.md` a `agents/ROUTINES.md` a vytvor si naplánovanú úlohu podľa tabuľky. Potom sprav prvý beh.“
 4. Vytvorí vlastnú naplánovanú úlohu na 07:05.
-5. Zapíše do pamäte projektu dátum ZACNI a zoznam vlákien rolí.
-6. Martinovi potvrdí jednou správou: ktoré roly bežia, kedy, a kedy príde prvý report.
+5. Vypne (nezmaže) dve staršie naplánované úlohy, ktoré sa s týmto systémom prekrývajú: „Týždenná kontrola exportu Shoptet“ a „Denná kontrola Heureka konverzie“. Martin to schválil 10. 11. 2026. Ostatné staršie úlohy (kontrola importov, jednorazové vyhodnotenie CTR 19. 11.) ostávajú.
+6. Zapíše do pamäte projektu dátum ZACNI a zoznam vlákien rolí.
+7. Martinovi potvrdí jednou správou: ktoré roly bežia, kedy, a kedy príde prvý report.
 
 ## STOP
 
