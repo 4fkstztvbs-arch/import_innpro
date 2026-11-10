@@ -24,3 +24,28 @@ Obdobie: posledných 30 dní vs. predchádzajúcich 30 dní, zdroj GA4. Nič sa 
 | Skontrolovať shoptet/cpc kampaň | nízka kvalita | Prípadná úspora (schvaľuje Martin) | nízka | reklama |
 | Štruktúrované dáta a FAQ pre AI asistentov | ChatGPT prináša hodnotné objednávky | Viac AI návštev | stredná | seo |
 | Prešetriť pokles organiky | tržby −25 % | Obnova SEO | stredná | seo |
+
+## Doplnenie: Heureka export (relatívne)
+- Heureka je efektívny kanál (ROAS rádovo 15–20), ale návštevy a ROAS klesajú od augusta do októbra (ROAS približne −26 %).
+- Zhruba 3/4 nákladov ide na produkty bez objednávky; reálne problémových je ~100 produktov (~18 % nákladov) a ~24 kategórií bez objednávky.
+- Tržby sú koncentrované: top 10 produktov ≈ štvrtina tržieb. Najlepší pomer výkonu: reprosústavy, monitory, svetlá, tlačiarne štítkov, štúdiové svetlá, zavážacie loďky.
+- Atribúcia tržieb Heureka vs. GA4 sa veľmi líši – úloha pre meranie.
+
+Návrhy úloh (doplnenie):
+| Názov | Prečo | Dopad | Náročnosť | Komu |
+|---|---|---|---|---|
+| Heureka hidden pre produkty bez objednávky | ~18 % nákladov bez objednávok | Úspora (schvaľuje Martin) | nízka | reklama |
+| Zvýšiť CPC v kategóriách s najvyšším ROAS | Vysoká návratnosť | Viac objednávok (schvaľuje Martin) | nízka | reklama |
+| Zosúladiť Heureka vs. GA4 atribúciu | Rozdiel tržieb | Dôveryhodné meranie | stredná | meranie |
+| Prešetriť pokles od augusta | Klesá ROAS aj návštevy | Obnova výkonu | stredná | reklama |
+
+## Doplnenie: Google kampane cez Shoptet (relatívne)
+- Návratnosť je veľmi vysoká (PNO rádovo 2 %), kanál je najefektívnejší; náklady a objednávky od polovice októbra rastú.
+- AI optimalizácia Googlu dáva merateľne lepšie výsledky než kampaň bez nej.
+- Anomálie: ~6 dní začiatkom októbra bez tržieb pri bežiacich nákladoch a jednodňový výkyv PNO v novembri – úloha pre meranie.
+- Atribúcia Shoptet Kampane vs. GA4 sa líši (~2×).
+
+| Názov | Prečo | Dopad | Náročnosť | Komu |
+|---|---|---|---|---|
+| Postupne navýšiť rozpočet Google kampaní | PNO ďaleko pod prahom | Viac objednávok (schvaľuje Martin) | nízka | reklama |
+| Prešetriť nulové tržby začiatkom októbra | Náklady bez objednávok | Meranie / oprava | nízka | meranie |
