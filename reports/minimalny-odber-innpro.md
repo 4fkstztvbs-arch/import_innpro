@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-10 11:56 UTC.
+Kontrola z 2026-11-10 21:33 UTC.
 
-InnPro pri **386** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -351,7 +351,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088969` | Lesklá samolepiaca fólia HTVRONT, 30,5 cm × 180 cm (zlatá) | — | 5 |
 | `088970` | Lesklá samolepiaca fólia HTVRONT, 30,5 cm × 180 cm (striebor | — | 5 |
 | `088971` | Samolepiaca fólia HTVRONT Glow, 30,5 cm x 180 cm (modrá) | — | 5 |
-| `088972` | Samolepiaca fólia HTVRONT Matte A4 (biela) | — | 5 |
 | `088979` | HTVRONT Sublimation Tape, 20 m x 33 m (modrá) | — | 5 |
 | `088982` | Súprava nástrojov na odstránenie fólie HTVRONT | — | 5 |
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |

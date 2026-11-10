@@ -305,8 +305,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094048 | 6975828005169 | Prenosná nabíjačka pre elektromobily dé 22 kW s 7 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094050 | 6975828005183 | Prenosná nabíjačka pre elektromobily dé 22 kW s káblom 15 m | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094052 | 6975828005206 | Nabíjacia stanica Wallbox dé  11 kW s 5 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092888 | 6975116296170 | Dávkovač potravín Rojeco PTD001 IQ Training | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092889 | 6975116296408 | Automatický dávkovač krmiva a vody pre domáce zvieratá Rojeco 2 v 1 C | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094332 | 6972792472454 | Mouse pad ATTACK SHARK CM02 (dark gray) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094333 | 6972792472447 | Mouse pad ATTACK SHARK CM02 (white contour) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094334 | 6972792470351 | Mechanical keyboard ATTACK SHARK K75 (Translucent White) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -434,5 +432,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096511 | 6942580510514 | Tablet FOSSIBOT Tab 12 Android 14 10.95 inches 18 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096512 | 6942580510521 | Tablet FOSSIBOT Tab 13 Android 15 11,5 inches 36 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096513 | 6942580510538 | Action camera FOSSIBOT FC360 8K EU (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 11.00 € | 1/12.8x | 14 |
-| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 141.00 € | 8.10 € | 1/17.4x | 14 |
+| 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 148.00 € | 11.00 € | 1/13.5x | 14 |
+| 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 148.00 € | 8.10 € | 1/18.3x | 14 |
