@@ -18,8 +18,8 @@
 - FILES_CHANGED: `migrations/obsah-2026-11-10/import-nazvy-seo-2026-11-10.csv`, `migrations/obsah-2026-11-10/import-vahy-2026-11-10.csv`, `scripts/audit-shoptet-export.js`, `reports/shoptet-export-audit/`
 - APPROVAL / APPROVER: majiteľ, 2026-11-10 („máš povolenie opraviť všetko, čo sa dá“)
 - PRE_DEPLOY_VALIDATION: nový názov nie je duplicitný s iným produktom (41 názvov preto vynechaných), bez českých znakov, do 120 znakov; žiadny produkt z CTR-2026-09 v dávke názvov. Váhy: vynechané váhy (prístroje), balenia viacerých kusov, nosnosť, váživosť, údaj za jeden kus.
-- DEPLOYED_AT: nenasadené (pripravené)
-- POST_DEPLOY_VALIDATION: –
+- DEPLOYED_AT: názvy a SEO title 2026-11-10 (CSV import majiteľom; spracované 687, upravené 686 – jeden názov bol už zapísaný cez pripojenie Shoptet). Váhy: nenasadené (pripravené)
+- POST_DEPLOY_VALIDATION: čerstvý export po importe – 687 z 687 názvov aj SEO title zodpovedá dávke; mimo dávky sa zmenilo len 5 názvov z pilotu PS-20261110-MCP-CONTENT-PILOT; počet produktov nezmenený (31 251 riadkov)
 - RESULT: –
 - DECISION: –
 - ROLLBACK: reimport pôvodných názvov a SEO title z exportu 10. 11. 2026; váhy vynulovať importom `code;weight` s hodnotou 0
