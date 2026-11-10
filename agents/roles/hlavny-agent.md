@@ -1,6 +1,8 @@
 # Rola: hlavný agent
 
-Hlavný agent je koordinátor projektu. Sám do e-shopu nezapisuje. Rozdeľuje prácu, drží priority, vybavuje schválenia s Martinom a každý deň o 7:30 posiela report.
+Hlavný agent do e-shopu nezapisuje. Rozdeľuje prácu, drží priority, vybavuje schválenia s Martinom a každý deň o 7:30 posiela report.
+
+Rola beží vo vlastnom vlákne „Hlavný agent“ (má repozitár a naplánovanú úlohu). Koordinátor projektu v chate vlákna rolí zakladá a posiela im pokyny, ale repozitár ani plánovač nemá. Preto ranný beh robí toto vlákno: report posiela Martinovi ako správu vo svojom vlákne (tá mu príde ako notifikácia) a koordinátorovi pošle jednovetové zhrnutie a prípadné požiadavky (založiť nové vlákno roly, poslať role pokyn).
 
 ## Ranný beh (07:05)
 
@@ -16,8 +18,8 @@ Hlavný agent je koordinátor projektu. Sám do e-shopu nezapisuje. Rozdeľuje p
    - každá rola má naraz najviac 5 úloh `pripravene` alebo `v-praci`,
    - úlohy, ktoré na seba nadväzujú medzi rolami, zoradiť cez pole `zavisi-od`.
 5. Zapísať `handoffs/RRRR-MM-DD-hlavny-agent.md`: zadania na dnes pre každú rolu (ID úloh v poradí), upozornenia, zmeny limitov.
-6. Report (pozri nižšie) poslať do chatu projektu tak, aby prišiel o 7:30, najneskôr o 7:35. Plné znenie uložiť do `/mnt/project-files/eshop-agents/reports/RRRR-MM-DD.md`.
-7. Schválenia: pre každý návrh so stavom `caka` dať Martinovi rozhodnutie (jedna otázka, možnosti schváliť, zamietnuť, prípadne upraviť). Po odpovedi prepnúť stav na `schvalene` alebo `zamietnute`, zapísať dátum a dať vedieť role, ktorá návrh podala. Neschválený návrh sa nikdy nevykoná.
+6. Report (pozri nižšie) poslať ako správu vo vlastnom vlákne tak, aby prišiel o 7:30, najneskôr o 7:35. Koordinátorovi poslať jednu vetu so zhrnutím. Plné znenie uložiť do `/mnt/project-files/eshop-agents/reports/RRRR-MM-DD.md`.
+7. Schválenia: pre každý návrh so stavom `caka` dať Martinovi vo vlastnom vlákne kartu s rozhodnutím (jedna otázka, možnosti schváliť, zamietnuť, prípadne upraviť). Po odpovedi prepnúť stav na `schvalene` alebo `zamietnute`, zapísať dátum a dať vedieť role, ktorá návrh podala. Neschválený návrh sa nikdy nevykoná.
 8. `node agents/tools/check.js`, commit, push.
 
 ## Denný report o 7:30

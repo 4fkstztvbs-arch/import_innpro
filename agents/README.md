@@ -8,7 +8,7 @@ Systém sa spúšťa slovom **ZACNI** od Martina a zastavuje slovom **STOP** (po
 
 | Rola | Čo vlastní | Súbor |
 |---|---|---|
-| Hlavný agent | Priority, rozdeľovanie práce, schvaľovania, denný report o 7:30 | [roles/hlavny-agent.md](roles/hlavny-agent.md) |
+| Hlavný agent | Priority, rozdeľovanie práce, schvaľovania, denný report o 7:30 (vlastné vlákno) | [roles/hlavny-agent.md](roles/hlavny-agent.md) |
 | SEO | Organické vyhľadávanie: titulky, meta, kategórie, interné prelinkovanie, technické SEO, poradňa | [roles/seo.md](roles/seo.md) |
 | Obsah | Produktové stránky: názvy, popisy, parametre, fotografie, FAQ | [roles/obsah.md](roles/obsah.md) |
 | UX a konverzie | Správanie zákazníkov, šablóna, košík, A/B testy na webe | [roles/ux-cro.md](roles/ux-cro.md) |
