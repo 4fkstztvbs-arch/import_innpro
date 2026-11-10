@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600773,
+    "nextCardNumber": 202600777,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4634,6 +4634,30 @@
         "nazov": "GLOX Elektrický čistící kartáč s tyčí",
         "dodavatel": "kb",
         "code": "100002204091"
+      },
+      "5907085526928": {
+        "kod": "202600773",
+        "nazov": "Beverage refrigerator",
+        "dodavatel": "innpro",
+        "code": "078537"
+      },
+      "6920075743173": {
+        "kod": "202600774",
+        "nazov": "Smart Camera CAM-PT2",
+        "dodavatel": "innpro",
+        "code": "079073"
+      },
+      "6920075743357": {
+        "kod": "202600775",
+        "nazov": "Outdoor SmartSecurity",
+        "dodavatel": "innpro",
+        "code": "080558"
+      },
+      "6936685223158": {
+        "kod": "202600776",
+        "nazov": "GameSir Nova 2 Lite",
+        "dodavatel": "innpro",
+        "code": "086662"
       }
     }
   },
