@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600784,
+    "nextCardNumber": 202600787,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4700,6 +4700,24 @@
         "nazov": "Amzchef 4-Zone Ceramic",
         "dodavatel": "innpro",
         "code": "089355"
+      },
+      "6930460006981": {
+        "kod": "202600784",
+        "nazov": "PETONEER Odor Eliminator",
+        "dodavatel": "innpro",
+        "code": "032805"
+      },
+      "6972237683605": {
+        "kod": "202600785",
+        "nazov": "Maono PD100X Microphone",
+        "dodavatel": "innpro",
+        "code": "075429"
+      },
+      "6934915208388": {
+        "kod": "202600786",
+        "nazov": "Dash Cam DDPAI Z60 Pro",
+        "dodavatel": "innpro",
+        "code": "093885"
       }
     }
   },
