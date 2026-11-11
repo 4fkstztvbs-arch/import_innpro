@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600791,
+    "nextCardNumber": 202600802,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4742,6 +4742,72 @@
         "nazov": "Liene Amber M110 4x6 Inch",
         "dodavatel": "innpro",
         "code": "091368"
+      },
+      "5907489601245": {
+        "kod": "202600791",
+        "nazov": "PU5060EU Photo Studio",
+        "dodavatel": "innpro",
+        "code": "018683"
+      },
+      "6928493309476": {
+        "kod": "202600792",
+        "nazov": "Gens ace G-Tech 4500mAh",
+        "dodavatel": "innpro",
+        "code": "065547"
+      },
+      "6936685221994": {
+        "kod": "202600793",
+        "nazov": "GameSir T4n Pro (Blue)",
+        "dodavatel": "innpro",
+        "code": "076269"
+      },
+      "5907085526676": {
+        "kod": "202600794",
+        "nazov": "Sunnylife Nylon Standard",
+        "dodavatel": "innpro",
+        "code": "078195"
+      },
+      "5907085527321": {
+        "kod": "202600795",
+        "nazov": "FNIRSI Mini Handheld",
+        "dodavatel": "innpro",
+        "code": "078695"
+      },
+      "6935750515259": {
+        "kod": "202600796",
+        "nazov": "Uni-T True RMS Digital",
+        "dodavatel": "innpro",
+        "code": "084836"
+      },
+      "5905156103566": {
+        "kod": "202600797",
+        "nazov": "Vibration plate MERACH",
+        "dodavatel": "innpro",
+        "code": "085829"
+      },
+      "4711527008849": {
+        "kod": "202600798",
+        "nazov": "DarkFlash DV360S MAX",
+        "dodavatel": "innpro",
+        "code": "088535"
+      },
+      "6978642802778": {
+        "kod": "202600799",
+        "nazov": "White ribbon for C1",
+        "dodavatel": "innpro",
+        "code": "089381"
+      },
+      "6975274260532": {
+        "kod": "202600800",
+        "nazov": "ALLPOWERS XT60 Car",
+        "dodavatel": "innpro",
+        "code": "093483"
+      },
+      "6934915205677": {
+        "kod": "202600801",
+        "nazov": "Dash Cam DDPAI N3 Pro",
+        "dodavatel": "innpro",
+        "code": "093880"
       }
     }
   },
