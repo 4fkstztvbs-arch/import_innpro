@@ -1,10 +1,10 @@
 {
-  "products": 30049,
-  "matched": 803,
-  "categoryChanges": 307,
+  "products": 30027,
+  "matched": 805,
+  "categoryChanges": 308,
   "nameChanges": 8,
   "descriptionChanges": 0,
-  "automaticCategoryChanges": 377,
+  "automaticCategoryChanges": 376,
   "automaticCategoryUnclassified": [
     {
       "supplier": "innpro",
@@ -1537,18 +1537,6 @@
       "supplier": "solight",
       "code": "DSP-DYV8RG",
       "ean": "8592718038793",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "wiim",
-      "code": "NORWIISOUBK",
-      "ean": "3700795186893",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "wiim",
-      "code": "NORWIISOUWT",
-      "ean": "3700795186909",
       "reason": "Changed name or category; needs review"
     },
     {
