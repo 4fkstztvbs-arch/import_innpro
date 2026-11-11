@@ -1,0 +1,25 @@
+{
+  "id": "Z-RRRRMMDD-rola-kratky-nazov",
+  "datum": "RRRR-MM-DD",
+  "rola": "obsah",
+  "uloha": "T-RRRRMMDD-obsah-kratky-nazov",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Prepis popisov a meta údajov v kategórii X podľa štandardu.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KOD-PRODUKTU",
+      "guid": "00000000-0000-0000-0000-000000000000",
+      "url": "https://www.premiumstore.sk/priklad/",
+      "polia": {
+        "metaTitle": { "pred": "Pôvodný titulok", "po": "Nový titulok" },
+        "metaDescription": { "pred": "Pôvodný popis", "po": "Nový popis" }
+      }
+    }
+  ],
+  "overenie": { "kedy": "RRRR-MM-DD", "ok": true, "poznamka": "" },
+  "trvanlivost": null,
+  "navrat": null
+}

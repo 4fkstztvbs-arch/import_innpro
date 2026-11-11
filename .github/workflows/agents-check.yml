@@ -1,0 +1,24 @@
+name: Agents check
+
+on:
+  push:
+    branches: [main]
+    paths: ['agents/**']
+  pull_request:
+    paths: ['agents/**']
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Testy nástrojov
+        run: node --test agents/tools/test-agents-tools.js
+      - name: Kontrola súborov agentov
+        run: node agents/tools/check.js
