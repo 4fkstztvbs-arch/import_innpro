@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — monacor — 2026-11-10
+# Cenové anomálie vynechané z feedu — monacor — 2026-11-11
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -57,7 +57,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | CAT-1TEST | 4007754232011 | Monacor CAT-1TEST Tester liniek | cena mimo 8x rozsah mediánu kategórie | 247.25 € | 12.00 € | 1/20.6x | 6 |
 | CDMX-3 | 4007754210811 | Monacor CDMX-3 Ovládací kábel, 100 m | cena mimo 8x rozsah mediánu kategórie | 9.75 € | 185.00 € | 19.0x | 14 |
 | CR-2016 |  | Panasonic CR-2016 Lítiové batérie CR2016 | cena mimo 8x rozsah mediánu kategórie | 35.90 € | 1.90 € | 1/18.9x | 11 |
-| DM-70/SW | 4007754094039 | Monacor DM-70/SW Dynamický mikrofón | cena mimo 8x rozsah mediánu kategórie | 67.20 € | 7.90 € | 1/8.5x | 24 |
+| DM-70/SW | 4007754094039 | Monacor DM-70/SW Dynamický mikrofón | cena mimo 8x rozsah mediánu kategórie | 66.50 € | 7.90 € | 1/8.4x | 25 |
 | HF-155 | 4007754115031 | Monacor HF-155 Gumená nožička | cena mimo 8x rozsah mediánu kategórie | 12.40 € | 1.10 € | 1/11.3x | 10 |
 | LST-6 | 4007754176872 | Monacor LST-6 Pár univerzálnych držiakov | cena mimo 8x rozsah mediánu kategórie | 4.40 € | 45.50 € | 10.3x | 8 |
 | MCS-180 | 4007754166415 | Monacor MCS-180 Zásuvková lišta pre montáž do racku | cena mimo 8x rozsah mediánu kategórie | 4.30 € | 165.00 € | 38.4x | 7 |
@@ -69,7 +69,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | TXA-1015ACCU | 4007754217254 | ORG TXA-1015ACCU Nabíjateľná olovená batéria, 12 V | cena mimo 8x rozsah mediánu kategórie | 410.00 € | 34.50 € | 1/11.9x | 21 |
 | TXA-815ACCU | 4007754210262 | ORG TXA-815ACCU Nabíjateľná olovená batéria, 12 V | cena mimo 8x rozsah mediánu kategórie | 410.00 € | 42.00 € | 1/9.8x | 21 |
 | SPEECH-500/GR | 4007754256161 | Monacor SPEECH-500/GR Profesionálny pultík s elektrickým nastavením výšky a inte | cena mimo 8x rozsah mediánu kategórie | 410.00 € | 5829.00 € | 14.2x | 21 |
-| UA-960 | 4007754248890 | JTS UA-960 Aktívny anténny rozbočovač | cena mimo 8x rozsah mediánu kategórie | 72.50 € | 798.00 € | 11.0x | 8 |
+| CM-235IF | 4007754248098 | JTS CM-235IF Elektretový náhlavový mikrofón | cena mimo 8x rozsah mediánu kategórie | 30.50 € | 247.00 € | 8.1x | 5 |
+| UA-960 | 4007754248890 | JTS UA-960 Aktívny anténny rozbočovač | cena mimo 8x rozsah mediánu kategórie | 53.00 € | 798.00 € | 15.1x | 9 |
+| UC-900 | 4007754244281 | JTS UC-900 4-cestný anténny zlučovač | cena mimo 8x rozsah mediánu kategórie | 53.00 € | 532.00 € | 10.0x | 9 |
 | ST-5000T | 4007754256352 | JTS ST-5000T Pultový mikrofón na husom krku | cena mimo 8x rozsah mediánu kategórie | 13.00 € | 177.00 € | 13.6x | 36 |
 | USP-124 | 4007754256345 | JTS USP-124 4-cestný rozbočovač antény | cena mimo 8x rozsah mediánu kategórie | 13.00 € | 439.00 € | 33.8x | 36 |
 | DPVEN-03 | 4007754262919 | ORG DPVEN-03 482 mm (19") ventilačný modul, 1 U, s 3 ventilátormi | cena mimo 8x rozsah mediánu kategórie | 24.50 € | 468.00 € | 19.1x | 25 |
