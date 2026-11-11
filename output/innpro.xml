@@ -11061,6 +11061,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -48431,195 +48432,6 @@ LED korálky 12 x 0,5 W
 <META_DESCRIPTION><![CDATA[Nabíjateľná stolová lampa Yeelight 4 v 1 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Ústredňa inteligentnej domácnosti Smart ZigBee Bridge Pro Sonoff ZB Bridge-P]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Smart ZigBee Bridge Pro Sonoff ZB Bridge-P Vytvorte si inteligentný domov, v ktorom sa vám bude dobre žiť. Smart ZigBee Bridge Pro Sonoff ZB Bridge-P umožňuje pripojiť až 128 zariadení a podporuje 2…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<div class="long_desc">
-<h3>
-Smart ZigBee Bridge Pro Sonoff ZB Bridge-P
-</h3>
-<p>
-Vytvorte si inteligentný domov, v ktorom sa vám bude dobre žiť. Smart ZigBee Bridge Pro Sonoff ZB Bridge-P umožňuje pripojiť až 128 zariadení a podporuje 2 protokoly - Wi-Fi a ZigBee 3.0. Umožňuje vytvárať inteligentné scény, spravovať pripojené zariadenia z aplikácie eWeLink a využívať dostupné režimy na zvýšenie bezpečnosti vašej domácnosti. Výrobok je tiež kompatibilný so službami Amazon Alexa, Google Assistant a Samsung SmartThings.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/01Sonoff/ZB-Bridge-P/7.jpg"/>
-<h3>
-Podporuje až 128 zariadení
-</h3>
-<p>
-Teraz môžete jednoducho pripojiť svoje inteligentné zariadenia ZigBee a Wi-Fi. Most podporuje protokoly Wi-Fi aj ZigBee 3.0 na bezproblémový prenos dát. Umožňuje pripojiť až 128 zariadení, ktoré môžu fungovať aj ako smerovače ZigBee - s ich pomocou rozšírite dosah svojej siete. Výrobok je kompatibilný so všetkými zariadeniami Sonoff a ZigBee, ako sú vypínače, inteligentné zásuvky, snímače a ďalšie.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/01Sonoff/ZB-Bridge-P/5.jpg"/>
-<h3>
-V záujme bezpečnosti
-</h3>
-<p>
-Ústredňa vám tiež pomôže postarať sa o bezpečnosť vo vašej domácnosti. V kombinácii so samostatne dostupnými snímačmi môžete dostávať upozornenia do telefónu, keď sa napríklad v byte nachádza cudzia osoba alebo sú otvorené dvere. Môžete si tiež vybrať z dostupných bezpečnostných režimov, ako je napríklad režim Doma a Vonku. So zariadením Sonoff sa nemusíte obávať o bezpečnosť - okamžite budete upozornení na všetky rušivé udalosti!
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/01Sonoff/ZB-Bridge-P/9.jpg"/>
-<h3>
-Viacero možností ovládania
-</h3>
-<p>
-Pomocou Sonoff ZigBee Bridge Pro môžete rýchlo a pohodlne zapnúť alebo vypnúť alarm, ako aj zmeniť režim zabezpečenia. Urobíte to napríklad pomocou aplikácie alebo prídavného spínača (predáva sa samostatne). Môžete tiež vytvárať prevádzkové plány pre pripojené zariadenia. Nastavte poplašný systém tak, aby pracoval v režime Away počas hodín, keď ste v práci, a aby sa po návrate domov prepol do režimu Home.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/01Sonoff/ZB-Bridge-P/8.jpg"/>
-<h3>
-Vytvárajte inteligentné scény
-</h3>
-<p>
-Kombinujte ústredňu s rôznymi zariadeniami a vytvárajte inteligentné scény, ktoré vám spríjemnia život. Zabezpečte automatické zapnutie ventilátora, keď snímač zistí vysokú teplotu v miestnosti. Môžete tiež nastaviť snímač pohybu a osvetlenie tak, aby sa svetlo samovoľne zaplo, keď vstúpite do miestnosti, a vyplo, keď ju opustíte. Ovládací panel je vybavený aj bzučiakom. Môžete ho teda napríklad skombinovať s bezdrôtovým tlačidlom a fungovať ako zvonček.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/01Sonoff/ZB-Bridge-P/3.jpg"/>
-<h3>
-Spoľahlivá prevádzka
-</h3>
-<p>
-Nemáte pripojenie Wi-Fi? Alebo možno dočasný výpadok prúdu? Ústredňa ZigBee Bridge Pro vás nesklame takmer v žiadnej situácii! Výrobok umožňuje vytvárať inteligentné scény pomocou miestneho pripojenia, takže všetko funguje správne, aj keď je Wi-Fi odpojené. Navyše zabudované hodiny v reálnom čase zabezpečia, že ani výpadok prúdu neovplyvní synchronizáciu vašich zariadení. Po obnovení napájania budú nastavené plány stále fungovať.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/01Sonoff/ZB-Bridge-P/2.jpg"/>
-<h3>
-Viacero možností s aplikáciou eWeLink
-</h3>
-<p>
-So zariadením Sonoff máte všetko potrebné na dosah ruky. Zariadenia ZigBee pripojené k ústredni môžete pohodlne ovládať z aplikácie eWeLink. Nie ste si istí, či ste pred odchodom z domu vypli svetlá? Teraz to môžete urobiť pomocou smartfónu! Je tiež možné vytvárať pracovné plány. Ak chcete, zdieľajte svoje zariadenia aj so zvyškom domácnosti, aby ich aj oni mohli ovládať na diaľku.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/01Sonoff/ZB-Bridge-P/1.jpg"/>
-<h3>
-Hlasové ovládanie
-</h3>
-<p>
-Užívajte si ešte väčšie pohodlie. Idete spať a nechcete vstávať z postele, aby ste zhasli svetlo? Alebo máte možno plné ruky práce s varením a potrebujete dodatočné osvetlenie? Teraz už stačí len vydať správny príkaz! Ovládací panel ZigBee Bridge Pro je kompatibilný so službami Google Assistant a Amazon Alexa. Svoje pripojené zariadenia tak môžete ovládať hlasom! Výrobok spolupracuje aj s aplikáciou Samsung SmartThings.
-</p>
-<img src="https://b2b.innpro.pl/data/include/cms/01Sonoff/ZB-Bridge-P/6.jpg"/>
-<div class="table-wrapper">
-<table>
-<tbody>
-<tr>
-<th>
-Značka
-</th>
-<td>
-Sonoff
-</td>
-</tr>
-<tr>
-<th>
-Model
-</th>
-<td>
-ZB Bridge-P
-</td>
-</tr>
-<tr>
-<th>
-Vstup
-</th>
-<td>
-5V-1A
-</td>
-</tr>
-<tr>
-<th>
-Bezdrôtové pripojenie
-</th>
-<td>
-Wi-Fi IEEE 802.11 b/g/n 2,4 GHz, ZigBee 3.0
-</td>
-</tr>
-<tr>
-<th>
-Prevádzková teplota
-</th>
-<td>
--10°C-40°C
-</td>
-</tr>
-<tr>
-<th>
-Materiál
-</th>
-<td>
-PC V0
-</td>
-</tr>
-<tr>
-<th>
-Hmotnosť
-</th>
-<td>
-35g
-</td>
-</tr>
-<tr>
-<th>
-Rozmery
-</th>
-<td>
-62x62x20 mm
-</td>
-</tr>
-<tr>
-<th>
-Podpora aplikácií
-</th>
-<td>
-eWeLink, Sonoff
-</td>
-</tr>
-<tr>
-<th>
-Kompatibilita
-</th>
-<td>
-Google Assistant, Samsung SmartThings, Amazon Alexa
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=67294_24764_pol_fb40f74afe14822b8be0c0db61bb56b5" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/riadiace-jednotky/">Huby a centrálne jednotky</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Sonoff]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>035190</CODE>
-<EAN>6920075777123</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5828</HEUREKA_CATEGORY_ID>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="Ústredňa inteligentnej domácnosti Smart ZigBee Bridge Pro Sonoff ZB Bridge-P - obrázok 1">https://b2b.innpro.sk/hpeciai/66dcad061b20069b9b763400277d0cc2/24764_1.jpg</IMAGE>
-  <IMAGE description="Ústredňa inteligentnej domácnosti Smart ZigBee Bridge Pro Sonoff ZB Bridge-P - obrázok 2">https://b2b.innpro.sk/hpeciai/b91144a674011c453007bba9a3bb2703/24764_2.webp</IMAGE>
-  <IMAGE description="Ústredňa inteligentnej domácnosti Smart ZigBee Bridge Pro Sonoff ZB Bridge-P - obrázok 3">https://b2b.innpro.sk/hpeciai/5f59f706700d6e82b096f618a014819c/24764_3.webp</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Komunikacja]]></NAME>
-    <VALUE><![CDATA[ZigBee 3.0]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Aplikácia]]></NAME>
-    <VALUE><![CDATA[eWeLink]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>17.50</PRICE_VAT>
-<PURCHASE_PRICE>12.55</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Ústredňa inteligentnej domácnosti Smart ZigBee… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Ústredňa inteligentnej domácnosti Smart ZigBee Bridge Pro Sonoff ZB Bridge-P – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Inteligentný nástenný vypínač scén Sonoff R5]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Inteligentný nástenný vypínač scén Sonoff R5 Uľahčite si ovládanie svojich inteligentných zariadení. Nástenný vypínač Sonoff R5 je vybavený 6 tlačidlami a vďaka funkcii brány eWeLink-Remote umožňuje…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<div class="long_desc">
@@ -60661,6 +60473,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -105716,10 +105529,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -129979,6 +129794,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -141809,10 +141625,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.80</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -148664,6 +148482,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -148759,6 +148578,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -153785,6 +153605,7 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -172680,9 +172501,6 @@ Obsah balenia
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>067677</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6920075777147</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
@@ -179450,14 +179268,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -181998,7 +181816,7 @@ Obsah balenia:
 <UNIT>ks</UNIT>
 <CODE>070619</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6974944463211</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery]]></CATEGORY></CATEGORIES>
@@ -190145,7 +189963,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>071861</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5907085520445</EAN>
 <CATEGORIES>
@@ -190582,6 +190400,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -201704,6 +201523,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -202229,14 +202049,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -211145,7 +210965,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>074208</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5907085522999</EAN>
 <CATEGORIES>
@@ -213159,6 +212979,93 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <STANDARD_PRICE>309.55</STANDARD_PRICE>
 <ACTION_PRICE>260.50</ACTION_PRICE>
 <FLAGS><FLAG><CODE>action</CODE><ACTIVE>1</ACTIVE></FLAG></FLAGS>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Planárne slúchadlá HiFiMAN Arya Unveiled]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[HiFiMAN Arya Predstavené planárne slúchadlá Pohodlne sa rozložte a ponorte sa do hudby na dlhší čas. HiFiMAN Arya sú kvintesenciou špičkového zvuku. Použitie planárnej technológie a otvorenej…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>HiFiMAN Arya Predstavené planárne slúchadlá</h3>
+<p>Pohodlne sa rozložte a ponorte sa do hudby na dlhší čas. HiFiMAN Arya sú kvintesenciou špičkového zvuku. Použitie planárnej technológie a otvorenej konštrukcie meničov poskytuje mimoriadne priestranný, čistý a prirodzený zvuk. Každý detail bol navrhnutý pre audiofilov, ktorí očakávajú absolútnu dokonalosť pri reprodukcii hudby. Model Arya spája inovatívne technické riešenia s elegantným dizajnom a vytvára slúchadlá, ktoré splnia aj tie najnáročnejšie očakávania.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12630/15165/1.jpg"/>
+</p><h3>Planárne meniče - dokonalá harmónia zvuku</h3>
+<p>Arya používajú technológiu planárnych membrán s hrúbkou nanometrov. Výsledkom je neuveriteľná presnosť reprodukcie zvuku, eliminácia šumu a skreslenia. Slúchadlá ponúkajú pôsobivú frekvenčnú odozvu 8 Hz - 65 kHz, ktorá zachytáva najnižšie basy aj najvyššie tóny a zachováva ich plnosť a dynamiku. Je to technológia, vďaka ktorej hudba znie, akoby ste ju počúvali naživo.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12630/15165/2.jpg"/>
+</p><h3>Zvukový priestor a čistota</h3>
+<p>Vďaka otvorenej konštrukcii meničov ponúka reproduktor Arya pôsobivú zvukovú scénu. Systém "Unveiled" použitý v skrinke chráni meniče pred poškodením a zároveň eliminuje všetky odrazy a rušivé vplyvy, ktoré sa vyskytujú v tradičných modeloch alebo, hoci v menšej miere, v modeloch so systémom "Window Shade". Výsledkom je zvuk s mimoriadnou hĺbkou a transparentnosťou, v ktorom každý detail zaznie s plnou jasnosťou.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12630/15165/3.jpg"/>
+</p><h3>"Stealth Magnets" - zvuk vo svojej najčistejšej podobe</h3>
+<p>Jedinečné magnety "Stealth Magnets" sú navrhnuté tak, aby ich prítomnosť bola akusticky "neviditeľná". Minimalizujú rušenie zvukových vĺn a umožňujú maximálnu čistotu zvuku. Vďaka tomu ponúkajú slúchadlá Arya neuveriteľnú konzistenciu a harmóniu zvuku, ktorá poteší každého milovníka hudby.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12630/15165/4.jpg"/>
+</p><h3>Luxus pre každý okamih</h3>
+<p>Arya nie je len o vynikajúcom zvuku, ale aj o najvyššej úrovni ergonómie. Ľahká, ale pevná čelenka poskytuje pohodlné nosenie na každej hlave a mäkké náušníky z vysokokvalitných materiálov zaručujú pohodlie aj počas hodín počúvania. Dizajn slúchadiel je minimalistický, a pritom sofistikovaný. Toto zariadenie, až po ňom budete chcieť siahnuť.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12630/15165/5.jpg"/>
+</p><h3>Všestrannosť pripojení a vymeniteľné káble</h3>
+<p>Slúchadlá HiFiMAN Arya sú vybavené 6,35 mm káblom z kryštalickej medi s dĺžkou 1,5 m, ktorý je ideálny na domáce a štúdiové použitie. Vďaka jednoduchej vymeniteľnosti káblov môžete použiť aj 4,4 mm alebo XLR konektory, čím slúchadlá prispôsobíte svojim potrebám a zvukovému vybaveniu.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12630/15165/7.jpg"/>
+</p><h3>Otvorená ochrana meniča</h3>
+<p>Vaše zariadenie zostane v bezpečí aj počas skladovania. Špeciálne magnetické kryty sú šikovným riešením, ktoré chránia úplne otvorené meniče slúchadiel HiFiMAN Arya, keď sa nepoužívajú. Vďaka vhodne navrhnutej konštrukcii tieto kryty chránia jemné komponenty pred vonkajším poškodením a vplyvom magnetických predmetov.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12630/15165/10.jpg"/>
+</p>
+<h3>Priložené</h3>
+<ul class="list-disc pl-5"><li>Slúchadlá Arya Unveiled</li><li>6,35 mm kábel slúchadiel s dĺžkou 1,5 m</li><li>Pár magnetických krytov</li><li>Pár náušníkov (pripevnených na slúchadlách)</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>HiFiMAN</td></tr><tr><th>Model</th><td>Arya Unveiled</td></tr><tr><th>Frekvenčná odozva</th><td>8 Hz - 65 kHz</td></tr><tr><th>Impedancia</th><td>27 Ω</td></tr><tr><th>Citlivosť</th><td>94 dB</td></tr><tr><th>Hmotnosť</th><td>430 g (bez magnetického tienenia a kábla)</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73950_50045_pol_3d924e42b2044d41ac6ffe69251eb49d" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/drotove-sluchadla/">Drôtové slúchadlá</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[HiFiMAN]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>074791</CODE>
+<EAN>6925624203016</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika]]></CATEGORY>
+  <CATEGORY><![CDATA[TV, audio, video a foto technika > Audio technika > Slúchadlá]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Planárne slúchadlá HiFiMAN Arya Unveiled - obrázok 1">https://b2b.innpro.sk/hpeciai/cf4b30f6c27d0d4a86489252dd11dd6e/50045_2.jpg</IMAGE>
+  <IMAGE description="Planárne slúchadlá HiFiMAN Arya Unveiled - obrázok 2">https://b2b.innpro.sk/hpeciai/02ce488b57ef66151e17d4a14c9398fa/50045_3.jpg</IMAGE>
+  <IMAGE description="Planárne slúchadlá HiFiMAN Arya Unveiled - obrázok 3">https://b2b.innpro.sk/hpeciai/9941fccee2176f22897eb0205e44f647/50045_4.jpg</IMAGE>
+  <IMAGE description="Planárne slúchadlá HiFiMAN Arya Unveiled - obrázok 4">https://b2b.innpro.sk/hpeciai/3f35b6bc72ff0ad81b1ec0c0df14f74a/50045_5.jpg</IMAGE>
+  <IMAGE description="Planárne slúchadlá HiFiMAN Arya Unveiled - obrázok 5">https://b2b.innpro.sk/hpeciai/a336a539bcb34ab2bee1e0a4fc7a9355/50045_1.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ]]></NAME>
+    <VALUE><![CDATA[Na uši]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Aktívna redukcia hluku ANC]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>2.69</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
+<PRICE_VAT>1570.50</PRICE_VAT>
+<PURCHASE_PRICE>1110.24</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Planárne slúchadlá HiFiMAN Arya Unveiled | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Planárne slúchadlá HiFiMAN Arya Unveiled – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Chladiaci ventilátor Darkflash DM8 ARGB (čierny)]]></NAME>
@@ -215438,6 +215345,130 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Elektrická zubná kefka MOVA Fresh Pro (čierna) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Elektrická zubná kefka MOVA Fresh Pro (čierna) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Čierne hodinky BlitzWolf BW-Voyager1]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Hodinky BlitzWolf BW-Voyager1 black BlitzWolf BW-Voyager1 sú inteligentné hodinky vytvorené pre aktívnych ľudí, ktorí oceňujú funkčnosť, odolnosť a moderný dizajn. Hodinky sú vybavené presným…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Hodinky BlitzWolf BW-Voyager1 black</h3>
+<p>BlitzWolf BW-Voyager1 sú inteligentné hodinky vytvorené pre aktívnych ľudí, ktorí oceňujú funkčnosť, odolnosť a moderný dizajn. Hodinky sú vybavené presným systémom GPS, rozsiahlymi zdravotnými funkciami a mimoriadne výkonnou batériou, takže sa osvedčia pri každodennom používaní aj v extrémnych podmienkach. Je ideálny pre športovcov, cestovateľov a všetkých, ktorí chcú mať prehľad o svojom zdraví a aktivite.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/10.jpg"/>
+</p><h3>AMOLED - čitateľný displej za všetkých podmienok</h3>
+<p>Inteligentné hodinky sú vybavené 1,43-palcovým displejom AMOLED s rozlíšením 466 × 466 pixelov, ktorý poskytuje mimoriadne jasný a detailný obraz. Vďaka jasu až 1 000 nitov zostáva obrazovka čitateľná aj pri jasnom slnečnom svetle, zatiaľ čo citlivý touchpad zabezpečuje plynulé ovládanie zariadenia.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/7.jpg"/>
+</p><h3>Presné určovanie polohy pomocou GPS</h3>
+<p>Zariadenie BlitzWolf BW-Voyager1 je vybavené dvojfrekvenčným systémom GNSS a podporou šiestich systémov určovania polohy (GPS, GLONASS, GALILEO, NAVIC, QZSS, BDS) na mimoriadne presné sledovanie. Funkcia "Návrat na štart" vám pomôže bezpečne sa vrátiť do východiskového bodu bez ohľadu na to, kde sa nachádzate.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/6.jpg"/>
+</p><h3>Vodotesnosť 10 ATM - pripravený na každú výzvu</h3>
+<p>Inteligentné hodinky boli navrhnuté s ohľadom na aktívnych ľudí, preto majú vodotesnosť 10 ATM. To znamená, že s nimi môžete plávať, potápať sa a venovať sa vodným športom bez obáv z poškodenia. Jeho odolná konštrukcia znamená, že zvládne aj drsné podmienky.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/2.jpg"/>
+</p><h3>Vojenská odolnosť</h3>
+<p>Puzdro zo zliatiny zinku a sklo Panda Glass poskytujú výnimočnú odolnosť voči nárazom, pádom a poškriabaniu. Inteligentné hodinky spĺňajú prísne normy odolnosti MIL-STD-810H, takže sú ideálne na extrémne situácie, ako je horolezectvo, treking a intenzívny tréning.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/1.jpg"/>
+</p><h3>Monitorovanie zdravia 24 hodín denne, 7 dní v týždni</h3>
+<p>Hodinky ponúkajú pokročilé zdravotné funkcie, ktoré umožňujú nepretržité monitorovanie zdravia vášho tela. Patrí sem meranie srdcovej frekvencie, úrovne okysličenia krvi (SpO2), úrovne stresu a fázy spánku. Okrem toho zabudované dychové cvičenia pomáhajú znižovať napätie a zlepšovať pohodu.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/9.jpg"/>
+</p><h3>Viac ako 170 športových režimov</h3>
+<p>Inteligentné hodinky podporujú viac ako 170 zabudovaných športových režimov, ktoré vám umožňujú presne sledovať rôzne aktivity - od behu cez cyklistiku až po extrémne športy. Svoj výkon môžete analyzovať v reálnom čase a prispôsobiť si tréningy tak, aby ste splnili svoje ciele.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/5.jpg"/>
+</p><h3>Bluetooth a telefónne hovory</h3>
+<p>Vďaka zabudovanému reproduktoru a mikrofónu vám hodinky umožňujú uskutočňovať telefónne hovory prostredníctvom rozhrania Bluetooth. Môžete prijímať a uskutočňovať hovory bez toho, aby ste museli siahať po telefóne - to je užitočné najmä počas jazdy alebo tréningu.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/3.jpg"/>
+</p><h3>Výkonná batéria - až 65 dní používania</h3>
+<p>Hodinky BlitzWolf BW-Voyager1 sú vybavené 500 mAh batériou, ktorá v pohotovostnom režime vydrží až 65 dní. Pri bežnom používaní sa doba prevádzky pohybuje od 5 do 10 dní a v úspornom režime až do 30 dní. Magnetické nabíjanie umožňuje rýchle a pohodlné doplnenie energie približne za 2 hodiny.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/8.jpg"/>
+</p><h3>Inteligentné funkcie a konektivita</h3>
+<p>Hodinky spolupracujú s aplikáciou GloryFitPro, ktorá ponúka upozornenia na hovory, správy a aplikácie. Disponujú aj funkciami, ako sú budík, predpoveď počasia, vyhľadávanie telefónu a režim "Nerušiť". Podporuje technológiu Bluetooth 5.3, ktorá zabezpečuje stabilné pripojenie k telefónu a bezproblémovú synchronizáciu údajov.</p>
+<p>
+<img alt="" border="0" src="https://assets.innpro.pl/12775/15504/4.jpg"/>
+</p>
+<h3>Priložené stránky</h3>
+<ul class="list-disc pl-5"><li>1* Inteligentné hodinky BlitzWolf® BW-Voyager 1</li><li>1* Bezdrôtový nabíjací kábel</li><li>1* Náhradný remienok</li><li>1* Používateľská príručka</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>BlitzWolf</td></tr><tr><th>Model</th><td>BW-Voyager1 black</td></tr><tr><th>Verzia Bluetooth</th><td>bluetooth 5.3</td></tr><tr><th>Kompatibilný operačný systém</th><td>Android 4.4 a novší; iOS 9.0 a novší</td></tr><tr><th>Prevádzkový režim</th><td>Úplný dotyk</td></tr><tr><th>Určovanie polohy pomocou GPS</th><td>Duálna frekvencia GNSS a 6 systémov určovania polohy (GPS, GLONASS, GALILEO, NAVIC, QZSS, BDS) Asistované GPS pre rýchle určovanie polohy</td></tr><tr><th>APP</th><td>Gloryfitpro</td></tr><tr><th>Hlavný čip</th><td>ATS3085L</td></tr><tr><th>Jazyk aplikácie</th><td>Angličtina, zjednodušená čínština, tradičná čínština, japončina, francúzština, nemčina, taliančina, kórejčina, španielčina, ukrajinčina, ruština, bulharčina, indonézština, turečtina, hebrejčina, čeština, slovenčina, poľština, thajčina, rumunčina, portugalčina, mongolčina, arabčina</td></tr><tr><th>Funkcie</th><td>Barometrický tlakomer a kompenzátor, 10 ATM (vodotesnosť pri potápaní).</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Technické parametre</h3>
+<table>
+<tbody>
+<tr><th>Vodotesnosť</th><td>10 ATM</td></tr><tr><th>Veľkosť displeja</th><td>1,43 palca</td></tr><tr><th>Materiál obrazovky</th><td>AMOLED</td></tr><tr><th>Rozlíšenie</th><td>466*466 pixelov, 391 PPI, jas až 1000 nitov</td></tr><tr><th>Kapacita batérie</th><td>500 mAh</td></tr><tr><th>Pohotovostný čas</th><td>Približne 65 dní</td></tr><tr><th>Čas tréningu v úsporných režimoch</th><td>Až 30 dní</td></tr><tr><th>Čas počas aktívneho používania</th><td>Približne 7 dní</td></tr><tr><th>Čas nabíjania</th><td>Približne 2 hodiny</td></tr><tr><th>Typ nabíjania</th><td>Magnetické bezdrôtové nabíjanie</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Vzhľad a podrobnosti</h3>
+<table>
+<tbody>
+<tr><th>Materiál remienka</th><td>Silikón</td></tr><tr><th>Materiál puzdra hodiniek</th><td>Zinková zliatina</td></tr><tr><th>Veľkosť ciferníka</th><td>Približne 52,2*52,2*13,5 mm</td></tr><tr><th>Dĺžka remienka</th><td>Približne 249 mm</td></tr><tr><th>Šírka remienka</th><td>Približne 22 mm</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=74071_50461_pol_daac09781d962010572bcbfa907fb880" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/nositelna-elektronika-2/">Nositeľná elektronika</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[BliTZWOlF]]></MANUFACTURER>
+<WARRANTY>18</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>075198</CODE>
+<EAN>5907085524658</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Čierne hodinky BlitzWolf BW-Voyager1 - obrázok 1">https://b2b.innpro.sk/hpeciai/3b4671f5d46a069a010a68c05fa1585d/50461_1.jpg</IMAGE>
+  <IMAGE description="Čierne hodinky BlitzWolf BW-Voyager1 - obrázok 2">https://b2b.innpro.sk/hpeciai/f97e70ce3684fd992747d3e58dde1d01/50461_2.jpg</IMAGE>
+  <IMAGE description="Čierne hodinky BlitzWolf BW-Voyager1 - obrázok 3">https://b2b.innpro.sk/hpeciai/4d1ad1a334cb60d066ebc83a236358df/50461_3.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[Android]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Funkcie]]></NAME>
+    <VALUE><![CDATA[Meranie krvného tlaku]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Tvar obrazovky]]></NAME>
+    <VALUE><![CDATA[Okrúhle]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Always on display]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[GPS]]></NAME>
+    <VALUE><![CDATA[Áno]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[E-sim]]></NAME>
+    <VALUE><![CDATA[Nie]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
+<PRICE_VAT>86.50</PRICE_VAT>
+<PURCHASE_PRICE>61.10</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Čierne hodinky BlitzWolf BW-Voyager1 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Čierne hodinky BlitzWolf BW-Voyager1 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Geneinno T1-Pro 150m 4K UHD podvodný dron]]></NAME>
@@ -237765,6 +237796,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -243293,6 +243325,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -245946,9 +245979,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>077820</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6978061957639</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Kancelária a škola]]></CATEGORY>
@@ -264075,6 +264105,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -293525,10 +293556,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -306604,6 +306637,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -306680,6 +306714,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -319590,10 +319625,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -330781,6 +330818,65 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Čistička vzduchu MOVA Stellar X10 | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Čistička vzduchu MOVA Stellar X10 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Sada kuchynského príslušenstva pre gril MOVA]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Súprava kuchynského príslušenstva na grilovanie MOVA Súprava príslušenstva na grilovanie MOVA vám uľahčí prípravu a podávanie grilovaných pokrmov, ako aj čistenie grilu. Súprava obsahuje kefu na…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Súprava kuchynského príslušenstva na grilovanie MOVA</h3>
+<p>Súprava príslušenstva na grilovanie MOVA vám uľahčí prípravu a podávanie grilovaných pokrmov, ako aj čistenie grilu. Súprava obsahuje kefu na čistenie grilu, kliešte, silikónovú kefu, špachtľu, nôž a dve vidličky na mäso - všetko zabalené v praktickom kufríku s rukoväťou na jednoduché skladovanie a prenášanie.</p>
+<p>
+<img alt="Súprava kuchynských doplnkov na grilovanie MOVA na béžovom pozadí" border="0" src="https://assets.innpro.pl/19037/25382/Zestaw-akcesorii-kuchennych-do-grilla-MOVA-lifestyle-1.jpg"/>
+</p>
+<h3>Súčasťou balenia je .</h3>
+<ul class="list-disc pl-5"><li>puzdro na príslušenstvo</li><li>kefa na čistenie grilu</li><li>kliešte</li><li>kefa</li><li>špachtľa</li><li>nôž</li><li>vidlička na mäso x2</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>MOVA</td></tr><tr><th>Model</th><td>BKT</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76584_56653_pol_117ffdafca3898d79b4056097da1f7f7" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-potreby/">Kuchynské pomôcky</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[MOVA]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>082188</CODE>
+<EAN>6978794730240</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie > Kuchynské pomôcky]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="Sada kuchynského príslušenstva pre gril MOVA">https://b2b.innpro.sk/hpeciai/e8d51252fedf979d8ade9b882c5e42d3/56653_1.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[MOVA]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[24 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.88</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>6.90</PRICE_VAT>
+<PURCHASE_PRICE>4.88</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Sada kuchynského príslušenstva pre gril MOVA | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Sada kuchynského príslušenstva pre gril MOVA – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Čistiaci robot MOVA E20s Pro (biely)]]></NAME>
@@ -369455,6 +369551,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -385022,6 +385119,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -396352,7 +396450,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>217.50</PRICE_VAT>
 <PURCHASE_PRICE>153.64</PURCHASE_PRICE>
@@ -396711,7 +396809,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>3.20</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>3.13</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>724.90</PRICE_VAT>
 <PURCHASE_PRICE>512.46</PURCHASE_PRICE>
@@ -396980,6 +397078,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -397070,6 +397169,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -403748,6 +403848,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -407694,6 +407795,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -418888,6 +418990,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -439536,41 +439639,56 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[BALDRTHERM HCS596WB – termohygrometer s Wi-Fi a solárnym napájaním od RainPoint – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Wi-Fi termohygrometer BALDRTHERM HCS802ARF (senzor + rozbočovač)]]></NAME>
+<NAME><![CDATA[WiFi termohygrometer (senzor + rozbočovač)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Wi-Fi termohygrometer BALDRTHERM HCS802ARF (senzor + rozbočovač) Termohygrometer BALDRTHERM HCS802ARF, ktorý sa dodáva spolu s rozbočovačom Smart Hub LITE, vám umožňuje diaľkovo monitorovať teplotu a…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Wi-Fi termohygrometer BALDRTHERM HCS802ARF (senzor + rozbočovač)</h3>
-<p>Termohygrometer BALDRTHERM HCS802ARF, ktorý sa dodáva spolu s rozbočovačom Smart Hub LITE, vám umožňuje diaľkovo monitorovať teplotu a vlhkosť prostredníctvom Wi-Fi. Meracie údaje sú k dispozícii v reálnom čase prostredníctvom mobilnej aplikácie, vďaka čomu môžete sledovať podmienky na vybranom mieste odkiaľkoľvek. Sada podporuje upozornenia pri prekročení nastavených prahových hodnôt, zaznamenávanie histórie meraní a možnosť rozšírenia systému až na 39 senzorov.</p>
+<p>Termohygrometer BALDRTHERM HCS802ARF, ktorý sa dodáva spolu s rozbočovačom Smart Hub LITE, vám umožňuje diaľkovo monitorovať teplotu a vlhkosť prostredníctvom Wi-Fi. Meracie údaje sú k dispozícii v reálnom čase prostredníctvom mobilnej aplikácie, vďaka čomu môžete sledovať podmienky na vybranom mieste odkiaľkoľvek. Sada podporuje upozornenia v prípade prekročenia nastavených prahových hodnôt a zaznamenáva históriu meraní.</p>
 <p>
-<img alt="Termo-hygrometer BALDRTHERM na modrom pozadí; vľavo fotografie rôznych miestností, kde sa zariadenie dá použiť" border="0" src="https://assets.innpro.pl/23269/30483/4.jpg"/>
-</p><h3>Diaľkové monitorovanie cez Wi-Fi</h3>
-<p>Po pripojení senzora k zariadeniu Smart Hub LITE a mobilnej aplikácii získate neustály prístup k aktuálnym hodnotám teploty a vlhkosti. Aplikácia zobrazuje aktuálne, maximálne a minimálne hodnoty, ako aj čas posledného merania, čo vám umožňuje pohodlne sledovať podmienky bez ohľadu na to, kde sa práve nachádzate.</p>
+<img alt="Termo-hygrometer BALDRTHERM na modrom pozadí; vľavo sú fotografie rôznych miestností, kde sa zariadenie dá použiť" border="0" src="https://assets.innpro.pl/23269/34144/4-61e8f4ed-5ade-44aa-8820-cd5355415589.jpg"/>
+</p>
+<h3>Diaľkové monitorovanie cez Wi-Fi</h3>
+<p>Po pripojení senzora k zariadeniu Smart Hub LITE a mobilnej aplikácii získate neustály prístup k aktuálnym hodnotám teploty a vlhkosti. Aplikácia zobrazuje aktuálne, maximálne a minimálne hodnoty, ako aj čas posledného merania, čo vám umožňuje pohodlne sledovať podmienky bez ohľadu na to, kde sa nachádzate.</p>
 <p>
-<img alt="Muž opierajúci sa o dverový rám drží v ruke smartfón; hore je senzor pripevnený na kovovú podperu" border="0" src="https://assets.innpro.pl/23269/30483/1.jpg"/>
-</p><h3>Okamžité upozornenia na zmeny</h3>
-<p>Zariadenie vám umožňuje nastaviť prahové hodnoty teplotných alarmov. Ak sa tieto prahové hodnoty prekročia, aplikácia automaticky pošle upozornenie na váš smartfón a upozorní vás na zmenu podmienok. To vám umožňuje rýchlo reagovať v situáciách, ktoré si vyžadujú reguláciu teploty v monitorovanej miestnosti.</p>
+<img alt="Muž opierajúci sa o dverový rám drží v ruke smartfón; hore je senzor pripevnený na kovovú podperu" border="0" src="https://assets.innpro.pl/23269/34144/1-2f3f7295-c69a-4308-b46e-e1b3f8b6ebf0.jpg"/>
+</p>
+<h3>Okamžité upozornenia na zmeny</h3>
+<p>Zariadenie vám umožňuje nastaviť prahové hodnoty teplotných alarmov. Ak sú tieto prahové hodnoty prekročené, aplikácia automaticky pošle upozornenie na váš smartfón, čím vás upozorní na zmenu podmienok. To vám umožňuje rýchlo reagovať v situáciách, ktoré si vyžadujú reguláciu teploty v monitorovanej miestnosti.</p>
 <p>
-<img alt="Senzor a rozbočovač v svetlej miestnosti doma; vpravo smartfón v ruke" border="0" src="https://assets.innpro.pl/23269/30483/6.jpg"/>
-</p><h3>Rozšírenie systému na 39 senzorov</h3>
-<p>Systém je možné ľahko rozšíriť o ďalšie bezdrôtové senzory. Jeden Smart Hub LITE dokáže súčasne podporovať až 39 zariadení, čo umožňuje monitorovanie teploty a vlhkosti na viacerých miestach. Komunikácia medzi centrálou a senzormi prebieha na vzdialenosť až približne 60 m.</p>
-<p>
-<img alt="Model viacpodlažného domu s nainštalovanými senzormi" border="0" src="https://assets.innpro.pl/23269/30483/2.jpg"/>
-</p><h3>História meraní a prehľadné grafy</h3>
+<img alt="Senzor a rozbočovač v jasne osvetlenej miestnosti doma; vpravo smartfón držaný v ruke" border="0" src="https://assets.innpro.pl/23269/34144/6-bebe8b89-98a8-468b-8216-eb34a92c166e.jpg"/>
+</p>
+<h3>História meraní a prehľadné grafy</h3>
 <p>Aplikácia zobrazuje históriu teploty a vlhkosti v prehľadných grafoch, čo uľahčuje analýzu zmien nameraných hodnôt. Priamo v aplikácii môžete tiež zobraziť informácie o všetkých pripojených zariadeniach a spravovať ich prevádzku z jedného miesta.</p>
 <p>
-<img alt="Senzor leží na drevenom stole; v pozadí spí dieťa a v popredí je smartfón s tapetou zobrazujúcou more" border="0" src="https://assets.innpro.pl/23269/30483/3.jpg"/>
-</p><h3>Kompaktný dizajn a široké spektrum využitia</h3>
+<img alt="Senzor leží na drevenom stole; v pozadí spí dieťa a v popredí je smartfón s tapetou znázorňujúcou more" border="0" src="https://assets.innpro.pl/23269/34144/3-fbe06bfb-c5d4-4890-9de0-3d69d3756054.jpg"/>
+</p>
+<h3>Kompaktný dizajn a široké spektrum využitia</h3>
 <p>Senzor vyniká malými rozmermi 88 × 26,97 × 25,17 mm a konštrukciou, ktorá umožňuje jeho zavesenie na akékoľvek požadované miesto. Je ideálny na použitie napríklad v spálňach, skladovacích priestoroch, ochranných krytoch a búdkach pre domáce zvieratá, čím zabezpečuje pohodlné monitorovanie podmienok v rôznych prostrediach.</p>
 <p>
-<img alt="Senzor visí na modrej stene; na stole ležia dve vajcia" border="0" src="https://assets.innpro.pl/23269/30483/5.jpg"/>
+<img alt="Senzor visí na modrej stene; na stole ležia dve vajcia" border="0" src="https://assets.innpro.pl/23269/34144/5-5e844c08-33da-43ca-b343-fd4e3de41d7b.jpg"/>
 </p>
-<h3>Súčasťou balenia je</h3>
-<ul class="list-disc pl-5"><li>termohygrometer</li><li>rozbočovač</li><li>návod na použitie</li><li>USB kábel</li><li>šnúrka na zavesenie</li><li>nástroj na vyberanie</li><li>alkalická batéria typu AA</li></ul>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5">
+<li>Senzor termohygrometra</li>
+<li>Smart Hub LITE</li>
+<li>USB kábel</li>
+<li>Šnúrka na zavesenie</li>
+<li>Nástroj na vyberanie</li>
+<li>Alkalická batéria typu AA</li>
+<li>Návod na použitie</li>
+</ul>
 <div class="table-wrapper">
-<p> </p>
-<h3></h3>
+<p> </p>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Rainpoint</td></tr><tr><th>Model</th><td>HCS802ARF</td></tr><tr><th>Rozsah merania teploty</th><td>-40 °C až 60 °C</td></tr><tr><th>Presnosť merania teploty</th><td>±1 °C</td></tr><tr><th>Rozsah merania vlhkosti</th><td>1–99 % relatívnej vlhkosti</td></tr><tr><th>Presnosť merania vlhkosti</th><td>±5 % relatívnej vlhkosti v rozmedzí 40–70 % relatívnej vlhkosti, ±5 % relatívnej vlhkosti mimo tohto rozsahu</td></tr><tr><th>Napájanie</th><td>1 × alkalická batéria typu AA</td></tr>
+<tr><th>Výrobca</th><td>BALDRTHERM</td></tr>
+<tr><th>Model</th><td>HCS802ARF</td></tr>
+<tr><th>Pripojenie</th><td>Wi-Fi</td></tr>
+<tr><th>Rozsah merania teploty</th><td>-40 °C až 60 °C</td></tr>
+<tr><th>Presnosť merania teploty</th><td>±1 °C</td></tr>
+<tr><th>Rozsah merania vlhkosti</th><td>1–99 % relatívnej vlhkosti</td></tr>
+<tr><th>Presnosť merania vlhkosti</th><td>±5 % relatívnej vlhkosti</td></tr>
+<tr><th>Rozmery</th><td>88 × 26,97 × 25,17 mm</td></tr>
+<tr><th>Napájanie</th><td>1 × alkalická batéria typu AA</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77707_59768_pol_9479a510407550ce41b0db823de92070" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -439588,7 +439706,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="Wi-Fi termohygrometer BALDRTHERM HCS802ARF (senzor + rozbočovač)">https://b2b.innpro.sk/hpeciai/38ad8b31a03d44a008231a6d4995c4f6/59768_1_1.webp</IMAGE>
+  <IMAGE description="WiFi termohygrometer (senzor + rozbočovač)">https://b2b.innpro.sk/hpeciai/38ad8b31a03d44a008231a6d4995c4f6/59768_1_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -439614,8 +439732,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>14.33</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Wi-Fi termohygrometer BALDRTHERM HCS802ARF (senzor… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Wi-Fi termohygrometer BALDRTHERM HCS802ARF (senzor + rozbočovač) od RainPoint – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[WiFi termohygrometer (senzor + rozbočovač) –… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[WiFi termohygrometer (senzor + rozbočovač) od RainPoint – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Meteorologická stanica BALDRTHERM B0359WST2H2PR s vonkajším senzorom]]></NAME>
@@ -445314,6 +445432,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -454584,7 +454703,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -460774,14 +460896,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -485710,6 +485836,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -487730,6 +487857,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -489201,6 +489329,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -489518,6 +489647,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -514891,10 +515021,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -526734,10 +526866,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -528296,10 +528430,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>31.50</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -529920,14 +530056,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -533201,8 +533340,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Nabíjačka elektromobilov Besen BS40 s výkonom 11 kW a aplikáciou - obrázok 1">https://b2b.innpro.sk/hpeciai/10d65e48ce34d5ae3916dd5ce1dd392e/62318_1.webp</IMAGE>
-  <IMAGE description="Nabíjačka elektromobilov Besen BS40 s výkonom 11 kW a aplikáciou - obrázok 2">https://b2b.innpro.sk/hpeciai/02a879c66cd58a47f8a90fc37fcc12af/62318_2.webp</IMAGE>
+  <IMAGE description="Nabíjačka elektromobilov Besen BS40 s výkonom 11 kW a aplikáciou - obrázok 1">https://b2b.innpro.sk/hpeciai/a34f9434825b1ea4ee22bbc75cfb4490/62318_1.webp</IMAGE>
+  <IMAGE description="Nabíjačka elektromobilov Besen BS40 s výkonom 11 kW a aplikáciou - obrázok 2">https://b2b.innpro.sk/hpeciai/ca61718ff2c7cae8b7e8b68eed139262/62318_2.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -533308,8 +533447,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Nabíjačka elektromobilov Besen BS40 s výkonom 22 kW a aplikáciou - obrázok 1">https://b2b.innpro.sk/hpeciai/97f49fa82d7a342dc5fc8d3be50ad1e4/62319_1.webp</IMAGE>
-  <IMAGE description="Nabíjačka elektromobilov Besen BS40 s výkonom 22 kW a aplikáciou - obrázok 2">https://b2b.innpro.sk/hpeciai/f3bc9a7ae36f2a4782d1caaf2f6b3669/62319_2.webp</IMAGE>
+  <IMAGE description="Nabíjačka elektromobilov Besen BS40 s výkonom 22 kW a aplikáciou - obrázok 1">https://b2b.innpro.sk/hpeciai/8b7d499b7cdb5f6ca61a190868cc1696/62319_1.webp</IMAGE>
+  <IMAGE description="Nabíjačka elektromobilov Besen BS40 s výkonom 22 kW a aplikáciou - obrázok 2">https://b2b.innpro.sk/hpeciai/4c88328fd2e8d7d2bbe95558075ac5ac/62319_2.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -533415,8 +533554,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Solárna nabíjačka pre elektromobily Besen BS40 s výkonom 11 kW a aplikáciou - obrázok 1">https://b2b.innpro.sk/hpeciai/17d5a90cdb90822fd8bd206c8fc2c710/62320_1.webp</IMAGE>
-  <IMAGE description="Solárna nabíjačka pre elektromobily Besen BS40 s výkonom 11 kW a aplikáciou - obrázok 2">https://b2b.innpro.sk/hpeciai/02794ac06dcce47d0f8c473c8cc5a6b5/62320_2.webp</IMAGE>
+  <IMAGE description="Solárna nabíjačka pre elektromobily Besen BS40 s výkonom 11 kW a aplikáciou - obrázok 1">https://b2b.innpro.sk/hpeciai/5e39836dcc191d0a3de31e5757ff75b6/62320_1.webp</IMAGE>
+  <IMAGE description="Solárna nabíjačka pre elektromobily Besen BS40 s výkonom 11 kW a aplikáciou - obrázok 2">https://b2b.innpro.sk/hpeciai/ab946d5f6392a99db378b7b21c3d17d5/62320_2.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -533478,8 +533617,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Auto-moto]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Nabíjačka elektromobilov Besen BS40 22 kW SOLAR-APP - obrázok 1">https://b2b.innpro.sk/hpeciai/88eb17a2be03d566bfac31c36daee744/62321_1.webp</IMAGE>
-  <IMAGE description="Nabíjačka elektromobilov Besen BS40 22 kW SOLAR-APP - obrázok 2">https://b2b.innpro.sk/hpeciai/6c7a54768e546408a2235510733702ef/62321_2.webp</IMAGE>
+  <IMAGE description="Nabíjačka elektromobilov Besen BS40 22 kW SOLAR-APP - obrázok 1">https://b2b.innpro.sk/hpeciai/1920e9487c24fe30a6521a2e8d3a0ea7/62321_1.webp</IMAGE>
+  <IMAGE description="Nabíjačka elektromobilov Besen BS40 22 kW SOLAR-APP - obrázok 2">https://b2b.innpro.sk/hpeciai/4f93902789d1217762f51da17497b87a/62321_2.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -575409,7 +575548,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>7.54</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>7.75</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>434.00</PRICE_VAT>
 <PURCHASE_PRICE>306.94</PURCHASE_PRICE>
@@ -575641,7 +575780,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.50</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.75</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>217.50</PRICE_VAT>
 <PURCHASE_PRICE>153.82</PURCHASE_PRICE>
@@ -594313,7 +594452,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>093248</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6977390120844</EAN>
 <CATEGORIES>
@@ -594858,6 +594997,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -609756,7 +609896,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.13</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>22.90</PRICE_VAT>
 <PURCHASE_PRICE>16.16</PURCHASE_PRICE>
@@ -609853,7 +609993,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>38.50</PRICE_VAT>
@@ -610038,7 +610178,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.09</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>24.00</PRICE_VAT>
@@ -610244,7 +610384,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.13</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>29.50</PRICE_VAT>
 <PURCHASE_PRICE>20.92</PURCHASE_PRICE>
@@ -610333,7 +610473,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>37.50</PRICE_VAT>
 <PURCHASE_PRICE>26.34</PURCHASE_PRICE>
@@ -610418,7 +610558,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.09</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>21.50</PRICE_VAT>
@@ -610512,7 +610652,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.03</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>11.50</PRICE_VAT>
@@ -610619,7 +610759,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.39</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.36</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>50.00</PRICE_VAT>
 <PURCHASE_PRICE>34.47</PURCHASE_PRICE>
@@ -610721,7 +610861,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>27.90</PRICE_VAT>
 <PURCHASE_PRICE>19.65</PURCHASE_PRICE>
@@ -610823,7 +610963,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>20.54</PURCHASE_PRICE>
@@ -612415,6 +612555,80 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Náhradná hlavica na zubnú kefku MOVA AirWave (modrá) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Náhradná hlavica na zubnú kefku MOVA AirWave (modrá) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Náhradná hlavica na zubnú kefku MOVA AirWave (ružová)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Náhradná hlavica na zubnú kefku MOVA AirWave (ružová) Náhradná hlavica na zubnú kefku MOVA AirWave je ideálnou voľbou pre všetkých, ktorí hľadajú bezkompromisnú účinnosť a šetrnosť pri každodennej…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<div style="display: flex; flex-direction: column;" class="iai-section-b518b711-327c-49dd-a6df-803f52333dbe-description-wrapper">
+<div class="iai-section-b518b711-327c-49dd-a6df-803f52333dbe iai-section-b518b711-327c-49dd-a6df-803f52333dbe-html">
+<h3>Náhradná hlavica na zubnú kefku MOVA AirWave (ružová)</h3>
+<p>Náhradná hlavica na zubnú kefku MOVA AirWave je ideálnou voľbou pre všetkých, ktorí hľadajú bezkompromisnú účinnosť a šetrnosť pri každodennej ústnej hygiene. Táto hlavica, vybavená patentovanými bieliacimi vláknami v tvare diamantu a mimoriadne mäkkými, zužujúcimi sa štetinami, zaručuje precízne čistenie aj v ťažko dostupných miestach a obnovuje prirodzený lesk vašich zubov. Predná časť hlavice je vybavená štetinami najvyššej kvality s okrúhlosťou presahujúcou 90 %, čo účinne minimalizuje riziko podráždenia a poškodenia ďasien a vďaka svojim antibakteriálnym vlastnostiam účinne obmedzuje rast škodlivých mikroorganizmov. Okrem toho je zadná časť hlavice kefky pokrytá mäkkým PP gumovým materiálom, ktorý zabraňuje bolestivému kontaktu so zubami počas čistenia a zaisťuje tak každodenný úplný komfort a najvyšší štandard ochrany.</p>
+<p><img src="https://assets.innpro.pl/24494/32181/1-iop-bc549650-b579-40b1-a5f3-8209e80af8c2.jpg" border="0" alt="Tri hlavice elektrických zubných kefiek v ružovej farbe na sivom pozadí."></p>
+<div class="table-wrapper">
+<p>&nbsp;</p>
+<h3>&nbsp;</h3>
+<table>
+<tbody>
+<tr>
+<th>Výrobca</th>
+<td>MOVA</td>
+</tr>
+<tr>
+<th>Model</th>
+<td>MAWKS</td>
+</tr>
+<tr>
+<th>Farba</th>
+<td>Ružová</td>
+</tr>
+<tr>
+<th>Kompatibilita</th>
+<td>MOVA AirWave</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87565_64813_pol_bf7c575c472dba5973fe0da838448b85" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/starostlivost-o-zuby/">Starostlivosť o zuby</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[MOVA]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>093747</CODE>
+<EAN>6978794734095</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o zuby]]></CATEGORY>
+  <CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Náhradná hlavica na zubnú kefku MOVA AirWave (ružová)">https://b2b.innpro.sk/hpeciai/b7ad843eaaa8128526581adec45e4a39/64813_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[MOVA]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[ružová]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[MOVA AirWave]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>16.50</PRICE_VAT>
+<PURCHASE_PRICE>11.55</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Náhradná hlavica na zubnú kefku MOVA AirWave… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Náhradná hlavica na zubnú kefku MOVA AirWave (ružová) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Tepelný lis xTool WonderPress V1.0 (biely)]]></NAME>
@@ -630565,7 +630779,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.13</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>20.00</PRICE_VAT>
 <PURCHASE_PRICE>14.12</PURCHASE_PRICE>
@@ -631162,7 +631376,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.39</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.43</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>765.00</PRICE_VAT>
@@ -636083,7 +636297,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.27</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.21</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>524.00</PRICE_VAT>
@@ -636222,7 +636436,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.83</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.62</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>1085.90</PRICE_VAT>
@@ -636361,7 +636575,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.83</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.76</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>1023.50</PRICE_VAT>
@@ -636500,7 +636714,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.83</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.77</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>848.50</PRICE_VAT>
@@ -638375,7 +638589,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.32</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.31</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>17.90</PRICE_VAT>
 <PURCHASE_PRICE>12.61</PURCHASE_PRICE>
@@ -641305,7 +641519,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>3.28</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>3.09</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>186.00</PRICE_VAT>
 <PURCHASE_PRICE>131.46</PURCHASE_PRICE>
@@ -641622,10 +641836,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -641940,6 +642156,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>034805</CODE>
     <EAN>5907489609173</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>035190</CODE>
+    <EAN>6920075777123</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -646661,7 +646884,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088502</CODE>
     <EAN>5905156105713</EAN>
@@ -646808,7 +647031,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>

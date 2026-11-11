@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-10 21:33 UTC.
+Kontrola z 2026-11-11 00:09 UTC.
 
-InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **383** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -167,7 +167,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068238` | Silicone stand PULUZ for Insta360 X4 camera | — | 5 |
 | `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
 | `067687` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-FW (whi | — | 5 |
-| `067677` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-F (grap | — | 5 |
 | `067686` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-FW (whi | — | 5 |
 | `067669` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-F (grap | — | 5 |
 | `068840` | Mäkká kefa pre Dreame Z20/Z30/Z20 AquaCycle™/Z30 AquaCycle™ | — | 5 |
@@ -178,13 +177,13 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `070768` | Thermal labels Niimbot stickers 50x70 mm - 100 pcs. White | — | 5 |
 | `070769` | Thermal labels Niimbot stickers 60x40 mm - 690 pcs. White | — | 5 |
 | `069478` | EVA protective case for Insta360 X4 / X5 | — | 5 |
-| `070619` | Telesin plastic mounting frame for Insta360 X4 | — | 5 |
+| `070619` | Telesin plastic mounting frame for Insta360 X4 | — | 4 |
 | `070827` | Superfire HL96 headlamp flashlight | — | 5 |
 | `071368` | Filter HEPA vysávača Deerma DEM-T20W/T30W | — | 5 |
 | `071040` | WAUDOG natural leather dog leash 20 mm wide, 122 cm long pin | — | 5 |
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
-| `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
+| `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 3 |
 | `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
 | `071869` | SUNNYLIFE propeller guard for DJI Neo (gray) | — | 4 |
 | `071860` | Sunnylife landing gear upgrade for DJI Neo (orange) | — | 5 |
@@ -205,7 +204,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
-| `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 5 |
+| `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 4 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `071777` | Magnetický držiak telefónu Joyroom JR-ZS418 čierny | — | 5 |
@@ -222,7 +221,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `077873` | Ochranná fólia Puluz 3 v 1 pre Insta 360 Ace Pro 2 | — | 5 |
 | `077868` | Ochranné puzdro Puluz pre DJI Mic Mini (čierne) | — | 5 |
 | `077869` | Ochranné puzdro Puluz pre DJI Mic 2 (čierne) | — | 5 |
-| `077820` | Dvojfarebné štítky do tlačiarne T50*30-230 (biele) | — | 4 |
 | `077821` | T50*30-230 Dvojfarebné štítky do tlačiarne (žlté) | — | 5 |
 | `078020` | Tvrdené sklo Sunnylife pre RC PRO 2 (2 kusy) | — | 5 |
 | `078077` | Vrecko na prach do vysávača MOVA Z50 Ultra 4L [3 ks]. | — | 5 |
@@ -383,7 +381,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089895` | Sunnylife Insta360 GO Ultra silikónový náramok (čierny) | — | 5 |
 | `089897` | Univerzálny držiak na telefón Sunnylife s klipom | — | 5 |
 | `089382` | Tepelná etiketa NIIMBOT EW50*30-225 | — | 5 |
-| `093248` | Sada veľkostí EVEN REALITIES R1 | — | 5 |
+| `093248` | Sada veľkostí EVEN REALITIES R1 | — | 2 |
 | `089389` | Čelovka SUPERFIRE HL106 | — | 5 |
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |

@@ -1,5 +1,5 @@
 # Kategórie mimo stromu — penta
 
-Kontrola z 2026-11-11 00:02 UTC.
+Kontrola z 2026-11-11 00:10 UTC.
 
 Žiadne — všetky kategórie v tomto feede existujú v našom strome.
