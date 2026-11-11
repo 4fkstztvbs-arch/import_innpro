@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-11-11 11:34 UTC.
+Kontrola z 2026-11-11 22:23 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -19,12 +19,11 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
 
-## innpro — 17 ks
+## innpro — 16 ks
 
 | Kód | Produkt |
 |---|---|
 | `081314` | Elektrický gril MOVA IG20 Pro |
-| `088540` | Monitor Darkflash 9,2" IPS V92 (biely) |
 | `087241` | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
 | `088385` | Monitor Uperfect UGame C2 Pro 16" |
 | `090418` | Elektrický gril AMZCHEF CE-LS-GC02C-H-WP |
@@ -59,7 +58,7 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 |---|---|
 | `DSP-TF01` | Solight turbo fukár |
 
-## wiim — 26 ks
+## wiim — 24 ks
 
 | Kód | Produkt |
 |---|---|
@@ -86,7 +85,5 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `WiiM-Sound-Lite-White-2-pack` | WiiM Sound Lite Twin Pack White |
 | `WiiM_SUB_PRO_003` | WiiM Sub Pro Black |
 | `WiiM_SUB_PRO_013` | WiiM Sub Pro White |
-| `NORWIISOUBK` | WiiM Sound Floor Stand Black |
-| `NORWIISOUWT` | WiiM Sound Floor Stand White |
 | `WiiM_WVR_002` | WiiM Voice Remote 2 Silver |
 

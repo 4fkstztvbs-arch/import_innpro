@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 30049,
-  "matchedRules": 2022,
-  "changedProducts": 1028,
+  "totalProducts": 30027,
+  "matchedRules": 2018,
+  "changedProducts": 1025,
   "rejected": [
     {
       "supplier": "atos",
@@ -2727,32 +2727,7 @@
       "feedEan": "0795847057279"
     }
   ],
-  "categoryDrifts": [
-    {
-      "supplier": "wiim",
-      "code": "NORWIISOUBK",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
-      ]
-    },
-    {
-      "supplier": "wiim",
-      "code": "NORWIISOUWT",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Príslušenstvo k TV, audio a video technike"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Audio technika > Stojany a držiaky na reproduktory"
-      ]
-    }
-  ],
+  "categoryDrifts": [],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -2768,7 +2743,7 @@
     },
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty",
-      "visibleUnique": 304,
+      "visibleUnique": 303,
       "active": true,
       "parent": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna"
     },
@@ -2804,13 +2779,13 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Bojové športy > Chrániče pre bojové športy",
-      "visibleUnique": 54,
+      "visibleUnique": 53,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Bojové športy"
     },
     {
       "path": "Cestovanie, šport a outdoor > Bojové športy > MMA rukavice",
-      "visibleUnique": 39,
+      "visibleUnique": 38,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Bojové športy"
     },
@@ -2822,7 +2797,7 @@
     },
     {
       "path": "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony",
-      "visibleUnique": 45,
+      "visibleUnique": 44,
       "active": true,
       "parent": "Cestovanie, šport a outdoor > Príslušenstvo pre drony"
     },
@@ -2864,7 +2839,7 @@
     },
     {
       "path": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače",
-      "visibleUnique": 48,
+      "visibleUnique": 47,
       "active": true,
       "parent": "Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače"
     },
@@ -2936,13 +2911,13 @@
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory > Senzory teploty a vlhkosti",
-      "visibleUnique": 20,
+      "visibleUnique": 18,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory"
     },
     {
       "path": "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart termostaty a hlavice",
-      "visibleUnique": 27,
+      "visibleUnique": 26,
       "active": true,
       "parent": "Elektro, Smart Home a osvetlenie > Smart domácnosť"
     },
@@ -3092,7 +3067,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Fotografické a video svetlá",
-      "visibleUnique": 100,
+      "visibleUnique": 99,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },
@@ -3104,7 +3079,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér > Softboxy a modifikátory svetla",
-      "visibleUnique": 21,
+      "visibleUnique": 20,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Fotoateliér"
     },

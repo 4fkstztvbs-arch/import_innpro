@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-11 11:33 UTC.
+Kontrola z 2026-11-11 22:22 UTC.
 
-InnPro pri **383** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **382** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -74,7 +74,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `044441` | Baseus Crystal Tvrdené sklo 0,3 mm pre tablet Huawei MatePad | — | 5 |
 | `046683` | Vodotesné puzdro pre relé Sonoff IP66 | — | 5 |
 | `047961` | Inteligentný spínací modul WiFi Avatto WSM16-W1 TUYA | — | 5 |
-| `047993` | Univerzálny diaľkový ovládač IR WiFi Avatto S16 TUYA | — | 5 |
 | `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
 | `048658` | Priehľadný obal a sada tvrdeného skla Baseus Corning pre iPh | — | 5 |
 | `044435` | Baseus Crystal Tempered Glass 0,3 mm pre tablet Huawei MateP | — | 5 |
