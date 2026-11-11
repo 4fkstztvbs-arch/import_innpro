@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-11-10
+# Cenové anomálie vynechané z feedu — innpro — 2026-11-11
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -419,17 +419,17 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096501 | 6942580510415 | Smartphone FOSSIBOT F101P Android 13 4 GB RAM (red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096502 | 6942580510422 | Smartphone FOSSIBOT F125 Android 14 12 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096503 | 6942580510439 | Smartphone FOSSIBOT F125 Android 14 12 GB RAM (green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096504 | 6942580510446 | Smartphone FOSSIBOT F110L Android 15 4 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096505 | 6942580510453 | Smartphone FOSSIBOT F114 Android 15 4 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096506 | 6942580510460 | Smartphone FOSSIBOT F117 Android 16 8 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096507 | 6942580510477 | Smartphone FOSSIBOT S7 Android 16 8 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096508 | 6942580510484 | Smartphone FOSSIBOT S7 Android 16 8 GB RAM (gold) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096509 | 6942580510491 | Smartphone FOSSIBOT S7 Android 16 8 GB RAM (green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096510 | 6942580510507 | Tablet FOSSIBOT Tab 12 Android 14 10.95 inches 18 GB RAM (green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096511 | 6942580510514 | Tablet FOSSIBOT Tab 12 Android 14 10.95 inches 18 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096501 | 6942580510415 | Smartfón FOSSIBOT F101P s operačným systémom Android 13 a 4 GB RAM (červený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096502 | 6942580510422 | Smartfón FOSSIBOT F125 s operačným systémom Android 14 a 12 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096503 | 6942580510439 | Smartfón FOSSIBOT F125 s operačným systémom Android 14 a 12 GB RAM (zelený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096504 | 6942580510446 | Smartfón FOSSIBOT F110L s operačným systémom Android 15 a 4 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096505 | 6942580510453 | Smartfón FOSSIBOT F114 s operačným systémom Android 15 a 4 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096506 | 6942580510460 | Smartfón FOSSIBOT F117 s operačným systémom Android 16 a 8 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096507 | 6942580510477 | Smartfón FOSSIBOT S7 s operačným systémom Android 16 a 8 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096508 | 6942580510484 | Smartfón FOSSIBOT S7 s operačným systémom Android 16 a 8 GB RAM (zlatý) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096509 | 6942580510491 | Smartphone FOSSIBOT S7 s operačným systémom Android 16 a 8 GB RAM (zelený) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096510 | 6942580510507 | Tablet FOSSIBOT Tab 12 s operačným systémom Android 14, uhlopriečka 10,95 palca, | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096511 | 6942580510514 | Tablet FOSSIBOT Tab 12 s operačným systémom Android 14, uhlopriečka 10,95 palca, | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096512 | 6942580510521 | Tablet FOSSIBOT Tab 13 Android 15 11,5 inches 36 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096513 | 6942580510538 | Action camera FOSSIBOT FC360 8K EU (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 148.00 € | 11.00 € | 1/13.5x | 14 |
