@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-12 01:37 UTC.
+Kontrola z 2026-11-12 11:58 UTC.
 
-InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **384** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -83,7 +83,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `049244` | Baseus Tempered-Glass Screen Protector pre HUAWEI Changxiang | — | 5 |
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
 | `051202` | Targeted Lip Volumizer & Booster Geske with APP (gray) | — | 5 |
-| `044436` | Tvrdené sklo Baseus Crystal 0,3 mm pre HUAWEI MatePad Pro 12 | — | 5 |
 | `046656` | Baterka Superfire X18 – 55 lm, 5W, 5 režimov, 38 m | — | 5 |
 | `051608` | UV filter PGYTECH DJI Mavic 3 Pro (profesionálny) | — | 5 |
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
@@ -192,7 +191,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071865` | SUNNYLIFE protective battery case for DJI Neo | — | 5 |
 | `071867` | Sunnylife protective case for 3 batteries for DJI Neo | — | 5 |
 | `071893` | Sunnylife tempered glass for DJI Action 5 Pro | — | 5 |
-| `072355` | Chladiaci ventilátor Darkflash DR08 (čierny) | — | 5 |
 | `069348` | Decorative cover / cap for T5 SONOFF Cartoon 1C touch switch | — | 5 |
 | `069349` | Decorative cover / cap for T5 SONOFF Cartoon 2C touch switch | — | 5 |
 | `069350` | Decorative cover / cap for T5 SONOFF Cartoon 3C touch switch | — | 5 |
@@ -207,6 +205,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
 | `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 4 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
+| `070369` | Filter pre Dreame H14 Dual | — | 5 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `071777` | Magnetický držiak telefónu Joyroom JR-ZS418 čierny | — | 5 |
 | `073335` | Telesin Tvrdené sklo 3 v 1 pre GoPro Hero 13 Black (S6-FLM-0 | — | 5 |
