@@ -432,5 +432,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096511 | 6942580510514 | Tablet FOSSIBOT Tab 12 s operačným systémom Android 14, uhlopriečka 10,95 palca, | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096512 | 6942580510521 | Tablet FOSSIBOT Tab 13 Android 15 11,5 inches 36 GB RAM (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096513 | 6942580510538 | Action camera FOSSIBOT FC360 8K EU (black) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 035845 | 6941565916839 | Luminiscenčná letová mapa DJI RoboMaster TT | zmena ceny > 5x oproti minulému importu | 801.00 € | 146.50 € | 1/5.5x |  |
+| 061857 | 6976788020391 | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (ružové) | zmena ceny > 5x oproti minulému importu | 16.00 € | 3.10 € | 1/5.2x |  |
 | 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 11.00 € | 1/13.1x | 13 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 8.10 € | 1/17.8x | 13 |
