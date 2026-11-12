@@ -42,7 +42,6 @@ jobs:
           SOLIGHT_OUT: output/solight.xml
           SOLIGHT_IMAGE_PROXY_BASE: ${{ secrets.SOLIGHT_IMAGE_PROXY_BASE }}
           SOLIGHT_EXCLUDE_UNAVAILABLE: '1'
-          HEUREKA_PRICE_OVERRIDE: '1'
         run: node scripts/transform-solight.js
 
       - name: Add fallback parameters (Heureka PARAM)
