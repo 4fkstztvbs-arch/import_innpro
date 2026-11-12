@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-11 22:22 UTC.
+Kontrola z 2026-11-12 01:37 UTC.
 
-InnPro pri **382** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -23,6 +23,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `019506` | Fotoblesk Puluz 5w1 + puzdro | — | 5 |
 | `020113` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (červený+čierny) | — | 5 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | — | 5 |
+| `022733` | Hliníkový základný svetelný panel Puluz pre 60cm štúdiový st | — | 5 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrátane O | — | 5 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW2 WiF | — | 5 |
 | `023349` | Organizér BASEUS Planet pre Apple Watch (čierny) | — | 5 |
@@ -166,6 +167,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068238` | Silicone stand PULUZ for Insta360 X4 camera | — | 5 |
 | `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
 | `067687` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-FW (whi | — | 5 |
+| `067677` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-F (grap | — | 5 |
 | `067686` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-FW (whi | — | 5 |
 | `067669` | Frame for switch M5 80 double 2-fold SONOFF M5-2C-80-F (grap | — | 5 |
 | `068840` | Mäkká kefa pre Dreame Z20/Z30/Z20 AquaCycle™/Z30 AquaCycle™ | — | 5 |
@@ -284,7 +286,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
 | `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 5 |
 | `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
-| `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 5 |
+| `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 4 |
 | `083387` | Šasi Sunnylife pre Mini 5 Pro (sivé) | — | 5 |
 | `083389` | Stojan Sunnylife pre Mini 5/4/3 Pro | — | 5 |
 | `083385` | Kryt kardanu Sunnylife pre Mini 5 Pro | — | 5 |
@@ -352,8 +354,9 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088982` | Súprava nástrojov na odstránenie fólie HTVRONT | — | 5 |
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |
 | `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
-| `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 5 |
+| `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 4 |
 | `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
+| `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
 | `087023` | Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 | — | 5 |
 | `087027` | Filter MOVA pre stanicu G70 | — | 5 |
