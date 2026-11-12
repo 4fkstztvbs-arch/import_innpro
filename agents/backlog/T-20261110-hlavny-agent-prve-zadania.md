@@ -2,7 +2,7 @@
 id: T-20261110-hlavny-agent-prve-zadania
 nazov: Prvé rozdelenie práce po ZACNI
 rola: hlavny-agent
-stav: pripravene
+stav: hotovo
 priorita: 1
 vytvoril: kostra
 vytvorene: 2026-11-10
@@ -25,3 +25,4 @@ Každá rola má zadanie a žiadne dve úlohy nemenia tie isté stránky.
 ## Priebeh
 
 - 2026-11-10: Založené z prieskumu prvého dňa.
+- 2026-11-11: Priority skontrolované, prekrytie pilot SEO a vlna 1 obsahu vyriešené, zadania vydané (handoffs/2026-11-11-hlavny-agent.md).
