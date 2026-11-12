@@ -1,0 +1,96 @@
+{
+  "id": "Z-20261112-obsah-davka2",
+  "datum": "2026-11-12",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Vlna 1, dávka 2: prepis popisu a meta údajov podľa štandardu. Pôvodný popis pri produktoch z INNPRO je text z output/innpro.xml (live verzia k tomu pridáva len odkazy na dokument a kategóriu).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "028510",
+      "guid": "56bed736-cc22-11f1-9c47-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/reproduktory-edifier-r1855db-2-0-cierne/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Tradičný dizajn, moderná technológia Aktívny reproduktorový systém Edifier R1855DB je navrhnutý s ohľadom na funkčnosť. Vrátil sa k nemu starý dizajn, ale na dosiahnutie najlepších možných zvukových…",
+          "po": "Aktívne reproduktory 2.0 Edifier R1855DB s výkonom 70 W RMS, Bluetooth, optickým a koaxiálnym vstupom a diaľkovým ovládaním. Skrine z MDF sú naklonené o 10° k poslucháčovi."
+        },
+        "metaDescription": {
+          "pred": "Aktívne reproduktory Edifier R1855DB 2.0 s výkonom 70 W, Bluetooth, optickým a koaxiálnym vstupom a diaľkovým ovládaním. Pozrite si parametre na PremiumStore.sk.",
+          "po": "Aktívne reproduktory Edifier R1855DB 2.0: 70 W, Bluetooth, optický a koaxiálny vstup, diaľkové ovládanie a skrine z MDF."
+        },
+        "description": {
+          "predSubor": "Z-20261112-obsah-davka2.028510.pred-popis.html",
+          "poSubor": "Z-20261112-obsah-davka2.028510.po-popis.html"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "085436",
+      "guid": "22509560-92c6-11f1-8c21-bc2411833e01",
+      "url": "https://www.premiumstore.sk/inteligentny-wifi-spinac-na-zaluzie-meross-mrs100ma-eu-matter/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Inteligentný Wi-Fi spínač žalúzií Meross MRS100MA(EU) (Matte",
+          "po": "Meross MRS100MA – Wi-Fi spínač žalúzií s podporou Matter"
+        },
+        "metaDescription": {
+          "pred": "Inteligentný Wi-Fi spínač žalúzií Meross MRS100MA(EU) (Matter) má Wi-Fi a Matter. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "Wi-Fi spínač žalúzií Meross MRS100MA s podporou Matter: motory do 400 W, 100–240 V, plánovanie, hlasové ovládanie a aplikácia Meross."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "091035",
+      "guid": "8f1d3188-9845-11f1-819e-bc24110eff41",
+      "url": "https://www.premiumstore.sk/godox-lc500r-mini-studiove-osvetlenie/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Mini štúdiové osvetlenie GODOX LC500R GODOX LC500R Mini je 45 cm dlhé LED svetlo s technológiou RGBWW, ktoré generuje svetelnú intenzitu až 1 580 luxov, ponúka nastavenie farebnej teploty v rozmedzí…",
+          "po": "Godox LC500R Mini je 45 cm dlhé LED svetlo RGBWW s jasom až 1 580 luxov a farebnou teplotou 2 500 – 8 500 K. Má 15 efektov, clony a ovládanie cez aplikáciu Godox Light."
+        },
+        "metaDescription": {
+          "pred": "LED svetlo Godox LC500R RGBWW s dĺžkou 45 cm, farebnou teplotou 2500 – 8500 K a plnou paletou RGB. Pozrite si parametre a cenu na PremiumStore.sk.",
+          "po": "LED svetlo Godox LC500R RGBWW, 45 cm: až 1 580 luxov, 2 500 – 8 500 K, plné RGB, 15 efektov FX, clony a ovládanie cez aplikáciu."
+        },
+        "description": {
+          "predSubor": "Z-20261112-obsah-davka2.091035.pred-popis.html",
+          "poSubor": "Z-20261112-obsah-davka2.091035.po-popis.html"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "079985",
+      "guid": "6d4e69e2-b946-11f1-b2a4-bc24110eff41",
+      "url": "https://www.premiumstore.sk/flytec-v802-pro-12000mah-navnada-lod--cierna/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Flytec V802 PRO 12000mah návnada loď (čierna) Flytec V802 PRO je profesionálny návnadový čln určený pre náročných rybárov. Je vybavený štyrmi nezávislými oddeleniami s celkovou nosnosťou 3 kg a dvoma…",
+          "po": "Zavážacia loďka Flytec V802 PRO so 4 komorami na 3 kg návnady, GPS s 160 bodmi, dosahom 500 m a batériou 12 000 mAh na približne 4 hodiny prevádzky. V balení je ovládač s LCD displejom."
+        },
+        "metaDescription": {
+          "pred": "Zavážacia loďka Flytec V802 PRO 12 000 mAh: GPS s 160 bodmi, 4 komory na 3 kg návnady, dosah 500 m, gyroskop a LED svetlá. Cena na PremiumStore.sk.",
+          "po": "Zavážacia loďka Flytec V802 PRO 12 000 mAh: 4 komory na 3 kg návnady, GPS so 160 bodmi, dosah 500 m, gyroskop a LED svetlá."
+        },
+        "description": {
+          "predSubor": "Z-20261112-obsah-davka2.079985.pred-popis.html",
+          "poSubor": "Z-20261112-obsah-davka2.079985.po-popis.html"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-12",
+    "ok": true,
+    "poznamka": "Znovu načítané všetky 4 produkty: nový obsah uložený, ceny (142.00, 20.90, 138.50, 142.50), sklad 0.000, viditeľnosť visible a váhy bez zmeny."
+  },
+  "trvanlivost": null,
+  "navrat": null,
+  "poznamka": "Pred zápisom: Edifier cena 142.00, váha 7.480; Meross cena 20.90, váha 0.180; sklad 0.000 a viditeľnosť visible. Meross sa predáva dobre, preto sa zmenili len meta údaje, popis zostáva. Godox: cena 138.50, váha 1.070; Flytec: cena 142.50, váha 9.090. Názvy sa nemenili (stránky s návštevnosťou = trieda B, len v experimente)."
+}
