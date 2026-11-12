@@ -40,7 +40,6 @@ const CENY_URL = process.env.KB_CENY_URL;
 const DOSTUPNOSTI_URL = process.env.KB_DOSTUPNOSTI_URL;
 
 const MARKUP_PCT = parseFloat(process.env.KB_MARKUP || '10');
-const MIN_MARGIN_PCT = parseFloat(process.env.KB_MIN_MARGIN || '10');
 const MIN_COST = parseFloat(process.env.KB_MIN_COST || '0');
 const EXCLUDE_UNAVAILABLE = process.env.KB_EXCLUDE_UNAVAILABLE === '1';
 const SALE_STATE_PATH = path.join(__dirname, '..', 'data', 'vypredaj.json');
@@ -301,8 +300,8 @@ async function main() {
   console.log('Streaming main product feed...');
   const stats = {
     total: 0, written: 0, skippedByCategoryFilter: 0, skippedUnmatchedCategory: 0, skippedUnavailable: 0,
-    noPriceInfo: 0, skippedCheap: 0, usedRecommendedPrice: 0, usedMarkupPrice: 0,
-    marginFloorApplied: 0, recyclingFeeCount: 0, energyLabelCandidates: 0, energyLabelsFound: 0,
+    noPriceInfo: 0, skippedCheap: 0, usedMarkupPrice: 0,
+    recyclingFeeCount: 0, energyLabelCandidates: 0, energyLabelsFound: 0,
   };
   const rawCandidates = [];
   const previousPrices = loadPreviousPrices(OUT_PATH);
@@ -351,7 +350,6 @@ async function main() {
     if (cenaNakupna > 0) {
       price = roundPriceUp(cenaNakupna * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
       stats.usedMarkupPrice++;
-      stats.marginFloorApplied++;
     }
 
     if (isNaN(price) || isNaN(cenaNakupna) || price < 0 || cenaNakupna < 0) {
