@@ -93,6 +93,17 @@ jobs:
         with:
           supplier: kb
 
+      # Preserve the detailed price anomaly report when the feed safety gate blocks publication.
+      # This repository is public, so the artifact is intentionally publicly downloadable.
+      - name: Upload K-B price anomaly report
+        if: failure() && hashFiles('reports/cenove-anomalie-kb.md') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: kb-price-anomalies-${{ github.run_id }}
+          path: reports/cenove-anomalie-kb.md
+          if-no-files-found: error
+          retention-days: 14
+
       - uses: ./.github/actions/commit-output
         with:
           bot-name: kb-sync-bot
