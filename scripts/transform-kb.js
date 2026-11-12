@@ -21,7 +21,6 @@ const { streamRecords } = require('./stream-records');
 const { parseRecord, field, toFloat } = require('./parse-kb');
 const { roundPrice, roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden, marginEurFor } = require('./heureka-category');
-const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, loadApprovedExceptions, checkApprovedException, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
@@ -224,14 +223,6 @@ async function main() {
     if (!url) { console.error(`Missing ${name} environment variable.`); process.exit(1); }
   }
 
-  console.log('Fetching CZK->EUR rate for suspected K-B sale-price currency mismatches...');
-  const fxResponse = await fetch('https://api.frankfurter.app/latest?from=CZK&to=EUR');
-  if (!fxResponse.ok) throw new Error('CZK->EUR FX lookup failed with HTTP ' + fxResponse.status);
-  const fxData = await fxResponse.json();
-  const czkToEur = Number(fxData && fxData.rates && fxData.rates.EUR);
-  if (!(czkToEur > 0)) throw new Error('Could not fetch a valid CZK->EUR rate from frankfurter.app');
-  console.log(`  -> 1 CZK = ${czkToEur} EUR`);
-
   console.log('Loading category tree...');
   const kategorieRecords = await loadAllRecords(KATEGORIE_URL);
   const categories = {}; // id -> {name, parent}
@@ -315,18 +306,6 @@ async function main() {
   };
   const rawCandidates = [];
   const previousPrices = loadPreviousPrices(OUT_PATH);
-  // Snapshot prior K-B purchase prices before output/kb.xml is replaced. Kept only in runner temp.
-  const previousPurchasePriceByCode = new Map();
-  if (fs.existsSync(OUT_PATH)) {
-    const previousXml = fs.readFileSync(OUT_PATH, 'utf8');
-    for (const match of previousXml.matchAll(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/gi)) {
-      const block = match[0];
-      const code = (block.match(/<CODE>([\s\S]*?)<\/CODE>/i) || [])[1] || '';
-      const purchase = (block.match(/<PURCHASE_PRICE>([\s\S]*?)<\/PURCHASE_PRICE>/i) || [])[1] || '';
-      const value = parseFloat(purchase.replace(/[^0-9.+-]/g, ''));
-      if (code && Number.isFinite(value) && value > 0) previousPurchasePriceByCode.set(code, value);
-    }
-  }
   const catalogCategoryStats = buildCategoryPriceStats(OUT_PATH);
   const ownPreviousCategoryStats = buildOwnPreviousCategoryStats(OUT_PATH);
   const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
@@ -365,39 +344,14 @@ async function main() {
     const cenaNakupna = toFloat(priceInfo.cena);
     if (MIN_COST > 0 && cenaNakupna > 0 && cenaNakupna < MIN_COST) { stats.skippedCheap++; return; }
 
-    let recommended = 0;
-    for (const cand of [priceInfo.internetSK, priceInfo.doporucena]) {
-      const v = toFloat(cand);
-      if (v > 0) { recommended = v; break; }
-    }
-    let price;
-    if (recommended > 0) { price = recommended; stats.usedRecommendedPrice++; }
-    else { price = roundPrice(cenaNakupna * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100)); stats.usedMarkupPrice++; }
-
-    // K-B sale-price fields can be CZK while PURCHASE_PRICE remains EUR. Convert only when
-    // the raw value is >5x the previous accepted EUR price and the converted value is within 25%.
-    let convertedFromCzk = false;
-    const previousSellPrice = previousPrices.byCode.has(code)
-      ? previousPrices.byCode.get(code)
-      : (ean && previousPrices.byEan.has(ean) ? previousPrices.byEan.get(ean) : 0);
-    if (recommended > 0 && previousSellPrice > 0 && price / previousSellPrice > 5) {
-      const convertedPrice = roundPrice(price * czkToEur);
-      const convertedRatio = convertedPrice / previousSellPrice;
-      if (convertedRatio >= 0.75 && convertedRatio <= 1.25) {
-        price = convertedPrice;
-        convertedFromCzk = true;
-        stats.czkToEurConverted = (stats.czkToEurConverted || 0) + 1;
-      }
-    }
-
+    // Always build K-B sale prices from the verified EUR purchase price. Supplier
+    // recommended prices and Heureka targets are deliberately ignored: final feed price
+    // must retain the configured 10% markup over purchase cost, plus VAT.
+    let price = 0;
     if (cenaNakupna > 0) {
-      const floor = cenaNakupna * (1 + MIN_MARGIN_PCT / 100) * (1 + parseFloat(vat) / 100);
-      if (price < floor) { price = roundPriceUp(floor); stats.marginFloorApplied++; }
-      // KB_MIN_MARGIN (10%) is only the floor for the regular cost+markup formula above - a
-      // Heureka price-match is allowed to undercut that down to the general 5% safety floor
-      // (not KB_MIN_MARGIN), so don't pass it here and let applyHeurekaPriceTarget use its own
-      // default. See reports/prehlad-importov.md section 4.4.
-      price = applyHeurekaPriceTarget(ean, price, cenaNakupna, parseFloat(vat));
+      price = roundPriceUp(cenaNakupna * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
+      stats.usedMarkupPrice++;
+      stats.marginFloorApplied++;
     }
 
     if (isNaN(price) || isNaN(cenaNakupna) || price < 0 || cenaNakupna < 0) {
@@ -461,7 +415,7 @@ async function main() {
     }
 
     rawCandidates.push({
-      code, ean, name, category: defaultCategory, price, convertedFromCzk, previousSellPrice,
+      code, ean, name, category: defaultCategory, price,
       shopitemData: {
         code, name, description: finalDescription, shortDescription, manufacturer, ean, warranty,
         defaultCategory, extraCategories, image, availability, price,
@@ -470,14 +424,6 @@ async function main() {
       },
     });
   });
-
-  // Temporary runner-only input for the aggregate margin diagnostic. Never commit/upload purchase costs.
-  const marginDataPath = path.join(process.env.RUNNER_TEMP || '/tmp', 'kb-margin-data.json');
-  fs.writeFileSync(marginDataPath, JSON.stringify(rawCandidates.map((c) => ({
-    code: c.code, purchasePrice: c.shopitemData.purchasePrice, vat: c.shopitemData.vat,
-    previousPurchasePrice: previousPurchasePriceByCode.get(c.code) || 0,
-    price: c.price, convertedFromCzk: c.convertedFromCzk, previousSellPrice: c.previousSellPrice, fxRate: czkToEur,
-  }))));
 
   const feedCategoryStats = buildFeedCategoryStats(rawCandidates);
   const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
