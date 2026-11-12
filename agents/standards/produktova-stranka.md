@@ -54,3 +54,18 @@ Cieľ roly obsah je presúvať produkty do triedy A v poradí: produkty s návš
 - [ ] Titulok a meta popis majú správnu dĺžku a sú jedinečné.
 - [ ] Menia sa len obsahové polia. Cena, sklad, dostupnosť a viditeľnosť sú po zápise rovnaké.
 - [ ] Pôvodné hodnoty sú v `changelog/`.
+
+## Šablóna názvu produktu
+
+Platí pre všetky roly (obsah, SEO). Návrh z 12. 11. 2026, čaká na potvrdenie Martina; do potvrdenia sa názvy menia len v pilotnej dávke do 20 produktov.
+
+Tvar: `{Typ produktu} {Značka} {Model} {1 až 2 rozlišovacie parametre}`
+
+- Typ produktu je to, čo človek hľadá, po slovensky a v prvom páde (napr. „Bezdrôtový adaptér CarPlay“, „Herný volant“, „Záväzacia loď“).
+- Značka a model presne podľa výrobcu (veľkosť písmen a medzery ako na krabici), bez kódov dodávateľa.
+- Parametre len tie, ktoré odlišujú variant: kapacita, výkon, farba, rozmer. Najviac dva.
+- Do približne 80 znakov, bez „…“, bez veľkých písmen celého názvu, bez názvu obchodu a bez slov o cene alebo dostupnosti.
+- Mení sa len `name` (a zodpovedajúci titulok). URL, kód a EAN sa nemenia. Pôvodný názov ide do `changelog/`.
+- Dodávateľský import názov prepisuje, preto pri trvalej zmene treba override vrstvu v repozitári (`data/localization/product-names-sk.json`, `innpro-name-overrides.json`) alebo úlohu overenia trvanlivosti zápisov.
+
+Príklady: „Bezdrôtový adaptér CarPlay Ottocast OTTOAIBOX P3 Pro“, „Herný volant Moza Racing R5 Pro“, „Záväzacia loď Flytec V803 12 000 mAh“.
