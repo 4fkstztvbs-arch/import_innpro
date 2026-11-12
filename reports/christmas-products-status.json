@@ -1,14 +1,32 @@
 {
-  "matched": 206,
-  "changed": 0,
+  "matched": 198,
+  "changed": 110,
   "missing": [
+    "SOL_1V402-CW",
+    "SOL_1V402-WW",
+    "SOL_1V403-CW",
+    "SOL_1V403-WW",
+    "SOL_1V404-CW",
+    "SOL_1V404-WW",
     "AT_EMO1550000163",
+    "SOL_1V283",
+    "SOL_1V241",
+    "SOL_1V262",
+    "SOL_1V300",
+    "SOL_1V298",
+    "SOL_1V001-G",
     "AT_EMO1550044029",
     "AT_EMO1550052006",
     "AT_EMO1550052003",
     "AT_EMO1550044027",
     "AT_EMO1550040002",
-    "PEN_7821587"
+    "SOL_1V11-W",
+    "SOL_1V57-W",
+    "SOL_1V57-WW",
+    "PEN_7821587",
+    "SOL_1V307",
+    "SOL_1V311",
+    "SOL_1V313"
   ],
   "skippedUnavailable": [
     "AT_EMO1550000116",
@@ -34,17 +52,7 @@
     "AT_EMO1550054002",
     "AT_EMO1550054003",
     "AT_EMO1550054005",
-    "AT_EMO1550054007",
-    "SOL_1V001-G",
-    "SOL_1V11-W",
-    "SOL_1V262",
-    "SOL_1V298",
-    "SOL_1V307",
-    "SOL_1V311",
-    "SOL_1V313",
-    "SOL_1V403-CW",
-    "SOL_1V57-W",
-    "SOL_1V57-WW"
+    "AT_EMO1550054007"
   ],
-  "parameters": 753
+  "parameters": 723
 }
