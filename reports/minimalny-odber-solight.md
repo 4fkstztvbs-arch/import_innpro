@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-11 00:02 UTC.
+Kontrola z 2026-11-12 01:32 UTC.
 
-Solight pri **504** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **508** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -85,6 +85,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ507A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 3000K, 270°,  | 9 | 100 |
 | `WZ508A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 4000K, 270°,  | 9 | 100 |
 | `WZ509A-2` | Solight LED žiarovka, klasický tvar, 12W, E27, 6000K, 270°,  | 9 | 100 |
+| `WM91` | Solight napájací konektor pre COB LED pásy, opasok-napájacie | 9 | 200 |
 | `1P06` | Solight viazacie nylonové pásky, farba natural, 100ks, 3,6 x | 9 | 200 |
 | `PX02` | Solight držiak viacnásobné zásuvky, 5 - 6 zásuviek | 9 | 100 |
 | `WZ401A-1` | Solight LED žiarovka retro, sviečka 4W, E14, 3000K, 360°, 44 | 8 | 100 |
@@ -347,6 +348,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PA01-ZA` | Solight cestovný adaptér pre JAR, Afriku a Stredný východ, t | 2 | 100 |
 | `DT36` | Solight digitálny časový spínač | 2 | 30 |
 | `SSV1205` | Solight HDMI kábel s Ethernetom, HDMI 1.4 A konektor - HDMI  | 2 | 40 |
+| `WM56` | Solight LED svetelný pás so svetelným a pohybovým senzorom,  | 2 | 50 |
 | `P150` | Solight vidlica priama, 5-pólová, 400v/16A, IP44 | 2 | 20 |
 | `PA01-USA` | Solight cestovný adaptér do Spojených štátov, typ B | 2 | 100 |
 | `WN31` | Solight LED nabíjacie vreckové svietidlo, 200lm, 3W, zoom, L | 2 | 40 |
@@ -414,6 +416,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WO753` | Solight LED vonkajšie osvetlenie guľaté s mriežkou, 13W, 910 | 2 | 24 |
 | `P151` | Solight zásuvka priama, 5-pólová, 400v/16A, IP44 | 2 | 20 |
 | `1D14` | Solight doplnkový diaľkový ovládač pre GSM alarmy 1D11 a 1D1 | 2 | 50 |
+| `WPIR06` | Solight PIR senzor pro E27 žiarovku, biely | 2 | 50 |
 | `PO47` | Solight prepäťová ochrana, 150J, 4 zásuvky, 3m, biela | 2 | 30 |
 | `V29` | Solight multimeter, max. AC 600V, max. DC 600V/10A, NCV | 2 | 60 |
 | `1V271` | Solight LED vianočná reťaz hviezdy, 10x LED, drevo, 1,5m, 2x | 2 | 6 |
@@ -450,6 +453,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WD240-W` | Solight LED mini panel kúpeľňový 2v1, 3CCT, podhľadový / pri | 2 | 40 |
 | `1V288` | Solight LED vianočný lampáš biely, 20cm, časovač, 2x AA | 2 | 18 |
 | `PP13` | Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 5m | 2 | 40 |
+| `HN18` | Solight vonkajšia anténa, DVB-T2, 11dB | 2 | 1 |
 | `WN52` | Solight LED čelové nabíjacia svietidlo, 170lm, teplé+studené | 2 | 72 |
 | `DT34` | Solight časovač so súmrakovým senzorom, 230V, 3600W | 2 | 48 |
 | `P97B-PD20` | Solight rozbočovač 2 x 16A, USB A+C rychlonabíjačka 20W PD,  | 2 | 100 |
