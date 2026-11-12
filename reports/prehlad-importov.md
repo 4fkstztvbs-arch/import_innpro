@@ -38,7 +38,7 @@ Všetky ceny na výstupe sú v **EUR s DPH** (`<PRICE_VAT>`), plus `<PURCHASE_PR
 |---|---|---|---|---|
 | InnPro | EUR (feed už v EUR) | — | `cena = nákup × (1+15%) × (1+DPH)` | žiadny floor, `INNPRO_MARKUP` konfigurovateľné |
 | ATOS | **CZK** | živý kurz ČNB/ECB cez `frankfurter.app` (`api.frankfurter.app/latest?from=CZK&to=EUR`) pri každom behu | `cena = nákup_EUR × (1+15%) × (1+DPH)` | žiadny floor |
-| K+B | EUR | — | **prednostne K+B vlastná odporúčaná cena**, inak `nákup × (1+10%) × (1+DPH)` | **min. marža 10 %** — ak by odporúčaná cena padla pod `nákup×1.10×DPH`, zdvihne sa na floor |
+| K+B | EUR | — | `nákup × (1+10%) × (1+DPH)`; odporúčaná cena dodávateľa sa nepoužíva | **pevná prirážka 10 %** k nákupnej cene bez DPH; Heureka cenové párovanie je pre K+B vypnuté |
 | Solight | EUR (feed má priamo `eur_eshop_price`) | — | **Solightova vlastná eshop cena priamo** (0 % markup default — "je to reálna cena, za ktorú Solight sám predáva") | žiadny floor |
 | MONACOR | EUR | — | **MONACOR vlastná cena priamo** (0 % markup default) | žiadny floor, žiadna nákupná cena k dispozícii |
 
@@ -104,7 +104,7 @@ Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports
 - **Mechanizmus (`applyHeurekaPriceTarget()`):** volá sa tesne po tom, čo si dodávateľský skript sám vypočíta cenu podľa svojho vlastného vzorca (markup/odporúčaná cena K+B/atď.) — Heureka override sa aplikuje AŽ NA VRCH tohto, nie namiesto neho.
 - **Cieľová cena z reportu je "surová"** (`SurovyCielEUR` — 2. najlacnejší konkurent pri zvyšovaní, alebo cena tesne pod najlacnejším pri znižovaní), **floor sa prepočítava vždy nanovo z DNEŠNEJ nákupnej ceny produktu**, nie z tej, ktorá platila v čase generovania reportu — ak dodávateľ medzičasom zdvihol nákupnú cenu, floor sa zvýši a nedovolí override, ktorý by pod ním predal.
 - **Pohyb len správnym smerom:** `ZVÝŠIŤ` cenu nikdy nezníži pod to, čo by dnes vypočítal normálny vzorec (len ju môže zdvihnúť); `ZNÍŽIŤ` ju nikdy nezvýši nad to, čo by vypočítal normálny vzorec (len ju môže znížiť). Override teda nemôže "vrátiť späť" prirodzený pohyb ceny spôsobený zmenou nákupnej ceny od dodávateľa.
-- **K+B**: `KB_MIN_MARGIN` (default 10 %) je floor len pre bežný cenový vzorec (nákup+markup, keď nie je k dispozícii K+B odporúčaná cena — tú má len časť produktov). Heureka override smie túto 10 % maržu podliezť, floor pre override je všeobecných 5 % (rovnako ako ostatní dodávatelia), nie prísnejších 10 %.
+- **K+B**: Heureka cenové párovanie sa na jeho feed momentálne neaplikuje. Predajná cena sa vždy počíta z aktuálnej nákupnej ceny bez DPH s prirážkou 10 % a následne sa pripočíta DPH.
 - **MONACOR nie je zapojený** — nemá k dispozícii nákupnú cenu vôbec (pozri sekciu 3), floor sa teda nedá bezpečne overiť, takže by naň mechanizmus nikdy stejne nezasiahol.
 - Produkt bez zhody EAN v `price-targets.json` = žiadna zmena, presne ako doteraz.
 
