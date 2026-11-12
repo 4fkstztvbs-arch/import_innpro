@@ -28,7 +28,7 @@ async function main() {
   const report = fs.readFileSync(REPORT_PATH, 'utf8');
   const products = new Map(marginRows.map(row => [row.code, {
     cost: number(row.purchasePrice),
-    vat: number(row.vat) || 23,
+    vat: number(row.vat) || 23,\n    previousCost: number(row.previousPurchasePrice),
   }]));
 
   const response = await fetch('https://api.frankfurter.app/latest?from=CZK&to=EUR');
@@ -56,6 +56,18 @@ async function main() {
   }
 
   if (candidates.length === 0) throw new Error('No likely-CZK K-B anomaly rows matched the generated feed.');
+  let costComparisons = 0;
+  let costStableAsIs = 0;
+  let costStableAfterFx = 0;
+  for (const { product } of candidates) {
+    if (!(product.cost > 0) || !(product.previousCost > 0)) continue;
+    costComparisons++;
+    const rawRatio = product.cost / product.previousCost;
+    const fxRatio = product.cost * rate / product.previousCost;
+    if (rawRatio >= 0.75 && rawRatio <= 1.25) costStableAsIs++;
+    if (fxRatio >= 0.75 && fxRatio <= 1.25) costStableAfterFx++;
+  }
+
   const costEur = bands();
   const costCzk = bands();
   for (const { product, newPrice } of candidates) {
@@ -71,6 +83,7 @@ async function main() {
     + ', below 10% target=' + b.below10 + ', at/above 10%=' + b.atLeast10;
   console.log('K-B likely-CZK anomaly margin diagnostic (aggregate only; no product or cost values):');
   console.log('  Current ECB-derived rate: 1 EUR = ' + czkPerEur.toFixed(3) + ' CZK');
+  console.log('  Purchase-cost currency evidence vs prior feed: matched=' + costComparisons + ', stable without conversion=' + costStableAsIs + ', stable after CZK->EUR=' + costStableAfterFx);
   console.log('  Cost assumed EUR: ' + fmt(costEur));
   console.log('  Cost assumed CZK: ' + fmt(costCzk));
 }
