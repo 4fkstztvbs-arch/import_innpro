@@ -67,10 +67,13 @@
     "ux-cro": {
       "model": "claude-sonnet-5-5",
       "effort": "medium",
-      "cron": "CRON_TZ=Europe/Bratislava 10 11 * * 2,4",
+      "cron": "CRON_TZ=Europe/Bratislava 10 11 * * 1-5",
       "dni": [
+        1,
         2,
-        4
+        3,
+        4,
+        5
       ]
     },
     "reklama": {
