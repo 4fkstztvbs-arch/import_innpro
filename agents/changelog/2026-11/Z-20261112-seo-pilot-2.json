@@ -1,0 +1,83 @@
+{
+  "id": "Z-20261112-seo-pilot-2",
+  "datum": "2026-11-12",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "experiment": "E-20261112-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Pilot pozícií 4 až 10, dávka 2: nový SEO titulok a meta popis pre 4 produkty zo skupiny TEST (bez textu o cene a dostupnosti).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "AT_IST-DBSAMHC0304W",
+      "guid": "64e694be-b6f3-11f1-b086-bc2411833e01",
+      "url": "https://www.premiumstore.sk/amiko-mini-hd365-wifi-dvb-s2-prijimac/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Amiko Mini HD365 Wi-Fi – DVB-S2 prijímač",
+          "po": "Satelitný prijímač Amiko Mini HD365 Wi-Fi DVB-S2"
+        },
+        "metaDescription": {
+          "pred": "Satelitný prijímač Amiko Mini HD365 s Wi-Fi, DVB-S2, Full HD a H.265/HEVC, USB a čítačkou kariet Conax. Objednajte na PremiumStore.sk.",
+          "po": "Amiko Mini HD365 Wi-Fi: satelitný prijímač DVB-S2X, Full HD, H.265/HEVC, čítačka Conax, USB nahrávanie, napájanie 12 V, šírka 145 mm."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088002",
+      "guid": "00807922-b234-11f1-98f1-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/bezdrotovy-adapter-carlinkit-mini-ultra-5-pre-carplay-android-auto/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 pre",
+          "po": "Carlinkit Mini Ultra 5 – bezdrôtový CarPlay adaptér"
+        },
+        "metaDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 premení káblové rozhranie CarPlay alebo Android Auto v aute na bezdrôtové. Objednajte na PremiumStore.sk.",
+          "po": "Carlinkit Mini Ultra 5 pre autá s káblovým CarPlay a Android Auto: Bluetooth 5.2, Wi-Fi 2,4/5 GHz, OTA aktualizácie, hmotnosť 7 g."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002205814",
+      "guid": "e30b31f6-d25a-11f1-8146-bc2411833e01",
+      "url": "https://www.premiumstore.sk/roborock-saros-20-flow/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Roborock Saros 20 Flow | premiumstore.sk",
+          "po": "Robotický vysávač Roborock Saros 20 Flow, 36 000 Pa"
+        },
+        "metaDescription": {
+          "pred": "Roborock Saros 20 Flow – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+          "po": "Robotický vysávač Roborock Saros 20 Flow s výkonom 36 000 Pa, výškou 8,98 cm a valcovým mopom SpiraFlow 2.0, ktorý sa priebežne oplachuje."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "084354",
+      "guid": "32b7c524-d33d-11f1-a31d-bc24110eff41",
+      "url": "https://www.premiumstore.sk/smartphone-hotwav-a17-pro-max-oranzovy/",
+      "polia": {
+        "metaTitle": {
+          "pred": "HOTWAV A17 Pro Max oranžový smartfón",
+          "po": "HOTWAV A17 Pro Max oranžový – smartfón, 128 GB"
+        },
+        "metaDescription": {
+          "pred": "Smartfón HOTWAV A17 Pro Max: 6,75\" displej 120 Hz, batéria 5160 mAh, Android 15 a 128 GB pamäte. Vrátenie do 14 dní. Objednajte na PremiumStore.sk!",
+          "po": "Smartfón HOTWAV A17 Pro Max: 6,75\" displej 120 Hz, batéria 5160 mAh, Android 15, 3 GB RAM a 128 GB pamäte, snímač odtlačkov prstov."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-12",
+    "ok": true,
+    "poznamka": "Shoptet potvrdil zápis iba polí metaTitle a metaDescription pre všetky 4 produkty."
+  },
+  "trvanlivost": null,
+  "navrat": null
+}
