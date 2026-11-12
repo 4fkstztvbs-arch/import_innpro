@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 29689,
-  "matchedRules": 2037,
-  "changedProducts": 482,
+  "totalProducts": 28656,
+  "matchedRules": 1999,
+  "changedProducts": 443,
   "rejected": [
     {
       "supplier": "atos",
@@ -2265,16 +2265,6 @@
       "reason": "Reviewed product name changed"
     },
     {
-      "supplier": "kb",
-      "code": "100002136859",
-      "reason": "Reviewed product name changed"
-    },
-    {
-      "supplier": "kb",
-      "code": "100002203916",
-      "reason": "Reviewed product name changed"
-    },
-    {
       "supplier": "monacor",
       "code": "KM-210/9",
       "reason": "Reviewed product name changed"
@@ -2584,13 +2574,13 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Filtračné kanvice",
-      "visibleUnique": 11,
+      "visibleUnique": 9,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice",
-      "visibleUnique": 26,
+      "visibleUnique": 21,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
@@ -2602,7 +2592,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Sušiaky na bielizeň",
-      "visibleUnique": 38,
+      "visibleUnique": 35,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
@@ -2614,13 +2604,13 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Tyčové vysávače",
-      "visibleUnique": 33,
+      "visibleUnique": 31,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Vreckové a bezvreckové vysávače",
-      "visibleUnique": 11,
+      "visibleUnique": 9,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
@@ -2740,7 +2730,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 40,
+      "visibleUnique": 39,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2752,7 +2742,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 60,
+      "visibleUnique": 57,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2854,31 +2844,31 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Kulmy na vlasy",
-      "visibleUnique": 19,
+      "visibleUnique": 15,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy",
-      "visibleUnique": 22,
+      "visibleUnique": 16,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Elektrické zubné kefky",
-      "visibleUnique": 52,
+      "visibleUnique": 46,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Náhradné hlavice na zubné kefky",
-      "visibleUnique": 44,
+      "visibleUnique": 39,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Ústne sprchy",
-      "visibleUnique": 7,
+      "visibleUnique": 6,
       "active": false,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     }
