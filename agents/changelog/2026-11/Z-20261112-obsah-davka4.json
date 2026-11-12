@@ -1,0 +1,34 @@
+{
+ "id": "Z-20261112-obsah-davka4",
+ "datum": "2026-11-12",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "zhrnutie": "Vlna 1, dávka 4 (beh 18:10): prepis popisu, krátkeho popisu a meta popisu podľa štandardu. Pôvodný popis je text z output/innpro.xml.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "086620",
+   "guid": "521259d4-b3c6-11f1-a4a7-bc2411833e01",
+   "url": "https://www.premiumstore.sk/rotoped-merach-mr-s26b4-eu/",
+   "polia": {
+    "shortDescription": {
+     "pred": "Spinningový bicykel MERACH MR-S26B4-EU Spinningový bicykel MERACH MR-S26B4-EU vám umožňuje kombinovať intenzívny kardio tréning so silovými cvikmi. Je vybavený magnetickým systémom odporu, pohodlným…",
+     "po": "Rotoped Merach MR-S26B4-EU s magnetickým odporom, sedadlom z peny 80D, držiakom na činky 4 kg a displejom 1920 × 1080 px s bezdrôtovým zrkadlením z 2 zariadení."
+    },
+    "metaDescription": {
+     "pred": "Spinningový rotoped Merach MR-S26B4-EU s magnetickým odporom, polstrovaným sedadlom a obrazovkou so streamovaním. Objednajte na PremiumStore.sk.",
+     "po": "Rotoped Merach MR-S26B4-EU: magnetický odpor, nosnosť 136 kg, držiak na činky 4 kg, displej 1920 × 1080 px a aplikácia MERACH."
+    },
+    "description": {
+     "predSubor": "Z-20261112-obsah-davka4.086620.pred-popis.html",
+     "poSubor": "Z-20261112-obsah-davka4.086620.po-popis.html"
+    }
+   }
+  }
+ ],
+ "overenie": "2026-11-12: viditeľnosť nezmenená, zápis neobsahoval cenu ani sklad.",
+ "trvanlivost": "trvalá",
+ "navrat": "Vrátiť pôvodné hodnoty zo súborov pred-popis a z poľ pred."
+}
