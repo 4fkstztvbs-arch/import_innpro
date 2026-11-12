@@ -31,6 +31,13 @@ async function main() {
     vat: number(row.vat) || 23,
   }]));
 
+  const response = await fetch('https://api.frankfurter.app/latest?from=CZK&to=EUR');
+  if (!response.ok) throw new Error('Frankfurter FX lookup failed with HTTP ' + response.status);
+  const data = await response.json();
+  const rate = Number(data && data.rates && data.rates.EUR);
+  if (!(rate > 0)) throw new Error('Frankfurter did not return a CZK->EUR rate.');
+  const czkPerEur = 1 / rate;
+
   const candidates = [];
   for (const line of report.split(/\r?\n/)) {
     if (!line.startsWith('|') || line.includes('---') || line.includes('Kód')) continue;
