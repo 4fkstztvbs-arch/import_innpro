@@ -1,8 +1,8 @@
 # Produkty pod nákupnou cenou (skryté)
 
-Kontrola z 2026-11-12 20:14 UTC.
+Kontrola z 2026-11-12 20:39 UTC.
 
-Týchto **244** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
+Týchto **245** produktov má predajnú cenu bez DPH nižšiu než nákupnú, takže by sme
 na každom predanom kuse prerobili. Sú preto nastavené ako **skryté** a v e-shope sa
 nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám od seba.
 
@@ -238,10 +238,11 @@ nepredávajú. Keď dodávateľ cenu opraví, skript ich prestane skrývať sám
 | `CPP-CP-UNC-TA61L3C-LQ` | CP PLUS CP-UNC-TA61L3C-LQ 6.0 Mpix venkovní kompaktní IP kamera s duál | 230.50 € | 187.40 € | 187.45 € | -0.0 % |
 | `CMP-TO-64654` | Šroubovák s oboustranými koncovkami 6 ks | 3.80 € | 3.09 € | 3.09 € | -0.0 % |
 
-## basys — 13 ks
+## basys — 14 ks
 
 | Kód | Produkt | Predaj s DPH | Predaj bez DPH | Nákup | Marža |
 |---|---|---:|---:|---:|---:|
+| `BASYS-B 783342-0400` | BOSE SoundLink Micro bluetooth reproduktor, smoke white | 79.00 € | 64.23 € | 91.20 € | -29.6 % |
 | `BASYS-B 887612-0100` | BOSE SoundLink Flex II - Black | 139.95 € | 113.78 € | 115.00 € | -1.1 % |
 | `BASYS-B 887612-0200` | BOSE SoundLink Flex II - Blue Dusk | 139.95 € | 113.78 € | 115.00 € | -1.1 % |
 | `BASYS-B 887612-0300` | BOSE SoundLink Flex II - Sandstone | 139.95 € | 113.78 € | 115.00 € | -1.1 % |

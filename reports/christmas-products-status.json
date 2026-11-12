@@ -2,7 +2,6 @@
   "matched": 199,
   "changed": 0,
   "missing": [
-    "KB_100002066203",
     "AT_EMO1550000163",
     "AT_EMO1550044029",
     "AT_EMO1550052006",
@@ -51,7 +50,8 @@
     "SOL_1V404-CW",
     "SOL_1V404-WW",
     "SOL_1V57-W",
-    "SOL_1V57-WW"
+    "SOL_1V57-WW",
+    "KB_100002066203"
   ],
   "parameters": 728
 }

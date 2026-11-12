@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 954,
+  "activeItemCount": 943,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -73,11 +73,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-B 000010-0300",
-      "code": "BASYS-B 000010-0300",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-B 344871-2430",
       "code": "BASYS-B 344871-2430",
       "ean": ""
@@ -95,11 +90,6 @@
     {
       "key": "code:BASYS-B 756491-0110",
       "code": "BASYS-B 756491-0110",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-B 772234-2110",
-      "code": "BASYS-B 772234-2110",
       "ean": ""
     },
     {
@@ -155,11 +145,6 @@
     {
       "key": "code:BASYS-B 841153-0320",
       "code": "BASYS-B 841153-0320",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-B 841165-0120",
-      "code": "BASYS-B 841165-0120",
       "ean": ""
     },
     {
@@ -318,6 +303,21 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-BD 1002666",
+      "code": "BASYS-BD 1002666",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-BD 1003344",
+      "code": "BASYS-BD 1003344",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-BD 1003345",
+      "code": "BASYS-BD 1003345",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-BD 329452",
       "code": "BASYS-BD 329452",
       "ean": ""
@@ -363,11 +363,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-BD 705950",
-      "code": "BASYS-BD 705950",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-BD 708364",
       "code": "BASYS-BD 708364",
       "ean": ""
@@ -380,11 +375,6 @@
     {
       "key": "code:BASYS-BD 714399",
       "code": "BASYS-BD 714399",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-BD 717967",
-      "code": "BASYS-BD 717967",
       "ean": ""
     },
     {
@@ -405,11 +395,6 @@
     {
       "key": "code:BASYS-BD 934798",
       "code": "BASYS-BD 934798",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-BD 937673",
-      "code": "BASYS-BD 937673",
       "ean": ""
     },
     {
@@ -723,11 +708,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-S16",
-      "code": "BASYS-S16",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-SDA-CG210CA",
       "code": "BASYS-SDA-CG210CA",
       "ean": ""
@@ -740,11 +720,6 @@
     {
       "key": "code:BASYS-SDA-SC400",
       "code": "BASYS-SDA-SC400",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-SDA-SC600",
-      "code": "BASYS-SDA-SC600",
       "ean": ""
     },
     {
@@ -950,11 +925,6 @@
     {
       "key": "code:BASYS-TS-1002I",
       "code": "BASYS-TS-1002I",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-TS-1301I",
-      "code": "BASYS-TS-1301I",
       "ean": ""
     },
     {
@@ -1215,11 +1185,6 @@
     {
       "key": "code:BASYS-TS-WX1010LA",
       "code": "BASYS-TS-WX1010LA",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-TS-WX130EA",
-      "code": "BASYS-TS-WX130EA",
       "ean": ""
     },
     {
@@ -1781,11 +1746,6 @@
       "key": "ean:0017817819213",
       "code": "BASYS-B 851220-0010",
       "ean": "0017817819213"
-    },
-    {
-      "key": "ean:0017817819435",
-      "code": "BASYS-B 835265-0110",
-      "ean": "0017817819435"
     },
     {
       "key": "ean:0017817819466",
@@ -3118,11 +3078,6 @@
       "ean": "4010118718359"
     },
     {
-      "key": "ean:4010118718977",
-      "code": "BASYS-BD 718971",
-      "ean": "4010118718977"
-    },
-    {
       "key": "ean:4010118721045",
       "code": "BASYS-BD 721042",
       "ean": "4010118721045"
@@ -3136,11 +3091,6 @@
       "key": "ean:4010118727719",
       "code": "BASYS-BD 727717",
       "ean": "4010118727719"
-    },
-    {
-      "key": "ean:4010118728488",
-      "code": "BASYS-BD 728489",
-      "ean": "4010118728488"
     },
     {
       "key": "ean:4010118729904",
@@ -4558,11 +4508,6 @@
       "ean": "5706622021823"
     },
     {
-      "key": "ean:5706622021847",
-      "code": "BASYS-TC 966111001",
-      "ean": "5706622021847"
-    },
-    {
       "key": "ean:5706622022141",
       "code": "BASYS-TC 966111101",
       "ean": "5706622022141"
@@ -4780,6 +4725,16 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-B 000010-0300",
+      "code": "BASYS-B 000010-0300",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 772234-2110",
+      "code": "BASYS-B 772234-2110",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-B 810965-2110",
       "code": "BASYS-B 810965-2110",
       "ean": ""
@@ -4807,6 +4762,11 @@
     {
       "key": "code:BASYS-B 841154-0320",
       "code": "BASYS-B 841154-0320",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-B 841165-0120",
+      "code": "BASYS-B 841165-0120",
       "ean": ""
     },
     {
@@ -4840,8 +4800,23 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-BD 705950",
+      "code": "BASYS-BD 705950",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-BD 717657",
       "code": "BASYS-BD 717657",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-BD 717967",
+      "code": "BASYS-BD 717967",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-BD 937673",
+      "code": "BASYS-BD 937673",
       "ean": ""
     },
     {
@@ -4900,6 +4875,16 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-S16",
+      "code": "BASYS-S16",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-SDA-SC600",
+      "code": "BASYS-SDA-SC600",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-SE-LTC5R-T",
       "code": "BASYS-SE-LTC5R-T",
       "ean": ""
@@ -4920,6 +4905,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-TS-1301I",
+      "code": "BASYS-TS-1301I",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-TS-Q160C-PC",
       "code": "BASYS-TS-Q160C-PC",
       "ean": ""
@@ -4937,6 +4927,11 @@
     {
       "key": "code:BASYS-TS-WX1220AH",
       "code": "BASYS-TS-WX1220AH",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-TS-WX130EA",
+      "code": "BASYS-TS-WX130EA",
       "ean": ""
     },
     {
@@ -4983,6 +4978,11 @@
       "key": "ean:0017817818896",
       "code": "BASYS-B 719782-2430",
       "ean": "0017817818896"
+    },
+    {
+      "key": "ean:0017817819435",
+      "code": "BASYS-B 835265-0110",
+      "ean": "0017817819435"
     },
     {
       "key": "ean:0017817820165",
@@ -5038,6 +5038,16 @@
       "key": "ean:4010118707254",
       "code": "BASYS-BD 707252",
       "ean": "4010118707254"
+    },
+    {
+      "key": "ean:4010118718977",
+      "code": "BASYS-BD 718971",
+      "ean": "4010118718977"
+    },
+    {
+      "key": "ean:4010118728488",
+      "code": "BASYS-BD 728489",
+      "ean": "4010118728488"
     },
     {
       "key": "ean:4033653013123",
@@ -5108,6 +5118,11 @@
       "key": "ean:4033653230858",
       "code": "BASYS-B105D",
       "ean": "4033653230858"
+    },
+    {
+      "key": "ean:5706622021847",
+      "code": "BASYS-TC 966111001",
+      "ean": "5706622021847"
     },
     {
       "key": "ean:8432426446506",
