@@ -10,7 +10,7 @@ Zdroj pravdy je `agents/config.json`, časť `beh`. Tabuľka je jej opis.
 | hlavny-agent | denne 07:05 | Sonnet 5.5 | low | Malý objem, ale rozhoduje o prioritách a píše report |
 | seo | po, st, pi 09:10 | Sonnet 5.5 | medium | Dáta z vyhľadávania sa menia pomaly; texty idú naživo do e-shopu |
 | obsah | po–pi 10:10 | Sonnet 5.5 | medium | Kvalita textov rozhoduje, tu sa nešetrí na modeli, ale na veľkosti dávky |
-| ux-cro | po–pi 11:10 | Sonnet 5.5 | medium | Správanie sa hodnotí po dňoch; zmeny šablóny sú rizikové |
+| ux-cro | po–pi 9:40, 11:40, 13:40, 15:40, 17:40 | Sonnet 5.5 | medium | Správanie sa hodnotí po dňoch; zmeny šablóny sú rizikové |
 | reklama | po, št 12:40 | Sonnet 5.5 | low | Reklama sa hodnotí na 14 dňoch dát a bez schválenia nič nemení |
 
 Fable 5.2 sa používa len na zmeny samotnej kostry, keď o to Martin požiada. Bežné behy na ňom nebežia (kontroluje to `tools/check.js`).
