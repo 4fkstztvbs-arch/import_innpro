@@ -53,7 +53,6 @@ jobs:
           BASYS_URL: ${{ secrets.BASYS_URL }}
           BASYS_OUT: output/basys.xml
           BASYS_EXCLUDE_UNAVAILABLE: '1'
-          HEUREKA_PRICE_OVERRIDE: '1'
         run: node scripts/transform-basys.js
 
       - uses: ./.github/actions/postprocess-categories
