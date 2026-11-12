@@ -9,7 +9,7 @@ const DATA_DIR = path.join(__dirname, '..', '..', 'data');
 const WEIGHTS_PATH = process.env.BASYS_BOSE_WEIGHTS || path.join(DATA_DIR, 'basys-bose-weights.json');
 const ON_ORDER_PATH = process.env.BASYS_BOSE_ON_ORDER || path.join(DATA_DIR, 'basys-bose-on-order.json');
 
-function normCode(s) { return String(s || '').replace(/[\s_‐-―]+/g, ' ').trim().toUpperCase(); }
+function normCode(s) { return String(s || '').replace(/[\s_\-\u2010-\u2015]+/g, ' ').trim().toUpperCase(); }
 
 let weightRules;
 function loadWeightRules() {
