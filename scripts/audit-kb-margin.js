@@ -28,7 +28,8 @@ async function main() {
   const report = fs.readFileSync(REPORT_PATH, 'utf8');
   const products = new Map(marginRows.map(row => [row.code, {
     cost: number(row.purchasePrice),
-    vat: number(row.vat) || 23,\n    previousCost: number(row.previousPurchasePrice),
+    vat: number(row.vat) || 23,
+    previousCost: number(row.previousPurchasePrice),
   }]));
 
   const response = await fetch('https://api.frankfurter.app/latest?from=CZK&to=EUR');
