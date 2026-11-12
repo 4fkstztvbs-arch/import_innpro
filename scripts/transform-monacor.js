@@ -31,6 +31,8 @@ const OUT_PATH = process.env.MONACOR_OUT || path.join(__dirname, '..', 'output',
 const STORE_NAME = process.env.MONACOR_STORE_NAME || 'premiumstore.sk';
 const FOREIGN_AVAIL_TEXT = process.env.MONACOR_FOREIGN_AVAIL_TEXT || 'Dostupné na sklade dodávateľa';
 const EXCLUDE_UNAVAILABLE = process.env.MONACOR_EXCLUDE_UNAVAILABLE === '1';
+// Váhy, ktoré dodávateľ neposiela (feed má 0): Shoptet by ich pri nočnom importe vynuloval. Kľúč = CODE vo feede.
+const WEIGHT_OVERRIDES = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'monacor-weight-overrides.json'), 'utf8'));
 const EAN_OVERRIDES = JSON.parse(fs.readFileSync(path.join(__dirname, 'heureka-ean-overrides-monacor.json'), 'utf8'));
 
 function xmlEscape(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
@@ -193,7 +195,7 @@ async function main() {
     candidates.push({
       code, ean, name, category: defaultCategory, price,
       shopitemData: { code, name, description, shortDescription, manufacturer: p.manufacturer, ean,
-        defaultCategory, extraCategories, images: p.images, availability, weightKg: p.weightKg,
+        defaultCategory, extraCategories, images: p.images, availability, weightKg: p.weightKg || WEIGHT_OVERRIDES[code] || 0,
         params: extractMonacorParams(p.description, p.manufacturer),
         price, seoTitle, metaDescription },
     });
