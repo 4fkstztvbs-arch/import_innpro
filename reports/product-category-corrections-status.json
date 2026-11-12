@@ -1,5 +1,5 @@
 {
-  "products": 30087,
+  "products": 30086,
   "matched": 718,
   "categoryChanges": 301,
   "nameChanges": 8,
@@ -631,6 +631,12 @@
       "supplier": "kb",
       "code": "100002136245",
       "ean": "4006501852762",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "kb",
+      "code": "100001519273",
+      "ean": "8590274766150",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -3466,11 +3472,6 @@
       "supplier": "innpro",
       "code": "061854",
       "ean": "6976788020216"
-    },
-    {
-      "supplier": "innpro",
-      "code": "061857",
-      "ean": "6976788020391"
     },
     {
       "supplier": "innpro",

@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 30087,
+  "totalProducts": 30086,
   "matchedRules": 1978,
-  "changedProducts": 1016,
+  "changedProducts": 1015,
   "rejected": [
     {
       "supplier": "atos",
@@ -3251,7 +3251,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre > Súpravy fotografických filtrov",
-      "visibleUnique": 65,
+      "visibleUnique": 64,
       "active": true,
       "parent": "TV, audio, video a foto technika > Foto a príslušenstvo > Filtre"
     },
