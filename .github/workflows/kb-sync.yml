@@ -15,6 +15,7 @@ on:
     paths:
       - ".github/workflows/kb-sync.yml"
       - "scripts/heureka-ean-overrides-kb.json"
+      - "scripts/audit-kb-margin.js"
 
 permissions:
   contents: write
@@ -58,6 +59,9 @@ jobs:
           KB_OUT: output/kb.xml
           HEUREKA_PRICE_OVERRIDE: '1'
         run: node scripts/transform-kb.js
+
+      - name: Diagnose K-B margin after possible CZK conversion (aggregate only)
+        run: node scripts/audit-kb-margin.js
 
       - name: Enrich with Icecat data (weight, extra images, energy labels, specs, description)
         env:
