@@ -1,0 +1,76 @@
+{
+ "id": "Z-20261112-obsah-davka3",
+ "datum": "2026-11-12",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": null,
+ "zhrnutie": "Vlna 1, dávka 3 (beh 14:10): prepis popisu, krátkeho popisu a meta popisu podľa štandardu. Pôvodný popis je text z output/innpro.xml.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "085805",
+   "guid": "37a16ab6-92c6-11f1-92fc-bc2411833e01",
+   "url": "https://www.premiumstore.sk/3d-tlaciaren-elegoo-jupiter-2/",
+   "polia": {
+    "shortDescription": {
+     "pred": "3D tlačiareň ELEGOO Jupiter 2 ELEGOO Jupiter 2 je 3D tlačiareň využívajúca technológiu MSLA, určená pre profesionálov aj ambicióznych nadšencov, ktorí vyžadujú maximálnu presnosť a veľký tlačový…",
+     "po": "ELEGOO Jupiter 2 je živicová 3D tlačiareň MSLA s 14\" 16K LCD, tlačovým priestorom 302,4 × 161,98 × 300 mm, automatickým vyrovnaním, správou živice a kamerou."
+    },
+    "metaDescription": {
+     "pred": "3D tlačiareň ELEGOO Jupiter 2 s technológiou MSLA, 16K rozlíšením a 14-palcovým LCD displejom. Ďalšie produkty nájdete v kategórii 3D tlačiarne.",
+     "po": "3D tlačiareň ELEGOO Jupiter 2: MSLA, 14\" 16K LCD, priestor 302,4 × 162 × 300 mm, XY 20 × 26 μm, automatické vyrovnanie a správa živice."
+    },
+    "description": {
+     "predSubor": "Z-20261112-obsah-davka3.085805.pred-popis.html",
+     "poSubor": "Z-20261112-obsah-davka3.085805.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086798",
+   "guid": "20a1f3c6-92c6-11f1-8c03-bc2411833e01",
+   "url": "https://www.premiumstore.sk/prenosny-monitor-minix-sf16t-s-uhloprieckou-16/",
+   "polia": {
+    "shortDescription": {
+     "pred": "Prenosný monitor Minix SF16T 16&quot; Či už pracujete na diaľku, tvoríte grafiku, upravujete videá alebo si jednoducho chcete vychutnať svoj obľúbený obsah na väčšej obrazovke, monitor Minix SF16T je…",
+     "po": "Prenosný 16\" dotykový monitor Minix SF16T s IPS panelom 1920 × 1200 (16:10), 120 Hz, 100 % sRGB a pripojením cez jeden kábel USB-C alebo HDMI s funkciou PD Passthrough."
+    },
+    "metaDescription": {
+     "pred": "MINIX SF16T má 16-palcový dotykový IPS displej 1 920 × 1 200 a 10-bodové ovládanie. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Prenosný monitor Minix SF16T: 16\" IPS dotykový displej 1920 × 1200, 120 Hz, 100 % sRGB, USB-C s PD Passthrough a HDMI."
+    },
+    "description": {
+     "predSubor": "Z-20261112-obsah-davka3.086798.pred-popis.html",
+     "poSubor": "Z-20261112-obsah-davka3.086798.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074612",
+   "guid": "a0e0a5d8-92c5-11f1-9ced-bc2411833e01",
+   "url": "https://www.premiumstore.sk/3d-tlaciaren-anycubic-photon-mono-4-ultra/",
+   "polia": {
+    "shortDescription": {
+     "pred": "3D tlačiareň Anycubic Photon Mono 4 Ultra 3D tlačiareň Anycubic Photon Mono 4 Ultra je pokročilé zariadenie navrhnuté s dôrazom na presnosť a efektívnosť pri tlači pomocou živice. Je vybavená…",
+     "po": "Živicová 3D tlačiareň Anycubic Photon Mono 4 Ultra so 7\" 10K monochromatickým LCD, rozlíšením XY 17 × 17 μm, tlačovým priestorom 153,4 × 87 × 165 mm a rýchlosťou až 120 mm/h."
+    },
+    "metaDescription": {
+     "pred": "3D tlačiareň Anycubic Photon Mono 4 Ultra je pokročilé zariadenie navrhnuté s dôrazom na presnosť a efektívnosť tlače živicou.",
+     "po": "3D tlačiareň Anycubic Photon Mono 4 Ultra: 7\" 10K mono LCD, XY 17 × 17 μm, priestor 153,4 × 87 × 165 mm, až 120 mm/h, Wi-Fi a dotykový displej."
+    },
+    "description": {
+     "predSubor": "Z-20261112-obsah-davka3.074612.pred-popis.html",
+     "poSubor": "Z-20261112-obsah-davka3.074612.po-popis.html"
+    }
+   }
+  }
+ ],
+ "overenie": "2026-11-12: 074612 prečítaný späť po zápise, cena, sklad a viditeľnosť nezmenené. 085805 a 086798 zapísané v rovnakom behu.",
+ "trvanlivost": null,
+ "navrat": null,
+ "poznamka": "Pred zápisom: Elegoo cena 852.00, váha 43.460; Minix cena 201.50, váha 1.970; sklad 0.000, viditeľnosť visible. Názvy sa nemenili. Hmotnosť monitora sa v popise neuvádza (zdroj má 750 g aj 0,91 kg)."
+}
