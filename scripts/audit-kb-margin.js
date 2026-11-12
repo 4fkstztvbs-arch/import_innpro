@@ -2,14 +2,13 @@
 
 // Read-only diagnostic for the K-B currency investigation.
 // It reports aggregate margin bands only; never prints per-product or purchase-price values.
-// The anomaly report's "new price" is tested as CZK->EUR using the current Frankfurter rate.
 const fs = require('node:fs');
 
 const XML_PATH = process.env.KB_XML_IN || 'output/kb.xml';
 const REPORT_PATH = process.env.KB_PRICE_ANOMALY_REPORT || 'reports/cenove-anomalie-kb.md';
 
 function decode(value) {
-  return String(value || '').replace(/<!\\[CDATA\\[([\\s\\S]*?)\\]\\]>/g, '$1')
+  return String(value || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
     .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"').replace(/&apos;/g, "'").trim();
 }
@@ -37,17 +36,23 @@ async function main() {
   const xml = fs.readFileSync(XML_PATH, 'utf8');
   const report = fs.readFileSync(REPORT_PATH, 'utf8');
   const products = new Map();
-  for (const match of xml.matchAll(/<SHOPITEM\\b[^>]*>[\\s\\S]*?<\\/SHOPITEM>/gi)) {
+  for (const match of xml.matchAll(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/gi)) {
     const block = match[0];
     products.set(tag(block, 'CODE'), {
-      price: number(tag(block, 'PRICE_VAT')),
       cost: number(tag(block, 'PURCHASE_PRICE')),
       vat: number(tag(block, 'PURCHASE_VAT')) || 23,
     });
   }
 
+  const response = await fetch('https://api.frankfurter.app/latest?from=CZK&to=EUR');
+  if (!response.ok) throw new Error('Frankfurter FX lookup failed with HTTP ' + response.status);
+  const data = await response.json();
+  const rate = Number(data && data.rates && data.rates.EUR);
+  if (!(rate > 0)) throw new Error('Frankfurter did not return a CZK->EUR rate.');
+  const czkPerEur = 1 / rate;
+
   const candidates = [];
-  for (const line of report.split(/\\r?\\n/)) {
+  for (const line of report.split(/\r?\n/)) {
     if (!line.startsWith('|') || line.includes('---') || line.includes('Kód')) continue;
     const columns = line.slice(1, line.lastIndexOf('|')).split('|').map(value => value.trim());
     if (columns.length < 7) continue;
@@ -58,18 +63,12 @@ async function main() {
     if (!code || !(newPrice > 0) || !reason.includes('zmena ceny')) continue;
     const product = products.get(code);
     if (!product) continue;
-    const fxAdjustedRatio = oldPrice > 0 ? (newPrice / 24.379) / oldPrice : 0;
+    const fxAdjustedRatio = oldPrice > 0 ? (newPrice * rate) / oldPrice : 0;
     // Restrict the likely-CZK group to records whose converted price is close to the last accepted EUR price.
     if (fxAdjustedRatio >= 0.75 && fxAdjustedRatio <= 1.25) candidates.push({ product, newPrice });
   }
 
   if (candidates.length === 0) throw new Error('No likely-CZK K-B anomaly rows matched the generated feed.');
-  const response = await fetch('https://api.frankfurter.app/latest?from=CZK&to=EUR');
-  if (!response.ok) throw new Error('Frankfurter FX lookup failed with HTTP ' + response.status);
-  const data = await response.json();
-  const rate = Number(data && data.rates && data.rates.EUR);
-  if (!(rate > 0)) throw new Error('Frankfurter did not return a CZK->EUR rate.');
-
   const costEur = bands();
   const costCzk = bands();
   for (const { product, newPrice } of candidates) {
@@ -84,7 +83,7 @@ async function main() {
     + ', below break-even=' + b.loss + ', below 5% margin floor=' + b.below5
     + ', below 10% target=' + b.below10 + ', at/above 10%=' + b.atLeast10;
   console.log('K-B likely-CZK anomaly margin diagnostic (aggregate only; no product or cost values):');
-  console.log('  Current ECB-derived rate: 1 EUR = ' + (1 / rate).toFixed(3) + ' CZK');
+  console.log('  Current ECB-derived rate: 1 EUR = ' + czkPerEur.toFixed(3) + ' CZK');
   console.log('  Cost assumed EUR: ' + fmt(costEur));
   console.log('  Cost assumed CZK: ' + fmt(costCzk));
 }
