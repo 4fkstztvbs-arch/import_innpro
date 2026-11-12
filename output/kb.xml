@@ -123858,50 +123858,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
 <RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
 </SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[TP-LINK Tapo C310 Outdoor Wi-Fi Camera]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Venkovní bezpečnostní kamera, Wifi 2,4Ghz, rozlišení 3 MP (2304 × 1296), detekce pohybu, zvukový a světelný alarm, dvoucestné audio, microSD slot pro kartu až 128GB]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Venkovní bezpečnostní kamera, Wifi 2,4Ghz, rozlišení 3 MP (2304 × 1296), detekce pohybu, zvukový a světelný alarm, dvoucestné audio, microSD slot pro kartu až 128GB
-<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[TP-Link]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>100001185399</CODE>
-<EAN>6935364010911</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="TP-LINK Tapo C310 Outdoor Wi-Fi Camera">https://img.b2b.k-b.cz/fotocache/mid/images/orig/TP-LINK/100001185399-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[TP-Link]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[Wi-Fi]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[1-2 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[1-2 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>44.90</PRICE_VAT>
-<PURCHASE_PRICE>32.91</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<RECYCLING_FEE_CATEGORY><![CDATA[RP SK19 - SEWA 6.1.2]]></RECYCLING_FEE_CATEGORY>
-<RECYCLING_FEE_PRICE>0.02</RECYCLING_FEE_PRICE>
-<RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
-<RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
-</SHOPITEM>
+
 <SHOPITEM>
 <NAME><![CDATA[TESLA MyCare AI fén AF04 - Modrý]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[TESLA MyCare AF04AI fén na vlasy s ionizací (modrý)AI řídí teplotu za vásTESLA MyCare AF04 průběžně reaguje na vzdálenost od pokožky hlavy. AI snímač podle této informace automaticky upravuje teplotu proudění. Při přiblížení ji postupně snižuje, čímž]]></SHORT_DESCRIPTION>
