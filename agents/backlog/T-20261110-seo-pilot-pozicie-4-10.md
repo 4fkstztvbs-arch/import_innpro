@@ -2,12 +2,12 @@
 id: T-20261110-seo-pilot-pozicie-4-10
 nazov: Pilot: titulky a meta pre produkty na pozíciách 4 až 10
 rola: seo
-stav: pripravene
+stav: v-praci
 priorita: 1
 vytvoril: seo
 vytvorene: 2026-11-10
 zavisi-od: []
-experiment:
+experiment: E-20261112-seo-pilot-pozicie-4-10
 ---
 
 ## Prečo
@@ -25,3 +25,4 @@ Experiment beží, zmeny sú v denníku, vyhodnotenie je naplánované.
 ## Priebeh
 
 - 2026-11-10: Založené z prieskumu prvého dňa.
+- 2026-11-12 (seo): Experiment pripravený (13 TEST, 14 KONTROLA; 40 stránok sa nenašlo, stránky z vlny CTR 2 a kategórie vylúčené). Zoznam v experiments/E-20261112-seo-pilot-pozicie-4-10-skupiny.csv. Ďalší krok: doplniť kódy (heureka reporty ich majú len pre 7 stránok, ostatné cez Shoptet), pre TEST pripraviť titulky a meta, zapísať do denníka zmien a do Shoptetu, potom experiment prepnúť na bezi. Štart 13. 11., vyhodnotenie 11. 12.
