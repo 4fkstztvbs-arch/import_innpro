@@ -16,6 +16,7 @@ on:
       - ".github/workflows/kb-sync.yml"
       - "scripts/heureka-ean-overrides-kb.json"
       - "scripts/audit-kb-margin.js"
+      - "scripts/transform-kb.js"
 
 permissions:
   contents: write
