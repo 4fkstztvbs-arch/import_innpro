@@ -57,7 +57,7 @@ Cieľ roly obsah je presúvať produkty do triedy A v poradí: produkty s návš
 
 ## Šablóna názvu produktu
 
-Platí pre všetky roly (obsah, SEO). Návrh z 12. 11. 2026, čaká na potvrdenie Martina; do potvrdenia sa názvy menia len v pilotnej dávke do 20 produktov.
+Platí pre všetky roly (obsah, SEO). Zosúladené 12. 11. 2026 so zásadami v `agent/rules/product-content-seo.md` (značka + model + overené rozlišovacie znaky, prirodzená slovenčina, bez keyword stuffingu) a s existujúcimi 2 221 záznamami v `data/localization/product-names-sk.json` (tvar „Typ Značka Model“). Čaká na potvrdenie Martina; do potvrdenia sa názvy menia len v pilotnej dávke do 20 produktov.
 
 Tvar: `{Typ produktu} {Značka} {Model} {1 až 2 rozlišovacie parametre}`
 
