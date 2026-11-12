@@ -123,6 +123,7 @@ function buildSeoTitle(core, storeName, maxLen) {
   return truncateAtWord(core, maxLen - suffix.length) + suffix;
 }
 function norm(s) { return String(s || '').replace(/[\s_]+/g, ' ').trim().toUpperCase(); }
+function normBasysCode(s) { return normCode(String(s || '').replace(/^BASYS-/i, '')); }
 const BASYS_EAN_OVERRIDES_BY_KEY = new Map(
   Object.entries(BASYS_EAN_OVERRIDES).map(([key, value]) => [norm(key), value]),
 );
@@ -314,7 +315,7 @@ async function main() {
       // Bose produkty mimo cenníka: vždy "Na objednávku", cena z feedu (viď data/basys-bose-on-order.json).
       forceOnOrder: /^bose$/i.test(f.manufacturer),
       // Skutočná nákupka z e-shopu (napr. z pôvodného cenníka) má prednosť pred odhadom z feedu.
-      ...(loadOnOrder().get(norm(f.itemId))?.purchasePriceExclVat > 0 ? { purchasePriceExclVat: loadOnOrder().get(norm(f.itemId)).purchasePriceExclVat } : {}),
+      ...(loadOnOrder().get(normBasysCode(f.itemId))?.purchasePriceExclVat > 0 ? { purchasePriceExclVat: loadOnOrder().get(normBasysCode(f.itemId)).purchasePriceExclVat } : {}),
     });
   }
   // Bose produkt mimo cenníka, ktorý BASYS feed už neposiela, sa nedopĺňa: apply-missing-availability ho nastaví na
@@ -361,11 +362,12 @@ async function main() {
     // in the feed, falls back to "Na objednávku" — the only honest default when we have no real
     // stock signal for a product.
     const isReturnStockSale = (saleState.items['BASYS-' + item.objKod]?.quantity || 0) > 0;
-    const supplierAvailability = !item.forceOnOrder && hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
+    const trackedOnOrder = loadOnOrder().has(normBasysCode(item.objKod));
+    const supplierAvailability = !item.forceOnOrder && !trackedOnOrder && hasEnrichment && enrich.deliveryDate === '0' ? 'Skladom' : 'Na objednávku';
     const availability = typeof AVAILABILITY_OVERRIDE[item.objKod] === 'string' ? AVAILABILITY_OVERRIDE[item.objKod] : (isReturnStockSale ? 'Skladom' : supplierAvailability);
     if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
     // Produkty z cenníka sa exportujú vždy (nedostupné ako "Na objednávku"), rovnako Bose mimo cenníka z data/basys-bose-on-order.json.
-    const keepOnOrder = item.isFromPriceList || (item.forceOnOrder && loadOnOrder().has(normCode(item.objKod)));
+    const keepOnOrder = item.isFromPriceList || trackedOnOrder;
     if (EXCLUDE_UNAVAILABLE && supplierAvailability !== 'Skladom' && !isReturnStockSale && !keepOnOrder) {
       stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; continue;
     }
@@ -468,7 +470,7 @@ async function main() {
         clearActionPrice: promoteActionToRegular,
         // Nová SKU z cenníka bez karty v e-shope a bez fotiek zostane skrytá, kým nepribudnú fotky.
         hidden: item.isFromPriceList && !isInShop(item.objKod) && images.length === 0
-          && !loadOnOrder().has(normCode(item.objKod)),
+          && !trackedOnOrder,
       },
     });
   }
