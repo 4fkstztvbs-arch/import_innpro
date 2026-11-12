@@ -45,3 +45,9 @@ Pri piatich produktoch K-B boli `metaTitle` aj `metaDescription` pôvodne prázd
 
 - Váhy sú hmotnosti výrobku z popisu, nie hmotnosti zásielky s obalom.
 - `KB_100001937696` nemá v e-shope žiadny obrázok.
+
+## Kontrola po nočnom importe (2026-11-12, čerstvý export)
+
+- POST_DEPLOY_VALIDATION: všetkých 5 pilotných produktov K-B má zapísaný názov, SEO title aj meta popis; všetkých 9 zapísaných váh (AT_ABL-16-51-098, AT_TIP-08811161, AT_EMO1013302001, AT_2155, AT_ELE-1020001, AT_TOC-SX306503, KB_100001937696, KB_100002134243, KB_100002141055) je nezmenených.
+- RESULT: zápis cez pripojenie Shoptet vydržal nočný import (aspoň jeden cyklus).
+- DECISION: pri produktoch ATOS a K-B sa váhy nečistia; pri MONACOR áno (pozri PS-20261110-CONTENT-CLEANUP-BATCH).

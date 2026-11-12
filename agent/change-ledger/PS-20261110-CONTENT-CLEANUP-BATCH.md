@@ -30,3 +30,10 @@
 - 41 názvov ostalo bez zmeny: po odstránení kódu by boli duplicitné (napr. zásuvky Solight, ovládače Alien) alebo chýba údaj o type produktu (`KB_100002202292`).
 - `AT_ATO-OR-PSU-1669`: názov uvádza model OR-PSU-1674 (3,2 A, 77 W), popis OR-PSU-1669 (1 A, 24 W). Preložený je názov, rozpor treba overiť u dodávateľa.
 - SEO title a meta popis týchto produktov, ktoré vznikli z pôvodného českého názvu, sa menia len v časti SEO title.
+
+## Trvácnosť po nočnom importe (2026-11-12, čerstvý export)
+
+- Názvy a SEO title: 687 z 687 nezmenených.
+- Váhy: 2 678 z 2 696 nezmenených. Všetkých 18 rozdielov sú produkty MONACOR: ich feed posiela `<WEIGHT>0.00</WEIGHT>` a nočný import váhu vynuloval (ATOS a K-B váhy neprepisujú).
+- Oprava (na vetve, účinná po zlúčení do main): `data/monacor-weight-overrides.json` (85 váh) a `scripts/transform-monacor.js` doplní váhu z override súboru, ak ju dodávateľ neposiela. Treba zlúčiť a po najbližšom behu `monacor-sync` skontrolovať, či sa váhy držia.
+- Súbor `import-vahy-odhad-2026-11-10.csv` obsahuje aj MONACOR produkty; tie sa do Shoptetu dostanú trvalo až po tejto oprave.
