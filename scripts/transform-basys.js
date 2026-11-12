@@ -57,7 +57,7 @@ const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnP
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
 const { createCrossSupplierFilter } = require('./lib/cross-supplier-dedupe');
-const { weightKgFor, loadOnOrder, catalogDescription, isInShop, officialImagesFor } = require('./lib/basys-bose');
+const { normCode, weightKgFor, loadOnOrder, catalogDescription, isInShop, officialImagesFor } = require('./lib/basys-bose');
 
 // Značky, ktoré berieme od iného dodávateľa, sa tu preskočia – viď scripts/cross-supplier-preferences.json.
 const crossSupplier = createCrossSupplierFilter('basys');
@@ -365,7 +365,7 @@ async function main() {
     const availability = typeof AVAILABILITY_OVERRIDE[item.objKod] === 'string' ? AVAILABILITY_OVERRIDE[item.objKod] : (isReturnStockSale ? 'Skladom' : supplierAvailability);
     if (availability === 'Skladom') stats.inStock = (stats.inStock || 0) + 1;
     // Produkty z cenníka sa exportujú vždy (nedostupné ako "Na objednávku"), rovnako Bose mimo cenníka z data/basys-bose-on-order.json.
-    const keepOnOrder = item.isFromPriceList || (item.forceOnOrder && loadOnOrder().has(norm(item.objKod)));
+    const keepOnOrder = item.isFromPriceList || (item.forceOnOrder && loadOnOrder().has(normCode(item.objKod)));
     if (EXCLUDE_UNAVAILABLE && supplierAvailability !== 'Skladom' && !isReturnStockSale && !keepOnOrder) {
       stats.skippedUnavailable = (stats.skippedUnavailable || 0) + 1; continue;
     }
@@ -468,7 +468,7 @@ async function main() {
         clearActionPrice: promoteActionToRegular,
         // Nová SKU z cenníka bez karty v e-shope a bez fotiek zostane skrytá, kým nepribudnú fotky.
         hidden: item.isFromPriceList && !isInShop(item.objKod) && images.length === 0
-          && !loadOnOrder().has(norm(item.objKod)),
+          && !loadOnOrder().has(normCode(item.objKod)),
       },
     });
   }
