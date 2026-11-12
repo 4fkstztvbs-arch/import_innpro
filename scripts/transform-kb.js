@@ -435,6 +435,12 @@ async function main() {
     });
   });
 
+  // Temporary runner-only input for the aggregate margin diagnostic. Never commit/upload purchase costs.
+  const marginDataPath = path.join(process.env.RUNNER_TEMP || '/tmp', 'kb-margin-data.json');
+  fs.writeFileSync(marginDataPath, JSON.stringify(rawCandidates.map((c) => ({
+    code: c.code, purchasePrice: c.shopitemData.purchasePrice, vat: c.shopitemData.vat,
+  }))));
+
   const feedCategoryStats = buildFeedCategoryStats(rawCandidates);
   const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
 
