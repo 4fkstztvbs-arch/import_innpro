@@ -1,0 +1,44 @@
+{
+  "id": "Z-20261112-obsah-niimbot-c1",
+  "datum": "2026-11-12",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "NIIMBOT C1: prepis popisu podľa štandardu (FAQ, čistý HTML bez obrázkov a odkazov dodávateľa), krátky popis a meta údaje. Názov nezmenený (už zodpovedá šablóne).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "087890",
+      "guid": "da19fe8e-c9c6-11f1-ad9a-bc2411833e01",
+      "url": "https://www.premiumstore.sk/tlaciaren-na-oznacovanie-kablov-niimbot-c1/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Tlačiareň na označovanie káblov NIIMBOT C1 NIIMBOT C1 je profesionálna tlačiareň na označovanie vodičov a káblov, navrhnutá na zefektívnenie identifikácie elektrických, telekomunikačných a…",
+          "po": "NIIMBOT C1 tlačí odolné značky na rúrky a zmršťovacie návleky pre káble s prierezom 0,5 – 25 mm². Rozlíšenie 300 dpi, až 38 segmentov za minútu, batéria 2 600 mAh a ovládanie cez aplikáciu."
+        },
+        "metaTitle": {
+          "pred": "Tlačiareň na označovanie káblov NIIMBOT C1",
+          "po": "NIIMBOT C1 – tlačiareň na označovanie káblov, 300 dpi"
+        },
+        "metaDescription": {
+          "pred": "Využíva technológiu termotransferovej tlače s rozlíšením 300 dpi, čím zaručuje trvácne a čitateľné označenia, ktoré sú odolné voči vyblednutiu.",
+          "po": "Tlačiareň na označovanie káblov NIIMBOT C1: 300 dpi, až 38 segmentov za minútu, batéria 2 600 mAh, ovládanie cez aplikáciu a Bluetooth."
+        },
+        "description": {
+          "predSubor": "Z-20261112-obsah-niimbot-c1.pred-popis.html",
+          "poSubor": "Z-20261112-obsah-niimbot-c1.po-popis.html"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-12",
+    "ok": true,
+    "poznamka": "Znovu načítané: nový popis, krátky popis a meta uložené; cena 176.90, sklad 0.000, viditeľnosť visible a váha 3.750 bez zmeny."
+  },
+  "trvanlivost": null,
+  "navrat": null,
+  "poznamka": "Pred zápisom: cena 176.90, sklad 0.000, viditeľnosť visible, váha 3.750 (nemení sa)."
+}
