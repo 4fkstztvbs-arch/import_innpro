@@ -37,7 +37,7 @@ Všetky ceny na výstupe sú v **EUR s DPH** (`<PRICE_VAT>`), plus `<PURCHASE_PR
 | Dodávateľ | Zdrojová mena | Prepočet | Vzorec predajnej ceny | Marža / floor |
 |---|---|---|---|---|
 | InnPro | EUR (feed už v EUR) | — | `cena = nákup × (1+15%) × (1+DPH)` | žiadny floor, `INNPRO_MARKUP` konfigurovateľné |
-| ATOS | **CZK** | živý kurz ČNB/ECB cez `frankfurter.app` (`api.frankfurter.app/latest?from=CZK&to=EUR`) pri každom behu | `cena = nákup_EUR × (1+15%) × (1+DPH)` | žiadny floor |
+| ATOS | **CZK** | najnovší denný kurz ČNB/ECB cez `frankfurter.app`, stiahnutý pri každom behu | `cena = nákup_CZK × kurz_CZK→EUR × (1+10%) × (1+DPH)`; odporúčaná cena dodávateľa sa nepoužíva | pevná 10% prirážka k nákupnej cene bez DPH |
 | K+B | EUR | — | `nákup × (1+10%) × (1+DPH)`; odporúčaná cena dodávateľa sa nepoužíva | **pevná prirážka 10 %** k nákupnej cene bez DPH; Heureka cenové párovanie je pre K+B vypnuté |
 | Solight | EUR (feed má priamo `eur_eshop_price`) | — | **Solightova vlastná eshop cena priamo** (0 % markup default — "je to reálna cena, za ktorú Solight sám predáva") | žiadny floor |
 | MONACOR | EUR | — | **MONACOR vlastná cena priamo** (0 % markup default) | žiadny floor, žiadna nákupná cena k dispozícii |
@@ -97,14 +97,15 @@ Heureka sortiment report **nemá žiadne API** (potvrdené priamo z Heureka doku
 
 ### 4.4 Živá aplikácia cien (`scripts/heureka-price-targets.js`, od 2026-08-07)
 
-**⚠️ ZATIAĽ VYPNUTÉ (vedomé rozhodnutie, 2026-08-07).** Kód je hotový a zapojený vo všetkých `transform-*.js`, ale je za centrálnym vypínačom — bez `HEUREKA_PRICE_OVERRIDE=1` (env premenná) je `applyHeurekaPriceTarget()` vždy no-op a vráti pôvodnú cenu bez zmeny, úplne bez ohľadu na obsah `price-targets.json`. Žiaden z dodávateľských `*-sync.yml` workflow túto premennú nenastavuje, takže mechanizmus je momentálne neaktívny, aj keď denný Heureka beh (4.3) naďalej normálne generuje report a `price-targets.json` — príprava dát beží, len sa nič live nemení. Zapnutie = pridať `HEUREKA_PRICE_OVERRIDE: '1'` do `env:` v `.github/workflows/<dodavatel>-sync.yml` pre dodávateľov, kde to chceš aktívne.
+**⚠️ Dočasne vypnuté (2026-11-12).** Heureka report a `price-targets.json` sa naďalej generujú, ale dodávateľské workflowy momentálne nenastavujú `HEUREKA_PRICE_OVERRIDE=1`; cenové cielenie podľa konkurencie preto nemení ceny vo feede. ATOS a K+B počítajú cenu priamo z nákupnej ceny. Toto vypnutie sa týka iba automatického upravovania ceny podľa konkurencie, nie párovania produktov alebo kategórií na Heureke.
 
-Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports/price-targets.json`** (EAN → cieľová cena podľa Heureky) — to isté dáta ako report, ale strojovo čitateľné. Po zapnutí vypínača vyššie si ho každý `transform-*.js` (okrem MONACOR, pozri nižšie) pri svojom nasledujúcom behu **sám načíta a použije** — takže po nočnom behu K+B/ATOS/InnPro/Solight sa dotknuté ceny premietnu automaticky, bez ručného zásahu.
+Okrem `.md` reportu na kontrolu vygeneruje denný beh aj **`data/heureka-reports/price-targets.json`** (EAN → cieľová cena podľa Heureky) — to isté dáta ako report, ale strojovo čitateľné. Pri opätovnom zapnutí vypínača si ho každý `transform-*.js` (okrem MONACOR, pozri nižšie) pri svojom nasledujúcom behu **sám načíta a použije** — ceny sa potom premietnu automaticky.
 
-- **Mechanizmus (`applyHeurekaPriceTarget()`):** volá sa tesne po tom, čo si dodávateľský skript sám vypočíta cenu podľa svojho vlastného vzorca (markup/odporúčaná cena K+B/atď.) — Heureka override sa aplikuje AŽ NA VRCH tohto, nie namiesto neho.
+- **Mechanizmus (`applyHeurekaPriceTarget()`):** keď je zapnutý, aplikuje cieľovú cenu Heureky po výpočte dodávateľskej ceny; teraz je globálnym vypínačom pozastavený.
 - **Cieľová cena z reportu je "surová"** (`SurovyCielEUR` — 2. najlacnejší konkurent pri zvyšovaní, alebo cena tesne pod najlacnejším pri znižovaní), **floor sa prepočítava vždy nanovo z DNEŠNEJ nákupnej ceny produktu**, nie z tej, ktorá platila v čase generovania reportu — ak dodávateľ medzičasom zdvihol nákupnú cenu, floor sa zvýši a nedovolí override, ktorý by pod ním predal.
 - **Pohyb len správnym smerom:** `ZVÝŠIŤ` cenu nikdy nezníži pod to, čo by dnes vypočítal normálny vzorec (len ju môže zdvihnúť); `ZNÍŽIŤ` ju nikdy nezvýši nad to, čo by vypočítal normálny vzorec (len ju môže znížiť). Override teda nemôže "vrátiť späť" prirodzený pohyb ceny spôsobený zmenou nákupnej ceny od dodávateľa.
-- **K+B**: Heureka cenové párovanie sa na jeho feed momentálne neaplikuje. Predajná cena sa vždy počíta z aktuálnej nákupnej ceny bez DPH s prirážkou 10 % a následne sa pripočíta DPH.
+- **ATOS**: nákupná cena v CZK sa pri každom behu prepočíta najnovším denným kurzom ČNB/ECB a zvýši o 10 %; slovenská DPH sa pridá následne. Odporúčaná cena dodávateľa sa nepoužíva.
+- **K+B**: predajná cena sa vždy počíta z nákupnej ceny bez DPH s prirážkou 10 % a následne sa pripočíta DPH.
 - **MONACOR nie je zapojený** — nemá k dispozícii nákupnú cenu vôbec (pozri sekciu 3), floor sa teda nedá bezpečne overiť, takže by naň mechanizmus nikdy stejne nezasiahol.
 - Produkt bez zhody EAN v `price-targets.json` = žiadna zmena, presne ako doteraz.
 
