@@ -476,9 +476,8 @@ async function main() {
   fs.writeFileSync(marginDataPath, JSON.stringify(rawCandidates.map((c) => ({
     code: c.code, purchasePrice: c.shopitemData.purchasePrice, vat: c.shopitemData.vat,
     previousPurchasePrice: previousPurchasePriceByCode.get(c.code) || 0,
-    price: c.price, convertedFromCzk: c.convertedFromCzk, previousSellPrice: c.previousSellPrice,
+    price: c.price, convertedFromCzk: c.convertedFromCzk, previousSellPrice: c.previousSellPrice, fxRate: czkToEur,
   }))));
-  fs.writeFileSync(marginDataPath.replace(/kb-margin-data\\.json$/, 'kb-margin-meta.json'), JSON.stringify({ czkToEur }));
 
   const feedCategoryStats = buildFeedCategoryStats(rawCandidates);
   const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
