@@ -1,8 +1,8 @@
 {
   "minimum": 8,
-  "totalProducts": 28742,
-  "matchedRules": 2011,
-  "changedProducts": 457,
+  "totalProducts": 29689,
+  "matchedRules": 2037,
+  "changedProducts": 482,
   "rejected": [
     {
       "supplier": "atos",
@@ -2265,6 +2265,16 @@
       "reason": "Reviewed product name changed"
     },
     {
+      "supplier": "kb",
+      "code": "100002136859",
+      "reason": "Reviewed product name changed"
+    },
+    {
+      "supplier": "kb",
+      "code": "100002203916",
+      "reason": "Reviewed product name changed"
+    },
+    {
       "supplier": "monacor",
       "code": "KM-210/9",
       "reason": "Reviewed product name changed"
@@ -2438,22 +2448,7 @@
       "feedEan": "0795847057279"
     }
   ],
-  "categoryDrifts": [
-    {
-      "supplier": "innpro",
-      "code": "073522",
-      "reason": "Reviewed product moved outside its approved scope",
-      "feedCategories": [
-        "Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony"
-      ],
-      "approvedCurrent": [
-        "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery"
-      ],
-      "approvedProposed": [
-        "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery"
-      ]
-    }
-  ],
+  "categoryDrifts": [],
   "categories": [
     {
       "path": "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > ABS a ASA filamenty",
@@ -2589,13 +2584,13 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Filtračné kanvice",
-      "visibleUnique": 9,
+      "visibleUnique": 11,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice",
-      "visibleUnique": 25,
+      "visibleUnique": 26,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Káva a príprava nápojov"
     },
@@ -2607,7 +2602,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Sušiaky na bielizeň",
-      "visibleUnique": 35,
+      "visibleUnique": 38,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň"
     },
@@ -2625,7 +2620,7 @@
     },
     {
       "path": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače > Vreckové a bezvreckové vysávače",
-      "visibleUnique": 10,
+      "visibleUnique": 11,
       "active": true,
       "parent": "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače"
     },
@@ -2745,7 +2740,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > Náhlavné bezdrôtové slúchadlá",
-      "visibleUnique": 39,
+      "visibleUnique": 40,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2757,7 +2752,7 @@
     },
     {
       "path": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá",
-      "visibleUnique": 58,
+      "visibleUnique": 60,
       "active": true,
       "parent": "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá"
     },
@@ -2859,25 +2854,25 @@
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Kulmy na vlasy",
-      "visibleUnique": 16,
+      "visibleUnique": 19,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o vlasy > Žehličky na vlasy",
-      "visibleUnique": 16,
+      "visibleUnique": 22,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o vlasy"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Elektrické zubné kefky",
-      "visibleUnique": 49,
+      "visibleUnique": 52,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     },
     {
       "path": "Zdravie a starostlivosť > Starostlivosť o zuby > Náhradné hlavice na zubné kefky",
-      "visibleUnique": 40,
+      "visibleUnique": 44,
       "active": true,
       "parent": "Zdravie a starostlivosť > Starostlivosť o zuby"
     },
