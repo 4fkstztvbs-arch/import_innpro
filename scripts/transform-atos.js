@@ -2,18 +2,10 @@
 // (HTTP Basic Auth required), applies the agreed category mapping, converts CZK->EUR at the
 // live ECB rate, and writes a Shoptet-native XML ready for Automatické importy.
 //
-// Pricing (changed 2026-08-29): sells at ATOS's own recommended price (<PRICE>, excl. their VAT)
-// with OUR VAT applied on top — not purchase price x markup like before. Reason: PURCHASE_PRICE
-// is the field that's actually broken on ATOS's side (confirmed on a real incident - a solar
-// bundle at 27 EUR instead of ~2145 EUR - and on a follow-up full-catalog check that found ~220
-// more products with a nonsensical near-zero PURCHASE_PRICE), while <PRICE> held up correctly
-// even on every one of those broken SKUs. A full-catalog comparison (2026-08-29) showed the two
-// formulas agree within ±10% for 73% of products and ±20% for 94% - PRICE isn't a wild departure
-// from what we sell at today, just a more reliable source. purchasePriceCZK is still parsed and
-// still written to <PURCHASE_PRICE> in the XML (for margin visibility in Shoptet) - it's just no
-// longer used to DERIVE the sell price. If <PRICE> is missing/zero for a given SKU (rare - ~3 in
-// 13000 at last check), falls back to the old purchase-price x markup formula so the product isn't
-// dropped outright, provided the purchase price itself looks usable.
+// ATOS sends both its recommended price and purchase price in CZK. For profitability,
+// derive the Slovak sale price from the purchase price converted to EUR, apply the configured
+// markup, then add Slovak VAT. A recommended supplier price is not a safe substitute for cost.
+// Products without a usable purchase price are skipped instead of being priced from <PRICE>.
 // Images: uses data/atos-image-urls.json (built by fetch-atos-images.js, run before this
 // script in atos-sync.yml) — static img{0-3}.atoselektro.cz CDN URLs, per product code.
 // Falls back to the feed's own img.asp URLs for any code missing from that map, rewritten to go
@@ -38,9 +30,8 @@ const saleState = fs.existsSync(SALE_STATE_PATH)
   : { items: {} };
 const { streamRecords } = require('./stream-records');
 const { parseAtosItem } = require('./parse-atos');
-const { roundPrice } = require('./round-price');
+const { roundPriceUp } = require('./round-price');
 const { heurekaCategoryIdFor, isHeurekaHidden, marginEurFor } = require('./heureka-category');
-const { applyHeurekaPriceTarget } = require('./heureka-price-targets');
 const { loadPreviousPrices, checkPriceSanity, buildCategoryPriceStats, buildOwnPreviousCategoryStats, buildFeedCategoryStats, mergeCategoryStats, checkCategoryOutlier, writeAnomalyReport } = require('./price-sanity');
 const { isCpcNonConverter } = require('./heureka-cpc-exclusions');
 const { isBlackFridayAllowed } = require('./heureka-black-friday-allowlist');
@@ -53,7 +44,7 @@ const { translateAtosRemoteDescription } = require('./lib/atos-remote-control-de
 const URL = process.env.ATOS_URL;
 const USERNAME = process.env.ATOS_USERNAME;
 const PASSWORD = process.env.ATOS_PASSWORD;
-const MARKUP_PCT = parseFloat(process.env.ATOS_MARKUP || '15');
+const MARKUP_PCT = parseFloat(process.env.ATOS_MARKUP || '10');
 const MIN_COST = parseFloat(process.env.ATOS_MIN_COST || '0');
 const EXCLUDE_UNAVAILABLE = process.env.ATOS_EXCLUDE_UNAVAILABLE === '1';
 const OUT_PATH = process.env.ATOS_OUT || path.join(__dirname, '..', 'output', 'atos.xml');
@@ -304,7 +295,7 @@ async function main() {
   const bypassCategoryStats = mergeCategoryStats(catalogCategoryStats, ownPreviousCategoryStats);
   const anomalies = [];
 
-  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedManufacturer: 0, action: 0, new: 0, tip: 0, withCompatibleModels: 0 };
+  const stats = { total: 0, written: 0, skippedNoPrice: 0, skippedCheap: 0, skippedCategory: 0, skippedUnmatchedCategory: 0, skippedManufacturer: 0, usedMarkupPrice: 0, action: 0, new: 0, tip: 0, withCompatibleModels: 0 };
   const auth = { username: USERNAME, password: PASSWORD };
   const candidates = [];
 
@@ -320,31 +311,18 @@ async function main() {
     if (crossSupplier.shouldExclude(p.manufacturer, p.name)) { stats.skippedCrossSupplier = (stats.skippedCrossSupplier || 0) + 1; return; }
 
     const purchaseEUR = p.purchasePriceCZK * rate;
-
-    const vat = '23'; // sell in Slovakia — ATOS's own VAT field (21) reflects Czech VAT, not ours
-    let price;
-    if (p.priceCZK > 0) {
-      // ATOS's own recommended price is the normal path now - purchaseEUR is known to be
-      // unreliable on this feed (that's the whole reason for this switch), so MIN_COST (a
-      // "don't bother listing dollar-store junk" filter) must NOT gate on it here: a real
-      // ~150 EUR product with a broken near-zero PURCHASE_PRICE would otherwise get silently
-      // dropped as "too cheap" based on garbage data, right after the fix meant to stop trusting it.
-      price = roundPrice(p.priceCZK * rate * (1 + parseFloat(vat) / 100));
-    } else if (purchaseEUR > 0) {
-      // No usable recommended price for this SKU - purchaseEUR is our only signal, so the
-      // MIN_COST filter still makes sense here (same basis it's always used).
-      if (MIN_COST > 0 && purchaseEUR < MIN_COST) { stats.skippedCheap++; return; }
-      stats.usedMarkupFallback = (stats.usedMarkupFallback || 0) + 1;
-      price = roundPrice(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
-    } else {
-      price = 0;
-    }
-    if (price <= 0) {
+    const vat = '23'; // Predaj na Slovensku — slovenská sadzba DPH.
+    if (!Number.isFinite(purchaseEUR) || purchaseEUR <= 0) {
       stats.skippedNoPrice++;
-      anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'zero-price', newPrice: 0 });
+      anomalies.push({ code: p.code, ean: p.ean, name: p.name, reason: 'missing-purchase-price', newPrice: 0 });
       return;
     }
-    price = applyHeurekaPriceTarget(p.ean, price, purchaseEUR, parseFloat(vat));
+    if (MIN_COST > 0 && purchaseEUR < MIN_COST) { stats.skippedCheap++; return; }
+
+    // Fixný vzorec ako pri K-B: nákup bez DPH + prirážka, potom slovenská DPH.
+    // Heureka cenový cieľ sa do predajnej ceny nezapája.
+    const price = roundPriceUp(purchaseEUR * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100));
+    stats.usedMarkupPrice = (stats.usedMarkupPrice || 0) + 1;
 
     const { defaultCategory, extraCategories, unmatchedCategory } = resolveAtosCategories(p.categoryTexts, p.name);
     if (!defaultCategory) { if (unmatchedCategory) stats.skippedUnmatchedCategory++; else stats.skippedCategory++; return; }
