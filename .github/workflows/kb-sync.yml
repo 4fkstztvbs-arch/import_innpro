@@ -15,7 +15,6 @@ on:
     paths:
       - ".github/workflows/kb-sync.yml"
       - "scripts/heureka-ean-overrides-kb.json"
-      - "scripts/audit-kb-margin.js"
       - "scripts/transform-kb.js"
 
 permissions:
@@ -50,19 +49,12 @@ jobs:
           KB_CENY_URL: ${{ secrets.KB_CENY_URL }}
           KB_DOSTUPNOSTI_URL: ${{ secrets.KB_DOSTUPNOSTI_URL }}
           KB_MARKUP: '10'
-          # Cenová podlaha na NÁKUPNEJ cene bez DPH — pozri komentár v innpro-sync.yml.
-          # K+B dnes nemá pod touto hranicou nič (0 produktov), nastavené preventívne, aby
-          # sa lacný tovar nedostal do eshopu pri budúcich zmenách cenníka.
+          # Feed prices use purchase cost + 10% markup, then VAT.
           KB_MIN_COST: '0.50'
-          KB_MIN_MARGIN: '10'
           KB_EXCLUDE_UNAVAILABLE: '1'
           KB_CHECK_ENERGY_LABELS: '1'
           KB_OUT: output/kb.xml
-          HEUREKA_PRICE_OVERRIDE: '1'
         run: node scripts/transform-kb.js
-
-      - name: Diagnose K-B margin after possible CZK conversion (aggregate only)
-        run: node scripts/audit-kb-margin.js
 
       - name: Enrich with Icecat data (weight, extra images, energy labels, specs, description)
         env:
