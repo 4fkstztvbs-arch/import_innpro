@@ -311,10 +311,10 @@ async function main() {
   const previousPurchasePriceByCode = new Map();
   if (fs.existsSync(OUT_PATH)) {
     const previousXml = fs.readFileSync(OUT_PATH, 'utf8');
-    for (const match of previousXml.matchAll(/<SHOPITEM\\b[^>]*>[\\s\\S]*?<\\/SHOPITEM>/gi)) {
+    for (const match of previousXml.matchAll(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/gi)) {
       const block = match[0];
-      const code = (block.match(/<CODE>([\\s\\S]*?)<\\/CODE>/i) || [])[1] || '';
-      const purchase = (block.match(/<PURCHASE_PRICE>([\\s\\S]*?)<\\/PURCHASE_PRICE>/i) || [])[1] || '';
+      const code = (block.match(/<CODE>([\s\S]*?)<\/CODE>/i) || [])[1] || '';
+      const purchase = (block.match(/<PURCHASE_PRICE>([\s\S]*?)<\/PURCHASE_PRICE>/i) || [])[1] || '';
       const value = parseFloat(purchase.replace(/[^0-9.+-]/g, ''));
       if (code && Number.isFinite(value) && value > 0) previousPurchasePriceByCode.set(code, value);
     }
@@ -450,7 +450,8 @@ async function main() {
   // Temporary runner-only input for the aggregate margin diagnostic. Never commit/upload purchase costs.
   const marginDataPath = path.join(process.env.RUNNER_TEMP || '/tmp', 'kb-margin-data.json');
   fs.writeFileSync(marginDataPath, JSON.stringify(rawCandidates.map((c) => ({
-    code: c.code, purchasePrice: c.shopitemData.purchasePrice, vat: c.shopitemData.vat,\n    previousPurchasePrice: previousPurchasePriceByCode.get(c.code) || 0,
+    code: c.code, purchasePrice: c.shopitemData.purchasePrice, vat: c.shopitemData.vat,
+    previousPurchasePrice: previousPurchasePriceByCode.get(c.code) || 0,
   }))));
 
   const feedCategoryStats = buildFeedCategoryStats(rawCandidates);
