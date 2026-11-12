@@ -306,18 +306,20 @@ async function main() {
     if (eanOverride && !overrideMatches) {
       console.warn(`Ignoring BASYS EAN override for ${f.itemId}: product name "${f.productName}" does not match expected model ${eanOverride.model}; leaving EAN empty.`);
     }
+    const onOrderItem = onOrderItemForCode(f.itemId);
     const mappedCategory = CATEGORY_MAP[f.categoryText];
     resolvedItems.push({
       objKod: f.itemId, ean: overrideMatches ? eanOverride.ean : '', isFromPriceList: false,
       name: f.productName,
       manufacturer: f.manufacturer,
-      defaultCategory: mappedCategory || FALLBACK_BY_MANUFACTURER[f.manufacturer] || 'TV, audio a video > Audio technika > Doplnky',
+      // Curated Bose SKUs get the known valid Bose category even if BASYS omits or varies the brand field.
+      defaultCategory: mappedCategory || (onOrderItem ? FALLBACK_BY_MANUFACTURER.Bose : FALLBACK_BY_MANUFACTURER[f.manufacturer]) || 'TV, audio a video > Audio technika > Doplnky',
       categoryWasMapped: !!mappedCategory,
       mocInclVat: f.priceVat, purchasePriceExclVat: priceExclVat / ESTIMATED_MARKUP_MULTIPLIER,
       // Bose produkty mimo cenníka: vždy "Na objednávku", cena z feedu (viď data/basys-bose-on-order.json).
       forceOnOrder: /^bose$/i.test(f.manufacturer),
       // Skutočná nákupka z e-shopu (napr. z pôvodného cenníka) má prednosť pred odhadom z feedu.
-      ...(onOrderItemForCode(f.itemId)?.purchasePriceExclVat > 0 ? { purchasePriceExclVat: onOrderItemForCode(f.itemId).purchasePriceExclVat } : {}),
+      ...(onOrderItem?.purchasePriceExclVat > 0 ? { purchasePriceExclVat: onOrderItem.purchasePriceExclVat } : {}),
     });
   }
   // Bose produkt mimo cenníka, ktorý BASYS feed už neposiela, sa nedopĺňa: apply-missing-availability ho nastaví na
