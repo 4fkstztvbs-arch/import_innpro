@@ -467,7 +467,8 @@ async function main() {
         resetAction: item.isFromPriceList && !onPromo,
         clearActionPrice: promoteActionToRegular,
         // Nová SKU z cenníka bez karty v e-shope a bez fotiek zostane skrytá, kým nepribudnú fotky.
-        hidden: item.isFromPriceList && !isInShop(item.objKod) && images.length === 0,
+        hidden: item.isFromPriceList && !isInShop(item.objKod) && images.length === 0
+          && !loadOnOrder().has(norm(item.objKod)),
       },
     });
   }
