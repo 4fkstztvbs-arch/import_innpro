@@ -16,13 +16,23 @@ for (const b of xml.match(/<SHOPITEM>[\s\S]*?<\/SHOPITEM>/g) || []) {
 }
 const problems = [];
 let hidden = 0;
+let hiddenBelowCost = 0;
 for (const [key, item] of loadOnOrder()) {
   const b = feed.get(key);
   if (!b) { problems.push(`${item.objKod}: chýba vo feede`); continue; }
   // Produkt, ktorý BaSys prestal viesť, je legitímne skrytý záznamom "Vypredané" + detailOnly (apply-missing-availability).
   if (!tag(b, 'NAME') && tag(b, 'AVAILABILITY') === 'Vypredané' && tag(b, 'VISIBILITY') === 'detailOnly') { hidden++; continue; }
   if (tag(b, 'AVAILABILITY') !== 'Na objednávku') problems.push(`${item.objKod}: dostupnosť "${tag(b, 'AVAILABILITY')}" namiesto "Na objednávku"`);
-  if (tag(b, 'VISIBILITY') && tag(b, 'VISIBILITY') !== 'visible') problems.push(`${item.objKod}: viditeľnosť "${tag(b, 'VISIBILITY')}"`);
+  if (tag(b, 'VISIBILITY') && tag(b, 'VISIBILITY') !== 'visible') {
+    const sellingGross = Number(tag(b, 'PRICE_VAT'));
+    const purchaseNet = Number(tag(b, 'PURCHASE_PRICE'));
+    const vat = Number(tag(b, 'PURCHASE_VAT'));
+    const isSafelyHiddenBelowCost = tag(b, 'VISIBILITY') === 'hidden'
+      && sellingGross > 0 && purchaseNet > 0 && Number.isFinite(vat) && vat >= 0
+      && sellingGross / (1 + vat / 100) < purchaseNet;
+    if (isSafelyHiddenBelowCost) hiddenBelowCost++;
+    else problems.push(`${item.objKod}: viditeľnosť "${tag(b, 'VISIBILITY')}" bez potvrdeného dôvodu pod nákupnou cenou`);
+  }
 }
 const pricelist = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'basys-bose-pricelist.json'), 'utf8'));
 for (const p of pricelist) {
@@ -33,4 +43,4 @@ if (problems.length) {
   console.error(`BASYS Bose "Na objednávku" poistka zlyhala (${problems.length}):\n - ${problems.join('\n - ')}`);
   process.exit(1);
 }
-console.log(`BASYS Bose "Na objednávku": ${loadOnOrder().size} produktov mimo cenníka: ${loadOnOrder().size - hidden} "Na objednávku", ${hidden} skrytých (BaSys ich už nevedie).`);
+console.log(`BASYS Bose "Na objednávku": ${loadOnOrder().size} položiek mimo cenníka: ${loadOnOrder().size - hidden - hiddenBelowCost} viditeľných, ${hiddenBelowCost} bezpečne skrytých pod nákupnou cenou, ${hidden} už BaSys nevedie.`);
