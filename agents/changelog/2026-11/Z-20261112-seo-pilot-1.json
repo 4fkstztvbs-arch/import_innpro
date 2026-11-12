@@ -1,0 +1,67 @@
+{
+  "id": "Z-20261112-seo-pilot-1",
+  "datum": "2026-11-12",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "experiment": "E-20261112-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Pilot pozícií 4 až 10, dávka 1: nový SEO titulok a meta popis pre 3 produkty zo skupiny TEST (bez textu o cene a dostupnosti).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "087844",
+      "guid": "2f927c3e-92c6-11f1-b9f5-bc2411833e01",
+      "url": "https://www.premiumstore.sk/bezdrotovy-adapter-ottocast-ottoaibox-p3-pro-pre-android/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Ottocast OTTOAIBOX P3 Pro adaptér Android",
+          "po": "Ottocast OTTOAIBOX P3 Pro – bezdrôtový CarPlay adaptér"
+        },
+        "metaDescription": {
+          "pred": "Adaptér Ottocast OTTOAIBOX P3 Pro pre CarPlay a Android Auto: Android 13, Snapdragon 6225, výstup HDMI. Kompatibilitu a cenu nájdete na PremiumStore.sk.",
+          "po": "Adaptér Ottocast P3 Pro pre autá s káblovým CarPlay: bezdrôtový CarPlay a Android Auto, Android 13, Snapdragon 6225 a HDMI výstup."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "084414",
+      "guid": "f938fe42-92c5-11f1-b69b-bc2411833e01",
+      "url": "https://www.premiumstore.sk/geekom-a7max-mini-pc-ryzen-9-7940hs-16-gb-ram-1-tb-ssd-win-11-pro/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Mini PC GEEKOM A7 Max, Ryzen 9 7940HS, 16 GB, 1 TB",
+          "po": "Mini PC GEEKOM A7 Max Ryzen 9 7940HS, 16 GB, 1 TB SSD"
+        },
+        "metaDescription": {
+          "pred": "Mini PC GEEKOM A7 Max s procesorom Ryzen 9 7940HS, 16 GB RAM, 1 TB SSD a Windows 11 Pro. Je to perfektná rovnováha medzi zábavou a kreatívnou prácou.",
+          "po": "Mini PC GEEKOM A7 Max s Ryzen 9 7940HS, 16 GB DDR5 a 1 TB SSD. Windows 11 Pro, 2× USB4, 2× LAN 2,5 GbE, Wi-Fi 7, rozmery 135 × 132 mm."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001575259",
+      "guid": "2685394c-b864-11f1-be2a-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/hori-ps5-ps4-pc-rwa--racing-wheel-apex/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Volant Hori Racing Wheel Apex pre PS5, PS4, PC",
+          "po": "Hori Racing Wheel Apex – závodný volant pre PS5, PS4, PC"
+        },
+        "metaDescription": {
+          "pred": "Závodný volant Hori Racing Wheel Apex pre PS5, PS4 a PC s otáčaním 270°, programovateľnými funkciami a vibračnou odozvou. Objednajte na PremiumStore.sk.",
+          "po": "Závodný volant Hori Racing Wheel Apex pre PS5, PS4 a PC: otáčanie 270°, programovateľné ovládanie, vibračná odozva. Záruka 24 mesiacov."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-12",
+    "ok": true,
+    "poznamka": "Shoptet potvrdil zápis iba polí metaTitle a metaDescription; cena, sklad, dostupnosť a viditeľnosť sa nemenili."
+  },
+  "trvanlivost": null,
+  "navrat": null
+}
