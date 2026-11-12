@@ -57,7 +57,7 @@ Cieľ roly obsah je presúvať produkty do triedy A v poradí: produkty s návš
 
 ## Šablóna názvu produktu
 
-Platí pre všetky roly (obsah, SEO). Zosúladené 12. 11. 2026 so zásadami v `agent/rules/product-content-seo.md` (značka + model + overené rozlišovacie znaky, prirodzená slovenčina, bez keyword stuffingu) a s existujúcimi 2 221 záznamami v `data/localization/product-names-sk.json` (tvar „Typ Značka Model“). Čaká na potvrdenie Martina; do potvrdenia sa názvy menia len v pilotnej dávke do 20 produktov.
+Platí pre všetky roly (obsah, SEO). Zosúladené 12. 11. 2026 so zásadami v `agent/rules/product-content-seo.md` (značka + model + overené rozlišovacie znaky, prirodzená slovenčina, bez keyword stuffingu) a s existujúcimi 2 221 záznamami v `data/localization/product-names-sk.json` (tvar „Typ Značka Model“). Šablónu potvrdil Martin 12. 11. 2026.
 
 Tvar: `{Typ produktu} {Značka} {Model} {1 až 2 rozlišovacie parametre}`
 
@@ -66,6 +66,6 @@ Tvar: `{Typ produktu} {Značka} {Model} {1 až 2 rozlišovacie parametre}`
 - Parametre len tie, ktoré odlišujú variant: kapacita, výkon, farba, rozmer. Najviac dva.
 - Do približne 80 znakov, bez „…“, bez veľkých písmen celého názvu, bez názvu obchodu a bez slov o cene alebo dostupnosti.
 - Mení sa len `name` (a zodpovedajúci titulok). URL, kód a EAN sa nemenia. Pôvodný názov ide do `changelog/`.
-- Dodávateľský import názov prepisuje, preto pri trvalej zmene treba override vrstvu v repozitári (`data/localization/product-names-sk.json`, `innpro-name-overrides.json`) alebo úlohu overenia trvanlivosti zápisov.
+- Import dodávateľov názov, popis ani meta údaje neprepisuje (prepis je vypnutý, potvrdil Martin 12. 11. 2026), preto stačí zápis priamo do Shoptetu a override vrstva netreba.
 
 Príklady: „Bezdrôtový adaptér CarPlay Ottocast OTTOAIBOX P3 Pro“, „Herný volant Moza Racing R5 Pro“, „Záväzacia loď Flytec V803 12 000 mAh“.
