@@ -37,7 +37,6 @@ jobs:
           PENTA_USERNAME: ${{ secrets.PENTA_USERNAME }}
           PENTA_PASSWORD: ${{ secrets.PENTA_PASSWORD }}
           PENTA_OUT: output/penta.xml
-          HEUREKA_PRICE_OVERRIDE: '1'
           # Temporary: first test run only imports categories with a confirmed match onto our
           # existing tree (reports/penta-kategorie-2026-08-24.md). Remove once the rest of the
           # categories are paired by hand and added to scripts/penta-mapping.json.
