@@ -2,7 +2,7 @@
 id: T-20261110-meranie-oprava-merania-ga4
 nazov: Audit merania GA4 (súhlas s cookies, udalosti, vyhľadávanie, UTM)
 rola: meranie
-stav: pripravene
+stav: v-praci
 priorita: 1
 vytvoril: ux-cro
 vytvorene: 2026-11-10
@@ -25,3 +25,4 @@ Zoznam nálezov s opravou alebo s postupom pre Martina; odchýlka objednávok GA
 ## Priebeh
 
 - 2026-11-10: Založené z prieskumu prvého dňa.
+- 2026-11-12: Martin doplnil parameter vyhľadávania do GA4; overené, vyhľadávanie sa meria (5 udalostí za 2 dni). Zostáva porovnať odchýlku objednávok GA4 a Shoptetu.
