@@ -4,18 +4,9 @@
 // It reports aggregate margin bands only; never prints per-product or purchase-price values.
 const fs = require('node:fs');
 
-const XML_PATH = process.env.KB_XML_IN || 'output/kb.xml';
+const MARGIN_DATA_PATH = process.env.KB_MARGIN_DATA || require('node:path').join(process.env.RUNNER_TEMP || '/tmp', 'kb-margin-data.json');
 const REPORT_PATH = process.env.KB_PRICE_ANOMALY_REPORT || 'reports/cenove-anomalie-kb.md';
 
-function decode(value) {
-  return String(value || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
-    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"').replace(/&apos;/g, "'").trim();
-}
-function tag(block, name) {
-  const match = block.match(new RegExp('<' + name + '(?:\\s[^>]*)?>([\\s\\S]*?)<\\/' + name + '>', 'i'));
-  return match ? decode(match[1]) : '';
-}
 function number(value) {
   const parsed = Number(String(value || '').replace(/[^0-9.+-]/g, ''));
   return Number.isFinite(parsed) ? parsed : 0;
@@ -33,23 +24,12 @@ function addBand(result, sellGross, cost, vatRate) {
   else result.atLeast10++;
 }
 async function main() {
-  const xml = fs.readFileSync(XML_PATH, 'utf8');
+  const marginRows = JSON.parse(fs.readFileSync(MARGIN_DATA_PATH, 'utf8'));
   const report = fs.readFileSync(REPORT_PATH, 'utf8');
-  const products = new Map();
-  for (const match of xml.matchAll(/<SHOPITEM\b[^>]*>[\s\S]*?<\/SHOPITEM>/gi)) {
-    const block = match[0];
-    products.set(tag(block, 'CODE'), {
-      cost: number(tag(block, 'PURCHASE_PRICE')),
-      vat: number(tag(block, 'PURCHASE_VAT')) || 23,
-    });
-  }
-
-  const response = await fetch('https://api.frankfurter.app/latest?from=CZK&to=EUR');
-  if (!response.ok) throw new Error('Frankfurter FX lookup failed with HTTP ' + response.status);
-  const data = await response.json();
-  const rate = Number(data && data.rates && data.rates.EUR);
-  if (!(rate > 0)) throw new Error('Frankfurter did not return a CZK->EUR rate.');
-  const czkPerEur = 1 / rate;
+  const products = new Map(marginRows.map(row => [row.code, {
+    cost: number(row.purchasePrice),
+    vat: number(row.vat) || 23,
+  }]));
 
   const candidates = [];
   for (const line of report.split(/\r?\n/)) {
