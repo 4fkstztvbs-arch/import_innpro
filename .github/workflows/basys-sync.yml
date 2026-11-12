@@ -21,6 +21,7 @@ on:
       - "data/product-content/basys.json"
       - "scripts/transform-basys.js"
       - "scripts/lib/basys-bose.js"
+      - "scripts/check-basys-bose-on-order.js"
       - "scripts/check-feed-size.js"
 
 permissions:
