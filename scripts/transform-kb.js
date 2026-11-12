@@ -224,6 +224,14 @@ async function main() {
     if (!url) { console.error(`Missing ${name} environment variable.`); process.exit(1); }
   }
 
+  console.log('Fetching CZK->EUR rate for suspected K-B sale-price currency mismatches...');
+  const fxResponse = await fetch('https://api.frankfurter.app/latest?from=CZK&to=EUR');
+  if (!fxResponse.ok) throw new Error('CZK->EUR FX lookup failed with HTTP ' + fxResponse.status);
+  const fxData = await fxResponse.json();
+  const czkToEur = Number(fxData && fxData.rates && fxData.rates.EUR);
+  if (!(czkToEur > 0)) throw new Error('Could not fetch a valid CZK->EUR rate from frankfurter.app');
+  console.log(`  -> 1 CZK = ${czkToEur} EUR`);
+
   console.log('Loading category tree...');
   const kategorieRecords = await loadAllRecords(KATEGORIE_URL);
   const categories = {}; // id -> {name, parent}
@@ -366,6 +374,22 @@ async function main() {
     if (recommended > 0) { price = recommended; stats.usedRecommendedPrice++; }
     else { price = roundPrice(cenaNakupna * (1 + MARKUP_PCT / 100) * (1 + parseFloat(vat) / 100)); stats.usedMarkupPrice++; }
 
+    // K-B sale-price fields can be CZK while PURCHASE_PRICE remains EUR. Convert only when
+    // the raw value is >5x the previous accepted EUR price and the converted value is within 25%.
+    let convertedFromCzk = false;
+    const previousSellPrice = previousPrices.byCode.has(code)
+      ? previousPrices.byCode.get(code)
+      : (ean && previousPrices.byEan.has(ean) ? previousPrices.byEan.get(ean) : 0);
+    if (recommended > 0 && previousSellPrice > 0 && price / previousSellPrice > 5) {
+      const convertedPrice = roundPrice(price * czkToEur);
+      const convertedRatio = convertedPrice / previousSellPrice;
+      if (convertedRatio >= 0.75 && convertedRatio <= 1.25) {
+        price = convertedPrice;
+        convertedFromCzk = true;
+        stats.czkToEurConverted = (stats.czkToEurConverted || 0) + 1;
+      }
+    }
+
     if (cenaNakupna > 0) {
       const floor = cenaNakupna * (1 + MIN_MARGIN_PCT / 100) * (1 + parseFloat(vat) / 100);
       if (price < floor) { price = roundPriceUp(floor); stats.marginFloorApplied++; }
@@ -437,7 +461,7 @@ async function main() {
     }
 
     rawCandidates.push({
-      code, ean, name, category: defaultCategory, price,
+      code, ean, name, category: defaultCategory, price, convertedFromCzk, previousSellPrice,
       shopitemData: {
         code, name, description: finalDescription, shortDescription, manufacturer, ean, warranty,
         defaultCategory, extraCategories, image, availability, price,
@@ -452,7 +476,9 @@ async function main() {
   fs.writeFileSync(marginDataPath, JSON.stringify(rawCandidates.map((c) => ({
     code: c.code, purchasePrice: c.shopitemData.purchasePrice, vat: c.shopitemData.vat,
     previousPurchasePrice: previousPurchasePriceByCode.get(c.code) || 0,
+    price: c.price, convertedFromCzk: c.convertedFromCzk, previousSellPrice: c.previousSellPrice,
   }))));
+  fs.writeFileSync(marginDataPath.replace(/kb-margin-data\\.json$/, 'kb-margin-meta.json'), JSON.stringify({ czkToEur }));
 
   const feedCategoryStats = buildFeedCategoryStats(rawCandidates);
   const categoryStats = mergeCategoryStats(feedCategoryStats, catalogCategoryStats);
