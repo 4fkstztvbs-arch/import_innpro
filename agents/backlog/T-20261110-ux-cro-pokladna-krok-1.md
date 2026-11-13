@@ -2,7 +2,7 @@
 id: T-20261110-ux-cro-pokladna-krok-1
 nazov: Rozbor prvého kroku pokladne
 rola: ux-cro
-stav: v-praci
+stav: hotovo
 priorita: 2
 vytvoril: ux-cro
 vytvorene: 2026-11-10
@@ -35,4 +35,6 @@ Nálezy s návrhmi úprav a nadväzujúce úlohy.
   - Záver: krok 1 vyzerá čisto, jediné podozrenie je nejasné vysvetlenie nedostupnej platby v hotovosti a rozdiel medzi skrytými tlačidlami (nejednotné popisy sa týkajú len skrytých prvkov). Ďalší krok: pozrieť Clarity nahrávky z kroku 2 (údaje), kde je pravdepodobne väčšia strata, a krok 1 na mobile skúsiť pri košíku nad limit dobierky. Úloha ostáva v práci.
 - 2026-11-12 (ux-cro, druhá analýza, Clarity relácie za 30 dní, len percentá): z relácií, ktoré videli krok 1, pokračovalo na krok 2 56 % na počítači a 61 % na mobile. Z relácií na kroku 2 sa dostalo na stránku „Ďakujeme“ 37 % na počítači, ale len 28 % na mobile. Najväčšia strata na mobile je teda na kroku 2 (údaje a odoslanie), nie na kroku 1. Mŕtve kliky na kroku 2 sú nulové, rýchle návraty zanedbateľné, priemerný čas na kroku 2 je 81 s na mobile a 115 s na počítači. Čísla z Clarity sa líšia od GA4 (iná definícia relácie a časť relácií chýba v GA4), berieme ich ako smer, nie presnú mieru.
   - Ďalší krok: zoznam nahrávok z mobilu, ktoré skončili na /objednavka/krok-2/, a pozrieť ktoré polia formulára sa vypĺňajú a kde ľudia odchádzajú (vyplnený text, čas, návrat), potom navrhnúť experiment (napr. menej povinných polí, automatické doplnenie).
+- 2026-11-13 (ux-cro, tretia analýza, vzorka 25 nahrávok z mobilu, odchod na /objednavka/krok-2/ za 7 dní): oprava predchádzajúceho záveru. Vo vzorke 17 z 25 relácií kliklo na tlačidlo „Objednať s povinnosťou platby“ (posledný klik pred odchodom), takže tie nie sú opustené košíky, ale odoslané objednávky. Pri platbe kartou alebo Apple Pay sa zákazník presúva na platobnú bránu a Clarity stránku „Ďakujeme“ nezaznamená. Nižší podiel mobilov na stránke „Ďakujeme“ (28 % oproti 37 % na počítači) teda pravdepodobne čiastočne vzniká meraním, nie stratou predaja. Skutočne neodoslaných bolo cca 8 z 25 (7 bez zadaného textu, medián času na kroku 28 s).
+  - Odporúčanie: nerobiť úpravu kroku 2 len na základe tohto čísla. Najprv overiť v GA4 (úloha merania), či sa udalosť nákupu zaznamená aj pri návrate z platobnej brány. Úloha pokladna-krok-1 sa týmto uzatvára ako rozbor, pokračuje meranie.
 
