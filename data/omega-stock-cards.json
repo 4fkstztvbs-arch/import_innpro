@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600802,
+    "nextCardNumber": 202600809,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4808,6 +4808,48 @@
         "nazov": "Dash Cam DDPAI N3 Pro",
         "dodavatel": "innpro",
         "code": "093880"
+      },
+      "8592920103395": {
+        "kod": "202600802",
+        "nazov": "Termostat EMOS P5607 pokojový",
+        "dodavatel": "atos",
+        "code": "EMO2101209000"
+      },
+      "8594016909546": {
+        "kod": "202600803",
+        "nazov": "TV FINLUX napájecí kabel 12V /X-9999-996/",
+        "dodavatel": "atos",
+        "code": "FINTV19K12V"
+      },
+      "8592920146347": {
+        "kod": "202600804",
+        "nazov": "LED vánoční řetěz, 18 m, venkovní i vnitřní, teplá bílá, programy, časovač",
+        "dodavatel": "atos",
+        "code": "EMO1550040044"
+      },
+      "8592920146521": {
+        "kod": "202600805",
+        "nazov": "LED vánoční cherry řetěz – kuličky, 30 m, venkovní i vnitřní, teplá bílá, programy,",
+        "dodavatel": "atos",
+        "code": "EMO1550050012"
+      },
+      "9638527419631": {
+        "kod": "202600806",
+        "nazov": "Přepínač automatický sítí - napájení 4P 400V 100A - NLQ4-125/4P pro FVE",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "5902560329186": {
+        "kod": "202600807",
+        "nazov": "Optický snímač pro odpočet elektroměru ORNO OR-WE-518",
+        "dodavatel": "atos",
+        "code": "SPR-2KZORWE518"
+      },
+      "5901122682424": {
+        "kod": "202600808",
+        "nazov": "Proudový chránič GACIA PR8HM typ B /40A/30mA/4P/10kA",
+        "dodavatel": "atos",
+        "code": "PR8HM4P40A30MAB"
       }
     }
   },
