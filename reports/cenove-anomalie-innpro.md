@@ -11,7 +11,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 023379X |  | Antény pre prijímač DJI Pro | nulová/neplatná cena |  | 0.00 € |  |  |
 | 011632X |  | Monitor 5,5" DJI CrystalSky | nulová/neplatná cena |  | 0.00 € |  |  |
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084203 | 6975755966342 | Flextail Tiny Tire Pump 200 (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084217 | 6971670130851 | Flextail Portable Hookah Pump (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084223 | 6975755962559 | Flextail Portable Evo Lantern 2in1 (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -302,8 +301,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 091848 | 5905156111042 | Parkovacie kúrenie Hcalory HBS-3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093465 | 6975274260402 | Solárny panel ALLPOWERS SF200 200 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093470 | 6975274260457 | Solárny panel Allpowers SP039 600 W, monokryštalický, prenosný | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094048 | 6975828005169 | Prenosná nabíjačka pre elektromobily dé 22 kW s 7 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
-| 094050 | 6975828005183 | Prenosná nabíjačka pre elektromobily dé 22 kW s káblom 15 m | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094052 | 6975828005206 | Nabíjacia stanica Wallbox dé  11 kW s 5 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094332 | 6972792472454 | Mouse pad ATTACK SHARK CM02 (dark gray) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094333 | 6972792472447 | Mouse pad ATTACK SHARK CM02 (white contour) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -434,7 +431,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096513 | 6942580510538 | Action camera FOSSIBOT FC360 8K EU (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096541 | 6977402873034 | VR okuliare PIMAX DREAM, verzia Air Slam | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096542 | 6977402873072 | VR okuliare PIMAX DREAM Air SE, verzia Slam | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035845 | 6941565916839 | Luminiscenčná letová mapa DJI RoboMaster TT | zmena ceny > 5x oproti minulému importu | 801.00 € | 146.50 € | 1/5.5x |  |
-| 061857 | 6976788020391 | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (ružové) | zmena ceny > 5x oproti minulému importu | 16.00 € | 3.10 € | 1/5.2x |  |
 | 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 11.00 € | 1/13.1x | 13 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 8.10 € | 1/17.8x | 13 |
