@@ -42,11 +42,27 @@
           "po": "Televízor Samsung QE65S90H, 65\" (165,1 cm) OLED 4K z roku 2026: samosvietivé pixely, Dolby Atmos a operačný systém Tizen."
         }
       }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002134565",
+      "guid": "e3f60188-92ac-11f1-8fe2-bc2411833e01",
+      "url": "https://www.premiumstore.sk/samsung-qe65qn990f-neo-qled-8k/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Samsung QE65QN990F 65\" Neo QLED 8K televízor",
+          "po": "Samsung QE65QN990F 65\" Neo QLED 8K televízor, 90 W"
+        },
+        "metaDescription": {
+          "pred": "Samsung QE65QN990F: 65\" Neo QLED 8K televízor s Quantum Mini LED a zvukom 90 W s Dolby Atmos. Cenu a ďalšie parametre nájdete na PremiumStore.sk.",
+          "po": "Televízor Samsung QE65QN990F: 65\" Neo QLED 8K, Quantum Mini LED Pro, zvuk 90 W s Dolby Atmos, dva tunery a antireflexná obrazovka."
+        }
+      }
     }
   ],
   "overenie": {
     "kedy": "2026-11-13",
     "ok": true,
-    "poznamka": "Shoptet potvrdil zápis polí (UE65M80H: name, metaTitle, metaDescription; QE65S90H: metaTitle, metaDescription)."
+    "poznamka": "Shoptet potvrdil zápis polí pre všetky 3 produkty (UE65M80H aj name)."
   }
 }
