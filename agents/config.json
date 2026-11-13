@@ -24,7 +24,8 @@
         4,
         5,
         6
-      ]
+      ],
+      "sedenie": "vlakno"
     },
     "hlavny-agent": {
       "model": "claude-sonnet-5-5",
@@ -38,7 +39,8 @@
         4,
         5,
         6
-      ]
+      ],
+      "sedenie": "vlakno"
     },
     "seo": {
       "model": "claude-sonnet-5-5",
@@ -50,19 +52,23 @@
         3,
         4,
         5
-      ]
+      ],
+      "sedenie": "novy-beh"
     },
     "obsah": {
       "model": "claude-sonnet-5-5",
       "effort": "medium",
-      "cron": "CRON_TZ=Europe/Bratislava 10 10 * * 1-5",
+      "cron": "CRON_TZ=Europe/Bratislava 10 10,12,14,16,18 * * *",
       "dni": [
+        0,
         1,
         2,
         3,
         4,
-        5
-      ]
+        5,
+        6
+      ],
+      "sedenie": "novy-beh"
     },
     "ux-cro": {
       "model": "claude-sonnet-5-5",
@@ -74,7 +80,8 @@
         3,
         4,
         5
-      ]
+      ],
+      "sedenie": "vlakno"
     },
     "reklama": {
       "model": "claude-sonnet-5-5",
@@ -83,7 +90,8 @@
       "dni": [
         1,
         4
-      ]
+      ],
+      "sedenie": "vlakno"
     }
   },
   "limity": {
@@ -130,5 +138,6 @@
     "amount",
     "mnozstvo"
   ],
-  "sukromnyPriecinok": "/mnt/project-files/eshop-agents/"
+  "sukromnyPriecinok": "/mnt/project-files/eshop-agents/",
+  "sedeniePoznamka": "novy-beh: kazdy beh je nove sedenie bez pamate, stav je len v repozitari (Martin 2026-11-13). vlakno: naplanovana uloha budi stale to iste vlakno, lebo rola potrebuje Chrome na Macu (Remote Control) alebo posiela report koordinatorovi."
 }

@@ -9,7 +9,7 @@ Zdroj pravdy je `agents/config.json`, časť `beh`. Tabuľka je jej opis.
 | meranie | denne 05:20 | Haiku 5.5 | medium | Rutinný zber čísel a kontroly podľa pevného postupu, výpočty robí skript |
 | hlavny-agent | denne 07:05 | Sonnet 5.5 | low | Malý objem, ale rozhoduje o prioritách a píše report |
 | seo | po, st, pi 09:10 | Sonnet 5.5 | medium | Dáta z vyhľadávania sa menia pomaly; texty idú naživo do e-shopu |
-| obsah | po–pi 10:10 | Sonnet 5.5 | medium | Kvalita textov rozhoduje, tu sa nešetrí na modeli, ale na veľkosti dávky |
+| obsah | denne 10:10, 12:10, 14:10, 16:10, 18:10 | Sonnet 5.5 | medium | Kvalita textov rozhoduje, tu sa nešetrí na modeli, ale na veľkosti dávky |
 | ux-cro | po–pi 9:40, 13:40, 17:40 | Sonnet 5.5 | medium | Správanie sa hodnotí po dňoch; zmeny šablóny sú rizikové |
 | reklama | po, št 12:40 | Sonnet 5.5 | low | Reklama sa hodnotí na 14 dňoch dát a bez schválenia nič nemení |
 
@@ -28,9 +28,29 @@ Fable 5.2 sa používa len na zmeny samotnej kostry, keď o to Martin požiada. 
 7. **Ticho vo vlákne.** Rola do vlákna píše len vtedy, keď niečo potrebuje Martina.
 8. **Krátka pamäť vlákna.** Vlákno roly, ktoré beží dlhšie ako 30 dní, nahradí koordinátor novým (stav je v repozitári, nič sa nestratí). Dlhé vlákna sú zbytočne drahé.
 
+## Sedenie behu: nové alebo vlákno (Martin 2026-11-13)
+
+Martin chce šetriť limit: dlhá história vlákna zdražuje každý beh. Preto platí pole `beh.<rola>.sedenie` v `config.json`:
+
+| Rola | Sedenie | Prečo |
+|---|---|---|
+| seo | novy-beh | Stav je v repozitári (handoff, backlog, experimenty), nástroje Shoptet MCP a OpenSEO |
+| obsah | novy-beh | Stav je v repozitári, nástroje Shoptet MCP a OpenSEO |
+| ux-cro | vlakno | Potrebuje Chrome na Martinovom Macu (Remote Control), ktorý vie otvoriť len vlákno |
+| reklama | vlakno | Číta živé čísla kampaní cez Chrome na Macu (Remote Control) |
+| meranie | vlakno | Clarity a Chrome idú cez Mac; je to lacný beh na Haiku |
+| hlavny-agent | vlakno | Plné znenie reportu posiela koordinátorovi a vo vlákne, čo nové sedenie nevie |
+
+Pravidlá pre rolu s `novy-beh`:
+- Naplánovaná úloha (`PS agenti: <rola>`) vždy otvorí nové sedenie bez pamäte. Text úlohy v ňom hovorí, čo prečítať: `config.json`, svoj súbor v `roles/`, `RULES.md`, `NASTROJE.md`, posledné dva vlastné handoffy, úlohy v backlogu a experimenty.
+- Každý handoff roly KONČÍ časťou `## Kde pokračovať` s konkrétnym ďalším krokom (kódy, GUID, kurzor). Čo nie je v repozitári, ďalší beh nevie.
+- Nové sedenie nemá Chrome na Macu. Ak úloha vyžaduje administráciu alebo Chrome, rola to zapíše do handoffu ako požiadavku pre hlavného agenta (ten ju odovzdá vláknu s prístupom, napr. ux-cro).
+- Ak v novom sedení chýba nástroj (Shoptet MCP, OpenSEO), rola to zapíše do handoffu do "Problémy" a skončí. Ak sa to opakuje dva behy, hlavný agent to oznámi koordinátorovi a rola sa vráti na `vlakno`.
+- Zmenu `sedenie` robí len hlavný agent alebo vlákno kostry spolu s úpravou naplánovanej úlohy a týmto súborom.
+
 ## Ako rutiny vznikajú
 
-Každá rola má vlastné vlákno a v ňom jednu naplánovanú úlohu, ktorá budí to isté vlákno (naplánovaná úloha bez nového sedenia, teda pokračuje v tom istom vlákne a na jeho modeli). Model a úsilie patria vláknu, nie naplánovanej úlohe: vlákno si ich nastaví podľa tabuľky vyššie, keď mu koordinátor odovzdá Martinov pokyn.
+Každá rola má vlastné vlákno a v ňom jednu naplánovanú úlohu, ktorá budí to isté vlákno (pri `sedenie: vlakno` bez nového sedenia, teda pokračuje v tom istom vlákne a na jeho modeli; pri `novy-beh` sa každý beh otvorí ako nové sedenie s modelom a úsilím projektu (Sonnet 5.5, medium)). Model a úsilie patria vláknu, nie naplánovanej úlohe: vlákno si ich nastaví podľa tabuľky vyššie, keď mu koordinátor odovzdá Martinov pokyn.
 
 Naplánovanú úlohu si vytvára každá rola sama až po ZACNI. Pred ZACNI nesmie existovať žiadna naplánovaná úloha tohto systému.
 
