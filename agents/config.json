@@ -95,8 +95,8 @@
     }
   },
   "limity": {
-    "zmenenychProduktovDenneSpolu": 60,
-    "obsahProduktovNaBeh": 20,
+    "zmenenychProduktovDenneSpolu": 100,
+    "obsahProduktovNaBeh": 15,
     "seoStranokNaBeh": 30,
     "uxZmienSablonyNaTyzden": 2,
     "novychExperimentovNaTyzden": 3,
