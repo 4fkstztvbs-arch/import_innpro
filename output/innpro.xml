@@ -11064,6 +11064,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -58211,9 +58212,6 @@ Maximálny záťažový prúd:
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>038492</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6920075740042</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart zásuvky]]></CATEGORY>
@@ -60335,6 +60333,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -88946,7 +88945,7 @@ Sklo
 <UNIT>ks</UNIT>
 <CODE>044436</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6932172624811</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Tvrdené sklá a fólie]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
@@ -104676,10 +104675,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -105420,9 +105421,6 @@ Farba
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>057076</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>5905316148932</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY>
@@ -128371,6 +128369,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -140203,10 +140202,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.60</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -146876,6 +146877,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -146971,6 +146973,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -151944,6 +151947,7 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -156345,9 +156349,6 @@ Inteligentná fontána pre zvieratá Eversweet Max Petkit
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>066277</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>5906168435454</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY>
@@ -177502,14 +177503,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -188074,7 +188075,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>071868</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5907085520773</EAN>
 <CATEGORIES>
@@ -188247,6 +188248,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>071859</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>5907085520421</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY>
@@ -188456,6 +188460,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -199314,6 +199319,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -199839,14 +199845,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -223210,6 +223216,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>076066</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>0843367124800</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Disky a pamäťové médiá > USB kľúče]]></CATEGORY>
@@ -234987,6 +234996,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -239880,9 +239890,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>077573</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>5907085526102</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY>
@@ -240391,6 +240398,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -254036,60 +254044,62 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Baza na joystick Moza Racing AY210 (PC) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Základňa volantu MOZA RACING R12 V2 RS081 (PC)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Moza Racing R12 V2 RS081 Základňa volantu (PC) Posuňte svoju simuláciu na vyššiu úroveň so základňou volantu MOZA R12 V2, ktorá kombinuje profesionálnu presnosť, krútiaci moment 12 Nm a mimoriadne…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Moza Racing R12 V2 RS081 Základňa volantu (PC)</h3>
-<p>Posuňte svoju simuláciu na vyššiu úroveň so základňou volantu MOZA R12 V2, ktorá kombinuje profesionálnu presnosť, krútiaci moment 12 Nm a mimoriadne rýchlu odozvu s kompaktnou a odolnou konštrukciou z leteckého hliníka. Vďaka priamemu pohonu, pokročilému algoritmu FFB a inteligentnému systému chladenia ponúka táto súprava mimoriadne realistický zážitok z jazdy a plnú kontrolu nad každým manévrom. Ovládanie prostredníctvom mobilnej aplikácie a intuitívneho softvéru Pit House umožňuje rýchlu a pohodlnú úpravu nastavení aj počas pretekov. Je to hardvér vytvorený pre hráčov, ktorí očakávajú viac.</p>
+<NAME><![CDATA[Základňa s priamym pohonom MOZA R12 V2 (PC)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Základňa volantu Moza Racing R12 V2 RS081 (PC) Posuňte svoj simulačný zážitok na novú úroveň s modelom MOZA R12 V2 – základňou volantu, ktorá spája profesionálnu presnosť, krútiaci moment 12 Nm a…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Základňa volantu Moza Racing R12 V2 RS081 (PC)</h3>
+<p>Posuňte svoj simulačný zážitok na novú úroveň s modelom MOZA R12 V2 – základňou volantu, ktorá spája profesionálnu presnosť, krútiaci moment 12 Nm a bleskovú odozvu s kompaktnou a odolnou konštrukciou z hliníka používaného v leteckom priemysle. Vďaka mechanizmu priameho pohonu, pokročilému algoritmu FFB a inteligentnému chladiacemu systému ponúka táto súprava mimoriadne realistický zážitok z jazdy a plnú kontrolu nad každým manévrom. Ovládanie prostredníctvom mobilnej aplikácie a intuitívneho softvéru Pit House umožňuje rýchle a pohodlné nastavenie parametrov aj uprostred pretekov. Toto zariadenie je určené pre hráčov, ktorí očakávajú viac.</p>
 <p>
-<img alt="" border="0" src="https://assets.innpro.pl/17375/22969/2.jpg"/>
-</p><h3>Simulácia ako v skutočnom aute</h3>
-<p>Srdcom zariadenia je priamy servopohon s krútiacim momentom 12 Nm. Táto úroveň výkonu dokonale reprodukuje odpor volantu v pretekárskych a cestných autách, čím poskytuje mimoriadne realistický zážitok. Každá zákruta, každá nerovnosť na vozovke a každé preťaženie sa prenáša priamo do vašich rúk, čo vytvára úplné ponorenie do virtuálneho sveta pretekov. Výkonný motor v modeli R12 má pritom pokročilú konštrukciu využívajúcu šikmé usporiadanie prevodov inšpirované riešeniami z vlajkovej lode R21. Rozdelením rotora na tri presne navrhnuté časti znižuje hardvér účinky trhania, elektromagnetické vibrácie a hluk. Výsledok? Mimoriadne hladká prevádzka a takmer nehlučná jazda aj pri veľkom zaťažení.</p>
+<img alt="Základňa herného volantu s bielym nápisom „MOZA“ zobrazená pod uhlom." border="0" src="https://assets.innpro.pl/17375/22969/2-iop-4ffabf3f-f0c6-417b-a27f-8d80012cbb39.jpg"/>
+</p><h3>Simulácia presne ako v skutočnom aute</h3>
+<p>Srdcom zariadenia je servo s priamym pohonom a krútiacim momentom 12 Nm. Táto úroveň výkonu dokonale napodobňuje odpor riadenia typický pre pretekárske aj bežné automobily, čím poskytuje neuveriteľne realistický zážitok. Každá zákruta, každý nerovný úsek cesty a každá G-sila sa prenášajú priamo do vašich rúk, čím vytvárajú plne pohlcujúci zážitok vo virtuálnom svete pretekov. Výkonný motor v modeli R12 sa zároveň vyznačuje pokročilou konštrukciou využívajúcou uhlové usporiadanie pólov, inšpirovanou riešeniami z vlajkovej lode, modelu R21. Rozdelením rotora na tri presne navrhnuté sekcie motor znižuje trhavosť, elektromagnetické vibrácie a hluk. Výsledok? Výnimočne plynulá prevádzka a takmer bezhlučná jazda aj pri vysokom zaťažení.</p>
 <p>
-<img alt="" border="0" src="https://assets.innpro.pl/17375/22969/9.jpg"/>
+<img alt="Hráč v červeno-čiernych rukaviciach používa herný volant MOZA; v pozadí je viditeľná obrazovka." border="0" src="https://assets.innpro.pl/17375/22969/9.jpg"/>
 </p><h3>Výkon bez kompromisov</h3>
-<p>Použitie neodymových magnetov a vysoko priepustných magnetických jadier umožnilo dosiahnuť vysoký výkon pri nízkej spotrebe energie. Motor s 18 štrbinami a 16 pólmi poskytuje mimoriadne nízke zvlnenie krútiaceho momentu, vynikajúcu absorpciu vibrácií a plnú kontrolu bez ohľadu na rýchlosť. Vysoko výkonný 280 MHz procesor v kombinácii s optimalizovanými algoritmami zabezpečuje veľmi nízku latenciu odozvy sily FFB a volantu. Výsledkom je, že každý váš príkaz sa dostane k virtuálnemu vozidlu takmer okamžite, čo sa prejavuje v ešte lepšom ovládaní a plynulejšej jazde, čím sa vytvára dokonalé prostredie pre nadšencov online súťaží.</p>
+<p>Využitie neodymových magnetov a magnetických jadier s vysokou permeabilitou umožnilo dosiahnuť vysoký výkon pri nízkej spotrebe energie. Motor s 18 drážkami a 16 pólmi zaisťuje mimoriadne nízke kolísanie krútiaceho momentu, vynikajúce tlmenie vibrácií a plnú kontrolu bez ohľadu na rýchlosť. Vysoko výkonný procesor s frekvenciou 280 MHz v kombinácii s optimalizovanými algoritmami zaisťuje mimoriadne nízku latenciu spätnej väzby sily (FFB) a reakcie riadenia. Vďaka tomu sa každý váš príkaz dostane k virtuálnemu vozidlu takmer okamžite, čo sa prejavuje ešte lepšou kontrolou a plynulejším zážitkom z jazdy, čím sa vytvárajú ideálne podmienky pre nadšencov online pretekov.</p>
 <p>
-<img alt="" border="0" src="https://assets.innpro.pl/17375/22969/4.jpg"/>
+<img alt="Základňa herného volantu MOZA na tmavom pozadí." border="0" src="https://assets.innpro.pl/17375/22969/4-d55d7c04-313f-4f75-a4a4-25a7ff344f01.jpg"/>
 </p><h3>Algoritmy FFB</h3>
-<p>MOZA predstavuje pokročilý algoritmus filtrovania Force Feedback, ktorý obohacuje zážitok z jazdy o ešte viac detailov. Preťaženie, pretáčavosť alebo nedotáčavosť - všetko sa prenáša s výnimočnou jasnosťou a dynamikou, aby ste ešte lepšie pocítili hranice priľnavosti.</p>
+<p>MOZA predstavuje pokročilý algoritmus filtrovania spätnej väzby sily (FFB), ktorý obohacuje zážitok z jazdy o ešte viac detailov. Prevrátenie, pretáčavosť alebo nedotáčavosť – všetko je prenášané s výnimočnou jasnosťou a dynamikou, vďaka čomu môžete ešte lepšie vnímať hranice trakcie.</p>
 <p>
-<img alt="" border="0" src="https://assets.innpro.pl/17375/22969/7.jpg"/>
+<img alt="Základňa volantu Moza Racing R12 V2 na tmavom pozadí" border="0" src="https://assets.innpro.pl/17375/22969/5-iop-f1b73be7-ead0-4293-85c9-65676ea23999.jpg"/>
 </p><h3>Premyslený dizajn</h3>
-<p>Podvozok modelu R12 je vyrobený z leteckého hliníka a bol upravený farbou a laserovým gravírovaním. To je nielen špičková estetika, ale aj trvanlivosť a odolnosť voči náročnému používaniu. Štandardný držiak so 4 otvormi umožňuje inštaláciu do väčšiny kokpitov a stojanov. Ak je priestor obmedzený, môžete ho ľahko namontovať aj na stôl pomocou špeciálneho držiaka. Model R12 dbá aj na vašu bezpečnosť. Keď systém zistí, že ste pustili volant, okamžite zastaví vibrácie a bezpečne ho vycentruje, čím vás ochráni pred možným zranením a zabezpečí, že rýchlo získate späť kontrolu.</p>
+<p>Puzdro modelu R12 je vyrobené z hliníka používaného v leteckom priemysle a vyznačuje sa lakovaným povrchom a laserovým gravírovaním. To zaručuje nielen špičkový vzhľad, ale aj odolnosť a schopnosť vydržať náročné používanie. Štandardný 4-otvorový upevňovací systém umožňuje inštaláciu do väčšiny kokpitov a stojanov. Ak máte obmedzený priestor, môžete ho pomocou špeciálneho držiaka ľahko namontovať aj na stôl. Model R12 kladie dôraz aj na vašu bezpečnosť. Keď systém zistí, že ste pustili volant, okamžite zastaví vibrácie a volant bezpečne vycentruje, čím vás chráni pred potenciálnym zranením a zabezpečí, že rýchlo znovu získate kontrolu.</p>
 <p>
-<img alt="" border="0" src="https://assets.innpro.pl/17375/22969/6.jpg"/>
+<img alt="Základňa MOZA s herným volantom s pripojeným displejom." border="0" src="https://assets.innpro.pl/17375/22969/6.jpg"/>
 </p><h3>Neobmedzené otáčanie a inteligentné chladenie</h3>
-<p>Volant je spojený so základňou pomocou klzného krúžku vojenskej kvality so životnosťou viac ako 5 miliónov otáčok. Toto riešenie zaručuje nielen dlhú životnosť, ale umožňuje aj nekonečné otáčanie pri vysokej rýchlosti bez rizika rušenia signálu. Pokročilý systém kontroly teploty nepretržite monitoruje prevádzkové podmienky motora a elektroniky a upravuje parametre chladenia. Vďaka tomu si môžete užívať stály výkon bez obáv z prehriatia - aj počas dlhých pretekárskych relácií.</p>
+<p>Volant je pripojený k základni prostredníctvom krúžkového zberača vojenskej kvality s životnosťou viac ako 5 miliónov otáčok. Toto riešenie nielen zaručuje dlhú životnosť, ale umožňuje aj nekonečné otáčanie pri vysokých rýchlostiach bez rizika rušenia prenosu signálu. Pokročilý systém regulácie teploty nepretržite monitoruje prevádzkové podmienky motora a elektroniky a podľa toho prispôsobuje parametre chladenia. Vďaka tomu si môžete užívať konzistentný výkon bez obáv z prehriatia – dokonca aj počas dlhých pretekárskych sedení.</p>
 <p>
-<img alt="" border="0" src="https://assets.innpro.pl/17375/22969/8.jpg"/>
+<img alt="Záber zblízka na základňu volantu MOZA" border="0" src="https://assets.innpro.pl/17375/22969/3-iop-2fa3d3c0-95f0-461f-9870-26741ad3ebc3.jpg"/>
 </p><h3>Aplikácia a softvér MOZA Pit House</h3>
-<p>Spravujte všetky zariadenia MOZA pomocou intuitívneho softvéru Pit House. Konfigurujte silu FFB, synchronizujte kontrolky otáčok, spúšťajte hry jedným kliknutím a získajte prístup k telemetrickým údajom. Pit House ponúka kompletné ovládanie v estetickom a ľahko použiteľnom rozhraní. MOZA R12 spolupracuje aj s cloudovou mobilnou aplikáciou, ktorá umožňuje okamžite meniť nastavenia, importovať konfigurácie a plne upravovať silu FFB, nastavenia pedálov a ďalšie parametre bez prerušenia hry.</p>
+<p>Všetky vaše zariadenia MOZA môžete spravovať pomocou intuitívneho softvéru Pit House. Nastavujte intenzitu FFB, synchronizujte svetlá otáčok, spúšťajte hry jediným kliknutím a získavajte prístup k telemetrickým údajom. Pit House ponúka plnú kontrolu prostredníctvom elegantného a užívateľsky prívetivého rozhrania. MOZA R12 tiež spolupracuje s cloudovou mobilnou aplikáciou, ktorá umožňuje okamžité zmeny nastavení, import konfigurácií a úplné prispôsobenie sily FFB, nastavení pedálov a ďalších parametrov bez prerušenia hry.</p>
 <p>
-<img alt="" border="0" src="https://assets.innpro.pl/17375/22969/1.jpg"/>
+<img alt="Hráč v motocyklovej výstroji používa herný volant; viditeľné sú aj ďalšie súčasti zostavy, vrátane pedálov." border="0" src="https://assets.innpro.pl/17375/22969/1.jpg"/>
 </p>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Moza</td></tr><tr><th>Model</th><td>R12 V2 RS081</td></tr><tr><th>Typ pohonu</th><td>DD (priamy pohon)</td></tr><tr><th>Maximálne otáčky kolesa</th><td>Neobmedzené</td></tr><tr><th>Materiál puzdra</th><td>Hliník</td></tr><tr><th>Farba puzdra</th><td>Čierna</td></tr><tr><th>Špičkový krútiaci moment</th><td>12 Nm</td></tr><tr><th>Špičkový výkon</th><td>216 W</td></tr><tr><th>Vstupné napätie</th><td>110 V ~ 220 V AC -> 36 V DC</td></tr><tr><th>Obnovovacia frekvencia USB</th><td>1000 Hz</td></tr><tr><th>Použitie</th><td>Podporované</td></tr><tr><th>Rýchle uvoľnenie</th><td>Podporované stránky</td></tr><tr><th>Porty</th><td>Napájanie, USB, pedál, prístrojová doska, radiaca páka, ručná brzda, núdzový spínač</td></tr><tr><th>Spôsob montáže</th><td>Spodná montáž so 4 otvormi</td></tr><tr><th>Stolová svorka</th><td>Voliteľné</td></tr><tr><th>E-stop</th><td>Voliteľné</td></tr><tr><th>Online aktualizácia firmvéru</th><td>Podporované stránky</td></tr>
+<tr><th>Výrobca</th><td>Moza</td></tr><tr><th>Model</th><td>R12 V2 RS081</td></tr><tr><th>Typ pohonu</th><td>DD (Direct Drive)</td></tr><tr><th>Maximálny rozsah otáčania volantu</th><td>Neobmedzený</td></tr><tr><th>Materiál puzdra</th><td>Hliník</td></tr><tr><th>Farba puzdra</th><td>Čierna</td></tr><tr><th>Špičkový krútiaci moment</th><td>12 Nm</td></tr><tr><th>Špičkový výkon</th><td>216 W</td></tr><tr><th>Vstupné napätie</th><td>110 V~220 V AC -&gt; 36 V DC</td></tr><tr><th>Obnovovacia frekvencia USB</th><td>1000 Hz</td></tr><tr><th>Aplikácia</th><td>Podporovaná</td></tr><tr><th>Rýchle uvoľnenie</th><td>Podporované</td></tr><tr><th>Porty</th><td>Napájanie, USB, pedál, palubná doska, radiaca páka, ručná brzda, núdzový vypínač</td></tr><tr><th>Spôsob montáže</th><td>Montáž zospodu so 4 otvormi</td></tr><tr><th>Svorka na stôl</th><td>Voliteľné</td></tr><tr><th>Núdzové zastavenie</th><td>Voliteľné</td></tr><tr><th>Online aktualizácia firmvéru</th><td>Podporované</td></tr>
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/volanty-a-pretekarske-ovladace/">Volanty a pretekárske ovládače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/herne-simulatory/">Herné simulátory</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Moza Racing]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>078731</CODE>
 <EAN>6973137270827</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
-  <IMAGE description="Základňa volantu MOZA RACING R12 V2 RS081 (PC) - obrázok 1">https://b2b.innpro.sk/hpeciai/104a4d0eac0505ed7ddcd93b6709cbbe/53800_1.jpg</IMAGE>
-  <IMAGE description="Základňa volantu MOZA RACING R12 V2 RS081 (PC) - obrázok 2">https://b2b.innpro.sk/hpeciai/aa27e97fe38605753a7ee59b7570b439/53800_2.jpg</IMAGE>
-  <IMAGE description="Základňa volantu MOZA RACING R12 V2 RS081 (PC) - obrázok 3">https://b2b.innpro.sk/hpeciai/e93e393ec5597d9e356b68664fc5a254/53800_3.jpg</IMAGE>
-  <IMAGE description="Základňa volantu MOZA RACING R12 V2 RS081 (PC) - obrázok 4">https://b2b.innpro.sk/hpeciai/38f0844af31aa45a55d7af9c2950b6c7/53800_4.jpg</IMAGE>
-  <IMAGE description="Základňa volantu MOZA RACING R12 V2 RS081 (PC) - obrázok 5">https://b2b.innpro.sk/hpeciai/0337d2b2b72be38a818166ef6fcb9184/53800_5.jpg</IMAGE>
+  <IMAGE description="Základňa s priamym pohonom MOZA R12 V2 (PC) - obrázok 1">https://b2b.innpro.sk/hpeciai/101575592f6a3567a944511e1a968273/53800_7.jpg</IMAGE>
+  <IMAGE description="Základňa s priamym pohonom MOZA R12 V2 (PC) - obrázok 2">https://b2b.innpro.sk/hpeciai/db987a9a0db030e2234e15de3585fbaa/53800_8.jpg</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -254115,8 +254125,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>326.62</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Základňa volantu MOZA RACING R12 V2 RS081 (PC) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Základňa volantu MOZA RACING R12 V2 RS081 (PC) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Základňa s priamym pohonom MOZA R12 V2 (PC) – Moza… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Základňa s priamym pohonom MOZA R12 V2 (PC) od Moza Racing – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Herný volant Moza Racing RS V2 RS25]]></NAME>
@@ -260665,17 +260675,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>38.90</PRICE_VAT>
-<PURCHASE_PRICE>27.50</PURCHASE_PRICE>
+<PRICE_VAT>40.00</PRICE_VAT>
+<PURCHASE_PRICE>28.33</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Inteligentný termostat WiFi Avatto… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Inteligentný termostat WiFi Avatto WT20R-EH-16A-W-WiFi – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-<STANDARD_PRICE>38.90</STANDARD_PRICE>
+<STANDARD_PRICE>40.00</STANDARD_PRICE>
 <ACTION_PRICE>26.99</ACTION_PRICE>
 <FLAGS><FLAG><CODE>action</CODE><ACTIVE>1</ACTIVE></FLAG><FLAG><CODE>custom1</CODE><ACTIVE>1</ACTIVE></FLAG></FLAGS>
 </SHOPITEM>
@@ -289911,10 +289922,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -302757,6 +302770,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -302833,6 +302847,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -315817,10 +315832,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -329882,9 +329899,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>083386</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>5905156101555</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné kryty a klietky pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
@@ -339708,7 +339722,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>082349</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>4711527006043</EAN>
 <CATEGORIES>
@@ -350433,7 +350447,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>Flextail</td></tr><tr><th>Model</th><td>Tiny Helio 600Z-O</td></tr><tr><th>Farba</th><td>Oranžová</td></tr><tr><th>Maximálny jas</th><td>600 lúmenov</td></tr><tr><th>Režim ultra-nízkej spotreby</th><td>1 lúmen</td></tr><tr><th>Dosah lúča</th><td>100 m</td></tr><tr><th>Teplota farby</th><td>6500 K</td></tr><tr><th>LED</th><td>Luminus SST-20</td></tr><tr><th>Svetelná intenzita</th><td>3 000 cd</td></tr><tr><th>Uhol vyžarovania</th><td>60°</td></tr><tr><th>Kapacita batérie</th><td>900 mAh</td></tr><tr><th>Doba prevádzky</th><td>až 100 hodín</td></tr><tr><th>Nabíjací port</th><td>USB-C</td></tr><tr><th>Stupeň vodotesnosti</th><td>IP67</td></tr><tr><th>Rozsah prevádzkových teplôt</th><td>-10 °C až 45 °C</td></tr><tr><th>Hmotnosť</th><td>62,4 g</td></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88614_57179_pol_f3b54d9574e76adea6034474c7012d06" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/outdoor/">Turistika a outdoor</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Flextail]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
@@ -353093,7 +353107,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Kompatibilita</th><td>Séria iPhone 14–16, AirPods Pro/Pro 2/3/4, iPad mini/Air/Pro, zariadenia s Androidom</td></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88599_57222_pol_416ebe091cd7e4073d7b3ccbb40f0d91" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/powerbanky/">Powerbanky</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Flextail]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
@@ -365312,6 +365326,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -380734,6 +380749,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -392629,6 +392645,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -392719,6 +392736,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -399191,6 +399209,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -403137,6 +403156,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -414195,6 +414215,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -431895,7 +431916,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>30.81</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>29.00</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>320.50</PRICE_VAT>
 <PURCHASE_PRICE>226.54</PURCHASE_PRICE>
@@ -440048,6 +440069,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -449232,7 +449254,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -455355,14 +455380,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -479988,6 +480017,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -482008,6 +482038,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -483479,6 +483510,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -483796,6 +483828,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -508910,10 +508943,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -520754,10 +520789,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>27.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -522316,10 +522353,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -523850,14 +523889,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -587694,9 +587736,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>093248</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6977390120844</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY>
@@ -588240,6 +588279,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -599975,7 +600015,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>SMALLRIG</td></tr><tr><th>Model</th><td>3016</td></tr><tr><th>Typ</th><td>Doska na batériu V-Mount</td></tr><tr><th>Montážny systém</th><td>V-Mount</td></tr><tr><th>Upevnenie na rig</th><td>dvojitá svorka pre tyče s priemerom 15 mm</td></tr><tr><th>Štandard tyče</th><td>15 mm LWS</td></tr><tr><th>Montážne otvory</th><td>1/4&quot;-20</td></tr><tr><th>Montážne otvory</th><td>M3</td></tr><tr><th>Montážne otvory</th><td>M4</td></tr><tr><th>Montážne závity</th><td>1/4&quot;-20</td></tr><tr><th>Montážne závity</th><td>M4</td></tr><tr><th>Závit ARRI</th><td>3/8&quot;-16</td></tr><tr><th>Kompatibilita</th><td>s väčšinou batérií V-Mount</td></tr><tr><th>Materiál</th><td>hliníková zliatina</td></tr><tr><th>Rozmery produktu</th><td>132,5 × 108 × 17 mm</td></tr><tr><th>Hmotnosť</th><td>190 g</td></tr><tr><th>Vstavané napájacie porty</th><td>Nie</td></tr><tr><th>Súčasťou balenia je samčie V-Lock konektor</th><td>Nie</td></tr><tr><th>Nekompatibilné s</th><td>batériami PAGlink V-Mount a Patona Premium BP-190WS</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88615_64623_pol_20a3a818ea5a97f70c8997ae61518e8b" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-pre-fotoaparaty-a-akcne-kamery/">Príslušenstvo pre fotoaparáty a akčné kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SMALLRIG]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -602370,7 +602410,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>SMALLRIG</td></tr><tr><th>Model</th><td>3026B</td></tr><tr><th>Kompatibilita</th><td>DJI RS 2, RSC 2, RS 3, RS 3 Pro, RS 3 Mini, RS 4, RS 4 Pro, RS 4 Mini, RS 5</td></tr><tr><th>Podporované monitory</th><td>5&quot; a 7&quot;</td></tr><tr><th>Maximálna nosnosť</th><td>1,5 kg</td></tr><tr><th>Rozsah nastavenia uhla monitora</th><td>až 170°</td></tr><tr><th>Upevnenie na gimbal</th><td>Rýchloupínací držiak typu NATO</td></tr><tr><th>Bezpečnostná funkcia</th><td>Tlačidlo proti vypadnutiu, ktoré zabraňuje náhodnému vypadnutiu</td></tr><tr><th>Stabilizácia monitora</th><td>Čap zabraňujúci otáčaniu</td></tr><tr><th>Upevňovacie body</th><td>2 × závit 1/4&quot;-20</td></tr><tr><th>Upevnenia príslušenstva</th><td>studená pätica na hornej a spodnej strane</td></tr><tr><th>Rozmery výrobku</th><td>152,6 × 54,8 × 38 mm</td></tr><tr><th>Hmotnosť výrobku</th><td>125 ± 5 g</td></tr><tr><th>Materiály</th><td>hliníková zliatina, nehrdzavejúca oceľ, mosadz, silikón</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88612_64647_pol_88743c8e1ad3128e55da90c6c1d4e416" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/drziaky-a-montazne-uchyty-pre-kamery/">Držiaky a montážne úchyty pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SMALLRIG]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -603439,7 +603479,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>SmallRig</td></tr><tr><th>Model</th><td>5888</td></tr><tr><th>Kompatibilita</th><td>DJI Osmo Action 6</td></tr><tr><th>Materiál</th><td>hliníková zliatina</td></tr><tr><th>Rozmery výrobku</th><td>82,8 × 32,7 × 58,1 mm</td></tr><tr><th>Hmotnosť výrobku</th><td>56 ± 5 g</td></tr><tr><th>Uchytenie na studenú päticu</th><td>1</td></tr><tr><th>Rýchloupínacie konektory</th><td>2</td></tr><tr><th>Montážne otvory</th><td>3 × 1/4&quot;-20</td></tr><tr><th>Otvory na zápästný remienok</th><td>Áno</td></tr><tr><th>Prístup k priestoru pre batériu bez demontáže rámu</th><td>Áno</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88613_64658_pol_8e683ef02db76e02d67d7c3fe9e7bb60" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-pre-fotoaparaty-a-akcne-kamery/">Príslušenstvo pre fotoaparáty a akčné kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SMALLRIG]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -634499,6 +634539,532 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Prenosná nabíjačka pre elektromobily 3 kW V2, 6 m od dé – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[VR okuliare PIMAX CRYSTAL Super 57 PPD]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[VR okuliare PIMAX CRYSTAL Super 57PPD VR okuliare PIMAX Crystal Super 57PPD sú pokročilým systémom virtuálnej reality, ktorý ponúka výnimočnú detailnosť obrazu a plynulý herný zážitok. Je vybavená…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>VR okuliare PIMAX CRYSTAL Super 57PPD</h3>
+<p>VR okuliare PIMAX Crystal Super 57PPD sú pokročilým systémom virtuálnej reality, ktorý ponúka výnimočnú detailnosť obrazu a plynulý herný zážitok. Je vybavená QLED displejmi s technológiou mini-LED, ktoré ponúkajú rozlíšenie 3840 × 3840 pixelov na oko, asférické sklenené šošovky a lokálne stmievanie. Vďaka hustote pixelov 57 PPD a horizontálnemu zornému poľu 106° môžu používatelia vidieť aj tie najjemnejšie detaily vo virtuálnom prostredí. Obnovovacia frekvencia 72 alebo 90 Hz, automatické nastavenie medzipupilárnej vzdialenosti (IPD) v rozmedzí od 58 do 72 mm a technológia Dynamic Foveated Rendering 2.0 ďalej zvyšujú komfort používania zariadenia. Okuliare podporujú sledovanie pohybu „inside-out“ a systém Lighthouse.</p>
+<p>
+<img alt="Čierna VR okuliare Pimax s modrým podsvietením v tvare písmena V na pozadí zasneženej krajiny." border="0" src="https://assets.innpro.pl/25492/33727/5-671e46bf-cbd4-4bad-8c95-70f78232e6b0.jpg"/>
+</p><h3>Výnimočne detailný obraz</h3>
+<p>PIMAX Crystal Super 57PPD ponúka rozlíšenie 3 840 × 3 840 pixelov na jedno oko, čo v súčte predstavuje takmer 29,5 milióna pixelov. Takýto vysoký počet pixelov zabezpečuje detailný obraz, v ktorom sú jasne viditeľné textúry, malé objekty a prvky prostredia. Hustota 57 pixelov na stupeň (PPD) znižuje viditeľnosť jednotlivých pixelov, vďaka čomu obraz pôsobí prirodzenejšie. To je obzvlášť dôležité v leteckých a pretekárskych simulátoroch, kde schopnosť čítať prístroje alebo rozoznať vzdialené objekty ovplyvňuje herný zážitok.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax Crystal s modrým LED podsvietením v tvare písmena V na prednom paneli." border="0" src="https://assets.innpro.pl/25492/33727/1-fe851760-a224-4ab2-9bfc-ec140a72fc42.jpg"/>
+</p><h3>Technológia QLED a podsvietenie Mini-LED</h3>
+<p>Displeje QLED s podsvietením Mini-LED poskytujú žiarivé farby a vysokú úroveň detailov obrazu. Technológia lokálneho stmievania, pokrývajúca viac ako 1 000 zón, umožňuje presnejšie ovládanie podsvietenia v konkrétnych oblastiach obrazovky. Vďaka tomu tmavé scény získavajú väčšiu hĺbku, zatiaľ čo jasné prvky zostávajú jasne viditeľné. Vylepšený kontrast dodáva virtuálnemu prostrediu realistickejší vzhľad, či už preskúmavate tmavé lokality alebo sa pohybujete v jasných, rozsiahlych prostrediach.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax Crystal Super s podsvieteným predným panelom a nastaviteľným popruhom na hlavu." border="0" src="https://assets.innpro.pl/25492/33727/6-c6832ab6-4688-4cc4-8363-0d4925133bf7.jpg"/>
+</p><h3>Asférické sklenené šošovky</h3>
+<p>Náhlavná súprava je vybavená asférickými sklenenými šošovkami, ktoré pomáhajú udržiavať vysokú ostrosť obrazu v širokom zornom poli. Veľká zóna optimálnej ostrosti, známa ako „sweet spot“, znižuje potrebu častého nastavovania polohy náhlavnej súpravy na dosiahnutie jasného obrazu. Vďaka tomu je ľahšie vidieť detaily nielen v strede displeja, ale aj v jeho okolitých oblastiach. Horizontálne zorné pole 106° vám umožňuje súčasne sledovať širokú časť virtuálneho prostredia.</p>
+<p>
+<img alt="Čierne VR okuliare so širokým dizajnom, pohľad zhora na tmavom pozadí, s viditeľným popruhom na hlavu a nastavovacím gombíkom." border="0" src="https://assets.innpro.pl/25492/33727/3-2ddf054d-4a1a-4178-ad64-617213ddd443.jpg"/>
+</p><h3>Plynulý obraz a dynamické foveálne vykresľovanie 2.0</h3>
+<p>PIMAX Crystal Super 57PPD podporuje obnovovacie frekvencie 72 a 90 Hz, čo vám umožňuje prispôsobiť výkon displejov požiadavkám hry a možnostiam vášho počítača. Vyššia obnovovacia frekvencia zaisťuje plynulejšie vykresľovanie pohybu, čo je obzvlášť dôležité v dynamických hrách a simulátoroch. Technológia Dynamic Foveated Rendering 2.0 využíva sledovanie pohybu očí, aby zamerala detaily vykresľovania na oblasť, na ktorú sa používateľ pozerá. To umožňuje efektívnejšie využitie výpočtového výkonu počítača pri zachovaní vysokej kvality obrazu v najdôležitejšej časti zorného poľa.</p>
+<p>
+<img alt="Čierne VR okuliare so zeleným podsvieteným prúžkom na prednom paneli, pohľad zboku na tmavom pozadí." border="0" src="https://assets.innpro.pl/25492/33727/4-6b09260e-d958-4b08-9898-70bf68cbd9bc.jpg"/>
+</p><h3>Automatické nastavenie IPD</h3>
+<p>Automatické nastavenie vzdialenosti medzi zrenicami (IPD) v rozmedzí od 58 do 72 mm umožňuje prispôsobiť optický systém individuálnym potrebám používateľa. Správne zarovnanie šošoviek s očami prispieva k jasnejšiemu obrazu a zvyšuje komfort zážitku z virtuálnej reality. Táto funkcia je obzvlášť užitočná v prípade, ak jednu náhlavnú súpravu používa viacero ľudí s rôznymi vzdialenosťami medzi zrenicami.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax Crystal s osvetleným predným panelom, vynárajúce sa na tmavosivom, minimalistickom pozadí." border="0" src="https://assets.innpro.pl/25492/33727/7-5952bb40-b82d-415a-a852-7d0486ac4a0e.jpg"/>
+</p><h3>Voľný výber sledovacieho systému</h3>
+<p>Náhlavná súprava podporuje sledovanie typu „inside-out“, čo vám umožňuje zažiť virtuálnu realitu bez nutnosti inštalovať externé základné stanice. To zjednodušuje nastavenie a znižuje počet potrebných doplnkových zariadení. Pre používateľov, ktorí chcú rozšíriť svoje VR vybavenie, je k dispozícii aj možnosť využiť systém Lighthouse. To vám umožňuje prispôsobiť metódu sledovania pohybu vašemu existujúcemu vybaveniu a preferovanému štýlu hrania.</p>
+<p>
+<img alt="Okuliare Pimax Crystal Super VR s podsvieteným predným panelom a vymeniteľným sledovacím modulom." border="0" src="https://assets.innpro.pl/25492/33727/9-10552e61-4b25-4638-846d-b2c41733d1db.jpg"/>
+</p><h3>Audio pripojenie a komunikácia</h3>
+<p>PIMAX Crystal Super 57PPD je vybavený dvoma mikrofónmi, ktoré umožňujú hlasovú komunikáciu počas hier pre viacerých hráčov. 3,5 mm audio konektor umožňuje pripojiť kompatibilné slúchadlá, vďaka čomu si môžete vybrať svoj preferovaný spôsob počúvania. Ide o praktické riešenie, či už hráte online s ostatnými, alebo objavujete virtuálne svety na vlastnú päsť.</p>
+<p>
+<img alt="Dve čierne VR okuliare na tmavých podstavcoch s modrým a žltým LED podsvietením na prednom paneli." border="0" src="https://assets.innpro.pl/25492/33727/11-237fda80-0f60-49f8-9538-1fabeba3df8b.jpg"/>
+</p><h3>Súčasťou balenia sú dva ovládače</h3>
+<p>Súprava obsahuje dva ovládače, ktoré vám umožňujú interagovať s objektmi a prvkami vo virtuálnom prostredí. Pomocou nich môžete prechádzať ponukami, vykonávať gestá rúk a využívať mechaniky dostupné v kompatibilných VR hrách a aplikáciách. Vďaka tomu používatelia získavajú súpravu pripravenú na širokú škálu zážitkov vo virtuálnej realite.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax zobrazené z dvoch uhlov pohľadu na pozadí červených geometrických tvarov s logom značky." border="0" src="https://assets.innpro.pl/25492/33727/10-11adf6f1-3392-4692-a5f7-a4764377c2ac.jpg"/>
+</p>
+<h3>Súčasťou sady</h3>
+<ul class="list-disc pl-5"><li>VR headset PIMAX Crystal Super 57PPD</li><li>VR ovládače x 2</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>PIMAX</td></tr><tr><th>Model</th><td>Crystal Super 57PPD</td></tr><tr><th>Typ zariadenia</th><td>PC VR headset</td></tr><tr><th>Technológia displeja</th><td>QLED + mini-LED</td></tr><tr><th>Rozlíšenie na jedno oko</th><td>3840 × 3840 pixelov</td></tr><tr><th>Celkový počet pixelov</th><td>cca 29,5 milióna</td></tr><tr><th>Hustota pixelov</th><td>57 PPD</td></tr><tr><th>Horizontálne zorné pole (HFOV)</th><td>106°</td></tr><tr><th>Obnovovacia frekvencia</th><td>72 / 90 Hz</td></tr><tr><th>Typ šošoviek</th><td>Asférické sklenené šošovky</td></tr><tr><th>Nastavenie IPD</th><td>Automatické, 58–72 mm</td></tr><tr><th>Lokálne stmievanie</th><td>Áno, viac ako 1 000 zón</td></tr><tr><th>Technológia vykresľovania</th><td>Dynamic Foveated Rendering 2.0</td></tr><tr><th>Sledovanie pohybu očí</th><td>Áno</td></tr><tr><th>Systém sledovania</th><td>Inside-out, rozšíriteľný pomocou Lighthouse</td></tr><tr><th>Audio konektor</th><td>3,5 mm jack</td></tr><tr><th>Mikrofóny</th><td>2</td></tr><tr><th>Odporúčaná grafická karta</th><td>NVIDIA GeForce RTX 3080 / RTX 4070 alebo lepšia</td></tr><tr><th>Minimálna grafická karta</th><td>NVIDIA GeForce RTX 2070 alebo lepšia</td></tr><tr><th>Podpora PCVR</th><td>Áno</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[PIMAX]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>096543</CODE>
+<EAN>6977402870422</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Super 57 PPD">https://b2b.innpro.sk/hpeciai/e289e9face143dcf6339c22956bf7cc4/66668_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[PIMAX]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ zariadenia]]></NAME>
+    <VALUE><![CDATA[PC VR headset]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Technológia displeja]]></NAME>
+    <VALUE><![CDATA[QLED + mini-LED]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozlíšenie na jedno oko]]></NAME>
+    <VALUE><![CDATA[3840 × 3840 pixelov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový počet pixelov]]></NAME>
+    <VALUE><![CDATA[cca 29,5 milióna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hustota pixelov]]></NAME>
+    <VALUE><![CDATA[57 PPD]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Horizontálne zorné pole (HFOV)]]></NAME>
+    <VALUE><![CDATA[106°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Obnovovacia frekvencia]]></NAME>
+    <VALUE><![CDATA[72 / 90 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ šošoviek]]></NAME>
+    <VALUE><![CDATA[Asférické sklenené šošovky]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nastavenie IPD]]></NAME>
+    <VALUE><![CDATA[Automatické, 58–72 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Lokálne stmievanie]]></NAME>
+    <VALUE><![CDATA[Áno, viac ako 1 000 zón]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>4.81</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>1975.50</PRICE_VAT>
+<PURCHASE_PRICE>1396.73</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[VR okuliare PIMAX CRYSTAL Super 57 PPD | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[VR okuliare PIMAX CRYSTAL Super 57 PPD – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[VR okuliare PIMAX CRYSTAL Super Ultrawide]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[VR headset PIMAX CRYSTAL Super Ultrawide VR headset PIMAX Crystal Super Ultrawide je pokročilý headset pre virtuálnu realitu, ktorý kombinuje rozlíšenie 3840 × 3840 pixelov na jedno oko, ultraširoké…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>VR headset PIMAX CRYSTAL Super Ultrawide</h3>
+<p>VR headset PIMAX Crystal Super Ultrawide je pokročilý headset pre virtuálnu realitu, ktorý kombinuje rozlíšenie 3840 × 3840 pixelov na jedno oko, ultraširoké zorné pole 140° a asférické sklenené šošovky. Displeje QLED s podsvietením mini-LED a lokálnym stmievaním poskytujú vysoký kontrast, hlbokú čiernu a realistické farby. Obnovovacia frekvencia 72 alebo 90 Hz zaisťuje plynulý obraz, zatiaľ čo technológia Dynamic Foveated Rendering 2.0 zvyšuje výkon znížením zaťaženia grafickej karty. Automatické nastavenie medzipupilárnej vzdialenosti (IPD) (58–72 mm), sledovanie pohybu „inside-out“ a dva priložené ovládače robia z týchto okuliarov ideálny výber nielen pre VR hry, ale aj pre pokročilé simulátory.</p>
+<p>
+<img alt="Čierna VR headset Pimax s modrým podsvietením v tvare písmena V na pozadí zasneženej krajiny." border="0" src="https://assets.innpro.pl/25494/33730/5-a0ea0196-69c1-4424-ab53-9255ddbdea7d.jpg"/>
+</p><h3>Podrobný obraz s rozlíšením 3840 × 3840</h3>
+<p>PIMAX Crystal Super Ultrawide ponúka rozlíšenie 3840 × 3840 pixelov na jedno oko, čo predstavuje celkovo takmer 29,5 milióna pixelov. Takýto vysoký počet pixelov vám umožňuje vidieť jemné detaily, ostré textúry a vzdialené objekty. To je obzvlášť dôležité v leteckých a pretekárskych simulátoroch, kde jasnosť prístrojov, kokpitu a prvkov na trati ovplyvňuje pohodlie a presnosť jazdy alebo letu.</p>
+<p>
+<img alt="VR headset Pimax Crystal Super s modrým LED podsvietením na prednom paneli a slúchadlách." border="0" src="https://assets.innpro.pl/25494/33730/2-f1273b3c-ab04-41ae-9265-ee6ff02e070e.jpg"/>
+</p><h3>Ultraširoké zorné pole 140°</h3>
+<p>Okuliare ponúkajú horizontálne zorné pole 140°, vďaka čomu môžete vidieť väčšiu časť svojho okolia bez toho, aby ste museli neustále otáčať hlavu. Širšia perspektíva zvyšuje pocit ponorenia do herného sveta a zároveň uľahčuje sledovanie diania po bokoch. Či už šoférujete auto alebo pilotujete lietadlo, umožňuje vám to lepšie kontrolovať situáciu a vnímať väčšiu časť scény.</p>
+<p>
+<img alt="Čierna VR headset Pimax Crystal Super s podsvieteným predným panelom a nastaviteľným popruhom na hlavu." border="0" src="https://assets.innpro.pl/25494/33730/6-6ee61852-87cc-4fdb-ae45-d1ad58c87910.jpg"/>
+</p><h3>Asférické sklenené šošovky</h3>
+<p>Okuliare sú vybavené sklenenými asférickými šošovkami, ktoré zaisťujú vysokú ostrosť obrazu a veľkú oblasť jasného videnia, známu ako „sweet spot“. To vám umožňuje pohodlnejšie vnímať detaily bez nutnosti častého upravovania polohy okuliarov na hlave.</p>
+<p>
+<img alt="VR headset Pimax Crystal Super s osvetleným predným panelom a vymeniteľným sledovacím modulom." border="0" src="https://assets.innpro.pl/25494/33730/9-b6f1aa83-e3e0-4ac7-b595-8dea659b2820.jpg"/>
+</p><h3>Realistické farby vďaka technológiám QLED a miniLED</h3>
+<p>Technológia QLED v kombinácii s podsvietením miniLED poskytuje realistické farby a vysoký kontrast obrazu. Systém lokálneho stmievania, pozostávajúci z viac ako 1 000 zón, umožňuje nezávislé ovládanie jasu jednotlivých oblastí obrazovky. Tmavé oblasti si zachovávajú hlbšiu čiernu, zatiaľ čo jasné svetlé časti – ako napríklad svetlá automobilov – zostávajú živé. Vďaka tomu nočné scény a oblasti s rôznorodým osvetlením pôsobia prirodzenejšie.</p>
+<p>
+<img alt="Dva čierne VR headsety na tmavých stojanoch s modrým a žltým LED podsvietením na prednom paneli." border="0" src="https://assets.innpro.pl/25494/33730/11-8fd6dae6-a32d-4cda-a417-f0d82bc044da.jpg"/>
+</p><h3>Plynulé zobrazenie s obnovovacími frekvenciami 72 a 90 Hz</h3>
+<p>Monitory PIMAX Crystal Super Ultrawide podporujú obnovovacie frekvencie 72 a 90 Hz, čo vám umožňuje prispôsobiť plynulosť obrazu schopnostiam vášho počítača a požiadavkám spustenej aplikácie. Režim 90 Hz poskytuje plynulejšie vykresľovanie pohybu, najmä pri rýchlych zmenách smeru pohľadu a dynamickej akcii. Možnosť výberu medzi dvoma režimami uľahčuje nájdenie správnej rovnováhy medzi plynulosťou zobrazenia a výkonom počítača.</p>
+<p>
+<img alt="Čierne VR headsety Pimax s osvetleným predným panelom na tmavosivom, minimalistickom pozadí." border="0" src="https://assets.innpro.pl/25494/33730/8-365170a2-8276-4763-a9c2-d5239cb69679.jpg"/>
+</p><h3>Dynamic Foveated Rendering 2.0 – vylepšený výkon</h3>
+<p>Technológia Dynamic Foveated Rendering 2.0 využíva sledovanie pohybu očí na optimalizáciu vykresľovania obrazu. Oblasť, na ktorú zameriavate pohľad, sa zobrazuje s väčším detailom, zatiaľ čo oblasti mimo vášho zorného poľa môžu byť vykresľované s menším detailom. Tento prístup znižuje zaťaženie grafickej karty, čím pomáha udržiavať plynulý výkon a zároveň zachováva vysokú kvalitu obrazu v oblasti, na ktorú sa práve pozeráte.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax Crystal Super s osvetleným predným panelom a nastaviteľným popruhom na hlavu." border="0" src="https://assets.innpro.pl/25494/33730/12-88ea7054-a5ae-4059-869d-8712ea08e186.jpg"/>
+</p><h3>Automatické nastavenie medzipupilárnej vzdialenosti</h3>
+<p>Náhlavná súprava automaticky prispôsobuje vzdialenosť medzi šošovkami tak, aby zodpovedala vašej medzipupilárnej vzdialenosti (IPD) v rozmedzí 58–72 mm. Správne nastavenie IPD pomáha zabezpečiť jasný obraz a znižuje nepohodlie spôsobené nesprávnym optickým nastavením. Automatické prispôsobenie tiež eliminuje potrebu ručného nastavovania vzdialenosti medzi šošovkami.</p>
+<p>
+<img alt="Čierne VR okuliare so zeleným podsvieteným pruhom na prednom paneli, zobrazené z boku na tmavom pozadí." border="0" src="https://assets.innpro.pl/25494/33730/4-0ce68e41-92b3-4df7-a732-bb90dbab6c3d.jpg"/>
+</p><h3>Sledovanie „inside-out“ a kompatibilita s Lighthouse</h3>
+<p>PIMAX Crystal Super Ultrawide podporuje sledovanie „inside-out“, ktoré detekuje pohyby používateľa bez potreby inštalácie externých základných staníc. Vďaka tomu je nastavenie VR prostredia jednoduchšie a odpadá potreba umiestňovať v miestnosti ďalšie senzory. Náhlavná súprava tiež ponúka možnosť prechodu na sledovací systém Lighthouse, čo vám umožňuje prispôsobiť nastavenie pre pokročilejšie aplikácie. Používanie systému Lighthouse vyžaduje vhodné, kompatibilné príslušenstvo.</p>
+<p>
+<img alt="Čierne VR okuliare so širokým dizajnom, pohľad zhora na tmavom pozadí, s viditeľným popruhom na hlavu a nastavovacím gombíkom." border="0" src="https://assets.innpro.pl/25494/33730/3-31c14914-76ea-4124-9306-184390fea9ae.jpg"/>
+</p><h3>Hlasová komunikácia a pripojenie slúchadiel</h3>
+<p>Náhlavná súprava je vybavená dvoma mikrofónmi, ktoré umožňujú hlasovú komunikáciu počas hier pre viacerých hráčov a pri používaní VR aplikácií. 3,5 mm audio konektor umožňuje pripojiť kompatibilné slúchadlá, vďaka čomu si môžete prispôsobiť zvukový výstup podľa svojich preferencií.</p>
+<p>
+<img alt="Čierne okuliare Pimax Crystal VR s modrým LED podsvietením v tvare písmena V na prednom paneli." border="0" src="https://assets.innpro.pl/25494/33730/1-2292eb4b-183d-4b1c-97e6-0f005e0fa04c.jpg"/>
+</p><h3>Súčasťou balenia sú dva ovládače</h3>
+<p>Súprava obsahuje dva ovládače, ktoré vám umožňujú navigovať v ponukách a interagovať s VR hrami a aplikáciami. Umožňujú vám vyberať objekty, vykonávať akcie a ovládať prvky prostredia v kompatibilných tituloch.</p>
+<p>
+<img alt="Čierne okuliare Pimax VR zobrazené z dvoch uhlov na pozadí červených geometrických tvarov s logom značky." border="0" src="https://assets.innpro.pl/25494/33730/10-322d4d73-b9fa-441c-9834-aa3372e1412d.jpg"/>
+</p>
+<h3>Súčasťou sady</h3>
+<ul class="list-disc pl-5"><li>VR headset PIMAX Crystal Super Ultrawide</li><li>VR ovládače x 2</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>PIMAX</td></tr><tr><th>Model</th><td>Crystal Super Ultrawide</td></tr><tr><th>Typ zariadenia</th><td>VR headset</td></tr><tr><th>Technológia displeja</th><td>QLED + miniLED</td></tr><tr><th>Konštrukcia displeja</th><td>Modulárna</td></tr><tr><th>Rozlíšenie na jedno oko</th><td>3840 × 3840 pixelov</td></tr><tr><th>Celkový počet pixelov</th><td>Približne 29,5 milióna</td></tr><tr><th>Hustota pixelov</th><td>50 PPD</td></tr><tr><th>Zorné pole (horizontálne)</th><td>140°</td></tr><tr><th>Obnovovacia frekvencia</th><td>72 / 90 Hz</td></tr><tr><th>Typ šošoviek</th><td>sklenené, asférické</td></tr><tr><th>Nastavenie IPD</th><td>automatické</td></tr><tr><th>Rozsah IPD</th><td>58–72 mm</td></tr><tr><th>Podsvietenie</th><td>miniLED s lokálnym stmievaním</td></tr><tr><th>Počet zón lokálneho stmievania</th><td>viac ako 1 000</td></tr><tr><th>Sledovanie pohybu očí</th><td>áno</td></tr><tr><th>Dynamic Foveated Rendering</th><td>Dynamic Foveated Rendering 2.0</td></tr><tr><th>Sledovanie pohybu</th><td>inside-out</td></tr><tr><th>Podpora Lighthouse</th><td>Áno, s príslušným príslušenstvom</td></tr><tr><th>Audio konektor</th><td>3,5 mm konektor</td></tr><tr><th>Mikrofóny</th><td>2</td></tr><tr><th>Odporúčaná grafická karta</th><td>NVIDIA GeForce RTX 3080 / RTX 4070 alebo novšia</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[PIMAX]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>096544</CODE>
+<EAN>6977402870460</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Super Ultrawide">https://b2b.innpro.sk/hpeciai/67989f9a5839bef990db3e78492adca1/66669_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[PIMAX]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ zariadenia]]></NAME>
+    <VALUE><![CDATA[VR headset]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Technológia displeja]]></NAME>
+    <VALUE><![CDATA[QLED + miniLED]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konštrukcia displeja]]></NAME>
+    <VALUE><![CDATA[Modulárna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozlíšenie na jedno oko]]></NAME>
+    <VALUE><![CDATA[3840 × 3840 pixelov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový počet pixelov]]></NAME>
+    <VALUE><![CDATA[Približne 29,5 milióna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hustota pixelov]]></NAME>
+    <VALUE><![CDATA[50 PPD]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zorné pole (horizontálne)]]></NAME>
+    <VALUE><![CDATA[140°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Obnovovacia frekvencia]]></NAME>
+    <VALUE><![CDATA[72 / 90 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ šošoviek]]></NAME>
+    <VALUE><![CDATA[sklenené, asférické]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nastavenie IPD]]></NAME>
+    <VALUE><![CDATA[automatické]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>4.81</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>1975.50</PRICE_VAT>
+<PURCHASE_PRICE>1396.73</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[VR okuliare PIMAX CRYSTAL Super Ultrawide | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[VR okuliare PIMAX CRYSTAL Super Ultrawide – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[VR okuliare PIMAX CRYSTAL Super 8K Micro-OLED]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[VR headset PIMAX CRYSTAL Super 8K Micro-OLED PIMAX CRYSTAL Super 8K Micro-OLED je pokročilá VR headset vybavená displejmi Sony Micro-OLED s rozlíšením 3840 × 3552 pixelov na oko, trojvrstvovými…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>VR headset PIMAX CRYSTAL Super 8K Micro-OLED</h3>
+<p>PIMAX CRYSTAL Super 8K Micro-OLED je pokročilá VR headset vybavená displejmi Sony Micro-OLED s rozlíšením 3840 × 3552 pixelov na oko, trojvrstvovými objektívmi typu Pancake a širokým horizontálnym zorným poľom 116°. Ponúka obnovovaciu frekvenciu 72 alebo 90 Hz, automatické nastavenie medzipupilárnej vzdialenosti (IPD) a sledovanie pohybu očí s frekvenciou 120 Hz s podporou technológie Dynamic Foveated Rendering (DFR). Štyri vstavané kamery a algoritmus Pimax SLAM umožňujú sledovanie náhlavnej súpravy a ovládačov bez potreby externých základných staníc. Model je kompatibilný s hrami SteamVR, ako aj s aplikáciami OpenXR a OpenVR, a softvér Pimax Play vám umožňuje prispôsobiť nastavenia obrazu a výkonu tak, aby zodpovedali schopnostiam vášho počítača.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax s modrým predným osvetlením a sledovacími kamerami na svetlom pozadí." border="0" src="https://assets.innpro.pl/25497/33734/5-46e4e7c5-d72c-406b-bdd1-d4f276c15719.jpg"/>
+</p><h3>Displeje Sony Micro-OLED – vysoká kvalita obrazu</h3>
+<p>PIMAX CRYSTAL Super využíva displeje Sony Micro-OLED, ktoré poskytujú hlbokú čiernu, vysoký kontrast a presné zobrazenie detailov. Rozlíšenie 3840 × 3552 pixelov na jedno oko a hustota pixelov 53 PPD zabezpečujú, že jemné detaily zostávajú čitateľné. To je obzvlášť dôležité v leteckých a pretekárskych simulátoroch, kde musí používateľ rýchlo odčítať hodnoty prístrojov, text a informácie zobrazené na virtuálnych paneloch.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax Crystal Super s modrým LED osvetlením na prednom paneli a hlavovom popruhu." border="0" src="https://assets.innpro.pl/25497/33734/1-2a4b2f42-64bb-4c11-ab68-6daa6f1cd08c.jpg"/>
+</p><h3>Široké zorné pole a trojvrstvové objektívy typu „pancake“</h3>
+<p>Použité objektívy typu „pancake“ majú trojvrstvovú konštrukciu s konkávnou vrstvou, čo umožňuje horizontálne zorné pole 116° bez straty ostrosti obrazu. Širšie zorné pole vám umožňuje sledovať väčšiu časť virtuálneho prostredia bez neustáleho otáčania hlavy. Vďaka tomu je jednoduchšie sledovať situáciu na pretekárskej dráhe, pozorovať okolie počas letu alebo zaznamenať objekty na okrajoch vášho zorného poľa.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax Crystal Super s LED podsvietením a viditeľnými sledovacími kamerami na prednom paneli." border="0" src="https://assets.innpro.pl/25497/33734/6-c65d378f-6baf-45bb-a588-91e4bd7614dd.jpg"/>
+</p><h3>Plynulé zobrazenie obrazu s obnovovacou frekvenciou až 90 Hz</h3>
+<p>Okuliare podporujú obnovovacie frekvencie 72 alebo 90 Hz, čo vám umožňuje prispôsobiť nastavenia zobrazenia požiadavkám aplikácie a výkonu vášho počítača. Režim 90 Hz poskytuje plynulejšie vykresľovanie pohybu, čo je obzvlášť užitočné pri dynamických scénach a rýchlych zmenách smeru pohľadu. To sa prejavuje väčším komfortom pri používaní okuliarov počas dlhších relácií vo virtuálnej realite.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax Crystal Super s modrým podsvietením na prednom paneli a integrovaným hlavovým popruhom." border="0" src="https://assets.innpro.pl/25497/33734/2-0b42f877-32ac-44b0-8b57-55a2a81f9f36.jpg"/>
+</p><h3>Sledovanie pohybu očí a technológia dynamického foveálneho vykresľovania</h3>
+<p>Vstavaný systém sledovania pohybu očí pracuje pri frekvencii 120 Hz a podporuje technológiu dynamického foveálneho vykresľovania (DFR). Toto riešenie prispôsobuje úroveň detailov pri vykresľovaní na základe smeru pohľadu používateľa. Oblasť, na ktorú sa používateľ práve pozerá, je vykresľovaná vo vysokej kvalite, zatiaľ čo zvyšné časti obrazu môžu byť vykresľované s nižšou presnosťou. Tým sa znižuje zaťaženie grafickej karty a zlepšuje plynulosť kompatibilných hier a aplikácií VR bez zníženia kvality obrazu v strede zorného poľa používateľa.</p>
+<p>
+<img alt="Čierne VR okuliare s nastaviteľným hlavovým popruhom a širokým rámom, pohľad zhora na tmavom pozadí." border="0" src="https://assets.innpro.pl/25497/33734/3-0be0f778-5756-4507-95d9-eaaf3e6d117d.jpg"/>
+</p><h3>Sledovanie pohybu bez externých základných staníc</h3>
+<p>PIMAX CRYSTAL Super využíva systém sledovania Inside-Out založený na štyroch vstavaných kamerách a algoritme Pimax SLAM. Kamery snímajú okolie a algoritmus analyzuje polohu objektov, vzdialenosti a pohyb, aby určil polohu náhlavnej súpravy a ovládačov v priestore. Vďaka tomu, že nie je potrebné inštalovať základné stanice, je nastavenie jednoduchšie a znižuje sa počet dodatočných zariadení. Headset tiež podporuje rozšírenie o voliteľný systém Lighthouse, čo ponúka väčšiu flexibilitu pri výbere metódy sledovania pohybu.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax s osvetleným dizajnom na prednom paneli a hlavovými popruhmi na tmavom pozadí." border="0" src="https://assets.innpro.pl/25497/33734/7-a98c46f7-6b47-4364-a714-c4ac98fe4614.jpg"/>
+</p><h3>Kompatibilita so systémami SteamVR, OpenXR a OpenVR</h3>
+<p>Náhlavná súprava funguje s VR hrami dostupnými na platforme Steam a s aplikáciami, ktoré využívajú štandardy OpenXR a OpenVR. To vám umožňuje vychutnať si širokú škálu simulátorov, hier a programov určených pre virtuálnu realitu. Softvér Pimax Play poskytuje prístup k mnohým konfiguračným nastaveniam, vrátane úpravy rozlíšenia vykresľovania. To vám umožňuje prispôsobiť kvalitu obrazu a výkon typu spustenej aplikácie a špecifikáciám vášho počítača.</p>
+<p>
+<img alt="Čierne VR okuliare s charakteristickým zeleným podsvietením v tvare písmena V na tmavom pozadí." border="0" src="https://assets.innpro.pl/25497/33734/4-f1d15434-d3ad-4110-8dfb-0f4752646a1c.jpg"/>
+</p><h3>Výkon prispôsobený schopnostiam vášho počítača</h3>
+<p>Na prevádzku PIMAX CRYSTAL Super je potrebná grafická karta s výkonom zodpovedajúcim minimálne karte NVIDIA GeForce RTX 2080, pričom sa odporúča karta RTX 3070 alebo vyššia. Vďaka nastaviteľnému rozlíšeniu vykresľovania a technológii DFR je možné znížiť zaťaženie grafického procesora bez toho, aby došlo k zníženiu vysokej kvality obrazu v oblasti, na ktorú sa používateľ pozerá. To uľahčuje prispôsobenie nastavení headsetu tak, aby zodpovedali vášmu hardvéru a požiadavkám konkrétnych hier.</p>
+<p>
+<img alt="Okuliare Pimax Crystal Super VR s odpojeným optickým modulom na tmavom pozadí s podsvietením." border="0" src="https://assets.innpro.pl/25497/33734/9-d2964cec-cfe2-4239-9499-41793c75c494.jpg"/>
+</p><h3>Modulárna konštrukcia a vymeniteľný optický modul</h3>
+<p>PIMAX CRYSTAL Super je vybavený vymeniteľným optickým modulom, čo zjednodušuje opravy a umožňuje modernizáciu. Namiesto výmeny celého headsetu môžete použiť iný kompatibilný modul z rodiny Crystal Super. Toto riešenie vám umožňuje prispôsobiť zariadenie meniacim sa potrebám a poskytuje väčšiu flexibilitu pre budúce hardvérové modernizácie.</p>
+<p>
+<img alt="Čierne náhlavné súpravy Pimax Crystal Super VR s LED podsvietením a viditeľnými sledovacími kamerami na prednom paneli." border="0" src="https://assets.innpro.pl/25497/33734/12-e0aeeed5-2303-4c96-b7a3-b495bb242ac7.jpg"/>
+</p><h3>Integrované funkcie a pohodlné nastavenie</h3>
+<p>Náhlavná súprava kombinuje systém zobrazenia obrazu, podporu zvuku, sledovanie pohybu a integráciu ovládačov do jedného dizajnu. Automatické nastavenie vzdialenosti medzi zrenicami (IPD) pomáha prispôsobiť nastavenia optického systému používateľovi, čím sa ľahšie dosiahne správny obraz. Náhlavná súprava sa pripája k počítaču prostredníctvom rozhraní DisplayPort 1.4a a USB 3.0. Vstavaný systém sledovania a softvér Pimax Play zjednodušujú proces nastavenia a pripravujú náhlavnú súpravu na používanie vo virtuálnej realite.</p>
+<p>
+<img alt="Dve čierne náhlavné súpravy pre virtuálnu realitu s LED podsvietením na tmavých geometrických podstavcoch." border="0" src="https://assets.innpro.pl/25497/33734/11-abd993af-80da-4807-b4d4-ff87debb2334.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>VR headset PIMAX Crystal Super Micro OLED</li><li>VR ovládače x 2</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Pimax</td></tr><tr><th>Model</th><td>Crystal Super Micro OLED</td></tr><tr><th>Typ zariadenia</th><td>PC VR headset</td></tr><tr><th>Technológia displeja</th><td>Sony Micro-OLED</td></tr><tr><th>Rozlíšenie</th><td>3840 × 3552 pixelov na oko</td></tr><tr><th>Hustota pixelov</th><td>53 PPD</td></tr><tr><th>Zorné pole</th><td>116° horizontálne</td></tr><tr><th>Obnovovacia frekvencia</th><td>72 / 90 Hz</td></tr><tr><th>Typ šošoviek</th><td>Trojvrstvové typu „Pancake“</td></tr><tr><th>Nastavenie IPD</th><td>Automatické</td></tr><tr><th>Sledovanie pohybu očí</th><td>Áno, 120 Hz</td></tr><tr><th>Technológia optimalizácie vykresľovania</th><td>Dynamic Foveated Rendering (DFR)</td></tr><tr><th>Systém sledovania pohybu</th><td>Inside-Out Tracking</td></tr><tr><th>Počet sledovacích kamier</th><td>4</td></tr><tr><th>Algoritmus sledovania</th><td>Pimax SLAM</td></tr><tr><th>Podpora Lighthouse</th><td>Áno, voliteľná</td></tr><tr><th>Optický modul</th><td>Vymeniteľný</td></tr><tr><th>Kompatibilita</th><td>SteamVR, OpenXR, OpenVR</td></tr><tr><th>Softvér</th><td>Pimax Play</td></tr><tr><th>Odporúčaná grafická karta</th><td>NVIDIA GeForce RTX 3070 alebo lepšia</td></tr><tr><th>Rozhrania</th><td>DisplayPort 1.4a, USB 3.0</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88616_66670_pol_f30fc02085c47aa0bbb90363ea3803b9" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[PIMAX]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>096546</CODE>
+<EAN>6977402870484</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Super 8K Micro-OLED - obrázok 1">https://b2b.innpro.sk/hpeciai/5308744264ed72737206e048b5f9dcac/66670_1_1.webp</IMAGE>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Super 8K Micro-OLED - obrázok 2">https://b2b.innpro.sk/hpeciai/d4cd685abb4eb7a64162bc51445272f8/66670_2_1.webp</IMAGE>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Super 8K Micro-OLED - obrázok 3">https://b2b.innpro.sk/hpeciai/f6874746b59f9f7f895ec02022f9756c/66670_3_1.webp</IMAGE>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Super 8K Micro-OLED - obrázok 4">https://b2b.innpro.sk/hpeciai/e1d17ceb12ee3b0bcfaa7c42d6e993ca/66670_4_1.webp</IMAGE>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Super 8K Micro-OLED - obrázok 5">https://b2b.innpro.sk/hpeciai/ec524c005fd952e5e59a5ae5d6847460/66670_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[PIMAX]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ zariadenia]]></NAME>
+    <VALUE><![CDATA[PC VR headset]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Technológia displeja]]></NAME>
+    <VALUE><![CDATA[Sony Micro-OLED]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozlíšenie]]></NAME>
+    <VALUE><![CDATA[3840 × 3552 pixelov na oko]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hustota pixelov]]></NAME>
+    <VALUE><![CDATA[53 PPD]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zorné pole]]></NAME>
+    <VALUE><![CDATA[116° horizontálne]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Obnovovacia frekvencia]]></NAME>
+    <VALUE><![CDATA[72 / 90 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ šošoviek]]></NAME>
+    <VALUE><![CDATA[Trojvrstvové typu „Pancake“]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nastavenie IPD]]></NAME>
+    <VALUE><![CDATA[Automatické]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Sledovanie pohybu očí]]></NAME>
+    <VALUE><![CDATA[Áno, 120 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Technológia optimalizácie vykresľovania]]></NAME>
+    <VALUE><![CDATA[Dynamic Foveated Rendering (DFR)]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>4.81</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>2661.90</PRICE_VAT>
+<PURCHASE_PRICE>1881.81</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[VR okuliare PIMAX CRYSTAL Super 8K Micro-OLED | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[VR okuliare PIMAX CRYSTAL Super 8K Micro-OLED – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[VR okuliare PIMAX CRYSTAL Light]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[VR okuliare PIMAX CRYSTAL-LIGHT Crystal Light PIMAX Crystal Light sú VR okuliare určené pre PCVR hry a simulátory, vybavené dvoma QLED MiniLED displejmi s rozlíšením 2880 × 2880 pixelov na jedno oko,…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>VR okuliare PIMAX CRYSTAL-LIGHT Crystal Light</h3>
+<p>PIMAX Crystal Light sú VR okuliare určené pre PCVR hry a simulátory, vybavené dvoma QLED MiniLED displejmi s rozlíšením 2880 × 2880 pixelov na jedno oko, čo predstavuje celkom 16,58 milióna pixelov. Hustota pixelov 35 PPD, asférické sklenené šošovky a technológia Local Dimming zaručujú ostrý obraz, živé farby a hlbokú čiernu. Okuliare ponúkajú zorné pole až 110°, obnovovaciu frekvenciu až 120 Hz, nastavenie IPD v rozmedzí 58 až 72 mm a sledovanie pohybu 6DoF prostredníctvom štyroch vstavaných kamier. Priame pripojenie cez DisplayPort 1.4a minimalizuje latenciu, zatiaľ čo technológie Fixed Foveated Rendering (FFR 2.0) a upscaling pomáhajú zabezpečiť plynulý herný zážitok bez preťaženia grafickej karty. Zariadenie tiež podporuje funkciu Passthrough a voliteľné rozšírenie o sledovací systém Lighthouse.</p>
+<p>
+<img alt="Čierne VR okuliare s osvetleným predným panelom a nastaviteľným popruhom na hlavu na svetlo modrom pozadí." border="0" src="https://assets.innpro.pl/25503/33739/2-ed2b3908-ee69-4e06-9cd1-c11899adfb65.jpg"/>
+</p><h3>Rozlíšenie 2880 × 2880 – vidíte každý detail</h3>
+<p>Dva displeje s kombinovaným rozlíšením 16,58 milióna pixelov poskytujú ostrý obraz, v ktorom zostávajú jasné aj tie najmenšie detaily. Hustota pixelov 35 PPD uľahčuje čítanie textu, meradiel a tlačidiel vo virtuálnom kokpite. Efekt „screen-door“ už nie je viditeľný, vďaka čomu obraz pôsobí prirodzenejšie. To je obzvlášť užitočné v leteckých a pretekárskych simulátoroch – budete môcť rýchlejšie odčítať hodnoty prístrojov bez toho, aby ste museli priblížiť hlavu k virtuálnemu palubnému panelu.</p>
+<p>
+<img alt="Čierne VR okuliare Pimax Crystal Light s nastaviteľným popruhom na hlavu na tmavom pozadí s farebným prechodom." border="0" src="https://assets.innpro.pl/25503/33739/1-ae204f29-0f02-496f-88f6-41ba3a131bc9.jpg"/>
+</p><h3>Technológie QLED a MiniLED – žiarivé farby a hlboký kontrast</h3>
+<p>Technológia Quantum Dot ponúka široký farebný gamut, vďaka čomu krajiny, osvetlenie a objekty vo vašom okolí vyzerajú prirodzene a živo. Červené farby sú hlbšie, zelené sýtejšie a jasné prvky si zachovávajú intenzitu farieb. Funkcia Local Dimming zase umožňuje nezávislé ovládanie zón podsvietenia, čo vedie k hlbšej čiernej farbe a zníženému presvitu svetla okolo jasných oblastí. Vďaka tomu nočné scény, hviezdna obloha a slabo osvetlené miestnosti vyzerajú realistickejšie.</p>
+<p>
+<img alt="Čierne VR okuliare s futuristickým dizajnom a nastaviteľným popruhom na hlavu na abstraktnom, tmavom pozadí." border="0" src="https://assets.innpro.pl/25503/33739/3-6dad527d-b41a-4eb4-a46a-3659bbdeb9a3.jpg"/>
+</p><h3>Asférické sklenené šošovky – jasný obraz aj na okrajoch</h3>
+<p>PIMAX Crystal Light využíva asférické sklenené šošovky, ktoré minimalizujú skreslenie obrazu na okrajoch a chromatickú aberáciu. Veľká plocha optimálneho zaostrenia, známa ako „sweet spot“, vám umožňuje sledovať rôzne časti virtuálneho priestoru bez neustáleho otáčania hlavy. Oceníte to najmä počas pretekov: stačí len letmý pohľad smerom k spätnému zrkadlu alebo súperovi a máte ich stále na očiach. Sklenená optika tiež zabezpečuje dobrú priepustnosť svetla a znižuje nežiaduce odlesky, čím pomáha zachovať čistotu obrazu aj v jasne osvetlených scénach.</p>
+<p>
+<img alt="VR okuliare Pimax Crystal Light vznášajúce sa na pozadí pretekárskych áut a lietajúceho lietadla." border="0" src="https://assets.innpro.pl/25503/33739/4-28fe30a2-cc8c-4805-ac84-edcf819b7f73.jpg"/>
+</p><h3>Zorné pole až 110° a obnovovacia frekvencia 120 Hz – väčšia sloboda pri hraní</h3>
+<p>Široké zorné pole vám umožňuje vnímať väčšiu časť virtuálneho prostredia, čo zvyšuje pocit priestoru pri jazde, lietaní alebo pri objavovaní herného sveta. Okuliare podporujú obnovovacie frekvencie 72, 90 a 120 Hz, čo vám umožňuje prispôsobiť plynulosť obrazu schopnostiam vášho počítača. Režim 120 Hz je obzvlášť efektívny v rýchlych hrách, kde sú kľúčové rýchle reakcie na meniace sa situácie.</p>
+<p>
+<img alt="VR okuliare nasadené na hlave tmavého manekýna s zdvihnutou rukou na minimalistickom, tmavosivom pozadí." border="0" src="https://assets.innpro.pl/25503/33739/5-2bd7fca7-f55b-4531-aa68-327c3c0bf804.jpg"/>
+</p><h3>DisplayPort 1.4a – priamy, nekomprimovaný obraz</h3>
+<p>PIMAX Crystal Light sa pripája k počítaču cez DisplayPort 1.4a, čím prenáša obraz bez kompresie používanú v riešeniach založených na streamovaní. Toto pripojenie eliminuje rušenie typické pre bezdrôtový prenos a minimalizuje dodatočné oneskorenie. Obraz z grafickej karty sa dostáva do headsetu bez zbytočného oneskorenia, takže reakcia na pohyby hlavy je okamžitá. Napájanie zabezpečuje samostatný napájací adaptér, vďaka čomu je napájanie nezávislé od signálneho pripojenia k počítaču.</p>
+<p>
+<img alt="Okuliare Pimax Crystal Light VR zobrazené z profilu na tmavom pozadí vedľa detailného záberu objektívu fotoaparátu." border="0" src="https://assets.innpro.pl/25503/33739/6-dcffa479-f9aa-47d7-b3c9-382e944061ce.jpg"/>
+</p><h3>Sledovanie 6DoF Inside-Out – hrajte bez externých základných staníc</h3>
+<p>Štyri vstavané kamery sledujú polohu headsetu a ovládačov v šiestich stupňoch voľnosti (6DoF). Systém sledovania Inside-Out nevyžaduje inštaláciu externých základných staníc, takže si môžete ľahko nastaviť herný priestor v rôznych miestnostiach. Stačí nastaviť výšku podlahy a vymedziť herný priestor. Ak používate ekosystém SteamVR, voliteľný panel Lighthouse vám umožňuje rozšíriť nastavenie o sledovanie pomocou základných staníc, vrátane podpory kompatibilných riešení na sledovanie celého tela.</p>
+<p>
+<img alt="Čierne VR okuliare so štyrmi vstavanými sledovacími kamerami vyžarujúcimi modré lúče svetla." border="0" src="https://assets.innpro.pl/25503/33739/7-a0147670-9514-4e3a-8f83-f22f43655a75.jpg"/>
+</p><h3>Ovládače 6DoF a funkcia Passthrough – presné ovládanie a rýchly náhľad okolia</h3>
+<p>Súčasťou balenia sú ovládače 6DoF s analógovými páčkami, citlivými spúšťami a haptickou spätnou väzbou. To umožňuje mapovať pohyby rúk vo virtuálnom priestore, pričom haptická spätná väzba zvyšuje pocit interakcie v hrách. Funkcia Passthrough vám medzitým umožňuje rýchlo si prezrieť vaše skutočné okolie. Stačí dvakrát ťuknúť na headset, aby ste skontrolovali, kde sa nachádza vaša klávesnica, ovládače alebo iné predmety, bez toho, aby ste museli zariadenie zložiť.</p>
+<p>
+<img alt="VR okuliare nasadené na hlave figuríny, obklopené svietiacimi obrysmi osobného lietadla a pretekárskeho auta." border="0" src="https://assets.innpro.pl/25503/33739/8-49eb22e0-a7a8-4cbb-a70a-a5334161c7a2.jpg"/>
+</p><h3>FFR 2.0 a upscaling – plynulý herný zážitok bez preťaženia grafickej karty</h3>
+<p>Technológia Fixed Foveated Rendering 2.0 sústreďuje výpočtový výkon grafickej karty na centrálnu oblasť obrazu, čím znižuje úroveň detailov na okrajoch. V dôsledku toho sa môže snímková frekvencia zvýšiť o 10–30 %, v závislosti od hry a konfigurácie vášho počítača. Plynulý herný zážitok si užijete aj na grafických kartách ako RTX 2080 alebo RTX 3070, napríklad v hre Half-Life: Alyx. Navyše, vďaka upscalingu sa obraz vykresľuje v rozlíšení 2160 × 2160 pixelov a následne sa škaluje na natívne rozlíšenie displeja. Toto riešenie znižuje zaťaženie grafického procesora a uľahčuje nájdenie rovnováhy medzi plynulosťou a ostrosťou obrazu.</p>
+<p>
+<img alt="Muž s okuliarmi pre virtuálnu realitu riadi auto v pretekárskom simulátore." border="0" src="https://assets.innpro.pl/25503/33739/12-e19b0219-6a6e-4769-b2ed-0519d0e82289.jpg"/>
+</p><h3>Modulárny zvukový systém – ešte väčšie vtiahnutie do hry</h3>
+<p>PIMAX Crystal Light vám umožňuje vylepšiť zvuk pomocou voliteľného systému DMAS. Jeho väčšie meniče poskytujú hlbšie basy a priestorovejší zvuk, vďaka čomu môžete lepšie rozlišovať medzi hudbou a zvukovými efektmi. To je užitočné nielen v rytmických hrách, ako je Beat Saber, ale aj v tituloch, kde je kľúčové rozpoznávanie smeru prichádzajúcich zvukov.</p>
+<p>
+<img alt="Geometricky tvarované okuliare pre virtuálnu realitu s podsvieteným panelom a sledovacími kamerami." border="0" src="https://assets.innpro.pl/25503/33739/9-ec87681b-cdcb-4983-a976-de29ac797978.jpg"/>
+</p><h3>Ergonomický dizajn – pohodlie počas dlhších VR relácií</h3>
+<p>Konštrukcia PIMAX Crystal Light využíva vyvážené rozloženie hmotnosti medzi prednou a zadnou časťou náhlavnej súpravy, čím sa znižuje tlak na tvár. Nastaviteľné popruhy pomáhajú udržať náhlavnú súpravu v stabilnej polohe a rozsah IPD 58–72 mm vám umožňuje prispôsobiť vzdialenosť medzi šošovkami vašej medzipupilárnej vzdialenosti. Vďaka tomu je ľahšie dosiahnuť správne optické zarovnanie a zabezpečiť pohodlné používanie náhlavnej súpravy počas dlhších herných sedení. Celé zariadenie vyniká geometrickým telom a výrazným technickým dizajnom.</p>
+<p>
+<img alt="Čierna sada Pimax VR: okuliare s hlavovým popruhom, dva ovládače a krabička na svetlom štúdiovom pozadí." border="0" src="https://assets.innpro.pl/25503/33739/14-f8c97475-2a9b-449c-8bd6-3a1607a0be28.jpg"/>
+</p>
+<h3>Súčasťou balenia je</h3>
+<ul class="list-disc pl-5"><li>VR náhlavná súprava PIMAX Crystal Light</li><li>VR ovládače x 2</li><li>Kábel DisplayPort</li><li>USB kábel</li><li>Sieťový adaptér</li><li>Utierka na čistenie šošoviek</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>PIMAX</td></tr><tr><th>Model</th><td>Crystal Light</td></tr><tr><th>Typ zariadenia</th><td>PCVR headset</td></tr><tr><th>Displeje</th><td>QLED MiniLED</td></tr><tr><th>Rozlíšenie</th><td>2880 × 2880 pixelov na oko</td></tr><tr><th>Celkový počet pixelov</th><td>16,58 milióna</td></tr><tr><th>Hustota pixelov</th><td>35 PPD</td></tr><tr><th>Zorné pole</th><td>Až 110° horizontálne</td></tr><tr><th>Obnovovacia frekvencia</th><td>72 / 90 / 120 Hz</td></tr><tr><th>Typ šošoviek</th><td>Sklenené, asférické</td></tr><tr><th>Podsvietenie</th><td>Lokálne stmievanie</td></tr><tr><th>Nastavenie IPD</th><td>58–72 mm</td></tr><tr><th>Sledovanie pohybu</th><td>Sledovanie Inside-Out, 6DoF</td></tr><tr><th>Sledovacie kamery</th><td>4</td></tr><tr><th>Podpora Lighthouse</th><td>Áno, s voliteľným panelom</td></tr><tr><th>Sledovanie pohybu očí</th><td>Nie</td></tr><tr><th>Konektory</th><td>DisplayPort 1.4a, USB 3.0</td></tr><tr><th>Optimalizačné technológie</th><td>FFR 2.0, upscaling</td></tr><tr><th>Ďalšie funkcie</th><td>Passthrough, rozšírenie zvuku cez DMAS</td></tr><tr><th>Hmotnosť</th><td>815 g</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[PIMAX]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>096545</CODE>
+<EAN>6977402870064</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Light - obrázok 1">https://b2b.innpro.sk/hpeciai/b786a64fdb24e1aaeb40aec897b140fe/66671_1_1.webp</IMAGE>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Light - obrázok 2">https://b2b.innpro.sk/hpeciai/765790553073f38bba7dd957157083bc/66671_2_1.webp</IMAGE>
+  <IMAGE description="VR okuliare PIMAX CRYSTAL Light - obrázok 3">https://b2b.innpro.sk/hpeciai/b6e128bc92284d7c5e49218818bfd135/66671_3_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[PIMAX]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ zariadenia]]></NAME>
+    <VALUE><![CDATA[PCVR headset]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Displeja]]></NAME>
+    <VALUE><![CDATA[QLED MiniLED]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozlíšenie]]></NAME>
+    <VALUE><![CDATA[2880 × 2880 pixelov na oko]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Celkový počet pixelov]]></NAME>
+    <VALUE><![CDATA[16,58 milióna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hustota pixelov]]></NAME>
+    <VALUE><![CDATA[35 PPD]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zorné pole]]></NAME>
+    <VALUE><![CDATA[Až 110° horizontálne]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Obnovovacia frekvencia]]></NAME>
+    <VALUE><![CDATA[72 / 90 / 120 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ šošoviek]]></NAME>
+    <VALUE><![CDATA[Sklenené, asférické]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Podsvietenie]]></NAME>
+    <VALUE><![CDATA[Lokálne stmievanie]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Nastavenie IPD]]></NAME>
+    <VALUE><![CDATA[58–72 mm]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>4.24</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>1148.90</PRICE_VAT>
+<PURCHASE_PRICE>812.18</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[VR okuliare PIMAX CRYSTAL Light | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[VR okuliare PIMAX CRYSTAL Light – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Názalný odsávač GROWNSY – odsávacie nástavce BC024]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Elektrický nosný odsávač GROWNSY + 3 nástavce BC024 Elektrický nosný aspirátor GROWNSY BC024 účinne odstraňuje hlien z detského nosa, čím pomáha vyčistiť dýchacie cesty a uľahčiť dýchanie. Prístroj…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Elektrický nosný odsávač GROWNSY + 3 nástavce BC024</h3>
@@ -634806,10 +635372,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -636517,6 +637085,20 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>070687</CODE>
     <EAN>6977328061966</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>070689</CODE>
+    <EAN>6936685221406</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>070690</CODE>
+    <EAN>6936685221413</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -640146,7 +640728,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>Meross MRS200MA-EU – Wi-Fi navíjací mechanizmus na rolety</SEO_TITLE><META_DESCRIPTION>Inteligentný navíjací mechanizmus Meross MRS200MA-EU na rolety s Wi-Fi. Overte si kompatibilitu, napájanie a podmienky montáže.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>087783</CODE>
     <EAN>6972570964928</EAN>
@@ -640251,7 +640833,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088502</CODE>
     <EAN>5905156105713</EAN>
@@ -640412,7 +640994,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
