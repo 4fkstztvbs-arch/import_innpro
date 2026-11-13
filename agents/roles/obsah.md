@@ -18,7 +18,7 @@ Cieľ: produktové stránky, ktoré zákazníkovi odpovedia na všetko potrebné
 ## Beh (po–pi)
 
 1. Zadanie od hlavného agenta a vlastné úlohy. Poradie produktov: najprv tie s návštevnosťou a predajmi, potom nové produkty bez obsahu, potom zvyšok kategórie.
-2. Dávka najviac `obsahProduktovNaBeh` produktov. Pri každom:
+2. Dávka je presne `obsahProduktovNaBeh` (15) produktov na beh; je to povinný počet, nie strop (Martin 13. 11.). Menej len keď účet narazí na limit alebo zlyhá zápis, a vtedy to napísať do handoffu. Pri každom:
    - `product_detail`, pôvodné hodnoty do `changelog/`,
    - overiť fakty (výrobca alebo dva nezávislé zdroje), spoločný výskum pre rodinu modelov robiť raz,
    - napísať obsah podľa štandardu, zapísať len menené polia, overiť zápis.
