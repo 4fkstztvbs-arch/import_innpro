@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-12 01:32 UTC.
+Kontrola z 2026-11-13 00:22 UTC.
 
-Solight pri **508** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **502** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -135,7 +135,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `5B303` | Solight vypínač do vlhka IP54, č. 1 jednopólový, sivý | 6 | 48 |
 | `5B304` | Solight zásuvka do vlhka IP54, sivá | 6 | 48 |
 | `P73B` | Solight zásuvka priama, IP20, čierna | 6 | 100 |
-| `1V55-W` | Solight vianočná reťaz strieborná, 30x mini LED, 3m, 3 x AA, | 6 | 40 |
 | `1V55-WW` | Solight vianočná reťaz medená, 30x mini LED, 3m, 3 x AA, tep | 6 | 40 |
 | `SSC1115E` | Solight UTP CAT.5E kábel, RJ45 konektor - RJ45 konektor, sáč | 5 | 125 |
 | `PZ12` | Solight viacnásobná zásuvka, 3 zásuvky, vypínač | 5 | 50 |
@@ -187,13 +186,11 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PX04` | Solight vonkajšie ochranné puzdro na káble, IP44 | 5 | 50 |
 | `1V56-W` | Solight vianočná reťaz strieborná, 50x mini LED, 5m, 3 x AA, | 5 | 40 |
 | `P101B` | Solight rozbočovač s podperou, 3 x 10A, matný čierny | 5 | 4 |
-| `1V56-WW` | Solight vianočná reťaz medená, 50x mini LED, 5m, 3 x AA, tep | 5 | 40 |
 | `P98` | Solight zásuvka priebežná IP44, 16A, čierna, vypínač | 4 | 50 |
 | `P99B` | Solight rozbočovač, 3 x 10A, čierny, vypínač | 4 | 100 |
 | `1P41` | Solight viazacie nylonové pásky, 4,8 x 350mm, natural, 100ks | 4 | 100 |
 | `P104` | Solight rozbočovač, 2x 10A, biely-sivý | 4 | 60 |
 | `SSC11X5E` | Solight UTP CAT.5E kábel, RJ45 konektor - RJ45 konektor, 15m | 4 | 50 |
-| `1V52-B` | Solight LED vianočná reťaz, hviezdy, 1,5m, 10x LED, 2x AA, m | 4 | 40 |
 | `P102` | Solight rozbočovač s podperou, 3 x 10A, biely, vypínač | 4 | 100 |
 | `PF30` | Solight flexo šnúra, 2x 1mm2, gumová, čierna, 2,5m | 4 | 20 |
 | `5B106` | Solight vypínač Slim č. 5 sériový - lustrový, biely | 4 | 120 |
@@ -202,7 +199,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `P99` | Solight rozbočovač, 3 x 10A, biely, vypínač | 4 | 100 |
 | `PO20` | Solight prepäťová ochrana do zásuvky, 236J, 1 zásuvka, kontr | 4 | 100 |
 | `1V54-W` | Solight vianočná reťaz strieborná, 100x mini LED, 10m, 3 x A | 4 | 40 |
-| `1V235` | Solight LED reťaz s ozdobnými príveskami 20LED, 60x mini dek | 4 | 100 |
 | `P79` | Solight zásuvka gumová do vlhka a prachu, priama, IP65, čier | 4 | 50 |
 | `1V54-WW` | Solight vianočná reťaz medená, 100x mini LED, 10m, 3 x AA, t | 4 | 40 |
 | `WZ328` | Solight LED žiarovka G9, 6,0W, 3000K, 600lm | 4 | 100 |
@@ -467,7 +463,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PS15` | Solight predlžovací prívod - spojka, 1 zásuvka, 7m, 3 x 1mm2 | 2 | 20 |
 | `PP112PD20` | Solight predlžovací prívod 3 zásuvky, USB A+C 20W PD, 3m, 3  | 2 | 50 |
 | `WN36` | Solight LED čelové nabíjacie svietidlo, 3W, 150lm, zoom, Li- | 2 | 72 |
-| `PP325` | Solight predlžovací prívod kocka 3m, 3 zásuvky IP44, 3 x 1mm | 2 | 10 |
 | `1V252` | Solight LED okenná reťaz snehuliaci, 6x LED, prísavná, 120cm | 2 | 48 |
 | `1V264` | Solight LED vianočné dekorácie, zasnežená krajina s domčekom | 2 | 24 |
 | `P112-PD20` | Solight rozbočovač 3x 16A, USB A+C rychlonabíjačka 20W PD, b | 2 | 100 |
@@ -476,7 +471,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `P112B-PD20` | Solight rozbočovač 3x 16A, USB A+C rychlonabíjačka 20W PD, č | 2 | 100 |
 | `1V294` | Solight LED vianočná hviezda strieborná, závesná, časovač, 6 | 2 | 12 |
 | `PP43` | Solight predlžovací prívod, 5 zásuviek, biely, 5m | 2 | 40 |
-| `AV04` | Solight ventilátor do kúpeľne | 2 | 200 |
 | `1V295` | Solight LED vianočná hviezda zlatá, závesná, časovač, 60cm,  | 2 | 12 |
 | `PP63` | Solight predlžovací prívod, 6 zásuviek, biely, 5m | 2 | 40 |
 | `AV05` | Solight ventilátor do kúpeľne | 2 | 24 |
