@@ -1,0 +1,52 @@
+{
+  "id": "Z-20261113-seo-samsung-tv",
+  "datum": "2026-11-13",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Samsung TV s najväčšou medzerou v CTR: nový SEO titulok a meta popis (bez ceny a dostupnosti); pri UE65M80H aj názov podľa šablóny, URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002203152",
+      "guid": "bdfdce5c-92ac-11f1-982e-bc2411833e01",
+      "url": "https://www.premiumstore.sk/samsung-mini-led-ue65m80h/",
+      "polia": {
+        "name": {
+          "pred": "Televízor Samsung Mini LED UE65M80H",
+          "po": "Televízor Samsung UE65M80H Mini LED 4K, 65\", 144 Hz, Tizen"
+        },
+        "metaTitle": {
+          "pred": "Samsung UE65M80H 65\" Mini LED 4K televízor | PremiumStore.sk",
+          "po": "Samsung UE65M80H 65\" Mini LED 4K televízor, 144 Hz"
+        },
+        "metaDescription": {
+          "pred": "Samsung UE65M80H: 65\" Mini LED 4K televízor s Tizenom, až 144 Hz v hernom režime, HDR10+ a tunerom DVB-T2. Cenu a ďalšie parametre nájdete na PremiumStore.sk.",
+          "po": "Televízor Samsung UE65M80H s uhlopriečkou 165,1 cm: Mini LED 4K UHD, až 144 Hz v hernom režime, HDR10+, Tizen a tuner DVB-T2."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002203105",
+      "guid": "d1320538-92ac-11f1-ac3c-bc2411833e01",
+      "url": "https://www.premiumstore.sk/samsung-oled-qe65s90h/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Samsung QE65S90H 65\" OLED 4K televízor | PremiumStore.sk",
+          "po": "Samsung QE65S90H 65\" OLED 4K televízor, Dolby Atmos"
+        },
+        "metaDescription": {
+          "pred": "Samsung QE65S90H: 65\" OLED 4K televízor s Dolby Atmos a systémom Tizen. Aktuálnu cenu, dostupnosť a ďalšie parametre nájdete na PremiumStore.sk.",
+          "po": "Televízor Samsung QE65S90H, 65\" (165,1 cm) OLED 4K z roku 2026: samosvietivé pixely, Dolby Atmos a operačný systém Tizen."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-13",
+    "ok": true,
+    "poznamka": "Shoptet potvrdil zápis polí (UE65M80H: name, metaTitle, metaDescription; QE65S90H: metaTitle, metaDescription)."
+  }
+}
