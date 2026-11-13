@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600809,
+    "nextCardNumber": 202600814,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4850,6 +4850,36 @@
         "nazov": "Proudový chránič GACIA PR8HM typ B /40A/30mA/4P/10kA",
         "dodavatel": "atos",
         "code": "PR8HM4P40A30MAB"
+      },
+      "8592718029999": {
+        "kod": "202600809",
+        "nazov": "LED WIFI smart vonkajšia vianočná reťaz, 400 LED, 20m,",
+        "dodavatel": "solight",
+        "code": "1V13-WIFI"
+      },
+      "8595092102937": {
+        "kod": "202600810",
+        "nazov": "Vonkajšia anténa, DVB- T2, 35dB",
+        "dodavatel": "solight",
+        "code": "HN17B"
+      },
+      "8592718032326": {
+        "kod": "202600811",
+        "nazov": "Ručná akumulátorová píla 21V, lišta 100mm",
+        "dodavatel": "solight",
+        "code": "RNP100A1"
+      },
+      "8592718037369": {
+        "kod": "202600812",
+        "nazov": "LED záhradné osvetlenie, snehové vločky, 5ks, 15x LED,",
+        "dodavatel": "solight",
+        "code": "1V281"
+      },
+      "8592718038359": {
+        "kod": "202600813",
+        "nazov": "Domáca kamera so svetlom a hodinami",
+        "dodavatel": "solight",
+        "code": "1D81"
       }
     }
   },
