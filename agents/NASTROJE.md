@@ -22,3 +22,7 @@ Stav overený 10. 11. 2026 z cloudových vlákien projektu. Rutiny sú postaven�
 | Nahrávky Clarity | Vidno zoznam a súhrny, nie prehrávanie | Pracovať so súhrnmi a filtrami. |
 
 Rola, ktorá zistí zmenu v prístupoch (niečo začalo alebo prestalo fungovať), upraví tento súbor a napíše to do handoffu.
+
+## Aktualizácia 13. 11. (ux-cro)
+
+Rozšírenie Claude for Chrome na Martinovom Macu je pripojené priamo k vláknu (nástroje `mcp__claude-in-chrome__*`, ak sa dajú načítať cez ToolSearch). Cez prihlásenú administráciu Shoptetu sa dá čítať aj upravovať HTML kód šablóny (Vzhľad a obsah, Editor, HTML kód) a pozerať premiumstore.sk bez chyby 403. Zmenu šablóny robí len rola ux-cro a vždy so záznamom v denníku zmien. Nástroj môže skryť časť výpisu (reťazce s tokenmi alebo adresami), preto sa tajné kľúče v kóde šablóny nečítajú a do repozitára sa nepíšu.

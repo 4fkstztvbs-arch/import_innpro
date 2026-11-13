@@ -1,0 +1,26 @@
+{
+  "id": "Z-20261113-ux-cro-aa-skript",
+  "datum": "2026-11-13",
+  "rola": "ux-cro",
+  "uloha": "T-20261110-ux-cro-ramec-ab-testov",
+  "experiment": "E-20261113-aa-skript",
+  "system": "sablona",
+  "schvalenie": null,
+  "zhrnutie": "Do pätičky HTML kódu šablóny (Shoptet administrácia, Vzhľad a obsah, Editor, HTML kód) pridaný jeden riadok so skriptom assets/ux/premiumstore-experiment-20261112.js na spustenie testu A/A. Skript nemení vzhľad stránky.",
+  "polozky": [
+    {
+      "typ": "subor",
+      "kod": "sablona-html-kod-paticka",
+      "url": "https://www.premiumstore.sk/admin/html-kody/",
+      "polia": {
+        "footer": {
+          "pred": "pôvodný obsah pätičky bez posledného riadku (6427 znakov, ďalšie polia nezmenené)",
+          "po": "pôvodný obsah + nový posledný riadok: script src=https://4fkstztvbs-arch.github.io/import_innpro/assets/ux/premiumstore-experiment-20261112.js?v=1 (6549 znakov)"
+        }
+      }
+    }
+  ],
+  "overenie": { "kedy": "2026-11-13", "ok": true, "poznamka": "Titulná stránka a krok 1 pokladne sa vykreslia, skript sa načíta, atribút vetvy sa nastaví, bez horizontálneho posunu, tlačidlo Pokračovať k údajom viditeľné. Objednávka sa neodoslala." },
+  "trvanlivost": null,
+  "navrat": { "kedy": null, "dovod": null, "kto": null, "postup": "Odstrániť posledný riadok pätičky s premiumstore-experiment-20261112.js a uložiť." }
+}
