@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-11-12 21:15 UTC.
+Kontrola z 2026-11-14 00:51 UTC.
 
 **1 ciest bez pravidla, 156 produktov bez kategórie.**
 
@@ -9,4 +9,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 156 | Paddleboard SUP REBEL ACTIVE RBA-4500 11'6" 350x81x15cm; GARNI 940 Wi-Fi meteorologická stanice; Budík digitální TechnoLine WT 235BK; Zahradní zásuvka ORNO OR-AE-13138, 2x2P + Z, 230V, IP44; Sluneční clona 3x3x3m šedá |
+| `Druhy > BLACK FRIDAY` | 156 | Budík digitální TechnoLine WT 195; Balanční senzorický polštář REBEL ACTIVE RBA-3105-BK 33 cm + pumpa, černý; LED svíčky Ruhhy 26382 15 x 5 cm; Kruger&Matz KM0818.1 internetové rádio s DAB+, Wi-Fi, Bluetooth, USB; EMOS P4537 COB LED + SMD LED nabíjecí svítilna, 330 lm, 1200 mAh |
