@@ -34,3 +34,9 @@ rola: hlavny-agent
 ## Kde pokračovať
 
 - 15. 11. (nedeľa), 16. 11. pondelok: týždenné zhodnotenie, limity v config.json, vyhodnotenie reklamy.
+
+## Doplnenie (po otázke Martina 14. 11.)
+
+- Obsah 13. 11.: 5 behov, 2 produkty zapísané (Besen LX30, Hotwav Cyber 16 Pro). Pravidlo 15 na beh platí od večera 13. 11. (PR #314). Príčiny nízkeho počtu: vlna 1 vyčerpaná, chýbajúci zdrojový text, kódy produktov z GSC sa nedajú nájsť cez product_search (1000 z cca 30 000), jeden výpadok MCP (502).
+- Zadanie obsahu: kódy zisťovať cez admin v Chrome na Macu alebo z feedov dodávateľov (nie product_search), založiť experiment s kontrolnou skupinou, potom dávka 15. Ak je dávka menšia, handoff uvedie presný dôvod a počet.
+- Report ráno počítať ako "zápisov" (produkty, stránky, šablóna) so zoznamom podľa rolí.
