@@ -113,8 +113,8 @@
   "experimenty": {
     "minDni": 14,
     "standardDni": 28,
-    "minStranokTest": 10,
-    "minStranokKontrola": 10,
+    "minStranokTest": 8,
+    "minStranokKontrola": 8,
     "alfa": 0.05
   },
   "zakazanePolia": [
