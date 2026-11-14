@@ -22,7 +22,8 @@ Cieľ: aby systém vedel, čo naozaj funguje. Rola meria nezávisle od tých, kt
 1. **Čísla za včerajšok** uložiť do `/mnt/project-files/eshop-agents/metrics/RRRR-MM-DD.json`:
    - Search Console: kliknutia, zobrazenia, CTR, priemerná pozícia (dáta meškajú 2 až 3 dni, dopĺňať spätne),
    - GA4: relácie spolu a z organiky, pridania do košíka, začaté objednávky, nákupy, konverzia, tržby, podľa kanálov a zariadení,
-   - Shoptet: počet objednávok,
+   - Shoptet: počet objednávok za deň (`orders_list` s `createdFrom`/`createdTo` a `paginator.totalCount`; bez stornovaných stavov). Je to hlavný zdroj počtu objednávok, GA4 slúži len na porovnanie. GA4 zachytáva len časť objednávok, presný podiel a počty uložiť len do súkromného priečinka.
+   - Administrácia (`/admin/prehlad-objednavok/` cez Chrome na Macu) len ako záložný zdroj, keď Shoptet API zlyhá. Vyžaduje schválenú reláciu na Macu, preto ju nespúšťať na bežný beh.
    - počet zmien z `changelog/` za deň.
    Chýbajúci zdroj sa zapíše ako chýbajúci, nikdy nie ako nula.
 2. **Poistky** (prahy v `config.json`):
