@@ -5,8 +5,8 @@ typ: seo-skupiny
 rola: obsah
 stav: bezi
 uloha: T-20261110-obsah-vlna-1-produkty-s-navstevnostou
-start: 2026-11-14 (zápis všetkých 5 TEST produktov)
-vyhodnotenie: 2026-12-12 (28 dní po zápise)
+start: 2026-11-14
+vyhodnotenie: 2026-12-12
 metrika: CTR a zobrazenia v Search Console
 verdikt:
 ---
