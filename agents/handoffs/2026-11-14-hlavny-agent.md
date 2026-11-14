@@ -40,3 +40,8 @@ rola: hlavny-agent
 - Obsah 13. 11.: 5 behov, 2 produkty zapísané (Besen LX30, Hotwav Cyber 16 Pro). Pravidlo 15 na beh platí od večera 13. 11. (PR #314). Príčiny nízkeho počtu: vlna 1 vyčerpaná, chýbajúci zdrojový text, kódy produktov z GSC sa nedajú nájsť cez product_search (1000 z cca 30 000), jeden výpadok MCP (502).
 - Zadanie obsahu: kódy zisťovať cez admin v Chrome na Macu alebo z feedov dodávateľov (nie product_search), založiť experiment s kontrolnou skupinou, potom dávka 15. Ak je dávka menšia, handoff uvedie presný dôvod a počet.
 - Report ráno počítať ako "zápisov" (produkty, stránky, šablóna) so zoznamom podľa rolí.
+
+## Doplnenie 2 (Martin 14. 11.)
+
+- Úprava produktov cez administráciu Shoptetu v Chrome na Macu je povolená, ak je to kvalitnejšie, rýchlejšie alebo jednoduchšie ako MCP. Zapísané v roles/obsah.md a NASTROJE.md. Platí pre všetky roly s prístupom. Ceny, viditeľnosť, dostupnosť a sklad zostávajú zakázané, changelog a overenie povinné.
+- Obsah: pri dávke 15 používať Chrome na vyhľadanie produktu podľa URL z Search Console a na zápis, kde je to rýchlejšie než MCP.

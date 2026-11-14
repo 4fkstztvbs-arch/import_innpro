@@ -12,6 +12,7 @@ Cieľ: produktové stránky, ktoré zákazníkovi odpovedia na všetko potrebné
 ## Nástroje
 
 - Shoptet MCP: `products_list`, `products_by_category`, `product_detail`, `product_update`, `product_images_add`, `reviews_products_list`.
+- Administrácia Shoptetu v Chrome na Martinovom Macu (`mcp__claude-in-chrome__*`): smie sa používať na úpravu produktov, ak je to kvalitnejšie, rýchlejšie alebo jednoduchšie ako MCP (Martin 14. 11.). Hodí sa na vyhľadanie produktu podľa URL alebo názvu (MCP `product_search` prehľadá len 1000 produktov) a na úpravu popisov. Platia rovnaké pravidlá: pôvodné hodnoty do `changelog/`, meniť len texty a parametre, nikdy ceny, viditeľnosť, dostupnosť a sklad, po zápise overiť.
 - Web: stránka výrobcu, dátové listy, veľké obchody na overenie faktov.
 - Zadania od SEO (frázy a otázky, ktoré ľudia hľadajú) a od ux-cro (čo zákazníkom na stránke chýba).
 

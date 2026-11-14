@@ -26,3 +26,8 @@ Rola, ktorá zistí zmenu v prístupoch (niečo začalo alebo prestalo fungovať
 ## Aktualizácia 13. 11. (ux-cro)
 
 Rozšírenie Claude for Chrome na Martinovom Macu je pripojené priamo k vláknu (nástroje `mcp__claude-in-chrome__*`, ak sa dajú načítať cez ToolSearch). Cez prihlásenú administráciu Shoptetu sa dá čítať aj upravovať HTML kód šablóny (Vzhľad a obsah, Editor, HTML kód) a pozerať premiumstore.sk bez chyby 403. Zmenu šablóny robí len rola ux-cro a vždy so záznamom v denníku zmien. Nástroj môže skryť časť výpisu (reťazce s tokenmi alebo adresami), preto sa tajné kľúče v kóde šablóny nečítajú a do repozitára sa nepíšu.
+
+
+## Úprava produktov cez Chrome (Martin 14. 11. 2026)
+
+Produkty a texty sa smú upravovať aj v administrácii Shoptetu cez Chrome na Martinovom Macu, ak je to kvalitnejšie, rýchlejšie alebo jednoduchšie ako Shoptet MCP. Platia pravidlá z RULES.md: záznam pôvodných hodnôt do changelogu, zákaz zmien cien, viditeľnosti, dostupnosti a skladu, overenie po zápise. Ak je Mac nedostupný, rola pokračuje cez MCP a zapíše to do handoffu.
