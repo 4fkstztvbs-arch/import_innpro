@@ -3,10 +3,10 @@ id: E-20261114-obsah-flytec-carlinkit
 nazov: Obsah podľa štandardu, Flytec a Carlinkit
 typ: seo-skupiny
 rola: obsah
-stav: pripraveny
+stav: bezi
 uloha: T-20261110-obsah-vlna-1-produkty-s-navstevnostou
-start: zatiaľ nezačal (začne prvým zápisom do TEST)
-vyhodnotenie: 28 dní po poslednom zápise
+start: 2026-11-14 (zápis všetkých 5 TEST produktov)
+vyhodnotenie: 2026-12-12 (28 dní po zápise)
 metrika: CTR a zobrazenia v Search Console
 verdikt:
 ---
@@ -25,7 +25,8 @@ Ak prepíšeme popis, krátky popis a meta údaje podľa štandardu na stránkac
 ## Obdobia
 
 - Pred: 2026-08-11 až 2026-11-11 (GSC)
-- Po: od zápisu, 28 dní
+- Po: od 2026-11-14, 28 dní
+- Zmena v TEST: len krátky popis (nový text) a pri V803, V020, V030 aj meta titulok a meta popis (bez slov o cene). Popis sa nemenil (trieda B, fakty sedia).
 
 ## Vyhodnotenie
 

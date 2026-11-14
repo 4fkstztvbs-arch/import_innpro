@@ -1,0 +1,103 @@
+{
+  "id": "Z-20261114-obsah-flytec-carlinkit",
+  "datum": "2026-11-14",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": "E-20261114-obsah-flytec-carlinkit",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "TEST skupina pokusu: nový krátky popis (namiesto ustrihnutého začiatku popisu) a oprava meta údajov bez slov o cene.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "078906",
+      "guid": "07f90356-95ea-11f1-b54c-bc24110eff41",
+      "url": "https://www.premiumstore.sk/zavazacia-lodka-flytec-v080-basic--20-000-mah/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Flytec V080 Basic 20 000 mAh loďka na návnadu (batéria nie je súčasťou balenia) Objavte novú úroveň presnosti pri rybolove s kŕmnou loďou V080. Je vybavená pokročilým systémom GPS, ktorý dokáže…",
+          "po": "Zavážacia loďka Flytec V080 Basic s GPS pre rybárov: uloží až 180 waypointov, dosah ovládania do 800 m, dve násypky na 3 kg návnady. Batéria 20 000 mAh sa predáva samostatne."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "083985",
+      "guid": "278d7112-c122-11f1-b324-bc2411833e01",
+      "url": "https://www.premiumstore.sk/flytec-v803-gps-12000mah-lod-na-navnadu/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Flytec V803-GPS 12000mAh návnada loď Flytec V803-GPS je pokročilá návnada loď s presnou GPS a Beidou navigáciou, nahrávaním rybárskych revírov a rybárskych miest a automatickým návratom do…",
+          "po": "Loď na návnadu Flytec V803-GPS s GPS a Beidou navigáciou: 4 komory na návnadu, 200 rybárskych bodov, automatický návrat a dosah ovládania až 500 m. Batéria lode 12 000 mAh je v balení."
+        },
+        "metaTitle": {
+          "pred": "Flytec V803-GPS 12000 mAh – loď s GPS",
+          "po": "Loď na návnadu Flytec V803-GPS 12000 mAh – GPS, 4 komory"
+        },
+        "metaDescription": {
+          "pred": "Loď na návnadu Flytec V803-GPS 12000 mAh: GPS a Beidou, 200 rybárskych bodov, automatický návrat, 4 komory a dosah 500 m. Cena na PremiumStore.sk.",
+          "po": "Loď na návnadu Flytec V803-GPS 12000 mAh: GPS a Beidou, 200 rybárskych bodov, automatický návrat, 4 komory na návnadu, dosah až 500 m."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "078882",
+      "guid": "f5998230-ad7c-11f1-acbc-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/zavazacia-lodka-flytec-v020--12-000-mah/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Flytec V020 12000mah návnada loď Presné vnadenie pomocou GPS Čln s návnadou Flytec V020 12000 mAh je ideálnou voľbou pre rybárov, ktorí oceňujú pohodlie a efektivitu. Vďaka zabudovanému modulu GPS…",
+          "po": "Zavážacia loďka Flytec V020 s GPS: 40 polohových bodov, 3 komory na návnadu, tempomat a dosah ovládania až 500 m. Batéria 7,4 V 12 000 mAh vydrží až 4 hodiny a je súčasťou balenia."
+        },
+        "metaTitle": {
+          "pred": "Flytec V020 12000 mAh – loďka s GPS",
+          "po": "Zavážacia loďka Flytec V020 12000 mAh – GPS, 500 m"
+        },
+        "metaDescription": {
+          "pred": "Zavážacia loďka Flytec V020 12 000 mAh: GPS so 40 bodmi, 3 komory na návnadu, dosah až 500 m, tempomat, chod až 4 h, LED svetlá. Cena na PremiumStore.sk.",
+          "po": "Zavážacia loďka Flytec V020 12 000 mAh: GPS so 40 bodmi, 3 komory na návnadu, dosah až 500 m, tempomat, chod až 4 h, LED svetlá."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "078896",
+      "guid": "07e5dab0-95ea-11f1-bba4-bc24110eff41",
+      "url": "https://www.premiumstore.sk/sonar-flytec-v030-s-kapacitou-20-000-mah-pre-lod-na-navnadu/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Flytec V030 Fishfinder Bait Boat, 20 000 mAh (batéria nie je súčasťou balenia) Model V030 je inovatívny čln na nahadzovanie návnady, ktorý spája pokročilú technológiu GPS s výnimočnou presnosťou.…",
+          "po": "Zavážacia loďka Flytec V030 s GPS a bezdrôtovým sonarom: 180 waypointov v 9 zónach, hĺbka do 36 m, dosah ovládania až 800 m a násypka na 3 kg. Batéria 20 000 mAh sa predáva samostatne."
+        },
+        "metaTitle": {
+          "pred": "Flytec V030 sonar – loď na návnadu s GPS",
+          "po": "Loď na návnadu Flytec V030 so sonarom a GPS, 800 m"
+        },
+        "metaDescription": {
+          "pred": "Loď na návnadu Flytec V030 so sonarom: GPS, 180 waypointov, sonar do 36 m, dosah ovládania 800 m. Batéria 20 000 mAh zvlášť. Cena na PremiumStore.sk.",
+          "po": "Loď na návnadu Flytec V030 so sonarom: GPS, 180 waypointov, sonar do 36 m, dosah ovládania 800 m. Batéria 20 000 mAh sa predáva zvlášť."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088002",
+      "guid": "00807922-b234-11f1-98f1-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/bezdrotovy-adapter-carlinkit-mini-ultra-5-pre-carplay-android-auto/",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 Bezdrôtový adaptér Carlinkit MINI ULTRA 5 vám umožní premeniť pôvodne nainštalované káblové rozhranie CarPlay alebo Android Auto na praktickú bezdrôtovú…",
+          "po": "Bezdrôtový adaptér Carlinkit MINI ULTRA 5 pre autá s továrenským káblovým CarPlay alebo Android Auto. Bluetooth 5.2, Wi-Fi 2,4/5 GHz, OTA aktualizácie, hmotnosť 7 g."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-14",
+    "ok": true,
+    "poznamka": "Všetkých 5 zápisov vrátilo updatedFields podľa plánu; detail Carlinkit znovu načítaný, cena, viditeľnosť, sklad a ostatné polia nezmenené. Ostatné 4 produkty overené len odpoveďou zápisu."
+  },
+  "trvanlivost": null,
+  "navrat": null
+}
