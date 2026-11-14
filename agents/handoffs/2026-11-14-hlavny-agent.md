@@ -45,3 +45,8 @@ rola: hlavny-agent
 
 - Úprava produktov cez administráciu Shoptetu v Chrome na Macu je povolená, ak je to kvalitnejšie, rýchlejšie alebo jednoduchšie ako MCP. Zapísané v roles/obsah.md a NASTROJE.md. Platí pre všetky roly s prístupom. Ceny, viditeľnosť, dostupnosť a sklad zostávajú zakázané, changelog a overenie povinné.
 - Obsah: pri dávke 15 používať Chrome na vyhľadanie produktu podľa URL z Search Console a na zápis, kde je to rýchlejšie než MCP.
+
+## Doplnenie 3 (Martin 14. 11.)
+
+- Nové kritérium pre všetky roly (RULES.md, časť 9): každá zmena sa hodnotí podľa dopadu na organickú návštevnosť, CTR a počet objednávok (zo Shoptetu, nie z GA4). Úlohy bez jasného dopadu sa odkladajú.
+- Pre roly: pred behom zoradiť svoje úlohy podľa tohto kritéria a v handoffe uviesť, na ktorú z troch vecí cieli zápis. Meranie vyhodnocuje výsledky aj podľa objednávok zo Shoptetu.

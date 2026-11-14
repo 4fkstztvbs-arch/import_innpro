@@ -81,3 +81,7 @@ V repozitári môžu byť relatívne zmeny (percentá, percentuálne body), klik
 - Každá zmena triedy B a každá hromadná zmena triedy A (od 10 stránok) má experiment alebo aspoň kontrolnú skupinu.
 - Výsledky hodnotí rola meranie, nie autor zmeny.
 - Píše sa „súvisí so zmenou“, nie „zmena spôsobila“, kým test nemá kontrolnú skupinu a dostatočnú vzorku. Sezónu (Black Friday, Vianoce), importy a iné súbežné zmeny treba v hodnotení uviesť.
+
+## 9. Kritérium priority (Martin 14. 11. 2026)
+
+Každá zmena a každá úloha sa posudzuje podľa toho, či zvýši (1) organickú návštevnosť, (2) mieru preklikov (CTR) z vyhľadávania, alebo (3) počet objednávok v e-shope. Pri výbere úloh z backlogu majú prednosť tie s najjasnejším dopadom na tieto tri veci. Úloha bez jasnej väzby na ne sa odloží. Objednávky sa počítajú zo Shoptetu, nie z GA4 (GA4 zachytáva len časť).
