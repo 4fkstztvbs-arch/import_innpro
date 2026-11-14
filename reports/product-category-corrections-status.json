@@ -1,7 +1,7 @@
 {
-  "products": 29502,
-  "matched": 711,
-  "categoryChanges": 48,
+  "products": 30896,
+  "matched": 674,
+  "categoryChanges": 17,
   "nameChanges": 0,
   "descriptionChanges": 0,
   "automaticCategoryChanges": 0,
@@ -97,6 +97,108 @@
       "supplier": "atos",
       "code": "ABL-17-19-029",
       "ean": "5907695557626",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-CRDRU3110BK",
+      "ean": "5412810415625",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "413603",
+      "ean": "8424450174197",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "ATO-K953",
+      "ean": "8595118827387",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMA-2773-2401",
+      "ean": "4066966321630",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO2305113003",
+      "ean": "8592920068236",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "EMO3146000400",
+      "ean": "8595025359049",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "HAD-L681A",
+      "ean": "8596425057573",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "ITR-00016889",
+      "ean": "5900779944763",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-KAB0607",
+      "ean": "5901436708155",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "LEC-RBA-1018",
+      "ean": "5901890124669",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "T212604",
+      "ean": "8424450151693",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03390181",
+      "ean": "8596425205899",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-03390298",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04250527",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04250589",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "TIP-04250590",
+      "ean": "",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "atos",
+      "code": "V49IP",
+      "ean": "5901436702856",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -325,6 +427,12 @@
       "supplier": "innpro",
       "code": "071368",
       "ean": "6955578044649",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "innpro",
+      "code": "073522",
+      "ean": "5907085523224",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1943,8 +2051,80 @@
     },
     {
       "supplier": "penta",
-      "code": "65526109",
-      "ean": "8885020627596",
+      "code": "5494010",
+      "ean": "6971008021493",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494011",
+      "ean": "6971008021226",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494014",
+      "ean": "6971008020212",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549385",
+      "ean": "6971008025330",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549342",
+      "ean": "6971008024319",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549318",
+      "ean": "6971008021394",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549319",
+      "ean": "6971008021073",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549321",
+      "ean": "6971008023565",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549329",
+      "ean": "6971008023596",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549333",
+      "ean": "6971008022032",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549334",
+      "ean": "6971008020755",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549335",
+      "ean": "6971008021448",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549341",
+      "ean": "6971008025170",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -1955,50 +2135,8 @@
     },
     {
       "supplier": "penta",
-      "code": "6552611",
-      "ean": "1210002618915",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526110",
-      "ean": "1210002619066",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
       "code": "65526100",
       "ean": "4895252500424",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578792",
-      "ean": "8594182427301",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578793",
-      "ean": "8594182427325",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526050",
-      "ean": "8885020625165",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526051",
-      "ean": "8885020625226",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526105",
-      "ean": "8885020627510",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -2015,8 +2153,14 @@
     },
     {
       "supplier": "penta",
-      "code": "54988057",
-      "ean": "8718503027630",
+      "code": "65526050",
+      "ean": "8885020625165",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526051",
+      "ean": "8885020625226",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -2039,140 +2183,92 @@
     },
     {
       "supplier": "penta",
+      "code": "65526109",
+      "ean": "8885020627596",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "549402",
+      "ean": "6971008023879",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494020",
+      "ean": "6971008023886",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494030",
+      "ean": "6971008021639",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494031",
+      "ean": "6971008021646",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494032",
+      "ean": "6971008021691",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494022",
+      "ean": "6971008024937",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494016",
+      "ean": "6971008024500",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
+      "code": "5494017",
+      "ean": "6971008024494",
+      "reason": "Changed name or category; needs review"
+    },
+    {
+      "supplier": "penta",
       "code": "65526054",
       "ean": "1210002603157",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "penta",
-      "code": "120574",
-      "ean": "8595159843148",
+      "code": "6552611",
+      "ean": "1210002618915",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "penta",
-      "code": "36102312",
-      "ean": "1200130015267",
+      "code": "65526110",
+      "ean": "1210002619066",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "penta",
-      "code": "36102508",
-      "ean": "6925281925313",
+      "code": "5578792",
+      "ean": "8594182427301",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "penta",
-      "code": "3610375",
-      "ean": "8590669322640",
+      "code": "5578793",
+      "ean": "8594182427325",
       "reason": "Changed name or category; needs review"
     },
     {
       "supplier": "penta",
-      "code": "44720540",
-      "ean": "8594182430967",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "44720541",
-      "ean": "8594182431148",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "44720542",
-      "ean": "8594182431155",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "44720560",
-      "ean": "8594182431322",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "50698123",
-      "ean": "6935750518045",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "52800046",
-      "ean": "8719076049845",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578042",
-      "ean": "8594182430981",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578044",
-      "ean": "8594182431193",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578045",
-      "ean": "8594182431926",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578786",
-      "ean": "8594182427172",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578787",
-      "ean": "8594182427189",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "5578791",
-      "ean": "8594182427318",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "6025405",
-      "ean": "",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "637501",
-      "ean": "5902490743588",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526000",
-      "ean": "1210002635448",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526111",
-      "ean": "1210002613415",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "65526112",
-      "ean": "1210002613453",
-      "reason": "Changed name or category; needs review"
-    },
-    {
-      "supplier": "penta",
-      "code": "7380440",
-      "ean": "8591680192175",
+      "code": "65526105",
+      "ean": "8885020627510",
       "reason": "Changed name or category; needs review"
     },
     {
@@ -2381,31 +2477,6 @@
     }
   ],
   "unseen": [
-    {
-      "supplier": "atos",
-      "code": "EMA-2773-2401",
-      "ean": "4066966321630"
-    },
-    {
-      "supplier": "atos",
-      "code": "HAD-L681A",
-      "ean": "8596425057573"
-    },
-    {
-      "supplier": "atos",
-      "code": "EMO3146000400",
-      "ean": "8595025359049"
-    },
-    {
-      "supplier": "atos",
-      "code": "EMO2305113003",
-      "ean": "8592920068236"
-    },
-    {
-      "supplier": "atos",
-      "code": "LEC-RBA-1018",
-      "ean": "5901890124669"
-    },
     {
       "supplier": "basys",
       "code": "BASYS-B 892930-2100",
@@ -3843,8 +3914,143 @@
     },
     {
       "supplier": "penta",
+      "code": "5494040",
+      "ean": "8594043550032"
+    },
+    {
+      "supplier": "penta",
+      "code": "549403",
+      "ean": "6971008023510"
+    },
+    {
+      "supplier": "penta",
+      "code": "3610375",
+      "ean": "8590669322640"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578478",
+      "ean": "8594182427769"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578786",
+      "ean": "8594182427172"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578787",
+      "ean": "8594182427189"
+    },
+    {
+      "supplier": "penta",
       "code": "5578789",
       "ean": "8594182427165"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578774",
+      "ean": "8594182427936"
+    },
+    {
+      "supplier": "penta",
+      "code": "6025405",
+      "ean": ""
+    },
+    {
+      "supplier": "penta",
+      "code": "7380440",
+      "ean": "8591680192175"
+    },
+    {
+      "supplier": "penta",
+      "code": "44720540",
+      "ean": "8594182430967"
+    },
+    {
+      "supplier": "penta",
+      "code": "44720541",
+      "ean": "8594182431148"
+    },
+    {
+      "supplier": "penta",
+      "code": "44720542",
+      "ean": "8594182431155"
+    },
+    {
+      "supplier": "penta",
+      "code": "44720543",
+      "ean": "8594182430974"
+    },
+    {
+      "supplier": "penta",
+      "code": "44720545",
+      "ean": "8594182431179"
+    },
+    {
+      "supplier": "penta",
+      "code": "36102508",
+      "ean": "6925281925313"
+    },
+    {
+      "supplier": "penta",
+      "code": "36102504",
+      "ean": "6925281960789"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526000",
+      "ean": "1210002635448"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578791",
+      "ean": "8594182427318"
+    },
+    {
+      "supplier": "penta",
+      "code": "36102312",
+      "ean": "1200130015267"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578041",
+      "ean": "8594182431933"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578045",
+      "ean": "8594182431926"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578046",
+      "ean": "8594182431940"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578047",
+      "ean": "8594182431964"
+    },
+    {
+      "supplier": "penta",
+      "code": "55780481",
+      "ean": "8594182431001"
+    },
+    {
+      "supplier": "penta",
+      "code": "55780482",
+      "ean": "8594182431230"
+    },
+    {
+      "supplier": "penta",
+      "code": "55780483",
+      "ean": "8594182431223"
+    },
+    {
+      "supplier": "penta",
+      "code": "44720560",
+      "ean": "8594182431322"
     },
     {
       "supplier": "penta",
@@ -3855,6 +4061,21 @@
       "supplier": "penta",
       "code": "65526108",
       "ean": ""
+    },
+    {
+      "supplier": "penta",
+      "code": "36103134",
+      "ean": "7797026960144"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526111",
+      "ean": "1210002613415"
+    },
+    {
+      "supplier": "penta",
+      "code": "65526112",
+      "ean": "1210002613453"
     },
     {
       "supplier": "wiim",
@@ -3882,54 +4103,34 @@
       "ean": ""
     },
     {
-      "supplier": "atos",
-      "code": "TIP-03390298",
-      "ean": ""
-    },
-    {
-      "supplier": "atos",
-      "code": "ITR-00016889",
-      "ean": "5900779944763"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-03390181",
-      "ean": "8596425205899"
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04250590",
-      "ean": ""
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04250527",
-      "ean": ""
-    },
-    {
-      "supplier": "atos",
-      "code": "TIP-04250589",
-      "ean": ""
-    },
-    {
       "supplier": "basys",
       "code": "BASYS-B 897806-0010",
       "ean": ""
     },
     {
-      "supplier": "atos",
-      "code": "LEC-KAB0607",
-      "ean": "5901436708155"
+      "supplier": "penta",
+      "code": "120574",
+      "ean": "8595159843148"
     },
     {
-      "supplier": "atos",
-      "code": "413603",
-      "ean": "8424450174197"
+      "supplier": "penta",
+      "code": "5578040",
+      "ean": "8594182431919"
     },
     {
-      "supplier": "atos",
-      "code": "ATO-K953",
-      "ean": "8595118827387"
+      "supplier": "penta",
+      "code": "5578042",
+      "ean": "8594182430981"
+    },
+    {
+      "supplier": "penta",
+      "code": "5578044",
+      "ean": "8594182431193"
+    },
+    {
+      "supplier": "penta",
+      "code": "637501",
+      "ean": "5902490743588"
     },
     {
       "supplier": "atos",
@@ -3937,19 +4138,19 @@
       "ean": "0817882027595"
     },
     {
-      "supplier": "atos",
-      "code": "V49IP",
-      "ean": "5901436702856"
-    },
-    {
       "supplier": "innpro",
       "code": "088071",
       "ean": "6920075777406"
     },
     {
-      "supplier": "atos",
-      "code": "T212604",
-      "ean": "8424450151693"
+      "supplier": "penta",
+      "code": "50698123",
+      "ean": "6935750518045"
+    },
+    {
+      "supplier": "penta",
+      "code": "52800046",
+      "ean": "8719076049845"
     }
   ]
 }
