@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-14 20:14 UTC.
+Kontrola z 2026-11-14 23:13 UTC.
 
-InnPro pri **378** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **381** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -23,7 +23,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `019506` | Fotoblesk Puluz 5w1 + puzdro | — | 5 |
 | `020113` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (červený+čierny) | — | 5 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | — | 5 |
-| `022733` | Hliníkový základný svetelný panel Puluz pre 60cm štúdiový st | — | 5 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrátane O | — | 5 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW2 WiF | — | 5 |
 | `023349` | Organizér BASEUS Planet pre Apple Watch (čierny) | — | 5 |
@@ -83,6 +82,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
 | `051202` | Targeted Lip Volumizer & Booster Geske with APP (gray) | — | 5 |
 | `046656` | Baterka Superfire X18 – 55 lm, 5W, 5 režimov, 38 m | — | 5 |
+| `050684` | Kefa pre vertikálne vysávače Dreame R10 / R10s (biela) | — | 5 |
 | `051608` | UV filter PGYTECH DJI Mavic 3 Pro (profesionálny) | — | 5 |
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
 | `053078` | Face & Body Roller Head Geske (pink) | — | 5 |
@@ -135,7 +135,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `061835` | Puzdro Joyroom PN-15F1 Starry Case pre iPhone 15 Pro (zelené | — | 5 |
 | `063431` | Silikónové bezpečnostné puzdro pre Puluz Insta360 GO 3 s kry | — | 5 |
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
-| `061859` | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (zelené) | — | 5 |
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
@@ -187,6 +186,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071853` | SUNNYLIFE lens hoods for DJI Neo | — | 5 |
 | `071865` | SUNNYLIFE protective battery case for DJI Neo | — | 5 |
 | `071867` | Sunnylife protective case for 3 batteries for DJI Neo | — | 5 |
+| `071892` | Sunnylife overlay for DJI Neo | — | 5 |
 | `071893` | Sunnylife tempered glass for DJI Action 5 Pro | — | 5 |
 | `069348` | Decorative cover / cap for T5 SONOFF Cartoon 1C touch switch | — | 5 |
 | `069349` | Decorative cover / cap for T5 SONOFF Cartoon 2C touch switch | — | 5 |
@@ -302,11 +302,13 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
 | `087500` | Diaľkový ovládač MOES YK2169 | — | 5 |
+| `086440` | Ponorné čerpadlo SUNSUN JP-500GL | — | 5 |
 | `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086450` | Filtračné čerpadlo SUNSUN JP-092 | — | 2 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086461` | Filtračné čerpadlo SUNSUN JP-032F | — | 5 |
+| `086462` | Filtračné čerpadlo SUNSUN JP-033F | — | 5 |
 | `086537` | Vnútorný filter SUNSUN HN-011 | — | 5 |
 | `086477` | Povrchový skimmer SUNSUN JY-03 | — | 5 |
 | `086551` | Vlnový generátor SUNSUN JVP-110 | — | 5 |
@@ -324,6 +326,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088946` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm x 90 cm | — | 5 |
 | `088947` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
 | `088948` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
+| `088949` | HTVRONT Chameleon – fólia na termotransfer, 30,5 cm x 90 cm  | — | 5 |
 | `088952` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |
 | `088953` | Holografická samolepiaca fólia HTVRONT, 30,5 cm × 90 cm (tyr | — | 5 |
 | `088954` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |
