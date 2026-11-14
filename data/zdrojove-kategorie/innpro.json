@@ -327,10 +327,10 @@
   "Elektro, Smart Home a osvetlenie > Osvetlenie": 1
  },
  "Inteligentná domácnosť > Príslušenstvo": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť": 37
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť": 38
  },
  "Inteligentná domácnosť > Prvky výkonu > Senzory": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": 92
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory": 93
  },
  "Inteligentná domácnosť > Prvky výkonu > Smart kúrenie > Ovládače klimatizácie > tepelného čerpadla": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť": 2
@@ -357,10 +357,10 @@
   "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart vypínače a relé": 74
  },
  "Inteligentná domácnosť > Riadiace jednotky > Smart centrály": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky": 27
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky": 29
  },
  "Inteligentná domácnosť > Riadiace jednotky > Smart ovládače": {
-  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely": 117
+  "Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely": 118
  },
  "Inteligentná domácnosť > Smart záhrada": {
   "Elektro, Smart Home a osvetlenie > Smart domácnosť": 11
@@ -429,7 +429,7 @@
   "Počítače, mobily a tablety > Disky a pamäťové médiá > Externé disky": 10
  },
  "IT príslušenstvo > Routery": {
-  "Počítače, mobily a tablety > Siete a dátové úložiská > Cestovné a VPN routery": 14
+  "Počítače, mobily a tablety > Siete a dátové úložiská > Cestovné a VPN routery": 15
  },
  "IT príslušenstvo > Rozbočovače": {
   "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Dokovacie stanice": 5
@@ -588,7 +588,7 @@
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie > Náradie pre brúsenie, vŕtanie, rezanie a pilovanie": 1
  },
  "Náradie > Meracie nástroje": {
-  "Dielňa, náradie a záhrada > Meracia technika": 332
+  "Dielňa, náradie a záhrada > Meracia technika": 333
  },
  "Náradie > Ostatné": {
   "Dielňa, náradie a záhrada > Ručné a elektrické náradie": 19
@@ -782,6 +782,9 @@
  "Príslušenstvo pre automobily > Nabíjačky do auta": {
   "Auto-moto > Autobatérie, nabíjačky a štartovacie boxy": 4
  },
+ "Príslušenstvo pre automobily > Nezávislé kúrenie": {
+  "(bez pravidla)": 2
+ },
  "Príslušenstvo pre automobily > Ostatné": {
   "Auto-moto > Príslušenstvo do auta": 4
  },
@@ -843,7 +846,7 @@
   "Počítače, mobily a tablety > Monitory a PC periférie > Grafické tablety": 1
  },
  "šport > Elektrické bežecké pásy": {
-  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Elektrické bežecké pásy": 41
+  "Cestovanie, šport a outdoor > Posilňovanie a fitness > Elektrické bežecké pásy": 42
  },
  "šport > Elektrické bicykle": {
   "Cestovanie, šport a outdoor > Elektrické bicykle a cyklotrenažéry": 11
@@ -966,7 +969,7 @@
   "Chovateľské potreby > Akvaristika": 3
  },
  "Zvieratá > Akvaristika > Akváriové čerpadlá": {
-  "Chovateľské potreby > Akvaristika": 32
+  "Chovateľské potreby > Akvaristika": 28
  },
  "Zvieratá > Akvaristika > Akváriové filtre": {
   "Chovateľské potreby > Akvaristika": 26

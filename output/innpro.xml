@@ -11064,6 +11064,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -36640,7 +36641,7 @@ Režimy
 <UNIT>ks</UNIT>
 <CODE>029282</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6956362999572</EAN>
 <CATEGORIES>
@@ -60332,6 +60333,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -104857,10 +104859,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -128549,6 +128553,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -140197,10 +140202,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.60</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -147052,6 +147059,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -147147,6 +147155,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -152174,6 +152183,7 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -177944,14 +177954,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -188560,7 +188570,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>071868</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5907085520773</EAN>
 <CATEGORIES>
@@ -188945,6 +188955,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -199949,6 +199960,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -200474,14 +200486,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -201595,6 +201607,101 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Elektrický bežecký pás UREVO Spacewalk SP1  Lite… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Elektrický bežecký pás UREVO Spacewalk SP1  Lite (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny). Elektrický bežecký pás UREVO Strol 2E Smart je moderné riešenie 2 v 1 pre každého, kto oceňuje pohodlie a efektivitu tréningu. Vďaka…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny).</h3>
+<p>Elektrický bežecký pás UREVO Strol 2E Smart je moderné riešenie 2 v 1 pre každého, kto oceňuje pohodlie a efektivitu tréningu. Vďaka kompatibilite s aplikáciami, ako sú Zwift, UREVO a Kinomap, vám zariadenie umožňuje prispôsobiť si tréningové plány a sledovať svoj pokrok. Bežecký pás UREVO navyše spolupracuje s ekosystémom Xiaomi, čo vám otvára ešte viac možností. Je to skvelý spôsob, ako vniesť technológie do každodenného tréningu a urobiť ho pútavejším.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/6.jpg"/>
+</p><h3>Žiadne nepohodlie</h3>
+<p>Zdravie vašich kĺbov je prioritou, preto je bežecký pás UREVO Strol 2E vybavený 5-vrstvovým bežeckým pásom, ktorý je vybavený 2 mäkkými vankúšmi a 8 silikónovými tlmičmi nárazov. Táto technológia výrazne znižuje nárazy pri behu, čím minimalizuje riziko zranenia. Je ideálnou voľbou pre začiatočníkov aj skúsených používateľov, ktorí chcú pohodlný tréning.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/2.jpg"/>
+</p><h3>2 v 1 - bežecký pás a chodítko v jednom</h3>
+<p>Vďaka svojej konštrukcii 2 v 1 bude bežecký pás UREVO Strol 2E skvele fungovať ako bežecký pás na behanie aj ako stolový bežecký pás na chôdzu. Rýchlosť chôdze sa pohybuje v rozmedzí od 1 do 6,4 km/h a rýchlosť behu od 1 do 10 km/h, čo vám umožní prispôsobiť intenzitu tréningu vašim potrebám a preferenciám.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/1.jpg"/>
+</p><h3>Kompaktný dizajn a tichá prevádzka</h3>
+<p>Bežecký pás UREVO Strol 2E sa vyznačuje premyslenou skladacou konštrukciou, ktorá umožňuje jednoduché uskladnenie bežeckého pásu aj v malom byte. Výkonný motor s výkonom 2,5 HP zabezpečuje plynulú prevádzku a zároveň generuje nízku hladinu hluku, takže môžete trénovať kedykoľvek počas dňa bez obáv, že budete rušiť členov domácnosti. Bežecký pás sa dodáva aj s diaľkovým ovládaním s funkciou stlmenia zvuku, čo ešte viac zvyšuje vaše pohodlie.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/5.jpg"/>
+</p><h3>Odolnosť a bezpečnosť</h3>
+<p>Bežecký pás je určený pre používateľov s hmotnosťou do 120 kg, čo zaručuje stabilitu a bezpečnosť. Ide o ideálne zariadenie na domáci tréning, ktoré v sebe spája moderné funkcie, pohodlie pri používaní a pozornosť venovanú zdraviu a bezpečnosti používateľov. Stavte na trenažér UREVO Strol 2E a získajte plnú kontrolu nad svojím tréningom - bez toho, aby ste museli opustiť domov.</p>
+<p>
+<img border="0" src="https://assets.innpro.pl/11585/13718/9.jpg"/>
+</p>
+<h3></h3>
+<ul class="list-disc pl-5"><li>Bežecký pás</li><li>diaľkové ovládanie</li><li>napájací kábel</li><li>3V pastilková batéria CR2032</li><li>šesťhranné náradie</li><li>motorový olej 2x</li><li>posilňovací kľúč</li><li>držiak na tablet</li><li>Kľúč M13 - 15</li><li>návod na použitie</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>UREVO</td></tr><tr><th>Model</th><td>Strol 2E Smart 2 v 1</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Nastaviteľný uhol</th><td>Áno</td></tr><tr><th>Výkon motora</th><td>2,50 HP</td></tr><tr><th>Otáčky</th><td>1-6,4 km/h (chôdza), 1-10 km/h (beh)</td></tr><tr><th>Rozmery</th><td>130 x 57,3 x 11,7 cm (v zloženom stave), 122 x 57,3 x 98,7 cm (v rozloženom stave)</td></tr><tr><th>Rozmery bežeckej podložky</th><td>38 x 102 cm</td></tr><tr><th>Hmotnosť</th><td>24,8 kg</td></tr><tr><th>Napätie</th><td>220-240V</td></tr><tr><th>Napájanie</th><td>550W</td></tr><tr><th>Maximálna kapacita zaťaženia</th><td>120 kg</td></tr><tr><th>Displej</th><td>LED</td></tr><tr><th>Kompatibilita</th><td>Ekosystém Xiaomi</td></tr><tr><th>Špecializovaná aplikácia</th><td>Aplikácia UREVO</td></tr><tr><th>Diaľkové ovládanie</th><td>Áno</td></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/elektricke-bezecke-pasy/">Elektrické bežecké pásy</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[UREVO]]></MANUFACTURER>
+<WARRANTY>24</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>073494</CODE>
+<EAN>6975165000599</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness > Elektrické bežecké pásy]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY>
+  <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>1317</HEUREKA_CATEGORY_ID>
+<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
+<IMAGES>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 1">https://b2b.innpro.sk/hpeciai/3979fe4ddd2f663eb2da525ec3195efa/49042_1.jpg</IMAGE>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 2">https://b2b.innpro.sk/hpeciai/f29e6ef399ad37daabc112325d0a6f4d/49042_2.jpg</IMAGE>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 3">https://b2b.innpro.sk/hpeciai/904d0ca3a89b068c330f0c79c26bbf71/49042_3.jpg</IMAGE>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 4">https://b2b.innpro.sk/hpeciai/e039bb3e456a99fdacda23eb6b4d95d1/49042_4.jpg</IMAGE>
+  <IMAGE description="Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) - obrázok 5">https://b2b.innpro.sk/hpeciai/87003fa491466c0a911ab1affac4ad20/49042_5.jpg</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[inna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Model]]></NAME>
+    <VALUE><![CDATA[inny]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Druh]]></NAME>
+    <VALUE><![CDATA[elektryczna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maksymalna waga użytkownika]]></NAME>
+    <VALUE><![CDATA[120]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pomiary]]></NAME>
+    <VALUE><![CDATA[czas trwania treningu]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ďalšie funkcie]]></NAME>
+    <VALUE><![CDATA[Bluetooth]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>24.80</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>272.90</PRICE_VAT>
+<PURCHASE_PRICE>192.96</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Elektrický bežecký pás UREVO Strol 2E Smart 2 v 1 (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Lipo Gens ace G-Tech 2200mAh 7.4V 2S1P 60C GRP-76 Hardcase batéria s XT60 konektorom]]></NAME>
@@ -235707,6 +235814,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -241002,6 +241110,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -261102,6 +261211,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -290412,10 +290522,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -303262,6 +303374,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -303338,6 +303451,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -316509,10 +316623,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -352790,7 +352906,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Euhomy IM016 12 kg výrobník ľadových kociek (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Euhomy IM017 20 kg výrobník ľadových kociek (čierny)]]></NAME>
+<NAME><![CDATA[Euhomy IM017 15 kg výrobník ľadových kociek (čierny)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Euhomy IM017 20 kg výrobník ľadových kociek (čierny) Hľadáte výrobník ľadu, ktorý vám zabezpečí neustály prístup k ľadu bez zdĺhavého ovládania a dlhého čakania? Model Euhomy IM017-N je skvelou…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Euhomy IM017 20 kg výrobník ľadových kociek (čierny)</h3>
 <p>Hľadáte výrobník ľadu, ktorý vám zabezpečí neustály prístup k ľadu bez zdĺhavého ovládania a dlhého čakania? Model Euhomy IM017-N je skvelou voľbou do kuchyne alebo na rodinné oslavy. Zariadenie dokáže vyrobiť až 20 kg ľadu za deň a prvé kocky sa objavia už 7 minút po spustení. Navyše ponúka funkciu samočistenia a vďaka kompaktnému dizajnu nezaberá veľa miesta.</p>
@@ -352834,7 +352950,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Euhomy IM017 20 kg výrobník ľadových kociek (čierny)">https://b2b.innpro.sk/hpeciai/6368c55a4e60f7e7945826aeaa3ea3ec/57213_1.jpg</IMAGE>
+  <IMAGE description="Euhomy IM017 15 kg výrobník ľadových kociek (čierny)">https://b2b.innpro.sk/hpeciai/6368c55a4e60f7e7945826aeaa3ea3ec/57213_1.jpg</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -352888,8 +353004,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>152.26</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Euhomy IM017 20 kg výrobník ľadových kociek (čierny) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Euhomy IM017 20 kg výrobník ľadových kociek (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Euhomy IM017 15 kg výrobník ľadových kociek (čierny) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Euhomy IM017 15 kg výrobník ľadových kociek (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Euhomy IM005 15 kg výrobník ľadu (čierny)]]></NAME>
@@ -365560,6 +365676,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -380885,6 +381002,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -392780,6 +392898,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -392870,6 +392989,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -399342,6 +399462,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -403288,6 +403409,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -414454,6 +414576,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -440228,6 +440351,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -443521,7 +443645,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086450</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6955974929564</EAN>
 <CATEGORIES>
@@ -449139,7 +449263,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -455190,14 +455317,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -479934,6 +480065,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -481954,6 +482086,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -483425,6 +483558,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -483742,6 +483876,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -490916,7 +491051,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>089027</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6975069302393</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Chovateľské potreby > Fontány a napájačky > Filtre a čerpadlá do fontán]]></CATEGORY><CATEGORY><![CDATA[Chovateľské potreby]]></CATEGORY><CATEGORY><![CDATA[Chovateľské potreby > Fontány a napájačky]]></CATEGORY></CATEGORIES>
@@ -508737,10 +508872,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -520581,10 +520718,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>27.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -522143,10 +522282,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -523677,14 +523818,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -565301,6 +565445,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <EAN>6922572218666</EAN>
 <CATEGORIES><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Filament eSun PLA-Silk 1.75mm 1kg (rainbow) - obrázok 1">https://b2b.innpro.sk/hpeciai/7ec6c7571b3113add7fd29696de2972c/63655_1_1.webp</IMAGE>
+  <IMAGE description="Filament eSun PLA-Silk 1.75mm 1kg (rainbow) - obrázok 2">https://b2b.innpro.sk/hpeciai/c1725ffa210bbab751c6614120235576/63655_2_1.webp</IMAGE>
+  <IMAGE description="Filament eSun PLA-Silk 1.75mm 1kg (rainbow) - obrázok 3">https://b2b.innpro.sk/hpeciai/9cdc9ea7d74389f788bd1e429cb1c16b/63655_3_1.webp</IMAGE>
+</IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Značka]]></NAME>
@@ -565331,6 +565480,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <EAN>6922572218482</EAN>
 <CATEGORIES><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Filament eSun PLA-Silk 1.75mm 1kg (rainbow c) - obrázok 1">https://b2b.innpro.sk/hpeciai/6fdfe0869730e627e4f28bc9e99eae2b/63656_1_1.webp</IMAGE>
+  <IMAGE description="Filament eSun PLA-Silk 1.75mm 1kg (rainbow c) - obrázok 2">https://b2b.innpro.sk/hpeciai/82e5bc1a64ed5847320f69fce9556049/63656_2_1.webp</IMAGE>
+  <IMAGE description="Filament eSun PLA-Silk 1.75mm 1kg (rainbow c) - obrázok 3">https://b2b.innpro.sk/hpeciai/98f63f5fb8c3a4abdb030142e84bf9a2/63656_3_1.webp</IMAGE>
+</IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Značka]]></NAME>
@@ -565361,6 +565515,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <EAN>6922572205611</EAN>
 <CATEGORIES><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna > PLA filamenty]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY><CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Filament eSun PLA-Silk Rainbow 1.75mm (morning glow) - obrázok 1">https://b2b.innpro.sk/hpeciai/e1c9f5e6991da65866ab1bc814b8a7ca/63657_1_1.webp</IMAGE>
+  <IMAGE description="Filament eSun PLA-Silk Rainbow 1.75mm (morning glow) - obrázok 2">https://b2b.innpro.sk/hpeciai/434f7771c8ce092b3bb79627b698812f/63657_2_1.webp</IMAGE>
+</IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Značka]]></NAME>
@@ -587555,6 +587713,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -598464,7 +598623,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>SMALLRIG</td></tr><tr><th>Model</th><td>2905B</td></tr><tr><th>Kompatibilita</th><td>5&quot; a 7&quot; monitory</td></tr><tr><th>Rozsah otáčania</th><td>360°</td></tr><tr><th>Rozsah naklápania</th><td>180°</td></tr><tr><th>Upevnenie na spodnej strane</th><td>Cold shoe</td></tr><tr><th>Upevnenie na hornej strane</th><td>Skrutka 1/4&quot;-20</td></tr><tr><th>Ďalšie upevňovacie body</th><td>Otvory so závitom 1/4&quot;-20 v základni</td></tr><tr><th>Maximálne zaťaženie pri 90°</th><td>&lt; 4,2 kg</td></tr><tr><th>Maximálne zaťaženie pri náklone 45°</th><td>&lt; 2,5 kg</td></tr><tr><th>Maximálne zaťaženie pri náklone 30°</th><td>&lt; 2,3 kg</td></tr><tr><th>Rozmery výrobku</th><td>45 × 52,6 × 30 mm</td></tr><tr><th>Hmotnosť</th><td>78 g</td></tr><tr><th>Materiál</th><td>hliníková zliatina, nehrdzavejúca oceľ</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88618_64614_pol_dfa0a88e9599a6b7efd0dd0a892fc73d" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/drziaky-a-montazne-uchyty-pre-kamery/">Držiaky a montážne úchyty pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SMALLRIG]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -602848,7 +603007,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>SmallRig</td></tr><tr><th>Model</th><td>5337</td></tr><tr><th>Typ</th><td>držiak monitora pre stabilizátory</td></tr><tr><th>Upevnenie</th><td>NATO</td></tr><tr><th>Maximálne zaťaženie</th><td>1,5 kg</td></tr><tr><th>Nastavenie</th><td>Plynule nastaviteľný uhol naklonenia v rozsahu 360°</td></tr><tr><th>Aretačné zariadenie</th><td>Aretačný gombík</td></tr><tr><th>Upevňovacie otvory</th><td>6 × 1/4&quot;-20</td></tr><tr><th>Dodatočný držiak</th><td>1 × studená pätica</td></tr><tr><th>Kompatibilita</th><td>DJI RS 2, DJI RSC 2, DJI RS 3, DJI RS 3 Pro, DJI RS 3 Mini, DJI RS 4 Mini</td></tr><tr><th>Rozmery výrobku</th><td>145 × 41,7 × 43,8 mm</td></tr><tr><th>Hmotnosť výrobku</th><td>115 ± 5 g</td></tr><tr><th>Materiály</th><td>hliníková zliatina, nehrdzavejúca oceľ, silikón</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88617_64659_pol_75a4099db23f614711e3d927e0f076c6" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-pre-fotoaparaty-a-akcne-kamery/">Príslušenstvo pre fotoaparáty a akčné kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SMALLRIG]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -613774,6 +613933,163 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Mikrofón SJCAM SJ10 Pro – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Vnútorná siréna SONOFF SenseGuard Zigbee]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Vnútorná siréna SONOFF SenseGuard Zigbee SONOFF SenseGuard SNZB-09P je inteligentná vnútorná siréna s technológiou Zigbee, ktorá pomáha zvýšiť bezpečnosť vášho domu, garáže, obchodu alebo iných…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Vnútorná siréna SONOFF SenseGuard Zigbee</h3>
+<p>SONOFF SenseGuard SNZB-09P je inteligentná vnútorná siréna s technológiou Zigbee, ktorá pomáha zvýšiť bezpečnosť vášho domu, garáže, obchodu alebo iných priestorov. Zariadenie vydáva hlasný alarm s hlasitosťou až 105 dB, ponúka prispôsobiteľné zvukové a vizuálne upozornenia a môže spolupracovať s ďalšími zariadeniami Zigbee na vytvorenie automatizovaného systému reakcie na hrozby. Vďaka výberu rôznych režimov alarmu a integrácii so senzormi a kamerami vám siréna umožňuje prispôsobiť spôsob upozornenia konkrétnej situácii.</p>
+<p>
+<img alt="Čierno-biela poplachová siréna Sonoff zobrazená z boku na svetlom pozadí." border="0" src="https://assets.innpro.pl/24566/32283/1-6622319e-b345-4339-bde6-701af8e60f70.jpg"/>
+</p>
+<h3>Hlasný poplach a flexibilné nastavenia upozornení</h3>
+<p>Siréna zaisťuje efektívne upozornenia vďaka zvukovému poplachu s hlasitosťou až 105 dB. Používatelia si môžu vybrať jednu z dostupných úrovní hlasitosti a prispôsobiť prevádzku zariadenia podľa svojich potrieb. SONOFF SenseGuard ponúka aj 10 vstavaných zvukov poplachu, ktoré je možné priradiť k rôznym udalostiam alebo zónam, čo uľahčuje rýchlu identifikáciu typu upozornenia. Okrem toho zariadenie umožňuje použiť iba zvuk, iba svetlo alebo kombináciu oboch foriem signalizácie.</p>
+<p>
+<img alt="Čierno-biela poplachová siréna Sonoff namontovaná na stene v svetlej, modernej obývacej izbe." border="0" src="https://assets.innpro.pl/24566/32283/6-d1f9a38c-a0fc-4200-811d-521a77e80191.jpg"/>
+</p>
+<h3>Inteligentný bezpečnostný systém Zigbee</h3>
+<p>Komunikácia Zigbee 3.0 IEEE802.15.4 umožňuje prepojiť sirénu s ďalšími komponentmi inteligentnej domácnosti a vytvoriť tak ucelený bezpečnostný systém. V kombinácii s kompatibilnými senzormi a kamerami Zigbee môže zariadenie automaticky reagovať na zistené udalosti spustením poplachu v správnom čase. Môžete vytvoriť bezpečnostné scenáre, v ktorých sa siréna aktivuje napríklad pri detekcii otvorených dverí alebo okien, úniku vody, pohybu alebo prítomnosti neoprávnenej osoby.</p>
+<p>
+<img alt="Kruhová čierno-biela poplachová siréna Sonoff vyfotografovaná z prednej strany na svetlom pozadí." border="0" src="https://assets.innpro.pl/24566/32283/2-b9da8bf5-b6c0-418c-8deb-53a4175fc019.jpg"/>
+</p>
+<h3>Dvojité napájanie a spoľahlivá prevádzka</h3>
+<p>SONOFF SenseGuard je vybavený dvoma zdrojmi napájania, vďaka čomu môže pokračovať v prevádzke aj počas výpadkov prúdu. Zariadenie využíva napájanie cez USB-C s parametrami 5 V ⎓ 1 A a vstavanú batériu s kapacitou 600 mAh, ktorá v tichom režime zabezpečuje prevádzku až 300 dní. Po obnovení napájania cez kábel USB-C sa batéria automaticky začne nabíjať, čím sa zabezpečí, že siréna zostane pripravená na použitie.</p>
+<p>
+<img alt="Čierno-biela poplachová siréna Sonoff s tlačidlami a napájacím portom na spodnom okraji." border="0" src="https://assets.innpro.pl/24566/32283/3-be35388a-0d04-4500-a3af-87f0b8e060ba.jpg"/>
+</p>
+<h3>Rýchle nastavenie a pohodlná obsluha</h3>
+<p>Pridanie sirény do systému je jednoduché a vykonáva sa pomocou aplikácie eWeLink a kompatibilnej brány Zigbee. Stačí si stiahnuť aplikáciu, naskenovať QR kód na zariadení, vybrať predtým pridaný Zigbee hub a počkať na dokončenie procesu párovania. Po pripojení môžete spravovať nastavenia zariadenia a prispôsobiť správanie alarmu podľa svojich potrieb.</p>
+<p>
+<img alt="Zadná strana poplachovej sirény Sonoff s typovým štítkom a označeniami." border="0" src="https://assets.innpro.pl/24566/32283/5-0fadc385-19b1-4fda-9320-e51a57b11691.jpg"/>
+</p>
+<h3>Ochrana v rôznych situáciách</h3>
+<p>Vďaka svojim univerzálnym integračným schopnostiam môže SONOFF SenseGuard slúžiť ako centrálna súčasť výstražného systému v mnohých scenároch. V kombinácii so senzorom úniku vody vás môže upozorniť na riziko zaplavenia; so senzorom dverí/okien môže reagovať na otvorenie dverí alebo okien; a v spojení s pohybovým senzorom alebo kamerou môže spustiť alarm pri zistení neoprávnenej aktivity. Toto riešenie vám umožňuje vytvoriť bezpečnostný systém na mieru pre váš domov, kanceláriu, obchod alebo garáž.</p>
+<p>
+<img alt="Poplachová siréna Sonoff v prevádzke." border="0" src="https://assets.innpro.pl/24566/32283/7-e8706fb1-2dec-46fc-9928-8b7696c3b49f.jpg"/>
+</p>
+<h3>Kompaktný dizajn pre inštaláciu v interiéri</h3>
+<p>Plastové puzdro z ABS kombinuje kompaktné rozmery 81 × 81 × 35 mm s ľahkou konštrukciou s hmotnosťou 106 g. Siréna je určená na použitie v interiéri a dokáže komunikovať so zariadeniami Zigbee na vzdialenosť až 100 m na otvorenom priestranstve. Rozsah prevádzkových teplôt od 0 °C do 45 °C a odolnosť voči relatívnej vlhkosti 0–90 % (bez kondenzácie) zabezpečujú stabilnú prevádzku v bežných domácich podmienkach.</p>
+<p>
+<img alt="Kruhová poplachová siréna Sonoff vystavená vedľa oranžovej kartónovej krabice." border="0" src="https://assets.innpro.pl/24566/32283/4-e221c130-fcc2-493e-91c8-23b292580181.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5">
+<li>Alarmová siréna SONOFF SNZB-09P</li>
+<li>2 m napájací kábel</li>
+<li>Káblové svorky × 3</li>
+<li>Hmoždinky a samorezné skrutky × 2</li>
+<li>Stručný návod na použitie</li>
+<li>Polkruhové obojstranné lepiace pásky × 2</li>
+<li>Návod na použitie</li>
+</ul>
+<div class="table-wrapper">
+<p> </p>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>SONOFF</td></tr>
+<tr><th>Model</th><td>SNZB-09P</td></tr>
+<tr><th>Produktová séria</th><td>SenseGuard</td></tr>
+<tr><th>Bezdrôtové pripojenie</th><td>Zigbee 3.0</td></tr>
+<tr><th>Potrebné príslušenstvo</th><td>Zigbee hub</td></tr>
+<tr><th>Hlasitosť alarmu</th><td>Až 105 dB</td></tr>
+<tr><th>Počet tónov alarmu</th><td>10</td></tr>
+<tr><th>Úrovne hlasitosti</th><td>4 úrovne + režim stlmenia</td></tr>
+<tr><th>Typ alarmu</th><td>Zvukový a vizuálny</td></tr>
+<tr><th>Farba svetla alarmu</th><td>Červená</td></tr>
+<tr><th>Kapacita batérie</th><td>600 mAh</td></tr>
+<tr><th>Napájanie</th><td>5 V, 1 A</td></tr>
+<tr><th>Typ rozhrania</th><td>USB-C</td></tr>
+<tr><th>Doba prevádzky v núdzovom režime</th><td>Až 300 dní v tichom režime</td></tr>
+<tr><th>Materiál puzdra</th><td>ABS</td></tr>
+<tr><th>Rozmery výrobku</th><td>81 × 81 × 35 mm</td></tr>
+<tr><th>Čistá hmotnosť</th><td>106 g</td></tr>
+<tr><th>Komunikačný dosah</th><td>Až 100 m na otvorenom priestranstve</td></tr>
+<tr><th>Určené použitie</th><td>V interiéri</td></tr>
+<tr><th>Prevádzková teplota</th><td>0 °C až 45 °C</td></tr>
+<tr><th>Prevádzková vlhkosť</th><td>0–90 % relatívnej vlhkosti, bez kondenzácie</td></tr>
+<tr><th>Certifikáty</th><td>CE/FCC/RoHS</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87741_65046_pol_2bad2e7d9396639ba53669a0086cdfca" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Sonoff]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>094209</CODE>
+<EAN>6979033600829</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Vnútorná siréna SONOFF SenseGuard Zigbee - obrázok 1">https://b2b.innpro.sk/hpeciai/b4bfb05973f83d0aff586668bbe0a61c/65046_1_1.webp</IMAGE>
+  <IMAGE description="Vnútorná siréna SONOFF SenseGuard Zigbee - obrázok 2">https://b2b.innpro.sk/hpeciai/28d2a547a48699b70fa79cc1931bdeb0/65046_2_1.webp</IMAGE>
+  <IMAGE description="Vnútorná siréna SONOFF SenseGuard Zigbee - obrázok 3">https://b2b.innpro.sk/hpeciai/d1109b15c1056b333d8e9a29754e9f93/65046_3_1.webp</IMAGE>
+  <IMAGE description="Vnútorná siréna SONOFF SenseGuard Zigbee - obrázok 4">https://b2b.innpro.sk/hpeciai/b2d057664957d1f9ad0c8d27942f223b/65046_4_1.webp</IMAGE>
+  <IMAGE description="Vnútorná siréna SONOFF SenseGuard Zigbee - obrázok 5">https://b2b.innpro.sk/hpeciai/46ca8261a972268ec1d1fdf585ea616d/65046_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Sonoff]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Produktová séria]]></NAME>
+    <VALUE><![CDATA[SenseGuard]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bezdrôtové pripojenie]]></NAME>
+    <VALUE><![CDATA[Zigbee 3.0]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Potrebné príslušenstvo]]></NAME>
+    <VALUE><![CDATA[Zigbee hub]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hlasitosť alarmu]]></NAME>
+    <VALUE><![CDATA[Až 105 dB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet tónov alarmu]]></NAME>
+    <VALUE><![CDATA[10]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Úrovne hlasitosti]]></NAME>
+    <VALUE><![CDATA[4 úrovne + režim stlmenia]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ alarmu]]></NAME>
+    <VALUE><![CDATA[Zvukový a vizuálny]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba svetla alarmu]]></NAME>
+    <VALUE><![CDATA[červená]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kapacita batérie]]></NAME>
+    <VALUE><![CDATA[600 mAh]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Napájanie]]></NAME>
+    <VALUE><![CDATA[5 V, 1 A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[USB-C]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.19</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>27.90</PRICE_VAT>
+<PURCHASE_PRICE>19.75</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Vnútorná siréna SONOFF SenseGuard Zigbee | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Vnútorná siréna SONOFF SenseGuard Zigbee – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Inteligentný vypínač SONOFF MINI ONE PM ZigBee]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[ZigBee vypínač SONOFF MINI ONE PM Premeňte tradičné elektrické zariadenia na súčasti inteligentnej domácnosti pomocou zariadenia SONOFF MINI ONE PM ZigBee MINI-ZB1GSP. Tento kompaktný vypínač vám…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>ZigBee vypínač SONOFF MINI ONE PM</h3>
@@ -614088,6 +614404,314 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Inteligentný vypínač SONOFF MINI ONE Wi-Fi – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Meradlo spotreby energie SONOFF MINI-ZB1GP PM ZigBee]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Meradlo spotreby energie SONOFF MINI-ZB1GP PM Zigbee Sledujte svoju spotrebu energie a získajte lepší prehľad o fungovaní vašich domácich spotrebičov vďaka kompaktnému meradlu spotreby energie SONOFF…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Meradlo spotreby energie SONOFF MINI-ZB1GP PM Zigbee</h3>
+<p>Sledujte svoju spotrebu energie a získajte lepší prehľad o fungovaní vašich domácich spotrebičov vďaka kompaktnému meradlu spotreby energie SONOFF MINI-ZB1GP PM Zigbee. Modul je navrhnutý na presné meranie spotreby elektrickej energie v reálnom čase a na sledovanie výroby energie z obnoviteľných zdrojov zo solárnych systémov. Podpora štandardu Zigbee 3.0 umožňuje jednoduchú integráciu zariadenia do inteligentnej domácnosti a jeho kompaktný dizajn umožňuje diskrétnu inštaláciu v interiéri.</p>
+<p>
+<img alt="Kompaktný merač spotreby Sonoff namontovaný v nástennom rozvodnom boxe." border="0" src="https://assets.innpro.pl/24610/32350/5-9337d4c5-2ebf-42ae-8ce4-b32063d8ec14.jpg"/>
+</p>
+<h3>Inteligentné monitorovanie spotreby energie</h3>
+<p>SONOFF MINI-ZB1GP umožňuje sledovanie parametrov spotreby energie v reálnom čase a obojsmerné meranie prúdu. Aplikácia ponúka prehľadné grafy zobrazujúce spotrebu energie, ako aj údaje o výrobe energie zo solárnych zariadení. Používatelia majú prístup k histórii meraní siahajúcej až 180 dní dozadu, čo uľahčuje analýzu výkonu zariadenia a poskytuje prehľad o vzoroch spotreby energie.</p>
+<p>
+<img alt="Biely merač spotreby energie Sonoff Zigbee so štyrmi skrutkovými svorkami na sivom pozadí." border="0" src="https://assets.innpro.pl/24610/32350/1-6cd3e298-3314-4182-b6ab-391d4520a930.jpg"/>
+</p>
+<h3>Presné vyúčtovanie nákladov na energiu</h3>
+<p>Modul vám umožňuje nastaviť si vlastné sadzby za elektrinu a využívať vyúčtovanie na základe skutočnej spotreby. To umožňuje presnejší výpočet nákladov spojených s prevádzkou pripojených zariadení a vytváranie podrobnejších správ o spotrebe. Funkcie analýzy údajov vám pomáhajú lepšie plánovať používanie elektrických spotrebičov a sledovať výdavky súvisiace s energiou.</p>
+<p>
+<img alt="Merač spotreby energie Sonoff merajúci spotrebu energie chladničky, umývačky riadu, práčky a klimatizácie." border="0" src="https://assets.innpro.pl/24610/32350/8-697d3a83-cf98-4301-98e0-e86be557f55d.jpg"/>
+</p>
+<h3>Automatická detekcia aktivity zariadení</h3>
+<p>Meradlo je vybavené funkciou, ktorá zistí, kedy pripojené zariadenia prestanú fungovať. Systém dokáže rozpoznať zmeny v spotrebe energie a upozorniť používateľa, keď sa ukončí konkrétny prevádzkový cyklus. K dispozícii je tiež funkcia pripomienky údržby, ktorá pomáha používateľom sledovať potrebné údržbárske úlohy pre ich zariadenia.</p>
+<p>
+<img alt="Inštalácia merača spotreby energie Sonoff s vodičmi v krabici vedľa elektrickej zásuvky." border="0" src="https://assets.innpro.pl/24610/32350/6-454f837e-5a54-4222-b61a-65250ee65755.jpg"/>
+</p>
+<h3>Bezpečná prevádzka a ochrana systému</h3>
+<p>SONOFF MINI-ZB1GP podporuje zariadenia s maximálnym zaťažením až 16 A, rozsahom merania napätia 100–240 V a menovitým výkonom až 3 840 W. Konštrukcia je navrhnutá pre bezpečné používanie a stabilnú prevádzku v elektrických inštaláciách. Zariadenie je certifikované podľa noriem CE, RoHS a FCC, čo potvrdzuje súlad s bezpečnostnými a kvalitatívnymi požiadavkami.</p>
+<p>
+<img alt="Kompaktný merač spotreby energie Sonoff umiestnený v okrúhlej zapustenej krabici." border="0" src="https://assets.innpro.pl/24610/32350/3-33d627af-c2ca-4de9-bbd8-6fbd22c4666d.jpg"/>
+</p>
+<h3>Zigbee 3.0 a rozšírenie systému inteligentnej domácnosti</h3>
+<p>Komunikácia Zigbee 3.0 (IEEE 802.15.4) zabezpečuje stabilné pripojenie k systému inteligentnej domácnosti a umožňuje integráciu s inými zariadeniami Zigbee. Modul môže fungovať aj ako opakovač signálu, ktorý prenáša dáta a pomáha rozšíriť dosah a zlepšiť stabilitu celej siete. Vďaka tomu môže slúžiť ako súčasť väčšieho systému domácej automatizácie.</p>
+<p>
+<img alt="Šikmý pohľad na kompaktný merač spotreby energie Sonoff s jeho pripojovacími portmi." border="0" src="https://assets.innpro.pl/24610/32350/2-23e94fe4-a064-4211-bc79-53851d1a63b2.jpg"/>
+</p>
+<h3>Široké spektrum využitia v bežných zariadeniach</h3>
+<p>Meradlo spotreby energie SONOFF MINI-ZB1GP je ideálne na monitorovanie prevádzky mnohých bežných elektrických spotrebičov. Môžete ho používať napríklad s chladničkami, práčkami, umývačkami riadu a klimatizáciami, čím vám umožňuje sledovať ich spotrebu energie a analyzovať ich výkon. Vďaka konštrukcii bez spínača zariadenie funguje výlučne ako meradlo spotreby energie.</p>
+<p>
+<img alt="Merač spotreby energie Sonoff v nástennom rozvodnom boxe, pripojený vodičmi k zásuvke." border="0" src="https://assets.innpro.pl/24610/32350/4-716bd49b-73d2-4752-8780-27a7f12c080f.jpg"/>
+</p>
+<h3>Kompaktný dizajn a jednoduchá inštalácia</h3>
+<p>Malé puzdro s rozmermi 32 × 29 × 15,9 mm umožňuje diskrétnu inštaláciu v interiéri. Zariadenie váži len 14 g a je vyrobené z bieleho PC plastu. Modul je kompatibilný s medenými vodičmi s prierezom od 0,75 mm² do 2,5 mm² a môže pracovať pri teplotách od -10 °C do 40 °C a pri relatívnej vlhkosti 10–90 % bez kondenzácie.</p>
+<p>
+<img alt="Merač spotreby energie Sonoff MINI PM Zigbee s oranžovou krabicou a návodom na použitie." border="0" src="https://assets.innpro.pl/24610/32350/7-45046533-7f92-4082-bc21-fbbacbccd3b5.jpg"/>
+</p>
+<h3>Súčasťou balenia je</h3>
+<ul class="list-disc pl-5">
+<li>Meradlo spotreby energie SONOFF MINI-ZB1GP PM</li>
+<li>Návod na použitie</li>
+</ul>
+<div class="table-wrapper">
+<p> </p>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>SONOFF</td></tr>
+<tr><th>Model</th><td>MINI-ZB1GP</td></tr>
+<tr><th>Komunikačný štandard</th><td>Zigbee IEEE 802.15.4</td></tr>
+<tr><th>Maximálne zaťaženie</th><td>16 A</td></tr>
+<tr><th>Menovité napätie</th><td>100–240 V~ 50/60 Hz</td></tr>
+<tr><th>Rozsah merania napätia</th><td>100–240 V</td></tr>
+<tr><th>Rozsah merania prúdu</th><td>0–16 A</td></tr>
+<tr><th>Rozsah merania výkonu</th><td>0–3840 W</td></tr>
+<tr><th>Meranie energie</th><td>Obousmerné</td></tr>
+<tr><th>Funkcia opakovača Zigbee</th><td>Áno</td></tr>
+<tr><th>Materiál puzdra</th><td>PC</td></tr>
+<tr><th>Farba</th><td>Biela</td></tr>
+<tr><th>Rozmery</th><td>32 × 29 × 15,9 mm</td></tr>
+<tr><th>Čistá hmotnosť</th><td>14 g</td></tr>
+<tr><th>Odporúčaný prierez vodiča</th><td>0,75–2,5 mm²</td></tr>
+<tr><th>Typ vodiča</th><td>Jednožilový alebo viacžilový medený</td></tr>
+<tr><th>Miesto inštalácie</th><td>Skrytá inštalácia v interiéri</td></tr>
+<tr><th>Prevádzková teplota</th><td>-10 °C až 40 °C</td></tr>
+<tr><th>Prevádzková vlhkosť</th><td>10–90 % relatívnej vlhkosti, bez kondenzácie</td></tr>
+<tr><th>Certifikáty</th><td>CE / RoHS / FCC</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87744_65049_pol_437160631a63dc40aef6088697bd3632" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-senzory/">Smart senzory</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Sonoff]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>094212</CODE>
+<EAN>6979033600522</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart senzory]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Meradlo spotreby energie SONOFF MINI-ZB1GP PM ZigBee - obrázok 1">https://b2b.innpro.sk/hpeciai/aec93f0f547481b7ffec163b84668783/65049_1_1.webp</IMAGE>
+  <IMAGE description="Meradlo spotreby energie SONOFF MINI-ZB1GP PM ZigBee - obrázok 2">https://b2b.innpro.sk/hpeciai/31b3df54b25656ae0a13d7890bf67abb/65049_2_1.webp</IMAGE>
+  <IMAGE description="Meradlo spotreby energie SONOFF MINI-ZB1GP PM ZigBee - obrázok 3">https://b2b.innpro.sk/hpeciai/ca3bbd420b0b6d5a025a31d88d94c302/65049_3_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Sonoff]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Komunikačný štandard]]></NAME>
+    <VALUE><![CDATA[Zigbee IEEE 802.15.4]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálne zaťaženie]]></NAME>
+    <VALUE><![CDATA[16 A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Menovité napätie]]></NAME>
+    <VALUE><![CDATA[100–240 V~ 50/60 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah merania napätia]]></NAME>
+    <VALUE><![CDATA[100–240 V]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah merania prúdu]]></NAME>
+    <VALUE><![CDATA[0–16 A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah merania výkonu]]></NAME>
+    <VALUE><![CDATA[0–3840 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Meranie energie]]></NAME>
+    <VALUE><![CDATA[Obousmerné]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiál puzdra]]></NAME>
+    <VALUE><![CDATA[PC]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[biela]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery]]></NAME>
+    <VALUE><![CDATA[32 × 29 × 15,9 mm]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>17.90</PRICE_VAT>
+<PURCHASE_PRICE>12.56</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Meradlo spotreby energie SONOFF MINI-ZB1GP PM ZigBee | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Meradlo spotreby energie SONOFF MINI-ZB1GP PM ZigBee – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Meradlo spotreby energie SONOFF MINI PM Wi-Fi]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Meradlo spotreby energie SONOFF MINI PM Wi-Fi Sledujte spotrebu energie a analyzujte výkon elektrických zariadení pomocou kompaktného meradla SONOFF MINI PM Wi-Fi MINI-1GP. Modul je navrhnutý na…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Meradlo spotreby energie SONOFF MINI PM Wi-Fi</h3>
+<p>Sledujte spotrebu energie a analyzujte výkon elektrických zariadení pomocou kompaktného meradla SONOFF MINI PM Wi-Fi MINI-1GP. Modul je navrhnutý na presné meranie spotreby elektrickej energie bez funkcie zapínania a vypínania, vďaka čomu sa môže sústrediť výlučne na monitorovanie prevádzkových parametrov pripojených zariadení. Podpora Wi-Fi a štandardu Matter umožňuje jednoduchú integráciu meradla do populárnych ekosystémov inteligentných domácností a jeho kompaktný dizajn umožňuje diskrétnu inštaláciu v interiéri.</p>
+<p>
+<img alt="Biely modul merača spotreby energie Sonoff zobrazený na svetlo modrom pozadí." border="0" src="https://assets.innpro.pl/24613/32353/5-b639df95-0b12-4f1a-9fca-a85355fd6866.jpg"/>
+</p>
+<h3>Inteligentné monitorovanie spotreby energie</h3>
+<p>SONOFF MINI-1GP umožňuje sledovanie energetických parametrov v reálnom čase a obojsmerné meranie prúdu. Zariadenie umožňuje monitorovať nielen spotrebu energie pripojených zariadení, ale aj výrobu energie z obnoviteľných zdrojov zo solárnych zariadení. Údaje je možné zobraziť vo forme prehľadných grafov a používatelia môžu exportovať informácie a analyzovať históriu spotreby, čo uľahčuje získanie presnejšieho prehľadu o fungovaní zariadení.</p>
+<p>
+<img alt="Merač spotreby energie Sonoff meria spotrebu energie chladničky, umývačky riadu, práčky a klimatizácie." border="0" src="https://assets.innpro.pl/24613/32353/7-acfbc639-dce9-4ac8-ada7-e9b2b43b8268.jpg"/>
+</p>
+<h3>Analýza nákladov a riadenie spotreby energie</h3>
+<p>Meradlo vám umožňuje nastaviť vlastné sadzby za elektrinu a automaticky vypočítať náklady na základe zadaných sadzieb. Funkcia fakturácie na základe spotreby vám umožňuje analyzovať výdavky v rôznych časových obdobiach a pomáha lepšie pochopiť, ktoré zariadenia majú najväčší vplyv na spotrebu energie. Toto riešenie funguje dobre ako pre inštalácie v domácnostiach, tak aj pre monitorovanie náročnejších spotrebičov.</p>
+<p>
+<img alt="Biely merač spotreby energie Sonoff so štyrmi viditeľnými skrutkovými svorkami na sivom pozadí." border="0" src="https://assets.innpro.pl/24613/32353/1-59b46323-8d8c-4ea5-a8c7-d940e1a78bac.jpg"/>
+</p>
+<h3>Lokálny prístup a možnosti otvorenej integrácie</h3>
+<p>MINI-1GP ponúka lokálny prístup prostredníctvom webového používateľského rozhrania, vďaka čomu môžete zariadenie spravovať bez nutnosti používať aplikáciu alebo cloudové služby. Otvorený prístup k API a podpora protokolov HTTP, WebSocket a MQTT umožňujú integráciu meradla s externými automatizačnými platformami, ako sú Home Assistant, OpenHAB, ioBroker a Node-RED.</p>
+<p>
+<img alt="Merač spotreby energie Sonoff MINI PM umiestnený vedľa tmavomodrej kartónovej krabice." border="0" src="https://assets.innpro.pl/24613/32353/2-8f96b503-5db4-4493-8391-52774c98d0c3.jpg"/>
+</p>
+<h3>Kompatibilita so štandardom Matter a systémami inteligentnej domácnosti</h3>
+<p>Podpora štandardu Matter zabezpečuje kompatibilitu s najpopulárnejšími ekosystémami inteligentnej domácnosti. SONOFF MINI PM Wi-Fi je možné integrovať okrem iného s Apple Home, Google Home, Amazon Alexa a ďalšími platformami kompatibilnými so štandardom Matter. Vďaka tomu sa merač môže stať súčasťou väčšieho automatizačného systému, v ktorom rôzne zariadenia spolupracujú bez ohľadu na výrobcu.</p>
+<p>
+<img alt="Meradlo spotreby energie Sonoff v nástennom rozvodnom boxe, pripojené káblami k elektrickej zásuvke." border="0" src="https://assets.innpro.pl/24613/32353/4-10229a5a-1ff1-413f-888d-11529a0a8310.jpg"/>
+</p>
+<h3>Bezpečná prevádzka a ochrana inštalácie</h3>
+<p>Zariadenie podporuje maximálne zaťaženie 16 A a je vybavené funkciami, ktoré zvyšujú bezpečnosť počas používania. Systém monitoruje prevádzkové parametre a pri zistení nezrovnalostí súvisiacich s preťažením, prehriatím, nadmerným prúdom, napätím alebo výkonom môže automaticky odpojiť napájanie. Tieto funkcie pomáhajú chrániť inštaláciu a pripojené zariadenia.</p>
+<p>
+<img alt="Typový štítok meradla spotreby energie Sonoff s vytlačeným QR kódom a označeniami." border="0" src="https://assets.innpro.pl/24613/32353/6-82a96ce2-6751-4d6b-8596-68d75c1d147a.jpg"/>
+</p>
+<h3>Využitie v bežných inštaláciách</h3>
+<p>SONOFF MINI PM Wi-Fi MINI-1GP je ideálny pre akúkoľvek aplikáciu, kde je potrebná presná analýza spotreby energie bez dodatočných riadiacich funkcií. Môže sa používať na monitorovanie prevádzky domácich spotrebičov, elektrického kúrenia, solárnych systémov a iných inštalácií vyžadujúcich nepretržité meranie elektrických parametrov. Vďaka konštrukcii bez spínača zariadenie funguje výlučne ako inteligentný merací prístroj spotreby energie.</p>
+<p>
+<img alt="Biele meradlo spotreby energie Sonoff s označenými portmi N, L, L a LOut na neutrálnom pozadí." border="0" src="https://assets.innpro.pl/24613/32353/3-4ee4cb5c-97d5-4f6e-90c5-2bb423aa45bb.jpg"/>
+</p>
+<h3>Jednoduchá integrácia do inštalácie</h3>
+<p>Kompaktné puzdro s rozmermi 39,5 × 33 × 16,8 mm umožňuje pohodlnú inštaláciu v stiesnených priestoroch. Modul váži 27,3 g a je vyrobený z odolného PC plastu. Zariadenie je určené na zapustenú inštaláciu v interiéri a je kompatibilné s medenými vodičmi s prierezom od 0,75 mm² do 2,5 mm². Rozsah prevádzkových teplôt je od -10 °C do 40 °C a prevádzková vlhkosť sa môže pohybovať v rozmedzí 10–90 % relatívnej vlhkosti bez kondenzácie.</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5">
+<li>Meradlo spotreby energie SONOFF MINI PM</li>
+<li>Návod na použitie</li>
+</ul>
+<div class="table-wrapper">
+<p> </p>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>SONOFF</td></tr>
+<tr><th>Model</th><td>MINI-1GP</td></tr>
+<tr><th>Komunikačný štandard</th><td>Wi-Fi IEEE 802.11 b/g/n 2,4 GHz</td></tr>
+<tr><th>Podporovaný štandard inteligentnej domácnosti</th><td>Matter</td></tr>
+<tr><th>Kompatibilné ekosystémy</th><td>Apple Home, Google Home, Amazon Alexa</td></tr>
+<tr><th>Maximálne zaťaženie</th><td>16 A</td></tr>
+<tr><th>Menovité napätie</th><td>100–240 V~ 50/60 Hz</td></tr>
+<tr><th>Maximálny výkon</th><td>3680 W</td></tr>
+<tr><th>Meranie energie</th><td>Obousmerné</td></tr>
+<tr><th>Rozsah merania napätia</th><td>100–240 V</td></tr>
+<tr><th>Rozsah merania prúdu</th><td>0–16 A</td></tr>
+<tr><th>Rozsah merania výkonu</th><td>0–3 840 W</td></tr>
+<tr><th>Materiál puzdra</th><td>PC</td></tr>
+<tr><th>Farba</th><td>Biela</td></tr>
+<tr><th>Rozmery</th><td>39,5 × 33 × 16,8 mm</td></tr>
+<tr><th>Čistá hmotnosť</th><td>27,3 g</td></tr>
+<tr><th>Odporúčaný prierez vodiča</th><td>0,75–2,5 mm²</td></tr>
+<tr><th>Typ vodiča</th><td>Jednožilový alebo viacvodičový medený</td></tr>
+<tr><th>Prevádzková teplota</th><td>-10 °C až 40 °C</td></tr>
+<tr><th>Prevádzková vlhkosť</th><td>10–90 % relatívnej vlhkosti, bez kondenzácie</td></tr>
+<tr><th>Certifikácie</th><td>CE / RoHS / FCC</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87745_65050_pol_ae79e77677ba888ac71ebfea7d1d5e30" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Sonoff]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>094213</CODE>
+<EAN>6979033600546</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>5860</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Meradlo spotreby energie SONOFF MINI PM Wi-Fi - obrázok 1">https://b2b.innpro.sk/hpeciai/cd3fcd1cb84d906884b14e9f238627c3/65050_1_1.webp</IMAGE>
+  <IMAGE description="Meradlo spotreby energie SONOFF MINI PM Wi-Fi - obrázok 2">https://b2b.innpro.sk/hpeciai/483fc53986313dc085c2611079d89020/65050_2_1.webp</IMAGE>
+  <IMAGE description="Meradlo spotreby energie SONOFF MINI PM Wi-Fi - obrázok 3">https://b2b.innpro.sk/hpeciai/5509a87e5cd6bcf4548776704d5e69b2/65050_3_1.webp</IMAGE>
+  <IMAGE description="Meradlo spotreby energie SONOFF MINI PM Wi-Fi - obrázok 4">https://b2b.innpro.sk/hpeciai/410d91da0b507afa08064552971b70f5/65050_4_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Sonoff]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Komunikačný štandard]]></NAME>
+    <VALUE><![CDATA[Wi-Fi IEEE 802.11 b/g/n 2,4 GHz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilné ekosystémy]]></NAME>
+    <VALUE><![CDATA[Apple Home, Google Home, Amazon Alexa]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálne zaťaženie]]></NAME>
+    <VALUE><![CDATA[16 A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Menovité napätie]]></NAME>
+    <VALUE><![CDATA[100–240 V~ 50/60 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálny výkon]]></NAME>
+    <VALUE><![CDATA[3680 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Meranie energie]]></NAME>
+    <VALUE><![CDATA[Obousmerné]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah merania napätia]]></NAME>
+    <VALUE><![CDATA[100–240 V]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah merania prúdu]]></NAME>
+    <VALUE><![CDATA[0–16 A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah merania výkonu]]></NAME>
+    <VALUE><![CDATA[0–3 840 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiál puzdra]]></NAME>
+    <VALUE><![CDATA[PC]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[3680 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>17.90</PRICE_VAT>
+<PURCHASE_PRICE>12.56</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Meradlo spotreby energie SONOFF MINI PM Wi-Fi | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Meradlo spotreby energie SONOFF MINI PM Wi-Fi – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Senzor teploty a vlhkosti SONOFF AirGuard SNZB-02M Zlepšite podmienky vo svojom prostredí pomocou inteligentného senzora SONOFF AirGuard SNZB-02M, ktorý monitoruje teplotu, vlhkosť a tlak vzduchu.…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Senzor teploty a vlhkosti SONOFF AirGuard SNZB-02M</h3>
@@ -614238,6 +614862,297 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Snímač teploty a vlhkosti SONOFF AirGuard SNZB-02M – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Mostík pre inteligentnú domácnosť SONOFF Bridge Max]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Inteligentná domáca brána SONOFF Bridge Max Pomocou brány SONOFF Bridge Max prepojte rôzne zariadenia inteligentnej domácnosti do jedného uceleného systému. Toto zariadenie funguje ako most Matter a…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Inteligentná domáca brána SONOFF Bridge Max</h3>
+<p>Pomocou brány SONOFF Bridge Max prepojte rôzne zariadenia inteligentnej domácnosti do jedného uceleného systému. Toto zariadenie funguje ako most Matter a rozbočovač Zigbee, čím umožňuje integráciu zariadení využívajúcich rôzne komunikačné štandardy a platformy. Podpora protokolov Zigbee, BTHome, eWeLink a Home Assistant vám umožňuje vytvárať komplexné automatizačné riešenia, zatiaľ čo kompatibilita s Apple Home, Google Home, Amazon Alexa a ďalšími ekosystémami Matter uľahčuje správu zariadení rôznych značiek.</p>
+<p>
+<img alt="Biela brána pre inteligentnú domácnosť Sonoff s viditeľným písmenom „M“ na prednej strane." border="0" src="https://assets.innpro.pl/24619/32360/2-d46b3862-1366-4d60-b1e0-aeb749097df5.jpg"/>
+</p>
+<h3>Mostík Matter – jeden ekosystém pre mnoho zariadení</h3>
+<p>SONOFF Bridge Max vám umožňuje pripojiť zariadenia Zigbee, BTHome, eWeLink a Home Assistant k platformám, ktoré podporujú štandard Matter. Vďaka tomu môžu rôzne komponenty inteligentnej domácnosti spolupracovať v rámci jedného systému bez ohľadu na výrobcu. Toto riešenie vám umožňuje vytvárať automatizácie a ovládať zariadenia priamo z vášho zvoleného ekosystému, ako je Apple Home, Google Home alebo Alexa.</p>
+<p>
+<img alt="Brána pre inteligentnú domácnosť Sonoff Bridge Max zobrazená vedľa svojho čierneho obalu." border="0" src="https://assets.innpro.pl/24619/32360/1-c93d4897-5e25-4537-9e9f-ce2807ff72a4.jpg"/>
+</p>
+<h3>Rozšírená sieť Zigbee pre inteligentnú domácnosť</h3>
+<p>Ako brána Zigbee vám toto zariadenie umožňuje vytvoriť stabilnú sieť pre až 128 zariadení Zigbee. Môžete k nemu pripojiť senzory, spínače, zásuvky a ďalšie kompatibilné komponenty domácej automatizácie. Vďaka podpore štandardu Zigbee IEEE 802.15.4 slúži Bridge Max ako centrálny uzol na správu zariadení a uľahčuje vytvorenie rozsiahleho systému inteligentnej domácnosti.</p>
+<p>
+<img alt="Brána Sonoff vysielajúca signál na pozadí osvetleného domu v noci." border="0" src="https://assets.innpro.pl/24619/32360/6-619a6661-e554-4ab5-a76c-fc81c606c750.jpg"/>
+</p>
+<h3>Lokálne webové rozhranie – bez závislosti od cloudu</h3>
+<p>Vstavaná webová konzola zariadenia Matter Bridge vám umožňuje prístup k nastaveniam a správu zariadenia priamo cez vašu lokálnu sieť. Na nastavenie nie je potrebné sťahovať žiadnu aplikáciu, vytvárať cloudový účet ani mať neustále pripojenie k internetu. Toto riešenie poskytuje pohodlnejší prístup k funkciám zariadenia a umožňuje väčšie súkromie pri používaní vašej inteligentnej domácnosti.</p>
+<p>
+<img alt="Brána pre inteligentnú domácnosť Sonoff s viditeľným ethernetovým portom a napájacím konektorom." border="0" src="https://assets.innpro.pl/24619/32360/4-a6c27ab1-6854-48f5-91a2-392ce5aed96e.jpg"/>
+</p>
+<h3>Inteligentná bezpečnosť a rýchla reakcia na hrozby</h3>
+<p>Bridge Max dokáže spolupracovať so senzormi a kamerami Zigbee na vytváranie automatizovaných bezpečnostných scenárov. Ak sa zistí neobvyklá aktivita, systém môže spustiť zvukový alarm s hlasitosťou až 90 dB a odoslať mobilné upozornenia v reálnom čase. To vám umožňuje rýchlejšie reagovať na potenciálne hrozby a zvýšiť úroveň ochrany vášho domova.</p>
+<p>
+<img alt="Spodná časť zariadenia Sonoff Bridge Max s protišmykovými nožičkami a štítkom s technickými údajmi." border="0" src="https://assets.innpro.pl/24619/32360/5-fac21f27-08c8-40bf-a6bb-434435afa9a4.jpg"/>
+</p>
+<h3>Integrácia s Home Assistant a pokročilá konfigurácia</h3>
+<p>Zariadenie podporuje integráciu s Home Assistant prostredníctvom protokolu MQTT, čo umožňuje synchronizáciu zariadení Zigbee s týmto populárnym systémom domácej automatizácie. Bridge Max tiež umožňuje pripojiť zariadenia Home Assistant k ekosystémom Matter, ako sú Apple Home, Alexa a Google Home. Vďaka tomu môžu používatelia vytvárať zložitejšie scenáre a prispôsobiť správanie systému svojim konkrétnym potrebám.</p>
+<p>
+<img alt="Súprava Sonoff Bridge Max, obsahujúca bránu, obal, návod a sieťové káble." border="0" src="https://assets.innpro.pl/24619/32360/7-69292dea-d0f2-4153-b711-d3800ecb8b3c.jpg"/>
+</p>
+<h3>Stabilná komunikácia prispôsobená rôznym konfiguráciám</h3>
+<p>SONOFF Bridge Max ponúka viacero spôsobov komunikácie, čím zabezpečuje pohodlné prispôsobenie rôznym konfiguráciám. Zariadenie podporuje Wi-Fi v súlade so štandardmi IEEE 802.11 a/b/g/n/ac/ax a káblové sieťové pripojenie cez port RJ45 s rýchlosťou 10/100 Mbps, vďaka čomu môže fungovať ako v bezdrôtových, tak aj v náročnejších sieťových konfiguráciách. Okrem toho ľahké a kompaktné puzdro s rozmermi 82 × 82 × 28 mm uľahčuje umiestnenie brány na akékoľvek požadované miesto v interiéri, a jej konštrukcia z materiálov PC a ABS spolu s napájaním cez USB-C zjednodušuje inštaláciu a pomáha zachovať estetický vzhľad vášho domova.</p>
+<p>
+<img alt="Kompaktné zariadenie Sonoff Bridge Max so zelenou LED diódou na kryte." border="0" src="https://assets.innpro.pl/24619/32360/3-453c3314-e514-4282-9e16-78ce2a3c4654.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5">
+<li>Inteligentná domáca brána SONOFF</li>
+<li>Ethernetový kábel</li>
+<li>Kábel USB-C</li>
+<li>Stručný návod na použitie</li>
+</ul>
+<div class="table-wrapper">
+<p> </p>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>SONOFF</td></tr>
+<tr><th>Model</th><td>Bridge-M</td></tr>
+<tr><th>Bezdrôtová konektivita</th><td>Wi-Fi IEEE 802.11a/b/g/n/ac/ax</td></tr>
+<tr><th>Štandard Zigbee</th><td>IEEE 802.15.4</td></tr>
+<tr><th>Sieťové rozhranie</th><td>RJ45 10/100 Mbps</td></tr>
+<tr><th>Typ napájacieho konektora</th><td>USB-C</td></tr>
+<tr><th>Vstupný výkon</th><td>5 V ⎓ 1 A</td></tr>
+<tr><th>Počet podporovaných zariadení Zigbee</th><td>Až 128 zariadení</td></tr>
+<tr><th>Čistá hmotnosť</th><td>83,4 g</td></tr>
+<tr><th>Materiál puzdra</th><td>PC, ABS</td></tr>
+<tr><th>Farba</th><td>Biela</td></tr>
+<tr><th>Rozmery</th><td>82 × 82 × 28 mm</td></tr>
+<tr><th>Prevádzkové prostredie</th><td>V interiéri</td></tr>
+<tr><th>Prevádzková teplota</th><td>-10 °C až 40 °C</td></tr>
+<tr><th>Prevádzková vlhkosť</th><td>5–95 % relatívnej vlhkosti, bez kondenzácie</td></tr>
+<tr><th>Maximálna prevádzková nadmorská výška</th><td>Menej ako 5 000 m</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87748_65057_pol_eab9974091f039bde1ed5e4f02f456e3" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/riadiace-jednotky/">Huby a centrálne jednotky</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Sonoff]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>094216</CODE>
+<EAN>6979033600461</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>5828</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Mostík pre inteligentnú domácnosť SONOFF Bridge Max - obrázok 1">https://b2b.innpro.sk/hpeciai/92a754e47b0139624e567d9ff890c0f5/65057_2_1.webp</IMAGE>
+  <IMAGE description="Mostík pre inteligentnú domácnosť SONOFF Bridge Max - obrázok 2">https://b2b.innpro.sk/hpeciai/6d40ddbd38d16d45e2888a5fa914dca6/65057_1_1.webp</IMAGE>
+  <IMAGE description="Mostík pre inteligentnú domácnosť SONOFF Bridge Max - obrázok 3">https://b2b.innpro.sk/hpeciai/36e22889d5af3301de429dbcd569af2a/65057_3_1.webp</IMAGE>
+  <IMAGE description="Mostík pre inteligentnú domácnosť SONOFF Bridge Max - obrázok 4">https://b2b.innpro.sk/hpeciai/6b473b8d9f2829b92fce338cbc7011a6/65057_4_1.webp</IMAGE>
+  <IMAGE description="Mostík pre inteligentnú domácnosť SONOFF Bridge Max - obrázok 5">https://b2b.innpro.sk/hpeciai/d0681c4d07bd5800949e6c5ca8e813d5/65057_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Sonoff]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bezdrôtová konektivita]]></NAME>
+    <VALUE><![CDATA[Wi-Fi IEEE 802.11a/b/g/n/ac/ax]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Štandard Zigbee]]></NAME>
+    <VALUE><![CDATA[IEEE 802.15.4]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Sieťové rozhranie]]></NAME>
+    <VALUE><![CDATA[RJ45 10/100 Mbps]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ napájacieho konektora]]></NAME>
+    <VALUE><![CDATA[USB-C]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Vstupný výkon]]></NAME>
+    <VALUE><![CDATA[5 V ⎓ 1 A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet podporovaných zariadení Zigbee]]></NAME>
+    <VALUE><![CDATA[Až 128 zariadení]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Čistá hmotnosť]]></NAME>
+    <VALUE><![CDATA[83,4 g]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiál puzdra]]></NAME>
+    <VALUE><![CDATA[PC, ABS]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[biela]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery]]></NAME>
+    <VALUE><![CDATA[82 × 82 × 28 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Wi-Fi, USB-C]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.19</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>64.00</PRICE_VAT>
+<PURCHASE_PRICE>45.38</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Mostík pre inteligentnú domácnosť SONOFF Bridge Max | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Mostík pre inteligentnú domácnosť SONOFF Bridge Max – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Zigbee adaptér SONOFF Dongle Plus]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Zigbee dongle SONOFF Dongle Plus Vytvorte si vlastné riadiace centrum pre inteligentnú domácnosť pomocou USB adaptéra SONOFF Dongle Plus, ktorý súčasne podporuje protokoly Zigbee aj Thread.…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Zigbee dongle SONOFF Dongle Plus</h3>
+<p>Vytvorte si vlastné riadiace centrum pre inteligentnú domácnosť pomocou USB adaptéra SONOFF Dongle Plus, ktorý súčasne podporuje protokoly Zigbee aj Thread. Zariadenie je vybavené vysokovýkonným čipom CC2674P10, ktorý poskytuje vyšší výpočtový výkon a schopnosť podporovať rozsiahle siete inteligentných domácností s mnohými prepojenými zariadeniami. Vďaka lokálnemu ovládaniu a kompatibilite s populárnymi open-source platformami, ako sú Home Assistant a Zigbee2MQTT, vám umožňuje budovať flexibilné automatizačné systémy bez nutnosti využívať cloudové služby.</p>
+<p>
+<img alt="USB modul Sonoff s uhlovou externou anténou zobrazený na tmavom pozadí." border="0" src="https://assets.innpro.pl/24623/32364/5-6fd49957-c3ed-4ab1-9144-81309777def9.jpg"/>
+</p>
+<h3>Podpora dvoch protokolov: Zigbee a Thread</h3>
+<p>SONOFF Dongle Plus využíva čip CC2674P10, ktorý poskytuje natívnu podporu pre dva komunikačné protokoly – Zigbee a Thread. Toto riešenie vám umožňuje vytvárať rozsiahlejšie siete inteligentných domácností a zabezpečuje plynulú prevádzku aj v prípade, že viacero zariadení komunikuje súčasne. Vylepšený výkon čipu umožňuje podporu náročných automatizačných scenárov a väčšieho počtu systémových komponentov.</p>
+<p>
+<img alt="Kompaktný modul Sonoff USB s našraubovanou externou anténou zobrazený z uhla." border="0" src="https://assets.innpro.pl/24623/32364/2-25e1f9e3-1d3b-4621-ab7b-42e04010c576.jpg"/>
+</p>
+<h3>Rozšírený dosah a stabilné pripojenie</h3>
+<p>Adaptér je vybavený anténou s vysokým ziskom, ktorá zlepšuje dosah bezdrôtovej komunikácie a stabilitu pripojenia. Vysielací výkon až 20 dBm a konštrukcia antény umožňujú efektívnejší prenos signálu aj v priestoroch s prekážkami, ako sú steny. Súčasťou sady je aj 1-metrový predlžovací USB kábel, ktorý pomáha znižovať rušenie generované USB portom počítača a uľahčuje umiestnenie zariadenia na optimálne miesto.</p>
+<p>
+<img alt="Adaptér Sonoff USB zobrazený vedľa svojho obalu." border="0" src="https://assets.innpro.pl/24623/32364/3-204cc31c-c10d-4d97-ae37-81b328ed3277.jpg"/>
+</p>
+<h3>Lokálne ovládanie inteligentnej domácnosti</h3>
+<p>Dongle Plus umožňuje lokálne riadenie zariadení Zigbee a Thread bez potreby cloudu. Funguje s platformami s otvoreným zdrojovým kódom, ako sú Home Assistant, Zigbee2MQTT a OTBR, čím poskytuje väčšiu flexibilitu pri konfigurácii systému. Lokálne spracovanie komunikácie skracuje reakčné časy zariadení a ponúka väčšiu nezávislosť pri vytváraní automatizácií.</p>
+<p>
+<img alt="Zväčšený detail hliníkového puzdra USB konektora Sonoff na tmavom, nazelenalom pozadí." border="0" src="https://assets.innpro.pl/24623/32364/4-18a5e0fd-0207-4699-a2f0-f5c3c5b1e4a4.jpg"/>
+</p>
+<h3>Flexibilné využitie vďaka aktualizáciám firmvéru</h3>
+<p>Zariadenie vám umožňuje jednoducho prispôsobiť jeho funkčnosť vašim aktuálnym potrebám aktualizáciou firmvéru pomocou nástroja SONOFF Dongle Flasher. Adaptér je možné nakonfigurovať ako koordinátor Zigbee, smerovač Zigbee alebo RCP pre Thread, čo umožňuje, aby jedno zariadenie plnilo rôzne úlohy v závislosti od budovanej siete. Toto riešenie uľahčuje prispôsobenie zariadenia rôznym scenárom použitia.</p>
+<p>
+<img alt="Tmavošedý USB adaptér Sonoff Zigbee s pohyblivou externou anténou na svetlom pozadí." border="0" src="https://assets.innpro.pl/24623/32364/1-1de5ab0a-2a4d-4576-ad6e-4e2ff639bc70.jpg"/>
+</p>
+<h3>Pripravené na rôzne prevádzkové prostredia</h3>
+<p>SONOFF Dongle Plus spolupracuje s obľúbenými platformami používanými v inteligentných domácnostiach, ako sú Windows, Ubuntu, Raspberry Pi OS / Raspbian a Docker. Vďaka širokej kompatibilite je možné adaptér použiť tak v jednoduchých domácich inštaláciách, ako aj v zložitejších systémoch založených na vlastnej infraštruktúre. Jeho kompaktný dizajn s rozmermi 18 × 10,5 × 214 mm uľahčuje pripojenie zariadenia, pričom rozsah prevádzkovej teploty od -10 °C do 60 °C a rozsah prevádzkovej vlhkosti od 0 % do 95 % relatívnej vlhkosti zabezpečujú stabilnú prevádzku v rôznych podmienkach. Robustná konštrukcia a použité vysoko kvalitné materiály zvyšujú odolnosť adaptéra pri každodennom používaní.</p>
+<p>
+<img alt="Súprava Sonoff obsahujúca USB adaptér, anténu, kábel, návod a krabičku." border="0" src="https://assets.innpro.pl/24623/32364/6-528271d4-8b2e-4f96-b5be-3659b72b0eb7.jpg"/>
+</p>
+<h3>Súčasťou balenia je</h3>
+<ul class="list-disc pl-5">
+<li>Zigbee dongle SONOFF Dongle Plus</li>
+<li>USB kábel</li>
+<li>Návod na použitie</li>
+</ul>
+<div class="table-wrapper">
+<p> </p>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>SONOFF</td></tr>
+<tr><th>Model</th><td>Dongle-PP10</td></tr>
+<tr><th>Zigbee SoC</th><td>CC2674P10</td></tr>
+<tr><th>Čip USB-sériový prevodník</th><td>CP2102(N)</td></tr>
+<tr><th>Vstupné napätie</th><td>5 V, 500 mA</td></tr>
+<tr><th>Spotreba energie v pohotovostnom režime</th><td>40 mW</td></tr>
+<tr><th>Rádiofrekvenčný štandard</th><td>IEEE 802.15.4 / Zigbee 3.0</td></tr>
+<tr><th>Podporované protokoly</th><td>Zigbee / Thread</td></tr>
+<tr><th>RF frekvencia</th><td>2,4 GHz</td></tr>
+<tr><th>Maximálny výkon signálu</th><td>20 dBm + zisk antény</td></tr>
+<tr><th>Dosah signálu</th><td>Až 200 m vo voľnom priestore</td></tr>
+<tr><th>Zisk antény</th><td>3 dBi</td></tr>
+<tr><th>Podporované operačné systémy</th><td>Windows, Ubuntu, Raspberry Pi OS / Raspbian, Docker</td></tr>
+<tr><th>Rozmery</th><td>18 × 10,5 × 214 mm</td></tr>
+<tr><th>Prevádzková teplota</th><td>-10 °C až 60 °C</td></tr>
+<tr><th>Prevádzková vlhkosť</th><td>0–95 % relatívnej vlhkosti</td></tr>
+<tr><th>Rozhranie</th><td>USB</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87749_65060_pol_7ff7b3bb4ea2801f94e5b0499f32ccdc" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/riadiace-jednotky/">Huby a centrálne jednotky</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[Sonoff]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>094217</CODE>
+<EAN>6979033600850</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Huby a centrálne jednotky]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>5828</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Zigbee adaptér SONOFF Dongle Plus - obrázok 1">https://b2b.innpro.sk/hpeciai/d9099dfb13b444ef3d5f235b8313d65a/65060_1_1.webp</IMAGE>
+  <IMAGE description="Zigbee adaptér SONOFF Dongle Plus - obrázok 2">https://b2b.innpro.sk/hpeciai/dfe7f739ef8f1fec5483bea19816f891/65060_2_1.webp</IMAGE>
+  <IMAGE description="Zigbee adaptér SONOFF Dongle Plus - obrázok 3">https://b2b.innpro.sk/hpeciai/591f098e4721edf473fc52a70d4c2e77/65060_3_1.webp</IMAGE>
+  <IMAGE description="Zigbee adaptér SONOFF Dongle Plus - obrázok 4">https://b2b.innpro.sk/hpeciai/b48519f5464dd6808942546daac7fb37/65060_4_1.webp</IMAGE>
+  <IMAGE description="Zigbee adaptér SONOFF Dongle Plus - obrázok 5">https://b2b.innpro.sk/hpeciai/e9980c074911185dfea5776140c29b1d/65060_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[Sonoff]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zigbee SoC]]></NAME>
+    <VALUE><![CDATA[CC2674P10]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Čip USB-sériový prevodník]]></NAME>
+    <VALUE><![CDATA[CP2102(N)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Vstupné napätie]]></NAME>
+    <VALUE><![CDATA[5 V, 500 mA]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rádiofrekvenčný štandard]]></NAME>
+    <VALUE><![CDATA[IEEE 802.15.4 / Zigbee 3.0]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Podporované protokoly]]></NAME>
+    <VALUE><![CDATA[Zigbee / Thread]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[RF frekvencia]]></NAME>
+    <VALUE><![CDATA[2,4 GHz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálny výkon signálu]]></NAME>
+    <VALUE><![CDATA[20 dBm + zisk antény]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Dosah signálu]]></NAME>
+    <VALUE><![CDATA[Až 200 m vo voľnom priestore]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zisk antény]]></NAME>
+    <VALUE><![CDATA[3 dBi]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Podporované operačné systémy]]></NAME>
+    <VALUE><![CDATA[Windows, Ubuntu, Raspberry Pi OS / Raspbian, Docker]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>38.50</PRICE_VAT>
+<PURCHASE_PRICE>27.33</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Zigbee adaptér SONOFF Dongle Plus | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Zigbee adaptér SONOFF Dongle Plus – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Reproduktory EDIFIER R1280DB (bielo-strieborné)]]></NAME>
@@ -617723,7 +618638,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>EMEET</td></tr><tr><th>Model</th><td>Prime E3164</td></tr><tr><th>Pripojenie</th><td>USB</td></tr><tr><th>Snímač</th><td>8 MP</td></tr><tr><th>Snímač so širokouhlým objektívom</th><td>1/1&quot;</td></tr><tr><th>Snímač s teleobjektívom</th><td>1/2,88&quot;</td></tr><tr><th>Maximálne horizontálne rozlíšenie</th><td>3840 × 2160 pri 30 fps</td></tr><tr><th>2560 × 1440</th><td>až 60 fps</td></tr><tr><th>1920 × 1080</th><td>až 60 snímok za sekundu</td></tr><tr><th>Maximálne vertikálne rozlíšenie</th><td>2160 × 3840 pri 30 snímkach za sekundu</td></tr><tr><th>Režim portrétu 1440 × 2560</th><td>až 60 snímok za sekundu</td></tr><tr><th>HDR</th><td>áno</td></tr><tr><th>Automatické zaostrovanie</th><td>PDAF</td></tr><tr><th>Rozsah zaostrenia</th><td>10–300 cm</td></tr><tr><th>Zorné pole širokouhlého objektívu</th><td>85,1°</td></tr><tr><th>Zorné pole teleobjektívu</th><td>49,1°</td></tr><tr><th>Formát videa</th><td>YUY2 / NV12 / MJPEG / H.264</td></tr><tr><th>Video výstup</th><td>HDMI 2.0</td></tr><tr><th>Počet mikrofónov</th><td>2</td></tr><tr><th>Dosah snímania zvuku</th><td>až 3 m</td></tr><tr><th>Závit na statív</th><td>štandardný 1/4&quot;</td></tr><tr><th>Napájanie</th><td>5 V / 2 A</td></tr><tr><th>Kompatibilita</th><td>Windows 10 a novšie 64-bitové systémy, macOS 10.14 a novšie, UVC, Linux</td></tr><tr><th>Podporovaný softvér</th><td>EMEET STUDIO</td></tr><tr><th>Kompatibilná okrem iného s:</th><td>OBS, Twitch, YouTube, Facebook, XSplit, ManyCam</td></tr><tr><th>Rozmery</th><td>78 × 45 × 111 mm</td></tr><tr><th>Hmotnosť</th><td>245 g</td></tr><tr><th>Prevádzková teplota</th><td>0–40 °C</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88626_65368_pol_5d33a0d4089efeb9a14d86a7aac799c5" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/webkamery-3/">Webkamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Emeet]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
@@ -629751,7 +630666,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>MINIX</td></tr><tr><th>Model</th><td>N304-AI</td></tr><tr><th>Procesor</th><td>Intel® Core™ 3 304</td></tr><tr><th>Počet jadier / vlákien</th><td>5 / 5</td></tr><tr><th>Maximálna taktovacia frekvencia procesora</th><td>4,3 GHz</td></tr><tr><th>Cache</th><td>6 MB Intel Smart Cache</td></tr><tr><th>Grafika</th><td>Intel® Graphics (1 jadro Xe)</td></tr><tr><th>AI akcelerátor</th><td>Intel® AI Boost, NPU až 15 TOPS</td></tr><tr><th>Celkový výkon AI</th><td>až 24 TOPS</td></tr><tr><th>RAM</th><td>16 GB LPDDR5X, 6400 MT/s</td></tr><tr><th>Úložisko</th><td>512 GB M.2 2280 NVMe PCIe 3.0 ×4 SSD</td></tr><tr><th>Rozšírenie úložiska</th><td>2 ďalšie sloty M.2 2280 PCIe 4.0</td></tr><tr><th>Wi-Fi</th><td>Wi-Fi 6 (802.11ax), 2,4 / 5 GHz</td></tr><tr><th>Bluetooth</th><td>5.3</td></tr><tr><th>Ethernet</th><td>2 × RJ-45 1 Gb/s</td></tr><tr><th>USB-A</th><td>2 × USB 3.2 Gen 2 (vpredu), 2 × USB 2.0 (vzadu)</td></tr><tr><th>USB-C</th><td>1 × USB 3.2 Gen 2 s podporou video výstupu</td></tr><tr><th>HDMI</th><td>1 × HDMI 2.1 TMDS, 4K 60 Hz</td></tr><tr><th>DisplayPort</th><td>1 × DP 1.4, 4K 60 Hz</td></tr><tr><th>Video výstup cez USB-C</th><td>4K 60 Hz</td></tr><tr><th>Podpora monitorov</th><td>Až 3 4K displeje súčasne</td></tr><tr><th>Audio</th><td>1 × kombinovaný konektor 3,5 mm</td></tr><tr><th>Napájanie</th><td>DC 19 V / 3,42 A, max. 65 W</td></tr><tr><th>Operačný systém</th><td>Windows 11 Pro 64-bit</td></tr><tr><th>Rozmery</th><td>127 × 126,8 × 46 mm</td></tr><tr><th>Hmotnosť</th><td>približne 358 g</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88627_66088_pol_7a38e3071324f18d09290f814f8aeddb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/mini-pc-2/">Mini PC</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Minix]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -634374,7 +635289,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>PIMAX</td></tr><tr><th>Model</th><td>Crystal Super Ultrawide</td></tr><tr><th>Typ zariadenia</th><td>VR headset</td></tr><tr><th>Technológia displeja</th><td>QLED + miniLED</td></tr><tr><th>Konštrukcia displeja</th><td>Modulárna</td></tr><tr><th>Rozlíšenie na jedno oko</th><td>3840 × 3840 pixelov</td></tr><tr><th>Celkový počet pixelov</th><td>Približne 29,5 milióna</td></tr><tr><th>Hustota pixelov</th><td>50 PPD</td></tr><tr><th>Zorné pole (horizontálne)</th><td>140°</td></tr><tr><th>Obnovovacia frekvencia</th><td>72 / 90 Hz</td></tr><tr><th>Typ šošoviek</th><td>sklenené, asférické</td></tr><tr><th>Nastavenie IPD</th><td>automatické</td></tr><tr><th>Rozsah IPD</th><td>58–72 mm</td></tr><tr><th>Podsvietenie</th><td>miniLED s lokálnym stmievaním</td></tr><tr><th>Počet zón lokálneho stmievania</th><td>viac ako 1 000</td></tr><tr><th>Sledovanie pohybu očí</th><td>áno</td></tr><tr><th>Dynamic Foveated Rendering</th><td>Dynamic Foveated Rendering 2.0</td></tr><tr><th>Sledovanie pohybu</th><td>inside-out</td></tr><tr><th>Podpora Lighthouse</th><td>Áno, s príslušným príslušenstvom</td></tr><tr><th>Audio konektor</th><td>3,5 mm konektor</td></tr><tr><th>Mikrofóny</th><td>2</td></tr><tr><th>Odporúčaná grafická karta</th><td>NVIDIA GeForce RTX 3080 / RTX 4070 alebo novšia</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88620_66669_pol_dbcac56e5ac0a8338979a55cb0428433" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[PIMAX]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -634640,7 +635555,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>PIMAX</td></tr><tr><th>Model</th><td>Crystal Light</td></tr><tr><th>Typ zariadenia</th><td>PCVR headset</td></tr><tr><th>Displeje</th><td>QLED MiniLED</td></tr><tr><th>Rozlíšenie</th><td>2880 × 2880 pixelov na oko</td></tr><tr><th>Celkový počet pixelov</th><td>16,58 milióna</td></tr><tr><th>Hustota pixelov</th><td>35 PPD</td></tr><tr><th>Zorné pole</th><td>Až 110° horizontálne</td></tr><tr><th>Obnovovacia frekvencia</th><td>72 / 90 / 120 Hz</td></tr><tr><th>Typ šošoviek</th><td>Sklenené, asférické</td></tr><tr><th>Podsvietenie</th><td>Lokálne stmievanie</td></tr><tr><th>Nastavenie IPD</th><td>58–72 mm</td></tr><tr><th>Sledovanie pohybu</th><td>Sledovanie Inside-Out, 6DoF</td></tr><tr><th>Sledovacie kamery</th><td>4</td></tr><tr><th>Podpora Lighthouse</th><td>Áno, s voliteľným panelom</td></tr><tr><th>Sledovanie pohybu očí</th><td>Nie</td></tr><tr><th>Konektory</th><td>DisplayPort 1.4a, USB 3.0</td></tr><tr><th>Optimalizačné technológie</th><td>FFR 2.0, upscaling</td></tr><tr><th>Ďalšie funkcie</th><td>Passthrough, rozšírenie zvuku cez DMAS</td></tr><tr><th>Hmotnosť</th><td>815 g</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88621_66671_pol_f2d788ee12cc7b0c00dc6f1bd54d9b8d" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[PIMAX]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -634934,6 +635849,252 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Ohrievač fliaš GROWNSY s nočným osvetlením K301 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Wi-Fi router MOVA X1 Pro]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Wi-Fi router MOVA X1 Pro MOVA X1 Pro stanovuje nový štandard pre domáce pripojenie a ponúka ultrarýchle Wi-Fi 7, pokročilé funkcie umelej inteligencie, pohodlné riadenie zariadení inteligentnej…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Wi-Fi router MOVA X1 Pro</h3>
+<p>MOVA X1 Pro stanovuje nový štandard pre domáce pripojenie a ponúka ultrarýchle Wi-Fi 7, pokročilé funkcie umelej inteligencie, pohodlné riadenie zariadení inteligentnej domácnosti, prenosové rýchlosti až 9 300 Mb/s, stabilnú podporu pre viac ako 200 zariadení súčasne a pokrytie až 150 m². Vstavaný hlasový asistent s umelou inteligenciou umožňuje pohodlné ovládanie zariadení v ekosystéme MOVA, zatiaľ čo funkcie NAS vám umožňujú ukladať, synchronizovať a zdieľať súbory bez potreby samostatného servera. Štvorjadrový procesor Qualcomm s frekvenciou 1,5 GHz zaisťuje vysoký výkon, zatiaľ čo štyri ethernetové porty s rýchlosťou 2,5 Gb/s poskytujú rýchle káblové pripojenie. Všetky tieto funkcie sú umiestnené v elegantnom puzdre s diskrétne integrovanými anténami, ktoré sa dokonale hodí do moderných interiérov.</p>
+<p>
+<img alt="Čierne zariadenie s modro podsvietenou základňou umiestnené na skrini vedľa zapnutej televíznej obrazovky" border="0" src="https://assets.innpro.pl/25534/33774/1-7958aed4-b50a-43e6-8ca3-e1c737261378.jpg"/>
+</p><h3>Wi-Fi 7 – rýchlosť, ktorá drží krok s vami</h3>
+<p>Sledujte 4K videá, streamujte živé športové prenosy a súťažte v online hrách bez obáv z oneskorenia. MOVA X1 Pro podporuje štandard Wi-Fi 7 (802.11be) a ponúka bezdrôtové rýchlosti až 9 300 Mb/s v triede BE9300, čím zabezpečuje efektívne pripojenie aj pri vysokom zaťažení siete. Technológia Multi-Link Operation (MLO) umožňuje súčasné využívanie viacerých frekvenčných pásiem, čo prispieva k plynulejšiemu prenosu dát a znižuje oneskorenie. Štandard Wi-Fi 7 tiež podporuje kanály so šírkou až 320 MHz, čím poskytuje väčšiu kapacitu prenosu dát.</p>
+<p>
+<img alt="Čierne zariadenie Mova Linco s podstavcom s modrým podsvietením a nápisom „Wi-Fi 7“ na tmavom pozadí pripomínajúcom skalu" border="0" src="https://assets.innpro.pl/25534/33774/2-266eff31-2a78-40ef-9649-573e62a4f48b.jpg"/>
+</p><h3>Viac ako 200 zariadení pripojených súčasne</h3>
+<p>Štvorjadrový procesor Qualcomm s frekvenciou 1,5 GHz poskytuje vysoký výkon pri spracovaní dát a pomáha minimalizovať oneskorenie pri používaní siete. Router podporuje stabilné pripojenie s viac ako 200 zariadeniami súčasne, vďaka čomu je ideálny pre domácnosti, kde internet využívajú početné smartfóny, počítače, televízory a inteligentné zariadenia IoT. 8 Gbit pamäte RAM a 1 Gbit flash pamäte ďalej podporujú plynulú prevádzku zariadenia. Môžete tak voľne sledovať filmy, hrať online hry a pracovať na diaľku, zatiaľ čo vaše ostatné domáce zariadenia zostávajú pripojené k sieti.</p>
+<p>
+<img alt="Digitálny procesor na tmavej doske s plošnými spojmi s 3D nápisom „1,5 GHz“" border="0" src="https://assets.innpro.pl/25534/33774/3-a53290ea-8738-4f11-929b-d915734db49b.jpg"/>
+</p><h3>Silný signál v celom dome</h3>
+<p>Zabudnite na slabé pokrytie v miestnostiach vzdialených od routera. MOVA X1 Pro je vybavený šiestimi skrytými anténami s vysokým ziskom, ktoré zabezpečujú efektívne pokrytie Wi-Fi signálom na ploche od 120 do 150 m². Okrem toho šesť nezávislých zosilňovačov rádiového signálu zvyšuje jeho intenzitu a umožňuje mu preniknúť až cez tri steny. To znamená, že si môžete pohodlne užívať bezdrôtový internet nielen v obývačke, ale aj v spálni, domácej kancelárii alebo v iných častiach domu. Toto riešenie je obzvlášť vhodné pre väčšie byty a rodinné domy, kde je potrebné stabilné pripojenie vo viacerých miestnostiach súčasne.</p>
+<p>
+<img alt="Tmavý technický modul so šiestimi modro svietiacimi prvkami a blikajúcimi svetlami na tmavom povrchu" border="0" src="https://assets.innpro.pl/25534/33774/5-f3d936e5-c26b-41b0-aced-9eb6296f29b8.jpg"/>
+</p><h3>Štyri porty s rýchlosťou 2,5 Gb/s – využite potenciál vysokorýchlostného internetu</h3>
+<p>Potrebujete vysokovýkonné káblové pripojenie pre počítač, hernú konzolu alebo iné sieťové zariadenia? MOVA X1 Pro ponúka až štyri ethernetové porty s rýchlosťou 2,5 Gb/s, vďaka čomu môžete naplno využiť vysokorýchlostné internetové pripojenia, vrátane širokopásmových pripojení s priepustnosťou 2000 Mb/s. Toto riešenie poskytuje ideálne podmienky pre online hranie hier, sledovanie živých prenosov, vedenie videokonferencií a prenos veľkého množstva dát. Môžete súčasne využívať vysokorýchlostnú bezdrôtovú sieť a pripájať vybrané zariadenia káblom, čím si prispôsobíte pripojenie podľa svojich potrieb. Router je tiež vybavený portom USB 3.0, ktorý rozširuje jeho možnosti pripojenia ďalších zariadení.</p>
+<p>
+<img alt="Zadný panel čierneho zariadenia s sieťovými portmi vyžarujúcimi modré svetlo" border="0" src="https://assets.innpro.pl/25534/33774/7-96f19309-c3ab-4a4c-bf85-2d57f7f5114f.jpg"/>
+</p><h3>Inteligentný AI asistent – vaša domácnosť reaguje na váš hlas</h3>
+<p>MOVA X1 Pro nielenže poskytuje rýchly prístup k internetu, ale umožňuje aj hlasové ovládanie kompatibilných zariadení inteligentnej domácnosti. Vstavaný AI asistent sa aktivuje, keď poviete „Hey MOVA“, čo vám umožňuje ovládať vybrané čistiace roboty MOVA bez toho, aby ste museli siahať po telefóne alebo otvárať aplikáciu. Je poháňaný lokálnym hlasovým modelom AI a rozsiahlym jazykovým modelom pripojeným k cloudu, vďaka čomu vám pomáha pri každodenných úlohách. Asistent podporuje viac ako 100 jazykov a umožňuje vám okrem iného skontrolovať počasie, aktuálny čas a správy; vyhľadávať vlakové a letecké spojenia; vytvárať zoznamy úloh; nastavovať budíky; a prehrávať príbehy. Všetky tieto funkcie sú dostupné prostredníctvom hlasových príkazov, vďaka čomu môžete pohodlne získať potrebné informácie bez použitia ďalších zariadení.</p>
+<p>
+<img alt="Zariadenie Mova Linco obklopené modrými kruhmi svetla a miniaturami domácich spotrebičov" border="0" src="https://assets.innpro.pl/25534/33774/10-445b1c44-6683-460b-b8b0-b970c11fd017.jpg"/>
+</p><h3>Pripojenie zariadení IoT bez zložitého nastavovania</h3>
+<p>MOVA X1 Pro uľahčuje rozširovanie vašej inteligentnej domácnosti vďaka vlastnému komunikačnému protokolu IoT, ktorý vám umožňuje pripojiť kompatibilné zariadenia bez ručného zadávania hesla k Wi-Fi. Proces nastavenia prebieha v aplikácii MOVAhome – stačí naskenovať QR kód zariadenia, vybrať možnosť pripojenia jedným kliknutím a postupovať podľa pokynov na obrazovke. Vďaka tomu je pridávanie nových zariadení do vašej domácej siete rýchle a jednoduché, bez nutnosti prechádzať zložitými nastaveniami. Router podporuje vybrané robotické vysávače MOVA, vrátane modelov P70 Pro, V60, Z60 Pro, Z60 SE, P60 Pro, V30 Pro, G20 Pro a G30 Ultra. Toto riešenie vám umožňuje pohodlne prepojiť kompatibilné zariadenia v rámci jedného ekosystému a zjednodušiť ich každodennú správu.</p>
+<p>
+<img alt="Čierne zariadenie Nova Linco s nápisom „Wi-Fi 7“ a modrým podsvietením stojace na tmavej pracovnej doske" border="0" src="https://assets.innpro.pl/25534/33774/9-1acf277a-17e4-4a8e-82ba-1c53ca470a09.jpg"/>
+</p><h3>Domáce úložisko NAS – súbory vždy na dosah ruky</h3>
+<p>Ukladajte a zdieľajte dáta bez potreby samostatného profesionálneho zariadenia NAS. MOVA X1 Pro ponúka funkcie ľahkého sieťového úložiska, vďaka ktorým môžete integrovať súbory uložené vo vašom telefóne, počítači a routeri. Pomocou jediného účtu môžete spravovať dáta na rôznych zariadeniach, pristupovať k súborom a prenášať ich medzi zariadeniami bez zložitých krokov. Router tiež podporuje synchronizáciu zložiek medzi viacerými zariadeniami a automatické zálohovanie v reálnom čase, a to aj z viacerých diskov. Funkcia vzdialeného prístupu prostredníctvom súkromného doménového mena alebo IP adresy vám umožňuje prístup k vašim súborom aj keď ste mimo domova, napríklad počas služobnej cesty.</p>
+<p>
+<img alt="Čierne zariadenie Mova Linco s nápisom „Wi-Fi 7“ a modrým podsvietením na podstavci na pozadí teplého svetla" border="0" src="https://assets.innpro.pl/25534/33774/11-98af02d3-1a81-4e2e-8271-446473afd7c4.jpg"/>
+</p><h3>Bezpečnejší internet pre celú rodinu</h3>
+<p>Vstavaný firewall pomáha blokovať škodlivé pripojenia a chrániť pripojené zariadenia pred hrozbami. Router tiež ponúka funkcie rodičovskej kontroly, ktoré vám umožňujú filtrovať škodlivé webové stránky. Vďaka tomu môžete zabezpečiť bezpečnosť svojich detí pri prehliadaní webu, štúdiu a online zábave. Tieto ochranné funkcie poskytujú dodatočnú podporu aj starším členom domácnosti, ktorí môžu byť obzvlášť zraniteľní voči nebezpečnému online obsahu.</p>
+<p>
+<img alt="Čierne zariadenie Mova Linco s nápisom „Wi-Fi 7“ vnútri priehľadného disku na pozadí svetelných pruhov" border="0" src="https://assets.innpro.pl/25534/33774/8-45170f1f-b5d2-4251-b6a1-9c7a45ee8f2e.jpg"/>
+</p>
+<h3>Obsah balenia</h3>
+<ul class="list-disc pl-5"><li>Wi-Fi router x1</li><li>Napájací adaptér s káblom odolným proti prehryzeniu x1</li><li>Návod na použitie x1</li><li>Stručný návod na použitie x1</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>MOVA</td></tr><tr><th>Model</th><td>X1 Pro</td></tr><tr><th>Štandard Wi-Fi</th><td>Wi-Fi 7 (802.11be)</td></tr><tr><th>Trieda rýchlosti Wi-Fi</th><td>BE9300</td></tr><tr><th>Maximálna bezdrôtová rýchlosť</th><td>9300 Mb/s</td></tr><tr><th>Technológia prenosu</th><td>MLO (Multi-Link Operation)</td></tr><tr><th>Šírka pásma kanálov Wi-Fi 7</th><td>Až 320 MHz</td></tr><tr><th>Procesor</th><td>Qualcomm, štvorjadrový</td></tr><tr><th>Taktovacia frekvencia procesora</th><td>1,5 GHz</td></tr><tr><th>RAM</th><td>8 Gbit</td></tr><tr><th>Flash pamäť</th><td>1 Gbit</td></tr><tr><th>Počet antén</th><td>6</td></tr><tr><th>Zosilňovače RF signálu</th><td>6 nezávislých vysokovýkonných zosilňovačov</td></tr><tr><th>Priepustnosť signálu cez prekážky</th><td>Až cez 3 steny</td></tr><tr><th>Plocha pokrytia</th><td>120–150 m²</td></tr><tr><th>Počet podporovaných zariadení</th><td>Viac ako 200 súčasne</td></tr><tr><th>Ethernetové porty</th><td>4 × 2,5 Gb/s</td></tr><tr><th>Podporované širokopásmové pripojenia</th><td>Až 2 000 Mb/s</td></tr><tr><th>Port USB</th><td>USB 3.0</td></tr><tr><th>AI asistent</th><td>Áno, integrovaný</td></tr><tr><th>Hlasové ovládanie</th><td>Áno</td></tr><tr><th>Aktivácia hlasom</th><td>Hey MOVA</td></tr><tr><th>Jazyky podporované asistentom</th><td>Viac ako 100</td></tr><tr><th>AI modely</th><td>Lokálny hlasový model AI a veľký jazykový model pripojený k cloudu</td></tr><tr><th>Protokol IoT</th><td>Vlastný protokol MOVA</td></tr><tr><th>Aplikácia</th><td>MOVAhome</td></tr><tr><th>Funkcie NAS</th><td>Áno</td></tr><tr><th>Vzdialený prístup k súborom</th><td>Prostredníctvom súkromného doménového mena alebo IP adresy</td></tr><tr><th>Správa dát</th><td>Zdieľaný účet pre telefón, počítač a router</td></tr><tr><th>Zálohovanie</th><td>Automatická synchronizácia v reálnom čase</td></tr><tr><th>Prenos súborov medzi zariadeniami</th><td>Áno</td></tr><tr><th>Pripojenie vzdialeného disku NAS ako lokálneho disku</th><td>Áno</td></tr><tr><th>Synchronizácia dát s O-Cloud</th><td>Áno</td></tr><tr><th>Bezpečnostné funkcie</th><td>Firewall, blokovanie škodlivých pripojení, filtrovanie nebezpečných webových stránok</td></tr><tr><th>Rodičovská kontrola</th><td>Áno</td></tr><tr><th>Podsvietenie</th><td>LED prstenec</td></tr><tr><th>Farby podsvietenia</th><td>Modrá, oranžová, červená, fialová</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88554_66810_pol_94e13b9d3f784b0b15f917f24aa9aa15" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/cestovne-a-vpn-routery/">Cestovné a VPN routery</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[MOVA]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>090778</CODE>
+<EAN>6978941540241</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská > Cestovné a VPN routery]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Wi-Fi router MOVA X1 Pro">https://b2b.innpro.sk/hpeciai/d3961a2c5965ada025177f115ed08a04/66810_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[MOVA]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Štandard Wi-Fi]]></NAME>
+    <VALUE><![CDATA[Wi-Fi 7 (802.11be)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Trieda rýchlosti Wi-Fi]]></NAME>
+    <VALUE><![CDATA[BE9300]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálna bezdrôtová rýchlosť]]></NAME>
+    <VALUE><![CDATA[9300 Mb/s]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Technológia prenosu]]></NAME>
+    <VALUE><![CDATA[MLO (Multi-Link Operation)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Procesor]]></NAME>
+    <VALUE><![CDATA[Qualcomm, štvorjadrový]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Taktovacia frekvencia procesora]]></NAME>
+    <VALUE><![CDATA[1,5 GHz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[RAM]]></NAME>
+    <VALUE><![CDATA[8 Gbit]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Flash pamäť]]></NAME>
+    <VALUE><![CDATA[1 Gbit]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet antén]]></NAME>
+    <VALUE><![CDATA[6]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zosilňovače RF signálu]]></NAME>
+    <VALUE><![CDATA[6 nezávislých vysokovýkonných zosilňovačov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>1.38</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>198.50</PRICE_VAT>
+<PURCHASE_PRICE>140.18</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Wi-Fi router MOVA X1 Pro | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Wi-Fi router MOVA X1 Pro – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[TERMOVÍZNA KAMERA THERMAL MASTER P3 Mini pre iOS/Android (sivá)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[THERMAL MASTER P3 – mini termovízna kamera pre iOS/Android (sivá) THERMAL MASTER P3 je profesionálna mini termovízna kamera určená na presnú diagnostiku elektroniky, dosiek s plošnými spojmi,…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>THERMAL MASTER P3 – mini termovízna kamera pre iOS/Android (sivá)</h3>
+<p>THERMAL MASTER P3 je profesionálna mini termovízna kamera určená na presnú diagnostiku elektroniky, dosiek s plošnými spojmi, elektrických inštalácií, priemyselných aplikácií, systémov vykurovania, ventilácie a klimatizácie (HVAC) a na kontroly v domácnosti a v automobiloch. Zariadenie využíva detektor VOx s rozlíšením 256 × 192 pixelov a technológiu X³IR™, ktorá zvyšuje rozlíšenie obrazu na 512 × 384 pixelov, čím poskytuje jasný a detailný pohľad na rozloženie teploty. Kamera meria teploty v rozmedzí od -20 °C do 600 °C s presnosťou ±2 °C alebo ±2 % nameranej hodnoty a jej teplotná citlivosť (NETD) &lt;35 mK pri 25 °C jej umožňuje detekovať aj jemné teplotné rozdiely. Napriek svojim pokročilým schopnostiam zostáva model P3 mimoriadne kompaktný – meria 59 × 27 × 17,2 mm, váži 26,3 g a spotrebuje len 0,32 W energie.</p>
+<p>
+<img alt="Muž v pracovnej košeli drží medzi prstami malú obdĺžnikovú kameru s konektorom, na pozadí regálov a zariadení" border="0" src="https://assets.innpro.pl/25819/34118/2-f71d276e-343a-4f29-9d09-ba879af0833e.jpg"/>
+</p><h3><strong>Presná diagnostika dosiek s plošnými spojmi na úrovni 1 mA</strong></h3>
+<p>Model P3 bol vyvinutý so zameraním na analýzu dosiek s plošnými spojmi, vďaka čomu je obzvlášť vhodný pre aplikácie, kde je kľúčová rýchla detekcia mikrodefektov. Kamera umožňuje testovanie dosiek s plošnými spojmi a detekciu zvodového prúdu na úrovni 1 mA, čo uľahčuje lokalizáciu problematických komponentov bez nutnosti strácať čas kontrolou celého obvodu. Makroobjektív s manuálnym zaostrovaním umožňuje presne prispôsobiť obraz malým elektronickým komponentom a ohnisková vzdialenosť 4,3 mm podporuje prácu zblízka. Vďaka tomu je model P3 praktickým nástrojom pre servisné strediská, elektronických inžinierov, technikov a odborníkov na opravy zariadení.</p>
+<p>
+<img alt="Dva farebné obrázky elektronického obvodu spojené modrou šípkou, na pozadí pracoviska s doskou s plošnými spojmi a rukou v rukavici" border="0" src="https://assets.innpro.pl/25819/34118/3-5b0aa4c9-aadd-4e3d-9c6b-b9ce63909ebe.jpg"/>
+</p><h3><strong>Termálny obraz, ktorý odhaľuje viac detailov</strong></h3>
+<p>Technológia X³IR™ zvyšuje rozlíšenie obrazu na 512 × 384 pixelov, čo vedie k jasnejšiemu termálnemu obrazu a ľahšej interpretácii výsledkov. Algoritmus Razor X™ poskytuje mimoriadne jasný obraz, zatiaľ čo vysoko citlivý senzor Thermal Master zabezpečuje presné zmapovanie teplotných rozdielov. Obnovovacia frekvencia 25 Hz zaručuje plynulý živý obraz počas prevádzky, a to aj vtedy, keď kamerou prechádzate po analyzovanej oblasti. Na podrobnejšie preskúmanie konkrétnych častí obrazu môžete využiť aj 15-násobný digitálny zoom. Kamera THERMAL MASTER P3 ponúka aj 12 farebných paliet, vrátane režimov „White Hot“, „Black Hot“, „Iron Red“ a „Red Hot“, ako aj 8 ďalších variantov. To vám umožňuje prispôsobiť zobrazenie obrazu konkrétnej úlohe, typu povrchu alebo vašim osobným preferenciám. Kamera umožňuje nastaviť emisiivitu, korigovať vzdialenosť a nastaviť teplotu okolia, vďaka čomu môžete merania lepšie prispôsobiť pracovným podmienkam. Tieto funkcie sú obzvlášť dôležité pri analýze rôznych materiálov a povrchov, ktoré môžu odrážať alebo vyžarovať teplo odlišným spôsobom.</p>
+<p>
+<img alt="Objektív kamery s modrými šípkami na pozadí domu so záhradou a tromi malými obrázkami obvodu, ventilátora a vtáka" border="0" src="https://assets.innpro.pl/25819/34118/5-31c44615-3d06-4a6a-be29-1ece93147218.jpg"/>
+</p><h3><strong>Široký merací rozsah pre náročné úlohy</strong></h3>
+<p>S meracím rozsahom od -20 °C do 600 °C je THERMAL MASTER P3 vhodný ako na diagnostiku elektroniky, tak aj na kontrolu inštalácií, strojov, vykurovacích prvkov a priemyselných systémov. Presnosť ±2 °C alebo ±2 % nameranej hodnoty pomáha zabezpečiť spoľahlivé výsledky pri každodennom servisnom a kontrolnom pracovaní. Kamera podporuje alarmy pre vysoké a nízke teploty, čo uľahčuje identifikáciu hodnôt mimo očakávaného rozsahu. Funkcia izotermy vám umožňuje zvýrazniť vybraný teplotný rozsah výraznou farbou, čo urýchľuje analýzu oblastí vyžadujúcich pozornosť. Telo z leteckej zliatiny zaisťuje odolnosť pri zachovaní ľahkej konštrukcie.</p>
+<p>
+<img alt="Malé obdĺžnikové kamery Thermal Master P3 pripojené k dvom smartfónom a prostredníctvom kábla k notebooku na tmavom pozadí" border="0" src="https://assets.innpro.pl/25819/34118/4-6011deb6-c256-496b-a28f-8c5d41461b67.jpg"/>
+</p><h3><strong>Inteligentné meranie a pohodlná analýza údajov</strong></h3>
+<p>Model P3 ponúka komplexné meracie nástroje, ktoré uľahčujú analýzu rôznych oblastí snímky. Môžete využívať merania pomocou 3 bodov, 3 čiar, 3 obdĺžnikov a 3 kruhov, ako aj automatické sledovanie strednej, maximálnej a minimálnej teploty. Technológia IQ+ Precision Temp využíva algoritmus dynamickej kompenzácie teplotného posunu a inteligentné meranie okolitej teploty, čím pomáha udržiavať stabilitu a presnosť nameraných hodnôt. Po zhotovení snímky je k dispozícii aj bezplatná profesionálna offline analýza údajov, ktorá je užitočná pri dokumentovaní závad a príprave správ.</p>
+<p>
+<img alt="Ruka držiaca smartfón s pripojenou kamerou Thermal Master P3 a farebný obrázok vodičov na pozadí elektrickej skrine" border="0" src="https://assets.innpro.pl/25819/34118/7-be8a6512-bbc9-419e-af25-3bfc2808ac6e.jpg"/>
+</p><h3><strong>Aplikácia Temp Master a podpora viacerých zariadení</strong></h3>
+<p>Kamera spolupracuje s aplikáciou Temp Master, ktorú si môžete stiahnuť z Google Play a App Store. Medzi podporované zariadenia patria iPhone 8–16, smartfóny s operačným systémom Android 7.0 a novším, ako aj iPady, smartfóny s Androidom a počítače. Na webovej stránke výrobcu je k dispozícii softvér pre PC, vďaka ktorému môžete pracovať nielen na cestách, ale aj na väčšej obrazovke. Model P3 podporuje 12 jazykov, zaznamenávanie fotografií a videa, ako aj režimy IR a PIP (obraz v obraze).</p>
+<p>
+<img alt="Ruky držiace smartfón s kamerou Thermal Master P3 a farebný obrázok rúrok spolu s detailným zväčšením na pozadí inštalácie" border="0" src="https://assets.innpro.pl/25819/34118/6-a5536ced-600d-4c69-9dea-8188ca86e822.jpg"/>
+</p>
+<h3>Obsah balenia</h3>
+<ul class="list-disc pl-5"><li>Termovízna kamera</li><li>Prenosné puzdro</li><li>Adaptér USB-C na Lightning</li><li>Predlžovací kábel (50 cm)</li><li>Návod na použitie</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>THERMAL MASTER</td></tr><tr><th>Model</th><td>TM-P3 Grey</td></tr><tr><th>Farba</th><td>Sivá</td></tr><tr><th>Detektor</th><td>VOx 256 × 192 pixelov (12 μm)</td></tr><tr><th>Rozlíšenie X³IR™</th><td>512 × 384 pixelov</td></tr><tr><th>Rozsah merania teploty</th><td>Od -20 °C do 600 °C</td></tr><tr><th>Presnosť merania teploty</th><td>±2 °C alebo ±2 % nameranej hodnoty</td></tr><tr><th>Ohnisková vzdialenosť</th><td>4,3 mm</td></tr><tr><th>Režim zaostrovania</th><td>Makroobjektív s manuálnym nastavením zaostrenia</td></tr><tr><th>Testovanie dosiek s plošnými spojmi</th><td>Detekcia zvodového prúdu na doskách s plošnými spojmi pri 1 mA</td></tr><tr><th>Scenáre použitia</th><td>Dosky s plošnými spojmi, elektronika, priemysel, HVAC, domáce a automobilové inšpekcie</td></tr><tr><th>Kompatibilita</th><td>Pripojenie k zariadeniam iPhone, iPad, smartfónom s operačným systémom Android a počítačom</td></tr><tr><th>Podporované operačné systémy</th><td>iOS, Android</td></tr><tr><th>Digitálny zoom</th><td>15×</td></tr><tr><th>Rýchlosť obnovovania obrazu</th><td>25 Hz</td></tr><tr><th>Tepelná citlivosť (NETD)</th><td>&lt;35 mK pri 25 °C</td></tr><tr><th>Tepelné jadro</th><td>Vysoko citlivý senzor Thermal Master</td></tr><tr><th>Razor X™</th><td>Algoritmus Ultra-Clear Image</td></tr><tr><th>IQ+ Precision Temp</th><td>Algoritmus dynamickej kompenzácie teplotného posunu s inteligentným meraním okolitej teploty</td></tr><tr><th>Meranie teploty</th><td>3 body / 3 čiary / 3 obdĺžniky / 3 kruhy, automatické sledovanie strednej, maximálnej a minimálnej teploty</td></tr><tr><th>Alarm vysokej/nízkej teploty</th><td>Podporované</td></tr><tr><th>Izoterma</th><td>Zvýraznenie vybraných teplotných rozsahov odlišnými farbami</td></tr><tr><th>Záznam fotografií a videa</th><td>Podporované</td></tr><tr><th>Bezplatná profesionálna analýza údajov</th><td>Offline analýza po zhotovení fotografie</td></tr><tr><th>Režim zobrazenia</th><td>IR (predvolené), PIP (obraz v obraze)</td></tr><tr><th>Farebné palety</th><td>12 paliet (White Hot, Black Hot, Iron Red, Red Hot a 8 ďalších)</td></tr><tr><th>Korekcia meracích parametrov</th><td>Nastavenie emisiivity, korekcia vzdialenosti a nastavenie okolitej teploty</td></tr><tr><th>Názov aplikácie</th><td>Temp Master</td></tr><tr><th>Stiahnutie aplikácie</th><td>Google Play / App Store</td></tr><tr><th>Softvér pre PC</th><td>Dostupný na www.thermalmaster.com</td></tr><tr><th>Odhadovaná výdrž batérie</th><td>300 až 480 minút (napr. Samsung Galaxy S23+ s batériou 4700 mAh – približne 367 minút prevádzky)</td></tr><tr><th>Spotreba energie</th><td>0,32 W</td></tr><tr><th>Zorné pole (FOV)</th><td>40° × 30,2°</td></tr><tr><th>Rozmery</th><td>59 × 27 × 17,2 mm</td></tr><tr><th>Hmotnosť</th><td>26,3 g</td></tr><tr><th>Materiál puzdra</th><td>Zliatina leteckej kvality</td></tr><tr><th>Prevádzková teplota</th><td>–20 °C až 55 °C</td></tr><tr><th>Skladovacia teplota</th><td>–20 °C až 60 °C</td></tr><tr><th>Podporované jazyky</th><td>12 jazykov</td></tr><tr><th>Konektor</th><td>Vyčnieva o 2 mm, kompatibilný s väčšinou puzdier na telefóny</td></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/infrateplomery-a-termokamery/">Infrateplomery a termokamery</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[THERMAL MASTER]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>096535</CODE>
+<EAN>6977658980661</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Infrateplomery a termokamery]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="TERMOVÍZNA KAMERA THERMAL MASTER P3 Mini pre iOS/Android (sivá) - obrázok 1">https://b2b.innpro.sk/hpeciai/2dd8c985250741b91146b28a162c6c72/67024_1_1.webp</IMAGE>
+  <IMAGE description="TERMOVÍZNA KAMERA THERMAL MASTER P3 Mini pre iOS/Android (sivá) - obrázok 2">https://b2b.innpro.sk/hpeciai/4238e9922df4ab52c3bc2c570c89868b/67024_2_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[THERMAL MASTER]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[sivá]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Detektor]]></NAME>
+    <VALUE><![CDATA[VOx 256 × 192 pixelov (12 μm)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozlíšenie X³IR™]]></NAME>
+    <VALUE><![CDATA[512 × 384 pixelov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah merania teploty]]></NAME>
+    <VALUE><![CDATA[Od -20 °C do 600 °C]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Presnosť merania teploty]]></NAME>
+    <VALUE><![CDATA[±2 °C alebo ±2 % nameranej hodnoty]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Ohnisková vzdialenosť]]></NAME>
+    <VALUE><![CDATA[4,3 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Režim zaostrovania]]></NAME>
+    <VALUE><![CDATA[Makroobjektív s manuálnym nastavením zaostrenia]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Podporované operačné systémy]]></NAME>
+    <VALUE><![CDATA[iOS, Android]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Digitálny zoom]]></NAME>
+    <VALUE><![CDATA[15×]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rýchlosť obnovovania obrazu]]></NAME>
+    <VALUE><![CDATA[25 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[USB-C]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.30</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
+<PRICE_VAT>269.50</PRICE_VAT>
+<PURCHASE_PRICE>190.39</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[TERMOVÍZNA KAMERA THERMAL MASTER P3 Mini pre… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[TERMOVÍZNA KAMERA THERMAL MASTER P3 Mini pre iOS/Android (sivá) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[EJEAS E1PRO Bluetooth Helmet Mounted Headphone]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[EJEAS E1PRO Bluetooth Helmet Mounted Headphone The EJEAS E1PRO is the ideal choice for motorcyclists who want reliable communication without sacrificing riding comfort and safety. Equipped with…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>EJEAS E1PRO Bluetooth Helmet Mounted Headphone</h3>
@@ -635025,10 +636186,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -636981,13 +638144,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>073486</CODE>
     <EAN>6975462650084</EAN>
-    <AVAILABILITY>Vypredané</AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
-    <VISIBILITY>detailOnly</VISIBILITY>
-  </SHOPITEM>
-  <SHOPITEM>
-    <CODE>073494</CODE>
-    <EAN>6975165000599</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -640414,7 +641570,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>Meross MRS200MA-EU – Wi-Fi navíjací mechanizmus na rolety</SEO_TITLE><META_DESCRIPTION>Inteligentný navíjací mechanizmus Meross MRS200MA-EU na rolety s Wi-Fi. Overte si kompatibilitu, napájanie a podmienky montáže.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>087768</CODE>
     <EAN>6975114120798</EAN>
@@ -640526,7 +641682,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088502</CODE>
     <EAN>5905156105713</EAN>
@@ -640694,7 +641850,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>

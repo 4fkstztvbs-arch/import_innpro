@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-13 21:44 UTC.
+Kontrola z 2026-11-14 00:24 UTC.
 
 InnPro pri **378** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -43,7 +43,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `027355` | Mopová podložka pre vysávač Dreame F9 / D9 / D9 Pro / D9 Max | — | 5 |
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
-| `029282` | Baterka Superfire S33-A – USB, čierna, 4 režimy | — | 5 |
+| `029282` | Baterka Superfire S33-A – USB, čierna, 4 režimy | — | 4 |
 | `030322` | Baseus Crystal Shine kábel USB na Lightning, 2,4A, 1,2 m (mo | — | 5 |
 | `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 4 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
@@ -180,7 +180,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
 | `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 3 |
-| `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 2 |
+| `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
 | `071869` | SUNNYLIFE propeller guard for DJI Neo (gray) | — | 4 |
 | `071859` | Sunnylife landing gear upgrade for DJI Neo (gray) | — | 5 |
 | `071860` | Sunnylife landing gear upgrade for DJI Neo (orange) | — | 5 |
@@ -304,7 +304,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `087500` | Diaľkový ovládač MOES YK2169 | — | 5 |
 | `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
-| `086450` | Filtračné čerpadlo SUNSUN JP-092 | — | 5 |
+| `086450` | Filtračné čerpadlo SUNSUN JP-092 | — | 2 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086461` | Filtračné čerpadlo SUNSUN JP-032F | — | 5 |
 | `086537` | Vnútorný filter SUNSUN HN-011 | — | 5 |
@@ -348,7 +348,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088982` | Súprava nástrojov na odstránenie fólie HTVRONT | — | 5 |
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |
 | `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
-| `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 4 |
+| `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 3 |
 | `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
 | `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
