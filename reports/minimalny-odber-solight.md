@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-14 00:20 UTC.
+Kontrola z 2026-11-14 22:59 UTC.
 
-Solight pri **498** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **500** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -325,6 +325,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PP70` | Solight predlžovací prívod, 6 zásuviek, biely, vypínač, 1,5m | 3 | 50 |
 | `DT02` | Solight časový spínač, týždeň, 1 režim | 3 | 48 |
 | `DC92` | Solight fast charger do auta 30W USB-C + A | 3 | 150 |
+| `SSC1702-S` | Solight USB-C 3.1 kábel, USB-C konektor - USB-C konektor, si | 3 | 100 |
 | `SSC1901-S` | Solight USB-C/Lightning kábel, USB-C konektor - Lightning ko | 3 | 100 |
 | `PS04` | Solight predlžovací prívod - spojka, 1 zásuvka, 5m, 3 x 1mm2 | 3 | 40 |
 | `SSC1902-S` | Solight USB-C/Lightning kábel, USB-C konektor - Lightning ko | 3 | 100 |
@@ -420,6 +421,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WW004` | Solight vodeodolná prepojovací krabička IP68, 1x vstup, 2x v | 2 | 125 |
 | `PF33` | Solight flexo šnúra, 2x 1,5mm2, gumová, čierna, 5m | 2 | 10 |
 | `WM701` | Solight sieťový adaptér pre LED pásiky, 230V - 12V, 2A, 24W, | 2 | 100 |
+| `5O10` | Solight držiak DVB-T a internetové antény na stenu, dĺžka 25 | 2 | 1 |
 | `PP04` | Solight predlžovací prívod, 3 zásuvky, biely, 5m | 2 | 40 |
 | `WL09` | Solight LED kovové svietidlo, 150lm, 3W CREE LED, čierna, fo | 2 | 48 |
 | `WM-30W-Q` | Solight LED reflektor Quick, 30W, 2550lm, 4000K, IP65, čiern | 2 | 40 |
