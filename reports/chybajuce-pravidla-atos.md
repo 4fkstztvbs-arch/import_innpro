@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-11-14 00:51 UTC.
+Kontrola z 2026-11-14 23:48 UTC.
 
 **1 ciest bez pravidla, 156 produktov bez kategórie.**
 
@@ -9,4 +9,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 156 | Budík digitální TechnoLine WT 195; Balanční senzorický polštář REBEL ACTIVE RBA-3105-BK 33 cm + pumpa, černý; LED svíčky Ruhhy 26382 15 x 5 cm; Kruger&Matz KM0818.1 internetové rádio s DAB+, Wi-Fi, Bluetooth, USB; EMOS P4537 COB LED + SMD LED nabíjecí svítilna, 330 lm, 1200 mAh |
+| `Druhy > BLACK FRIDAY` | 156 | Zásuvka EMOS A6001.1 250V dvojnásobná, bílá; Meteorologická stanice GARNI 520; Meteorologická stanice GARNI 365 Arcus s projekcí; Meteorologická stanice GARNI 545 Line; Čerpadlo zavlažovací NEDIS WIFIWP10GY SmartLife automatické Wi-Fi |
