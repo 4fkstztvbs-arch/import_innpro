@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-15 11:37 UTC.
+Kontrola z 2026-11-15 20:40 UTC.
 
-InnPro pri **387** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **386** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -311,7 +311,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `086440` | Ponorné čerpadlo SUNSUN JP-500GL | — | 5 |
 | `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
-| `086450` | Filtračné čerpadlo SUNSUN JP-092 | — | 2 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086461` | Filtračné čerpadlo SUNSUN JP-032F | — | 5 |
 | `086462` | Filtračné čerpadlo SUNSUN JP-033F | — | 5 |
