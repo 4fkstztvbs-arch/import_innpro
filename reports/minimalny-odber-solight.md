@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-14 22:59 UTC.
+Kontrola z 2026-11-15 23:24 UTC.
 
-Solight pri **500** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **499** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -306,7 +306,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PF02` | Solight flexo šnúra, 3x 1mm2, biela, 5m | 3 | 50 |
 | `PP61` | Solight predlžovací prívod, 6 zásuviek, biely, 2m | 3 | 50 |
 | `WZ5004` | Solight extra úsporná LED žiarovka 7,2 W, 1521lm, 2700K, ekv | 3 | 100 |
-| `WL918` | Solight LED solárna lampáš nástenná, teplá biela, 12x17cm, č | 3 | 48 |
 | `1V261` | Solight LED nástenná dekorácia vianočná hviezda, 24x LED, 2x | 3 | 12 |
 | `1V292` | Solight LED vianočná retiazka červená-biela, 20x LED, 1,5m,  | 3 | 48 |
 | `PP41` | Solight predlžovací prívod, 5 zásuviek, biely, 2m | 3 | 50 |
