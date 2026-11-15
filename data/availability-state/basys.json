@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 945,
+  "activeItemCount": 943,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -350,6 +350,11 @@
     {
       "key": "code:BASYS-BD 484679",
       "code": "BASYS-BD 484679",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-BD 491322",
+      "code": "BASYS-BD 491322",
       "ean": ""
     },
     {
@@ -1188,11 +1193,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-TS-W32S4",
-      "code": "BASYS-TS-W32S4",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-TS-WX010A",
       "code": "BASYS-TS-WX010A",
       "ean": ""
@@ -1443,11 +1443,6 @@
       "ean": "0017817739887"
     },
     {
-      "key": "ean:0017817739894",
-      "code": "BASYS-B 768932-2210",
-      "ean": "0017817739894"
-    },
-    {
       "key": "ean:0017817745918",
       "code": "BASYS-B 772130-0010",
       "ean": "0017817745918"
@@ -1486,11 +1481,6 @@
       "key": "ean:0017817778022",
       "code": "BASYS-B 785491-0110",
       "ean": "0017817778022"
-    },
-    {
-      "key": "ean:0017817783521",
-      "code": "BASYS-B 789175-0010",
-      "ean": "0017817783521"
     },
     {
       "key": "ean:0017817785976",
@@ -4920,6 +4910,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-TS-W32S4",
+      "code": "BASYS-TS-W32S4",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-TS-W3820PRO",
       "code": "BASYS-TS-W3820PRO",
       "ean": ""
@@ -4955,9 +4950,19 @@
       "ean": "0017817739757"
     },
     {
+      "key": "ean:0017817739894",
+      "code": "BASYS-B 768932-2210",
+      "ean": "0017817739894"
+    },
+    {
       "key": "ean:0017817752541",
       "code": "BASYS-B 772045-0110",
       "ean": "0017817752541"
+    },
+    {
+      "key": "ean:0017817783521",
+      "code": "BASYS-B 789175-0010",
+      "ean": "0017817783521"
     },
     {
       "key": "ean:0017817803724",
