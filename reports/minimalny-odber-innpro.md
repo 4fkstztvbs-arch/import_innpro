@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-15 20:40 UTC.
+Kontrola z 2026-11-15 23:28 UTC.
 
-InnPro pri **386** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -159,7 +159,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `068805` | Mini Bag PULUZ for DJI Osmo Pocket 3 (Black) | — | 5 |
 | `068803` | Mini Body Bag PULUZ For DJI Osmo Action 5 Pro / 4 / 3 (Black | — | 5 |
 | `068808` | Mini Body Bag PULUZ For Insta360 GO 3 / GO 3S (Black) | — | 5 |
-| `069434` | TELESIN tempered glass for DJI Osmo Pocket 3 | — | 4 |
+| `069434` | TELESIN tempered glass for DJI Osmo Pocket 3 | — | 5 |
 | `068238` | Silicone stand PULUZ for Insta360 X4 camera | — | 5 |
 | `067688` | Frame for switch M5 80 quadruple 4-fold SONOFF M5-4C-80-FW ( | — | 5 |
 | `067687` | Frame for switch M5 80 triple 3-fold SONOFF M5-3C-80-FW (whi | — | 5 |
@@ -331,7 +331,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088946` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm x 90 cm | — | 5 |
 | `088947` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
 | `088948` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
-| `088949` | HTVRONT Chameleon – fólia na termotransfer, 30,5 cm x 90 cm  | — | 5 |
 | `088952` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |
 | `088953` | Holografická samolepiaca fólia HTVRONT, 30,5 cm × 90 cm (tyr | — | 5 |
 | `088954` | Holografická samolepiaca fólia HTVRONT, 30,5 cm x 90 cm (ruž | — | 5 |

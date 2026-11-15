@@ -10891,6 +10891,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -60043,6 +60044,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -104837,10 +104839,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -128529,6 +128533,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -140174,10 +140179,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.60</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -147182,6 +147189,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -147277,6 +147285,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -152304,6 +152313,7 @@ Ako vám ešte LS02 Pro uľahčia život? Pripojte ho k telefónu prostredníctv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -168750,7 +168760,7 @@ Obsah balenia
 <UNIT>ks</UNIT>
 <CODE>069434</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6974944462177</EAN>
 <CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
@@ -178183,14 +178193,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -189457,6 +189467,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -200552,6 +200563,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -201077,14 +201089,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -237010,6 +237022,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -242213,6 +242226,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -262291,6 +262305,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -291665,10 +291680,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -304515,6 +304532,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -304591,6 +304609,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -317907,10 +317926,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>244.00</PRICE_VAT>
 <PURCHASE_PRICE>172.50</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -344183,127 +344204,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Creality Falcon AP1 odsávač dymu – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Lampa na monitor Yeelight Aries 250lm / CRI Ra95]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Monitorovacia lampa Yeelight Aries 250lm / CRI Ra95 Yeelight Aries je funkčná lampa na monitor navrhnutá pre pohodlie pri obrazovke. Ponúka jas až 250 lm, vysoký index podania farieb CRI Ra95 a…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Monitorovacia lampa Yeelight Aries 250lm / CRI Ra95</h3>
-<p>Yeelight Aries je funkčná lampa na monitor navrhnutá pre pohodlie pri obrazovke. Ponúka jas až 250 lm, vysoký index podania farieb CRI Ra95 a nastaviteľnú teplotu farieb (od 2700 K do 6500 K). Zároveň sa veľmi ľahko inštaluje. Vďaka 78 špičkovým LED diódam poskytuje rovnomerné, prirodzené osvetlenie pracovného priestoru, vhodné na prácu, štúdium a každodenné používanie počítača.</p>
-<p>
-<img alt="Monitor so svetelnou lampou počas videokonferencie, na obrazovke sa zobrazuje žena a rozhovor zo stretnutia" border="0" src="https://assets.innpro.pl/19227/25636/Lampa-na-monitor-Yeelight-Aries-lifestyle-1.jpg"/>
-</p><h3>Účinná ochrana očí a žiadne oslnenie</h3>
-<p>Lampa znižuje vyžarovanie škodlivého modrého svetla, čo potvrdzuje certifikát RG0. Okrem toho technológia redukujúca blikanie znižuje únavu očí počas dlhých hodín práce a asymetrický uhol osvetlenia 45° zabezpečuje, že osvetlenie smeruje len na dosku stola a neoslňuje. Takéto riešenie znižuje odrazy od obrazovky a zlepšuje čitateľnosť obrazu, čím zabezpečuje pohodlie aj počas dlhodobého používania monitora.</p>
-<p>
-<img alt="Stolová lampa so svetelnou lištou namontovaná na hornom okraji monitora, ktorá osvetľuje stenu pod uhlom" border="0" src="https://assets.innpro.pl/19227/25636/Lampa-na-monitor-Yeelight-Aries-lifestyle-2.jpg"/>
-</p><h3>Nastaviteľné svetlo podľa vašich potrieb</h3>
-<p>Yeelight Aries umožňuje plynulé nastavenie jasu a teploty farieb v rozsahu 2700-6500 K. K dispozícii máte aj tri prednastavené režimy jedným dotykom - ideálne na prácu, čítanie alebo odpočinok. Navyše zabudovaná pamäťová funkcia automaticky obnoví naposledy použité nastavenia, keď lampu opäť zapnete, čo zvyšuje pohodlie pri každodennom používaní.</p>
-<p>
-<img alt="Muž sediaci pred počítačom iMac s lampou namontovanou na hornom okraji obrazovky v tmavej miestnosti" border="0" src="https://assets.innpro.pl/19227/25636/Lampa-na-monitor-Yeelight-Aries-lifestyle-3.jpg"/>
-</p><h3>Prirodzené farby</h3>
-<p>Vysoký index CRI Ra95 zaručuje vernú reprodukciu farieb a detailov, vďaka čomu je osvetlenie vhodné aj na kreatívnu prácu, dizajn alebo úpravu grafiky. Svetlo je rovnomerné a dobre rozptýlené, čo znižuje tiene a zvyšuje komfort pri sledovaní.</p>
-<p>
-<img alt="Monitor s podsvietením od hornej lampy, zobrazujúci porovnanie farieb pred a po korekcii farieb" border="0" src="https://assets.innpro.pl/19227/25636/Lampa-na-monitor-Yeelight-Aries-lifestyle-6.jpg"/>
-</p><h3>Dotykové ovládanie a solídne spracovanie</h3>
-<p>Lampa je vybavená citlivým dotykovým panelom, ktorý umožňuje pohodlné nastavenie jasu, zmenu teploty farieb a rýchle zapnutie a vypnutie svetla. Kovové puzdro sa vyznačuje odolnosťou a účinným rozptylom tepla a elegantná povrchová úprava dobre ladí s modernou pracovnou stanicou.</p>
-<p>
-<img alt="Zakrivený ultraširokouhlý monitor s horným svetlom, zobrazujúci horskú krajinu za súmraku" border="0" src="https://assets.innpro.pl/19227/25636/Lampa-na-monitor-Yeelight-Aries-lifestyle-4.jpg"/>
-</p><h3>Jednoduchá inštalácia a úspora miesta</h3>
-<p>Držiak s protišmykovou silikónovou podložkou umožňuje stabilnú montáž lampy na monitory s hrúbkou od 10 mm do 28 mm - nepotrebujete na to žiadne náradie. Aries bude dobre fungovať aj pri zakrivených obrazovkách. Kompaktný dizajn šetrí miesto na pracovnom stole a nízkoprofilové vyhotovenie zabezpečuje, že zariadenie nebráni webovej kamere, čo uľahčuje videokonferencie. Lampu navyše napája priložený 1,5m kábel USB-C. Premyslený dizajn znižuje počet káblov na stole a zachováva estetický, upravený vzhľad pracovnej stanice.</p>
-<p>
-<img alt="Osoba držiaca smartfón s pohľadom na počítačovú stanicu s monitorom a lampou" border="0" src="https://assets.innpro.pl/19227/25636/Lampa-na-monitor-Yeelight-Aries-lifestyle-5.jpg"/>
-</p>
-<h3>Priložené</h3>
-<ul class="list-disc pl-5"><li>Lampa na monitor</li><li>Kábel USB-C</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Yeelight</td></tr><tr><th>Názov</th><td>Yeelight Monitor Light Bar Aries</td></tr><tr><th>Model</th><td>YLYTD-0037</td></tr><tr><th>Jas</th><td>250 lm</td></tr><tr><th>Index podania farieb (CRI)</th><td>Ra95</td></tr><tr><th>Teplota farieb</th><td>2700-6500 K</td></tr><tr><th>Počet LED diód</th><td>78</td></tr><tr><th>Menovitý výkon</th><td>4,5 W (78 x 0,2 W / LED modul)</td></tr><tr><th>Menovitý vstupný prúd</th><td>5 V = 1 A</td></tr><tr><th>Ovládanie</th><td>Dotykové ovládanie</td></tr><tr><th>Napájanie</th><td>USB-C</td></tr><tr><th>Dĺžka kábla</th><td>1,5 m</td></tr><tr><th>Uhlopriečka kompatibilných monitorov</th><td>13,8-24"</td></tr><tr><th>Hrúbka kompatibilných monitorov</th><td>10-28 mm</td></tr><tr><th>Prevádzková vlhkosť</th><td>0-85 % RELATÍVNA VLHKOSŤ</td></tr><tr><th>Rozmery</th><td>430 x 100 x 73 mm</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76761_56959_pol_c7bada7c55691a193da0d91d8d65e392" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/herne-prislusenstvo-3/">Herné príslušenstvo pre PC</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[YEELIGHT]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>081222</CODE>
-<EAN>6924922259374</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Lampa na monitor Yeelight Aries 250lm / CRI Ra95">https://b2b.innpro.sk/hpeciai/c701d694e9bc5db6140994255ec12b5a/56959_1.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[YEELIGHT]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Jas]]></NAME>
-    <VALUE><![CDATA[250 lm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Index podania farieb (CRI)]]></NAME>
-    <VALUE><![CDATA[Ra95]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Teplota farieb]]></NAME>
-    <VALUE><![CDATA[2700-6500 K]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Počet LED diód]]></NAME>
-    <VALUE><![CDATA[78]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Menovitý výkon]]></NAME>
-    <VALUE><![CDATA[4,5 W (78 x 0,2 W / LED modul)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Menovitý vstupný prúd]]></NAME>
-    <VALUE><![CDATA[5 V = 1 A]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Ovládanie]]></NAME>
-    <VALUE><![CDATA[Dotykové ovládanie]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Napájanie]]></NAME>
-    <VALUE><![CDATA[USB-C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Dĺžka kábla]]></NAME>
-    <VALUE><![CDATA[1,5 m]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Uhlopriečka kompatibilných monitorov]]></NAME>
-    <VALUE><![CDATA[13,8-24"]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[USB-C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.53</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>20.50</PRICE_VAT>
-<PURCHASE_PRICE>14.40</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Lampa na monitor Yeelight Aries 250lm / CRI Ra95 | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Lampa na monitor Yeelight Aries 250lm / CRI Ra95 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Lampa na monitor Yeelight Aries Pro 250lm / CRI Ra95]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Monitorovacia lampa Yeelight Aries Pro 250lm / CRI Ra95 Yeelight Aries Pro je praktická monitorovacia lampa, ktorá kombinuje skvelú kvalitu osvetlenia s pohodlným ovládaním. Poskytuje jas až 250 lm,…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Monitorovacia lampa Yeelight Aries Pro 250lm / CRI Ra95</h3>
@@ -366904,6 +366804,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -377455,105 +377356,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Uni-T UT210B Mini digitálny klešťový multimeter – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Presný klešťový multimeter Uni-T 60A UT211B]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Presný klešťový multimeter Uni-T 60A UT211B Uni-T UT211B je kompaktný klešťový multimeter určený na presné merania v elektronike, fotovoltaických systémoch a obvodoch elektrických vozidiel. Prístroj…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Presný klešťový multimeter Uni-T 60A UT211B</h3>
-<p>Uni-T UT211B je kompaktný klešťový multimeter určený na presné merania v elektronike, fotovoltaických systémoch a obvodoch elektrických vozidiel. Prístroj meria striedavý a jednosmerný prúd do 60 A, striedavé a jednosmerné napätie do 600 V, odpor do 60 MΩ a kapacitu do 62 mF, pričom rozlíšenie merania striedavého prúdu 0,01 A umožňuje pohodlné sledovanie aj malých hodnôt. Funkcia True RMS, automatické prepínanie rozsahov a maximálny rozsah merania 6000 zvyšujú presnosť a pohodlie pri každodennej práci, zatiaľ čo kompaktné puzdro je vhodné aj pre stiesnené a ťažko prístupné priestory.</p>
-<p>
-<img alt="Klešťový multimeter UNI-T v rukách elektrikára pri testovaní modulov ABB v rozvádzači." border="0" src="https://assets.innpro.pl/21062/27935/2.jpg"/>
-</p><h3>Funkcie, ktoré zvyšujú pohodlie a bezpečnosť</h3>
-<p>UT211B je vybavený funkciami VFC, bezkontaktnou detekciou napätia (NCV), režimom Zero, testom diód, bzučiakom pri meraní spojitosti a funkciou Data Hold, ktoré uľahčujú diagnostiku rôznych elektrických obvodov. Podsvietený displej zlepšuje viditeľnosť výsledkov v slabo osvetlených priestoroch, zatiaľ čo funkcia automatického vypnutia, indikátor nízkeho stavu batérie a ochrana vstupu zvyšujú komfort a bezpečnosť pri používaní. Ľahká konštrukcia s hmotnosťou 170 g spolu s priloženými meracími káblami a batériami znamená, že meradlo je pripravené na použitie ihneď po vybalení z krabice.</p>
-<p>
-<img alt="Klešťový multimeter UNI-T pripevnený na kábel v rozvádzači, zobrazujúci namerané hodnoty na displeji." border="0" src="https://assets.innpro.pl/21062/27935/1.jpg"/>
-</p>
-<h3>Súčasť balenia</h3>
-<ul class="list-disc pl-5"><li>Klešťový multimeter</li><li>Batérie x2</li><li>Meracie káble</li><li>Puzdro na prenášanie</li><li>Návod na použitie</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3>Špecifikácie</h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Uni-T</td></tr><tr><th>Model</th><td>UT211B</td></tr><tr><th>Typ</th><td>Presný klešťový multimeter</td></tr><tr><th>Striedavý prúd</th><td>60 A ±(2,0 % + 5)</td></tr><tr><th>Rozlíšenie striedavého prúdu</th><td>0,01 A</td></tr><tr><th>Jednosmerný prúd</th><td>60 A ±(2 % + 3)</td></tr><tr><th>Striedavé napätie</th><td>600 V ±(0,8 % + 3)</td></tr><tr><th>Jednosmerné napätie</th><td>600 V ±(0,7 % + 3)</td></tr><tr><th>Odpor</th><td>60 MΩ ±(0,8 % + 2)</td></tr><tr><th>Kapacita</th><td>62 mF ±(4 % + 5)</td></tr><tr><th>Maximálna hodnota</th><td>6000</td></tr><tr><th>Funkcie</th><td>True RMS, NCV, VFC, režim nulovania, test diód, test spojitosti, Data Hold, podsvietenie LCD, automatické vypnutie, indikátor nízkeho stavu batérie, ochrana vstupu, bzučiak spojitosti, automatické prepínanie rozsahu</td></tr><tr><th>Vstupná impedancia pre DCV</th><td>≥10 MΩ</td></tr><tr><th>Napájanie</th><td>2 batérie 1,5 V (R03)</td></tr><tr><th>Rozmery displeja</th><td>39,3 mm x 26,5 mm</td></tr><tr><th>Hmotnosť</th><td>170 g</td></tr><tr><th>Rozmery</th><td>175 mm x 60 mm x 33,5 mm</td></tr><tr><th>Farba</th><td>Červená a sivá</td></tr><tr><th>Certifikáty</th><td>CE, UKCA, cETLus</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kliestove-merace/">Kliešťové merače</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[UNI-T]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>084917</CODE>
-<EAN>6935750522110</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače > Kliešťové merače]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Meracia technika > Multimetre a kliešťové merače]]></CATEGORY></CATEGORIES>
-<HEUREKA_CATEGORY_ID>3762</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Presný klešťový multimeter Uni-T 60A UT211B">https://b2b.innpro.sk/hpeciai/ccea05f881e557602c977b54ff72463b/57910_1.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[UNI-T]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ]]></NAME>
-    <VALUE><![CDATA[Presný klešťový multimeter]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Striedavý prúd]]></NAME>
-    <VALUE><![CDATA[60 A ±(2,0 % + 5)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozlíšenie striedavého prúdu]]></NAME>
-    <VALUE><![CDATA[0,01 A]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Jednosmerný prúd]]></NAME>
-    <VALUE><![CDATA[60 A ±(2 % + 3)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Striedavé napätie]]></NAME>
-    <VALUE><![CDATA[600 V ±(0,8 % + 3)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Jednosmerné napätie]]></NAME>
-    <VALUE><![CDATA[600 V ±(0,7 % + 3)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Odpor]]></NAME>
-    <VALUE><![CDATA[60 MΩ ±(0,8 % + 2)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Kapacita]]></NAME>
-    <VALUE><![CDATA[62 mF ±(4 % + 5)]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálna hodnota]]></NAME>
-    <VALUE><![CDATA[6000]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Vstupná impedancia pre DCV]]></NAME>
-    <VALUE><![CDATA[≥10 MΩ]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.32</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
-<PRICE_VAT>119.00</PRICE_VAT>
-<PURCHASE_PRICE>84.29</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Presný klešťový multimeter Uni-T 60A UT211B | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Presný klešťový multimeter Uni-T 60A UT211B – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Digitálny klešťový multimeter Uni-T 400A 2. generácie UT213A]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Digitálny klešťový multimeter Uni-T UT213A 2. generácie s rozsahom 400 A Digitálny klešťový multimeter Uni-T UT213A je prístroj s rozsahom 400 A určený pre elektrikárov a technikov v oblasti HVAC/R,…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Digitálny klešťový multimeter Uni-T UT213A 2. generácie s rozsahom 400 A</h3>
@@ -382170,6 +381972,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -394183,6 +393986,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -394273,6 +394077,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -400745,6 +400550,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -404691,6 +404497,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -415749,6 +415556,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -443090,6 +442898,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -452246,7 +452055,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -458420,14 +458232,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -482986,6 +482802,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -484214,9 +484031,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088949</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6976230001046</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu]]></CATEGORY>
@@ -485009,6 +484823,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -486480,6 +486295,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -486797,6 +486613,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -511733,10 +511550,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -523577,10 +523396,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>27.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -525139,10 +524960,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -526602,14 +526425,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -590857,6 +590683,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -609076,132 +608903,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Webová kamera OBSBOT Meet Flip AI 4K | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Webová kamera OBSBOT Meet Flip AI 4K – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Router GL.iNet Flint 3e Wi-Fi 7]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Sieťové zariadenie GL.iNet GL-BE6500 GL.iNet GL-BE6500 je dual-band Wi-Fi 7 router určený na použitie v komplexných domácich sieťach, malých a stredných podnikoch a pre profesionálov, ktorí používajú…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Sieťové zariadenie GL.iNet GL-BE6500</h3>
-<p>GL.iNet GL-BE6500 je dual-band Wi-Fi 7 router určený na použitie v komplexných domácich sieťach, malých a stredných podnikoch a pre profesionálov, ktorí používajú viacero zariadení súčasne. Ponúka celkovú bezdrôtovú rýchlosť až 6 500 Mb/s — 688 Mb/s v pásme 2,4 GHz a 5 764 Mb/s v pásme 5 GHz — pričom päť 2,5G ethernetových portov vám umožňuje využívať vysokorýchlostné pripojenia aj v káblových sieťach. Podpora viac ako 100 zariadení, pokrytie plochy až približne 232 m², technológia MLO, Multi-WAN a rozsiahle funkcie VPN robia tento model vhodným pre inteligentné domácnosti, kancelárie a pokročilejšie sieťové prostredia. Štvorjadrový procesor Qualcomm s frekvenciou 1,5 GHz, 1 GB pamäte DDR4 a systém založený na OpenWrt tvoria základ pre spracovanie zložitých konfigurácií a viacerých simultánnych pripojení.</p>
-<p>
-<img alt="Čierny router so štyrmi anténami stojí na polici v serverovej skrinke pred zapnutým monitorom" border="0" src="https://assets.innpro.pl/24237/31869/1_ai-50e8505f-6e34-4b02-bca8-e17bdb2d6e72.jpg"/>
-</p><h3>Wi-Fi 7 pre rýchlu a stabilnú sieť</h3>
-<p>Štandard Wi-Fi 7 spolu s technológiami MLO, 4K QAM, Multi-RU Puncturing a Preamble Puncturing umožňuje efektívne využitie dostupnej šírky pásma aj pri veľkom počte aktívnych zariadení. Technológia MLO využíva pásma 2,4 GHz aj 5 GHz, čím zvyšuje stabilitu pripojenia, znižuje latenciu a zlepšuje využitie šírky pásma, zatiaľ čo technológia 4K QAM umožňuje prenos väčšieho množstva dát a dosahuje rýchlosti až o 20 % vyššie. Technológia Multi-RU Puncturing optimalizuje prideľovanie šírky pásma medzi viacerých používateľov, zatiaľ čo Preamble Puncturing minimalizuje vplyv rušenia. Vďaka tomu je tento router ideálny na streamovanie v rozlíšení 8K, online hranie hier, videokonferencie, sťahovanie veľkých súborov a využívanie technológií VR a AR. Štyri sklopné vonkajšie antény a šesť vysokovýkonných modulov FEM zosilňujú signál a zvyšujú odolnosť voči rušeniu, čím zabezpečujú pokrytie až približne 232 m². Model GL-BE6500 dokáže súčasne podporovať viac ako 100 zariadení.</p><h3>Päť portov 2,5G – vychutnajte si vysokorýchlostné pripojenie aj cez kábel</h3>
-<p>Päť ethernetových portov 2,5G vám umožňuje využiť vysokorýchlostné káblové pripojenie medzi routerom a počítačmi, NAS servermi, hernými konzolami, pracovnými stanicami alebo kamerami. Model GL.iNet GL-BE6500 ponúka jeden port 2,5G WAN a štyri porty 2,5G LAN, ktoré podporujú rýchlosti 10/100/1000/2500 Mb/s, pričom port LAN1 je možné nakonfigurovať tak, aby fungoval ako druhý port WAN. Router tiež podporuje funkcie Multi-WAN, failover a vyvažovanie zaťaženia, čo mu umožňuje využívať viacero internetových zdrojov a automaticky prejsť na záložné pripojenie v prípade výpadku primárneho pripojenia. Medzi dostupné spôsoby pripojenia patria Ethernet WAN, Wi-Fi opakovač, USB tethering a mobilné siete, čo zvyšuje flexibilitu konfigurácie a pomáha udržať prístup k internetu v prípade problémov s niektorým z pripojení.</p>
-<p>
-<img alt="Čierny router GL.iNet so štyrmi anténami a pripojeným pevným diskom stojí na tmavej pracovnej doske" border="0" src="https://assets.innpro.pl/24237/31869/2_ai-f97699b2-5a81-40f9-938e-e9e5fe38ce6a.jpg"/>
-</p><h3>VPN pre súkromie, prácu na diaľku a prístup k sieti</h3>
-<p>Rozsiahla podpora VPN vám umožňuje chrániť prevádzku celej vašej siete bez nutnosti individuálnej konfigurácie každého počítača, telefónu alebo iného zariadenia. Model GL-BE6500 funguje ako klient aj ako server pre protokoly WireGuard a OpenVPN, podporuje viac ako 30 služieb VPN a ponúka smerovanie na základe pravidiel a podporu siete Tor. WireGuard dosahuje rýchlosti až 1 100 Mbps, zatiaľ čo OpenVPN s podporou DCO dosahuje rýchlosť až 680 Mbps, čo vám umožňuje používať šifrované pripojenie aj pri náročnejších úlohách. Používatelia si môžu zvoliť režim Global Mode na smerovanie celej siete cez jediný VPN tunel alebo režim Policy Mode na nastavenie samostatných pravidiel pripojenia pre konkrétne zariadenia a aplikácie. Tieto funkcie sú obzvlášť užitočné pri práci na diaľku, pri používaní verejných sietí, pri vzdialenom prístupe k vlastným zdrojom alebo pri vytváraní samostatných pravidiel pripojenia pre zariadenia používané na prácu, zábavu a každodenné prehliadanie webu.</p><h3>OpenWrt ponúka rozsiahle možnosti konfigurácie</h3>
-<p>GL-BE6500 beží na systéme založenom na OpenWrt 23.05 s jadrom 5.4.213 a podporuje viac ako 5 000 doplnkov, vďaka čomu je nielen vysokovýkonným routerom pre každodenné použitie, ale aj základom pre pokročilejšiu infraštruktúru. K dispozícii sú režimy smerovača, prístupového bodu, extenderu a WDS a pripojenie k internetu je možné zriadiť cez Ethernet, opakovač, tethering alebo mobilnú sieť. Zariadenie okrem iného podporuje DHCP, statické IP adresy, PPPoE, dynamické DNS, IPv6, presmerovanie portov, DMZ, rezerváciu IP adries, Drop-in Gateway, ZeroTier a Tailscale. Možnosti bezdrôtovej konfigurácie zahŕňajú siete 2,4 GHz, 5 GHz a MLO, izoláciu hosťovskej siete, úpravu a skrytie SSID, nastavenie vysielacieho výkonu a náhodné BSSID. Vďaka týmto funkciám je možné zariadenie GL-BE6500 prispôsobiť rôznym aplikáciám – od rozsiahlej domácej siete a malej kancelárie až po prostredie s NAS serverom alebo domácou laboratóriou.</p>
-<p>
-<img alt="Čierny router stojí na počítačovom stole pod modrým osvetlením, obklopený grafickými ikonami" border="0" src="https://assets.innpro.pl/24237/31869/3_ai-35df3123-7984-403f-b6bd-9dcd26e93305.jpg"/>
-</p><h3>USB 3.0 a flexibilné využitie routera</h3>
-<p>Port USB 3.0 typu A vám umožňuje používať GL-BE6500 na ďalšie sieťové úlohy. Umožňuje zdieľanie súborov a tlačiarní, vzdialené načítavanie údajov a tethering cez 4G/5G, a ak je pripojené úložné zariadenie, router môže fungovať ako odľahčený domáci NAS alebo mediálny server. To uľahčuje ukladanie a zdieľanie súborov medzi zariadeniami, ako aj streamovanie médií v rámci siete. Systém založený na OpenWrt tiež umožňuje využiť router v domácej laboratóriu, a to aj na prácu s virtuálnymi laboratóriami, kontajnermi Docker a vašimi vlastnými sieťovými projektmi.</p><h3>Väčšia kontrola nad bezpečnosťou domácej siete</h3>
-<p>Vstavaná aplikácia AdGuard Home pomáha blokovať reklamy a sledovacie nástroje, ako aj chrániť pred phishingom a škodlivým softvérom, čím zabezpečuje, že bezpečnostné opatrenia pokrývajú zariadenia v celej sieti. Rodičia majú k dispozícii aj lokálnu rodičovskú kontrolu a riešenie Bark, dostupné prostredníctvom aplikácie GL.iNet a webového administrátorského panela. Bezplatný plán Bark Home vám okrem iného umožňuje nastaviť harmonogramy prístupu k internetu, filtrovať webové stránky a spravovať online aktivitu. Izolácia hosťovskej siete vám medzitým umožňuje oddeliť zariadenia návštevníkov od zvyšku infraštruktúry. Tieto funkcie sú obzvlášť užitočné v domácnosti, kde deti, dospelí, inteligentné televízory, telefóny a zariadenia IoT zdieľajú jednu sieť, ale sú cenné aj v malej kancelárii, ktorá vyžaduje väčšiu kontrolu nad spôsobom využívania pripojenia.</p>
-<p>
-<img alt="Čierny router so štyrmi anténami stojí na drevenom stole vedľa herného ovládača a slúchadiel" border="0" src="https://assets.innpro.pl/24237/31869/4_ai-04844672-5bca-4d8e-8a43-6f8b6fc6bf46.jpg"/>
-</p><h3>Jednoduchšia lokálna a vzdialená správa</h3>
-<p>Rozsiahle možnosti konfigurácie modelu GL-BE6500 idú ruka v ruke s praktickými nástrojmi na správu siete. Základnú konfiguráciu a monitorovanie siete je možné vykonávať prostredníctvom aplikácie GL.iNet, ktorá vám okrem iného umožňuje rýchlo nastaviť zariadenie, skontrolovať jeho aktuálny stav a pripojených klientov a vzdialene spravovať nastavenia. Náročnejší používatelia môžu využiť webový administračný panel, prístupný z počítača alebo mobilného prehliadača, aby získali presnejšiu kontrolu nad sieťou, VPN, firewallom a pripojenými zariadeniami. Na správu siete je možné použiť aj službu GoodCloud, ktorá umožňuje vzdialenú konfiguráciu, monitorovanie v reálnom čase a hromadné aktualizácie pre viaceré zariadenia alebo lokality. Model GL-BE6500 podporuje aj službu AstroWarp. Pravidelné aktualizácie firmvéru poskytujú prístup k novým funkciám a vylepšeniam v oblasti výkonu a bezpečnosti.</p><h3>Vysoko výkonné komponenty v kompaktnom dizajne</h3>
-<p>Široké funkcie modelu GL-BE6500 zabezpečuje štvorjadrový procesor Qualcomm s frekvenciou 1,5 GHz v kombinácii s 1 GB pamäte DDR4 a 512 MB pamäte NAND flash. Router je vybavený štyrmi sklopnými externými Wi-Fi anténami a dvojfarebným LED indikátorom (modrý a biely); jeho rozmery sú 240 × 157 × 74 mm a hmotnosť 848 g. Napájanie je zabezpečené cez konektor DC5521 12 V / 3 A a spotreba energie je menej ako 25 W bez USB zaťaženia a menej ako 36 W s USB zaťažením. Rozsah prevádzkových teplôt je od 0 °C do 40 °C a prípustná vlhkosť vzduchu je 5 % až 95 % bez kondenzácie. Zariadenie je tiež vybavené tlačidlom Reset, ktoré – v závislosti od dĺžky stlačenia – môže obnoviť pôvodné sieťové nastavenia alebo továrenské nastavenia.</p>
-<p>
-<img alt="" border="0" src="https://assets.innpro.pl/24237/31869/5_ai-e88eef90-a4cc-471d-9b2e-59d1dee130a2.jpg"/>
-</p><h3>Jedno zariadenie pre domáce, kancelárske aj pokročilejšie siete</h3>
-<p>Vďaka Wi-Fi 7, piatim portom 2,5G, funkcii Multi-WAN, pokročilej VPN, systému OpenWrt a podpore viac ako 100 zariadení spĺňa model GL-BE6500 požiadavky, ktoré ďaleko presahujú jednoduché poskytovanie prístupu k internetu. V malom podniku dokáže súčasne podporovať pracovné stanice, tlačiarne, kamery a ďalšie zariadenia, pričom možnosť využiť záložné pripojenie pomáha minimalizovať výpadky. Doma môže slúžiť ako centrum rozsiahlej siete inteligentnej domácnosti, poskytujúcej pokrytie až do približne 232 m², rodičovskú kontrolu a ochranu AdGuard Home. Pokročilí používatelia zase môžu využiť vysokorýchlostné porty pre NAS a funkcie OpenWrt pre svoje vlastné projekty, ako aj používať VPN, GoodCloud, AstroWarp, ZeroTier a Tailscale. Vďaka tomu vám GL-BE6500 umožňuje vybudovať rýchlu, flexibilnú a robustnú infraštruktúru bez obetovania funkcií užitočných pre každodenné použitie.</p>
-<h3>Obsah balenia</h3>
-<ul class="list-disc pl-5"><li>Router GL.iNet GL-BE6500</li><li>Napájací adaptér</li><li>Ethernetový kábel</li><li>Prevodník</li><li>Návod na použitie</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>GL.iNet</td></tr><tr><th>Model</th><td>GL-BE6500</td></tr><tr><th>Wi-Fi štandard</th><td>IEEE 802.11 a/b/g/n/ac/ax/be</td></tr><tr><th>Rýchlosť Wi-Fi v pásme 2,4 GHz</th><td>688 Mb/s</td></tr><tr><th>Rýchlosť Wi-Fi v pásme 5 GHz</th><td>5764 Mb/s</td></tr><tr><th>Celková rýchlosť Wi-Fi</th><td>Až 6500 Mb/s</td></tr><tr><th>Technológie Wi-Fi 7</th><td>MLO, 4K QAM, Multi-RU Puncturing, Preamble Puncturing</td></tr><tr><th>Procesor</th><td>Qualcomm, štvorjadrový, 1,5 GHz</td></tr><tr><th>RAM</th><td>1 GB DDR4</td></tr><tr><th>Pamäť NAND</th><td>512 MB</td></tr><tr><th>Ethernetové porty</th><td>5 × 2,5G, 10/100/1000/2500 Mb/s</td></tr><tr><th>WAN port</th><td>1 × 2,5G</td></tr><tr><th>Porty LAN</th><td>4 × 2,5G, port LAN1 možno prepnúť na WAN</td></tr><tr><th>Port USB</th><td>1 × USB 3.0 typu A</td></tr><tr><th>Antény</th><td>4 × sklopné externé Wi-Fi antény</td></tr><tr><th>Moduly FEM</th><td>6 × vysokovýkonných modulov FEM</td></tr><tr><th>Podporovaný počet zariadení</th><td>Viac ako 100, testované v laboratórnych podmienkach</td></tr><tr><th>Pokrytie</th><td>Až 2 500 ft², približne 232 m²</td></tr><tr><th>Operačný systém</th><td>OpenWrt 23.05</td></tr><tr><th>Verzia jadra</th><td>5.4.213</td></tr><tr><th>Firmware</th><td>SDK v4.8</td></tr><tr><th>Podpora doplnkov</th><td>Viac ako 5 000</td></tr><tr><th>Sieťové režimy</th><td>Router, prístupový bod, extender, WDS</td></tr><tr><th>Režimy ethernetového pripojenia</th><td>DHCP, statická IP adresa, PPPoE</td></tr><tr><th>Spôsoby pripojenia k internetu</th><td>Ethernet, opakovač, tethering, mobilná sieť</td></tr><tr><th>Multi-WAN</th><td>Áno</td></tr><tr><th>Failover</th><td>Áno</td></tr><tr><th>Vyvažovanie zaťaženia</th><td>Áno</td></tr><tr><th>VPN</th><td>OpenVPN, WireGuard, smerovanie podľa pravidiel, Tor</td></tr><tr><th>OpenVPN</th><td>Klient a server, DCO, až 680 Mb/s</td></tr><tr><th>WireGuard</th><td>Klient a server, až 1 100 Mb/s</td></tr><tr><th>Podpora služieb VPN</th><td>Viac ako 30</td></tr><tr><th>Cloudové služby</th><td>GoodCloud, AstroWarp</td></tr><tr><th>Funkcie systému</th><td>Dynamické DNS, AdGuard Home, rodičovská kontrola, ZeroTier, Tailscale, presmerovanie portov, DMZ, rezervácia IP adries, IPv6, Drop-in Gateway</td></tr><tr><th>Konfigurácia Wi-Fi</th><td>2,4 GHz, 5 GHz, MLO Wi-Fi</td></tr><tr><th>Hosťovská sieť</th><td>Izolácia hosťovskej siete</td></tr><tr><th>Ďalšie nastavenia Wi-Fi</th><td>Úprava a skrytie SSID, nastavenie vysielacieho výkonu, náhodné BSSID</td></tr><tr><th>LED indikátor</th><td>1 × dvojfarebný, modrý/biely</td></tr><tr><th>Tlačidlo</th><td>1 × Reset</td></tr><tr><th>Napájací konektor</th><td>DC5521</td></tr><tr><th>Napájací zdroj</th><td>12 V / 3 A</td></tr><tr><th>Rozmery</th><td>240 × 157 × 74 mm</td></tr><tr><th>Hmotnosť</th><td>848 g</td></tr><tr><th>Spotreba energie bez zaťaženia USB</th><td>Menej ako 25 W</td></tr><tr><th>Spotreba energie s USB záťažou</th><td>Menej ako 36 W</td></tr><tr><th>Prevádzková teplota</th><td>0 °C až 40 °C</td></tr><tr><th>Skladovacia teplota</th><td>-20 °C až 70 °C</td></tr><tr><th>Prevádzková vlhkosť</th><td>5–95 %, bez kondenzácie</td></tr><tr><th>Skladovacia vlhkosť</th><td>5–95 %, bez kondenzácie</td></tr><tr><th>Certifikáty a súlad s normami</th><td>CE, RoHS, WEEE, EUCC, ErP, UK PSTI, REACH, FCC, California Proposition 65, IC, MIC, SRRC, RCM</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/cestovne-a-vpn-routery/">Cestovné a VPN routery</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[GL.iNet]]></MANUFACTURER>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>093438</CODE>
-<EAN>6971131385158</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská > Cestovné a VPN routery]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="Router GL.iNet Flint 3e Wi-Fi 7 - obrázok 1">https://b2b.innpro.sk/hpeciai/1aa051b5d37b4add34fac26f5825bee1/64857_1_1.webp</IMAGE>
-  <IMAGE description="Router GL.iNet Flint 3e Wi-Fi 7 - obrázok 2">https://b2b.innpro.sk/hpeciai/ca31787fdd0986375682a036499cc320/64857_2_1.webp</IMAGE>
-  <IMAGE description="Router GL.iNet Flint 3e Wi-Fi 7 - obrázok 3">https://b2b.innpro.sk/hpeciai/703a2a7710dcc34a7e191526e6d30468/64857_3_1.webp</IMAGE>
-  <IMAGE description="Router GL.iNet Flint 3e Wi-Fi 7 - obrázok 4">https://b2b.innpro.sk/hpeciai/d95a95ba35fb990df8672f5f9b27ed6b/64857_4_1.webp</IMAGE>
-  <IMAGE description="Router GL.iNet Flint 3e Wi-Fi 7 - obrázok 5">https://b2b.innpro.sk/hpeciai/48d4434ffe924ae0fa17f54a4c91ba5d/64857_5_1.webp</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[GL.iNet]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Wi-Fi štandard]]></NAME>
-    <VALUE><![CDATA[IEEE 802.11 a/b/g/n/ac/ax/be]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Celková rýchlosť Wi-Fi]]></NAME>
-    <VALUE><![CDATA[Až 6500 Mb/s]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Technológie Wi-Fi 7]]></NAME>
-    <VALUE><![CDATA[MLO, 4K QAM, Multi-RU Puncturing, Preamble Puncturing]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Procesor]]></NAME>
-    <VALUE><![CDATA[Qualcomm, štvorjadrový, 1,5 GHz]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[RAM]]></NAME>
-    <VALUE><![CDATA[1 GB DDR4]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pamäť NAND]]></NAME>
-    <VALUE><![CDATA[512 MB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Ethernetové porty]]></NAME>
-    <VALUE><![CDATA[5 × 2,5G, 10/100/1000/2500 Mb/s]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[WAN port]]></NAME>
-    <VALUE><![CDATA[1 × 2,5G]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Porty LAN]]></NAME>
-    <VALUE><![CDATA[4 × 2,5G, port LAN1 možno prepnúť na WAN]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Port USB]]></NAME>
-    <VALUE><![CDATA[1 × USB 3.0 typu A]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pamäť RAM]]></NAME>
-    <VALUE><![CDATA[1 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[Wi-Fi, 5G]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.47</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>177.90</PRICE_VAT>
-<PURCHASE_PRICE>125.66</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Router GL.iNet Flint 3e Wi-Fi 7 | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Router GL.iNet Flint 3e Wi-Fi 7 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Sada variabilných ND/CPL filtrov Freewell Brandon Li 67 mm]]></NAME>
@@ -639544,10 +639245,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -643017,6 +642720,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>081222</CODE>
+    <EAN>6924922259374</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>081289</CODE>
     <EAN>6978258900073</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -644137,6 +643847,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>084917</CODE>
+    <EAN>6935750522110</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>084920</CODE>
     <EAN>6935750521335</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -644793,7 +644510,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>Meross MRS200MA-EU – Wi-Fi navíjací mechanizmus na rolety</SEO_TITLE><META_DESCRIPTION>Inteligentný navíjací mechanizmus Meross MRS200MA-EU na rolety s Wi-Fi. Overte si kompatibilitu, napájanie a podmienky montáže.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>087768</CODE>
     <EAN>6975114120798</EAN>
@@ -644905,7 +644622,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088496</CODE>
     <EAN>6978507851026</EAN>
@@ -645080,7 +644797,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088870</CODE>
     <EAN>6942580504902</EAN>
@@ -646113,6 +645830,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>093437</CODE>
     <EAN>6971131384205</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>093438</CODE>
+    <EAN>6971131385158</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
