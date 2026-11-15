@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-11-14 23:48 UTC.
+Kontrola z 2026-11-15 23:55 UTC.
 
 **1 ciest bez pravidla, 156 produktov bez kategórie.**
 
@@ -9,4 +9,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 156 | Zásuvka EMOS A6001.1 250V dvojnásobná, bílá; Meteorologická stanice GARNI 520; Meteorologická stanice GARNI 365 Arcus s projekcí; Meteorologická stanice GARNI 545 Line; Čerpadlo zavlažovací NEDIS WIFIWP10GY SmartLife automatické Wi-Fi |
+| `Druhy > BLACK FRIDAY` | 156 | Zdroj záložní KEMOT PROsinus URZ3410 700W 12V nástěnný; Chytrá meteorologická stanice GARNI 925T; Dalekohled binokulární LEVENHUK Travel 10x50; Meteorologická stanice GARNI 365 Arcus s projekcí; Meteorologická stanice GARNI 545 Line |
