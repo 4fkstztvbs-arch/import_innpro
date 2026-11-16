@@ -41,3 +41,8 @@ rola: hlavny-agent
 - Pravda o týždni: obsah zapísal 9 produktov + 5 v teste. Príčiny: 13. 11. bežal prvý deň a pravidlo 15 na beh platí až od večera (PR #314); 14. 11. príprava experimentu a hľadanie GUID (product_search prehľadá len 1000 produktov); 15. 11. (nedeľa) prázdne behy kvôli mojmu zadaniu "od pondelka" a pravidlu "nie je pondelok → bez práce"; nové sedenia nemajú Chrome na Macu a raz sa Shoptet MCP nepripojil (502).
 - Oprava: povinný postup behu je v roles/obsah.md (prečíta ho každý beh): GUID cez `products_list` s `brandCode`, rodiny farebných variantov ako jedna dávka, prázdny beh zakázaný, pri nesplnení presný dôvod v handoffe. Zadanie hlavného agenta platí každý deň vrátane víkendu.
 - Naplánovaná úloha obsahu sa nedá upraviť z tohto vlákna (každý beh začína nové vlákno); text úlohy číta rolu a môj handoff, takže oprava platí od ďalšieho behu 16. 11. 10:10.
+
+## Doplnenie 2 (Martin 16. 11.: každý beh má mať všetky nástroje vrátane Chrome)
+
+- Všetky roly bežia vo svojom vlákne (`sedenie: vlakno`). Pre seo a obsah som vypol úlohy s novým sedením a zapol pôvodné úlohy viazané na vlákna (seo trig_01TgNtz7ajJXaZ18itiqx5VW, obsah trig_01ECJeZhs5dSSXuDZ985YeND), takže majú Chrome na Macu aj ostatné nástroje. config.json a ROUTINES.md aktualizované.
+- Text pôvodných úloh nemožno meniť odinakiaľ ako z ich vlákna; obsah a seo preto čítajú povinný postup z roles/obsah.md a z mojich handoffov. Pri prvom behu majú v handoffe potvrdiť, či Chrome (`mcp__claude-in-chrome__*`) dosiahli.

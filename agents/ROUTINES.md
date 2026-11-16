@@ -34,8 +34,8 @@ Martin chce šetriť limit: dlhá história vlákna zdražuje každý beh. Preto
 
 | Rola | Sedenie | Prečo |
 |---|---|---|
-| seo | novy-beh | Stav je v repozitári (handoff, backlog, experimenty), nástroje Shoptet MCP a OpenSEO |
-| obsah | novy-beh | Stav je v repozitári, nástroje Shoptet MCP a OpenSEO |
+| seo | vlakno | Beh v tom istom vlákne, všetky nástroje vrátane Chrome na Macu (Martin 16. 11.) |
+| obsah | vlakno | Beh v tom istom vlákne, všetky nástroje vrátane Chrome na Macu (Martin 16. 11.) |
 | ux-cro | vlakno | Potrebuje Chrome na Martinovom Macu (Remote Control), ktorý vie otvoriť len vlákno |
 | reklama | vlakno | Číta živé čísla kampaní cez Chrome na Macu (Remote Control) |
 | meranie | vlakno | Clarity a Chrome idú cez Mac; je to lacný beh na Haiku |
@@ -94,3 +94,7 @@ Martin napíše STOP (alebo „pozastav“). Vlákno hlavného agenta (alebo kto
 - Hlavný agent každé ráno kontroluje, či má každá rola handoff za posledný plánovaný beh (`node agents/tools/status.js` to vypíše). Ak chýba jeden deň, pošle vláknu roly správu. Ak chýbajú dva dni po sebe, založí pre rolu nové vlákno s pokynom z bodu 3 v časti ZACNI a starému povie, aby naplánovanú úlohu vyplo.
 - Ak zlyhá sám hlavný agent a report o 7:30 nepríde, Martin napíše do chatu projektu „report“ a koordinátor požiada vlákno hlavného agenta o mimoriadny beh, prípadne založí nové. Stav sa nestráca, všetko je v repozitári a v súkromnom priečinku.
 - Rola, ktorá narazí na nedostupný nástroj, pokračuje s tým, čo má, a zapíše to do handoffu v časti „Problémy“. Hlavný agent to dá do reportu, ak problém trvá dva dni.
+
+## Všetky nástroje v každom behu (Martin 16. 11. 2026)
+
+Každý beh každej roly musí mať prístup ku všetkým nástrojom vrátane Chrome na Martinovom Macu. Nové sedenia Chrome nemajú, preto všetky roly (seo, obsah, ux-cro, reklama, meranie, hlavný agent) bežia v **svojom vlákne** (`sedenie: vlakno`), ktoré je prepojené s Macom. Naplánované úlohy viazané na vlákna sú `trig_01TgNtz7ajJXaZ18itiqx5VW` (seo) a `trig_01ECJeZhs5dSSXuDZ985YeND` (obsah); úlohy s novým sedením pre seo a obsah sú vypnuté. Platí pravidlo na šetrenie limitov: koniec behu hneď po splnení dávky, bez zbytočného čítania. Ak nie je Mac dostupný, rola pokračuje cez MCP a zapíše to do handoffu.

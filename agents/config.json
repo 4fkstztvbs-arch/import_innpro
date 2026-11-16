@@ -53,7 +53,7 @@
         4,
         5
       ],
-      "sedenie": "novy-beh"
+      "sedenie": "vlakno"
     },
     "obsah": {
       "model": "claude-sonnet-5-5",
@@ -68,7 +68,7 @@
         5,
         6
       ],
-      "sedenie": "novy-beh"
+      "sedenie": "vlakno"
     },
     "ux-cro": {
       "model": "claude-sonnet-5-5",
