@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-16 12:12 UTC.
+Kontrola z 2026-11-16 23:54 UTC.
 
-InnPro pri **383** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -41,9 +41,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `027355` | Mopová podložka pre vysávač Dreame F9 / D9 / D9 Pro / D9 Max | — | 5 |
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
-| `029282` | Baterka Superfire S33-A – USB, čierna, 4 režimy | — | 4 |
 | `030322` | Baseus Crystal Shine kábel USB na Lightning, 2,4A, 1,2 m (mo | — | 5 |
-| `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 4 |
+| `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 2 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `035742` | Vertikálny úložný držiak pre vysávač Dreame P10/P10Pro | — | 5 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
@@ -76,7 +75,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `044357` | Kempingová lampa Superfire T51, USB-C | — | 5 |
 | `048658` | Priehľadný obal a sada tvrdeného skla Baseus Corning pre iPh | — | 5 |
 | `044435` | Baseus Crystal Tempered Glass 0,3 mm pre tablet Huawei MateP | — | 5 |
-| `044419` | Fólia na objektív fotoaparátu Baseus pre iPhone 13 Pro/13 Pr | — | 2 |
 | `049242` | Baseus Tempered-Glass Screen Protector pre HUAWEI P40 | — | 5 |
 | `049244` | Baseus Tempered-Glass Screen Protector pre HUAWEI Changxiang | — | 5 |
 | `049246` | Ochranné sklo s tvrdeným sklom Baseus pre Redmi K60/K60 Pro | — | 2 |
@@ -202,7 +200,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
 | `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 4 |
-| `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 4 |
+| `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 3 |
 | `070369` | Filter pre Dreame H14 Dual | — | 5 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
 | `071777` | Magnetický držiak telefónu Joyroom JR-ZS418 čierny | — | 5 |
@@ -353,7 +351,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088982` | Súprava nástrojov na odstránenie fólie HTVRONT | — | 5 |
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |
 | `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
-| `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 3 |
+| `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 2 |
 | `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
 | `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
@@ -365,6 +363,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089627` | Silikónové puzdro Puluz pre GoPro HERO 4K 2024 | — | 5 |
 | `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 5 |
 | `089639` | Silikónové puzdro Puluz pre DJI Osmo 360 (čierne) | — | 5 |
+| `089640` | Puzdro Puluz 3 v 1 pre DJI OSMO Pocket 3 | — | 5 |
 | `089643` | Silikónové puzdro Puluz pre Insta360 GO 3S (čierne) | — | 3 |
 | `089645` | Držiak Puluz Mini s 1/4" závitom pre akčné kamery, otvor 3,9 | — | 5 |
 | `089647` | Príslušenstvo Puluz pre GoPro HERO 12/11/10 Black | — | 5 |
@@ -388,5 +387,8 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `093393` | UV baterka Supfire S11-H, 365 nm, USB-C | — | 5 |
 | `093577` | Držiak SJCAM C300 POCKET | — | 5 |
 | `093581` | SJCAM Floaty Bobber – držiak na zvýšenie vztlaku | — | 5 |
+| `093816` | Ochranná fólia TELESIN pre Pocket3/4 | — | 5 |
+| `093815` | Ochranná fólia TELESIN pre Luna | — | 5 |
+| `093797` | Silikónové puzdro a kryt objektívu TELESIN pre OSMO Action 6 | — | 5 |
 | `095291` | Pamäťová karta GODOX microSD 4 GB | — | 5 |
 | `095292` | Pamäťová karta GODOX microSD s kapacitou 8 GB | — | 5 |

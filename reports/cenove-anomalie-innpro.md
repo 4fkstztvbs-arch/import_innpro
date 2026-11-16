@@ -297,8 +297,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092392 | 6922572221727 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (zlatozelená) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092393 | 6922572221734 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (čierno-ružové) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092394 | 6922572221741 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (fialovo-strieborná) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091845 | 5905156111004 | Čítačka kariet BlitzWolf BW-CR2 5 v 1 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091848 | 5905156111042 | Parkovacie kúrenie Hcalory HBS-3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093465 | 6975274260402 | Solárny panel ALLPOWERS SF200 200 W, ohybný | nulová/neplatná cena |  | 0.00 € |  |  |
 | 093470 | 6975274260457 | Solárny panel Allpowers SP039 600 W, monokryštalický, prenosný | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094052 | 6975828005206 | Nabíjacia stanica Wallbox dé  11 kW s 5 m káblom | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -431,7 +429,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096513 | 6942580510538 | Akčná kamera FOSSIBOT FC360 8K EU (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096541 | 6977402873034 | VR okuliare PIMAX DREAM, verzia Air Slam | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096542 | 6977402873072 | VR okuliare PIMAX DREAM Air SE, verzia Slam | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035845 | 6941565916839 | Luminiscenčná letová mapa DJI RoboMaster TT | zmena ceny > 5x oproti minulému importu | 801.00 € | 146.50 € | 1/5.5x |  |
-| 061857 | 6976788020391 | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (ružové) | zmena ceny > 5x oproti minulému importu | 16.00 € | 3.10 € | 1/5.2x |  |
+| 096717 | 6975274261218 | Elektráreň ALLPOWERS P1800 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 11.00 € | 1/13.1x | 13 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 8.10 € | 1/17.8x | 13 |
