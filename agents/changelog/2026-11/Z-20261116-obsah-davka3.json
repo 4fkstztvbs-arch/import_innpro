@@ -1,0 +1,38 @@
+{
+ "id": "Z-20261116-obsah-davka3",
+ "datum": "2026-11-16",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": null,
+ "zhrnutie": "Beh 15:10: GL.iNet Flint (090440), prepis popisu, krátkeho popisu a meta údajov podľa štandardu; rozpor 'viac ako 100' vs 'až 120 zariadení' vyriešený podľa textu a parametrov výrobcu (120).",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "090440",
+   "guid": "3eb5b85c-92c6-11f1-9a48-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "Router GL.iNet Flint (GL-AX1800) GL.iNet Flint (GL-AX1800) je vysokovýkonný router s podporou Wi-Fi 6 určený pre náročných domácich používateľov, hráčov a malé podniky. Ponúka celkovú bezdrôtovú…",
+     "po": "Wi-Fi 6 router GL.iNet Flint (GL-AX1800) s priepustnosťou až 1 800 Mb/s, piatimi gigabitovými portmi, USB 3.0, VPN (WireGuard, OpenVPN) a AdGuard Home."
+    },
+    "metaTitle": {
+     "pred": "GL.iNet Flint (GL-AX1800) – Wi-Fi 6 router",
+     "po": "GL.iNet Flint (GL-AX1800), Wi-Fi 6 router s VPN a AdGuard"
+    },
+    "metaDescription": {
+     "pred": "Wi-Fi 6 router GL.iNet Flint (GL-AX1800) pre náročných domácich používateľov a hráčov. Router je navrhnutý tak, aby súčasne podporoval až 120 zariadení.",
+     "po": "GL.iNet Flint (GL-AX1800): Wi-Fi 6 router do 1 800 Mb/s, 5× Gigabit Ethernet, USB 3.0, WireGuard a OpenVPN, AdGuard Home, až 120 zariadení."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka3.090440.pred-popis.html",
+     "poSubor": null
+    }
+   }
+  }
+ ],
+ "overenie": "Zápis neobsahoval cenu, sklad ani viditeľnosť.",
+ "trvanlivost": "trvalá",
+ "navrat": "Vrátiť pôvodné hodnoty z pred-popis a poľ pred."
+}
