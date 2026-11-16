@@ -86,10 +86,15 @@
     "reklama": {
       "model": "claude-sonnet-5-5",
       "effort": "low",
-      "cron": "CRON_TZ=Europe/Bratislava 40 12 * * 1,4",
+      "cron": "CRON_TZ=Europe/Bratislava 40 6 * * *",
       "dni": [
+        0,
         1,
-        4
+        2,
+        3,
+        4,
+        5,
+        6
       ],
       "sedenie": "vlakno"
     }

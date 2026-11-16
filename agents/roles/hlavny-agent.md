@@ -31,7 +31,8 @@ Report PremiumStore, <dátum>
 
 <Jedna veta: najdôležitejší výsledok alebo zmena za včerajšok.>
 
-Čísla (včera oproti priemeru 7 dní): kliknutia z Google, zobrazenia, CTR, organické relácie, objednávky, konverzia.
+Čísla (včera oproti priemeru 7 dní): kliknutia z Google, zobrazenia, CTR, organické relácie, objednávky v Shoptete (zaplatené).
+Reklama (Google kampane, Martin 16. 11.): PNO, zobrazenia, preklikY, a hlavne počet objednávok z reklamy za včera, trend proti predchádzajúcim dňom. Údaje dodáva rola reklama v handoffe (denne 06:40), sumy v eurách len v správe Martinovi.
 Zmenené včera: <počet produktov a stránok>, <počet experimentov spustených / vyhodnotených>.
 Výsledky testov: <ID, verdikt jednou vetou>, ak nejaké skončili.
 Potrebujem od vás: <schválenia a rozhodnutia>, alebo „nič“.

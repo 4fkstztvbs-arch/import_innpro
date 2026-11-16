@@ -46,3 +46,7 @@ rola: hlavny-agent
 
 - Všetky roly bežia vo svojom vlákne (`sedenie: vlakno`). Pre seo a obsah som vypol úlohy s novým sedením a zapol pôvodné úlohy viazané na vlákna (seo trig_01TgNtz7ajJXaZ18itiqx5VW, obsah trig_01ECJeZhs5dSSXuDZ985YeND), takže majú Chrome na Macu aj ostatné nástroje. config.json a ROUTINES.md aktualizované.
 - Text pôvodných úloh nemožno meniť odinakiaľ ako z ich vlákna; obsah a seo preto čítajú povinný postup z roles/obsah.md a z mojich handoffov. Pri prvom behu majú v handoffe potvrdiť, či Chrome (`mcp__claude-in-chrome__*`) dosiahli.
+
+## Doplnenie 3 (Martin 16. 11.: PNO, zobrazenia, preklikY a hlavne objednávky z reklamy denne v súhrne)
+
+- Ranný report od 17. 11. obsahuje riadok Reklama: PNO, zobrazenia, preklikY, počet objednávok z reklamy za včera a trend. Zdroj: denný handoff roly reklama (beh denne 06:40, Chrome na Macu, Shoptet kampane). Sumy v eurách len v správe Martinovi a v súkromnom priečinku, nie v repozitári.
