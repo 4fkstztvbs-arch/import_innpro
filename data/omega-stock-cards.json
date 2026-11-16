@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600821,
+    "nextCardNumber": 202600826,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4922,6 +4922,36 @@
         "nazov": "PS5 - PlayStation Pulse Explore +",
         "dodavatel": "kb",
         "code": ""
+      },
+      "1010101010101": {
+        "kod": "202600821",
+        "nazov": "Vysílač DO Kaon Digi TV OEM",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "2020202020202": {
+        "kod": "202600822",
+        "nazov": "Nástavec na stožár / balkón 0,75 m / 48 mm - žár",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "5901890018548": {
+        "kod": "202600823",
+        "nazov": "Vysílač DO univerzální Panasonic RM-D920+ OEM",
+        "dodavatel": "atos",
+        "code": "DOHUAP920"
+      },
+      "8594016903049": {
+        "kod": "202600824",
+        "nazov": "Sat LNB Monoblock Mascom GOLD MC M4-S01 UHD",
+        "dodavatel": "atos",
+        "code": "MCM4S01UHD"
+      },
+      "4823016252272": {
+        "kod": "202600825",
+        "nazov": "Ventilátor VENTS KAM 125 krbový 1009640 1905091",
+        "dodavatel": "atos",
+        "code": "ELE-1009640"
       }
     }
   },
