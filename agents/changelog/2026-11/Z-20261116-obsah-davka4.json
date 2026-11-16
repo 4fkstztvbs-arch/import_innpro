@@ -1,0 +1,300 @@
+{
+ "id": "Z-20261116-obsah-davka4",
+ "datum": "2026-11-16",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Beh 17:10, ľahký postup: nový krátky popis, meta titulok a meta popis u 15 produktov (2 GMKtec G10, 9 ďalších GMKtec, 4 GL.iNet). Dlhý popis sa nemenil. Fakty z tabuľky výrobcu v output/innpro.xml. Pri GMKtec M5 Ultra vynechaná kapacita SSD (XML 1 TB vs názov 512 GB). Pôvodné hodnoty (pred) sú zapísané len pri G10; u ostatných sa pred zápisom nečítali (vzor: krátky popis = prvých ~200 znakov popisu dodávateľa, meta popis podľa šablóny s vetou o kategórii Mini PC); pôvodný popis je v output/innpro.xml a v súbore Z-20261112 záznamoch nie je.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "079909",
+   "guid": "ca286462-92c5-11f1-8bac-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "MiniPC G10 - AMD Ryzen 5 3500U -16GB RAM+512GB SSD MiniPC G10 je kompaktné zariadenie, ktoré vďaka procesoru AMD Ryzen 5 3500U ukrýva skutočný výkon v malom prevedení. Je vybavený 16 GB pamäte DDR4 a…",
+     "po": "Mini PC GMKtec G10 s procesorom AMD Ryzen 5 3500U, 16 GB RAM DDR4 a 512 GB SSD M.2 2280, podporou troch displejov 4K@60 Hz a tichou prevádzkou do 35 dB. Windows 11 Pro."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec G10, Ryzen 5 3500U, 16 GB, 512 GB",
+     "po": "Mini PC GMKtec G10, Ryzen 5 3500U, 16 GB RAM, 512 GB SSD"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec G10 s procesorom AMD Ryzen 5 3500U, 16 GB DDR4 RAM, 512 GB SSD a podporou troch displejov 4K. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GMKtec G10: Ryzen 5 3500U, 16 GB RAM, 512 GB SSD, tri displeje 4K@60 Hz, HDMI 2.1, DisplayPort 1.4, 2,5G LAN, hlučnosť 35 dB, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079910",
+   "guid": "ca332bd6-92c5-11f1-bb64-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "MiniPC G10 - AMD Ryzen 5 3500U -16GB RAM+1TB SSD MiniPC G10 je kompaktné zariadenie, ktoré vďaka procesoru AMD Ryzen 5 3500U ukrýva skutočný výkon v malom prevedení. Je vybavený 16 GB pamäte DDR4 a…",
+     "po": "Mini PC GMKtec G10 s procesorom AMD Ryzen 5 3500U, 16 GB RAM DDR4 a 1 TB SSD M.2 2280, podporou troch displejov 4K@60 Hz a tichou prevádzkou do 35 dB. Windows 11 Pro."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec G10, Ryzen 5 3500U, 16 GB, 1 TB",
+     "po": "Mini PC GMKtec G10, Ryzen 5 3500U, 16 GB RAM, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec G10 s procesorom AMD Ryzen 5 3500U, 16 GB DDR4 RAM, 1 TB SSD a podporou troch displejov 4K. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GMKtec G10: Ryzen 5 3500U, 16 GB RAM, 1 TB SSD, tri displeje 4K@60 Hz, HDMI 2.1, DisplayPort 1.4, 2,5G LAN, hlučnosť 35 dB, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "076689",
+   "guid": "ae60e40c-92c5-11f1-9e0f-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K11 s procesorom AMD Ryzen 9 8945HS (do 5,2 GHz), 32 GB RAM DDR5 a 1 TB SSD M.2, dvoma portmi 2,5G LAN, Wi-Fi 6 a Windows 11 Pro. Hmotnosť 600 g."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec K11, Ryzen 9 8945HS, 32 GB RAM, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K11: Ryzen 9 8945HS do 5,2 GHz, 32 GB DDR5, 1 TB SSD, 2× 2,5G LAN, HDMI 2.1, DisplayPort, USB-C, Wi-Fi 6, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078838",
+   "guid": "c085d750-92c5-11f1-b4c6-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K8 Plus s procesorom AMD Ryzen 7 8845HS (do 5,1 GHz), 32 GB RAM DDR5 a 1 TB SSD NVMe, výstupmi HDMI 2.1, DisplayPort 2.1 a 2× USB 4.0 pre 4 obrazovky."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec K8 Plus, Ryzen 7 8845HS, 32 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K8 Plus: Ryzen 7 8845HS, 32 GB DDR5, 1 TB NVMe SSD, HDMI 2.1, DP 2.1, 2× USB 4.0, 2× 2,5G LAN, Wi-Fi 6, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079911",
+   "guid": "ca3e1e92-92c5-11f1-a216-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-X1 s procesorom AMD Ryzen AI 9 HX 370 (12 jadier, NPU 50 TOPS), grafikou Radeon 890M, 32 GB RAM LPDDR5X, 1 TB SSD a portom OCuLink."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-X1, Ryzen AI 9 HX 370, 32 GB, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-X1: Ryzen AI 9 HX 370, NPU 50 TOPS, Radeon 890M, 32 GB LPDDR5X, 1 TB SSD, OCuLink, USB 4.0, 2× 2,5G LAN, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079913",
+   "guid": "ca53e790-92c5-11f1-8167-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-T1 s procesorom Intel Ultra 9 285H (do 5,4 GHz), 64 GB RAM DDR5 a 1 TB SSD M.2, kovovým šasi, dvoma portmi 2,5G LAN a Wi-Fi 6 s Windows 11 Pro."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-T1, Intel Ultra 9 285H, 64 GB, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-T1: Intel Ultra 9 285H do 5,4 GHz, 64 GB DDR5, 1 TB SSD, HDMI 2.1, DP, 2× USB-C, 2× 2,5G LAN, Wi-Fi 6, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081564",
+   "guid": "de2cf338-92c5-11f1-86af-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Kompaktný Mini PC GMKtec G3S s procesorom Intel N95 (do 3,4 GHz), 8 GB RAM DDR4 a 256 GB SSD, dvoma výstupmi HDMI 2.0, Wi-Fi 5 a Windows 11 Pro. Hmotnosť 255 g."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec G3S, Intel N95, 8 GB RAM, 256 GB SSD"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec G3S: Intel N95 do 3,4 GHz, 8 GB DDR4, 256 GB SSD, 2× HDMI 2.0, Wi-Fi 5, Bluetooth 5.0, spotreba 15 W, 255 g, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081565",
+   "guid": "de396db6-92c5-11f1-b617-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Kompaktný Mini PC GMKtec G3S s procesorom Intel N95 (do 3,4 GHz), 16 GB RAM DDR4 a 512 GB SSD, dvoma výstupmi HDMI 2.0, Wi-Fi 5 a Windows 11 Pro. Hmotnosť 255 g."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec G3S, Intel N95, 16 GB RAM, 512 GB SSD"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec G3S: Intel N95 do 3,4 GHz, 16 GB DDR4, 512 GB SSD, 2× HDMI 2.0, Wi-Fi 5, Bluetooth 5.0, spotreba 15 W, 255 g, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081566",
+   "guid": "de4525ac-92c5-11f1-a7fa-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K12 s procesorom AMD Ryzen 7 H255 (do 4,9 GHz), 32 GB RAM DDR5 a 1 TB SSD, výstupmi HDMI 2.1, DisplayPort 1.4 a 2× USB4, Wi-Fi 6E a Windows 11 Pro."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec K12, Ryzen 7 H255, 32 GB RAM, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K12: Ryzen 7 H255 do 4,9 GHz, 32 GB DDR5, 1 TB SSD, HDMI 2.1, DP 1.4, 2× USB4, 2× 2,5G LAN, Wi-Fi 6E, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081567",
+   "guid": "de4f694a-92c5-11f1-987e-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M2 Pro S s procesorom Intel Core i7-1185G7 (do 4,8 GHz), 16 GB RAM DDR4 a 512 GB SSD, dvoma výstupmi HDMI 2.0, USB-C s DisplayPort a Wi-Fi 6."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M2 Pro S, Intel i7-1185G7, 16 GB, 512 GB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M2 Pro S: Intel Core i7-1185G7 do 4,8 GHz, 16 GB DDR4, 512 GB SSD, 2× HDMI 2.0, USB-C DisplayPort, Wi-Fi 6, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081568",
+   "guid": "de59c32c-92c5-11f1-82a2-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5 Ultra s procesorom AMD Ryzen 7 7730U (do 4,5 GHz), 16 GB RAM DDR4, výstupmi HDMI, DisplayPort a USB-C, dvoma portmi 2,5G LAN a Wi-Fi 6E."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5 Ultra, Ryzen 7 7730U, 16 GB RAM, Win 11"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5 Ultra: Ryzen 7 7730U do 4,5 GHz, 16 GB DDR4, HDMI, DisplayPort, USB-C, 2× 2,5G LAN, Wi-Fi 6E, Bluetooth 5.2, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090436",
+   "guid": "3e96ee36-92c6-11f1-8fa0-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Cestovný Wi-Fi 6 router GL.iNet Slate AX (GL-AXT1800) s priepustnosťou až 1 800 Mb/s, USB 3.0, VPN (WireGuard až 550 Mb/s, OpenVPN až 560 Mb/s) a hmotnosťou 245 g."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "GL.iNet Slate AX (GL-AXT1800), cestovný Wi-Fi 6 router"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "GL.iNet Slate AX (GL-AXT1800): cestovný Wi-Fi 6 router do 1 800 Mb/s, WireGuard 550 Mb/s, OpenVPN 560 Mb/s, USB 3.0, USB-C, 245 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090441",
+   "guid": "3ec007e4-92c6-11f1-8dff-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Prenosný router GL.iNet Puli (GL-XE300-BAT) s modemom 4G LTE, batériou 5 000 mAh, Wi-Fi do 300 Mb/s, VPN (WireGuard, OpenVPN) a hmotnosťou 223,5 g."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "GL.iNet Puli (GL-XE300-BAT), prenosný 4G LTE router"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "GL.iNet Puli (GL-XE300-BAT): prenosný 4G LTE router s batériou 5 000 mAh, Wi-Fi do 300 Mb/s, WireGuard a OpenVPN, USB-C, 223,5 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090442",
+   "guid": "3eca7a9e-92c6-11f1-b446-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "4G LTE router GL.iNet Spitz Plus (GL-X2000) s Wi-Fi 6 do 2 976 Mb/s, modemom LTE CAT12, anténami SMA, VPN (WireGuard až 190 Mb/s) a napájaním 9–36 V."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "GL.iNet Spitz Plus (GL-X2000), 4G LTE router, Wi-Fi 6"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "GL.iNet Spitz Plus (GL-X2000): 4G LTE CAT12 router s Wi-Fi 6 do 2 976 Mb/s, 2× SMA anténa, WireGuard a OpenVPN, napájanie 9–36 V."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090443",
+   "guid": "3ed4cd3c-92c6-11f1-a189-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mobilný router GL.iNet Puli AX (GL-XE3000) s 5G NR a 4G LTE, Wi-Fi 6 do 2 976 Mb/s, batériou 6 400 mAh, portom 2,5G WAN a VPN (WireGuard až 300 Mb/s)."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "GL.iNet Puli AX (GL-XE3000), 5G NR router, Wi-Fi 6"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "GL.iNet Puli AX (GL-XE3000): mobilný 5G NR router, Wi-Fi 6 do 2 976 Mb/s, batéria 6 400 mAh, 2,5G WAN, WireGuard a OpenVPN, 761 g."
+    }
+   }
+  }
+ ],
+ "overenie": "Zápis neobsahoval cenu, sklad ani viditeľnosť; odpoveď product_update potvrdila zmenené polia.",
+ "trvanlivost": "trvalá",
+ "navrat": "Vrátiť krátky popis a meta údaje podľa vzoru z poľa pred a zhrnutia."
+}
