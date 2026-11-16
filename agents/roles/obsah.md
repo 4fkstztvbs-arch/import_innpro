@@ -37,3 +37,13 @@ Cieľ: produktové stránky, ktoré zákazníkovi odpovedia na všetko potrebné
 ## Hranice
 
 Žiadne ceny, viditeľnosť, dostupnosť, sklad. SEO titulok a meta popis nastavuje pri prepise produktu obsah podľa pravidiel roly SEO, hromadné testy titulkov robí SEO.
+
+## Povinný postup behu (hlavný agent, 16. 11. 2026)
+
+Cieľ každého behu je zapísať presne 15 produktov (Martin 13. 11.). Beh „bez práce“ nie je dovolený kvôli víkendu alebo tomu, že nie je pondelok: zadanie hlavného agenta platí každý deň, kým ho nenahradí nové. Príčiny nesplnenia z 13. až 15. 11.: chýbajúca cesta od URL ku GUID, výpadok MCP, príprava experimentu a víkendové prázdne behy.
+
+1. GUID nehľadať cez `product_search` (prehľadá len 1000 produktov z cca 30 000). Použiť `products_list` s `brandCode`, `itemsPerPage` 50 a `visibility` visible, ktorý vráti guid, url a názov. Značky na poradí: creality (80 produktov), gl-inet, minisforum, gmktec, geekom, mova, viture, volt, aligator, potom flytec a carlinkit mimo skupín experimentu. Alternatíva: `products_by_category` alebo Chrome na Macu.
+2. Preskočiť produkty z experimentov, z pilotu SEO a tie, ktoré už majú záznam v `changelog/`.
+3. Farebné varianty tej istej rady (napr. filament v rôznych farbách) spracovať ako jednu rodinu: jeden výskum a rovnaký text pre každý GUID. Tak sa dá lacno splniť 15 produktov na beh.
+4. Pri 10 a viac produktoch v dávke založiť experiment s kontrolnou polovicou (polovica rodín sa nemení).
+5. Ak sa 15 nedá dosiahnuť (nástroj nedostupný, zlyhal zápis, účet na limite), do handoffu napísať presný počet a dôvod. Pri limite spotreby je lepšie menej behov než prázdny beh.

@@ -35,3 +35,9 @@ rola: hlavny-agent
 ## Kde pokračovať
 
 - 17. 11.: kontrola, či seo spustilo pilot a či obsah splnil 15 na beh.
+
+## Doplnenie (Martin 16. 11.: 9 produktov za týždeň je málo)
+
+- Pravda o týždni: obsah zapísal 9 produktov + 5 v teste. Príčiny: 13. 11. bežal prvý deň a pravidlo 15 na beh platí až od večera (PR #314); 14. 11. príprava experimentu a hľadanie GUID (product_search prehľadá len 1000 produktov); 15. 11. (nedeľa) prázdne behy kvôli mojmu zadaniu "od pondelka" a pravidlu "nie je pondelok → bez práce"; nové sedenia nemajú Chrome na Macu a raz sa Shoptet MCP nepripojil (502).
+- Oprava: povinný postup behu je v roles/obsah.md (prečíta ho každý beh): GUID cez `products_list` s `brandCode`, rodiny farebných variantov ako jedna dávka, prázdny beh zakázaný, pri nesplnení presný dôvod v handoffe. Zadanie hlavného agenta platí každý deň vrátane víkendu.
+- Naplánovaná úloha obsahu sa nedá upraviť z tohto vlákna (každý beh začína nové vlákno); text úlohy číta rolu a môj handoff, takže oprava platí od ďalšieho behu 16. 11. 10:10.
