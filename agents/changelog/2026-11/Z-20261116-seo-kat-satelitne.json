@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261116-seo-kat-satelitne",
+  "datum": "2026-11-16",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Kategória Satelitné prijímače (152 zobrazení, poz. 9,2, CTR 3,3 %): titulok bez názvu obchodu, meta bez 'doručenia', oprava šablónového úvodu ('Vzorka ...'). Zdrojový text pod zoznamom ostáva.",
+  "polozky": [
+    {
+      "typ": "kategoria",
+      "kod": null,
+      "guid": "fc8a4208-affe-11f1-b7cc-bc2411afdf74",
+      "url": "https://www.premiumstore.sk/satelitne-prijimace/",
+      "polia": {
+        "title": {
+          "pred": "Satelitné prijímače a DVB-T2 set-top boxy | PremiumStore.sk",
+          "po": "Satelitné prijímače DVB-S2 a DVB-T2 set-top boxy"
+        },
+        "metaTagDescription": {
+          "pred": "Satelitné prijímače DVB-S2 a set-top boxy DVB-T2 s H.265: Alma, Mascom, Strong, Amiko. Sprievodca výberom, parametre a odkazy na modely. Rýchle doručenie.",
+          "po": "Satelitné prijímače DVB-S2 a set-top boxy DVB-T2 s H.265 od značiek Alma, Mascom, Strong a Amiko. Sprievodca výberom a parametre."
+        },
+        "description": {
+          "pred": "<p>Satelitné prijímače a set-top boxy: pri výbere porovnajte účel, rozmery a kompatibilitu konkrétneho výrobku. Vzorka Duálny tuner VU+ MTSIF DVB-T2 pre prijímače; rozhodujúce parametre overte v detaile vybraného produktu.</p>",
+          "po": "<p>Vyberte si satelitný prijímač DVB-S2 alebo pozemný set-top box DVB-T2. Pri porovnaní sledujte tuner, kodek H.265/HEVC, rozlíšenie, čítačku kariet a nahrávanie cez USB.</p>"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-16",
+    "ok": true,
+    "poznamka": "Shoptet vrátil kategóriu s novými poľami title, metaTagDescription, description; secondDescription nezmenený."
+  }
+}
