@@ -1,0 +1,360 @@
+{
+ "id": "Z-20261116-obsah-davka1",
+ "datum": "2026-11-16",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": "E-20261116-obsah-creality-filamenty",
+ "system": "shoptet",
+ "schvalenie": null,
+ "zhrnutie": "Dávka 15 produktov (10 Creality Hyper PLA, 2 Hyper ABS, 3 CR-Silk PLA): preklad z angličtiny a prepis podľa štandardu. Fakty len z textu dodávateľa (INNPRO). U produktov s null v pred meta údajoch sa pôvodné hodnoty pred zápisom neprečítali (len vzor skupiny); pôvodný popis je text z output/innpro.xml.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "064730",
+   "guid": "6ffcba88-92c5-11f1-81e9-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA béžový 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper PLA 1,75 mm, béžový",
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – béžový"
+    },
+    "metaDescription": {
+     "pred": "PLA filament na rýchlu tlač do 600 mm/s s pevnosťou v ťahu 53 MPa. Tlač pri 190–230 °C, cievka 1 kg, 1,75 mm. V balení vysúšadlo a vákuový obal.",
+     "po": "Filament Creality Hyper PLA béžový, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064730.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064730.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064731",
+   "guid": "7006f39a-92c5-11f1-8584-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA žltý 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper PLA 1,75 mm, žltý",
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – žltý"
+    },
+    "metaDescription": {
+     "pred": "PLA filament na rýchlu tlač do 600 mm/s s pevnosťou v ťahu 53 MPa. Tlač pri 190–230 °C, cievka 1 kg, 1,75 mm. V balení vysúšadlo a vákuový obal.",
+     "po": "Filament Creality Hyper PLA žltý, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064731.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064731.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064732",
+   "guid": "70115bf0-92c5-11f1-805a-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA zelený 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper PLA na 3D tlač, zelený",
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – zelený"
+    },
+    "metaDescription": {
+     "pred": "Filament Creality Hyper PLA v zelenej farbe na rýchlu FDM 3D tlač s dobrým chladnutím a presnosťou. It allows fast, accurate printing and doesn't get tangled.",
+     "po": "Filament Creality Hyper PLA zelený, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064732.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064732.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064733",
+   "guid": "701b7a5e-92c5-11f1-b466-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA oranžový 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper PLA 1,75 mm, oranžový",
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – oranžový"
+    },
+    "metaDescription": {
+     "pred": "PLA filament na rýchlu tlač do 600 mm/s s pevnosťou v ťahu 53 MPa. Tlač pri 190–230 °C, cievka 1 kg, 1,75 mm. V balení vysúšadlo a vákuový obal.",
+     "po": "Filament Creality Hyper PLA oranžový, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064733.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064733.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064734",
+   "guid": "7026060e-92c5-11f1-a559-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA hnedý 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper PLA 1,75 mm, hnedý",
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – hnedý"
+    },
+    "metaDescription": {
+     "pred": "PLA filament na rýchlu tlač do 600 mm/s s pevnosťou v ťahu 53 MPa. Tlač pri 190–230 °C, cievka 1 kg, 1,75 mm. V balení vysúšadlo a vákuový obal.",
+     "po": "Filament Creality Hyper PLA hnedý, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064734.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064734.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064735",
+   "guid": "70307bac-92c5-11f1-b795-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA čierny 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper PLA na 3D tlač, čierny",
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – čierny"
+    },
+    "metaDescription": {
+     "pred": "Filament Creality Hyper PLA v čiernej farbe na rýchlu FDM 3D tlač s dobrým chladnutím a presnosťou. It allows fast, accurate printing and doesn't get tangled.",
+     "po": "Filament Creality Hyper PLA čierny, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064735.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064735.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064736",
+   "guid": "703c5062-92c5-11f1-bace-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA červený 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper PLA na 3D tlač, červený",
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – červený"
+    },
+    "metaDescription": {
+     "pred": "Filament Creality Hyper PLA v červenej farbe na rýchlu FDM 3D tlač s dobrým chladnutím a presnosťou. It allows fast, accurate printing and doesn't get tangled.",
+     "po": "Filament Creality Hyper PLA červený, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064736.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064736.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064737",
+   "guid": "70468a32-92c5-11f1-a050-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA modrý 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper PLA 1,75 mm, modrý",
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – modrý"
+    },
+    "metaDescription": {
+     "pred": "PLA filament na rýchlu tlač do 600 mm/s s pevnosťou v ťahu 53 MPa. Tlač pri 190–230 °C, cievka 1 kg, 1,75 mm. V balení vysúšadlo a vákuový obal.",
+     "po": "Filament Creality Hyper PLA modrý, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064737.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064737.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064738",
+   "guid": "7050ad5a-92c5-11f1-8cf1-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA sivý 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – sivý"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Filament Creality Hyper PLA sivý, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064738.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064738.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064739",
+   "guid": "705b0110-92c5-11f1-8c80-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper PLA biely 1,75 mm, 1 kg na rýchlu 3D tlač do 600 mm/s s pevnosťou v ťahu približne 53 MPa a teplotou tlače 190–230 °C. V balení vysúšadlo."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Filament Creality Hyper PLA 1,75 mm, 1 kg – biely"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Filament Creality Hyper PLA biely, 1,75 mm, 1 kg: tlač do 600 mm/s pri 190–230 °C, pevnosť v ťahu 53 MPa, v balení vysúšadlo a vákuový obal."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064739.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064739.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064740",
+   "guid": "706505a2-92c5-11f1-bb0d-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper ABS čierny 1,75 mm, 1 kg na rýchlu tlač do 350 mm/s s rázovou húževnatosťou 19 kJ/m² a odolnosťou voči teplotám do 80 °C. Pre tlačiarne Creality."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality Hyper ABS, čierny",
+     "po": "Filament Creality Hyper ABS 1,75 mm, 1 kg – čierny"
+    },
+    "metaDescription": {
+     "pred": "Filament Creality Hyper ABS v čiernej farbe, vysoká rýchlosť tlače a odolnosť voči nárazu a deformácii. Objednajte na PremiumStore.sk.",
+     "po": "Filament Creality Hyper ABS čierny, 1,75 mm, 1 kg: tlač do 350 mm/s pri 230–270 °C, rázová húževnatosť 19 kJ/m², nízke zmršťovanie."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064740.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064740.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064742",
+   "guid": "7078f7ce-92c5-11f1-89d9-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality Hyper ABS sivý 1,75 mm, 1 kg na rýchlu tlač do 350 mm/s s rázovou húževnatosťou 19 kJ/m² a odolnosťou voči teplotám do 80 °C. Pre tlačiarne Creality."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Filament Creality Hyper ABS 1,75 mm, 1 kg – sivý"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Filament Creality Hyper ABS sivý, 1,75 mm, 1 kg: tlač do 350 mm/s pri 230–270 °C, rázová húževnatosť 19 kJ/m², nízke zmršťovanie."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064742.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064742.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064745",
+   "guid": "7096826c-92c5-11f1-a4fb-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality CR-Silk PLA biely 1,75 mm, 1 kg s metalickým leskom na figúrky a dekorácie, tlač rýchlosťou 40–100 mm/s, pevnosť v ťahu 35 MPa. Pre tlačiarne Creality."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Filament Creality CR-Silk PLA 1,75 mm, 1 kg – biely"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Filament Creality CR-Silk PLA biely, 1,75 mm, 1 kg: metalický lesk, tlač pri 190–230 °C rýchlosťou 40–100 mm/s, pevnosť v ťahu 35 MPa."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064745.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064745.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064746",
+   "guid": "70a1f4ee-92c5-11f1-8f12-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality CR-Silk PLA fialový 1,75 mm, 1 kg s metalickým leskom na figúrky a dekorácie, tlač rýchlosťou 40–100 mm/s, pevnosť v ťahu 35 MPa. Pre tlačiarne Creality."
+    },
+    "metaTitle": {
+     "pred": "Filament Creality CR-Silk PLA na 3D tlač, fialový",
+     "po": "Filament Creality CR-Silk PLA 1,75 mm, 1 kg – fialový"
+    },
+    "metaDescription": {
+     "pred": "Filament Creality CR-Silk PLA vo fialovej farbe s hodvábnym kovovým leskom výtlačkov na 3D tlač. This will save you time and avoid wasting materials!",
+     "po": "Filament Creality CR-Silk PLA fialový, 1,75 mm, 1 kg: metalický lesk, tlač pri 190–230 °C rýchlosťou 40–100 mm/s, pevnosť v ťahu 35 MPa."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064746.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064746.po-popis.html"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064747",
+   "guid": "70abe5da-92c5-11f1-a97d-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "(angl. začiatok popisu dodávateľa, skrátený na ~200 znakov)",
+     "po": "Filament Creality CR-Silk PLA modrý 1,75 mm, 1 kg s metalickým leskom na figúrky a dekorácie, tlač rýchlosťou 40–100 mm/s, pevnosť v ťahu 35 MPa. Pre tlačiarne Creality."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Filament Creality CR-Silk PLA 1,75 mm, 1 kg – modrý"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Filament Creality CR-Silk PLA modrý, 1,75 mm, 1 kg: metalický lesk, tlač pri 190–230 °C rýchlosťou 40–100 mm/s, pevnosť v ťahu 35 MPa."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka1.064747.pred-popis.html",
+     "poSubor": "Z-20261116-obsah-davka1.064747.po-popis.html"
+    }
+   }
+  }
+ ],
+ "overenie": "2026-11-16: po zápise potvrdené kódy, viditeľnosť a zaradenie; zápis neobsahoval cenu, sklad ani viditeľnosť.",
+ "trvanlivost": "trvalá",
+ "navrat": "Vrátiť pôvodné hodnoty zo súborov pred-popis a z poľ pred."
+}
