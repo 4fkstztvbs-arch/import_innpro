@@ -1,0 +1,34 @@
+{
+ "id": "Z-20261116-obsah-davka2",
+ "datum": "2026-11-16",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": null,
+ "zhrnutie": "Beh 13:10: GL.iNet Slate 7 (090439), prepis popisu, krátkeho popisu a meta údajov podľa štandardu (pôvodný text už bol slovenský, odstránené externé obrázky, doplnené FAQ).",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "090439",
+   "guid": "3eab90a2-92c6-11f1-8117-bc2411833e01",
+   "polia": {
+    "shortDescription": {
+     "pred": "Router GL.iNet Slate 7 (GL-BE3600) GL.iNet Slate 7 (GL-BE3600) je prvý dvojpásmový cestovný router s technológiou Wi-Fi 7 od tohto výrobcu, ktorý spája pokročilé sieťové funkcie s kompaktným…",
+     "po": "Cestovný router GL.iNet Slate 7 (GL-BE3600) s Wi-Fi 7, dvoma 2,5G portmi, USB 3.0, dotykovým displejom, VPN (WireGuard, OpenVPN) a priepustnosťou až 3 570 Mb/s."
+    },
+    "metaDescription": {
+     "pred": "Dvojpásmový cestovný router GL.iNet Slate 7 (GL-BE3600) s technológiou Wi-Fi 7. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "GL.iNet Slate 7 (GL-BE3600): cestovný Wi-Fi 7 router do 3 570 Mb/s, 2× 2,5G LAN/WAN, USB 3.0, dotykový displej, WireGuard a OpenVPN, 295 g."
+    },
+    "description": {
+     "predSubor": "Z-20261116-obsah-davka2.090439.pred-popis.html",
+     "poSubor": null
+    }
+   }
+  }
+ ],
+ "overenie": "Zápis neobsahoval cenu, sklad ani viditeľnosť. Po-súbor popisu nebol uložený, text je v živom produkte.",
+ "trvanlivost": "trvalá",
+ "navrat": "Vrátiť pôvodné hodnoty z pred-popis a poľ pred."
+}
