@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600814,
+    "nextCardNumber": 202600820,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4880,6 +4880,42 @@
         "nazov": "Domáca kamera so svetlom a hodinami",
         "dodavatel": "solight",
         "code": "1D81"
+      },
+      "8594172540492": {
+        "kod": "202600814",
+        "nazov": "LIMO BAR - Soda bottle 1l - Black",
+        "dodavatel": "kb",
+        "code": "100000419412"
+      },
+      "5906006574406": {
+        "kod": "202600815",
+        "nazov": "AMICA TR 110 TB",
+        "dodavatel": "kb",
+        "code": "100001129865"
+      },
+      "8595683203661": {
+        "kod": "202600816",
+        "nazov": "Salente Cuco II",
+        "dodavatel": "kb",
+        "code": "100002078748"
+      },
+      "3023372025607": {
+        "kod": "202600817",
+        "nazov": "Electrolux Menalux 1002",
+        "dodavatel": "kb",
+        "code": "362902275022"
+      },
+      "8006447003033": {
+        "kod": "202600818",
+        "nazov": "Nutribullet NB907MAJD",
+        "dodavatel": "kb",
+        "code": "100002128198"
+      },
+      "0711719020912": {
+        "kod": "202600819",
+        "nazov": "PS5 - DS Controller Remix Green",
+        "dodavatel": "kb",
+        "code": "100002204926"
       }
     }
   },
