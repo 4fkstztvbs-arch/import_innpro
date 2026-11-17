@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — kb — 2026-11-16
+# Cenové anomálie vynechané z feedu — kb — 2026-11-17
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 

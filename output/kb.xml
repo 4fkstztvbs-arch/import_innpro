@@ -19773,8 +19773,8 @@
     <VALUE><![CDATA[24 mesiacov]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[6-20 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[6-20 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[3-5 ks skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[3-5 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
@@ -33698,6 +33698,7 @@
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
@@ -35805,54 +35806,6 @@
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <RECYCLING_FEE_CATEGORY><![CDATA[RP SK19 - SEWA 5.3.2]]></RECYCLING_FEE_CATEGORY>
 <RECYCLING_FEE_PRICE>0.05</RECYCLING_FEE_PRICE>
-<RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
-<RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Strong SRT8208 Dvbt přijímač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[HDTV přijímač pro příjem nekódovaných DVB-T2 programů TV a rádia pomocí venkovní nebo vnitřní antény, operační paměť 4 GB, interní paměť  64 GB, Připojení: RF IN, TV SCART, HDMI, S/PDIF coaxial, USB port, Podpora HEVC/H.265, Dolby® Digital Plus]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[HDTV přijímač pro příjem nekódovaných DVB-T2 programů TV a rádia pomocí venkovní nebo vnitřní antény, operační paměť 4 GB, interní paměť  64 GB, Připojení: RF IN, TV SCART, HDMI, S/PDIF coaxial, USB port, Podpora HEVC/H.265, Dolby® Digital Plus
-<p>Ďalšie produkty nájdete v kategórii <a href="/satelitne-prijimace/">Satelitné prijímače a set-top boxy</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Strong]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>100002129683</CODE>
-<EAN>9120072373152</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy]]></CATEGORY>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika > Antény a satelity]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>799</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Strong SRT8208 Dvbt přijímač">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Strong/100002129683-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Strong]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[HDMI]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[21 a viac ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[21 a viac ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>26.50</PRICE_VAT>
-<PURCHASE_PRICE>19.27</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<RECYCLING_FEE_CATEGORY><![CDATA[RP SK19 - SEWA 5.10.1]]></RECYCLING_FEE_CATEGORY>
-<RECYCLING_FEE_PRICE>0.07</RECYCLING_FEE_PRICE>
 <RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
 <RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
 </SHOPITEM>
@@ -55713,49 +55666,6 @@
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[PANASONIC KX-TG1611FXR]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Cenově výhodný digitální bezdrátový telefon s jednořádkový displejem, CLIP, podsvícený displej, telefonní seznam na 50 jmen, rychlá volba, budík, omezení volání, montáž na stěnu, české menu,]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Cenově výhodný digitální bezdrátový telefon s jednořádkový displejem, CLIP, podsvícený displej, telefonní seznam na 50 jmen, rychlá volba, budík, omezení volání, montáž na stěnu, české menu,
-<p>Ďalšie produkty nájdete v kategórii <a href="/tlacidlove-telefony/">Tlačidlové telefóny</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Panasonic_Ce]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>220310925601</CODE>
-<EAN>5025232624737</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tlačidlové telefóny]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="PANASONIC KX-TG1611FXR">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Panasonic/220310925601-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Panasonic_Ce]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[21 a viac ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[21 a viac ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>29.50</PRICE_VAT>
-<PURCHASE_PRICE>21.57</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<RECYCLING_FEE_CATEGORY><![CDATA[RP SK19 - SEWA 6.2.1]]></RECYCLING_FEE_CATEGORY>
-<RECYCLING_FEE_PRICE>0.07</RECYCLING_FEE_PRICE>
-<RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
-<RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Black&Decker BXVMS601E]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[3v1, stojatý, ruční a násadec, Sací výkon 15Kpa,  Ultralehký: 1,5 kg, vyprazdňování pouze jedním tlačítkem, Dvojitý filtrační systém: HEPA vstupní filtr a výstupní houba, Odnímatelná hliníková trubka, Vestavěná zatahovací tryska, Parkovací poloha, 600 W]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Black&amp;Decker BXVMS601E</h3>
@@ -56733,49 +56643,6 @@
 <PURCHASE_PRICE>20.43</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Bellissima 11926 STEAM RITUAL]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[parní difuzor; nastavení páry ve 2 úrovních; automatické vypnutí; dávkovač pro naplnění nádrže;]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[parní difuzor; nastavení páry ve 2 úrovních; automatické vypnutí; dávkovač pro naplnění nádrže;
-<p>Ďalšie produkty nájdete v kategórii <a href="/starostlivost-o-vlasy/">Starostlivosť o vlasy</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Bellissima]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>100002202177</CODE>
-<EAN>8007403119263</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Zdravie a starostlivosť > Starostlivosť o vlasy]]></CATEGORY>
-  <CATEGORY><![CDATA[Zdravie a starostlivosť]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="Bellissima 11926 STEAM RITUAL">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Bellissima/100002202177-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Bellissima]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[1-2 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[1-2 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>98.90</PRICE_VAT>
-<PURCHASE_PRICE>72.94</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<RECYCLING_FEE_CATEGORY><![CDATA[Poplatek HELIOS SE5.3.2]]></RECYCLING_FEE_CATEGORY>
-<RECYCLING_FEE_PRICE>0.05</RECYCLING_FEE_PRICE>
-<RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
-<RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Steba Výrobník Muffinů CM 3]]></NAME>
@@ -94355,50 +94222,6 @@
 <RECYCLING_FEE_PRICE>0.11</RECYCLING_FEE_PRICE>
 <RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
 <RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Defender Taška na notebook 15,6", Lite]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Lehká, jednoduchá, ale praktická taška na notebook je výbornou volbou, potřebujete-li jednoduchou tašku pro každodenní nošení. Zpevněný vnitřní prostor Vaše zařízení bezpečně uchová po celou dobu cesty, kdy zároveň budete moci využít přední kapsy pro menš]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Lehká, jednoduchá, ale praktická taška na notebook je výbornou volbou, potřebujete-li jednoduchou tašku pro každodenní nošení. Zpevněný vnitřní prostor Vaše zařízení bezpečně uchová po celou dobu cesty, kdy zároveň budete moci využít přední kapsy pro menší dokumenty a jiné potřebné věci.
-<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-k-notebookom-2/">Príslušenstvo k notebookom</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Defender]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>100001519296</CODE>
-<EAN>4714033260831</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > Príslušenstvo k notebookom]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
-<IMAGES>
-  <IMAGE description="Defender Taška na notebook 15,6&quot;, Lite">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Defender/100001519296-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Defender]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Uhlopriečka]]></NAME>
-    <VALUE><![CDATA[15,6"]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[1-2 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[1-2 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>6.70</PRICE_VAT>
-<PURCHASE_PRICE>4.88</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Samsung QE75QN900F NEO QLED 8K]]></NAME>
@@ -201872,70 +201695,6 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[MOTOROLA Moto G57 Power 12+256GB Green]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Displej 6,7" FHD+ 120Hz (2400x1080), 8jádrový procesor, RAM 12GB, 256GB paměť, zadní fotoaparát 50 + 8 Mpx, přední fotoaparát 8 Mpx, Dual SIM (podpora eSIM), 5G / LTE, WiFi, Bluetooth, NFC, GPS, USB-C, IP64, 30W rychlé nabíjení, baterie 7000 mAh, Android]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Displej 6,7" FHD+ 120Hz (2400x1080), 8jádrový procesor, RAM 12GB, 256GB paměť, zadní fotoaparát 50 + 8 Mpx, přední fotoaparát 8 Mpx, Dual SIM (podpora eSIM), 5G / LTE, WiFi, Bluetooth, NFC, GPS, USB-C, IP64, 30W rychlé nabíjení, baterie 7000 mAh, Android 16
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-telefony-2/">Smart telefóny</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Motorola]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>100002197402</CODE>
-<EAN>0840493608983</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Smart telefóny]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="MOTOROLA Moto G57 Power 12+256GB Green">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Motorola/100002197402-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Motorola]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[zelená]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Úložisko]]></NAME>
-    <VALUE><![CDATA[256 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pamäť RAM]]></NAME>
-    <VALUE><![CDATA[12 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Uhlopriečka]]></NAME>
-    <VALUE><![CDATA[6,7"]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[Bluetooth, Wi-Fi, NFC, 5G, USB-C]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[6-20 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[6-20 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>1</FREE_SHIPPING>
-<PRICE_VAT>303.90</PRICE_VAT>
-<PURCHASE_PRICE>224.44</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<RECYCLING_FEE_CATEGORY><![CDATA[Poplatek HELIOS SE6.1.1]]></RECYCLING_FEE_CATEGORY>
-<RECYCLING_FEE_PRICE>0.02</RECYCLING_FEE_PRICE>
-<RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
-<RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[XAVAX 111377 vlněné koule do sušičky, 3]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Xavax vlněné koule do sušičky, 3 ks]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>XAVAX 111377 vlněné koule do sušičky, 3</h3>
@@ -218737,54 +218496,6 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <RECYCLING_FEE_CATEGORY><![CDATA[Poplatek HELIOS SE6.1.1]]></RECYCLING_FEE_CATEGORY>
 <RECYCLING_FEE_PRICE>0.02</RECYCLING_FEE_PRICE>
-<RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
-<RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[MERCUSYS MW300RE Extender]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[WiFi extender, rychlost až 300Mb/s v pásmu 2,4 GHz 2 antény]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[WiFi extender, rychlost až 300Mb/s v pásmu 2,4 GHz 2 antény
-<p>Ďalšie produkty nájdete v kategórii <a href="/sietove-prvky-2/">WiFi routery a sieťové karty</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Mercusys]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>100000159759</CODE>
-<EAN>6957939000462</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská > WiFi routery a sieťové karty]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Siete a dátové úložiská]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="MERCUSYS MW300RE Extender">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Mercusys/100000159759-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Mercusys]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[Wi-Fi]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[1-2 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[1-2 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
-<PRICE_VAT>14.90</PRICE_VAT>
-<PURCHASE_PRICE>10.78</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<RECYCLING_FEE_CATEGORY><![CDATA[RP SK19 - SEWA 5.9.2]]></RECYCLING_FEE_CATEGORY>
-<RECYCLING_FEE_PRICE>0.09</RECYCLING_FEE_PRICE>
 <RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
 <RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
 </SHOPITEM>
@@ -240236,14 +239947,18 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[LENOVO adaptér TAB 68W AC USB ZG38C05739]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Lenovo adaptér TAB 68W AC USB-C Wall-Mount , nabíječka USB-C pro všechny tablety kompatibilní s USB-C power deliverydélka kabelu:1,5m; hmotnost: 89,9g]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Lenovo adaptér TAB 68W AC USB-C Wall-Mount , nabíječka USB-C pro všechny tablety kompatibilní s USB-C power deliverydélka kabelu:1,5m; hmotnost: 89,9g
-<p>Ďalšie produkty nájdete v kategórii <a href="/nabijacky-pre-mobily/">Nabíjačky pre mobily</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/tablety-4/">Tablety</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Lenovo]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002079522</CODE>
 <EAN>0197531544216</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Nabíjačky pre mobily]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="LENOVO adaptér TAB 68W AC USB ZG38C05739">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Lenovo/100002079522-202.jpg</IMAGE>
@@ -245696,6 +245411,7 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
@@ -261059,14 +260775,14 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <NAME><![CDATA[Marvo Volant GT-903 volant s pedály]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Volant s pedály a řadící pákou; 16 tlačítek; Plug and Play; připojení: kabelové USB; délka kabelu: 1,9m; velikost volantu cca 220x270x230mm; velikost pedálů cca 210x200x130mm; kompatibilní s: PC/PS3/PS4/XBOX ONE/XBOX 360/Android/NINTENDO SWITCH/Windows Vi]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[Volant s pedály a řadící pákou; 16 tlačítek; Plug and Play; připojení: kabelové USB; délka kabelu: 1,9m; velikost volantu cca 220x270x230mm; velikost pedálů cca 210x200x130mm; kompatibilní s: PC/PS3/PS4/XBOX ONE/XBOX 360/Android/NINTENDO SWITCH/Windows Vista/7/8/8.1/10. *nutnost zapojení kabelem.
-<p>Ďalšie produkty nájdete v kategórii <a href="/herne-simulatory/">Herné simulátory</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/volanty-a-pretekarske-ovladace/">Volanty a pretekárske ovládače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Marvo]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100001519273</CODE>
 <EAN>8590274766150</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory > Volanty a pretekárske ovládače]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > Herné simulátory]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Marvo Volant GT-903 volant s pedály">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Marvo/100001519273-202.jpg</IMAGE>
 </IMAGES>
@@ -266265,45 +265981,6 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>11.90</PRICE_VAT>
 <PURCHASE_PRICE>8.61</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[KMP C81V / PGI-525BK, CLI-526C/M/Y]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Canon Pixma iP4850/mg5150/mg5250/mg6150/mg8150]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Canon Pixma iP4850/mg5150/mg5250/mg6150/mg8150
-<p>Ďalšie produkty nájdete v kategórii <a href="/tlaciarne-a-skenery-2/">Tlačiarne, skenery a spotrebný materiál</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[KMP]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>410211107909</CODE>
-<EAN>4260324215764</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie > Tlačiarne, skenery a spotrebný materiál]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Tlačiarne a kancelárske vybavenie]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="KMP C81V / PGI-525BK, CLI-526C/M/Y">https://img.b2b.k-b.cz/fotocache/mid/images/orig/KMP/410211107909-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[KMP]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[1-2 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[1-2 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>15.90</PRICE_VAT>
-<PURCHASE_PRICE>11.55</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 </SHOPITEM>
@@ -310945,14 +310622,14 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
 <p style="text-align:center"><img alt="Tefal Sense KO6921E0 rychlovarná konvice" src="https://img.b2b.k-b.cz/fotocache/mid/images/orig/2026-10/100002203916-202.jpg"></p>
 <h3>Kľúčové parametre</h3>
 <ul><li>Objem: 1 l; příkon: 1800 W; nastavení teploty: 40</li><li>70</li><li>80</li><li>90 a 100 °C; displej: LED; funkce udržování teploty: až 30 min; automatické vypnutí: ano; vyjímatelný filtr: ano; základna: otočná 360°; bezkabelové provedení: ano; napájení: 220–240 V / 50–60 Hz; barva: bílá</li></ul>
-<p>Ďalšie produkty nájdete v kategórii <a href="/priprava-napojov-rychlovarne-kanvice/">Rýchlovarné kanvice</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/priprava-napojov/">Káva a príprava nápojov</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Tefal]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>100002203916</CODE>
 <EAN>3045387297985</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov > Rýchlovarné kanvice]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Káva a príprava nápojov]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
   <IMAGE description="Tefal Sense KO6921E0 rychlovarná konvice">https://img.b2b.k-b.cz/fotocache/mid/images/orig/2026-10/100002203916-202.jpg</IMAGE>
@@ -326845,8 +326522,8 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
     <VALUE><![CDATA[24 mesiacov]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[3-5 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[3-5 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<AVAILABILITY><![CDATA[1-2 ks skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[1-2 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <CURRENCY>EUR</CURRENCY>
@@ -327750,6 +327427,13 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <SHOPITEM>
     <CODE>100000159595</CODE>
     <EAN>4957812637473</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>100000159759</CODE>
+    <EAN>6957939000462</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -329339,6 +329023,13 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <SHOPITEM>
     <CODE>100001519287</CODE>
     <EAN>4714033523653</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>100001519296</CODE>
+    <EAN>4714033260831</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -332557,6 +332248,13 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>100002129683</CODE>
+    <EAN>9120072373152</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>100002129692</CODE>
     <EAN>5060647651145</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -335000,6 +334698,13 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>100002197402</CODE>
+    <EAN>0840493608983</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>100002197536</CODE>
     <EAN>8690842768286</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -335639,6 +335344,13 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <SHOPITEM>
     <CODE>100002202174</CODE>
     <EAN>4895229160606</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>100002202177</CODE>
+    <EAN>8007403119263</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -336747,6 +336459,13 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>220310925601</CODE>
+    <EAN>5025232624737</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>310510175590</CODE>
     <EAN>3838942953835</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -337113,6 +336832,13 @@ Máte rádi zajímavé aranžmá a hru se světlem? Neonová světla LED Forever
   <SHOPITEM>
     <CODE>410210945387</CODE>
     <EAN>0889296160892</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+    <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>410211107909</CODE>
+    <EAN>4260324215764</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
     <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
