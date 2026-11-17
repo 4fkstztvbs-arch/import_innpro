@@ -1,0 +1,295 @@
+{
+ "id": "Z-20261117-obsah-davka2",
+ "datum": "2026-11-17",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Beh 11:10 UTC, ľahký postup: nový krátky popis, meta titulok a meta popis u 15 produktov GMKtec (K17, M5S ×2, M2 Pro S 1 TB, M5 Ultra 32/1 TB, G3S 128 GB, G10 256 GB, EVO-T2S, G11 PLUS, G11, EVO-X2 ×2, EVO-X3, M3 Pro 16/512). Dlhý popis sa nemenil. Fakty z existujúceho slovenského popisu a tabuľky výrobcu; kapacity RAM a SSD u variantov z názvu. Pôvodné hodnoty zapísané len pri 7 prečítaných produktoch (skrátený krátky popis tak, ako ho vráti Shoptet); ostatné sa pred zápisom nečítali. Vynechané kvôli rozporom: model procesora pri G11 PLUS (názov hovorí AMD R2514, popis a tabuľka Ryzen 5 3500U), operačný systém pri G3S 128 GB, G10 256 GB, M2 Pro S 1 TB, EVO-X3 (názov ho neuvádza). Produkty EVO-X2 ×2, EVO-X3, G11, G11 PLUS (cez názov), M3 Pro 16/512 a G10 256 GB majú viditeľnosť detail-only alebo viditeľnú podľa Shoptetu; viditeľnosť sa nemenila. EVO-X2 128/2 TB má dlhý popis v angličtine, treba ho prepísať v samostatnom behu.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "087785",
+   "guid": "267f839e-92c6-11f1-adcd-bc2411833e01",
+   "model": "K17",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GMKtec K17 s procesorom Intel® Core™ Ultra 5 226V, 16 GB RAM, 1 TB SSD a Windows 11 Pro Predstavujeme GMKtec K17 – ultrakompaktné mini PC určené pre modernú prácu, pokročilú multitasking a…",
+     "po": "Mini PC GMKtec K17 s procesorom Intel Core Ultra 5 226V (8 jadier), grafikou Arc 130V a jednotkou NPU. 16 GB RAM LPDDR5X, SSD 1 TB, Windows 11 Pro, USB4, Wi-Fi 6E a podpora troch monitorov."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec K17, Core Ultra 5 226V, 16 GB, 1 TB",
+     "po": "Mini PC GMKtec K17, Core Ultra 5 226V, 16 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec K17 s procesorom Intel Core Ultra 5 226V, 16 GB RAM, 1 TB SSD a NPU Intel AI Boost pre aplikácie s AI. Malé rozmery neznamenajú kompromisy.",
+     "po": "Mini PC GMKtec K17 s Intel Core Ultra 5 226V, 16 GB RAM LPDDR5X a SSD 1 TB. AI výkon až 97 TOPS, USB4, Wi-Fi 6E, tri monitory a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "094776",
+   "guid": "db7929b2-c9c6-11f1-9e1a-bc2411833e01",
+   "model": "M5S",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GMKTEC M5S s procesorom Ryzen 3 5400U, 16 GB a 256 GB GMKTEC M5S spája kompaktné rozmery s výkonnosťou, ktorá je vhodná tak na každodennú kancelársku prácu, ako aj na náročnejšie…",
+     "po": "Mini PC GMKtec M5S s procesorom AMD Ryzen 3 5400U (4 jadrá, 8 vlákien). 16 GB RAM DDR4 (rozšíriteľná na 64 GB), SSD 256 GB, dva porty 2,5G LAN, Wi-Fi 6E a podpora troch monitorov."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKTEC M5S Ryzen 3 5400U 16 GB 256 GB",
+     "po": "Mini PC GMKtec M5S, Ryzen 3 5400U, 16 GB RAM, 256 GB"
+    },
+    "metaDescription": {
+     "pred": "GMKTEC M5S spája kompaktné rozmery s výkonnosťou, ktorá je vhodná tak na každodennú kancelársku prácu, ako aj na náročnejšie multimediálne aplikácie.",
+     "po": "Mini PC GMKtec M5S s AMD Ryzen 3 5400U, 16 GB RAM DDR4 a SSD 256 GB. Dva porty 2,5G LAN, Wi-Fi 6E, Bluetooth 5.2 a podpora troch monitorov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "e60fd0f6-d1aa-11f1-a4b6-bc2411833e01",
+   "model": "M5S",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5S s procesorom AMD Ryzen 3 5400U (4 jadrá, 8 vlákien). 16 GB RAM DDR4 (rozšíriteľná na 64 GB), SSD 512 GB, dva porty 2,5G LAN, Wi-Fi 6E a podpora troch monitorov."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5S, Ryzen 3 5400U, 16 GB RAM, 512 GB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5S s AMD Ryzen 3 5400U, 16 GB RAM DDR4 a SSD 512 GB. Dva porty 2,5G LAN, Wi-Fi 6E, Bluetooth 5.2 a podpora troch monitorov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "db78816a-c9c6-11f1-8f70-bc2411833e01",
+   "model": "M2 Pro S",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M2 Pro S s procesorom Intel Core i7-1185G7 (do 4,8 GHz), 16 GB RAM DDR4 a 1 TB SSD, dvoma výstupmi HDMI 2.0, USB-C s DisplayPort a Wi-Fi 6."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M2 Pro S, Intel i7-1185G7, 16 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M2 Pro S: Intel Core i7-1185G7 do 4,8 GHz, 16 GB DDR4, 1 TB SSD, 2× HDMI 2.0, USB-C s DisplayPort, Wi-Fi 6."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "de64083c-92c5-11f1-8c92-bc2411833e01",
+   "model": "M5 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5 Ultra s procesorom AMD Ryzen 7 7730U (do 4,5 GHz), 32 GB RAM DDR4 a 1 TB SSD, výstupmi HDMI, DisplayPort a USB-C, dvoma portmi 2,5G LAN a Wi-Fi 6E."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5 Ultra, Ryzen 7 7730U, 32 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M5 Ultra: Ryzen 7 7730U do 4,5 GHz, 32 GB DDR4, 1 TB SSD, HDMI, DisplayPort, USB-C, 2× 2,5G LAN, Wi-Fi 6E, Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "db7815fe-c9c6-11f1-adb9-bc2411833e01",
+   "model": "G3S",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Kompaktný Mini PC GMKtec G3S s procesorom Intel N95 (do 3,4 GHz), 8 GB RAM DDR4 a 128 GB SSD, dvoma výstupmi HDMI 2.0, Wi-Fi 5 a Bluetooth 5.0. Hmotnosť 255 g, spotreba 15 W."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec G3S, Intel N95, 8 GB RAM, 128 GB SSD"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec G3S: Intel N95 do 3,4 GHz, 8 GB DDR4, 128 GB SSD, 2× HDMI 2.0, Wi-Fi 5, Bluetooth 5.0, spotreba 15 W, hmotnosť 255 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "db785046-c9c6-11f1-8df1-bc2411833e01",
+   "model": "G10",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec G10 s procesorom AMD Ryzen 5 3500U, 16 GB RAM DDR4 a 256 GB SSD M.2 2280, podporou troch displejov 4K@60 Hz a tichou prevádzkou do 35 dB."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec G10, Ryzen 5 3500U, 16 GB RAM, 256 GB SSD"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec G10: Ryzen 5 3500U, 16 GB RAM, 256 GB SSD, tri displeje 4K@60 Hz, HDMI 2.1, DisplayPort 1.4, 2,5G LAN, hlučnosť do 35 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "094780",
+   "guid": "db79c4da-c9c6-11f1-9bbc-bc2411833e01",
+   "model": "EVO-T2S",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GMKTEC EVO-T2S s procesorom Intel Panther Lake X7-358H, 64 GB, 1 TB GMKTEC EVO-T2S spája kompaktný dizajn s výkonom prispôsobeným náročnej práci, zábave a lokálnym úlohám využívajúcim umelú…",
+     "po": "Mini PC GMKtec EVO-T2S s procesorom Intel Core Ultra X7 358H (16 jadier) a grafikou Intel Arc. 64 GB RAM LPDDR5X, SSD 1 TB, Windows 11 Pro, Wi-Fi 7, 10G a 2,5G LAN, 2× USB4 a OCuLink."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKTEC EVO-T2S s procesorom Intel…",
+     "po": "Mini PC GMKtec EVO-T2S, Core Ultra X7 358H, 64 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKTEC EVO-T2S s procesorom Intel PantherLake X7 358H, 64 GB a 1 TB – skladom. Kúpte na premiumstore.sk.",
+     "po": "Mini PC GMKtec EVO-T2S s Intel Core Ultra X7 358H, 64 GB RAM a SSD 1 TB. AI výkon až 180 TOPS, Wi-Fi 7, LAN 10G, 2× USB4 a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "095454",
+   "guid": "8c9415da-d986-11f1-8438-bc2411833e01",
+   "model": "G11 PLUS",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GMKtec G11 PLUS s procesorom AMD R2514, 16 GB, 512 GB, Windows 11 Mini PC GMKtec G11 PLUS je kompaktný stolný počítač určený na kancelársku prácu, vzdelávanie a každodennú zábavu. Je vybavený…",
+     "po": "Mini PC GMKtec G11 PLUS so 4-jadrovým procesorom AMD (8 vlákien) a grafikou Radeon. 16 GB RAM DDR4, SSD 512 GB, Windows 11 Pro, dva porty 2,5G LAN, Wi-Fi 6E a podpora troch 4K monitorov."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec G11 PLUS s procesorom AMD R2514, 16…",
+     "po": "Mini PC GMKtec G11 PLUS, 16 GB RAM, 512 GB SSD, Win 11"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec G11 PLUS s procesorom AMD R2514, 16 GB, 512 GB, Windows 11 – skladom. Kúpte na premiumstore.sk.",
+     "po": "Mini PC GMKtec G11 PLUS s 4-jadrovým procesorom AMD, 16 GB RAM DDR4 a SSD 512 GB. Dva porty 2,5G LAN, Wi-Fi 6E, tri 4K monitory a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087784",
+   "guid": "2674b43c-92c6-11f1-b87e-bc2411833e01",
+   "model": "G11",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GMKtec G11 s procesorom AMD R2514, 16 GB RAM, 512 GB SSD a Windows 11 Pro GMKtec G11 je kompaktný mini PC navrhnutý pre stabilný, rýchly a moderný výkon – či už pre firemné, profesionálne…",
+     "po": "Mini PC GMKtec G11 s procesorom AMD Ryzen Embedded R2514 (4 jadrá, 8 vlákien), 16 GB RAM DDR4 a SSD 512 GB. Windows 11 Pro, dva porty 2,5G LAN, Wi-Fi 6E a podpora troch 4K monitorov."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec G11, Ryzen Embedded R2514, 16 GB, 512 GB",
+     "po": "Mini PC GMKtec G11, Ryzen Embedded R2514, 16 GB, 512 GB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec G11 s procesorom AMD Ryzen Embedded R2514, 16 GB DDR4 RAM, 512 GB SSD a Windows 11 Pro. GMKtec G11 bol navrhnutý s ohľadom na flexibilitu.",
+     "po": "Mini PC GMKtec G11 s AMD Ryzen Embedded R2514, 16 GB RAM DDR4 a SSD 512 GB. Dva porty 2,5G LAN, Wi-Fi 6E, tri 4K monitory a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079912",
+   "guid": "ca491996-92c5-11f1-9097-bc2411833e01",
+   "model": "EVO-X2",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GMKtec EVO-X2- AMD Ryzen AI Max+ 395 - 128GB RAM +2 TB SSD The GMKtec EVO-X2 is a mini PC that offers high-end performance despite its small size. Equipped with an AMD Ryzen AI Max+ 395…",
+     "po": "Mini PC GMKtec EVO-X2 s procesorom AMD Ryzen AI Max+ 395 (16 jadier, 32 vlákien) a grafikou Radeon 8060S. 128 GB RAM LPDDR5X, SSD 2 TB, Windows 11 Pro, Wi-Fi 7, USB4 a podpora štyroch displejov."
+    },
+    "metaTitle": {
+     "pred": "GMKtec EVO-X2 – Ryzen AI Max+ 395, 128 GB RAM, 2 TB SSD",
+     "po": "Mini PC GMKtec EVO-X2, Ryzen AI Max+ 395, 128 GB, 2 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec EVO-X2: AMD Ryzen AI Max+ 395, 128 GB RAM LPDDR5X, 2 TB SSD a Wi-Fi 7. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "Mini PC GMKtec EVO-X2 s AMD Ryzen AI Max+ 395, 128 GB RAM LPDDR5X a SSD 2 TB. Grafika Radeon 8060S, NPU až 50 TOPS, Wi-Fi 7, USB4 a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "39cc28e4-92c6-11f1-9552-bc2411833e01",
+   "model": "EVO-X2",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-X2 s procesorom AMD Ryzen AI Max+ 395 (16 jadier, 32 vlákien) a grafikou Radeon 8060S. 64 GB RAM LPDDR5X, SSD 1 TB, Windows 11 Pro, Wi-Fi 7, USB4 a podpora štyroch displejov."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-X2, Ryzen AI Max+ 395, 64 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec EVO-X2 s AMD Ryzen AI Max+ 395, 64 GB RAM LPDDR5X a SSD 1 TB. Grafika Radeon 8060S, NPU až 50 TOPS, Wi-Fi 7, USB4 a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "094779",
+   "guid": "db7997bc-c9c6-11f1-8abc-bc2411833e01",
+   "model": "EVO-X3",
+   "polia": {
+    "shortDescription": {
+     "pred": "GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB Mini PC Počítač GMKTEC EVO-X3 bol navrhnutý pre používateľov, ktorí hľadajú kompaktný počítač schopný zvládnuť tak profesionálne úlohy v oblasti umelej…",
+     "po": "Mini PC GMKtec EVO-X3 s procesorom AMD Ryzen AI Max+ 395 (16 jadier, 32 vlákien) a grafikou Radeon 8060S. 128 GB RAM LPDDR5X, SSD 4 TB, Wi-Fi 7, USB4, OCuLink a LAN 2,5G."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKTEC EVO-X3 Ryzen AI Max+ 395 128 GB 4 TB",
+     "po": "Mini PC GMKtec EVO-X3, Ryzen AI Max+ 395, 128 GB, 4 TB"
+    },
+    "metaDescription": {
+     "pred": "Celok dopĺňa podpora systémov Windows 11 Pro, Linux alebo Ubuntu spolu so softvérom Claw určeným na spracovanie umelej inteligencie priamo v zariadení.",
+     "po": "Mini PC GMKtec EVO-X3 s AMD Ryzen AI Max+ 395, 128 GB RAM LPDDR5X a SSD 4 TB. AI výkon až 126 TOPS, Wi-Fi 7, USB4, OCuLink a LAN 2,5G."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "268bc69a-92c6-11f1-9071-bc2411833e01",
+   "model": "M3 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M3 Pro s procesorom Intel Core i5-13500H (12 jadier, 16 vlákien) a grafikou Iris Xe. 16 GB RAM DDR4, SSD 512 GB, Windows 11 Pro, dva porty 2,5G LAN a podpora troch 4K monitorov."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M3 Pro, Core i5-13500H, 16 GB RAM, 512 GB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M3 Pro s Intel Core i5-13500H, 16 GB RAM DDR4 a SSD 512 GB. Grafika Iris Xe, 2× LAN 2,5G, tri 4K monitory a Windows 11 Pro."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields shortDescription, metaTitle, metaDescription pri všetkých 15.",
+ "trvanlivost": "Overiť po nočnom importe, či import texty neprepísal.",
+ "navrat": "Vrátiť pôvodné hodnoty z polí pred cez product_update; pri produktoch s null je pôvodný text v output/innpro.xml alebo v dodávateľskom popise."
+}
