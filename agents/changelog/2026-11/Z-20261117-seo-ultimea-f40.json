@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261117-seo-ultimea-f40",
+  "datum": "2026-11-17",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Ultimea Skywave F40 BOOM (poz. 7,5, CTR 4,7 %): názov podľa šablóny (bez zdvojeného 'Soundbar'), titulok a meta bez ceny; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "083091",
+      "guid": "e8b10560-92c5-11f1-a646-bc2411833e01",
+      "url": "https://www.premiumstore.sk/ultimea-skywave-f40-boom-soundbar/",
+      "polia": {
+        "name": {
+          "pred": "Soundbar Ultimea Skywave F40 BOOM Soundbar",
+          "po": "Soundbar Ultimea Skywave F40 BOOM 5.1.2 s Dolby Atmos a subwooferom, 460 W"
+        },
+        "metaTitle": {
+          "pred": "Ultimea Skywave F40 BOOM soundbar 5.1.2",
+          "po": "Ultimea Skywave F40 BOOM soundbar 5.1.2, Dolby Atmos"
+        },
+        "metaDescription": {
+          "pred": "Soundbar Ultimea Skywave F40 BOOM: Dolby Atmos 5.1.2, špičkový výkon 460 W, 6,5-palcový subwoofer a HDMI eARC. Parametre a cenu nájdete na PremiumStore.sk.",
+          "po": "Soundbar Ultimea Skywave F40 BOOM 5.1.2: Dolby Atmos, výkon 460 W, 6,5\" subwoofer, zadné reproduktory, HDMI eARC a Bluetooth 5.4."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-17",
+    "ok": true,
+    "poznamka": "Shoptet potvrdil zápis polí name, metaTitle, metaDescription."
+  }
+}
