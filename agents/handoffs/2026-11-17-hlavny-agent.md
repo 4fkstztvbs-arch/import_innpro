@@ -5,7 +5,7 @@ rola: hlavny-agent
 
 ## Hotové
 
-- Ranný beh 17. 11.: všetky roly majú handoff, bez zlyhaného overenia a bez zásahu poistiek. Včera 6 dávok, 34 položiek (obsah 31, SEO 2 stránky a kategória 1... podľa changelogu).
+- Ranný beh 17. 11.: všetky roly majú handoff, bez zlyhaného overenia a bez zásahu poistiek. Včera 6 dávok, 34 položiek (obsah 4 dávky, SEO 2 dávky: MOZA R5 Pro a kategória Satelitné prijímače).
 - Obsah dosiahol 15 produktov na beh pri behoch 12:10 a 17:10 (Creality filamenty, ľahký postup pre dlhý chvost podľa rozhodnutia Martina 16. 11.).
 - Beží 4 experimenty: SEO pilot (do 11. 12.), A/A (do 27. 11.), obsah Flytec a Carlinkit (do 12. 12.), obsah Creality filamenty (do 14. 12.).
 - Chrome v behoch rolí potvrdený (obsah, seo, reklama, ux-cro).
