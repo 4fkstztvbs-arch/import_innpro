@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261117-seo-vgate-icar",
+  "datum": "2026-11-17",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Vgate iCar Pro 2S (poz. 8,1, CTR 3,0 %): titulok bez názvu obchodu a meta bez výzvy a podmienok; názov a URL ostávajú.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "AT_ATO-R288H",
+      "guid": "a6c6b2e2-b6f3-11f1-a06e-bc2411833e01",
+      "url": "https://www.premiumstore.sk/autodiagnostika-vgate-icar-pro-2s-obd-ii-bluetooth--pro-apple--android--windows/",
+      "polia": {
+        "metaTitle": {
+          "pred": "Vgate iCar Pro 2S OBD II Bluetooth | PremiumStore.sk",
+          "po": "Vgate iCar Pro 2S – Bluetooth 5.2 OBD2 adaptér"
+        },
+        "metaDescription": {
+          "pred": "Autodiagnostika Vgate iCar Pro 2S: Bluetooth 5.2, OBD2/EOBD 12 V, podpora EV a hybridov, iOS, Android aj Windows. Vrátenie do 14 dní. Objednajte!",
+          "po": "Vgate iCar Pro 2S: Bluetooth 5.2 OBD2/EOBD adaptér pre iOS, Android a Windows, podpora EV a hybridov, odber 3 mA v spánku."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-17",
+    "ok": true,
+    "poznamka": "Shoptet potvrdil zápis polí metaTitle a metaDescription."
+  }
+}
