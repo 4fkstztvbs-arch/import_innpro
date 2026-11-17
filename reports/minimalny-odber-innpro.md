@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-17 12:37 UTC.
+Kontrola z 2026-11-17 23:14 UTC.
 
-InnPro pri **384** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -42,12 +42,12 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
 | `029295` | Čelovka Superfire HL55 – 150 lm, USB-C, 4 režimy, 270 m | — | 5 |
 | `030322` | Baseus Crystal Shine kábel USB na Lightning, 2,4A, 1,2 m (mo | — | 5 |
-| `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 2 |
+| `032351` | Baseus 0,3 mm celosklenená fólia z tvrdeného skla (balenie 2 | — | 3 |
 | `031871` | Plávajúci ručný grip Telesin pre akčné a športové kamery (GP | — | 5 |
 | `035742` | Vertikálny úložný držiak pre vysávač Dreame P10/P10Pro | — | 5 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
-| `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
+| `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 2 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
 | `045781` | Sunnylife lanyard with attachment for DJI RC-N1 / RC-N2 / RC | — | 5 |
 | `037416` | Tvrdené sklo Sunnylife pre RC ovládač DJI 2ks (MM3-GHM388) | — | 5 |
@@ -86,7 +86,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `053078` | Face & Body Roller Head Geske (pink) | — | 5 |
 | `053691` | Joyroom držiak na palubnú dosku auta JR-ZS350 (strieborný) | — | 5 |
 | `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 5 |
-| `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
+| `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 2 |
 | `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
 | `053750` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (či | — | 5 |
 | `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 2 |
@@ -219,11 +219,11 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `077869` | Ochranné puzdro Puluz pre DJI Mic 2 (čierne) | — | 5 |
 | `077821` | T50*30-230 Dvojfarebné štítky do tlačiarne (žlté) | — | 5 |
 | `078020` | Tvrdené sklo Sunnylife pre RC PRO 2 (2 kusy) | — | 5 |
-| `078077` | Vrecko na prach do vysávača MOVA Z50 Ultra 4L [3 ks]. | — | 5 |
-| `078081` | Prachový filter pre vysávač MOVA Z50 Ultra [2 kusy]. | — | 5 |
-| `078082` | Filter vysávača MOVA K30/K30Mix/X4/X4Pro/X4Mix [1 ks]. | — | 5 |
-| `078092` | Utierky na podlahu pre vysávače MOVA E10, E20, E20 Plus, E20 | — | 5 |
-| `078088` | Bočné mopovacie podložky pre vysávač MOVA Z50 Ultra [2 kusy] | — | 5 |
+| `078077` | Vrecko na prach MOVA pre Z50 Ultra 4L 3 ks | — | 5 |
+| `078081` | Filter MOVA pre Z50 Ultra 2 ks | — | 5 |
+| `078082` | Filter MOVA pre K30/K30Mix/X4/X4Pro/X4Mix | — | 5 |
+| `078092` | Mopovacia podložka MOVA pre E10/E20/E20 Plus/E20 Pro Plus/E2 | — | 5 |
+| `078088` | Mopovacia podložka MOVA pre Z50 Ultra 2 ks | — | 5 |
 | `078265` | PULUZ silikónové ochranné puzdro s krytom objektívu pre Inst | — | 5 |
 | `078270` | Silikónový stojan PULUZ pre kameru Insta360 X5 | — | 5 |
 | `078359` | PetKit PURA MAX 2 vrecká na odpadky | — | 5 |
@@ -307,6 +307,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
+| `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
 | `086461` | Filtračné čerpadlo SUNSUN JP-032F | — | 5 |
 | `086462` | Filtračné čerpadlo SUNSUN JP-033F | — | 5 |
 | `086537` | Vnútorný filter SUNSUN HN-011 | — | 5 |
@@ -349,7 +350,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088979` | HTVRONT Sublimation Tape, 20 m x 33 m (modrá) | — | 5 |
 | `088982` | Súprava nástrojov na odstránenie fólie HTVRONT | — | 5 |
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |
-| `088985` | Rezná podložka HTVRONT 34,8 cm x 37 cm (viacfarebná) | — | 5 |
 | `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 2 |
 | `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
 | `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
@@ -379,6 +379,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089585` | Bočná kefa MOVA pre model E40 Ultra | — | 5 |
 | `089895` | Sunnylife Insta360 GO Ultra silikónový náramok (čierny) | — | 5 |
 | `089897` | Univerzálny držiak na telefón Sunnylife s klipom | — | 5 |
+| `087714` | Držiak Cycplus Z4 pre cyklopočítač | — | 5 |
 | `089382` | Tepelná etiketa NIIMBOT EW50*30-225 | — | 5 |
 | `089389` | Čelovka SUPERFIRE HL106 | — | 5 |
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |

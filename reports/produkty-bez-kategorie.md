@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-11-17 17:49 UTC.
+Kontrola z 2026-11-17 23:15 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -12,6 +12,12 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | Kód | Produkt |
 |---|---|
 | `MS-GARNI 1NG3` | Integrované čidlo Garni 1NG pre meteostanice Garni (AT_MS-GARNI 1NG3) |
+
+## basys — 1 ks
+
+| Kód | Produkt |
+|---|---|
+| `BASYS-B112D2` | Aktívny PA reproduktor Behringer EUROLIVE B112D, 12″ |
 
 ## innpro — 20 ks
 
@@ -34,9 +40,9 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `095728` | Softvér Revo Design Pro (trvalá licencia) – elektronický kód |
 | `095731` | Softvér Revo Measure, samostatná verzia (trvalá licencia) – elektronický kód |
 | `095733` | Revo Measure Software Professional Edition (3-ročná licencia) – elektronický kód |
-| `096162` | Pamäťová karta DDPAI 64 GB [microSD] U3 |
+| `096162` | Pamäťová karta DDPAI 64GB microSD U3 |
 | `096163` | Pamäťová karta DDPAI 128G microSD 128 GB U3 |
-| `096164` | Pamäťová karta DDPAI 256 GB [microSD] U3 |
+| `096164` | Pamäťová karta DDPAI microSD 256GB U3 |
 
 ## kb — 7 ks
 

@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — innpro
 
-Kontrola z 2026-11-17 12:37 UTC.
+Kontrola z 2026-11-17 23:14 UTC.
 
 **8 ciest bez pravidla, 25 produktov bez kategórie.**
 
@@ -9,7 +9,7 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Foto a video > Pamäťové karty` | 7 | Pamäťová karta GODOX microSD 4 GB; Pamäťová karta GODOX microSD s kapacitou 8 GB; Pamäťová karta GODOX microSD 16 GB; Pamäťová karta GODOX microSD 32 GB; Pamäťová karta DDPAI 64 GB [microSD] U3 |
+| `Foto a video > Pamäťové karty` | 7 | Pamäťová karta GODOX microSD 4 GB; Pamäťová karta GODOX microSD s kapacitou 8 GB; Pamäťová karta GODOX microSD 16 GB; Pamäťová karta GODOX microSD 32 GB; Pamäťová karta DDPAI 64GB microSD U3 |
 | `Príslušenstvo pre automobily > Nezávislé kúrenie` | 6 | Nezávislé kúrenie Blitzwolf BW-AH-V1-BT, 5 kW, 12 V, ovládané aplikáciou so štandardným banánovým rozhraním + Bluetooth; Nezávislé kúrenie Blitzwolf BW-AH-V2-BT, 5 kW, 12 V, ovládané aplikáciou so štandardným banánovým rozhraním + ovládač s displejom + Bluetooth; Parkovacie kúrenie Hcalory HBS-3; Parkovacie kúrenie Hcalory HBH-3; Parkovacie kúrenie Hcalory HBS-3S |
 | `IT príslušenstvo > Monitory` | 3 | Monitor DarkFlash 9,2" IPS V92 (čierny); Monitor Darkflash 9,2" IPS V92 (biely); Monitor Uperfect UGame C2 Pro 16" |
 | `Kreatívne technológie > Príslušenstvo pre 3D skenery` | 3 | Softvér Revo Design Pro (trvalá licencia) – elektronický kód; Softvér Revo Measure, samostatná verzia (trvalá licencia) – elektronický kód; Revo Measure Software Professional Edition (3-ročná licencia) – elektronický kód |

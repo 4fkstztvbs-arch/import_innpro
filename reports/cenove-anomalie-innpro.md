@@ -11,12 +11,13 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 023379X |  | Antény pre prijímač DJI Pro | nulová/neplatná cena |  | 0.00 € |  |  |
 | 011632X |  | Monitor 5,5" DJI CrystalSky | nulová/neplatná cena |  | 0.00 € |  |  |
 | 019838X |  | Vysielač ovládača DJI FPV System (režim 2) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 072141 | 6941565991539 | ND Filters Set (ND8/32/128) DJI Air 3S | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084203 | 6975755966342 | Flextail Tiny Tire Pump 200 (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084217 | 6971670130851 | Flextail Portable Hookah Pump (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084223 | 6975755962559 | Flextail Portable Evo Lantern 2in1 (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 084220 | 6975755965949 | Flextail Tiny Repeller S 2in1 (sand) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
-| 089414 | 5905156108714 | WOLFBOX X5 WiFi 4K + 2,5K 128 GB palubná kamera | nulová/neplatná cena |  | 0.00 € |  |  |
+| 089414 | 5905156108714 | Autokamera WOLFBOX X5 Wi-Fi 3CH + 128GB | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090447 | 6971131385394 | KVM prepínač GL.iNet Comet 5G | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -267,9 +268,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092398 | 6922572223356 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (zelená so strieborným odleskom) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092399 | 6922572223363 | Filament eSun PLA-Silk Magic 1,75 mm, 1 kg (zeleno-ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092400 | 6922572223370 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (červeno-strieborné) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092401 | 6922572223387 | Filament eSun PLA-Silk Magic 1.75mm 1kg (blue-gold) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092402 | 6922572223394 | Filament eSun PLA-Silk Magic 1.75mm (black coral pink) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092403 | 6922572221888 | Filament eSun PLA-Silk Magic 1.75mm 1kg (green-purple) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092401 | 6922572223387 | Filament eSun PLA-Silk Magic 1,75 mm, 1 kg (modro-zlatá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092402 | 6922572223394 | Vlákno eSun PLA-Silk Magic 1,75 mm (čierna koralovo ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092403 | 6922572221888 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (zeleno-fialové) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092430 | 6922572223349 | Filament eSun PLA-Matte 1,75 mm, 1 kg (aqua) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092431 | 6922572223301 | Filament eSun PLA-Matte 1,75 mm, 1 kg (betónovo šedá) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092433 | 6922572215368 | Filament eSun PLA-Matte Rainbow 1,75 mm 1 kg (ryžové polia) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -279,20 +280,17 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092443 | 6922572207950 | Vlákno eSun PLA-Matte Dual 1,75 mm 1 kg (červeno-modré) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092444 | 6922572207998 | Filament eSun PLA-Matte Dual 1,75 mm 1 kg (modro-fialová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092445 | 6922572207974 | Filament eSun PLA-Matte Dual 1,75 mm 1 kg (zelená-ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092282 | 6922572219106 | Sun Filament PLA+ 1,75 mm 1 kg (zelená) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092347 | 6922572204461 | Filament eSun PLA-Luminous 1.75mm (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092348 | 6922572204447 | Filament eSun PLA-Luminous 1.75mm (blue) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092349 | 6922572204478 | Filament eSun PLA-Luminous 1.75mm (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092363 | 6922572204171 | Filament eSun PLA-Silk 1.75mm 1kg (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092364 | 6922572220386 | Sun Filament PLA-Silk 1,75 mm 1 kg (aqua) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092365 | 6922572223981 | Sun Filament PLA-Silk 1,75 mm 1 kg (oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092366 | 6922572224001 | Sun Filament PLA-Silk 1,75 mm 1 kg (sivá) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092368 | 6922572218215 | Filament eSun PLA-Silk Rainbow 1.75mm (huaguo mountain) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092369 | 6922572218222 | Filament eSun PLA-Silk Rainbow 1.75mm 1kg (moon palace) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092370 | 6922572218239 | Filament eSun PLA-Silk Rainbow 1.75mm (flaming mountain) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092371 | 6922572218246 | Filament eSun PLA-Silk Rainbow 1.75mm 1kg (jade pool) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092372 | 6922572218253 | Filament eSun PLA-Silk Rainbow 1.75mm (dragon palace) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092384 | 6922572205321 | Filament eSun PLA-Silk Magic 1,75 mm, 1 kg (čierno-fialový) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092368 | 6922572218215 | Vlákno eSun PLA-Silk Rainbow 1,75 mm (huaguo mountain) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092369 | 6922572218222 | Vlákno eSun PLA-Silk Rainbow 1,75 mm 1 kg (Moon Palace) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092370 | 6922572218239 | Vlákno eSun PLA-Silk Rainbow 1,75 mm (flaming mountain) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092371 | 6922572218246 | Vlákno eSun PLA-Silk Rainbow 1,75 mm 1 kg (jade pool) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092372 | 6922572218253 | Vlákno eSun PLA-Silk Rainbow 1,75 mm (Dragon Palace) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092385 | 6922572221710 | Vlákno eSun PLA-Silk Magic 1,75 mm 1 kg (čierna so strieborným odleskom) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092392 | 6922572221727 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (zlatozelená) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092393 | 6922572221734 | Vlákno eSun PLA-Silk Magic 1,75 mm, 1 kg (čierno-ružové) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -413,7 +411,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094931 | 6924922272137 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G Wi-Fi 2CH | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096501 | 6942580510415 | Smartfón FOSSIBOT F101P s operačným systémom Android 13 a 4 GB RAM (červený) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096502 | 6942580510422 | Smartfón FOSSIBOT F125 s operačným systémom Android 14 a 12 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096503 | 6942580510439 | Smartfón FOSSIBOT F125 s operačným systémom Android 14 a 12 GB RAM (zelený) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -430,7 +428,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096541 | 6977402873034 | VR okuliare PIMAX DREAM, verzia Air Slam | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096542 | 6977402873072 | VR okuliare PIMAX DREAM Air SE, verzia Slam | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096717 | 6975274261218 | Elektráreň ALLPOWERS P1800 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035845 | 6941565916839 | Luminiscenčná letová mapa DJI RoboMaster TT | zmena ceny > 5x oproti minulému importu | 801.00 € | 146.50 € | 1/5.5x |  |
-| 061857 | 6976788020391 | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (ružové) | zmena ceny > 5x oproti minulému importu | 16.00 € | 3.10 € | 1/5.2x |  |
 | 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 11.00 € | 1/13.1x | 13 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 8.10 € | 1/17.8x | 13 |
