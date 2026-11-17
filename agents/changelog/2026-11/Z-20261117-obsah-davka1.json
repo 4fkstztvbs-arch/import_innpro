@@ -1,0 +1,315 @@
+{
+ "id": "Z-20261117-obsah-davka1",
+ "datum": "2026-11-17",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Beh 09:10 UTC, ľahký postup: nový krátky popis, meta titulok a meta popis u 15 produktov GMKtec (M6 Ultra ×2, M7 Ultra ×4, M8 ×2, K15 ×2, K13 ×2, M3 Pro ×2, K16). Dlhý popis sa nemenil. Fakty z existujúceho slovenského popisu a tabuľky výrobcu v detaile produktu; z rodiny sa čítal jeden produkt, ostatné varianty majú kapacity RAM a SSD z názvu. Pôvodné hodnoty sú zapísané len pri 7 prečítaných produktoch (skrátený krátky popis tak, ako ho vráti Shoptet); ostatné sa pred zápisom nečítali. Vynechané kvôli rozporom: Wi-Fi pri M7 Ultra (tabuľka Wi-Fi 6, text 6E), LAN pri K13 (tabuľka 'Gigabit LAN (5G)').",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "081570",
+   "guid": "de6e84b0-92c5-11f1-b72b-bc2411833e01",
+   "model": "M6 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "MINI-PC GMKtec M6 Ultra AMD Ryzen 5 7640HS 16GM RAM + 512GB SSD WIN 11 PRO. Pracujte ešte efektívnejšie. Mini počítač GMKtec M6 Ultra využíva procesor AMD Ryzen 5 7640HS so 6 jadrami a 12 vláknami,…",
+     "po": "Mini PC GMKtec M6 Ultra s procesorom AMD Ryzen 5 7640HS (6 jadier, 12 vlákien) a grafikou Radeon 760M. 16 GB RAM DDR5, SSD 512 GB, Windows 11 Pro, USB4, Wi-Fi 6E a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec M6 Ultra, Ryzen 5 7640HS, 16 GB, 512 GB",
+     "po": "Mini PC GMKtec M6 Ultra, Ryzen 5 7640HS, 16 GB, 512 GB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec M6 Ultra s procesorom AMD Ryzen 5 7640HS so 6 jadrami, 16 GB RAM a SSD 512 GB. Počítač umožňuje pohodlne pripojiť všetky potrebné zariadenia.",
+     "po": "Mini PC GMKtec M6 Ultra s AMD Ryzen 5 7640HS, 16 GB RAM a SSD 512 GB. Radeon 760M, tri monitory, Wi-Fi 6E, USB4 a 2× LAN 2,5G. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "de796416-92c5-11f1-a93f-bc2411833e01",
+   "model": "M6 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M6 Ultra s procesorom AMD Ryzen 5 7640HS (6 jadier, 12 vlákien) a grafikou Radeon 760M. 32 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, USB4, Wi-Fi 6E a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M6 Ultra, Ryzen 5 7640HS, 32 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M6 Ultra s AMD Ryzen 5 7640HS, 32 GB RAM a SSD 1 TB. Radeon 760M, tri monitory, Wi-Fi 6E, USB4 a 2× LAN 2,5G. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084390",
+   "guid": "fa5f5d84-92c5-11f1-a0bf-bc2411833e01",
+   "model": "M7 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "M7 Ultra Ryzen 7 PRO 6850U 16 GB RAM + 512 GB SSD GMKtec M7 Ultra je kompaktný mini PC, ktorý kombinuje výnimočný výkon procesora AMD Ryzen 7 PRO 6850U s pokročilou grafikou Radeon 680M a pamäťou…",
+     "po": "Mini PC GMKtec M7 Ultra s osemjadrovým procesorom AMD Ryzen 7 PRO 6850U a grafikou Radeon 680M. 16 GB RAM DDR5, SSD 512 GB, Windows 11 Pro, 2× USB4, OCuLink a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec M7 Ultra, Ryzen 7 PRO 6850U, 16 GB, 512 GB",
+     "po": "Mini PC GMKtec M7 Ultra, Ryzen 7 PRO 6850U, 16 GB, 512 GB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec M7 Ultra s procesorom AMD Ryzen 7 PRO 6850U, 16 GB RAM, 512 GB SSD a grafikou Radeon 680M. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GMKtec M7 Ultra s AMD Ryzen 7 PRO 6850U, 16 GB RAM a SSD 512 GB. Grafika Radeon 680M, 2× USB4, OCuLink a 2× LAN 2,5G. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "8c943920-d986-11f1-93f8-bc2411833e01",
+   "model": "M7 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra s osemjadrovým procesorom AMD Ryzen 7 PRO 6850U a grafikou Radeon 680M. 32 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, 2× USB4, OCuLink a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra, Ryzen 7 PRO 6850U, 32 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra s AMD Ryzen 7 PRO 6850U, 32 GB RAM a SSD 1 TB. Grafika Radeon 680M, 2× USB4, OCuLink a 2× LAN 2,5G. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "8c945e64-d986-11f1-982e-bc2411833e01",
+   "model": "M7 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra s osemjadrovým procesorom AMD Ryzen 7 PRO 6850U a grafikou Radeon 680M. 32 GB RAM DDR5, SSD 512 GB, Windows 11 Pro, 2× USB4, OCuLink a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra, Ryzen 7 PRO 6850U, 32 GB, 512 GB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra s AMD Ryzen 7 PRO 6850U, 32 GB RAM a SSD 512 GB. Grafika Radeon 680M, 2× USB4, OCuLink a 2× LAN 2,5G. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "8c948128-d986-11f1-b6fb-bc2411833e01",
+   "model": "M7 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra s osemjadrovým procesorom AMD Ryzen 7 PRO 6850U a grafikou Radeon 680M. 16 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, 2× USB4, OCuLink a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra, Ryzen 7 PRO 6850U, 16 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M7 Ultra s AMD Ryzen 7 PRO 6850U, 16 GB RAM a SSD 1 TB. Grafika Radeon 680M, 2× USB4, OCuLink a 2× LAN 2,5G. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084391",
+   "guid": "fa6b1eee-92c5-11f1-b80e-bc2411833e01",
+   "model": "M8",
+   "polia": {
+    "shortDescription": {
+     "pred": "M8 Ryzen 5 PRO 6650H MINI-PC 16 GB RAM + 512 GB SSD M8 Mini PC je kompaktný mini počítač navrhnutý pre vysoký výkon a bohatú funkčnosť. 6-jadrový 12-vláknový procesor AMD Ryzen 5 PRO 6650H dosahuje…",
+     "po": "Mini PC GMKtec M8 so 6-jadrovým procesorom AMD Ryzen 5 PRO 6650H a grafikou Radeon 660M. 16 GB RAM LPDDR5, SSD 512 GB, Windows 11 Pro, USB4, OCuLink a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec M8, Ryzen 5 PRO 6650H, 16 GB, 512 GB",
+     "po": "Mini PC GMKtec M8, Ryzen 5 PRO 6650H, 16 GB RAM, 512 GB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec M8 s 6-jadrovým procesorom AMD Ryzen 5 PRO 6650H, 16 GB RAM, 512 GB SSD a grafikou Radeon 660M. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GMKtec M8 s 6-jadrovým AMD Ryzen 5 PRO 6650H, 16 GB RAM a SSD 512 GB. Grafika Radeon 660M, USB4, OCuLink, 2× LAN 2,5G. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "db796742-c9c6-11f1-b22e-bc2411833e01",
+   "model": "M8",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M8 so 6-jadrovým procesorom AMD Ryzen 5 PRO 6650H a grafikou Radeon 660M. 16 GB RAM LPDDR5, SSD 1 TB, Windows 11 Pro, USB4, OCuLink a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M8, Ryzen 5 PRO 6650H, 16 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M8 s 6-jadrovým AMD Ryzen 5 PRO 6650H, 16 GB RAM a SSD 1 TB. Grafika Radeon 660M, USB4, OCuLink, 2× LAN 2,5G. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "085480",
+   "guid": "0d4e9ae0-92c6-11f1-a63a-bc2411833e01",
+   "model": "K15",
+   "polia": {
+    "shortDescription": {
+     "pred": "GMKtec K15 Core Ultra 5 125U 32 GB 1 TB Win 11 Pro Mini PC Moderný mini PC K15 ponúka oveľa viac ako len malé rozmery. Zariadenie kombinuje výkonný procesor Intel Core Ultra 5 125U, pamäť DDR5 a…",
+     "po": "Mini PC GMKtec K15 s procesorom Intel Core Ultra 5 125U (12 jadier) a jednotkou NPU s výkonom až 11 TOPS. 32 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, až 4 monitory a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec K15, Core Ultra 5 125U, 32 GB, 1 TB",
+     "po": "Mini PC GMKtec K15, Core Ultra 5 125U, 32 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec K15 s procesorom Intel Core Ultra 5 125U, 32 GB RAM, 1 TB SSD a podporou až štyroch displejov. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GMKtec K15 s Intel Core Ultra 5 125U, 32 GB RAM a SSD 1 TB. NPU až 11 TOPS, Wi-Fi 6E, OCuLink, 2× LAN 2,5G a až 4 monitory. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "0d594ee0-92c6-11f1-b7d7-bc2411833e01",
+   "model": "K15",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K15 s procesorom Intel Core Ultra 5 125U (12 jadier) a jednotkou NPU s výkonom až 11 TOPS. 16 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, až 4 monitory a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec K15, Core Ultra 5 125U, 16 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K15 s Intel Core Ultra 5 125U, 16 GB RAM a SSD 1 TB. NPU až 11 TOPS, Wi-Fi 6E, OCuLink, 2× LAN 2,5G a až 4 monitory. Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087146",
+   "guid": "1d090164-92c6-11f1-b0cf-bc2411833e01",
+   "model": "K13",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GMKtec K13 s procesorom Intel® Core™ Ultra 7, 16 GB RAM, 512 GB SSD a Windows 11 Pro Objavte mini PC GMKtec K13 – ultrakompaktný počítač, ktorý spája výkon na úrovni stolných počítačov s…",
+     "po": "Mini PC GMKtec K13 s procesorom Intel Core Ultra 7 256V, grafikou Intel Arc 140V a jednotkou NPU. 16 GB RAM LPDDR5X (nerozšíriteľná), SSD 512 GB, Windows 11 Pro, USB4 a podpora troch 4K monitorov."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec K13, Core Ultra 7 256V, 16 GB, 512 GB",
+     "po": "Mini PC GMKtec K13, Core Ultra 7 256V, 16 GB RAM, 512 GB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec K13 s procesorom Intel Core Ultra 7 256V, 16 GB RAM LPDDR5X, 512 GB SSD a grafikou Intel Arc. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GMKtec K13 s Intel Core Ultra 7 256V, 16 GB RAM LPDDR5X a SSD 512 GB. Grafika Intel Arc 140V, USB4, tri 4K monitory a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "1d1396ec-92c6-11f1-ac5c-bc2411833e01",
+   "model": "K13",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K13 s procesorom Intel Core Ultra 7 256V, grafikou Intel Arc 140V a jednotkou NPU. 16 GB RAM LPDDR5X (nerozšíriteľná), SSD 1 TB, Windows 11 Pro, USB4 a podpora troch 4K monitorov."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec K13, Core Ultra 7 256V, 16 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec K13 s Intel Core Ultra 7 256V, 16 GB RAM LPDDR5X a SSD 1 TB. Grafika Intel Arc 140V, USB4, tri 4K monitory a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "094774",
+   "guid": "db78b270-c9c6-11f1-8b26-bc2411833e01",
+   "model": "M3 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "GMKTEC M3 Pro Mini PC i5-13500H 16 GB 1 TB GMKtec M3 Pro je moderný mini PC určený pre používateľov, ktorí očakávajú vysoký výkon bez toho, aby zaberal cenné miesto na stole. V jeho kompaktnej…",
+     "po": "Mini PC GMKtec M3 Pro s procesorom Intel Core i5-13500H (12 jadier, 16 vlákien) a grafikou Iris Xe. 16 GB RAM DDR4, SSD 1 TB, Windows 11 Pro, dva porty 2,5G LAN a podpora troch 4K monitorov."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKTEC M3 Pro i5-13500H 16 GB 1 TB",
+     "po": "Mini PC GMKtec M3 Pro, Core i5-13500H, 16 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKTEC M3 Pro i5-13500H 16 GB 1 TB – skladom. Kúpte na premiumstore.sk.",
+     "po": "Mini PC GMKtec M3 Pro s Intel Core i5-13500H, 16 GB RAM DDR4 a SSD 1 TB. Grafika Iris Xe, 2× LAN 2,5G, tri 4K monitory a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": null,
+   "guid": "db78eb6e-c9c6-11f1-b5ea-bc2411833e01",
+   "model": "M3 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M3 Pro s procesorom Intel Core i5-13500H (12 jadier, 16 vlákien) a grafikou Iris Xe. 32 GB RAM DDR4, SSD 1 TB, Windows 11 Pro, dva porty 2,5G LAN a podpora troch 4K monitorov."
+    },
+    "metaTitle": {
+     "pred": null,
+     "po": "Mini PC GMKtec M3 Pro, Core i5-13500H, 32 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": null,
+     "po": "Mini PC GMKtec M3 Pro s Intel Core i5-13500H, 32 GB RAM DDR4 a SSD 1 TB. Grafika Iris Xe, 2× LAN 2,5G, tri 4K monitory a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086259",
+   "guid": "188c4fc4-92c6-11f1-9709-bc2411833e01",
+   "model": "K16",
+   "polia": {
+    "shortDescription": {
+     "pred": "GMKtec K16 Ryzen 7 7735HS 32 GB 1 TB Win 11 Pro Mini PC Počítač GMKtec K16 ľahko zvládne každodenné úlohy aj náročnejšie úlohy. Je vybavený procesorom AMD Ryzen 7 7735HS, 32 GB pamäte LPDDR5 a…",
+     "po": "Mini PC GMKtec K16 s 8-jadrovým procesorom AMD Ryzen 7 7735HS a grafikou Radeon 680M. 32 GB RAM LPDDR5 (nerozšíriteľná), SSD 1 TB, Windows 11 Pro, USB4, OCuLink, Wi-Fi 6E a dva porty 2,5G LAN."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GMKtec K16, Ryzen 7 7735HS, 32 GB, 1 TB",
+     "po": "Mini PC GMKtec K16, Ryzen 7 7735HS, 32 GB RAM, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GMKtec K16 s procesorom AMD Ryzen 7 7735HS, 32 GB RAM LPDDR5, 1 TB SSD a grafikou Radeon 680M. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GMKtec K16 s AMD Ryzen 7 7735HS, 32 GB RAM LPDDR5 a SSD 1 TB. Grafika Radeon 680M, USB4, OCuLink, 2× LAN 2,5G a Windows 11 Pro."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields shortDescription, metaTitle, metaDescription pri všetkých 15; kontrola po nočnom importe zostáva.",
+ "trvanlivost": "Overiť po nočnom importe, či import texty neprepísal (import názvy a popisy neprepisuje podľa Martina).",
+ "navrat": "Vrátiť pôvodné hodnoty z polí pred cez product_update; pri produktoch s null je pôvodný text v output/innpro.xml (krátky popis = prvých ~200 znakov popisu dodávateľa)."
+}
