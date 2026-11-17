@@ -1,0 +1,315 @@
+{
+ "id": "Z-20261117-obsah-davka3",
+ "datum": "2026-11-17",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Beh 13:10 UTC, ľahký postup: nový krátky popis, meta titulok a meta popis u 15 produktov (13× GEEKOM: A5 Pro, A6, A7 Max, A8 R7, A8 R9, GT1 Mega, IT12 Max, IT13 i5, IT13 i9, IT13 Max, X14 Pro Ultra 5/Ultra 9, X16 Pro; 2× GL.iNet Mango, Opal). Dlhý popis sa nemenil. Fakty z existujúceho slovenského popisu a tabuľky výrobcu; kapacity z názvu. Pôvodné hodnoty zapísané u všetkých prečítaných produktov (skrátený krátky popis tak, ako ho vráti Shoptet), inak null. Vynechané kvôli rozporom: pri X14 Pro Ultra 5 prípona procesora (názov 125U, tabuľka 125H); pri IT13 Max procesor a grafika (názov Core Ultra 9 185H, text i9-13900HK a Iris Xe). Mango a Opal majú viditeľnosť detail-only, viditeľnosť sa nemenila.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "084414",
+   "guid": "f938fe42-92c5-11f1-b69b-bc2411833e01",
+   "model": "A7 Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GEEKOM A7MAX Ryzen 9 7940HS 16 GB RAM 1 TB SSD + WIN 11 Pro GEEKOM A7 Max je kompaktný stolný počítač, ktorý kombinuje vysoký výkon procesora, výkonnú integrovanú grafickú kartu, rýchlu pamäť…",
+     "po": "Mini PC GEEKOM A7 Max s procesorom AMD Ryzen 9 7940HS (8 jadier, 16 vlákien) a grafikou Radeon 780M. 16 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, 2× USB4, 2× LAN 2,5 GbE a Wi-Fi 7."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM A7 Max Ryzen 9 7940HS, 16 GB, 1 TB SSD",
+     "po": "Mini PC GEEKOM A7 Max, Ryzen 9 7940HS, 16 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM A7 Max s Ryzen 9 7940HS, 16 GB DDR5 a 1 TB SSD. Windows 11 Pro, 2× USB4, 2× LAN 2,5 GbE, Wi-Fi 7, rozmery 135 × 132 mm.",
+     "po": "Mini PC GEEKOM A7 Max s AMD Ryzen 9 7940HS, 16 GB RAM DDR5 a SSD 1 TB. Grafika Radeon 780M, 2× USB4, 2× LAN 2,5 GbE, Wi-Fi 7 a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084415",
+   "guid": "f9435392-92c5-11f1-bcd8-bc2411833e01",
+   "model": "A8",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GEEKOM A8 Ryzen 9 8945HS 32 GB + 1 TB + Win11 Pro Mini PC GEEKOM A8 kombinuje kompaktný, minimalistický dizajn s výkonom, ktorý si zaslúži každý kancelársky pracovník alebo nadšenec…",
+     "po": "Mini PC GEEKOM A8 s procesorom AMD Ryzen 9 8945HS (8 jadier, 16 vlákien) a grafikou Radeon 780M. 32 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, USB4, LAN 2,5 Gb/s, Wi-Fi 6E a čítačka SDXC."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM A8, Ryzen 9 8945HS, 32 GB, 1 TB",
+     "po": "Mini PC GEEKOM A8, Ryzen 9 8945HS, 32 GB RAM, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM A8 s procesorom AMD Ryzen 9 8945HS, 32 GB RAM, 1 TB SSD a grafikou Radeon 780M. V praxi to znamená viac možností pre každého používateľa.",
+     "po": "Mini PC GEEKOM A8 s AMD Ryzen 9 8945HS, 32 GB RAM DDR5 a SSD 1 TB. Grafika Radeon 780M, USB4, LAN 2,5 Gb/s, Wi-Fi 6E a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "083631",
+   "guid": "1003ccba-92c6-11f1-b47f-bc2411833e01",
+   "model": "IT13 i5",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GEEKOM IT13 Intel® Core i5-13600H 16 GB 1 TB + Win 11 Pro GEEKOM IT13 s procesorom Intel® Core i5-13600H je ideálny pre tých, ktorí hľadajú výkonný, ale kompaktný počítač na prácu a zábavu.…",
+     "po": "Mini PC GEEKOM IT13 s procesorom Intel Core i5-13600H (10 jadier, 16 vlákien) a grafikou Iris Xe. 16 GB RAM DDR4, SSD 1 TB, Windows 11 Pro, 2× USB4, 2× HDMI, LAN 2,5 Gbps a Wi-Fi 6E."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM IT13, Core i5-13600H, 16 GB, 1 TB",
+     "po": "Mini PC GEEKOM IT13, Core i5-13600H, 16 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM IT13 s procesorom Intel Core i5-13600H, 16 GB RAM, 1 TB SSD a portami USB4, HDMI a 2,5G Ethernet. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GEEKOM IT13 s Intel Core i5-13600H, 16 GB RAM DDR4 a SSD 1 TB. Grafika Iris Xe, 2× USB4, 2× HDMI, LAN 2,5 Gbps, Wi-Fi 6E a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "083633",
+   "guid": "101ce916-92c6-11f1-82dd-bc2411833e01",
+   "model": "GT1 Mega",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GEEKOM GT1MEGA Intel® Core™ Ultra 9 185H 16 GB 1 TB + Win 11 Pro GEEKOM GT1 MEGA s procesorom Intel® Core™ Ultra 9 185H a 16 GB pamäte DDR5 je mini PC určený pre používateľov, ktorí očakávajú…",
+     "po": "Mini PC GEEKOM GT1 Mega s procesorom Intel Core Ultra 9 185H, jednotkou NPU a grafikou Intel Arc. 16 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, 2× USB4, 2× LAN 2,5 Gbps a Wi-Fi 7."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM GT1 Mega, Core Ultra 9 185H, 16 GB, 1 TB",
+     "po": "Mini PC GEEKOM GT1 Mega, Core Ultra 9 185H, 16 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM GT1 Mega s procesorom Intel Core Ultra 9 185H, 16 GB RAM DDR5 a duálnou LAN 2,5 Gbps. Na taký malý dizajn GT1 MEGA zaujme výberom portov.",
+     "po": "Mini PC GEEKOM GT1 Mega s Intel Core Ultra 9 185H, 16 GB RAM DDR5 a SSD 1 TB. Grafika Intel Arc, 2× USB4, 2× LAN 2,5 Gbps, Wi-Fi 7 a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "083634",
+   "guid": "1028583c-92c6-11f1-9bd6-bc2411833e01",
+   "model": "A6",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GEEKOM A6 AMD Ryzen™ 7 6800 16 GB 1 TB + Win 11 Pro GEEKOM A6 s procesorom AMD Ryzen™ 7 6800H + 16 GB DDR5 + 1 TB SSD je kompaktný, ale mimoriadne výkonný počítač s rozmermi len 10 × 10 cm,…",
+     "po": "Mini PC GEEKOM A6 s procesorom AMD Ryzen 7 6800H a grafikou Radeon 680M, rozmery 10 × 10 cm. 16 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, 2× USB4, 2× HDMI, LAN 2,5 Gb/s a Wi-Fi 6E."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM A6, Ryzen 7 6800H, 16 GB, 1 TB",
+     "po": "Mini PC GEEKOM A6, Ryzen 7 6800H, 16 GB RAM, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM A6 s procesorom AMD Ryzen 7 6800H, 16 GB RAM DDR5, 1 TB SSD a Windows 11 Pro. Objednajte na PremiumStore.sk.",
+     "po": "Mini PC GEEKOM A6 s AMD Ryzen 7 6800H, 16 GB RAM DDR5 a SSD 1 TB. Grafika Radeon 680M, 2× USB4, 2× HDMI, LAN 2,5 Gb/s, Wi-Fi 6E a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086810",
+   "guid": "297e6600-92c6-11f1-8814-bc2411833e01",
+   "model": "A8 R7",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GEEKOM A8 s procesorom Ryzen 7 8745HS, 16 GB RAM, 1 TB SSD + Windows 11 Pro GEEKOM A8 je mini PC poháňané 8-jadrovým procesorom AMD Ryzen 7 8745HS s taktom až 4,9 GHz, ktorý zaisťuje plynulý…",
+     "po": "Mini PC GEEKOM A8 s 8-jadrovým procesorom AMD Ryzen 7 8745HS (do 4,9 GHz) a grafikou Radeon 780M. 16 GB RAM DDR5, SSD 1 TB, Windows 11 Pro, USB4, 2× HDMI 2.0, LAN 2,5 Gbps a Wi-Fi 6E."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM A8, Ryzen 7 8745HS, 16 GB, 1 TB",
+     "po": "Mini PC GEEKOM A8, Ryzen 7 8745HS, 16 GB RAM, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM A8 s procesorom AMD Ryzen 7 8745HS, 16 GB RAM DDR5, 1 TB SSD a grafikou Radeon 780M. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GEEKOM A8 s AMD Ryzen 7 8745HS, 16 GB RAM DDR5 a SSD 1 TB. Grafika Radeon 780M, USB4, 2× HDMI 2.0, LAN 2,5 Gbps, Wi-Fi 6E a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088487",
+   "guid": "35124950-92c6-11f1-8279-bc2411833e01",
+   "model": "IT13 i9",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GEEKOM IT13 s procesorom Core i9-13900HK, 16 GB RAM, 1 TB SSD + Windows 11 Pro GEEKOM IT13 ponúka špičkový výkon v kompaktnom dizajne. Tento univerzálny mini PC je vybavený procesorom Intel…",
+     "po": "Mini PC GEEKOM IT13 s procesorom Intel Core i9-13900HK (14 jadier, 20 vlákien, do 5,4 GHz) a grafikou Iris Xe. 16 GB RAM DDR4, SSD 1 TB, Windows 11 Pro, 2× USB4, LAN 2,5 GbE a Wi-Fi 6E."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM IT13, Core i9-13900HK, 16 GB, 1 TB",
+     "po": "Mini PC GEEKOM IT13, Core i9-13900HK, 16 GB RAM, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM IT13 s procesorom Intel Core i9-13900HK, 16 GB DDR4 RAM, 1 TB SSD a podporou štyroch monitorov. A to všetko bez potreby ďalších rozbočovačov!",
+     "po": "Mini PC GEEKOM IT13 s Intel Core i9-13900HK, 16 GB RAM DDR4 a SSD 1 TB. Grafika Iris Xe, 2× USB4, 2× HDMI 2.0, LAN 2,5 GbE, Wi-Fi 6E a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087558",
+   "guid": "36190596-92c6-11f1-8378-bc2411833e01",
+   "model": "IT13 Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "GEEKOM IT13 Max Core Ultra 9 185H 32 GB 1 TB Win11 Pro Mini PC GEEKOM IT13 Max 2025 Edition je kompaktný mini PC prémiovej triedy, ktorý spája obrovský výkon s malými rozmermi (približne 10 x 10 cm).…",
+     "po": "Mini PC GEEKOM IT13 Max 2025 Edition s 32 GB RAM DDR4 3200 MHz a SSD 1 TB PCIe Gen4, rozmery približne 10 × 10 cm. Windows 11 Pro, 2× USB-C 4, 2× HDMI, 2× Ethernet a Wi-Fi 6E."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM IT13 Max, 32 GB RAM, 1 TB SSD",
+     "po": "Mini PC GEEKOM IT13 Max, 32 GB RAM, 1 TB SSD, Win 11 Pro"
+    },
+    "metaDescription": {
+     "pred": "Kompaktný mini PC GEEKOM IT13 Max s 32 GB RAM, 1 TB SSD diskom a systémom Windows 11 Pro. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Mini PC GEEKOM IT13 Max 2025 Edition s 32 GB RAM a SSD 1 TB PCIe Gen4. Podpora až 4 monitorov, 2× USB-C 4, 2× Ethernet, Wi-Fi 6E a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087559",
+   "guid": "3625378a-92c6-11f1-b0db-bc2411833e01",
+   "model": "IT12 Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "GEEKOM IT12 Max Core Ultra 5 125U 16 GB 500 GB Win11 Pro Mini PC GEEKOM IT12 Max je moderný mini PC určený pre používateľov, ktorí očakávajú vysoký výkon, energetickú úspornosť a maximálnu funkčnosť…",
+     "po": "Mini PC GEEKOM IT12 Max s procesorom Intel Core Ultra 5 125U. 16 GB RAM LPDDR5, SSD 500 GB PCIe 4.0, Windows 11 Pro, 2× USB4, 2× LAN 2,5 Gigabit, 5× USB 3.2 Gen 2 a podpora štyroch 4K monitorov."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM IT12 Max, Core Ultra 5 125U, 16 GB, 500 GB",
+     "po": "Mini PC GEEKOM IT12 Max, Core Ultra 5 125U, 16 GB, 500 GB"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM IT12 Max s procesorom Intel Core Ultra 5 125U, 16 GB pamäte LPDDR5 a SSD 500 GB PCIe 4.0. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Mini PC GEEKOM IT12 Max s Intel Core Ultra 5 125U, 16 GB RAM LPDDR5 a SSD 500 GB. 2× USB4, 2× LAN 2,5G, čítačka SD, 3-ročná záruka a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "095127",
+   "guid": "8c585518-d986-11f1-802b-bc2411833e01",
+   "model": "A5 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini PC GEEKOM A5 Pro s procesorom Ryzen 5 7530U GEEKOM A5 Pro 2026 Edition je mini PC, ktoré kombinuje 6-jadrový procesor AMD Ryzen™ 5 7530U s 12 vláknami, 16 GB pamäte RAM a 1 TB SSD. Procesor…",
+     "po": "Mini PC GEEKOM A5 Pro 2026 Edition s procesorom AMD Ryzen 5 7530U (6 jadier, 12 vlákien). 16 GB RAM DDR4, SSD 1 TB, Windows 11 Pro, 2× HDMI 2.0, LAN 2,5G, Wi-Fi 6 a rozmery 112 × 112 × 37 mm."
+    },
+    "metaTitle": {
+     "pred": "Mini PC GEEKOM A5 Pro s procesorom Ryzen 5 7530U",
+     "po": "Mini PC GEEKOM A5 Pro, Ryzen 5 7530U, 16 GB RAM, 1 TB SSD"
+    },
+    "metaDescription": {
+     "pred": "Mini PC GEEKOM A5 Pro s procesorom Ryzen 5 7530U – skladom. Kúpte na premiumstore.sk.",
+     "po": "Mini PC GEEKOM A5 Pro s AMD Ryzen 5 7530U, 16 GB RAM DDR4 a SSD 1 TB. 2× HDMI 2.0, LAN 2,5G, Wi-Fi 6, čítačka SD, držiak VESA a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087561",
+   "guid": "d3505d3c-a7fc-11f1-b1ed-bc2411e8af0e",
+   "model": "X14 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Notebook GEEKOM GeekBook X14 Pro s procesorom Intel Core Ultra 5 125U, 16 GB RAM, 500 GB SSD, Windows 11 Pro GEEKOM GeekBook X14 Pro je ultralahký prémiový notebook, ktorý kombinuje vysoký výkon s…",
+     "po": "Ultralahký notebook GEEKOM GeekBook X14 Pro s procesorom Intel Core Ultra 5, 14-palcovým 2,8K OLED displejom (120 Hz), 16 GB RAM, SSD 500 GB, hmotnosť 999 g a Windows 11 Pro."
+    },
+    "metaTitle": {
+     "pred": "Notebook GEEKOM GeekBook X14 Pro, Core Ultra 5, 500 GB",
+     "po": "Notebook GEEKOM GeekBook X14 Pro, Ultra 5, 16 GB, 500 GB"
+    },
+    "metaDescription": {
+     "pred": "Ultralahký notebook GEEKOM GeekBook X14 Pro s procesorom Intel Core Ultra 5 125U, 16 GB RAM a SSD 500 GB. Nebudete ho musieť príliš často pripájať k napájaniu!",
+     "po": "Notebook GEEKOM GeekBook X14 Pro: 14\" 2,8K OLED 120 Hz, Intel Core Ultra 5, 16 GB RAM, SSD 500 GB, 2× USB4, Wi-Fi 6E, batéria 72 Wh a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087560",
+   "guid": "d3459636-a7fc-11f1-b55a-bc2411e8af0e",
+   "model": "X16 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Notebook GEEKOM GeekBook X16 Pro s procesorom Intel Core Ultra 5 125U, 16 GB RAM, 500 GB úložiskom a systémom Windows 11 Pro GEEKOM GeekBook X16 Pro je moderný prémiový notebook, ktorý kombinuje…",
+     "po": "Tenký notebook GEEKOM GeekBook X16 Pro s procesorom Intel Core Ultra 5 125U, 16-palcovým 2,5K IPS displejom (120 Hz), 16 GB RAM, SSD 500 GB, hmotnosť 1 299 g a Windows 11 Pro."
+    },
+    "metaTitle": {
+     "pred": "Notebook GEEKOM GeekBook X16 Pro, Core Ultra 5, 500 GB",
+     "po": "Notebook GEEKOM GeekBook X16 Pro, Core Ultra 5 125U, 500 GB"
+    },
+    "metaDescription": {
+     "pred": "Tenký notebook GEEKOM GeekBook X16 Pro s procesorom Intel Core Ultra 5 125U, 16 GB RAM a SSD 500 GB. Ďalšie produkty nájdete v kategórii Mini PC.",
+     "po": "Notebook GEEKOM GeekBook X16 Pro: 16\" 2,5K IPS 120 Hz, Intel Core Ultra 5 125U, 16 GB RAM, SSD 500 GB, USB4, Wi-Fi 6E, batéria 77 Wh a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087562",
+   "guid": "d35a8af0-a7fc-11f1-a129-bc2411e8af0e",
+   "model": "X14 Pro U9",
+   "polia": {
+    "shortDescription": {
+     "pred": "Notebook GEEKOM GeekBook X14 Pro s procesorom Intel Core Ultra 9-185H, 32 GB RAM, 1 TB SSD, Windows 11 Pro GEEKOM GeekBook X14 Pro je ultralahký prémiový notebook, ktorý kombinuje vysoký výkon s…",
+     "po": "Ultralahký notebook GEEKOM GeekBook X14 Pro s procesorom Intel Core Ultra 9 185H, 14-palcovým 2,8K OLED displejom (120 Hz), 32 GB RAM, SSD 1 TB, hmotnosť 999 g a Windows 11 Pro."
+    },
+    "metaTitle": {
+     "pred": "Notebook GEEKOM GeekBook X14 Pro, Core Ultra 9, 1 TB",
+     "po": "Notebook GEEKOM GeekBook X14 Pro, Ultra 9 185H, 32 GB, 1 TB"
+    },
+    "metaDescription": {
+     "pred": "Ultralahký notebook GEEKOM GeekBook X14 Pro s procesorom Intel Core Ultra 9 185H, 32 GB RAM a SSD 1 TB. Nebudete ho musieť príliš často pripájať k napájaniu!",
+     "po": "Notebook GEEKOM GeekBook X14 Pro: 14\" 2,8K OLED 120 Hz, Intel Core Ultra 9 185H, 32 GB RAM, SSD 1 TB, 2× USB4, Wi-Fi 6E, batéria 72 Wh a Windows 11 Pro."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090433",
+   "guid": "65b71d16-c1eb-11f1-8ce0-bc24110eff41",
+   "model": "Mango",
+   "polia": {
+    "shortDescription": {
+     "pred": "Router GL.iNet Mango (GL-MT300N-V2) s podporou Wi-Fi 4 GL.iNet Mango (GL-MT300N-V2) je kompaktný cestovný router, ktorý ponúka pripojenie Wi-Fi 4 s rýchlosťou až 300 Mbps v pásme 2,4 GHz. Jeho…",
+     "po": "Kompaktný cestovný router GL.iNet Mango (GL-MT300N-V2) s Wi-Fi 4 do 300 Mbps v pásme 2,4 GHz. Podpora OpenVPN a WireGuard, 128 MB RAM, dva porty 10/100 Mbps, USB 2.0, hmotnosť 40 g."
+    },
+    "metaTitle": {
+     "pred": "Router GL.iNet Mango GL-MT300N-V2, Wi-Fi 4",
+     "po": "Cestovný router GL.iNet Mango GL-MT300N-V2, Wi-Fi 4"
+    },
+    "metaDescription": {
+     "pred": "Kompaktný cestovný router s Wi-Fi 4 (802.11n) v pásme 2,4 GHz a pamäťou RAM 128 MB. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "GL.iNet Mango (GL-MT300N-V2): cestovný router s Wi-Fi 4 do 300 Mbps, OpenVPN a WireGuard, 128 MB RAM, 2× LAN 10/100, USB 2.0 a hmotnosť 40 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090434",
+   "guid": "65bc11d6-c1eb-11f1-9095-bc24110eff41",
+   "model": "Opal",
+   "polia": {
+    "shortDescription": {
+     "pred": "Router GL.iNet Opal (GL-SFT1200) s podporou Wi-Fi 5 GL.iNet Opal (GL-SFT1200) je kompaktný router Wi-Fi 5, ktorý ponúka kombinovanú bezdrôtovú rýchlosť až 1200 Mb/s, vrátane rýchlosti až 300 Mbps v…",
+     "po": "Kompaktný cestovný router GL.iNet Opal (GL-SFT1200) s Wi-Fi 5 do 1200 Mb/s (300 + 867). Tri gigabitové porty, OpenVPN a WireGuard, napájanie USB-C, rozmery 118 × 85 × 30 mm, hmotnosť 145 g."
+    },
+    "metaTitle": {
+     "pred": "Router GL.iNet Opal GL-SFT1200, Wi-Fi 5",
+     "po": "Cestovný router GL.iNet Opal GL-SFT1200, Wi-Fi 5 router"
+    },
+    "metaDescription": {
+     "pred": "Kompaktný cestovný router s podporou Wi-Fi 5 pre pripojenie na cestách aj doma. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "GL.iNet Opal (GL-SFT1200): cestovný router s Wi-Fi 5 do 1200 Mb/s, 3× gigabitový port, OpenVPN a WireGuard, 128 MB RAM, napájanie USB-C."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetky 15 produktov; dĺžky skontrolované skriptom (krátky 150–250, titulok 50–60, meta 120–155).",
+ "trvanlivost": "Import nepíše názvy, popisy ani meta údaje (Martin 2026-11-12); po nočnom importe overiť, či texty ostali.",
+ "navrat": "Vrátiť pôvodné hodnoty z poľa pred cez product_update."
+}
