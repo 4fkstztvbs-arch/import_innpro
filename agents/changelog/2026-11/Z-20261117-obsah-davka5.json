@@ -1,0 +1,315 @@
+{
+ "id": "Z-20261117-obsah-davka5",
+ "datum": "2026-11-17",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Beh 17:10 UTC, ľahký postup: nový krátky popis, meta titulok a meta popis u 15 produktov MOVA (robotické vysávače V50 Ultra, V50 Ultra Complete, P70 Pro Ultra, Mobius 60, E20s Pro Plus, Z60 Ultra Roller Complete; bezdrôtové a tyčové vysávače M50 Ultra, M50 Pro, M50, S2 Detect, I10, G70, S4 Detect, M10, S7 Stick). Dlhý popis sa nemenil. Fakty z existujúceho slovenského popisu a tabuľky výrobcu; pôvodné hodnoty zapísané u všetkých produktov (skrátený krátky popis, ako ho vráti Shoptet). Vynechané kvôli rozporom: kapacita batérie pri M50 Ultra, S2 Detect a G70 (text a tabuľka sa líšia), doba prevádzky pri S2 Detect (60 vs 70 min), sací výkon pri S4 Detect (text 32 000 Pa, tabuľka 150 AW). Viditeľnosť sa nemenila.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "075478",
+   "guid": "b4a34bca-92c5-11f1-9719-bc2411833e01",
+   "model": "V50 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA V50 Ultra (biely) MOVA V50 Ultra je upratovací robot, ktorý za vás vysáva, vytiera a čistí mopové podložky. Vďaka vysokému saciemu výkonu (24 000 Pa) a inteligentnej funkcii…",
+     "po": "Robotický vysávač s mopom MOVA V50 Ultra v bielom prevedení so sacím výkonom 24 000 Pa a mopovaním vodou 50 °C. Dokovacia stanica umýva a suší mopy horúcim vzduchom 60 °C, batéria 6 400 mAh, prekonáva prahy do 6 cm."
+    },
+    "metaTitle": {
+     "pred": "MOVA V50 Ultra, biely robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA V50 Ultra biely, 24 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Biely robotický vysávač MOVA V50 Ultra, ktorý vysáva, vytiera a čistí mopy so sacím výkonom 24 000 Pa. Vďaka tomu je čistenie efektívnejšie.",
+     "po": "MOVA V50 Ultra (biely): robotický vysávač s mopom, sanie 24 000 Pa, mopovanie vodou 50 °C, dokovacia stanica so sušením 60 °C a batéria 6 400 mAh."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "075477",
+   "guid": "b4d33038-92c5-11f1-bc27-bc2411833e01",
+   "model": "V50 Ultra Complete",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA V50 Ultra Complete čistiaci robot (biely) MOVA V50 Ultra Complete je upratovací robot, ktorý za vás vysáva, vytiera a čistí mopové podložky. Vďaka vysokému saciemu výkonu (24 000 Pa) a…",
+     "po": "Robotický vysávač s mopom MOVA V50 Ultra Complete v bielom prevedení so sacím výkonom 24 000 Pa a mopovaním vodou 50 °C. Dokovacia stanica umýva a suší mopy, batéria 6 400 mAh, v balení náhradné vrecká, filtre a mopové pásiky."
+    },
+    "metaTitle": {
+     "pred": "MOVA V50 Ultra Complete, biely: robotický vysávač",
+     "po": "Robotický vysávač MOVA V50 Ultra Complete biely, 24 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Biely robotický vysávač MOVA V50 Ultra Complete, ktorý vysáva, vytiera a čistí mopy so sacím výkonom 24 000 Pa. Vďaka tomu je čistenie efektívnejšie.",
+     "po": "MOVA V50 Ultra Complete (biely): robotický vysávač s mopom, sanie 24 000 Pa, mopovanie vodou 50 °C, batéria 6 400 mAh a rozšírené balenie príslušenstva."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084688",
+   "guid": "fe83772e-92c5-11f1-b2a2-bc2411833e01",
+   "model": "P70 Pro Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA P70 Pro Ultra Čistiaci robot MOVA P70 Pro Ultra je navrhnutý tak, aby zabezpečoval dôkladné a prakticky bezúdržbové upratovanie domácnosti. Spája mimoriadne silný sací výkon so…",
+     "po": "Robotický vysávač s mopom MOVA P70 Pro Ultra so sacím výkonom až 30 000 Pa, vysúvateľným mopom MaxiReach a rozpoznaním viac ako 280 prekážok. Dokovacia stanica umýva mop pri 100 °C a suší ho vzduchom 70 °C."
+    },
+    "metaTitle": {
+     "pred": "MOVA P70 Pro Ultra robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA P70 Pro Ultra, 30 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA P70 Pro Ultra so silným sacím výkonom na dôkladné a takmer bezúdržbové upratovanie domácnosti. Objednajte na PremiumStore.sk.",
+     "po": "MOVA P70 Pro Ultra: robotický vysávač s mopom, sanie až 30 000 Pa, MaxiReach, rozpoznanie 280 prekážok a dokovacia stanica s umývaním mopu pri 100 °C."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079623",
+   "guid": "cb26ca70-92c5-11f1-8565-bc2411833e01",
+   "model": "Mobius 60",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA Mobius 60 Užite si voľný čas, zatiaľ čo Mobius 60 upratuje za vás. Je to pokročilý čistiaci robot, ktorý kombinuje vysoký sací výkon, inteligentnú navigáciu a sofistikovaný systém…",
+     "po": "Robotický vysávač s mopom MOVA Mobius 60 so sacím výkonom 30 000 Pa a automatickou výmenou troch typov mopov MopSwap Hub. Samočistenie mopu vodou do 100 °C, batéria 6 400 mAh, prekonanie prahov do 5 cm a rozpoznanie 200 prekážok."
+    },
+    "metaTitle": {
+     "pred": "MOVA Mobius 60 robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA Mobius 60, 30 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA Mobius 60 s vysokým sacím výkonom a inteligentnou navigáciou, ktorý upratuje za vás. Pozrite si ho na PremiumStore.sk.",
+     "po": "MOVA Mobius 60: robotický vysávač s mopom, sanie 30 000 Pa, automatická výmena mopov MopSwap Hub, samočistenie do 100 °C a batéria 6 400 mAh."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "082457",
+   "guid": "e9487440-92c5-11f1-af58-bc2411833e01",
+   "model": "E20s Pro Plus",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA E20s Pro Plus (biely) Každodenné upratovanie môže byť jednoduchšie, tichšie a plne automatizované. Čistiaci robot MOVA E20s Pro Plus je určený pre domácnosti, kde je dôležitá…",
+     "po": "Robotický vysávač s mopom MOVA E20s Pro Plus v bielom prevedení so sacím výkonom 13 000 Pa a laserovou navigáciou LDS. Stanica s vreckom 4 l na až 90 dní, nádoba na prach 330 ml, nádrž na vodu 245 ml, batéria 3 200 mAh."
+    },
+    "metaTitle": {
+     "pred": "MOVA E20s Pro Plus, biely: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA E20s Pro Plus, 13 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA E20s Pro Plus v bielej farbe pre tichšie a plne automatizované upratovanie domácnosti. Kúpte ho na PremiumStore.sk.",
+     "po": "MOVA E20s Pro Plus (biely): robotický vysávač s mopom, sanie 13 000 Pa, laserová navigácia LDS, vyprázdňovacia stanica s vreckom 4 l a batéria 3 200 mAh."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079556",
+   "guid": "cb064854-92c5-11f1-881c-bc2411833e01",
+   "model": "Z60 Ultra Roller Complete",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA Z60 Ultra Roller Kompletný čistiaci robot (čierny) Robot MOVA Z60 Ultra Roller Complete vám umožní komplexne sa postarať o čistotu podláh vo vašej domácnosti. Vďaka saciemu výkonu až 28 000 Pa,…",
+     "po": "Robotický vysávač s mopovacím valčekom MOVA Z60 Ultra Roller Complete v čiernom prevedení so sacím výkonom až 28 000 Pa. Zdvih mopu o 14 mm nad kobercami, prekonanie prahov do 8 cm, batéria 6 400 mAh a dve nádrže DuoSolution."
+    },
+    "metaTitle": {
+     "pred": "MOVA Z60 Ultra Roller Complete, čierny: robotický vysávač",
+     "po": "Robotický vysávač MOVA Z60 Ultra Roller Complete čierny"
+    },
+    "metaDescription": {
+     "pred": "Čierny robotický vysávač MOVA Z60 Ultra Roller Complete so sacím výkonom až 28 000 Pa na čistotu podláh v domácnosti. Nakúpte na PremiumStore.sk.",
+     "po": "MOVA Z60 Ultra Roller Complete (čierny): robotický vysávač s mopovacím valčekom, sanie 28 000 Pa, StepMaster 2.0 do 8 cm, batéria 6 400 mAh a DuoSolution."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079341",
+   "guid": "c4a7f368-92c5-11f1-b151-bc2411833e01",
+   "model": "M50 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový stojanový vysávač MOVA M50 Ultra na mokré a suché vysávanie Akumulátorový stojanový vysávač MOVA M50 Ultra kombinuje sací výkon 22 000 Pa s funkciou mopovania, vďaka ktorej je upratovanie…",
+     "po": "Bezdrôtový vertikálny vysávač MOVA M50 Ultra na mokré a suché vysávanie so sacím výkonom 22 000 Pa. Technológia EdgeCoverage, sklopenie o 180° pod nábytok, samočistenie kefy vodou 100 °C, nádrže 800 ml a 700 ml, doba prevádzky až 40 minút."
+    },
+    "metaTitle": {
+     "pred": "Bezdrôtový stojanový vysávač MOVA M50 Ultra na mokré a suché",
+     "po": "Bezdrôtový vysávač MOVA M50 Ultra, mokré a suché, 22 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový stojanový vysávač MOVA M50 Ultra: objem 0.7, sací tlak 22000 Pa a bezdrôtové vyhotovenie. Teraz môžete čistiť efektívne a bez zbytočného stresu.",
+     "po": "MOVA M50 Ultra: bezdrôtový vysávač na mokré a suché vysávanie, sanie 22 000 Pa, EdgeCoverage, sklopenie o 180°, samočistenie kefy a prevádzka do 40 minút."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "083623",
+   "guid": "f2a21352-92c5-11f1-b358-bc2411833e01",
+   "model": "M50 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový vysávač MOVA M50 Pro s mopom Ak chcete, aby bolo upratovanie rýchle, pohodlné a skutočne efektívne, MOVA M50 Pro je pre vás ideálnou voľbou. Toto zariadenie vysáva a umýva podlahy v jednom…",
+     "po": "Bezdrôtový vysávač s mopom MOVA M50 Pro, ktorý vysáva a umýva podlahy naraz so sacím výkonom 22 000 Pa a tlakom mopu 20 N. Technológia EdgeCoverage AI, sklopenie o 180° pod nábytok do 14 cm, prevádzka až 46 minút."
+    },
+    "metaTitle": {
+     "pred": "Bezdrôtový vysávač MOVA M50 Pro s mopom",
+     "po": "Bezdrôtový vysávač s mopom MOVA M50 Pro, 22 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový vysávač MOVA M50 Pro s mopom vysáva a umýva podlahy v jednom kroku a využíva inteligentné senzory. Ďalšie produkty nájdete v kategórii Vysávače.",
+     "po": "MOVA M50 Pro: bezdrôtový vysávač s mopom, sanie 22 000 Pa, tlak mopu 20 N, EdgeCoverage AI, sklopenie o 180°, samočistenie kefy 90 °C a prevádzka 46 minút."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084672",
+   "guid": "fe54b5d8-92c5-11f1-bba6-bc2411833e01",
+   "model": "M50",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA M50 Mokrý a suchý vysávač MOVA M50 je mokrý a suchý mopový vysávač, ktorý kombinuje veľmi vysoký sací výkon 22 000 Pa s inteligentným prispôsobením prevádzky typu nečistôt. Zariadenie umožňuje…",
+     "po": "Vysávač MOVA M50 na mokré a suché vysávanie so sacím výkonom až 22 000 Pa a tlakom na podlahu približne 20 N. Samočistenie kefy vodou 90 °C, sušenie horúcim vzduchom, nádrže 800 ml a 700 ml, doba prevádzky až 46 minút."
+    },
+    "metaTitle": {
+     "pred": "Vysávač MOVA M50 na mokré a suché vysávanie",
+     "po": "Vysávač MOVA M50 na mokré a suché vysávanie, 22 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Mokrý a suchý vysávač MOVA M50 so sacím výkonom 22 000 Pa a mokrým čistením, prevádzka až 46 min. Je to ideálne riešenie pre majiteľov domácich zvierat!",
+     "po": "MOVA M50: vysávač na mokré a suché vysávanie so sacím výkonom 22 000 Pa, samočistením kefy vodou 90 °C, detekciou nečistôt a prevádzkou až 46 minút."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "077604",
+   "guid": "c10abfce-92c5-11f1-839c-bc2411833e01",
+   "model": "S2 Detect",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový vertikálny vysávač MOVA S2 Detect Postarajte sa o čisté povrchy vo vašej domácnosti bez námahy. Zvislý vysávač MOVA S2 Detect odstraňuje nečistoty s 25 000 Pa a ponúka dlhý čas prevádzky.…",
+     "po": "Bezdrôtový vertikálny vysávač MOVA S2 Detect so sacím výkonom 25 000 Pa a funkciou mopovania s nádržkou 300 ml. Nádoba na prach 500 ml, 4-vrstvová filtrácia s účinnosťou 99,9 %, ohybná trubica, LED podsvietenie a LED displej."
+    },
+    "metaTitle": {
+     "pred": "Bezdrôtový vertikálny vysávač MOVA S2 Detect",
+     "po": "Bezdrôtový vertikálny vysávač MOVA S2 Detect, 25 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový vertikálny vysávač MOVA S2 Detect: sací tlak 25000 Pa a bezdrôtové vyhotovenie. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "MOVA S2 Detect: bezdrôtový vertikálny vysávač s mopovaním, sanie 25 000 Pa, nádoba 500 ml, 4-vrstvová filtrácia, ohybná trubica a LED podsvietenie."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079557",
+   "guid": "cb10e0a2-92c5-11f1-989e-bc2411833e01",
+   "model": "I10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Akumulátorový vertikálny vysávač MOVA I10 Vysávač MOVA I10 spája silný sací výkon 28 000 Pa s ľahkou konštrukciou s hmotnosťou iba 1,35 kg, vďaka čomu je upratovanie pohodlné a menej únavné. Je…",
+     "po": "Ľahký akumulátorový vertikálny vysávač MOVA I10 so sacím výkonom 28 000 Pa a hmotnosťou len 1,35 kg. Kefa TangleBuster s LED osvetlením, vymeniteľná batéria na až 60 minút prevádzky, filtrácia HEPA 99,99 %, nádoba na prach 350 ml."
+    },
+    "metaTitle": {
+     "pred": "Akumulátorový vertikálny vysávač MOVA I10",
+     "po": "Akumulátorový vysávač MOVA I10, 28 000 Pa, 1,35 kg"
+    },
+    "metaDescription": {
+     "pred": "Akumulátorový vertikálny vysávač MOVA I10: objem 0.3 a sací tlak 28000 Pa. Ďalšie parametre nájdete v popise. Je to ideálne riešenie pre väčšie byty alebo domy.",
+     "po": "MOVA I10: akumulátorový vertikálny vysávač so sacím výkonom 28 000 Pa, hmotnosťou 1,35 kg, vyberateľnou batériou na 60 minút a filtráciou HEPA 99,99 %."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081306",
+   "guid": "ddb6cb54-92c5-11f1-be0c-bc2411833e01",
+   "model": "G70",
+   "polia": {
+    "shortDescription": {
+     "pred": "Stojanový vysávač MOVA G70 MOVA G70 zefektívňuje upratovanie v celej domácnosti a kombinuje vysoký sací výkon s riešeniami, ktoré šetria čas a námahu. Technológia OptiInsight™ s dvojitými kefami a…",
+     "po": "Vertikálny vysávač MOVA G70 so sacím výkonom 225 AW (33,9 kPa) a technológiou OptiInsight s robotickým ramenom na čistenie okrajov. Teleskopická trubica, OLED displej, prevádzka až 90 minút, nádoba na prach 0,5 l a hmotnosť 1,93 kg."
+    },
+    "metaTitle": {
+     "pred": "Vertikálny vysávač MOVA G70",
+     "po": "Vertikálny vysávač MOVA G70, 225 AW, OptiInsight, OLED"
+    },
+    "metaDescription": {
+     "pred": "Vertikálny vysávač MOVA G70 s technológiou OptiInsight a dvojitými kefami na upratovanie celej domácnosti. Ďalšie produkty nájdete v kategórii Vysávače.",
+     "po": "MOVA G70: vertikálny vysávač so sacím výkonom 225 AW (33,9 kPa), robotickým ramenom, teleskopickou trubicou, OLED displejom a prevádzkou až 90 minút."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "070650",
+   "guid": "978748c0-92c5-11f1-840a-bc2411833e01",
+   "model": "S4 Detect",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA S4 detect bezdrôtový vysávač MOVA S4 Detect je najmodernejší bezdrôtový vysávač ktorý poskytuje vynikajúci čistiaci výkon v rôznych podmienkach. Vďaka pokročilej technológii detekcie nečistôt…",
+     "po": "Bezdrôtový vysávač MOVA S4 Detect s automatickou detekciou nečistôt a viacúčelovou kefou proti zamotávaniu. Doba prevádzky až 90 minút, nádoba na prach 0,6 l, filtrácia 99,9 %, LED displej, hmotnosť 1,71 kg a nástenný držiak."
+    },
+    "metaTitle": {
+     "pred": "Vysávač MOVA S4 detect bezdrôtový",
+     "po": "Bezdrôtový vysávač MOVA S4 Detect, 90 min, detekcia nečistôt"
+    },
+    "metaDescription": {
+     "pred": "Vysávač MOVA S4 detect bezdrôtový: objem 0.6 a bezdrôtové vyhotovenie. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "MOVA S4 Detect: bezdrôtový vysávač s detekciou nečistôt, viacúčelovou kefou, prevádzkou až 90 minút, nádobou 0,6 l, filtráciou 99,9 % a LED displejom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "070671",
+   "guid": "96171a10-92c5-11f1-9dd1-bc2411833e01",
+   "model": "M10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový vysávač na mokré a suché vysávanie Mova M10 Mova M10 je všestranný bezdrôtový vysávač, ktorý kombinuje funkcie suchého a mokrého vysávania. Vďaka tomu je zariadenie ideálne na…",
+     "po": "Bezdrôtový vysávač MOVA M10 na mokré a suché vysávanie so sacím výkonom 18 000 Pa a samočistiacou kefou proti zamotávaniu vlasov. Nádrže 800 ml a 700 ml, doba prevádzky až 40 minút, nabíjacia stanica, hlasové pokyny."
+    },
+    "metaTitle": {
+     "pred": "Bezdrôtový vysávač na mokré a suché vysávanie MOVA M10",
+     "po": "Bezdrôtový vysávač MOVA M10 na mokré a suché, 18 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "suché vysávanie MOVA M10: objem 800, sací tlak 18000 Pa a bezdrôtové vyhotovenie. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "MOVA M10: bezdrôtový vysávač na mokré a suché, sanie 18 000 Pa, samočistiaca kefa, nádrže 800 a 700 ml, prevádzka do 40 minút a nabíjacia stanica."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084678",
+   "guid": "fe3ea806-92c5-11f1-ab2e-bc2411833e01",
+   "model": "S7 Stick",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA S7 Stick Vacuum MOVA S7 je pokročilý bezdrôtový vysávač, ktorý kombinuje vysoký sací výkon 170 AW s inteligentným prispôsobením prevádzky úrovni znečistenia. Zariadenie ponúka až 80 minút…",
+     "po": "Bezdrôtový tyčový vysávač MOVA S7 Stick so sacím výkonom 170 AW (30 kPa) a automatickým nastavením výkonu podľa nečistôt. Prevádzka až 80 minút, vymeniteľná batéria, filtrácia HEPA H13, OLED displej a zelené podsvietenie kefy."
+    },
+    "metaTitle": {
+     "pred": "Vysávač MOVA S7 Stick, MOVA 6978794731704",
+     "po": "Bezdrôtový tyčový vysávač MOVA S7 Stick, 170 AW, 80 min"
+    },
+    "metaDescription": {
+     "pred": "Vysávač MOVA S7 Stick: na vysávanie podláh a čalúnenia v domácnosti; na praktické použitie doma aj na cestách. Objednajte na PremiumStore.sk.",
+     "po": "MOVA S7 Stick: tyčový vysávač so sacím výkonom 170 AW (30 kPa), prevádzkou až 80 minút, filtráciou HEPA H13, OLED displejom a podsvietením kefy."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 produktov; dĺžky skontrolované skriptom (krátky 150–250, titulok 50–60, meta 120–155).",
+ "trvanlivost": "Import nepíše názvy, popisy ani meta údaje (Martin 2026-11-12); po nočnom importe overiť, či texty ostali.",
+ "navrat": "Vrátiť pôvodné hodnoty z poľa pred cez product_update."
+}
