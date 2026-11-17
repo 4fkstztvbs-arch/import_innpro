@@ -1,0 +1,315 @@
+{
+ "id": "Z-20261117-obsah-davka4",
+ "datum": "2026-11-17",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Beh 15:10 UTC, ľahký postup: nový krátky popis, meta titulok a meta popis u 15 produktov: GL.iNet (Comet PoE, Flint 3e, GL-MT5000, Beryl 7, Comet v2, Comet Pro, Comet X, Comet Q, Slate 7 Pro) a MOVA (S10 Plus, S10, P50 Ultra, P50 Pro Ultra, E20 biely a čierny). Dlhý popis sa nemenil. Fakty z existujúceho slovenského popisu a tabuľky výrobcu; pôvodné hodnoty zapísané u všetkých produktov (skrátený krátky popis, ako ho vráti Shoptet). Vynechané kvôli rozporom: pri MOVA S10 objem nádoby na prach (350 ml pri S10 Plus a 470 ml pri S10 v tabuľke). Preskočené ako kontrolná skupina SEO pilotu: GL.iNet Flint 2 a Beryl AX. Viditeľnosť sa nemenila (väčšina GL.iNet a E20, P50 Pro Ultra sú detail-only). MOVA S10 Plus a S10 majú dlhý popis v angličtine, treba prepísať v samostatnom behu. Comet v2 má v zozname balenia text od iného produktu (router, antény Wi-Fi a 5G NR).",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "090445",
+   "guid": "3eeb17a4-92c6-11f1-987b-bc2411833e01",
+   "model": "Comet PoE",
+   "polia": {
+    "shortDescription": {
+     "pred": "KVM prepínač GL.iNet Comet PoE (GL-RM1PE) GL.iNet Comet PoE (GL-RM1PE) je pokročilý KVM prepínač, ktorý umožňuje plnú vzdialenú správu počítačov, serverov a sieťových zariadení cez internet. Vďaka…",
+     "po": "KVM prepínač GL.iNet Comet PoE (GL-RM1PE) na vzdialenú správu počítačov a serverov cez webový prehliadač. Video 4K pri 30 FPS, latencia 30–60 ms, napájanie PoE alebo USB-C, 32 GB eMMC, Gigabit Ethernet."
+    },
+    "metaTitle": {
+     "pred": "KVM prepínač GL.iNet Comet PoE (GL-RM1PE), 4K",
+     "po": "KVM prepínač GL.iNet Comet PoE (GL-RM1PE), 4K, PoE"
+    },
+    "metaDescription": {
+     "pred": "GL.iNet Comet PoE (GL-RM1PE) je pokročilý KVM prepínač, ktorý umožňuje plnú vzdialenú správu počítačov, serverov a sieťových zariadení cez internet.",
+     "po": "GL.iNet Comet PoE (GL-RM1PE): KVM prepínač s videom 4K/30 FPS, obojsmerným zvukom, napájaním PoE alebo USB-C, 32 GB eMMC a podporou Tailscale."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "093438",
+   "guid": "ae237d6a-a733-11f1-8e0d-bc2411833e01",
+   "model": "Flint 3e",
+   "polia": {
+    "shortDescription": {
+     "pred": "Sieťové zariadenie GL.iNet GL-BE6500 GL.iNet GL-BE6500 je dual-band Wi-Fi 7 router určený na použitie v komplexných domácich sieťach, malých a stredných podnikoch a pre profesionálov, ktorí používajú…",
+     "po": "Dual-band Wi-Fi 7 router GL.iNet Flint 3e (GL-BE6500) s rýchlosťou až 6 500 Mb/s. Päť portov 2,5G, USB 3.0, štvorjadrový procesor Qualcomm 1,5 GHz, 1 GB RAM, WireGuard, OpenVPN a systém OpenWrt."
+    },
+    "metaTitle": {
+     "pred": "Wi-Fi 7 router GL.iNet Flint 3e (GL-BE6500)",
+     "po": "Wi-Fi 7 router GL.iNet Flint 3e GL-BE6500, 5× 2,5G"
+    },
+    "metaDescription": {
+     "pred": "Dual-band Wi-Fi 7 router GL.iNet Flint 3e (GL-BE6500) pre komplexné domáce siete a malé firmy. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "GL.iNet Flint 3e (GL-BE6500): Wi-Fi 7 router do 6 500 Mb/s, 5× port 2,5G, USB 3.0, Multi-WAN, WireGuard až 1 100 Mb/s, OpenVPN, AdGuard Home a OpenWrt."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "093439",
+   "guid": "ae2dd0da-a733-11f1-b4eb-bc2411833e01",
+   "model": "MT5000",
+   "polia": {
+    "shortDescription": {
+     "pred": "Brána GL.iNet GL-MT5000 GL.iNet GL-MT5000 je káblová brána VPN určená pre domácnosti, malé kancelárie a jednotlivcov, ktorí si želajú väčšiu kontrolu nad svojou vlastnou sieťou. Kombinuje výkon VPN…",
+     "po": "VPN brána GL.iNet GL-MT5000 s tromi portami 2,5 Gb/s, výkonom WireGuard až 1 100 Mb/s a OpenVPN-DCO až 1 000 Mb/s. Procesor MediaTek 2,0 GHz, 1 GB RAM, 8 GB eMMC, OpenWrt 21.02 a napájanie USB-C."
+    },
+    "metaTitle": {
+     "pred": "VPN brána GL.iNet GL-MT5000, 2,5 GbE",
+     "po": "VPN brána GL.iNet GL-MT5000, 3× 2,5 GbE, WireGuard"
+    },
+    "metaDescription": {
+     "pred": "Káblová VPN brána GL.iNet GL-MT5000 s tromi portami 2,5 Gbps, výkonom VPN až 1 100 Mbps cez WireGuard a Multi-WAN. Objednajte na PremiumStore.sk.",
+     "po": "GL.iNet GL-MT5000: káblová VPN brána s 3× 2,5 Gb/s, WireGuard až 1 100 Mb/s, Multi-WAN, DPI, SQM, 8 GB eMMC, USB-C 3.0 a systémom OpenWrt 21.02."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090438",
+   "guid": "65c7f3b6-c1eb-11f1-94f8-bc24110eff41",
+   "model": "Beryl 7",
+   "polia": {
+    "shortDescription": {
+     "pred": "Router GL.iNet Beryl 7 (GL-MT3600BE) s podporou Wi-Fi 7 GL.iNet Beryl 7 (GL-MT3600BE) je pokročilý cestovný router s podporou Wi-Fi 7 cestovný router, ktorý ponúka celkovú bezdrôtovú priepustnosť až…",
+     "po": "Cestovný router GL.iNet Beryl 7 (GL-MT3600BE) s Wi-Fi 7 do 3 570 Mb/s. Štvorjadrový procesor MediaTek 2,0 GHz, 512 MB RAM, dva porty 2,5G, USB 3.0, WireGuard až 1 100 Mb/s a napájanie USB-C, 205 g."
+    },
+    "metaTitle": {
+     "pred": "Router GL.iNet Beryl 7 GL-MT3600BE, Wi-Fi 7",
+     "po": "Cestovný router GL.iNet Beryl 7 GL-MT3600BE, Wi-Fi 7"
+    },
+    "metaDescription": {
+     "pred": "Pokročilý cestovný router s podporou Wi-Fi 7 pre rýchle a stabilné pripojenie na cestách. Ďalšie produkty nájdete v kategórii Cestovné a VPN routery.",
+     "po": "GL.iNet Beryl 7 (GL-MT3600BE): cestovný router s Wi-Fi 7 do 3 570 Mb/s, 2× port 2,5G, USB 3.0, WireGuard a OpenVPN, napájanie USB-C a hmotnosť 205 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090444",
+   "guid": "65d98ab8-c1eb-11f1-9e9b-bc24110eff41",
+   "model": "Comet v2",
+   "polia": {
+    "shortDescription": {
+     "pred": "KVM prepínač GL.iNet Comet (GL-RM1) GL.iNet Comet (GL-RM1) je diaľkový prepínač KVM, ktorý umožňuje plnú kontrolu nad počítačom alebo serverom z akéhokoľvek miesta. Umožňuje vám zobraziť obrazovku,…",
+     "po": "KVM prepínač GL.iNet Comet (GL-RM1) na diaľkové ovládanie počítača alebo servera cez webový prehliadač. Video 4K pri 30 FPS, latencia 30–60 ms, Gigabit Ethernet, 8 GB eMMC, USB-C napájanie, hmotnosť 85 g."
+    },
+    "metaTitle": {
+     "pred": "KVM prepínač GL.iNet Comet v2 (GL-RM1)",
+     "po": "KVM prepínač GL.iNet Comet v2 GL-RM1, 4K, diaľkový"
+    },
+    "metaDescription": {
+     "pred": "Diaľkový KVM prepínač umožňuje plnú kontrolu nad počítačom alebo serverom cez sieť. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "GL.iNet Comet (GL-RM1): diaľkový KVM prepínač s videom 4K/30 FPS, latenciou 30–60 ms, Wake on LAN, Gigabit Ethernet a napájaním USB-C. Bez predplatného."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090446",
+   "guid": "65e245c2-c1eb-11f1-b753-bc24110eff41",
+   "model": "Comet Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "KVM prepínač GL.iNet Comet Pro (GL-RM10) GL.iNet Comet Pro (GL-RM10) je pokročilý KVM prepínač, ktorý poskytuje plný vzdialený prístup k počítačom, pracovným staniciam a serverom z ktoréhokoľvek…",
+     "po": "KVM prepínač GL.iNet Comet Pro (GL-RM10) s Wi-Fi 6, Gigabit Ethernet a 2,22-palcovým dotykovým displejom. Video 4K pri 30 FPS s HDMI passthrough, obojsmerný zvuk, 32 GB eMMC, podpora Tailscale a 2FA."
+    },
+    "metaTitle": {
+     "pred": "KVM prepínač GL.iNet Comet Pro (GL-RM10)",
+     "po": "KVM prepínač GL.iNet Comet Pro GL-RM10, Wi-Fi 6, 4K"
+    },
+    "metaDescription": {
+     "pred": "Toto zariadenie kombinuje funkcie diaľkového ovládania s podporou Wi-Fi 6, Gigabit Ethernet, videa v rozlíšení 4K pri 30 FPS a obojsmernej audio komunikácie.",
+     "po": "GL.iNet Comet Pro (GL-RM10): KVM prepínač s Wi-Fi 6, dotykovým displejom 2,22\", videom 4K/30 FPS, obojsmerným zvukom, 32 GB eMMC a podporou Tailscale."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "093436",
+   "guid": "6edf0bec-c1eb-11f1-a276-bc24110eff41",
+   "model": "Slate 7 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Router GL.iNet Slate 7 Pro GL.iNet Slate 7 Pro je trojpásmový router s technológiou Wi-Fi 7 a prvým zariadením svojho druhu, ktoré plne využíva potenciál agregácie troch pásiem. Technológia MLO…",
+     "po": "Trojpásmový cestovný router GL.iNet Slate 7 Pro s Wi-Fi 7 do 5 764 Mb/s v pásme 6 GHz. 2,8-palcový dotykový displej, dva porty 2,5G, USB-C 3.0, WireGuard až 1 100 Mb/s, 1 GB RAM, hmotnosť 328 g."
+    },
+    "metaTitle": {
+     "pred": "Cestovný router GL.iNet Slate 7 Pro, Wi-Fi 7",
+     "po": "Cestovný router GL.iNet Slate 7 Pro, Wi-Fi 7, 2,8\" displej"
+    },
+    "metaDescription": {
+     "pred": "Trojpásmový cestovný router GL.iNet Slate 7 Pro s Wi-Fi 7, 2,5G ethernetom a USB 3.0. Vhodný aj pre VPN. Objednajte na PremiumStore.sk.",
+     "po": "GL.iNet Slate 7 Pro: trojpásmový cestovný router s Wi-Fi 7, 2,8\" dotykovým displejom, 2× port 2,5G, USB-C 3.0, WireGuard až 1 100 Mb/s a Multi-WAN."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "093440",
+   "guid": "6ee3c63c-c1eb-11f1-ad12-bc24110eff41",
+   "model": "Comet X",
+   "polia": {
+    "shortDescription": {
+     "pred": "KVM prepínač GL.iNet Comet X GL.iNet Comet X (GL-RM4PE) vám umožňuje vzdialene spravovať až 4 servery pomocou jediného zariadenia, pričom poskytuje obraz v rozlíšení až 4K pri 30 FPS a prístup…",
+     "po": "KVM prepínač GL.iNet Comet X (GL-RM4PE) na vzdialenú správu až 4 serverov. Video 4K pri 30 FPS, 3,69-palcový dotykový displej, napájanie PoE alebo USB-C, 64 GB eMMC a montáž do 10\" aj 19\" racku."
+    },
+    "metaTitle": {
+     "pred": "Vzdialený KVM prepínač GL.iNet Comet X GL-RM4PE",
+     "po": "KVM prepínač GL.iNet Comet X GL-RM4PE, 4 porty, PoE"
+    },
+    "metaDescription": {
+     "pred": "Vzdialený KVM GL.iNet Comet X (GL-RM4PE) na správu až 4 serverov, s 3,69\" dotykovým displejom a gigabitovým ethernetom. Objednajte na PremiumStore.sk.",
+     "po": "GL.iNet Comet X (GL-RM4PE): KVM prepínač pre až 4 servery s videom 4K/30 FPS, 3,69\" dotykovým displejom, napájaním PoE a 64 GB eMMC pre ISO obrazy."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "093441",
+   "guid": "6ee86552-c1eb-11f1-9b4e-bc24110eff41",
+   "model": "Comet Q",
+   "polia": {
+    "shortDescription": {
+     "pred": "KVM prepínač GL.iNet Comet Q GL.iNet Comet Q (GL-RMQ1) je kompaktný KVM prepínač s rozhraním USB-C a podporou Wi-Fi 6, ktorý umožňuje diaľkové ovládanie smartfónov, tabletov, notebookov a mini PC bez…",
+     "po": "Kompaktný KVM prepínač GL.iNet Comet Q (GL-RMQ1) s USB-C a Wi-Fi 6 na diaľkové ovládanie smartfónov, tabletov, notebookov a mini PC. Video 2K QHD pri 60 FPS, 1,8-palcový dotykový displej, 70 × 70 × 22 mm."
+    },
+    "metaTitle": {
+     "pred": "Vzdialený KVM prepínač GL.iNet Comet Q GL-RMQ1",
+     "po": "KVM prepínač GL.iNet Comet Q GL-RMQ1, USB-C, Wi-Fi 6"
+    },
+    "metaDescription": {
+     "pred": "Kompaktný vzdialený KVM prepínač GL.iNet Comet Q (GL-RMQ1) s rozhraním USB-C, Wi-Fi 6 a 1,8\" dotykovým displejom. Objednajte na PremiumStore.sk.",
+     "po": "GL.iNet Comet Q (GL-RMQ1): kompaktný KVM prepínač s USB-C, Wi-Fi 6, videom 2K QHD pri 60 FPS, 1,8\" dotykovým displejom, Wake on LAN a podporou Tailscale."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "063812",
+   "guid": "73b92f44-92c5-11f1-9c84-bc2411833e01",
+   "model": "S10 Plus",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA S10 Plus cleaning robot The MOVA S10 Plus cleaning robot is a reliable helper in keeping your home spotlessly clean. Let yourself relax while the MOVA S10 Plus takes care of the cleaning! This…",
+     "po": "Robotický vysávač s mopom MOVA S10 Plus so sacím výkonom 7 000 Pa a vibračným mopovaním VibroTurbo. Automatická základňa s vreckom 4 l na až 90 dní, batéria 5 200 mAh (do 200 minút), nádrž na vodu 300 ml."
+    },
+    "metaTitle": {
+     "pred": "MOVA S10 Plus robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA S10 Plus, sanie 7 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA S10 Plus, inteligentný pomocník na udržiavanie čistej domácnosti bez námahy. With MOVA S10 Plus you save not only time, but also effort!",
+     "po": "MOVA S10 Plus: robotický vysávač s mopom, sanie 7 000 Pa, vibračné mopovanie VibroTurbo, základňa s vreckom 4 l, batéria 5 200 mAh a navigácia LiDAR."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "063811",
+   "guid": "73c3b090-92c5-11f1-b727-bc2411833e01",
+   "model": "S10",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA S10 cleaning robot Let the MOVA S10 take care of the cleanliness in your home while you take care of more pleasant things. The cleaning robot is a smart device that vacuums and mops floors with…",
+     "po": "Robotický vysávač s mopom MOVA S10 so sacím výkonom 7 000 Pa, vibračným mopovaním VibroTurbo a navigáciou LiDAR. Batéria 5 200 mAh na až 200 minút, nádrž na vodu 300 ml, ovládanie cez aplikáciu a hlasových asistentov."
+    },
+    "metaTitle": {
+     "pred": "MOVA S10 robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA S10, 7 000 Pa, LiDAR"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA S10 vysáva a vytiera podlahy, aby ste sa mohli venovať príjemnejším veciam. MOVA S10 guarantees cleanliness without compromise!",
+     "po": "MOVA S10: robotický vysávač s mopom, sanie 7 000 Pa, mopovanie VibroTurbo, navigácia LiDAR, batéria 5 200 mAh do 200 minút a ovládanie cez aplikáciu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074753",
+   "guid": "a1ebefe6-92c5-11f1-9878-bc2411833e01",
+   "model": "P50 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA P50 Ultra MOVA P50 Ultra je pokročilý vysávací a mopovací robot, ktorý kombinuje bezkonkurenčný sací výkon s najmodernejšími čistiacimi technológiami. So sacím výkonom až 19 000…",
+     "po": "Robotický vysávač s mopom MOVA P50 Ultra so sacím výkonom 19 000 Pa, vysúvateľným mopom a bočnou kefou FlexReach. Dokovacia stanica vyprázdňuje vrecko až 75 dní, umýva mop vodou 75 °C a suší ho vzduchom 45 °C."
+    },
+    "metaTitle": {
+     "pred": "MOVA P50 Ultra robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA P50 Ultra, 19 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač a mop MOVA P50 Ultra so sacím výkonom až 19 000 Pa a najmodernejšími čistiacimi technológiami. MOVA P50 Ultra vyniká pri čistení kobercov.",
+     "po": "MOVA P50 Ultra: robotický vysávač s mopom, sanie 19 000 Pa, FlexReach, zdvih mopu 10,5 mm, automatické vyprázdňovanie na 75 dní a samočistenie mopu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074097",
+   "guid": "a1f6cd94-92c5-11f1-8fbb-bc2411833e01",
+   "model": "P50 Pro Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA P50 Pro Ultra MOVA P50 Pro Ultra je čistiaci robot novej generácie, ktorý ponúka pôsobivý sací výkon 19 000 Pa na účinné odstraňovanie prachu, chlpov domácich zvierat a iných…",
+     "po": "Robotický vysávač s mopom MOVA P50 Pro Ultra so sacím výkonom 19 000 Pa, kamerou RGB na rozpoznanie nečistôt a technológiou FlexReach. Dokovacia stanica s umývaním mopu vodou 75 °C a vyprázdňovaním na až 75 dní."
+    },
+    "metaTitle": {
+     "pred": "MOVA P50 Pro Ultra robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA P50 Pro Ultra, 19 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Čistiaci robot MOVA P50 Pro Ultra so sacím výkonom 19 000 Pa odstraňuje prach aj chlpy domácich zvierat. Nakúpte na PremiumStore.sk.",
+     "po": "MOVA P50 Pro Ultra: robotický vysávač s mopom, sanie 19 000 Pa, kamera RGB, FlexReach, samočistiaca stanica s vodou 75 °C a aplikácia MOVAhome."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "071081",
+   "guid": "9621fda4-92c5-11f1-a147-bc2411833e01",
+   "model": "E20 biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický vysávač MOVA E20, biely MOVA E20 je všestranný robotický vysávač a mop, ktorý ponúka pokročilé čistiace funkcie v kompaktnom balení. Vďaka najmodernejšej navigačnej technológii a vysokému…",
+     "po": "Robotický vysávač s mopom MOVA E20 v bielom prevedení so sacím výkonom 5 000 Pa a navigáciou LDS. Kefa v tvare V, nádrž na vodu 245 ml, prekonanie prahov do 18 mm, batéria 3 200 mAh na až 260 minút v tichom režime."
+    },
+    "metaTitle": {
+     "pred": "MOVA E20, biely robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA E20 biely, 5 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač a mop MOVA E20 v bielom prevedení s pokročilou navigačnou technológiou pre pohodlné upratovanie. Objednajte na PremiumStore.sk.",
+     "po": "MOVA E20 (biely): robotický vysávač s mopom, sanie 5 000 Pa, laserová navigácia LDS, kefa v tvare V, batéria 3 200 mAh a ovládanie cez aplikáciu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "071080",
+   "guid": "962cbea6-92c5-11f1-9652-bc2411833e01",
+   "model": "E20 čierny",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický vysávač MOVA E20, čierny MOVA E20 je všestranný robotický vysávač a mop, ktorý ponúka pokročilé čistiace funkcie v kompaktnom balení. Vďaka najmodernejšej navigačnej technológii a vysokému…",
+     "po": "Robotický vysávač s mopom MOVA E20 v čiernom prevedení so sacím výkonom 5 000 Pa a navigáciou LDS. Kefa v tvare V, nádrž na vodu 245 ml, prekonanie prahov do 18 mm, batéria 3 200 mAh na až 260 minút v tichom režime."
+    },
+    "metaTitle": {
+     "pred": "MOVA E20, čierny robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač s mopom MOVA E20 čierny, 5 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač a mop MOVA E20 v čiernom prevedení s pokročilou navigačnou technológiou pre pohodlné upratovanie. Pozrite si ho na PremiumStore.sk.",
+     "po": "MOVA E20 (čierny): robotický vysávač s mopom, sanie 5 000 Pa, laserová navigácia LDS, kefa v tvare V, batéria 3 200 mAh a ovládanie cez aplikáciu."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 produktov; dĺžky skontrolované skriptom (krátky 150–250, titulok 50–60, meta 120–155).",
+ "trvanlivost": "Import nepíše názvy, popisy ani meta údaje (Martin 2026-11-12); po nočnom importe overiť, či texty ostali.",
+ "navrat": "Vrátiť pôvodné hodnoty z poľa pred cez product_update."
+}
