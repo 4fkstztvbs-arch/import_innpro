@@ -1,0 +1,52 @@
+{
+  "id": "Z-20261118-seo-ultimea-soundbary-2",
+  "datum": "2026-11-18",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Ultimea Aura A60 a Poseidon R3T: názov bez zdvojeného 'Soundbar' a so základnými parametrami, titulok a meta z overených údajov namiesto odrezkov textu; URL ostávajú.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "083081",
+      "guid": "e87a199c-92c5-11f1-a55e-bc2411833e01",
+      "url": "https://www.premiumstore.sk/ultimea-aura-a60-soundbar/",
+      "polia": {
+        "name": {
+          "pred": "Soundbar Ultimea Aura A60 Soundbar",
+          "po": "Soundbar Ultimea Aura A60 7.1 s Dolby Atmos a subwooferom, 350 W"
+        },
+        "metaTitle": {
+          "pred": "Soundbar Ultimea Aura A60 Soundbar",
+          "po": "Ultimea Aura A60 soundbar 7.1, Dolby Atmos"
+        },
+        "metaDescription": {
+          "pred": "Subwoofer s nastaviteľnou technológiou BassMX™ poskytuje hlboké, kontrolované basy, zatiaľ čo výkonné meniče zabezpečujú presnú a čistú reprodukciu zvuku.",
+          "po": "Soundbar Ultimea Aura A60 7.1: Dolby Atmos, výkon 350 W, 8 reproduktorov, 4\" subwoofer, HDMI eARC a Bluetooth 5.3."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087951",
+      "guid": "b2fcc70c-da4f-11f1-ad1c-bc2411833e01",
+      "url": "https://www.premiumstore.sk/ultimea-poseidon-r3t-soundbar/",
+      "polia": {
+        "name": {
+          "pred": "Ultimea Poseidon R3T Soundbar",
+          "po": "Soundbar Ultimea Poseidon R3T 2.1 s bezdrôtovým subwooferom, 240 W"
+        },
+        "metaTitle": {
+          "pred": "Ultimea Poseidon R3T Soundbar",
+          "po": "Ultimea Poseidon R3T soundbar 2.1, 240 W"
+        },
+        "metaDescription": {
+          "pred": "Soundbar je vybavený 2,25-palcovými stredovými meničmi, zatiaľ čo 5,25-palcový subwoofer vo veľkej skrinke poskytuje hlboké, dynamické basy.",
+          "po": "Soundbar Ultimea Poseidon R3T 2.1: výkon 240 W, bezdrôtový 5,25\" subwoofer, Bluetooth 6.0, HDMI ARC, optický vstup, AUX a USB."
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-18", "ok": true, "poznamka": "Shoptet potvrdil zápis polí name, metaTitle, metaDescription pre oba produkty."}
+}
