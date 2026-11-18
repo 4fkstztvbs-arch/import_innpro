@@ -1,0 +1,287 @@
+{
+ "id": "Z-20261118-obsah-davka4",
+ "datum": "2026-11-18",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 4 (beh 15:10): 15 produktov MOVA, nová krátky popis, meta názov a meta popis (pri 5 len krátky popis, resp. meta popis).",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "084676",
+   "guid": "f9f0182a-bba1-11f1-a014-bc2411833e01",
+   "model": "Pool V10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový vysávač bazénov MOVA V10 MOVA V10 je bezdrôtový vysávač bazénov, ktorý zabezpečuje efektívne a pohodlné čistenie dna, stien a ťažko dostupných miest bazénu. Zariadenie ponúka konštantný…",
+     "po": "Bezdrôtový akumulátorový vysávač bazénov MOVA V10 so sacím výkonom 4 200 LPH, prevádzkou až 60 minút a nabíjaním približne 1,5 h. Teleskopická rukoväť do 1,8 m pre hĺbku 0,2–3 m, filtre 80 a 400 μm, sieťka na hladinu, odolnosť IPX8."
+    },
+    "metaTitle": {
+     "pred": "Akumulátorový vysávač bazénov MOVA V10",
+     "po": "Akumulátorový vysávač bazénov MOVA V10, 4 200 LPH, 60 min"
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový akumulátorový vysávač na bazény MOVA V10 s výdržou až 60 minút na efektívne čistenie dna. Objednajte na PremiumStore.sk.",
+     "po": "MOVA V10: bezdrôtový vysávač bazénov so sacím výkonom 4 200 LPH, výdržou až 60 minút, teleskopickou rukoväťou do 1,8 m, filtrami 80 a 400 μm a IPX8."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084673",
+   "guid": "fe20a7f2-bba1-11f1-92c3-bc2411833e01",
+   "model": "Pool R10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistič bazénov MOVA R10 MOVA R10 je bezdrôtový robotický čistič bazénov určený na čistenie dna bazénov. Zariadenie je určené pre malé nadzemné bazény a zapustené bazény s rovným dnom. Vďaka dvom…",
+     "po": "Bezdrôtový robotický čistič bazénov MOVA R10 na dno malých nadzemných a zapustených bazénov s rovným dnom. Sací výkon 5 700 LPH, dva motory, dve kefy, batéria 4 000 mAh na až 120 minút, plocha do 80 m², automatické parkovanie."
+    },
+    "metaTitle": {
+     "pred": "Robotický čistič bazénov MOVA R10",
+     "po": "Robotický čistič bazénov MOVA R10, 5 700 LPH, 120 minút"
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový robotický čistič bazénov MOVA R10 s batériou 4000 mAh na automatické čistenie dna bazéna. Model R10 je vybavený dvoma sacími otvormi so šírkou 8 cm.",
+     "po": "MOVA R10: bezdrôtový robotický čistič dna bazénov so sacím výkonom 5 700 LPH, dvoma motormi a kefami, batériou 4 000 mAh, plochou do 80 m² a Auto-Parking."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078389",
+   "guid": "d59ac1fe-c9c6-11f1-a9da-bc2411833e01",
+   "model": "E40 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA E40 Ultra Robot MOVA E40 Ultra je navrhnutý pre maximálne pohodlie používateľa, precízny výkon a komplexnú čistotu. Zariadenie kombinuje pôsobivý sací výkon 19 000 Pa s…",
+     "po": "Robotický vysávač s mopovaním MOVA E40 Ultra so sacím výkonom 19 000 Pa a batériou 5 200 mAh. Stanica vyprázdňuje prach, umýva a suší mopy horúcim vzduchom, prekonáva prekážky do 22 mm, zdvihne mop o 10,5 mm na koberci, hlasové ovládanie."
+    },
+    "metaTitle": {
+     "pred": "Čistiaci robot MOVA E40 Ultra",
+     "po": "Robotický vysávač s mopom MOVA E40 Ultra, 19 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Čistiaci robot MOVA E40 Ultra – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA E40 Ultra: robotický vysávač s mopom, sanie 19 000 Pa, batéria 5 200 mAh, stanica s umývaním a sušením mopov, hlasové ovládanie a prekážky do 22 mm."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089588",
+   "guid": "3403a6e4-ae46-11f1-bf60-bc2411e8af0e",
+   "model": "P70 Pro Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA P70 Pro Ultra (čierny) Čistiaci robot MOVA P70 Pro Ultra je určený na dôkladné a prakticky bezúdržbové upratovanie domácnosti. Spája veľmi vysoký sací výkon so systémom mopovania…",
+     "po": "Robotický vysávač s mopovaním MOVA P70 Pro Ultra v čiernom prevedení so sacím výkonom 30 000 Pa a motorom až 120 000 ot./min. Mop 260 ot./min s tlakom 12 N, vysunutie mopu o 4 cm, rozpoznávanie 280 prekážok, stanica so sušením mopu 70 °C."
+    },
+    "metaTitle": {
+     "pred": "MOVA P70 Pro Ultra, čierny: robotický vysávač",
+     "po": "Robotický vysávač MOVA P70 Pro Ultra čierny, 30 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA P70 Pro Ultra v čiernom vyhotovení spája vysoký sací výkon so systémom mopovania. Robot nielen vysáva, ale aj umýva podlahu.",
+     "po": "MOVA P70 Pro Ultra (čierny): robotický vysávač s mopom, sanie 30 000 Pa, mop 260 ot./min s tlakom 12 N, 280 prekážok a stanica so sušením mopu 70 °C."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "091498",
+   "guid": "3842520a-ae46-11f1-8386-bc2411e8af0e",
+   "model": "V70 Ultra Pure",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA V70 Ultra Pure (biely) MOVA V70 Ultra Pure je čistiaci robot, ktorý kombinuje sací výkon 40 000 Pa s funkciou mopovania a automatickou dokovacou stanicou. Zariadenie je vybavené…",
+     "po": "Robotický vysávač s mopovaním MOVA V70 Ultra Pure v bielom prevedení so sacím výkonom 40 000 Pa a motorom až 150 000 ot./min. MaxiReachX s predĺžením mopu o 17 cm, prahy do 6 cm, rozpoznávanie 300 prekážok, sušenie mopov 70 °C, batéria 6 400 mAh."
+    },
+    "metaTitle": {
+     "pred": "Robotický vysávač MOVA V70 Ultra Pure, biely",
+     "po": "Robotický vysávač MOVA V70 Ultra Pure biely, 40 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA V70 Ultra Pure so sacím výkonom 40 000 Pa, mopovaním a automatickou dokovacou stanicou. Objednajte na PremiumStore.sk.",
+     "po": "MOVA V70 Ultra Pure (biely): robotický vysávač s mopom, sanie 40 000 Pa, MaxiReachX 17 cm, prahy do 6 cm, sušenie mopov 70 °C a batéria 6 400 mAh."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084680",
+   "guid": "7b758e68-bdfd-11f1-af7b-bc24110eff41",
+   "model": "FD20s Pro Air",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezolejová fritéza MOVA FD20s MOVA AeroChef™ FD20s Pro je moderná fritéza bez oleja, ktorá kombinuje vysoký výkon, veľkú kapacitu a presné ovládanie teploty. Zariadenie využíva cirkuláciu horúceho…",
+     "po": "Teplovzdušná fritéza MOVA AeroChef FD20s Pro Air s košom 10 l, ktorý možno rozdeliť na dve zóny so synchronizovaným dokončením SyncFinish. Výkon 2 800 W, teplota 40–230 °C, 10 režimov, keramický povlak bez PFOA, okienko, LED panel."
+    },
+    "metaTitle": {
+     "pred": "Teplovzdušná fritéza MOVA AeroChef FD20s Pro Air",
+     "po": "Teplovzdušná fritéza MOVA FD20s Pro Air, 10 l, 2 800 W"
+    },
+    "metaDescription": {
+     "pred": "Bezolejová teplovzdušná fritéza MOVA AeroChef FD20s Pro Air s veľkou kapacitou a presným ovládaním teploty. Objednajte na PremiumStore.sk.",
+     "po": "MOVA FD20s Pro Air: teplovzdušná fritéza s košom 10 l na dve zóny, SyncFinish, výkonom 2 800 W, teplotou 40–230 °C, 10 režimami a keramickým povlakom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "083621",
+   "guid": "87f8527a-d986-11f1-8146-bc2411833e01",
+   "model": "FD10s Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fritéza MOVA FD10s Pro (čierna) Varujte rýchlejšie, zdravšie a s plnou kontrolou! Fritéza MOVA FD10s Pro premení každodennú prípravu jedál na skutočné potešenie. Pokročilý systém dvojitého ohrevu a…",
+     "po": "Fritéza MOVA FD10s Pro v čiernom prevedení s košom 6 l, výkonom 2 000 W a teplotou 40–230 °C. Dual HeatSync a cirkulácia 360°, 12 programov, keramický povlak bez PFOA, okienko s osvetlením, funkcia Smart Pause a o 85 % menej tuku."
+    },
+    "metaTitle": {
+     "pred": "Fritéza MOVA FD10s Pro (čierna)",
+     "po": "Fritéza MOVA FD10s Pro čierna, 6 l, 2 000 W, 12 programov"
+    },
+    "metaDescription": {
+     "pred": "Fritéza MOVA FD10s Pro (čierna) – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA FD10s Pro (čierna): fritéza s košom 6 l, výkonom 2 000 W, teplotou 40–230 °C, 12 programami, keramickým povlakom, okienkom s osvetlením a Smart Pause."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074756",
+   "guid": "ea09ac32-bba1-11f1-ad91-bc2411833e01",
+   "model": "X4 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový mopový stojanový vysávač MOVA X4 Pro Bezdrôtový mopovací stojanový vysávač MOVA X4 Pro je najnovším vývojom v oblasti domáceho upratovania. Vďaka jeho výnimočnému saciemu výkonu (20 000…",
+     "po": "Bezdrôtový mopovací stojanový vysávač MOVA X4 Pro so sacím výkonom 20 000 Pa, mopovaním vodou do 80 °C a umývaním kefy pri 100 °C. Sklopenie do 180°, sušenie kefy horúcim vzduchom 90 °C, prevádzka až 45 minút, hmotnosť 1,1 kg."
+    },
+    "metaTitle": {
+     "pred": "Bezdrôtový mopovací vysávač MOVA X4 Pro",
+     "po": "Bezdrôtový mopovací vysávač MOVA X4 Pro, 20 000 Pa, 80 °C"
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový stojanový vysávač s mopom MOVA X4 Pro s nádobou na prach 0,76 l pre pohodlné čistenie podláh. Inovatívny systém zabraňuje zamotávaniu vlasov na kefe.",
+     "po": "MOVA X4 Pro: bezdrôtový stojanový vysávač s mopom, sanie 20 000 Pa, mopovanie horúcou vodou do 80 °C, samočistenie kefy pri 100 °C a sklopenie do 180°."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084669",
+   "guid": "7b8a9b50-bdfd-11f1-b31f-bc24110eff41",
+   "model": "S7 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový vysávač MOVA S7 Ultra MOVA S7 Ultra je bezdrôtový vertikálny vysávač určený na rýchle a dôkladné upratovanie celej domácnosti. Jeho výkonný motor s výkonom 680 W generuje sací výkon až 220…",
+     "po": "Bezdrôtový tyčový vysávač MOVA S7 Ultra so sacím tlakom 32 kPa a sacím výkonom 220 až 230 AW, výdržou až 80 minút na batériu 2 500 mAh. Smart Dirt Detection, 5-vrstvová filtrácia 99,9 % častíc 0,3 µm, OLED displej a zelené LED podsvietenie."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "085056",
+   "guid": "7b978cda-afd8-11f1-bf75-bc2411e8af0e",
+   "model": "N1 biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický čistič okien MOVA N1 (biely) MOVA N1 je kompaktný robot na čistenie okien, ktorý kombinuje mimoriadne malé rozmery s vysokou účinnosťou čistenia a pokročilými bezpečnostnými funkciami.…",
+     "po": "Kompaktný robotický čistič okien MOVA N1 v bielom prevedení s rozmermi 215 × 215 mm a hrúbkou 59 mm. Sanie 8 000 Pa, trasa Z alebo N, rýchlosť 11 cm/s, čistenie okien od 30 × 45 cm do 2 × 3 m, bezpečnostný kábel a 6 režimov čistenia."
+    },
+    "metaTitle": {
+     "pred": "Robotický čistič okien MOVA N1 (biely), MOVA 6978390540465",
+     "po": "Robotický čistič okien MOVA N1 biely, 8 000 Pa, 11 cm/s"
+    },
+    "metaDescription": {
+     "pred": "Robotický čistič okien MOVA N1, biely: automatizuje čistenie okien; na údržbu sklenených plôch. Ďalšie produkty nájdete v kategórii Upratovacie pomôcky.",
+     "po": "MOVA N1 (biely): robotický čistič okien 215 × 215 mm, sanie 8 000 Pa, trasa Z/N, 6 režimov, bezpečnostný kábel, čistenie skla od 30 × 45 cm."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084865",
+   "guid": "286997b4-c122-11f1-8c06-bc2411833e01",
+   "model": "N1 čierny",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický čistič okien MOVA N1 (čierny) MOVA N1 je kompaktný robot na čistenie okien, ktorý kombinuje mimoriadne malé rozmery s vysokou účinnosťou čistenia a pokročilými bezpečnostnými funkciami.…",
+     "po": "Kompaktný robotický čistič okien MOVA N1 v čiernom prevedení s rozmermi 215 × 215 mm a hrúbkou 59 mm. Sanie 8 000 Pa, trasa Z alebo N, rýchlosť 11 cm/s, čistenie okien od 30 × 45 cm do 2 × 3 m, bezpečnostná šnúra a 6 režimov čistenia."
+    },
+    "metaTitle": {
+     "pred": "Robotický čistič okien MOVA N1, čierny",
+     "po": "Robotický čistič okien MOVA N1 čierny, 8 000 Pa, 11 cm/s"
+    },
+    "metaDescription": {
+     "pred": "Kompaktný robotický čistič okien MOVA N1 v čiernej farbe pre okná veľkosti od 30 × 45 cm do 2 × 3 m. Ďalšie produkty nájdete v kategórii Upratovacie pomôcky.",
+     "po": "MOVA N1 (čierny): robotický čistič okien 215 × 215 mm, sanie 8 000 Pa, trasa Z/N, 6 režimov, bezpečnostná šnúra, čistenie skla od 30 × 45 cm."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "082188",
+   "guid": "5dd96e10-dd74-11f1-a62d-bc24110eff41",
+   "model": "Gril set",
+   "polia": {
+    "shortDescription": {
+     "pred": "Súprava kuchynského príslušenstva na grilovanie MOVA Súprava príslušenstva na grilovanie MOVA vám uľahčí prípravu a podávanie grilovaných pokrmov, ako aj čistenie grilu. Súprava obsahuje kefu na…",
+     "po": "Sada kuchynského príslušenstva na grilovanie MOVA s praktickým kufríkom s rukoväťou. V balení kefa na čistenie grilu, kliešte, silikónová kefa, špachtľa, nôž a dve vidličky na mäso na prípravu, podávanie aj čistenie po grilovaní."
+    },
+    "metaTitle": {
+     "pred": "Sada kuchynského príslušenstva pre gril MOVA | premiumstore.sk",
+     "po": "Sada kuchynského príslušenstva na gril MOVA, 7 dielov"
+    },
+    "metaDescription": {
+     "pred": "Sada kuchynského príslušenstva pre gril MOVA – skladom. Kúpte na premiumstore.sk.",
+     "po": "Sada príslušenstva na gril MOVA v kufríku: kefa na gril, kliešte, silikónová kefa, špachtľa, nôž a 2 vidličky na mäso na prípravu aj čistenie."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "077645",
+   "guid": "e78747b6-b233-11f1-b256-bc2411e8af0e",
+   "model": "Fresh hlavice",
+   "polia": {
+    "shortDescription": {
+     "pred": "Náhradná hlavica pre elektrickú zubnú kefku MOVA Fresh / Fresh Pro (biela) Sada troch priehľadných hlavíc kompatibilných so sonickými zubnými kefkami MOVA Fresh a Fresh Pro. Precízne navrhnuté…",
+     "po": "Sada troch náhradných hlavíc MOVA ABH3 pre sonické zubné kefky MOVA Fresh a Fresh Pro. Priehľadné hlavice s precízne navrhnutými štetinami na každodennú ústnu hygienu, vhodné ako náhradná súprava alebo na zdieľanie kefky v rodine."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "077646",
+   "guid": "e78bfef0-b233-11f1-85f6-bc2411e8af0e",
+   "model": "Fresh Sensitive",
+   "polia": {
+    "shortDescription": {
+     "pred": "Náhradná hlavica Sensitive pre elektrickú zubnú kefku MOVA Fresh / Fresh Pro (biela) Náhradné hlavice pre sonické zubné kefky MOVA Fresh a Fresh Pro, určené pre citlivé ďasná. Mäkké vlákna…",
+     "po": "Sada troch náhradných hlavíc MOVA ABHS Sensitive pre sonické zubné kefky MOVA Fresh a Fresh Pro. Mäkké vlákna pre citlivé ďasná zaisťujú jemné, ale účinné čistenie a znižujú riziko podráždenia. Priehľadné hlavice, 3 kusy v balení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "093746",
+   "guid": "b674d176-bec6-11f1-aec6-bc24110eff41",
+   "model": "AirWave modrá",
+   "polia": {
+    "shortDescription": {
+     "pred": "Náhradná hlavica na zubnú kefku MOVA AirWave (modrá) Náhradná hlavica na zubnú kefku MOVA AirWave je ideálnou voľbou pre všetkých, ktorí hľadajú bezkompromisnú účinnosť a šetrnosť pri každodennej…",
+     "po": "Náhradná hlavica MOVA MAWKW v modrej farbe pre zubnú kefku MOVA AirWave. Bieliace vlákna v tvare diamantu a zužujúce sa štetiny, z ktorých viac ako 90 % je zaoblených, šetria ďasná. Zadná časť hlavice je pokrytá mäkkou PP gumou."
+    },
+    "metaDescription": {
+     "pred": "Náhradná hlavica na zubnú kefku MOVA AirWave je ideálnou voľbou pre všetkých, ktorí hľadajú bezkompromisnú účinnosť a šetrnosť pri každodennej ústnej hygiene.",
+     "po": "Náhradná hlavica MOVA AirWave v modrej farbe: bieliace diamantové vlákna, zaoblené štetiny šetrné k ďasnám a mäkká PP guma na zadnej strane hlavice."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 položiek.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
