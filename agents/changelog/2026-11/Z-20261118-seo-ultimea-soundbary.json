@@ -1,0 +1,56 @@
+{
+  "id": "Z-20261118-seo-ultimea-soundbary",
+  "datum": "2026-11-18",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Ultimea Aura A40 a Poseidon D80 BOOM: názov bez zdvojeného 'Soundbar', titulok a meta namiesto šablónového textu; URL ostávajú.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "083080",
+      "guid": "e86e328a-92c5-11f1-8e01-bc2411833e01",
+      "url": "https://www.premiumstore.sk/ultimea-aura-a40-soundbar/",
+      "polia": {
+        "name": {
+          "pred": "Soundbar Ultimea Aura A40 Soundbar",
+          "po": "Soundbar Ultimea Aura A40 7.1 s káblovým subwooferom, 330 W"
+        },
+        "metaTitle": {
+          "pred": "Soundbar Ultimea Aura A40 Soundbar",
+          "po": "Ultimea Aura A40 soundbar 7.1, 330 W, subwoofer"
+        },
+        "metaDescription": {
+          "pred": "Soundbar Ultimea Aura A40 Soundbar. Pred výberom overte použitie. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "Soundbar Ultimea Aura A40 7.1: výkon 330 W, 8 reproduktorov, káblový 4\" subwoofer, Bluetooth 5.3, optický vstup, AUX a USB."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "083082",
+      "guid": "e88607ac-92c5-11f1-bdf9-bc2411833e01",
+      "url": "https://www.premiumstore.sk/ultimea-poseidon-d80-boom-soundbar/",
+      "polia": {
+        "name": {
+          "pred": "Soundbar Ultimea Poseidon D80 BOOM Soundbar",
+          "po": "Soundbar Ultimea Poseidon D80 BOOM 7.1 s Dolby Atmos a subwooferom, 500 W"
+        },
+        "metaTitle": {
+          "pred": "Soundbar Ultimea Poseidon D80 BOOM Soundbar",
+          "po": "Ultimea Poseidon D80 BOOM soundbar 7.1, Dolby Atmos"
+        },
+        "metaDescription": {
+          "pred": "Soundbar Ultimea Poseidon D80 BOOM Soundbar. Pred výberom overte použitie. Pozrite si parametre a cenu na PremiumStore.sk.",
+          "po": "Soundbar Ultimea Poseidon D80 BOOM 7.1: Dolby Atmos, výkon 500 W, 6,5\" subwoofer, 4 priestorové reproduktory, HDMI eARC a Bluetooth 5.3."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-18",
+    "ok": true,
+    "poznamka": "Shoptet potvrdil zápis polí name, metaTitle, metaDescription pre oba produkty."
+  }
+}
