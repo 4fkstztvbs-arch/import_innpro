@@ -1,0 +1,299 @@
+{
+ "id": "Z-20261118-obsah-davka2",
+ "datum": "2026-11-18",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 15 produktov MOVA (farebné varianty fénov, zubné kefky, fritézy, odšťavovač, zastrihávač pre zvieratá): nový krátky popis, u 13 aj meta title a meta description. Konfliktné údaje vynechané.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "088847",
+   "guid": "8c472418-bdfd-11f1-913b-bc24110eff41",
+   "model": "Turbo 20 biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fén MOVA Turbo 20 (biely) Ranná rutina, rýchla úprava pred odchodom z domu alebo úprava účesu pred dôležitou schôdzkou nemusia trvať dlho. Fén MOVA Turbo 20 kombinuje bezkefový motor s otáčkami 110…",
+     "po": "Fén MOVA Turbo 20 v bielom prevedení s bezkefovým motorom 110 000 ot./min a prúdom vzduchu 65 m/s. Ionizácia, senzor NTC s teplotou 57 °C, 4 nastavenia teploty, 2 rýchlosti, difúzor a koncentrátor, hmotnosť 330 g, hluk do 58 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "083793",
+   "guid": "32c14bbc-d33d-11f1-98f0-bc24110eff41",
+   "model": "Turbo fialový",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fén MOVA Turbo (fialový) MOVA Turbo je vysokovýkonný fén, ktorý kombinuje výkonný motor s 110 000 otáčkami za minútu s inteligentnou ochranou proti prehriatiu pre rýchle a bezpečné sušenie. Vydáva…",
+     "po": "Fén MOVA Turbo vo fialovom prevedení s výkonom 1 600 W, bezkefovým motorom 110 000 ot./min a prúdom vzduchu 65 m/s. Ionizácia, ochrana proti prehriatiu na 57 °C, 4 nastavenia teploty, 2 rýchlosti, hmotnosť 330 g a hluk do 58 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074750",
+   "guid": "859b64ea-d986-11f1-9c9e-bc2411833e01",
+   "model": "Turbo ružový",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA Turbo sušič vlasov (ružový) MOVA Turbo je vysoko výkonný sušič vlasov, ktorý kombinuje výkonný motor so 110 000 otáčkami za minútu s inteligentnou ochranou proti prehriatiu na rýchle a bezpečné…",
+     "po": "Sušič vlasov MOVA Turbo v ružovom prevedení s výkonom 1 600 W, bezkefovým motorom 110 000 ot./min a prúdom vzduchu 65 m/s. Ionizácia, ochrana proti prehriatiu na 57 °C, 4 úrovne teploty, 2 rýchlosti, hmotnosť 330 g a hluk do 58 dB."
+    },
+    "metaTitle": {
+     "pred": "MOVA Turbo sušič vlasov (ružový)",
+     "po": "Sušič vlasov MOVA Turbo ružový, 1 600 W, 110 000 ot./min"
+    },
+    "metaDescription": {
+     "pred": "Vyžaruje 200 miliónov záporných iónov, ktoré uhladzujú vlasy a dodávajú im zdravý lesk. Výsledok - sušenie stredne dlhých vlasov už za 2 minúty!",
+     "po": "MOVA Turbo (ružový): sušič vlasov s výkonom 1 600 W, motorom 110 000 ot./min, ionizáciou, 4 teplotami, 2 rýchlosťami, hmotnosťou 330 g a hlukom do 58 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "075480",
+   "guid": "861410d4-d986-11f1-ad80-bc2411833e01",
+   "model": "Shine 10 strieborný",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fén MOVA Shine 10 (strieborný) Fén MOVA Shine 10 vám umožní rýchlo a bezpečne vysušiť vlasy. Vďaka inovatívnej technológii AeroBlossom™ a výkonnému motoru s otáčkami 110 000 ot/min zabezpečuje fén…",
+     "po": "Fén na vlasy MOVA Shine 10 v striebornom prevedení s technológiou AeroBlossom a bezkefovým motorom 110 000 ot./min. Ionizácia, snímač teploty NTC, 4 režimy vrátane režimu pre deti, koncentrátor v balení, hmotnosť 345 g, hluk 58 dB."
+    },
+    "metaTitle": {
+     "pred": "Fén MOVA Shine 10 (strieborný)",
+     "po": "Fén na vlasy MOVA Shine 10 strieborný, ionizácia, 4 režimy"
+    },
+    "metaDescription": {
+     "pred": "Fén MOVA Shine 10 vám umožní rýchlo a bezpečne vysušiť vlasy. Využitie záporných iónov a regulácia prúdu vzduchu chráni vaše vlasy pred poškodením.",
+     "po": "MOVA Shine 10 (strieborný): fén s technológiou AeroBlossom, motorom 110 000 ot./min, ionizáciou, snímačom NTC, 4 režimami a koncentrátorom v balení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079343",
+   "guid": "8667564a-d986-11f1-b23a-bc2411833e01",
+   "model": "Shine 20 strieborný",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fén MOVA Shine 20 (strieborný) Vytvorte si rituál, ktorý vám pomôže starať sa o vaše vlasy a pokožku hlavy. Fén MOVA Shine 20, navrhnutý s ohľadom na každého člena rodiny, je vybavený pokročilým…",
+     "po": "Fén na vlasy MOVA Shine 20 v striebornom prevedení s bezkefovým motorom a snímačmi TOF a NTC na ochranu vlasov. Ionizácia, 4 úrovne teploty, 3 rýchlosti, okrúhla kefa, koncentrátor a tryska v balení, hmotnosť 430 g, hluk 58 dB."
+    },
+    "metaTitle": {
+     "pred": "Fén MOVA Shine 20 strieborný",
+     "po": "Fén na vlasy MOVA Shine 20 strieborný, senzor TOF, ionizácia"
+    },
+    "metaDescription": {
+     "pred": "Vytvorte si rituál, ktorý vám pomôže starať sa o vaše vlasy a pokožku hlavy. S MOVA Shine 20 dosiahnete výsledky ako zo salónu priamo u vás doma!",
+     "po": "MOVA Shine 20 (strieborný): fén s bezkefovým motorom, snímačmi TOF a NTC, ionizáciou, 4 teplotami, 3 rýchlosťami, okrúhlou kefou a koncentrátorom v balení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079345",
+   "guid": "8685c8f0-d986-11f1-a246-bc2411833e01",
+   "model": "Master 10 ružový",
+   "polia": {
+    "shortDescription": {
+     "pred": "Sušič vlasov MOVA Master 10 (ružový) Sušič vlasov MOVA Master 10 skracuje čas sušenia vďaka rýchlosti prúdenia vzduchu 55 m/s a motoru, ktorý dosahuje 110 000 otáčok za minútu, čím poskytuje výkon 50…",
+     "po": "Sušič vlasov MOVA Master 10 v ružovom prevedení s motorom 110 000 ot./min, ionizáciou a technológiou Coanda Airflow na kučery pri nižšej teplote. 8 nástavcov, úložný box, 4 teploty, 3 rýchlosti, hmotnosť 292 g, hluk 58 dB."
+    },
+    "metaTitle": {
+     "pred": "Sušič vlasov MOVA Master 10 (ružový)",
+     "po": "Sušič vlasov MOVA Master 10 ružový, 8 nástavcov, ionizácia"
+    },
+    "metaDescription": {
+     "pred": "Sušič vlasov MOVA Master 10 (ružový) – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA Master 10 (ružový): sušič vlasov s motorom 110 000 ot./min, ionizáciou, Coanda Airflow, 8 nástavcami, úložným boxom, 4 teplotami a 3 rýchlosťami."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074747",
+   "guid": "3039c5cc-d33d-11f1-81e2-bc24110eff41",
+   "model": "Fresh Pro strieborná",
+   "polia": {
+    "shortDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh Pro (strieborná). MOVA Fresh Pro je inteligentná elektrická zubná kefka, ktorá poskytuje účinné a šetrné čistenie vďaka pokročilej technológii a pomoci aplikácie…",
+     "po": "Elektrická zubná kefka MOVA Fresh Pro v striebornom prevedení so sonickou technológiou 3D-Clean a 10 úrovňami intenzity cez aplikáciu MOVAhome. Svetelný krúžok kontroly tlaku, bezdrôtové nabíjanie, odolnosť IPX7, výdrž batérie 30 dní."
+    },
+    "metaTitle": {
+     "pred": "Elektrická zubná kefka MOVA Fresh Pro (strieborná)",
+     "po": "Elektrická zubná kefka MOVA Fresh Pro strieborná, IPX7"
+    },
+    "metaDescription": {
+     "pred": "MOVA Fresh Pro je inteligentná elektrická zubná kefka, ktorá poskytuje účinné a šetrné čistenie vďaka pokročilej technológii a pomoci aplikácie MOVAhome.",
+     "po": "MOVA Fresh Pro (strieborná): elektrická zubná kefka s 10 úrovňami intenzity, aplikáciou MOVAhome, svetelným krúžkom, bezdrôtovým nabíjaním a IPX7."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080701",
+   "guid": "86df20e4-d986-11f1-a82d-bc2411833e01",
+   "model": "Fresh 20 Sensus biela",
+   "polia": {
+    "shortDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh 20 Sensus (biela) MOVA Fresh 20 Sensus sa zameriava na účinnosť, pohodlie a skutočnú podporu pri každodennej ústnej hygiene. Pracuje so samostatným detektorom…",
+     "po": "Elektrická zubná kefka MOVA Fresh 20 Sensus v bielom prevedení so sonickou technológiou, detektorom zubného povlaku s kamerou a AI a aplikáciou MOVAhome. Farebný displej, hlasové navádzanie, 4 režimy, odolnosť IPX8, výdrž až 120 dní."
+    },
+    "metaTitle": {
+     "pred": "Elektrická zubná kefka MOVA Fresh 20 Sensus (biela)",
+     "po": "Elektrická zubná kefka MOVA Fresh 20 Sensus biela, detektor"
+    },
+    "metaDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh 20 Sensus (biela) – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA Fresh 20 Sensus (biela): sonická kefka s detektorom zubného povlaku, aplikáciou MOVAhome, displejom, hlasovým navádzaním a výdržou až 120 dní."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078388",
+   "guid": "8660f188-d986-11f1-80cb-bc2411833e01",
+   "model": "FD20 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fritéza bez tuku MOVA FD20 Pro Beztuková fritéza MOVA FD20 Pro vám umožní pripraviť chutné a zdravé jedlá bez zbytočného množstva tuku. Veľký 9-litrový kôš FlexZone™ vám umožní pripraviť 2 rôzne…",
+     "po": "Fritéza bez tuku MOVA FD20 Pro s 9 l košom FlexZone na dve zóny po 4,5 l, výkonom 2 700 W a funkciou SyncFinish. Teplota 40–230 °C, 7 programov a režim DIY, dotykový panel, kovový interiér a okienko s osvetlením."
+    },
+    "metaTitle": {
+     "pred": "Fritéza bez tuku MOVA FD20 Pro",
+     "po": "Fritéza bez tuku MOVA FD20 Pro, 9 l, 2 700 W, dve zóny"
+    },
+    "metaDescription": {
+     "pred": "Fritéza bez tuku MOVA FD20 Pro – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA FD20 Pro: fritéza bez tuku s 9 l košom na dve zóny, výkonom 2 700 W, SyncFinish, teplotou 40–230 °C, 7 programami a režimom DIY."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "069387",
+   "guid": "67c82754-bdfd-11f1-bef1-bc24110eff41",
+   "model": "FD10 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA FD10 Pro Air Fryer MOVA FD10 Pro je najmodernejšia fritéza, ktorá vám umožní pripraviť chutné a chrumkavé jedlo s minimálnym použitím oleja. Vďaka pokročilej technológii cirkulácie horúceho…",
+     "po": "Teplovzdušná fritéza MOVA FD10 Pro s košom 6 l, výkonom 1 800 W a 11 predprogramovanými režimami. Dotykový ovládací panel, kovový interiér s okienkom, nepriľnavé diely vhodné do umývačky, automatické vypnutie a ochrana proti prehriatiu."
+    },
+    "metaTitle": {
+     "pred": "Teplovzdušná fritéza Mova FD10 Pro, 6 l",
+     "po": "Teplovzdušná fritéza MOVA FD10 Pro, 6 l, 1 800 W, 11 režimov"
+    },
+    "metaDescription": {
+     "pred": "Moderná teplovzdušná fritéza Mova FD10 Pro s objemom 6 l na chutné a chrumkavé jedlá s minimom tuku. MOVA FD10 Pro je navrhnutý s ohľadom na jednoduchú údržbu.",
+     "po": "MOVA FD10 Pro: teplovzdušná fritéza s košom 6 l, výkonom 1 800 W, 11 režimami, dotykovým panelom, okienkom a dielmi vhodnými do umývačky riadu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079558",
+   "guid": "86b2041a-d986-11f1-9fe5-bc2411833e01",
+   "model": "AF20 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fritéza MOVA AF20 Pro bez tuku MOVA AF20 Pro vám umožní pripraviť chutné jedlá rýchlo a jednoducho. Ponúka funkcie pečenia, vyprážania a grilovania - bez použitia oleja. Vďaka pokročilému systému…",
+     "po": "Fritéza MOVA AF20 Pro bez tuku s dvoma sklenenými nádobami 4 l a 2,5 l, výkonom 1 700 W a teplotou 40–185 °C. Bezkartáčový motor, 8 programov, dotykový panel, nádoby s vekom a rukoväťami vhodné do umývačky riadu."
+    },
+    "metaTitle": {
+     "pred": "Fritéza MOVA AF20 Pro bez tuku",
+     "po": "Fritéza MOVA AF20 Pro bez tuku, sklenené nádoby 4 l a 2,5 l"
+    },
+    "metaDescription": {
+     "pred": "Fritéza MOVA AF20 Pro bez tuku – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA AF20 Pro: fritéza bez tuku s dvoma sklenenými nádobami 4 l a 2,5 l, výkonom 1 700 W, teplotou 40–185 °C, 8 programami a dotykovým panelom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079337",
+   "guid": "8685f1d6-d986-11f1-9e6d-bc2411833e01",
+   "model": "SJ10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Pomalý odšťavovač MOVA SJ10 Pomalý odšťavovač MOVA SJ10 vám poskytne nové ocenenie chuti čerstvých štiav, pohodlia a plnej výživovej hodnoty vo vašej každodennej strave. Vďaka 120-milimetrovému…",
+     "po": "Pomalý odšťavovač MOVA SJ10 v striebornom prevedení s otvorom 120 mm na celé ovocie a zeleninu a otáčkami 40–60 ot./min. Dvojstupňové odšťavovanie s až o 10 % väčším výťažkom, dvojitý filter, spätný chod a jednoduché čistenie."
+    },
+    "metaTitle": {
+     "pred": "Pomalý odšťavovač MOVA SJ10",
+     "po": "Pomalý odšťavovač MOVA SJ10, otvor 120 mm, 40–60 ot./min"
+    },
+    "metaDescription": {
+     "pred": "Pomalý odšťavovač MOVA SJ10 vám poskytne nové ocenenie chuti čerstvých štiav, pohodlia a plnej výživovej hodnoty vo vašej každodennej strave.",
+     "po": "MOVA SJ10: pomalý odšťavovač s otvorom 120 mm, otáčkami 40–60 ot./min, dvojstupňovým odšťavovaním s až o 10 % väčším výťažkom a spätným chodom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "066394",
+   "guid": "2fe8cc12-d33d-11f1-867f-bc24110eff41",
+   "model": "G1 Pro Pet Trimmer",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA G1 pro Pet Trimmer MOVA G1 Pro Pet Trimmer je pokročilé zariadenie na starostlivosť o domáce zvieratá, ktoré kombinuje funkciu zastrihávania srsti s vysávacím systémom. Výsledkom je, že…",
+     "po": "MOVA G1 Pro Pet Trimmer je zastrihávač srsti pre domáce zvieratá s vysávaním ostrihaných chlpov do nádoby 1 l. Štyri režimy sania, tichá prevádzka od 36 dB, výkon 350 W, kábel 2,5 m, hrebene, kefa, valček na chlpy a brúska na nechty."
+    },
+    "metaTitle": {
+     "pred": "MOVA G1 pro Pet Trimmer",
+     "po": "Zastrihávač srsti MOVA G1 Pro Pet Trimmer s vysávaním, 350 W"
+    },
+    "metaDescription": {
+     "pred": "MOVA G1 Pro Pet Trimmer je pokročilé zariadenie na starostlivosť o domáce zvieratá, ktoré kombinuje funkciu zastrihávania srsti s vysávacím systémom.",
+     "po": "MOVA G1 Pro Pet Trimmer: zastrihávač srsti s vysávaním chlpov do nádoby 1 l, 4 režimami sania, tichým chodom od 36 dB a príslušenstvom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074754",
+   "guid": "3039e516-d33d-11f1-8dde-bc24110eff41",
+   "model": "Fresh biela",
+   "polia": {
+    "shortDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh (biela). MOVA Fresh je najmodernejšia elektrická zubná kefka, ktorá kombinuje pokročilú technológiu SweepDrive™ so sonickými vibráciami na účinné odstránenie zubného…",
+     "po": "Elektrická zubná kefka MOVA Fresh v bielom prevedení s technológiou SweepDrive a sonickými vibráciami 66 000 za minútu. Snímač tlaku, časovač, 3 režimy čistenia, nabíjanie cez USB-C, odolnosť IPX7, výdrž batérie 30 dní, dve hlavice."
+    },
+    "metaTitle": {
+     "pred": "Elektrická zubná kefka MOVA Fresh (biela)",
+     "po": "Elektrická zubná kefka MOVA Fresh biela, IPX7, 30 dní"
+    },
+    "metaDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh (biela) – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA Fresh (biela): elektrická zubná kefka so sonickými vibráciami 66 000 za minútu, snímačom tlaku, 3 režimami, USB-C, IPX7 a výdržou batérie 30 dní."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074755",
+   "guid": "303c2d30-d33d-11f1-a98e-bc24110eff41",
+   "model": "Fresh čierna",
+   "polia": {
+    "shortDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh (čierna). MOVA Fresh je najmodernejšia elektrická zubná kefka, ktorá kombinuje pokročilú technológiu SweepDrive™ so sonickými vibráciami na účinné odstránenie…",
+     "po": "Elektrická zubná kefka MOVA Fresh v čiernom prevedení s technológiou SweepDrive a sonickými vibráciami 66 000 za minútu. Snímač tlaku, časovač, 3 režimy čistenia, nabíjanie cez USB-C, odolnosť IPX7, výdrž batérie 30 dní, dve hlavice."
+    },
+    "metaTitle": {
+     "pred": "Elektrická zubná kefka MOVA Fresh (čierna)",
+     "po": "Elektrická zubná kefka MOVA Fresh čierna, IPX7, 30 dní"
+    },
+    "metaDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh (čierna) – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA Fresh (čierna): elektrická zubná kefka so sonickými vibráciami 66 000 za minútu, snímačom tlaku, 3 režimami, USB-C, IPX7 a výdržou batérie 30 dní."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 produktov; dĺžky skontrolované skriptom.",
+ "trvanlivost": "Skontrolovať po nočnom importe, že texty neboli prepísané.",
+ "navrat": "Pôvodné hodnoty sú v poli pred."
+}
