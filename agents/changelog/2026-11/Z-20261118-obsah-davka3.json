@@ -1,0 +1,315 @@
+{
+ "id": "Z-20261118-obsah-davka3",
+ "datum": "2026-11-18",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 15 produktov MOVA (čističky vzduchu, zvieracie zariadenia, reproduktory, zubná kefka, holiaci strojček, router, vysávače): nový krátky popis, meta title a meta description. Konfliktné údaje vynechané.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "082455",
+   "guid": "87c24f4a-d986-11f1-b445-bc2411833e01",
+   "model": "Stellar X10 Plus",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistička vzduchu MOVA Stellar X10 Plus (zlatá) Čistička vzduchu MOVA Stellar X10 Plus je navrhnutá tak, aby zabezpečovala pokojný spánok a pohodlné dýchanie každý deň, presne tam, kde je to…",
+     "po": "Čistička vzduchu MOVA Stellar X10 Plus v zlatom prevedení pre miestnosti 15–20 m² s filtrom H13 HEPA a vrstvou aktívneho uhlíka. Prietok PCADR 220 m³/h, plynulá regulácia, nočný režim, funkcia chladenia a ovládanie cez aplikáciu MOVAhome."
+    },
+    "metaTitle": {
+     "pred": "Čistička vzduchu MOVA Stellar X10 Plus (zlatá)",
+     "po": "Čistička vzduchu MOVA Stellar X10 Plus zlatá, HEPA H13"
+    },
+    "metaDescription": {
+     "pred": "Čistička vzduchu MOVA Stellar X10 Plus je navrhnutá tak, aby zabezpečovala pokojný spánok a pohodlné dýchanie každý deň, presne tam, kde je to najdôležitejšie.",
+     "po": "MOVA Stellar X10 Plus (zlatá): čistička vzduchu s filtrom H13 HEPA pre miestnosti 15–20 m², prietokom PCADR 220 m³/h, nočným režimom a aplikáciou MOVAhome."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "085053",
+   "guid": "7b95165c-bdfd-11f1-88a7-bc24110eff41",
+   "model": "LR10 Prime sivá",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA LR10 Prime Inteligentná samočistiaca toaleta pre mačky (biela) MOVA LR10 Prime je inteligentná samočistiaca toaleta, ktorá poskytuje pohodlie vašej mačke a pokoj vám. Čistiaci systém s…",
+     "po": "Samočistiaca toaleta pre mačky MOVA LR10 Prime v sivom prevedení s 11 l nádobou na odpad až na 15 dní, tichým chodom 30,2 dB a 12-vrstvovým bezpečnostným systémom. Pre mačky 1,5–10 kg, ovládanie a monitoring zdravia cez aplikáciu."
+    },
+    "metaTitle": {
+     "pred": "MOVA LitterBot LR10 Prime (sivý)",
+     "po": "Samočistiaca toaleta pre mačky MOVA LR10 Prime, sivá, 11 l"
+    },
+    "metaDescription": {
+     "pred": "Samočistiaca toaleta pre mačky MOVA LitterBot LR10 Prime (sivá) prináša pohodlie mačke a pokoj majiteľovi. Jedna 200-mililitrová fľaša roztoku vydrží až 30 dní.",
+     "po": "MOVA LR10 Prime (sivá): samočistiaca toaleta pre mačky s 11 l nádobou na odpad na 15 dní, 12-vrstvovým zabezpečením, aplikáciou a tichým chodom 30,2 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084687",
+   "guid": "8935d554-d986-11f1-972b-bc2411833e01",
+   "model": "W3000",
+   "polia": {
+    "shortDescription": {
+     "pred": "Elektrický holiaci strojček MOVA W3000 Elektrický holiaci strojček MOVA W3000 je kompaktné zariadenie určené na pohodlné a rýchle holenie – doma aj na cestách. Spája v sebe presný rezací systém,…",
+     "po": "Elektrický holiaci strojček MOVA W3000 s tromi flexibilnými čepieľkami, technológiou AI Beard Detection a antivibračným systémom. Hliníkové telo, odolnosť IPX7, nabíjanie cez USB-C, výdrž až 90 minút, puzdro a čistiaca kefka v balení."
+    },
+    "metaTitle": {
+     "pred": "Elektrický holiaci strojček MOVA W3000",
+     "po": "Elektrický holiaci strojček MOVA W3000, IPX7, USB-C, 90 min"
+    },
+    "metaDescription": {
+     "pred": "Elektrický holiaci strojček MOVA W3000 – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA W3000: elektrický holiaci strojček s tromi flexibilnými čepieľkami, AI Beard Detection, IPX7, nabíjaním cez USB-C a výdržou až 90 minút."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084681",
+   "guid": "8935f534-d986-11f1-91e3-bc2411833e01",
+   "model": "TPEAK S1 mini",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini reproduktor MOVA TPEAK S1 MOVA TPEAK S1 mini je kompaktný prenosný reproduktor, ktorý napriek svojim malým rozmerom ponúka prekvapivo silný a čistý zvuk. 45-milimetrový menič zaisťuje čistý zvuk…",
+     "po": "Prenosný Bluetooth reproduktor MOVA TPEAK S1 mini s 45 mm meničom a výkonom 6 W. Krytie IP67, batéria 2000 mAh s prehrávaním až 25 hodín, Bluetooth 6.0, prehrávanie z TF karty a režim zvukovej karty USB-C, funkcia volania."
+    },
+    "metaTitle": {
+     "pred": "Reproduktor MOVA TPEAK S1mini",
+     "po": "Bluetooth reproduktor MOVA TPEAK S1 mini, 6 W, IP67, 25 h"
+    },
+    "metaDescription": {
+     "pred": "Reproduktor MOVA TPEAK S1mini – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA TPEAK S1 mini: prenosný Bluetooth reproduktor s výkonom 6 W, krytím IP67, výdržou až 25 hodín, Bluetooth 6.0, TF kartou a funkciou volania."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084682",
+   "guid": "8936123a-d986-11f1-9ce8-bc2411833e01",
+   "model": "TPEAK S1",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový reproduktor MOVA TPEAK S1 MOVA TPEAK S1 je kompaktný reproduktor určený na počúvanie hudby doma aj vonku. Ponúka výkon 20 W, pútavé RGB osvetlenie a vodoodolnú konštrukciu, vďaka čomu je…",
+     "po": "Bezdrôtový Bluetooth reproduktor MOVA TPEAK S1 s výkonom 20 W, 45 mm meničom s trojitou membránou a 36 RGB LED diódami. Odolnosť IPX7, batéria 2000 mAh na až 8 hodín, pripojenie až 100 reproduktorov, Bluetooth 6.0, AUX a TF karta."
+    },
+    "metaTitle": {
+     "pred": "Reproduktor MOVA TPEAK S1",
+     "po": "Bluetooth reproduktor MOVA TPEAK S1, 20 W, RGB, IPX7"
+    },
+    "metaDescription": {
+     "pred": "MOVA TPEAK S1 je kompaktný reproduktor určený na počúvanie hudby doma aj vonku. Výstupný výkon 20 W zaisťuje hlasný a čistý zvuk v interiéri aj exteriéri.",
+     "po": "MOVA TPEAK S1: bezdrôtový reproduktor s výkonom 20 W, RGB osvetlením, odolnosťou IPX7, výdržou až 8 hodín a pripojením až 100 reproduktorov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087240",
+   "guid": "8a86f780-d986-11f1-be6d-bc2411833e01",
+   "model": "AirWave",
+   "polia": {
+    "shortDescription": {
+     "pred": "Zubná kefka MOVA AirWave MOVA AirWave je moderná sonická zubná kefka, ktorá spája ultratenký dizajn s priemerom len 17 mm s pokročilým čistiacim systémom Sweep & Sonic. Vďaka frekvencii až 35 000…",
+     "po": "Sonická zubná kefka MOVA AirWave s ultratenkým telom 17 mm a technológiou Sweep & Sonic s 35 000 vibráciami za minútu. Tri režimy, 2-minútový časovač, odolnosť IPX8, výdrž až 30 dní, puzdro z nehrdzavejúcej ocele a 2 hlavice v balení."
+    },
+    "metaTitle": {
+     "pred": "Zubná kefka MOVA Air Wave",
+     "po": "Sonická zubná kefka MOVA AirWave, 35 000 vibrácií, IPX8"
+    },
+    "metaDescription": {
+     "pred": "MOVA AirWave je moderná sonická zubná kefka, ktorá spája ultratenký dizajn s priemerom len 17 mm s pokročilým čistiacim systémom Sweep & Sonic.",
+     "po": "MOVA AirWave: ultratenká sonická zubná kefka s technológiou Sweep & Sonic, 3 režimami, IPX8, výdržou až 30 dní a puzdrom z nehrdzavejúcej ocele."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "077605",
+   "guid": "af5cc2a0-da4f-11f1-b43d-bc2411833e01",
+   "model": "V50 Ultra Complete",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA V50 Ultra Complete (čierny) MOVA V50 Ultra Complete je čistiaci robot, ktorý za vás vysáva, umýva podlahu a čistí mopové podložky. Vďaka vysokému sacému výkonu (24 000 Pa) a…",
+     "po": "Robotický vysávač s mopovaním MOVA V50 Ultra Complete v čiernom prevedení so sacím výkonom 24 000 Pa, batériou 6 400 mAh a umývaním vodou 50 °C. Stanica čistí a suší mopy horúcim vzduchom 60 °C, prahy do 6 cm, rozpoznáva 200+ prekážok."
+    },
+    "metaTitle": {
+     "pred": "Robotický vysávač MOVA V50 Ultra Complete (čierny)",
+     "po": "Robotický vysávač MOVA V50 Ultra Complete čierny, 24 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "MOVA V50 Ultra Complete je čistiaci robot, ktorý za vás vysáva, umýva podlahu a čistí mopové podložky. Vďaka tomu je čistenie efektívnejšie.",
+     "po": "MOVA V50 Ultra Complete (čierny): robotický vysávač s mopom, sanie 24 000 Pa, batéria 6 400 mAh, mytie vodou 50 °C, sušenie mopov a prahy do 6 cm."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090778",
+   "guid": "e0e6072a-dfcf-11f1-b54b-bc2411e8af0e",
+   "model": "Router X1 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Wi-Fi router MOVA X1 Pro MOVA X1 Pro stanovuje nový štandard pre domáce pripojenie a ponúka ultrarýchle Wi-Fi 7, pokročilé funkcie umelej inteligencie, pohodlné riadenie zariadení inteligentnej…",
+     "po": "Wi-Fi 7 router MOVA X1 Pro v triede BE9300 s rýchlosťou až 9 300 Mb/s, štvorjadrovým procesorom Qualcomm 1,5 GHz a pokrytím 120–150 m². Štyri porty 2,5 Gb/s, USB 3.0, funkcie NAS, hlasový AI asistent a podpora viac ako 200 zariadení."
+    },
+    "metaTitle": {
+     "pred": "Wi-Fi router MOVA X1 Pro | premiumstore.sk",
+     "po": "Wi-Fi 7 router MOVA X1 Pro BE9300, 4× 2,5 Gb/s, NAS"
+    },
+    "metaDescription": {
+     "pred": "Wi-Fi router MOVA X1 Pro – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA X1 Pro: Wi-Fi 7 router BE9300 s rýchlosťou až 9 300 Mb/s, štyrmi portmi 2,5 Gb/s, USB 3.0, funkciami NAS a AI asistentom. Pokrytie 120–150 m²."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "082456",
+   "guid": "7761ebd2-bdfd-11f1-b67b-bc24110eff41",
+   "model": "P10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistička vzduchu MOVA P10 MOVA P10 je pokročilá čistička vzduchu určená pre domácnosti s domácimi zvieratami. Zariadenie využíva unikátny systém dvojitej filtrácie, ktorý súčasne odstraňuje chlpy…",
+     "po": "Čistička vzduchu MOVA P10 pre domácnosti so zvieratami s dvojitým filtrom a filtrom HEPA H13 s povlakom rozkladajúcim alergény. Prietok PCADR 380 m³/h, technológia Active Mineral proti zápachu, UV sterilizácia, ovládanie cez aplikáciu."
+    },
+    "metaTitle": {
+     "pred": "Čistička vzduchu MOVA P10 pre zvieratá",
+     "po": "Čistička vzduchu MOVA P10 pre zvieratá, HEPA H13, 380 m³/h"
+    },
+    "metaDescription": {
+     "pred": "Čistička vzduchu MOVA P10 s dvojitou filtráciou odstraňuje chlpy a nečistoty, ideálna pre domácnosti so zvieratami. Objednajte na PremiumStore.sk.",
+     "po": "MOVA P10: čistička vzduchu pre domácnosti so zvieratami s dvojitým filtrom, HEPA H13, prietokom PCADR 380 m³/h, UV sterilizáciou a ovládaním cez aplikáciu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081305",
+   "guid": "b08eeeb4-da4f-11f1-b7cd-bc2411833e01",
+   "model": "Z60 Ultra Roller Complete",
+   "polia": {
+    "shortDescription": {
+     "pred": "Kompletný čistiaci robot MOVA Z60 Ultra Roller (biely) MOVA Z60 Ultra Roller Complete vám pomôže dôkladne vyčistiť podlahy vo vašej domácnosti. Vďaka sacému výkonu až 28 000 Pa, inteligentnej…",
+     "po": "Robotický vysávač s mopovacím valčekom MOVA Z60 Ultra Roller Complete v bielom prevedení so sacím výkonom 28 000 Pa a batériou 6 400 mAh. AutoShield zdvihne mop o 14 mm na koberci, prekonanie prekážok do 8 cm, výška 96 mm, dve nádrže DuoSolution."
+    },
+    "metaTitle": {
+     "pred": "Robotický vysávač MOVA Z60 Ultra Roller – kompletná…",
+     "po": "Robotický vysávač MOVA Z60 Ultra Roller Complete, 28 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA Z60 Ultra Roller – kompletná sada (biely) – skladom. Dvojitá kefa TroboWave™ je navrhnutá s ohľadom na domácnosti s domácimi zvieratami.",
+     "po": "MOVA Z60 Ultra Roller Complete (biely): vysávač s mopovacím valčekom, sanie 28 000 Pa, batéria 6 400 mAh, AutoShield, prekážky do 8 cm a DuoSolution."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "085045",
+   "guid": "7b8fe09c-bdfd-11f1-9c72-bc24110eff41",
+   "model": "NutriPal 10 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA NutriPal 10 Ultra Smart Pet Feeder (biely) MOVA NutriPal 10 Ultra je inteligentný dávkovač krmiva, ktorý zabezpečí, že vaše domáce zviera dostane pravidelné jedlá. Môžete ho ovládať na diaľku…",
+     "po": "Inteligentný dávkovač krmiva MOVA NutriPal 10 Ultra v bielom prevedení so zásobníkom 4 l, kamerou 1080p s nočným videním a obojsmerným zvukom. Priehradka na doplnky na 7 dní, váženie misky, presnosť ±1 g, záložná batéria, ovládanie cez aplikáciu."
+    },
+    "metaTitle": {
+     "pred": "Inteligentný dávkovač krmiva MOVA NutriPal 10 Ultra",
+     "po": "Dávkovač krmiva MOVA NutriPal 10 Ultra s kamerou, 4 l"
+    },
+    "metaDescription": {
+     "pred": "Inteligentný dávkovač krmiva MOVA NutriPal 10 Ultra v bielom prevedení zabezpečí pravidelné kŕmenie vášho miláčika. Objednajte na PremiumStore.sk.",
+     "po": "MOVA NutriPal 10 Ultra: inteligentný dávkovač krmiva so zásobníkom 4 l, kamerou 1080p, nočným videním, obojsmerným zvukom, váženími misky a aplikáciou."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089590",
+   "guid": "88d89b5e-bdfd-11f1-a4cf-bc24110eff41",
+   "model": "K30 Lite",
+   "polia": {
+    "shortDescription": {
+     "pred": "Vysávač MOVA K30 Lite Každodenné upratovanie môže byť rýchle a skutočne účinné – či už ide o omrvinky rozsypané po podlahe, rozliate nápoje, chlpy domácich miláčikov alebo zaschnutú špinu. MOVA K30…",
+     "po": "Akumulátorový vysávač s mopovaním MOVA K30 Lite so sacím výkonom 18 000 Pa, batériou 2 600 mAh a prevádzkou až 30 minút na plochu do 240 m². Sklopenie do 180°, čistenie okrajov z oboch strán, samočistiaci valec, hmotnosť 4,2 kg."
+    },
+    "metaTitle": {
+     "pred": "Vysávač Mova K30 Lite, 18 000 Pa",
+     "po": "Vysávač s mopom MOVA K30 Lite, 18 000 Pa, sklopenie 180°"
+    },
+    "metaDescription": {
+     "pred": "Vysávač so sacím výkonom 18 000 Pa a batériou 2600 mAh. Mopovanie až 30 minút, záruka 24 mesiacov. Úplné nabitie zariadenia trvá až 5 hodín.",
+     "po": "MOVA K30 Lite: akumulátorový vysávač s mopovaním, sanie 18 000 Pa, batéria 2 600 mAh, sklopenie do 180°, čistenie okrajov a samočistiaci valec."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090776",
+   "guid": "8fe41266-bdfd-11f1-a049-bc24110eff41",
+   "model": "DuoCare Pet",
+   "polia": {
+    "shortDescription": {
+     "pred": "Súprava Mova DuoCare pre domáce zvieratá s automatickým dávkovačom krmiva a miskou na vodu Vaše domáce zvieratko nepotrebuje veľa, aby bolo šťastné – stačí mu pokojný domov, blízkosť svojho majiteľa,…",
+     "po": "Súprava MOVA DuoCare Pet pre mačky a malé psy s automatickým dávkovačom krmiva 4,5 l a fontánou na vodu 2,5 l s dvojvrstvovým filtrom. Plán 1–4 jedál denne, porcie 10–100 g, núdzová batéria, miska z nerezovej ocele 304, chod okolo 25 dB."
+    },
+    "metaTitle": {
+     "pred": "Dávkovač krmiva a miska na vodu Mova DuoCare Pet",
+     "po": "Súprava MOVA DuoCare Pet, dávkovač krmiva 4,5 l a fontána"
+    },
+    "metaDescription": {
+     "pred": "Súprava pre domáce zvieratá s automatickým dávkovačom krmiva a misou na vodu z nehrdzavejúcej ocele 304. Objednajte na PremiumStore.sk.",
+     "po": "MOVA DuoCare Pet: súprava s automatickým dávkovačom krmiva 4,5 l a fontánou na vodu 2,5 l pre mačky a malé psy, núdzová batéria a chod 25 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090775",
+   "guid": "9053771e-bdfd-11f1-95bf-bc24110eff41",
+   "model": "LB10 Air",
+   "polia": {
+    "shortDescription": {
+     "pred": "Samočistiaca toaleta pre mačky MOVA LB10 Air Mačka potrebuje miesto, kde sa bude cítiť bezpečne a pohodlne. Majiteľ zase očakáva čistotu a čas, ktorý môžu stráviť spoločne. Samočistiaca toaleta pre…",
+     "po": "Samočistiaca toaleta pre mačky MOVA LB10 Air s otvoreným dizajnom, 4,5 l misou a 11 l nádobou na odpad až na 15 dní. Radarové, tlakové a infračervené senzory, váženie mačky, aplikácia MOVAhome, chod okolo 40 dB, pre mačky 1,5–10 kg."
+    },
+    "metaTitle": {
+     "pred": "Samočistiaca toaleta pre mačky Mova LB10 Air",
+     "po": "Samočistiaca toaleta pre mačky MOVA LB10 Air, 11 l odpad"
+    },
+    "metaDescription": {
+     "pred": "Samočistiaca toaleta pre mačky s toaletnou misou 4,5 l a plastmi bez BPA. Pohodlie pre mačku. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "MOVA LB10 Air: samočistiaca toaleta pre mačky s otvoreným dizajnom, nádobou 11 l na 15 dní, senzormi, aplikáciou a chodom 40 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081307",
+   "guid": "87321826-d986-11f1-a410-bc2411833e01",
+   "model": "G70 stanica",
+   "polia": {
+    "shortDescription": {
+     "pred": "Vyprázdňovacia stanica pre vertikálny vysávač MOVA G70 Automatická vyprázdňovacia stanica pre vertikálny vysávač MOVA G70 nielenže nabíja prístroj a automaticky odstraňuje zachytený prach, ale…",
+     "po": "Automatická vyprázdňovacia stanica pre vertikálny vysávač MOVA G70, ktorá vysávač nabíja a automaticky odsáva zachytený prach do antibakteriálneho vrecka odolného voči plesniam. Dvojité čistiace krúžky, hygienické uskladnenie súpravy, hmotnosť 4 kg."
+    },
+    "metaTitle": {
+     "pred": "Stanica s automatickým vyprázdňovaním pre stojací…",
+     "po": "Stanica s automatickým vyprázdňovaním pre vysávač MOVA G70"
+    },
+    "metaDescription": {
+     "pred": "Stanica s automatickým vyprázdňovaním pre stojací vysávač MOVA G70 – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA G70 Station: automatická vyprázdňovacia stanica pre vertikálny vysávač MOVA G70 s nabíjaním, antibakteriálnym vreckom a dvojitými čistiacimi krúžkami."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 produktov; dĺžky skontrolované skriptom.",
+ "trvanlivost": "Skontrolovať po nočnom importe, že texty neboli prepísané.",
+ "navrat": "Pôvodné hodnoty sú v poli pred."
+}
