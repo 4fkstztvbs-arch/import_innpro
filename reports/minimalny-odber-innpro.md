@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-18 01:45 UTC.
+Kontrola z 2026-11-18 12:26 UTC.
 
-InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **390** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -47,6 +47,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `035742` | Vertikálny úložný držiak pre vysávač Dreame P10/P10Pro | — | 5 |
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
+| `036334` | Montážna konzola na lištu DIN Sonoff DR | — | 5 |
 | `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 2 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
 | `045781` | Sunnylife lanyard with attachment for DJI RC-N1 / RC-N2 / RC | — | 5 |
@@ -64,6 +65,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `039677` | Mäkká valcová kefa pre vysávač Dreame R10 Pro / R20 | — | 5 |
 | `041716` | Držiak telefónu Puluz | — | 5 |
 | `043028` | Stojan Sonoff NSPanel (biely) | — | 5 |
+| `043032` | Stojanová základňa vypínača Sonoff NSPanel (čierny) | — | 5 |
 | `038164` | Solárna lampa Superfire FF6-B, 33W, 220lm, 1200mAh | — | 5 |
 | `043228` | Sáčky na psie exkrementy PetKit - 8 roliek | — | 5 |
 | `044841` | Joyroom JR-14D4 priehľadné puzdro pre iPhone 14 Pro Max | — | 5 |
@@ -120,6 +122,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `060190` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | — | 5 |
 | `060195` | Klip mikrofónu Puluz PU3045 3m, 3,5 mm Jack | — | 5 |
 | `060430` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
+| `060431` | Slnečná clona na smartfón od Sunnylife pre ovládač DJI RC-N1 | — | 5 |
 | `058458` | Bezdrôtový diaľkový spínač SwitchBot-S1 (čierny) | — | 5 |
 | `062224` | Termálne etikety Niimbot nálepky 12x40 mm, 160 ks (biela) | — | 5 |
 | `062225` | Štítky do termotlačiarne Niimbot 12,5x74+35, 65 ks | — | 5 |
@@ -135,9 +138,11 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
+| `064816` | Filters for Stainless Steel Pet Water fountain & Feeder 2in1 | — | 5 |
 | `065622` | Storage Bag Sunnylife for Insta360 X4 / X5 | — | 5 |
 | `065855` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (pur | — | 5 |
 | `065860` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (blu | — | 2 |
+| `063741` | NFC Tag Sonoff | — | 5 |
 | `066305` | Tempered Glass PULUZ  for Insta360 X4 / X5 | — | 5 |
 | `066417` | Silicone protective case PULUZ for Insta360 X4 (black) | — | 5 |
 | `066397` | Magnetic Quick Release Mount PULUZ For DJI Osmo Action 5 Pro | — | 5 |
@@ -198,7 +203,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `073743` | Kryt kardanu Sunnylife A3S-G913 pre AIR 3S | — | 5 |
 | `074189` | Sunnylife A3S-BHM915 fólia z tvrdeného skla pre fotoaparát A | — | 5 |
 | `074200` | Sunnylife EP2-BHM917 sada fólií na tvrdené sklo pre Insta360 | — | 5 |
-| `074208` | Kryt objektívu Sunnylife NE-ZG898-D pre Neo (čierny) | — | 4 |
 | `074209` | Sunnylife NE-ZG898-GY slnečná clona pre Neo (sivá) | — | 3 |
 | `070369` | Filter pre Dreame H14 Dual | — | 5 |
 | `072361` | Chladiaci ventilátor Darkflash DM8 ARGB (čierny) | — | 5 |
@@ -245,6 +249,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `080731` | Torba Sunnylife pre OSMO 360 | — | 3 |
 | `080728` | Držiak Sunnylife na vztlak pre športové kamery | — | 5 |
 | `080584` | Kryt nástenného spínača SONOFF E1GS (s N) | — | 5 |
+| `080586` | Rám pre dvojitý spínač Orb SONOFF EF2G | — | 5 |
 | `080587` | Rám pre trojitý prepínač Orb SONOFF EF3G | — | 5 |
 | `081353` | Sonoff Basic R5 Gen5 WiFi Smart Switch (10A, Matter) | — | 5 |
 | `081547` | Sunnylife tvrdené sklo (2 kusy) pre Osmo Nano | — | 5 |
