@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — monacor — 2026-11-17
+# Cenové anomálie vynechané z feedu — monacor — 2026-11-18
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -60,7 +60,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | CDMX-3 | 4007754210811 | Monacor CDMX-3 Ovládací kábel, 100 m | cena mimo 8x rozsah mediánu kategórie | 10.55 € | 185.00 € | 17.5x | 12 |
 | CR-2016 |  | Panasonic CR-2016 Lítiové batérie CR2016 | cena mimo 8x rozsah mediánu kategórie | 35.95 € | 1.90 € | 1/18.9x | 10 |
 | CTG-1SINE | 4007754227833 | Monacor CTG-1SINE XLR tester, 48 V | cena mimo 8x rozsah mediánu kategórie | 440.00 € | 50.50 € | 1/8.7x | 5 |
-| DM-70/SW | 4007754094039 | Monacor DM-70/SW Dynamický mikrofón | cena mimo 8x rozsah mediánu kategórie | 63.75 € | 7.90 € | 1/8.1x | 24 |
+| DM-70/SW | 4007754094039 | Monacor DM-70/SW Dynamický mikrofón | cena mimo 8x rozsah mediánu kategórie | 66.50 € | 7.90 € | 1/8.4x | 23 |
 | HF-155 | 4007754115031 | Monacor HF-155 Gumená nožička | cena mimo 8x rozsah mediánu kategórie | 11.90 € | 1.10 € | 1/10.8x | 9 |
 | LST-6 | 4007754176872 | Monacor LST-6 Pár univerzálnych držiakov | cena mimo 8x rozsah mediánu kategórie | 4.40 € | 45.50 € | 10.3x | 8 |
 | MCS-180 | 4007754166415 | Monacor MCS-180 Zásuvková lišta pre montáž do racku | cena mimo 8x rozsah mediánu kategórie | 3.50 € | 165.00 € | 47.1x | 8 |
