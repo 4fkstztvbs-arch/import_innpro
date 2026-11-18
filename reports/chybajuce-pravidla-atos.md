@@ -1,12 +1,12 @@
 # Chýbajúce pravidlá zaradenia — atos
 
-Kontrola z 2026-11-17 02:52 UTC.
+Kontrola z 2026-11-18 02:16 UTC.
 
-**1 ciest bez pravidla, 156 produktov bez kategórie.**
+**1 ciest bez pravidla, 155 produktov bez kategórie.**
 
 Doplň ich do `data/kategorie/atos.json` — kľúč je cesta z feedu, hodnota uzol
 stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
-| `Druhy > BLACK FRIDAY` | 156 | Čerpadlo oběhové AVANSA 32/6/180E; Vysavač robotický NEDIS WIFIVCL001CBK SmartLife 3v1 s navigací LiDAR; Budík digitální TechnoLine WT 745W; Digitální posuvné měřítko 0-150 mm 0,01 GEKO; Reproduktor Bluetooth KRUGER & MATZ KM0566  STREET XL černý |
+| `Druhy > BLACK FRIDAY` | 155 | Topidlo terasové TEESA TSA8050 na stojanu; TechniSat DIGITRADIO 10 C; Konektor na kohoutek, 3/4", plast, GEKO; Meteorologická stanice s 24hod /7denní předpovědí GARNI 2060 Arcus s Wi-Fi; Prodlužovací kabel na bubnu 50m ORNO OR-AE-13301/50M |
