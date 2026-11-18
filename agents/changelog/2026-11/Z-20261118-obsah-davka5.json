@@ -1,0 +1,275 @@
+{
+ "id": "Z-20261118-obsah-davka5",
+ "datum": "2026-11-18",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 5 (beh 18:10): 15 produktov MOVA (roboty V70 Complete, E50 Pro Ultra, Z70, E20s Pro, Z200, A10, fén Aero C, príslušenstvo); M1 kefa aj s dlhým popisom (bol anglický).",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "086997",
+   "guid": "35557b78-c122-11f1-83a3-bc2411833e01",
+   "model": "Sada E30/P10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaca sada MOVA pre modely E30 Ultra/P10 Ultra Originálne príslušenstvo pre roboty MOVA E30 Ultra a P10 Ultra, navrhnuté tak, aby každý deň zabezpečovalo maximálny výkon pri vysávaní a mopovaní.…",
+     "po": "Čistiaca sada MOVA pre robotické vysávače E30 Ultra a P10 Ultra. V balení hlavná kefa, dve bočné kefy, tri mopové podložky, dve vrecká na prach pre dokovaciu stanicu a dva filtre na pravidelnú výmenu spotrebného materiálu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087001",
+   "guid": "35604a3a-c122-11f1-94ed-bc2411833e01",
+   "model": "Sada V60 Mobius",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaca sada MOVA pre robot V60 MOBIUS Originálna sada príslušenstva pre robota MOVA V60 MOBIUS. Obsahuje dvojitú hlavnú kefu, ktorá účinne zbiera prach, zvieracie chlpy a väčšie nečistoty z rôznych…",
+     "po": "Čistiaca sada MOVA pre robotický vysávač V60 Mobius. Obsahuje dvojitú hlavnú kefu, dve bočné kefy, po dvoch mopových podložkách ThermoHold, Plush a HyperClean, dva filtre, dve vrecká na prach a čistiaci prostriedok na podlahy."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "060927",
+   "guid": "55b01f6e-c76b-11f1-b178-bc24110eff41",
+   "model": "M1 kefa",
+   "polia": {
+    "shortDescription": {
+     "pred": "Main brush for MOVA M1 The main brush for MOVA M1 is a key component of the vacuum cleaner, which significantly affects the efficiency and accuracy of cleaning. It perfectly copes with all kinds of…",
+     "po": "Náhradná hlavná kefa MOVA RMB8 pre robotický vysávač MOVA M1. Odolný materiál zaisťuje hĺbkové čistenie kobercov, panelov aj dlaždíc bez poškodenia povrchov a pravidelná výmena kefy pomáha udržať výkon vysávača."
+    },
+    "metaTitle": {
+     "pred": "Hlavná kefa MOVA pre robotický vysávač M1",
+     "po": "Hlavná kefa MOVA RMB8 pre robotický vysávač MOVA M1"
+    },
+    "metaDescription": {
+     "pred": "Náhradná hlavná kefa pre robotický vysávač MOVA M1. Odolný materiál zaisťuje hĺbkové čistenie všetkých povrchov. Ďalšie produkty nájdete v kategórii Vysávače.",
+     "po": "Náhradná hlavná kefa MOVA RMB8 pre robotický vysávač M1: odolný materiál, hĺbkové čistenie kobercov, panelov a dlaždíc bez poškodenia povrchov."
+    },
+    "description": {
+     "pred": "anglický pôvodný text (Main brush for MOVA M1)",
+     "po": "<h3>Hlavná kefa pre robotický vysávač MOVA M1</h3>\n<p>Hlavná kefa je kľúčovou súčasťou robotického vysávača MOVA M1 a výrazne ovplyvňuje účinnosť a presnosť čistenia. Poradí si s rôznymi druhmi nečistôt a vďaka kvalitným materiálom je mimoriadne odolná. Zaisťuje hĺbkové čistenie kobercov, panelov aj dlaždíc a zároveň chráni povrchy pred poškodením. Pravidelná výmena kefy uľahčuje udržiavanie vysávača v dobrom stave, predlžuje jeho životnosť a pomáha zachovať pracovný výkon.</p>\n<div class=\"table-wrapper\">\n<table>\n<tbody>\n<tr><th>Výrobca</th><td>MOVA</td></tr><tr><th>Kód výrobcu</th><td>RMB8 / 20010100000932</td></tr><tr><th>Kompatibilita</th><td>Robotický vysávač MOVA M1</td></tr>\n</tbody>\n</table>\n</div><p><a href=\"https://b2b.innpro.sk/settings.php?getAttachmentp=71325_37916_pol_49609fc5d4cde7e31afd72fa031b4fff\" target=\"_blank\" rel=\"noopener\">Stiahnuť dokument</a></p>\n<p>Ďalšie produkty nájdete v kategórii <a href=\"/vysavace/\">Vysávače</a>.</p>"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078099",
+   "guid": "580f5b3a-c76b-11f1-aee5-bc24110eff41",
+   "model": "Z50 podušky",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Sada dvoch mopovacích podušiek MOVA MRMP29 pre robotický vysávač MOVA Z50 Ultra. Mäkký a kvalitný materiál dôkladne odstraňuje aj odolné škvrny z podláh a pomáha udržiavať čistotu pri každodennom mopovaní."
+    },
+    "metaTitle": {
+     "pred": "Mopovacie podušky pre vysávač MOVA Z50 Ultra",
+     "po": "Mopovacie podušky MOVA MRMP29 pre Z50 Ultra, sada 2 ks"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087011",
+   "guid": "04dadb92-d274-11f1-bafc-bc2411e8af0e",
+   "model": "LR10 vrecká",
+   "polia": {
+    "shortDescription": {
+     "pred": "Rolka vrecúšok pre toaletu pre mačky MOVA LR10 PRIME Tieto vrecúška, určené pre toaletu pre mačky MOVA LR10 Prime, umožňujú efektívne odstraňovanie odpadu zo zariadenia a uľahčujú udržiavanie toalety…",
+     "po": "Rolka vrecúšok MOVA pre samočistiacu toaletu pre mačky MOVA LR10 Prime. Vrecúška umožňujú efektívne odstraňovanie odpadu zo zariadenia a pomáhajú udržiavať toaletu v čistote. Plné vrecúško stačí vymeniť za nové."
+    },
+    "metaTitle": {
+     "pred": "Taška na prepravu kurzu MOVA pre model LR10 PRIME",
+     "po": "Rolka vrecúšok MOVA pre toaletu pre mačky LR10 Prime"
+    },
+    "metaDescription": {
+     "pred": "Tieto vrecúška, určené pre toaletu pre mačky MOVA LR10 Prime, umožňujú efektívne odstraňovanie odpadu zo zariadenia a uľahčujú udržiavanie toalety v čistote.",
+     "po": "Rolka vrecúšok MOVA pre samočistiacu toaletu pre mačky LR10 Prime: jednoduchá výmena plného vrecúška a čistá toaleta bez ručnej manipulácie s odpadom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "093747",
+   "guid": "6269a576-dd74-11f1-a7a0-bc24110eff41",
+   "model": "AirWave ružová",
+   "polia": {
+    "shortDescription": {
+     "pred": "Náhradná hlavica na zubnú kefku MOVA AirWave (ružová) Náhradná hlavica na zubnú kefku MOVA AirWave je ideálnou voľbou pre všetkých, ktorí hľadajú bezkompromisnú účinnosť a šetrnosť pri každodennej…",
+     "po": "Náhradná hlavica MOVA MAWKS v ružovej farbe pre zubnú kefku MOVA AirWave. Bieliace vlákna v tvare diamantu a zužujúce sa štetiny, z ktorých viac ako 90 % je zaoblených, šetria ďasná. Zadná časť hlavice je pokrytá mäkkou PP gumou."
+    },
+    "metaTitle": {
+     "pred": "Náhradná hlavica na zubnú kefku MOVA AirWave… | premiumstore.sk",
+     "po": "Náhradná hlavica pre zubnú kefku MOVA AirWave, ružová"
+    },
+    "metaDescription": {
+     "pred": "Náhradná hlavica na zubnú kefku MOVA AirWave (ružová) – skladom. Kúpte na premiumstore.sk.",
+     "po": "Náhradná hlavica MOVA AirWave v ružovej farbe: bieliace diamantové vlákna, zaoblené štetiny šetrné k ďasnám a mäkká PP guma na zadnej strane hlavice."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088466",
+   "guid": "8b1fd354-9cfc-11f1-9772-bc2411833e01",
+   "model": "V70 Complete biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický vysávač MOVA V70 Ultra Complete v bielej farbe MOVA V70 Ultra Complete je vlajková loď medzi robotickými vysávačmi, ktorá spája prelomové technológie vysávania a utierania podlahy s…",
+     "po": "Robotický vysávač MOVA V70 Ultra Complete v bielom prevedení so sacím výkonom až 42 000 Pa a mopmi 300 ot./min s tlakom 15 N. MaxiReachX predĺži mop o 16 cm, prekoná prekážky do 9 cm, batéria 6 400 mAh, stanica bez vrecka."
+    },
+    "metaTitle": {
+     "pred": "Čistiaci robot MOVA V70 Ultra Complete v bielej farbe",
+     "po": "Robotický vysávač MOVA V70 Ultra Complete biely, 42 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Čistiaci robot MOVA V70 Ultra Complete v bielej farbe (Robotické vysávače) – overený obchod, skladom, vrátenie tovaru do 14 dní.",
+     "po": "MOVA V70 Ultra Complete (biely): robotický vysávač s mopom, sanie 42 000 Pa, MaxiReachX 16 cm, prahy do 9 cm, batéria 6 400 mAh a stanica bez vrecka."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089589",
+   "guid": "8b44cd76-9cfc-11f1-92ef-bc2411833e01",
+   "model": "V70 Complete čierny",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA V70 Ultra Complete (čierny) MOVA V70 Ultra Complete je vlajková loď medzi čistiacimi robotmi, ktorá kombinuje prelomové technológie vysávania a mopovania s dokovacou stanicou,…",
+     "po": "Robotický vysávač MOVA V70 Ultra Complete v čiernom prevedení so sacím výkonom až 42 000 Pa a mopmi 300 ot./min s tlakom 15 N. MaxiReachX predĺži mop o 16 cm, prekoná prekážky do 9 cm, batéria 6 400 mAh, stanica bez vrecka."
+    },
+    "metaTitle": {
+     "pred": "MOVA V70 Ultra Complete, čierny: robotický vysávač",
+     "po": "Robotický vysávač MOVA V70 Ultra Complete čierny, 42 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA V70 Ultra Complete v čiernej farbe s vysávaním, mopovaním a dokovacou stanicou. Nakúpte na PremiumStore.sk.",
+     "po": "MOVA V70 Ultra Complete (čierny): robotický vysávač s mopom, sanie 42 000 Pa, MaxiReachX 16 cm, prahy do 9 cm, batéria 6 400 mAh a stanica bez vrecka."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088467",
+   "guid": "8b2bff62-9cfc-11f1-b1dd-bc2411833e01",
+   "model": "E50 Pro Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický vysávač MOVA E50 Pro Ultra MOVA E50 Pro Ultra je pokročilý čistiaci robot s dokovacou stanicou, ktorý ponúka vysoký sací výkon 30 000 Pa, efektívne vytieranie s tlakom 12 N a takmer plne…",
+     "po": "Robotický vysávač MOVA E50 Pro Ultra s dokovacou stanicou, sacím výkonom až 30 000 Pa a mopmi 260 ot./min s tlakom 12 N. Výška 97 mm, batéria 5 200 mAh, umývanie mopov vodou 100 °C, sušenie mopov 63 °C a vrecko 3,2 l."
+    },
+    "metaTitle": {
+     "pred": "MOVA E50 Pro Ultra robotický vysávač: robotický vysávač",
+     "po": "Robotický vysávač MOVA E50 Pro Ultra, 30 000 Pa, 12 N"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088726",
+   "guid": "3d07e8b4-a021-11f1-83be-bc24110eff41",
+   "model": "Z70 Stone Black",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA Z70 Ultra Roller Complete RVC – čistiaci robot MOVA Z70 Ultra Roller Complete RVC je pokročilý čistiaci robot, ktorý spája vysoko účinné vysávanie s inovatívnym valcovým mopaním a plne…",
+     "po": "Robotický vysávač MOVA Z70 Ultra Roller Complete (Stone Black) so sacím výkonom 36 000 Pa a mopovacím valcom s tlakom 18 N. Výška 96 mm, prekonáva prekážky do 9 cm, batéria 6 400 mAh, stanica s 4 l vreckom, umývaním 100 °C a UV."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090100",
+   "guid": "414d3c08-a021-11f1-a355-bc24110eff41",
+   "model": "Z70 Metal Black",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA Z70 Ultra Roller Complete – Metal Black MOVA Z70 Ultra Roller Complete RVC je pokročilý čistiaci robot, ktorý kombinuje mimoriadne efektívne vysávanie s inovatívnym valcovým mopaním a plne…",
+     "po": "Robotický vysávač MOVA Z70 Ultra Roller Complete (Metal Black) so sacím výkonom 36 000 Pa a mopovacím valcom s tlakom 18 N. Výška 96 mm, prekonáva prekážky do 9 cm, batéria 6 400 mAh, stanica s 4 l vreckom, umývaním 100 °C a UV."
+    },
+    "metaTitle": {
+     "pred": "Robotický vysávač MOVA Z70 Ultra Roller Complete",
+     "po": "Robotický vysávač MOVA Z70 Ultra Roller, Metal Black"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač MOVA Z70 Ultra Roller Complete so sacím výkonom až 36 000 Pa a valcovým mopovaním. Táto funkcia môže zvýšiť účinnosť čistenia až o 30 %!",
+     "po": "MOVA Z70 Ultra Roller Complete (Metal Black): robotický vysávač s mopovacím valcom 18 N, sanie 36 000 Pa, výška 96 mm a stanica s UV sterilizáciou."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "090102",
+   "guid": "41409516-a021-11f1-8a12-bc24110eff41",
+   "model": "Z200",
+   "polia": {
+    "shortDescription": {
+     "pred": "Tyčový vysávač MOVA Z200 Vyhrajte boj proti prachu. Akumulátorový tyčový vysávač MOVA Z200 kombinuje výkon 180 AW s sacou silou 30 000 Pa, čím zabezpečuje účinné odstraňovanie zvieracích chlpov,…",
+     "po": "Akumulátorový tyčový vysávač MOVA Z200 so sacím výkonom 30 000 Pa a výkonom 180 AW, prevádzkou až 90 minút a hmotnosťou 1,55 kg. Automatický zber prachu do vrecka 1,2 l, filter HEPA H14, zelené LED podsvietenie a hluk pod 65 dB."
+    },
+    "metaTitle": {
+     "pred": "Vysávač MOVA Z200 Stick, MOVA 6978794734156",
+     "po": "Tyčový vysávač MOVA Z200 Stick, 30 000 Pa, 90 min, HEPA H14"
+    },
+    "metaDescription": {
+     "pred": "Vysávač MOVA Z200 Stick: pomáha pri pohodlnom každodennom ovládaní televízora. Stačí jedno stlačenie tlačidla na rýchlu a hygienickú výmenu vrecka.",
+     "po": "MOVA Z200 Stick: bezdrôtový tyčový vysávač so sacím výkonom 30 000 Pa, výdržou až 90 minút, automatickým zberom prachu do vrecka a filtrom HEPA H14."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "082441",
+   "guid": "775c961e-bdfd-11f1-8ed8-bc24110eff41",
+   "model": "E20s Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA E20s Pro (biely) Každodenné upratovanie môže byť jednoduchšie, tichšie a plne automatizované. Čistiaci robot MOVA E20s Pro je zariadenie určené pre domácnosti, kde je dôležitá…",
+     "po": "Robotický vysávač s mopom MOVA E20s Pro v bielom prevedení so sacím výkonom 13 000 Pa, laserovou navigáciou LDS a batériou 3 200 mAh. Vysáva a mopuje naraz, nádoba na prach 330 ml, nádrž na vodu 245 ml, hlasové ovládanie."
+    },
+    "metaTitle": {
+     "pred": "Robotický vysávač MOVA E20s Pro, biely",
+     "po": "Robotický vysávač s mopom MOVA E20s Pro biely, 13 000 Pa"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084862",
+   "guid": "ce79db6e-a345-11f1-81af-bc24110eff41",
+   "model": "A10 bazén",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický vysávač bazénov MOVA A10 MOVA A10 je autonómny robot na čistenie bazénov, ktorý vďaka svojej funkcii plánovania a dlhej prevádzkovej dobe (približne 3,5 hodiny na jedno nabitie) umožňuje…",
+     "po": "Autonómny robotický vysávač bazénov MOVA A10 pre súkromné bazény s plochou do 150 m². Sací výkon 22 700 LPH, prevádzka približne 3,5 hodiny, dvojitý filter, zásobník 3,5 l, čistenie dna, stien aj hladiny a plán v aplikácii."
+    },
+    "metaTitle": {
+     "pred": "Robotický vysávač bazénov MOVA A10",
+     "po": "Robotický vysávač bazénov MOVA A10, 22 700 LPH, 150 m²"
+    },
+    "metaDescription": {
+     "pred": "Robotický vysávač bazénov MOVA A10 slúži na účel vyplývajúci z jeho typu a uvedených parametrov. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "MOVA A10: robotický vysávač bazénov so sacím výkonom 22 700 LPH, prevádzkou približne 3,5 h, dvojitým filtrom a plánom v aplikácii, do 150 m²."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087242",
+   "guid": "3d142ce6-a021-11f1-94ec-bc24110eff41",
+   "model": "Aero C",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fén MOVA Aero C (ružový) Fén MOVA Aero C spája futuristický dizajn s pokročilou technológiou starostlivosti o vlasy. Vďaka inovatívnej komore v tvare písmena C, motoru s otáčkami až 110 000 ot./min a…",
+     "po": "Fén MOVA Aero C v ružovom prevedení s výkonom 1 800 W, motorom 110 000 ot./min a prietokom vzduchu 68 m³/h. Komora v tvare C, 600 miliónov plazmových iónov, teplota pod 55 °C, hmotnosť 340 g a tri nadstavce v balení."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 položiek.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
