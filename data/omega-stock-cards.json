@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600826,
+    "nextCardNumber": 202600832,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4952,6 +4952,42 @@
         "nazov": "Ventilátor VENTS KAM 125 krbový 1009640 1905091",
         "dodavatel": "atos",
         "code": "ELE-1009640"
+      },
+      "5901436715603": {
+        "kod": "202600826",
+        "nazov": "Baterie olověná 12V / 20 Ah VIPOW bezúdržbový akumulátor",
+        "dodavatel": "atos",
+        "code": "TIP-04250089"
+      },
+      "8588003477316": {
+        "kod": "202600827",
+        "nazov": "Sat přij. COMBO AB PULSe 4K Rev.II (1x DVB-S2X, 1xDVB-T2/C, 1x čtečka, 2x CI, 2xU",
+        "dodavatel": "atos",
+        "code": "CPULSE"
+      },
+      "0000000000000": {
+        "kod": "202600828",
+        "nazov": "SERVIS aktualizace firmware + nastavení v přijímači Linux Enigma2",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "5905440092859": {
+        "kod": "202600829",
+        "nazov": "Proudový chránič VCX DZ47LE 3P+N typ A /B16A/30mA/6kA (s nadproudovou ochra",
+        "dodavatel": "atos",
+        "code": "DZ47LE3P+NB1630MATYPA"
+      },
+      "5903293765258": {
+        "kod": "202600830",
+        "nazov": "Zdroj záložní VOLT POLSKA Sinus Pro 1500 E 12V/230V 1500VA 1050W",
+        "dodavatel": "atos",
+        "code": "TIP-06437076"
+      },
+      "5904463315662": {
+        "kod": "202600831",
+        "nazov": "Protiskluzová podložka do zásuvky 300x50 Ruhhy 20439",
+        "dodavatel": "atos",
+        "code": "ITR-00016368"
       }
     }
   },
