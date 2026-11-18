@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261118-seo-znacka-breville",
+  "datum": "2026-11-18",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Stránka značky Breville (146 zobrazení za 28 dní, CTR 1,4 %): popis, titulok a meta zodpovedajú skutočnej ponuke (sendvičovače, vaflovač, teplovzdušné fritézy) namiesto šablóny len o sendvičovači.",
+  "polozky": [
+    {
+      "typ": "znacka",
+      "kod": "breville",
+      "guid": "1f189964-bc0a-689c-a9de-bc2411d6010e",
+      "url": "https://www.premiumstore.sk/znacka/breville/",
+      "polia": {
+        "description": {
+          "pred": "<p>V ponuke značky Breville nájdete napríklad sendvičovač. Pri výbere porovnajte parametre a výbavu uvedenú pri konkrétnom modeli.</p>",
+          "po": "<p>Breville v ponuke PremiumStore.sk zastupujú kuchynské spotrebiče na každodenné varenie: teplovzdušné fritézy Breville VDF130X-01, VDF131X-01 a VDF133X-01 (so SteamFry), sendvičovače Breville VST071X a VST082X Ultimate Deep Fill a vaflovač Breville VST072X DuraCeramic.</p><p>Pri výbere porovnajte hlavne objem a výkon fritézy, počet režimov a typ platní pri sendvičovačoch. Parametre a výbava sú uvedené pri každom modeli.</p>"
+        },
+        "metaTitle": {
+          "pred": "Breville – sendvičovač | PremiumStore.sk",
+          "po": "Breville: fritézy, sendvičovače a vaflovač"
+        },
+        "metaDescription": {
+          "pred": "Breville: sendvičovač. Pozrite si ponuku na PremiumStore.sk a dostupnosť overte pri konkrétnom produkte.",
+          "po": "Breville: teplovzdušné fritézy VDF130X, VDF131X a VDF133X, sendvičovače VST071X a VST082X a vaflovač VST072X DuraCeramic."
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-18", "ok": true, "poznamka": "brand_update vrátil nové hodnoty description, metaTitle, metaDescription."}
+}
