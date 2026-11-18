@@ -1,0 +1,259 @@
+{
+ "id": "Z-20261118-obsah-davka1",
+ "datum": "2026-11-18",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 15 produktov MOVA (fény, zubná kefka, kávovar, S70 vysávače, zvieracie zariadenia, čistička): nový krátky popis, u 9 aj meta title a meta description. Zdroj: existujúci slovenský text a tabuľka dodávateľa; konfliktné údaje vynechané.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "070687",
+   "guid": "965bb864-92c5-11f1-837d-bc2411833e01",
+   "model": "Turbo biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "Vysokorýchlostný sušič vlasov MOVA powered by Dreame Turbo, biely Vysokorýchlostný sušič vlasov MOVA powered by Dreame Turbo je pokročilý sušič, ktorý kombinuje výnimočný výkon s jemnou…",
+     "po": "Vysokorýchlostný sušič vlasov MOVA powered by Dreame Turbo v bielom prevedení s bezkartáčovým motorom 110 000 ot./min a prúdom vzduchu 65 m/s. Ionizácia, 4 úrovne teploty, 2 rýchlosti, LED displej, hmotnosť 330 g, hluk do 58 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074751",
+   "guid": "a25e1bb6-92c5-11f1-a025-bc2411833e01",
+   "model": "Turbo sivý",
+   "polia": {
+    "shortDescription": {
+     "pred": "MOVA Turbo sušič vlasov (sivý) MOVA Turbo je vysoko výkonný sušič vlasov, ktorý kombinuje výkonný motor so 110 000 otáčkami za minútu s inteligentnou ochranou proti prehriatiu na rýchle a bezpečné…",
+     "po": "Vysokovýkonný fén MOVA Turbo v sivom prevedení s výkonom 1 600 W, motorom 110 000 ot./min a prúdom vzduchu 65 m/s. Ionizácia, 4 nastavenia teploty, 2 rýchlosti, ochrana proti prehriatiu, hmotnosť 330 g a hluk do 58 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "075479",
+   "guid": "b4738f02-92c5-11f1-8d34-bc2411833e01",
+   "model": "Shine 10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fén na vlasy MOVA Shine 10 (zlatý) Sušič vlasov MOVA Shine 10 vám umožní rýchlo a bezpečne vysušiť vlasy. Vďaka inovatívnej technológii AeroBlossom™ a výkonnému motoru so 110 000 otáčkami za minútu…",
+     "po": "Fén na vlasy MOVA Shine 10 v zlatom prevedení s technológiou AeroBlossom a bezkartáčovým motorom 110 000 ot./min. Ionizácia, snímač teploty NTC, 4 režimy vrátane režimu pre deti, koncentrátor v balení, hmotnosť 345 g, hluk 58 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "076649",
+   "guid": "b497df4c-92c5-11f1-810c-bc2411833e01",
+   "model": "Flip 10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Sušič vlasov MOVA Flip 10 MOVA Flip 10 je kompaktný prístroj na úpravu vlasov, ktorý vám umožní nielen sušiť, ale aj narovnávať a kulmovať vlasy - to všetko v jednom skladacom vyhotovení. Vďaka…",
+     "po": "Skladací sušič vlasov MOVA Flip 10 s bezkartáčovým motorom 110 000 ot./min, ionizáciou a reguláciou teploty NTC. V balení kónická kulma, vyhladzovacia tryska a úložné puzdro, tri uhlové nastavenia a 8 kombinácií fúkania."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079333",
+   "guid": "c4846844-92c5-11f1-af7f-bc2411833e01",
+   "model": "Shine 20",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fén na vlasy MOVA Shine 20 (zlatý) Vytvorte si rituál starostlivosti o vlasy a pokožku hlavy. Sušič vlasov MOVA Shine 20, navrhnutý s ohľadom na každého člena rodiny, využíva pokročilý bezkefkový…",
+     "po": "Fén na vlasy MOVA Shine 20 v zlatom prevedení s výkonom 1 800 W, bezkartáčovým motorom a snímačmi TOF a NTC na ochranu vlasov. Ionizácia, 4 úrovne teploty, 3 rýchlosti, okrúhla kefa, koncentrátor a tryska, hmotnosť 430 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079335",
+   "guid": "c49bd092-92c5-11f1-a06e-bc2411833e01",
+   "model": "Master 10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Sušič vlasov MOVA Master 10 (strieborný) Sušič vlasov MOVA Master 10 skracuje čas sušenia vďaka rýchlosti prúdenia vzduchu 55 m/s a motoru, ktorý dosahuje 110 000 otáčok za minútu, čím dosahuje…",
+     "po": "Fén MOVA Master 10 v striebornom prevedení s motorom 110 000 ot./min, ionizáciou a technológiou Coanda Airflow na kučery pri nižšej teplote. 8 nástavcov, úložné puzdro, 4 teploty, 3 rýchlosti, hmotnosť 292 g, hluk 58 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074746",
+   "guid": "a34b747e-92c5-11f1-b115-bc2411833e01",
+   "model": "Fresh Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh Pro (čierna). Elektrická zubná kefka MOVA Fresh Pro je moderné zariadenie, ktoré mení spôsob starostlivosti o ústnu hygienu. Vďaka inteligentnej technológii,…",
+     "po": "Elektrická zubná kefka MOVA Fresh Pro v čiernom prevedení so sonickými vibráciami a 3D pohybom kefky, 10 úrovňami intenzity a aplikáciou MOVA. Dve hlavice, bezdrôtové nabíjanie, odolnosť IPX7, výdrž batérie 30 dní."
+    },
+    "metaTitle": {
+     "pred": "Elektrická zubná kefka MOVA Fresh Pro, čierna",
+     "po": "Elektrická zubná kefka MOVA Fresh Pro čierna, IPX7, 30 dní"
+    },
+    "metaDescription": {
+     "pred": "Elektrická zubná kefka MOVA Fresh Pro s akumulátorom a frekvenciou vibrácií 66 000 za minútu. Ďalšie produkty nájdete v kategórii Elektrické zubné kefky.",
+     "po": "MOVA Fresh Pro (čierna): elektrická zubná kefka s 66 000 vibráciami za minútu, 10 úrovňami intenzity, 2 hlavicami, bezdrôtovým nabíjaním a IPX7."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081422",
+   "guid": "ddc2b004-92c5-11f1-bfe3-bc2411833e01",
+   "model": "S20 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Kávovar MOVA S20 Pro (strieborný) MOVA S20 Pro je espresso kávovar vytvorený pre tých, ktorí si chcú vychutnať skvelú chuť kávy bez toho, aby museli opustiť domov. Prístroj kombinuje kónický mlynček…",
+     "po": "Espresso kávovar MOVA S20 Pro v striebornom prevedení s kónickým mlynčekom (34 stupňov mletia), dvoma bojlermi a tlakom 20 barov. Trojitý systém napeňovania mlieka, dotykový panel, zásobník na zrná 250 g, nádrž na vodu 2,8 l."
+    },
+    "metaTitle": {
+     "pred": "Espresso kávovar MOVA S20 Pro, strieborný",
+     "po": "Espresso kávovar MOVA S20 Pro s mlynčekom, strieborný"
+    },
+    "metaDescription": {
+     "pred": "Espresso kávovar MOVA S20 Pro s kónickým mlynčekom, dvojitým bojlerom a trojitým systémom napeňovania mlieka. Objednajte na PremiumStore.sk.",
+     "po": "MOVA S20 Pro (strieborný): espresso kávovar s mlynčekom, dvoma bojlermi, tlakom 20 bar, portafilterom 58 mm, napeňovaním mlieka a dotykovým displejom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084668",
+   "guid": "fe6b96f4-92c5-11f1-8352-bc2411833e01",
+   "model": "S70 Ultra Roller čierny",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický vysávač MOVA S70 Ultra Roller (čierny) MOVA S70 Ultra Roller je čistiaci robot navrhnutý pre maximálne pohodlie a najvyššiu účinnosť. Kombinuje sací výkon 32 000 Pa s pokročilým systémom…",
+     "po": "Robotický vysávač s mopovacím valčekom MOVA S70 Ultra Roller v čiernom prevedení so sacím výkonom 32 000 Pa a systémom HydroForce. Stanica All-in-One umýva valec vodou do 100 °C, prekonanie prahov do 4 cm, batéria 6 400 mAh."
+    },
+    "metaTitle": {
+     "pred": "Valček MOVA S70 Ultra Roller – čierna",
+     "po": "Robotický vysávač MOVA S70 Ultra Roller čierny, 32 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Valček MOVA S70 Ultra Roller: sací tlak 32000 Pa a farba: čierna. Ďalšie parametre nájdete v popise. Ďalšie produkty nájdete v kategórii Vysávače.",
+     "po": "MOVA S70 Ultra Roller (čierny): robotický vysávač s valčekom, sanie 32 000 Pa, HydroForce, stanica All-in-One s umývaním do 100 °C a batéria 6 400 mAh."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084722",
+   "guid": "fe8f0f3a-92c5-11f1-892a-bc2411833e01",
+   "model": "S70 Roller biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA S70 Roller (biely) MOVA S70 Roller je čistiaci robot, ktorý kombinuje efektívne vysávanie s mopovaním podlahy. Systém HydroForce™ Mopping, sací výkon 28 000 Pa a technológia…",
+     "po": "Robotický vysávač s mopovacím valčekom MOVA S70 Roller v bielom prevedení so sacím výkonom 28 000 Pa a systémom HydroForce. Stanica All-in-One umýva valec vodou do 80 °C, výška 90 mm, prekonanie prekážok do 22 mm, batéria 5 200 mAh."
+    },
+    "metaTitle": {
+     "pred": "Valček MOVA S70 Roller (biela)",
+     "po": "Robotický vysávač MOVA S70 Roller biely, 28 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Valček MOVA S70 Roller (biela): sací tlak 28000 Pa a farba: biela. Ďalšie parametre nájdete v popise. Stanica All-in-One sa stará o bežnú údržbu robota.",
+     "po": "MOVA S70 Roller (biely): robotický vysávač s valčekom, sanie 28 000 Pa, HydroForce, stanica All-in-One s umývaním do 80 °C a batéria 5 200 mAh."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074752",
+   "guid": "a20d431c-92c5-11f1-bb01-bc2411833e01",
+   "model": "WF10 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fontána/napájačka pre domáce zvieratá MOVA WF10 Pro. MOVA WF10 Pro je inteligentná fontána pre mačky, ktorá poskytuje čistú vodu so štvorvrstvovou filtráciou a tromi režimami prietoku na podporu…",
+     "po": "Fontána pre mačky MOVA WF10 Pro so štvorvrstvovou filtráciou, tromi režimami prietoku vody a tichou prevádzkou 30 dB. Dvojúrovňová konštrukcia pre viac mačiek, nádrž 1,5 l, bezdrôtové čerpadlo a oddelenie elektroniky od vody."
+    },
+    "metaTitle": {
+     "pred": "Fontána pre mačky MOVA WF10 Pro",
+     "po": "Fontána pre mačky MOVA WF10 Pro, 4-vrstvová filtrácia, 1,5 l"
+    },
+    "metaDescription": {
+     "pred": "Fontána pre mačky MOVA WF10 Pro so 4-vrstvovou filtráciou, tromi režimami prietoku a tichým chodom len 30 dB. Objednajte na PremiumStore.sk.",
+     "po": "MOVA WF10 Pro: fontána pre mačky so 4-vrstvovou filtráciou, tromi režimami prietoku, nádržou 1,5 l, bezdrôtovým čerpadlom a tichým chodom len 30 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074748",
+   "guid": "a21a161e-92c5-11f1-a027-bc2411833e01",
+   "model": "WF20 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Napájačka pre domáce zvieratá MOVA WF20 Pro. Udržujte zdravie a pohodlie svojho domáceho maznáčika s napájačkou pre zvieratá MOVA WF20 Pro, ktorá kombinuje moderný dizajn s pokročilou filtračnou…",
+     "po": "Napájačka pre zvieratá MOVA WF20 Pro z nehrdzavejúcej ocele s dvojitými filtračnými kazetami a tromi režimami prietoku vody. Tichý chod 30 dB, zabudovaná batéria pre prípad výpadku prúdu, svetelný indikátor a ovládanie cez aplikáciu."
+    },
+    "metaTitle": {
+     "pred": "Napájačka pre zvieratá MOVA WF20 Pro",
+     "po": "Napájačka pre zvieratá MOVA WF20 Pro, nerezová oceľ, 30 dB"
+    },
+    "metaDescription": {
+     "pred": "Napájačka pre domáce zvieratá MOVA WF20 Pro zo 100 % nehrdzavejúcej ocele s tromi režimami prietoku vody. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "MOVA WF20 Pro: napájačka pre zvieratá z nehrdzavejúcej ocele s dvojitým filtrom, tromi režimami prietoku, batériou, aplikáciou a tichým chodom 30 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074758",
+   "guid": "a2303a0c-92c5-11f1-974b-bc2411833e01",
+   "model": "PF10 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Automatický dávkovač krmiva pre domáce zvieratá MOVA PF10 Pro MOVA PF10 Pro je automatický dávkovač krmiva, ktorý poskytuje pohodlné a presné kŕmenie vášho domáceho maznáčika. Je vybavený veľkou…",
+     "po": "Automatický dávkovač krmiva MOVA PF10 Pro s nádobou 3,4 l na až 2 kg suchého krmiva, vstavanou váhou a plánovaním až 20 jedál denne cez aplikáciu. Miska z nehrdzavejúcej ocele 304, detekcia zablokovania a pohlcovač vlhkosti v balení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080703",
+   "guid": "dda1d9e2-92c5-11f1-acb1-bc2411833e01",
+   "model": "LR10 Prime",
+   "polia": {
+    "shortDescription": {
+     "pred": "Inteligentný samočistiaci box pre mačky MOVA LR10 Prime (biely). MOVA LR10 Prime je inteligentná samočistiaca podstielka, ktorá poskytuje pohodlie pre mačku a pokoj pre opatrovateľa. Čistiaci systém…",
+     "po": "Samočistiaca toaleta pre mačky MOVA LR10 Prime v bielom prevedení s 11 l nádobou na odpad až na 15 dní, tichým chodom 30,2 dB a 12-vrstvovým bezpečnostným systémom. Pre mačky 1,5–10 kg, ovládanie a monitoring zdravia cez aplikáciu."
+    },
+    "metaTitle": {
+     "pred": "Samočistiaca toaleta MOVA LR10 Prime, biela",
+     "po": "Samočistiaca toaleta pre mačky MOVA LR10 Prime, biela, 11 l"
+    },
+    "metaDescription": {
+     "pred": "Inteligentná samočistiaca toaleta MOVA LR10 Prime pre mačky s dvojkomorovým osviežovacím systémom a rýchlym rozobratím. Objednajte na PremiumStore.sk.",
+     "po": "MOVA LR10 Prime: samočistiaca toaleta pre mačky s 11 l nádobou na odpad na 15 dní, 12-vrstvovým zabezpečením, aplikáciou a tichým chodom 30,2 dB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "082187",
+   "guid": "878ce616-d986-11f1-acc9-bc2411833e01",
+   "model": "Stellar X10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistička vzduchu MOVA Stellar X10 MOVA Stellar X10 je kompaktná čistička vzduchu určená na každodenné pohodlie - bude dobre fungovať v miestnostiach s rozlohou 10-15 m². Zariadenie kombinuje účinné…",
+     "po": "Kompaktná čistička vzduchu MOVA Stellar X10 pre miestnosti 10–15 m² s HEPA filtrom a technológiou Golden 45° Air Shield. Prietok CADR 120 m³/h, tichý chod 27–45 dB, funkcia jemného chladenia a ovládanie cez aplikáciu MOVAhome."
+    },
+    "metaTitle": {
+     "pred": "Čistička vzduchu MOVA Stellar X10",
+     "po": "Čistička vzduchu MOVA Stellar X10 s HEPA filtrom, 10–15 m²"
+    },
+    "metaDescription": {
+     "pred": "Čistička vzduchu MOVA Stellar X10 – skladom. Kúpte na premiumstore.sk.",
+     "po": "MOVA Stellar X10: čistička vzduchu s HEPA filtrom pre miestnosti 10–15 m², prietokom CADR 120 m³/h, jemným chladením, aplikáciou a tichým chodom 27–45 dB."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 produktov; dĺžky skontrolované skriptom.",
+ "trvanlivost": "Skontrolovať po nočnom importe, že texty neboli prepísané.",
+ "navrat": "Pôvodné hodnoty sú v poli pred."
+}
