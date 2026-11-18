@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 947,
+  "activeItemCount": 945,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -298,11 +298,6 @@
       "ean": ""
     },
     {
-      "key": "code:BASYS-BA 85A",
-      "code": "BASYS-BA 85A",
-      "ean": ""
-    },
-    {
       "key": "code:BASYS-BD 1000302",
       "code": "BASYS-BD 1000302",
       "ean": ""
@@ -525,11 +520,6 @@
     {
       "key": "code:BASYS-EN 455249",
       "code": "BASYS-EN 455249",
-      "ean": ""
-    },
-    {
-      "key": "code:BASYS-EN 456598",
-      "code": "BASYS-EN 456598",
       "ean": ""
     },
     {
@@ -4800,6 +4790,11 @@
       "ean": ""
     },
     {
+      "key": "code:BASYS-BA 85A",
+      "code": "BASYS-BA 85A",
+      "ean": ""
+    },
+    {
       "key": "code:BASYS-BD 1003393",
       "code": "BASYS-BD 1003393",
       "ean": ""
@@ -4857,6 +4852,11 @@
     {
       "key": "code:BASYS-DW 20BR",
       "code": "BASYS-DW 20BR",
+      "ean": ""
+    },
+    {
+      "key": "code:BASYS-EN 456598",
+      "code": "BASYS-EN 456598",
       "ean": ""
     },
     {
