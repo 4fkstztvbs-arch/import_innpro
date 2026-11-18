@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261118-seo-magcubic-x7",
+  "datum": "2026-11-18",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Magcubic X7 (poz. 5,6, CTR 2,9 %): oprava rozporu jasu (názov a meta 1 000 ANSI, popis aj tabuľka dodávateľa 800 ANSI) na 800 ANSI, nový titulok a meta; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "086337",
+      "guid": "17b1a3c4-92c6-11f1-9e98-bc2411833e01",
+      "url": "https://www.premiumstore.sk/projektor-magcubic-x7/",
+      "polia": {
+        "name": {
+          "pred": "Projektor Magcubic X7, Full HD, 1 000 ANSI lm",
+          "po": "Projektor Magcubic X7, Full HD, 800 ANSI lm, Android 14"
+        },
+        "metaTitle": {
+          "pred": "Magcubic X7 – Full HD projektor, Wi-Fi 6, 1 000 ANSI lm",
+          "po": "Magcubic X7 – Full HD projektor, 800 ANSI lm, Wi-Fi 6"
+        },
+        "metaDescription": {
+          "pred": "Projektor Magcubic X7 s Full HD rozlíšením, jasom 1 000 ANSI lúmenov a Wi-Fi 6. K tomu pridajte podporu HDR a vysoký kontrastný pomer 1000:1.",
+          "po": "Projektor Magcubic X7: natívne Full HD, 800 ANSI lm, Android 14, automatické zaostrovanie a korekcia, Wi-Fi 6, Bluetooth 5.4 a HDR."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-18",
+    "ok": true,
+    "poznamka": "Shoptet potvrdil zápis polí name, metaTitle, metaDescription."
+  }
+}
