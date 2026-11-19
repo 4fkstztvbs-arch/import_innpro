@@ -1,0 +1,211 @@
+{
+ "id": "Z-20261119-obsah-davka2",
+ "datum": "2026-11-19",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 2 (beh 12:10): 15 príslušenstiev MOVA (rampa, kefy, podložky, čističe, súpravy); nový krátky popis, pri 4 aj meta popis.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "088333",
+   "guid": "729fd922-a0ea-11f1-9a0c-bc24110eff41",
+   "model": "Rampa",
+   "polia": {
+    "shortDescription": {
+     "pred": "Rampa MOVA na prekonávanie prahov pre modely V50U/Mobius60 Rampa MOVA na prekonávanie prahov je praktické príslušenstvo určené pre modely V50U a Mobius60, ktoré pomáha robotovi plynulo prekonávať…",
+     "po": "Prahová rampa MOVA MRBC0 pre robotické vysávače MOVA V50U a Mobius60. Mierny sklon pomáha robotu plynulo prekonávať prahy a výškové rozdiely medzi miestnosťami. Rozmery 233 × 85 × 150 mm, hmotnosť 470 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088337",
+   "guid": "72abd8a8-a0ea-11f1-81a5-bc24110eff41",
+   "model": "Valčeková kefa X4 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Válcová kefa MOVA Válcová kefa MOVA je obojstranné príslušenstvo určené pre model X4 Pro, navrhnuté na prevádzku pri vysokých teplotách. Konštrukcia kefy zabezpečuje efektívne zachytávanie nečistôt…",
+     "po": "Obojstranná valčeková kefa MOVA HRBH4 pre bezdrôtový mopovací vysávač MOVA X4 Pro, určená na prevádzku pri vysokých teplotách. Konštrukcia kefy zabezpečuje efektívne zachytávanie nečistôt, hmotnosť kefy je 90 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078094",
+   "guid": "a20556b8-a27c-11f1-88f4-bc2411e8af0e",
+   "model": "Čistič 500 ml",
+   "polia": {
+    "shortDescription": {
+     "pred": "Univerzálny prostriedok na čistenie podláh pre modely MOVA K10, K10 Pro, K30, K30 Mix, K20 Pro, X4 Pro, M10, M50 Ultra, 500 ml Chcete, aby podlahy vo vašej domácnosti každý deň žiarili čistotou?…",
+     "po": "Univerzálny prostriedok MOVA AWH10 na čistenie podláh v 500 ml fľaši pre vysávače MOVA K10, K10 Pro, K30, K30 Mix, K20 Pro, X4 Pro, M10 a M50 Ultra. Odstraňuje mastné škvrny aj zaschnutú špinu."
+    },
+    "metaDescription": {
+     "pred": "Čistiaci prostriedok MOVA: objem 500 ml a použitie na čistenie podláh. Ďalšie parametre nájdete v popise. Ďalšie produkty nájdete v kategórii Vysávače.",
+     "po": "Univerzálny čistič podláh MOVA AWH10, 500 ml, pre K10, K10 Pro, K30, K30 Mix, K20 Pro, X4 Pro, M10 a M50 Ultra. Odstraňuje mastné aj zaschnuté škvrny."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086996",
+   "guid": "b8efe91a-a27c-11f1-8ec8-bc2411e8af0e",
+   "model": "Bočná kefa P10 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bočná kefa MOVA pre modely P10 Pro Ultra/Z50 Ultra/G30S Ultra Originálna bočná kefa MOVA účinne zametá prach, omrvinky a iné drobné nečistoty z rohov, okrajov a ťažko dostupných miest a smeruje ich…",
+     "po": "Originálna bočná kefa MOVA pre robotické vysávače MOVA P10 Pro Ultra, Z50 Ultra a G30S Ultra. Zametá prach, omrvinky a drobné nečistoty z rohov a okrajov do sacieho systému a pravidelná výmena udržuje čistiaci výkon."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087024",
+   "guid": "b93f6c42-a27c-11f1-a002-bc2411e8af0e",
+   "model": "Utierky 2 ks",
+   "polia": {
+    "shortDescription": {
+     "pred": "Utierky MOVA, balenie po 2 ks (svetlošedé) Utierky MOVA vám umožnia dôkladne vyčistiť rôzne povrchy bez rizika poškodenia. Sú vyrobené z mäkkého, savého materiálu – ideálne na každodenné použitie.…",
+     "po": "Balenie dvoch svetlosivých utierok MOVA z mäkkého a savého materiálu. Umožňujú dôkladné čistenie rôznych povrchov bez rizika poškodenia a sú vhodné na každodenné použitie v domácnosti."
+    },
+    "metaDescription": {
+     "pred": "Látka MOVA, balenie po 2 kusoch (svetlosivá): na čistenie a údržbu domácnosti; na praktické použitie doma aj na cestách. Objednajte na PremiumStore.sk.",
+     "po": "Utierky MOVA, 2 ks, svetlosivé: mäkký a savý materiál na dôkladné čistenie rôznych povrchov bez rizika poškodenia. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078081",
+   "guid": "714a3830-a66a-11f1-970a-bc2411833e01",
+   "model": "Filtre Z50 2 ks",
+   "polia": {
+    "shortDescription": {
+     "pred": "Prachový filter pre vysávač MOVA Z50 Ultra Filter prachovej nádoby pre robotický vysávač MOVA Z50 Ultra je zodpovedný za zachytávanie jemných prachových častíc a alergénov predtým, ako sa dostanú…",
+     "po": "Dva prachové filtre MOVA MRHF29 do prachovej nádoby robotického vysávača MOVA Z50 Ultra. Zachytávajú jemné prachové častice a alergény predtým, ako sa dostanú späť do vzduchu, a zlepšujú kvalitu vzduchu v miestnosti."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078088",
+   "guid": "e8240d70-a8c5-11f1-a2bd-bc2411e8af0e",
+   "model": "Bočné podložky Z50",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bočné mopovacie podložky pre vysávač MOVA Z50 Ultra Vďaka bočným mopovacím podložkám MOVA, kompatibilným s modelmi Z50 Ultra, budú podlahy vo vašej domácnosti žiariť čistotou. Sú vyrobené z mäkkého a…",
+     "po": "Dve bočné mopovacie podložky MOVA pre robotický vysávač MOVA Z50 Ultra. Mäkký a kvalitný materiál dôkladne odstraňuje aj odolné škvrny z podláh a pomáha udržiavať čistotu pri každodennom mopovaní."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087285",
+   "guid": "fe430606-a8c5-11f1-9e46-bc2411e8af0e",
+   "model": "Modul V50",
+   "polia": {
+    "shortDescription": {
+     "pred": "Modul na dávkovanie kvapalín MOVA pre modely V50 Ultra/V50 Ultra Complete Modul na dávkovanie kvapalín je príslušenstvo určené pre čistiace roboty MOVA V50 Ultra a V50 Ultra Complete, ktoré slúži na…",
+     "po": "Dvojkomorový modul MOVA MARDB4 na automatické dávkovanie čistiacich roztokov pre roboty MOVA V50 Ultra a V50 Ultra Complete. Obsahuje nádrž 400 ml na čistiaci roztok a nádrž 200 ml na neutralizátor zápachu zvierat."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087292",
+   "guid": "fe496f46-a8c5-11f1-a214-bc2411e8af0e",
+   "model": "Inhibítor",
+   "polia": {
+    "shortDescription": {
+     "pred": "Inhibítor tvorby vodného kameňa MOVA pre modely P50 Ultra/P50 Pro Ultra Tento praktický inhibítor MOVA pomáha obmedzovať usadzovanie vodného kameňa vo vodnom systéme zariadenia, čím podporuje jeho…",
+     "po": "Inhibítor tvorby vodného kameňa MOVA pre roboty MOVA P50 Ultra a P50 Pro Ultra. Pomáha obmedzovať usadzovanie vodného kameňa vo vodnom systéme, chráni komponenty prichádzajúce do styku s vodou a môže predĺžiť ich životnosť."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089586",
+   "guid": "febb7186-a8c5-11f1-8d96-bc2411e8af0e",
+   "model": "Drevené podlahy",
+   "polia": {
+    "shortDescription": {
+     "pred": "Prípravok na starostlivosť o drevené podlahy MOVA Prípravok na starostlivosť o drevené podlahy MOVA je 1-litrový čistiaci prostriedok na drevené podlahy, ktorý pomáha udržiavať povrchy v vynikajúcom…",
+     "po": "Prípravok MOVA na starostlivosť o drevené podlahy v 1 l balení. Hlboko vyživujúce zloženie pomáha zachovať vzhľad dreva a nízko penivá receptúra uľahčuje čistenie podláh pri každodennej údržbe."
+    },
+    "metaDescription": {
+     "pred": "Jeho hlboko vyživujúce zloženie pomáha zachovať estetický vzhľad dreva, zatiaľ čo nízko penivé zloženie uľahčuje čistenie podláh a zvyšuje komfort používateľa.",
+     "po": "Prípravok MOVA na starostlivosť o drevené podlahy, 1 l: hlboko vyživujúce, nízko penivé zloženie pomáha zachovať vzhľad dreva pri každodennej údržbe."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089587",
+   "guid": "ff89c2e8-a8c5-11f1-a06c-bc2411e8af0e",
+   "model": "Súprava S70",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaca sada MOVA – príslušenstvo Sada príslušenstva MOVA pre robotický vysávač S70 pomáha udržiavať zariadenie v dobrom stave a zachovať vysoký čistiaci výkon. Sada obsahuje bočné kefy, dva mopové…",
+     "po": "Súprava náhradného príslušenstva MOVA pre robotický vysávač MOVA S70. V balení dve bočné kefy, dva mopové valčeky, dve vrecká na prach, dva filtre do zásobníka na prach a univerzálny čistič podláh."
+    },
+    "metaDescription": {
+     "pred": "Čistiaca Súprava MOVA – príslušenstvo: na čistenie a údržbu domácnosti. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Súprava príslušenstva MOVA pre robot S70: 2 bočné kefy, 2 mopové valčeky, 2 vrecká na prach, 2 filtre a univerzálny čistič podláh."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088334",
+   "guid": "042357e2-a8c6-11f1-b80c-bc2411e8af0e",
+   "model": "Spojka rampy",
+   "polia": {
+    "shortDescription": {
+     "pred": "Spojka pre prahovú rampu MOVA pre modely V50U/Mobius60 Spojka pre prahovú rampu MOVA je komponent určený pre modely V50U a Mobius60, ktorý umožňuje pohodlnú montáž jednotlivých úsekov prahovej rampy…",
+     "po": "Spojka prahovej rampy MOVA MRBC1 pre modely V50U a Mobius60, ktorá spája jednotlivé úseky rampy do ucelenej konštrukcie. Rozmery 140 × 22 × 151 mm, hmotnosť 84 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078091",
+   "guid": "e7571974-b233-11f1-9598-bc2411e8af0e",
+   "model": "TriCut Z50",
+   "polia": {
+    "shortDescription": {
+     "pred": "Hlavná kefa pre vysávač MOVA Z50 Ultra Hlavná kefa TriCut účinne zbiera nečistoty z podlahy a vďaka svojej jedinečnej konštrukcii prestriháva vlasy, takže sa nezachytávajú v hriadeli kefy. Vďaka tomu…",
+     "po": "Hlavná kefa TriCut MOVA MRMB17 pre robotický vysávač MOVA Z50 Ultra. Účinne zbiera nečistoty z podlahy a vďaka jedinečnej konštrukcii prestriháva vlasy, takže sa nezachytávajú v hriadeli kefy a údržba je rýchla."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078092",
+   "guid": "e75bd8c4-b233-11f1-b388-bc2411e8af0e",
+   "model": "Podložky E10/E20",
+   "polia": {
+    "shortDescription": {
+     "pred": "Podložky na vysávanie pre vysávač MOVA E10, E20, E20 Plus, E20 Pro Plus, E20 Pro. Podlahy vo vašej domácnosti budú nádherne čisté, svieže a lesklé. Mopovacie podložky MOVA sú vyrobené z kvalitných,…",
+     "po": "Dve náhradné mopové podložky MOVA RMP17 pre roboty MOVA E10, E20, E20 Plus, E20 Pro Plus a E20 Pro. Mäkký kvalitný materiál si poradí s mastnými škvrnami aj zaschnutou špinou a podlahy zostanú čisté a lesklé."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086999",
+   "guid": "029d5392-b234-11f1-851a-bc2411e8af0e",
+   "model": "Súprava Z60",
+   "polia": {
+    "shortDescription": {
+     "pred": "Súprava príslušenstva pre robotický vysávač MOVA Z60 Ultra Roller Kompletná sada spotrebného príslušenstva pre robotický vysávač MOVA Z60 Ultra Roller. Obsahuje bočné kefy, valčeky na mopovanie,…",
+     "po": "Kompletná sada spotrebného príslušenstva MOVA pre robotický vysávač MOVA Z60 Ultra Roller: dve bočné kefy, dva mopové valce, dve hlavné kefy, dva filtre, dve vrecká na prach a čistiaci prostriedok na podlahy."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 položiek.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
