@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261119-obsah-davka1",
+ "datum": "2026-11-19",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 1 (beh 10:10): 15 príslušenstiev MOVA (filtre, kefy, batérie, súprava E20 Plus); nový krátky popis, meta bola v poriadku.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "087020",
+   "guid": "391b6996-92c6-11f1-b5af-bc2411833e01",
+   "model": "Filter I10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre model I10 Originálny filter pre vertikálny vysávač MOVA I10. Účinne zachytáva prach a jemné častice, čím pomáha udržiavať vysoký čistiaci výkon. Jeho pravidelná výmena zabezpečuje…",
+     "po": "Originálny náhradný filter MOVA pre vertikálny vysávač MOVA I10. Zachytáva prach a jemné častice, pravidelná výmena udržuje správny prietok vzduchu a stabilný výkon. Presné prispôsobenie modelu I10 zaručuje jednoduchú inštaláciu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087021",
+   "guid": "3926d6b4-92c6-11f1-9bc4-bc2411833e01",
+   "model": "Filtre S5 Sense",
+   "polia": {
+    "shortDescription": {
+     "pred": "Sada filtrov MOVA pre model S5 Sense (3-dielna sada) Originálna sada filtrov pre vertikálny vysávač MOVA S5 Sense. Pomáha udržiavať vysoký výkon vysávania a podporuje optimálny prietok vzduchu.…",
+     "po": "Originálna sada troch filtrov MOVA pre tyčový vysávač MOVA S5 Sense: jeden hlavný filter a dva penové filtre. Zachytávajú prach a jemné častice a pravidelnou výmenou pomáhajú udržať stály výkon a prietok vzduchu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087022",
+   "guid": "39336b4a-92c6-11f1-89c2-bc2411833e01",
+   "model": "Filter S4 Detect",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre model S4 Detect Filter pre vertikálny vysávač MOVA S4 Detect účinne zachytáva jemný prach a nečistoty, čím pomáha udržiavať vysoký čistiaci výkon. Jeho pravidelná výmena zabezpečuje…",
+     "po": "Originálny náhradný filter MOVA pre tyčový vysávač MOVA S4 Detect. Zachytáva jemný prach a nečistoty, pravidelná výmena zabezpečuje správny prietok vzduchu a stabilný sací výkon. Jednoduchá inštalácia a bezproblémová prevádzka."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087023",
+   "guid": "393e2030-92c6-11f1-b66e-bc2411833e01",
+   "model": "Filter M10/K20/M50",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 Originálny filter MOVA účinne zachytáva jemný prach a bežné nečistoty, čím pomáha udržiavať vysoký výkon vášho vertikálneho vysávača.…",
+     "po": "Originálny náhradný filter MOVA pre vysávače MOVA M10, M10 Pro, M10 Station, K20, K20 Pro a M50. Zachytáva jemný prach a bežné nečistoty a pravidelnou výmenou podporuje správny prietok vzduchu a stály sací výkon."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087027",
+   "guid": "395e1610-92c6-11f1-ba69-bc2411833e01",
+   "model": "Filter G70 stanica",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre stanicu G70 Filter pre vertikálny vysávač MOVA G70 Station zabezpečuje účinnú filtráciu vzduchu a pomáha udržiavať vysoký výkon spotrebiča. Zachytáva jemné častice a prach, čím…",
+     "po": "Originálny náhradný filter MOVA pre vyprázdňovaciu stanicu vysávača MOVA G70 Station. Zabezpečuje filtráciu vzduchu, zachytáva jemné častice a prach a jeho pravidelná výmena pomáha udržať stabilný výkon pri upratovaní."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087245",
+   "guid": "3967fd7e-92c6-11f1-a7b8-bc2411833e01",
+   "model": "Kefa E30 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Hlavná kefa MOVA pre model E30 Ultra Hlavná kefa MOVA účinne zachytáva prach, zvieracie chlpy a iné bežné nečistoty z tvrdých podláh a kobercov a smeruje ich priamo do sacieho systému robotického…",
+     "po": "Náhradná hlavná kefa MOVA pre robotický vysávač MOVA E30 Ultra. Zachytáva prach, zvieracie chlpy a bežné nečistoty z tvrdých podláh aj kobercov a smeruje ich do sacieho systému. Pravidelná výmena udržiava čistiaci výkon."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078067",
+   "guid": "a1b7c588-a27c-11f1-a243-bc2411e8af0e",
+   "model": "Sada E20 Plus",
+   "polia": {
+    "shortDescription": {
+     "pred": "Súprava príslušenstva pre čistiaci robot MOVA E20 Plus / E20 Pro Plus Súprava náhradného príslušenstva pre čistiace roboty MOVA E20 Plus a E20 Pro Plus vám umožní udržiavať robota plne pripraveného…",
+     "po": "Súprava náhradného príslušenstva MOVA RAK57 pre roboty MOVA E20 Plus a E20 Pro Plus. V balení hlavná kefa, dve bočné kefy, dva filtre do nádoby na prach, dve vrecká na prach a tri mopovacie podložky."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089579",
+   "guid": "ff6f0d90-a8c5-11f1-8c32-bc2411e8af0e",
+   "model": "Kefa I10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Hlavná kefa MOVA pre model I10 Hlavná kefa MOVA pre robotický vysávač I10 účinne zbiera prach, omrvinky a iné nečistoty z rôznych typov podláh, čím pomáha udržiavať vysokú účinnosť čistenia. Vďaka…",
+     "po": "Náhradná hlavná kefa MOVA pre robotický vysávač MOVA I10. Zbiera prach, omrvinky a iné nečistoty z rôznych typov podláh, je presne prispôsobená modelu I10 a jej pravidelná výmena pomáha udržať čistiaci výkon."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089583",
+   "guid": "ff7ce3ac-a8c5-11f1-96f8-bc2411e8af0e",
+   "model": "Kefa Z50 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Hlavná kefa MOVA pre model Z50 Ultra Hlavná kefa MOVA pre robotický vysávač Z50 Ultra pomáha udržiavať vysoký výkon vysávania a efektívne zbieranie nečistôt z podláh. Pravidelná výmena tejto…",
+     "po": "Náhradná hlavná kefa MOVA pre robotický vysávač MOVA Z50 Ultra. Pomáha udržiavať vysoký výkon vysávania a efektívne zbierať nečistoty z podláh, pravidelná výmena opotrebovanej kefy zaručuje spoľahlivú každodennú prevádzku."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089585",
+   "guid": "ff835a66-a8c5-11f1-bbe7-bc2411e8af0e",
+   "model": "Bočná E40",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bočná kefa MOVA pre model E40 Ultra Bočná kefa MOVA pre model E40 Ultra účinne pomáha robotickému vysávaču dôkladne odstraňovať prach, omrvinky a iné nečistoty z ťažko dostupných miest. Konštrukcia s…",
+     "po": "Náhradná bočná kefa MOVA pre robotický vysávač MOVA E40 Ultra. Trojramenná konštrukcia s ohybnými štetinami zametá prach a omrvinky z rohov, popri stenách a lištách a smeruje ich do hlavného čistiaceho systému."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089569",
+   "guid": "fe8ab5fa-a8c5-11f1-9869-bc2411e8af0e",
+   "model": "Batéria S7",
+   "polia": {
+    "shortDescription": {
+     "pred": "Batéria MOVA S7 Ultra Batéria MOVA, určená pre vysávač MOVA S7 Ultra, zabezpečuje stabilný a spoľahlivý prísun energie do zariadenia počas každodenného upratovania. Lítium-iónová batéria s kapacitou…",
+     "po": "Náhradná lítium-iónová batéria MOVA s kapacitou 2 500 mAh pre tyčový vysávač MOVA S7 Ultra. Zabezpečuje stabilné napájanie počas každodenného upratovania a pomáha udržať výkon a výdrž vysávača."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089580",
+   "guid": "fea61c32-a8c5-11f1-abfa-bc2411e8af0e",
+   "model": "Batéria S2",
+   "polia": {
+    "shortDescription": {
+     "pred": "Batéria MOVA S2 Detect Batéria MOVA S2 Detect s kapacitou 2500 mAh napája vysávač a zabezpečuje jeho plnú prevádzkovú pripravenosť. Využitie lítium-iónovej (Li-Ion) technológie zaručuje stabilný…",
+     "po": "Náhradná lítium-iónová batéria MOVA s kapacitou 2 500 mAh pre tyčový vysávač MOVA S2 Detect. Zaručuje stabilný výkon a pohodlné nabíjanie, kompaktná konštrukcia uľahčuje inštaláciu aj výmenu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089581",
+   "guid": "ff767648-a8c5-11f1-aad7-bc2411e8af0e",
+   "model": "Batéria I10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Batéria MOVA I10 Batéria MOVA I10 je lítium-iónová batéria s kapacitou 2600 mAh, ktorá zabezpečuje spoľahlivé napájanie kompatibilného zariadenia. Vďaka tomu, že je dobíjateľná, slúži ako praktické…",
+     "po": "Náhradná dobíjateľná lítium-iónová batéria MOVA s kapacitou 2 600 mAh pre vysávač MOVA I10. Slúži ako náhrada opotrebovanej batérie aj ako rezerva na predĺženie prevádzky, kompaktný dizajn uľahčuje výmenu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089577",
+   "guid": "fe98c9ec-a8c5-11f1-a0bd-bc2411e8af0e",
+   "model": "Filter S2",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre model S2 Detect Filter MOVA pre model S2 Detect je vymeniteľný spotrebný materiál, ktorý pomáha udržiavať vysoký výkon vysávača a zabezpečuje správnu filtráciu nečistôt počas…",
+     "po": "Vymeniteľný náhradný filter MOVA pre tyčový vysávač MOVA S2 Detect. Zabezpečuje správnu filtráciu nečistôt počas upratovania, je presne prispôsobený modelu S2 Detect a pravidelnou výmenou udržuje výkon vysávača."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089578",
+   "guid": "fe9f5712-a8c5-11f1-9982-bc2411e8af0e",
+   "model": "Kefa S2 Multi",
+   "polia": {
+    "shortDescription": {
+     "pred": "Kefa MOVA Multi-Surface pre model S2 Detect Kefa MOVA Multi-Surface pre model S2 Detect je vymeniteľné príslušenstvo, ktoré pomáha udržiavať vysokú účinnosť vysávania a plný výkon zariadenia. Jeho…",
+     "po": "Náhradná viacúčelová kefa MOVA Multi-Surface pre tyčový vysávač MOVA S2 Detect. Husté štetiny zachytávajú prach a jemné nečistoty z rôznych typov podláh a presné prispôsobenie modelu zaručuje jednoduchú inštaláciu."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 položiek.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
