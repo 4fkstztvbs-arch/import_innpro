@@ -1,0 +1,24 @@
+{
+  "id": "Z-20261119-seo-magcubic-hy320",
+  "datum": "2026-11-19",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Magcubic HY320 biely (44 zobrazení, poz. 6,7): názov s rozlíšením a jasom z tabuľky dodávateľa; titulok a meta už boli v poriadku, ostávajú; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "090576",
+      "guid": "3effea8a-92c6-11f1-a869-bc2411833e01",
+      "url": "https://www.premiumstore.sk/projektor-magcubic-hy320--biely/",
+      "polia": {
+        "name": {
+          "pred": "Projektor Magcubic HY320 (biely)",
+          "po": "Projektor Magcubic HY320 biely, Full HD, 300 ANSI lm"
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-19", "ok": true, "poznamka": "product_update potvrdil zápis name."}
+}
