@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261119-seo-magcubic-hy350max",
+  "datum": "2026-11-19",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Magcubic HY350MAX (55 zobrazení, poz. 6,1, CTR 1,8 %): názov bez EAN kódu, titulok a meta s overenými parametrami z popisu; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "086336",
+      "guid": "f7985a90-a8c5-11f1-90ea-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/projektor-magcubic-hy350max/",
+      "polia": {
+        "name": {
+          "pred": "Projektor Magcubic HY350MAX, 0757047110420",
+          "po": "Projektor Magcubic HY350MAX, Full HD, 600 ANSI lm, Android 14"
+        },
+        "metaTitle": {
+          "pred": "Projektor Magcubic HY350MAX, 0757047110420",
+          "po": "Magcubic HY350MAX projektor Full HD, Android 14"
+        },
+        "metaDescription": {
+          "pred": "HY350MAX ponúka natívne Full HD, jas 600 ANSI lm, Android 14 a automatické zaostrenie obrazu. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "Projektor Magcubic HY350MAX: natívne Full HD 1080p, 600 ANSI lm, Android 14, automatické zaostrenie, Wi-Fi 6 a Bluetooth 5.4."
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-19", "ok": true, "poznamka": "product_update potvrdil zápis name, metaTitle, metaDescription."}
+}
