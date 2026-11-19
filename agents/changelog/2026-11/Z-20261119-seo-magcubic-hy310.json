@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261119-seo-magcubic-hy310",
+  "datum": "2026-11-19",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Magcubic HY310: názov a titulok bez EAN a kódu v zátvorke, meta bez odkazu na kategóriu; parametre z tabuľky dodávateľa; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "086343",
+      "guid": "17d11ba0-92c6-11f1-9a28-bc2411833e01",
+      "url": "https://www.premiumstore.sk/projektor-magcubic-hy310/",
+      "polia": {
+        "name": {
+          "pred": "Projektor Magcubic HY310, 0757047110499 (086343)",
+          "po": "Projektor Magcubic HY310, Full HD, 260 ANSI lm, Android 14"
+        },
+        "metaTitle": {
+          "pred": "Projektor Magcubic HY310, 0757047110499 (086343)",
+          "po": "Magcubic HY310 projektor Full HD, Android 14"
+        },
+        "metaDescription": {
+          "pred": "Magcubic HY310 má Full HD, jas 260 ANSI lm a automatické zaostrenie na rýchle nastavenie obrazu. Ďalšie produkty nájdete v kategórii Projektory.",
+          "po": "Projektor Magcubic HY310: natívne Full HD 1080p, 260 ANSI lm, Android 14, automatické zaostrenie a obraz až 150\", hmotnosť 610 g."
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-19", "ok": true, "poznamka": "product_update potvrdil zápis name, metaTitle, metaDescription."}
+}
