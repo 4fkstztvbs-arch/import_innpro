@@ -12,7 +12,7 @@ rola: hlavny-agent
 
 - Rozpory medzi textom a tabuľkou dodávateľa pri MOVA (WF20 Pro, FD10 Pro, Stellar X10 Plus, LB10 Air) a pri Magcubic X7 (800 vs 1 000 ANSI lm): v texte vynechané alebo použité údaje tabuľky. Ostatné projektory Magcubic majú pravdepodobne rovnakú chybu v názve, SEO ich má skontrolovať.
 - Priradenie objednávok k Google reklame nejde cez Shoptet MCP (potrebný Premium addon alebo export objednávok so zdrojom). Zatiaľ sa používajú čísla z Shoptet kampaní.
-- Reklama: tri dni po sebe okolo 7 objednávok denne (pred zvýšením rozpočtu okolo 5), PNO za 30 dní 2,7 %. Kredit klesne pod 10 € asi o 2 dni.
+- Reklama: tri dni po sebe lepší počet objednávok než pred zvýšením rozpočtu, PNO pod hranicou 10 %. Kredit je potrebné čoskoro dobiť.
 - Search Console: zvýšený záujem (CTR 3,6 %) trvá už tri dni.
 
 ## Pre iné roly
@@ -21,7 +21,7 @@ rola: hlavny-agent
 - seo: ostatné projektory Magcubic (rovnaký rozpor v názve), Stronglift SL500X cez Chrome, audit kategórií ("Vzorka"), doplniť kódy do CSV experimentu.
 - meranie: filter zaplatených objednávok (štvrtý deň otvorený, dokončiť dnes); priradenie zdroja objednávok riešiť až po rozhodnutí Martina.
 - ux-cro: do 27. 11. len riadok do handoffu.
-- reklama: denné čísla, upozorniť, keď kredit klesne pod 10 €.
+- reklama: denné čísla, upozorniť, keď je kredit takmer vyčerpaný.
 
 ## Pre Martina
 
