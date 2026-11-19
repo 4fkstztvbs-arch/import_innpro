@@ -18,7 +18,6 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 084220 | 6975755965949 | Flextail Tiny Repeller S 2in1 (sand) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 086661 | 6936685220683 | Mobilný ovládač GameSir X4 Aileron | nulová/neplatná cena |  | 0.00 € |  |  |
 | 089414 | 5905156108714 | Autokamera WOLFBOX X5 Wi-Fi 3CH + 128GB | nulová/neplatná cena |  | 0.00 € |  |  |
-| 090447 | 6971131385394 | KVM prepínač GL.iNet Comet 5G | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -412,20 +411,14 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G Wi-Fi 2CH | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096501 | 6942580510415 | Smartfón FOSSIBOT F101P s operačným systémom Android 13 a 4 GB RAM (červený) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096502 | 6942580510422 | Smartfón FOSSIBOT F125 s operačným systémom Android 14 a 12 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096503 | 6942580510439 | Smartfón FOSSIBOT F125 s operačným systémom Android 14 a 12 GB RAM (zelený) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096504 | 6942580510446 | Smartfón FOSSIBOT F110L s operačným systémom Android 15 a 4 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096505 | 6942580510453 | Smartfón FOSSIBOT F114 s operačným systémom Android 15 a 4 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096506 | 6942580510460 | Smartfón FOSSIBOT F117 s operačným systémom Android 16 a 8 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096507 | 6942580510477 | Smartfón FOSSIBOT S7 s operačným systémom Android 16 a 8 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096508 | 6942580510484 | Smartfón FOSSIBOT S7 s operačným systémom Android 16 a 8 GB RAM (zlatý) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096509 | 6942580510491 | Smartphone FOSSIBOT S7 s operačným systémom Android 16 a 8 GB RAM (zelený) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096510 | 6942580510507 | Tablet FOSSIBOT Tab 12 s operačným systémom Android 14, uhlopriečka 10,95 palca, | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096511 | 6942580510514 | Tablet FOSSIBOT Tab 12 s operačným systémom Android 14, uhlopriečka 10,95 palca, | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096512 | 6942580510521 | Tablet FOSSIBOT Tab 13 s operačným systémom Android 15, uhlopriečka 11,5 palca,  | nulová/neplatná cena |  | 0.00 € |  |  |
-| 096513 | 6942580510538 | Akčná kamera FOSSIBOT FC360 8K EU (čierna) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035845 | 6941565916839 | Luminiscenčná letová mapa DJI RoboMaster TT | zmena ceny > 5x oproti minulému importu | 801.00 € | 146.50 € | 1/5.5x |  |
-| 061857 | 6976788020391 | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (ružové) | zmena ceny > 5x oproti minulému importu | 16.00 € | 3.10 € | 1/5.2x |  |
+| 096483 | 4897143173823 | Puzdro FREEWELL pre iPhone 18 Pro s 17 mm uchytením | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096484 | 4897143173816 | Puzdro FREEWELL pre iPhone 18 Pro Max s uchytením 17 mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096494 | 4897143173519 | Súprava širokouhlého objektívu FREEWELL pre Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096495 | 4897143173410 | Filter FREEWELL pre Insta360 X6 ND16 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096496 | 4897143173427 | Filter FREEWELL pre Insta360 X6 ND32 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096497 | 4897143173434 | ND filter FREEWELL pre Insta360 X6 ND64 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 096498 | 4897143173328 | Sada ND filtrov FREEWELL pre Insta360 X6 ND16/32/64 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 16.00 € | 1/9.0x | 13 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 8.10 € | 1/17.8x | 13 |

@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-19 12:19 UTC.
+Kontrola z 2026-11-19 22:50 UTC.
 
 InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -22,6 +22,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `019506` | Fotoblesk Puluz 5w1 + puzdro | — | 5 |
 | `020113` | Baseus Cafule USB Lightning kábel 2,4 A 1 m (červený+čierny) | — | 5 |
 | `020305` | Držiak na popruh 360° RUIGPRO pre DJI Osmo Action | — | 5 |
+| `022733` | Hliníkový základný svetelný panel Puluz pre 60cm štúdiový st | — | 5 |
 | `023616` | Sklenený držiak do auta Puluz pre športové kamery (vrátane O | — | 5 |
 | `023534` | Inteligentný bezdrôtový dverový/okenný senzor Sonoff DW2 WiF | — | 5 |
 | `023349` | Organizér BASEUS Planet pre Apple Watch (čierny) | — | 5 |
@@ -47,7 +48,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `034594` | Tester sieťových káblov Habotest HT812A RJ45/RJ14/RJ12/RJ9 | — | 5 |
 | `033479` | Držiak na sáčky pre psa PetKit | — | 5 |
 | `036334` | Montážna konzola na lištu DIN Sonoff DR | — | 5 |
-| `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 2 |
+| `036868` | Kábel VFAN L05 Lightning na mini jack 3,5 mm AUX, 1 m (sivý) | — | 5 |
 | `083023` | Montážny adaptér Telesin 1/4'' pre športové kamery (GP-TPM-T | — | 5 |
 | `045781` | Sunnylife lanyard with attachment for DJI RC-N1 / RC-N2 / RC | — | 5 |
 | `037416` | Tvrdené sklo Sunnylife pre RC ovládač DJI 2ks (MM3-GHM388) | — | 5 |
@@ -86,7 +87,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `053078` | Face & Body Roller Head Geske (pink) | — | 5 |
 | `053691` | Joyroom držiak na palubnú dosku auta JR-ZS350 (strieborný) | — | 5 |
 | `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 5 |
-| `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
 | `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
 | `053750` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (či | — | 5 |
 | `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 2 |
@@ -137,6 +137,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
 | `065622` | Storage Bag Sunnylife for Insta360 X4 / X5 | — | 5 |
+| `065401` | 2 sets Tempered Glass Film Sunnylife for Insta360 X4 / X5 | — | 5 |
 | `065855` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (pur | — | 5 |
 | `065860` | Phone case Joyroom Dancing Circle PN-15L2 Iphone 15 Pro (blu | — | 2 |
 | `063741` | NFC Tag Sonoff | — | 5 |
@@ -210,7 +211,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `075666` | Termálne etikety Niimbot nálepky 50x30 mm - 900ks (biela) | — | 5 |
 | `076066` | Pendrive Lexar JumpDrive M22 USB 2.0 32GB | — | 5 |
 | `076536` | Sunnylife mini ochranné puzdro FP-SN953-C pre DJI FLIP (oran | — | 5 |
-| `075790` | Oneisall PW04 filtre do fontány/napájačky (6 ks) | — | 3 |
 | `077572` | Antireflexná tvrdená fólia Sunnylife pre Osmo Pocket 3 | — | 5 |
 | `077579` | Sunnylife anti-shock spona pre DJI Flip | — | 5 |
 | `077580` | Kryt objektívu Sunnylife pre DJI Flip (čierny) | — | 5 |
@@ -223,7 +223,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `078077` | Vrecko na prach MOVA pre Z50 Ultra 4L 3 ks | — | 5 |
 | `078081` | Filter MOVA pre Z50 Ultra 2 ks | — | 5 |
 | `078082` | Filter MOVA pre K30/K30Mix/X4/X4Pro/X4Mix | — | 5 |
-| `078092` | Mopovacia podložka MOVA pre E10/E20/E20 Plus/E20 Pro Plus/E2 | — | 5 |
 | `078088` | Mopovacia podložka MOVA pre Z50 Ultra 2 ks | — | 5 |
 | `078265` | PULUZ silikónové ochranné puzdro s krytom objektívu pre Inst | — | 5 |
 | `078270` | Silikónový stojan PULUZ pre kameru Insta360 X5 | — | 5 |
@@ -265,7 +264,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `082312` | Silikónové puzdro s krytom objektívu PULUZ pre DJI Osmo 360  | — | 5 |
 | `082314` | PULUZ Tvrdené ochranné sklo a fólia na objektív pre DJI Osmo | — | 5 |
 | `082315` | EVA PULUZ Hard Mini Case pre DJI Osmo Nano (čierny) | — | 5 |
-| `082319` | PULUZ Magic Arm Tripod Suction Cup Holder (čierny) | — | 4 |
+| `082319` | PULUZ Magic Arm Tripod Suction Cup Holder (čierny) | — | 3 |
 | `082320` | PULUZ Silikónové nabíjacie puzdro Ochranný kryt pre DJI Mic  | — | 5 |
 | `082635` | Silikónové ochranné puzdro Puluz pre DJI Osmo Nano (Gray) | — | 5 |
 | `082637` | Silikónový pásik / obojok pre domáce zvieratá Puluz pre DJI  | — | 5 |
@@ -285,7 +284,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
 | `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 5 |
 | `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
-| `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 5 |
 | `083387` | Šasi Sunnylife pre Mini 5 Pro (sivé) | — | 5 |
 | `083389` | Stojan Sunnylife pre Mini 5/4/3 Pro | — | 5 |
 | `083385` | Kryt kardanu Sunnylife pre Mini 5 Pro | — | 5 |
@@ -337,6 +335,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088957` | Samolepiaca fólia HTVRONT v odtieni Chrome Metallic, 30,5 cm | — | 5 |
 | `088958` | Samolepiaca fólia HTVRONT Chrome, 30,5 cm x 90 cm (ružové zl | — | 5 |
 | `088959` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (čierna) | — | 5 |
+| `088960` | Samolepiaca matná fólia HTVRONT, 30,5 cm × 180 cm (biela) | — | 2 |
 | `088961` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (červená) | — | 5 |
 | `088962` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (ružová) | — | 5 |
 | `088963` | Samolepiaca matná fólia HTVRONT, 30,5 cm × 180 cm (zelená) | — | 5 |
@@ -354,10 +353,10 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 2 |
 | `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
+| `087022` | Filter MOVA pre S4 Detect | — | 5 |
 | `087023` | Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 | — | 5 |
 | `087027` | Filter MOVA pre stanicu G70 | — | 5 |
 | `087997` | Hlavná kefa pre modely MOVA P10 Ultra/E30 Ultra/S10/S10 Plus | — | 5 |
-| `089577` | Filter MOVA pre S2 Detect | — | 5 |
 | `089623` | Ochranná fólia z tvrdeného skla Puluz 9H pre GoPro HERO 12/1 | — | 5 |
 | `089627` | Silikónové puzdro Puluz pre GoPro HERO 4K 2024 | — | 5 |
 | `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 5 |
@@ -381,6 +380,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089897` | Univerzálny držiak na telefón Sunnylife s klipom | — | 5 |
 | `087714` | Držiak Cycplus Z4 pre cyklopočítač | — | 5 |
 | `089382` | Tepelná etiketa NIIMBOT EW50*30-225 | — | 5 |
+| `093248` | Sada veľkostí EVEN REALITIES R1 | — | 5 |
 | `089389` | Čelovka SUPERFIRE HL106 | — | 5 |
 | `089386` | Čelovka SUPERFIRE HL05-L | — | 5 |
 | `089385` | Svetlo SUPERFIRE F1-X | — | 5 |
