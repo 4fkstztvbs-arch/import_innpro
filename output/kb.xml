@@ -84880,50 +84880,7 @@
 <RECYCLING_FEE_CURRENCY>EUR</RECYCLING_FEE_CURRENCY>
 <RECYCLING_FEE_TYPE>1</RECYCLING_FEE_TYPE>
 </SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Tesla TE-222 Dongle, DVB-T2 přijímač]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Set-top box pro nové digitální vysílání v České republice DVB-T2 H.265 (HEVC) i pro stávající DVB-T prostřednictvím klasické antény s možností umístění za TV, podpora H.265 (HEVC), nahrávání na USB disk, funkce TimeShift, možnost umístění za TV, podpora f]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[Set-top box pro nové digitální vysílání v České republice DVB-T2 H.265 (HEVC) i pro stávající DVB-T prostřednictvím klasické antény s možností umístění za TV, podpora H.265 (HEVC), nahrávání na USB disk, funkce TimeShift, možnost umístění za TV, podpora funkce jednoho ovladače - HDMI-CEC
-<p>Ďalšie produkty nájdete v kategórii <a href="/satelitne-prijimace/">Satelitné prijímače a set-top boxy</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Tesla]]></MANUFACTURER>
-<WARRANTY>24</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>100001815989</CODE>
-<EAN>8595689803087</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika > Antény a satelity > Satelitné prijímače a set-top boxy]]></CATEGORY>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY>
-  <CATEGORY><![CDATA[TV, audio, video a foto technika > Antény a satelity]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>799</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Tesla TE-222 Dongle, DVB-T2 přijímač">https://img.b2b.k-b.cz/fotocache/mid/images/orig/Tesla/100001815989-202.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[Tesla]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[HDMI]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[24 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[1-2 ks skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[1-2 ks skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>23.90</PRICE_VAT>
-<PURCHASE_PRICE>17.47</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-</SHOPITEM>
+
 <SHOPITEM>
 <NAME><![CDATA[ETA 5180 91010 sklo]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Skleničky s ouškem na lungo, Objem skleničky 160ml, 2ks skleniček v balení]]></SHORT_DESCRIPTION>
