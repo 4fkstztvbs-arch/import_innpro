@@ -1,0 +1,219 @@
+{
+ "id": "Z-20261119-obsah-davka5",
+ "datum": "2026-11-19",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 5 (beh 18:10): 15 produktov značky VITURE (XR okuliare, nákrčník, dokovacia stanica, káble, clony, korekčné rámy); nový krátky popis, pri 6 aj meta popis.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "073063",
+   "guid": "977c4fe2-92c5-11f1-9aa8-bc2411833e01",
+   "model": "Adaptér Pro iPhone",
+   "polia": {
+    "shortDescription": {
+     "pred": "Adaptér Viture Pro USB-C XR pre iPhone Adaptér Viture Pro USB-C XR pre iPhone, malý, ale výkonný adaptér, je jedinečným príslušenstvom, ktoré odomyká všetky možnosti adaptéra XR v zariadeniach Apple.…",
+     "po": "Adaptér VITURE Pro USB-C XR pre iPhone s okuliarmi XR. Prináša 3DoF sledovanie hlavy, natívne 3D video, priestorové filmy Apple a viac obrazoviek a umožňuje súčasné nabíjanie iPhonu (výstup 45 W)."
+    },
+    "metaDescription": {
+     "pred": "Adaptér VITURE Pro USB-C XR ponúka rozhranie USB-C; ďalšie vlastnosti a variant si Jasne označené porty umožňujú rýchle a intuitívne pripojenie zariadení.",
+     "po": "Adaptér VITURE Pro USB-C XR pre iPhone: 3DoF, 3D video, viac obrazoviek a súčasné nabíjanie iPhonu, hmotnosť 21,8 g. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080537",
+   "guid": "cff17492-92c5-11f1-8493-bc2411833e01",
+   "model": "Nákrčník Pro 256",
+   "polia": {
+    "shortDescription": {
+     "pred": "VITURE Pro 256GB nákrčník VITURE Pro je elegantný, ľahký nákrčník, ktorý v kombinácii s okuliarmi VITURE XR (rozšírená realita, rozšírená realita) vytvára mobilné centrum zábavy a práce. Zariadenie…",
+     "po": "Nákrčník VITURE Pro s 256 GB pamäte a 12 GB RAM pre okuliare XR. Beží na Androide, podporuje gestá rukou, 3DoF, Remote Play a Cloud Gaming a vydrží viac ako 4 hodiny na nabitie (3 280 mAh)."
+    },
+    "metaDescription": {
+     "pred": "VITURE Pro je elegantný, ľahký nákrčník, ktorý v kombinácii s okuliarmi VITURE XR (rozšírená realita, rozšírená realita) vytvára mobilné centrum zábavy a práce.",
+     "po": "Nákrčník VITURE Pro 256 GB / 12 GB RAM pre okuliare XR: Android, gestá rukou, Wi-Fi 6E, výdrž 4 h+. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080686",
+   "guid": "d0068c2e-92c5-11f1-889f-bc2411833e01",
+   "model": "Extender 50 cm",
+   "polia": {
+    "shortDescription": {
+     "pred": "VITURE Extender (USB 3.2 Gen1) samec USB-C na samicu USB-C (čierny) 50 cm. VITURE Extender je praktické príslušenstvo, ktoré poskytuje ďalších 50 cm kábla pre vaše okuliare XR (Extended Reality,…",
+     "po": "Predlžovací kábel VITURE USB-C samec na USB-C samica, 50 cm, čierny. Podporuje USB 3.2 Gen1 s prenosom až 10 Gbit/s a napájanie do 20 W a hodí sa k okuliarom XR, smartfónom, notebookom či Steam Decku."
+    },
+    "metaDescription": {
+     "pred": "Predlžovací adaptér VITURE USB-C samec/samica, 50 cm, čierny: čierna farba, USB-C pripojenie. Objednajte na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Predlžovací kábel VITURE USB-C samec/samica, 50 cm: USB 3.2 Gen1, 10 Gbit/s, napájanie 20 W, pre okuliare XR a notebooky. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080687",
+   "guid": "d010cbe4-92c5-11f1-913b-bc2411833e01",
+   "model": "Držiak Switch 2",
+   "polia": {
+    "shortDescription": {
+     "pred": "Držiak mobilnej dokovacej stanice VITURE pre Nintendo Switch 2 Držiak VITURE je praktické príslušenstvo, ktoré vám umožní priamo pripevniť mobilnú dokovaciu stanicu VITURE alebo VITURE Pro na konzolu…",
+     "po": "Držiak VITURE na pripevnenie mobilnej dokovacej stanice VITURE alebo VITURE Pro priamo na konzolu Nintendo Switch 2. Z odolného PA66 s TPE, so zásuvným systémom na rýchle nasadenie, hmotnosť 69,9 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "083624",
+   "guid": "ee23cc3a-92c5-11f1-9023-bc2411833e01",
+   "model": "Luma Pro L",
+   "polia": {
+    "shortDescription": {
+     "pred": "Okuliare VITURE XR Luma Pro (veľkosť L) VITURE XR Luma Pro sú vlajkovou loďou okuliarov XR (rozšírená realita, rozšírená realita), ktoré nanovo definujú pojem pohltenia. Ponúkajú špičkové displeje s…",
+     "po": "Okuliare VITURE XR Luma Pro, veľkosť L, so Sony micro-OLED 0,68\", rozlíšením 1200p, zorným poľom 52° a jasom až 1 000 nitov. Zvuk Harman, dioptrie do -4,0 D a elektrochromatické stmievanie."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084707",
+   "guid": "13648c6e-92c6-11f1-9e05-bc2411833e01",
+   "model": "Kábel 120 cm",
+   "polia": {
+    "shortDescription": {
+     "pred": "Magnetický kábel USB-C na VITURE s dĺžkou 120 cm je praktickým riešením pre tých, ktorí chcú pohodlne pripojiť svoje okuliare VITURE XR k kompatibilným zariadeniam s portom USB-C. Dlhší kábel vám…",
+     "po": "Magnetický kábel USB-C VITURE, 120 cm, na pripojenie okuliarov VITURE XR k zariadeniam s USB-C. Podporuje USB 3.2 Gen 1 s prenosom až 10 Gb/s a výkon 20 W, magnetický konektor drží pripojenie stabilne."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084708",
+   "guid": "136f09f0-92c6-11f1-b883-bc2411833e01",
+   "model": "Clona M",
+   "polia": {
+    "shortDescription": {
+     "pred": "Slnečná clona VITURE vo veľkosti M je praktickým doplnkom pre ľudí, ktorí chcú počas dňa naplno využívať svoje okuliare XR. S ňou si môžete vychutnávať jasný obraz a hĺbku detailov nielen večer doma,…",
+     "po": "Slnečná clona VITURE veľkosti M pre okuliare VITURE Luma a Beast XR. Blokuje okolité svetlo, zlepšuje kontrast obrazu aj vonku a pripája sa priamo na okuliare. Materiál PC a TPE, hmotnosť 12 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084709",
+   "guid": "13799bae-92c6-11f1-9edc-bc2411833e01",
+   "model": "Clona L",
+   "polia": {
+    "shortDescription": {
+     "pred": "Slnečná clona VITURE vo veľkosti L je funkčným doplnkom pre ľudí, ktorí chcú používať okuliare XR bez obmedzení počas dňa. Umožňuje vám zachovať vysokú kvalitu obrazu a jasné detaily nielen večer…",
+     "po": "Slnečná clona VITURE veľkosti L pre okuliare VITURE Luma a Beast XR. Blokuje okolité svetlo, zlepšuje kontrast obrazu aj vonku a nasadzuje sa priamo na okuliare. Materiál PC a TPE, hmotnosť 13 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "085926",
+   "guid": "16c5ba0e-92c6-11f1-8f60-bc2411833e01",
+   "model": "Rám M",
+   "polia": {
+    "shortDescription": {
+     "pred": "Korekčná rámček pre okuliare XR Viture Luma (veľkosť M) Rámček pre korekčné šošovky pre okuliare VITURE Luma XR bol navrhnutý pre používateľov, ktorí potrebujú silnejšiu korekciu zraku, ako ponúkajú…",
+     "po": "Rám na dioptrické šošovky pre okuliare VITURE Luma, Luma Pro a Luma Ultra, veľkosť M (IPD 64,0 ± 6,0 mm). Umožňuje použiť vlastné korekčné šošovky pri silnejších dioptriách či astigmatizme."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "085927",
+   "guid": "16d1cfc4-92c6-11f1-a226-bc2411833e01",
+   "model": "Rám L",
+   "polia": {
+    "shortDescription": {
+     "pred": "Korekčná rámček pre okuliare XR Viture Luma (veľkosť L) Rámček pre korekčné sklá pre okuliare VITURE Luma XR bol navrhnutý pre používateľov, ktorí potrebujú silnejšiu korekciu zraku, ako ponúkajú…",
+     "po": "Rám na dioptrické šošovky pre okuliare VITURE Luma, Luma Pro a Luma Ultra, veľkosť L (IPD 68,0 ± 6,0 mm). Umožňuje použiť vlastné korekčné šošovky pri silnejších dioptriách či astigmatizme."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "091439",
+   "guid": "b34e526e-9dc5-11f1-8f6e-bc2411e8af0e",
+   "model": "Pro 2",
+   "polia": {
+    "shortDescription": {
+     "pred": "Náhlavná súprava VITURE Pro 2 XR Večerný film v lietadle, niekoľko desiatok minút strávených vo svete vašej obľúbenej hry alebo snáď práca na obrovskej virtuálnej obrazovke bez toho, aby vám to…",
+     "po": "XR okuliare VITURE Pro 2 so Sony Micro-OLED (1920 × 1080 na oko), 120 Hz, jasom až 1 600 nitov a virtuálnou obrazovkou 146\". Hmotnosť len 63 g, dioptrie 0 až -5,0 D a nastaviteľné IPD 57 – 71 mm."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080670",
+   "guid": "ebd0def4-b233-11f1-a7e7-bc2411e8af0e",
+   "model": "Luma Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "VITURE Luma Ultra VITURE Luma Ultra sú prelomové okuliare XR vytvorené pre najnáročnejších technologických nadšencov. Sú vybavené najnovšími panelmi SONY Micro-OLED - poskytujú virtuálnu obrazovku s…",
+     "po": "Okuliare VITURE XR Luma Ultra so Sony Micro-OLED, rozlíšením 1200p, 120 Hz, zorným poľom 52° a jasom 1 250 nitov. Zvuk HARMAN, dioptrie do -4,0 D, gestá a 6DoF vďaka kamerám."
+    },
+    "metaDescription": {
+     "pred": "Okuliare na rozšírenú realitu VITURE XR Luma Ultra s OLED displejom a rozlíšením 4K. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "Okuliare VITURE XR Luma Ultra: Sony Micro-OLED 1200p, 120 Hz, jas 1 250 nitov, zvuk HARMAN, gestá a 6DoF, dioptrie do -4,0 D. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080672",
+   "guid": "ebdb1766-b233-11f1-8112-bc2411e8af0e",
+   "model": "Beast",
+   "polia": {
+    "shortDescription": {
+     "pred": "Okuliare VITURE XR Beast Keď technológia dosiahne svoj absolútny vrchol, zrodí sa niečo viac než len obyčajné elektronické zariadenie - vznikne jedinečný zážitok a stretnutie s budúcnosťou. Okuliare…",
+     "po": "Okuliare VITURE XR Beast s virtuálnou obrazovkou 173\", rozlíšením 1200p, 120 Hz, jasom až 1 250 nitov a zorným poľom 58°. Kovový rám z hliníka a horčíka, 6DoF, elektrochromatické stmievanie, hmotnosť 88 g."
+    },
+    "metaDescription": {
+     "pred": "Okuliare na rozšírenú realitu VITURE XR Beast: pred nákupom si pozrite opis a parametre produktu. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Okuliare VITURE XR Beast: obrazovka 173\", 1200p, 120 Hz, jas 1 250 nitov, FOV 58°, kovový rám, 6DoF a stmievanie šošoviek. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086575",
+   "guid": "faa7e134-b233-11f1-a2e7-bc2411e8af0e",
+   "model": "Beast L",
+   "polia": {
+    "shortDescription": {
+     "pred": "Okuliare VITURE XR Beast (veľkosť L) Keď technológia dosiahne svoj absolútny vrchol, zrodí sa niečo viac než len obyčajné elektronické zariadenie – jedinečný zážitok a stretnutie s budúcnosťou.…",
+     "po": "Okuliare VITURE XR Beast, veľkosť L (IPD 68,0 ± 6,0 mm), s virtuálnou obrazovkou 173\", 1200p, 120 Hz a jasom až 1 250 nitov. Kovový rám z hliníka a horčíka, 6DoF, elektrochromatické stmievanie, 88 g."
+    },
+    "metaDescription": {
+     "pred": "Keď technológia dosiahne svoj absolútny vrchol, zrodí sa niečo viac než len obyčajné elektronické zariadenie – jedinečný zážitok a stretnutie s budúcnosťou.",
+     "po": "Okuliare VITURE XR Beast, veľkosť L (IPD 68 ± 6 mm): obrazovka 173\", 1200p, 120 Hz, jas 1 250 nitov, kovový rám, 6DoF. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "073064",
+   "guid": "385393e4-b87d-11f1-b8e0-bc2411e8af0e",
+   "model": "Dock Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mobilná dokovacia stanica VITURE Pro Používate okuliare XR? Pozdvihnite svoju mobilnú zábavu na úplne novú úroveň s mobilnou dokovacou stanicou VITURE Pro, ktorá bola navrhnutá špeciálne pre…",
+     "po": "Mobilná dokovacia stanica VITURE Pro s HDMI a USB-C pre okuliare XR: obraz 135\" vo Full HD pri 120 Hz, 3D a zdieľanie obrazovky pre dva páry okuliarov. Batéria 7 500 mAh predĺži hranie až o 8 hodín."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 položiek.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
