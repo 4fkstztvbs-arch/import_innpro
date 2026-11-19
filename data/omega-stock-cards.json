@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600833,
+    "nextCardNumber": 202600841,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -4994,6 +4994,54 @@
         "nazov": "Samsung HW-B650F Soundbar",
         "dodavatel": "kb",
         "code": "100002134631"
+      },
+      "0615517934733": {
+        "kod": "202600833",
+        "nazov": "MEZE 99 Series mono 3.5 mm to 3.5 mm 3 m Black/S",
+        "dodavatel": "basys",
+        "code": "BASYS-M99C-BS"
+      },
+      "017817848985": {
+        "kod": "202600834",
+        "nazov": "BOSE QuietComfort Headphones - White Smoke",
+        "dodavatel": "basys",
+        "code": "BASYS-B 884367-0200"
+      },
+      "017817871143": {
+        "kod": "202600835",
+        "nazov": "BOSE Noise Cancelling Wired Earbuds Black - Sabrin",
+        "dodavatel": "basys",
+        "code": "BASYS-B 906940-0010"
+      },
+      "017817866538": {
+        "kod": "202600836",
+        "nazov": "BOSE TV Speaker 2. Gen - black",
+        "dodavatel": "basys",
+        "code": "BASYS-B 901067-2100"
+      },
+      "017817859561": {
+        "kod": "202600837",
+        "nazov": "Bose QuietComfort Ultra Headphones (2nd Gen) - whi",
+        "dodavatel": "basys",
+        "code": "BASYS-B 890101-0200"
+      },
+      "017817859745": {
+        "kod": "202600838",
+        "nazov": "BOSE QuietComfort Headphones 2. Gen - Eucalyptus",
+        "dodavatel": "basys",
+        "code": "BASYS-B 895491-0300"
+      },
+      "017817864787": {
+        "kod": "202600839",
+        "nazov": "BOSE Sport Open Earbuds Black - Spice",
+        "dodavatel": "basys",
+        "code": "BASYS-B 901149-0010"
+      },
+      "017817865418": {
+        "kod": "202600840",
+        "nazov": "BOSE Sport Open Earbuds White - Spice",
+        "dodavatel": "basys",
+        "code": "BASYS-B 901149-0020"
       }
     }
   },
