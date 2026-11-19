@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-18 01:37 UTC.
+Kontrola z 2026-11-19 01:13 UTC.
 
-Solight pri **497** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **491** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -103,7 +103,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WZ320-1` | Solight LED žiarovka G9, 2,5W, 3000K, 215lm | 7 | 100 |
 | `SSC1103E` | Solight UTP CAT.5E kábel, RJ45 konektor - RJ45 konektor, sáč | 7 | 100 |
 | `WM77` | Solight napájací konektor pre LED pásy, 5,5 mm, rozbočka, 1x | 7 | 100 |
-| `1V50-W` | Solight LED vianočná reťaz, 3m, 20xLED, 3x AA, biele svetlo, | 7 | 100 |
 | `P96` | Solight zásuvka, 16A, biela, vypínač | 7 | 100 |
 | `P76` | Solight zástrčka do vlhka, priama, IP44, čierna | 7 | 50 |
 | `P76A` | Solight zástrčka do vlhka, uhlová, IP44, čierna | 7 | 50 |
@@ -169,7 +168,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `P108` | Solight rozbočovač, 4 x 10A, biely | 5 | 100 |
 | `P108B` | Solight rozbočovač, 4 x 10A, čierny | 5 | 100 |
 | `P112` | Solight rozbočovač 4 x 16A, biely | 5 | 100 |
-| `1V251` | Solight LED okenná reťaz - Santa, 6x LED, prísavná, 120cm, 2 | 5 | 48 |
 | `P112B` | Solight rozbočovač 4 x 16A, čierny | 5 | 100 |
 | `WN48` | Solight LED nabíjacie vreckové svietidlo, 120lm, Li-Ion, USB | 5 | 12 |
 | `PF04` | Solight flexo šnúra, 3x 1mm2, čierna, 2m | 5 | 100 |
@@ -247,7 +245,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WL17` | Solight LED kovové svietidlo malé, 50lm, 1W LED, čierna, 1 x | 3 | 288 |
 | `5B114` | Solight vypínač Slim č. 7 krížový, biely | 3 | 120 |
 | `SSC1402` | Solight USB kábel, USB 2.0 A konektor - USB B micro konektor | 3 | 120 |
-| `1V218` | Solight LED kovový vianočný stromček, 2x AA | 3 | 40 |
 | `SSC2301` | Solight magnetický USB-C kábel, USB 2.0 A konektor - USB-C k | 3 | 100 |
 | `V24` | Solight skúšačka, 6V - 380V AC/DC, LED diódy | 3 | 120 |
 | `5B172` | Solight dvojzásuvka Slim, pootočená horná zásuvka, biela | 3 | 100 |
@@ -365,7 +362,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `DA26` | Solight univerzálny sieťový adaptér 1500mA, stabilizovaný, v | 2 | 40 |
 | `PA01-IN` | Solight cestovný adaptér do Indie, typ D | 2 | 100 |
 | `1V219` | Solight LED anjeli, drevo, biela farba, 2x AA | 2 | 40 |
-| `WL906` | Solight LED svetielka s diaľkovým ovládaním, 3x 50lm, časova | 2 | 24 |
 | `1D33` | Solight detektor dymu + alarm, 85dB, biely + 9V batéria | 2 | 100 |
 | `WO744` | Solight LED vonkajšie osvetlenie oválne, 13W, 910lm, 4000K,  | 2 | 32 |
 | `1V110-W` | Solight LED vonkajšia vánočná reťaz, 50 LED, 5m, prívod 3m,  | 2 | 12 |
@@ -405,7 +401,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WO753` | Solight LED vonkajšie osvetlenie guľaté s mriežkou, 13W, 910 | 2 | 24 |
 | `P151` | Solight zásuvka priama, 5-pólová, 400v/16A, IP44 | 2 | 20 |
 | `1D14` | Solight doplnkový diaľkový ovládač pre GSM alarmy 1D11 a 1D1 | 2 | 50 |
-| `WPIR06` | Solight PIR senzor pro E27 žiarovku, biely | 2 | 50 |
 | `PO47` | Solight prepäťová ochrana, 150J, 4 zásuvky, 3m, biela | 2 | 30 |
 | `V29` | Solight multimeter, max. AC 600V, max. DC 600V/10A, NCV | 2 | 60 |
 | `1V271` | Solight LED vianočná reťaz hviezdy, 10x LED, drevo, 1,5m, 2x | 2 | 6 |
@@ -440,7 +435,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `P97-PD20` | Solight rozbočovač 2 x 16A, USB A+C rychlonabíjačka 20W PD,  | 2 | 100 |
 | `1V253` | Solight LED zimná dedinka, modulárna, 14x prvkov, 10x LED, 2 | 2 | 24 |
 | `WD240-W` | Solight LED mini panel kúpeľňový 2v1, 3CCT, podhľadový / pri | 2 | 40 |
-| `1V288` | Solight LED vianočný lampáš biely, 20cm, časovač, 2x AA | 2 | 18 |
 | `PP13` | Solight predlžovací prívod, 3 zásuvky, biely, vypínač, 5m | 2 | 40 |
 | `HN18` | Solight vonkajšia anténa, DVB-T2, 11dB | 2 | 1 |
 | `WN52` | Solight LED čelové nabíjacia svietidlo, 170lm, teplé+studené | 2 | 72 |
