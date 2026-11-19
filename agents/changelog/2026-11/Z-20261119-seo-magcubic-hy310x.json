@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261119-seo-magcubic-hy310x",
+  "datum": "2026-11-19",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Magcubic HY310X: názov, titulok a meta s parametrami z tabuľky dodávateľa (420 ANSI, Android 11, Wi-Fi 6); z metapopisu odstránené nepravdivé 'skladom'; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "086344",
+      "guid": "b6a16394-d0e1-11f1-ba70-bc2411833e01",
+      "url": "https://www.premiumstore.sk/projektor-magcubic-hy310x/",
+      "polia": {
+        "name": {
+          "pred": "Projektor Magcubic HY310X",
+          "po": "Projektor Magcubic HY310X, Full HD, 420 ANSI lm, Android 11"
+        },
+        "metaTitle": {
+          "pred": "Projektor Magcubic HY310X",
+          "po": "Magcubic HY310X projektor Full HD, 420 ANSI lm"
+        },
+        "metaDescription": {
+          "pred": "Projektor Magcubic HY310X – skladom. Kúpte na premiumstore.sk.",
+          "po": "Projektor Magcubic HY310X: natívne Full HD 1080p, 420 ANSI lm, Android 11, Wi-Fi 6, Bluetooth 5.2, automatické zaostrenie a obraz až 150\"."
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-19", "ok": true, "poznamka": "product_update potvrdil zápis name, metaTitle, metaDescription."}
+}
