@@ -1,0 +1,227 @@
+{
+ "id": "Z-20261119-obsah-davka3",
+ "datum": "2026-11-19",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 3 (beh 14:10): 15 príslušenstiev MOVA (mopové vložky MOBIUS, filtre, kefy, hlavice zubných kefiek, G70 Station, batoh PB10 Pro); nový krátky popis, pri 8 aj meta popis, pri 1 aj meta názov.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "087003",
+   "guid": "387acb9e-92c6-11f1-9bb0-bc2411833e01",
+   "model": "ThermoHold",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mop MOVA MOBIUS ThermoHold Mopová vložka ThermoHold, určená pre čistiace roboty MOVA MOBIUS, účinne odstraňuje mastné a odolné nečistoty. Vďaka tomu je ideálna napríklad na použitie v kuchyniach a…",
+     "po": "Mopová vložka MOVA ThermoHold pre čistiace roboty MOVA MOBIUS. Špeciálna konštrukcia tkaniny pomáha odstraňovať mastné a zaschnuté nečistoty, preto je vhodná napríklad do kuchýň a jedální."
+    },
+    "metaDescription": {
+     "pred": "Mop MOVA MOBIUS ThermoHold: na čistenie podláh; kompatibilné vyhotovenie podľa názvu produktu. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Mopová vložka MOVA ThermoHold pre roboty MOBIUS: odstraňuje mastné a odolné nečistoty, vhodná do kuchýň a jedální. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087004",
+   "guid": "38865b1c-92c6-11f1-9628-bc2411833e01",
+   "model": "HyperClean",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mop MOVA MOBIUS HyperClean Mopová vložka HyperClean pre čistiace roboty MOVA MOBIUS je univerzálne riešenie určené na každodenné čistenie podláh. Účinne odstraňuje prach a ľahké nečistoty, čím pomáha…",
+     "po": "Univerzálna mopová vložka MOVA HyperClean pre čistiace roboty MOVA MOBIUS na každodenné čistenie podláh. Odstraňuje prach a ľahké nečistoty a hodí sa do väčšiny miestností, od spální po chodby."
+    },
+    "metaDescription": {
+     "pred": "Mopová vložka MOVA MOBIUS HyperClean: náhradná vložka pre mop MOVA MOBIUS HyperClean; na čistenie podláh. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "Mopová vložka MOVA HyperClean pre roboty MOBIUS na každodenné čistenie: odstraňuje prach a ľahké nečistoty vo väčšine miestností. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087005",
+   "guid": "389102ba-92c6-11f1-9961-bc2411833e01",
+   "model": "Utierka Z60",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaca utierka MOVA pre robot Z60 Ultra Roller Táto čistiaca utierka určená pre čistiaceho robota MOVA Z60 Ultra Roller je navrhnutá na dôkladné odstraňovanie bežných nečistôt z tvrdých podláh.…",
+     "po": "Náhradná čistiaca utierka MOVA pre robot Z60 Ultra Roller na tvrdé podlahy. Dobre absorbuje vodu a zachytáva prach, škvrny a jemné nečistoty, takže podlahy zostanú čisté bez ručného vytierania."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087006",
+   "guid": "389b5d82-92c6-11f1-b211-bc2411833e01",
+   "model": "Filter Z60",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre nádobu na prach robota MOVA Z60 Ultra Roller Tento filter, určený pre nádobu na prach robotického vysávača MOVA Z60 Ultra Roller, účinne zachytáva jemný prach a nečistoty, čím pomáha…",
+     "po": "Filter do nádoby na prach pre robotický vysávač MOVA Z60 Ultra Roller. Zachytáva jemný prach a nečistoty a pri pravidelnej výmene pomáha udržať voľný prietok vzduchu a stabilný sací výkon."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087007",
+   "guid": "38a5dece-92c6-11f1-8de3-bc2411833e01",
+   "model": "Filter V50/P50",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre modely V50 / P50 / MOBIUS Originálny filter MOVA účinne zachytáva jemný prach a bežné nečistoty, čím pomáha udržiavať vysoký čistiaci výkon. Pravidelná výmena pomáha zabezpečiť…",
+     "po": "Originálny filter MOVA pre robotické vysávače MOVA V50, P50 a MOBIUS. Zachytáva jemný prach a bežné nečistoty a pravidelná výmena pomáha udržať optimálny prietok vzduchu a stály sací výkon."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087008",
+   "guid": "38b02f3c-92c6-11f1-9db9-bc2411833e01",
+   "model": "Hlavná kefa Z60",
+   "polia": {
+    "shortDescription": {
+     "pred": "Hlavná kefa MOVA pre MOBIUS Z60 ULTRA Originálna hlavná kefa MOVA účinne zbiera prach, zvieracie chlpy a iné nečistoty z tvrdých podláh a kobercov a smeruje ich priamo do sacieho systému robotického…",
+     "po": "Originálna hlavná kefa MOVA pre robotické vysávače MOBIUS a Z60 Ultra. Zbiera prach, zvieracie chlpy a nečistoty z tvrdých podláh aj kobercov a smeruje ich do sacieho systému robota."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087009",
+   "guid": "38bc23d2-92c6-11f1-a51a-bc2411833e01",
+   "model": "Filter LR10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre LR10 PRIME Originálny filter určený pre automatickú toaletu MOVA LR10 PRIME. Pravidelná výmena spotrebných dielov pomáha udržiavať zariadenie vo vynikajúcom stave a zabezpečuje jeho…",
+     "po": "Originálny filter MOVA pre automatickú toaletu pre mačky MOVA LR10 Prime. Pravidelná výmena spotrebných dielov pomáha udržiavať toaletu v dobrom stave a zaisťuje jej bezproblémovú každodennú prevádzku."
+    },
+    "metaDescription": {
+     "pred": "Filter MOVA LR10 Prime je filter automatickej toalety LR10 Prime. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Filter MOVA pre automatickú toaletu LR10 Prime. Rýchla inštalácia, pravidelná výmena pomáha udržať bezproblémovú prevádzku. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087012",
+   "guid": "38c747c6-92c6-11f1-b8c6-bc2411833e01",
+   "model": "Hlavice WH",
+   "polia": {
+    "shortDescription": {
+     "pred": "Náhradné hlavice pre zubné kefky MOVA Fresh 20 a Sensus Fresh 10 Náhradné hlavice pre zubné kefky MOVA Fresh 20 a Sensus Fresh 10 sú navrhnuté na dôkladné odstránenie zubného plaku a účinné bielenie…",
+     "po": "Bieliace náhradné hlavice ABH2-WH pre zubné kefky MOVA Fresh 20 a Sensus Fresh 10. Štvorzónová flexibilná hlavica odstraňuje zubný plak aj škvrny. V balení sú 3 hlavice."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087013",
+   "guid": "38d18f88-92c6-11f1-ac12-bc2411833e01",
+   "model": "Hlavice CL",
+   "polia": {
+    "shortDescription": {
+     "pred": "Náhradné hlavice pre zubné kefky MOVA Fresh 20 a Sensus Fresh 10 Náhradné hlavice ABH2-CL, určené pre zubné kefky MOVA Fresh 20 a Sensus Fresh 10, umožňujú dôkladné čistenie zubov a odstraňovanie…",
+     "po": "Čistiace náhradné hlavice ABH2-CL pre zubné kefky MOVA Fresh 20 a Sensus Fresh 10. Pružná štvorzónová hlavica s ozubenými štetinami odstraňuje plak aj z medzizubných priestorov. V balení sú 3 hlavice."
+    },
+    "metaDescription": {
+     "pred": "Hlavice MOVA Fresh 20 a Sensus Fresh 10 sú náhradné diely; vyberte balenie podľa kódu výrobku. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Čistiace hlavice MOVA ABH2-CL pre Fresh 20 a Sensus Fresh 10: štvorzónová hlavica odstraňuje plak, balenie 3 ks. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087014",
+   "guid": "38dd1aec-92c6-11f1-9e3d-bc2411833e01",
+   "model": "Hlavice SE",
+   "polia": {
+    "shortDescription": {
+     "pred": "Náhradné kefkové hlavice pre modely MOVA Fresh 20 a Sensus Fresh 10 Náhradné kefkové hlavice ABH2-SE pre modely MOVA Fresh 20 a Sensus Fresh 10 sú určené na šetrné, ale účinné čistenie zubov a…",
+     "po": "Náhradné hlavice ABH2-SE pre zubné kefky MOVA Fresh 20 a Sensus Fresh 10 určené na šetrné čistenie zubov a ďasien. Pružná štvorzónová hlavica je vhodná pre citlivé ďasná. V balení sú 3 hlavice."
+    },
+    "metaTitle": {
+     "pred": "Náhradné hlavice MOVA pre modely Fresh 20 a Sensus Fr 087014",
+     "po": "Hlavice MOVA ABH2-SE pre citlivé ďasná, Fresh 20 a Sensus"
+    },
+    "metaDescription": {
+     "pred": "Hlavice MOVA Fresh 20 a Sensus Fresh 10 sú náhradné diely; pred výmenou porovnajte označenie. Objednajte na PremiumStore.sk.",
+     "po": "Šetrné hlavice MOVA ABH2-SE pre zubné kefky Fresh 20 a Sensus Fresh 10: pre citlivé ďasná, štvorzónová hlavica, balenie 3 ks. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087015",
+   "guid": "38e70f0c-92c6-11f1-9692-bc2411833e01",
+   "model": "Vrecká G70",
+   "polia": {
+    "shortDescription": {
+     "pred": "Vrecúško na prach MOVA pre stanicu G70 Toto vrecúško na prach, určené pre vyprázdňovaciu stanicu vertikálneho vysávača MOVA G70, umožňuje pohodlné a hygienické zachytávanie nečistôt nazbieraných…",
+     "po": "Vrecká na prach MOVA pre vyprázdňovaciu stanicu vertikálneho vysávača G70. Vzduchotesná konštrukcia minimalizuje kontakt s nečistotami a zachytáva ich hygienicky. V balení je 6 vreciek."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087016",
+   "guid": "38f19c10-92c6-11f1-8ec8-bc2411833e01",
+   "model": "Filter G70",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter MOVA pre vysávač G70 Station Originálny filter pre vertikálny vysávač MOVA G70 Station účinne zachytáva prach a jemné častice, čím zlepšuje čistiaci výkon a prispieva k čistejšiemu vzduchu vo…",
+     "po": "Originálny filter MOVA pre vertikálny vysávač G70 Station. Zachytáva prach a jemné častice a pri pravidelnej výmene pomáha udržať optimálny prietok vzduchu a stabilný výkon vysávania."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087017",
+   "guid": "38fc3c88-92c6-11f1-9363-bc2411833e01",
+   "model": "Mäkká kefa G70",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mäkká kefa MOVA pre stanicu G70 Mäkká kefa pre vysávač MOVA G70 Station umožňuje dôkladné odstránenie nečistôt z citlivých povrchov bez rizika ich poškodenia. Je ideálna na každodenné vysávanie –…",
+     "po": "Mäkká kefa MOVA pre vertikálny vysávač G70 Station na každodenné vysávanie citlivých povrchov. Zachytáva nečistoty bez poškriabania podláh, ľahko sa inštaluje a je odolná."
+    },
+    "metaDescription": {
+     "pred": "Mäkká kefa MOVA G70 Station je určená pre tyčový vysávač a pomáha vysávať citlivé povrchy. Príslušenstvo sa navyše ľahko inštaluje a je odolné.",
+     "po": "Mäkká kefa MOVA pre vysávač G70 Station odstraňuje nečistoty z citlivých povrchov bez poškriabania podláh, ľahko sa inštaluje. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087018",
+   "guid": "3906a07e-92c6-11f1-84da-bc2411833e01",
+   "model": "Valček G70",
+   "polia": {
+    "shortDescription": {
+     "pred": "Válček MOVA pre stanicu G70 Originálny válček určený pre kefu vertikálneho vysávača MOVA G70 Station. Účinne zachytáva prach, omrvinky a iné bežné nečistoty z podláh, čím pomáha dôkladne vyčistiť…",
+     "po": "Originálny valček MOVA pre kefu vertikálneho vysávača G70 Station. Zachytáva prach, omrvinky a bežné nečistoty z podláh a pri pravidelnej výmene pomáha udržať vysoký výkon vysávania."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "074749",
+   "guid": "a22561ea-92c5-11f1-b054-bc2411833e01",
+   "model": "Batoh PB10 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Cestovný batoh MOVA PB10 Pro Pet. Zoznámte sa s batohom MOVA PB10 Pro, ktorý zmení spôsob cestovania s vaším domácim miláčikom. Je vybavený pokročilým ventilačným systémom Fresh Air a jedinečným…",
+     "po": "Prepravný batoh MOVA PB10 Pro Pet pre zvieratá s ventilátorom 2 W, hmlovým systémom so zásobníkom 50 ml a rozšíriteľnými bočnými panelmi. Rozmery 46 × 40 (60) × 26 cm, hmotnosť 2,23 kg, Oxford 900D."
+    },
+    "metaDescription": {
+     "pred": "Prepravný batoh MOVA PB10 Pro Pet: pred nákupom si pozrite opis a parametre produktu. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Batoh MOVA PB10 Pro Pet: ventilátor 2 W, hmlový systém 50 ml, bočné panely na rozšírenie priestoru a otvor na bezpečnostný pás v aute. PremiumStore.sk."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 položiek.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
