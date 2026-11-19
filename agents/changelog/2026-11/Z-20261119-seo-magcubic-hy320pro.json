@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261119-seo-magcubic-hy320pro",
+  "datum": "2026-11-19",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Magcubic HY320PRO: názov bez EAN kódu, meta bez marketingového odrezku; titulok ostáva; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "090294",
+      "guid": "051c2a6c-b234-11f1-8f46-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/projektor-magcubic-hy320pro/",
+      "polia": {
+        "name": {
+          "pred": "Projektor Magcubic HY320PRO, 0757047110567",
+          "po": "Projektor Magcubic HY320PRO, Full HD, 400 ANSI lm, Android 14"
+        },
+        "metaDescription": {
+          "pred": "Projektor Magcubic HY320PRO: Full HD 1080p, 400 ANSI lm, Android 14, automatické zaostrenie a korekcia obrazu. Zabudnite na obmedzenia tradičnej televízie.",
+          "po": "Projektor Magcubic HY320PRO: Full HD 1080p, 400 ANSI lm, Android 14, Wi-Fi 6, Bluetooth 5.4, automatické zaostrenie a obraz až 135\"."
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-19", "ok": true, "poznamka": "product_update potvrdil zápis name a metaDescription."}
+}
