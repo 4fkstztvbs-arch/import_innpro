@@ -1,0 +1,239 @@
+{
+ "id": "Z-20261119-obsah-davka4",
+ "datum": "2026-11-19",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 4 (beh 16:10): 15 produktov MOVA (súpravy, vrecká, filtre, čističe, robotické vysávače S70, tyčový vysávač S1, batéria G70, podložky, diktafón); nový krátky popis, pri 8 aj meta popis, pri 3 aj meta názov.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "078068",
+   "guid": "b77a9a6a-92c5-11f1-ab88-bc2411833e01",
+   "model": "Súprava E20",
+   "polia": {
+    "shortDescription": {
+     "pred": "Súprava príslušenstva pre čistiaci robot MOVA E20, E20 Pro So súpravou náhradného príslušenstva pre čistiace roboty MOVA E20 a E20 Pro môžete mať svojho robota plne vybaveného na čistenie. Obsahuje…",
+     "po": "Súprava náhradného príslušenstva MOVA RAK58 pre robotické vysávače E20 a E20 Pro. V balení je hlavná kefa, dve bočné kefy, dva filtre do nádoby na prach a tri mopovacie podložky."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078071",
+   "guid": "b7908a3c-92c5-11f1-a30f-bc2411833e01",
+   "model": "Súprava V50 U",
+   "polia": {
+    "shortDescription": {
+     "pred": "Súprava príslušenstva pre čistiaci robot MOVA V50 U, P50s U Súprava príslušenstva pre robota MOVA V50 U a P50s U je určená na udržanie vysokej účinnosti čistenia. Nájdete v nej kefu Anti-Tangle,…",
+     "po": "Súprava príslušenstva MOVA MRAK77 pre roboty V50 U a P50s U: dvojitá kefa Anti-Tangle, dve bočné kefy, dva filtre, dve vrecká na prach, šesť mopovacích podložiek a 1 l čistiaceho prostriedku."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078077",
+   "guid": "b7b3e4c8-92c5-11f1-afda-bc2411833e01",
+   "model": "Vrecká Z50",
+   "polia": {
+    "shortDescription": {
+     "pred": "Vrecko na prach pre čistiaci robot MOVA Z50 Ultra (3 kusy) Vrecko na prach s objemom 4 litre je vhodné pre čistiaci robot MOVA Z50 Ultra a jeho stanice. Je vyrobené z antimikrobiálneho materiálu,…",
+     "po": "Vrecká na prach MOVA MRDB21 s objemom 4 l pre robotický vysávač Z50 Ultra a jeho stanice, balenie 3 ks. Antimikrobiálny materiál neutralizuje zápach a plastový nástavec uľahčuje inštaláciu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078082",
+   "guid": "b7bedd38-92c5-11f1-a49b-bc2411833e01",
+   "model": "Filter HHP3",
+   "polia": {
+    "shortDescription": {
+     "pred": "Filter pre vysávač MOVA K30/K30 Mix/X4/X4 Pro/X4 Mix Filter je určený pre vysávače MOVA K30/K30 Mix/X4/X4 Pro/X4 Mix. Účinne zachytáva prach a iné častice, čím zabraňuje sekundárnemu znečisteniu…",
+     "po": "Filter MOVA HHP3 pre vysávače MOVA K30, K30 Mix, X4, X4 Pro a X4 Mix. Zachytáva prach a iné častice a zabraňuje sekundárnemu znečisteniu vzduchu. Pre najlepšie výsledky ho pravidelne vymieňajte."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078089",
+   "guid": "b80c6a12-92c5-11f1-9435-bc2411833e01",
+   "model": "Čistič AWH6 1 l",
+   "polia": {
+    "shortDescription": {
+     "pred": "Univerzálny čistič na podlahy MOVA P10 Ultra, P10 Pro Ultra, S20 Ultra, P20 Ultra, G30S Ultra, P50 PU, V50 U, P50s U, P50 U 1L Zbavte sa odolných škvŕn s univerzálnym čistiacim prostriedkom na…",
+     "po": "Univerzálny čistiaci prostriedok MOVA AWH6 na tvrdé podlahy v 1 l balení. Určený pre roboty P10 Ultra, P10 Pro Ultra, S20 Ultra, P20 Ultra, G30S Ultra, P50 PU, V50 U, P50s U a P50 U."
+    },
+    "metaDescription": {
+     "pred": "Čistiaci prostriedok MOVA AWH6: objem 1 l a použitie na tvrdé podlahy. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Čistič MOVA AWH6, 1 l: univerzálny prostriedok na tvrdé podlahy pre roboty P10 Ultra, S20 Ultra, G30S Ultra, V50 U a ďalšie. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084679",
+   "guid": "fe4a749c-92c5-11f1-8646-bc2411833e01",
+   "model": "S1 Stick",
+   "polia": {
+    "shortDescription": {
+     "pred": "Vysávač MOVA S1 Stick MOVA S1 je bezdrôtový vertikálny vysávač navrhnutý ako efektívne a pohodlné riešenie pre každodenné upratovanie v celej domácnosti. Zariadenie ponúka sací výkon až 130 AW (28…",
+     "po": "Bezdrôtový vertikálny vysávač MOVA S1 Stick so sacím výkonom až 130 AW (28 000 Pa), chodom až 60 minút, päťvrstvovou filtráciou a LED displejom. Kefa s LED osvetlením odhaľuje prach v tmavých rohoch."
+    },
+    "metaTitle": {
+     "pred": "Vysávač MOVA S1 Stick, MOVA 6978794731728",
+     "po": "Bezdrôtový vysávač MOVA S1 Stick, 28 000 Pa, až 60 minút"
+    },
+    "metaDescription": {
+     "pred": "Vysávač MOVA S1 Stick: na vysávanie podláh a čalúnenia v domácnosti. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Bezdrôtový vysávač MOVA S1 Stick: sací výkon 28 000 Pa, chod až 60 min, 12-cyklónová separácia, LED displej a kefa s osvetlením. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "083622",
+   "guid": "fe773338-92c5-11f1-91dc-bc2411833e01",
+   "model": "S70 Ultra Roller biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "Robotický vysávač MOVA S70 Ultra Roller (biely) MOVA S70 Ultra Roller je čistiaci robot navrhnutý pre maximálne pohodlie a najvyššiu účinnosť. Kombinuje sací výkon 32 000 Pa s pokročilým systémom…",
+     "po": "Robotický vysávač MOVA S70 Ultra Roller (biely) so sacím výkonom 32 000 Pa, mopovacím valcom HydroForce a ochranou kobercov AutoShield. Stanica All-in-One umýva valec vodou do 100 °C a suší ho vzduchom 70 °C."
+    },
+    "metaTitle": {
+     "pred": "Valček MOVA S70 Ultra Roller RVC (biela)",
+     "po": "Robotický vysávač MOVA S70 Ultra Roller, biely, 32 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Valček MOVA S70 Ultra Roller: sací tlak 32000 Pa a farba: biela. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Robotický vysávač s mopom MOVA S70 Ultra Roller, biely: 32 000 Pa, mopovací valec HydroForce, prahy do 4 cm, stanica All-in-One. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "085038",
+   "guid": "fe9a8478-92c5-11f1-9498-bc2411833e01",
+   "model": "S70 Roller čierny",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaci robot MOVA S70 Roller (čierny) MOVA S70 Roller je čistiaci robot, ktorý kombinuje výkonné vysávanie s mopovaním podlahy. Systém HydroForce™ Mopping, sací výkon 28 000 Pa a technológia…",
+     "po": "Robotický vysávač MOVA S70 Roller (čierny) so sacím výkonom 28 000 Pa, mopovacím valcom HydroForce a výškou 90 mm. Stanica All-in-One umýva valec vodou do 80 °C a suší ho vzduchom 70 °C."
+    },
+    "metaTitle": {
+     "pred": "Valček MOVA S70 Roller RVC (čierna)",
+     "po": "Robotický vysávač MOVA S70 Roller, čierny, 28 000 Pa"
+    },
+    "metaDescription": {
+     "pred": "Valček MOVA S70 Roller RVC: sací tlak 28000 Pa a farba: čierna. Ďalšie parametre nájdete v popise. Stanica All-in-One sa stará o rutinnú údržbu robota.",
+     "po": "Robotický vysávač s mopom MOVA S70 Roller, čierny: 28 000 Pa, výška 90 mm, prahy do 22 mm, stanica All-in-One s umývaním valca. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087019",
+   "guid": "3910f75e-92c6-11f1-994c-bc2411833e01",
+   "model": "Batéria G70",
+   "polia": {
+    "shortDescription": {
+     "pred": "Batéria MOVA pre model G70 Batéria pre vertikálny vysávač MOVA G70 zaručuje dlhú prevádzkovú dobu bez akéhokoľvek poklesu výkonu. Je to ideálne riešenie, ak potrebujete vymeniť starú batériu alebo si…",
+     "po": "Náhradná batéria MOVA pre vertikálny vysávač G70. Hodí sa na výmenu starej batérie alebo ako záložný zdroj energie, aby ste mohli upratovať bez zbytočných prerušení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078098",
+   "guid": "a1ebf97a-a27c-11f1-a1fe-bc2411e8af0e",
+   "model": "Podložky MRMP8",
+   "polia": {
+    "shortDescription": {
+     "pred": "Podložky na vysávanie pre vysávač MOVA P10 Ultra, P10 Pro Ultra, E30 Ultra, P50 PU, V50 U, P50 U. Vďaka nim budú podlahy vo vašom byte nádherne čisté, svieže a lesklé. Podložky na mopovanie MOVA sú…",
+     "po": "Mopovacie podložky MOVA MRMP8 pre roboty P10 Ultra, P10 Pro Ultra, E30 Ultra, P50 PU, V50 U a P50 U, balenie 4 ks. Mäkký materiál si poradí s mastnými škvrnami aj zaschnutou špinou."
+    },
+    "metaDescription": {
+     "pred": "Mopovacie podložky MOVA sú mäkké, určené pre vybrané modely a balenie obsahuje 4 kusy. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Mopovacie podložky MOVA MRMP8, 4 ks: mäkký materiál odstraňuje mastné škvrny a zaschnutú špinu, pre P10 Ultra, E30 Ultra, P50 PU a V50 U. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078090",
+   "guid": "a1f7be0e-a27c-11f1-9d23-bc2411e8af0e",
+   "model": "Neutralizátor AWH15",
+   "polia": {
+    "shortDescription": {
+     "pred": "Neutralizátor zápachu na čistenie podláh pre MOVA V50 U, Z60 P 1L Ste majiteľom domácich zvierat a hľadáte spôsob, ako sa zbaviť nepríjemného zápachu? Neutralizátor zápachu na čistenie podlahy,…",
+     "po": "Neutralizátor zápachu MOVA AWH15 na čistenie podláh v 1 l balení pre roboty V50 U a Z60 P. Využíva rastlinné zložky vrátane čajovníka, je bezpečný pre domáce zvieratá a má jemnú vôňu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087997",
+   "guid": "02ddaa64-b234-11f1-9e09-bc2411e8af0e",
+   "model": "Hlavná kefa P10/S10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Hlavná kefa MOVA P10 Ultra/E30 Ultra/S10/S10 Plus Hlavná kefa určená pre robotické vysávače MOVA je zodpovedná za dôkladné zachytávanie prachu, zvieracích chlpov a iných nečistôt z tvrdých podláh a…",
+     "po": "Hlavná kefa MOVA pre robotické vysávače P10 Ultra, E30 Ultra, S10 a S10 Plus. Zachytáva prach, zvieracie chlpy a nečistoty z tvrdých podláh aj kobercov a pravidelná výmena udržuje vysokú účinnosť čistenia."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "086995",
+   "guid": "3844b1da-92c6-11f1-ab11-bc2411833e01",
+   "model": "Vrecko P10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Vrecko na prach MOVA pre modely P10 Ultra/P10 Pro Ultra/S20 Ultra Originálne vrecko na prach MOVA určené pre dokovacie stanice robotických vysávačov P10 Ultra, P10 Pro Ultra a S20 Ultra. Účinne…",
+     "po": "Originálne vrecko na prach MOVA pre dokovacie stanice robotických vysávačov P10 Ultra, P10 Pro Ultra a S20 Ultra. Zachytáva nečistoty, znižuje kontakt s prachom a pomáha udržiavať hygienu stanice."
+    },
+    "metaDescription": {
+     "pred": "Originálne vrecko na prach MOVA pre dokovacie stanice robotických vysávačov P10 Ultra, P10 Pro Ultra a S20 Ultra. Ďalšie produkty nájdete v kategórii Vysávače.",
+     "po": "Vrecko na prach MOVA pre dokovacie stanice P10 Ultra, P10 Pro Ultra a S20 Ultra: zachytáva nečistoty, pomáha udržať hygienu. PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087002",
+   "guid": "387019e2-92c6-11f1-9266-bc2411833e01",
+   "model": "Plyšová podložka MOBIUS",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistiaca podložka MOVA pre MOBIUS Originálna plyšová čistiaca podložka MOVA bola navrhnutá na účinné, ale šetrné čistenie podláh. Mäkký materiál dôkladne odstraňuje prach a bežné nečistoty bez…",
+     "po": "Plyšová mopovacia podložka MOVA pre roboty MOVA MOBIUS na šetrné čistenie podláh. Mäkký materiál odstraňuje prach a bežné nečistoty bez poškriabania citlivých povrchov, napríklad dreva alebo mramoru."
+    },
+    "metaDescription": {
+     "pred": "Originálna plyšová čistiaca podložka MOVA bola navrhnutá na účinné, ale šetrné čistenie podláh. Dokonale funguje napríklad na dreve alebo mramore.",
+     "po": "Plyšová podložka MOVA pre roboty MOBIUS: šetrné čistenie podláh bez poškriabania, vhodná na drevo aj mramor. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "084683",
+   "guid": "1831aca4-92c6-11f1-b59c-bc2411833e01",
+   "model": "TPEAK AI Note",
+   "polia": {
+    "shortDescription": {
+     "pred": "Hlasový záznamník MOVA TPEAK AI NOTE MOVA TPEAK AI NOTE je ultratenký hlasový záznamník určený na pohodlné a diskrétne nahrávanie rozhovorov, schôdzí a prednášok. Zariadenie má tvar karty a je hrubé…",
+     "po": "Ultratenký hlasový záznamník MOVA TPEAK AI Note veľkosti karty (2,89 mm, cca 28 g) s magnetickým uchytením na telefón. AI prepis, preklad a súhrny nahrávok, Wi-Fi prenos a nahrávanie viac ako 24 hodín."
+    },
+    "metaDescription": {
+     "pred": "Ultratenký hlasový záznamník Mova TPEAK AI Note s hrúbkou 2,89 mm a funkciami AI na prepis a súhrny nahrávok. To pomáha šetriť pamäť a výdrž batérie.",
+     "po": "Hlasový záznamník MOVA TPEAK AI Note: hrúbka 2,89 mm, AI prepis, preklad a súhrny, magnetické uchytenie, nahrávanie 24 h+. Objednajte na PremiumStore.sk."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields pre všetkých 15 položiek.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
