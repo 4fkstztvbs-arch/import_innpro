@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-19 01:20 UTC.
+Kontrola z 2026-11-19 12:19 UTC.
 
 InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -36,7 +36,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `026651` | Súprava vodotesných filtrov Telesin pre objektív GoPro Hero  | — | 5 |
 | `026662` | Hlavový popruh Telesin pre športové kamery (GP-HMS-T04) | — | 5 |
 | `026663` | Dvojitý držiak Telesin J-Hook pre športové kamery (GP-MTB-T0 | — | 5 |
-| `027615` | Inteligentný bezdrôtový nástenný vypínač Sonoff T2EU3C-RF 43 | — | 5 |
 | `027504` | Počítačový ventilátor ARGB Darkflash DR12 Pro (120x120) | — | 5 |
 | `027355` | Mopová podložka pre vysávač Dreame F9 / D9 / D9 Pro / D9 Max | — | 5 |
 | `027972` | Náhradný filter pre eliminátor zápachu PetKit Pura Air (2 ks | — | 5 |
@@ -87,6 +86,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `053078` | Face & Body Roller Head Geske (pink) | — | 5 |
 | `053691` | Joyroom držiak na palubnú dosku auta JR-ZS350 (strieborný) | — | 5 |
 | `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 5 |
+| `054844` | Nalepovacie termoetikety Niimbot / 50x30 mm / 230 ks (viacfa | — | 5 |
 | `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
 | `053750` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (či | — | 5 |
 | `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 2 |
@@ -285,6 +285,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `083378` | Taška na fotoaparát Sunnylife pre Osmo Nano (oranžová) | — | 5 |
 | `083382` | Krytky objektívov Sunnylife 2+2+2 pre Action 6 | — | 5 |
 | `083384` | Slnečná clona Sunnylife pre Mini 5 PRO | — | 5 |
+| `083386` | Silikónový kryt objektívu Sunnylife pre Action 6 | — | 5 |
 | `083387` | Šasi Sunnylife pre Mini 5 Pro (sivé) | — | 5 |
 | `083389` | Stojan Sunnylife pre Mini 5/4/3 Pro | — | 5 |
 | `083385` | Kryt kardanu Sunnylife pre Mini 5 Pro | — | 5 |
@@ -336,7 +337,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088957` | Samolepiaca fólia HTVRONT v odtieni Chrome Metallic, 30,5 cm | — | 5 |
 | `088958` | Samolepiaca fólia HTVRONT Chrome, 30,5 cm x 90 cm (ružové zl | — | 5 |
 | `088959` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (čierna) | — | 5 |
-| `088960` | Samolepiaca matná fólia HTVRONT, 30,5 cm × 180 cm (biela) | — | 5 |
 | `088961` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (červená) | — | 5 |
 | `088962` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (ružová) | — | 5 |
 | `088963` | Samolepiaca matná fólia HTVRONT, 30,5 cm × 180 cm (zelená) | — | 5 |
