@@ -10705,6 +10705,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -59190,6 +59191,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -88714,9 +88716,6 @@ DJI RC PRO/M300RTK/MAVIC 2/T20
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>050684</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6973734687318</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače]]></CATEGORY>
@@ -103630,10 +103629,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -121301,7 +121302,7 @@ zložený: 200 x 118 x 93 mm, rozložené: 198 x 92 x 13 mm
 <UNIT>ks</UNIT>
 <CODE>060431</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5906168430343</EAN>
 <CATEGORIES>
@@ -127885,6 +127886,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -139894,10 +139896,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.60</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -144631,9 +144635,6 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>064816</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6975116293766</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Chovateľské potreby > Fontány a napájačky > Filtre a čerpadlá do fontán]]></CATEGORY><CATEGORY><![CDATA[Chovateľské potreby]]></CATEGORY><CATEGORY><![CDATA[Chovateľské potreby > Fontány a napájačky]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
@@ -146644,6 +146645,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -146739,6 +146741,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -151522,6 +151525,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -153572,136 +153576,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
 <SEO_TITLE><![CDATA[Gens ace 8000mAh 14.8V 100C 4S2P Lipo Battery Pack | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Gens ace 8000mAh 14.8V 100C 4S2P Lipo Battery Pack – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Mini PC GMKtec M3 Intel i5-12450H 32 GB RAM + 1 TB SSD WIN 11 Pro]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[GMKtec M3 MINI-PC Intel i5-12450H 32GB RAM + 1TB (black). The GMKtec M3 MINI is a compact PC that is ideal for both home and professional applications. With an 8-core Intel i5-12450H processor and…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>GMKtec M3 MINI-PC Intel i5-12450H 32GB RAM + 1TB (black).</h3>
-<p>The GMKtec M3 MINI is a compact PC that is ideal for both home and professional applications. With an 8-core Intel i5-12450H processor and Intel UHD 48 EU graphics chip, it delivers impressive performance. In addition, 2 HDMI 2.0 and DisplayPort 1.4 ports allow you to display images on 3 monitors simultaneously.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/6498/7593/6.jpg"/>
-</p><h3>High capacity</h3>
-<p>The M3 MINI-PC has 32GB RAM and a 1TB SSD, providing ample space for storing files and applications.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/6498/7593/1.jpg"/>
-</p><h3>Fast connection</h3>
-<p>The M3 MINI PC offers a fast and reliable Dual Band Wi-Fi 6 2*2 2400 Mbps connection, so you don't have to worry about interference. In addition, it connects to a compatible device via Bluetooth 5.2 and has an Rj45 port so you can enjoy a 2.5G internet connection.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/6498/7593/3.jpg"/>
-</p><h3>Efficient performance</h3>
-<p>Work comfortably with the GMKtec M3 MINI. The mini computer uses an octa-core Intel i5-12450H processor, which translates into efficient hardware operation. In addition, it offers a UHD graphics chip (48EU) and a 3rd generation PCIe interface providing read speeds of 3,500 MB/s.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/6498/7593/4.jpg"/>
-</p><h3>Thoughtful design</h3>
-<p>The GMKtec M3 MINI features dual copper turbines and a fan, which protects the hardware from overheating. In addition, the included VESA mount and screws allow you to attach the computer to a surface of your choice. In turn, a number of different ports to choose from: USB-C/DP1.4, USB3.2, USB2.0, 3.5mm audio and LAN allow you to connect various devices to the computer.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/6498/7593/5.jpg"/>
-</p>
-<h3>Included</h3>
-<ul class="list-disc pl-5"><li>MINI PC M3</li><li>power supply + cable</li><li>HDMI cable</li><li>VESA mount + screws</li><li>user manual</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Manufacturer</th><td>GMKtec</td></tr><tr><th>Model</th><td>M3 MINI</td></tr><tr><th>Name</th><td>M3 MINI-PC Intel i5-12450H 32GB RAM + 1TB</td></tr><tr><th>Color</th><td>black</td></tr><tr><th>Processor</th><td>Intel® 12th, i5-12450H</td></tr><tr><th>Number of cores</th><td>8</td></tr><tr><th>Number of threads</th><td>12</td></tr><tr><th>Base frequency</th><td>Core p: 2.0 GHz; e core: 1.5 GHz</td></tr><tr><th>Maximum frequency</th><td>4.4 GHz</td></tr><tr><th>Processor technology</th><td>7nm</td></tr><tr><th>RAM type (DDR)</th><td>DDR4</td></tr><tr><th>RAM capacity</th><td>32 GB</td></tr><tr><th>RAM memory frequency</th><td>3200 MT/s</td></tr><tr><th>Maximum capacity of RAM</th><td>64 GB (depending on memory type)</td></tr><tr><th>SSD type</th><td>NVMe</td></tr><tr><th>SSD capacity</th><td>1 TB</td></tr><tr><th>Maximum SSD capacity</th><td>4TB; M.2 2280 PCle 2TB; M.2 2242 SATA 2TB</td></tr><tr><th>Integrated graphics chip</th><td>No integrated graphics, graphics chip is Intel® UHD Graphics</td></tr><tr><th>Connectivity</th><td>Wi-Fi 6 / BT5.2</td></tr><tr><th>Ports</th><td>USB3.2（Gen1*1 5Gbps） x3+USB2.0 x1; HDMI x2; Type-C (DP/DATA) x1; 3.5mm x1; 2.5G Giga LAN (RJ45) x1; DC IN x1</td></tr><tr><th>Operating system</th><td>No system</td></tr><tr><th>Cooling system</th><td>Fan</td></tr><tr><th>Mounting</th><td>VESA</td></tr><tr><th>Power supply</th><td>DC IN 20V/5A 100W</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=53361_43223_pol_084a8a4043e821ddfd38433b44c9e723" target="_blank" rel="noopener">Stiahnuť dokument 1</a></p><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=72178_43223_pol_7361eb7336f111468d3909905d0b35cd" target="_blank" rel="noopener">Stiahnuť dokument 2</a></p><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=53362_43223_cze_94092d6015d6957b059ec8b4d1e2e5e8" target="_blank" rel="noopener">Stiahnuť dokument 3</a></p><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=53363_43223_eng_4b6b7123007be5a5de9517a58dd975d3" target="_blank" rel="noopener">Stiahnuť dokument 4</a></p><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=53364_43223_gre_bf2e5e4e0058f47ef1c1e214d07f2e1f" target="_blank" rel="noopener">Stiahnuť dokument 5</a></p><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=53365_43223_hun_b966c9a9f733c8be1f96ff9dd3598a8b" target="_blank" rel="noopener">Stiahnuť dokument 6</a></p><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=53366_43223_rum_3b1672ff9bfe7f99e347de6d89e77b54" target="_blank" rel="noopener">Stiahnuť dokument 7</a></p><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=53367_43223_slo_6162e0eb5d654785b99267655a3c1063" target="_blank" rel="noopener">Stiahnuť dokument 8</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/mini-pc-2/">Mini PC</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[GMKtec]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>066047</CODE>
-<EAN>6972570962283</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > Mini PC]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Mini PC GMKtec M3 Intel i5-12450H 32GB RAM + 1TB SSD WIN 11 Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/94e64b9e475d753fe9cb30261d209acd/43223_1.jpg</IMAGE>
-  <IMAGE description="Mini PC GMKtec M3 Intel i5-12450H 32GB RAM + 1TB SSD WIN 11 Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/112cbd9ec0d89c4f8afa8bf7b3bd664b/43223_2.jpg</IMAGE>
-  <IMAGE description="Mini PC GMKtec M3 Intel i5-12450H 32GB RAM + 1TB SSD WIN 11 Pro - obrázok 3">https://b2b.innpro.sk/hpeciai/d7ed3b034ebe7d9d81e812656a08a777/43223_3.jpg</IMAGE>
-  <IMAGE description="Mini PC GMKtec M3 Intel i5-12450H 32GB RAM + 1TB SSD WIN 11 Pro - obrázok 4">https://b2b.innpro.sk/hpeciai/413fef85b50fca03281ab9e9624730cf/43223_4.jpg</IMAGE>
-  <IMAGE description="Mini PC GMKtec M3 Intel i5-12450H 32GB RAM + 1TB SSD WIN 11 Pro - obrázok 5">https://b2b.innpro.sk/hpeciai/decb27617cd07225c060ce04072bf447/43223_6.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[GMKtec]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[čierna]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Processor]]></NAME>
-    <VALUE><![CDATA[Intel® 12th, i5-12450H]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Number of cores]]></NAME>
-    <VALUE><![CDATA[8]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Number of threads]]></NAME>
-    <VALUE><![CDATA[12]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Base frequency]]></NAME>
-    <VALUE><![CDATA[Core p: 2.0 GHz; e core: 1.5 GHz]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximum frequency]]></NAME>
-    <VALUE><![CDATA[4.4 GHz]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Processor technology]]></NAME>
-    <VALUE><![CDATA[7nm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[RAM type (DDR)]]></NAME>
-    <VALUE><![CDATA[DDR4]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[RAM capacity]]></NAME>
-    <VALUE><![CDATA[32 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[RAM memory frequency]]></NAME>
-    <VALUE><![CDATA[3200 MT/s]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Úložisko]]></NAME>
-    <VALUE><![CDATA[32 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pamäť RAM]]></NAME>
-    <VALUE><![CDATA[64 GB]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Konektivita]]></NAME>
-    <VALUE><![CDATA[Bluetooth, Wi-Fi, 5G, USB-C, HDMI]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[12 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.50</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>1</FREE_SHIPPING>
-<PRICE_VAT>613.00</PRICE_VAT>
-<PURCHASE_PRICE>433.51</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Mini PC GMKtec M3 Intel i5-12450H 32GB RAM + 1TB… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Mini PC GMKtec M3 Intel i5-12450H 32GB RAM + 1TB SSD WIN 11 Pro – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
+
 <SHOPITEM>
 <NAME><![CDATA[ONIKUMA B90 Gaming headset (Blue/Purple)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[ONIKUMA Gaming Headphones (Blue/Purple) Are you looking for cute headphones that show off your sweet personality? Do you like cute aesthetics and want the headphones to match your outfits or room?…]]></SHORT_DESCRIPTION>
@@ -177209,14 +177084,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -188154,6 +188029,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -195571,133 +195447,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Mini ohrievač ELEGOO pre 3D tlačiareň – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Počítačová skriňa Darkflash TH285 4 ventilátory (biela)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Počítačová skriňa Darkflash TH285 so 4 ventilátormi (biela) Darkflash TH285 je 4-ventilátorová skriňa ATX, ktorá ponúka solídny základ pre stavbu výkonných počítačov. Jej rozmery sú 426 mm x 285 mm x…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Počítačová skriňa Darkflash TH285 so 4 ventilátormi (biela)</h3>
-<p>Darkflash TH285 je 4-ventilátorová skriňa ATX, ktorá ponúka solídny základ pre stavbu výkonných počítačov. Jej rozmery sú 426 mm x 285 mm x 403 mm, čo umožňuje voľne umiestniť aj veľké komponenty. Je vyrobená z odolnej ocele SPCC s hrúbkou 0,7 mm, čo zaručuje odolnosť voči poškodeniu.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10925/12875/2.jpg"/>
-</p><h3>Účinné chladenie</h3>
-<p>Skriňa Darkflash TH285 je vybavená 4 predinštalovanými ventilátormi, ktoré účinne podporujú prúdenie vzduchu a starajú sa o správne teploty. Je možné namontovať až 7 ventilátorov. Bočný panel poskytuje priestor pre 3 120 mm alebo 2x 140 mm ventilátory, zatiaľ čo na zadný panel je možné namontovať jeden 120 mm ventilátor. Spodná časť skrine pojme 3 120 mm ventilátory, čo zaručuje voľné prúdenie vzduchu zdola nahor. Okrem toho šasi umožňuje inštaláciu radiátora s priemerom až 360 mm na spodnej časti a až 280 mm na bočnej strane, čo zaručuje flexibilitu pri výbere systému vodného chladenia.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10925/12875/7.jpg"/>
-</p><h3>Priehľadný panel z tvrdeného skla</h3>
-<p>Bočný panel je vyrobený z tvrdeného skla, ktoré umožňuje úplný pohľad do vnútra skrine. Vďaka tomu môžete obdivovať starostlivo usporiadané komponenty.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10925/12875/1.jpg"/>
-</p><h3>Podporované štandardy dosiek a napájacích zdrojov</h3>
-<p>Skriňa TH285 je kompatibilná so základnými doskami štandardov ATX, M-ATX a ITX. Vďaka zdroju PSU s maximálnou dĺžkou 240 mm namontovanému v spodnej časti skrinka umožňuje optimálne umiestnenie káblov a lepšie prúdenie vzduchu. Použité riešenie tiež pomáha oddeliť teplejší vzduch od procesora a grafickej karty, čo vedie k stabilnejším teplotám celého systému.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10925/12875/6.jpg"/>
-</p><h3>Maximálna kompatibilita</h3>
-<p>Skriňa TH285 umožňuje inštaláciu grafickej karty s maximálnou dĺžkou 415 mm - je teda kompatibilná s najnovšími a najvýkonnejšími modelmi dostupnými na trhu. Okrem toho je maximálna výška procesora 160 mm, čo umožňuje inštaláciu výkonného chladenia.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10925/12875/8.jpg"/>
-</p><h3>Funkčnosť panela I/O</h3>
-<p>Horný I/O panel je vybavený portom USB 3.0 na vysokorýchlostný prenos dát, 2 portami USB 2.0, ako aj konektorom HD audio. Takéto rozloženie umožňuje ľahký prístup k najdôležitejším konektorom a umožňuje pripojenie rôznych periférnych zariadení. Okrem toho skrinka ponúka tlačidlá napájania a resetovania.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10925/12875/3.jpg"/>
-</p><h3>Možnosti rozšírenia</h3>
-<p>Darkflash TH285 ponúka podporu až 2 pevných diskov a 3 diskov SSD, čo vám poskytuje dostatočnú flexibilitu úložiska. Šachty pre 2,5" a 3,5" disky vám umožnia prispôsobiť si úložný priestor podľa seba, čo vám umožní ukladať hry, aplikácie a veľké súbory súčasne.</p>
-<p>
-<img border="0" src="https://assets.innpro.pl/10925/12875/4.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Darkflash</td></tr><tr><th>Model</th><td>TH285</td></tr><tr><th>Typ puzdra</th><td>ATX</td></tr><tr><th>Bočný panel</th><td>Tvrdené sklo</td></tr><tr><th>Predný panel</th><td>Plast a kov</td></tr><tr><th>Štandardná základná doska</th><td>ATX, M-ATX, ITX</td></tr><tr><th>Štandardný napájací zdroj</th><td>ATX</td></tr><tr><th>Sloty pre interné disky/pohony</th><td>2x HDD, 3x SSD</td></tr><tr><th>2,5" interné pozície</th><td>2</td></tr><tr><th>Interné pozície 2,5/3,5"</th><td>1</td></tr><tr><th>Zásuvky na rozširujúce karty</th><td>7</td></tr><tr><th>Maximálna dĺžka grafickej karty</th><td>415 mm</td></tr><tr><th>Maximálna výška chladenia procesora</th><td>160 mm</td></tr><tr><th>Maximálny počet ventilátorov</th><td>7</td></tr><tr><th>Možnosti montáže ventilátorov</th><td>Bočné: 3x 120 mm alebo 2x 140 mm / Zadné: 1x 120 mm / Spodné: 3x 120 mm</td></tr><tr><th>Možnosti montáže vodného chladenia:</th><td>Spodná časť: až 360 mm / Bočné: Do 280 mm</td></tr><tr><th>Počet nainštalovaných ventilátorov</th><td>4</td></tr><tr><th>Tlačidlá a ovládacie prvky</th><td>Napájanie, resetovanie</td></tr><tr><th>Konektory</th><td>USB 3.0, 2x USB 2.0, HD audio</td></tr><tr><th>Materiál</th><td>SPCC 0,7 mm oceľ</td></tr><tr><th>Farba</th><td>Biela</td></tr><tr><th>Výška</th><td>403 mm</td></tr><tr><th>Šírka</th><td>285 mm</td></tr><tr><th>Hĺbka</th><td>426 mm</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73317_48322_pol_b2bef5a9436f43af027c6bd095c1ef33" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/pocitacove-skrine/">Počítačové skrine</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[darkFlash]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>072343</CODE>
-<EAN>4711527000645</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > Počítačové skrine]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Počítačová skriňa Darkflash TH285 4 ventilátory (biela) - obrázok 1">https://b2b.innpro.sk/hpeciai/55d11b00ba05cc33019eb4581b140a53/48322_5.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa Darkflash TH285 4 ventilátory (biela) - obrázok 2">https://b2b.innpro.sk/hpeciai/48cae6448d21b319bd75e3619c10c7a6/48322_3.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa Darkflash TH285 4 ventilátory (biela) - obrázok 3">https://b2b.innpro.sk/hpeciai/6d0a4b0fdbb33bf620a2a85e48775f87/48322_6.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa Darkflash TH285 4 ventilátory (biela) - obrázok 4">https://b2b.innpro.sk/hpeciai/06c3f53e2c385cd55652eb3e5a2989b0/48322_7.jpg</IMAGE>
-  <IMAGE description="Počítačová skriňa Darkflash TH285 4 ventilátory (biela) - obrázok 5">https://b2b.innpro.sk/hpeciai/100f4bfe34ed131f6515415e376740f7/48322_2.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Značka]]></NAME>
-    <VALUE><![CDATA[darkFlash]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Typ puzdra]]></NAME>
-    <VALUE><![CDATA[ATX]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Bočný panel]]></NAME>
-    <VALUE><![CDATA[Tvrdené sklo]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Predný panel]]></NAME>
-    <VALUE><![CDATA[Plast a kov]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Štandardná základná doska]]></NAME>
-    <VALUE><![CDATA[ATX, M-ATX, ITX]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Štandardný napájací zdroj]]></NAME>
-    <VALUE><![CDATA[ATX]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Sloty pre interné disky/pohony]]></NAME>
-    <VALUE><![CDATA[2x HDD, 3x SSD]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[2,5" interné pozície]]></NAME>
-    <VALUE><![CDATA[2]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Interné pozície 2,5/3,5"]]></NAME>
-    <VALUE><![CDATA[1]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Zásuvky na rozširujúce karty]]></NAME>
-    <VALUE><![CDATA[7]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Maximálna dĺžka grafickej karty]]></NAME>
-    <VALUE><![CDATA[415 mm]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Farba]]></NAME>
-    <VALUE><![CDATA[biela]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Záruka]]></NAME>
-    <VALUE><![CDATA[12 mesiacov]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>8.50</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>62.00</PRICE_VAT>
-<PURCHASE_PRICE>43.94</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Počítačová skriňa Darkflash TH285 4 ventilátory… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Počítačová skriňa Darkflash TH285 4 ventilátory (biela) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Inteligentné hodinky Colmi V73 (zlaté)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Inteligentné hodinky Colmi V73 (zlaté) Zoznámte sa s inteligentnými hodinkami Colmi V73, ktoré spájajú moderný dizajn s funkciami, ktoré potrebujete každý deň. Vďaka nim môžete nielen pohodlne…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Inteligentné hodinky Colmi V73 (zlaté)</h3>
@@ -198986,6 +198735,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -199596,14 +199346,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -228431,7 +228181,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>075790</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6934399227011</EAN>
 <CATEGORIES>
@@ -235390,6 +235140,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -240593,6 +240344,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -260506,6 +260258,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -289718,10 +289471,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -302437,6 +302192,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -302513,6 +302269,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -309336,7 +309093,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>082319</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>4</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5905156101050</EAN>
 <CATEGORIES>
@@ -317810,10 +317567,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>182.90</PRICE_VAT>
 <PURCHASE_PRICE>129.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -353111,9 +352870,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>084240</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6975755960104</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Turistika a outdoor]]></CATEGORY>
@@ -366068,6 +365824,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -380908,6 +380665,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -392717,6 +392475,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -392807,6 +392566,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -399368,6 +399128,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -403314,6 +403075,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -414349,6 +414111,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -442740,6 +442503,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -452242,7 +452006,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -458416,14 +458183,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -482665,6 +482436,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -484685,6 +484457,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -486156,6 +485929,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -486473,6 +486247,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -488420,6 +488195,65 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Hlavný kefa DREAME pre modely H15 Pro Heat/H16 Pro… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Hlavný kefa DREAME pre modely H15 Pro Heat/H16 Pro Steam – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Náhradná utierka na mop DREAME MIRA MOP 10]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Čistiaca hlavica pre elektrický mop Dreame MIRA MOP 10 Čistiaca hlavica Dreame MIRA MOP 10 účinne čistí tvrdé podlahy a pomáha odstraňovať bežné nečistoty. Ide o vymeniteľný diel, ktorý zachováva…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Čistiaca hlavica pre elektrický mop Dreame MIRA MOP 10</h3>
+<p>Čistiaca hlavica Dreame MIRA MOP 10 účinne čistí tvrdé podlahy a pomáha odstraňovať bežné nečistoty. Ide o vymeniteľný diel, ktorý zachováva plnú funkčnosť zariadenia, a keďže je umývateľná, dá sa opakovane používať.</p>
+<p>
+<img alt="Dve modré, podlhovasté textilné podložky so štruktúrovaným povrchom na svetlom pozadí" border="0" src="https://assets.innpro.pl/23328/30557/1.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Dreame</td></tr><tr><th>Model</th><td>HMF10A</td></tr><tr><th>Kompatibilita</th><td>Dreame MIRA MOP</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=78270_61104_pol_2165138bb0a7c3ae593c5d47b7bce7c7" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vysavace/">Vysávače</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[DREAME]]></MANUFACTURER>
+<WARRANTY>12</WARRANTY>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>086877</CODE>
+<EAN>6979181926840</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Náhradná utierka na mop DREAME MIRA MOP 10">https://b2b.innpro.sk/hpeciai/1c074a7d738dbf41481fdd5538053c51/61104_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[DREAME]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[Dreame MIRA MOP]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Záruka]]></NAME>
+    <VALUE><![CDATA[12 mesiacov]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.53</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>26.50</PRICE_VAT>
+<PURCHASE_PRICE>18.58</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Náhradná utierka na mop DREAME MIRA MOP 10 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Náhradná utierka na mop DREAME MIRA MOP 10 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Súprava príslušenstva DREAME pre stanicu Z30]]></NAME>
@@ -495135,7 +494969,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="MERACH MR-2397 Tréningový prístroj na stehná a panvové dno (ružový)">https://b2b.innpro.sk/hpeciai/5333e4b8a0ee1214be1c9680f161da3c/61287_1.jpg</IMAGE>
+  <IMAGE description="MERACH MR-2397 Tréningový prístroj na stehná a panvové dno (ružový)">https://b2b.innpro.sk/hpeciai/8a3696a176045a6d2ed1a0b4b67ac7f1/61287_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -495242,8 +495076,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Platforma MERACH MR-2465 (biela) - obrázok 1">https://b2b.innpro.sk/hpeciai/8e3b07111f5e3ee717f59a8da9c3dc0a/61288_1.jpg</IMAGE>
-  <IMAGE description="Platforma MERACH MR-2465 (biela) - obrázok 2">https://b2b.innpro.sk/hpeciai/2ea5dfd8cb5edc3d5b7b02b6606c64b1/61288_2.jpg</IMAGE>
+  <IMAGE description="Platforma MERACH MR-2465 (biela) - obrázok 1">https://b2b.innpro.sk/hpeciai/28bba2bf4482edf9d5ddf9956ca43368/61288_1.webp</IMAGE>
+  <IMAGE description="Platforma MERACH MR-2465 (biela) - obrázok 2">https://b2b.innpro.sk/hpeciai/94d98813680d33cbd6e638e25e4e7f96/61288_2.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -496026,9 +495860,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>087006</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6977728947242</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
@@ -511384,10 +511215,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -519346,7 +519179,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Multifunkčný stroj na drepy MERACH MR-2417B1">https://b2b.innpro.sk/hpeciai/ef1140ca59abfccf908aa46457a2256f/61883_1.jpg</IMAGE>
+  <IMAGE description="Multifunkčný stroj na drepy MERACH MR-2417B1">https://b2b.innpro.sk/hpeciai/6afbc99c40a2881d7dd4daccb01ed95a/61883_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -519459,7 +519292,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Cvičebný reformer MERACH MR-2494B1 (čierny)">https://b2b.innpro.sk/hpeciai/cb0fd6453e9445f8c8d40ff4afd7ea56/61884_1.jpg</IMAGE>
+  <IMAGE description="Cvičebný reformer MERACH MR-2494B1 (čierny)">https://b2b.innpro.sk/hpeciai/034d60b3529c21a21f0d5983a5457125/61884_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -519562,7 +519395,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Posilňovač nôh MERACH MR-2522 (biely a ružový)">https://b2b.innpro.sk/hpeciai/f6b123a01fa9284267a115aa69b3f047/61886_1.jpg</IMAGE>
+  <IMAGE description="Posilňovač nôh MERACH MR-2522 (biely a ružový)">https://b2b.innpro.sk/hpeciai/d26873451b9411d67af15cbc46c84171/61886_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -519661,7 +519494,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Posilňovanie a fitness]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Posilňovač nôh MERACH MR-2522 (biely a modrý)">https://b2b.innpro.sk/hpeciai/f6a2a761d6564daae3e91778ef6aa85a/61887_1.jpg</IMAGE>
+  <IMAGE description="Posilňovač nôh MERACH MR-2522 (biely a modrý)">https://b2b.innpro.sk/hpeciai/313f88cdda08d61c4a8f4cb1c9ef8415/61887_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -523228,10 +523061,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>27.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -524963,7 +524798,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>3.13</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>2.85</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>223.90</PRICE_VAT>
 <PURCHASE_PRICE>158.32</PURCHASE_PRICE>
@@ -525340,7 +525175,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>8.40</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>7.86</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>543.50</PRICE_VAT>
 <PURCHASE_PRICE>384.06</PURCHASE_PRICE>
@@ -525679,10 +525514,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -527234,14 +527071,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -534782,7 +534622,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>2.24</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>2.96</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>224.00</PRICE_VAT>
@@ -534913,7 +534753,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>2.24</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>2.91</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>234.90</PRICE_VAT>
@@ -539575,7 +539415,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>8.26</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.19</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>18.04</PURCHASE_PRICE>
@@ -583031,7 +582871,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>0</VISIBLE>
 <VISIBILITY>hidden</VISIBILITY>
-<LOGISTIC><WEIGHT>11.80</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>10.34</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>175.50</PRICE_VAT>
 <PURCHASE_PRICE>124.16</PURCHASE_PRICE>
@@ -583137,7 +582977,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>0</VISIBLE>
 <VISIBILITY>hidden</VISIBILITY>
-<LOGISTIC><WEIGHT>9.00</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>9.53</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>188.90</PRICE_VAT>
 <PURCHASE_PRICE>133.46</PURCHASE_PRICE>
@@ -583235,7 +583075,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>0</VISIBLE>
 <VISIBILITY>hidden</VISIBILITY>
-<LOGISTIC><WEIGHT>10.43</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>9.99</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>189.00</PRICE_VAT>
 <PURCHASE_PRICE>133.71</PURCHASE_PRICE>
@@ -583310,16 +583150,52 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[EPREL]]></NAME>
-    <VALUE><![CDATA[...2342547]]></VALUE>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[LEPRO]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Energy certificate]]></NAME>
-    <VALUE><![CDATA[EC:EPREL:2342554:A]]></VALUE>
+    <NAME><![CDATA[Typ osvetlenia]]></NAME>
+    <VALUE><![CDATA[LED]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[ENERG]]></NAME>
-    <VALUE><![CDATA[...2342547]]></VALUE>
+    <NAME><![CDATA[Príkon]]></NAME>
+    <VALUE><![CDATA[7,2 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pätica žiarovky]]></NAME>
+    <VALUE><![CDATA[E27]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba svetla]]></NAME>
+    <VALUE><![CDATA[teplá biela]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Teplota farby]]></NAME>
+    <VALUE><![CDATA[2 700 K]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Index podania farieb]]></NAME>
+    <VALUE><![CDATA[Ra ≥ 85]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uhol vyžarovania]]></NAME>
+    <VALUE><![CDATA[300°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Povolený rozsah napätia]]></NAME>
+    <VALUE><![CDATA[220–240 V AC]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Životnosť svetelného zdroja]]></NAME>
+    <VALUE><![CDATA[50 000 h]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Jas bieleho svetla]]></NAME>
+    <VALUE><![CDATA[1 521 lm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[100 W]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
@@ -592263,6 +592139,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -593667,6 +593544,199 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Vzdelávací robot xTool mBot Ranger | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Vzdelávací robot xTool mBot Ranger – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Folia Quick Release ANYCUBIC Photon Mono M7 Max 13,6" 5 ks.]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[ANYCUBIC Photon Mono M7 Max 13,6&quot; rýchlo odnímateľná fólia, balenie po 5 kusoch Rýchlo odnímateľná fólia ANYCUBIC je spotrebný materiál určený pre 3D tlačiarne Photon Mono M7 Max s obrazovkou o…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>ANYCUBIC Photon Mono M7 Max 13,6&quot; rýchlo odnímateľná fólia, balenie po 5 kusoch</h3>
+<p>Rýchlo odnímateľná fólia ANYCUBIC je spotrebný materiál určený pre 3D tlačiarne Photon Mono M7 Max s obrazovkou o uhlopriečke 13,6&quot;. Je vyrobená z ACF fólie a je navrhnutá tak, aby fungovala s týmto konkrétnym modelom tlačiarne. Vďaka jej špecifickej kompatibilite je jednoduché vybrať správnu fóliu pre ANYCUBIC Photon Mono M7 Max bez nutnosti používať univerzálne riešenia. Balenie po piatich kusoch zaručuje, že budete mať vždy po ruke náhradnú fóliu, keď bude potrebné vymeniť tú, ktorú práve používate.</p>
+<p>
+<img alt="Fólia ANYCUBIC Photon Mono Quick Release s obalom na modrom pozadí s farebným prechodom" border="0" src="https://assets.innpro.pl/24157/31763/1-4197eb86-6ae0-4fb8-9e8b-247107340f5d.jpg"/>
+</p>
+<h3>Obsah balenia</h3>
+<ul class="list-disc pl-5"><li>Fólia ACF Quick Release pre ANYCUBIC Photon Mono M7 Max x 5</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Anycubic</td></tr><tr><th>Model</th><td>S020261</td></tr><tr><th>Materiál</th><td>ACF</td></tr><tr><th>Kompatibilita</th><td>ANYCUBIC Photon Mono M7 Max</td></tr><tr><th>Veľkosť obrazovky kompatibilnej tlačiarne</th><td>13,6&quot;</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87399_64444_pol_cd9ed68f85a274c3156e93ce2cc92040" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/3d-tlac/">3D tlačiarne a materiály</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[ANYCUBIC]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>091605</CODE>
+<EAN>5905156109551</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Folia Quick Release ANYCUBIC Photon Mono M7 Max 13,6&quot; 5 ks.">https://b2b.innpro.sk/hpeciai/35d59a2eda0a1d204558697b4f08ede1/64444_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[ANYCUBIC]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiál]]></NAME>
+    <VALUE><![CDATA[ACF]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[ANYCUBIC Photon Mono M7 Max]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uhlopriečka]]></NAME>
+    <VALUE><![CDATA[13,6"]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.40</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>64.90</PRICE_VAT>
+<PURCHASE_PRICE>45.84</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Folia Quick Release ANYCUBIC Photon Mono M7 Max… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Folia Quick Release ANYCUBIC Photon Mono M7 Max 13,6" 5 ks. – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[ANYCUBIC Photon Mono M7 Max 13,6" odlepovacia fólia]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[ANYCUBIC Photon Mono M7 Max 13,6&quot; rýchlo odnímateľná fólia, balenie po 2 kusoch Rýchlo odnímateľná fólia ANYCUBIC je spotrebný materiál určený pre 3D tlačiarne Photon Mono M7 Max s obrazovkou o…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>ANYCUBIC Photon Mono M7 Max 13,6&quot; rýchlo odnímateľná fólia, balenie po 2 kusoch</h3>
+<p>Rýchlo odnímateľná fólia ANYCUBIC je spotrebný materiál určený pre 3D tlačiarne Photon Mono M7 Max s obrazovkou o uhlopriečke 13,6&quot;. Je vyrobená z ACF fólie a je navrhnutá pre použitie s týmto konkrétnym modelom tlačiarne. Vďaka špecifickej kompatibilite je jednoduché vybrať správnu fóliu pre ANYCUBIC Photon Mono M7 Max bez nutnosti používať univerzálne riešenia. Dvojdielna sada zaručuje, že budete mať vždy po ruke náhradnú fóliu, keď bude potrebné vymeniť tú, ktorú práve používate.</p>
+<p>
+<img alt="Fólia ANYCUBIC Photon Mono Quick Release s obalom na modrom pozadí s farebným prechodom" border="0" src="https://assets.innpro.pl/24158/31764/1-68c06a1a-1fb8-4bee-ad56-5f3029d6bb26.jpg"/>
+</p>
+<h3>Obsah balenia</h3>
+<ul class="list-disc pl-5"><li>Rýchlo odnímateľná ACF fólia pre ANYCUBIC Photon Mono M7 Max x 2</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Anycubic</td></tr><tr><th>Model</th><td>S020259</td></tr><tr><th>Materiál</th><td>ACF</td></tr><tr><th>Kompatibilita</th><td>ANYCUBIC Photon Mono M7 Max</td></tr><tr><th>Veľkosť obrazovky kompatibilnej tlačiarne</th><td>13,6&quot;</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87400_64445_pol_2f1be142c2229f15119a0dfe6b57791f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/3d-tlac/">3D tlačiarne a materiály</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[ANYCUBIC]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>091604</CODE>
+<EAN>5905156109513</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="ANYCUBIC Photon Mono M7 Max 13,6&quot; odlepovacia fólia">https://b2b.innpro.sk/hpeciai/42baef9dabe32bb288a3feb57d6ff168/64445_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[ANYCUBIC]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Materiál]]></NAME>
+    <VALUE><![CDATA[ACF]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[ANYCUBIC Photon Mono M7 Max]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uhlopriečka]]></NAME>
+    <VALUE><![CDATA[13,6"]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.40</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>20.50</PRICE_VAT>
+<PURCHASE_PRICE>14.33</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[ANYCUBIC Photon Mono M7 Max 13,6" odlepovacia fólia | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[ANYCUBIC Photon Mono M7 Max 13,6" odlepovacia fólia – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Ochranná fólia ANYCUBIC Photon Mono M7 Max, balenie po 5 kusoch]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Ochranná fólia ANYCUBIC Photon Mono M7 Max, balenie po 5 kusoch Ochranná fólia ANYCUBIC Photon Mono M7 Max chráni displej 3D tlačiarne pred nečistotami, škrabancami a náhodným kontaktom so živicou.…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Ochranná fólia ANYCUBIC Photon Mono M7 Max, balenie po 5 kusoch</h3>
+<p>Ochranná fólia ANYCUBIC Photon Mono M7 Max chráni displej 3D tlačiarne pred nečistotami, škrabancami a náhodným kontaktom so živicou. Je určená pre model ANYCUBIC Photon Mono M7 Max s 13,6-palcovým displejom. Dodatočná vrstva pomáha znížiť riziko poškodenia displeja pri každodennom používaní tlačiarne. Vďaka svojej tenkej hrúbke fólia účinne chráni povrch bez vytvárania zbytočnej hrubej vrstvy. Súprava obsahuje 5 ochranných fólií, takže budete mať vždy po ruke zásobu na budúcu výmenu.</p>
+<p>
+<img alt="5 ochranných fólií v balení na šedom pozadí s farebným prechodom" border="0" src="https://assets.innpro.pl/24182/31793/1-b3416b60-cd6a-4739-84b8-96615980567c.jpg"/>
+</p>
+<h3>Obsah súpravy</h3>
+<ul class="list-disc pl-5"><li>Ochranná fólia pre ANYCUBIC Photon Mono M7 Max x 5</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Anycubic</td></tr><tr><th>Model</th><td>S020310</td></tr><tr><th>Kompatibilita:</th><td>ANYCUBIC Photon Mono M7 Max</td></tr><tr><th>Úhlopriečka obrazovky</th><td>13,6 palca</td></tr><tr><th>Hrúbka</th><td>0,1 mm</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=87401_64446_pol_035e34421a5ed90febfa0ebbe23e2988" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/prislusenstvo-pre-3d-tlaciarne/">Príslušenstvo k 3D tlačiarňam</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[ANYCUBIC]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>092876</CODE>
+<EAN>5905156111509</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam]]></CATEGORY>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="Ochranná fólia ANYCUBIC Photon Mono M7 Max, balenie po 5 kusoch">https://b2b.innpro.sk/hpeciai/7595e7e55be7b8597969ec8fadd44896/64446_1_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[ANYCUBIC]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kompatibilita]]></NAME>
+    <VALUE><![CDATA[ANYCUBIC Photon Mono M7 Max]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Úhlopriečka obrazovky]]></NAME>
+    <VALUE><![CDATA[13,6 palca]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hrúbka]]></NAME>
+    <VALUE><![CDATA[0,1 mm]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.21</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>19.50</PRICE_VAT>
+<PURCHASE_PRICE>13.63</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Ochranná fólia ANYCUBIC Photon Mono M7 Max, balenie… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Ochranná fólia ANYCUBIC Photon Mono M7 Max, balenie po 5 kusoch – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Vozík FOSSIBOT pre model F2400]]></NAME>
@@ -616638,6 +616708,121 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[AR okuliare RayNeo GT – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[AR okuliare RayNeo GT Max, Veľkosť S]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Okuliare RayNeo GT Max AR Okuliare RayNeo GT Max AR vo veľkosti S vám umožňujú sledovať filmy, hrať hry a využívať multimediálny obsah na virtuálnej obrazovke s uhlopriečkou až 307&quot;. Sú vybavené…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Okuliare RayNeo GT Max AR</h3>
+<p>Okuliare RayNeo GT Max AR vo veľkosti S vám umožňujú sledovať filmy, hrať hry a využívať multimediálny obsah na virtuálnej obrazovke s uhlopriečkou až 307&quot;. Sú vybavené dvojvrstvovými Micro-OLED displejmi 5,5. generácie, zorným poľom 59°, obnovovacou frekvenciou 120 Hz, podporou Dolby Vision a priestorovým sledovacím systémom 3DoF, ktorý sleduje pohyby hlavy v troch osiach. Používatelia si môžu vybrať virtuálnu obrazovku s uhlopriečkou 227&quot;, 267&quot; alebo 307&quot; pri simulovanej pozorovacej vzdialenosti 6 metrov, pričom celé zariadenie váži 78 g.</p>
+<p>
+<img alt="Muž s fúzmi a tmavými vlasmi je zobrazený z profilu s čiernymi okuliarmi pre rozšírenú realitu" border="0" src="https://assets.innpro.pl/24617/32358/5-iop-e79c888e-8ad0-41a6-be9f-8b4d888d15e5.jpg"/>
+</p><h3>Podrobný a plynulý obraz Micro-OLED</h3>
+<p>Čip displeja Vision 4000 zabezpečuje spracovanie obrazu v reálnom čase, vylepšenie farieb a vykresľovanie svetlých a tmavých oblastí scény. RayNeo GT Max podporuje režimy SDR, AI HDR a Dolby Vision, a vďaka kontrastnému pomeru 200 000:1, špičkovému jasu 1 200 nitov a farebnej presnosti Delta E &lt; 2 poskytuje detailný a prirodzene vyzerajúci obraz. Používatelia si môžu vybrať aj z režimov Standard, Movie, Eye Care a Read a prispôsobiť jas a veľkosť zobrazeného obrazu v závislosti od typu prezeraného obsahu.</p>
+<p>
+<img alt="Žena s okuliarmi pre rozšírenú realitu a šatkou na hlave sedí na stoličke a v ruke drží pripojený ovládač" border="0" src="https://assets.innpro.pl/24617/32358/1-iop-2da9da8b-1582-4649-bfb7-50b9ffe75ddd.jpg"/>
+</p><h3>Sledovanie pohybu a viaceré režimy zobrazenia</h3>
+<p>Systém Zone 360 zabezpečuje priestorové sledovanie 3DoF a umožňuje prispôsobiť správanie virtuálnej obrazovky aktuálnej situácii. V režime „Stabilný“ je obraz počas pohybu stabilizovaný; režim „Upevnený“ umožňuje umiestniť obrazovku na konkrétne miesto v priestore; a režim „Sledovanie“ spôsobuje, že obraz sleduje pohyby hlavy používateľa. Headset tiež umožňuje prepínanie medzi 2D a 3D režimami, takže si môžete prispôsobiť zobrazenie podľa podporovaného obsahu.</p>
+<p>
+<img alt="Muž s fúzmi v inteligentných okuliaroch drží ovládač opretý o bradu na svetlom pozadí" border="0" src="https://assets.innpro.pl/24617/32358/2-iop-91debb4a-4287-4fd2-8c26-198588d29601.jpg"/>
+</p><h3>Zvuk vyvinutý v spolupráci so spoločnosťou Bang &amp; Olufsen</h3>
+<p>Systém štyroch reproduktorov RayNeo GT Max bol vyvinutý v spolupráci so spoločnosťou Bang &amp; Olufsen a vyznačuje sa konštrukciou so šiestimi magnetmi. Plocha reproduktorových jednotiek bola zväčšená o 38 % a citlivosť v nízkych frekvenciách o 5 dB, pričom smerová konštrukcia zvukových kanálov znižuje rozptyl zvuku až o 80 %. Môžete si vybrať z režimov Standard Audio, Whisper Audio a Spatial Surround Audio, vďaka čomu si môžete prispôsobiť zvukový profil na sledovanie filmu, hranie hier alebo nosenie okuliarov v prítomnosti iných ľudí.</p>
+<p>
+<img alt="Žena v bielej blúzke a tmavomodrej šatke má na sebe čierne okuliare AR na svetlom pozadí" border="0" src="https://assets.innpro.pl/24617/32358/4-iop-19ccfd61-398c-42be-9293-0c6d604d6479.jpg"/>
+</p><h3>Pohodlné nosenie a široká kompatibilita</h3>
+<p>RayNeo GT Max je k dispozícii vo variantoch prispôsobených rôznym vzdialenostiam medzi zrenicami (IPD): Small pre IPD do 64 mm, Medium pre 64–67 mm a Large pre hodnoty nad 67 mm. Okuliare je možné pripojiť priamo k kompatibilným zariadeniam podporujúcim DisplayPort cez USB-C a pomocou vhodných adaptérov aj k iným video zdrojom, vrátane herných konzol využívajúcich HDMI. Konštrukcia nevyžaduje vstavanú batériu, keďže okuliare môžu byť napájané z pripojeného zariadenia, a priložený rám na dioptrické sklá umožňuje použitie špeciálne pripravených skiel pre ľudí so zrakovým postihnutím.</p>
+<p>
+<img alt="Portrét muža s fúzmi z bočného pohľadu, ktorý má na sebe čierne okuliare pre rozšírenú realitu" border="0" src="https://assets.innpro.pl/24617/32358/3-iop-64375699-50bf-4061-b918-3785107b11b7.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>Okuliare RayNeo GT Max AR</li><li>Rám na dioptrické sklá</li><li>Vymeniteľné nosné podložky x 3</li><li>Puzdro na prenášanie</li><li>Kábel USB-C</li><li>Utierka na čistenie okuliarov</li><li>Návod na použitie</li><li>Pokyny pre údržbu a bezpečnosť</li><li>Protisklzové podložky na stranice x 4</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>RayNeo</td></tr><tr><th>Model</th><td>GT Max</td></tr><tr><th>Hmotnosť</th><td>78 g</td></tr><tr><th>Veľkosť</th><td>S</td></tr><tr><th>Optický modul</th><td>Peacock Optical Engine 3.0 Max</td></tr><tr><th>Technológia displeja</th><td>Dvojvrstvový Micro-OLED 5,5. generácie</td></tr><tr><th>Zorné pole</th><td>59°</td></tr><tr><th>Veľkosti virtuálnej obrazovky</th><td>227&quot;, 267&quot;, 307&quot; vo vzdialenosti 6 m</td></tr><tr><th>Špičkový jas</th><td>1 200 nitov</td></tr><tr><th>Obnovovacia frekvencia</th><td>120 Hz</td></tr><tr><th>Farebný gamut</th><td>98 % DCI-P3 / 145 % sRGB</td></tr><tr><th>Presnosť farieb</th><td>Delta E &lt; 2</td></tr><tr><th>Stmievanie</th><td>PWM 3 840 Hz</td></tr><tr><th>Podporované obrazové štandardy</th><td>SDR, AI HDR, Dolby Vision</td></tr><tr><th>Režimy obrazu</th><td>Štandardný, Film, Ochrana zraku, Čítanie</td></tr><tr><th>Priestorové režimy</th><td>Stabilný režim, Upevnený režim, Sledovací režim</td></tr><tr><th>Systém priestorového sledovania</th><td>Zone 360</td></tr><tr><th>Sledovanie</th><td>3DoF – tri osi pohybu hlavy</td></tr><tr><th>Audio</th><td>Systém so štyrmi reproduktormi vyvinutý v spolupráci so spoločnosťou Bang &amp; Olufsen</td></tr><tr><th>Konštrukcia reproduktorov</th><td>6 magnetov</td></tr><tr><th>Zväčšenie povrchovej plochy reproduktorových jednotiek</th><td>38 %</td></tr><tr><th>Zvýšenie citlivosti na nízke frekvencie</th><td>+5 dB</td></tr><tr><th>Zníženie úniku zvuku</th><td>až o 80 %</td></tr><tr><th>Zvukové režimy</th><td>Štandardný zvuk, Tichý zvuk, Priestorový priestorový zvuk</td></tr><tr><th>Možnosti IPD</th><td>Malý &lt;64 mm, Stredný 64–67 mm, Veľký &gt;67 mm</td></tr><tr><th>Pripojenie</th><td>USB-C s podporou DisplayPort</td></tr><tr><th>Napájanie</th><td>Priamo z pripojeného zariadenia</td></tr><tr><th>Podpora dioptrických skiel</th><td>až do -10,00 D pre krátkozrakosť a až do -2,00 D pre astigmatizmus</td></tr><tr></tr>
+</tbody>
+</table>
+</div>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[RayNeo]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>093992</CODE>
+<EAN>6976972041140</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="AR okuliare RayNeo GT Max, Veľkosť S - obrázok 1">https://b2b.innpro.sk/hpeciai/c7003785f852cc8220df423ed86d7875/64996_1_1.webp</IMAGE>
+  <IMAGE description="AR okuliare RayNeo GT Max, Veľkosť S - obrázok 2">https://b2b.innpro.sk/hpeciai/da3987a5e380c784520f16d3d841d16f/64996_2_1.webp</IMAGE>
+  <IMAGE description="AR okuliare RayNeo GT Max, Veľkosť S - obrázok 3">https://b2b.innpro.sk/hpeciai/d4d69b211e9f288d3ebdbd3686a5a82f/64996_3_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[RayNeo]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hmotnosť]]></NAME>
+    <VALUE><![CDATA[78 g]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Veľkosť]]></NAME>
+    <VALUE><![CDATA[S]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Optický modul]]></NAME>
+    <VALUE><![CDATA[Peacock Optical Engine 3.0 Max]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zorné pole]]></NAME>
+    <VALUE><![CDATA[59°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Veľkosti virtuálnej obrazovky]]></NAME>
+    <VALUE><![CDATA[227", 267", 307" vo vzdialenosti 6 m]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Špičkový jas]]></NAME>
+    <VALUE><![CDATA[1 200 nitov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Obnovovacia frekvencia]]></NAME>
+    <VALUE><![CDATA[120 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farebný gamut]]></NAME>
+    <VALUE><![CDATA[98 % DCI-P3 / 145 % sRGB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Presnosť farieb]]></NAME>
+    <VALUE><![CDATA[Delta E < 2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Stmievanie]]></NAME>
+    <VALUE><![CDATA[PWM 3 840 Hz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[USB-C, HDMI]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.83</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>527.50</PRICE_VAT>
+<PURCHASE_PRICE>372.94</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[AR okuliare RayNeo GT Max, Veľkosť S | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[AR okuliare RayNeo GT Max, Veľkosť S – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[AR okuliare RayNeo GT Max, Veľkosť M]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Okuliare RayNeo GT Max AR Okuliare RayNeo GT Max AR vo veľkosti M vám umožňujú sledovať filmy, hrať hry a vychutnávať si multimediálny obsah na virtuálnej obrazovke s uhlopriečkou až 307&quot;. Sú…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Okuliare RayNeo GT Max AR</h3>
@@ -616866,6 +617051,114 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[AR okuliare RayNeo GT Max, Veľkosť L | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[AR okuliare RayNeo GT Max, Veľkosť L – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[Okuliare s umelou inteligenciou RayNeo iO (čierne)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Okuliare RayNeo iO AI Čierne okuliare RayNeo iO AI spájajú klasický dizajn okuliarov s inteligentným asistentom, displejom MicroLED a funkciami, ktoré pomáhajú pri každodennej organizácii. Vážia len…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Okuliare RayNeo iO AI</h3>
+<p>Čierne okuliare RayNeo iO AI spájajú klasický dizajn okuliarov s inteligentným asistentom, displejom MicroLED a funkciami, ktoré pomáhajú pri každodennej organizácii. Vážia len 33 g a ponúkajú jas až 1 300 nitov, 97 % priehľadnosť a zorné pole 23,5°, vďaka čomu sa najdôležitejšie informácie zobrazujú priamo v zornom poli používateľa. Vstavaná batéria s kapacitou 240 mAh zabezpečuje až 2 dni nepretržitého používania a funkcie ako upozornenia, kalendár, poznámky, preklad v reálnom čase a Life Log znižujú potrebu neustále siahať po telefóne.</p>
+<p>
+<img alt="Žena v sivom polo tričku a okuliaroch s čiernymi rámami hľadí priamo do kamery na bielom pozadí" border="0" src="https://assets.innpro.pl/24624/32365/2-iop-5bfd99de-ace9-4a79-b2ff-c1fa688611b5.jpg"/>
+</p><h3>Ľahká konštrukcia a diskrétny displej</h3>
+<p>RayNeo iO využíva miniatúrny optický modul Firefly Optical Engine Nano s objemom 0,085 cm³ a monochromatický zelený MicroLED displej. Celý systém pracuje v spojení s priehľadným vlnovodom Blue Lake s hrúbkou len 0,6 mm, čo umožnilo tenký dizajn pripomínajúci tradičné okuliare. Použitie rámu zo zliatiny horčíka a hliníka a straníc z titánu leteckej kvality pomáha znížiť hmotnosť zariadenia a zvyšuje pohodlie pri dlhodobom nosení.</p>
+<p>
+<img alt="Muž s dioptrickými okuliarmi sedí s notebookom uprostred hudobného vybavenia vo vnútri vozidla" border="0" src="https://assets.innpro.pl/24624/32365/1-iop-61d15590-0499-4767-87c2-962bb9eec348.jpg"/>
+</p><h3>Life Log a inteligentná denná organizácia</h3>
+<p>Funkcia Life Log dokáže zaznamenávať informácie, ktoré sa objavujú počas dňa, a usporiadať ich do vyhľadávateľného záznamu. Konverzácie, stretnutia, nápady alebo krátke poznámky už nemusíte zakaždým zapisovať ručne a neskôr je vyhľadávanie potrebných informácií jednoduchšie. Systém RayNeo Suggestions využíva nahromadený kontext, aby vám pripomínal okrem iného diskutované témy, nadchádzajúce úlohy a ďalšie relevantné informácie.</p>
+<p>
+<img alt="Žena s dioptrickými okuliarmi a džínsovou bundou číta knihu vo vnútri dreveného vozidla" border="0" src="https://assets.innpro.pl/24624/32365/3-iop-59969e7f-9a4a-435b-8117-0471116dda4f.jpg"/>
+</p><h3>Preklad a informácie bez nutnosti siahať po telefóne</h3>
+<p>Okuliare vám umožňujú kontrolovať rozvrh, upozornenia, počasie a poznámky priamo vo vašom zornom poli, vďaka čomu máte rýchlejší prístup k potrebným informáciám počas práce alebo pri vykonávaní každodenných činností. Funkcia živého prekladu podporuje 55 jazykov a 109 prízvukov a preložený text sa zobrazuje na displeji okuliarov. Záznam hlasu zabezpečuje hybridný mikrofónový systém s senzorom kostnej vodivosti VPU.</p>
+<p>
+<img alt="Skupina ľudí so psom na pikniku na tráve, obklopená hudobným vybavením, vinylovými platňami a reproduktormi" border="0" src="https://assets.innpro.pl/24624/32365/5-iop-df0cd2c7-e49f-43e2-90c5-b24e5d697487.jpg"/>
+</p><h3>Súkromie a pripravenosť na každodenné používanie</h3>
+<p>Okuliare RayNeo iO boli navrhnuté s ohľadom na princípy „Privacy by Design“ a výrobca zdôrazňuje okrem iného lokálne spracovanie údajov a ich anonymizáciu ešte predtým, ako údaje opustia zariadenie. Okuliare spĺňajú stupeň ochrany IP54, vďaka čomu sú odolné voči prachu a striekajúcej vode, ku ktorým môže dôjsť pri bežnom používaní. Zariadenie tiež spĺňa požiadavky GDPR a disponuje certifikátmi ISO 27001, ISO 27701, CE a FCC, okrem iného.</p>
+<p>
+<img alt="Žena s okuliarmi a slúchadlami kreslí pri stole plnom výtvarných potrieb a audio zariadení" border="0" src="https://assets.innpro.pl/24624/32365/7-iop-bd297fec-590e-4369-8c91-36c60c96bef6.jpg"/>
+</p>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>RayNeo</td></tr><tr><th>Model</th><td>RayNeo iO</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Hmotnosť</th><td>33 g</td></tr><tr><th>Konštrukcia</th><td>rám zo zliatiny horčíka a hliníka, stranice z titánu leteckej kvality</td></tr><tr><th>Optický modul</th><td>Firefly Optical Engine Nano</td></tr><tr><th>Objem optického modulu</th><td>0,085 cm³</td></tr><tr><th>Displej</th><td>monochromatický zelený MicroLED</td></tr><tr><th>Optický systém</th><td>Blue Lake Monocular, MicroLED + difrakčný vlnovod</td></tr><tr><th>Zorné pole</th><td>23,5°</td></tr><tr><th>Jas</th><td>až 1 300 nitov</td></tr><tr><th>Hrúbka vlnovodu</th><td>0,6 mm</td></tr><tr><th>Priepustnosť</th><td>97 %</td></tr><tr><th>Mikrofóny</th><td>hybridný mikrofónový systém so senzorom kostnej vodivosti VPU</td></tr><tr><th>Reproduktory</th><td>žiadne</td></tr><tr><th>Batéria</th><td>240 mAh</td></tr><tr><th>Výdrž batérie</th><td>až 2 dni nepretržitého používania</td></tr><tr><th>Stupeň ochrany</th><td>IP54</td></tr><tr><th>Preklad v reálnom čase</th><td>55 jazykov a 109 prízvukov</td></tr><tr><th>Jazyky rozhrania</th><td>angličtina, francúzština, nemčina, španielčina, taliančina, japončina, kórejčina, poľština, zjednodušená čínština a tradičná čínština</td></tr><tr><th>Funkcie</th><td>Life Log, RayNeo Suggestions, kalendár, upozornenia, počasie, poznámky, živý preklad</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88647_64999_pol_81eeada7d4ee78e64de06d5e3a577463" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/vr-okuliare/">VR okuliare a príslušenstvo</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[RayNeo]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>093995</CODE>
+<EAN>6976972041386</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Okuliare s umelou inteligenciou RayNeo iO (čierne) - obrázok 1">https://b2b.innpro.sk/hpeciai/5e3ebd798271f237030baa5b0619fa89/64999_1_1.webp</IMAGE>
+  <IMAGE description="Okuliare s umelou inteligenciou RayNeo iO (čierne) - obrázok 2">https://b2b.innpro.sk/hpeciai/56e8bbe552124e28b1fa8ba031700064/64999_2_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[RayNeo]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Farba]]></NAME>
+    <VALUE><![CDATA[čierna]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hmotnosť]]></NAME>
+    <VALUE><![CDATA[33 g]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konštrukcia]]></NAME>
+    <VALUE><![CDATA[rám zo zliatiny horčíka a hliníka, stranice z titánu leteckej kvality]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Optický modul]]></NAME>
+    <VALUE><![CDATA[Firefly Optical Engine Nano]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Objem optického modulu]]></NAME>
+    <VALUE><![CDATA[0,085 cm³]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Displej]]></NAME>
+    <VALUE><![CDATA[monochromatický zelený MicroLED]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Optický systém]]></NAME>
+    <VALUE><![CDATA[Blue Lake Monocular, MicroLED + difrakčný vlnovod]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zorné pole]]></NAME>
+    <VALUE><![CDATA[23,5°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Jas]]></NAME>
+    <VALUE><![CDATA[až 1 300 nitov]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Hrúbka vlnovodu]]></NAME>
+    <VALUE><![CDATA[0,6 mm]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>0.85</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>659.90</PRICE_VAT>
+<PURCHASE_PRICE>466.44</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Okuliare s umelou inteligenciou RayNeo iO (čierne) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Okuliare s umelou inteligenciou RayNeo iO (čierne) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Zvukový modul RayNeo GT Series]]></NAME>
@@ -621957,7 +622250,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>20.50</PRICE_VAT>
 <PURCHASE_PRICE>14.35</PURCHASE_PRICE>
@@ -623028,7 +623321,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>9.60</PRICE_VAT>
 <PURCHASE_PRICE>6.79</PURCHASE_PRICE>
@@ -631555,40 +631848,40 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <NAME><![CDATA[Bezdrôtová webová kamera Emeet PIXY]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Bezdrôtová webová kamera EMEET PIXY EMEET PIXY Wireless je bezdrôtová PTZ kamera určená na streamovanie, nahrávanie videa, školenia, podcasty a živé vysielania. Nahráva video v rozlíšení až 4K pri 30…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Bezdrôtová webová kamera EMEET PIXY</h3>
-<p>EMEET PIXY Wireless je bezdrôtová PTZ kamera určená na streamovanie, nahrávanie videa, školenia, podcasty a živé vysielania. Nahráva video v rozlíšení až 4K pri 30 fps a Full HD 1080p pri 60 fps, podporuje HDR a ponúka široké zorné pole 97°. Funkcia AI Auto Tracking automaticky sleduje osobu pred objektívom a ovládanie gestami vám umožňuje rýchlo spustiť alebo zastaviť sledovanie. Kamera je tiež vybavená vstavaným mikrofónom s frekvenciou 48 kHz, batériou s výdržou až 8 hodín, slotom na SD kartu, portom USB-C a štandardným 1/4-palcovým uchytením na statív.</p>
+<p>EMEET PIXY Wireless je bezdrôtová PTZ kamera určená na streamovanie, nahrávanie videa, školenia, podcasty a živé vysielania. Nahráva video v rozlíšení až 4K pri 30 fps a Full HD 1080p pri 60 fps (káblové pripojenie) alebo 1080p pri 60 fps bezdrôtovo, podporuje HDR a ponúka široké zorné pole 97°. Funkcia AI Auto Tracking automaticky sleduje osobu pred objektívom a ovládanie gestami vám umožňuje rýchlo spustiť alebo zastaviť sledovanie. Kamera je tiež vybavená vstavaným mikrofónom s frekvenciou 48 kHz, batériou s výdržou až 8 hodín, slotom na SD kartu, portom USB-C a štandardným 1/4-palcovým závitom na statív.</p>
 <p>
 <img alt="Čierna webová kamera EMEET s rozlíšením 4K, HDR a funkciami umelej inteligencie na tmavom pozadí" border="0" src="https://assets.innpro.pl/24874/32917/3-af641182-44fa-4f8c-9824-744748e83e0f.jpg"/>
-</p><h3>4K video a plynulé nahrávanie vo Full HD</h3>
-<p>V závislosti od typu obsahu si môžete vybrať medzi rozlíšením 4K pri 30 snímkach za sekundu alebo 1080p pri 60 snímkach za sekundu. Prvý z nich poskytuje vysokú úroveň detailov obrazu, zatiaľ čo vyššia snímková frekvencia v rozlíšení Full HD je ideálna na nahrávanie dynamickejších scén. Podpora HDR pomáha zachovať viac detailov v jasných aj tmavých oblastiach obrazu, čím uľahčuje nahrávanie v miestnostiach s rôznorodým osvetlením.</p>
+</p><h3>4K video a plynulé nahrávanie v rozlíšení Full HD</h3>
+<p>Pri pripojení káblom môžete nahrávať v rozlíšení 4K pri 30 snímkach za sekundu alebo v rozlíšení 1080p Full HD pri 60 snímkach za sekundu. Prvá možnosť vám umožňuje zachytiť viac detailov, zatiaľ čo druhá zabezpečuje plynulejšie zábery pri nahrávaní dynamických scén. Pri použití bezdrôtového pripojenia je maximálne dostupné rozlíšenie 1080p pri 30 snímkach za sekundu. Okrem toho technológia HDR pomáha zachovať detaily v jasných aj tmavých oblastiach záberu, čo je užitočné pri nahrávaní v miestnostiach s nerovnomerným osvetlením.</p>
 <p>
 <img alt="Žena krájajúca zeleninu v kuchyni, zaznamenaná tromi kamerami EMEET Pixy" border="0" src="https://assets.innpro.pl/24874/32917/4-d61ba4af-5cf6-4b53-a9a7-2a798cea89df.jpg"/>
 </p><h3>Automatické sledovanie pomocou umelej inteligencie a ovládanie gestami</h3>
-<p>Automatické sledovanie poháňané umelou inteligenciou umožňuje kamere sledovať pohybujúcu sa osobu a udržať ju v zábere. Ide o praktické riešenie pre prezentácie, školenia, návody alebo živé prenosy, kde moderátor nezostáva po celý čas na jednom mieste. Funkciu sledovania môžete spustiť alebo zastaviť aj gestom ruky, bez toho, aby ste museli siahať po počítači alebo telefóne.</p>
+<p>Automatické sledovanie poháňané umelou inteligenciou umožňuje kamere sledovať pohybujúcu sa osobu a udržať ju v zábere. Ide o praktické riešenie pre prezentácie, školenia, návody alebo živé prenosy, kde prednášajúci nezostáva po celý čas na jednom mieste. Funkciu sledovania môžete tiež spustiť alebo zastaviť gestom ruky, bez toho, aby ste museli siahať po počítači alebo telefóne.</p>
 <p>
-<img alt="Žena cvičiaca jógu v jasne osvetlenej obývačke pred kamerami EMEET umiestnenými na statívoch" border="0" src="https://assets.innpro.pl/24874/32917/7-54da2aa3-d766-45dc-b21e-25f8d574db0a.jpg"/>
+<img alt="Žena cvičiaca jógu v jasne osvetlenej obývačke pred kamerami EMEET namontovanými na statívoch" border="0" src="https://assets.innpro.pl/24874/32917/7-54da2aa3-d766-45dc-b21e-25f8d574db0a.jpg"/>
 </p><h3>Široké zorné pole a mikrofón s frekvenciou 48 kHz</h3>
-<p>Zorné pole 97° umožňuje kamere zachytiť väčšiu časť miestnosti, vďaka čomu môže zaznamenávať nielen prednášajúceho, ale aj jeho bezprostredné okolie. EMEET PIXY Wireless je tiež vybavená vstavaným mikrofónom s frekvenciou 48 kHz, ktorý vám umožňuje nahrávať zvuk bez pripájania dodatočného mikrofónu pri jednoduchších aplikáciách, ako sú rozhovory, školenia alebo živé prenosy.</p>
+<p>Zorné pole 97° umožňuje kamere zachytiť väčšiu časť miestnosti, vďaka čomu môže zaznamenávať nielen prednášajúceho, ale aj jeho bezprostredné okolie. EMEET PIXY Wireless je tiež vybavená vstavaným mikrofónom s frekvenciou 48 kHz, ktorý umožňuje nahrávanie zvuku bez pripájania dodatočného mikrofónu pri jednoduchších aplikáciách, ako sú rozhovory, školenia alebo živé prenosy.</p>
 <p>
-<img alt="Muž hrajúci videohru obklopený tromi kamerami EMEET namontovanými na statívoch" border="0" src="https://assets.innpro.pl/24874/32917/6-d62a36ca-7a39-4be2-b2c8-00bf4d7b915e.jpg"/>
+<img alt="Muž hrajúci videohru na počítači, obklopený tromi kamerami EMEET namontovanými na statívoch" border="0" src="https://assets.innpro.pl/24874/32917/6-d62a36ca-7a39-4be2-b2c8-00bf4d7b915e.jpg"/>
 </p><h3>Až 8 hodín bezdrôtovej prevádzky</h3>
-<p>Vstavaná dobíjateľná batéria poskytuje až 8 hodín prevádzky, čím sa znižuje potreba neustáleho pripájania kamery k zdroju napájania počas dlhších relácií. Bezdrôtová konštrukcia ponúka väčšiu slobodu pri umiestňovaní zariadenia v miestnosti. Kamera je tiež vybavená portom USB-C, slotom na SD kartu a 1/4-palcovým uchytením na statív, čo vám umožňuje pripevniť ju na kompatibilný statív alebo iný držiak, ktorý používa tento štandard.</p>
+<p>Vstavaná dobíjateľná batéria umožňuje kamere prevádzku až 8 hodín, čím sa znižuje potreba neustáleho pripájania k zdroju napájania počas dlhších relácií. Bezdrôtová konštrukcia ponúka väčšiu slobodu pri umiestňovaní zariadenia v miestnosti. Kamera je tiež vybavená portom USB-C, slotom na SD kartu a 1/4-palcovým uchytením na statív, čo vám umožňuje pripevniť ju na kompatibilný statív alebo iný držiak, ktorý používa tento štandard.</p>
 <p>
 <img alt="Kamera EMEET Pixy sledujúca pohyby muža tancujúceho v čiernom oblečení" border="0" src="https://assets.innpro.pl/24874/32917/9-7cbc8d16-c547-4b0b-9f91-95e5fb068fd6.jpg"/>
 </p><h3>EMEET Studio a podpora viacerých kamier</h3>
-<p>Aplikácia EMEET Studio vám umožňuje ovládať kameru, sledovať video prenos a prepínať medzi zábermi z jedného rozhrania. Tento softvér je k dispozícii pre zariadenia s operačnými systémami Android, iOS, Windows a macOS. Systém zároveň podporuje až tri kamery súčasne, čo uľahčuje nastavenie konfigurácie s viacerými kamerami pre podcasty, prezentácie, živé prenosy a nahrávky z viacerých uhlov.</p>
+<p>Aplikácia EMEET Studio vám umožňuje ovládať kameru, sledovať video prenos a prepínať medzi zábermi – všetko z jedného rozhrania. Tento softvér je k dispozícii pre zariadenia s operačnými systémami Android, iOS, Windows a macOS. Systém zároveň podporuje až tri kamery súčasne, čo uľahčuje nastavenie konfigurácie s viacerými kamerami pre podcasty, prezentácie, živé prenosy a nahrávky z viacerých uhlov.</p>
 <p>
 <img alt="Tri čierne webové kamery EMEET Pixy umiestnené vedľa seba na pozadí s vesmírnou tematikou" border="0" src="https://assets.innpro.pl/24874/32917/8-231fae9c-7ff7-437e-bcc3-2ababfc2794d.jpg"/>
 </p><h3>Kamera pripravená na streamovanie</h3>
-<p>EMEET PIXY Wireless je možné používať s populárnymi streamovacími platformami a nástrojmi, ako sú YouTube, Twitch, TikTok, Instagram, Facebook Live, Discord, OBS Studio, Restream a Kick. Možnosť bezdrôtového umiestnenia kamery, automatické sledovanie a podpora viacerých zariadení robia z tohto modelu ideálnu voľbu pre streamovacie zostavy a nezávislú videoprodukciu. Súčasťou balenia je prenosné puzdro, ktoré uľahčuje uskladnenie a prepravu zariadenia spolu s príslušenstvom.</p>
+<p>EMEET PIXY Wireless je možné používať s populárnymi streamovacími platformami a nástrojmi, ako sú YouTube, Twitch, TikTok, Instagram, Facebook Live, Discord, OBS Studio, Restream a Kick. Možnosť bezdrôtového nastavenia kamery, automatické sledovanie a podpora viacerých zariadení robia z tohto modelu ideálnu voľbu pre streamovacie zostavy a nezávislú videoprodukciu. Súčasťou balenia je prenosné puzdro, ktoré uľahčuje uskladnenie a prepravu zariadenia spolu s príslušenstvom.</p>
 <p>
-<img alt="Čierna kamera EMEET na statíve zaznamenávajúca vystúpenie tanečníkov na javisku" border="0" src="https://assets.innpro.pl/24874/32917/10-80466e08-45e4-427b-b170-49ddfcd34d1e.jpg"/>
+<img alt="Čierna kamera EMEET na statíve zaznamenávajúca vystúpenie tanečníkov na pódiu" border="0" src="https://assets.innpro.pl/24874/32917/10-80466e08-45e4-427b-b170-49ddfcd34d1e.jpg"/>
 </p>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>EMEET</td></tr><tr><th>Model</th><td>PIXY Wireless</td></tr><tr><th>Typ</th><td>bezdrôtová PTZ kamera</td></tr><tr><th>Maximálne rozlíšenie</th><td>4K 30 FPS</td></tr><tr><th>Režim Full HD</th><td>1080p 60 FPS</td></tr><tr><th>HDR</th><td>Áno</td></tr><tr><th>Zorné pole</th><td>97°</td></tr><tr><th>Automatické sledovanie</th><td>Automatické sledovanie pomocou AI</td></tr><tr><th>Ovládanie gestami</th><td>Áno</td></tr><tr><th>Mikrofón</th><td>Vstavaný, 48 kHz</td></tr><tr><th>Výdrž batérie</th><td>až 8 hodín</td></tr><tr><th>Pripojenie</th><td>bezdrôtové</td></tr><tr><th>Konektor</th><td>USB-C</td></tr><tr><th>Slot na pamäťovú kartu</th><td>SD</td></tr><tr><th>Upevnenie</th><td>1/4-palcový závit na statív</td></tr><tr><th>Podporované systémy</th><td>Android, iOS, Windows, macOS</td></tr><tr><th>Softvér</th><td>EMEET Studio</td></tr><tr><th>Podpora viacerých kamier</th><td>až 3 kamery súčasne</td></tr><tr></tr>
+<tr><th>Výrobca</th><td>EMEET</td></tr><tr><th>Model</th><td>PIXY Wireless</td></tr><tr><th>Typ</th><td>bezdrôtová PTZ kamera</td></tr><tr><th>Maximálne rozlíšenie</th><td>Káblové pripojenie: až 4K pri 30 fps alebo 1080p pri 60 fps; bezdrôtové pripojenie: až 1080p pri 30 fps</td></tr><tr><th>Režim Full HD</th><td>1080p 60 snímok za sekundu</td></tr><tr><th>HDR</th><td>Áno</td></tr><tr><th>Zorné pole</th><td>97°</td></tr><tr><th>Automatické sledovanie</th><td>Automatické sledovanie pomocou umelej inteligencie</td></tr><tr><th>Ovládanie gestami</th><td>Áno</td></tr><tr><th>Mikrofón</th><td>Vstavaný, 48 kHz</td></tr><tr><th>Výdrž batérie</th><td>až 8 hodín</td></tr><tr><th>Pripojenie</th><td>bezdrôtové</td></tr><tr><th>Port</th><td>USB-C</td></tr><tr><th>Slot na pamäťovú kartu</th><td>SD</td></tr><tr><th>Upevnenie</th><td>1/4-palcový závit na statív</td></tr><tr><th>Podporované systémy</th><td>Android, iOS, Windows, macOS</td></tr><tr><th>Softvér</th><td>EMEET Studio</td></tr><tr><th>Podpora viacerých kamier</th><td>až 3 kamery súčasne</td></tr><tr></tr>
 </tbody>
 </table>
 </div>
@@ -631850,21 +632143,21 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Stativ EMEET TD303]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Stativ EMEET TD303 Stativ EMEET TD303 je kompaktný stojan určený pre webové kamery a iné zariadenia vybavené štandardným závitom 1/4&quot;. Ponúka nastavenie výšky v rozmedzí od 17 cm do 47 cm, čo…]]></SHORT_DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Stativ EMEET TD303 Stativ EMEET TD303 je kompaktný stojan určený pre webové kamery (s výnimkou modelu EMEET C950) a ďalšie zariadenia vybavené štandardným závitom 1/4". Ponúka nastavenie výšky v…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Stativ EMEET TD303</h3>
-<p>Stativ EMEET TD303 je kompaktný stojan určený pre webové kamery a iné zariadenia vybavené štandardným závitom 1/4&quot;. Ponúka nastavenie výšky v rozmedzí od 17 cm do 47 cm, čo vám umožňuje prispôsobiť polohu kamery podľa vášho pracovného priestoru, online hovorov alebo nahrávania. Maximálna nosnosť je 650 g, vďaka čomu je statív vhodný na použitie s mnohými ľahkými kamerami a príslušenstvom kompatibilným s jeho uchytením.</p>
+<p>Stativ EMEET TD303 je kompaktný stojan určený pre webové kamery (s výnimkou modelu EMEET C950) a ďalšie zariadenia vybavené štandardným závitom 1/4". Ponúka nastavenie výšky v rozmedzí približne 17 cm až 31 cm, čo vám umožňuje prispôsobiť polohu kamery pre váš pracovný priestor, online hovory alebo nahrávanie videa. Maximálna nosnosť je 650 g, vďaka čomu je statív vhodný na použitie s mnohými ľahkými kamerami a príslušenstvom kompatibilným s jeho uchytením.</p>
 <p>
 <img alt="Malý čierny stolný statív rozložený na tri nohy, s guľovou hlavou a závitom, na svetlom pozadí" border="0" src="https://assets.innpro.pl/24881/32924/1-88614fbf-29d9-45e6-9ef2-4bd6238a4c46.jpg"/>
-</p><h3>Nastaviteľná výška od 17 do 47 cm</h3>
-<p>Vysúvateľná konštrukcia vám umožňuje nastaviť statív na požadovanú výšku v rozmedzí od 17 do 47 cm. Táto hodnota sa vzťahuje na výšku meranú od podlahy po spodnú časť upevňovacieho držiaka statívu; preto skutočná výška celej zostavy po namontovaní kamery bude závisieť aj od rozmerov kamery. Vďaka tejto možnosti nastavenia je jednoduchšie umiestniť objektív do správnej výšky a umožňuje pohodlnejšie komponovanie záberu bez potreby ďalších stojanov.</p>
+</p><h3>Nastaviteľná výška od približne 17 do 31 cm</h3>
+<p>Vysúvateľná konštrukcia vám umožňuje nastaviť statív na požadovanú výšku v rozmedzí približne 17 až 31 cm. Tento rozmer sa vzťahuje na výšku od podlahy po spodnú časť upevňovacieho držiaka statívu; preto skutočná výška celej zostavy po namontovaní kamery bude závisieť aj od rozmerov kamery. Vďaka tejto možnosti nastavenia je jednoduchšie umiestniť objektív do správnej výšky a umožňuje pohodlnejšie kompozíciu záberu bez potreby ďalších stojanov.</p>
 <p>
 <img alt="Tri čierne stolné statívy stojace vedľa seba, s namontovanými valcovitými webkamerami" border="0" src="https://assets.innpro.pl/24881/32924/4-5f25ed38-01ca-4842-a011-0706b3e1d01d.jpg"/>
 </p><h3>Rozkladací dizajn pre každodenné použitie</h3>
-<p>Stativ EMEET TD303 je vybavený rozkladacími nohami, ktoré počas používania zabezpečujú stabilnú základňu. Stativ je možné rýchlo rozložiť, vysunúť do požadovanej výšky a následne pripraviť na upevnenie kamery. Po skončení práce ho môžete opäť zložiť, čím zaberá menej miesta pri skladovaní alebo preprave.</p>
+<p>Stativ EMEET TD303 je vybavený rozkladacími nohami, ktoré počas používania zabezpečujú stabilnú základňu. Stativ je možné rýchlo rozložiť, vysunúť do požadovanej výšky a následne pripraviť na upevnenie kamery. Po skončení práce je možné stativ opäť zložiť, čím zaberá menej miesta pri skladovaní alebo preprave.</p>
 <p>
 <img alt="Dva zložené čierne statívy umiestnené vertikálne, znázorňujúce ich celú dĺžku a protisklzovú textúru" border="0" src="https://assets.innpro.pl/24881/32924/2-72a1cb5a-2c41-4e83-8d6b-029fbb8588f6.jpg"/>
-</p><h3>Univerzálny závit 1/4&quot;</h3>
-<p>Upevňovací závit 1/4&quot; zabezpečuje kompatibilitu s webkamerami a ďalšími zariadeniami, ktoré používajú tento štandard. S maximálnou nosnosťou 650 g si môžete vybrať zariadenie, ktoré zodpovedá schopnostiam statívu, a zabezpečiť tak stabilnú inštaláciu počas používania. EMEET TD303 slúži ako praktický doplnok k zostavám pre videokonferencie, diaľkové vzdelávanie, streamovanie alebo nahrávanie videa.</p>
+</p><h3>Univerzálny závit 1/4"</h3>
+<p>Upevnenie so závitom 1/4" umožňuje použitie s webkamerami (okrem modelu EMEET C950) a inými kompatibilnými zariadeniami, ktoré využívajú tento štandard. S maximálnou nosnosťou 650 g si môžete vybrať zariadenie, ktoré zodpovedá kapacite statívu, a zabezpečiť tak stabilnú inštaláciu počas používania. EMEET TD303 slúži ako praktický doplnok k zariadeniam určeným na videokonferencie, diaľkové vzdelávanie, streamovanie alebo nahrávanie videa.</p>
 <p>
 <img alt="" border="0" src="https://assets.innpro.pl/24881/32924/5-97c453be-d4c9-412e-b26d-ff40a247b2b2.jpg"/>
 </p>
@@ -631873,7 +632166,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>EMEET</td></tr><tr><th>Model</th><td>TD303</td></tr><tr><th>Typ</th><td>stativ pre webovú kameru</td></tr><tr><th>Nastavenie výšky</th><td>17–47 cm</td></tr><tr><th>Meranie výšky</th><td>od podlahy po spodnú časť uchytenia stativu</td></tr><tr><th>Uchytenie</th><td>1/4&quot; závit</td></tr><tr><th>Maximálne zaťaženie</th><td>650 g</td></tr><tr><th>Konštrukcia</th><td>nastaviteľný, skladací</td></tr><tr></tr>
+<tr><th>Výrobca</th><td>EMEET</td></tr><tr><th>Model</th><td>TD303</td></tr><tr><th>Typ</th><td>stativ pre webovú kameru</td></tr><tr><th>Nastavenie výšky</th><td>cca 17–31 cm</td></tr><tr><th>Meranie výšky</th><td>od povrchu po spodnú časť držiaka stativu</td></tr><tr><th>Držiak</th><td>závit 1/4"</td></tr><tr><th>Maximálne zaťaženie</th><td>650 g</td></tr><tr><th>Konštrukcia</th><td>nastaviteľný, skladací</td></tr><tr></tr>
 </tbody>
 </table>
 </div>
@@ -631901,15 +632194,15 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Nastavenie výšky]]></NAME>
-    <VALUE><![CDATA[17–47 cm]]></VALUE>
+    <VALUE><![CDATA[cca 17–31 cm]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Meranie výšky]]></NAME>
-    <VALUE><![CDATA[od podlahy po spodnú časť uchytenia stativu]]></VALUE>
+    <VALUE><![CDATA[od povrchu po spodnú časť držiaka stativu]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Uchytenie]]></NAME>
-    <VALUE><![CDATA[1/4" závit]]></VALUE>
+    <NAME><![CDATA[Držiak]]></NAME>
+    <VALUE><![CDATA[závit 1/4"]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Maximálne zaťaženie]]></NAME>
@@ -637860,7 +638153,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>6.00</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>5.89</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>10125.50</PRICE_VAT>
@@ -637985,7 +638278,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>6.00</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>5.92</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>9725.50</PRICE_VAT>
@@ -639445,7 +639738,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>MOES</td></tr><tr><th>Model</th><td>ZSS-LM01-EU-GY-MS</td></tr><tr><th>Meracie technológie</th><td>Ultrazvuková</td></tr><tr><th>Merací rozsah</th><td>0,1–4 m</td></tr><tr><th>Presnosť merania</th><td>±0,02 m</td></tr><tr><th>Napájanie zo siete</th><td>AC 110–240 V</td></tr><tr><th>Napájanie snímača</th><td>DC 5 V, ≤100 mA</td></tr><tr><th>Menovité napätie a prúd</th><td>DC 5 V, 1 A</td></tr><tr><th>Prevádzková teplota</th><td>–20 °C až 70 °C</td></tr><tr><th>Stupeň krytia</th><td>IP65</td></tr><tr><th>Komunikačný protokol</th><td>Zigbee 3.0</td></tr><tr><th>Frekvenčné pásmo</th><td>2,412–2,484 GHz</td></tr><tr><th>Maximálny vysielací výkon</th><td>&lt; +16 dBm</td></tr><tr><th>Kompatibilné aplikácie</th><td>MOES, Smart Life, Tuya</td></tr><tr><th>Podporované funkcie</th><td>Monitorovanie hladiny kvapaliny v reálnom čase, nastavenie horných a dolných limitov, push notifikácie, zvukový alarm, história meraní, grafy hladiny kvapaliny, automatizácie</td></tr><tr><th>Dĺžka kábla</th><td>2,8 m</td></tr><tr><th>Požadovaná brána</th><td>Zigbee (predáva sa samostatne)</td></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88655_66104_pol_83d573f6b56e68a41aedbf7b5dd53b3f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/smart-senzory/">Smart senzory</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Moes]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -640873,7 +641166,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>MOES</td></tr><tr><th>Model</th><td>WPL-CL01-RIC</td></tr><tr><th>Názov produktu</th><td>Inteligentné vonkajšie osvetlenie okapu</td></tr><tr><th>Typ produktu</th><td>Inteligentné LED reťazové osvetlenie pre vonkajšie použitie</td></tr><tr><th>Dĺžka</th><td>30 m</td></tr><tr><th>Počet svetiel</th><td>60</td></tr><tr><th>Technológia osvetlenia</th><td>RGBIC</td></tr><tr><th>Počet farieb</th><td>Viac ako 16 miliónov</td></tr><tr><th>Počet svetelných scén</th><td>44</td></tr><tr><th>Regulácia jasu</th><td>1–100 %</td></tr><tr><th>Vstupné napätie</th><td>DC 24 V</td></tr><tr><th>Napätie napájania</th><td>AC 100–240 V</td></tr><tr><th>Príkon</th><td>1 W</td></tr><tr><th>Jas</th><td>≥28 800 mcd</td></tr><tr><th>Uhol vyžarovania</th><td>≥120°</td></tr><tr><th>Stupnica šedej</th><td>8 bitov (256 úrovní)</td></tr><tr><th>Životnosť svetelného zdroja</th><td>≥50 000 hodín</td></tr><tr><th>Pripojiteľnosť</th><td>Wi-Fi, Bluetooth</td></tr><tr><th>Komunikačný protokol</th><td>Tuya</td></tr><tr><th>Frekvenčné pásmo</th><td>2,402–2,480 GHz</td></tr><tr><th>Maximálny vysielací výkon</th><td>&lt;+16 dBm</td></tr><tr><th>Kompatibilné aplikácie</th><td>MOES APP, Tuya, Smart Life</td></tr><tr><th>Kompatibilita s hlasovými asistentmi</th><td>Amazon Alexa, Google Assistant</td></tr><tr><th>Spôsoby ovládania</th><td>Mobilná aplikácia, IR diaľkový ovládač, hlasové ovládanie, káblový ovládač LED</td></tr><tr><th>Dosah diaľkového ovládania</th><td>≥10 m</td></tr><tr><th>Synchronizácia s hudbou</th><td>Áno</td></tr><tr><th>Ovládanie zón</th><td>Áno</td></tr><tr><th>Plánovanie</th><td>Áno</td></tr><tr><th>Podpora stmievania</th><td>Áno</td></tr><tr><th>Stupeň ochrany svetelného reťazca</th><td>IP67</td></tr><tr><th>Stupeň ochrany napájania</th><td>IP44</td></tr><tr><th>Materiál</th><td>ABS, PC</td></tr><tr><th>Prevádzková teplota</th><td>Od -35 °C do +60 °C</td></tr><tr><th>Skladovacia teplota</th><td>Od -40 °C do +75 °C</td></tr><tr><th>Odporúčaná montážna vzdialenosť od steny</th><td>4,85–10 cm</td></tr><tr><th>Montáž</th><td>Páska VHB, montážne spony na skrutky</td></tr><tr><th>Možnosť spájania jednotlivých úsekov</th><td>Áno, pomocou vodotesných konektorov</td></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88652_66115_pol_5647e954d168dc701c747654bb3c661c" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/osvetlenie/">Osvetlenie</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Moes]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -641196,7 +641489,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.05</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>13.90</PRICE_VAT>
 <PURCHASE_PRICE>9.81</PURCHASE_PRICE>
@@ -641486,7 +641779,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>MOES</td></tr><tr><th>Model</th><td>ZSS-QY-LS-C-MS</td></tr><tr><th>Typ produktu</th><td>Svetelný senzor</td></tr><tr><th>Bezdrôtová technológia</th><td>Zigbee</td></tr><tr><th>Prevádzková frekvencia</th><td>2,405–2,480 GHz</td></tr><tr><th>Maximálny RF výkon</th><td>+10 dBm</td></tr><tr><th>Rozsah merania intenzity osvetlenia</th><td>0–1 000 lux</td></tr><tr><th>Napájanie</th><td>3 V batéria CR2032 (vymeniteľná)</td></tr><tr><th>Životnosť batérie</th><td>Približne 365 dní</td></tr><tr><th>Upozornenie na nízky stav batérie</th><td>Áno</td></tr><tr><th>Prevádzková teplota</th><td>–10 °C až +55 °C (v dokumentácii je uvedená aj horná hranica +50 °C)</td></tr><tr><th>Rozmery</th><td>Priemer 50 mm, hrúbka 17 mm</td></tr><tr><th>Kompatibilné aplikácie</th><td>MOES App, Smart Life, Tuya</td></tr><tr><th>Funkcie</th><td>Meranie intenzity osvetlenia v reálnom čase, história meraní, dynamické grafy, automatizácia inteligentných zariadení, upozornenie na nízky stav batérie</td></tr><tr><th>Požadovaná brána</th><td>Zigbee (predáva sa samostatne)</td></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88651_66120_pol_6e2a33782d4b7e9c5ad40266baecabb8" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/smart-senzory/">Smart senzory</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Moes]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -641710,7 +642003,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>MOES</td></tr><tr><th>Model</th><td>MG-BJQ002-ZIG</td></tr><tr><th>Typ zariadenia</th><td>Inteligentná poplachová siréna</td></tr><tr><th>Napájanie</th><td>100–240 V striedavého prúdu</td></tr><tr><th>Prúd v pohotovostnom režime</th><td>45 mA</td></tr><tr><th>Prúd počas poplachu</th><td>300 mA</td></tr><tr><th>Maximálna hlasitosť</th><td>105 dB</td></tr><tr><th>Ovládanie hlasitosti</th><td>3 úrovne (nízka, stredná, vysoká)</td></tr><tr><th>Trvanie poplachu</th><td>10–1 800 s</td></tr><tr><th>Počet hlasových správ</th><td>32</td></tr><tr><th>Jazyk hlasových správ</th><td>Angličtina</td></tr><tr><th>Bezdrôtová konektivita</th><td>ZigBee 3.0</td></tr><tr><th>Podporované aplikácie</th><td>MOES App, Smart Life, Tuya Smart</td></tr><tr><th>Kompatibilita s hlasovými asistentmi</th><td>Alexa, Google Assistant</td></tr><tr><th>Režimy podsvietenia</th><td>Pulzujúce RGB svetlo, blikajúce červené svetlo, biele svetlo zapnuté</td></tr><tr><th>Farby podsvietenia</th><td>Červená, modrá, zelená, biela</td></tr><tr><th>Funkcia nočného osvetlenia</th><td>Áno</td></tr><tr><th>Push notifikácie</th><td>Áno</td></tr><tr><th>História udalostí</th><td>Áno</td></tr><tr><th>Diaľkové vypnutie alarmu</th><td>Áno</td></tr><tr><th>Ovládanie tlačidlami</th><td>Zmena zvuku, nastavenie hlasitosti, spárovanie, zmena režimu podsvietenia</td></tr><tr><th>Potrebná brána</th><td>ZigBee (predáva sa samostatne)</td></tr><tr><th>Pripojenie brány k routeru</th><td>Wi-Fi 2,4 GHz</td></tr><tr><th>Podpora Zigbee2MQTT</th><td>Nie</td></tr><tr><th>Prevádzková teplota</th><td>-10 °C až 60 °C</td></tr><tr><th>Rozmery (verzia pre EÚ)</th><td>5,62 × 5,62 × 7,3 cm</td></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88653_66122_pol_71b999b5604671a27ba6f015ae980b6e" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Moes]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -641901,7 +642194,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.19</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>32.00</PRICE_VAT>
 <PURCHASE_PRICE>22.66</PURCHASE_PRICE>
@@ -642769,6 +643062,275 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Držiak na telefón TELESIN MNM-002-B – magnetický… | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Držiak na telefón TELESIN MNM-002-B – magnetický držiak na krk pre iPhone 12–16 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[3D tlačiareň Creality Ender-3 V3 Neo]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[3D tlačiareň Creality Ender-3 V3 Neo Začnite svoje dobrodružstvo s 3D tlačou a premeňte svoje nápady na skutočné predmety! 3D tlačiareň Creality Ender-3 V3 Neo ponúka rýchlosť tlače až 500 mm/s,…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>3D tlačiareň Creality Ender-3 V3 Neo</h3>
+<p>Začnite svoje dobrodružstvo s 3D tlačou a premeňte svoje nápady na skutočné predmety! 3D tlačiareň Creality Ender-3 V3 Neo ponúka rýchlosť tlače až 500 mm/s, zrýchlenie až 8 000 mm/s² a objem tlačovej plošiny 220 × 220 × 220 mm, vďaka čomu je ideálna na tvorbu dekorácií, príslušenstva alebo vzdelávacích projektov. Automatické vyrovnávanie tlačovej dosky, extrudér Sprite 2 a systém kompenzácie vibrácií pomáhajú dosahovať presné výsledky bez zložitého nastavovania. Zariadenie tiež podporuje flexibilné vlákna TPU 90A–95A, je vybavené vstavanou kamerou a poskytuje prístup k komplexnej platforme Creality Cloud. Okrem toho je kompatibilné s voliteľným systémom CFS nano, ktorý umožňuje tlač až v štyroch farbách.</p>
+<p>
+<img alt="Biela 3D tlačiareň Creality tlačí model hory, vedľa nej na stole je podávač cievok" border="0" src="https://assets.innpro.pl/25461/33691/2-89eca7d2-47c4-4502-819b-425a7e7bcf70.jpg"/>
+</p><h3>Vysoká rýchlosť, pôsobivé výsledky</h3>
+<p>Oživte svoje ďalšie projekty bez dlhého čakania! Creality Ender-3 V3 Neo dosahuje rýchlosť tlače až 500 mm/s a zrýchlenie až 8 000 mm/s², čo vám umožňuje efektívne vytvárať jednoduché diely aj zložité modely. Extrudér Sprite 2 zabezpečuje rovnomerné podávanie filamentu a poskytuje stabilný tok materiálu aj počas vysokorýchlostnej tlače. Vstavaný systém kompenzácie vibrácií minimalizuje nežiaduce artefakty, ako je zvonenie alebo zdvojené obrysy. Výsledkom sú výtlačky s hladšími povrchmi, ostrejšími detailmi a esteticky príjemným povrchovým spracovaním.</p>
+<p>
+<img alt="Biela 3D tlačiareň Creality tlačí farebný model ponorky, vedľa nej je podávač cievok s farebnými cievkami" border="0" src="https://assets.innpro.pl/25461/33691/1-bc0cb51b-627a-447e-94a1-273cf9c0a3ae.jpg"/>
+</p><h3>Ľahký začiatok bez zložitej kalibrácie</h3>
+<p>Na to, aby ste mohli začať vytvárať vlastné modely, nepotrebujete žiadne skúsenosti s 3D tlačou. Tlačiareň Ender-3 V3 Neo využíva plne automatický systém vyrovnávania tlačovej dosky, ktorý eliminuje potrebu ručnej kalibrácie a pomáha zabezpečiť správnu prvú vrstvu. Zariadenie disponuje aj automatickou detekciou zamotania filamentu a problémov s podávaním. Ak sa vyskytne problém, tlačiareň sa pozastaví a upozorní vás na problém, čo vám umožní ho vyriešiť a následne pokračovať v tlači.</p><h3>Tlačte vo štyroch farbách s CFS nano</h3>
+<p>Chcete vytvárať viacfarebné figúrky, dekorácie a veľmi detailné modely? Creality Ender-3 V3 Neo pracuje so systémom CFS nano, ktorý umožňuje automatické prepínanie medzi až štyrmi vláknami počas tlače. Vďaka tomu môžete realizovať farebné projekty bez nutnosti ručného prehadzovania vlákien v každej fáze tlače. Systém tiež podporuje automatickú detekciu vlákna a prechod na ďalšiu cievku, čo pomáha minimalizovať prerušenia tlače. Systém CFS nano je súčasťou balíka Combo, ale je možné ho zakúpiť aj samostatne pre základný model Ender-3 V3 Neo. Vďaka tomu môžete začať tlačiť v jednej farbe a neskôr tlačiarňu vylepšiť, aby ste mohli vytvárať viacfarebné modely.</p>
+<p>
+<img alt="Ruka držiaca fialovo-zelenú textúrovanú guľu s výstupkami na pozadí zelených listov a oblohy" border="0" src="https://assets.innpro.pl/25461/33691/6-c1c00564-c4ab-413a-a0bf-62f525443645.jpg"/>
+</p><h3>Viac možností s rôznymi filamentmi</h3>
+<p>Vytvárajte ako tuhé funkčné diely, tak aj ohybné doplnky. Tlačiareň Creality Ender-3 V3 Neo podporuje filamenty PLA, PETG a TPU s tvrdosťou 90A alebo vyššou, ako aj materiály ABS a ASA, pre ktoré sa odporúča dodatočný uzavretý kryt tlačiarne. Zvlášť zaujímavé možnosti ponúkajú pružné TPU filamenty. Materiál 90A vám umožňuje vytvárať okrem iného pružné prívesky na kľúče, antistresové hračky a mäkké podložky pod poháre, zatiaľ čo TPU 95A je ideálny na výrobu ochranných puzdier, pružných spôn a funkčných dielov. Maximálna teplota trysky je 300 °C a teplota tlačovej dosky 100 °C, čo zaručuje optimálne podmienky na prácu s podporovanými materiálmi.</p>
+<p>
+<img alt="Biela 3D tlačiareň Creality s modelom ponorky a držiakom cievok na stole" border="0" src="https://assets.innpro.pl/25461/33691/4-05ee0b60-7364-4e33-9bda-01a0a1054afb.jpg"/>
+</p><h3>Creality Cloud – Viac ako milión modelov na dosah ruky</h3>
+<p>Chýbajú vám nápady na ďalší projekt? Platforma Creality Cloud poskytuje prístup ku knižnici s viac ako miliónom 3D modelov pripravených na tlač. Medzi nimi nájdete dekorácie, zberateľské predmety, praktické organizéry, doplnky na nosenie a prvky pre vzdelávacie projekty. Pomocou nástrojov CubeMe a SnapForm môžete tiež prevádzať fotografie na 3D modely, čo vám otvára ďalšie možnosti pri vytváraní personalizovaných predmetov. Je to skvelý spôsob, ako rozvíjať svoje zručnosti, experimentovať s novými nápadmi a objavovať nové možnosti využitia 3D tlače.</p><h3>Pohodlné riadenie tlače z telefónu</h3>
+<p>Sledujte svoje projekty bez toho, aby ste museli neustále stáť pri tlačiarni. Tlačiareň Ender-3 V3 Neo podporuje pripojenie cez Wi-Fi 2,4 GHz a platformu Creality Cloud, vďaka čomu môžete spúšťať tlač, kontrolovať jej priebeh a ovládať zariadenie pomocou smartfónu. Modely môžete pripraviť v softvéri Creality Print alebo v aplikácii Creality Cloud a následne ich odoslať do tlačiarne. Súbory môžete prenášať aj pomocou USB kľúča. Okrem toho je zariadenie vybavené 2,85-palcovým farebným dotykovým displejom, ktorý uľahčuje ovládanie a sledovanie procesu tlače.</p>
+<p>
+<img alt="Prerez hlavou 3D tlačiarne zobrazujúci ozubený mechanizmus, zelené vlákno a trysku na kovovej koľajnici" border="0" src="https://assets.innpro.pl/25461/33691/5-136f325c-8509-4ec0-a141-7746e452900a.jpg"/>
+</p><h3>Vstavaná kamera – sledujte priebeh a zaznamenávajte tlač</h3>
+<p>Sledujte, ako vaše modely nadobúdajú tvar, aj keď nie ste priamo pri tlačiarni. Creality Ender-3 V3 Neo má vstavanú kameru, ktorá vám umožňuje sledovať proces tlače v reálnom čase. Vďaka tomu môžete proces diaľkovo sledovať a pozorovať, ako váš projekt postupne nadobúda tvar. Kamera tiež podporuje časozberné nahrávanie videa, čo vám umožňuje pôsobivo prezentovať celý proces tvorby modelu. Zohľadnené bolo aj súkromie – špeciálny posuvný kryt vám umožňuje fyzicky zakryť objektív, keď náhľad nepoužívate.</p>
+<p>
+<img alt="Muž pri stole držiaci guľu vedľa 3D tlačiarne Creality s fialovými prvkami a počítačovým monitorom" border="0" src="https://assets.innpro.pl/25461/33691/3-9b1788a0-0bce-4454-97a2-62ea623fd547.jpg"/>
+</p><h3>Jednoduchá údržba a pohodlná výmena trysky</h3>
+<p>Udržanie tlačiarne v dobrom stave nemusí zahŕňať časovo náročné údržbárske úlohy. Tlačiareň Ender-3 V3 Neo je vybavená tryskou s mechanizmom rýchlej výmeny, vďaka ktorému ju môžete odstrániť ručne bez použitia akéhokoľvek ďalšieho náradia. Toto riešenie zjednodušuje čistenie a bežnú údržbu a zároveň vám umožňuje efektívnejšie pripraviť zariadenie na nadchádzajúce projekty. Okrem toho tlačiareň ponúka funkciu obnovenia tlače po výpadku napájania, ktorá poskytuje dodatočnú ochranu počas tlače.</p><h3>Kompaktný dizajn, veľká tvorivá sloboda</h3>
+<p>Tlačiareň Creality Ender-3 V3 Neo sa ľahko zmestí do domácej dielne, študentskej izby alebo na pracovný stôl. Jej rozmery sú 498 × 370 × 471 mm a jej stavebný objem 220 × 220 × 220 mm vám umožňuje realizovať rôzne projekty bez toho, aby zaberala príliš veľa miesta. Tlačiareň využíva technológiu FFF, krokové motory na osiach X, Y a Z a tlačovú dosku potiahnutú epoxidovou živicou. Podporuje filament s priemerom 1,75 mm a výšky vrstiev v rozmedzí od 0,08 do 0,35 mm, čo vám umožňuje prispôsobiť nastavenia tlače podľa vášho projektu. Či už plánujete vyrobiť drobné šperky, mechanický uchopovač alebo praktický organizér na stôl, Ender-3 V3 Neo vám poskytuje priestor na to, aby ste svoje nápady pretavili do reality.</p>
+<p>
+<img alt="Pohár s nápojom a citrónom stojací na zelenom podtácku v tvare listu na drevenom stole" border="0" src="https://assets.innpro.pl/25461/33691/7-e815a4a0-7da4-4a48-8824-a85893e62f52.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>Základňa tlačiarne x1</li><li>Rám tlačiarne x1</li><li>Rám držiaka filamentu x1</li><li>Hriadeľ držiaka cievky filamentu x1</li><li>Napájací kábel x1</li><li>Skrutky M3 × 14 s valcovitou hlavou, imbusovým otvorom, pružnou podložkou a plochou podložkou x6</li><li>Skrutky M3 × 6 s imbusovým otvorom a plochou hlavou x3</li><li>Skrutky M4 × 16 s imbusovým otvorom a zapustenou hlavou x4</li><li>Svorka na káble × 2</li><li>Sada imbusových kľúčov × 1</li><li>PTFE trubica × 1</li><li>Čistiaca ihla na trysku × 1</li><li>Stručný návod na montáž × 1</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Creality</td></tr><tr><th>Model</th><td>Ender-3 V3 Neo</td></tr><tr><th>Technológia tlače</th><td>FFF (Fused Filament Fabrication)</td></tr><tr><th>Objem tlačovej komory</th><td>220 × 220 × 220 mm</td></tr><tr><th>Rozmery</th><td>498 × 370 × 471 mm</td></tr><tr><th>Čistá hmotnosť</th><td>7,7 kg</td></tr><tr><th>Rýchlosť tlače</th><td>Až 500 mm/s</td></tr><tr><th>Zrýchlenie</th><td>Až 8 000 mm/s²</td></tr><tr><th>Presnosť tlače</th><td>±0,1 mm (výška ≤100 mm)</td></tr><tr><th>Výška vrstvy</th><td>0,08–0,35 mm</td></tr><tr><th>Extrudér</th><td>Sprite 2</td></tr><tr><th>Priemer vlákna</th><td>1,75 mm</td></tr><tr><th>Priemer trysky</th><td>0,4 mm</td></tr><tr><th>Maximálna teplota trysky</th><td>300 °C</td></tr><tr><th>Maximálna teplota tlačovej dosky</th><td>100 °C</td></tr><tr><th>Povrch tlačovej dosky</th><td>Doska s epoxidovým povlakom</td></tr><tr><th>Vyrovnávanie tlačovej dosky</th><td>Plne automatické</td></tr><tr><th>Motory osí XYZ</th><td>Krokové motory</td></tr><tr><th>Podporované filamenty</th><td>PLA, PETG, TPU (90A alebo tvrdšie), ABS, ASA (odporúča sa kryt)</td></tr><tr><th>Detekcia zamotania vlákna</th><td>Áno</td></tr><tr><th>Obnovenie tlače po výpadku napájania</th><td>Áno</td></tr><tr><th>Automatické dopĺňanie vlákna</th><td>Áno, s CFS nano</td></tr><tr><th>Automatická identifikácia vlákna</th><td>Áno, s CFS nano</td></tr><tr><th>Podpora CFS nano</th><td>Áno</td></tr><tr><th>Kamera</th><td>Podpora časozberného nahrávania</td></tr><tr><th>Displej</th><td>2,85-palcový farebný dotykový displej</td></tr><tr><th>Indikátory stavu tlače</th><td>Áno</td></tr><tr><th>Pripojenie cez Wi-Fi</th><td>2,4 GHz</td></tr><tr><th>Prenos súborov</th><td>USB kľúč, Wi-Fi, Creality Cloud</td></tr><tr><th>Formát tlačového súboru</th><td>G-kód</td></tr><tr><th>Softvér</th><td>Creality Print 7.0 alebo novší</td></tr><tr><th>Podporované jazyky rozhrania</th><td>Viac ako 10, vrátane čínštiny, angličtiny, nemčiny a španielčiny</td></tr><tr><th>Napájanie</th><td>100–240 V striedavého prúdu, 50/60 Hz</td></tr><tr><th>Menovitý príkon</th><td>850 W</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88357_66300_pol_ebb2721a2d58f41be8c581ca7559537b" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/3d-tlaciarne/">3D tlačiarne</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[CREALITY]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>094904</CODE>
+<EAN>6977726815802</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > 3D tlačiarne]]></CATEGORY>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo - obrázok 1">https://b2b.innpro.sk/hpeciai/b47a4acd2d3f76c95ffdcfb0b4796680/66300_1_1.webp</IMAGE>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo - obrázok 2">https://b2b.innpro.sk/hpeciai/5764e54a7ab2fa45347712cdd8fb9bcc/66300_2_1.webp</IMAGE>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo - obrázok 3">https://b2b.innpro.sk/hpeciai/d290a100f21385e49490e991f25f08e1/66300_3_1.webp</IMAGE>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo - obrázok 4">https://b2b.innpro.sk/hpeciai/446325165989b42d270cb49c932fa139/66300_4_1.webp</IMAGE>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo - obrázok 5">https://b2b.innpro.sk/hpeciai/889618e9930ecd114e1158372679acf8/66300_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[CREALITY]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Technológia tlače]]></NAME>
+    <VALUE><![CDATA[FFF (Fused Filament Fabrication)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Objem tlačovej komory]]></NAME>
+    <VALUE><![CDATA[220 × 220 × 220 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery]]></NAME>
+    <VALUE><![CDATA[498 × 370 × 471 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Čistá hmotnosť]]></NAME>
+    <VALUE><![CDATA[7,7 kg]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rýchlosť tlače]]></NAME>
+    <VALUE><![CDATA[Až 500 mm/s]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zrýchlenie]]></NAME>
+    <VALUE><![CDATA[Až 8 000 mm/s²]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Presnosť tlače]]></NAME>
+    <VALUE><![CDATA[±0,1 mm (výška ≤100 mm)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výška vrstvy]]></NAME>
+    <VALUE><![CDATA[0,08–0,35 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Extrudér]]></NAME>
+    <VALUE><![CDATA[Sprite 2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Priemer vlákna]]></NAME>
+    <VALUE><![CDATA[1,75 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[850 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>13.15</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>254.00</PRICE_VAT>
+<PURCHASE_PRICE>179.58</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[3D tlačiareň Creality Ender-3 V3 Neo | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[3D tlačiareň Creality Ender-3 V3 Neo – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
+<NAME><![CDATA[3D tlačiareň Creality Ender-3 V3 Neo Combo]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[3D tlačiareň Creality Ender-3 V3 Neo Combo Začnite svoje dobrodružstvo s 3D tlačou a premeňte svoje vlastné nápady na skutočné predmety! 3D tlačiareň Creality Ender-3 V3 Neo Combo ponúka rýchlosť…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>3D tlačiareň Creality Ender-3 V3 Neo Combo</h3>
+<p>Začnite svoje dobrodružstvo s 3D tlačou a premeňte svoje vlastné nápady na skutočné predmety! 3D tlačiareň Creality Ender-3 V3 Neo Combo ponúka rýchlosť tlače až 500 mm/s, zrýchlenie až 8 000 mm/s² a objem tlačovej plošiny 220 × 220 × 220 mm, vďaka čomu je ideálna na výrobu dekorácií, príslušenstva alebo vzdelávacích projektov. Automatické vyrovnávanie tlačovej podložky, extrudér Sprite 2 a systém kompenzácie vibrácií pomáhajú dosahovať presné výsledky bez zložitého nastavovania. Zariadenie tiež podporuje flexibilné TPU vlákna (90A–95A), disponuje vstavanou kamerou a poskytuje prístup k komplexnej platforme Creality Cloud. Súčasťou sady je systém CFS nano, ktorý umožňuje automatické prepínanie medzi štyrmi vláknami a vytváranie viacfarebných výtlačkov bez nutnosti ručnej výmeny materiálu.</p>
+<p>
+<img alt="Biela 3D tlačiareň Creality tlačí model hory, pričom vedľa nej na stole stojí podávač cievok" border="0" src="https://assets.innpro.pl/25462/33693/2-d674d5c4-e83f-4b90-a8f7-b9df597a77de.jpg"/>
+</p><h3>Vysoká rýchlosť, pôsobivé výsledky</h3>
+<p>Pustite sa do svojich ďalších projektov bez dlhého čakania! Creality Ender-3 V3 Neo Combo dosahuje rýchlosť tlače až 500 mm/s a zrýchlenie až 8 000 mm/s², čo vám umožňuje efektívne vytvárať jednoduché diely aj zložité modely. Extrudér Sprite 2 zabezpečuje rovnomerné podávanie filamentu a poskytuje stabilný tok materiálu aj pri vysokorýchlostnej tlači. Vstavaný systém kompenzácie vibrácií minimalizuje nežiaduce artefakty, ako je zvlnenie alebo zdvojené kontúry. Výsledkom sú výtlačky s hladšími povrchmi, ostrejšími detailmi a esteticky príjemným povrchovým spracovaním.</p>
+<p>
+<img alt="Biela 3D tlačiareň Creality tlačí farebný model ponorky, vedľa nej je podávač cievok s farebnými cievkami" border="0" src="https://assets.innpro.pl/25462/33693/4-a4859fc4-f500-4168-95bd-66acaabeaf73.jpg"/>
+</p><h3>Ľahký začiatok bez zložitej kalibrácie</h3>
+<p>Na začatie tvorby vlastných modelov nepotrebujete žiadne skúsenosti s 3D tlačou. Ender-3 V3 Neo Combo využíva plne automatický systém vyrovnávania tlačovej dosky, ktorý eliminuje potrebu ručnej kalibrácie a pomáha zabezpečiť správnu prvú vrstvu tlače. Zariadenie disponuje aj automatickou detekciou zamotania vlákna a problémov s podávaním. Ak sa vyskytne problém, tlačiareň sa pozastaví a upozorní vás na problém, čo vám umožní ho vyriešiť a následne pokračovať v tlači.</p><h3>Tlačte vo štyroch farbách s CFS nano</h3>
+<p>Chcete vytvárať viacfarebné figúrky, dekorácie a veľmi detailné modely? Creality Ender-3 V3 Neo Combo je vybavená systémom CFS nano, ktorý umožňuje automatické prepínanie medzi až štyrmi vláknami počas tlače. Vďaka tomu môžete oživiť farebné projekty bez nutnosti ručného prepínania vlákien v každej fáze tlače. Systém tiež podporuje automatickú detekciu vlákna a prechod na ďalšiu cievku, čo pomáha minimalizovať prerušenia tlače. Okrem toho technológia RFID automaticky rozpoznáva vlákna Creality vybavené príslušnými štítkami a funkcia detekcie konca vlákna zabraňuje neočakávaným prerušeniam vašich projektov. Vďaka štyrom slotom na cievky môžete pohodlne pripraviť rôzne farby a sústrediť sa na tvorbu svojich modelov.</p>
+<p>
+<img alt="Ruka držiaca fialovo-zelenú textúrovanú guľu s výstupkami na pozadí zelených listov a oblohy" border="0" src="https://assets.innpro.pl/25462/33693/6-9c97685a-3285-4db5-8887-46d1f2ec8ae1.jpg"/>
+</p><h3>Viac možností s rôznymi vláknami</h3>
+<p>Vytvárajte ako tuhé funkčné diely, tak aj ohybné doplnky. Creality Ender-3 V3 Neo Combo podporuje vlákna PLA, PETG a TPU s tvrdosťou 90A alebo vyššou, ako aj materiály ABS a ASA, pre ktoré sa odporúča dodatočný uzavretý kryt tlačiarne. Zvlášť zaujímavé možnosti ponúkajú pružné TPU vlákna. Materiál 90A vám umožňuje vytvárať okrem iného pružné prívesky na kľúče, antistresové hračky a mäkké podložky pod poháre, zatiaľ čo TPU 95A je ideálny na výrobu ochranných puzdier, pružných sponiek a funkčných dielov. Maximálna teplota trysky je 300 °C a teplota tlačovej dosky 100 °C, čo zaisťuje optimálne podmienky na prácu s podporovanými materiálmi.</p>
+<p>
+<img alt="Biela 3D tlačiareň Creality s modelom ponorky a podávačom cievok na stole" border="0" src="https://assets.innpro.pl/25462/33693/4-746fb0be-7f79-43be-9bec-4744a6010970.jpg"/>
+</p><h3>Creality Cloud – Viac ako milión modelov na dosah ruky</h3>
+<p>Chýbajú vám nápady na ďalší projekt? Platforma Creality Cloud poskytuje prístup ku knižnici s viac ako miliónom 3D modelov pripravených na tlač. Nájdete medzi nimi dekorácie, zberateľské predmety, praktické organizéry, doplnky na nosenie a komponenty pre vzdelávacie projekty. Pomocou nástrojov CubeMe a SnapForm môžete tiež prevádzať fotografie na 3D modely, čo vám otvára ďalšie možnosti pri vytváraní personalizovaných predmetov. Je to skvelý spôsob, ako rozvíjať svoje zručnosti, experimentovať s novými nápadmi a objavovať nové možnosti využitia 3D tlače.</p><h3>Pohodlné riadenie tlače z telefónu</h3>
+<p>Sledujte svoje projekty bez toho, aby ste museli neustále stáť pri tlačiarni. Ender-3 V3 Neo Combo podporuje pripojenie cez Wi-Fi 2,4 GHz a platformu Creality Cloud, vďaka čomu môžete spúšťať tlač, kontrolovať jej priebeh a ovládať zariadenie pomocou smartfónu. Pripravte si modely v softvéri Creality Print alebo v aplikácii Creality Cloud a následne ich odošlite do tlačiarne. Súbory môžete prenášať aj pomocou USB kľúča. Okrem toho je zariadenie vybavené 2,85-palcovým farebným dotykovým displejom, ktorý uľahčuje ovládanie a sledovanie procesu tlače.</p>
+<p>
+<img alt="Rez hlavou 3D tlačiarne znázorňujúci ozubený mechanizmus, zelené vlákno a trysku na kovovej koľajnici" border="0" src="https://assets.innpro.pl/25462/33693/5-dda8a838-27dd-4d1f-a0e9-e877c90fd0c4.jpg"/>
+</p><h3>Vstavaná kamera – sledujte priebeh a zaznamenávajte výtlačky</h3>
+<p>Sledujte, ako vaše modely nadobúdajú tvar, aj keď nie ste priamo pri tlačiarni. Creality Ender-3 V3 Neo Combo je vybavená vstavanou kamerou, ktorá vám umožňuje sledovať proces tlače v reálnom čase. Vďaka tomu môžete proces diaľkovo sledovať a pozorovať, ako váš projekt postupne nadobúda tvar. Kamera tiež podporuje časozberné nahrávanie videa, čo vám umožňuje pôsobivo prezentovať celý proces tvorby modelu. Zohľadnené bolo aj súkromie – špeciálny posuvný kryt vám umožňuje fyzicky zakryť objektív, keď náhľad nepoužívate.</p>
+<p>
+<img alt="Muž pri stole držiaci guľu vedľa 3D tlačiarne Creality s fialovými prvkami a počítačovým monitorom" border="0" src="https://assets.innpro.pl/25462/33693/3-f9534846-a186-4f2c-a0f5-7d6bf266186d.jpg"/>
+</p><h3>Jednoduchá údržba a pohodlná výmena trysky</h3>
+<p>Udržanie tlačiarne v dobrom stave nemusí zahŕňať časovo náročné údržbárske úlohy. Model Ender-3 V3 Neo Combo je vybavený tryskou s mechanizmom rýchlej výmeny, ktorý vám umožňuje odstrániť ju ručne bez použitia akéhokoľvek dodatočného náradia. Táto konštrukcia zjednodušuje čistenie a bežnú údržbu a zároveň vám umožňuje efektívnejšie pripraviť tlačiarňu na nadchádzajúce projekty. Okrem toho tlačiareň ponúka funkciu obnovenia tlače po výpadku napájania, ktorá poskytuje dodatočnú ochranu počas tlače.</p><h3>Kompaktný dizajn, veľká tvorivá sloboda</h3>
+<p>Tlačiareň Creality Ender-3 V3 Neo Combo sa ľahko zmestí do domácej dielne, študentskej izby alebo na pracovný stôl. Jej rozmery sú 498 × 370 × 471 mm a jej stavebný objem 220 × 220 × 220 mm vám umožňuje realizovať rôzne projekty bez toho, aby zaberala príliš veľa miesta. Zariadenie využíva technológiu FFF, krokové motory na osiach XYZ a tlačovú dosku potiahnutú epoxidovou živicou. Podporuje filament s priemerom 1,75 mm a výšky vrstiev v rozmedzí od 0,08 do 0,35 mm, čo vám umožňuje prispôsobiť nastavenia tlače podľa vášho projektu. Či už plánujete vyrobiť drobné šperky, mechanický uchopovač alebo praktický organizér na stôl, Ender-3 V3 Neo Combo vám poskytuje priestor na to, aby ste svoje nápady pretavili do reality.</p>
+<p>
+<img alt="Pohár s nápojom a citrónom stojací na zelenom podtácku v tvare listu na drevenom stole" border="0" src="https://assets.innpro.pl/25462/33693/7-69c26ed0-1d3a-416a-90cd-7f1d532c4661.jpg"/>
+</p>
+<h3>Súčasťou balenia je</h3>
+<ul class="list-disc pl-5"><li>Základňa tlačiarne x1</li><li>Rám tlačiarne x1</li><li>Držiaky cievok s vláknom x4</li><li>Modul podávača viacfarebného filamentu CFS nano x1</li><li>Montážna konzola modulu podávača filamentu x1</li><li>Montážna základňa x1</li><li>Napájací kábel x1</li><li>Skrutka s imbusovou hlavou M3 × 14 s pružnou podložkou a plochou podložkou x6</li><li>Skrutka s imbusovou hlavou M3 × 6 x3</li><li>Šrauby M4 × 16 s vnútorným šesťhranom a zapustenou hlavou × 4</li><li>Samorezné šrauby M3 × 10 s vnútorným šesťhranom × 8 (vrátane 2 náhradných)</li><li>Svorka na kábel × 2</li><li>Dlhá svorka na kábel × 1</li><li>Hrebeň na káble × 1</li><li>Sada imbusových kľúčov × 1</li><li>Krátka PTFE rúrka × 1</li><li>Dlhá PTFE rúrka x4</li><li>Čistiaca kefa x1</li><li>Čistiaca ihla na trysku x1</li><li>Stručný návod na montáž x1</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3>3D tlačiareň Creality Ender-3 V3 Neo Combo</h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Creality</td></tr><tr><th>Model</th><td>Ender-3 V3 Neo Combo</td></tr><tr><th>Technológia tlače</th><td>FFF (Fused Filament Fabrication)</td></tr><tr><th>Objem tlačovej komory</th><td>220 × 220 × 220 mm</td></tr><tr><th>Rozmery</th><td>498 × 370 × 471 mm</td></tr><tr><th>Čistá hmotnosť</th><td>7,7 kg (základný model) / 9,54 kg (Combo)</td></tr><tr><th>Rýchlosť tlače</th><td>Až 500 mm/s</td></tr><tr><th>Zrýchlenie</th><td>Až 8 000 mm/s²</td></tr><tr><th>Presnosť tlače</th><td>±0,1 mm (výška ≤100 mm)</td></tr><tr><th>Výška vrstvy</th><td>0,08–0,35 mm</td></tr><tr><th>Extrudér</th><td>Sprite 2</td></tr><tr><th>Priemer vlákna</th><td>1,75 mm</td></tr><tr><th>Priemer trysky</th><td>0,4 mm</td></tr><tr><th>Maximálna teplota trysky</th><td>300 °C</td></tr><tr><th>Maximálna teplota tlačovej dosky</th><td>100 °C</td></tr><tr><th>Povrch tlačovej dosky</th><td>Doska s epoxidovým povlakom</td></tr><tr><th>Vyrovnávanie tlačovej dosky</th><td>Plne automatické</td></tr><tr><th>Motory osí XYZ</th><td>Krokové motory</td></tr><tr><th>Podporované filamenty</th><td>PLA, PETG, TPU (90A alebo tvrdšie), ABS, ASA (odporúča sa tlač v uzavretom priestore)</td></tr><tr><th>Detekcia zamotania filamentu</th><td>Áno</td></tr><tr><th>Obnovenie tlače po výpadku napájania</th><td>Áno</td></tr><tr><th>Automatické dopĺňanie filamentu</th><td>Áno, s CFS nano</td></tr><tr><th>Automatická identifikácia filamentu</th><td>Áno, s CFS nano</td></tr><tr><th>Podpora CFS nano</th><td>Áno</td></tr><tr><th>Kamera</th><td>Podpora časozberného nahrávania</td></tr><tr><th>Displej</th><td>2,85-palcový farebný dotykový displej</td></tr><tr><th>Indikátory stavu tlače</th><td>Áno</td></tr><tr><th>Pripojenie cez Wi-Fi</th><td>2,4 GHz</td></tr><tr><th>Prenos súborov</th><td>USB kľúč, Wi-Fi, Creality Cloud</td></tr><tr><th>Formáty tlačových súborov</th><td>G-kód</td></tr><tr><th>Softvér</th><td>Creality Print 7.0 alebo novší</td></tr><tr><th>Podporované jazyky rozhrania</th><td>Viac ako 10, vrátane čínštiny, angličtiny, nemčiny a španielčiny</td></tr><tr><th>Napájanie</th><td>100–240 V striedavého prúdu, 50/60 Hz</td></tr><tr><th>Menovitý príkon</th><td>850 W</td></tr>
+</tbody>
+</table><p> </p>
+<h3>Modul CFS nano</h3>
+<table>
+<tbody>
+<tr><th>Rozmery</th><td>360 × 230 × 348 mm</td></tr><tr><th>Čistá hmotnosť</th><td>1,8 kg</td></tr><tr><th>Počet slotov na cievky</th><td>4</td></tr><tr><th>Počet podporovaných farieb</th><td>4</td></tr><tr><th>Menovitý výkon</th><td>15 W</td></tr><tr><th>Typ pripojenia</th><td>Káblové</td></tr><tr><th>Napájanie</th><td>24 V DC (z tlačiarne)</td></tr><tr><th>Indikátor stavu</th><td>Áno</td></tr><tr><th>Automatická výmena filamentu</th><td>Áno</td></tr><tr><th>Detekcia zamotania filamentu</th><td>Áno</td></tr><tr><th>Detekcia vyčerpania filamentu</th><td>Áno</td></tr><tr><th>Rozpoznávanie filamentu pomocou RFID</th><td>Automatické rozpoznávanie filamentu Creality s RFID štítkami v každom zo štyroch slotov na cievky</td></tr><tr><th>Priemer filamentu</th><td>1,75 mm</td></tr><tr><th>Kompatibilný vnútorný priemer cievky</th><td>52–55 mm</td></tr><tr><th>Maximálny vonkajší priemer cievky</th><td>202 mm</td></tr><tr><th>Kompatibilná šírka cievky</th><td>42–68 mm</td></tr><tr><th>Maximálna hmotnosť cievky</th><td>1 kg</td></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88358_66301_pol_1c59c15a511073d09d7b1a04f2a3ece4" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/3d-tlaciarne/">3D tlačiarne</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[CREALITY]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>094905</CODE>
+<EAN>6977726815819</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály > 3D tlačiarne]]></CATEGORY>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba]]></CATEGORY>
+  <CATEGORY><![CDATA[3D tlač a digitálna výroba > 3D tlačiarne a materiály]]></CATEGORY>
+</CATEGORIES>
+<HEUREKA_CATEGORY_ID>6216</HEUREKA_CATEGORY_ID>
+<IMAGES>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo Combo - obrázok 1">https://b2b.innpro.sk/hpeciai/31b7a8e798f08993ea035301d5dfe48f/66301_1_1.webp</IMAGE>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo Combo - obrázok 2">https://b2b.innpro.sk/hpeciai/cb4b152f4292379c83278831d7c67990/66301_2_1.webp</IMAGE>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo Combo - obrázok 3">https://b2b.innpro.sk/hpeciai/e945c59a620d268b6e4c4422c5694639/66301_3_1.webp</IMAGE>
+  <IMAGE description="3D tlačiareň Creality Ender-3 V3 Neo Combo - obrázok 4">https://b2b.innpro.sk/hpeciai/2d9e89f20876ae17ffe4c1c28c6a4c31/66301_4_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[CREALITY]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Technológia tlače]]></NAME>
+    <VALUE><![CDATA[FFF (Fused Filament Fabrication)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Objem tlačovej komory]]></NAME>
+    <VALUE><![CDATA[220 × 220 × 220 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozmery]]></NAME>
+    <VALUE><![CDATA[498 × 370 × 471 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Čistá hmotnosť]]></NAME>
+    <VALUE><![CDATA[7,7 kg (základný model) / 9,54 kg (Combo)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rýchlosť tlače]]></NAME>
+    <VALUE><![CDATA[Až 500 mm/s]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Zrýchlenie]]></NAME>
+    <VALUE><![CDATA[Až 8 000 mm/s²]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Presnosť tlače]]></NAME>
+    <VALUE><![CDATA[±0,1 mm (výška ≤100 mm)]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výška vrstvy]]></NAME>
+    <VALUE><![CDATA[0,08–0,35 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Extrudér]]></NAME>
+    <VALUE><![CDATA[Sprite 2]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Priemer vlákna]]></NAME>
+    <VALUE><![CDATA[1,75 mm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[850 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Wi-Fi]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>12.06</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<PRICE_VAT>360.50</PRICE_VAT>
+<PURCHASE_PRICE>254.70</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[3D tlačiareň Creality Ender-3 V3 Neo Combo | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[3D tlačiareň Creality Ender-3 V3 Neo Combo – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Autokamera DDPAI MINI Pro 3K Wi-Fi 1CH]]></NAME>
@@ -644291,7 +644853,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>TerraMaster</td></tr><tr><th>Model</th><td>D8 Hybrid 2</td></tr><tr><th>Typ zariadenia</th><td>DAS skriňa</td></tr><tr><th>Počet pozícií</th><td>8 (4 × SATA + 4 × M.2 NVMe)</td></tr><tr><th>Podporované disky SATA</th><td>3,5&quot; HDD, 2,5&quot; HDD, 2,5&quot; SSD</td></tr><tr><th>Podporované disky M.2</th><td>SSD PCIe NVMe 2280</td></tr><tr><th>Maximálna surová kapacita</th><td>152 TB (4 × 30 TB HDD + 4 × 8 TB M.2 SSD)</td></tr><tr><th>Prevádzkový režim diskov</th><td>Jeden disk (bez hardvérového RAID)</td></tr><tr><th>Rozhranie</th><td>USB 3.2 Gen 2 Type-C</td></tr><tr><th>Maximálna šírka pásma</th><td>10 Gb/s</td></tr><tr><th>Maximálna rýchlosť čítania (1 × SSD M.2)</th><td>1020 MB/s</td></tr><tr><th>Maximálna rýchlosť zápisu (1 × SSD M.2)</th><td>980 MB/s</td></tr><tr><th>Maximálna rýchlosť čítania (1 × SSD SATA)</th><td>560 MB/s</td></tr><tr><th>Maximálna rýchlosť zápisu (1 × SSD SATA)</th><td>520 MB/s</td></tr><tr><th>Maximálna rýchlosť čítania (4 × SATA SSD)</th><td>1016 MB/s</td></tr><tr><th>Maximálna rýchlosť zápisu (4 × SATA SSD)</th><td>960 MB/s</td></tr><tr><th>Podporované operačné systémy</th><td>Windows, macOS, Linux</td></tr><tr><th>Podporované súborové systémy</th><td>NTFS, APFS, FAT32, EXT4, exFAT</td></tr><tr><th>Kompatibilita s NAS</th><td>TerraMaster TOS 5 a TOS 6, ako aj kompatibilné serverové prostredia</td></tr><tr><th>Správa napájania</th><td>TerraMaster TPM (Úspora energie / Aktívny režim)</td></tr><tr><th>Režim spánku disku</th><td>Áno</td></tr><tr><th>Chladenie</th><td>Ventilátor FDB 120 × 120 × 25 mm</td></tr><tr><th>Ovládanie ventilátora</th><td>Inteligentné riadenie otáčok</td></tr><tr><th>Hlučnosť</th><td>21 dB(A)</td></tr><tr><th>Napájanie</th><td>DC 12 V</td></tr><tr><th>Výstupný výkon napájacieho zdroja</th><td>90 W</td></tr><tr><th>Vstupné napätie</th><td>100–240 V AC, 50/60 Hz</td></tr><tr><th>Spotreba energie pri operáciách čítania/zapisovania</th><td>40,8 W (4 × pevné disky Seagate 22 TB ST22000NM001E)</td></tr><tr><th>Spotreba energie v režime spánku</th><td>9,8 W (4 × pevné disky Seagate 22 TB ST22000NM001E)</td></tr><tr><th>Prevádzková teplota</th><td>0–40 °C</td></tr><tr><th>Skladovacia teplota</th><td>–20 °C až 60 °C</td></tr><tr><th>Relatívna vlhkosť</th><td>5–95 %</td></tr><tr><th>Rozmery</th><td>222 × 179 × 154 mm</td></tr><tr><th>Hmotnosť</th><td>1,9 kg</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88644_66506_pol_db04efa44d39ec9773c8e638e9cd4ff2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/externe-disky-2/">Externé disky</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Terramaster]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -644411,7 +644973,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>TerraMaster</td></tr><tr><th>Model</th><td>F2-213</td></tr><tr><th>Typ zariadenia</th><td>NAS súborový server</td></tr><tr><th>Procesor</th><td>Rockchip RK3576, 8-jadrový</td></tr><tr><th>Architektúra procesora</th><td>4 × Cortex-A72 + 4 × Cortex-A53</td></tr><tr><th>Výrobný proces procesora</th><td>8 nm</td></tr><tr><th>AI akcelerátor</th><td>6 TOPS NPU</td></tr><tr><th>RAM</th><td>4 GB LPDDR5</td></tr><tr><th>Počet pozícií pre disky</th><td>2</td></tr><tr><th>Podporované disky</th><td>3,5&quot; SATA HDD, 2,5&quot; SATA HDD, 2,5&quot; SATA SSD</td></tr><tr><th>Maximálna kapacita diskov</th><td>64 TB (2 × 32 TB)</td></tr><tr><th>Podporované režimy RAID</th><td>TRAID, Single, JBOD, RAID 0, RAID 1</td></tr><tr><th>Disky s možnosťou výmeny za chodu</th><td>Áno</td></tr><tr><th>Operačný systém</th><td>TOS 7</td></tr><tr><th>Súborové systémy interných diskov</th><td>Btrfs, EXT4</td></tr><tr><th>Súborové systémy externých diskov</th><td>EXT3, EXT4, NTFS, FAT32, HFS+, Btrfs</td></tr><tr><th>Port LAN</th><td>1 × RJ-45 2,5 GbE (2500/1000/100 Mb/s)</td></tr><tr><th>Porty USB-A</th><td>2 × USB 5 Gb/s</td></tr><tr><th>Port USB-C</th><td>1 × USB 5 Gb/s</td></tr><tr><th>Čítačka kariet</th><td>microSD (SD 3.0, UHS-I, až 104 MB/s)</td></tr><tr><th>Port HDMI</th><td>1 × HDMI (na zobrazovanie systémových správ a príkazov)</td></tr><tr><th>Hardvérové dekódovanie videa</th><td>H.265, H.264, VP9, AV1</td></tr><tr><th>Maximálne rozlíšenie dekódovania</th><td>4K, až 60 snímok za sekundu</td></tr><tr><th>Podporované protokoly</th><td>SMB, AFP, NFS, FTP, SFTP, WebDAV, HTTPS, SSH, iSCSI, SNMP</td></tr><tr><th>Podporované počítačové systémy</th><td>Windows, macOS, Linux</td></tr><tr><th>Podporované mobilné systémy</th><td>Android 10.0 alebo novší, iOS 14.0 alebo novší</td></tr><tr><th>Sieťové funkcie</th><td>DLNA, VPN, DDNS, Wake on LAN, TNAS.online</td></tr><tr><th>Funkcie zálohovania</th><td>TerraSync, Duple Backup, CloudSync, Rsync, Time Machine, snímky súborového systému</td></tr><tr><th>Bezpečnosť</th><td>Šifrovanie AES, firewall, automatické uzamknutie účtu, OTP, HyperLock WORM</td></tr><tr><th>Podpora Dockeru</th><td>Áno</td></tr><tr><th>Ventilátor</th><td>1 × 92 × 92 × 25 mm</td></tr><tr><th>Režimy ventilátora</th><td>Smart, Vysoký, Stredný, Nízky</td></tr><tr><th>Hlučnosť</th><td>22,9 dB(A) v pohotovostnom režime s dvoma diskami</td></tr><tr><th>Spotreba energie</th><td>približne 20 W počas operácií čítania/zapisovania s dvoma testovacími diskami</td></tr><tr><th>Výkon napájacieho zdroja</th><td>60 W</td></tr><tr><th>Vstupné napätie napájacieho zdroja</th><td>100–240 V AC, 50/60 Hz</td></tr><tr><th>Napájanie servera</th><td>12 V DC</td></tr><tr><th>Prevádzková teplota</th><td>0–40 °C</td></tr><tr><th>Rozmery</th><td>105 × 155 × 222 mm</td></tr><tr><th>Hmotnosť</th><td>1,05 kg</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88649_66507_pol_74df70cafe8ff98f25c59ec97e7ed38b" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/sietove-zariadenia-2/">NAS servery a sieťové úložiská</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Terramaster]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -644539,7 +645101,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>TerraMaster</td></tr><tr><th>Model</th><td>F4-213</td></tr><tr><th>Typ zariadenia</th><td>NAS server, 4 pozície</td></tr><tr><th>Procesor</th><td>Rockchip RK3576, 8 jadier (4 × Cortex-A72 + 4 × Cortex-A53)</td></tr><tr><th>Výrobný proces procesora</th><td>8 nm</td></tr><tr><th>AI akcelerátor</th><td>NPU, 6 TOPS</td></tr><tr><th>RAM</th><td>4 GB LPDDR5</td></tr><tr><th>Počet pozícií pre disky</th><td>4</td></tr><tr><th>Podporované disky</th><td>3,5″ SATA HDD, 2,5″ SATA HDD, 2,5″ SATA SSD</td></tr><tr><th>Maximálna kapacita diskov</th><td>128 TB (4 × 32 TB, pred RAID)</td></tr><tr><th>Podporované konfigurácie diskov</th><td>Jeden disk, JBOD, RAID 0, 1, 5, 6, 10, TRAID, TRAID+</td></tr><tr><th>Disky s možnosťou výmeny za chodu</th><td>Áno (hot-swap)</td></tr><tr><th>Sieťový port</th><td>1 × RJ-45 2,5 GbE (100/1000/2500 Mb/s)</td></tr><tr><th>Porty USB</th><td>2 × USB-A 5 Gb/s, 1 × USB-C 5 Gb/s</td></tr><tr><th>Ďalšie konektory</th><td>HDMI (na zobrazenie systémových kódov a príkazov; nepodporuje prehrávanie videa), čítačka kariet microSD UHS-I</td></tr><tr><th>Dekódovanie videa</th><td>H.265, H.264, VP9, AV1, až 4K/60 snímok za sekundu</td></tr><tr><th>Operačný systém</th><td>TerraMaster TOS 7</td></tr><tr><th>Súborové systémy interných diskov</th><td>Btrfs, EXT4</td></tr><tr><th>Súborové systémy externých diskov</th><td>EXT3, EXT4, NTFS, FAT32, HFS+, Btrfs</td></tr><tr><th>Protokoly na zdieľanie súborov</th><td>SMB, AFP, NFS, FTP, SFTP, WebDAV</td></tr><tr><th>Podporované klientske systémy</th><td>Windows, macOS, Linux</td></tr><tr><th>Podporované mobilné operačné systémy</th><td>Android 10.0 alebo novší, iOS 14.0 alebo novší</td></tr><tr><th>Bezpečnosť</th><td>Šifrovanie AES, OTP, PAM, firewall, blokovanie IP adries, ochrana proti DoS, snímky, HyperLock-WORM</td></tr><tr><th>Podpora používateľských účtov</th><td>až 512 lokálnych účtov</td></tr><tr><th>Podpora kontajnerov</th><td>Docker, Docker Compose, Portainer</td></tr><tr><th>Ventilátor</th><td>1 × 120 × 120 × 25 mm</td></tr><tr><th>Režimy ventilátora</th><td>Inteligentný, vysoká, stredná a nízka rýchlosť</td></tr><tr><th>Hlučnosť</th><td>21,9 dB(A) v režime pohotovosti disku</td></tr><tr><th>Spotreba energie</th><td>30 W počas operácií čítania/zapisovania, 7,5 W počas režimu hibernácie disku (pre testovaciu konfiguráciu so štyrmi 4 TB diskami Seagate)</td></tr><tr><th>Napájací zdroj</th><td>72 W</td></tr><tr><th>Napájací vstup</th><td>100–240 V AC, 50/60 Hz</td></tr><tr><th>Rozmery</th><td>155 × 155 × 222 mm</td></tr><tr><th>Hmotnosť</th><td>1,33 kg</td></tr><tr><th>Prevádzková teplota</th><td>0–40 °C</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88650_66508_pol_423b988b49ff8e6f0a4d9826749f3271" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/sietove-zariadenia-2/">NAS servery a sieťové úložiská</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Terramaster]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -647303,8 +647865,46 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Smart Sensor MOES 103WT0 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Smart lock MOES WDL-R5-2]]></NAME>
-<DESCRIPTION><![CDATA[
+<NAME><![CDATA[Inteligentný zámok MOES WDL-R5-2]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Inteligentný dverový zámok MOES WDL-R5-2 Zabezpečte si svoj domov a zabudnite na nosenie kľúčov vďaka inteligentnému zámku MOES WDL-R5-2. Zariadenie ponúka až 6 spôsobov odomknutia dverí – pomocou…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Inteligentný dverový zámok MOES WDL-R5-2</h3>
+<p>Zabezpečte si svoj domov a zabudnite na nosenie kľúčov vďaka inteligentnému zámku MOES WDL-R5-2. Zariadenie ponúka až 6 spôsobov odomknutia dverí – pomocou odtlačku prsta, aplikácie Smart Life, prístupového kódu, IC karty, mechanického kľúča alebo technológie NFC. Polovodičová čítačka odtlačkov prstov, výkonný motor a pokročilý riadiaci systém zaisťujú plynulú prevádzku, zatiaľ čo ochrana proti elektromagnetickému rušeniu zvyšuje spoľahlivosť systému. Zámok dokáže uložiť až 110 odtlačkov prstov a 400 prístupových kódov a vďaka integrácii s ekosystémom Tuya vám umožňuje pohodlne spravovať prístup do vášho domu.</p>
+<p>
+<img alt="Čierny inteligentný zámok na bielych dverách s numerickou klávesnicou, snímačom odtlačkov prstov a nápisom „Card“." border="0" src="https://assets.innpro.pl/26009/34348/5-6914ecd2-e83b-4739-9af3-28403b7d092c.jpg"/>
+</p><h3>Šesť spôsobov odomknutia dverí</h3>
+<p>Vyberte si spôsob odomknutia, ktorý najlepšie vyhovuje vašim potrebám. Zámok MOES WDL-R5-2 vám umožňuje odomknúť dvere pomocou odtlačku prsta, prístupového kódu, IC karty, technológie NFC, mobilnej aplikácie alebo tradičného kľúča. Polovodičový snímač umiestnený na prednej strane zabezpečuje efektívne rozpoznávanie odtlačkov prstov a mechanizmus podporuje biometrickú identifikáciu na oboch stranách zámku. Miera falošných odmietnutí je len 0,1 %, čo minimalizuje riziko, že oprávnenému používateľovi bude nesprávne zamietnutý prístup.</p>
+<p>
+<img alt="Koláž zobrazujúca ruku zadávajúcu kód na zámku a smartfón s textom „Remote dynamic password“ (Diaľkové dynamické heslo) na diaľkové otváranie dverí." border="0" src="https://assets.innpro.pl/26009/34348/6-d194294a-9e6a-42c6-8250-97738379ad65.jpg"/>
+</p><h3>Spravujte prístup prostredníctvom aplikácie Smart Life</h3>
+<p>S aplikáciou Smart Life získate pohodlný prístup k funkciám zámku priamo zo svojho smartfónu. Môžete si prezrieť históriu odomknutia dverí za posledných 6 mesiacov a skontrolovať, kedy a ako bol udelený prístup do miestnosti. Aplikácia vám tiež umožňuje spravovať používateľov, pridávať členov rodiny a udeľovať prístup ďalším osobám, s ktorými chcete zámok zdieľať. Vďaka tomu je jednoduchšie kontrolovať, kto má prístup do vášho domu.</p>
+<p>
+<img alt="Ruka držiaca smartfón, na ktorom je zobrazený zväčšený pohľad na históriu otvorenia zámku s textom „Odomknutie dynamickým heslom“ a časmi 13:55 a 13:53." border="0" src="https://assets.innpro.pl/26009/34348/1-6eae90c9-58da-4b26-9cf3-0aba217871bb.jpg"/>
+</p><h3>Diaľkové odomknutie a dočasné prístupové kódy</h3>
+<p>Zámok MOES WDL-R5-2 ponúka funkcie, ktoré uľahčujú udeľovanie prístupu iným osobám. V aplikácii Smart Life môžete generovať dočasné prístupové kódy s konkrétnym časom začiatku a konca platnosti, čo je užitočné napríklad pri návšteve hostí. Zámok tiež podporuje požiadavky na diaľkové odomknutie a otvorenie dverí prostredníctvom aplikácie po vykonaní potrebných krokov. Ak chcete odoslať požiadavku na smartfón, stačí stlačiť tlačidlá 9 a # na zámku. To vám umožňuje spravovať prístup bez toho, aby ste museli priamo používať snímač odtlačkov prstov alebo kľúč.</p>
+<p>
+<img alt="Ruky držiace biely smartfón s aplikáciou zámku, na ktorom sú zobrazené označenia „Dočasné heslo“, „Platné“ a modrú ikonu Wi-Fi." border="0" src="https://assets.innpro.pl/26009/34348/3-c2c7318c-2735-4ccf-ac1a-4c278bf4a4e4.jpg"/>
+</p><h3>Spoľahlivá prevádzka a ďalšie bezpečnostné funkcie</h3>
+<p>Plynulú prevádzku zámku zabezpečuje vysokovýkonný riadiaci systém R5-DT SMART, ktorý podporuje rýchle spracovanie údajov a prevádzku dostupných funkcií. Zariadenie je tiež vybavené ochranou proti elektromagnetickému rušeniu, čo zvyšuje odolnosť systému voči nežiaducim vonkajším vplyvom. Okrem toho je uzamykací mechanizmus poháňaný výkonným motorom a vďaka duálnej čítačke odtlačkov prstov je možné zámok ľahko používať z oboch strán dverí.</p>
+<p>
+<img alt="Súprava inteligentného zámku pozostávajúca z čierneho panelu s nápisom „Karta“ a strieborného vnútorného modulu s gombíkom." border="0" src="https://assets.innpro.pl/26009/34348/7-6d7d38ff-f0b9-4118-8d59-209d5fda99a2.jpg"/>
+</p><h3>Niekoľko možností prístupu aj v prípade vybitých batérií</h3>
+<p>Zámok je napájaný štyrmi batériami typu AAA a stav ich nabitia môžete skontrolovať v aplikácii Smart Life. Vďaka tomu je jednoduchšie sledovať stav napájania a v dostatočnom predstihu sa pripraviť na výmenu batérií. Ak sa batérie vybijú, k dispozícii je USB port, ktorý zariadeniu poskytuje núdzové napájanie. Ďalším bezpečnostným opatrením je tradičný mechanický kľúč, ktorý vám umožňuje otvoriť dvere bez nutnosti používať elektronické metódy odomykania.</p>
+<p>
+<img alt="Ruka zadávajúca kód na podsvietenej klávesnici čierneho inteligentného zámku s nápisom „Karta“ na hnedých dverách." border="0" src="https://assets.innpro.pl/26009/34348/2-f3d49c3f-ae96-47ac-9d33-9f226375dc07.jpg"/>
+</p>
+<h3>Súčasťou balenia</h3>
+<ul>
+<li>Predný panel</li><li>Zadný panel</li><li>Zámok</li><li>Montážne príslušenstvo</li><li>Zámková vložka bezpečnostnej triedy C</li><li>Zámková zástrčka</li><li>IC karta x2</li><li>Návod na použitie</li>
+</ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>Moes</td></tr><tr><th>Model</th><td>WDL-R5-2</td></tr><tr><th>Príkon v pohotovostnom režime</th><td>≤50 µA</td></tr><tr><th>Príkon pri prevádzke</th><td>≤180 mA</td></tr><tr><th>Maximálny počet správcov</th><td>9</td></tr><tr><th>Kapacita pamäte odtlačkov prstov</th><td>100</td></tr><tr><th>Celková kapacita pamäte pre odtlačky prstov, heslá a karty</th><td>300</td></tr><tr><th>Čítačka odtlačkov prstov</th><td>Polovodičová</td></tr><tr><th>Doba rozpoznania odtlačku prsta</th><td>≤1 s</td></tr><tr><th>Uhol rozpoznania odtlačku prsta</th><td>360°</td></tr><tr><th>Miera falošného odmietnutia</th><td>≤0,1 %</td></tr><tr><th>Miera falošnej akceptácie</th><td>≤0,0001 %</td></tr><tr><th>Doba aktivácie</th><td>≤0,5 s</td></tr><tr><th>Napájanie</th><td>6 V DC</td></tr><tr><th>Záložné napájanie</th><td>5 V DC</td></tr><tr><th>Prevádzková teplota</th><td>Od -25 °C do 60 °C</td></tr><tr><th>Relatívna vlhkosť pri prevádzke</th><td>20–90 % RH</td></tr><tr><th>Hlasové pokyny</th><td>Áno</td></tr><tr><th>Klávesnica</th><td>Dotyková, 12 tlačidiel</td></tr><tr><th>Dĺžka prístupového kódu</th><td>4–8 číslic</td></tr><tr><th>Virtuálny prístupový kód</th><td>32 číslic</td></tr><tr><th>Prah varovania pri nízkom stave batérie</th><td>4,8 ± 0,2 V</td></tr><tr><th>Čas odomknutia</th><td>≤1 s</td></tr><tr><th>Hrúbka dverí</th><td>cca 38–70 mm</td></tr>
+</tbody>
+</table>
+</div>
 <p>Ďalšie produkty nájdete v kategórii <a href="/zamky-a-pristupove-systemy/">Zámky a prístupové systémy</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Moes]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -647316,10 +647916,57 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
 </CATEGORIES>
+<IMAGES>
+  <IMAGE description="Inteligentný zámok MOES WDL-R5-2">https://b2b.innpro.sk/hpeciai/300c7188757566d5849a6b876e4ab783/67052_1_1.webp</IMAGE>
+</IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Značka]]></NAME>
     <VALUE><![CDATA[Moes]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Príkon v pohotovostnom režime]]></NAME>
+    <VALUE><![CDATA[≤50 µA]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Príkon pri prevádzke]]></NAME>
+    <VALUE><![CDATA[≤180 mA]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Maximálny počet správcov]]></NAME>
+    <VALUE><![CDATA[9]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Kapacita pamäte odtlačkov prstov]]></NAME>
+    <VALUE><![CDATA[100]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Čítačka odtlačkov prstov]]></NAME>
+    <VALUE><![CDATA[Polovodičová]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Doba rozpoznania odtlačku prsta]]></NAME>
+    <VALUE><![CDATA[≤1 s]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Uhol rozpoznania odtlačku prsta]]></NAME>
+    <VALUE><![CDATA[360°]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Miera falošného odmietnutia]]></NAME>
+    <VALUE><![CDATA[≤0,1 %]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Miera falošnej akceptácie]]></NAME>
+    <VALUE><![CDATA[≤0,0001 %]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Doba aktivácie]]></NAME>
+    <VALUE><![CDATA[≤0,5 s]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[NFC]]></VALUE>
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
@@ -647332,8 +647979,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>66.67</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Smart lock MOES WDL-R5-2 | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Smart lock MOES WDL-R5-2 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Inteligentný zámok MOES WDL-R5-2 | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Inteligentný zámok MOES WDL-R5-2 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Smart lock MOES G9DWDL-HG-G9D]]></NAME>
@@ -647406,7 +648053,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <tr><th>Výrobca</th><td>MOES</td></tr><tr><th>Model</th><td>SC060-WCB2</td></tr><tr><th>Typ zariadenia</th><td>inteligentný videozvonček s kamerou</td></tr><tr><th>Pripojenie</th><td>Wi-Fi 2,4 GHz</td></tr><tr><th>Frekvenčný rozsah Wi-Fi</th><td>2,412–2,472 GHz</td></tr><tr><th>Vysielací výkon RF</th><td>17,5 dBm</td></tr><tr><th>Podporovaná aplikácia</th><td>MOES (platforma Tuya)</td></tr><tr><th>Rozlíšenie kamery</th><td>Full HD 1920 × 1080 px (2 Mpix)</td></tr><tr><th>Zorné pole</th><td>140° po diagonále</td></tr><tr><th>Ohnisková vzdialenosť objektívu</th><td>2,8 mm</td></tr><tr><th>Clona</th><td>f/2,4</td></tr><tr><th>Rýchlosť snímok</th><td>HD 1080p – 15 fps, SD VGA – 20 fps</td></tr><tr><th>Priepustnosť videa</th><td>HD – 1 Mb/s, SD – 384 kb/s</td></tr><tr><th>Videokodeky</th><td>H.265 (HD), H.264 (SD)</td></tr><tr><th>Nočné videnie</th><td>Áno, automatické</td></tr><tr><th>Živý náhľad</th><td>Áno</td></tr><tr><th>Obousmerný zvuk</th><td>Áno, s potlačením ozveny</td></tr><tr><th>Zvuk</th><td>1 mikrofón, 1 reproduktor</td></tr><tr><th>Snímač pohybu</th><td>Áno, s nastaviteľnou citlivosťou</td></tr><tr><th>Alarm pri neoprávnenom zásahu</th><td>Áno</td></tr><tr><th>Upozornenie na nízky stav batérie</th><td>Áno, konfigurovateľné</td></tr><tr><th>Ukladanie záznamov</th><td>Pamäťová karta SD alebo cloud</td></tr><tr><th>Bezplatné skúšobné obdobie v cloude</th><td>1 mesiac</td></tr><tr><th>Typ batérie</th><td>Lítium-iónová</td></tr><tr><th>Kapacita batérie</th><td>5000 mAh</td></tr><tr><th>Špecifikácie batérie</th><td>3,7 V / 18,5 Wh</td></tr><tr><th>Prevádzková doba</th><td>4–6 mesiacov pri približne 10 aktiváciách denne</td></tr><tr><th>Doba plného nabitia</th><td>6–8 hodín</td></tr><tr><th>Špecifikácie napájania</th><td>DC 5 V / 1 A</td></tr><tr><th>Stupeň krytia</th><td>IP65</td></tr><tr><th>Prevádzková teplota</th><td>−20 °C až 50 °C</td></tr><tr><th>Prevádzková vlhkosť</th><td>10–95 %, bez kondenzácie</td></tr><tr><th>Rozmery videozvončeka</th><td>138,5 × 53 × 32 mm</td></tr><tr><th>Zvonček</th><td>bezdrôtový RF 433 MHz, napájaný zo zásuvky</td></tr><tr><th>Rozmery zvončeka</th><td>75 × 38,5 × 19,5 mm</td></tr><tr><th>Farba</th><td>Čierna a biela</td></tr><tr></tr>
 </tbody>
 </table>
-</div>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88654_67103_pol_9e749f3a0a95d0003daa842b35c27231" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
 <p>Ďalšie produkty nájdete v kategórii <a href="/zamky-a-pristupove-systemy/">Zámky a prístupové systémy</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Moes]]></MANUFACTURER>
 <ITEM_TYPE>product</ITEM_TYPE>
@@ -647918,10 +648565,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -649270,6 +649919,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>066047</CODE>
+    <EAN>6972570962283</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>066106</CODE>
     <EAN>4031541760692</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -649811,6 +650467,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>072275</CODE>
     <EAN>6972436982134</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>072343</CODE>
+    <EAN>4711527000645</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -653328,7 +653991,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>Meross MRS200MA-EU – Wi-Fi navíjací mechanizmus na rolety</SEO_TITLE><META_DESCRIPTION>Inteligentný navíjací mechanizmus Meross MRS200MA-EU na rolety s Wi-Fi. Overte si kompatibilitu, napájanie a podmienky montáže.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>087768</CODE>
     <EAN>6975114120798</EAN>
@@ -653440,7 +654103,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088496</CODE>
     <EAN>6978507851026</EAN>
@@ -653608,7 +654271,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088869</CODE>
     <EAN>6942580504919</EAN>
@@ -653720,7 +654383,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>FNIRSI FNB-C2 – USB tester | PremiumStore.sk</SEO_TITLE><META_DESCRIPTION>USB tester FNIRSI FNB-C2. Pozrite si merané veličiny, podporované konektory a technické parametre na PremiumStore.sk.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>089337</CODE>
     <EAN>5905156108226</EAN>

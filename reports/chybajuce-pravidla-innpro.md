@@ -1,8 +1,8 @@
 # Chýbajúce pravidlá zaradenia — innpro
 
-Kontrola z 2026-11-18 22:46 UTC.
+Kontrola z 2026-11-19 01:20 UTC.
 
-**8 ciest bez pravidla, 25 produktov bez kategórie.**
+**9 ciest bez pravidla, 26 produktov bez kategórie.**
 
 Doplň ich do `data/kategorie/innpro.json` — kľúč je cesta z feedu, hodnota uzol
 stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
@@ -17,3 +17,4 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 | `Drony > Priemyselné drony > Drony` | 2 | DJI Care Refresh pre DJI Osmo Pocket 4P (ročný balík); DJI Care Refresh pre DJI Osmo Pocket 4P (2-ročný balík) |
 | `Náradie > Stavebné náradie` | 1 | Deli Tools sponky typu T EDL238010, 2000 kusov |
 | `Príslušenstvo GSM > Lokátory Bluetooth` | 1 | GPS lokátor MOVA SureTrack Pro pre domáce zvieratá |
+| `Príslušenstvo GSM > Obaly na telefóny > Puzdrá na príslušenstvo` | 1 | Samostatné nabíjacie puzdro pre VR RayNeo iO |

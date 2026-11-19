@@ -54,7 +54,7 @@
   "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 9
  },
  "Audio > Slúchadlá > Bezdrôtové slúchadlá > TWS slúchadlá": {
-  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 78
+  "TV, audio, video a foto technika > Audio technika > Slúchadlá > Bezdrôtové slúchadlá": 77
  },
  "Audio > Slúchadlá > Drôtové slúchadlá": {
   "TV, audio, video a foto technika > Audio technika > Slúchadlá > Drôtové slúchadlá": 58
@@ -87,7 +87,7 @@
   "Cestovanie, šport a outdoor > Príslušenstvo pre drony": 49
  },
  "Energia > Elektrické stanice > Elektrické stanice": {
-  "Energia a napájanie > Prenosné elektrické stanice": 19
+  "Energia a napájanie > Prenosné elektrické stanice": 20
  },
  "Energia > Elektrické stanice > Príslušenstvo": {
   "Energia a napájanie > Prenosné elektrické stanice": 19
@@ -165,7 +165,7 @@
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 46
  },
  "Foto a video > Príslušenstvo > Pre fotoaparáty a videokamery": {
-  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 175
+  "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 173
  },
  "Foto a video > Príslušenstvo > Pre športové kamery": {
   "TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery": 276
@@ -225,7 +225,7 @@
   "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Chladenie počítača": 21
  },
  "Hry > Chladenie počítača > Ventilátory": {
-  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Chladenie počítača": 20
+  "Počítače, mobily a tablety > Počítače, notebooky a komponenty > Chladenie počítača": 19
  },
  "Hry > Herné kreslá": {
   "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC": 3
@@ -255,7 +255,7 @@
   "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC": 5
  },
  "Hry > Okuliare pre rozšírenú realitu": {
-  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo": 64
+  "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC > VR okuliare a príslušenstvo": 68
  },
  "Hry > Ostatné": {
   "Počítače, mobily a tablety > Herné konzoly a príslušenstvo > Herné príslušenstvo pre PC": 2
@@ -465,13 +465,13 @@
   "3D tlač a digitálna výroba > 3D skenery": 4
  },
  "Kreatívne technológie > 3D tlač > 3D tlačiarne": {
-  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > 3D tlačiarne": 63
+  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > 3D tlačiarne": 66
  },
  "Kreatívne technológie > 3D tlač > Diely": {
-  "3D tlač a digitálna výroba > 3D tlačiarne a materiály": 6
+  "3D tlač a digitálna výroba > 3D tlačiarne a materiály": 8
  },
  "Kreatívne technológie > 3D tlač > Príslušenstvo pre 3D tlačiarne": {
-  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam": 101
+  "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Príslušenstvo k 3D tlačiarňam": 102
  },
  "Kreatívne technológie > 3D tlač > Vlákna": {
   "3D tlač a digitálna výroba > 3D tlačiarne a materiály > Tlačové struny a vlákna": 427
@@ -552,7 +552,7 @@
   "Domáce spotrebiče a domácnosť > Klíma, vzduch a vykurovanie > Ventilátory": 5
  },
  "Malé domáce spotrebiče > Vysávače > Náhradné diely": {
-  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 174
+  "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 175
  },
  "Malé domáce spotrebiče > Vysávače > Ostatné": {
   "Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače": 3
@@ -716,6 +716,9 @@
  "Príslušenstvo GSM > Obaly na telefóny > Ochranné puzdrá pre tablety": {
   "Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Tablety": 3
  },
+ "Príslušenstvo GSM > Obaly na telefóny > Puzdrá na príslušenstvo": {
+  "(bez pravidla)": 1
+ },
  "Príslušenstvo GSM > Obaly na telefóny > Vodotesné puzdro": {
   "Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Puzdrá na mobilné telefóny": 4
  },
@@ -771,7 +774,7 @@
   "Auto-moto > Garáž, dielňa, servis": 50
  },
  "Príslušenstvo pre automobily > Držiaky telefónov": {
-  "Auto-moto > Príslušenstvo do auta": 11
+  "Auto-moto > Príslušenstvo do auta": 10
  },
  "Príslušenstvo pre automobily > Káble a nabíjačky pre elektromobily": {
   "Auto-moto > Elektromobilita": 34
