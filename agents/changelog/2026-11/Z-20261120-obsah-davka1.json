@@ -1,0 +1,227 @@
+{
+ "id": "Z-20261120-obsah-davka1",
+ "datum": "2026-11-20",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 1 (20. 11.): 15 produktov (VITURE adaptér Ultra, MOVA X10, Aligator príslušenstvo) – nový krátky popis, u 7 aj meta.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "080687",
+   "guid": "05e613a8-d274-11f1-a501-bc2411e8af0e",
+   "model": "VITURE adaptér Ultra USB-C",
+   "polia": {
+    "shortDescription": {
+     "pred": "Adaptér VITURE Ultra USB-C Či už večer hráte hry, počas cestovania sledujete film na obrovskej virtuálnej obrazovke alebo používate viacero obrazoviek naraz – adaptér VITURE Ultra USB-C je ideálny…",
+     "po": "Adaptér VITURE Ultra USB-C na pripojenie okuliarov XR k zariadeniam s USB-C. Hodí sa na hranie hier, sledovanie filmov na veľkej virtuálnej obrazovke aj prácu s viacerými obrazovkami naraz."
+    },
+    "metaTitle": {
+     "pred": "Adaptér VITURE Ultra USB-C – skladom. Kúpte na premiumstore.sk.",
+     "po": "Adaptér VITURE Ultra USB-C pre okuliare XR | PremiumStore"
+    },
+    "metaDescription": {
+     "pred": "Adaptér VITURE Ultra USB-C – skladom. Kúpte na premiumstore.sk.",
+     "po": "Adaptér VITURE Ultra USB-C pre okuliare XR na hry, filmy a prácu s viacerými obrazovkami. Pozrite si parametre a cenu na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "087002",
+   "guid": "37cdbf3a-92c6-11f1-9ce3-bc2411833e01",
+   "model": "MOVA X10",
+   "polia": {
+    "shortDescription": {
+     "pred": "Čistič bazénov MOVA X10 MOVA X10 je pokročilý robot na čistenie bazénov, ktorý spája sací výkon až 38 000 l/h, inteligentné mapovanie AquaScan™ 360° a vysokokapacitnú batériu s kapacitou 15 000 mAh,…",
+     "po": "Robotický čistič bazénov MOVA X10 so sacím výkonom až 38 000 l/h, mapovaním AquaScan 360° a batériou s kapacitou 15 000 mAh. Robot je určený na čistenie bazénov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "2a603dd8",
+   "guid": "2a603dd8-92ac-11f1-8b89-bc2411833e01",
+   "model": "Selfie tyč HA12",
+   "polia": {
+    "shortDescription": {
+     "pred": "\"Vďaka zabudovanému Bluetooth si ušetríte zbytočnú prácu so zapájaním kábla, manipulácia s tyčou je intuitívna a jednoduchá.Selfie tyč je možné roztiahnuť až na 68 cm...",
+     "po": "Bluetooth selfie tyč Aligator HA12 v čiernej farbe sa roztiahne až na 68 cm a skladá sa z 5 článkov. Rozpätie ramien 6,5 až 9,3 cm sa hodí pre väčšinu telefónov; bez zapájania kábla vďaka Bluetooth."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "2b0e042c",
+   "guid": "2b0e042c-92ac-11f1-b0dc-bc2411833e01",
+   "model": "Autonabíjačka CHS0007",
+   "polia": {
+    "shortDescription": {
+     "pred": "Inteligentná nabíjačka do auta ALIGATOR 3.4A, 2xUSB, smart IC, čierna, USB kábel pre iPhone/iPad - Nová výkonná nabíjačka do auta radu „SMART IC“...",
+     "po": "Autonabíjačka Aligator CHS0007 z radu SMART IC má dva USB porty s výstupným prúdom 3,4 A a dobije dve zariadenia naraz. V balení je USB kábel s konektorom Lightning pre iPhone a iPad."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "31eb9778",
+   "guid": "31eb9778-92ac-11f1-ab16-bc2411833e01",
+   "model": "Kábel DATKP31",
+   "polia": {
+    "shortDescription": {
+     "pred": "\"Dátový a nabíjací USB-C /USB-C kábel. Rad ALIGATOR POWER je navrhnutý na použitie doma, v kancelárii i na cestách...",
+     "po": "Dátový a nabíjací kábel Aligator USB-C/USB-C s prúdom 3 A z radu ALIGATOR POWER je určený na použitie doma, v kancelárii aj na cestách. Prepojí telefón s autom a podporuje napríklad zrkadlenie navigácie."
+    },
+    "metaTitle": {
+     "pred": "Aligator Kábel Aligator USB-C/USB-C, 3 A, čierny DATKP31",
+     "po": "Dátový kábel Aligator USB-C/USB-C DATKP31, 3 A, čierny"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "4b68d300",
+   "guid": "4b68d300-92ac-11f1-b4f9-bc2411833e01",
+   "model": "Držiak HA18",
+   "polia": {
+    "shortDescription": {
+     "pred": "Držiak do auta s automatickou fixáciou HA18 Aligator Catch do ventilačnej mriežky, univerzálny. Gravitačný univerzálny držiak pre mobilné telefóny do auta...",
+     "po": "Gravitačný držiak Aligator Catch HA18 s automatickou fixáciou sa upevní na ventilačnú mriežku auta a je kompatibilný s väčšinou mriežok. Nebráni vodičovi vo výhľade, vhodný pre mobilné telefóny."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "4eb27994",
+   "guid": "4eb27994-92ac-11f1-87ca-bc2411833e01",
+   "model": "Kábel Y80",
+   "polia": {
+    "shortDescription": {
+     "pred": "Originální magnetický adaptér pro nabíjení chytrých hodinek Aligator Watch Pro a Aligator Watch Life.Nabíjecí USB kabel pro AW Pro + AW Life...",
+     "po": "Originálny magnetický USB kábel Aligator Y80 s dĺžkou 67 cm v čiernej farbe nabíja inteligentné hodinky Aligator Watch PRO a Aligator Watch LIFE. Pripája sa magneticky."
+    },
+    "metaTitle": {
+     "pred": "Magnetický nabíjací kábel Aligator AW PRO a AW LIFE Y80, čie",
+     "po": "Magnetický kábel Aligator Y80 pre hodinky AW PRO a LIFE"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "631bdea2",
+   "guid": "631bdea2-92ac-11f1-940d-bc2411833e01",
+   "model": "Zásuvka WAL001",
+   "polia": {
+    "shortDescription": {
+     "pred": "*inteligentná zásuvka s ovládaním cez aplikáciu v telefóne*meranie spotreby*ovládanie v češtine aj slovenčine pomocou aplikácie Tuya...",
+     "po": "Inteligentná Wi-Fi zásuvka Aligator WAL001 sa ovláda cez aplikáciu Tuya v slovenčine aj češtine. Meria spotrebu, umožňuje časové plány a hlasové ovládanie cez Amazon Alexa a Google Home."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "63cadb32",
+   "guid": "63cadb32-92ac-11f1-b791-bc2411833e01",
+   "model": "Kábel DATKP46",
+   "polia": {
+    "shortDescription": {
+     "pred": "1,5 M , ALIGATOR POWER špičkový USB-C/USB-C kábel najvyššej kvality, s výkonom 100W a možnosťou nabíjania až 5A...",
+     "po": "Kábel Aligator USB-C/USB-C DATKP46 dĺžky 1,5 m z radu ALIGATOR POWER podporuje Power Delivery s prúdom až 5 A a nabíjanie výkonom do 100 W. Čierne prevedenie na dátový prenos aj rýchle nabíjanie."
+    },
+    "metaTitle": {
+     "pred": "Aligator Kábel Aligator USB-C/USB-C, 100 W, čierny DATKP46",
+     "po": "Nabíjací kábel Aligator USB-C/USB-C DATKP46, 1,5 m, 100 W"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "63d4b49a",
+   "guid": "63d4b49a-92ac-11f1-8c55-bc2411833e01",
+   "model": "Nabíjačka CHPD0024",
+   "polia": {
+    "shortDescription": {
+     "pred": "Chytrá síťová nabíječka ALIGATOR Power Delivery 40W, 2xUSB-C, USB-C kabel pro iPhone/iPad Technické parametry...",
+     "po": "Sieťová nabíjačka Aligator CHPD0024 s Power Delivery má dva porty USB-C a celkový výkon 40 W (2× 20 W). V balení je USB-C kábel. Vstup AC 100–240 V, biele prevedenie."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "6e87c2ce",
+   "guid": "6e87c2ce-92ac-11f1-9858-bc2411833e01",
+   "model": "Powerbanka PBPD10BK",
+   "polia": {
+    "shortDescription": {
+     "pred": "Kľúčové vlastnosti:; Kapacita 10 000 mAh; Rýchle nabíjanie 20 W – Power Delivery...",
+     "po": "Powerbanka Aligator PBPD10BK s kapacitou 10 000 mAh a rýchlym nabíjaním 20 W Power Delivery. Má porty USB-C, Micro USB a USB, LCD displej so stavom batérie a ochranu proti prepätiu, nadprúdu a skratu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "71a9db9a",
+   "guid": "71a9db9a-92ac-11f1-801c-bc2411833e01",
+   "model": "Kábel DATKP65",
+   "polia": {
+    "shortDescription": {
+     "pred": "Dátový a nabíjací USB-C /Lightning kábel: LED technológia; Kábel po pripojení ihneď svieti a mení farby...",
+     "po": "Nabíjací kábel Aligator USB-C/Lightning dĺžky 1,2 m s LED podsvietením RGB, ktoré po pripojení mení farby. Podporuje rýchle nabíjanie 3 A a je určený pre iPhone a iPad s konektorom Lightning."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002127549",
+   "guid": "71c881e4-92ac-11f1-bc64-bc2411833e01",
+   "model": "Powerbanka AMS04WT",
+   "polia": {
+    "shortDescription": {
+     "pred": "Kľúčové vlastnosti:; Kapacita batérie: 10 000 mAh Li-Polymer; Podpora MagSafe; Bezdrôtové nabíjanie Qi...",
+     "po": "Magnetická powerbanka Aligator AMS04WT s kapacitou 10 000 mAh a podporou MagSafe. Nabíja aj bezdrôtovo cez Qi (max. 15 W), má USB-C vstup, LED indikátor a nadprúdovú, prepäťovú a skratovú ochranu."
+    },
+    "metaTitle": {
+     "pred": "Magnetická powerbanka Aligator AMS04WT, 10 000 mAh",
+     "po": "Magnetická powerbanka Aligator AMS04WT, MagSafe, Qi"
+    },
+    "metaDescription": {
+     "pred": "Magnetická powerbanka Aligator AMS04WT, 10 000 mAh. USB-C port a ochrana proti skratu. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "Magnetická powerbanka Aligator AMS04WT s kapacitou 10 000 mAh, MagSafe a bezdrôtovým nabíjaním Qi do 15 W. Pozrite si parametre a cenu na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002131483",
+   "guid": "7337b2ac-92ac-11f1-95d5-bc2411833e01",
+   "model": "MiTag set 3 ks",
+   "polia": {
+    "shortDescription": {
+     "pred": "Výhodná sada 3 ks príveskovLokátor pre Android je konečne k dispozícii!Certifikácia pre Google Nájdi moje zariadenie...",
+     "po": "Súprava troch lokátorov Aligator MiTag s certifikáciou Google Nájdi moje zariadenie pre Android. Chráni cennosti pred stratou, určí polohu v aplikácii a má zvukovú signalizáciu."
+    },
+    "metaTitle": {
+     "pred": "Aligator MiTag, 3 ks, Google Find My",
+     "po": "Súprava 3 lokátorov Aligator MiTag, Google Find My"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002130315",
+   "guid": "753e0556-92ac-11f1-959b-bc2411833e01",
+   "model": "Powerbanka PBPD20BK",
+   "polia": {
+    "shortDescription": {
+     "pred": "Kľúčové vlastnosti:; Kapacita 20 000 mAh; Rýchle nabíjanie 20 W – Power Delivery...",
+     "po": "Powerbanka Aligator PBPD20BK s kapacitou 20 000 mAh a rýchlym nabíjaním 20 W Power Delivery. Má porty USB-C, Micro USB a USB, LCD displej so stavom batérie a ochranu proti prepätiu, nadprúdu a skratu."
+    }
+   }
+  }
+ ],
+ "overenie": "Zápis potvrdený odpoveďou product_update (updatedFields); overiť po nočnom importe.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
