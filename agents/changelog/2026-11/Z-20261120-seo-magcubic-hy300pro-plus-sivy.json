@@ -1,0 +1,24 @@
+{
+  "id": "Z-20261120-seo-magcubic-hy300pro-plus-sivy",
+  "datum": "2026-11-20",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Magcubic HY300PRO+ sivý: názov zjednotený s bielym modelom (parametre z tabuľky dodávateľa); titulok a meta už boli dobré, ostávajú; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "091491",
+      "guid": "01f88668-a8c6-11f1-bcbb-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/projektor-magcubic-hy300pro-sivy/",
+      "polia": {
+        "name": {
+          "pred": "Projektor Magcubic HY300PRO+ (sivý)",
+          "po": "Projektor Magcubic HY300PRO+ sivý, HD 720p, 200 ANSI lm, Android 14"
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-20", "ok": true, "poznamka": "product_update potvrdil zápis name."}
+}
