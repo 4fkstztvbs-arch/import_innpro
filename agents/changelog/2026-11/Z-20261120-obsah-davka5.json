@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261120-obsah-davka5",
+ "datum": "2026-11-20",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 5: 15 produktov Aligator (puzdrá Magnetto, Transparent, Bumperzz, Universe, tvrdené sklá PRINT); nové krátke popisy z overených faktov. U Redmi 15 opravený krátky popis, ktorý uvádzal iný telefón (iPhone 16 Pro Max).",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104792",
+   "guid": "7bcc4540-92ac-11f1-8244-bc2411833e01",
+   "model": "Bumperzz A35 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Bumperzz Samsung Galaxy A35 5G, čierne Vlastnosti:Dedikovaný zadný krytŠpeciálne vystužené rohyVysoko kvalitné spracovaniePresné výrezyJednoduché uchytenie mobilného telefónuNadčasový dizajnŠtýlová ochranaIdeálne v kombinácii s radom kva",
+     "po": "Čierny zadný kryt Aligator Bumperzz pre Samsung Galaxy A35 5G so špeciálne vystuženými rohmi a presnými výrezmi. Chráni telefón pred poškodením a ponúka nadčasový dizajn."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136943",
+   "guid": "7ce79e02-92ac-11f1-8985-bc2411833e01",
+   "model": "Magnetto Redmi Note 14 Pro+ 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.ALIGATOR Magnetto Xia Red Note 14Pro+5G,Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky, zatváranie pomocou magnetickej spony, jednoduché uchytenie mobilného telefónu pomocou silikónovej vaničky, stojanček… To je ALIG",
+     "po": "Čierne ultratenké puzdro Aligator Magnetto pre Xiaomi Redmi Note 14 Pro+ 5G s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136947",
+   "guid": "7d8b71b2-92ac-11f1-a083-bc2411833e01",
+   "model": "Magnetto A26 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.ALIGATOR Magnetto Sam A26 (5G), Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky, zatváranie pomocou magnetickej spony, jednoduché uchytenie mobilného telefónu pomocou silikónovej vaničky, stojanček… To je ALIGATOR MAG",
+     "po": "Čierne ultratenké puzdro Aligator Magnetto pre Samsung Galaxy A26 5G s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136944",
+   "guid": "8839706e-92ac-11f1-a711-bc2411833e01",
+   "model": "Magnetto Redmi A5 4G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.ALIGATOR Magnetto Xia Redmi A5 4G, Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky, zatváranie pomocou magnetickej spony, jednoduché uchytenie mobilného telefónu pomocou silikónovej vaničky, stojanček… To je ALIGATOR",
+     "po": "Čierne ultratenké puzdro Aligator Magnetto pre Xiaomi Redmi A5 4G s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164502",
+   "guid": "904245ec-92ac-11f1-a4a1-bc2411833e01",
+   "model": "Transparent iPhone 17 Air",
+   "polia": {
+    "shortDescription": {
+     "pred": "Značka Aligator predstavuje novú radu TRANSPARENT pre iPhone17 Air .Transparentné puzdrá vďaka dokonalému tvaru a precíznym výrezom na jednotlivé tlačidlá ochránia chrbát a hrany Vášho inteligentného telefónu pred prachom, mastnotou či poškriabaním.Každý kryt m",
+     "po": "Priehľadné puzdro Aligator pre Apple iPhone 17 Air s dokonalým tvarom a presnými výrezmi na tlačidlá. Chráni chrbát a hrany telefónu pred prachom, mastnotou a poškriabaním."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164504",
+   "guid": "904c59c4-92ac-11f1-8b88-bc2411833e01",
+   "model": "Transparent iPhone 17 Pro Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Značka Aligator predstavuje novú radu TRANSPARENT pre Apple 17 ProMax.Transparentné puzdrá vďaka dokonalému tvaru a precíznym výrezom na jednotlivé tlačidlá ochránia chrbát a hrany Vášho inteligentného telefónu pred prachom, mastnotou či poškriabaním. Každý kry",
+     "po": "Priehľadné puzdro Aligator pre Apple iPhone 17 Pro Max s dokonalým tvarom a presnými výrezmi na tlačidlá. Chráni chrbát a hrany telefónu pred prachom, mastnotou a poškriabaním."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164556",
+   "guid": "907479a4-92ac-11f1-ac62-bc2411833e01",
+   "model": "Transparent Redmi 15C",
+   "polia": {
+    "shortDescription": {
+     "pred": "Značka Aligator predstavuje novú radu TRANSPARENT. Transparentné puzdrá vďaka dokonalému tvaru a precíznym výrezom na jednotlivé tlačidlá ochránia chrbát a hrany Vášho inteligentného telefónu pred prachom, mastnotou či poškriabaním. Každý kryt má dokonalé výrezy",
+     "po": "Priehľadné puzdro Aligator pre Xiaomi Redmi 15C s dokonalým tvarom a presnými výrezmi na tlačidlá. Chráni chrbát a hrany telefónu pred prachom, mastnotou a poškriabaním."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002193589",
+   "guid": "933dc44c-92ac-11f1-83f1-bc2411833e01",
+   "model": "Transparent Redmi 15",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro TRANSPARENT ALIGATOR Apple iPhone 16 Pro Max - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+     "po": "Priehľadné silikónové puzdro Aligator pre Xiaomi Redmi 15. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136934",
+   "guid": "96023fdc-92ac-11f1-a488-bc2411833e01",
+   "model": "Magnetto Redmi Note 14 4G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.ALIGATOR Magnetto Xia Red Note 14 4G, Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky, zatváranie pomocou magnetickej spony, jednoduché uchytenie mobilného telefónu pomocou silikónovej vaničky, stojanček… To je ALIGAT",
+     "po": "Čierne ultratenké puzdro Aligator Magnetto pre Xiaomi Redmi Note 14 4G s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136967",
+   "guid": "977052fa-92ac-11f1-92fe-bc2411833e01",
+   "model": "Transparent Redmi Note 14 4G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.TRANSPARENT ALIGATOR Xia Red Note 14 4G - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+     "po": "Priehľadné silikónové puzdro Aligator pre Xiaomi Redmi Note 14 4G. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001480499",
+   "guid": "9841f5a8-92ac-11f1-b6d4-bc2411833e01",
+   "model": "Universe 20 XL červené",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR UNIVERSE 20, veľkosť XL (160*81), červená - ; Univerzálne puzdro; Zatváranie pomocou magnetickej spony; Priehradka na kartu alebo vizitky; Vrecko na bankovky; Tenké prevedenie; Kvalitné spracovanie; Elegantný dizajn; Jednoduché uchytenie mobilného t",
+     "po": "Univerzálne červené puzdro Aligator Universe 20 vo veľkosti XL (160 × 81 mm) so zatváraním na magnetickú pracku. Má priehradku na kartu alebo vizitky, vrecko na bankovky a tenké prevedenie."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136941",
+   "guid": "9f8fa68e-92ac-11f1-8b3a-bc2411833e01",
+   "model": "Magnetto Redmi Note 14 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.ALIGATOR Magnetto Xia Red Note 14 5G, Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky, zatváranie pomocou magnetickej spony, jednoduché uchytenie mobilného telefónu pomocou silikónovej vaničky, stojanček… To je ALIGAT",
+     "po": "Čierne ultratenké puzdro Aligator Magnetto pre Xiaomi Redmi Note 14 5G s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136945",
+   "guid": "9f9912b4-92ac-11f1-b753-bc2411833e01",
+   "model": "Magnetto Redmi Note 14S 4G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.ALIGATOR Magnetto Xia Red Note 14S 4G, Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky, zatváranie pomocou magnetickej spony, jednoduché uchytenie mobilného telefónu pomocou silikónovej vaničky, stojanček… To je ALIGA",
+     "po": "Čierne ultratenké puzdro Aligator Magnetto pre Xiaomi Redmi Note 14S 4G s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001954142",
+   "guid": "6311b5ee-92ac-11f1-8daf-bc2411833e01",
+   "model": "PRINT A34 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochranné tvrdené sklo ALIGATOR PRINT, Samsung Galaxy A34 (5G), čierna, celoplošné lepenieTlačené okrajeVysoko odolné proti poškriabaniuObmedzuje odleskyVyhladzuje a zaceľuje už poškriabaný displejExtrémna tvrdosť 9HZaoblené hranyVysoká citlivosť dotykuSn",
+     "po": "Čierne ochranné tvrdené sklo Aligator PRINT pre Samsung Galaxy A34 5G s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002102960",
+   "guid": "63458568-92ac-11f1-b30f-bc2411833e01",
+   "model": "PRINT S24 FE/A36",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS PRINT Samsung Galaxy S24 FE/A36, čierna, celoplošné lepenie; Tlačené okrajy; Vysoko odolné proti poškriabaniu; Obmedzuje odlesky; Vyhladzuje a zaceľuje už poškriabaný displej; Extrémna tvrdosť 9H; Zaoblené hrany",
+     "po": "Ochranné tvrdené sklo Aligator GLASS PRINT pre Samsung Galaxy S24 FE a A36 s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields shortDescription pre všetkých 15 produktov.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
