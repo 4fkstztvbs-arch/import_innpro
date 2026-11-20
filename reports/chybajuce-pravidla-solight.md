@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — solight
 
-Kontrola z 2026-11-19 01:13 UTC.
+Kontrola z 2026-11-20 01:16 UTC.
 
 **1 ciest bez pravidla, 1 produktov bez kategórie.**
 

@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-19 01:13 UTC.
+Kontrola z 2026-11-20 01:16 UTC.
 
-Solight pri **491** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **492** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -362,6 +362,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `DA26` | Solight univerzálny sieťový adaptér 1500mA, stabilizovaný, v | 2 | 40 |
 | `PA01-IN` | Solight cestovný adaptér do Indie, typ D | 2 | 100 |
 | `1V219` | Solight LED anjeli, drevo, biela farba, 2x AA | 2 | 40 |
+| `WL906` | Solight LED svetielka s diaľkovým ovládaním, 3x 50lm, časova | 2 | 24 |
 | `1D33` | Solight detektor dymu + alarm, 85dB, biely + 9V batéria | 2 | 100 |
 | `WO744` | Solight LED vonkajšie osvetlenie oválne, 13W, 910lm, 4000K,  | 2 | 32 |
 | `1V110-W` | Solight LED vonkajšia vánočná reťaz, 50 LED, 5m, prívod 3m,  | 2 | 12 |
