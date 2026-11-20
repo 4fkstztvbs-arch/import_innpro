@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600841,
+    "nextCardNumber": 202600846,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -5042,6 +5042,36 @@
         "nazov": "BOSE Sport Open Earbuds White - Spice",
         "dodavatel": "basys",
         "code": "BASYS-B 901149-0020"
+      },
+      "8424450199190": {
+        "kod": "202600841",
+        "nazov": "Anténa TELEVES INNOVA BOSS --LTE700/5G-- (G20dB) pokojová /130220/",
+        "dodavatel": "atos",
+        "code": "INNOVA130220"
+      },
+      "8596425093441": {
+        "kod": "202600842",
+        "nazov": "GSM dálkové ovládání vrat RTU5034 pro síť 2G T490A",
+        "dodavatel": "atos",
+        "code": "ATO-T490A"
+      },
+      "5902560328127": {
+        "kod": "202600843",
+        "nazov": "PIR senzor a přítomnosti (pohybové čidlo) ORNO OR-CR-255 360°, IP65, dosah 10m,",
+        "dodavatel": "atos",
+        "code": "ATO-OR-CR-255"
+      },
+      "8596425191482": {
+        "kod": "202600844",
+        "nazov": "Přepínač automatický sítí - napájení 4P 400V 16A - NLQ4-125/4P pro FVE T549",
+        "dodavatel": "atos",
+        "code": "ATO-T549"
+      },
+      "8596425219278": {
+        "kod": "202600845",
+        "nazov": "Kanystr na vodu s kohoutkem a nádob na mýdlo kemping plast V615P, 15 litr",
+        "dodavatel": "atos",
+        "code": "ATO-V615P"
       }
     }
   },
