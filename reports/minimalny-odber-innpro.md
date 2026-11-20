@@ -1,6 +1,6 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-20 01:23 UTC.
+Kontrola z 2026-11-20 12:19 UTC.
 
 InnPro pri **385** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
@@ -218,6 +218,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `077873` | Ochranná fólia Puluz 3 v 1 pre Insta 360 Ace Pro 2 | — | 5 |
 | `077868` | Ochranné puzdro Puluz pre DJI Mic Mini (čierne) | — | 5 |
 | `077869` | Ochranné puzdro Puluz pre DJI Mic 2 (čierne) | — | 5 |
+| `077820` | Dvojfarebné štítky do tlačiarne T50*30-230 (biele) | — | 5 |
 | `077821` | T50*30-230 Dvojfarebné štítky do tlačiarne (žlté) | — | 5 |
 | `078020` | Tvrdené sklo Sunnylife pre RC PRO 2 (2 kusy) | — | 5 |
 | `078077` | Vrecko na prach MOVA pre Z50 Ultra 4L 3 ks | — | 5 |
@@ -359,7 +360,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `087997` | Hlavná kefa pre modely MOVA P10 Ultra/E30 Ultra/S10/S10 Plus | — | 5 |
 | `089623` | Ochranná fólia z tvrdeného skla Puluz 9H pre GoPro HERO 12/1 | — | 5 |
 | `089627` | Silikónové puzdro Puluz pre GoPro HERO 4K 2024 | — | 5 |
-| `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 5 |
 | `089639` | Silikónové puzdro Puluz pre DJI Osmo 360 (čierne) | — | 5 |
 | `089640` | Puzdro Puluz 3 v 1 pre DJI OSMO Pocket 3 | — | 5 |
 | `089643` | Silikónové puzdro Puluz pre Insta360 GO 3S (čierne) | — | 3 |
