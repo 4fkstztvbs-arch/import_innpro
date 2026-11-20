@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261120-seo-magcubic-hy300pro",
+  "datum": "2026-11-20",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Magcubic HY300PRO (URL /projektor-magcubic-hy300pro-2/): názov a titulok bez EAN kódu, rozlíšenie 720p a jas 200 ANSI z tabuľky dodávateľa; meta mierne doplnená; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "086345",
+      "guid": "f98d6fb2-b233-11f1-9e8a-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/projektor-magcubic-hy300pro-2/",
+      "polia": {
+        "name": {
+          "pred": "Projektor Magcubic HY300PRO, 0757047110512",
+          "po": "Projektor Magcubic HY300PRO, HD 720p, 200 ANSI lm, Android 14"
+        },
+        "metaTitle": {
+          "pred": "Projektor Magcubic HY300PRO, 0757047110512",
+          "po": "Magcubic HY300PRO projektor HD 720p, Android 14"
+        },
+        "metaDescription": {
+          "pred": "Magcubic HY300Pro ponúka 720p, jas 200 ANSI lm, Android 14 a automatickú zvislú korekciu obrazu. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "Projektor Magcubic HY300PRO: natívne 720p, 200 ANSI lm, Android 14, Wi-Fi 6, Bluetooth 5.4, obraz 25–110\" a hmotnosť len 363 g."
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-20", "ok": true, "poznamka": "product_update potvrdil zápis name, metaTitle, metaDescription."}
+}
