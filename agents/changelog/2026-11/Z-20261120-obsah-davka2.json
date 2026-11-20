@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261120-obsah-davka2",
+ "datum": "2026-11-20",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 2 (20. 11.): 15 produktov Aligator (MiTag lokátor, remienky, puzdrá a kryty) – nový krátky popis, meta ostali (už boli dobré).",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "KB_100002131481",
+   "guid": "7afb6466-92ac-11f1-b395-bc2411833e01",
+   "model": "MiTag APD003",
+   "polia": {
+    "shortDescription": {
+     "pred": "Certifikácia pre Google Find My DeviceStráži všetky vaše cennostiUpozornenie na stratupredmetu v aplikáciiZvuková signalizáciaJednoduché uchytenie na kľúče alebo zips batožiny...",
+     "po": "Lokátor Aligator MiTag s certifikáciou Google Nájdi moje zariadenie stráži vaše cennosti. Upozorní na stratu v aplikácii, zapípa, uchytí sa na kľúče či zips batožiny a je vodeodolný podľa normy IP65."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001474194",
+   "guid": "455c1972-92ac-11f1-b400-bc2411833e01",
+   "model": "Remienok 20 mm",
+   "polia": {
+    "shortDescription": {
+     "pred": "Remienok nylonový ALIGATOR 20mm, čierny. Náhradný remienok hodinárskych rozstupov! Univerzálny náhradný remienok...",
+     "po": "Čierny nylonový náhradný remienok Aligator so šírkou 20 mm. Hodí sa na inteligentné hodinky Aligator Watch Life aj na iné inteligentné či klasické hodinky s rozstupom remienka 20 mm, inštalácia je jednoduchá."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001474183",
+   "guid": "57fe9aa0-92ac-11f1-a183-bc2411833e01",
+   "model": "Remienok 22 mm",
+   "polia": {
+    "shortDescription": {
+     "pred": "Remienok nylonový ALIGATOR 22mm, čierny. Náhradný remienok hodinárskych rozstupov! Univerzálny náhradný remienok...",
+     "po": "Čierny nylonový náhradný remienok Aligator so šírkou 22 mm. Hodí sa na inteligentné hodinky Aligator Watch PRO aj na iné inteligentné či klasické hodinky s rozstupom remienka 22 mm, inštalácia je jednoduchá."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001268989",
+   "guid": "3925d1ca-92ac-11f1-97d3-bc2411833e01",
+   "model": "Ultra Slim A72",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz. ALIGATOR Ultra Slim Samsung Galaxy A72, Blue - Puzdrá ULTRA SLIM charakterizuje minimalistický dizajn v podobe ultratenkého spracovania...",
+     "po": "Modré ultratenké puzdro Aligator Ultra Slim pre Samsung Galaxy A72 z mäkčeného silikónu. Minimalistický dizajn a precízne tvarované výrezy zaručujú pohodlnú obsluhu telefónu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001269000",
+   "guid": "3af0f034-92ac-11f1-82e7-bc2411833e01",
+   "model": "Magnetto POCO M3",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Magnetto Xiaomi POCO M3, Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky...",
+     "po": "Čierne ultratenké puzdro Aligator Magnetto pre Xiaomi POCO M3 s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001480494",
+   "guid": "4c52d02c-92ac-11f1-aca7-bc2411833e01",
+   "model": "Universe 20 XXL",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR UNIVERSE 20, veľkosť XXL (170*83), čierna - ; Univerzálne puzdro; Zatváranie pomocou magnetickej pracky...",
+     "po": "Univerzálne čierne puzdro Aligator Universe 20 vo veľkosti XXL (170 × 83 mm). Zatvára sa magnetickou prackou a má priehradku na kartu či vizitky, vrecko na bankovky a tenké, elegantné prevedenie."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104800",
+   "guid": "640e310c-92ac-11f1-806a-bc2411833e01",
+   "model": "Bumperzz iPhone 16",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Bumperzz Apple Iphone 16, čierne Vlastnosti:Dedikovaný zadný krytŠpeciálne vystužené rohy...",
+     "po": "Čierny zadný kryt Aligator Bumperzz pre Apple iPhone 16 so špeciálne vystuženými rohmi a presnými výrezmi. Chráni telefón pred poškodením a ponúka nadčasový dizajn."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104801",
+   "guid": "641835d0-92ac-11f1-aa24-bc2411833e01",
+   "model": "Bumperzz iPhone 16 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Bumperzz Apple Iphone 16 Pro, čierne Vlastnosti:Dedikovaný zadný krytŠpeciálne vystužené rohy...",
+     "po": "Čierny zadný kryt Aligator Bumperzz pre Apple iPhone 16 Pro so špeciálne vystuženými rohmi a presnými výrezmi. Chráni telefón pred poškodením a ponúka nadčasový dizajn."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104807",
+   "guid": "64422aca-92ac-11f1-b136-bc2411833e01",
+   "model": "Mag-Skin iPhone 16 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Mag-Skin iPhone 16 Pro - Nová rada krytov Mag-Skin pre iPhone s podporou technológie bezdrôtového nabíjania MagSafe...",
+     "po": "Kryt Aligator Mag-Skin pre Apple iPhone 16 Pro s podporou bezdrôtového nabíjania MagSafe. Zadná časť z dvojitého plastu má feromagnetickú samolepku, vďaka ktorej sa kryt zachytí na magnetické príslušenstvo."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002074560",
+   "guid": "694705fe-92ac-11f1-991c-bc2411833e01",
+   "model": "Bumperzz Redmi Note 12 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzd.ALIGATOR BUMPERZZ Xia Red Note 12 5G, Black Vlastnosti:Dedikovaný zadný krytŠpeciálne vystužené rohy...",
+     "po": "Čierny zadný kryt Aligator Bumperzz pre Xiaomi Redmi Note 12 5G so špeciálne vystuženými rohmi a presnými výrezmi. Chráni telefón pred poškodením a ponúka nadčasový dizajn."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104803",
+   "guid": "6b1ab3bc-92ac-11f1-a87a-bc2411833e01",
+   "model": "Bumperzz iPhone 16 Pro Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Bumperzz Apple Iphone 16 Pro Max, čierne Vlastnosti:Dedikovaný zadný krytŠpeciálne vystužené rohy...",
+     "po": "Čierny zadný kryt Aligator Bumperzz pre Apple iPhone 16 Pro Max so špeciálne vystuženými rohmi a presnými výrezmi. Chráni telefón pred poškodením a ponúka nadčasový dizajn."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104789",
+   "guid": "6d5d7a10-92ac-11f1-85f3-bc2411833e01",
+   "model": "Mag-Skin iPhone 16 Pro Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Mag-Skin iPhone 16 Pro Max - Nová rada krytov Mag-Skin pre iPhone s podporou technológie bezdrôtového nabíjania MagSafe...",
+     "po": "Kryt Aligator Mag-Skin pre Apple iPhone 16 Pro Max s podporou bezdrôtového nabíjania MagSafe. Zadná časť z dvojitého plastu má feromagnetickú samolepku, vďaka ktorej sa kryt zachytí na magnetické príslušenstvo."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104796",
+   "guid": "6d68a05c-92ac-11f1-8441-bc2411833e01",
+   "model": "Transparent iPhone 16 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro TRANSPARENT ALIGATOR Apple iPhone 16 Pro - Atraktívne puzdro vyrobené z príjemného silikónu...",
+     "po": "Priehľadné silikónové puzdro Aligator pre Apple iPhone 16 Pro. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002073113",
+   "guid": "6e38dfd8-92ac-11f1-a80b-bc2411833e01",
+   "model": "Transparent S24+",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro TRANSPARENT ALIGATOR Samsung Galaxy S24+ - Atraktívne puzdro vyrobené z príjemného silikónu...",
+     "po": "Priehľadné silikónové puzdro Aligator pre Samsung Galaxy S24+. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002122013",
+   "guid": "6fee40f2-92ac-11f1-8d38-bc2411833e01",
+   "model": "Magnetto A25",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Magnetto Samsung Galaxy A25, Black - Dokonale prepracovaný dizajn, ultratenké prevedenie...",
+     "po": "Čierne ultratenké puzdro Aligator Magnetto pre Samsung Galaxy A25 s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+    }
+   }
+  }
+ ],
+ "overenie": "Zápis potvrdený odpoveďou product_update (updatedFields); overiť po nočnom importe.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
