@@ -1,0 +1,219 @@
+{
+ "id": "Z-20261120-obsah-davka4",
+ "datum": "2026-11-20",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 4 (20. 11.): 15 produktov Aligator (káble, nabíjačka, držiak, šnúrka, lokátory Life Tag, kryty Mag-Skin, Transparent, Bumperzz) – nový krátky popis, u 7 aj meta. Pôvodné texty v pred sú skrátené tak, ako ich vrátil Shoptet MCP. Pri kábli DATKP57 sa výkon vo W vynechal (názov 65 W, text dodávateľa 30 W).",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "KB_100002127896",
+   "guid": "89ecfdb8-92ac-11f1-81f6-bc2411833e01",
+   "model": "DATKP57",
+   "polia": {
+    "shortDescription": {
+     "pred": "Dátový a nabíjací USB-C /Lightning kábel: Ultra rýchle nabíjanie: 3A; Power Delivery až 30W; Kompatibilný s iPhone/iPad s konektorom Lightning...",
+     "po": "Nabíjací a dátový kábel Aligator USB-C/Lightning dĺžky 0,5 m s prúdom 3 A a podporou Power Delivery pre rýchle nabíjanie. Je určený pre iPhone a iPad s konektorom Lightning, s vysokou rýchlosťou prenosu dát."
+    },
+    "metaTitle": {
+     "pred": "Aligator ALI DK 65 W, USB-C / Light, 0, 5 m, 3A DATKP57",
+     "po": "Kábel Aligator USB-C/Lightning DATKP57, 0,5 m, 3 A"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002069058",
+   "guid": "8d34c5f0-92ac-11f1-965a-bc2411833e01",
+   "model": "CHPD0014",
+   "polia": {
+    "shortDescription": {
+     "pred": "Výkonná sieťová nabíjačka série „POWER DELIVERY“ v modernom bielom prevedení s ultra rýchlym USB-C portom s výkonom 20W a USB-C káblom pre iPhone/iPad v balení...",
+     "po": "Sieťová nabíjačka Aligator Power Delivery 20 W v bielom prevedení s rýchlym portom USB-C. V balení je kábel pre iPhone a iPad. Vstup AC 100–240 V, výstup 5 V/3 A, 9 V/2,22 A, 12 V/1,67 A."
+    },
+    "metaTitle": {
+     "pred": "ALI CN PD 20 W, light kab., biela CHPD0014",
+     "po": "Sieťová nabíjačka Aligator CHPD0014, 20 W PD, biela"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002068467",
+   "guid": "9a5b9934-92ac-11f1-94f6-bc2411833e01",
+   "model": "DATKP47",
+   "polia": {
+    "shortDescription": {
+     "pred": "1,5M, ALIGATOR POWER špičkový USB-C/USB-C kábel najvyššej kvality, s výkonom 100W a možnosťou nabíjania až 5A...",
+     "po": "Biely kábel Aligator POWER USB-C/USB-C dĺžky 1,5 m s podporou Power Delivery. Umožňuje nabíjanie prúdom až 5 A a extra rýchle nabíjanie výkonom do 100 W."
+    },
+    "metaTitle": {
+     "pred": "Aligator Kábel Aligator USB-C/USB-C, 100 W, biely DATKP47",
+     "po": "Nabíjací kábel Aligator USB-C/USB-C DATKP47, 100 W"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002127886",
+   "guid": "816931c0-92ac-11f1-b19d-bc2411833e01",
+   "model": "AMS06BK",
+   "polia": {
+    "shortDescription": {
+     "pred": "Kľúčové vlastnosti:; Univerzálny magnetický držiak pre MagSafe; Umiestnenie do mriežky ventilácie; Nebráni vo výhľade; Možno ovládať jednou rukou...",
+     "po": "Univerzálny magnetický držiak do auta Aligator AMS06BK pre MagSafe sa upevní do ventilačnej mriežky. Nebráni vo výhľade, ovláda sa jednou rukou a 2 feromagnetické samolepky sú kompatibilné so všetkými puzdrami."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002074580",
+   "guid": "9425d3fe-92ac-11f1-8300-bc2411833e01",
+   "model": "UST011",
+   "polia": {
+    "shortDescription": {
+     "pred": "Aligator Echt Machršnúra, univerzálna šnúrka pre mobilný telefón, čierna Dĺžka šnúrky: 75cm3 možnosti nastavenia:Na krkCez ramenoOkolo ruky...",
+     "po": "Univerzálna čierna pletená šnúrka Aligator na mobilný telefón s dĺžkou 75 cm a kvalitnou kovovou karabínou. Nosí sa na krku, cez rameno alebo okolo ruky a hodí sa pre všetky puzdrá."
+    },
+    "metaTitle": {
+     "pred": "Univerzálna pletená šnúrka na telefón Aligator UST011, čiern",
+     "po": "Pletená šnúrka na mobil Aligator UST011, 75 cm, čierna"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164563",
+   "guid": "9ea72a58-92ac-11f1-872d-bc2411833e01",
+   "model": "Life Tag APD002",
+   "polia": {
+    "shortDescription": {
+     "pred": "Oficiálna certifikácia pre Apple Find My, licencovaný produkt Slúži na ochranu vašich cenností pred stratou alebo krádežou Určenie polohy pomocou aplikácie v telefóne...",
+     "po": "Súprava troch lokátorov Aligator Life Tag s oficiálnou certifikáciou Apple Find My. Chráni cennosti pred stratou, určí polohu v aplikácii a zapípa. V balení je batéria, krúžok na kľúče a pútko."
+    },
+    "metaDescription": {
+     "pred": "Súprava obsahuje tri lokátory Aligator Life Tag s certifikovanou podporou Apple Find My na. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+     "po": "Súprava 3 lokátorov Aligator Life Tag s certifikovanou podporou Apple Find My na hľadanie vecí. Pozrite si parametre a cenu na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164490",
+   "guid": "902e0208-92ac-11f1-8886-bc2411833e01",
+   "model": "Mag-Skin 17 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Nová rada dedikovaných krytov ALIGATOR Mag-Skin pre iPhone17 Pro s podporou modernej technológie bezdrôtového nabíjania MagSafe.Určené pre MagSafeZadná časť krytu je vyrobená z kvalitného dvojitého plastu, v ktorom je umiestnená a presne vycentrovaná fero",
+     "po": "Kryt Aligator Mag-Skin pre iPhone 17 Pro s podporou bezdrôtového nabíjania MagSafe. Zadná časť z dvojitého plastu má presne vycentrovanú feromagnetickú samolepku pre magnetické príslušenstvo."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164491",
+   "guid": "90381c34-92ac-11f1-8e24-bc2411833e01",
+   "model": "Mag-Skin 17 Pro Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Nová rada dedikovaných krytov ALIGATOR Mag-Skin pre iPhone17 Max a  s podporou modernej technológie bezdrôtového nabíjania MagSafe. Určené pre MagSafe Zadná časť krytu je vyrobená z kvalitného dvojitého plastu, v ktorom je umiestnená a presne vycentrovaná fer",
+     "po": "Kryt Aligator Mag-Skin pre iPhone 17 Pro Max s podporou bezdrôtového nabíjania MagSafe. Zadná časť z dvojitého plastu má presne vycentrovanú feromagnetickú samolepku pre magnetické príslušenstvo."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164488",
+   "guid": "9e541f48-92ac-11f1-8dbe-bc2411833e01",
+   "model": "Mag-Skin 17",
+   "polia": {
+    "shortDescription": {
+     "pred": "Nová rada dedikovaných krytov ALIGATOR Mag-Skin pre iPhone17.Zadná časť krytu je vyrobená z kvalitného dvojitého plastu, v ktorom je umiestnená a presne vycentrovaná feromagnetická samolepka, ktorá zabezpečuje podporu bezdrôtového nabíjania MagSafe. Vďaka tomu",
+     "po": "Kryt Aligator Mag-Skin pre iPhone 17 s podporou bezdrôtového nabíjania MagSafe. Zadná časť z dvojitého plastu má presne vycentrovanú feromagnetickú samolepku pre magnetické príslušenstvo."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136952",
+   "guid": "7d95074a-92ac-11f1-8f4b-bc2411833e01",
+   "model": "Mag-Skin S24 FE",
+   "polia": {
+    "shortDescription": {
+     "pred": "ALIGATOR Mag-Skin Samsung Gal S24 FE - Nová rada krytov Mag-Skin pre Samsung s podporou technológie bezdrôtového nabíjania MagSafe. Zadná časť krytu je vyrobená z kvalitného dvojitého plastu, v ktorom je umiestnená feromagnetická samolepka, ktorá zabezpečuje p",
+     "po": "Kryt Aligator Mag-Skin pre Samsung Galaxy S24 FE s podporou bezdrôtového nabíjania MagSafe. Zadná časť z dvojitého plastu má presne vycentrovanú feromagnetickú samolepku pre magnetické príslušenstvo."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104795",
+   "guid": "7bd7d25c-92ac-11f1-9a67-bc2411833e01",
+   "model": "Transparent 16 Plus",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro TRANSPARENT ALIGATOR Apple iPhone 16 Plus - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+     "po": "Priehľadné silikónové puzdro Aligator pre Apple iPhone 16 Plus. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104812",
+   "guid": "7bfe4c98-92ac-11f1-a251-bc2411833e01",
+   "model": "Transparent S24 FE 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro TRANSPARENT ALIGATOR Samsung Galaxy S24 FE 5G - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+     "po": "Priehľadné silikónové puzdro Aligator pre Samsung Galaxy S24 FE 5G. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136966",
+   "guid": "84c1eb14-92ac-11f1-a3c4-bc2411833e01",
+   "model": "Transparent 16e",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.TRANSPARENT ALIGATOR Apple iPhone 16e - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+     "po": "Priehľadné silikónové puzdro Aligator pre Apple iPhone 16e. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136960",
+   "guid": "960e7fb8-92ac-11f1-830e-bc2411833e01",
+   "model": "Transparent A36 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puz.TRANSPARENT ALIGATOR Sam Gal A36 (5G) - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+     "po": "Priehľadné silikónové puzdro Aligator pre Samsung Galaxy A36 5G. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104791",
+   "guid": "7bb8790c-92ac-11f1-af49-bc2411833e01",
+   "model": "Bumperzz A15",
+   "polia": {
+    "shortDescription": {
+     "pred": "Puzdro ALIGATOR Bumperzz Samsung Galaxy A15 4G/5G/LTE, čierne Vlastnosti:Dedikovaný zadný krytŠpeciálne vystužené rohyVysoko kvalitné spracovanie...",
+     "po": "Čierny zadný kryt Aligator Bumperzz pre Samsung Galaxy A15 4G/5G/LTE so špeciálne vystuženými rohmi a presnými výrezmi. Chráni telefón pred poškodením a ponúka nadčasový dizajn."
+    },
+    "metaDescription": {
+     "pred": "Ochranný kryt ALI Bumperzz od značky Aligator pre Samsung Galaxy A15, kód PAZ0058. Pozrite si parametre a cenu na PremiumStore.sk.",
+     "po": "Čierny kryt Aligator Bumperzz pre Samsung Galaxy A15 so zosilnenými rohmi a presnými výrezmi. Pozrite si parametre a cenu na PremiumStore.sk."
+    }
+   }
+  }
+ ],
+ "overenie": "Zápis potvrdený odpoveďou product_update (updatedFields); overiť po nočnom importe.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
