@@ -10568,6 +10568,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -58816,6 +58817,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -103461,10 +103463,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -127768,6 +127772,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -136336,6 +136341,9 @@ Dancing Circle
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>061847</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6976788020148</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom > Puzdrá na mobilné telefóny]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY><CATEGORY><![CDATA[Počítače, mobily a tablety > Príslušenstvo k mobilom a tabletom]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
@@ -139695,10 +139703,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.60</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -145898,6 +145908,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -145993,6 +146004,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -150973,6 +150985,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -176491,14 +176504,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -187091,7 +187104,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>071861</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>3</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>5907085520445</EAN>
 <CATEGORIES>
@@ -187479,6 +187492,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -198009,6 +198023,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -198619,14 +198634,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -234120,6 +234135,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -239209,6 +239225,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -259303,6 +259320,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -288433,10 +288451,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -291340,166 +291360,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
 <SEO_TITLE><![CDATA[Inteligentné hodinky Colmi P86 (zlaté) | premiumstore.sk]]></SEO_TITLE>
 <META_DESCRIPTION><![CDATA[Inteligentné hodinky Colmi P86 (zlaté) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
-<NAME><![CDATA[Inteligentné hodinky Colmi P86 (strieborné)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Inteligentné hodinky Colmi P86 (strieborné) Colmi P86 sú inteligentné hodinky navrhnuté pre pohodlie, každodenný komfort a funkčnosť. Vážia len 40 gramov, takže sú na vašom zápästí prakticky…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Inteligentné hodinky Colmi P86 (strieborné)</h3>
-<p>Colmi P86 sú inteligentné hodinky navrhnuté pre pohodlie, každodenný komfort a funkčnosť. Vážia len 40 gramov, takže sú na vašom zápästí prakticky nepostrehnuteľné - či už ste v práci, na tréningu alebo relaxujete. Zabudovaný displej Always On Display vám poskytuje prístup k najdôležitejším informáciám bez toho, aby ste museli zariadenie prebúdzať, a otočné bočné tlačidlo uľahčuje navigáciu v ponukách. Hodinky ponúkajú viac ako 100 športových režimov a monitorujú kľúčové zdravotné parametre. Dopĺňa ich široký výber ciferníkov, ktoré si môžete prispôsobiť svojmu štýlu, a to aj pomocou vlastných fotografií.</p>
-<p>
-<img alt="Strieborné inteligentné hodinky Colmi s bielym a modrým remienkom." border="0" src="https://assets.innpro.pl/18186/24146/2.jpg"/>
-</p><h3>Ľahký dizajn a pohodlné ovládanie</h3>
-<p>Inteligentné hodinky vážia len 40 gramov, čo sa premieta do pohodlného používania aj počas celého dňa. Vďaka ľahkej konštrukcii hodinky netlačia a neprekážajú pri fyzickej aktivite ani pri spánku. Výrobca použil aj otočnú korunku, pomocou ktorej môžete intuitívne posúvať obrazovku, meniť zobrazenia a približovať alebo odďaľovať obsah.</p>
-<p>
-<img alt="Korunka čiernych inteligentných hodiniek." border="0" src="https://assets.innpro.pl/18186/24146/3.jpg"/>
-</p><h3>Ľahko čitateľný displej</h3>
-<p>Hodinky Colmi P86 sú vybavené 1,93" displejom AMOLED s rozlíšením 368 x 448 px, ktorý umožňuje pohodlný a prehľadný prístup k oznámeniam a nastaveniam. Disponuje tiež širokým 98 % farebným gamutom RGB, presnou reprodukciou farieb a širokým pozorovacím uhlom (178°). Funkcia Always On Display navyše umožňuje neustále zobrazovanie času a ďalších informácií - bez potreby zdvihnúť ruku alebo sa dotknúť obrazovky. Používatelia majú tiež prístup k viac ako 100 štýlom ciferníkov vrátane dynamických a interaktívnych, ako aj k možnosti vytvoriť si vlastný dizajn s obľúbenou fotografiou.</p>
-<p>
-<img alt="Detailný záber na displej strieborných inteligentných hodiniek." border="0" src="https://assets.innpro.pl/18186/24146/1.jpg"/>
-</p><h3>Každodenné monitorovanie zdravotného stavu</h3>
-<p>Hodinky majú 8-kanálový snímač srdcového tepu, snímač saturácie krvi (SpO2) a funkciu na meranie úrovne stresu. Monitoruje aj kvalitu spánku analýzou dĺžky a hĺbky spánku, čo vám umožní lepšie pochopiť vlastné návyky a zlepšiť spánkovú hygienu. Pre ženy je k dispozícii funkcia sledovania menštruačného cyklu s pripomienkami.</p>
-<p>
-<img alt="Inteligentné hodinky zobrazujúce monitorovanie menštruačného cyklu," border="0" src="https://assets.innpro.pl/18186/24146/4.jpg"/>
-</p><h3>Pripravený na tréning</h3>
-<p>Vďaka viac ako 100 športovým režimom možno hodinky prispôsobiť takmer každej aktivite - od behu a bicyklovania až po jogu alebo silový tréning. Vďaka presným snímačom je možné presne sledovať spálené kalórie a pokrok v reálnom čase. Je to praktická podpora pre tých, ktorí trénujú pravidelne, aj pre tých, ktorí s tréningom ešte len začínajú.</p>
-<p>
-<img alt="Žena s tenisovou raketou v ruke a smart hodinkami na zápästí." border="0" src="https://assets.innpro.pl/18186/24146/5.jpg"/>
-</p><h3>Odolná konštrukcia</h3>
-<p>Hodinky spĺňajú normu odolnosti voči vode 1ATM, čo znamená, že zvládnu postriekanie vodou, dážď atď. Vďaka vstavanej batérii s kapacitou 400 mAh vydržia v základnom režime až 12 dní a pri intenzívnom používaní až 7 dní.</p>
-<p>
-<img alt="Čierne inteligentné hodinky pod vodou." border="0" src="https://assets.innpro.pl/18186/24146/6.jpg"/>
-</p><h3>Funkcie, ktoré vám uľahčia deň</h3>
-<p>Colmi P86 ponúka funkciu volania cez Bluetooth, ako aj možnosť prijímať oznámenia z telefónu, vďaka čomu môžete byť informovaní bez toho, aby ste museli siahať po smartfóne. K dispozícii je aj hudobný prehrávač, kalkulačka, budík s pripomienkami, ovládanie fotoaparátu telefónu, hry a hlasový asistent. Vďaka tomu sú hodinky užitočné nielen ako nástroj na monitorovanie zdravia a tréningu, ale aj ako praktický spoločník v každodennom živote.</p>
-<p>
-<img alt="Čierne inteligentné hodinky so zapnutým prehrávačom hudby." border="0" src="https://assets.innpro.pl/18186/24146/8.jpg"/>
-</p>
-<h3>Priložené stránky</h3>
-<ul class="list-disc pl-5"><li>inteligentné hodinky</li><li>magnetický nabíjací kábel</li><li>používateľská príručka</li></ul>
-<div class="table-wrapper">
-<p> </p>
-<h3>Všeobecné informácie</h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Colmi</td></tr><tr><th>Model</th><td>P86</td></tr><tr><th>Čipová súprava</th><td>JL7012</td></tr><tr><th>Pamäť flash</th><td>RAM 640KB ROM 128Mb</td></tr><tr><th>HR senzor</th><td>HX3918</td></tr><tr><th>Rozmery puzdra</th><td>44,3 x 37,6 x 11 mm</td></tr><tr><th>Farba obalu</th><td>Strieborná</td></tr><tr><th>Materiál puzdra</th><td>PC + ABS</td></tr><tr><th>Popruh</th><td>Silikón</td></tr><tr><th>Šírka remienka</th><td>22 mm</td></tr><tr><th>Hmotnosť hodiniek</th><td>43 g</td></tr><tr><th>Tlačidlo</th><td>Otočná korunka (1 kus)</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Nabíjateľná batéria a napájací zdroj</h3>
-<table>
-<tbody>
-<tr><th>Typ batérie</th><td>Lítium-polymér</td></tr><tr><th>Kapacita</th><td>400 mAh</td></tr><tr><th>Čas nabíjania</th><td>Približne 2 hodiny</td></tr><tr><th>Spôsob nabíjania</th><td>Magnetický 2-kolíkový kábel</td></tr><tr><th>Prevádzkový čas</th><td>5-7 dní (typické používanie)</td></tr><tr><th>Pohotovostný čas</th><td>Až 30 dní</td></tr><tr><th>Počet nabíjacích cyklov</th><td>Viac ako 300</td></tr><tr><th>Systém ochrany</th><td>Seiko Y1</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Displej</h3>
-<table>
-<tbody>
-<tr><th>Typ</th><td>AMOLED</td></tr><tr><th>Uhlopriečka</th><td>1,93"</td></tr><tr><th>Rozlíšenie</th><td>368 × 448 pixelov</td></tr><tr><th>Pozorovací uhol</th><td>178°</td></tr><tr><th>Typ obrazovky</th><td>dotykový displej</td></tr><tr><th>Dizajn</th><td>Sklo</td></tr><tr><th>Technológia tavenia</th><td>Úplné prispôsobenie s OCA</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Pripojiteľnosť</h3>
-<table>
-<tbody>
-<tr><th>Bluetooth</th><td>5.3</td></tr><tr><th>Dosah Bluetooth</th><td>10 metrov</td></tr><tr><th>Aplikácia</th><td>Colmi Fit</td></tr><tr><th>Kompatibilné operačné systémy</th><td>Android 4.4 a vyšší / iOS 8.0 a vyšší / HarmonyOS</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Vodotesnosť</h3>
-<table>
-<tbody>
-<tr><th>Trieda ochrany</th><td>1ATM</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Multimédiá a zvuk</h3>
-<table>
-<tbody>
-<tr><th>Reproduktor</th><td>Áno</td></tr><tr><th>Mikrofón</th><td>Áno</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Jazyky</h3>
-<table>
-<tbody>
-<tr><th>Smartwatch</th><td>Angličtina, čínština, japončina, kórejčina, nemčina, francúzština, španielčina, arabčina, ruština, ukrajinčina, taliančina, portugalčina, holandčina, poľština, maďarčina, čeština, rumunčina, indonézština, thajčina, turečtina, vietnamčina, gréčtina, malajčina, bengálčina, kazaština</td></tr><tr><th>Aplikácia</th><td>Angličtina, zjednodušená čínština, tradičná čínština, nemčina, francúzština, arabčina, čeština, gréčtina, španielčina, japončina, perzština, taliančina, kórejčina, poľština, portugalčina, ruština, fínčina, švédčina, thajčina, maďarčina, slovenčina, chorvátčina, albánčina, turečtina, ukrajinčina</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Funkcie</h3>
-<table>
-<tbody>
-<tr><th>Funkcie sledovania</th><td>Aktivita, Športové režimy, História tréningov, Relaxácia, Monitorovanie spánku, Meranie srdcového tepu, Meranie krvného tlaku, Meranie nasýtenia krvi (SpO2), Meranie úrovne stresu, Sledovanie menštruačného cyklu, Telefónne hovory, Upozornenia SMS, Počasie, Hlasový asistent AI, Vzdialené ovládanie fotoaparátu, Prehrávač hudby, Časovač, Budík, Stopky, Svetové hodiny, Burza cenných papierov, Kalkulačka, Hry, Moslimský režim, Modlitba, Meditácia, Nájsť telefón, Nastavenia, Úprava jasu, Automatická detekcia spánku, Zmena ciferníka, Zobrazenie ponuky, Podsvietenie obrazovky pri zdvihnutí ruky, Vibrácie a zvuk, Režim spánku, Režim nerušiť, Režim úspory energie, Zapnutie/vypnutie telefónu, Zvuk Bluetooth, Reset telefónu, Režim nočného stolíka, Vypnutie obrazovky zakrytím, Úprava času, Hodiny na obrazovke, Výber jazyka, Reštart, Vypnutie, Resetovanie nastavení, Verzia systému, Stiahnutie aplikácie, E-karta, Baterka</td></tr><tr><th>Funkcie aplikácie</th><td>Kroky, Vzdialenosť, Spálené kalórie, Čas chôdze, Denné údaje o krokoch, Týždenné údaje o krokoch, Mesačné údaje o krokoch, Výsledky za posledných 7 dní, Porovnanie počtu krokov s inými používateľmi, Monitor spánku, Hodnotenie kvality spánku, Trendy spánku za posledných 7 dní, Tepová frekvencia, História merania srdcovej frekvencie (posledných 7 meraní), Sýtosť krvi (SpO2), História meraní SpO2 (posledných 7 meraní), Menštruačný cyklus, Hmotnosť, Pripomienka hydratácie alebo jedla, Aktivity, Tréningový program, Meditačný tréning, Cvičenie, Zobrazenie histórie tréningov, Stav batérie hodiniek, Úložisko ciferníkov, Upozornenia, Nájsť zariadenie, Budíky, Svalový režim, Svetové hodiny, Nastavenia zásob, Diaľkové ovládanie fotoaparátu, Programovateľné tlačidlo, E-karta, Obľúbené kontakty, Formát času, Systém jednotiek, Jazyk aplikácie, Automatický zámok, Denné citáty, Rýchly náhľad, Ovládanie hudby v telefóne, Režim nerušiť, Režim úspory energie, Počasie, Jednotka teploty, Výber mesta, Nastavenia SOS pomoci, Nepretržité monitorovanie srdcového tepu, Pripomenutie aktivity, Upozornenie na vysoký srdcový tep, Pripomenutie fyziologického cyklu, Počet dní cyklu, Menštruačné dni, Dátum začiatku poslednej menštruácie, Režim pripomenutia cyklu, Nastavenie času pripomenutia cyklu, Kalendár cyklu, Reset aplikácie, Aktualizácia softvéru, Profil používateľa, Ciele aktivity, Sprievodca ochranou aktivity na pozadí aplikácie, Informácie o aplikácii</td></tr>
-</tbody>
-</table><p> </p>
-<h3>Športové režimy</h3>
-<table>
-<tbody>
-<tr><th>Zoznam športových režimov</th><td>Chôdza, beh, bicyklovanie, skákanie, bedminton, basketbal, futbal, horolezectvo, tenis, rugby, golf, joga, cvičenie, tanec, bejzbal, orbitrek, stacionárne bicyklovanie, voľný tréning, veslovanie, beh vonku, chôdza, kabaddi, lezenie po skalách, skateboarding, jazda na kolieskových korčuliach, parkour, štvorkolky, paragliding, triatlon, činky, brušný tréning, chôdza v interiéri, beh v interiéri, stepper, lezenie do schodov, stepper, tréning trupových svalov, flexibilita, pilates, gymnastika, strečing, sila, crossový tréning, aerobik, telesná výchova, wall ball, činka, mŕtvy ťah, horná časť tela, funkčný tréning, burpee, chrbát, dolná časť tela, brušné svaly, HIIT, vzpieranie, square dance, brušné tance, balet, zumba, latinskoamerické tance, street dance, ľudový tanec, jazzový tanec, box, zápasenie, bojové umenia, tai chi, muay thai, džudo, taekwondo, karate, kickbox, šerm, kendo, bowling, kriket, volejbal, softbal, pozemný hokej, stolný tenis, hádzaná, squash, biliard, bedminton, plážový futbal, plážový volejbal, lyžovanie, korčuľovanie, curling, iné zimné športy, jazda na snežných skútroch, ľadový hokej, bobovanie, sánkovanie, lukostreľba, šípky, preťahovanie lanom, hula-hop, púšťanie drakov, jazda na koni, frisbee, rybolov, jazdecké športy, automobilové preteky, atletika, plachtenie, vodné pólo, iné vodné športy, vodné lyžovanie, kajak, rafting, veslovanie, motorové člny, potápanie, umelecké plávanie, šnorchlovanie, kitesurfing, plávanie v prírode</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=75848_55269_pol_59231dc3d20eebc5e4756f0f255b4e4d" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/nositelna-elektronika-2/">Nositeľná elektronika</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[COLMi]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>079607</CODE>
-<EAN>6972436987245</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika > Nositeľná elektronika]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
-  <CATEGORY><![CDATA[Počítače, mobily a tablety > Mobily, tablety a nositeľná elektronika]]></CATEGORY>
-</CATEGORIES>
-<IMAGES>
-  <IMAGE description="Inteligentné hodinky Colmi P86 (strieborné) - obrázok 1">https://b2b.innpro.sk/hpeciai/1c2036685b789583b2ec9234d0439306/55269_1.jpg</IMAGE>
-  <IMAGE description="Inteligentné hodinky Colmi P86 (strieborné) - obrázok 2">https://b2b.innpro.sk/hpeciai/76e8831d4fbaaa3da45d91d9faff298b/55269_2.jpg</IMAGE>
-  <IMAGE description="Inteligentné hodinky Colmi P86 (strieborné) - obrázok 3">https://b2b.innpro.sk/hpeciai/4b166ad72636d621e1f0d5a898b91eb9/55269_3.jpg</IMAGE>
-  <IMAGE description="Inteligentné hodinky Colmi P86 (strieborné) - obrázok 4">https://b2b.innpro.sk/hpeciai/57003a7867963e00947de75f9d1d8e64/55269_4.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Kompatibilita]]></NAME>
-    <VALUE><![CDATA[iOS]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pojemność akumulatora]]></NAME>
-    <VALUE><![CDATA[450]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Funkcie]]></NAME>
-    <VALUE><![CDATA[Pulzný oxymeter]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Tvar obrazovky]]></NAME>
-    <VALUE><![CDATA[Štvorcové]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Always on display]]></NAME>
-    <VALUE><![CDATA[Áno]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[GPS]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[E-sim]]></NAME>
-    <VALUE><![CDATA[Nie]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Bezpieczeństwo]]></NAME>
-    <VALUE><![CDATA[Bezpieczeństwo - rodzaj ostrzeżenia]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<FREE_SHIPPING>0</FREE_SHIPPING>
-<PRICE_VAT>22.55</PRICE_VAT>
-<PURCHASE_PRICE>15.20</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Inteligentné hodinky Colmi P86 (strieborné) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Inteligentné hodinky Colmi P86 (strieborné) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-<STANDARD_PRICE>22.55</STANDARD_PRICE>
-<ACTION_PRICE>19.50</ACTION_PRICE>
-<FLAGS><FLAG><CODE>action</CODE><ACTIVE>1</ACTIVE></FLAG></FLAGS>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Inteligentné hodinky Colmi P86 (ružové zlato)]]></NAME>
@@ -301149,6 +301009,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -301225,6 +301086,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -316297,10 +316159,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>182.90</PRICE_VAT>
 <PURCHASE_PRICE>129.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -364385,6 +364249,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -379259,6 +379124,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -390944,6 +390810,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -391034,6 +390901,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -397595,6 +397463,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -401541,6 +401410,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -412222,6 +412092,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -440980,6 +440851,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -450482,7 +450354,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -456656,14 +456531,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -480637,6 +480516,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -482669,6 +482549,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -484140,6 +484021,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -484457,6 +484339,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -508509,6 +508392,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>089654</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>5905156106741</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > USB káble]]></CATEGORY>
@@ -509317,10 +509203,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -521276,10 +521164,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>27.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -523464,10 +523354,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -525226,14 +525118,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -591830,6 +591725,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -649659,10 +649555,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -653062,6 +652960,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>079607</CODE>
+    <EAN>6972436987245</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>079610</CODE>
     <EAN>6972436986330</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -655251,7 +655156,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>Meross MRS200MA-EU – Wi-Fi navíjací mechanizmus na rolety</SEO_TITLE><META_DESCRIPTION>Inteligentný navíjací mechanizmus Meross MRS200MA-EU na rolety s Wi-Fi. Overte si kompatibilitu, napájanie a podmienky montáže.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>087768</CODE>
     <EAN>6975114120798</EAN>
@@ -655363,7 +655268,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088386</CODE>
     <EAN>5905156105379</EAN>
@@ -655524,7 +655429,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088871</CODE>
     <EAN>6942580504940</EAN>
@@ -655636,7 +655541,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>FNIRSI FNB-C2 – USB tester | PremiumStore.sk</SEO_TITLE><META_DESCRIPTION>USB tester FNIRSI FNB-C2. Pozrite si merané veličiny, podporované konektory a technické parametre na PremiumStore.sk.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>089337</CODE>
     <EAN>5905156108226</EAN>

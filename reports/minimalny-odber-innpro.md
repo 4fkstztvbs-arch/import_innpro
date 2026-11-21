@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-21 21:17 UTC.
+Kontrola z 2026-11-21 23:52 UTC.
 
-InnPro pri **393** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **395** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -138,6 +138,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `061835` | Puzdro Joyroom PN-15F1 Starry Case pre iPhone 15 Pro (zelené | — | 5 |
 | `063431` | Silikónové bezpečnostné puzdro pre Puluz Insta360 GO 3 s kry | — | 5 |
 | `063488` | Selfie tyč Puluz pre športové fotoaparáty (čierna) | — | 5 |
+| `061847` | Joyroom PN-14L2 Puzdro Dancing Circle pre iPhone 14 Pro (mod | — | 5 |
 | `063754` | Rozširujúci ochranný adaptér PULUZ pre OSMO Pocket 3 | — | 5 |
 | `063492` | Adaptér OTG USB-C na Lightning Puluz PU649B | — | 5 |
 | `064473` | Rolax InnovaGoods self-massaging roller V0103075 | — | 5 |
@@ -184,7 +185,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071040` | WAUDOG natural leather dog leash 20 mm wide, 122 cm long pin | — | 5 |
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
-| `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 3 |
+| `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 2 |
 | `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
 | `071869` | SUNNYLIFE propeller guard for DJI Neo (gray) | — | 4 |
 | `071859` | Sunnylife landing gear upgrade for DJI Neo (gray) | — | 5 |
@@ -375,6 +376,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `089647` | Príslušenstvo Puluz pre GoPro HERO 12/11/10 Black | — | 5 |
 | `089648` | Pena Puluz pre GoPro HERO13 Black | — | 5 |
 | `089651` | Držiak na smartfón Puluz s prísavkou a otočným mechanizmom o | — | 5 |
+| `089654` | Adaptér Puluz z 8-pinového konektora na USB-C OTG (čierny) | — | 5 |
 | `089656` | Puzdro Puluz pre Insta360 X4 a X5 (čierne) | — | 5 |
 | `089658` | Silikónové puzdro Puluz pre GoPro HERO12, HERO11, HERO10 a H | — | 5 |
 | `089659` | Odolný kryt objektívu Puluz pre GoPro HERO13 Black (čierny) | — | 5 |
