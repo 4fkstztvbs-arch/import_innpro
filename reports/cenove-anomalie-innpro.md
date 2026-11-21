@@ -422,7 +422,5 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 096496 | 4897143173427 | Filter FREEWELL pre Insta360 X6 ND32 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096497 | 4897143173434 | ND filter FREEWELL pre Insta360 X6 ND64 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096498 | 4897143173328 | Sada ND filtrov FREEWELL pre Insta360 X6 ND16/32/64 | nulová/neplatná cena |  | 0.00 € |  |  |
-| 035845 | 6941565916839 | Luminiscenčná letová mapa DJI RoboMaster TT | zmena ceny > 5x oproti minulému importu | 801.00 € | 146.50 € | 1/5.5x |  |
-| 061857 | 6976788020391 | Joyroom PN-14F2 Starry Case pre iPhone 14 Pro (ružové) | zmena ceny > 5x oproti minulému importu | 16.00 € | 3.10 € | 1/5.2x |  |
 | 083142 | 0810098388061 | Sedátko FUNWATER SOP1820001 pre SUP dosku | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 16.00 € | 1/9.0x | 13 |
 | 089175 | 0810143169003 | Ramenný popruh FunWater | cena mimo 8x rozsah mediánu kategórie | 144.50 € | 8.10 € | 1/17.8x | 13 |
