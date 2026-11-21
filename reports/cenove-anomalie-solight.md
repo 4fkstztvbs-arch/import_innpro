@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — solight — 2026-11-20
+# Cenové anomálie vynechané z feedu — solight — 2026-11-21
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -19,6 +19,4 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | WM63-50M-CW | 8592718047665 | Solight LED COB pásik, 50m, studená biela, 10W/m, 1000lm/m, 8mm | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 135.50 € | 11.8x | 75 |
 | WM64-50M-WW | 8592718047672 | Solight LED SMD pásik, 50m, teplá biela, 16W/m, 1500lm/m, 10mm | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 108.50 € | 9.4x | 75 |
 | WM64-50M-NW | 8592718047689 | Solight LED SMD pásik, 50m, neutrálna biela, 16W/m, 1500lm/m, 10mm | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 108.50 € | 9.4x | 75 |
-| FV-BMS-HVC60050-A1 | 8592718032760 | Solight Growat BMS (batériový riadiaci systém) pre batérie ARK-2,5H-A1 a meniče  | zmena ceny > 5x oproti minulému importu | 518.50 € | 103.50 € | 1/5.0x |  |
 | WM64-50M-CW | 8592718047696 | Solight LED SMD pásik, 50m, studená biela, 16W/m, 1500lm/m, 10mm | cena mimo 8x rozsah mediánu kategórie | 11.50 € | 108.50 € | 9.4x | 75 |
-| FV-SPH10000TL3-BH | 8592718032807 | Solight menič Growatt SPH10000TL3-BH 10kW, trojfázový, hybridný, asymetrický | zmena ceny > 5x oproti minulému importu | 1370.50 € | 273.00 € | 1/5.0x |  |

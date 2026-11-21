@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-20 01:16 UTC.
+Kontrola z 2026-11-21 00:48 UTC.
 
-Solight pri **492** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **488** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -290,14 +290,12 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WT132-A` | Solight LED žiarivka lineárna T8, 22W, 3080lm, 4000K, 150cm, | 3 | 25 |
 | `PP42` | Solight predlžovací prívod, 5 zásuviek, biely, 3m | 3 | 40 |
 | `RNP150-R` | Solight reťaz pre akumulátorovú pílu RNP150 | 3 | 100 |
-| `1V246` | Solight LED ratanová hviezda, 40x LED, 2x AA, 40cm | 3 | 6 |
 | `PF21` | Solight flexo šnúra, 3x 1,5mm2, biela, 3m | 3 | 50 |
 | `PP60` | Solight predlžovací prívod, 6 zásuviek, biely, 1,5 m | 3 | 50 |
 | `WN53` | Solight LED čelové nabíjacie svietidlo, 100lm, sensor, Li-Io | 3 | 72 |
 | `SSC19005-S` | Solight USB-C/Lightning kábel, USB-C konektor - Lightning ko | 3 | 50 |
 | `PP22` | Solight predlžovací prívod, 4 zásuvky, biely, 3m | 3 | 40 |
 | `PP51` | Solight predlžovací prívod, 5 zásuviek, biely, vypínač, 2m | 3 | 50 |
-| `1V260` | Solight LED nástenná dekorácia vianočný stromček, 24x LED, 2 | 3 | 12 |
 | `PF02` | Solight flexo šnúra, 3x 1mm2, biela, 5m | 3 | 50 |
 | `PP61` | Solight predlžovací prívod, 6 zásuviek, biely, 2m | 3 | 50 |
 | `WZ5004` | Solight extra úsporná LED žiarovka 7,2 W, 1521lm, 2700K, ekv | 3 | 100 |
@@ -362,7 +360,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `DA26` | Solight univerzálny sieťový adaptér 1500mA, stabilizovaný, v | 2 | 40 |
 | `PA01-IN` | Solight cestovný adaptér do Indie, typ D | 2 | 100 |
 | `1V219` | Solight LED anjeli, drevo, biela farba, 2x AA | 2 | 40 |
-| `WL906` | Solight LED svetielka s diaľkovým ovládaním, 3x 50lm, časova | 2 | 24 |
 | `1D33` | Solight detektor dymu + alarm, 85dB, biely + 9V batéria | 2 | 100 |
 | `WO744` | Solight LED vonkajšie osvetlenie oválne, 13W, 910lm, 4000K,  | 2 | 32 |
 | `1V110-W` | Solight LED vonkajšia vánočná reťaz, 50 LED, 5m, prívod 3m,  | 2 | 12 |
@@ -496,7 +493,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WN45` | Solight LED nabíjací zadné cyklo svetlo, 3W COB, nabíjací, L | 2 | 96 |
 | `PA01-CH` | Solight cestovný adaptér do Švajčiarska, typ J | 2 | 100 |
 | `TE110S` | Solight senzor pre meteostanice TE110 | 2 | 50 |
-| `PP147` | Solight 4z predlžovací prívod, 2m, 3 x 1mm2, biely, vypínač | 2 | 10 |
 | `PA01-IT` | Solight cestovný adaptér do Talianska, typ L | 2 | 100 |
 | `PA01-AU` | Solight cestovný adaptér do Číny a Austrálie, typ I | 2 | 100 |
 | `DT35` | Solight digitálny časový spínač | 2 | 30 |
