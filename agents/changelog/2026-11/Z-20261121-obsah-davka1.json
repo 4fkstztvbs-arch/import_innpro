@@ -1,0 +1,195 @@
+{
+ "id": "Z-20261121-obsah-davka1",
+ "datum": "2026-11-21",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 1 (21. 11.): 15 tvrdených skiel Aligator (GLASS, GLASS ULTRA, GLASS PRINT); nové krátke popisy z overených faktov, meta ostali.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104798",
+   "guid": "7be1acaa-92ac-11f1-996f-bc2411833e01",
+   "model": "GLA0275 iPhone 17/17 Pro/16 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS Apple iPhone 16 Pro,17/17 Pro - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zaistí perfektné prilnutie k displ",
+     "po": "Ochranné tvrdené sklo Aligator GLASS pre Apple iPhone 17, 17 Pro a 16 Pro z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104799",
+   "guid": "7beb2fd2-92ac-11f1-a959-bc2411833e01",
+   "model": "GLA0276 iPhone 17 Pro Max/16 Pro Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS Apple iPhone 16 Pro Max,17 Pro Max - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zaistí perfektné prilnutie k",
+     "po": "Ochranné tvrdené sklo Aligator GLASS pre Apple iPhone 17 Pro Max a 16 Pro Max z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002104804",
+   "guid": "7bf49ffe-92ac-11f1-a2b7-bc2411833e01",
+   "model": "GLP0254 iPhone 16 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS PRINT iPhone 16 Pro, celoplošné lepenieTlačené okrajeVysoko odolné proti poškriabaniuObmedzuje odleskyVyhladzuje a zaceľuje už poškriabaný displejExtrémna tvrdosť 9HZaoblené hrany",
+     "po": "Ochranné tvrdené sklo Aligator GLASS PRINT pre Apple iPhone 16 Pro s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002122030",
+   "guid": "7c9231f6-92ac-11f1-bcc4-bc2411833e01",
+   "model": "GLA0285 Galaxy S25 Ultra",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS Samsung Galaxy S25 Ultra - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displeju.;",
+     "po": "Ochranné tvrdené sklo Aligator GLASS pre Samsung Galaxy S25 Ultra z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136973",
+   "guid": "7d9e76ea-92ac-11f1-8cf5-bc2411833e01",
+   "model": "GLP0272 Galaxy A26 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS PRINT Sam A26 (5G), čierna Tlačené okrajeVeľmi odolné proti poškriabaniuObmedzuje odleskyVyhladzuje a zaceľuje už poškriabaný displejExtrémna tvrdosť 9HZaoblené hrany",
+     "po": "Čierne ochranné tvrdené sklo Aligator GLASS PRINT pre Samsung Galaxy A26 5G s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136975",
+   "guid": "7da830a4-92ac-11f1-8b39-bc2411833e01",
+   "model": "GLP0264 Redmi A5 4G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS PRINT Xiaomi Redmi A5 4G, čierna, celoplošné lepenie Tlačené okrajeVeľmi odolné proti poškriabaniuObmedzuje odleskyVyhladzuje a zaceľuje už poškriabaný displejExtrémna tvrdosť 9HZaoblené hrany",
+     "po": "Čierne ochranné tvrdené sklo Aligator GLASS PRINT pre Xiaomi Redmi A5 4G s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002122029",
+   "guid": "833f3526-92ac-11f1-af72-bc2411833e01",
+   "model": "GLA0283 Galaxy S25+",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS Samsung Galaxy S25+ - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displeju.; ;",
+     "po": "Ochranné tvrdené sklo Aligator GLASS pre Samsung Galaxy S25+ z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002136976",
+   "guid": "84cbbffe-92ac-11f1-9506-bc2411833e01",
+   "model": "GLA0291 Redmi A5 4G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS Xiaomi Redmi A5 4G GLA0291  - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displej",
+     "po": "Ochranné tvrdené sklo Aligator GLASS pre Xiaomi Redmi A5 4G z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001956830",
+   "guid": "8d2047ec-92ac-11f1-9a3f-bc2411833e01",
+   "model": "GLA0232 Galaxy A34 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochranné tvrdené sklo ALIGATOR GLASS, Samsung Galaxy A34 (5G) -Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie",
+     "po": "Ochranné tvrdené sklo Aligator GLASS pre Samsung Galaxy A34 5G z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100001956831",
+   "guid": "8d29c128-92ac-11f1-8c25-bc2411833e01",
+   "model": "GLA0233 Galaxy A54 5G",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochranné tvrdené sklo ALIGATOR GLASS, Samsung Galaxy A54 (5G) -Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie",
+     "po": "Ochranné tvrdené sklo Aligator GLASS pre Samsung Galaxy A54 5G z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002069073",
+   "guid": "8d3e465c-92ac-11f1-909d-bc2411833e01",
+   "model": "GLA0257 Ultra iPhone 15 Pro Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS ULTRA iPhone 15 Pro Max - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displeju.",
+     "po": "Ochranné tvrdené sklo Aligator GLASS ULTRA pre Apple iPhone 15 Pro Max z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002069074",
+   "guid": "8d47e1b2-92ac-11f1-96ec-bc2411833e01",
+   "model": "GLP0230 iPhone 16/15",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS PRINT iPhone 15 čierna, celoplošné lepenie; Tlačené okraje; Veľmi odolné proti poškriabaniu; Obmedzuje odlesky; Vyhladzuje a zaceľuje už poškriabaný displej; Extrémna tvrdosť 9H; Zaoblené hrany",
+     "po": "Čierne ochranné tvrdené sklo Aligator GLASS PRINT pre Apple iPhone 16 a 15 s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002069077",
+   "guid": "8d53c252-92ac-11f1-93c9-bc2411833e01",
+   "model": "GLP0233 iPhone 15 Pro Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS PRINT iPhone 15 Pro Max čierna, celoplošné lepenie; Tlačené okraje; Veľmi odolné proti poškriabaniu; Obmedzuje odlesky; Vyhladzuje a zaceľuje už poškriabaný displej; Extrémna tvrdosť 9H; Zaoblené hrany",
+     "po": "Čierne ochranné tvrdené sklo Aligator GLASS PRINT pre Apple iPhone 15 Pro Max s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164615",
+   "guid": "9056799a-92ac-11f1-bc83-bc2411833e01",
+   "model": "GLP0276 iPhone 17 Pro Max",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS PRINT iPhone 17 Pro Max čierna, celoplošné lepenie Tlačené okraje; Veľmi odolné proti poškriabaniu; Obmedzuje odlesky; Vyhladzuje a zaceľuje už poškriabaný displej; Extrémna tvrdosť 9H; Zaoblené hrany;",
+     "po": "Čierne ochranné tvrdené sklo Aligator GLASS PRINT pre Apple iPhone 17 Pro Max s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "KB_100002164612",
+   "guid": "907eafd2-92ac-11f1-925b-bc2411833e01",
+   "model": "GLP0277 iPhone 17 Air",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ochrana displeja GLASS PRINT iPhone 17 Air čierna, celoplošné lepenie Tlačené okraje; Veľmi odolné proti poškriabaniu; Obmedzuje odlesky; Vyhladzuje a zaceľuje už poškriabaný displej; Extrémna tvrdosť 9H; Zaoblené hrany;",
+     "po": "Čierne ochranné tvrdené sklo Aligator GLASS PRINT pre Apple iPhone 17 Air s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+    }
+   }
+  }
+ ],
+ "overenie": "product_update vrátil updatedFields shortDescription pre všetkých 15 produktov.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
