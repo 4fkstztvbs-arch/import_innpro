@@ -1,4 +1,4 @@
-# Cenové anomálie vynechané z feedu — innpro — 2026-11-20
+# Cenové anomálie vynechané z feedu — innpro — 2026-11-21
 
 Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede dodávateľa, nie skutočná zmena ceny. Treba ručne overiť a prípadne opraviť/vylúčiť natrvalo.
 
@@ -21,16 +21,16 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 090810 | 6937224148352 | 4-dielna sada magnetických ND filtrov pre DJI Osmo Pocket | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090813 | 6937224164406 | DJI Osmo Pocket 4P – doplnkové osvetlenie | nulová/neplatná cena |  | 0.00 € |  |  |
 | 090815 | 6937224165205 | Kožené puzdro pre DJI Osmo Pocket 4P | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091991 | 6922572224681 | Filament eSun PLA-Wood 1.75mm 1kg (aspen) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091992 | 6922572224698 | Filament eSun PLA-Wood 1.75mm 1kg (walnut) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091993 | 6922572225329 | Filament eSun PLA-Wood 1.75mm 1kg (oak) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091994 | 6922572215580 | Filament eSun PLA-UV Color Change 1.75mm (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091995 | 6922572215566 | Filament eSun PLA-UV Color Change 1.75mm | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091996 | 6922572215573 | Filament eSun PLA-UV Color Change 1.75mm (yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091997 | 6922572215559 | Filament eSun PLA-UV Color Change 1.75mm (blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091998 | 6922572215597 | Filament eSun PLA-UV Color Change 1.75mm (green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091999 | 6922572215603 | Filament eSun PLA-UV Color Change 1.75mm (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092000 | 6922572215610 | Filament eSun PLA-UV Color Change 1.75mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091991 | 6922572224681 | Sun Filament PLA-Wood 1,75 mm 1 kg (osika) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091992 | 6922572224698 | Sun Filament PLA-Wood 1,75 mm 1 kg (orech) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091993 | 6922572225329 | Sun Filament PLA-Wood 1,75 mm 1 kg (dub) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091994 | 6922572215580 | Vlákno eSun PLA-UV Color Change 1,75 mm (oranžové) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091995 | 6922572215566 | Vlákno eSun PLA-UV Color Change 1,75 mm | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091996 | 6922572215573 | Vlákno eSun PLA-UV Color Change 1,75 mm (žlté) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091997 | 6922572215559 | Vlákno eSun PLA-UV Color Change 1,75 mm (modré) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091998 | 6922572215597 | Vlákno eSun PLA-UV Color Change 1,75 mm (zelené) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091999 | 6922572215603 | Vlákno eSun PLA-UV Color Change 1,75 mm (fialová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092000 | 6922572215610 | Vlákno eSun PLA-UV Color Change 1,75 mm | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092001 | 6922572215658 | Filament eSun PLA-Rock 1.75mm 1kg (tiger-porphyry) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092002 | 6922572215665 | Filament eSun PLA-Rock 1.75mm 1kg (granite) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092003 | 6922572215672 | Filament eSun PLA-Rock 1.75mm 1kg (white) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -64,9 +64,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092031 | 6922572227347 | Filament eSun PETG-Basic 1.75mm (translucent light orange) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092032 | 6922572225749 | Filament eSun PETG-Basic 1.75mm (translucent light purple) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092033 | 6922572227354 | Filament eSun PETG-Basic 1.75mm 1kg (translucent red) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092034 | 6922572221758 | Filament eSun PETG-Matte 1.75mm 1kg (white) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092035 | 6922572222717 | Filament eSun PETG-Matte 1.75mm 1kg (light khaki) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092036 | 6922572222724 | Filament eSun PETG-Matte 1.75mm 1kg (peach pink) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092034 | 6922572221758 | Filament eSun PETG-Matte 1,75 mm, 1 kg (biely) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092035 | 6922572222717 | Filament eSun PETG-Matte 1,75 mm 1 kg (svetlo khaki) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092036 | 6922572222724 | Filament eSun PETG-Matte 1,75 mm 1 kg (broskyňovo-ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092037 | 6922572222731 | Filament eSun PETG-Matte 1.75mm 1kg (almond yellow) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092038 | 6922572222748 | Filament eSun PETG-Matte 1.75mm 1kg (apricot) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092039 | 6922572222755 | Filament eSun PETG Matte 1.75mm 1kg (dark grey) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -241,7 +241,7 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092208 | 6922572210783 | Filament eSun PA12+CF 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092209 | 6922572241619 | Filament eSun PA 1.75mm 1kg (clear) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092210 | 6922572222267 | Filament eSun PA 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091977 | 6922572204034 | Vacuum kit eSun eVacuum Kit Pro 3 | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091977 | 6922572204034 | Vákuová súprava eSun eVacuum Kit Pro 3 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091978 | 6922572221383 | Accessory eSun eBox Pro | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091979 | 6922572272019 | Filament eSun TPU-87A 1.75mm 1kg (clear) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091980 | 6922572288713 | Filament eSun ABS-FR 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -249,12 +249,12 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 091982 | 6922572200692 | Filament eSun PLA-Twinkling 1.75mm 1kg (silver) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091983 | 6922572243965 | Filament eSun PLA Marble 1.75mm 1kg (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 091984 | 6922572201576 | Filament eSun PLA-Stars 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091985 | 6922572205512 | Filament eSun PLA-Magic 1.75mm 1kg (dark twinkling gold) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091986 | 6922572205529 | Filament eSun PLA-Magic 1.75mm 1kg (dark twinkling blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091987 | 6922572205536 | Filament eSun PLA-Magic 1.75mm (dark twinkling green) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091988 | 6922572205543 | Filament eSun PLA-Magic 1.75mm (dark twinkling purple) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091989 | 6922572241817 | Filament eSun PLA-Wood 1.75mm 1kg (plain wood) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 091990 | 6922572224360 | Filament eSun PLA-Wood 1.75mm 1kg (birch) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091985 | 6922572205512 | Filament eSun PLA-Magic 1,75 mm, 1 kg (tmavá trblietavá zlatá) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091986 | 6922572205529 | Filament eSun PLA-Magic 1,75 mm, 1 kg (tmavomodrá s trblietavým efektom) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091987 | 6922572205536 | Filament eSun PLA-Magic 1,75 mm (tmavozelená s trblietavým efektom) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091988 | 6922572205543 | Filament eSun PLA-Magic 1,75 mm (tmavá trblietavá fialová) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091989 | 6922572241817 | Filament eSun PLA-Wood 1,75 mm, 1 kg (prírodné drevo) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 091990 | 6922572224360 | Sun Filament PLA-Wood 1,75 mm 1 kg (breza) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092211 | 6922572218741 | Filament eSun PC-HT 1.75mm 1kg (white) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092212 | 6922572218758 | Filament eSun PC-HT 1.75mm 1kg (grey) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092213 | 6922572209121 | Filament eSun PETG-ESD 1.75mm 1kg (black) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -279,9 +279,9 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 092443 | 6922572207950 | Vlákno eSun PLA-Matte Dual 1,75 mm 1 kg (červeno-modré) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092444 | 6922572207998 | Filament eSun PLA-Matte Dual 1,75 mm 1 kg (modro-fialová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092445 | 6922572207974 | Filament eSun PLA-Matte Dual 1,75 mm 1 kg (zelená-ružová) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092347 | 6922572204461 | Filament eSun PLA-Luminous 1.75mm (orange) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092348 | 6922572204447 | Filament eSun PLA-Luminous 1.75mm (blue) | nulová/neplatná cena |  | 0.00 € |  |  |
-| 092349 | 6922572204478 | Filament eSun PLA-Luminous 1.75mm (purple) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092347 | 6922572204461 | Filament eSun PLA-Luminous 1,75 mm (oranžový) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092348 | 6922572204447 | Vlákno eSun PLA-Luminous 1,75 mm (modré) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 092349 | 6922572204478 | Filament eSun PLA-Luminous 1,75 mm (fialová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092364 | 6922572220386 | Sun Filament PLA-Silk 1,75 mm 1 kg (aqua) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092365 | 6922572223981 | Sun Filament PLA-Silk 1,75 mm 1 kg (oranžová) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 092366 | 6922572224001 | Sun Filament PLA-Silk 1,75 mm 1 kg (sivá) | nulová/neplatná cena |  | 0.00 € |  |  |
@@ -411,6 +411,8 @@ Tieto produkty boli vynechané z tohto importu — pravdepodobne chyba vo feede 
 | 094932 | 6924922272144 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 094933 | 6924922272151 | Inteligentné stropné svietidlo Yeelight E1 | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096061 | 6934915213405 | Autokamera DDPAI Z60 Pro 2026 4G Wi-Fi 2CH | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095953 | 6976143802532 | AR okuliare XREAL 1 pro+ (veľkosť M) | nulová/neplatná cena |  | 0.00 € |  |  |
+| 095954 | 6976143802549 | AR okuliare XREAL 1 pro+ (veľkosť L) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096506 | 6942580510460 | Smartfón FOSSIBOT F117 s operačným systémom Android 16 a 8 GB RAM (čierny) | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096511 | 6942580510514 | Tablet FOSSIBOT Tab 12 s operačným systémom Android 14, uhlopriečka 10,95 palca, | nulová/neplatná cena |  | 0.00 € |  |  |
 | 096483 | 4897143173823 | Puzdro FREEWELL pre iPhone 18 Pro s 17 mm uchytením | nulová/neplatná cena |  | 0.00 € |  |  |

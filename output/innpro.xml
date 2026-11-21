@@ -10568,6 +10568,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -58816,6 +58817,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -88738,6 +88740,9 @@ DJI RC PRO/M300RTK/MAVIC 2/T20
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>050684</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6973734687318</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Vysávače]]></CATEGORY>
@@ -103458,10 +103463,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -127765,6 +127772,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -139692,10 +139700,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.60</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -145895,6 +145905,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -145990,6 +146001,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -150970,6 +150982,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -176488,14 +176501,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -187476,6 +187489,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -198070,6 +198084,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -198680,14 +198695,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -234181,6 +234196,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -239270,6 +239286,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -241818,7 +241835,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>077820</CODE>
 <STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+  <MINIMAL_AMOUNT>2</MINIMAL_AMOUNT>
 </STOCK>
 <EAN>6978061957639</EAN>
 <CATEGORIES>
@@ -248806,9 +248823,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="Chladnička na nápoje Euhomy BR001 - obrázok 1">https://b2b.innpro.sk/hpeciai/fc516b73c2a1991653fe9513425ff0ac/53611_2.jpg</IMAGE>
-  <IMAGE description="Chladnička na nápoje Euhomy BR001 - obrázok 2">https://b2b.innpro.sk/hpeciai/fcdad921e7367179fc41c6d3713c7a9b/53611_3.jpg</IMAGE>
-  <IMAGE description="Chladnička na nápoje Euhomy BR001 - obrázok 3">https://b2b.innpro.sk/hpeciai/996ea746907964af62bc727caaef700b/53611_1.jpg</IMAGE>
+  <IMAGE description="Chladnička na nápoje Euhomy BR001 - obrázok 1">https://b2b.innpro.sk/hpeciai/f1d6fb412b00504fc785e484b092229d/53611_2.webp</IMAGE>
+  <IMAGE description="Chladnička na nápoje Euhomy BR001 - obrázok 2">https://b2b.innpro.sk/hpeciai/1f4b3c9f8fed312cde5dc39c739b7b3e/53611_3.webp</IMAGE>
+  <IMAGE description="Chladnička na nápoje Euhomy BR001 - obrázok 3">https://b2b.innpro.sk/hpeciai/8fbc9faa1af36ce403117fe275ebce76/53611_1.webp</IMAGE>
+  <IMAGE description="Chladnička na nápoje Euhomy BR001 - obrázok 4">https://b2b.innpro.sk/hpeciai/b8804c843d8dbb5705d3ce24164f9a0d/53611_4_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -249841,32 +249859,32 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <DESCRIPTION><![CDATA[<h3>Výrobník ľadu Euhomy IM008-BSI 1,2 l, 12 kg (strieborný)</h3>
 <p>Euhomy IM008-BSI je kompaktný výrobník ľadu, ktorý je ideálny na horúce dni. Dokáže vyrobiť 9 kociek ľadu za pouhých 8 minút a 12 kg ľadu za deň. Vďaka jednoduchému ovládaniu sa s ním ľahko pracuje. Môžete si tiež nastaviť veľkosť kociek (S/L) a funkcia automatického čistenia uľahčuje údržbu.</p>
 <p>
-<img alt="Strieborný výrobník ľadu stojí na kuchynskej linke vedľa pohára s džúsom" border="0" src="https://assets.innpro.pl/16974/22203/3.jpg"/>
+<img alt="Strieborný výrobník ľadu stojí na pracovnej doske vedľa pohára s džúsom" border="0" src="https://assets.innpro.pl/16974/22203/3-53a6e0e6-4d43-46b6-81cf-02d40c16d855.jpg"/>
 </p><h3>Výber veľkosti kociek ľadu</h3>
 <p>Výrobník ľadu vám umožňuje vybrať si medzi dvoma veľkosťami kociek – malé kocky s priemerom 22 mm a dĺžkou 24 mm a veľké kocky s priemerom 25 mm a dĺžkou 26 mm. Malé kocky ľadu sú skvelým spôsobom, ako okamžite ochladiť pohár vody alebo limonády, zatiaľ čo väčšie kocky sú ideálne do kokteilov, kde zabezpečujú dlhšie trvajúce chladenie. Zmena veľkosti je mimoriadne jednoduchá a vykonáva sa jediným kliknutím na tlačidlo SELECT.</p>
 <p>
-<img alt="Kovové rúrky ponorené do priehľadných kociek ľadu na pozadí zasnežených hôr a ciferníka hodín" border="0" src="https://assets.innpro.pl/16974/22203/6.jpg"/>
+<img alt="Kovové rúrky ponorené do priehľadných kociek ľadu na pozadí zasnežených vrcholkov hôr a ciferníka hodín" border="0" src="https://assets.innpro.pl/16974/22203/6-a98196c6-8c16-451b-a291-a4fc0d25f9b9.jpg"/>
 </p><h3>Inteligentné indikátory</h3>
 <p>Dotykový panel výrobníka ľadu je vybavený prehľadnými LED indikátormi, ktoré zobrazujú aktuálny prevádzkový stav zariadenia. Keď je zásobník plný kociek ľadu, rozsvieti sa indikátor ICE FULL. Keď hladina vody klesne pod bezpečné minimum, rozsvieti sa indikátor ADD WATER, ktorý pripomína používateľovi, aby doplnil vodu.</p>
 <p>
-<img alt="Strieborný výrobník ľadu naplnený ľadom stojí na stole, pri ktorom rodina stoluje v záhrade" border="0" src="https://assets.innpro.pl/16974/22203/7.jpg"/>
+<img alt="Strieborný výrobník ľadu naplnený ľadom stojí na stole, pri ktorom rodina stoluje v záhrade" border="0" src="https://assets.innpro.pl/16974/22203/7-a4e50b07-b1d9-4913-b254-01aa3440fd81.jpg"/>
 </p><h3>Automatické čistenie</h3>
-<p>Udržanie zariadenia v čistote je hračkou: stačí stlačiť a podržať tlačidlo ON/OFF po dobu piatich sekúnd a výrobník ľadu automaticky spustí 30-minútový cyklus samočistenia. Počas tejto doby špeciálny preplachovací systém odstraňuje vodný kameň a nečistoty z vnútorného priestoru, čím pomáha udržiavať zariadenie v dobrom stave. To znamená, že na ručné čistenie nemusíte rozoberať žiadne časti ani používať ďalšie čistiace prostriedky.</p>
+<p>Udržanie zariadenia v čistote je hračkou: stačí stlačiť a podržať tlačidlo ON/OFF po dobu piatich sekúnd a výrobník ľadu automaticky spustí 30-minútový cyklus samočistenia. Počas tejto doby špeciálny preplachovací systém odstraňuje vodný kameň a nečistoty z vnútorného priestoru, čím pomáha udržiavať zariadenie v dobrom stave. To znamená, že na ručné čistenie nemusíte demontovať žiadne časti ani používať ďalšie čistiace prostriedky.</p>
 <p>
-<img alt="Priehľadný schematický nákres výrobníka ľadu znázorňujúci tok vody do zásobníka" border="0" src="https://assets.innpro.pl/16974/22203/1.jpg"/>
+<img alt="Priehľadný schematický nákres výrobníka ľadu znázorňujúci tok vody do zásobníka" border="0" src="https://assets.innpro.pl/16974/22203/1-dc8c7f24-6215-4912-bc71-9223d24a11d7.jpg"/>
 </p><h3>Kompaktný dizajn</h3>
-<p>Prístroj má rozmery len 23,1 x 30 x 29 cm, vďaka čomu sa skvele hodí aj do malej kuchyne. Robustná, ergonomická rukoväť pripevnená k hornej časti krytu vám umožňuje pohodlne premiestňovať výrobník ľadu kamkoľvek.</p>
+<p>Prístroj má rozmery len 24 x 30 x 29 cm, vďaka čomu je ideálny aj do malej kuchyne. Robustná, ergonomická rukoväť pripevnená k hornej časti krytu vám umožňuje výrobník ľadu pohodlne premiestňovať kamkoľvek.</p>
 <p>
-<img alt="Vnútro výrobníka ľadu naplnené ľadom, s bielou lopatkou umiestnenou vo vnútri" border="0" src="https://assets.innpro.pl/16974/22203/5.jpg"/>
+<img alt="Vnútro výrobníka ľadu naplneného ľadom s bielou lopatkou umiestnenou vo vnútri" border="0" src="https://assets.innpro.pl/16974/22203/5-f29871db-133e-4261-8a0c-817c1d9dfd76.jpg"/>
 </p>
-<h3>Súčasťou balenia je</h3>
-<ul class="list-disc pl-5"><li>výrobník kociek ľadu</li><li>lopatka na ľad</li><li>tác na kocky ľadu</li><li>rukoväť výrobníka kociek ľadu</li><li>návod na použitie</li></ul>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>výrobník ľadových kociek</li><li>lopatka na ľad</li><li>formička na ľadové kocky</li><li>rukoväť výrobníka ľadových kociek</li><li>návod na použitie</li></ul>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Euhomy</td></tr><tr><th>Model</th><td>IM008-BSI</td></tr><tr><th>Menovité napätie</th><td>220–240 V ~ 50 Hz</td></tr><tr><th>Rozmery (výška x šírka x hĺbka)</th><td>23,1 x 30 x 29 cm</td></tr><tr><th>Trieda ochrany</th><td>I</td></tr><tr><th>Prúd počas výroby kociek ľadu</th><td>0,8 A</td></tr><tr><th>Prúd počas zberu kociek ľadu</th><td>1 A</td></tr><tr><th>Hmotnosť</th><td>5,9 kg</td></tr><tr><th>Povrchová úprava</th><td>nehrdzavejúca oceľ</td></tr><tr><th>Objem zásobníka na ľad</th><td>0,6 l</td></tr><tr><th>Objem nádrže na vodu</th><td>1,2 l</td></tr>
+<tr><th>Výrobca</th><td>Euhomy</td></tr><tr><th>Model</th><td>IM008-BSI</td></tr><tr><th>Menovité napätie</th><td>220–240 V ~ 50 Hz</td></tr><tr><th>Rozmery (výška x šírka x hĺbka)</th><td>24 x 30 x 29 cm</td></tr><tr><th>Trieda ochrany</th><td>I</td></tr><tr><th>Prúd počas výroby kociek ľadu</th><td>0,8 A</td></tr><tr><th>Prúd počas vyberania kociek ľadu</th><td>1 A</td></tr><tr><th>Hmotnosť</th><td>5,9 kg</td></tr><tr><th>Povrchová úprava</th><td>nehrdzavejúca oceľ</td></tr><tr><th>Objem zásobníka na ľad</th><td>0,6 l</td></tr><tr><th>Objem nádrže na vodu</th><td>1,2 l</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=75075_53630_pol_2f43e6417ed1d33cf6197ac1a6c8fad8" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -249883,7 +249901,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Výrobník ľadu Euhomy IM008">https://b2b.innpro.sk/hpeciai/a479d4f066f2d0fdea4da390b5807de9/53630_1.jpg</IMAGE>
+  <IMAGE description="Výrobník ľadu Euhomy IM008 - obrázok 1">https://b2b.innpro.sk/hpeciai/a5fce899a3a1cac9edbcd52ff12ca57e/53630_1.webp</IMAGE>
+  <IMAGE description="Výrobník ľadu Euhomy IM008 - obrázok 2">https://b2b.innpro.sk/hpeciai/c0555ddf75c6470960f302e5cc0647cf/53630_2_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -259362,6 +259381,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -288492,10 +288512,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -301208,6 +301230,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -301284,6 +301307,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -302256,6 +302280,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>081532</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>5905156100688</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY>
@@ -316353,10 +316380,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>182.90</PRICE_VAT>
 <PURCHASE_PRICE>129.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -351681,41 +351710,41 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Skladací vedro Flextail Flex Bucket 20 l (hnedé) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg (čierny)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Euhomy IM001 1,2 l 12 kg výrobník ľadových kociek (čierny) EUHOMY IM001 je kompaktný výrobník ľadových kociek, ktorý prináša pohodlie a sviežosť do vašej kuchyne. Vďaka svojim malým rozmerom (22,2 ×…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Euhomy IM001 1,2 l 12 kg výrobník ľadových kociek (čierny)</h3>
-<p>EUHOMY IM001 je kompaktný výrobník ľadových kociek, ktorý prináša pohodlie a sviežosť do vašej kuchyne. Vďaka svojim malým rozmerom (22,2 × 29 × 29,5 cm) sa zariadenie ľahko zmestí na pracovnú dosku alebo do domáceho baru, bez toho aby zaberalo cenný priestor. Napriek svojej kompaktnej veľkosti môže IM001 vyrobiť až 12 kg ľadu za deň – to je približne 2 160 kociek za 24 hodín. Prvá dávka 9 kociek sa objaví už 6 minút po spustení.</p>
+<NAME><![CDATA[Výrobník ľadu Euhomy IM001 1,2 l 12 kg (čierny)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Výrobník ľadu Euhomy IM001, 1,2 l, 12 kg (čierny) EUHOMY IM001 je kompaktný výrobník ľadu, ktorý do vašej kuchyne prinesie pohodlie a sviežosť. Vďaka svojim malým rozmerom (24 × 29,5 × 29 cm) sa…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Výrobník ľadu Euhomy IM001, 1,2 l, 12 kg (čierny)</h3>
+<p>EUHOMY IM001 je kompaktný výrobník ľadu, ktorý do vašej kuchyne prinesie pohodlie a sviežosť. Vďaka svojim malým rozmerom (24 × 29,5 × 29 cm) sa zariadenie ľahko zmestí na kuchynskú linku alebo do domáceho baru, bez toho aby zaberalo cenný priestor. Napriek svojim kompaktným rozmerom dokáže model IM001 vyrobiť až 12 kg ľadu za deň – to je približne 2 160 kociek ľadu za 24 hodín. Prvá dávka 9 kociek ľadu je pripravená už 6 minút po spustení.</p>
 <p>
-<img alt="Čierna výrobník ľadových kociek Euhomy na kuchynskej linke vedľa pohárov a ovocia" border="0" src="https://assets.innpro.pl/19777/26366/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-8.jpg"/>
+<img alt="Čierny výrobník ľadu Euhomy na kuchynskej linke vedľa pohárov a ovocia" border="0" src="https://assets.innpro.pl/19777/26366/8-fd23ce7c-cf7d-4a00-915e-862dee5033db.jpg"/>
 </p><h3>Kocky ľadu pripravené za pár minút</h3>
-<p>EUHOMY IM001 dokáže vyrobiť 9 kociek ľadu za iba 6 minút a až 12 kg za 24 hodín – to je viac ako 200 porcií na limonádu, ľadovú kávu alebo džús. To je až 5-krát rýchlejšie ako tradičné zásobníky na kocky ľadu v chladničkách.</p>
+<p>Zariadenie EUHOMY IM001 dokáže vyrobiť 9 kociek ľadu za pouhých 6 minút a až 12 kg za deň – čo znamená viac ako 200 porcií limonády, ľadovej kávy alebo džúsu. To je až 5-krát rýchlejšie ako v prípade tradičných výrobníkov ľadu v chladničkách.</p>
 <p>
-<img alt="Záber na čierny výrobník ľadových kociek s nádobou plnou ľadových kociek" border="0" src="https://assets.innpro.pl/19777/26366/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-4.jpg"/>
-</p><h3>Ľahké použitie</h3>
-<p>Používanie výrobníka ľadu je hračka. Stačí naliať vodu, stlačiť tlačidlo a hotovo – zariadenie urobí zvyšok. LED panel vás informuje, kedy je potrebné doplniť vodu alebo vyprázdniť košík. Súprava obsahuje aj lopatku a nádobu na ľad, ktorá pojme asi 0,6 kg kociek ľadu.</p>
+<img alt="Záber zblízka na čierny výrobník ľadu s nádobou plnou kociek ľadu" border="0" src="https://assets.innpro.pl/19777/26366/4-b4719f45-f49d-46ab-bfdd-3eb2a65524f2.jpg"/>
+</p><h3>Jednoduché používanie</h3>
+<p>Používanie výrobníka ľadu je hračkou. Stačí naliať vodu, stlačiť tlačidlo a hotovo – zvyšok zariadenie zvládne samo. LED panel vás upozorní, kedy je potrebné doplniť vodu alebo vyprázdniť zásobník na ľad. Súčasťou sady je aj lopatka a nádoba na ľad s kapacitou približne 0,6 kg kociek ľadu.</p>
 <p>
-<img alt="Žena a dievča s pohármi nápoja v rukách vedľa výrobníka ľadových kociek na linke" border="0" src="https://assets.innpro.pl/19777/26366/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-5.jpg"/>
-</p><h3>Premyslené riešenia</h3>
-<p>EUHOMY IM001 vyrába takzvaný guľôčkový ľad – hladké, zaoblené kocky, ktoré rýchlo ochladzujú nápoje, ale topia sa pomalšie. To znamená, že ľad nezriedi chuť nápojov a je ideálny do koktailov, džúsov alebo ľadovej kávy. Dôležité je, že ľad z výrobníka ľadu nemá žiadnu vôňu ani chuť, ako je to často v prípade ľadu z mrazničky.</p>
+<img alt="Žena a dievča s pohármi s nápojom, vedľa nich na linke stojí výrobník ľadu" border="0" src="https://assets.innpro.pl/19777/26366/5-68a31c8e-7cb3-4a0b-af1d-802fe6a72a3c.jpg"/>
+</p><h3>Premyslené funkcie</h3>
+<p>EUHOMY IM001 vyrába takzvaný „kulový ľad“ – hladké, zaoblené kocky, ktoré rýchlo ochladia váš nápoj, ale topia sa pomalšie. Vďaka tomu ľad nezriedi chuť vašich nápojov a je ideálny do kokteilov, džúsov alebo ľadovej kávy. Dôležité je, že ľad z tohto výrobníka nemá žiadny zápach ani pachuť, na rozdiel od ľadu z mrazničky.</p>
 <p>
-<img alt="Záber na ľadové kocky, ktoré sa tvoria v tácke na ľadové kocky" border="0" src="https://assets.innpro.pl/19777/26366/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-3.jpg"/>
+<img alt="Záber zblízka na kocky ľadu, ktoré sa tvoria vo výrobníku ľadu" border="0" src="https://assets.innpro.pl/19777/26366/3-7f32b7b8-881b-475f-a217-78b6f4965dc5.jpg"/>
 </p><h3>Samočistenie za 30 minút</h3>
-<p>Udržanie zariadenia v čistote je jednoduché – stačí jedno stlačenie tlačidla na spustenie automatického čistenia, ktoré trvá približne 30 minút a eliminuje až 99 % baktérií. Aktivácia procesu trvá len 5 sekúnd. Na zachovanie úplnej hygieny výrobca odporúča používať čistiaci prostriedok EUHOMY a raz mesačne odstraňovať vodný kameň zo zariadenia.</p>
+<p>Udržiavanie zariadenia v čistote je jednoduché – stačí jedno stlačenie tlačidla a spustí sa automatický čistiaci cyklus, ktorý trvá približne 30 minút a eliminuje až 99 % baktérií. Aktivácia procesu trvá len 5 sekúnd. Pre zabezpečenie úplnej hygieny výrobca odporúča používať čistiaci roztok EUHOMY a raz mesačne odstraňovať vodný kameň zo zariadenia.</p>
 <p>
-<img alt="Tácka na ľadové kocky Euhomy na linke vedľa pohára nápoja a taniera s ovocím" border="0" src="https://assets.innpro.pl/19777/26366/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-12.jpg"/>
+<img alt="Výrobník ľadu Euhomy na linke vedľa pohára s nápojom a taniera s ovocím" border="0" src="https://assets.innpro.pl/19777/26366/12-20838c22-0fb9-4f6c-b0b4-19d70953dbbc.jpg"/>
 </p><h3>Kompaktný a energeticky úsporný</h3>
-<p>Výrobník ľadových kociek zaberá v porovnaní s väčšími modelmi málo miesta – jeho rozmery sú 22 × 29 × 29,5 cm. Ľahko sa zmestí na kuchynskú linku alebo do kuchynského kúta. Zároveň pracuje v úspornom režime a má certifikát ClimatePartner, ktorý potvrdzuje jeho nízke emisie a šetrnosť k životnému prostrediu. Môžete si tak vychutnávať studené nápoje bez obáv o účty za elektrinu alebo vplyv na planétu.</p>
+<p>Výrobník ľadu zaberá v porovnaní s väčšími modelmi veľmi málo miesta – jeho rozmery sú 24 × 29,5 × 29 cm. Ľahko sa zmestí na kuchynskú pracovnú dosku alebo do kuchynského kúta. Zároveň pracuje v úspornom režime a má certifikát ClimatePartner, čo potvrdzuje jeho nízke emisie a šetrnosť k životnému prostrediu. Môžete si tak vychutnávať studené nápoje bez obáv o účty za elektrinu alebo o vplyv na planétu.</p>
 <p>
-<img alt="Čierna tácka na ľadové kocky Euhomy na linke vedľa iných kuchynských spotrebičov" border="0" src="https://assets.innpro.pl/19777/26366/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-6.jpg"/>
+<img alt="Čierny výrobník ľadu Euhomy na linke vedľa ďalších kuchynských spotrebičov" border="0" src="https://assets.innpro.pl/19777/26366/6-6669819d-58bf-4739-adc6-91e776c7a984.jpg"/>
 </p>
-<h3>Súčasť sady</h3>
-<ul class="list-disc pl-5"><li>zásobník na ľadové kocky</li><li>rukoväť</li><li>lopatka na ľad</li><li>nádoba na ľad</li><li>návod na použitie</li></ul>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>výrobník ľadu</li><li>rukoväť</li><li>lopatka na ľad</li><li>nádoba na ľad</li><li>návod na použitie</li></ul>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>EUHOMY</td></tr><tr><th>Model</th><td>IM001</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Kapacita</th><td>1,2 l</td></tr><tr><th>Bezpečnostný typ</th><td>I</td></tr><tr><th>Napätie</th><td>115 V/60 Hz</td></tr><tr><th>Prúd počas výroby ľadu</th><td>1,5 A</td></tr><tr><th>Prúd počas zberu ľadu</th><td>1,8 A</td></tr><tr><th>Chladivo</th><td>R600a 16 g</td></tr><tr><th>Prevádzkový tlak</th><td>88-290 psi</td></tr><tr><th>Hmotnosť</th><td>cca 5,64 kg</td></tr><tr><th>Rozmery</th><td>cca 22 x 29,5 x 29 cm</td></tr><tr><th>Materiál</th><td>SUS</td></tr>
+<tr><th>Výrobca</th><td>EUHOMY</td></tr><tr><th>Model</th><td>IM001</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Objem nádrže na vodu</th><td>1,2 l</td></tr><tr><th>Objem zásobníka na ľad</th><td>0,6 l</td></tr><tr><th>Bezpečnostná trieda</th><td>I</td></tr><tr><th>Napätie</th><td>115 V/60 Hz</td></tr><tr><th>Prúd počas výroby ľadu</th><td>1,5 A</td></tr><tr><th>Prúd počas zberu ľadu</th><td>1,8 A</td></tr><tr><th>Chladivo</th><td>R600a 16 g</td></tr><tr><th>Prevádzkový tlak</th><td>88–290 psi</td></tr><tr><th>Hmotnosť</th><td>cca 5,5 kg</td></tr><tr><th>Rozmery</th><td>cca 24 x 29,5 x 29 cm</td></tr><tr><th>Materiál</th><td>SUS</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76904_57210_pol_68530aa32b51d14a582f10613a272539" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -351734,8 +351763,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
 <IMAGES>
-  <IMAGE description="Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg (čierny) - obrázok 1">https://b2b.innpro.sk/hpeciai/e948c7324dc02dd9652d9a2497cb3f84/57210_1.jpg</IMAGE>
-  <IMAGE description="Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg (čierny) - obrázok 2">https://b2b.innpro.sk/hpeciai/a2d39fc5dda974dec38a5107c4426aae/57210_2.jpg</IMAGE>
+  <IMAGE description="Výrobník ľadu Euhomy IM001 1,2 l 12 kg (čierny) - obrázok 1">https://b2b.innpro.sk/hpeciai/48b19121cb8a694fc4a93bc5f943e176/57210_1.webp</IMAGE>
+  <IMAGE description="Výrobník ľadu Euhomy IM001 1,2 l 12 kg (čierny) - obrázok 2">https://b2b.innpro.sk/hpeciai/38a58c68344bbced65bcb030e87cd5f0/57210_2.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -351747,11 +351776,15 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[čierna]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Kapacita]]></NAME>
+    <NAME><![CDATA[Objem nádrže na vodu]]></NAME>
     <VALUE><![CDATA[1,2 l]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Bezpečnostný typ]]></NAME>
+    <NAME><![CDATA[Objem zásobníka na ľad]]></NAME>
+    <VALUE><![CDATA[0,6 l]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bezpečnostná trieda]]></NAME>
     <VALUE><![CDATA[I]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
@@ -351772,15 +351805,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Prevádzkový tlak]]></NAME>
-    <VALUE><![CDATA[88-290 psi]]></VALUE>
+    <VALUE><![CDATA[88–290 psi]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Hmotnosť]]></NAME>
-    <VALUE><![CDATA[cca 5,64 kg]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozmery]]></NAME>
-    <VALUE><![CDATA[cca 22 x 29,5 x 29 cm]]></VALUE>
+    <VALUE><![CDATA[cca 5,5 kg]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Objem]]></NAME>
@@ -351801,45 +351830,45 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>47.11</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Výrobník ľadu Euhomy IM001 1,2 l 12 kg (čierny) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Výrobník ľadu Euhomy IM001 1,2 l 12 kg (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg (strieborný)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Euhomy IM001 1,2 l 12 kg výrobník ľadových kociek (strieborný) EUHOMY IM001 je kompaktný výrobník ľadových kociek, ktorý prináša pohodlie a sviežosť do vašej kuchyne. Vďaka svojim malým rozmerom…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Euhomy IM001 1,2 l 12 kg výrobník ľadových kociek (strieborný)</h3>
-<p>EUHOMY IM001 je kompaktný výrobník ľadových kociek, ktorý prináša pohodlie a sviežosť do vašej kuchyne. Vďaka svojim malým rozmerom (22,2 × 29 × 29,5 cm) sa zariadenie ľahko zmestí na pracovnú dosku alebo do domáceho baru, bez toho aby zaberalo cenný priestor. Napriek svojej kompaktnej veľkosti môže IM001 vyrobiť až 12 kg ľadu za deň – to je približne 2160 kociek za 24 hodín. Prvá dávka 9 kociek sa objaví už 6 minút po spustení.</p>
+<NAME><![CDATA[Výrobník ľadu Euhomy IM001 1,2 l 12 kg (strieborný)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Stroj na výrobu ľadových kociek Euhomy IM001, 1,2 l, 12 kg (strieborný) EUHOMY IM001 je kompaktný výrobník ľadových kociek, ktorý do vašej kuchyne prinesie pohodlie a sviežosť. Vďaka svojim malým…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Stroj na výrobu ľadových kociek Euhomy IM001, 1,2 l, 12 kg (strieborný)</h3>
+<p>EUHOMY IM001 je kompaktný výrobník ľadových kociek, ktorý do vašej kuchyne prinesie pohodlie a sviežosť. Vďaka svojim malým rozmerom (24 × 29,5 × 29 cm) sa zariadenie ľahko zmestí na kuchynskú linku alebo do domáceho baru, bez toho aby zaberalo cenný priestor. Napriek kompaktným rozmerom dokáže model IM001 vyrobiť až 12 kg ľadu za deň – to je približne 2 160 kociek ľadu za 24 hodín. Prvá dávka 9 kociek ľadu je pripravená už 6 minút po spustení.</p>
 <p>
-<img alt="Strieborný výrobník ľadových kociek Euhomy na kuchynskej linke vedľa pohárov a ovocia" border="0" src="https://assets.innpro.pl/19779/26368/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-1.jpg"/>
+<img alt="Strieborný výrobník ľadu Euhomy na kuchynskej linke vedľa pohárov a ovocia" border="0" src="https://assets.innpro.pl/19779/26368/1-aac6198f-0e26-454d-9bfa-0181aefca711.jpg"/>
 </p><h3>Kocky ľadu pripravené za pár minút</h3>
-<p>EUHOMY IM001 dokáže vyrobiť 9 kociek ľadu za iba 6 minút a až 12 kg za 24 hodín – to je viac ako 200 porcií na limonádu, ľadovú kávu alebo džús. To je až 5-krát rýchlejšie ako tradičné formy na kocky ľadu v chladničkách.</p>
+<p>Zariadenie EUHOMY IM001 dokáže vyrobiť 9 kociek ľadu za pouhých 6 minút a až 12 kg za deň – čo znamená viac ako 200 porcií limonády, ľadovej kávy alebo džúsu. To je až 5-krát rýchlejšie ako v prípade tradičných výrobníkov ľadu v chladničkách.</p>
 <p>
-<img alt="2 usmievajúce sa ženy pijúce z pohárov, ako sedia pri stole" border="0" src="https://assets.innpro.pl/19779/26368/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-7.jpg"/>
-</p><h3>Ľahké použitie</h3>
-<p>Používanie výrobníka ľadu je hračka. Stačí naliať vodu, stlačiť tlačidlo a hotovo – zariadenie urobí zvyšok. LED panel vás informuje, kedy je potrebné doplniť vodu alebo vyprázdniť košík. Súprava obsahuje aj lopatku a nádobu na ľad, ktorá pojme asi 0,6 kg kociek ľadu.</p>
+<img alt="Dve usmievajúce sa ženy, ktoré sedia pri stole a pijú z pohárov" border="0" src="https://assets.innpro.pl/19779/26368/7-5950d501-e584-4352-a20c-dd24160f47b8.jpg"/>
+</p><h3>Jednoduché používanie</h3>
+<p>Používanie výrobníka ľadu je hračkou. Stačí naliať vodu, stlačiť tlačidlo a hotovo – zvyšok už zariadenie zvládne samo. LED panel vás upozorní, kedy je potrebné doplniť vodu alebo vyprázdniť zásobník na ľad. Súčasťou sady je aj lopatka a nádoba na ľad s objemom približne 0,6 l.</p>
 <p>
-<img alt="3 fotografie ukazujúce, ako používať výrobník ľadových kociek" border="0" src="https://assets.innpro.pl/19779/26368/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-5.jpg"/>
-</p><h3>Premyslené riešenia</h3>
-<p>EUHOMY IM001 vyrába takzvaný guľôčkový ľad – hladké, zaoblené kocky, ktoré rýchlo ochladzujú nápoje, ale topia sa pomalšie. To znamená, že ľad nezriedi chuť nápojov a je ideálny do koktailov, džúsov alebo ľadovej kávy. Dôležité je, že ľad z výrobníka ľadu nemá žiadnu vôňu ani chuť, ako je to často v prípade ľadu z mrazničky.</p>
+<img alt="3 fotografie znázorňujúce, ako používať výrobník ľadu" border="0" src="https://assets.innpro.pl/19779/26368/5-75d2ac9e-cc9c-4c6f-a6fd-b1510f370dee.jpg"/>
+</p><h3>Premyslené funkcie</h3>
+<p>EUHOMY IM001 vyrába takzvaný „kulový ľad“ – hladké, zaoblené kocky, ktoré rýchlo ochladia váš nápoj, ale topia sa pomalšie. Vďaka tomu ľad nezriedi chuť vašich nápojov a je ideálny do kokteilov, džúsov alebo ľadovej kávy. Dôležité je, že ľad z tohto výrobníka nemá žiadny zápach ani pachuť, na rozdiel od ľadu z mrazničky.</p>
 <p>
-<img alt="Strieborný výrobník ľadových kociek na stole vedľa nápojov, ovocia a košíka s lopatkou a ľadovými kockami" border="0" src="https://assets.innpro.pl/19779/26368/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-4.jpg"/>
+<img alt="Strieborný výrobník ľadu na stole vedľa nápojov, ovocia a košíka s naberačkou a kockami ľadu" border="0" src="https://assets.innpro.pl/19779/26368/4-0f109051-6d5c-47ae-b95b-45c2f703d304.jpg"/>
 </p><h3>Samočistenie za 30 minút</h3>
-<p>Udržanie zariadenia v čistote je jednoduché – stačí jedno stlačenie tlačidla na spustenie automatického čistenia, ktoré trvá približne 30 minút a eliminuje až 99 % baktérií. Aktivácia procesu trvá len 5 sekúnd. Na zachovanie úplnej hygieny výrobca odporúča používať čistiaci prostriedok EUHOMY a raz mesačne odstraňovať vodný kameň zo zariadenia.</p>
+<p>Udržiavanie zariadenia v čistote je jednoduché – stačí jedno stlačenie tlačidla a spustí sa automatický čistiaci cyklus, ktorý trvá približne 30 minút a eliminuje až 99 % baktérií. Spustenie procesu trvá len 5 sekúnd. Pre zabezpečenie úplnej hygieny výrobca odporúča používať čistiaci roztok EUHOMY a raz mesačne odstraňovať vodný kameň zo zariadenia.</p>
 <p>
-<img alt="Výrobník ľadových kociek Euhomy na linke vedľa pohára s nápojom a taniera s ovocím" border="0" src="https://assets.innpro.pl/19779/26368/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-6.jpg"/>
+<img alt="Výrobník ľadu značky Euhomy na kuchynskej linke vedľa pohára s nápojom a taniera s ovocím" border="0" src="https://assets.innpro.pl/19779/26368/6-fbf10678-6a61-44c7-9d1d-3205d3f627a5.jpg"/>
 </p><h3>Kompaktný a energeticky úsporný</h3>
-<p>Výrobník ľadových kociek zaberá v porovnaní s väčšími modelmi málo miesta – jeho rozmery sú 22 × 29 × 29,5 cm. Ľahko sa zmestí na kuchynskú linku alebo do kuchynského kúta. Zároveň pracuje v úspornom režime a má certifikát ClimatePartner, ktorý potvrdzuje jeho nízke emisie a šetrnosť k životnému prostrediu. Môžete si tak vychutnávať studené nápoje bez obáv o účty za elektrinu alebo vplyv na planétu.</p>
+<p>Výrobník ľadu zaberá v porovnaní s väčšími modelmi veľmi málo miesta – jeho rozmery sú 24 × 29,5 × 29 cm. Ľahko sa zmestí na kuchynskú pracovnú dosku alebo do kuchynského kúta. Zároveň pracuje v úspornom režime a má certifikát ClimatePartner, čo potvrdzuje jeho nízke emisie a šetrnosť k životnému prostrediu. Môžete si tak vychutnávať studené nápoje bez obáv o účty za elektrinu alebo o vplyv na planétu.</p>
 <p>
-<img alt="Usmievajúca sa žena v svetlom šate nesúca strieborný výrobník ľadových kociek" border="0" src="https://assets.innpro.pl/19779/26368/Kostkarka-do-lodu-Euhomy-IM001-lifestyle-3.jpg"/>
+<img alt="Usmievajúca sa žena v svetlých šatách nesie strieborný výrobník ľadu" border="0" src="https://assets.innpro.pl/19779/26368/3-a10573bc-8a3a-413d-bf34-eefbcaa1817a.jpg"/>
 </p>
-<h3>Súčasť sady</h3>
-<ul class="list-disc pl-5"><li>zásobník na ľadové kocky</li><li>rukoväť</li><li>lopatka na ľad</li><li>nádoba na ľad</li><li>návod na použitie</li></ul>
+<h3>Súčasťou balenia</h3>
+<ul class="list-disc pl-5"><li>výrobník ľadu</li><li>rukoväť</li><li>lopatka na ľad</li><li>nádoba na ľad</li><li>návod na použitie</li></ul>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>EUHOMY</td></tr><tr><th>Model</th><td>IM001</td></tr><tr><th>Farba</th><td>strieborná</td></tr><tr><th>Kapacita</th><td>1,2 l</td></tr><tr><th>Bezpečnostný typ</th><td>I</td></tr><tr><th>Napätie</th><td>115 V/60 Hz</td></tr><tr><th>Prúd počas výroby ľadu</th><td>1,5 A</td></tr><tr><th>Prúd počas zberu ľadu</th><td>1,8 A</td></tr><tr><th>Chladivo</th><td>R600a 16 g</td></tr><tr><th>Prevádzkový tlak</th><td>88-290 psi</td></tr><tr><th>Hmotnosť</th><td>cca 5,64 kg</td></tr><tr><th>Rozmery</th><td>cca 22 x 29,5 x 29 cm</td></tr><tr><th>Materiál</th><td>SUS</td></tr>
+<tr><th>Výrobca</th><td>EUHOMY</td></tr><tr><th>Model</th><td>IM001</td></tr><tr><th>Farba</th><td>strieborná</td></tr><tr><th>Objem nádrže na vodu</th><td>1,2 l</td></tr><tr><th>Objem nádoby na ľad</th><td>0,6 l</td></tr><tr><th>Bezpečnostná trieda</th><td>I</td></tr><tr><th>Napätie</th><td>115 V/60 Hz</td></tr><tr><th>Prúd počas výroby ľadu</th><td>1,5 A</td></tr><tr><th>Prúd počas odberu ľadu</th><td>1,8 A</td></tr><tr><th>Chladivo</th><td>R600a 16 g</td></tr><tr><th>Prevádzkový tlak</th><td>88–290 psi</td></tr><tr><th>Hmotnosť</th><td>cca 5,64 kg</td></tr><tr><th>Rozmery</th><td>cca 24 x 29,5 x 29 cm</td></tr><tr><th>Materiál</th><td>SUS</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76905_57211_pol_f4df60ee42f33dca31de5e3b1010ed72" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -351857,7 +351886,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg (strieborný)">https://b2b.innpro.sk/hpeciai/62093ba1aab8afd85e8205fcc7d154c3/57211_1.jpg</IMAGE>
+  <IMAGE description="Výrobník ľadu Euhomy IM001 1,2 l 12 kg (strieborný)">https://b2b.innpro.sk/hpeciai/7f0e8880c7514907f98667a45355754c/57211_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -351869,11 +351898,15 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[strieborná]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Kapacita]]></NAME>
+    <NAME><![CDATA[Objem nádrže na vodu]]></NAME>
     <VALUE><![CDATA[1,2 l]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Bezpečnostný typ]]></NAME>
+    <NAME><![CDATA[Objem nádoby na ľad]]></NAME>
+    <VALUE><![CDATA[0,6 l]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Bezpečnostná trieda]]></NAME>
     <VALUE><![CDATA[I]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
@@ -351885,7 +351918,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[1,5 A]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Prúd počas zberu ľadu]]></NAME>
+    <NAME><![CDATA[Prúd počas odberu ľadu]]></NAME>
     <VALUE><![CDATA[1,8 A]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
@@ -351894,15 +351927,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Prevádzkový tlak]]></NAME>
-    <VALUE><![CDATA[88-290 psi]]></VALUE>
+    <VALUE><![CDATA[88–290 psi]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Hmotnosť]]></NAME>
     <VALUE><![CDATA[cca 5,64 kg]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozmery]]></NAME>
-    <VALUE><![CDATA[cca 22 x 29,5 x 29 cm]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Objem]]></NAME>
@@ -351923,8 +351952,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>47.29</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Výrobník ľadových kociek Euhomy IM001, 1,2 l, 12 kg (strieborný) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Výrobník ľadu Euhomy IM001 1,2 l 12 kg (strieborný) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Výrobník ľadu Euhomy IM001 1,2 l 12 kg (strieborný) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Euhomy IM016 12 kg výrobník ľadových kociek (čierny)]]></NAME>
@@ -352040,21 +352069,21 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <NAME><![CDATA[Výrobník ľadu Euhomy IM017 20 kg (čierny)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Výrobník ľadu Euhomy IM017, 1,8 l, 15 kg (čierny) Hľadáte výrobník ľadu, ktorý vám zabezpečí neustály prístup k ľadu bez zdĺhavého ovládania alebo dlhého čakania? Model Euhomy IM017-N je skvelou…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Výrobník ľadu Euhomy IM017, 1,8 l, 15 kg (čierny)</h3>
-<p>Hľadáte výrobník ľadu, ktorý vám zabezpečí neustály prístup k ľadu bez zdĺhavého ovládania alebo dlhého čakania? Model Euhomy IM017-N je skvelou voľbou do kuchyne alebo na rodinné stretnutia. Stroj dokáže vyrobiť až 15 kg ľadu za deň a prvé kocky ľadu sa objavia už 7 minút po spustení. Navyše disponuje funkciou samočistenia a vďaka kompaktnému dizajnu nezaberie veľa miesta.</p>
+<p>Hľadáte výrobník ľadu, ktorý vám zabezpečí neustály prístup k ľadu bez zdĺhavého ovládania alebo dlhého čakania? Model Euhomy IM017-N je skvelou voľbou do kuchyne alebo na rodinné stretnutia. Stroj dokáže vyrobiť až 15,5 kg ľadu za deň a prvé kocky ľadu sa objavia už 7 minút po spustení. Navyše disponuje funkciou samočistenia a vďaka kompaktnému dizajnu nezaberie veľa miesta.</p>
 <p>
-<img alt="Výrobník ľadu Euhomy na stole vedľa nápojov s kockami ľadu" border="0" src="https://assets.innpro.pl/19784/26802/Kostkarka-do-lodu-Euhomy-IM017-lifestyle-3.jpg"/>
+<img alt="Stolný výrobník ľadu Euhomy na stole vedľa nápojov s kockami ľadu" border="0" src="https://assets.innpro.pl/19784/26802/3-75271e47-609c-4cc6-b999-0530be93c2e1.jpg"/>
 </p><h3>Kocky ľadu typu „nugget“</h3>
-<p>Model IM017 vyrába ľad typu „nugget“ – tie charakteristické, malé a mierne porézne kocky, ktoré rýchlo ochladia nápoje. Tento typ ľadu je mimoriadne obľúbený v kaviarňach a reštauráciách – teraz ho môžete mať aj doma. Sú ideálne do limonád, kokteilov a ľadovej kávy. Sú tiež šetrnejšie k zubom ako tvrdé kocky ľadu.</p>
+<p>Model IM017 vyrába ľad typu „nugget“ – tie charakteristické, malé a mierne porézne kocky, ktoré rýchlo ochladia nápoje. Tento typ ľadu je mimoriadne obľúbený v kaviarňach a reštauráciách – a teraz ho môžete mať aj doma. Sú ideálne do limonády, kokteilov alebo ľadovej kávy. Sú tiež šetrnejšie k zubom ako tvrdé kocky ľadu.</p>
 <p>
-<img alt="Čierny výrobník ľadu Euhomy vedľa nádoby s lopatkou a ľadom a zásobníka na vodu" border="0" src="https://assets.innpro.pl/19784/26802/Kostkarka-do-lodu-Euhomy-IM017-lifestyle-9.jpg"/>
+<img alt="Čierny výrobník ľadu Euhomy vedľa zásobníka s lopatkou a ľadom a nádržou na vodu" border="0" src="https://assets.innpro.pl/19784/26802/9-28510677-52d4-460b-a52e-1c94be015aa9.jpg"/>
 </p><h3>Jednoduchá obsluha a funkcia automatického čistenia</h3>
-<p>Obsluha výrobníka ľadu Euhomy IM017-N je hračkou. Ovládací panel obsahuje len tri dotykové tlačidlá a LED indikátory, ktoré vás upozornia, keď dochádza voda, nádrž je plná alebo je zariadenie v prevádzke. Dôležité je, že zariadenie disponuje funkciou automatického čistenia – stačí stlačiť tlačidlo „Clean“ a spustí sa 20-minútový cyklus samočistenia. Vďaka tomu zostáva vnútro výrobníka ľadu vždy čisté, bez nutnosti ručného umývania ťažko dostupných miest.</p>
+<p>Obsluha výrobníka ľadu Euhomy IM017-N je hračkou. Ovládací panel obsahuje len tri dotykové tlačidlá a LED indikátory, ktoré vás upozornia na nízku hladinu vody, plnú nádrž alebo aktuálny prevádzkový režim. Dôležité je, že zariadenie disponuje funkciou automatického čistenia – stačí stlačiť tlačidlo „Clean“ a spustí sa 20-minútový cyklus samočistenia. Vďaka tomu zostáva vnútro výrobníka ľadu vždy čisté, bez potreby ručného umývania ťažko dostupných miest.</p>
 <p>
-<img alt="Ruka stláčajúca tlačidlo „Clean“ na výrobníku ľadu" border="0" src="https://assets.innpro.pl/19784/26802/Kostkarka-do-lodu-Euhomy-IM017-lifestyle-1.jpg"/>
+<img alt="Ruka stláčajúca tlačidlo" border="0" button="" clean"="" ice="" maker"="" on="" src="https://assets.innpro.pl/19784/26802/1-63781672-ed48-4268-9b61-0a7f772ddabb.jpg" the=""/>
 </p><h3>Kompaktný, elegantný dizajn</h3>
-<p>Model Euhomy IM017-N nezaberá veľa miesta. Má kompaktné rozmery 24,4 × 34 × 37,6 cm a elegantný dizajn s telom z brúseného kovu. Dokonale zapadá do modernej kuchyne a ľahko sa zmestí na kuchynskú dosku. Navyše 1,8-litrovú nádrž na vodu možno ľahko vybrať a naplniť priamo pod vodovodným kohútikom. To znamená, že nemusíte premiestňovať celý výrobník ľadu.</p>
+<p>Euhomy IM017-N nezaberá veľa miesta. Má kompaktné rozmery 24,3 × 34 × 37,5 cm a elegantný dizajn s telom z brúseného kovu. Dokonale zapadá do modernej kuchyne a dá sa ľahko umiestniť na pracovnú dosku. Navyše 1,8-litrovú nádrž na vodu možno ľahko vybrať a naplniť priamo pod vodovodným kohútikom. To znamená, že nemusíte premiestňovať celý výrobník ľadu.</p>
 <p>
-<img alt="Napĺňanie zásobníka na vodu vedľa výrobníka ľadu" border="0" src="https://assets.innpro.pl/19784/26802/Kostkarka-do-lodu-Euhomy-IM017-lifestyle-8.jpg"/>
+<img alt="Napĺňanie nádrže na vodu vedľa výrobníka ľadu" border="0" src="https://assets.innpro.pl/19784/26802/8-383c7112-88a1-4519-b960-91f8a505ea22.jpg"/>
 </p>
 <h3>Súčasťou balenia</h3>
 <ul class="list-disc pl-5"><li>výrobník ľadu</li><li>lopatka na ľad</li><li>návod na použitie</li></ul>
@@ -352063,7 +352092,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Euhomy</td></tr><tr><th>Model</th><td>IM017-N</td></tr><tr><th>Typ chladenia</th><td>R600a – 16 g</td></tr><tr><th>Napájanie</th><td>115 V / 60 Hz</td></tr><tr><th>Objem nádrže</th><td>1,8 l</td></tr><tr><th>Menovitý príkon / odber prúdu</th><td>2,7 A</td></tr><tr><th>Rozmery</th><td>24,4 × 34 × 37,6 cm</td></tr><tr><th>Hmotnosť</th><td>10,5 kg</td></tr><tr><th>Čas na výrobu jednej dávky ľadu</th><td>7 minút</td></tr><tr><th>Maximálny denný výkon</th><td>až 15 kg</td></tr><tr><th>Objem zásobníka na ľad</th><td>cca 1,2 kg</td></tr>
+<tr><th>Výrobca</th><td>Euhomy</td></tr><tr><th>Model</th><td>IM017-N</td></tr><tr><th>Typ chladenia</th><td>R600a – 16 g</td></tr><tr><th>Napájanie</th><td>115 V / 60 Hz</td></tr><tr><th>Objem nádrže na vodu</th><td>1,8 l</td></tr><tr><th>Menovitý príkon / odber prúdu</th><td>2,7 A</td></tr><tr><th>Rozmery</th><td>24,3 × 34 × 37,5 cm</td></tr><tr><th>Hmotnosť</th><td>10,3 kg</td></tr><tr><th>Čas na výrobu jednej dávky ľadu</th><td>7 minút</td></tr><tr><th>Maximálny denný výkon</th><td>až 15,5 kg</td></tr><tr><th>Objem zásobníka na ľad</th><td>1 l</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76907_57213_pol_437e439fb45dd9d604c221ac59369c21" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -352081,7 +352110,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Výrobník ľadu Euhomy IM017 20 kg (čierny)">https://b2b.innpro.sk/hpeciai/6368c55a4e60f7e7945826aeaa3ea3ec/57213_1.jpg</IMAGE>
+  <IMAGE description="Výrobník ľadu Euhomy IM017 20 kg (čierny)">https://b2b.innpro.sk/hpeciai/3ff01c6269617d6434432a4eb77ad475/57213_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -352097,24 +352126,24 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[115 V / 60 Hz]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Objem nádrže]]></NAME>
+    <NAME><![CDATA[Objem nádrže na vodu]]></NAME>
     <VALUE><![CDATA[1,8 l]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Rozmery]]></NAME>
-    <VALUE><![CDATA[24,4 × 34 × 37,6 cm]]></VALUE>
+    <VALUE><![CDATA[24,3 × 34 × 37,5 cm]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Hmotnosť]]></NAME>
-    <VALUE><![CDATA[10,5 kg]]></VALUE>
+    <VALUE><![CDATA[10,3 kg]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Maximálny denný výkon]]></NAME>
-    <VALUE><![CDATA[až 15 kg]]></VALUE>
+    <VALUE><![CDATA[až 15,5 kg]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Objem zásobníka na ľad]]></NAME>
-    <VALUE><![CDATA[cca 1,2 kg]]></VALUE>
+    <VALUE><![CDATA[1 l]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Farba]]></NAME>
@@ -352139,33 +352168,33 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Výrobník ľadu Euhomy IM017 20 kg (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Euhomy IM005 15 kg výrobník ľadu (čierny)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Výrobník ľadu Euhomy IM005 s kapacitou 15 kg (čierny) Kompaktný výrobník ľadových kociek Euhomy IM005 vyprodukuje 16 kociek za púhych 13 minút a dokáže vyrobiť až 15,4 kg ľadových kociek za deň. Je…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Výrobník ľadu Euhomy IM005 s kapacitou 15 kg (čierny)</h3>
-<p>Kompaktný výrobník ľadových kociek Euhomy IM005 vyprodukuje 16 kociek za púhych 13 minút a dokáže vyrobiť až 15,4 kg ľadových kociek za deň. Je to ideálna voľba na letné párty alebo do kuchyne. Navyše, zariadenie vám umožňuje nastaviť hrúbku kociek ľadu podľa vašich preferencií a typu nápojov. Okrem toho výrobník ľadu IM005 ponúka dva spôsoby plnenia: prostredníctvom 2-litrovej nádrže na vodu a pomocou fľaše na vodu s kapacitou až 11 litrov.</p>
+<NAME><![CDATA[Výrobník ľadu Euhomy IM005 15 kg (čierny)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Výrobník ľadu Euhomy IM005-CBL 15 kg (čierny) Kompaktný výrobník ľadových kociek Euhomy IM005 vyprodukuje 16 ľadových kociek za pouhých 13 minút a za deň dokáže vyrobiť až 15,5 kg ľadových kociek. Je…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Výrobník ľadu Euhomy IM005-CBL 15 kg (čierny)</h3>
+<p>Kompaktný výrobník ľadových kociek Euhomy IM005 vyprodukuje 16 ľadových kociek za pouhých 13 minút a za deň dokáže vyrobiť až 15,5 kg ľadových kociek. Je to ideálna voľba na letné párty alebo do vašej kuchyne. Navyše vám stroj umožňuje nastaviť hrúbku kociek ľadu podľa vašich preferencií a druhu nápojov, ktoré podávate. Výrobník ľadu IM005 ponúka aj dve možnosti plnenia: cez externú 1,5-litrovú nádrž na vodu alebo vnútornú 0,5-litrovú nádrž.</p>
 <p>
-<img alt="Čierny stolný výrobník ľadu Euhomy vedľa vedra na ľad a tácky s nápojmi" border="0" src="https://assets.innpro.pl/19792/26380/Kostkarka-do-lodu-Euhomy-IM005-lifestyle-5.jpg"/>
-</p><h3>Ľahké ovládanie</h3>
-<p>Zariadenie je vybavené inteligentným ovládacím panelom s LED displejom, ktorý vám nielen umožňuje zapnúť výrobník ľadu, ale aj nastaviť časovač až na 24 hodín, spustiť automatické čistenie alebo prijať upozornenie, keď dôjde voda alebo je zásobník na ľad plný. Môžete si tiež vybrať jednu z troch dostupných hrúbok kociek ľadu – príprava bude trvať 8 minút, 13 minút alebo 20 minút.</p>
+<img alt="Čierny stolový výrobník ľadu Euhomy vedľa vedra na ľad a tácky s nápojmi" border="0" src="https://assets.innpro.pl/19792/26380/5-a5570eb3-f027-4158-82bd-f998637928ed.jpg"/>
+</p><h3>Jednoduché ovládanie</h3>
+<p>Stroj je vybavený inteligentným ovládacím panelom s LED displejom, ktorý vám nielen umožňuje zapnúť výrobník ľadu, ale aj nastaviť časovač až na 24 hodín, spustiť automatické čistenie alebo prijímať upozornenia na nízku hladinu vody či plnú nádobu na ľad. Môžete si tiež vybrať jednu z troch dostupných hrúbok kociek ľadu – príprava trvá 8 minút, 13 minút, resp. 20 minút.</p>
 <p>
-<img alt="Čierny výrobník ľadu Euhomy na kuchynskej linke vedľa pohára s nápojom" border="0" src="https://assets.innpro.pl/19792/26380/Kostkarka-do-lodu-Euhomy-IM005-lifestyle-6.jpg"/>
-</p><h3>Ľahká údržba a čistenie</h3>
-<p>Výrobník ľadu disponuje funkciou automatického čistenia – stačí podržať tlačidlo „+“ po dobu 3 sekúnd a spustí sa 20-minútový cyklus samočistenia. Toto praktické riešenie pomáha udržiavať zariadenie čisté a hygienické bez potreby ručného umývania.</p>
+<img alt="Čierny stolový výrobník ľadu Euhomy v kuchyni vedľa pohára s nápojom" border="0" src="https://assets.innpro.pl/19792/26380/6-521e93d2-85ad-4545-99bc-48ad123823ae.jpg"/>
+</p><h3>Jednoduchá údržba a čistenie</h3>
+<p>Výrobník ľadu disponuje funkciou automatického čistenia – stačí podržať tlačidlo „+“ po dobu 3 sekúnd, čím spustíte 20-minútový cyklus samočistenia. Táto praktická funkcia pomáha udržiavať zariadenie v čistote a hygienickom stave bez potreby ručného čistenia.</p>
 <p>
-<img alt="Výrobník ľadu s viditeľnými vnútornými komponentmi na svetlom pozadí" border="0" src="https://assets.innpro.pl/19792/26380/Kostkarka-do-lodu-Euhomy-IM005-lifestyle-4.jpg"/>
-</p><h3>Premyslený a kompaktný dizajn</h3>
-<p>Model IM005 spája vysoký výkon s kompaktnými rozmermi. Zariadenie má rozmery 22 × 29,5 × 42,5 cm, vďaka čomu sa ľahko zmestí na kuchynskú linku. Priehľadné veko vám umožňuje sledovať proces výroby ľadu bez nutnosti otvárania a priložená lopatka a nádoba na ľad s kapacitou približne 0,8 kg uľahčujú každodenné používanie. Praktický držiak na lopatku zabraňuje jej strate.</p>
+<img alt="Výrobník ľadu s viditeľnými vnútornými komponentmi na svetlom pozadí" border="0" src="https://assets.innpro.pl/19792/26380/4-cd7c31d7-0d31-4ddf-a539-0354dbd155e9.jpg"/>
+</p><h3>Dobre navrhnutá a kompaktná konštrukcia</h3>
+<p>Model IM005 spája vysoký výkon s kompaktnými rozmermi. Rozmery zariadenia sú 22,5 × 30 × 41,5 cm, vďaka čomu sa ľahko zmestí na kuchynskú pracovnú dosku. Priehľadné veko vám umožňuje sledovať proces výroby ľadu bez nutnosti otvárania a priložená lopatka a nádoba na ľad s objemom cca 0,8 l uľahčujú každodenné používanie. Praktický držiak na lopatku zabraňuje jej strate.</p>
 <p>
-<img alt="Ľad nabratý z čierneho výrobníka ľadu lopatkou vedľa pohára s nápojom" border="0" src="https://assets.innpro.pl/19792/26380/Kostkarka-do-lodu-Euhomy-IM005-lifestyle-1.jpg"/>
+<img alt="Ľad vyberaný lopatkou z čierneho výrobníka ľadu vedľa pohára s nápojom" border="0" src="https://assets.innpro.pl/19792/26380/1-e2150cd8-05d5-4793-9d75-4c8f44071039.jpg"/>
 </p>
 <h3>Súčasťou balenia</h3>
-<ul class="list-disc pl-5"><li>výrobník ľadových kociek</li><li>lopatka na ľad</li><li>návod na použitie</li></ul>
+<ul class="list-disc pl-5"><li>výrobník ľadových kociek</li><li>lyžica na ľad</li><li>návod na použitie</li></ul>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Euhomy</td></tr><tr><th>Model</th><td>IM005</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Vstavaná nádrž na vodu</th><td>0,5 l</td></tr><tr><th>Dodatočná nádrž na vodu</th><td>1,5 l</td></tr><tr><th>Napätie</th><td>AC 220–240 V</td></tr><tr><th>Frekvencia</th><td>50 Hz</td></tr><tr><th>Spotreba energie pri výrobe ľadu</th><td>133 W / 0,9 A</td></tr><tr><th>Rozmery (výška x šírka x hĺbka)</th><td>22 × 29,5 × 42,5 cm</td></tr><tr><th>Hmotnosť</th><td>7,5 kg</td></tr>
+<tr><th>Výrobca</th><td>Euhomy</td></tr><tr><th>Model</th><td>IM005-CBL</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Vnútorná nádrž na vodu</th><td>0,5 l</td></tr><tr><th>Vonkajšia nádrž na vodu</th><td>1,5 l</td></tr><tr><th>Napätie</th><td>AC 220–240 V</td></tr><tr><th>Frekvencia</th><td>50 Hz</td></tr><tr><th>Príkon pri výrobe ľadu</th><td>133 W / 0,9 A</td></tr><tr><th>Rozmery (výška × šírka × hĺbka)</th><td>22,5 × 30 × 41,5 cm</td></tr><tr><th>Hmotnosť</th><td>7 kg</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76908_57214_pol_f11a549ad436a0a0cbaf3d9fa862df1c" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -352183,7 +352212,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti > Kuchynské vybavenie]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Euhomy IM005 15 kg výrobník ľadu (čierny)">https://b2b.innpro.sk/hpeciai/69ec7678e6161d6ce587dd1460749c0e/57214_1.jpg</IMAGE>
+  <IMAGE description="Výrobník ľadu Euhomy IM005 15 kg (čierny)">https://b2b.innpro.sk/hpeciai/2247040c771d14db2bdeb0e90d43be5e/57214_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -352195,11 +352224,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[čierna]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Vstavaná nádrž na vodu]]></NAME>
+    <NAME><![CDATA[Vnútorná nádrž na vodu]]></NAME>
     <VALUE><![CDATA[0,5 l]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Dodatočná nádrž na vodu]]></NAME>
+    <NAME><![CDATA[Vonkajšia nádrž na vodu]]></NAME>
     <VALUE><![CDATA[1,5 l]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
@@ -352211,8 +352240,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[50 Hz]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
+    <NAME><![CDATA[Príkon pri výrobe ľadu]]></NAME>
+    <VALUE><![CDATA[133 W / 0,9 A]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
     <NAME><![CDATA[Hmotnosť]]></NAME>
-    <VALUE><![CDATA[7,5 kg]]></VALUE>
+    <VALUE><![CDATA[7 kg]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Záruka]]></NAME>
@@ -352229,39 +352262,39 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>108.38</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Euhomy IM005 15 kg výrobník ľadu (čierny) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Euhomy IM005 15 kg výrobník ľadu (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Výrobník ľadu Euhomy IM005 15 kg (čierny) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Výrobník ľadu Euhomy IM005 15 kg (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Euhomy BR009-55 37L chladiaci box na nápoje (čierny)]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Chladnička na nápoje Euhomy BR009-55BL-DEEH 37L (čierna) Chladnička Euhomy je kompaktná chladnička na skladovanie nápojov, do ktorej sa zmestí 55 plechoviek s objemom 330 ml alebo 12 fliaš s objemom…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Chladnička na nápoje Euhomy BR009-55BL-DEEH 37L (čierna)</h3>
-<p>Chladnička Euhomy je kompaktná chladnička na skladovanie nápojov, do ktorej sa zmestí 55 plechoviek s objemom 330 ml alebo 12 fliaš s objemom 750 ml. Vďaka 7-stupňovej regulácii teploty (od 7,7 °C do -1,6 °C) a tichému chodu pri 38 dB dokonale kombinuje komfort používania s funkčnosťou. Vybavená systémom chladenia s cirkuláciou vzduchu a technológiou úspory energie zaručuje, že vaše nápoje budú vždy správne vychladené.</p>
+<NAME><![CDATA[Chladnička na nápoje Euhomy BR001-55 37 l (čierna)]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Chladnička na nápoje Euhomy BR009-55 37 l (čierna) Chladnička na nápoje Euhomy je kompaktná chladnička určená na skladovanie nápojov, do ktorej sa zmestí 55 plechoviek s objemom 330 ml alebo 12 fliaš…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Chladnička na nápoje Euhomy BR009-55 37 l (čierna)</h3>
+<p>Chladnička na nápoje Euhomy je kompaktná chladnička určená na skladovanie nápojov, do ktorej sa zmestí 55 plechoviek s objemom 330 ml alebo 12 fliaš s objemom 750 ml. Vďaka 7-stupňovému nastaveniu teploty (od 4 °C do 16 °C) a tichému chodu s hlučnosťou 38 dB dokonale spája užívateľský komfort s funkčnosťou. Je vybavená chladiacim systémom s cirkuláciou vzduchu a energeticky úspornou technológiou, vďaka čomu sú vaše nápoje vždy správne vychladené.</p>
 <p>
-<img alt="Usmievajúci sa pár pri kuchynskej linke s chladničkou na nápoje, misou s ovocím a tortou na tanieri" border="0" src="https://assets.innpro.pl/19797/26387/1.jpg"/>
-</p><h3>Nastaviteľný priestor a LED osvetlenie</h3>
-<p>Vnútorné police sa dajú ľahko vybrať alebo prispôsobiť rôznym výškam fliaš a plechoviek, čo vám poskytuje úplnú flexibilitu pri usporiadaní vnútorného priestoru chladničky. Vďaka tomu je možné ľahko skladovať klasické sýtené nápoje aj nápoje vo fľašiach. Vnútorný priestor je osvetlený jemným modrým LED svetlom, ktoré zlepšuje viditeľnosť za zhoršených svetelných podmienok.</p>
+<img alt="Usmievajúci sa pár stojací pri kuchynskej linke s chladničkou na nápoje, miskou s ovocím a kúskom torty na tanieri" border="0" src="https://assets.innpro.pl/19797/26387/1-36c2078a-dbf0-45e8-9753-15cd4f3d0bde.jpg"/>
+</p><h3>Nastaviteľný vnútorný priestor a LED osvetlenie</h3>
+<p>Vnútorné police možno ľahko vybrať alebo nastaviť tak, aby vyhovovali fľašiam a plechovkám rôznych výšok, čo vám poskytuje úplnú flexibilitu pri organizovaní vnútorného priestoru chladničky. Vďaka tomu je jednoduché skladovať klasické sýtené nápoje aj nápoje vo fľašiach. Interiér osvetľuje jemné modré LED svetlo, ktoré zlepšuje viditeľnosť pri slabom osvetlení.</p>
 <p>
-<img alt="Chladnička naplnená nápojmi s pootvorenými dverami na bielej plošine" border="0" src="https://assets.innpro.pl/19797/26387/10.jpg"/>
-</p><h3>Presné ovládanie teploty</h3>
-<p>Ovládací panel s digitálnym displejom vám umožňuje ľahko nastaviť ideálnu teplotu. Môžete si vybrať zo 7 režimov chladenia, ktoré sa dajú ľahko prispôsobiť typu uložených nápojov. Chladnička automaticky udržiava zvolenú teplotu pomocou energeticky úsporného systému recirkulácie vzduchu, ktorý zabezpečuje rovnomerné chladenie.</p>
+<img alt="Chladnička plná nápojov s pootvorenými dverami na bielej ploche" border="0" src="https://assets.innpro.pl/19797/26387/10-a35bf9db-ecd3-435a-96d0-1ea1c91ea2ca.jpg"/>
+</p><h3>Presná regulácia teploty</h3>
+<p>Ovládací panel s digitálnym displejom uľahčuje nastavenie ideálnej teploty. Môžete si vybrať zo 7 režimov chladenia, ktoré sa dajú ľahko prispôsobiť podľa typu nápojov, ktoré skladujete. Chladnička automaticky udržiava zvolenú teplotu pomocou energeticky úsporného systému cirkulácie vzduchu, čím zabezpečuje rovnomerné chladenie.</p>
 <p>
-<img alt="Záber zblízka na chladničku plnú nápojov a ovládací panel s robotickou rukou na pravej strane" border="0" src="https://assets.innpro.pl/19797/26387/2.jpg"/>
+<img alt="Záber zblízka na chladničku plnú nápojov a jej ovládací panel, s robotovou rukou vpravo" border="0" src="https://assets.innpro.pl/19797/26387/2-db98ab93-81d0-48e3-9e55-e5c97f93cf2e.jpg"/>
 </p><h3>Tichá a energeticky úsporná prevádzka</h3>
-<p>Spotrebič je vybavený účinným kompresorom R600a, ktorý kombinuje účinnosť s nízkou spotrebou energie – len 0,53 kWh za deň. Vďaka tomu je vitrína skvelou voľbou pre reštaurácie, hotely atď. Chladnička pracuje s hlučnosťou 38 dB, takže je v bežnom prostredí prakticky nepočuteľná a neruší rozhovory ani odpočinok.</p>
+<p>Zariadenie je vybavené vysokovýkonným kompresorom R600a, ktorý spája účinnosť s nízkou spotrebou energie – len 0,53 kWh za deň. Vďaka tomu je táto vitrína vynikajúcou voľbou pre reštaurácie, hotely a podobné zariadenia. Chladnička pracuje pri hladine hluku 38 dB, vďaka čomu je v bežnom prostredí prakticky nepočuteľná a neruší konverzácie ani odpočinok.</p>
 <p>
-<img alt="Otvorená chladnička s nápojmi na bielom stole" border="0" src="https://assets.innpro.pl/19797/26387/8.jpg"/>
-</p><h3>Univerzálny dizajn a jednoduché používanie</h3>
-<p>Vitrína bola vylepšená v každom detaile, a to ako vizuálne, tak aj funkčne. Dvere sú vyrobené z dvojitého skleneného panelu s tesnením – toto riešenie chráni obsah pred stratou teploty a vplyvom vonkajšieho tepla. Závory sú otočné, čo umožňuje montáž dverí tak, aby sa otvárali doľava alebo doprava, v závislosti od polohy chladničky v miestnosti. Nastaviteľné nožičky umožňujú vyrovnanie spotrebiča na nerovných povrchoch, čím sa zabezpečuje stabilita a tichá prevádzka.</p>
+<img alt="Otvorená chladnička s nápojmi na bielom stole" border="0" src="https://assets.innpro.pl/19797/26387/8-14755100-344d-49fb-bd3a-5c194c6e145a.jpg"/>
+</p><h3>Univerzálny dizajn a jednoduché ovládanie</h3>
+<p>Vitrína bola zdokonalená do najmenších detailov, a to tak po vizuálnej, ako aj po funkčnej stránke. Dvere sú vyrobené z dvojitého skleneného panelu s tesnením – táto konštrukcia chráni obsah pred únikom teploty a vplyvmi vonkajšieho tepla. Pánty sú otočné, čo umožňuje otváranie dvierok doľava alebo doprava – v závislosti od umiestnenia chladničky v miestnosti. Nastaviteľné nožičky umožňujú vyrovnanie spotrebiča na nerovnom povrchu, čím sa zabezpečí jeho stabilita a tichý chod.</p>
 <p>
-<img alt="Čierna chladnička na nápoje s dverami, ktoré sa otvárajú doľava a doprava" border="0" src="https://assets.innpro.pl/19797/26387/9.jpg"/>
+<img alt="Čierna chladnička na nápoje s dverami, ktoré sa otvárajú doľava a doprava" border="0" src="https://assets.innpro.pl/19797/26387/9-47e7b510-bee7-4a9c-a03b-70bdd253d57a.jpg"/>
 </p>
 <div class="table-wrapper">
 <p> </p>
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>Euhomy</td></tr><tr><th>Model</th><td>BR009-55BL-DEEH</td></tr><tr><th>Farba</th><td>Čierna</td></tr><tr><th>Objem</th><td>37 l</td></tr><tr><th>Napätie</th><td>115 V ~ 60 Hz</td></tr><tr><th>Intenzita</th><td>1 A</td></tr><tr><th>Chladenie</th><td>R600A, 0,49 oz/14 g</td></tr><tr><th>Rozmery</th><td>43 x 41 x 47 cm</td></tr><tr><th>Hmotnosť</th><td>15 kg</td></tr><tr><th>Trieda energetickej účinnosti</th><td>F</td></tr>
+<tr><th>Výrobca</th><td>Euhomy</td></tr><tr><th>Model</th><td>BR009-55BL</td></tr><tr><th>Farba</th><td>čierna</td></tr><tr><th>Objem</th><td>37 l</td></tr><tr><th>Napätie</th><td>115 V ~ 60 Hz</td></tr><tr><th>Prúd</th><td>1 A</td></tr><tr><th>Chladivo</th><td>R600A, 0,49 oz/14 g</td></tr><tr><th>Rozmery (šírka x hĺbka x výška)</th><td>43,2 x 41,3 x 47 cm</td></tr><tr><th>Hmotnosť</th><td>15 kg</td></tr><tr><th>Trieda energetickej účinnosti</th><td>G</td></tr><tr><th>Rozsah regulácie teploty</th><td>4–16 °C</td></tr>
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=76909_57215_pol_82f09d1b74aaeb77c8e285550c726cdd" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
@@ -352278,7 +352311,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Vybavenie kuchyne a domácnosti]]></CATEGORY>
 </CATEGORIES>
 <IMAGES>
-  <IMAGE description="Euhomy BR009-55 37L chladiaci box na nápoje (čierny)">https://b2b.innpro.sk/hpeciai/d764bd7c29ff03f6f78216c25b1c6612/57215_1.jpg</IMAGE>
+  <IMAGE description="Chladnička na nápoje Euhomy BR001-55 37 l (čierna) - obrázok 1">https://b2b.innpro.sk/hpeciai/58b2892e87ff347b313c2763468fe874/57215_1.webp</IMAGE>
+  <IMAGE description="Chladnička na nápoje Euhomy BR001-55 37 l (čierna) - obrázok 2">https://b2b.innpro.sk/hpeciai/ceae4870a6d04c10018f96e9fe90cdee/57215_2_1.webp</IMAGE>
 </IMAGES>
 <TEXT_PROPERTIES>
   <TEXT_PROPERTY>
@@ -352298,16 +352332,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[115 V ~ 60 Hz]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Intenzita]]></NAME>
+    <NAME><![CDATA[Prúd]]></NAME>
     <VALUE><![CDATA[1 A]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Chladenie]]></NAME>
+    <NAME><![CDATA[Chladivo]]></NAME>
     <VALUE><![CDATA[R600A, 0,49 oz/14 g]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Rozmery]]></NAME>
-    <VALUE><![CDATA[43 x 41 x 47 cm]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Hmotnosť]]></NAME>
@@ -352315,7 +352345,11 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Trieda energetickej účinnosti]]></NAME>
-    <VALUE><![CDATA[F]]></VALUE>
+    <VALUE><![CDATA[G]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Rozsah regulácie teploty]]></NAME>
+    <VALUE><![CDATA[4–16 °C]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Záruka]]></NAME>
@@ -352333,8 +352367,8 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <PURCHASE_PRICE>113.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
 <PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Euhomy BR009-55 37L chladiaci box na nápoje (čierny) | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Euhomy BR009-55 37L chladiaci box na nápoje (čierny) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+<SEO_TITLE><![CDATA[Chladnička na nápoje Euhomy BR001-55 37 l (čierna) | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Chladnička na nápoje Euhomy BR001-55 37 l (čierna) – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[LaserPecker LP2 Plus laserový gravír, verzia Safeguard]]></NAME>
@@ -364436,6 +364470,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -379310,6 +379345,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -390995,6 +391031,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -391085,6 +391122,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -397646,6 +397684,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -401592,6 +401631,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -412273,6 +412313,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -435047,9 +435088,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>087500</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6974246473505</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY>
@@ -441175,6 +441213,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -450677,7 +450716,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -456851,14 +456893,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -481006,6 +481052,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -481811,6 +481858,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088944</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6976230000995</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu]]></CATEGORY>
@@ -482234,6 +482284,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088949</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6976230001046</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu]]></CATEGORY>
@@ -482302,6 +482355,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088950</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6976230001053</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu]]></CATEGORY>
@@ -482370,6 +482426,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088951</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6976230001060</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[3D tlač a digitálna výroba > Tlačiarne a lisy na potlač textilu]]></CATEGORY>
@@ -483026,6 +483085,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -484497,6 +484557,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -484814,6 +484875,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -509674,10 +509736,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -521633,10 +521697,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>27.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -523955,10 +524021,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -525717,14 +525785,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -583691,7 +583762,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>15.53</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>15.16</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>242.00</PRICE_VAT>
 <PURCHASE_PRICE>171.09</PURCHASE_PRICE>
@@ -583819,7 +583890,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>15.53</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>14.99</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>331.90</PRICE_VAT>
 <PURCHASE_PRICE>234.53</PURCHASE_PRICE>
@@ -583943,7 +584014,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>15.53</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>14.99</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>275.00</PRICE_VAT>
 <PURCHASE_PRICE>194.39</PURCHASE_PRICE>
@@ -584071,7 +584142,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>15.53</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>16.69</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>377.00</PRICE_VAT>
 <PURCHASE_PRICE>266.58</PURCHASE_PRICE>
@@ -592321,6 +592392,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -596001,21 +596073,21 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </SHOPITEM>
 <SHOPITEM>
 <NAME><![CDATA[Elektráreň ALLPOWERS R2500 V2]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Prenosná elektráreň ALLPOWERS R2500 V2 ALLPOWERS R2500 V2 je prenosná elektráreň s kapacitou 2016 Wh, vybavená batériou LiFePO4 a invertorom s čistou sínusovou vlnou s výkonom 2500 W a špičkovým…]]></SHORT_DESCRIPTION>
+<SHORT_DESCRIPTION><![CDATA[Prenosná elektráreň ALLPOWERS R2500 V2 ALLPOWERS R2500 V2 je prenosná elektráreň s kapacitou 1 920 Wh, vybavená batériou LiFePO4 a meničom s čistou sínusovou vlnou s výkonom 2 500 W a špičkovým…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Prenosná elektráreň ALLPOWERS R2500 V2</h3>
-<p>ALLPOWERS R2500 V2 je prenosná elektráreň s kapacitou 2016 Wh, vybavená batériou LiFePO4 a invertorom s čistou sínusovou vlnou s výkonom 2500 W a špičkovým výkonom až 4000 W. Môže slúžiť ako zdroj energie doma počas výpadku prúdu, pri kempovaní, v karavane, na cestách alebo pri práci mimo dosahu elektrickej zásuvky. Podporuje nabíjanie zo siete striedavého prúdu, solárnych panelov, 12/24 V automobilového systému a generátora, pričom kombinácia sieťovej a solárnej energie umožňuje vstupný výkon až 2 500 W. Funkcia UPS s časom prepnutia približne 15 ms, ovládanie cez Wi-Fi a Bluetooth a možnosť rozšírenia systému až na 20 kWh rozširujú spektrum využitia tohto zariadenia.</p>
+<p>ALLPOWERS R2500 V2 je prenosná elektráreň s kapacitou 1 920 Wh, vybavená batériou LiFePO4 a meničom s čistou sínusovou vlnou s výkonom 2 500 W a špičkovým výkonom až 4 000 W. Môže slúžiť ako zdroj energie doma počas výpadku prúdu, pri kempovaní, v karavane, na cestách alebo pri práci mimo dosahu elektrickej zásuvky. Podporuje nabíjanie zo siete striedavého prúdu, solárnych panelov, 12/24 V automobilového systému a generátora, pričom kombinácia sieťovej a solárnej energie umožňuje vstupný výkon až 2 500 W. Funkcia UPS s dobou prepnutia približne 15 ms, ovládanie cez Wi-Fi a Bluetooth a možnosť rozšírenia systému až na 20 kWh rozširujú spektrum využitia tohto zariadenia.</p>
 <p>
 <img alt="Energetická stanica Allpowers R2500 je zapojená do zásuvky; vedľa nej žena otvára chladničku v kuchyni" border="0" src="https://assets.innpro.pl/24934/32983/1-374d30a5-d61c-435a-b08c-abbe54a34154.jpg"/>
 </p><h3>2 500 W výkonu s čistou sínusovou vlnou</h3>
-<p>Vstavaný menič generuje čistú sínusovú vlnu, vďaka čomu môže stanica napájať aj jednoduché zariadenia, aj náročnejšiu elektroniku. Trvalý výstupný výkon 2 500 W dokáže napájať okrem iného chladničku, práčku, rýchlovarnú kanvicu, malú rúru, ventilátor, audio/video zariadenia a vybrané elektrické náradie. Špičkový výkon až 4 000 W zase uľahčuje prevádzku zariadení, ktoré pri spúšťaní dočasne vyžadujú viac energie.</p>
+<p>Vstavaný menič generuje čistú sínusovú vlnu, vďaka čomu môže stanica napájať nielen jednoduché zariadenia, ale aj náročnejšiu elektroniku. Neprerušovaný výstupný výkon 2 500 W dokáže napájať okrem iného chladničku, práčku, rýchlovarnú kanvicu, malú rúru, ventilátor, audio/video zariadenia a vybrané elektrické náradie. Špičkový výkon až 4 000 W zároveň uľahčuje prevádzku zariadení, ktoré počas spúšťania dočasne vyžadujú vyšší výkon.</p>
 <p>
 <img alt="Elektrická stanica Allpowers R2500 V2.0 stojí v kuchyni vedľa kávovaru; používateľ drží v ruke smartfón s ovládacou aplikáciou" border="0" src="https://assets.innpro.pl/24934/32983/2-35ecd917-c8de-4c77-b2eb-9f8c7889c975.jpg"/>
 </p><h3>Batéria LiFePO4 s viac ako 3 500 nabíjacími cyklami</h3>
-<p>Stanica využíva 48 V, 42 Ah LiFePO4 batériu s kapacitou 2 016 Wh. Táto technológia sa osvedčuje v zariadeniach určených na pravidelné používanie, keďže batéria si po viac ako 3 500 nabíjacích cyklov zachováva približne 80 % svojej pôvodnej kapacity. Jej prevádzku monitoruje systém BMS, ktorý zabezpečuje ochranu okrem iného proti prebitiu, nadmernému vybití, preťaženiu, skratom, nadmernému prúdu a abnormálnym teplotám.</p>
+<p>Stanica využíva 48 V batériu LiFePO4 s kapacitou 42 Ah a energetickou kapacitou 1 920 Wh. Táto technológia sa osvedčuje v zariadeniach určených na pravidelné používanie, keďže batéria si po viac ako 3 500 nabíjacích cyklov zachováva približne 80 % svojej pôvodnej kapacity. Jej prevádzku monitoruje systém BMS, ktorý zabezpečuje ochranu okrem iného proti prebitiu, nadmernému vybití, preťaženiu, skratom, nadmernému prúdu a abnormálnym teplotám.</p>
 <p>
 <img alt="Technický rez elektrickou stanicou Allpowers R2500 znázorňujúci batériové články a vnútorný integrovaný obvod" border="0" src="https://assets.innpro.pl/24934/32983/3-4e1229da-a3eb-4ed4-b0b4-10565f5c98b3.jpg"/>
 </p><h3>Niekoľko spôsobov nabíjania</h3>
-<p>ALLPOWERS R2500 V2 je možné nabíjať spôsobom, ktorý vyhovuje vašim aktuálnym podmienkam. Pri pripojení do zásuvky striedavého prúdu podporuje vstupný výkon až 1 500 W, čo umožňuje úplné nabitie za približne 1,3 hodiny. Pri použití solárnych panelov stanica prijíma až 1 000 W solárnej energie, čo za správnych podmienok umožňuje dobitie batérie za približne 2 hodiny. K dispozícii je aj nabíjanie z 12/24 V palubnej elektrickej siete vozidla a z generátora, pričom súčasné použitie striedavého prúdu a solárnych panelov ešte viac skracuje čas potrebný na dobitie batérie.</p>
+<p>ALLPOWERS R2500 V2 je možné nabíjať spôsobom, ktorý vyhovuje vašim aktuálnym podmienkam. Pri pripojení do zásuvky striedavého prúdu podporuje vstupný výkon až 1 500 W, čo umožňuje úplné nabitie za približne 1,3 hodiny. Pri použití solárnych panelov stanica prijíma až 1 000 W solárnej energie, čo za správnych podmienok umožňuje dobitie batérie za približne 2 hodiny. K dispozícii je aj nabíjanie z automobilového systému 12/24 V a z generátora, pričom súčasné používanie striedavého prúdu a solárnych panelov ešte viac skracuje čas potrebný na dobitie batérie.</p>
 <p>
 <img alt="Rozobratá elektráreň Allpowers R2500, na ktorej sú viditeľné výkonové moduly, ventilátory a články" border="0" src="https://assets.innpro.pl/24934/32983/4-cce11a1b-ac02-4172-90c7-981c53b6ae4a.jpg"/>
 </p><h3>Funkcia UPS pre núdzové napájanie</h3>
@@ -596027,7 +596099,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <p>
 <img alt="Elektráreň Allpowers R2500 v tmavej kuchyni, ktorá napája práčku, rúru, varnú kanvicu, chladničku a ventilátor" border="0" src="https://assets.innpro.pl/24934/32983/5-362fa5d8-06ab-40a3-a87d-d6aa0a779dfc.jpg"/>
 </p><h3>Škálovateľnosť systému</h3>
-<p>ALLPOWERS R2500 V2 môže slúžiť ako samostatný mobilný zdroj energie, tak aj ako súčasť väčšieho systému. Vďaka kompatibilným rozširujúcim batériám B3000 je možné kapacitu zvýšiť až na 20 kWh, čo vám umožňuje uskladniť väčšiu rezervu energie pre dlhšie výpadky prúdu alebo náročnejšie aplikácie. Stanica tiež podporuje paralelné zapojenie, vďaka čomu je možné zvýšiť dostupný výstup striedavého prúdu až na 4 000 W a špičkový výkon na 12 000 W.</p>
+<p>ALLPOWERS R2500 V2 môže slúžiť ako samostatný mobilný zdroj energie, tak aj ako súčasť väčšieho systému. Vďaka kompatibilným rozširujúcim batériám B3000 je možné kapacitu zvýšiť až na 20 kWh, čo vám umožňuje uskladniť väčšiu energetickú rezervu pre dlhšie výpadky prúdu alebo náročnejšie aplikácie. Stanica tiež podporuje paralelné zapojenie, vďaka čomu je možné zvýšiť dostupný výstup striedavého prúdu až na 4 000 W a špičkový výkon až na 12 000 W.</p>
 <p>
 <img alt="Prenosná elektráreň Allpowers R2500 s nasadenými krytmi portov a viditeľným bočným panelom" border="0" src="https://assets.innpro.pl/24934/32983/7-af02b4cd-6041-4748-a25e-8da64c5cb4e0.jpg"/>
 </p>
@@ -596036,7 +596108,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <h3></h3>
 <table>
 <tbody>
-<tr><th>Výrobca</th><td>ALLPOWERS</td></tr><tr><th>Model</th><td>R2500 V2</td></tr><tr><th>Kapacita</th><td>2 016 Wh</td></tr><tr><th>Napätie a kapacita batérie</th><td>48 V / 42 Ah</td></tr><tr><th>Typ batérie</th><td>LiFePO4</td></tr><tr><th>Životnosť batérie</th><td>viac ako 3 500 cyklov pri zachovaní približne 80 % kapacity</td></tr><tr><th>Výstupný výkon striedavého prúdu</th><td>2 500 W</td></tr><tr><th>Špičkový výkon striedavého prúdu</th><td>4 000 W</td></tr><tr><th>Typ priebehu striedavého prúdu</th><td>čistá sínusová vlna</td></tr><tr><th>Počet výstupov striedavého prúdu</th><td>4</td></tr><tr><th>Maximálny nabíjací výkon striedavého prúdu</th><td>1 500 W</td></tr><tr><th>Maximálny vstupný výkon zo solárnych panelov</th><td>1 000 W</td></tr><tr><th>Maximálny nabíjací výkon striedavého prúdu + solárneho prúdu</th><td>2 500 W</td></tr><tr><th>Nabíjanie v aute</th><td>12/24 V</td></tr><tr><th>Nabíjanie z generátora</th><td>Áno, až do 1 500 W</td></tr><tr><th>Funkcia UPS</th><td>Áno</td></tr><tr><th>Doba prepnutia UPS</th><td>Približne 15 ms</td></tr><tr><th>USB-C</th><td>2 porty, max. 200 W celkom</td></tr><tr><th>USB-A</th><td>2 × 12 W + 2 × 36 W</td></tr><tr><th>Pripojiteľnosť</th><td>Wi-Fi, Bluetooth</td></tr><tr><th>Ovládanie cez aplikáciu</th><td>Áno</td></tr><tr><th>Rozšírenie kapacity</th><td>Až 20 kWh s batériami B3000</td></tr><tr><th>Paralelné zapojenie</th><td>až 4 000 W striedavého prúdu / 12 000 W špičkového výkonu</td></tr><tr></tr>
+<tr><th>Výrobca</th><td>ALLPOWERS</td></tr><tr><th>Model</th><td>R2500 V2</td></tr><tr><th>Kapacita</th><td>1 920 Wh</td></tr><tr><th>Napätie a kapacita batérie</th><td>48 V / 42 Ah</td></tr><tr><th>Typ batérie</th><td>LiFePO4</td></tr><tr><th>Životnosť batérie</th><td>viac ako 3 500 cyklov pri zachovaní približne 80 % kapacity</td></tr><tr><th>Výstupný výkon striedavého prúdu</th><td>2 500 W</td></tr><tr><th>Špičkový výkon striedavého prúdu</th><td>4 000 W</td></tr><tr><th>Typ priebehu striedavého prúdu</th><td>čistá sínusová vlna</td></tr><tr><th>Počet výstupov striedavého prúdu</th><td>4</td></tr><tr><th>Maximálny nabíjací výkon striedavého prúdu</th><td>1 500 W</td></tr><tr><th>Maximálny vstupný výkon zo solárnych panelov</th><td>1 000 W</td></tr><tr><th>Maximálny nabíjací výkon striedavého prúdu + solárneho prúdu</th><td>2 500 W</td></tr><tr><th>Nabíjanie automobilu</th><td>12/24 V</td></tr><tr><th>Nabíjanie z generátora</th><td>Áno, až do 1 500 W</td></tr><tr><th>Funkcia UPS</th><td>Áno</td></tr><tr><th>Doba prepnutia UPS</th><td>Približne 15 ms</td></tr><tr><th>USB-C</th><td>2 porty, max. 200 W celkom</td></tr><tr><th>USB-A</th><td>2 × 12 W + 2 × 36 W</td></tr><tr><th>Pripojiteľnosť</th><td>Wi-Fi, Bluetooth</td></tr><tr><th>Ovládanie cez aplikáciu</th><td>Áno</td></tr><tr><th>Rozšírenie kapacity</th><td>Až 20 kWh s batériami B3000</td></tr><tr><th>Paralelné zapojenie</th><td>až 4 000 W striedavého prúdu / 12 000 W špičkového výkonu</td></tr><tr></tr>
 </tbody>
 </table>
 </div>
@@ -596065,7 +596137,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Kapacita]]></NAME>
-    <VALUE><![CDATA[2 016 Wh]]></VALUE>
+    <VALUE><![CDATA[1 920 Wh]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Napätie a kapacita batérie]]></NAME>
@@ -596096,7 +596168,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VALUE><![CDATA[4]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
-    <NAME><![CDATA[Nabíjanie v aute]]></NAME>
+    <NAME><![CDATA[Nabíjanie automobilu]]></NAME>
     <VALUE><![CDATA[12/24 V]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
@@ -596105,7 +596177,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Výkon]]></NAME>
-    <VALUE><![CDATA[2500 W]]></VALUE>
+    <VALUE><![CDATA[200 W]]></VALUE>
   </TEXT_PROPERTY>
   <TEXT_PROPERTY>
     <NAME><![CDATA[Konektivita]]></NAME>
@@ -638738,6 +638810,147 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Mini PC GMKtec G11 PLUS s procesorom AMD R2514, 16 GB, 512 GB, Windows 11 – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
+<NAME><![CDATA[Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB]]></NAME>
+<SHORT_DESCRIPTION><![CDATA[Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB GMKtec EVO-X1 Pro je kompaktný mini PC vybavený 12-jadrovým procesorom AMD Ryzen AI 9 HX 470, 64 GB pamäte RAM LPDDR5 s…]]></SHORT_DESCRIPTION>
+<DESCRIPTION><![CDATA[<h3>Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB</h3>
+<p>GMKtec EVO-X1 Pro je kompaktný mini PC vybavený 12-jadrovým procesorom AMD Ryzen AI 9 HX 470, 64 GB pamäte RAM LPDDR5 s rýchlosťou 6400 MT/s a rýchlym SSD diskom PCIe 4.0 s kapacitou 1 TB. Vďaka integrovanej grafike AMD Radeon 890M, jednotke umelej inteligencie AMD XDNA 2 s výkonom až 55 TOPS a operačnému systému Windows 11 Pro je ideálny na kancelársku prácu, programovanie, úpravu multimédií, používanie nástrojov umelej inteligencie a zábavu. Počítač podporuje tri monitory a ponúka Wi-Fi 7, Bluetooth 5.4, dva LAN porty s rýchlosťou 2,5 Gb/s a rozhranie USB4 s prenosovou rýchlosťou až 40 Gb/s. Konektor OCuLink tiež umožňuje pripojiť externú grafickú kartu a efektívny chladiaci systém s dvoma ventilátormi pomáha udržiavať stabilnú prevádzku aj pri vysokom zaťažení.</p>
+<p>
+<img alt="Mini PC GMKtec s viditeľným predným panelom, na ktorom sa nachádzajú porty USB4, Oculink a USB, ako aj vypínač." border="0" src="https://assets.innpro.pl/25226/33345/7-9ab8d5f0-325d-4f02-b81e-99929a17eb25.jpg"/>
+</p><h3>AMD Ryzen AI 9 HX 470 – procesor pre náročných používateľov</h3>
+<p>Procesor AMD Ryzen AI 9 HX 470 využíva architektúry Zen 5 a Zen 5c a 4-nm výrobnú technológiu. Ponúka 12 jadier, 24 vlákien a taktovaciu frekvenciu až 5,2 GHz, vďaka čomu efektívne zvládne multitasking, spúšťanie pokročilých programov a spracovanie veľkého množstva dát. 24 MB vyrovnávacia pamäť L3 zlepšuje prístup k často používaným dátam. Používatelia si môžu vybrať aj z troch režimov procesora: Tichý (35 W), Vyvážený (54 W) alebo Výkonný (až 65 W), čím prispôsobia spotrebu energie a výkon aktuálnym úlohám.</p>
+<p>
+<img alt="Dve mini PC GMKtec s prednými a zadnými portmi na pozadí svietiaceho modelu mozgu a robotických rúk." border="0" src="https://assets.innpro.pl/25226/33345/8-37799bb5-3f2e-4003-9091-ab1ab88ba64b.jpg"/>
+</p><h3>Grafická karta AMD Radeon 890M a pokročilé funkcie umelej inteligencie</h3>
+<p>Počítač je vybavený integrovaným grafickým čipom AMD Radeon 890M založeným na architektúre RDNA 3.5, ktorý ponúka 16 výpočtových jednotiek a taktovaciu frekvenciu až 3100 MHz. Umožňuje vám upravovať fotografie a videá, pracovať s grafikou a spúšťať mnoho hier. Podpora technológie AMD FSR pomáha zlepšiť plynulosť hrania v kompatibilných hrách. Navyše NPU AMD XDNA 2 s výkonom až 55 TOPS umožňuje lokálne spracovanie úloh umelej inteligencie, ako je analýza dát, generovanie obrázkov a podpora inteligentných asistentov. Kombinovaný výkon umelej inteligencie procesora (CPU), grafického procesora (GPU) a NPU dosahuje až 86 TOPS, čo vám umožňuje používať pokročilé nástroje umelej inteligencie bez nutnosti odosielať všetky vaše údaje do cloudu.</p>
+<p>
+<img alt="Vizualizácia procesora (CPU), grafickej karty (GPU) a podsvieteného NPU AMD XDNA 2 na základnej doske." border="0" src="https://assets.innpro.pl/25226/33345/9-bd11ccb4-c4cd-4079-bc37-3a4bfbb525b3.jpg"/>
+</p><h3>64 GB pamäte RAM a 1 TB SSD s možnosťou rozšírenia</h3>
+<p>64 GB pamäte LPDDR5 s frekvenciou 6400 MT/s poskytuje dostatočné zdroje na súčasnú prácu s viacerými aplikáciami, veľkými súbormi a náročnými projektmi. Pamäť RAM je napájaná na základnú dosku, preto ju nie je možné vymeniť ani rozšíriť. Predinštalovaný SSD disk M.2 2280 PCIe 4.0 s kapacitou 1 TB umožňuje rýchle spúšťanie systému a programov, ako aj efektívny prenos dát. Počítač disponuje dvoma slotmi M.2 2280 PCIe 4.0, z ktorých jeden je obsadený továrensky nainštalovaným diskom. Druhý slot umožňuje inštaláciu ďalšieho úložiska s maximálnou podporovanou kapacitou až 16 TB celkom (2 × 8 TB).</p>
+<p>
+<img alt="Predný a zadný panel mini PC s očíslovanými portmi, vrátane USB4, Oculink, HDMI, DisplayPort a dvoch LAN portov." border="0" src="https://assets.innpro.pl/25226/33345/10-8247427d-aaa0-4c18-a1d9-cdd2b110f3a7.jpg"/>
+</p><h3>Tri monitory a široká škála portov</h3>
+<p>GMKtec EVO-X1 Pro podporuje súčasné pripojenie troch monitorov cez rozhrania HDMI 2.1, DisplayPort 2.1 a USB4. Konektory HDMI a DisplayPort podporujú rozlíšenie až 8K pri 60 Hz, zatiaľ čo USB4 umožňuje video výstup až do rozlíšenia 4K pri 60 Hz. Vďaka tomu je jednoduché rozložiť aplikácie na viaceré obrazovky a nastaviť pracovnú stanicu s viacerými monitormi. Používatelia majú k dispozícii aj štyri porty USB 3.2 Gen 2 (10 Gb/s) – dva na prednom paneli a dva na zadnom paneli – na pripojenie diskov, klávesníc, myší a ďalšieho príslušenstva. Predný port USB4 poskytuje rýchlosť prenosu dát až 40 Gb/s a podporuje napájanie USB Power Delivery až do 100 W. Počítač je možné napájať aj cez vyhradený konektor DC IN pomocou priloženého 120 W napájacieho zdroja. Okrem toho je zariadenie vybavené 3,5 mm audio konektorom a portom OCuLink PCIe 4.0 x4, ktorý umožňuje pripojiť kompatibilnú dokovaciu stanicu eGPU a externú grafickú kartu. Dokovacia stanica eGPU a grafická karta nie sú súčasťou balenia a zariadenia by sa mali pripájať alebo odpájať cez OCuLink iba pri vypnutom počítači.</p>
+<p>
+<img alt="Zadný panel mini PC s portmi USB, HDMI, DisplayPort a dvoma LAN na pozadí symbolu Wi-Fi." border="0" src="https://assets.innpro.pl/25226/33345/11-08a08c7d-3cd1-4af7-a5ce-1b0a24b97989.jpg"/>
+</p><h3>Vysokorýchlostné Wi-Fi 7 a dva LAN porty s rýchlosťou 2,5 Gb/s</h3>
+<p>Wi-Fi 7 ponúka teoretickú rýchlosť bezdrôtového pripojenia až 2,9 Gb/s, čo v kombinácii s kompatibilným routerom uľahčuje sťahovanie veľkých súborov, streamovanie médií a využívanie online služieb. Bluetooth 5.4 umožňuje bezdrôtové pripojenie slúchadiel, klávesnice, myši a ďalších kompatibilných zariadení. Mini PC je tiež vybavené dvoma ethernetovými portmi s rýchlosťou 2,5 Gb/s s radičmi Intel I226-V, ktoré zabezpečujú stabilné káblové pripojenie. Vďaka tomu môže slúžiť ako kancelársky počítač, domáci server, zariadenie na správu siete alebo v kombinácii so systémom ukladania dát NAS.</p>
+<p>
+<img alt="Mini PC GMKtec pripojené káblom k externej grafickej karte v dokovacej stanici eGPU." border="0" src="https://assets.innpro.pl/25226/33345/12-e8963b9c-1083-4211-ac91-c2d0981c4ca9.jpg"/>
+</p><h3>Kompaktný dizajn a chladenie s dvoma ventilátormi</h3>
+<p>Skriňa GMKtec EVO-X1 Pro má rozmery len 10,7 × 11,1 × 6,3 cm a váži približne 590 g, vďaka čomu sa počítač ľahko zmestí aj na malý stôl. Kovová konštrukcia zaručuje odolnosť a priložený stojan umožňuje umiestniť zariadenie vo vertikálnej polohe. O odvádzanie tepla sa stará chladiaci systém s dvoma ventilátormi a parnou komorou, ktorý pomáha rovnomerne distribuovať teplo generované komponentmi. Chladný vzduch je nasávaný z hornej časti skrine a inteligentné riadenie ventilátorov prispôsobuje intenzitu chladenia na základe pracovného zaťaženia počítača.</p>
+<p>
+<img alt="Mini PC GMKtec s viditeľnými portmi a príkladmi toho, ako sa zariadenie dá využiť na prácu, hranie hier a zábavu." border="0" src="https://assets.innpro.pl/25226/33345/13-595c6cc0-f8a4-41d0-b726-2be8d6221ea9.jpg"/>
+</p><h3>Všestranný počítač s Windows 11 Pro</h3>
+<p>GMKtec EVO-X1 Pro je ideálny na každodenné kancelárske úlohy, prácu na diaľku, programovanie, úpravu grafiky, strih videa a spúšťanie lokálnych modelov umelej inteligencie. Vďaka možnosti pripojiť externú grafickú kartu cez OCuLink môže slúžiť aj ako platforma pre náročnejšie grafické aplikácie a hranie hier. Predinštalovaný systém Windows 11 Pro ponúka okrem iného šifrovanie BitLocker, funkciu Vzdialená plocha a funkcie správy zariadení užitočné pre firmy. Jeho kompaktné rozmery vám tiež umožňujú používať počítač ako domáce mediálne centrum alebo malý server.</p>
+<p>
+<img alt="Kompaktné mini PC GMKtec s viditeľným zadným panelom, portmi USB, HDMI a LAN a ventilačnou mriežkou." border="0" src="https://assets.innpro.pl/25226/33345/3-8a0973e0-877e-491a-aff4-5040bd236e0a.jpg"/>
+</p>
+<h3>Obsah balenia</h3>
+<ul class="list-disc pl-5"><li>Mini PC GMKtec EVO-X1 Pro</li><li>Napájací zdroj 120 W</li><li>Kábel</li><li>HDMI kábel</li><li>Stojan na vertikálne umiestnenie</li><li>Návod na použitie</li></ul>
+<div class="table-wrapper">
+<p> </p>
+<h3></h3>
+<table>
+<tbody>
+<tr><th>Výrobca</th><td>GMKtec</td></tr><tr><th>Model</th><td>EVO-X1 Pro</td></tr><tr><th>Typ zariadenia</th><td>Mini PC</td></tr><tr><th>Procesor</th><td>AMD Ryzen AI 9 HX 470</td></tr><tr><th>Architektúra procesora</th><td>Zen 5 + Zen 5c, 4 nm</td></tr><tr><th>Počet jadier / vlákien</th><td>12 / 24</td></tr><tr><th>Taktovacia frekvencia procesora</th><td>2,0 GHz, až 5,2 GHz v režime Boost</td></tr><tr><th>Cache</th><td>12 MB L2, 24 MB L3</td></tr><tr><th>Grafický procesor</th><td>AMD Radeon 890M</td></tr><tr><th>Architektúra GPU</th><td>RDNA 3.5</td></tr><tr><th>Výpočtové jednotky GPU</th><td>16 CU</td></tr><tr><th>Taktovacia frekvencia GPU</th><td>až 3100 MHz</td></tr><tr><th>Jednotka AI</th><td>AMD XDNA 2 NPU</td></tr><tr><th>Výkon NPU</th><td>až 55 TOPS</td></tr><tr><th>Celkový výkon AI</th><td>až 86 TOPS</td></tr><tr><th>RAM</th><td>64 GB LPDDR5 6400 MT/s</td></tr><tr><th>Možnosť rozšírenia RAM</th><td>Nie, pamäť je napájaná</td></tr><tr><th>Úložisko</th><td>1 TB M.2 2280 PCIe 4.0 SSD</td></tr><tr><th>Sloty pre úložisko</th><td>2 × M.2 2280 PCIe 4.0 x4 (jeden obsadený)</td></tr><tr><th>Maximálna kapacita úložiska</th><td>až 16 TB (2 × 8 TB)</td></tr><tr><th>Operačný systém</th><td>Windows 11 Pro</td></tr><tr><th>Wi-Fi</th><td>Wi-Fi 7 (AMD RZ717 / MediaTek MT7925)</td></tr><tr><th>Bluetooth</th><td>5.4</td></tr><tr><th>LAN</th><td>2 × RJ-45 2,5 Gb/s (Intel I226-V)</td></tr><tr><th>USB4</th><td>1 × USB-C, 40 Gb/s, DisplayPort, vstup PD 3.0 až do 100 W</td></tr><tr><th>USB-A</th><td>4 × USB 3.2 Gen 2, 10 Gb/s (2 vpredu, 2 vzadu)</td></tr><tr><th>HDMI</th><td>1 × HDMI 2.1, až 8K/60 Hz</td></tr><tr><th>DisplayPort</th><td>1 × DisplayPort 2.1, až 8K/60 Hz</td></tr><tr><th>Video výstup USB4</th><td>až 4K/60 Hz</td></tr><tr><th>Podpora monitorov</th><td>až 3 súčasne</td></tr><tr><th>OCuLink</th><td>1 × PCIe 4.0 x4, bez podpory Hot Plug</td></tr><tr><th>Audio</th><td>1 × 3,5 mm CTIA konektor</td></tr><tr><th>Napájanie</th><td>DC IN 19 V / 6,32 A alebo USB4 PD až 100 W</td></tr><tr><th>Kapacita napájacieho zdroja</th><td>120 W</td></tr><tr><th>Chladenie</th><td>dva ventilátory, parná komora</td></tr><tr><th>Prevádzkové režimy</th><td>Tichý 35 W, Vyvážený 54 W, Vysoký výkon až 65 W</td></tr><tr><th>Skriňa</th><td>Kovová, sivá</td></tr><tr><th>Rozmery</th><td>107 × 111 × 63 mm</td></tr><tr><th>Hmotnosť</th><td>Približne 590 g</td></tr><tr></tr>
+</tbody>
+</table>
+</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=88255_66060_pol_2c778a608706d45b6a779623ccd20498" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
+<p>Ďalšie produkty nájdete v kategórii <a href="/mini-pc-2/">Mini PC</a>.</p>]]></DESCRIPTION>
+<MANUFACTURER><![CDATA[GMKtec]]></MANUFACTURER>
+<ITEM_TYPE>product</ITEM_TYPE>
+<UNIT>ks</UNIT>
+<CODE>095455</CODE>
+<EAN>6972570965604</EAN>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty > Mini PC]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety]]></CATEGORY>
+  <CATEGORY><![CDATA[Počítače, mobily a tablety > Počítače, notebooky a komponenty]]></CATEGORY>
+</CATEGORIES>
+<IMAGES>
+  <IMAGE description="Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB - obrázok 1">https://b2b.innpro.sk/hpeciai/419619a3af737d25e0a270b70edce8d9/66060_1_1.webp</IMAGE>
+  <IMAGE description="Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB - obrázok 2">https://b2b.innpro.sk/hpeciai/d441baabdb752b5cbe4688d41f6f31ba/66060_2_1.webp</IMAGE>
+  <IMAGE description="Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB - obrázok 3">https://b2b.innpro.sk/hpeciai/8b5d8e16665d66879dce9dfda8f76b7b/66060_3_1.webp</IMAGE>
+  <IMAGE description="Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB - obrázok 4">https://b2b.innpro.sk/hpeciai/52415d6ffb5fdfe2e1dd45193be1addd/66060_4_1.webp</IMAGE>
+  <IMAGE description="Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB - obrázok 5">https://b2b.innpro.sk/hpeciai/e3aeb8fa686cf2e74299a38158febd2a/66060_5_1.webp</IMAGE>
+</IMAGES>
+<TEXT_PROPERTIES>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Značka]]></NAME>
+    <VALUE><![CDATA[GMKtec]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Typ zariadenia]]></NAME>
+    <VALUE><![CDATA[Mini PC]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Procesor]]></NAME>
+    <VALUE><![CDATA[AMD Ryzen AI 9 HX 470]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Architektúra procesora]]></NAME>
+    <VALUE><![CDATA[Zen 5 + Zen 5c, 4 nm]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Počet jadier / vlákien]]></NAME>
+    <VALUE><![CDATA[12 / 24]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Taktovacia frekvencia procesora]]></NAME>
+    <VALUE><![CDATA[2,0 GHz, až 5,2 GHz v režime Boost]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Cache]]></NAME>
+    <VALUE><![CDATA[12 MB L2, 24 MB L3]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Grafický procesor]]></NAME>
+    <VALUE><![CDATA[AMD Radeon 890M]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Architektúra GPU]]></NAME>
+    <VALUE><![CDATA[RDNA 3.5]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výpočtové jednotky GPU]]></NAME>
+    <VALUE><![CDATA[16 CU]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Taktovacia frekvencia GPU]]></NAME>
+    <VALUE><![CDATA[až 3100 MHz]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Úložisko]]></NAME>
+    <VALUE><![CDATA[64 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Pamäť RAM]]></NAME>
+    <VALUE><![CDATA[64 GB]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Výkon]]></NAME>
+    <VALUE><![CDATA[65 W]]></VALUE>
+  </TEXT_PROPERTY>
+  <TEXT_PROPERTY>
+    <NAME><![CDATA[Konektivita]]></NAME>
+    <VALUE><![CDATA[Bluetooth, Wi-Fi, USB-C, HDMI]]></VALUE>
+  </TEXT_PROPERTY>
+</TEXT_PROPERTIES>
+<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
+<VISIBLE>1</VISIBLE>
+<VISIBILITY>visible</VISIBILITY>
+<LOGISTIC><WEIGHT>1.80</WEIGHT></LOGISTIC>
+<CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
+<PRICE_VAT>1884.50</PRICE_VAT>
+<PURCHASE_PRICE>1332.29</PURCHASE_PRICE>
+<PURCHASE_VAT>23</PURCHASE_VAT>
+<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
+<SEO_TITLE><![CDATA[Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI… | premiumstore.sk]]></SEO_TITLE>
+<META_DESCRIPTION><![CDATA[Mini PC GMKTEC EVO-X1 PRO s procesorom AMD Ryzen AI 9 HX 470, 64 GB a 1 TB – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
+</SHOPITEM>
+<SHOPITEM>
 <NAME><![CDATA[Mini PC GMKtec M7 Ultra s procesorom AMD Ryzen 7 PRO 6850U, 32 GB a 1 TB]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Mini PC GMKtec M7 Ultra s procesorom AMD Ryzen 7 PRO 6850U, 32 GB a 1 TB GMKtec M7 Ultra je kompaktný mini PC, ktorý kombinuje výnimočný výkon procesora AMD Ryzen 7 PRO 6850U s pokročilou grafickou…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Mini PC GMKtec M7 Ultra s procesorom AMD Ryzen 7 PRO 6850U, 32 GB a 1 TB</h3>
@@ -640941,7 +641154,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>25.50</PRICE_VAT>
 <PURCHASE_PRICE>17.91</PURCHASE_PRICE>
@@ -641860,7 +642073,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.54</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.50</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>50.50</PRICE_VAT>
 <PURCHASE_PRICE>35.66</PURCHASE_PRICE>
@@ -642822,7 +643035,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>0.11</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>16.50</PRICE_VAT>
 <PURCHASE_PRICE>11.80</PURCHASE_PRICE>
@@ -649417,7 +649630,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>1.85</WEIGHT></LOGISTIC>
+<LOGISTIC><WEIGHT>1.80</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
 <PRICE_VAT>94.50</PRICE_VAT>
 <PURCHASE_PRICE>66.67</PURCHASE_PRICE>
@@ -650009,10 +650222,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -655580,7 +655795,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>Meross MRS200MA-EU – Wi-Fi navíjací mechanizmus na rolety</SEO_TITLE><META_DESCRIPTION>Inteligentný navíjací mechanizmus Meross MRS200MA-EU na rolety s Wi-Fi. Overte si kompatibilitu, napájanie a podmienky montáže.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>087768</CODE>
     <EAN>6975114120798</EAN>
@@ -655692,7 +655907,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088386</CODE>
     <EAN>5905156105379</EAN>
@@ -655853,7 +656068,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088871</CODE>
     <EAN>6942580504940</EAN>
@@ -655965,7 +656180,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>FNIRSI FNB-C2 – USB tester | PremiumStore.sk</SEO_TITLE><META_DESCRIPTION>USB tester FNIRSI FNB-C2. Pozrite si merané veličiny, podporované konektory a technické parametre na PremiumStore.sk.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>089337</CODE>
     <EAN>5905156108226</EAN>
