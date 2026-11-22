@@ -1,0 +1,215 @@
+{
+  "id": "Z-20261122-obsah-davka6",
+  "datum": "2026-11-22",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Nové krátke popisy 15 produktov Creality (3D tlačiarne a skenery mimo experimentu s filamentmi). U Ender-3 V3, Halot R6, CR-Scan Otter a Ferret SE bol dlhý popis anglický s externými obrázkami, prepísaný do slovenčiny.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "064729",
+      "guid": "6cf1aace-92c5-11f1-8f09-bc2411833e01",
+      "model": "Creality Ender-3 V3",
+      "polia": {
+        "shortDescription": {
+          "pred": "Creality Ender-3 V3 3D Printer Creality Ender-3 V3 is an advanced 3D printer that combines cutting-edge technology, stable design and intuitive interface to offer professionals and enthusiasts a tool…",
+          "po": "3D tlačiareň Creality Ender-3 V3 s technológiou FDM a rýchlosťou tlače až 600 mm/s. Má tlačovú plochu 220 × 220 × 250 mm, automatické vyrovnávanie podložky, priamy extrudér a 4,3-palcový dotykový displej."
+        },
+        "description": {
+          "pred": "anglický text s externými obrázkami (celé HTML pôvodnej verzie je dostupné v Shoptete pred zápisom 22. 11. 2026, nebolo ukladané)",
+          "po": "slovenský prepis s tabuľkou parametrov, bez externých obrázkov",
+          "poznamka": "dlhý popis bol anglický s externými obrázkami, prepísaný do slovenčiny"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "073455",
+      "guid": "9fd7f696-92c5-11f1-9757-bc2411833e01",
+      "model": "Creality K2 Plus",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D tlačiareň Creality K2 Plus Creality K2 Plus je 3D tlačiareň s veľkým pracovným priestorom (350 x 350 x 350 mm), ktorý umožňuje rýchlu a presnú tlač väčších modelov. Vďaka robustnej konštrukcii,…",
+          "po": "3D tlačiareň Creality K2 Plus s tlačovou plochou 350 × 350 × 350 mm a rýchlosťou až 600 mm/s. Má aktívne vyhrievanú komoru do 60 °C, dve AI kamery, automatické vyrovnávanie a podporu systému CFS pre viacfarebnú tlač."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "073456",
+      "guid": "9fe2344e-92c5-11f1-85e1-bc2411833e01",
+      "model": "Creality K2 Plus Combo",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D tlačiareň Creality K2 Plus Combo Creality K2 Plus Combo je 3D tlačiareň s veľkým pracovným priestorom (350 x 350 x 350 mm), ktorý umožňuje rýchlu a presnú tlač väčších modelov. Vďaka robustnej…",
+          "po": "3D tlačiareň Creality K2 Plus Combo s tlačovou plochou 350 × 350 × 350 mm a rýchlosťou až 600 mm/s. V balení je systém CFS pre štyri filamenty, aktívne vyhrievaná komora a dve AI kamery."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "081423",
+      "guid": "e44d6d4c-92c5-11f1-9764-bc2411833e01",
+      "model": "Creality K2 Combo",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D tlačiareň Creality K2 Combo Creality K2 Combo je vysokorýchlostná 3D tlačiareň so systémom riadenia filamentu CFS, ktorý umožňuje tlač až 16 farieb bez manuálnej výmeny filamentu. Vďaka uzavretej…",
+          "po": "Viacfarebná 3D tlačiareň Creality K2 Combo so systémom CFS pre štyri filamenty a rýchlosťou tlače až 600 mm/s. Uzavretá konštrukcia, tichá prevádzka okolo 45 dB a tlačová plocha 260 × 260 × 260 mm."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "085923",
+      "guid": "18515e6e-92c6-11f1-89a0-bc2411833e01",
+      "model": "Creality K2 SE Combo",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D tlačiareň Creality K2 SE Combo Creality K2 SE je moderná 3D tlačiareň určená na rýchlu a stabilnú tlač modelov. Zariadenie využíva technológiu FDM a ponúka vysokú rýchlosť tlače až 500 mm/s a…",
+          "po": "3D tlačiareň Creality K2 SE Combo s technológiou FDM, rýchlosťou až 500 mm/s a tlačovou plochou 220 × 215 × 245 mm. V balení je systém CFS pre štyri filamenty, automatické vyrovnávanie a priamy extrudér."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "079242",
+      "guid": "6eaeaf0a-ab21-11f1-8f1b-bc2411833e01",
+      "model": "Creality K2 Pro Combo",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D tlačiareň Creality K2 Pro Combo Creality K2 Pro je prémiová 3D tlačiareň vytvorená pre najnáročnejších používateľov - nadšencov, inžinierov alebo kreatívcov, ktorí očakávajú vynikajúcu kvalitu,…",
+          "po": "3D tlačiareň Creality K2 Pro Combo s tlačovou plochou 300 × 300 × 300 mm a rýchlosťou až 600 mm/s. V balení je modul CFS pre štyri filamenty, aktívne vyhrievaná komora do 60 °C a dve AI kamery."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "080689",
+      "guid": "9923ae80-a733-11f1-9da3-bc2411833e01",
+      "model": "Creality K1C 2025",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D tlačiareň Creality K1C 2025 Creality K1C je pokročilá 3D tlačiareň, ktorá bola vopred zostavená a kalibrovaná vo výrobe - spustenie prvej tlače trvá len 3 minúty. Má uzavretú pracovnú komoru s…",
+          "po": "Uzavretá 3D tlačiareň Creality K1C 2025 s rýchlosťou tlače až 600 mm/s, tlačovou plochou 220 × 220 × 250 mm a tryskou do 300 °C. Je vopred zostavená a kalibrovaná, má AI kameru a tlačí aj filamenty s uhlíkovými vláknami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "085924",
+      "guid": "a1ec0e7c-a733-11f1-96be-bc2411833e01",
+      "model": "Creality SparkX i7 Combo",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D tlačiareň Creality SparkX i7 Combo 3D tlačiareň Creality SparkX i7 Combo je špičkové zariadenie určené pre používateľov, ktorí chcú tlačiť rýchlo, presne a bez zbytočného nastavovania. Model…",
+          "po": "3D tlačiareň Creality SparkX i7 Combo s rýchlosťou až 500 mm/s a tlačovou plochou 260 × 260 × 255 mm. V balení je modul CFS Lite pre štyri filamenty, automatické vyrovnávanie a AI kamera 720p."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "061008",
+      "guid": "303923fe-b87d-11f1-9228-bc2411e8af0e",
+      "model": "Creality CR-10 SE",
+      "polia": {
+        "shortDescription": {
+          "pred": "Tlačiareň 3D Creality CR-10 SE Creality CR-10 SE 3D Printer je pokročilé zariadenie, ktoré v sebe spája presnosť, rýchlosť a jednoduché používanie, vďaka čomu je ideálnym riešením pre profesionálov…",
+          "po": "3D tlačiareň Creality CR-10 SE s technológiou FDM, rýchlosťou až 600 mm/s a tlačovou plochou 220 × 220 × 250 mm. Má automatické vyrovnávanie, lineárne vedenia, extrudér Sprite a 4,3-palcový dotykový displej."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069511",
+      "guid": "81258a42-92c5-11f1-b097-bc2411833e01",
+      "model": "Creality Halot R6",
+      "polia": {
+        "shortDescription": {
+          "pred": "Creality Halot R6 3D Printer The Creality Halot R6 is a compact resin 3D printer, ideal for beginners. With simple operation and high print quality, the Halot R6 will work well for both home and…",
+          "po": "Kompaktná živicová 3D tlačiareň Creality Halot R6 s LCD technológiou, tlačovou plochou 130,56 × 82,62 × 160 mm a výškou vrstvy 0,01 – 0,2 mm. Vhodná pre začiatočníkov, tlač cez USB alebo Wi-Fi."
+        },
+        "description": {
+          "pred": "anglický text s externými obrázkami (celé HTML pôvodnej verzie je dostupné v Shoptete pred zápisom 22. 11. 2026, nebolo ukladané)",
+          "po": "slovenský prepis s tabuľkou parametrov, bez externých obrázkov",
+          "poznamka": "dlhý popis bol anglický s externými obrázkami, prepísaný do slovenčiny"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069514",
+      "guid": "810efd04-92c5-11f1-853d-bc2411833e01",
+      "model": "Creality CR-Scan Otter",
+      "polia": {
+        "shortDescription": {
+          "pred": "Creality CR-Scan Otter 3D Scanner The Creality CR-Scan Otter is a versatile 3D scanner that stands out for its ability to accurately scan objects of various sizes, from the smallest objects measuring…",
+          "po": "3D skener Creality CR-Scan Otter s presnosťou až 0,02 mm a rýchlosťou 20 snímok za sekundu. Skenuje objekty od 10 × 10 × 10 mm do 2000 mm, čierne aj kovové povrchy bez spreja, výstup vo formáte OBJ, STL a PLY."
+        },
+        "description": {
+          "pred": "anglický text s externými obrázkami (celé HTML pôvodnej verzie je dostupné v Shoptete pred zápisom 22. 11. 2026, nebolo ukladané)",
+          "po": "slovenský prepis s tabuľkou parametrov, bez externých obrázkov",
+          "poznamka": "dlhý popis bol anglický s externými obrázkami, prepísaný do slovenčiny"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069516",
+      "guid": "811a0546-92c5-11f1-9651-bc2411833e01",
+      "model": "Creality CR-Scan Ferret SE",
+      "polia": {
+        "shortDescription": {
+          "pred": "Creality CR-Scan Ferret SE 3D Scanner The Creality CR-Scan Ferret SE is a compact and easy-to-use 3D scanner, designed for beginners who want to get started with creating 3D models. Equipped with…",
+          "po": "Kompaktný 3D skener Creality CR-Scan Ferret SE pre začiatočníkov s presnosťou do 0,1 mm a rýchlosťou až 30 snímok za sekundu. Skenuje v plných farbách, čierne aj kovové povrchy bez spreja, váži len 105 g."
+        },
+        "description": {
+          "pred": "anglický text s externými obrázkami (celé HTML pôvodnej verzie je dostupné v Shoptete pred zápisom 22. 11. 2026, nebolo ukladané)",
+          "po": "slovenský prepis s tabuľkou parametrov, bez externých obrázkov",
+          "poznamka": "dlhý popis bol anglický s externými obrázkami, prepísaný do slovenčiny; preklep v tabuľke 01 mm opravený na 0,1 mm"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "083686",
+      "guid": "f5397358-92c5-11f1-a822-bc2411833e01",
+      "model": "Creality Sermoon X1",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D skener Creality Sermoon X1 Ak je vaším cieľom digitálne reprodukovať reálne objekty s čo najvyššou možnou presnosťou, 3D skener Creality Sermoon X1 je pre vás tým pravým nástrojom. Tento pokročilý…",
+          "po": "Profesionálny ručný 3D skener Creality Sermoon X1 s presnosťou až 0,02 mm a rýchlosťou až 90 snímok za sekundu. Hybridný systém modrých laserov a infračerveného svetla skenuje objekty od 5 mm do 4000 mm, bez spreja."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "083687",
+      "guid": "f5445886-92c5-11f1-ab50-bc2411833e01",
+      "model": "Creality Sermoon S1",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D skener Creality Sermoon S1 Sermoon S1 je profesionálny 3D skener, ktorý kombinuje veľmi vysokú presnosť a rýchlosť s pozoruhodnou univerzálnosťou. Pokročilý systém Multi-Light s modrými lasermi a…",
+          "po": "Profesionálny 3D skener Creality Sermoon S1 s modrými laserovými líniami a infračerveným svetlom NIR. Presnosť až 0,02 mm, rýchlosť až 90 snímok za sekundu, objekty od 5 mm do 4000 mm bez značiek a spreja."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "085478",
+      "guid": "15bbea8e-92c6-11f1-a5ee-bc2411833e01",
+      "model": "Creality Sermoon P1",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D skener Creality Sermoon P1 Creality Sermoon P1 je pokročilý profesionálny 3D skener, ktorý kombinuje presnosť až 0,02 mm s veľmi rýchlym skenovaním. Vďaka hybridnému systému 22 + 7 + 1 modrých…",
+          "po": "Profesionálny 3D skener Creality Sermoon P1 s presnosťou až 0,02 mm a hybridným systémom 22 + 7 + 1 modrých laserových línií. Samostatný režim bez počítača, 24 GB RAM a skenovanie až 100 snímok za sekundu."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (ako ich vrátil Shoptet, skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
