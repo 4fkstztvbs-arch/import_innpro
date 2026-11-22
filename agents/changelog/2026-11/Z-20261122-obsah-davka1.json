@@ -1,0 +1,195 @@
+{
+  "id": "Z-20261122-obsah-davka1",
+  "datum": "2026-11-22",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Nové krátke popisy 15 produktov Aligator (sklá, puzdrá, káble, držiaky).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002164659",
+      "guid": "aaeb9830-92ac-11f1-9095-bc2411833e01",
+      "model": "GLA0298 iPhone 17 Air",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS ULTRA iPhone 17 Air - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displeju.; ;",
+          "po": "Ochranné tvrdené sklo Aligator GLASS pre Apple iPhone 17 Air z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002164668",
+      "guid": "b28e96be-92ac-11f1-89ec-bc2411833e01",
+      "model": "GLA0300 Redmi 15C 4G",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS Xiaomi Redmi 15C 4G - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displeju.; ;",
+          "po": "Ochranné tvrdené sklo Aligator GLASS pre Xiaomi Redmi 15C 4G z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002141624",
+      "guid": "a8168f66-92ac-11f1-80ec-bc2411833e01",
+      "model": "Transparent Aligator S8000",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro TRANSPARENT ALIGATOR ALIGATOR S8000 - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+          "po": "Priehľadné silikónové puzdro Aligator pre telefón Aligator S8000. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002104797",
+      "guid": "ab9e9f0c-92ac-11f1-8657-bc2411833e01",
+      "model": "Transparent iPhone 16 Pro Max",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro TRANSPARENT ALIGATOR Apple iPhone 16 Pro Max - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+          "po": "Priehľadné silikónové puzdro Aligator pre Apple iPhone 16 Pro Max. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002104813",
+      "guid": "aba7ef9e-92ac-11f1-a7e7-bc2411833e01",
+      "model": "Transparent Galaxy A16 5G",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro TRANSPARENT ALIGATOR Samsung Galaxy A16 5G - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+          "po": "Priehľadné silikónové puzdro Aligator pre Samsung Galaxy A16 5G. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002193579",
+      "guid": "ad4449ec-92ac-11f1-add0-bc2411833e01",
+      "model": "Transparent Galaxy A17",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro TRANSPARENT ALIGATOR Samsung A17 4G/5G - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+          "po": "Priehľadné silikónové puzdro Aligator pre Samsung Galaxy A17 4G/5G. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002104794",
+      "guid": "b16c3408-92ac-11f1-b3fa-bc2411833e01",
+      "model": "Transparent iPhone 16",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro TRANSPARENT ALIGATOR Apple iPhone 16 - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+          "po": "Priehľadné silikónové puzdro Aligator pre Apple iPhone 16. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002164501",
+      "guid": "b23c75fa-92ac-11f1-aea7-bc2411833e01",
+      "model": "Transparent iPhone 17",
+      "polia": {
+        "shortDescription": {
+          "pred": "Značka Aligator predstavuje novú radu TRANSPARENT pre Apple iPhone17.Transparentné puzdrá vďaka dokonalému tvaru a precíznym výrezom na jednotlivé tlačidlá ochránia chrbát a hrany Vášho inteligentného telefónu pred prachom, mastnotou či poškriabaním. Každý kryt m",
+          "po": "Priehľadné puzdro Aligator pre Apple iPhone 17 s dokonalým tvarom a presnými výrezmi na tlačidlá. Chráni chrbát a hrany telefónu pred prachom, mastnotou a poškriabaním."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002104793",
+      "guid": "ab93d284-92ac-11f1-9b90-bc2411833e01",
+      "model": "Bumperzz A55 5G",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro ALIGATOR Bumperzz Samsung Galaxy A55 5G, čierne Vlastnosti:Dedikovaný zadný krytSpeciálne vystužené rohyVysokokvalitné spracovaniePresné výrezyĽahké uchytenie mobilného telefónuNadčasový dizajnŠtýlová ochranaIdeálne v kombinácii s radou kva",
+          "po": "Čierny zadný kryt Aligator Bumperzz pre Samsung Galaxy A55 5G so špeciálne vystuženými rohmi a presnými výrezmi. Chráni telefón pred poškodením a ponúka nadčasový dizajn."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002122019",
+      "guid": "aee8511c-92ac-11f1-9caa-bc2411833e01",
+      "model": "Magnetto Galaxy S25+",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro ALIGATOR Magnetto Samsung Galaxy S25+, Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky, zatváranie pomocou magnetickej pracky, ľahké uchytenie mobilného telefónu pomocou silikónovej vaničky, stojanček… To je AL",
+          "po": "Čierne ultratenké puzdro Aligator Magnetto pre Samsung Galaxy S25+ s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001480500",
+      "guid": "af27f3f8-92ac-11f1-8b3c-bc2411833e01",
+      "model": "Universe 20 L čierne",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro ALIGATOR UNIVERSE 20, veľkosť L (150*72), čierna - ; Univerzálne puzdro; Zatváranie pomocou magnetickej pracky; Priehradka na kartu alebo vizitky; Vrecko na bankovky; Tenké prevedenie; Kvalitné spracovanie; Elegantný dizajn; Ľahké uchytenie mobilného tele",
+          "po": "Univerzálne čierne puzdro Aligator Universe 20 vo veľkosti L (150 × 72 mm) so zatváraním na magnetickú pracku. Má priehradku na kartu alebo vizitky, vrecko na bankovky a tenké prevedenie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002197863",
+      "guid": "a85f9abc-92ac-11f1-9690-bc2411833e01",
+      "model": "Flexibook 6\"-6,8\"",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro ALIGATOR Flexibook veľ.6\"-6,8\", čierne · pasuje na väčšinu inteligentných telefónov; · Tri varianty veľkostí:; -  5“-5,5“; - 5,5“-6“; - 6“-6,8“; · Výrezy na fotoaparát – bez nutnosti vyberať telefón; · Elastické gumové uchytenie pre bezpečné držanie; · s",
+          "po": "Čierne univerzálne puzdro Aligator Flexibook pre telefóny s uhlopriečkou 6″ až 6,8″. Má výrezy na fotoaparát, takže telefón netreba vyberať, a elastické gumové uchytenie pre bezpečné držanie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002104790",
+      "guid": "b162a4a6-92ac-11f1-bc95-bc2411833e01",
+      "model": "Mag-Skin iPhone 16 Plus",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro ALIGATOR Mag-Skin iPhone 16 Plus - Nová rada krytov Mag-Skin pre iPhone s podporou technológie bezdrôtového nabíjania MagSafe. Zadná časť krytu je vyrobená z kvalitného dvojitého plastu, v ktorom je umiestnená feromagnetická samolepka, ktorá zabezpečuje pod",
+          "po": "Kryt Aligator Mag-Skin pre Apple iPhone 16 Plus s podporou bezdrôtového nabíjania MagSafe. Zadná časť je z kvalitného dvojitého plastu a obsahuje feromagnetickú samolepku."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002127897",
+      "guid": "b7c35afc-92ac-11f1-a275-bc2411833e01",
+      "model": "DATKP58 USB-C 2,5 m",
+      "polia": {
+        "shortDescription": {
+          "pred": "Dátový a nabíjací USB-C /USB-C kábel: Ultra rýchle nabíjanie: 3A; Power Delivery až 65W; Vysoká rýchlosť prenosu dát; Vysokokvalitné konektory; Flexibilný a odolný; Dĺžka: 2,5m; Farba: čierna",
+          "po": "Dátový a nabíjací kábel Aligator USB-C/USB-C s dĺžkou 2,5 m, čierny. Podporuje Power Delivery až 65 W, nabíjanie prúdom 3 A a vysokú rýchlosť prenosu dát."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002127901",
+      "guid": "b7d6d8fc-92ac-11f1-ad53-bc2411833e01",
+      "model": "DATKP62 svietiaci 1,2 m",
+      "polia": {
+        "shortDescription": {
+          "pred": "Dátový a nabíjací USB-C /USB-C kábel: LED technológia; Kábel po pripojení hneď svieti a mení farby; Dúhové farby RGB; Ultra rýchle nabíjanie: 3A; Power Delivery až 65W; Vysoká rýchlosť prenosu dát; Vysokokvalitné kovové konektory; Precízne spracovanie medi",
+          "po": "Svietiaci kábel Aligator USB-C/USB-C s dĺžkou 1,2 m a RGB LED podsvietením, ktoré po pripojení mení farby. Podporuje Power Delivery až 65 W, nabíjanie prúdom 3 A a rýchly prenos dát."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields shortDescription potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
