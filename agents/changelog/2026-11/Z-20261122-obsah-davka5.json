@@ -1,0 +1,191 @@
+{
+  "id": "Z-20261122-obsah-davka5",
+  "datum": "2026-11-22",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A); názvy podľa šablóny Martin 2026-11-12",
+  "zhrnutie": "Nové krátke popisy 12 posledných Aligator produktov (sklo, nabíjačka, puzdrá, telefón, tablet, okuliare, hodinky, kulmofén). Preklad z češtiny, 2 názvy a doplnené chýbajúce meta.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002164595",
+      "guid": "85504f6c-c8e4-11f1-a41e-bc2411833e01",
+      "model": "GLASS GLA0296 (zariadenie v názve neuvedené)",
+      "polia": {
+        "shortDescription": {
+          "pred": "Toto ochranné sklo je složeno ze dvou vrstev. Jednu vrstvu tvoří tenké, odolné tvrzené sklo, druhou vrstvu tvoří speciální fólie, která zajistí perfektní přilnutí skla k displeji telefonu. Díky unikátní technologii nezanechává bublinky a vy si tak přítomn",
+          "po": "Ochranné tvrdené sklo Aligator GLASS z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Nezanecháva bublinky, má tvrdosť 9H a hrúbku až 0,25 mm."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_420120037262",
+      "guid": "d1e939fc-cf2d-11f1-a1ce-bc24110eff41",
+      "model": "Nabíjačka do auta CHA0002",
+      "polia": {
+        "shortDescription": {
+          "pred": "\"Nabíječka do auta ALIGATOR s microUSB kabelem a 2xUSB výstupem 2,4A, Turbo charge, černá - Výkonná nabíječka do auta řady \"\"Turbo charge\"\" je vybavena dvěma USB porty a microUSB kabelem. Nabíječka je kompatibilní s širokou řadou USB zařízení a zvládne do",
+          "po": "Čierna nabíjačka do auta Aligator s dvoma USB výstupmi s prúdom 2,4 A a káblom microUSB. Nabije naraz dve zariadenia a hodí sa pre širokú škálu USB zariadení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002102964",
+      "guid": "d3ed25d8-cf2d-11f1-9c26-bc24110eff41",
+      "model": "Transparent Honor 200 Lite",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pouzdro TRANSPARENT ALIGATOR Honor 200 Lite - Atraktivní pouzdro vyrobené z příjemného silikonu. Zvyšuje odolnost Vašeho mobilního telefonu a chrání ho před poškozením. Přesně padne na daný model telefonu.;",
+          "po": "Priehľadné silikónové puzdro Aligator pre Honor 200 Lite. Zvyšuje odolnosť telefónu, chráni ho pred poškodením a presne naň padne vďaka tvarovaným výrezom."
+        },
+        "name": {
+          "pred": "ALI Transparent Honor 200 Lite PTA0240",
+          "po": "Priehľadné puzdro Aligator pre Honor 200 Lite"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002074916",
+      "guid": "9194a24c-da36-11f1-96ec-bc2411833e01",
+      "model": "Bumperzz Redmi 13C",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pouz.ALIGATOR BUMPERZZ Xia Redmi 13C, Black Vlastnosti:Dedikovaný zadní krytSpeciálně vyztužené rohyVysoce kvalitní zpracováníPřesné výřezySnadné uchycení mobilního telefonuNadčasový designStylová ochranaIdeální v kombinaci s řadou kvalitních tvrzených sk",
+          "po": "Čierny zadný kryt Aligator Bumperzz pre Xiaomi Redmi 13C so špeciálne vystuženými rohmi a presnými výrezmi. Chráni telefón pred poškodením a ponúka nadčasový dizajn."
+        },
+        "name": {
+          "pred": "ALI BUMP. Xia Redmi 13C, Black PAZ0044",
+          "po": "Kryt Aligator Bumperzz pre Xiaomi Redmi 13C, čierny"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Kryt Aligator Bumperzz pre Redmi 13C"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Čierny kryt Aligator Bumperzz pre Xiaomi Redmi 13C so zosilnenými rohmi a presnými výrezmi. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002203063",
+      "guid": "b9af16ea-ad63-11f1-b160-bc2411833e01",
+      "model": "Telefón R60 eXtremo",
+      "polia": {
+        "shortDescription": {
+          "pred": "Odolný telefón, farebný IPS displej 2,8\" (240 x 320), IP68, batéria 4000 mAh, výdrž batérie až 52dní, fotoaparát  2 Mpx, SOS funkcia, budík, kalkulačka, kalendár, FM rádio, Bluetooth, svietidlo, prehrávač hudby, videa, 2x Nano SIM, MicroSD až 512GB, nabíjan",
+          "po": "Odolný tlačidlový telefón Aligator R60 eXtremo v zelenej farbe s 2,8\" IPS displejom, krytím IP68 a batériou 4000 mAh s výdržou až 52 dní. Má 2× Nano SIM, SOS funkciu a slot microSD do 512 GB."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002141511",
+      "guid": "fe4ce3a4-b79a-11f1-b4cf-bc2411e8af0e",
+      "model": "Tablet Blackview 60 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "Dotykový displej 10,1\" HD (1200x800), 8jadrový procesor Unisoc T606 (1.60 GHz), RAM 8GB, 128GB pamäť, 4G LTE, WiFi, Bluetooth, GPS, GALILEO, GLONASS, 2x webkamera, USB-C, batéria 5580 mAh, Android 15",
+          "po": "Modrý tablet Aligator Blackview 60 Pro s 10,1\" HD displejom, 8-jadrovým procesorom Unisoc T606, 8 GB RAM a 128 GB úložiska. Podporuje 4G LTE a GPS, batéria má 5580 mAh a beží na Androide 15."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002201335",
+      "guid": "0c08bd74-c1d2-11f1-8925-bc2411833e01",
+      "model": "Smart Glasses Sport ASG002",
+      "polia": {
+        "shortDescription": {
+          "pred": "ALI Smart Glasses Sport, modré ASG002Ultralehká konstrukce, 8Mpx kamera Sony + stabilizace obrazu, Full HD video 30 fps, Hlasový AI asistent „Hey Cyan“, Překlady do 139 jazyků, Bluetooth 5.4, Wi-Fi přenos dat,",
+          "po": "Ultraľahké modré inteligentné okuliare Aligator Smart Glasses Sport s 8 Mpx kamerou Sony so stabilizáciou obrazu a Full HD videom. Majú hlasového AI asistenta, preklady do 139 jazykov a Bluetooth 5.4."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002070608",
+      "guid": "56b48e94-c81b-11f1-9f8d-bc2411e8af0e",
+      "model": "Silikónový remienok 18 mm",
+      "polia": {
+        "shortDescription": {
+          "pred": null,
+          "po": "Ružový silikónový remienok Aligator so šírkou 18 mm."
+        },
+        "metaDescription": {
+          "pred": "Aligator řemínek silikonový růžový 18mm – 1-2 ks skladom, 24 mesiacov záruka. Kúpte na premiumstore.sk.",
+          "po": "Ružový silikónový remienok Aligator so šírkou 18 mm. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002137072",
+      "guid": "55b75866-c364-11f1-ba8e-bc24110eff41",
+      "model": "Watch GPS Silver",
+      "polia": {
+        "shortDescription": {
+          "pred": "Displej 1,43\" AMOLED, rozlišení displeje 466 x 466, funkce Always ON, baterie 500 mAh,  IP69K / 5 ATM, Bluetooth 5.0, GPS, kompas, barometrický výškoměr, SMS, Whatsapp, Skype, počasí, budík, stopky, tepová frekvence, okysličení krve, krokoměr, počet kalor",
+          "po": "Strieborné inteligentné hodinky Aligator Watch GPS s 1,43\" AMOLED displejom (466 × 466) a funkciou Always ON. Majú GPS, kompas, barometrický výškomer, meranie tepu a okysličenia krvi, odolnosť IP69K / 5 ATM a batériu 500 mAh."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002201204",
+      "guid": "57cfdb8c-c364-11f1-8528-bc24110eff41",
+      "model": "Watch Sport GPS Black",
+      "polia": {
+        "shortDescription": {
+          "pred": "Chytré hodinky Sport, displej AMOLED 1,92\" 410x502,baterie 400mAh,voděodolnost 3ATM,Bluetooth 5.0,rozteč 22mm,GPS,kompas,výškoměr,SMS,Whatsapp,telefonování,upozornění na hovory,počasí,budík,stopky,tepová frekvence,měření okysličení krve,kvalita spánku,upo",
+          "po": "Čierne inteligentné hodinky Aligator Watch Sport GPS s 1,92\" AMOLED displejom (410 × 502) a batériou 400 mAh. Majú GPS, kompas, výškomer, telefonovanie, meranie tepu a okysličenia krvi, sledovanie spánku a vodeodolnosť 3 ATM."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002204396",
+      "guid": "6134cc8c-c364-11f1-abd6-bc24110eff41",
+      "model": "Watch GPS Maps Silver",
+      "polia": {
+        "shortDescription": {
+          "pred": "Displej 1,43\" AMOLED (466 x 466), přesná dvoupásmová GPS L1 + L5, offline mapy přímo v hodinkách, záznam GPS trasy, Bluetooth, GPS, 2GB interní paměť, voděodolnost IP69K / 5 ATM, měření tepu a SpO2, sledování spánku, 178+ sportovních režimů, baterie 550 m",
+          "po": "Strieborné inteligentné hodinky Aligator Watch GPS Maps s 1,43\" AMOLED displejom, dvojpásmovou GPS L1 + L5 a offline mapami v hodinkách. Majú 2 GB pamäte, odolnosť IP69K / 5 ATM, meranie tepu a SpO2 a viac ako 178 športových režimov."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002206064",
+      "guid": "0c9aa722-dc92-11f1-8240-bc2411833e01",
+      "model": "Kulmofén StyLeo 8v1",
+      "polia": {
+        "shortDescription": {
+          "pred": "Multifunkční kulmofén ALIGATOR StyLeo 8v1 je kompletní stylingový systém, který v jednom těle kombinuje fén, kulmu, kartáč i difuzér. Srdcem přístroje je špičkový bezkartáčový BLDC motor s příkonem 1500 W, který zajišťuje stabilní proudění vzduchu pro ryc",
+          "po": "Multifunkčný kulmofén Aligator StyLeo 8v1 spája fén, kulmu, kefu a difúzer v jednom tele. Poháňa ho bezkartáčový BLDC motor s príkonom 1500 W pre rýchle vysúšanie, dlhú životnosť a tichý chod."
+        },
+        "name": {
+          "pred": "Aligator Styleo Kulmofén 8v1 AHS001",
+          "po": "Multifunkčný kulmofén Aligator StyLeo 8v1 AHS001"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Kulmofén Aligator StyLeo 8v1 AHS001"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Multifunkčný kulmofén Aligator StyLeo 8v1 s BLDC motorom 1500 W spája fén, kulmu, kefu a difúzer. Objednajte na PremiumStore.sk."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
