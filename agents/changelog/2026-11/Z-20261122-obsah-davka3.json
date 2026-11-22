@@ -1,0 +1,195 @@
+{
+  "id": "Z-20261122-obsah-davka3",
+  "datum": "2026-11-22",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Nové krátke popisy 15 produktov Aligator (sklá, puzdrá, káble). Pri Redmi 15 opravený popis s iným modelom.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002127066",
+      "guid": "e1bfdd80-92ac-11f1-b79a-bc2411833e01",
+      "model": "GLASS GLA0277 Aligator S6600",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS Aligator S6600, originálne - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zaistí perfektné prilnutie k displeju",
+          "po": "Ochranné tvrdené sklo Aligator GLASS pre Aligator S6600 z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002136982",
+      "guid": "e5ec177a-92ac-11f1-87ca-bc2411833e01",
+      "model": "GLASS FULL GLF0046 Redmi Note 14 Pro/Pro+",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS FULL Xiaomi Not 14 Pro/Pro+ GLF0046 - Ochranné tvrdené sklo ALIGATOR?Glass Full Dvojvrstvové vysokoodolné ochranné sklo vyrábané špeciálnou technológiou. Vysoká presnosť, hrúbka 0,25mm, ľahké, vysoká priľnavosť a jednoduché lepenie bez b",
+          "po": "Dvojvrstvové ochranné tvrdené sklo Aligator GLASS FULL pre Xiaomi Redmi Note 14 Pro/Pro+ s hrúbkou 0,25 mm. Vyniká vysokou presnosťou, vysokou priľnavosťou a jednoduchým lepením."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002164489",
+      "guid": "e80ba926-92ac-11f1-b6a1-bc2411833e01",
+      "model": "Mag-Skin iPhone 17 Air",
+      "polia": {
+        "shortDescription": {
+          "pred": "Nová rada dedikovaných krytov ALIGATOR Mag-Skin pre iPhone17 Air  s podporou modernej technológie bezdrôtového nabíjania MagSafe. Určené pre MagSafe Zadná časť krytu je vyrobená z kvalitného dvojitého plastu, v ktorom je umiestnený a presne vycentrovaný ferom",
+          "po": "Puzdro Aligator Mag-Skin pre Apple iPhone 17 Air s podporou bezdrôtového nabíjania MagSafe. Má zadnú časť z kvalitného dvojitého plastu a presné výrezy."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002164613",
+      "guid": "e815bace-92ac-11f1-86dd-bc2411833e01",
+      "model": "GLASS PRINT GLP0274 iPhone 17",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS PRINT iPhone 17 čierna, celoplošné lepenie Tlačené okraje; Vysoko odolné proti poškriabaniu; Obmedzuje odlesky; Vyhladzuje a zaceľuje už poškriabaný displej; Extrémna tvrdosť 9H; Zaoblené hrany;",
+          "po": "Čierne ochranné tvrdené sklo Aligator GLASS PRINT pre Apple iPhone 17 s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002136980",
+      "guid": "7b8f2c70-a263-11f1-a222-bc2411e8af0e",
+      "model": "GLASS GLA0295 Galaxy A26 5G",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS Samsung A26 (5G) GLA0295 - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displeju.",
+          "po": "Ochranné tvrdené sklo Aligator GLASS pre Samsung Galaxy A26 5G z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002074578",
+      "guid": "a1d72c04-a7e3-11f1-aed8-bc2411833e01",
+      "model": "GLASS GLA0271 Galaxy A25 5G",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS Samsung Galaxy A25 5G - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displeju.",
+          "po": "Ochranné tvrdené sklo Aligator GLASS pre Samsung Galaxy A25 5G z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002104810",
+      "guid": "a5d266b6-a7e3-11f1-bc9e-bc2411833e01",
+      "model": "GLASS PRINT GLP0258 Galaxy A16/A17 5G",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS PRINT Samsung Galaxy A16/A17 5G čierna, celoplošné lepenieTlačené okrajeVysoko odolné proti poškriabaniuObmedzuje odleskyVyhladzuje a zaceľuje už poškriabaný displejExtrémna tvrdosť 9HZaoblené hrany",
+          "po": "Čierne ochranné tvrdené sklo Aligator GLASS PRINT pre Samsung Galaxy A16 5G a A17 5G s celoplošným lepením a tlačenými okrajmi. Má tvrdosť 9H, zaoblené hrany, obmedzuje odlesky a odoláva poškriabaniu."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002122028",
+      "guid": "a730e320-a7e3-11f1-8402-bc2411833e01",
+      "model": "GLASS GLA0284 Galaxy S25",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochrana displeja GLASS Samsung Galaxy S25 - Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zabezpečí perfektné prilnutie k displeju.; ;",
+          "po": "Ochranné tvrdené sklo Aligator GLASS pre Samsung Galaxy S25 z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001954081",
+      "guid": "cb909e38-ad63-11f1-beb2-bc2411833e01",
+      "model": "GLASS GLA0215 Galaxy A23 5G",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ochranné tvrdené sklo ALIGATOR GLASS, Samsung Galaxy A23 (5G) -Toto ochranné sklo, ktoré chráni celý displej, vrátane všetkých zaoblení, sa skladá z dvoch vrstiev. Jednu vrstvu tvorí odolné tvrdené sklo, druhú špeciálna fólia, ktorá zaistí perfektné priľnutie",
+          "po": "Ochranné tvrdené sklo Aligator GLASS pre Samsung Galaxy A23 5G z dvoch vrstiev: odolného skla a špeciálnej fólie pre dokonalé prilnutie. Chráni celý displej vrátane všetkých zaoblení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002136930",
+      "guid": "de7d135a-ad63-11f1-b650-bc2411833e01",
+      "model": "Magnetto Aligator S6600",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro ALIGATOR Magnetto Aligator S6600, Black - Dokonale prepracovaný dizajn, ultratenké prevedenie, priehradka na kartu alebo vizitky, zatváranie pomocou magnetickej pracky, jednoduché uchytenie mobilného telefónu pomocou silikónovej vaničky, stojanček… To je ALIGATO",
+          "po": "Čierne ultratenké puzdro Aligator Magnetto pre Aligator S6600 s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002193588",
+      "guid": "65bc16fe-9ce3-11f1-9d16-bc2411833e01",
+      "model": "Magnetto Redmi 15",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro ALIGATOR Magnetto Apple iPhone 16 Pro Max - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu. (chybne uvedený iný model)",
+          "po": "Čierne ultratenké puzdro Aligator Magnetto pre Xiaomi Redmi 15 s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002193590",
+      "guid": "66b74fa6-9ce3-11f1-98b5-bc2411833e01",
+      "model": "Magnetto Redmi 15C 4G",
+      "polia": {
+        "shortDescription": {
+          "pred": "Puzdro ALIGATOR Magnetto Xiaomi Redmi 15C - Atraktívne puzdro vyrobené z príjemného silikónu. Zvyšuje odolnosť Vášho mobilného telefónu a chráni ho pred poškodením. Presne padne na daný model telefónu.",
+          "po": "Čierne ultratenké puzdro Aligator Magnetto pre Xiaomi Redmi 15C 4G s magnetickou prackou. Má priehradku na kartu alebo vizitky, silikónovú vaničku na uchytenie telefónu a funguje aj ako stojanček."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002074589",
+      "guid": "507121e0-9ce3-11f1-b110-bc2411833e01",
+      "model": "Kábel DATKP49",
+      "polia": {
+        "shortDescription": {
+          "pred": "Dátový kábel ALIGATOR POWER 65W, USB-C/USB-C 3A 1,5m, biely Ultra rýchle nabíjanie: 3APower Delivery až 65WVysoká rýchlosť prenosu dátVysokokvalitné konektoryFlexibilný a odolnýDĺžka: 1,5mFarba: čierna, biela",
+          "po": "Dátový a nabíjací kábel Aligator Power USB-C/USB-C s dĺžkou 1,5 m. Podporuje Power Delivery až 65 W, nabíjanie prúdom 3 A a vysokú rýchlosť prenosu dát."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002127893",
+      "guid": "57a8a62c-9ce3-11f1-a752-bc2411833e01",
+      "model": "Kábel DATKP54",
+      "polia": {
+        "shortDescription": {
+          "pred": "Dátový a nabíjací USB-C /USB-C kábel: ; ; Ultra rýchle nabíjanie: 3A; Power Delivery až 65W; Vysoká rýchlosť prenosu dát; Vysokokvalitné konektory; Flexibilný a odolný; Dĺžka: 50cm; Farba: čierna",
+          "po": "Čierny dátový a nabíjací kábel Aligator USB-C/USB-C s dĺžkou 0,5 m. Podporuje Power Delivery až 65 W, nabíjanie prúdom 3 A a vysokú rýchlosť prenosu dát."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002074588",
+      "guid": "7bc349ce-a263-11f1-9ee8-bc2411e8af0e",
+      "model": "Kábel DATKP48",
+      "polia": {
+        "shortDescription": {
+          "pred": "Dátový kábel ALIGATOR POWER 65W, USB-C/USB-C 3A 1,5m, čiernyUltra rýchle nabíjanie: 3APower Delivery až 65WVysoká rýchlosť prenosu dátVysoko kvalitné konektoryFlexibilný a odolnýDĺžka: 1,5mFarba: čierna, biela",
+          "po": "Dátový a nabíjací kábel Aligator Power USB-C/USB-C s dĺžkou 1,5 m. Podporuje Power Delivery až 65 W, nabíjanie prúdom 3 A a vysokú rýchlosť prenosu dát."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields shortDescription potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
