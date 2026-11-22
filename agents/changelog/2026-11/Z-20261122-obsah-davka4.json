@@ -1,0 +1,195 @@
+{
+  "id": "Z-20261122-obsah-davka4",
+  "datum": "2026-11-22",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Nové krátke popisy 15 produktov Aligator (nabíjačky, káble, adaptér, powerbanka, kit).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002164399",
+      "guid": "c8ce1fd0-92ac-11f1-b3ba-bc2411833e01",
+      "model": "Nabíjačka CDALICSEN",
+      "polia": {
+        "shortDescription": {
+          "pred": null,
+          "po": "Nabíjačka Aligator s konektorom USB-C určená pre tlačidlové telefóny Aligator."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002068462",
+      "guid": "4e734c6a-9ce3-11f1-aa76-bc2411833e01",
+      "model": "Nabíjačka CHA0044",
+      "polia": {
+        "shortDescription": {
+          "pred": "Chytrá sieťová nabíjačka ALIGATOR 2.4A, 2xUSB, smart IC, čierna, kábel pre iPhone/iPad 2A. Táto nabíjačka je ideálnym pomocníkom na dobíjanie mobilného telefónu a iných zariadení. Chytrá nabíjačka zvládne doplniť energiu až dvom prístrojom naraz, ďalej je",
+          "po": "Čierna sieťová nabíjačka Aligator s dvoma výstupmi USB-A a technológiou Smart IC. Nabíja až dve zariadenia naraz prúdom do 2,4 A a v balení je kábel Lightning pre iPhone a iPad."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002069055",
+      "guid": "4eade00a-9ce3-11f1-8642-bc2411833e01",
+      "model": "Nabíjačka CHPD0010",
+      "polia": {
+        "shortDescription": {
+          "pred": "Výkonná sieťová nabíjačka série „POWER DELIVERY“ v modernom bielom prevedení s ultra rýchlym USB-C portom s výkonom 20W. Technické parametre:; ? Vstup: AC 100-240V; ? Výstup: DC 5V-3A, 9V-2.22A, 12V-1.67A; ? Power Delivery 20W; ? Ochrana proti skratu a preťaž",
+          "po": "Biela sieťová nabíjačka Aligator s technológiou Power Delivery a USB-C portom s výkonom 20 W. Má ochranu proti skratu a preťaženiu."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002069039",
+      "guid": "4ebcce4e-9ce3-11f1-ba8d-bc2411833e01",
+      "model": "Nabíjačka CHPD0017 mini",
+      "polia": {
+        "shortDescription": {
+          "pred": "Výkonná miniatúrna sieťová nabíjačka série „POWER DELIVERY“ v modernom bielom prevedení s ultra rýchlym USB-C portom s výkonom 20W a USB-C/USB-C káblom v balení.; Technické parametre:; ? Vstup: AC 100-240V; ? Výstup: DC 5V-3A, 9V-2.22A, 12V-1.67A; ? Power De",
+          "po": "Miniatúrna sieťová nabíjačka Aligator s technológiou Power Delivery a USB-C portom s výkonom 20 W. V balení je kábel USB-C/USB-C."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002068706",
+      "guid": "fa948c64-b2e3-11f1-95e7-bc2411e8af0e",
+      "model": "Nabíjačka CHPD0011",
+      "polia": {
+        "shortDescription": {
+          "pred": "Inteligentná sieťová nabíjačka ALIGATOR Power Delivery 20W, USB-C Technické parametre: ? Vstup:  AC 100-240V ? Výstup: DC 5V-3A, 9V-2.22A, 12V-1.67A  ? Power Delivery 20W ? Ochrana proti skratu a preťaženiu ? Farba:  čierna",
+          "po": "Čierna sieťová nabíjačka Aligator s technológiou Power Delivery a USB-C portom s výkonom 20 W. Má ochranu proti skratu a preťaženiu."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002068460",
+      "guid": "07443b4e-b2e4-11f1-b9b2-bc2411e8af0e",
+      "model": "Nabíjačka CHA0042",
+      "polia": {
+        "shortDescription": {
+          "pred": "Inteligentná sieťová nabíjačka ALIGATOR 2,4A, 2xUSB, smart IC, čierna, USB-C kábel - Vybavená inteligentným čipom na rýchle nabíjanie. Až 5x rýchlejšie nabíjanie oproti bežnej nabíjačke. Technické údaje: • Vstup: AC 100-240V• Výstup: DC 2x5V 2.4A •adaptívne nabíjanie • Ochr",
+          "po": "Čierna sieťová nabíjačka Aligator s dvoma výstupmi USB a technológiou Smart IC. Nabíja až dve zariadenia naraz prúdom do 2,4 A a v balení je kábel USB-C."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002068461",
+      "guid": "f9aaf34a-b79a-11f1-ad10-bc2411e8af0e",
+      "model": "Nabíjačka CHA0045",
+      "polia": {
+        "shortDescription": {
+          "pred": "Inteligentná sieťová nabíjačka ALIGATOR 2.4A, 2xUSB, smart IC, biela, kábel pre iPhone/iPad 2A. Táto nabíjačka je ideálnym pomocníkom na dobíjanie mobilného telefónu a iných zariadení. Inteligentná nabíjačka zvládne doplniť energiu až dvom prístrojom naraz, navyše je",
+          "po": "Biela sieťová nabíjačka Aligator s dvoma výstupmi USB-A a technológiou Smart IC. Nabíja až dve zariadenia naraz prúdom do 2,4 A a v balení je kábel Lightning pre iPhone a iPad."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000939266",
+      "guid": "f69041f8-b2e3-11f1-bef0-bc2411e8af0e",
+      "model": "Kábel DATKP33",
+      "polia": {
+        "shortDescription": {
+          "pred": "\"Dátový a nabíjací USB-C/lightning kábel. Rad ALIGATOR POWER je navrhnutý na použitie doma, v kancelárii aj na cestách. Máte automobil s USB-C portmi? Káble rad ALIGATOR POWER prepoja Vaše mobilné zariadenie s automobilom a zaistia napr. podporu zrkadlenia na",
+          "po": "Čierny dátový a nabíjací kábel Aligator USB-C/Lightning s prúdom 3 A. Je určený na použitie doma, v kancelárii aj na cestách a prepojí telefón s autom s portom USB-C."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000939265",
+      "guid": "f7ff5790-b2e3-11f1-bc36-bc2411e8af0e",
+      "model": "Kábel DATKP34",
+      "polia": {
+        "shortDescription": {
+          "pred": "\"Dátový a nabíjací USB-C/lightning kábel. Rad ALIGATOR POWER je navrhnutý na použitie doma, v kancelárii aj na cestách. Máte automobil s USB-C portmi? Káble rad ALIGATOR POWER prepoja Vaše mobilné zariadenie s automobilom a zaistia napr. podporu zrkadlenia na",
+          "po": "Biely dátový a nabíjací kábel Aligator USB-C/Lightning s prúdom 3 A. Je určený na použitie doma, v kancelárii aj na cestách a prepojí telefón s autom s portom USB-C."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000447450",
+      "guid": "fba3f072-b2e3-11f1-ae8d-bc2411e8af0e",
+      "model": "Kábel DATKP07",
+      "polia": {
+        "shortDescription": {
+          "pred": "\"Dátový kábel ALIGATOR PREMIUM 2A, USB-C čierny - Dátový a nabíjací USB-C kábel: - Odolné nylonové opletenie kábla- Vysokokvalitné kovové konektory- Vysoká rýchlosť prenosu dát- Možnosť rýchleho nabíjania: 2A- Sťahovací pásik- Nalepovací organizér-",
+          "po": "Čierny dátový a nabíjací kábel Aligator PREMIUM USB-C s odolným nylonovým opletením a kovovými konektormi. Podporuje rýchle nabíjanie prúdom 2 A a vysokú rýchlosť prenosu dát."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000159727",
+      "guid": "083f885a-b2e4-11f1-ad04-bc2411e8af0e",
+      "model": "Kábel DAKT003",
+      "polia": {
+        "shortDescription": {
+          "pred": "Datový a nabíjecí kabel, Konektor USB-C, Podpora rychlého nabíjení, Délka kabelu 1m, 2A, USB 2.0, Textilní opletení kabelu, Barevné provedení: černá/šedá/zlatá",
+          "po": "Čierny dátový a nabíjací kábel Aligator s konektorom USB-C a dĺžkou 1 m. Podporuje rýchle nabíjanie prúdom 2 A, má textilné opletenie a štandard USB 2.0."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000159726",
+      "guid": "b904a1a6-ad63-11f1-819c-bc2411833e01",
+      "model": "Kábel DAKT007 Lightning",
+      "polia": {
+        "shortDescription": {
+          "pred": "Datový a nabíjecí kabel, Konektor lightning, Podpora rychlého nabíjení, Délka kabelu 1m, 2A, USB 2.0, Textilní opletení kabelu, Barevné provedení: černá/šedá/zlatá",
+          "po": "Zlatý dátový a nabíjací kábel Aligator s konektorom Lightning a dĺžkou 1 m. Podporuje rýchle nabíjanie prúdom 2 A, má textilné opletenie a štandard USB 2.0."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001945251",
+      "guid": "f138cf36-b2e3-11f1-856f-bc2411e8af0e",
+      "model": "Audio adaptér ADAU002",
+      "polia": {
+        "shortDescription": {
+          "pred": "Kvalitný audio adaptér Aligator Lightning (M) / Jack 3,5mm (F) je skvelým riešením pre mobilné telefóny a tablety, ktoré nedisponujú portom pre slúchadlá. Využijete ho napríklad na pripojenie k Vášmu domácemu stereu alebo v aute.",
+          "po": "Audio adaptér Aligator z Lightning (M) na jack 3,5 mm (F) pre telefóny a tablety bez konektora na slúchadlá. Hodí sa na pripojenie k domácemu stereu alebo v aute."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000474392",
+      "guid": "d4d20f30-92ac-11f1-af7b-bc2411833e01",
+      "model": "Powerbanka PB1000",
+      "polia": {
+        "shortDescription": {
+          "pred": "Powerbanka ALIGATOR PB1000, 10000mAh 3v1, čierna - Powerbanka 3v1 ponúka vstupy pre všetky typy bežne používaných konektorov (microUSB, lightning, USB-C) Špecifikácia: 10 000mAh Li-Polymer, Výstup: USB DC 5V 1A /2.1A, Indikátor nabíjania, Nadprúdová ochrana",
+          "po": "Čierna powerbanka Aligator PB1000 s kapacitou 10 000 mAh a vstupmi microUSB, Lightning a USB-C. Má indikátor nabíjania a nadprúdovú ochranu."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002204389",
+      "guid": "5b34cccc-bde4-11f1-b1f8-bc2411e8af0e",
+      "model": "Hardwire kit ACCA001",
+      "polia": {
+        "shortDescription": {
+          "pred": "Hardwire Kit ALIGATOR A8 umožňuje pripojiť autokameru priamo k elektroinštalácii vozidla, takže nie je nutné využívať zásuvku zapaľovača. Vďaka trvalému napájaniu môže kamera aktivovať parkovací režim a monitorovať vozidlo aj pri vypnutom motore. Integrovaná och",
+          "po": "Pripájací kit Aligator Hardwire pre autokameru Aligator A8 umožňuje pripojiť kameru priamo k elektroinštalácii vozidla bez zásuvky zapaľovača. Trvalé napájanie umožní parkovací režim aj pri vypnutom motore."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields shortDescription potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné hodnoty sú v poliach pred."
+}
