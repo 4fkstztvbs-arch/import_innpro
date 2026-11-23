@@ -1,0 +1,223 @@
+{
+  "id": "Z-20261123-obsah-davka1",
+  "datum": "2026-11-23",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Nové krátke popisy 15 produktov Creality (skenery Raptor/RaptorX/Raptor Pro/Pika, lasery Falcon, sušičky SpacePi, filter, 3 filamenty mimo experimentu). Anglické dlhé popisy Raptor a CR-PETG prepísané do slovenčiny, opravené 3 chybné meta popisy a chybný názov v xml feede TPU.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "069515",
+      "guid": "89aca9ca-a733-11f1-a383-bc2411833e01",
+      "model": "Creality CR-Scan Raptor",
+      "polia": {
+        "shortDescription": {
+          "pred": "Creality CR-Scan Raptor 3D Scanner The Creality CR-Scan Raptor is an advanced 3D scanner that combines blue laser and infrared (NIR) technology to offer metrology-level precision. Thanks to this…",
+          "po": "3D skener Creality CR-Scan Raptor s modrým laserom (7 línií) a infračerveným režimom NIR. Presnosť až 0,02 mm, rýchlosť až 60 snímok za sekundu, objekty od 5 mm do 2000 mm, čierne a kovové povrchy bez spreja."
+        },
+        "description": {
+          "pred": "anglický text s externými obrázkami (pôvodné HTML nebolo ukladané)",
+          "po": "slovenský prepis s tabuľkou parametrov, bez externých obrázkov"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "073457",
+      "guid": "8db90cac-a733-11f1-b63a-bc2411833e01",
+      "model": "Creality RaptorX",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D skener Creality RaptorX Creality RaptorX je pokročilý 3D skener určený pre profesionálnych používateľov. Je vybavený technológiou štruktúrovaného svetla NIR a zaručuje výnimočnú presnosť a…",
+          "po": "Profesionálny bezdrôtový 3D skener Creality RaptorX s modrými laserovými líniami a infračerveným svetlom NIR. Presnosť až 0,02 mm, rýchlosť až 60 snímok za sekundu, hmotnosť 405 g, skenovanie bez spreja."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "083688",
+      "guid": "c51a2214-acb3-11f1-af70-bc2411833e01",
+      "model": "Creality CR-Scan Raptor Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D skener Creality CR-Scan Raptor Pro 3D skener CR-Scan Raptor Pro je pokročilý merací nástroj určený pre profesionálne inžinierske, automobilové, priemyselné a dizajnové aplikácie. Kombinuje tri…",
+          "po": "Profesionálny 3D skener Creality CR-Scan Raptor Pro s 22 krížovými a 7 paralelnými modrými laserovými líniami a režimom NIR. Presnosť až 0,02 mm, rýchlosť až 60 snímok za sekundu, objekty od 5 mm do 4000 mm."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "092531",
+      "guid": "db8bd524-ce7d-11f1-9fbe-bc2411e8af0e",
+      "model": "Creality Pika",
+      "polia": {
+        "shortDescription": {
+          "pred": "3D skener Creality Pika 3D skener Creality Pika je kompaktné zariadenie, ktoré využíva 7 paralelných modrých laserových lúčov a štruktúrované svetlo v oblasti NIR, vďaka čomu dokáže skenovať aj malé…",
+          "po": "Kompaktný 3D skener Creality Pika so 7 modrými laserovými líniami a režimom NIR. Presnosť až 0,03 mm, rýchlosť až 110 snímok za sekundu, hmotnosť 260 g, dotykový displej a pripojenie k telefónu aj počítaču."
+        },
+        "metaDescription": {
+          "pred": "Ponúka presnosť až 0,03 mm, rozlíšenie 0,1–2 mm a pracovnú vzdialenosť 160–400 mm. Pri použití so smartfónom sú maximálne rýchlosti 40 fps, resp.",
+          "po": "3D skener Creality Pika s presnosťou 0,03 mm a rýchlosťou až 110 fps. Kompaktný, 260 g, pripojíte ho k telefónu aj PC. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "082276",
+      "guid": "496e4228-b87d-11f1-a75c-bc2411e8af0e",
+      "model": "Creality Falcon A1 Pro 20 W",
+      "polia": {
+        "shortDescription": {
+          "pred": "Laserový gravír Creality Falcon A1 Pro 20 W Creality Falcon A1 Pro je pokročilý laserový gravír určený pre používateľov, ktorí očakávajú najvyššiu kvalitu spracovania, univerzálnosť materiálov a…",
+          "po": "Laserový gravírovací stroj Creality Falcon A1 Pro s výkonom 20 W, pracovnou plochou 358 × 268 mm a rýchlosťou až 600 mm/s. Uzavretá konštrukcia triedy 1, AI kamera s automatickým zaostrením a vymeniteľné laserové moduly."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "092765",
+      "guid": "8f569850-bdfd-11f1-9921-bc24110eff41",
+      "model": "Creality Falcon T1 Diode 20 W",
+      "polia": {
+        "shortDescription": {
+          "pred": "Laserový gravír Creality Falcon T1 20 W Creality Falcon T1 Diode 20W je laserový gravírovací stroj určený na presné gravírovanie a rezanie rôznych materiálov. Zariadenie využíva 20 W diódový laser,…",
+          "po": "Diódový laserový gravírovací stroj Creality Falcon T1 s výkonom 20 W a presnosťou gravírovania až 0,01 mm. Modulárna konštrukcia 5 v 1, výmena modulu bez náradia za 15 sekúnd, podpora Falcon Design Space, LightBurn a GRBL."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "092766",
+      "guid": "8f5b64a2-bdfd-11f1-bc7f-bc24110eff41",
+      "model": "Creality Falcon T1 Fiber 20 W",
+      "polia": {
+        "shortDescription": {
+          "pred": "Laserový gravír Creality Falcon T1 Fiber 20W Creality Falcon T1 Fiber 20W je kompaktný gravír vybavený vláknovým laserom s výkonom 20 W, určený na rýchle a presné značenie kovov a vybraných plastov.…",
+          "po": "Kompaktný vláknový laser Creality Falcon T1 Fiber s výkonom 20 W na značenie kovov a vybraných plastov. Kamera na polohovanie, automatické zaostrovanie, uzavretá konštrukcia triedy 1 a podpora LightBurn a Falcon Design Space."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "076202",
+      "guid": "eeff723a-bba1-11f1-b8a7-bc2411833e01",
+      "model": "Creality SpacePi X4",
+      "polia": {
+        "shortDescription": {
+          "pred": "Creality SpacePi X4 sušička vlákien Creality SpacePi X4 je výkonná dvojkomorová sušička filamentov, ktorá umožňuje sušiť až 4 cievky súčasne s plnou reguláciou teploty od 45 do 85 °C. Vďaka…",
+          "po": "Dvojkomorová sušička filamentov Creality SpacePi X4 pre až 4 cievky súčasne. Teplota 45 až 85 °C, čas sušenia 1 až 48 hodín, nezávislé riadenie komôr, aktívne odvlhčovanie a tichá prevádzka okolo 43 – 46 dB."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "085925",
+      "guid": "2be368c2-bc6b-11f1-ad12-bc2411e8af0e",
+      "model": "Creality SpacePi X4L",
+      "polia": {
+        "shortDescription": {
+          "pred": "Sušička filamentu CREALITY SpacePi X4L 3D tlač si vyžaduje správne pripravený filament. Aj malé množstvo vlhkosti môže negatívne ovplyvniť kvalitu tlače, spôsobiť vznik vzduchových bublín alebo viesť…",
+          "po": "Sušička filamentov Creality SpacePi X4L s teplotou 45 až 75 °C a časom sušenia 1 až 48 hodín. Dotykový LCD displej, senzory teploty a vlhkosti, dvojitá izolácia a podpora cievok do 200 mm a filamentov 1,75 aj 2,85 mm."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "083981",
+      "guid": "47fb7d64-a5a1-11f1-8ef5-bc2411e8af0e",
+      "model": "Filter Creality Falcon YW45W",
+      "polia": {
+        "shortDescription": {
+          "pred": "Filter pre odsávač výparov Creality Falcon YW45W Zabezpečte bezproblémovú prevádzku filtračného systému vo vašom odsávači výparov Creality Falcon YW45W. Súprava obsahuje päť bavlnených predfiltrov s…",
+          "po": "Náhradná súprava filtrov pre odsávač dymu Creality Falcon YW45W: päť bavlnených predfiltrov 178 × 178 × 8 mm a jeden vysokoúčinný filter 178 × 178 × 70 mm. Zachytáva dym a znečisťujúce látky pri laserovaní."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "092852",
+      "guid": "9048b5ae-bdfd-11f1-9d08-bc24110eff41",
+      "model": "Creality Falcon T1 40 W",
+      "polia": {
+        "shortDescription": {
+          "pred": "Laserový gravír Creality Falcon T1 40W Creality Falcon T1 40W ponúka tvorcom oveľa viac možností ako tradičný gravír, ktorý využíva len jeden typ lasera. Jeho modulárna konštrukcia 5 v 1 vám umožňuje…",
+          "po": "Modulárny laserový gravírovací stroj Creality Falcon T1 5 v 1 s modulom 40 W diódového lasera v balení. Pracovná plocha 175 × 175 mm, rýchlosť až 10 000 mm/s, HD kamera, automatické zaostrovanie a uzavretá konštrukcia triedy 1."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "092853",
+      "guid": "904e6f8a-bdfd-11f1-bbbf-bc24110eff41",
+      "model": "Creality Falcon T1 UV 5 W",
+      "polia": {
+        "shortDescription": {
+          "pred": "UV laserový gravír Creality Falcon T1 s výkonom 5 W Creality Falcon T1 ponúka tvorcom oveľa viac možností ako tradičný gravír, ktorý využíva len jeden typ lasera. Jeho modulárna konštrukcia typu 5 v…",
+          "po": "UV laserový gravírovací stroj Creality Falcon T1 s modulom 5 W v balení na značenie skla, krištáľu, keramiky, akrylu a plastov. Veľkosť bodu 0,014 mm, pracovná plocha 175 × 175 mm, rýchlosť až 10 000 mm/s a uzavretá konštrukcia triedy 1."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "064763",
+      "guid": "712e6dac-92c5-11f1-bccc-bc2411833e01",
+      "model": "Creality CR-PETG priehľadný modrý",
+      "polia": {
+        "shortDescription": {
+          "pred": "Creality CR-PETG Filament (Transparent Blue) Creality's PETG filament combines the advantages of PLA and ABS filaments. It is environmentally friendly and not prone to distortion, while enabling…",
+          "po": "Priehľadný modrý PETG filament Creality CR-PETG s priemerom 1,75 mm a hmotnosťou 1 kg. Teplota tlače 230 – 250 °C, pevnosť v ťahu 49 MPa, odolný voči vlhkosti a deformácii, s lesklým povrchom."
+        },
+        "description": {
+          "pred": "anglický text s externými obrázkami (pôvodné HTML nebolo ukladané)",
+          "po": "slovenský prepis s tabuľkou parametrov, bez externých obrázkov"
+        },
+        "metaDescription": {
+          "pred": "Priehľadný modrý PETG filament Creality CR-PETG odolný voči vlhkosti a deformácii, s pevnosťou v ťahu 49 MPa. In addition, its tensile strength reaches 49 MPa.",
+          "po": "Priehľadný modrý PETG filament Creality CR-PETG 1,75 mm, 1 kg. Odolný voči vlhkosti a deformácii, pevnosť v ťahu 49 MPa. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "079798",
+      "guid": "d7fdf3ae-92c5-11f1-8566-bc2411833e01",
+      "model": "Creality Hyper PETG zelený",
+      "polia": {
+        "shortDescription": {
+          "pred": "Filament Creality Hyper PETG (zelený) Creality Hyper PETG je prémiový filament vyvinutý pre používateľov, ktorí chcú rýchlosť tlače, vynikajúcu mechanickú pevnosť a odolnosť voči vonkajším…",
+          "po": "Zelený filament Creality Hyper PETG 1,75 mm, 1 kg pre rýchlu tlač až 300 mm/s. Teplota tlače 190 – 260 °C, pevnosť v ťahu 40 – 50 MPa, odolný voči vlhkosti, UV žiareniu aj chemikáliám."
+        },
+        "metaDescription": {
+          "pred": "Vďaka optimalizovanému zloženiu poskytuje výnimočne hladké vytláčanie, vysokú kvalitu povrchu a spoľahlivé výsledky aj pri rýchlostiach do 300 mm/s.",
+          "po": "Zelený filament Creality Hyper PETG 1,75 mm, 1 kg. Tlač rýchlosťou až 300 mm/s, hladké vytláčanie a vysoká pevnosť. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "079803",
+      "guid": "d8347910-92c5-11f1-848a-bc2411833e01",
+      "model": "Creality TPU červené",
+      "polia": {
+        "shortDescription": {
+          "pred": "Vlákno Creality TPU (červené) Filament Creality CR-TPU je vysokokvalitný, vysoko flexibilný plast, ktorý v sebe spája výnimočnú pružnosť a odolnosť. Vďaka svojej mäkkej štruktúre a vysokej…",
+          "po": "Červený flexibilný filament Creality CR-TPU s priemerom 1,75 mm a hmotnosťou 1 kg. Teplota tlače 210 – 240 °C, odolný voči oderu, olejom a vlhkosti, vhodný na puzdrá, tesnenia a rukoväte."
+        },
+        "metaDescription": {
+          "pred": "Vlákno Creality TPU (červené). Pred výberom overte použitie; podrobnosti sú v parametroch. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "Červený flexibilný filament Creality CR-TPU 1,75 mm, 1 kg na puzdrá, tesnenia a rukoväte. Odolný voči oderu a vlhkosti. Objednajte na PremiumStore.sk."
+        },
+        "xmlFeedName": {
+          "pred": "Creality Ender PLA 1kg, červený 1,75 mm, 1 kg",
+          "po": "Creality CR-TPU 1,75 mm 1 kg červená"
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené, ako ich vrátil Shoptet); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
