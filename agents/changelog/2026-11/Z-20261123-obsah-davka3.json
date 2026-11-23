@@ -1,0 +1,223 @@
+{
+  "id": "Z-20261123-obsah-davka3",
+  "datum": "2026-11-23",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 3 (Guzzanti): 15 produktov, nové krátke popisy; u 7 nahradený všeobecný dodávateľský dlhý popis stručným slovenským; oprava slabého meta popisu GZ 8401A.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100000190763",
+      "guid": "25351bf8-92ac-11f1-b396-bc2411833e01",
+      "model": "Guzzanti GZ 220A",
+      "polia": {
+        "shortDescription": {
+          "pred": "pultový mraziak; E. trieda: E; Objem mrazničky (l): 198; Ročná spotreba elektriny (kWh): 200; Denná spotreba elektriny (kWh): 0,55; hluková trieda: C; Rozmery V x Š x H(cm): 84,5 x 94 x 55,5",
+          "po": "Pultová mraznička Guzzanti GZ 220A s objemom 198 l a mraziacim výkonom 15,2 kg za 24 hodín. Má vyberateľný drôtený kôš, dve kolieska, hladinu hluku 40 dB a rozmery 84,5 × 94 × 55,5 cm."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000026665",
+      "guid": "256357b6-92ac-11f1-bd14-bc2411833e01",
+      "model": "Guzzanti GZ 122",
+      "polia": {
+        "shortDescription": {
+          "pred": "Výrobník ľadu Guzzanti GZ 122. Dokáže vyrobiť až 12 kg ľadových kociek za 24 hodín. Kapacita nádoby na vodu: 2,2 l. Produkuje 2 veľkosti kociek. Indikátor prázdnej nádoby. Kompaktný, elegantný dizajn. Príkon: 100 W. Rozmery (VxŠxH) 32,8x24,2x35,8cm. Farba",
+          "po": "Kompaktný výrobník ľadu Guzzanti GZ 122 vyrobí až 12 kg ľadových kociek za 24 hodín. Nádoba na vodu má 2,2 l, vyrába dve veľkosti kociek, má indikátor prázdnej nádoby a príkon 100 W."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000079423",
+      "guid": "256dbb52-92ac-11f1-963f-bc2411833e01",
+      "model": "Guzzanti GZ 30B",
+      "polia": {
+        "shortDescription": {
+          "pred": "Termoelektrický chladiaci box s funkciou ohrevu Guzzanti GZ 30B. Chladí až 20°C pod okolitú teplotu. Ohrieva až na +65°C. Kapacita 30l. Pracuje pri napájaní 12 V alebo 220 - 240 V. Režim ECO. Maximálny príkon 68 W. Rozmery (VxŠxH) 40x29,5x43,2cm.",
+          "po": "Termoelektrický chladiaci box Guzzanti GZ 30B s objemom 30 l chladí až o 20 °C pod okolitú teplotu a ohrieva na +65 °C. Napájanie 12 V aj 220 – 240 V, režim ECO, maximálny príkon 68 W."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000478760",
+      "guid": "2c4ec510-92ac-11f1-9eea-bc2411833e01",
+      "model": "Guzzanti GSL 60IS1",
+      "polia": {
+        "shortDescription": {
+          "pred": "rýchlosti, osvetlenie 2x 3W LED GU10, kovový  ALU filter proti mastnotám, výkon 310 m3/hod, hlučnosť pri najvyššom stupni výkonu 68- 72 dBA, horný odťah 150 mm, farba – nerez čelná lišta, možné používať pre recirkuláciu, kód filtra FWN 130. 2ks\"",
+          "po": "Digestor Guzzanti GSL 60IS1 s výkonom 310 m³/h, osvetlením 2× 3 W LED GU10 a hliníkovým filtrom proti mastnote. Horný odťah 150 mm, nerezová čelná lišta, možnosť recirkulácie."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text, nezachovaný)",
+          "po": "nový stručný slovenský popis s parametrami a odkazmi na GZ 441, GZ 685W, GZ 677B Mini"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000190770",
+      "guid": "2ca85558-92ac-11f1-81ea-bc2411833e01",
+      "model": "Guzzanti GZ 20",
+      "polia": {
+        "shortDescription": {
+          "pred": "vinotéka; En. Trieda: G; Objem chladničky (l): 53; Ročná spotreba elektriny (kWh): 142; Spotreba elektriny/24h (kWh): 0,39; Hluková trieda: D; Rozmery V x Š x H(cm): 64 x 43 x 45",
+          "po": "Vinotéka Guzzanti GZ 20 s objemom 53 l a rozmermi 64 × 43 × 45 cm. Energetická trieda G, ročná spotreba 142 kWh (0,39 kWh za 24 hodín), hluková trieda D."
+        },
+        "description": {
+          "pred": "(pôvodný text, nezachovaný)",
+          "po": "nový stručný slovenský popis"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000026660",
+      "guid": "2cf2e5d2-92ac-11f1-96e5-bc2411833e01",
+      "model": "Guzzanti GZ 8202",
+      "polia": {
+        "shortDescription": {
+          "pred": "plynová doska, 2 varné zóny DOMINO, čierne sklo, nerezové ovládanie, zadný veľký horák 3 kW  - predný malý horák 0,88 kW, bezpečnostné automatické vypínanie, trysky na propán bután rozmery dosky ŠxHxV – 300 x 520 x 118,5 mm",
+          "po": "Plynová varná doska Guzzanti GZ 8202 Domino s dvoma horákmi (zadný 3 kW, predný 0,88 kW), čiernym sklom a nerezovým ovládaním. Má bezpečnostné automatické vypínanie a trysky na propán-bután, šírka 30 cm."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000473685",
+      "guid": "2eb53762-92ac-11f1-b3cb-bc2411833e01",
+      "model": "Guzzanti GZ 158",
+      "polia": {
+        "shortDescription": {
+          "pred": "určený na výrobu výbornej zmrzliny, sorbetov a mrazeného jogurtu  • LCD display s digitálnym časovačom • objem nádoby na 1,5 l • elegantný dizajn s nerezovými prvkami • jednoduchá obsluha a čistenie prístroja • príkon 15 W, 220 – 240 V",
+          "po": "Zmrzlinovač Guzzanti GZ 158 s nádobou 1,5 l na zmrzlinu, sorbety a mrazený jogurt. LCD displej s digitálnym časovačom, nerezové prvky, jednoduché čistenie, príkon 15 W, 220 – 240 V."
+        },
+        "description": {
+          "pred": "(pôvodný text, nezachovaný)",
+          "po": "nový stručný slovenský popis"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000728500",
+      "guid": "329db4e4-92ac-11f1-8953-bc2411833e01",
+      "model": "Guzzanti GZ 130A",
+      "polia": {
+        "shortDescription": {
+          "pred": "\"Popkornovač retro v dizajne päťdesiatych rokov.rýchla príprava bez oleja a tuku pomocou horúceho vzduchuoriginálne občerstvenie, bez tuku, zdravé, chutné a ľahké, oveľa zdravšie ako pripravované na oleji. Príkon: 1200W\"",
+          "po": "Retro popcornovač Guzzanti GZ 130A v dizajne z päťdesiatych rokov pripravuje popcorn horúcim vzduchom bez oleja a tuku. Príkon 1200 W, záruka 24 mesiacov."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000820820",
+      "guid": "394ff0ae-92ac-11f1-862a-bc2411833e01",
+      "model": "Guzzanti GZ 441",
+      "polia": {
+        "shortDescription": {
+          "pred": "počet stupňov výkonu 3, počet filtrov 1, energetická trieda C, hlučnosť 68dB, Maximálna kapacita (max. – min.): 380-192 m3/h, led osvetlenie a recirkulácia, rozmery (v x š x h): 18,1 x  59,8 x 29 cm",
+          "po": "Digestor Guzzanti GZ 441 šírky 60 cm, energetická trieda C, 3 stupne výkonu a odsávanie 192 – 380 m³/h. Hlučnosť 68 dB, LED osvetlenie, možnosť recirkulácie."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000841023",
+      "guid": "39f2acea-92ac-11f1-aca9-bc2411833e01",
+      "model": "Guzzanti GZ 28S",
+      "polia": {
+        "shortDescription": {
+          "pred": "minibar; En. Trieda: G; Objem chladničky (l): 23; Ročná spotreba elektriny (kWh): 130; Spotreba elektriny/24h (kWh): 0,36; Hluková trieda: A; Rozmery V x Š x H(cm): 47,5 x 38 x 38",
+          "po": "Minibar Guzzanti GZ 28S s objemom 23 l a rozmermi 47,5 × 38 × 38 cm. Energetická trieda G, ročná spotreba 130 kWh (0,36 kWh za 24 hodín), hluková trieda A."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001324715",
+      "guid": "40b939cc-92ac-11f1-9003-bc2411833e01",
+      "model": "Guzzanti GZ 44S",
+      "polia": {
+        "shortDescription": {
+          "pred": "kapacita 33l, termoelektrický chladiaci systém (Heat pipe technology), bez kompresora, bez CFC, spotreba rok 162 kWh, spotreba za 24 hodín 0,44 kWh, teplotný rozsah 5-10°C pri okolitej teplote 25°C, rozmery (v x š x h): 54,5 x 40,5 x 44,3 cm",
+          "po": "Termoelektrická minichladnička Guzzanti GZ 44S s objemom 33 l a technológiou Heat pipe bez kompresora a CFC. Chladí na 5 – 10 °C pri 25 °C, spotreba 162 kWh ročne."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001187547",
+      "guid": "3da3a11e-92ac-11f1-b0d3-bc2411833e01",
+      "model": "Guzzanti GZ 685W",
+      "polia": {
+        "shortDescription": {
+          "pred": "Max. výkon 668 m3/hod• energetická trieda A• ovládací panel s tlačidlami• ECO úsporný motor• nízka hlučnosť od 45/64 v režime turbo dBA• energetický štítok A/A/E• nastaviteľná výška  zavesenia 66 - 176 cm• rozmery (VxHxŠ): 66-176x36 cm",
+          "po": "Komínový digestor Guzzanti GZ 685W s maximálnym výkonom 668 m³/h, energetickou triedou A a úsporným ECO motorom. Hlučnosť od 45 dB, nastaviteľná výška zavesenia 66 – 176 cm."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001498416",
+      "guid": "4736f762-92ac-11f1-ba4f-bc2411833e01",
+      "model": "Guzzanti GZ 8401A",
+      "polia": {
+        "shortDescription": {
+          "pred": "2 varné zóny DOMINO, Booster, Napätie 220 – 240 V, 9 stupňov, ukazovateľ zvyškového tepla,  Rozmery ŠxHxV – 29 x 52 x 6,8 cm",
+          "po": "Sklokeramická varná doska Guzzanti GZ 8401A typu Domino s dvoma varnými zónami, funkciou Booster, 9 stupňami ohrevu a ukazovateľom zvyškového tepla. Šírka 29 cm, 220 – 240 V."
+        },
+        "metaDescription": {
+          "pred": "Sklokeramická varná doska Guzzanti GZ 8401A: napätie 240 V; ďalšie parametre nájdete v detaile. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "Domino varná doska Guzzanti GZ 8401A s dvoma zónami, funkciou Booster a 9 stupňami ohrevu. Šírka 29 cm, 220 – 240 V. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001945208",
+      "guid": "577f4d4a-92ac-11f1-8488-bc2411833e01",
+      "model": "Guzzanti GZ 90B1",
+      "polia": {
+        "shortDescription": {
+          "pred": "spotreba el. energie 107 kWh/rok; energetická trieda F; nízka hlučnosť 39 dB,; klimatická trieda N, ST; 2x sklenené police; objem netto 89 l; priestor pre 2 l PET fľaše",
+          "po": "Chladnička Guzzanti GZ 90B1 s užitočným objemom 89 l, dvomi sklenenými policami a hlučnosťou 39 dB. Energetická trieda F, spotreba 107 kWh ročne, vo dverách miesto pre 2 l PET fľašu."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002067412",
+      "guid": "58ca751c-92ac-11f1-b23a-bc2411833e01",
+      "model": "Guzzanti GZ 06B1",
+      "polia": {
+        "shortDescription": {
+          "pred": "minibar spotreba 0,219 kWh/24, spotreba za rok 80 kWh energetická trieda E celkový objem netto 45 l objem chladničky 41 l výparník 4 l priestor pre 2 l PET fľašu vo dverách drôtená polička nízka hlučnosť Ideálne pre chaty, kancelárie, penzióny, garsónky",
+          "po": "Minibar Guzzanti GZ 06B1 s celkovým objemom 45 l (chladnička 41 l, výparník 4 l). Energetická trieda E, spotreba 80 kWh ročne, drôtená polička a miesto pre 2 l PET fľašu vo dverách."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
