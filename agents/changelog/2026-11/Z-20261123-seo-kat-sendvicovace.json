@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261123-seo-kat-sendvicovace",
+  "datum": "2026-11-23",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Kategória Sendvičovače, hriankovače, vaflovače: šablónový meta popis ('nájdete súvisiace produkty') nahradený popisom z reálnej ponuky; titulok a text bez zmeny.",
+  "polozky": [
+    {
+      "typ": "kategoria",
+      "kod": null,
+      "guid": "7f5b7a82-c8e4-11f1-ac9e-bc2411833e01",
+      "url": "https://www.premiumstore.sk/sendvicovace--hriankovace--vaflovace-2/",
+      "polia": {
+        "metaTagDescription": {
+          "pred": "V kategórii Sendvičovače, hriankovače, vaflovače nájdete súvisiace produkty. Porovnajte modely a parametre podľa svojich potrieb.",
+          "po": "Sendvičovače s vymeniteľnými doskami, hriankovače na dva až štyri krajce a vaflovače. Porovnajte dosky, výkon a výbavu podľa toho, čo chcete pripraviť."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-23",
+    "ok": true,
+    "poznamka": "category_update vrátil nové hodnoty; ostatné polia bez zmeny."
+  }
+}

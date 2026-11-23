@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261123-seo-kat-fritezy",
+  "datum": "2026-11-23",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Kategória Horúcovzdušné fritézy a hrnce: odstránená šablónová veta s príkladom (Remoska Dua) a obecnými ukazovateľmi; nahradená porovnaním objemu, príkonu a programov; titulok a meta bez zmeny.",
+  "polozky": [
+    {
+      "typ": "kategoria",
+      "kod": null,
+      "guid": "bdab2454-afad-11f1-9968-bc2411cab27b",
+      "url": "https://www.premiumstore.sk/fritezy-a-hrnce/",
+      "polia": {
+        "description (len záver textu)": {
+          "pred": "Príkladom z ponuky je „Elektrický pekáč Remoska Dua D52F/10, 4 l, 580 W, s okienkom“. Pri porovnaní modelov sledujte najmä „výkon“ a „objem“ uvedené pri konkrétnom produkte.",
+          "po": "Pri porovnaní modelov sledujte najmä objem, príkon a počet programov uvedené pri konkrétnom produkte."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-23",
+    "ok": true,
+    "poznamka": "category_update vrátil nové hodnoty; ostatné polia bez zmeny."
+  }
+}
