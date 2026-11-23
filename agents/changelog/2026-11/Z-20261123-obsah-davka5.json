@@ -1,0 +1,231 @@
+{
+  "id": "Z-20261123-obsah-davka5",
+  "datum": "2026-11-23",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 5 (Guzzanti): 15 produktov; české krátke popisy prepísané do slovenčiny, u 12 nahradený všeobecný dodávateľský dlhý popis stručným slovenským (u GZ 352B, 85R a 363A len dlhý popis).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_342200030584",
+      "guid": "3456efac-ab08-11f1-811f-bc2411e8af0e",
+      "model": "Guzzanti GZ 135",
+      "polia": {
+        "shortDescription": {
+          "pred": "Popkornovač v retro dizajne päťdesiatych rokov. Rýchla príprava pomocou horúceho vzduchu iba s 1 lyžičkou oleja alebo tuku  • Na jednu dávku pripravíte 100 gr kukurice (vstupná váha),• Popcornovač a servírovacia misa v jednom• Príkon:1200 W. Farba červen",
+          "po": "Červený retro popcornovač Guzzanti GZ 135 v dizajne päťdesiatych rokov pripravuje popcorn horúcim vzduchom len s jednou lyžičkou oleja. Dávka zo 100 g kukurice, servírovacia misa v jednom, príkon 1200 W."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000473713",
+      "guid": "3671d270-ab08-11f1-809e-bc2411e8af0e",
+      "model": "Guzzanti GZ 460",
+      "polia": {
+        "shortDescription": {
+          "pred": "Párkovač, nerezové telo prístroja Kovové tŕne na súčasné rozpečenie 2 kusov pečiva Pozvoľná príprava párkov v pare Sklenená nádoba s nerezovým košíkom Nastaviteľný termostat (30 -100 °C) Ideálny aj na varenie vajec a kukurice Jednoduchá údržba Príkon 420 W",
+          "po": "Nerezový párkovač Guzzanti GZ 460 s príkonom 420 W pripravuje párky v pare, hodí sa aj na varenie vajec a kukurice. Nastaviteľný termostat 30 – 100 °C, sklenená nádoba s košíkom a kovové tŕne na rozpečenie 2 kusov pečiva."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001382995",
+      "guid": "bc1feff6-b21a-11f1-b12d-bc2411833e01",
+      "model": "Guzzanti GZ 706",
+      "polia": {
+        "shortDescription": {
+          "pred": "7 pohárikov na jogurt s vekom, celkový objem 1,2 l kapacita 1 skleneného  pohára 170ml časovač (od 0 až do 12hod.) s automatickým vypnutím český návod s receptami jednoduché čistenie Max. príkon 14 W",
+          "po": "Jogurtovač Guzzanti GZ 706 so 7 sklenenými pohárikmi s viečkom (po 170 ml, spolu 1,2 l). Časovač 0 – 12 hodín s automatickým vypnutím, jednoduché čistenie, max. príkon 14 W."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002204035",
+      "guid": "c4a73114-b6d1-11f1-add4-bc24110eff41",
+      "model": "Guzzanti GZ 352B",
+      "polia": {
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000801657",
+      "guid": "611307ca-bead-11f1-a886-bc2411e8af0e",
+      "model": "Guzzanti GZ ORW ECO Inox",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ostrůvkový komínový odsavač par v nerez provedení  , ?39 cm, 650 m3/hod, energetická třída B,    ovládací  panel s tlačítky, motor  eco,  3  volitelné stupně odsávání ,   energetický štítek B/B/A,  životností , nastavitelná výška od  95,8cm  do 118,8 cm,",
+          "po": "Ostrovčekový komínový digestor Guzzanti GZ ORW ECO v nerezovom prevedení s výkonom 650 m³/h a energetickou triedou B. ECO motor, 3 stupne odsávania, ovládací panel s tlačidlami, nastaviteľná výška 95,8 – 118,8 cm."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002130396",
+      "guid": "598c464a-c364-11f1-bc86-bc24110eff41",
+      "model": "Guzzanti GZ 607",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pro přípravu lehkých, vzdušných a chutných palačinek a lívanců; Průměr 37 cm umožňuje přípravu pravých velkých palačinek nebo 7 ks lívanců; Příkon 1500 W s plynulým ovládáním teploty pro optimální výsledek; Odnímatelná oboustranná plotna s nepřilnavým pov",
+          "po": "Palacinkovač Guzzanti GZ 607 s platňou s priemerom 37 cm na veľké palacinky alebo 7 lievancov. Príkon 1500 W, plynulé nastavenie teploty, odnímateľná obojstranná platňa s nepriľnavým povrchom."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002200067",
+      "guid": "5e31226a-c364-11f1-a6c5-bc24110eff41",
+      "model": "Guzzanti GZ 215RB",
+      "polia": {
+        "shortDescription": {
+          "pred": "retro design;  spotřeba el. energie 179kWh/rok;  energetická třída E;  malá hlučnost (40 dB);  3 x skleněné police;  celkový objem netto 215 l;  objem chladničky 170 l;  objem mrazáku (4 hvězdičky) 45 l;  mrazicí kapacita 2,5 kg / 24h;  vnitřní LED osvětl",
+          "po": "Retro chladnička s mrazničkou Guzzanti GZ 215RB s čistým objemom 215 l (chladnička 170 l, mraznička 45 l). Energetická trieda E, spotreba 179 kWh ročne, hlučnosť 40 dB, tri sklenené police a LED osvetlenie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002067416",
+      "guid": "600a997c-c364-11f1-891e-bc24110eff41",
+      "model": "Guzzanti GZ 35A1",
+      "polia": {
+        "shortDescription": {
+          "pred": "spotřeba 0,405 kWh/24, mrazicí kapacita 2,4 kg/24 hod energetická třída E objem brutto 35 l, netto 33 l termostat 4 hvězdičky do -24°C manuální odtávání nízká hlučnost ideální pro chaty, kanceláře, penziony, garsonky možnost změny otevírání dvířek příkon",
+          "po": "Mraznička Guzzanti GZ 35A1 s objemom 35 l brutto (33 l netto), štyrmi hviezdičkami a mrazením do −24 °C. Mraziaci výkon 2,4 kg za 24 hodín, energetická trieda E, termostat, ručné odmrazovanie a zmena smeru otvárania dvierok."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002204020",
+      "guid": "702d6c00-9ce3-11f1-9ac0-bc2411833e01",
+      "model": "Guzzanti GZ 85R",
+      "polia": {
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000026740",
+      "guid": "2fba6930-b3ad-11f1-973e-bc2411833e01",
+      "model": "Guzzanti GZ 338",
+      "polia": {
+        "shortDescription": {
+          "pred": "Voľne stojaca chladiaca vitrína, objem 338 l, automat. odmrazovanie, samozatváracie dvere, s kompresorom a eko chladivom R 600a bez CFC, hlučnosť do 54 dB, termostat s rozsahom chladenia od -1 °C do +10 °C, vnútorné osvetlenie, spotreba 2,2 kWh/24, príkon 280 W, ro",
+          "po": "Voľne stojaca chladiaca vitrína Guzzanti GZ 338 s objemom 338 l a štyrmi policami. Automatické odmrazovanie, samozatváracie dvere, termostat od −1 do +10 °C, vnútorné osvetlenie, chladivo R600a, hlučnosť do 54 dB."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000801656",
+      "guid": "762aff1e-bead-11f1-99c0-bc2411e8af0e",
+      "model": "Guzzanti GZ ORW ECO Black",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ostrůvkový komínový odsavač par v černém provedení, 650 m3/hod, energetická třída B,    ovládací  panel s tlačítky, motor  eco,  3  volitelné stupně odsávání , nastavitelná výška od  95,8cm  do 118,8 cm, průměr odtahu 150mm,",
+          "po": "Ostrovčekový komínový digestor Guzzanti GZ ORW ECO v čiernom prevedení s výkonom 650 m³/h a energetickou triedou B. ECO motor, 3 stupne odsávania, tlačidlový panel, nastaviteľná výška 95,8 – 118,8 cm, odtah 150 mm."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002067414",
+      "guid": "f8086360-a007-11f1-b75a-bc2411e8af0e",
+      "model": "Guzzanti GZ 48S",
+      "polia": {
+        "shortDescription": {
+          "pred": "minibar termoelektrický chladiaci systém (Heat pipe technology) bez kompresora, bez CFC veľmi nízka hlučnosť nízka spotreba, en. trieda E kapacita 44 l 2 poličky výkonné chladenie umožňuje dosiahnuť až 3 °C pri okolitej teplote 25 °C vnútorné LED osvetlenie ide",
+          "po": "Termoelektrický minibar Guzzanti GZ 48S s kapacitou 44 l a technológiou Heat pipe bez kompresora a CFC. Energetická trieda E, 2 poličky, vnútorné LED osvetlenie, chladenie až na 3 °C pri 25 °C a veľmi nízka hlučnosť."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_320310019999",
+      "guid": "6183fe8a-bead-11f1-9945-bc2411e8af0e",
+      "model": "Guzzanti ZRW 60 W",
+      "polia": {
+        "shortDescription": {
+          "pred": "závěsný, 1 motor, 3 rychlosti, osvětlení, tukový filtr proti mastnotám, výkon 181 m3/hod, hlučnost max. 64 dBA, rozměry (ŠxHxV)) 60x50x13cm, výstup 100mm, barva - bílá. možné používat jako recirkulační, filtr není součástí balení, rozměry filtru 310x380mm",
+          "po": "Biely závesný odsávač pár Guzzanti ZRW 60 W šírky 60 cm s jedným motorom a 3 rýchlosťami. Výkon 181 m³/h, hlučnosť max. 64 dBA, tukový filter, osvetlenie, výstup 100 mm, možnosť recirkulácie."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000026681",
+      "guid": "63be1e60-bead-11f1-890f-bc2411e8af0e",
+      "model": "Guzzanti ZRW 60 čierna",
+      "polia": {
+        "shortDescription": {
+          "pred": "Odsavač par; 1 motor; 3 rychlosti; LED osvětlení 1x 4W; tukový filtr proti mastnotám; výkon 187 m3/hod; hlučnost max. 65 dBA; rozměry (ŠxHxV) 60 x 50 x 13 cm; výstup 120 mm; barva - černá, enegetická třída E",
+          "po": "Čierny odsávač pár Guzzanti ZRW 60 šírky 60 cm s jedným motorom a 3 rýchlosťami. Výkon 187 m³/h, LED osvetlenie 1× 4 W, tukový filter, hlučnosť max. 65 dBA, výstup 120 mm, energetická trieda E."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002102637",
+      "guid": "e2d66ed4-b6d1-11f1-8a39-bc24110eff41",
+      "model": "Guzzanti GZ 363A",
+      "polia": {
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
