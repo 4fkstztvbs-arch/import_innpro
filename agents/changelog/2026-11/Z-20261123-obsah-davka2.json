@@ -1,0 +1,71 @@
+{
+  "id": "Z-20261123-obsah-davka2",
+  "datum": "2026-11-23",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Posledné 4 voľné filamenty Creality mimo experimentu (Hyper PLA-CF, 2x Ender-PLA, Hyper ABS). Dlhý popis Hyper ABS bol anglický, prepísaný do slovenčiny. Creality je tým hotová.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "079800",
+      "guid": "767807d2-9cfc-11f1-b761-bc2411833e01",
+      "model": "Creality Hyper PLA-CF čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "Filament Creality Hyper PLA-CF (čierny) Filament Creality Hyper PLA-CF kombinuje rýchlosť, pevnosť a presnosť tlače. Vďaka zosilnenému, optimalizovanému zloženiu poskytuje o 30 % lepší mechanický…",
+          "po": "Čierny filament Creality Hyper PLA-CF s uhlíkovými vláknami, 1,75 mm, 1 kg. Tlač rýchlosťou až 300 mm/s pri teplote 190 – 230 °C, vyššia tuhosť a odolnosť voči nárazu, nízke zmrštenie a matný povrch."
+        },
+        "metaDescription": {
+          "pred": "Filament Creality Hyper PLA-CF. Uhlíkové vlákno zvyšuje tuhosť výtlačkov. Nakúpte bezpečne na PremiumStore.sk s vrátením do 14 dní.",
+          "po": "Čierny filament Creality Hyper PLA-CF 1,75 mm, 1 kg. Uhlíkové vlákna zvyšujú tuhosť výtlačkov, tlač až 300 mm/s. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "090289",
+      "guid": "b269a318-bec6-11f1-a2ea-bc24110eff41",
+      "model": "Creality Ender-PLA čierny",
+      "polia": {
+        "shortDescription": {
+          "pred": "Filament Creality Ender-PLA Filament Creality Ender-PLA v čiernej farbe s hmotnosťou 1 kg a priemerom 1,75 mm je vysoko kvalitný PLA materiál určený pre 3D tlačiarne typu FDM. S rozmerovou presnosťou…",
+          "po": "Čierny PLA filament Creality Ender-PLA s priemerom 1,75 mm a hmotnosťou 1 kg pre FDM 3D tlačiarne. Tolerancia priemeru ±0,02 mm zaisťuje presné podávanie, balenie je vákuovo uzatvorené proti vlhkosti."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "090292",
+      "guid": "b275ed62-bec6-11f1-8038-bc24110eff41",
+      "model": "Creality Ender-PLA modrý",
+      "polia": {
+        "shortDescription": {
+          "pred": "Filament Creality Ender-PLA Modrý filament Creality Ender-PLA s hmotnosťou 1 kg a priemerom 1,75 mm je vysoko kvalitný PLA materiál určený pre 3D tlačiarne typu FDM. S rozmerovou presnosťou ±0,02 mm…",
+          "po": "Modrý PLA filament Creality Ender-PLA s priemerom 1,75 mm a hmotnosťou 1 kg pre FDM 3D tlačiarne. Tolerancia priemeru ±0,02 mm zaisťuje presné podávanie, balenie je vákuovo uzatvorené proti vlhkosti."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "064741",
+      "guid": "1067816e-bc6b-11f1-8814-bc2411e8af0e",
+      "model": "Creality Hyper ABS biely",
+      "polia": {
+        "shortDescription": {
+          "pred": "Creality Hyper ABS Filament (White) Creality's Hyper ABS Filament is an excellent choice for those who care about high printing speed and durability of finished prints. Made of high-end materials -…",
+          "po": "Biely ABS filament Creality Hyper ABS 1,75 mm, 1 kg pre tlač rýchlosťou až 350 mm/s. Teplota tlače 230 – 270 °C, rázová húževnatosť 19 kJ/m², nízke zmrštenie a odolnosť do 80 °C."
+        },
+        "description": {
+          "pred": "anglický text s externými obrázkami (pôvodné HTML nebolo ukladané)",
+          "po": "slovenský prepis s tabuľkou parametrov, bez externých obrázkov"
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
