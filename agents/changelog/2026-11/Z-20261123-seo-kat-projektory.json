@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261123-seo-kat-projektory",
+  "datum": "2026-11-23",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Kategória Projektory: z úvodného textu odstránená vetu s odkazom na starý názov produktu (názov sa medzitým zmenil), doplnený jas v ANSI lúmenoch a značky; CSS a ostatný text bez zmeny; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "kategoria",
+      "kod": null,
+      "guid": "bea96276-afad-11f1-8e39-bc2411cab27b",
+      "url": "https://www.premiumstore.sk/projektory-4/",
+      "polia": {
+        "description": {
+          "pred": "…Príkladom z ponuky je „Projektor Magcubic HY300PRO+ (sivý)“. Pri porovnaní modelov sledujte najmä „max. natívne rozlíšenie“ a „pripojenie“ uvedené pri konkrétnom produkte.… (zvyšok úvodného textu a blok CSS bez zmeny)",
+          "po": "…Pri porovnaní modelov sledujte najmä natívne rozlíšenie, jas v ANSI lúmenoch a pripojenie uvedené pri konkrétnom produkte; v ponuke nájdete napríklad projektory Magcubic, Ultimea a ďalšie značky.… (zvyšok úvodného textu a blok CSS bez zmeny)"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-23",
+    "ok": true,
+    "poznamka": "category_update vrátil nový úvodný text; CSS, nadpis a ostatné polia bez zmeny (v texte sa končí riadkov \\r\\n nahradili \\n)."
+  }
+}
