@@ -1,8 +1,8 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-22 21:24 UTC.
+Kontrola z 2026-11-23 00:24 UTC.
 
-InnPro pri **394** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **395** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
@@ -101,6 +101,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `054163` | Ochranné puzdro na batérie Sunnylife pre DJI AIR 3 | — | 5 |
 | `054164` | Tvrdená fólia na displej Sunnylife pre DJI OSMO Action 4 | — | 5 |
 | `057075` | Pristávací podvozok Sunnylife pre DJI Mavic 3 Pro - sivý (M3 | — | 5 |
+| `057076` | Kryt objektívu gimbalu Sunnylife proti oslneniu pre DJI Mini | — | 5 |
 | `057079` | Kryt objektívu/gimbalu Sunnylife pre DJI Mavic 3 Pro (M3P-G5 | — | 5 |
 | `055655` | Vodotesné puzdro Sonoff R2 BOX | — | 5 |
 | `058840` | Ochranné sklo PULUZ pre objektív a obrazovku DJI OSMO Pocket | — | 5 |
@@ -308,7 +309,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
-| `086440` | Ponorné čerpadlo SUNSUN JP-500GL | — | 5 |
 | `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
@@ -361,6 +361,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088983` | HTVRONT škrabka na vinyl | — | 5 |
 | `089027` | Súprava na čistenie fontány pre domáce zvieratá Petkit | — | 2 |
 | `089077` | Vysúvacia vodítka Rojeco Mini Pet 3 m (fialová) | — | 5 |
+| `087006` | Filter MOVA pre zberný box na prach Z60 Ultra Roller | — | 5 |
 | `087007` | Filter MOVA pre modely V50, P50 a MOBIUS | — | 5 |
 | `087022` | Filter MOVA pre S4 Detect | — | 5 |
 | `087023` | Filter MOVA pre modely M10/M10Pro/M10Station/K20/K20Pro/M50 | — | 5 |

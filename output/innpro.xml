@@ -10568,6 +10568,7 @@ ABS
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -58816,6 +58817,7 @@ Počet kusov
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.37</WEIGHT></LOGISTIC>
@@ -103461,10 +103463,12 @@ Hmotnosť
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>48.90</PRICE_VAT>
 <PURCHASE_PRICE>34.58</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -104205,6 +104209,9 @@ Farba
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>057076</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>5905316148932</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY>
@@ -127768,6 +127775,7 @@ Niimbot D110/D11
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -139698,10 +139706,12 @@ Dancing Circle
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>3.60</PRICE_VAT>
 <PURCHASE_PRICE>2.52</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -145901,6 +145911,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.60</WEIGHT></LOGISTIC>
@@ -145996,6 +146007,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.20</WEIGHT></LOGISTIC>
@@ -150976,6 +150988,7 @@ Najmodernejší rezací panel xTool Slide Extension je zárukou, že vaše výtv
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.19</WEIGHT></LOGISTIC>
@@ -176494,14 +176507,14 @@ Obsah balenia:
 </tbody>
 </table>
 </div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace/">Kuchynské roboty a krájače</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/kuchynske-roboty-a-krajace-mixery-a-slahace/">Mixéry a šľahače</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[amzchef]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>069813</CODE>
 <EAN>0798038994353</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače > Mixéry a šľahače]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Malé kuchynské spotrebiče > Kuchynské roboty a krájače]]></CATEGORY></CATEGORIES>
 <IMAGES>
   <IMAGE description="Šálkový mixér AMZCHEF ZM5003-GA (sivý)">https://b2b.innpro.sk/hpeciai/237d60397f393b52a57322fa10c3cce4/46534_1.jpg</IMAGE>
 </IMAGES>
@@ -187482,6 +187495,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.02</WEIGHT></LOGISTIC>
@@ -198012,6 +198026,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -198622,14 +198637,14 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=73561_48996_pol_6132b894596c1c6844bb93bfeadf6feb" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/tasky-a-kufre-pre-drony/">Tašky a kufre pre drony</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ochranne-skla-a-folie-pre-kamery/">Ochranné sklá a fólie pre kamery</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
 <WARRANTY>24</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>073522</CODE>
 <EAN>5907085523224</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony > Tašky a kufre pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor]]></CATEGORY><CATEGORY><![CDATA[Cestovanie, šport a outdoor > Príslušenstvo pre drony]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
+<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery > Ochranné sklá a fólie pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Príslušenstvo pre fotoaparáty a akčné kamery]]></CATEGORY></CATEGORIES>
 <HEUREKA_CATEGORY_ID>864</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Skladovacie vrecko Sunnylife DJI NEO">https://b2b.innpro.sk/hpeciai/6b6d25ced5585c70114bf3eee2764d0d/48996_1.jpg</IMAGE>
@@ -234052,6 +234067,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.01</WEIGHT></LOGISTIC>
@@ -239141,6 +239157,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -258192,74 +258209,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[4-kanálový spínací modul ZigBee s beznapäťovým kontaktom DC 32V Avatto ZWSMMD-4-32V – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[4-kanálový spínací modul ZigBee s beznapäťovým kontaktom DC 32V Avatto ZWSMMD-4-250V]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[ZigBee 4-kanálový spínací modul s beznapäťovým kontaktom DC 32V Avatto ZWSMMD-4-250V. Avatto ZWSMMD-4-250V je 4-kanálový spínací modul ZigBee s beznapäťovým kontaktom, určený na bezpečnú a presnú…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>ZigBee 4-kanálový spínací modul s beznapäťovým kontaktom DC 32V Avatto ZWSMMD-4-250V.</h3>
-<p>Avatto ZWSMMD-4-250V je 4-kanálový spínací modul ZigBee s beznapäťovým kontaktom, určený na bezpečnú a presnú správu zariadení s napätím do 250 V DC. Každý kanál podporuje záťaž až do 10 A, čo poskytuje veľkú flexibilitu pri ovládaní osvetlenia, domácej automatizácie alebo riadiacich systémov. Vďaka použitiu beznapäťového kontaktu je modul ideálny tam, kde sa vyžaduje oddelenie napájacieho obvodu od riadiaceho signálu.</p>
-<p>
-<img alt="4-kanálový spínací modul stojaci na povrchu krémovej farby" border="0" src="https://assets.innpro.pl/18796/25046/4-kanalowy-modul-przelacznika-ZigBee-ze-stykiem-beznapieciowym-DC-32V-Avatto-ZWSMMD-4-250V-lifestyle-04.jpg"/>
-</p><h3>Stabilná komunikácia a úplné ovládanie z aplikácie</h3>
-<p>Zariadenie funguje na základe protokolu Zigbee 3.0, ktorý poskytuje rýchle a spoľahlivé pripojenie v rámci inteligentnej domácnosti. Modul je kompatibilný s aplikáciami Avatto a Smart Life, takže ho môžete spravovať zo smartfónu - odkiaľkoľvek. Pohodlné diaľkové ovládanie umožňuje priebežne ovládať všetky kanály bez fyzického prístupu k inštalácii.</p>
-<p>
-<img alt="Biely spínací modul ZigBee na svetlom pozadí, na pravej strane je vidieť kus rastliny" border="0" src="https://assets.innpro.pl/18796/25046/4-kanalowy-modul-przelacznika-ZigBee-ze-stykiem-beznapieciowym-DC-32V-Avatto-ZWSMMD-4-250V-lifestyle-01.jpg"/>
-</p><h3>Automatizácia, plány a zdieľanie zariadení</h3>
-<p>Avatto ZWSMMD-4-250V ponúka rozsiahle možnosti prispôsobenia. Zariadenie môžete zdieľať s inými používateľmi, vytvárať skupiny, nastavovať plány, odpočítavanie, režim východu slnka, cyklickú prevádzku a náhodné scenáre. Prevádzku modulu tak môžete ľahko prispôsobiť svojmu dennému rytmu a zvýšiť komfort a účinnosť celého systému inteligentnej domácnosti.</p>
-<p>
-<img alt="4-kanálový spínací modul ZigBee na krémovom pozadí" border="0" src="https://assets.innpro.pl/18796/25046/4-kanalowy-modul-przelacznika-ZigBee-ze-stykiem-beznapieciowym-DC-32V-Avatto-ZWSMMD-4-250V-lifestyle-02.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Avatto</td></tr><tr><th>Model</th><td>ZWSMD-4</td></tr><tr><th>Vstup</th><td>AC/85-250VV/Typ C 5V</td></tr><tr><th>Maximálna záťaž</th><td>10 A/skupina</td></tr><tr><th>Protokol</th><td>Zigbee 3.0</td></tr><tr><th>Rádiová frekvencia</th><td>433 MHz</td></tr><tr><th>Kompatibilné aplikácie</th><td>Avatto, Smart Life</td></tr>
-</tbody>
-</table>
-</div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=75224_54004_pol_ff6c9753b06596e7a1f1aaa5336ac38d" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[AVATTO]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>079259</CODE>
-<EAN>6976037362357</EAN>
-<CATEGORIES>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
-  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
-</CATEGORIES>
-<HEUREKA_CATEGORY_ID>5860</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="4-kanálový spínací modul ZigBee s beznapäťovým kontaktom DC 32V Avatto ZWSMMD-4-250V">https://b2b.innpro.sk/hpeciai/15f015cc55a8b46a0e2fc44082a973d9/54004_1.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Pripojenie]]></NAME>
-    <VALUE><![CDATA[ZigBee]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Kategória]]></NAME>
-    <VALUE><![CDATA[Spínače]]></VALUE>
-  </TEXT_PROPERTY>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Aplikácia]]></NAME>
-    <VALUE><![CDATA[Tuya Smart Life]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>13.90</PRICE_VAT>
-<PURCHASE_PRICE>9.74</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[4-kanálový spínací modul ZigBee s beznapäťovým… | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[4-kanálový spínací modul ZigBee s beznapäťovým kontaktom DC 32V Avatto ZWSMMD-4-250V – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Inteligentná poistka ZigBee Avatto ZWCB16]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Inteligentná poistka ZigBee Avatto ZWCB16 Avatto ZWCB16 je inteligentná poistka ZigBee, ktorá poskytuje úplnú kontrolu elektrického obvodu a monitorovanie spotreby energie v reálnom čase. Zariadenie…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Inteligentná poistka ZigBee Avatto ZWCB16</h3>
@@ -259235,6 +259184,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.26</WEIGHT></LOGISTIC>
@@ -288365,10 +288315,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.18</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>71.90</PRICE_VAT>
 <PURCHASE_PRICE>50.81</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -300860,6 +300812,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
@@ -300936,6 +300889,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -316008,10 +315962,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.27</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>1</FREE_SHIPPING>
 <PRICE_VAT>182.90</PRICE_VAT>
 <PURCHASE_PRICE>129.18</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -364226,6 +364182,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.76</WEIGHT></LOGISTIC>
@@ -379100,6 +379057,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>1.30</WEIGHT></LOGISTIC>
@@ -390785,6 +390743,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.59</WEIGHT></LOGISTIC>
@@ -390875,6 +390834,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.62</WEIGHT></LOGISTIC>
@@ -397436,6 +397396,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.33</WEIGHT></LOGISTIC>
@@ -401382,6 +401343,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>29.72</WEIGHT></LOGISTIC>
@@ -412063,6 +412025,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.24</WEIGHT></LOGISTIC>
@@ -440927,6 +440890,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.10</WEIGHT></LOGISTIC>
@@ -442297,9 +442261,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>086440</CODE>
-<STOCK>
-  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
-</STOCK>
 <EAN>6955974935909</EAN>
 <CATEGORIES>
   <CATEGORY><![CDATA[Chovateľské potreby > Akvaristika]]></CATEGORY>
@@ -450429,7 +450390,10 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <UNIT>ks</UNIT>
 <CODE>086522</CODE>
 <EAN>6955974968006</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY><CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada > Záhrada a bazén]]></CATEGORY>
+  <CATEGORY><![CDATA[Dielňa, náradie a záhrada]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="UV-C lampa SUNSUN CUV-224">https://b2b.innpro.sk/hpeciai/9fecc4d824e46ae871a5539b64c058f3/60029_1_1.webp</IMAGE>
 </IMAGES>
@@ -456603,14 +456567,18 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=77808_60111_pol_540c4826c7850b2412dcfeb601c3956f" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/zvonceky-2/">Domové a video zvončeky</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/ip-kamery-3/">Wi-Fi kamery pre domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>088131</CODE>
 <EAN>0810150546163</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Domové a video zvončeky]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy > Wi-Fi kamery pre domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Bezpečnosť a kamerové systémy]]></CATEGORY>
+</CATEGORIES>
 <HEUREKA_CATEGORY_ID>1899</HEUREKA_CATEGORY_ID>
 <IMAGES>
   <IMAGE description="Inteligentný videozvonček SwitchBot - obrázok 1">https://b2b.innpro.sk/hpeciai/b4ed1d459b3cd207b30411aa53005ad8/60111_1.webp</IMAGE>
@@ -473725,62 +473693,6 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <META_DESCRIPTION><![CDATA[Vodotesné puzdro Sunnylife Mini pre Insta360 GO Ultra – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
 </SHOPITEM>
 <SHOPITEM>
-<NAME><![CDATA[Sunnylife 360° otočný držiak na hlavu pre Osmo Nano]]></NAME>
-<SHORT_DESCRIPTION><![CDATA[Hlavový popruh Sunnylife s otočnosťou o 360° pre Osmo Nano Hlavový popruh Sunnylife umožňuje pohodlné nahrávanie z pohľadu prvej osoby s kamerou Osmo Nano a ponúka úplnú voľnosť pohybu a nastavenia…]]></SHORT_DESCRIPTION>
-<DESCRIPTION><![CDATA[<h3>Hlavový popruh Sunnylife s otočnosťou o 360° pre Osmo Nano</h3>
-<p>Hlavový popruh Sunnylife umožňuje pohodlné nahrávanie z pohľadu prvej osoby s kamerou Osmo Nano a ponúka úplnú voľnosť pohybu a nastavenia uhla. Vďaka 360° otáčaniu a 90° nakloneniu môžete ľahko nastaviť polohu kamery pre horizontálne alebo vertikálne nahrávanie presne podľa potreby. Jeho ľahká konštrukcia (48 g) a nastaviteľné uchytenie pre rôzne veľkosti hlavy z neho robia praktické riešenie pre každého – či už na každodenné nahrávanie alebo outdoorové aktivity.</p>
-<p>
-<img alt="Muž nosí sivý čelenkový pás s čiernou akčnou kamerou, vedľa modrých, zakrivených šípok" border="0" src="https://assets.innpro.pl/21465/28397/2.jpg"/>
-</p><h3>Plná kontrola nad záberom</h3>
-<p>Nastaviteľný držiak vám umožňuje voľne umiestniť kameru do požadovaného uhla, čo vedie k prirodzeným a pohlcujúcim záberom z pohľadu prvej osoby. Vstavaný adaptér s rýchloupínacím systémom vám umožňuje pripevniť a odpojiť kameru okamžite, bez akéhokoľvek ďalšieho úsilia. Bezpečný držiak udržuje zariadenie na mieste, čím zvyšuje pohodlie pri pohybe.</p>
-<p>
-<img alt="Päť vertikálnych fotografií zobrazuje v poradí bežkyňu, cyklistu, snowboardistu, osobu v kajaku a pár na pobreží" border="0" src="https://assets.innpro.pl/21465/28397/7.jpg"/>
-</p><h3>Pohodlné nosenie a odolná konštrukcia</h3>
-<p>Pružný čelenkový pás je vyrobený z mäkkého, priedušného materiálu, takže pohodlne sedí na hlave a zostáva pohodlný aj pri dlhodobom používaní. Nastaviteľná dĺžka vám umožňuje perfektne prispôsobiť popruh obvodu vašej hlavy a pevné zapínanie na suchý zips zaisťuje stabilitu a odolnosť. Navyše je konštrukcia odnímateľná, čo uľahčuje čistenie a v prípade potreby výmenu dielov.</p>
-<p>
-<img alt="Ruky napínajú sivý, spletený pás, nad ktorým je päť bielych šípok smerujúcich nahor" border="0" src="https://assets.innpro.pl/21465/28397/5.jpg"/>
-</p>
-<div class="table-wrapper">
-<p> </p>
-<h3></h3>
-<table>
-<tbody>
-<tr><th>Výrobca</th><td>Sunnylife</td></tr><tr><th>Model</th><td>ON-TD111</td></tr><tr><th>Kompatibilita</th><td>Osmo Nano</td></tr><tr><th>Materiál</th><td>Elastický čelenkový pás + plast</td></tr><tr><th>Hmotnosť</th><td>48 g</td></tr>
-</tbody>
-</table>
-</div>
-<p>Ďalšie produkty nájdete v kategórii <a href="/drziaky-a-montazne-uchyty-pre-kamery/">Držiaky a montážne úchyty pre kamery</a>.</p>]]></DESCRIPTION>
-<MANUFACTURER><![CDATA[Sunnylife]]></MANUFACTURER>
-<WARRANTY>12</WARRANTY>
-<ITEM_TYPE>product</ITEM_TYPE>
-<UNIT>ks</UNIT>
-<CODE>088603</CODE>
-<EAN>5905156105539</EAN>
-<CATEGORIES><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery > Držiaky a montážne úchyty pre kamery]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo]]></CATEGORY><CATEGORY><![CDATA[TV, audio, video a foto technika > Foto a príslušenstvo > Statívy, držiaky a upevnenie pre kamery]]></CATEGORY></CATEGORIES>
-<HEUREKA_CATEGORY_ID>855</HEUREKA_CATEGORY_ID>
-<IMAGES>
-  <IMAGE description="Sunnylife 360° otočný držiak na hlavu pre Osmo Nano">https://b2b.innpro.sk/hpeciai/4efa90fc420026cba468895c3a59a5af/60733_1.jpg</IMAGE>
-</IMAGES>
-<TEXT_PROPERTIES>
-  <TEXT_PROPERTY>
-    <NAME><![CDATA[Druh]]></NAME>
-    <VALUE><![CDATA[Montáž]]></VALUE>
-  </TEXT_PROPERTY>
-</TEXT_PROPERTIES>
-<AVAILABILITY><![CDATA[Skladom]]></AVAILABILITY>
-<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom]]></AVAILABILITY_OUT_OF_STOCK>
-<VISIBLE>1</VISIBLE>
-<VISIBILITY>visible</VISIBILITY>
-<LOGISTIC><WEIGHT>0.06</WEIGHT></LOGISTIC>
-<CURRENCY>EUR</CURRENCY>
-<PRICE_VAT>12.50</PRICE_VAT>
-<PURCHASE_PRICE>8.75</PURCHASE_PRICE>
-<PURCHASE_VAT>23</PURCHASE_VAT>
-<PURCHASE_PRICE_INCL_VAT>0</PURCHASE_PRICE_INCL_VAT>
-<SEO_TITLE><![CDATA[Sunnylife 360° otočný držiak na hlavu pre Osmo Nano | premiumstore.sk]]></SEO_TITLE>
-<META_DESCRIPTION><![CDATA[Sunnylife 360° otočný držiak na hlavu pre Osmo Nano – skladom. Kúpte na premiumstore.sk.]]></META_DESCRIPTION>
-</SHOPITEM>
-<SHOPITEM>
 <NAME><![CDATA[Tvrdené sklo Sunnylife pre Insta360 GO Ultra (2 ks)]]></NAME>
 <SHORT_DESCRIPTION><![CDATA[Tvrdené sklo Sunnylife pre Insta360 GO Ultra (balenie po 2 ks) Táto sada dvoch ochranných skiel Sunnylife poskytuje účinnú ochranu displeja kamery Insta360 GO Ultra bez zhoršenia kvality obrazu.…]]></SHORT_DESCRIPTION>
 <DESCRIPTION><![CDATA[<h3>Tvrdené sklo Sunnylife pre Insta360 GO Ultra (balenie po 2 ks)</h3>
@@ -480584,6 +480496,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.17</WEIGHT></LOGISTIC>
@@ -482616,6 +482529,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.16</WEIGHT></LOGISTIC>
@@ -484087,6 +484001,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.07</WEIGHT></LOGISTIC>
@@ -484404,6 +484319,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.08</WEIGHT></LOGISTIC>
@@ -493884,6 +493800,9 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>087006</CODE>
+<STOCK>
+  <MINIMAL_AMOUNT>5</MINIMAL_AMOUNT>
+</STOCK>
 <EAN>6977728947242</EAN>
 <CATEGORIES><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň > Príslušenstvo k vysávačom]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť]]></CATEGORY><CATEGORY><![CDATA[Domáce spotrebiče a domácnosť > Upratovanie a starostlivosť o bielizeň]]></CATEGORY></CATEGORIES>
 <HEUREKA_HIDDEN>1</HEUREKA_HIDDEN>
@@ -509089,10 +509008,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.04</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>5.30</PRICE_VAT>
 <PURCHASE_PRICE>3.75</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -520906,10 +520827,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.14</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>27.50</PRICE_VAT>
 <PURCHASE_PRICE>19.53</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -523094,10 +523017,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.15</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>30.00</PRICE_VAT>
 <PURCHASE_PRICE>21.27</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -524791,14 +524716,17 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
 </tbody>
 </table>
 </div><p><a href="https://b2b.innpro.sk/settings.php?getAttachmentp=79594_62168_pol_4431672652bc61f25e5e158fab7298c2" target="_blank" rel="noopener">Stiahnuť dokument</a></p>
-<p>Ďalšie produkty nájdete v kategórii <a href="/smart-ovladace-a-panely/">Smart ovládače a panely</a>.</p>]]></DESCRIPTION>
+<p>Ďalšie produkty nájdete v kategórii <a href="/smart-domacnost/">Smart domácnosť</a>.</p>]]></DESCRIPTION>
 <MANUFACTURER><![CDATA[SwitchBot]]></MANUFACTURER>
 <WARRANTY>12</WARRANTY>
 <ITEM_TYPE>product</ITEM_TYPE>
 <UNIT>ks</UNIT>
 <CODE>090614</CODE>
 <EAN>0810150549775</EAN>
-<CATEGORIES><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť > Smart ovládače a panely]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY><CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY></CATEGORIES>
+<CATEGORIES>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie > Smart domácnosť]]></CATEGORY>
+  <CATEGORY><![CDATA[Elektro, Smart Home a osvetlenie]]></CATEGORY>
+</CATEGORIES>
 <IMAGES>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 1">https://b2b.innpro.sk/hpeciai/32260ba839aa5437fcd4febd6ba6a63f/62168_1.jpg</IMAGE>
   <IMAGE description="Klávesnica pre SwitchBot Keypad Vision Pro - obrázok 2">https://b2b.innpro.sk/hpeciai/7cd60eba0c33efe8632733b843cd806d/62168_2.jpg</IMAGE>
@@ -591092,6 +591020,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.12</WEIGHT></LOGISTIC>
@@ -648853,10 +648782,12 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   </TEXT_PROPERTY>
 </TEXT_PROPERTIES>
 <AVAILABILITY><![CDATA[Skladom na predajni]]></AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK><![CDATA[Skladom na predajni]]></AVAILABILITY_OUT_OF_STOCK>
 <VISIBLE>1</VISIBLE>
 <VISIBILITY>visible</VISIBILITY>
 <LOGISTIC><WEIGHT>0.22</WEIGHT></LOGISTIC>
 <CURRENCY>EUR</CURRENCY>
+<FREE_SHIPPING>0</FREE_SHIPPING>
 <PRICE_VAT>34.00</PRICE_VAT>
 <PURCHASE_PRICE>24.17</PURCHASE_PRICE>
 <PURCHASE_VAT>23</PURCHASE_VAT>
@@ -652053,6 +651984,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <VISIBILITY>detailOnly</VISIBILITY>
   </SHOPITEM>
   <SHOPITEM>
+    <CODE>079259</CODE>
+    <EAN>6976037362357</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
     <CODE>079262</CODE>
     <EAN>6976037362012</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
@@ -654459,7 +654397,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>Meross MRS200MA-EU – Wi-Fi navíjací mechanizmus na rolety</SEO_TITLE><META_DESCRIPTION>Inteligentný navíjací mechanizmus Meross MRS200MA-EU na rolety s Wi-Fi. Overte si kompatibilitu, napájanie a podmienky montáže.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>087768</CODE>
     <EAN>6975114120798</EAN>
@@ -654571,7 +654509,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>MINIS FORUM X1 Pro-370 – mini PC s Ryzen AI 9 HX370</SEO_TITLE><META_DESCRIPTION>MINIS FORUM X1 Pro-370 s Ryzen AI 9 HX370 v základnej zostave. Overte si presnú konfiguráciu, možnosti rozšírenia a dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088386</CODE>
     <EAN>5905156105379</EAN>
@@ -654624,6 +654562,13 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
   <SHOPITEM>
     <CODE>088540</CODE>
     <EAN>4711527009198</EAN>
+    <AVAILABILITY>Vypredané</AVAILABILITY>
+<AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
+    <VISIBILITY>detailOnly</VISIBILITY>
+  </SHOPITEM>
+  <SHOPITEM>
+    <CODE>088603</CODE>
+    <EAN>5905156105539</EAN>
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
@@ -654746,7 +654691,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>GMKtec EVO-X2: Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD</SEO_TITLE><META_DESCRIPTION>Mini PC GMKtec EVO-X2 s Ryzen AI Max+ 395, 64 GB RAM, 1 TB SSD a Windows 11 Pro. Pozrite si parametre, cenu a aktuálnu dostupnosť.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>088871</CODE>
     <EAN>6942580504940</EAN>
@@ -654858,7 +654803,7 @@ Filter HEPA vysávača Deerma DEM-T20W/T30W
     <AVAILABILITY>Vypredané</AVAILABILITY>
 <AVAILABILITY_OUT_OF_STOCK>Vypredané</AVAILABILITY_OUT_OF_STOCK>
     <VISIBILITY>detailOnly</VISIBILITY>
-  <SEO_TITLE>FNIRSI FNB-C2 – USB tester | PremiumStore.sk</SEO_TITLE><META_DESCRIPTION>USB tester FNIRSI FNB-C2. Pozrite si merané veličiny, podporované konektory a technické parametre na PremiumStore.sk.</META_DESCRIPTION></SHOPITEM>
+  </SHOPITEM>
   <SHOPITEM>
     <CODE>089337</CODE>
     <EAN>5905156108226</EAN>
