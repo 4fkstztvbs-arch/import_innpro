@@ -1,0 +1,239 @@
+{
+  "id": "Z-20261123-obsah-davka4",
+  "datum": "2026-11-23",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 4 (Guzzanti): 15 produktov, nové krátke popisy; u 8 nahradený všeobecný dodávateľský dlhý popis stručným slovenským; opravené slabé meta popisy GZ 506 A a GZ 8502 A.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002075097",
+      "guid": "5ac30190-92ac-11f1-a33e-bc2411833e01",
+      "model": "Guzzanti GZ 506 A",
+      "polia": {
+        "shortDescription": {
+          "pred": "V príslušenstve nájdete tiež tácku na prípravu ovocnej rolky a sito na bylinky• Rýchly, jednoduchý a pritom efektívny spôsob sušenia ovocia, zeleniny, húb, byliniek aj mäsa• Veľmi tichý ventilátor pre rovnomerné a rýchle sušenie•",
+          "po": "Sušička potravín Guzzanti GZ 506 A na ovocie, zeleninu, huby, bylinky aj mäso s veľmi tichým ventilátorom pre rovnomerné sušenie. V príslušenstve je tácka na ovocnú rolku a sito na bylinky."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        },
+        "metaDescription": {
+          "pred": "Sušička potravín Guzzanti GZ 506 A (katalógový kód KB_100002075097) s údajmi 506 A je určený na šetrné sušenie potravín. Objednajte na PremiumStore.sk.",
+          "po": "Sušička potravín Guzzanti GZ 506 A na ovocie, zeleninu, huby, bylinky a mäso s tichým ventilátorom. Tácka na ovocnú rolku a sito v balení. PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002067419",
+      "guid": "68c6acb0-92ac-11f1-ba9c-bc2411833e01",
+      "model": "Guzzanti GZ 256A",
+      "polia": {
+        "shortDescription": {
+          "pred": "Chladiaca vitrína Objem netto 245 l 5x polohovateľné police ventilované chladenie samozatváracie dvere vnútorné LED osvetlenie 2 zadné kolieska a 2 predné polohovateľné nôžky na jednoduchý presun ideálne pre reštaurácie ,hotely, penzióny, malé obchody nízka spotre",
+          "po": "Chladiaca vitrína Guzzanti GZ 256A s objemom netto 245 l, piatimi polohovateľnými policami, ventilovaným chladením a vnútorným LED osvetlením. Samozatváracie dvere, vhodná pre reštaurácie a malé obchody."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002130393",
+      "guid": "6e9c656c-92ac-11f1-bd8a-bc2411833e01",
+      "model": "Guzzanti GZ 155A",
+      "polia": {
+        "shortDescription": {
+          "pred": "moderný, plne automatický zmrzlinovač so vstavaným výkonným kompresorom; objem vyberateľnej nádoby 2 l; určený na výrobu výbornej zmrzliny, sorbetov a mrazeného jogurtu; úsporný kompresor umožňuje chladenie v rozmedzí -18°C – -35°C, rovnako ako pri mrazničke",
+          "po": "Plne automatický zmrzlinovač Guzzanti GZ 155A so vstavaným kompresorom a vyberateľnou nádobou 2 l na zmrzlinu, sorbety a mrazený jogurt. Chladenie v rozmedzí −18 °C až −35 °C ako v mrazničke."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002076695",
+      "guid": "723eafb8-92ac-11f1-9682-bc2411833e01",
+      "model": "Guzzanti GZ 102A",
+      "polia": {
+        "shortDescription": {
+          "pred": "Voľne stojaca chladnička GZ 102 vo výške 83,5cm v en. triede F . Ponúka objem 95 litrov. Vo vnútri sa nachádzajú 2 sklenené police, šuplík na ovocie a zeleninu, vo dverách 3 poličky. Výparník s objemom 10l ponúka chladnejší priestor. Svojimi striebornými dverami bude ozd",
+          "po": "Voľne stojaca chladnička Guzzanti GZ 102A s objemom 95 l a výškou 83,5 cm, energetická trieda F. Dve sklenené police, šuplík na ovocie a zeleninu, 3 poličky vo dverách, výparník 10 l a strieborné dvere."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002130398",
+      "guid": "77d0dd84-92ac-11f1-9745-bc2411833e01",
+      "model": "Guzzanti GZ 33A",
+      "polia": {
+        "shortDescription": {
+          "pred": "Chladí až 15°C pod okolitú teplotu; Ohrieva až na +55°C ; Veľký objem - 33l s vnútornou vyberateľnou prepážkou; Pracuje pri napájaní 12 V alebo 220 – 230 V; Dva režimy prevádzky: MAX (maximálny výkon) a ECO (minimálna spotreba).;",
+          "po": "Termoelektrický box Guzzanti GZ 33A s objemom 33 l chladí až o 15 °C pod okolitú teplotu a ohrieva na +55 °C. Napájanie 12 V alebo 220 – 230 V, režimy MAX a ECO, vyberateľná vnútorná prepážka."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002136530",
+      "guid": "8045fa80-92ac-11f1-bdeb-bc2411833e01",
+      "model": "Guzzanti GZ 195",
+      "polia": {
+        "shortDescription": {
+          "pred": "Voľne stojaca moderná chladiaca vitrína s objemom 195l a s 3 drôtenými policami.    • Objem netto 195 l    • 3x polohovateľné police    • nastaviteľný termostat od 0°C do +10°C    • 4 kolieska na jednoduchý presun    • ideálna pre reštaurácie, hotely, penzio",
+          "po": "Voľne stojaca chladiaca vitrína Guzzanti GZ 195 s objemom netto 195 l a tromi polohovateľnými drôtenými policami. Termostat 0 až +10 °C, 4 kolieska, vhodná pre reštaurácie a hotely."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001940859",
+      "guid": "86fc4c62-92ac-11f1-8a30-bc2411833e01",
+      "model": "Guzzanti GZ 596",
+      "polia": {
+        "shortDescription": {
+          "pred": "Odvlhčovacia kapacita max. 16 litrov denne s možnosťou napojenia na pevný odtok vody 2,3l nádržka na vodu Objem prúdiaceho vzduchu (m3/h): 135 Dotykové ovládanie Funkcia časovača 1 až 24 hodín Nastavenie vlhkosti podľa potreby v intervale 30 % - 80%, v kroc",
+          "po": "Odvlhčovač vzduchu Guzzanti GZ 596 s odvlhčovaním až 16 l denne, nádržou 2,3 l a možnosťou napojenia na pevný odtok. Prietok vzduchu 135 m³/h, dotykové ovládanie, časovač 1 – 24 h."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002127435",
+      "guid": "b0e814f2-92ac-11f1-ab87-bc2411833e01",
+      "model": "Guzzanti GZ 123A",
+      "polia": {
+        "shortDescription": {
+          "pred": "Výrobník ledu •\tDokáže vyrobit až 13 kg čirých ledových kostek za 24 hodin•\tVyrábí 16 kostek každých 13 minut•\tKapacita nádoby na vodu: 1,5 l•\tKapacita nádoby na led: 1,5 l / 0,75 kg•\tProdukuje hranaté čiré kostky•\tVyjímatelná nádoba na led•\tMožnos",
+          "po": "Výrobník ľadu Guzzanti GZ 123A vyrobí až 13 kg čírych hranatých kociek za 24 hodín, 16 kociek každých 13 minút. Nádoba na vodu 1,5 l, vyberateľná nádoba na ľad 1,5 l (0,75 kg)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002202952",
+      "guid": "d1079d5c-92ac-11f1-9dd8-bc2411833e01",
+      "model": "Guzzanti GZ 677B Mini",
+      "polia": {
+        "shortDescription": {
+          "pred": "Komínový odsávač pár GZ 677B Mini O32 cm – čierne prevedenie je ideálnou voľbou pre moderné kuchyne, kde sa kladie dôraz na dizajn aj funkčnosť. Vďaka elegantnému valcovému tvaru sa skvele hodí do minimalis",
+          "po": "Komínový digestor Guzzanti GZ 677B Mini s priemerom 32 cm v čiernom prevedení a elegantným valcovým tvarom. Hodí sa do moderných a minimalistických kuchýň."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001212836",
+      "guid": "d776deaa-92ac-11f1-bb72-bc2411833e01",
+      "model": "Guzzanti GZ 636",
+      "polia": {
+        "shortDescription": {
+          "pred": "objem 1000, 1250 a 1500g,2 miesiace háky,Veľké sklenené okienko vo veku,LCD display a dotykové ovládače,15 programov,program na prípravu bezlepkového chleba, zaváraniny, jogurtu či cesta,odložený štart až o 15 hodín,udržanie teploty,forma na chlieb aj miesiace",
+          "po": "Domáca pekáreň Guzzanti GZ 636 s výkonom 850 W a 15 programami vrátane bezlepkového chleba, zaváranín, jogurtu a cesta. Peče 1 000, 1 250 a 1 500 g, LCD displej, odložený štart až o 15 hodín."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002074101",
+      "guid": "dd750d72-92ac-11f1-a383-bc2411833e01",
+      "model": "Guzzanti GZ 8502 A",
+      "polia": {
+        "shortDescription": {
+          "pred": "Rúra na pečenie • Energetická trieda A • Nerezový dizajn • Objem rúry 60 l • Ovládacie gombíky • Digitálny displej – programátor • 7 programov – horné vykurovacie teleso, spodné vykurovacie teleso, vysoký gril, nízky gril, teplovzdušné, udržanie tepla (ventilátor), ochladenie",
+          "po": "Vstavaná rúra Guzzanti GZ 8502 A s objemom 60 l, energetickou triedou A a nerezovým dizajnom. Digitálny displej s programátorom a 7 programov: horný a spodný ohrev, gril, teplovzdušný režim a udržanie tepla."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        },
+        "metaDescription": {
+          "pred": "Vstavaná rúra Guzzanti GZ 8502: energetická trieda A, počet programov 7 a menovitý prúd 8502 A. Pozrite si parametre a cenu na PremiumStore.sk.",
+          "po": "Vstavaná rúra Guzzanti GZ 8502 A s objemom 60 l, energetickou triedou A, digitálnym programátorom a 7 programami. Nerezový dizajn. PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002172090",
+      "guid": "e86dd92a-92ac-11f1-9cf7-bc2411833e01",
+      "model": "Guzzanti GZ 076",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ultrazvukové čistenie predstavuje šetrné a dôkladné čistenie, s využitím vody a vibrácií; Vhodná na čistenie šperkov, okuliarov, mincí, zubných protéz atď.;  Nastaviteľný čas v 5 krokoch 60s, 120s, 180s, 240s a 300s; Objem 650 ml, maximálny využiteľný objem 550 ml",
+          "po": "Ultrazvuková čistička Guzzanti GZ 076 šetrne čistí šperky, okuliare, mince či zubné protézy vodou a vibráciami. Nastaviteľný čas 60 až 300 s v 5 krokoch, objem 650 ml (využiteľný 550 ml)."
+        },
+        "description": {
+          "pred": "(dodávateľský všeobecný text „Praktický výber podľa vašej zostavy“)",
+          "po": "nový stručný slovenský popis s parametrami"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100000190759",
+      "guid": "3a8e8ac0-9ce3-11f1-82c4-bc2411833e01",
+      "model": "Guzzanti GZ 101",
+      "polia": {
+        "shortDescription": {
+          "pred": "pultová mraznička; E. trieda: E; Objem mrazničky (l): 98; Ročná spotreba elektriny (kWh): 169; Denná spotreba elektriny (kWh): 0,46; hluková trieda: C; Rozmery V x Š x H(cm): 84,7 x 54,5 x 55",
+          "po": "Pultová mraznička Guzzanti GZ 101 s objemom 98 l a rozmermi 84,7 × 54,5 × 55 cm. Energetická trieda E, ročná spotreba 169 kWh (0,46 kWh za 24 hodín), hluková trieda C."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100001942539",
+      "guid": "4b3d89c0-9ce3-11f1-b902-bc2411833e01",
+      "model": "Guzzanti GZ 48A",
+      "polia": {
+        "shortDescription": {
+          "pred": "• termoelektrický chladiaci systém (Heat pipe technology)• bez kompresora, bez CFC• veľmi nízka hlučnosť• termostat• kapacita 44 l• 2 poličky• výkonné chladenie umožňuje dosiahnuť až 3 °C pri okolitej teplote 25 °C• vnútorné LED osvetlenie• ideálne pre hotely,",
+          "po": "Termoelektrická minichladnička Guzzanti GZ 48A s kapacitou 44 l, technológiou Heat pipe bez kompresora a CFC. Termostat, 2 poličky, vnútorné LED osvetlenie a chladenie až na 3 °C pri 25 °C."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "KB_100002130322",
+      "guid": "652eab84-9ce3-11f1-88b5-bc2411833e01",
+      "model": "Guzzanti GZ 06A1",
+      "polia": {
+        "shortDescription": {
+          "pred": "spotreba 0,219 kWh/24, spotreba za rok 80 kWh; energetická trieda E; celkový objem netto 45 l ; objem chladničky 41 l ; výparník 4 l; priestor pre 2 l PET fľašu vo dverách; drôtená polička; nízka hlučnosť; Ideálne pre chaty, kancelárie, penzióny, garsónky",
+          "po": "Minibar Guzzanti GZ 06A1 s celkovým objemom 45 l (chladnička 41 l, výparník 4 l). Energetická trieda E, spotreba 80 kWh ročne, drôtená polička a miesto pre 2 l PET fľašu vo dverách."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
