@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261123-seo-kat-cestovne-routery",
+  "datum": "2026-11-23",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Kategória Cestovné a VPN routery: odstránená šablónová veta s nesúvisiacim produktom (Imou HR340) a parametrami, ktoré produkty nemajú; nahradená výberom podľa Wi-Fi štandardu, VPN rýchlosti, portov a 4G/5G; titulok a meta bez zmeny.",
+  "polozky": [
+    {
+      "typ": "kategoria",
+      "kod": null,
+      "guid": "be391160-afad-11f1-a68c-bc2411cab27b",
+      "url": "https://www.premiumstore.sk/cestovne-a-vpn-routery/",
+      "polia": {
+        "description": {
+          "pred": "…Príkladom z ponuky je „Wi-Fi router Imou HR340, 300 Mbps, 4 antény“. Pri porovnaní modelov sledujte najmä „max. počet zariadení“ a „dosah“ uvedené pri konkrétnom produkte.</p> (zvyšok popisu bez zmeny)",
+          "po": "…Pri porovnaní modelov sledujte Wi-Fi štandard (Wi-Fi 6 alebo Wi-Fi 7), rýchlosť VPN cez WireGuard a OpenVPN, porty (napríklad 2,5G WAN a USB) a možnosť mobilného pripojenia cez 4G LTE alebo 5G.</p> (zvyšok popisu bez zmeny)"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-23",
+    "ok": true,
+    "poznamka": "category_update vrátil nový description; ostatné polia bez zmeny."
+  }
+}
