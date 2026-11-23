@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "activeItemCount": 1354,
+  "activeItemCount": 1353,
   "activeProducts": [
     {
       "key": "code:BASYS-109P-1.5",
@@ -5533,11 +5533,6 @@
       "ean": "4033653030502"
     },
     {
-      "key": "ean:4033653030618",
-      "code": "BASYS-UCA222",
-      "ean": "4033653030618"
-    },
-    {
       "key": "ean:4033653031370",
       "code": "BASYS-VOCODER VC340",
       "ean": "4033653031370"
@@ -6933,6 +6928,11 @@
       "key": "ean:4033653024341",
       "code": "BASYS-TC 000-CQS01",
       "ean": "4033653024341"
+    },
+    {
+      "key": "ean:4033653030618",
+      "code": "BASYS-UCA222",
+      "ean": "4033653030618"
     },
     {
       "key": "ean:4033653050227",
