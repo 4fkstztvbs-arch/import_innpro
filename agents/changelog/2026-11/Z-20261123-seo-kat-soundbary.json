@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261123-seo-kat-soundbary",
+  "datum": "2026-11-23",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Kategória Soundbary: jednoriadkový popis s výrazom 'vzorka Sonos Arc Ultra' nahradený úvodným textom s konfiguráciami (2.1–9.1), Dolby Atmos a pripojením; titulok a meta bez zmeny; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "kategoria",
+      "kod": null,
+      "guid": "76a24f8a-afd8-11f1-96ed-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/soundbary/",
+      "polia": {
+        "description": {
+          "pred": "<p>Pri soundbare porovnajte formáty a pripojenie k TV; vzorka Sonos Arc Ultra uvádza HDMI eARC a Dolby Atmos. Overte, či televízor podporuje rovnaké rozhranie.</p>",
+          "po": "<p>Soundbary k televízoru zlepšia dialógy aj priestorový zvuk filmov, hier a hudby. V ponuke nájdete kompaktné modely 2.1 s vstavaným alebo bezdrôtovým subwooferom aj väčšie sústavy 5.1, 7.1 a 9.1 s Dolby Atmos a zadnými reproduktormi, napríklad rady Ultimea Poseidon, Aura, Skywave a Apollo.</p><p>Pri výbere porovnajte konfiguráciu kanálov (2.1, 5.1, 7.1), celkový výkon, veľkosť subwoofera a pripojenie: HDMI eARC alebo ARC, optický vstup, Bluetooth a USB. Overte, či má váš televízor rovnaké rozhranie, a či soundbar umiestnite na stolík, alebo na stenu.</p>"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-23",
+    "ok": true,
+    "poznamka": "category_update vrátil nový description; ostatné polia bez zmeny."
+  }
+}
