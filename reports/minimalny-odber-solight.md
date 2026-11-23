@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-21 23:48 UTC.
+Kontrola z 2026-11-23 00:18 UTC.
 
-Solight pri **488** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **487** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -477,7 +477,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PP33` | Solight predlžovací prívod, 4 zásuvky, biely, vypínač, 5m | 2 | 40 |
 | `PP154C` | Solight 2z + USB A+C 17W, cestovný predlžovací prívod 1.5m,  | 2 | 40 |
 | `DT03` | Solight časový spínač digitálny, displej, 16 režimov | 2 | 48 |
-| `PP332` | Solight predlžovací prívod IP44, 4 zásuvky, vypínač, vonkajš | 2 | 20 |
 | `PP72` | Solight predlžovací prívod, 6 zásuviek, biely, vypínač, 3m | 2 | 40 |
 | `5D01` | Solight vypínač do vlhka, jednopólový, biely | 2 | 10 |
 | `P105B` | Solight rozbočovač, 2x 10A, čierny, vypínač | 2 | 24 |
