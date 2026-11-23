@@ -1,7 +1,7 @@
 {
   "_comment": "Skladove karty v Omege pre sklad 'Eshop' (kod 03) - jediny sklad, s ktorym tento nastroj pracuje (sklad 'Predajna' sa rieši rucne priamo v Omege, mimo tohto nastroja). EAN -> cislo karty. Cislovanie novych kariet v Eshope zacina od 202600001 (vlastne nastavenie, rovnake ako cislovanie dokladov prijemky) a tento nastroj si ho sam pripocitava - 'nextCardNumber' je dalsie volne cislo, KTORE SA MUSI DRZAT V SUHLASE SO SKUTOCNYM STAVOM V OMEGE (ak niekto zalozi kartu v Eshope inak/rucne, treba toto cislo rucne opravit, inak hrozi kolizia).",
   "eshop": {
-    "nextCardNumber": 202600846,
+    "nextCardNumber": 202600852,
     "cards": {
       "98795183": {
         "kod": "202600115",
@@ -5072,6 +5072,42 @@
         "nazov": "Kanystr na vodu s kohoutkem a nádob na mýdlo kemping plast V615P, 15 litr",
         "dodavatel": "atos",
         "code": "ATO-V615P"
+      },
+      "5901890116374": {
+        "kod": "202600846",
+        "nazov": "Zdroj záložní KEMOT PROsinus 500 URZ3404-LFP4 300W 12V",
+        "dodavatel": "atos",
+        "code": "LEC-URZ3404-LFP4"
+      },
+      "9856325698563": {
+        "kod": "202600847",
+        "nazov": "Termostat EMOS P5611OT.2R pokojový programovatelný bezdrátový OpenTherm se",
+        "dodavatel": "atos",
+        "code": ""
+      },
+      "4823016232908": {
+        "kod": "202600848",
+        "nazov": "Ventilátor VENTS 100 LDTL 1009057",
+        "dodavatel": "atos",
+        "code": "ELE-1009057"
+      },
+      "4824032025727": {
+        "kod": "202600849",
+        "nazov": "Ventilátor VENTS 150 VKO1L TURBO do potrubí",
+        "dodavatel": "atos",
+        "code": "ELE-1009328"
+      },
+      "8588003477002": {
+        "kod": "202600850",
+        "nazov": "Vysílač DO AB ALL TV (AB CryptoBox a PULSe)",
+        "dodavatel": "atos",
+        "code": "ABCRUNIV3"
+      },
+      "8595697701337": {
+        "kod": "202600851",
+        "nazov": "Tašky na tříděný odpad SIXTOL SX4211 SORT EASY 3 SLIM, 18x30x40 cm, 3 x",
+        "dodavatel": "atos",
+        "code": "TOC-SX4211"
       }
     }
   },
