@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261123-seo-kat-wifi-routery",
+  "datum": "2026-11-23",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Kategória WiFi routery: popis, ktorý opisoval len jeden produkt (Mercusys MR37BE), doplnený o všeobecný úvod s výberom podľa Wi-Fi štandardu, portov a mesh; text o Mercusys MR37BE ostáva ako príklad.",
+  "polozky": [
+    {
+      "typ": "kategoria",
+      "kod": null,
+      "guid": "2f93c9c0-b361-11f1-9dc7-bc2411cab27b",
+      "url": "https://www.premiumstore.sk/wifi-routery-a-sietove-karty-wifi-routery/",
+      "polia": {
+        "description (začiatok textu)": {
+          "pred": "<p>Mercusys MR37BE je dvojpásmový Wi‑Fi 7 router …",
+          "po": "<p>Wi‑Fi routery pre domácnosť aj malú kanceláriu: od štandardu Wi‑Fi 6 po Wi‑Fi 7, s portami 2,5 Gb/s a podporou mesh. Napríklad Mercusys MR37BE je dvojpásmový Wi‑Fi 7 router …"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-23",
+    "ok": true,
+    "poznamka": "category_update vrátil nový description; ostatné polia bez zmeny."
+  }
+}

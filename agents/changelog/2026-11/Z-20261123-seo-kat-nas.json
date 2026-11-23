@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261123-seo-kat-nas",
+  "datum": "2026-11-23",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Kategória NAS servery: odstránená šablónová veta s príkladom a obecnými ukazovateľmi; nahradená výberom podľa počtu pozícií, kapacity a procesora; titulok a meta bez zmeny.",
+  "polozky": [
+    {
+      "typ": "kategoria",
+      "kod": null,
+      "guid": "be705382-afad-11f1-a26e-bc2411cab27b",
+      "url": "https://www.premiumstore.sk/sietove-zariadenia-2/",
+      "polia": {
+        "description (len záver textu)": {
+          "pred": "Príkladom z ponuky je „NAS server TerraMaster F2-425, 2 pozície, Intel N5095, 4 GB RAM“. Pri porovnaní modelov sledujte najmä „počet pozícií“ a „maximálna kapacita“ uvedené pri konkrétnom produkte.",
+          "po": "Pri výbere sledujte počet pozícií na disky, maximálnu kapacitu, procesor a veľkosť pamäte RAM; napríklad TerraMaster F2-425 má 2 pozície, procesor Intel N5095 a 4 GB RAM."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-23",
+    "ok": true,
+    "poznamka": "category_update vrátil nový description; ostatné polia bez zmeny."
+  }
+}
