@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261124-seo-samsung-qe65s85h",
+  "datum": "2026-11-24",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Samsung QE65S85H: názov podľa šablóny (titulok a meta už boli dobré).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002203102",
+      "guid": "11d716c4-a008-11f1-a064-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/samsung-oled-qe65s85h/",
+      "polia": {
+        "name": {
+          "pred": "Televízor Samsung OLED QE65S85H",
+          "po": "Televízor Samsung QE65S85H OLED 4K, 65\", Dolby Atmos"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-24",
+    "ok": true,
+    "poznamka": "product_update potvrdil name."
+  }
+}

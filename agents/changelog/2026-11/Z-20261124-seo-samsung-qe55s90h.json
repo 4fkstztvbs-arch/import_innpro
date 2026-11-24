@@ -1,0 +1,28 @@
+{
+  "id": "Z-20261124-seo-samsung-qe55s90h",
+  "datum": "2026-11-24",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Samsung QE55S90H: názov podľa šablóny (titulok a meta už boli dobré).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002203106",
+      "guid": "d13bf87c-92ac-11f1-8403-bc2411833e01",
+      "url": "https://www.premiumstore.sk/samsung-oled-qe55s90h/",
+      "polia": {
+        "name": {
+          "pred": "Televízor Samsung OLED QE55S90H",
+          "po": "Televízor Samsung QE55S90H OLED 4K, 55\", 2.1 Dolby Atmos"
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-24",
+    "ok": true,
+    "poznamka": "product_update potvrdil name."
+  }
+}
