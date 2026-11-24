@@ -1,0 +1,251 @@
+{
+ "id": "Z-20261124-obsah-davka4",
+ "datum": "2026-11-24",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 9 (24. 11., 16:10): 15 produktov s organickou návštevnosťou (Carlinkit, Ottocast, Thermal Master, Wolfbox). Nové slovenské krátke popisy; nový slovenský dlhý popis u Carlinkit 2AIR a CPC-2Air (bol český), Thermal Master P2, Ottocast PCS46 a CA361-C4 MAX, Wolfbox MegaFlow 100/50 a MegaVolt 24 Air; opravená meta u AIR X1, 2AIR, CPC-2Air, P2 Mini a MegaFlow 100.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "073935",
+   "guid": "0dd395ca-b7b4-11f1-8eaf-bc2411e8af0e",
+   "model": "Carlinkit AIR X1",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový adaptér Carlinkit AIR X1 Carplay/Android Auto Carlinkit AIR X1 je najmodernejší bezdrôtový adaptér, ktorý posúva používanie CarPlay a Android Auto na novú úroveň. Vďaka vylepšeným…",
+     "po": "Bezdrôtový adaptér Carlinkit AIR X1 pre CarPlay a Android Auto s dvojpásmovým Wi-Fi 2,4 + 5,8 GHz, nízkou spotrebou, ovládaním cez tlačidlá na volante a online aktualizáciou. Zapojenie do USB-A, hmotnosť 64 g."
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový adaptér Carlinkit AIR X1 pre CarPlay a Android Auto s dvojkanálovým prepínaním signálu. Pripojenie adaptéra Carlinkit AIR X1 je hračka.",
+     "po": "Bezdrôtový adaptér Carlinkit AIR X1 pre CarPlay a Android Auto s dvojpásmovým Wi-Fi 2,4 + 5,8 GHz a online aktualizáciou. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "075978",
+   "guid": "a9413896-92c5-11f1-9425-bc2411833e01",
+   "model": "Carlinkit FireDrive Link",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový adaptér Carlinkit FireDrive Link Zabudnite na obmedzenia a vychutnajte si svoje obľúbené streamovacie aplikácie na obrazovke vášho auta. Carlinkit FireDrive Link je bezdrôtový adaptér,…",
+     "po": "Carlinkit FireDrive Link je adaptér na pripojenie Fire TV Stick k displeju auta s káblovým CarPlay. Streamovanie Netflix, YouTube, Disney+ a Prime Video v Full HD 60 fps, rozhranie HDMI, aktualizácie OTA."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "078249",
+   "guid": "b93c8fc0-92c5-11f1-b3a5-bc2411833e01",
+   "model": "Carlinkit TBOX-S2P",
+   "polia": {
+    "shortDescription": {
+     "pred": "Carlinkit TBOX-S2P Carplay&Android auto wireless adpater Pomocou adaptéra Carlinkit TBOX-S2P premeníte multimediálny systém svojho vozidla na pokročilé príkazové centrum. Zariadenie pracuje so…",
+     "po": "Carlinkit TBOX-S2P je bezdrôtový adaptér CarPlay a Android Auto so systémom Android 13, procesorom Qualcomm SM6115, 4 GB RAM, 64 GB pamäte, slotmi na SIM a TF kartu a GPS."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080695",
+   "guid": "d01b01e0-92c5-11f1-a064-bc2411833e01",
+   "model": "Carlinkit HD2CP-PRO",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový adaptér Carlinkit HD2CP-PRO Carplay&Android Carlinkit HD2CP-PRO je kompaktný a univerzálny adaptér, ktorý vám umožňuje používať bezdrôtové CarPlay a Android Auto v autách, ktoré sú…",
+     "po": "Carlinkit HD2CP-PRO je bezdrôtový adaptér CarPlay a Android Auto s HDMI vstupom, ktorý zobrazí video z TV boxu, konzoly či notebooku na displeji auta až v 2K pri 30 fps. Hliníkovo-sklenené puzdro s LED pásom."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "053547",
+   "guid": "55859a8a-92c5-11f1-b5ba-bc2411833e01",
+   "model": "Carlinkit 2AIR",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový adaptér Carlinkit 2AIR Veľa cestujete? Spríjemnite si cestu a vybavte sa bezdrôtovým adaptérom Carlinkit 2AIR! Je určený pre automobily so systémom Android Auto a CarPlay. S jeho pomocou…",
+     "po": "Bezdrôtový adaptér Carlinkit 2AIR pre autá s CarPlay a Android Auto. Plug & play, Wi-Fi 2,4 + 5 GHz, Bluetooth 4.1, automatické pripojenie, online aktualizácie a rozmery 76 × 43 × 12,3 mm."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky, anglický/český alebo strojový text).",
+     "po": "Nový slovenský popis s funkciami a tabuľkou parametrov."
+    },
+    "metaDescription": {
+     "pred": "Bezdrôtový adaptér Carlinkit 2AIR pre autá s Android Auto a CarPlay, funguje s iOS aj Android, plug&play. S jeho pomocou sa ľahko pripojíte k svojmu vozidlu!",
+     "po": "Bezdrôtový adaptér Carlinkit 2AIR pre autá s CarPlay a Android Auto: plug & play, funguje s iOS aj Androidom. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "AT_P-78-423",
+   "guid": "f9dbef80-e2fc-11f1-b317-bc2411833e01",
+   "model": "Carlinkit CPC-2Air (český produkt, názov ani URL sa nemenili)",
+   "polia": {
+    "shortDescription": {
+     "pred": "Univerzální bluetooth adaptér CarlinKit 5.0 CPC-2Air pro bezdrátové spojení s Apple CarPlay i Android Auto nebo zrcadlení pro originální OEM (koncernové) autorádia. Nahrazuje původní kabelové připojení, rychlý a stabilní provoz",
+     "po": "Carlinkit CPC-2Air je bezdrôtový adaptér CarPlay a Android Auto pre autá s továrenským káblovým pripojením. Wi-Fi 2,4/5 GHz, Bluetooth 4.1, iPhone s iOS 10+ a Android 11+, aktualizácie OTA, hmotnosť 33 g."
+    },
+    "description": {
+     "pred": "Český dlhý popis s externými obrázkami (img0.atoselektro.cz) a YouTube iframe.",
+     "po": "Nový slovenský popis s funkciami a tabuľkou parametrov."
+    },
+    "metaTitle": {
+     "pred": "CarlinKit 5.0 CPC-2Air bezdrátové CarPlay a Android… | premiumstore.sk",
+     "po": "Carlinkit CPC-2Air bezdrôtový adaptér CarPlay | PremiumStore.sk"
+    },
+    "metaDescription": {
+     "pred": "Všeobecná meta description (generická).",
+     "po": "Carlinkit CPC-2Air: bezdrôtový adaptér CarPlay a Android Auto pre autá s káblovým pripojením. Wi-Fi 2,4/5 GHz, OTA aktualizácie. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "095939",
+   "guid": "079699e8-ca90-11f1-902d-bc2411833e01",
+   "model": "Ottocast Ottosafe CA560-T",
+   "polia": {
+    "shortDescription": {
+     "pred": null,
+     "po": "Ottocast Ottosafe CA560-T je dashcam 2 v 1 s bezdrôtovým adaptérom CarPlay a Android Auto. Predná kamera 2K, zadná Full HD, aplikácie GoLook a OttoPilot, Bluetooth 5.4, Wi-Fi 2,4 + 5 GHz a microSD 8 – 256 GB."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088729",
+   "guid": "2c790b22-b7b4-11f1-bf64-bc2411e8af0e",
+   "model": "Thermal Master P2 USB-C Mini",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini termokamera THERMAL MASTER P2 (USB-C) Thermal Master P2 je pokročilá mini termokamera pre smartfóny s operačným systémom Android, ktorá spája profesionálne meracie funkcie s mimoriadne…",
+     "po": "Thermal Master P2 je mini termokamera s USB-C pre telefóny s Androidom. Infračervený snímač 256 × 192 (12 μm), rozsah −20 až 600 °C, 15× digitálny zoom, NETD ≤40 mK, 25 Hz a 12 farebných paliet."
+    },
+    "description": {
+     "pred": "Strojovo generovaný popis (ps-product-catalog) s nezmyslami o fotoaparáte a externým obrázkom b2b.innpro.sk.",
+     "po": "Nový slovenský popis s vlastnosťami a parametrami."
+    },
+    "metaDescription": {
+     "pred": "Thermal Master P2 je termovízna kamera pre telefóny s Androidom; výrobca uvádza snímač 256 × 192 px. Fotografovanie alebo videozáznam podľa možností modelu.",
+     "po": "Thermal Master P2 USB-C Mini: termokamera pre Android so snímačom 256 × 192 px, rozsahom −20 až 600 °C a 15× zoomom. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088731",
+   "guid": "2c7eaec4-b7b4-11f1-a0ae-bc2411e8af0e",
+   "model": "Thermal Master P2 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Termovízna kamera THERMAL MASTER P2 Pro Mini (USB-C) THERMAL MASTER P2 Pro je profesionálna miniatúrna termovízna kamera, ktorá spája mimoriadne kompaktný dizajn s presnými diagnostickými…",
+     "po": "Thermal Master P2 Pro je miniatúrna termokamera s USB-C pre telefóny s Androidom 6.0+. Rozlíšenie 256 × 192 s vylepšením X³IR na 512 × 384, rozsah −20 až 600 °C, 15× zoom, hmotnosť 9 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "088734",
+   "guid": "2c890b4e-b7b4-11f1-923e-bc2411e8af0e",
+   "model": "Thermal Master P4",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mini termokamera THERMAL MASTER P4 (USB-C) THERMAL MASTER P4 je pokročilá mini termokamera s rozhraním USB-C, ktorá kombinuje termovíziu a viditeľné svetlo v jednom kompaktnom zariadení s hmotnosťou…",
+     "po": "Thermal Master P4 je mini termokamera s USB-C pre Android 7.0+. Kombinuje termovíziu 256 × 192 (X³IR 512 × 384) s kamerou 1280 × 960, režimy IR-Fuse a Pro-Mix, rozsah −20 až 600 °C, 25 Hz, hmotnosť 26,5 g."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "064300",
+   "guid": "6ba39740-92c5-11f1-8395-bc2411833e01",
+   "model": "Ottocast PCS46 OtooAiBox P3",
+   "polia": {
+    "shortDescription": {
+     "pred": "Adapter Ottocast OtooAiBox P3 2/3/4G SIM CARD HDMI (Black) The Ottocast OtooAiBox P3 adapter is a versatile solution for vehicles that enables seamless communication between mobile devices and in-car…",
+     "po": "Ottocast PCS46 OtooAiBox P3 je adaptér s Androidom 12 pre displej auta s CarPlay a Android Auto. Má vstup HDMI a slot na SIM kartu (2G/3G/4G), takže pridá do auta aplikácie a internet."
+    },
+    "description": {
+     "pred": "Strojovo generovaný popis (ps-product-catalog) so všeobecným textom a externým obrázkom b2b.innpro.sk.",
+     "po": "Nový slovenský popis s funkciami a parametrami (farba vynechaná pre rozpor strieborná/čierna)."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "073151",
+   "guid": "97bd2e18-92c5-11f1-bf5b-bc2411833e01",
+   "model": "Ottocast CA361-C4 MAX",
+   "polia": {
+    "shortDescription": {
+     "pred": "MAX Ottocast CA361-C4 TV adaptér do auta Adaptér do auta Ottocast CA361-C4 je inovatívne zariadenie, ktoré vďaka podpore CarPlay Android Auto a HDMI zariadeniam umožňuje pohodlný prístup k širokému…",
+     "po": "Ottocast CA361-C4 MAX je TV adaptér do auta s CarPlay a Android Auto a vstupom HDMI na Fire TV, Google TV či herné konzoly. Wi-Fi 2,4 + 5 GHz, Bluetooth 5.0, USB-A 2.0, rozmery 58 × 58 × 14 mm."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa s obrázkami z assets.innpro.pl.",
+     "po": "Nový slovenský popis bez externých obrázkov, s tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089416",
+   "guid": "2f359790-b7b4-11f1-a6aa-bc2411e8af0e",
+   "model": "Wolfbox MegaFlow 100",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fúkač WOLFBOX MegaFlow 100 WOLFBOX MegaFlow 100 je vysokovýkonný fúkač vybavený výkonným motorom, ktorý vytvára veľmi silný prúd vzduchu a zaisťuje tak účinné odstraňovanie nečistôt z ťažko…",
+     "po": "Akumulátorový fúkač Wolfbox MegaFlow 100 s prúdom vzduchu až 45 m/s a 3 rýchlosťami. Batéria 22,2 Wh s výdržou do 100 minút, nabíjanie cez USB-C, hmotnosť asi 300 g a súprava trysiek a kief."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa s obrázkami z assets.innpro.pl.",
+     "po": "Nový slovenský popis bez externých obrázkov."
+    },
+    "metaDescription": {
+     "pred": "Vysokovýkonný fúkač WOLFBOX MegaFlow 100 s výkonným motorom vytvára silný prúd vzduchu na odstraňovanie nečistôt. Ďalšie produkty nájdete v kategórii Vysávače.",
+     "po": "Fúkač Wolfbox MegaFlow 100: vzduch až 45 m/s, 3 rýchlosti, batéria 22,2 Wh a USB-C. Na auto, klávesnicu aj matrace. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089419",
+   "guid": "2f4136cc-b7b4-11f1-892d-bc2411e8af0e",
+   "model": "Wolfbox MegaVolt 24 Air",
+   "polia": {
+    "shortDescription": {
+     "pred": "WOLFBOX MegaVolt 24 Air 24000 mAh 4000 A štartér WOLFBOX MegaVolt 24 Air spája funkcie výkonného štartéra a prenosného vzduchového kompresora, vďaka čomu je ideálny na núdzové štartovanie vozidiel,…",
+     "po": "Wolfbox MegaVolt 24 Air je štartovacia powerbanka s kompresorom: kapacita 24 000 mAh (88,8 Wh), štartovací prúd 1000 A, špičkový 4000 A, kompresor do 160 PSI a USB-C 65 W. Pre 12 V motory do 10 l."
+    },
+    "description": {
+     "pred": "Strojovo generovaný popis (ps-product-catalog) so všeobecným textom a externým obrázkom b2b.innpro.sk.",
+     "po": "Nový slovenský popis s parametrami."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089415",
+   "guid": "2f315ea0-b7b4-11f1-8c50-bc2411e8af0e",
+   "model": "Wolfbox MegaFlow 50",
+   "polia": {
+    "shortDescription": {
+     "pred": "Fúkač WOLFBOX MegaFlow 50 WOLFBOX MegaFlow 50 je kompaktný akumulátorový fúkač navrhnutý tak, aby vytváral veľmi silný prúd vzduchu pre rôzne použitie v domácnosti, v automobilovom priemysle a v…",
+     "po": "Akumulátorový fúkač Wolfbox MegaFlow 50 s bezkefovým motorom až 110 000 ot./min a tromi rýchlosťami. Batéria 5000 mAh, nabíjanie cez USB-C asi 3,5 h, hmotnosť 205 g a 4 trysky vrátane nadstavca na matrace."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa s obrázkami z assets.innpro.pl.",
+     "po": "Nový slovenský popis bez externých obrázkov."
+    }
+   }
+  }
+ ],
+ "overenie": "updatedFields potvrdené pri každom zápise.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
