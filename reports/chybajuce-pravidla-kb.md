@@ -1,6 +1,6 @@
 # Chýbajúce pravidlá zaradenia — kb
 
-Kontrola z 2026-11-24 04:16 UTC.
+Kontrola z 2026-11-24 19:36 UTC.
 
 **7 ciest bez pravidla, 8 produktov bez kategórie.**
 
@@ -11,8 +11,8 @@ stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 |---|---|---|
 | `Dům a Byt > Kuchyňské potřeby > Odpeckovače` | 2 | Leifheit Odpeckovávač třešní s nádobkou; Leifheit Odpeckovávač švestek s nádobkou |
 | `Dílna a zahrada > Zahrada > Lapače, odpuzovače hmyzu a škůdců` | 1 | Beper BEP-P206ZAN200 |
-| `Dům a Byt > Školní potřeby` | 1 | Colop COL-MICRO0101 Razítková poduška |
 | `Dům a Byt` | 1 | GLOX Sprchová hadice silik. 180 cm bílá |
 | `Dům a Byt > Kuchyňské potřeby > Louskáčky` | 1 | Drosselmeyer NCGP03 |
-| `Dům a Byt > Kuchyňské potřeby > Hmoždíře` | 1 | Banquet Hmoždíř keramický COLLEZIONE B |
+| `Dům a Byt > Školní potřeby` | 1 | Colop COL-MICRO0101 Razítková poduška |
 | `TV, audio, video > Drony` | 1 | Fleg Dron/Ponorka s kamerou Fleg |
+| `Dům a Byt > Kuchyňské potřeby > Hmoždíře` | 1 | Banquet Hmoždíř keramický COLLEZIONE B |
