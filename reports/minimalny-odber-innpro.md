@@ -1,14 +1,14 @@
 # Minimálny odber — InnPro
 
-Kontrola z 2026-11-23 13:49 UTC.
+Kontrola z 2026-11-24 02:41 UTC.
 
-InnPro pri **391** produktoch uvádza minimálny odber väčší než 1 kus.
+InnPro pri **390** produktoch uvádza minimálny odber väčší než 1 kus.
 Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 
 | Kód | Produkt | Maloobchodné | Veľkoobchodné |
 |---|---|---:|---:|
 | `016534` | Baseus Grain nabíjačka do auta 2x USB 5V 3,1A (čierna) | — | 5 |
-| `016540` | Kábel Baseus Cafule Micro USB 2,4A 1 m (sivý + čierny) | — | 5 |
+| `016540` | Kábel Baseus Cafule Micro USB 2,4A 1 m (sivý + čierny) | — | 2 |
 | `016562` | Baseus Yiven Lightning kábel 180 cm 2A (červený) | — | 5 |
 | `018164` | Baseus Cafule USB Lightning kábel 2,4 A 0,5 m (červený) | — | 5 |
 | `018159` | Baseus Cafule USB Lightning kábel 1,5 A 2 m (sivý+čierny) | — | 5 |
@@ -59,7 +59,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `038335` | Snímač teploty a vlhkosti Sonoff THS01, RJ9 | — | 5 |
 | `060290` | Baseus Matné puzdro pre iPhone 13 PRO (čierne) + tvrdené skl | — | 5 |
 | `039235` | Tvrdené sklo Joyroom JR-P03 pre Apple iPhone 14 Plus 6,7 " | — | 5 |
-| `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 5 |
+| `038964` | Baseus Crystal Tvrdené sklo odolné voči prachu 0,3 mm pre iP | — | 4 |
 | `038947` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `038946` | Baseus Glitter Priehľadné puzdro a sada tvrdeného skla pre i | — | 5 |
 | `040287` | Prepravné puzdro Sunnylife pre DJI Osmo Mobile 6 | — | 5 |
@@ -88,7 +88,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `052614` | Filter pre vysávače s mopom značky Dreame zo sérií T16/T15/H | — | 5 |
 | `053078` | Face & Body Roller Head Geske (pink) | — | 5 |
 | `053691` | Joyroom držiak na palubnú dosku auta JR-ZS350 (strieborný) | — | 5 |
-| `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 5 |
+| `054840` | Nalepovacie termoetikety Niimbot / 40x40 mm / 180 ks (biele) | — | 2 |
 | `053726` | Kábel Colorful USB do Lightning Joyroom SA29-AL3 / 3A / 1,2  | — | 5 |
 | `053750` | Kábel S-AL012A14 USB do Lightning Joyroom / 2,4A / 1,2 m (či | — | 5 |
 | `054883` | Puzdro na telefón pre iPhone 15 Plus Baseus OS-Lucent Series | — | 2 |
@@ -116,7 +116,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `057603` | TELESIN Sada tvrdeného skla pre DJI ACTION 3/4/5pro | — | 5 |
 | `060076` | Ochranná taška / puzdro Telesin pre GoPro Hero 9 / Hero 10 / | — | 5 |
 | `058012` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
-| `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
+| `058013` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 4 |
 | `058014` | Puzdro na telefón Baseus Magnetic Crystal Clear pre iPhone 1 | — | 5 |
 | `060078` | Ochranná taška / puzdro Telesin pre GoPro Hero 9 / Hero 10 / | — | 5 |
 | `060080` | Ochranná taška / puzdro Telesin for action cameras (GP-CPB-9 | — | 5 |
@@ -186,7 +186,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `071017` | Počítačový ventilátor Darkflash DM20 (čierny) | — | 5 |
 | `071018` | Počítačový ventilátor Darkflash DM20 (biely) | — | 5 |
 | `071861` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 2 |
-| `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 5 |
+| `071868` | SUNNYLIFE propeller guard for DJI Neo (black) | — | 3 |
 | `071859` | Sunnylife landing gear upgrade for DJI Neo (gray) | — | 5 |
 | `071860` | Sunnylife landing gear upgrade for DJI Neo (orange) | — | 5 |
 | `071853` | SUNNYLIFE lens hoods for DJI Neo | — | 5 |
@@ -304,7 +304,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `079180` | Puzdro Flytec – čierne | — | 5 |
 | `086285` | Stierka trysky vyhrievanej podložky Anycubic pre modely Kobr | — | 5 |
 | `087726` | BALDRTHERM E0587TH – termohygrometer napájaný solárnou energ | — | 5 |
-| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 5 |
+| `086443` | Ponorné čerpadlo SUNSUN JP-230G | — | 4 |
 | `086444` | Ponorné čerpadlo SUNSUN YQP-300 | — | 5 |
 | `086451` | Filtračné čerpadlo SUNSUN JP-093 | — | 5 |
 | `086452` | Filtračné čerpadlo SUNSUN YQP-300F | — | 5 |
@@ -327,7 +327,6 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088945` | HTVRONT – fólia na termotransfer s trblietkami, 30,5 cm × 90 | — | 5 |
 | `088946` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm x 90 cm | — | 5 |
 | `088947` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
-| `088948` | HTVRONT – trblietavá fólia na termotransfer, 30,5 cm × 90 cm | — | 5 |
 | `088949` | HTVRONT Chameleon – fólia na termotransfer, 30,5 cm x 90 cm  | — | 5 |
 | `088950` | Fólia na prenos tepla HTVRONT Chameleon, 30,5 cm x 90 cm (bi | — | 5 |
 | `088951` | HTVRONT Chameleon – fólia na termotransfer, 30,5 cm x 90 cm  | — | 5 |
@@ -346,7 +345,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `088964` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (citrónovo | — | 5 |
 | `088965` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (modrá) | — | 5 |
 | `088966` | Samolepiaca matná fólia HTVRONT, 30,5 cm x 180 cm (fialová) | — | 5 |
-| `088967` | Lesklá samolepiaca fólia HTVRONT, 30,5 cm × 180 cm (čierna) | — | 5 |
+| `088967` | Lesklá samolepiaca fólia HTVRONT, 30,5 cm × 180 cm (čierna) | — | 4 |
 | `088968` | Lesklá samolepiaca fólia HTVRONT, 30,5 cm × 180 cm (biela) | — | 5 |
 | `088969` | Lesklá samolepiaca fólia HTVRONT, 30,5 cm × 180 cm (zlatá) | — | 5 |
 | `088970` | Lesklá samolepiaca fólia HTVRONT, 30,5 cm × 180 cm (striebor | — | 5 |
@@ -364,7 +363,7 @@ Do XML sa zapisuje väčšie z oboch miním ako `<STOCK><MINIMAL_AMOUNT>…</MIN
 | `087997` | Hlavná kefa pre modely MOVA P10 Ultra/E30 Ultra/S10/S10 Plus | — | 5 |
 | `089623` | Ochranná fólia z tvrdeného skla Puluz 9H pre GoPro HERO 12/1 | — | 5 |
 | `089627` | Silikónové puzdro Puluz pre GoPro HERO 4K 2024 | — | 5 |
-| `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 5 |
+| `089630` | Držiak Puluz na riadidlá pre akčné kamery so závitom na stat | — | 4 |
 | `089639` | Silikónové puzdro Puluz pre DJI Osmo 360 (čierne) | — | 5 |
 | `089640` | Puzdro Puluz 3 v 1 pre DJI OSMO Pocket 3 | — | 5 |
 | `089643` | Silikónové puzdro Puluz pre Insta360 GO 3S (čierne) | — | 3 |
