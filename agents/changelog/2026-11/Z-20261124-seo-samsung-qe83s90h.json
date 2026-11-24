@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261124-seo-samsung-qe83s90h",
+  "datum": "2026-11-24",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Samsung QE83S90H (dopyt po modeli, poz. 7,7): názov podľa šablóny, vyplnený prázdny titulok a meta popis z údajov v popise produktu; URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002203104",
+      "guid": "8c9c54a6-da36-11f1-9b0a-bc2411833e01",
+      "url": "https://www.premiumstore.sk/samsung-oled-qe83s90h/",
+      "polia": {
+        "name": {
+          "pred": "Samsung OLED QE83S90H",
+          "po": "Televízor Samsung QE83S90H OLED 4K, 83\", Smart TV"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Samsung QE83S90H OLED televízor 83\", 4K"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Televízor Samsung QE83S90H: 83\" OLED, 4K Ultra HD (3840 × 2160), Smart TV, Wi‑Fi a tunery DVB-T2, DVB-C a DVB-S2."
+        }
+      }
+    }
+  ],
+  "overenie": {"kedy": "2026-11-24", "ok": true, "poznamka": "product_update potvrdil zápis name, metaTitle, metaDescription."}
+}
