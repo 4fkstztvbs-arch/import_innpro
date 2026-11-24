@@ -1,0 +1,227 @@
+{
+  "id": "Z-20261124-obsah-davka1",
+  "datum": "2026-11-24",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 6 (24. 11., 10:10): 15 produktov s organickou návštevnosťou (Thermal Master, Carlinkit, Ottocast, Wolfbox, GameSir). Nové slovenské krátke popisy, oprava meta u P3 Mini a CA400-S, nový dlhý popis a xmlFeedName u CA400-S (bol anglický).",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "096535",
+      "guid": "e0e628d6-dfcf-11f1-ae3e-bc2411e8af0e",
+      "model": "Thermal Master P3 Mini sivá",
+      "polia": {
+        "shortDescription": {
+          "pred": "THERMAL MASTER P3 – mini termovízna kamera pre iOS/Android (sivá) THERMAL MASTER P3 je profesionálna mini termovízna kamera určená na presnú diagnostiku elektroniky, dosiek s plošnými spojmi,…",
+          "po": "Mini termovízna kamera Thermal Master P3 pre iOS a Android s detektorom 256 × 192 px (až 512 × 384 px s X³IR), rozsahom −20 až 600 °C a makroobjektívom na kontrolu dosiek s plošnými spojmi."
+        },
+        "metaTitle": {
+          "pred": "TERMOVÍZNA KAMERA THERMAL MASTER P3 Mini pre… | premiumstore.sk",
+          "po": "Termokamera Thermal Master P3 Mini pre iOS/Android, sivá"
+        },
+        "metaDescription": {
+          "pred": "TERMOVÍZNA KAMERA THERMAL MASTER P3 Mini pre iOS/Android (sivá) – skladom. Kúpte na premiumstore.sk.",
+          "po": "Mini termovízna kamera Thermal Master P3 pre iOS a Android: 256 × 192 px, rozsah −20 až 600 °C, makroobjektív a detekcia zvodového prúdu 1 mA. PremiumStore.sk"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088732",
+      "guid": "83a26faa-d4cf-11f1-803d-bc2411e8af0e",
+      "model": "Thermal Master P3 Mini (detail-only)",
+      "polia": {
+        "shortDescription": {
+          "pred": "Mini termovízna kamera THERMAL MASTER P3 (iOS/Android) THERMAL MASTER P3 je profesionálna mini termovízna kamera určená na presnú diagnostiku elektroniky, dosiek s plošnými spojmi, elektrických…",
+          "po": "Mini termovízna kamera Thermal Master P3 pre iOS a Android s detektorom 256 × 192 px (až 512 × 384 px s X³IR), rozsahom −20 až 600 °C a makroobjektívom na kontrolu dosiek s plošnými spojmi."
+        },
+        "metaTitle": {
+          "pred": "TERMOVIZNÁ KAMERA THERMAL MASTER P3 Mini pre…",
+          "po": "Termokamera Thermal Master P3 Mini pre iOS/Android"
+        },
+        "metaDescription": {
+          "pred": "Napriek svojim pokročilým schopnostiam zostáva model P3 mimoriadne kompaktný – meria 59 × 27 × 17,2 mm, váži 26,3 g a spotrebuje len 0,32 W energie.",
+          "po": "Mini termovízna kamera Thermal Master P3 pre iOS a Android: 256 × 192 px, rozsah −20 až 600 °C, makroobjektív a detekcia zvodového prúdu 1 mA. PremiumStore.sk"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "092458",
+      "guid": "b3358b1c-9dc5-11f1-b026-bc2411e8af0e",
+      "model": "Carlinkit Mini Ultra 6",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér CARLINKIT Mini Ultra 6 pre Apple CarPlay a Android Auto CARLINKIT Mini Ultra 6 je kompaktný adaptér 4 v 1 určený pre vozidlá vybavené továrensky inštalovaným káblovým systémom…",
+          "po": "Bezdrôtový adaptér Carlinkit Mini Ultra 6 4 v 1 mení továrenské káblové CarPlay na bezdrôtové, podporuje Android Auto, AirPlay a Miracast, dvojpásmové Wi-Fi a Bluetooth 5.4."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "091949",
+      "guid": "24d69b3c-95ea-11f1-bcad-bc24110eff41",
+      "model": "Ottocast Cabin Care CA520-T200",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Ottocast CarPlay s detskou kamerou do auta (Cabin Care) Ottocast Cabin Care je multifunkčné zariadenie do auta, ktoré kombinuje bezdrôtový adaptér CarPlay s kamerou na sledovanie…",
+          "po": "Ottocast Cabin Care CA520-T200 je bezdrôtový adaptér CarPlay s kamerou na zadné sedadlá: 1080p, záber 157°, IR nočné videnie a zobrazenie kamery spolu s mapou na rozdelenej obrazovke."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "079692",
+      "guid": "c8a754ae-92c5-11f1-8483-bc2411833e01",
+      "model": "GameSir X5 Lite BK",
+      "polia": {
+        "shortDescription": {
+          "pred": "Mobilný ovládač GamesSir X5 Lite BK Black GamesSir X5 Lite BK je ľahký, ergonomický mobilný ovládač so širokou kompatibilitou so zariadeniami s veľkosťou od 105 do 213 mm, ktorý vďaka nastaviteľnému…",
+          "po": "Mobilný ovládač GameSir X5 Lite BK s portom USB-C pre telefóny so šírkou 105 – 213 mm, páčkami s Hallovým efektom bez driftu, funkciou Turbo a priechodným nabíjaním. Hmotnosť 135,4 g."
+        },
+        "xmlFeedName": {
+          "pred": "GamesSir X5 Lite 54343-uniw",
+          "po": "GameSir X5 Lite 54343-uniw"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "089406",
+      "guid": "2f102258-b7b4-11f1-b449-bc2411e8af0e",
+      "model": "Wolfbox G900 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX G900 Pro 4K + 2,5K palubná kamera WOLFBOX G900 Pro je moderná palubná kamera navrhnutá v podobe spätného zrkadla, ktorá kombinuje prednú kameru s rozlíšením 4K a zadnú kameru s rozlíšením…",
+          "po": "Autokamera Wolfbox G900 Pro v tvare spätného zrkadla s 12\" dotykovým IPS displejom, prednou kamerou 4K, zadnou 2,5K, snímačom Sony STARVIS 2 IMX678, Wi-Fi 5,8 GHz a externým GPS modulom."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "080696",
+      "guid": "d025a1ae-92c5-11f1-8d21-bc2411833e01",
+      "model": "Carlinkit TBOX Ultra (detail-only)",
+      "polia": {
+        "shortDescription": {
+          "pred": "Carlinkit TBOX ULTRA Carplay&Android bezdrôtový adaptér Carlinkit TBOX Ultra je pokročilý bezdrôtový adaptér, ktorý premení multimediálny systém vášho auta na plnohodnotnú zábavnú a navigačnú…",
+          "po": "Carlinkit TBOX Ultra je bezdrôtový adaptér CarPlay a Android Auto so systémom Android 15, procesorom Qualcomm SM6350, 8 GB RAM, 128 GB pamäte, 4G modemom so SIM kartou a GPS."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077960",
+      "guid": "b9921422-92c5-11f1-b737-bc2411833e01",
+      "model": "Ottocast CA505-T MINI",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér 2 v 1 Ottocast CA505-T MINI Zmeňte svoj zážitok za volantom s adaptérom Ottocast CA505-T MINI, inovatívnym riešením 2 v 1, ktoré vám umožní využívať bezdrôtové pripojenie CarPlay a…",
+          "po": "Miniatúrny bezdrôtový adaptér Ottocast CA505-T MINI 2 v 1 mení káblové CarPlay a Android Auto na bezdrôtové. Pripojenie cez Wi-Fi 5 GHz a Bluetooth 5.0, zapojenie plug & play do USB."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "064297",
+      "guid": "6b9952ee-92c5-11f1-bb08-bc2411833e01",
+      "model": "Ottocast CA400-S",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ottocast 4-in-1 Carplay/Android Adapter (black) Ottocast 4-in-1 Carplay/Android adapter is an innovative multimedia system that will transform your car into a modern entertainment and communication…",
+          "po": "Adaptér Ottocast CA400-S 4 v 1 s Androidom 12 pridá do auta bezdrôtový CarPlay a Android Auto a integrované aplikácie YouTube a Netflix. Procesor Allwinner H618, 2 + 16 GB, Wi-Fi 2,4 + 5 GHz."
+        },
+        "description": {
+          "pred": "(anglický dlhý popis dodávateľa: Ottocast 4-in-1 Carplay/Android Adapter (black) … Plug & Play and wide compatibility … Convenient switching between systems … Reliable in almost any car … Convenient access to apps; parametre po anglicky)",
+          "po": "Slovenský popis (h3 + odseky: plug & play, integrácia s továrenským systémom, YouTube a Netflix) a tabuľka parametrov: Android 12, Allwinner H618, 2+16 GB, Wi-Fi 2,4+5 GHz, Bluetooth 4.2."
+        },
+        "metaDescription": {
+          "pred": "Adaptér Ottocast CA400-S 4 v 1 pre CarPlay a Android Auto s prístupom k obľúbeným aplikáciám v aute. As a result, it is suitable for use in 98% of car models.",
+          "po": "Adaptér Ottocast CA400-S 4 v 1 s Androidom 12 pre bezdrôtový CarPlay a Android Auto, s aplikáciami YouTube a Netflix. Objednajte na PremiumStore.sk."
+        },
+        "xmlFeedName": {
+          "pred": "Ottocast CA400-S 4 in 1 Carplay&Andorid",
+          "po": "Ottocast CA400-S 4 v 1 CarPlay a Android Auto"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087088",
+      "guid": "2fabe002-92c6-11f1-8148-bc2411833e01",
+      "model": "Ottocast OTTOAIBOX N95",
+      "polia": {
+        "shortDescription": {
+          "pred": "Automonitor OTTOCAST OTTOAIBOX N95 Automonitor OTTOCAST OTTOAIBOX N95 je prenosné multimediálne centrum s veľkým 11,4-palcovým dotykovým displejom, ktoré umožňuje bezdrôtové pripojenie Apple CarPlay…",
+          "po": "Prenosný automonitor Ottocast OTTOAIBOX N95 s 11,4\" dotykovým displejom, systémom Android 13 a bezdrôtovým CarPlay a Android Auto. Funguje v autách s napájaním 12 V, zvuk cez Bluetooth, AUX alebo FM."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "089410",
+      "guid": "2f1ec164-b7b4-11f1-be54-bc2411e8af0e",
+      "model": "Wolfbox G930",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX G930 4K + 1080p 64 GB palubná kamera WOLFBOX G930 je palubná kamera v štýle spätného zrkadla vybavená prednou kamerou s rozlíšením 4K UHD (2160P) a zadnou kamerou s rozlíšením 1080P. Veľký…",
+          "po": "Autokamera Wolfbox G930 v tvare spätného zrkadla s 10\" dotykovým IPS displejom, prednou kamerou 4K, zadnou 1080p, GPS, Wi-Fi, parkovacím režimom a SD kartou 64 GB v balení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088746",
+      "guid": "2c8ea392-b7b4-11f1-9d34-bc2411e8af0e",
+      "model": "Thermal Master X2 USB-C",
+      "polia": {
+        "shortDescription": {
+          "pred": "Mini termovízna kamera THERMAL MASTER X2 USB-C THERMAL MASTER X2 USB-C je pokročilá mini termovízna kamera, ktorá premení kompatibilný smartfón s portom USB-C na presný diagnostický nástroj so…",
+          "po": "Mini termovízna kamera Thermal Master X2 s USB-C pre smartfóny s Androidom: senzor 256 × 192 px (až 512 × 384 px s X³ Super), obnovovanie 50 Hz, 15× digitálny zoom, súčasťou je držiak a kryt ArmorX."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088751",
+      "guid": "2c9d3998-b7b4-11f1-9778-bc2411e8af0e",
+      "model": "Thermal Master DV2",
+      "polia": {
+        "shortDescription": {
+          "pred": "Termovízna kamera THERMAL MASTER DV2 THERMAL MASTER DV2 je pokročilá termovízna kamera určená pre používateľov, ktorí vyžadujú jasný obraz, veľký pozorovací dosah a spoľahlivosť v teréne. Kombináciou…",
+          "po": "Ručná termovízna kamera Thermal Master DV2 s 5\" dotykovým displejom 1280 × 720, senzorom 256 × 192 px (efektívne 512 × 384 px), 50 Hz, 32 GB pamäťou, krytím IP54 a dosahom detekcie až 1 000 m."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088748",
+      "guid": "2ca257b6-b7b4-11f1-8a4e-bc2411e8af0e",
+      "model": "Thermal Master X3",
+      "polia": {
+        "shortDescription": {
+          "pred": "Termovízna kamera THERMAL MASTER X3 Lov a sledovanie po zotmení si vyžadujú vybavenie, ktoré poskytuje vynikajúcu viditeľnosť bez ohľadu na poveternostné a okolité podmienky. THERMAL MASTER X3…",
+          "po": "Termovízny monokulár Thermal Master X3 s USB-C pre smartfóny s Androidom: rozlíšenie 384 × 288 px, 60 Hz, 15× zoom, objektív 15 mm, režimy Rain & Fog a Compound Bow, diaľkomer do 600 m."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088750",
+      "guid": "2c982f20-b7b4-11f1-8b70-bc2411e8af0e",
+      "model": "Thermal Master T2 Max",
+      "polia": {
+        "shortDescription": {
+          "pred": "Termovízna kamera THERMAL MASTER T2Max Kamera THERMAL MASTER T2Max otvára úplne nové možnosti pozorovania prírody po zotmení a umožňuje vám spozorovať zvieratá, vtáky a detaily, ktoré sú voľným okom…",
+          "po": "Termovízna kamera Thermal Master T2 Max s USB-C pre iOS a Android: rozlíšenie X³ IR 512 × 384 px, citlivosť 15 mK, objektív 15 mm f/0,8, 15× zoom, 50 Hz a režim Super Bird 4.0 na pozorovanie vtákov."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
