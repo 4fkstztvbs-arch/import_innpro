@@ -1,0 +1,32 @@
+{
+  "id": "Z-20261124-seo-samsung-qe77s85h",
+  "datum": "2026-11-24",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-audit-kategorii",
+  "system": "shoptet-mcp",
+  "schvalenie": "povolene-bez-pytania",
+  "zhrnutie": "Samsung QE77S85H: názov podľa šablóny, meta popis z údajov v popise.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002203098",
+      "guid": "11cb14c8-a008-11f1-ba86-bc2411e8af0e",
+      "url": "https://www.premiumstore.sk/samsung-oled-qe77s85h/",
+      "polia": {
+        "name": {
+          "pred": "Televízor Samsung OLED QE77S85H",
+          "po": "Televízor Samsung QE77S85H OLED 4K, 77\", Tizen"
+        },
+        "metaDescription": {
+          "pred": "Samsung QE77S85H: 77\" OLED 4K televízor modelového roka 2026 s operačným systémom Tizen. Cenu, dostupnosť a ďalšie parametre nájdete na PremiumStore.sk.",
+          "po": "Televízor Samsung QE77S85H: 77\" OLED, 4K UHD (3840 × 2160 px), Tizen Smart TV, rok modelu 2026, Wi‑Fi."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-24",
+    "ok": true,
+    "poznamka": "product_update potvrdil name a metaDescription."
+  }
+}
