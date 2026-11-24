@@ -1,0 +1,215 @@
+{
+  "id": "Z-20261124-obsah-davka3",
+  "datum": "2026-11-24",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 8 (24. 11., 14:10): 15 produktov s organickou návštevnosťou (Carlinkit, Ottocast, Thermal Master X2 mini). Nové slovenské krátke popisy; TBOX-Plus a U2-AIR PRO dostali nový slovenský dlhý popis; opravená meta u Mirror Touch, Play2Video Plus a N95C so zadnou kamerou.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "061188",
+      "guid": "64c3e89e-92c5-11f1-a6aa-bc2411833e01",
+      "model": "Carlinkit TBOX-Plus 4+64",
+      "polia": {
+        "shortDescription": {
+          "pred": "Carlinkit TBOX PLUS LED bezdrôtový adaptér pre Apple Carplay/Android Auto (čierny) LED adaptér Carlinkit TBOX PLUS je nepostrádateľná pomôcka pre každého vodiča, ktorý si cení pohodlie a modernosť.…",
+          "po": "Carlinkit TBOX-Plus 4+64 GB je bezdrôtový adaptér CarPlay a Android Auto so systémom Android 13, procesorom Qualcomm QCM6225, slotmi na SIM a TF kartu, Wi-Fi 2,4 + 5 GHz a LED osvetlením."
+        },
+        "description": {
+          "pred": "Starý popis dodávateľa s obrázkami z assets.innpro.pl a pokazenou tabuľkou parametrov (bunky th/td prehodené).",
+          "po": "Nový slovenský popis s funkciami, obsahom balenia a opravenou tabuľkou parametrov."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "068294",
+      "guid": "7bd9d660-92c5-11f1-b01c-bc2411833e01",
+      "model": "Carlinkit CPC200-Tbox UHD USB-C",
+      "polia": {
+        "shortDescription": {
+          "pred": "Carlinkit CPC200-Tbox UHD Carplay/Android bezdrôtový adaptér (biely) Carlinkit CPC200-Tbox UHD bezdrôtový adaptér je praktické zariadenie, ktoré vám umožní bez problémov používať funkcie CarPlay a…",
+          "po": "Carlinkit CPC200-Tbox UHD s USB-C je bezdrôtový adaptér CarPlay a Android Auto so systémom Android 13, procesorom Qualcomm SDM660, 8 GB RAM, 128 GB pamäte a výstupom HDMI. Biely."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "086586",
+      "guid": "1873ff28-92c6-11f1-a041-bc2411833e01",
+      "model": "Carlinkit CPC200-Tbox UHD USB-A",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit CPC200-Tbox UHD pre CarPlay/Android (s portom USB-A) Bezdrôtový adaptér Carlinkit CPC200-Tbox UHD je praktické zariadenie, ktoré vám umožní plynulé používanie systémov…",
+          "po": "Carlinkit CPC200-Tbox UHD s portom USB-A je bezdrôtový adaptér CarPlay a Android Auto so systémom Android 13, procesorom Qualcomm SDM660, 8 GB RAM, 128 GB pamäte a výstupom HDMI."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "070812",
+      "guid": "88529f3a-92c5-11f1-ade3-bc2411833e01",
+      "model": "Carlinkit CPC200-Tbox S",
+      "polia": {
+        "shortDescription": {
+          "pred": "Carlinkit CPC200-Tbox S Carplay&Android Auto wireless adapter The Carlinkit CPC200-Tbox S is a wireless adapter that will change your driving experience. It allows you to wirelessly use CarPlay or…",
+          "po": "Carlinkit CPC200-Tbox S je bezdrôtový adaptér CarPlay a Android Auto so systémom Android 13, procesorom Qualcomm SM6115, 4 GB RAM, 64 GB pamäte a slotmi na SIM a TF kartu."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088003",
+      "guid": "a973e78e-afb5-11f1-ab6d-bc2411833e01",
+      "model": "Carlinkit 2AIR-T",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit 2AIR-T pre CarPlay/Android Auto Bezdrôtový adaptér Carlinkit 2AIR-T vám umožňuje premeniť továrensky inštalované káblové pripojenie CarPlay alebo Android Auto na pohodlné…",
+          "po": "Bezdrôtový adaptér Carlinkit 2AIR-T mení továrenské káblové CarPlay a Android Auto na bezdrôtové. Bluetooth 5.2, Wi-Fi 2,4 + 5 GHz, aktualizácie OTA, zachované tlačidlá na volante aj originálny mikrofón."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "079940",
+      "guid": "d03c77bc-92c5-11f1-93b4-bc2411833e01",
+      "model": "Ottocast Mirror Touch",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér do auta Ottocast na zrkadlenie Ottocast Mirror Touch je inovatívny adaptér do auta, ktorý ponúka obojsmerné ovládanie pri zrkadlení. Prenáša obrazovku smartfónu priamo na displej…",
+          "po": "Bezdrôtový adaptér Ottocast Mirror Touch (CA450) zrkadlí obrazovku telefónu na displej auta s dotykovým ovládaním. Podporuje bezdrôtový CarPlay a zrkadlenie Androidu, latenciu 80 ms a rýchle nabíjanie do 27 W."
+        },
+        "metaDescription": {
+          "pred": "Ottocast Mirror Touch je inovatívny adaptér do auta, ktorý ponúka obojsmerné ovládanie pri zrkadlení. Ďalšie produkty nájdete v kategórii Elektronika do auta.",
+          "po": "Bezdrôtový adaptér Ottocast Mirror Touch so zrkadlením obrazovky telefónu do auta, dotykovým ovládaním a bezdrôtovým CarPlay. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "081072",
+      "guid": "d470a272-92c5-11f1-adbc-bc2411833e01",
+      "model": "Ottocast Play2Video Plus",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Ottocast Play2Video Plus Carplay/Android Auto Ottocast Play2Video Plus je univerzálny adaptér, ktorý kombinuje funkcie CarPlay a Android Auto s multimediálnymi funkciami…",
+          "po": "Bezdrôtový adaptér Ottocast Play2Video Plus pre CarPlay a Android Auto so systémom Android 12 a procesorom H618. Má vstavané aplikácie Netflix, YouTube, Prime Video a IPTV a dvojpásmové Wi-Fi."
+        },
+        "metaTitle": {
+          "pred": "Bezdrôtový adaptér Ottocast Play2Video Plus pre CarPlay a",
+          "po": "Adaptér Ottocast Play2Video Plus, CarPlay, Android Auto"
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "081406",
+      "guid": "d8541220-92c5-11f1-b485-bc2411833e01",
+      "model": "Ottocast CP88-T2 Mini Slim",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Ottocast CP88-T2 Mini Carplay&Android Ottocast Mini Slim CP88-T2 je ultrakompaktný adaptér, ktorý vám umožní rozlúčiť sa so zamotanými káblami v aute. Vďaka nemu môžete bezdrôtovo…",
+          "po": "Ultrakompaktný adaptér Ottocast CP88-T2 Mini Slim pre bezdrôtový CarPlay a Android Auto. Hliníkové puzdro s USB konektorom 90°, automatické pripojenie po štarte, pamäť na dva telefóny, hmotnosť 8,5 g."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "082445",
+      "guid": "dfc5226a-92c5-11f1-be45-bc2411833e01",
+      "model": "Ottocast OttoAibox E2",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér do auta Ottocast OttoAibox E2 CarPlay/Android Ottocast E2 premení obrazovku vášho auta na multimediálne centrum so systémom Android 13. Zariadenie umožňuje používať bezdrôtové…",
+          "po": "Ottocast OttoAibox E2 mení obrazovku auta na multimediálne centrum so systémom Android 13. Bezdrôtový CarPlay a Android Auto, osemjadrový procesor, vstavané 4G (CloudSIM) a rozdelená obrazovka."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "086948",
+      "guid": "191b6876-92c6-11f1-b62c-bc2411833e01",
+      "model": "Ottocast Mini Core CA525-T3",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Ottocast CA525-T3 Zabudnite na káble a vychutnajte si úplnú slobodu pri používaní CarPlay alebo Android Auto vďaka kompaktnému adaptéru Ottocast Mini Core CA525-T3. Stačí…",
+          "po": "Kompaktný bezdrôtový adaptér Ottocast Mini Core CA525-T3 pre CarPlay a Android Auto s Wi-Fi 4 a Bluetooth 4.2. Plug & play do USB, automatické pripojenie po štarte, pamäť na dva telefóny, 7,4 g."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087090",
+      "guid": "2fc0ddfe-92c6-11f1-90f3-bc2411833e01",
+      "model": "Ottocast N95C so zadnou kamerou",
+      "polia": {
+        "shortDescription": {
+          "pred": "Automonitor OTTOCAST OTTOSCREEN N95C Automonitor OTTOCAST OTTOSCREEN N95C je rýchly spôsob, ako premeniť vaše auto na moderné multimediálne centrum bez nutnosti zásahu do kabeláže vozidla. Zariadenie…",
+          "po": "Automonitor Ottocast N95C so zadnou kamerou: 11,4\" HD displej, Android 15, bezdrôtový CarPlay a Android Auto, 8-jadrový procesor, 4 GB RAM, 32 GB pamäte, hlasový asistent Gemini a zapojenie do zásuvky zapaľovača."
+        },
+        "metaDescription": {
+          "pred": "Automonitor Ottocast N95C so zadnou kamerou, 11,4-palcovým HD displejom, Androidom 15 a bezdrôtovým CarPlay. To je obzvlášť praktické pri každodennom používaní.",
+          "po": "Automonitor Ottocast N95C so zadnou kamerou, 11,4\" HD displejom, Androidom 15 a bezdrôtovým CarPlay a Android Auto. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087089",
+      "guid": "80134b84-ab21-11f1-b20b-bc2411833e01",
+      "model": "Ottocast N95C",
+      "polia": {
+        "shortDescription": {
+          "pred": "Automonitor OTTOCAST OTTOSCREEN N95C Automonitor OTTOCAST OTTOSCREEN N95C je rýchly spôsob, ako premeniť vaše auto na moderné multimediálne centrum bez nutnosti zásahu do elektroinštalácie vozidla.…",
+          "po": "Automonitor Ottocast N95C: 11,4\" HD displej, Android 15, bezdrôtový CarPlay a Android Auto, 8-jadrový procesor, 4 GB RAM, 32 GB pamäte, hlasový asistent Gemini a zapojenie do zásuvky zapaľovača."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077959",
+      "guid": "b97ab3e0-92c5-11f1-92e4-bc2411833e01",
+      "model": "Ottocast PCS50 OTTOAIBOX NANO",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Ottocast PCS50 a AI asistent OTTOAIBOX NANO Ottocast PCS50 je malé zariadenie, ktoré môže výrazne zmeniť vaše každodenné používanie auta. Tento kompaktný adaptér s interaktívnym…",
+          "po": "Bezdrôtový adaptér Ottocast PCS50 OTTOAIBOX NANO s 1,83\" displejom a AI asistentom (ChatGPT 4.0). Systém Android 13, bezdrôtový CarPlay a Android Auto, vstavané CloudSIM, slot na SIM a TF kartu."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088747",
+      "guid": "2c935252-b7b4-11f1-bb47-bc2411e8af0e",
+      "model": "Thermal Master X2 USB-C mini",
+      "polia": {
+        "shortDescription": {
+          "pred": "Mini termovízna kamera THERMAL MASTER X2 USB-C THERMAL MASTER X2 USB-C je pokročilá mini termovízna kamera, ktorá premení kompatibilný smartfón s portom USB-C na presný diagnostický nástroj so…",
+          "po": "Mini termovízna kamera Thermal Master X2 s USB-C pre smartfóny s Androidom 9 a novším: senzor 256 × 192 px (až 512 × 384 px s X³ Super), 50 Hz, 15× digitálny zoom, hmotnosť 18,5 g."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "064292",
+      "guid": "6b8ef0ec-92c5-11f1-acdd-bc2411833e01",
+      "model": "Ottocast U2-AIR PRO CP82",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Ottocast U2-AIR PRO CarPlay (čierny). Ponúka jednoduché použitie, kompatibilitu s 98 % modelov áut a prístup k pokročilým funkciám CarPlay bez obmedzenia káblami. Pracuje o 30 % rýchlejšie ako predchodca Ottocast U2-AIR a podporuje Bluetooth 5.0 a Wi-Fi 5 GHz.",
+          "po": "Bezdrôtový adaptér Ottocast U2-AIR PRO (CP82) pre Apple CarPlay. Bluetooth 5.0, Wi-Fi 5 GHz, automatické pripojenie do 14 sekúnd po nastúpení do auta, RGB indikátor a aktualizácie OTA."
+        },
+        "description": {
+          "pred": "Anglický dlhý popis dodávateľa (Ottocast U2-AIR PRO Carplay Wireless Adapter (black) …) a tabuľka po anglicky s chybnými rozmermi 59 x 59 x 15 cm.",
+          "po": "Nový slovenský popis (automatické pripojenie, dizajn a aktualizácie, obsah balenia, tabuľka parametrov bez chybných rozmerov)."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
