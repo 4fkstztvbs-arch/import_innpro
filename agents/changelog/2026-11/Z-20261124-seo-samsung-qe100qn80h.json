@@ -1,0 +1,36 @@
+{
+  "id": "Z-20261124-seo-samsung-qe100qn80h",
+  "datum": "2026-11-24",
+  "rola": "seo",
+  "uloha": "T-20261110-seo-pilot-pozicie-4-10",
+  "system": "shoptet",
+  "schvalenie": null,
+  "zhrnutie": "Samsung QE100QN80H: názov podľa šablóny, vyplnený prázdny titulok a meta popis z údajov v popise produktu (uhlopriečka z označenia modelu); URL ostáva.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "KB_100002203096",
+      "guid": "0dbf82c6-dc92-11f1-8687-bc2411833e01",
+      "url": "https://www.premiumstore.sk/samsung-neo-qled-qe100qn80h/",
+      "polia": {
+        "name": {
+          "pred": "Samsung Neo QLED QE100QN80H",
+          "po": "Televízor Samsung QE100QN80H Neo QLED 4K, 100\", Tizen"
+        },
+        "metaTitle": {
+          "pred": "",
+          "po": "Samsung QE100QN80H Neo QLED televízor 100\", 4K"
+        },
+        "metaDescription": {
+          "pred": null,
+          "po": "Televízor Samsung QE100QN80H: 100\" Neo QLED, 4K, Tizen Smart TV, HDR10+, HDMI, USB, Wi‑Fi a Bluetooth."
+        }
+      }
+    }
+  ],
+  "overenie": {
+    "kedy": "2026-11-24",
+    "ok": true,
+    "poznamka": "product_update potvrdil name, metaTitle, metaDescription."
+  }
+}
