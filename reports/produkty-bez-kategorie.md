@@ -1,6 +1,6 @@
 # Produkty bez kategórie (skryté)
 
-Kontrola z 2026-11-24 04:18 UTC.
+Kontrola z 2026-11-24 04:20 UTC.
 
 Týmto produktom dodávateľ neposiela vo feede kategóriu, takže by v e-shope
 zostali mimo navigácie. Sú preto nastavené ako **skryté**. Keď sa pre ne nájde správna
@@ -55,10 +55,12 @@ v Shoptete), skript ich prestane skrývať sám od seba.
 | `100000033333` | Leifheit Odpeckovávač švestek s nádobkou |
 | `100001090392` | Fleg Dron/Ponorka s kamerou Fleg |
 
-## solight — 1 ks
+## solight — 3 ks
 
 | Kód | Produkt |
 |---|---|
+| `RBC3A` | Solight USB-C nabíjacie AAA Li-ion batérie, 1.5V, 435mAh, 4ks |
+| `RBC2A` | Solight USB-C nabíjacie AA Li-Ion batérie, 1.5V, 1750mAh, 4ks |
 | `DSP-TF01` | Solight turbo fukár |
 
 ## wiim — 24 ks

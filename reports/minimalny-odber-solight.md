@@ -1,8 +1,8 @@
 # Minimálny odber — Solight
 
-Kontrola z 2026-11-23 00:18 UTC.
+Kontrola z 2026-11-24 04:19 UTC.
 
-Solight pri **487** produktoch vo výslednom XML uvádza MINQTY > 1.
+Solight pri **486** produktoch vo výslednom XML uvádza MINQTY > 1.
 Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 `package` je iba veľkosť kartónu/balenia dodávateľa a nepoužíva sa ako minimum.
 
@@ -98,7 +98,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `WM94` | Solight napájací konektor pre COB LED pásy, 15cm, balenie 1k | 8 | 150 |
 | `P83` | Solight rozbočovač, 5 x 2,5A, biely | 7 | 50 |
 | `PZ11` | Solight viacnásobná zásuvka, 3 zásuvky | 7 | 50 |
-| `1V50-WW` | Solight LED vianočná reťaz, 3m, 20xLED, 3x AA, teplé biele s | 7 | 100 |
 | `WZ323-1` | Solight LED žiarovka G4, 1,5W, 3000K, 130lm | 7 | 100 |
 | `WZ320-1` | Solight LED žiarovka G9, 2,5W, 3000K, 215lm | 7 | 100 |
 | `SSC1103E` | Solight UTP CAT.5E kábel, RJ45 konektor - RJ45 konektor, sáč | 7 | 100 |
@@ -300,7 +299,6 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PP61` | Solight predlžovací prívod, 6 zásuviek, biely, 2m | 3 | 50 |
 | `WZ5004` | Solight extra úsporná LED žiarovka 7,2 W, 1521lm, 2700K, ekv | 3 | 100 |
 | `WL918` | Solight LED solárna lampáš nástenná, teplá biela, 12x17cm, č | 3 | 48 |
-| `1V261` | Solight LED nástenná dekorácia vianočná hviezda, 24x LED, 2x | 3 | 12 |
 | `1V292` | Solight LED vianočná retiazka červená-biela, 20x LED, 1,5m,  | 3 | 48 |
 | `PP41` | Solight predlžovací prívod, 5 zásuviek, biely, 2m | 3 | 50 |
 | `PP28` | Solight predlžovací prívod, 4 zásuvky, čierny, 3m | 3 | 40 |
@@ -477,6 +475,7 @@ Do XML sa zapisuje ako `<STOCK><MINIMAL_AMOUNT>…</MINIMAL_AMOUNT></STOCK>`.
 | `PP33` | Solight predlžovací prívod, 4 zásuvky, biely, vypínač, 5m | 2 | 40 |
 | `PP154C` | Solight 2z + USB A+C 17W, cestovný predlžovací prívod 1.5m,  | 2 | 40 |
 | `DT03` | Solight časový spínač digitálny, displej, 16 režimov | 2 | 48 |
+| `PP332` | Solight predlžovací prívod IP44, 4 zásuvky, vypínač, vonkajš | 2 | 20 |
 | `PP72` | Solight predlžovací prívod, 6 zásuviek, biely, vypínač, 3m | 2 | 40 |
 | `5D01` | Solight vypínač do vlhka, jednopólový, biely | 2 | 10 |
 | `P105B` | Solight rozbočovač, 2x 10A, čierny, vypínač | 2 | 24 |

@@ -1,12 +1,13 @@
 # Chýbajúce pravidlá zaradenia — solight
 
-Kontrola z 2026-11-23 00:18 UTC.
+Kontrola z 2026-11-24 04:19 UTC.
 
-**1 ciest bez pravidla, 1 produktov bez kategórie.**
+**2 ciest bez pravidla, 3 produktov bez kategórie.**
 
 Doplň ich do `data/kategorie/solight.json` — kľúč je cesta z feedu, hodnota uzol
 stromu. Stačí pravidlo na spoločnom prefixe, platí pre celú vetvu pod ním.
 
 | Cesta z feedu | Produktov | Príklady |
 |---|---|---|
+| `e-shop > Elektro a príslušenstvo > Batérie, nabíjanie, napájanie > Batérie > Nabíjacie batérie` | 2 | Solight USB-C nabíjacie AAA Li-ion batérie, 1.5V, 435mAh, 4ks; Solight USB-C nabíjacie AA Li-Ion batérie, 1.5V, 1750mAh, 4ks |
 | `Solight > Elektrotovar > Turbo fukary` | 1 | Solight turbo fukár |
