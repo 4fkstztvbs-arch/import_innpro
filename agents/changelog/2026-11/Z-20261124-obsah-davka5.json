@@ -1,0 +1,271 @@
+{
+ "id": "Z-20261124-obsah-davka5",
+ "datum": "2026-11-24",
+ "rola": "obsah",
+ "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+ "experiment": null,
+ "system": "shoptet",
+ "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+ "zhrnutie": "Dávka 10 (24. 11., 18:10): 15 produktov s organickou návštevnosťou (Wolfbox MegaVolt 16 Air, 12, 16, 24 a GameSir ovládače). Nové slovenské krátke popisy; všetky staré dlhé popisy s externými obrázkami (assets.innpro.pl) alebo anglickým textom nahradené novým slovenským popisom; opravená meta u K1 Flux a G7 Pro WT; opravený xmlFeedName u Nova 2 Lite a G7 Pro WT.",
+ "polozky": [
+  {
+   "typ": "produkt",
+   "kod": "089418",
+   "guid": "2f3c0b8e-b7b4-11f1-bd5f-bc2411e8af0e",
+   "model": "Wolfbox MegaVolt 16 Air",
+   "polia": {
+    "shortDescription": {
+     "pred": "WOLFBOX MegaVolt 16 Air 16000 mAh 3000 A štartér WOLFBOX MegaVolt 16 Air spája funkcie výkonného štartéra a prenosného vzduchového kompresora, vďaka čomu je ideálny na núdzové štartovanie vozidiel,…",
+     "po": "Wolfbox MegaVolt 16 Air je štartovacia powerbanka s kompresorom: kapacita 16 000 mAh (59,2 Wh), štartovací prúd 600 A, špičkový 3000 A, kompresor do 160 PSI, USB-C 65 W a LED svetlo 400 lm. Pre 12 V vozidlá."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089420",
+   "guid": "2f457b7e-b7b4-11f1-a32d-bc2411e8af0e",
+   "model": "Wolfbox MegaVolt 12",
+   "polia": {
+    "shortDescription": {
+     "pred": "WOLFBOX MegaVolt 12 16000 mAh 2000 A štartér WOLFBOX MegaVolt 12 je štartér určený pre vozidlá s 12 V systémom, ktorý vám umožní rýchlo naštartovať vybitú batériu bez potreby druhého vozidla.…",
+     "po": "Wolfbox MegaVolt 12 je štartovacia powerbanka pre 12 V vozidlá: štartovací prúd 300 A, špičkový 2000 A, až 20 štartov na nabitie, USB-C 30 W, USB-A, LED svetlo 300 lm a ochrana proti obrátenej polarite."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089421",
+   "guid": "2f49dd0e-b7b4-11f1-ac8a-bc2411e8af0e",
+   "model": "Wolfbox MegaVolt 16",
+   "polia": {
+    "shortDescription": {
+     "pred": "WOLFBOX MegaVolt 16 – štartovací zdroj 16 000 mAh, 3 000 A WOLFBOX MegaVolt 16 je pokročilý štartér určený pre vozidlá s 12 V systémom, ktorý vám umožní rýchlo naštartovať vybitú batériu bez potreby…",
+     "po": "Wolfbox MegaVolt 16 je štartovacia powerbanka pre 12 V vozidlá: kapacita 16 000 mAh (59,2 Wh), štartovací prúd 600 A, špičkový 3000 A, režim Boost, USB-C 65 W a USB-A. Pre benzín do 8 l a diesel do 6 l."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "089422",
+   "guid": "2f4e2b2a-b7b4-11f1-837a-bc2411e8af0e",
+   "model": "Wolfbox MegaVolt 24",
+   "polia": {
+    "shortDescription": {
+     "pred": "WOLFBOX MegaVolt 24 – štartovací zdroj 24 000 mAh, 4 000 A WOLFBOX MegaVolt 24 je pokročilý štartovací zdroj určený pre vozidlá s 12 V systémom, ktorý vám umožní rýchlo naštartovať vybitú batériu bez…",
+     "po": "Wolfbox MegaVolt 24 je štartovacia powerbanka pre 12 V vozidlá: kapacita 24 000 mAh (88,8 Wh), štartovací prúd 1000 A, špičkový 4000 A, až 40 štartov, USB-C 65 W a LED svetlo. Pre motory do 10 l."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "070688",
+   "guid": "871ab166-92c5-11f1-812b-bc2411833e01",
+   "model": "GameSir K1 Flux",
+   "polia": {
+    "shortDescription": {
+     "pred": "GameSir K1 Flux wired controller The GameSir K1 Flux wired controller is a piece of hardware that will meet the expectations of even the most demanding gamers. With its advanced technologies,…",
+     "po": "Káblový ovládač GameSir K1 Flux s licenciou Xbox pre Xbox Series X/S, Xbox One a Windows 10/11. Hallove páčky aj spúšte, 4 vibračné motory, priehľadné telo s LED, softvér GameSir Nexus, kábel USB-C 3 m."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    },
+    "metaDescription": {
+     "pred": "Káblový herný ovládač GameSir K1 Flux slúži na hranie hier a pripája sa k zariadeniu pomocou kábla. Improve your skills and enjoy gaming like never before!",
+     "po": "Káblový ovládač GameSir K1 Flux pre Xbox a PC: Hallove páčky a spúšte, LED osvetlenie, softvér Nexus, kábel 3 m. Objednajte na PremiumStore.sk."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "075408",
+   "guid": "a43f4478-92c5-11f1-ba41-bc2411833e01",
+   "model": "GameSir X3 Pro",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mobilný ovládač GameSir X3 Pro USB-C s držiakom na telefón GameSir X3 Pro je pokročilý mobilný ovládač, ktorý kombinuje presné ovládanie s účinným chladením a poskytuje optimálne podmienky pre dlhé…",
+     "po": "Mobilný ovládač GameSir X3 Pro s konektorom USB-C pre Android a iPhone 15, s chladením a držiakom na telefóny dĺžky 110 – 180 mm. Hallove páčky, mikrospínače, Turbo, 6-osový gyroskop, bez vlastného napájania."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "081127",
+   "guid": "dd32b35a-92c5-11f1-a999-bc2411833e01",
+   "model": "GameSir G8 Galileo",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mobilný ovládač GameSir G8 Galileo USB-C s držiakom na telefón (sivý) (N) Objavte nový rozmer mobilnej zábavy s bezdrôtovým ovládačom GameSir G8 Galileo. Tento revolučný gadget mení spôsob hrania na…",
+     "po": "Mobilný ovládač GameSir G8 Galileo s USB-C a držiakom na telefón. Priechodné nabíjanie počas hrania, Hallove páčky, analógové spúšte, konektor 3,5 mm pre slúchadlá, hmotnosť 252 g."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079044",
+   "guid": "c8d2caf8-92c5-11f1-abe3-bc2411833e01",
+   "model": "GameSir Nova 2 Lite",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový ovládač GameSir Nova 2 Lite (sivý) Zoznámte sa s GameSir Nova 2 Lite - ovládačom vytvoreným pre konzoly Switch, stolové počítače a zariadenia so systémami Android a iOS, ktorý ponúka až…",
+     "po": "Bezdrôtový ovládač GameSir Nova 2 Lite pre Switch, PC, Android a iOS. Pripojenie cez Bluetooth, 2,4 GHz kľúč alebo USB-C, polling 1000 Hz, Hallove páčky a spúšte, mechanický D-pad, batéria 600 mAh."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    },
+    "xmlFeedName": {
+     "pred": "GameSir Nova Lite Multiplatform Domino White HRG7109",
+     "po": "Bezdrôtový ovládač GameSir Nova 2 Lite, sivý"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "080750",
+   "guid": "e0112304-92c5-11f1-85bb-bc2411833e01",
+   "model": "GameSir G7 Pro WC Wuchang",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový ovládač GameSir G7 Pro WC Wuchang Edition GameSir G7 Pro WC Wuchang Edition je bezdrôtový ovládač určený pre hráčov, ktorí chcú nielen presnosť a spoľahlivosť, ale aj jedinečný štýl…",
+     "po": "Bezdrôtový ovládač GameSir G7 Pro WC Wuchang Edition pre Xbox, PC a Android: Bluetooth, USB-C a 2,4 GHz, páčky MAG-RES TMR, polling 1000 Hz, gyroskop, 4 vibračné motory, batéria 1200 mAh a nabíjacia stanica."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079687",
+   "guid": "c86caa8e-92c5-11f1-b44b-bc2411833e01",
+   "model": "GameSir G7 Pro WT TRI-MODE",
+   "polia": {
+    "shortDescription": {
+     "pred": "Ovládač GameSir G7 Pro WT TRI-MODE White GameSir G7 Pro WT TRI-MODE je všestranný profesionálny ovládač kombinujúci tri režimy (káblový Xbox, 2,4 GHz a Bluetooth Android), ktorý je vybavený…",
+     "po": "Bezdrôtový ovládač GameSir G7 Pro WT TRI-MODE pre Xbox, PC a Android: káblový režim, 2,4 GHz a Bluetooth, páčky Mag-Res TMR, polling 1000 Hz, gyroskop, 4 vibračné motory, batéria 1200 mAh a nabíjacia stanica."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    },
+    "metaDescription": {
+     "pred": "Ovládač GameSir G7 Pro WT TRI-MODE s TMR joystickmi, Hallovými páčkami, gyroskopom a ladením 1000 Hz. Toto je gadget, ktorý uspokojí potreby každého hráča!",
+     "po": "Ovládač GameSir G7 Pro WT TRI-MODE pre Xbox, PC a Android: páčky TMR, spúšte s Hallovým efektom, gyroskop, 1000 Hz. Objednajte na PremiumStore.sk."
+    },
+    "xmlFeedName": {
+     "pred": "GameSir G7-HE HRG2299",
+     "po": "Bezdrôtový herný ovládač GameSir G7 Pro WT TRI-MODE, biely"
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079689",
+   "guid": "c8845030-92c5-11f1-815b-bc2411833e01",
+   "model": "GameSir T3 WT Tegenaria Lite",
+   "polia": {
+    "shortDescription": {
+     "pred": "Káblový ovládač GameSir T3 WT Tegenaria Lite White Zoznámte sa s GameSir T3 WT Tegenaria Lite, pokročilým ovládačom, ktorý kombinuje retro dizajn 90. rokov s modernou technológiou. Ovládač ponúka…",
+     "po": "Káblový ovládač GameSir T3 WT Tegenaria Lite v retro dizajne pre Switch, Android, iOS a PC. Hallove páčky, polling 1000 Hz, dva asymetrické vibračné motory, dve zadné tlačidlá a funkcia Turbo, hmotnosť 230 g."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "075410",
+   "guid": "a4569cae-92c5-11f1-ba66-bc2411833e01",
+   "model": "GameSir T4n Lite Nova",
+   "polia": {
+    "shortDescription": {
+     "pred": "Bezdrôtový ovládač GameSir T4n Lite Nova (sivý) GameSir T4n Nova je všestranný bezdrôtový ovládač, ktorý funguje s viacerými platformami, ako sú Nintendo Switch, Android, iOS, PC a Steam. Vďaka trom…",
+     "po": "Bezdrôtový ovládač GameSir T4n Lite Nova pre Switch, Android, iOS a PC. Pripojenie cez Bluetooth, 2,4 GHz alebo kábel, Hallove páčky, vlasová spúšť, batéria 1200 mAh a dve programovateľné zadné tlačidlá, 217 g."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079691",
+   "guid": "c89bbc48-92c5-11f1-8a68-bc2411833e01",
+   "model": "GameSir X5 Lite GN",
+   "polia": {
+    "shortDescription": {
+     "pred": "Mobilný ovládač GameSir X5 Lite GN Bright Green GameSir X5 Lite GN je ľahký, ergonomický mobilný ovládač so širokou kompatibilitou so zariadeniami s veľkosťou od 105 do 213 mm a vďaka nastaviteľnému…",
+     "po": "Mobilný ovládač GameSir X5 Lite GN s USB-C pre iPhone 15 a 16, iPad Mini a Android, telefóny 105 – 213 mm. Hallove páčky, membránové tlačidlá, priechodné nabíjanie, funkcia Turbo, hmotnosť 135,4 g."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "079690",
+   "guid": "c890821a-92c5-11f1-9b9e-bc2411833e01",
+   "model": "GameSir T3 GY Tegenaria Lite",
+   "polia": {
+    "shortDescription": {
+     "pred": "Herný ovládač GameSir T3 GY Tegenaria Lite Wired Controller Gray Zoznámte sa s GameSir T3 GY Tegenaria Lite, pokročilým ovládačom, ktorý kombinuje retro dizajn 90. rokov s modernou technológiou.…",
+     "po": "Káblový ovládač GameSir T3 GY Tegenaria Lite v retro sivej pre Switch, Android, iOS a PC. Hallove páčky, polling 1000 Hz, dva asymetrické vibračné motory, dve zadné tlačidlá a funkcia Turbo, hmotnosť 230 g."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  },
+  {
+   "typ": "produkt",
+   "kod": "068938",
+   "guid": "87511526-92c5-11f1-b292-bc2411833e01",
+   "model": "GameSir G7 HE biely",
+   "polia": {
+    "shortDescription": {
+     "pred": "GameSir G7 HE wired controller (white) The GameSir G7 HE is a wired controller that combines advanced technology, durability and convenience to offer gamers complete control and an exceptional gaming…",
+     "po": "Káblový ovládač GameSir G7 HE v bielom pre Xbox Series X/S, Xbox One a Windows 10/11. Hallove páčky aj spúšte, režim Hair Trigger, 4 vibračné motory, vymeniteľný magnetický panel, konektor 3,5 mm, kábel USB-C 3 m."
+    },
+    "description": {
+     "pred": "Starý popis dodávateľa (externé obrázky assets.innpro.pl alebo strojový text, anglický text).",
+     "po": "Nový slovenský popis s funkciami, obsahom balenia a tabuľkou parametrov."
+    }
+   }
+  }
+ ],
+ "overenie": "updatedFields potvrdené pri každom zápise.",
+ "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+ "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
