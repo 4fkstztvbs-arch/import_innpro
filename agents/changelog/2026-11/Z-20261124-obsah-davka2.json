@@ -1,0 +1,223 @@
+{
+  "id": "Z-20261124-obsah-davka2",
+  "datum": "2026-11-24",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 7 (24. 11., 12:10): 15 produktov s organickou návštevnosťou (Wolfbox kamery, Carlinkit adaptéry). Nové slovenské krátke popisy; u U2W Mini, CCPA, U2W Plus a CP2A nahradený starý dlhý popis s externými obrázkami z b2b.innpro.pl; opravená meta u AIR X2, CCPA a CP2A.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "089405",
+      "guid": "2f0ac1aa-b7b4-11f1-9a4f-bc2411e8af0e",
+      "model": "Wolfbox G850 Pro",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX G850 Pro 4K + 1080p 64 GB palubná kamera WOLFBOX G850 Pro je moderná palubná kamera v štýle zrkadla, ktorá zaznamenáva zábery smerom dopredu v rozlíšení 4K (2160p) a zábery smerom dozadu v…",
+          "po": "Autokamera Wolfbox G850 Pro v tvare spätného zrkadla s 12\" dotykovým IPS displejom, prednou kamerou 4K, zadnou 1080p, Wi-Fi 5,8 GHz, externým GPS, hlasovým ovládaním a asistenčnými systémami ADAS a BSD."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "089404",
+      "guid": "2f049c44-b7b4-11f1-a815-bc2411e8af0e",
+      "model": "Wolfbox G840S",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX G840S 4K + 1080p 32 GB palubná kamera WOLFBOX G840S je palubná kamera v štýle spätného zrkadla vybavená prednou kamerou s rozlíšením 4K (2160P), zadnou kamerou Full HD 1080P a veľkým…",
+          "po": "Autokamera Wolfbox G840S v tvare spätného zrkadla s 12\" dotykovým IPS displejom, prednou kamerou 4K, zadnou 1080p, externým GPS, parkovacím režimom a SD kartou 32 GB v balení."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "089411",
+      "guid": "2f23841a-b7b4-11f1-845a-bc2411e8af0e",
+      "model": "Wolfbox i17",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX i17 WiFi 4K + 2,5K 64 GB palubná kamera WOLFBOX i17 je moderná palubná kamera vybavená prednou kamerou s rozlíšením 4K UHD, vnútornou kamerou s rozlíšením 1080p Full HD a zadnou kamerou s…",
+          "po": "Trojkanálová autokamera Wolfbox i17: predná kamera 4K, vnútorná 1080p s IR diódami a zadná 2,5K, snímač Sony IMX335, 3\" displej, vstavané GPS a Wi-Fi 5 GHz s prenosom záznamov do aplikácie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "089412",
+      "guid": "2f284a0e-b7b4-11f1-a1f6-bc2411e8af0e",
+      "model": "Wolfbox i07",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX i07 WiFi 2,5K + 1080p palubná kamera WOLFBOX i07 je špičková palubná kamera vybavená tromi kamerami, ktoré súčasne monitorujú cestu pred vozidlom, interiér vozidla a priestor za vozidlom.…",
+          "po": "Trojkanálová autokamera Wolfbox i07: predná kamera 2,5K, vnútorná a zadná 1080p, 3\" IPS displej, Wi-Fi, vstavané GPS, G-senzor, dva parkovacie režimy a podpora kariet až 512 GB."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "089413",
+      "guid": "2f2cc7c8-b7b4-11f1-bdae-bc2411e8af0e",
+      "model": "Wolfbox X3",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX X3 WiFi 2,5K + 1080p 64 GB palubná kamera WOLFBOX X3 je dvojkanálová palubná kamera vybavená prednou kamerou s rozlíšením 2,5K pri 60 fps a zadnou kamerou s rozlíšením Full HD 1080p.…",
+          "po": "Dvojkanálová autokamera Wolfbox X3: predná kamera 2,5K pri 60 fps, zadná 1080p, snímač Sony STARVIS 2 IMX675, 3\" dotykový displej, Wi-Fi 5,8 GHz, vstavané GPS, ADAS a parkovací režim."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "089407",
+      "guid": "2f152744-b7b4-11f1-946e-bc2411e8af0e",
+      "model": "Wolfbox G900TriPro Cabin",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX G900TriPro Cabin WiFi 4K + 2,5K – palubná kamera WOLFBOX G900TriPro Cabin WiFi 4K + 2.5K je moderná palubná kamera v štýle zrkadla vybavená prednou kamerou s rozlíšením 4K so senzorom Sony…",
+          "po": "Trojkanálová autokamera Wolfbox G900TriPro Cabin v tvare zrkadla: predná kamera 4K, zadná 2,5K a interiérová 1080p s IR diódami, 12\" dotykový displej, Wi-Fi 5,8 GHz a externý GPS modul."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "089408",
+      "guid": "2f1a1e48-b7b4-11f1-8329-bc2411e8af0e",
+      "model": "Wolfbox G900TriPro Bumper",
+      "polia": {
+        "shortDescription": {
+          "pred": "WOLFBOX G900TriPro Bumper WiFi 4K + 2.5K – palubná kamera WOLFBOX G900TriPro Bumper WiFi 4K + 2.5K je moderná palubná kamera v štýle spätného zrkadla, vybavená tromi kamerami, ktoré zaznamenávajú…",
+          "po": "Trojkanálová autokamera Wolfbox G900TriPro Bumper v tvare zrkadla: predná kamera 4K, zadná 2,5K a kamera 1080p na nárazník, 12\" dotykový displej, Wi-Fi 5,8 GHz, externý GPS a hlasové ovládanie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "073937",
+      "guid": "9c75f070-92c5-11f1-bfb0-bc2411833e01",
+      "model": "Carlinkit MINI PRO",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit MINI PRO Carplay/Android Auto Carlinkit MINI PRO je bezdrôtový adaptér pre CarPlay a Android Auto, navrhnutý s čipmi automobilovej triedy s najvyšším výkonom. Vďaka…",
+          "po": "Miniatúrny bezdrôtový adaptér Carlinkit MINI PRO pre CarPlay a Android Auto s dvojpásmovým Wi-Fi 2,4 + 5,8 GHz, rozdelenou obrazovkou, online aktualizáciou a zapojením plug & play."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "073936",
+      "guid": "9c6b4404-92c5-11f1-8b09-bc2411833e01",
+      "model": "Carlinkit AIR X2",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit AIR X2 Carplay/Android Auto Carlinkit AIR X2 je najmodernejší bezdrôtový adaptér, ktorý posúva používanie CarPlay a Android Auto na novú úroveň. Vďaka vylepšeným…",
+          "po": "Bezdrôtový adaptér Carlinkit AIR X2 pre CarPlay a Android Auto s dvojpásmovým Wi-Fi 2,4 + 5,8 GHz, nízkou spotrebou, ovládaním cez tlačidlá na volante a online aktualizáciou. Zapojenie do USB-A."
+        },
+        "metaDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit AIR X2 pre CarPlay a Android Auto s dvojkanálovým prepínaním signálu. Pripojenie adaptéra Carlinkit AIR X2 je hračka.",
+          "po": "Bezdrôtový adaptér Carlinkit AIR X2 pre CarPlay a Android Auto s dvojpásmovým Wi-Fi 2,4 + 5,8 GHz a online aktualizáciou. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "056973",
+      "guid": "587f0ba4-92c5-11f1-b4ec-bc2411833e01",
+      "model": "Carlinkit U2W Mini",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit U2W Mini Carlinkit U2W Mini je kempingový adaptér, ktorý vám umožní pripojiť sa prostredníctvom telefónu cez USB k obrazovke v aute so zabudovaným CarPlay a používať…",
+          "po": "Bezdrôtový adaptér Carlinkit U2W Mini mení káblové Apple CarPlay v aute na bezdrôtové. Pre iPhone s iOS 10 a novším, Bluetooth 4.1, kompaktné rozmery 46 × 45 × 16 mm, hmotnosť 26 g, port USB-C."
+        },
+        "description": {
+          "pred": "Starý popis dodávateľa s obrázkom z b2b.innpro.pl a nesprávnym označením „kempingový adaptér“.",
+          "po": "Nový slovenský popis bez externého obrázka (úvod, obsah balenia, tabuľka parametrov)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "055287",
+      "guid": "5889286e-92c5-11f1-8442-bc2411833e01",
+      "model": "Carlinkit CCPA",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit CCPA Carlinkit CCPA je zariadenie, s ktorým môžete bezdrôtovo používať Android Auto a CarPlay. Adaptér stačí zapojiť do portu USB v aute, zapnúť dátové pripojenie…",
+          "po": "Bezdrôtový adaptér Carlinkit CCPA pre CarPlay a Android Auto. Zapojí sa do USB portu v aute, podporuje mapy, hudbu, Siri, hovory a rozdelenú obrazovku. Pre iPhone s iOS 10 a telefóny s Androidom 11."
+        },
+        "description": {
+          "pred": "Starý popis dodávateľa s obrázkom z b2b.innpro.pl.",
+          "po": "Nový slovenský popis bez externého obrázka (úvod, obsah balenia, tabuľka parametrov)."
+        },
+        "metaDescription": {
+          "pred": "Carlinkit CCPA je zariadenie, s ktorým môžete bezdrôtovo používať Android Auto a CarPlay. Na obrazovke v aute môžete zobraziť video z telefónu v reálnom čase.",
+          "po": "Bezdrôtový adaptér Carlinkit CCPA pre CarPlay a Android Auto: mapy, hudba, Siri a hovory bez kábla. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "055285",
+      "guid": "67b371e6-92c5-11f1-912e-bc2411833e01",
+      "model": "Carlinkit U2W Plus",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit U2W Plus Chcete si užívať bezdrôtové potešenie počas jazdy autom? So zariadením Carlinkit to bude možné! Adaptér U2W Plus je určený pre autá s funkciou CarPlay. Vďaka…",
+          "po": "Bezdrôtový adaptér Carlinkit U2W Plus mení káblové Apple CarPlay v aute na bezdrôtové. Plug & play, Bluetooth 4.1, online aktualizácie, automatické spárovanie s telefónom a rozmery 80 × 46 × 13 mm."
+        },
+        "description": {
+          "pred": "Starý popis dodávateľa s obrázkami z b2b.innpro.pl a preklepom výrobcu „Carlinkkit“.",
+          "po": "Nový slovenský popis bez externých obrázkov (úvod, pohodlné používanie, obsah balenia, tabuľka parametrov)."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "053904",
+      "guid": "13027cc0-9b6a-11f1-b6bc-bc24110eff41",
+      "model": "Carlinkit CP2A",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit CP2A Chcete si užívať bezdrôtové potešenie počas jazdy autom? So zariadením Carlinkit to bude možné! Adaptér CP2A je určený pre autá s funkciou CarPlay a Android Auto.…",
+          "po": "Bezdrôtový adaptér Carlinkit CP2A pre autá s továrenským káblovým CarPlay a Android Auto. Plug & play, Bluetooth 5.2, Wi-Fi 2,4 a 5 GHz, online aktualizácie a rozmery 80 × 46 × 13 mm."
+        },
+        "description": {
+          "pred": "Starý popis dodávateľa s obrázkami z b2b.innpro.pl a preklepom „PCP2A“.",
+          "po": "Nový slovenský popis bez externých obrázkov (úvod, pohodlné používanie, obsah balenia, tabuľka parametrov)."
+        },
+        "metaDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit CP2A pre autá s CarPlay a Android Auto, technológia plug&play, rozmery 80 × 46 × 13 mm. So zariadením Carlinkit to bude možné!",
+          "po": "Bezdrôtový adaptér Carlinkit CP2A pre autá s CarPlay a Android Auto: plug & play, Bluetooth 5.2, rozmery 80 × 46 × 13 mm. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "088004",
+      "guid": "31c1d572-92c6-11f1-9ed3-bc2411833e01",
+      "model": "Carlinkit CP2A PRO",
+      "polia": {
+        "shortDescription": {
+          "pred": "Bezdrôtový adaptér Carlinkit CP2A PRO Bezdrôtový adaptér Carlinkit CP2A PRO vám umožní premeniť pôvodný káblový systém CarPlay vo vašom aute na bezdrôtový systém CarPlay a Android Auto. Stačí…",
+          "po": "Bezdrôtový adaptér Carlinkit CP2A PRO mení káblový CarPlay v aute na bezdrôtový CarPlay a Android Auto. Systém Android 12, štvorjadrový procesor, Wi-Fi 2,4 + 5 GHz, Bluetooth 4.2 a aktualizácie OTA."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "078248",
+      "guid": "90e62362-afb5-11f1-bf57-bc2411833e01",
+      "model": "Carlinkit Mini Ultra 2 v 1",
+      "polia": {
+        "shortDescription": {
+          "pred": "Carlinkit MINI ULTRA bezdrôtový adaptér Carplay&Android auto Premeňte svoje auto na moderné riadiace centrum s vlajkovou loďou Carlinkit MINI ULTRA adaptérom. Tento ultrakompaktný bezdrôtový adaptér…",
+          "po": "Ultrakompaktný adaptér Carlinkit Mini Ultra 2 v 1 pre bezdrôtový Apple CarPlay a Android Auto. Plug & play do USB-A, Bluetooth 5.2, dvojjadrový čip, pripojenie za 5 až 10 sekúnd a automatické spojenie pri štarte."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodný anglický dlhý popis nie je uložený, dá sa získať z feedu dodávateľa INNPRO."
+}
