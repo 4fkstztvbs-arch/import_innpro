@@ -1,0 +1,227 @@
+{
+  "id": "Z-20261125-obsah-davka4",
+  "datum": "2026-11-25",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 14 (25. 11., 16:10): 15 produktov Ancel (motocyklové skenery MT310, MT300, MT100 PRO, detektory L5000 PRO a L8000, skenery DS600 BT, DS600 ELITE, AS500, X6, DS200, VD700, čističe vstrekovačov ANJ400, ANJ600, JC200, štartovací zdroj BS200). Nový slovenský krátky popis; dlhé popisy už boli slovenské, ponechané (obsahujú obrázky dodávateľa), nahradený len anglický AS500; opravená meta.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "087778",
+      "guid": "65800762-a0ea-11f1-aaae-bc24110eff41",
+      "model": "Ancel MT310",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener pre motocykle ANCEL MT310 ANCEL MT310 je diagnostický skener pre motocykle vybavený 3,5-palcovým farebným TFT displejom. Umožňuje diagnostiku vozidiel značiek BMW, Harley, Honda,…",
+          "po": "Diagnostický skener Ancel MT310 pre motocykle BMW, Harley, Honda, Yamaha, Suzuki a Kawasaki. 3,5″ displej, Auto VIN, chyby, dátový tok, OBDII, aktualizácie cez USB alebo Wi-Fi."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087779",
+      "guid": "658ca3a0-a0ea-11f1-984d-bc24110eff41",
+      "model": "Ancel MT300 BMW",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener ANCEL MT300 pre motocykle BMW Diagnostický skener ANCEL MT300 pre BMW je určený pre motocykle BMW a je vybavený 3,5-palcovým farebným TFT displejom. Okrem iného umožňuje…",
+          "po": "Diagnostický skener Ancel MT300 pre motocykle BMW s 3,5″ displejom. Systémy DME, ABS, KOMBI, SME a ESA2, chyby, dátový tok, Auto VIN, servisné funkcie, OBDII, Wi-Fi."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087780",
+      "guid": "659955f0-a0ea-11f1-961d-bc24110eff41",
+      "model": "Ancel MT100 PRO",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener pre motocykle ANCEL MT100 PRO ANCEL MT100 PRO je diagnostický skener určený pre motocykle značiek ako Hero, Honda, Kymco, Suzuki, Sym a Yamaha. Umožňuje čítať a vymazať chybové…",
+          "po": "Diagnostický skener Ancel MT100 PRO pre motocykle Hero, Honda, Kymco, Suzuki, Sym a Yamaha. Chyby motora a ABS, OBDII, 2,8″ displej, aktualizácie cez USB."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087781",
+      "guid": "65a5d3a2-a0ea-11f1-8d54-bc24110eff41",
+      "model": "Ancel L5000 PRO",
+      "polia": {
+        "shortDescription": {
+          "pred": "ANCEL L5000 PRO – diagnostický detektor netesností pre automobilové systémy ANCEL L5000 PRO je pokročilý detektor netesností určený na testovanie automobilových systémov pomocou vzduchu a dymu.…",
+          "po": "Detektor netesností Ancel L5000 PRO s testom dymom a vzduchom, tlakom 0,5 – 20 psi, testom poklesu tlaku a vákua. Vstavané čerpadlo, 3,5″ displej, 12 V."
+        },
+        "metaDescription": {
+          "pred": "Detektor netesností pre automobilové systémy s testom dymom a vzduchom, tlak od 0,5 do 20 psi. Ďalšie produkty nájdete v kategórii Garáž, dielňa, servis.",
+          "po": "Detektor netesností Ancel L5000 PRO: test dymom a vzduchom, tlak 0,5 – 20 psi, test poklesu tlaku a vákua. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087782",
+      "guid": "d64df5c8-a345-11f1-8428-bc24110eff41",
+      "model": "Ancel L8000",
+      "polia": {
+        "shortDescription": {
+          "pred": "ANCEL L8000 – detektor netesností pre automobilový priemysel ANCEL L8000 je profesionálny detektor netesností pre automobilový priemysel, vybavený nízkotlakovým režimom EVAP a vysokotlakovým režimom…",
+          "po": "Profesionálny detektor netesností Ancel L8000 s režimami EVAP a Turbo, tlakom až 20 psi a výkonom dymu 6 – 8 l/min. Test dymom a poklesu tlaku, 4″ displej, autotest."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087772",
+      "guid": "d60e4144-a345-11f1-b976-bc24110eff41",
+      "model": "Ancel DS600 BT",
+      "polia": {
+        "shortDescription": {
+          "pred": "Profesionálny diagnostický skener ANCEL DS600 BT OBD2 ANCEL DS600 BT je pokročilý diagnostický skener OBD2 vybavený 8-palcovým dotykovým displejom, operačným systémom Android 10.0 a bezdrôtovým…",
+          "po": "Profesionálny OBD2 skener Ancel DS600 BT s 8″ dotykovým displejom, Androidom 10, 4 GB RAM a 64 GB ROM. Bezdrôtový Bluetooth VCI, AutoSearch podľa VIN, kódovanie a resety."
+        },
+        "metaDescription": {
+          "pred": "Profesionálny skener OBD2 s 8-palcovým dotykovým displejom, Androidom 10.0 a Bluetooth modulom VCI. Ďalšie produkty nájdete v kategórii Garáž, dielňa, servis.",
+          "po": "Profesionálny skener OBD2 Ancel DS600 BT s 8″ dotykovým displejom, Androidom 10 a Bluetooth VCI. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087773",
+      "guid": "d6188154-a345-11f1-98a7-bc24110eff41",
+      "model": "Ancel DS600 ELITE",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener ANCEL DS600 ELITE OBD2 ANCEL DS600 ELITE je pokročilý diagnostický skener OBD2 vybavený 8-palcovým dotykovým displejom, operačným systémom Android 10.0 a káblovým pripojením OBD.…",
+          "po": "Diagnostický OBD2 skener Ancel DS600 ELITE s 8″ dotykovým displejom, Androidom 10 a káblovým OBD pripojením. AutoSearch podľa VIN, živé dáta, kódovanie a resety."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087774",
+      "guid": "d622b782-a345-11f1-81fd-bc24110eff41",
+      "model": "Ancel ANJ400",
+      "polia": {
+        "shortDescription": {
+          "pred": "ANCEL ANJ400 – zariadenie na čistenie automobilových vstrekovacích ventilov ANCEL ANJ400 je profesionálne zariadenie na čistenie a testovanie vstrekovacích ventilov, ktoré kombinuje technológiu…",
+          "po": "Ultrazvukový čistič a tester benzínových vstrekovačov Ancel ANJ400. Tlak až 8 bar, test rozstreku, prietoku a tesnosti, simulácia 100 – 9 900 ot/min, adaptéry pre GDI, EFI, MPI a SFI."
+        },
+        "metaDescription": {
+          "pred": "Umožňuje diagnostiku, testovanie a údržbu benzínových vstrekovacích ventilov na jednom mieste, čím zefektívňuje každodenné prevádzkové činnosti v servise.",
+          "po": "Čistič vstrekovačov Ancel ANJ400: ultrazvukové čistenie a test benzínových vstrekovačov, tlak až 8 bar. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087775",
+      "guid": "d62d11a0-a345-11f1-815e-bc24110eff41",
+      "model": "Ancel ANJ600",
+      "polia": {
+        "shortDescription": {
+          "pred": "ANCEL ANJ600 – čistič palivových vstrekovačov pre automobily ANCEL ANJ600 je profesionálny prístroj na čistenie a testovanie palivových vstrekovačov, vybavený digitálnym displejom, mikroprocesorom…",
+          "po": "Ultrazvukový čistič a tester vstrekovačov Ancel ANJ600 pre EFI, GDI aj piezoelektrické vstrekovače. Tlak 0 – 8 bar, simulácia do 9 900 ot/min, automatické testy, spätné preplachovanie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087776",
+      "guid": "d637bc72-a345-11f1-afe7-bc24110eff41",
+      "model": "Ancel JC200",
+      "polia": {
+        "shortDescription": {
+          "pred": "ANCEL JC200 – zariadenie na čistenie vstrekovacích ventilov motocyklov ANCEL JC200 je kompaktné zariadenie určené na diagnostiku a čistenie vstrekovacích ventilov motocyklov. Je kompatibilné s…",
+          "po": "Kompaktný čistič a tester vstrekovačov motocyklov Ancel JC200 pre Top-Feed MPI 6 V a 12 V. Test rovnomernosti, tesnosti a prietoku, otáčky 100 – 9 900 ot/min, napájanie z 12 V."
+        },
+        "metaDescription": {
+          "pred": "Zariadenie na čistenie a diagnostiku vstrekovačov motocyklov typu Top-Feed MPI s napätím 6 V a 12 V. Testovaciu kvapalinu je možné aj recyklovať.",
+          "po": "Čistič vstrekovačov pre motocykle Ancel JC200: Top-Feed MPI 6 V a 12 V, testy rovnomernosti, tesnosti a prietoku. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069085",
+      "guid": "ddb4b1ce-b233-11f1-86f5-bc2411e8af0e",
+      "model": "Ancel AS500/AC105",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel AS500/AC105 OBD2 diagnostic scanner The Ancel AS500/AC105 diagnostic scanner is an indispensable tool for any workshop and for individual users who want to self-diagnose the condition of their…",
+          "po": "OBD2 skener Ancel AS500/AC105 s farebným displejom 320 × 240. Čítanie a mazanie chýb, I/M Readiness, živé dáta, Freeze Frame, test O2 sondy a batérie, online aktualizácie."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "metaDescription": {
+          "pred": "Skener OBD2 na čítanie a mazanie chybových kódov motora, s podporou emisií, O2 systému a EVAP. Ďalšie produkty nájdete v kategórii Garáž, dielňa, servis.",
+          "po": "Skener OBD2 Ancel AS500/AC105: čítanie a mazanie chýb, živé dáta, Freeze Frame, test O2 sondy a batérie. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077726",
+      "guid": "e83de200-b233-11f1-aa9b-bc2411e8af0e",
+      "model": "Ancel X6",
+      "polia": {
+        "shortDescription": {
+          "pred": "Profesionálny automobilový diagnostický skener OBD2 Ancel X6 Ancel X6 je pokročilý diagnostický skener OBD2 určený pre automobilových profesionálov a servisy. Zariadenie beží na systéme Android 7.8 a…",
+          "po": "Profesionálny OBD2 skener Ancel X6 s 10,1″ odolným displejom, Android, Wi-Fi a Bluetooth. Diagnostika všetkých systémov, 10 resetovacích funkcií, 72 značiek, doživotné aktualizácie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077727",
+      "guid": "e841b222-b233-11f1-b5da-bc2411e8af0e",
+      "model": "Ancel DS200",
+      "polia": {
+        "shortDescription": {
+          "pred": "Automobilový skener OBD2 Ancel DS200 Ancel DS200 je pokročilý diagnostický skener OBD2, ktorý ponúka diagnostiku všetkých systémov vozidla na úrovni OE. Podporuje okrem iného . motor, airbagy,…",
+          "po": "OBD2 skener Ancel DS200 s diagnostikou všetkých systémov vozidla na úrovni OE. 5″ displej, Android 10, 15+ servisných funkcií, viac než 1000 modelov, slovenské menu."
+        },
+        "metaDescription": {
+          "pred": "Skener OBD2 s diagnostikou motora, airbagov, ABS a prevodovky na úrovni OE. Remote zaručuje súkromie používateľa, úsporu času a mimoriadne jednoduché ovládanie.",
+          "po": "Skener OBD2 Ancel DS200: diagnostika motora, airbagov, ABS a prevodovky na úrovni OE, 15+ servisných funkcií. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077723",
+      "guid": "2afbd170-d7f4-11f1-b4be-bc2411833e01",
+      "model": "Ancel VD700",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener OBD2 Ancel VD700 Vlastníte vozidlo značky Volkswagen, Audi, Škoda alebo Seat? Ak áno, Ancel VD700 je zariadenie určené práve pre vás. Tento výkonný skener OBD2 nie je len…",
+          "po": "Diagnostický skener Ancel VD700 pre Volkswagen, Audi, Škoda a Seat. ABS, SRS, motor, prevodovka, TPMS a EPB, 8 servisných funkcií, plná OBD2 diagnostika, doživotné aktualizácie."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "087777",
+      "guid": "65736d18-a0ea-11f1-a9fb-bc24110eff41",
+      "model": "Ancel BS200",
+      "polia": {
+        "shortDescription": {
+          "pred": "Pomocník pri štartovaní motora ANCEL BS200 ANCEL BS200 je pomôcka na štartovanie motora pre vozidlá s napätím 12 V – zabezpečuje stabilný prísun energie počas štartovania vozidla. Využíva technológiu…",
+          "po": "Štartovací zdroj Ancel BS200 so superkondenzátormi pre 12 V vozidlá, špičkový prúd 700 A. Naštartuje aj pri slabej batérii, −40 až 80 °C, nabíjanie z batérie alebo USB-C, IP65."
+        },
+        "metaDescription": {
+          "pred": "Pomôcka na štartovanie motora 12 V so superkondenzátormi a špičkovým prúdom 700 A, vhodná aj pri slabej batérii. To umožňuje okamžité naštartovanie motora.",
+          "po": "Štartovací zdroj Ancel BS200 so superkondenzátormi: 12 V, špičkový prúd 700 A, −40 až 80 °C, IP65. Objednajte na PremiumStore.sk."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
