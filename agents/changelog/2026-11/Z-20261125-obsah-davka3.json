@@ -1,0 +1,271 @@
+{
+  "id": "Z-20261125-obsah-davka3",
+  "datum": "2026-11-25",
+  "rola": "obsah",
+  "uloha": "T-20261110-obsah-vlna-1-produkty-s-navstevnostou",
+  "experiment": null,
+  "system": "shoptet",
+  "schvalenie": "Martin 2026-11-16: ľahší postup (možnosť A)",
+  "zhrnutie": "Dávka 13 (25. 11., 14:10): 15 produktov Ancel (testery batérií BA201 a AD410 PRO, OBD2 skenery BD310, AS100, AD310, AD530, BM700, BZ700, generátory dymu S100, S160, S3000, L300, tester obvodov PB500, motocyklové MT700 a MT100). Nové slovenské krátke a kompaktné dlhé popisy bez externých obrázkov; opravená meta pri AS100, AD310, BM700 a MT100.",
+  "polozky": [
+    {
+      "typ": "produkt",
+      "kod": "069364",
+      "guid": "7f07baaa-92c5-11f1-8fce-bc2411833e01",
+      "model": "Ancel BA201",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel BA201 battery tester The Ancel BA201 is an advanced battery diagnostic tool that combines a variety of testing functions into one compact device. It's ideal for auto repair shops, automotive…",
+          "po": "Tester autobatérie Ancel BA201 pre autá, dodávky, lode a motocykle. Testy batérie, štartovania, nabíjania a vnútorného odporu, CCA 100 – 2000, tlač výsledkov cez počítač."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069080",
+      "guid": "7f40bc60-92c5-11f1-89a2-bc2411833e01",
+      "model": "Ancel AD410 PRO",
+      "polia": {
+        "shortDescription": {
+          "pred": "OBD2 scanner and battery tester 2-in-1 Ancel AD410 PRO Ancel AD410 PRO is an advanced diagnostic tool, combining the functions of OBD2 scanner and battery tester in one device. Thanks to its wide…",
+          "po": "Ancel AD410 PRO spája OBD2 skener a tester batérie 2 v 1. Čítanie a mazanie chýb, živé dáta, test O2 sondy a EVAP, test batérie, štartovania a nabíjania, 2,4″ displej."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069083",
+      "guid": "7f9ccc9e-92c5-11f1-8772-bc2411833e01",
+      "model": "Ancel BD310",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel BD310 OBD2 Bluetooth Diagnostic Scanner Ancel BD310 is a state-of-the-art OBD2 diagnostic scanner that uses Bluetooth technology to connect to smartphones and tablets. The device allows fast…",
+          "po": "Bluetooth OBD2 skener Ancel BD310 pre iOS a Android. Čítanie a mazanie chýb, živé dáta motora, test O2 sondy, EVAP a emisnej pripravenosti, sledovanie batérie, magnetický držiak."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069084",
+      "guid": "7fa75ba0-92c5-11f1-a5cc-bc2411833e01",
+      "model": "Ancel AS100/AC100",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel AS100/AC100 OBD2 diagnostic scanner The Ancel AS100/AC100 OBD2 diagnostic scanner is an advanced device that enables comprehensive diagnostics of OBDII protocol-compliant cars. It is an…",
+          "po": "Kompaktný OBD2 skener Ancel AS100/AC100 pre vozidlá s OBDII/EOBD. Čítanie a mazanie chýb, živé dáta, Freeze Frame, I/M Readiness, test O2 sondy, EVAP a batérie."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "metaDescription": {
+          "pred": "Skener OBD2 na diagnostiku vozidiel podľa protokolu OBDII, rýchlo odhalí problémy s motorom a ďalšími systémami. The device is extremely easy to use.",
+          "po": "Skener OBD2 Ancel AS100/AC100: čítanie a mazanie chýb, živé dáta, test emisnej pripravenosti a batérie. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069086",
+      "guid": "7fbc9dbc-92c5-11f1-96f2-bc2411833e01",
+      "model": "Ancel AD310/AC103",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel AD310/AC103 OBD2 diagnostic scanner The Ancel AD310/AC103 scanner is an advanced diagnostic tool that allows you to quickly and efficiently identify technical problems in your vehicles. It is…",
+          "po": "OBD2 skener Ancel AD310/AC103 s LCD displejom. Čítanie a mazanie chýb s popisom na displeji bez internetu, živé dáta, Freeze Frame, I/M Readiness, OBDII/EOBD a CAN."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "metaDescription": {
+          "pred": "Skener OBD2 na rýchle zistenie porúch vozidla, vhodný pre vodičov aj profesionálov. The Ancel AD310/AC103 is designed for maximum ease of use.",
+          "po": "Skener OBD2 Ancel AD310/AC103: čítanie a mazanie chýb s popisom na displeji, živé dáta a Freeze Frame. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "069087",
+      "guid": "7fca734c-92c5-11f1-9751-bc2411833e01",
+      "model": "Ancel AD530",
+      "polia": {
+        "shortDescription": {
+          "pred": "Ancel AD530 OBD2 Diagnostic Scanner The Ancel AD530 scanner is a comprehensive OBD2 diagnostic tool that provides a wide range of functions to accurately and quickly identify vehicle problems.…",
+          "po": "OBD2 skener Ancel AD530 s podporou všetkých 10 servisných režimov OBD-II. Chyby, živé dáta s grafmi, Freeze Frame, I/M Readiness, test O2 sondy a EVAP, diagnostika batérie."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "073951",
+      "guid": "9c8b4362-92c5-11f1-b125-bc2411833e01",
+      "model": "Ancel S100",
+      "polia": {
+        "shortDescription": {
+          "pred": "Generátor dymu Ancel S100 na detekciu úniku Ancel S100 je spoľahlivé zariadenie na detekciu netesností vozidla, ktoré umožňuje rýchlo a efektívne diagnostikovať rôzne automobilové systémy. Kompaktný…",
+          "po": "Generátor dymu Ancel S100 na hľadanie netesností v palivovom, výfukovom, chladiacom, turbo a EVAP systéme. Nízky tlak 0,5 PSI, ohrev 1 minúta, napájanie 12 V."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077717",
+      "guid": "bd173906-92c5-11f1-b2c6-bc2411833e01",
+      "model": "Ancel S160",
+      "polia": {
+        "shortDescription": {
+          "pred": "Generátor dymu Ancel S160 na detekciu úniku Ancel S160 je generátor dymu určený na rýchle a presné zistenie problémov, ako sú úniky vzduchu z kľukovej skrine, netesnosti tesnenia sacieho potrubia,…",
+          "po": "Generátor dymu Ancel S160 s režimami dym a vzduch, tlakom 0,8 – 14,5 PSI a vstavaným vzduchovým čerpadlom. Dym za menej než 10 sekúnd, manometer a prietokomer."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077718",
+      "guid": "bd21c5d8-92c5-11f1-ad60-bc2411833e01",
+      "model": "Ancel S3000",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický detektor úniku Ancel S3000 Ancel S3000 je detektor netesností, ktorý umožňuje účinnú diagnostiku mnohých systémov vozidla pomocou dymu alebo stlačeného vzduchu. Kompaktný dizajn ukrýva…",
+          "po": "Detektor netesností Ancel S3000 na diagnostiku dymom alebo stlačeným vzduchom. Samostatné tlačidlá režimov, tlakomer v PSI, prietokomer, kovové puzdro, tepelná ochrana."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077719",
+      "guid": "bd2c4d6e-92c5-11f1-a7fb-bc2411833e01",
+      "model": "Ancel L300",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický detektor úniku Ancel L300 Ancel L300 je dvojfunkčný detektor úniku, ktorý kombinuje režimy vzduchu a dymu v jednom kompaktnom zariadení. Prístroj podporuje testovanie netesností systémov…",
+          "po": "Dvojfunkčný detektor netesností Ancel L300 s režimami dym a vzduch. Digitálny tlakomer, vstavané vzduchové čerpadlo, výkon dymu 6 – 8 l/min, ochrana proti prehriatiu a zamrznutiu."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077721",
+      "guid": "bd375b82-92c5-11f1-83fd-bc2411833e01",
+      "model": "Ancel PB500",
+      "polia": {
+        "shortDescription": {
+          "pred": "Tester obvodov Ancel PB500 Ancel PB500 je kompaktný tester obvodov pre 12-24V aplikácie. Ponúka 7 diagnostických režimov vrátane merania striedavého/jednosmerného napätia, testu odporu a diód,…",
+          "po": "Kompaktný tester obvodov Ancel PB500 pre 12 – 24 V systémy. Sedem režimov: napätie AC/DC, odpor, diódy, frekvencia, pracovný cyklus a test vstrekovačov, farebný TFT displej."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077724",
+      "guid": "bd4e777c-92c5-11f1-9750-bc2411833e01",
+      "model": "Ancel BM700",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener OBD2 Ancel BM700 So skenerom Ancel BM700 v ruke môžete zabudnúť na drahé návštevy servisu. Tento multifunkčný diagnostický skener bol vytvorený s ohľadom na majiteľov vozidiel…",
+          "po": "Diagnostický skener Ancel BM700 s plnou podporou systémov vozidiel BMW, MINI a Rolls-Royce, vrátane OBD2 motora. Podsvietený displej, napájanie 12 V, doživotné bezplatné aktualizácie."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "metaDescription": {
+          "pred": "Diagnostický skener OBD2 s pokročilými funkciami pre vozidlá BMW, MINI a Rolls-Royce. Využitie a kompatibilitu prispôsobte parametrom konkrétneho variantu.",
+          "po": "Skener Ancel BM700 pre BMW, MINI a Rolls-Royce: diagnostika systémov vozidla, podsvietený displej, doživotné aktualizácie. Objednajte na PremiumStore.sk."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077725",
+      "guid": "bd58bb7e-92c5-11f1-bae5-bc2411833e01",
+      "model": "Ancel BZ700",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener OBD2 Ancel BZ700 Ancel BZ700 je výkonný diagnostický skener OBD2 určený pre používateľov vozidiel Mercedes-Benz, Sprinter a Smart so 16-pinovým rozhraním. Zariadenie podporuje aj…",
+          "po": "Diagnostický skener Ancel BZ700 pre Mercedes-Benz (od 1991), Sprinter a Smart. Chyby motora, prevodovky, ABS, SRS, DPF, reset oleja, AdBlue, DPF a batérie, doživotné aktualizácie."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077735",
+      "guid": "bd77d1b2-92c5-11f1-b13f-bc2411833e01",
+      "model": "Ancel MT700",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener motocyklov Ancel MT700 Diagnostický skener Ancel MT700 je pokročilé zariadenie, ktoré poskytuje rýchle, presné a ľahko použiteľné testovanie batérie motocykla. Pomocou…",
+          "po": "Tester batérie motocykla Ancel MT700 s meraním vodivosti: skutočné CCA, stav batérie, test štartéra a nabíjania. Pre olovené, AGM a gélové batérie 8 – 16 V."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        }
+      }
+    },
+    {
+      "typ": "produkt",
+      "kod": "077734",
+      "guid": "bd973dae-92c5-11f1-83af-bc2411833e01",
+      "model": "Ancel MT100",
+      "polia": {
+        "shortDescription": {
+          "pred": "Diagnostický skener motocyklov Ancel MT100 Diagnostický skener Ancel MT100 je spoľahlivý nástroj určený na presnú kontrolu stavu motocyklov. Zariadenie podporuje dva kľúčové systémy - motor a ABS - a…",
+          "po": "Diagnostický skener motocyklov Ancel MT100 pre motor a ABS vybraných motocyklov Honda, Suzuki a Yamaha. Funkcie OBD2, adaptačné káble v balení."
+        },
+        "description": {
+          "pred": "Starý popis (anglický, český, strojový katalógový text alebo externé obrázky assets.innpro.pl).",
+          "po": "Nový slovenský popis s funkciami a parametrami."
+        },
+        "metaDescription": {
+          "pred": "Diagnostický skener Ancel MT100 je spoľahlivý nástroj určený na presnú kontrolu stavu motocyklov. Ďalšie produkty nájdete v kategórii Garáž, dielňa, servis.",
+          "po": "Skener pre motocykle Ancel MT100: diagnostika motora a ABS, OBD2, adaptéry Honda, Suzuki a Yamaha v balení. Objednajte na PremiumStore.sk."
+        }
+      }
+    }
+  ],
+  "overenie": "updatedFields potvrdené pri každom zápise.",
+  "trvanlivost": "Import názvy, popisy ani meta neprepisuje (Martin 2026-11-12); overiť po nočnom importe.",
+  "navrat": "Pôvodné krátke popisy sú v poliach pred (skrátené); pôvodné dlhé popisy dodávateľa nie sú uložené, dajú sa získať z feedu dodávateľa INNPRO."
+}
